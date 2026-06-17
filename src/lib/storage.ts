@@ -1,4 +1,6 @@
-// 学習記録をブラウザ内(localStorage)に保存する。サーバー不要。
+// 学習記録をlocalStorage(高速/オフライン)とSupabase(クロスデバイス同期)の両方に保存する。
+import { supabase } from './supabase'
+
 const KEY = 'chosashi_progress_v1'
 
 export type QStat = {
@@ -35,6 +37,49 @@ export function recordAnswer(id: string, isCorrect: boolean) {
   s.last = isCorrect ? 'correct' : 'wrong'
   p[id] = s
   save(p)
+  syncAnswerToSupabase(id, s) // fire-and-forget
+}
+
+/** Supabase に1問分の記録を upsert する（オフライン時はスキップ） */
+async function syncAnswerToSupabase(id: string, s: QStat) {
+  try {
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) return
+    await supabase.from('progress').upsert({
+      user_id: user.id,
+      question_id: id,
+      correct: s.correct,
+      wrong: s.wrong,
+      last_result: s.last,
+      updated_at: new Date().toISOString(),
+    }, { onConflict: 'user_id,question_id' })
+  } catch {
+    // オフライン時はスキップ
+  }
+}
+
+/** アプリ起動時に Supabase から進捗を取得して localStorage にマージする */
+export async function syncProgressFromSupabase() {
+  try {
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) return
+    const { data } = await supabase
+      .from('progress')
+      .select('question_id,correct,wrong,last_result')
+      .eq('user_id', user.id)
+    if (!data || data.length === 0) return
+    const p = loadProgress()
+    for (const row of data) {
+      p[row.question_id] = {
+        correct: row.correct,
+        wrong: row.wrong,
+        last: row.last_result as 'correct' | 'wrong',
+      }
+    }
+    save(p)
+  } catch {
+    // オフライン時はスキップ
+  }
 }
 
 /** 直近で間違えた問題のIDセット */

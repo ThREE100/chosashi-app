@@ -1,4 +1,8 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import type { Session } from '@supabase/supabase-js'
+import { supabase } from './lib/supabase'
+import { syncProgressFromSupabase } from './lib/storage'
+import Login from './components/Login'
 import type {
   AnkiData,
   AnswerResult,
@@ -33,7 +37,30 @@ type View =
   | { name: 'flashcards'; title: string; cards: TermCard[] }
 
 export default function App() {
+  const [session, setSession] = useState<Session | null | undefined>(undefined)
   const [view, setView] = useState<View>({ name: 'home' })
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setSession(session)
+      if (session) syncProgressFromSupabase()
+    })
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_, s) => {
+      setSession(s)
+      if (s) syncProgressFromSupabase()
+    })
+    return () => subscription.unsubscribe()
+  }, [])
+
+  if (session === undefined) {
+    return (
+      <div className="min-h-screen flex items-center justify-center text-gray-500 dark:text-gray-400">
+        読み込み中…
+      </div>
+    )
+  }
+  if (!session) return <Login />
+
   const home = () => setView({ name: 'home' })
 
   const startTakuitsu = (questions: Question[], title: string) => {
