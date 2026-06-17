@@ -1,6 +1,6 @@
 import { useMemo, useState, type ReactNode } from 'react'
 import type { AnkiChapter, KijutsuData, OxCard, Question, TermCard } from '../types'
-import { overallStats, wrongQuestionIds, resetProgress, subjectStats, yearStats } from '../lib/storage'
+import { overallStats, wrongQuestionIds, dueQuestionIds, resetProgress, subjectStats, yearStats } from '../lib/storage'
 import Survey from './Survey'
 import Kijutsu from './Kijutsu'
 
@@ -32,6 +32,7 @@ export default function Home(props: Props) {
   const [statsKey, setStatsKey] = useState(0)
   const stats = useMemo(() => overallStats(), [statsKey])
   const wrongIds = useMemo(() => wrongQuestionIds(), [statsKey])
+  const dueIds = useMemo(() => dueQuestionIds(), [statsKey])
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-6">
@@ -61,6 +62,7 @@ export default function Home(props: Props) {
         <TakuitsuPanel
           {...props}
           wrongIds={wrongIds}
+          dueIds={dueIds}
           stats={stats}
           onReset={() => {
             if (confirm('学習記録をすべて消去しますか？')) {
@@ -70,7 +72,7 @@ export default function Home(props: Props) {
           }}
         />
       )}
-      {tab === 'anki' && <AnkiPanel {...props} wrongIds={wrongIds} />}
+      {tab === 'anki' && <AnkiPanel {...props} wrongIds={wrongIds} dueIds={dueIds} />}
       {tab === 'kijutsu' && <Kijutsu data={props.kijutsu} />}
       {tab === 'calc' && <Survey />}
     </div>
@@ -82,10 +84,12 @@ function TakuitsuPanel({
   questions,
   onStartTakuitsu,
   wrongIds,
+  dueIds,
   stats,
   onReset,
 }: Props & {
   wrongIds: Set<string>
+  dueIds: Set<string>
   stats: ReturnType<typeof overallStats>
   onReset: () => void
 }) {
@@ -98,6 +102,7 @@ function TakuitsuPanel({
   )
   const [year, setYear] = useState(yearList[0]?.code ?? '')
   const wrongQuestions = questions.filter((q) => wrongIds.has(q.id))
+  const dueQuestions = questions.filter((q) => dueIds.has(q.id))
   const subjStats = useMemo(() => subjectStats(questions), [questions, stats])
   const yrStats = useMemo(() => yearStats(questions), [questions, stats])
 
@@ -110,10 +115,27 @@ function TakuitsuPanel({
 
   return (
     <>
+      {dueQuestions.length > 0 && (
+        <button
+          onClick={() =>
+            onStartTakuitsu(shuffle(dueQuestions), `今日の復習（${dueQuestions.length}問）`)
+          }
+          className="mb-5 flex w-full items-center justify-between rounded-2xl bg-gradient-to-r from-indigo-600 to-violet-600 p-5 text-left text-white shadow-md transition hover:from-indigo-700 hover:to-violet-700"
+        >
+          <span>
+            <span className="block text-lg font-bold">📅 今日の復習</span>
+            <span className="text-xs text-indigo-100">
+              忘却曲線に沿って最適なタイミングで再出題
+            </span>
+          </span>
+          <span className="shrink-0 text-2xl font-bold">{dueQuestions.length}問 →</span>
+        </button>
+      )}
+
       <section className="mb-6 grid grid-cols-3 gap-3">
         <Stat label="解いた問題" value={`${stats.answeredQuestions}`} unit="問" />
         <Stat label="延べ正答率" value={`${stats.accuracy}`} unit="%" />
-        <Stat label="復習リスト" value={`${wrongQuestions.length}`} unit="問" />
+        <Stat label="今日の復習" value={`${dueQuestions.length}`} unit="問" />
       </section>
 
       {stats.answeredQuestions > 0 && (
@@ -219,11 +241,26 @@ function AnkiPanel({
   onStartOx,
   onStartFlash,
   wrongIds,
-}: Props & { wrongIds: Set<string> }) {
+  dueIds,
+}: Props & { wrongIds: Set<string>; dueIds: Set<string> }) {
   const wrongOx = ankiOx.filter((c) => wrongIds.has(c.id))
+  const dueOx = ankiOx.filter((c) => dueIds.has(c.id))
 
   return (
     <>
+      {dueOx.length > 0 && (
+        <button
+          onClick={() => onStartOx(shuffle(dueOx), `今日の復習（○×${dueOx.length}問）`)}
+          className="mb-4 flex w-full items-center justify-between rounded-2xl bg-gradient-to-r from-teal-600 to-emerald-600 p-5 text-left text-white shadow-md transition hover:from-teal-700 hover:to-emerald-700"
+        >
+          <span>
+            <span className="block text-lg font-bold">📅 今日の復習</span>
+            <span className="text-xs text-teal-100">忘れる前に間違えた問題を再確認</span>
+          </span>
+          <span className="shrink-0 text-2xl font-bold">{dueOx.length}問 →</span>
+        </button>
+      )}
+
       <Card title="○× 一問一答">
         <div className="mb-3 flex flex-wrap gap-2">
           <PillButton onClick={() => onStartOx(shuffle(ankiOx).slice(0, 20), '○× ランダム20問')}>

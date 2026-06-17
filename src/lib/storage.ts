@@ -37,6 +37,7 @@ export function recordAnswer(id: string, isCorrect: boolean) {
   s.last = isCorrect ? 'correct' : 'wrong'
   p[id] = s
   save(p)
+  scheduleSrs(id, isCorrect) // 復習スケジュール更新
   syncAnswerToSupabase(id, s) // fire-and-forget
 }
 
@@ -63,6 +64,7 @@ export async function syncProgressFromSupabase() {
   try {
     const { data: { user } } = await supabase.auth.getUser()
     if (!user) return
+    await syncSrsFromSupabase(user.id) // 復習スケジュールも取得
     const { data } = await supabase
       .from('progress')
       .select('question_id,correct,wrong,last_result')
@@ -113,6 +115,7 @@ export function overallStats() {
 export function resetProgress() {
   try {
     localStorage.removeItem(KEY)
+    localStorage.removeItem(SRS_KEY)
   } catch {
     // ignore
   }
@@ -224,5 +227,122 @@ export function markKijutsuReviewed(id: string) {
     localStorage.setItem(REVIEWED_KEY, JSON.stringify([...ids]))
   } catch {
     // ignore
+  }
+}
+
+// ---- 間隔反復（SM-2簡易版）: 間違えた問題を忘却曲線に沿って再出題 ----
+// 仕組み: 間違えた問題を翌日→3日後→約1週間後…と、正解するたびに間隔を延ばす。
+// 初回から正解できた問題は「習得済み」とみなし追跡しない。
+const SRS_KEY = 'chosashi_srs_v1'
+
+export type SrsCard = {
+  ease: number // 易しさ係数（正解で微増・不正解で減少）
+  interval: number // 次回復習までの日数
+  reps: number // 連続正解回数
+  due: string // 次回復習日 'YYYY-MM-DD'
+}
+export type SrsDeck = Record<string, SrsCard>
+
+function ymd(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+}
+function todayStr(): string {
+  return ymd(new Date())
+}
+function addDays(base: string, days: number): string {
+  const d = new Date(base + 'T00:00:00')
+  d.setDate(d.getDate() + days)
+  return ymd(d)
+}
+
+export function loadSrs(): SrsDeck {
+  try {
+    const raw = localStorage.getItem(SRS_KEY)
+    return raw ? (JSON.parse(raw) as SrsDeck) : {}
+  } catch {
+    return {}
+  }
+}
+function saveSrs(d: SrsDeck) {
+  try {
+    localStorage.setItem(SRS_KEY, JSON.stringify(d))
+  } catch {
+    // ignore
+  }
+}
+
+/** 解答結果に応じて復習スケジュールを更新する */
+function scheduleSrs(id: string, correct: boolean) {
+  const deck = loadSrs()
+  const prev = deck[id]
+  const today = todayStr()
+
+  let card: SrsCard
+  if (!prev) {
+    if (correct) return // 初回正解 → 復習不要
+    card = { ease: 2.5, interval: 1, reps: 0, due: addDays(today, 1) }
+  } else if (!correct) {
+    // 間違えた → 翌日に再出題、係数を下げる
+    card = { ease: Math.max(1.3, prev.ease - 0.2), interval: 1, reps: 0, due: addDays(today, 1) }
+  } else {
+    // 正解 → 間隔を延ばす（1→3→×ease）
+    const reps = prev.reps + 1
+    const interval = reps === 1 ? 1 : reps === 2 ? 3 : Math.round(prev.interval * prev.ease)
+    const ease = Math.min(2.8, prev.ease + 0.05)
+    card = { ease, interval, reps, due: addDays(today, interval) }
+  }
+  deck[id] = card
+  saveSrs(deck)
+  syncSrsToSupabase(id, card) // fire-and-forget
+}
+
+/** 今日が復習日（due <= 今日）の問題IDセット */
+export function dueQuestionIds(): Set<string> {
+  const deck = loadSrs()
+  const today = todayStr()
+  return new Set(
+    Object.entries(deck)
+      .filter(([, c]) => c.due <= today)
+      .map(([id]) => id),
+  )
+}
+
+async function syncSrsToSupabase(id: string, c: SrsCard) {
+  try {
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) return
+    await supabase.from('srs').upsert({
+      user_id: user.id,
+      question_id: id,
+      ease: c.ease,
+      ivl: c.interval,
+      reps: c.reps,
+      due: c.due,
+      updated_at: new Date().toISOString(),
+    }, { onConflict: 'user_id,question_id' })
+  } catch {
+    // オフライン時はスキップ
+  }
+}
+
+async function syncSrsFromSupabase(userId: string) {
+  try {
+    const { data } = await supabase
+      .from('srs')
+      .select('question_id,ease,ivl,reps,due')
+      .eq('user_id', userId)
+    if (!data || data.length === 0) return
+    const deck = loadSrs()
+    for (const row of data) {
+      deck[row.question_id] = {
+        ease: row.ease,
+        interval: row.ivl,
+        reps: row.reps,
+        due: row.due,
+      }
+    }
+    saveSrs(deck)
+  } catch {
+    // オフライン時はスキップ
   }
 }
