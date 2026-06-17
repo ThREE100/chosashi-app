@@ -1,0 +1,183 @@
+// 学習記録をブラウザ内(localStorage)に保存する。サーバー不要。
+const KEY = 'chosashi_progress_v1'
+
+export type QStat = {
+  correct: number // 正解した回数
+  wrong: number // 間違えた回数
+  last: 'correct' | 'wrong' // 直近の結果
+}
+
+export type Progress = Record<string, QStat>
+
+export function loadProgress(): Progress {
+  try {
+    const raw = localStorage.getItem(KEY)
+    return raw ? (JSON.parse(raw) as Progress) : {}
+  } catch {
+    return {}
+  }
+}
+
+function save(p: Progress) {
+  try {
+    localStorage.setItem(KEY, JSON.stringify(p))
+  } catch {
+    // 保存に失敗しても演習は続行できる
+  }
+}
+
+/** 1問の解答を記録する */
+export function recordAnswer(id: string, isCorrect: boolean) {
+  const p = loadProgress()
+  const s: QStat = p[id] ?? { correct: 0, wrong: 0, last: 'wrong' }
+  if (isCorrect) s.correct += 1
+  else s.wrong += 1
+  s.last = isCorrect ? 'correct' : 'wrong'
+  p[id] = s
+  save(p)
+}
+
+/** 直近で間違えた問題のIDセット */
+export function wrongQuestionIds(): Set<string> {
+  const p = loadProgress()
+  return new Set(
+    Object.entries(p)
+      .filter(([, s]) => s.last === 'wrong')
+      .map(([id]) => id),
+  )
+}
+
+/** 全体統計（解答済み問題数・延べ正答率） */
+export function overallStats() {
+  const p = loadProgress()
+  const ids = Object.keys(p)
+  let correct = 0
+  let total = 0
+  for (const id of ids) {
+    correct += p[id].correct
+    total += p[id].correct + p[id].wrong
+  }
+  return {
+    answeredQuestions: ids.length, // 一度でも解いた問題数
+    totalAttempts: total, // 延べ解答数
+    correctAttempts: correct,
+    accuracy: total > 0 ? Math.round((correct / total) * 100) : 0,
+  }
+}
+
+export function resetProgress() {
+  try {
+    localStorage.removeItem(KEY)
+  } catch {
+    // ignore
+  }
+}
+
+export type SubjectStat = {
+  subject: string
+  answered: number
+  accuracy: number
+  wrongCount: number
+}
+
+/** 科目別の正答率を返す */
+export function subjectStats(questions: { id: string; subject: string }[]): SubjectStat[] {
+  const p = loadProgress()
+  const bySubject: Record<string, { correct: number; total: number; wrong: number }> = {}
+
+  for (const q of questions) {
+    const s = p[q.id]
+    if (!s) continue
+    if (!bySubject[q.subject]) bySubject[q.subject] = { correct: 0, total: 0, wrong: 0 }
+    bySubject[q.subject].correct += s.correct
+    bySubject[q.subject].total += s.correct + s.wrong
+    if (s.last === 'wrong') bySubject[q.subject].wrong += 1
+  }
+
+  return Object.entries(bySubject).map(([subject, s]) => ({
+    subject,
+    answered: s.total,
+    accuracy: s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0,
+    wrongCount: s.wrong,
+  }))
+}
+
+export type YearStat = {
+  yearCode: string
+  yearLabel: string
+  answered: number
+  total: number
+  accuracy: number
+}
+
+/** 年度別の解答状況を返す */
+export function yearStats(
+  questions: { id: string; yearCode: string; yearLabel: string }[],
+): YearStat[] {
+  const p = loadProgress()
+  const byYear: Record<string, { yearLabel: string; correct: number; total: number; qTotal: number }> = {}
+
+  for (const q of questions) {
+    if (!byYear[q.yearCode]) byYear[q.yearCode] = { yearLabel: q.yearLabel, correct: 0, total: 0, qTotal: 0 }
+    byYear[q.yearCode].qTotal += 1
+    const s = p[q.id]
+    if (s) {
+      byYear[q.yearCode].correct += s.correct
+      byYear[q.yearCode].total += s.correct + s.wrong
+    }
+  }
+
+  return Object.entries(byYear).map(([yearCode, s]) => ({
+    yearCode,
+    yearLabel: s.yearLabel,
+    answered: s.total,
+    total: s.qTotal,
+    accuracy: s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0,
+  }))
+}
+
+// ---- 書式の自己採点（solved / partial / failed） ----
+const KIJUTSU_KEY = 'chosashi_kijutsu_v1'
+
+export type KijutsuMarks = Record<string, 'solved' | 'partial' | 'failed'>
+
+export function loadKijutsuMarks(): KijutsuMarks {
+  try {
+    const raw = localStorage.getItem(KIJUTSU_KEY)
+    return raw ? (JSON.parse(raw) as KijutsuMarks) : {}
+  } catch {
+    return {}
+  }
+}
+
+export function setKijutsuMark(id: string, mark: 'solved' | 'partial' | 'failed') {
+  const m = loadKijutsuMarks()
+  m[id] = mark
+  try {
+    localStorage.setItem(KIJUTSU_KEY, JSON.stringify(m))
+  } catch {
+    // ignore
+  }
+}
+
+// ---- 書式の解答確認フラグ（模範解答を一度でも表示したか） ----
+const REVIEWED_KEY = 'chosashi_reviewed_v1'
+
+export function getKijutsuReviewedIds(): Set<string> {
+  try {
+    const raw = localStorage.getItem(REVIEWED_KEY)
+    return raw ? new Set(JSON.parse(raw) as string[]) : new Set()
+  } catch {
+    return new Set()
+  }
+}
+
+export function markKijutsuReviewed(id: string) {
+  const ids = getKijutsuReviewedIds()
+  ids.add(id)
+  try {
+    localStorage.setItem(REVIEWED_KEY, JSON.stringify([...ids]))
+  } catch {
+    // ignore
+  }
+}
