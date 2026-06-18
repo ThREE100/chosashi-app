@@ -59,28 +59,48 @@ async function syncAnswerToSupabase(id: string, s: QStat) {
   }
 }
 
-/** アプリ起動時に Supabase から進捗を取得して localStorage にマージする */
-export async function syncProgressFromSupabase() {
+/** ログイン時: Supabase とローカルを双方向同期する。
+ *  リモートを取得してローカルへ反映 → リモートに無いローカル記録
+ *  （認証導入前に貯めた記録など）をアップロードする。 */
+export async function syncOnLogin() {
   try {
     const { data: { user } } = await supabase.auth.getUser()
     if (!user) return
-    await syncSrsFromSupabase(user.id) // 復習スケジュールも取得
-    const { data } = await supabase
-      .from('progress')
-      .select('question_id,correct,wrong,last_result')
-      .eq('user_id', user.id)
-    if (!data || data.length === 0) return
-    const p = loadProgress()
-    for (const row of data) {
-      p[row.question_id] = {
-        correct: row.correct,
-        wrong: row.wrong,
-        last: row.last_result as 'correct' | 'wrong',
-      }
-    }
-    save(p)
+    await mergeProgress(user.id)
+    await mergeSrs(user.id)
   } catch {
     // オフライン時はスキップ
+  }
+}
+
+async function mergeProgress(userId: string) {
+  const { data } = await supabase
+    .from('progress')
+    .select('question_id,correct,wrong,last_result')
+    .eq('user_id', userId)
+  const remote = data ?? []
+  const remoteIds = new Set(remote.map((r) => r.question_id))
+  const p = loadProgress()
+  for (const row of remote) {
+    p[row.question_id] = {
+      correct: row.correct,
+      wrong: row.wrong,
+      last: row.last_result as 'correct' | 'wrong',
+    }
+  }
+  save(p)
+  const toPush = Object.entries(p)
+    .filter(([id]) => !remoteIds.has(id))
+    .map(([id, s]) => ({
+      user_id: userId,
+      question_id: id,
+      correct: s.correct,
+      wrong: s.wrong,
+      last_result: s.last,
+      updated_at: new Date().toISOString(),
+    }))
+  if (toPush.length) {
+    await supabase.from('progress').upsert(toPush, { onConflict: 'user_id,question_id' })
   }
 }
 
@@ -325,24 +345,35 @@ async function syncSrsToSupabase(id: string, c: SrsCard) {
   }
 }
 
-async function syncSrsFromSupabase(userId: string) {
-  try {
-    const { data } = await supabase
-      .from('srs')
-      .select('question_id,ease,ivl,reps,due')
-      .eq('user_id', userId)
-    if (!data || data.length === 0) return
-    const deck = loadSrs()
-    for (const row of data) {
-      deck[row.question_id] = {
-        ease: row.ease,
-        interval: row.ivl,
-        reps: row.reps,
-        due: row.due,
-      }
+async function mergeSrs(userId: string) {
+  const { data } = await supabase
+    .from('srs')
+    .select('question_id,ease,ivl,reps,due')
+    .eq('user_id', userId)
+  const remote = data ?? []
+  const remoteIds = new Set(remote.map((r) => r.question_id))
+  const deck = loadSrs()
+  for (const row of remote) {
+    deck[row.question_id] = {
+      ease: row.ease,
+      interval: row.ivl,
+      reps: row.reps,
+      due: row.due,
     }
-    saveSrs(deck)
-  } catch {
-    // オフライン時はスキップ
+  }
+  saveSrs(deck)
+  const toPush = Object.entries(deck)
+    .filter(([id]) => !remoteIds.has(id))
+    .map(([id, c]) => ({
+      user_id: userId,
+      question_id: id,
+      ease: c.ease,
+      ivl: c.interval,
+      reps: c.reps,
+      due: c.due,
+      updated_at: new Date().toISOString(),
+    }))
+  if (toPush.length) {
+    await supabase.from('srs').upsert(toPush, { onConflict: 'user_id,question_id' })
   }
 }

@@ -1,6 +1,7 @@
 import { useMemo, useState, type ReactNode } from 'react'
 import type { AnkiChapter, KijutsuData, OxCard, Question, TermCard } from '../types'
 import { overallStats, wrongQuestionIds, dueQuestionIds, resetProgress, subjectStats, yearStats } from '../lib/storage'
+import { supabase } from '../lib/supabase'
 import Survey from './Survey'
 import Kijutsu from './Kijutsu'
 
@@ -10,6 +11,7 @@ type Props = {
   ankiTerms: TermCard[]
   chapters: AnkiChapter[]
   kijutsu: KijutsuData
+  userEmail?: string
   onStartTakuitsu: (questions: Question[], title: string) => void
   onStartOx: (cards: OxCard[], title: string) => void
   onStartFlash: (cards: TermCard[], title: string) => void
@@ -75,6 +77,19 @@ export default function Home(props: Props) {
       {tab === 'anki' && <AnkiPanel {...props} wrongIds={wrongIds} dueIds={dueIds} />}
       {tab === 'kijutsu' && <Kijutsu data={props.kijutsu} />}
       {tab === 'calc' && <Survey />}
+
+      {/* アカウント */}
+      <div className="mt-10 flex flex-col items-center gap-1 border-t border-slate-200 pt-5">
+        {props.userEmail && (
+          <p className="text-xs text-slate-400">{props.userEmail} でログイン中</p>
+        )}
+        <button
+          onClick={() => supabase.auth.signOut()}
+          className="text-xs text-slate-400 underline hover:text-slate-600"
+        >
+          ログアウト
+        </button>
+      </div>
     </div>
   )
 }
@@ -208,13 +223,16 @@ function TakuitsuPanel({
         </div>
       </Card>
 
-      <Card title="間違い復習">
+      <Card title="苦手をまとめて復習">
+        <p className="mb-3 text-xs text-slate-500">
+          復習日に関係なく、直近で間違えた問題をすべて出題します。
+        </p>
         {wrongQuestions.length > 0 ? (
           <button
-            onClick={() => onStartTakuitsu(shuffle(wrongQuestions), `間違い復習（${wrongQuestions.length}問）`)}
+            onClick={() => onStartTakuitsu(shuffle(wrongQuestions), `苦手復習（${wrongQuestions.length}問）`)}
             className="rounded-lg bg-rose-600 px-5 py-2 text-sm font-semibold text-white hover:bg-rose-700"
           >
-            復習する（{wrongQuestions.length}問）
+            まとめて復習（{wrongQuestions.length}問）
           </button>
         ) : (
           <p className="text-sm text-slate-500">間違えた問題がここに溜まります。</p>
@@ -271,10 +289,10 @@ function AnkiPanel({
           </PillButton>
           {wrongOx.length > 0 && (
             <button
-              onClick={() => onStartOx(shuffle(wrongOx), `○× 間違い復習（${wrongOx.length}問）`)}
+              onClick={() => onStartOx(shuffle(wrongOx), `○× 苦手復習（${wrongOx.length}問）`)}
               className="rounded-lg bg-rose-600 px-4 py-2 text-sm font-semibold text-white hover:bg-rose-700"
             >
-              間違い復習 {wrongOx.length}問
+              苦手をまとめて {wrongOx.length}問
             </button>
           )}
         </div>

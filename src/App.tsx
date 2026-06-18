@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import type { Session } from '@supabase/supabase-js'
 import { supabase } from './lib/supabase'
-import { syncProgressFromSupabase } from './lib/storage'
+import { syncOnLogin } from './lib/storage'
 import Login from './components/Login'
 import type {
   AnkiData,
@@ -43,11 +43,11 @@ export default function App() {
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session)
-      if (session) syncProgressFromSupabase()
+      if (session) syncOnLogin()
     })
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_, s) => {
       setSession(s)
-      if (s) syncProgressFromSupabase()
+      if (s) syncOnLogin()
     })
     return () => subscription.unsubscribe()
   }, [])
@@ -114,6 +114,7 @@ export default function App() {
       ankiTerms={anki.terms}
       chapters={anki.chapters}
       kijutsu={kijutsu}
+      userEmail={session.user.email}
       onStartTakuitsu={startTakuitsu}
       onStartOx={startOx}
       onStartFlash={startFlash}
