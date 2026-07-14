@@ -1,5 +1,6 @@
 // 学習記録をlocalStorage(高速/オフライン)とSupabase(クロスデバイス同期)の両方に保存する。
 import { supabase } from './supabase'
+import type { KijutsuMark } from '../types'
 
 const KEY = 'chosashi_progress_v1'
 
@@ -38,6 +39,7 @@ export function recordAnswer(id: string, isCorrect: boolean) {
   p[id] = s
   save(p)
   scheduleSrs(id, isCorrect) // 復習スケジュール更新
+  logStudyAnswer(isCorrect) // 今日の学習ログに加算
   syncAnswerToSupabase(id, s) // fire-and-forget
 }
 
@@ -68,6 +70,7 @@ export async function syncOnLogin() {
     if (!user) return
     await mergeProgress(user.id)
     await mergeSrs(user.id)
+    await mergeStudyLog(user.id)
   } catch {
     // オフライン時はスキップ
   }
@@ -204,6 +207,199 @@ export function yearStats(
   }))
 }
 
+export type GenreStat = {
+  genre: string
+  answered: number
+  accuracy: number
+  wrongCount: number
+}
+
+/** ジャンル別の正答率を返す（ジャンル未設定の問題は集計対象外） */
+export function genreStats(questions: { id: string; genre: string | null }[]): GenreStat[] {
+  const p = loadProgress()
+  const byGenre: Record<string, { correct: number; total: number; wrong: number }> = {}
+
+  for (const q of questions) {
+    if (!q.genre) continue
+    const s = p[q.id]
+    if (!s) continue
+    if (!byGenre[q.genre]) byGenre[q.genre] = { correct: 0, total: 0, wrong: 0 }
+    byGenre[q.genre].correct += s.correct
+    byGenre[q.genre].total += s.correct + s.wrong
+    if (s.last === 'wrong') byGenre[q.genre].wrong += 1
+  }
+
+  return Object.entries(byGenre).map(([genre, s]) => ({
+    genre,
+    answered: s.total,
+    accuracy: s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0,
+    wrongCount: s.wrong,
+  }))
+}
+
+// ---- 学習時間ログ（今日の学習: 手動記録した時間 + 解答数・正解数） ----
+const STUDYLOG_KEY = 'chosashi_studylog_v1'
+
+export type StudyDay = { min: number; ans: number; correct: number }
+export type StudyLog = Record<string, StudyDay>
+
+export function loadStudyLog(): StudyLog {
+  try {
+    const raw = localStorage.getItem(STUDYLOG_KEY)
+    return raw ? (JSON.parse(raw) as StudyLog) : {}
+  } catch {
+    return {}
+  }
+}
+
+function saveStudyLog(log: StudyLog) {
+  try {
+    localStorage.setItem(STUDYLOG_KEY, JSON.stringify(log))
+  } catch {
+    // ignore
+  }
+}
+
+/** 解答1件を今日の学習ログに加算する（択一/暗記/書式の各記録処理から呼ばれる） */
+export function logStudyAnswer(isCorrect: boolean) {
+  const log = loadStudyLog()
+  const key = todayStr()
+  const day = log[key] ?? { min: 0, ans: 0, correct: 0 }
+  day.ans += 1
+  if (isCorrect) day.correct += 1
+  log[key] = day
+  saveStudyLog(log)
+  syncStudyDayToSupabase(key, day) // fire-and-forget
+}
+
+/** 手動で今日の学習時間を加減する（0分未満にはならない） */
+export function addStudyMinutes(delta: number) {
+  const log = loadStudyLog()
+  const key = todayStr()
+  const day = log[key] ?? { min: 0, ans: 0, correct: 0 }
+  day.min = Math.max(0, day.min + delta)
+  log[key] = day
+  saveStudyLog(log)
+  syncStudyDayToSupabase(key, day) // fire-and-forget
+}
+
+/** Supabase に1日分の学習記録を upsert する（オフライン時はスキップ） */
+async function syncStudyDayToSupabase(day: string, d: StudyDay) {
+  try {
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) return
+    await supabase.from('studylog').upsert({
+      user_id: user.id,
+      day,
+      min: d.min,
+      ans: d.ans,
+      correct: d.correct,
+      updated_at: new Date().toISOString(),
+    }, { onConflict: 'user_id,day' })
+  } catch {
+    // オフライン時はスキップ
+  }
+}
+
+/** ログイン時: Supabase の学習記録とローカルを双方向同期する */
+async function mergeStudyLog(userId: string) {
+  const { data } = await supabase
+    .from('studylog')
+    .select('day,min,ans,correct')
+    .eq('user_id', userId)
+  const remote = data ?? []
+  const remoteDays = new Set(remote.map((r) => r.day))
+  const log = loadStudyLog()
+  for (const row of remote) {
+    log[row.day] = { min: row.min, ans: row.ans, correct: row.correct }
+  }
+  saveStudyLog(log)
+  const toPush = Object.entries(log)
+    .filter(([day]) => !remoteDays.has(day))
+    .map(([day, d]) => ({
+      user_id: userId,
+      day,
+      min: d.min,
+      ans: d.ans,
+      correct: d.correct,
+      updated_at: new Date().toISOString(),
+    }))
+  if (toPush.length) {
+    await supabase.from('studylog').upsert(toPush, { onConflict: 'user_id,day' })
+  }
+}
+
+/** 今日の学習ログ */
+export function getTodayStudy(): StudyDay {
+  return loadStudyLog()[todayStr()] ?? { min: 0, ans: 0, correct: 0 }
+}
+
+/** 直近7日間（今日を含む）の学習時間合計 */
+export function weekStudyMinutes(): number {
+  const log = loadStudyLog()
+  const today = todayStr()
+  let total = 0
+  for (let i = 0; i < 7; i++) {
+    total += log[addDays(today, -i)]?.min ?? 0
+  }
+  return total
+}
+
+/** 累計学習時間（分） */
+export function totalStudyMinutes(): number {
+  const log = loadStudyLog()
+  return Object.values(log).reduce((sum, d) => sum + d.min, 0)
+}
+
+/** 連続学習日数（min>0 または ans>0 の日が何日連続続いているか）。
+ *  今日まだ学習していなくても、昨日までの連続記録はそのまま表示する（0にリセットしない）。 */
+export function studyStreak(): number {
+  const log = loadStudyLog()
+  const today = todayStr()
+  const hasActivity = (key: string) => {
+    const d = log[key]
+    return !!d && (d.min > 0 || d.ans > 0)
+  }
+  const start = hasActivity(today) ? today : addDays(today, -1)
+  let streak = 0
+  let cursor = start
+  while (hasActivity(cursor)) {
+    streak += 1
+    cursor = addDays(cursor, -1)
+  }
+  return streak
+}
+
+/** 直近N週間分のヒートマップ用データ（日曜始まり、古い→新しい順、35件=5週なら7×5） */
+export function studyHeatmap(weeks = 5): { date: string; min: number; ans: number }[] {
+  const log = loadStudyLog()
+  const today = todayStr()
+  const todayDow = new Date(today + 'T00:00:00').getDay() // 0=日曜
+  const totalDays = weeks * 7
+  const start = addDays(today, -(totalDays - 1 - todayDow))
+  const result: { date: string; min: number; ans: number }[] = []
+  let cursor = start
+  for (let i = 0; i < totalDays; i++) {
+    const d = log[cursor]
+    result.push({ date: cursor, min: d?.min ?? 0, ans: d?.ans ?? 0 })
+    cursor = addDays(cursor, 1)
+  }
+  return result
+}
+
+/** 直近N日間の日別正答率推移データ（古い→新しい順） */
+export function studyAccuracyTrend(days = 30): { date: string; ans: number; correct: number }[] {
+  const log = loadStudyLog()
+  const today = todayStr()
+  const result: { date: string; ans: number; correct: number }[] = []
+  for (let i = days - 1; i >= 0; i--) {
+    const key = addDays(today, -i)
+    const d = log[key]
+    result.push({ date: key, ans: d?.ans ?? 0, correct: d?.correct ?? 0 })
+  }
+  return result
+}
+
 // ---- 書式の自己採点（solved / partial / failed） ----
 const KIJUTSU_KEY = 'chosashi_kijutsu_v1'
 
@@ -226,6 +422,32 @@ export function setKijutsuMark(id: string, mark: 'solved' | 'partial' | 'failed'
   } catch {
     // ignore
   }
+  logStudyAnswer(mark === 'solved') // 今日の学習ログに加算（solved=正解扱い）
+}
+
+// ---- 用語カードの自己採点（◯△✗、weak-point集計・学習ログ向け） ----
+const FLASHCARD_KEY = 'chosashi_flashcard_v1'
+
+export type FlashcardMarks = Record<string, KijutsuMark>
+
+export function loadFlashcardMarks(): FlashcardMarks {
+  try {
+    const raw = localStorage.getItem(FLASHCARD_KEY)
+    return raw ? (JSON.parse(raw) as FlashcardMarks) : {}
+  } catch {
+    return {}
+  }
+}
+
+export function setFlashcardMark(id: string, mark: KijutsuMark) {
+  const m = loadFlashcardMarks()
+  m[id] = mark
+  try {
+    localStorage.setItem(FLASHCARD_KEY, JSON.stringify(m))
+  } catch {
+    // ignore
+  }
+  logStudyAnswer(mark === 'solved') // 今日の学習ログに加算（solved=正解扱い）
 }
 
 // ---- 書式の解答確認フラグ（模範解答を一度でも表示したか） ----

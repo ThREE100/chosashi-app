@@ -1,5 +1,6 @@
-import { useState } from 'react'
-import type { TermCard } from '../types'
+import { useState, type ReactNode } from 'react'
+import type { TermCard, KijutsuMark } from '../types'
+import { loadFlashcardMarks, setFlashcardMark, type FlashcardMarks } from '../lib/storage'
 
 type Props = {
   title: string
@@ -10,6 +11,7 @@ type Props = {
 export default function Flashcard({ title, cards, onHome }: Props) {
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
+  const [marks, setMarks] = useState<FlashcardMarks>(() => loadFlashcardMarks())
 
   const card = cards[index]
   const isLast = index === cards.length - 1
@@ -18,6 +20,11 @@ export default function Flashcard({ title, cards, onHome }: Props) {
   const go = (dir: 1 | -1) => {
     setFlipped(false)
     setIndex((i) => Math.min(cards.length - 1, Math.max(0, i + dir)))
+  }
+
+  const mark = (m: KijutsuMark) => {
+    setFlashcardMark(card.id, m)
+    setMarks({ ...loadFlashcardMarks() })
   }
 
   return (
@@ -45,8 +52,15 @@ export default function Flashcard({ title, cards, onHome }: Props) {
         onClick={() => setFlipped((f) => !f)}
         className="flex min-h-72 w-full flex-col items-center justify-center rounded-2xl bg-white p-6 text-center shadow-sm transition hover:shadow"
       >
-        <span className="mb-3 rounded-full bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-700">
-          {card.chapter}
+        <span className="mb-3 flex flex-wrap items-center justify-center gap-2">
+          <span className="rounded-full bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-700">
+            {card.chapter}
+          </span>
+          {marks[card.id] && (
+            <span className={'rounded-full px-2 py-0.5 text-xs font-medium ' + MARK_CLASS[marks[card.id]]}>
+              {MARK_LABEL[marks[card.id]]}
+            </span>
+          )}
         </span>
         {!flipped ? (
           <>
@@ -71,6 +85,23 @@ export default function Flashcard({ title, cards, onHome }: Props) {
           </div>
         )}
       </button>
+
+      {flipped && (
+        <div className="mt-4 rounded-xl bg-white p-4 shadow-sm">
+          <p className="mb-3 text-center text-sm font-bold text-slate-600">覚えられた？</p>
+          <div className="grid grid-cols-3 gap-2">
+            <MarkBtn active={marks[card.id] === 'solved'} color="emerald" onClick={() => mark('solved')}>
+              ◯ 覚えた
+            </MarkBtn>
+            <MarkBtn active={marks[card.id] === 'partial'} color="amber" onClick={() => mark('partial')}>
+              △ うろ覚え
+            </MarkBtn>
+            <MarkBtn active={marks[card.id] === 'failed'} color="rose" onClick={() => mark('failed')}>
+              ✗ 忘れた
+            </MarkBtn>
+          </div>
+        </div>
+      )}
 
       <div className="mt-5 flex gap-3">
         <button
@@ -97,5 +128,45 @@ export default function Flashcard({ title, cards, onHome }: Props) {
         )}
       </div>
     </div>
+  )
+}
+
+const MARK_LABEL: Record<KijutsuMark, string> = {
+  solved: '◯ 覚えた',
+  partial: '△ うろ覚え',
+  failed: '✗ 忘れた',
+}
+const MARK_CLASS: Record<KijutsuMark, string> = {
+  solved: 'bg-emerald-100 text-emerald-700',
+  partial: 'bg-amber-100 text-amber-700',
+  failed: 'bg-rose-100 text-rose-700',
+}
+
+function MarkBtn({
+  active,
+  color,
+  onClick,
+  children,
+}: {
+  active: boolean
+  color: 'emerald' | 'amber' | 'rose'
+  onClick: () => void
+  children: ReactNode
+}) {
+  const base = {
+    emerald: 'border-emerald-500 bg-emerald-50 text-emerald-700',
+    amber: 'border-amber-500 bg-amber-50 text-amber-700',
+    rose: 'border-rose-500 bg-rose-50 text-rose-700',
+  }[color]
+  return (
+    <button
+      onClick={onClick}
+      className={
+        'rounded-lg border-2 py-2 text-sm font-semibold transition ' +
+        (active ? base : 'border-slate-200 bg-white text-slate-500')
+      }
+    >
+      {children}
+    </button>
   )
 }

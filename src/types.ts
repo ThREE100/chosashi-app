@@ -13,6 +13,7 @@ export type Question = {
   combos: Combo[]
   correctAnswer: number
   explanation: string
+  genre: string | null
 }
 
 export type Dataset = {
