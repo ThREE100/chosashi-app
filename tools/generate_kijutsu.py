@@ -24,6 +24,16 @@ IMAGE_SETS = {
         'problem': [f'q{i}.png' for i in range(1, 8)],
         'answer': ['a1.png', 'a2.png'],
     },
+    'R07_土地': {
+        'dir': 'kijutsu/R07-tochi',
+        'problem': ['q1.png', 'q2.png', 'q3.png', 'q4.png'],
+        'answer': [],
+    },
+    'R07_建物': {
+        'dir': 'kijutsu/R07-tatemono',
+        'problem': ['q1.png', 'q2.png', 'q3.png'],
+        'answer': [],
+    },
 }
 
 out = []
