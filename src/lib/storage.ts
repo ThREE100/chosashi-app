@@ -567,6 +567,67 @@ async function syncSrsToSupabase(id: string, c: SrsCard) {
   }
 }
 
+/** secretary2(学習管理)向けの進捗サマリーをテキスト化する。コピーしてチャットに貼り付ける想定。 */
+export function buildProgressSummaryText(
+  questions: { id: string; subject: string; yearCode: string; yearLabel: string; genre: string | null }[],
+): string {
+  const stats = overallStats()
+  const subj = subjectStats(questions)
+  const yr = yearStats(questions)
+  const weakGenres = genreStats(questions)
+    .filter((g) => g.answered >= 3)
+    .sort((a, b) => a.accuracy - b.accuracy)
+    .slice(0, 5)
+  const due = dueQuestionIds().size
+
+  const kMarks = loadKijutsuMarks()
+  const kCounts = { solved: 0, partial: 0, failed: 0 }
+  for (const m of Object.values(kMarks)) kCounts[m] += 1
+
+  const fMarks = loadFlashcardMarks()
+  const fCounts = { solved: 0, partial: 0, failed: 0 }
+  for (const m of Object.values(fMarks)) fCounts[m] += 1
+
+  const lines: string[] = []
+  lines.push(`# 進捗サマリー（chosashi-app）${todayStr()} 出力`)
+  lines.push('')
+  lines.push('## 学習時間')
+  lines.push(`- 連続学習日数: ${studyStreak()}日`)
+  lines.push(`- 今週累計: ${weekStudyMinutes()}分 / 全期間累計: ${totalStudyMinutes()}分`)
+  lines.push('')
+  lines.push('## 択一')
+  lines.push(
+    `- 解いた問題: ${stats.answeredQuestions}問 / 延べ解答数: ${stats.totalAttempts}回 / 延べ正答率: ${stats.accuracy}%`,
+  )
+  lines.push(`- 今日の復習待ち（SRS）: ${due}問`)
+  if (subj.length > 0) {
+    lines.push('- 科目別正答率:')
+    for (const s of subj) {
+      lines.push(`  - ${s.subject}: ${s.accuracy}%（解答${s.answered}回・要復習${s.wrongCount}問）`)
+    }
+  }
+  if (yr.length > 0) {
+    lines.push('- 年度別正答率:')
+    for (const y of yr) {
+      lines.push(`  - ${y.yearLabel}: ${y.answered > 0 ? `${y.accuracy}%` : '未解答'}`)
+    }
+  }
+  if (weakGenres.length > 0) {
+    lines.push('- 弱点ジャンルTOP5（3回以上解答したジャンルのみ）:')
+    for (const g of weakGenres) {
+      lines.push(`  - ${g.genre}: ${g.accuracy}%（要復習${g.wrongCount}問）`)
+    }
+  }
+  lines.push('')
+  lines.push('## 書式（記述）自己採点')
+  lines.push(`- ◯解けた: ${kCounts.solved} / △惜しい: ${kCounts.partial} / ✗できなかった: ${kCounts.failed}`)
+  lines.push('')
+  lines.push('## 用語カード自己採点')
+  lines.push(`- ◯覚えた: ${fCounts.solved} / △うろ覚え: ${fCounts.partial} / ✗覚えていない: ${fCounts.failed}`)
+
+  return lines.join('\n')
+}
+
 async function mergeSrs(userId: string) {
   const { data } = await supabase
     .from('srs')

@@ -17,6 +17,7 @@ import {
   studyAccuracyTrend,
   loadKijutsuMarks,
   loadFlashcardMarks,
+  buildProgressSummaryText,
 } from '../lib/storage'
 import { supabase } from '../lib/supabase'
 import Survey from './Survey'
@@ -556,6 +557,8 @@ function LogPanel({
 
   return (
     <>
+      <ProgressSummaryCard questions={questions} />
+
       <section className="mb-6 grid grid-cols-2 gap-3">
         <Stat label="今日の復習（択一＋暗記）" value={`${dueCount}`} unit="問" />
         <Stat label="今日の復習（合計）" value={`${combinedDue}`} unit="件" />
@@ -638,6 +641,46 @@ function LogPanel({
         )}
       </Card>
     </>
+  )
+}
+
+/* ============ secretary2向け 進捗サマリー ============ */
+function ProgressSummaryCard({ questions }: { questions: Question[] }) {
+  const [copied, setCopied] = useState(false)
+  const [showFallback, setShowFallback] = useState(false)
+  const summary = useMemo(() => buildProgressSummaryText(questions), [questions])
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(summary)
+      setCopied(true)
+      setShowFallback(false)
+      setTimeout(() => setCopied(false), 2000)
+    } catch {
+      setShowFallback(true)
+    }
+  }
+
+  return (
+    <Card title="📋 secretary2向け 進捗サマリー">
+      <p className="mb-3 text-xs text-slate-500">
+        コピーして、学習管理チャット（secretary2）に貼り付けると最新の進捗を報告できます。
+      </p>
+      <button
+        onClick={handleCopy}
+        className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700"
+      >
+        {copied ? 'コピーしました ✓' : 'サマリーをコピー'}
+      </button>
+      {showFallback && (
+        <textarea
+          readOnly
+          value={summary}
+          onFocus={(e) => e.currentTarget.select()}
+          className="mt-3 h-48 w-full rounded-lg border border-slate-300 p-2 font-mono text-xs"
+        />
+      )}
+    </Card>
   )
 }
 
