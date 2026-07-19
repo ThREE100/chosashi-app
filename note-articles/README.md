@@ -29,7 +29,7 @@ note-articles/
 │   ├── q18-houtei-souzoku.md      第18問 法定相続情報一覧図
 │   ├── q19-touroku-menkyozei.md   第19問 登録免許税
 │   └── q20-chousashihou.md        第20問 土地家屋調査士・調査士法人
-└── r6-mondai/              令和6年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
+├── r6-mondai/              令和6年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
     ├── q01-koui-nouryoku.md           第1問 制限行為能力者の取消し
     ├── q02-taikouyouken.md            第2問 対抗要件(民法177条)
     ├── q03-daishuu-souzoku.md         第3問 代襲相続
@@ -49,10 +49,31 @@ note-articles/
     ├── q17-tatemono-messitsu.md       第17問 建物の滅失の登記
     ├── q18-kubun-tatemono.md          第18問 区分建物の登記
     ├── q19-hikkai-tokutei.md          第19問 筆界特定
-    └── q20-chousashihou-gyoumu-kitei.md 第20問 土地家屋調査士法
+    ├── q20-chousashihou-gyoumu-kitei.md 第20問 土地家屋調査士法
+└── r3-mondai/              令和3年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
+    ├── q01-dairi.md                  第1問 代理・無権代理
+    ├── q02-senyuken.md               第2問 占有権
+    ├── q03-souzoku.md                第3問 相続の承認・放棄・遺産分割
+    ├── q04-denshi-shinsei.md         第4問 電子申請(調査士が代理人)
+    ├── q05-tenpu-jouhou.md           第5問 登記申請の添付情報
+    ├── q06-kyakka.md                 第6問 登記申請の却下
+    ├── q07-kanryoushou.md            第7問 登記完了証
+    ├── q08-hyoudaibu-shoyuusha.md    第8問 表題部所有者
+    ├── q09-chiban-kaokubangou.md     第9問 土地の地番・建物の家屋番号
+    ├── q10-chimoku.md                第10問 地目
+    ├── q11-bunpitsu.md               第11問 分筆の登記
+    ├── q12-tatemono-toukijikou.md    第12問 建物の表示に関する登記の登記事項
+    ├── q13-tatemonozumen.md          第13問 建物図面・各階平面図
+    ├── q14-tatemono-shurui.md        第14問 建物の種類
+    ├── q15-tatemono-henkou-kousei.md 第15問 建物の表題部の変更・更正の登記
+    ├── q16-tatemono-bunkatsu-gappei.md 第16問 建物の分割・合併の登記
+    ├── q17-tatemono-messitsu.md      第17問 建物の滅失の登記
+    ├── q18-kyouyoububun.md           第18問 共用部分・団地共用部分である旨の登記
+    ├── q19-hikkai-tokutei.md         第19問 筆界特定
+    └── q20-chousashihou.md           第20問 土地家屋調査士・調査士法人
 ```
 
-令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分は第1問〜第20問すべて作成済みです。
+令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分・令和3年度分は第1問〜第20問すべて作成済みです。
 
 ## 令和6年度分の情報ソースについて
 
