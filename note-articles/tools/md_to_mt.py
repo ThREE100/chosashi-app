@@ -55,16 +55,20 @@ def parse_table_to_bullets(table_block):
     """
     lines = [l.strip() for l in table_block.strip().splitlines() if l.strip()]
     rows = []
+    seen_divider = False
     for line in lines:
         if not line.startswith("|"):
             continue
         cells = [c.strip() for c in line.strip("|").split("|")]
         if len(cells) < 3:
             continue
-        # 区切り行(|---|---|---|)はスキップ
+        # 区切り行(|---|---|---|)はスキップし、以降を表データとして扱う
         if all(re.fullmatch(r"-+", c) for c in cells):
+            seen_divider = True
             continue
-        if cells[0] in ("肢",):
+        # 区切り行より前の行はヘッダー行(見出し文言は「肢」に限らないため
+        # 文言でなく区切り行との位置関係で判定する)
+        if not seen_divider:
             continue
         rows.append(cells)
 

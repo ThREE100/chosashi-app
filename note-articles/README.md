@@ -9,6 +9,12 @@ note-articles/
 ├── README.md               このファイル
 ├── format-template.md      note記事の執筆フォーマット(固定テンプレート)
 ├── generate-prompt.md      新しい問題の記事を生成するためのプロンプトテンプレート
+├── tools/
+│   └── md_to_mt.py         MarkdownをnoteインポートMT形式に一括変換するスクリプト
+├── exports/                md_to_mt.pyの出力(note.comインポート用MT形式ファイル)
+│   ├── r2-mondai.mt.txt
+│   ├── r6-mondai.mt.txt
+│   └── r7-mondai.mt.txt
 ├── r7-mondai/              令和7年度 午後の部の解説記事(問題ごとに1ファイル)
 │   ├── q02-senyuken.md            第2問 占有権
 │   ├── q03-souzoku.md             第3問 相続の承認及び放棄
@@ -117,3 +123,17 @@ note-articles/
 ## 新しい問題の記事を作成する方法
 
 `generate-prompt.md` を参照してください。新しい年度・問題番号を指定してClaude Codeに投げれば、同じ形式の記事を生成できます。
+
+## note.comへのインポート方法
+
+`tools/md_to_mt.py` を使うと、年度フォルダ内の記事一式を、note.comのインポート機能が受け付けるMT(Movable Type)形式のテキストファイルに一括変換できます。
+
+```
+cd tools
+python md_to_mt.py ../r2-mondai ../exports/r2-mondai.mt.txt
+```
+
+- 出力ファイルは `exports/` に保存し、note.comの記事インポート機能からアップロードします。インポートされた記事はすべて下書き(Draft)状態になるため、公開は手動で行ってください。
+- まとめ表(Markdownテーブル)はnoteの本文エディタで描画できないため、箇条書きに変換されます。「このまま使える点／使う前に確認したい点」の確認事項ブロックは執筆時の内部メモのため、出力からは除外されます。
+- 令和2年度分（r2-mondai）の変換時に、まとめ表の見出し行が「肢」以外の文言（第15問の「空欄」など）だと見出し行が誤って箇条書きに混入するバグを発見したため、見出し行をMarkdownテーブルの区切り行(`|---|---|---|`)との位置関係で判定するよう `md_to_mt.py` を修正済みです。この修正はr6-mondai・r7-mondaiの既存の出力内容には影響しません(再生成して差分なしを確認済み)。
+- 新しい年度のフォルダ(例: `r8-mondai`)ができたら、同じスクリプトをそのまま再利用できます。
