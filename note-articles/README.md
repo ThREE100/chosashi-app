@@ -29,30 +29,62 @@ note-articles/
 │   ├── q18-houtei-souzoku.md      第18問 法定相続情報一覧図
 │   ├── q19-touroku-menkyozei.md   第19問 登録免許税
 │   └── q20-chousashihou.md        第20問 土地家屋調査士・調査士法人
-└── r6-mondai/              令和6年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
-    ├── q01-koui-nouryoku.md           第1問 制限行為能力者の取消し
-    ├── q02-taikouyouken.md            第2問 対抗要件(民法177条)
-    ├── q03-daishuu-souzoku.md         第3問 代襲相続
-    ├── q04-hyoudai-touki-tenpu.md     第4問 表題登記の添付情報
-    ├── q05-chousashi-houkoku-houshiki.md 第5問 調査士報告方式
-    ├── q06-chizu-teisei.md            第6問 地図等
-    ├── q07-chiseki-kosei.md           第7問 地積に関する更正の登記
-    ├── q08-bunpitsu-touki.md          第8問 土地の分筆の登記
-    ├── q09-gappitsu-touki.md          第9問 合筆の登記
-    ├── q10-chiekiken-zumen.md         第10問 地役権図面
-    ├── q11-daii-ni-yoru-touki.md      第11問 代位による登記
-    ├── q12-tatemono-nintei.md         第12問 建物の認定
-    ├── q13-tatemono-shozai.md         第13問 建物の所在
-    ├── q14-fuzoku-tatemono.md         第14問 附属建物
-    ├── q15-tatemono-hyoji-touki.md    第15問 建物の表示に関する登記
-    ├── q16-tatemono-bunkatsu-gappei.md 第16問 建物の分割又は合併の登記
-    ├── q17-tatemono-messitsu.md       第17問 建物の滅失の登記
-    ├── q18-kubun-tatemono.md          第18問 区分建物の登記
-    ├── q19-hikkai-tokutei.md          第19問 筆界特定
-    └── q20-chousashihou-gyoumu-kitei.md 第20問 土地家屋調査士法
+├── r6-mondai/              令和6年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
+│   ├── q01-koui-nouryoku.md           第1問 制限行為能力者の取消し
+│   ├── q02-taikouyouken.md            第2問 対抗要件(民法177条)
+│   ├── q03-daishuu-souzoku.md         第3問 代襲相続
+│   ├── q04-hyoudai-touki-tenpu.md     第4問 表題登記の添付情報
+│   ├── q05-chousashi-houkoku-houshiki.md 第5問 調査士報告方式
+│   ├── q06-chizu-teisei.md            第6問 地図等
+│   ├── q07-chiseki-kosei.md           第7問 地積に関する更正の登記
+│   ├── q08-bunpitsu-touki.md          第8問 土地の分筆の登記
+│   ├── q09-gappitsu-touki.md          第9問 合筆の登記
+│   ├── q10-chiekiken-zumen.md         第10問 地役権図面
+│   ├── q11-daii-ni-yoru-touki.md      第11問 代位による登記
+│   ├── q12-tatemono-nintei.md         第12問 建物の認定
+│   ├── q13-tatemono-shozai.md         第13問 建物の所在
+│   ├── q14-fuzoku-tatemono.md         第14問 附属建物
+│   ├── q15-tatemono-hyoji-touki.md    第15問 建物の表示に関する登記
+│   ├── q16-tatemono-bunkatsu-gappei.md 第16問 建物の分割又は合併の登記
+│   ├── q17-tatemono-messitsu.md       第17問 建物の滅失の登記
+│   ├── q18-kubun-tatemono.md          第18問 区分建物の登記
+│   ├── q19-hikkai-tokutei.md          第19問 筆界特定
+│   └── q20-chousashihou-gyoumu-kitei.md 第20問 土地家屋調査士法
+└── r2-mondai/              令和2年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
+    ├── q01-kenri-nouryoku-naki-shadan.md 第1問 権利能力なき社団
+    ├── q02-shutoku-jikou.md           第2問 不動産の取得時効
+    ├── q03-sourin-kankei.md           第3問 相隣関係(囲繞地通行権)
+    ├── q04-dairiken-han-i.md          第4問 代理権の範囲(合筆の登記申請)
+    ├── q05-houtei-souzoku-jouhou.md   第5問 法定相続情報一覧図
+    ├── q06-chimoku-nintei.md          第6問 地目の認定
+    ├── q07-chimoku-henkou-touki.md    第7問 地目の変更の登記
+    ├── q08-chiseki-kousei.md          第8問 地積に関する更正の登記
+    ├── q09-bunpitsu-touki.md          第9問 土地の分筆の登記
+    ├── q10-gappitsu-seigen.md         第10問 合筆の登記の制限
+    ├── q11-tatemono-shozai.md         第11問 建物の所在
+    ├── q12-kouzou-yukamenseki.md      第12問 建物の構造及び床面積
+    ├── q13-fuzoku-tatemono.md         第13問 附属建物の登記
+    ├── q14-shikichiken.md             第14問 敷地権
+    ├── q15-touki-kiroku-anaume.md     第15問 敷地権付き区分建物の登記記録(穴埋め)
+    ├── q16-gattai-touki.md            第16問 建物の合体による登記等
+    ├── q17-tatemono-messhitsu.md      第17問 建物の滅失の登記
+    ├── q18-hikkai-tokutei.md          第18問 筆界特定
+    ├── q19-touroku-menkyozei.md       第19問 登録免許税
+    └── q20-chousashihou.md            第20問 土地家屋調査士・調査士法人
 ```
 
-令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分は第1問〜第20問すべて作成済みです。
+令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分・令和2年度分は第1問〜第20問すべて作成済みです。
+
+## 令和2年度分の情報ソースについて
+
+令和2年度分（r2-mondai）は、令和6年度分と同様に、法務省公表資料に加えて、土地家屋調査士試験対策アプリのデータベース（`takuitsu.json`のexplanationフィールド、`kaisetsu_plus.json`のapproach/pitfalls/keyPointsフィールド）を主要な情報源として作成しました。
+
+- 全20問の正解番号は、`takuitsu.json`のcorrectAnswerフィールド（法務省公式正答に基づく検証済みデータ）と照合し、一致を確認済みです。
+- 第5問（法定相続情報一覧図）は、データベースのexplanationフィールドの記載（OCR由来と思われる誤り）と公式正答が食い違っていたため、Web検索で法務局公式サイトの案内を確認し、「法定相続情報番号のみでの提供省略は令和6年4月1日施行の取扱いであり、出題当時（令和2年）は一覧図の写し自体の提供が必要だった」という結論に基づき記事を修正・整理しています。
+- 第10問（合筆の登記の制限）は、地役権の合筆例外が「承役地についてする地役権の登記」（不動産登記規則105条1号）に限られ、要役地側の地役権はこの例外に含まれない点を、データベースの一般的な記載を補って整理しています。
+- 第15問（穴埋め問題）は、記述式に近い出題形式のため、format-template.mdの標準フォーマットを一部アレンジし（問題文の引用を要約、各肢の解説を空欄ごとの解説に変更）、通常のア〜オの正誤判定とは異なる構成にしています。
+- 全20記事について、作成後に独自のPythonスクリプトで正解番号・組合せの整合性、まとめ表の正誤判定と正解の整合性、テンプレート必須要素の有無を機械的に検証済みです。
+- なお、ローカルのアガルート教材フォルダも確認しましたが、令和6年度分の作成時と同様、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、個別問題のテキスト解説は含まれていなかったため、参照できませんでした。
 
 ## 令和6年度分の情報ソースについて
 
