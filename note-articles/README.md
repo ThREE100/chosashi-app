@@ -8,6 +8,9 @@
 note-articles/
 ├── README.md               このファイル
 ├── format-template.md      note記事の執筆フォーマット(固定テンプレート)
+├── tools/
+│   └── md_to_mt.py         qNN-*.mdをnote.comインポート用MT形式に一括変換する汎用スクリプト
+├── exports/                 md_to_mt.pyの変換済み出力(年度ごとの.mt.txt)
 ├── generate-prompt.md      新しい問題の記事を生成するためのプロンプトテンプレート
 ├── r5-mondai/              令和5年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
 │   ├── q01-mukou-torikeshi.md         第1問 無効及び取消し
@@ -116,3 +119,16 @@ note-articles/
 ## 新しい問題の記事を作成する方法
 
 `generate-prompt.md` を参照してください。新しい年度・問題番号を指定してClaude Codeに投げれば、同じ形式の記事を生成できます。
+
+## note.comへの投稿用ファイル（MT形式）を作る方法
+
+各年度フォルダの記事を、note.comのインポート機能が読み込めるMT(Movable Type)形式のテキストファイルに一括変換できます。
+
+```
+python note-articles/tools/md_to_mt.py note-articles/r5-mondai note-articles/exports/r5-mondai.mt.txt
+```
+
+- 「タイトル」「出典」「問題文の引用」「各肢の解説」「まとめ表(→箇条書きに変換)」「結論文」「正解」「見出し画像用フレーズ」を本文として出力します。
+- 「このまま使える点／使う前に確認したい点」の確認事項ブロックや、重複出題チェックのメモなど、執筆時の内部レビュー用の記載は読者向けの本文ではないため、出力からは自動的に除外されます。
+- 出力ファイルの各エントリはSTATUS: Draftで固定されるため、note.comにインポートした記事はすべて下書き状態になります。公開は手動で行ってください。
+- 変換済みファイルは `note-articles/exports/{年度}-mondai.mt.txt` として保存しています（r5-mondai・r6-mondai・r7-mondaiの3本）。新しい年度フォルダができた場合も、同じスクリプトをそのまま再利用できます。
