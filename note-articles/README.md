@@ -29,30 +29,51 @@ note-articles/
 │   ├── q18-houtei-souzoku.md      第18問 法定相続情報一覧図
 │   ├── q19-touroku-menkyozei.md   第19問 登録免許税
 │   └── q20-chousashihou.md        第20問 土地家屋調査士・調査士法人
-└── r6-mondai/              令和6年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
-    ├── q01-koui-nouryoku.md           第1問 制限行為能力者の取消し
-    ├── q02-taikouyouken.md            第2問 対抗要件(民法177条)
-    ├── q03-daishuu-souzoku.md         第3問 代襲相続
-    ├── q04-hyoudai-touki-tenpu.md     第4問 表題登記の添付情報
-    ├── q05-chousashi-houkoku-houshiki.md 第5問 調査士報告方式
-    ├── q06-chizu-teisei.md            第6問 地図等
-    ├── q07-chiseki-kosei.md           第7問 地積に関する更正の登記
-    ├── q08-bunpitsu-touki.md          第8問 土地の分筆の登記
-    ├── q09-gappitsu-touki.md          第9問 合筆の登記
-    ├── q10-chiekiken-zumen.md         第10問 地役権図面
-    ├── q11-daii-ni-yoru-touki.md      第11問 代位による登記
-    ├── q12-tatemono-nintei.md         第12問 建物の認定
-    ├── q13-tatemono-shozai.md         第13問 建物の所在
+├── r6-mondai/              令和6年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
+│   ├── q01-koui-nouryoku.md           第1問 制限行為能力者の取消し
+│   ├── q02-taikouyouken.md            第2問 対抗要件(民法177条)
+│   ├── q03-daishuu-souzoku.md         第3問 代襲相続
+│   ├── q04-hyoudai-touki-tenpu.md     第4問 表題登記の添付情報
+│   ├── q05-chousashi-houkoku-houshiki.md 第5問 調査士報告方式
+│   ├── q06-chizu-teisei.md            第6問 地図等
+│   ├── q07-chiseki-kosei.md           第7問 地積に関する更正の登記
+│   ├── q08-bunpitsu-touki.md          第8問 土地の分筆の登記
+│   ├── q09-gappitsu-touki.md          第9問 合筆の登記
+│   ├── q10-chiekiken-zumen.md         第10問 地役権図面
+│   ├── q11-daii-ni-yoru-touki.md      第11問 代位による登記
+│   ├── q12-tatemono-nintei.md         第12問 建物の認定
+│   ├── q13-tatemono-shozai.md         第13問 建物の所在
+│   ├── q14-fuzoku-tatemono.md         第14問 附属建物
+│   ├── q15-tatemono-hyoji-touki.md    第15問 建物の表示に関する登記
+│   ├── q16-tatemono-bunkatsu-gappei.md 第16問 建物の分割又は合併の登記
+│   ├── q17-tatemono-messitsu.md       第17問 建物の滅失の登記
+│   ├── q18-kubun-tatemono.md          第18問 区分建物の登記
+│   ├── q19-hikkai-tokutei.md          第19問 筆界特定
+│   └── q20-chousashihou-gyoumu-kitei.md 第20問 土地家屋調査士法
+└── h26-mondai/             平成26年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
+    ├── q01-seinenkouken.md            第1問 成年後見・保佐・補助
+    ├── q02-bukkentekiseikyuuken.md    第2問 物権的請求権
+    ├── q03-souzokunin-hani.md         第3問 相続人の範囲
+    ├── q04-hyoudaibu-shoyuusha-enkaku.md 第4問 表題部所有者(穴埋め)
+    ├── q05-chizu.md                   第5問 地図
+    ├── q06-chisekisokuryouzu-heisa.md 第6問 登記事項の記録・地積測量図の閉鎖等
+    ├── q07-shinsei-gimu.md            第7問 表示に関する登記の申請義務
+    ├── q08-tenpu-jouhou.md            第8問 表示に関する登記の申請における添付情報
+    ├── q09-chiseki-kousei.md          第9問 地積の更正の登記
+    ├── q10-bunpitsu.md                第10問 分筆の登記
+    ├── q11-tatemono-hyoudaibu-henkou.md 第11問 建物の表題部の変更の登記
+    ├── q12-tatemono-shinsei-jouhou.md 第12問 建物の登記の申請情報
+    ├── q13-tatemonozumen.md           第13問 建物図面又は各階平面図
     ├── q14-fuzoku-tatemono.md         第14問 附属建物
-    ├── q15-tatemono-hyoji-touki.md    第15問 建物の表示に関する登記
-    ├── q16-tatemono-bunkatsu-gappei.md 第16問 建物の分割又は合併の登記
-    ├── q17-tatemono-messitsu.md       第17問 建物の滅失の登記
-    ├── q18-kubun-tatemono.md          第18問 区分建物の登記
-    ├── q19-hikkai-tokutei.md          第19問 筆界特定
-    └── q20-chousashihou-gyoumu-kitei.md 第20問 土地家屋調査士法
+    ├── q15-yukamenseki.md             第15問 建物の床面積の定め方
+    ├── q16-kubuntatemono.md           第16問 区分建物
+    ├── q17-gattai-touki.md            第17問 合体による登記等
+    ├── q18-toukijikou-shoumei.md      第18問 登記事項の証明等
+    ├── q19-hikkaitokutei.md           第19問 筆界特定
+    └── q20-chousashihou.md            第20問 土地家屋調査士・調査士法人の業務
 ```
 
-令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分は第1問〜第20問すべて作成済みです。
+令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分・平成26年度分は第1問〜第20問すべて作成済みです。
 
 ## 令和6年度分の情報ソースについて
 
@@ -62,6 +83,16 @@ note-articles/
 - `kaisetsu_plus.json`（approach/pitfalls/keyPointsの補足解説）を初学者向けの具体例作成のヒントとして参照した。
 - ローカルに保存されているアガルートの教材（`土地家屋調査士_アガルート`フォルダ）も確認したが、択一式については講義動画のチャプター一覧（対照表PDF）のみで、個別問題のテキスト解説は含まれていなかったため、参照できなかった。
 - 全20記事について、作成後に法務省公式の正解表（PDF）と条文（e-Gov法令検索等）を用いた独立したダブルチェックを実施し、正解番号・各肢の正誤判定に誤りがないことを確認済み。
+
+## 平成26年度分の情報ソースについて
+
+平成26年度分（h26-mondai）は、ユーザーから提供された次の2点のPDFを一次情報源として作成しました。
+
+- 試験問題原本のPDF（午後の部、第1問〜第20問の問題文・肢・選択肢を含む全ページのスキャン画像）。テキスト層のない画像PDFであったため、各ページを画像化し、1ページずつ内容を判読して問題文・選択肢を書き起こしました。
+- 「平成26年度土地家屋調査士試験筆記試験（多肢択一式問題）正解」PDF（午前・午後の全問の正解番号一覧）。
+- あわせて、`src/data/takuitsu.json`（問題文・正解番号のデータベース）と `src/data/kaisetsu_plus.json`（approach/pitfalls/keyPointsの補足解説、平成26年度分は全問reviewed済み）を、各肢の論点整理・条文根拠のヒントとして参照しました。ただし、これらのデータベースの選択肢本文はOCR由来で一部精度が低い問題（第4問・第6問・第8問・第11問〜第14問・第16問〜第18問等）があったため、最終的な問題文・選択肢の引用は、すべてユーザー提供の試験問題原本PDFの直接判読に基づいています。
+- 全20記事について、作成後に上記の正解PDFとの照合、および各肢の論理的な整合性チェック（まとめ表の判定と正解の組合せが一致しているか）を実施しました。この過程で、第11問の肢エ（附属建物の符号の再利用可否）について、初稿の判定が正解の組合せと矛盾していたため、判定を訂正しています。
+- 各肢の条文根拠は、民法・不動産登記法・不動産登記規則・土地家屋調査士法等の一般的な知識に基づいて記載していますが、特に第6問（地積測量図の閉鎖ルールの詳細）、第13問（区分建物の表題登記における一棟の建物の各階平面図の要否）、第15問（塔屋の床面積算入基準）、第16問・第17問の一部の肢については、根拠条文の逐条確認までは至っておらず、各記事末尾の確認事項ブロックにその旨を明記しています。
 
 ## 各記事の構成
 
