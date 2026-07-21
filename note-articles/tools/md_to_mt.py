@@ -55,16 +55,19 @@ def parse_table_to_bullets(table_block):
     """
     lines = [l.strip() for l in table_block.strip().splitlines() if l.strip()]
     rows = []
+    seen_separator = False
     for line in lines:
         if not line.startswith("|"):
             continue
         cells = [c.strip() for c in line.strip("|").split("|")]
         if len(cells) < 3:
             continue
-        # 区切り行(|---|---|---|)はスキップ
+        # 区切り行(|---|---|---|)はスキップし、以降を本文行として扱う
         if all(re.fullmatch(r"-+", c) for c in cells):
+            seen_separator = True
             continue
-        if cells[0] in ("肢",):
+        # 区切り行より前(ヘッダー行)は列名に関わらずスキップする
+        if not seen_separator:
             continue
         rows.append(cells)
 
@@ -74,6 +77,51 @@ def parse_table_to_bullets(table_block):
             f"<li><strong>{escape(label)}（{escape(verdict)}）</strong>　{inline_md_to_html(point)}</li>"
         )
     return "<ul>\n" + "\n".join(items) + "\n</ul>"
+
+
+def convert_inline_tables(text_lines):
+    """
+    問題文の引用ブロック内に埋め込まれたMarkdownテーブル(A欄/B欄の対応表など)を、
+    note.comのblockquote内でも読める平文の行(「ア：Ａ欄の内容 → Ｂ欄の内容」)に変換する。
+    テーブルでない行はそのまま返す。
+    """
+    out = []
+    i = 0
+    n = len(text_lines)
+    while i < n:
+        line = text_lines[i]
+        if line.strip().startswith("|"):
+            # 連続する "|" 始まりの行をテーブルブロックとして収集する
+            block = []
+            while i < n and text_lines[i].strip().startswith("|"):
+                block.append(text_lines[i].strip())
+                i += 1
+            header = [c.strip() for c in block[0].strip("|").split("|")] if block else []
+            data_rows = []
+            for row_line in block[1:]:
+                cells = [c.strip() for c in row_line.strip("|").split("|")]
+                if all(re.fullmatch(r"-+", c) for c in cells if c):
+                    continue  # 区切り行(|---|---|---|)はスキップ
+                data_rows.append(cells)
+            for cells in data_rows:
+                label = cells[0] if cells and cells[0] else ""
+                rest = cells[1:] if len(cells) > 1 else []
+                # ヘッダーが対応していれば「見出し：内容」の形にする
+                parts = []
+                for idx, val in enumerate(rest, start=1):
+                    if not val:
+                        continue
+                    head = header[idx] if idx < len(header) and header[idx] else ""
+                    parts.append(f"{head}：{val}" if head else val)
+                joined = "／".join(parts)
+                if label:
+                    out.append(f"{label}　{joined}" if joined else label)
+                elif joined:
+                    out.append(joined)
+        else:
+            out.append(line)
+            i += 1
+    return out
 
 
 def parse_article(md_text):
@@ -109,7 +157,8 @@ def parse_article(md_text):
         elif in_quote:
             break
     if quote_lines:
-        non_empty = [inline_md_to_html(q) for q in quote_lines if q]
+        readable_quote_lines = convert_inline_tables(quote_lines)
+        non_empty = [inline_md_to_html(q) for q in readable_quote_lines if q]
         quote_html = "<br><br>\n".join(non_empty)
         body_parts.append(f"<blockquote><p>{quote_html}</p></blockquote>")
 
