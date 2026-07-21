@@ -9,6 +9,12 @@ note-articles/
 ├── README.md               このファイル
 ├── format-template.md      note記事の執筆フォーマット(固定テンプレート)
 ├── generate-prompt.md      新しい問題の記事を生成するためのプロンプトテンプレート
+├── tools/
+│   └── md_to_mt.py         note.comインポート用(MT形式)への一括変換スクリプト
+├── exports/                md_to_mt.pyで変換済みのnote.comインポート用ファイル
+│   ├── r6-mondai.mt.txt
+│   ├── r7-mondai.mt.txt
+│   └── h27-mondai.mt.txt
 ├── r7-mondai/              令和7年度 午後の部の解説記事(問題ごとに1ファイル)
 │   ├── q02-senyuken.md            第2問 占有権
 │   ├── q03-souzoku.md             第3問 相続の承認及び放棄
@@ -115,3 +121,17 @@ note-articles/
 ## 新しい問題の記事を作成する方法
 
 `generate-prompt.md` を参照してください。新しい年度・問題番号を指定してClaude Codeに投げれば、同じ形式の記事を生成できます。
+
+## note.comへのインポート方法
+
+各年度フォルダの記事をまとめてnote.comに下書きとしてインポートしたい場合は、`tools/md_to_mt.py` を使用します。
+
+```
+python tools/md_to_mt.py <記事フォルダ> [出力ファイル]
+# 例: python tools/md_to_mt.py h27-mondai exports/h27-mondai.mt.txt
+```
+
+- 出力はMT(Movable Type)形式のテキストファイルで、note.comのインポート機能にそのまま読み込めます。
+- 「このまま使える点／使う前に確認したい点」ブロック(確認事項ブロック・重複出題チェックのメモを含む)は執筆時の内部メモのため、出力からは除外されます。読者向けの本文には含まれません。
+- インポートされた記事はすべて下書き(Draft)状態になります。内容を確認したうえで、note.com側で公開操作をしてください。
+- 新しい年度のフォルダができたら、同じスクリプトをそのまま再利用できます。`exports/` フォルダに変換済みファイルを追加し、上記のフォルダ構成にも追記してください。
