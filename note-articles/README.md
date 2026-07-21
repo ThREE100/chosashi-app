@@ -50,27 +50,33 @@ note-articles/
 │   ├── q18-kubun-tatemono.md          第18問 区分建物の登記
 │   ├── q19-hikkai-tokutei.md          第19問 筆界特定
 │   └── q20-chousashihou-gyoumu-kitei.md 第20問 土地家屋調査士法
-└── h25-mondai/             平成25年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
-    ├── q01-miseinensha-sajutsu.md     第1問 未成年者の詐術・取消し
-    ├── q02-shutokujikou.md            第2問 取得時効
-    ├── q03-senyuken.md                第3問 占有権
-    ├── q04-ikkatsu-shinsei.md         第4問 一の申請情報による申請
-    ├── q05-genpon-kanpu.md            第5問 原本還付
-    ├── q06-honninkakuninjouhou.md     第6問 本人確認情報
-    ├── q07-tandoku-shinsei.md         第7問 単独申請の可否
-    ├── q08-chimoku.md                 第8問 地目
-    ├── q09-bunpitsu.md                第9問 分筆の登記
-    ├── q10-tatemono-shozai.md         第10問 建物の所在
-    ├── q11-kaokubangou.md             第11問 家屋番号
-    ├── q12-tatemono-shurui-kouzou.md  第12問 建物の種類・構造
-    ├── q13-yukamenseki.md             第13問 建物の床面積
-    ├── q14-tenpu-jouhou.md            第14問 建物の表示登記の添付情報
-    ├── q15-souzoku-hyouji-touki.md    第15問 相続と表示登記
-    ├── q16-kubun-tatemono-henkou.md   第16問 区分建物の表題部変更登記
-    ├── q17-tatemono-gappei.md         第17問 建物の合併の登記
-    ├── q18-hikkaitokutei.md           第18問 筆界特定
-    ├── q19-shinsaseikyuu.md           第19問 審査請求
-    └── q20-chousashihou.md            第20問 土地家屋調査士法
+├── h25-mondai/             平成25年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
+│   ├── q01-miseinensha-sajutsu.md     第1問 未成年者の詐術・取消し
+│   ├── q02-shutokujikou.md            第2問 取得時効
+│   ├── q03-senyuken.md                第3問 占有権
+│   ├── q04-ikkatsu-shinsei.md         第4問 一の申請情報による申請
+│   ├── q05-genpon-kanpu.md            第5問 原本還付
+│   ├── q06-honninkakuninjouhou.md     第6問 本人確認情報
+│   ├── q07-tandoku-shinsei.md         第7問 単独申請の可否
+│   ├── q08-chimoku.md                 第8問 地目
+│   ├── q09-bunpitsu.md                第9問 分筆の登記
+│   ├── q10-tatemono-shozai.md         第10問 建物の所在
+│   ├── q11-kaokubangou.md             第11問 家屋番号
+│   ├── q12-tatemono-shurui-kouzou.md  第12問 建物の種類・構造
+│   ├── q13-yukamenseki.md             第13問 建物の床面積
+│   ├── q14-tenpu-jouhou.md            第14問 建物の表示登記の添付情報
+│   ├── q15-souzoku-hyouji-touki.md    第15問 相続と表示登記
+│   ├── q16-kubun-tatemono-henkou.md   第16問 区分建物の表題部変更登記
+│   ├── q17-tatemono-gappei.md         第17問 建物の合併の登記
+│   ├── q18-hikkaitokutei.md           第18問 筆界特定
+│   ├── q19-shinsaseikyuu.md           第19問 審査請求
+│   └── q20-chousashihou.md            第20問 土地家屋調査士法
+├── tools/
+│   └── md_to_mt.py         記事フォルダをnote.comインポート用MT形式に一括変換するスクリプト
+└── exports/                MT形式変換済みファイル(note.comのインポート機能にそのまま投入可能)
+    ├── r6-mondai.mt.txt
+    ├── r7-mondai.mt.txt
+    └── h25-mondai.mt.txt
 ```
 
 令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分・平成25年度分は第1問〜第20問すべて作成済みです。
