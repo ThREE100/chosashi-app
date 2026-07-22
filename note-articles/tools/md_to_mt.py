@@ -64,7 +64,10 @@ def parse_table_to_bullets(table_block):
         # 区切り行(|---|---|---|)はスキップ
         if all(re.fullmatch(r"-+", c) for c in cells):
             continue
-        if cells[0] in ("肢",):
+        # ヘッダー行(「肢」「語句」等の見出し行)はスキップ。
+        # 通常の「肢/判定/ポイント」表だけでなく、穴埋め問題の「語句/判定/ポイント」表など
+        # 1列目の見出し語が変わる形式にも対応できるよう、2列目が「判定」であることで判定する。
+        if cells[0] in ("肢", "語句") or cells[1] == "判定":
             continue
         rows.append(cells)
 
