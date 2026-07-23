@@ -9,7 +9,12 @@ note-articles/
 ├── README.md               このファイル
 ├── format-template.md      note記事の執筆フォーマット(固定テンプレート)
 ├── generate-prompt.md      新しい問題の記事を生成するためのプロンプトテンプレート
-├── r7-mondai/              令和7年度 午後の部の解説記事(問題ごとに1ファイル)
+├── column/                 特定の1問に紐づかない概念解説・横断参照コラム
+│   ├── hyoudaibu-shoyuusha-vs-toukimeigijin.md 「表題部所有者」と「所有権の登記名義人」の違い
+│   ├── tatemono-nintei-3youken.md              建物認定3要件の総まとめ(複数年度の過去問を横断集約)
+│   └── hyoudai-touki-gimu-to-genjitsu.md       表題登記の「義務」と「現実」のズレ
+├── r7-mondai/              令和7年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
+│   ├── q01-ishihyouji.md          第1問 意思表示
 │   ├── q02-senyuken.md            第2問 占有権
 │   ├── q03-souzoku.md             第3問 相続の承認及び放棄
 │   ├── q04-chizu-teisei.md        第4問 地図の訂正
@@ -52,7 +57,7 @@ note-articles/
     └── q20-chousashihou-gyoumu-kitei.md 第20問 土地家屋調査士法
 ```
 
-令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分は第1問〜第20問すべて作成済みです。
+令和7年度分・令和6年度分とも、第1問〜第20問すべて作成済みです（令和7年度は当初第2問から作業を開始したため、第1問(意思表示)は後日追加しました）。
 
 ## 令和6年度分の情報ソースについて
 
