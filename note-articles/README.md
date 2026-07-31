@@ -59,30 +59,51 @@ note-articles/
 │   ├── q18-kubun-tatemono.md          第18問 区分建物の登記
 │   ├── q19-hikkai-tokutei.md          第19問 筆界特定
 │   └── q20-chousashihou-gyoumu-kitei.md 第20問 土地家屋調査士法
-└── r4-mondai/              令和4年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
-    ├── q01-seigen-koui-nouryoku.md    第1問 制限行為能力者
-    ├── q02-ishi-hyouji.md            第2問 意思表示(虚偽表示・詐欺・強迫)
-    ├── q03-souzoku-shounin-houki.md  第3問 相続の承認及び放棄
-    ├── q04-hozon-kikan.md            第4問 登記記録等の保存期間
-    ├── q05-touki-shikibetsu-jouhou.md 第5問 登記識別情報
-    ├── q06-chimoku.md                第6問 地目
-    ├── q07-hyoudaibu-hensei-kousei.md 第7問 土地の表題部の変更・更正の登記
-    ├── q08-bunpitsu.md               第8問 土地の分筆の登記
-    ├── q09-gappitsu.md               第9問 合筆の登記
-    ├── q10-tatemono-nintei.md        第10問 建物の認定
-    ├── q11-tatemono-shozai.md        第11問 建物の所在又は家屋番号
-    ├── q12-yukamenseki.md            第12問 建物の床面積
-    ├── q13-tatemono-hyoudai-touki.md 第13問 建物の表題登記
-    ├── q14-fuzoku-tatemono.md        第14問 附属建物
-    ├── q15-gattai-touki.md           第15問 合体による登記等
-    ├── q16-tatemono-gappei.md        第16問 建物の合併の登記
-    ├── q17-kubun-tatemono.md         第17問 区分建物の登記の申請
-    ├── q18-shikichiken.md            第18問 区分建物の敷地権
+├── r4-mondai/              令和4年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
+│   ├── q01-seigen-koui-nouryoku.md    第1問 制限行為能力者
+│   ├── q02-ishi-hyouji.md            第2問 意思表示(虚偽表示・詐欺・強迫)
+│   ├── q03-souzoku-shounin-houki.md  第3問 相続の承認及び放棄
+│   ├── q04-hozon-kikan.md            第4問 登記記録等の保存期間
+│   ├── q05-touki-shikibetsu-jouhou.md 第5問 登記識別情報
+│   ├── q06-chimoku.md                第6問 地目
+│   ├── q07-hyoudaibu-hensei-kousei.md 第7問 土地の表題部の変更・更正の登記
+│   ├── q08-bunpitsu.md               第8問 土地の分筆の登記
+│   ├── q09-gappitsu.md               第9問 合筆の登記
+│   ├── q10-tatemono-nintei.md        第10問 建物の認定
+│   ├── q11-tatemono-shozai.md        第11問 建物の所在又は家屋番号
+│   ├── q12-yukamenseki.md            第12問 建物の床面積
+│   ├── q13-tatemono-hyoudai-touki.md 第13問 建物の表題登記
+│   ├── q14-fuzoku-tatemono.md        第14問 附属建物
+│   ├── q15-gattai-touki.md           第15問 合体による登記等
+│   ├── q16-tatemono-gappei.md        第16問 建物の合併の登記
+│   ├── q17-kubun-tatemono.md         第17問 区分建物の登記の申請
+│   ├── q18-shikichiken.md            第18問 区分建物の敷地権
+│   ├── q19-hikkai-tokutei.md         第19問 筆界特定
+│   └── q20-chousashihou.md           第20問 土地家屋調査士・土地家屋調査士法人
+└── r3-mondai/              令和3年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
+    ├── q01-dairi.md                  第1問 代理・無権代理
+    ├── q02-senyuken.md               第2問 占有権
+    ├── q03-souzoku.md                第3問 相続の承認・放棄・遺産分割
+    ├── q04-denshi-shinsei.md         第4問 電子申請(調査士が代理人)
+    ├── q05-tenpu-jouhou.md           第5問 登記申請の添付情報
+    ├── q06-kyakka.md                 第6問 登記申請の却下
+    ├── q07-kanryoushou.md            第7問 登記完了証
+    ├── q08-hyoudaibu-shoyuusha.md    第8問 表題部所有者
+    ├── q09-chiban-kaokubangou.md     第9問 土地の地番・建物の家屋番号
+    ├── q10-chimoku.md                第10問 地目
+    ├── q11-bunpitsu.md               第11問 分筆の登記
+    ├── q12-tatemono-toukijikou.md    第12問 建物の表示に関する登記の登記事項
+    ├── q13-tatemonozumen.md          第13問 建物図面・各階平面図
+    ├── q14-tatemono-shurui.md        第14問 建物の種類
+    ├── q15-tatemono-henkou-kousei.md 第15問 建物の表題部の変更・更正の登記
+    ├── q16-tatemono-bunkatsu-gappei.md 第16問 建物の分割・合併の登記
+    ├── q17-tatemono-messitsu.md      第17問 建物の滅失の登記
+    ├── q18-kyouyoububun.md           第18問 共用部分・団地共用部分である旨の登記
     ├── q19-hikkai-tokutei.md         第19問 筆界特定
-    └── q20-chousashihou.md           第20問 土地家屋調査士・土地家屋調査士法人
+    └── q20-chousashihou.md           第20問 土地家屋調査士・調査士法人
 ```
 
-令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分・令和4年度分は第1問〜第20問すべて作成済みです。
+令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分・令和4年度分・令和3年度分は第1問〜第20問すべて作成済みです。
 
 ## 分野別・総合解説記事（bunya-kaisetsu）について
 
@@ -120,6 +141,16 @@ note-articles/
 - ローカルに保存されているアガルートの過去問テキストPDF等は、ユーザーの手元環境にあるファイルであり、本作業を行ったクラウド上の実行環境（リポジトリのクローン）には含まれていなかったため、直接は参照できなかった。根拠は上記データベースに拠っている。
 - 作成後、次の独立したダブルチェックを実施済み: (1) 全20問の正解番号・組合せがtakuitsu.jsonのcorrectAnswer/combosと一致すること、(2) まとめ表の各肢の判定（正/誤）がexplanationの○×と完全一致すること、(3) 各肢の見出しが「正しい結論」を述べており、誤りの肢の設問内容をそのまま肯定していないこと、をスクリプトで機械的に照合し、加えて各問の条文根拠・具体例の整合性を独立レビューで確認した。
 - なお、第10問（建物の認定）はtakuitsu.jsonのexplanationが空欄であったため、kaisetsu_plus.json（建物認定の3要件・準則77条の考え方）を根拠とした。第8問・第9問・第18問はkaisetsu_plus.jsonのapproach/pitfalls欄に一部矛盾する記述があったため、法務省公式正答と整合するexplanation欄に従い、その旨を各記事の確認事項ブロックに明記した。土地家屋調査士法（第20問）の条数は、法改正による表記差があるため、その旨を確認事項ブロックに明記している。
+
+## 令和3年度分の情報ソースについて
+
+令和3年度分（r3-mondai）は、ユーザーが過去に構築した土地家屋調査士試験対策アプリのデータベース（`src/data/takuitsu.json`・`src/data/kaisetsu_plus.json`）を主要な一次情報源として作成しました。
+
+- `takuitsu.json`（問題文・肢・法務省公式正答を反映したcorrectAnswer・各肢の○×判定と条文根拠を記したexplanationフィールド）を各記事の法的根拠の一次情報源とした。
+- `kaisetsu_plus.json`（approach/pitfalls/keyPoints）を初学者向けの具体例作成と補足のヒントとして参照した。
+- 作成後、正解番号・各肢の正誤判定（○×）がデータベースと一致することをスクリプトで機械的に照合した上で、独立した校閲エージェントによる全20問のダブルチェックを実施し、事実誤り・正誤判定の食い違いがないことを確認した。
+- さらに、データベース内でexplanationとpitfalls等のフィールドで条文番号が食い違っていた箇所（第6・8・9・11・13・14・18・19・20問等）について、e-Gov法令検索への直接アクセスがブロックされたため、WebSearch経由でWikibooksや実務解説サイトが引用する条文本文と突き合わせる方法で確認し、誤っていた条文番号を訂正した。特に第20問（土地家屋調査士法）の肢エは、当初「法24条の2第2項」（実際は秘密保持義務の規定で無関係）としていたのを、正しい根拠「土地家屋調査士法施行規則25条2項」に訂正している。なお条文レベルで確定できなかった箇所は、各記事末尾の確認事項ブロックに正直に明記している。
+- アガルート等のローカル教材PDFは、本作業を行ったクラウド上の実行環境（リポジトリのクローン）には含まれていなかったため、参照していない。
 
 ## 各記事の構成
 
