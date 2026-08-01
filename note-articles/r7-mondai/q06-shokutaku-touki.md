@@ -80,3 +80,109 @@
 - 市の建物なら、証明書はいらないんです
 - 川になった土地、分筆は河川管理者にお任せ
 - 「希望すれば」もらえる、役所の登記識別情報
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+官公署による嘱託登記について、免除される手続（委任状の期限・建物の所有権証明・登記識別情報の通知）と免除されない手続・特例（代位登記の所有権証明、河川管理者による分筆登記嘱託）を2列5枚のカードで対比し、1枚で俯瞰できる構成とした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric city hall buildings,
+registry office buildings, land plots, official stamps, documents,
+envelopes, rivers — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+characters 建・物・登・記・所・権・号・地, which have visibly different
+Simplified Chinese variants — always draw the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+市町村の登記嘱託
+免除される手続と免除されない手続の境目とは
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第6問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric city hall building (市役所) on the left,
+connected by a dotted arrow to an isometric registry office building
+(登記所) on the right, with small document icons floating along the
+arrow between them.
+官公署（市町村など）が行う「嘱託登記」は、私人の申請と同じ扱いになる部分と、官公署だからこそ簡略化される部分が入り混じっています。この線引きを丁寧に押さえるのが本問のポイントです。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+免除される手続
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+市町村長作成の委任状に作成後3か月以内という要件はない
+Illustration: An isometric official document labeled 委任状 with a red
+official stamp (公印), next to a calendar icon with a red diagonal line
+through it indicating no expiry, and a small isometric city hall building
+icon beside it.
+Caption (small text below):
+市長の委任状に、期限切れという概念なし
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+市町村自身の建物表題登記嘱託では所有権証明情報は不要
+Illustration: An isometric public building (公民館) with a green checkmark
+stamp on a document on top of it, and beside it a small document icon
+labeled 証明書 with a red diagonal line through it to show it is not
+required.
+Caption (small text below):
+市の建物なら、証明書はいらないんです
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+希望の申出があれば登記識別情報は通知される（規則64条4号）
+Illustration: An isometric envelope/certificate icon labeled 登記識別情報
+with a small checkbox labeled 希望 ticked in green, connected by an arrow
+from an isometric city hall building icon to a mailbox icon.
+Caption (small text below):
+「希望すれば」もらえる、役所の登記識別情報
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+免除されない手続
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+代位登記でも被代位者の所有権証明情報は必要
+Illustration: An isometric land plot icon with two simplified human
+figures on it: one labeled 被代位者 handing a document labeled
+所有権証明情報 to another figure representing 市町村, with a dotted arrow
+labeled 代位 connecting them.
+Caption (small text below):
+代位でも、本人確認は省略できません
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+河川区域化した土地は河川管理者が代わりに分筆登記を嘱託できる（法43条2項）
+Illustration: An isometric river cutting diagonally across a land plot,
+with a dividing line labeled 分筆 splitting the plot in two, and a small
+official figure labeled 河川管理者 stamping a document beside the river.
+Caption (small text below):
+川になった土地、分筆は河川管理者にお任せ
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 建・物・登・記・所・権・号・地. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly (3 cards in
+the "免除される手続" column and 2 cards in the "免除されない手続" column),
+with no duplicated or missing cards, and confirm all Japanese text strings
+match the verbatim text given above exactly, with no substitutions.
+```

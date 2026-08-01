@@ -80,3 +80,113 @@
 - 限定承認は、相続債権者が先、遺贈は後
 - 保存行為だけじゃ、単純承認になりません
 - 期間切れの相続人がいても、諦めなくていい
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+相続放棄の申述先・財産管理義務・単純承認とみなされる行為の境界という「基本ルール」の列と、限定承認における弁済順序・共同要件という「限定承認のルール」の列の2列構成で、この問題の5肢の要点を1枚で俯瞰する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric courthouse and
+government-office buildings, family/house icons, coin stacks, torn paper
+labels, calendar/clock icons, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Pay special attention to 続, 権, 産, 処,
+放, 棄, 認, 続, 庭, 裁, 債, 遺 — render each in its standard Japanese form,
+never the Simplified Chinese variant. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+相続の承認及び放棄
+重要ポイント整理
+
+Subtitle (smaller, centered, 1行):
+法務局と家庭裁判所の違い、保存行為、共同相続人の限定承認
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene of a person standing at a fork in a road
+in front of a house icon labeled 相続財産. Three signposts point down
+three paths labeled 単純承認, 限定承認, 相続放棄.
+相続人は、相続の開始を知ったときから熟慮期間内に、単純承認・限定承認・
+相続放棄のいずれかを選択する。決定までの財産管理や手続きの場所を誤ると、
+思わぬ不利益を受けることがある。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+手続きの基本（申述先・管理義務・処分行為）
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+相続放棄の申述先は家庭裁判所
+Illustration: An isometric government building labeled 法務局 with a red
+X mark over it, and an arrow pointing to a separate isometric courthouse
+building labeled 家庭裁判所 with a green checkmark, with a person holding
+a document walking toward the courthouse.
+Caption (small text below):
+相続の放棄をしようとする者は、その旨を家庭裁判所に申述しなければならない
+（法務局ではない）
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+承認・放棄を決めるまでは固有財産と同一の注意で管理
+Illustration: An isometric balance scale with a house icon labeled
+固有財産 on one side and a house icon labeled 相続財産 on the other side,
+balanced evenly, with a small shield icon above each house.
+Caption (small text below):
+相続人は、承認又は放棄をするまでの期間中、その固有財産におけるのと同一の
+注意をもって相続財産を管理しなければならない
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+保存行為だけでは単純承認とみなされない
+Illustration: An isometric house split by a vertical dividing line. Left
+side shows small maintenance icons (a roof being repaired, a lock being
+changed) labeled 保存行為 with a green checkmark. Right side shows a cash
+icon and a person carrying furniture away labeled 処分行為 with a red
+stamp reading 単純承認.
+Caption (small text below):
+相続財産の処分をしたときは単純承認とみなされるが、保存行為はこれに
+含まれない
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+限定承認のルール
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+限定承認は相続債権者が先、遺贈は後
+Illustration: An isometric sequential flow with a coin stack icon labeled
+相続債権者 marked with a large number 1, an arrow pointing right, then a
+torn paper label icon labeled 受遺者 marked with a large number 2.
+Caption (small text below):
+限定承認者は、民法の規定に従って各相続債権者に弁済をした後でなければ、
+受遺者に弁済をすることができない
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+期間徒過の相続人がいても全員での限定承認は可能
+Illustration: Two isometric person icons labeled 兄 and 弟, each next to
+a clock icon; the clock next to 兄 shows a red X (期間経過), the clock
+next to 弟 shows a green checkmark (期間内)。An arrow from both people
+converges into a single stamped document labeled 限定承認（共同）。
+Caption (small text below):
+共同相続人のうちの一人について期間が経過していても、他の相続人の期間内
+であれば、全員共同して限定承認をすることができる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards.
+```

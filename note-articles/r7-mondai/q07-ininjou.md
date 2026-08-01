@@ -80,3 +80,111 @@
 - 代理人を増やしても、元の代理人はそのまま
 - 死んでしまえば、代理人の地位は終わりです
 - 還付金も、「一切の件」に含まれません
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「一切の件」という包括的な委任状であっても個別の授権が必要な行為（暗号化・還付金受領）と、代理権そのものの消滅・存続ルール（代表者交代・復代理人・死亡）という2系統に分け、5枚のカードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric office building,
+scroll-style power-of-attorney document, house/land registry seal, key
+icon, envelope of money, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+following kanji, which have visually different Simplified Chinese forms:
+権・続・継・還・登・記・号・地・番・建・物・録・委・任・代・理・復 — render
+each in its standard Japanese (Jōyō) form, never the simplified Chinese
+variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+令和7年度 第7問
+「一切の件」の委任状、どこまで有効？
+
+Subtitle (smaller, centered, 1行):
+委任・代理の基本ルールを5つのカードで確認
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 株式会社の代表者キャラクターが、土地家屋調査士のキャラクターに
+「甲土地の分合筆の登記申請に関する一切の件」と書かれた巻物状の委任状を手渡し
+ている場面。委任状の上に疑問符の吹き出しが浮かんでいる。
+「一切の件」と書かれた委任状を渡されると、何でも任されている気になりがちですが、
+実際には委任状に明記しなければ有効にならない行為がいくつもあります。この事例を
+通じて、委任・代理の基本ルールを確認しましょう。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+個別の授権が必要な行為
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+登記識別情報の暗号化には特別の授権が別途必要
+Illustration: 土地家屋調査士のキャラクターがパソコンの前に座り、画面に鍵の
+アイコンと「登記識別情報」のラベルが表示されている。委任状のアイコンから
+パソコンへ矢印が伸びているが、鍵のアイコンだけは別の追加書類（特別授権の
+アイコン）から独立して浮かんでおり、その追加書類には強調の枠線がある。
+Caption (small text below):
+「登記申請に関する一切の件」という一般的な委任だけでは足りません。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+登録免許税の還付金受領には別途その権限の記載が必要
+Illustration: 還付金を表す封筒（お金のアイコン付き）と、それを受け取る
+手のアイコンの間に、追加の委任状アイコンが挟まって浮かんでいる構図。
+Caption (small text below):
+「登記申請に関する一切の件」という委任だけでは、還付金の受領権限までは
+含まれません。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+代理権の消滅・存続のルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+委任者は法人自体なので代表者交代の影響を受けない
+Illustration: 会社を表すアイソメトリックのビルのアイコンの中で、代表取締役
+のキャラクターが旧→新へ入れ替わる矢印で示されているが、ビルから委任状の
+アイコンへ伸びる矢印は途切れずそのまま続いている。
+Caption (small text below):
+代表取締役が交代しても、株式会社Ａとの委任契約の効力に影響はありません。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+復代理人を選任しても元の代理人の代理権は存続する
+Illustration: 元の代理人（土地家屋調査士のキャラクター）と、新しく追加
+された復代理人のキャラクターが並んで立ち、両方から同じ委任状のアイコンへ
+線が伸びている構図。元の代理人の線には途切れがないことを示す。
+Caption (small text below):
+復代理人は追加で選ばれるものであり、元の代理人と入れ替わるものではあり
+ません。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+代理権は代理人の死亡で消滅し、相続人に承継されない
+Illustration: 代理人のキャラクターの席が静かに空席になっている（誇張表現
+は避け、椅子と書類だけが残るシンプルな構図）。その隣に立つ相続人のキャラ
+クターと委任状アイコンの間には×印の線を描き、承継されないことを示す。
+Caption (small text below):
+代理人という地位は本人の信頼を前提とするため、相続人であっても当然には
+引き継げません。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards, and confirm no card depicts an
+"誤" (incorrect) statement as-is — every card must show the corrected,
+legally accurate rule.
+```

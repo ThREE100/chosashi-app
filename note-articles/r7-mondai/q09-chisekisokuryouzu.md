@@ -80,3 +80,109 @@
 - 頑丈な杭は、必ず記録しなきゃダメなんです
 - 省略できるのは、面積じゃなくて計算過程
 - 地積測量図、実は所在図にもなれるんです
+
+---
+
+## インフォグラフィック プロンプト（問9全体）
+
+「作成・訂正・記録」に関するルール（ア・イ・ウ）と「省略・兼用」に関するルール（エ・オ、いずれも誤りの肢を正しいルールに直したもの）の2系統に分け、5枚のカードで地積測量図の基本ルールを俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, boundary
+markers, document stamps, measuring tools, torn paper labels, etc. — adapt
+icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・権・登・記・所, which have visually similar but incorrect
+Simplified Chinese variants — always render the standard Japanese form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地積測量図の基本ルール
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第9問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric land surveyor character standing beside a large
+land plot diagram, holding a measuring instrument, with a magnifying glass
+hovering over a corner of the plot to suggest careful inspection of rules.
+地積測量図には「ここまでは省略できる」「ここは絶対に省略できない」という
+細かい線引きがあります。特にエ・オは似たような話に見えて実は根拠が
+異なるので、丁寧に区別していきましょう。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+作成・訂正・記録に関するルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+氏名が違っても、証明書があれば大丈夫
+Illustration: An isometric scene of a person handing a certificate to a
+city hall clerk at a counter, with a small land plot icon and a document
+labeled with a correction/revision mark nearby, suggesting a name-change
+certificate being submitted.
+Caption (small text below):
+市町村長作成の氏名変更証明があれば地積測量図の訂正申出ができる
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+署名すれば、ハンコはいらないんです
+Illustration: An isometric scene of a hand signing a document with a pen,
+with a hanko (personal seal) icon shown crossed out or marked "不要" next
+to the signature, emphasizing that a signature alone is sufficient.
+Caption (small text below):
+作成者が署名すれば押印は不要（規則74条2項）
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+頑丈な杭は、必ず記録しなきゃダメなんです
+Illustration: An isometric close-up of a land plot corner with a sturdy
+stone post and a metal marker embedded in the ground, with a checklist
+icon and a pencil ticking a box, emphasizing mandatory recording.
+Caption (small text below):
+永続性のある境界標は地積測量図に記録が義務付けられる（規則77条）
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+省略・兼用に関するルール
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+省略できるのは、面積じゃなくて計算過程
+Illustration: An isometric large land plot being divided into one large
+section and one tiny section (分筆), with the tiny section showing a
+calculation worksheet icon crossed out (求積表を省略), while a separate
+number label showing the area figure (地積) remains clearly displayed and
+checked, emphasizing that only the calculation process is omitted, not
+the area figure itself.
+Caption (small text below):
+省略できるのは求積方法であり、地積の数値自体は省略できない
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+地積測量図、実は所在図にもなれるんです
+Illustration: An isometric scene of two document icons (one labeled 地積測量図,
+one labeled 土地所在図) merging into a single document labeled
+「土地所在図兼地積測量図」, with a ruler and scale-comparison icon nearby
+to suggest matching 縮尺.
+Caption (small text below):
+縮尺・表示が条件を満たせば地積測量図は土地所在図を兼ねられる（準則51条4項）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm 地・権・登・記・所 are all
+drawn as standard Japanese kanji.
+```
