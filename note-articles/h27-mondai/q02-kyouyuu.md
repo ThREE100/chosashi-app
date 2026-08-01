@@ -80,3 +80,121 @@
 - 損害賠償、請求できるのは自分の持分の分だけって知ってた？
 - 黙って土地をいじられたら、一人でも「元に戻して」と言える
 - 賃貸借の解除、過半数の持分があれば単独でOKなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+共有物についての5つの判例（抹消請求・明渡請求・損害賠償・原状回復請求・賃貸借解除）の可否を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots divided
+into thirds, multiple people figures, ledger books, stamps, moving trucks,
+construction equipment — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・単・独・請・求・賠・償, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その行為、単独でできる？
+共有物をめぐる保存・管理・変更の線引き
+
+Subtitle (smaller, centered, 1行):
+判例の趣旨から読む共有者の権利(平成27年度 午後の部 第2問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric land plot divided into three equal sections
+by dotted lines, each section occupied by a small person figure (A, B,
+C icons), with a small badge above the whole plot showing three balance
+icons labeled "保存" "管理" "変更" to represent the three categories of
+acts a co-owner may take.
+共有の分野は、ある行為が「保存行為（各自が単独でできる）」「管理行為
+（持分の過半数で決める）」「変更行為（全員の同意が必要）」のどれに
+当たるかを見分けられるかが勝負です。判例が積み重ねてきた具体的な結論
+を、この3分類の視点で整理します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+不実登記の抹消請求は、自己の持分の範囲に限られる
+Illustration: An isometric registry ledger page showing three name tags
+(A, B, C) on one land plot, with A's tag being erased and corrected by
+a stamp, while B's and C's tags remain crossed out and untouched by A's
+arrow, showing A can only fix their own portion.
+Caption (small text below):
+他の共有者名義への不実登記は、共有者の一人が抹消登記手続を単独で
+請求できるが、その範囲は自己の持分に対応する部分に限られる
+(最判平15年7月11日)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+過半数の持分があっても、当然には全部の明渡しを請求できない
+Illustration: An isometric scene showing a person with a large "2/3"
+badge (majority co-owner) pointing at a third-party occupant on the
+land, with a prohibition (no-entry) icon over an arrow labeled
+"当然の明渡し請求", showing the majority holder cannot force removal
+without proper grounds.
+Caption (small text below):
+共有持分の価格が過半数を超えていても、他の共有者の承諾を得て占有
+する第三者に対し、当然に明渡しを請求することはできない
+(最判昭41年5月19日)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+不法占有による損害賠償は、自己の持分に応じた部分のみ
+Illustration: An isometric scene showing an intruder figure on a land
+plot divided into two halves (A and B), with two separate small coin
+piles labeled "Aの分" and "Bの分" flowing from the intruder to each
+co-owner separately, showing damages split by ownership share.
+Caption (small text below):
+共有物を不法に占有されたことによる損害賠償請求権は、各共有者が
+自己の持分に応じた範囲でのみ行使できる(最判昭41年3月3日ほか)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+無断の変更には、各共有者が単独で原状回復を請求できる
+Illustration: An isometric land plot where one person figure is
+operating construction equipment without permission, while a second
+person figure stands alone holding up a "原状回復請求" sign with a
+checkmark, showing the second owner can act alone.
+Caption (small text below):
+共有者の一人が他の共有者の同意なく共有物に変更を加えた場合、他の
+共有者は、原状回復が不能であるなどの特段の事情がない限り、単独で
+原状回復を請求できる(最判平10年3月24日)。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+共有物の賃貸借の解除は、持分の過半数で決める
+Illustration: An isometric scene showing a rental building with a
+tenant figure who has failed to pay rent (a red "滞納" tag), and two
+out of three co-owner figures (representing majority persuasion)
+jointly holding up a "解除" stamp, while the third co-owner figure
+stands to the side, not needed for the decision.
+Caption (small text below):
+共有物の賃貸借契約の解除は、共有物の管理に関する事項として、持分
+価格の過半数で決することができる(民法252条本文、最判昭39年2月25日)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第2問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・単・独・請・求・賠・償. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

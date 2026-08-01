@@ -80,3 +80,116 @@
 - 遺言の解釈は「文言＋本当の気持ち」で読むんです
 - 遺言執行者、自分で指名しておけるんです
 - 未成年後見人も、遺言で決めておける
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+遺言をめぐる5つの独立した論点（負担付遺贈・相続分の指定・遺言の解釈・遺言執行者・未成年後見人の指定）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric will/testament
+scroll, family figures, gift boxes, judge's gavel, guardian figures —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 遺・贈・執・行・権・続, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+遺言、どこまで自由？
+負担付遺贈・相続分の指定・遺言の解釈
+
+Subtitle (smaller, centered, 1行):
+判例の趣旨に照らして5つの論点を確認する(平成27年度 午後の部 第3問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric old scroll-style will document lying open on
+a desk, with a quill pen beside it and five small numbered tag icons
+(①〜⑤) radiating out from the scroll toward small vignette icons(a gift
+box, a family tree, a judge's gavel, a briefcase, a child figure), showing
+the will touches five different legal topics.
+遺言のルールは条文の知識で解ける肢が多く、確実に得点したい分野です。
+負担付遺贈の責任範囲、相続分の指定、遺言の解釈方法、遺言執行者の指定、
+未成年後見人の指定という5つの独立した論点を確認します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+負担付遺贈の受遺者は、遺贈の価額の範囲でだけ義務を負う
+Illustration: An isometric gift box labeled "500万円の土地" being handed
+to a person, with a small leash connecting to a dog icon labeled "世話の
+負担"; a measuring scale shows the dog-care burden capped exactly at the
+same height as the gift box value, with an "上限" arrow.
+Caption (small text below):
+負担付遺贈を受けた者は、遺贈の目的の価額を超えない限度においてのみ、
+負担した義務を履行する責任を負う(民法1002条1項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+共同相続人の一部の相続分だけを定めることもできる
+Illustration: An isometric family tree with three child figures under a
+parent figure; the will scroll has an arrow pointing only to the first
+child with a "2分の1" tag, while the other two children are shown
+receiving their share automatically via a "法定相続分" label with a
+checkmark, no direct instruction needed.
+Caption (small text below):
+被相続人は、遺言で共同相続人の一部の相続分のみを定めることができる。
+残りの相続人の相続分は法定相続分による(民法902条)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+遺言の解釈は、文言だけでなく遺言者の真意も探求する
+Illustration: An isometric magnifying glass hovering over the will
+scroll's text, with a thought-bubble icon rising from the scroll showing
+a small heart/mind icon, indicating the reader looks both at the written
+words and at the testator's true intention behind them.
+Caption (small text below):
+遺言の解釈に当たっては、遺言書の文言を形式的に判断するだけでなく、
+遺言者の真意を探求すべきである(最判昭和58年3月18日)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+遺言者は、遺言で遺言執行者を指定できる
+Illustration: An isometric scene showing the testator figure pointing
+at a lawyer/executor figure standing beside the will scroll, with a
+small badge icon labeled "遺言執行者" being pinned onto the executor
+figure's chest.
+Caption (small text below):
+遺言者は、遺言で遺言執行者を指定し、又はその指定を第三者に委託する
+ことができる(民法1006条1項)。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+最後に親権を行う管理権者は、遺言で未成年後見人を指定できる
+Illustration: An isometric scene showing a single parent figure holding
+a child's hand, with the will scroll beside them showing an arrow
+pointing to a guardian figure labeled "未成年後見人", indicating the
+parent designates a future guardian in advance through the will.
+Caption (small text below):
+未成年者に対して最後に親権を行う者であって管理権を有する者は、遺言で
+未成年後見人を指定することができる(民法839条1項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第3問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 遺・贈・執・行・権・続. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated
+or missing cards, and confirm every heading, illustration label, and
+caption text matches the Japanese text given above verbatim, with no
+paraphrasing and no substituted characters.
+```
