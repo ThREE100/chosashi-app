@@ -1,0 +1,161 @@
+## 【土地家屋調査士受験生向け】特例方式でも原本還付はできるんです〜添付情報の提供方法をめぐるひっかけ〜
+
+**出題年度：平成28年度　午後の部　第5問**
+
+> 電子申請における添付情報の提供方法の特例(不動産登記令附則第5条に規定する添付情報の提供方法に関する特例。以下「特例方式」という。)により表示に関する登記を申請する場合に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
+>
+> ア　特例方式により添付情報を提供するときは、各添付情報につき書面を提出する方法によるか否かの別を申請情報の内容とすることを要しない。
+>
+> イ　書面に記載されている添付情報を登記所に提出する方法は、当該書面を登記所へ持参する方法及び送付する方法のいずれによることもできる。
+>
+> ウ　書面に記載されている添付情報を送付する方法により提供するときは、書留郵便又は信書便の役務であって当該信書便事業者において引受け及び配達の記録を行うものによらなければならない。
+>
+> エ　申請の却下又は取下げがあったときは、特例方式により提出された添付書面は、偽造された書面その他の不正な登記の申請のために用いられた疑いのある書面を除き、申請人に還付される。
+>
+> オ　特例方式により提出された添付書面については、原本の還付を請求することができない。
+>
+> 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
+
+---
+
+電子申請が原則となった不動産登記手続でも、添付情報のすべてを電子データ化できるとは限りません。そこで用意されているのが、申請情報はオンラインで送りつつ、添付情報だけは書面のまま登記所に提出できる「特例方式」です。本問は、この特例方式における書面提出のルールと、原本還付との関係を細かく問うています。
+
+### ア：書面を提出する方法によるか否かの別は、申請情報の内容としなければならない
+
+特例方式により添付情報を提供するときは、各添付情報について、書面を提出する方法によるかどうかの別を申請情報の内容としなければなりません。設問は「要しない」としていますが、実際には申請情報にこの別を記載することが求められており、この点で誤りです。
+
+**たとえば**、ある登記の添付情報のうち委任状は書面で提出し、他の添付情報は電子データで送るというように、書類ごとに提出方法が異なることは珍しくありません。そのため登記所側があらかじめどの添付情報が書面提出されるのかを申請情報の記載から把握できるようにしておく必要があり、「別を記載しなくてよい」という扱いにはなっていません。
+
+### イ：書面の提出は、持参でも送付でもどちらでもよい
+
+特例方式で提供する書面に記載された添付情報を登記所に提出する方法としては、登記所へ持参する方法と、送付する方法のいずれによることもできます。設問の内容は正しい記述です。
+
+**たとえば**、遠方の申請人が管轄登記所まで出向く時間が取れない場合には、郵送で書面を送付する方法を選ぶことができますし、近隣の申請人であれば窓口に直接持参することもできます。どちらの方法を選んでも特例方式としての効力に違いはありません。
+
+### ウ：送付するときは、書留郵便など記録が残る方法によらなければならない
+
+書面に記載された添付情報を送付する方法により提供するときは、書留郵便、または信書便の役務であって信書便事業者が引受け及び配達の記録を行うものによらなければなりません。設問の記述は正しい内容です。
+
+**たとえば**、普通郵便で重要な添付書面を送ってしまうと、万一配達事故で紛失した場合に届いたかどうかの記録が残らず、申請人にとっても登記所にとっても不都合が生じます。そのため、送付の記録が確実に残る書留郵便や特定信書便のような方法に限定されています。
+
+### エ：却下・取下げの場合、添付書面は原則として申請人に還付される
+
+申請が却下されたり取り下げられたりしたときは、特例方式により提出された添付書面は、偽造された書面その他不正な登記申請に用いられた疑いのある書面を除き、申請人に還付されます。設問の記述は正しい内容です。
+
+**たとえば**、書類の不備によって申請が一度却下されてしまった場合でも、その添付書面自体に何ら問題がなければ、申請人はその書面を返してもらい、不備を補正したうえで改めて提出し直すことができます。
+
+### オ：特例方式でも、添付書面の原本還付を請求することができる
+
+特例方式により提出された添付書面についても、通常の申請と同様に原本の還付を請求することができます。設問は「請求することができない」としていますが、この点で誤りです。
+
+**たとえば**、委任状や資格証明書のように他の登記手続でも繰り返し使う書類を特例方式で提出した場合、原本の写しを提出したうえで原本の還付を請求すれば、原本を手元に残したまま別の手続にも使い回すことができます。この扱いは特例方式であっても変わりません。
+
+### まとめ
+
+- **ア（誤）**　書面提出の別は申請情報の内容としなければならない
+- **イ（正）**　書面提出は持参・送付いずれの方法でもよい
+- **ウ（正）**　送付は書留郵便等、引受け・配達の記録が残る方法に限る
+- **エ（正）**　却下・取下げ時は原則として添付書面が申請人に還付される
+- **オ（誤）**　特例方式でも添付書面の原本還付を請求できる
+
+「特例方式だから通常の申請と扱いが変わる」と思い込みやすい部分ほど、実は原則どおりの扱いが維持されている、という点が本問のポイントです。
+
+**正解：ア・オの組合せ（選択肢2番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- この第5問は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）には収録されていません。法務省公表の試験問題原本（ユーザーが提供したPDF）から問題文を直接確認したうえで、不動産登記令附則5条（特例方式）に関する一般的な理解に基づいてAI（Claude）が解説を作成したものです。
+- 正解番号（2番＝ア・オ）は、法務省公式の正答PDF（ユーザー提供）と照合済みです。
+- 各肢の法的根拠（書面提出の別の記載義務、持参・送付の選択、送付方法の限定、却下・取下げ時の還付、原本還付の可否）は、不動産登記令附則・不動産登記規則附則の特例方式に関する規定についての一般的な理解からの推論にとどまります。e-Gov法令検索での逐条確認は、今回ネットワーク制限のためできていません。条文の正確な文言・項番号を引用する前に、公開前に一度ご自身でも該当条文（不動産登記令附則5条、不動産登記規則附則等）を確認いただくことをおすすめします。
+- **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（特例方式）と同一・類似の問題が再出題されていないかを確認しました。H29年度第8問は表示に関する登記の電子申請を扱っていますが、問題文で「書面を提出する方法により添付情報を提供する場合を除く」と明示されており、本問が扱う特例方式そのものを対象外とした別内容です。他の年度にも本問と同じ具体的論点（添付情報ごとの書面提出有無の記載、持参・送付方法、書留郵便等、却下・取下げ後の書面還付、原本還付請求）に一致する出題は見つからず、**重複は見つかりませんでした**。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+
+---
+
+## 見出し画像用フレーズ
+
+- 特例方式でも原本、ちゃんと返してもらえるんです
+- 書面提出の有無、実は書かないとダメなんです
+- 郵送するなら書留一択って知ってた？
+- 却下されても書類は戻ってくるんです
+- 「できない」に見えて実は「できる」がひっかけどころ
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+特例方式をめぐる5つの手続ルールを、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric computers, paper documents, envelopes, mailboxes, registered mail stamps, returned document stacks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+特例方式でも、
+原則はちゃんと生きている
+
+Subtitle (smaller, centered, 1行):
+添付情報の提供方法・書留郵便・原本還付を整理(平成28年度 午後の部 第5問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric computer/electronic application icon connected by a dotted line to a paper document icon, visually representing the half-electronic, half-paper nature of 特例方式(添付情報の提供方法の特例)。
+特例方式により表示に関する登記を申請する場合の、書面提出の別・提出方法・送付方法・却下取下げ後の還付・原本還付請求という5つの手続を整理します。
+--- CARD 1 ---
+Heading (bold):
+書面提出するかどうかは、申請情報にきちんと書く
+Illustration: An isometric application form icon with a checkbox section clearly labeled 書面提出の別, a checkmark stamp confirming it must be filled in for each attached document.
+Caption (small text below):
+特例方式では、各添付情報について書面提出の方法によるか否かの別を申請情報の内容としなければならない。
+--- CARD 2 ---
+Heading (bold):
+持参でも郵送でも、どちらでもいい
+Illustration: An isometric document splitting into two equal paths: one leading to a walking figure carrying it to a registry building icon (持参), the other leading to a mailbox icon (送付), both paths marked with checkmarks.
+Caption (small text below):
+書面の提出方法は、登記所への持参・送付のいずれによることもできる。
+--- CARD 3 ---
+Heading (bold):
+送るなら、記録が残る方法で
+Illustration: An isometric registered mail envelope (書留郵便) with a tracking receipt stamp, contrasted with a plain ordinary envelope crossed out with a prohibition mark beside it.
+Caption (small text below):
+送付するときは、書留郵便または引受け・配達の記録が残る信書便の役務によらなければならない。
+--- CARD 4 ---
+Heading (bold):
+却下・取下げでも、書類はちゃんと返ってくる
+Illustration: An isometric stack of documents being handed back from a registry official figure to an applicant figure, with a small separate icon showing a forged document (偽造書類) crossed out as the sole exception.
+Caption (small text below):
+申請が却下・取下げになっても、偽造の疑いがある書面等を除き、添付書面は申請人に還付される。
+--- CARD 5 ---
+Heading (bold):
+特例方式でも、原本を返してもらえる
+Illustration: An isometric original document icon (原本) being handed back to an applicant with a glowing 還付請求できる stamp, while a copy icon (写し) stays behind in the registry's files.
+Caption (small text below):
+特例方式で提出した添付書面についても、原本の還付を請求することができる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第5問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

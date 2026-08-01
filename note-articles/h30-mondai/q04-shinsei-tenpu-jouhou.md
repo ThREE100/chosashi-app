@@ -1,0 +1,216 @@
+## 【土地家屋調査士受験生向け】その添付情報、書面で出せる？電子で出す？〜申請情報・添付情報の細かいルールを整理する〜
+
+**出題年度：平成30年度　午後の部　第4問**
+
+> 表示に関する登記の申請情報及び添付情報に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
+>
+> ア　同一の登記所に対して同時に二以上の申請をする場合において，各申請に共通する添付情報を一の申請の申請情報と併せて提供するときは，当該添付情報を当該一の申請の申請情報と併せて提供した旨を他の申請の申請情報の内容としなければならない。
+>
+> イ　会社法人等番号を有しない法人が土地の地積に関する更正の登記を申請するときは，作成後3月以内の当該法人の代表者の資格を証する情報を添付情報として提供しなければならない。
+>
+> ウ　表題部所有者の相続人が土地の分筆の登記を申請する場合において，その相続に関して法定相続情報一覧図の写しを添付情報として提供するときは，当該登記の申請人は，その表題部所有者の相続人である旨を申請情報の内容とする必要はない。
+>
+> エ　電子申請により所有権の登記のある土地の合筆の登記の申請をする場合には，電子申請における添付情報の提供方法の特例（不動産登記令附則第5条に規定する添付情報の提供方法に関する特例）により，登記識別情報が記載された書面を添付情報として登記所に提出することができる。
+>
+> オ　電子申請をした土地の地目に関する変更の登記の申請情報に補正することができる不備がある場合において，登記官が定めた相当の期間内に当該登記の申請人がその不備を補正するときは，当該登記の申請人は，電子情報処理組織を使用する方法により当該申請情報の補正をしなければならない。
+>
+> 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+申請情報と添付情報の細かい取扱いは、「どこに何を書くか」「書面で出せるか、電子で出すのか」を条文レベルで押さえていないと迷います。援用・資格証明・相続人の表示・登記識別情報の提供方法・補正方法という、実務の入口にあたる論点を一つずつ確認していきましょう。
+
+### ア：援用した添付情報は「前件添付」などと他の申請情報に記載する
+
+同一の登記所に同時に複数の申請をする場合、各申請に共通する添付情報を一つの申請にまとめて提供したときは、その添付情報を援用する旨を他の申請の申請情報の内容としなければなりません。具体的には、添付書面の名称を記載し、添付情報欄に「前件添付」または「後件添付」と記載します（規則37条2項）。
+
+**たとえば**、隣り合う2筆の土地について同じ日に別々の申請をするとき、両方に共通する書面を1件目にまとめて付けたなら、2件目の申請情報には「前件添付」と書いて、1件目に援用した旨を示すことになります。
+
+### イ：会社法人等番号のない法人は、3月以内の資格証明情報が必要
+
+会社法人等番号を有しない法人が申請するときは、代表者の資格を証する情報として資格証明書を添付します（令7条1項1号ロ）。具体的には当該法人の登記事項証明書がこれにあたり、この登記事項証明書は作成後3月以内のものでなければなりません。添付情報には「資格証明書」と記録します。
+
+**たとえば**、会社法人等番号を持たない特殊な法人が自分名義の土地の地積更正登記を申請するときは、代表者が誰であるかを示すため、作成から3月以内の登記事項証明書を用意しておく必要があります。
+
+### ウ：相続人が申請するときは、相続人である旨を申請情報の内容とする
+
+申請人が相続人その他の一般承継人である場合には、表題部所有者または所有権の登記名義人の相続人その他の一般承継人である旨を申請情報の内容とします（令3条10号）。法定相続情報一覧図の写しを添付するかどうかにかかわらず、この「相続人である旨」の記載は必要であり、「必要はない」とする本肢は誤りです。
+
+**たとえば**、亡くなった父名義の土地を、相続した子が分筆登記で申請するとき、たとえ法定相続情報一覧図の写しを付けていても、申請情報には「申請人は表題部所有者〇〇の相続人である」旨をきちんと書かなければなりません。
+
+### エ：電子申請では、登記識別情報を書面で提出することはできない
+
+電子申請の場合、登記識別情報の提供は、登記識別情報を電子情報処理組織を使用して入力する方法によって行います（規則66条1項1号）。添付情報を書面で提出できる特例方式（令附則5条）を使う場合であっても、登記識別情報だけは書面で提出することはできません（令附則5条1項かっこ書）。したがって「書面として提出することができる」とする本肢は誤りです。
+
+**たとえば**、所有権の登記がある土地の合筆登記をオンラインで申請するとき、他の添付書類は特例方式で郵送・持参できても、登記識別情報については画面に入力して電子的に提供するしかなく、紙に書いて登記所に持ち込むことはできません。
+
+### オ：電子申請の補正は、電子情報処理組織を使用して行う
+
+申請の補正の方法は、その申請をした方法によって異なります。電子申請をした場合には、補正もまた電子情報処理組織を使用する方法によってしなければなりません（規則60条2項1号）。
+
+**たとえば**、地目変更登記をオンラインで申請したところ登記官から補正を求められたとき、その手直しは窓口に紙を持って行くのではなく、同じオンラインの仕組みを使って申請情報を補正することになります。
+
+### まとめ
+
+- **ア（正）**　援用した旨を「前件添付」等として他の申請情報に記載する（規則37条2項）
+- **イ（正）**　会社法人等番号のない法人は作成後3月以内の資格証明情報が必要（令7条1項1号ロ）
+- **ウ（誤）**　相続人が申請するときは相続人である旨を申請情報の内容とする（令3条10号）
+- **エ（誤）**　電子申請では登記識別情報を書面で提出できない（規則66条1項1号、令附則5条1項かっこ書）
+- **オ（正）**　電子申請の補正は電子情報処理組織を使用して行う（規則60条2項1号）
+
+「何を、どこに、どの方法で提供するか」を条文どおりに確認していけば、細かい肢でも判断はぶれません。
+
+**正解：ウエの組合せ（選択肢4番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出題年度・問題番号・正解番号（4番＝ウ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
+- 各肢の根拠について、ア（不動産登記規則37条2項）、イ（不動産登記令7条1項1号ロ）、ウ（不動産登記令3条10号）、エ（不動産登記規則66条1項1号、不動産登記令附則5条1項かっこ書）、オ（不動産登記規則60条2項1号）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。一般原則からの推論にとどまる肢はありません。
+- 各肢の根拠は、ローカルのアガルート過去問テキスト（OCR化した解説）を条文根拠の一次情報源として参照しました。上記の条文番号は同解説の記載に基づいています。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（表示登記の申請情報及び添付情報）と同一・類似の論点がないか確認しました。**部分的な重複が見つかりました（現時点で公開済みの記事との競合はありません）。** 本問の肢ア（同一登記所への複数申請での添付情報の援用）は、令和3年度第5問肢ア（未公開）で「前件添付・後件添付」として同じ論点が扱われています。また、法定相続情報一覧図の添付に関する本問肢ウは、令和2年度第5問・令和5年度第19問・令和7年度第18問（いずれも未公開）など、法定相続情報一覧図を主題とする問題群と関連しますが、これらは法定相続情報一覧図を独立の主題として深掘りする問題であり、本問のような複数論点の中の一つとしての扱いとは焦点が異なります。令和3・7年度分の記事を今後作成する際は、この重複に留意してください。
+
+---
+
+## 見出し画像用フレーズ
+
+- 援用したら「前件添付」って書くの、知ってた？
+- 番号がない法人は、3月以内の資格証明がいるんです
+- 相続人が申請するなら「相続人です」と書くんです
+- 登記識別情報だけは、書面で出せないんです
+- 電子で出したなら、補正も電子でやるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+申請情報・添付情報に関する一般原則3枚（援用の記載・資格証明情報・相続人の表示）と、電子申請に特有のルール2枚（登記識別情報の提供方法・補正の方法）の、計5枚のカードで問題全体を俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric application document
+forms, paper-clip and sticky-tag icons, official seals/stamps, calendar
+and clock icons, family/person silhouettes, computer monitor and keyboard,
+prohibition marks, arrows and connecting lines — adapt icon set to the
+topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・証・続・識・処・補・図, which
+have Simplified Chinese look-alike forms with visibly different stroke
+shapes — always draw the standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+申請情報と添付情報
+細かいルールを一枚で整理する
+
+Subtitle (smaller, centered, 1行):
+援用・資格証明・相続人表示・電子申請の決まりごと(平成30年度 午後の部 第4問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a central
+application document labeled "申請情報" with several smaller attached
+paper sheets labeled "添付情報" clipped to it, and the bundle splitting
+into two paths — one path leading to a paper/booklet icon labeled "書面"
+and the other path leading to a computer monitor icon labeled "電子" — to
+show that the same申請情報・添付情報が書面と電子の両方の場面で扱われる
+ことを示す。
+表示に関する登記の申請では、添付情報の書き方や書面の要否、電子申請ならではの
+手続を、条文どおりに細かく確認する必要があります。援用の書き方、資格証明情報の
+期限、相続人の表示、登記識別情報の提供方法、補正の方法という5つの論点を
+整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+申請情報・添付情報に関する一般原則
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+援用した添付情報は「前件添付」と記載する
+Illustration: An isometric pair of application document icons side by
+side. The first document has a paper-clip icon labeled "添付書類" attached
+to it. A dotted arrow points from the first document to the second
+document, where a small sticky-tag icon reads "前件添付", showing that the
+second application refers back to the attachment bundled with the first.
+Caption (small text below):
+同一の登記所に同時に複数の申請をする場合、共通する添付情報を一の申請に
+まとめて提供したときは、援用した旨を他の申請情報の内容とする（不動産登記
+規則37条2項）。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+番号のない法人は3月以内の資格証明情報を添付する
+Illustration: An isometric building icon labeled "法人" (no company
+number badge shown, to indicate it lacks a 会社法人等番号) connected by
+an arrow to a document icon labeled "資格証明書"。Next to the document, a
+small calendar/clock icon reads "作成後3月以内" to emphasize the time
+limit.
+Caption (small text below):
+会社法人等番号を有しない法人が申請するときは、代表者の資格を証する情報
+として、作成後3月以内の登記事項証明書（資格証明書）を添付する（不動産
+登記令7条1項1号ロ）。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+相続人が申請するときは「相続人である旨」を記載する
+Illustration: An isometric person silhouette icon labeled "相続人" beside
+an application document where a pen icon is writing the text "相続人で
+ある旨" onto the form. Separately, a ledger-style paper icon labeled
+"法定相続情報一覧図の写し" is shown attached alongside, with a small equal
+(=) mark removed and instead a "＋" mark between the two icons, to show
+both the記載と添付が別々に必要であることを示す。
+Caption (small text below):
+表題部所有者の相続人が申請する場合、法定相続情報一覧図の写しを添付して
+いても、相続人である旨は必ず申請情報の内容とする（不動産登記令3条10号）。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+電子申請に特有のルール
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+電子申請でも登記識別情報は書面で出せない
+Illustration: An isometric computer monitor icon labeled "電子情報処理
+組織" displaying a form field being typed with the text "登記識別情報"。
+Beside the monitor, a paper document also labeled "登記識別情報" has a red
+prohibition (no-entry) circle-and-slash mark overlaid on it, showing that
+even under the special paper-submission method this one item cannot be
+submitted on paper.
+Caption (small text below):
+電子申請における添付情報の書面提出の特例（不動産登記令附則5条）を用いる
+場合であっても、登記識別情報は電子情報処理組織を使用して提供し、書面で
+提出することはできない（不動産登記規則66条1項1号、令附則5条1項かっこ
+書）。
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+電子申請の補正も電子情報処理組織で行う
+Illustration: An isometric computer monitor icon showing an application
+form with a red tag reading "補正"。A curved arrow loops from the form
+back into the same monitor screen (not toward a paper counter or window),
+emphasizing that the correction stays within the online system.
+Caption (small text below):
+電子申請をした場合、申請情報の補正は、電子情報処理組織を使用する方法に
+よってしなければならない（不動産登記規則60条2項1号）。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第4問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・証・続・識・処・補・図.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly (3 cards under 申請情報・添付情報に関する一般原則, 2
+cards under 電子申請に特有のルール), with no duplicated or missing cards,
+and confirm every heading, illustration label, and caption text matches
+the Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
+```

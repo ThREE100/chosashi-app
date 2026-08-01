@@ -1,0 +1,218 @@
+## 【土地家屋調査士受験生向け】その土地、何の"地目"？〜平成30年度午後の部 第9問を教授と学生の対話で解説〜
+
+**出題年度：平成30年度　午後の部　第9問**
+
+> 次の対話は、土地の地目に関する教授と学生の対話である。教授の質問に対する次のアからオまでの学生の解答のうち、正しいものの組合せは、後記1から5までのうち、どれか。
+>
+> 教授：土地の地目について考えてみましょう。公衆の遊楽のために供する土地の地目と競馬場内の馬場の地目は、同じ地目ですか。
+>
+> 学生：ア　公衆の遊楽のために供する土地の地目は雑種地であり、競馬場内の馬場の地目も雑種地であることから、同じ地目です。
+>
+> 教授：幼稚園の園舎の敷地の地目と、その園舎と一体的に利用されている運動場の地目は、同じ地目ですか。
+>
+> 学生：イ　幼稚園の園舎の敷地の地目は学校用地であり、その園舎と一体的に利用されている運動場の地目も学校用地であることから、同じ地目です。
+>
+> 教授：共同住宅の敷地の地目と石油タンクの敷地の地目は、同じ地目ですか。
+>
+> 学生：ウ　共同住宅は登記の対象となる建物ですから、その敷地の地目は宅地であるのに対し、石油タンクは登記の対象とならない建造物ですから、その敷地の地目は雑種地であるので、違う地目です。
+>
+> 教授：高圧線の下の土地で他の目的に使用することができない区域にあるものの地目と変電所の敷地の地目は、同じ地目ですか。
+>
+> 学生：エ　高圧線の下の土地で他の目的に使用することができない区域にあるものの地目は雑種地であるのに対し、変電所の敷地の地目は宅地であるので、違う地目です。
+>
+> 教授：最後に、かんがい用の水路の地目と水力発電のための排水路の地目は、同じ地目ですか。
+>
+> 学生：オ　かんがい用の水路の地目は用悪水路であるのに対し、水力発電のための排水路の地目は雑種地であるので、違う地目です。
+>
+> 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
+
+地目の認定は、不動産登記事務取扱準則（以下「準則」）68条・69条にほぼ答えが集約されている分野です。準則68条が23種類の地目の定義を、69条が「その土地は何地目として取り扱うか」という運用の具体例を並べています。対話形式でも問われることは同じで、「その施設・その土地は準則のどこに位置づけられるか」を一つずつ照らし合わせれば正確に判断できます。
+
+### ア：公衆の遊楽のための土地は「公園」であり、馬場（雑種地）とは違う地目
+
+学生アは「どちらも雑種地だから同じ地目」と答えていますが、公衆の遊楽のために供する土地は雑種地ではなく「公園」として取り扱います（準則68条22号）。一方、競馬場内の馬場は雑種地です（準則69条8号）。前者が公園、後者が雑種地なので、そもそも前提が誤っており、結論も誤りです。なお、競馬場でも事務所・観覧席・厩舎など永久的設備と認められる建物の敷地とその附属地は宅地として取り扱われます。
+
+**たとえば**、街なかの区立公園は「公園」という地目ですが、競馬場でお馬さんが走る砂の馬場は「雑種地」です。同じ「みんなが集まって楽しむ場所」でも、地目は別物なんです。
+
+### イ：園舎の敷地も一体利用の運動場も、まとめて「学校用地」
+
+学生イの解答どおり、学校の校舎・附属設備の敷地および運動場は、すべて一体として「学校用地」として取り扱います（地目認定82頁）。学校教育法にいう学校には幼稚園も含まれるため、幼稚園の園舎の敷地も、それと一体的に利用されている運動場も、ともに学校用地となります。したがって同じ地目であり、この解答は正しいです。
+
+**たとえば**、幼稚園の建物が建っている部分と、その隣で園児がかけっこをする運動場は、見た目は「建物の敷地」と「広場」で違って見えても、地目はどちらも「学校用地」でひとまとめなんです。
+
+### ウ：石油タンクの敷地も、共同住宅の敷地と同じ「宅地」
+
+学生ウは「石油タンクは建物ではないから敷地は雑種地」として、共同住宅の敷地（宅地）とは違う地目だと答えていますが、これは誤りです。建物の敷地およびその維持・効用を果たすために必要な土地は宅地とされます（準則68条3号）。ガスタンクや石油タンクは確かに建物ではありませんが（準則77条2号ア）、これらの敷地も宅地として取り扱われます（準則69条10号）。よって共同住宅の敷地も石油タンクの敷地もともに宅地であり、同じ地目です。
+
+**たとえば**、マンションが建つ土地はもちろん「宅地」ですが、ガソリンスタンドの裏にどっしり据えられた石油タンクの下の土地も、建物がないのに「宅地」として扱われるんです。
+
+### エ：高圧線下の土地も変電所敷地も、どちらも「雑種地」
+
+学生エは「高圧線下の土地は雑種地、変電所敷地は宅地」として違う地目だと答えていますが、これも誤りです。高圧線の下の土地で他の目的に使用することができない区域にあるものも、変電所の敷地も、いずれも雑種地として取り扱われます（準則69条14号）。変電所の敷地を宅地とする点が誤りで、両者は同じ雑種地です。
+
+**たとえば**、鉄塔をつなぐ高圧線の真下でほかに使い道のない細長い土地も、街はずれにある変電所の敷地も、地目はどちらも「雑種地」でそろっているんです。
+
+### オ：かんがい用水路は「用悪水路」、水力発電の排水路は「雑種地」で別の地目
+
+学生オの解答どおり、かんがい用または悪水排せつ用の水路の土地は「用悪水路」とされます（準則68条16号）。一方、水力発電のための水路は雑種地となります（準則69条5号）。前者が用悪水路、後者が雑種地で異なるため、「違う地目」とするこの解答は正しいです。
+
+**たとえば**、田んぼに水を引くための農業用水路は「用悪水路」ですが、ダムの水力発電所へ水を送る発電用の水路は、同じ"水の通り道"でも「雑種地」なんです。
+
+### まとめ
+
+- **ア（誤）**　公衆の遊楽のための土地は雑種地でなく「公園」（準則68条22号）。馬場は雑種地（準則69条8号）で別地目
+- **イ（正）**　園舎の敷地も一体利用の運動場もすべて学校用地（地目認定82頁）
+- **ウ（誤）**　石油タンクの敷地も宅地（準則68条3号、69条10号）。共同住宅の敷地と同じ地目
+- **エ（誤）**　変電所敷地も雑種地（準則69条14号）。高圧線下の土地と同じ地目
+- **オ（正）**　かんがい用水路は用悪水路（準則68条16号）、水力発電の排水路は雑種地（準則69条5号）で別地目
+
+地目認定は暗記に頼りがちですが、準則68条（定義）と69条（運用例）のどこに当てはまるかを一つずつ確認すれば、対話形式でも確実に得点できます。
+
+**正解：イオの組合せ（選択肢4番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出典（平成30年度午後の部 第9問）・正解番号（イオ＝4番）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
+- 各肢の根拠のうち、ア（準則68条22号・69条8号）・ウ（準則68条3号・69条10号・77条2号ア）・エ（準則69条14号）・オ（準則68条16号・69条5号）は、元データ解説に条文（準則の号）まで明記されているものです。一方、イは条文番号ではなく実務解説書（地目認定82頁）の引用にとどまっており、準則の明文というよりは学校教育法上の「学校」概念に基づく取り扱いである点にご留意ください。
+- 本記事は、ローカルのアガルート過去問テキスト（元データ解説はそのOCRに基づく）を条文根拠の一次情報源として参照しています。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（土地の地目）と同一・類似の論点がないか確認しました。**重複が見つかりました（現時点で公開済みの記事との競合はありません）。** 地目は令和元年度・令和2年度（2問）・令和3年度・令和4年度・令和5年度と、ほぼ毎年出題される定番テーマです。特に令和5年度第8問肢ア（未公開）は「学校教育法の規定により設置された幼稚園の園舎の敷地である土地の地目は、学校用地とする」と、本問の学生の解答イとほぼ同一の記述です。また、令和4年度第6問肢オ（未公開）は「公衆の遊楽のために供する土地を公園とすることはできない」（誤り）と、本問の学生の解答アと同じ「公衆の遊楽のために供する土地＝公園」というルール（準則68条22号）を扱っています。これらの年度の記事を今後作成する際は、この重複に留意し、具体例を差別化してください。
+
+---
+
+## 見出し画像用フレーズ
+
+- 公園と馬場、同じ雑種地じゃないって知ってた？
+- 園舎も運動場も、まとめて学校用地なんです
+- 石油タンクの下、実は「宅地」なんです
+- 高圧線下も変電所も、どっちも雑種地なんです
+- 農業用水路と発電用水路、地目は別物なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地の地目について、教授と学生の対話に登場する5つの施設・土地の組合せ（ア〜オ）を、正しい地目のルールに直したうえで5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric park with trees and
+a bench, oval horse racetrack, kindergarten building, playground with
+running track, apartment building block, cylindrical oil storage tank,
+electricity pylon with high-voltage lines, fenced substation, irrigation
+canal through rice paddies, water channel leading to a hydroelectric dam,
+ledger book, wooden number tags, equals "＝" and not-equal "≠" badge
+symbols — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・準・則・条・敷・雑・悪・電・変,
+which have Simplified Chinese look-alike forms with visibly different
+stroke shapes — always draw the standard Japanese (Jōyō) form of these
+characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+土地の地目、同じ？違う？
+準則68条・69条で見分ける
+
+Subtitle (smaller, centered, 1行):
+教授と学生の対話形式問題を整理（平成30年度 午後の部 第9問）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design scene showing small icons of a
+park, a horse racetrack, a kindergarten building with a playground, an
+apartment building, an oil tank, an electricity pylon, a substation, an
+irrigation canal, and a hydroelectric water channel arranged loosely
+around a central open ledger book labeled "準則68条・69条", with faint
+question mark icons connecting related pairs to suggest "同じ地目か、
+違う地目か" comparisons.
+地目の認定は、不動産登記事務取扱準則68条・69条にほぼ答えが集約されて
+います。68条が23種類の地目の定義を、69条が「その土地は何地目として
+取り扱うか」という運用の具体例を並べています。対話形式で問われる各
+施設・土地が、準則のどこに位置づけられるかを一つずつ照らし合わせます。
+
+--- CARD 1 ---
+Heading (bold):
+公衆の遊楽のための土地は「公園」、馬場は「雑種地」で別の地目
+Illustration: An isometric park icon (trees, bench, small fountain)
+labeled "公園" on the left, connected by a dotted line to a "≠"
+not-equal badge symbol in the center, leading to an oval horse
+racetrack icon labeled "雑種地" on the right. A small wooden tag reading
+"準則68条22号" sits near the park icon, and a small wooden tag reading
+"準則69条8号" sits near the racetrack icon.
+Caption (small text below):
+公衆の遊楽のために供する土地は雑種地ではなく「公園」（準則68条22号）。
+競馬場内の馬場は雑種地（準則69条8号）で別の地目。
+
+--- CARD 2 ---
+Heading (bold):
+園舎の敷地も一体利用の運動場も、まとめて「学校用地」
+Illustration: An isometric kindergarten building icon connected by a
+solid line with an "＝" equals badge symbol to an adjacent playground
+and running-track icon, both enclosed together within a single rounded
+dashed boundary labeled "学校用地". A small reference tag reads
+"地目認定82頁".
+Caption (small text below):
+幼稚園の園舎の敷地と、それと一体的に利用されている運動場は、いずれも
+学校用地として一体で取り扱う（地目認定82頁）。
+
+--- CARD 3 ---
+Heading (bold):
+石油タンクの敷地も、共同住宅の敷地と同じ「宅地」
+Illustration: An isometric apartment building icon labeled "宅地" on the
+left, connected by an "＝" equals badge symbol to a cylindrical oil
+storage tank icon also labeled "宅地" on the right. Small wooden tags
+near the tank read "準則68条3号" and "準則69条10号".
+Caption (small text below):
+建物の敷地は宅地（準則68条3号）。石油タンクは建物ではないが、その敷地
+も宅地として取り扱う（準則69条10号）。共同住宅の敷地と同じ地目。
+
+--- CARD 4 ---
+Heading (bold):
+高圧線下の土地も変電所の敷地も、どちらも「雑種地」
+Illustration: An isometric electricity pylon with high-voltage lines
+running over a narrow strip of land labeled "雑種地" on the left,
+connected by an "＝" equals badge symbol to a fenced substation icon
+also labeled "雑種地" on the right. A small wooden tag reads
+"準則69条14号".
+Caption (small text below):
+高圧線の下で他の目的に使用できない土地も、変電所の敷地も、いずれも
+雑種地として取り扱う（準則69条14号）。
+
+--- CARD 5 ---
+Heading (bold):
+かんがい用水路は「用悪水路」、発電用の排水路は「雑種地」で別の地目
+Illustration: An isometric narrow irrigation canal running through rice
+paddies labeled "用悪水路" on the left, connected by a dotted line to a
+"≠" not-equal badge symbol in the center, leading to a water channel
+flowing into a hydroelectric dam/power station labeled "雑種地" on the
+right. Small wooden tags read "準則68条16号" near the canal and
+"準則69条5号" near the power channel.
+Caption (small text below):
+かんがい用または悪水排せつ用の水路は用悪水路（準則68条16号）。水力
+発電のための水路は雑種地（準則69条5号）で別の地目。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第9問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・準・則・条・敷・雑・
+悪・電・変. If any character renders as a Simplified Chinese variant,
+redraw that character in the correct Japanese form. Confirm the number
+of cards equals 5 exactly, with no duplicated or missing cards, and
+confirm every heading, illustration label, and caption text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
+```
