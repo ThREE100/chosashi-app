@@ -83,3 +83,143 @@
 - 裁決の書面、登記官の側にも届くんです
 - 不作為の却下も、結局は登記官に命じるかたち
 - 出した証拠書類、原則ちゃんと返ってくるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記官の処分・不作為についての審査請求について、監督法務局長等が「命じる」立場であること(2枚)と、審査請求手続の3つのルール(期間・書面交付・証拠返還、3枚)を、2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: robed senior official figure,
+registrar figure at a desk, ordinary person figure, ledger/document
+folders, red hanko stamps, prohibition marks, calendars, infinity
+timeline arrows, evidence document stacks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・監・督・証・拠・謄・決・請,
+which have Simplified Chinese look-alike forms with visibly different
+stroke shapes — always draw the standard Japanese (Jōyō) form of these
+characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+審査請求は「誰が・いつまで・何をする」
+監督法務局長等の権限を正確に押さえる
+
+Subtitle (smaller, centered, 1行):
+「自らやる」のか「命じる」のか(平成30年度 午後の部 第18問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric icon on the left showing a robed senior
+official figure (labeled 監督法務局長等) standing behind and slightly
+above a smaller registrar figure (labeled 登記官) seated at a desk
+stamping a document, with a speech-bubble arrow from the senior official
+pointing to the registrar labeled "命じる", and a prohibition (no-entry)
+mark over the senior official's hand reaching directly toward the
+document, emphasizing that the senior official never acts on the
+document directly.
+登記官の処分に対する審査請求は、監督法務局長等が「誰の判断で」「いつまで
+にできて」「そのあと何をするか」という手続の流れがポイントです。監督法務
+局長等は自らその場で処分するのではなく、常に登記官に「命じる」という形を
+とります。期間制限の有無や、裁決後の書面のやり取り、証拠書類の返還など、
+細かい手続のルールも正確に押さえましょう。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+監督法務局長等は「命じる」立場
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+監督法務局長等は自ら処分せず、登記官に「相当の処分」を命じる
+Illustration: An isometric scene of a senior official figure (labeled
+監督法務局長等) pointing with an arrow toward a registrar figure (labeled
+登記官) seated at a desk stamping a document; a large red prohibition
+(no-entry) mark is overlaid on a hand reaching directly from the senior
+official toward the document, showing the senior official does not act
+directly; a speech-bubble arrow labeled "命じる" runs from the senior
+official to the registrar.
+Caption (small text below):
+審査請求を理由があると認めるときは、監督法務局長等は登記官に相当の処分を
+命じる(不動産登記法157条3項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+不作為の申請を却下すべきときも、登記官に「却下する処分」を命じる
+Illustration: An isometric scene similar in composition to Card 1: a
+senior official figure (labeled 監督法務局長等) pointing with an arrow
+labeled "却下せよ" toward a registrar figure (labeled 登記官); the
+registrar stamps a document folder (labeled 申請) with a red "却下" torn
+paper stamp, while the senior official's hand stays behind a prohibition
+mark, showing the senior official again does not act directly.
+Caption (small text below):
+不作為に係る申請を却下すべきと認めるときも、監督法務局長等は登記官に却下
+する処分を命じる(不動産登記法157条5項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+審査請求手続の3つのルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+登記官の処分への審査請求に、期間の制限はない
+Illustration: An isometric icon of a calendar page with a red "3ヶ月"
+label crossed out by a prohibition mark, positioned beside an open-ended
+horizontal timeline arrow that extends off the right edge of the card
+toward an infinity symbol, labeled "いつでも可能"; a small person figure
+hands a document into a mailbox/window positioned freely along the
+timeline, not fixed to any date.
+Caption (small text below):
+行政不服審査法18条の適用が除外されており、法律上の利益がある間はいつでも
+審査請求ができる。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+裁決書の謄本と審理員意見書の写しは、審査請求人・登記官の両方に交付する
+Illustration: A symmetric isometric scene with a senior official figure
+(labeled 監督法務局長等) in the center holding two identical document
+sets, each set clearly labeled "裁決書謄本" and "審理員意見書写し"; one
+set flies via a dotted arrow to a person figure on the left labeled
+審査請求人, an identical set flies via a dotted arrow to a registrar
+figure on the right labeled 登記官, emphasizing both receive the same
+documents.
+Caption (small text below):
+監督法務局長等が裁決をしたときは、裁決書の謄本及び審理員意見書の写しを
+審査請求人及び登記官の双方に交付する(不動産登記事務取扱準則145条1項)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+証拠書類は、原則として提出した人に速やかに返還する
+Illustration: An isometric icon of a document folder/stack labeled
+証拠書類 being handed back with an arrow from a senior official figure to
+a person figure, with a small clock icon labeled "速やかに" beside the
+arrow; a smaller secondary branch on the side shows the same person
+figure with a checkmark and a speech bubble labeled "返還不要に同意",
+with the document folder instead resting in a small archive box, showing
+the exception.
+Caption (small text below):
+裁決後、提出者が返還を要しないことに同意している場合を除き、監督法務局長
+等は証拠書類を速やかに提出者に返還する(行政不服審査法53条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第18問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・監・督・証・拠・謄・
+決・請. If any character renders as a Simplified Chinese variant, redraw
+that character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly (2 cards under 監督法務局長等は「命じる」立場, 3 cards
+under 審査請求手続の3つのルール), with no duplicated or missing cards,
+and confirm every heading, illustration label, and caption text matches
+the Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
+```
