@@ -81,3 +81,130 @@
 - 所有権登記のない建物の合体、1か月以内が期限なんです
 - 共用部分になったら、種類変更の義務は消えるんです
 - 1人が申請すれば、他の区分所有者は義務を免れるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の表示に関する登記の申請義務に関する5肢を、「1か月以内の申請義務が生じる場面」（ア・イ・ウ）と「申請義務が生じない場面」（エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, calendar
+pages with countdown, merging-building icons, checkmark/prohibition marks
+— adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 申・請・義・務・建・物・表・題・登・記, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+表示登記の申請義務
+1か月以内っていつから？
+
+Subtitle (smaller, centered, 1行):
+規約敷地・合体・共用部分の落とし穴(平成29年度 午後の部 第15問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design calendar page with a countdown
+circle reading "1か月以内" placed beside a small new building icon, an
+arrow pointing from the building's completion moment to the calendar to
+show when the countdown starts.
+建物の表示に関する登記には、「1か月以内に申請しなければならない」と
+いう申請義務が課される場面が多くあります。いつを起算点として1か月を
+カウントするのか、どんな出来事があると申請義務が生じるのかを整理
+できているかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+1か月以内の申請義務が生じる場面
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+新築建物の所有権取得者は、取得の日から1月以内に表題登記
+Illustration: An isometric brand-new house icon with a "所有権取得" stamp
+appearing, and a countdown circle beside it reading "1か月以内" ticking
+down toward a "表題登記" document icon that must be filed before it
+reaches zero.
+Caption (small text below):
+新築した建物又は区分建物以外の表題登記がない建物の所有権を取得した
+者は、その所有権の取得の日から1月以内に、表題登記を申請しなければ
+ならない(法47条1項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+表題登記後に規約敷地が生じたら、変更登記の義務がある
+Illustration: An isometric区分建物 (condo unit) icon already stamped
+"表題登記完了"、with a new land plot icon labeled "規約敷地" attaching
+itself beside the building afterward, connected by an arrow to a
+"表題部変更登記" document that must be filed, NOT a crossed-out "不要"
+mark.
+Caption (small text below):
+区分建物である建物が新築され、その表題登記完了後に規約敷地が生じた
+ときは、区分建物の表題部所有者は、区分建物の表題部の変更の登記を
+申請しなければならない(法51条1項)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+所有権登記のない建物の合体は、1月以内に表題登記＋抹消を申請
+Illustration: An isometric two buildings icon merging into one combined
+building shape, with a countdown circle reading "1か月以内" beside it,
+and two document stamps appearing simultaneously — "合体後の建物の表題
+登記" and "合体前の建物の表題部の登記の抹消".
+Caption (small text below):
+いずれも表題登記があるが所有権の登記がない二以上の建物が合体して1個の
+建物となった場合には、合体の日から1月以内に、合体後の建物についての
+表題登記及び合体前の建物についての表題部の登記の抹消を申請しなければ
+ならない(法49条2項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+申請義務が生じない場面
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+共用部分になったら、種類変更の登記義務は消える
+Illustration: An isometric区分建物 (condo unit) icon transitioning into
+a "共用部分である旨の登記" stamped state, with a crossed-out "種類変更
+登記義務" label floating away from the building to show the obligation
+disappears once it becomes a shared common area.
+Caption (small text below):
+区分建物の種類に変更があった後に共用部分である旨の登記がされた場合、
+その区分建物の所有者に、種類の変更の登記を申請する義務は生じない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+一棟の変更登記を1人が申請すれば、他の区分所有者は義務を免れる
+Illustration: An isometric一棟の建物 (whole building) icon containing two
+labeled units (甲区分建物 and 乙区分建物), with only 甲区分建物's owner
+figure filing a "一棟の建物の表題部変更登記" stamp, and an automatic
+green checkmark appearing on 乙区分建物's registry record without any
+separate filing action from its owner.
+Caption (small text below):
+甲区分建物及び乙区分建物からなる一棟の建物の床面積に変更がある場合に
+おいて、甲区分建物の所有権の登記名義人が一棟の建物の表題部の変更の
+登記を申請したときは、乙区分建物の所有権の登記名義人はその申請義務を
+免れる(法51条6項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第15問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 申・請・義・務・建・物・表・題・登・記. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 1か月以内の申請義務が生じる場面, 2 cards under 申請義務が
+生じない場面), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```
