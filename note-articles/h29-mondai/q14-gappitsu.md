@@ -81,3 +81,132 @@
 - 名義が違う土地は、相続登記をしてから合筆なんです
 - 地上権の登記、抹消しないと合筆できないんです
 - 持ち主が異議を出せば、職権合筆はできないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地の合筆の登記に関する5肢を、「抵当権がある場合の合筆制限」（ア・イ）と「相続・地上権・職権合筆の場合」（ウ・エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric adjacent land plots
+merging, chain-link/mortgage icons, family figures, official registry
+officer figures, prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 合・筆・抵・当・権・順・位・相・続・職, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+合筆できる土地・できない土地
+抵当権・相続・地上権があると？
+
+Subtitle (smaller, centered, 1行):
+合筆の制限を整理(平成29年度 午後の部 第14問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design pair of adjacent land plots
+(甲土地 and 乙土地) with a merge arrow between them, one plot showing a
+small chain-link (mortgage) icon and the other showing a family-figure
+icon, illustrating the various obstacles that can block a straightforward
+merge.
+合筆とは、隣り合う複数の土地を1つの土地にまとめる登記です。権利関係が
+複雑になるのを防ぐため「合筆の制限」という厳しいルールがあります。
+抵当権・相続・地上権など、土地に付いている事情ごとに合筆できるかを
+整理できているかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+抵当権がある場合の合筆制限
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+一方の土地にのみ抵当権があると、承諾があっても合筆できない
+Illustration: An isometric pair of adjacent land plots — one plain, one
+with a chain-link (抵当権) icon attached — with a "消滅承諾" document
+being offered but blocked by a large red prohibition (no-entry) mark
+placed over the merge arrow between the two plots.
+Caption (small text below):
+Ａを所有権の登記名義人とする甲土地と乙土地のうち、乙土地にのみ抵当権の
+設定の登記がされている場合には、抵当権を消滅させることを承諾したこと
+を証する情報を添付しても、合筆の登記を申請することはできない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+同一内容の抵当権でも、一方だけ順位変更されていると合筆できない
+Illustration: An isometric pair of adjacent land plots each with an
+identical chain-link (抵当権) icon at first, then one plot's chain-link
+icon changing color/position to show a "順位変更" stamp, with a red
+prohibition mark over the merge arrow once the two no longer match.
+Caption (small text below):
+甲土地と乙土地に登記の目的・受付年月日・受付番号・登記原因及びその日付
+が同一の抵当権の設定の登記がされている場合であっても、その後、甲土地
+についてのみ抵当権の順位の変更の登記がされているときは、合筆の登記を
+申請することはできない(規則105条2号)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+相続・地上権・職権合筆の場合
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+名義人が異なる土地は、相続の移転登記をしてから合筆する
+Illustration: An isometric pair of adjacent land plots with two different
+name tags (Ａ and Ｂ)、connected by a family-tree arrow showing Ａ has
+died and Ｂ is the sole heir, with a "相続による移転登記" stamp appearing
+first, and only then does the merge arrow between the two plots turn
+green.
+Caption (small text below):
+甲土地の所有権の登記名義人がＡ、乙土地の所有権の登記名義人がＢである
+場合において、Ａが死亡してその相続人がＢのみであるときは、甲土地に
+ついて相続による所有権の移転の登記をしなければ、合筆の登記を申請する
+ことができない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+地上権の登記がある土地は、抹消してからでないと合筆できない
+Illustration: An isometric land plot with a small tower/pillar icon
+labeled "地上権" standing on it, being removed by a "抹消" stamp before
+the merge arrow to the adjacent plot is allowed to turn green (previously
+shown red/blocked).
+Caption (small text below):
+地上権の設定の登記がある土地は、その後に地上権者が当該土地の所有権
+登記名義人になった場合であっても、当該地上権の抹消の登記をした後で
+なければ、合筆の登記を申請することはできない。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+所有権登記名義人に異議があれば、職権合筆はできない
+Illustration: An isometric registry official figure holding a stamp
+labeled "職権合筆" reaching toward two adjacent land plots, but blocked
+by a person figure (labeled "所有権の登記名義人") holding up a hand with
+a "異議" speech bubble and a red prohibition mark between the official's
+stamp and the plots.
+Caption (small text below):
+地図を作成するために必要があると認めるときであっても、甲土地と乙土地の
+所有権の登記名義人に異議があるときは、登記官は職権で合筆の登記をする
+ことができない(法39条3項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第14問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 合・筆・抵・当・権・順・位・相・続・職. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 抵当権がある場合の合筆制限, 3 cards under 相続・地上権・
+職権合筆の場合), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```
