@@ -85,7 +85,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-所在欄の記録順序というテーマと、名称登記・符号・変更登記の登記原因という個別ルールとを2列に分け、5枚のカードで俯瞰する構成。
+所在欄の記録順序というテーマと、名称登記・符号・変更登記の登記原因という個別ルールとを2列に分け、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -93,6 +93,15 @@ clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. Every card must communicate its point
+almost entirely through the illustration (icons, X marks, checkmarks, small
+embedded labels) plus one short heading and one short conclusion tag. Do
+NOT render any full-sentence explanation, legal citation, or paragraph of
+body text anywhere on the cards. If a piece of information cannot be
+expressed as a short label (a few words) or drawn as an icon, leave it out
+rather than writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -113,7 +122,8 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和3年度 午後の部 第12問／建物の表示に関する登記
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
+--- INTRO BLOCK (left: illustration; right: paragraph text — the ONLY place
+in the whole poster where a short paragraph of prose is allowed) ---
 Illustration: An isometric illustration of a two-story wooden main
 building (主である建物) linked by a dotted line to a smaller attached
 storage building (附属建物) on a neighboring land plot, with a
@@ -123,12 +133,13 @@ icon.
 附属建物の符号の再使用、変更登記の登記原因の書き方など、細かな先例知識
 が問われます。5つの肢から、正しいルールだけを整理します。
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 所在欄の記録ルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-所在欄は「主である建物」の地番が先
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+所在欄は主建物の地番が先
 Illustration: An isometric main house building (主である建物) on a
 signpost labeled "1番" placed in front on the left, connected by an
 arrow pointing right to a smaller attached storage building
@@ -136,59 +147,58 @@ arrow pointing right to a smaller attached storage building
 draw the storage building icon larger in size than the main house
 icon to show that its floor area is bigger, while the arrow order
 still runs from "1番" to "2番".
-Caption (small text below):
-附属建物の床面積が主である建物より大きくても、所在欄には主である建物
-の地番が先に記録される。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+床面積は無関係
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-地番区域でない「字」も省略せず記録する
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+地番区域でない字も記録
 Illustration: An isometric address signpost showing two stacked
 labels, an upper label "大字△△（地番区域）" and a lower label
 "字□□（地番区域でない字）", with a green checkmark icon next to both
 labels confirming that both are kept on the registration document.
-Caption (small text below):
-大字で地番区域を定めていても、その先の字（小字）を省略することはでき
-ない（昭和41年1月11日民甲229号回答）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+省略できない
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 その他の登記事項のルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-一棟の建物の名称登記に規約の証明書は不要
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+名称登記に規約証明は不要
 Illustration: An isometric mansion-style building with a nameplate
 reading "〇〇レジデンス" being attached at its entrance, beside a torn
 paper document icon labeled "規約を証する情報" that has a large red X
 drawn over it to show this document is not required.
-Caption (small text below):
-一棟の建物の名称を申請情報とする場合でも、規約を設定したことを証する
-情報の提供は不要。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+規約証明は不要
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-取り壊した附属建物の符号は再使用できない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+取壊し後も符号は再使用不可
 Illustration: An isometric small storage shed labeled "符号1" shown
 crumbling and being demolished with dust particles, next to a new
 garage building receiving a fresh number tag "符号2"; show the old
 tag "符号1" floating separately with a red X over it, next to the
 new garage, to show it cannot be reused.
-Caption (small text below):
-附属建物の符号は、一度使用したものを取り壊し後の新しい附属建物に付け
-直すことはできない（昭和37年6月11日民甲1559号）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+符号の再使用不可
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-数次の増築でも記載するのは最後の1回だけ
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+数次増築でも最後の1回だけ
 Illustration: An isometric house shown with three overlapping
 construction-stage outlines labeled "1回目の増築"、"2回目の増築"、
 "3回目の増築" in a row from faint/grayed-out to solid; only the last
 outline "3回目の増築" is drawn in full solid color, next to a
 registration document icon that has only one date field filled in,
 while the other two stages remain grayed out and unfilled.
-Caption (small text below):
-数次にわたる増築でも、建物の表題部の変更登記には最後の増築に係る登記
-原因及びその日付のみを記載すれば足りる（平成21年2月20日民二500号）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+最後の1回だけでOK
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -196,7 +206,10 @@ Small credit text in the corner (optional, keep minimal).
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, and confirm that all text strings
-above appear verbatim with no paraphrasing or substitution.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, and that no card (other than the
+intro block) contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```
