@@ -85,15 +85,15 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の合併の登記について「できる場合」と「できない場合」の2系統に分け、5つの原則を1枚で俯瞰できる構成にした。
+建物の合併の登記について、申請できるケース3枚・申請できないケース2枚の計5枚のカードで要件を俯瞰できるよう構成した画像生成プロンプト。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, official
-stamps, document seals, torn paper labels, etc. — adapt icon set to the
-topic).
+stamps/seals, application documents, prohibition marks, arrows, address
+tags — adapt icon set to the topic).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,91 +102,104 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記・権・所・号 — render them in standard Japanese
-(Jōyō) form only, never in their Simplified Chinese variant forms.
+kanji 号・録・権・地・番・建・物・登・記・所・併・続・属, which have
+Simplified Chinese look-alike forms with visibly different stroke shapes —
+always draw the standard Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
-Title (large, bold, 1行):
-建物の合併の登記 ― できる場合とできない場合
+Title (large, bold, 2行):
+建物の合併の登記
+表示の登記なら、相続登記なしで申請できるんです
 
 Subtitle (smaller, centered, 1行):
-令和4年度 土地家屋調査士試験 午後の部 第16問
+複数の建物を1個の建物（主である建物とその附属建物）にまとめる手続を整理
+(令和4年度 午後の部 第16問)
 
 --- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 甲建物と乙建物という2つの離れたアイソメトリックな建物アイコンが、
-中央の矢印に向かって近づき、1個の建物(主である建物に附属建物が付いた形)へと
-合体していく様子。
-乙建物を甲建物の附属建物とする建物の合併の登記について、申請の可否を左右する
-5つの原則を整理する。
+Illustration: An isometric flat-design icon on the left showing two
+separate house-shaped building icons labeled "甲建物" and "乙建物" being
+drawn together by a dotted arrow into a single combined building icon,
+the combined icon showing a small "附属建物" tag attached to the main
+building, to represent multiple buildings being merged into one.
+建物の合併の登記は、複数の建物を1個の建物（主である建物とその附属建物）に
+まとめる手続です。合筆と似ていますが、表示に関する登記としての性質や、
+権利関係の一致の要否など、独自の論点があります。
 
 --- COLUMN A HEADER (pill-shaped badge) ---
-合併登記ができる場合
+合併の登記を申請できるケース
 
 --- COLUMN A, CARD 1 ---
 Heading (bold):
-相続登記なしで申請できる
-Illustration: 天から降りる矢印の先に立つ相続人Bのアイコンが、
-「合併の登記」と書かれた印章を建物模型に直接押している。その脇に
-「相続登記」と書かれた書類アイコンがあり、赤い斜線(禁止線ではなく
-「不要」を示す薄いグレーの取り消し線)が重ねられている。
+表示の登記なので、相続登記をしなくても合併登記を申請できる
+Illustration: An isometric scene showing a person icon labeled "相続人B"
+standing between icons of "甲建物" and "乙建物", with a straight arrow
+going directly from person B to a stamped "合併の登記" application
+document, and a separate crossed-out (prohibition mark) document icon
+labeled "相続による所有権移転登記" off to the side to show this step is
+not required first.
 Caption (small text below):
-表示の登記なので、相続人Bは相続による所有権の移転の登記をしなくても、
-本件合併の登記を申請することができる(不動産登記法30条)。
+表示の登記なので相続登記なしで合併登記を申請できる(法30条)。
 
 --- COLUMN A, CARD 2 ---
 Heading (bold):
-別々の登記所でも申請できる
-Illustration: 離れた場所にある2つの登記所の建物アイコン(それぞれ
-「A登記所」「B登記所」という小さな看板付き)の間を、点線でつながれた
-甲建物・乙建物のアイソメトリックなアイコンが結び、その上に緑色の
-チェックマークが浮かんでいる。
+異なる登記所の管轄でも、合併登記を申請できる
+Illustration: An isometric diagram showing "甲建物" sitting inside a
+dotted boundary region labeled "Ａ登記所" and "乙建物" sitting inside a
+separate dotted boundary region labeled "Ｂ登記所", with a bridge-like
+arrow connecting the two buildings into one combined building icon
+stamped "合併登記 可能".
 Caption (small text below):
-主である建物と附属建物が異なる登記所の管轄にあっても、効用上一体として
-利用され、所有者の意思に反しない限り、1個の建物として登記することが
-できる(不動産登記事務取扱手続準則78条1項)。
+異なる登記所の管轄でも合併登記を申請できる(準則78条1項)。
 
 --- COLUMN A, CARD 3 ---
 Heading (bold):
-種類変更登記と合併登記は一括申請できる
-Illustration: 1枚の申請書アイコンの上に、「表題部変更登記」と
-「合併登記」という2枚のラベル付き付箋が重なって束ねられ、1つの
-クリップで留められている様子。
+種類変更の表題部変更登記と合併登記は、一の申請情報でできる
+Illustration: An isometric single envelope/application-form icon into
+which two smaller document icons are funneling: one showing a building
+icon with a "種類変更" label and a small change-arrow, the other showing
+a stamped "合併の登記" document, both merging into the single envelope
+labeled "一の申請情報".
 Caption (small text below):
-建物の表題部の変更の登記と、合併の登記は、一の申請情報によって
-することができる(不動産登記規則35条7号)。
+種類変更の表題部変更登記と合併登記は一の申請情報でできる(規則35条7号)。
 
 --- COLUMN B HEADER (pill-shaped badge) ---
-合併登記ができない場合
+合併の登記を申請できないケース
 
---- COLUMN B, CARD 4 ---
+--- COLUMN B, CARD 1 ---
 Heading (bold):
-共用部分の登記がある建物は合併できない
-Illustration: 「共用部分である旨の登記」という印章が押された建物アイコンに、
-大きな赤い✕印が重ねられ、その周りに鍵のかかった書類アイコンが配置され、
-権利に関する登記が一切できない状態を表す。
+共用部分である旨の登記がある区分建物は、合併登記を申請できない
+Illustration: An isometric slice of a condominium building (区分建物)
+with a red plaque/stamp reading "共用部分" attached to it, and two
+building icons labeled "甲建物" and "乙建物" with a large red prohibition
+(no-entry) mark blocking the arrow between them, preventing the merge.
 Caption (small text below):
-共用部分または団地共用部分である旨の登記がされている建物は、権利に関する
-登記が一切できなくなるため、合併の登記を申請することはできない
-(不動産登記法56条1項1号・58条4項)。
+共用部分である旨の登記がある区分建物は合併登記を申請できない(法56条1項
+1号)。
 
---- COLUMN B, CARD 5 ---
+--- COLUMN B, CARD 2 ---
 Heading (bold):
-住所が一致しないと合併できない
-Illustration: 住所票アイコンに「旧住所」と「新住所」という2つの吹き出しが
-食い違って表示され、大きな赤い✕印が重なる。その下に、矢印付きで
-「先に住所の変更の登記」という手順を示す小さな書類アイコンが描かれている。
+住所が一致しないなら、住所変更登記なしでは合併登記できない
+Illustration: An isometric person icon labeled "Ａ" holding two address
+tags — an old address tag crossed out and a new "住居表示" tag — with a
+prohibition (no-entry) mark blocking an arrow toward a stamped "合併の
+登記" application document, and a separate highlighted document icon
+labeled "住所の変更の登記" marked as a required first step before the
+arrow can proceed.
 Caption (small text below):
-合併に係る建物の所有権の登記名義人の表示が一致していないときは同一人と
-扱われず、住所の変更の登記をしないまま住居表示の実施を証する情報を
-提供するだけでは、合併の登記を申請することはできない。
+住所が一致しないと住所変更登記なしでは合併登記できない。
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
+Small credit text in the corner (optional, keep minimal):
+令和4年度 午後の部 第16問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, and confirm there are exactly two
-column badges: 合併登記ができる場合 and 合併登記ができない場合.
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・併・続・属. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the number of cards equals 5
+exactly (3 cards under 合併の登記を申請できるケース, 2 cards under
+合併の登記を申請できないケース), with no duplicated or missing cards, and
+confirm every heading, illustration label, and caption text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
 ```

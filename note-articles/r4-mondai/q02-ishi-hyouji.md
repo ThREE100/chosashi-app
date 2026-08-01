@@ -86,14 +86,15 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-虚偽表示・詐欺・強迫の3制度を列に分け、各肢を「正しいルール」に直したうえで、第三者保護の要件が段階的に厳しくなる（虚偽表示＜詐欺＜強迫）序列を1枚で俯瞰できる構成にした。
+虚偽表示・詐欺・強迫のそれぞれで「あとから登場した第三者」がどこまで守られるかを、虚偽表示側3枚・詐欺強迫側2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric human figures, land
+plots, torn paper labels, official stamps/seals, shields, arrows,
+prohibition marks — adapt icon set to the topic).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,71 +103,108 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・登・記・所, which have Simplified Chinese look-alike forms
-(e.g. 权 instead of 権, 记 instead of 記) — always render the standard
-Japanese form.
+kanji 偽・欺・迫・対・転・権・継・悪・過・失, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
-Title (large, bold, 1行):
-虚偽表示・詐欺・強迫 ― 第三者はどこまで守られる？
+Title (large, bold, 2行):
+虚偽表示・詐欺・強迫
+第三者はどこまで守られる？
 
 Subtitle (smaller, centered, 1行):
-令和4年度 午後の部 第2問 意思表示の第三者保護
+第三者の保護要件と登記の要否を整理(令和4年度 午後の部 第2問)
 
 --- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 天秤(はかり)のアイコンを3つ並べ、左に「虚偽表示」・中央に「詐欺」・右に「強迫」のラベルを付ける。左の天秤は「本人の保護」側に、右の天秤は「第三者の保護」側に傾いており、3つを見比べると保護のバランスが段階的に第三者側へ傾いていく様子がひと目でわかる図解にする。
-意思表示の分野は、虚偽表示（民法94条）・詐欺（民法96条）・強迫（民法96条）で、あとから登場した「第三者」がどこまで守られるかがテーマです。①どの制度か、②第三者の保護要件（善意で足りるか・無過失までいるか）、③登記の要否、の3点を当てはめて判断していきます。「虚偽表示＝善意で足り登記不要」「詐欺＝善意無過失が必要」「強迫＝第三者保護なし（誰にでも対抗可）」という強さの序列を押さえるのが得点のカギです。
+Illustration: An isometric row of three small vignettes side by side, each
+showing a triangular transfer chain of three human figures labeled A・B・C,
+with a different overlay icon per vignette — a torn paper tag reading
+「仮装」for虚偽表示, a mask icon for 詐欺, a raised-fist threat icon for
+強迫 — and a small question-mark shield hovering over each "C" figure to
+represent how far the third party is protected.
+意思表示の分野は、虚偽表示（民94条）・詐欺（民96条）・強迫（民96条）で、
+あとから登場した「第三者」がどこまで守られるかがテーマです。①どの制度か、
+②第三者の保護要件（善意で足りるか・無過失までいるか）、③登記の要否、の
+3点を当てはめて判断していきます。
 
 --- COLUMN A HEADER (pill-shaped badge) ---
-虚偽表示（民法94条2項）
+虚偽表示に関する原則
 
 --- COLUMN A, CARD 1 ---
 Heading (bold):
-虚偽表示の善意の第三者は、登記がなくても守られる
-Illustration: AとBが握手して甲土地の仮装売買（点線の吹き出しで「仮装」と表示）をしているアイコン。その先に、事情を知らない善意の第三者Cが甲土地（isometric land plot）を受け取り、Cのそばに「登記なし」でも「対抗できる」ことを示すチェックマークの付いたバッジを配置する。
+虚偽表示の善意の第三者は、登記不要で保護される
+Illustration: An isometric scene showing land plot "甲土地" with a dashed
+line labeled「通謀虚偽表示(無効)」between figures A and B, an arrow from B
+to figure C wearing a「善意」badge, and a small crossed-out「登記」document
+icon beside C with a shield deflecting A's outstretched hand.
 Caption (small text below):
-通謀虚偽表示は当事者間では無効だが、善意の第三者には対抗できない(民法94条2項、最判昭44.5.27)。第三者は登記を備えていなくても保護される。
+通謀虚偽表示は当事者間では無効だが、その無効は善意の第三者には対抗できない。
+この第三者は登記を備えていなくても保護される(民法94条2項、最判昭44.5.27)。
 
 --- COLUMN A, CARD 2 ---
 Heading (bold):
-相続で引き継いだだけの人は「第三者」にあたらない
-Illustration: Bが死亡し、その子であるCが単独で相続する家系図アイコン(B→C、矢印に「相続」ラベル)。Cのそばに「包括承継人」というラベルと、バツ印の付いた「第三者ではない」バッジを配置し、甲土地の所有権がAのもとに戻ることを示す矢印を添える。
+相続人(包括承継人)は、善意でも「第三者」にあたらない
+Illustration: An isometric scene showing figure B with a small tombstone
+icon labeled「死亡」, an arrow labeled「相続(包括承継)」pointing to figure
+C who visually resembles B, a「第三者」badge crossed out on C, and figure
+A standing apart, unable to be opposed.
 Caption (small text below):
-94条2項の「第三者」とは、当事者およびその包括承継人以外の者をいう。相続人は善意でも「第三者」にはあたらない(民法896条)。
+94条2項の第三者とは、虚偽表示の外形を基礎に新たに独立の利害関係を持つに
+至った者をいう。相続人は包括承継人としてBの地位をそのまま引き継ぐため、
+善意でも第三者にはあたらず保護されない(民法896条)。
 
 --- COLUMN A, CARD 3 ---
 Heading (bold):
-善意者が現れれば、その後の悪意の転得者も権利を取得する
-Illustration: 甲土地がB→善意のC→悪意のDへと順に転売されていく3段階の矢印の連鎖。Cのそばに「善意」のバッジ、Dのそばに「悪意」のバッジを配置しつつ、Dの上にチェックマークを添えて「所有権を取得」できることを示す。全体に「絶対的構成」というラベルを付ける。
+善意者が現れれば、悪意の転得者も権利取得できる
+Illustration: An isometric chain of three figures B → C (wearing a「善意」
+badge with a checkmark) → D (wearing an「悪意」badge, but still receiving
+a glowing checkmark arrow inherited from C), with a floating label tag
+「絶対的構成」above the chain, and figure A on the far left unable to
+reach D.
 Caption (small text below):
-いったん善意の第三者が現れれば、その後の転得者は悪意であっても、善意の第三者から有効に権利を取得できる(絶対的構成、大判昭6.10.24)。
+いったん善意の第三者が現れれば、その後の転得者は悪意であっても、善意の
+第三者から有効に権利を取得できる(絶対的構成・大判昭6.10.24)。
 
 --- COLUMN B HEADER (pill-shaped badge) ---
-詐欺（民法96条3項）
+詐欺・強迫に関する原則
 
 --- COLUMN B, CARD 1 ---
 Heading (bold):
-詐欺取消しは、過失のある善意の第三者には対抗できる
-Illustration: Bの詐欺によってAが甲土地をBに売却する場面(A→Bの矢印に「詐欺」ラベル)。続いてBから善意だが過失のあるCへ転売される矢印(Cのそばに「善意・過失あり」のラベル)。最後にAが取消しの書類アイコンを掲げてCに対抗し、甲土地の所有権がAに戻る矢印を配置する。
+詐欺取消しは、過失ある善意の第三者に対抗できる
+Illustration: An isometric scene showing figure A being deceived by figure
+B wearing a mask icon labeled「詐欺」, an arrow from B to figure C wearing
+a「善意」badge alongside a「過失」icon (a magnifying glass missing a
+warning sign), and A's hand holding a「取消し」stamp reaching past B
+directly to C, with C's ownership tag crossed out.
 Caption (small text below):
-詐欺による意思表示の取消しは、善意かつ無過失の第三者には対抗できない(民法96条3項)。第三者に過失があれば保護されず、取消しを対抗できる。
+詐欺による意思表示の取消しは、善意かつ無過失の第三者には対抗できない。
+裏を返せば、第三者に過失があれば保護されず、取消しを対抗できる(民法96条
+3項)。
 
---- COLUMN C HEADER (pill-shaped badge) ---
-強迫（第三者保護規定なし）
-
---- COLUMN C, CARD 1 ---
+--- COLUMN B, CARD 2 ---
 Heading (bold):
 強迫取消しは、善意無過失の第三者にも対抗できる
-Illustration: Bの強迫によってAが甲土地をBに売却する場面(A→Bの矢印に「強迫」ラベル、Bのそばに脅すジェスチャーのアイコン)。続いてBから善意無過失のCへ転売される矢印(Cのそばに「善意無過失」のラベルと、盾のアイコンにバツ印を重ねて「保護されない」ことを示す)。最後にAが取消しの書類アイコンを掲げてCにも対抗し、甲土地の所有権がAに戻る矢印を配置する。
+Illustration: An isometric scene showing figure A being threatened by
+figure B wearing a raised-fist icon labeled「強迫」, an arrow from B to
+figure C wearing both a「善意」badge and a「無過失」badge, yet A's hand
+holding a「取消し」stamp still reaching through to C, with a broken
+shield icon over C and a label「第三者保護規定なし」beside A.
 Caption (small text below):
-強迫による取消しには詐欺のような第三者保護規定がなく、善意無過失の第三者に対してさえ対抗できる(96条3項の反対解釈)。だまされたより脅された被害者を、より手厚く保護する趣旨。
+強迫による取消しには、詐欺のような第三者保護規定(96条3項)がない。そのため
+強迫の取消しは、善意無過失の第三者に対してさえ対抗できる(96条3項の反対
+解釈)。
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
+Small credit text in the corner (optional, keep minimal):
+令和4年度 午後の部 第2問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 偽・欺・迫・対・転・権・継・悪・過・失. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 虚偽表示に関する原則, 2 cards under 詐欺・強迫に関する原則),
+with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
 ```

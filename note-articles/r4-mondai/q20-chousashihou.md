@@ -86,15 +86,15 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「土地家屋調査士個人・調査士会に関するルール」と「土地家屋調査士法人に関するルール」の2列構成で、ア〜オ5肢すべてを「本来正しいルール」として1枚で俯瞰できるようにした。
+土地家屋調査士および土地家屋調査士法人の規律を、「しなければならない」義務があるもの3枚・「できる（任意）」で義務ではないもの2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric office buildings,
-file cabinets, documents, badges, maps, etc. — adapt icon set to the
-topic).
+professional figures, ledger books, official stamps/seals, signposts,
+badges, prohibition marks — adapt icon set to the topic).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,98 +102,103 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Pay special attention to the kanji 地, 所, 記, 録, 会, 業, 士, 駐, 表, 款,
-社, 総, and 局 — these have visually similar but structurally different
-Simplified Chinese forms. Draw each one in its correct standard Japanese
-(Jōyō) form.
+summarize, or substitute any characters. Pay special attention to the
+kanji 調・査・総・務・閉・鎖・従・勧・業・員・駐, which have Simplified
+Chinese look-alike forms with visibly different stroke shapes — always
+draw the standard Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
-令和4年度 午後の部 第20問
-土地家屋調査士法のポイント
+事件簿は「閉鎖後7年」
+代表社員は「任意」なんです
 
 Subtitle (smaller, centered, 1行):
-事件簿・注意勧告・代表社員・競業禁止・従たる事務所の5つのルール
+「しなければならない」か「できる（任意）」かの区別を整理(令和4年度 午後の部 第20問)
 
 --- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 天秤(はかり)の上に「正」と書かれた札と「誤」と書かれた札が
-乗っている構図。虫眼鏡を持った土地家屋調査士のキャラクターアイコンが
-問題文を確認している。
-土地家屋調査士および土地家屋調査士法人に関するアからオまでの記述のうち、
-誤っているものの組合せを問う問題です。正解は「イ・ウ」（選択肢3番）。
-ここでは誤りの肢も含め、本来正しい5つのルールを整理します。
+Illustration: An isometric flat-design icon on the left showing a single
+土地家屋調査士 professional figure holding a ledger book beside a
+土地家屋調査士法人 office building icon with two person figures inside,
+both connected to a signpost that splits into two arrows: one arrow
+labeled "しなければならない" pointing to a padlock/checkmark icon, and
+another arrow labeled "できる(任意)" pointing to a flexible dashed-outline
+badge icon, showing the two icons are governed by rules that are either
+mandatory or optional.
+この問題は、土地家屋調査士および土地家屋調査士法人の義務・組織に関する
+細かな規律を問うものです。数字（保存年数）や、「〜しなければならない」
+なのか「〜できる（任意）」なのかの区別が勝負を分けます。
 
 --- COLUMN A HEADER (pill-shaped badge) ---
-土地家屋調査士・調査士会のルール
+「しなければならない」義務があるもの
 
 --- COLUMN A, CARD 1 ---
 Heading (bold):
-事件簿は閉鎖後7年間保存する
-Illustration: 「事件簿」とラベルの貼られたファイルキャビネットのアイソメトリック
-イラスト。キャビネットの扉に鍵のアイコン、横にカレンダーと「7年」という数字
-の吹き出し。
+事件簿は、閉鎖後7年間保存しなければならない
+Illustration: An isometric ledger book stamped with a "閉鎖" seal, sitting
+inside a storage box, with a calendar/clock icon beside it showing
+"7年間" and a small padlock icon to indicate a mandatory retention period.
 Caption (small text below):
-日本土地家屋調査士会連合会の定める様式で調製し、閉鎖後7年間保存しなければ
-ならない（土地家屋調査士法施行規則28条）。
+事件簿は閉鎖後7年間保存しなければならない（規則28条）
 
 --- COLUMN A, CARD 2 ---
 Heading (bold):
-注意勧告に公表義務はない
-Illustration: 調査士会の建物のアイソメトリックイラストの前で、職員が「注意」
-と書かれた書類を会員に手渡している構図。その横に「公表」の文字と、大きく
-重なる赤い禁止マーク（斜線入りの丸）。
+競業は、総社員の同意があっても禁止される
+Illustration: An isometric 土地家屋調査士法人 社員 figure reaching
+toward a briefcase icon labeled "自己の業務" that is overlaid with a red
+prohibition (no-entry) mark, while nearby colleague figures show a
+thumbs-up "同意" gesture, illustrating that the prohibition mark still
+applies even though the other members consent.
 Caption (small text below):
-土地家屋調査士会は所属会員に注意勧告をすることができるが、その旨を公表
-しなければならない義務はない（土地家屋調査士法56条）。
+競業は総社員の同意があっても禁止される（法37条1項）
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+従たる事務所には、管轄区域内の調査士会の会員である社員を常駐させる
+Illustration: An isometric map showing a main office building and a
+smaller branch office building labeled "従たる事務所" in a different
+region, with a professional figure standing fixed inside the branch
+office wearing a badge that matches the local 調査士会 emblem shown on a
+nearby regional boundary line, indicating the figure must be resident
+there.
+Caption (small text below):
+従たる事務所には管轄区域内の調査士会の会員である社員を常駐させる（法36条）
 
 --- COLUMN B HEADER (pill-shaped badge) ---
-土地家屋調査士法人のルール
+「できる（任意）」で義務ではないもの
 
 --- COLUMN B, CARD 1 ---
 Heading (bold):
-代表社員を定めるかは任意
-Illustration: 「定款」と書かれた書類のアイソメトリックイラスト。2人の調査士
-アイコンの間に分岐する矢印があり、片方には「代表社員あり」、もう片方には
-「代表社員なし」という2枚の選択カードが並んで描かれている。
+注意勧告をしても、公表しなければならない義務はない
+Illustration: An isometric 調査士会 office building issuing a warning
+note icon labeled "注意勧告" toward a small professional figure, with a
+megaphone/announcement icon crossed out by a red prohibition mark to
+show there is no obligation to make the warning public.
 Caption (small text below):
-社員が2名以上いる場合でも、代表社員を定款で定めるかどうかは任意であり、
-必ず定めなければならないわけではない（土地家屋調査士法35条の2第1項）。
+注意勧告をしても公表しなければならない義務はない（法56条）
 
 --- COLUMN B, CARD 2 ---
 Heading (bold):
-競業は同意があっても禁止
-Illustration: 1人の調査士アイコンが、法人の仕事の書類と個人の仕事の書類を
-同時に両手に持とうとしている構図。大きな赤い禁止マーク（斜線入りの丸）が
-重なり、横に「総社員の同意」という吹き出しが薄く描かれているが禁止マーク
-は消えない。
+代表社員は「定めることができる」のであって、義務ではない
+Illustration: An isometric 土地家屋調査士法人 office building containing
+two identical professional figures standing side by side, with a small
+dashed-outline optional badge labeled "任意" hovering above one figure
+and a document icon labeled "定款" beside them, showing that naming one
+figure as representative is a discretionary choice, not a requirement.
 Caption (small text below):
-土地家屋調査士法人の社員は、総社員の同意があっても、自己または第三者の
-ために法人の業務範囲に属する業務を行ってはならない（土地家屋調査士法37
-条1項）。
-
---- COLUMN B, CARD 3 ---
-Heading (bold):
-従たる事務所に会員社員を常駐
-Illustration: 地図の上に本店の事務所ビルと、離れた場所に立つ従たる事務所
-ビルが描かれたアイソメトリックイラスト。従たる事務所の前に、その地域の
-土地家屋調査士会の会員バッジを付けた社員アイコンが常駐している構図。
-Caption (small text below):
-従たる事務所を設置する場合、その所在地を管轄する法務局または地方法務局
-の管轄区域内に設立された調査士会の会員である社員を常駐させなければなら
-ない（土地家屋調査士法36条）。
+代表社員は定款で定めることができる（任意）で、義務ではない（法35条の2第1項）
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
-令和4年度 午後の部 第20問より作成
+令和4年度 午後の部 第20問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 調・査・総・務・閉・鎖・従・勧・業・員・駐. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly
-(2 cards in Column A, 3 cards in Column B), with no duplicated or
-missing cards, and confirm none of the five headings restates a wrong
-statement from the original question — all five must state the correct
-legal rule.
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 「しなければならない」義務があるもの, 2 cards under
+「できる（任意）」で義務ではないもの), with no duplicated or missing
+cards, and confirm every heading, illustration label, and caption text
+matches the Japanese text given above verbatim, with no paraphrasing and
+no substituted characters.
 ```

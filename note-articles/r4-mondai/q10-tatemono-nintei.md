@@ -85,14 +85,15 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の認定における3要件（外気分断性・定着性・用途性）を軸に、ア〜オの5肢すべてを「建物として登記できる」グループと「できない」グループの2列・計5枚のカードで1枚に俯瞰する構成とした。
+建物の認定を左右する3要件(外気分断性・定着性・用途性)を軸に、建物として登記できる例3枚・登記できない例2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric buildings, greenhouses,
+water tanks, prefab offices, elevated railways, piers, official stamps,
+checkmark badges, prohibition marks — adapt icon set to the topic).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -101,93 +102,111 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建, 物, 登, 記, 所 — these must be rendered in standard Japanese
-(Jōyō) form, never in Simplified Chinese form, even though they appear
-repeatedly throughout this infographic.
+kanji 建・物・登・記・所・準・則・鉄・強・給, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
-建物の認定
-「建物」といえるための3要件
+「簡単に動かせる」建物は、
+登記できないんです
 
 Subtitle (smaller, centered, 1行):
-令和4年度　午後の部　第10問
+建物の認定を解説(令和4年度 午後の部 第10問)
 
 --- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric cutaway icon of a simple building (a roof
-resting on surrounding walls, standing on the ground). Three numbered
-callout badges point from the icon to: the roof/walls (badge 1), the
-point where the building meets the ground (badge 2), and the empty
-interior space (badge 3).
-建物として登記できるかどうかは、①外気分断性（屋根・周壁で外気を遮ること）②定着性（土地に定着していること）③用途性（その目的とする用途に使える状態であること）の3要件で判断します。
+Illustration: An isometric flat-design icon on the left showing a simple
+house-shaped building icon under a magnifying glass, with three small
+floating badge icons arranged around it labeled 外気分断性, 定着性,
+用途性, each bearing a small checkmark, representing the three-part test
+used to judge whether a structure counts as a 建物.
+建物の認定は、ある構築物が登記できる「建物」といえるかを判断する分野です。
+判断のものさしは、①外気分断性(屋根と周壁で外気を分断しているか)、
+②定着性(土地に定着しているか)、③用途性(その目的とする用途に使える
+状態か)の3要件(不動産登記事務取扱手続準則77条など)です。この3つを
+各肢に当てはめていきます。
 
 --- COLUMN A HEADER (pill-shaped badge) ---
-建物として登記できる（3要件を満たす）
+建物として登記できる例
 
 --- COLUMN A, CARD 1 ---
 Heading (bold):
-肢ア：頑丈な温室は、ちゃんと建物になれるんです
-Illustration: Isometric illustration of a greenhouse-like structure
-(温床施設) with a visible steel-frame skeleton, a glass roof and glass
-surrounding walls, firmly anchored into the ground with visible
-foundation bolts at the base, a small potted plant visible inside
-through the glass.
+鉄材・強固なガラスの温床施設は、建物として登記できる
+Illustration: An isometric greenhouse structure with a visible steel
+skeleton frame and reinforced glass roof and walls, firmly anchored into
+the ground with foundation bolts, three small checkmark badges labeled
+外気分断性, 定着性, 用途性 floating above it, and a green stamp icon
+reading 登記できる beside it.
 Caption (small text below):
-鉄材・強固なガラスの温床施設は3要件を備え建物として登記できる
+鉄材で骨組みされて地面に固着し、屋根及び周壁が強固なガラスで築造された
+園芸用の温床施設は、外気分断性・定着性・用途性の3要件を備えるため、
+建物として登記することができる(準則77条)。
 
 --- COLUMN A, CARD 2 ---
 Heading (bold):
-肢エ：高架下の店舗、壁で囲えば建物になるんです
-Illustration: Isometric illustration of an elevated railway viaduct
-with a small shop built underneath it, using the underside of the
-viaduct as the roof, fully enclosed by solid surrounding walls that
-connect seamlessly to the viaduct's support pillars, with a shop
-signboard and entrance door visible.
+高架下を屋根に使い周壁を築いた店舗は、建物として登記できる
+Illustration: An isometric cross-section showing an elevated railway
+track running above, with solid walls built underneath enclosing the
+space into a shop storefront that is fully integrated with the elevated
+structure, a small train icon on the track above for context, and a
+green stamp icon reading 登記できる beside the shop.
 Caption (small text below):
-高架下を屋根に使い周壁を築いた店舗は建物として登記できる
+高架鉄道の線路敷地の高架下を屋根として利用し、外気を分断する周壁を築造
+して高架下と一体化させた店舗は、外気分断性・定着性・用途性の3要件を
+備えるため、建物として登記することができる。
 
 --- COLUMN A, CARD 3 ---
 Heading (bold):
-肢オ：海の上の水族館だって、建物になれるんです
-Illustration: Isometric illustration of an aquarium building with a
-roof and surrounding walls, standing on top of a permanent pier
-(桟橋) that is supported by pillars rising from the seabed, small
-waves visible around the pillars, the aquarium building solidly
-fixed onto the pier deck.
+桟橋上の永久的な水族館は、建物として登記できる
+Illustration: An isometric pier extending out over water, supported by
+multiple sturdy pillar legs rising from the seabed, with a building
+featuring a roof and walls (an aquarium) constructed on top of the pier,
+small fish icons in the water below for context, and a green stamp icon
+reading 登記できる beside the building.
 Caption (small text below):
-桟橋上の永久的な水族館は建物として登記できる
+海底からの脚柱によって支えられた永久的な構築物である桟橋の上に建築され
+た屋根及び周壁を有する水族館は、定着性・外気分断性・用途性を備えるため、
+建物として登記することができる。
 
 --- COLUMN B HEADER (pill-shaped badge) ---
-建物として登記できない（要件を欠く）
+建物として登記できない例
 
 --- COLUMN B, CARD 1 ---
 Heading (bold):
-肢イ：大きな給水タンク、建物にはなれないって知ってた？
-Illustration: Isometric illustration of a large cylindrical metal
-water tank standing upright on short support legs, with no doors,
-windows, or usable interior space shown, only a small external
-ladder on the outside.
+円柱状の大型給水タンクは、建物として登記できない
+Illustration: An isometric cylindrical water tank standing on support
+legs, sealed with no doors or windows and no space for a person to enter
+or stay inside, a crossed-out person icon beside it, and a red
+prohibition stamp icon reading 登記できない.
 Caption (small text below):
-円柱状の大型給水タンクは用途性を欠き建物にならない
+円柱状の形をした大型の給水タンクは、内部が人や物の出入り・滞留する
+空間として使われるものではなく、用途性の要件を満たさないため、建物と
+して登記することはできない。
 
 --- COLUMN B, CARD 2 ---
 Heading (bold):
-肢ウ：「簡単に動かせる」事務所は、登記できないんです
-Illustration: Isometric illustration of a small prefabricated office
-module resting loosely on top of separate steel column bases
-(鉄骨柱の土台), not fixed to the ground, with motion-arrow icons and
-small skids/wheels underneath indicating that it can easily be
-lifted and moved away.
+容易に移動できる組立式事務所は、建物として登記できない
+Illustration: An isometric prefabricated box-shaped office resting
+loosely on separate steel column bases that merely sit on the ground
+surface rather than being embedded in it, small motion arrows and a
+dolly/cart icon beside it suggesting it can easily be moved elsewhere,
+and a red prohibition stamp icon reading 登記できない.
 Caption (small text below):
-容易に移動できる組立式事務所は定着性を欠き建物にならない
+土地の上に鉄骨柱の土台を置いて基礎とし、組立式で容易に移動可能な事務所
+を設置した場合、その事務所は土地への定着性を欠くため、建物として登記
+することはできない。
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
+Small credit text in the corner (optional, keep minimal):
+令和4年度 午後の部 第10問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 建・物・登・記・所・準・則・鉄・強・給. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, and confirm the two column labels
-（建物として登記できる／建物として登記できない）are each used exactly once.
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 建物として登記できる例, 2 cards under 建物として登記できない
+例), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
 ```

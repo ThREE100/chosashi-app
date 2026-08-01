@@ -91,14 +91,15 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「更正＝最初から誤り＝申請義務なし」と「変更＝事実が変わった＝申請義務あり」という軸で2列に分け、ア〜ウを「更正」列、エ・オを「変更」列に配置し、5枚のカードでこの問題の全ルールを俯瞰する構成にした。
+土地の表題部の変更・更正について、更正の登記に関する原則（申請義務なし・地積測量図は省略不可・訂正の申出では直せない）と変更の登記に関する原則（1か月以内の申請義務・地積の記録単位の場合分け）を、更正側3枚・変更側2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots, survey
+maps, calendars, official stamps/seals, prohibition marks, branching
+flowcharts, ledger books — adapt icon set to the topic).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -106,96 +107,113 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・積・建・物・登・記・図・所, which have Simplified
+Chinese look-alike forms with visibly different stroke shapes — always
+draw the standard Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
-土地の表題部の変更・更正
-正しいルールはこれ！
+地目変更は「義務あり」
+地積更正は「義務なし」
 
-Subtitle (smaller, centered, 2行):
-「変更」は事実が変わった、だから申請義務がある
-「更正」は最初から誤りだった、だから申請義務がない
+Subtitle (smaller, centered, 1行):
+土地の表題部の変更・更正を解説(令和4年度 午後の部 第7問)
 
 --- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric illustration showing two diverging paths from a
-single land plot icon: one path labeled "変更" leading to a clock/calendar
-icon marked "1か月" and a document being submitted; the other path labeled
-"更正" leading to a magnifying glass finding an error mark, with no clock
-icon, showing no deadline.
-この分野は、「変更」と「更正」の違いがカギです。変更は登記後に事実が変わったこと、更正は最初から登記が間違っていたことを直す手続で、申請義務の有無や地積測量図の扱いが変わってきます。
+Illustration: An isometric flat-design icon on the left showing two
+contrasting land plots side by side: the left plot has a calendar icon
+with a clock hand and a bold "変更" wooden tag, representing a fact that
+changed after registration; the right plot has a red correction pencil
+icon crossing out a mistaken number and a bold "更正" wooden tag,
+representing an error that existed from the start. A thin dotted line
+connects the two to show they are contrasted concepts.
+この分野は、「変更」と「更正」の違いがカギです。変更は登記後に事実が
+変わったこと、更正は最初から登記が間違っていたことを直す手続で、申請
+義務の有無や地積測量図の扱いが変わってきます。
 
 --- COLUMN A HEADER (pill-shaped badge) ---
-更正のルール（最初から誤り・申請義務なし）
+更正の登記に関する原則
 
 --- COLUMN A, CARD 1 ---
 Heading (bold):
-地積の更正の登記に、申請義務はない
-Illustration: An isometric person looking at a land plot with a small "誤"
-error tag on the 地積 number, next to a calendar icon with a red "X"
-crossing out "1か月以内"; no deadline stamp; a small torn-paper label
-reading "義務なし".
+地積の更正の登記には、申請義務がない
+Illustration: An isometric land plot with a red "地積誤り" stamp on it,
+next to a calendar icon showing "1か月以内に申請" crossed out with a
+prohibition (no-entry) mark, and a small speech bubble reading "義務なし"
+next to a registered owner character to show no filing duty exists.
 Caption (small text below):
-錯誤（誤り）がいつ生じたか把握するのは困難なため、更正の登記には申請義務が課されていない（不動産登記法38条）。
+錯誤（誤り）がいつ生じたかを把握するのは困難であることから、地積の更正
+の登記には申請義務が課されていない(不動産登記法38条)。
 
 --- COLUMN A, CARD 2 ---
 Heading (bold):
-公差の範囲内でも、地積測量図は省略できない
-Illustration: An isometric desk scene showing a land survey document
-labeled "地積測量図" being stamped and attached to an application folder,
-with a small gap-arrow icon labeled "公差の範囲内" crossed out next to a
-"省略不可" torn-paper label.
+地積更正では、公差の範囲内でも地積測量図は省略できない
+Illustration: An isometric land survey map (地積測量図) icon with a small
+gap bracket labeled "公差の範囲内", next to the same map icon with a
+prohibition mark overlaid on a "省略" label and an arrow showing the map
+must still be submitted alongside the registration application document.
 Caption (small text below):
-更正後の地積・求積方法を明確にするため、地積の差が公差の範囲内であっても地積測量図の提供は省略できない（不動産登記令別表6項添付情報）。
+更正後の地積と地積測量図に記載された地積との差が公差の範囲内であっても、
+地積測量図の提供を省略することはできない(不動産登記令別表6項添付情報)。
 
 --- COLUMN A, CARD 3 ---
 Heading (bold):
-求積計算の誤りは、地積更正の登記で正す
-Illustration: An isometric illustration showing a document labeled
-"地積測量図の訂正の申出" with a red "X" mark, next to an arrow pointing
-to a correctly stamped application folder labeled "地積更正の登記".
+求積計算の誤りは、「地積測量図の訂正の申出」では直せない
+Illustration: An isometric desk scene showing a land survey map with a
+calculation error circled in red, a hand holding a document labeled
+"地積測量図の訂正の申出" with a prohibition mark over it, and an arrow
+pointing instead toward a stamped document labeled "地積更正の登記" as
+the correct route.
 Caption (small text below):
-表題登記時の求積計算の誤りは、地積測量図の訂正の申出では直せず、地積更正の登記を申請して登記記録の地積を直す（不動産登記規則88条1項）。
+表題登記の際の求積計算が誤っていたために誤った地積で登記されたときは、
+地積更正の登記を申請すべきであり、地積測量図の訂正の申出によって登記
+記録の地積を直すことはできない(不動産登記規則88条1項)。
 
 --- COLUMN B HEADER (pill-shaped badge) ---
-変更のルール（事実が変わった・申請義務あり）
+変更の登記に関する原則
 
 --- COLUMN B, CARD 1 ---
 Heading (bold):
-地目を変更したら、1か月以内に申請
-Illustration: An isometric land plot icon transforming from a "雑種地"
-signage to a "宅地" signage (a small house being built on it), with a
-calendar icon highlighting "1か月以内" and a person submitting a document
-folder labeled "表題部変更登記".
+地目を変更したら、1か月以内に変更登記を申請しなければならない
+Illustration: An isometric land plot changing from a signpost labeled
+"雑種地" to a signpost labeled "宅地", with a calendar icon highlighting
+"1か月以内" and a green checkmark stamp labeled "申請義務あり" attached
+to a registered owner character.
 Caption (small text below):
-地目または地積に変更が生じたときは、所有権の登記名義人は、変更があった日から1か月以内に土地の表題部の変更の登記を申請しなければならない（不動産登記法37条1項）。
+土地の地目又は地積に変更が生じたときは、所有権の登記名義人は、その変更
+があった日から1か月以内に、土地の表題部の変更の登記を申請しなければ
+ならない(不動産登記法37条1項)。
 
 --- COLUMN B, CARD 2 ---
 Heading (bold):
-宅地は、面積を問わず100分の1まで記録できる
-Illustration: An isometric comparison chart card split into two rows: top
-row labeled "宅地・鉱泉地" with a checkmark icon showing "100分の1まで"
-regardless of size; bottom row labeled "それ以外の地目" showing a scale
-icon splitting into "10平方メートル以下→100分の1まで" and
-"10平方メートル超→1平方メートルまで". A small example tag reads
-"30歩 → 99.17平方メートル".
+地積の記録単位は、地目と面積で場合分けされる
+Illustration: An isometric branching flowchart starting from a decision
+node labeled "地目・面積", splitting into three paths: Path 1 leads to a
+land plot icon labeled "宅地・鉱泉地" with the caption "面積の大小を
+問わず→100分の1まで"; Path 2 leads to a land plot icon labeled "それ以外
+の地目／10平方メートル以下" with the caption "100分の1まで"; Path 3
+leads to a land plot icon labeled "それ以外の地目／10平方メートルを超える"
+with the caption "1平方メートル(整数)まで". A small worked-example tag
+beside the diagram reads "30歩→99.17355平方メートル→宅地なら99.17
+平方メートル".
 Caption (small text below):
-旧尺貫法の換算地積は、宅地・鉱泉地であれば面積の大小を問わず1平方メートルの100分の1まで記録できる（不動産登記規則100条、昭54.1.8民三343号）。
+地積をどこまで細かく記録するかは地目と面積で決まる。宅地・鉱泉地は面積
+の大小を問わず1平方メートルの100分の1まで、それ以外の地目は10平方
+メートル以下なら100分の1まで、10平方メートルを超えると1平方メートル
+(整数)までとなる(不動産登記規則100条、昭54.1.8民三343号)。
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 令和4年度 午後の部 第7問
 
-Note on easily-confused kanji: the characters 号・録・権・地・積・登・記・所
-appear in this prompt (e.g. 登記, 地積, 記録, 所有権, 昭54.1.8民三343号) and
-have Simplified Chinese look-alike forms with different stroke shapes. Render
-all of them in standard Japanese (Jōyō) form only, never the simplified
-Chinese variant.
-
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・積・建・物・登・記・図・所. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly
-(3 cards in the 更正 column, 2 cards in the 変更 column), with no
-duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 更正の登記に関する原則, 2 cards under 変更の登記に関する
+原則), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
 ```

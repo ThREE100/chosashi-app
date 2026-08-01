@@ -85,87 +85,124 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-筆界特定手続の5つの肢を「手続を進めるのは誰か（通知・再申請・費用）」と「申請情報の書き方」の2列に分け、正しいルールだけを5枚のカードで俯瞰できる構成にした。
+筆界特定の手続きにおける申請人と筆界特定登記官の役割分担を3枚、筆界特定申請情報の書き方に関する原則を2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric registrar figure,
-land plots with boundary lines, official stamps, torn paper labels,
-document/application forms, wallet/coin icons — adapt icon set to the
-topic).
+modern explainer-graphic aesthetic (icons: isometric land plots with a
+dotted boundary line, official stamps/seals, envelopes, ledger books,
+coin/cash trays, document forms, arrows — adapt icon set to the topic).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Pay special
-attention to the kanji 号・地・番・登・記・所, which have simplified-Chinese
-look-alikes with different stroke forms — render them in standard Japanese
-form only. Reproduce the exact text strings given below verbatim — do not
-paraphrase, translate, summarize, or substitute any characters.
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 筆・請・費・誤・権・規・則・記・納・報, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
-筆界特定の手続ルール
-誰が何をするのか
+筆界特定
+費用を払うのは「申請した人」だけなんです
 
 Subtitle (smaller, centered, 1行):
-令和4年度 午後の部 第19問
+通知・予納・申請情報のルールを整理(令和4年度 午後の部 第19問)
 
 --- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 筆界特定登記官のキャラクターが地図と申請書を手に、隣接する対象土地の筆界線を指し示すアイソメトリック構図。周囲に申請人と関係人のキャラクターを配置する。
-筆界特定は、土地の筆界がどこにあるかを筆界特定登記官が判断する手続です。通知・費用・申請書の書き方など、手続上のルールを押さえることが正解への近道です。
+Illustration: An isometric flat-design icon on the left showing two land
+plots separated by a dotted boundary line labeled "筆界", with a small
+official character icon (筆界特定登記官) standing beside the boundary
+holding a stamp and a measuring tool, and a small document form icon
+labeled "申請" nearby to show the official judging where the boundary is.
+筆界特定は、土地の筆界(公法上の境界)がどこかを、筆界特定登記官が判断する
+手続です。誰が通知するのか、費用は誰が負担するのか、申請はどう書くのか、
+といった手続のルールが問われています。
 
 --- COLUMN A HEADER (pill-shaped badge) ---
-手続を進めるのは誰か（通知・再申請・費用）
+申請人と筆界特定登記官の役割分担
 
 --- COLUMN A, CARD 1 ---
 Heading (bold):
-通知するのは、申請人ではなく筆界特定登記官
-Illustration: 筆界特定登記官のキャラクターが公告文書を持ち、対象土地の所有者と関係土地の所有者へ矢印で通知が届く様子。申請人のキャラクターは横で見守るだけの構図にする。
+申請後の通知は、申請人ではなく筆界特定登記官が行う
+Illustration: An isometric scene showing a registry official character
+(筆界特定登記官) sending an envelope labeled "通知" toward two other
+character icons labeled "対象土地の所有者" and "関係土地の所有者", with a
+prohibition mark over a separate applicant character icon that is crossed
+out from sending any envelope, to show the applicant does not notify.
 Caption (small text below):
-筆界特定をしたときは、筆界特定登記官が遅滞なく公告し、申請人以外の対象土地の所有者と関係土地の所有者に通知しなければならない（不動産登記法133条1項）。
+筆界特定をしたときは、筆界特定登記官が遅滞なく公告し、申請人以外の対象
+土地の所有者と関係土地の所有者に通知しなければならない(法133条1項)。
 
 --- COLUMN A, CARD 2 ---
 Heading (bold):
 明白かつ重大な誤りがあれば、再度の申請ができる
-Illustration: 「誤り」の印がついた偽造測量図の書類と、それとは別に新しい申請書を提出する申請人の構図。「却下」の判子に✕マークを重ねて示す。
+Illustration: An isometric ledger page showing a land plot stamped
+"筆界特定済み", with a torn paper label reading "偽造された資料" attached,
+and a curved arrow looping back to a fresh document form icon labeled
+"改めて申請" to show a new application is possible despite the earlier
+result.
 Caption (small text below):
-既にされた筆界特定が偽造された資料によってなされた場合など、特段の必要があると認められる場合には、改めて筆界特定の申請をすることができる（平17.12.6民二2760号）。
+既に筆界特定がされている土地の筆界でも、既にされた筆界特定が偽造された
+資料によってなされた場合など特段の必要があると認められる場合には、改めて
+筆界特定の申請をすることができる(平17.12.6民二2760号)。
 
 --- COLUMN A, CARD 3 ---
 Heading (bold):
-費用を予納するのは、申請した人だけ
-Illustration: 申請人のキャラクターだけが財布からお金を出して予納する構図。隣に立つ「対象土地の所有権の登記名義人（申請人でない）」のキャラクターには✕マークを付け、費用を払わないことを示す。
+手続費用の予納義務は、申請人だけが負う
+Illustration: An isometric scene showing an applicant character icon
+placing coins into a tray labeled "予納", while a separate character icon
+labeled "対象土地の所有権の登記名義人(申請人ではない)" stands beside an
+empty tray with a prohibition mark, showing this person is not required
+to pay.
 Caption (small text below):
-筆界特定の手続における測量に要する費用その他の手続費用は申請人の負担とされ、筆界特定登記官は申請人に費用の概算額を予納させなければならない（不動産登記法146条1項・5項）。
+測量に要する費用その他の手続費用は申請人の負担とされ、筆界特定登記官は
+申請人に概算額を予納させる。対象土地の所有権の登記名義人であっても、
+申請人でなければ予納の負担は負わない(法146条1項・5項)。
 
 --- COLUMN B HEADER (pill-shaped badge) ---
-申請情報の書き方
+筆界特定申請情報に関する原則
 
 --- COLUMN B, CARD 1 ---
 Heading (bold):
-申請書には「申請の趣旨」を明らかにする
-Illustration: 申請書の書類アイコンに「申請の趣旨」という吹き出しラベルが強調され、矢印ではっきり示される構図。
+筆界特定の申請は、申請の趣旨を明らかにしてしなければならない
+Illustration: An isometric document form icon labeled "筆界特定申請情報"
+with a highlighted line reading "申請の趣旨" glowing, and a small speech
+bubble icon showing a checkmark to represent a clear, unambiguous
+statement of intent by the applicant.
 Caption (small text below):
-筆界特定申請情報では申請の趣旨を明らかにしなければならない。申請の趣旨とは、筆界特定を求める旨の申請人の明確な意思表示をいう（不動産登記法131条3項1号）。
+申請の趣旨とは、筆界特定を求める旨の申請人の明確な意思表示をいう(法131条
+3項1号、平17.12.6民二2760号)。
 
 --- COLUMN B, CARD 2 ---
 Heading (bold):
-対象土地が共通なら、複数の申請を1つにまとめられる
-Illustration: 甲土地を中心に、乙土地・丙土地との筆界線が両側に伸び、1枚の申請情報の書類にまとまるアイソメトリック構図。
+対象土地の一を共通にする複数の申請は、一の申請情報でできる
+Illustration: An isometric diagram showing three land plots labeled
+"甲土地"・"乙土地"・"丙土地", with 甲土地 in the center connected by
+dotted lines to both 乙土地 and 丙土地, and two separate document form
+icons merging via an arrow into a single document form icon labeled
+"一の筆界特定申請情報".
 Caption (small text below):
-対象土地の一を共通にする複数の筆界特定の申請は、一の筆界特定申請情報によって申請することができる（不動産登記規則208条）。
+甲土地・乙土地を対象とする申請と、甲土地・丙土地を対象とする申請は、
+甲土地を共通にしているため、まとめて一の申請情報で申請できる(規則208条)。
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
+Small credit text in the corner (optional, keep minimal):
+令和4年度 午後の部 第19問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially for
-号・地・番・登・記・所. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
-number of cards equals 5 exactly, with no duplicated or missing cards,
-and confirm all text strings match the Japanese text given above verbatim.
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 筆・請・費・誤・権・規・則・記・納・報. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 申請人と筆界特定登記官の役割分担, 2 cards under 筆界特定
+申請情報に関する原則), with no duplicated or missing cards, and confirm
+every heading, illustration label, and caption text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters.
 ```

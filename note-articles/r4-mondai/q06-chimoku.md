@@ -85,86 +85,119 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-地目は「見た目の施設」ではなく「土地の主な用途」で決まるという本問共通の視点を軸に、5肢すべての正しいルールを「宅地と判断されるケース」「用途で決まる地目」の2列・5カードで俯瞰する構成。
+地目の分野で、正しい地目の定義を「宅地と判断される土地」2枚・「用途ごとに決まる地目」3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric oil tank, hot spring
+inn building, levee/dike with road on top, small water channel, park with
+tennis court, land plots, official stamps/seals, magnifying glass — adapt
+icon set to the topic).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Pay special
-attention to the kanji 号・地・番・建・物・登・記・所, which have
-visibly different Simplified Chinese forms — render them only in the
-standard Japanese form. Reproduce the exact text strings given below
-verbatim — do not paraphrase, translate, summarize, or substitute any
-characters.
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 準・則・地・目・宅・鉱・泉・堤・溝・園・登・記・所, which have
+Simplified Chinese look-alike forms with visibly different stroke shapes —
+always draw the standard Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
-地目は「見た目の施設」ではなく
-「土地の主な用途」で決まる
+石油タンクの敷地は「宅地」
+温泉宿も「宅地」なんです
 
 Subtitle (smaller, centered, 1行):
-令和4年度 午後の部 第6問／地目の5つの判断ポイント
+「土地の主な用途」で判断する(令和4年度 午後の部 第6問)
 
 --- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 虫眼鏡を持った調査士のキャラクターが、土地の上に並ぶ複数の施設アイコン(タンク、旅館、堤防、水路、テニスコート)を見比べている構図。吹き出しに「用途は？」の文字。
-地目は、そこにある施設の見た目ではなく、その土地が主にどう使われているかで決まります。石油タンクや温泉宿の敷地はいずれも宅地、堤防の天端が道路でも地目は堤のまま、公園内のテニスコートも一体で公園になるなど、5つの視点から地目の考え方を確認します。
+Illustration: An isometric flat-design cluster on the left showing, small
+side by side, an oil tank icon, a hot spring inn building icon, a levee
+cross-section with a road on top, a small water channel, and a park with
+a tennis court, all sitting on separate small land plots, with a large
+magnifying glass hovering over the group focused on a plain land-plot icon
+labeled "用途" to show that land use, not the visible facility, decides
+the classification.
+地目の分野は、不動産登記事務取扱手続準則68条・69条に列挙された23種類の
+地目の定義を、具体的な土地の使われ方に当てはめられるかが問われます。
+「見た目の施設」ではなく「土地の主な用途」で判断するのがコツです。
 
 --- COLUMN A HEADER (pill-shaped badge) ---
-宅地と判断されるケース
+宅地と判断される土地
 
 --- COLUMN A, CARD 1 ---
 Heading (bold):
-石油タンクの敷地は「宅地」
-Illustration: 大きな円筒形の石油タンクが複数並ぶ敷地をアイソメトリックで描き、タンクの下の土地区画に「宅地」と書かれた立て札を立てる。敷地内に登記された建物がないことが分かるよう、空き地の質感を添える。
+石油タンクの敷地も、宅地とすることができる
+Illustration: An isometric large cylindrical oil tank standing on a bare
+land plot with no building on it, the plot tagged with a wooden label
+reading "宅地", and a small crossed-out "建物が必要" icon beside it to
+show a building is not required for the land to be sakuchi.
 Caption (small text below):
-建物がなくても、タンクの敷地は宅地として扱う(準則69条10号)
+ガスタンクや石油タンクそのものは建物とは認定されないが、これらの敷地は
+宅地として取り扱われる(準則69条10号)。
 
 --- COLUMN A, CARD 2 ---
 Heading (bold):
-温泉を引き込んだ宿の敷地も「宅地」
-Illustration: 山中に湯気の立つ小さな源泉(わき出し口)と、そこから引き込み管でつながった離れた場所にある温泉旅館の建物を描く。旅館の敷地に「宅地」の立て札、源泉の敷地に「鉱泉地」の立て札をそれぞれ分けて立てる。
+温泉を引き込んだ温泉宿の敷地は、宅地
+Illustration: An isometric traditional hot spring inn building on a land
+plot tagged "宅地", connected by a dotted pipe line running from a
+separate small land plot with a bubbling spring icon tagged "鉱泉地",
+showing the inn's land and the spring's wellspring land are different
+plots with different chimoku.
 Caption (small text below):
-鉱泉地になるのは、わき出し口とその維持に必要な土地だけ(準則68条7号・3号)
+鉱泉地は、鉱泉のわき出し口およびその維持に必要な土地の地目。別の土地から
+温泉を引き込んでいる温泉宿の敷地は、わき出し口ではなく建物の敷地なので
+宅地となる(準則68条7号・3号)。
 
 --- COLUMN B HEADER (pill-shaped badge) ---
-用途で決まる地目
+用途ごとに決まる地目
 
 --- COLUMN B, CARD 1 ---
 Heading (bold):
-道路に使われる堤防も地目は「堤」
-Illustration: 川沿いに築造された堤防をアイソメトリックで描き、堤防の天端(てっぺん)に人が歩く道が通っている様子を表現する。堤防全体を囲む枠に「堤」と書かれた立て札を立てる。
+道路にも使われている堤防の地目は、堤
+Illustration: An isometric cross-section of a levee (dike) built for flood
+prevention, with a small road and pedestrians running along its flat top
+(天端), the whole levee land plot tagged with a wooden label reading "堤".
 Caption (small text below):
-天端が一般交通の道路として利用されていても、地目は堤のまま(準則68条18号)
+防水のために築造された堤防の土地の地目は堤とする。天端が一般交通の用に
+供する道路として利用されていても、地目は堤のまま(準則68条18号)。
 
 --- COLUMN B, CARD 2 ---
 Heading (bold):
-村落の間の通水路は「井溝」
-Illustration: 田んぼと集落の間を流れる小さな水路をアイソメトリックで描く。水路に沿う土地の区画に「井溝」と書かれた立て札を立てる。
+村落の間にある通水路の地目は、井溝
+Illustration: An isometric small narrow water channel running between
+rice paddies and a small village of houses, the channel's land plot
+tagged with a wooden label reading "井溝".
 Caption (small text below):
-田畝または村落の間にある通水路の地目は井溝(準則68条19号)
+田畝または村落の間にある通水路の地目は井溝とする(準則68条19号)。
 
 --- COLUMN B, CARD 3 ---
 Heading (bold):
-テニスコートがあっても一体で「公園」
-Illustration: 公園の敷地内にテニスコートが設置されている様子をアイソメトリックで描く。テニスコートを含む公園全体を囲む枠に「公園」と書かれた立て札を立てる。
+テニスコートがあっても、公園にできる
+Illustration: An isometric single park land plot with trees, benches, and
+a tennis court all inside it with no dividing line separating the tennis
+court from the rest of the park, the whole plot tagged with a wooden
+label reading "公園".
 Caption (small text below):
-公園施設の敷地も一体として公園になる(準則68条22号)
+公衆の遊楽のために供する土地は公園とする。公園内にある運動施設などの
+公園施設の敷地も一体として公園になる(準則68条22号)。
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
+Small credit text in the corner (optional, keep minimal):
+令和4年度 午後の部 第6問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards, and that each card's
-heading and caption text matches the strings given above verbatim.
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 準・則・地・目・宅・鉱・泉・堤・溝・園・登・記・所. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the number of cards equals 5 exactly
+(2 cards under 宅地と判断される土地, 3 cards under 用途ごとに決まる地目),
+with no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
 ```

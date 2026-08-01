@@ -85,15 +85,16 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-相続欠格・単純承認・限定承認・放棄・取消しという5つのルールを、妻Bと子Cのケースに沿って1枚で俯瞰できるよう、誤っている肢（ウ・オ）は正しいルールに直したうえで5枚のカードに整理した。
+相続の承認・放棄について、相続人の資格や承認の可否に関する原則3枚と、放棄の効果に関する原則2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric family figures,
-house, will/document scrolls, court building, official stamps, torn
-paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric people figures,
+signposts, calendars, family-tree diagrams, court/gavel icons, torn
+paper documents, prohibition marks, stamps/seals — adapt icon set to
+the topic).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,84 +103,111 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 続・単・認・権・欠, which have visually similar but different
-Simplified Chinese forms — always draw the standard Japanese (Jōyō) form.
+kanji 続・認・棄・欠・権・強・迫・単・裁・剥, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
-相続の承認・放棄
-令和4年度 午後の部 第3問
+相続の承認及び放棄
+限定承認は「全員そろって」、放棄の取消しは「できる」
 
 Subtitle (smaller, centered, 1行):
-妻Bと子Cが相続人となる場合の5つの記述を整理する
+単純承認・限定承認・放棄の手続と効果の違いを整理(令和4年度 午後の部 第3問)
 
 --- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene of a home representing Aの遺産(相続財産)。
-Beside the house stand two simple family figures labeled 妻B and 子C,
-with small icons scattered around them: a will/document scroll (遺言書),
-a court building (家庭裁判所), and an official stamp (印鑑).
-妻Bと子Cのみが相続人となる場合の、相続欠格・単純承認・限定承認・放棄・
-取消しという5つのルールを整理する。誤っている記述（ウ・オ）は、
-正しいルールに直して図解する。
+Illustration: An isometric flat-design icon on the left showing a person
+icon (representing an heir) standing at a fork in the road that branches
+into three signposts labeled "単純承認"、"限定承認"、"放棄", each signpost
+leading down a differently colored path, representing the three choices
+available to an heir.
+相続の承認・放棄の分野は、「単純承認・限定承認・放棄」の3つの選択肢と、
+それぞれの手続・効果・取消しの可否を整理できているかが問われます。とくに
+限定承認の共同性と、放棄の取消しの扱いが定番の論点です。
 
---- CARD 1 ---
-Heading (bold):
-遺言を強迫で書かせたら、相続人になれないんです
-Illustration: An isometric scene of one family figure forcing another
-family figure to sign a will/document scroll (遺言書), with a red
-circle-and-slash prohibition icon over the forcing figure's position in
-a small family-tree diagram, showing that figure excluded from
-inheritance.
-Caption (small text below):
-強迫で遺言をさせた者は相続欠格者となる（891条3号）
+--- COLUMN A HEADER (pill-shaped badge) ---
+相続人の資格と承認に関する原則
 
---- CARD 2 ---
+--- COLUMN A, CARD 1 ---
 Heading (bold):
-3か月ほったらかしで、単純承認あつかいって知ってた？
-Illustration: An isometric calendar icon counting down 3か月, with a
-family figure standing idle beside it, and an official stamp reading
-単純承認 automatically pressing down onto a document at the end of the
-countdown.
+強迫で遺言をさせた者は、相続欠格者になる
+Illustration: An isometric scene showing a woman character labeled "Ｂ"
+menacingly holding a scroll toward a man character labeled "Ａ" who is
+being forced to write on a document stamped "遺言", with a large red
+prohibition (no-entry) icon and a torn "相続人" name-tag falling away
+from Ｂ to show she loses her heir status.
 Caption (small text below):
-熟慮期間内に何もしなければ単純承認とみなされる（921条2号）
+詐欺または強迫によって、被相続人に遺言をさせたり、撤回・取消し・変更を
+妨げたりした者は、相続欠格者として相続権を剥奪される。不正な手段で相続に
+介入した者への制裁である(891条3号)。
 
---- CARD 3 ---
+--- COLUMN A, CARD 2 ---
 Heading (bold):
-限定承認は「全員そろって」じゃなきゃダメなんです
-Illustration: Two family figures (妻B and 子C) standing together, jointly
-holding one document and submitting it together to an isometric court
-building (家庭裁判所). Beside them, a single family figure alone trying
-to submit a document has a red circle-and-slash prohibition icon over it.
+熟慮期間内に何もしなければ、単純承認とみなされる
+Illustration: An isometric calendar icon showing "3か月" counting down to
+zero with no action taken, next to a small scale balancing a money bag
+and a torn IOU-style paper, both being handed to a person icon labeled
+"Ｂ", with a stamp reading "単純承認" appearing automatically above the
+scale.
 Caption (small text below):
-限定承認は共同相続人全員が共同してのみできる（923条）
+自己のために相続の開始があったことを知った時から3か月(熟慮期間)内に、
+限定承認も相続放棄もしなかったときは、単純承認をしたものとみなされる。
+何もしないと、プラスの財産もマイナスの借金もそのまま引き継ぐことになる
+(921条2号)。
 
---- CARD 4 ---
+--- COLUMN A, CARD 3 ---
 Heading (bold):
-放棄したら、最初から相続人じゃなかったことになるんです
-Illustration: An isometric timeline arrow pointing back to a starting
-point, with a family figure fading out of a small family-tree diagram
-from the very beginning, showing that the person is treated as never
-having been an heir from the start.
+限定承認は、共同相続人の全員が共同してのみできる
+Illustration: An isometric family court building icon in front of which
+two person icons labeled "Ｂ" and "Ｃ" stand together holding a single
+joint document stamped "限定承認", while beside them a large red
+prohibition mark is overlaid on a single person icon holding the same
+document alone, to show it cannot be done individually.
 Caption (small text below):
-放棄した者は初めから相続人でなかったとみなされる（939条）
+限定承認は、相続人が複数いる場合、共同相続人の全員が共同してのみすること
+ができる。一人だけが単独ですることは認められていない(923条)。
 
---- CARD 5 ---
+--- COLUMN B HEADER (pill-shaped badge) ---
+相続放棄の効果に関する原則
+
+--- COLUMN B, CARD 1 ---
 Heading (bold):
-撤回はできない、でも「取消し」ならできるんです
-Illustration: A split composition: on the left, a document stamped
-撤回 with a red circle-and-slash prohibition icon; on the right, a
-separate document stamped 取消し being approved by an isometric court
-building/gavel icon, showing the two are treated differently.
+相続を放棄した者は、初めから相続人でなかったとみなされる
+Illustration: An isometric family tree diagram where a person icon
+labeled "Ｂ" fades into a dotted outline and is erased from the family
+tree branch, with a clock icon showing an arrow curving backward to the
+very start of the tree, showing Ｂ is treated as never having been an
+heir from the beginning.
 Caption (small text below):
-撤回はできないが、強迫による相続放棄は取り消すことができる（919条2項）
+相続の放棄をした者は、その相続に関しては、初めから相続人とならなかった
+ものとみなされる。放棄はさかのぼって効力を生じる(939条)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+強迫による相続放棄は、取り消すことができる
+Illustration: An isometric scene showing a person icon labeled "Ｃ"
+holding a torn "相続放棄" document while a menacing figure labeled "Ｂ"
+looms nearby; a large red X crosses over an arrow icon labeled "撤回",
+while a separate green checkmark arrow labeled "取消し" leads toward a
+court/gavel icon, showing the different path that remains open.
+Caption (small text below):
+承認・放棄は、熟慮期間中でも撤回はできない(919条1項)。しかし、総則編
+(制限行為能力・錯誤・詐欺・強迫)や親族編(後見)の規定によって取り消す
+ことは認められている(919条2項)。撤回はできなくても、取消しは別問題で
+ある。
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
+Small credit text in the corner (optional, keep minimal):
+令和4年度 午後の部 第3問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to 続・単・認・権・欠. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards.
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 続・認・棄・欠・権・強・迫・単・裁・剥. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 相続人の資格と承認に関する原則, 2 cards under 相続放棄の
+効果に関する原則), with no duplicated or missing cards, and confirm
+every heading, illustration label, and caption text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters.
 ```
