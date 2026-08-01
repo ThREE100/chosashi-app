@@ -81,3 +81,122 @@
 - 勝って取り戻せば、空白の期間も占有が続いてたことに
 - 前主の占有、使うも使わないも自分次第なんです
 - 物を動かさなくても占有は移せる、それが占有改定
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+占有訴権の主体・本権との分離・占有回復後の継続・承継人の選択・占有改定という5つの正しいルールを、「占有訴権のルール」列と「占有の取得・承継のルール」列の2列・5カードで1枚に俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric courthouse/scroll,
+scales of justice, timeline ribbons, handshake/relay batons, desks with
+name tags, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・物・所, which appear multiple times below and have Simplified
+Chinese look-alike forms — render them only in standard Japanese Jōyō form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+占有権のキホン
+占有訴権・承継・占有改定の急所
+
+Subtitle (smaller, centered, 1行):
+令和3年度 午後の部 第2問 ―正しいルールだけを1枚に整理
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Isometric figure standing on a small land plot, holding a
+scroll (representing a lawsuit/訴状) in one hand and a small shield icon
+in the other, symbolizing the right of possession.
+占有権は、「占有訴権は誰が使えるのか」「占有の訴えと本権の訴えは別物」「占有の承継は有利な方を選べる」という3つの軸を押さえると、ひっかけの多くを見抜けるようになります。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+占有訴権のルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+他人のための占有でも、訴えは起こせるって知ってた？
+Illustration: Isometric scene of a parking-lot management office worker
+(占有代理人) holding a clipboard, standing beside a parked car that a
+stranger is trying to drive off with; a small courthouse/scroll icon
+floats above labeled 占有回収の訴え, with a green checkmark badge.
+Caption (small text below):
+他人のために占有する者も占有回収の訴えを提起できる(197条・200条)
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+占有の訴えに「所有権」はぶつけられないんです
+Illustration: Isometric balance scale with two separate courtroom icons,
+left side labeled 占有の訴え and right side labeled 所有権(本権), connected
+by a broken chain link and a red X mark showing they cannot be combined
+in the same lawsuit.
+Caption (small text below):
+占有の訴えに本権(所有権)を防御方法として主張できない(202条2項)
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+勝って取り戻せば、空白の期間も占有が続いてたことに
+Illustration: Isometric timeline ribbon with a dashed, faded gap segment
+labeled 占有を奪われていた期間, reconnecting into a solid unbroken line
+after a small trophy/gavel icon labeled 勝訴・占有回復.
+Caption (small text below):
+勝訴し占有を回復すれば、失っていた間も占有継続とみなされる(203条、最判昭44.12.2)
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+占有の取得・承継のルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+前主の占有、使うも使わないも自分次第なんです
+Illustration: Two isometric figures side by side; the left figure (前主)
+hands a small land-plot icon to the right figure (承継人); two branching
+arrows extend from the right figure — one arrow loops back to include the
+left figure's plot (合算して主張), the other points only to the right
+figure's own plot (自己の占有のみ主張) — both arrows drawn as equally
+valid options with no cross-out marks.
+Caption (small text below):
+承継人は自己の占有のみを主張することもできる(187条1項)
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+物を動かさなくても占有は移せる、それが占有改定
+Illustration: Isometric desk/table shown in two side-by-side panels
+without moving position; in the left panel a small tag on the desk reads
+代理人のために, in the right panel the same desk now has a tag reading
+本人のために, with a small speech-bubble icon showing the representative's
+declaration and no arrows of physical movement between the panels.
+Caption (small text below):
+代理人が本人のために占有する意思を表示すれば本人が占有権取得(181条・183条)
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験 独学ノート
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — especially 権・
+物・所. If any character renders as a Simplified Chinese variant, redraw
+that character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly (Column A: 3 cards, Column B: 2 cards), with no
+duplicated or missing cards, and confirm every heading and caption below
+matches this list verbatim with no omissions or substitutions:
+1. 他人のための占有でも、訴えは起こせるって知ってた？ ／
+   他人のために占有する者も占有回収の訴えを提起できる(197条・200条)
+2. 占有の訴えに「所有権」はぶつけられないんです ／
+   占有の訴えに本権(所有権)を防御方法として主張できない(202条2項)
+3. 勝って取り戻せば、空白の期間も占有が続いてたことに ／
+   勝訴し占有を回復すれば、失っていた間も占有継続とみなされる(203条、最判昭44.12.2)
+4. 前主の占有、使うも使わないも自分次第なんです ／
+   承継人は自己の占有のみを主張することもできる(187条1項)
+5. 物を動かさなくても占有は移せる、それが占有改定 ／
+   代理人が本人のために占有する意思を表示すれば本人が占有権取得(181条・183条)
+```

@@ -81,3 +81,94 @@
 - 分筆で目録が増えたら、記号と番号が記録される
 - 名前のある建物は、完了証にも名称が載るんです
 - 電子申請の放置は「3か月」じゃなくて「30日」なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記完了証の5肢を「記録される事項」と「通知の方法・期限」の2系統に分け、正しいルールだけを5枚のカードで俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric government office
+buildings, document sheets with stamps, torn paper labels, calendars,
+phone icons with a cross mark, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to 号・録・権・地・番・建・物・登・記・所, which have simplified
+Chinese look-alikes with different stroke forms — do not substitute the
+simplified form for any of these. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+登記完了証には
+何が書かれる？
+
+Subtitle (smaller, centered, 2行):
+記録事項・通知方法・電子申請の落とし穴
+（令和3年度 午後の部 第7問）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 登記所を表すアイソメトリックな建物から、係員が登記完了証の書面を申請人らしき人物に手渡している構図。
+登記完了証は、登記が終わったことを申請人に知らせるために交付・通知される書面です。「何が記録されるのか」「複数人で申請したときは誰に通知するのか」「電子申請ではいつまで放置すると受け取れなくなるのか」という3つの角度から、不動産登記規則181条・182条の細かい規律が問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+登記完了証に「記録される事項」
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+登記完了証に、電話番号などの連絡先は記録されない
+Illustration: 登記完了証の書面をアイソメトリックに図解し、書面の中に「登記の目的」「不動産の表示」といった記録事項のリストを並べる。書面の外側に電話の受話器アイコンを描き、その上に大きな赤い×印を重ねる。
+Caption (small text below):
+電話番号その他の連絡先は登記完了証の記録事項ではない（規則181条2項）
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+新たに共同担保目録を作ったときは、その記号・目録番号が記録される
+Illustration: 1つの土地が分筆線で2つの土地に分かれるアイソメトリック図解。分かれた土地から矢印が伸びて、新しく作られた共同担保目録のカードにつながり、そのカードに「記号」「目録番号」というラベルを大きく表示する。
+Caption (small text below):
+新たに共同担保目録を作成したときは記号・目録番号を記録（規則181条2項5号）
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+建物に名称があるときは、その名称も記録される
+Illustration: 「〇〇マンション」という名称プレートが掲げられたアイソメトリックな建物のイラスト。建物から矢印が伸びて、登記完了証の書面にも同じ「〇〇マンション」という名称が書き写されている様子を描く。
+Caption (small text below):
+建物の名称があるときはその名称を記録（規則181条2項4号、法44条1項4号）
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+通知の方法・期限
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+申請人が複数いても、そのうちの一人に通知すれば足りる
+Illustration: 土地を共有する親子3人をアイソメトリックに描き、そのうち代表者1人にだけ登記完了証の書面が手渡される矢印を描く。残る2人には矢印を伸ばさず、控えめに立たせる。
+Caption (small text below):
+申請人が複数でも、一人に通知すれば足りる（規則182条）
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+電子申請では、送信可能時から「30日」で通知を要しないとされる（3か月ではない）
+Illustration: パソコン画面とファイルアイコンをアイソメトリックに描き、その横に大きなカレンダーを配置して「30日」という数字を大きく強調表示する。カレンダーの下に「3か月」という文字を小さく描き、その上に赤い×印を重ねる。
+Caption (small text below):
+期間は3か月ではなく30日、効果も「廃棄」ではなく「通知を要しない」
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially for
+号・録・権・地・番・建・物・登・記・所. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, and that no card states the original wrong description
+（電話番号が記録される／3か月で廃棄される、など）as if it were correct.
+```

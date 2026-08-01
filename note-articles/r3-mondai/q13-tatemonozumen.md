@@ -83,3 +83,100 @@
 - 各階平面図の訂正、建物図面まではいらないんです
 - 図面がもう役所にあるなら、出し直さなくていいんです
 - 床面積そのままの合併でも、合併後の図面は必要なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「図面を新しく示す必要があるか」「その図面がもう登記記録に備わっているか」という2つの視点を軸に、ア〜オ5肢すべての正しいルールを2列5枚のカードで俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on frequently miswritten kanji in this text: 号・録・地・建・物・登・記
+must each be rendered in their standard Japanese (Jōyō) form, not as
+Simplified Chinese variants, even though their simplified counterparts
+look superficially similar.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その図面、出す？出さない？
+建物図面・各階平面図の提供要否
+
+Subtitle (smaller, centered, 1行):
+出題年度：令和3年度　午後の部　第13問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 登記所の図面棚の前に立つ調査士のアイソメトリックアイコン。片手に建物の模型（isometric building）、もう片手に丸めた図面を持ち、足元に土地区画（land plot）のアイコンと「提供」「不要」の2つに分かれた破れ紙ラベル（torn paper labels）、脇に公的な角印（stamp）のアイコンを配置する。
+「新しい状態を示す必要があるか」「その図面がもう登記記録に備わっているか」という2つの視点で切り分けると、図面の提供要否は迷わず判断できるようになります。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+図面の提供・記載が必要なケース
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+えい行移転による所在変更登記には、変更後の建物図面が必要
+Illustration: 建物のアイソメトリックアイコンが矢印に沿って横方向にスライドする様子。移動前の位置には薄い点線のシルエット、移動後の位置には実線でくっきり描いた建物を配置し、そばに「建物図面」とラベルの付いた図面アイコンを添える。
+Caption (small text below):
+えい行移転による所在変更登記には変更後の建物図面が必要（令別表14項添付情報イ）
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+仮換地上の建物図面は、仮換地を「実線」で図示する
+Illustration: 区画整理中の土地を俯瞰したアイソメトリック構図。手前に太い実線の四角形と建物アイコンで「仮換地」を強調し、その奥に薄い点線の四角形で「従前地」を重ねて描く。実線の区画には「仮換地」、点線の区画には「従前地」のラベルを付す。
+Caption (small text below):
+仮換地は実線・従前地は点線で図示する。実線と点線が逆（昭40.4.10民甲837号回答）
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+附属建物とする合併の登記には、合併後の各階平面図が必要
+Illustration: 離れ（甲建物）と母屋（乙建物）のアイソメトリックアイコンが矢印でくっつき、1つの建物（主である建物＋附属建物）にまとまる様子。床面積の数字が変わらないことを示す吹き出しと、新しく作成された各階平面図のアイコンを強調して描く。
+Caption (small text below):
+附属建物とする合併登記は床面積不変でも合併後の各階平面図が必要（令別表16項添付情報イ）
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+図面の提供を省略できるケース
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+各階平面図の訂正の申出は、各階平面図だけ出せば足りる
+Illustration: 各階平面図のアイコンに赤ペンで訂正の書き込みが入り、提出トレイへ向かう様子。隣に建物図面のアイコンを描き、その上に大きなバツ印と「不要」の破れ紙ラベルを重ねる。
+Caption (small text below):
+各階平面図の訂正申出は各階平面図のみで足り、建物図面は不要（規則88条2項）
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+団地共用部分の規約廃止による表題登記では、図面の提供は不要
+Illustration: 団地の集会所を表す建物アイコンから「団地共用部分」の判子（stamp）が外れて落ちる様子。奥に登記所の図面キャビネットのアイコンを描き、そこに既存の建物図面・各階平面図が保管されていることを示す。手前に新しい図面のアイコンとバツ印を重ねる。
+Caption (small text below):
+団地共用部分の規約廃止による表題登記では図面の提供を要しない（既に登記記録にあるため）
+
+--- CARD LIST FOR VERIFICATION (verbatim, each heading must appear exactly
+once, no duplicates, no omissions, no paraphrasing) ---
+1. えい行移転による所在変更登記には、変更後の建物図面が必要
+2. 仮換地上の建物図面は、仮換地を「実線」で図示する
+3. 附属建物とする合併の登記には、合併後の各階平面図が必要
+4. 各階平面図の訂正の申出は、各階平面図だけ出せば足りる
+5. 団地共用部分の規約廃止による表題登記では、図面の提供は不要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards.
+```

@@ -81,3 +81,115 @@
 - 承諾しても「消えた」とは書かれないんです
 - 相続財産管理人の分筆、家裁の許可はいらないんです
 - 共有地の分筆、承諾書だけじゃ一人で申請できない
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+分筆の登記について「誰が申請人になれるか」と「承諾情報は必要か」という2つの軸に沿って、5肢すべての正しいルールを2列・5枚のカードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, registry
+desks, application documents, official stamps, court/estate icons, torn
+paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+分筆の登記、申請できるのは誰？
+
+Subtitle (smaller, centered, 1行):
+令和3年度 午後の部 第11問－申請人適格と承諾情報の要否
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric aerial view of a single land plot being split
+into two by a dotted line, with small icon-people around it — a buyer
+holding a document, a tenant, an estate administrator, and two co-owners
+— each holding a small paper icon, symbolizing the question of who may
+apply for the division.
+分筆の登記は「誰が申請できるか」「どんな承諾情報が必要か」がまとめて問われる分野です。名義と申請資格を区別し、正しいルールを1枚で整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+誰が申請人になれるか
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+名義変更前の買主は、分筆の登記を申請できない
+Illustration: An isometric registry counter. A person (the buyer) stands
+in front holding a document labeled "所有権を取得したことを証する情報".
+The land plot behind the counter still shows a nameplate labeled "A"
+(the previous owner). A torn-paper label in front of the counter reads
+"移転登記が先" blocking the buyer's request.
+Caption (small text below):
+分筆の登記を申請できるのは、表題部所有者または所有権の登記名義人に限られる（不動産登記法39条1項）。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+相続財産管理人の分筆登記に、家庭裁判所の許可は不要
+Illustration: An isometric land plot being divided into two by a dotted
+line. A person labeled "相続財産管理人" holds an application document and
+submits it at a registry desk. Beside them, a small court-building icon
+has a document labeled "家庭裁判所の許可" with a red cross mark over it,
+showing it is not required.
+Caption (small text below):
+分筆の登記は財産の現状を大きく変える処分行為ではなく管理行為的なものとされ、家庭裁判所の許可を証する情報の提供は不要。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+共有地の分筆は、承諾書だけでは共有者の一人が単独申請できない
+Illustration: An isometric registry desk with two people standing side
+by side, labeled "A" and "B", representing co-owners of one land plot.
+Person A holds a paper labeled "Bの承諾を証する情報". Above the desk, an
+application form panel shows two stamp slots both highlighted as
+required, while a single stamp (A alone) is shown crossed out.
+Caption (small text below):
+分筆の登記は表題部所有者または所有権の登記名義人が申請するものであり、共有地では共有者全員が申請人となる必要がある（法39条1項）。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+承諾情報は必要か
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+賃借権者の承諾がなくても、所有権の登記名義人は分筆の登記を申請できる
+Illustration: An isometric land plot with a small house icon labeled
+"賃借権" near one corner, representing the tenant B. The registered owner
+A submits an application alone at the registry desk. Near the tenant
+icon, a small document labeled "承諾" has a red cross mark over it,
+showing consent is not required.
+Caption (small text below):
+分筆の登記は表示に関する登記であり、賃借権の登記名義人の承諾を証する情報は添付情報とされていない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+抵当権の消滅承諾情報を提供しても、「消滅した旨」は記録されない
+Illustration: An isometric land plot split by a dotted line into two
+labeled parcels, "甲土地" on the left and "乙土地" on the right. 甲土地
+keeps a small stamp icon labeled "抵当権". 乙土地 is shown completely
+blank with no stamp icon at all, with a small label "転写されない" beside
+it — do not place any "消滅した旨" stamp or text on 乙土地.
+Caption (small text below):
+消滅承諾情報を提供すると乙土地に抵当権の登記が転写されないだけで、「抵当権が消滅した旨」がわざわざ記録されるわけではない（不動産登記規則104条1項）。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards, and that every text string above
+(headings, captions, labels) is reproduced verbatim without paraphrasing
+or substitution.
+```

@@ -82,3 +82,127 @@
 - 合筆したら番号は「若い方」に決まるんです
 - 同じ敷地に2棟あったら「〜の1」「〜の2」で区別
 - 管轄またぎの建物、家屋番号は担当登記所の地番なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地の地番と建物の家屋番号について、原則と登記官の権限が及ぶ例外パターンを、土地側3枚・建物側2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, building
+blocks, official stamps/seals, torn paper labels, ledger books, arrows,
+prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地番と家屋番号
+番号の付け方には決まりがある
+
+Subtitle (smaller, centered, 1行):
+合筆・分棟・管轄またぎのルールを整理(令和3年度 午後の部 第9問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing, side by
+side, a small square land plot with a wooden number tag reading "地番"
+and a small house-shaped building icon with a wooden number tag reading
+"家屋番号", connected by a thin dotted line to show they are the same
+kind of identification number applied to different objects.
+土地の地番と建物の家屋番号は、どちらも一つの不動産を他と取り違えないように
+特定する番号です。合筆・分筆や複数の建物、複数の登記所がからんだときに、
+どんなルールで番号を付け直すのか、登記官にどこまでの権限があるのかを
+整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+土地の地番に関する原則
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+閉鎖された地番は、再使用しない
+Illustration: An isometric ledger page showing a land plot stamped with
+a red "閉鎖" seal, a prohibition (no-entry) icon overlaid, with an arrow
+pointing away from a separate new empty land plot to show the old number
+is not carried over to the new plot.
+Caption (small text below):
+合筆や滅失で登記記録が閉鎖された地番は、特別の事情がない限り、重複しない
+よう新しい土地には付け直さない(準則67条1項2号)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+地番が著しく錯雑するときは、登記官が職権で変更できる
+Illustration: An isometric city block where land-plot number tags are
+scattered and tangled together (visual chaos), with a registry official
+character holding a stamp, and an arrow showing the tags being
+rearranged into a neat straight row.
+Caption (small text below):
+地番が著しく錯雑している場合など特別の事情があるときは、登記官は適宜の
+地番を定めることができる(準則67条1項7号)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+合筆後の地番は、原則として若い方の地番になる
+Illustration: An isometric diagram showing two adjacent land plots
+labeled "10番1" and "10番2" merging into one plot, with an arrow pointing
+to the merged plot now labeled only "10番1", and a small crossed-out
+"10番2" tag beside it.
+Caption (small text below):
+10番1と10番2の土地を合筆した場合、原則として合筆後の地番は若い方の
+「10番1」となる。「10番2」とするには特別の事情が必要(準則67条1項6号・
+7号)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+建物の家屋番号に関する原則
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+一筆の土地に複数の建物があるときは、支号で区別する
+Illustration: An isometric single land plot labeled "10番1" containing
+two small house icons, the first house tagged "10番1の1" and the second
+house tagged "10番1の2", with a small numbered branch icon connecting
+the two tags to show they share the same root number.
+Caption (small text below):
+同じ地番の土地に2個の建物があるときは、地番に支号を付けて家屋番号とする。
+先に登記された建物が「10番1の1」なら、後から登記する建物は「10番1の2」
+となる(準則79条2号)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+管轄をまたぐ建物は、指定を受けた登記所の地番で家屋番号を付ける
+Illustration: An isometric building straddling a dotted boundary line
+between two land plots, one plot labeled "5番1" under an "Ａ登記所" icon
+and the other labeled "6番1" under a "Ｂ登記所" icon with a small
+"指定" badge attached to the Ｂ登記所 icon, and an arrow linking the
+building to the "6番1" tag.
+Caption (small text below):
+建物が複数の登記所の管轄にまたがるときは、登記の事務をつかさどる登記所が
+指定され、家屋番号はその登記所が管轄する土地の地番と同一の番号で付けられる。
+床面積が多い部分の地番ではない(準則79条3号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和3年度 午後の部 第9問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 土地の地番に関する原則, 2 cards under 建物の家屋番号に関する
+原則), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

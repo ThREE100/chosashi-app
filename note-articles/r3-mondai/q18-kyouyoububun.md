@@ -84,3 +84,123 @@
 - 共用をやめたら1か月以内に表題登記なんです
 - 全棟そろう前は、団地共用部分にできないんです
 - 抵当権付きなら、銀行の承諾が必要って知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「申請人・添付情報のルール」と「団地共用部分特有のルール」の2列構成で、共用部分である旨の登記・団地共用部分である旨の登記をめぐる5つの手続ルールを1枚で俯瞰できるようにした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which appear repeatedly in
+this prompt and have Simplified Chinese variants that look similar but are
+wrong — always draw the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+令和3年度 午後の部 第18問
+共用部分・団地共用部分である旨の登記
+
+Subtitle (smaller, centered, 1行):
+申請人・添付情報・期限を正しく押さえる
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric apartment building with one room highlighted
+in blue as a shared management office (管理人室). A magnifying glass
+hovers over a registration document icon beside the building, with a
+small stamp icon and a key icon nearby.
+マンションの管理人室や集会室のような「みんなで使う部屋」を登記簿上で示す
+のが共用部分である旨の登記、団地内の建物全棟で共用するときは団地共用部分
+である旨の登記です。「誰が申請できるか」「規約の証明情報は省けるか」「い
+つまでに申請するか」という手続の骨格を正確に押さえることが得点につなが
+ります。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+申請人・添付情報のルール（共用部分である旨の登記）
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+申請できるのは、その区分建物自身の名義人だけ
+Illustration: An isometric building with one specific unit labeled
+「101号室」highlighted in blue, with a person icon holding a stamp
+standing beside it. Another unit labeled「202号室」is grayed out with a
+crossed-out person icon and a red「×」mark, connected by an arrow labeled
+「不可」.
+Caption (small text below):
+共用部分である旨の登記を申請できるのは、その区分建物自身の表題部所有者
+または所有権の登記名義人。他の区分建物の名義人は申請できない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+全員申請でも、規約の証明情報は省略できない
+Illustration: An isometric scene of several person icons standing
+together, signing a shared document. Beside them, a folded paper icon
+labeled「規約」is stamped with a red circle and the word「必須」（NOT
+crossed out）.
+Caption (small text below):
+建物の所有権の登記名義人全員がそろって申請する場合でも、共用部分である
+旨を定めた規約を設定したことを証する情報の提供は省略できない。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+抵当権付きの建物は、抵当権者の承諾情報が必要
+Illustration: An isometric house with a red ribbon/seal icon labeled
+「抵当権」attached to it. A bank building icon stands nearby, handing a
+document icon stamped with a hanko toward the house, labeled「承諾証明
+情報」.
+Caption (small text below):
+抵当権の設定登記がある建物について共用部分である旨の登記を申請するとき
+は、抵当権の登記名義人の承諾を証する情報等の提供が必要。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+団地共用部分特有のルール
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+規約を廃止したら、1か月以内に表題登記を申請
+Illustration: An isometric building with a torn paper icon labeled
+「規約廃止」beside it, next to a calendar icon showing「1か月以内」, with
+an arrow pointing to a new document icon labeled「表題登記」.
+Caption (small text below):
+団地共用部分である旨の登記がある建物について規約を廃止したときは、当該
+建物の所有者は規約の廃止の日から1か月以内に当該建物の表題登記を申請し
+なければならない。
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+団地共用部分の登記は、全棟完成後でなければできない
+Illustration: An isometric scene of two buildings side by side. The left
+building is complete, labeled「甲建物」. The right building is under
+construction with scaffolding, labeled「乙建物」and a small tag reading
+「半年後完成予定」. A red「×」mark sits over a registration document
+between them, with a checkmark icon shown faintly in the background to
+suggest it becomes possible only once both buildings are complete.
+Caption (small text below):
+団地共用部分である旨の登記は、原因及び日付として団地内建物の家屋番号等
+を記録する必要があるため、団地を構成する建物が現に完成していなければ申
+請できない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm the two column headers read
+exactly「申請人・添付情報のルール（共用部分である旨の登記）」and「団地
+共用部分特有のルール」with no substituted characters.
+```

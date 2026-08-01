@@ -92,3 +92,117 @@
 - 委任状データにハンコを押すのは「作った人」なんです
 - 調査士が原本確認すれば、提示は省略できちゃう
 - オンライン申請の取下げは、オンラインで――が鉄則なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+補助者ア〜オの正誤を「オンラインで完結させる手続」と「書面・原本の取り扱いルール」の2系統に分け、各肢の本来正しいルールを5枚のカードで俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric computer terminals,
+scanned documents, registry office buildings, mail trucks, hanko/seal
+stamps, report papers — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: the kanji 号・録・登・記・所 appear repeatedly below (e.g. 登記,
+電磁的記録, 66条1項1号, 登記所). These have visually similar but distinct
+Simplified Chinese forms — render them strictly in standard Japanese
+Jōyō form, not the simplified variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+電子申請、
+どこまでスキャンで通る？
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後の部 第4問
+調査士が代理人になる合筆登記の電子申請ルール
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 調査士の人物がタブレット端末を持ち、画面に「電子申請」と
+表示されたシステム画面を見せている。隣に補助者の人物が書類を持って立ち、
+対話している構図。背景に土地の区画のアイソメトリックアイコン。
+電子申請の分野は、「書面をスキャンして電子署名を付けば何でも送れる」と
+思い込むと足をすくわれます。登記識別情報の提供方法、添付書面の特例
+（特例方式）、誰が電子署名をすべきか、取下げの方法――手続ごとに定められた
+ルールを、条文に照らして一つずつ確認できているかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+オンラインで完結させる手続
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+書面の登記識別情報は、スキャンではなく電子情報処理組織で入力して提供する
+Illustration: 人物がコンピューター端末（ラベル「電子情報処理組織」）に
+パスワードのようなコードを直接入力している構図。その横にスキャンされた
+紙の書類のアイコンがあり、大きな赤い×印が重ねられ、使用不可であることを
+示す。
+Caption (small text below):
+書面の登記識別情報は電子情報処理組織で入力して提供する（規則66条1項1号）。
+スキャン＋調査士の電子署名では不可
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+電子申請の取下げは、電子情報処理組織を使用して行う
+Illustration: 人物がコンピューター画面上の「取下げ」ボタンをクリックして
+いる構図。別のコマに、登記所の窓口カウンターに紙の書類を差し出そうと
+している人物がおり、その紙の書類に大きな赤い×印がついている。
+Caption (small text below):
+電子申請の取下げは電子情報処理組織を使用して行う（規則39条1項1号）
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+書面・原本の取り扱いルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+特例方式の書面は、持参でも郵送でもよい
+Illustration: 登記所の建物のアイソメトリックアイコンに向かう2本の矢印。
+一方は書類を持って歩く人物、もう一方は郵便物を積んだ配送トラック。両方の
+矢印が同じ登記所の入り口に到達する構図。
+Caption (small text below):
+特例方式の書面提出は、持参・送付のいずれの方法でもよい（規則附則21条4項）
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+申請人が作成した委任状の電磁的記録には、申請人自身の電子署名が必要
+Illustration: 「申請人」とラベル付けされた人物が紙の委任状をスキャナで
+読み取り、電磁的記録（タブレット画面）にする構図。その人物自身が画面に
+電子印鑑（電子署名）を押している。傍らに「調査士」とラベル付けされた
+別の人物が自分の印鑑を押そうとして小さな赤い×印で止められている。
+Caption (small text below):
+申請人が作成した委任状の電磁的記録には申請人自身の電子署名が必要
+（令13条1項）
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+調査士報告方式なら、委任状原本の提示は省略できる
+Illustration: 「調査士」とラベル付けされた人物が、スキャンした委任状
+データと「調査士報告」とラベル付けされた報告書を両手に持ち、チェック
+マークの印が押されている。登記所の窓口カウンターから離れた場所に立ち、
+原本の紙書類を持たずに済んでいることを示す構図。
+Caption (small text below):
+調査士報告方式なら委任状原本の提示を省略できる（令元107民二187号通達）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+出典：令和3年度 土地家屋調査士試験 午後の部 第4問（対話形式・組合せ問題）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, and that all text strings match the verbatim Japanese
+given above.
+```

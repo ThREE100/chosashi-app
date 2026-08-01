@@ -81,3 +81,92 @@
 - 会社法人等番号を出せば、代表者の資格証明はいらないんです
 - 表題登記がある建物、そもそも所有権の証明はいらないんです
 - 「送信できる」と「送信しなければ」、この差が命取りなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+この問題を貫く「添付情報を省略・代替できる場面」と「新たに追加提供が必要になる場面」という2つの軸を、ア〜オ5肢すべてを正しいルールに直したうえで1枚のカード群として俯瞰できるように構成した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry-office
+counter, document stacks, corporate stamps, torn paper labels, electronic
+tablet/computer, percentage/pie-chart badges, etc. — adapt icon set to
+the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+following kanji, which are easily confused with Simplified Chinese
+variants: 号, 権, 建, 物, 登, 記, 所, 番, 録. Render every occurrence of
+these characters in standard Japanese (Jōyō) form, never simplified.
+
+--- HEADER ---
+Title (large, bold, 2行):
+添付情報は「省略できる」のか
+「必要なのか」
+
+Subtitle (smaller, centered, 1行):
+令和3年度 午後の部 第5問／援用・持分割合・会社法人等番号・合体・電子申請
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 登記所の窓口カウンターに立つ登記官と、申請人が書類の束を差し出す構図。カウンターの周りに「ア」「イ」「ウ」「エ」「オ」の5つの小さな吹き出しラベルが浮かぶ俯瞰イラスト。
+添付情報の問題は、「省略できる場面」「追加で必要になる場面」「あくまで任意にとどまる取扱い」を、条文の語尾（〜することができる／〜しなければならない／〜を要しない）まで含めて正確に押さえることが得点のコツです。
+
+--- CARD 1 ---
+Heading (bold):
+共通の添付情報は、援用すれば省略できる
+Illustration: 同じ登記所の建物アイコンに向かう2つの申請書アイコン。1件目の申請書には委任状の書類アイコンがクリップで留められており、そこから「援用」というラベルの付いた矢印が2件目の申請書に伸びる。2件目の申請書には委任状アイコンがなく、代わりにチェックマークが付いている。
+Caption (small text below):
+同時申請で共通する添付情報は、一方に提供し他方で援用すれば重ねて提供する必要はない（不動産登記規則37条1項）
+
+--- CARD 2 ---
+Heading (bold):
+合体で持分が生じたら、持分割合を証する情報が必要
+Illustration: 隔壁のある2つの区分建物「甲」（所有者A）と「乙」（所有者B）が、壁の除去によって1個の建物「丙」に合体する様子をアイソメトリックで表現。丙の上にAとBの人物アイコンと、持分割合を示すパーセンテージ／円グラフのバッジが並ぶ。
+Caption (small text below):
+所有者の異なる区分建物が合体すると共有になり、持分割合を証する情報の提供が必要になる（不動産登記令別表13項の添付情報ハ）
+
+--- CARD 3 ---
+Heading (bold):
+会社法人等番号があれば、代表者の資格証明は不要
+Illustration: 土地家屋調査士法人を表す建物アイコンと会社の印章アイコン。番号バッジ「会社法人等番号」から矢印が伸び、「代表者の資格を証する情報」と書かれた書類アイコンに大きな×印が重なる構図。
+Caption (small text below):
+法人代理人が会社法人等番号を提供すれば、代表者の資格を証する情報の提供に代えることができる（不動産登記規則37条の2）
+
+--- CARD 4 ---
+Heading (bold):
+表題登記がある建物は、そもそも所有権証明が不要
+Illustration: 2つの建物アイコンを対比。「甲建物（所有権登記あり）」には所有権を証する情報の書類アイコンが必要マークとともに表示され、「乙建物（表題登記のみ）」には同じ書類アイコンに大きな×印が付き「提供不要」のラベルが添えられる。
+Caption (small text below):
+表題登記はあるが所有権登記のない建物は、所有権を証する情報の提供自体を要しない（平成5年の質疑応答）
+
+--- CARD 5 ---
+Heading (bold):
+不動産番号の送信は、代えられるだけで義務ではない
+Illustration: タブレット端末に「電子申請」のラベル。登記事項証明書の書類アイコンから、点線の矢印（「できる」のラベル付き）が不動産番号のバッジに伸びる。並べて、実線の矢印に大きな×印を付け「しなければならない、ではない」のラベルを添える。
+Caption (small text below):
+登記事項証明書の提供に代えて不動産番号を送信することができるが、送信が義務づけられているわけではない（不動産登記令11条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　添付情報まとめ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and that the 5 card headings are exactly:
+(1) 共通の添付情報は、援用すれば省略できる／(2) 合体で持分が生じたら、
+持分割合を証する情報が必要／(3) 会社法人等番号があれば、代表者の資格証明は
+不要／(4) 表題登記がある建物は、そもそも所有権証明が不要／(5) 不動産番号の
+送信は、代えられるだけで義務ではない — do not merge, omit, duplicate, or
+reword any of these five headings.
+```
