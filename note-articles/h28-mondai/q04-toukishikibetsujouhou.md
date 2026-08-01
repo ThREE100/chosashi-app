@@ -1,0 +1,162 @@
+## 【土地家屋調査士受験生向け】登記識別情報が出せないとき、どうすればいい？平成28年度午後の部第4問を解説
+
+**出題年度：平成28年度　午後の部　第4問**
+
+> 登記識別情報の提供を必要とする表示に関する登記の申請をする場合において、登記識別情報を提供することができないときの手続に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
+>
+> ア　申請人が登記識別情報を提供することができないことにつき正当な理由がある場合は、当該登記識別情報を提供することができない理由を申請情報の内容とすることを要しない。
+>
+> イ　申請人が登記識別情報を提供することができないことにつき正当な理由がある場合は、事前通知又は資格者代理人による本人確認情報の提供のいずれかの方法によらなければ、登記の申請をすることができない。
+>
+> ウ　所有権の登記がある土地の合筆の登記の申請につき事前通知がされる場合において、当該合筆の登記の申請が所有権の登記名義人の住所の変更の登記の申請に係る受付の日から6か月後にされているときは、登記官から当該登記名義人の登記記録上の前の住所にあてて当該合筆の登記の申請があったことの通知はされない。
+>
+> エ　所有権の登記名義人が外国に住所を有する場合には、事前通知に対する申出は、通知を発送した日から4週間のうちに行わなければならない。
+>
+> オ　事前通知がされた後に事前通知を受けるべき者が死亡した場合には、その相続人全員から相続があったことを証する情報を提供したとしても、登記申請の内容が真実である旨の申出をすることはできない。
+>
+> 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
+
+---
+
+登記識別情報を提供できないときの手続は、「理由の記載は省略できるのか」「事前通知以外の方法はあるのか」「通知や申出の期間はどうなっているのか」といった細かい要件の理解が問われる分野です。一つずつ整理していきましょう。
+
+### ア：提供できない理由は、正当な理由があっても申請情報に記載する必要がある
+
+不動産登記令3条12号により、登記識別情報を提供することができない場合は、その提供することができない理由を申請情報の内容としなければなりません。正当な理由があるかどうかにかかわらず、この記載自体を省略できるわけではありません。
+
+**たとえば**、土地の合筆登記を申請しようとしたところ、以前の登記で通知された登記識別情報を紛失してしまい提供できない、という場合を考えてみます。紛失の経緯がやむを得ない事情によるものであっても、申請情報の中の「提供することができない理由」の欄を空欄のままにすることはできず、その事情をきちんと記載する必要があります。
+
+### イ：事前通知・本人確認情報の提供以外の方法も認められていると考えられる
+
+登記識別情報を提供することができないことにつき正当な理由がある場合、実務上は事前通知や資格者代理人による本人確認情報の提供がよく用いられますが、これらの方法に限定されていると断定できるかどうかは慎重に考える必要があります。制度上、これら以外の本人確認の方法も想定されている可能性があり、「いずれかの方法によらなければ申請することができない」と言い切る記述には無理があると考えられます。
+
+**たとえば**、資格者代理人に依頼せず登記名義人本人が単独で申請する場合など、事前通知と本人確認情報の提供のどちらにもきれいに当てはまらない場面が想定されます。そうした場合に他の確認手段がまったく認められていないとまで言えるのかどうかは、条文を丁寧に確認しないと断定しづらいところだと考えられます。
+
+### ウ：住所変更登記から6か月経過していれば、前の住所への通知はされない
+
+不動産登記法23条2項及び不動産登記規則に基づく前住所通知の制度は、登記名義人の住所についての変更登記が、合筆登記等の申請の受付の日前の一定の短期間(3か月以内)にされている場合に限り、変更前の住所にもあてて通知するというものです。設問のように、住所変更登記の受付の日から6か月後に合筆登記が申請された場合は、この3か月の期間を超えているため、登記官から登記名義人の前の住所にあてた通知はされません。
+
+**たとえば**、引っ越しをして住所変更登記を済ませた半年以上あとに、所有している土地の合筆登記を申請した場合を考えてみます。引っ越しからかなりの期間が経過しているため、登記官がわざわざ引っ越し前の古い住所にまで「合筆登記の申請がありました」という通知を送ることはありません。
+
+### エ：外国に住所がある登記名義人は、事前通知への申出期間が4週間になる
+
+不動産登記規則70条により、事前通知に対する申出期間は原則として2週間以内とされていますが、登記名義人の住所が外国にあるときは、通知の到達や返信に時間がかかることを踏まえて、4週間以内とされています。
+
+**たとえば**、海外に赴任していて国外に住所を置いている登記名義人に事前通知が発送された場合、国内に住んでいる人と同じ2週間の期限では、郵便が届くだけで期限が過ぎてしまうおそれがあります。そのため、このケースでは申出までの期間が4週間に延長されています。
+
+### オ：相続人全員からの申出により、登記申請の内容が真実である旨の申出ができる
+
+事前通知がされた後、通知を受けるべき登記名義人本人が死亡した場合であっても、先例上、その相続人全員から相続があったことを証する情報を提供したうえで、相続人全員から登記申請の内容が真実である旨の申出をすることが認められています。設問のように「申出をすることはできない」とする点は誤りです。
+
+**たとえば**、事前通知を受け取るはずだった登記名義人が、通知の到達後に亡くなってしまった場合を考えてみます。その方の相続人全員が戸籍謄本などで相続関係を証明する情報を提供し、相続人全員の名前で「この登記申請の内容に間違いはありません」という申出をすれば、手続きを進めることができます。
+
+### まとめ表
+
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 誤 | 提供できない理由は申請情報の内容とすることが必要（省略不可） |
+| イ | 誤 | 事前通知・本人確認情報の提供以外の方法も認められていると考えられる |
+| ウ | 正 | 住所変更登記から6か月経過後の申請では前の住所への通知はされない |
+| エ | 正 | 登記名義人の住所が外国にある場合の申出期間は4週間 |
+| オ | 誤 | 相続人全員からの申出により登記申請の内容が真実である旨の申出が可能 |
+
+登記識別情報を提供できない場合の手続きは、「理由の記載義務」「認められる本人確認方法の範囲」「前住所通知の期間制限」「外国居住者の申出期間」「相続発生後の申出」など、細かい要件を一つひとつ押さえることが得点につながります。
+
+**正解：ウ・エの組合せ（選択肢4番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- この第4問は、土地家屋調査士試験対策アプリの検証済みデータベース(takuitsu.json)には収録されていません。法務省公表の試験問題原本(ユーザー提供のPDF)から問題文を直接確認し、不動産登記法・不動産登記規則の一般的な理解に基づいてAI(Claude)が解説を作成したものです。
+- 正解番号(4番＝ウ・エの組合せ)は、法務省公式の正答PDF(ユーザー提供)と照合済みです。
+- 各肢の法的根拠(不動産登記法22条・23条、不動産登記規則70条・71条等)は、条文の一般的な理解からの推論であり、e-Gov法令検索での逐条確認はネットワーク制限により今回できていません。特に肢イについては、資格者代理人による本人確認情報の提供以外の方法(公証人の認証等)が制度上あり得るかどうかを条文で確定できておらず、他の肢に比べて確度が低い点を正直に明記します。実務・受験対策で使う際は、念のため条文・先例の再確認をおすすめします。
+- **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（登記識別情報を提供できない場合の手続）と同一・類似の問題が再出題されていないかを確認しました。「登記識別情報」を扱う出題としてH29年度第5問・R04年度第5問がありますが、いずれも登記識別情報の「通知」（誰に、どのような方法で通知されるか）がテーマであり、本問の「提供できない場合の事前通知・前住所通知等の手続」とは異なる具体的論点です。なお、R01年度第8問エ（合筆登記で登記識別情報を失念した場合、提供できない理由を申請情報の内容としなければならない旨）は、本問アと同じ不動産登記令3条12号の趣旨を扱っており、関連する出題です。全体として明確な重複は見つかりませんでした。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+
+---
+
+## 見出し画像用フレーズ
+
+- 識別情報、出せない理由は書かなきゃダメなんです
+- 本人確認、方法はひとつじゃないかもって知ってた？
+- 6か月過ぎたら、前の住所には届かないんです
+- 海外在住なら、返事の期限は4週間になるんです
+- 本人が亡くなっても、相続人全員でOKって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記識別情報を提供できない場合の手続を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。イの内容は断定的すぎないニュアンスの図解にとどめている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric ID cards, envelopes, application forms, mailboxes, world globe, family groups — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+識別情報が出せない時、
+どう乗り切るか
+
+Subtitle (smaller, centered, 1行):
+理由の記載・本人確認・前住所通知・外国居住・相続後の申出を整理(平成28年度 午後の部 第4問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric figure holding an empty ID-card-shaped icon labeled 登記識別情報 with a large question mark floating above it, standing next to a filled-in application document icon labeled 申請情報.
+登記識別情報を提供できないときの、理由の記載義務・本人確認の方法・前住所通知・外国居住者の申出期間・相続発生後の申出という5つの手続を整理します。
+--- CARD 1 ---
+Heading (bold):
+提供できない理由は、申請情報にきちんと書く
+Illustration: An isometric application document icon labeled 申請情報 with a filled-in section clearly labeled 提供できない理由, a checkmark stamp confirming it cannot be left blank.
+Caption (small text below):
+正当な理由があっても、提供できない理由の記載を省略することはできない(不動産登記令3条12号)。
+--- CARD 2 ---
+Heading (bold):
+本人確認の方法は、ひとつに限られないと考えられる
+Illustration: An isometric fork-in-the-road with three signposts: 事前通知, 資格者代理人による本人確認情報, and a third unlabeled signpost marked with a small question mark, suggesting the range of possible methods is not fully closed.
+Caption (small text below):
+事前通知・資格者代理人による本人確認情報の提供以外の方法も想定される余地があり、断定は避けたい論点。
+--- CARD 3 ---
+Heading (bold):
+半年たてば、前の住所には知らせが行かない
+Illustration: An isometric old house icon labeled 前の住所 with a mail envelope icon crossed out beside it, and a calendar showing 6か月経過, contrasted with a new house icon labeled 現在の住所 receiving the envelope instead.
+Caption (small text below):
+住所変更登記の受付日から一定の短期間を過ぎていれば、登記官から前の住所にあてた通知はされない。
+--- CARD 4 ---
+Heading (bold):
+海外在住なら、返事の期限は4週間
+Illustration: An isometric airmail envelope flying from a Japanese registry building icon toward a globe icon representing an overseas address, with a calendar showing 4週間 instead of the usual shorter period.
+Caption (small text below):
+登記名義人が外国に住所を有するときは、事前通知への申出期間は4週間以内(不動産登記規則70条)。
+--- CARD 5 ---
+Heading (bold):
+本人が亡くなっても、相続人全員でなら手続きを進められる
+Illustration: An isometric group of heir figures (相続人全員) standing together signing a single document, replacing a faded single figure who has passed away, with a checkmark stamp confirming the申出 can proceed.
+Caption (small text below):
+事前通知を受けるべき者が死亡しても、相続人全員から相続証明情報を提供すれば、真実である旨の申出ができる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第4問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
