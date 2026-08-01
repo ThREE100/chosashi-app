@@ -81,3 +81,129 @@ A・Bが共有する土地の地目の変更の登記は、表示に関する登
 - 一部だけ仮処分したいなら、まず代位で分筆
 - 調停調書があれば、一人で相手に代位して分筆できる
 - 共有地の地目変更は、代位なんて使わず単独申請なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+代位申請が使える場面を示す3枚と、使えない・不要な場面を示す2枚を合わせた計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, official
+figures, document folders, court seals, arrows, prohibition marks —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters, especially
+号・録・権・地・番・建・物・登・記・所.
+
+--- HEADER ---
+Title (large, bold, 2行):
+他人になり代わって申請できる?
+代位申請の可否
+
+Subtitle (smaller, centered, 1行):
+分筆・地目変更で「代位」が使える場面を見分ける(令和元年度 午後の部
+第14問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric icon of a creditor figure reaching toward a
+land-plot registration application on behalf of a separate debtor
+figure, with a fork-in-the-road icon splitting into two paths labeled
+"保全の必要性あり" and "保全の必要性なし".
+代位申請は、他人(債務者)の登記申請権を、債権者が代わって行使する制度
+です。カギになるのは「自分の権利を実現するために、その登記をどうして
+も前提として必要とするか(保全の必要性があるか)」という視点。分筆しな
+いと自分の権利が守れない場面なのか、それとも代位を使うまでもなく自分
+で申請できる場面なのかを見極めていきましょう。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+代位が使える場面
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+区画整理の施行者は、代わりに分筆・合筆できる
+Illustration: An isometric city block being reorganized (土地区画整理),
+with an official figure wearing a hardhat labeled "施行者" directly
+stamping a "分筆・合筆" application, while several small figures labeled
+"所有権の登記名義人" stand aside watching.
+Caption (small text below):
+土地区画整理事業の施行者は、事業の施行のために必要がある場合には、
+所有権の登記名義人に代位して、土地の分筆又は合筆の登記を申請すること
+ができる(土地区画整理法82条1項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+一部だけ仮処分したいなら、まず代位で分筆できる
+Illustration: An isometric land plot with a portion stamped in red
+"処分禁止" and a court seal icon labeled "仮処分命令正本", with an arrow
+showing a creditor figure using that document to submit a "分筆" applica-
+tion on behalf of a debtor figure standing separately.
+Caption (small text below):
+一筆の土地の一部について処分禁止の仮処分命令を得た債権者は、仮処分
+命令の正本を代位原因を証する情報として、所有権の登記名義人である
+債務者に代位して、その一部分を分筆する分筆の登記を申請することが
+できる。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+調停調書があれば、一人で相手に代位して分筆できる
+Illustration: An isometric diagram of two figures labeled "Ａ" and "Ｂ"
+beside a land plot being split by a dividing line, with Ａ holding a
+document labeled "遺産分割調停調書正本" and submitting the "分筆" applica-
+tion alone, while Ｂ's figure stands to the side not participating.
+Caption (small text below):
+共同相続の登記がされた土地を分筆し各相続人の単有とする遺産分割の調停
+が成立した場合、調停調書の正本を代位原因を証する情報として、Ａは単独
+でＢに代位して分筆の登記を申請することができる(平2.4.24民三1528号)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+代位が使えない・不要な場面
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+地役権は土地の一部でも設定できる、だから代位で分筆する必要はない
+Illustration: An isometric land plot with only a portion shaded and
+labeled "地役権の範囲", with a red prohibition (no-entry) mark overlaid
+on a small icon reading "代位による分筆申請" to show the path is blocked
+because no split is needed.
+Caption (small text below):
+地役権は一筆の土地の一部についても設定することができるため、地役権者
+は分筆しなくても自己の地役権設定登記請求権を保全できる。保全の必要性
+がないため、代位による分筆の登記を申請することはできない(民法423条)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+共有地の地目変更は、代位を使わず単独申請できる
+Illustration: An isometric shared land plot with two owner figures
+labeled "Ａ" and "Ｂ", with Ｂ shown turning away (not cooperating),
+while Ａ alone submits a "地目変更" application stamped "保存行為", with
+no 代位 icon present anywhere in the scene.
+Caption (small text below):
+共有地の地目の変更の登記は保存行為として共有者の一人から申請すること
+ができるため、Ｂが協力しなくてもＡは単独で申請でき、Ｂに代位する必要
+はない(民法252条ただし書、不動産登記法30条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第14問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 代位が使える場面, 2 cards under 代位が使えない・不要な場面),
+with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

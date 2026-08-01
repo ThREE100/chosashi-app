@@ -82,3 +82,128 @@
 - 区分建物の合併、種類が違っても大丈夫って知ってた？
 - 主従の関係がなければ、そのまま分割の登記でいいんです
 - 敷地権付きでも、区分建物どうしなら合併できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の分割・合併の登記について、合併の制限1枚と、柔軟に認められることを示す4枚を合わせた計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, document folders, official stamps/seals, arrows, prohibition
+marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters, especially
+号・録・権・地・番・建・物・登・記・所.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の分割・合併、その申請できる？
+合併の制限リストで一気に見極める
+
+Subtitle (smaller, centered, 1行):
+共用部分・区分建物・敷地権のルールを整理(令和元年度 午後の部 第12問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric icon showing two building icons approaching
+each other with a merge arrow labeled "合併". One path is blocked by a
+red prohibition mark next to a building stamped "共用部分である旨の
+登記"; another path shows two ordinary buildings merging successfully
+with a checkmark.
+建物の分割・合併の登記は、とくに「合併の制限」に何が含まれるかが軸に
+なります。共用部分である旨の登記がある建物は合併できません。一方、
+区分建物の合併では種類の同一性は不要、敷地権の登記がある区分建物どう
+しは合併できるなど、土地の合筆とは異なる点が問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+合併の制限
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+共用部分の登記がある建物は、合併できない
+Illustration: An isometric building icon stamped with a red seal reading
+"共用部分である旨の登記", with a red prohibition (no-entry) mark overlaid,
+and a broken arrow that fails to connect to a second building icon
+labeled "合併の登記".
+Caption (small text below):
+共用部分である旨の登記がされると、権利に関する登記が一切できない状態
+になるため、他の建物との合併をすることができない(合併の制限)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+分割・合併で柔軟に認められること
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+附属建物の分割と合併は、一件でまとめて申請できる
+Illustration: An isometric diagram showing an 附属建物 icon being split
+off from a "甲建物" icon along a dividing line labeled "分割", then an
+arrow moving it to attach onto a "乙建物" icon labeled "合併", with both
+steps enclosed inside a single document folder icon labeled "一の申請
+情報".
+Caption (small text below):
+甲建物の附属建物を分割する登記と、それを乙建物の附属建物とする合併の
+登記は、一の申請情報によって申請することができる(不動産登記規則35条
+2号)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+区分建物の合併に、種類が同一であることは求められない
+Illustration: An isometric diagram of two adjacent 区分建物 icons, one
+labeled "居宅" (house-shaped) and the other labeled "事務所"
+(office-shaped), merging together into one outlined region with a
+checkmark, no prohibition mark present.
+Caption (small text below):
+互いに接続する甲区分建物と乙区分建物とを合併して一個の区分建物とする
+合併の登記は、合併前の各区分建物の種類が同一でなくても申請することが
+できる。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+主従の関係がなければ、直接、分割の登記を申請できる
+Illustration: An isometric building being split into two independent
+house icons by demolishing the middle section (分棟), with a direct
+arrow going straight to a document folder labeled "分割の登記", while a
+crossed-out intermediate step labeled "表題部の変更登記" is shown
+bypassed to the side.
+Caption (small text below):
+一棟の建物の中間部分を取り壊して相互に接続しない二棟とし、いずれも
+主である建物とする場合は、先に一方を主・他方を附属とする表題部の変更
+の登記を経ることなく、直接、建物の分割の登記を申請することができる。
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+敷地権付きの区分建物どうしも、合併できる
+Illustration: An isometric diagram of two 区分建物 icons, each stamped
+with a small tag reading "敷地権登記あり", merging into one with a
+checkmark, contrasted with a small crossed-out land-plot icon labeled
+"土地の合筆は不可" placed off to the side for comparison.
+Caption (small text below):
+敷地権の登記がある甲区分建物を、敷地権の登記がある乙区分建物の附属
+建物とする合併の登記は、申請することができる。敷地権のある土地の
+合筆ができないのとは異なる点に注意。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第12問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (1
+card under 合併の制限, 4 cards under 分割・合併で柔軟に認められること),
+with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

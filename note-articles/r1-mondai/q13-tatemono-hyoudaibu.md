@@ -81,3 +81,129 @@
 - 先取特権があっても、完成後の表題登記は必要なんです
 - 離れが増えたら、遅滞なく表題部の変更登記を
 - 附属建物の合体は、まず分割から。順番が命なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+保存登記の錯誤抹消と登記記録の運命を示す2枚と、先取特権・合体に隠れた「前提となる登記」を示す3枚を合わせた計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, registry
+ledger pages, official stamps/seals, document folders, arrows, clocks —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters, especially
+号・録・権・地・番・建・物・登・記・所.
+
+--- HEADER ---
+Title (large, bold, 2行):
+保存登記が消えた建物
+そのあとどうなる?
+
+Subtitle (smaller, centered, 1行):
+建物の表題部の登記を総ざらい(令和元年度 午後の部 第13問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric registry ledger page for a building splitting
+into two paths: one path shows the ledger page being stamped with a red
+"閉鎖" seal and a brand-new blank ledger page appearing beside it; the
+other path shows the ledger page's "表題部所有者" entry glowing with a
+checkmark instead of being closed.
+建物の表題部の登記は、保存登記が錯誤で抹消されたあとの登記記録の扱い、
+不動産工事の先取特権の保存の登記との関係、そして合体の登記など、手続
+の「前提」と「その後」をつなげて理解できているかが問われる分野です。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+保存登記の抹消と登記記録の運命
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+表題部所有者本人の保存登記が消えたら、登記記録ごと閉じる
+Illustration: An isometric registry ledger page for a building being
+stamped with a red "閉鎖" seal, with a small figure labeled "表題部
+所有者Ａ" standing beside a crossed-out entry, and a brand-new blank
+ledger page appearing beside it labeled "改めて表題登記".
+Caption (small text below):
+表題部所有者本人がした所有権の保存の登記が錯誤により抹消されると、
+登記記録の全部が閉鎖され、真の所有者の申請又は職権により改めて表題
+登記をすることとなる(昭36.9.2民甲2163号)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+相続人名義の保存登記が消えても、登記記録は生き残る
+Illustration: An isometric registry ledger page for a building, with an
+entry labeled "表題部所有者Ａ" glowing and highlighted with a checkmark
+(being revived) rather than stamped closed, next to a small crossed-out
+entry labeled "相続人Ｂの保存登記".
+Caption (small text below):
+表題部所有者の相続人がした所有権の保存の登記が錯誤により抹消されても、
+表題部所有者が所有者であったこと自体は否定されないため、表題部所有者
+に関する登記事項を復活させ、登記記録は閉鎖されない(昭59.2.25民三
+1085号)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+先取特権・合体に隠れた前提の登記
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+先取特権の保存登記があっても、完成後の表題登記は必要
+Illustration: An isometric building under construction stamped
+"不動産工事の先取特権の保存登記" with a small tag reading "設計書による",
+transitioning via an arrow to a completed building icon stamped
+"表題登記(現況どおり)".
+Caption (small text below):
+建物の新築について不動産工事の先取特権の保存の登記がされていても、
+建物が完成した後は改めて表題登記をし、設計書による仮の登記事項を現況
+どおりの内容に改める(平21.2.20民二500号)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+附属建物を新築したら、遅滞なく表題部の変更登記を
+Illustration: An isometric main house icon labeled "母屋" with a small
+new attached building icon labeled "離れ(附属建物)" being added beside
+it, and a clock icon labeled "遅滞なく" pointing an arrow toward a
+document folder labeled "表題部の変更登記".
+Caption (small text below):
+所有権の登記がある建物の附属建物を新築した場合、完成後は遅滞なく、
+附属建物の新築による建物の表題部の変更の登記を申請しなければならない
+(不動産登記法51条1項)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+附属建物が絡む合体は、まず分割の登記が前提になる
+Illustration: An isometric diagram showing a small "丙建物" icon attached
+to a "乙建物" icon as its 附属建物, with a numbered "①" arrow first
+separating 丙建物 from 乙建物 along a dividing line labeled "分割の登記",
+then a numbered "②" arrow merging the separated 丙建物 with a "甲建物"
+icon labeled "合体の登記".
+Caption (small text below):
+甲建物と、乙建物の附属建物として登記されている丙建物とが増改築工事で
+一個の建物になった場合、まず丙建物を乙建物から切り離す分割の登記を
+申請することが、合体の登記等の前提として必要である。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第13問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 保存登記の抹消と登記記録の運命, 3 cards under 先取特権・
+合体に隠れた前提の登記), with no duplicated or missing cards, and
+confirm every heading, illustration label, and caption text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
+```

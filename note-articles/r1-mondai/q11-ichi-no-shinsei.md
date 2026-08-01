@@ -82,3 +82,128 @@
 - 滅失と新築の表題登記は、別々の出来事だから一括できない
 - 同じ日に2筆が宅地になったら、まとめて申請できるって知ってた？
 - 分筆は申請人が同じなら、一件でまとめて出せるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+一の申請情報でまとめられる場合とまとめられない場合を、まとめられる側4枚・まとめられない側1枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric documents, land
+plots, folders, official stamps/seals, arrows, prohibition marks —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters, especially
+号・録・権・地・番・建・物・登・記・所.
+
+--- HEADER ---
+Title (large, bold, 2行):
+まとめて申請できる？できない？
+一の申請情報の許容ライン
+
+Subtitle (smaller, centered, 1行):
+規則35条の例外パターンを整理(令和元年度 午後の部 第11問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric icon showing several small registration
+application documents, each labeled with a different 登記 icon, being
+sorted by a registry official figure into either a single merged folder
+labeled "一の申請情報" or kept as separate folders, based on whether the
+labels "目的" "原因" "日付" "申請人" on each document match.
+一の申請情報による申請(いわゆる一括申請)は、原則として「登記の目的・
+登記原因及びその日付・申請人」が同一であることが必要です(不動産登記令
+4条ただし書)。ただし、不動産登記規則35条には、この原則の例外として
+一括申請が認められる場合が列挙されています。まとめられる場合とまとめ
+られない場合を、具体的な事案で整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+一の申請情報でまとめられる場合
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+氏名変更の登記と合筆の登記は、まとめて申請できる
+Illustration: An isometric icon of two small stamped documents labeled
+"氏名変更" and "合筆" being pulled together by two arrows into a single
+merged folder icon labeled "一の申請情報", with a small tag reading
+"規則35条7号" attached to the folder.
+Caption (small text below):
+表題部所有者の氏名についての変更の登記と合筆の登記は、一の申請情報に
+よって申請することができる(不動産登記規則35条7号)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+地目変更と地積更正も、まとめて申請できる
+Illustration: An isometric single land plot icon with two small tags
+"地目変更" and "地積更正" attached to it, both tags being pulled into a
+single document folder icon labeled "一の申請情報", with a small tag
+reading "規則35条6号" attached to the folder.
+Caption (small text below):
+同一の土地についてする地目の変更の登記と地積の更正の登記は、いずれも
+表題部の変更・更正の登記であるため、一の申請情報によって申請すること
+ができる(不動産登記規則35条6号)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+同一日・同一事由の二筆の地目変更は、まとめて申請できる
+Illustration: An isometric diagram of two adjacent land plots labeled
+"甲土地" and "乙土地", both stamped with the same date tag and the words
+"雑種地→宅地", connected by arrows into a single document folder icon
+labeled "一の申請情報".
+Caption (small text below):
+同一の登記所管轄内で隣接する甲土地・乙土地について、地目が同一の日に
+同一の事由で変更されたときは、登記の目的・原因・日付が同一であるため、
+一の申請情報によって申請することができる(不動産登記令4条ただし書)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+表題部所有者の土地と所有権登記名義人の土地の分筆も、まとめて申請できる
+Illustration: An isometric diagram of two land plots, one labeled
+"甲土地(表題部所有者Ａ)" and another labeled "乙土地(所有権登記名義人Ａ)",
+each being split by a dividing line labeled "分筆", both connected by
+arrows into a single document folder icon labeled "一の申請情報".
+Caption (small text below):
+甲土地・乙土地の分筆の登記は、いずれも登記の目的が同一で申請人もＡで
+同一であるため、一方が表題部所有者、他方が所有権の登記名義人であって
+も、一の申請情報によって申請することができる。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+まとめられない場合
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+建物の滅失登記と表題登記は、別々の申請になる
+Illustration: An isometric diagram of an old house icon with a red "×"
+mark labeled "甲建物の滅失登記" being demolished, and a separate new
+house icon labeled "乙建物の表題登記" being built nearby, each icon
+placed inside its OWN separate document folder (two distinct folders,
+not merged), with a red prohibition (no-entry) mark placed between the
+two folders to show they cannot be combined.
+Caption (small text below):
+甲建物の滅失の登記と乙建物の表題登記は、不動産・登記の目的・登記原因
+がいずれも異なるため、一の申請情報によって申請することはできない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第11問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (4
+cards under 一の申請情報でまとめられる場合, 1 card under まとめられない
+場合), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

@@ -81,3 +81,131 @@
 - 会社法人等番号、署名の真正チェック役じゃないって知ってた?
 - 紙の識別情報、スキャンして送る方法はないんです
 - 住所入り相続一覧図、一枚で二役こなせちゃう
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+電子申請のルールを正しく理解するための3枚と、添付情報として使える書類の柔軟な取扱いを示す2枚を合わせた計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric documents, digital
+signature seals, certificates, official figures, scanners, arrows,
+prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters, especially
+号・録・権・地・番・建・物・登・記・所.
+
+--- HEADER ---
+Title (large, bold, 2行):
+電子申請、その添付情報ほんとに要る?
+建物の表示登記の添付情報を整理
+
+Subtitle (smaller, centered, 1行):
+電子署名・会社法人等番号・登記識別情報の役割を見分ける(令和元年度
+午後の部 第15問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric figure sitting at a computer submitting a
+電子申請, with several icons floating around the screen representing
+"電子署名", "電子証明書", a crossed-out "印鑑証明書", "会社法人等番号",
+and "登記識別情報".
+添付情報の分野は、「その情報が何のために必要とされるのか」を押さえて
+おくと、電子申請でひっかけられても迷いません。電子署名と電子証明書、
+印鑑証明書、会社法人等番号、登記識別情報――それぞれの役割を意識しな
+がら見ていきましょう。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+電子申請のルールを正しく理解する
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+電子署名をしていれば、印鑑証明書は要らない
+Illustration: An isometric figure submitting an electronic 委任状 with a
+digital signature seal icon labeled "電子署名" and a certificate icon
+labeled "電子証明書", with a red prohibition (no-entry) mark overlaid on
+a paper document icon labeled "印鑑証明書(3月以内)".
+Caption (small text below):
+電子申請で委任状に適正な電子署名を行ったときは、電子証明書を提供すれ
+ば足り、書面申請の印鑑証明書に相当するものを別に提供する必要はない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+会社法人等番号は、電子署名の真正を確認するための情報ではない
+Illustration: An isometric company representative figure submitting an
+electronic 委任状 with a digital signature seal and 電子証明書 icon
+confirming authenticity via a solid arrow, while a separate tag icon
+reading "会社法人等番号" is shown with a question mark, disconnected
+from the authenticity-check arrow.
+Caption (small text below):
+会社の代表者が電子署名を行ったとき、その署名の真正は電子証明書によっ
+て確認される。会社法人等番号は法人を特定するための番号であり、電子
+署名の真正確認のためにセットで必ず提供しなければならないものではない。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+紙の登記識別情報は、スキャンして送る方法がない
+Illustration: An isometric paper notice icon labeled "登記識別情報(書面
+通知)" being fed into a scanner with a red prohibition (no-entry) mark
+overlaid, contrasted beside a separate correct path showing the same
+information being typed directly as a text string labeled "符号を入力".
+Caption (small text below):
+電子申請で登記識別情報を提供する場合は、その符号を入力する方法による
+ことになり、書面で通知された登記識別情報をスキャナで電磁的記録に記録
+して送信する方法によって提供することはできない(不動産登記令附則5条
+1項かっこ書)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+添付情報として使える書類の柔軟な取扱い
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+敷地が共有でも、一部の人の証明で足りる
+Illustration: An isometric shared land plot with three small owner
+figures standing on it, only one of them stamping a document labeled
+"所有権を有することを証する情報" while the other two stand aside, with
+a checkmark showing this single certification is sufficient.
+Caption (small text below):
+建物の表題登記を申請する際、表題部所有者となる者の所有権を有すること
+を証する情報として敷地所有者による証明情報を添付する場合、敷地が共有
+であっても共有者の一部の者による証明で差し支えない(昭37.10.8民甲
+2885号)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+住所入りの法定相続情報一覧図、一枚で二役こなせる
+Illustration: An isometric single document icon labeled "法定相続情報
+一覧図の写し(住所入り)" with two arrows branching out from it, one
+pointing to a checkmark icon labeled "所有権を証する情報", the other
+pointing to a checkmark icon labeled "住所を証する情報".
+Caption (small text below):
+表題登記がされていない建物を相続した者が表題登記を申請する場合、住所
+が記載された法定相続情報一覧図の写しは、所有権を有することを証する
+情報と、住所を証する情報の両方を兼ねることができる(平成30年3月29日
+民二166号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第15問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 電子申請のルールを正しく理解する, 2 cards under 添付情報と
+して使える書類の柔軟な取扱い), with no duplicated or missing cards, and
+confirm every heading, illustration label, and caption text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
+```
