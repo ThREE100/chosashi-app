@@ -81,3 +81,124 @@
 - 発電用の排水路は「用悪水路」じゃなく雑種地なんです
 - 牧場の牧草地、畑じゃなくて牧場に一体化するんです
 - どんなに大きくても「霊園」じゃない、墓地なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地目認定の論点を「敷地・施設の地目」の2枚と「土地の用途で決まる地目」の3枚、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, wooden name-tags, power pylons, water channels, pastures,
+gravestones, arrows, prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その土地、地目はどれ？
+幼稚園・高圧線下・排水路・牧草地・墓地で見分ける地目認定
+
+Subtitle (smaller, centered, 1行):
+地目に関する論点整理(令和5年度 午後の部 第8問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric landscape strip showing five small distinct
+land-use scenes side by side (a kindergarten building, a house under
+power lines, a water channel, a pasture, a graveyard), each with a small
+blank wooden name-tag floating above it waiting to be filled in with its
+地目.
+地目は、土地の用途(現況と利用状況)によって区分される、土地の登記記録の
+基本的な表示事項です。この問題では、幼稚園・高圧線下・排水路・牧草栽培地・
+墓地という具体的な土地について、不動産登記事務取扱準則の地目認定のルール
+に従って正しく地目を判断できるかが問われています。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+敷地・施設の地目
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+幼稚園の園舎の敷地は、学校用地とする
+Illustration: An isometric kindergarten building with a small playground,
+sitting on a land plot bearing a wooden label reading "学校用地", drawn
+in a style visually matching a neighboring elementary school building to
+show they share the same地目.
+Caption (small text below):
+学校教育法の規定により設置された幼稚園の園舎の敷地の地目は、学校用地と
+する。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+高圧線下でも建物の敷地なら、雑種地ではなく宅地とする
+Illustration: An isometric house with high-voltage power lines and
+pylons passing overhead, the land plot beneath the house bearing a
+wooden label reading "宅地", with a crossed-out (prohibition) tag
+reading "雑種地" floating above to show that outcome is rejected.
+Caption (small text below):
+高圧線の下にある土地であっても、建物の敷地として利用されていれば地目は
+宅地とする(準則69条13号)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+土地の用途で決まる地目
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+水力発電のためにのみ使用される排水路は、雑種地とする
+Illustration: An isometric water channel flowing from a hydroelectric
+dam facility, the channel's land strip bearing a wooden label reading
+"雑種地", drawn beside a separate nearby irrigation channel labeled
+"用悪水路" to show the contrast in用途.
+Caption (small text below):
+水力発電のためにのみ使用される排水路の地目は、雑種地とする(準則69条5号)。
+かんがい用又は悪水排せつ用の水路は用悪水路となる。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+牧場内の牧草栽培地は、畑ではなく牧場とする
+Illustration: An isometric pasture landscape with grazing livestock and
+a fenced patch of growing grass (牧草栽培地) within the same fenced
+boundary, the whole area sharing one single wooden label reading "牧場",
+with a crossed-out tag reading "畑" floating over the grass patch to show
+it is not treated separately.
+Caption (small text below):
+牧場地域内にある牧畜のために使用する牧草栽培地は、牧場のために使用する
+土地として一体的に牧場とする(準則69条4号)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+遺体・遺骨を埋葬する土地は、規模に関係なく墓地とする
+Illustration: An isometric large landscaped cemetery with rows of
+gravestones, the land plot bearing a wooden label reading "墓地", with a
+crossed-out tag reading "霊園" floating above to show that name is not
+used as a formal地目, regardless of the large scale of the grounds.
+Caption (small text below):
+人の遺体又は遺骨を埋葬する土地の地目は、規模の大小にかかわらず墓地と
+する(準則68条12号)。「霊園」という地目は存在しない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和5年度 午後の部 第8問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 敷地・施設の地目, 3 cards under 土地の用途で決まる地目), with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

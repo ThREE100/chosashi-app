@@ -81,3 +81,127 @@
 - テント状の膜構造でも、建物になるって知ってた？
 - 塔の上の展望台、高床式の平家建てになるんです
 - ぐるっと回るタワー駐車場、ちゃんと建物なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物として登記できるかどうかを分ける外気分断性・定着性・用途性の3要件を導入部で示したうえで、「建物として登記できないもの」1枚(アーケード)と「建物として登記できるもの」4枚(山門・膜構造・展望台・立体駐車場)の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。〔図1〕〔図2〕が省略されている分、各カードの図解は元記事の文章表現をもとに構図として書き起こした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric shopping arcades,
+temple gates, tent-membrane structures, observation towers, tower-shaped
+car parks, checkmarks, prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の認定
+屋根と壁だけでは決まらない
+
+Subtitle (smaller, centered, 1行):
+外気分断性・定着性・用途性の3要件で判断する(令和5年度 午後の部 第11問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon showing three small badge
+icons side by side — a roof-and-walls icon labeled "外気分断性", a
+building anchored into the ground with foundation lines labeled
+"定着性", and a person using a desk inside a structure labeled
+"用途性" — arranged above a question-mark-shaped generic structure to
+show these three requirements are applied to judge unusual structures.
+建物として登記できるかどうかは、(1)外気分断性(屋根と周壁またはこれに
+類するものがあるか)、(2)定着性(土地に定着しているか)、(3)用途性(目的
+とする用途に使える状態か)という3要件で判断します(昭24.2.22民事甲240
+号)。この3要件を、アーケード・山門・膜構造・展望台・立体駐車場という
+5つの構造物に当てはめます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+建物として登記できないもの
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+屋根覆いを施しただけの道路上アーケードは、建物として登記できない
+Illustration: An isometric shopping street covered by an overhead arcade
+roof (アーケード), flanked by rows of small shop icons on both sides,
+with a prohibition (no-entry) mark over the arcade roof section.
+Caption (small text below):
+公衆用道路の上に屋根や覆いを施しただけでは、周辺が店舗に囲まれていても、
+独立して用途に供される建物とはいえない(準則77条2号エ)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+建物として登記できるもの
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+倉庫として使われる山門(周壁で外気と分断)は、建物として登記できる
+Illustration: An isometric traditional temple gate (山門) with an
+enclosed upper room surrounded by solid walls, storage boxes visible
+inside the upper room through a small window, a checkmark badge above
+the gate.
+Caption (small text below):
+上部が倉庫として利用され、その部分が周壁を有して外気と分断されている
+ときは、用途性が認められ、建物として登記することができる(建物認定
+113頁)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+鉄骨造+永続性のある膜構造シートで覆われた建造物も、建物として登記できる
+Illustration: An isometric structure with an exposed steel-frame
+skeleton (鉄骨) covered by a taut tent-like PVC membrane roof and walls
+(膜構造の特殊シート), a checkmark badge above it.
+Caption (small text below):
+主たる部分の構成材料が鉄骨であり、屋根及び周壁が永続性のある膜構造の
+塩化ビニールの特殊シートで覆われた建造物は、建物として登記することが
+できる(建物認定74頁)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+階段室の上に載る展望台は、高床式平家建の建物として登記できる
+Illustration: An isometric tall reinforced-concrete staircase tower
+(階段室) supporting a single small enclosed room with a roof and walls
+at the very top labeled "展望台", a checkmark badge and a small label
+reading "高床式平家建".
+Caption (small text below):
+最上部が屋根及び周壁を有する展望台となっており、その下部が鉄筋コンク
+リートを主たる構成材料とする階段室となっている場合には、当該展望台を
+建物として登記することができる(建物認定304頁)。
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+回転式パーキング機械を備えたタワー型立体駐車場も、建物として登記できる
+Illustration: An isometric tall tower-shaped car park with a roof and
+exterior walls, a cutaway showing a rotating parking mechanism (回転式
+のパーキング機械) carrying a small car icon inside, a checkmark badge
+above it.
+Caption (small text below):
+屋根及び外壁があり、内部に車を格納する回転式のパーキング機械が設置
+されているタワー状の立体駐車場は、外気分断性・定着性・用途性の3要件を
+満たす(昭24.2.22民事甲240号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和5年度 午後の部 第11問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (1
+card under 建物として登記できないもの, 4 cards under 建物として登記
+できるもの), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```

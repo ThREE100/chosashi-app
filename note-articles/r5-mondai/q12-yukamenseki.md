@@ -103,3 +103,132 @@
 - 部屋の中の柱、削らず無視して測るって知ってた？
 - シャッターで仕切った地下店舗も、床面積に入るんです
 - 塔屋が事務所や倉庫なら、まるごと床面積に算入
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「補足：床面積の算定方法を整理する」の①〜④の枠組みをそのまま軸にして、「原則:計測の基準線」2枚(非区分建物の壁芯計算・区分建物専有部分の内壁計算)と「例外パターン」3枚(吹抜け・可動式の仕切り・塔屋)の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。〔図1〕〜〔図3〕が省略されている分、各カードの図解は元記事の文章表現をもとに構図として書き起こした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric building
+cross-sections, dashed center lines, protruding columns, atriums,
+shutters, rooftop towers, measuring tapes — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の床面積
+どこまで数える？
+
+Subtitle (smaller, centered, 1行):
+壁芯・内壁の原則と、吹抜け・シャッター・塔屋の例外(令和5年度 午後の部
+第12問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric building cross-section showing a measuring
+tape running along a dashed wall-center line on one side and along a
+solid inner-wall line on the other side, with small icons nearby of a
+void/atrium arrow, a shutter icon, and a rooftop tower icon to hint at
+the three exception cards.
+床面積は、原則として各階の壁その他の区画の中心線で囲まれた部分の水平
+投影面積で計算します(区分建物の専有部分は内壁で計算)。ただし吹抜け・
+出窓・塔屋など、算入するかどうかで悩む「例外」が数多くあります。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+原則:計測の基準線
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+非区分建物は壁の中心線(壁芯)で計算し、階ごとに厚みが違えば階ごとに測り直す
+Illustration: An isometric cutaway of a multi-story reinforced-concrete
+building, each floor's wall shown with a different thickness, a dashed
+center line running through the middle of each floor's wall thickness,
+small measuring-tape arrows spanning each floor's dashed outline
+separately.
+Caption (small text below):
+壁構造の建物の床面積は、壁の中心線で囲まれた部分の水平投影面積で算出
+する。各階の壁の厚さが異なるときは、各階ごとに壁の中心線で囲まれた
+部分の水平投影面積で計算する(昭46.4.16民甲238号)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+区分建物の専有部分は内壁で計算し、柱の凸凹は無視して算入する(除外しない)
+Illustration: An isometric interior of a condominium unit(区分建物の
+専有部分)with a protruding column near one wall, a dashed line showing
+the wall surface smoothed flat across the column's face(ignoring the
+bump), the floor area shaded up to that flattened line with a small
+"柱は無視" label.
+Caption (small text below):
+区分建物の専有部分の床面積は内壁で囲まれた部分の水平投影面積で算出
+する。柱状に凸凹している部分は専有部分から除外するのではなく、柱を
+無視して(壁の面をならして)算入する(不動産登記規則115条かっこ書、
+昭46.4.16民甲238号)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+例外パターン
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+吹抜けは床のない階では不算入。床のある階は算入する
+Illustration: An isometric cutaway of a house with an atrium/void
+running from the 2nd floor to the top floor, the 1st floor's floor slab
+shaded and labeled "算入", the open void space in the upper floors left
+unshaded and labeled "不算入".
+Caption (small text below):
+吹抜け構造の部分は、床のない上階の床面積には算入しない。ただし吹抜け
+の起点となる床がある階(1階等)は通常どおり算入する(準則82条1項8号)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+シャッター等の可動式の仕切りも壁扱いで算入する
+Illustration: An isometric underground shopping arcade storefront with a
+metal shutter partially lowered on three sides and a solid wall on the
+fourth side, the shaded floor area inside labeled "算入", with a small
+open corridor area just outside the shutter labeled "不算入(常時開放の
+通路)".
+Caption (small text below):
+1方向が壁、他の3方向がシャッターで仕切られ、閉店後は閉じて独立した
+区画となる店舗部分は、専有部分の床面積に算入する。不算入となるのは
+常時一般に開放されている通路や階段部分に限られる(準則82条4号・5号)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+塔屋の一部が事務所・倉庫なら、塔屋全体を算入する
+Illustration: An isometric rooftop tower(塔屋)containing a machine room
+and a staircase, with one small section labeled "管理事務所" and
+another labeled "倉庫" inside the tower, the entire tower shaded and
+highlighted uniformly rather than just those two sections, with a label
+"塔屋全体を算入".
+Caption (small text below):
+機械室や階段室だけの塔屋は階数に算入しないが、その一部が管理事務所や
+倉庫として使用されている場合には、未使用部分も含めた塔屋全体を建物の
+床面積に算入する(昭37.12.15民甲3600号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和5年度 午後の部 第12問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 原則:計測の基準線, 3 cards under 例外パターン), with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

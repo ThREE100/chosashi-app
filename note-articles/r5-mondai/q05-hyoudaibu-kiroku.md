@@ -81,3 +81,131 @@
 - 分筆して合筆、その部分の登記記録は生まれないんです
 - 解体移転は「新築」扱い、引っ越したとは書かれない
 - 区分から非区分へ、様式が違うから作り直しなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+表題部の登記記録が「既存のまま使われる場面」と「新たに作られる場面」を、換地・先取特権・分合筆の3枚と、解体移転・区分建物の2枚、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, building
+blocks, ledger books, official stamps/seals, arrows, prohibition marks —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その登記記録、新しく作られる？作られない？
+換地・先取特権・分合筆・解体移転・区分建物で見抜く
+
+Subtitle (smaller, centered, 1行):
+表題部の登記記録が新たに作成されるか(令和5年度 午後の部 第5問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric ledger book icon on the left, split into two
+branching arrows: one arrow loops back onto the same ledger page (showing
+it stays in use), the other arrow points to a brand-new blank ledger page
+appearing beside it (showing a new record being created), representing the
+two possible outcomes for a土地・建物の表題部登記記録.
+表題部の登記記録は、土地や建物が「別物になった」ときに新しく作り直されます。
+逆に、同じ不動産のまま表示が変わっただけなら、既存の登記記録がそのまま
+使われます。この問題では、換地・先取特権・分合筆・解体移転・区分建物という
+5つの場面ごとに、登記記録が新規に作られるのか、それとも既存のものが
+使われるのかを切り分けられるかが問われています。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+既存の登記記録がそのまま使われる場面
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+1個の土地に1個の換地なら、新しい登記記録は作られない
+Illustration: An isometric land plot labeled "従前地" transforming into a
+plot labeled "換地" via a curved arrow, with the same ledger book icon
+underneath looping back onto itself (no second ledger appears) to show
+the same登記記録がそのまま引き継がれる様子.
+Caption (small text below):
+1個の従前地に1個の換地が照応する場合は、従前地の登記記録がそのまま使われ、
+新たな登記記録は作成されない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+先取特権保存済みの建物が完成しても、既存の登記記録が使われる
+Illustration: An isometric ledger page labeled "設計書による表題部" already
+open on a stand beside a half-built house icon, with a pen icon editing
+the same page into a completed-house record (no second ledger page
+appears anywhere in the scene).
+Caption (small text below):
+先取特権の保存登記の際に作られた表題部を、建物完成後の表題登記でそのまま
+使う。新たな登記記録は作成されない。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+分筆して合筆する部分については、登記記録は作成されない
+Illustration: An isometric land plot labeled "甲土地" with a small
+wedge-shaped piece cut out along a dotted line, an arrow carrying that
+wedge directly into an adjacent plot labeled "乙土地", and a small
+prohibition (no-entry) icon over an empty ledger page to show no
+intermediate registry record is created for the cut piece.
+Caption (small text below):
+甲土地の一部を分筆して乙土地に合筆する場合、分筆・合筆する部分について
+独立した登記記録は作成されない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+新たな登記記録が作られる場面
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+解体移転は新築扱いなので、解体・移転した旨は記録されない
+Illustration: An isometric building labeled "甲建物" shown disassembled
+into loose parts on one land plot, the parts moving along a dotted arrow
+to a new land plot where they reassemble into a new building; the
+original ledger page for 甲建物 shows only a red "滅失" stamp with no
+text about "解体" or "移転" written on it, while a brand-new blank ledger
+page appears beside the reassembled building.
+Caption (small text below):
+解体移転は既存建物との同一性が認められないため新築として扱われる。甲建物は
+滅失し、移転後の建物は新たな登記記録により表題登記される。甲建物の登記
+記録に「解体及び移転した旨」は記録されない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+区分建物が非区分建物になると、新しい登記記録が作成される
+Illustration: An isometric long row-house building divided into two units
+labeled "甲建物" and "乙建物", with the middle connecting section shown
+being demolished (rubble/dust cloud); an arrow shows the two now-separate
+houses each receiving their own brand-new ledger book, while the original
+shared ledger page is stamped "閉鎖" in red.
+Caption (small text below):
+区分建物が非区分建物になった場合は登記記録の様式が異なるため、従前の
+区分建物の登記記録は閉鎖され、甲建物・乙建物それぞれに新たな登記記録が
+作成される。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和5年度 午後の部 第5問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 既存の登記記録がそのまま使われる場面, 2 cards under 新たな
+登記記録が作られる場面), with no duplicated or missing cards, and confirm
+every heading, illustration label, and caption text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters.
+```

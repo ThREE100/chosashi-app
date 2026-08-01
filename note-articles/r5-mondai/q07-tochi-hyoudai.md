@@ -81,3 +81,124 @@
 - 登記前に売ったら、申請するのは買った人なんです
 - 区画整理の施行者、所有者の代わりに登記できるんです
 - 役所の嘱託なら、所有権証明書は省略できちゃう
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地の表題登記をめぐる論点を「登記原因・添付情報」の2枚と「表題登記を申請できる者」の3枚、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。誤っているものの組合せ形式の問題のため、各肢は正しいルールに直してカード化している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, official
+certificates, government buildings, handover gestures, calendar icons,
+arrows, prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+土地が生まれたとき、誰が・どんな原因で登記する？
+埋立・国有財産売払・原始取得・代位申請・嘱託
+
+Subtitle (smaller, centered, 1行):
+土地の表題登記(令和5年度 午後の部 第7問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric newly reclaimed, blank land plot with a large
+"？" sign floating above it and a dotted-outline ledger book about to
+appear beside it, a registrant character standing next to the plot
+holding a document, representing a土地 about to enter the登記の世界 for
+the first time.
+土地の表題登記は、まだ登記記録のない土地が新たに登記の世界に登場する
+場面です。この問題では、「誰が申請できるのか」「登記原因はどう書くのか」
+「どんな添付情報が必要なのか」という基本を、埋立・国有財産売払・原始
+取得後の売却・代位申請・嘱託という具体的な場面ごとに問うています。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+表題登記の登記原因・添付情報
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+埋立地の表題登記では、竣功認可書を所有権証明情報にできる
+Illustration: An isometric reclaimed land plot (公有水面埋立) rising out
+of blue water with small construction cranes nearby, an official
+certificate icon labeled "竣功認可書" being placed into an open folder
+labeled "所有権を証する情報".
+Caption (small text below):
+公有水面埋立法に基づく埋立工事が竣工した土地の表題登記では、所有権を
+証する情報として竣功認可書を提供することができる。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+表題登記の登記原因日付は、土地が生じた日である
+Illustration: An isometric calendar icon with one date circled and
+labeled "土地が生じた日", beside a crossed-out (prohibition) tag over a
+document labeled "国有財産売払" to show that this is not used as the
+登記原因.
+Caption (small text below):
+土地の表題登記における登記原因の日付は、土地が発生した年月日であり、
+国から売払いを受けた場合であっても登記原因を「国有財産売払」とするわけ
+ではない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+表題登記を申請できる者
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+登記前に売却したら、申請するのは新所有者である
+Illustration: An isometric scene of person "A" handing a land plot key
+to person "B" (a house-key handover gesture), a document icon labeled
+"表題登記の申請" moving from A's hand to B's hand, with a crossed-out
+icon over A holding the document to show A can no longer file it.
+Caption (small text below):
+原始取得者Aが表題登記を申請する前に土地をBに売却した場合、表題登記の
+申請義務を負うのは新所有者Bであり、Aは申請することができない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+区画整理の施行者は、所有者に代位して表題登記を申請できる
+Illustration: An isometric construction-project character (施行者)
+holding a document labeled "表題登記" standing beside a dotted-outline
+silhouette representing an absent landowner, with an arrow labeled "代位"
+connecting the施行者 directly to the land plot's ledger book.
+Caption (small text below):
+土地区画整理事業の施行者は、必要があるときは、従前の土地の所有者に代位
+して土地の表題登記を申請することができる(土地区画整理法82条1項)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+地方公共団体の嘱託では、所有権を証する情報の提供を省略できる
+Illustration: An isometric government building icon (地方公共団体)
+sending a document labeled "嘱託" directly to a登記所 building icon,
+with a crossed-out folder labeled "所有権を証する情報" beside the
+document to show it is omitted.
+Caption (small text below):
+地方公共団体が自ら所有する土地の表題登記を嘱託する場合には、所有権を
+証する情報の提供を省略することができる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和5年度 午後の部 第7問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 表題登記の登記原因・添付情報, 3 cards under 表題登記を申請
+できる者), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```

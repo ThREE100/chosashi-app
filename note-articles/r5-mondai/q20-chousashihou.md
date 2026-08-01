@@ -81,3 +81,129 @@
 - 代表社員、総社員の同意でも決められるんです
 - 戒告でも官報に載る、懲戒は公告されるんです
 - 法人なら業務の一部だけ止めることもできちゃう
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地家屋調査士・調査士法人のルールについて、「登録の取消し（調査士個人）に関するルール」2枚と「調査士法人・懲戒処分に関するルール」3枚、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric office buildings,
+balance scales, official characters, stamps/seals, newspapers, documents,
+arrows — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+登録の取消しは
+「しなければならない」か「できる」か
+
+Subtitle (smaller, centered, 1行):
+土地家屋調査士・調査士法人のルールを整理(令和5年度 午後の部 第20問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design balance scale icon on the left,
+one side labeled「しなければならない(必要的)」holding a heavy weight,
+the other side labeled「できる(裁量的)」holding a lighter weight, with a
+small 調査士 character icon standing beside the scale and a 調査士法人
+office-building icon in the background.
+土地家屋調査士法の分野では、登録の取消し・法人の代表・懲戒処分と
+いった制度が問われます。「取り消さなければならない」のか「取り消す
+ことができる」のか、「一部だけの業務停止ができるのか」といった、
+義務と裁量・全部と一部の区別を整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+登録の取消し（調査士個人）に関するルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+調査士が死亡したら、相続人が遅滞なく届け出る
+Illustration: An isometric family/相続人character holding a document
+labeled「死亡の届出」and handing it to a 調査士会 building icon, with an
+arrow continuing onward to a larger 日本土地家屋調査士会連合会 building
+icon, and a small clock icon labeled「遅滞なく」beside the arrow.
+Caption (small text below):
+調査士が死亡したときは必要的取消事由に該当し、調査士本人・法定代理人
+または相続人が遅滞なく所属の調査士会を経由して連合会に届け出なければ
+ならない(法15条1項・2項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+2年以上業務を行わない場合の取消しは、「できる」にとどまる
+Illustration: An isometric 調査士 character sitting idle at an empty
+desk beside a calendar showing「2年以上」, connected by a thin dotted
+(optional-style) arrow — not a solid mandatory arrow — to a 連合会
+building icon with a small「登録取消し？」question-mark badge above it.
+Caption (small text below):
+調査士が引き続き2年以上業務を行わないときは裁量的取消事由に該当し、
+連合会はその登録を取り消すことが「できる」。「取り消さなければならない」
+という必要的取消しではない(法16条1項1号)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+調査士法人・懲戒処分に関するルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+法人を代表する社員は、定款だけでなく総社員の同意でも定められる
+Illustration: An isometric diagram showing two separate paths converging
+on a single badge labeled「代表社員」— one path starting from a
+「定款」document icon, the other path starting from a group of 社員
+character icons with a speech bubble labeled「総社員の同意」— both
+arrows pointing to the same 代表社員 badge.
+Caption (small text below):
+調査士法人の社員は原則としてそれぞれ法人を代表するが、定款または
+総社員の同意によって特に法人を代表すべき社員を定めることができる
+(法35条の2第1項)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+戒告の処分をしたときも、遅滞なく官報で公告する
+Illustration: An isometric newspaper icon representing「官報」with a
+visible headline stamped「戒告」, connected by an arrow from a 法務大臣
+desk icon, with a small clock icon labeled「遅滞なく」placed near the
+arrow.
+Caption (small text below):
+法務大臣は懲戒処分をしたときは、その旨を遅滞なく官報により公告しな
+ければならない。これは最も軽い戒告の処分をしたときも同様である
+(法46条)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+法人には、業務の一部に限った停止処分もできる
+Illustration: An isometric 調査士法人 office building divided into
+several department blocks; one block is highlighted and stamped
+「業務停止」in red, while the other blocks remain bright and active,
+showing a partial rather than full-building stoppage.
+Caption (small text below):
+調査士法人は業務の内容が多岐にわたるため、業務の全部だけでなく一部に
+限った業務の停止を命ずることも認められている(法43条1項2号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和5年度 午後の部 第20問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 登録の取消し（調査士個人）に関するルール, 3 cards under
+調査士法人・懲戒処分に関するルール), with no duplicated or missing
+cards, and confirm every heading, illustration label, and caption text
+matches the Japanese text given above verbatim, with no paraphrasing and
+no substituted characters.
+```

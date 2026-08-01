@@ -81,3 +81,139 @@
 - 取消しは「初めから無効」にする力があるんです
 - 親が追認したら、本人ももう取り消せないんです
 - 取消権、実は20年で時効消滅しちゃうんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「無効」と「取消し」について、遡及効の有無と追認・時効の扱いを、無効のルール2枚・取消しのルール3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric contract documents,
+seals/stamps, timelines with arrows, padlocks, hourglasses, prohibition
+marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権, which has a Simplified Chinese look-alike form (权) with a
+visibly different stroke shape — always draw the standard Japanese (Jōyō)
+form of this character.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「無効」と「取消し」はどう違う
+さかのぼる効力と追認・時効の落とし穴
+
+Subtitle (smaller, centered, 1行):
+契約の効力を否定するルールを整理(令和5年度 午後の部 第1問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing two
+contrasting contract-document icons side by side: one document stamped
+with a red "無効" seal that is already cracked/shattered right from the
+start of a timeline, and another document that starts intact (green
+checkmark) but is later struck by a "取消" stamp with an arrow curving
+backward to its own starting point, showing the two different ways a
+contract's effect is denied.
+「無効」と「取消し」は、どちらも契約の効力を否定する場面で登場しますが、
+その効果や追認・時効の扱いが少しずつ違います。この分野は、「最初から
+効力が生じないのか」「いったん有効だがさかのぼって否定されるのか」という
+基本の違いと、追認・消滅時効のルールを丁寧に押さえられているかが
+問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+無効のルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+意思能力のない状態でした契約は無効で、目的物の引渡義務も生じない
+Illustration: An isometric elderly figure with a confused, blank
+expression signing a document at a desk; the document is instantly
+stamped with a large red "無効" seal and shown cracking into pieces;
+beside it, a small house/land icon is linked by a crossed-out
+(prohibition) arrow to a delivery-box icon, showing no obligation to
+hand it over.
+Caption (small text below):
+意思能力を有しない者がした法律行為は無効であり、無効な行為は最初から
+効力が生じないため、売主が負うはずだった目的物の引渡義務もそもそも
+発生しない(民法3条の2)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+無効な契約を知って追認しても、契約時にさかのぼって有効になるわけではない
+Illustration: An isometric horizontal timeline. At the left end, a
+contract document icon stamped with a red "無効" seal. Partway along the
+timeline, a "追認" stamp icon appears, and a brand-new, intact contract
+document icon begins exactly at that later point on the timeline — with
+no arrow connecting it back to the original left-end point — showing the
+effect starting fresh only from the追認 point.
+Caption (small text below):
+無効な行為は追認によっても効力を生じないのが原則で、当事者が無効である
+ことを知って追認したときは、その時から新たな行為をしたものとみなされる
+(民法119条ただし書)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+取消しのルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+取り消された行為は、初めから無効だったものとみなされる
+Illustration: An isometric horizontal timeline. At the left end, an
+intact green contract document icon. Partway along, a "取消" stamp icon
+appears, and a curved arrow sweeps backward from that stamp all the way
+to the left-end starting point, turning the original document icon there
+into a crossed-out/void icon, showing the effect reaching back to the
+very beginning.
+Caption (small text below):
+取り消すことができる行為も取消しがされるまでは一応有効だが、いったん
+取り消されると、法律行為の成立時にさかのぼって効力が否定される
+(民法121条本文)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+法定代理人が追認した契約は、確定的に有効となり本人も取り消せなくなる
+Illustration: An isometric scene with a young person figure (未成年者)
+beside a parent figure (法定代理人); the parent stamps a contract
+document with "追認", and the document is shown locked inside a glass
+case with a padlock icon; a separate small icon shows the young person
+reaching toward the document with a "取消" stamp in hand, blocked by a
+barrier/wall icon.
+Caption (small text below):
+未成年者が法定代理人の同意を得ずにした契約も、法定代理人が追認すれば
+確定的に有効となり、以後は未成年者本人も取り消すことができなくなる
+(民法122条)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+取消権は、行為の時から20年で時効消滅する
+Illustration: An isometric long hourglass spanning a timeline marked
+"20年", starting at a contract-signing icon and ending at a "時効消滅"
+stamp icon; below it, a shorter parallel timeline marked "5年" starting
+from a separate "追認できる時" flag icon, both timelines visually
+converging toward the same消滅 result.
+Caption (small text below):
+取消権は、追認をすることができる時から5年、行為の時から20年を経過する
+と、時効によって消滅する(民法126条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和5年度 午後の部 第1問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権. If any character renders as a Simplified Chinese
+variant, redraw that character in the correct Japanese form. Confirm the
+number of cards equals 5 exactly (2 cards under 無効のルール, 3 cards
+under 取消しのルール), with no duplicated or missing cards, and confirm
+every heading, illustration label, and caption text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters.
+```

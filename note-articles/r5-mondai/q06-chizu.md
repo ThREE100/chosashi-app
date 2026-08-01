@@ -89,3 +89,127 @@
 - 調査士の実測図も、指定を受ければ地図になるんです
 - 閉鎖された公図でも、写しはちゃんと取れるんです
 - 誤差が公差内なら、地積更正はしなくていいんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地図をめぐる論点を「地図の作成・記録事項」の2枚と「地図の備付け・証明・訂正」の3枚、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。国土調査法の参考条文引用は問題文の一部のため、カード内容には含めていない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, survey
+instruments, satellite/GNSS icons, filing cabinets, official stamps/seals,
+arrows, prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地図はどうやって作られ、どこまで証明できる？
+電子基準点・記録事項・地籍図・閉鎖図面・地図訂正の勘どころ
+
+Subtitle (smaller, centered, 1行):
+地図に関する論点整理(令和5年度 午後の部 第6問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric large drafting table displaying a blueprint-style
+map of land plots, with a surveyor character holding a total station
+instrument, connected by a thin dotted measurement line up to a satellite
+icon in the sky labeled "電子基準点".
+地図は、土地の位置や区画を公的に示す、登記制度の土台となる図面です。この
+問題では、地図を作るための測量の基礎、地図に何を記録するのか、どういう
+図面が地図として備え付けられるのか、閉鎖された図面はどこまで証明できるのか、
+そして地図訂正と地積更正の関係まで、地図をめぐる幅広い論点が問われています。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+地図の作成・記録事項
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+地図作成の測量は、電子基準点を基礎として行うことができる
+Illustration: An isometric surveyor character holding a GNSS receiver,
+connected by dotted measurement lines upward to a satellite icon labeled
+"電子基準点" and downward to a ground-based survey pillar icon, with
+measurement lines extending outward to define a land plot boundary.
+Caption (small text below):
+地図を作成するための測量は、基本測量の成果である電子基準点を基礎として
+行うことができる(規則10条3項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+記録するのは基本三角点等の「位置」であって、名称・座標値ではない
+Illustration: An isometric digital map screen showing small triangular
+pillar icons (基本三角点) placed at points on the map, each with a small
+"位置" label pin, while a separate prohibition (crossed-out) tag reading
+"名称・座標値" floats beside one of the triangle icons to show these are
+not required data fields.
+Caption (small text below):
+電磁的記録の地図に記録されるのは基本三角点等の「位置」であり、その名称
+及び座標値は記録事項ではない(規則13条)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+地図の備付け・証明・訂正
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+指定を受けた実測図は、地図として備え付けることができる
+Illustration: An isometric surveyor character (土地家屋調査士) holding a
+rolled-up map labeled "実測図", with an arrow passing through an official
+stamp icon labeled "指定" and continuing on to be mounted onto a wall
+display labeled "地図", next to another already-mounted map to show equal
+treatment.
+Caption (small text below):
+国土調査法19条5項の指定を受けた実測図は、不適当とする特別の事情がある
+場合を除き、地図として登記所に備え付けることができる(規則10条5項)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+閉鎖された図面でも、証明書の交付を請求できる
+Illustration: An isometric filing cabinet drawer holding an old map page
+stamped "閉鎖" in red, with a hand reaching in and pulling out a certified
+copy of that page bearing an official "認証" seal, handing it across a
+counter to a citizen character.
+Caption (small text below):
+新たに地図が備え付けられて地図に準ずる図面が閉鎖された場合でも、閉鎖
+された旨の認証文が入った写しの交付を請求することができる(規則136条1項
+8号・9号)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+地積の差が公差の範囲内なら、地積更正を併せてする必要はない
+Illustration: An isometric land plot with a dotted correction line being
+redrawn on a map (地図訂正), beside a small balance-scale icon comparing
+two labels, "測量した地積" and "登記記録上の地積", balanced nearly level
+within a shaded "公差" band, with a checkmark and a crossed-out separate
+form labeled "地積更正登記" to show it is not required.
+Caption (small text below):
+地図訂正の申出の際に添付する地積測量図の地積と登記記録上の地積との差が
+公差の範囲内であれば、地積の更正の登記を併せてする必要はない(規則16条
+2項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和5年度 午後の部 第6問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 地図の作成・記録事項, 3 cards under 地図の備付け・証明・
+訂正), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

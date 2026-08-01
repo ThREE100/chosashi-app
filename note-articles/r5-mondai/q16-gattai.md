@@ -82,3 +82,138 @@ Aが表題部所有者の甲建物とBが表題部所有者の乙建物（いず
 - 相続人が2人でも、一人だけで申請できちゃう
 - 区分所有にするなら、それは合体じゃなく変更登記なんです
 - 住所が変わってても、変更登記を先にしなくていいんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+合体による登記等について、合体による登記等の前提・要否に関するルール3枚と、申請人・添付情報に関するルール2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, ledger
+pages, merge/converge arrows, person figures, documents, seals, address
+tags, prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+合体による登記等
+2棟がくっついて1個になったときのルール
+
+Subtitle (smaller, centered, 1行):
+表題登記・附属建物の分割・相続人の申請・住所変更(令和5年度 午後の部 第16問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene showing two separate buildings (甲建物・
+乙建物) with converging arrows merging them into a single combined
+building, beside which two old ledger pages (合体前の甲建物の表題部登記
+記録・合体前の乙建物の表題部登記記録) are stamped with a red 抹消 seal
+and crossed out, while a new ledger page for the合体後の建物 is being
+filled in.
+合体による登記等とは、2棟以上の建物が物理的にくっついて1個の建物になっ
+たときに、合体後の建物の表題登記をするとともに、合体前の建物の表題部の
+登記を抹消する一連の手続です。表題登記の要否、附属建物が絡む場合の前提
+手続、相続人からの申請、区分建物との関係、住所変更登記の要否を整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+合体による登記等の前提・要否に関するルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+申請するのは合体後の建物の表題登記のみで足りる
+Illustration: Two unregistered building icons labeled 甲建物・乙建物 (no
+ledger tag) merging via a converging arrow into a single combined
+building icon, with an arrow pointing only to a newly created ledger page
+labeled "合体後の建物の表題登記", while two separate ledger pages
+labeled "合体前の甲建物の表題登記" and "合体前の乙建物の表題登記" are
+shown crossed out beside it.
+Caption (small text below):
+いずれも表題登記のない甲建物・乙建物が合体して1個の建物になった場合、
+申請するのは合体後の建物の表題登記であり、合体前の甲建物・乙建物につい
+て別々に表題登記を申請する必要はない(法49条2項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+附属建物が絡むときは、先に分割の登記をしなければならない
+Illustration: A main house (母屋) with an attached附属建物 labeled 離れ,
+and a separate 乙建物 icon nearby. A required first-step arrow shows 離れ
+being separated from 母屋 labeled "分割の登記", followed by a second
+arrow showing 離れ and 乙建物 merging labeled "合体による登記等". A
+prohibition mark is placed over a direct arrow that would skip the分割
+step.
+Caption (small text below):
+いずれも区分建物でない甲建物の附属建物と乙建物とが合体した場合には、
+まず甲建物の附属建物を分割する登記を申請しなければ、合体による登記等を
+申請することができない。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+区分所有の意思を示したときは、合体による登記等ではなく変更登記を申請する
+Illustration: Two separate house icons labeled 甲建物(Ａ) and 乙建物(Ｂ)
+merging via a converging arrow into one combined building that then
+splits visually into two区分建物 units side by side, each labeled Ａ・Ｂ,
+with an arrow pointing to a document labeled "区分建物への変更登記" and
+a crossed-out document labeled "合体による登記等" beside it.
+Caption (small text below):
+非区分建物であるＡの甲建物とＢの乙建物が増築により合体し、区分建物とし
+ての要件を備えたうえでＡ及びＢが区分所有の意思を示したときは、非区分
+建物から区分建物への変更登記を申請するのであって、合体による登記等を
+申請するのではない(法52条3項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+申請人・添付情報に関するルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+相続人の一人から、単独で合体による登記等を申請できる
+Illustration: A grayed-out person figure labeled Ａ(故人) with a small
+headstone marker, and two heir figures labeled Ｂさん and Ｃさん. Ｂさん
+steps forward alone holding a document stamped 申請 with a small
+"保存行為" badge attached, while Ｃさん stands calmly in the background.
+Caption (small text below):
+合体による登記等は保存行為にあたるため、所有権登記名義人Ａの死亡後、
+相続人がＢ・Ｃの2人であっても、Ｂは単独で合体による登記等を申請すること
+ができる(民法252条ただし書)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+住所が変わっていても、変更登記を先に申請せずに合体による登記等を申請できる
+Illustration: A person figure with an old address tag crossed out and a
+new address tag attached, holding a document labeled "住所が変更された
+ことを証する情報", stepping directly to submit a "合体による登記等" 申請
+document, with a crossed-out separate document labeled "住所の変更登記"
+beside it to show this step is not required first.
+Caption (small text below):
+合体前の建物に記録されている所有権登記名義人の住所が現在の住所と異なる
+場合でも、住所が変更されたことを証する情報を提供すれば、住所の変更登記
+を先に申請することなく合体による登記等を申請することができる(平5.7.30
+民三5320号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和5年度 午後の部 第16問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 合体による登記等の前提・要否に関するルール, 2 cards under
+申請人・添付情報に関するルール), with no duplicated or missing cards,
+and confirm every heading, illustration label, and caption text matches
+the Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
+```
