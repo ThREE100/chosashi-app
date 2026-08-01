@@ -86,3 +86,125 @@
 - 電子署名は「電子証明書」とセットで送るんです
 - スキャンした書面にも、作った人の電子署名が必要なんです
 - 電子化しても、原本の提示は必要なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+表示に関する登記の電子申請に関する5肢を、「電子署名が必要な場面」（ア・イ・ウ）と「スキャンデータの取扱い」（エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric computer screens,
+digital signature/seal icons, ID certificate cards, scanner icons, paper
+documents — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 電・子・署・名・証・明・書・申・請・情, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+電子申請の電子署名
+どこまで必要？
+
+Subtitle (smaller, centered, 1行):
+スキャンした書面は提示もいる(平成29年度 午後の部 第8問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design computer screen icon displaying a
+document with a glowing digital-seal stamp icon labeled "電子署名"
+overlaid on it, and a small ID certificate card icon labeled "電子証明書"
+floating beside the screen.
+電子申請では、紙のハンコの代わりに「電子署名」、印鑑証明書の代わりに
+「電子証明書」を使います。この分野では、申請情報・添付情報のどちらに
+電子署名が要るのか、そして紙の書類をスキャンして電子データにした場合
+のルールを整理できているかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+電子署名が必要な場面
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+申請情報には、申請人等が電子署名を行う
+Illustration: An isometric application-form document icon on a computer
+screen, with a person figure labeled "申請人等" pressing a glowing digital
+seal stamp icon onto the document.
+Caption (small text below):
+電子申請では、申請人又はその代表者若しくは代理人(申請人等)が、申請
+情報に電子署名を行わなければならない(令12条1項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+添付情報にも、作成者の電子署名が必要
+Illustration: An isometric second smaller document icon labeled "添付
+情報" beside the main application form, also stamped with its own
+glowing digital seal icon by a separate "作成者" person figure, showing
+both documents need their own signatures.
+Caption (small text below):
+電子申請では、申請情報だけでなく添付情報についても、その作成者が
+電子署名をしなければならない(令12条1項)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+電子署名を送るときは、電子証明書も併せて送信する
+Illustration: An isometric envelope icon flying from a computer screen
+toward a registry-office building icon, containing both a stamped
+document and a small ID certificate card labeled "電子証明書" packaged
+together inside the same envelope.
+Caption (small text below):
+電子申請で電子署名が行われている情報を送信するときは、電子署名を
+行った者を確認するために、電子証明書を併せて送信しなければならない
+(令12条1項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+スキャンデータの取扱い
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+書面をスキャンした電磁的記録には、作成者の電子署名が必要
+Illustration: An isometric scanner device icon converting a paper
+document into a digital file on a computer screen, with a glowing
+digital seal stamp being applied to the digital file by a person figure
+labeled "スキャンをした者".
+Caption (small text below):
+書面に記載された情報を電磁的記録に記録したものを添付情報とするときは、
+当該電磁的記録を作成した者による電子署名が行われているものでなければ
+ならない(令13条1項)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+スキャンした書面の原本は、登記官に提示する必要がある
+Illustration: An isometric scene showing a digital file icon on a
+computer screen connected by a dotted line to the original paper
+document still sitting in a physical filing tray, with a registry
+official figure pointing at the paper document with a "提示してくだ
+さい" speech bubble, NOT discarding it.
+Caption (small text below):
+書面に記載された情報を電磁的記録に記録したものを添付情報とするときは、
+登記官が定めた相当の期間内に、当該書面を登記官に提示しなければ
+ならない(令13条2項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第8問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 電・子・署・名・証・明・書・申・請・情. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 電子署名が必要な場面, 2 cards under スキャンデータの取扱い),
+with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
