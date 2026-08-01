@@ -81,3 +81,130 @@
 - 全部沈んでも「一時的」なら所有権は消えないんです
 - 河川区域内になったら、その旨の登記をするんです
 - 河川区域の一部滅失、河川管理者が地積変更を嘱託するんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「登記原因たる事実」と「登記の目的」の対応関係を問う5肢を、「海没した土地の取扱い」（イ・ウ）と「分筆の誤り・河川区域の取扱い」（ア・エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots partially
+submerged in water, river-flow icons, official government-agency icons,
+document stamps, arrows connecting cause and effect — adapt icon set to
+the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・積・変・更・滅・失・河・川・区・域, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+海に沈んだ土地・川になった土地
+どんな登記をする？
+
+Subtitle (smaller, centered, 1行):
+原因と登記の目的の組合せを整理(平成29年度 午後の部 第13問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design land plot icon shown half-
+submerged under wavy water lines on one side, and half-covered by
+river-flow ripple lines on the other side, with two separate arrows
+pointing from each situation toward different registry-document stamp
+icons.
+土地が海に沈んだり川になったりしたときに、「地積の変更」なのか
+「滅失」なのか、それとも「所有権が消えない(登記しない)」のかを、状態が
+恒久的か一時的かで区別できるかがこの問題のカギになります。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+海没した土地の取扱い
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+土地の一部が常時海没したら、地積の変更登記
+Illustration: An isometric land plot icon where one corner is permanently
+submerged under wavy blue water lines, with the remaining dry portion
+shrinking, and a registry ledger page beside it showing a numeric area
+value being reduced with a "地積変更" stamp.
+Caption (small text below):
+天災等の自然現象によって一筆の土地の一部が常時海面下に没する状態に
+なった場合には、地積に関する変更の登記をすることになる(昭33.4.11
+民事三発203号)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+全部が海没しても「一時的」なら、滅失の登記はしない
+Illustration: An isometric land plot icon fully covered by wavy blue
+water lines but with a small clock/tide icon showing the water receding
+back to reveal the dry plot again, with a crossed-out "滅失登記" stamp
+beside it and a checkmark showing ownership remains unchanged.
+Caption (small text below):
+天災等の自然現象によって一筆の土地の全部が海面下に没したが、その状態
+が一時的なものである場合には、私人の所有権は消滅せず、滅失の登記を
+することはできない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+分筆の誤り・河川区域の取扱い
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+分筆線を誤った場合は、分筆の抹消＋再分筆で是正する
+Illustration: An isometric land plot showing a crooked, wrongly-drawn
+dividing line being crossed out with a red "抹消" stamp, followed by an
+arrow to a second version of the same plot now with a correctly straight
+dividing line, with a crossed-out "地積更正登記" label to show that
+method is not used.
+Caption (small text below):
+分筆線を誤って申請されたことによる分筆の登記を是正する場合には、地積に
+関する更正の登記ではできず、分筆錯誤を原因として分筆の登記を抹消し、
+改めて正しい分筆線で分筆の登記を申請することになる(昭38.12.28民甲
+3374号)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+土地の全部が河川区域内の土地になったら、その旨の登記
+Illustration: An isometric land plot icon being enclosed by a blue river-
+flow ripple boundary line labeled "河川区域"、with a registry ledger page
+beside it stamped "河川区域内の土地である旨の登記" and a small warning-
+regulation icon attached to the plot.
+Caption (small text below):
+一筆の土地の全部が河川法第6条第1項の河川区域内の土地になった場合には、
+河川区域内の土地である旨の登記をする(法43条2項)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+河川区域内の土地の一部滅失は、河川管理者が地積変更登記を嘱託
+Illustration: An isometric government-agency official figure labeled
+"河川管理者" holding a stamp, standing beside a land plot inside a river
+region where a corner has vanished (滅失), pointing the stamp only at a
+"地積変更登記" document, with a crossed-out "分筆及び滅失の登記" label
+beside it.
+Caption (small text below):
+河川法第6条第1項の河川区域内の一筆の土地の一部が滅失した場合には、
+河川管理者が遅滞なく当該土地の地積に関する変更の登記を嘱託しなければ
+ならない(法43条6項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第13問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 地・積・変・更・滅・失・河・川・区・域. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 海没した土地の取扱い, 3 cards under 分筆の誤り・河川区域の
+取扱い), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
