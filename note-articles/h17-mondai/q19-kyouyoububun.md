@@ -84,3 +84,107 @@
 - 規約廃止後に買った人は、取得日から1か月以内なんです
 - 共用部分にすると、前の登記は勝手に消えるんです
 - 申請できるのは所有権登記名義人だけって知ってた?
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+共用部分である旨の登記の手続を「申請にあたっての要件」と「登記の効果とその後の義務」という2つの軸に分け、ア〜オ5肢すべての正しいルールを1枚で俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment building
+cross-section, room stamps, document icons, seal/hanko marks, prohibition
+signs, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+characters 権・建・物・登・記・所, which have Simplified Chinese variants
+that differ visually — always render the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+共用部分である旨の登記　手続の骨格
+
+Subtitle (smaller, centered, 1行):
+誰が申請でき、何を添付し、登記後どうなるか
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: マンションの断面をアイソメトリックで描き、管理人室や集会室など
+共用部分となる1室に「共用部分」というラベル付きのスタンプが押される場面。
+周囲に区分所有者を表す複数の人物アイコンが並ぶ。
+マンションの管理人室や集会室のように、区分所有者みんなで使う部屋を登記簿上
+「共用部分ですよ」と示すのが共用部分である旨の登記です。この登記がされると、
+それまでその建物についていた表題部所有者や所有権の登記が消えるなど、通常の
+建物登記とは異なる独特のルールが働きます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+申請にあたっての要件
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+申請できるのは所有権登記名義人だけって知ってた?
+Illustration: 表題部所有者又は所有権の登記名義人を表すアイソメトリックな
+人物アイコン(書類を持つ)が申請窓口のカウンターに書類を提出している。その横に
+無関係な第三者を表す人物アイコンがおり、その人物には赤い禁止マーク(斜線入りの
+丸)が重ねられている。
+Caption (small text below):
+申請できるのは表題部所有者または所有権の登記名義人に限られる(法58条)
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+共用すべき者の氏名・住所、実は書かなくていいんです
+Illustration: 申請情報の書類アイコンを中心に描き、「登記原因及びその日付」
+「共用部分である旨」の項目にはチェックマークを付ける一方、「共用すべき者の
+氏名又は名称及び住所」の項目には赤い斜線(不要マーク)を重ねる。
+Caption (small text below):
+共用すべき者の氏名・住所は申請情報の内容とする必要はない(法58条)
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+抵当権付きの建物は、銀行の承諾が必要って知ってた?
+Illustration: 抵当権の設定登記がされた建物のアイソメトリックアイコンの横に、
+銀行を表す建物アイコンと承諾書アイコン(ハンコ・印影付き)を並べ、書類が建物へ
+矢印でつながる構図。
+Caption (small text below):
+抵当権登記のある建物では、抵当権者の承諾を証する情報等が必要(法58条)
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+登記の効果とその後の義務
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+共用部分にすると、前の登記は勝手に消えるんです
+Illustration: 「表題部所有者の登記」「所有権の登記」と書かれた登記簿アイコンに、
+登記官を表すアイソメトリックな人物アイコンがハンコ(職権抹消のスタンプ)を押し、
+その登記事項が消しゴムで消えるように薄くフェードしていく構図。
+Caption (small text below):
+共用部分である旨の登記がされると、表題部所有者の登記・所有権の登記は職権で
+抹消される(法58条)
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+規約廃止後に買った人は、取得日から1か月以内なんです
+Illustration: 「規約」と書かれた紙が破られて捨てられている隣に、新しい所有者を
+表す人物アイコンが登場し、カレンダーアイコンに「取得日」から「1か月」を示す矢印と、
+表題登記の申請書類アイコンが描かれている。
+Caption (small text below):
+規約廃止後に所有権を取得した者は、取得の日から1か月以内に表題登記を申請する
+義務がある(法58条)
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards.
+```

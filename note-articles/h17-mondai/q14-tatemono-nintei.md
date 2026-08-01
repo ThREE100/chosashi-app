@@ -81,3 +81,89 @@
 - ガラス張りの温室も、実は建物として登記できる
 - 駅の売店、実は「建物」として認められないんです
 - 桟橋の上の事務所も、ちゃんと建物になるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+電車の車体・寺院の山門・ガラス張り温室・駅ホームの売店・桟橋上の事務所という5つの工作物に、建物認定の3要件（定着性・外気分断性・用途性）をどう当てはめるかを、ア〜オそれぞれの結論（できる／できない）とともに1枚で俯瞰できる構成とした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric train car, temple
+gate, glass greenhouse, train platform kiosk, pier office building, etc.
+— adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+following kanji, which are especially prone to being drawn as Simplified
+Chinese variants: 建・物・登・記・地・気・着・強・固・途・断・根・庫。
+Do not draw any of these as Simplified Chinese forms.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その工作物、建物になる？ならない？
+表題登記ができる建物の3要件
+
+Subtitle (smaller, centered, 1行):
+平成17年度午後の部 第14問／定着性・外気分断性・用途性で判断する
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 3つのアイソメトリックアイコンを横に並べる。1つ目は土地にしっかり打ち込まれた杭と土台のアイコン、2つ目は屋根と周壁に囲まれた箱のアイコン、3つ目は箱の中で人が作業・生活している様子のアイコン。3つのアイコンの下に、それぞれ「定着性」「外気分断性」「用途性」という短いラベルを添える。
+建物として登記できるかどうかは、見た目の材質や場所の珍しさではなく、①土地への定着性、②屋根・周壁による外気分断性、③居住・作業・貯蔵等の用途性という3つの要件を満たすかどうかで判断される（不動産登記規則111条）。
+
+--- CARD 1（ア） ---
+Heading (bold):
+電車の車体でも、基礎工事で土地に定着していれば建物と認定できる
+Illustration: 庭のような一角に置かれた電車の車体のアイソメトリックイラスト。車体の下にコンクリートの基礎が描かれ、地面にしっかり固定されている。車体の脇に「定着性」「外気分断性」「用途性」という3つの小さなラベルを添える。
+Caption (small text below):
+電車の車体はもともと移動する乗り物だが、これを土地の上に置いてコンクリートで基礎工事を施せば定着性が認められ、屋根と周壁による外気分断性、居室としての用途性もあわせて満たせば建物として認定できる。
+
+--- CARD 2（イ） ---
+Heading (bold):
+寺院の山門でも、上部が宝物庫として使われていれば建物と認定できる
+Illustration: 寺院の山門のアイソメトリックイラスト。1階部分は人が通り抜ける門として描き、2階部分を宝物庫として描く。宝物庫部分には巻物や仏具のアイコンと「外気分断性」「用途性」のラベルを添える。
+Caption (small text below):
+山門の上部が屋根・周壁を備え、宝物を収蔵するという用途性を持ち、土地に定着した恒久的な建造物として建てられていれば、単なる門ではなく建物として認定できる。
+
+--- CARD 3（ウ） ---
+Heading (bold):
+ガラス張りの温室でも、強固な構造であれば建物と認定できる
+Illustration: 鉄骨の骨組みにガラス板がはめられた大型温室のアイソメトリックイラスト。内部にトマトなどの植物を描く。ガラスの壁面に「外気分断性」のラベルを添える。
+Caption (small text below):
+外気分断性は屋根・周壁「又はこれらに類するもの」による独立した外気の遮断を求めるものであり、鉄材の骨組みにガラス板がはめられた強固な構造であれば、素材がガラスであっても外気分断性を満たし建物として認定できる。
+
+--- CARD 4（エ） ---
+Heading (bold):
+駅ホーム内の売店は、単独の外気分断性がなく建物と認定できない
+Illustration: 駅のホームのアイソメトリックイラスト。ホーム全体を覆う大きな上屋の下に、独自の壁や屋根を持たない小さな売店を描く。売店の周りに「独自の屋根・周壁なし」を示すバツ印のラベルを添える。
+Caption (small text below):
+上屋はホーム全体を覆うためのものであって売店自体が独自に備えている屋根・周壁ではなく、外気分断性はその工作物自体が独立して風雨をしのげる構造かどうかで判断されるため、ホームの上屋に間借りしているだけの売店は建物と認定できない。
+
+--- CARD 5（オ） ---
+Heading (bold):
+桟橋の上の事務所でも、基礎工事で定着していれば建物と認定できる
+Illustration: 港の埠頭にある永久的な桟橋のアイソメトリックイラスト。桟橋の上にコンクリートの基礎で固定された小さな事務所を描く。事務所の脇に「定着性」「外気分断性」「用途性」という3つの小さなラベルを添える。
+Caption (small text below):
+桟橋自体が永久的な建造物として土地（水底等）に固定されている上に、事務所がコンクリートで基礎工事を施して構築されていれば、事務所は土地に定着していると評価され、屋根・周壁による外気分断性と事務作業という用途性もあわせて建物として認定できる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+出典：土地家屋調査士試験　平成17年度午後の部　第14問（不動産登記規則111条）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Pay particular attention to 建・物・登・記・地・気・
+着・強・固・途・断・根・庫 and confirm none of them have been rendered as
+Simplified Chinese variants. Confirm the number of cards equals 5 exactly
+(ア・イ・ウ・エ・オの5枚)、with no duplicated or missing cards, and that
+each card's Japanese text matches the strings given above verbatim.
+```

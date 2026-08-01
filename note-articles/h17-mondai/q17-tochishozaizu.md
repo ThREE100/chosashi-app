@@ -81,3 +81,129 @@
 - 訂正申出、誰でもできるわけじゃないんです
 - 書面の図面には、作成者の署名がいるんです
 - 地積測量図、実は土地所在図も兼ねられる
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地所在図の5つの肢を「作成のルール」（記録事項・縮尺・書面の要式）と「訂正・兼用のルール」（訂正申出・地積測量図との兼用）の2列に整理し、正しい法的ルールのみを1枚で俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric surveyor figures,
+land plots, rulers/scale icons, stamped documents, torn paper labels,
+etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to the kanji 地, 番, 記, 録, 登, 所 — these must be drawn in their
+standard Japanese (Jōyō) forms, never as Simplified Chinese variants.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+土地所在図の基本ルール
+
+Subtitle (smaller, centered, 1行):
+平成17年度 午後の部 第17問｜記録事項・縮尺・訂正申出・兼用を整理する
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric surveyor character examining a 土地所在図
+document with a magnifying glass, surrounded by isometric land plots,
+a small house, and a compass/direction icon in the background.
+土地所在図は、分筆登記などの申請時に添付する図面で、その土地がどこにあるかを
+示すための書類です。記録すべき内容や縮尺、誤りがあったときの訂正申出、地積
+測量図との兼用など、実務の細かいルールが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+作成のルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+隣地の地番も記録事項
+Illustration: An isometric land plot survey diagram with a checklist
+board listing exactly these four items in this order (do not duplicate,
+omit, or paraphrase any item):
+1. 方位
+2. 縮尺
+3. 土地の形状
+4. 隣地の地番
+A dashed border shows the neighboring plot, labeled 隣地.
+Caption (small text below):
+土地所在図には方位・縮尺・形状に加え、隣地の地番も記録する
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+市街地の縮尺は250分の1又は500分の1
+Illustration: Isometric city buildings and houses next to a ruler/scale
+icon showing exactly these two values (do not duplicate, omit, or
+paraphrase any item):
+1. 250分の1
+2. 500分の1
+A large red X is drawn over the number 200分の1 to show it is not a
+valid choice.
+Caption (small text below):
+市街地地域の土地所在図は250分の1又は500分の1の縮尺で作成する
+（200分の1ではない）
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+書面の図面には作成年月日・記名・署名が必要
+Illustration: An isometric paper document with a stamp and a signature
+line, labeled with exactly these three required items (do not duplicate,
+omit, or paraphrase any item):
+1. 作成の年月日
+2. 申請人の記名
+3. 作成者の署名又は記名押印
+A small calendar icon sits beside the document.
+Caption (small text below):
+書面申請の土地所在図には、作成の年月日・申請人の記名・作成者の署名又は
+記名押印が必要
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+訂正・兼用のルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+訂正申出ができるのは申請人・利害関係人等に限られる
+Illustration: An isometric scene at a registry office window. Two
+figures labeled 申請人 and 利害関係人 are handing in a correction
+request document. A third figure labeled 第三者 is stopped by a
+barrier/gate icon in front of the window.
+Caption (small text below):
+土地所在図の訂正申出は「何人も」ではなく、申請人や利害関係人など
+一定の者に限られる
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+条件を満たせば地積測量図が土地所在図を兼ねられる
+Illustration: Two isometric documents, one labeled 地積測量図 and one
+labeled 土地所在図, merging into a single overlapping sheet with an
+equals sign between them. Two check-mark icons beside them list exactly
+these two conditions (do not duplicate, omit, or paraphrase any item):
+1. 縮尺が同一であること
+2. 土地の所在を明確に表示できること
+Caption (small text below):
+地積測量図の縮尺が同一で、土地の所在を明確に表示できるときは、
+土地所在図を兼ねることができる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 地, 番, 記, 録, 登, 所 in particular. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+(3 cards in Column A, 2 cards in Column B), with no duplicated or
+missing cards. Confirm the enumerated lists inside Card A1 (4 items),
+Card A2 (2 items), Card A3 (3 items), and Column B Card 2 (2 items)
+each show the exact count and text specified above, with nothing added,
+removed, or reworded.
+```

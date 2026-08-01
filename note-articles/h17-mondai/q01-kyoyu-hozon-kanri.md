@@ -82,3 +82,112 @@
 - 賃貸借の解除、実は一人じゃできないって知ってた？
 - 自分の持分だけなら、抵当権も一人で設定できるんです
 - 賃借人がいる限り、すぐには明渡し請求できないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+共有物に対する行為を「単独でできる行為（保存行為・持分の処分）」「持分の過半数が必要な行為（管理行為）」「占有権原がある者には直ちにはできない請求」の3グループ・4枚のカードに整理し、共有者Ａ・Ｂ・Ｃのケースを1枚で俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric two-story house,
+stick-figure people, torn-paper labels, stamps/hanko seals, contract
+documents, padlock-shaped icons, check marks — adapt icon set to the
+topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+characters 権・建・物・持・占・渡・抵・当・契・約・解・除 — their
+Simplified Chinese forms differ visibly from the correct Japanese forms;
+do not substitute the simplified variant for any of them.
+
+--- HEADER ---
+Title (large, bold, 2行):
+共有物は、
+誰の同意で動かせる？
+
+Subtitle (smaller, centered, 2行):
+平成17年度 午後の部 第1問
+共有者Ａ・Ｂ・Ｃ（持分各3分の1）のケース
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Isometric two-story house (甲建物) divided into three equal
+pastel-colored sections (blue, green, beige), with three isometric
+stick-figure people labeled Ａ、Ｂ、Ｃ standing in front of it, each
+holding a torn-paper tag reading「持分3分の1」.
+甲建物をＡ・Ｂ・Ｃが3分の1ずつ共有している場合、共有物に関する行為は
+「保存行為」「管理行為」「持分の処分」のどれに当たるかによって、必要な
+同意の範囲が変わります。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+単独でできる行為（保存行為・持分の処分）
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+不法占有者への明渡請求は、単独でできる
+Illustration: Isometric scene: person Ａ pointing at a stick-figure
+intruder labeled Ｄ standing in front of the building's door, a
+torn-paper label reading「保存行為」floating above Ａ, a small text tag
+reading「単独でOK」near Ａ.
+Caption (small text below):
+権原なく建物を占有する第三者への明渡請求は保存行為（民法252条5項）。
+共有者の一人が単独で請求できる。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+自己の持分には、単独で抵当権を設定できる
+Illustration: Isometric scene: person Ａ stamping a document labeled
+「持分3分の1」with a hanko seal, a padlock-shaped icon representing
+抵当権 linked only to Ａ's one-third section of the building, a
+torn-paper label reading「持分の処分」floating above.
+Caption (small text below):
+持分は各共有者に帰属する独立した権利であり、他の共有者の同意なく自由に
+処分できる。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+持分の過半数の同意が必要な行為（管理行為）
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+賃貸借契約の解除は、持分の過半数の同意が必要
+Illustration: Isometric scene: a torn contract document with a large ×
+mark on it, person Ａ alone unable to tear it by himself, with Ｂ and Ｃ
+each holding up a check mark to show approval, a torn-paper label
+reading「管理行為」floating above, a small text tag reading「過半数で決定」.
+Caption (small text below):
+賃貸借の解除は管理行為（民法252条1項）。単独ではできず、持分の過半数の
+同意が必要。
+
+--- COLUMN C HEADER (pill-shaped badge) ---
+直ちにはできない請求（占有権原がある場合）
+
+--- COLUMN C, CARD 1 ---
+Heading (bold):
+占有・使用の権原がある者には、直ちに明渡請求できない
+Illustration: Isometric scene: a person standing inside the building
+(representing either a co-owner occupying it alone, or a tenant),
+holding a torn-paper tag reading「占有権原あり」, with Ｂ・Ｃ standing
+outside reaching toward the door but blocked by a translucent barrier, a
+small text label reading「直ちには不可」.
+Caption (small text below):
+共有者の一人が単独で占有している場合も、賃借人が占有している場合も、
+正当な占有権原がある限り、他の共有者は当然には明渡しを請求できない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験 解説メモ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 4 exactly, with
+no duplicated or missing cards.
+```

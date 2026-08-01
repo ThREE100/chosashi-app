@@ -83,3 +83,94 @@
 - 表示登記の申請書、昔は5年で消えてたんです
 - 申請書類の保存は10年じゃなくて30年なんです
 - 農地改良の図面も、完了から30年保存なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「図面・登記記録」と「登記の申請書類」という2つのグループに分け、それぞれの保存期間(基準日・年数)を5枚のカードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric filing shelves,
+land plots, closed registry books, application documents, calendar
+stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・記・録・権・地・建・物・所, which have visually similar but
+different Simplified Chinese forms — render them in standard Japanese
+Jōyō form only.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その登記簿、何年で消える?
+
+Subtitle (smaller, centered, 1行):
+平成17年午後問13　土地登記簿の保存期間の急所を整理する
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 法務局の書庫のアイソメトリックイラスト。棚に「図面」「登記記録」「申請書類」の3種類のファイルが並んでいる構図。
+登記記録や地図、申請書類がいつまで法務局に保存されるかは、不動産登記規則28条が「何を」「いつから」「何年間」保存するかを細かく定めている。対象・基準日・年数の3点を正しく組み合わせて覚えることが重要。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+図面・登記記録の保存期間
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+区画整理の図面は「閉鎖の日」から30年保存
+Illustration: 閉鎖された地図に準ずる図面のアイソメトリックアイコン。カレンダーに「閉鎖の日」のラベル、そこから伸びる矢印の先に「30年」の年数バッジ。「事業完了時」の文字にバツ印を付けた吹き出しを添える。
+Caption (small text below):
+土地区画整理事業に係る図面は、事業完了の時からではなく、閉鎖の日から30年間保存される(不動産登記規則28条)
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+農地改良事業の図面も完了(閉鎖)から30年保存
+Illustration: 農地の図面のアイソメトリックアイコン。閉鎖の印(スタンプ)と、そこから伸びる矢印の先に「30年」の年数バッジ。
+Caption (small text below):
+旧農地改良事業に係る図面も、事業完了(閉鎖)の時から30年間保存される(不動産登記規則28条)
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+合筆で閉鎖された登記記録は「永久」ではない
+Illustration: 土地Aと土地Bが合筆されるアイソメトリックイラスト。土地Bの登記記録に「閉鎖登記記録」のラベルを付け、「永久」の文字にバツ印、代わりに「一定の年数で満了」のラベルを添える。存続する土地Aの登記記録には「永久保存」のラベルを対比として表示する。
+Caption (small text below):
+現に効力を有する登記記録は永久保存が原則だが、合筆により閉鎖された登記記録(閉鎖登記記録)は永久ではなく、一定の年数で保存期間が満了する(不動産登記規則28条)
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+登記の申請書類の保存期間
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+表示登記の申請書類、当時は5年保存が原則だった
+Illustration: 分筆登記の申請書のアイソメトリックアイコン。カレンダーに「申請日」のラベル、そこから伸びる矢印の先に「5年」の年数バッジ。「平成17年当時」の文字を添える。
+Caption (small text below):
+表示に関する登記の申請書類(添付情報を含む)の保存期間は、平成20年の改正で30年間に伸長される前は、5年間が原則だった
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+申請書及び添付書類の保存期間は10年ではなく30年
+Illustration: 建物所有権持分登記の申請書のアイソメトリックアイコン。カレンダーに「受付の日」のラベル。「10年」の文字にバツ印を付け、そこから伸びる矢印の先に「30年」の年数バッジ。
+Caption (small text below):
+登記の申請情報及び添付情報の保存期間は、受付の日から30年間である(不動産登記規則28条)
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験対策
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards. Confirm no card depicts an incorrect
+statement (アの「事業完了の時」「50年」やイの「永久」やエの「10年」を
+正しい記述として描かない)こと — all five cards must show the correct
+legal rule only.
+```

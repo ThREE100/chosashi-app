@@ -82,3 +82,125 @@
 - 未登記建物の合体、住所証明までは要らないんです
 - 引渡証明書の印鑑証明、3箇月以内じゃないとダメなんです
 - 同時申請なら、共通の添付書類は1回でいいんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物登記の添付情報が「表示に関する登記(表題登記)」か「権利に関する登記(保存登記)」かで変わるという本問の軸に沿って、5つの原則を3列（表示系・権利系・手続共通）に分けて俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment buildings,
+detached houses, land plots, document/certificate icons, seal stamps,
+registry office counters, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+characters 登・記・権・地・番・建・物・所・号・証, which have very
+different Simplified Chinese forms — always draw them in standard
+Japanese Jōyō form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物登記の添付情報
+表示の登記と権利の登記で変わるルール
+
+Subtitle (smaller, centered, 1行):
+平成17年度 午後の部 第10問（誤りを含むものはいくつあるか）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Center-left, an isometric illustration showing an
+apartment building (区分建物) and a detached house side by side, with
+two branching arrows below them pointing to two labeled paths:
+「表示に関する登記」on the left and「権利に関する登記」on the right.
+建物登記の添付情報は、「表題登記(表示に関する登記)なのか、保存登記(権利に関する登記)なのか」で必要な書類が変わる。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+表示に関する登記の添付情報
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+未登記建物どうしの合体、表題登記に住所証明情報は不要
+Illustration: On the left, two separate isometric warehouse buildings
+(未登記の倉庫) with an arrow pointing right to a single combined
+warehouse building (合体後の1棟). Next to the combined building, draw
+exactly 3 document icons with a green checkmark, labeled in this exact
+order, no omissions, no duplicates: (1)建物の図面 (2)建物の平面図
+(3)所有権を証する情報. Then draw exactly 1 additional document icon
+with a clear red ✕ mark over it, labeled 住所を証する情報.
+Caption (small text below):
+未登記の非区分建物2棟以上が合体した場合、表題登記には建物の図面・建物の平面図・所有権を証する情報で足り、代表所有者の住所を証する情報は不要。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+共用部分が別の区分建物にあるとき、証明情報は2つ必要
+Illustration: An isometric main apartment building on the left and a
+smaller separate building (集会室などの別棟) on the right, connected
+by a dotted line. Above the separate building, draw exactly 2 document
+icons, labeled in this exact order: (1)変更又は更正を証する情報
+(2)共用部分の単位所有者の所有権を証する情報.
+Caption (small text below):
+区分建物の共用部分が他の区分建物に属する場合、変更又は更正の登記の申請には、変更・更正を証する情報と共用部分の単位所有者の所有権を証する情報の両方を提供する。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+権利に関する登記の添付情報
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+区分建物の敷地権、対象土地と権利の中身をワンセットで提供
+Illustration: An isometric apartment building (区分建物) above, with
+an isometric land plot directly below it, connected by a vertical line.
+Beside the land plot, draw exactly 3 information cards in this exact
+order, no omissions, no duplicates: (1)土地の所在・地番・地目及び地積
+(2)敷地権の種類及び割合 (3)敷地権の登記原因及び登記年月日.
+Caption (small text below):
+区分建物の所有権登記の申請には、敷地権の対象となる土地の所在・地番・地目・地積、敷地権の種類及び割合、敷地権の登記原因及び登記年月日を提供する。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+引渡証明書を使うなら、印鑑証明書は3箇月以内
+Illustration: An isometric scene of a builder handing house keys to a
+new owner in front of a detached house, with a 引渡証明書(引渡しを
+証する書面)icon, a red seal stamp (実印), an 印鑑証明書 icon, and a
+calendar icon labeled 3箇月以内 arranged below.
+Caption (small text below):
+建物の引渡しを受けたことを証する書面を所有権を証する書面として提供する場合、添付する印鑑証明書は作成後3箇月以内のものであることを要する。
+
+--- COLUMN C HEADER (pill-shaped badge) ---
+手続共通のルール
+
+--- COLUMN C, CARD 1 ---
+Heading (bold):
+同時申請なら、共通の添付情報は1つの申請情報にまとめてよい
+Illustration: An isometric registry office counter (登記所) with two
+application form icons side by side. Only the first application form
+has a common attached-document icon stacked on it; the second
+application form has a small sticky note attached, labeled
+「添付情報は前件添付のとおり」.
+Caption (small text below):
+同一の登記所に2以上の建物の所有権の登記を同時に申請する場合、各申請に共通する添付情報は1つの申請情報に添付すれば足りる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+(2 cards in Column A, 2 cards in Column B, 1 card in Column C), with no
+duplicated or missing cards. Additionally, verify that Card ウ(合体の
+表題登記)shows exactly 3 required-item icons (建物の図面, 建物の平面図,
+所有権を証する情報) plus exactly 1 excluded item marked with ✕
+(住所を証する情報), and that Card ア(敷地権)shows exactly 3 information
+cards in the order given (土地の所在・地番・地目及び地積 /
+敷地権の種類及び割合 / 敷地権の登記原因及び登記年月日), with no
+omissions or duplicates.
+```

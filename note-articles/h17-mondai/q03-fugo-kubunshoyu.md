@@ -82,3 +82,113 @@
 - 独立性のない出窓は、同意してもＢのものなんです
 - 独立した増築部分は、作った人のものになるんです
 - 使い続けられても、お金の話は別なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「同意の有無」ではなく「独立性の有無」で結論が変わるという本問の軸を1枚で貫き、独立性のない付合のルール(ア・イ・ウ)、独立性のある区分所有権のルール(エ)、金銭精算の話(オ)という3グループに分けて5枚のカードで俯瞰できる構成です。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment building
+cross-section, a tenant figure with tools, a landlord figure, a bay
+window, a staircase leading to an independent room, a hanko stamp,
+speech-bubble arrows for money claims, etc. — adapt icon set to the
+topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・建・物・所・独・築, which have shapes that are easy to confuse
+with Simplified Chinese variants — always draw the standard Japanese form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+増改築部分は誰のもの？
+付合と区分所有権の分かれ目
+
+Subtitle (smaller, centered, 2行):
+平成17年度 午後の部 第3問
+賃借人Ａによる増改築と所有権の帰属を整理する
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 賃貸マンションの一室のアイソメトリック断面図。手前に工具を持って
+改装中の賃借人Ａ、奥に建物全体を見ている賃貸人Ｂを配置する。部屋の壁に
+「独立性」の有無を示す点線の仕切りアイコンを添える。
+付合か区分所有権かの分かれ目は、「賃貸人の同意」ではなく「増改築部分に構造上・
+利用上の独立性があるかどうか」にあります。独立性がなければ強い付合として建物
+所有者に、独立性があれば区分所有権の対象として増改築した本人に、それぞれ帰属
+するという整理を押さえておきましょう。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+独立性で決まる付合のルール（民法242条）
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+所有権の帰属は同意の有無だけでは決まらない
+Illustration: 賃貸人Ｂと賃借人Ａの間で同意書に判子（はんこ）を押す場面と、
+その脇に「独立性」の有無をチェックする天秤アイコンを並べ、天秤の傾きだけが
+結論を左右することを矢印で示す。同意書のアイコンには丸に斜線を入れ、
+「同意の有無では決まらない」ことを視覚的に示す。
+Caption (small text below):
+所有権の帰属は同意の有無ではなく独立性の有無で決まる（242条）
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+価値が増加しても付合の判断が覆るわけではない
+Illustration: 高級な床材とシステムキッチンのアイコン、その上に価値上昇を示す
+上向き矢印のグラフを配置するが、所有権を示す矢印は変わらず建物所有者Ｂの
+アイコンを指したままにする。
+Caption (small text below):
+価値が増加しても付合の判断枠組みは変わらない（242条）
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+独立性のない出窓は、同意があってもＢに帰属する
+Illustration: 建物の外壁から張り出した出窓のアイソメアイコンの上に「同意済み」
+を示す判子マークを重ねるが、所有権を示す矢印は出窓から賃貸人Ｂのアイコンへ
+向かって伸びる構図にする。
+Caption (small text below):
+独立性のない出窓は同意があってもＢに帰属する（242条・強い付合）
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+独立性がある場合の区分所有権（区分所有法1条）
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+独立性のある２階部分は区分所有権の対象となりＡが取得する
+Illustration: 甲建物の２階部分に、外部階段から直接出入りできる独立した部屋を
+アイソメトリックで描く。１階部分とは壁で完全に仕切られており、所有権を示す
+矢印は増築したＡのアイコンへ向かって伸びる構図にする。
+Caption (small text below):
+独立性のある増築部分は区分所有権の対象となりＡが取得する（区分所有法1条）
+
+--- COLUMN C HEADER (pill-shaped badge) ---
+使用継続と金銭請求は別の話（民法703条）
+
+--- COLUMN C, CARD 5 ---
+Heading (bold):
+使用を継続できても、金銭請求ができないとは限らない
+Illustration: 出窓のある部屋に住み続ける賃借人Ａのアイソメアイコンと、Ａから
+賃貸人Ｂへ向かって伸びる「不当利得返還請求」のラベル付き吹き出し矢印を配置する。
+Caption (small text below):
+使用継続できても金銭請求（不当利得返還請求）の余地は残る（703条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards, and confirm no card reproduces
+choice ア, イ, or オ's incorrect statement verbatim — only the corrected
+legal rule is shown for each.
+```

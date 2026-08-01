@@ -82,3 +82,116 @@
 - 敷地権があっても、分筆に住民全員の承諾は不要なんです
 - 共有の分筆だけは、全員一致が必要なんです
 - 信託中の土地でも、受託者は分筆できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+分筆登記は物理的変更にすぎず第三者の承諾は不要な場面が多い一方、共有者自身が申請人になる場面だけは全員一致が必要になるという対比を、2列5枚のカードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots divided
+by dashed lines, application documents, hanko stamps, torn paper labels,
+a courthouse settlement scroll, a trust nameplate, a condominium
+building — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Pay special attention to the kanji
+号・録・権・地・番・建・物・登・記・所, which have simplified-Chinese
+lookalikes with different stroke forms — always draw the standard
+Japanese (Jōyō) form. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+分筆登記、誰の承諾がいる？
+
+Subtitle (smaller, centered, 2行):
+平成17年度 午後の部 第6問
+共有・仮差押・敷地権・信託・代位から申請人を整理する
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A balance scale (isometric). On the left pan, a speech
+bubble labeled "第三者の承諾" with a large red X mark on top of it. On
+the right pan, a speech bubble labeled "共有者全員の共同申請" with a
+large green circle (○) mark on top of it.
+分筆の登記は一筆の土地を複数の土地に分ける物理的な変更にすぎず、権利の内容自体を変えるものではありません。そのため、担保権者や区分建物所有者など第三者の承諾は不要となる場面が多くあります。ただし、共有者自身が申請人になる場面だけは、原則として全員一致の共同申請が必要になるという対比が、この問題の核心です。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+第三者の承諾は不要（物理的な変更にすぎない）
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+仮差押があっても、分筆に承諾はいらないんです
+Illustration: One isometric land plot with a red "仮差押" tag attached,
+split by a dashed line into two plots; the same red "仮差押" tag appears
+on both resulting plots. Next to it, a small consent-document icon with
+a large red X mark.
+Caption (small text below):
+仮差押えの効力は分筆後の各土地に当然に及び、債権者の承諾は不要
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+敷地権があっても、分筆に住民全員の承諾は不要なんです
+Illustration: An isometric condominium building standing on a land plot
+labeled "敷地権". The land plot is split by a dashed line into two
+plots while the building above stays intact. Small icons of multiple
+residents each holding a consent-document icon, all crossed out with a
+large red X mark.
+Caption (small text below):
+分筆は敷地権の内容自体を変更しないため、区分建物所有者全員の承諾は不要
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+信託中の土地でも、受託者は分筆できるんです
+Illustration: A land plot with a wooden nameplate labeled "信託". A
+single isometric figure in a suit (the trustee, labeled "受託者") stands
+alone next to the plot, submitting an application document. The plot is
+split by a dashed line into two plots, with no other figures present.
+Caption (small text below):
+受託者は信託財産の管理処分権に基づき単独で分筆登記を申請できる（信託法26条）
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+共有者自身が申請人になる場面（全員一致が必要）
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+和解調書があれば、代位して分筆できるって知ってた？
+Illustration: A shared land plot with two figures labeled "A" and "B"
+standing on it. The plot is split by a dashed line into a north half and
+a south half. Figure A holds a scroll-shaped document labeled "和解調書"
+and submits a single application alone; an arrow labeled "代位" points
+from figure A toward figure B's half of the plot.
+Caption (small text below):
+共有物分割の裁判上の和解後は、持分移転登記請求権を保全するため代位して分筆登記を単独申請できる（民法423条・民事訴訟法267条）
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+共有の分筆だけは、全員一致が必要なんです
+Illustration: Three isometric figures labeled "A", "B", "C" standing
+side by side on one shared land plot, each stamping the same single
+application document together with their own hanko seal. A separate
+smaller icon shows only two hanko seals on a document with a large red X
+mark, indicating that partial consent alone is not enough.
+Caption (small text below):
+共有者の分筆登記は原則全員の共同申請が必要で、承諾証明情報だけでは単独申請できない（不登法39条1項）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially for
+号・録・権・地・番・建・物・登・記・所. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly (3 cards in
+Column A, 2 cards in Column B), with no duplicated or missing cards, and
+that every heading and caption string matches the Japanese text given
+above verbatim.
+```

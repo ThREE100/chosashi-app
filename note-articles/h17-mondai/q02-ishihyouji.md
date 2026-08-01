@@ -81,3 +81,113 @@ AとBが通謀して行った仮装の契約（虚偽表示）は、当事者間
 - うっかり者の勘違いは、自分では主張できないんです
 - 騙されたら、あとから取り消せるって知ってた？
 - 脅された人は、善意の第三者にも勝てるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+心裡留保・虚偽表示・錯誤は「無効」、詐欺・強迫は「取消し」という効果の違いで2列に分け、詐欺と強迫のどちらでも善意の第三者保護の扱いが異なる点を最後のカードで際立たせる構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric people, speech
+bubbles, contract documents, stamps, shields, torn paper labels, etc. —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to 悪・強・対・錯・誤・詐・張・無・効・過 — these have simplified
+Chinese variants that differ noticeably from the standard Japanese forms
+(e.g. 無 not 无, 効 not 效, 強 not 强, 対 not 对, 錯 not 错, 誤 not 误,
+詐 not 诈, 張 not 张, 悪 not 恶, 過 not 过). Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize,
+or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+平成17年度 午後の部 第2問
+意思表示は「無効」か「取消し」か
+
+Subtitle (smaller, centered, 1行):
+心裡留保・虚偽表示・錯誤・詐欺・強迫を整理する
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 五人の人物が輪になって立ち、それぞれの頭上に契約書・吹き出し・盾の
+アイコンが浮かぶ導入シーン。中央に大きな契約書のアイコンと「？」マークがあり、
+契約書には亀裂が入って「無効」と「取消」の二方向に分かれる矢印が描かれている。
+意思表示に瑕疵があるとき、その効果は「無効」なのか「取消し」なのかで分かれ、さらに
+悪意の第三者が保護されるかどうかも原則ごとに異なります。心裡留保・虚偽表示・錯誤は
+無効に、詐欺・強迫は取消しになりますが、第三者保護の有無は詐欺と強迫とで扱いが違います。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+無効になる意思表示
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+相手が知っていた心裡留保は、無効
+Illustration: 男性キャラクターAが「この土地、100万円で売るよ」という吹き出しを
+出しながら、頭上に「本当は売る気がない」という思考の吹き出しを浮かべている。向かい
+合う女性キャラクターBの頭上に「知っていた」という小さなラベルとチェックマークの
+アイコン。二人の間にある契約書のアイコンに大きく「無効」の朱色スタンプが押されている。
+Caption (small text below):
+相手方が悪意（真意を知っていた）の心裡留保は無効（93条ただし書）
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+虚偽表示は、善意の第三者に対抗できない
+Illustration: 男性キャラクターAと女性キャラクターBが握手をしながら、二人の間に
+「仮装の契約」と書かれた破れた紙のラベルのアイコン。その契約書から矢印が伸びて、
+盾のアイコンを持つ第三者キャラクターCにつながり、Cの盾には「善意」の文字。Aから
+伸びる「無効を主張」という吹き出しがCの盾に跳ね返されている。
+Caption (small text below):
+虚偽表示は善意の第三者に対抗不可（94条2項）
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+重過失がある錯誤は、自分では主張できない
+Illustration: 男性キャラクターAが契約書にサインしながら困惑した表情。契約書の上に
+虫眼鏡のアイコンがあり「重大な勘違い」というラベル。Aの手が「無効を主張」という
+ボタンに伸びているが、そのボタンには鍵のアイコンがかかっている。
+Caption (small text below):
+錯誤につき重過失がある表意者は自らその効果を主張できない（旧95条ただし書）
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+取り消すことができる意思表示
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+詐欺による意思表示は、取り消せる
+Illustration: 女性キャラクターBが「この土地は近々開発される」という嘘の吹き出しを
+出しながら、男性キャラクターAに契約書を差し出している。Aは契約書にサインした後、
+破線の矢印の先で契約書に「取消」のスタンプを押している。
+Caption (small text below):
+詐欺による意思表示は取り消すことができる（96条1項）
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+強迫による取消しは、善意の第三者にも対抗できる
+Illustration: 女性キャラクターBが拳を振り上げて男性キャラクターAを脅す構図。Aは
+怯えた表情で契約書にサインしている。次の場面でAが契約書を「取消」のスタンプと
+ともに引き裂き、その効果を示す矢印が、盾のアイコンを持つ第三者キャラクターCまで
+届いている。Cの盾には「善意」の文字があるが、盾にひびが入っており、対抗が及んで
+いることを示す。
+Caption (small text below):
+強迫による取消しは善意の第三者にも対抗できる（詐欺のみを保護する96条3項の反対解釈）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験 平成17年度午後の部 第2問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, with particular
+attention to 悪・強・対・錯・誤・詐・張・無・効・過. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+(3 cards under 「無効になる意思表示」, 2 cards under 「取り消すことができる
+意思表示」), with no duplicated or missing cards.
+```
