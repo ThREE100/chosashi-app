@@ -83,3 +83,133 @@
 - 増築の変更登記と分割登記、1通の申請書でいけるんです
 - 権利を消すのに登記識別情報はいらないんです
 - 分割しても登記識別情報は通知されないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の分割の登記について、「所有者の意思による形成的登記」という性質から、共用部分・一括申請・抵当権消滅・登記識別情報の通知までを、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric house-shaped building
+blocks for 主である建物・附属建物・甲建物・乙建物, scissors icon for
+splitting, a prohibition (no-entry) mark, an official stamp/seal, a
+document/application-form icon, a chain-and-padlock icon for 抵当権, a
+certificate/notification envelope icon for 登記識別情報, a registrar
+(登記官) character icon, an owner (所有者) character icon — adapt icon
+set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・属・証・識・当, which have
+Simplified Chinese look-alike forms with visibly different stroke shapes —
+always draw the standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の分割の登記
+所有者の意思でつくる新しい登記記録
+
+Subtitle (smaller, centered, 1行):
+職権分割の可否・共用部分・一括申請・抵当権・登記識別情報を整理（平成30年度 午後の部 第15問）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing one house
+shape labeled "主である建物" connected to a smaller attached house shape
+labeled "附属建物", with a pair of scissors icon between them and a
+dotted arrow leading to two separated house shapes labeled "甲建物" and
+"乙建物". A small owner character icon holds an application-form icon
+pointing toward the split, to show the split is done by the owner's own
+application, not automatically.
+建物の分割の登記は、1個の建物の中にある附属建物を切り離して、別の1個の
+建物（別の登記記録）に独立させる登記です。土地の分筆と発想が似ていて、
+所有者の意思に基づいて新しい登記記録をつくる「形成的登記」であるという
+性格が、いくつもの肢の正誤を分ける鍵になっています。
+
+--- CARD 1 ---
+Heading (bold):
+分割の登記は職権ではされず、所有者の意思に基づいてされる
+Illustration: An isometric scene showing a house labeled "主である建物"
+and an attached house labeled "附属建物" with a road icon newly built
+between them. A registrar (登記官) character icon stands nearby with a
+prohibition (no-entry) mark over their raised hand, showing they cannot
+act on their own. Beside this, a separate owner character icon submits
+an application-form icon labeled "申請" toward the buildings, with an
+arrow showing the split only happens through this application.
+Caption (small text below):
+建物の分割の登記は所有者の意思に基づく形成的登記であり、主である建物と
+附属建物の間に道路が築造されても、登記官が職権で分割することはない。
+
+--- CARD 2 ---
+Heading (bold):
+共用部分である旨の登記がある建物でも、分割の登記はできる
+Illustration: An isometric building icon with a wooden tag reading
+"共用部分" attached to it. On one side, a scissors icon over an arrow
+labeled "分割" has a green checkmark. On the other side, two building
+icons being joined by an arrow labeled "合併" have a red prohibition
+(no-entry) mark, to contrast that splitting is allowed but merging is not.
+Caption (small text below):
+分割は１個の建物の登記記録を独立させるだけの手続なので、共用部分である
+旨の登記があっても分割はできる。これに対し、他の建物との合併はできない。
+
+--- CARD 3 ---
+Heading (bold):
+増築の表題部変更登記と分割の登記は、一の申請情報でできる
+Illustration: A single document/application-form icon in the center
+labeled "一の申請情報", with two smaller labeled tags flowing into it
+from each side: one tag reading "表題部の変更の登記（増築）" and one tag
+reading "分割の登記", joined by a plus-sign icon to show both are filed
+together on one form. A small text label "規則35条7号" appears near the
+document.
+Caption (small text below):
+建物の表題部の変更の登記・更正の登記と、分割・区分・合併の登記であると
+きは、一の申請情報によって申請することができる（規則35条7号）。
+
+--- CARD 4 ---
+Heading (bold):
+権利を消滅させるには承諾を証する情報で足り、登記識別情報は不要
+Illustration: An isometric house labeled "甲建物" with a chain-and-padlock
+icon labeled "抵当権" attached, and a smaller separated house labeled
+"乙建物". An arrow from the padlock icon flows into a document labeled
+"消滅を承諾したことを証する情報" with a green checkmark. Beside it, a
+separate document icon labeled "登記識別情報" has a red prohibition
+(no-entry) mark over it, to show it is not required.
+Caption (small text below):
+抵当権など所有権以外の権利の登記がある建物を分割する場合、権利者が消滅
+を承諾したことを証する情報を提供すれば足り、登記識別情報の提供までは
+要しない（法54条3項、40条）。
+
+--- CARD 5 ---
+Heading (bold):
+分割の登記が完了しても、登記識別情報は通知されない
+Illustration: An isometric house icon labeled "乙建物" freshly separated
+from "甲建物", with a certificate/notification envelope icon labeled
+"登記識別情報" next to it, crossed out with a red prohibition (no-entry)
+mark, and a dashed arrow toward an owner character icon that stops short,
+showing nothing is delivered.
+Caption (small text below):
+登記識別情報が通知されるのは、申請人が自ら登記名義人となる登記等が完了
+したときに限られる。分割の登記は新たに登記名義人となる場面ではないため、
+乙建物について登記識別情報は通知されない（法21条、令8条1項1号〜3号）。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第15問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・属・証・識・当.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly, with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```

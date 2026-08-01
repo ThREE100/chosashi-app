@@ -83,3 +83,122 @@
 - 申請人と関係人、同席させてOKなんです
 - 陳述はビデオ録画で調書に代えられます
 - 前の持ち主や開発業者も、参考人に呼べます
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+意見聴取等の期日について、承継・場所・同席・記録・参考人という5つの正しい運用ルールを、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots with
+boundary stakes, meeting tables, speech bubbles, video cameras, ledger
+books, location pins, handoff/baton icons, prohibition marks — adapt
+icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・筆・界・聴・継, which have
+Simplified Chinese look-alike forms with visibly different stroke shapes —
+always draw the standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+意見聴取等の期日
+柔軟に運用できる手続です
+
+Subtitle (smaller, centered, 1行):
+場所・同席・記録・参考人のルールを整理（平成30年度 午後の部 第19問）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a
+courthouse-like formal building icon crossed out faintly in the
+background, contrasted in the foreground with a relaxed outdoor meeting
+scene on a land plot — two small figures sitting on folding chairs
+talking with speech bubbles, next to a location pin, to visually convey
+flexibility rather than rigid formality.
+筆界特定の手続では、申請人・関係人・参考人から話を聞くための「意見聴取等
+の期日」が開かれます。この期日はどこで開けるのか、誰を同席させられるの
+か、どう記録するのか——訴訟ほど堅苦しくなく、柔軟に運用できる実務のルー
+ルを整理します。
+
+--- CARD 1 ---
+Heading (bold):
+承継があっても、期日はやり直さない
+Illustration: An isometric scene of an older figure handing a scroll or
+baton to a younger figure (representing 地位の承継), with a completed
+meeting record stamped "済み" and a green checkmark, and a circular
+prohibition (no-entry) icon overlaid on a rewind/reset arrow to show
+that redoing the hearing is not required.
+Caption (small text below):
+申請人の地位の承継があった場合、既に承継に係る申請人について意見聴取等
+の期日を開いていれば、改めて期日を開き直す必要はない（平17.12.6民二
+2760号）。
+
+--- CARD 2 ---
+Heading (bold):
+意見聴取等の期日は、現地でも開ける
+Illustration: An isometric land plot with visible boundary stakes and a
+dotted boundary line, with two small figures standing on the land
+pointing at a boundary marker, and a location pin icon labeled "対象土
+地" hovering above the scene.
+Caption (small text below):
+意見聴取等の期日は、法務局等の庁舎に限らず、対象土地など適宜の場所で開
+くことができる（平17.12.6民二2760号）。
+
+--- CARD 3 ---
+Heading (bold):
+申請人と関係人は、同席させて開ける
+Illustration: An isometric meeting table scene with a figure labeled
+"申請人" and a figure labeled "関係人" seated together at the same
+table, crossing speech bubbles between them, and a small clock/calendar
+icon labeled "同一日時" above the table.
+Caption (small text below):
+申請人及び関係人に係る意見聴取等の期日は、同一の日時に申請人と関係人を
+同席させて開くことができる（平17.12.6民二2760号）。
+
+--- CARD 4 ---
+Heading (bold):
+陳述は、ビデオ等の記録で調書に代えられる
+Illustration: An isometric video camera on a tripod recording a small
+seated figure who is speaking (shown with a speech bubble), with an
+arrow pointing from the camera to a ledger book icon labeled "調書",
+showing the video record substituting for the written record.
+Caption (small text below):
+意見聴取等の期日における申請人、関係人又は参考人の陳述については、ビデ
+オテープその他の適当と認める記録用の媒体に記録し、これをもって調書の記
+録に代えることができる（法140条4項・規則226条2項）。
+
+--- CARD 5 ---
+Heading (bold):
+元の登記名義人や開発業者も、参考人になれる
+Illustration: An isometric scene showing an elderly figure (representing
+a former registered owner) and a hard-hat construction/developer figure,
+both with speech bubbles labeled "参考人", standing before a seated
+official figure representing the 筆界特定登記官.
+Caption (small text below):
+筆界特定登記官は、意見聴取等の期日において、対象土地の所有権の登記名義
+人であった者や対象土地周辺の宅地開発を行った者にも、参考人としてその知
+っている事実を陳述させることができる（法140条2項）。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第19問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・筆・界・聴・継. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly, with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```

@@ -83,3 +83,125 @@
 - 原因欄には「規約設定」の日付が刻まれるんです
 - 規約を廃止しても、登記記録は作り直さないんです
 - 物置を集会所にしたら、1か月以内に申請なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+共用部分である旨の登記について、「設定→申請→記録→変更→廃止」という登記記録のライフサイクルの流れで、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry ledger
+pages, official stamps/seals, prohibition marks, mansion room icons,
+padlock icons for mortgages, calendar icons, a person handing over a
+document, storage-room and meeting-hall icons, connecting arrows).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・規・約・職・変・請, which
+have Simplified Chinese look-alike forms with visibly different stroke
+shapes — always draw the standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+共用部分の登記
+設定から廃止までの流れを整理
+
+Subtitle (smaller, centered, 1行):
+申請主義と記録の書き方をおさえる（平成30年度 午後の部 第16問）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric icon of a mansion building with one room
+highlighted. The room transitions from a name tag reading "所有者" with
+an ownership seal, to a red stamp reading "共用部分", with a thin dotted
+arrow showing the shift from individual ownership to shared-use status.
+建物の一部を「共用部分」にする登記は、その部屋の所有権や担保権のあり方を
+まるごと切り替える手続きです。設定するときに何が起こり、誰が申請し、
+登記記録に何が書かれるのか。種類を変えたときや規約を廃止したときは
+どうなるのか。共用部分である旨の登記のルールを、設定から廃止までの
+流れで整理します。
+
+--- CARD 1 ---
+Heading (bold):
+共用部分にすると、所有者や担保権の登記は職権で抹消される
+Illustration: An isometric ledger page for a mansion room. A red official
+stamp reading "共用部分" is placed over the page. Below it, a name tag
+reading "所有者" and a padlock icon representing a mortgage are shown
+crossed out with a red X, with a small arrow labeled "職権抹消" pointing
+from the stamp to the crossed-out items.
+Caption (small text below):
+規約共用部分である旨の登記がされると、所有権の登記がない建物では表題部
+所有者に関する登記事項が、所有権の登記がある建物では所有権その他の権利
+に関する登記が、職権で抹消される（法58条4項）。
+
+--- CARD 2 ---
+Heading (bold):
+共用部分である旨の登記は、当事者の申請でする（登記官の職権ではできない）
+Illustration: An isometric scene showing a person handing a document
+labeled "申請書" to a registry office window. Beside it, a separate small
+vignette shows a registry officer alone at a desk with a prohibition
+(no-entry) mark overlaid, to show the officer cannot register it on their
+own initiative.
+Caption (small text below):
+共用部分である旨の登記は第三者に対抗するための登記で申請義務はないが、
+あくまで当事者の申請によってされるものであり、登記官が職権ですることは
+できない。
+
+--- CARD 3 ---
+Heading (bold):
+原因及びその日付欄には、規約設定の年月日が記録される
+Illustration: An isometric close-up of a registry ledger page's column
+labeled "原因及びその日付", with a calendar icon and a speech-bubble-style
+callout showing the text "令和8年7月1日規約設定 共用部分" written into
+the column.
+Caption (small text below):
+共用部分である旨の登記をするときは、表題部の原因及びその日付欄に、規約
+が成立した年月日をもとに「年月日規約設定 共用部分」と記録される。
+
+--- CARD 4 ---
+Heading (bold):
+建物の種類が変わったら、所有者は1か月以内に表題部変更登記を申請する
+Illustration: An isometric before/after pair: a storage-room icon labeled
+"物置" with an arrow transforming into a meeting-hall icon labeled
+"集会所", next to a calendar icon showing "1ヶ月以内" and a person icon
+holding a document labeled "変更登記申請".
+Caption (small text below):
+共用部分または団地共用部分である旨の登記がある建物で、表題部の変更登記
+を申請すべき登記事項（種類の変更など）があったときは、所有者が変更が
+あった日から1月以内に申請しなければならない（法51条1項かっこ書き）。
+
+--- CARD 5 ---
+Heading (bold):
+規約を廃止して表題登記を申請しても、登記記録の閉鎖・新設はされない
+Illustration: An isometric ledger page for the same mansion room, showing
+the "共用部分" stamp being erased with a red X and a name tag reading
+"所有者" reappearing on the very same continuous page. A prohibition mark
+is overlaid on a separate icon of a fresh blank ledger page labeled "新規
+登記記録" to emphasize that no new record is created.
+Caption (small text below):
+共用部分である旨の登記がある建物について規約を廃止し、区分建物として
+表題登記を申請すると、共用部分である旨の記録が抹消されて表題部所有者の
+登記が復活する（法58条6項）。登記記録を閉鎖して新たに作成するわけでは
+ない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第16問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・規・約・職・変・請.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly, with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```
