@@ -12,7 +12,8 @@ note-articles/
 ├── column/                 特定の1問に紐づかない概念解説・横断参照コラム
 │   ├── hyoudaibu-shoyuusha-vs-toukimeigijin.md 「表題部所有者」と「所有権の登記名義人」の違い
 │   ├── tatemono-nintei-3youken.md              建物認定3要件の総まとめ(複数年度の過去問を横断集約)
-│   └── hyoudai-touki-gimu-to-genjitsu.md       表題登記の「義務」と「現実」のズレ
+│   ├── hyoudai-touki-gimu-to-genjitsu.md       表題登記の「義務」と「現実」のズレ
+│   └── hozon-kikan-matome.md                   登記所の書類の保存期間まとめ(規則28条、複数年度を横断集約)
 ├── r7-mondai/              令和7年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
 │   ├── q01-ishihyouji.md          第1問 意思表示
 │   ├── q02-senyuken.md            第2問 占有権

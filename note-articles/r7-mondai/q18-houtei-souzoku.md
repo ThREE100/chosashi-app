@@ -76,3 +76,81 @@
 - 提出した戸籍謄本、ちゃんと戻ってきます
 - 申出先は、自分の土地じゃありません
 - 番号さえあれば、写しはいらないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: kanji such as 相・続・登・記・証・地・番・所 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+法定相続情報一覧図、書くこと・戻ること
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第18問／法定相続情報一覧図
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 家系図のような一覧図のイラストに、法務局の窓口アイコンが並ぶ。戸籍謄本の束が窓口を通って手元に戻ってくる矢印。
+法定相続情報一覧図の制度は、相続手続きの負担を軽くするための仕組みです。「何を書くべきか」「何を提出したら返ってくるか」「どこに申し出るか」の3点を押さえましょう。
+
+--- CARD 1 ---
+Heading (bold):
+一覧図に被相続人の本籍地の記載は、必須ではない
+Illustration: 法定相続情報一覧図の書式アイコンに「氏名」「生年月日」「死亡年月日」「住所」の欄はチェック済みだが、「本籍地」の欄だけ点線で任意扱いを示す。
+Caption (small text below):
+本籍地までは、書かなくていいんです
+
+--- CARD 2 ---
+Heading (bold):
+写しの再交付は、保存期間（5年）が満了するまで申し出ることができる
+Illustration: 一覧図の写しを紛失した人物アイコンが、法務局の窓口で再交付を申し出ている。横にカレンダーで「保存期間5年」のラベル。
+Caption (small text below):
+写しの再交付、保存期間内ならOKです
+
+--- CARD 3 ---
+Heading (bold):
+提出した戸籍の全部事項証明書は、返却される
+Illustration: 戸籍謄本の束のアイコンが法務局の窓口を通り、一覧図の写しと一緒に持ち主のアイコンの手元に戻ってくる矢印。
+Caption (small text below):
+提出した戸籍謄本、ちゃんと戻ってきます
+
+--- CARD 4 ---
+Heading (bold):
+保管の申出先は、被相続人名義の不動産の所在地の登記所
+Illustration: 亡くなった父親名義の土地のアイコンと、その所在地の登記所アイコンに申出書類が届く矢印。相続人自身の別の土地アイコンには✕印。
+Caption (small text below):
+申出先は、自分の土地じゃありません
+
+--- CARD 5 ---
+Heading (bold):
+法定相続情報番号を提供すれば、一覧図の写しは不要
+Illustration: 登記申請書類に「法定相続情報番号」の番号タグだけが添付され、分厚い一覧図の写しの束には✕印。
+Caption (small text below):
+番号さえあれば、写しはいらないんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　令和7年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

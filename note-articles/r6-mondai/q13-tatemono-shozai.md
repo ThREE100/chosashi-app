@@ -79,3 +79,80 @@
 - 仮換地に建てた家、所在はどう書くか知ってました?
 - 桟橋の上の建物、「何番地先」って書くの知ってました?
 - 同じ棟の附属建物、所在地番は書かなくていいんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: this prompt contains kanji that are easily confused with Simplified
+Chinese variants, especially 登・記・建・物・地・番・所. Render these
+strictly in their standard Japanese (Jōyō) forms, never as simplified hanzi.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の所在、記録ルールを場面別に整理
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第13問｜建物の所在
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 地図と建物のアイソメトリックイラスト。行政区画の境界線・仮換地の土地・桟橋・マンションなど、複数の場面アイコンが並ぶ。
+建物の所在は原則として建物が存する土地の地番で表しますが、行政区画の変更・仮換地・桟橋・区分建物といった特殊な場面ごとに、それぞれ独自の記録ルールが定められています。
+
+--- CARD 1 ---
+Heading (bold):
+行政区画の名称変更は、登記官の職権で処理される
+Illustration: 市町村合併を表す地図アイソメトリックイラスト。町の名称ラベルが書き換えられる様子。登記官のスタンプアイコンが押される。所有者の人物アイコンに「申請不要」のラベル。
+Caption (small text below):
+行政区画の名称変更は登記官の職権による処理であり申請義務はない
+
+--- CARD 2 ---
+Heading (bold):
+規約敷地の地番は、一棟の建物の所在欄に記録されない
+Illustration: マンションのアイソメトリックイラスト。法定敷地(建物の下の土地)と規約敷地(離れた駐車場)を並べる。法定敷地の地番だけが「所在欄」の書類アイコンに書き込まれ、規約敷地の地番にはバツ印。
+Caption (small text below):
+規約敷地の地番は一棟の建物の所在欄には記録されない
+
+--- CARD 3 ---
+Heading (bold):
+仮換地上の建物は、現に存する土地の地番を所在とする
+Illustration: 土地区画整理事業のアイソメトリックイラスト。仮換地に建てられた家。所在欄の書類に「現に存する土地の地番」のラベル。
+Caption (small text below):
+仮換地上の建物は、現に存する土地の地番を所在として提供する
+
+--- CARD 4 ---
+Heading (bold):
+桟橋上の建物は、最も近い土地の地番で「何番地先」と記録する
+Illustration: 海に突き出た永久的な桟橋の上に建つ建物のアイソメトリックイラスト。陸地の最寄りの地番から矢印が伸び、「何番地先」というラベル付きの吹き出し。
+Caption (small text below):
+桟橋上の建物は、最も近い土地の地番で「何番地先」と記録する
+
+--- CARD 5 ---
+Heading (bold):
+同じ棟の附属区分建物は、所在地番の記載を省略できる
+Illustration: マンションのアイソメトリックイラスト。主である建物(専有部分)と同じ棟にある附属建物(専有部分)。附属建物の所在地番の書類欄にバツ印(省略可)。
+Caption (small text below):
+主建物と同一棟の附属区分建物は所在地番の記載を省略できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

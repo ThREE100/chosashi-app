@@ -78,3 +78,89 @@
 - 市の建物なら、証明書はいらないんです
 - 川になった土地、分筆は河川管理者にお任せ
 - 「希望すれば」もらえる、役所の登記識別情報
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+特に「登」「記」「所」「権」「地」「号」といった字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+--- HEADER ---
+Title (large, bold, 1行):
+市町村の登記嘱託、免除される手続と免除されない手続の境目
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第6問　不動産登記法(嘱託登記)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A city-hall building icon sending documents to a
+registry-office building icon (登記所), with a scale comparing
+「省略できる手続」and「省略できない手続」.
+官公署（市町村など）が行う「嘱託登記」は、私人の申請と同じ扱いになる部分と、官公署だからこそ簡略化される部分が入り混じっています。この線引きを丁寧に押さえるのが本問のポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+代位登記でも、本当の所有者の証明は必要
+Illustration: A city-hall building icon (市町村) submitting a document for
+private land, holding a certificate icon labeled「所有権証明情報」, with a
+checkmark labeled「証明必要」.
+Caption (small text below):
+代位登記でも被代位者の所有権証明情報は必要
+
+--- CARD 2 ---
+Heading (bold):
+市町村長作成の委任状に「3か月以内」の期限はない
+Illustration: A stamped document icon labeled「市町村長作成の委任状」with a
+calendar icon showing「3か月」crossed out and a label「有効期限なし」.
+Caption (small text below):
+市町村長作成の委任状に作成後3か月以内という要件はない
+
+--- CARD 3 ---
+Heading (bold):
+市町村が自ら所有する建物の表題登記を嘱託するとき、所有権証明情報は不要
+Illustration: A city-hall building icon constructing a community-hall
+building (公民館) itself, with no separate certificate icon, labeled
+「証明書不要」.
+Caption (small text below):
+市町村自身の建物表題登記嘱託では所有権証明情報は不要
+
+--- CARD 4 ---
+Heading (bold):
+河川区域になった土地は、河川管理者が代わりに分筆登記を嘱託できる
+Illustration: A river-overflow icon covering part of a land-plot icon,
+with a government building icon (河川管理者) submitting a document
+labeled「分筆登記」on behalf of the private landowner character.
+Caption (small text below):
+河川区域化した土地は河川管理者が代わりに分筆登記を嘱託できる（法43条2項）
+
+--- CARD 5 ---
+Heading (bold):
+希望すれば、市町村にも登記識別情報は通知される
+Illustration: A city-hall building icon submitting a document labeled
+「合筆登記」with a checked checkbox labeled「通知希望」, and an envelope
+arrow labeled「登記識別情報 通知される」.
+Caption (small text below):
+希望の申出があれば登記識別情報は通知される（規則64条4号）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

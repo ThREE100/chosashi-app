@@ -79,3 +79,82 @@
 - 地積が減っても、抵当権者の承諾はいらないんです
 - 地積が増えても、隣地所有者の承諾はいらないんです
 - 更正登記に、実は期限のルールはないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the characters 地（地積）、登・記（登記）、権
+（抵当権）、号（民事三発203号）appear in this infographic. Do not render
+権 as the Simplified Chinese variant（权）and do not render 登・记・号 as
+simplified variants — use the standard Japanese forms 地・登・記・権・号
+exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+公差の範囲内でも、更正登記はできる
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第7問／地積の更正登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 土地のisometricイラスト、測量士キャラクターが測量する様子、登記簿上の地積と実測地積の2つの数字を比較する吹き出し、その差を示す矢印に「公差の範囲内」というラベルを添える。
+地積の更正登記は、「登記当初からの誤り」なのか「登記後に生じた変化」なのかを見極めることが出発点です。
+
+--- CARD 1 ---
+Heading (bold):
+公差の範囲内でも、更正登記はできる
+Illustration: 土地の測量結果を示す2つの数値(登記簿地積・実測地積)が近い値で並び、その差を示す小さな矢印に「公差内」ラベル、その下に「更正登記」の書類アイコンと緑の○マークを添える。
+Caption (small text below):
+公差の範囲内でも地積の更正登記は申請できる
+
+--- CARD 2 ---
+Heading (bold):
+地殻変動による海没は、更正ではなく変更の登記
+Illustration: 海岸沿いの土地のisometricイラスト、地殻変動で土地の一部が波にのまれる様子(青い波のアイコン)。「更正登記」のラベルに赤い×マーク、「変更登記」のラベルに緑の○マークを添える。
+Caption (small text below):
+地殻変動による海没は更正でなく変更の登記による（昭33.4.11民事三発203号）
+
+--- CARD 3 ---
+Heading (bold):
+地積が減っても、抵当権者の承諾はいらない
+Illustration: 抵当権(鎖のアイコン)が設定された土地の測量図が縮小する様子。抵当権者キャラクターの承諾書アイコンに赤い×マークと「不要」のラベルを添える。
+Caption (small text below):
+地積減少の更正登記に抵当権者の承諾情報は不要
+
+--- CARD 4 ---
+Heading (bold):
+地積が増えても、隣地所有者の承諾はいらない
+Illustration: 隣接する2つの土地のisometricイラスト、一方の土地の測量図が拡大する様子。隣地所有者キャラクターの承諾書アイコンに赤い×マークと「不要」のラベルを添える。
+Caption (small text below):
+地積増加の更正登記にも隣接地所有者の承諾情報は不要
+
+--- CARD 5 ---
+Heading (bold):
+更正登記に、申請の期限ルールはない
+Illustration: カレンダーのisometricアイコンに「1か月以内」と書かれた文字に赤い×マーク、その横に無期限を示す「∞」のアイコンと「申請義務なし」のラベルを添える。
+Caption (small text below):
+地積の更正登記に申請義務・期間制限はない（法38条、53条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -83,3 +83,80 @@
 - 秘密保持にも、正当な理由があれば例外があるんです
 - 測量業務、補助者に任せることはできないんです
 - 調査士法人、実は一人でも作れるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: this prompt contains kanji that are easily confused with Simplified
+Chinese variants, especially 登・記・号. Render these strictly in their
+standard Japanese (Jōyō) forms, never as simplified hanzi.
+
+--- HEADER ---
+Title (large, bold, 1行):
+調査士の義務と例外、条文ごとに整理
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第20問｜土地家屋調査士法
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 土地家屋調査士のバッジ・事務所・調査士会のアイソメトリックイラスト。義務と例外の2つのラベルが対比的に配置される。
+土地家屋調査士法の分野は、「義務の対象範囲」と「その例外」をセットで押さえるのがポイントです。依頼応諾義務・秘密保持義務・登録手続・法人設立の各条文を、義務か例外かという対立軸で整理していきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+筆界特定の代理業務は、理由なく依頼を拒める
+Illustration: 土地家屋調査士(人物アイコン)が、筆界特定の代理業務の依頼を断るアイソメトリックイラスト。「正当な事由不要」のラベル。
+Caption (small text below):
+筆界特定の代理業務は正当事由がなくても依頼を拒める
+
+--- CARD 2 ---
+Heading (bold):
+登録申請書は、調査士会を経由して提出する
+Illustration: 調査士資格者が登録申請書を提出するアイソメトリックイラスト。法務局アイコンにバツ印、土地家屋調査士会アイコンにチェックマーク、その先に日本土地家屋調査士会連合会のアイコン。
+Caption (small text below):
+登録申請書は法務局ではなく所属予定の調査士会を経由して提出
+
+--- CARD 3 ---
+Heading (bold):
+秘密保持義務にも、正当な事由による例外がある
+Illustration: 調査士(人物アイコン)が業務上知り得た秘密の書類を持つアイソメトリックイラスト。「正当な事由がある場合」のラベル付きの例外の矢印。
+Caption (small text below):
+秘密保持義務には正当な事由がある場合の例外がある
+
+--- CARD 4 ---
+Heading (bold):
+測量業務は、補助者に取り扱わせられない
+Illustration: 土地家屋調査士(人物アイコン)と補助者(人物アイコン)、測量機器のアイソメトリックイラスト。補助者から測量業務への矢印にバツ印。
+Caption (small text below):
+測量業務はやむを得ない事由があっても補助者に取り扱わせられない
+
+--- CARD 5 ---
+Heading (bold):
+調査士法人は、社員1人でも設立できる
+Illustration: 個人事務所の看板を「土地家屋調査士法人」の看板に掛け替えるアイソメトリックイラスト。社員1人のアイコンにチェックマーク。
+Caption (small text below):
+土地家屋調査士法人は、社員となろうとする土地家屋調査士が1人であっても、設立することができる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

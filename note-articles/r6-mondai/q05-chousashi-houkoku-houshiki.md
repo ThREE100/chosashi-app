@@ -81,3 +81,81 @@
 - 工事完了引渡証明書、実は原本提示いらないんです
 - 表題部所有者の承諾書、原本提示を省略できないんです
 - 抵当権者の承諾書も、原本を見せる必要があるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the characters 地・権（地役権）、建・物（建物）、
+登・記（登記）、所（所有権）appear in this infographic. Do not render 权
+or 记 (Simplified Chinese forms) in place of 権・記 — use the standard
+Japanese forms 地・権・建・物・登・記・所 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+原本提示が省略できる書面・できない書面
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第5問／調査士報告方式
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 土地家屋調査士キャラクターがパソコンで電子申請をしている様子、その周りに複数の書類アイコン(委任状・工事完了引渡証明書・承諾書など)が浮かび、それぞれに「原本提示 要/不要」を仕分ける矢印が描かれる。
+調査士報告方式は、電子申請の際に一定の添付情報について原本提示を求めない取扱いです。「誰の意思を証明する書面か」という視点で仕分けます。
+
+--- CARD 1 ---
+Heading (bold):
+地役権設定範囲を証する書面は、原本提示が必要
+Illustration: 承役地の分筆のisometricイラスト、地役権者キャラクターが作成した書類アイコンに赤い印(原本)マークと「原本提示が必要」のラベルを添える。
+Caption (small text below):
+地役権設定範囲を証する書面は第三者の意思確認書面であり、原本提示が必要
+
+--- CARD 2 ---
+Heading (bold):
+申請人が作った委任状は、原本提示が不要
+Illustration: 申請人Aキャラクターが委任状を作成し、土地家屋調査士キャラクターへ渡す様子。委任状のアイコンに緑の○マークと「原本提示不要・電子データでOK」のラベルを添える。
+Caption (small text below):
+委任状は申請人自身が作成した書面であり、調査士報告方式の対象
+
+--- CARD 3 ---
+Heading (bold):
+工事完了引渡証明書は、原本提示が不要
+Illustration: 建物新築のisometricイラスト、工務店キャラクターが発行する工事完了引渡証明書のアイコンに緑の○マークと「原本提示不要」のラベルを添える。
+Caption (small text below):
+工事完了引渡証明書は定型的な所有権証明書面であり、調査士報告方式の対象
+
+--- CARD 4 ---
+Heading (bold):
+表題部所有者の承諾書は、原本提示が必要
+Illustration: 表題部所有者キャラクターがサインした承諾書のアイコンに赤い印マークと「原本提示が必要」のラベルを添える。
+Caption (small text below):
+表題部所有者の承諾書は本人の意思確認書面であり、原本提示が必要
+
+--- CARD 5 ---
+Heading (bold):
+抵当権者の承諾書も、原本提示が必要
+Illustration: 合体した建物のisometricイラスト、抵当権者キャラクターがサインした承諾書のアイコンに赤い印マークと「原本提示が必要」のラベルを添える。
+Caption (small text below):
+抵当権者の承諾書も第三者の意思確認書面であり、原本提示が必要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

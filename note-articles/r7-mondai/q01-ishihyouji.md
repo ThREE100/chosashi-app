@@ -79,3 +79,96 @@
 - 詐欺の第三者保護、登記がなくても対抗できないんです
 - 通知の到達、発送日じゃないって知ってた？
 - 心裡留保の無効、無過失じゃなくてもいいんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+特に「登」「記」「号」といった字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+--- HEADER ---
+Title (large, bold, 1行):
+意思表示の落とし穴を整理する
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第1問　民法(意思表示)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scale (天秤) with four sticky-note tags labeled
+「錯誤」「詐欺」「強迫」「心裡留保」balanced on it, with a small character
+holding a magnifying glass in the center.
+意思表示の分野は、錯誤・詐欺・強迫・心裡留保という4つの制度それぞれについて、「誰の同意・認識があれば取消し・無効を主張できるのか」「第三者にどこまで対抗できるのか」を正確に切り分けられるかが問われます。
+
+--- CARD 1 ---
+Heading (bold):
+相手方に重大な過失があれば、表意者の重過失があっても錯誤取消しができる
+Illustration: Two isometric characters signing a contract. The left
+character (表意者) has a red exclamation icon labeled「重過失」above their
+head. The right character (相手方) has a magnifying glass icon with closed
+eyes and a red label「重過失」next to a speech bubble. A torn contract with
+a stamp labeled「取消し可能」overlays the scene.
+Caption (small text below):
+相手方に重過失があれば、表意者の重過失があっても錯誤取消しができる（95条3項1号）
+
+--- CARD 2 ---
+Heading (bold):
+第三者の強迫による意思表示は、相手方の善意・悪意にかかわらず取り消せる
+Illustration: A hooded isometric figure (第三者) with a raised-fist icon
+threatening a character (売主), who hands a house key to a buyer character
+(買主) with a small question-mark icon labeled「知らなかった」. A large stamp
+labeled「常に取消し可」overlays the scene.
+Caption (small text below):
+第三者強迫による意思表示は、相手方の善意・悪意にかかわらず取り消せる
+
+--- CARD 3 ---
+Heading (bold):
+詐欺取消し前の善意無過失の転得者には、登記がなくても対抗できない
+Illustration: A three-panel isometric timeline. Panel 1: a buyer character
+(買主) deceiving a seller character (売主), labeled「詐欺」. Panel 2: the
+buyer selling the house to a third character labeled「善意無過失」, with a
+torn paper label「登記なし」near the house. Panel 3: a shield icon protecting
+the third character with a stamp labeled「対抗できない」.
+Caption (small text below):
+詐欺取消し前の善意無過失の転得者には、登記がなくても対抗できる（96条3項）
+
+--- CARD 4 ---
+Heading (bold):
+通知の到達妨害があった場合は、「通常到達すべきであった時」に到達したとみなされる
+Illustration: An isometric mail carrier holding an envelope toward a
+character whose door is closing, labeled「受取拒否」. A large clock icon
+shows「発信の時」crossed out and「通常到達すべき時」highlighted with a checkmark.
+Caption (small text below):
+到達妨害があった場合は「通常到達すべきであった時」に到達したとみなす（97条2項）
+
+--- CARD 5 ---
+Heading (bold):
+相手方が悪意であっても、心裡留保の無効は善意(過失の有無を問わない)の第三者に対抗できない
+Illustration: An isometric character (表意者) handing a land deed to another
+character (相手方) with a winking icon labeled「冗談と知っていた」. A dashed
+arrow shows the deed passing to a third character with a shield icon and a
+small label「過失があってもよい」.
+Caption (small text below):
+心裡留保の無効は、善意(無過失は不要)の第三者に対抗できる（93条2項）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

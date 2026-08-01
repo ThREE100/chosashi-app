@@ -80,3 +80,81 @@
 - 仮登記も、承諾一つで引き継がれずに済みます
 - 第三者の印鑑証明書に、期限はないんです
 - 期間切れの地上権も、消したことにはなりません
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: kanji such as 権・地・登・記・証 are especially prone to
+being rendered as Simplified Chinese variants. Draw every instance of
+these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+分筆登記、権利は消える？残る？
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第11問／分筆の登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 一枚の四角い土地（甲地）から点線の分筆線で右側の乙地が切り離されるイソメトリック図。甲地の上には「地上権」の小さな旗、「抵当権」の印鑑スタンプ、「仮登記」の破れた紙ラベルが乗っている。矢印の先で、乙地側にはそれらの権利アイコンの一部がそのまま移り、一部には✕印が重なっている。
+分筆登記では、土地に付いている権利（地上権・抵当権・仮登記など）が分筆後の土地に「転写されるか、されないか」「消すのに誰の承諾が必要か」という判断が頻出します。実体的な権利の話と、登記記録上どう扱われるかの話を分けて考えるのがコツです。
+
+--- CARD 1 ---
+Heading (bold):
+分筆登記だけでは、共有持分の配分は変わらない
+Illustration: 分筆線で分かれた甲土地（兄のアイコン）と乙土地（弟のアイコン）。中央に「共有物分割の判決書」のアイコンがあるが、土地の上にはまだ「共有」のラベルが残っている。下向きの矢印の先に「持分移転登記」という別の書類アイコンがあり、その書類が重なって初めて「単独所有」のラベルに変わる。
+Caption (small text below):
+判決があっても、分筆だけでは持分は動きません
+
+--- CARD 2 ---
+Heading (bold):
+地上権に抵当権が付いているときは、地上権者・抵当権者双方の承諾が必要
+Illustration: 土地の上に立つ「地上権」の旗アイコンに、鎖でつながった「抵当権」の印鑑スタンプアイコン。旗の下に地上権者と抵当権者、二人の人物アイコンが並び、それぞれが承諾書（チェックマーク付きの紙）を差し出している。
+Caption (small text below):
+地上権を消すなら、抵当権者にも聞かなきゃ
+
+--- CARD 3 ---
+Heading (bold):
+仮登記名義人の承諾があれば、分筆後の土地に仮登記は転写されない
+Illustration: 分筆後の乙土地の登記記録カードのイラスト。仮登記の名義人が承諾書（判子付きの紙）を差し出しており、その承諾書と重なるように、登記記録カードの「仮登記」のラベルに✕印が付いている。
+Caption (small text below):
+仮登記も、承諾一つで引き継がれずに済みます
+
+--- CARD 4 ---
+Heading (bold):
+第三者の承諾書に添える印鑑証明書には、3か月の作成期限はない
+Illustration: 抵当権者の印鑑証明書のアイコン（古びた紙に「6か月前」の日付スタンプ）の横に「期限なし」の丸ラベル。対比として、本人の印鑑証明書のアイコンには「3か月以内」の四角ラベルが並んでいる。
+Caption (small text below):
+第三者の印鑑証明書に、期限はないんです
+
+--- CARD 5 ---
+Heading (bold):
+存続期間が満了していても、抹消登記がなければ地上権の登記は転写される
+Illustration: 甲土地の「地上権」の旗アイコンに「存続期間満了」の破れた紙ラベルが貼られているが、旗自体はまだ立ったまま。分筆線の先の乙土地にも、同じ地上権の旗がそのまま転写されている。
+Caption (small text below):
+期間切れの地上権も、消したことにはなりません
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　令和7年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -81,3 +81,80 @@
 - マンション滅失、実は一人からでも申請できるんです
 - 仮登記の名義人は、滅失登記を申請できないんです
 - 建て直したら、元の家はちゃんと滅失させるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: this prompt contains kanji that are easily confused with Simplified
+Chinese variants, especially 登・記・建・物・権. Render these strictly in
+their standard Japanese (Jōyō) forms, never as simplified hanzi.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の滅失登記、申請できる人を正確に押さえる
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第17問｜建物の滅失の登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 取り壊された建物の跡地のアイソメトリックイラスト。所有権登記名義人・相続人・区分建物の共有者などの人物アイコンが並ぶ。
+建物の滅失登記は、建物という物理的な客体が無くなった事実を公示するだけの登記です。誰が申請できるか、どんな添付情報が必要かを、権利登記の感覚と混同せずに整理できるかがポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+抵当権者の承諾は、滅失登記に不要
+Illustration: 抵当権付きの自宅を取り壊すアイソメトリックイラスト。銀行(抵当権者)の承諾書アイコンにバツ印。
+Caption (small text below):
+抵当権者の承諾を証する情報は提供不要
+
+--- CARD 2 ---
+Heading (bold):
+相続登記を経なくても、相続人が滅失登記を申請できる
+Illustration: 亡くなった父A(人物アイコン)から相続人B(人物アイコン)への矢印。倒壊した実家のアイソメトリックイラスト。相続登記の書類にバツ印、滅失登記の書類にチェックマーク。
+Caption (small text below):
+相続登記を経なくても相続人が滅失登記を申請できる
+
+--- CARD 3 ---
+Heading (bold):
+一棟の滅失登記は、区分建物の所有者の一人から申請できる
+Illustration: 火災で全焼したマンション一棟のアイソメトリックイラスト。複数の所有者アイコンのうち1人だけが滅失登記の申請書類を提出。
+Caption (small text below):
+一棟の滅失登記は区分建物の所有者の一人から申請できる
+
+--- CARD 4 ---
+Heading (bold):
+仮登記の名義人は、滅失登記を申請できない
+Illustration: 所有権移転の仮登記名義人(人物アイコン)から滅失登記の書類への矢印にバツ印。
+Caption (small text below):
+所有権移転の仮登記名義人は滅失登記を申請できない
+
+--- CARD 5 ---
+Heading (bold):
+材料を使って建て直したら、元の建物の滅失登記が必要
+Illustration: 取り壊した建物の古材を使って別の土地に同じ間取りの家を建てるアイソメトリックイラスト。元の建物に「滅失登記が必要」のラベル付き書類アイコン。
+Caption (small text below):
+材料を用いて別の土地に建て直した場合は元の建物の滅失登記が必要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

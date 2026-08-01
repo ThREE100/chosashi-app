@@ -79,3 +79,81 @@
 - 範囲が一部残るなら、地役権図面はやっぱり必要なんです
 - 新しい図面を出せば、古い地役権図面は閉鎖されるんです
 - 地役権図面に、要役地の住所までは書かないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the characters 地・権（地役権）、記（記名押印）、
+登（登記）、番（所在地番）、所（所在）appear in this infographic. Do not
+render 権 as the Simplified Chinese variant（权）or 记 in place of 記
+— use the standard Japanese forms 地・権・記・登・番・所 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地役権図面、要役地の住所までは書かない
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第10問／地役権図面
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 承役地と要役地の関係を示すisometricイラスト、地役権図面の書類アイコンが中央に描かれ、署名欄・縮尺の目盛り・要役地の欄などが強調される。
+地役権図面の作成・提供に関するルールを、「誰が署名するか」「縮尺は自由か」「分筆時の扱い」の場面ごとに整理します。
+
+--- CARD 1 ---
+Heading (bold):
+書面提出の地役権図面には、署名か記名押印が必要
+Illustration: 地役権者キャラクターが地役権図面の書類にペンで署名する様子、書類の隅に印鑑のアイコンも添え、緑の○マークと「署名または記名押印」のラベルを添える。
+Caption (small text below):
+書面提出の地役権図面には地役権者の署名又は記名押印が必要（規則79条3項、4項）
+
+--- CARD 2 ---
+Heading (bold):
+地役権図面の縮尺は、地積測量図と揃えなくていい
+Illustration: 地積測量図(500分の1の目盛り)と地役権図面(別の目盛り)が並び、間に「≠」のアイコンと「縮尺は自由」のラベル、緑の○マークを添える。
+Caption (small text below):
+地役権図面の縮尺は適宜でよく、地積測量図と同一にする必要はない（規則79条2項）
+
+--- CARD 3 ---
+Heading (bold):
+範囲が一部残るなら、地役権図面はやっぱり必要
+Illustration: 承役地である甲土地が分筆され、一部にのみ地役権の範囲(斜線ハッチング)が残る様子。新しい地役権図面のアイコンに緑の○マークと「提供が必要」のラベルを添える。
+Caption (small text below):
+範囲が一部残る場合でも地役権図面の提供は必要（令別表8項添付情報ロ）
+
+--- CARD 4 ---
+Heading (bold):
+新しい図面を出せば、古い地役権図面は閉鎖される
+Illustration: 古い地役権図面の書類アイコンに「閉鎖」の判子が押され、隣に新しい地役権図面の書類アイコンが並ぶ様子。矢印でつながれ「切り替え」のラベルを添える。
+Caption (small text below):
+新たな地役権図面提供による分筆登記後、従前図面は閉鎖される（規則87条1項）
+
+--- CARD 5 ---
+Heading (bold):
+要役地の住所までは、地役権図面に書かない
+Illustration: 地役権図面の書類アイコン、承役地の地番欄には記入済みのチェックマーク、要役地の欄には空欄のまま「記録不要」のラベルを添える。
+Caption (small text below):
+地役権図面に要役地の所在地番を記録する義務はない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

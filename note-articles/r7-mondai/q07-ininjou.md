@@ -78,3 +78,91 @@
 - 代理人を増やしても、元の代理人はそのまま
 - 死んでしまえば、代理人の地位は終わりです
 - 還付金も、「一切の件」に含まれません
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+特に「登」「記」「権」といった字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+--- HEADER ---
+Title (large, bold, 1行):
+「一切の件」と書かれた委任状、どこまで任されている？
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第7問　不動産登記法(委任・代理)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A large document icon labeled「委任状」containing the words
+「登記申請」inside its frame, while the words「暗号化」and「還付金受領」
+float outside the frame's border.
+「一切の件」と書かれた委任状を渡されると、何でも任されている気になりがちですが、実際には委任状に明記しなければ有効にならない行為がいくつもあります。
+
+--- CARD 1 ---
+Heading (bold):
+登記識別情報の暗号化には「特別の授権」が必要
+Illustration: A large document icon labeled「委任状『一切の件』」with a
+padlock icon over a smaller label「登記識別情報の暗号化」, and a separate
+key icon labeled「特別の授権が必要」.
+Caption (small text below):
+登記識別情報の暗号化には特別の授権が別途必要
+
+--- CARD 2 ---
+Heading (bold):
+会社の代表者が交代しても、委任は消滅しない
+Illustration: A company signboard icon（株式会社A）with a revolving door
+showing an old executive character leaving and a new executive character
+entering, while an unbroken arrow labeled「委任」continues to a
+representative character (B).
+Caption (small text below):
+委任者は法人自体なので代表者交代の影響を受けない
+
+--- CARD 3 ---
+Heading (bold):
+復代理人を選んでも、元の代理人自身の権限は消えない
+Illustration: Two character icons (代理人Bと復代理人) both holding umbrella
+icons over a company signboard（株式会社A）, with B's arrow to the company
+remaining solid and unbroken.
+Caption (small text below):
+復代理人を選任しても元の代理人の代理権は存続する
+
+--- CARD 4 ---
+Heading (bold):
+代理人が死亡すると、代理権はそこで消滅する（相続されない）
+Illustration: A character icon (B) with a tombstone/end icon, and a
+dashed broken-line arrow to another character (相続人C) with a red X
+labeled「代理権 承継されない」.
+Caption (small text below):
+代理権は代理人の死亡で消滅し、相続人に承継されない
+
+--- CARD 5 ---
+Heading (bold):
+登録免許税の還付金受領には、別途その権限が必要
+Illustration: A coin icon labeled「過誤納の還付金」next to a document
+labeled「委任状『一切の件』」with a red X over it, and a separate new
+document icon labeled「受領権限の記載」with a checkmark.
+Caption (small text below):
+登録免許税の還付金受領には別途その権限の記載が必要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

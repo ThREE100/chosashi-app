@@ -78,3 +78,81 @@
 - 「多目的ビル」じゃ、種類として認められません
 - 塾でも、種類は「教習所」でいいんです
 - ガソリンスタンドは、そのまま「給油所」
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: kanji such as 種・類・建・物・登・記・所・権 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の「種類」、決め方のルール
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第12問／建物の種類
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 一棟のマンションのイソメトリック図。1階に店舗アイコン、上階に住宅アイコンが並ぶ。各階の専有部分ごとに小さな名札（種類ラベル）が付いている。
+建物の「種類」は、あらかじめ決まった用語の中から実際の用途を的確に選ぶものです。「どこに記録されるか」「何と表記できるか」の2つの視点から見ていきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+「種類」は一棟の建物ではなく、各専有部分ごとに記録される
+Illustration: マンションのイソメトリック図。一棟全体を囲む点線の枠には「種類」の記載欄が✕印で消されている。各階の専有部分（部屋）ごとに、「店舗」「居宅」などの個別の名札ラベルが付いている。
+Caption (small text below):
+「種類」は部屋ごと、建物全体じゃないんです
+
+--- CARD 2 ---
+Heading (bold):
+共用部分の登記で職権抹消されるのは、所有者・権利の登記であり「種類」ではない
+Illustration: 管理人室のアイコンに「所有者」「抵当権」のラベルが付いた紙が✕印で消されているが、隣の「種類：管理人室」というラベルはそのまま残っている。
+Caption (small text below):
+消えるのは所有者情報、種類じゃありません
+
+--- CARD 3 ---
+Heading (bold):
+複数用途の建物でも「多目的ビル」という種類は使えず、実際の用途を列記する
+Illustration: 5階建てビルのイソメトリック図（1階食品売場、2〜3階衣料品売場、4階ゲームセンター、5階映画館のアイコン）。ビルの上に「多目的ビル」のラベルが✕印で消され、代わりに「店舗・遊技場・興行場」という列記ラベルが付く。
+Caption (small text below):
+「多目的ビル」じゃ、種類として認められません
+
+--- CARD 4 ---
+Heading (bold):
+学校教育法の適用外の学習塾は、種類を「教習所」と定めることができる
+Illustration: 学習塾の看板が掛かった建物アイコンに「種類：教習所」の名札ラベルが付いている。
+Caption (small text below):
+塾でも、種類は「教習所」でいいんです
+
+--- CARD 5 ---
+Heading (bold):
+ガソリンスタンドは、種類を「給油所」と定めることができる
+Illustration: 給油機のあるガソリンスタンドの建物アイコンに「種類：給油所」の名札ラベルが付いている。
+Caption (small text below):
+ガソリンスタンドは、そのまま「給油所」
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　令和7年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

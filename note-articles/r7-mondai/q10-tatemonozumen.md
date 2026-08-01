@@ -78,3 +78,93 @@
 - 仮換地の形は、実線でくっきり描きます
 - 上下をくっつけるなら、両階の図面が必要
 - 共用部分をやめても、図面の出し直しは不要
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+特に「建」「物」「地」「登」「記」「所」といった字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物図面・各階平面図、いつ出せばいい？いつ省略できる？
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第10問　不動産登記法(建物図面)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A building icon surrounded by multiple speech bubbles
+labeled「必要」and「不要」, each attached to a different scenario icon
+(address change, boundary addition, merger, abolition of common-area
+status).
+建物図面・各階平面図は「建物そのものの物理的な状態や位置関係が変わるかどうか」を軸に、提供が必要かどうかが決まります。
+
+--- CARD 1 ---
+Heading (bold):
+所在の変更だけなら、建物図面・各階平面図は不要
+Illustration: A building icon unchanged in shape, only a nameplate
+showing地番 label changing from one number to another, with a
+building-diagram icon and floor-plan icon both crossed out labeled
+「不要」.
+Caption (small text below):
+建物の所在変更だけなら建物図面・各階平面図は不要
+
+--- CARD 2 ---
+Heading (bold):
+規約敷地を追加するだけなら、建物図面は不要
+Illustration: A condominium building icon plus a separate parking-lot land
+icon labeled「規約敷地追加」, connected only by a dashed line (no physical
+connection), with a building-diagram icon crossed out labeled「不要」.
+Caption (small text below):
+建物のない土地を規約敷地に追加するだけなら建物図面は不要
+
+--- CARD 3 ---
+Heading (bold):
+仮換地上の建物は、実際に使っている仮換地の形を実線で示す
+Illustration: A building on a temporary relocation plot (仮換地, shown with
+a dashed outline distinct from the registered lot), with a
+building-diagram sheet showing the仮換地's shape drawn in a solid line
+labeled「実線」.
+Caption (small text below):
+仮換地上の建物は実際に使用する仮換地の形状を実線で図示
+
+--- CARD 4 ---
+Heading (bold):
+上下に接する区分建物を合併するときは、各階平面図が必要
+Illustration: Two stacked box icons labeled「1階の区分建物」and
+「2階の区分建物」merging into one, with two floor-plan sheet icons
+（各階平面図）required, marked with a checkmark labeled「必要」.
+Caption (small text below):
+上下に接する区分建物の合併には各階平面図の提出が必要
+
+--- CARD 5 ---
+Heading (bold):
+共用部分の規約を廃止するだけなら、建物図面・各階平面図は不要
+Illustration: A「共用部分」label being torn off a building icon, with the
+building's shape unchanged, and building-diagram/floor-plan icons crossed
+out labeled「提出不要」.
+Caption (small text below):
+共用部分の規約廃止による表題登記では建物図面等は不要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

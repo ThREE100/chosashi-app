@@ -81,3 +81,81 @@
 - 筆界特定の結果、審査請求では争えません
 - 隣の更正登記、筆界異議じゃ取り消せません
 - 抵当権者どころか、誰も参加人にはなれないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: kanji such as 審・査・請・求・登・記・権・所 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+審査請求、期間と対象のルール
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第17問／登記官の処分又は不作為についての審査請求
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 法務局のアイコンと、審査請求書を提出する人物のアイコン。時計とカレンダーのアイコンが横にある。
+登記官の処分に対する審査請求には、期間の制限や、そもそも対象になるかどうかの見極めが必要です。数字の間違いや対象外の主張を見抜くのがポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+登記官の処分についての審査請求には、そもそも期間制限がない
+Illustration: カレンダーのアイコンに「1か月」「3か月」の文字が✕印で消され、代わりに「制限なし」の丸ラベルが付く。
+Caption (small text below):
+「1か月」どころか、実は期間制限そのものがないんです
+
+--- CARD 2 ---
+Heading (bold):
+裁決したときは、裁決書の謄本を審査請求人・登記官双方に交付する
+Illustration: 裁決書の謄本アイコンが二つに枝分かれし、一方は審査請求人のアイコンへ、もう一方は登記官のアイコンへ届く。
+Caption (small text below):
+裁決の結果は、登記官にも届くんです
+
+--- CARD 3 ---
+Heading (bold):
+筆界特定の結果は「処分」に当たらず、審査請求の対象にならない
+Illustration: 筆界特定の結果の書類アイコンから審査請求の窓口への矢印に✕印。代わりに裁判所への「境界確定訴訟」の矢印が示される。
+Caption (small text below):
+筆界特定の結果、審査請求では争えません
+
+--- CARD 4 ---
+Heading (bold):
+隣接地の所有者は、他人の地積更正登記を筆界異議で争えない
+Illustration: 甲土地の地積更正登記の書類アイコンに、隣の乙土地の所有者アイコンが「筆界に異議あり」と主張しているが、審査請求の矢印に✕印。代わりに「筆界特定の申請」への矢印が示される。
+Caption (small text below):
+隣の更正登記、筆界異議じゃ取り消せません
+
+--- CARD 5 ---
+Heading (bold):
+登記官の処分についての審査請求には、そもそも参加人という制度がない
+Illustration: 分筆登記却下の審査請求書類の横に、抵当権者のアイコンが「参加人」として加わろうとしているが、✕印で参加人の椅子（制度）自体が用意されていないことを示す。
+Caption (small text below):
+抵当権者どころか、誰も参加人にはなれないんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　令和7年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

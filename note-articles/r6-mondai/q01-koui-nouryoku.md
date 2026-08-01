@@ -79,3 +79,80 @@
 - 「知ってて契約」でも、取消しはできるんです
 - 日用品の買い物、悪意でも取り消せないって知ってた？
 - 返事しないと「追認したこと」にされちゃうんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 権 (as in 取消権・相続) appears in
+this infographic. Do not render it as the Simplified Chinese variant (权) —
+use the standard Japanese form 権 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+行為能力の落とし穴 — 取消しは誰のもの？
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第1問／行為能力
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 未成年者・成年被後見人・被保佐人という3種類の制限行為能力者を表すisometricな人物アイコンが横一列に並び、それぞれの頭上に「？」と「取消し」の吹き出しアイコンが浮かぶイラスト。中央に虫眼鏡のアイコンを配置する。
+行為能力の分野は、制限行為能力者ごとに「誰が」「いつ」取り消せるのかを正確に整理できているかが問われます。
+
+--- CARD 1 ---
+Heading (bold):
+審判前の契約は、後から取り消せない
+Illustration: 高齢の男性キャラクターのイラスト。左側に「後見開始の審判」前の時期(グレーの背景、契約書のアイコン)、右側に審判の日を示すisometricな裁判所の印章アイコンと縦の区切り線。区切り線の左側の契約書には赤い×マークをつけ、「遡って取り消せない」というラベルを添える。
+Caption (small text below):
+後見開始の審判の効力は遡及しないため、審判前の契約は取り消せない
+
+--- CARD 2 ---
+Heading (bold):
+未成年者は、自分ひとりで契約を取り消せる
+Illustration: 学生服姿の未成年者キャラクターが一人で書類にサインしているイラスト。書類には「取消し」のラベル。背景に法定代理人(親)のアイコンを薄いグレーで描き、「同意不要」という吹き出しラベルを添える。
+Caption (small text below):
+未成年者の取消権行使は、法定代理人の同意なく単独でできる
+
+--- CARD 3 ---
+Heading (bold):
+「知ってて契約」でも、取消しはできる
+Illustration: 未成年者キャラクターが「これは後で取り消せる契約だ」と気づきながら契約書にサインしている吹き出しアイコン。契約書の横に丸(○)のアイコンと「取消し可能」というラベルを添える。
+Caption (small text below):
+取り消せることを知って契約しても、取消しは可能（5条2項、120条1項）
+
+--- CARD 4 ---
+Heading (bold):
+日用品の買い物は、相手の善意・悪意を問わず取り消せない
+Illustration: スーパーのレジ前のイラスト。成年被後見人キャラクターが食料品の買い物袋を持ち、店員キャラクターの頭上に「知っていた」「知らなかった」の2つの吹き出しを並べて描く。中央に大きな×マークと「取消し不可」のラベルを重ねる。
+Caption (small text below):
+日用品の購入は相手方の善意・悪意を問わず取り消せない（9条ただし書）
+
+--- CARD 5 ---
+Heading (bold):
+返事がなければ、追認したとみなされる
+Illustration: 契約の相手方キャラクターが保佐人キャラクターへ手紙(催告書)を送るイラスト。時計のアイコンで期間の経過を示し、返信のない郵便受けのアイコンの先に「追認」のスタンプが押される様子を描く。
+Caption (small text below):
+相手方は保佐人に催告でき、無返答なら追認が擬制される（20条2項）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

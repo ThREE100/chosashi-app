@@ -79,3 +79,82 @@
 - 敷地共有者の証明、一部の人だけでも足りるんです
 - 電子署名があっても、会社法人等番号は必要なんです
 - 地上権が敷地権になるなら、規約証明は省略できないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the characters 登・記（表題登記）、地・建・物
+（土地・建物）、番・号（会社法人等番号・2885号）、所（住所）、権（地上権）
+appear in this infographic. Do not render any of 登・记・权・号・所 as
+Simplified Chinese variants — use the standard Japanese forms
+登・記・地・建・物・番・号・所・権 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+住所証明・所有権証明、省略できるのはどこまで？
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第4問／表題登記の添付情報
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 表題登記の申請書類のisometricイラスト。住所証明書・所有権証明書・代理権限証明書の3つの書類アイコンが並び、それぞれに「省略できる？」の吹き出しマークがついている。
+表題登記の添付情報は、「省略できる場面」と「省略できない場面」の見極めが得点の分かれ目になります。
+
+--- CARD 1 ---
+Heading (bold):
+住民票コードがあれば、住所証明書はいらない
+Illustration: 申請人Aのアイコンが住民票コードの数字が書かれたカードを申請書に添える様子。従来の住民票の写しのアイコンに赤い×マーク、住民票コードのカードに緑の○マークを添える。
+Caption (small text below):
+住民票コードの提供により住所証明情報を省略できる（令9条）
+
+--- CARD 2 ---
+Heading (bold):
+法定相続情報一覧図があれば、別の住所証明はいらない
+Illustration: 相続人Bのアイコンが法定相続情報一覧図(家系図が描かれた書類アイコン)を提出する様子。別の住民票のアイコンに赤い×マークと「不要」のラベルを添える。
+Caption (small text below):
+住所入りの法定相続情報一覧図の写しで住所証明情報に代えられる
+
+--- CARD 3 ---
+Heading (bold):
+敷地共有者の証明は、一部の人だけでも足りる
+Illustration: 甲・乙・丙3人の共有者アイコンが並ぶ敷地の上に建物が建つisometricイラスト。3人のうち1人だけが証明書にサインしている様子を緑の○マークで示し、「全員分は不要」というラベルを添える。
+Caption (small text below):
+敷地共有者の証明は一部の者のものでも足りる（昭37.10.8民甲2885号）
+
+--- CARD 4 ---
+Heading (bold):
+電子署名があっても、会社法人等番号は必要
+Illustration: 合同会社のisometric建物アイコン、土地家屋調査士キャラクターが電子申請の画面を操作する様子。電子署名のアイコンと「会社法人等番号」のカードアイコンの両方に緑の○マークをつけ、「両方必要」のラベルを添える。
+Caption (small text below):
+電子署名付き代理権限情報があっても、会社法人等番号は別途必要（令7条1項1号イ）
+
+--- CARD 5 ---
+Heading (bold):
+地上権が敷地権になるなら、規約の証明は省略できない
+Illustration: 区分建物のisometricイラスト、敷地の地上権アイコンが建物の「敷地権」ラベルへつながる矢印。規約書のアイコンに緑の○マークと「証明が必要」のラベルを添える。
+Caption (small text below):
+地上権が敷地権となる場合は、規約を証する情報の提供が必要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

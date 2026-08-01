@@ -78,3 +78,88 @@
 - 面積は合ってるのに、形はズレてる…そんな時も
 - 隣の土地まで動かす訂正は、一人じゃ決められません
 - 共有名義でも大丈夫、地図の直しは1人からOK
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+特に「登」「記」「地」といった字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+--- HEADER ---
+Title (large, bold, 1行):
+地図の訂正、どこまで自由にできる？
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第4問　不動産登記法(地図)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A torn section of a map being repaired with correction tape,
+with a magnifying-glass-holding registrar character (登記官) beside it.
+「地図の訂正」は、条文の細かい文言（期限・要件・範囲）が混ざりやすい分野です。
+
+--- CARD 1 ---
+Heading (bold):
+「発見から1か月以内」という期限は存在しない
+Illustration: A character examining a map (地図) with a magnifying glass,
+finding an error, with a speech bubble labeled「遅滞なく届出」and a
+calendar icon showing「1か月」crossed out with a red X.
+Caption (small text below):
+「発見から1か月以内」という期限規定はなく、「遅滞なく」が正しい
+
+--- CARD 2 ---
+Heading (bold):
+登記官は申出がなくても、自分の判断で地図を直せる
+Illustration: An isometric registrar character (登記官) stamping a map
+correction himself, with an eye icon and no incoming envelope, labeled
+「職権で訂正」.
+Caption (small text below):
+登記官は申出がなくても職権で地図を訂正できる
+
+--- CARD 3 ---
+Heading (bold):
+地積が合っていても、地図の形がずれていれば訂正申出はできる
+Illustration: A land-plot icon with a correct area label「100㎡」but a
+misaligned/torn boundary edge being redrawn, with an arrow labeled
+「地図訂正 申出可能」.
+Caption (small text below):
+地積に誤りがなくても、区画の形状・位置がずれていれば訂正申出はできる
+
+--- CARD 4 ---
+Heading (bold):
+他の土地まで巻き込む訂正は、一方的な申出だけではできない
+Illustration: Two adjacent land-plot icons; correcting one causes ripple
+lines into the neighboring plot, which has an X mark labeled「同意なし」
+blocking the arrow.
+Caption (small text below):
+他の土地の区画にも影響が及ぶ訂正は、申出だけでは実施できない
+
+--- CARD 5 ---
+Heading (bold):
+共有者が2人いても、1人だけで地図訂正の申出ができる
+Illustration: Two character icons (共有者) both owning one land-plot icon;
+one character alone submits a document labeled「訂正申出」with a checkmark.
+Caption (small text below):
+共有者のうちの1人だけでも地図訂正の申出ができる（保存行為的性質）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

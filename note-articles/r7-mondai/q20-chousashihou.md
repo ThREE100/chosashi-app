@@ -76,3 +76,81 @@
 - 調査士の事務所は、そもそも1つだけです
 - 登録取消と同時に、法人からも自動退場
 - 「取り消さなければ」じゃなくて、裁量なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: kanji such as 調・査・士・登・録・建・物・所 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+調査士・調査士法人、届出先と脱退・取消のルール
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第20問／土地家屋調査士又は土地家屋調査士法人
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 調査士バッジを持つ人物アイコンと、法務局・調査士会・連合会の3つの建物アイコンが並ぶ。矢印がそれぞれ異なる届出先を示す。
+土地家屋調査士・調査士法人に関する届出は、「どこに届け出るか」「取消は義務なのか裁量なのか」を見分けるのがポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+定款変更の届出先は、法務局ではなく所属の調査士会及び連合会
+Illustration: 調査士法人の建物アイコンから、定款変更の書類が法務局の建物に向かう矢印に✕印。代わりに調査士会と日本土地家屋調査士会連合会、2つの建物に届く矢印。
+Caption (small text below):
+定款変更、法務局じゃなく調査士会と連合会へ
+
+--- CARD 2 ---
+Heading (bold):
+補助者を置かなくなったときは、所属の調査士会に届け出る
+Illustration: 補助者のアイコンが退職して事務所から去る様子。調査士のアイコンが調査士会の建物に届出書類を提出している。
+Caption (small text below):
+補助者がいなくなったら、調査士会に報告
+
+--- CARD 3 ---
+Heading (bold):
+調査士は事務所を二以上設けることができない
+Illustration: 東京の事務所アイコンから大阪への2つ目の事務所アイコンに向かう矢印に✕印。「事務所は一つだけ」のラベル。
+Caption (small text below):
+調査士の事務所は、そもそも1つだけです
+
+--- CARD 4 ---
+Heading (bold):
+登録を取り消された社員は、法人を当然に脱退する
+Illustration: 調査士法人の建物アイコンの中にいる社員アイコンに「登録取消」のスタンプが押されると同時に、法人の建物から外へ自動的に出ていく矢印。
+Caption (small text below):
+登録取消と同時に、法人からも自動退場
+
+--- CARD 5 ---
+Heading (bold):
+心身の故障による登録取消は、義務ではなく裁量
+Illustration: 体調を崩した調査士のアイコンの横で、日本土地家屋調査士会連合会の建物アイコンが「取り消さなければならない」の吹き出しに✕印、「取り消すことができる」の吹き出しに丸マーク。
+Caption (small text below):
+「取り消さなければ」じゃなくて、裁量なんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　令和7年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -79,3 +79,81 @@ Aが甲土地をBに売却した後、登記未了の間にCのために抵当�
 - 前主・後主の関係、実は対抗関係じゃないんです
 - 相続人には、登記なしで対抗できるって知ってた？
 - 不法占拠者に登記は不要、明渡し請求できるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the characters 登・記（登記）、権（抵当権・所有権）、
+地（甲土地）appear in this infographic. Do not render 登 or 记-like
+simplified forms, and do not render 権 as the Simplified Chinese variant
+（权）— use the standard Japanese forms 登・記・権・地 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+登記なしで対抗できる相手・できない相手
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第2問／民法177条・対抗要件
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 一つの土地(甲土地)を中心に、複数の人物アイコン(単純悪意の第三者、抵当権者、前主後主、相続人、不法占拠者)が周囲に配置され、土地との間に「登記」のスタンプアイコンでつながっているかどうかを示す矢印を描くisometricイラスト。
+民法177条の「第三者」に当たるかどうかで、登記の要否が変わります。5つの場面を通じて、対抗関係の範囲を正確に線引きしましょう。
+
+--- CARD 1 ---
+Heading (bold):
+悪意の第三者にも、登記がなければ対抗できない
+Illustration: 甲土地のisometric図。売主Aから買主Bへの矢印(登記なし、グレーの点線)、AからCへの別の売買矢印(実線)。Cの頭上に「知っていた(悪意)」という吹き出しを描くが、Bの矢印には赤い×マークをつけ「対抗不可」のラベルを添える。
+Caption (small text below):
+単純悪意の第三者も「第三者」にあたり、登記なしでは対抗できない（最判昭32.9.19）
+
+--- CARD 2 ---
+Heading (bold):
+抵当権が実行された買受人にも、登記が必要
+Illustration: 甲土地のisometric図。Aから抵当権者Cへの抵当権設定を示す鎖のアイコン、競売のハンマーアイコン、買受人Dへの所有権移転矢印。BからDへの対抗を示す矢印に赤い×マークと「対抗不可」のラベルを添える。
+Caption (small text below):
+抵当権実行の買受人は所有権取得者であり、登記なしでは対抗できない
+
+--- CARD 3 ---
+Heading (bold):
+前主・後主の関係には、登記なしで対抗できる
+Illustration: A→B→Cと矢印でつながる一直線の売買連鎖を示すisometricイラスト。CからAへの対抗関係を示す矢印に緑の○マークと「対抗可」のラベルを添える。
+Caption (small text below):
+前主・後主の関係にある者は「第三者」にあたらず、登記なしで対抗できる（最判昭43.11.19）
+
+--- CARD 4 ---
+Heading (bold):
+相続人には、登記なしで対抗できる
+Illustration: Aのアイコンから矢印でBへ売買、Aが亡くなったことを示す位牌アイコン、相続人Cへの継承を示す点線矢印。Bの所有権主張の矢印の先に緑の○マークと「対抗可」のラベルを添える。
+Caption (small text below):
+相続人は被相続人を包括承継するため、登記なしで対抗できる（896条本文）
+
+--- CARD 5 ---
+Heading (bold):
+不法占拠者には、登記なしで明渡しを請求できる
+Illustration: 甲土地に無断で住み着いた不法占拠者Cのテントアイコン、所有者Bキャラクターが「出て行ってください」と明渡しを求める吹き出し。矢印に緑の○マークと「対抗可」のラベルを添える。
+Caption (small text below):
+不法占拠者は「第三者」にあたらず、登記なしで対抗できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

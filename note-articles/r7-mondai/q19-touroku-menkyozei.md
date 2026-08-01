@@ -76,3 +76,81 @@
 - 合筆の抹消は、実は非課税なんです
 - 再区分の税額、後の個数で決まるんです
 - まとめて申請したら、実は2,000円でした
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: kanji such as 登・録・建・物・合・筆・所・権 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+登録免許税、非課税と個数×千円の見分け方
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第19問／登録免許税
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 天秤のイラスト。片方に「非課税」の札、もう片方に「個数×1,000円」の硬貨アイコンが積まれている。
+表示に関する登記の登録免許税は、「そもそも非課税」なのか「分筆・分割・区分・合併後の個数×1,000円」で計算するのかを見分けるのがポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+表題部所有者の住所の更正は、非課税
+Illustration: 表題部所有者の住所更正登記の書類アイコンに「非課税」の丸ラベル。横に「1,000円」の硬貨アイコンに✕印。
+Caption (small text below):
+表題部所有者の住所更正、実は非課税です
+
+--- CARD 2 ---
+Heading (bold):
+地方公共団体の代位による分筆登記の嘱託は、非課税
+Illustration: 市役所のアイコンが、私人に代わって土地の分筆登記を嘱託する書類を提出。書類に「非課税」の丸ラベル。
+Caption (small text below):
+代位で分筆しても、税金はかかりません
+
+--- CARD 3 ---
+Heading (bold):
+合筆登記の錯誤による抹消は、非課税
+Illustration: 3筆の土地が合筆された後、その登記を✕印で抹消する書類アイコンに「非課税」の丸ラベル。横に「3,000円」の硬貨アイコンに✕印。
+Caption (small text below):
+合筆の抹消は、実は非課税なんです
+
+--- CARD 4 ---
+Heading (bold):
+区分建物の再区分は、再区分後の個数×1,000円
+Illustration: 1個の区分建物が2個に分かれるイラスト。硬貨アイコンが2枚（1,000円×2＝2,000円）並ぶ。
+Caption (small text below):
+再区分の税額、後の個数で決まるんです
+
+--- CARD 5 ---
+Heading (bold):
+分割の登記と合併の登記を一括申請するときは、2,000円
+Illustration: 甲建物から附属建物を切り離して乙建物にくっつける図に、1通の申請書アイコン。横に硬貨アイコン2枚（2,000円）、「3,000円」のラベルに✕印。
+Caption (small text below):
+まとめて申請したら、実は2,000円でした
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　令和7年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.
