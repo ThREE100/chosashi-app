@@ -80,3 +80,122 @@
 - 委任者が亡くなっても、委任状は生きてるんです
 - 規約敷地を分けるとき、規約の証明はいらないんです
 - 地役権が一部だけなら、証明書と図面がセットで必要なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地の表示登記の申請情報・添付情報に関する5つの独立したルール（共通添付情報の援用・登記原因の要否・代理権の存続・規約証明情報の要否・地役権証明情報）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric application
+documents, land plots being split, power-of-attorney scrolls, registry
+stamps, easement path icons — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・添・付・筆・委・任, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その添付情報、本当に付け直す？
+土地の表示登記の申請情報・添付情報を整理する
+
+Subtitle (smaller, centered, 1行):
+共通情報の援用・代理権の存続・地役権証明の5論点
+(平成27年度 午後の部 第6問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric desk with a stack of application documents,
+a magnifying glass hovering over an "添付情報" label, and small icons
+radiating outward: a duplicate-document icon, a calendar icon, a
+power-of-attorney scroll, a regulation document, and an easement path
+icon, showing five different attachment-related questions.
+土地の表示に関する登記では、「申請情報に何を書くか」「添付情報として
+何を付けるか」の細かいルールが得点の分かれ目になります。共通情報の
+援用、形成的登記の登記原因、代理権の存続、地役権の証明情報など、
+論点が横断的に問われます。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+共通する添付情報は、一の申請情報として提供すれば足りる
+Illustration: An isometric scene showing two application forms side by
+side; a single shared document (labeled "共通添付情報") is stapled
+only to the first form, with a dotted arrow labeled "援用" pointing to
+the second form instead of a duplicate copy.
+Caption (small text below):
+同一の登記所に対して同時に二以上の申請をする場合、各申請に共通する
+添付情報は、一の申請情報と併せて提供すれば足りる(不動産登記規則
+37条1項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+分筆の登記は形成的登記なので、登記原因・日付は不要
+Illustration: An isometric land plot being split into two by scissors,
+with a calendar icon showing a crossed-out date, and a small label
+"登記原因なし" beside the split, contrasted with a neighboring 地積変更
+document that does show a filled-in date.
+Caption (small text below):
+分筆の登記は一筆の土地を人為的に区切る形成的な登記であり、登記原因
+(過去の事実)が存在しないため、登記原因及びその日付を記載しない。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+登記申請の代理権は、本人の死亡では消滅しない
+Illustration: An isometric power-of-attorney scroll glowing with a
+checkmark, held by a surveyor figure, while a small tombstone icon
+appears beside the client figure who has passed away, with an arrow
+showing the scroll remains valid and unaffected.
+Caption (small text below):
+登記の申請をする者の委任による代理人の権限は、本人の死亡によっては
+消滅しないという特則がある(不動産登記法17条)。相続人からの再委任は
+不要。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+規約敷地を分筆する場合、規約を設定したことを証する情報は不要
+Illustration: An isometric regulation document (labeled "規約") sitting
+beside a land plot being split by scissors, with a crossed-out arrow
+showing the regulation document does NOT need to be reattached to the
+split application.
+Caption (small text below):
+所有権が敷地権である旨の登記がされている規約敷地を分筆する場合で
+あっても、規約を設定したことを証する情報を添付情報として提供する
+必要はない。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+承役地の合筆で地役権範囲が一部のときは、証明書と図面がセットで必要
+Illustration: An isometric scene showing two land plots merging into
+one, with a dotted highlighted region showing only part of the merged
+plot is subject to an easement path icon; beside it, two document
+icons are shown together: an easement-holder certificate and an
+easement map (地役権図面).
+Caption (small text below):
+地役権の登記がある承役地について合筆の登記を申請する場合、地役権
+設定の範囲が土地の一部であるときは、地役権者作成の範囲証明情報と
+地役権図面を併せて提供する(不動産登記令別表8項添付情報ロ)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第6問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・添・付・筆・委・任. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

@@ -80,3 +80,117 @@
 - 図面の地番を直すなら、直した図面を添えるんです
 - 不動産番号があれば、地番は省略できる
 - 地番区域が違えば、隣でも合筆できないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地番・地番区域の取扱いに関する5つの独立したルール（符号付き地番の記載・字の誤りの更正・地積測量図の訂正・不動産番号による省略・地番区域が異なる合筆の可否）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots with
+number tags, registry ledgers, survey maps, ID barcode tags, prohibition
+signs — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・番・区・域・筆, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地番、そのまま書く？書き直す？
+地番と地番区域の取扱い
+
+Subtitle (smaller, centered, 1行):
+符号・字の誤り・省略・合筆の可否を整理する
+(平成27年度 午後の部 第8問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric land plot with a wooden number tag reading
+"1番イ", surrounded by small vignette icons: a registry official's
+stamp, a survey map, a barcode-style "不動産番号" tag, and two
+differently-colored adjacent land plots separated by a dotted "地番
+区域" boundary line.
+地番は土地を特定するための"住所のような記号"です。「申請時にそのまま
+書くのか」「不動産番号があれば省略できるのか」「地番区域が違う土地を
+合筆できるのか」など、地番まわりの基本ルールを整理します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+符号を含む地番でも、申請時はその地番をそのまま記載する
+Illustration: An isometric land plot with a number tag reading "1番
+イ", with an application document showing the same "1番イ" being
+copied verbatim onto it by a hand, while a registry official figure
+stands to the side holding a stamp labeled "職権で整理" for later use.
+Caption (small text below):
+数字でない符号を含む地番の土地でも、申請人は現に登記記録にある地番
+をそのまま申請情報に記載する。書き直すかは登記官が職権で判断する。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+地番区域(字)の誤りは、所有権の登記名義人も更正を申請できる
+Illustration: An isometric registry ledger page showing a mistaken
+area-name tag ("西町" crossed out, corrected to "東町"), with the
+land owner figure (not a government official) holding the correction
+pen with a checkmark.
+Caption (small text below):
+土地の地番区域である字に登記記録上の誤りがあるとき、その土地の
+所有権の登記名義人も表題部の更正の登記を申請することができる。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+地積測量図の地番訂正には、訂正後の図面を提供する
+Illustration: An isometric survey map with a red "誤り" marker on an
+incorrect land number, beside it a freshly drawn corrected map labeled
+"訂正後の地積測量図" being handed over together with the correction
+request form.
+Caption (small text below):
+地積測量図に記録された地番に誤りがある場合の訂正の申出には、訂正後
+の図面をあわせて提供しなければならない(不動産登記規則88条1項・
+2項)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+不動産番号を提供すれば、地番等の記載は省略できる
+Illustration: An isometric application document with a barcode-style
+"不動産番号" tag being scanned, and an arrow showing the "地番" "地目"
+"地積" fields on the form automatically becoming grayed out /
+optional as a result.
+Caption (small text below):
+申請情報の内容として不動産番号を提供したときは、所在・地番・地目・
+地積など、その不動産を特定するための事項の記載を省略できる
+(不動産登記令6条1項、規則34条2項)。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+地番区域が異なる土地は、接続していても合筆できない
+Illustration: An isometric scene showing two adjacent land plots
+physically touching each other, one labeled "Ａ町" and the other "Ｂ町",
+with a merge arrow between them crossed out by a red prohibition mark.
+Caption (small text below):
+合筆の登記は、地目又は地番区域が相互に異なる土地についてはすることが
+できない。物理的に接続していても合筆できない(不動産登記法41条2号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第8問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・番・区・域・筆. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated
+or missing cards, and confirm every heading, illustration label, and
+caption text matches the Japanese text given above verbatim, with no
+paraphrasing and no substituted characters.
+```

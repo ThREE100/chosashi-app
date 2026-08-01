@@ -80,3 +80,118 @@
 - 提供できない理由、証明書はいらないって知ってた？
 - 4筆の合筆、まとめて1件で申請できるんです
 - 合筆の印鑑証明、返してもらえないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+合筆の登記に関する5つの独立したルール（申請人適格・登記識別情報の通知・提供不能理由の記載・一の申請情報でのまとめ・印鑑証明書の還付制限）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots merging,
+registry ID cards, power-of-attorney scrolls, seal/hanko certificates,
+document stacks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・筆・識・別・還・付, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+合筆はまとめるからこそ厳しい
+申請人・識別情報・印鑑証明の落とし穴
+
+Subtitle (smaller, centered, 1行):
+できる／できないを一つずつ判定する
+(平成27年度 午後の部 第9問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene showing two land plots merging into
+one with a stitching-thread icon, surrounded by small vignette icons:
+a registry ID card, a power-of-attorney scroll, a document stack, and
+a hanko seal certificate, all converging toward the merge point.
+合筆は複数の土地を1つにまとめる登記なので、申請できる人・登記識別
+情報の扱い・印鑑証明書の還付など、手続の細部が厳格に問われます。
+"できる／できない"を丁寧に判定します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+合筆を申請できるのは、登記記録上の所有権の登記名義人
+Illustration: An isometric scene showing buyer B standing beside two
+land plots still labeled with seller A's name tag, with a prohibition
+mark over B's hand reaching for a "合筆申請" stamp, and an arrow
+showing B must first complete a "所有権移転登記" step.
+Caption (small text below):
+合筆の登記は、表題部所有者又は所有権の登記名義人でなければ申請
+できない(不動産登記法39条1項)。買っただけでは名義人になっていない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+登記識別情報の通知を受けるには、代理人に特別の委任が必要
+Illustration: An isometric power-of-attorney scroll with a checkbox
+item glowing and checked, labeled "登記識別情報の通知を受ける権限"; a
+surveyor figure receives a sealed envelope icon only when this checkbox
+is present, otherwise the envelope is crossed out.
+Caption (small text below):
+委任による代理人が登記識別情報の通知を受けるためには、その旨の特別
+の委任が必要である(不動産登記規則62条2項)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+提供できない理由は、申請情報に書けば足りる(証明情報は不要)
+Illustration: An isometric application form with a checkbox item
+"理由:失念のため" being written directly onto the form by a pen, while
+a separate "理由を証する書類" document icon is crossed out beside it
+as unnecessary.
+Caption (small text below):
+登記識別情報を提供することができない正当な理由があるときは、その
+理由を申請情報の内容とすれば足り、理由を証する情報の提供は不要
+(不動産登記令3条12号)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+所有者・管轄が同じで要件を満たせば、一の申請情報でまとめて申請できる
+Illustration: An isometric scene showing four land plots labeled 甲・
+乙・丙・丁 with the same owner icon above all four, and two merge
+arrows (甲→丙、乙→丁) both bundled into a single application document
+labeled "一の申請情報".
+Caption (small text below):
+同一の登記所の管轄区域内にあり所有者が同一である複数の合筆は、
+登記の目的・原因等が同一であれば、一の申請情報によって申請できる
+(不動産登記令4条ただし書)。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+合筆等の印鑑証明書は、原本還付を請求できない
+Illustration: An isometric hanko seal certificate document being filed
+permanently into a registry cabinet drawer labeled "保管", with a hand
+reaching to take it back blocked by a prohibition mark and a label
+"原本還付不可".
+Caption (small text below):
+所有権の登記がある土地の合筆、建物の合体・合併の申請で提供する印鑑
+証明書は、原本還付を請求することができない(不動産登記規則55条1項
+ただし書)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第9問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・筆・識・別・還・付. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```
