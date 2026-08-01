@@ -81,3 +81,125 @@
 - 戸籍の束、相続関係説明図を添えれば返ってくるんです
 - 登記識別情報の紙は、完了後に廃棄されるんです
 - 原本、申し出れば郵送で返してもらえるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+添付書面の原本の還付に関する5肢を、「原本還付できるもの」（ア・ウ）と「原本還付できないもの・還付の方法」（イ・エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric document stacks,
+return/refund arrows, family-tree diagrams, shredder/trash icons, mail
+envelope icons — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 原・本・還・付・証・明・書・記・録・識, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+添付書面の原本の還付
+返してもらえる？もらえない？
+
+Subtitle (smaller, centered, 1行):
+還付できる書類の見分け方を整理(平成29年度 午後の部 第9問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design registry-office counter icon with
+two trays — one labeled "還付できる" holding a stack of documents with a
+return arrow, and one labeled "還付できない" holding a stack of documents
+with a prohibition mark — showing the two outcomes side by side.
+原本還付とは、申請のために添付した書面の原本を、登記完了後に返して
+もらう手続です。この分野では、その書面が原本還付の対象になるか、
+戸籍謄本などを相続関係説明図で返してもらえるか、返してもらう方法を
+整理できているかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+原本還付できるもの
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+工事完了引渡証明書に添付する印鑑証明書は、原本還付できる
+Illustration: An isometric document icon labeled "工事完了引渡証明書"
+with a small attached印鑑証明書 stamp-seal document beside it, both
+shown with a green return-arrow icon looping back to a person figure
+representing the applicant.
+Caption (small text below):
+建物の表題登記の申請で所有権を有することを証する情報として提供した
+工事施工会社作成の工事完了引渡証明書に添付する印鑑に関する証明書は、
+原本の還付を請求することができる。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+戸籍謄本等は、相続関係説明図を添付すれば原本還付できる
+Illustration: An isometric thick stack of documents labeled "戸籍謄本・
+除籍謄本" being replaced in a return tray by a small single family-tree
+diagram sheet labeled "相続関係説明図", with a green return-arrow icon
+showing the thick stack now flowing back to the applicant.
+Caption (small text below):
+表題部の変更の登記を表題部所有者の相続人が申請する場合において、相続を
+証する書面として提供した戸籍謄本等は、相続関係説明図を添付することに
+より原本の還付を請求することができる。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+原本還付できないもの・還付の方法
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+資格者代理人が作成した本人確認情報は、原本還付できない
+Illustration: An isometric document icon labeled "本人確認情報" stamped
+with "この申請専用" text, shown with a red prohibition (no-entry) mark
+over a return arrow to show it cannot be sent back.
+Caption (small text below):
+所有権の登記がある建物についての建物の合併の登記を資格者代理人から
+申請する場合において、当該資格者代理人が作成し提供する本人確認情報は、
+原本の還付を請求することができない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+登記識別情報を記載した書面は、完了時に廃棄され原本還付できない
+Illustration: An isometric sealed envelope icon labeled "登記識別情報"
+being dropped into a shredder/trash-bin icon right after a "登記完了"
+stamp appears, with a red prohibition mark over a return arrow beside
+it.
+Caption (small text below):
+所有権の登記がある建物について建物の合体による登記等を申請する際に
+提供した登記識別情報を記載した書面は、登記完了時に廃棄されるため、
+原本の還付を請求することができない。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+原本の還付は、申出があれば郵送によることもできる
+Illustration: An isometric mail envelope icon flying from a registry-
+office building icon toward a distant person figure's house, with a
+small "還付申出" stamp on the envelope, contrasted with a faded ghost
+prohibition mark that is crossed out to show mailing IS allowed.
+Caption (small text below):
+原本の還付は、申請人の申出があれば、原本を送付する方法によってする
+こともできる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第9問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 原・本・還・付・証・明・書・記・録・識. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 原本還付できるもの, 3 cards under 原本還付できないもの・
+還付の方法), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```
