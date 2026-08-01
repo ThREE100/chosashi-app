@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】「町内会」は誰のもの？権利能力なき社団の4つの顔〜成立要件・債務・登記・規約・入会権〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第1問・「町内会」は誰のもの？権利能力なき社団の4つの顔〜成立要件・債務・登記・規約・入会権〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -57,7 +57,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】長く使えば自分のもの？取得時効の落とし穴〜相続・悪意・無過失・起算点〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第2問・長く使えば自分のもの？取得時効の落とし穴〜相続・悪意・無過失・起算点〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -110,7 +110,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】公道に出られない土地「袋地」の通行権〜登記・水路・自動車・通路開設・分割〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第3問・公道に出られない土地「袋地」の通行権〜登記・水路・自動車・通路開設・分割〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -163,7 +163,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】「合筆申請の一切の権限」でどこまでできる？委任状と代理権の範囲〜取下げ・還付金・登記識別情報・審査請求〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第4問・「合筆申請の一切の権限」でどこまでできる？委任状と代理権の範囲〜取下げ・還付金・登記識別情報・審査請求〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -216,7 +216,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】出題当時は誤りだった選択肢が、今は正解になっている〜法定相続情報一覧図と「番号だけでOK」ルールの法改正〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第5問・出題当時は誤りだった選択肢が、今は正解になっている〜法定相続情報一覧図と「番号だけでOK」ルールの法改正〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -273,7 +273,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】この土地は何地目？地目認定は「今の使われ方」で決まる〜宅地・雑種地・鉄道用地の境目〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第6問・この土地は何地目？地目認定は「今の使われ方」で決まる〜宅地・雑種地・鉄道用地の境目〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -326,7 +326,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】畑が宅地になったら？地目変更登記の申請ルール〜申請義務者・登記原因の日付・過去の変更〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第7問・畑が宅地になったら？地目変更登記の申請ルール〜申請義務者・登記原因の日付・過去の変更〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -379,7 +379,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】地積が違っていたら？地積更正登記のルール〜申請できる人・所有権証明・相続人〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第8問・地積が違っていたら？地積更正登記のルール〜申請できる人・所有権証明・相続人〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -432,7 +432,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】土地を分ける「分筆の登記」〜職権分筆・地目変更との一括・代位申請〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第9問・土地を分ける「分筆の登記」〜職権分筆・地目変更との一括・代位申請〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -485,7 +485,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】土地はいつでもくっつけられる？合筆の登記の制限〜抵当権・信託・地役権・仮登記〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第10問・土地はいつでもくっつけられる？合筆の登記の制限〜抵当権・信託・地役権・仮登記〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -538,7 +538,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】建物の「所在」の書き方〜仮換地・数筆にまたがる建物・桟橋・合併〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第11問・建物の「所在」の書き方〜仮換地・数筆にまたがる建物・桟橋・合併〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -590,7 +590,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】建物の「構造」と「床面積」の数え方〜開閉式屋根・混構造・地上地下の順・地下街〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第12問・建物の「構造」と「床面積」の数え方〜開閉式屋根・混構造・地上地下の順・地下街〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -643,7 +643,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】「附属建物」のルール〜主だけ滅失・分割の申請人・再築・所有権証明〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第13問・「附属建物」のルール〜主だけ滅失・分割の申請人・再築・所有権証明〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -696,7 +696,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】マンションと土地をつなぐ「敷地権」〜規約敷地・更正登記・分離処分・合体〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第14問・マンションと土地をつなぐ「敷地権」〜規約敷地・更正登記・分離処分・合体〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -749,7 +749,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】登記記録を「読む」力を試す穴埋め問題〜敷地権付き区分建物の登記記録〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第15問・登記記録を「読む」力を試す穴埋め問題〜敷地権付き区分建物の登記記録〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -809,7 +809,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】2つの建物が1つになる「合体による登記等」〜抵当権・持分・所有権登記・賃借権〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第16問・2つの建物が1つになる「合体による登記等」〜抵当権・持分・所有権登記・賃借権〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -862,7 +862,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】建物が無くなったら？滅失の登記のルール〜申請人・仮登記名義人・相続・一棟の滅失〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第17問・建物が無くなったら？滅失の登記のルール〜申請人・仮登記名義人・相続・一棟の滅失〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -915,7 +915,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】土地の境界を国が判定する「筆界特定」〜意見・資料を出せる人・筆界特定の性質〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第18問・土地の境界を国が判定する「筆界特定」〜意見・資料を出せる人・筆界特定の性質〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -968,7 +968,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】この登記、いくらかかる？登録免許税の「課税・非課税」〜合筆・分筆・区分・合体・代位〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第19問・この登記、いくらかかる？登録免許税の「課税・非課税」〜合筆・分筆・区分・合体・代位〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1021,7 +1021,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】土地家屋調査士・調査士法人の守るべきルール〜利益相反・清算人・登録取消し・鑑定業務・補助者〜
+TITLE: 【土地家屋調査士受験生向け】 令和2年度 第20問・土地家屋調査士・調査士法人の守るべきルール〜利益相反・清算人・登録取消し・鑑定業務・補助者〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
