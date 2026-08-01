@@ -81,3 +81,85 @@
 - 登記識別情報の提供、「暗号化の委任」がいるんです
 - 完了通知を受け取るにも「復号の委任」が必要なんです
 - 審査請求は登記申請とは別モノ、授権がいるんです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「一切の権限」でどこまでできる？
+
+Subtitle (smaller, centered, 1行):
+令和2年度 第4問／委任状と代理権の範囲
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 委任状の書類アイコン（「土地の合筆の登記申請に関する一切の権限」の文字入り）を手にした代理人のアイソメトリックイラスト。委任状から吹き出しが伸び、その先に複数の小さな行為アイコン（取下げの書類、硬貨、鍵、審査請求書）を並べる。
+土地家屋調査士が依頼者から受け取る委任状に「登記申請に関する一切の権限」とだけ書かれているとき、どこまでの行為が代理権に含まれ、どこからは別途「特別の委任」が必要になるのかを問う問題です。「申請に付随する行為か／申請とは別の手続か」という視点で切り分けます。
+
+--- CARD 1 ---
+Heading (bold):
+依頼者が意思を撤回したときの「取下げ」には、特別の委任が必要
+Illustration: 「一切の権限」の委任状アイコンを持つ代理人のアイソメトリックイラスト。依頼者のシルエットから「やっぱりやめたい」の吹き出しが出ている。代理人の手前に「取下げ」の書類アイコンと大きなバツ印を描き、その脇に「特別の委任」のラベルを付けた別の委任状アイコンを配置する。
+Caption (small text below):
+申請意思撤回による取下げには特別の委任が必要（昭29.12.25民甲2637号）
+
+--- CARD 2 ---
+Heading (bold):
+過誤納の登録免許税の還付金受領にも、特別の委任が必要
+Illustration: 硬貨と印紙のアイコンに「還付金」のラベルを付け、代理人の手のアイコンに大きなバツ印を重ねる。その脇に依頼者本人のシルエットと、「特別の委任」のラベルを付けた委任状アイコンを配置し、還付金アイコンへの矢印を描く。
+Caption (small text below):
+過誤納還付金の受領には特別の委任が必要（平26.5.9民二272号）
+
+--- CARD 3 ---
+Heading (bold):
+電子申請で登記識別情報を提供するには、特別の委任が必要
+Illustration: パソコン画面のアイコンに鍵のマーク（登記識別情報）を表示し、鍵の周りに錠前と歯車のアイコン（暗号化）を描く。その下に「特別の委任」のラベルを付けた委任状アイコンを配置する。
+Caption (small text below):
+登記識別情報の提供（暗号化）には特別の委任が必要（平20.1.11民二57号）
+
+--- CARD 4 ---
+Heading (bold):
+電子申請で登記識別情報の通知を受けるにも、特別の委任が必要
+Illustration: パソコン画面にファイルが保存される様子を描き、鍵のマークが元の形に戻る（復号）矢印を添える。その下に「特別の委任」のラベルを付けた委任状アイコンを配置する。
+Caption (small text below):
+登記識別情報の通知受領（復号）には特別の委任が必要（平20.1.11民二57号）
+
+--- CARD 5 ---
+Heading (bold):
+却下処分に対する審査請求にも、特別の授権が必要
+Illustration: 「却下」の朱色スタンプが押された書類アイコンと、その先にある別の書類アイコン（「審査請求書」のラベル付き）を描く。両者の間に矢印を描き、その脇に「特別の授権」のラベルを付けた委任状アイコンを配置する。
+Caption (small text below):
+審査請求は別手続で、特別の授権が必要（行政不服審査法12条1項）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験対策｜令和2年度 午後の部 第4問
+
+Note on frequently miswritten kanji: This infographic's card text uses the
+kanji 権・登・記・号・録, which are often confused with visually similar
+Simplified Chinese characters. Render each strictly in standard Japanese
+(Jōyō) form — do not substitute any Simplified Chinese variant for 権, 登,
+記, 号, or 録.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards.
+```

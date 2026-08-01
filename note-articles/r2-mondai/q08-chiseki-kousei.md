@@ -81,3 +81,106 @@
 - 筆界特定のあとの職権更正、「義務」じゃないって知ってた？
 - 面積が増える更正でも、所有権証明はいらないんです
 - 相続人の一人だけで、地積更正を申請できるんです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地積更正登記は
+「面積の訂正」にすぎない
+
+Subtitle (smaller, centered, 1行):
+令和2年度 午後の部 第8問／申請できる人・添付情報・共有者の扱い
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric land plot with a surveyor holding a measuring
+tape, comparing two number labels: 登記簿の面積 (an incorrect figure with
+an X mark) versus 実際の測量結果 (the correct figure with a checkmark),
+connected by an arrow showing the figure being corrected.
+地積更正の登記は、登記記録の面積を実際の測量結果に合わせて訂正するだけの登記です。表示登記に共通するルール（誰が申請できるか・所有権証明の要否）を5つの場面で確認します。
+
+以下の5枚のカードは、下記の番号・見出し文言のとおり過不足なくちょうど5枚作成すること（重複禁止・欠落禁止・言い換え禁止）：
+1. 地積更正を申請できるのは所有者本人。抵当権者はできない
+2. 地積更正と合筆は、一つの申請書にまとめられる
+3. 筆界特定後の職権更正は、まず申請を促す。いきなり義務にはならない
+4. 面積が増える更正でも、所有権を証する情報は不要
+5. 相続人の一人だけで、地積更正を申請できる
+
+--- CARD 1 ---
+Heading (bold):
+地積更正を申請できるのは所有者本人。抵当権者はできない
+Illustration: An isometric bank building icon (抵当権者) reaching for an
+application document but blocked by a large X mark, while beside it a
+land-owner person icon (所有権の登記名義人) holds the same document with
+a checkmark.
+Caption (small text below):
+地積更正の登記を申請できるのは表題部所有者または所有権の登記名義人に限られ、抵当権者は申請人になれない（不動産登記法38条）
+
+--- CARD 2 ---
+Heading (bold):
+地積更正と合筆は、一つの申請書にまとめられる
+Illustration: Two isometric land plots (甲土地・乙土地) merging into one
+with a single document icon labeled 一の申請情報, containing both a
+measuring-tape icon labeled 地積更正 and a merge-arrow icon labeled 合筆.
+Caption (small text below):
+地積更正の登記と合筆の登記は一の申請情報でまとめて申請できる（不動産登記規則35条7号）
+
+--- CARD 3 ---
+Heading (bold):
+筆界特定後の職権更正は、まず申請を促す。いきなり義務にはならない
+Illustration: An isometric flow with three steps: (1) a result document
+icon labeled 筆界特定手続記録, (2) a registrar icon (登記官) with a speech
+bubble saying 申請してください pointed at a landowner icon, and (3) only
+if the owner does not respond, a dashed arrow to a stamp icon labeled
+職権更正（できる）.
+Caption (small text below):
+登記官はまず地積更正の申請を促し、申請がされないときに職権でできるのであって、いきなり職権で「しなければならない」わけではない
+
+--- CARD 4 ---
+Heading (bold):
+面積が増える更正でも、所有権を証する情報は不要
+Illustration: An isometric land plot with a dashed line showing the
+boundary expanding from before to after (面積が拡大), next to a document
+icon labeled 所有権証明情報 stamped with a large 不要 mark.
+Caption (small text below):
+地積更正はあくまで面積の訂正であり、増加部分について所有権を証する情報の提供は不要
+
+--- CARD 5 ---
+Heading (bold):
+相続人の一人だけで、地積更正を申請できる
+Illustration: An isometric family of three heir icons standing beside a
+land plot. One heir submits an application document alone with a
+checkmark; the other two heir icons stand nearby with a crossed-out
+consent-document icon labeled 承諾書不要.
+Caption (small text below):
+共有者（相続人）の一人から保存行為として申請でき、他の相続人の承諾を証する情報は不要（民法252条ただし書）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+出典：令和2年度 土地家屋調査士試験 午後の部 第8問（不動産登記法38条ほか）
+
+特に誤りやすい漢字（号・地・権・登・記・所など）がカード文言に含まれています。これらの漢字は必ず日本語（常用漢字）の字体で描画し、簡体字（中国語の簡化字）にしないでください。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards.
+```

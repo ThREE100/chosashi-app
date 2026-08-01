@@ -90,3 +90,85 @@
 - 出した一覧図の写し、ちゃんと返してもらえるんです
 - 一覧図に「3ヶ月以内」の期限はないって知ってた？
 - 廃除された人は一覧図に載らないから、戸籍は省けるんです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+法定相続情報一覧図、5つの使い方ルール
+
+Subtitle (smaller, centered, 1行):
+令和2年度 第5問／出題当時のルールを整理
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 家系図の形をした「法定相続情報一覧図」の書類アイコンを中央に描き、その周囲に戸籍謄本の束のアイコンと、地図・登記の書類アイコンを小さく配置する。
+「法定相続情報一覧図」は、戸籍謄本一式を法務局に提出して確認してもらい、相続関係を一枚の図にまとめた公的な証明書です（法定相続情報証明制度）。相続がからむ表示登記や地図訂正の場面で、分厚い戸籍の束の代わりに使えるのが最大のメリットです。この制度が「どの場面で・どう使えるか」を、出題当時（令和2年度）のルールに沿って整理します。
+
+--- CARD 1 ---
+Heading (bold):
+「番号だけ」の提供では、相続を証する情報に代えられない
+Illustration: 法定相続情報一覧図の書類アイコン全体と、番号だけが書かれた小さなメモアイコンを並べて描く。メモアイコンには大きなバツ印を重ね、書類アイコン全体にはチェックマークを重ねて、番号だけでなく写しそのものの提出が必要であることを示す。
+Caption (small text below):
+出題当時は「番号だけ」で一覧図の写しの提供を省略することはできなかった
+
+--- CARD 2 ---
+Heading (bold):
+提供した一覧図の写しは、原本還付を請求できる
+Illustration: 一覧図の写しの書類アイコンが法務局の窓口アイコンに提出され、その後「還付」のラベルを付けた矢印で申請者のシルエットの手元に戻ってくる循環矢印を描く。
+Caption (small text below):
+一覧図の写しは原本還付を請求できる
+
+--- CARD 3 ---
+Heading (bold):
+一覧図の写しには「作成後3月以内」といった有効期間の制限はない
+Illustration: 一覧図の写しの書類アイコンの隣にカレンダーのアイコンを描き、カレンダーに「3ヶ月」の期限マークと大きなバツ印を重ね、無期限であることを示す無限大マークを添える。
+Caption (small text below):
+一覧図の写しに「作成後3月以内」等の有効期間の制限はない
+
+--- CARD 4 ---
+Heading (bold):
+相続人の廃除が一覧図に表れていれば、廃除を証する戸籍は省略できる
+Illustration: 家系図の形をした一覧図のアイコンを描き、廃除された人物のシルエットをグレーアウトさせて図から消えている様子を表現する。その脇に戸籍謄本の書類アイコンと大きなバツ印を重ね、省略できることを示す。
+Caption (small text below):
+廃除された者は一覧図に載らないため、廃除を証する戸籍の提供を省略できる
+
+--- CARD 5 ---
+Heading (bold):
+地図訂正の申出でも、一覧図の写しで相続を証明できる
+Illustration: 区画線の入った地図のアイコンと、法定相続情報一覧図の写しの書類アイコンを並べて描き、両者の間に「相続を証する情報の提供に代える」のラベルを付けた矢印を描く。
+Caption (small text below):
+地図訂正の申出でも一覧図の写しで相続を証する情報に代えられる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験対策｜令和2年度 午後の部 第5問
+
+Note on frequently miswritten kanji: This infographic's card text uses the
+kanji 番・地・登, which are often confused with visually similar
+Simplified Chinese characters. Render each strictly in standard Japanese
+(Jōyō) form — do not substitute any Simplified Chinese variant for 番, 地,
+or 登.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards.
+```

@@ -91,3 +91,85 @@
 - 社団の土地は「会長個人名義」でも登記できるんです
 - 規約改正、反対した人にもちゃんと及ぶんです
 - 入会権は民法より「村の慣習」が優先なんです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+権利能力なき社団の4つの顔
+
+Subtitle (smaller, centered, 1行):
+令和2年度 第1問／成立要件・債務・登記・規約・入会権
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 町内会の集会所を思わせるアイソメトリックな建物イラスト。建物の周囲に、組織図のアイコン、挙手する複数の人物シルエット、入れ替わる人物と矢印、規約帳のアイコンの4つを小さく配置する。
+「権利能力なき社団」とは、法人登記こそしていないものの、団体としての実体を備えている集まり（町内会・同窓会・サークルなど）のことです。この分野は、①どうなれば社団と認められるか、②社団の借金は誰が負うか、③社団の不動産はどう登記するか、④規約改正の効力、⑤入会権と慣習という5つの論点を、判例に沿って整理できているかが問われます。
+
+--- CARD 1 ---
+Heading (bold):
+社団性は「組織・多数決・存続・主要事項の確定」の4要件で判断する
+Illustration: 中央に町内会風の集会所の建物アイコンを置き、周囲四隅に番号付きの4つのアイコンを配置する。番号と内容は次の4つで、順番も文言も変えずに全て描くこと（重複禁止・欠落禁止・言い換え禁止）：①組織図のアイコンに「団体としての組織」のラベル、②挙手する複数人のアイコンに「多数決の原則」のラベル、③入れ替わる人物シルエットと矢印のアイコンに「構成員が変わっても団体は存続」のラベル、④規約帳・組織図・金庫のアイコンに「代表の方法・総会の運営・財産の管理など主要な点の確定」のラベル。
+Caption (small text below):
+社団性の4要件（組織・多数決・存続・主要事項の確定）（最判昭39.10.15）
+
+--- CARD 2 ---
+Heading (bold):
+社団の借金は「社団財産だけ」が引当てで、構成員個人は返済義務を負わない
+Illustration: 町内会の会費・積立金を象徴する貯金箱アイコンに、貸主からの矢印が向かう構図。その周囲に並ぶ構成員（複数の人物シルエット）の胸元には盾のアイコンを重ね、各人物の財布アイコンには大きなバツ印を描いて、個人の財布へは矢印が向かわないことを示す。
+Caption (small text below):
+社団の債務は社団財産のみが引当て、構成員個人は責任を負わない（最判昭48.10.9）
+
+--- CARD 3 ---
+Heading (bold):
+社団の不動産は「構成員全員の共有名義」か「代表者個人名義」で登記できる
+Illustration: 中央に登記簿・権利証を思わせる書類アイコンを置き、上部には社団の看板アイコンに大きなバツ印（社団名義での登記は不可）を描く。左側に複数の人物シルエットと「構成員全員の共有名義」のラベル、右側に代表者一人のアイコンと「代表者個人名義」のラベルを配置し、それぞれから書類アイコンへ矢印を伸ばす。
+Caption (small text below):
+社団名義は不可、構成員全員の共有名義か代表者個人名義で登記可（最判昭47.6.2）
+
+--- CARD 4 ---
+Heading (bold):
+資格要件の変更は、承諾しなかった構成員にも及ぶ
+Illustration: 規約帳のアイコンにペンで書き換えを示す改正マークを重ねる。周囲に複数の人物シルエットを並べ、そのうち一人だけ「反対」の吹き出しを出しているが、点線の輪（改正後の規約の適用範囲）が反対した人物を含む全員を囲んでいる構図。
+Caption (small text below):
+資格要件の変更は承諾しなかった構成員にも及ぶ（最判平12.10.20）
+
+--- CARD 5 ---
+Heading (bold):
+入会権の内容や処分方法は、民法より地域の慣習が優先する
+Illustration: 山と入会地を思わせるアイソメトリックな地形イラストの上に、古い巻物のアイコン（地域の慣習）を、民法の書籍アイコンより手前かつ大きく描き、優先関係を視覚的に示す。
+Caption (small text below):
+入会権の内容・処分は地域の慣習が優先する（民法263条・294条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験対策｜令和2年度 午後の部 第1問
+
+Note on frequently miswritten kanji: This infographic's card text uses the
+kanji 権・地・登・記, which are often confused with visually similar
+Simplified Chinese characters. Render each strictly in standard Japanese
+(Jōyō) form — do not substitute any Simplified Chinese variant for 権, 地,
+登, or 記.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards.
+```

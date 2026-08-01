@@ -81,3 +81,128 @@
 - 主と附属の敷地権、区別して表示するんです
 - 基礎を残した建て直しも「新築」扱いって知ってた？
 - 附属建物の増築、所有権証明がいるんです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric houses, sheds,
+document stamps, registry cards, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special attention: the kanji 建・物・登・記・権・所 appear repeatedly in
+the card text below. Render every one of them in its standard Japanese
+(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
+
+This infographic has exactly 5 cards, one per card heading listed below.
+Reproduce all 5 headings exactly as written, in this order, with no
+duplication, no omission, and no paraphrasing:
+1. 母屋だけ壊しても、抹消じゃなく「変更」なんです
+2. 共有の附属建物の分割は、全員で申請するんです
+3. 主と附属の敷地権、区別して表示するんです
+4. 基礎を残した建て直しも「新築」扱いって知ってた？
+5. 附属建物の増築、所有権証明がいるんです
+
+--- HEADER ---
+Title (large, bold, 2行):
+「附属建物」の
+5つのルール
+
+Subtitle (smaller, centered, 1行):
+令和2年度 土地家屋調査士試験 午後の部 第13問より
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric overview scene of a main house (主である建
+物) with a small attached shed (附属建物、物置) in the yard, surrounded
+by small icons representing demolition, splitting, rebuilding, and
+adding a garage — introducing the theme of how the main-and-attached
+building relationship changes.
+「附属建物」は、主である建物に付属して一体で利用される物置・車庫な
+どの建物です。主と附属の関係が変わったとき（片方だけ滅失、分割な
+ど）にどう登記するか、添付情報として何が必要かを5つのカードで整理
+します。
+
+--- CARD 1 ---
+Heading (bold):
+母屋だけ壊しても、抹消じゃなく「変更」なんです
+Illustration: Isometric scene of a main house being demolished (a small
+wrecking-ball or crane icon over it), while a small shed beside it
+remains standing untouched. An arrow points from the shed to a label
+tag reading "新しい主である建物". Next to it, a stamp icon labeled
+"表題部の変更登記" has a checkmark, while a second stamp icon labeled
+"登記の抹消" is crossed out.
+Caption (small text below):
+主である建物のみが滅失した場合は、抹消ではなく「建物の表題部の変更
+の登記」で処理する(不動産登記規則102条)
+
+--- CARD 2 ---
+Heading (bold):
+共有の附属建物の分割は、全員で申請するんです
+Illustration: Isometric shed (附属建物) with three person icons
+standing around it representing co-owners (共有者), all three holding
+pens and signing a form together labeled "建物の分割の登記" with a
+checkmark above them. Beside this, a single person icon signing alone
+is shown crossed out, representing one co-owner applying without the
+others.
+Caption (small text below):
+附属建物が共有名義であるときの建物の分割の登記は、共有者全員から申
+請する
+
+--- CARD 3 ---
+Heading (bold):
+主と附属の敷地権、区別して表示するんです
+Illustration: Isometric cross-section of an apartment building showing
+a main unit (主である建物、区分建物) and a small storage/trunk-room
+unit (附属建物、区分建物) stacked together. Two separate dashed lines
+run down from each unit to the land plot below, ending in two distinct
+labeled tags placed side by side: "主である建物に係る敷地権" and
+"附属建物に係る敷地権", clearly kept apart from each other.
+Caption (small text below):
+主である建物と附属建物がいずれも敷地権のある区分建物である場合、両
+者の敷地権を区別して表示する
+
+--- CARD 4 ---
+Heading (bold):
+基礎を残した建て直しも「新築」扱いって知ってた？
+Illustration: Isometric scene showing an old shed being torn down,
+leaving only its foundation/base (基礎) visible on the ground. Beside
+it, an identical new shed of the same size and shape is being built on
+that same foundation. A label tag reads "新築扱い" with a checkmark,
+next to a building-plan document icon labeled "建物図面が必要".
+Caption (small text below):
+基礎を残した再築であっても新築として扱われ、添付情報として建物図面
+が必要(準則83条)
+
+--- CARD 5 ---
+Heading (bold):
+附属建物の増築、所有権証明がいるんです
+Illustration: Isometric main house with a newly built garage/shed
+(車庫) being added beside it, construction icons around it. A document
+icon labeled "所有権証明情報" is being handed toward a form icon
+labeled "建物の表題部の変更登記", with a checkmark.
+Caption (small text below):
+附属建物を新築した場合の建物の表題部の変更の登記には、附属建物につ
+いての所有権証明情報が必要(不動産登記令別表14項添付情報ハ)
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 建・物・登・記・権・所. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and that all 5 card headings listed above
+appear verbatim with no paraphrasing.
+```

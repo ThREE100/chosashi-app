@@ -90,3 +90,122 @@
 - 使用貸借権は登記できないから、敷地権になれないんです
 - 敷地権の発生原因は、そのまま「敷地権」なんです
 - 区分で割合が変わったら、原因は「変更」なんです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment buildings,
+registry record cards, dashed fillable fields, ownership-right icons, etc. —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special attention: the kanji 地・番・建・物・登・記・権 appear repeatedly
+in the card text below. Render every one of them in its standard Japanese
+(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
+
+This infographic has exactly 5 cards, one per card heading listed below,
+one for each blank ア〜オ in the registry record. Reproduce all 5
+headings exactly as written, in this order, with no duplication, no
+omission, and no paraphrasing:
+1. マンションの1階の部屋は「平家建」じゃなく「1階建」なんです
+2. 専有部分の床面積は「◯階部分」と書くって知ってた？
+3. 使用貸借権は登記できないから、敷地権になれないんです
+4. 敷地権の発生原因は、そのまま「敷地権」なんです
+5. 区分で割合が変わったら、原因は「変更」なんです
+
+--- HEADER ---
+Title (large, bold, 2行):
+登記記録を「読む」力
+空欄ア〜オの5つの正解
+
+Subtitle (smaller, centered, 1行):
+令和2年度 土地家屋調査士試験 午後の部 第15問(敷地権付き区分建物の登記記録)より
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric 3-story apartment building cross-section
+beside a large floating registry-record document. The document shows
+five dashed, fillable blank boxes with question marks in them,
+corresponding to the five blanks ア〜オ that need to be filled in.
+実際の登記記録を読んで、空欄に入る正しい語句を判断する「穴埋め型」
+の問題です。専有部分の構造・床面積の書き方や、敷地権の種類・発生原
+因・変更原因の記録方法を、5つのカードで整理します。
+
+--- CARD 1 ---
+Heading (bold):
+マンションの1階の部屋は「平家建」じゃなく「1階建」なんです
+Illustration: Isometric 3-story apartment building with the 1st-floor
+unit highlighted in a pastel color. A label tag with a checkmark reads
+"1階建", next to a smaller crossed-out label reading "平家建" for
+comparison.
+Caption (small text below):
+一棟の建物を階層で区分した専有部分の階数は「平家建」ではなく「1階
+建」と表示する
+
+--- CARD 2 ---
+Heading (bold):
+専有部分の床面積は「◯階部分」と書くって知ってた？
+Illustration: Isometric floor plan of the highlighted 1st-floor unit,
+with a floor-area label tag reading "1階部分　150.00㎡" and an arrow
+pointing from the room outline to the label.
+Caption (small text below):
+一棟の建物を階層で区分した専有部分の床面積は「1階部分」のように、
+階を添えて記録する
+
+--- CARD 3 ---
+Heading (bold):
+使用貸借権は登記できないから、敷地権になれないんです
+Illustration: Isometric land plot beneath the apartment building, with
+three right-icons floating above it labeled "所有権", "地上権", and
+"使用貸借権". The "所有権" and "地上権" icons are circled with a
+checkmark and connected by a chain down to the building, labeled
+"敷地権になり得る"; the "使用貸借権" icon has a crossed-out chain and
+a small "登記不可" stamp beside it.
+Caption (small text below):
+敷地権になり得るのは登記された所有権・地上権・賃借権であり、登記す
+ることができない使用貸借権は敷地権にならない
+
+--- CARD 4 ---
+Heading (bold):
+敷地権の発生原因は、そのまま「敷地権」なんです
+Illustration: Isometric registry record card for "敷地権の表示",
+showing a date tag "令和2年10月20日" connected by an arrow to a
+reason/label tag reading "敷地権" with a checkmark.
+Caption (small text below):
+敷地権の表示における最初の登記原因及びその日付は「年月日敷地権」と
+記録する
+
+--- CARD 5 ---
+Heading (bold):
+区分で割合が変わったら、原因は「変更」なんです
+Illustration: Isometric apartment unit being split into two smaller
+units by a dashed cut-line (区分), with two fraction labels showing
+"3分の1" changing to "6分の1". A date tag "令和2年11月20日" is
+connected by an arrow to a reason/label tag reading "変更" with a
+checkmark.
+Caption (small text below):
+専有部分の区分に伴って敷地権の割合が変わったときの登記原因及びその
+日付は「年月日変更」と記録する
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 地・番・建・物・登・記・権. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and that all 5 card headings listed above
+appear verbatim with no paraphrasing.
+```

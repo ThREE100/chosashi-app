@@ -81,3 +81,111 @@
 - 河川区域になったら、河川管理者が代位で分筆できるんです
 - 持分だけの買収では、国は当然には代位できないって知ってた？
 - 分割判決に非協力の共有者、代位して分筆できるんです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+分筆の登記、
+「誰が」申請できるか
+
+Subtitle (smaller, centered, 1行):
+令和2年度 午後の部 第9問／職権・嘱託・代位の5つの場面
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric single land plot being split into two by a
+dotted line (分筆), surrounded by small actor icons representing
+different routes to申請: 登記官 (a registrar), 河川管理者 (a river
+administrator), 共有者 (co-owners), and 国 (the national government),
+each with a small arrow pointing toward the dotted split line.
+分筆の登記は原則として所有者本人が申請しますが、登記官の職権や、第三者による代位・嘱託が認められる例外もあります。誰が・どんな要件で申請できるかを5つの場面で確認します。
+
+以下の5枚のカードは、下記の番号・見出し文言のとおり過不足なくちょうど5枚作成すること（重複禁止・欠落禁止・言い換え禁止）：
+1. 地図作成のための職権分筆は、所有権登記名義人の異議がないときに限る
+2. 地目変更と分筆を一括申請するときは、登記原因と日付を書く
+3. 河川区域になった土地は、河川管理者が代位して分筆を嘱託できる
+4. 共有持分だけの買収では、国は当然には代位分筆できない
+5. 共有物分割判決が確定すれば、非協力の共有者に代位して分筆を申請できる
+
+--- CARD 1 ---
+Heading (bold):
+地図作成のための職権分筆は、所有権登記名義人の異議がないときに限る
+Illustration: An isometric flow chart: a registrar icon (登記官) holding
+a map (地図) faces a landowner icon. If the landowner shows a speech
+bubble saying 異議あり, an X mark appears over a 職権分筆 stamp icon; if
+the landowner shows 異議なし instead, a checkmark appears over the same
+stamp icon.
+Caption (small text below):
+登記官は地図作成のため必要があっても、所有権の登記名義人の異議がないときに限り職権で分筆できる（不動産登記法39条3項）
+
+--- CARD 2 ---
+Heading (bold):
+地目変更と分筆を一括申請するときは、登記原因と日付を書く
+Illustration: An isometric single application document icon containing
+two split land plots — one labeled 宅地 (new land use) and one labeled
+元の地目 (original land use) — plus a calendar icon with the label
+年月日地目変更 attached to the document.
+Caption (small text below):
+地目に関する変更の登記と分筆の登記を一の申請情報で申請するときは、地目変更の登記原因及びその日付を申請情報の内容としなければならない
+
+--- CARD 3 ---
+Heading (bold):
+河川区域になった土地は、河川管理者が代位して分筆を嘱託できる
+Illustration: An isometric land plot with a blue winding river (河川)
+covering part of it. A river-administrator icon (河川管理者, a
+government-official figure) submits a 嘱託 document directly to a
+registry-office icon (登記所), with the landowner icon standing passively
+to the side.
+Caption (small text below):
+一筆の土地の一部が河川区域内の土地となった場合、河川管理者は所有権の登記名義人に代位して分筆の登記を登記所に嘱託できる
+
+--- CARD 4 ---
+Heading (bold):
+共有持分だけの買収では、国は当然には代位分筆できない
+Illustration: An isometric single, undivided land plot shared by two
+co-owner icons A and B. A government icon (国) receives only A's持分
+via an arrow labeled 持分譲渡, while the land plot itself remains a
+single unsplit shape with a label 分筆×.
+Caption (small text below):
+共有者の一部持分を国が買収しても、それは共有状態になるだけで物理的な分割ではなく、国が当然に代位して分筆の登記を申請できるわけではない
+
+--- CARD 5 ---
+Heading (bold):
+共有物分割判決が確定すれば、非協力の共有者に代位して分筆を申請できる
+Illustration: An isometric courthouse icon with a document labeled
+判決確定 above a land plot split by a dividing line. Co-owner A icon
+holds an application document, while co-owner B icon stands with arms
+crossed labeled 非協力; an arrow labeled 代位 runs from A to B's portion
+of the application.
+Caption (small text below):
+共有物分割の判決確定後、一方の共有者が分筆の登記の申請に協力しないときは、他方の共有者がその者に代位して分筆の登記を申請できる（民法423条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+出典：令和2年度 土地家屋調査士試験 午後の部 第9問（不動産登記法39条3項、民法423条ほか）
+
+特に誤りやすい漢字（地・物・権・登・記・所など）がカード文言に含まれています。これらの漢字は必ず日本語（常用漢字）の字体で描画し、簡体字（中国語の簡化字）にしないでください。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards.
+```

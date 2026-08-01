@@ -81,3 +81,114 @@
 - 抵当権者は、意見・資料を出せる「関係人」じゃないんです
 - 申請人が資料を出さなくても、筆界特定はできるんです
 - 筆界特定は境界を「作る」んじゃなく「明らかにする」んです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots with
+dotted boundary lines, magnifying glasses, speech bubbles, surveying
+officials, torn paper labels — adapt icon set to the topic of clarifying
+a land boundary).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: this topic repeatedly uses the kanji 登・記・権・地・番
+(as in 筆界特定登記官, 抵当権, 登記名義人, 土地, 番). Render each of these
+in standard Japanese Jōyō form, never in Simplified Chinese form (権 must
+not become 权; 記 must not become 记 — always use 記; 地 must not become a
+simplified variant).
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定、5つの重要ポイント
+
+Subtitle (smaller, centered, 1行):
+令和2年度 土地家屋調査士試験 午後の部 第18問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric land plot with a faint dotted boundary line
+running through it; a person icon labeled 筆界特定登記官 examining the
+line with a magnifying glass; a clipboard icon labeled 筆界特定 nearby.
+「筆界特定」は、土地の境界（筆界）がどこにあるかを、筆界特定登記官が公的に判断してくれる手続です（不動産登記法第6章）。裁判のように白黒つける制度とは少し違い、あくまで「もともとある筆界を明らかにする」ものだという性質を押さえるのが重要です。
+
+--- ENUMERATION NOTICE ---
+以下は本問のア〜オ、合計5個の論点カードである。番号・文言は下記のとおり一字一句そのまま使用し、重複禁止・欠落禁止・言い換え禁止とする。
+1. ア：筆界特定の意見、口頭でもいいって知ってた？
+2. イ：申請してない共有者も、意見・資料を出せるんです
+3. ウ：抵当権者は、意見・資料を出せる「関係人」じゃないんです
+4. エ：申請人が資料を出さなくても、筆界特定はできるんです
+5. オ：筆界特定は境界を「作る」んじゃなく「明らかにする」んです
+
+--- CARD 1（ア） ---
+Heading (bold):
+筆界特定の意見、口頭でもいいって知ってた？
+Illustration: A person icon (申請人) speaking with a speech-bubble icon
+toward 筆界特定登記官; next to them, a blank paper icon with a "必須"
+stamp is crossed out with an "×", showing that a written document is not
+required.
+Caption (small text below):
+意見・資料の提出は書面でなく口頭でもよい
+
+--- CARD 2（イ） ---
+Heading (bold):
+申請してない共有者も、意見・資料を出せるんです
+Illustration: A land plot icon shared by two co-owner person icons
+labeled Ａ（申請人）and Ｂ（共有者・非申請人）; both icons have a speech
+bubble and a document icon pointing toward 筆界特定登記官, both marked
+with green checkmarks.
+Caption (small text below):
+申請人でない対象土地の共有者も関係人として意見・資料を提出できる
+
+--- CARD 3（ウ） ---
+Heading (bold):
+抵当権者は、意見・資料を出せる「関係人」じゃないんです
+Illustration: A land plot icon; a bank/person icon labeled 抵当権者
+holding a document, blocked by a red "×" barrier before reaching
+筆界特定登記官; beside them, a person icon labeled 所有権の登記名義人
+passes through the same path with a green checkmark and a label 関係人.
+Caption (small text below):
+抵当権の登記名義人（担保権者）は意見・資料を提出できる関係人にあたらない
+
+--- CARD 4（エ） ---
+Heading (bold):
+申請人が資料を出さなくても、筆界特定はできるんです
+Illustration: A 申請人 icon standing with empty hands (no document icon);
+筆界特定登記官 icon nearby produces a completed 筆界特定 result document
+with a green checkmark, surrounded by independent survey icons (測量機器,
+巻尺) used on its own.
+Caption (small text below):
+申請人が意見・資料を出さなくても筆界特定はできる
+
+--- CARD 5（オ） ---
+Heading (bold):
+筆界特定は境界を「作る」んじゃなく「明らかにする」んです
+Illustration: A land plot with a faint pre-existing dotted boundary line
+being traced and highlighted by a spotlight from 筆界特定登記官, turning
+solid; beside it, a separate crossed-out icon shows a brand-new line
+being drawn from scratch on blank ground, labeled 新たな筆界の形成 with a
+red "×".
+Caption (small text below):
+筆界特定は既存の筆界を明らかにするもので、新たな筆界を形成する作用はない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Pay special attention to 登・記・権・地・番 as noted
+above. Confirm the number of cards equals 5 exactly, with no duplicated
+or missing cards, and that they correspond exactly to ア・イ・ウ・エ・オ
+in that order.
+```

@@ -81,3 +81,126 @@
 - 地上と地下、「多い方を先に」書くって知ってた？
 - 地下街の共用通路は、床面積に入れないんです
 - 床面積に入らない部分の屋根は、構造に書かないんです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, roofs,
+cross-sections, underground levels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special attention: the kanji 号・建・物・登・記・地 appear repeatedly in
+the card text below. Render every one of them in its standard Japanese
+(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
+
+This infographic has exactly 5 cards, one per card heading listed below.
+Reproduce all 5 headings exactly as written, in this order, with no
+duplication, no omission, and no paraphrasing:
+1. 開閉式屋根の下も、床面積に入れるんです
+2. 材料が混ざった建物、両方の構造を併記するんです
+3. 地上と地下、「多い方を先に」書くって知ってた？
+4. 地下街の共用通路は、床面積に入れないんです
+5. 床面積に入らない部分の屋根は、構造に書かないんです
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の「構造」と「床面積」
+5つのルール
+
+Subtitle (smaller, centered, 1行):
+令和2年度 土地家屋調査士試験 午後の部 第12問より
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric collage introducing the theme: a dome-shaped
+baseball stadium with a retractable roof shown half-open, a building
+split by material into two shaded bands, a cross-section building with
+floors above and below ground, and an underground shopping corridor —
+arranged together as a small overview scene.
+建物の「構造」（不動産登記規則114条）と「床面積」（同115条）の表示
+は、実務でも受験でも間違えやすい分野です。開閉式屋根、材料が混ざっ
+た建物（混構造）、地上と地下の書き順、地下街の通路など、細かいルー
+ルを5つのカードで整理します。
+
+--- CARD 1 ---
+Heading (bold):
+開閉式屋根の下も、床面積に入れるんです
+Illustration: Isometric cross-section of a dome baseball stadium. The
+retractable roof panels are shown half-open with motion arrows. A
+dashed highlight overlay covers the entire seating area and the field
+below the roof, labeled "床面積に算入" with a checkmark, regardless of
+whether the roof panels are open or closed above that spot.
+Caption (small text below):
+開閉式屋根の開閉可能部分の下の観客席・フィールドも床面積に算入する
+(平5.12.3民三7499号)
+
+--- CARD 2 ---
+Heading (bold):
+材料が混ざった建物、両方の構造を併記するんです
+Illustration: Isometric 4-story building cut by a horizontal dividing
+line. The lower 2 floors are shaded one pastel color and labeled
+"鉄骨鉄筋コンクリート造"; the upper 2 floors are shaded a different
+pastel color and labeled "鉄骨造". Below the building, a label tag
+reads "鉄骨・鉄骨鉄筋コンクリート造" with a checkmark, next to a
+smaller crossed-out tag reading "鉄骨鉄筋コンクリート造" alone.
+Caption (small text below):
+構成材料が異なる部分がある混構造の建物は、両方の構造を併記する
+(「鉄骨・鉄骨鉄筋コンクリート造」。不動産登記規則114条)
+
+--- CARD 3 ---
+Heading (bold):
+地上と地下、「多い方を先に」書くって知ってた？
+Illustration: Isometric cross-section of a building with 2 floors above
+ground and 4 floors below ground, ground level marked by a horizontal
+line. A label tag with a checkmark reads "地下4階付き2階建", next to a
+smaller crossed-out tag reading "地上2階付き地下4階建" for comparison.
+Caption (small text below):
+地上・地下がある建物の階数は、階数の多い方を先に書く。「地下4階付き
+2階建」が正しい(準則81条1項3号イ)
+
+--- CARD 4 ---
+Heading (bold):
+地下街の共用通路は、床面積に入れないんです
+Illustration: Isometric cross-section of an underground shopping mall
+(地下街). Individual shop interiors are shaded and labeled "床面積に算
+入", while the open public corridor and staircase running through the
+middle are left unshaded and labeled "常時開放の通路・階段は算入しな
+い" with a crossed-out icon.
+Caption (small text below):
+地下街の常時一般に開放されている通路・階段の部分は床面積に算入しな
+い(準則82条1項4号・5号)
+
+--- CARD 5 ---
+Heading (bold):
+床面積に入らない部分の屋根は、構造に書かないんです
+Illustration: Isometric building with a small canopy or eave section
+(ひさし) attached to one side, its roof material rendered in a visibly
+different texture from the main roof. The canopy section is grayed out
+and labeled "床面積不算入部分", with a note bubble pointing to it that
+reads "屋根の種類は表示の対象としない" with a crossed-out icon.
+Caption (small text below):
+床面積に算入されない部分の屋根の種類が他の部分と異なっても、その部
+分の屋根の種類は構造の表示の対象としない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 号・建・物・登・記・地. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and that all 5 card headings listed above
+appear verbatim with no paraphrasing.
+```

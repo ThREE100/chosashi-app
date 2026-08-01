@@ -81,3 +81,85 @@
 - 抵当権が先に登記されたら、後の賃借権は勝てないんです
 - 「無過失」だけは推定してもらえないって知ってた？
 - 時効の起算点、勝手にずらすのはNGなんです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+取得時効の落とし穴
+
+Subtitle (smaller, centered, 1行):
+令和2年度 第2問／相続・悪意・無過失・起算点
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 一戸建ての家のアイソメトリックイラストの前に人物シルエットが立ち、足元にカレンダーと砂時計のアイコンを添える。
+取得時効は、他人の物でも「所有の意思をもって・平穏公然と」一定期間占有し続ければ自分のものになるという制度（民法162条）です。相続で占有を受け継いだ場合や、他人の物と知って買った場合、無過失の推定、起算点の選び方といった、時効の「入口」に関する論点を、5つの場面に分けて整理します。
+
+--- CARD 1 ---
+Heading (bold):
+相続人が新たに自主占有を始めれば、自己の占有だけで時効取得できる
+Illustration: 家のアイソメトリックイラスト。左側に薄く描かれた親のシルエットに「他主占有（借りているだけ）」のラベル、右側に家の前に堂々と立つ子のシルエットに「自分の家だ」という吹き出しを描き、両者の間に「新たに占有を開始」の矢印を配置する。
+Caption (small text below):
+相続人が新たに自主占有を始めれば自己の占有のみで時効取得可（最判平8.11.12）
+
+--- CARD 2 ---
+Heading (bold):
+他人の物と知って買った悪意の占有者でも、20年で時効取得できる
+Illustration: 土地のアイソメトリックイラストの上に人物シルエットが立ち、頭上に「本当の所有者は別にいると知っていた（悪意）」の吹き出しを描く。足元に大きく「20年」の数字とカレンダーのアイコンを配置する。
+Caption (small text below):
+悪意の占有者でも20年で時効取得できる（民法162条1項）
+
+--- CARD 3 ---
+Heading (bold):
+対抗要件を備える前に抵当権が登記されると、後から賃借権を時効取得しても買受人に対抗できない
+Illustration: 左から右へ続く時系列の矢印の上に、3つのアイコンを順番に並べる。①印鑑のアイコンに「抵当権設定登記」のラベル、②鍵のアイコンに「賃借権の時効取得」のラベル、③オークションの木づちアイコンに「競売・買受人」のラベル。②から③へ向かう矢印には大きなバツ印を重ねる。
+Caption (small text below):
+対抗要件具備前に抵当権登記があれば、後の賃借権時効取得も買受人に対抗不可（最判平23.1.21）
+
+--- CARD 4 ---
+Heading (bold):
+10年の短期取得時効でも、「無過失」までは推定されない
+Illustration: バランスの取れた天秤のアイソメトリックイラスト。片側の皿に「所有の意思・善意・平穏・公然」のラベルとチェックマークのアイコン（推定される）、もう片側の皿に「無過失」のラベルと虫眼鏡のアイコン（自分で証明する必要がある）を描く。
+Caption (small text below):
+民法186条1項は無過失を推定しない（大判大8.10.13）
+
+--- CARD 5 ---
+Heading (bold):
+時効の起算点を勝手に選ぶことはできない
+Illustration: カレンダーのアイソメトリックイラストに、占有開始日を示すピンのアイコンを固定して描く。そのピンを左右にずらそうとする手のアイコンに大きなバツ印を重ねる。
+Caption (small text below):
+起算点は占有開始時に固定、任意選択は不可（最判昭35.7.27）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験対策｜令和2年度 午後の部 第2問
+
+Note on frequently miswritten kanji: This infographic's card text uses the
+kanji 権・地・登・記, which are often confused with visually similar
+Simplified Chinese characters. Render each strictly in standard Japanese
+(Jōyō) form — do not substitute any Simplified Chinese variant for 権, 地,
+登, or 記.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards.
+```

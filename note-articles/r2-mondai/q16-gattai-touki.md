@@ -81,3 +81,118 @@
 - 合体後の所有権の登記は「職権」。申請しなくていいんです
 - 賃借権は持分に登記できないから、合体で引き継げないって知ってた？
 - 名義が同じなら、登記識別情報は1個でいいんです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings merging
+together, mortgage tags, hanko seals, registration-identifier tokens,
+torn paper labels — adapt icon set to the topic of two buildings becoming
+one).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: this topic repeatedly uses the kanji 登・記・権・建・物・
+号・地 (as in 登記, 建物, 抵当権, 所有権, 賃借権, 5320号, 持分). Render each
+of these in standard Japanese Jōyō form, never in Simplified Chinese form
+(号 must not become its simplified variant; 権 must not become 权; 建 must
+not become a simplified variant; 記 must not become 记 — always use 記).
+
+--- HEADER ---
+Title (large, bold, 1行):
+合体による登記等の5つのポイント
+
+Subtitle (smaller, centered, 1行):
+令和2年度 土地家屋調査士試験 午後の部 第16問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Two separate isometric buildings physically joining together
+into one merged building, connecting seams glowing softly, small
+construction/extension icons (scaffolding, arrows) indicating the two
+buildings becoming one.
+「合体による登記等」とは、2つ以上の別々の建物が、増築などで物理的に1つの建物になった（合体した）ときにする登記のことです。合体後の建物の表題登記と、合体前の各建物の表題部の登記の抹消をまとめてする点が特徴で、権利関係の引継ぎがどう処理されるかが問われます。
+
+--- ENUMERATION NOTICE ---
+以下は本問のア〜オ、合計5個の論点カードである。番号・文言は下記のとおり一字一句そのまま使用し、重複禁止・欠落禁止・言い換え禁止とする。
+1. ア：合体後も残る抵当権、抵当権者の承諾がいるんです
+2. イ：全員が実印＋印鑑証明なら、申請書が持分の証明を兼ねるんです
+3. ウ：合体後の所有権の登記は「職権」。申請しなくていいんです
+4. エ：賃借権は持分に登記できないから、合体で引き継げないって知ってた？
+5. オ：名義が同じなら、登記識別情報は1個でいいんです
+
+--- CARD 1（ア） ---
+Heading (bold):
+合体後も残る抵当権、抵当権者の承諾がいるんです
+Illustration: Two isometric buildings (A and B) merging into one; building
+A has a red tag icon labeled 抵当権, an arrow shows the tag moving onto a
+highlighted 持分 section of the merged building; a document icon with a
+hanko stamp labeled 承諾書 is being handed from a person icon (labeled
+抵当権者) toward the merged building.
+Caption (small text below):
+合体後も存続する抵当権があるときは抵当権者の承諾情報等が必要（令別表13項添付情報ト）
+
+--- CARD 2（イ） ---
+Heading (bold):
+全員が実印＋印鑑証明なら、申請書が持分の証明を兼ねるんです
+Illustration: Several person icons (owners) each stamping a hanko seal
+onto one shared document icon labeled 申請情報; the document icon has a
+second overlapping ghost label 持分割合を証する情報 appearing behind it to
+show it serves double duty; a small 印鑑証明書 icon sits next to each
+person.
+Caption (small text below):
+全員が書面申請で印鑑証明書を出せば申請情報が持分割合証明を兼ねる（平5.7.30民三5320号）
+
+--- CARD 3（ウ） ---
+Heading (bold):
+合体後の所有権の登記は「職権」。申請しなくていいんです
+Illustration: A person icon submitting two document icons labeled 表題登記
+and 表題部の登記の抹消 into a registry-office window icon; separately, a
+gear/stamp icon labeled 登記官の職権 automatically produces a third
+document icon labeled 所有権の登記 with no person's hand touching it,
+showing it happens automatically rather than by application.
+Caption (small text below):
+合体後の所有権の登記は登記官の職権。申請するのは表題登記と抹消（不動産登記法49条2項）
+
+--- CARD 4（エ） ---
+Heading (bold):
+賃借権は持分に登記できないから、合体で引き継げないって知ってた？
+Illustration: Two buildings each with a tag icon labeled 賃借権 before
+merging; after merging, the 賃借権 tag has a red "×" mark over it on the
+merged building's 持分 section, while nearby tags labeled 抵当権 and
+所有権 show green checkmarks and carry over successfully onto the merged
+building.
+Caption (small text below):
+賃借権は持分の上に登記できず、合体後に存続させられない（平5.7.30民三5320号）
+
+--- CARD 5（オ） ---
+Heading (bold):
+名義が同じなら、登記識別情報は1個でいいんです
+Illustration: Two buildings owned by the same person icon (identical
+face/color on both) merging into one; only a single token/card icon
+labeled 登記識別情報 is needed and shown with a green checkmark, while a
+second duplicate token icon nearby is crossed out with an "×".
+Caption (small text below):
+登記名義人が同一なら1個の建物の登記識別情報で足りる（不動産登記令8条2項1号）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Pay special attention to 登・記・権・建・物・号・地
+as noted above. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and that they correspond exactly to ア・イ・
+ウ・エ・オ in that order.
+```
