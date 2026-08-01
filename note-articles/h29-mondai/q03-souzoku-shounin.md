@@ -81,3 +81,128 @@
 - 相続放棄に、他の相続人の許可はいらないって知ってた？
 - 限定承認の管理、「自分の財産と同じ注意」で足りるんです
 - 放棄した人の持分、仮差押えしても無効なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+相続の承認及び放棄の5肢を、「承認・放棄の基本ルール」（ア・ウ）と「限定承認と相続放棄の効果」（イ・エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric family figures,
+courthouse buildings, document stamps, scales/balance icons, calendar
+pages, prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 相・続・承・認・放・棄・限・定・財・産, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+相続の承認及び放棄
+「認める・断る」のルール
+
+Subtitle (smaller, centered, 1行):
+撤回できる？一人でできる？を整理(平成29年度 午後の部 第3問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design scene showing two family-member
+person figures standing beside a fork-in-the-road icon, one path leading
+to a checkmark-stamped document labeled "承認" and the other path leading
+to a document labeled "放棄", with a small hourglass icon above the fork.
+相続の承認・放棄の分野は、「一度した意思表示を撤回できるか」「限定承認は
+誰がどうやってするのか」「相続放棄をすると法律上どう扱われるのか」と
+いった、相続開始後の基本手続を正確に理解できているかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+承認・放棄の基本ルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+いったんした承認・放棄は、熟慮期間中でも撤回できない
+Illustration: An isometric hourglass icon with sand still falling
+(representing the 3-month 熟慮期間), next to a stamped document reading
+"承認" with a red prohibition (no-entry) icon overlaid on a hand reaching
+to undo the stamp.
+Caption (small text below):
+相続人は、いったん相続の承認又は放棄をした後は、自己のために相続の
+開始があったことを知った時から3か月の熟慮期間中であっても、これを
+撤回することができない(民法919条1項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+相続放棄は、家庭裁判所への申述だけで足りる
+Illustration: An isometric person figure walking alone toward a small
+courthouse building icon and handing a document directly to a court
+clerk window, with a faded ghost outline of a second family-member
+figure off to the side holding a crossed-out "承諾" (consent) stamp to
+show their approval is not required.
+Caption (small text below):
+相続人は、相続の放棄をするために、他の相続人の承諾を得る必要はなく、
+家庭裁判所に申述する方法によって行う(民法938条)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+限定承認と相続放棄の効果
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+限定承認は、共同相続人の全員が共同してのみできる
+Illustration: An isometric scene of two family-member person figures
+standing together, both required to place their hands on the same
+document stamped "限定承認" at the same time, with a red prohibition
+icon over one figure alone trying to stamp it after the other figure has
+already stamped a separate "単純承認" document.
+Caption (small text below):
+限定承認は、共同相続人の全員が共同してのみすることができる。相続人の
+1人が単独で単純承認をした場合、他の相続人は限定承認をすることができ
+ない(民法923条)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+限定承認者の管理義務は、自己の財産と同一の注意で足りる
+Illustration: An isometric person figure carefully holding a treasure
+chest labeled "相続財産" with the same gentle care as a smaller personal
+box labeled "自己の財産" beside it, both boxes shown at the same
+protective glow level, contrasted with a faded higher-level "善管注意"
+icon that is not required.
+Caption (small text below):
+限定承認をした者は、その固有財産におけるのと同一の注意をもって、相続
+財産の管理を継続しなければならない(民法926条1項)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+相続放棄者は初めから相続人でなかったとみなされ、持分への仮差押えは無効
+Illustration: An isometric family tree diagram where one branch (labeled
+"放棄した相続人") fades to a transparent ghost outline from the very
+start of the timeline, with a red "無効" stamp placed over a small
+"仮差押え" document icon that points to that faded branch's share of a
+land plot icon.
+Caption (small text below):
+相続の放棄をした者は、その相続に関して初めから相続人ではなかったもの
+とみなされるため、放棄者の法定相続分に対してされた仮差押えの登記は
+無効である(民法939条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第3問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 相・続・承・認・放・棄・限・定・財・産. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 承認・放棄の基本ルール, 3 cards under 限定承認と相続放棄の
+効果), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

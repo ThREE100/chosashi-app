@@ -86,3 +86,131 @@
 - 解除したあとの第三者には、登記がないと勝てないんです
 - 不法占拠者に「登記まだだから」は言われないんです
 - 登記を頼まれてた人が横取り、それは通らないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+物権変動・対抗要件（民法177条）の5肢を、「登記がなければ対抗できない場面」（ア・ウ）と「登記なくして対抗できる相手」（イ・エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, official
+registry ledger books, stamps/seals, arrows, timeline flags, prohibition
+marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・記・権・対・抗・売・買・占・拠・者, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+物権変動と対抗要件
+所有権はいつ移る？登記がいる場面・いらない場面
+
+Subtitle (smaller, centered, 1行):
+民法177条の「第三者」の範囲を整理(平成29年度 午後の部 第2問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design land plot icon with a registry
+ledger book beside it, a stamp icon hovering above the ledger, and a
+dotted arrow connecting the land plot to the ledger to show that
+ownership and registration are two related but distinct things.
+物権変動の分野は、「所有権はいつ移転するのか」と「登記がなければ対抗
+できない『第三者』とは誰か(民法177条)」の2つが柱です。取得時効・契約
+解除・不法占拠者・背信的悪意者といった典型論点で、登記が必要な場面と
+不要な場面を判例に沿って区別できるかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+登記がなければ対抗できない場面
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+他人物売買では、売主が所有権を取得した時点で買主に移転する
+Illustration: An isometric scene showing a small land plot passing from
+a first seller figure to a middle "B" figure (labeled with a small
+transfer arrow), and then immediately onward to a "C" figure, with a
+timestamp clock icon placed exactly at the moment the plot reaches "B",
+NOT at a separate registry-ledger icon shown faded in the background.
+Caption (small text below):
+他人物売買も債権的には有効であり、買主への所有権移転は、売主が当該
+不動産の所有権を取得した時点で生じる。移転登記がされた時点に限られ
+ない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+解除後に現れた第三者との関係は、登記を備えた方が勝つ
+Illustration: An isometric timeline showing a "契約解除" stamp icon,
+after which two arrows branch out from the same land plot toward two
+person figures labeled "元の売主" and "第三者", each holding a registry
+ledger icon, with a small trophy icon placed next to whichever figure's
+ledger icon is stamped first.
+Caption (small text below):
+売買契約が解除された後に現れた第三者との関係は対抗関係となり、解除した
+元の売主も、登記を備えなければ第三者に所有権の取得を対抗することが
+できない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+登記なくして対抗できる相手（177条の「第三者」にあたらない）
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+登記後に時効が完成した占有者は、登記なくして対抗できる
+Illustration: An isometric scene of a person figure standing on a land
+plot with a slowly filling hourglass icon above them (representing
+取得時効の進行), with a registry ledger icon appearing partway through
+the hourglass's timeline, yet a checkmark badge still appears next to the
+person figure at the end without any additional ledger stamp.
+Caption (small text below):
+不動産を占有して取得時効が進行中に、その不動産が譲渡されて登記が
+移った後に時効が完成した場合、占有者は登記なくして時効取得を対抗
+することができる。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+不法占拠者には、登記なくして対抗できる
+Illustration: An isometric land plot with a legitimate owner figure
+holding a registry ledger icon on one side, and on the other side a
+trespasser figure with no documents at all, standing behind a red
+prohibition (no-entry) icon, with a bold checkmark showing the owner can
+assert ownership directly.
+Caption (small text below):
+何の権原もなく土地の占有を始めた不法占拠者は、民法177条の「第三者」に
+あたらないため、登記がなくても所有権を主張することができる。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+登記申請を受任していた者には、登記なくして対抗できる
+Illustration: An isometric scene showing a person figure labeled "登記
+申請の受任者" holding a clipboard with "登記申請中" written on it, who
+then secretly buys the same land plot for themselves (small self-arrow
+icon), with a red "信義則違反" prohibition badge stamped over their
+figure.
+Caption (small text below):
+他人のために登記を申請する義務を負う者は、民法177条の「第三者」に
+あたらないため、その者に対しては登記なくして所有権を主張することが
+できる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第2問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 登・記・権・対・抗・売・買・占・拠・者. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 登記がなければ対抗できない場面, 3 cards under 登記なくして
+対抗できる相手), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```

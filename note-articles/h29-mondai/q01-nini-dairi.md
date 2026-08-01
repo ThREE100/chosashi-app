@@ -82,3 +82,124 @@
 - 未成年者の代理行為、親でも取り消せないんです
 - 「許諾したから責任なし」とは言えないんです
 - 相手が先に取り消したら、もう追認はできないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+任意代理の5肢を、「代理権の限界を見極める」（ア・イ・ウ）と「復代理と無権代理の後始末」（エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric people figures,
+contract documents, stamps/seals, speech bubbles, chain links, prohibition
+marks, arrows — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 代・理・権・任・意・責・任・追・認・者, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+任意代理
+代理行為の瑕疵は誰を基準に判断する？
+
+Subtitle (smaller, centered, 1行):
+代理権の限界と無権代理の後始末を整理(平成29年度 午後の部 第1問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design scene showing three simple people
+figures arranged in a triangle — labeled "本人", "代理人", "相手方" — with
+a small contract document icon and a speech bubble floating above the
+"代理人" figure to show the agent is the one acting and speaking on the
+principal's behalf.
+任意代理の分野は、「代理行為の瑕疵は誰を基準に判断するのか」「代理権の
+ない者がした行為はどうなるのか」「代理人の資格や復代理人を選んだときの
+責任はどうなるのか」といった、代理の基本的な枠組みを正確に理解できて
+いるかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+代理権の限界を見極める
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+代理行為の瑕疵は、代理人を基準に判断する
+Illustration: An isometric icon of an "代理人" person figure with a small
+"知" (knowing) icon glowing above their head, connected by a dotted arrow
+to a "本人" person figure who also gains the same "知" icon, with a
+crossed-out speech bubble reading "知らなかった" next to the 本人 figure.
+Caption (small text below):
+代理人が建物の瑕疵を知っていた(悪意)ときは、本人も悪意として扱われ、
+売主の瑕疵担保責任を問うことができない(民法101条1項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+まったく代理権のない者に、表見代理は成立しない
+Illustration: An isometric person figure with empty open hands (no
+document) standing next to a contract table, with a large red prohibition
+(no-entry) circle over a "表見代理" badge, contrasted with a faded ghost
+outline of a person figure holding a "基本代理権" document icon that is
+required but missing.
+Caption (small text below):
+何ら代理権を与えられていない者がした行為は、相手方が代理権があると信じ、
+そう信じたことに正当な理由があっても、表見代理は成立しない(民法110条)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+未成年者の代理行為を、法定代理人は取り消せない
+Illustration: An isometric young person figure in a school-uniform style
+outfit signing a contract as an agent, with a parent-figure standing
+behind reaching toward the contract but blocked by a red prohibition
+(no-entry) icon between the parent's hand and the document.
+Caption (small text below):
+代理人には行為能力は不要。未成年者がした代理行為の効果は本人に帰属し、
+その法定代理人が取り消すことはできない(民法102条本文)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+復代理と無権代理の後始末
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+許諾を得た復代理人選任でも、選任・監督の責任は残る
+Illustration: An isometric scene showing a "本人" figure handing a
+stamped "許諾" (permission) seal to a "代理人" figure, who then points to
+a smaller "復代理人" figure, with a thin chain-link icon still connecting
+the 本人 and 復代理人 figures to show responsibility remains.
+Caption (small text below):
+本人の許諾を得て復代理人を選任した場合でも、代理人は、その選任及び監督に
+つき本人に対して責任を負うことがある(民法104条)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+相手方が取り消した後は、本人はもう追認できない
+Illustration: An isometric horizontal timeline with two flag icons — a
+red flag reading "相手方の取消し" placed earlier on the timeline, and a
+second flag reading "本人の追認" placed later, crossed out with a
+prohibition mark to show it can no longer happen after the first flag.
+Caption (small text below):
+無権代理人がした契約について、その契約を相手方が取り消した後は、本人は
+もはや追認をすることができない(民法115条本文)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第1問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 代・理・権・任・意・責・任・追・認・者. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 代理権の限界を見極める, 2 cards under 復代理と無権代理の
+後始末), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
