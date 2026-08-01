@@ -81,3 +81,126 @@
 - はみ出した煙突、外の部分も床面積に入るって知ってた?
 - 吹抜けの部分、上階の床面積には入らないんです
 - 地階の床面積は、地上階のあとに記録されるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+床面積に「算入される／されない」の判定を、エレベーター室・屋外階段・煙突・吹抜け・地階記録順序の5枚のカードで、チェックマークと×マークを使って視覚的に対比できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric building cross-sections,
+elevator shafts, exterior staircases, chimneys, double-height void/atrium
+spaces, ledger/registration record pages, green checkmark badges labeled
+"算入", red cross badges labeled "不算入", dashed boundary lines between
+内部/外部 — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・階・積・算・属・断, which
+have Simplified Chinese look-alike forms with visibly different stroke
+shapes — always draw the standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+床面積、算入される？されない？
+エレベーター・階段・煙突・吹抜けを図解
+
+Subtitle (smaller, centered, 1行):
+準則82条の「算入する・しない」を部位ごとに整理(平成30年度 午後の部 第13問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric cross-section of a multi-story building on the
+left, with a magnifying glass hovering over it and small question mark
+icons pointing to an elevator shaft, an exterior staircase, a chimney, and
+a double-height void, showing that these are the ambiguous parts in
+question.
+建物の床面積は、不動産登記事務取扱準則82条に、どの部分を算入し、どの部分
+を算入しないかが細かく列挙されています。エレベーター室・階段室・煙突・
+吹抜けといった「一見どちらとも取れる部分」の扱いを、条文の号ごとに正確に
+押さえられているかが問われる、床面積算入の総合問題です。
+
+--- CARD 1 ---
+Heading (bold):
+エレベーター室は各階の床面積に算入される
+Illustration: An isometric cross-section of a 5-story building with an
+elevator shaft running vertically through all floors. Each floor level
+(1階, 2階, 3階, 4階, 5階) is marked with a small green checkmark badge
+labeled "算入" next to the shaft. A label tag reads "エレベーター室"
+pointing to the shaft.
+Caption (small text below):
+階段室、エレベーター室またはこれに準ずるものは、床を有するものとみなして
+各階の床面積に算入される(準則82条1項6号)。「1階部分のみ」ではなく、各階
+で算入される。
+
+--- CARD 2 ---
+Heading (bold):
+外気分断性のない屋外階段は算入しない
+Illustration: An isometric building with an exterior metal staircase
+attached to the outside wall, open on the sides with no enclosing walls
+(small wind-line icons indicate open air). A red cross badge labeled
+"不算入" is placed over the staircase.
+Caption (small text below):
+外気分断性のない屋外の階段や玄関・車寄せ・ベランダなどの部分は、その階段
+を利用しないと上階に上がれない場合であっても、床面積に算入しない(準則82
+条1項7号)。
+
+--- CARD 3 ---
+Heading (bold):
+内外にまたがる煙突は外側部分も算入される
+Illustration: An isometric cross-section of a building wall with a
+chimney rising from inside the building and a portion of it protruding
+through the wall to the outside. A dashed vertical line marks the wall
+boundary, with small labels "内部" and "外部" on either side. The entire
+chimney, both the inside and outside segments, is highlighted with a
+single green checkmark badge labeled "算入" spanning the whole chimney.
+Caption (small text below):
+建物の内部と外部にまたがって煙突がある場合には、外側に及んでいる部分も
+含めて煙突全体が各階の床面積に算入される(準則82条1項10号)。
+
+--- CARD 4 ---
+Heading (bold):
+上階まで吹抜の部分は上階の床面積に算入しない
+Illustration: An isometric cross-section of a two-story house showing an
+entrance hall void (吹抜け) that spans from the 1st floor up through the
+2nd floor ceiling, with no floor slab drawn at the 2nd floor level in
+that area (shown as a dashed outline where a floor would normally be). A
+red cross badge labeled "不算入" is placed at the 2nd floor void area.
+Caption (small text below):
+建物の一部が上階まで吹抜けになっている場合には、その吹抜けの部分は、上階
+の床面積に算入しない(準則82条1項8号)。
+
+--- CARD 5 ---
+Heading (bold):
+地階の床面積は地上階の記録の次に記録される
+Illustration: An isometric registration ledger book page showing a
+vertical list of rows labeled, from top to bottom, "1階", "2階", "3階",
+each marked with a small circled number badge "①", followed by a downward
+arrow, then a row labeled "地下1階" marked with a circled number badge
+"②". A small isometric building icon beside the ledger shows three above-
+ground floors and one underground floor.
+Caption (small text below):
+地階があるときは、その床面積は、地上階の床面積の記録の次に記録される
+(準則91条2項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第13問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・階・積・算・属・断.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly, with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```

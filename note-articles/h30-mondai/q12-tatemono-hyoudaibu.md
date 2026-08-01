@@ -81,3 +81,126 @@
 - 接続して新築した区分建物は、変更登記と一緒に出すんです
 - 敷地権の日付は、申請日じゃなくて取得した日なんです
 - 原始取得者が亡くなっても、相続人が亡Ａ名義で登記できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の表題部の登記について、更正登記の義務の有無・共有建物の申請人・区分建物の一括申請・敷地権の日付・相続時の申請人という5つの正しいルールを、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric house/building blocks,
+ledger documents, correction pencils, official registry stamps, person
+icons, calendars, family-tree ribbons, prohibition/checkmark marks —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・請・継・続・敷, which have
+Simplified Chinese look-alike forms with visibly different stroke shapes —
+always draw the standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の表題部の登記
+更正・共有・区分建物・敷地権・相続を整理
+
+Subtitle (smaller, centered, 1行):
+申請義務・申請人・申請方法・日付を条文ごとに確認(平成30年度 午後の部 第12問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric house-shaped building icon at the center, with
+five thin dotted lines radiating outward to five small icons: a pencil
+correcting a document (更正), two person icons holding hands above a house
+(共有), two connected building blocks joined by a bridge (区分建物), a
+calendar with a registry stamp (日付), and a family-tree icon with a small
+black ribbon (相続) — showing that one building's registration record
+connects to five different rules.
+建物の表題部の登記には、更正登記の義務の有無、共有建物の申請人、区分建物の
+一括申請、敷地権の日付、相続が絡んだ表題登記の申請人といった、似ているようで
+異なるルールが並びます。1つずつ正しいルールを確認します。
+
+--- CARD 1 ---
+Heading (bold):
+床面積の更正登記は「できる」が「1月以内」の義務はない
+Illustration: An isometric ledger document showing a 床面積 entry with a
+red correction mark — a pencil crossing out a wrong number and writing a
+corrected number — next to a clock icon with a red X mark over the text
+「1月以内」to show there is no deadline obligation. Two person icons stand
+beside the document, one labeled 表題部所有者 and one labeled
+所有権の登記名義人.
+Caption (small text below):
+表題部所有者または所有権の登記名義人は更正登記を申請できるが、知った時から
+1月以内に申請しなければならない義務はない(法53条1項)。
+
+--- CARD 2 ---
+Heading (bold):
+共用部分の建物でも、更正登記は共有者の1人から申請できる
+Illustration: An isometric building labeled 共用部分である旨の登記, with
+three person icons standing beside it; one person icon is highlighted and
+steps forward alone to a document counter with a registry stamp, while the
+other two person icons stay grayed out in the background, showing that a
+single co-owner can act alone.
+Caption (small text below):
+共用部分である旨の登記がされている建物でも、表題部の更正登記は保存行為として
+共有者の1人から申請できる(民法252条ただし書)。
+
+--- CARD 3 ---
+Heading (bold):
+非区分建物に接続新築した区分建物は、変更登記と一括申請する
+Illustration: An isometric existing non-partitioned house labeled
+区分建物ではない建物 connected by a short bridge beam to a newly built
+partitioned building block labeled 区分建物, with a single document icon
+labeled 一括申請 bridging both structures, and two arrows merging into one
+arrow pointing to a single registry stamp.
+Caption (small text below):
+区分建物ではない表題登記がある建物に接続して区分建物が新築された場合、その
+表題登記の申請は、既存建物の表題部の変更の登記の申請と一括してしなければ
+ならない(法48条3項)。
+
+--- CARD 4 ---
+Heading (bold):
+敷地権の登記原因の日付は「敷地権を取得した日」
+Illustration: An isometric calendar icon showing two dates side by side —
+one labeled 建物の表題登記の申請日 with a red X mark crossing it out, and
+another labeled 敷地権を取得した日(所有権の登記の日) circled in green with
+a checkmark — next to a small land plot icon with a house on it and a
+registry stamp.
+Caption (small text below):
+敷地権に係る登記原因の日付は、建物の表題登記の申請日ではなく、敷地権
+(所有権等)を取得した日、すなわち所有権の登記を備えた日である。
+
+--- CARD 5 ---
+Heading (bold):
+原始取得者が死亡しても、相続人が亡Ａ名義で表題登記を申請できる
+Illustration: An isometric family-tree icon showing a person labeled Ａ
+with a small black ribbon above them (indicating death), positioned above
+a house-shaped 区分建物 icon labeled 表題部所有者：亡Ａ, with an arrow from
+a person icon labeled 相続人 reaching toward a registry document and stamp
+to submit the application.
+Caption (small text below):
+区分建物を新築した所有者(原始取得者)Ａが表題登記前に死亡した場合、相続人
+その他の一般承継人の1人は、亡Ａを表題部所有者とする当該区分建物についての
+表題登記を申請することができる(法47条2項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第12問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・請・継・続・敷. If any
+character renders as a Simplified Chinese variant, redraw that character in
+the correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```
