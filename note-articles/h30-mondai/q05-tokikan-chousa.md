@@ -91,3 +91,125 @@
 - 実地調査ができるのは、日が出てから日が沈むまでなんです
 - 実地調査、実は職員に代行させてもいいって知ってた？
 - 検査を妨げると、30万円以下の罰金があるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記官による実地調査について、発見時の対応・調査事項・調査時間帯・実施者・妨害時の罰則を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×2400 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: magnifying glass, sun rising
+and sun setting, prohibition (no-entry) marks, envelope/letter for a
+formal notice, person icons, instruction sheet, government official
+icons, coin/fine icons, a gate being closed, a law-code book — adapt
+icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・官・催・罰・員・拒・妨, which
+have Simplified Chinese look-alike forms with visibly different stroke
+shapes — always draw the standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+登記官の実地調査
+どこまで・いつ・誰ができる？
+
+Subtitle (smaller, centered, 1行):
+発見・調査事項・時間帯・実施者・罰則を整理(平成30年度 午後の部 第5問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a
+registrar (登記官) figure holding a magnifying glass, standing between a
+land plot icon and a house-shaped building icon, with small thought-bubble
+icons above showing a letter (催告), a sun (時間帯), a second official
+figure (代行), and a coin (罰則) to represent the five themes covered.
+登記官による実地調査は、申請主義を尊重しつつ必要な範囲で現地を確かめる
+制度です。未申請を発見したときの対応、何を調べるか、いつ調査できるか、
+誰が調査を行えるか、妨害した場合の罰則まで、法・準則の条文に沿って
+整理します。
+
+--- CARD 1 ---
+Heading (bold):
+未申請発見時は、まず申請を催告する
+Illustration: An isometric scene of a registrar (登記官) figure holding a
+magnifying glass and discovering an unregistered building (a house icon
+with a torn paper label reading "未登記"), with a red prohibition mark
+over a small "職権登記" stamp icon, and instead an arrow pointing from the
+registrar to an envelope/letter icon labeled "催告" being handed to a
+property owner figure.
+Caption (small text below):
+申請すべき事項の未申請を発見しても、直ちに職権でその登記をするのではなく、
+まず申請義務者に登記の申請を催告する(準則60条1項、63条1項)。
+
+--- CARD 2 ---
+Heading (bold):
+表題登記のない土地は、所有者が誰かも調査する
+Illustration: An isometric land plot being inspected by a registrar with
+a magnifying glass, with three small labeled tag icons pointing at the
+plot reading "地目"・「地積」・「筆界」, plus a fourth magnifying-glass
+beam pointing at a person figure with a tag reading "所有者", showing the
+owner is also within the scope of inspection.
+Caption (small text below):
+表題登記のない土地の表題登記では、表題部所有者が誰であるかも申請情報の
+内容となるため、地目・地積・筆界に加えて所有者も調査の対象となる
+(法25条11号)。
+
+--- CARD 3 ---
+Heading (bold):
+実地調査は、日の出から日没までに限る
+Illustration: A horizontal timeline bar with a sunrise icon on the left
+end and a sunset icon on the right end; the segment between them is
+highlighted in green with a small registrar figure and a check mark,
+while the segment outside (night, shown with a moon icon) is covered by
+a red prohibition (no-entry) mark over a house and land plot icon.
+Caption (small text below):
+登記官が実地調査を行うことができるのは、日出から日没までの間に限られる
+(法29条2項)。夜間に他人の土地・建物へ立ち入ることは認められない。
+
+--- CARD 4 ---
+Heading (bold):
+登記所の職員に、実地調査を代行させることができる
+Illustration: An isometric scene of a registrar (登記官) figure handing an
+instruction sheet icon labeled "指示" to a registry office staff figure
+(職員), with a dotted arrow leading from the staff figure to a land plot
+being inspected with a magnifying glass, showing the staff carrying out
+the inspection on the registrar's behalf.
+Caption (small text below):
+登記官は、必要があると認める場合には、登記所の職員に細部の指示を与えて
+実地調査を代行させることができる(準則64条)。実地調査を登記官自身が
+必ず行わなければならないわけではない。
+
+--- CARD 5 ---
+Heading (bold):
+検査を妨げた者には、30万円以下の罰金
+Illustration: An isometric scene of a property owner figure closing a
+gate (門) in front of a registrar trying to enter, with a red prohibition
+mark, next to a coin icon and a small law-code book icon with a torn
+paper label reading "30万円以下の罰金".
+Caption (small text below):
+実地調査による検査を拒み、妨げ、または忌避した者は、30万円以下の罰金に
+処せられる(法162条1号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第5問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・官・催・罰・員・拒・妨.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly, with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```
