@@ -103,6 +103,17 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -118,44 +129,63 @@ Title (large, bold, 1行):
 Subtitle (smaller, centered, 1行):
 令和2年度 第1問／成立要件・債務・登記・規約・入会権
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 町内会の集会所を思わせるアイソメトリックな建物イラスト。建物の周囲に、組織図のアイコン、挙手する複数の人物シルエット、入れ替わる人物と矢印、規約帳のアイコンの4つを小さく配置する。
-「権利能力なき社団」とは、法人登記こそしていないものの、団体としての実体を備えている集まり（町内会・同窓会・サークルなど）のことです。この分野は、①どうなれば社団と認められるか、②社団の借金は誰が負うか、③社団の不動産はどう登記するか、④規約改正の効力、⑤入会権と慣習という5つの論点を、判例に沿って整理できているかが問われます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-社団性は「組織・多数決・存続・主要事項の確定」の4要件で判断する
-Illustration: 中央に町内会風の集会所の建物アイコンを置き、周囲四隅に番号付きの4つのアイコンを配置する。番号と内容は次の4つで、順番も文言も変えずに全て描くこと（重複禁止・欠落禁止・言い換え禁止）：①組織図のアイコンに「団体としての組織」のラベル、②挙手する複数人のアイコンに「多数決の原則」のラベル、③入れ替わる人物シルエットと矢印のアイコンに「構成員が変わっても団体は存続」のラベル、④規約帳・組織図・金庫のアイコンに「代表の方法・総会の運営・財産の管理など主要な点の確定」のラベル。
-Caption (small text below):
-社団性の4要件（組織・多数決・存続・主要事項の確定）（最判昭39.10.15）
+Badge: a filled circle in pastel blue containing the number 1 (numbers run
+continuously across all cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+社団性は4要件で判断
+Illustration: 中央に町内会風の集会所のアイソメトリック建物アイコンを置き、
+周囲に4つの小アイコンを配置する。①組織図アイコンに「組織」の短いラベル札、
+②挙手する複数人物のアイコンに「多数決」のラベル札、③入れ替わる人物と矢印の
+アイコンに「存続」のラベル札、④規約帳・金庫のアイコンに「主要事項の確定」の
+ラベル札。4つとも小さなチェックマークを添える（重複禁止・欠落禁止・言い換え禁止）。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+pastel blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence,
+NOT a legal citation):
+4要件で判断
 
 --- CARD 2 ---
-Heading (bold):
-社団の借金は「社団財産だけ」が引当てで、構成員個人は返済義務を負わない
-Illustration: 町内会の会費・積立金を象徴する貯金箱アイコンに、貸主からの矢印が向かう構図。その周囲に並ぶ構成員（複数の人物シルエット）の胸元には盾のアイコンを重ね、各人物の財布アイコンには大きなバツ印を描いて、個人の財布へは矢印が向かわないことを示す。
-Caption (small text below):
-社団の債務は社団財産のみが引当て、構成員個人は責任を負わない（最判昭48.10.9）
+Badge: a filled circle in pastel blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+社団の借金は社団財産だけ
+Illustration: 貯金箱アイコン（社団の総有財産）に貸主からの矢印が向かう構図。
+周囲に並ぶ構成員複数人のシルエットの胸元に盾アイコンを重ね、各人物の財布
+アイコンには大きな✕マークを描く。
+Conclusion tag (pastel blue, 5-15 Japanese characters, a keyword phrase):
+個人責任なし
 
 --- CARD 3 ---
-Heading (bold):
-社団の不動産は「構成員全員の共有名義」か「代表者個人名義」で登記できる
-Illustration: 中央に登記簿・権利証を思わせる書類アイコンを置き、上部には社団の看板アイコンに大きなバツ印（社団名義での登記は不可）を描く。左側に複数の人物シルエットと「構成員全員の共有名義」のラベル、右側に代表者一人のアイコンと「代表者個人名義」のラベルを配置し、それぞれから書類アイコンへ矢印を伸ばす。
-Caption (small text below):
-社団名義は不可、構成員全員の共有名義か代表者個人名義で登記可（最判昭47.6.2）
+Badge: a filled circle in pastel blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+社団名義は不可、共有か代表者名義
+Illustration: 中央に登記簿の書類アイコン。上部に社団の看板アイコンに大きな
+✕マーク。左側に複数人物シルエット＋「共有名義」ラベル札、右側に代表者一人の
+アイコン＋「代表者個人名義」ラベル札、それぞれから書類アイコンへ矢印。
+Conclusion tag (pastel blue, 5-15 Japanese characters, a keyword phrase):
+共有か代表者名義
 
 --- CARD 4 ---
-Heading (bold):
-資格要件の変更は、承諾しなかった構成員にも及ぶ
-Illustration: 規約帳のアイコンにペンで書き換えを示す改正マークを重ねる。周囲に複数の人物シルエットを並べ、そのうち一人だけ「反対」の吹き出しを出しているが、点線の輪（改正後の規約の適用範囲）が反対した人物を含む全員を囲んでいる構図。
-Caption (small text below):
-資格要件の変更は承諾しなかった構成員にも及ぶ（最判平12.10.20）
+Badge: a filled circle in pastel blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+規約改正は不承諾者にも適用
+Illustration: 規約帳アイコンにペンで改正マークを重ねる。周囲に複数人物
+シルエットを並べ、一人だけ「反対」の吹き出し。点線の輪（適用範囲）が反対者を
+含む全員を囲む。
+Conclusion tag (pastel blue, 5-15 Japanese characters, a keyword phrase):
+反対者にも適用
 
 --- CARD 5 ---
-Heading (bold):
-入会権の内容や処分方法は、民法より地域の慣習が優先する
-Illustration: 山と入会地を思わせるアイソメトリックな地形イラストの上に、古い巻物のアイコン（地域の慣習）を、民法の書籍アイコンより手前かつ大きく描き、優先関係を視覚的に示す。
-Caption (small text below):
-入会権の内容・処分は地域の慣習が優先する（民法263条・294条）
+Badge: a filled circle in pastel blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+入会権は慣習が民法に優先
+Illustration: 山と入会地のアイソメトリック地形イラストの上に、古い巻物
+アイコン（慣習）を民法の書籍アイコンより手前かつ大きく描く。
+Conclusion tag (pastel blue, 5-15 Japanese characters, a keyword phrase):
+慣習が優先
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -170,6 +200,10 @@ Simplified Chinese characters. Render each strictly in standard Japanese
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

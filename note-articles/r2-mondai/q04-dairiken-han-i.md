@@ -93,6 +93,17 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -108,44 +119,64 @@ Title (large, bold, 1行):
 Subtitle (smaller, centered, 1行):
 令和2年度 第4問／委任状と代理権の範囲
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 委任状の書類アイコン（「土地の合筆の登記申請に関する一切の権限」の文字入り）を手にした代理人のアイソメトリックイラスト。委任状から吹き出しが伸び、その先に複数の小さな行為アイコン（取下げの書類、硬貨、鍵、審査請求書）を並べる。
-土地家屋調査士が依頼者から受け取る委任状に「登記申請に関する一切の権限」とだけ書かれているとき、どこまでの行為が代理権に含まれ、どこからは別途「特別の委任」が必要になるのかを問う問題です。「申請に付随する行為か／申請とは別の手続か」という視点で切り分けます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-依頼者が意思を撤回したときの「取下げ」には、特別の委任が必要
-Illustration: 「一切の権限」の委任状アイコンを持つ代理人のアイソメトリックイラスト。依頼者のシルエットから「やっぱりやめたい」の吹き出しが出ている。代理人の手前に「取下げ」の書類アイコンと大きなバツ印を描き、その脇に「特別の委任」のラベルを付けた別の委任状アイコンを配置する。
-Caption (small text below):
-申請意思撤回による取下げには特別の委任が必要（昭29.12.25民甲2637号）
+Badge: a filled circle in pastel green containing the number 1 (numbers run
+continuously across all cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+意思撤回の取下げは特別委任
+Illustration: 「一切の権限」の委任状アイコンを持つ代理人のアイソメトリック
+イラスト。依頼者のシルエットから「やっぱりやめたい」の吹き出しが出ている。
+代理人の手前に「取下げ」の書類アイコンと大きな✕マークを描き、その脇に
+「特別の委任」のラベル札を付けた別の委任状アイコンを配置する。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+pastel green, 5-15 Japanese characters, a keyword phrase — NOT a sentence,
+NOT a legal citation):
+特別の委任が必要
 
 --- CARD 2 ---
-Heading (bold):
-過誤納の登録免許税の還付金受領にも、特別の委任が必要
-Illustration: 硬貨と印紙のアイコンに「還付金」のラベルを付け、代理人の手のアイコンに大きなバツ印を重ねる。その脇に依頼者本人のシルエットと、「特別の委任」のラベルを付けた委任状アイコンを配置し、還付金アイコンへの矢印を描く。
-Caption (small text below):
-過誤納還付金の受領には特別の委任が必要（平26.5.9民二272号）
+Badge: a filled circle in pastel green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+還付金の受領も特別委任
+Illustration: 硬貨と印紙のアイコンに「還付金」のラベル札を付け、代理人の手
+のアイコンに大きな✕マークを重ねる。その脇に依頼者本人のシルエットと、
+「特別の委任」のラベル札を付けた委任状アイコンを配置し、還付金アイコンへの
+矢印を描く。
+Conclusion tag (pastel green, 5-15 Japanese characters, a keyword phrase):
+本人受領が原則
 
 --- CARD 3 ---
-Heading (bold):
-電子申請で登記識別情報を提供するには、特別の委任が必要
-Illustration: パソコン画面のアイコンに鍵のマーク（登記識別情報）を表示し、鍵の周りに錠前と歯車のアイコン（暗号化）を描く。その下に「特別の委任」のラベルを付けた委任状アイコンを配置する。
-Caption (small text below):
-登記識別情報の提供（暗号化）には特別の委任が必要（平20.1.11民二57号）
+Badge: a filled circle in pastel green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+識別情報の提供も特別委任
+Illustration: パソコン画面のアイコンに鍵のマーク（登記識別情報）を表示し、
+鍵の周りに錠前と歯車のアイコン（暗号化）を描く。その下に「特別の委任」の
+ラベル札を付けた委任状アイコンを配置する。
+Conclusion tag (pastel green, 5-15 Japanese characters, a keyword phrase):
+暗号化に特別委任
 
 --- CARD 4 ---
-Heading (bold):
-電子申請で登記識別情報の通知を受けるにも、特別の委任が必要
-Illustration: パソコン画面にファイルが保存される様子を描き、鍵のマークが元の形に戻る（復号）矢印を添える。その下に「特別の委任」のラベルを付けた委任状アイコンを配置する。
-Caption (small text below):
-登記識別情報の通知受領（復号）には特別の委任が必要（平20.1.11民二57号）
+Badge: a filled circle in pastel green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+通知の受領も特別委任
+Illustration: パソコン画面にファイルが保存される様子を描き、鍵のマークが
+元の形に戻る（復号）矢印を添える。その下に「特別の委任」のラベル札を付けた
+委任状アイコンを配置する。
+Conclusion tag (pastel green, 5-15 Japanese characters, a keyword phrase):
+復号に特別委任
 
 --- CARD 5 ---
-Heading (bold):
-却下処分に対する審査請求にも、特別の授権が必要
-Illustration: 「却下」の朱色スタンプが押された書類アイコンと、その先にある別の書類アイコン（「審査請求書」のラベル付き）を描く。両者の間に矢印を描き、その脇に「特別の授権」のラベルを付けた委任状アイコンを配置する。
-Caption (small text below):
-審査請求は別手続で、特別の授権が必要（行政不服審査法12条1項）
+Badge: a filled circle in pastel green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+審査請求は別手続で要授権
+Illustration: 「却下」の朱色スタンプが押された書類アイコンと、その先にある
+別の書類アイコン（「審査請求書」のラベル札付き）を描く。両者の間に矢印を
+描き、その脇に「特別の授権」のラベル札を付けた委任状アイコンを配置する。
+Conclusion tag (pastel green, 5-15 Japanese characters, a keyword phrase):
+特別の授権が必要
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -160,6 +191,10 @@ Simplified Chinese characters. Render each strictly in standard Japanese
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

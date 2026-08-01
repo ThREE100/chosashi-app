@@ -93,6 +93,17 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -108,44 +119,63 @@ Title (large, bold, 1行):
 Subtitle (smaller, centered, 1行):
 令和2年度 第2問／相続・悪意・無過失・起算点
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 一戸建ての家のアイソメトリックイラストの前に人物シルエットが立ち、足元にカレンダーと砂時計のアイコンを添える。
-取得時効は、他人の物でも「所有の意思をもって・平穏公然と」一定期間占有し続ければ自分のものになるという制度（民法162条）です。相続で占有を受け継いだ場合や、他人の物と知って買った場合、無過失の推定、起算点の選び方といった、時効の「入口」に関する論点を、5つの場面に分けて整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-相続人が新たに自主占有を始めれば、自己の占有だけで時効取得できる
-Illustration: 家のアイソメトリックイラスト。左側に薄く描かれた親のシルエットに「他主占有（借りているだけ）」のラベル、右側に家の前に堂々と立つ子のシルエットに「自分の家だ」という吹き出しを描き、両者の間に「新たに占有を開始」の矢印を配置する。
-Caption (small text below):
-相続人が新たに自主占有を始めれば自己の占有のみで時効取得可（最判平8.11.12）
+Badge: a filled circle in pastel green containing the number 1 (numbers run
+continuously across all cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+新たな自主占有で時効取得可
+Illustration: 家のアイソメトリックイラスト。左側に薄く描かれた親のシルエット
+に「他主占有」のラベル札、右側に家の前に堂々と立つ子のシルエットに「自分の
+家だ」という吹き出し、両者の間に「新たに占有開始」の矢印を配置する。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+pastel green, 5-15 Japanese characters, a keyword phrase — NOT a sentence,
+NOT a legal citation):
+自己の占有で時効取得
 
 --- CARD 2 ---
-Heading (bold):
-他人の物と知って買った悪意の占有者でも、20年で時効取得できる
-Illustration: 土地のアイソメトリックイラストの上に人物シルエットが立ち、頭上に「本当の所有者は別にいると知っていた（悪意）」の吹き出しを描く。足元に大きく「20年」の数字とカレンダーのアイコンを配置する。
-Caption (small text below):
-悪意の占有者でも20年で時効取得できる（民法162条1項）
+Badge: a filled circle in pastel green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+悪意の占有でも20年で取得
+Illustration: 土地のアイソメトリックイラストの上に人物シルエットが立ち、頭上
+に「本当の所有者は別にいると知っていた」の吹き出しを描く。足元に大きく
+「20年」の数字とカレンダーのアイコンを配置する。
+Conclusion tag (pastel green, 5-15 Japanese characters, a keyword phrase):
+20年で時効取得
 
 --- CARD 3 ---
-Heading (bold):
-対抗要件を備える前に抵当権が登記されると、後から賃借権を時効取得しても買受人に対抗できない
-Illustration: 左から右へ続く時系列の矢印の上に、3つのアイコンを順番に並べる。①印鑑のアイコンに「抵当権設定登記」のラベル、②鍵のアイコンに「賃借権の時効取得」のラベル、③オークションの木づちアイコンに「競売・買受人」のラベル。②から③へ向かう矢印には大きなバツ印を重ねる。
-Caption (small text below):
-対抗要件具備前に抵当権登記があれば、後の賃借権時効取得も買受人に対抗不可（最判平23.1.21）
+Badge: a filled circle in pastel green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+賃借権の時効取得も対抗不可
+Illustration: 左から右へ続く時系列の矢印の上に3つのアイコンを順番に並べる。
+①印鑑のアイコンに「抵当権設定登記」のラベル札、②鍵のアイコンに「賃借権の
+時効取得」のラベル札、③木づちのアイコンに「競売・買受人」のラベル札。②から
+③へ向かう矢印には大きな✕マークを重ねる。
+Conclusion tag (pastel green, 5-15 Japanese characters, a keyword phrase):
+買受人に対抗不可
 
 --- CARD 4 ---
-Heading (bold):
-10年の短期取得時効でも、「無過失」までは推定されない
-Illustration: バランスの取れた天秤のアイソメトリックイラスト。片側の皿に「所有の意思・善意・平穏・公然」のラベルとチェックマークのアイコン（推定される）、もう片側の皿に「無過失」のラベルと虫眼鏡のアイコン（自分で証明する必要がある）を描く。
-Caption (small text below):
-民法186条1項は無過失を推定しない（大判大8.10.13）
+Badge: a filled circle in pastel green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+無過失だけは推定されない
+Illustration: 天秤のアイソメトリックイラスト。片側の皿に「所有の意思・善意・
+平穏・公然」のラベル札とチェックマークのアイコン、もう片側の皿に「無過失」の
+ラベル札と虫眼鏡のアイコンを描く。
+Conclusion tag (pastel green, 5-15 Japanese characters, a keyword phrase):
+無過失は推定なし
 
 --- CARD 5 ---
-Heading (bold):
-時効の起算点を勝手に選ぶことはできない
-Illustration: カレンダーのアイソメトリックイラストに、占有開始日を示すピンのアイコンを固定して描く。そのピンを左右にずらそうとする手のアイコンに大きなバツ印を重ねる。
-Caption (small text below):
-起算点は占有開始時に固定、任意選択は不可（最判昭35.7.27）
+Badge: a filled circle in pastel green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+起算点は勝手に選べない
+Illustration: カレンダーのアイソメトリックイラストに、占有開始日を示すピンの
+アイコンを固定して描く。そのピンを左右にずらそうとする手のアイコンに大きな
+✕マークを重ねる。
+Conclusion tag (pastel green, 5-15 Japanese characters, a keyword phrase):
+起算点は固定
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -160,6 +190,10 @@ Simplified Chinese characters. Render each strictly in standard Japanese
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

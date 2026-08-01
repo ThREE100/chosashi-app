@@ -91,6 +91,17 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -99,19 +110,26 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-Special attention: the kanji 号・地・番・建・物・登・記・録 appear
-repeatedly in the card text below. Render every one of them in its
-standard Japanese (Jōyō) form — do NOT render any of them as a
-Simplified Chinese variant.
+Special attention: the kanji 地・番・建・物・記・録 appear repeatedly in
+the card text below. Render every one of them in its standard Japanese
+(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
 
 This infographic has exactly 5 cards, one per card heading listed below.
 Reproduce all 5 headings exactly as written, in this order, with no
 duplication, no omission, and no paraphrasing:
-1. 分割で所在が変わると、抹消記号と「変更した旨」が残るんです
-2. 数筆にまたがる建物、「◯番地ないし◯番地」で略記できるんです
-3. 仮換地の建物、所在は「仮換地の地番」なんです
-4. 建物の合併は、地番区域が違ってもできるって知ってた？
-5. 桟橋の上の建物は「◯番地先」と書くんです
+1. 所在変更は抹消記号と変更旨を記録
+2. 数筆またがる建物は地番を略記可
+3. 仮換地上の建物は仮換地の地番で表示
+4. 建物合併は地番区域が違っても可
+5. 桟橋の建物は「何番地先」と表示
+
+The 5 conclusion tags below must also be reproduced verbatim, in this
+order, with no duplication, no omission, and no paraphrasing:
+1. 抹消記号＋変更した旨
+2. ないし表記が可能
+3. 仮換地の地番で表示
+4. 区域問わず合併可
+5. 何番地先と表示
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -121,83 +139,82 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和2年度 土地家屋調査士試験 午後の部 第11問より
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric overview scene combining a land-readjustment
-site with plots in a grid, a building spanning multiple land plots, and
-a building standing on an ocean pier — a small collage introducing the
-theme of "where a building is located."
-建物の「所在」とは、その建物がどの土地の上に建っているかを、土地の
-地番を使って表す表示です。土地区画整理の途中の「仮換地」や、複数の
-土地にまたがる建物、水上の建物など、書き方に迷いやすい場面のルール
-を5つのカードで整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-分割で所在が変わると、抹消記号と「変更した旨」が残るんです
+Badge: a filled circle in pastel green containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+所在変更は抹消記号と変更旨を記録
 Illustration: Isometric diagram of a building (甲建物) with a smaller
 attached section (附属建物) being split off by a dotted cut-line into a
 separate building (乙建物). On the original record card, the old address
 text has a torn-paper label reading "抹消" laid diagonally across it,
-next to a new label tag reading "分割により変更".
-Caption (small text below):
-分割で所在が変わると、変更後の不動産所在事項・分割により変更した旨・
-変更前の不動産所在事項を抹消する記号が記録される
+next to a new label tag reading "変更した旨" with a checkmark.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+pastel green, 5-15 Japanese characters, a keyword phrase — NOT a sentence,
+NOT a legal citation):
+抹消記号＋変更した旨
 
 --- CARD 2 ---
-Heading (bold):
-数筆にまたがる建物、「◯番地ないし◯番地」で略記できるんです
+Badge: a filled circle in pastel green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+数筆またがる建物は地番を略記可
 Illustration: Isometric aerial view of three adjacent land plots labeled
 "1番" "2番" "3番", with a single building footprint overlapping all
 three. A pastel label card reads "1番地ないし3番地" with a checkmark,
-next to a smaller crossed-out card reading "1番地、2番地、3番地" to
-show the long form being replaced by the short form.
-Caption (small text below):
-数筆にまたがる建物の所在は「◯番地ないし◯番地」と略記できる
-(準則88条3項)
+next to a smaller crossed-out card reading "1番地、2番地、3番地" with an
+X mark, showing the long form being replaced by the short form.
+Conclusion tag (pastel green, 5-15 Japanese characters, keyword phrase):
+ないし表記が可能
 
 --- CARD 3 ---
-Heading (bold):
-仮換地の建物、所在は「仮換地の地番」なんです
+Badge: a filled circle in pastel green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+仮換地上の建物は仮換地の地番で表示
 Illustration: Isometric land-readjustment scene: a building stands on a
 plot labeled "仮換地". A faded, semi-transparent ghost outline of the
-original plot labeled "従前地" sits to the side with a small "使用不可"
-tag. A bold arrow points from the building down to the "仮換地" plot,
-labeled "所在は仮換地の地番で表示".
-Caption (small text below):
-仮換地上の建物の所在は、従前地でなく仮換地の位置・地番で表示する
-(昭43.2.14民甲170号)
+original plot labeled "従前地" sits to the side with a small crossed-out
+"使用不可" tag. A bold arrow points from the building down to the
+"仮換地" plot, ending in a checkmarked label reading "所在はここ".
+Conclusion tag (pastel green, 5-15 Japanese characters, keyword phrase):
+仮換地の地番で表示
 
 --- CARD 4 ---
-Heading (bold):
-建物の合併は、地番区域が違ってもできるって知ってた？
+Badge: a filled circle in pastel green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+建物合併は地番区域が違っても可
 Illustration: Isometric scene of two separate buildings, one labeled
 "一丁目" and one labeled "二丁目" (different 地番区域), joined by a
 merge arrow into a single combined building icon labeled "合併" with a
 checkmark. Beside it, a small separate icon of two land plots with a
-crossed-out merge arrow represents "土地の合筆はできない" for contrast.
-Caption (small text below):
-建物の合併は、所在の地番区域が異なる建物どうしでも申請できる
-(土地の合筆とは異なる)
+crossed-out merge arrow and an X mark, labeled "土地の合筆は不可" for
+contrast.
+Conclusion tag (pastel green, 5-15 Japanese characters, keyword phrase):
+区域問わず合併可
 
 --- CARD 5 ---
-Heading (bold):
-桟橋の上の建物は「◯番地先」と書くんです
+Badge: a filled circle in pastel green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+桟橋の建物は「何番地先」と表示
 Illustration: Isometric ocean pier (桟橋) extending from the shoreline
 with a small building standing on the end of the pier over the water. A
 dotted line runs from the building back to the nearest land plot,
 labeled "3番地". A label tag reads "3番地先" with a checkmark.
-Caption (small text below):
-桟橋上の建物の所在は、最も近い土地の地番を用いて「何番地先」と記録する
-(準則88条4項)
+Conclusion tag (pastel green, 5-15 Japanese characters, keyword phrase):
+何番地先と表示
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to 号・地・番・建・物・登・記・録. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, and that all 5 card headings listed above
-appear verbatim with no paraphrasing.
+attention to 地・番・建・物・記・録. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as a
+short heading + a short conclusion tag, at a glance.
 ```

@@ -93,6 +93,17 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -107,73 +118,76 @@ Title (large, bold, 2行):
 「今の使われ方」で決まる
 
 Subtitle (smaller, centered, 1行):
-令和2年度 午後の部 第6問／現況主義の5つのルール
+令和2年度 午後の部 第6問／現況主義の5つの場面
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric magnifying glass hovering over a small land
-plot icon. On one side, a registry-book icon (登記簿) is shown crossed
-out with an X; on the other side, the actual land-use icon (a small
-house, a car, a fish-drying rack) glows and is circled, visually
-conveying that the current physical use — not the registry record —
-decides the land category.
-地目の認定は、登記簿上の記載ではなく「現在どう使われているか（現況）」を基準にする現況主義が大原則です。次のア〜オの5つの場面で、正しい地目の考え方を確認します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
-以下の5枚のカードは、下記の番号・見出し文言のとおり過不足なくちょうど5枚作成すること（重複禁止・欠落禁止・言い換え禁止）：
-1. 宅地工事完了＋確認済証があれば、着工前でも宅地と認定できる
-2. 公道で敷地と区分された屋外駐車場は「雑種地」
-3. 建物が付随的なゴルフ場は、全体を一団の雑種地とする
-4. 乾燥場でも、永久的設備の建物がある部分だけは宅地
-5. 地下に地下鉄設備があっても、地上が病院なら地目は宅地
+以下の5枚のカードは、下記の番号・見出し・結論タグのとおり過不足なくちょうど
+5枚作成すること（重複禁止・欠落禁止・言い換え禁止）：
+1. 宅地工事完了＋確認済証で着工前でも宅地認定／着工前でも宅地認定可
+2. 公道で区分された駐車場は雑種地／宅地でなく雑種地
+3. 建物付随のゴルフ場は全体が雑種地／一団まとめて雑種地
+4. 乾燥場は建物部分だけ宅地認定／建物敷地のみ宅地
+5. 地下鉄設備より地上の用途で地目判断／地表の用途で判断
 
 --- CARD 1 ---
-Heading (bold):
-宅地工事完了＋確認済証があれば、着工前でも宅地と認定できる
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+宅地工事完了＋確認済証で着工前でも宅地認定
 Illustration: An isometric land plot showing completed grading/leveling
-work, a building-permit stamp icon (確認済証) floating above the plot,
-and a faint dashed outline of a future building foundation with no
-actual building yet. A checkmark icon labeled 宅地認定可 sits beside it.
-Caption (small text below):
-造成工事が完了し建築確認済証も交付されていれば、建築工事が始まっていなくても宅地として認定できる（昭56.8.2民三5402号）
+work, a building-permit stamp icon (確認済証) floating above the plot, and
+a faint dashed outline of a future building foundation with no actual
+building yet. A checkmark icon labeled 宅地認定 sits beside it.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+着工前でも宅地認定可
 
 --- CARD 2 ---
-Heading (bold):
-公道で敷地と区分された屋外駐車場は「雑種地」
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+公道で区分された駐車場は雑種地
 Illustration: An isometric mansion (集合住宅) building on one side of a
-paved road, and a separate outdoor parking lot on the other side of the
-road. The mansion is labeled 宅地; the parking lot across the road is
-labeled 雑種地.
-Caption (small text below):
-マンションの敷地と公道で判然と区分されている屋外駐車場は、宅地ではなく雑種地として認定する
+paved road labeled 宅地, and a separate outdoor parking lot on the other
+side of the road labeled 雑種地, with the road drawn clearly as the
+dividing line between them.
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase):
+宅地でなく雑種地
 
 --- CARD 3 ---
-Heading (bold):
-建物が付随的なゴルフ場は、全体を一団の雑種地とする
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+建物付随のゴルフ場は全体が雑種地
 Illustration: An isometric golf course with green fairways and a small
 clubhouse building at the edge. A dashed boundary line encircles the
 entire course including the clubhouse, labeled 雑種地（一団）.
-Caption (small text below):
-コース部分の利用が主で建物が付随的にすぎない場合、クラブハウスを含め全体を一団の雑種地として扱う（準則69条7号）
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase):
+一団まとめて雑種地
 
 --- CARD 4 ---
-Heading (bold):
-乾燥場でも、永久的設備の建物がある部分だけは宅地
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+乾燥場は建物部分だけ宅地認定
 Illustration: An isometric open-air drying yard with racks of dried
 seafood (海産物). One solid, permanent processing building within the
 yard is highlighted in a distinct color and labeled 宅地; the surrounding
-open drying area is labeled 雑種地・原野等.
-Caption (small text below):
-建物の敷地の区域に属する部分だけを宅地として認定する（準則69条2号・3号）
+open drying area is labeled 雑種地.
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase):
+建物敷地のみ宅地
 
 --- CARD 5 ---
-Heading (bold):
-地下に地下鉄設備があっても、地上が病院なら地目は宅地
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地下鉄設備より地上の用途で地目判断
 Illustration: An isometric cross-section view: an underground subway
-tunnel icon (地下鉄道設備) below ground level, and a hospital building
-with a red cross symbol above ground. The hospital building is labeled
-宅地, with a small label 地表の利用状況で判断 near the boundary line
-between underground and surface.
-Caption (small text below):
-鉄道用地となるのは地表の鉄道施設。地下に地下鉄道設備があっても地上が病院なら地目は宅地（準則68条5号参照）
+tunnel icon (地下鉄道設備) below ground level, and a hospital building with
+a red cross symbol above ground labeled 宅地, with a boundary line
+between underground and surface labeled 地表で判断.
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase):
+地表の用途で判断
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -184,6 +198,10 @@ Small credit text in the corner (optional, keep minimal):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

@@ -95,6 +95,17 @@ modern explainer-graphic aesthetic (icons: isometric land plots and
 buildings, coin/price-tag icons, torn "非課税" paper labels, a balance
 scale — adapt icon set to the topic of registration tax amounts).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -106,8 +117,15 @@ summarize, or substitute any characters.
 Special caution: this topic repeatedly uses the kanji 登・録・権・地・建・
 物・記・所 (as in 登録免許税, 土地, 所有権, 建物, 登記). Render each of
 these in standard Japanese Jōyō form, never in Simplified Chinese form
-(録 must not become a simplified variant; 権 must not become 权; 建 must
-not become a simplified variant; 記 must not become 记 — always use 記).
+(録 must not become a simplified variant; 権 must not become its
+simplified variant; 建 must not become a simplified variant; 記 must
+always be written as 記, never its simplified variant).
+
+Each card below shows the ACTUAL computed registration-tax result for that
+item's 第1欄 and 第2欄 pair, and states whether it matches (一致) or does
+not match (不一致) the amount stated in 第3欄 of the original exam
+question — do not draw or restate the exam's raw wording, draw only the
+computed tax outcome.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -116,75 +134,83 @@ Title (large, bold, 1行):
 Subtitle (smaller, centered, 1行):
 令和2年度 土地家屋調査士試験 午後の部 第19問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: A balance scale icon; on one side, stacked coin icons
-labeled 1,000円 and 2,000円; on the other side, a torn-paper label
-reading 非課税 with a "0円" stamp; isometric land plots and buildings
-arranged around the scale.
-表示に関する登記の登録免許税は、「非課税のもの」と「不動産1個（1筆）につき1,000円などの定額のもの」を正確に区別できるかがポイントです。基本の定額（合筆・分筆・区分は不動産1個につき1,000円）と、国・地方公共団体等の非課税規定（登録免許税法5条）を軸に判断します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- ENUMERATION NOTICE ---
-以下は本問のア〜オ、合計5個の論点カードである。番号・文言は下記のとおり一字一句そのまま使用し、重複禁止・欠落禁止・言い換え禁止とする。
-1. ア：合筆は「合筆後1筆につき1,000円」なんです
-2. イ：再区分2,000円／共有地の分筆2,000円で、いずれも第3欄「2,000円」と一致
-3. ウ：区分建物の合併は課税、でも合体は非課税って知ってた？
-4. エ：錯誤による合筆の抹消は、非課税なんです
-5. オ：お寺の土地でも、ふつうの分筆は非課税にならないんです
+以下は本問のア〜オに対応する合計5枚のカードである。番号・見出し・結論タグの
+文言は下記のとおり一字一句そのまま使用し、重複禁止・欠落禁止・言い換え禁止
+とする。
+1. 合筆も一部地目分筆も1,000円で一致／結論タグ：1,000円で一致
+2. 再区分も共有地分筆も2,000円で一致／結論タグ：2,000円で一致
+3. 合併は課税、非課税ではない／結論タグ：1,000円で不一致
+4. 抹消も代位分筆も非課税で一致／結論タグ：非課税で一致
+5. 宗教法人の分筆も課税される／結論タグ：2,000円で不一致
 
---- CARD 1（ア） ---
-Heading (bold):
-合筆は「合筆後1筆につき1,000円」なんです
+--- CARD 1 ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously 1〜5, single column, one badge color).
+Heading (bold, ONE line, ~20 Japanese characters or fewer, verbatim):
+合筆も一部地目分筆も1,000円で一致
 Illustration: Two land-plot icons merging into one plot (合筆) with a
-price tag "1,000円" floating above; beside it, a separate land plot split
-by a dotted line into two parts — one small part labeled 墓地 with a
-torn-paper 非課税 tag, the other larger part labeled 分筆後の土地 with a
-price tag "1,000円".
-Caption (small text below):
-合筆1,000円／一部地目変更・分筆1,000円で、いずれも第3欄「1,000円」と一致
+price tag "1,000円" floating above and a green checkmark; beside it, a
+separate land plot split by a dotted line into two parts — one small
+part labeled 墓地 with a torn-paper 非課税 tag, the other larger part
+labeled 分筆後の土地 with a price tag "1,000円"; a small label reads
+合計1,000円 with a green checkmark matching 第3欄.
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation, verbatim):
+1,000円で一致
 
---- CARD 2（イ） ---
-Heading (bold):
-再区分2,000円／共有地の分筆2,000円で、いずれも第3欄「2,000円」と一致
-Illustration: An isometric区分建物(condo unit) splitting into two smaller
-units (再区分) each with a price tag "1,000円" stacked to total "2,000円";
-beside it, a land plot shared by two owner icons labeled 国 and 私人
-being split into two plots (分筆) each with a price tag "1,000円" stacked
-to total "2,000円".
-Caption (small text below):
-第1欄「1個の区分建物を2個の区分建物とする再区分の登記」・第2欄「国と私人が共有する土地の分筆の登記」（登録免許税法別表第一1(13)イ）
+--- CARD 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer, verbatim):
+再区分も共有地分筆も2,000円で一致
+Illustration: An isometric 区分建物 (condo unit) splitting into two
+smaller units (再区分) each with a price tag "1,000円" stacked to total
+"2,000円"; beside it, a land plot shared by two owner icons labeled 国
+and 私人 being split into two plots (分筆) each with a price tag "1,000円"
+stacked to total "2,000円"; both totals marked with a green checkmark
+matching 第3欄.
+Conclusion tag (green, 5-15 Japanese characters, verbatim):
+2,000円で一致
 
---- CARD 3（ウ） ---
-Heading (bold):
-区分建物の合併は課税、でも合体は非課税って知ってた？
+--- CARD 3 ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer, verbatim):
+合併は課税、非課税ではない
 Illustration: Two isometric condo units merging into one non-divided
-unit (区分建物の合併) with a price tag "1,000円"; beside it, two separate
-small houses physically joining into one building (合体による登記等) with
-a torn-paper 非課税 tag and a "0円" stamp; a red "≠" symbol sits between
-the two scenes.
-Caption (small text below):
-区分建物の合併は1,000円（課税）で、第3欄「非課税」と不一致
+unit (区分建物の合併) with a price tag "1,000円" and a red × drawn over a
+nearby 非課税 tag, showing the tax does NOT match a "非課税" expectation;
+a small reference icon beside it shows two separate houses physically
+joining into one building (合体による登記等) correctly marked with a
+torn-paper 非課税 tag, to contrast the two.
+Conclusion tag (green, 5-15 Japanese characters, verbatim):
+1,000円で不一致
 
---- CARD 4（エ） ---
-Heading (bold):
-錯誤による合筆の抹消は、非課税なんです
+--- CARD 4 ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer, verbatim):
+抹消も代位分筆も非課税で一致
 Illustration: A merged land plot with a red 錯誤 stamp being split back
 apart (合筆を抹消する登記), with a torn-paper 非課税 tag and "0円" stamp;
 beside it, a city-hall/government-building icon (地方公共団体) handing a
 document labeled 代位して行う分筆の嘱託 for a privately-owned land plot
-（私人名義）, also marked with a torn-paper 非課税 tag and "0円" stamp.
-Caption (small text below):
-合筆の抹消・地方公共団体の代位分筆はいずれも非課税で第3欄と一致
+（私人名義）, also marked with a torn-paper 非課税 tag and "0円" stamp;
+both marked with a green checkmark matching 第3欄.
+Conclusion tag (green, 5-15 Japanese characters, verbatim):
+非課税で一致
 
---- CARD 5（オ） ---
-Heading (bold):
-お寺の土地でも、ふつうの分筆は非課税にならないんです
-Illustration: A 表題部所有者 icon changing its address label (住所変更)
-with a torn-paper 非課税 tag and "0円" stamp; beside it, a shrine/temple-
-shaped icon (宗教法人) owning a land plot that is split into two plots
-(分筆) each with a price tag "1,000円" stacked to total "2,000円", with a
-red "×" over a 非課税 tag to show it is not tax-exempt.
-Caption (small text below):
-宗教法人の土地の分筆は2,000円（課税）で、第3欄「非課税」と不一致
+--- CARD 5 ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer, verbatim):
+宗教法人の分筆も課税される
+Illustration: A shrine/temple-shaped icon (宗教法人) owning a land plot
+that is split into two plots (分筆), each with a price tag "1,000円"
+stacked to total "2,000円", with a red × drawn over a nearby 非課税 tag
+to show the tax does NOT match a "非課税" expectation.
+Conclusion tag (green, 5-15 Japanese characters, verbatim):
+2,000円で不一致
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -194,6 +220,9 @@ standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Pay special attention to 登・録・権・地・建・物・記・
 所 as noted above. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, and that they correspond exactly to ア・イ・
-ウ・エ・オ in that order.
+duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

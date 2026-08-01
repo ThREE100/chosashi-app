@@ -94,6 +94,17 @@ modern explainer-graphic aesthetic (icons: isometric apartment buildings,
 land plots, chain/link icons, document scrolls, registry offices, etc.
 — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -109,11 +120,19 @@ in the card text below. Render every one of them in its standard Japanese
 This infographic has exactly 5 cards, one per card heading listed below.
 Reproduce all 5 headings exactly as written, in this order, with no
 duplication, no omission, and no paraphrasing:
-1. 別管轄の規約敷地の分筆、規約証明はいらないんです
-2. 敷地権の登記漏れ、更正では原因と日付も書くんです
-3. 名義の表示が違うときは、先に変更・更正登記が必要なんです
-4. 分離処分の規約で敷地権にしないなら、規約の証明がいるんです
-5. 割合が合算で出せる合体なら、規約証明はいらないって知ってた？
+1. 別管轄の規約敷地分筆は証明不要
+2. 敷地権登記漏れの更正は原因日付も記載
+3. 名義の表示不一致は先に変更登記
+4. 分離処分の規約定めは証明が必要
+5. 合算で割合が出る合体は証明不要
+
+The 5 conclusion tags below must also be reproduced verbatim, in this
+order, with no duplication, no omission, and no paraphrasing:
+1. 規約証明は不要
+2. 原因・日付も記載
+3. 先に変更・更正登記
+4. 規約の証明が必要
+5. 割合証明は不要
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -123,45 +142,41 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和2年度 土地家屋調査士試験 午後の部 第14問より
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric apartment building standing on a land plot,
-connected to it by a bold chain/link icon labeled "敷地権(分離処分禁
-止)". Around it, smaller supporting icons: a distant separate land plot,
-a document scroll representing a 規約, and two apartment-building blocks
-merging together — introducing the theme.
-「敷地権」とは、マンションの専有部分（部屋）と、その敷地を使う権利
-（所有権・地上権・賃借権など）を一体化し、分離して処分できないよう
-にした権利です。区分建物特有の論点で、規約敷地や分離処分、合体とい
-った応用場面のルールを5つのカードで整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-別管轄の規約敷地の分筆、規約証明はいらないんです
+Badge: a filled circle in pastel gray containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+別管轄の規約敷地分筆は証明不要
 Illustration: Isometric map with two separate registry-office icons
 (登記所) in two different regions. One region contains the apartment
 building; the other, distant region contains a separate land plot
 labeled "規約敷地" being split by a dashed dividing line (分筆). A
 document icon labeled "規約を設定したことを証する情報" is shown
-crossed out, meaning it is not required.
-Caption (small text below):
-敷地権の設定がある規約敷地が区分建物と異なる登記所の管轄区域内にあ
-るときは、規約を設定したことを証する情報は不要
+crossed out with an X mark, meaning it is not required.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+pastel gray, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+規約証明は不要
 
 --- CARD 2 ---
-Heading (bold):
-敷地権の登記漏れ、更正では原因と日付も書くんです
+Badge: a filled circle in pastel gray containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+敷地権登記漏れの更正は原因日付も記載
 Illustration: Isometric apartment building beside a registry record
 card with a blank, dashed empty field where "敷地権の表示" should be.
 An arrow points to a corrected record card labeled "敷地権の表示",
 showing two filled-in fields side by side, "登記原因" and "その日付",
 both highlighted with checkmarks.
-Caption (small text below):
-敷地権の登記をしないまま区分建物の表題登記がされていた場合の更正の
-登記では、敷地権の表示の登記原因及びその日付も申請情報にする
+Conclusion tag (pastel gray, 5-15 Japanese characters, keyword phrase):
+原因・日付も記載
 
 --- CARD 3 ---
-Heading (bold):
-名義の表示が違うときは、先に変更・更正登記が必要なんです
+Badge: a filled circle in pastel gray containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+名義の表示不一致は先に変更登記
 Illustration: Isometric split scene: on the left, a land registry
 record card with an owner-name tag showing one address; on the right,
 an apartment-unit registry record card with a slightly different
@@ -169,36 +184,33 @@ address tag for the same owner icon. A first arrow points to a stamp
 labeled "住所変更・更正登記" with a checkmark; a second arrow then
 leads onward to "敷地権発生の変更登記". A shortcut arrow labeled
 "同一性証明情報のみ" going straight to the second step is shown
-crossed out.
-Caption (small text below):
-敷地権となる土地の所有権登記名義人の表示と専有部分の所有権登記名義
-人の表示が一致していないときは、同一性証明情報だけでは足りず、先に
-住所・氏名の変更又は更正の登記が必要
+crossed out with an X mark.
+Conclusion tag (pastel gray, 5-15 Japanese characters, keyword phrase):
+先に変更・更正登記
 
 --- CARD 4 ---
-Heading (bold):
-分離処分の規約で敷地権にしないなら、規約の証明がいるんです
+Badge: a filled circle in pastel gray containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分離処分の規約定めは証明が必要
 Illustration: Isometric apartment unit and the land plot beneath it,
 deliberately shown with a broken chain icon between them, labeled
 "分離処分を可能とする規約". A document icon labeled "規約の定めを証
 する情報" is being attached to the application with a checkmark.
-Caption (small text below):
-規約で専有部分と敷地利用権との分離処分を可能と定めたことで所有権が
-敷地権とならないときは、その規約の定めを証する情報が必要
-(不動産登記令別表12項)
+Conclusion tag (pastel gray, 5-15 Japanese characters, keyword phrase):
+規約の証明が必要
 
 --- CARD 5 ---
-Heading (bold):
-割合が合算で出せる合体なら、規約証明はいらないって知ってた？
+Badge: a filled circle in pastel gray containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+合算で割合が出る合体は証明不要
 Illustration: Isometric scene of two apartment buildings, one labeled
 "甲区分建物 3分の1" and one labeled "乙区分建物 6分の1", merging
 together into a single combined building labeled "2分の1(合算)" with a
 plus-sign icon between the two fractions. A document icon labeled
 "敷地権の割合に係る規約を設定したことを証する情報" is shown crossed
-out, meaning it is not required.
-Caption (small text below):
-合体前の各敷地権の割合を合算したものが合体後の敷地権の割合となると
-きは、敷地権の割合に係る規約を設定したことを証する情報は不要
+out with an X mark, meaning it is not required.
+Conclusion tag (pastel gray, 5-15 Japanese characters, keyword phrase):
+割合証明は不要
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -206,8 +218,10 @@ Small credit text in the corner (optional, keep minimal).
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
 attention to 地・建・物・登・記・権・所. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, and that all 5 card headings listed above
-appear verbatim with no paraphrasing.
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as a
+short heading + a short conclusion tag, at a glance.
 ```

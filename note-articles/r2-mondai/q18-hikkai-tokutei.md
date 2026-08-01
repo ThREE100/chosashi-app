@@ -95,6 +95,17 @@ dotted boundary lines, magnifying glasses, speech bubbles, surveying
 officials, torn paper labels — adapt icon set to the topic of clarifying
 a land boundary).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -106,8 +117,8 @@ summarize, or substitute any characters.
 Special caution: this topic repeatedly uses the kanji 登・記・権・地・番
 (as in 筆界特定登記官, 抵当権, 登記名義人, 土地, 番). Render each of these
 in standard Japanese Jōyō form, never in Simplified Chinese form (権 must
-not become 权; 記 must not become 记 — always use 記; 地 must not become a
-simplified variant).
+not become its simplified variant; 記 must always be written as 記, never
+its simplified variant; 地 must not become a simplified variant).
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -116,70 +127,76 @@ Title (large, bold, 1行):
 Subtitle (smaller, centered, 1行):
 令和2年度 土地家屋調査士試験 午後の部 第18問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric land plot with a faint dotted boundary line
-running through it; a person icon labeled 筆界特定登記官 examining the
-line with a magnifying glass; a clipboard icon labeled 筆界特定 nearby.
-「筆界特定」は、土地の境界（筆界）がどこにあるかを、筆界特定登記官が公的に判断してくれる手続です（不動産登記法第6章）。裁判のように白黒つける制度とは少し違い、あくまで「もともとある筆界を明らかにする」ものだという性質を押さえるのが重要です。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- ENUMERATION NOTICE ---
-以下は本問のア〜オ、合計5個の論点カードである。番号・文言は下記のとおり一字一句そのまま使用し、重複禁止・欠落禁止・言い換え禁止とする。
-1. ア：筆界特定の意見、口頭でもいいって知ってた？
-2. イ：申請してない共有者も、意見・資料を出せるんです
-3. ウ：抵当権者は、意見・資料を出せる「関係人」じゃないんです
-4. エ：申請人が資料を出さなくても、筆界特定はできるんです
-5. オ：筆界特定は境界を「作る」んじゃなく「明らかにする」んです
+以下は本問のア〜オに対応する合計5枚のカードである。番号・見出し・結論タグの
+文言は下記のとおり一字一句そのまま使用し、重複禁止・欠落禁止・言い換え禁止
+とする。
+1. 意見・資料は口頭でも提出可／結論タグ：口頭でも可
+2. 非申請人の共有者も意見提出可／結論タグ：関係人として提出可
+3. 抵当権者は意見提出できる関係人でない／結論タグ：関係人に該当しない
+4. 資料の提出がなくても特定できる／結論タグ：提出は必須でない
+5. 筆界特定は既存の筆界を明らかにする／結論タグ：新たな筆界は作らない
 
---- CARD 1（ア） ---
-Heading (bold):
-筆界特定の意見、口頭でもいいって知ってた？
+--- CARD 1 ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously 1〜5, single column, one badge color).
+Heading (bold, ONE line, ~20 Japanese characters or fewer, verbatim):
+意見・資料は口頭でも提出可
 Illustration: A person icon (申請人) speaking with a speech-bubble icon
 toward 筆界特定登記官; next to them, a blank paper icon with a "必須"
-stamp is crossed out with an "×", showing that a written document is not
+stamp is crossed out with a red ×, showing that a written document is not
 required.
-Caption (small text below):
-意見・資料の提出は書面でなく口頭でもよい
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation, verbatim):
+口頭でも可
 
---- CARD 2（イ） ---
-Heading (bold):
-申請してない共有者も、意見・資料を出せるんです
+--- CARD 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer, verbatim):
+非申請人の共有者も意見提出可
 Illustration: A land plot icon shared by two co-owner person icons
 labeled Ａ（申請人）and Ｂ（共有者・非申請人）; both icons have a speech
 bubble and a document icon pointing toward 筆界特定登記官, both marked
-with green checkmarks.
-Caption (small text below):
-申請人でない対象土地の共有者も関係人として意見・資料を提出できる
+with green checkmarks and a label 関係人 near B.
+Conclusion tag (green, 5-15 Japanese characters, verbatim):
+関係人として提出可
 
---- CARD 3（ウ） ---
-Heading (bold):
-抵当権者は、意見・資料を出せる「関係人」じゃないんです
+--- CARD 3 ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer, verbatim):
+抵当権者は意見提出できる関係人でない
 Illustration: A land plot icon; a bank/person icon labeled 抵当権者
-holding a document, blocked by a red "×" barrier before reaching
+holding a document, blocked by a red × barrier before reaching
 筆界特定登記官; beside them, a person icon labeled 所有権の登記名義人
 passes through the same path with a green checkmark and a label 関係人.
-Caption (small text below):
-抵当権の登記名義人（担保権者）は意見・資料を提出できる関係人にあたらない
+Conclusion tag (green, 5-15 Japanese characters, verbatim):
+関係人に該当しない
 
---- CARD 4（エ） ---
-Heading (bold):
-申請人が資料を出さなくても、筆界特定はできるんです
+--- CARD 4 ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer, verbatim):
+資料の提出がなくても特定できる
 Illustration: A 申請人 icon standing with empty hands (no document icon);
 筆界特定登記官 icon nearby produces a completed 筆界特定 result document
 with a green checkmark, surrounded by independent survey icons (測量機器,
 巻尺) used on its own.
-Caption (small text below):
-申請人が意見・資料を出さなくても筆界特定はできる
+Conclusion tag (green, 5-15 Japanese characters, verbatim):
+提出は必須でない
 
---- CARD 5（オ） ---
-Heading (bold):
-筆界特定は境界を「作る」んじゃなく「明らかにする」んです
+--- CARD 5 ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer, verbatim):
+筆界特定は既存の筆界を明らかにする
 Illustration: A land plot with a faint pre-existing dotted boundary line
 being traced and highlighted by a spotlight from 筆界特定登記官, turning
-solid; beside it, a separate crossed-out icon shows a brand-new line
-being drawn from scratch on blank ground, labeled 新たな筆界の形成 with a
-red "×".
-Caption (small text below):
-筆界特定は既存の筆界を明らかにするもので、新たな筆界を形成する作用はない
+solid, labeled 既存の筆界の確認; beside it, a separate crossed-out icon
+shows a brand-new line being drawn from scratch on blank ground, labeled
+新たな筆界の形成 with a red ×.
+Conclusion tag (green, 5-15 Japanese characters, verbatim):
+新たな筆界は作らない
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -189,6 +206,8 @@ standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Pay special attention to 登・記・権・地・番 as noted
 above. Confirm the number of cards equals 5 exactly, with no duplicated
-or missing cards, and that they correspond exactly to ア・イ・ウ・エ・オ
-in that order.
+or missing cards, confirm there is no intro illustration or paragraph
+block between the header and the cards, and confirm that no card contains
+a full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
 ```
