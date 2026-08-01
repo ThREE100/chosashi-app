@@ -81,3 +81,109 @@
 - 地積が減っても、抵当権者の承諾はいらないんです
 - 地積が増えても、隣地所有者の承諾はいらないんです
 - 更正登記に、実は期限のルールはないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「更正登記の対象範囲」「承諾情報の要否」「申請義務」の3つの軸で5肢すべての正しいルールを整理し、1枚で俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・権・地・登・記・所, which have visually similar but different
+Simplified Chinese forms — always draw the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地積の更正登記のルール
+
+Subtitle (smaller, centered, 1行):
+令和6年度午後の部 第7問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 土地家屋調査士らしいキャラクターが測量道具と登記簿を手に持ち、
+土地の図面を確認しているアイソメトリックなシーン。背景に測量用の三脚と巻尺。
+地積の更正登記は、「登記当初からの誤り(更正)」なのか「登記後に生じた事情による
+変化(変更)」なのかを見極めることが出発点です。加えて、抵当権者や隣接地所有者
+などの利害関係人の承諾の要否も問われる分野です。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+更正登記の対象範囲
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+公差の範囲内でも、更正登記はできる
+Illustration: 測量士のキャラクターが土地の周りで巻尺を使って測量しているシーン。
+土地の上に「地積」というラベル。拡大鏡アイコンの中に「公差の範囲内」という
+小さな文字。その横に「更正登記」と書かれた書類アイコンにチェックマーク。
+Caption (small text below):
+公差は測量誤差の許容範囲を示すものにすぎず、地積が当初から誤っていたという
+事実がある以上、更正の登記を申請することができる
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+地殻変動による海没は、更正でなく変更の登記
+Illustration: 海岸沿いの土地の一部が波の下に沈んでいくアイソメトリックな
+イラスト。沈んだ部分に波のアイコン。「更正登記」と書かれた書類アイコンに
+大きな✕マーク、その隣に矢印でつながった「変更登記」と書かれた書類アイコンに
+○マーク。
+Caption (small text below):
+登記後に生じた後発的な事情による地積の変化は、地積の変更の登記による
+（昭33.4.11民事三発203号）
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+承諾情報の要否
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+地積減少の更正登記に、抵当権者の承諾は不要
+Illustration: 土地アイコンの上に抵当権を表す印章(スタンプ)アイコン。土地の
+面積が小さくなることを示す内向きの矢印。抵当権者を表すキャラクターアイコンの
+横に「承諾書」というラベルの書類に大きな✕マーク。
+Caption (small text below):
+地積が減少する更正登記でも、抵当権の登記名義人が更正について承諾したことを
+証する情報の提供は要しない
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+地積増加の更正登記にも、隣接地所有者の承諾は不要
+Illustration: 隣り合う二筆の土地アイコン。片方の土地の面積が大きくなることを
+示す外向きの矢印。隣接地の所有権登記名義人を表すキャラクターアイコンの横に
+「承諾書」というラベルの書類に大きな✕マーク。
+Caption (small text below):
+地積が増加する更正登記であっても、隣接する土地の所有権の登記名義人が承諾
+したことを証する情報の提供を要するとの規定はない
+
+--- COLUMN C HEADER (pill-shaped badge) ---
+申請義務
+
+--- COLUMN C, CARD 5 ---
+Heading (bold):
+更正登記に、申請義務・期間制限はない
+Illustration: カレンダーアイコンに大きな✕マーク。その横に「地積の更正登記」
+と書かれた書類アイコンと、「申請義務なし」という小さなラベル。
+Caption (small text below):
+更正の登記は錯誤によるものであり、地積に関する更正の登記には申請義務が
+課されていない（不動産登記法38条、53条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.
+```

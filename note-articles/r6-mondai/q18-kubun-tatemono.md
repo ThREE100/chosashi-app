@@ -83,3 +83,93 @@
 - 一部を壊しても、敷地権はそのまま残るんです
 - 区分建物が滅失しても、一括申請はいらないんです
 - 一棟の変更登記、一人が申請すればそれで済むんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+専有部分・一棟の建物・敷地権という3つのレイヤーを「敷地権・法定敷地のルール」と「表題登記・変更登記の申請単位」の2列に分け、5枚のカードで一括申請が必要な場面・不要な場面を俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment buildings,
+land plots, official stamps/hanko, registration document sheets, rubble/
+demolition debris, chain-link icons with a cross mark for "not required",
+etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・地・建・物・登・記・所・録 (as in 敷地権, 建物, 登記, 登記記録,
+所有者) — do not render these as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+区分建物の登記
+一括申請が必要な場面・不要な場面
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第18問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 下から「敷地権」の土地プレート、「一棟の建物」の外殻、「専有部分」の各部屋が積み重なった3層構造のアイソメトリックな断面図。各層に小さなラベル(敷地権／一棟の建物／専有部分)を添える。
+区分建物の登記は、専有部分・一棟の建物・敷地権という3つのレイヤーが絡み合う分野です。一括して申請しなければならない場面と、一人が申請すれば足りる場面を区別できるかがポイントです。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+敷地権・法定敷地のルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+一つの土地は、複数棟の敷地になれる
+Illustration: 一つの四角い土地プレート(アイソメトリック)の上に、2棟のマンションが並んで建ち、それぞれの建物から点線の矢印が同じ土地プレートに伸びている。土地プレートには「法定敷地」のラベルと「規約敷地」のラベルの両方が並んで表示されている。
+Caption (small text below):
+法定敷地として登記済みの土地でも、別の一棟の建物の規約敷地として重ねて定めることができる。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+建物を一部取り壊しても、敷地権はそのまま
+Illustration: 甲土地・乙土地の2枚の土地プレートにまたがって建つ一棟の建物のアイソメトリックイラスト。甲土地側の建物部分だけが瓦礫アイコンで崩れた様子で描かれ、甲土地のプレートの上に「みなし規約敷地」のラベル付きの盾アイコンが浮かぶ。その横に「変更登記」の書類アイコンに大きな✕印。
+Caption (small text below):
+建物の一部取壊しにより法定敷地から外れても、みなし規約敷地となるため敷地権の変更登記の申請は不要。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+表題登記・変更登記の申請単位
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+附属建物にするときは、その棟の表題登記と併せて申請
+Illustration: 主である建物(Ａ棟)の1室のアイコンと、まだ登記されていない別棟(Ｂ棟)の倉庫部分のアイコンを、1枚の書類(表題登記申請書)アイコンが束ねている図。Ｂ棟にある他の専有部分のアイコンにも同じ書類が連結されている。
+Caption (small text below):
+別の一棟の建物に属する区分建物を附属建物とするときは、その一棟にある他の区分建物の表題登記の申請と併せてしなければならない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+区分建物が滅失しても、一括申請は不要
+Illustration: 二世帯住宅風の一棟の建物のアイソメトリックイラスト。片方の専有部分(甲区分建物)が炎と瓦礫のアイコンで滅失した様子を示し、その横に「滅失の登記」の書類アイコン。もう片方(乙区分建物)には別の「表題部の変更登記」の書類アイコンがあり、両者の間には✕印の付いた鎖のアイコン(一括不要を示す)。
+Caption (small text below):
+区分建物の滅失の登記と、他の区分建物が非区分建物になったことによる表題部の変更登記は、一括して申請する必要はなく、それぞれ別個に申請できる。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+一棟の変更登記は、一人が申請すれば足りる
+Illustration: マンションのアイソメトリックイラスト。甲区分建物の所有者が「床面積の変更登記」の書類を申請している様子と、隣の乙区分建物の登記記録に職権によるスタンプ(ハンコ)が自動的に押される様子。乙区分建物の所有者のアイコンには「申請不要」のチェックマークが付く。
+Caption (small text below):
+一棟の建物の変更登記を専有部分の所有者の一人が申請すれば、他の区分建物の登記記録も職権で変更されるため、他の所有者は重ねて申請する必要はない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Pay particular attention to 権・地・建・物・登・
+記・所・録. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and that Column A has 2 cards and Column B
+has 3 cards.
+```

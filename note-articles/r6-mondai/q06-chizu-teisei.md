@@ -81,3 +81,107 @@
 - 閉鎖された図面も、実は永久保存なんです
 - 閉鎖図面で確認できれば、それだけで足りるんです
 - 分筆線の誤りは、地図訂正じゃ直せないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「誰が・どんな図面をもとに・どんな手続で」地図の誤りを直すのかという本問の軸に沿って、ア〜オ各肢の正しいルールを5枚のカードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+characters 号・録・権・地・番・建・物・登・記・所, which have Simplified
+Chinese variants that look similar but are incorrect — always render the
+standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地図の"訂正"、実はどこでもできるわけじゃない
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第6問を解説
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A surveyor character standing between an official triangulation
+point marker (isometric stone pillar with a brass plate) and a shelf of
+old, stamped-closed map documents in a registry office, isometric flat style.
+誰が、どんな図面をもとに、どんな手続で誤りを直すのか。地図・地図に準ずる図面・
+地図訂正の申出に関する5つの正しいルールを整理しました。
+
+--- CARD 1 ---
+Heading (bold):
+地図作成の測量は、基本三角点等の測量成果が基礎
+Illustration: An isometric surveyor using a total station aimed at an official
+triangulation point marker (三角点) and electronic reference point; beside it,
+a small crossed-out icon of a roadside stone Jizo statue and a concrete stake
+labeled 恒久的な地物, with a red "NG" cross mark over them.
+Caption (small text below):
+近傍に基本三角点等がなくても、近傍の恒久的な地物を基礎に測量してよいとする
+規定はない（不動産登記規則10条1項、3項）
+
+--- CARD 2 ---
+Heading (bold):
+隣接する2筆の区画訂正でも、申出は1筆ごとに必要
+Illustration: Two adjacent isometric land plots labeled 甲土地 and 乙土地,
+each with its own separate document/form icon labeled 地図訂正申出情報,
+connected by an arrow to the same registry office building, emphasizing
+two separate submissions rather than one combined document.
+Caption (small text below):
+同一の登記所の管轄区域内にある土地でも、一の地図訂正申出情報にまとめることは
+できない（登記研究696号158頁）
+
+--- CARD 3 ---
+Heading (bold):
+閉鎖された地図に準ずる図面も、保存期間は永久
+Illustration: An isometric registry archive shelf holding a new detailed map
+labeled 地図 next to an older map document stamped with a red 閉鎖 stamp,
+both stored inside a vault/safe icon with an "永久保存" pill-shaped badge above.
+Caption (small text below):
+新たに地図が備え付けられて従前の地図に準ずる図面が閉鎖されても、保存期間は
+短縮されない（不動産登記規則28条2号、3号）
+
+--- CARD 4 ---
+Heading (bold):
+閉鎖図面で誤りを確認できれば、その図面の特定情報で足りる
+Illustration: An isometric hand pointing at a closed (閉鎖) old map document
+that clearly shows a discrepancy, with a document icon labeled
+図面を特定する情報 highlighted, and a separate icon of a newly surveyed
+地積測量図 crossed out with an "NG" mark to show it is not required in
+this case.
+Caption (small text below):
+登記所に備え付けられている閉鎖図面で誤りが確認できるときは、地積測量図等の
+提供を省略し、当該図面を特定する情報を提供すれば足りる
+（不動産登記規則16条6項〜9項、平17.2.25民二457号）
+
+--- CARD 5 ---
+Heading (bold):
+分筆線の誤りは、地図訂正ではなく分筆錯誤の更正登記で直す
+Illustration: An isometric land plot with an incorrect dividing line labeled
+誤った分筆線, with a red "NG" cross over a document icon labeled 地図訂正の申出,
+and an arrow pointing instead to a highlighted correct path document icon
+labeled 分筆錯誤による更正の登記.
+Caption (small text below):
+誤った分筆線のまま分筆の登記がされた場合、その是正は分筆錯誤による更正の登記
+によるべきで、地図訂正の申出によっては直せない（昭43.6.8民甲1653号）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards.
+```

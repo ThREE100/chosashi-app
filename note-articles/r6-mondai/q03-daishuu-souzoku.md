@@ -81,3 +81,95 @@
 - 廃除された人の子どもも、ちゃんと代襲するんです
 - 配偶者の連れ子は、代襲相続人にならないんです
 - おじいちゃんは代襲じゃなく「自分の権利」で相続するんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+この問題の5肢を「代襲相続人になるケース」「代襲相続人にならないケース」の2系統に整理し、各原則を1枚のカードとして俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric family tree diagrams,
+people figures, courthouse buildings, stamps, timeline arrows, baby icons,
+etc. — adapt icon set to the topic of inheritance law).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to the kanji 権 and 号, which have Simplified Chinese variants
+that must NOT be used. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+代襲相続の基本ルール
+誰が代襲相続人になれるのか
+
+Subtitle (smaller, centered, 1行):
+令和6年度 土地家屋調査士試験 午後の部 第3問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 祖父母世代・親世代・子世代の3層構造をもつ家系図を俯瞰するアイソメトリックイラスト。中心に被相続人Aのアイコンを配置する。
+代襲相続とは、被相続人の死亡以前に相続人となるべき子・兄弟姉妹が死亡し、または廃除・欠格によって相続権を失った場合に、その者の直系卑属が代わって相続する制度です。誰が被代襲者になれるのか、代襲者の範囲はどこまでかを、5つの場面で整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+代襲相続人になるケース
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+養子縁組が死亡以前なら、養子も代襲相続人になる
+Illustration: 家系図のアイソメトリックイラスト。被相続人A、Aの実子B（死亡を示す灰色のアイコンと×マーク）、Bの養子C（Aから点線の矢印でCへつながり「代襲」のラベル）。Cの脇に「養子」のラベル。縁組の時期を示す小さな時計またはタイムラインアイコンで「縁組→Bの死亡」の順序を示す。
+Caption (small text below):
+養子と養親の血族との間には法定血族関係が生じる（民法727条）。縁組がAの死亡以前であれば、養子Cも代襲相続人となる。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+胎児も、生きて生まれれば代襲相続人になる
+Illustration: 被相続人A（死亡アイコン）、Aの実子B（死亡アイコン）、Bの配偶者（妊娠中を示すアイコン）、お腹の中の胎児を示す点線の吹き出しから、誕生後の赤ちゃんCへ矢印でつながる図。「相続については既に生まれたものとみなす」という短い吹き出しラベルを添える。
+Caption (small text below):
+胎児は死体で生まれたときを除き、相続については既に生まれたものとみなされる（民法886条）。生きて生まれれば代襲相続人となる。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+廃除で相続権を失った人の子も、代襲相続人になる
+Illustration: 被相続人A、Aの実子B（裁判所の書類アイコンと「廃除」のスタンプが押されたアイコン）、Bの子C（Aから点線の矢印でCへつながり「代襲」のラベル）。
+Caption (small text below):
+廃除は代襲原因のひとつ。実子Bが廃除によって相続権を失っても、Bの子Cは代襲相続人となる。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+代襲相続人にならないケース
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+配偶者の連れ子は、代襲相続人にならない
+Illustration: 被相続人A、Aの配偶者B（死亡アイコン）、Bの元配偶者C、BとCの間の子D。AとDの間に大きな×マークと「血縁なし」のラベルを配置し、代襲が生じないことを示す。
+Caption (small text below):
+相続人となるべき配偶者Bが死亡しても、配偶者は被代襲者にならない。BとCの子Dは代襲相続人とならない。
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+直系尊属は代襲ではなく、自分自身の権利で相続人になる
+Illustration: 被相続人A（子なしを示すアイコン）、Aの父B・母C（いずれも死亡アイコン）、Bの父D（生存を示すアイコン）。DからAへ直接つながる矢印に「代襲ではなく固有の権利」というラベルを添える。
+Caption (small text below):
+直系尊属は被代襲者にならない。Dは、より親等の近い直系尊属がいなければ、直系尊属としての固有の相続権に基づき相続人となる（民法889条1項1号）。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay particular
+attention to 権 and 号, which must NOT appear as Simplified Chinese
+variants. If any character renders as a Simplified Chinese variant,
+redraw that character in the correct Japanese form. Confirm the number
+of cards equals 5 exactly, with no duplicated or missing cards, and that
+each of the following card headings appears exactly once, verbatim:
+「養子縁組が死亡以前なら、養子も代襲相続人になる」「胎児も、生きて生まれれば代襲相続人になる」
+「廃除で相続権を失った人の子も、代襲相続人になる」「配偶者の連れ子は、代襲相続人にならない」
+「直系尊属は代襲ではなく、自分自身の権利で相続人になる」
+```

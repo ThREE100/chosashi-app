@@ -83,3 +83,121 @@
 - 共用部分の登記があると、合併はできないんです
 - 分棟と分割、実は1通の申請書でいけるんです
 - 分割しても、抵当権が消えるのは片方だけなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+本問は「合併の登記の制限」（ア・イ・ウ）と「分割の登記の特則」（エ・オ）という2つの軸に分かれるため、2カラム・5カード構成で1枚に俯瞰できるようにした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, registration
+documents, seals/stamps, torn paper labels, red "prohibited" stamp icons,
+chain-link icons for encumbrances, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to the following kanji, which are easily confused with Simplified
+Chinese forms and must be drawn in their correct Japanese (Jōyō) form: 号,
+録, 権, 地, 番, 建, 物, 登, 記, 所. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の分割又は合併の登記
+押さえるべき5つのルール
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第16問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Two isometric buildings labeled 甲建物 and 乙建物 side by side.
+Between them, one arrow points toward a merged single building but is
+blocked by a red 禁止 (prohibited) stamp icon, representing the merger
+restrictions. Another arrow points toward the buildings being split apart,
+with a single shared application document icon connecting both halves,
+representing the special one-application rule for division. A magnifying
+glass hovers over registration documents (登記) to tie the two scenes
+together.
+建物の分割・合併の登記は、土地の分筆・合筆と発想は似ていますが、「合併の制限」という建物特有のルールがあるのがポイントです。所有権以外の権利の登記がある建物や、共用部分である旨の登記がある建物は、そのままでは合併できません。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+合併の登記のルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+表題部所有者自身が申請人となるときは印鑑証明書は不要
+Illustration: An isometric figure representing the 表題部所有者 (registered
+title holder) submitting an application document at a registry counter.
+Next to the figure, a red seal/stamp icon (印鑑) with a red "X" over it,
+indicating the certificate is not required. A small speech-bubble label
+reads 本人申請.
+Caption (small text below):
+表題部所有者であるA自身が申請人となる場合には、印鑑に関する証明書の提供を要しない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+仮登記がある建物同士は合併の登記ができない
+Illustration: Two isometric buildings labeled 甲建物 and 乙建物, each with a
+torn-paper document label reading 仮登記 attached to its wall. Between the
+two buildings, a red chain-link icon and a red 禁止 stamp indicate the
+buildings cannot be merged.
+Caption (small text below):
+所有権の移転請求権の仮登記など、所有権以外の権利に関する登記がある建物は、原則として合併の登記をすることができない。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+共用部分である旨の登記がある建物同士も合併できない
+Illustration: An isometric building resembling a mansion common room
+(マンションの集会室) with a document label reading 共用部分である旨の登記,
+next to another similar building. A red 禁止 stamp sits between them, and
+a small icon shows a registration ledger page marked with an "X" to
+indicate that no rights registrations are possible on this building.
+Caption (small text below):
+共用部分である旨の登記がされると、権利に関する登記が一切できない状態になるため、他の建物との合併の登記をすることができない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+分割の登記のルール
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+分棟による表題部変更登記と分割登記は一の申請情報で申請できる
+Illustration: An isometric long rowhouse-style building (長屋) being
+demolished in the middle, splitting into two separate buildings connected
+by a dashed line. Both resulting buildings point with arrows toward a
+single application document icon labeled 一の申請情報, showing that both
+registrations are filed together in one submission.
+Caption (small text below):
+区分建物でない一棟の建物の中間部分を取り壊して相互に接続しない2棟とした場合、表題部の変更の登記と建物の分割の登記は、一の申請情報により申請することができる。
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+抵当権が消えるのは分割後の建物の一部にとどまる
+Illustration: An isometric building labeled 抵当権 splitting into two
+separate buildings. One resulting building keeps a red chain-link icon
+(representing the surviving 抵当権), while the other shows a green
+checkmark over a faded chain-link icon (representing the extinguished
+抵当権). A small document icon labeled 承諾書 sits nearby.
+Caption (small text below):
+抵当権者が分割後の全ての建物について抵当権を消滅させることを承諾しても、分割後の全ての建物についてその抵当権を消滅させることはできない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号, 録, 権, 地, 番, 建, 物, 登, 記, 所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+(3 cards in column A: 合併の登記のルール, 2 cards in column B:
+分割の登記のルール), with no duplicated or missing cards, and confirm no
+heading or caption text has been paraphrased, translated, or altered from
+the verbatim strings given above.
+```

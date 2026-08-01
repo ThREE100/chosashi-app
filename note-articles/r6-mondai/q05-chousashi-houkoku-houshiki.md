@@ -83,3 +83,92 @@
 - 工事完了引渡証明書、実は原本提示いらないんです
 - 表題部所有者の承諾書、原本提示を省略できないんです
 - 抵当権者の承諾書も、原本を見せる必要があるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「申請人自身が作成した書面か、第三者の意思確認を担保すべき書面か」という一つの軸でア〜オ5肢を2列に仕分け、調査士報告方式の対象・対象外を1枚で俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric documents, stamps,
+buildings, land plots, torn paper labels, etc. — adapt icon set to the
+topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to the kanji 権・地・建・物・登・記・所 — render them in their
+standard Japanese (Jōyō) form, never as Simplified Chinese variants.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+原本提示が省略できる書面／できない書面
+
+Subtitle (smaller, centered, 1行):
+調査士報告方式の対象を見分ける（令和6年度 午後の部 第5問）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 土地家屋調査士（女性、事務服）が、タブレットと5種類の書類の山を前にして、書類を左右に仕分けている構図。左側の書類には「申請人が作成」の付箋、右側の書類には「第三者の意思確認」の付箋が付いている。
+調査士報告方式は、電子申請の際に一定の添付情報について原本提示を省略できる実務上の取扱いです。「申請人自身が作成した書面か、第三者の意思確認を担保すべき書面か」という視点で、対象となる書面と対象とならない書面を仕分けます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+対象となる書面（原本提示は不要）
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+委任状は申請人自身が作成した書面
+Illustration: 依頼者（申請人）が「委任状」と書かれた書類にサインし、土地家屋調査士に手渡している場面。書類アイコンに「委任状」のラベル。申請人から調査士へ向かう矢印。
+Caption (small text below):
+建物の滅失登記等の代理権限を証する委任状は、申請人本人が作成する書面であるため、調査士報告方式の対象となります。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+工事完了引渡証明書は定型的な所有権証明書面
+Illustration: 工務店の作業員が「工事完了引渡証明書」と書かれた書類を、新築の建物（アイソメトリック）の前で施主に手渡している場面。書類アイコンに「工事完了引渡証明書」のラベル。
+Caption (small text below):
+建物の表題登記で用いる工事完了引渡証明書は、第三者（工事施工会社）作成でも定型的な所有権証明書面として、調査士報告方式の対象となります。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+対象とならない書面（原本提示が必要）
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+地役権設定範囲を証する書面は原本提示が必要
+Illustration: 分筆された承役地（土地のアイソメトリック、一部にハッチングで地役権設定範囲を表示）の前で、地役権者が「地役権設定の範囲を証する書面」と書かれた書類にサインしている場面。
+Caption (small text below):
+地役権者という第三者の意思を証する書面であるため、調査士報告方式の対象外となり、原本の提示が必要です。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+表題部所有者の承諾書は原本提示が必要
+Illustration: 表題部所有者が「承諾書」と書かれた書類にサインしている場面。背景に建物のアイソメトリックアイコンと「表題部所有者の更正の登記」のラベル。
+Caption (small text below):
+表題部所有者本人の意思確認を担保する書面であるため、調査士報告方式の対象外となり、原本の提示が必要です。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+抵当権者の承諾書も原本提示が必要
+Illustration: 抵当権付きの甲建物と抵当権のない乙建物が合体して1個の建物になる様子（矢印で合体を表現）の前で、抵当権者が「承諾書」と書かれた書類にサインしている場面。
+Caption (small text below):
+抵当権者という第三者の権利処分の意思を証する書面であるため、調査士報告方式の対象外となり、原本の提示が必要です。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — especially
+権・地・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly (2 cards in the left column,
+3 cards in the right column), with no duplicated or missing cards, and
+confirm no card describes an incorrect ("誤") statement as if it were the
+correct rule.
+```

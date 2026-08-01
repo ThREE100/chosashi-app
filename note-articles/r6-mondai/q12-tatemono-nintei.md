@@ -83,3 +83,109 @@
 - 廃車になった電車も、建物になれるって知ってた?
 - ドーム球場の屋根、開けても床面積は変わらないんです
 - 石油タンクが建物になれない理由、知ってましたか?
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「建物認定の3要件(外気分断性・定着性・用途性)」を軸に、駅ホーム売店・飼料用サイロ・廃車鉄道車両・開閉式ドーム屋根・石油タンクという5つの具体例を1枚で並べ、どの要件がどう働くかを俯瞰できる構成にする。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric station platform,
+silo, old train car, domed stadium, cylindrical tank, stamps, etc. —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. In particular, the following
+kanji are easily confused with their Simplified Chinese look-alikes and
+must be drawn in the correct Japanese form: 建、物、登、記、独、鋼、飼、
+貯、蔵、槽、積、認、定、要、件、地。
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物認定の3要件
+サイロは建物?石油タンクは建物じゃない?
+
+Subtitle (smaller, centered, 1行):
+外気分断性・定着性・用途性で判断する 令和6年度午後の部 第12問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 三つのアイソメトリックアイコンを横に並べる。左:壁と屋根で囲
+まれた小さな建物のアイコン(外気分断性)。中央:地面に打ち込まれた杭と土台
+のアイコン(定着性)。右:建物の中に人が立っているアイコン(用途性)。3つの
+アイコンの間に「+」の記号を置き、右端に「建物」と書かれた丸い判子(スタン
+プ)のアイコンを置いて「=建物」となる構図にする。
+建物として登記できるかどうかは、①外気分断性、②土地への定着性、③用途性
+(人や物がとどまることができるか)という3要件を満たすかで決まります。一風
+変わった構造物ほど、この3要件のどれが欠けているかを見極めるのがポイント
+です。
+
+--- CARD 1 ---
+Heading (bold):
+駅ホーム内の売店は独立性がなく登記できない
+Illustration: 屋根付きの駅のホームをアイソメトリックで描き、ホームの端に
+小さな売店(壁と屋根がある小屋)がホームと一体化した状態で設置されている。
+売店の上に赤い「✕」マークと、斜線を引いた「建物」スタンプを添え、近くに
+「独立性なし」のラベルを置く。
+Caption (small text below):
+駅のホームの売店は、基礎工事があっても独立性がなく建物として登記できない
+
+--- CARD 2 ---
+Heading (bold):
+家畜飼料用サイロは3要件を満たし登記できる
+Illustration: 鋼管製の脚柱で地面に固定された円筒形のサイロをアイソメト
+リックで描く。鉄板の外壁、脚柱が土台に刺さっている様子を描き、上部に緑色
+のチェックマークと「建物」スタンプを添える。
+Caption (small text below):
+家畜飼料用サイロは3要件を満たし建物として登記できる
+
+--- CARD 3 ---
+Heading (bold):
+定着性のある廃車鉄道車両の店舗は登記できる
+Illustration: 廃車になった鉄道車両(電車)が基礎工事によって地面に固定さ
+れ、内装がカフェや店舗に改装されている様子をアイソメトリックで描く。車両
+の下に土台のアイコンを描き、上部に緑色のチェックマークと「建物」スタンプ
+を添える。
+Caption (small text below):
+定着性のある廃車鉄道車両の店舗は建物として登記できる
+
+--- CARD 4 ---
+Heading (bold):
+開閉式ドーム屋根は開閉部分の下も含め床面積に算入する
+Illustration: 開閉式の屋根を持つドーム球場をアイソメトリックで描く。屋根
+が半分開いた状態を示し、観客席とフィールド全体を点線の枠で囲み、「床面積
+に含む」というラベルを添える。屋根が開いている部分の真下にも同じ点線の枠
+がかかっていることを強調する。
+Caption (small text below):
+開閉式ドーム屋根は屋根の開閉状態にかかわらず、開閉部分の下も含めて全体を
+床面積に算入する
+
+--- CARD 5 ---
+Heading (bold):
+石油タンクは用途性を欠き登記できない
+Illustration: 円柱状の大型の石油備蓄タンクをアイソメトリックで描く。タン
+クの外壁はしっかり閉じているが、断面や透過表現で内部に人や物のアイコンが
+なく空洞であることを示す。タンクの上に赤い「✕」マークと斜線を引いた「建
+物」スタンプを添える。
+Caption (small text below):
+石油タンクは外気分断性があっても用途性を欠き建物として登記できない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards, and confirm each card's heading and
+caption text matches the Japanese text given above verbatim, without
+paraphrasing.
+```

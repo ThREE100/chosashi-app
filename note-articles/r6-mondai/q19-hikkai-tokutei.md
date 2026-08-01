@@ -83,3 +83,109 @@
 - 時効取得の部分、筆界に接していなくてもいいんです
 - 未登記どうしの境は、そもそも筆界じゃないんです
 - 訴訟中でも、筆界特定は申請できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「対象土地の要件」（ア・ウ・エ）と「申請手続きの要件」（イ・オ）の2系統に分け、誤りの肢（ウ・オ）は本来の正しいルールに直したうえで、5つの原則を1枚で俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, boundary
+lines, torn-paper labels, courthouse and registry-office buildings, etc.
+— adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 筆, 界, 権, 地, 登, 記, 所 — render each in its standard Japanese
+(Jōyō) form, never as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+令和6年度 第19問
+筆界特定の要件
+
+Subtitle (smaller, centered, 1行):
+対象土地の要件と、申請の可否を五肢で整理する
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Two adjacent land plots (甲土地 and 乙土地) viewed from
+above in isometric style, drawn with a dotted boundary line and small
+round points marking the 筆界(boundary), with a magnifying glass icon
+hovering over the boundary line
+筆界特定の分野は、「筆界」とは何かという定義から出発すると理解しやすくなります。筆界は表題登記がある1筆の土地とこれに隣接する土地との境を指すため、対象土地の要件と、申請人の適格をセットで押さえるのがコツです。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+対象土地の要件
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+1点だけ接する土地は対象外
+Illustration: Isometric aerial view of two land plots, with a 甲土地
+label on one plot and a 乙土地 label on the adjacent plot, touching only
+at a single corner point marked with a red circle and an X mark, a
+speech-bubble-style label reading 筆界なし near the touching point
+Caption (small text below):
+1点のみで接する土地どうしは筆界特定の対象にならない
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+時効取得した部分は筆界に接していなくてもよい
+Illustration: Isometric plot of 乙土地 divided into two sections, one
+section highlighted with a torn-paper label reading 時効取得, an arrow
+connecting the owner figure of that section to a separate boundary line
+shared with 甲土地 elsewhere on the same plot, with a checkmark icon
+Caption (small text below):
+時効取得した部分が対象筆界に接していなくても、甲土地との筆界について申請できる
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+未登記どうしの境は筆界にならない
+Illustration: Isometric view of a water channel (水路) and a road (道路)
+lying side by side, each with a torn-paper label reading 表題登記なし,
+the shared boundary line drawn as a faded dashed line with a label
+reading 筆界不成立
+Caption (small text below):
+双方に表題登記がない場合、両者の間には筆界という概念が成立しない
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+申請手続きの要件
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+未登記土地の所有者は所有権の証明が必要
+Illustration: Isometric figure representing the owner of a 未登記の甲土地
+holding a document icon labeled 所有権を証する情報, standing next to a
+stamp icon, facing an adjacent plot labeled 表題登記のある乙土地
+Caption (small text below):
+表題登記のない土地の所有者は、所有権を有することを証する情報を提供しなければならない
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+訴訟係属中でも申請できる
+Illustration: Isometric courthouse building icon on one side labeled
+筆界確定訴訟係属中, connected by a dotted line to a registry office
+building icon on the other side labeled 筆界特定の申請, with a checkmark
+icon between them
+Caption (small text below):
+民事訴訟の手続により筆界の確定を求める訴えが係属していても、筆界特定の申請をすることができる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay particular
+attention to 筆, 界, 権, 地, 登, 記, 所 — if any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated
+or missing cards, and that no card heading or caption text has been
+paraphrased, translated, or altered from the exact strings given above.
+```

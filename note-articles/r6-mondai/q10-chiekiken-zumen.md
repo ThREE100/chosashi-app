@@ -81,3 +81,108 @@
 - 範囲が一部残るなら、地役権図面はやっぱり必要なんです
 - 新しい図面を出せば、古い地役権図面は閉鎖されるんです
 - 地役権図面に、要役地の住所までは書かないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地役権図面に関する5つの論点（署名・縮尺・分筆時の提供要否・従前図面の閉鎖・要役地の記載事項）を、「作成・記載のルール」と「分筆登記のときの取扱い」の2列に分けて1枚で俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to the characters 役・図・面・筆・閉・鎖・縮・尺・積・測・量・
+地・番・登・記・規・則・令・表・付・所・権・号・録・建・物 — do not render
+any of them as Simplified Chinese variants. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize,
+or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地役権図面のルール、これで迷わない
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第10問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric surveyor's desk scene showing a 承役地
+(servient land) plot document with a dotted-line easement area drawn on
+it, a stamp, and a pen — conveying "a diagram attached to a land
+registration."
+地役権図面は、承役地の登記記録に地役権の範囲を示す図面です。誰が署名するか、縮尺は自由か、分筆のときに提供や閉鎖がどうなるかを、場面ごとに整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+図面の作成・記載に関するルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+書面提出の地役権図面には、署名か記名押印が必要なんです
+Illustration: An isometric person at a desk signing a paper document by
+hand, with a hanko (name seal) stamp resting beside it, emphasizing
+"署名" (signature) written next to the hand and "記名押印" (name entry
+plus seal) written next to the stamp.
+Caption (small text below):
+不動産登記規則79条3項、4項
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+地役権図面の縮尺、地積測量図と揃えなくていいんです
+Illustration: Two isometric drawing boards side by side, one labeled
+「地役権図面」with a small ruler icon, the other labeled「地積測量図」with
+a different-sized ruler icon, connected by a crossed-out equals sign to
+show the scales do not need to match.
+Caption (small text below):
+不動産登記規則79条2項
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+地役権図面に、要役地の住所までは書かないんです
+Illustration: An isometric diagram sheet with the 承役地 (servient land)
+section clearly filled in with地番, while the 要役地 (dominant land)
+section is shown as a faded, dashed placeholder box, with a small
+「記載不要」tag pointing at the dashed box.
+Caption (small text below):
+承役地の所在は記載するが、要役地の所在地番は記録事項ではない
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+分筆登記のときの取扱い
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+範囲が一部残るなら、地役権図面はやっぱり必要なんです
+Illustration: An isometric land plot being split by a dotted cut line
+into two smaller plots; one of the resulting plots still carries a
+shaded 地役権 overlay, with an arrow pointing from that plot to a new
+document icon labeled「地役権図面 提供必要」.
+Caption (small text below):
+不動産登記令別表8項添付情報ロ
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+新しい図面を出せば、古い地役権図面は閉鎖されるんです
+Illustration: An isometric filing shelf showing an old document stamped
+in red with「閉鎖」being slid to the back, while a new document labeled
+「新たな地役権図面」is being placed in front of it.
+Caption (small text below):
+不動産登記規則87条1項
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+出典：令和6年度 土地家屋調査士試験 午後の部 第10問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards, and confirm each card's heading and
+caption text matches the strings given above verbatim.
+```
