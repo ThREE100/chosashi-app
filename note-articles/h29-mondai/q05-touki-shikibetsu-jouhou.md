@@ -81,3 +81,127 @@
 - 電子申請は30日以内にダウンロードしないと消えるんです
 - 書面申請は3か月以内に受け取らないと通知されないんです
 - 官庁も「希望します」と言えば通知されるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記識別情報の通知に関する5肢を、「通知される・されないの基本」（ア・イ・オ）と「受け取り忘れると失効する期限」（ウ・エ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric sealed envelopes,
+password/key icons, clocks and calendars, download icons, prohibition
+marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・記・識・別・情・報・通・知・合・筆, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+登記識別情報の通知
+「誰に」「いつまでに」通知される？
+
+Subtitle (smaller, centered, 1行):
+合筆登記のパスワード事情を整理(平成29年度 午後の部 第5問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design sealed envelope icon with a small
+key/password symbol printed on the front, being handed from a registry
+official figure to a person figure labeled "所有権の登記名義人", with a
+clock icon floating nearby to suggest timing matters.
+登記識別情報とは、登記名義人本人であることを確認するための、いわば
+「登記のパスワード」です。この分野では、どんな登記のときに、誰に対して、
+いつまでに通知されるのか、そして通知されない例外がどこにあるのかを
+整理できているかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+通知される・されないの基本
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+「希望しない」旨の申出があれば、通知されない
+Illustration: An isometric person figure holding up a hand in a "no
+thank you" gesture toward a sealed envelope with a password icon, the
+envelope shown with a red prohibition (no-entry) mark and drifting away
+unopened.
+Caption (small text below):
+申請人から、あらかじめ登記識別情報の通知を希望しない旨の申出があった
+場合には、登記識別情報は通知されない(法21条ただし書)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+合筆登記で、抵当権者に登記識別情報は通知されない
+Illustration: An isometric scene of two land plots merging into one,
+with a sealed password envelope flying only toward the "所有権の登記
+名義人" person figure, while a separate "抵当権者" person figure standing
+nearby receives nothing, shown with a crossed-out envelope icon beside
+them.
+Caption (small text below):
+登記識別情報は、その登記をすることによって申請人自らが登記名義人と
+なる場合に通知されるものであり、合筆の登記で抵当権者に新たに通知
+されることはない(法21条)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+官庁も、希望する旨の申出をすれば通知される
+Illustration: An isometric government building icon with a small hand
+raised holding a "希望します" speech bubble, connected by an arrow to a
+sealed password envelope now flying toward the building, contrasted with
+a faded second government building with no raised hand and no envelope.
+Caption (small text below):
+登記識別情報の通知を受けるのが官庁又は公署である場合、あらかじめ通知を
+希望する旨の申出をしたときは、登記識別情報が通知される(規則64条1項
+4号かっこ書)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+受け取り忘れると失効する期限
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+電子申請は、30日以内にダウンロードしないと通知されない
+Illustration: An isometric computer screen icon showing a download button
+labeled "登記識別情報", with a circular countdown timer around it
+reading "30日"、and the download icon fading to gray with a prohibition
+mark once the timer reaches zero.
+Caption (small text below):
+資格者代理人が電子申請で登記識別情報の通知を受ける特別委任を受けた
+場合、送信可能になった時から30日以内に自己のファイルに記録しなければ
+通知されない(規則64条1項2号)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+書面申請は、3月以内に受領しないと通知されない
+Illustration: An isometric registry-office counter icon with a sealed
+envelope waiting on it, next to a calendar icon flipping through pages
+counting up to "3か月"、and the envelope fading to gray with a
+prohibition mark once the calendar reaches the 3-month mark.
+Caption (small text below):
+資格者代理人が書面申請で登記識別情報の通知を受ける特別委任を受けた
+場合、登記完了の時から3月以内に書面を受領しなければ通知されない
+(規則64条1項3号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第5問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 登・記・識・別・情・報・通・知・合・筆. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 通知される・されないの基本, 2 cards under 受け取り忘れると
+失効する期限), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```

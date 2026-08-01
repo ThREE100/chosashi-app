@@ -77,3 +77,114 @@
 - 登記記録に載せる項目、まとめて「登記事項」なんです
 - 登記記録は「表題部」と「権利部」に分かれてるんです
 - 建物と認められるには「用途」に使える状態が必要なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+不動産登記法1条の目的条文と登記記録の構造に関する4つの空欄を、「登記記録が公示する内容」（②・③）と「登記記録の構造と建物の要件」（⑤・⑦）の2列・計4枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry ledger
+books, filing cabinets, house-shaped buildings, magnifying glasses,
+folder tabs — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・記・録・権・利・題・部・建・物・用, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+不動産登記法の「そもそも」
+表示と権利、表題部と権利部
+
+Subtitle (smaller, centered, 1行):
+不動産登記法1条の目的条文と登記記録の構造を穴埋めで確認(平成29年度
+午後の部 第4問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design open ledger book split down the
+middle, the left page labeled "表示" with a small house-shaped building
+icon on it, and the right page labeled "権利" with a small stamp/seal
+icon on it, showing the two pillars of the registration system side by
+side.
+不動産登記法は、不動産の「表示」及び不動産に関する「権利」を公示する
+ための登記に関する制度です。この問題は、不動産登記法1条の目的条文と
+登記記録の基本構造という、いわば「不動産登記法のいちばん最初の
+ページ」を穴埋め形式で確認するものです。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+登記記録が公示する内容
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+空欄②：権利に関する登記が公示するのは「権利関係」
+Illustration: An isometric ledger page icon labeled "権利部" with small
+icons radiating from it representing ownership (a house with a person
+figure) and a mortgage (a chain link icon), with a bold label "権利関係"
+floating above the page.
+Caption (small text below):
+権利に関する登記は、その不動産の「権利関係」を公示することを目的と
+している(法1条)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+空欄③：登記記録に記録すべき事項は「登記事項」
+Illustration: An isometric filing cabinet icon with a drawer partly open,
+showing several document tabs labeled "所在", "地番", "地目", "地積"
+sliding into the drawer, with a large label "登記事項" above the cabinet.
+Caption (small text below):
+表示に関する登記と権利に関する登記は、登記簿に「登記事項」を一筆の
+土地又は一個の建物ごとに記録することにより行う(法2条6号)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+登記記録の構造と建物の要件
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+空欄⑤：登記記録は「表題部」と「権利部」に区分される
+Illustration: An isometric single ledger page split horizontally into
+two labeled sections stacked vertically — the upper section labeled
+"表題部" with a small house icon, and the lower section labeled "権利部"
+with a small stamp icon, divided by a clear horizontal line.
+Caption (small text below):
+表示に関する登記と権利に関する登記は、登記記録として「表題部」と
+「権利部」に区分して記録される(法12条)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+空欄⑦：建物と認められるには「用途」に供し得る状態が必要
+Illustration: An isometric half-built structure icon with a roof and
+walls but nothing inside, shown with a red prohibition mark and the
+label "未完成"、next to a fully furnished house icon with a person
+figure living inside and the label "用途" glowing above it with a
+checkmark.
+Caption (small text below):
+登記の対象となる建物は、屋根及び周壁を有し土地に定着した建造物で
+あって、その目的とする「用途」に供し得る状態にあるものでなければ
+ならない(不動産登記規則、昭24.2.22民事甲240号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第4問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 登・記・録・権・利・題・部・建・物・用. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 4 exactly (2
+cards under 登記記録が公示する内容, 2 cards under 登記記録の構造と
+建物の要件), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```
