@@ -80,3 +80,126 @@
 - 取り下げた印紙、1年以内なら再使用できるって知ってた？
 - 却下されても、申請書そのものは返ってこないんです
 - 却下決定書は、代理人に渡せば足りるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記の申請の却下又は取下げに関する5肢を、「取下げのルール」（ア・イ・ウ）と「却下時の取扱い」（エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric computer screens,
+stop-sign icons, revenue-stamp icons, calendar pages, official decision
+documents — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 却・下・取・申・請・決・定・書・還・付, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+申請の取下げ・却下のルール
+完了後は取り下げられない
+
+Subtitle (smaller, centered, 1行):
+印紙は再使用できる(平成29年度 午後の部 第10問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design timeline showing an application
+document icon moving from "申請" toward "登記完了", with a door icon
+labeled "取下げ" open only on the left side of the timeline before
+completion, and firmly shut with a lock icon after "登記完了".
+「取下げ」は申請人が自分から申請を引っ込めること、「却下」は登記官が
+申請を受け付けないと決めることです。この分野では、申請方法ごとの
+取下げのやり方、いつまで取り下げられるか、却下時に何が返ってくるかを
+整理できているかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+取下げのルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+電子申請の取下げは、電子情報処理組織を使う方法による
+Illustration: An isometric computer screen icon showing an application
+document with a "取下げ" button being clicked, connected by a digital
+signal arrow to a registry-office server icon, with a crossed-out paper
+document icon beside it to show a physical letter is not the method.
+Caption (small text below):
+電子申請の方法による登記の申請の取下げは、電子情報処理組織を使用して
+申請を取り下げる旨の情報を登記所に提供する方法によってしなければ
+ならない(規則39条1項1号)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+登記が完了した後は、取り下げられない
+Illustration: An isometric registry ledger book stamped with "登記完了"
+in bold, with a hand reaching toward it holding a "取下げ" document but
+blocked by a large red prohibition (no-entry) icon.
+Caption (small text below):
+登記の申請の取下げをすることができるのは、登記が完了するまで、又は
+登記の申請が却下されるまでである。登記が完了した後は取り下げること
+ができない(規則39条2項)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+取り下げた印紙は、1年以内なら再使用の申出ができる
+Illustration: An isometric revenue-stamp icon with a "消印" cancellation
+mark on it, sitting inside a document that has a "取下げ" stamp, with a
+circular countdown icon reading "1年以内" and an arrow looping the stamp
+back toward a new blank application form.
+Caption (small text below):
+書面申請の方法による登記の申請であって登録免許税の納付を要するものを
+取り下げた者は、申請書に貼り付けられた印紙で消印がされたものを、
+取下げの日から1年以内に再使用したい旨の申出をすることができる
+(登録免許税法31条3項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+却下時の取扱い
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+却下時、添付書面は還付されるが申請書は還付されない
+Illustration: An isometric registry-office counter with two separate
+document piles — a pile labeled "添付書面" flowing back to the applicant
+with a green return arrow, and a pile labeled "申請書" staying firmly
+on the counter with a red prohibition mark over a return arrow.
+Caption (small text below):
+書面申請の方法による登記の申請が却下されたときは、添付書面は原則として
+還付されるが、申請書は還付されない(規則38条3項)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+却下決定書は、代理人に交付すれば足りる
+Illustration: An isometric registry official figure handing a document
+labeled "却下決定書" directly to a person figure labeled "代理人", with
+a dotted arrow showing the decision reaches the applicant indirectly
+through the agent, rather than requiring a separate direct delivery to
+the applicant themselves.
+Caption (small text below):
+委任による代理人によってされた登記の申請が却下されるときは、却下決定書
+は、当該代理人に交付すれば足りる(規則38条1項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第10問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 却・下・取・申・請・決・定・書・還・付. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 取下げのルール, 2 cards under 却下時の取扱い), with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```
