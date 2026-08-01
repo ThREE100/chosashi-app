@@ -1,0 +1,211 @@
+## 【土地家屋調査士受験生向け】令和2年度 第14問・マンションと土地をつなぐ「敷地権」〜規約敷地・更正登記・分離処分・合体〜
+
+**出題年度：令和2年度　午後の部　第14問**
+
+> 敷地権に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
+>
+> ア　敷地権の設定がある規約敷地を分筆する場合において，当該規約敷地が区分建物と異なる登記所の管轄区域内にあるときは，添付情報として，当該規約を設定したことを証する情報を提供することを要しない。
+>
+> イ　敷地権が存在していたがその登記をしないで区分建物の表題登記がされていた場合において，建物の表題部の更正の登記を申請するときは，敷地権の表示の登記原因及びその日付も申請情報の内容としなければならない。
+>
+> ウ　敷地権となる土地の所有権の登記名義人の表示と専有部分の所有権の登記名義人の表示が一致していないときは，敷地権の発生を原因とする区分建物の表題部の変更の登記の申請は，添付情報として，各所有者の同一性を証する情報を提供してすることができる。
+>
+> エ　区分建物の表題登記を申請する場合において，当該区分建物が属する一棟の建物の敷地について登記された所有権の登記名義人が当該区分建物の所有者であり，かつ，規約によりその専有部分と敷地利用権との分離処分を可能とする旨を定めたことにより所有権が当該区分建物の敷地権とならないときは，添付情報として，当該規約の定めを証する情報を提供することを要しない。
+>
+> オ　いずれも敷地権付き区分建物である甲区分建物と乙区分建物を合体し，合体後の建物も敷地権付き区分建物になる場合において，合体前の甲区分建物と乙区分建物のそれぞれの敷地権の割合を合算したものが合体後の建物の敷地権の割合となるときであっても，添付情報として，敷地権の割合に係る規約を設定したことを証する情報を提供しなければならない。
+>
+> 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+「敷地権」とは、マンションの専有部分（部屋）と、その敷地を使う権利（所有権・地上権・賃借権など）を一体化し、分離して処分できないようにした権利です。区分建物特有の論点で、規約敷地や分離処分、合体といった応用場面のルールが問われています。
+
+### ア：管轄が異なる規約敷地を分筆するとき、規約証明情報は不要
+
+敷地権の設定がある規約敷地を分筆する登記において、その規約敷地が区分建物と異なる登記所の管轄区域内にある場合には、規約を設定したことを証する情報を添付情報として提供する必要はありません。本肢は正しい記述です。
+
+**たとえば**、マンション本体とは別の登記所の管轄にある離れた土地が規約敷地になっている場合、その規約敷地を分筆するときに、わざわざ規約の証明情報を付ける必要はありません。
+
+### イ：敷地権の登記漏れを更正するときは、敷地権の登記原因・日付も申請情報にする
+
+敷地権が存在していたのに、その登記をしないまま区分建物の表題登記がされていた場合、後から建物の表題部の更正の登記を申請するときは、敷地権の表示の登記原因及びその日付も申請情報の内容としなければなりません。敷地権の目的である土地1筆ごとに、符号・敷地権の種類・割合・原因及びその日付を記録する必要があるからです。本肢は正しい記述です。
+
+**たとえば**、本来は敷地権付きで登記すべきだったのに敷地権の表示が抜けていたマンションについて、後から更正の登記で敷地権を加えるときは、「いつ敷地権が生じたのか」という原因と日付もあわせて申請情報に記載します。
+
+### ウ：表示が一致していなければ、まず住所変更・更正登記が必要
+
+敷地となる土地の所有権登記名義人の表示と、専有部分の所有権登記名義人の表示が一致していない場合（住所変更等が片方の登記記録にだけ反映されていないケースなど）、単に「同一人物である」ことを証する情報を添付するだけでは足りません。敷地権の発生を原因とする区分建物の表題部の変更の登記を申請する前提として、まず住所（または氏名）の変更・更正の登記を別途行い、両者の表示を一致させる必要があります。本肢は「同一性を証する情報を提供してすることができる」としており、誤りです。
+
+**たとえば**、マンションの持ち主が引っ越しをしていて、土地側の登記簿の住所と部屋側の登記簿の住所が違っている場合、「同じ人です」という証明書を添えるだけでは済まず、まずどちらかの住所を正しく直す登記をしてから、敷地権発生の変更登記の手続に進む必要があります。
+
+### エ：分離処分を可能とする規約で敷地権にしないなら、その規約の証明情報が必要
+
+区分建物の表題登記において、敷地の所有権登記名義人が区分建物の所有者であり、規約で「専有部分と敷地利用権とを分離して処分できる」と定めたために所有権が敷地権とならない場合には、その規約の定めを証する情報を提供しなければなりません（不動産登記令別表12項）。本肢は「提供することを要しない」としており、誤りです。
+
+**たとえば**、本来なら敷地権になるはずの土地の権利を、規約で「部屋とは別々に売買できる」と定めて敷地権にしない場合、その規約が本当にあることを示す証明情報を添付する必要があります。
+
+### オ：合算で割合が出せる合体なら、敷地権割合の規約証明情報は不要
+
+いずれも敷地権付きの区分建物どうしが合体し、合体後も敷地権付き区分建物になる場合において、合体前の各敷地権の割合を合算したものが合体後の敷地権の割合となるときは、その割合が計算で導けるため、改めて敷地権の割合に係る規約を設定したことを証する情報を提供する必要はありません。本肢は「提供しなければならない」としており、誤りです。
+
+**たとえば**、敷地権の割合が「3分の1」と「6分の1」の2つの区分建物を合体して、合体後の割合がその合算（2分の1）になるようなときは、その割合は足し算で出せるので、割合についての規約証明情報を新たに付ける必要はありません。
+
+### まとめ
+
+- **ア（正）**　管轄が異なる規約敷地の分筆では規約証明情報は不要
+- **イ（正）**　敷地権の登記漏れの更正では、敷地権の登記原因・日付も申請情報にする
+- **ウ（誤）**　表示不一致は同一性証明情報だけでは足りず、先に住所・氏名の変更/更正登記が必要
+- **エ（誤）**　分離処分可能の規約で敷地権にしない場合、その規約の証明情報が必要（令別表12項）
+- **オ（誤）**　合算で割合が出せる合体なら、敷地権割合の規約証明情報は不要
+
+敷地権は「専有部分と敷地の権利の一体化」が原則で、一体化させない場合（分離処分規約）や割合の証明が必要かどうかを場面ごとに整理するのがポイントです。
+
+**正解：アイの組合せ（選択肢1番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出典（令和2年度午後の部 第14問）・正解番号（アイ＝1番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
+- 各肢の根拠のうち、エ（不動産登記令別表12項の規約証明情報）・オ（合体時の敷地権割合と規約証明情報）は、データベースのexplanationフィールドに取扱いが記載されています。ア（管轄が異なる規約敷地の分筆と規約証明情報の要否）・イ（敷地権の表示の更正での登記原因・日付）は、敷地権に関する登記手続の一般的な取扱いからの説明であり、個別の先例番号までの条文レベルの確定は本記事では行っていません。ウ（表示不一致と同一性証明情報）は、当初「土地所有者と専有部分所有者が別人なら敷地権は発生しない」という理由づけで作成しましたが、重複出題チェックの過程で令和7年度第13問イ（レビュー済みのnote-articles/r7-mondai/q13-shikichiken.mdで採用されている理由づけ）と同一の論点であることが判明したため、「表示不一致は同一性証明情報だけでは足りず、先に住所・氏名の変更/更正登記が必要」という、より正確な理由づけに修正しています。
+- なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回は参照できませんでした。
+- **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。**令和7年度第13問は本問と同じ「敷地権」がテーマで、特に本問ウと令和7年度第13問イは、敷地の所有権登記名義人と専有部分の所有権登記名義人の表示が一致していない場合の変更登記の可否という同一の論点を、ほぼ同じ結論（誤り＝同一性証明情報だけでは足りない）で問うものです**（上記のとおり、本問ウの理由づけは令和7年度第13問の解説と整合するよう修正済みです）。他の肢（規約敷地の分筆・敷地権表示の更正・分離処分規約・合体時の敷地権割合）は令和7年度第13問のア・ウ・エ・オとは異なる出題内容であり、出題全体としては別の問題ですが、上記ウの1肢についてはnoteでの執筆・公開に際して「たとえば」の具体例が似た内容にならないよう注意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+
+---
+
+## 見出し画像用フレーズ
+
+- 別管轄の規約敷地の分筆、規約証明はいらないんです
+- 敷地権の登記漏れ、更正では原因と日付も書くんです
+- 土地と部屋の名義が別人なら、敷地権は生まれないんです
+- 分離処分の規約で敷地権にしないなら、規約の証明がいるんです
+- 割合が合算で出せる合体なら、規約証明はいらないって知ってた？
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment buildings,
+land plots, chain/link icons, document scrolls, registry offices, etc.
+— adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special attention: the kanji 地・建・物・登・記・権・所 appear repeatedly
+in the card text below. Render every one of them in its standard Japanese
+(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
+
+This infographic has exactly 5 cards, one per card heading listed below.
+Reproduce all 5 headings exactly as written, in this order, with no
+duplication, no omission, and no paraphrasing:
+1. 別管轄の規約敷地の分筆、規約証明はいらないんです
+2. 敷地権の登記漏れ、更正では原因と日付も書くんです
+3. 名義の表示が違うときは、先に変更・更正登記が必要なんです
+4. 分離処分の規約で敷地権にしないなら、規約の証明がいるんです
+5. 割合が合算で出せる合体なら、規約証明はいらないって知ってた？
+
+--- HEADER ---
+Title (large, bold, 2行):
+マンションと土地をつなぐ
+「敷地権」5つのルール
+
+Subtitle (smaller, centered, 1行):
+令和2年度 土地家屋調査士試験 午後の部 第14問より
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric apartment building standing on a land plot,
+connected to it by a bold chain/link icon labeled "敷地権(分離処分禁
+止)". Around it, smaller supporting icons: a distant separate land plot,
+a document scroll representing a 規約, and two apartment-building blocks
+merging together — introducing the theme.
+「敷地権」とは、マンションの専有部分（部屋）と、その敷地を使う権利
+（所有権・地上権・賃借権など）を一体化し、分離して処分できないよう
+にした権利です。区分建物特有の論点で、規約敷地や分離処分、合体とい
+った応用場面のルールを5つのカードで整理します。
+
+--- CARD 1 ---
+Heading (bold):
+別管轄の規約敷地の分筆、規約証明はいらないんです
+Illustration: Isometric map with two separate registry-office icons
+(登記所) in two different regions. One region contains the apartment
+building; the other, distant region contains a separate land plot
+labeled "規約敷地" being split by a dashed dividing line (分筆). A
+document icon labeled "規約を設定したことを証する情報" is shown
+crossed out, meaning it is not required.
+Caption (small text below):
+敷地権の設定がある規約敷地が区分建物と異なる登記所の管轄区域内にあ
+るときは、規約を設定したことを証する情報は不要
+
+--- CARD 2 ---
+Heading (bold):
+敷地権の登記漏れ、更正では原因と日付も書くんです
+Illustration: Isometric apartment building beside a registry record
+card with a blank, dashed empty field where "敷地権の表示" should be.
+An arrow points to a corrected record card labeled "敷地権の表示",
+showing two filled-in fields side by side, "登記原因" and "その日付",
+both highlighted with checkmarks.
+Caption (small text below):
+敷地権の登記をしないまま区分建物の表題登記がされていた場合の更正の
+登記では、敷地権の表示の登記原因及びその日付も申請情報にする
+
+--- CARD 3 ---
+Heading (bold):
+名義の表示が違うときは、先に変更・更正登記が必要なんです
+Illustration: Isometric split scene: on the left, a land registry
+record card with an owner-name tag showing one address; on the right,
+an apartment-unit registry record card with a slightly different
+address tag for the same owner icon. A first arrow points to a stamp
+labeled "住所変更・更正登記" with a checkmark; a second arrow then
+leads onward to "敷地権発生の変更登記". A shortcut arrow labeled
+"同一性証明情報のみ" going straight to the second step is shown
+crossed out.
+Caption (small text below):
+敷地権となる土地の所有権登記名義人の表示と専有部分の所有権登記名義
+人の表示が一致していないときは、同一性証明情報だけでは足りず、先に
+住所・氏名の変更又は更正の登記が必要
+
+--- CARD 4 ---
+Heading (bold):
+分離処分の規約で敷地権にしないなら、規約の証明がいるんです
+Illustration: Isometric apartment unit and the land plot beneath it,
+deliberately shown with a broken chain icon between them, labeled
+"分離処分を可能とする規約". A document icon labeled "規約の定めを証
+する情報" is being attached to the application with a checkmark.
+Caption (small text below):
+規約で専有部分と敷地利用権との分離処分を可能と定めたことで所有権が
+敷地権とならないときは、その規約の定めを証する情報が必要
+(不動産登記令別表12項)
+
+--- CARD 5 ---
+Heading (bold):
+割合が合算で出せる合体なら、規約証明はいらないって知ってた？
+Illustration: Isometric scene of two apartment buildings, one labeled
+"甲区分建物 3分の1" and one labeled "乙区分建物 6分の1", merging
+together into a single combined building labeled "2分の1(合算)" with a
+plus-sign icon between the two fractions. A document icon labeled
+"敷地権の割合に係る規約を設定したことを証する情報" is shown crossed
+out, meaning it is not required.
+Caption (small text below):
+合体前の各敷地権の割合を合算したものが合体後の敷地権の割合となると
+きは、敷地権の割合に係る規約を設定したことを証する情報は不要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 地・建・物・登・記・権・所. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and that all 5 card headings listed above
+appear verbatim with no paraphrasing.
+```

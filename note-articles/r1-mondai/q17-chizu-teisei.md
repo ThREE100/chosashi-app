@@ -1,0 +1,200 @@
+## 【土地家屋調査士受験生向け】令和元年度 第17問・地図の間違いは「誰が」「どこまで」直せる？地図等の訂正の申出〜相続・地番・還付・添付省略のツボ〜
+
+**出題年度：令和元年度　午後の部　第17問**
+
+> 地図等の訂正に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
+>
+> ア　地図に表示された土地の区画に誤りがある場合において、相続によって当該土地の所有権を取得した者は、当該相続による所有権の移転の登記を経なければ、地図等の訂正の申出をすることはできない。
+>
+> イ　地図に準ずる図面に表示された土地の形状に誤りがあるとして地図等の訂正の申出をした場合において、当該地図に準ずる図面を訂正することによって当該申出に係る土地以外の土地の形状を訂正すべきこととなるときは、当該申出は却下される。
+>
+> ウ　土地の所有権の登記名義人と隣接地の所有権の登記名義人との間で両土地の地番を付け替える旨の合意をしたときは、当該土地の所有権の登記名義人は、地図に準ずる図面に表示された土地の地番に誤りがあるとして、地図等の訂正の申出をすることができる。
+>
+> エ　地図に準ずる図面に表示された土地の形状に誤りがあるとして書面を提出する方法により地図等の訂正の申出をした場合において、その申出を取り下げたとき又は申出が却下されたときは、当該申出に係る申出書及びその添付書面は申出人に還付される。
+>
+> オ　地図に準ずる図面に表示された土地の位置に誤りがある場合において、その誤りを登記所に備え付けられている地積測量図によって確認することができるときは、当該地積測量図を特定する情報を提供すれば、他に当該土地の位置に誤りがあることを証する情報を提供しないで地図等の訂正の申出をすることができる。
+>
+> 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+地図等の訂正の申出は、登記所に備え付けられた地図や地図に準ずる図面（いわゆる公図）の区画・形状・位置・地番に誤りがあるときに、その是正を求める手続です。「誰が申し出られるのか」「訂正できる範囲の限界はどこか」「添付情報や還付の扱い」といった細かいルールが、条文（不動産登記規則16条）と先例で決まっています。今回はこの手続の輪郭を一つひとつ確認していきましょう。
+
+### ア：相続登記を経ていなくても、相続人は訂正の申出ができる
+
+地図等の訂正の申出は、その土地の表題部所有者・所有権の登記名義人だけでなく、それらの相続人その他の一般承継人もすることができます。相続人が申し出る場合に、あらかじめ相続による所有権の移転の登記（相続登記）を経ていなければならない、という要件はありません。したがって「相続登記を経なければ申出できない」とする本肢は誤りです。
+
+**たとえば**、お父さんが所有していた土地の公図の区画に誤りがあることに、相続した子が気づいたとします。その子は、まだ自分名義への相続登記を済ませていなくても、相続人の立場で地図等の訂正の申出をすることができます。
+
+### イ：他の土地の形状まで直すことになる訂正は、却下される
+
+地図等の訂正は、あくまで誤りのある当該土地についての是正を目的とするものです。図面を訂正することによって、申出に係る土地以外の土地の形状（区画）まで訂正すべきこととなる場合には、その申出は却下されます。訂正の申出には、他の土地に影響を及ぼさないという限界があるのです。
+
+**たとえば**、自分の土地の形が公図で少しゆがんでいるからと訂正を求めたところ、その線を直すとお隣の土地の形まで変わってしまう、というときは、登記官はその申出を認めることができず、却下することになります。
+
+### ウ：地番の「付け替え」の合意は、訂正の申出の対象にならない
+
+地番は、一筆の土地ごとに登記所が定めるものであり（不登法35条）、申請人が自由に指定したり、当事者どうしの合意で交換したりできるものではありません。隣り合う土地の所有者が「お互いの地番を入れ替えよう」と合意しても、それは地番の「誤り」の訂正ではなく実質的な付け替えであって、地図等の訂正の申出によって実現できるものではありません。したがって本肢は誤りです。
+
+**たとえば**、隣どうしのAさんとBさんが「うちの土地とそちらの地番を交換した方が分かりやすいね」と話がまとまっても、それを理由に「地番に誤りがある」として訂正の申出をすることはできません。
+
+### エ：還付されるのは添付書面だけで、申出書そのものは還付されない
+
+地図等の訂正の申出を取り下げたとき、または申出が却下されたときは、通常の登記申請と同様に、添付書面（添付情報を記載した書面）は申出人に還付されます。しかし、申出書そのものは還付されません。本肢は「申出書及びその添付書面」がいずれも還付されるとしている点で誤りです。
+
+**たとえば**、公図の訂正を書面で申し出たものの、途中で取り下げたとします。このとき手元に返ってくるのは、添付した資料（証明書類など）であって、提出した申出書そのものは登記所に残され、返してもらえません。
+
+### オ：登記所の地積測量図で誤りを確認できるなら、他の証明情報は省略できる
+
+地図に準ずる図面の土地の位置・形状に誤りがある場合、原則として土地所在図や地積測量図など誤りを証する情報を提供しなければなりません。もっとも、その誤りを登記所に備え付けられている地積測量図によって確認できるときは、その地積測量図を特定する情報を提供すれば足り、他に誤りを証する情報を別途提供する必要はありません（平成17年2月25日民二457号）。したがって本肢は正しい記述です。
+
+**たとえば**、公図で自分の土地の位置がずれていることが、すでに登記所に保管されている地積測量図と照らせば一目で分かる、というときは、その図面を指し示す情報を出すだけでよく、わざわざ別の証明書類を用意して添える必要はありません。
+
+### まとめ
+
+- **ア（誤）**　相続人は相続登記を経なくても訂正の申出ができる
+- **イ（正）**　他の土地の形状まで訂正することになる申出は却下される
+- **ウ（誤）**　地番は登記所が定める（不登法35条）。付け替えの合意では訂正できない
+- **エ（誤）**　還付されるのは添付書面のみ。申出書は還付されない
+- **オ（正）**　登記所備付けの地積測量図で確認できれば他の証明情報は省略可
+
+「誰が申し出られるか（相続登記不要）」「どこまで直せるか（他の土地に及べば却下）」「何を省略できるか（備付図面での確認）」という3つの視点で整理すると、地図等の訂正はスッキリ理解できます。
+
+**正解：イオの組合せ（選択肢3番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出題年度・問題番号（令和元年度午後第17問）・正解番号（3番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
+- 各肢の根拠のうち、ウ（地番は登記所が定める＝不登法35条）と、オ（登記所備付けの地積測量図による確認で添付省略＝平成17年2月25日民二457号先例）は、データベースのexplanationフィールドで条文・先例番号まで確認できたものです。イ（他の土地の形状を訂正することになる場合の却下）とエ（添付書面は還付されるが申出書は還付されない）の取扱いは、地図等の訂正の申出に関する不動産登記規則16条の各項に根拠がありますが、項番号の細部（例：却下事由・還付の該当項）まではデータベース上で表記に揺れがあり、条番号は不登規16条とだけ押さえ、項番号は要確認としています。ア（相続人が相続登記を経ずに申出できること）は、地図等の訂正の申出人の範囲（一般承継人を含む）という一般原則からの推論に基づく判定です。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ誤 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（地図等の訂正の申出）と同一・類似の問題が再出題されていないかを確認しました。候補は令和5年度第6問・令和6年度第6問・令和7年度第4問の3問です。このうち令和7年度第4問のエ「地図の訂正をすることによって申出に係る土地以外の土地の区画等を訂正すべきこととなるときは、登記官は申出に基づき地図の訂正をすることはできない」は、本問のイ（他の土地の形状まで訂正することになる申出は却下される）とほぼ同一の論点です。また令和6年度第6問のエ「誤りを閉鎖された地図に準ずる図面により確認することができるときは、当該図面を特定する情報を提供すれば足りる」は、本問のオ（登記所備付けの地積測量図で確認できるときは他の証明情報を省略できる）と同じ先例（平成17年2月25日民二457号）に基づく同様の論点です。**部分的に類似する記述があります**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+
+---
+
+## 見出し画像用フレーズ
+
+- 相続登記まだでも、公図の訂正は申し出られるんです
+- お隣の形まで変わる訂正は、却下されちゃう
+- 地番の「交換」は合意してもムリって知ってた？
+- 取り下げても、申出書は返ってこないんです
+- 登記所の測量図で足りるなら、添付は省ける
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地図等の訂正の申出について、訂正できる範囲に関する原則3枚・申出の手続き上の取り扱い2枚の計5枚のカードで整理した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric paper maps, land
+plots, magnifying glasses, official stamps/seals, filing cabinets,
+prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters: 号・録・権・地・番・
+建・物・登・記・所.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地図の間違いは「誰が」「どこまで」直せる?
+地図等の訂正の申出のルールを整理
+
+Subtitle (smaller, centered, 1行):
+訂正できる範囲と、手続き上の扱いを対比(令和元年度 午後の部 第17問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a paper
+map (公図) with a wavy red "誤り" mark on it, a magnifying glass hovering
+over the mark, and a person figure pointing at it while holding a petition
+document labeled "訂正の申出".
+登記所に備え付けられた地図や地図に準ずる図面に誤りがあるとき、その是正を
+求めるのが地図等の訂正の申出です。誰が申し出られるか、どこまで訂正できる
+か、申出の添付情報や還付の扱いはどうなるかを整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+訂正の申出ができる範囲
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+相続登記まだでも、公図の訂正は申し出られる
+Illustration: An isometric figure of a child (相続人) standing next to an
+inherited house-and-land icon labeled "相続" with no registration stamp on
+it, holding a petition document labeled "訂正の申出", with a small green
+checkmark icon showing the申出 is possible.
+Caption (small text below):
+地図等の訂正の申出は、表題部所有者・所有権の登記名義人の相続人その他の
+一般承継人もすることができ、あらかじめ相続による所有権の移転の登記を
+経ている必要はない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+お隣の形まで変わる訂正は、却下される
+Illustration: An isometric icon of two adjacent land plots on a map; one
+plot is being corrected with a pencil, but a dotted correction line
+crosses into the neighboring plot, with a red "却下" stamp overlaid on
+the whole scene.
+Caption (small text below):
+図面を訂正することによって申出に係る土地以外の土地の形状を訂正すべき
+こととなるときは、その申出は却下される。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+地番の「交換」は合意してもムリ
+Illustration: An isometric icon of two neighboring land plots with number
+tags "地番A" and "地番B", two person figures reaching out to swap the
+number tags between the plots, with a red prohibition (no-entry) icon
+overlaid on the swap.
+Caption (small text below):
+地番は登記所が定めるものであり(不登法35条)、当事者間の合意による地番の
+付け替えは、地図等の訂正の申出の対象とはならない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+申出の手続き上の取り扱い
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+取り下げても、申出書は返ってこない
+Illustration: An isometric icon of a document stamped "申出書" remaining
+in an office in-tray at the registry office (not returned), next to a
+separate bundle of documents labeled "添付書面" with an arrow carrying it
+back into the hands of the applicant figure.
+Caption (small text below):
+申出を取り下げたとき又は却下されたときに還付されるのは添付書面のみで、
+申出書そのものは還付されない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+登記所の測量図で足りるなら、添付は省ける
+Illustration: An isometric filing cabinet icon labeled "地積測量図
+(登記所保管)" with an arrow extending to a single small tag labeled
+"特定情報" held by an applicant figure, while other certificate document
+icons nearby have a prohibition (no-entry) icon over them.
+Caption (small text below):
+誤りを登記所に備え付けられている地積測量図によって確認することができる
+ときは、その地積測量図を特定する情報を提供すれば足り、他に誤りを証する
+情報を提供する必要はない(平成17年2月25日民二457号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第17問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 訂正の申出ができる範囲, 2 cards under 申出の手続き上の取り
+扱い), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
