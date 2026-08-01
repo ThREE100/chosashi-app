@@ -83,3 +83,126 @@
 - 規約はひとりの賛成じゃ作れない、4分の3いるんです
 - 一部の部屋だけ「分離OK」の規約も作れるって知ってた？
 - 敷地権を切り離すには、まず登記の抹消が必要なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+本問（令和4年度午後第18問）の5肢を、「敷地権の原則（共有持分の一体化・変更登記の義務）」と「分離処分可能規約の要件（多数決・一部設定・登記抹消）」の2系統に分けて俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have visually similar
+but different Simplified Chinese forms — render them only in their
+standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+令和4年度午後第18問
+区分建物の敷地権と分離処分可能規約
+
+Subtitle (smaller, centered, 2行):
+敷地権は原則として専有部分と一体
+分離するには規約の設定と登記の抹消が必要
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric bird's-eye diagram of three adjacent land
+plots labeled 甲土地・乙土地・丙土地, with an isometric building
+containing two units labeled 丁区分建物・戊区分建物 standing on
+甲土地・乙土地, and a small parking-lot icon with car symbols on
+丙土地 labeled A・Bの駐車場. Two simple person icons labeled A・B stand
+near the plots.
+甲土地及び乙土地の上に一棟の建物に属する丁区分建物及び戊区分建物が存在し、
+丙土地はA及びBの駐車場として使用されている。敷地利用権は、原則として
+専有部分と分離して処分することができない。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+敷地権の原則（一体化と登記）
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+共有持分権も敷地権として登記できる
+Illustration: An isometric scene showing two person icons A and B
+standing on a shared land plot labeled 甲土地・乙土地（共有）, with a
+dotted line connecting A's portion of the plot to an isometric
+building unit labeled 丁区分建物, and a bold arrow labeled 敷地権 linking
+the two, with a small badge reading 一体化.
+Caption (small text below):
+敷地利用権が数人の共有に係る登記された所有権等である場合、専有部分と
+その敷地利用権は分離して処分できない（区分所有法22条1項）。Aは、甲土地・
+乙土地のAの共有持分権を敷地権として、丁区分建物の表題登記を申請できる。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+規約敷地になったら1か月以内に変更登記
+Illustration: An isometric scene showing 丙土地（駐車場）with an arrow
+labeled 規約 pointing toward the building unit labeled 戊区分建物,
+next to a calendar icon highlighting 1か月以内, and a person icon
+labeled B holding a document stamped 表題部変更登記.
+Caption (small text below):
+区分建物の登記後に敷地権が生じた場合、表題部所有者又は所有権の登記名義人は、
+変更があった日から1か月以内に、敷地権を表示する表題部の変更の登記を
+申請しなければならない（不動産登記法51条1項）。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+分離処分可能規約の設定と登記の要件
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+規約の設定には4分の3以上の賛成が必要
+Illustration: An isometric scene of a small meeting room with several
+person icons gathered around a table (集会), a large checkmark badge
+labeled 4分の3以上の賛成 next to a document labeled 規約, and a single
+person icon A next to a document with a red cross mark labeled
+Aのみ賛成 to show it is invalid.
+Caption (small text below):
+規約の設定、変更又は廃止は、区分所有者及び議決権の各4分の3以上の多数による
+集会の決議によって行う（区分所有法31条1項）。Aのみが賛成した議事録では、
+有効な規約は成立しない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+一部の区分建物だけに分離処分可能規約を設定できる
+Illustration: An isometric cutaway of the building showing two units
+side by side, 丁区分建物 stamped with a torn-paper label reading
+分離処分可能規約, while 戊区分建物 has no stamp, emphasizing that the
+regulation applies to only one unit.
+Caption (small text below):
+分離処分可能規約は、区分所有者の一部についてのみ定めることができる
+（昭58.11.10民三6400号）。Aは、丁区分建物についてのみ規約を設定したことを
+証する情報を提供して、甲土地及び乙土地に係る敷地権の登記を抹消する
+表題部の変更の登記を申請することができる。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+分離処分の前提として敷地権登記の抹消が必要
+Illustration: An isometric scene showing 甲土地のAの共有持分権 chained
+to 丁区分建物 with a thick chain-link icon labeled 敷地権, a pair of
+scissors icon labeled 登記の抹消 cutting the chain, followed by an
+arrow pointing to a document icon labeled 持分の移転登記.
+Caption (small text below):
+敷地権である旨の登記がされている土地は、そのままでは持分だけを移転する
+ことができない（不動産登記法73条2項）。分離して処分するには、前提として
+敷地権の登記を抹消する表題部の変更の登記をすることを要する。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards.
+```

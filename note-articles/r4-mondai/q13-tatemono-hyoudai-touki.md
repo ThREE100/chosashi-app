@@ -80,3 +80,106 @@
 - 共用部分の規約を廃止したら、1か月以内に表題登記なんです
 - 共有の一戸建て、ひとりで表題登記を出せるんです
 - 区分建物の表題登記、申請できるのは「作った人」だけって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「申請情報に何を書くか」「誰が申請できるか（申請人・申請義務）」「添付情報は何が必要か」という3つの角度から、ア〜オの5肢すべての正しいルールを2列5カードで俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. In particular, the kanji 建・物・
+登・記・権・号・所 appear repeatedly and have shapes that differ noticeably
+from their Simplified Chinese counterparts — render every occurrence in the
+standard Japanese (Jōyō) form, never the simplified form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の表題登記
+申請情報・申請人・添付情報のルール
+
+Subtitle (smaller, centered, 1行):
+令和4年度 午後の部 第13問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 調査士が建物の模型と書類を手に持って立つアイソメトリックイラスト。
+周囲に「申請情報」「申請人」「添付情報」の3つの吹き出しラベルが浮かぶ構成。
+建物の表題登記は、建物を初めて登記記録に載せる手続です。この問題では、①申請情報に何を書くか、②誰が申請できるか（申請人・申請義務）、③添付情報は何が必要か、という3つの角度が問われています。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+申請情報・添付情報のルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+建物に名前があるなら、ちゃんと登記するんです
+Illustration: 区分建物でない一棟の事務所ビル（アイソメトリック）の正面に
+「◯◯ビル」と書かれた看板アイコンを設置。横に申請書アイコンを置き、
+「建物の名称」の記入欄にチェックマークのスタンプを押した図解。
+Caption (small text below):
+名称があれば非区分建物でも申請情報の内容にできる（法44条1項4号）
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+借りた土地の建物、借地権の証明は必須じゃないんです
+Illustration: 土地の区画アイコン（所有者Aのラベル）の上に建物アイコン
+（所有者Bのラベル）が立つ構成。「借地権を証する情報」と書かれた書類アイコンに
+点線の枠と「必須ではない」の小さな注記を添え、隣に別の書類アイコンへの
+チェックマークを配置。
+Caption (small text below):
+借地権を証する情報の提供は必須ではない
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+申請人・申請義務のルール
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+共用部分の規約を廃止したら、1か月以内に表題登記なんです
+Illustration: マンション（アイソメトリック）内の一室に「共用部分」のラベル。
+その規約の紙（破れた紙アイコン、torn paper label）が廃止されて剥がれ落ちる様子。
+横にカレンダーまたは時計のアイコンと「1か月以内」の吹き出し、申請書アイコンに
+「表題登記」のラベル。
+Caption (small text below):
+共用部分規約廃止後の取得者は1か月以内に表題登記（法58条7項）
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+共有の一戸建て、ひとりで表題登記を出せるんです
+Illustration: 区分建物でない一戸建て（アイソメトリック）の前にA・Bふたりの
+共有者アイコン。Aだけが一歩前に出て申請書アイコンにスタンプを押し、
+Bは点線シルエットで後ろに控える構成。「共有者の一人が単独で申請」のラベル。
+Caption (small text below):
+共有の非区分建物は共有者の一人が単独で申請できる（保存行為）
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+区分建物の表題登記、申請できるのは「作った人」だけって知ってた？
+Illustration: 区分建物（マンション、アイソメトリック）とその一室。新築した
+所有者Aのアイコンに「原始取得者」のバッジ、申請書アイコンにスタンプ。
+Aから矢印で「売却」とラベル付けした先にBのアイコン（転得者）があり、
+Bの横の申請書アイコンには「申請不可」の×印。
+Caption (small text below):
+区分建物の表題登記は原始取得者Aが単独で申請（法47条1項・2項）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special attention
+to 建・物・登・記・権・号・所 — if any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form. Confirm
+the number of cards equals 5 exactly (2 cards in column A, 3 cards in column
+B), with no duplicated or missing cards, and confirm all Japanese text
+strings match the text given above verbatim with no paraphrasing.
+```

@@ -80,3 +80,91 @@
 - 堤防のてっぺんが道路でも、地目は「堤」なんです
 - 村落の間の通水路は「井溝」っていうんです
 - 公園のテニスコート、丸ごと「公園」でいいんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地目は「見た目の施設」ではなく「土地の主な用途」で決まるという本問共通の視点を軸に、5肢すべての正しいルールを「宅地と判断されるケース」「用途で決まる地目」の2列・5カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to the kanji 号・地・番・建・物・登・記・所, which have
+visibly different Simplified Chinese forms — render them only in the
+standard Japanese form. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地目は「見た目の施設」ではなく
+「土地の主な用途」で決まる
+
+Subtitle (smaller, centered, 1行):
+令和4年度 午後の部 第6問／地目の5つの判断ポイント
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 虫眼鏡を持った調査士のキャラクターが、土地の上に並ぶ複数の施設アイコン(タンク、旅館、堤防、水路、テニスコート)を見比べている構図。吹き出しに「用途は？」の文字。
+地目は、そこにある施設の見た目ではなく、その土地が主にどう使われているかで決まります。石油タンクや温泉宿の敷地はいずれも宅地、堤防の天端が道路でも地目は堤のまま、公園内のテニスコートも一体で公園になるなど、5つの視点から地目の考え方を確認します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+宅地と判断されるケース
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+石油タンクの敷地は「宅地」
+Illustration: 大きな円筒形の石油タンクが複数並ぶ敷地をアイソメトリックで描き、タンクの下の土地区画に「宅地」と書かれた立て札を立てる。敷地内に登記された建物がないことが分かるよう、空き地の質感を添える。
+Caption (small text below):
+建物がなくても、タンクの敷地は宅地として扱う(準則69条10号)
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+温泉を引き込んだ宿の敷地も「宅地」
+Illustration: 山中に湯気の立つ小さな源泉(わき出し口)と、そこから引き込み管でつながった離れた場所にある温泉旅館の建物を描く。旅館の敷地に「宅地」の立て札、源泉の敷地に「鉱泉地」の立て札をそれぞれ分けて立てる。
+Caption (small text below):
+鉱泉地になるのは、わき出し口とその維持に必要な土地だけ(準則68条7号・3号)
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+用途で決まる地目
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+道路に使われる堤防も地目は「堤」
+Illustration: 川沿いに築造された堤防をアイソメトリックで描き、堤防の天端(てっぺん)に人が歩く道が通っている様子を表現する。堤防全体を囲む枠に「堤」と書かれた立て札を立てる。
+Caption (small text below):
+天端が一般交通の道路として利用されていても、地目は堤のまま(準則68条18号)
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+村落の間の通水路は「井溝」
+Illustration: 田んぼと集落の間を流れる小さな水路をアイソメトリックで描く。水路に沿う土地の区画に「井溝」と書かれた立て札を立てる。
+Caption (small text below):
+田畝または村落の間にある通水路の地目は井溝(準則68条19号)
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+テニスコートがあっても一体で「公園」
+Illustration: 公園の敷地内にテニスコートが設置されている様子をアイソメトリックで描く。テニスコートを含む公園全体を囲む枠に「公園」と書かれた立て札を立てる。
+Caption (small text below):
+公園施設の敷地も一体として公園になる(準則68条22号)
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, and that each card's
+heading and caption text matches the strings given above verbatim.
+```

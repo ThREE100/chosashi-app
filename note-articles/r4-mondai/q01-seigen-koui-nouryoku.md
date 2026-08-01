@@ -80,3 +80,91 @@
 - 保証人になるのは「同意がいる行為」なんです
 - 保佐は同意いらない、補助は本人同意いる〜逆に注意〜
 - 後見が始まると、前の保佐はリセットされるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+詐術・時効という共通ルールの列と、保佐・補助・後見の審判にまつわるルールの列に分けて、ア〜オ5肢すべての正しい結論を2列5枚のカードで一枚に俯瞰できる構成です。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric courtroom building,
+scales of justice, official document stamps, torn paper labels, an
+hourglass, a lock icon, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to the kanji 審, 権, 効, 猶, 証, 詐, and 見 — each has a
+Simplified Chinese variant with a visibly different shape (e.g. 审, 权,
+效, 犹, 证, 诈, 见); always draw the Japanese Jōyō form. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+制限行為能力者、正しいルールはこれ
+
+Subtitle (smaller, centered, 2行):
+令和4年度 午後の部 第1問
+ア〜オ、5つの肢を一枚で総復習
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 4人の小さな人物アイコン(未成年者・成年被後見人・被保佐人・被補助人を表す)が並び、それぞれの上に軽重の異なる保護の傘のアイコンが描かれている。中央に虫眼鏡のアイコン。
+制限行為能力者制度は、未成年者・成年被後見人・被保佐人・被補助人の4類型ごとに保護の範囲が異なる。詐術による濫用防止や時効の完成猶予といった共通ルールと、保佐・補助・後見の審判手続にまつわるルールを正しく押さえることが得点のカギとなる。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+共通するルール(詐術・時効)
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+詐術を用いたら、もう取り消せない
+Illustration: 若者が偽造した運転免許証を店員に見せている場面。免許証の上に赤い「詐術」のスタンプ。背後に赤い禁止マークと施錠されたアイコン。
+Caption (small text below):
+制限行為能力者が行為能力者であると信じさせる詐術を用いたときは、その行為を取り消すことができない(民法21条)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+後見人が不在なら、時効の完成が猶予される
+Illustration: 砂時計のアイコンと、成年後見人の不在を示す空の椅子。砂時計の横に「6か月」のラベル付きカレンダーアイコン。
+Caption (small text below):
+時効期間満了前6か月以内に成年後見人がいない場合、本人が行為能力者となった時または成年後見人が就職した時から6か月を経過するまで時効は完成しない(民法158条1項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+保佐・補助・後見の審判ルール
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+被保佐人が保証人になるには、保佐人の同意が必要
+Illustration: 被保佐人が保証契約書にサインしようとしている場面で、隣の保佐人が「同意」の印鑑スタンプを押している。書類には「保証人」のラベル。
+Caption (small text below):
+借財・保証をすることは民法13条1項2号の同意を要する行為にあたり、被保佐人が保証人となるには保佐人の同意が必要である。
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+保佐開始の審判に、本人の同意は不要
+Illustration: 家庭裁判所の建物アイコンの前で家族が申立書を提出している場面。天秤の左側に「保佐」と「同意不要」のラベル、右側に「補助」と「同意必要」のラベルを対比させて配置。
+Caption (small text below):
+本人以外の者の請求により保佐開始の審判をするのに本人の同意は不要。本人の同意が必要なのは補助開始の審判の方である(民法15条2項)。
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+後見が始まれば、もとの保佐開始の審判は取り消される
+Illustration: 「保佐開始の審判」と書かれた書類に取消線が引かれ、その上に新しい「後見開始の審判」の書類が重ねて置かれている構図。背景に小さく家庭裁判所の建物アイコン。
+Caption (small text below):
+後見開始の審判をする場合において本人が被保佐人であるときは、家庭裁判所はその本人に係る保佐開始の審判を取り消さなければならない(民法19条1項・2項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards.
+```

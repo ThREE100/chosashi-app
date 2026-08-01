@@ -80,3 +80,111 @@
 - 法定相続情報のつづり込み帳は、たった5年でいいんです
 - 図面の閉鎖は30年、これはセットで覚えるんです
 - 筆界特定書は永久保存、でも「以外」は30年なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「起算点（いつから数えるか）」を2列の軸にして、各肢の正しい保存期間ルール（ア=50年、イ=5年、ウ・エ・オ=30年、および筆界特定書の永久保存）を5枚のカードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Pay special attention to the following kanji, which are easily confused
+with their Simplified Chinese counterparts and appear repeatedly below:
+号・録・権・地・番・建・物・登・記・所. Render each in its standard
+Japanese (Jōyō) form, not the Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+土地家屋調査士試験　令和4年度　午後の部　第4問
+登記記録等の保存期間
+
+Subtitle (smaller, centered, 1行):
+起算点と年数の組み合わせを正しく覚える
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 女性の受験者キャラクターが登記所の書庫の前で、「50年」
+「30年」「5年」「永久」と書かれた4種類のラベルが貼られた保存箱を
+見比べている、アイソメトリックの構図。
+保存期間の分野は、「起算点（いつから数えるか）」と「年数（5年・
+30年・50年・永久）」の組み合わせを正確に対応づけられるかがカギ。
+似た数字が並ぶので、混同しやすいものをセットで覚える。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+起算点：処分・受付の日から
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+土地の閉鎖登記記録は50年間
+Illustration: アイソメトリックの登記所の書庫。「閉鎖」の印が押された
+土地の登記記録のファイルに「50年」の丸いタグが付いている。隣に
+一回り小さい建物の登記記録のファイルがあり、そちらには「30年」の
+タグが付いている。両者を見比べる構図。
+Caption (small text below):
+閉鎖した日から起算して50年間保存。建物の閉鎖登記記録は30年間で、
+土地とは年数が異なる点に注意（不動産登記規則28条4号）。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+閉鎖された各階平面図は30年間
+Illustration: アイソメトリックの図面保管棚。「閉鎖」の印が押された
+各階平面図・建物図面・土地所在図・地積測量図の巻かれた図面が並び、
+「30年」の丸いタグが付いている。
+Caption (small text below):
+閉鎖した日から起算して30年間保存（不動産登記規則28条13号）。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+書面申請の申請書は30年間
+Illustration: アイソメトリックの申請書類。「受付」の印が押された
+申請書が保管箱に収められ、「30年」の丸いタグが付いている。
+Caption (small text below):
+受付の日から起算して30年間保存。表示に関する登記も権利に関する
+登記も同様（不動産登記規則28条9号）。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+起算点：作成・送付の翌年から
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+法定相続情報一覧図つづり込み帳は5年間
+Illustration: アイソメトリックの帳簿棚。「法定相続情報一覧図つづり込み
+帳」とラベルの付いたバインダーに「5年」の丸いタグが付いている。隣に
+カレンダーのアイコンがあり、「作成の翌年」の文字が添えられている。
+Caption (small text below):
+作成の年の翌年から起算して5年間保存。登記記録本体より短い点に注意
+（不動産登記規則28条の2第6号）。
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+筆界特定書以外の手続記録は30年間、筆界特定書は永久保存
+Illustration: アイソメトリックの2つの書類。左側は「筆界特定書」と
+ラベルが付き「永久保存」の丸いタグが付いた書類。右側は「筆界特定
+手続記録」とラベルが付き「30年」の丸いタグが付いた書類。2つを
+並べて対比する構図。
+Caption (small text below):
+筆界特定書は永久保存。それ以外の手続記録は、登記所が送付を受けた年
+の翌年から起算して30年間保存（不動産登記規則235条1項1号・2号）。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.
+```

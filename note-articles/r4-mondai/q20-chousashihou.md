@@ -81,3 +81,119 @@
 - 代表社員を決めるかは「任意」なんです
 - 競業禁止、全員が同意しても破れないんです
 - 支店には、その地元の調査士会の社員を常駐させるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「土地家屋調査士個人・調査士会に関するルール」と「土地家屋調査士法人に関するルール」の2列構成で、ア〜オ5肢すべてを「本来正しいルール」として1枚で俯瞰できるようにした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric office buildings,
+file cabinets, documents, badges, maps, etc. — adapt icon set to the
+topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Pay special attention to the kanji 地, 所, 記, 録, 会, 業, 士, 駐, 表, 款,
+社, 総, and 局 — these have visually similar but structurally different
+Simplified Chinese forms. Draw each one in its correct standard Japanese
+(Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+令和4年度 午後の部 第20問
+土地家屋調査士法のポイント
+
+Subtitle (smaller, centered, 1行):
+事件簿・注意勧告・代表社員・競業禁止・従たる事務所の5つのルール
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 天秤(はかり)の上に「正」と書かれた札と「誤」と書かれた札が
+乗っている構図。虫眼鏡を持った土地家屋調査士のキャラクターアイコンが
+問題文を確認している。
+土地家屋調査士および土地家屋調査士法人に関するアからオまでの記述のうち、
+誤っているものの組合せを問う問題です。正解は「イ・ウ」（選択肢3番）。
+ここでは誤りの肢も含め、本来正しい5つのルールを整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+土地家屋調査士・調査士会のルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+事件簿は閉鎖後7年間保存する
+Illustration: 「事件簿」とラベルの貼られたファイルキャビネットのアイソメトリック
+イラスト。キャビネットの扉に鍵のアイコン、横にカレンダーと「7年」という数字
+の吹き出し。
+Caption (small text below):
+日本土地家屋調査士会連合会の定める様式で調製し、閉鎖後7年間保存しなければ
+ならない（土地家屋調査士法施行規則28条）。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+注意勧告に公表義務はない
+Illustration: 調査士会の建物のアイソメトリックイラストの前で、職員が「注意」
+と書かれた書類を会員に手渡している構図。その横に「公表」の文字と、大きく
+重なる赤い禁止マーク（斜線入りの丸）。
+Caption (small text below):
+土地家屋調査士会は所属会員に注意勧告をすることができるが、その旨を公表
+しなければならない義務はない（土地家屋調査士法56条）。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+土地家屋調査士法人のルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+代表社員を定めるかは任意
+Illustration: 「定款」と書かれた書類のアイソメトリックイラスト。2人の調査士
+アイコンの間に分岐する矢印があり、片方には「代表社員あり」、もう片方には
+「代表社員なし」という2枚の選択カードが並んで描かれている。
+Caption (small text below):
+社員が2名以上いる場合でも、代表社員を定款で定めるかどうかは任意であり、
+必ず定めなければならないわけではない（土地家屋調査士法35条の2第1項）。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+競業は同意があっても禁止
+Illustration: 1人の調査士アイコンが、法人の仕事の書類と個人の仕事の書類を
+同時に両手に持とうとしている構図。大きな赤い禁止マーク（斜線入りの丸）が
+重なり、横に「総社員の同意」という吹き出しが薄く描かれているが禁止マーク
+は消えない。
+Caption (small text below):
+土地家屋調査士法人の社員は、総社員の同意があっても、自己または第三者の
+ために法人の業務範囲に属する業務を行ってはならない（土地家屋調査士法37
+条1項）。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+従たる事務所に会員社員を常駐
+Illustration: 地図の上に本店の事務所ビルと、離れた場所に立つ従たる事務所
+ビルが描かれたアイソメトリックイラスト。従たる事務所の前に、その地域の
+土地家屋調査士会の会員バッジを付けた社員アイコンが常駐している構図。
+Caption (small text below):
+従たる事務所を設置する場合、その所在地を管轄する法務局または地方法務局
+の管轄区域内に設立された調査士会の会員である社員を常駐させなければなら
+ない（土地家屋調査士法36条）。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和4年度 午後の部 第20問より作成
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+(2 cards in Column A, 3 cards in Column B), with no duplicated or
+missing cards, and confirm none of the five headings restates a wrong
+statement from the original question — all five must state the correct
+legal rule.
+```

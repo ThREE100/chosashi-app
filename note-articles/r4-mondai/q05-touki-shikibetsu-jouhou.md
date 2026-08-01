@@ -85,3 +85,92 @@
 - 調査士の証明請求、委任状はいらないんです
 - 証明請求はオンラインでもOKなんです
 - 官庁は「ほしい」と言わなきゃ通知されないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記識別情報を「誰に通知されるか」と「どう証明請求するか」の2系統に分け、5枚のカードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric envelopes, official
+seals, ID documents, government buildings, online/computer screens,
+shared land plots, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to the kanji 登, 記, 権, 地, and 所 — these have Simplified
+Chinese look-alike forms that must NOT be used; render them in standard
+Japanese Jōyō form only. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+令和4年度 午後の部 第5問
+登記識別情報のルール
+
+Subtitle (smaller, centered, 1行):
+誰に通知されるか、どう証明請求するかを整理する
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 12桁の符号が書かれた封筒アイコンを中心に、左右に「通知」を示す矢印と「証明請求」を示す書類アイコンが伸びる導入イラスト
+登記識別情報は、いわば新しい「権利証」にあたる12桁の符号です。誰に・どのように通知されるのか、そして証明請求の手続はどうなるのかを、条文・先例にもとづいて整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+登記識別情報の「通知」ルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+法定代理人が申請したら、代理人に通知される
+Illustration: 成年後見人が書類を持って窓口に立ち、登記識別情報の封筒が本人ではなく成年後見人へ向かう矢印で渡されるアイソメトリック図
+Caption (small text below):
+法定代理人(親権者・不在者財産管理人・成年後見人等)が申請したときは、その法定代理人に通知される(法21条、規則62条1項1号)
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+共有名義の合筆は、名義人ごとに通知される
+Illustration: AさんとBさんの土地2筆が合筆されて1筆になる図。合筆後の土地から、Aさん宛の封筒とBさん宛の封筒がそれぞれ別々の矢印で渡されるアイソメトリック図
+Caption (small text below):
+共有者A・Bが合筆の登記を申請した場合、一方だけでなくA・Bそれぞれに固有の登記識別情報が通知される(法21条)
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+官庁・公署は、希望の申出がなければ通知されない
+Illustration: 官公庁の建物アイコンに向かう登記識別情報の封筒に大きな×印。その横に「希望します」という申出書のアイコンが描かれ、申出があれば×が外れることを示す対比構図
+Caption (small text below):
+官庁又は公署が登記名義人になる場合、あらかじめ通知を希望する旨の申出をしない限り、登記識別情報は通知されない(規則64条1項4号)
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+登記識別情報の「証明請求」ルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+調査士の代理証明請求に、委任状は不要
+Illustration: 土地家屋調査士が職印証明書を窓口に提示する図。その横に委任状のアイコンがあり、大きな×印が重なる対比構図
+Caption (small text below):
+資格者代理人(土地家屋調査士等)が証明を代理請求するときは職印証明書等は必要だが、代理人の権限を証する情報(委任状)は不要(規則68条14項、平20.1.11民二57号)
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+証明請求は、電子情報処理組織でもできる
+Illustration: 登記所の建物に向かって、書面を提出するルートとパソコン画面からオンラインで送信するルートの2本の矢印が並んで伸びるアイソメトリック図
+Caption (small text below):
+登記識別情報に関する証明の請求は、書面を提出する方法のほか、電子情報処理組織を使用する方法によることもできる(規則68条3項)
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards in Column A, 2 cards in Column B), with no duplicated or missing
+cards.
+```

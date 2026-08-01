@@ -80,3 +80,125 @@
 - 附属が別の一棟の区分建物なら、その所在地番もいるんです
 - 取り壊して建て替えたら、それは「別の建物」って知ってた？
 - 主と附属を同時に壊しても、日付は二段書きしないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+附属建物をめぐる「合併・敷地権の記録・申請情報・取壊し」の5つの正しいルールを、2列・5枚のカードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, floor
+plans, registration ledgers, stamps, location pins, calendars, demolition
+and construction icons — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・登・記・権・地・番・建・物・所, which have visibly different
+Simplified Chinese variants — render them only in their standard Japanese
+(Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+附属建物をめぐる登記実務
+令和4年度 午後の部 第14問
+
+Subtitle (smaller, centered, 1行):
+合併・敷地権の記録・申請情報・取壊しの登記、5つの原則を整理
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric main house (主である建物) with a smaller
+attached isometric storage building (附属建物) beside it, connected by a
+thin bracket line, with a magnifying glass icon hovering over a
+registration ledger book labeled "登記記録".
+附属建物は、主である建物と効用上一体として使われる建物です。この問題は、附属建物をめぐる合併・敷地権の記録・申請情報・取壊しの登記など、実務的な処理をまとめて問うています。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+合併・敷地権・申請情報のルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+非区分建物を敷地権付き区分建物の附属建物とする合併は、できる
+Illustration: An isometric tall condominium building icon labeled
+"敷地権付き区分建物（甲建物）" on the left, and a smaller separate
+isometric house icon labeled "非区分建物（乙建物）" on the right,
+connected by a bold plus "＋" sign and an arrow pointing into the
+condominium building, with a green circular stamp icon labeled "合併"
+and a checkmark, indicating the merger is permitted.
+Caption (small text below):
+非区分建物を敷地権付き区分建物の附属建物とする合併はできる
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+主と附属が敷地権のある区分建物なら、敷地権を区別して記録する
+Illustration: A single isometric condominium building cut away to show
+two floor sections side by side inside one registration ledger card:
+the left section labeled "主である建物の敷地権" and the right section
+labeled "附属建物の敷地権", separated by a clear dividing line, both
+drawn as small isometric floor-plan icons.
+Caption (small text below):
+主と附属が敷地権のある区分建物なら敷地権を区別して記録する
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+附属建物が別の一棟の区分建物なら、その一棟の所在地番を書く
+Illustration: Two separate isometric apartment-building icons on
+different land plots, one labeled "甲建物が属する一棟の建物" and the
+other labeled "乙建物が属する一棟の建物", with a location pin icon and
+a label "所在地番" pointing from the second building down into an
+isometric application-document icon labeled "申請情報".
+Caption (small text below):
+附属建物が別の一棟の区分建物なら、その一棟の所在地番も申請情報に必要（法44条1項5号ほか）
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+取り壊し・滅失登記のルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+取り壊して建て替えた建物は「別物」なので、表示変更ではできない
+Illustration: A three-step isometric sequence: (1) an isometric house
+icon labeled "甲建物" with a demolition wrecking-ball icon over it, (2)
+an empty land plot icon, (3) a new isometric house icon of the same
+size labeled "丙建物" being built on the same plot; below the sequence,
+a red circular prohibition mark (no-entry symbol) over an arrow labeled
+"表示変更登記", with two small stamps beside it labeled "滅失" and "新築".
+Caption (small text below):
+取り壊して建て替えた建物は別物で、表示変更登記はできない
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+主と附属が同時に取り壊されても、附属建物の日付は記録を要しない
+Illustration: Two isometric buildings, a larger house labeled
+"主である建物" and a smaller shed labeled "附属建物", both shown
+collapsing simultaneously with dust-cloud icons, above a single
+calendar/document icon showing one date entry; beside it, a
+crossed-out duplicate calendar icon labeled "二段書き" with a red X,
+indicating that a separate date for the subordinate building is not
+required.
+Caption (small text below):
+主と附属の同時取壊しでは附属建物の日付の記録を要しない（準則101条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the following 5 card headings each appear
+exactly once, verbatim, with no duplication, omission, or paraphrasing:
+1. 非区分建物を敷地権付き区分建物の附属建物とする合併は、できる
+2. 主と附属が敷地権のある区分建物なら、敷地権を区別して記録する
+3. 附属建物が別の一棟の区分建物なら、その一棟の所在地番を書く
+4. 取り壊して建て替えた建物は「別物」なので、表示変更ではできない
+5. 主と附属が同時に取り壊されても、附属建物の日付は記録を要しない
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards.
+```

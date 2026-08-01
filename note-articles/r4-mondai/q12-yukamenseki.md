@@ -80,3 +80,113 @@
 - 屋根つき屋外階段でも、床面積に入らないんです
 - ダストシュートは、外にはみ出た分も数えるんです
 - 駅のホームは「屋根の範囲」で測るんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+出窓・階段室・屋外階段・ダストシュート・停車場ホームという5つの建物部位を「算入するもの」「算入しないもの」の2列に分け、床面積算入の判断軸を1枚で俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric house cutaway, bay
+window, rooftop stair tower, outdoor steel staircase, dust chute pipe,
+train station platform with roof, measuring tape, checkmark/cross badges).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to the kanji 号・建・物・登・記, which have simplified-Chinese
+look-alike forms — always draw the standard Japanese form. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の床面積 算入・不算入の5原則
+
+Subtitle (smaller, centered, 2行):
+出窓・階段室・屋外階段・ダストシュート・停車場ホーム、5つの建物部位の数え方
+令和4年度 午後の部 第12問（不動産登記事務取扱手続準則82条ほか）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: an isometric cutaway of a two-story house at the center,
+surrounded by five small labeled vignettes floating around it — a bay
+window with a measuring tape, a small rooftop stair tower, an outdoor
+steel staircase with a roof and handrail, a dust chute pipe crossing an
+exterior wall, and a train platform with a roof — each vignette bearing
+a small checkmark or cross badge.
+床面積に算入するかどうかは、「外気分断性があるか」「用途として使える空間か」「範囲をどこで区切るか」で決まります。不動産登記事務取扱手続準則82条などのルールを、5つの建物部位にあてはめて整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+床面積に算入するもの
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+出窓は「高さ1.5m以上」かつ「下部が床面と同一高さ」で算入する
+Illustration: an isometric bay window (出窓) protruding from an exterior
+wall, with a vertical measuring tape showing "1.5m" alongside it, an
+arrow pointing to where the window's lower edge meets the floor line
+inside, and a green checkmark badge.
+Caption (small text below):
+準則82条11号。高さ1.5メートル以上で、かつ下部が床面と同一の高さにある出窓に限り算入する。高さ1.5メートル未満の出窓は、下部が床と同じ高さでも算入されない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+内部から外部にまたがるダストシュートは、はみ出した部分も含めて全体を算入する
+Illustration: an isometric cross-section of a building wall showing a
+vertical dust chute pipe running through an interior floor and
+protruding partway through the exterior wall, with the entire pipe
+(both the interior and the protruding exterior portion) shaded in the
+same highlight color and a green checkmark badge.
+Caption (small text below):
+準則82条10号。建物の内部にある煙突やダストシュートは、外部にまたがっている場合、外側に及んでいる部分も含めて床面積に算入する。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+停車場の上屋のある乗降場は、上屋の占める部分の面積で算入する
+Illustration: an isometric train station platform (乗降場) with a roof
+(上屋) covering part of it; the area under the roof is shaded in the
+highlight color with a green checkmark badge, while the open, unroofed
+end of the platform is left unshaded.
+Caption (small text below):
+準則82条2号。列車停車場の上屋を有する乗降場及び荷物積卸場の床面積は、その上屋の占める部分の面積によって算入する。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+床面積に算入しないもの
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+屋上の出入口専用の階段室・塔屋は、天井高1.5m以上でも算入しない
+Illustration: an isometric small rooftop stair tower (塔屋) on top of a
+building, with a label "出入口専用" beside it and a height arrow showing
+"1.5m以上", enclosed by walls on all sides, marked with a red cross badge.
+Caption (small text below):
+昭和38年10月22日民甲2933号。建物の屋階にある出入口のためだけに使われる階段室や、エレベーターの機械・高置水槽・冷却装置などを収容する塔屋は、天井の高さが1.5メートル以上であっても、階数や床面積に算入しない。
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+屋根・手すりがあっても、外気分断性のない屋外階段は算入しない
+Illustration: an isometric outdoor steel staircase attached to a
+building exterior, with a roof and a handrail but no side walls, small
+wind/airflow arrows passing freely through the open sides, marked with
+a red cross badge.
+Caption (small text below):
+準則82条7号。外気分断性のない屋外の階段や、玄関・車寄せ・ベランダなどの部分は、床面積に算入しない。屋根と手すりが付いていても、外気を分断していなければ算入しない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — especially
+号・建・物・登・記. If any character renders as a Simplified Chinese
+variant, redraw that character in the correct Japanese form. Confirm
+there are exactly 5 cards total across two columns — Column A (床面積に
+算入するもの) has 3 cards: 出窓, ダストシュート, 停車場の乗降場; Column B
+(床面積に算入しないもの) has 2 cards: 屋上の階段室・塔屋, 屋外階段. Confirm
+the number of cards equals 5 exactly, with no duplicated or missing cards.
+```

@@ -80,3 +80,113 @@
 - マンションの壁を抜いて1部屋に、それも「合体」なんです
 - 未登記＋所有権登記ありの合体は、所有権登記も一緒になんです
 - 登記原因は「新築、新築、合体」って三段で書くんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「申請義務・申請人」（ア・イ）と「合体の対象・登記原因の書き方」（ウ・エ・オ）の2系統に分けて、合体による登記等の正しいルール5点を1枚で俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric houses and buildings,
+condominium units, dividing walls, document stamps, flags, calendar and
+timeline icons — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Pay special attention to the kanji 権・記・録・題 (and 建・物・登・所・号),
+which have Simplified Chinese variants (权・记・录・题) with very different
+stroke shapes — always draw the standard Japanese (Jōyō) form of these
+characters, never the simplified Chinese form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+合体による登記等のルール
+令和4年度 午後第15問
+
+Subtitle (smaller, centered, 1行):
+申請人・申請義務・登記原因、5つのポイント
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Isometric illustration of two separate houses connected by
+a bold arrow merging into one house; a magnifying glass icon and a
+document icon float above the merged house to suggest a registration
+check.
+「合体」とは、複数の建物が物理的にくっついて1個の建物になることです。合体による登記等は、合体後の建物の表題登記と、合体前の建物の表題部の登記の抹消をまとめて行う、報告的登記です。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+申請義務・申請人のルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+更正で表題部所有者となった者は、その更正登記から1か月以内に申請
+Illustration: Isometric house with a speech bubble reading
+「表題部所有者 更正」above it, next to a calendar icon highlighting a
+「1か月以内」label, and a hand stamping a document icon labeled 「申請」.
+Caption (small text below):
+更正で表題部所有者となった者は更正登記から1か月以内に申請(法49条4項)
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+表題登記がない建物の共有者Aは、単独で申請できる
+Illustration: Three isometric buildings labeled 甲・乙・丙 side by side,
+with three small person icons above them representing co-owners; one
+person icon labeled A is highlighted in color and submits a document
+alone, while the other person icons are grayed out.
+Caption (small text below):
+表題登記がない建物の共有者は単独で申請できる(報告的登記・保存行為)
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+合体の対象・登記原因のルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+区分建物の隔壁を除去して1個にしたら、合体による登記等ができる
+Illustration: Two adjoining isometric condominium units divided by a wall
+icon; the wall icon is shown being removed (crossed out, lifted away by
+an arrow), merging into a single larger room, with a checkmark icon
+confirming the registration is possible.
+Caption (small text below):
+区分建物の隔壁除去で1個にしたら合体による登記等ができる(法49条1項5号)
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+表題登記なし＋所有権登記ありの合体は、所有権登記も併せて申請
+Illustration: An unregistered isometric house icon labeled 未登記 and a
+registered isometric house icon labeled 所有権登記済み merging via an
+arrow into one building; two document icons appear side by side on the
+merged building, one labeled 「表題登記」 and one labeled
+「所有権の登記」.
+Caption (small text below):
+表題登記なし＋所有権登記ありの合体は所有権登記も併せて申請(法49条1項2号)
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+表題登記のない建物どうしの合体は「新築、新築、合体」と記録
+Illustration: Two unregistered isometric houses, each with a small flag
+icon labeled 「新築」, connected by a timeline arrow to a merged building
+with a flag icon labeled 「合体」; below the timeline, a label icon
+displays the text 「年月日新築、年月日新築、年月日合体」.
+Caption (small text below):
+未登記建物どうしの合体は「新築、新築、合体」と記録(法49条2項)
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially for
+権・記・録・題・建・物・登・所・号. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly (Column A: 2 cards,
+Column B: 3 cards), with no duplicated or missing cards, and confirm all
+Japanese text strings above are reproduced verbatim with no paraphrasing.
+```

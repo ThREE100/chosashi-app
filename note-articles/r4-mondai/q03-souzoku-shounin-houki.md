@@ -80,3 +80,106 @@
 - 限定承認は「全員そろって」じゃなきゃダメなんです
 - 放棄したら、最初から相続人じゃなかったことになるんです
 - 撤回はできない、でも「取消し」ならできるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+相続欠格・単純承認・限定承認・放棄・取消しという5つのルールを、妻Bと子Cのケースに沿って1枚で俯瞰できるよう、誤っている肢（ウ・オ）は正しいルールに直したうえで5枚のカードに整理した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric family figures,
+house, will/document scrolls, court building, official stamps, torn
+paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 続・単・認・権・欠, which have visually similar but different
+Simplified Chinese forms — always draw the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+相続の承認・放棄
+令和4年度 午後の部 第3問
+
+Subtitle (smaller, centered, 1行):
+妻Bと子Cが相続人となる場合の5つの記述を整理する
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene of a home representing Aの遺産(相続財産)。
+Beside the house stand two simple family figures labeled 妻B and 子C,
+with small icons scattered around them: a will/document scroll (遺言書),
+a court building (家庭裁判所), and an official stamp (印鑑).
+妻Bと子Cのみが相続人となる場合の、相続欠格・単純承認・限定承認・放棄・
+取消しという5つのルールを整理する。誤っている記述（ウ・オ）は、
+正しいルールに直して図解する。
+
+--- CARD 1 ---
+Heading (bold):
+遺言を強迫で書かせたら、相続人になれないんです
+Illustration: An isometric scene of one family figure forcing another
+family figure to sign a will/document scroll (遺言書), with a red
+circle-and-slash prohibition icon over the forcing figure's position in
+a small family-tree diagram, showing that figure excluded from
+inheritance.
+Caption (small text below):
+強迫で遺言をさせた者は相続欠格者となる（891条3号）
+
+--- CARD 2 ---
+Heading (bold):
+3か月ほったらかしで、単純承認あつかいって知ってた？
+Illustration: An isometric calendar icon counting down 3か月, with a
+family figure standing idle beside it, and an official stamp reading
+単純承認 automatically pressing down onto a document at the end of the
+countdown.
+Caption (small text below):
+熟慮期間内に何もしなければ単純承認とみなされる（921条2号）
+
+--- CARD 3 ---
+Heading (bold):
+限定承認は「全員そろって」じゃなきゃダメなんです
+Illustration: Two family figures (妻B and 子C) standing together, jointly
+holding one document and submitting it together to an isometric court
+building (家庭裁判所). Beside them, a single family figure alone trying
+to submit a document has a red circle-and-slash prohibition icon over it.
+Caption (small text below):
+限定承認は共同相続人全員が共同してのみできる（923条）
+
+--- CARD 4 ---
+Heading (bold):
+放棄したら、最初から相続人じゃなかったことになるんです
+Illustration: An isometric timeline arrow pointing back to a starting
+point, with a family figure fading out of a small family-tree diagram
+from the very beginning, showing that the person is treated as never
+having been an heir from the start.
+Caption (small text below):
+放棄した者は初めから相続人でなかったとみなされる（939条）
+
+--- CARD 5 ---
+Heading (bold):
+撤回はできない、でも「取消し」ならできるんです
+Illustration: A split composition: on the left, a document stamped
+撤回 with a red circle-and-slash prohibition icon; on the right, a
+separate document stamped 取消し being approved by an isometric court
+building/gavel icon, showing the two are treated differently.
+Caption (small text below):
+撤回はできないが、強迫による相続放棄は取り消すことができる（919条2項）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 続・単・認・権・欠. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards.
+```

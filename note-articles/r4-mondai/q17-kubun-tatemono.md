@@ -80,3 +80,99 @@
 - 敷地権がなくても、一棟まるごと一括申請なんです
 - 建て増しで区分建物化、変更と表題登記はセットなんです
 - 区分建物の表題登記、申請人は「作った人」なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+区分建物の登記は「一棟まるごと一括申請」が原則であることと、その例外にあたる職権処理・申請人の特則を、5枚の原則カードで俯瞰できる構成です。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, room
+cross-sections, document/application-form icons, official stamp icons,
+arrows showing procedural flow — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: this text contains the kanji 登, 記, 権, 建, 物, 所, 録,
+地, and 番, which have visually similar but structurally different
+Simplified Chinese variants (e.g. 権 must NOT become 权, 記 must NOT become
+记, 録 must NOT become 录, 建/物/所/地/番/登 must keep their standard
+Japanese stroke forms). Render every occurrence of these kanji in their
+correct Japanese Jōyō form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+区分建物の表題登記は
+「一棟まるごと一括」が基本なんです
+
+Subtitle (smaller, centered, 2行):
+令和4年度 午後の部 第17問
+区分建物の登記の申請
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 一棟のマンション（区分建物）をアイソメトリックで断面表示し、内部に積み重なった複数の専有部分（部屋）を描く。建物全体を点線の枠で囲み、そこから1本の申請書アイコン（書類にクリップが付いたもの）が伸びて「一括申請」を象徴する。
+区分建物（マンションの一室など）の登記は、一棟の建物と専有部分が密接に関わるため、「一括して申請しなければならない」場面が多いのが特徴です。どこまでが一括申請の対象で、誰に申請義務があるのかを整理しましょう。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+一括申請が必要な場面
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+非区分建物が接続、変更登記は一括
+Illustration: 別々に登記された甲建物・乙建物の2つのアイソメトリック建物アイコンが、増築工事を示す足場アイコンと矢印でつながり、1つの区分建物（マンション風の建物）に変わる様子。甲・乙それぞれに付いていた「表題部変更登記」ラベルの書類アイコンが、1つの申請書アイコンにまとめられて束ねられる。
+Caption (small text below):
+いずれも表題登記のある非区分建物どうしが増築工事で接続して区分建物になった場合、甲・乙建物の表題部変更登記は一括して申請しなければならない（不動産登記法52条3項）。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+敷地権がなくても、一棟まるごと一括申請
+Illustration: 敷地権のない区分建物（地面と建物の間に「敷地権なし」のラベル付き点線を描く）の一棟全体をアイソメトリックで表示。建物内の複数の専有部分（部屋アイコン）それぞれに「表題登記」ラベルの書類アイコンが付いており、それらが矢印で1つの申請書アイコンに束ねられる。
+Caption (small text below):
+建物を新築したときは表題登記の申請が必要で、区分建物として登記する場合は、敷地権の有無にかかわらず一棟の建物に属する全部の区分建物の表題登記を一括して申請しなければならない（不動産登記法47条1項・48条1項）。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+建て増しで区分建物化、変更登記と表題登記はセット
+Illustration: 既に登記されている一戸建て（非区分建物）のアイソメトリック建物アイコンに、新築部分（区分建物）が増築されて接続する様子。既存部分には「表題部変更登記」ラベル、新築部分には「表題登記」ラベルの書類アイコンがそれぞれ付き、矢印で1つの申請書アイコンにまとめられる。
+Caption (small text below):
+既登記の非区分建物に接続して区分建物が新築され、全体として一棟の区分建物が生じた場合には、非区分建物の表題部変更登記と、増築部分の区分建物の表題登記を一括して申請しなければならない（不動産登記法48条3項）。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+職権処理・申請人の特則
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+一棟の床面積変更、一人が出せば残りは職権
+Illustration: マンションのアイソメトリック建物で、1つの専有部分（部屋アイコン）の所有者Aが「一棟の床面積変更登記」ラベルの申請書アイコンを窓口に提出する様子。他の専有部分（複数の部屋アイコン）には、登記官のスタンプアイコンから伸びる矢印とともに「職権で変更」のラベルが描かれる。
+Caption (small text below):
+一棟の建物の床面積変更登記を専有部分の所有者の一人が申請すれば、他の区分建物の登記記録にある一棟の建物の表示は登記官の職権で変更される。他の所有者の分まで併せて申請する必要はない（不動産登記法51条6項）。
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+区分建物の表題登記、申請人は「作った人」
+Illustration: 区分建物を新築した人物アイコンA（工具を持つ姿で「原始取得者」を示す）がグレーアウトして描かれ、その隣に相続人を示す人物アイコンBが「Aを表題部所有者とする表題登記」ラベルの申請書アイコンを提出する様子。申請書アイコンの表題部所有者欄にはAの名前が記入されている矢印を描く。
+Caption (small text below):
+区分建物の表題登記の申請義務は新築した原始取得者のみに課され、相続人は被相続人（原始取得者）を表題部所有者として表題登記を申請することができる（不動産登記法47条2項）。相続人自身が表題部所有者になるわけではない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 登, 記, 権, 建, 物, 所, 録, 地, 番. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly (Card 1
+through Card 5 above), with no duplicated or missing cards, and confirm
+every card's heading and caption text matches the Japanese strings given
+above verbatim.
+```
