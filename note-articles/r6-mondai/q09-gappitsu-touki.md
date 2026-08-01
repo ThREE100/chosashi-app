@@ -81,3 +81,119 @@
 - 地方公共団体の嘱託には、登記識別情報はいらないんです
 - 表題部所有者の土地には、所有権登記済みの土地は合筆できないんです
 - 地役権がある土地への合筆は、範囲を書く必要があるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+合筆の登記をめぐる5肢を「合筆を妨げる3つの制限（持分・地目地番区域・権利関係）」と「嘱託登記の特則」の2グループ・5カードに整理し、誤りの肢（イ・エ）は正しいルールに直したうえで1枚に俯瞰する構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, torn
+paper labels, government buildings, stamped documents, ribbon/rights
+icons, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to the following kanji, which are easily confused with
+Simplified Chinese forms and must be drawn in their correct Japanese
+form: 号・権・地・番・登・記・所. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+合筆の登記
+できる・できないの分かれ目
+
+Subtitle (smaller, centered, 1行):
+令和6年度午後の部 第9問（不動産登記法41条ほか）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene of two adjacent land plots with a large
+magnifying glass hovering above them, and a floating checklist card
+showing three check-marked items next to the plots.
+合筆の登記をするには、持分の一致・地目地番区域の同一性・権利関係の整合という
+3つの制限に加え、地方公共団体の嘱託登記には独自の特則があります。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+合筆を妨げる3つの制限（不動産登記法41条）
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+持分の割合が一致しなければ合筆できない
+Illustration: Two isometric land plots side by side. Left plot labeled
+「甲土地」with a rounded label tag reading「A:5分の3 B:5分の2」. Right plot
+labeled「乙土地」with a rounded label tag reading「A:5分の2 B:5分の3」. A red
+X mark (or a broken-chain icon) placed between the two plots to show they
+cannot be joined.
+Caption (small text below):
+所有権の登記名義人が同じでも、持分の割合まで一致していなければ合筆の登記は
+できません（不動産登記法41条4号）。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+登記記録の地目が同じでも、現況の地目が違えば合筆できない
+Illustration: Two adjacent isometric land plots. Both plots have a small
+registry tag reading「地目:畑」, but overlaid real-world icons show the
+actual use differs: the left plot has an isometric crop-field icon, the
+right plot has an isometric small house icon on land labeled「宅地」. A red
+X mark placed between the two plots.
+Caption (small text below):
+登記記録の地目が同一であっても、現況の地目が甲土地と乙土地とで異なる場合は、
+合筆の登記を申請することができません（不動産登記法41条2号）。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+表題部所有者の土地と、所有権登記済みの土地は合筆できない
+Illustration: Left isometric land plot labeled「甲土地」with a torn-paper
+label reading「表題部所有者 A・B」(no registration stamp on it). Right
+isometric land plot labeled「乙土地」with a stamped document icon reading
+「所有権登記名義人 A・B」. A red X mark placed between the two plots.
+Caption (small text below):
+所有権の登記がない土地と、所有権の登記がある土地とは合筆することができません
+（不動産登記法41条5号）。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+承役地に地役権のない土地を合筆するときは、範囲を明記する
+Illustration: Left isometric land plot labeled「甲土地」with a ribbon icon
+reading「地役権あり（承役地）」. Right isometric land plot labeled「乙土地」
+with no ribbon icon. An arrow merges the two plots into one combined
+plot, with a document icon pinned to it reading「申請情報:地役権設定の範囲」。
+Caption (small text below):
+承役地についてする地役権の登記がある土地に、地役権の登記がない土地を合筆する
+登記を申請する場合には、地役権設定の範囲を申請情報の内容としなければなりません
+（不動産登記令別表9項添付情報）。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+嘱託登記の特則
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+地方公共団体が嘱託する合筆登記に、登記識別情報は不要
+Illustration: An isometric government-building icon on the left connected
+by an arrow to a stamped document icon labeled「嘱託書」on the right; next
+to it, a document icon labeled「登記識別情報」with a red X mark overlaid to
+show it is not required.
+Caption (small text below):
+地方公共団体が所有する土地について合筆の登記を嘱託する場合には、登記識別情報
+を提供することを要しません（不動産登記法22条ただし書等）。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・権・地・番・登・記・所. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, and confirm all Japanese text strings match the ones given
+above verbatim with no paraphrasing.
+```

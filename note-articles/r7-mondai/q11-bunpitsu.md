@@ -82,3 +82,116 @@
 - 仮登記も、承諾一つで引き継がれずに済みます
 - 第三者の印鑑証明書に、期限はないんです
 - 期間切れの地上権も、消したことにはなりません
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+分筆登記に伴う権利の扱いを「権利の転写・消滅に関するルール」と「登記手続きに関するルール」の2列5枚のカードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots split by
+a dotted boundary line, registry documents, seal/inkan stamps, consent
+certificates, calendars, torn paper labels, etc. — adapt icon set to the
+topic of real estate registration).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・地・物・登・記・所・録, which have Simplified Chinese look-alike
+forms — always draw the standard Japanese Jōyō form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+分筆登記――
+「消える権利」「残る権利」
+
+Subtitle (smaller, centered, 1行):
+令和7年度 午後の部 第11問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric plot of land (甲土地) being split by a dotted
+boundary line into two plots, with a smaller plot (乙土地) breaking away;
+a surveyor character stands beside it holding a document. Small labels
+on the plots read "甲土地" and "乙土地".
+分筆に伴う権利の扱いは、「実体的な権利が本当に消えたか」と「登記記録上どう反映されるか」を分けて考えると整理しやすくなります。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+権利の転写・消滅に関するルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+地上権を消すなら、抵当権者にも聞かなきゃ
+Illustration: An isometric land plot with a "地上権" icon (a small pillar
+or structure standing on the plot) that itself has a "抵当権" tag attached
+to it (a smaller padlock or ribbon icon on the pillar). Two figures stand
+beside the plot, one labeled "地上権者", one labeled "抵当権者", each holding
+a signed consent paper with a checkmark and the word "承諾".
+Caption (small text below):
+地上権を目的とする抵当権があるときは地上権者・抵当権者双方の承諾が必要
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+仮登記も、承諾一つで引き継がれずに済みます
+Illustration: The 甲土地 plot has a torn-paper label reading "仮登記" on
+it. An arrow points from 甲土地 to the smaller 乙土地 plot; on the arrow a
+consent document labeled "承諾" appears, and on 乙土地 the "仮登記" label is
+shown crossed out with a large X, indicating it is not carried over.
+Caption (small text below):
+仮登記名義人の承諾があれば分筆後の土地に仮登記は転写されない
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+期間切れの地上権も、消したことにはなりません
+Illustration: A calendar icon showing "存続期間満了" with an X mark over
+the dates, next to a "地上権" pillar icon that is still standing (not
+removed). An arrow labeled "転写" points from 甲土地 to 乙土地, showing the
+same "地上権" pillar icon appearing again on 乙土地, indicating the right
+still carries over unless a separate "抹消登記" is filed.
+Caption (small text below):
+存続期間が満了していても抹消登記がなければ地上権は転写される
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+登記手続きに関するルール
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+判決があっても、分筆だけでは持分は動きません
+Illustration: A court judgment document labeled "共有物分割の判決" beside the
+split 甲土地/乙土地 plots. Both plots still show two overlapping figure
+icons labeled "共有" (not single-owner icons), with a separate dashed
+arrow pointing to a second document labeled "持分移転登記" needed to reach
+single ownership ("単独所有").
+Caption (small text below):
+分筆登記だけでは共有持分の配分は変わらず、別途持分移転登記が必要
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+第三者の印鑑証明書に、期限はないんです
+Illustration: A consent document labeled "承諾書" held by a figure labeled
+"抵当権者", with an attached seal-certificate icon labeled "印鑑証明書" and a
+calendar tag reading "期限なし" (no expiry), contrasted faintly with a
+separate smaller icon showing "3か月以内" crossed out to show it does not
+apply here.
+Caption (small text below):
+第三者の承諾書に添付する印鑑証明書に3か月の作成期限はない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards, and confirm every Japanese text
+string above (headings, captions, and in-illustration labels) is
+reproduced exactly as written, with no substitutions, omissions, or
+paraphrasing.
+```

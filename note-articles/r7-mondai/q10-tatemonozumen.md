@@ -80,3 +80,121 @@
 - 仮換地の形は、実線でくっきり描きます
 - 上下をくっつけるなら、両階の図面が必要
 - 共用部分をやめても、図面の出し直しは不要
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物図面・各階平面図の提出要否を左右する軸「建物自体の物理的な状態・位置関係が変わるかどうか」を1本の分岐線とし、5つの場面を「不要」列と「必要」列に振り分けて1枚で俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+following kanji, which are easily confused with Simplified Chinese variants
+and must be drawn in the correct Japanese (Jōyō) form: 建, 物, 図, 面, 登,
+記, 地, 番, 敷, 変, 更, 提, 出, 不, 要, 必, 規, 約, 共, 用, 部, 分, 区, 合,
+併, 実, 線, 示.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物図面・各階平面図、いつ出す？いつ省略できる？
+
+Subtitle (smaller, centered, 1行):
+令和7年度 午後の部 第10問｜正しい肢はウ・オ
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric building on a small plot of land, with a
+branching decision-path icon (a fork splitting into two arrows) drawn
+beside it — one arrow leads toward a "変わらない" (unchanged) icon, the
+other toward a "変わる" (changed) icon, representing a decision point.
+建物図面・各階平面図は、「建物そのものの物理的な状態や位置関係が変わるか
+どうか」を基準に、提出が必要かどうかが決まる。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+建物自体は変わらない → 提出「不要」
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+住所が変わっても、建物図面は出さなくてOK
+Illustration: An isometric building standing perfectly still while a
+small address-plate icon beside it flips from one printed label to
+another (地番表示が変わる様子を示す看板アイコン). A document icon labeled
+「建物図面・各階平面図」has a red "×" stamp overlaid on it to show it is
+not required.
+Caption (small text below):
+建物の所在（地番等の表示）が変わるだけで、建物自体の形状や位置は変わらな
+いため、建物図面・各階平面図の提出は不要。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+別の土地を足しても、図面はそのままでいい
+Illustration: An isometric building on one plot of land, connected by a
+dashed line to a separate, distant plot of land with no building on it
+(規約敷地として追加される土地を示す点線の囲み). A document icon labeled
+「建物図面」has a red "×" stamp overlaid on it to show it is not required.
+Caption (small text below):
+建物が存在しない土地を新たに規約敷地とする変更登記では、建物自体の形状や
+敷地との位置関係に変更がないため、建物図面の提出は不要。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+共用部分をやめても、図面の出し直しは不要
+Illustration: An isometric room inside a building where a label reading
+「共用部分」peels off like torn paper and is replaced by a plain room
+label, while the room's shape and size stay exactly the same. A document
+icon labeled「建物図面・各階平面図」has a red "×" stamp overlaid on it to
+show it is not required.
+Caption (small text below):
+共用部分である旨の規約を廃止して行う表題登記では、建物自体の物理的な状態
+に変更がないため、建物図面・各階平面図の提出は不要。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+建物の形・位置が変わる → 提出「必要」
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+仮換地の形は、実線でくっきり描きます
+Illustration: Two overlapping land-plot outlines shown side by side — one
+drawn as a faint dashed outline labeled「従前地」, the other drawn as a
+bold solid (実線) outline labeled「仮換地」, with an isometric building
+standing on the solid-outline plot. A document icon labeled「建物図面」has
+a green "○" stamp overlaid on it to show it is required.
+Caption (small text below):
+仮換地上に建築した建物の表題登記に添付する建物図面には、敷地の形状として
+実際に使用する仮換地の形状を実線で図示する。
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+上下をくっつけるなら、両階の図面が必要
+Illustration: Two stacked isometric one-story buildings, one labeled
+「甲区分建物」and one directly above it labeled「乙区分建物」, joined by a
+merging arrow into a single two-story building. Two document icons
+labeled「各階平面図」（1階分・2階分）each have a green "○" stamp overlaid
+on them to show they are required.
+Caption (small text below):
+1階建ての区分建物同士を上下に合併して1個の区分建物とする合併の登記では、
+各階の床の形状が変わるため、各階平面図の提出が必要。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Pay special attention to 建, 物, 図, 面, 登, 記,
+地, 番, 敷, 変, 更, 提, 出, 不, 要, 必, 規, 約, 共, 用, 部, 分, 区, 合,
+併, 実, 線, 示. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and that Column A has 3 cards and Column B
+has 2 cards.
+```

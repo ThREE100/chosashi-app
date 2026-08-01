@@ -81,3 +81,130 @@
 - 「知ってて契約」でも、取消しはできるんです
 - 日用品の買い物、悪意でも取り消せないって知ってた？
 - 返事しないと「追認したこと」にされちゃうんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「取消しができる／できないの境界」と「取消しの行使と相手方の対応」の2系統に分けて5つの正しいルールを整理し、行為能力の分野を1枚で俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric people, contracts,
+stamps, clocks, speech bubbles, arrows, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・証・約・対・独, which have visually similar but incorrect
+Simplified Chinese variants — always render the standard Japanese form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+制限行為能力者の取消しルール
+「誰が」「いつ」「どこまで」
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第1問より
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric illustration showing three separate figures
+side by side — a teenage student character (未成年者)、an elderly figure
+being supported by a caregiver (成年被後見人とその後見人)、and a
+middle-aged figure holding a cane with a supporter beside them
+(被保佐人とその保佐人) — each standing near a stack of paper contracts,
+with a large red return-arrow icon symbolizing「取消し」hovering above
+the contracts.
+未成年者・成年被後見人・被保佐人は、それぞれ結んだ契約を「取り消す」ことが
+できますが、誰が取り消せるか、いつまで取り消せるか、そして取り消せない
+例外はどこにあるかを正しく整理することが重要です。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+取消しができる／できないの境界
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+審判前の契約は、後から取り消せない
+Illustration: An isometric scene split into two time panels connected by
+a timeline arrow. Left panel: an elderly man signs a futon sales contract
+with a salesperson, labeled「後見開始の審判前」. Right panel: the same
+elderly man now sits with an official document stamped「後見開始の審判」、
+labeled「審判後」. A large red「×」icon overlays a dashed arrow pointing
+backward from the right panel to the left panel, showing that the effect
+cannot reach back into the past.
+Caption (small text below):
+後見開始の審判の効力は将来に向かってのみ生じる(遡及しない)ため、審判前に
+締結した契約は、当時すでに判断能力が低下していたことを証明しても取り消す
+ことができない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+「知って契約」でも、取消しはできる
+Illustration: An isometric illustration of a young person (未成年者) with
+a speech bubble containing a small document icon and a checkmark,
+representing「この契約は後で取り消せると知っていた」. Next to them, a
+green circle icon labeled「取消し可能」with a checkmark, showing that
+knowing about the possibility of cancellation does not block the right
+to cancel.
+Caption (small text below):
+契約の時点で「後から取り消せる」と知っていた場合でも、そのことだけを
+理由に取消権が失われることはない(民法5条2項、120条1項)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+日用品の購入は、相手方の善意・悪意を問わず取り消せない
+Illustration: An isometric scene of a成年被後見人 figure buying groceries
+at a small shop counter from a shopkeeper. Two small thought bubbles above
+the shopkeeper show both a checkmark and a question mark (representing
+「知っていた」and「知らなかった」)、both crossed out by a single red「×」
+over a「取消し」icon, indicating the outcome is the same regardless of the
+shopkeeper's knowledge.
+Caption (small text below):
+日用品の購入その他日常生活に関する行為は、相手方が本人を制限行為能力者だ
+と知っていたかどうかにかかわらず、取り消すことができない
+(民法9条ただし書)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+取消しの行使と相手方の対応
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+未成年者は、自分一人で取消しができる
+Illustration: An isometric illustration of a teenage student character
+alone, raising one hand with a document stamped「取消し」、with a small
+crossed-out icon of two overlapping figures placed beside them,
+representing「法定代理人の同意は不要」.
+Caption (small text below):
+未成年者が法定代理人の同意を得ずにした法律行為を取り消す場合、その取消権
+の行使は未成年者本人が単独で行うことができる。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+相手方は保佐人に催告でき、無返答なら追認とみなされる
+Illustration: An isometric scene of a businessperson (契約の相手方)
+sending a letter icon labeled「催告書」toward a supporter figure (保佐人)
+standing next to a被保佐人. A clock icon counts down next to the保佐人、
+and an arrow points to a stamped document labeled「追認」appearing
+automatically when the clock reaches zero, representing the deemed
+ratification after no response.
+Caption (small text below):
+被保佐人が保佐人の同意を得ずにした法律行為について、相手方は保佐人に
+追認するかどうか確答すべき旨の催告をすることができ、期間内に確答が
+なければ追認が擬制される(民法20条2項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・証・約・対・独. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards.
+```

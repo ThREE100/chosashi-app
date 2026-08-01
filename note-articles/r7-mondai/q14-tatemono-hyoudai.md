@@ -82,3 +82,121 @@
 - 亡くなった親を、経由しなくていいんです
 - 借地権の証明、実は求められません
 - 住所の証明、印鑑証明書でも大丈夫
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の表題登記に関する5つの記述を、「表題部所有者は誰にするか」(2枚)と「どんな証明書が必要か」(3枚)の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, documents, official stamps/seals, scanners, arrows, prohibition
+marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の表題登記
+名義と証明書のルール
+
+Subtitle (smaller, centered, 1行):
+表題部所有者は誰か、どんな証明書が必要かを整理(令和7年度 午後の部 第14問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a small
+house-shaped building under construction with a registration ledger book
+and an official stamp beside it, and a small document icon with a
+magnifying glass to suggest checking attached certificates.
+建物の表題登記では、「誰の名義で登記するか」と「どんな証明書が必要か」
+という基本ルールが問われます。5つの記述を、名義に関するルールと証明書
+に関するルールの2つに整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+表題部所有者は誰にするか
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+2棟の合体、まとめて申請していいんです
+Illustration: An isometric diagram showing two separate small warehouse
+buildings, each tagged "表題登記のみ", merging via an arrow into one
+larger building tagged "合体後の建物". Beside it, a person character
+holds two documents at once toward a registry-office window icon: one
+document labeled "合体後の建物の表題登記" and another labeled "合体前の
+建物の表題部の登記の抹消", both being submitted together.
+Caption (small text below):
+表題登記のみの2棟の合体は、合体後の登記と合体前の抹消をまとめて
+申請できる
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+亡くなった親を、経由しなくていいんです
+Illustration: An isometric house icon connected by a dotted, crossed-out
+arrow to a faded parent character tagged "被相続人" (showing this route
+is not required), and by a solid direct arrow to a child character tagged
+"相続人", who receives a stamp reading "表題部所有者".
+Caption (small text below):
+未登記のまま死亡した場合、相続人は自分を表題部所有者として直接
+申請できる
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+どんな証明書が必要か
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+スキャンしても、電子署名は省略できません
+Illustration: An isometric scanner scanning a paper document tagged
+"確認済証", with an arrow to a computer screen showing the resulting
+electronic file, onto which a seal/stamp icon tagged "電子署名" is being
+attached, plus a small prohibition (no-entry) mark over a crossed-out
+label reading "署名省略".
+Caption (small text below):
+スキャンした確認済証にも作成者の電子署名が必要
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+借地権の証明、実は求められません
+Illustration: An isometric land plot tagged "借地" with a house built on
+top of it, beside a document icon tagged "借地権を有することを証する情報"
+overlaid with a red prohibition (no-entry) mark to show it is not
+required.
+Caption (small text below):
+借地上の建物の表題登記に借地権の証明情報は不要
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+住所の証明、印鑑証明書でも大丈夫
+Illustration: An isometric person character holding a document tagged
+"印鑑に関する証明書" beside an equals sign and another document tagged
+"住民票", both feeding into a folder tagged "表題登記の添付情報", with a
+checkmark icon confirming both are acceptable.
+Caption (small text below):
+表題部所有者の住所証明として印鑑に関する証明書を提供することができる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和7年度 午後の部 第14問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 表題部所有者は誰にするか, 3 cards under どんな証明書が必要か),
+with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

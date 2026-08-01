@@ -82,3 +82,129 @@
 - 住所も氏も、まとめて1通で直せます
 - 相手の一言があれば、一人でも直せます
 - 何回引っ越してても、一気に更正できます
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+表題部所有者の登記を「法人格が同じかどうか(名称変更か更正か)」と「変更・更正登記の手続きルール」の2系統に分け、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric office buildings,
+signboards, registry stamps/seals, document folders, torn paper labels,
+arrows, prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・登・記・所, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+表題部所有者の登記
+「名称変更」か「更正」か
+
+Subtitle (smaller, centered, 1行):
+名前が変わっただけか、別人格が引き継いだか(令和7年度 午後の部 第8問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric office building with a signboard, split into
+two diverging paths. The left path shows the same building simply having
+its signboard repainted with new text, labeled 名称変更. The right path
+shows the original building being removed (stamped with a red 消滅 seal)
+and a different building standing in its place, labeled 更正.
+会社にまつわる変化にはいろいろな種類がありますが、「同じ会社が名前を
+変えただけ」なのか「別の会社が引き継いだ」のかで、登記の扱いはまったく
+変わってきます。この違いを押さえるのが本問のポイントです。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+法人格の変動と表題部所有者の登記
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+吸収合併は名称変更ではなく更正の登記
+Illustration: An isometric scene showing a 株式会社Ａ building being
+absorbed into a 株式会社Ｂ building. Ａ's signboard falls down and is
+stamped with a red 消滅 seal, while Ｂ's signboard remains standing. An
+arrow points from the Ａ building to the Ｂ building, labeled 更正の登記。
+A small character representing 株式会社Ｂ holds a document stamped 更正
+and submits it alone at a registry counter.
+Caption (small text below):
+吸収合併では消滅する会社(Ａ)の権利義務が存続する会社(Ｂ)へ包括承継される
+ため、名称変更ではなく更正の登記として、実際の所有者である株式会社Ｂが
+申請する(不動産登記法33条)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+特例有限会社→株式会社は同一法人の名称変更
+Illustration: An isometric building that stays exactly the same shape and
+location; only its signboard changes from 特例有限会社Ａ to 株式会社Ａ,
+with a small curved arrow from the old signboard to the new one labeled
+名称の変更の登記。The same person stands in front of the building
+throughout, to emphasize it is the same legal entity.
+Caption (small text below):
+会社法上の経過措置により同一の法人格が存続したまま名称と組織形態だけが
+変わるため、通常の商号変更と同じく名称の変更の登記で対応できる。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+変更・更正登記の手続きに関するルール
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+住所の更正と氏の変更はまとめて一の申請でできる
+Illustration: An isometric single folder icon labeled 一の申請情報,
+containing two stamped labels side by side inside it, one reading
+住所の更正 and the other reading 氏の変更。A single hand submits the one
+folder to a registry counter.
+Caption (small text below):
+同一の表題部所有者についての複数の変更・更正事項は、内容が関連するもので
+あれば、一の申請情報によってまとめて申請することができる。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+持分の誤りは相手の承諾があれば単独で更正できる
+Illustration: An isometric shared land plot with two small figures
+labeled Ａ and Ｂ standing on it. Ｂ hands Ａ a document stamped 承諾。Ａ
+alone submits a separate document stamped 更正 to a registry counter,
+while Ｂ is shown standing away from the counter.
+Caption (small text below):
+共有の表題部所有者の持分が誤って登記されている場合、他の表題部所有者の
+承諾を証する情報を提供すれば、単独でその更正の登記を申請することができる。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+住所が何度変わっても現在の住所へ一気に更正できる
+Illustration: An isometric timeline showing three small house/address
+icons in a row representing past registered addresses, connected by thin
+dotted lines with a small prohibition mark over the middle one. A single
+bold straight arrow leads directly from the oldest registered address
+icon to the current address icon, skipping the middle step, labeled
+変更の登記。
+Caption (small text below):
+表題部所有者の住所が登記記録上の住所から複数回変わっている場合でも、その
+履歴を経由することなく、直ちに現在の住所へと変更する登記を申請することが
+できる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和7年度 午後の部 第8問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・登・記・所. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly (2 cards under
+法人格の変動と表題部所有者の登記, 3 cards under 変更・更正登記の手続きに
+関するルール), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```

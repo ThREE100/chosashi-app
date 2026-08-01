@@ -78,3 +78,104 @@
 - 所有者がいなくても、証明はちゃんといります
 - 共有でも、全員そろわなくて大丈夫
 - 他棟の名前まで、書く必要はありません
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+共用部分の登記をめぐる5つの論点を「証明情報が必要な場面」と「義務・全員・氏名は不要な場面」の2列に分け、正しいルールだけを5枚のカードで俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment building
+cross-section, stamped documents, keys, torn paper labels, etc. — adapt
+icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to the following kanji, which are easy to mistake for their
+Simplified Chinese look-alikes: 号・録・権・地・番・建・物・登・記・所・共・
+用・部・抵・当・証・規・約・棟。Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+共用部分の登記
+承諾がいる場面・いらない場面
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第15問／正解：ア・ウの組合せ
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: マンションの断面図イラスト。中央に「共用部分」とラベルの付いた
+管理人室の建物アイコン。そこから左右に矢印が伸び、左側は書類とスタンプの
+アイコン(証明情報が必要)、右側はカレンダーや氏名バッジにバツ印のアイコン
+(義務・全員・氏名は不要)へつながる、天秤のような左右対称の構図。
+建物を「共用部分」にするということは、その建物の独立した所有権や担保権の扱いを大きく変えることです。既存の権利者にどんな影響が及ぶかを軸に見ていきましょう。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+証明情報が必要な場面
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+抵当権がついてるなら、承諾もらってからです
+Illustration: 抵当権の登記済みの建物アイコン(赤い印鑑・スタンプが押された
+証書)から、共用部分の建物アイコンへ変化する矢印。間に「承諾書」の書類
+アイコンと、天秤(裁判)のアイコンを並べる。
+Caption (small text below):
+抵当権付き建物を共用部分にするには抵当権者の承諾等の情報が必要
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+所有者がいなくても、証明はちゃんといります
+Illustration: 「共用部分」ラベルの付いた甲建物アイコンから、附属建物(倉庫の
+アイコン)が切り離されて乙建物になるイラスト。切り離しの矢印のそばに
+「所有者を証する情報」とラベルの付いた書類アイコン。
+Caption (small text below):
+共用部分の附属建物を分割するには甲建物の所有者証明情報が必要
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+義務・全員・氏名は不要な場面
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+規約ができても、1か月の締め切りはなし
+Illustration: 規約の書類アイコンの隣に、カレンダーアイコンと大きな赤い
+バツ印。吹き出しに「申請義務なし」の短いラベル。
+Caption (small text below):
+規約が定められても1か月以内の申請義務はない
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+共有でも、全員そろわなくて大丈夫
+Illustration: 複数人のアイコン(共有者)が並ぶ中、一部の人物にだけチェック
+マークが付き、残りの人物はグレーアウトしている構図。書類アイコンに
+「申請」のラベル。
+Caption (small text below):
+共有建物でも共有者全員での申請が必須とは限らない
+
+--- COLUMN B, CARD 5 ---
+Heading (bold):
+他棟の名前まで、書く必要はありません
+Illustration: 甲棟と乙棟、2棟のアイソメトリックな建物アイコンを並べ、
+乙棟側の人物アイコンから氏名バッジへ伸びる矢印に大きな赤いバツ印。
+Caption (small text below):
+他棟の共用する区分所有者の氏名を申請情報に含める必要はない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay particular
+attention to 号・録・権・地・番・建・物・登・記・所・共・用・部・抵・当・証・
+規・約・棟 and redraw any character that renders as a Simplified Chinese
+variant. Confirm the number of cards equals 5 exactly, with no duplicated
+or missing cards, and that each heading/caption text matches the Japanese
+strings given above verbatim with no paraphrasing.
+```

@@ -80,3 +80,120 @@
 - 「多目的ビル」じゃ、種類として認められません
 - 塾でも、種類は「教習所」でいいんです
 - ガソリンスタンドは、そのまま「給油所」
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「どこに記録されるか」（ア・イ）と「何と表記できるか」（ウ・エ・オ）の2系統に分け、誤りの肢は本来正しいルールに直した5枚のカードで、建物の「種類」に関するルールを俯瞰する構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, floor
+plans, name plates/labels, gas station pumps, cram-school desks, movie
+theater screens, price tags with an "x" mark for rejected terms, etc. —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+following kanji, which have visibly different Simplified Chinese forms and
+must be drawn in their standard Japanese form: 種, 類, 録, 権, 建, 物, 登,
+記, 所, 場, 給, 実, 題.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の「種類」
+正しい決め方・記録のされ方
+
+Subtitle (smaller, centered, 1行):
+令和7年度　土地家屋調査士試験　午後の部　第12問
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A land and house surveyor character (isometric, flat design)
+holding a floor plan and a magnifying glass, standing next to a small
+isometric building with multiple floors of different uses.
+建物の「種類」は、あらかじめ定められた用語の中から実際の用途を的確に選び、
+区分建物では専有部分ごとに記録するものです。「どこに記録されるか」と
+「何と表記できるか」の2つの視点から整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+どこに記録されるか
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+「種類」は部屋ごと、建物全体じゃないんです
+Illustration: A cutaway isometric view of a multi-story condominium
+(区分建物). Each floor's individual unit (専有部分) has its own small
+name plate showing its own 種類 label (e.g. "店舗", "居宅"). The building's
+overall header/title block at the top (一棟の建物の表題部) has an empty
+or grayed-out slot where "種類" would go, with a small "×" mark, showing
+that the whole-building register does NOT carry a 種類 entry.
+Caption (small text below):
+一棟の建物の表題部には種類は記録されず、各専有部分の表題部にそれぞれの
+用途が記録される。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+消えるのは所有者情報、種類じゃありません
+Illustration: An isometric building room labeled "共用部分" (common area,
+e.g. a management room). Two name tags next to it — "所有者" and "権利"
+— are shown being erased (eraser icon or a red "×" over them). A third
+name tag showing "種類：管理人室" remains untouched and clearly intact.
+Caption (small text below):
+共用部分である旨の登記をする際、登記官が職権で抹消するのは表題部所有者の
+登記又は権利に関する登記であり、建物の種類に関する登記事項ではない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+何と表記できるか
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+「多目的ビル」じゃ、種類として認められません
+Illustration: An isometric 5-story building, each floor showing its actual
+use with a small icon: 1F food shop, 2-3F clothing shop, 4F game center,
+5F movie theater. Below the building, one name plate reads
+"店舗・遊技場・興行場" with a check mark, and a separate crossed-out
+("×") name plate reads "多目的ビル".
+Caption (small text below):
+建物の種類はあらかじめ定められた用語の組合せで実際の用途を列記するもので
+あり、抽象的な「多目的ビル」という表記は認められない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+塾でも、種類は「教習所」でいいんです
+Illustration: An isometric small building with desks and a chalkboard
+visible through a window (a private cram school, not a school under the
+School Education Act). A name plate on the building reads "教習所".
+Caption (small text below):
+学校教育法の適用を受けない学習塾などの施設は、規則113条の「その他適宜
+定める」枠により、種類を「教習所」と定めることができる。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+ガソリンスタンドは、そのまま「給油所」
+Illustration: An isometric gas station building with a canopy and fuel
+pumps. A name plate on the building reads "給油所".
+Caption (small text below):
+各種油類の販売・給油を目的とするガソリンスタンドの建物の種類は、
+不動産登記事務取扱準則80条に基づき「給油所」と定める。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 種, 類, 録, 権, 建, 物, 登, 記, 所, 場, 給, 実, 題. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the number of cards equals 5
+exactly (2 cards under column A, 3 cards under column B), with no
+duplicated or missing cards, and confirm the three-item name plate in
+Column B Card 1 reads exactly "店舗・遊技場・興行場" — three terms,
+in this order, no more and no fewer.
+```
