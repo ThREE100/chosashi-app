@@ -9,6 +9,7 @@ note-articles/
 ├── README.md               このファイル
 ├── format-template.md      note記事の執筆フォーマット(固定テンプレート、年度別の1問1答記事用)
 ├── generate-prompt.md      新しい問題の記事を生成するためのプロンプトテンプレート
+├── infographic-prompt-template.md  問題全体を俯瞰するインフォグラフィック(画像生成プロンプト)の作成ルール
 ├── bunya-kaisetsu/         分野別・総合解説記事(年度をまたいでテーマを横断的に扱う記事)
 │   ├── format-template.md         この folder 専用の執筆フォーマット
 │   ├── 00-seigen-koui-nouryoku-sougou.md 総合記事: 制限行為能力者を総整理
