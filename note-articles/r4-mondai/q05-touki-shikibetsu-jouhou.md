@@ -85,3 +85,140 @@
 - 調査士の証明請求、委任状はいらないんです
 - 証明請求はオンラインでもOKなんです
 - 官庁は「ほしい」と言わなきゃ通知されないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記識別情報について、誰に通知されるかという原則と、証明請求の手続に関するルールを、通知編3枚・証明請求編2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric sealed envelopes,
+official certificates, stamps/seals, ID code tags, government building
+icons, computer/network icons, prohibition marks — adapt icon set to
+the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 識・別・報・権・証・記・号・庁・処, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+共有の合筆
+識別情報は「二人ぶん」出るんです
+
+Subtitle (smaller, centered, 1行):
+登記識別情報を解説(令和4年度 午後の部 第5問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a
+document-shaped card with a 12-digit code tag labeled "登記識別情報" in
+the center, with a thin dotted line branching to a small sealed envelope
+icon labeled "通知" on one side and a small certificate/stamp icon
+labeled "証明" on the other side, showing the same 登記識別情報 is the
+subject of both notification and certification.
+登記識別情報は、いわば新しい「権利証」にあたる12桁の符号です。誰に・
+どのように通知されるのか、そして証明請求の手続はどうなるのかを整理
+します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+登記識別情報の通知に関する原則
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+法定代理人が申請したときは、代理人に通知される
+Illustration: An isometric scene showing a legal-guardian character
+(成年後見人) receiving a sealed envelope tagged "登記識別情報" from a
+registry official character, while a separate person icon labeled
+"成年被後見人" stands to the side with a small arrow crossed out
+pointing away from them, showing the notification goes to the
+representative, not to the person represented.
+Caption (small text below):
+登記識別情報は、その登記によって申請人自らが登記名義人となる場合に、
+その申請人に通知される。親権者・不在者財産管理人・成年後見人などの
+法定代理人が申請しているときは、法定代理人に通知される(不動産登記法
+21条、規則62条1項1号)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+共有名義の合筆は、A・Bそれぞれに通知される
+Illustration: An isometric diagram showing two adjacent land plots
+labeled "甲土地" and "乙土地", each with small tags "Ａ" and "Ｂ" shown
+as co-owners, merging into one plot, with two separate sealed envelopes
+tagged "登記識別情報" flying out toward two separate person icons
+labeled "Ａ" and "Ｂ", each receiving their own envelope.
+Caption (small text below):
+甲土地・乙土地がいずれもA・B共有で、A・Bが合筆の登記を申請したときは、
+AとBそれぞれに固有の登記識別情報が通知される。一方に通知すれば足りる
+わけではない(不動産登記法21条)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+官庁・公署は、希望の申出がなければ通知されない
+Illustration: An isometric government building icon (官庁・公署) with a
+sealed envelope tagged "登記識別情報" hovering above it crossed out by a
+prohibition mark, and beside it a second scene showing the same
+government building holding up a small paper labeled "通知希望の申出"
+with the envelope now arriving, showing notification only happens after
+the request is made.
+Caption (small text below):
+官庁又は公署が登記識別情報の通知を受けるべき者である場合には、あらか
+じめ通知を希望する旨の申出をした場合を除き、登記識別情報を通知する
+ことを要しない(規則64条1項4号かっこ書)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+登記識別情報の証明請求に関する手続
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+調査士の代理証明請求に、権限を証する情報は不要
+Illustration: An isometric scene showing a 土地家屋調査士 character at
+a registry counter holding up a small certificate labeled "職印証明書"
+toward a registry official, while a separate document labeled
+"委任状(代理人の権限を証する情報)" sits to the side crossed out with a
+prohibition mark, showing only the former is required.
+Caption (small text below):
+資格者代理人が登記識別情報に関する証明を代理で請求するときは、自分が
+登記申請の代理を業とできる者であることを証する情報(職印証明書等)を
+提供しなければならないが、代理人の権限を証する情報(委任状)を提供する
+必要はない(規則68条14項、平20.1.11民二57号)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+証明請求は、電子情報処理組織を使う方法でもできる
+Illustration: An isometric split scene: on one side a paper document
+labeled "証明請求情報を記載した書面" being handed across a registry
+counter, and on the other side a computer/network icon labeled
+"電子情報処理組織" sending the same request online, both arrows
+converging on a single registry building icon to show either method
+reaches the same registry.
+Caption (small text below):
+登記識別情報に関する証明の請求は、証明請求情報を記載した書面を登記所
+に提出する方法のほか、電子情報処理組織(オンライン)を使用して登記所に
+提供する方法によることもできる(規則68条3項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和4年度 午後の部 第5問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 識・別・報・権・証・記・号・庁・処. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 登記識別情報の通知に関する原則, 2 cards under 登記識別情報
+の証明請求に関する手続), with no duplicated or missing cards, and
+confirm every heading, illustration label, and caption text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
+```

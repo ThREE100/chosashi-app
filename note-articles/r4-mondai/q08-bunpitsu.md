@@ -81,3 +81,114 @@
 - 敷地の土地を分けても、区分所有者の承諾はいらないんです
 - 根抵当権の「仮登記」じゃ、共同担保目録は作られないんです
 - 報告的な分筆は、相続人ひとりでも申請できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+分筆の登記にともなう抵当権・買戻特約・敷地権・根抵当権仮登記・相続人による申請という5つの先例論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots being
+split, official seals/stamps, registration ledgers, document folders,
+torn paper labels — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・登・記・所・担・保・転・写・仮, which have Simplified
+Chinese look-alike forms with visibly different stroke shapes — always
+draw the standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+買戻特約は期間が過ぎても
+「転写」されるんです
+
+Subtitle (smaller, centered, 1行):
+土地の分筆の登記を解説(令和4年度 午後の部 第8問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a single
+land plot splitting into two smaller plots along a dotted cut line, with
+small tag icons for "抵当権", "買戻特約", "敷地権" hovering above the
+original plot and thin arrows showing some tags being carried onto the
+new plots and others not, to convey that a split land parcel must sort
+out how its attached rights are treated.
+分筆の登記は、土地を分けるだけの手続に見えて、その土地に付いている権利
+(抵当権・買戻特約・敷地権など)をどう処理するかが問われます。細かい先例が
+多い分野なので、一つずつ丁寧に確認しましょう。
+
+--- CARD 1 ---
+Heading (bold):
+抵当権消滅の承諾書に付ける印鑑証明書に、3か月の期限はない
+Illustration: An isometric hand holding out a document labeled "承諾書"
+together with a small seal-certificate card labeled "印鑑証明書", with a
+calendar icon crossed out by a red prohibition line next to the text
+"3か月" to show no such time limit applies.
+Caption (small text below):
+抵当権消滅の承諾書の印鑑証明書に3か月の期限はない（令19条）。
+
+--- CARD 2 ---
+Heading (bold):
+買戻特約は、期間が過ぎていても分筆後の土地に転写される
+Illustration: An isometric land plot labeled "甲土地" with a tag reading
+"買戻特約" and a faded calendar icon showing an expired date, splitting
+into two plots labeled "甲土地" and "乙土地", with an arrow copying the
+"買戻特約" tag onto the "乙土地" registry page despite the expired
+calendar.
+Caption (small text below):
+買戻特約は期間経過後でも分筆後の土地に転写される（昭44.3.11民甲407号）。
+
+--- CARD 3 ---
+Heading (bold):
+敷地権のある土地の分筆に、区分建物所有者の承諾書は不要
+Illustration: An isometric two-unit condominium building labeled "甲建物"
+and "乙建物" standing on a land plot labeled "丙土地" marked with a chain
+link icon for "敷地権", the land plot splitting in two, with a consent
+document icon labeled "承諾書" crossed out by a red prohibition line.
+Caption (small text below):
+敷地権のある土地の分筆に区分建物所有者の承諾は不要。
+
+--- CARD 4 ---
+Heading (bold):
+根抵当権設定の仮登記のある土地の分筆で、共同担保目録は作られない
+Illustration: An isometric land plot with a faded, dashed-outline stamp
+labeled "根抵当権設定の仮登記" splitting into two plots, with a ledger
+book icon labeled "共同担保目録" crossed out by a red prohibition line to
+show no new ledger is created.
+Caption (small text below):
+根抵当権設定の仮登記では共同担保目録は作成されない（昭48.11.14民三8526号）。
+
+--- CARD 5 ---
+Heading (bold):
+相続人の一人Dは、単独で一部地目変更分筆登記を申請できる
+Illustration: An isometric land plot with one portion changing color and
+icon from a house-shaped "宅地" symbol to a tree-shaped "山林" symbol to
+show a partial change of 地目, with two small heir character icons
+labeled "C" and "D" beside it, only the "D" character stepping forward
+alone to hand in an application document while the "C" character stands
+back without acting.
+Caption (small text below):
+相続人の一人が単独で一部地目変更分筆登記を申請できる（報告的登記）。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和4年度 午後の部 第8問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・登・記・所・担・保・転・写・仮. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

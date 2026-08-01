@@ -80,3 +80,142 @@
 - 附属が別の一棟の区分建物なら、その所在地番もいるんです
 - 取り壊して建て替えたら、それは「別の建物」って知ってた？
 - 主と附属を同時に壊しても、日付は二段書きしないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+附属建物に関する5つの肢のうち、誤りと判定された肢は正しいルールに直したうえで、敷地権・区分建物にまつわる原則3枚（ア・イ・ウ）、取壊し・滅失にまつわる原則2枚（エ・オ）の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, house
+icons, official stamps/seals, registry ledger books, application-form
+documents, arrows, prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+附属建物
+取り壊して建て替えたら、それは「別の建物」なんです
+
+Subtitle (smaller, centered, 1行):
+附属建物をめぐる合併・敷地権の記録・申請情報・取壊しの登記を整理(令和4年度 午後の部 第14問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a large
+house-shaped building icon labeled "主である建物", connected by a thin
+dotted line to a smaller house-shaped building icon labeled "附属建物",
+to show they are recorded together as one property.
+附属建物は、主である建物と効用上一体として使われる建物です。この問題は、
+附属建物をめぐる合併・敷地権の記録・申請情報・取壊しの登記など、実務的な
+処理をまとめて問うています。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+敷地権・区分建物に関する原則
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+非区分建物を敷地権付き区分建物の附属建物とする合併は、できる
+Illustration: An isometric scene contrasting two actions side by side.
+Left side: a land plot with a red "敷地権" seal and a prohibition
+(no-entry) mark over an arrow trying to merge it with another land plot,
+labeled "土地の合筆はできない". Right side: an isometric condominium
+building icon labeled "敷地権付き区分建物(甲建物)" with a smaller plain
+house icon labeled "区分建物でない乙建物" being merged into it via a
+green checkmark arrow, both now carrying small "敷地権" tags.
+Caption (small text below):
+敷地権である旨の登記がある「土地」の合筆はできませんが、敷地権が登記されて
+いる「区分建物」の合併はすることができます。なぜなら、附属建物の敷地権も
+登記できるため、公示を複雑にすることがないからです。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+主と附属が敷地権のある区分建物なら、敷地権を区別して記録する
+Illustration: An isometric registry ledger page (登記記録の表題部) inside
+a condominium building icon, showing two clearly separated labeled boxes:
+one reading "主である建物に係る敷地権" and another reading "附属建物に係る
+敷地権", divided by a thin ruled line to show they are recorded distinctly
+rather than combined.
+Caption (small text below):
+主である建物とその附属建物が、いずれも同一の一棟の建物に属する敷地権のある
+区分建物である場合には、登記記録の表題部には、主である建物に係る敷地権と、
+附属建物に係る敷地権とを区別して記録しなければなりません。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+附属建物が別の一棟の区分建物なら、その一棟の所在地番を書く
+Illustration: An isometric diagram showing a building icon labeled
+"甲建物(主である建物)" and, connected by a dotted line, a separate
+building icon labeled "乙建物(附属建物)" that sits inside its own
+"一棟の建物" outline. Beside it, an isometric application-form document
+icon titled "申請情報" with a checkmark next to a line reading "乙建物が
+属する一棟の建物の所在地番".
+Caption (small text below):
+附属建物が区分建物である場合、その附属建物が属する一棟の建物の物理的状況
+や敷地への権利関係を明らかにするため、一棟の建物の所在地番・構造・床面積・
+名称・敷地権などを、附属建物の構造欄に加えて記録します（不動産登記法44条
+1項5号ほか）。よって、乙建物が属する一棟の建物の所在地番を申請情報の内容
+とする必要があります。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+取壊し・滅失に関する原則
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+取り壊して建て替えた建物は「別物」なので、表示変更ではできない
+Illustration: An isometric scene showing an old house icon labeled
+"甲建物" being demolished (crumbling with dust particles) on a land plot,
+and beside it a new house icon of the same size labeled "丙建物" newly
+built on the same plot. A prohibition (no-entry) mark is placed over a
+direct arrow attempting to relabel "甲建物" straight into "丙建物"
+(表題部の変更の登記). Below, two small separate correct-process icons are
+shown instead: a "取壊し(滅失)" stamp icon and a "新築(表題登記)" stamp
+icon, connected by a green checkmark arrow to show they are separate
+procedures.
+Caption (small text below):
+甲建物を取り壊して、同じ土地に同じ床面積の丙建物を新築しても、甲建物と
+丙建物には同一性がありません。したがって、甲建物の主である建物の表示を
+丙建物の表示に変更する表題部の変更の登記を申請することはできません。
+この場合は、甲建物の取壊し・丙建物の表題登記・附属建物の合併といった
+手続を組み合わせることになります。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+主と附属が同時に取り壊されても、附属建物の日付は記録を要しない
+Illustration: An isometric registry ledger page for the 滅失登記 showing a
+single 登記原因欄 with one date entry reading "年月日主である建物取壊し", next to
+a small house icon labeled "附属建物" with no separate date tag attached.
+Beside it, a crossed-out (red X) duplicate entry reading "年月日附属建物
+取壊し" shows the incorrect double-date format that is not used.
+Caption (small text below):
+表題登記と異なり、滅失の登記では、附属建物が滅失した日が主である建物と
+異なっていても、附属建物の登記原因およびその日付欄の記録は要しません
+（不動産登記事務取扱手続準則101条）。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和4年度 午後の部 第14問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 敷地権・区分建物に関する原則, 2 cards under 取壊し・滅失に
+関する原則), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```

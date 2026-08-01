@@ -80,3 +80,130 @@
 - またがる建物は「床面積が多い方」から書くんです
 - 家屋番号は登記所が決める、自分では変えられないって知ってた？
 - 建物を引っ張って移動、届出はどっちの登記所でもOKなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の「所在」と「家屋番号」について、記録される場所と登記所の権限を、所在に関する原則3枚・家屋番号に関する原則2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, official stamps/seals, registry ledger books, location tags,
+arrows, checkmarks, prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+家屋番号は「登記所が決める」
+申請人は変えられないんです
+
+Subtitle (smaller, centered, 1行):
+建物の所在又は家屋番号に関する原則を整理(令和4年度 午後の部 第11問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a small
+isometric building, with one wooden tag reading "所在" pointing to the
+land plot it stands on, and a second wooden tag reading "家屋番号" attached
+to the building itself, connected by a thin dotted line to show both are
+basic information used to identify the building.
+建物の「所在」と「家屋番号」は、建物を特定するための基本情報です。どこに
+どう記録されるのか、誰が決めるのか、そして建物が動いたり土地にまたがったり
+したときの扱いを整理していきます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+建物の所在に関する原則
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+区分建物の非区分附属建物の所在は、「構造欄」に記録される
+Illustration: An isometric condominium unit (専有部分) cross-section with
+no 所在欄 field visible, a small storage/物置 building icon attached to it
+labeled "附属建物", and an arrow pointing from the 附属建物 icon into a
+labeled field reading "構造欄", showing the location is written there
+instead of a 所在欄.
+Caption (small text below):
+区分建物である甲建物に区分建物でない附属建物があるときは、その附属建物の
+所在は構造欄に記録される(不動産登記規則4条3項別表3)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+増築で土地にまたがったら、所在欄に地番を加える変更登記ができる
+Illustration: An isometric condominium building with a small ベランダ
+(veranda) extension icon on the 2nd floor crossing over a dotted land
+boundary line into a neighboring land plot, an arrow pointing from the
+neighboring plot's number tag into the building's "所在欄" list, and a
+checkmark icon confirming the addition is allowed.
+Caption (small text below):
+共用部分のベランダ増築で一棟が隣の土地にまたがった場合も、その地番を
+所在欄に加える変更登記を申請できる。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+またがる建物は「床面積の多い方」の地番を先に記録する
+Illustration: An isometric building straddling two adjacent land plots
+labeled "4番" and "6番", the "6番" plot shaded larger to show it holds
+more of the building's floor area, with an ordered tag list showing
+"6番地、4番地" and small number badges "1" and "2" marking the recording
+order.
+Caption (small text below):
+複数の土地にまたがる建物は、床面積の多い部分が存在する土地の地番を先に
+記録する。床面積の多い部分が6番の土地にあるときは、所在欄は「6番地、
+4番地」と記録される(準則88条2項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+建物の家屋番号に関する原則
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+合筆で所在地番が変わっても、家屋番号の変更登記は申請できない
+Illustration: An isometric scene of two land plots merging (合筆) beneath
+a building whose "家屋番号" tag stays unchanged, a hand holding a pen
+reaching toward the 家屋番号 tag with a prohibition (no-entry) mark over
+it, and a registry official stamp icon labeled "登記所" positioned as the
+one who determines the number instead.
+Caption (small text below):
+家屋番号は建物1個ごとに異なるもので、登記所が定める。土地の地番と同様、
+申請人が家屋番号を指定したり、その変更登記を申請したりすることはできない
+(不動産登記法45条)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+えい行移転後は、甲・乙どちらの登記所にも申請できる
+Illustration: An isometric building being dragged/pulled along the ground
+(えい行移転) across a dotted boundary line from an area labeled "甲登記所"
+into an area labeled "乙登記所", with two registry office icons on either
+side of the boundary, each connected to the building by an arrow and a
+checkmark, showing either office can accept the 変更登記 application.
+Caption (small text below):
+表題登記がある建物がえい行移転により甲登記所の管轄区域から乙登記所の
+管轄区域に移動した場合、当該建物の不動産所在事項に関する変更の登記の
+申請は、甲登記所又は乙登記所のいずれにもすることができる(準則4条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和4年度 午後の部 第11問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 建物の所在に関する原則, 2 cards under 建物の家屋番号に関する
+原則), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
