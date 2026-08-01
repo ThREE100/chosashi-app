@@ -87,7 +87,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「本人・代理人・相手方」の三者関係を軸に、復代理（ア）・代理人の資格（イ）・表見代理（ウ）・顕名（エ）・無権代理の追認（オ）という5つの論点それぞれの「正しいルール」を1枚のカードにまとめ、全体を俯瞰できる構成にした（誤りと判定されたウ・オも、誤った記述ではなく本来正しいルールとして図解している）。
+復代理（ア）・代理人の資格（イ）・表見代理（ウ）・顕名（エ）・無権代理の追認（オ）という5つの論点それぞれの「正しいルール」を、通し番号バッジ＋短い見出し＋図解＋結論タグの4要素のみで構成するカードにまとめた（誤りと判定されたウ・オも、誤った記述ではなく本来正しいルールとして図解している）。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトルの直後にカード群を続ける。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -96,6 +96,17 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric people figures,
 briefcases, contracts, speech bubbles, stamps, torn tickets, doors,
 timelines, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -116,75 +127,78 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和3年度　午後の部　第1問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: isometric scene of three figures forming a triangle — 本人(A)
-on the left, 代理人(B) in the center, 相手方(C) on the right — connected by
-labeled arrows: A→B labeled "代理権", B→C labeled "意思表示", and a dashed
-arrow from A to C labeled "契約の効果".
-代理の分野は、「代理人をさらに立てられるのか（復代理）」「代理人自身の資格は問われるのか」「権限を越えた行為の責任は誰が負うのか（表見代理）」「代理権のない者がした契約はどう処理されるのか（無権代理）」という論点を、条文と判例の趣旨に沿って正確に区別できているかが問われます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 代理人を選ぶ・務める場面
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-やむを得ないときは、許諾なしで復代理OKなんです
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+やむを得ない事由で許諾不要
 Illustration: isometric scene where 本人(A) is shown lying in bed as a
-sick/unavailable icon, with a speech bubble containing "許諾" crossed out
-by a red X; 代理人(B) stands nearby holding a briefcase and hands a small
+sick/unavailable icon, with a speech bubble containing 許諾 crossed out
+by a red ✕; 代理人(B) stands nearby holding a briefcase and hands a small
 key/badge to a second figure, 復代理人(B2), who steps forward to continue
-the work; a small hospital-cross icon indicates the "やむを得ない事由".
-Caption (small text below):
-やむを得ない事由があれば本人の許諾なく復代理人を選任できる（104条）
+the work; a small hospital-cross icon next to A labeled やむを得ない事由.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+許諾なしで選任可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-代理人が未成年でも、それだけじゃ取り消せない
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+未成年でも代理行為は有効
 Illustration: isometric scene of a young figure, 代理人(B), wearing a
-ribbon/name tag labeled "未成年", standing between 本人(A) and 相手方(C),
+ribbon/name tag labeled 未成年, standing between 本人(A) and 相手方(C),
 holding a signed contract that passes intact from B to C; a torn-ticket
-icon labeled "取消" is crossed out with a red X to show the contract
-cannot be voided for this reason.
-Caption (small text below):
-代理人が未成年者でも、行為能力の制限を理由に取消しはできない（102条本文）
+icon labeled 取消 is crossed out with a red ✕ next to B, showing the
+contract cannot be voided for this reason.
+Conclusion tag (green, 5-15 Japanese characters):
+取消しの理由にならない
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 代理人の行為の効果をめぐる場面
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-本人に過失がなくても、表見代理の責任は負うって知ってた？
+Badge: a filled circle in blue containing the number 3 (numbers continue
+from column A — do not restart at 1).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+本人に過失なくても表見代理
 Illustration: isometric scene showing 代理人(B) stepping past a dashed
-boundary line labeled "権限" while making a deal with 相手方(C); C holds a
-checkmark icon labeled "正当な理由"; 本人(A) stands to the side with a
-clean checkmark labeled "過失なし", yet a solid arrow still connects A to
-the contract, labeled "責任を負う", showing A remains responsible despite
-having no fault.
-Caption (small text below):
-表見代理は相手方の正当な理由で成立し、本人の過失は要件でない（110条）
+boundary line labeled 権限 while making a deal with 相手方(C); C holds a
+checkmark icon labeled 正当な理由; 本人(A) stands to the side with a clean
+checkmark labeled 過失なし, yet a solid arrow still connects A to the
+contract, labeled 責任を負う, showing A remains responsible despite having
+no fault.
+Conclusion tag (blue, 5-15 Japanese characters):
+過失は要件でない
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-名乗らなきゃ、その契約は代理人自身のものになるんです
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+顕名なければ代理人自身の行為
 Illustration: two-part isometric scene. Left half: 代理人(B) makes a deal
-with 相手方(C) without any name tag (no "顕名"), and the contract arrow
+with 相手方(C) without any name tag (no 顕名), and the contract arrow
 points to B himself. Right half: the same scene but with a small
-thought-bubble over C containing a checkmark labeled "知っていた／知り得た",
+thought-bubble over C containing a checkmark labeled 知っていた／知り得た,
 and the contract arrow redirected to point to 本人(A) instead.
-Caption (small text below):
-顕名なき意思表示は原則代理人自身のもの、相手方が悪意・有過失なら本人に帰属（100条）
+Conclusion tag (blue, 5-15 Japanese characters):
+悪意なら本人に帰属
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-追認したあとは、相手方はもう取り消せないんです
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+追認後は取消しできない
 Illustration: isometric three-stage timeline. Stage 1: 代理人(B) makes an
-unauthorized contract with 相手方(C), labeled "無権代理". Stage 2: an open
-door icon labeled "追認前" with C still holding a usable "取消" ticket.
-Stage 3: a closed door with a padlock icon labeled "追認後" and the same
-"取消" ticket now crossed out with a red X, showing C can no longer
-withdraw.
-Caption (small text below):
-無権代理の相手方の取消権は本人の追認前まで、追認後は取り消せない（115条本文）
+unauthorized contract with 相手方(C), labeled 無権代理. Stage 2: an open
+door icon labeled 追認前 with C still holding a usable 取消 ticket. Stage
+3: a closed door with a padlock icon labeled 追認後 and the same 取消
+ticket now crossed out with a red ✕, showing C can no longer withdraw.
+Conclusion tag (blue, 5-15 Japanese characters):
+追認前のみ取消し可
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -194,5 +208,9 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay special
 attention to 権 and 認. If any character renders as a Simplified Chinese
 variant, redraw that character in the correct Japanese form. Confirm the
-number of cards equals 5 exactly, with no duplicated or missing cards.
+number of cards equals 5 exactly, with no duplicated or missing cards,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence
+of explanatory prose — every card's takeaway must read as a short
+heading + a short conclusion tag, at a glance.
 ```

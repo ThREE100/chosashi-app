@@ -104,15 +104,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-法定相続分の算定(ア・イ)と、遺産共有・対抗要件・遺言による承継(ウ・エ・オ)という2系統の論点を2列5枚のカードで俯瞰できる構成にした。
+法定相続分の算定(ア・イ)と、遺産共有・対抗要件・遺言による承継(ウ・エ・オ)という2系統の論点を2列5枚のカードで俯瞰できる構成にした。導入ブロックは置かず、タイトル・サブタイトル直後にカード群を続ける。ウの原則(遺産共有の解消は共有物分割ではなく遺産分割による)のみを図解し、民法258条の2による10年経過後の例外は正解に影響しないためカード化しない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric family trees, houses,
-official seals/stamps (登記印), court buildings, scrolls for wills, torn
-paper labels, etc. — adapt icon set to the topic).
+official seals/stamps, court buildings, scrolls for wills, pie charts,
+torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -122,7 +133,7 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to kanji
 that are easily confused with Simplified Chinese variants and appear in
-this text, including 号, 権, 継, 承, 登, 記, 対, 抗, 議, 養, 資, 格, 効 —
+this text, including 続, 産, 対, 抗, 登, 記, 議, 養, 資, 格, 継, 承 —
 render each in standard Japanese (Jōyō) form, never in Simplified Chinese
 form.
 
@@ -134,82 +145,76 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和3年度 午後の部 第3問／誤っているのはウとオ(正解：選択肢4番)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene of a professor figure and a student
-figure facing each other with speech bubbles labeled ア・イ・ウ・エ・オ
-floating between them, a simple family-tree diagram icon in the
-background.
-対話形式の問題だが、実質は学生の解答ア〜オを一つずつ○×判定していくだけ。
-誤りはウとオの二つに絞られる。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 法定相続分の算定
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-配偶者と兄弟姉妹、相続分は4分の3対4分の1
-Illustration: An isometric pie chart split into two unequal slices
-labeled「配偶者　4分の3」と「兄弟姉妹　4分の1」、隣に配偶者と兄のアイコン、
-背景に小さな家のアイコン。
-Caption (small text below):
-配偶者と兄弟姉妹が相続人になるときは、配偶者の相続分が4分の3、兄弟姉妹の
-相続分が4分の1となります(民法900条3号)
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+兄弟姉妹の相続分は4分の1
+Illustration: An isometric pie chart split into two unequal slices, a
+large slice with a spouse figure icon and a short label「配偶者」next to
+it, a small slice with a brother figure icon and a short label「兄弟姉妹」
+next to it, a small house icon in the background.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+取り分は4分の1
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-代襲相続人と養子、二つの資格の相続分は合算する
-Illustration: An isometric figure standing at the point where two paths
-merge into one, one path labeled「代襲者の資格」もう一方が「Ｙの養子の資格」、
-合流した先に「3分の2」というラベル。
-Caption (small text below):
-同じ人が「代襲相続人」と「子(養子)」という二つの資格を同時に持つときは、
-それぞれの資格に応じた相続分を合算して取得できるとされています
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+代襲と養子の資格は合算できる
+Illustration: An isometric figure standing where two paths merge into
+one, one path with a short label tag「代襲者」, the other path with a
+short label tag「養子」, the merged path leading to a name-tag label
+「3分の2」on the figure.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+合算して3分の2
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 遺産共有・対抗要件・遺言による承継
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-遺産共有の解消は、共有物分割ではなく遺産分割で
-Illustration: An isometric house shared by two owner icons, with an arrow
-marked with a red X pointing toward a building labeled「地方裁判所
-(共有物分割)」、別の矢印がチェックマーク付きで「家庭裁判所(遺産分割)」の
-建物を指す。下部に小さなパステルカラーの帯(バッジ)で
-「例外：相続開始から10年経過後は、民法258条の2により通常の共有物分割
-請求でも解決できる場合がある」と表示。
-Caption (small text below):
-相続によって複数の相続人が不動産を共有している状態(遺産共有)を解消するに
-は、地方裁判所に共有物分割請求の訴えを起こすのではなく、家庭裁判所に対し
-て遺産分割を請求すべきものとされています(最判昭和50年11月7日)。なお、
-令和5年4月1日に施行された民法258条の2により、相続開始の時から10年を経
-過したときは、相続人が遺産分割の請求をした上で異議を申し出た場合を除き、
-通常の共有物分割請求によって遺産共有持分も解決できるようになりました
-
---- COLUMN B, CARD 2 ---
-Heading (bold):
-法定相続分を超える取得は、登記がなければ対抗できない
-Illustration: An isometric scene showing a house split down the middle,
-one sibling holding an official registration stamp/document labeled
-「登記」standing on the left half, the other sibling handing a document
-to a third-party figure on the right half with a label「対抗できない」
-near the unregistered left side。
-Caption (small text below):
-相続による権利の承継のうち、法定相続分を超える部分については、遺産分割
-によるものかどうかを問わず、登記その他の対抗要件を備えなければ第三者に
-対抗することができません(民法899条の2第1項)
-
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-「相続させる」旨の遺言は、死亡と同時に直ちに承継される
-Illustration: An isometric scroll/will document labeled「甲不動産を
-Ｇに相続させる」with a direct arrow flowing from a deceased figure straight
-to an heir figure, bypassing a small crossed-out icon of a courthouse
-labeled「遺産分割の協議・審判」。
-Caption (small text below):
-特定の遺産を特定の相続人に「相続させる」旨の遺言は、遺贈と解すべき特段
-の事情がない限り、その財産を当該相続人に単独で相続させる遺産分割方法の
-指定と解されます(最判平成3年4月19日)。その結果、その遺産は遺産分割の
-協議や審判を経ることなく、被相続人の死亡と同時にその相続人へ帰属します
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+遺産共有の解消は遺産分割で
+Illustration: An isometric house shared by two owner figure icons, an
+arrow with a red ✕ mark pointing toward a small courthouse building
+icon labeled「共有物分割」, a second arrow with a green ✓ checkmark
+pointing toward another courthouse building icon labeled「遺産分割」.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+共有物分割は不可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+相続分超える取得は登記が必要
+Illustration: An isometric house split down the middle, the left half
+with an owner figure holding a registration stamp/document labeled
+「登記」next to a green ✓ checkmark, the right half with a document
+being handed from another owner figure to a third-party figure, a red
+✕ mark and a short label「対抗不可」next to the unregistered side.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+登記なければ対抗不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+相続させる遺言は死亡時に承継
+Illustration: An isometric scroll/will document icon labeled「相続させる」
+with a direct arrow flowing straight from a deceased figure to an heir
+figure, bypassing a small crossed-out courthouse icon (with a red ✕
+mark) labeled「遺産分割」.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+分割協議は不要
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -219,6 +224,8 @@ standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly
 (2 cards in Column A, 3 cards in Column B), with no duplicated or missing
-cards, and confirm all Japanese text strings match the verbatim text
-given above exactly, with no substitutions or omissions.
+cards, confirm there is no intro illustration or paragraph block between
+the header and the cards, and confirm that no card contains a full
+sentence of explanatory prose or legal citation — every card's takeaway
+must read as a short heading + a short conclusion tag, at a glance.
 ```

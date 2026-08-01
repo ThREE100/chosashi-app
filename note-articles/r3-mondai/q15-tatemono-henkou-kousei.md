@@ -88,7 +88,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物表題部の「変更」と「更正」の使い分けを、更正登記の基本ルールを示す2枚のカードと、変更・更正が絡む応用ケースを示す3枚のカードの計5枚で俯瞰する構成。
+建物表題部の「変更」と「更正」の使い分けを、更正登記の基本ルールを示す2枚のカードと、変更・更正が絡む応用ケースを示す3枚のカードの計5枚で俯瞰する構成。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトルの直後にカード群を続ける。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -97,6 +97,17 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -104,9 +115,10 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-characters 号・録・権・建・物・登・記・所, which appear repeatedly below
-and have forms that differ significantly from their Simplified Chinese
-counterparts — render them in their standard Japanese (Jōyō) form only.
+characters 号・録・権・建・物・登・記・所・更・変, which appear repeatedly
+below and have forms that differ significantly from their Simplified
+Chinese counterparts — render them in their standard Japanese (Jōyō) form
+only.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -116,62 +128,88 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和3年度　午後の部　第15問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 建物の断面図イラスト。左半分に「変更」のラベルが付いた家(増築中の2階部分に足場と新しい壁のアイコン)、右半分に「更正」のラベルが付いた登記記録の書類と、誤りを正す赤ペンのアイコン。中央に「変更」と「更正」を分ける縦の点線。
-建物の表題部を直す登記には「変更の登記」と「更正の登記」の2種類があります。増築のように登記後に事実が動いたのなら「変更」、そもそも最初の登記が間違っていたのなら「更正」——この使い分けが土台になり、そこに附属建物や区分建物という応用が乗ってくる分野です。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 更正登記の基本
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-表題部所有者も、更正の登記を申請できる
-Illustration: 表題部所有者を表す人物が、庭先の物置(附属建物)の登記記録カードにある「新築の年月日」の誤った日付を、赤ペンで正しい日付に書き直しているアイソメトリックイラスト。物置には「附属建物」のラベル。
-Caption (small text below):
-表題部所有者又は所有権の登記名義人は、表示に関する登記事項の更正の登記を申請できる(不動産登記法53条1項、27条)。
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+表題部所有者も更正を申請できる
+Illustration: 表題部所有者を表す人物が、庭先の物置(附属建物)の登記記録カードにある「新築の年月日」の誤った日付を、赤ペンで正しい日付に書き直しているアイソメトリックイラスト。物置には「附属建物」の名前タグ、書類には「更正」の丸いスタンプを埋め込む。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+所有者本人が申請可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-附属建物の更正は、記録の全部を書き換える
-Illustration: 附属建物の登記記録カードのイラスト。「種類・構造・床面積」が書かれた古い記録カードに大きく×印がついて抹消され、その隣に「更正後の種類・構造・床面積の全部」と書かれた新しい記録カードが並ぶ構図。符号のラベルだけはそのまま残す。
-Caption (small text below):
-附属建物の変更・更正の登記をするときは、更正後の種類、構造及び床面積の全部を記録し、符号を除いた従前の登記事項の全部を抹消する(不動産登記事務取扱準則94条1項)。
+Badge: a filled circle in green containing the number 2 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+附属建物の更正は全部書き換え
+Illustration: 附属建物の登記記録カードのイラスト。「種類・構造・床面積」が書かれた古い記録カードに大きな×印がついて抹消され、その隣に「更正後の全部」という名前タグが付いた新しい記録カードが並ぶ構図。符号のラベルだけはそのまま残す。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+従前事項は全部抹消
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 変更と更正の使い分け(応用編)
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-増築と誤りが混ざるときは「変更及び更正」
-Illustration: 1つの建物のイラスト。2階部分に「増築＝変更」のラベル、1階部分に「床面積の誤り＝更正」のラベルを付ける。その下に申請書のイラストを描き、目的欄に大きく「建物の表題部の変更及び更正の登記」と記載する構図。
-Caption (small text below):
-増築による変更と、既存部分の誤りの更正が混在する場合、登記の目的は「建物の表題部の変更及び更正の登記」とすべきである。
-
---- COLUMN B, CARD 2 ---
-Heading (bold):
-一棟の更正は、他の区分建物にも職権で及ぶ
-Illustration: マンションを表す一棟の建物のイラスト。101号室の住民が一棟の建物の表題部の更正登記を申請している矢印の先で、102号室にも自動的に「職権で更正」という稲妻マークが伸びている構図。101号室から102号室へ向かう「代位申請」というラベルの矢印には大きく×印を重ねる。
-Caption (small text below):
-区分建物の一棟の建物の表示に関する登記事項の更正は、他の区分建物にも更正の効力が及び、登記官の職権でされる。他の区分建物の名義人に代位して申請することはできない(不動産登記法53条2項、51条5項)。
-
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-誤った滅失登記は、更正ではなく回復で正す
-Illustration: 附属建物B(物置)のイラストが消しゴムで消されている場面(誤って滅失の登記がされた状態)から、矢印でその建物が元通り書き戻される場面へとつながる構図。隣に「更正の登記」のアイコンを描き、大きく×印を重ねて使わない手続であることを示す。
-Caption (small text below):
-現存する附属建物が誤って滅失の登記をされた場合は、更正の登記ではなく、錯誤による記録の回復によって是正する。
+Badge: a filled circle in blue containing the number 3 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+増築と誤りは変更及び更正で
+Illustration: 1つの建物のイラスト。2階部分に「増築＝変更」の名前タグ、1階部分に「誤り＝更正」の名前タグを付ける。その下に申請書のイラストを描き、目的欄に大きく「変更及び更正の登記」と埋め込む構図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+目的は変更及び更正
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+他の区分建物へ職権で更正
+Illustration: マンションを表す一棟の建物のイラスト。101号室の住民が更正登記を申請している矢印の先で、102号室にも自動的に「職権で更正」という稲妻マークが伸びている構図。101号室から102号室へ向かう「代位申請」という名前タグの矢印には大きな×印を重ねる。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+代位申請は不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in blue containing the number 5 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+誤った滅失登記は回復で正す
+Illustration: 附属建物B(物置)のイラストが消しゴムで消されている場面(誤って滅失の登記がされた状態)から、矢印でその建物が元通り書き戻される場面へとつながる構図。隣に「更正の登記」のアイコンを描き、大きな×印を重ねて使わない手続であることを示す。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+更正ではなく回復
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Pay especially
-close attention to 号・録・権・建・物・登・記・所 and confirm none of
-them has drifted into a Simplified Chinese variant; if any character
+close attention to 号・録・権・建・物・登・記・所・更・変 and confirm none
+of them has drifted into a Simplified Chinese variant; if any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly
 (2 cards in the "更正登記の基本" column, 3 cards in the "変更と更正の
-使い分け(応用編)" column), with no duplicated or missing cards, and
-confirm every heading and caption string matches the Japanese text given
-above verbatim.
+使い分け(応用編)" column), with no duplicated or missing cards, confirm
+there is no intro illustration or paragraph block between the header and
+the cards, and confirm that no card contains a full sentence of
+explanatory prose — every card's takeaway must read as a short heading + a
+short conclusion tag, at a glance.
 ```

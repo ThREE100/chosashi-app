@@ -87,14 +87,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「誰が申請できるか」「途中で所有者・相続人が変わったらどうなるか」「誰が資料を閲覧できるか」という3つの視点で、筆界特定の5肢すべてを1枚に俯瞰できる構成にした。
+「誰が申請人になれるか」「途中で所有者・相続人が変わったらどうなるか」「誰が資料を閲覧できるか」という3つの視点で、筆界特定の5肢すべてを通し番号カードで俯瞰できる構成にした（導入イラスト・導入文のブロックはなし、タイトル・サブタイトルの直後からカード群が始まる）。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots, a
+surveyor-official figure, document forms, a filing cabinet, a meeting-
+room door, a relay baton, torn paper labels, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -116,83 +129,77 @@ Subtitle (smaller, centered, 2行):
 令和3年度 午後の部 第19問
 申請人・地位承継・資料閲覧の3つの視点
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Two adjacent isometric land plots labeled 甲土地 and
-乙土地 with a dotted boundary line between them, and a small figure
-of a 筆界特定登記官 (surveyor official) with a measuring tool standing
-on the boundary line, pointing at it.
-筆界特定は、隣の土地との「本来の境界（筆界）」を、筆界特定登記官に判断して
-もらう手続です。「誰が申請できるのか」「途中で所有者が変わったらどうなるの
-か」「関係のない抵当権者まで資料を見られるのか」という、手続の入口と参加者
-のルールを、3つの視点から整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 誰が申請人になれるか
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-所有権を取得しても、移転登記を経なければ申請人になれない
-Illustration: An isometric figure holding a 売買契約書 (sale contract)
-document tries to hand a 筆界特定の申請 form over a counter, but a red
-barrier/X blocks it; next to the counter a signpost labeled
-所有権移転登記 points to the correct required step. In the background,
-two land plots 甲土地・乙土地 with a boundary line between them.
-Caption (small text below):
-所有権を取得しても、移転登記を経なければ申請人になれない（不動産登記法131条）
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+移転登記前は申請人になれない
+Illustration: An isometric figure holding a 売買契約書 document tries to
+hand a 筆界特定の申請 form over a counter, but a red barrier with a large
+✕ mark blocks it; next to the counter a signpost labeled 所有権移転登記
+points to the correct required step. In the background, two land plots
+labeled 甲土地・乙土地 with a dotted boundary line between them.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+移転登記が先
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-表題部所有者も筆界特定の申請人になれる
-Illustration: An isometric figure labeled 表題部所有者 stands at the
-same counter, handing over a 表題登記 document; the form on the
-counter is stamped with a green checkmark. In the background, the
-same two land plots 甲土地・乙土地 with a boundary line between them.
-Caption (small text below):
-表題登記がある甲土地の表題部所有者は、隣接する乙土地との筆界について
-筆界特定の申請をすることができる（不動産登記法131条）
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+表題部所有者も申請人になれる
+Illustration: An isometric figure labeled 表題部所有者 stands at the same
+counter, handing over a 表題登記 document; the form on the counter is
+stamped with a large green ✓ checkmark. In the background, the same two
+land plots labeled 甲土地・乙土地 with a dotted boundary line between them.
+Conclusion tag (green, 5-15 Japanese characters):
+申請人になれる
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 途中で所有者・相続人が変わったら
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-地位承継の申出があれば、申請は却下されず手続はそのまま続行される
-Illustration: A relay-race baton-pass scene: an isometric figure
-labeled 元の所有者（申請人） hands a baton labeled 申請人の地位 to a
-second isometric figure labeled 新しい所有者（特定承継人）, on a track
-that continues forward without stopping. Land plot icons 甲土地・乙土地
-in the background.
-Caption (small text below):
-対象土地が売却され新たな所有権の登記名義人になった者から地位承継の申出が
-あった場合、筆界特定の申請は却下されず手続は続行される
-（平成17年12月6日民二第2760号通達）
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地位承継しても手続は続行
+Illustration: A relay-race baton-pass scene: an isometric figure labeled
+元の所有者 hands a baton labeled 申請人の地位 to a second isometric figure
+labeled 新しい所有者, on a track marked with a green ✓ that continues
+forward without a stop sign. Land plot icons 甲土地・乙土地 in the
+background.
+Conclusion tag (blue, 5-15 Japanese characters):
+却下されない
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-相続人は移転登記をしなくても、相続を証する情報で期日に出席できる
-Illustration: An isometric figure labeled 相続人 holds a document
-labeled 相続を証する情報 (with a small 戸籍 icon) and walks toward a
-meeting-room door labeled 意見聴取等の期日; a small crossed-out icon of
-相続登記 shows that registration is not required first.
-Caption (small text below):
-相続による所有権の移転登記をすることなく、相続を証する情報を提供して
-意見聴取等の期日に出席することができる
-（平成17年12月6日民二第2760号通達）
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+相続人は登記なしで期日出席
+Illustration: An isometric figure labeled 相続人 holds a document labeled
+相続を証する情報 (with a small 戸籍 icon) and walks toward a meeting-room
+door labeled 意見聴取等の期日; beside the figure a small crossed-out icon
+labeled 相続登記 with a ✕ mark shows that registration is not required
+first.
+Conclusion tag (blue, 5-15 Japanese characters):
+相続登記は不要
 
---- COLUMN C HEADER (pill-shaped badge) ---
+--- COLUMN C HEADER (pill-shaped badge, color: orange) ---
 誰が資料を閲覧できるか
 
 --- COLUMN C, CARD 5 ---
-Heading (bold):
-提出資料を閲覧できるのは申請人と関係人に限られ、抵当権者は含まれない
-Illustration: A filing cabinet labeled 提出資料 with two isometric
-figures labeled 申請人 and 関係人 standing beside it with green
-checkmarks, allowed to look inside; a third isometric figure labeled
-抵当権者 stands outside a red barrier/X, unable to approach.
-Caption (small text below):
-筆界特定の資料を閲覧することができるのは申請人及び関係人に限られ、
-甲土地の抵当権の登記名義人は閲覧請求権者に含まれない
-（不動産登記法141条1項）
+Badge: a filled circle in orange containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+抵当権者は資料を閲覧不可
+Illustration: A filing cabinet labeled 提出資料 with two isometric figures
+labeled 申請人 and 関係人 standing beside it, each with a green ✓ mark,
+allowed to look inside; a third isometric figure labeled 抵当権者 stands
+outside a red barrier with a ✕ mark, unable to approach.
+Conclusion tag (orange, 5-15 Japanese characters):
+申請人・関係人のみ
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -201,7 +208,12 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, and confirm the three column
-labels (誰が申請人になれるか／途中で所有者・相続人が変わったら／
-誰が資料を閲覧できるか) each appear exactly once above their cards.
+with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance. Also confirm the three column labels (誰が申請人になれ
+るか／途中で所有者・相続人が変わったら／誰が資料を閲覧できるか) each
+appear exactly once above their own cards, in the correct color for
+their column.
 ```

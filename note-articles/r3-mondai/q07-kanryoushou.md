@@ -86,7 +86,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-登記完了証の5肢を「記録される事項」と「通知の方法・期限」の2系統に分け、正しいルールだけを5枚のカードで俯瞰できる構成にした。
+登記完了証の5肢を「記録される事項」（列A・緑）と「通知の方法・期限」（列B・青）の2系統に分け、正しいルールだけを通し番号1〜5の5枚のカード（番号バッジ＋短い見出し＋図解＋結論タグ）で俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトルの直後にカード群を続ける。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -95,6 +95,17 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric government office
 buildings, document sheets with stamps, torn paper labels, calendars,
 phone icons with a cross mark, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -116,50 +127,61 @@ Subtitle (smaller, centered, 2行):
 記録事項・通知方法・電子申請の落とし穴
 （令和3年度 午後の部 第7問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 登記所を表すアイソメトリックな建物から、係員が登記完了証の書面を申請人らしき人物に手渡している構図。
-登記完了証は、登記が終わったことを申請人に知らせるために交付・通知される書面です。「何が記録されるのか」「複数人で申請したときは誰に通知するのか」「電子申請ではいつまで放置すると受け取れなくなるのか」という3つの角度から、不動産登記規則181条・182条の細かい規律が問われます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 登記完了証に「記録される事項」
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-登記完了証に、電話番号などの連絡先は記録されない
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+電話番号などの連絡先は記録されない
 Illustration: 登記完了証の書面をアイソメトリックに図解し、書面の中に「登記の目的」「不動産の表示」といった記録事項のリストを並べる。書面の外側に電話の受話器アイコンを描き、その上に大きな赤い×印を重ねる。
-Caption (small text below):
-電話番号その他の連絡先は登記完了証の記録事項ではない（規則181条2項）
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters):
+連絡先は記録事項外
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-新たに共同担保目録を作ったときは、その記号・目録番号が記録される
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+共同担保目録作成時は記号・番号を記録
 Illustration: 1つの土地が分筆線で2つの土地に分かれるアイソメトリック図解。分かれた土地から矢印が伸びて、新しく作られた共同担保目録のカードにつながり、そのカードに「記号」「目録番号」というラベルを大きく表示する。
-Caption (small text below):
-新たに共同担保目録を作成したときは記号・目録番号を記録（規則181条2項5号）
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters):
+記号・目録番号を記録
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-建物に名称があるときは、その名称も記録される
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+建物に名称があれば記録される
 Illustration: 「〇〇マンション」という名称プレートが掲げられたアイソメトリックな建物のイラスト。建物から矢印が伸びて、登記完了証の書面にも同じ「〇〇マンション」という名称が書き写されている様子を描く。
-Caption (small text below):
-建物の名称があるときはその名称を記録（規則181条2項4号、法44条1項4号）
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters):
+名称も記録対象
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 通知の方法・期限
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-申請人が複数いても、そのうちの一人に通知すれば足りる
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously across all columns — do not restart at 1 in this column).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+申請人複数でも一人に通知で足りる
 Illustration: 土地を共有する親子3人をアイソメトリックに描き、そのうち代表者1人にだけ登記完了証の書面が手渡される矢印を描く。残る2人には矢印を伸ばさず、控えめに立たせる。
-Caption (small text below):
-申請人が複数でも、一人に通知すれば足りる（規則182条）
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters):
+代表一人に通知
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-電子申請では、送信可能時から「30日」で通知を要しないとされる（3か月ではない）
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+電子申請の放置は30日で通知不要
 Illustration: パソコン画面とファイルアイコンをアイソメトリックに描き、その横に大きなカレンダーを配置して「30日」という数字を大きく強調表示する。カレンダーの下に「3か月」という文字を小さく描き、その上に赤い×印を重ねる。
-Caption (small text below):
-期間は3か月ではなく30日、効果も「廃棄」ではなく「通知を要しない」
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters):
+30日で通知不要
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -169,6 +191,10 @@ standard Japanese (Jōyō) form, not Simplified Chinese, especially for
 号・録・権・地・番・建・物・登・記・所. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, and that no card states the original wrong description
-（電話番号が記録される／3か月で廃棄される、など）as if it were correct.
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose or states the original wrong
+description（電話番号が記録される／3か月で廃棄される、など）as if it were
+correct — every card's takeaway must read as a short heading + a short
+conclusion tag, at a glance.
 ```

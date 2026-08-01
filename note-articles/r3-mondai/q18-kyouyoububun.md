@@ -89,7 +89,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「申請人・添付情報のルール」と「団地共用部分特有のルール」の2列構成で、共用部分である旨の登記・団地共用部分である旨の登記をめぐる5つの手続ルールを1枚で俯瞰できるようにした。
+「申請人・添付情報のルール」と「団地共用部分特有のルール」の2列構成で、共用部分である旨の登記・団地共用部分である旨の登記をめぐる5つの手続ルールを1枚で俯瞰できるようにした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群を始める。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -97,6 +97,17 @@ clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -117,81 +128,74 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 申請人・添付情報・期限を正しく押さえる
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric apartment building with one room highlighted
-in blue as a shared management office (管理人室). A magnifying glass
-hovers over a registration document icon beside the building, with a
-small stamp icon and a key icon nearby.
-マンションの管理人室や集会室のような「みんなで使う部屋」を登記簿上で示す
-のが共用部分である旨の登記、団地内の建物全棟で共用するときは団地共用部分
-である旨の登記です。「誰が申請できるか」「規約の証明情報は省けるか」「い
-つまでに申請するか」という手続の骨格を正確に押さえることが得点につなが
-ります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-申請人・添付情報のルール（共用部分である旨の登記）
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請人・添付情報のルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-申請できるのは、その区分建物自身の名義人だけ
-Illustration: An isometric building with one specific unit labeled
-「101号室」highlighted in blue, with a person icon holding a stamp
-standing beside it. Another unit labeled「202号室」is grayed out with a
-crossed-out person icon and a red「×」mark, connected by an arrow labeled
-「不可」.
-Caption (small text below):
-共用部分である旨の登記を申請できるのは、その区分建物自身の表題部所有者
-または所有権の登記名義人。他の区分建物の名義人は申請できない。
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+申請人は当該区分建物の名義人のみ
+Illustration: An isometric apartment building with one unit labeled
+「101号室」highlighted in green, a person icon holding a stamp standing
+beside it (a small ✓ mark above). Another unit labeled「202号室」is grayed
+out with a crossed-out person icon and a red「✕」mark, with a short label
+「不可」next to it.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+他の名義人は不可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-全員申請でも、規約の証明情報は省略できない
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+全員申請でも規約証明は省略不可
 Illustration: An isometric scene of several person icons standing
-together, signing a shared document. Beside them, a folded paper icon
-labeled「規約」is stamped with a red circle and the word「必須」（NOT
-crossed out）.
-Caption (small text below):
-建物の所有権の登記名義人全員がそろって申請する場合でも、共用部分である
-旨を定めた規約を設定したことを証する情報の提供は省略できない。
+together, all signing one shared document. Beside them, a folded paper
+icon labeled「規約」is stamped with a red circle and the short label
+「必須」（NOT crossed out）.
+Conclusion tag (green, 5-15 Japanese characters, keyword phrase):
+規約証明 省略不可
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-抵当権付きの建物は、抵当権者の承諾情報が必要
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+抵当権付き建物は承諾情報が必要
 Illustration: An isometric house with a red ribbon/seal icon labeled
 「抵当権」attached to it. A bank building icon stands nearby, handing a
-document icon stamped with a hanko toward the house, labeled「承諾証明
-情報」.
-Caption (small text below):
-抵当権の設定登記がある建物について共用部分である旨の登記を申請するとき
-は、抵当権の登記名義人の承諾を証する情報等の提供が必要。
+document icon stamped with a hanko toward the house, labeled「承諾」.
+Conclusion tag (green, 5-15 Japanese characters, keyword phrase):
+抵当権者の承諾必要
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 団地共用部分特有のルール
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-規約を廃止したら、1か月以内に表題登記を申請
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously — this is card 4, following card 3 in column A).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+規約廃止から1か月以内に表題登記
 Illustration: An isometric building with a torn paper icon labeled
-「規約廃止」beside it, next to a calendar icon showing「1か月以内」, with
-an arrow pointing to a new document icon labeled「表題登記」.
-Caption (small text below):
-団地共用部分である旨の登記がある建物について規約を廃止したときは、当該
-建物の所有者は規約の廃止の日から1か月以内に当該建物の表題登記を申請し
-なければならない。
+「規約廃止」beside it, next to a calendar icon showing「1か月」, with an
+arrow pointing to a new document icon labeled「表題登記」.
+Conclusion tag (blue, 5-15 Japanese characters, keyword phrase):
+1か月以内に表題登記
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-団地共用部分の登記は、全棟完成後でなければできない
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+団地共用部分登記は全棟完成後のみ
 Illustration: An isometric scene of two buildings side by side. The left
-building is complete, labeled「甲建物」. The right building is under
-construction with scaffolding, labeled「乙建物」and a small tag reading
-「半年後完成予定」. A red「×」mark sits over a registration document
-between them, with a checkmark icon shown faintly in the background to
-suggest it becomes possible only once both buildings are complete.
-Caption (small text below):
-団地共用部分である旨の登記は、原因及び日付として団地内建物の家屋番号等
-を記録する必要があるため、団地を構成する建物が現に完成していなければ申
-請できない。
+building is complete, labeled「甲建物」with a small ✓ mark. The right
+building is under construction with scaffolding, labeled「乙建物」and a
+short tag「半年後」. A red「✕」mark sits over a registration document icon
+placed between the two buildings.
+Conclusion tag (blue, 5-15 Japanese characters, keyword phrase):
+全棟完成が要件
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -200,7 +204,10 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm the two column headers read
-exactly「申請人・添付情報のルール（共用部分である旨の登記）」and「団地
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance. Also confirm
+the two column headers read exactly「申請人・添付情報のルール」and「団地
 共用部分特有のルール」with no substituted characters.
 ```

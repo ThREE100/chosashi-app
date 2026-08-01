@@ -106,6 +106,17 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -122,76 +133,91 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和3年度 午後の部 第14問　建物の種類の定め方
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric building icon with a magnifying glass hovering
-over a small tag labeled 用途, and a stamp icon labeled 種類 beside it. No
-human characters in this illustration.
-建物の「種類」は、建物の主な用途によって定めるのが大原則です（不動産登記規則113条1項）。この問題は、その原則を区分建物・非区分建物・複数用途といった具体的な場面に当てはめて、どこまで種類を書き分けるのか、書き分けないのかを問うものです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 区分建物の種類
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-区分建物の種類は専有部分ごとの用途で定める
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+区分建物の種類は専有部分の用途で決定
 Illustration: An isometric cutaway of one multi-unit condominium building
 with 100 small unit icons. 99 of the units are marked with a house/roof
-icon and the label その他＝居宅. Exactly one unit (甲) is marked with a
-desk-and-briefcase icon and the label 甲＝事務所, visually distinct from
-the surrounding units.
-Caption (small text below):
-一棟のほぼ全部が居宅として利用されていても、甲区分建物自体の用途が事務所である以上、甲区分建物の種類は「事務所」と定められる。
+icon and the label 居宅. Exactly one unit (甲) is marked with a
+desk-and-briefcase icon and the label 事務所, visually distinct in color
+from the surrounding units. No human characters in this illustration.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+甲は事務所
 
---- COLUMN B HEADER (pill-shaped badge) ---
-一棟建物の複数用途の書き方
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+非区分建物の複数用途
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-主な用途が複数あれば、種類は連記して定める
+--- COLUMN B, CARD 2 ---
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously across all columns).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+主な用途が複数なら連記して定める
 Illustration: An isometric cutaway of a 6-story building. Floors 1-3 show
 a pachinko-ball icon labeled 遊技場, floors 4-5 show a film-reel icon
 labeled 映画館, and floor 6 shows a house/roof icon labeled 居宅. Below
 the building, a single ribbon label reads 遊技場・映画館・居宅, with all
 three terms present exactly once, in this order, with no duplication and
 no omission.
-Caption (small text below):
-主な用途が複数と認められるときは、それらを併記して定める（不動産登記事務取扱手続準則80条2項）。
-
---- COLUMN B, CARD 2 ---
-Heading (bold):
-面積が小さくても「主な用途」なら書ける
-Illustration: An isometric single-family house with a small bakery-shop
-icon and sign attached near the entrance. A speech-bubble comparison
-shows the shop portion much smaller than the house portion, labeled
-店舗は小さい. Below the building, a ribbon label reads 居宅・店舗.
-Caption (small text below):
-店舗として利用される部分の面積が著しく小さくても、それが建物の主な用途と認められるのであれば「居宅・店舗」と連記して定めることができる。
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+複数用途は連記
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-全ての用途ではなく、主な用途で種類を定める
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+小さくても主な用途なら記載可
+Illustration: An isometric single-family house with a small bakery-shop
+icon and sign attached near the entrance, drawn visibly smaller than the
+house portion. Below the building, a ribbon label reads 居宅・店舗.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+居宅・店舗も可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+主な用途のみ記載すればよい
 Illustration: An isometric domed baseball stadium with a retractable
 round roof. Faint, grayed-out small icons for a shop and a parking lot
 are shown inside, each crossed out with an X mark. Below the building, a
 ribbon label reads only 野球場 (a single word). A separate small ribbon
 showing the incorrect full listing 野球場・店舗・駐車場 is shown crossed
-out with a large X. Both label strings (野球場 and 野球場・店舗・駐車場)
-must be reproduced exactly as given, with no extra or missing terms.
-Caption (small text below):
-建物全体の主な用途が野球場であれば、種類は「野球場」と定めれば足り、店舗・駐車場まで全て書き出す必要はない。
+out with a large X mark. Both label strings (野球場 and 野球場・店舗・
+駐車場) must be reproduced exactly as given, with no extra or missing
+terms.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+野球場でよい
 
---- COLUMN C HEADER (pill-shaped badge) ---
+--- COLUMN C HEADER (pill-shaped badge, color: beige) ---
 規則にない用途の扱い
 
---- COLUMN C, CARD 1 ---
-Heading (bold):
-規則にない用途も、準じて種類として定められる
+--- COLUMN C, CARD 5 ---
+Badge: a filled circle in beige containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+規則にない用途も準じて定める
 Illustration: A ledger/rulebook icon representing 不動産登記規則・準則,
 with an arrow labeled 準じて定める pointing from it to two isometric
 building icons: one with a sign reading 保育所, the other with a sign
 reading 教習所.
-Caption (small text below):
-建物の種類は、規則や準則に列挙された区分にそのまま当てはまらない建物についても、それに準じて適当な種類（保育所、教習所など）を定めることができる。
+Conclusion tag (beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+保育所も登記可
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -200,15 +226,19 @@ Small credit text in the corner (optional, keep minimal):
 Pay special attention to the following kanji, which have visually similar
 but distinct Simplified Chinese forms — do NOT render the simplified
 variants: 種（种ではない）・類（类ではない）・準（准ではない）・則（则で
-はない）・専（专ではない）・遊（游ではない）・駐（驻ではない）・建・物・
-登・記・所。
+はない）・専（专ではない）・遊（游ではない）・駐（驻ではない）・習（习で
+はない）・建・物・登・記・所。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards. Also confirm that the enumerated label
-遊技場・映画館・居宅 contains exactly those three terms in that order with
-no duplication or omission, and that the label 野球場 (correct) is not
-confused with the crossed-out 野球場・店舗・駐車場 (incorrect) label.
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance. Also confirm that the enumerated label 遊技場・映画館・居宅
+contains exactly those three terms in that order with no duplication or
+omission, and that the label 野球場 (correct) is not confused with the
+crossed-out 野球場・店舗・駐車場 (incorrect) label.
 ```
