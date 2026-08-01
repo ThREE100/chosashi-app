@@ -73,3 +73,80 @@
 - 印鑑証明書だけは、絶対に返してもらえないんです
 - 怪しい書類は、原本を返してもらえないんです
 - 「対象外」を覚えるほうが実は効率的なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+原本還付の対象・対象外ルールを、4枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+印鑑証明書だけは
+返してもらえない
+
+Subtitle (smaller, centered, 1行):
+原本還付の対象外ルールを整理(平成25年度 午後の部 第5問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric registry-office counter with a stack of documents being sorted: most documents flow back to the applicant character with a green return arrow, while one document stamped 印鑑証明書 is placed into a locked filing cabinet instead.
+原本還付は「何が対象になるか」より「何が対象外になるか」を覚えるほうが効率的です。印鑑証明書と不正利用の疑いがある書面という2つの例外を軸に整理します。
+
+--- CARD 1 ---
+Heading (bold):
+原本還付は登記官の調査完了後に請求できる
+Illustration: An isometric timeline showing a registry officer character stamping a 調査中 badge on a document, with a crossed-out return arrow during that phase, then the badge changing to 調査完了 and a green return arrow appearing.
+Caption (small text below):
+原本の還付は、登記官による調査が完了した後に請求できる。調査完了前の段階では受けられない。
+
+--- CARD 2 ---
+Heading (bold):
+原本還付は、申出により郵送で受けることもできる
+Illustration: An isometric registry-office counter with two return paths: one showing the applicant character receiving a document in person at the window, and a parallel path showing a small mail truck icon delivering the same document to a house icon labeled 郵送.
+Caption (small text below):
+原本の還付は、窓口で受け取る方法だけでなく、申出により原本を郵送で送付してもらう方法によっても受けられる。
+
+--- CARD 3 ---
+Heading (bold):
+印鑑に関する証明書は、原本還付の対象外とされている
+Illustration: An isometric document stamped 印鑑証明書 being placed into a locked filing cabinet icon labeled 登記所保管, with a red X over a return arrow leading back to the applicant character.
+Caption (small text below):
+印鑑に関する証明書は、記名押印の真正を担保するために登記所に留め置く必要があり、原本還付の対象から除かれている。
+
+--- CARD 4 ---
+Heading (bold):
+偽造・不正利用の疑いがある書面は、原本還付の対象外とされている
+Illustration: An isometric document with a magnifying glass revealing a mismatched seal icon (偽造の疑い), being placed into the same locked filing cabinet icon labeled 登記所保管, with a red X over the return arrow.
+Caption (small text below):
+偽造された書面や不正な登記の申請のために用いられた疑いがある書面も、証拠保全のため原本還付の対象から除かれる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第5問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 4 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

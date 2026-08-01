@@ -80,3 +80,87 @@
 - 家屋番号、実は「更正」する制度がないんです
 - マンションの家屋番号、実は2か所に記録されるんです
 - 管轄が違っても、附属建物に番号は付かないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+家屋番号の性質に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地番が変わっても
+家屋番号は自動で変わらない
+
+Subtitle (smaller, centered, 1行):
+家屋番号の性質を整理(平成25年度 午後の部 第11問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric house icon with a fixed number-tag (家屋番号) attached to it like a permanent nameplate, while the land plot beneath it changes its own number tag (地番) without affecting the house's nameplate.
+家屋番号は、土地の地番とは別に建物ごとに付される固有の識別番号です。地番の変更に連動して自動的に変わるものではない、という独立性を5枚のカードで整理します。
+
+--- CARD 1 ---
+Heading (bold):
+分割の登記の申請には、分割前の建物の家屋番号の提供が必要
+Illustration: An isometric building being split into two by scissors icon (建物の分割), with the application document requiring the original building's number tag (分割前の家屋番号) to be filled in, red X over a blank field.
+Caption (small text below):
+建物の分割の登記を申請するときは、どの建物を分割するか特定するため分割前の建物の家屋番号を申請情報に含める必要がある。
+
+--- CARD 2 ---
+Heading (bold):
+不動産番号を提供する場合は、家屋番号の提供を省略できる
+Illustration: An isometric document showing a single 不動産番号 barcode tag replacing the need for separate 地番 and 家屋番号 fields, both greyed out as unnecessary.
+Caption (small text below):
+申請情報として不動産番号を提供する場合には、家屋番号など他の識別情報の提供を省略できる。
+
+--- CARD 3 ---
+Heading (bold):
+家屋番号は地番の更正に連動せず、家屋番号自体の更正登記という制度はない
+Illustration: An isometric house with a fixed number-tag (家屋番号10番1) remaining unchanged, while the land plot beneath it changes its number tag from 10番 to 10番1の更正, a red X over an attempted 家屋番号の更正登記 stamp.
+Caption (small text below):
+建物の所在する土地の地番が更正されても家屋番号は当然には連動せず、家屋番号自体を更正する登記という制度はない。
+
+--- CARD 4 ---
+Heading (bold):
+区分建物の家屋番号は、区分建物と一棟の建物の両方の表題部に記録される
+Illustration: An isometric condominium building (一棟の建物) with a master list on its own record showing every unit's number tag, and each individual unit (区分建物) also carrying its own matching number tag on its own record.
+Caption (small text below):
+区分建物の家屋番号は、各区分建物自身の表題部だけでなく、一棟の建物の表題部にも一覧的に記録される。
+
+--- CARD 5 ---
+Heading (bold):
+管轄登記所が異なっても、附属建物に独立した家屋番号は付されない
+Illustration: An isometric main building (主である建物) under 登記所A with its own number tag, connected to a small attached shed (附属建物) physically located under a different 登記所B boundary line, the shed having no separate number tag of its own, red X over an attempted independent tag.
+Caption (small text below):
+主である建物と附属建物の所在する土地の管轄登記所が異なる場合でも、附属建物に独立した家屋番号は付されない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第11問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

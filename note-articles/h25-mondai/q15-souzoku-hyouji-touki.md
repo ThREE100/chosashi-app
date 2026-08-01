@@ -80,3 +80,87 @@
 - 遺産分割協議書があれば、分筆も共同申請できるんです
 - 相続関係説明図で省略できるのは戸籍だけなんです
 - 滅失登記は、相続人の一人だけでも申請できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+相続と表示登記の添付情報に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+遺産分割協議書だけは
+謄本を省略できない
+
+Subtitle (smaller, centered, 1行):
+相続と表示登記の添付情報を整理(平成25年度 午後の部 第15問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric family tree icon connecting a deceased figure (被相続人) to several heir figures, with document icons (戸籍謄本, 遺産分割協議書, 相続関係説明図) flowing toward a registry-office window.
+相続がからむ表示登記は「誰が申請できるか」と「どの範囲の証明書が必要か」が中心論点です。特に相続関係説明図による原本還付の簡略化は対象範囲を正確に押さえる必要があります。
+
+--- CARD 1 ---
+Heading (bold):
+区分建物を新築した所有者の死亡後、相続人は被相続人名義で表題登記を申請できる
+Illustration: An isometric newly-built condominium unit with the deceased owner's name tag (被相続人) still on the registration document, an heir figure (相続人) submitting the application on their behalf, green checkmark.
+Caption (small text below):
+区分建物を新築した所有者について相続があったときは、相続人は被相続人を表題部所有者とする表題登記を申請できる。
+
+--- CARD 2 ---
+Heading (bold):
+共同相続人の一人が申請する場合、全員分の相続証明情報までは不要
+Illustration: An isometric family tree with three heir figures (A, B, C), only A submitting the application with a document proving just A's own relationship to the deceased, the other two heirs' documents greyed out as unnecessary.
+Caption (small text below):
+被相続人名義の建物の表題部の変更登記を共同相続人の一人が申請する場合、共同相続人全員分の相続証明情報までは不要。
+
+--- CARD 3 ---
+Heading (bold):
+遺産分割協議書に基づき、指定された相続人同士が共同で分筆登記を申請できる
+Illustration: An isometric land plot being split by a dotted line (分筆) into two, one side labeled A、one side labeled B, both matching a document icon labeled 遺産分割協議書, both A and B jointly stamping the application.
+Caption (small text below):
+遺産分割協議書に土地を分筆したうえでA・Bがそれぞれ相続する旨が記載されていれば、A及びBが共同して分筆の登記を申請できる。
+
+--- CARD 4 ---
+Heading (bold):
+相続関係説明図による原本還付の簡略化は戸籍関係書類が対象。遺産分割協議書は対象外
+Illustration: An isometric family-tree chart (相続関係説明図) attached to a 戸籍謄本 document with a green return arrow (謄本省略で還付可), while a separate 遺産分割協議書 document has a red X over the same simplified return arrow, requiring a full copy instead.
+Caption (small text below):
+相続関係説明図を提供すれば戸籍の全部事項証明書は謄本省略で原本還付できるが、遺産分割協議書はこの簡略化の対象外。
+
+--- CARD 5 ---
+Heading (bold):
+死亡前に滅失した建物の滅失登記は、共同相続人の一人から申請できる
+Illustration: An isometric collapsed/removed building icon (滅失した建物) with only one heir figure (相続人の一人) stamping the 滅失の登記 document alone, green checkmark, as a保存行為.
+Caption (small text below):
+被相続人の死亡前に滅失していた被相続人名義の建物の滅失の登記の申請は、保存行為として共同相続人の一人がすることができる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第15問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

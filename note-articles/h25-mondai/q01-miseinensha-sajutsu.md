@@ -82,3 +82,87 @@
 - 返事しないと「認めたこと」にされちゃうんです
 - 取消しは相手に言えばOK、転売先には言わなくていいんです
 - 黙って代金受け取ると、取消しできなくなるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+未成年者の取消し・追認・催告・法定追認について、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+未成年者の法律行為
+取消し・追認、5つの分かれ道
+
+Subtitle (smaller, centered, 1行):
+詐術・追認・催告・法定追認のルールを整理(平成25年度 午後の部 第1問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene on the left showing a small young character (未成年者) standing at a fork in a path, with a torn contract paper icon at the fork, and two signposts pointing in different directions labeled 取消しできる and 取消しできない.
+未成年者が同意なく結んだ契約は、詐術・追認・催告・法定追認という場面ごとに、取り消せるかどうかの結論が分かれます。誰が、いつ、どう行動すると結論が変わるのかを5枚のカードで整理します。
+
+--- CARD 1 ---
+Heading (bold):
+相手方が未成年者だと知っていれば、詐術を用いても取消しは制限されない
+Illustration: An isometric young character holding a small theatrical mask icon labeled 詐術 in front of their face, facing an adult character whose eyes are drawn as magnifying glasses seeing through the mask, with a green checkmark and a small tag reading 取消しできる floating above.
+Caption (small text below):
+詐術を用いても、相手方が最初から未成年者だと知っていた場合は誤信していないため、取消しは制限されない(民法21条)。
+
+--- CARD 2 ---
+Heading (bold):
+未成年者は、法定代理人の同意を得れば成年に達する前でも追認できる
+Illustration: An isometric young character and a parent-figure character standing together, the parent giving a thumbs-up next to a speech bubble labeled 同意, while the young character alone stamps a document with a seal labeled 追認.
+Caption (small text below):
+法定代理人の同意があれば、未成年者本人が成年に達する前でも単独で追認できる(民法124条)。
+
+--- CARD 3 ---
+Heading (bold):
+法定代理人への催告に無回答なら、追認したものとみなされる
+Illustration: An isometric mailbox sending an envelope labeled 催告 to a parent-figure character, a clock icon showing time passing with no reply speech bubble (crossed out), followed by an automatic stamp reading 追認とみなす appearing on the contract.
+Caption (small text below):
+相手方が法定代理人に1か月以上の期間を定めて確答を催告し、期間内に返事がなければ追認したものとみなされる(民法20条2項)。
+
+--- CARD 4 ---
+Heading (bold):
+取消しの意思表示は、契約の相手方に伝えれば足りる
+Illustration: An isometric young character sending a speech-bubble arrow labeled 取消します directly to the original contract-partner character, while a third character standing further away (labeled 転得者) has a crossed-out arrow pointing toward them, showing no notice is needed.
+Caption (small text below):
+目的物が転得者に転売されていても、取消しの意思表示は元の契約相手にすれば足り、転得者に個別に伝える必要はない。
+
+--- CARD 5 ---
+Heading (bold):
+成年に達した後、異議なく履行を受ければ法定追認が成立する
+Illustration: An isometric now-adult character (wearing a small 成年 badge) receiving a money-bag icon labeled 代金 with a green checkmark and no protest speech bubble, followed by a padlock icon closing over a tag reading 取消し.
+Caption (small text below):
+成年に達した後、異議をとどめずに代金などの履行を受け取ると法定追認が成立し、以後は取り消せなくなる(民法125条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第1問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

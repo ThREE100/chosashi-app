@@ -80,3 +80,87 @@
 - 敷地権が消えても、1か月の期限はないんです
 - 土地が変わったら、新しい図面が必要になるんです
 - 移転登記が済むまでは、申請義務はまだ発生しないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+区分建物の表題部変更登記に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+1人が申請すれば
+他の区分所有者は動かなくていい
+
+Subtitle (smaller, centered, 1行):
+区分建物の表題部変更登記を整理(平成25年度 午後の部 第16問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric condominium building where one unit owner (甲区分建物の所有者) stamps a single application document, and a dashed arrow spreads the effect automatically to all the other units in the same building without them needing to act.
+区分建物は、一棟の建物という共通の枠組みと、各区分建物という個別の枠組みが重なり合う構造です。「一棟共通の事項は誰か一人が申請すれば足りる」という考え方を軸に整理します。
+
+--- CARD 1 ---
+Heading (bold):
+一棟の建物の床面積変更は、一人が申請すれば他の区分所有者は申請不要
+Illustration: An isometric condominium building, unit 甲区分建物's owner stamping a 床面積の変更の登記 document, with a dashed arrow spreading a green checkmark automatically to the neighboring unit 乙区分建物 without a second stamp needed.
+Caption (small text below):
+甲区分建物の所有権登記名義人の申請により一棟の建物の床面積の変更登記がされれば、乙区分建物の所有権登記名義人は重ねて申請する必要がない。
+
+--- CARD 2 ---
+Heading (bold):
+一棟の建物の名称を申請情報とする場合は、変更前の構造・床面積の記載を省略できる
+Illustration: An isometric registered building with a name-plate icon reading 〇〇マンション (一棟の建物の名称) being used alone to identify the building on the application, with the previously-required 変更前の構造及び床面積 fields greyed out as unnecessary.
+Caption (small text below):
+区分建物が属する一棟の建物の構造の変更登記で、既に登記された一棟の建物の名称を申請情報とするときは、変更前の構造・床面積の記載を省略できる。
+
+--- CARD 3 ---
+Heading (bold):
+敷地権が敷地権でなくなった場合の変更登記に「1か月以内」という期限はない
+Illustration: An isometric partially-demolished condominium building straddling two land plots, one plot no longer supporting the building (敷地権でなくなった), a calendar icon with a red X over a 1か月以内 deadline stamp.
+Caption (small text below):
+敷地権の目的である土地の一部について建物取壊しにより敷地権でなくなった場合の変更登記に、1か月以内という申請期限はない。
+
+--- CARD 4 ---
+Heading (bold):
+所在する土地が変わる場合、変更登記の申請には変更後の建物図面の提供が必要
+Illustration: An isometric condominium building whose underlying land plot has been split (分筆), the building's footprint now on a differently-shaped remaining plot, with a fresh 変更後の建物図面 document attached to the application.
+Caption (small text below):
+分筆により区分建物が属する一棟の建物の所在しない土地が生じ、建物所在の変更登記を申請するときは、変更後の建物図面の提供が必要。
+
+--- CARD 5 ---
+Heading (bold):
+所有権移転登記前の取得者には、表題部変更登記の申請義務は課されない
+Illustration: An isometric condominium unit that increased in floor area, a new buyer figure standing beside it without yet having a registered name tag (所有権の移転の登記未了), a red X over an obligation stamp reading 変更登記の申請義務.
+Caption (small text below):
+区分建物の床面積が増加した後にその所有権を取得した者は、所有権の移転の登記をする前は表題部変更登記の申請義務を負わない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第16問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

@@ -80,3 +80,87 @@
 - 河川管理者が代わりに手続してくれるケースがあるんです
 - 異議がなければ、法務局が勝手に分筆してくれるんです
 - 敷地権の土地でも、分筆できないとは限らないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+分筆の登記の申請人・嘱託・職権に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+河川管理者は
+代わりに分筆を頼める
+
+Subtitle (smaller, centered, 1行):
+分筆の登記の申請人・嘱託・職権のルールを整理(平成25年度 午後の部 第9問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric river cutting through a land plot, with a river-management official character (河川管理者) standing beside a registry-office window, sending a request document toward it on behalf of the absent landowner.
+分筆の登記は原則として所有権登記名義人などが自ら申請しますが、河川区域の指定や地図作成のための職権登記など、例外的に他の主体が主導できる場面もあります。
+
+--- CARD 1 ---
+Heading (bold):
+分筆登記の申請自体に、農業委員会の許可を証する情報は不要
+Illustration: An isometric farmland plot (畑) being split by a dotted line (分筆), with a red X over an 農業委員会の許可書 document icon beside the application papers.
+Caption (small text below):
+分筆の登記は単に区画を分ける手続であり、地目が畑であっても農業委員会の許可を証する情報の添付は不要。
+
+--- CARD 2 ---
+Heading (bold):
+仮登記名義人には、分筆の登記の申請人としての資格がない
+Illustration: An isometric land plot with a dashed-outline figure labeled 仮登記名義人 attempting to stamp a 分筆の登記 document, blocked by a red X, while the solid-outline figure labeled 所有権登記名義人 stands beside it as the only valid applicant.
+Caption (small text below):
+分筆の登記の申請人は表題部所有者又は所有権登記名義人に限られ、所有権移転の仮登記の登記名義人には申請資格がない。
+
+--- CARD 3 ---
+Heading (bold):
+河川管理者は、所有権登記名義人に代わって分筆の登記を嘱託できる
+Illustration: An isometric river overlapping the edge of a land plot, a river-management official character (河川管理者) sending a request document directly to the registry office on behalf of the landowner, labeled 嘱託, with a green checkmark.
+Caption (small text below):
+土地の一部が河川区域内の土地となった場合、河川管理者は所有権登記名義人に代わって分筆の登記を登記所に嘱託できる。
+
+--- CARD 4 ---
+Heading (bold):
+地図作成のために必要であれば、異議がない限り職権で分筆できる
+Illustration: An isometric registry officer character stamping a 分筆の登記 document with a 職権 seal, next to a landowner figure with a speech bubble showing no objection (異議なし), and a background map-icon labeled 地図作成.
+Caption (small text below):
+登記官は、地図を作成するため必要があると認める場合、所有権登記名義人の異議がなければ職権で分筆の登記をすることができる。
+
+--- CARD 5 ---
+Heading (bold):
+敷地権付き区分建物の敷地であっても、分筆が一律に禁止されるわけではない
+Illustration: An isometric land plot beneath a condominium building icon labeled 敷地権の目的である土地, being split by a dotted line (分筆), with a green checkmark instead of a blanket prohibition sign.
+Caption (small text below):
+区分建物の敷地権の目的である土地であっても、その分筆の登記が一律に禁止されているわけではない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第9問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

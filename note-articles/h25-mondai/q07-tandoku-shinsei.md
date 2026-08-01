@@ -80,3 +80,93 @@
 - 「別人への入れ替え」だけは一人じゃできないんです
 - 地積が減っても、単独申請でOKなんです
 - 共用部分の登記、所有者じゃないと申請できないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+表示に関する登記の単独申請ができる場合・できない場合を、できる3枚・できない2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+表示登記は単独申請が原則
+でも例外もある
+
+Subtitle (smaller, centered, 1行):
+単独申請ができる場合・できない場合を整理(平成25年度 午後の部 第7問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene showing a single figure confidently stamping a document alone on the left (単独申請), and on the right a document requiring two figures together to stamp it (共同申請), separated by a dividing line.
+表示に関する登記は原則として単独で申請できますが、その原則にも例外があります。「誰が申請人としての資格を持つか」を基準に、できる場合とできない場合を整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+単独申請できる場合
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+持分の更正登記は、表題部所有者の一人から単独申請できる
+Illustration: An isometric land plot with two figures A and B, A alone stamping a document labeled 持分の更正の登記 with a green checkmark, B standing by without objecting.
+Caption (small text below):
+表題部所有者A及びBの持分の更正の登記は、表示に関する登記として、Aが単独で申請できる。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+合体による登記は、共同相続人の一人から保存行為として単独申請できる
+Illustration: An isometric scene showing two small buildings merging into one larger building (合体), with only one of two inheriting figures (相続人A) stamping the registration document alone, green checkmark.
+Caption (small text below):
+共同相続人A及びBのうちAが、丙建物の表題登記等を保存行為として単独で申請できる。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+地積が減少する更正登記も、共有者の一人から単独申請できる
+Illustration: An isometric land plot shrinking slightly (地積減少) with two co-owner figures A and B, A alone stamping the update document, green checkmark.
+Caption (small text below):
+更正後の地積が減少する内容であっても、地積の更正登記は共有者の一人が保存行為として単独で申請できる。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+単独申請できない場合
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+人格の同一性が失われる更正登記は、名義人単独の申請ではできない
+Illustration: An isometric building with a name tag reading A being swapped entirely for a tag reading B, with A alone trying to stamp the document but a red X blocking it.
+Caption (small text below):
+表題部所有者をAからBへ実質的に入れ替える更正登記は、現在の名義人Aの単独申請ではできない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+共用部分である旨の登記は、所有権登記名義人でなければ申請できない
+Illustration: An isometric shared-room icon (共用部分) inside a building, with figure B (所有権登記名義人) able to stamp the document, while figure A standing nearby has a red X blocking their attempt to stamp it alone.
+Caption (small text below):
+共用部分である旨の登記は、その建物の所有権の登記名義人であるBでなければ申請できず、Aは単独で申請できない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第7問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly (単独申請できる場合に3枚、単独申請できない場合に2枚), with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

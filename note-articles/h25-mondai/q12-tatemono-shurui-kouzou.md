@@ -80,3 +80,93 @@
 - マンションの屋根、実は最上階の登記には出てこないんです
 - 用途が2つあれば、両方まとめて種類になるんです
 - 「多目的ビル」って種類、実は存在しないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の種類・構造の認定基準を、種類2枚・構造3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「多目的ビル」という
+種類は存在しない
+
+Subtitle (smaller, centered, 1行):
+建物の種類・構造の認定基準を整理(平成25年度 午後の部 第12問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric multi-story building with different-colored floors each labeled with a different use icon (store, gym, cinema), a large question mark above a signboard that has been crossed out reading 多目的ビル.
+建物の種類は複数の用途をそのまま列記するのが原則で、構造は面積の多い主たる要素で代表させるのが原則です。「主たるもので判断する」場面と「複数を並べる」場面の使い分けを整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+建物の種類に関する原則
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+主な用途が2以上の場合、それらの用途をあわせて建物の種類を定める
+Illustration: An isometric two-story building, the first floor tagged 店舗 and the second floor tagged 居宅, both tags merging into a single combined signboard reading 店舗兼居宅.
+Caption (small text below):
+建物の主な用途が2以上の場合には、その2以上の用途をあわせて建物の種類を定める。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+「多目的ビル」という種類区分は存在せず、実際の用途を列記する
+Illustration: An isometric multi-floor building with each floor showing a different-use icon (食品販売店, 衣類販売店, ゲームセンター, 映画館), a red X over a signboard reading 多目的ビル, and a green checkmark over a signboard listing each use by name.
+Caption (small text below):
+各利用部分ごとに用途を異にする建物であっても、「多目的ビル」という種類は存在せず、実際の用途を列記して種類を定める。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+建物の構造に関する原則
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+屋根の種類は「10％以上」ではなく、面積の多い主たる種類で定める
+Illustration: An isometric roof split into two textures, a small tiled section (30%) and a larger metal-sheet section (70%), with an arrow pointing to the larger section labeled 主たる屋根の種類, and a red X over a mistaken 10%以上 rule label.
+Caption (small text below):
+屋根の種類が2種類ある建物は、面積の多い主たる種類の屋根で構造を定め、「10％以上」という基準は誤り。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+床面積に算入しない部分の屋根の種類は、構造認定に考慮しなくてよい
+Illustration: An isometric building with a pilotis (ピロティ) ground floor not counted in floor area, its differently-textured roof/ceiling greyed out and excluded from the main structure determination.
+Caption (small text below):
+床面積に算入しない部分の屋根の種類が他の部分と異なっていても、建物全体の構造認定にその部分の屋根の種類を考慮する必要はない。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+屋根の種類は最上階の専有部分ではなく、一棟の建物の表題部に記録される
+Illustration: An isometric condominium building, the roof icon on top connected by an arrow down to the 一棟の建物の表題部 record sheet, with a red X over an arrow mistakenly pointing to the top-floor unit's own record.
+Caption (small text below):
+区分建物である建物の屋根の種類は、最上階の区分建物の専有部分ではなく、一棟の建物の表題部に記録される。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第12問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly (建物の種類に関する原則に2枚、建物の構造に関する原則に3枚), with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

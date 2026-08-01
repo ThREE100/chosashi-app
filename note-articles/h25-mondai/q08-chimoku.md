@@ -80,3 +80,87 @@
 - 農具小屋の敷地、条件次第で「宅地」になるんです
 - 隣が宅地だと、テニスコートも雑種地にならないんです
 - 温泉の湧き出る場所、地目は「鉱泉地」なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地目認定の5つの具体的な考え方を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+牧場の中の建物は
+「宅地」にならない
+
+Subtitle (smaller, centered, 1行):
+地目認定の考え方を整理(平成25年度 午後の部 第8問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric landscape strip showing five small differently-textured land-plot icons side by side (pasture, forest-turned-lot, farmland, tennis court next to a house, hot spring), each with a small label tag above it.
+地目の認定は現況主義が基本ですが、地域性や隣接地との関係によって、建物の有無だけでは判断できない例外があります。5つの具体例で地目認定の考え方を整理します。
+
+--- CARD 1 ---
+Heading (bold):
+牧場地域内の牧畜用建物の敷地は、永久的設備であっても「宅地」にはならない
+Illustration: An isometric pasture landscape with a barn building icon on it, labeled 牧畜のための建物, with a red X over a 宅地 tag and a green checkmark over a 牧場 tag instead.
+Caption (small text below):
+牧場地域内にある牧畜のために使用する建物の敷地は、永久的設備と認められても宅地とはされない。
+
+--- CARD 2 ---
+Heading (bold):
+現況が宅地であれば、過去の利用履歴にかかわらず直ちに地目変更登記ができる
+Illustration: An isometric timeline of one land plot changing from a forest icon (山林) to a parking-lot icon (駐車場) to a house icon (宅地), with an arrow straight from the current house icon to a stamp labeled 地目変更登記, skipping the middle stage.
+Caption (small text below):
+山林から駐車場を経て現在は宅地として使用されている土地は、現況に基づいて直ちに宅地への地目変更登記ができる。
+
+--- CARD 3 ---
+Heading (bold):
+耕作地域内の農具小屋の敷地は、永久的施設なら「宅地」として認定される
+Illustration: An isometric farmland landscape with a small permanent tool-shed building icon (農具小屋) on it, with a green checkmark over a 宅地 tag.
+Caption (small text below):
+耕作地の区域内にある農具小屋の敷地は、その建物が永久的施設と認められるものであれば宅地として認定される。
+
+--- CARD 4 ---
+Heading (bold):
+隣接する宅地と効用上一体をなす場合、テニスコートへの造成は雑種地への変更とはならない
+Illustration: An isometric scene with a house icon on one land plot (乙土地, 宅地) directly adjacent to a tennis-court icon on a second plot (甲土地, formerly 山林), a dashed line connecting them labeled 効用上一体, with a red X over a 雑種地 tag on the tennis court plot.
+Caption (small text below):
+山林であった甲土地がテニスコートに造成されても、隣接する宅地と効用上一体をなす場合は宅地の一部として扱われ、雑種地への変更登記はできない。
+
+--- CARD 5 ---
+Heading (bold):
+温泉の沸出口及びその維持に必要な土地の地目は「鉱泉地」
+Illustration: An isometric hot-spring landscape with a small steaming water source icon (温泉の沸出口) and the surrounding maintenance area, with a green tag reading 鉱泉地 above it.
+Caption (small text below):
+温泉（鉱泉）の沸出口及びその維持に必要な範囲の土地の地目は、鉱泉地と定められている。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第8問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

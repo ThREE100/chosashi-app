@@ -80,3 +80,87 @@
 - 法人の本人確認、代表者じゃなくてもいいんです
 - 半年前の実績が、今回の面識証明になるんです
 - 資格者代理人であることの証明、忘れちゃダメなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+本人確認情報における面識の判断基準と却下されない原則を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「内容が怪しい」は
+イコール即却下ではない
+
+Subtitle (smaller, centered, 1行):
+本人確認情報のルールを整理(平成25年度 午後の部 第6問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene showing a土地家屋調査士 character (資格者代理人) handing a document labeled 本人確認情報 to a registry officer character, with a thought bubble above the officer showing a question mark, not an immediate rejection stamp.
+本人確認情報は、登記識別情報を提供できない場合の代替手段として、資格者代理人に重要な役割が期待される制度です。面識の判断基準と、内容が相当でない場合の対応を5枚のカードで整理します。
+
+--- CARD 1 ---
+Heading (bold):
+資格者代理人であることを証する情報も併せて提供しなければならない
+Illustration: An isometric土地家屋調査士 character handing two documents together to a registry officer: one labeled 本人確認情報 and one labeled 資格者代理人であることを証する情報, clipped together with a paperclip icon.
+Caption (small text below):
+土地家屋調査士が本人確認情報を提供するときは、自らが登記の申請の代理を業とすることができる者であることを証する情報も併せて提供する。
+
+--- CARD 2 ---
+Heading (bold):
+内容が相当でないと認められても、直ちに却下されるわけではない
+Illustration: An isometric registry officer character holding a document labeled 本人確認情報 with a question-mark thought bubble, an arrow leading not to a 却下 stamp but to a separate envelope icon labeled 事前通知.
+Caption (small text below):
+登記官が本人確認情報の内容を相当と認めることができない場合でも、直ちに却下されるのではなく、事前通知などの手続がとられる。
+
+--- CARD 3 ---
+Heading (bold):
+依頼前からの安定した継続的関係も「面識がある」ときに当たる
+Illustration: An isometric scene showing a土地家屋調査士 character and a client character with a timeline behind them stretching back over a year (labeled 1年以上の取引関係), with a green checkmark tag reading 面識あり.
+Caption (small text below):
+依頼前から申請人の氏名・住所を知り、親族関係や1年以上の安定した継続的関係があれば、面識があるときに当たる。
+
+--- CARD 4 ---
+Heading (bold):
+法人の場合、必ずしも代表者本人と面談しなければならないわけではない
+Illustration: An isometric office building icon (法人B) with two possible meeting scenes: one with the 資格者代理人 meeting the company representative character, and another equally valid green-checked scene meeting an authorized staff character instead.
+Caption (small text below):
+法人である申請人の本人確認情報を提供する場合、必ずしも法人の代表者本人と面談しなければならないわけではない。
+
+--- CARD 5 ---
+Heading (bold):
+過去（半年前）に本人確認情報を提供した実績も「面識がある」ときに当たる
+Illustration: An isometric calendar icon showing a mark 半年前 with a small 本人確認情報 document icon, connected by a dashed line to today's date with a green checkmark tag reading 面識あり.
+Caption (small text below):
+半年前に同じ依頼者から本人確認情報を提供して登記の申請をしていた実績があれば、今回の申請でも面識があるときに当たる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第6問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

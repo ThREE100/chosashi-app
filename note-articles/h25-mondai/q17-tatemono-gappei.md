@@ -80,3 +80,87 @@
 - 賃借権があると、合併登記はできなくなるんです
 - 敷地権の有無がずれても、合併できることがあるんです
 - 仮登記があると、合併の道は閉ざされるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の合併の登記の制限事由に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+賃借権があると
+建物は合併できない
+
+Subtitle (smaller, centered, 1行):
+建物の合併の登記の制限事由を整理(平成25年度 午後の部 第17問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric two adjacent buildings (甲建物, 乙建物) with a merge arrow between them labeled 合併, and beside them a checklist of small icons (抵当権, 賃借権, 敷地権, 仮登記) each marked either allowed or blocked.
+建物の合併の登記は、権利関係の錯綜を避けるため、一定の制限事由が定められています。「両方に同一内容の担保権があれば例外的にOK」というパターンと、「それ以外は原則NG」というパターンを整理します。
+
+--- CARD 1 ---
+Heading (bold):
+権利の内容に食い違いが生じた抵当権は、合併の妨げになる
+Illustration: An isometric two buildings (甲建物, 乙建物) both showing an identical 抵当権 tag, but 乙建物's tag has an extra 債権額変更 stamp making it different, a red X over the merge arrow between them.
+Caption (small text below):
+甲建物と乙建物のいずれにも抵当権の登記があっても、乙建物のみ抵当権の債権額の変更登記があると内容が食い違い、合併の登記はできない。
+
+--- CARD 2 ---
+Heading (bold):
+乙建物のみの抵当権は、抵当権者の承諾があっても合併の妨げになる
+Illustration: An isometric 乙建物 alone carrying an 抵当権 tag with a signed 承諾書 document beside it, but a red X still blocking the merge arrow toward 甲建物 which has no such tag.
+Caption (small text below):
+乙建物についてのみ抵当権の設定登記がある場合、抵当権者が消滅を承諾する情報を提供しても、それだけで合併の登記はできない。
+
+--- CARD 3 ---
+Heading (bold):
+賃借権の登記があると、内容が同一でも建物の合併の登記をすることはできない
+Illustration: An isometric two buildings (甲建物, 乙建物) both carrying an identical 賃借権 tag, a red X over the merge arrow between them despite the matching content.
+Caption (small text below):
+甲建物と乙建物のいずれにも賃借権の設定の登記がある場合、内容が同一であっても建物の合併の登記をすることはできない。
+
+--- CARD 4 ---
+Heading (bold):
+片方だけ敷地権の登記がある区分建物同士でも、合併の登記をすることができる
+Illustration: An isometric two condominium units (甲建物, 乙建物), 甲建物 alone carrying a 敷地権 tag and 乙建物 having none, a green checkmark over the merge arrow between them.
+Caption (small text below):
+甲建物と乙建物がいずれも区分建物で、甲建物についてのみ敷地権の登記があるときでも、建物の合併の登記をすることができる。
+
+--- CARD 5 ---
+Heading (bold):
+所有権の仮登記があると、建物の合併の登記をすることはできない
+Illustration: An isometric two buildings (甲建物, 乙建物) both carrying a 所有権の仮登記 tag, a red X over the merge arrow between them.
+Caption (small text below):
+甲建物と乙建物のいずれにも所有権の仮登記がある場合、建物の合併の登記をすることはできない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第17問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

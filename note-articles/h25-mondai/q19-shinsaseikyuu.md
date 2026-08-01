@@ -84,3 +84,87 @@
 - 一般法の常識、登記の世界では通用しないことがあるんです
 - 裁決の結果は、登記官にもちゃんと届くんです
 - 認められたら、関係者みんなに知らされるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+不動産登記法158条による行政不服審査法の適用除外を中心に、審査請求に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+登記官への審査請求に
+「期限」も「参加人」もない
+
+Subtitle (smaller, centered, 1行):
+不動産登記法158条による適用除外を整理(平成25年度 午後の部 第19問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scale-of-justice icon labeled 行政不服審査法 with several of its rule-cards (期間制限, 参加人) being physically pulled out and crossed with a red X by a stamp labeled 不動産登記法158条, illustrating an exclusion.
+登記官の処分に対する審査請求は、不動産登記法が独自の規律を用意している分野です。「一般の行政処分ならこうなるはず」という感覚をそのまま当てはめると誤ってしまう5つのポイントを整理します。
+
+--- CARD 1 ---
+Heading (bold):
+登記官の処分への審査請求には、そもそも参加人制度がない
+Illustration: An isometric courtroom-like scene with a mortgagee figure (抵当権者B) trying to join as a 参加人 through a side door, the door sealed shut with a stamp reading 法158条により13条を適用除外.
+Caption (small text below):
+行政不服審査法13条の参加人制度は、不動産登記法158条により156条1項の審査請求には適用除外され、そもそも存在しない。
+
+--- CARD 2 ---
+Heading (bold):
+審査請求は、登記官を経由してしなければならない
+Illustration: An isometric applicant figure sending a 審査請求書 document that must first pass through the local registry officer's desk (登記官) before continuing upward to the 法務局長 office, a straight-line shortcut path crossed out.
+Caption (small text below):
+登記官の処分に対する審査請求は、直接監督機関に対して行うのではなく、登記官を経由して行わなければならない(法156条2項)。
+
+--- CARD 3 ---
+Heading (bold):
+登記官の処分への審査請求には、そもそも期間制限がない
+Illustration: An isometric calendar with a 60日 deadline stamp crossed out by a red X, replaced with an infinity symbol icon labeled 期間制限なし, next to a stamp reading 法158条により18条を適用除外.
+Caption (small text below):
+行政不服審査法18条の審査請求期間の規定は、不動産登記法158条により適用除外され、登記官の処分への審査請求に期間制限は存在しない。
+
+--- CARD 4 ---
+Heading (bold):
+裁決書の謄本は、審査請求人及び登記官に交付される
+Illustration: An isometric law-bureau official character stamping two identical 裁決書の謄本 document copies, one arrow sending a copy to the applicant figure (審査請求人) and another arrow sending a copy back to the original registry officer (登記官).
+Caption (small text below):
+法務局又は地方法務局の長が審査請求について裁決をしたときは、裁決書の謄本を審査請求人及び登記官に交付する。
+
+--- CARD 5 ---
+Heading (bold):
+審査請求が認容された場合、審査請求人のほか登記上の利害関係人にも通知される
+Illustration: An isometric law-bureau official commanding the registry officer with a 相当の処分を命じる stamp, then sending notification envelopes both to the applicant (審査請求人) and to a separate interested-party figure (登記上の利害関係人).
+Caption (small text below):
+監督法務局長等は審査請求に理由があると認めるときは登記官に相当の処分を命じ、その旨を審査請求人のほか登記上の利害関係人にも通知する(法157条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第19問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

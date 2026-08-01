@@ -80,3 +80,87 @@
 - ダストシュートの外側、実は面積に入らないんです
 - 傾いた壁の面積、床に接する位置で決まるんです
 - 出窓の基準、「1.5メートル」は間違いなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+床面積算定の5つの個別要素（吹抜け・地下街・ダストシュート・傾斜壁・出窓）を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+吹抜けは
+どの階の床面積にもならない
+
+Subtitle (smaller, centered, 1行):
+床面積算定の細かいルールを整理(平成25年度 午後の部 第13問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric cutaway building showing five distinct architectural features highlighted with dashed outlines: an open atrium (吹抜け), an underground mall corridor (地下街), a chute (ダストシュート), a slanted wall (傾斜壁), and a bay window (出窓).
+床面積の算定は「壁その他の区画の中心線で囲まれた部分の水平投影面積」という原則を出発点に、吹抜け・ダストシュート・出窓といった個別要素ごとの取扱いを覚えていく分野です。
+
+--- CARD 1 ---
+Heading (bold):
+吹抜け部分は、上階を含めどの階の床面積にも算入しない
+Illustration: An isometric cutaway building with an open two-story atrium (吹抜け) shown as empty space with no floor slab, a red X over a floor-area calculation for that empty column at every level.
+Caption (small text below):
+建物の一部が上階まで吹抜になっている場合、その吹抜の部分は上階を含めどの階の床面積にも算入しない。
+
+--- CARD 2 ---
+Heading (bold):
+地下街の床面積は、通路・階段部分を除いた区画部分で定める
+Illustration: An isometric underground mall corridor with an open public walkway (通路及び階段) greyed out as excluded, and individual shop units enclosed by walls and pillars (壁又は柱等により区画された部分) highlighted as counted.
+Caption (small text below):
+地下街の建物の床面積は、常時一般に開放されている通路及び階段の部分を除き、壁又は柱等により区画された部分の面積で定める。
+
+--- CARD 3 ---
+Heading (bold):
+ダストシュートの建物外部にある部分は、床面積に算入しない
+Illustration: An isometric building cross-section with a vertical chute (ダストシュート) partly inside the building wall (counted, highlighted) and partly protruding outside the wall (外部にある 部分, greyed out with a red X).
+Caption (small text below):
+建物の内部と外部にまたがってダストシュートがある場合、その外部にある部分は各階の床面積に算入しない。
+
+--- CARD 4 ---
+Heading (bold):
+柱・壁が傾斜している場合は、床面が接する部分の中心線で床面積を定める
+Illustration: An isometric room with a slanted wall (傾斜壁), a highlighted dashed line drawn exactly where the wall meets the floor (床面の 接着する部分の中心線), rather than at the wall's upper, wider point.
+Caption (small text below):
+柱又は壁が傾斜している場合の床面積は、各階の床面の接着する壁その他の区画の中心線で囲まれた部分による。
+
+--- CARD 5 ---
+Heading (bold):
+出窓の床面積算入基準は「高さ1.5メートル以上」という数値ではない
+Illustration: An isometric small bay window (出窓) protruding from a wall, with a measuring tape icon showing a much smaller height than a crossed-out 1.5m ruler label, a question-mark badge over the correct numeric threshold.
+Caption (small text below):
+出窓の床面積への算入基準は「高さ1.5メートル以上」という数値ではなく、これより小さい高さの基準による。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第13問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

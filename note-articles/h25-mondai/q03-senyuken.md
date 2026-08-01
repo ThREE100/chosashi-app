@@ -80,3 +80,87 @@
 - 「悪意とみなす」の起点、実は訴えの時からなんです
 - 占有の善意・悪意は代理人で決まるんです
 - 承諾するのは代理人じゃなくて第三者なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+占有権に関する5つの条文論点（機関占有、占有の訴え、悪意とみなす時点、代理占有、指図による占有移転）を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+占有権の条文を
+1文字ずつ正確に読む
+
+Subtitle (smaller, centered, 1行):
+占有回収の訴え・代理占有・指図による占有移転を整理(平成25年度 午後の部 第3問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene showing a magnifying glass hovering over a legal document icon with small highlighted words, next to a hand icon pointing precisely at one word among several similar-looking words.
+占有権の分野は、条文の主語や起算点を正確に読み取れているかが試されます。誰が占有できるのか、誰が承諾するのかという「主語の取り違え」に注意しながら5つの原則を整理します。
+
+--- CARD 1 ---
+Heading (bold):
+機関としての占有と個人としての占有は併存し得る
+Illustration: An isometric office building icon with a representative character standing both behind a company desk (labeled 法人の機関) and, overlapping in a dashed outline, as an individual figure at the same building (labeled 個人), with two separate green tags reading 占有回収の訴え可能.
+Caption (small text below):
+法人の代表者が個人としても占有していたと認められる場合、代表者個人としての占有回収の訴えも提起できる。
+
+--- CARD 2 ---
+Heading (bold):
+占有の訴えは、善意・悪意を問わず提起できる
+Illustration: An isometric figure with a small dark-cloud icon overhead (labeled 悪意) still successfully filing a document labeled 占有回収の訴え into a courthouse icon, with a green checkmark.
+Caption (small text below):
+占有の訴えは占有という事実状態を保護する制度であり、占有者が悪意であっても占有回収の訴えを提起できる(民法197条以下)。
+
+--- CARD 3 ---
+Heading (bold):
+本権の訴えで敗訴した善意占有者は、「訴え提起の時」から悪意とみなされる
+Illustration: An isometric timeline of a courtroom scene: a figure holding an item, with a courthouse gavel icon striking at the moment labeled 訴えの提起の時, and the figure's status tag flipping from 善意 to 悪意 exactly at that point on the timeline, not at the start.
+Caption (small text below):
+善意の占有者が本権の訴えで敗訴したときは、占有開始の時からではなく「訴えの提起の時」から悪意の占有者とみなされる(民法189条2項)。
+
+--- CARD 4 ---
+Heading (bold):
+代理占有の善意・悪意は、占有代理人を基準に判断する
+Illustration: An isometric scene with a principal character (本人) thinking a green checkmark thought bubble (善意), while the occupying agent character (占有代理人) standing on the land plot has a dark thought bubble (悪意), with an arrow pointing to the agent labeled 判断基準.
+Caption (small text below):
+代理人によって占有をする場合、その占有の善意・悪意は本人ではなく占有代理人を基準に判断される。
+
+--- CARD 5 ---
+Heading (bold):
+指図による占有移転で承諾するのは「第三者」であり「代理人」ではない
+Illustration: An isometric three-figure diagram: 本人 pointing an instruction arrow labeled 命じる toward 代理人, and a second arrow from 代理人 toward 第三者 who alone stamps a document with 承諾, with a red X over a mistaken arrow showing 代理人 stamping 承諾 instead.
+Caption (small text below):
+民法184条の指図による占有移転では、本人が代理人に命じ、承諾するのは第三者であって代理人ではない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第3問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

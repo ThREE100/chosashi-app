@@ -80,3 +80,87 @@
 - 地域の慣習まで学ぶのが、努力義務なんです
 - 事務所は2つ以上持てないって知ってた？
 - 職印のルール、実は「会則」じゃなかったんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地家屋調査士法の基本業務ルールに関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+職印を定めるのは
+「会則」ではない
+
+Subtitle (smaller, centered, 1行):
+土地家屋調査士法の基本業務ルールを整理(平成25年度 午後の部 第20問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric土地家屋調査士 character standing beside five small badge icons representing their professional duties (相談対応, 罰則, 研鑽義務, 事務所, 職印), each badge glowing to indicate a distinct rule.
+土地家屋調査士法は、実務家としての基本的な義務や罰則を定めた法律で、択一式でも毎年出題される重要分野です。細かい規定の根拠が「法律」か「会則」か「省令」かを区別できるかがポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+筆界特定手続の代理は拒めても、相談は正当な事由なく拒めない
+Illustration: An isometric土地家屋調査士 character with two doors: one labeled 代理の依頼 that can be closed freely, and one labeled 相談の依頼 that stays open unless a 正当な事由 sign is shown.
+Caption (small text below):
+土地家屋調査士は、筆界特定手続についての代理の依頼は拒むことができるが、正当な事由がなければ相談の依頼を拒むことはできない。
+
+--- CARD 2 ---
+Heading (bold):
+虚偽の調査・測量には、1年以下の懲役又は100万円以下の罰金が科される
+Illustration: An isometric土地家屋調査士 character caught faking a survey document (虚偽の調査又は測量), a gavel icon striking down with a label reading 1年以下の懲役又は100万円以下の罰金.
+Caption (small text below):
+土地家屋調査士がその業務に関して虚偽の調査又は測量をしたときは、1年以下の懲役又は100万円以下の罰金に処せられる。
+
+--- CARD 3 ---
+Heading (bold):
+業務地域の慣習など、業務知識を深める努力義務がある
+Illustration: An isometric土地家屋調査士 character studying an open book icon labeled 筆界を明らかにするための方法に関する慣習, with a small region-map icon in the background representing their local 業務を行う地域.
+Caption (small text below):
+土地家屋調査士は、その業務を行う地域における筆界を明らかにするための方法に関する慣習その他の業務についての知識を深めるよう努めなければならない。
+
+--- CARD 4 ---
+Heading (bold):
+土地家屋調査士は、2以上の事務所を設けることができない
+Illustration: An isometric single office building icon glowing green with a checkmark, next to a second office building icon crossed out with a red X, both connected to the same土地家屋調査士 character.
+Caption (small text below):
+土地家屋調査士は、2以上の事務所を設けることができない。
+
+--- CARD 5 ---
+Heading (bold):
+職印は「会則」ではなく、法務省令の定めによるものとされる
+Illustration: An isometric official seal (職印) with a document trail leading not to a 調査士会の会則 booklet (crossed out with a red X) but to a 法務省令 government-regulation booklet instead.
+Caption (small text below):
+土地家屋調査士が業務上使用する職印は、会則ではなく、法務省令の定めるところにより定めるものとされる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第20問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```
