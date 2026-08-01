@@ -81,3 +81,127 @@
 - 屋根裏、天井高1.5メートル以上なら1つの階なんです
 - 地下階の基準は「天井高の3分の1」なんです
 - 高床式は2メートルの床上げで「平家建」と呼べないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の構造の表示に関する5肢を、「造り・屋根の表示ルール」（ア・イ）と「階数の算入基準」（ウ・エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric building
+cross-sections, roof-tile textures, measuring rulers, attic/loft spaces,
+elevated stilt-house structures — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 構・造・屋・根・階・建・鉄・骨・造・地, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+屋根裏部屋は「階」に入る？
+建物の構造の表示ルール
+
+Subtitle (smaller, centered, 1行):
+造り・屋根・階数の基準を整理(平成29年度 午後の部 第16問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design building cross-section icon
+showing a visible skeleton frame (骨組み) inside, a roof made of two
+different tile textures, and a small attic space under the roof with a
+measuring ruler showing its height, all in one composite building image.
+建物の構造の表示は、「造り(材料)」「屋根の種類」「階数」を、細かな
+ルールに沿って公示するものです。主要構造部と外壁材の違い、屋根裏部屋
+や地階が階数に算入されるかどうかの基準を、数字とセットで押さえられて
+いるかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+造り・屋根の表示ルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+外壁にALC板を使っても、主要構造部が鉄骨造なら「鉄骨造」と表示
+Illustration: An isometric building cross-section icon showing a visible
+steel-frame skeleton (鉄骨) labeled "主要構造部"、with a lightweight
+panel texture (ALC板) applied only to the outer wall surface, and a
+label "鉄骨造" glowing on the whole building, NOT "鉄骨・鉄筋コンクリート
+造".
+Caption (small text below):
+主要構造部が鉄骨造であって壁構造ではない建物で、外壁に軽量気泡コンク
+リート(ALC板)を使用している場合であっても、建物の構造欄には「鉄骨造」
+と表示する。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+屋根の種類は、床面積の3割以上を占めるものを表示
+Illustration: An isometric roof icon split into two texture zones — a
+larger zone (65%) with スレート texture and a smaller zone (35%) with
+かわら texture, both zones highlighted with checkmarks since both exceed
+30%, with a small pie-chart percentage indicator beside the roof.
+Caption (small text below):
+建物の屋根の種類が複数ある場合、床面積に算入する部分の屋根面積の30％
+以上を占める種類の屋根は、いずれも表示の対象となる。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+階数の算入基準
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+屋根裏部屋は、天井高1.5メートル以上なら階数に算入
+Illustration: An isometric building cross-section showing a small attic
+space under the roof with a fold-down ladder icon, a measuring ruler
+beside it reading "1.5m"、and a checkmark showing this attic now counts
+as an additional floor, making the building display as "3階建".
+Caption (small text below):
+2階層からなる建物の2階層部分の天井の上にある屋根裏部屋の床から天井
+までの高さが1.5メートルであるときは、これを1階層として算入し、建物の
+構造欄には「3階建」と表示する(準則81条4項)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+地下階の基準は「天井高の3分の1」以上沈んでいるか
+Illustration: An isometric building cross-section showing the lowest
+floor's floor level positioned below a dotted "地盤面" ground line, with
+a measuring bracket comparing the sunken depth to one-third of the
+floor's ceiling height, and a "地下1階" label appearing once the depth
+exceeds that one-third threshold.
+Caption (small text below):
+床面が地盤面下にある階層は、床面から地盤面までの高さが、その階の天井
+までの高さの3分の1以上あるときに、地下階として取り扱う。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+床上げが地盤面から1.5メートル以上なら「高床式平家建」
+Illustration: An isometric平家建 (single-story) building icon standing
+on tall steel pillar stilts, with a measuring ruler beside the pillars
+reading "2.0m"、and a label "高床式平家建" glowing on the building,
+contrasted with a crossed-out plain "平家建" label.
+Caption (small text below):
+店舗として使用されている平家建の建物が地盤面から2.0メートル床上げ
+されており、床上げされた場所が外気と遮断する壁のない駐車場として
+使用されているときは、建物の構造欄には「高床式平家建」と表示する。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第16問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 構・造・屋・根・階・建・鉄・骨・造・地. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 造り・屋根の表示ルール, 3 cards under 階数の算入基準), with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```
