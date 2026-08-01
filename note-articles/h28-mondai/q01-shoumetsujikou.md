@@ -81,3 +81,81 @@
 - 訴えを取り下げても実は効力が残ってるんです
 - ちょっと返しただけで残りも認めたことになるんです
 - 時効成立後に「認めます」は命取りなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+消滅時効を止める・動かす5つの場面を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric hourglasses, clocks, envelopes, courthouse/gavel, coin stacks, locked doors — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・時・効, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+消滅時効、
+止まる場面・止まらない場面
+
+Subtitle (smaller, centered, 1行):
+催告・確定判決・一部弁済・時効完成後の承認を整理(平成28年度 午後の部 第1問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric hourglass with sand flowing, and a hand icon reaching out to press a stop button on it, with a small calendar in the background counting down days, representing how debts can quietly reach their time limit unless someone acts.
+AがBに100万円を貸した事例をもとに、催告・裁判上の請求・承認といった「時効の完成を止める手段」が、それぞれどこまで効力を及ぼすのかを5つの場面で整理します。
+--- CARD 1 ---
+Heading (bold):
+催告は一度だけ、6か月の猶予をくれる
+Illustration: An isometric figure mailing a letter icon labeled 催告 toward another figure, with a 6-month gauge clock ticking down; a second letter sent shortly after is shown with a prohibition mark and no extra time added to the gauge.
+Caption (small text below):
+最初の催告から6か月以内に再び催告しても、そこから新たな6か月の完成猶予は生じない。
+--- CARD 2 ---
+Heading (bold):
+確定判決が出れば、そこから時効は生まれ変わる
+Illustration: An isometric courthouse and gavel icon stamping a document labeled 確定判決, with a calendar/timeline icon resetting to zero and a fresh arrow starting a brand-new countdown.
+Caption (small text below):
+裁判上の請求によって中断した時効は、判決が確定した時から新たにその進行を始める。
+--- CARD 3 ---
+Heading (bold):
+取り下げても、請求の意思表示は催告として残る
+Illustration: An isometric lawsuit document being crumpled/withdrawn (取下げ) by a figure, but a glowing stamp reading 催告として有効 remains attached to it, still connected by a dotted line to the time-limit gauge.
+Caption (small text below):
+訴え提起後に訴えを取り下げても、その意思表示は裁判上の催告として時効の完成猶予の効力を持つ。
+--- CARD 4 ---
+Heading (bold):
+一部でも返せば、残りも認めたことになる
+Illustration: An isometric hand handing over a small stack of coins labeled 50万円 to a creditor figure, next to a larger ledger icon showing 100万円 with the remaining 50万円 portion stamped 承認 and glowing.
+Caption (small text below):
+一部弁済は残債務の承認にあたり、残部についても時効中断の効力が生じる。
+--- CARD 5 ---
+Heading (bold):
+時効成立後に認めたら、もう時効は主張できない
+Illustration: An isometric figure bowing apologetically toward a creditor figure after time has clearly run out (broken hourglass in background), with a locked door icon labeled 時効の援用不可 behind the debtor.
+Caption (small text below):
+時効完成後に債務を承認すると、その後は信義則上、時効を援用することができない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第1問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・時・効. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

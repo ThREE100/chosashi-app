@@ -80,3 +80,81 @@
 - 資料は原本じゃなくて、写しでいいんです
 - 通知が届いたら、もう取り下げられないんです
 - 判決が出ても、全部が無効になるわけじゃないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+筆界特定をめぐる5つの手続ルールを、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric boundary lines, magnifying glasses, courthouses, envelopes, document copies — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+判決が出ても、
+筆界特定は消えない
+
+Subtitle (smaller, centered, 1行):
+申請情報・資料提出・取下げ・訴訟との関係を整理(平成28年度 午後の部 第18問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric boundary line between two land plots, with a magnifying glass icon(筆界特定)hovering on one side and a courthouse/gavel icon(筆界確定訴訟)on the other, both pointing at the same line.
+複数申請のまとめ方、申請情報の記載事項、資料提出の方法、通知発送後の取下げ、筆界確定訴訟との関係という5つの場面を通じて、筆界特定の手続を整理します。
+--- CARD 1 ---
+Heading (bold):
+土地が共通なら、まとめて1つの申請でできる
+Illustration: Three isometric land plots sharing one common overlapping plot(対象土地の一を共通にする), all covered together by a single 筆界特定申請情報 document icon.
+Caption (small text below):
+対象土地の一を共通にする複数の筆界特定の申請は、一の申請情報によって申請することができる(不動産登記法124条2項)。
+--- CARD 2 ---
+Heading (bold):
+相手の主張線まで、書く義務はない
+Illustration: An isometric applicant figure writing their own claimed boundary line(申請人の主張線)on the application form, with a neighboring landowner's separately claimed line shown apart with a crossed-out 記載義務 stamp.
+Caption (small text below):
+関係土地の所有者が主張する筆界線を申請情報の内容とすることまでは求められていない。
+--- CARD 3 ---
+Heading (bold):
+資料は原本じゃなく、写し3部でいい
+Illustration: An isometric original document(原本)crossed out with a prohibition mark, replaced by three identical copy icons(写し×3)being submitted to a 筆界特定登記官 figure.
+Caption (small text below):
+資料を書面で提出するときは、写しを3部提出すれば足り、原本の提出は不要(不動産登記規則220条1項)。
+--- CARD 4 ---
+Heading (bold):
+通知が届いたら、もう取り下げられない
+Illustration: An isometric 筆界特定の通知 envelope being delivered into an applicant figure's hands, with a glowing 取下げ不可 lock icon appearing immediately afterward.
+Caption (small text below):
+筆界特定登記官が申請人に筆界特定の通知を発送した後は、申請の取下げはできない。
+--- CARD 5 ---
+Heading (bold):
+判決が出ても、全部が消えるわけじゃない
+Illustration: An isometric 筆界特定 result document with a court judgment(筆界確定訴訟の判決)icon overlapping only a small portion of it, while the rest of the document remains intact and glowing as still valid.
+Caption (small text below):
+筆界確定訴訟の判決が確定しても、筆界特定は判決と抵触する範囲でのみ効力を失う(不動産登記法148条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第18問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

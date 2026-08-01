@@ -80,3 +80,81 @@
 - 契印、実は1人がすれば足りるんです
 - 精度区分によって、更正登記の要不要が変わるんです
 - 理事長でも、単独では申請できないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地の分筆の登記をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots being split, dotted dividing lines, magnifying glasses, stamps, precision gauges — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+分筆登記、
+直せるもの・直せないもの
+
+Subtitle (smaller, centered, 1行):
+地図訂正・共有物分割禁止・契印・精度区分・敷地権を整理(平成28年度 午後の部 第9問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric land plot being split into two by a dotted line (分筆), with a magnifying glass hovering over the dividing line revealing a small error mark on it.
+地積測量図の誤りの直し方、共有物分割禁止の定め、書面申請の契印、精度区分による更正登記の要否、賃借権が敷地権の場合の申請人という5つの場面を整理します。
+--- CARD 1 ---
+Heading (bold):
+分筆線の誤りは、地図訂正では直せない
+Illustration: An isometric land plot with a crooked dividing line (誤った分筆線) and a 地図訂正の申出 stamp crossed out with a prohibition mark, replaced by a glowing 分筆錯誤の登記 stamp.
+Caption (small text below):
+地積測量図の分筆線の誤りは、地図訂正の申出では直せず、分筆錯誤の登記による(昭和43年6月8日民事甲第1653号)。
+--- CARD 2 ---
+Heading (bold):
+共有物分割禁止でも、分筆はできる
+Illustration: An isometric shared land plot with a 共有物分割禁止 lock icon on top, but a separate dotted 分筆 split-line passing straight through it unaffected, with a checkmark.
+Caption (small text below):
+共有物分割禁止の定めがある土地でも、表示に関する登記である分筆の登記は申請できる。
+--- CARD 3 ---
+Heading (bold):
+契印は、共有者のうち1人でいい
+Illustration: An isometric multi-page application document with a single stamp (契印) pressed at the binding, only one of two co-owner figures holding the seal while the other stands by empty-handed.
+Caption (small text below):
+申請書が2枚以上でも、共有者のうち1人が各用紙のつづり目に契印すれば足りる(不動産登記規則46条2項)。
+--- CARD 4 ---
+Heading (bold):
+精度区分によって、更正登記の要否が変わる
+Illustration: Two isometric land-survey precision gauge icons labeled 甲1 with a glowing checkmark(更正登記不要), and 乙1 with a prohibition mark(特例は適用されない).
+Caption (small text below):
+更正登記を要しない特例は精度区分甲1が前提であり、乙1の精度区分には適用されない。
+--- CARD 5 ---
+Heading (bold):
+賃借権が敷地権のとき、理事長は申請できない
+Illustration: An isometric apartment building with a 管理組合理事長 figure crossed out as 申請人ではない, while the land owner (賃貸人) figure below the building is marked with a glowing 申請人 badge.
+Caption (small text below):
+賃借権を敷地権とする土地の分筆登記の申請人は土地の所有権登記名義人(賃貸人)であり、理事長ではない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第9問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

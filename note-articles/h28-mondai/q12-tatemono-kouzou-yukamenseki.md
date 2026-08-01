@@ -82,3 +82,81 @@
 - 天井が低くても、部分だけなら算入されるんです
 - 地下道の分は、足しちゃダメなんです
 - 屋根と手すりがあっても、階段は床面積に入らないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の構造及び床面積をめぐる5つの規定を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric cutaway buildings, roof shapes, elevated railways, staircases, station platforms — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「算入する」「しない」を
+逆に覚えると危ない
+
+Subtitle (smaller, centered, 1行):
+屋根の種類・階数表示・天井高・地下道・屋外階段を整理(平成28年度 午後の部 第12問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric cutaway building icon with different room sections highlighted in different colors, some glowing green and stamped 算入 and others grayed out and stamped 算入しない.
+区分した専有部分の屋根の種類、ガード下建物の階数表示、天井高1.5メートル未満の部分、停車場の地下道設備、屋外階段という5つの場面を通じて、床面積の算入・不算入のルールを整理します。
+--- CARD 1 ---
+Heading (bold):
+区分した専有部分に、屋根の種類は書かない
+Illustration: An isometric apartment building divided into individual 専有部分 units, each unit's structure label box showing a crossed-out roof icon, while the overall whole-building icon above keeps its own roof-type label intact.
+Caption (small text below):
+共同住宅を階層的に区分した専有部分の構造には、屋根の種類を記録する必要はない(準則81条3項)。
+--- CARD 2 ---
+Heading (bold):
+ガード下の建物は「ガード下◯階建」と書く
+Illustration: An isometric building constructed underneath an elevated railway track(ガード), with a tag reading ガード下2階建 attached to it.
+Caption (small text below):
+ガード下に新築された建物の階数区分は「ガード下◯階建」と記録する(準則81条1項3号ウ・77条1号ウ)。
+--- CARD 3 ---
+Heading (bold):
+天井が低い部分も、一室まるごと床面積に入る
+Illustration: An isometric cross-section of a single room where part of the ceiling is lower than 1.5メートル(highlighted in a different shade), but the entire floor area of the room is shaded green and stamped 床面積に算入.
+Caption (small text below):
+一室の一部の天井高が1.5メートル未満でも、その部分を含め一室全体が床面積に算入される(準則82条1項1号)。
+--- CARD 4 ---
+Heading (bold):
+地下道の面積は、乗降場の床面積に入れない
+Illustration: An isometric train station platform icon(乗降場)with a separate underground passage(地下道設備)connected by a crossed-out arrow, showing the passage area is NOT added into the platform's floor-area total.
+Caption (small text below):
+停車場の乗降場及び荷物積卸場の床面積には、地下道設備の面積を算入しない(準則82条1項4号)。
+--- CARD 5 ---
+Heading (bold):
+屋根や手すりがあっても、屋外階段は床面積に入らない
+Illustration: An isometric exterior staircase with a small roof and handrail attached, its floor area shaded gray and stamped 算入しない with a crossed-out floor-area icon.
+Caption (small text below):
+外気分断性のない屋外階段は、雨除けの屋根や手すりがあっても床面積に算入しない(準則82条1項7号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第12問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

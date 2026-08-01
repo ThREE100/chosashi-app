@@ -82,3 +82,81 @@
 - 区分合併、実は「仲良し」じゃなくてもいいんです
 - 床面積が同じでも、図面は作り直すんです
 - 表題部所有者なら、印鑑証明書はいらないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の合併の登記をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。R04年度第16問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric merging buildings, family trees, address tags, seals, floor-plan drawings — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「所有者が死んだ」だけでは
+合併登記は止まらない
+
+Subtitle (smaller, centered, 1行):
+相続・住所不一致・区分合併・図面・印鑑証明を整理(平成28年度 午後の部 第14問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Two isometric buildings(甲建物・乙建物)merging into a single building(合併), with a small family-tree icon(相続人)standing beside them.
+相続登記の要否、住所の不一致、区分合併の要件、合併後の図面、表題部所有者の印鑑証明という5つの場面を通じて、建物の合併の登記を整理します。
+--- CARD 1 ---
+Heading (bold):
+相続登記なしでも、相続人が合併登記できる
+Illustration: An isometric deceased registered-owner figure fading away, with an arrow going directly to heir figures submitting a 合併登記 application, skipping over a crossed-out 相続登記 step in between.
+Caption (small text below):
+表示に関する登記は相続登記を経なくても、相続人が被相続人名義のまま合併登記を申請できる(不動産登記法30条)。
+--- CARD 2 ---
+Heading (bold):
+住所が食い違ったままでは、合併できない
+Illustration: Two isometric buildings with mismatched address tags for the same owner(旧住所 vs 新住所), and a document icon labeled 住所の変更を証する情報 with a prohibition mark stamped 合併不可 over it.
+Caption (small text below):
+甲乙の登記記録上の住所が一致していなければ、住所変更を証する情報を提供しても合併できない。
+--- CARD 3 ---
+Heading (bold):
+区分合併は、仲良し(効用上一体)じゃなくてもいい
+Illustration: Two isometric adjacent apartment units(区分建物)merging together, with a crossed-out 効用上一体 requirement icon floating beside them, keeping only glowing 同一名義人・接続 checkmarks.
+Caption (small text below):
+区分合併は所有権登記名義人が同一で互いに接続していれば足り、効用上一体の関係は不要(不動産登記規則133条)。
+--- CARD 4 ---
+Heading (bold):
+床面積が同じでも、合併後の図面は必ず作る
+Illustration: Two isometric buildings merging with a fresh 各階平面図 being actively drawn, despite a 床面積変更なし label nearby, and a crossed-out 省略可 stamp.
+Caption (small text below):
+従来の各階平面図の床面積に変更がなくても、合併後の各階平面図の添付は省略できない(不動産登記令別表16項添付情報イ)。
+--- CARD 5 ---
+Heading (bold):
+表題部所有者なら、印鑑証明はいらない
+Illustration: An isometric 表題部所有者 figure submitting an application with a 印鑑に関する証明書 icon crossed out as unnecessary, contrasted with a 所有権登記名義人 figure beside it who does need to submit one.
+Caption (small text below):
+表題部所有者が合併登記を申請するときは、印鑑に関する証明書の添付は不要。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第14問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

@@ -81,3 +81,81 @@
 - 余白があれば書き足していいんです
 - その朱書き、実は義務じゃないんです
 - 廃止した規約、図面は作り直さなくていいんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物図面及び各階平面図をめぐる5つの規定を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。R05年度第10問・R03年度第13問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric drafting sheets, seals, red ink brushes, underground floor plans, apartment buildings — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+押すのは誰のハンコ?
+図面の細かいルール
+
+Subtitle (smaller, centered, 1行):
+記名押印・地番変更・余白・朱書・共用部分廃止を整理(平成28年度 午後の部 第17問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric drafting sheet split into 建物図面(right side)and 各階平面図(left side)on one page, with one hand pressing a seal(作成者の押印)and a separate hand only writing a name(申請人の記名)without a seal.
+記名押印の主体、敷地分筆に伴う地番変更、各階平面図の余白の使い方、地下部分の朱書、共用部分廃止後の図面という5つの場面を通じて、建物図面及び各階平面図のルールを整理します。
+--- CARD 1 ---
+Heading (bold):
+申請人は記名だけ、押印するのは作成者
+Illustration: An isometric applicant figure(申請人)writing only a name(記名)with no seal, next to a separate 作成者(調査士)figure both writing a name and pressing a seal(記名押印).
+Caption (small text below):
+建物図面・各階平面図には、申請人は記名のみでよく、押印まで必要なのは作成者(不動産登記規則74条2項)。
+--- CARD 2 ---
+Heading (bold):
+敷地が分筆で地番が変われば、新しい図面がいる
+Illustration: An isometric land plot being divided(分筆)causing its地番 tag to change, with the building on top of it requiring an updated 建物図面 document to be submitted alongside.
+Caption (small text below):
+敷地の分筆に伴い建物の所在地番が変わる変更登記では、変更後の建物図面を提供しなければならない。
+--- CARD 3 ---
+Heading (bold):
+各階平面図の余白に、建物図面を描いてもいい
+Illustration: An isometric single drawing sheet with 各階平面図 drawn on the left half and empty space(余白)on the right half being filled in with a 建物図面 drawing, merging into one sheet.
+Caption (small text below):
+各階平面図の用紙に余白があるときは、その余白を用いて建物図面を作成できる(不動産登記規則74条3項)。
+--- CARD 4 ---
+Heading (bold):
+朱書きが必要なのは、地下だけの建物
+Illustration: Two isometric buildings side by side — one entirely underground(地下のみの建物, drawn with red朱書 outlines)and one with both underground and above-ground floors(地下1階付き2階建, drawn in normal black ink with a crossed-out 朱書必須 stamp beside it).
+Caption (small text below):
+建物図面の朱書義務は地下のみの建物が対象であり、地上階もある建物には適用されない。
+--- CARD 5 ---
+Heading (bold):
+共用部分の規約が消えても、図面は使い回せる
+Illustration: An isometric building with a 共用部分である旨の登記 stamp being removed(規約廃止), and its existing 建物図面・各階平面図 being reused directly without any 新規提出 stamp attached.
+Caption (small text below):
+共用部分である旨の登記の廃止による表題登記では、建物図面及び各階平面図の提供は不要。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第17問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

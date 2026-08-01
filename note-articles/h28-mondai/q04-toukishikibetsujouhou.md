@@ -82,3 +82,81 @@
 - 6か月過ぎたら、前の住所には届かないんです
 - 海外在住なら、返事の期限は4週間になるんです
 - 本人が亡くなっても、相続人全員でOKって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記識別情報を提供できない場合の手続を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。イの内容は断定的すぎないニュアンスの図解にとどめている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric ID cards, envelopes, application forms, mailboxes, world globe, family groups — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+識別情報が出せない時、
+どう乗り切るか
+
+Subtitle (smaller, centered, 1行):
+理由の記載・本人確認・前住所通知・外国居住・相続後の申出を整理(平成28年度 午後の部 第4問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric figure holding an empty ID-card-shaped icon labeled 登記識別情報 with a large question mark floating above it, standing next to a filled-in application document icon labeled 申請情報.
+登記識別情報を提供できないときの、理由の記載義務・本人確認の方法・前住所通知・外国居住者の申出期間・相続発生後の申出という5つの手続を整理します。
+--- CARD 1 ---
+Heading (bold):
+提供できない理由は、申請情報にきちんと書く
+Illustration: An isometric application document icon labeled 申請情報 with a filled-in section clearly labeled 提供できない理由, a checkmark stamp confirming it cannot be left blank.
+Caption (small text below):
+正当な理由があっても、提供できない理由の記載を省略することはできない(不動産登記令3条12号)。
+--- CARD 2 ---
+Heading (bold):
+本人確認の方法は、ひとつに限られないと考えられる
+Illustration: An isometric fork-in-the-road with three signposts: 事前通知, 資格者代理人による本人確認情報, and a third unlabeled signpost marked with a small question mark, suggesting the range of possible methods is not fully closed.
+Caption (small text below):
+事前通知・資格者代理人による本人確認情報の提供以外の方法も想定される余地があり、断定は避けたい論点。
+--- CARD 3 ---
+Heading (bold):
+半年たてば、前の住所には知らせが行かない
+Illustration: An isometric old house icon labeled 前の住所 with a mail envelope icon crossed out beside it, and a calendar showing 6か月経過, contrasted with a new house icon labeled 現在の住所 receiving the envelope instead.
+Caption (small text below):
+住所変更登記の受付日から一定の短期間を過ぎていれば、登記官から前の住所にあてた通知はされない。
+--- CARD 4 ---
+Heading (bold):
+海外在住なら、返事の期限は4週間
+Illustration: An isometric airmail envelope flying from a Japanese registry building icon toward a globe icon representing an overseas address, with a calendar showing 4週間 instead of the usual shorter period.
+Caption (small text below):
+登記名義人が外国に住所を有するときは、事前通知への申出期間は4週間以内(不動産登記規則70条)。
+--- CARD 5 ---
+Heading (bold):
+本人が亡くなっても、相続人全員でなら手続きを進められる
+Illustration: An isometric group of heir figures (相続人全員) standing together signing a single document, replacing a faded single figure who has passed away, with a checkmark stamp confirming the申出 can proceed.
+Caption (small text below):
+事前通知を受けるべき者が死亡しても、相続人全員から相続証明情報を提供すれば、真実である旨の申出ができる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第4問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

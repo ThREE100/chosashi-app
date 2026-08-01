@@ -83,3 +83,81 @@
 - 郵送するなら書留一択って知ってた？
 - 却下されても書類は戻ってくるんです
 - 「できない」に見えて実は「できる」がひっかけどころ
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+特例方式をめぐる5つの手続ルールを、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric computers, paper documents, envelopes, mailboxes, registered mail stamps, returned document stacks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+特例方式でも、
+原則はちゃんと生きている
+
+Subtitle (smaller, centered, 1行):
+添付情報の提供方法・書留郵便・原本還付を整理(平成28年度 午後の部 第5問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric computer/electronic application icon connected by a dotted line to a paper document icon, visually representing the half-electronic, half-paper nature of 特例方式(添付情報の提供方法の特例)。
+特例方式により表示に関する登記を申請する場合の、書面提出の別・提出方法・送付方法・却下取下げ後の還付・原本還付請求という5つの手続を整理します。
+--- CARD 1 ---
+Heading (bold):
+書面提出するかどうかは、申請情報にきちんと書く
+Illustration: An isometric application form icon with a checkbox section clearly labeled 書面提出の別, a checkmark stamp confirming it must be filled in for each attached document.
+Caption (small text below):
+特例方式では、各添付情報について書面提出の方法によるか否かの別を申請情報の内容としなければならない。
+--- CARD 2 ---
+Heading (bold):
+持参でも郵送でも、どちらでもいい
+Illustration: An isometric document splitting into two equal paths: one leading to a walking figure carrying it to a registry building icon (持参), the other leading to a mailbox icon (送付), both paths marked with checkmarks.
+Caption (small text below):
+書面の提出方法は、登記所への持参・送付のいずれによることもできる。
+--- CARD 3 ---
+Heading (bold):
+送るなら、記録が残る方法で
+Illustration: An isometric registered mail envelope (書留郵便) with a tracking receipt stamp, contrasted with a plain ordinary envelope crossed out with a prohibition mark beside it.
+Caption (small text below):
+送付するときは、書留郵便または引受け・配達の記録が残る信書便の役務によらなければならない。
+--- CARD 4 ---
+Heading (bold):
+却下・取下げでも、書類はちゃんと返ってくる
+Illustration: An isometric stack of documents being handed back from a registry official figure to an applicant figure, with a small separate icon showing a forged document (偽造書類) crossed out as the sole exception.
+Caption (small text below):
+申請が却下・取下げになっても、偽造の疑いがある書面等を除き、添付書面は申請人に還付される。
+--- CARD 5 ---
+Heading (bold):
+特例方式でも、原本を返してもらえる
+Illustration: An isometric original document icon (原本) being handed back to an applicant with a glowing 還付請求できる stamp, while a copy icon (写し) stays behind in the registry's files.
+Caption (small text below):
+特例方式で提出した添付書面についても、原本の還付を請求することができる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第5問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

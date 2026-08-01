@@ -82,3 +82,81 @@
 - 法人を作っても、社員の連帯責任は消えないんです
 - 公務員だった頃の仕事、法人も引き継げないって知ってた？
 - 依頼者がOKでも、相手方からは受けられないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地家屋調査士法人の業務制限をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric office buildings, staff figures, contracts, coin purses, badges — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・調・査, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「みんなの同意」があっても、
+できないことがある
+
+Subtitle (smaller, centered, 1行):
+業務制限・競業禁止・連帯責任・筆界調査委員・使用人を整理(平成28年度 午後の部 第20問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric 土地家屋調査士法人 office building icon with several社員 figures inside, and one figure(X)shown stepping outside the building to represent leaving(脱退)or working as a使用人.
+脱退後の業務制限、競業禁止の絶対性、社員の連帯責任、筆界調査委員経験者への制限、使用人が受任した事件の相手方制限という5つの場面を通じて、調査士法人の業務制限を整理します。
+--- CARD 1 ---
+Heading (bold):
+関わっていない事件なら、脱退後も引き受けられる
+Illustration: An isometric former社員 figure(脱退後のX)standing outside the法人 office building, receiving a new case document from the相手方 of a matter X never touched while still inside, marked with a checkmark.
+Caption (small text below):
+業務制限の対象は在職中に自ら関与した事件に限られ、関与していない事件なら脱退後に相手方から受任できる(法22条の2第2項)。
+--- CARD 2 ---
+Heading (bold):
+全員が賛成しても、競業はできない
+Illustration: An isometric group of社員 figures all giving a thumbs-up(総社員の同意)toward one社員(X)starting a side business, but a large 禁止 stamp blocks the attempt anyway.
+Caption (small text below):
+調査士法人の社員の競業禁止は、総社員の同意があっても解除されない絶対的な禁止(法37条1項)。
+--- CARD 3 ---
+Heading (bold):
+法人の財産で足りなければ、社員みんなで払う
+Illustration: An isometric法人 office building with an empty coin purse(財産不足), and all社員 figures each contributing their own coins together(連帯して弁済)toward a依頼者 figure.
+Caption (small text below):
+法人財産で債務を完済できないときは、各社員が連帯してその弁済の責任を負う(法35条の3第1項)。
+--- CARD 4 ---
+Heading (bold):
+元・筆界調査委員の事件は、法人でも扱えない
+Illustration: An isometric社員 figure(X)wearing a 筆界調査委員 badge handling a case in the past, and that same case being brought later to the法人, blocked by a 受任不可 stamp.
+Caption (small text below):
+社員が筆界調査委員として職務上取り扱った事件は、その者が所属する法人も受任できない(法22条の2第1項)。
+--- CARD 5 ---
+Heading (bold):
+依頼者がOKでも、相手方は受けられない
+Illustration: An isometric使用人 figure(X)already representing依頼者A, with相手方B approaching the法人 for the same case, blocked despite A giving a thumbs-up(同意)icon nearby.
+Caption (small text below):
+使用人が既に受任している事件の相手方からは、依頼者の同意があっても法人は受任できない(法36条の3第1項4号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第20問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・調・査. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

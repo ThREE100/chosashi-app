@@ -80,3 +80,81 @@
 - 保安林でも、合筆はできちゃうんです
 - 質権の内容が同じなら、合筆できるんです
 - 信託の登記があっても、合筆できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+合筆の登記をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。R06年度第9問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric merging land plots, forest icons, ledger tags, precision scales, identical stamp pairs — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+保安林でも合筆できる、
+その境界線
+
+Subtitle (smaller, centered, 1行):
+地役権・地積の丸め方・質権・信託のルールを整理(平成28年度 午後の部 第10問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Two isometric adjacent land plots merging into one (合筆), with small attached tag icons for 地役権, 質権, and 信託 shown floating above, representing the various rights that can complicate a merger.
+承役地の地役権設定範囲、地積の丸め方、保安林、質権の同一性、信託の同一性という5つの場面を通じて、合筆の登記の制限と例外を整理します。
+--- CARD 1 ---
+Heading (bold):
+承役地の合筆では、地役権の範囲を書く
+Illustration: An isometric merging land plot with a highlighted partial area labeled 地役権設定の範囲, and an application form showing that same area marked in as申請情報の内容.
+Caption (small text below):
+承役地の合筆で地役権設定の範囲が合筆後の土地の一部であるときは、その範囲を申請情報の内容とする。
+--- CARD 2 ---
+Heading (bold):
+10平方メートル超なら、端数は切り捨てる
+Illustration: Two isometric area number tags, 9.0173㎡ and 3.3057㎡, being added together and then rounded down to a clean 12㎡ stamp, with a crossed-out 12.32㎡ tag beside it.
+Caption (small text below):
+10平方メートルを超える土地の地積は1平方メートル未満を切り捨てて表示する(不動産登記規則100条)。
+--- CARD 3 ---
+Heading (bold):
+保安林のままでも、合筆できる
+Illustration: Two isometric forest-covered land plots (保安林) merging together with a glowing checkmark, no 指定解除 stamp required anywhere in the illustration.
+Caption (small text below):
+保安林であることは合筆の登記の制限事由にあたらず、指定解除を待たずに合筆できる(不動産登記法41条)。
+--- CARD 4 ---
+Heading (bold):
+質権の内容がそっくり同じなら、合筆できる
+Illustration: Two isometric land plots each carrying an identical 質権 tag (same date, same number, same creditor icon), merging together with a glowing checkmark.
+Caption (small text below):
+質権の登記の目的・受付年月日及び受付番号・原因及びその日付・登記名義人がすべて同一なら合筆できる(不動産登記法41条4号)。
+--- CARD 5 ---
+Heading (bold):
+信託の内容がそっくり同じなら、合筆できる
+Illustration: Two isometric land plots each carrying an identical 信託 tag, merging together with a glowing checkmark, using the same visual pattern as the previous card but labeled 信託.
+Caption (small text below):
+信託の登記事項が同一であれば、信託の登記がある土地でも合筆の登記を申請できる(不動産登記法41条4号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第10問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

@@ -80,3 +80,81 @@
 - 買っただけの附属建物でも代位で登記できるんです
 - 所在地が変わったら抹消線つきで記録されるんです
 - 所有権、コピーされないケースもあるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の分割の登記をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings splitting apart, mortgage tags, registry record cards, documents — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物を分けても、
+抵当権は消えない
+
+Subtitle (smaller, centered, 1行):
+承諾・添付情報・代位・記録方法・転写を整理(平成28年度 午後の部 第13問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric main building(甲建物)splitting off its attached附属建物 into a separate building(乙建物), with a small 抵当権 tag shown following one side of the split.
+抵当権消滅の承諾、共用部分の添付情報、代位申請、不動産所在事項の記録方法、所有権登記の転写という5つの場面を通じて、建物の分割の登記を整理します。
+--- CARD 1 ---
+Heading (bold):
+承諾があれば、抵当権は片方だけに残せる
+Illustration: An isometric 抵当権 tag attached to both 甲建物 and 乙建物 before splitting; after a glowing 承諾情報 stamp is applied, the tag remains only on 甲建物 while the tag on 乙建物 fades away.
+Caption (small text below):
+抵当権者の消滅承諾情報の提供があれば、分割後は一方の建物のみに抵当権を存続させられる。
+--- CARD 2 ---
+Heading (bold):
+共用部分の登記があっても、所有者証明は必要
+Illustration: An isometric building stamped 共用部分である旨の登記, still requiring a document icon labeled 建物の所有者を証する情報 to be submitted, marked with a checkmark rather than being skipped.
+Caption (small text below):
+甲建物に共用部分である旨の登記があっても、建物の所有者を証する情報の添付は必要。
+--- CARD 3 ---
+Heading (bold):
+附属建物を取得した人は、代位で申請できる
+Illustration: An isometric figure who purchased only the附属建物(highlighted in a bright color)submitting an application marked 代位により on behalf of the passive registered owner of 甲建物 standing beside it.
+Caption (small text below):
+附属建物の所有権を取得した者は、甲建物の所有権登記名義人に代位して分割登記を申請できる。
+--- CARD 4 ---
+Heading (bold):
+所在の変更は、変更前・変更後をセットで記録
+Illustration: An isometric registry record card showing three fields filled in together: 変更前の事項(with a strike-through mark), 分割により変更した旨, and 変更後の事項.
+Caption (small text below):
+分割による不動産所在事項の変更時は、変更後の事項・変更した旨・変更前事項の抹消記号を記録する。
+--- CARD 5 ---
+Heading (bold):
+所有権登記が先にあると、転写ではなく新規で記録
+Illustration: An isometric timeline showing 所有権登記(先)→ 附属建物の新築(後)→ 分割, with the resulting乙建物's registry record stamped 分割による所有権の登記 instead of a plain 転写 arrow.
+Caption (small text below):
+所有権登記後に新築された附属建物を分割する場合、所有権登記は転写されず、分割による所有権登記である旨が記録される。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第13問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

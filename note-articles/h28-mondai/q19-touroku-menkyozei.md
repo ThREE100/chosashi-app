@@ -80,3 +80,87 @@
 - 未登記建物との合体、保存登記できないんです
 - 分割と合併セットでも税額は建物の数で決まる
 - 地方公共団体の代位分筆はタダなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登録免許税をめぐる5つの場面を、「非課税になるケース」3枚と「課税・税額に注意」2枚の2列構成で俯瞰できるよう構成した画像生成プロンプト。R02年度第19問・R07年度第19問と非常に近い出題があるため、記事本文に沿った正確な文言・数字を使うこと。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric balance scales, coin stacks, tax stamps, government buildings, calculators — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「非課税のはず」が
+実は課税対象?
+
+Subtitle (smaller, centered, 1行):
+分筆・合筆・合体・分割合併・代位嘱託の税額を整理(平成28年度 午後の部 第19問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric balance scale with a 登録免許税 coin stack on one side and a glowing 非課税 stamp on the other, visually representing how the outcome tips case by case.
+分筆・合筆・合体・分割合併・代位嘱託という5つの場面を、非課税になるケースと課税・税額計算に注意すべきケースの2列に分けて整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+非課税になるケース
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+所有権登記のない土地同士の合筆は、非課税
+Illustration: Two isometric land plots, neither carrying a 所有権登記 tag, merging together(合筆)with a glowing 非課税 stamp.
+Caption (small text below):
+所有権の登記がない土地同士の合筆の登記には、登録免許税は課されない。
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+表題登記のない建物との合体は、非課税
+Illustration: An isometric untitled building(表題登記なし)merging with a titled-only building(表題登記のみ), unable to receive a 所有権保存登記 stamp, resulting in a glowing 非課税 stamp instead.
+Caption (small text below):
+表題登記のない建物との合体では所有権保存登記自体ができないため、登録免許税は課されない。
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+地方公共団体の代位嘱託は、非課税
+Illustration: An isometric local-government building icon(地方公共団体)submitting a 代位による分筆の登記 on behalf of a private landowner figure(私人), with a glowing 非課税 stamp.
+Caption (small text below):
+私人の土地について地方公共団体が代位により分筆の登記を嘱託するときは、登録免許税は課されない(登録免許税法5条1号)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+課税・税額の計算に注意
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+敷地権登記がある土地も、分筆には課税される
+Illustration: An isometric apartment building's land(敷地権付き土地)being divided(分筆), with a 1,000円 coin stamp attached to each resulting plot.
+Caption (small text below):
+敷地権の登記がある土地も所有権の登記がある土地として扱われ、分筆の登記には課税される。
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+分割+合併セットの税額は、できる建物の数で決まる
+Illustration: An isometric building split(分割)and merged(合併)in a single application, resulting in 2 separate buildings, with a calculation showing 1,000円×2=2,000円, and a crossed-out 3,000円 stamp beside it.
+Caption (small text below):
+分割の登記と合併の登記を一の申請情報で行う場合の税額は、結果としてできる建物の個数(1個につき1,000円)で決まる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第19問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3 cards under 非課税になるケース, 2 cards under 課税・税額の計算に注意), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

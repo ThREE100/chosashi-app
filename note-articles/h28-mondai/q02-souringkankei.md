@@ -80,3 +80,81 @@
 - 隣の枝、勝手に切っちゃダメだったんです
 - 修繕でも、家の中には入れないんです
 - 袋地の通行権、他人の土地には及ばないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+相隣関係の5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric adjacent land plots, boundary markers, small houses under construction, trees with branches, footpaths — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+隣の土地との
+ちょうどいい距離感
+
+Subtitle (smaller, centered, 1行):
+境界標・建築・竹木・立入り・袋地通行権を整理(平成28年度 午後の部 第2問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Two isometric adjacent land plots side by side with a small boundary marker post (境界標) planted exactly on the dividing line, and two house-shaped figures representing neighbors standing on each side.
+境界標の設置費用、境界線付近の建築、越境した竹木の枝、隣地への立入り、そして分割で生じた袋地の通行権という5つの場面を通じて、相隣関係の原則と権利の及ぶ範囲を整理します。
+--- CARD 1 ---
+Heading (bold):
+境界標の設置費用は、隣同士で等しく分ける
+Illustration: Two isometric neighbor figures standing on either side of a boundary marker post, each holding an identical small stack of coins labeled 等しい割合, while a separate smaller icon shows a 測量費用 stack split unevenly according to the size of each land plot.
+Caption (small text below):
+境界標の設置費用は原則として相隣者が等しい割合で負担し、測量費用のみ土地の広狭に応じる。
+--- CARD 2 ---
+Heading (bold):
+着手から1年たてば、もう建築は止められない
+Illustration: An isometric building under construction close to a boundary line, with a calendar counting up to 1年, and after the mark is passed, a prohibition icon over a 中止 stamp while a small coin icon labeled 損害賠償 remains available.
+Caption (small text below):
+境界線から距離を保たない建築でも、着手から1年経過後は中止させられず、損害賠償請求のみ可能。
+--- CARD 3 ---
+Heading (bold):
+越境した枝は、竹木の持ち主に切らせる
+Illustration: An isometric tree on one land plot with a branch crossing the boundary line into the neighboring plot; the neighboring landowner figure points at the branch while the tree's own owner figure, holding scissors, is the one shown cutting it.
+Caption (small text below):
+越境した竹木の枝は、隣地の所有者が自分で切ることはできず、竹木の所有者に切除させる。
+--- CARD 4 ---
+Heading (bold):
+修繕のためでも、住居には無断で入れない
+Illustration: An isometric figure holding repair tools standing just outside the door of a neighboring house, blocked by a small shield/lock icon labeled 承諾が必要, near a boundary line where wall repair work is happening.
+Caption (small text below):
+境界付近の修繕のため隣地を使用できる場合でも、住家への立入りには承諾が必要。
+--- CARD 5 ---
+Heading (bold):
+分割で生まれた袋地の通行権は、当事者の土地限定
+Illustration: An isometric diagram of a plot split into 甲(landlocked 袋地) and 乙 plots with a clear footpath arrow from 甲 through 乙 only, while a separate third-party 丙 plot nearby is marked with a red prohibition cross showing no path leads there.
+Caption (small text below):
+分割・譲渡によって生じた袋地の通行権は、他の分割者の土地に限られ、第三者の土地には及ばない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第2問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
