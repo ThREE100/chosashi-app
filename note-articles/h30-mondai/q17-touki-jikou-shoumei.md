@@ -81,3 +81,126 @@
 - 共同担保目録まで載せたいなら、ひと言そえるんです
 - 公図の写しは、どこの登記所でも取れるんです
 - 郵送で受け取るなら、送料も自分持ちなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記事項証明書・図面の写しの交付請求について、「請求できる範囲」「証明書の種類」「請求できる登記所」「手数料の負担」という4つの論点にまたがる5つの正しいルールを、1列に並んだ5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric survey maps, official
+certificate documents with a red stamp/seal, registry office (登記所)
+buildings, envelopes and postage stamps, coins, ledger books, checkmarks
+and prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・証・図・費・請・郵, which have
+Simplified Chinese look-alike forms with visibly different stroke shapes —
+always draw the standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+登記事項証明書の交付請求
+細かいルールを一気に整理
+
+Subtitle (smaller, centered, 1行):
+請求できる範囲・証明書の種類・登記所・手数料(平成30年度 午後の部 第17問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a person
+standing at a registry office (登記所) counter window handing over a
+request form, with four small labeled tag icons floating around the
+counter: a torn paper fragment tagged "範囲", a certificate document
+tagged "種類", a building icon tagged "登記所", and a coin icon tagged
+"手数料", showing that the request touches four different rules at once.
+登記事項証明書や各種図面の写しを「誰が」「どの範囲で」「どの登記所に」
+「どんな手数料で」請求できるのか、という交付手続の細かいルールを
+5つの正しいルールに整理します。
+
+--- CARD 1 ---
+Heading (bold):
+図面は「一部の写し」も請求できる
+Illustration: An isometric survey map (地積測量図) laid flat, with a
+dashed selection box highlighting one section of the map and a small
+scissors/crop icon at its edge; an arrow leads from the selected section
+to a small copied paper labeled "一部の写し" with a green checkmark,
+while the full map beside it is labeled "全部の写し" also with a green
+checkmark, showing both are allowed.
+Caption (small text below):
+土地所在図・地積測量図・地役権図面・建物図面・各階平面図の写しは、全部の
+写しだけでなく一部の写しの交付も請求できる(不動産登記令21条1項、不動産
+登記法121条1項)。
+
+--- CARD 2 ---
+Heading (bold):
+「表題部のみ」の証明書は存在しない
+Illustration: Two official stamped certificate documents standing upright
+side by side, one labeled "全部事項証明書" and one labeled "現在事項
+証明書", each with a green checkmark; beside them a third document
+outlined in dashed red lines labeled "表題部のみの証明書" with a red "×"
+mark over it, showing this type does not exist.
+Caption (small text below):
+登記事項証明書には全部事項証明書や現在事項証明書などの種類はあるが、
+「表題部のみ」を記載事項とする証明書という類型は用意されていない
+(不動産登記規則196条1項)。
+
+--- CARD 3 ---
+Heading (bold):
+共同担保目録も欲しいなら、請求書にひと言
+Illustration: An isometric registry certificate request form with a
+checkbox being ticked by a pencil, the checkbox labeled "共同担保目録も
+含める"; a dotted line connects the checked box to a stack of ledger
+pages labeled "共同担保目録" being attached to the certificate, with a
+small speech-bubble icon reading "その旨を請求情報に記載".
+Caption (small text below):
+共同担保目録に記録された事項についても証明を求めるときは、その旨を
+請求情報の内容としなければならない(不動産登記規則193条1項5号)。
+
+--- CARD 4 ---
+Heading (bold):
+地図に準ずる図面は、どの登記所でも請求できる
+Illustration: A simplified isometric map of Japan with several small
+registry office (登記所) building icons scattered across it; a person
+icon standing at one office holds up a document labeled "地図に準ずる
+図面", with green arrows and checkmarks radiating from that document to
+every other office icon on the map, and no prohibition marks anywhere.
+Caption (small text below):
+地図に準ずる図面(公図)の写しの交付は、その不動産の所在地を管轄する
+登記所に限らず、いずれの登記所に対しても請求することができる(不動産
+登記法120条1項、3項)。
+
+--- CARD 5 ---
+Heading (bold):
+郵送で受け取るなら、送付費用も自己負担
+Illustration: An isometric envelope with a certificate document peeking
+out, addressed to a house icon, a postage stamp on the corner; beside the
+envelope two coin-stack icons labeled "手数料" and "送付費用", both
+connected by a plus sign to show they are paid together.
+Caption (small text below):
+請求書を登記所に提出する方法で登記事項証明書の交付を請求し、申出により
+送付の方法で交付を受けるときは、手数料のほか送付に要する費用も納付
+しなければならない(不動産登記規則204条1項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第17問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・証・図・費・請・郵.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly, with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```
