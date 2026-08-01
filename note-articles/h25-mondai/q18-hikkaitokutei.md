@@ -1,0 +1,166 @@
+## 【土地家屋調査士受験生向け】平成25年度 第18問・筆界特定の記録は「永久」ではない〜筆界特定手続記録の保管ルール〜
+
+**出題年度：平成25年度　午後の部　第18問**
+
+> 次の対話は、筆界特定に関する教授と学生の対話である。教授の質問に対する次のアからオまでの学生の解答のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
+>
+> 教授：筆界特定登記官によって筆界特定がされ、筆界特定書が書面をもって作成されたという事例について、考えてみましょう。筆界特定登記官が筆界特定をした後は、どのような手続が行われますか。
+>
+> ア　筆界特定登記官は、遅滞なく、筆界特定の申請人に対し、筆界特定書の写しを交付する方法により当該筆界特定書の内容を通知するとともに、筆界特定をした旨を公告し、かつ、関係人に通知しなければなりません。
+>
+> イ　筆界特定書を含む筆界特定手続記録は、B出張所ではなく、A法務局において保管されます。
+>
+> ウ　筆界特定書を含む筆界特定手続記録に記載された情報の保存期間は、永久とされています。
+>
+> エ　はい。何人も、登記官に対し、手数料を納付して、筆界特定書の写しの交付を請求することができます。
+>
+> オ　筆界特定がされた旨の記録が乙土地の登記記録に転写されることとなります。
+>
+> 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
+
+筆界特定制度は比較的新しい制度で、手続の流れ（通知・公告）と、記録の管理（保管場所・保存期間・公開）の両方が出題対象になります。特に「手続を実際に行った登記所（出張所を含む）で記録が保管される」という点は、上級官庁で一元管理されるイメージと混同しやすいポイントです。
+
+### ア：筆界特定登記官は、写しの交付・公告・関係人への通知を行う
+
+筆界特定登記官が筆界特定をした後は、遅滞なく、申請人に対して筆界特定書の写しを交付する方法によりその内容を通知するとともに、筆界特定をした旨を公告し、かつ関係人にも通知しなければなりません。これは筆界特定の効力を関係者に周知させるための基本的な事後手続です。
+
+**たとえば**、隣接する土地の境界について筆界特定がされた場合、その結果は申請人に書面で伝えられるだけでなく、広く公告され、隣地の所有者などの関係人にも通知されます。
+
+### イ：筆界特定手続記録は、実際に手続を行った登記所（出張所）で保管される
+
+筆界特定書を含む筆界特定手続記録は、実際に申請を受けて手続を行った登記所（この事例ではB出張所）で保管されます。上級官庁であるA法務局に記録が一元的に集められて保管されるわけではありません。「A法務局において保管される」とするのは誤りです。
+
+**たとえば**、B出張所の管轄区域内にある土地について筆界特定の手続が行われた場合、その手続記録は、上部組織であるA法務局にではなく、実際に手続を担当したB出張所において保管されます。
+
+### ウ：筆界特定手続記録の保存期間は、永久ではない
+
+筆界特定手続記録に記載された情報の保存期間は、法令によって定められた一定の期間（有期限）とされており、「永久」に保存されるわけではありません。
+
+**たとえば**、何十年も前に行われた筆界特定の手続記録が、法令上定められた保存期間を過ぎれば、その後は永久に保管され続けるわけではなく、廃棄の対象となり得ます。
+
+### エ：何人も、手数料を納付すれば筆界特定書の写しの交付を請求できる
+
+筆界特定書の写しの交付請求は、申請人や関係人に限らず、何人も、手数料を納付することで登記官に対して請求することができます。これは筆界特定の内容を広く公開することで、その後の取引の安全にも資する制度です。
+
+**たとえば**、当事者ではない第三者であっても、対象となった土地の筆界特定の内容を知りたい場合には、手数料を払えば、その筆界特定書の写しの交付を受けることができます。
+
+### オ：筆界特定がされた旨は、対象土地の登記記録に転写される
+
+筆界特定がされた場合、その旨の記録は、対象となった土地（乙土地）の登記記録の表題部に転写されます。これにより、登記記録を見ただけで、その土地について筆界特定がされたことを確認できるようになります。
+
+**たとえば**、乙土地について筆界特定の手続が行われて結果が確定した場合、その事実は乙土地の登記記録にも反映され、後から登記事項証明書を取得した人にも、筆界特定がされたことがわかるようになります。
+
+### まとめ
+
+- **ア（正）**　筆界特定後は、写しの交付による通知・公告・関係人への通知が行われる
+- **イ（誤）**　筆界特定手続記録は、上級官庁ではなく実際に手続を行った登記所（出張所）で保管される
+- **ウ（誤）**　筆界特定手続記録の保存期間は「永久」ではなく、法令で定められた有期限の期間である
+- **エ（正）**　何人も、手数料を納付すれば筆界特定書の写しの交付を請求できる
+- **オ（正）**　筆界特定がされた旨は、対象土地の登記記録に転写される
+
+筆界特定は「その土地の記録として、その土地を管轄する登記所に残る」というイメージを持っておくと、保管場所や登記記録への反映についての肢を判断しやすくなります。
+
+**正解：イウの組合せ（選択肢3番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出題番号・正解番号（3番＝イ・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
+- 各肢の法的根拠は、不動産登記法が定める筆界特定の事後手続（通知・公告、筆界特定書の写しの交付請求権、登記記録への反映）に基づく一般的な理解です。イ（保管場所が実際に手続を行った登記所であること）とウ（保存期間が有期限であること）については、条文の具体的な条数・保存年数までの逐条的な照合は行っておらず、制度の一般的な理解にとどまる点をご了承ください。
+- **重複出題チェック（2026-07-21実施、重要）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。**本問ウ「筆界特定手続記録の保存期間は永久」（誤り）と同じ論点が、複数の年度で繰り返し問われています**。R07年度第5問は「保存期間が永久と定められているものの組合せ」を問う問題で、選択肢エに「筆界特定書に記載された情報」が含まれており、本問ウと同じ「筆界特定書は永久保存ではない」という結論を問うています。またH27年度第19問オも「筆界特定書に記載され、又は記録された情報は、10年間保存される」として同じ対象（筆界特定書の保存期間）を扱っており、R04年度第4問エも「筆界特定書以外の筆界特定手続記録」の保存期間（30年間）を問う関連論点です。**筆界特定手続記録の保存期間という同一の具体的論点が複数年度で使い回されているため、R07年度・H27年度・R04年度分の記事を執筆する際は、本問の解説と表現が重複しないよう特に注意してください**。筆界特定というテーマ自体は毎年出題されますが、通知・公告や登記記録への転写に関する他の肢については、具体的な重複は確認できませんでした。
+
+---
+
+## 見出し画像用フレーズ
+
+- 筆界特定の結果、実は公告までされるんです
+- 記録が保管されるのは、上の組織じゃないんです
+- 筆界特定の記録、実は「永久保存」じゃないんです
+- 誰でもお金を払えば、写しをもらえるって知ってた？
+- 筆界特定の結果、登記記録にも反映されるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+筆界特定手続の事後手続と記録管理に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+筆界特定の記録は
+「永久」ではない
+
+Subtitle (smaller, centered, 1行):
+筆界特定手続記録の保管ルールを整理(平成25年度 午後の部 第18問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric registry office with a filing cabinet labeled 筆界特定手続記録, a calendar icon showing a limited number of years rather than an infinity symbol, and a small envelope icon being sent to the applicant.
+筆界特定制度は、手続の流れ（通知・公告）と記録の管理（保管場所・保存期間・公開）の両方が出題対象になります。「実際に手続を行った登記所で記録が管理される」という点を軸に整理します。
+
+--- CARD 1 ---
+Heading (bold):
+筆界特定後は、写しの交付による通知・公告・関係人への通知が行われる
+Illustration: An isometric registry officer sending a document copy (筆界特定書の写し) to the applicant, simultaneously posting a public notice board icon (公告) and sending a separate envelope to a neighboring landowner figure (関係人).
+Caption (small text below):
+筆界特定登記官は、遅滞なく申請人へ筆界特定書の写しを交付して通知するとともに、公告し、関係人にも通知しなければならない。
+
+--- CARD 2 ---
+Heading (bold):
+筆界特定手続記録は、上級官庁ではなく実際に手続を行った登記所（出張所）で保管される
+Illustration: An isometric local registry sub-office building (B出張所) with a filing cabinet labeled 筆界特定手続記録 inside it, a red X over an arrow suggesting the records are sent up to a higher-level office (A法務局) instead.
+Caption (small text below):
+筆界特定手続記録は、実際に手続を行った登記所（出張所）で保管され、上級官庁である法務局に一元的に保管されるわけではない。
+
+--- CARD 3 ---
+Heading (bold):
+筆界特定手続記録の保存期間は「永久」ではなく、法令で定められた有期限の期間である
+Illustration: An isometric filing cabinet labeled 筆界特定手続記録 with a calendar showing a finite countdown of years, a red X over an infinity symbol labeled 永久保存.
+Caption (small text below):
+筆界特定手続記録に記載された情報の保存期間は、法令で定められた有期限の期間であり、永久ではない。
+
+--- CARD 4 ---
+Heading (bold):
+何人も、手数料を納付すれば筆界特定書の写しの交付を請求できる
+Illustration: An isometric ordinary citizen figure (何人も) not connected to the case, paying a small coin icon (手数料) at the registry window and receiving a document copy (筆界特定書の写し).
+Caption (small text below):
+筆界特定書の写しの交付請求は、申請人や関係人に限らず、何人も手数料を納付すれば行うことができる。
+
+--- CARD 5 ---
+Heading (bold):
+筆界特定がされた旨は、対象土地の登記記録に転写される
+Illustration: An isometric land-plot registration record sheet (乙土地の登記記録), a stamp reading 筆界特定がされた旨 being transferred onto its 表題部 section.
+Caption (small text below):
+筆界特定がされた場合、その旨の記録は対象となった土地の登記記録の表題部に転写される。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第18問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

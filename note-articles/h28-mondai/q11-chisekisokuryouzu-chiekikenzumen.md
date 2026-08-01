@@ -1,0 +1,160 @@
+## 【土地家屋調査士受験生向け】平成28年度 第11問・地積測量図は、時々「一人二役」をこなすんです〜細線・縮尺・保存期間・座標値と方位〜
+
+**出題年度：平成28年度　午後の部　第11問**
+
+> 地積測量図又は地役権図面に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。
+>
+> なお、これらはいずれも書面であるものとする。
+>
+> ア　地積測量図は、0.2ミリメートル以下の細線により、図形を鮮明に表示しなければならない。
+>
+> イ　地役権図面は、土地の状況その他の事情により適当でないときを除き、250分の1の縮尺により作成しなければならない。
+>
+> ウ　地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときは、当該地積測量図をもって土地所在図を兼ねることができる。
+>
+> エ　地役権図面つづり込み帳につづり込まれた地役権図面は、閉鎖した日から30年間保存される。
+>
+> オ　地積測量図に、基本三角点等に基づく測量の成果による筆界点の座標値を記録した場合には、方位を記録することを要しない。
+>
+> 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
+
+地積測量図や地役権図面は、土地家屋調査士が作成する図面の中でも、線の太さ・縮尺・記載事項・保存期間といった細かなルールが不動産登記規則で定められている分野です。数字や要件を正確に覚えているかどうかがそのまま得点差になりやすく、今回のように「正しいものは幾つあるか」を問う個数問題としても頻出します。ア〜オの5つの記述を一つずつ検討していきます。
+
+### ア：地積測量図の線の太さは、0.2ミリメートル以下と決まっている
+
+不動産登記規則74条により、書面で地積測量図を作成する場合は、0.2ミリメートル以下の細線を用いて図形を鮮明に表示しなければならないとされています。設問の内容はこの規定と一致しており、正しい記述です。
+
+**たとえば**、実務で地積測量図を手描きや作図ソフトで仕上げる場面をイメージしてください。境界線や求積のための補助線を、太いサインペンのような線幅で描いてしまうと図形が不鮮明になり要件を満たしません。0.2ミリメートル以下という細い線で、誰が見ても筆界点や求積図形の形がはっきり分かるように仕上げる必要がある、というルールです。
+
+### イ：地役権図面の縮尺は「250分の1固定」ではなく、適宜でよい
+
+不動産登記規則79条2項により、地役権図面には地積測量図のような縮尺の指定はなく、適宜の縮尺で作成すればよいとされています。精度についても特段の定めはありません。設問は縮尺を250分の1に固定していますが、そのような義務付けは規定されておらず、誤りです。
+
+**たとえば**、ある土地に設定された地役権(通行の範囲など)を示す図面を作るとき、対象範囲が広大であれば500分の1、狭い範囲を詳細に示したいのであれば100分の1というように、案件の内容に応じて土地家屋調査士が適切な縮尺を選ぶことができます。250分の1でなければならない、という決まりはありません。
+
+### ウ：地積測量図は、条件がそろえば土地所在図を兼ねられる
+
+不動産登記規則77条3項(実務上の取扱いを定める不動産登記事務取扱準則51条4項も参照)により、地積測量図の縮尺がその土地の土地所在図の縮尺と同一であり、かつ、その地積測量図によって土地の所在を明確に表示できる場合には、「土地所在図兼地積測量図」として1枚の図面にまとめることができます。設問の内容はこの規定と一致しており、正しい記述です。
+
+**たとえば**、分筆登記の申請にあたって土地所在図と地積測量図を別々の用紙で作ると二度手間になりがちですが、縮尺が同一で土地の位置関係もきちんと示せるのであれば、「土地所在図兼地積測量図」という1枚の書面にまとめて提出することができ、作成・提出の手間が軽減されます。
+
+### エ：地役権図面つづり込み帳は、30年ではなく永久保存されている
+
+不動産登記規則28条1項1号により、地役権図面つづり込み帳は永久保存の帳簿とされています。設問は「閉鎖した日から30年間保存される」としていますが、実際には30年で廃棄されるものではなく、誤りです。
+
+**たとえば**、何十年も前に設定された地役権に関する図面が、その後地役権の登記が抹消されて帳簿が閉鎖されたとしても、法務局にはその記録が残り続けます。将来、当時の権利関係を確認したいというニーズが生じても、記録を参照できるようにするための仕組みです。
+
+### オ：基本三角点等による座標値を記録すれば、方位の記録は省略できる
+
+不動産登記規則77条1項8号ただし書により、地積測量図に基本三角点等に基づく測量の成果による筆界点の座標値を記録した場合には、方位の記録を省略することができるとされています。設問の内容はこの規定と一致しており、正しい記述です。
+
+**たとえば**、高精度な基準点測量(基本三角点等)を用いて求めた座標値を地積測量図に記載できる場合、その座標値自体に正確な位置関係の情報が含まれているため、あらためて北を示す方位の矢印などを書き加える必要はありません。
+
+### まとめ
+
+- **ア（正）**　書面の地積測量図は0.2ミリメートル以下の細線で図形を鮮明に表示する(規則74条)
+- **イ（誤）**　地役権図面の縮尺は250分の1固定ではなく、適宜の縮尺でよい(規則79条2項)
+- **ウ（正）**　条件を満たせば地積測量図が土地所在図を兼ねることができる(規則77条3項)
+- **エ（誤）**　地役権図面つづり込み帳は30年間ではなく永久保存とされている(規則28条1項1号)
+- **オ（正）**　基本三角点等による座標値を記録すれば方位の記録は省略できる(規則77条1項8号ただし書)
+
+地積測量図・地役権図面は、線の太さや縮尺のように「数字が決まっている事項」と「あえて数字を決めていない事項」を区別して覚えることが得点のカギになる分野です。
+
+**正解：正しいものは3個(ア・ウ・オ)(選択肢3番)**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 出題年度・部・問題番号(平成28年度午後の部第11問)、および正解番号(選択肢3番=正しいものが3個)は、土地家屋調査士試験対策アプリの検証済みデータベースと、法務省公式の正答PDF(ユーザー提供、平成28年度午後の部第11問=3)とを照合済みです。この記事はそのままnoteに貼り付けて使えます。
+- 各肢の条文根拠は、データベースのexplanationフィールドの記載を基本としています(ア:規則74条、イ:規則79条2項、ウ:準則51条4項)。
+- ただし、エとウ・オの条文番号については、データベースのexplanationフィールドとplusフィールド(pitfalls)の間で表記に食い違いが見られました。具体的には、ウの兼用規定についてexplanationフィールドは準則51条4項を、plusフィールドは規則77条3項を挙げており、本記事では両方を併記しました。またエ(保存期間)については、explanationフィールドの記載がOCR起因とみられる欠落・不整合を含んでおり判定が読み取りにくかったため、正誤の判定および条文根拠(規則28条1項1号、永久保存)はplusフィールドの記述を採用しています。オについても、explanationフィールド側の判定表記が実際の正誤(正)と食い違っているように読めたため、plusフィールドの判定(正・規則77条1項8号ただし書)を採用しました。これらの点は、今回e-Gov法令検索での条文原文の逐条確認までは行えていないため、実際に条文を引用・公開される際は、不動産登記規則28条・77条・79条の原文を一度ご確認いただくことをおすすめします。
+- **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（地積測量図又は地役権図面）と同一・類似の問題が再出題されていないかを確認しました。**R07年度第9問オは「地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときであっても、当該地積測量図をもって土地所在図を兼ねることはできない」としており、本問ウ（同一の条件下では土地所在図を兼ねることができる）とほぼ同一の記述を、結論だけ反対にして出題したものです。これは非常に強い重複にあたります**。R06年度第10問（地役権図面）は署名記名押印・縮尺一致義務・分筆時の提供要否・閉鎖・要役地所在地番の記録という別の論点で、本問イ・エとは直接重なりません。ノートに執筆・公開する際は、R07年度第9問との重複に特に留意し、内容が同一にならないよう工夫するか、両記事に相互参照を付けることを検討してください。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+
+---
+
+## 見出し画像用フレーズ
+
+- 地積測量図の線、0.2mmって知ってた？
+- 地役権図面の縮尺、実は決まってないんです
+- 地積測量図が土地所在図を兼ねること、あるんです
+- 地役権図面、30年じゃなく一生保存なんです
+- 座標値があれば、方位は書かなくていいんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地積測量図・地役権図面をめぐる5つの規定を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。R07年度第9問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric drafting tables, drawing pens, survey diagrams, archive shelves, compass icons — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地積測量図は、
+時々「一人二役」
+
+Subtitle (smaller, centered, 1行):
+細線・縮尺・保存期間・座標値と方位を整理(平成28年度 午後の部 第11問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric drafting table with a 地積測量図 drawing on one side and a 地役権図面 drawing on the other, a fine drawing pen icon actively drawing a thin line labeled 0.2ミリメートル.
+線の太さ、地役権図面の縮尺、地積測量図と土地所在図の兼用、地役権図面の保存期間、座標値と方位という5つの規定を整理します。
+--- CARD 1 ---
+Heading (bold):
+線の太さは、0.2mm以下
+Illustration: An isometric ruler measuring a fine drawn survey line labeled 0.2ミリメートル以下, next to a thick crossed-out line marked as too thick.
+Caption (small text below):
+書面の地積測量図は0.2ミリメートル以下の細線で図形を鮮明に表示する(不動産登記規則74条)。
+--- CARD 2 ---
+Heading (bold):
+地役権図面の縮尺は、決まっていない
+Illustration: An isometric 地役権図面 sheet with three different scale rulers shown beside it — 250分の1, 500分の1, 100分の1 — all glowing as equally valid, with no single fixed scale highlighted.
+Caption (small text below):
+地役権図面の縮尺は250分の1固定ではなく、土地の状況に応じた適宜の縮尺でよい(不動産登記規則79条2項)。
+--- CARD 3 ---
+Heading (bold):
+条件がそろえば、1枚で2つの図面を兼ねられる
+Illustration: An isometric single drawing sheet labeled 土地所在図兼地積測量図, formed by merging two separate document icons(土地所在図 and 地積測量図) into one glowing sheet.
+Caption (small text below):
+縮尺が同一で土地の所在を明確に表示できるときは、地積測量図が土地所在図を兼ねることができる(不動産登記規則77条3項)。
+--- CARD 4 ---
+Heading (bold):
+地役権図面のつづり込み帳は、ずっと保存される
+Illustration: An isometric archive shelf holding a ledger book labeled 地役権図面つづり込み帳 stamped 永久保存, with a crossed-out calendar icon reading 30年 beside it.
+Caption (small text below):
+地役権図面つづり込み帳は30年間ではなく、永久に保存される(不動産登記規則28条1項1号)。
+--- CARD 5 ---
+Heading (bold):
+座標値さえあれば、方位は省略できる
+Illustration: An isometric land survey diagram with several coordinate points(座標値)marked and glowing, and a compass icon(方位)crossed out beside it as unnecessary.
+Caption (small text below):
+基本三角点等に基づく測量成果による座標値を記録した場合には、方位の記録を省略できる(不動産登記規則77条1項8号ただし書)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第11問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

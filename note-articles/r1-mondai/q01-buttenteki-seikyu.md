@@ -1,0 +1,198 @@
+## 【土地家屋調査士受験生向け】令和元年度 第1問・その建物、誰に「どけて」と言える？〜物権的請求権の相手方を見抜く〜
+
+**出題年度：令和元年度　午後の部　第1問**
+
+> Ａが所有し、所有権の登記名義人である甲土地についての物権的請求権に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記1から5までのうち、どれか。
+>
+> ア　Ｂは、Ａに無断で、甲土地上に乙建物を建て、乙建物につきＢを所有権の登記名義人とする所有権の保存の登記をした。その後、Ｂは、Ｃに対し、乙建物を売却し、Ｃが乙建物の所有権を取得したが、乙建物の所有権の登記名義人は、Ｂのままであった。この場合において、Ａは、甲土地の所有権に基づき、Ｂに対しては乙建物の収去を求めることができるが、Ｃに対しては乙建物の収去を求めることはできない。
+>
+> イ　Ａは、Ｂに対し、甲土地を売却し、Ｂが甲土地の所有権を取得したが、甲土地の所有権の登記名義人は、Ａのままであった。この場合において、甲土地をＣが違法に占有しているときは、Ｂは、甲土地の所有権に基づき、Ｃに対し、甲土地の明渡しを求めることができる。
+>
+> ウ　Ｃは、乙動産を所有するＢに無断で乙動産を持ち出し、Ａ及びＢに無断で甲土地上に乙動産を放置した。この場合において、Ａが甲土地の所有権に基づき乙動産を所有するＢに対して乙動産の撤去を請求したときは、Ｂは、乙動産を放置したのがＣであることを理由に、その請求を拒絶することができない。
+>
+> エ　Ｂは、20年間、所有の意思をもって、平穏に、かつ、公然と甲土地を占有していた。この場合において、Ｂが取得時効を援用した後は、Ａは、Ｂに対して、甲土地につき、所有権に基づく物権的請求権を行使することができない。
+>
+> オ　Ｂが甲土地に地役権を有する場合において、Ｃが違法に、かつ、恒常的に甲土地に自動車を駐車し、Ｂによる地役権の行使を妨げ、地役権を侵害しているときは、Ｂは、地役権に基づき、Ａに対してはＣによる地役権侵害行為を禁止するために必要な措置をとるように求めることはできるが、Ｃに対しては地役権侵害行為の禁止を求めることはできない。
+>
+> 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
+
+物権的請求権の分野では、「誰が」請求できるかに加えて、「誰に対して」請求できるか（相手方の特定）が繰り返し問われます。ポイントは、原則として現に妨害状態を維持している者が相手方になること、そして登記名義の有無がその判断を左右する場面があることです。所有権に基づく請求と地役権に基づく請求の両方を横断的に整理しておきましょう。
+
+### ア：建物を買った現所有者にも、収去を求めることができる
+
+物権的請求権の相手方は、原則として現に目的物を支配して妨害している者です。乙建物の所有権はＣに移転しているので、Ａは現所有者Ｃに対して収去を求めることができます。加えて、他人の土地上の建物を取得して自らの意思で登記した者は、建物を譲渡しても登記名義を保有し続ける限り収去・明渡し義務を免れないため（最判平6.2.8）、登記名義人のままであるＢにも請求できます。「Ｃに対しては求めることができない」とする本肢は誤りです。
+
+**たとえば**、駐車場を無断で占領された地主さんが、そのプレハブ小屋を建てた人から別の人に小屋が売られたと知ったとき、「もう売った人には言えない」わけではなく、今その小屋を持っている買主にも「どけてください」と言えますし、登記名義が元のままなら元の建て主にも言える、というイメージです。
+
+### イ：所有権を得た買主は、登記がなくても不法占有者に明渡しを求められる
+
+不動産の物権変動を第三者に対抗するには登記が必要ですが（民法177条）、ここでいう第三者とは登記の欠缺を主張する正当な利益を有する者に限られます（大連判明41.12.15）。違法な占有者はこの「第三者」にあたらないため、甲土地の所有権を取得したＢは、登記名義がＡのままでも、不法占有者Ｃに対し所有権に基づく明渡しを求めることができます。
+
+**たとえば**、土地を買ったばかりで名義変更がまだ済んでいない人でも、その土地に勝手に入り込んで居座っている人に対しては、「私が所有者です、出て行ってください」と堂々と言えるということです。
+
+### ウ：自分の動産である以上、放置した犯人が別にいても撤去は拒めない
+
+物権的請求権の行使に、侵害者の故意・過失は必要ありません。乙動産を所有するＢは、その動産を撤去すべき物権的な義務を負うので、実際に放置したのが第三者Ｃであることを理由に撤去請求を拒むことはできません。
+
+**たとえば**、自分の物置が知らないうちに他人の土地に運び込まれていた場合、「運んだのは私じゃない」と言っても、持ち主である自分が引き取りを求められたら断れない、というのと同じ発想です。
+
+### エ：時効取得を援用されたら、元の所有者は物権的請求権を失う
+
+取得時効が完成し、占有者Ｂがこれを援用すると、Ｂは甲土地の所有権を原始取得します。その結果、元の所有者Ａは所有権を失い、Ｂに対して所有権に基づく物権的請求権を行使することはできなくなります。
+
+**たとえば**、長年ある土地を自分の土地として使い続けてきた人が「時効で私のものになりました」と主張（援用）した後は、もともとの名義人が「返して」「立ち退いて」と言っても、法的にはもう通らない、ということです。
+
+### オ：地役権の侵害者本人に対しても、妨害の禁止を求められる
+
+地役権も物権であり、地役権者には妨害排除・妨害予防の請求権が認められます（民法280条参照、最判平17.3.29）。したがってＢは、地役権を現に侵害しているＣに対して直接、侵害行為の禁止を求めることができます。承役地の所有者Ａに対してしか求められないとする本肢は誤りです。
+
+**たとえば**、通行のために設定した権利（地役権）が、他人の違法駐車でふさがれているとき、その車の持ち主本人に「どけてほしい」と直接言えるのであって、土地の持ち主にだけしか言えない、というのは筋が通らない、というイメージです。
+
+### まとめ
+
+- **ア（誤）**　現所有者Ｃにも収去請求可。登記名義人Ｂも義務を免れない（最判平6.2.8）
+- **イ（正）**　不法占有者は「第三者」でなく、買主は登記なくして明渡請求できる
+- **ウ（正）**　物権的請求権は故意・過失不要。自己所有物の撤去は拒めない
+- **エ（正）**　時効取得の援用後、元所有者は物権的請求権を失う
+- **オ（誤）**　地役権の侵害者Ｃ本人に対しても妨害禁止を直接求められる（民280条）
+
+相手方が「現に妨害している者は誰か」を軸に、登記名義や故意・過失に惑わされず判断できたかがカギでした。
+
+**正解：アオの組合せ（選択肢2番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出題年度・問題番号（令和元年度午後第1問）と正解番号（2番＝ア・オが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
+- 各肢の判例根拠のうち、ア（最判平6.2.8）、オ（最判平17.3.29）、イ（大連判明41.12.15）は判例番号まで確認できたものです。民法177条・280条は条文番号まで確認しています。一方、ウ（物権的請求権に故意・過失が不要であること）とエ（時効取得の援用による原始取得の効果）は、条文の明示的な番号ではなく、物権的請求権および取得時効の一般原則からの推論に基づく説明です。判例番号の細部（大判昭◯年の不法占拠者非該当）については断定を避けています。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（物権的請求権の相手方の特定）と同一・類似の問題が再出題されていないかを確認しました。候補として抽出された令和5年度第2問のイの肢は、未登記の買主が不法占有者に明渡しを請求できるかという事案で、本問イと同じく「民法177条の『第三者』には登記の欠缺を主張する正当な利益を有する者に限られ、不法占拠者はこれにあたらない」という同一の論点・同一の判例（大連判明41.12.15）を扱っており、**部分的に類似する記述があります**。もっとも同問の他の肢（所有権移転時期の特約、占有補助者への請求、共有者の単独請求、物権的請求権の消滅時効）は本問の他の肢とは異なる論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+
+---
+
+## 見出し画像用フレーズ
+
+- 建物を売った後の名義人、まだ責任あるって知ってた？
+- 登記まだでも、居座る人には「出て行って」と言えるんです
+- 「置いたのは私じゃない」は通用しないんです
+- 時効を援用されたら、もう「返して」は言えない
+- 違法駐車、車の持ち主に直接どけてと言えるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+物権的請求権について、「誰に対して請求できるか」という相手方の特定を、5つの場面ごとに1カードずつ、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト（列は分けず1列構成）。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, building
+blocks, human figures, arrows, question marks, prohibition marks,
+official stamps — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters: 権・地・建・物・登・記・所.
+
+--- HEADER ---
+Title (large, bold, 2行):
+物権的請求権
+誰に対して請求できるか
+
+Subtitle (smaller, centered, 1行):
+相手方の特定を巡る5つのケース(令和元年度 午後の部 第1問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon showing a square land plot
+with an owner figure standing on it, and several question marks floating
+above three other figures standing near or on the land, to represent the
+question of "who is the correct respondent" for a real-right-based claim.
+物権的請求権の分野では、「誰が」請求できるかに加えて、「誰に対して」
+請求できるか(相手方の特定)が繰り返し問われます。現に妨害状態を
+維持している者が原則として相手方になること、登記名義の有無や
+故意・過失の有無がその判断を左右しない場面があることを、5つの
+場面で整理します。
+
+--- CARD 1 ---
+Heading (bold):
+建物を売っても、登記名義人には収去義務が残る
+Illustration: An isometric building icon on a land plot, with an arrow
+pointing from the building to two separate human figures: one labeled
+"登記名義人 B" standing beside the building, and another labeled
+"新所有者 C" also connected to the building by a dotted line. A red
+arrow labeled "収去請求" points from a landowner figure toward both B
+and C to show both are valid respondents.
+Caption (small text below):
+乙建物を買ったCだけでなく、登記名義人のままのBにも、Aは建物の収去を
+求めることができる(最判平6.2.8)。
+
+--- CARD 2 ---
+Heading (bold):
+買主は登記がなくても、不法占有者に明渡しを求められる
+Illustration: An isometric land plot with a small house icon owned by
+figure B carrying a torn paper ribbon labeled "未登記", and an intruding
+figure C occupying a corner of the land labeled "違法占拠". A direct red
+arrow labeled "明渡し請求" points from B to C, passing over a crossed-out
+registration document icon to show registration is unnecessary here.
+Caption (small text below):
+違法占有者は民法177条の「第三者」にあたらないため、登記がなくても
+明渡しを請求できる。
+
+--- CARD 3 ---
+Heading (bold):
+動産の所有者は、置いた本人が別人でも撤去義務を負う
+Illustration: An isometric land plot with an abandoned crate icon labeled
+"乙動産". A faint dotted-outline figure in the background is labeled
+"実際に放置したC", while a solid human figure in the foreground labeled
+"所有者B" receives a red arrow labeled "撤去請求" from a landowner figure,
+with a crossed-out speech bubble reading "私じゃない" above B.
+Caption (small text below):
+物権的請求権の行使に故意・過失は不要。所有者Bは、置いたのがCでも
+撤去請求を拒めない。
+
+--- CARD 4 ---
+Heading (bold):
+時効を援用されたら、元の所有者は請求権を失う
+Illustration: An isometric land plot with a human figure standing on it
+holding an official stamp icon labeled "時効援用". A faded, semi-
+transparent figure in the background labeled "元の所有者A" has a broken
+chain-link icon beside it and a crossed-out speech bubble reading
+"返して".
+Caption (small text below):
+取得時効の援用によりBが所有権を原始取得すると、元の所有者Aは
+物権的請求権を失う。
+
+--- CARD 5 ---
+Heading (bold):
+地役権侵害者本人にも、直接、禁止を求められる
+Illustration: An isometric land plot with a dotted pathway icon labeled
+"地役権(通行)". A car icon blocks the pathway, labeled "違法駐車C". A red
+arrow labeled "禁止請求" points directly from a human figure labeled
+"地役権者B" to the car, bypassing a separate figure labeled
+"承役地所有者A" standing off to the side.
+Caption (small text below):
+地役権者Bは、侵害行為をしているC本人に対して直接、妨害禁止を求める
+ことができる(最判平17.3.29)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第1問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・地・建・物・登・記・所. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, and confirm every heading, illustration label, and caption
+text matches the Japanese text given above verbatim, with no paraphrasing
+and no substituted characters.
+```
