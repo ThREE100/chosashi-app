@@ -56,13 +56,15 @@ modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
-NOT a text-heavy explainer document. Every card must communicate its point
-almost entirely through the illustration (icons, X marks, checkmarks, small
-embedded labels) plus one short heading and one short conclusion tag. Do
-NOT render any full-sentence explanation, legal citation, or paragraph of
-body text anywhere on the cards. If a piece of information cannot be
-expressed as a short label (a few words) or drawn as an icon, leave it out
-rather than writing it as prose.
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -79,11 +81,8 @@ Title (large, bold, {N}行):
 Subtitle (smaller, centered, {N}行):
 {SUBTITLE}
 
---- INTRO BLOCK (left: illustration; right: paragraph text — this is the
-ONLY place in the whole poster where a short paragraph of prose is
-allowed) ---
-Illustration: {INTRO_ILLUSTRATION_DESC}
-{INTRO_TEXT}
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- COLUMN A HEADER (pill-shaped badge, color: {COLUMN_A_COLOR}) ---
 {COLUMN_A_LABEL}
@@ -112,10 +111,11 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals {CARD_COUNT}
-exactly, with no duplicated or missing cards, and confirm that no card
-(other than the intro block) contains a full sentence of explanatory
-prose — every card's takeaway must read as a short heading + a short
-conclusion tag, at a glance.
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```
 
 ## 文字化け・簡体字対策（必須・厳守）
@@ -137,7 +137,7 @@ conclusion tag, at a glance.
 
 - カラー：淡いパステルカラー（青・緑・ベージュ・グレー）のフラットデザイン
 - アイコン：アイソメトリック（斜め見下ろしの3D風）
-- 構成：タイトル(上部) → サブタイトル → 導入文(図解+文章、ポスター内で唯一まとまった文章が許される箇所) → 複数カラムの原則カード群 → フッター
+- 構成：タイトル(上部) → サブタイトル → 複数カラムの原則カード群 → フッター（導入イラスト・導入文のブロックは置かない。タイトル直下からすぐカードに入る）
 - **カードは「読ませる」のではなく「見せる」**：各カードは通し番号バッジ＋短い見出し(1行)＋図解＋短い結論タグ(5〜15字)の4点のみで構成し、説明文・条文根拠を長文で書かない。図解の中の○×マークや短いラベル札で情報を伝える。
 - 列ごとに色を割り当て（例：列A＝緑、列B＝青）、その列の見出しバッジ・カード番号バッジ・結論タグの色を統一する。
 - 肢ごとの見出し画像（モノクロ鉛筆画・女性キャラクター）とは別のビジュアル言語であることを前提とする。同じ問題について両方作る場合でも、スタイルを混ぜない。

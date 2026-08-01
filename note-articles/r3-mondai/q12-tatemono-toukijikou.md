@@ -95,13 +95,15 @@ modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
-NOT a text-heavy explainer document. Every card must communicate its point
-almost entirely through the illustration (icons, X marks, checkmarks, small
-embedded labels) plus one short heading and one short conclusion tag. Do
-NOT render any full-sentence explanation, legal citation, or paragraph of
-body text anywhere on the cards. If a piece of information cannot be
-expressed as a short label (a few words) or drawn as an icon, leave it out
-rather than writing it as prose.
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -122,16 +124,8 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和3年度 午後の部 第12問／建物の表示に関する登記
 
---- INTRO BLOCK (left: illustration; right: paragraph text — the ONLY place
-in the whole poster where a short paragraph of prose is allowed) ---
-Illustration: An isometric illustration of a two-story wooden main
-building (主である建物) linked by a dotted line to a smaller attached
-storage building (附属建物) on a neighboring land plot, with a
-magnifying glass hovering over a registration ledger document (登記簿)
-icon.
-建物の表示に関する登記事項は、所在欄の記録順序、名称登記の添付情報、
-附属建物の符号の再使用、変更登記の登記原因の書き方など、細かな先例知識
-が問われます。5つの肢から、正しいルールだけを整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- COLUMN A HEADER (pill-shaped badge, color: green) ---
 所在欄の記録ルール
@@ -208,8 +202,9 @@ standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, and that no card (other than the
-intro block) contains a full sentence of explanatory prose — every card's
-takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```
