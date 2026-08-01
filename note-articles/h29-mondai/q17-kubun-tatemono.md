@@ -81,3 +81,129 @@
 - 非区分建物同士がつながったら、一括申請なんです
 - 敷地権の抹消、実は職権でやってくれるんです
 - 表題登記しない原始取得者、転得者が代位できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+区分建物の登記の申請に関する5肢を、「表題登記・変更登記の一括申請ルール」（ア・ウ・エ）と「添付情報・代位申請」（イ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric condo/apartment
+buildings, merging-unit icons, land plot with a key/敷地権 icon, official
+stamps, chain-of-people icons — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 区・分・建・物・登・記・敷・地・権・併, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+区分建物になる・ならない
+そのとき何を一括で申請する？
+
+Subtitle (smaller, centered, 1行):
+表題登記・変更登記のルールを整理(平成29年度 午後の部 第17問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design pair of separate small building
+icons moving toward each other and merging into one connected
+condo-style structure, with a bracket icon labeled "一括申請" spanning
+both original buildings to show they must be filed together.
+区分建物(マンションの一室など)の登記は、非区分建物とは異なる独特の
+ルールがいくつもあります。非区分建物が区分建物に変わるときの一括申請
+義務、添付情報が必要な場面、転得者による代位申請の可否を整理できて
+いるかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+表題登記・変更登記の一括申請ルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+既存の表題部所有者には、住所証明情報は不要
+Illustration: An isometric existing building icon (甲建物) already
+registered with a name tag, next to a newly built adjoining unit (乙
+区分建物) whose owner figure holds a fresh "住所を証する情報" document,
+while the existing 甲建物's owner figure has a crossed-out version of the
+same document beside them.
+Caption (small text below):
+表題部所有者Ａの区分建物ではない甲建物に接続してＢにより乙区分建物が
+新築されて一棟の建物となったことによって甲建物が区分建物になった
+場合、甲建物の表題部の変更の登記にＡの住所を証する情報は不要である。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+非区分建物同士が接続して区分建物になったら、一括申請
+Illustration: An isometric pair of separate registered non-condo
+buildings (甲建物・乙建物) connected by a construction-arrow merging into
+one shared structure, with a single bracket icon spanning both buildings
+labeled "一括して申請" wrapping around both変更登記 document stamps.
+Caption (small text below):
+いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事に
+より相互に接続して区分建物になった場合には、甲建物及び乙建物について
+の表題部の変更の登記の申請は、一括してしなければならない(法52条3項)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+区分合併による敷地権抹消は、職権で行われる
+Illustration: An isometric land plot icon with a small key icon labeled
+"敷地権" attached, being automatically removed by a registry-official
+gear/stamp icon labeled "職権" without any separate document being
+handed in by the applicant, with a crossed-out "変更登記の併せ申請"
+label floating away.
+Caption (small text below):
+敷地権として登記されている甲区分建物及び乙区分建物を区分合併して
+非区分建物になった場合、区分合併の登記の申請をすれば、敷地権の表示を
+抹消するための表題部変更の登記は、登記官の職権で行われる。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+添付情報・代位申請
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+土地の分筆による地番変更だけなら、建物図面は不要
+Illustration: An isometric land plot icon splitting into two via a
+dividing line (分筆), with only its number tag changing, while a
+building図面 (floor plan blueprint) icon beside it stays crossed out
+with a "不要" mark since the building itself is unchanged.
+Caption (small text below):
+甲区分建物が属する一棟の建物が所在する土地を分筆したことにより地番が
+変更した場合の表題部変更登記には、建物図面及び各階平面図の提供を
+要しない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+表題登記しない原始取得者、転得者が代位して申請できる
+Illustration: An isometric chain-of-people diagram — a first figure
+labeled "原始取得者" standing idle with no document filed, a second
+figure labeled "転得者" reaching past them with a "代位申請" stamped
+document directly to the registry-office building icon.
+Caption (small text below):
+甲区分建物の所有権の原始取得者が甲区分建物の表題登記を申請しない場合
+には、甲区分建物の転得者は、当該原始取得者に代位して甲区分建物の
+表題登記を申請することができる(民法423条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第17問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 区・分・建・物・登・記・敷・地・権・併. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 表題登記・変更登記の一括申請ルール, 2 cards under 添付情報・
+代位申請), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```
