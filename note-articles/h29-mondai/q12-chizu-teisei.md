@@ -81,3 +81,129 @@
 - 隣の土地でも、まとめて1枚の申出はできないんです
 - 移転登記前の買主は、地図訂正を申し出られないんです
 - 地積もズレてたら、地積更正と一緒に直すんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地図等の訂正に関する5肢を、「訂正申出に図面が必要な場面」（ア・イ）と「訂正申出のできる人・併せてすべきこと」（ウ・エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land-survey maps,
+measuring tools, land plots, official person figures, prohibition marks
+— adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・図・訂・正・区・画・積・測・量・申, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地図の訂正
+図面はいる？いらない？
+
+Subtitle (smaller, centered, 1行):
+地番の誤りと形状の誤りで変わる(平成29年度 午後の部 第12問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design land-registry map icon with a
+magnifying glass hovering over a slightly misdrawn plot boundary, and a
+small measuring-tape icon beside a separate correctly-shaped plot with a
+number tag, showing the two different kinds of errors (shape vs. number).
+登記所には、土地の位置・形状を示す「地図」やそれに準ずる図面が備え
+付けられています。この分野では、どんな誤りのときにどの図面を添える
+のか、誰が訂正を申し出られるのか、地積の錯誤があるときの取扱いを
+整理できているかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+訂正申出に図面が必要な場面
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+地番の誤りの訂正には、図面の提供は不要
+Illustration: An isometric land plot with only its number tag glowing
+red as being wrong (地番), the plot's outline shape itself perfectly
+correct, with a crossed-out land-survey map icon beside it to show no
+extra map is needed.
+Caption (small text below):
+地図に準ずる図面に表示された土地の地番に誤りがある場合において、その
+訂正の申出をするときは、土地所在図又は地積測量図を提供する必要は
+ない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+形状の誤りの訂正には、土地所在図又は地積測量図が必要
+Illustration: An isometric land plot with its outline shape drawn
+crookedly (誤った形状) beside a correctly measured land-survey map icon
+with a measuring-tape and compass tool, connected by an arrow showing the
+map is required to prove the correct shape.
+Caption (small text below):
+地図に準ずる図面に表示された土地の形状に誤りがある場合において、その
+訂正の申出をするときは、地図訂正申出情報と併せて土地所在図又は地積
+測量図を提供しなければならない(規則16条6項〜9項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+訂正申出のできる人・併せてすべきこと
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+隣接2筆の訂正でも、一の申出情報にまとめることはできない
+Illustration: An isometric pair of adjacent land plots, each with its own
+separate "地図訂正申出情報" document icon attached individually, with a
+red prohibition mark over a single combined document icon that tries to
+cover both plots at once.
+Caption (small text below):
+地図に表示された隣接する二筆の土地の区画の誤りの訂正の申出は、同一の
+登記所の管轄区域内にある場合であっても、一の地図訂正申出情報により
+まとめて申出をすることはできない(登記研究696号)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+移転登記前の買主は、訂正の申出ができない
+Illustration: An isometric person figure labeled "買主" standing next to
+a land plot but with no registry ledger stamp attached to their name yet,
+reaching toward a "地図訂正申出" document but blocked by a red prohibition
+icon, contrasted with a faded ghost figure holding a registered-name
+stamp who CAN reach the document.
+Caption (small text below):
+地図に表示された土地の区画に誤りがある場合に、その土地の所有権を売買
+により取得した者は、所有権の移転の登記を受ける前は、訂正の申出をする
+ことができない(規則16条1項)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+地積に錯誤があるときは、地積更正登記と併せて申し出る
+Illustration: An isometric land-registry map icon being corrected side
+by side with a separate ledger page showing a numeric area value being
+updated (地積更正), the two documents linked together with a "併せて"
+connector bracket icon.
+Caption (small text below):
+地図に表示された土地の区画に誤りがある場合において、当該土地の登記
+記録の地積に錯誤があるときは、地図訂正の申出は、地積に関する更正の
+登記の申請と併せてしなければならない(規則16条2項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第12問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 地・図・訂・正・区・画・積・測・量・申. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 訂正申出に図面が必要な場面, 3 cards under 訂正申出のできる
+人・併せてすべきこと), with no duplicated or missing cards, and confirm
+every heading, illustration label, and caption text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters.
+```
