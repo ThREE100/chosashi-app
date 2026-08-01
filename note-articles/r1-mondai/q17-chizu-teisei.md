@@ -81,3 +81,122 @@
 - 地番の「交換」は合意してもムリって知ってた？
 - 取り下げても、申出書は返ってこないんです
 - 登記所の測量図で足りるなら、添付は省ける
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地図等の訂正の申出について、訂正できる範囲に関する原則3枚・申出の手続き上の取り扱い2枚の計5枚のカードで整理した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric paper maps, land
+plots, magnifying glasses, official stamps/seals, filing cabinets,
+prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters: 号・録・権・地・番・
+建・物・登・記・所.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地図の間違いは「誰が」「どこまで」直せる?
+地図等の訂正の申出のルールを整理
+
+Subtitle (smaller, centered, 1行):
+訂正できる範囲と、手続き上の扱いを対比(令和元年度 午後の部 第17問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a paper
+map (公図) with a wavy red "誤り" mark on it, a magnifying glass hovering
+over the mark, and a person figure pointing at it while holding a petition
+document labeled "訂正の申出".
+登記所に備え付けられた地図や地図に準ずる図面に誤りがあるとき、その是正を
+求めるのが地図等の訂正の申出です。誰が申し出られるか、どこまで訂正できる
+か、申出の添付情報や還付の扱いはどうなるかを整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+訂正の申出ができる範囲
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+相続登記まだでも、公図の訂正は申し出られる
+Illustration: An isometric figure of a child (相続人) standing next to an
+inherited house-and-land icon labeled "相続" with no registration stamp on
+it, holding a petition document labeled "訂正の申出", with a small green
+checkmark icon showing the申出 is possible.
+Caption (small text below):
+地図等の訂正の申出は、表題部所有者・所有権の登記名義人の相続人その他の
+一般承継人もすることができ、あらかじめ相続による所有権の移転の登記を
+経ている必要はない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+お隣の形まで変わる訂正は、却下される
+Illustration: An isometric icon of two adjacent land plots on a map; one
+plot is being corrected with a pencil, but a dotted correction line
+crosses into the neighboring plot, with a red "却下" stamp overlaid on
+the whole scene.
+Caption (small text below):
+図面を訂正することによって申出に係る土地以外の土地の形状を訂正すべき
+こととなるときは、その申出は却下される。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+地番の「交換」は合意してもムリ
+Illustration: An isometric icon of two neighboring land plots with number
+tags "地番A" and "地番B", two person figures reaching out to swap the
+number tags between the plots, with a red prohibition (no-entry) icon
+overlaid on the swap.
+Caption (small text below):
+地番は登記所が定めるものであり(不登法35条)、当事者間の合意による地番の
+付け替えは、地図等の訂正の申出の対象とはならない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+申出の手続き上の取り扱い
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+取り下げても、申出書は返ってこない
+Illustration: An isometric icon of a document stamped "申出書" remaining
+in an office in-tray at the registry office (not returned), next to a
+separate bundle of documents labeled "添付書面" with an arrow carrying it
+back into the hands of the applicant figure.
+Caption (small text below):
+申出を取り下げたとき又は却下されたときに還付されるのは添付書面のみで、
+申出書そのものは還付されない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+登記所の測量図で足りるなら、添付は省ける
+Illustration: An isometric filing cabinet icon labeled "地積測量図
+(登記所保管)" with an arrow extending to a single small tag labeled
+"特定情報" held by an applicant figure, while other certificate document
+icons nearby have a prohibition (no-entry) icon over them.
+Caption (small text below):
+誤りを登記所に備え付けられている地積測量図によって確認することができる
+ときは、その地積測量図を特定する情報を提供すれば足り、他に誤りを証する
+情報を提供する必要はない(平成17年2月25日民二457号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第17問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 訂正の申出ができる範囲, 2 cards under 申出の手続き上の取り
+扱い), with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

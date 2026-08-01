@@ -81,3 +81,115 @@
 - 印鑑がなくても指印でOKって知ってた？
 - 話せなくても公正証書遺言は作れるんです
 - 一枚の紙に二人で書くと共同遺言でアウトなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+遺言の方式について、柔軟に認められること3枚・方式違反で無効・禁止となること2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric desks, documents,
+calendars, seals/stamps, hands, notary office scenes — adapt icon set to
+the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters: 遺・証・記.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その遺言、本当に有効?
+「吉日」と指印と共同遺言の落とし穴
+
+Subtitle (smaller, centered, 1行):
+柔軟に認められること・無効になること(令和元年度 午後の部 第3問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric desk scene with a person writing a will
+document on paper, a pen, a seal/stamp icon, and a small calendar icon
+placed nearby on the desk.
+遺言は方式が厳格に決められた要式行為ですが、能力要件や押印の方法など、
+実は柔軟に認められる部分もあります。一方で、日付の書き方や共同での
+作成など、方式を誤ると遺言全体が無効・禁止になる場面もあります。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+柔軟に認められること
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+15歳に達していれば、単独で有効な遺言ができる
+Illustration: An isometric scene of a young human figure in a school
+uniform writing a document alone at a desk, with a crossed-out speech
+bubble from a parent figure in the background reading "同意が必要", and
+a small age tag icon reading "満15歳".
+Caption (small text below):
+遺言をするのに行為能力は不要。満15歳に達した者は法定代理人の同意
+なく有効に遺言できる(民法961条)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+印章がなくても、指印(指頭に朱肉)で押印要件を満たせる
+Illustration: An isometric close-up of a hand pressing a fingertip
+covered in red ink(朱肉)onto a will document, with a crossed-out
+seal/stamp(印鑑)icon beside it to show a formal seal is not required.
+Caption (small text below):
+自筆証書遺言の押印は実印である必要はなく、指頭に朱肉を付けて押す
+指印でもよい(最判平元.2.16)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+口がきけない者でも、公正証書遺言を利用できる
+Illustration: An isometric scene at a notary office with a human figure
+communicating by sign language or writing on paper toward a notary
+figure seated at a desk, with two witness figures standing beside them.
+Caption (small text below):
+口授に代えて通訳人の通訳や自書による方法があり、口がきけない者も
+公正証書遺言を利用できる(民法969条の2)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+方式違反で無効・禁止となること
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+日付を「吉日」とした遺言は、日付不特定で無効
+Illustration: An isometric calendar page showing "令和元年5月吉日" with
+a large red question mark over the date, and the whole will document
+stamped with a red "無効" seal.
+Caption (small text below):
+「吉日」は暦上の特定の日を指さないため日付の記載を欠き、遺言全体が
+無効となる(民法968条1項、最判昭54.5.31)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+一枚の紙に二人分書くと、共同遺言として問題が生じる
+Illustration: An isometric single sheet of paper split down the middle
+showing two different handwriting styles: one side labeled "A" with a
+seal stamp, the other side labeled "B" without any stamp, and a red
+prohibition icon over the whole sheet labeled "共同遺言禁止".
+Caption (small text below):
+同一証書での共同遺言は禁止され、Bが署名押印していなくてもA単独の
+有効な遺言として当然には扱われない(民法975条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第3問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 遺・証・記. If any character renders as a Simplified Chinese
+variant, redraw that character in the correct Japanese form. Confirm the
+number of cards equals 5 exactly (3 cards under 柔軟に認められること, 2
+cards under 方式違反で無効・禁止となること), with no duplicated or
+missing cards, and confirm every heading, illustration label, and caption
+text matches the Japanese text given above verbatim, with no paraphrasing
+and no substituted characters.
+```

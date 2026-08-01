@@ -81,3 +81,128 @@
 - 滅失と変更、必ず一緒じゃなくていいんです
 - 地上権が満了したら「敷地権消滅」って書くんです
 - 1戸だけ分離OKなら、残り2戸に敷地権を付ける
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+区分建物の登記について、敷地権に関する判断3枚・申請人や一括申請の要否2枚の計5枚のカードで整理した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment buildings,
+land plots, official stamps/seals, ledger books, connecting lines,
+prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters: 号・録・権・地・番・
+建・物・登・記・所.
+
+--- HEADER ---
+Title (large, bold, 2行):
+区分建物の登記、敷地権が絡むと難しい?
+敷地権の判断と申請人のルールを整理
+
+Subtitle (smaller, centered, 1行):
+敷地権に関する判断と、申請人・一括申請の要否を対比(令和元年度 午後の部 第18問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing an
+apartment building (一棟の建物) divided into several small unit boxes,
+with one unit connected by a dotted line down to a land plot icon labeled
+"敷地権", and a magnifying glass hovering over the connection.
+区分建物(マンションなど)の登記では、建物の表示に加えて敷地についての
+権利(敷地権)が一体として登記されます。敷地権が付いたままか外れるかの
+判断と、申請人や一括申請の要否を場面ごとに整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+敷地権に関する判断
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+分筆しても敷地のまま、みなし規約敷地なんです
+Illustration: An isometric land plot that is the site of a mansion,
+split by a dotted line into two sections (分筆); the section without the
+building has a tag reading "みなし規約敷地" attached, while a single
+encircling outline representing "敷地権" still wraps around both
+sections; a prohibition (no-entry) icon is overlaid on the words
+"変更登記".
+Caption (small text below):
+分筆によって一棟の建物が所在しない土地となっても、その土地は規約により
+建物の敷地と定められたものとみなされ(区分所有法5条2項)、敷地権の目的で
+ある土地でなくなったことによる区分建物の表題部の変更の登記は不要。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+地上権が満了したら「敷地権消滅」って書くんです
+Illustration: An isometric ground-lease stake icon (地上権を表す杭)
+toppling over or fading out, next to a registration document where a
+stamp presses in the words "◯年◯月◯日敷地権消滅".
+Caption (small text below):
+敷地権である地上権の存続期間が満了したことにより敷地権の登記を抹消する
+区分建物の表題部の変更の登記を申請する場合、登記原因及びその日付には
+「(元号)何年何月何日敷地権消滅」と記録する。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+1戸だけ分離OKなら、残り2戸に敷地権を付ける
+Illustration: An isometric row of three apartment unit icons; one unit
+has a tag reading "分離処分可能規約" and its connecting line down to the
+shared land plot (敷地) is cut, while the other two units keep a solid
+connecting line down to the land plot representing 敷地権.
+Caption (small text below):
+一個の区分建物についてのみ専有部分と敷地利用権の分離処分を可能とする
+規約が設定されているときは、その一個を除く他の二個の区分建物について
+のみ敷地権に関する事項を申請情報の内容とすることができる
+(昭和58年11月10日民三6400号)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+申請人・一括申請の要否
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+一棟の表示直し、一人が申請すればOK
+Illustration: An isometric apartment building with several unit icons;
+one person figure submits a single application document, while dotted
+arrows radiate out to the other unit icons whose registration records
+change automatically at the same time.
+Caption (small text below):
+一棟の建物の表題部の更正の登記は、その一棟に属する専有部分の所有者の
+一人が申請すれば足り、他の区分建物の所有権の登記名義人が併せて申請する
+義務はない(不登法51条6項参照)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+滅失と変更、必ず一緒じゃなくていいんです
+Illustration: An isometric building made of two attached unit icons
+(甲・乙); the 乙 unit crumbles and disappears (滅失) on one side, while
+the remaining 甲 unit is relabeled "区分建物でない建物" on the other side,
+with two separate document icons for each registration instead of one
+combined document.
+Caption (small text below):
+一棟が甲・乙の区分建物からなる場合に乙区分建物のみが滅失したときの滅失の
+登記の申請と、甲区分建物を区分建物でない建物に変更する表題部の変更の
+登記の申請とを、併せてしなければならないという規定はない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第18問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 敷地権に関する判断, 2 cards under 申請人・一括申請の要否),
+with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

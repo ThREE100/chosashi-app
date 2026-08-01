@@ -100,3 +100,127 @@
 - 乙から分けた土地を甲に合筆＝隣接の証拠なんです
 - 分けたときの境界線、動かなければ生き続けるんです
 - 地積の増減を追えば、旧5番・旧6番の面積が出る
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記記録から合筆・分筆の履歴を読み解く5つの視点を、具体的な地番の数値ではなく汎用的な土地アイコン(土地A・土地Bなど)で抽象化した、列分けのない1列・5枚のカード構成で示す画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric ledger books, land
+plots merging and splitting, timeline arrows, magnifying glasses,
+calculators, question marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters: 号・録・権・地・番・
+建・物・登・記・所. Do not add any specific chiban numbers (such as 2番,
+3番, 5番, 6番) anywhere in the artwork — use only the generic labels
+"土地A" and "土地B" given below, since this card set is a deliberately
+abstracted, generalized version of the underlying problem.
+
+--- HEADER ---
+Title (large, bold, 2行):
+登記記録から「土地の履歴」を読み解く
+合筆・分筆の履歴を読むための5つの視点
+
+Subtitle (smaller, centered, 1行):
+登記記録の「原因及びその日付」欄から、土地の範囲・地積・筆界を追う
+(令和元年度 午後の部 第19問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing an open
+ledger book (登記記録) with a magnifying glass hovering over a column
+labeled "原因及びその日付", and small icons of land plots merging and
+splitting connected along a horizontal timeline arrow.
+登記記録の「原因及びその日付」欄には、合筆・分筆による土地の変化の履歴が
+刻まれています。合筆で取り込まれた部分がその後の分筆で抜け落ちていないか、
+地積の増減から昔の土地の面積を逆算できるか、筆界や隣接関係をどう読み取る
+かを、5つの視点で整理します。
+
+--- CARD 1 ---
+Heading (bold):
+合筆後に切ってなければ、取り込んだ部分は丸ごと残る
+Illustration: An isometric icon of two land plots labeled "土地A" and
+"土地B" merging via an arrow into one combined plot (合筆); over the
+combined plot, a prohibition (no-entry) icon is placed on a dotted
+"分筆" split-line to show no subsequent split has occurred, and the
+outline of the combined plot remains unchanged and intact.
+Caption (small text below):
+合筆によって取り込まれた土地は、その後にその土地について分筆の登記が
+されていなければ、合筆後の土地の中にそっくりそのまま含まれている。
+
+--- CARD 2 ---
+Heading (bold):
+合筆後に分筆した土地、取り込んだ部分が全部残るとは限らない
+Illustration: An isometric icon of the same combined land plot from
+Card 1, now with a dotted line cutting off a portion of it (分筆); the
+cut-off portion has a large "?" mark on it, and two curved arrows point
+from the original merged-in area toward both the remaining plot and the
+cut-off portion, showing the uncertainty of which side it ended up in.
+Caption (small text below):
+合筆で取り込んだ部分がある土地から、その後に分筆で一部を切り出した場合、
+取り込んだ部分の全部が残った側に含まれているとは限らない。
+
+--- CARD 3 ---
+Heading (bold):
+分けた土地を別の土地にくっつけられた＝隣り合っていた証拠
+Illustration: An isometric icon showing a small land plot piece cut away
+from "土地B" via a dotted split-line, then carried by an arrow over to
+merge into "土地A" (合筆); a green checkmark appears at the merge point,
+and a new solid connecting line is drawn directly between 土地A and 土地B
+to represent their adjacency.
+Caption (small text below):
+合筆ができるのは相互に接続している土地に限られる(不登法41条1号)。
+分筆で切り出した土地を別の土地に合筆できたということは、両者が接続して
+いた証拠になる。
+
+--- CARD 4 ---
+Heading (bold):
+分けたときの境界線、動かなければ生き続ける
+Illustration: An isometric icon of a single land plot split by a dotted
+line into two plots (分筆); the resulting boundary line becomes a solid
+line labeled "筆界", with a small stopped-clock icon next to it to show
+that no further change has occurred and the boundary remains fixed over
+time.
+Caption (small text below):
+分筆の登記によって創設された筆界は、その後にその土地について分筆・合筆の
+登記がされていなければ、消えることなく存在し続ける(不登法123条1号)。
+
+--- CARD 5 ---
+Heading (bold):
+地積の増減を追えば、消えた土地の面積が分かる
+Illustration: An isometric icon of a calculator next to two ledger
+cards showing a land plot's registered area before and after a merger,
+labeled generically "◯◯㎡ → ◯◯㎡" (no specific numeric values), with a
+"+" arrow pointing from the difference toward a faded outline of the
+absorbed, now-closed land plot to show its area being derived by
+calculation.
+Caption (small text below):
+合筆の前後で登記記録上の地積がどれだけ増えたかを足し引きしていくと、
+登記記録に直接は書かれていない昔の土地の面積を計算で求めることができる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第19問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm that no specific chiban numbers
+(2番, 3番, 5番, 6番, etc.) appear anywhere in the artwork, and confirm
+every heading, illustration label, and caption text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters.
+```

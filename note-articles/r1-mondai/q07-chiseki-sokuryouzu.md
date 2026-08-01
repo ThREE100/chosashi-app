@@ -83,3 +83,124 @@
 - 地積測量図と地役権図面、縮尺そろえなくていいんです
 - 判決で保存登記でも地積測量図はいるって知ってた？
 - 閉鎖された地積測量図、実は永久保存じゃないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地積測量図について、作成に関する原則を3枚、提供・保存に関する原則を2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots,
+surveying instruments, ledger books, filing shelves, courthouse/gavel,
+stamps, arrows — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地積測量図、作成から保存まで
+縮尺と保存期間の落とし穴
+
+Subtitle (smaller, centered, 1行):
+座標の記録から閉鎖後の保存期間まで整理(令和元年度 午後の部 第7問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a
+surveyor with a measuring instrument taking a reading from a land plot
+marked with coordinate points, connected by a dotted line to a filing
+shelf holding ledger books on the right, representing storage.
+地積測量図は、筆界点の座標をどう記録するか、複数筆をまとめて分筆すると
+きにどう作成するか、そしてその図面をいつまで保存するかまで、不動産登記
+規則が細かくルールを定めています。「〜しなければならない」という言い回
+しが本当に義務なのか、どこまでの範囲に及ぶのかを正確に押さえましょう。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+地積測量図の作成に関する原則
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+基本三角点等がなければ、近傍の恒久的な地物で測る
+Illustration: An isometric land plot with a triangulation point icon
+crossed out in the distance (absent), a large fixed structure (a stone
+monument) nearby labeled 「恒久的な地物」, and a surveyor taking a
+measurement line from that structure to the land plot's corner point.
+Caption (small text below):
+近傍に基本三角点等がなく測量ができない特別の事情があるときは、近傍の恒
+久的な地物に基づく測量成果による座標値を記録する(不登規77条、準則50条
+2項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+数筆まとめて分筆するときは、元の筆ごとに図面を作る
+Illustration: An isometric view of three adjacent land plots labeled
+「甲番」「乙番」「丙番」each divided by a dashed line, with three
+separate sheets of paper fanned out, each stamped with only one original
+plot number, showing they are drawn individually rather than combined
+into one sheet.
+Caption (small text below):
+一の申請情報で隣接する数筆の分筆の登記を申請する場合、地積測量図は分筆
+前の土地ごとに作成する。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+地積測量図と地役権図面、縮尺をそろえる義務はない
+Illustration: An isometric two-panel comparison: left panel a land plot
+drawing labeled 「地積測量図 250分の1」, right panel an overlapping range
+drawing labeled 「地役権図面 適宜の縮尺」, connected by an equals-sign
+icon with a red cross-out mark over it to show they need NOT match.
+Caption (small text below):
+地積測量図は250分の1が原則、地役権図面の縮尺は適宜でよく、両者を同一に
+しなければならない規定はない(不登規77条4項・79条2項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+地積測量図の提供・保存に関する原則
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+判決による所有権保存登記でも、地積測量図が必要
+Illustration: An isometric courthouse/gavel icon and a document labeled
+「確定判決」 pointing with an arrow to a land plot, alongside icons of
+the required attachments 「土地所在図」 and 「地積測量図」 being handed
+over together with the registration application.
+Caption (small text below):
+確定判決で所有権を確認された者が所有権の保存登記を申請する場合にも、土
+地所在図・地積測量図を提供しなければならない(不登法74条2項)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+閉鎖された地積測量図は、永久保存ではない
+Illustration: An isometric filing shelf with two ledger books: one
+labeled 「現に効力を有する図面」 stamped 「永久保存」, another labeled
+「閉鎖された図面」 with a clock/hourglass icon showing a limited time
+period, eventually being placed into a 「廃棄」 bin after the period
+elapses.
+Caption (small text below):
+閉鎖された地積測量図は永久保存の対象ではなく、一定の保存期間の経過後は
+保存対象から外れる(不登規28条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第7問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・縮・尺. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the number of cards equals 5
+exactly (3 cards under 地積測量図の作成に関する原則, 2 cards under 地積
+測量図の提供・保存に関する原則), with no duplicated or missing cards,
+and confirm every heading, illustration label, and caption text matches
+the Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
+```
