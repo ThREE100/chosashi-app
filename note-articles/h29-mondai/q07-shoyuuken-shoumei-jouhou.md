@@ -80,3 +80,134 @@
 - 古材で別の土地に建て直し、それは「新築」なんです
 - 屋根のふき替えだけなら、所有権証明はいらないんです
 - 車庫を倉庫にするだけなら、所有権証明はいらないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+所有権を有することを証する情報の添付要否に関する5肢を、「所有権証明情報が必要な場面」（イ・ウ）と「所有権証明情報が不要な場面」（ア・エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings under
+construction, demolition/wrecking-ball icons, document stamps, checkmark
+and prohibition marks — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 所・有・権・証・明・情・報・建・築・造, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+所有権を証する情報
+いつ添付する？
+
+Subtitle (smaller, centered, 1行):
+「新しい建物か」「名義人が申請するか」で分かれる(平成29年度 午後の部
+第7問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design document icon labeled "所有権を
+証する情報" hovering between two building icons — one a brand-new
+building under construction with a checkmark, and one an existing
+registered building with an owner-name tag already attached — with an
+arrow pointing only toward the new building to show when the document is
+needed.
+「所有権を有することを証する情報(所有権証明情報)」は、建物の表題登記
+など、その建物が申請人のものであることを初めて公に証明する必要がある
+場面で添付します。すでに所有権の登記名義人がいる建物についての変更
+登記では、原則として不要です。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+所有権証明情報が必要な場面
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+一部取壊し＋増築を一の申請でするときは、必要
+Illustration: An isometric building icon shown half with a wrecking-ball
+demolition mark on one side and a construction crane adding new floor
+area on the other side, with a single "所有権証明情報" document stamped
+and attached to the whole building despite the overall floor area
+shrinking.
+Caption (small text below):
+建物の一部取壊しの工事が完了した後に増築の工事が完成した場合において、
+一の申請情報によって建物の表題部の変更の登記を申請するときは、床面積
+が減少する場合であっても、所有権を有することを証する情報を添付
+しなければならない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+全部取壊し後に別の土地で建て直したときは、新築として必要
+Illustration: An isometric building icon being fully demolished into a
+pile of reusable material bricks, which are then carried by an arrow to
+a completely different empty land plot and reassembled into an identical
+building shape, with a "表題登記" stamp and a "所有権証明情報" document
+attached to the newly assembled building.
+Caption (small text below):
+建物の全部を取り壊し、当該建物の材料を用いて同じ種類・構造・床面積の
+建物を別の土地に建築した場合は、既存の建物との同一性が認められず新築
+として扱われ、建物の表題登記に所有権を有することを証する情報を添付
+しなければならない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+所有権証明情報が不要な場面
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+区分建物の物理的変更を伴わない合併的変更は、不要
+Illustration: An isometric pair of adjacent room-shaped building units
+merging into one single unit without any wall being broken (no
+demolition marks, no construction tools shown), with a crossed-out
+"所有権証明情報" document icon beside it.
+Caption (small text below):
+互いに接続する2個の区分建物について、隔壁の除去などの物理的な変更を
+伴わずに1個の区分建物ではない建物とする場合に行う登記の申請には、
+所有権を有することを証する情報の添付を要しない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+屋根のふき替え（構造変更）は、不要
+Illustration: An isometric building icon with a worker figure swapping
+only the roof tiles from one material type to another (small icons
+showing 瓦 tiles being replaced with metal sheet tiles), the walls and
+floor plan unchanged, with a crossed-out "所有権証明情報" document icon
+beside it.
+Caption (small text below):
+建物の屋根を瓦から亜鉛メッキにふき替える工事を行った場合に行う構造の
+変更の登記の申請には、所有権を有することを証する情報の添付を要しない。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+車庫を倉庫にする種類変更は、不要
+Illustration: An isometric open-sided garage icon (種類:車庫) having a
+roll-up shutter door installed on its open side, transforming it into an
+enclosed warehouse icon (種類:倉庫) with the same floor footprint, and a
+crossed-out "所有権証明情報" document icon beside it.
+Caption (small text below):
+種類が車庫の建物について、床面積を変更することなく、当該車庫の開口部
+にシャッターを設置して倉庫とした場合に行う種類の変更の登記の申請には、
+所有権を有することを証する情報の添付を要しない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第7問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 所・有・権・証・明・情・報・建・築・造. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 所有権証明情報が必要な場面, 3 cards under 所有権証明情報が
+不要な場面), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```
