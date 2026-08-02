@@ -81,7 +81,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-5肢を「そもそも非課税になるケース」（ア・イ・ウ）と「変化後の個数×1,000円で計算するケース」（エ・オ）の2系統に分け、各肢を正しいルールに直した5枚のカードで俯瞰する構成。
+登録免許税の5肢を「非課税になるケース」と「個数×1,000円で計算するケース」という2つの軸に沿って、すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -91,6 +91,17 @@ modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, coins, document tags, etc. — adapt icon
 set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -98,9 +109,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-following kanji, which are easily confused with Simplified Chinese
-variants: 号・録・権・地・番・建・物・登・記・所 — draw them only in their
-standard Japanese (Jōyō) form, never as Simplified Chinese variants.
+kanji 録・地・建・物・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -108,76 +118,82 @@ Title (large, bold, 2行):
 「非課税」と「個数×千円」の見分け方
 
 Subtitle (smaller, centered, 1行):
-令和7年度　午後の部　第19問
+令和7年度 午後の部 第19問－5つの記述を検証する
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: an isometric balance scale icon — one side holds a stamp
-labeled "非課税", the other side holds a small stack of coins labeled
-"1,000円"; beside it a signpost with two arrows pointing in different
-directions to suggest a fork in judgment.
-表示に関する登記の登録免許税は、「そもそも非課税」なのか「分筆・分割・区分・合併後の個数×1,000円」で計算するのかを見分けるのがポイントです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 非課税になるケース
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-表題部所有者の住所の更正は、そもそも非課税
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題部所有者の住所更正は非課税
 Illustration: an isometric building icon with a small document tag
 labeled "表題部" and "住所" attached to it; a red "非課税" stamp is
 overlaid on top; no yen coin icons anywhere near this card.
-Caption (small text below):
-表題部所有者の住所更正は非課税（1,000円ではない）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+住所更正は非課税
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-地方公共団体の代位による分筆登記の嘱託は、非課税
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+代位による分筆嘱託は非課税
 Illustration: an isometric land plot split into two parcels by a dotted
 line (分筆を表す); a small municipal-building icon (地方公共団体) and a
 person icon (私人) connected by a dashed arrow labeled "代位"; a
 "非課税" stamp badge over the plot.
-Caption (small text below):
-地方公共団体の代位による分筆登記の嘱託は非課税
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位でも非課税
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-合筆登記の錯誤による抹消は、そもそも非課税
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+合筆登記の錯誤抹消も非課税
 Illustration: an isometric view of three land parcels merged into one
 (合筆), overlaid with a red cancellation line/X mark (抹消) and a
 "非課税" stamp badge beside it.
-Caption (small text below):
-合筆登記の錯誤抹消は非課税（表題部登記の抹消は別表第一(十五)の除外規定に該当）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+表題部抹消は非課税
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 個数×1,000円で計算するケース
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-区分建物の再区分は、再区分後の個数×1,000円
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物の再区分は個数×1,000円
 Illustration: an isometric single building icon splitting via a dotted
 arrow into two identical smaller building icons (再区分), each labeled
 "1,000円"; a small total-sum bubble beside them showing "2,000円".
-Caption (small text below):
-区分建物の再区分は再区分後の個数×1,000円＝2,000円
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+合計2,000円
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-分割の登記と合併の登記を一括申請するときは、3,000円ではなく2,000円
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+分割+合併の一括申請は2,000円
 Illustration: an isometric building labeled "甲" with a small attached
 building (附属建物) being detached and moved by an arrow to attach to a
 building labeled "乙"; a single document/application-form icon
 (一の申請情報を表す) beside the arrow; a price tag showing "2,000円"
 (not "3,000円").
-Caption (small text below):
-分割＋合併の一括申請は3,000円ではなく2,000円
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+3,000円ではない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
+Small credit text in the corner (optional, keep minimal):
+note記事「登録免許税、『非課税』と『個数×千円』の見分け方」より
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every yen amount and stamp
-label matches the text given above exactly.
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

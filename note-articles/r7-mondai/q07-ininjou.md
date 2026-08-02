@@ -83,15 +83,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「一切の件」という包括的な委任状であっても個別の授権が必要な行為（暗号化・還付金受領）と、代理権そのものの消滅・存続ルール（代表者交代・復代理人・死亡）という2系統に分け、5枚のカードで俯瞰する構成。
+「一切の件」という包括的な委任状であっても個別に明記しないと認められない行為（暗号化・還付金受領）と、代理権そのものの消滅・存続ルール（代表者交代・復代理人・死亡）という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric office building,
-scroll-style power-of-attorney document, house/land registry seal, key
-icon, envelope of money, etc. — adapt icon set to the topic).
+scroll-style power-of-attorney document, registry desk and seal, key
+icon, envelope of money, empty chair, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,80 +112,83 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-following kanji, which have visually different Simplified Chinese forms:
-権・続・継・還・登・記・号・地・番・建・物・録・委・任・代・理・復 — render
-each in its standard Japanese (Jōyō) form, never the simplified Chinese
-variant.
+kanji 委・任・代・理・復・授・権・承・継・相・続・還・受・領・消・滅・登・記
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-令和7年度 第7問
+Title (large, bold, 1行):
 「一切の件」の委任状、どこまで有効？
 
 Subtitle (smaller, centered, 1行):
-委任・代理の基本ルールを5つのカードで確認
+令和7年度 午後の部 第7問－委任・代理の基本ルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 株式会社の代表者キャラクターが、土地家屋調査士のキャラクターに
-「甲土地の分合筆の登記申請に関する一切の件」と書かれた巻物状の委任状を手渡し
-ている場面。委任状の上に疑問符の吹き出しが浮かんでいる。
-「一切の件」と書かれた委任状を渡されると、何でも任されている気になりがちですが、
-実際には委任状に明記しなければ有効にならない行為がいくつもあります。この事例を
-通じて、委任・代理の基本ルールを確認しましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 個別の授権が必要な行為
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-登記識別情報の暗号化には特別の授権が別途必要
-Illustration: 土地家屋調査士のキャラクターがパソコンの前に座り、画面に鍵の
-アイコンと「登記識別情報」のラベルが表示されている。委任状のアイコンから
-パソコンへ矢印が伸びているが、鍵のアイコンだけは別の追加書類（特別授権の
-アイコン）から独立して浮かんでおり、その追加書類には強調の枠線がある。
-Caption (small text below):
-「登記申請に関する一切の件」という一般的な委任だけでは足りません。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+暗号化には特別の授権が必要
+Illustration: An isometric surveyor character sits at a computer, the
+screen showing a key icon and a label "登記識別情報". An arrow runs from a
+scroll-style power-of-attorney document to the computer, but the key icon
+floats separately, boxed off from a second document labeled "特別の授権"
+with a bold highlight border, showing it is not automatically included.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+特別授権が必要
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-登録免許税の還付金受領には別途その権限の記載が必要
-Illustration: 還付金を表す封筒（お金のアイコン付き）と、それを受け取る
-手のアイコンの間に、追加の委任状アイコンが挟まって浮かんでいる構図。
-Caption (small text below):
-「登記申請に関する一切の件」という委任だけでは、還付金の受領権限までは
-含まれません。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+還付金の受領にも別途の授権が必要
+Illustration: An envelope stamped with a money icon (representing the tax
+refund) sits between a hand reaching to receive it and the original
+power-of-attorney scroll, which has a red cross mark over it. A second,
+separate document labeled "受領権限" with a highlight border floats
+between them, showing the extra authorization needed.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+受領権限は別途必要
 
---- COLUMN B HEADER (pill-shaped badge) ---
-代理権の消滅・存続のルール
-
---- COLUMN B, CARD 1 ---
-Heading (bold):
-委任者は法人自体なので代表者交代の影響を受けない
-Illustration: 会社を表すアイソメトリックのビルのアイコンの中で、代表取締役
-のキャラクターが旧→新へ入れ替わる矢印で示されているが、ビルから委任状の
-アイコンへ伸びる矢印は途切れずそのまま続いている。
-Caption (small text below):
-代表取締役が交代しても、株式会社Ａとの委任契約の効力に影響はありません。
-
---- COLUMN B, CARD 2 ---
-Heading (bold):
-復代理人を選任しても元の代理人の代理権は存続する
-Illustration: 元の代理人（土地家屋調査士のキャラクター）と、新しく追加
-された復代理人のキャラクターが並んで立ち、両方から同じ委任状のアイコンへ
-線が伸びている構図。元の代理人の線には途切れがないことを示す。
-Caption (small text below):
-復代理人は追加で選ばれるものであり、元の代理人と入れ替わるものではあり
-ません。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+代理権の消滅・存続ルール
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-代理権は代理人の死亡で消滅し、相続人に承継されない
-Illustration: 代理人のキャラクターの席が静かに空席になっている（誇張表現
-は避け、椅子と書類だけが残るシンプルな構図）。その隣に立つ相続人のキャラ
-クターと委任状アイコンの間には×印の線を描き、承継されないことを示す。
-Caption (small text below):
-代理人という地位は本人の信頼を前提とするため、相続人であっても当然には
-引き継げません。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+代表者交代でも委任は存続
+Illustration: An isometric office building icon shows the company
+representative figure swapping from an old figure to a new one via a
+curved arrow. A separate unbroken arrow runs continuously from the
+building itself to the power-of-attorney scroll, showing the delegation
+is untouched by the change.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+委任は消えない
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+復代理人を選んでも代理権は存続
+Illustration: The original agent character and a newly added sub-agent
+character stand side by side, both with lines connecting to the same
+power-of-attorney scroll. The original agent's line remains unbroken and
+solid, showing their authority is undiminished by adding the sub-agent.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+元の代理権も存続
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+代理人が死亡すると代理権は消滅
+Illustration: A simple isometric registry desk chair sits empty, with only
+a stack of documents left on it. Beside it stands a successor character;
+a red X mark sits on the line connecting the successor to the
+power-of-attorney scroll, showing the position is not inherited.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+相続はされない
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -181,8 +196,11 @@ Small credit text in the corner (optional, keep minimal).
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, and confirm no card depicts an
-"誤" (incorrect) statement as-is — every card must show the corrected,
-legally accurate rule.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

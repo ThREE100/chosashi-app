@@ -83,7 +83,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「どこに記録されるか」（ア・イ）と「何と表記できるか」（ウ・エ・オ）の2系統に分け、誤りの肢は本来正しいルールに直した5枚のカードで、建物の「種類」に関するルールを俯瞰する構成にした。
+建物の「種類」に関する5肢を、「どこに記録されるか」（ア・イ）と「何と表記できるか」（ウ・エ・オ）の2軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -94,6 +94,17 @@ plans, name plates/labels, gas station pumps, cram-school desks, movie
 theater screens, price tags with an "x" mark for rejected terms, etc. —
 adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -101,97 +112,93 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-following kanji, which have visibly different Simplified Chinese forms and
-must be drawn in their standard Japanese form: 種, 類, 録, 権, 建, 物, 登,
-記, 所, 場, 給, 実, 題.
+kanji 種・類・録・権・建・物・登・記・所・場・給・実・題 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-建物の「種類」
-正しい決め方・記録のされ方
+Title (large, bold, 1行):
+建物の「種類」、正しい決め方・記録のされ方
 
 Subtitle (smaller, centered, 1行):
-令和7年度　土地家屋調査士試験　午後の部　第12問
+令和7年度 午後の部 第12問－記録場所と表記ルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: A land and house surveyor character (isometric, flat design)
-holding a floor plan and a magnifying glass, standing next to a small
-isometric building with multiple floors of different uses.
-建物の「種類」は、あらかじめ定められた用語の中から実際の用途を的確に選び、
-区分建物では専有部分ごとに記録するものです。「どこに記録されるか」と
-「何と表記できるか」の2つの視点から整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 どこに記録されるか
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-「種類」は部屋ごと、建物全体じゃないんです
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+種類は専有部分ごとに記録
 Illustration: A cutaway isometric view of a multi-story condominium
 (区分建物). Each floor's individual unit (専有部分) has its own small
 name plate showing its own 種類 label (e.g. "店舗", "居宅"). The building's
 overall header/title block at the top (一棟の建物の表題部) has an empty
 or grayed-out slot where "種類" would go, with a small "×" mark, showing
 that the whole-building register does NOT carry a 種類 entry.
-Caption (small text below):
-一棟の建物の表題部には種類は記録されず、各専有部分の表題部にそれぞれの
-用途が記録される。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一棟には記録なし
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-消えるのは所有者情報、種類じゃありません
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+消えるのは所有者情報
 Illustration: An isometric building room labeled "共用部分" (common area,
 e.g. a management room). Two name tags next to it — "所有者" and "権利"
 — are shown being erased (eraser icon or a red "×" over them). A third
 name tag showing "種類：管理人室" remains untouched and clearly intact.
-Caption (small text below):
-共用部分である旨の登記をする際、登記官が職権で抹消するのは表題部所有者の
-登記又は権利に関する登記であり、建物の種類に関する登記事項ではない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+種類は消えない
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 何と表記できるか
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-「多目的ビル」じゃ、種類として認められません
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+「多目的ビル」は種類として不可
 Illustration: An isometric 5-story building, each floor showing its actual
 use with a small icon: 1F food shop, 2-3F clothing shop, 4F game center,
 5F movie theater. Below the building, one name plate reads
 "店舗・遊技場・興行場" with a check mark, and a separate crossed-out
 ("×") name plate reads "多目的ビル".
-Caption (small text below):
-建物の種類はあらかじめ定められた用語の組合せで実際の用途を列記するもので
-あり、抽象的な「多目的ビル」という表記は認められない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+用途を列記する
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-塾でも、種類は「教習所」でいいんです
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+学習塾は「教習所」で登記
 Illustration: An isometric small building with desks and a chalkboard
 visible through a window (a private cram school, not a school under the
 School Education Act). A name plate on the building reads "教習所".
-Caption (small text below):
-学校教育法の適用を受けない学習塾などの施設は、規則113条の「その他適宜
-定める」枠により、種類を「教習所」と定めることができる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+規則113条の枠
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-ガソリンスタンドは、そのまま「給油所」
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+ガソリンスタンドは「給油所」
 Illustration: An isometric gas station building with a canopy and fuel
 pumps. A name plate on the building reads "給油所".
-Caption (small text below):
-各種油類の販売・給油を目的とするガソリンスタンドの建物の種類は、
-不動産登記事務取扱準則80条に基づき「給油所」と定める。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+準則80条の一つ
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 種, 類, 録, 権, 建, 物, 登, 記, 所, 場, 給, 実, 題. If any
-character renders as a Simplified Chinese variant, redraw that character
-in the correct Japanese form. Confirm the number of cards equals 5
-exactly (2 cards under column A, 3 cards under column B), with no
-duplicated or missing cards, and confirm the three-item name plate in
-Column B Card 1 reads exactly "店舗・遊技場・興行場" — three terms,
-in this order, no more and no fewer.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, that the three-item name plate in
+Card 3 reads exactly "店舗・遊技場・興行場" — three terms, in this order,
+no more and no fewer — confirm there is no intro illustration or paragraph
+block between the header and the cards, and confirm that no card contains
+a full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
 ```
