@@ -79,3 +79,131 @@ A・Bが共有する土地の地目の変更の登記は、表示に関する登
 - 一部だけ仮処分したいなら、まず代位で分筆
 - 調停調書があれば、一人で相手に代位して分筆できる
 - 共有地の地目変更は、代位なんて使わず単独申請なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+代位申請が使える場面（列A・緑、ア・ウ・エ、いずれも正しい結論だけを図解）と、代位が使えない・不要な場面（列B・青、イ・オ）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, character
+figures representing 施行者・債権者・相続人, application document folders,
+a small court/mediation document icon for 調停調書, a road/path icon for
+地役権, checkmarks and cross marks, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 区・画・整・理・施・行・者・分・筆・合・権・処・仮・調・停・産・単・独・代・位 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+代わりに申請できる？代位申請の見極めライン
+
+Subtitle (smaller, centered, 1行):
+令和元年度　午後の部　第14問－代位申請の可否
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+代位が使える場面
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+区画整理の施行者は代位して分合筆OK
+Illustration: 区画整理エリアの地図アイコン（複数の土地区画）、施行者の
+キャラクターが地権者に代わって「分筆」「合筆」の申請書フォルダを差し
+出す。フォルダに緑の✓マーク。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+事業の特則で代位可能
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮処分の債権者は代位して分筆できる
+Illustration: 土地アイコンの一部分に「処分禁止」の赤いバツ帯（仮処分）。
+債権者のキャラクターが「仮処分命令正本」の書類を代位原因情報として掲げ、
+分筆の申請書フォルダを提出。フォルダに緑の✓マーク。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+仮処分命令正本で代位可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+調停調書でAが単独でBに代位できる
+Illustration: 共有名義A・Bの土地アイコンが点線で二つに分かれる。「遺産
+分割調停調書正本」の書類を掲げるAのキャラクターだけが分筆の申請書
+フォルダを提出し、Bのキャラクターは不在のまま。フォルダに緑の✓マーク。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+調停調書正本で単独代位
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+代位が使えない・不要な場面
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+地役権者は代位して分筆できない
+Illustration: 土地アイコンの一部に小道（地役権）のアイコン。地役権者の
+キャラクターが分筆の申請書フォルダを差し出そうとする矢印に赤い✕マーク。
+横に「一部のままでも設定できる」のラベル付き小道アイコン。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+保全の必要性がなく不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+共有地の地目変更は単独申請でOK
+Illustration: 共有名義A・Bの土地アイコン（雑種地→宅地の矢印）。Aの
+キャラクターだけが地目変更の申請書フォルダを単独で提出。「代位」の
+ラベルに赤い✕マーク。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+保存行為だから代位不要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度　午後の部　第14問（登記の代位申請）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 区画整理の施行者は代位して分合筆OK
+2. 仮処分の債権者は代位して分筆できる
+3. 調停調書でAが単独でBに代位できる
+4. 地役権者は代位して分筆できない
+5. 共有地の地目変更は単独申請でOK
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

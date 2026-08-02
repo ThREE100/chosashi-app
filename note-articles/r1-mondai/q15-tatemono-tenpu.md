@@ -79,3 +79,130 @@
 - 会社法人等番号、署名の真正チェック役じゃないって知ってた?
 - 紙の識別情報、スキャンして送る方法はないんです
 - 住所入り相続一覧図、一枚で二役こなせちゃう
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+電子申請における添付情報のルール（列A・緑、イ・ウ・エ、いずれも正しい結論だけを図解）と、証明情報として何を使えるかというルール（列B・青、ア・オ）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric computer/tablet
+screens with electronic signature marks, digital certificate badges,
+paper seal/印鑑 stamps, company registration badges, ID/certificate
+document folders, a scanner icon, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・権・証・明・情・報・登・記・識・別・電・子・署・名・印・鑑・会・社・法・人・番・住・所・続・覧・図
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その添付情報、電子申請でほんとに要る？
+
+Subtitle (smaller, centered, 1行):
+令和元年度　午後の部　第15問－建物の表示登記の添付情報
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+電子申請における添付情報のルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+電子署名すれば印鑑証明書は不要
+Illustration: タブレット画面に委任状と電子署名マークが表示され、電子
+証明書のバッジがAさん本人であることを確認する矢印。紙の印鑑証明書
+アイコンに赤い✕マーク。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+電子証明書が確認を代替
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+会社法人等番号は署名確認の情報でない
+Illustration: 会社の代表者キャラクターが電子署名を行い、電子証明書
+バッジがその真正性を確認する矢印。少し離れた場所に「会社法人等番号」
+のカードを描き、「必須併記ではない」のラベルを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+真正確認は電子証明書の役割
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記識別情報はスキャンでなく符号入力
+Illustration: 紙の通知書をスキャナに通そうとする矢印に赤い✕マーク。
+代わりにタブレット画面に「符号を直接入力」する入力欄と緑の✓マーク。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+符号を入力して提供
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+証明情報として何を使えるか
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地共有者は一部の証明でも足りる
+Illustration: 敷地を共有するA・B・Cのキャラクターのうち、Aだけが「所有
+権を有することを証する情報」のはんこを押し、表題登記の申請書フォルダに
+添付される。フォルダに緑の✓マーク。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+共有者全員でなくてよい
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+住所入り相続一覧図は一枚で二役
+Illustration: 「法定相続情報一覧図の写し」の書類アイコンに住所欄が強調
+表示され、矢印が「所有権証明情報」の箱と「住所証明情報」の箱の両方に
+伸びる。両方の箱に緑の✓マーク。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所有権と住所の証明を兼ねる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度　午後の部　第15問（建物の表示登記の添付情報）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 電子署名すれば印鑑証明書は不要
+2. 会社法人等番号は署名確認の情報でない
+3. 登記識別情報はスキャンでなく符号入力
+4. 敷地共有者は一部の証明でも足りる
+5. 住所入り相続一覧図は一枚で二役
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```
