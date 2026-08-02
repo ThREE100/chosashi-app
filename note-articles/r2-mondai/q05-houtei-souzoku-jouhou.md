@@ -91,14 +91,29 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+「一覧図の写しの提出・返却に関するルール」（列A・緑、番号のみでの代替可否・還付・有効期間の3肢）と「記載内容・利用場面の広がり」（列B・青、廃除の記載省略・地図訂正での利用の2肢）という2つの軸に沿って、出題当時（令和2年度）に正しかった5肢のルールだけを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。法改正後の変化点は本文で解説済みのため、ポスターには含めない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: family-tree register
+documents, koseki (family register) bundles, registry office counters,
+calendar, infinity mark, map with parcel lines, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -106,67 +121,78 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 図・証・還・戸・請 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
 法定相続情報一覧図、5つの使い方ルール
 
 Subtitle (smaller, centered, 1行):
-令和2年度 第5問／出題当時のルールを整理
+令和2年度 午後の部 第5問－出題当時（令和2年）のルールを整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 家系図の形をした「法定相続情報一覧図」の書類アイコンを中央に描き、その周囲に戸籍謄本の束のアイコンと、地図・登記の書類アイコンを小さく配置する。
-「法定相続情報一覧図」は、戸籍謄本一式を法務局に提出して確認してもらい、相続関係を一枚の図にまとめた公的な証明書です（法定相続情報証明制度）。相続がからむ表示登記や地図訂正の場面で、分厚い戸籍の束の代わりに使えるのが最大のメリットです。この制度が「どの場面で・どう使えるか」を、出題当時（令和2年度）のルールに沿って整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-「番号だけ」の提供では、相続を証する情報に代えられない
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+写しの提出・返却に関するルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+番号だけでは提供に代えられない
 Illustration: 法定相続情報一覧図の書類アイコン全体と、番号だけが書かれた小さなメモアイコンを並べて描く。メモアイコンには大きなバツ印を重ね、書類アイコン全体にはチェックマークを重ねて、番号だけでなく写しそのものの提出が必要であることを示す。
-Caption (small text below):
-出題当時は「番号だけ」で一覧図の写しの提供を省略することはできなかった
+Conclusion tag (green banner below the illustration, 5-15 characters):
+写しの提出が必要
 
---- CARD 2 ---
-Heading (bold):
-提供した一覧図の写しは、原本還付を請求できる
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+一覧図の写しは還付請求できる
 Illustration: 一覧図の写しの書類アイコンが法務局の窓口アイコンに提出され、その後「還付」のラベルを付けた矢印で申請者のシルエットの手元に戻ってくる循環矢印を描く。
-Caption (small text below):
-一覧図の写しは原本還付を請求できる
+Conclusion tag (green banner below the illustration, 5-15 characters):
+還付請求できる
 
---- CARD 3 ---
-Heading (bold):
-一覧図の写しには「作成後3月以内」といった有効期間の制限はない
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+写しに有効期間の制限はない
 Illustration: 一覧図の写しの書類アイコンの隣にカレンダーのアイコンを描き、カレンダーに「3ヶ月」の期限マークと大きなバツ印を重ね、無期限であることを示す無限大マークを添える。
-Caption (small text below):
-一覧図の写しに「作成後3月以内」等の有効期間の制限はない
+Conclusion tag (green banner below the illustration, 5-15 characters):
+有効期間なし
 
---- CARD 4 ---
-Heading (bold):
-相続人の廃除が一覧図に表れていれば、廃除を証する戸籍は省略できる
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+記載内容と利用場面の広がり
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+廃除者の戸籍提出は省略できる
 Illustration: 家系図の形をした一覧図のアイコンを描き、廃除された人物のシルエットをグレーアウトさせて図から消えている様子を表現する。その脇に戸籍謄本の書類アイコンと大きなバツ印を重ね、省略できることを示す。
-Caption (small text below):
-廃除された者は一覧図に載らないため、廃除を証する戸籍の提供を省略できる
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+戸籍提出を省略
 
---- CARD 5 ---
-Heading (bold):
-地図訂正の申出でも、一覧図の写しで相続を証明できる
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+地図訂正でも一覧図で代用可
 Illustration: 区画線の入った地図のアイコンと、法定相続情報一覧図の写しの書類アイコンを並べて描き、両者の間に「相続を証する情報の提供に代える」のラベルを付けた矢印を描く。
-Caption (small text below):
-地図訂正の申出でも一覧図の写しで相続を証する情報に代えられる
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+地図訂正にも使える
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験対策｜令和2年度 午後の部 第5問
-
-Note on frequently miswritten kanji: This infographic's card text uses the
-kanji 番・地・登, which are often confused with visually similar
-Simplified Chinese characters. Render each strictly in standard Japanese
-(Jōyō) form — do not substitute any Simplified Chinese variant for 番, 地,
-or 登.
+土地家屋調査士試験対策｜令和2年度 午後の部 第5問（出題当時のルール）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

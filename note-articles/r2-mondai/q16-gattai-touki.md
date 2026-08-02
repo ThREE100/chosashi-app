@@ -82,7 +82,9 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+合体による登記等について、「申請時にどんな添付情報が必要か」（ア・イ・オ＝列A・緑）と、「合体後の登記がどう扱われるか」（ウ・エ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -93,104 +95,123 @@ together, mortgage tags, hanko seals, registration-identifier tokens,
 torn paper labels — adapt icon set to the topic of two buildings becoming
 one).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Special caution: this topic repeatedly uses the kanji 登・記・権・建・物・
-号・地 (as in 登記, 建物, 抵当権, 所有権, 賃借権, 5320号, 持分). Render each
-of these in standard Japanese Jōyō form, never in Simplified Chinese form
-(号 must not become its simplified variant; 権 must not become 权; 建 must
-not become a simplified variant; 記 must not become 记 — always use 記).
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・記・権・建・物・職 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants (権 must not become
+权; 記 must not become 记).
 
 --- HEADER ---
 Title (large, bold, 1行):
-合体による登記等の5つのポイント
+合体による登記等、5つのポイント
 
 Subtitle (smaller, centered, 1行):
-令和2年度 土地家屋調査士試験 午後の部 第16問
+令和2年度 午後の部 第16問－添付情報と権利の扱われ方
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Two separate isometric buildings physically joining together
-into one merged building, connecting seams glowing softly, small
-construction/extension icons (scaffolding, arrows) indicating the two
-buildings becoming one.
-「合体による登記等」とは、2つ以上の別々の建物が、増築などで物理的に1つの建物になった（合体した）ときにする登記のことです。合体後の建物の表題登記と、合体前の各建物の表題部の登記の抹消をまとめてする点が特徴で、権利関係の引継ぎがどう処理されるかが問われます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- ENUMERATION NOTICE ---
-以下は本問のア〜オ、合計5個の論点カードである。番号・文言は下記のとおり一字一句そのまま使用し、重複禁止・欠落禁止・言い換え禁止とする。
-1. ア：合体後も残る抵当権、抵当権者の承諾がいるんです
-2. イ：全員が実印＋印鑑証明なら、申請書が持分の証明を兼ねるんです
-3. ウ：合体後の所有権の登記は「職権」。申請しなくていいんです
-4. エ：賃借権は持分に登記できないから、合体で引き継げないって知ってた？
-5. オ：名義が同じなら、登記識別情報は1個でいいんです
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+添付情報として何が必要か
 
---- CARD 1（ア） ---
-Heading (bold):
-合体後も残る抵当権、抵当権者の承諾がいるんです
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+存続する抵当権は承諾情報が必要
 Illustration: Two isometric buildings (A and B) merging into one; building
 A has a red tag icon labeled 抵当権, an arrow shows the tag moving onto a
 highlighted 持分 section of the merged building; a document icon with a
 hanko stamp labeled 承諾書 is being handed from a person icon (labeled
 抵当権者) toward the merged building.
-Caption (small text below):
-合体後も存続する抵当権があるときは抵当権者の承諾情報等が必要（令別表13項添付情報ト）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾情報等が必要
 
---- CARD 2（イ） ---
-Heading (bold):
-全員が実印＋印鑑証明なら、申請書が持分の証明を兼ねるんです
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+印鑑証明書が持分割合の証明を兼ねる
 Illustration: Several person icons (owners) each stamping a hanko seal
 onto one shared document icon labeled 申請情報; the document icon has a
 second overlapping ghost label 持分割合を証する情報 appearing behind it to
 show it serves double duty; a small 印鑑証明書 icon sits next to each
 person.
-Caption (small text below):
-全員が書面申請で印鑑証明書を出せば申請情報が持分割合証明を兼ねる（平5.7.30民三5320号）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+印鑑証明で証明を兼ねる
 
---- CARD 3（ウ） ---
-Heading (bold):
-合体後の所有権の登記は「職権」。申請しなくていいんです
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記識別情報は1個で足りる
+Illustration: Two buildings owned by the same person icon (identical
+face/color on both) merging into one; only a single token/card icon
+labeled 登記識別情報 is needed and shown with a green checkmark, while a
+second duplicate token icon nearby is crossed out with an "×".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1個で足りる
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+合体でどう登記されるか
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有権登記は登記官の職権
 Illustration: A person icon submitting two document icons labeled 表題登記
 and 表題部の登記の抹消 into a registry-office window icon; separately, a
 gear/stamp icon labeled 登記官の職権 automatically produces a third
 document icon labeled 所有権の登記 with no person's hand touching it,
 showing it happens automatically rather than by application.
-Caption (small text below):
-合体後の所有権の登記は登記官の職権。申請するのは表題登記と抹消（不動産登記法49条2項）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+申請不要・職権
 
---- CARD 4（エ） ---
-Heading (bold):
-賃借権は持分に登記できないから、合体で引き継げないって知ってた？
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+賃借権は持分に登記できず不存続
 Illustration: Two buildings each with a tag icon labeled 賃借権 before
 merging; after merging, the 賃借権 tag has a red "×" mark over it on the
 merged building's 持分 section, while nearby tags labeled 抵当権 and
 所有権 show green checkmarks and carry over successfully onto the merged
 building.
-Caption (small text below):
-賃借権は持分の上に登記できず、合体後に存続させられない（平5.7.30民三5320号）
-
---- CARD 5（オ） ---
-Heading (bold):
-名義が同じなら、登記識別情報は1個でいいんです
-Illustration: Two buildings owned by the same person icon (identical
-face/color on both) merging into one; only a single token/card icon
-labeled 登記識別情報 is needed and shown with a green checkmark, while a
-second duplicate token icon nearby is crossed out with an "×".
-Caption (small text below):
-登記名義人が同一なら1個の建物の登記識別情報で足りる（不動産登記令8条2項1号）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+賃借権は引き継げない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
+Small credit text in the corner (optional, keep minimal):
+令和2年度 午後の部 第16問（合体による登記等）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 存続する抵当権は承諾情報が必要
+2. 印鑑証明書が持分割合の証明を兼ねる
+3. 登記識別情報は1個で足りる
+4. 所有権登記は登記官の職権
+5. 賃借権は持分に登記できず不存続
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Pay special attention to 登・記・権・建・物・号・地
-as noted above. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, and that they correspond exactly to ア・イ・
-ウ・エ・オ in that order.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```
