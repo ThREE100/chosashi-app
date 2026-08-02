@@ -84,17 +84,28 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物として登記できるかどうかを分ける3要件（外気分断性・定着性・用途性）を、ア〜オ5つの具体例それぞれについて「登記できる／できない」の結論と理由で俯瞰できるよう、5枚のカードを1列に並べて構成した画像生成プロンプト。
+建物として登記できるかどうかを分ける3要件（外気分断性・定着性・用途性）について、「建物として登記できる」（イ・ウ・オ）と「建物として登記できない」（ア・エ）という2つの軸に沿って、5肢すべての結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric grandstand with and
 without a roof, a river with an anchored boat-shaped building, an elevated
 railway viaduct with a warehouse underneath, a small wheeled ticket booth,
 a retired train car on a concrete foundation, green "建物" approval stamps,
-red prohibition marks, official seals).
+red prohibition marks, official seals — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,99 +114,96 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・覧・倉・庫・売・運・鉄・両・準・則,
-which have Simplified Chinese look-alike forms with visibly different
-stroke shapes — always draw the standard Japanese (Jōyō) form of these
-characters.
+kanji 地・番・登・記・所・覧・倉・庫・売・運・鉄・両・準・則 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-建物として登記できる/できない
-3要件で見極める
+Title (large, bold, 1行):
+屋根のない観覧席は建物？
 
 Subtitle (smaller, centered, 1行):
-外気分断性・定着性・用途性で判定(平成30年度 午後の部 第10問)
+平成30年度 午後の部 第10問－外気分断性・定着性・用途性で判定
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Three small isometric icon badges arranged in a row on the
-left: a roof/wall enclosure icon labeled "外気分断性", an anchor and stake
-driven into the ground icon labeled "定着性", and a person standing icon
-labeled "用途性", connected by thin lines to a central house-shaped
-silhouette to show all three are required for a building to be registered.
-建物として登記できるかどうかは、①外気分断性、②土地への定着性、③用途性
-(人や物がとどまることができるか)という3要件を満たすかで決まります。ア
-からオまでの5つの具体例について、どの要件を満たし、どの要件が欠けている
-かを一つずつ確認します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-ア　屋根を有しない観覧席は、外気分断性を欠き建物として登記できない
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+建物として登記できる
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+固定された浮船は登記できる
+Illustration: An isometric riverside scene showing a boat-shaped building
+(a renovated houseboat/restaurant) floating on water but tied down to the
+riverbank with a visible anchor and chain plus wooden stakes driven into
+the ground, a green circular "建物" approval stamp beside it, and a small
+label tag reading "浮船(固定)".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+定着性ありで登記可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+ガード下の倉庫も登記できる
+Illustration: An isometric elevated railway viaduct (ガード) with a small
+walled warehouse built into the space underneath it, complete with walls,
+a roof, and a door, a green circular "建物" approval stamp on the
+warehouse, and a small label tag reading "ガード下倉庫".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+ガード下でも登記可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+廃車車両も基礎工事で登記できる
+Illustration: An isometric retired train car body permanently set on a
+gray concrete foundation, with a utility pole and a water pipe connected
+to it, a small door and window added to the side, a green circular "建物"
+approval stamp beside it, and a small label tag reading "廃車車両(基礎固定)".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+基礎固定で登記可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+建物として登記できない
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+屋根なし観覧席は登記できない
 Illustration: An isometric racetrack/baseball stadium grandstand split
 into two halves. The left half has a solid roof over the seating, with a
 green circular "建物" approval stamp. The right half has open seating with
 no roof, exposed to a cloud and sun in the open sky above, overlaid with a
 red circular prohibition (no-entry) mark and a small label tag reading
 "屋根なし観覧席".
-Caption (small text below):
-屋根を有する部分は建物として取り扱うが、屋根を有しない部分は外気分断性を
-欠くため建物として登記できない(準則77条1号イ)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+外気分断性を欠く
 
---- CARD 2 ---
-Heading (bold):
-イ　土地に固定された浮船利用の店舗は、定着性が認められ建物として登記できる
-Illustration: An isometric riverside scene showing a boat-shaped building
-(a renovated houseboat/restaurant) floating on water but tied down to the
-riverbank with a visible anchor and chain plus wooden stakes driven into
-the ground, a green circular "建物" approval stamp beside it, and a small
-label tag reading "浮船(固定)".
-Caption (small text below):
-浮船を利用した建造物でも、土地に固定されていれば定着性が認められ、建物
-として登記することを要する(準則77条2号ウ)。
-
---- CARD 3 ---
-Heading (bold):
-ウ　ガード下を利用した倉庫は、建物として登記できる
-Illustration: An isometric elevated railway viaduct (ガード) with a small
-walled warehouse built into the space underneath it, complete with walls,
-a roof, and a door, a green circular "建物" approval stamp on the
-warehouse, and a small label tag reading "ガード下倉庫".
-Caption (small text below):
-ガード下という特殊な立地でも、周壁・屋根で外気を分断し土地に定着して用途
-に供されていれば建物として登記できる(準則77条1号ウ)。
-
---- CARD 4 ---
-Heading (bold):
-エ　容易に運搬できる切符売場は、定着性を欠き建物として登記できない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+運搬容易な切符売場は登記できない
 Illustration: An isometric small prefab ticket booth kiosk sitting on
 wheels, with a forklift or hand-truck beside it and short dashed motion
 lines suggesting it can be easily moved, overlaid with a red circular
 prohibition (no-entry) mark and a small label tag reading "切符売場(可動)".
-Caption (small text below):
-容易に運搬しうる建造物は土地への定着性が認められず、建物として登記する
-ことはできない(準則77条2号オ)。
-
---- CARD 5 ---
-Heading (bold):
-オ　基礎工事を施した廃車鉄道車両の居宅は、定着性が認められ建物として登記できる
-Illustration: An isometric retired train car body permanently set on a
-gray concrete foundation, with a utility pole and a water pipe connected
-to it, a small door and window added to the side, a green circular "建物"
-approval stamp beside it, and a small label tag reading "廃車車両(基礎固定)".
-Caption (small text below):
-廃車となった鉄道車両でも、基礎工事や付帯設備が施されて定着性が認められる
-場合には、建物として登記できる(建物認定95頁)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+定着性を欠く
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成30年度 午後の部 第10問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・覧・倉・庫・売・運・
-鉄・両・準・則. If any character renders as a Simplified Chinese variant,
-redraw that character in the correct Japanese form. Confirm the number of
-cards equals 5 exactly (ア・イ・ウ・エ・オの順に1枚ずつ、列分けなし), with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

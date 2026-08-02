@@ -84,17 +84,29 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-地積更正・合筆・分筆・受領証請求など、添付情報と登記識別情報をめぐる5つの論点を、正しいルールに整理して1列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+土地の表示に関する登記の添付情報・登記識別情報をめぐる5肢を、特に軸で二分せず、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, land
 plots merging/splitting, a mortgage/bank icon, an ID-card password token
 representing 登記識別情報, stacks of application documents, official
 stamps/seals, a registry office building, a receipt/certificate icon, a
-rolled survey map, prohibition marks, arrows).
+rolled survey map, prohibition marks, arrows — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,101 +115,92 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・筆・証・領・識・轄, which have
-Simplified Chinese look-alike forms with visibly different stroke shapes —
-always draw the standard Japanese (Jōyō) form of these characters.
+kanji 地・番・登・記・所・筆・証・領・識・轄・積・抵・当・権・合・測 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 添付情報は本当に必要？
-土地の表示登記、5つの論点
 
 Subtitle (smaller, centered, 1行):
-承諾情報・登記識別情報・申請情報のルールを整理（平成30年度 午後の部 第8問）
+平成30年度 午後の部 第8問－土地の表示登記、5つの添付情報の要否
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a land
-plot being examined with a magnifying glass over a stack of application
-documents, surrounded by small satellite icons of a stamp/seal, an
-ID-card password token, and a registry office building, representing
-multiple attachment-information rules being checked at once.
-土地の表示に関する登記では、添付情報の要否や登記識別情報の扱い、申請情報の
-まとめ方など、細かい手続ルールが数多くあります。更正登記での承諾情報の要否、
-合筆時の登記識別情報の提供、一の申請情報でまとめられる条件、分筆完了後の
-登記識別情報の通知の有無、受領証を請求するときの提出書面について、条文・
-規則に沿って整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-地積の更正に、抵当権者の承諾はいらない
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積更正に抵当権者の承諾は不要
 Illustration: An isometric land plot icon with a small ruler/measuring
-tape adjusting its boundary, labeled "地積更正"。A small mortgage/bank
+tape adjusting its boundary, labeled "地積更正". A small mortgage/bank
 icon labeled "抵当権" is attached to the plot by a dashed line. A
 document icon labeled "承諾を証する情報" has a red prohibition (no-entry)
 mark over it and an arrow pointing away from the pile of application
 documents, showing this document is not required.
-Caption (small text below):
-地積に関する更正の登記は権利関係を変動させないため、抵当権の登記名義人による
-承諾を証する情報は添付情報とならない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+承諾情報は不要
 
 --- CARD 2 ---
-Heading (bold):
-所有権登記がある土地の合筆は、登記識別情報は一つで足りる
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+合筆は識別情報一つで足りる
 Illustration: Two isometric land plots labeled "甲土地" and "乙土地"
-merging into one larger plot, labeled "合筆"。Two ID-card password token
+merging into one larger plot, labeled "合筆". Two ID-card password token
 icons labeled "登記識別情報" are shown, one circled with a checkmark and
 the other grayed out with a prohibition mark, showing only one of the two
 is required.
-Caption (small text below):
-所有権の登記がある土地の合筆、建物の合体、建物の合併では、いずれか一つの
-登記識別情報を提供すれば足りる（法22条）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+識別情報は一つでOK
 
 --- CARD 3 ---
-Heading (bold):
-管轄が同じで目的・原因・日付が同一なら、一の申請情報でまとめられる
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+管轄同一なら一の申請情報でOK
 Illustration: Two isometric land plots labeled "甲土地" and "乙土地" with
 differently colored tags reading "地番区域Ａ" and "地番区域Ｂ", both
 pointing with arrows into a single registry office building icon labeled
-"同一の登記所"。A single combined application document icon labeled
+"同一の登記所". A single combined application document icon labeled
 "一の申請情報" sits below with a checkmark.
-Caption (small text below):
-同一の登記所の管轄区域内であれば、地番区域が異なっていても、登記の目的・
-原因・日付が同一なら一の申請情報で申請できる（令4条ただし書）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一の申請情報でまとめ可
 
 --- CARD 4 ---
-Heading (bold):
-分筆の登記が完了しても、新たな登記識別情報は通知されない
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆後は新たな識別情報なし
 Illustration: An isometric land plot labeled "甲土地" splitting into two
-smaller plots labeled "乙土地" and "丙土地", labeled "分筆"。An ID-card
+smaller plots labeled "乙土地" and "丙土地", labeled "分筆". An ID-card
 password token icon labeled "登記識別情報" has a red prohibition mark over
 it near the two new plots, while a thin arrow shows the original 甲土地の
 登記識別情報 remaining unchanged and not duplicated.
-Caption (small text below):
-分筆の登記が完了しても、分筆後のいずれの土地についても新たな登記識別情報は
-通知されない（法21条）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+新たな通知なし
 
 --- CARD 5 ---
-Heading (bold):
-受領証の請求に、地積測量図の写しはいらない
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+受領証請求に測量図の写しは不要
 Illustration: An isometric registry office counter window where a hand
 submits a single sheet of paper labeled "申請書の内容と同一の内容を記載
-した書面" and receives a stamped document labeled "受領証" in return。A
+した書面" and receives a stamped document labeled "受領証" in return. A
 separate rolled survey map icon labeled "地積測量図の写し" is shown off to
 the side with a red prohibition mark over it.
-Caption (small text below):
-書面申請で受領証の交付を請求するときは、申請書の内容と同一の内容を記載した
-書面を提出すればよく、地積測量図の写しの添付は不要（規則54条）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+測量図の写し不要
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成30年度 午後の部 第8問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・筆・証・領・識・轄.
-If any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the number of cards
-equals 5 exactly, with no duplicated or missing cards, and confirm every
-heading, illustration label, and caption text matches the Japanese text
-given above verbatim, with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence
+of explanatory prose — every card's takeaway must read as a short
+heading + a short conclusion tag, at a glance.
 ```

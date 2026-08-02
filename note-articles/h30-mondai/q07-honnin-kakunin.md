@@ -84,16 +84,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-本人確認情報に関する手続要件を、「相当性の判断と登記官の対応」「提出書類の有効性」「記載すべき事項・面談の相手」という記事本文の3つの角度に沿って3列に分け、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+本人確認情報の手続要件について、「本人確認書類・記載事項に関するルール」（イ・ウ・オ）と「登記官の対応・面談の相手に関するルール」（ア・エ）という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric registry office desk,
 folders and certificate documents, driver's license card, official seal
 stamps, calendar/clock validity marks, handshake, office building with
 figures, checkmarks and prohibition marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,118 +113,99 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・証・識・経・却・免・許・談・確・認,
-which have Simplified Chinese look-alike forms with visibly different
-stroke shapes — always draw the standard Japanese (Jōyō) form of these
-characters.
+kanji 確・認・証・却・免・許・談・経・緯・職・印 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-本人確認情報
-どこまで正確に言える？
+Title (large, bold, 1行):
+本人確認情報、どこまで正確に書く？
 
 Subtitle (smaller, centered, 1行):
-相当性の判断・書類の有効性・記載事項を整理（平成30年度 午後の部 第7問）
+平成30年度 午後の部 第7問－相当性の判断・書類の有効性・記載事項
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a person
-in a suit (資格者代理人) holding a folder labeled "本人確認情報", presenting
-it to a registry official (登記官) seated at a desk inside a registry
-office (登記所), with a driver's license card and a certificate document
-labeled "職印に関する証明書" laid on the desk beside them, and a dotted
-line connecting the folder to a separate figure labeled "登記名義人" to
-show the confirmation is about that person's identity.
-本人確認情報は、登記識別情報を提供できない場合に事前通知を省略するための
-仕組みです。資格者代理人が「この人は間違いなく登記名義人本人だ」と確認した
-内容をまとめて提供しますが、相当性の判断・提出書類の有効性・記載すべき
-事項について、細かい要件が定められています。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-相当性の判断と登記官の対応
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+本人確認書類・記載事項に関するルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-相当と認められないときは、事前通知に戻る
-Illustration: An isometric scene showing a registry official (登記官) at
-a desk looking at a folder labeled "本人確認情報" with a large question
-mark above it. An arrow points away from a red "却下" stamp crossed out
-with a prohibition (no-entry) mark, and instead points toward an envelope
-labeled "事前通知" being sent from the registry office to a house icon
-labeled "登記名義人の住所".
-Caption (small text below):
-本人確認情報の内容を登記官が相当と認めないときは、申請が直ちに却下される
-のではなく、原則どおり事前通知がされる（法23条4項1号）。
-
---- COLUMN B HEADER (pill-shaped badge) ---
-提出書類の有効性
-
---- COLUMN B, CARD 1 ---
-Heading (bold):
-提示を受ける本人確認書類は、提示日において有効なものに限る
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+本人確認書類は提示日に有効
 Illustration: An isometric hand holding up a driver's license card
 labeled "運転免許証" next to a calendar/clock icon labeled "提示日", with
 a green checkmark showing the license is valid on that date, contrasted
 beside a second faded driver's license card with a red "期限切れ" stamp
 and a prohibition mark.
-Caption (small text below):
-資格者代理人が申請人の氏名を知らず、又は面識がない場合に提示を受ける
-運転免許証などの書類は、資格者代理人が提示を受ける日において有効な
-ものでなければならない（規則72条2項）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+提示日に有効なものを
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-職印証明書は、発行後3月以内のものが必要
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+面識は生じた経緯まで明記
+Illustration: An isometric scene of a resident (申請人) and a land and
+building surveyor (資格者代理人) shaking hands, with a document titled
+"本人確認情報" floating beside them listing three checked items in order:
+"氏名を知っている旨", "面識がある旨", "面識が生じた経緯".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+経緯まで明らかに
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+職印証明書は発行後3月以内
 Illustration: An isometric figure of a land and building surveyor
 (土地家屋調査士) holding a certificate document labeled "職印に関する証明書"
 stamped with an official seal, beside a calendar icon showing "発行後
 3月以内" with a green checkmark, contrasted with a second faded, dusty
 certificate crossed out with a prohibition mark to show an old, expired
 one cannot be used.
-Caption (small text below):
-資格者代理人である土地家屋調査士が本人確認情報と併せて提供する、調査士会
-発行の職印に関する証明書は、発行後3月以内のものであることを要する
-（規則72条3項、準則49条2項・3項）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+発行後3月以内
 
---- COLUMN C HEADER (pill-shaped badge) ---
-記載すべき事項・面談の相手
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+登記官の対応・面談の相手に関するルール
 
---- COLUMN C, CARD 1 ---
-Heading (bold):
-氏名を知り面識がある場合は、面識が生じた経緯まで明らかにする
-Illustration: An isometric scene of a resident (申請人) and a land and
-building surveyor (資格者代理人) shaking hands, with a document titled
-"本人確認情報" floating beside them listing three checked items in order:
-"氏名を知っている旨", "面識がある旨", "面識が生じた経緯".
-Caption (small text below):
-資格者代理人が申請人の氏名を知り、かつ面識がある場合に提供する本人確認
-情報は、氏名を知り面識がある旨のほか、その面識が生じた経緯を明らかにする
-ものでなければならない（規則72条1項2号）。
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+却下でなく事前通知に戻る
+Illustration: An isometric scene showing a registry official (登記官) at
+a desk looking at a folder labeled "本人確認情報" with a large question
+mark above it. An arrow points away from a red "却下" stamp crossed out
+with a prohibition (no-entry) mark, and instead points toward an envelope
+labeled "事前通知" being sent from the registry office to a house icon
+labeled "登記名義人の住所".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+事前通知に戻るだけ
 
---- COLUMN C, CARD 2 ---
-Heading (bold):
-法人の場合、必ずしも代表者と面談する必要はない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+代表者との面談は必須でない
 Illustration: An isometric office building icon labeled "法人", with two
 figures beside it: one labeled "代表者" and one labeled "委任を受けた
 担当者", both connected by lines to a land and building surveyor
 (資格者代理人) icon, with a green checkmark placed on the line to the
 "委任を受けた担当者" figure to show that meeting with that person also
 satisfies the requirement.
-Caption (small text below):
-資格者代理人が法人である申請人の本人確認情報を提供する場合、必ずしも
-当該法人の代表者と面談しなければならないわけではない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+担当者面談でも可
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成30年度 午後の部 第7問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・証・識・経・却・免・許・
-談・確・認. If any character renders as a Simplified Chinese variant,
-redraw that character in the correct Japanese form. Confirm the number of
-cards equals 5 exactly (1 card under 相当性の判断と登記官の対応, 2 cards
-under 提出書類の有効性, 2 cards under 記載すべき事項・面談の相手), with no
-duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -84,10 +84,10 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-付合(民法242条・243条・248条)について、「不動産の付合に関する原則」(小麦・増築・立木の3枚)「動産の付合に関する原則」(1枚)「付合により生じた損失の救済」(1枚)の3カラム・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+付合(民法242条・243条・248条)について、「不動産の付合に関する原則」と「動産の付合と償金請求」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, wheat
@@ -96,6 +96,17 @@ a small wooden name tag, machine parts being welded together, coin/money
 icons, ledger books, registration stamps, arrows — adapt icon set to the
 topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -103,9 +114,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・償・賃・譲・対・認, which have
-Simplified Chinese look-alike forms with visibly different stroke shapes —
-always draw the standard Japanese (Jōyō) form of these characters.
+kanji 権・地・建・物・登・記・所・対・認・償 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -113,39 +123,31 @@ Title (large, bold, 2行):
 くっついたら、誰のもの？
 
 Subtitle (smaller, centered, 1行):
-小麦・増築・立木・動産・償金請求で押さえる民法242条〜248条(平成30年度 午後の部 第2問)
+小麦・増築・立木・動産・償金請求で押さえる民法242条〜248条（平成30年度 午後の部 第2問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing several
-small distinct objects — a wheat sprout, a house-shaped building block,
-a small tree, and a gear-shaped machine part — drawn with dotted merge
-arrows converging into a single combined silhouette, to represent multiple
-things becoming one thing.
-付合とは、複数の物がくっついて社会通念上ひとつの物になったとき、その所有権を
-誰に帰属させるかを定めるルールです。不動産の付合(民法242条)、動産の付合
-(243条)、そして付合によって損をした人を救う償金請求(248条)が柱になります。
-「くっついたら、原則として主たる物の所有者のもの」という大原則を軸に、例外と
-救済手段を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 不動産の付合に関する原則
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-土地に付合した小麦は、土地の所有者に帰属する
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+土地に生えた小麦は土地所有者のもの
 Illustration: An isometric bare land plot labeled "土地". A silhouette
 figure without any permit document sows seeds and the wheat grows tall,
 but a dotted arrow redirects the ownership arrow away from that figure
 toward a separate figure holding a "所有権" plaque standing beside a
 small "土地" signpost, showing the grown wheat belongs to the land owner,
 not the person who planted it.
-Caption (small text below):
-土地を使用する権原を持たない者が種をまいて育てても、成育した小麦は土地に
-付合し、所有権は種をまいた者ではなく土地の所有者に帰属する(民法242条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+土地所有者に帰属
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-独立性のない増築部分は、建物の所有者に帰属する
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+独立性のない増築は建物のもの
 Illustration: An isometric apartment building with a small extension
 room attached seamlessly on one side, no separate door or outer wall,
 connected by solid merge lines (not a dotted separation line) to show
@@ -153,14 +155,13 @@ it has become one structure with the main building. A crown/plaque icon
 labeled "建物所有者" sits above the whole combined structure, while a
 tenant figure stands outside without any ownership arrow pointing to the
 extension.
-Caption (small text below):
-賃貸人の承諾を得て増築しても、増築部分が既存の建物と一体化し取引上の独立性を
-有しないときは、増築部分は建物に付合し、賃借人は所有権を取得しない
-(最判昭38.5.31)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+建物に付合する
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-対抗要件のない立木は、譲受人に所有権を主張できない
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+対抗要件のない立木は主張できない
 Illustration: An isometric tree standing on land. One version of the
 tree has no marking at all (representing missing 明認方法). Beside it,
 a ledger book stamped with a red "登記" seal is being handed to a second
@@ -168,17 +169,16 @@ figure labeled "譲受人", with a checkmark and a timeline arrow showing
 the registration completed before any name tag was placed on the tree,
 and a prohibition (no-entry) icon over the original planter's ownership
 claim.
-Caption (small text below):
-立木の所有権は登記の具備と明認方法の具備の先後によって決まる。先に対抗要件を
-備えていなければ、後から土地ごと立木を買い受けて登記を備えた譲受人に対し、
-所有権を主張することはできない(最判昭35.3.1)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+登記した方が優先
 
---- COLUMN B HEADER (pill-shaped badge) ---
-動産の付合に関する原則
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+動産の付合と償金請求
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-主たる動産の所有者が、付合した動産全体の所有権を取得する
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+主従がある動産は主の所有者へ
 Illustration: An isometric large machine labeled "甲動産(主)" with a
 small part labeled "乙動産(従)" welded onto it, sparks and a solid weld
 line showing they cannot be separated. An arrow shows ownership of the
@@ -186,39 +186,34 @@ whole combined machine flowing to the owner of 甲動産, while a separate
 figure labeled "乙動産の所有者" has a prohibition (no-entry) icon over
 an ownership arrow pointing back to the small part, showing that owner
 has lost it.
-Caption (small text below):
-所有者を異にする動産が付合して分離が困難になった場合、主従の区別ができると
-きは、その全体が主たる動産の所有者の物になる。従たる動産の所有者は、その
-所有権を失う(民法243条)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+主の所有者に帰属
 
---- COLUMN C HEADER (pill-shaped badge) ---
-付合により生じた損失の救済
-
---- COLUMN C, CARD 1 ---
-Heading (bold):
-付合で損失を受けた者は、償金を請求できる
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+損した人は償金を請求できる
 Illustration: An isometric scene showing a figure who has lost an object
 to付合 (a small tree or sprout fading into a merged unified object)
 standing beside an unhappy face icon, with a dotted arrow labeled
 "償金請求" pointing from that figure to a coin/money icon held by the
 figure who gained ownership of the combined object, illustrating a
 value transfer back to compensate the loss.
-Caption (small text below):
-付合によって所有権を喪失し損失を受けた者は、不当利得の規定に従い、所有権を
-取得した者に対してその償金を請求することができる(民法248条)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+償金請求できる
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成30年度 午後の部 第2問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・償・賃・譲・対・認.
-If any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the number of cards
-equals 5 exactly (3 cards under 不動産の付合に関する原則, 1 card under
-動産の付合に関する原則, 1 card under 付合により生じた損失の救済), with no
-duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

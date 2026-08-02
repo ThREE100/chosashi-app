@@ -84,10 +84,10 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-代襲相続について、「代襲原因になるか（死亡・廃除・欠格）」と「代襲人の範囲はどこまでか」という2つの軸を、5枚のカード（3枚＋2枚の2列構成）で俯瞰できるよう構成した画像生成プロンプト。
+代襲相続について、「代襲原因になるか（死亡・廃除・欠格）」と「代襲人の範囲はどこまでか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric family-tree diagrams,
@@ -97,6 +97,17 @@ prohibition (no-entry) circle for disqualification or "not allowed",
 dotted arrows showing succession-by-representation, pill-shaped column
 badges).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -104,9 +115,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 続・属・尊・卑・廃・欠・格・襲・処, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 続・属・尊・廃・欠・格・襲 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -116,90 +126,84 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 代襲原因と代襲人の範囲を整理（平成30年度 午後の部 第3問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric family-tree diagram icon showing the deceased
-Ａ at the top, with a branch down to Ｂ (labeled with small icons for
-死亡・廃除・欠格 side by side), and a dotted arrow continuing down from
-Ｂ to Ｃ to represent daishuu (succession by representation).
-代襲相続とは、相続人となるべき子や兄弟姉妹が、被相続人の死亡以前に死亡・
-廃除・欠格によって相続権を失った場合に、その者の直系卑属（兄弟姉妹の
-場合はその子に限る）が代わって相続する制度です。「何が代襲原因になる
-か」「代襲できる範囲はどこまでか」という2つの軸で整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 代襲原因に関する原則
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-廃除は代襲原因になる（出生時期は問わない）
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+廃除後に生まれた子も代襲する
 Illustration: An isometric family tree with Ａ at top and Ｂ below,
 Ｂ stamped with a small court-gavel icon and the label "廃除". A dotted
 arrow runs from Ｂ down to Ｃ, born after the stamp, and continues up to
 Ａ with the label "代襲". A small calendar icon near Ｃ shows "廃除後に
 出生" to emphasize timing does not matter.
-Caption (small text below):
-家庭裁判所の審判で廃除された子Ｂは代襲原因に該当する。廃除後に出生した
-Ｂの子Ｃも、Ａの死亡時に生存していれば代襲相続人となる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+出生時期は不問
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-相続欠格も代襲原因になる（民法887条2項・889条2項）
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+欠格した親の子は代襲できる
 Illustration: An isometric family tree with Ａ at top and Ｂ below, Ｂ
 stamped with a red prohibition (no-entry) circle labeled "欠格", the
 prohibition mark stopping exactly at Ｂ and not extending to Ｃ. A
 dotted arrow runs from Ｃ up to Ａ labeled "代襲".
-Caption (small text below):
-故意にＡを死亡させ刑に処せられたＢは相続欠格に該当し、代襲原因となる。
-欠格の効果はＢ個人にとどまり、Ｂの子Ｃは代襲相続人となる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+子は代襲できる
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-相続放棄は代襲原因にならない（民法939条）
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続放棄は代襲原因にならない
 Illustration: An isometric family tree with Ａ at top and Ｂ below, Ｂ
 labeled with a torn-paper tag reading "放棄". A red prohibition
 (no-entry) circle blocks the dotted arrow between Ｂ and Ｃ, showing
 the line is cut and Ｃ does not reach Ａ.
-Caption (small text below):
-相続放棄をした者は初めから相続人でなかったものとみなされ（939条）、
-代襲原因が生じないため、Ｂの子Ｃは代襲してＡの相続人となることはない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+放棄は代襲不可
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 代襲人の範囲に関する原則
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-直系尊属は被代襲者とならない
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+直系尊属は被代襲者にならない
 Illustration: An isometric family tree showing Ａ at top, Ａの父Ｂ
 (marked deceased with a tombstone icon) below Ａ, and Ｂの母Ｃ（Ａの
 祖母、"直系尊属"のラベル）further below. A red prohibition (no-entry)
 circle blocks the dotted arrow from Ｃ up to Ａ.
-Caption (small text below):
-被代襲者となるのは被相続人の子・兄弟姉妹に限られる。父Ｂのような直系
-尊属は被代襲者とならないため、Ｂの母Ｃが代襲相続人となることはない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+祖母は代襲しない
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-兄弟姉妹の代襲は1代限り（再代襲は不可）
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+兄弟姉妹の代襲は一代限り
 Illustration: An isometric family tree with Ａ at top, 兄Ｂ (labeled
 "兄弟姉妹") below Ａ, Ｂの子Ｃ（"甥"）below Ｂ, and Ｃの子Ｄ（"甥の子"）
 below Ｃ. A dotted arrow runs from Ｃ up to Ａ, but the arrow from Ｄ up
 to Ｃ is blocked by a red prohibition (no-entry) circle with a small
 "STOP" tag.
-Caption (small text below):
-子の系統は孫・ひ孫へ再代襲するが（887条3項）、兄弟姉妹の代襲を定める
-889条2項はこれを準用しない。甥Ｃの子Ｄは再代襲できない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+再代襲は不可
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成30年度 午後の部 第3問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 続・属・尊・卑・廃・欠・格・襲・処. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3
-cards under 代襲原因に関する原則, 2 cards under 代襲人の範囲に関する
-原則), with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```
