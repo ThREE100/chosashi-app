@@ -194,8 +194,6 @@ legal citation):
 印鑑証明は不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第10問（地図の訂正の申出）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

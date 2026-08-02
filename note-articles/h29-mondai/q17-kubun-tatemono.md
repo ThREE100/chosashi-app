@@ -186,8 +186,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 代位申請できる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成29年度　午後の部　第17問（区分建物の登記）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

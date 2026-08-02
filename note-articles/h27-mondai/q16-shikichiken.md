@@ -187,8 +187,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 消滅した旨を登記できる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第16問（敷地権）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

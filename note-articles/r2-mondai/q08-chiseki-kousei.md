@@ -187,8 +187,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 所有権証明は不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-出典：令和2年度 土地家屋調査士試験 午後の部 第8問（不動産登記法38条ほか）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

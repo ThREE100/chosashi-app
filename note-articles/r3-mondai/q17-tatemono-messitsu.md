@@ -200,8 +200,6 @@ illustration, green, 5-15 Japanese characters):
 一括申請の義務なし
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験対策
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay special

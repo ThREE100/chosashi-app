@@ -185,8 +185,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 保存行為だから代位不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度　午後の部　第14問（登記の代位申請）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

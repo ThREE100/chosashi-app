@@ -191,8 +191,6 @@ legal citation):
 証明書＋図面が必要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第6問（土地の表示登記の申請情報・添付情報）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

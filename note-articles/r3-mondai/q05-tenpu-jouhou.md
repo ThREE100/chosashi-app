@@ -187,8 +187,6 @@ sentence):
 義務ではない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験　添付情報まとめ
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

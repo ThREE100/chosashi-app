@@ -188,8 +188,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 仮登記があれば不可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-出典：令和2年度 土地家屋調査士試験 午後の部 第10問（不動産登記法41条、不動産登記規則105条ほか）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

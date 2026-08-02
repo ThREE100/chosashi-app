@@ -195,8 +195,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 所有権証明が必要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和2年度　午後の部　第13問（附属建物）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

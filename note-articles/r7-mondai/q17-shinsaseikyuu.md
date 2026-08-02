@@ -183,8 +183,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 請求人と登記官へ
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-note記事「審査請求、期間と対象を正しく押さえる」より
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

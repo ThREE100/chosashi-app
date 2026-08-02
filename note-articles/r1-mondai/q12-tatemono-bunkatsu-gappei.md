@@ -188,8 +188,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 回り道の変更登記は不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度　午後の部　第12問（建物の分割又は合併の登記）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

@@ -188,8 +188,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 許可前でも代位可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第11問（登記の代位申請）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

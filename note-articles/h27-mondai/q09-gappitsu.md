@@ -195,8 +195,6 @@ legal citation):
 原本還付は不可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第9問（合筆の登記の申請人・識別情報・印鑑証明）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

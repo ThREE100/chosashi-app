@@ -192,8 +192,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 新登場者の住所証明
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成29年度 午後の部 第11問（表題部所有者）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

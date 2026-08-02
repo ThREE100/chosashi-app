@@ -194,7 +194,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 一括登記できる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

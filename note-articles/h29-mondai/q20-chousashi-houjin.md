@@ -192,8 +192,6 @@ sentence, NOT a legal citation):
 1人でも設立可能
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成29年度　午後の部　第20問（土地家屋調査士法人）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

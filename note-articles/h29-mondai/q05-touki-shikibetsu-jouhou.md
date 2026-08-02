@@ -178,8 +178,6 @@ Conclusion tag (blue, 5-15 characters):
 3か月で受領期限
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成29年度　午後の部　第5問（登記識別情報の通知）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

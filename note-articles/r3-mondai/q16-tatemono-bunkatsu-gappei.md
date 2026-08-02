@@ -201,8 +201,6 @@ sentence, NOT a legal citation):
 割合差は無関係
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験　令和3年度 午後の部 第16問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay particular

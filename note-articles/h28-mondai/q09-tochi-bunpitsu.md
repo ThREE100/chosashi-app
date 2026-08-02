@@ -190,8 +190,6 @@ sentence, NOT a legal citation):
 乙1に特例なし
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第9問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special

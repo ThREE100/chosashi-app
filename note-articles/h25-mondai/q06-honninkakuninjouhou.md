@@ -185,8 +185,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 過去の実績も有効
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第6問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

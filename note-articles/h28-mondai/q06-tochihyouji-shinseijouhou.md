@@ -186,8 +186,6 @@ sentence, NOT a legal citation):
 番号提供は必須
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第6問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special

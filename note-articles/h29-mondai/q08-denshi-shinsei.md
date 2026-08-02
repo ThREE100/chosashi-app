@@ -179,8 +179,6 @@ Conclusion tag (5-15 characters):
 原本提示は省略不可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成29年度　午後の部　第8問（電子申請の電子署名）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

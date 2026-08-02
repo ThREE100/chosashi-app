@@ -194,8 +194,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 第3欄と不一致
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和2年度 午後の部 第19問（登録免許税）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

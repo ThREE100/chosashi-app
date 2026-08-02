@@ -186,8 +186,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 共有者の一人で申請可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第14問（建物の表題登記）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

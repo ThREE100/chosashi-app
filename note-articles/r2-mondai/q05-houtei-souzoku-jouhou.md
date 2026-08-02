@@ -182,8 +182,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 地図訂正にも使える
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験対策｜令和2年度 午後の部 第5問（出題当時のルール）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

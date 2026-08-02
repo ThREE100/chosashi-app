@@ -189,8 +189,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 甲乙どちらでも申請可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第12問（建物の管轄登記所）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

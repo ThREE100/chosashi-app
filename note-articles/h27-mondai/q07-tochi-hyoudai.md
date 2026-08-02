@@ -194,8 +194,6 @@ legal citation):
 持分は必ず記載
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第7問（土地の表題登記の申請ルール）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

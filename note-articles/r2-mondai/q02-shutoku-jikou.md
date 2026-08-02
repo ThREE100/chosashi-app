@@ -166,8 +166,6 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 起算点は固定
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験対策｜令和2年度 午後の部 第2問
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

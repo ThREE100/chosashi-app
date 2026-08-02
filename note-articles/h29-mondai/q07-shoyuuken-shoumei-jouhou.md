@@ -175,8 +175,6 @@ Conclusion tag (5-15 characters):
 種類変更のみで証明不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成29年度　午後の部　第7問（所有権証明情報の要否）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

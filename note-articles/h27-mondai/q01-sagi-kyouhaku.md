@@ -191,8 +191,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 抹消なしで対抗可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第1問（詐欺・強迫と第三者保護）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

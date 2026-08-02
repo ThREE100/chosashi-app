@@ -188,8 +188,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 番号だけでOK
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-note記事「法定相続情報一覧図、書くべきこと・戻ってくるもの」より
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

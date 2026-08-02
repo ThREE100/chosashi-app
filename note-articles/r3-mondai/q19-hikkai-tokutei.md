@@ -200,7 +200,6 @@ Conclusion tag (orange, 5-15 Japanese characters):
 申請人・関係人のみ
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

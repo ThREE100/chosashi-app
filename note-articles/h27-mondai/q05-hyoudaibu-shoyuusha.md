@@ -189,8 +189,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 更正でなく変更
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第5問（表題部所有者の更正・変更登記）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

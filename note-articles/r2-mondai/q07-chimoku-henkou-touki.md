@@ -189,8 +189,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 現況変更日が基準
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-出典：令和2年度 土地家屋調査士試験 午後の部 第7問（不動産登記法37条1項ほか）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

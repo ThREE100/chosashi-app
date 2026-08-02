@@ -177,8 +177,6 @@ Conclusion tag (blue, 5-15 characters):
 善管注意までは不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成29年度　午後の部　第3問（相続の承認及び放棄）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

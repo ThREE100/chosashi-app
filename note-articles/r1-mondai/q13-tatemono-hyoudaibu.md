@@ -188,8 +188,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 分割してから合体登記へ
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度　午後の部　第13問（建物の表題部の登記）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

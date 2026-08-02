@@ -191,8 +191,6 @@ sentence, NOT a legal citation):
 経由登記は不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第8問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special

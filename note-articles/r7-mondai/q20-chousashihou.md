@@ -170,8 +170,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 義務ではない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-note記事「調査士・調査士法人のルール、届出先と脱退・取消の仕組み」より
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

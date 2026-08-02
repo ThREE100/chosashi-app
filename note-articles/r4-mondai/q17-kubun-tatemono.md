@@ -192,8 +192,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 原始取得者のまま
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和4年度 午後の部 第17問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special

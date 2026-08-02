@@ -188,8 +188,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 異議があれば不可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成29年度 午後の部 第14問（合筆の登記）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

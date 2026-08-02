@@ -175,8 +175,6 @@ Conclusion tag (5-15 characters):
 代理人への交付でよい
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成29年度　午後の部　第10問（取下げ・却下のルール）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

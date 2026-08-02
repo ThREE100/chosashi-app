@@ -193,8 +193,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 賃借権は引き継げない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和2年度 午後の部 第16問（合体による登記等）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

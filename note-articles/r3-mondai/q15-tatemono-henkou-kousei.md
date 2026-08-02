@@ -196,7 +196,6 @@ legal citation):
 更正ではなく回復
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Pay especially

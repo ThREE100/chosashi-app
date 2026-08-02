@@ -190,8 +190,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 過半数の持分で単独可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第2問（共有物の保存・管理・変更行為）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

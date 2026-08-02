@@ -183,8 +183,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 3,000円ではない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-note記事「登録免許税、『非課税』と『個数×千円』の見分け方」より
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

@@ -187,8 +187,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 法務局でなく調査士会
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第20問（調査士・調査士法人の業務）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

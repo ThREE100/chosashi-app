@@ -187,8 +187,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 一人の記載で足りる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第4問（申請情報と押印のルール）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

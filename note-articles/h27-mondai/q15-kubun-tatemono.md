@@ -187,8 +187,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 名称記載で省略可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第15問（区分建物の表示に関する登記）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

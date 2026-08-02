@@ -173,8 +173,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 復号に特別委任
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験対策｜令和2年度 午後の部 第4問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

@@ -180,8 +180,6 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 遺言で指定可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第3問（遺言のルール）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

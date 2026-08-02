@@ -185,8 +185,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 道路の付属物にすぎない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度　午後の部　第13問（建物の認定）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

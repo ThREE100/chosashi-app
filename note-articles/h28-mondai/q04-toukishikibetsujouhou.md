@@ -180,8 +180,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 相続人全員で申出可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第4問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

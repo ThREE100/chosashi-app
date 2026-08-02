@@ -167,8 +167,6 @@ Conclusion tag (5-15 characters):
 用途性という要件
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成29年度　午後の部　第4問（不動産登記法の目的・登記記録の構造）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):

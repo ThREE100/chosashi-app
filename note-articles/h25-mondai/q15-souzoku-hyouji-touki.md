@@ -186,8 +186,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 謄本の提出が必要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第15問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

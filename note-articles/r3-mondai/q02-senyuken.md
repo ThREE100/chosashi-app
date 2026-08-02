@@ -197,8 +197,6 @@ illustration, blue, 5-15 Japanese characters):
 占有改定で取得
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験 独学ノート
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — especially 権・

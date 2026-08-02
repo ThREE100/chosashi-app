@@ -188,8 +188,6 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 申請人目的が同一なら可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度　午後の部　第11問（一の申請情報による申請の可否）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):
