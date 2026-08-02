@@ -78,3 +78,136 @@
 - 持分の更正、必要なのは相手の承諾書って知ってた？
 - 人を入れ替える更正は、証明書を三点セットで
 - 結婚で名字が変わったら「更正」じゃなくて「変更」なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「更正登記のルール」（ア・ウ・エ＝列A・緑）と「変更登記のルール」（イ・オ＝列B・青）という2つの軸に沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry boards,
+land plots, document/certificate icons, wedding-ring icons, name-tag
+labels, torn paper labels, arrows between owners, etc. — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 表・題・部・所・有・者・更・正・変・持・分・承・諾・証・明・情・報・住・登・
+記・保・存・移・転・姻・氏 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「更正」と「変更」を間違えない
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第5問－表題部所有者の登記の直し方
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+更正登記のルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+更正できるのは真の所有者だけ
+Illustration: An isometric registry board reading "表題部所有者：A". A
+separate figure labeled "真の所有者B" stands pointing at himself holding a
+document. Figure A raises a hand toward the board but has a red X mark
+over the gesture and a label "Aからは不可"; B stamps a document "更正登記
+申請" with a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+真の所有者のみ申請可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+持分更正は承諾書だけで足りる
+Illustration: An isometric land plot split between A and B with wrong
+share numbers "5分の3" and "5分の2" crossed out and corrected to "5分の
+2" and "5分の3". A holds a document "Bの承諾情報" with a green checkmark.
+A second document labeled "所有権証明情報" has a red X mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+所有権証明情報は不要
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+人を入れ替える更正は書類三点セット
+Illustration: A registry board changing from "表題部所有者：A・B" to
+"表題部所有者：A・C". Figure B holds a document "承諾情報" with a green
+checkmark. New owner C holds two documents, "所有権証明情報" and
+"住所証明情報", both with green checkmarks.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾情報＋証明情報二種
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+変更登記のルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+売却は「変更」でなく保存・移転登記
+Illustration: An isometric land plot with an arrow from A to B labeled
+"表題部所有者の変更登記" that has a red X mark over it. Instead, a two-step
+arrow is shown: "所有権保存登記（A）" followed by "所有権移転登記（B）",
+both marked with green checkmarks.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+保存・移転登記で処理
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+結婚で氏が変わったら「変更」登記
+Illustration: A person icon with a name tag changing from an old surname
+to a new surname beside a wedding-ring icon. A document labeled "表題部
+所有者の表示変更登記" has a green checkmark, while a separate label
+"更正" has a red X mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+更正でなく変更
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度　午後の部　第5問（表題部所有者の更正・変更登記）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 更正できるのは真の所有者だけ
+2. 持分更正は承諾書だけで足りる
+3. 人を入れ替える更正は書類三点セット
+4. 売却は「変更」でなく保存・移転登記
+5. 結婚で氏が変わったら「変更」登記
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

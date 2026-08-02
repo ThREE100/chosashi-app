@@ -78,3 +78,136 @@
 - 委任者が亡くなっても、委任状は生きてるんです
 - 規約敷地を分けるとき、規約の証明はいらないんです
 - 地役権が一部だけなら、証明書と図面がセットで必要なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+共通添付情報の援用、分筆登記の登記原因の要否、代理権の存続、規約敷地の証明省略、地役権証明の要否と、5肢がそれぞれ異なる場面の細かいルールを扱っているため、列で分けずに通し番号1〜5の5枚のカードを1列で並べ、正しいルールだけを図解する構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry desks,
+application documents, folders for shared attachments, land plots being
+divided, power-of-attorney scrolls, condominium/regulation-site
+buildings, easement-marked parcels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 添・付・援・筆・登・記・所・権・地・証・図・約・敷・代・任 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その添付情報、本当に付け直す？
+
+Subtitle (smaller, centered, 1行):
+平成27年度　午後の部　第6問－土地の表示登記の申請情報・添付情報
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+共通添付情報は1回提供で足りる
+Illustration: 登記所の窓口アイコン。並んだ2件の申請情報（申請情報A・申請情報B）
+のうち、申請情報Aにだけ共通の添付情報フォルダが添付されている。フォルダから
+申請情報Bへ矢印が伸び「援用」の小さな紙片ラベルが付く。申請情報Bの横に置かれた
+フォルダのコピーには赤い✕マークが付き「重複提供」のラベルに斜線が引かれる。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+援用でコピー不要
+
+--- CARD 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分筆に登記原因・日付は書かない
+Illustration: 一筆の土地アイコンが点線で2つに区切られ分筆される様子。隣に置かれた
+「地積変更登記」の申請書には「登記原因：錯誤／日付：令和◯年」の記入欄が緑の
+チェック付きで埋まっている。分筆側の申請書にある同じ記入欄には赤い✕マークが
+付き「原因なし」のラベルが添えられる。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+分筆に原因なし
+
+--- CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+委任者が死亡しても委任状は有効
+Illustration: 委任状を手にした土地家屋調査士アイコン。奥には依頼者Aの人物アイコンが
+横たわり「死亡」の吹き出しが付く。調査士の手にある最初の委任状には緑のチェック
+マークが付き「有効」のラベル。別に描かれた「相続人からの委任状」アイコンには
+赤い✕マークが付き「不要」のラベル。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+委任状は生きている
+
+--- CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+規約敷地の分筆に証明書は不要
+Illustration: マンションの規約敷地アイコンに、既に押された「規約」の登記済み
+スタンプが描かれる。分筆の申請書アイコンの横に「規約を設定したことを証する
+情報」の書類アイコンが描かれ、赤い✕マークが付いて不要であることを示す。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+登記済みなら証明不要
+
+--- CARD 5 ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+一部だけの地役権は証明書とセットで
+Illustration: 地役権が設定された乙土地と、地役権のない丙土地が合筆され1つの土地に
+なるイラスト。合筆後の土地の一部分だけに地役権を示す斜線パターンが描かれ、その
+横に「地役権者作成の範囲証明情報」と「地役権図面」の2つの書類アイコンが緑の
+チェック付きで並ぶ。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+証明書＋図面が必要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度　午後の部　第6問（土地の表示登記の申請情報・添付情報）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 共通添付情報は1回提供で足りる
+2. 分筆に登記原因・日付は書かない
+3. 委任者が死亡しても委任状は有効
+4. 規約敷地の分筆に証明書は不要
+5. 一部だけの地役権は証明書とセットで
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```

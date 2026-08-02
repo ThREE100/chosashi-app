@@ -78,3 +78,132 @@
 - 立体駐車場のタワー、ちゃんと建物として登記できる
 - アーケード街路は「道路の一部」扱いなんです
 - ガラス張りの温床施設、建物として登記できるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「建物として扱われるもの」（ア・ウ・オ＝列A・緑）と「建物として扱われないもの」（イ・エ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric statue/shrine, train
+platform, rotating tower parking, shopping arcade street, glass
+greenhouse, roofs, walls, foundations, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 観・音・像・祭・壇・礼・拝・立・体・駐・車・場・回・転・機・械・半・永・久・温・床・施・設・独・性・欠・駅・売・店・基・礎・街・路・道・付・属
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+それ、建物として登記できる？
+
+Subtitle (smaller, centered, 1行):
+平成27年度　午後の部　第13問－外気分断性・定着性・用途性で判定
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+建物として扱われるもの
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+礼拝空間のある観音像は建物
+Illustration: 大きな観音像をイソメトリックで描き、内部が空洞になっている
+断面図を見せる。内部に祭壇と座って拝む参拝者アイコンを配置し、像の頭部を
+屋根に見立てる。緑のチェックマークを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+内部に礼拝空間あり
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+回転式立体駐車場のタワーは建物
+Illustration: 屋根と外壁で囲われたタワー状の構造物を描き、内部に車を格納
+する回転式パーキング機械のアイコンと小さな車のアイコンを配置する。緑のチェ
+ックマークを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+屋根・壁・用途性あり
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+半永久的なガラス温床施設は建物
+Illustration: 屋根と周壁がガラスパネルでできた温室アイコンを描き、内部に
+植物と頑丈な基礎を配置して緑のチェックマークを添える。その横に、簡易なビニ
+ールハウスのアイコンを小さく描き、赤い✕マークと「簡易ビニールハウスは除
+く」という破れ紙ラベルを添えて対比させる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+半永久的なら建物
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+建物として扱われないもの
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously across both columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+駅ホーム内の売店は建物でない
+Illustration: 屋根のある駅のホームアイコンを描き、その中にコンクリート基
+礎の売店アイコンを配置する。売店の上に赤い✕マークと「独立性なし」という破
+れ紙ラベルを添え、背景に電車のアイコンを小さく描く。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+独立性を欠き不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+アーケード街路は道路の付属物
+Illustration: 公衆用道路の上に屋根覆い（アーケード）が架かる商店街の通り
+を描き、歩行者アイコンがその下を歩く。屋根構造の上に赤い✕マークと「道路の
+一部」という破れ紙ラベルを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+道路の付属物にすぎない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度　午後の部　第13問（建物の認定）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 礼拝空間のある観音像は建物
+2. 回転式立体駐車場のタワーは建物
+3. 半永久的なガラス温床施設は建物
+4. 駅ホーム内の売店は建物でない
+5. アーケード街路は道路の付属物
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

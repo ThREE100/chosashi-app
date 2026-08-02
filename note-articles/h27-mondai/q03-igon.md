@@ -78,3 +78,125 @@
 - 遺言の解釈は「文言＋本当の気持ち」で読むんです
 - 遺言執行者、自分で指名しておけるんです
 - 未成年後見人も、遺言で決めておける
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+負担付遺贈・相続分の指定・遺言の解釈・遺言執行者・未成年後見人の指定という5肢はそれぞれ独立したテーマを扱っており、2つの列に自然に分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric last-will documents,
+balance scales, family-tree figures, magnifying glasses, lawyer figures,
+guardian and child figures, torn paper labels, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 遺・言・贈・受・者・額・負・担・相・続・分・指・定・解・釈・真・意・探・求・
+執・行・後・見・親・権 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+遺言、どこまで自由？
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第3問－負担付遺贈・相続分の指定・遺言の解釈
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+負担付遺贈は もらった価額まで
+Illustration: An isometric balance scale. One side holds a land-plot icon
+labeled "遺贈財産（500万円）" with a green checkmark. The other side holds
+a dog-care icon labeled "負担（世話）". An overflow amount beyond the scale
+is labeled "300万円" with a red X mark, showing it is not owed.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+遺贈の価額が上限
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続分は一部だけでも指定できる
+Illustration: A family tree with three child figures. One child (長男) is
+highlighted holding a document "相続分 2分の1指定" with a green checkmark.
+The other two children share a pie-chart slice labeled "法定相続分" with a
+checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一部指定も有効
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+遺言解釈は文言＋真意を探る
+Illustration: An isometric last-will document with a magnifying glass over
+it. One side shows literal text "家族に譲る"; a connected thought-bubble
+shows the testator's true intention, joined by a green checkmark arrow. A
+separate sign reading "文言だけ" has a red X mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+真意も探求する
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+遺言執行者は指名しておける
+Illustration: A testator figure writing a will at a desk, pointing toward
+a lawyer figure labeled "遺言執行者". A stamp icon reading "指定" with a
+green checkmark sits between them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+遺言で指定可
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+未成年後見人も遺言で指定できる
+Illustration: A single parent figure with a child, writing a will at a
+desk. An arrow points to another family member figure (おば) labeled
+"未成年後見人", with a stamp icon reading "指定" and a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+遺言で指定可
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度　午後の部　第3問（遺言のルール）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 負担付遺贈は もらった価額まで
+2. 相続分は一部だけでも指定できる
+3. 遺言解釈は文言＋真意を探る
+4. 遺言執行者は指名しておける
+5. 未成年後見人も遺言で指定できる
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```

@@ -78,3 +78,130 @@
 - 抵当権付きの建物を共用部分にするには、承諾書が必要
 - 共用部分でも、床面積が変わったら変更登記が必要なんです
 - 規約を廃止したら、1か月以内に表題登記が必要
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「共用部分にする登記そのものの申請人・申請義務」（ア・イ＝列A・緑）と、「共用部分になった後の添付情報・変更登記の要否」（ウ・エ・オ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric集会所・管理人室の
+建物、登記申請書、抵当権証書、承諾書、カレンダー、規約書類、はさみ
+（規約廃止）など — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 共・用・部・分・登・記・名・義・申・請・規・約・抵・当・権・承・諾・床・面・積・変・更・廃・止・表・題 —
+these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+共用部分の登記、義務？任意？
+
+Subtitle (smaller, centered, 1行):
+平成27年度　午後の部　第17問－集会所や管理人室を「共用部分」にする手続
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+共用部分にする登記の申請人・義務
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+共用部分の登記は名義人のみ申請可
+Illustration: 集会所として使われている建物のイソメトリック図。所有権の
+登記名義人アイコンが「共用部分にする」申請書を窓口に提出し、緑のチェック
+マークが付く。横に立つ別人（第三者）アイコンが同じ申請書を出そうとして
+いるが、赤い✕マークで止められている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+名義人以外は申請不可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+共用部分の登記に申請義務はない
+Illustration: 表題登記のある建物を「共用部分とする」と定めた規約書アイコン。
+その横のカレンダーに「1か月以内」という文字と赤い✕マークを重ね、代わりに
+「いつでも登記できる」という時計アイコンを配置する。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請義務なし・対抗要件
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+登記後の添付情報・変更登記の要否
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+抵当権付き建物は承諾情報が必要
+Illustration: 建物に抵当権の証書スタンプが乗っている。抵当権の登記名義人
+アイコンが「消滅を承諾します」という書類を差し出し、その書類が共用部分
+である旨の登記申請書に添付情報として矢印でつながっている様子。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+抵当権者の承諾が必要
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+床面積が変わったら変更登記必要
+Illustration: 共用部分である旨の登記がある集会所の建物の一部に取り壊し
+工事アイコンを配置し、床面積が小さくなった様子を描く。横に「表題部変更
+登記申請書」に緑のチェックマークを付ける。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+変更登記の義務あり
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約廃止後1か月以内に表題登記
+Illustration: 「共用部分とする規約」の書類にはさみで切り込むイラスト
+（規約廃止）。横のカレンダーに「1か月」の数字を大きく描き、その先に
+建物の表題登記申請書アイコンを配置する。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+廃止から1か月以内
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度　午後の部　第17問（共用部分である旨の登記）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 共用部分の登記は名義人のみ申請可
+2. 共用部分の登記に申請義務はない
+3. 抵当権付き建物は承諾情報が必要
+4. 床面積が変わったら変更登記必要
+5. 規約廃止後1か月以内に表題登記
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

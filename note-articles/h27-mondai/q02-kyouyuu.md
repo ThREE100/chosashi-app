@@ -78,3 +78,137 @@
 - 損害賠償、請求できるのは自分の持分の分だけって知ってた？
 - 黙って土地をいじられたら、一人でも「元に戻して」と言える
 - 賃貸借の解除、過半数の持分があれば単独でOKなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「単独で請求できる範囲」（ア・イ・ウ＝列A・緑）と「変更・管理行為の単独可否」（エ・オ＝列B・青）という2つの軸に沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots divided
+into shares, multiple co-owner figures, registry desks, money/coin
+stacks, bulldozer/construction icons, rental-house icons, torn paper
+labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 共・有・持・分・抹・消・登・記・請・求・明・渡・損・害・賠・償・原・状・回・
+復・管・理・賃・貸・解・除 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その行為、単独でできる？
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第2問－共有物をめぐる保存・管理・変更の線引き
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+単独で請求できる範囲
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+抹消請求は自分の持分の範囲だけ
+Illustration: An isometric land plot shared by three figures labeled "A・
+B・C" (each 1/3). A rewrote the registry board to show only "所有者：A"
+alone. B points at his own one-third portion of the plot with a green
+checkmark and a document "抹消登記手続請求", while C's portion is marked
+with a small label "Cが自分で" and a dashed boundary line.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+自己の持分のみ請求可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+多数派でも当然の全部明渡しは不可
+Illustration: An isometric land plot occupied by figure C, who holds a
+small permission slip from minority owner B (1/3持分). Majority owner A
+(2/3持分) stands pointing with a demand bubble "全部明渡し", which has a
+red X mark over it, while C stays calmly in place.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+当然の明渡し請求は不可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+損害賠償も自分の持分の分だけ
+Illustration: An unlawful occupier C hands over a stack of coins labeled
+"損害賠償" that is split into two equal piles labeled "A分" and "B分". A
+takes only the "A分" pile with a green checkmark; the "B分" pile has a
+red X mark and a small arrow pointing toward a separate figure B.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+持分に応じた部分のみ
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+変更・管理行為の単独可否
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+無断の変更は一人でも元に戻せと言える
+Illustration: A bulldozer icon reshaping part of an isometric land plot
+(宅地造成) without figure B's knowledge. B stands alone raising a hand,
+holding a document labeled "原状回復請求" with a green checkmark, facing
+figure A who performed the work.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+単独で原状回復請求可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+賃貸借の解除は過半数の持分でOK
+Illustration: A tenant house icon labeled "C" with an empty wallet icon
+showing debt (家賃滞納). Figure A (2/3持分) stamps a document labeled
+"解除" alone with a green checkmark. A balance scale beside A tips toward
+the "過半数" side, while figure B (1/3持分) stands greyed out with a
+label "同意不要".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+過半数の持分で単独可
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度　午後の部　第2問（共有物の保存・管理・変更行為）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 抹消請求は自分の持分の範囲だけ
+2. 多数派でも当然の全部明渡しは不可
+3. 損害賠償も自分の持分の分だけ
+4. 無断の変更は一人でも元に戻せと言える
+5. 賃貸借の解除は過半数の持分でOK
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

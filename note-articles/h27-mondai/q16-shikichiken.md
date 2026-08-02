@@ -78,3 +78,134 @@
 - 規約廃止の変更登記、申請するのは建物側なんです
 - 1つの土地が2つのマンションの敷地になれるって知ってた？
 - 承諾書があれば、抵当権も消したと登記できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「規約によって敷地権がどう得喪・追加されるか」（ア・イ・エ＝列A・緑）と、「敷地権にまつわる変更登記の手続」（ウ・オ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric区分建物・マンション、
+規約書類、登記申請書、抵当権証書、承諾書、土地区画、取り壊し工事アイコン
+など — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 敷・地・権・規・約・登・記・分・離・処・建・物・抵・当・承・諾・消・滅 —
+these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+敷地権、増える場合・消える場合
+
+Subtitle (smaller, centered, 1行):
+平成27年度　午後の部　第16問－規約敷地の追加とみなし規約敷地の落とし穴
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+規約による敷地権の得喪・追加
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+分離処分OK規約は証明書類が必要
+Illustration: 区分建物（マンション）の表題登記申請書アイコンの横に、
+「専有部分と敷地利用権の分離処分OK」と書かれた規約書アイコンを配置。
+添付情報の書類フォルダに「規約の定めを証する情報」というラベルを貼り、
+申請書に矢印でつながっているように描く。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+規約を証する情報が必要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+建物取壊しでも敷地権は消えない
+Illustration: 甲土地・乙土地にまたがって建つ区分建物のイソメトリック図。
+甲土地の上の建物部分に取り壊し工事アイコン（ハンマーと✕マーク）を配置し、
+建物が消えた後の甲土地には「みなし規約敷地」という吹き出しラベルを付ける。
+横に「敷地権でない権利への変更登記」と書かれた申請書アイコンに大きな✕。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+みなし規約敷地・登記不要
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+1つの土地は複数建物の敷地になれる
+Illustration: 甲区分建物（マンション）と、別棟の乙区分建物（別のマンション）
+を並べて描き、甲建物の法定敷地である土地から乙建物へ向かう矢印を描く。
+矢印の途中に「規約敷地として追加」というラベルを配置し、乙建物の上に
+敷地権発生を示す緑のチェックマークのスタンプを押す。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+規約敷地の追加は可能
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+敷地権にまつわる変更登記の手続
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約廃止の変更登記は建物側が申請
+Illustration: 登記所の窓口カウンター。土地の所有権登記名義人アイコンが
+申請書を差し出しているが、その上に赤い✕マークを重ねる。隣に区分建物
+（マンション）の所有者アイコンが同じ申請書を提出し、緑のチェックマークを
+つける。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+申請人は区分建物の所有者
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+承諾情報があれば抵当権消滅を登記
+Illustration: 敷地権付き区分建物の土地に抵当権のスタンプアイコンが乗って
+いる。抵当権の登記名義人アイコンが「消滅を承諾します」という書類を登記
+官キャラクターに手渡し、登記官がその土地に「抵当権消滅」の緑のスタンプ
+を押している場面。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+消滅した旨を登記できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度　午後の部　第16問（敷地権）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 分離処分OK規約は証明書類が必要
+2. 建物取壊しでも敷地権は消えない
+3. 1つの土地は複数建物の敷地になれる
+4. 規約廃止の変更登記は建物側が申請
+5. 承諾情報があれば抵当権消滅を登記
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

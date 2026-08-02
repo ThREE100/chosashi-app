@@ -78,3 +78,135 @@
 - 共有物分割の勝訴判決があれば、相手に代わって分筆できる
 - 処分禁止の仮処分、その前提として代位分筆できるって知ってた？
 - 農地の許可前でも、条件付仮登記の前提なら代位分筆できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「代位申請できないケース」（ア・イ＝列A・緑）と「代位申請できるケース」（ウ・エ・オ＝列B・青、いずれも誤りの肢を正しいルールに直したものを含む）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, registry
+desks, application documents, courthouse icons, farm fields, dashed
+boundary lines, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 代・位・申・請・転・借・地・役・権・共・有・分・筆・確・定・判・決・処・仮・農・許・可・登・記 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+代位して分筆登記、申請できるのは誰？
+
+Subtitle (smaller, centered, 1行):
+平成27年度　午後の部　第11問－代位申請の可否を5つの場面で整理
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+代位申請できないケース
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+土地全部の転借人は代位不可
+Illustration: 土地全体をＡから借りているＢのアイコンと、その一部を又貸しされ
+たＣのアイコンをイソメトリックで描く。Ｃが登記所の窓口に「分筆登記申請書」を
+差し出そうとしているが、窓口の前に赤い✕マークと「代位原因なし」という破れ
+紙のラベルを配置し、申請できないことを示す。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+転借人は代位不可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+地役権者は分筆不要だから代位不可
+Illustration: 一筆の土地アイコンの一部に細い通路状の「地役権」帯を描き、地役
+権者Ｃのアイコンがその上に立つ。地役権の登記スタンプはすでに帯の上に押されて
+おり、土地を分ける点線は描かない。Ｃが登記所窓口に「代位分筆」の申請書を出そ
+うとする手の上に赤い✕マークを重ねる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+分筆不要だから不可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+代位申請できるケース
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3 (numbers run
+continuously across both columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+確定判決があれば共有者に代位できる
+Illustration: 裁判所の建物アイコンから「確定判決正本」と書かれた書類が発行
+され、共有者Ａのアイコンがそれを持って登記所窓口へ向かう。土地アイコンは点線
+でＡ・Ｂの区画に分かれており、Ｂのアイコンには「非協力」という破れ紙ラベルを
+つける。窓口には緑のチェックマーク。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+確定判決正本で代位可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮処分の債権者は分筆を代位できる
+Illustration: 土地アイコンの一部に「処分禁止の仮処分」を示す南京錠アイコン
+を重ねる。債権者アイコンが裁判所発行の「決定正本」を持って登記所窓口へ提出
+し、所有者名義人アイコンに代わって申請している様子をチェックマークとともに
+描く。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+仮処分の前提で代位可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+許可前でも条件付仮登記の前提で代位可
+Illustration: 農地アイコン（畑の区画）の一部を買い受けた買主Ｃのアイコンが
+「農地法５条許可 申請中」という時計マーク付きの書類を持つ。その隣に「条件付
+仮登記」のスタンプが押された申請書アイコンを描き、土地の点線区画とともに
+チェックマークを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+許可前でも代位可
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度　午後の部　第11問（登記の代位申請）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 土地全部の転借人は代位不可
+2. 地役権者は分筆不要だから代位不可
+3. 確定判決があれば共有者に代位できる
+4. 仮処分の債権者は分筆を代位できる
+5. 許可前でも条件付仮登記の前提で代位可
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

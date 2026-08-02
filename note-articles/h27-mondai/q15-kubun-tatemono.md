@@ -78,3 +78,134 @@
 - 敷地権の割合、単純に足すだけなら規約の証明はいらないんです
 - 無償で借りた土地の権利、敷地権にはなれないって知ってた？
 - 一棟の名称を書けば、構造・床面積は省略できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「建物の変動にまつわるルール」（ア・イ・ウ＝列A・緑、いずれも合併・滅失・合体の場面）と「敷地権・記載事項に関するルール」（エ・オ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric condo units, wrecking
+ball/demolition, courthouse-style regulation documents, land-use badges,
+application forms, torn paper labels, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 接・続・合・併・主・従・滅・失・棟・専・有・部・分・敷・地・権・割・算・体・規・約・証・明・借・貸・賃・名・称・構・造・床・面・積・省・略
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+区分建物の合体・合併・敷地権
+正しいルールはどっち？
+
+Subtitle (smaller, centered, 1行):
+平成27年度　午後の部　第15問－使用借権は敷地権になれない理由
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+建物の変動にまつわるルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+接続していれば区分合併できる
+Illustration: 同じ所有者が持つ隣り合う2つの専有部分（マンションの部屋）ア
+イコンを壁でつなげて描き、「合併」の矢印で1つにまとめる。上下・主従の階層
+を示すアイコンは描かず、「主従関係」という破れ紙に赤い✕マークを添える。緑
+のチェックマーク。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+主従関係は不要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+一棟滅失は一棟の登記だけでよい
+Illustration: 一棟のマンション全体が取り壊し用のクレーンで解体される様子
+を描き、「一棟の滅失登記」の申請書1枚だけを提出する所有者アイコンを配置す
+る。各部屋（専有部分）ごとの「滅失登記」書類には赤い✕マークを重ねる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+各専有部分の登記は不要
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権割合を合算する合体は証明不要
+Illustration: 敷地権割合「10分の1」を持つ甲部屋アイコンと「10分の1」を持
+つ乙部屋アイコンが矢印で合体し、「10分の2」の敷地権割合を持つ1つの部屋にな
+る様子を描く。横に「規約設定証明情報」という破れ紙に赤い✕マークを重ねる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+規約証明は不要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+敷地権・記載事項に関するルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously across both columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+使用借権は敷地権になれない
+Illustration: 無償で借りた土地（使用貸借）の上に区分建物を新築する人物ア
+イコンを描く。建物に付く「敷地権」バッジに赤い✕マークを重ね、横に所有権・
+地上権・賃借権を示す小さなバッジ3つに緑のチェックマークを添えて対比させ
+る。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記できない権利は不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+名称を書けば構造・床面積は省略可
+Illustration: 申請情報の書式アイコンに「一棟の建物の名称：〇〇マンショ
+ン」という記入欄を描き、その下の「構造」「床面積」の欄をグレーアウトし、
+「省略可」のスタンプを重ねる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+名称記載で省略可
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度　午後の部　第15問（区分建物の表示に関する登記）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 接続していれば区分合併できる
+2. 一棟滅失は一棟の登記だけでよい
+3. 敷地権割合を合算する合体は証明不要
+4. 使用借権は敷地権になれない
+5. 名称を書けば構造・床面積は省略可
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

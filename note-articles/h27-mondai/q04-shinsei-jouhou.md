@@ -78,3 +78,134 @@
 - 代理でも「誰の登記か」だけは書くんです
 - 法人の代表者、書くのは氏名だけって知ってた？
 - 代表取締役が2人でも、1人書けば足りるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「押印のルール」（ア・イ＝列A・緑）と「申請情報の記載事項」（ウ・エ・オ＝列B・青）という2つの軸に沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric application forms,
+hanko stamp icons, registry desks, parent-and-child figures, company
+building icons, name-tag labels, torn paper labels, etc. — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 申・請・押・印・署・名・記・代・理・未・成・年・氏・住・所・法・人・表・題・
+登・締・役 — these must be rendered in their standard Japanese forms, never
+as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+申請書に何を書く？誰が押す？
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第4問－申請情報と押印の細かいルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+押印のルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+合体等の書面申請は押印必須
+Illustration: An isometric application document with a signature line
+already checked "署名済み" (green checkmark), but beside it a hanko-stamp
+box labeled "押印" is highlighted with a red arrow and the label
+"押印も必要". Behind the document, two building icons merge together
+(合体) with a large hanko-stamp icon overlaying them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+署名だけでは不足
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+代理申請なら本人の押印は不要
+Illustration: A parent figure submits an application document at a
+registry desk on behalf of a child. The child figure stands at home,
+small and separate, with a hanko-stamp icon crossed out with a red X
+labeled "本人の押印".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+本人の押印不要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+申請情報の記載事項
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+代理でも本人の氏名住所は書く
+Illustration: An application form split into two boxes: one labeled
+"代理人" already filled in, and a second box labeled "本人：氏名・住所"
+also filled in with a green checkmark, showing it is not left blank.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+氏名住所は省略不可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+法人は代表者の氏名だけでよい
+Illustration: A company building icon beside an application form. A box
+labeled "代表取締役：氏名" is filled in with a green checkmark. A separate
+box labeled "住所" has a red X mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+住所の記載は不要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+代表者は複数いても一人でOK
+Illustration: Two representative figures labeled "A" and "B" stand side
+by side beside a company building icon. On the application form, only one
+name box is filled in with a green checkmark, while the other figure is
+greyed out with a small label "不要".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一人の記載で足りる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度　午後の部　第4問（申請情報と押印のルール）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 合体等の書面申請は押印必須
+2. 代理申請なら本人の押印は不要
+3. 代理でも本人の氏名住所は書く
+4. 法人は代表者の氏名だけでよい
+5. 代表者は複数いても一人でOK
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```
