@@ -85,7 +85,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「申請情報に書くべきこと」（ア・イ）と「附属建物にできるか・登記の方法」（ウ・エ・オ）の2系統に分け、5枚のカードで附属建物の登記実務の急所を1枚に俯瞰できる構成にした。
+附属建物の登記実務について「申請情報に書くべきこと」と「附属建物にできるか・登記の方法」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -95,6 +95,17 @@ modern explainer-graphic aesthetic (icons: isometric houses, storage
 sheds, condominium units, registry office maps, document stamps, torn
 paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -102,33 +113,26 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・番・建・物・登・記・所, which have visually similar but
-different Simplified Chinese forms — always draw the standard Japanese
-(Jōyō) form of each.
+kanji 権・地・番・建・物・登・記・所 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-その附属建物、
-登記できる？できない？
+Title (large, bold, 1行):
+その附属建物、登記できる？できない？
 
-Subtitle (smaller, centered, 2行):
-平成17年度　午後の部　第8問
-附属建物の表題登記と申請情報の急所
+Subtitle (smaller, centered, 1行):
+平成17年度 午後の部 第8問－附属建物の表題登記と申請情報の急所
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Isometric illustration of a main house icon (labeled 母屋)
-connected by a dotted line to a smaller attached storage shed icon
-(labeled 物置), with a single rolled registration-record scroll icon
-binding the two together into one card, symbolizing that multiple
-buildings are combined into one registration record.
-附属建物は「母屋と物置」のように、複数の建物を一体として一つの登記記録にまとめる制度です。この問題では、「附属建物として何を申請情報に書かなければならないか」「主である建物と附属建物の場所や登記所が違っても登記できるのか」「後から附属建物を追加するにはどんな登記をすればよいか」という、表題登記実務の基本ルールがまとめて問われています。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 申請情報に書くべきこと
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-名前を書けば省略できる、は実は早とちりなんです
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+一棟の名称のみでは省略不可
 Illustration: Isometric scene of a brand-new building icon (labeled 甲建物)
 with a ribbon reading 初めての表題登記; beside it, a torn-paper label
 reading 一棟の建物の名称 with a red X crossing out a speech bubble that
@@ -136,12 +140,13 @@ says 構造・床面積は省略可; next to it, a clipboard/checklist icon
 reading 構造・床面積の記載が必要 with a green checkmark, showing that
 description of structure and floor area is still required even when the
 name is given.
-Caption (small text below):
-甲建物の表題登記(初回の登記)では、一棟の建物の名称のみで構造・床面積の記載を省略することはできない
+Conclusion tag (green banner below the illustration, 5-15 characters):
+省略はできない
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-区分建物じゃなければ、細かく書くのが原則なんです
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物でなければ細かく記載
 Illustration: Isometric small storage-shed icon (labeled 乙建物, 区分建物
 ではない) with a clipboard icon representing 申請情報, on which are
 attached exactly five torn-paper labels in this order, each showing one
@@ -151,44 +156,47 @@ item only, no duplication, no omission, no paraphrasing:
 3. 種類
 4. 構造
 5. 床面積
-Caption (small text below):
-附属建物が区分建物でなければ、所在・地番・種類・構造・床面積を申請情報の内容としなければならない(不登法44条)
+Conclusion tag (green banner below the illustration, 5-15 characters):
+5項目を記載
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 附属建物にできるか・登記の方法
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-管轄登記所が違っても、附属建物にできるって知ってた？
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+管轄が違っても附属建物にできる
 Illustration: Isometric map split by a dotted boundary line into two
 registry-office jurisdiction areas labeled 登記所A and 登記所B; a main
 house icon (labeled 甲建物) stands inside 登記所A's area, while a small
 shed icon (labeled 乙建物) sits just across the boundary inside 登記所B's
 area; an arrow/ribbon connecting them reads 附属建物として登記 with a
 green checkmark.
-Caption (small text below):
-主である建物と附属建物の所在地が異なる登記所の管轄区域にわたっていても、附属建物とする表題登記は申請できる
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+管轄またぎもOK
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-附属建物の追加は、合併じゃなくて変更登記でいいんです
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物追加は変更登記で足りる
 Illustration: Isometric scene of an existing main house icon (labeled
 甲建物) with a completed registration stamp, next to a newly built shed
 icon (labeled 乙建物、新築) with an arrow pointing to a document icon
 labeled 建物表題部変更登記 marked with a green checkmark; a separate
 smaller path showing 表題登記 → 合併登記 is crossed out with a red X.
-Caption (small text below):
-附属建物の追加新築は、表題登記＋合併登記ではなく建物表題部変更登記で行う(不登法51条)
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+変更登記でOK
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-敷地権がなくても、附属建物にできる場合があるんです
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権なくても附属建物にできる
 Illustration: Isometric scene of a detached house icon (labeled 甲建物、
 敷地権なし) beside a small condominium-unit icon (labeled 乙建物、敷地権
 あり), linked together by a bracket icon into one registration card, with
 a green checkmark confirming the combination is allowed.
-Caption (small text below):
-敷地権の有無は主である建物・附属建物ごとに別個の登記事項なので、甲建物に敷地権がなくても乙建物を附属建物にできる
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+組み合わせ可
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal): 平成17年度 午後の部 第8問
@@ -198,7 +206,10 @@ standard Japanese (Jōyō) form, not Simplified Chinese, especially for
 権・地・番・建・物・登・記・所. If any character renders as a Simplified
 Chinese variant, redraw that character in the correct Japanese form.
 Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards. Confirm Card 2's five labels are exactly 所在・地番・種類・
-構造・床面積, in that order, with no duplication, omission, or
-paraphrasing.
+missing cards, that badge numbers run 1-5 continuously across both
+columns without resetting, confirm there is no intro illustration or
+paragraph block between the header and the cards, confirm that no card
+contains a full sentence of explanatory prose, and confirm Card 2's five
+labels are exactly 所在・地番・種類・構造・床面積, in that order, with no
+duplication, omission, or paraphrasing.
 ```

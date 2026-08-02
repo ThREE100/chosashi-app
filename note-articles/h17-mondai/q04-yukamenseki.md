@@ -84,14 +84,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-各肢の結論を「算入する原則」「算入しない原則」の2系統に整理し直し、地下駅・ドーム球場・階段室・低い天井・吹抜けという5つの具体例を1枚で俯瞰できる構成にした。
+各肢の結論を「算入する原則（見落としやすいポイント）」と「算入しない原則」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・6枚のポスター型カードで俯瞰する構成。地下駅の事務室と通路・ホームのように1つの肢に算入・不算入の両方が含まれる場合は、それぞれ別カードとして両列に振り分けている。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+plots, stamps, torn paper labels, subway station cross-sections, a
+retractable dome stadium roof, a staircase shaft, an atrium void, ceiling
+height markers, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -99,70 +112,73 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to 号・地・
-建・物・登・記 — render these strictly as standard Japanese Jōyō kanji, not
-as Simplified Chinese variants.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・地・建・物・登・記 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-その部分、床面積に入れる？入れない？
-建物の床面積 算入・不算入ルール
+Title (large, bold, 1行):
+床面積、算入する？しない？
 
-Subtitle (smaller, centered, 2行):
-不動産登記規則115条の原則を、不動産登記事務取扱手続準則82条が個別に補う
-平成17年度 午後の部 第4問より
+Subtitle (smaller, centered, 1行):
+平成17年度 午後の部 第4問－階段室・吹抜け・開閉式屋根の算入ルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 建物の断面を示すアイソメトリックイラスト。床の水平投影面積を表す薄い青色の平面パネルを中央に描き、その周囲に小さく地下鉄駅・ドーム球場・階段室・吹抜けのミニアイコンを配置して、これから個別ルールを見ていくことを示唆する構図。
-建物の床面積は「各階ごとに壁その他の区画の中心線で囲まれた部分の水平投影面積」で定めるのが原則です（不動産登記規則115条）。ただし、階段室や吹抜け、特殊な屋根を持つ施設など、原則だけでは判断しにくい部分については、不動産登記事務取扱手続準則82条が個別に算入・不算入のルールを定めています。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 算入する原則（見落としやすいポイント）
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-地下駅の事務室は、床面積に算入する
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+地下駅の事務室は床面積に算入する
 Illustration: 地下鉄駅構内の断面を示すアイソメトリックイラスト。壁とドアで囲まれた「事務室」という文字ラベル付きの小部屋を明るい青色で塗りつぶしチェックマークのアイコンを添え、隣接する「通路」「ホーム」という文字ラベル付きの開放的な空間はグレーの斜線パターンで対比させて描く。
-Caption (small text below):
-壁で区画された事務室は算入対象。誰でも通れる通路・ホームは対象外（不動産登記事務取扱手続準則82条4号）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+区画部分は算入
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-開閉式屋根の下も、床面積に算入する
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+開閉式屋根の下も床面積に算入する
 Illustration: 開閉式屋根を持つドーム球場のアイソメトリックイラスト。屋根が半分スライドして開いた状態を描き、屋根の下のフィールド全体と観覧席を明るい青色で塗りつぶしてチェックマークのアイコンを添え、屋根の開閉部分にスライド矢印のアイコンを配置する。
-Caption (small text below):
-屋根が開いていても設備自体は建物に備わったまま。開閉可能な部分の下も算入する（準則82条3号）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+屋根開いても算入
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-階段室・エレベーター室は、各階の床面積に算入する
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+階段室・エレベーター室も算入
 Illustration: 5階建てビルの断面を示すアイソメトリックイラスト。1階から5階まで各階を貫通する「階段室」「エレベーター室」という文字ラベル付きの縦長の空間を明るい青色で塗り分け、各階にそれぞれ小さなチェックマークのアイコンを配置する。
-Caption (small text below):
-床を有するものとみなして、各階ごとに面積算入する（準則82条6号）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+各階ごとに算入
 
 --- COLUMN A, CARD 4 ---
-Heading (bold):
-天井高1.5メートル未満でも、1室の一部なら算入する
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+天井が低くても1室の一部は算入
 Illustration: 屋根の傾斜に沿って天井が低くなった部屋のアイソメトリックイラスト。天井の高い手前部分と天井の低い奥部分（「天井高1.5m未満」という文字ラベル付き）を同じ明るい青色で塗り、部屋全体を1つの点線の枠で囲んでチェックマークのアイコンを添える。
-Caption (small text below):
-部屋の一部が低くても、当該1室の面積として算入する（準則82条1号ただし書）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+室の一部として算入
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 算入しない原則
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-常時開放された通路・ホームは、床面積に算入しない
-Illustration: 地下鉄駅構内のアイソメトリックイラスト（列Aカード1と対になる構図）。壁のない開放的な「通路」「ホーム」という文字ラベル付きの空間をグレーの斜線パターンで塗り、バツ印のアイコンを添える。
-Caption (small text below):
-常時一般に開放されている通路及び階段は除かれる（準則82条4号）。
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+常時開放の通路・ホームは不算入
+Illustration: 地下鉄駅構内のアイソメトリックイラスト（Ａ列カード1と対になる構図）。壁のない開放的な「通路」「ホーム」という文字ラベル付きの空間をグレーの斜線パターンで塗り、バツ印のアイコンを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+開放部分は不算入
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-上階まで続く吹抜け部分は、上階の床面積に算入しない
+--- COLUMN B, CARD 6 ---
+Badge: a filled blue circle containing the number 6.
+Heading (bold, ONE line, ~20 characters or fewer):
+上階まで続く吹抜けは不算入
 Illustration: 1階の玄関ホールから2階まで続く吹抜けのある住宅のアイソメトリックイラスト。2階部分の「吹抜け」という文字ラベル付きの範囲をグレーの斜線パターンで塗り、手すり越しに1階が見えるように描写してバツ印のアイコンを添える。
-Caption (small text below):
-吹抜け部分には上階に床がないため、算入対象から外れる（準則82条8号）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+吹抜けは不算入
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -172,7 +188,10 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — especially 号・地・
 建・物・登・記. If any character renders as a Simplified Chinese variant,
 redraw that character in the correct Japanese form. Confirm the number of
-cards equals 6 exactly (Column A: 4 cards, Column B: 2 cards), with no
-duplicated or missing cards, and confirm every text string above matches
-the source article verbatim with no paraphrasing.
+cards equals 6 exactly, with no duplicated or missing cards, that badge
+numbers run 1-6 continuously across both columns without resetting,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence
+of explanatory prose — every card's takeaway must read as a short
+heading + a short conclusion tag, at a glance.
 ```

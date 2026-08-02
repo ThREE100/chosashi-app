@@ -131,7 +131,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-石油タンク・農具小屋・火葬場・変電所・公衆用道路・学校用地・テニスコートという具体例を、「建物の有無・恒久性で分かれるもの」「利用実態・隣接関係で決まるもの」の2系統に整理し、地目認定10本ノックの現況主義を6枚のカードで俯瞰する構成。
+石油タンク・農具小屋・火葬場・変電所・公衆用道路・学校用地・テニスコートという具体例を、「建物の有無・恒久性で分かれるもの」と「利用実態・隣接関係で決まるもの」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・6枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
@@ -141,6 +141,17 @@ modern explainer-graphic aesthetic (icons: isometric buildings, oil tanks,
 farm sheds, substations, crematoriums, roads, school grounds, tennis
 courts, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -148,9 +159,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・建・物・登・記・所・種・雑・宅, which have large shape
-differences from their Simplified Chinese counterparts — do not render
-them in Simplified Chinese form.
+kanji 地・建・物・所・種・雑・宅 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -158,59 +168,80 @@ Title (large, bold, 2行):
 現況主義を体に叩き込む
 
 Subtitle (smaller, centered, 1行):
-建物の有無・恒久性・利用実態で見る、宅地と雑種地の分かれ目
+平成17年度 午後の部 第16問－建物の有無・恒久性・利用実態で見る地目の分かれ目
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 虫眼鏡を持ち、建物・農具小屋・鉄塔・道路など様々な土地の現況を見比べている土地家屋調査士のキャラクターのアイソメトリックイラスト。
-地目（宅地・田・畑・山林・雑種地など）の認定は、土地の「今どうなっているか」（現況）と「何のために使われているか」（利用目的）に着目して決まるのが基本ルールです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 建物の有無・恒久性で分かれる
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-仮設の農具小屋がある土地は、宅地にはならない
-Illustration: 田んぼの脇に木材とトタン屋根で組んだだけの簡易な農具小屋。小屋には「仮設」の小さなラベル、周囲は畑のままであることを色分けで示す。
-Caption (small text below):
-いつでも撤去・移動できるような仮設の小屋にすぎない場合は、その敷地は宅地にならず、周囲の耕作地（畑など）と同じ地目のままです。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮設の農具小屋は宅地にならない
+Illustration: An isometric small farm shed made of wood and a tin
+roof beside a rice paddy, labeled "仮設". The surrounding field keeps
+the same pastel color as the shed's plot, showing the shed does not
+create a separate 宅地. A red cross mark sits over a "宅地" label.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+恒久的でなければ不可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-建物の設備がある火葬場の敷地は、宅地である
-Illustration: 火葬場の構内に、遺族が待機するための建物と事務を行う建物が実際に建てられている様子。屋外に炉だけがある雑種地のケースを小さな吹き出しで対比表示。
-Caption (small text below):
-火葬場は、その構内に建物の設備があるときは構内全部を宅地とし、建物の設備がないときは雑種地とする、という基準で認定されます。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+火葬場は建物設備があれば宅地
+Illustration: An isometric crematorium compound with a real building
+where families wait and staff work, labeled "建物の設備あり" with a
+green checkmark and a "宅地" tag. A small inset shows an outdoor
+furnace with no building, labeled "設備なし" with a red cross mark
+and a "雑種地" tag.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+設備なければ雑種地
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-石油タンクの敷地は、宅地である／浄水場内の管理事務所の敷地は、宅地である
-Illustration: 左側に工場敷地内に据え付けられた石油タンク、右側に浄水場内にある小さな管理事務所の建物。両方に「宅地」のパステルカラーのラベルを付ける。
-Caption (small text below):
-宅地は「建物の敷地及びその維持又は効用を果たすために必要な土地」を指し、タンクや浄水場の管理事務所を支える敷地はこれに当たります。
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+タンク・浄水場事務所は宅地
+Illustration: An isometric oil tank fixed on a factory plot on the
+left, and a small water-treatment plant office building on the right.
+Both carry a pastel "宅地" tag.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+建物を支える土地
 
 --- COLUMN A, CARD 4 ---
-Heading (bold):
-鉄道専用の変電所の敷地は、雑種地である／建物の要件を備えない鉄塔などの敷地は、雑種地である
-Illustration: 左側に線路脇にぽつんと建つ変電設備、右側に送電線を支える鉄塔（屋根や壁のない脚部だけの構造）。両方に「雑種地」のラベルを付ける。
-Caption (small text below):
-建物として認定されるには土地への定着性・外気分断性・用途性が必要であり、これらの実質を備えない工作物の敷地は雑種地として認定されます。
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+変電所・鉄塔は雑種地
+Illustration: An isometric small substation beside a railway on the
+left, and a transmission tower with only bare legs and no roof or
+walls on the right. Both carry a "雑種地" tag.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+建物の実質なし
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 利用実態・隣接関係で決まる
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-私有地でも一般公衆の交通に使われていれば公衆用道路である
-Illustration: 「私有地」の小さな看板がある土地を、近隣住民が日常的に通行している様子。人々が歩く小道のアイソメトリックイラスト。
-Caption (small text below):
-公衆用道路は一般公衆の交通の用に供する道路をいい、その土地が公有か私有かは問いません。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+私有地でも公衆用道路になる
+Illustration: An isometric small road with a "私有地" sign, drawn
+with local residents walking along it daily. A "公衆用道路" tag sits
+above the road.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+公有私有問わず
 
 --- COLUMN B, CARD 6 ---
-Heading (bold):
-校舎・附属施設の敷地と運動場をあわせて学校用地という／宅地に接続するテニスコートは、宅地である
-Illustration: 校舎・附属施設・運動場が一体となった学校の俯瞰図と、マンションの敷地に地続きで設けられたテニスコート。
-Caption (small text below):
-学校用地は校舎及びその附属施設の敷地に加えて運動場も含めた一つの地目として認定され、テニスコートは宅地に接続するものは宅地とされます。
+Badge: a filled blue circle containing the number 6.
+Heading (bold, ONE line, ~20 characters or fewer):
+学校用地とテニスコートは宅地系
+Illustration: An isometric school campus showing the school building,
+attached facilities, and playground as one unified plot labeled
+"学校用地" on the left, and a tennis court directly adjoining an
+apartment building's grounds labeled "宅地" on the right.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+隣接・一体利用
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -218,6 +249,11 @@ Small credit text in the corner (optional, keep minimal).
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 6 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 6 exactly, with
+no duplicated or missing cards, that badge numbers run 1-6 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

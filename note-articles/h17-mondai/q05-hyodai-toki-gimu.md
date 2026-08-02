@@ -85,7 +85,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-表題登記の申請義務について、「誰が所有者と認められるか」「いつ・どう申請するか」「何を単位にまとめて申請するか」という3つの視点ごとに、計5枚のカード(2枚・2枚・1枚)で俯瞰できるよう構成した画像生成プロンプト。
+表題登記の申請義務を「誰が所有者と認められるか」と「いつ・何を単位に申請するか」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
@@ -95,6 +95,17 @@ modern explainer-graphic aesthetic (icons: isometric official buildings,
 land plots, apartment blocks, document stamps, calendars, folders, arrows,
 prohibition marks — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -102,102 +113,83 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・建・物・登・記・所, which have Simplified Chinese look-alike
-forms with visibly different stroke shapes — always draw the standard
-Japanese (Jōyō) form of these characters.
+kanji 権・地・建・物・登・記・所 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-表題登記
-誰が・いつ・何を単位に申請するか
+Title (large, bold, 1行):
+表題登記、誰が・いつ・どう申請？
 
 Subtitle (smaller, centered, 1行):
-申請義務の範囲を丁寧に見極める(平成17年度 午後の部 第5問)
+平成17年度 午後の部 第5問－申請義務の範囲を丁寧に見極める
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene on the left showing a person holding a
-document tagged "所有権を証する情報" while standing on a vacant land plot,
-beside a registry official character holding a magnifying glass and a
-stamp; a small clock icon and a small bundled-folder icon float nearby to
-represent the questions of timing and scope.
-表題登記は、まだ登記簿に載っていない土地・建物を初めて登記簿に登場させる
-手続きです。「誰に申請義務があるのか」「いつまでに申請しなければならない
-のか」「どの範囲をまとめて申請しなければならないのか」という3つの視点を、
-条文の文言どおりに正確に区別できるかが、この分野の得点力を左右します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 誰が所有者と認められるか
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-登記官の実地調査権は、所有者の認定にも及ぶ
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+実地調査権は所有者の認定にも及ぶ
 Illustration: An isometric registry official character visiting a vacant
 land plot with a magnifying glass, comparing a document tagged "所有権を
 証する情報" held by an applicant character against the actual state of
 the land, with a small checkmark/question-mark icon over the applicant
 to show the official is verifying the real owner, not just the paper.
-Caption (small text below):
-申請時に所有権を証する情報の提供が義務付けられていても、登記官はそれだけ
-で判断せず、現地調査によって所有者の実態を確認できる(不動産登記法29条
-1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+実態調査で確認可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-埋立地の所有権は免許取得者に帰属し、請負に出しても自ら申請できる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+埋立地は免許取得者が所有者になる
 Illustration: An isometric scene with two characters: one labeled
 "Ａ社(免許)" holding a certificate tagged "埋立免許", and another labeled
 "Ｂ社(請負)" operating construction machinery on a reclaimed land plot;
 an arrow from the completed land plot points to Ａ社, who is shown
 submitting a document tagged "表題登記申請" as the owner.
-Caption (small text below):
-公有水面埋立法の規定に基づき埋立ての免許を受けた者は、竣功認可により埋立
-地の所有権を取得する。工事を第三者に請け負わせても、所有権を取得するのは
-免許を受けた者自身であり、自らを所有者として表題登記を申請できる(公有水
-面埋立法24条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+免許者本人が申請
 
---- COLUMN B HEADER (pill-shaped badge) ---
-いつ・どう申請するか
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+いつ・何を単位に申請するか
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-区分建物を売買で取得しても、1か月以内の申請義務は課されない
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物の売買取得に1か月ルールなし
 Illustration: An isometric apartment-block building (区分建物) with a
 handshake icon labeled "売買" between two characters in front of it, next
 to a calendar icon with a large cross/X mark over "1か月以内"; beside it,
 a separate small "新築" building icon shows a checkmark and a clock icon
 reading "1か月以内" to contrast the two situations.
-Caption (small text below):
-不動産登記法47条1項の1か月以内の申請義務の対象は、区分建物以外の建物、
-または区分建物を新築した場合に限られる。すでにある区分建物を売買により
-取得しても、この条項による1か月以内の申請義務は課されない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+1か月ルール対象外
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-登記原因の日付は、単に払下げの年月日と言い切れない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記原因日付は払下げ日と言い切れない
 Illustration: An isometric government building handing over a warehouse
 building to a recipient character, with two separate date-stamp icons
 floating above: one labeled "払下げ手続完了日", another labeled "引渡し・
 占有移転日", both connected by a question-mark icon to a document labeled
 "登記原因日付".
-Caption (small text below):
-国から払下げを受けた建物の登記原因の日付は、所有権移転の効力が現実に生じ
-た日を記載すべきであり、手続きの完了日と実際の引渡し日がずれることもある
-ため、単に払下げの年月日とだけ言い切ることはできない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+払下げ日と限らず
 
---- COLUMN C HEADER (pill-shaped badge) ---
-何を単位にまとめて申請するか
-
---- COLUMN C, CARD 1 ---
-Heading (bold):
-敷地権の有無を問わず、区分建物の表題登記は他の区分建物と併せて申請する
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権なしでも他区分建物と併せ申請
 Illustration: An isometric multi-story building divided into several
 room units (区分建物), one unit marked with a small crossed-out "敷地権"
-tag to show it has no敷地権, with dotted lines connecting all the units
+tag to show it has no 敷地権, with dotted lines connecting all the units
 together into a single bundled folder icon labeled "併せて申請".
-Caption (small text below):
-区分建物が属する一棟の建物が新築された場合、その区分建物の表題登記の申請
-は、同じ一棟の他の区分建物の表題登記の申請と併せてしなければならない。
-敷地権の有無によって扱いは変わらない(不動産登記法48条1項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+他の部屋と併せ申請
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -207,10 +199,11 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
 attention to 権・地・建・物・登・記・所. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly (2 cards under 誰が
-所有者と認められるか、2 cards under いつ・どう申請するか、1 card under
-何を単位にまとめて申請するか), with no duplicated or missing cards, and
-confirm every heading, illustration label, and caption text matches the
-Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+form. Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, that badge numbers run 1-5 continuously across both
+columns without resetting, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

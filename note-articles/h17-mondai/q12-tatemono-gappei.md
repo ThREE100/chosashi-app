@@ -86,7 +86,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「建物合併登記の要件」というテーマを、"制限事由にならない事情(ア・イ・ウ)"と"実際に合併を制限する要件(エ・オ)"の2列5枚のカードに分けて、56条の要件を1枚で俯瞰できるよう構成した。
+建物の合併登記について「制限事由にならない事情」と「実際に合併を制限する要件」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -96,6 +96,17 @@ modern explainer-graphic aesthetic (icons: isometric apartment buildings,
 warehouses, registry document stamps, torn paper labels, scales/balance
 icon, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -103,72 +114,76 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所 — these must be drawn in
-their standard Japanese (Jōyō) forms, never as Simplified Chinese variants.
+kanji 号・権・地・建・物・登・記・所・証 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-敷地の所有者が違うだけじゃダメ?
-建物合併登記の急所
+Title (large, bold, 1行):
+敷地の所有者が違うだけじゃダメ？
 
-Subtitle (smaller, centered, 2行):
-平成17年度 午後の部 第12問
-56条の制限事由と相続・賃借権の例外を整理する
+Subtitle (smaller, centered, 1行):
+平成17年度 午後の部 第12問－建物合併登記の急所（56条の制限事由と例外）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 天秤(てんびん)のアイソメトリックイラスト。左の皿に「制限事由になるもの」の札とマンション・共用部分のアイコン、右の皿に「制限事由にならないもの」の札と土地・相続書類のアイコンを乗せ、周囲に建物や登記書類のアイコンを配置する。
-建物の合併登記は、数個の建物を登記上1個の建物にまとめる手続きですが、不動産登記法56条にいくつもの制限事由が定められています。敷地の所有者や相続登記の有無といった周辺事情に惑わされず、56条の要件そのものを正確に押さえることが大切です。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 制限事由にならない事情
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-敷地の所有者が違っても、合併の妨げにならない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地の所有者違いは制限外
 Illustration: 同じ敷地の上に建つ二棟の倉庫のアイソメトリックイラスト。倉庫にはどちらも同じ「子」のラベルを付け、足元の土地には「親」のラベルを付ける。土地の名義人相違の部分には赤い×印、建物の名義人一致の部分には緑の○印を添える。
-Caption (small text below):
-建物合併の制限は建物自体の所有者相違が問題であり、敷地(土地)の所有権登記名義人が異なるかどうかは制限事由ではない(不動産登記法56条2号)
+Conclusion tag (green banner below the illustration, 5-15 characters):
+建物名義が一致でOK
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-名義人が死亡していても、相続登記なしで合併登記を申請できる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+死亡後も相続登記なしで申請可
 Illustration: 「亡父」のラベルが付いた建物二棟から、相続を証する書類を持つ「子」のアイコンへ矢印が伸びるイラスト。矢印の途中に「相続登記」と書かれた看板があり、その看板に赤い×印を重ねる。
-Caption (small text below):
-表題部所有者又は所有権登記名義人が死亡した場合、相続人は相続を証する情報を提供すれば、被相続人名義のまま合併登記を申請できる(不動産登記法30条)
+Conclusion tag (green banner below the illustration, 5-15 characters):
+相続登記は不要
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-賃借権登記の内容が完全に同一なら、合併登記は制限されない
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+賃借権の内容一致なら制限外
 Illustration: 二棟の建物にそれぞれ「賃借権登記」の書類アイコンを添え、両方の書類から「登記の目的」「受付年月日」「受付番号」「登記原因」の4項目を並べて表示し、すべて一致することを示す緑のチェックマークを付ける。
-Caption (small text below):
-登記の目的・受付年月日・受付番号・登記原因のすべてが同一である権利の登記は、合併の妨げにならない(不動産登記法56条5号・不動産登記規則131条)
+Conclusion tag (green banner below the illustration, 5-15 characters):
+完全一致なら合併可
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 実際に合併登記を制限する要件
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-主従関係がなければ、接続していても合併登記できない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+主従関係なければ接続でも不可
 Illustration: マンションの「101号室」と「102号室」が壁続きで接しているアイソメトリックイラスト。二室の間に「主従関係なし」のラベルと赤い×印を添える。
-Caption (small text below):
-建物の合併登記は一方を他方の附属建物とする性質の登記であるため、区分建物であっても主従関係が成立していなければ申請できない
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+接続だけでは不可
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-共用部分である旨の登記がある建物は、主従関係があっても合併登記できない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+共用部分の建物は合併不可
 Illustration: 「共用部分である旨の登記」のラベルが付いたマンションの集会室と、別の専有部分の附属建物とのアイソメトリックイラスト。両者の間に主従関係を示す矢印を描きつつ、集会室の建物には赤い×印を重ねる。
-Caption (small text below):
-共用部分である旨の登記又は団地共用部分である旨の登記がある建物は、他の建物と主従関係が成立していても合併登記をすることができない(不動産登記法56条1号)
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+主従関係でも不可
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. In particular verify 号・録・権・地・番・建・物・登・記・所
-are all in standard Japanese form. Confirm the number of cards equals 5
-exactly (3 cards in Column A, 2 cards in Column B), with no duplicated or
-missing cards, and that every text string matches the Japanese text given
-above verbatim.
+standard Japanese (Jōyō) form, not Simplified Chinese. In particular
+verify 号・権・地・建・物・登・記・所・証 are all in standard Japanese
+form. If any character renders as a Simplified Chinese variant, redraw
+that character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly, with no duplicated or missing cards, that badge numbers
+run 1-5 continuously across both columns without resetting, confirm
+there is no intro illustration or paragraph block between the header and
+the cards, and confirm that no card contains a full sentence of
+explanatory prose.
 ```
