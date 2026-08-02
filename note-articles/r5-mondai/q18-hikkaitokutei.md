@@ -84,15 +84,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-筆界特定の手続について、「通知・意見・聴取の相手方に関するルール」3枚と「図面・費用に関するルール」2枚、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+筆界特定の手続について、「手続の相手方・提出先に関するルール」と「図面・費用に関するルール」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots with
 boundary lines, surveying equipment, registry office desks, official
-characters, documents, coin purses, arrows — adapt icon set to the topic).
+characters, documents, coin purses, arrows, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -101,9 +113,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 地・登・記 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -111,96 +122,84 @@ Title (large, bold, 2行):
 誰が費用を払う？
 
 Subtitle (smaller, centered, 1行):
-筆界特定の手続の基本ルールを整理(令和5年度 午後の部 第18問)
+令和5年度 午後の部 第18問－筆界特定の手続の基本ルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design scene on the left showing a
-boundary line (筆界) between two land plots, with a 筆界調査委員
-character holding a clipboard in the middle, thin dotted arrows pointing
-outward to a house icon labeled "占有者", a desk icon labeled
-"筆界特定登記官", and a coin-purse icon labeled "費用" to represent the
-three different addressees of the procedure.
-筆界特定は、土地の境界(筆界)がどこにあるかを筆界特定登記官が判断する
-行政手続で、その調査の実働部隊が筆界調査委員です。立入りの通知は
-誰にするのか、意見は誰に提出するのか、費用は誰が負担するのかを
-整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 手続の相手方・提出先に関するルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-立入りの通知の相手方は、占有者である
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+立入りの通知先は占有者
 Illustration: An isometric land plot with a small house icon labeled
 "占有者", a 筆界調査委員 character stepping over a low boundary fence
 with a notification letter arrow pointing toward the 占有者 icon, and a
-faded, crossed-out character icon labeled「登記簿上の名義人」off to the
-side to show notification does not go there.
-Caption (small text below):
-筆界調査委員が他人の土地に立ち入る場合、あらかじめ通知すべき相手方は
-占有者である。占有者が不明なときや同意済みのときは通知は不要
-(法137条1項、平17.12.6民二2760号)。
+faded, red crossed-out character icon labeled「登記簿上の名義人」off to
+the side to show notification does not go there.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+通知先は占有者
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-意見の提出先は、申請人ではなく筆界特定登記官である
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+意見の提出先は登記官
 Illustration: An isometric 筆界調査委員 character handing a document
 labeled "意見" across a desk to a 筆界特定登記官 character holding an
-official seal, with a dotted, crossed-out arrow showing the document
+official seal, with a dotted, red crossed-out arrow showing the document
 does NOT go to a separate 申請人 character standing off to the side.
-Caption (small text below):
-筆界調査委員は、必要な事実の調査を終了したときは、遅滞なく筆界特定
-登記官に対して対象土地の筆界特定についての意見を提出しなければ
-ならない(法142条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請人には出さない
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-調査委員は、申請人・関係人以外の第三者からも事実を聴取できる
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+第三者からも事実を聴取できる
 Illustration: An isometric 筆界調査委員 character listening to a
 neighbor character labeled「その他の者」who is pointing at an old stone
 boundary marker, with a speech bubble and a small document icon labeled
 「資料」being handed over between the two characters.
-Caption (small text below):
-筆界調査委員は、申請人及び関係人以外のその他の者からも、その知って
-いる事実を聴取し、または資料の提出を求めることができる(法135条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+当事者以外もOK
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 図面・費用に関するルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-筆界特定図面には、地積は記載されない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+筆界特定図面に地積は載らない
 Illustration: An isometric blueprint/drawing showing a boundary line with
-distance markers and small 境界標(boundary stake)icons, labeled
-「筆界特定図面」, with a faded, crossed-out square-meter area symbol
+distance markers and small 境界標(boundary stake) icons, labeled
+「筆界特定図面」, with a faded, red crossed-out square-meter area symbol
 labeled「地積」placed beside it to show that value is not included.
-Caption (small text below):
-筆界特定図面には筆界点間の距離や境界標等が記録されるが、対象土地の
-地積は記載されない(不動産登記規則231条4項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+地積は記載なし
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-測量に要する費用は、申請人が負担する（あらかじめ予納が必要）
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+測量費用は申請人が負担
 Illustration: An isometric scene of surveying equipment (tripod, tape
 measure) beside a 申請人 character handing a coin-purse icon labeled
 「予納」across a counter to a registry office building icon.
-Caption (small text below):
-筆界特定の手続における測量に要する費用その他の手続費用は申請人の
-負担とされ、筆界特定登記官はあらかじめ手続費用の概算額を申請人に
-予納させなければならない(法146条1項・5項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+あらかじめ予納
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 令和5年度 午後の部 第18問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3
-cards under 手続の相手方・提出先に関するルール, 2 cards under
-図面・費用に関するルール), with no duplicated or missing cards, and
-confirm every heading, illustration label, and caption text matches the
-Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

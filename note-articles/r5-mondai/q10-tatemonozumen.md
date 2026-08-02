@@ -89,15 +89,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物図面及び各階平面図について、「図面に書く内容と表示のルール」3枚と「誤りの直し方と図面提出の要否」3枚の計6枚のカードで俯瞰できるよう構成した画像生成プロンプト。ウの解説にある「更正登記ができない場合＝訂正の申出で直す場合」の補足を独立カード化した。
+建物図面及び各階平面図について、「図面に書く内容と表示のルール」の3枚（緑）と「誤りの直し方と図面提出の要否」の2枚（青）、計5枚の通し番号バッジ・短い見出し・図解・短い結論タグだけで構成するポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric drafting desks,
 building floor plans, red brush strokes, dotted rulers, official seals,
 document stamps, eraser marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -106,113 +117,92 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 建・物・登・記・番・図 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-建物図面と各階平面図
-書く内容・表示・直し方のルール
+Title (large, bold, 1行):
+建物図面と各階平面図、ここで差がつく
 
 Subtitle (smaller, centered, 1行):
-住所・朱書き・訂正の申出・点線の作法を整理(令和5年度 午後の部 第10問)
+令和5年度 午後の部 第10問－住所・朱書き・訂正の申出・点線の作法
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric drafting desk with a 建物図面 sheet and a
-各階平面図 sheet laid out on it, a pen and official seal icon labeled
-"作成者", a small red brush stroke icon labeled "朱書き", a dotted-line
-ruler icon, and an eraser/correction icon arranged around the desk to
-hint at the four themes of the cards.
-建物図面と各階平面図は、建物の形と位置、床面積を図で示す基本の書面です。
-「何を記録するのか」「どう表示するのか」「間違いはどう直すのか」という、
-実務でそのまま問われる作法を集めた1問です。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 図面に書く内容と表示のルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-図面に住所を記録するのは作成者であり、申請人の住所は不要
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+住所を書くのは作成者だけ
 Illustration: An isometric building図面 sheet with an "作成者" name box
 containing an address and a small official seal (職印), next to a
 "申請人" name box that has only a name with a crossed-out address line.
-Caption (small text below):
-建物図面及び各階平面図には作成者が署名または記名押印し、作成者が土地
-家屋調査士のときは住所と職名を記載して職印を押す。申請人については
-記名で足り、住所の記録は不要(不動産登記規則74条2項、調査士規則21条
-1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請人の住所は不要
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-附属建物が地下のみなら、その地下1階の形状を朱書きする
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+地下のみの附属建物は朱書き
 Illustration: An isometric building floor plan with a main building
 outlined in black and a small underground-only 附属建物 box outlined and
 shaded in red ink (朱書き) beneath it.
-Caption (small text below):
-附属建物が地下のみの建物であるときは、当該附属建物の地下1階の形状を
-朱書きする(準則52条1項、登記研究416号)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+地下1階を朱書き
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-1階以外の階を表示するときは、1階の位置を点線で表示する
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+2階表示では1階を点線で示す
 Illustration: An isometric two-story building's 各階平面図 for the 2nd
 floor, with the 2nd floor outline drawn in solid black lines and the 1st
 floor's footprint drawn beneath it in dotted lines to show the position.
-Caption (small text below):
-2階建の建物の各階平面図を作成する場合において、2階の階層を表示すると
-きは、1階の位置を点線をもって表示する(準則53条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1階は点線表示
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 誤りの直し方と図面提出の要否
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-床面積に影響する誤り(出窓の算入等)は、更正登記で直す。訂正の申出はできない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+床面積の誤りは更正登記で直す
 Illustration: An isometric 各階平面図 with an 出窓(bay window) shape
 mistakenly included inside the floor area shading, a red "✕" mark over a
 "訂正の申出" document icon, and an arrow pointing instead to a
-"更正登記" document icon with a checkmark.
-Caption (small text below):
-正しい図面を添えた更正の登記を申請できる場合には、訂正の申出をすること
-はできない。不算入とすべき出窓を算入した誤りは床面積に影響するため、
-更正登記で直す(不動産登記規則88条1項ただし書)。
+"更正登記" document icon with a checkmark. In a small corner inset,
+contrast this with a separate 地積測量図 whose only mistake is a
+crossed-out and rewritten 地番 label, next to a small "訂正の申出" icon
+with a checkmark, to show that a display-only mistake (not affecting a
+registered figure) can still be fixed by 訂正の申出.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+訂正の申出は不可
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-図面の表示だけの誤り(例:地番の書き間違い)は、訂正の申出で直せる
-Illustration: An isometric 地積測量図 with a land plot correctly shaped
-but its printed 地番 label shown crossed out and rewritten beside it, a
-document icon labeled "訂正の申出" with a checkmark, submitted by a
-person icon labeled "表題部所有者等".
-Caption (small text below):
-登記記録に記録されている事項自体は正しく、図面上の表示だけが誤っている
-場合(例:地積測量図の地番の書き間違い)は、更正登記の対象がなく、表題部
-所有者や所有権の登記名義人らが訂正の申出をすることで直せる。
-
---- COLUMN B, CARD 3 ---
-Heading (bold):
-附属建物の滅失による変更登記では、図面の提供を省略できる
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物滅失なら図面省略可
 Illustration: An isometric main building with a small 附属建物 shown
 being demolished with a crossed-out mark, next to a stack of 建物図面・
 各階平面図 papers already filed at a registry office icon, with a
 "省略可" checkmark badge over a blank new-papers icon.
-Caption (small text below):
-建物の表題登記がされ、既に建物図面及び各階平面図が登記所に提出されて
-いる建物について、附属建物の滅失による表題部の変更の登記を申請する
-場合には、建物図面及び各階平面図の提供を省略することができる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+図面の提出不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第10問
+Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 6 exactly (3
-cards under 図面に書く内容と表示のルール, 3 cards under 誤りの直し方と
-図面提出の要否), with no duplicated or missing cards, and confirm every
-heading, illustration label, and caption text matches the Japanese text
-given above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

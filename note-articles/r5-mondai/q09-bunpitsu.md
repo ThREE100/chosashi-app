@@ -84,16 +84,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-分筆登記において抵当権・相続・登録免許税・筆界特定という周辺の権利関係が絡んだときの正しい取扱いを、「抵当権が絡むとき」2枚・「相続・登録免許税・筆界特定が絡むとき」3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+分筆登記において周辺の権利関係が絡んだときの正しい取扱いを、「抵当権が絡むとき」の2枚（緑）と「相続・登録免許税・筆界特定が絡むとき」の3枚（青）、計5枚の通し番号バッジ・短い見出し・図解・短い結論タグだけで構成するポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, padlocks,
 family figures, tax stamps, boundary markers, registry office buildings,
 dotted split lines, arrows, prohibition marks — adapt icon set to the
 topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,106 +113,92 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 権・地・登・記 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-分筆登記
-権利関係が絡んだときのルール
+Title (large, bold, 1行):
+分筆登記、権利関係が絡んだらどうなる？
 
 Subtitle (smaller, centered, 1行):
-抵当権・相続・登録免許税・筆界特定の交差点(令和5年度 午後の部 第9問)
+令和5年度 午後の部 第9問－抵当権・相続・登録免許税・筆界特定の交差点
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a single
-land plot being split into two by a dotted cutting line (分筆), with small
-orbiting icons around it: a padlock/seal icon labeled "抵当権", a
-family/heir icon labeled "相続", a tax stamp icon labeled "登録免許税",
-and a boundary marker icon labeled "筆界特定", to show the four kinds of
-surrounding rights that complicate a partition registration.
-分筆の登記は、1筆の土地を線引きして複数に分ける登記です。土地の上に抵当権が
-付いていたり、相続がからんだり、公共団体と私人が共有していたりと、周辺の
-権利関係が絡むと途端に処理が複雑になります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 抵当権が絡むとき
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-分筆前からの抵当権なら、錯誤による分筆登記の抹消はできる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆前の抵当権なら抹消できる
 Illustration: An isometric single land plot with a padlock icon (抵当権)
 already attached before a dotted split line appears, and an arrow showing
 the split being undone with an eraser icon, returning to one whole plot.
-Caption (small text below):
-分筆と同時に消滅承諾書を添えて権利を消したケースと異なり、分筆の前から
-すでに設定されていた抵当権であれば、錯誤を原因とする分筆登記の抹消を
-することができる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+錯誤抹消は可能
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-分筆後の甲・乙2筆すべてについて抵当権を消すことはできない
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆後の抵当権を全部消せない
 Illustration: An isometric land plot split into 甲 and 乙, both still
 carrying a padlock icon (抵当権), with a large prohibition (no-entry)
 mark over an arrow trying to remove both padlocks at once, and a smaller
 separate icon showing only one padlock successfully removed with a
 checkmark.
-Caption (small text below):
-抵当権者の消滅承諾があっても、分筆後のいずれか1筆には権利を残す必要が
-あり、甲・乙の2筆すべてについて抵当権が消滅した旨の登記をすることは
-できない(不動産登記法40条、規則104条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1筆には残す必要
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 相続・登録免許税・筆界特定が絡むとき
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-遺産分割で単独取得した相続人は、分筆の登記を申請できる
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+単独取得の相続人は一人で申請可
 Illustration: An isometric land plot labeled "甲土地", with two person
 icons labeled "Ｂ" and "Ｃ" and a document icon labeled "遺産分割協議書",
 an arrow from Ｂ alone (without Ｃ) submitting the document to a registry
 office icon.
-Caption (small text below):
-遺産分割協議によって土地を単独で取得した相続人は、遺産分割協議書を添付
-することで、単独で分筆の登記を申請することができる(登記研究229号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+Ｂのみで申請可
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-公共団体と私人の共有地でも、私人の申請には登録免許税が課される
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+私人の共有持分には登録免許税
 Illustration: An isometric land plot shared by a government building icon
 (地方公共団体) and a person icon (私人), with the person icon submitting
 a document to a registry office and a small coin/tax stamp icon attached
 only to their side, while the government building icon has a crossed-out
 coin.
-Caption (small text below):
-登録免許税が非課税となるのは公共団体自身のための登記に限られる。地方
-公共団体と私人が共有する土地について私人が分筆の登記を申請する場合には、
-通常どおり登録免許税が課される(登録免許税法4条、昭44.10.3民三938号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+私人分は課税される
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-筆界特定がされた旨の記録は、分筆後のすべての土地に転写される
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+筆界特定の記録は分筆後も引継ぎ
 Illustration: An isometric land plot labeled "甲土地" with a boundary
 marker/stamp icon labeled "筆界特定", split by a dotted line into
 "甲土地" and "乙土地", with an arrow copying the same boundary
 marker/stamp icon onto the 乙土地 side.
-Caption (small text below):
-甲土地に筆界特定がされた旨の記録があるときは、分筆をしても、その記録は
-乙土地の登記記録に転写される(不動産登記法145条、規則234条、平17.12.6
-民二2760号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+乙土地にも転写
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第9問
+Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (2
-cards under 抵当権が絡むとき, 3 cards under 相続・登録免許税・筆界特定が
-絡むとき), with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```
