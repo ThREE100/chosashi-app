@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-地目認定の5つの具体的な考え方を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+地目に関する5肢はそれぞれ独立した個別ルール（牧場地域、現況主義、耕作地域、隣接地との一体利用、鉱泉地の定義）であり、2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots,
+pastures, farmland, tennis courts, hot springs, torn paper labels, etc.
+— adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,67 +110,83 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・建・物・登・記 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-牧場の中の建物は
-「宅地」にならない
+Title (large, bold, 1行):
+牧場の中の建物は「宅地」にならない
 
 Subtitle (smaller, centered, 1行):
-地目認定の考え方を整理(平成25年度 午後の部 第8問)
+平成25年度 午後の部 第8問－地目認定の5つの考え方
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric landscape strip showing five small differently-textured land-plot icons side by side (pasture, forest-turned-lot, farmland, tennis court next to a house, hot spring), each with a small label tag above it.
-地目の認定は現況主義が基本ですが、地域性や隣接地との関係によって、建物の有無だけでは判断できない例外があります。5つの具体例で地目認定の考え方を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-牧場地域内の牧畜用建物の敷地は、永久的設備であっても「宅地」にはならない
-Illustration: An isometric pasture landscape with a barn building icon on it, labeled 牧畜のための建物, with a red X over a 宅地 tag and a green checkmark over a 牧場 tag instead.
-Caption (small text below):
-牧場地域内にある牧畜のために使用する建物の敷地は、永久的設備と認められても宅地とはされない。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+牧場内の牧畜用建物は宅地外
+Illustration: An isometric pasture landscape with a barn building icon
+on it, labeled "牧畜のための建物". A red X sits over a "宅地" tag, and a
+green checkmark sits over a "牧場" tag instead.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+宅地にならない
 
 --- CARD 2 ---
-Heading (bold):
-現況が宅地であれば、過去の利用履歴にかかわらず直ちに地目変更登記ができる
-Illustration: An isometric timeline of one land plot changing from a forest icon (山林) to a parking-lot icon (駐車場) to a house icon (宅地), with an arrow straight from the current house icon to a stamp labeled 地目変更登記, skipping the middle stage.
-Caption (small text below):
-山林から駐車場を経て現在は宅地として使用されている土地は、現況に基づいて直ちに宅地への地目変更登記ができる。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+現況優先ですぐ地目変更
+Illustration: An isometric timeline of one land plot changing from a
+forest icon labeled "山林" to a parking-lot icon labeled "駐車場" to a
+house icon labeled "宅地". An arrow runs straight from the current house
+icon to a stamp labeled "地目変更登記", skipping the middle stage.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+現況で即変更
 
 --- CARD 3 ---
-Heading (bold):
-耕作地域内の農具小屋の敷地は、永久的施設なら「宅地」として認定される
-Illustration: An isometric farmland landscape with a small permanent tool-shed building icon (農具小屋) on it, with a green checkmark over a 宅地 tag.
-Caption (small text below):
-耕作地の区域内にある農具小屋の敷地は、その建物が永久的施設と認められるものであれば宅地として認定される。
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+耕作地の農具小屋は宅地
+Illustration: An isometric farmland landscape with a small permanent
+tool-shed building icon labeled "農具小屋" on it, with a green checkmark
+over a "宅地" tag.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+永久施設なら宅地
 
 --- CARD 4 ---
-Heading (bold):
-隣接する宅地と効用上一体をなす場合、テニスコートへの造成は雑種地への変更とはならない
-Illustration: An isometric scene with a house icon on one land plot (乙土地, 宅地) directly adjacent to a tennis-court icon on a second plot (甲土地, formerly 山林), a dashed line connecting them labeled 効用上一体, with a red X over a 雑種地 tag on the tennis court plot.
-Caption (small text below):
-山林であった甲土地がテニスコートに造成されても、隣接する宅地と効用上一体をなす場合は宅地の一部として扱われ、雑種地への変更登記はできない。
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+宅地隣接のテニスコートは宅地
+Illustration: An isometric scene with a house icon on one land plot
+labeled "乙土地・宅地", directly adjacent to a tennis-court icon on a
+second plot labeled "甲土地・旧山林". A dashed line connects them labeled
+"効用上一体", with a red X over a "雑種地" tag on the tennis-court plot.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+雑種地にならない
 
 --- CARD 5 ---
-Heading (bold):
-温泉の沸出口及びその維持に必要な土地の地目は「鉱泉地」
-Illustration: An isometric hot-spring landscape with a small steaming water source icon (温泉の沸出口) and the surrounding maintenance area, with a green tag reading 鉱泉地 above it.
-Caption (small text below):
-温泉（鉱泉）の沸出口及びその維持に必要な範囲の土地の地目は、鉱泉地と定められている。
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+温泉の湧出口は鉱泉地
+Illustration: An isometric hot-spring landscape with a small steaming
+water-source icon labeled "温泉の沸出口" and the surrounding maintenance
+area, with a green tag reading "鉱泉地" above it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+地目は鉱泉地
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成25年度 午後の部 第8問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-床面積算定の5つの個別要素（吹抜け・地下街・ダストシュート・傾斜壁・出窓）を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+床面積の算定に関わる5つの個別要素（吹抜け・地下街・ダストシュート・傾斜壁・出窓）の正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric buildings, atriums,
+underground corridors, chutes, slanted walls, bay windows, measuring
+tapes, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,9 +110,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地 — this must be rendered in its standard Japanese form, never as
+a Simplified Chinese variant.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -108,57 +120,77 @@ Title (large, bold, 2行):
 どの階の床面積にもならない
 
 Subtitle (smaller, centered, 1行):
-床面積算定の細かいルールを整理(平成25年度 午後の部 第13問)
+床面積算定の細かいルールを整理（平成25年度 午後の部 第13問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric cutaway building showing five distinct architectural features highlighted with dashed outlines: an open atrium (吹抜け), an underground mall corridor (地下街), a chute (ダストシュート), a slanted wall (傾斜壁), and a bay window (出窓).
-床面積の算定は「壁その他の区画の中心線で囲まれた部分の水平投影面積」という原則を出発点に、吹抜け・ダストシュート・出窓といった個別要素ごとの取扱いを覚えていく分野です。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-吹抜け部分は、上階を含めどの階の床面積にも算入しない
-Illustration: An isometric cutaway building with an open two-story atrium (吹抜け) shown as empty space with no floor slab, a red X over a floor-area calculation for that empty column at every level.
-Caption (small text below):
-建物の一部が上階まで吹抜になっている場合、その吹抜の部分は上階を含めどの階の床面積にも算入しない。
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+吹抜けはどの階にも算入しない
+Illustration: An isometric cutaway building with an open two-story
+atrium (吹抜け) shown as empty space with no floor slab at any level. A
+red X sits over a floor-area calculation attached to that empty column.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+どの階にも算入しない
 
 --- CARD 2 ---
-Heading (bold):
-地下街の床面積は、通路・階段部分を除いた区画部分で定める
-Illustration: An isometric underground mall corridor with an open public walkway (通路及び階段) greyed out as excluded, and individual shop units enclosed by walls and pillars (壁又は柱等により区画された部分) highlighted as counted.
-Caption (small text below):
-地下街の建物の床面積は、常時一般に開放されている通路及び階段の部分を除き、壁又は柱等により区画された部分の面積で定める。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+地下街は通路除いた区画で算定
+Illustration: An isometric underground mall corridor. An open public
+walkway (通路及び階段) is greyed out as excluded, while individual shop
+units enclosed by walls and pillars (壁又は柱等により区画された部分)
+are highlighted as counted.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+通路・階段は除く
 
 --- CARD 3 ---
-Heading (bold):
-ダストシュートの建物外部にある部分は、床面積に算入しない
-Illustration: An isometric building cross-section with a vertical chute (ダストシュート) partly inside the building wall (counted, highlighted) and partly protruding outside the wall (外部にある 部分, greyed out with a red X).
-Caption (small text below):
-建物の内部と外部にまたがってダストシュートがある場合、その外部にある部分は各階の床面積に算入しない。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+シュートの屋外部分は算入外
+Illustration: An isometric building cross-section with a vertical chute
+（ダストシュート）partly inside the wall (highlighted, counted) and
+partly protruding outside the wall (外部にある部分), the outside
+portion greyed out with a red X.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+屋外部分は算入外
 
 --- CARD 4 ---
-Heading (bold):
-柱・壁が傾斜している場合は、床面が接する部分の中心線で床面積を定める
-Illustration: An isometric room with a slanted wall (傾斜壁), a highlighted dashed line drawn exactly where the wall meets the floor (床面の 接着する部分の中心線), rather than at the wall's upper, wider point.
-Caption (small text below):
-柱又は壁が傾斜している場合の床面積は、各階の床面の接着する壁その他の区画の中心線で囲まれた部分による。
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+傾斜壁は床が接する線で算定
+Illustration: An isometric room with a slanted wall (傾斜壁). A
+highlighted dashed line is drawn exactly where the wall meets the floor
+（床面が接着する部分の中心線）, rather than at the wall's upper, wider
+point.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+床に接する中心線
 
 --- CARD 5 ---
-Heading (bold):
-出窓の床面積算入基準は「高さ1.5メートル以上」という数値ではない
-Illustration: An isometric small bay window (出窓) protruding from a wall, with a measuring tape icon showing a much smaller height than a crossed-out 1.5m ruler label, a question-mark badge over the correct numeric threshold.
-Caption (small text below):
-出窓の床面積への算入基準は「高さ1.5メートル以上」という数値ではなく、これより小さい高さの基準による。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+出窓の基準は「1.5m以上」でない
+Illustration: An isometric small bay window (出窓) protruding from a
+wall. A measuring tape icon shows a much smaller height than a
+crossed-out ruler labeled 1.5m以上, with a question-mark badge over the
+correct numeric threshold.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+1.5m以上は誤り
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成25年度 午後の部 第13問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards, that badge numbers run 1-5
+continuously down the single column, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

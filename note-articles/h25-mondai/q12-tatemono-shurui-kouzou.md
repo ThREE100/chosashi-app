@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の種類・構造の認定基準を、種類2枚・構造3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+建物の「種類」をどう定めるかと「構造」をどう認定するかという2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric buildings, roofs,
+floor-use signboards, registry record sheets, torn paper labels, etc. —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,9 +110,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 建・物・記・録 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -108,63 +120,84 @@ Title (large, bold, 2行):
 種類は存在しない
 
 Subtitle (smaller, centered, 1行):
-建物の種類・構造の認定基準を整理(平成25年度 午後の部 第12問)
+建物の種類・構造の認定基準を整理（平成25年度 午後の部 第12問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric multi-story building with different-colored floors each labeled with a different use icon (store, gym, cinema), a large question mark above a signboard that has been crossed out reading 多目的ビル.
-建物の種類は複数の用途をそのまま列記するのが原則で、構造は面積の多い主たる要素で代表させるのが原則です。「主たるもので判断する」場面と「複数を並べる」場面の使い分けを整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 建物の種類に関する原則
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-主な用途が2以上の場合、それらの用途をあわせて建物の種類を定める
-Illustration: An isometric two-story building, the first floor tagged 店舗 and the second floor tagged 居宅, both tags merging into a single combined signboard reading 店舗兼居宅.
-Caption (small text below):
-建物の主な用途が2以上の場合には、その2以上の用途をあわせて建物の種類を定める。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+用途2つなら両方を種類に
+Illustration: An isometric two-story building, the first floor tagged
+店舗 and the second floor tagged 居宅, both tags merging into a single
+combined signboard reading 店舗兼居宅.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+両方あわせて種類に
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-「多目的ビル」という種類区分は存在せず、実際の用途を列記する
-Illustration: An isometric multi-floor building with each floor showing a different-use icon (食品販売店, 衣類販売店, ゲームセンター, 映画館), a red X over a signboard reading 多目的ビル, and a green checkmark over a signboard listing each use by name.
-Caption (small text below):
-各利用部分ごとに用途を異にする建物であっても、「多目的ビル」という種類は存在せず、実際の用途を列記して種類を定める。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+「多目的ビル」という種類はない
+Illustration: An isometric multi-floor building with each floor showing
+a different-use icon (食品販売店, 衣類販売店, ゲームセンター, 映画館). A
+red X sits over a signboard reading 多目的ビル, while a green checkmark
+sits over a signboard listing each actual use by name.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+実際の用途を列記
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 建物の構造に関する原則
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-屋根の種類は「10％以上」ではなく、面積の多い主たる種類で定める
-Illustration: An isometric roof split into two textures, a small tiled section (30%) and a larger metal-sheet section (70%), with an arrow pointing to the larger section labeled 主たる屋根の種類, and a red X over a mistaken 10%以上 rule label.
-Caption (small text below):
-屋根の種類が2種類ある建物は、面積の多い主たる種類の屋根で構造を定め、「10％以上」という基準は誤り。
-
---- COLUMN B, CARD 2 ---
-Heading (bold):
-床面積に算入しない部分の屋根の種類は、構造認定に考慮しなくてよい
-Illustration: An isometric building with a pilotis (ピロティ) ground floor not counted in floor area, its differently-textured roof/ceiling greyed out and excluded from the main structure determination.
-Caption (small text below):
-床面積に算入しない部分の屋根の種類が他の部分と異なっていても、建物全体の構造認定にその部分の屋根の種類を考慮する必要はない。
-
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-屋根の種類は最上階の専有部分ではなく、一棟の建物の表題部に記録される
-Illustration: An isometric condominium building, the roof icon on top connected by an arrow down to the 一棟の建物の表題部 record sheet, with a red X over an arrow mistakenly pointing to the top-floor unit's own record.
-Caption (small text below):
-区分建物である建物の屋根の種類は、最上階の区分建物の専有部分ではなく、一棟の建物の表題部に記録される。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+屋根は面積の多い種類で決まる
+Illustration: An isometric roof split into two textures: a small tiled
+section (30%) and a larger metal-sheet section (70%), with an arrow
+pointing to the larger section labeled 主たる屋根の種類. A red X sits
+over a mistaken rule label reading 10%以上.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+10%以上ではない
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+算入外の屋根は構造判断に無関係
+Illustration: An isometric building with a ground-floor pilotis
+(ピロティ) not counted in floor area. Its differently-textured
+roof/ceiling is greyed out and excluded from the structure-determination
+panel above.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+考慮しなくてよい
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+屋根の種類は一棟の表題部に記録
+Illustration: An isometric condominium building, the roof icon on top
+connected by an arrow down to a record sheet labeled 一棟の建物の表題部.
+A red X sits over an arrow mistakenly pointing to the top-floor unit's
+own separate record.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一棟の表題部のみ
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成25年度 午後の部 第12問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly (建物の種類に関する原則に2枚、建物の構造に関する原則に3枚), with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+（建物の種類に関する原則に2枚、建物の構造に関する原則に3枚）, with no
+duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

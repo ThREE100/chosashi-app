@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の所在に関する5つの特殊ルールを、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+建物の所在に関する5肢はそれぞれ独立した個別ルール（都道府県境、附属建物の地番、さん橋上の建物、仮換地、複数筆にまたがる建物）であり、2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+plots, piers, prefectural border lines, official stamps, torn paper
+labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,67 +110,85 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・番・建・物・登・記・所・録 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-仮換地の上の家は
-どの地番で登記する？
+Title (large, bold, 1行):
+仮換地の上の家はどの地番で登記する？
 
 Subtitle (smaller, centered, 1行):
-建物の所在の特殊ルールを整理(平成25年度 午後の部 第10問)
+平成25年度 午後の部 第10問－建物の所在の5つの特殊ルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric collage showing four unusual building-location scenes side by side: a building straddling a prefectural border line, a warehouse on a pier over water, a house on a temporary replotted land parcel, and a building spanning two adjacent land plots.
-建物の所在の記録方法は、通常の土地上の建物であれば単純ですが、都道府県境をまたぐ建物、さん橋の上の建物、仮換地上の建物といった特殊なケースでは、独自の記録ルールがあります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-他の都道府県にまたがる建物は、都道府県名が冠記される
-Illustration: An isometric building straddling a dashed border line between two prefectures, with a small tag reading B県〇〇 attached to the building's address record, showing the other prefecture's name added.
-Caption (small text below):
-建物が他の都道府県にまたがって存在する場合、不動産所在事項にはその他の都道府県名が冠記される。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+都道府県またぎは県名を冠記
+Illustration: An isometric building straddling a dashed border line
+between two prefectures, with a small tag reading "B県〇〇" attached to
+the building's address record, showing the other prefecture's name
+added.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+県名を追加記録
 
 --- CARD 2 ---
-Heading (bold):
-別の一棟の建物に属する区分建物を附属建物とする場合、その所在地番の提供は必要
-Illustration: An isometric main condominium unit (甲区分建物) with an arrow connecting to a separate building's unit (乙区分建物) on a different land plot, with a document icon requiring the address tag of that separate plot, red X over a crossed-out omission.
-Caption (small text below):
-別の一棟の建物に属する乙区分建物を附属建物とする表題登記では、乙区分建物が所在する土地の地番の提供が必要。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+別棟の附属建物も地番必要
+Illustration: An isometric main condominium unit labeled "甲区分建物"
+with an arrow connecting to a separate building's unit labeled
+"乙区分建物" on a different land plot. A document icon requires the
+address tag of that separate plot, with a red X over a crossed-out
+omission.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+地番の提供必要
 
 --- CARD 3 ---
-Heading (bold):
-さん橋上の建物は、最も近い土地の地番を用いて「何番地先」と記録される
-Illustration: An isometric pier (さん橋) extending over water with a small warehouse building on it, a dashed line connecting it to the nearest land plot's number tag, with a label reading 何番地先.
-Caption (small text below):
-永久的な施設としてのさん橋の上に建物がある場合、最も近い土地の地番を用いて「何番地先」のように所在が記録される。
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+さん橋上の建物は「何番地先」
+Illustration: An isometric pier labeled "さん橋" extending over water
+with a small warehouse building on it. A dashed line connects it to the
+nearest land plot's number tag, with a label reading "何番地先".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+最寄りの地番で表記
 
 --- CARD 4 ---
-Heading (bold):
-仮換地上の建物は、従前の地番ではなく仮換地の地番を用いて登記する
-Illustration: An isometric land-readjustment scene showing a new temporary replotted parcel labeled 仮換地 with a new house built on it, an arrow from the house pointing to the 仮換地 number tag, and a red X over the old 従前の土地 number tag.
-Caption (small text below):
-仮換地上に建物を新築した場合、表題登記の申請情報である建物の所在としては仮換地の地番を用いる。
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮換地は仮換地の地番で登記
+Illustration: An isometric land-readjustment scene showing a new
+temporary replotted parcel labeled "仮換地" with a new house built on
+it. An arrow from the house points to the "仮換地" number tag, and a
+red X sits over the old "従前の土地" number tag.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+従前地番は使わない
 
 --- CARD 5 ---
-Heading (bold):
-2筆以上にまたがる建物は、床面積の多い部分（主たる部分）の地番を先に記録する
-Illustration: An isometric building spanning two land plots of unequal size, the larger-floor-area plot's number tag placed first in a record list, followed by the smaller plot's number tag second.
-Caption (small text below):
-2筆以上の土地にまたがる建物は、床面積の多い部分又は主である建物の所在する土地の地番を先に、他の土地の地番を後に記録する。
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+2筆にまたがる建物は床面積順
+Illustration: An isometric building spanning two land plots of unequal
+size. The larger-floor-area plot's number tag is placed first in a
+record list, followed by the smaller plot's number tag second.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+主たる部分が先
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成25年度 午後の部 第10問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

@@ -89,14 +89,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-不動産登記法158条による行政不服審査法の適用除外を中心に、審査請求に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+登記官の処分に対する審査請求について、「不動産登記法158条による適用除外」と「審査請求の通常手続」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric registry desks,
+law-bureau officials, calendars, sealed doors, document stamps, envelopes,
+torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -104,9 +116,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・登・記 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -114,57 +126,82 @@ Title (large, bold, 2行):
 「期限」も「参加人」もない
 
 Subtitle (smaller, centered, 1行):
-不動産登記法158条による適用除外を整理(平成25年度 午後の部 第19問)
+平成25年度 午後の部 第19問－不動産登記法158条による適用除外を整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scale-of-justice icon labeled 行政不服審査法 with several of its rule-cards (期間制限, 参加人) being physically pulled out and crossed with a red X by a stamp labeled 不動産登記法158条, illustrating an exclusion.
-登記官の処分に対する審査請求は、不動産登記法が独自の規律を用意している分野です。「一般の行政処分ならこうなるはず」という感覚をそのまま当てはめると誤ってしまう5つのポイントを整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-登記官の処分への審査請求には、そもそも参加人制度がない
-Illustration: An isometric courtroom-like scene with a mortgagee figure (抵当権者B) trying to join as a 参加人 through a side door, the door sealed shut with a stamp reading 法158条により13条を適用除外.
-Caption (small text below):
-行政不服審査法13条の参加人制度は、不動産登記法158条により156条1項の審査請求には適用除外され、そもそも存在しない。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+158条による適用除外
 
---- CARD 2 ---
-Heading (bold):
-審査請求は、登記官を経由してしなければならない
-Illustration: An isometric applicant figure sending a 審査請求書 document that must first pass through the local registry officer's desk (登記官) before continuing upward to the 法務局長 office, a straight-line shortcut path crossed out.
-Caption (small text below):
-登記官の処分に対する審査請求は、直接監督機関に対して行うのではなく、登記官を経由して行わなければならない(法156条2項)。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+参加人制度はそもそもない
+Illustration: An isometric courtroom-like scene with a mortgagee figure
+(抵当権者B) trying to join as a 参加人 through a side door. The door is
+sealed shut with a stamp reading 法158条により13条を適用除外.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+参加人制度なし
 
---- CARD 3 ---
-Heading (bold):
-登記官の処分への審査請求には、そもそも期間制限がない
-Illustration: An isometric calendar with a 60日 deadline stamp crossed out by a red X, replaced with an infinity symbol icon labeled 期間制限なし, next to a stamp reading 法158条により18条を適用除外.
-Caption (small text below):
-行政不服審査法18条の審査請求期間の規定は、不動産登記法158条により適用除外され、登記官の処分への審査請求に期間制限は存在しない。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+審査請求に期間制限はない
+Illustration: An isometric calendar with a 60日 deadline stamp crossed
+out by a red X, replaced with an infinity symbol icon labeled 期間制限
+なし, beside a stamp reading 法158条により18条を適用除外.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+期間制限なし
 
---- CARD 4 ---
-Heading (bold):
-裁決書の謄本は、審査請求人及び登記官に交付される
-Illustration: An isometric law-bureau official character stamping two identical 裁決書の謄本 document copies, one arrow sending a copy to the applicant figure (審査請求人) and another arrow sending a copy back to the original registry officer (登記官).
-Caption (small text below):
-法務局又は地方法務局の長が審査請求について裁決をしたときは、裁決書の謄本を審査請求人及び登記官に交付する。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+審査請求の通常手続
 
---- CARD 5 ---
-Heading (bold):
-審査請求が認容された場合、審査請求人のほか登記上の利害関係人にも通知される
-Illustration: An isometric law-bureau official commanding the registry officer with a 相当の処分を命じる stamp, then sending notification envelopes both to the applicant (審査請求人) and to a separate interested-party figure (登記上の利害関係人).
-Caption (small text below):
-監督法務局長等は審査請求に理由があると認めるときは登記官に相当の処分を命じ、その旨を審査請求人のほか登記上の利害関係人にも通知する(法157条)。
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+審査請求は登記官経由
+Illustration: An isometric applicant figure sending a 審査請求書 document
+that must first pass through the local registry officer's desk (登記官)
+before continuing upward to the 法務局長 office. A straight-line
+shortcut path bypassing the desk is crossed out.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記官を経由
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+裁決書謄本は登記官にも交付
+Illustration: An isometric law-bureau official stamping two identical
+裁決書の謄本 document copies. One arrow sends a copy to the applicant
+figure (審査請求人), another arrow sends a copy back to the original
+registry officer (登記官).
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記官にも交付
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+認容なら利害関係人にも通知
+Illustration: An isometric law-bureau official commanding the registry
+officer with a 相当の処分を命じる stamp, then sending notification
+envelopes both to the applicant (審査請求人) and to a separate
+interested-party figure (登記上の利害関係人).
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+利害関係人にも通知
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成25年度 午後の部 第19問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

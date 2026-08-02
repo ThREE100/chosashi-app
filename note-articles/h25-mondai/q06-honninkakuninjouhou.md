@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-本人確認情報における面識の判断基準と却下されない原則を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+本人確認情報について「手続として何を満たすべきか」と「どんな場合に『面識がある』と扱われるか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric registry desks,
+application documents, official stamps, calendar icons, office buildings,
+torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,67 +110,92 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・記 — these must be rendered in their standard Japanese forms,
+never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-「内容が怪しい」は
-イコール即却下ではない
+Title (large, bold, 1行):
+「内容が怪しい」＝即却下ではない
 
 Subtitle (smaller, centered, 1行):
-本人確認情報のルールを整理(平成25年度 午後の部 第6問)
+平成25年度 午後の部 第6問－面識の判定基準と却下時の対応
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene showing a土地家屋調査士 character (資格者代理人) handing a document labeled 本人確認情報 to a registry officer character, with a thought bubble above the officer showing a question mark, not an immediate rejection stamp.
-本人確認情報は、登記識別情報を提供できない場合の代替手段として、資格者代理人に重要な役割が期待される制度です。面識の判断基準と、内容が相当でない場合の対応を5枚のカードで整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-資格者代理人であることを証する情報も併せて提供しなければならない
-Illustration: An isometric土地家屋調査士 character handing two documents together to a registry officer: one labeled 本人確認情報 and one labeled 資格者代理人であることを証する情報, clipped together with a paperclip icon.
-Caption (small text below):
-土地家屋調査士が本人確認情報を提供するときは、自らが登記の申請の代理を業とすることができる者であることを証する情報も併せて提供する。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+手続要件を満たしているか
 
---- CARD 2 ---
-Heading (bold):
-内容が相当でないと認められても、直ちに却下されるわけではない
-Illustration: An isometric registry officer character holding a document labeled 本人確認情報 with a question-mark thought bubble, an arrow leading not to a 却下 stamp but to a separate envelope icon labeled 事前通知.
-Caption (small text below):
-登記官が本人確認情報の内容を相当と認めることができない場合でも、直ちに却下されるのではなく、事前通知などの手続がとられる。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+資格者証明も同時に提出
+Illustration: An isometric registry counter. A 土地家屋調査士 character
+(資格者代理人) hands two documents together to a registry officer: one
+labeled "本人確認情報" and one labeled "資格者代理人であることを証する
+情報", clipped together with a paperclip icon.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+添付も必須
 
---- CARD 3 ---
-Heading (bold):
-依頼前からの安定した継続的関係も「面識がある」ときに当たる
-Illustration: An isometric scene showing a土地家屋調査士 character and a client character with a timeline behind them stretching back over a year (labeled 1年以上の取引関係), with a green checkmark tag reading 面識あり.
-Caption (small text below):
-依頼前から申請人の氏名・住所を知り、親族関係や1年以上の安定した継続的関係があれば、面識があるときに当たる。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+却下ではなくまず事前通知
+Illustration: An isometric 登記官 (registry officer) character holding a
+document labeled "本人確認情報" with a question-mark thought bubble above
+it. An arrow leads not to a red "却下" stamp (shown crossed out) but to
+an envelope icon labeled "事前通知".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+却下より通知
 
---- CARD 4 ---
-Heading (bold):
-法人の場合、必ずしも代表者本人と面談しなければならないわけではない
-Illustration: An isometric office building icon (法人B) with two possible meeting scenes: one with the 資格者代理人 meeting the company representative character, and another equally valid green-checked scene meeting an authorized staff character instead.
-Caption (small text below):
-法人である申請人の本人確認情報を提供する場合、必ずしも法人の代表者本人と面談しなければならないわけではない。
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+法人は代表者以外でも面談可
+Illustration: An isometric office building icon labeled "法人B" with two
+possible meeting scenes side by side: one showing the 資格者代理人 meeting
+a "代表者" character, another equally valid green-checked scene meeting
+an "権限を与えられた担当者" character instead.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代表者以外も可
 
---- CARD 5 ---
-Heading (bold):
-過去（半年前）に本人確認情報を提供した実績も「面識がある」ときに当たる
-Illustration: An isometric calendar icon showing a mark 半年前 with a small 本人確認情報 document icon, connected by a dashed line to today's date with a green checkmark tag reading 面識あり.
-Caption (small text below):
-半年前に同じ依頼者から本人確認情報を提供して登記の申請をしていた実績があれば、今回の申請でも面識があるときに当たる。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+面識があるときとは
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+継続的な取引関係も面識あり
+Illustration: An isometric scene showing a 資格者代理人 character and a
+client character standing together, with a timeline behind them
+stretching back over a year labeled "1年以上の取引関係". A green
+checkmark tag reads "面識あり".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+面識ありと判定
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+半年前の実績も面識あり
+Illustration: An isometric calendar icon showing a marked date labeled
+"半年前" with a small document icon labeled "本人確認情報", connected by
+a dashed line to today's date. A green checkmark tag reads "面識あり".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+過去の実績も有効
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成25年度 午後の部 第6問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

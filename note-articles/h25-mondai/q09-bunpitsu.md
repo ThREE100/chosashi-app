@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-分筆の登記の申請人・嘱託・職権に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+分筆の登記について「本人が申請する場面のルール」と「登記所が主導する場面（嘱託・職権）」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots, rivers,
+registry desks, application documents, official stamps, condominium
+buildings, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,67 +110,91 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・登・記・所・権 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-河川管理者は
-代わりに分筆を頼める
+Title (large, bold, 1行):
+河川管理者は代わりに分筆を頼める
 
 Subtitle (smaller, centered, 1行):
-分筆の登記の申請人・嘱託・職権のルールを整理(平成25年度 午後の部 第9問)
+平成25年度 午後の部 第9問－分筆の登記の申請人・嘱託・職権のルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric river cutting through a land plot, with a river-management official character (河川管理者) standing beside a registry-office window, sending a request document toward it on behalf of the absent landowner.
-分筆の登記は原則として所有権登記名義人などが自ら申請しますが、河川区域の指定や地図作成のための職権登記など、例外的に他の主体が主導できる場面もあります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-分筆登記の申請自体に、農業委員会の許可を証する情報は不要
-Illustration: An isometric farmland plot (畑) being split by a dotted line (分筆), with a red X over an 農業委員会の許可書 document icon beside the application papers.
-Caption (small text below):
-分筆の登記は単に区画を分ける手続であり、地目が畑であっても農業委員会の許可を証する情報の添付は不要。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請人としての要件
 
---- CARD 2 ---
-Heading (bold):
-仮登記名義人には、分筆の登記の申請人としての資格がない
-Illustration: An isometric land plot with a dashed-outline figure labeled 仮登記名義人 attempting to stamp a 分筆の登記 document, blocked by a red X, while the solid-outline figure labeled 所有権登記名義人 stands beside it as the only valid applicant.
-Caption (small text below):
-分筆の登記の申請人は表題部所有者又は所有権登記名義人に限られ、所有権移転の仮登記の登記名義人には申請資格がない。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+畑の分筆に農業委員会の許可不要
+Illustration: An isometric farmland plot labeled "畑" being split by a
+dotted line labeled "分筆". A red X sits over an "農業委員会の許可書"
+document icon beside the application papers.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+許可書は不要
 
---- CARD 3 ---
-Heading (bold):
-河川管理者は、所有権登記名義人に代わって分筆の登記を嘱託できる
-Illustration: An isometric river overlapping the edge of a land plot, a river-management official character (河川管理者) sending a request document directly to the registry office on behalf of the landowner, labeled 嘱託, with a green checkmark.
-Caption (small text below):
-土地の一部が河川区域内の土地となった場合、河川管理者は所有権登記名義人に代わって分筆の登記を登記所に嘱託できる。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮登記名義人は申請できない
+Illustration: An isometric land plot with a dashed-outline figure
+labeled "仮登記名義人" attempting to stamp a "分筆の登記" document,
+blocked by a red X. A solid-outline figure labeled "所有権登記名義人"
+stands beside it as the only valid applicant.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請資格なし
 
---- CARD 4 ---
-Heading (bold):
-地図作成のために必要であれば、異議がない限り職権で分筆できる
-Illustration: An isometric registry officer character stamping a 分筆の登記 document with a 職権 seal, next to a landowner figure with a speech bubble showing no objection (異議なし), and a background map-icon labeled 地図作成.
-Caption (small text below):
-登記官は、地図を作成するため必要があると認める場合、所有権登記名義人の異議がなければ職権で分筆の登記をすることができる。
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権の土地も分筆できる場合あり
+Illustration: An isometric land plot beneath a condominium building
+icon labeled "敷地権の目的である土地", being split by a dotted line
+labeled "分筆". A green checkmark replaces a blanket prohibition sign.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一律禁止ではない
 
---- CARD 5 ---
-Heading (bold):
-敷地権付き区分建物の敷地であっても、分筆が一律に禁止されるわけではない
-Illustration: An isometric land plot beneath a condominium building icon labeled 敷地権の目的である土地, being split by a dotted line (分筆), with a green checkmark instead of a blanket prohibition sign.
-Caption (small text below):
-区分建物の敷地権の目的である土地であっても、その分筆の登記が一律に禁止されているわけではない。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+登記所が主導する場合
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+河川管理者が代わりに嘱託できる
+Illustration: An isometric river overlapping the edge of a land plot.
+A river-management official character labeled "河川管理者" sends a
+request document directly to the registry office on behalf of the
+landowner, labeled "嘱託", with a green checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+名義人不要で嘱託
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+異議なければ職権で分筆できる
+Illustration: An isometric 登記官 character stamping a "分筆の登記"
+document with a "職権" seal, next to a landowner figure with a speech
+bubble showing no objection labeled "異議なし", and a background map
+icon labeled "地図作成".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+地図作成のため
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成25年度 午後の部 第9問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

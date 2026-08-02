@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の合併の登記の制限事由に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+建物の合併の登記の制限事由について、「担保権（抵当権）の例外パターン」と「それ以外の権利の原則パターン」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric buildings, merge
+arrows, registry stamps, torn paper labels, document icons, etc. — adapt
+icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,9 +110,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・地・建・物・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -108,57 +120,79 @@ Title (large, bold, 2行):
 建物は合併できない
 
 Subtitle (smaller, centered, 1行):
-建物の合併の登記の制限事由を整理(平成25年度 午後の部 第17問)
+平成25年度 午後の部 第17問－建物の合併の登記の制限事由を整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric two adjacent buildings (甲建物, 乙建物) with a merge arrow between them labeled 合併, and beside them a checklist of small icons (抵当権, 賃借権, 敷地権, 仮登記) each marked either allowed or blocked.
-建物の合併の登記は、権利関係の錯綜を避けるため、一定の制限事由が定められています。「両方に同一内容の担保権があれば例外的にOK」というパターンと、「それ以外は原則NG」というパターンを整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-権利の内容に食い違いが生じた抵当権は、合併の妨げになる
-Illustration: An isometric two buildings (甲建物, 乙建物) both showing an identical 抵当権 tag, but 乙建物's tag has an extra 債権額変更 stamp making it different, a red X over the merge arrow between them.
-Caption (small text below):
-甲建物と乙建物のいずれにも抵当権の登記があっても、乙建物のみ抵当権の債権額の変更登記があると内容が食い違い、合併の登記はできない。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+抵当権のルール
 
---- CARD 2 ---
-Heading (bold):
-乙建物のみの抵当権は、抵当権者の承諾があっても合併の妨げになる
-Illustration: An isometric 乙建物 alone carrying an 抵当権 tag with a signed 承諾書 document beside it, but a red X still blocking the merge arrow toward 甲建物 which has no such tag.
-Caption (small text below):
-乙建物についてのみ抵当権の設定登記がある場合、抵当権者が消滅を承諾する情報を提供しても、それだけで合併の登記はできない。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+内容が食い違う抵当権は合併不可
+Illustration: An isometric two buildings (甲建物, 乙建物) both showing an
+identical 抵当権 tag, but 乙建物's tag has an extra 債権額変更 stamp
+making it different. A red X sits over the merge arrow (合併) between
+them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+内容不一致で不可
 
---- CARD 3 ---
-Heading (bold):
-賃借権の登記があると、内容が同一でも建物の合併の登記をすることはできない
-Illustration: An isometric two buildings (甲建物, 乙建物) both carrying an identical 賃借権 tag, a red X over the merge arrow between them despite the matching content.
-Caption (small text below):
-甲建物と乙建物のいずれにも賃借権の設定の登記がある場合、内容が同一であっても建物の合併の登記をすることはできない。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+乙のみの抵当権、承諾でも不可
+Illustration: An isometric 乙建物 alone carrying an 抵当権 tag with a
+signed 承諾書 document beside it. A red X still blocks the merge arrow
+toward 甲建物, which carries no such tag.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾だけでは不可
 
---- CARD 4 ---
-Heading (bold):
-片方だけ敷地権の登記がある区分建物同士でも、合併の登記をすることができる
-Illustration: An isometric two condominium units (甲建物, 乙建物), 甲建物 alone carrying a 敷地権 tag and 乙建物 having none, a green checkmark over the merge arrow between them.
-Caption (small text below):
-甲建物と乙建物がいずれも区分建物で、甲建物についてのみ敷地権の登記があるときでも、建物の合併の登記をすることができる。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+賃借権・敷地権・仮登記のルール
 
---- CARD 5 ---
-Heading (bold):
-所有権の仮登記があると、建物の合併の登記をすることはできない
-Illustration: An isometric two buildings (甲建物, 乙建物) both carrying a 所有権の仮登記 tag, a red X over the merge arrow between them.
-Caption (small text below):
-甲建物と乙建物のいずれにも所有権の仮登記がある場合、建物の合併の登記をすることはできない。
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+賃借権があると合併不可
+Illustration: An isometric two buildings (甲建物, 乙建物) both carrying
+an identical 賃借権 tag. A red X sits over the merge arrow between them
+despite the matching content.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+賃借権で合併不可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権の有無違いはOK
+Illustration: An isometric two condominium units (甲建物, 乙建物). 甲建物
+alone carries a 敷地権 tag and 乙建物 has none. A green checkmark sits
+over the merge arrow between them.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+敷地権違いは合併可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮登記があると合併不可
+Illustration: An isometric two buildings (甲建物, 乙建物) both carrying a
+所有権の仮登記 tag. A red X sits over the merge arrow between them.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+仮登記で合併不可
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成25年度 午後の部 第17問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

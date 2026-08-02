@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-一の申請情報による申請が認められる5つの具体的パターンを、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+一の申請情報による申請が認められる5つの具体的パターンには、申請人・登記の目的が共通する場面という共通軸はあるものの、対象が「複数の不動産」「同一の不動産」「一連の手続」などバラバラで自然な二分割の軸がないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成とする。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+plots, documents, scissors, funnel/envelope icons, name tags, etc. —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,67 +110,85 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・建・物・登・記・変・併 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-バラバラの登記も
-まとめて1回で申請できる
+Title (large, bold, 1行):
+バラバラの登記も、まとめて1回で申請できる
 
 Subtitle (smaller, centered, 1行):
 一の申請情報による申請、5つのOKパターン(平成25年度 午後の部 第4問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene showing five small separate document icons on the left being funneled through a single wide envelope icon in the middle labeled 一の申請情報, emerging as one bundled stack of paper on the right with a green checkmark.
-同じ登記所の管轄内で、申請人と登記の目的が共通していれば、複数の不動産・複数の登記事由でも1つの申請情報にまとめられます。5つの具体例で、どこまでまとめられるかを確認します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-申請人・登記の目的が共通していれば、複数不動産の分筆登記も一括申請できる
-Illustration: An isometric scene with two separate land plots (甲土地, 乙土地) each being split by a dotted line (分筆), both arrows converging into a single document icon labeled 一の申請情報, with the same person icon labeled A standing over both plots.
-Caption (small text below):
-甲土地・乙土地とも申請人がAで登記の目的（分筆の登記）が共通していれば、一の申請情報でまとめて申請できる。
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+甲乙土地の分筆はまとめて申請可
+Illustration: An isometric scene with two separate land plots (甲土地,
+乙土地) each being split by a dotted line (分筆), both arrows converging
+into a single document icon labeled 一の申請情報, with the same person
+icon labeled A standing over both plots.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+同一申請人ならOK
 
 --- CARD 2 ---
-Heading (bold):
-同一不動産についての複数の表示登記事由も、一括申請できる
-Illustration: An isometric single land plot with two small tags attached to it, one reading 分筆の登記 and one reading 住所の更正の登記, both tags funneling into one document icon.
-Caption (small text below):
-甲土地の分筆の登記と、同じAの住所についての更正の登記は、同一不動産についての表示登記として一の申請情報でまとめられる。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+同一不動産の複数登記事由も一括可
+Illustration: An isometric single land plot with two small tags attached
+to it, one reading 分筆の登記 and one reading 住所の更正の登記, both tags
+funneling into one document icon.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+同一不動産ならOK
 
 --- CARD 3 ---
-Heading (bold):
-持分割合が異なっても、申請人（共有者）が同じなら地目変更も一括申請できる
-Illustration: An isometric pair of adjacent land plots labeled 甲土地 and 乙土地, each showing two small figures A and B with different-sized pie-chart badges (different持分), both plots changing color from green (山林) to beige (宅地) simultaneously under one document icon.
-Caption (small text below):
-持分の割合が異なっても、申請人（A及びB）が共通し登記の目的（地目変更）も共通していれば、一の申請情報で申請できる。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+持分が違っても共有者同じなら一括可
+Illustration: An isometric pair of adjacent land plots labeled 甲土地 and
+乙土地, each showing two small figures A and B with different-sized
+pie-chart badges (different持分), both plots changing color from green
+(山林) to beige (宅地) simultaneously under one document icon.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+持分違ってもOK
 
 --- CARD 4 ---
-Heading (bold):
-分割・合併という一連の手続も、一の申請情報でまとめて申請できる
-Illustration: An isometric building icon (甲建物) with a small attached shed (附属建物) being split off with scissors icon (分割), then the shed immediately being attached with a plus icon to a second building (乙建物) labeled 合併, both steps inside one document icon.
-Caption (small text below):
-甲建物からの附属建物の分割の登記と、乙建物の附属建物とする合併の登記は、一連の手続として一の申請情報でまとめて申請できる。
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+分割と合併も一連の手続でまとめ可
+Illustration: An isometric building icon (甲建物) with a small attached
+shed (附属建物) being split off with scissors icon (分割), then the shed
+immediately being attached with a plus icon to a second building
+(乙建物) labeled 合併, both steps inside one document icon.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一連の手続でOK
 
 --- CARD 5 ---
-Heading (bold):
-建物・土地をまたいでも、申請人・原因が共通すれば氏名変更登記を一括申請できる
-Illustration: An isometric scene with a person icon A changing a name tag (labeled 婚姻による氏名変更) reflected simultaneously on both a small house icon (甲建物) and a land plot icon (乙土地), both funneling into one document icon.
-Caption (small text below):
-婚姻による氏の変更という共通の原因があれば、建物と土地をまたいでもAの氏名変更登記を一の申請情報でまとめて申請できる。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+建物・土地またぎの氏名変更も一括可
+Illustration: An isometric scene with a person icon A changing a name tag
+(labeled 婚姻による氏名変更) reflected simultaneously on both a small
+house icon (甲建物) and a land plot icon (乙土地), both funneling into
+one document icon.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+建物土地またいでOK
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成25年度 午後の部 第4問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence
+of explanatory prose — every card's takeaway must read as a short
+heading + a short conclusion tag, at a glance.
 ```
