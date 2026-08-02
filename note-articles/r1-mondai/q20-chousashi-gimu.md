@@ -84,15 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地家屋調査士の義務について、絶対に守るべき法的義務4枚・努力義務1枚の計5枚のカードで、義務の強さの違いを軸に整理した画像生成プロンプト。
+土地家屋調査士の義務について「絶対に守るべき義務」と「努力義務」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric official figures,
 document stamps, balance scales, feather icons, key and lock icons,
 prohibition marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,105 +111,92 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to
-standard Japanese (Jōyō) form of these characters: 号・録・権・地・番・
-建・物・登・記・所.
+summarize, or substitute any characters. Pay special attention to the
+kanji 所 — it must be rendered in its standard Japanese form, never as a
+Simplified Chinese variant.
 
 --- HEADER ---
-Title (large, bold, 2行):
-その義務、「努力」か「絶対」か?
-土地家屋調査士の義務を線引きする
+Title (large, bold, 1行):
+その義務、「努力」か「絶対」か？
 
 Subtitle (smaller, centered, 1行):
-絶対に守るべき義務と、努力義務・例外の有無を対比(令和元年度 午後の部 第20問)
+令和元年度 午後の部 第20問－土地家屋調査士の義務を線引きする
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a balance
-scale (天秤); on one side sits a heavy stone icon labeled "守らなければ
-ならない", on the other side a light feather icon labeled "努めなければ
-ならない", with a small figure of a土地家屋調査士 standing at the center
-of the scale.
-土地家屋調査士の義務は、必ず守らなければならない法的義務と、努力目標として
-定められた努力義務に分かれます。さらに、正当な事由があれば例外が認められる
-義務もあります。5つの場面で、その強さと例外の有無を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 絶対に守るべき義務
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-正当な事由がなきゃ、依頼は断れない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+正当事由なきゃ依頼は断れない
 Illustration: An isometric icon of a client figure holding out a document
 to a土地家屋調査士 figure who receives it; beside them, a small tag reads
 "正当な事由" as a narrow exception gap, and a separate small box reads
 "筆界特定代理・ADR代理は除く".
-Caption (small text below):
-土地家屋調査士は、正当な事由がある場合でなければ依頼を拒んではならない。
-ただし筆界特定の手続についての代理業務及びその相談業務並びに民間紛争
-解決手続代理関係業務は除かれる(調査士法22条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+依頼拒否は不可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-事務所は一つだけ、二か所はダメ
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+事務所は一つ、二か所はダメ
 Illustration: An isometric icon of a single office building with a green
 checkmark above it, next to a second office building icon with a red
 prohibition (no-entry) mark overlaid on it, showing that only one office
 is allowed.
-Caption (small text below):
-土地家屋調査士は事務所を設けなければならないが、その事務所は一つでなけれ
-ばならず、二以上の事務所を設けることはできない(調査士法20条、同法施行
-規則18条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+事務所は一つ
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-会則は「努める」じゃなく「守る」義務
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+会則遵守は「努力」でなく義務
 Illustration: An isometric icon of a rulebook labeled "会則" being stamped
 with the words "守らなければならない"; beside it, a light feather icon
 (representing 努力義務) has a red prohibition (no-entry) mark overlaid on
 it, showing that this obligation is not a mere effort obligation.
-Caption (small text below):
-土地家屋調査士は、その所属する土地家屋調査士会及び日本土地家屋調査士会
-連合会の会則を守らなければならない。これは努力義務ではなく法的義務である
-(調査士法24条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+会則は法的義務
 
 --- COLUMN A, CARD 4 ---
-Heading (bold):
-秘密保持、正当な事由があれば例外になる
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+秘密保持、正当事由で例外あり
 Illustration: An isometric icon of a locked document labeled "秘密" held
 by a 土地家屋調査士 figure; a small keyhole gap labeled "正当な事由" shows
 a narrow opening through which a little information icon can pass,
 representing the permitted exception.
-Caption (small text below):
-土地家屋調査士又は土地家屋調査士であった者は、正当な事由がある場合で
-なければ、業務上取り扱った事件について知ることのできた秘密を他に漏らして
-はならない。裏を返せば、正当な事由がある場合には秘密の開示が許される
-(調査士法24条の2)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+例外的に開示可
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 努力義務
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-研修は「努力義務」、会則遵守とは強さが違う
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+研修受講は努力義務
 Illustration: An isometric icon of a 土地家屋調査士 figure walking toward
 a training-room icon (blackboard and screen), with a light feather icon
 labeled "努力義務" floating above the figure's head.
-Caption (small text below):
-土地家屋調査士は、その所属する土地家屋調査士会及び日本土地家屋調査士会
-連合会が実施する研修を受け、その資質の向上を図るように努めなければ
-ならない。これは努力義務である(調査士法25条1項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+研修は努力義務
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 令和元年度 午後の部 第20問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (4
-cards under 絶対に守るべき義務, 1 card under 努力義務), with no
-duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -85,15 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物図面及び各階平面図について、図面の作成・記録に関するルールを3枚、訂正の申出の性質を2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+建物図面及び各階平面図について、図面の作成・記録に関するルール（用紙・電子署名・縮尺）を3枚、訂正の申出の性質（義務か任意か、訂正か変更か）を2枚の、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric drafting tables,
 building floor plans, digital tablets with electronic seals, official
 stamps, rulers, arrows — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -101,100 +112,92 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to
-standard Japanese (Jōyō) form of these characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・縮・尺・隔・壁 — these must
+be rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 建物図面、義務？それとも任意？
-作成のルールと訂正の申出の線引き
 
 Subtitle (smaller, centered, 1行):
-記録事項・縮尺・用紙の扱いと訂正の申出の性質を整理(令和元年度 午後の部 第10問)
+令和元年度 午後の部 第10問－作成のルールと訂正の申出の線引き
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a
-drafting table with a building floor plan drawing tool set (ruler,
-pencil), next to a stack of numbered sheets and a stamp labeled 「訂正
-の申出」 on the right.
-建物図面・各階平面図の分野は、作成の方法（記録事項・縮尺・用紙の扱い）
-と、備え付けられた図面に誤りがあったときの「訂正の申出」の性質を問うも
-のです。「しなければならない（義務）」なのか「することができる（任意）」
-なのかの線引きが正誤を分けます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 図面の作成・記録に関するルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-用紙が数枚にわたるときは、総枚数と何枚目かを記載する
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+用紙複数枚は総枚数と何枚目を記載
 Illustration: An isometric view of three sheets of building floor plan
 drawings fanned out, each with a small margin note reading 「全3枚のう
 ち1枚目」「同2枚目」「同3枚目」.
-Caption (small text below):
-書面提出で建物図面・各階平面図の用紙が数枚にわたるときは、余白の適宜の
-箇所に総枚数と何枚目かを記載する。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+総枚数・何枚目を記載
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-電子署名で提供する図面にも、作成日・申請人・作成者名を記録する
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+電子署名でも作成日等を記録
 Illustration: An isometric tablet/computer screen showing a digital
 building floor plan with an electronic seal icon (電子署名), and a data
 label box displaying 「作成年月日」「申請人氏名」「作成者氏名」 all
-filled in, not blank.
-Caption (small text below):
-資格者代理人が電子署名を行って提供する建物図面・各階平面図にも、作成の
-年月日並びに申請人及び作成者の氏名又は名称を記録しなければならない。
+filled in with checkmarks, not blank.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+作成日等を記録
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-建物図面の縮尺は原則500分の1、地図に合わせる必要はない
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+建物図面は500分の1、地図と別
 Illustration: An isometric two-panel comparison: left panel a small-scale
-area map labeled 「法14条地図」 with one scale marking, right panel a
-building floor plan labeled 「建物図面 500分の1」, connected by an
-equals-sign icon with a red cross-out mark over it to show they need not
-match.
-Caption (small text below):
-建物図面は原則として500分の1で作成し、敷地に法14条1項の地図が備え付け
-られていても、その地図と同一の縮尺にする必要はない。
+area map labeled 「法14条地図」, right panel a building floor plan
+labeled 「建物図面 500分の1」, connected by an equals-sign icon with a
+large red X mark over it to show they need not match.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+縮尺は独立
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 訂正の申出の性質
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-添付図面の訂正の申出は、任意であって義務ではない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+訂正の申出は任意で義務でない
 Illustration: An isometric person standing next to a filed building
-drawing with a new地積測量図 beside it, a speech bubble icon showing
+drawing with a new 地積測量図 beside it, a speech bubble showing
 「できる」 with a checkmark, and a crossed-out label reading 「しなけれ
 ばならない」 to show it is not obligatory.
-Caption (small text below):
-敷地の地積更正登記で新たな地積測量図が備え付けられても、建物図面の訂正
-の申出は所有者などが任意にできる手続であり、義務ではない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+訂正は任意
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-隔壁を除去して1部屋にしたときは、訂正でなく変更の手続
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+隔壁除去は訂正でなく変更
 Illustration: An isometric view of two adjacent rooms with a dividing
 wall (隔壁) being removed, merging into one larger room, an arrow
 pointing not to a crossed-out 「訂正の申出」 stamp but to a 「変更の登
-記」 stamp.
-Caption (small text below):
-隔壁を除去して物理的に1部屋にしたときは、建物の現況が変わっているた
-め、訂正の申出ではなく変更の登記に対応する手続による。
+記」 stamp with a checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+変更の登記による
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度 午後の部 第10問
+Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・縮・尺・隔・壁. If
-any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the number of cards
-equals 5 exactly (3 cards under 図面の作成・記録に関するルール, 2 cards
-under 訂正の申出の性質), with no duplicated or missing cards, and confirm
-every heading, illustration label, and caption text matches the Japanese
-text given above verbatim, with no paraphrasing and no substituted
-characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```
