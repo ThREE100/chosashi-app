@@ -112,27 +112,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-Special attention: the kanji 地・建・物・構・造・積 appear repeatedly in
-the card text below. Render every one of them in its standard Japanese
-(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
-
-This infographic has exactly 5 cards, one per card heading listed below.
-Reproduce all 5 headings exactly as written, in this order, with no
-duplication, no omission, and no paraphrasing:
-1. 開閉屋根の下も床面積に算入
-2. 混構造は両方の名称を併記
-3. 地上地下は多い方を先に記載
-4. 地下街の共用通路は不算入
-5. 不算入部分の屋根は構造に書かない
-
-The 5 conclusion tags below must also be reproduced verbatim, in this
-order, with no duplication, no omission, and no paraphrasing:
-1. 開閉部分も算入
-2. 両方を併記
-3. 地下優先の順で記載
-4. 共用通路は不算入
-5. 屋根の種類は対象外
-
 --- HEADER ---
 Title (large, bold, 2行):
 建物の「構造」と「床面積」
@@ -212,13 +191,19 @@ Conclusion tag (pastel blue, 5-15 Japanese characters, keyword phrase):
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
 
+Note on frequently miswritten kanji: This infographic's card text uses the
+kanji 地・建・物・構・造・積, which are often confused with visually
+similar Simplified Chinese characters. Render each strictly in standard
+Japanese (Jōyō) form — do not substitute any Simplified Chinese variant
+for 地, 建, 物, 構, 造, or 積.
+
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to 地・建・物・構・造・積. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, confirm there is no intro illustration or paragraph block
-between the header and the cards, and confirm that no card contains a
-full sentence of explanatory prose — every card's takeaway must read as a
-short heading + a short conclusion tag, at a glance.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

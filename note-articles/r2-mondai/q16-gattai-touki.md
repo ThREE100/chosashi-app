@@ -114,13 +114,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-Special caution: this topic repeatedly uses the kanji 登・記・権・建・物・
-号・地 (as in 登記, 建物, 抵当権, 所有権, 賃借権, 持分). Render each of
-these in standard Japanese Jōyō form, never in Simplified Chinese form
-(号 must not become its simplified variant; 権 must not become its
-simplified variant; 建 must not become its simplified variant; 記 must
-always be written as 記, never its simplified variant).
-
 --- HEADER ---
 Title (large, bold, 1行):
 合体による登記等、5つのポイント
@@ -209,12 +202,17 @@ Conclusion tag (green, 5-15 Japanese characters, verbatim):
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
 
+Note on frequently miswritten kanji: This infographic's card text uses the
+kanji 登・記・権・建・物・号・地, which are often confused with visually
+similar Simplified Chinese characters. Render each strictly in standard
+Japanese (Jōyō) form — do not substitute any Simplified Chinese variant
+for 登, 記, 権, 建, 物, 号, or 地.
+
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Pay special attention to 登・記・権・建・物・号・地
-as noted above. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, confirm there is no intro illustration or
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a

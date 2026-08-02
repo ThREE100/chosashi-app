@@ -114,19 +114,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-Special caution: this topic repeatedly uses the kanji 登・録・権・地・建・
-物・記・所 (as in 登録免許税, 土地, 所有権, 建物, 登記). Render each of
-these in standard Japanese Jōyō form, never in Simplified Chinese form
-(録 must not become a simplified variant; 権 must not become its
-simplified variant; 建 must not become a simplified variant; 記 must
-always be written as 記, never its simplified variant).
-
-Each card below shows the ACTUAL computed registration-tax result for that
-item's 第1欄 and 第2欄 pair, and states whether it matches (一致) or does
-not match (不一致) the amount stated in 第3欄 of the original exam
-question — do not draw or restate the exam's raw wording, draw only the
-computed tax outcome.
-
 --- HEADER ---
 Title (large, bold, 1行):
 登録免許税、課税・非課税を見分ける5つのポイント
@@ -215,12 +202,17 @@ Conclusion tag (green, 5-15 Japanese characters, verbatim):
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
 
+Note on frequently miswritten kanji: This infographic's card text uses the
+kanji 登・録・権・地・建・物・記・所, which are often confused with
+visually similar Simplified Chinese characters. Render each strictly in
+standard Japanese (Jōyō) form — do not substitute any Simplified Chinese
+variant for 登, 録, 権, 地, 建, 物, 記, or 所.
+
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Pay special attention to 登・録・権・地・建・物・記・
-所 as noted above. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, confirm there is no intro illustration or
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a

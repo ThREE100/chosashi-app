@@ -122,31 +122,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-Special attention: the kanji 地・番・建・物・登・記・権 appear repeatedly
-in the card text below. Render every one of them in its standard Japanese
-(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
-
-This poster is based on a fill-in-the-blank (穴埋め) problem with five
-blanks ア・イ・ウ・エ・オ in a registry record; each card below
-represents the correct answer for one blank, in blank order ア→オ.
-
-This infographic has exactly 5 cards, one per card heading listed below.
-Reproduce all 5 headings exactly as written, in this order, with no
-duplication, no omission, and no paraphrasing:
-1. 空欄ア：区分建物の1階は「1階建」
-2. 空欄イ：床面積は「◯階部分」と記録
-3. 空欄ウ：使用貸借権は敷地権になれない
-4. 空欄エ：発生原因は「敷地権」
-5. 空欄オ：割合変更の原因は「変更」
-
-The 5 conclusion tags below must also be reproduced verbatim, in this
-order, with no duplication, no omission, and no paraphrasing:
-1. 1階建と表示
-2. 階を添えて記録
-3. 使用貸借権は対象外
-4. 原因は「敷地権」
-5. 原因は「変更」
-
 --- HEADER ---
 Title (large, bold, 2行):
 登記記録を「読む」力
@@ -220,13 +195,19 @@ Conclusion tag (pastel green, 5-15 Japanese characters, keyword phrase):
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
 
+Note on frequently miswritten kanji: This infographic's card text uses the
+kanji 地・番・建・物・登・記・権, which are often confused with visually
+similar Simplified Chinese characters. Render each strictly in standard
+Japanese (Jōyō) form — do not substitute any Simplified Chinese variant
+for 地, 番, 建, 物, 登, 記, or 権.
+
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to 地・番・建・物・登・記・権. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, confirm there is no intro illustration or paragraph block
-between the header and the cards, and confirm that no card contains a
-full sentence of explanatory prose — every card's takeaway must read as a
-short heading + a short conclusion tag, at a glance.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

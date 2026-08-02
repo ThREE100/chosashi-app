@@ -110,27 +110,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-Special attention: the kanji 地・番・建・物・記・録 appear repeatedly in
-the card text below. Render every one of them in its standard Japanese
-(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
-
-This infographic has exactly 5 cards, one per card heading listed below.
-Reproduce all 5 headings exactly as written, in this order, with no
-duplication, no omission, and no paraphrasing:
-1. 所在変更は抹消記号と変更旨を記録
-2. 数筆またがる建物は地番を略記可
-3. 仮換地上の建物は仮換地の地番で表示
-4. 建物合併は地番区域が違っても可
-5. 桟橋の建物は「何番地先」と表示
-
-The 5 conclusion tags below must also be reproduced verbatim, in this
-order, with no duplication, no omission, and no paraphrasing:
-1. 抹消記号＋変更した旨
-2. ないし表記が可能
-3. 仮換地の地番で表示
-4. 区域問わず合併可
-5. 何番地先と表示
-
 --- HEADER ---
 Title (large, bold, 2行):
 建物の「所在」の書き方
@@ -208,13 +187,19 @@ Conclusion tag (pastel green, 5-15 Japanese characters, keyword phrase):
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
 
+Note on frequently miswritten kanji: This infographic's card text uses the
+kanji 地・番・建・物・記・録, which are often confused with visually
+similar Simplified Chinese characters. Render each strictly in standard
+Japanese (Jōyō) form — do not substitute any Simplified Chinese variant
+for 地, 番, 建, 物, 記, or 録.
+
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to 地・番・建・物・記・録. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, confirm there is no intro illustration or paragraph block
-between the header and the cards, and confirm that no card contains a
-full sentence of explanatory prose — every card's takeaway must read as a
-short heading + a short conclusion tag, at a glance.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

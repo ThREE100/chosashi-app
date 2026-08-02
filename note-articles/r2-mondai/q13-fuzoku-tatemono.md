@@ -112,27 +112,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-Special attention: the kanji 建・物・登・記・権・所 appear repeatedly in
-the card text below. Render every one of them in its standard Japanese
-(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
-
-This infographic has exactly 5 cards, one per card heading listed below.
-Reproduce all 5 headings exactly as written, in this order, with no
-duplication, no omission, and no paraphrasing:
-1. 主のみ滅失は抹消でなく変更
-2. 共有の附属建物分割は全員で申請
-3. 主と附属の敷地権は区別して表示
-4. 基礎を残す建て直しも新築扱い
-5. 附属建物の増築は所有権証明が必要
-
-The 5 conclusion tags below must also be reproduced verbatim, in this
-order, with no duplication, no omission, and no paraphrasing:
-1. 変更登記で処理
-2. 共有者全員で申請
-3. 敷地権は区別表示
-4. 建物図面が必要
-5. 所有権証明情報が必要
-
 --- HEADER ---
 Title (large, bold, 2行):
 「附属建物」の
@@ -212,13 +191,19 @@ Conclusion tag (pastel beige, 5-15 Japanese characters, keyword phrase):
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
 
+Note on frequently miswritten kanji: This infographic's card text uses the
+kanji 建・物・登・記・権・所, which are often confused with visually
+similar Simplified Chinese characters. Render each strictly in standard
+Japanese (Jōyō) form — do not substitute any Simplified Chinese variant
+for 建, 物, 登, 記, 権, or 所.
+
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to 建・物・登・記・権・所. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, confirm there is no intro illustration or paragraph block
-between the header and the cards, and confirm that no card contains a
-full sentence of explanatory prose — every card's takeaway must read as a
-short heading + a short conclusion tag, at a glance.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

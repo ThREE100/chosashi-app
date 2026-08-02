@@ -113,27 +113,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-Special attention: the kanji 地・建・物・登・記・権・所 appear repeatedly
-in the card text below. Render every one of them in its standard Japanese
-(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
-
-This infographic has exactly 5 cards, one per card heading listed below.
-Reproduce all 5 headings exactly as written, in this order, with no
-duplication, no omission, and no paraphrasing:
-1. 別管轄の規約敷地分筆は証明不要
-2. 敷地権登記漏れの更正は原因日付も記載
-3. 名義の表示不一致は先に変更登記
-4. 分離処分の規約定めは証明が必要
-5. 合算で割合が出る合体は証明不要
-
-The 5 conclusion tags below must also be reproduced verbatim, in this
-order, with no duplication, no omission, and no paraphrasing:
-1. 規約証明は不要
-2. 原因・日付も記載
-3. 先に変更・更正登記
-4. 規約の証明が必要
-5. 割合証明は不要
-
 --- HEADER ---
 Title (large, bold, 2行):
 マンションと土地をつなぐ
@@ -215,13 +194,19 @@ Conclusion tag (pastel gray, 5-15 Japanese characters, keyword phrase):
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
 
+Note on frequently miswritten kanji: This infographic's card text uses the
+kanji 地・建・物・登・記・権・所, which are often confused with visually
+similar Simplified Chinese characters. Render each strictly in standard
+Japanese (Jōyō) form — do not substitute any Simplified Chinese variant
+for 地, 建, 物, 登, 記, 権, or 所.
+
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to 地・建・物・登・記・権・所. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, confirm there is no intro illustration or paragraph block
-between the header and the cards, and confirm that no card contains a
-full sentence of explanatory prose — every card's takeaway must read as a
-short heading + a short conclusion tag, at a glance.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```
