@@ -84,13 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-遺産分割をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+遺言による分割禁止・可分債権・保管中の金銭・認知後の相続人・分割協議の解除という遺産分割をめぐる5つの原則を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric family members around a table, inheritance documents, money bags, houses, land plots — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric family members
+around a table, inheritance documents, money bags, houses, land plots —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -99,61 +112,82 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 遺・産・割・債・権・認・続・協・議・解 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-遺産分割、
-できる・できないの境界線
+Title (large, bold, 1行):
+遺産分割、できる・できないの境界線
 
 Subtitle (smaller, centered, 1行):
-分割禁止・可分債権・保管金銭・認知・協議解除を整理(平成28年度 午後の部 第3問)
+平成28年度 午後の部 第3問－分割禁止・可分債権・保管金銭・認知・協議解除を整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric family gathered around a round table dividing inheritance items — a small house icon, a land plot icon, and a money bag icon — with a will document (遺言) resting beside the table.
-遺言による分割禁止、可分債権の扱い、保管中の金銭、認知後の相続人、そして分割協議の解除という5つの場面を通じて、遺産分割の原則と判例のルールを整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
 --- CARD 1 ---
-Heading (bold):
-遺言による分割禁止は、5年以内ならできる
-Illustration: An isometric will document (遺言) stamped 分割禁止 with a small 5-year hourglass attached, showing the inheritance table locked and untouched while the sand still flows.
-Caption (small text below):
-被相続人は遺言で、相続開始の時から5年を超えない期間、遺産の分割を禁止できる(民法908条)。
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+遺言による分割禁止は5年まで
+Illustration: An isometric will document (遺言) stamped 分割禁止 with a
+small 5-year hourglass attached, showing the inheritance table locked
+and untouched while the sand still flows.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+5年以内なら有効
+
 --- CARD 2 ---
-Heading (bold):
-お金の債権は、相続開始と同時に自動的に分かれる
-Illustration: An isometric single money bag labeled 可分債権 splitting instantly into several smaller bags each labeled with a fraction (相続分), the moment marked by a clock icon reading 相続開始.
-Caption (small text below):
-可分債権は相続開始の時に法律上当然分割され、各相続人が相続分に応じて権利を承継する。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+可分債権は相続開始で自動分割
+Illustration: An isometric single money bag labeled 可分債権 splitting
+instantly into several smaller bags each labeled with a fraction
+(相続分), the moment marked by a clock icon reading 相続開始.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+相続開始で自動分割
+
 --- CARD 3 ---
-Heading (bold):
-預かっている現金は、分割前に取り分だけもらえない
-Illustration: An isometric figure holding a locked cash box labeled 相続財産中の金銭, while another heir figure reaches out with an empty open hand and a small prohibition cross between them.
-Caption (small text below):
-相続開始時に存した金銭を保管する相続人に対し、他の相続人は分割前に相続分相当額を当然には請求できない。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+保管中の金銭は分割前に請求不可
+Illustration: An isometric figure holding a locked cash box labeled
+相続財産中の金銭, while another heir figure reaches out with an empty
+open hand and a small prohibition cross between them.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+分割前は請求不可
+
 --- CARD 4 ---
-Heading (bold):
-後から認知された子は、お金でしか請求できない
-Illustration: A child figure arriving late at an inheritance table that has already been divided (house and land icons already distributed), being handed only a money bag icon labeled 価額のみ instead of a house or land icon.
-Caption (small text below):
-認知により相続人となった者が分割を請求する時に既に分割協議が成立していれば、価額のみの支払請求権にとどまる(民法910条)。
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+認知後の相続人は価額のみ請求
+Illustration: A child figure arriving late at an inheritance table that
+has already been divided (house and land icons already distributed),
+being handed only a money bag icon labeled 価額のみ instead of a house
+or land icon.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+価額のみの請求権
+
 --- CARD 5 ---
-Heading (bold):
-分割協議は、約束を破られても解除できない
-Illustration: An isometric signed document (遺産分割協議書) with a handshake icon between two heirs, one side of the handshake broken/faded to represent a broken promise, but a large 解除不可 stamp sealed over the whole document.
-Caption (small text below):
-遺産分割協議で負った債務の不履行があっても、債務不履行を理由に協議を解除することはできない。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+分割協議は不履行でも解除不可
+Illustration: An isometric signed document (遺産分割協議書) with a
+handshake icon between two heirs, one side of the handshake
+broken/faded to represent a broken promise, but a large 解除不可 stamp
+sealed over the whole document.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+法定解除はできない
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成28年度 午後の部 第3問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

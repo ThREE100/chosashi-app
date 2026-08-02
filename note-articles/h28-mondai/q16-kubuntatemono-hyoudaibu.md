@@ -83,13 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-区分建物の表題部に関する登記の申請をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+区分建物の表題登記について「誰が申請義務を負うか」と「敷地権・処分制限にまつわる例外的な手続」という2つの軸に沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric apartment buildings under construction, builder figures, corporate merger icons, name tags — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric apartment buildings
+under construction, builder figures, corporate merger icons, registry
+desks, name tags, court/estate icons — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,61 +111,92 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 権・地・建・物・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-表題登記を申請できるのは、
-いったい誰?
+Title (large, bold, 1行):
+表題登記を申請できるのは誰？
 
 Subtitle (smaller, centered, 1行):
-原始取得者・相続・敷地権・処分制限を整理(平成28年度 午後の部 第16問)
+平成28年度 午後の部 第16問－原始取得者の原則と敷地権・処分制限の例外
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric apartment building(区分建物)under construction with a builder figure(原始取得者)holding a registration form, while a separate merged-company figure stands aside without holding any form.
-原始取得者の原則、相続人の添付情報、敷地権の更正登記、処分の制限の嘱託、登記名義人の表示不一致という5つの場面を通じて、区分建物の表題部に関する登記の申請を整理します。
---- CARD 1 ---
-Heading (bold):
-表題部所有者は、新築した会社のまま
-Illustration: An isometric 株式会社A(新築した会社, wearing a glowing 表題部所有者 badge)being absorbed into 株式会社B(吸収合併), but the 表題登記 application still lists A's name, not B's.
-Caption (small text below):
-区分建物の表題登記の申請義務は原始取得者(新築した会社)のみが負い、吸収合併した会社が自らを表題部所有者にすることはできない(不動産登記法47条)。
---- CARD 2 ---
-Heading (bold):
-相続人の証明書は、所有権証明ではなく別枠
-Illustration: An isometric heir figure(相続人)submitting a document explicitly labeled 一般承継証明情報, drawn in a distinct color and separate folder from a nearby 所有権を証する情報 folder.
-Caption (small text below):
-原始取得者の相続人が提供する相続証明情報は、所有権証明情報ではなく一般承継証明情報として提供する(不動産登記令7条1項4号)。
---- CARD 3 ---
-Heading (bold):
-敷地権の更正には、原因日付もセットで書く
-Illustration: An isometric registry form for 敷地権の表示の更正 showing fields for 敷地権の種類・割合 plus an additional glowing field labeled 原因及びその日付(錯誤 年月日敷地権), all filled in together.
-Caption (small text below):
-敷地権遺漏の更正登記では、敷地権の種類・割合に加えて登記原因及びその日付も申請情報の内容とする(不動産登記令別表15項)。
---- CARD 4 ---
-Heading (bold):
-処分制限の嘱託は、他の部屋の表題登記と別々でいい
-Illustration: An isometric apartment building with one unit under 処分の制限(差押え)getting its own individual 表題部 stamp from a registrar figure, while the other units remain untouched and unbundled from this process.
-Caption (small text below):
-表題登記がない区分建物への処分の制限の登記の嘱託は、他の区分建物の表題登記の嘱託と併せてすることを要しない(昭和58年11月10日民三第6400号)。
---- CARD 5 ---
-Heading (bold):
-名前の表示がずれてたら、まず直すのが先
-Illustration: Two isometric name-tag icons for the same person with mismatched addresses(敷地の登記名義人の表示 vs 専有部分の登記名義人の表示), with a 変更・更正登記 arrow pointing to a correction step placed before the main registration step.
-Caption (small text below):
-敷地権となる権利の登記名義人の表示と区分建物の登記名義人の表示が異なる場合、まず表示の変更・更正登記を要する(昭和58年質疑応答)。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+誰が申請義務を負うか
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題部所有者は原始取得者のまま
+Illustration: An isometric registry desk. A builder figure representing
+株式会社A(原始取得者)holds the 表題登記 application, glowing with a
+表題部所有者 badge. Beside him, a separate figure representing 株式会社B
+(吸収合併した会社)reaches for the same application, with a red cross mark
+over his hand showing he cannot become the 表題部所有者.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承継人は対象外
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続証明は一般承継証明として提出
+Illustration: An isometric heir figure(相続人)submitting a document
+explicitly labeled "一般承継証明情報" in a distinct color, placed in a
+separate folder from a nearby folder labeled "所有権を証する情報", showing
+the two are kept apart.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+所有権証明とは別枠
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+敷地権・処分制限の例外手続
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権の更正は原因日付も記載
+Illustration: An isometric registry form for 敷地権の表示の更正 showing
+filled-in fields for 敷地権の種類・割合 plus an additional glowing field
+labeled "原因及びその日付" filled in alongside them.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+原因日付も必須
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+処分制限の嘱託は他の部屋と別々でよい
+Illustration: An isometric apartment building with one unit under
+処分の制限(差押え)receiving its own individual 表題部 stamp from a
+registrar figure, while the other units remain untouched, with a red
+cross mark over an "一括" label connecting them.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+他の部屋とは別々
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+名義の表示不一致はまず訂正
+Illustration: Two isometric name-tag icons for the same person with
+mismatched addresses(敷地の登記名義人の表示 vs 専有部分の登記名義人の表示),
+with a document labeled "同一性証明情報" crossed out, and an arrow pointing
+instead to a 変更・更正登記 step placed before the main registration step.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+同一性証明では不可
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成28年度 午後の部 第16問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

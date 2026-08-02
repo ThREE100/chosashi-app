@@ -83,13 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-合体による登記等をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。R04年度第15問・R05年度第16問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
+「申請するのは誰・いつか」と「登記記録に何が反映されるか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。R04年度第15問・R05年度第16問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric two buildings physically merging, stopwatches, mortgage tags, lease tags, registry entries — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric two buildings
+physically merging, stopwatches, mortgage tags, lease tags, registry
+entries, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,61 +111,89 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 建・物・登・記・録・権・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-建物がくっついた日、
-起きること・起きないこと
+Title (large, bold, 1行):
+建物がくっついた日、起きること・起きないこと
 
 Subtitle (smaller, centered, 1行):
-申請義務・持分省略・単独申請・移記・主従建物を整理(平成28年度 午後の部 第15問)
+平成28年度 午後の部 第15問－申請義務と登記記録の扱いを整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Two isometric separate buildings physically merging into one structure(合体), with a stopwatch icon nearby reading 1か月以内.
-申請義務の起算点、抵当権の持分記載の省略、保存行為による単独申請、賃借権の移記、主たる建物と附属建物の合体という5つの場面を通じて、合体による登記等を整理します。
---- CARD 1 ---
-Heading (bold):
-所有権登記名義人になった日から、1か月以内
-Illustration: An isometric figure becoming the newly registered owner(登記名義人となった日), with a calendar counting down 1か月 toward submitting a 合体による登記等 application.
-Caption (small text below):
-合体前に新たに所有権の登記名義人となった者は、その日から1か月以内に合体による登記等を申請しなければならない(不動産登記法49条4項)。
---- CARD 2 ---
-Heading (bold):
-抵当権の内容がそっくり同じなら、持分は省略できる
-Illustration: Two isometric merging buildings each carrying an identical 抵当権 tag(same date, number, and creditor), with a 持分の記載 box crossed out as unnecessary beside them.
-Caption (small text below):
-存続する抵当権の登記の目的・受付年月日及び受付番号・原因及びその日付・登記名義人が同一なら、持分の記載を省略できる。
---- CARD 3 ---
-Heading (bold):
-片方だけの判断でも、合体登記は申請できる
-Illustration: Two isometric building-owner figures(A: 表題登記のない甲建物の所有者、B: 乙建物の表題部所有者), with only A actively submitting the application stamped 保存行為 while B stands passively beside.
-Caption (small text below):
-合体による登記等は報告的登記であり、保存行為として共有者・相続人の1人からでも単独で申請できる(民法252条5項)。
---- CARD 4 ---
-Heading (bold):
-賃借権は、持分の上には乗らない
-Illustration: An isometric merged building's registry record showing an 抵当権 tag successfully sliding onto a持分-shaped slot, while a separate 賃借権 tag is shown unable to fit onto the same slot, crossed out and labeled 移記されない.
-Caption (small text below):
-賃借権は持分上に登記できる権利ではないため、合体後の建物へ当然には移記されない(不動産登記規則120条4項)。
---- CARD 5 ---
-Heading (bold):
-主と附属の建物がくっついても、合体登記はいらない
-Illustration: An isometric main building(主たる建物)and its附属建物 merging within a single dotted outline representing one shared registry record, with a 合体による登記等 stamp crossed out and replaced by a glowing 表題部の変更の登記 stamp.
-Caption (small text below):
-主たる建物とその附属建物が合体しても新たな建物は生じないため、合体による登記等ではなく表題部の変更の登記で処理する(準則95条)。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請するのは誰・いつか
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記名義人になった日から1か月以内
+Illustration: An isometric figure becoming the newly registered owner
+("登記名義人となった日"), with a calendar counting down "1か月" toward
+submitting a "合体による登記等" application.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1か月以内に申請
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+共有者の1人でも単独申請できる
+Illustration: Two isometric building-owner figures (A: "表題登記のない甲
+建物の所有者"、B: "乙建物の表題部所有者"), with only A actively submitting
+the application stamped "保存行為" while B stands passively beside.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+単独申請できる
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+登記記録に何が反映されるか
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+抵当権の内容が同一なら持分省略可
+Illustration: Two isometric merging buildings each carrying an identical
+"抵当権" tag (same date, number, and creditor), with a "持分の記載" box
+crossed out as unnecessary beside them.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+持分の記載省略可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+賃借権は合体後の建物へ移記されない
+Illustration: An isometric merged building's registry record showing an
+"抵当権" tag successfully sliding onto a持分-shaped slot, while a separate
+"賃借権" tag is shown unable to fit onto the same slot, crossed out and
+labeled "移記されない".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+移記されない
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+主と附属建物の合体に合体登記は不要
+Illustration: An isometric main building ("主たる建物") and its
+"附属建物" merging within a single dotted outline representing one
+shared registry record, with a "合体による登記等" stamp crossed out and
+replaced by a glowing "表題部の変更の登記" stamp.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+合体登記等は不要
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
 平成28年度 午後の部 第15問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

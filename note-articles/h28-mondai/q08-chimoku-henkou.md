@@ -83,13 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-地目の変更の登記をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。R02年度第7問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
+地目の変更の登記について「申請義務者は誰か」と「原因日付・申請手続をどう書くか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。R02年度第7問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric land plots changing appearance, farmland turning into residential land, calendars, apartment buildings — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots changing
+appearance, farmland turning into residential land, calendars, apartment
+buildings — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,51 +111,84 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 権・地・登・記・許・現, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
 地目変更登記、
-申請するのは誰?
+申請するのは誰？
 
 Subtitle (smaller, centered, 1行):
 申請義務者・原因日付・敷地権のルールを整理(平成28年度 午後の部 第8問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric land plot changing from farmland (畑) to residential land (宅地) with a bulldozer icon reshaping it, and a figure holding a registration application form standing beside it.
-所有権移転前の申請義務者、地目が異なる土地の合筆、敷地権付き土地の申請人、農地転用の原因日付、数次の地目変更という5つの場面を通じて、地目変更登記の手続を整理します。
---- CARD 1 ---
-Heading (bold):
-移転登記の前は、まだ売主が申請義務者
-Illustration: An isometric land plot with two figures, A(売主, holding a glowing 申請義務 badge) and B(買主, no badge yet), connected by a dotted ownership-transfer arrow that has not yet completed.
-Caption (small text below):
-所有権移転登記が完了するまでは、なお登記名義人Aが地目変更登記の申請義務を負う(不動産登記法37条1項)。
---- CARD 2 ---
-Heading (bold):
-地目が違う土地同士でも、まとめて申請できる
-Illustration: Two isometric land plots with different 地目 tags (畑 and 宅地) merging together, with a single application form icon showing both 地目変更 and 合筆 checkboxes checked at once.
-Caption (small text below):
-地目が異なる甲乙土地でも、地目の変更の登記と合筆の登記は一の申請情報でできる(不動産登記規則35条7号)。
---- CARD 3 ---
-Heading (bold):
-敷地権付き土地の申請人は、区分所有者じゃない
-Illustration: An isometric apartment building (区分建物) with resident figures crossed out as 申請人ではない, while the underlying land plot owner figure (地上権設定者) below the building is marked with a glowing 申請人 badge.
-Caption (small text below):
-敷地権が地上権である場合、地目変更登記の申請人は土地の所有権登記名義人であり、区分建物の所有者ではない。
---- CARD 4 ---
-Heading (bold):
-原因日付は、許可日じゃなくて現況が変わった日
-Illustration: Two isometric calendar icons side by side — one labeled 農地法許可日 crossed out with a prohibition mark, and one labeled 現況変更日 glowing with a checkmark.
-Caption (small text below):
-地目を畑から宅地に変更する場合の原因日付は、農地法の許可日ではなく現況の変更が生じた日である(登記研究44号29頁)。
---- CARD 5 ---
-Heading (bold):
-何回地目が変わっても、まとめて今の地目にできる
-Illustration: An isometric sequence of land plot icons showing 田 → 雑種地 → 宅地 with the middle 雑種地 step crossed out, replaced by a single direct arrow going straight from 田 to 宅地.
-Caption (small text below):
-数次の地目変更があっても未登記であれば、登記記録上の地目から直接現在の地目へ変更登記できる(登記研究429号120頁)。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請義務者は誰か
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+移転登記前は売主が申請義務者
+Illustration: An isometric land plot with two figures, A(売主, holding a
+glowing 申請義務 badge) and B(買主, no badge yet), connected by a dotted
+ownership-transfer arrow that has not yet completed.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+売主に申請義務
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+敷地権土地は地上権設定者が申請
+Illustration: An isometric apartment building (区分建物) with resident
+figures crossed out as 申請人ではない, while the underlying land plot
+owner figure (地上権設定者) below the building is marked with a glowing
+申請人 badge.
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+区分所有者ではない
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+原因日付・申請手続をどう書くか
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地目が違う土地でも一括申請可
+Illustration: Two isometric land plots with different 地目 tags (畑 and
+宅地) merging together, with a single application form icon showing both
+地目変更 and 合筆 checkboxes checked at once.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+一の申請情報でOK
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+原因日付は現況が変わった日
+Illustration: Two isometric calendar icons side by side — one labeled
+農地法許可日 crossed out with a prohibition mark, and one labeled
+現況変更日 glowing with a checkmark.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+許可日ではない
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+数次の地目変更も直接今の地目へ
+Illustration: An isometric sequence of land plot icons showing 田 →
+雑種地 → 宅地 with the middle 雑種地 step crossed out, replaced by a
+single direct arrow going straight from 田 to 宅地.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+経由登記は不要
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -150,9 +196,17 @@ Small credit text in the corner (optional, keep minimal):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+attention to 権・地・登・記・許・現. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly (Column A: cards 1-2
+in green, Column B: cards 3-5 in blue, numbers continuous, not restarted
+in column B), with no duplicated or missing cards, confirm there is no
+intro illustration or paragraph block between the header and the cards,
+and confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance. Confirm the 5 card headings are exactly: (1) 移転登記前
+は売主が申請義務者／(2) 敷地権土地は地上権設定者が申請／(3) 地目が違う
+土地でも一括申請可／(4) 原因日付は現況が変わった日／(5) 数次の地目変更
+も直接今の地目へ — do not merge, omit, duplicate, or reword any of these
+five headings.
 ```
