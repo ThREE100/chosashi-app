@@ -79,3 +79,123 @@
 - 相続放棄に、他の相続人の許可はいらないって知ってた？
 - 限定承認の管理、「自分の財産と同じ注意」で足りるんです
 - 放棄した人の持分、仮差押えしても無効なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「承認・放棄という意思表示そのもののルール」（ア・ウ・オ、うちア・ウは誤りの肢を正しいルールに直したもの＝列A・緑）と、「限定承認をめぐるルール」（イ・エ、うちエは誤りの肢を正しいルールに直したもの＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric family-court
+building, official stamps, inheritance document folders, a balance
+scale, treasure/asset boxes, hourglass/calendar for the deadline, red X
+marks and green check marks, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 相・続・承・認・放・棄・限・定・撤・回・熟・慮・差・押・善
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+相続の承認・放棄、撤回できる？一人でできる？
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第3問－承認・放棄・限定承認の5つのルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+承認・放棄という意思表示のルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+一度した承認は撤回できない
+Illustration: 相続人Aが「承認」の緑スタンプを書類に押している。1か月後、Aの頭上に「借金発覚」という吹き出しが浮かび、Aが書類を破ろうとする手が描かれる。横に「3か月の熟慮期間」を示す砂時計アイコン（まだ残っている）と、Aの手を止める赤い✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+熟慮期間中でも撤回不可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続放棄に他の相続人の承諾不要
+Illustration: 相続人Aが家庭裁判所の建物アイコンへ一人で「相続放棄申述書」を提出している。隣に立つ相続人Bへ向かって伸びる「承諾ください」の吹き出しに赤い✕マーク、Aと裁判所の間の矢印だけが緑の✓マークで有効。
+Conclusion tag (green, 5-15 characters):
+単独の申述で足りる
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+放棄者の持分への仮差押えは無効
+Illustration: 土地アイコンの上にA（点線・半透明の輪郭で「最初から相続人でなかった」ことを表現）とB（実線、相続人）が並ぶ。Aの債権者が「代位保存登記」から「仮差押え」の赤スタンプをAの点線部分に押そうとしているが、持分自体が存在しないため大きな✕マークが重なる。
+Conclusion tag (green, 5-15 characters):
+持分なし＝差押え無効
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+限定承認をめぐるルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+誰か一人が単純承認したら限定承認不可
+Illustration: 天秤アイコン。片方の皿に相続人Aの「単純承認」を示す重り、もう片方の皿に相続人Bの「限定承認したい」という吹き出し。天秤がAの単純承認の重みで傾き、「全員共同でなければ不可」という看板が現れ、Bの吹き出しには赤い✕マーク。
+Conclusion tag (blue, 5-15 characters):
+全員共同が原則
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+限定承認者の管理は自己の財産と同一の注意
+Illustration: 相続人Aが相続財産の入った箱を、自分の私物が入った箱と同じ棚に並べ、同じ丁寧さで扱っているイラスト。棚の上に「善良な管理者の注意」というラベルと赤い✕マーク、「自己の財産と同一の注意」というラベルと緑の✓マーク。
+Conclusion tag (blue, 5-15 characters):
+善管注意までは不要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度　午後の部　第3問（相続の承認及び放棄）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 一度した承認は撤回できない
+2. 相続放棄に他の相続人の承諾不要
+3. 放棄者の持分への仮差押えは無効
+4. 誰か一人が単純承認したら限定承認不可
+5. 限定承認者の管理は自己の財産と同一の注意
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

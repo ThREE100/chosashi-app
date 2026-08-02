@@ -79,3 +79,138 @@
 - 共有者の死亡は「変更登記」じゃないって知ってた？
 - 更正で新登場する人の住所証明、必要なんです
 - 有限会社から株式会社、名称変更登記できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+表題部所有者に関する5肢を「変更の登記」に関するルール（ア・ウ・オ）と「更正の登記」に関するルール（イ・エ）の2系統に分け、誤りの肢は正しいルールに直した上で、通し番号1〜5の5枚のカードとして一枚に俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry desks,
+address signboards, company nameplates, family/inheritance icons, land
+plot diagrams, official stamps, torn paper labels, etc. — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 住・所・変・更・登・記・共・有・者・保・存・移・転・株・式・名・称・持・分・正・承・諾・単・独・申・請・証・明
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表題部所有者、直し方を間違えていませんか？
+
+Subtitle (smaller, centered, 1行):
+平成29年度 午後の部 第11問－変更の登記と更正の登記の使い分け
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+変更の登記に関するルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+住所は経由なしで一気に変更
+Illustration: An isometric address signboard for person "A" showing a
+crossed-out dotted path "X市→Y市→Z市" (each intermediate step marked with
+a red X), replaced by a single bold arrow straight from the original
+address to the current address "Z市". A registry desk stamps a single
+document labeled "住所の変更の登記".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一気に現住所へ
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+共有者の死亡は「変更」でなく保存＋移転
+Illustration: An isometric land plot labeled "表題部所有者 A・B". A small
+tombstone icon marks B's death, with an arrow pointing to A alone. Two
+sequential document stamps are shown in order: first "所有権の保存の登記",
+then "相続による所有権移転登記" from B to A. A third document labeled
+"表題部所有者の変更の登記" sits off to the side with a red X mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+保存→移転が正解
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+有限会社→株式会社でも名称変更登記
+Illustration: An isometric company signboard changing from "○○有限会社" to
+"○○株式会社" via a small transformation arrow, with the same building icon
+underneath both (showing it is the same legal entity). A registry desk
+stamps a document labeled "表題部所有者の名称の変更の登記" with a green
+checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+名称変更 申請できる
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+更正の登記に関するルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+持分の更正、承諾があれば単独申請可
+Illustration: An isometric registry desk with two co-owners "A" and "B"
+standing side by side. B hands A a document labeled "Bの承諾を証する情報".
+A alone submits an application labeled "持分の更正の登記" at the counter,
+with a green checkmark stamp — no second signature slot for B is shown.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+承諾があれば単独可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+新登場の表題部所有者には住所証明が必要
+Illustration: An isometric registry record showing "表題部所有者：B" being
+corrected to "表題部所有者：A（持分2分の1）・B（持分2分の1）". Next to the
+newly added "A" entry, a small document icon labeled "住所を証する情報" is
+attached with a green checkmark, clearly linked only to A's entry.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+新登場者の住所証明
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第11問（表題部所有者）
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 住所は経由なしで一気に変更
+2. 共有者の死亡は「変更」でなく保存＋移転
+3. 有限会社→株式会社でも名称変更登記
+4. 持分の更正、承諾があれば単独申請可
+5. 新登場の表題部所有者には住所証明が必要
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```
