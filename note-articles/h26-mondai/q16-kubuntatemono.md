@@ -78,3 +78,123 @@
 - 種類が変わっても、起算日は違うんです
 - 規約敷地、実は複数のマンションで共有できるんです
 - 承諾があっても、抵当権は消えないことがあるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+区分建物に関する4つの異なる論点（敷地権の登記原因日付、附属建物の敷地権記載、種類変更登記の申請義務の起算点、規約敷地の重複設定、抵当権消滅登記の可否）を、単一列・5枚のポスター型カードで、通し番号バッジ・短い見出し・図解・短い結論タグだけで俯瞰する構成。導入イラストや導入文のブロックは置かない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment buildings,
+registry desks, application documents, calendar/date icons, mortgage
+stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・記・証・変・複 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+規約敷地は複数のマンションで共有できるんです
+
+Subtitle (smaller, centered, 1行):
+平成26年度　午後の部　第16問－区分建物に関する論点の総まとめ
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権の登記原因日は取得登記日
+Illustration: An isometric apartment building tower with a land plot
+beneath it labeled "敷地". A person (the room owner, Aさん) stands at a
+registry desk holding a document labeled "所有権取得の登記". A calendar
+icon shows a highlighted date, with an arrow connecting that same date to
+the "敷地権の表示・登記原因日付" field on the application form, showing
+they match.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記原因日＝取得登記日
+
+--- CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物の敷地権も区別して記載
+Illustration: An isometric main building tower labeled "主である建物"
+next to a smaller attached building labeled "附属建物", both part of the
+same 一棟の建物. Each building has its own small percentage tag icon
+labeled "敷地権", drawn in two clearly separate boxes on the application
+form rather than merged into one, with a small "区別" label between them.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+敷地権は区別して記載
+
+--- CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+種類変更登記の起算点は変更日
+Illustration: An isometric building icon changing its label from "居宅"
+to "店舗" with a calendar showing "種類変更日" as the start of a 1-month
+countdown clock/timer icon. A separate person icon labeled "後から所有権
+登記をした者" has their own registration-date calendar crossed out with a
+red X, showing it is NOT the starting point.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+起算点は変更日
+
+--- CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約敷地は複数の建物で重複設定可
+Illustration: One isometric land plot (a shared parking-lot-like area)
+connected by two dashed lines to two separate apartment building icons,
+labeled "マンションA" and "マンションB", both simultaneously labeled
+"規約敷地" with a checkmark, showing the same land can be the regulated
+site for both buildings at once.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+重複設定 できる
+
+--- CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+承諾があっても抵当権消滅登記はなし
+Illustration: An isometric apartment room icon with a mortgage stamp icon
+labeled "抵当権" still attached. A document labeled "抵当権消滅を承諾した
+ことを証する情報" is being submitted at the registry desk, but a separate
+stamp labeled "抵当権が消滅した旨の登記" has a red cross mark over it,
+showing it is not recorded even with the consent document.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+抵当権抹消の登記はされない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```

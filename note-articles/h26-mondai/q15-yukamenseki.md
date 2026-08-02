@@ -78,3 +78,128 @@
 - 屋上の機械室、床面積に入らないんです
 - 屋根が開いてても、床面積に入るんです
 - ベランダは、どの建物でも床面積に入らないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の床面積の定め方について「壁芯か内法か（計算方法）」と「床面積に算入するかしないか（対象範囲）」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric house/condominium
+cross-sections, dotted measurement lines, small rooftop machine-room
+towers, stadium roofs, open balconies, red cross marks, green checkmarks,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 建・物・棟・専・内・算・屋・根 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の床面積、壁芯か内法かで測り方が変わるんです
+
+Subtitle (smaller, centered, 1行):
+平成26年度　午後の部　第15問－計算方法の使い分けと算入・不算入の基準
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+壁芯か内法か（計算方法）
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物でない木造建物は壁芯で計算
+Illustration: An isometric cross-section of a one-story wooden house.
+A dotted measurement line runs along the center line of the columns
+(柱の中心線), highlighted in green as the basis for 床面積, while the
+inner wall surface line (内法) is drawn faintly and unused.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+柱の中心線が基準
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+一棟全体の床面積も壁芯で計算する
+Illustration: An isometric cross-section of a condominium floor. A small
+inner frame around one room (専有部分) is measured with an "内法" dotted
+line, while the large outer frame of the whole building (一棟の建物) is
+measured with a separate "壁芯" dotted line along the outer wall centers.
+An arrow trying to apply 内法 to the whole building has a red cross mark
+over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一棟は壁芯・専有部は内法
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+算入するかしないか（対象範囲）
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+機械室だけの塔屋は床面積に入らない
+Illustration: An isometric condominium rooftop with a small tower (塔屋)
+containing only an elevator machine-room icon and a stairwell icon,
+labeled "天井高さ1.8m". The tower is drawn clearly outside a dashed
+frame representing the building's total床面積集計, with a red cross mark
+over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+床面積に不算入
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+屋根が開閉式でも床面積に算入する
+Illustration: An isometric stadium with a fixed-roof spectator stand
+(観覧席、固定式屋根) and an open-roof playing field (競技場、開閉式屋根).
+Both areas sit inside the dashed 床面積集計 frame with green checkmarks,
+regardless of the roof being open or closed.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+両方とも算入
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+周壁のないベランダは床面積に入らない
+Illustration: A one-story house and a condominium unit side by side,
+each with an open balcony/veranda (周壁のないベランダ) with no
+surrounding walls, drawn with a dotted outline. Both balconies sit
+outside the dashed床面積集計 frame with a red cross mark over each.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+どちらも不算入
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

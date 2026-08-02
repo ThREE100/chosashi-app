@@ -78,3 +78,123 @@
 - 印鑑証明書が、持分証明書の代わりになるんです
 - 附属建物の合体、分割登記が必須とは限らないんです
 - 引っ越していても、住所変更登記をしなくていいんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+合体による登記等をめぐる5つの異なる実務論点（賃借権の帰趨、登録免許税の計算、持分証明情報の兼用、附属建物との合体、前提の住所変更登記の省略）を、単一列・5枚のポスター型カードで、通し番号バッジ・短い見出し・図解・短い結論タグだけで俯瞰する構成。導入イラストや導入文のブロックは置かない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings merging
+into one, registry desks, application documents, calculator/receipt
+icons, ID stamp/inkan icons, moving-house icons, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・記・証・変・額 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+印鑑証明書が持分証明書を兼ねるんです
+
+Subtitle (smaller, centered, 1行):
+平成26年度　午後の部　第17問－合体による登記等の手続を整理する
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+賃借権の存続は記載不要
+Illustration: An isometric 甲building labeled "賃借権あり"（with a small
+tenant person icon）and an isometric 乙building labeled "所有権のみ",
+merging together via a large arrow into one 合体後の建物. An application
+checklist panel shows an entry "担保権の帰趨" checked as required, while
+a separate entry "賃借権の存続" has a red X over it, showing it is not a
+required field.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+賃借権欄は不要
+
+--- CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+税額は9万円ではなく7万2千円
+Illustration: A calculator/receipt icon displaying the calculation
+"6,000万円 ×10分の3 ×1,000分の4＝7万2,000円". A large "9万円" label is
+crossed out with a red X, while "7万2,000円" sits inside a green checked
+box.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+税額は7万2,000円
+
+--- CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+印鑑証明書が持分証明を兼ねる
+Illustration: Two isometric people, Aさん and Bさん, each holding a
+document labeled "印鑑証明書", both submitting one shared document
+labeled "合体による登記等 申請書（持分割合を記載）" at the registry desk.
+An arrow connects the 印鑑証明書 directly to a label "持分証明情報" with a
+checkmark, while a separate document icon labeled "持分証明書" is crossed
+out as unnecessary.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+別の持分証明書は不要
+
+--- CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+分割登記との一括申請は必須でない
+Illustration: 甲building with a small attached 附属建物（storehouse
+icon）merging with 乙building. A bundled box labeled "一の申請情報（分割
+の登記＋合体による登記等）" has a red X placed over a "必須" tag, showing
+this one-申請情報 bundling is not always mandatory.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一括申請 必須ではない
+
+--- CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+住所変更登記は省略できる
+Illustration: A person, Aさん, beside a moving-truck icon representing a
+change of address, holding a document labeled "住所変更を証する情報".
+Aさん walks directly to the "合体による登記等" application desk with a
+checkmark, bypassing a separate booth labeled "住所変更の登記" which is
+shown grayed out with a dashed arrow skipping over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+前提登記は省略可
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```

@@ -78,3 +78,130 @@
 - 相続登記がまだでも、相続人は申請できるんです
 - 一部を買った人でも、自分で申請できるんです
 - 申請人が亡くなっても、相続人が引き継げるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+筆界特定制度について「制度の基本ルール」と「申請人になれるのは誰か」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric adjacent land plots
+with dashed boundary lines, courthouse icons, registry desks, family/
+inheritance icons, procedural timeline/conveyor icons, etc. — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 継・訴・訟・続・権 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+相続登記が済んでいなくても、筆界特定は申請できるんです
+
+Subtitle (smaller, centered, 1行):
+平成26年度　午後の部　第19問－筆界特定制度の申請人の範囲
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+制度の基本ルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+位置か、範囲かを特定する
+Illustration: Two adjacent isometric land plots with a dashed boundary
+line between them and a magnifying glass icon inspecting the line. Two
+outcome bubbles branch off from it: one showing a single solid line
+labeled "位置" with a checkmark, another showing a shaded band/zone
+labeled "範囲" with a checkmark, representing the two possible outcomes
+of 筆界特定.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+位置または範囲を特定
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+訴訟中でも申請は却下されない
+Illustration: A courthouse icon labeled "筆界確定訴訟" with a clock
+showing "判決確定前". Beside it, a separate registry desk labeled "筆界
+特定の申請" still accepts a submitted document with a green checkmark
+stamp, showing no rejection stamp is applied.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+却下されない
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+申請人になれるのは誰か
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続登記なしでも相続人が申請可
+Illustration: 甲土地の land plot with a faded ghost-outline person icon
+labeled "被相続人" and a solid person icon labeled "相続人B" standing
+beside it. B directly submits a "筆界特定の申請書" at the registry desk
+with a checkmark, while a separate box labeled "相続登記" is crossed out
+with a red X as an unnecessary prerequisite.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+相続登記 不要
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+一部の取得者も自分で申請可
+Illustration: 甲土地の land plot divided by a dashed line into a small
+slice labeled "Aが取得した持分" and the remainder labeled "所有権の登記
+名義人であるB". Person A submits the "筆界特定の申請書" directly at the
+registry desk with a checkmark, while an arrow labeled "Bへの代位" is
+crossed out with a red X.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+代位せず直接申請可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+死亡後も相続人が手続を続行
+Illustration: A procedural flow icon（a document moving along a timeline/
+conveyor）showing a fading ghost-outline person icon labeled "申請人"
+transitioning into a solid person icon labeled "相続人", both holding the
+same 筆界特定の手続書類, with an arrow showing the flow continues
+unbroken rather than stopping.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+相続人が地位を承継
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

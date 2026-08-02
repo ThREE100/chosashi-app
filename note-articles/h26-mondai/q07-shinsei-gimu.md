@@ -78,3 +78,129 @@
 - 台帳のない土地、買った人にも申請義務があるんです
 - 引っ越しても、表題部所有者は届出不要なんです
 - 駐車場が家になったら、地目変更が必要なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+表示に関する登記のうち申請義務がない2肢と、申請義務がある・申請義務者が問われる3肢という2つのグループに沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, buildings,
+registry desks, application documents, clock/deadline icons, moving
+trucks, rubble piles, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・記・権・務・変・滅 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+1か月以内が義務なのはどの登記？
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第7問－表示登記の申請義務の有無を見分ける
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請義務がない登記
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+共用部分の登記に申請義務はない
+Illustration: An isometric apartment building with a small room labeled
+"集会室" highlighted as the shared area. A person holds a document
+labeled "共用部分である旨の登記" at a registry desk, with a small clock
+icon showing "1か月" crossed out by a red cross mark, and a "任意" tag
+beside the document.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請義務なし
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題部所有者の住所変更、義務なし
+Illustration: An isometric person moving house with a moving truck, a
+signpost showing an arrow from an old address to a new address labeled
+"住所変更". A document labeled "表題部所有者の住所変更登記" sits on a
+registry desk with a clock icon showing "1か月" crossed out by a red
+cross mark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+任意の登記
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+申請義務がある登記・申請義務者
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+滅失登記の義務者は建物の所有者
+Illustration: An isometric land plot labeled "A（土地所有者）" with a
+collapsed pile of rubble on it labeled "取り壊された建物". Person
+"B（建物の所有権登記名義人）" stands beside the rubble holding a document
+labeled "滅失の登記" with a clock icon showing "1か月以内". Person A
+stands apart with a red cross mark over their hand reaching for the same
+document, showing the duty is not theirs.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+建物所有者に義務
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+未登記地の取得者にも表題登記の義務
+Illustration: An isometric land plot labeled "表題登記なし" being handed
+from A to B via a money icon (売買). B holds an application document
+labeled "表題登記" with a clock icon showing "1か月以内" beside a green
+checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+取得者にも義務
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+実質変更＋取得で地目変更登記の義務
+Illustration: An isometric land plot showing a parking lot icon (labeled
+雑種地) transitioning into a house icon (labeled 宅地) via an arrow.
+Person B first holds a "所有権" stamp, then a document labeled
+"地目変更登記" with a clock icon showing "1か月以内" starting from the
+ownership registration date.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+取得日から1か月
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

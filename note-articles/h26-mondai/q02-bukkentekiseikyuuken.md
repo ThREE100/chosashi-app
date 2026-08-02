@@ -78,3 +78,128 @@
 - 過失ゼロでも、妨害排除請求はされちゃうんです
 - 占有の訴えにも、所有権で反撃できるんです
 - 又貸ししてる人にも、返還請求できるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+物権的請求権について、「請求権そのものの性質（時効・主観的要件）」と「誰を相手に行使できるか（対抗要件・手続・相手方の範囲）」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, fences,
+storage sheds, courthouse icons, document stamps, arrows showing requests
+between people, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・請・求・占・有・妨・害・排・除・訴・貸 — these must be rendered
+in their standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+物権的請求権、時効でも過失でも消えないんです
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第2問－請求権の性質と行使できる相手
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+請求権そのものの性質
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有権がある限り時効で消えない
+Illustration: An isometric land plot with a storage shed placed on the
+corner by a neighbor character B. A timeline arrow beneath shows "10年"
+with a red X crossing out a clock icon, meaning time does not run out.
+Owner character A stands pointing at the shed with an arrow labeled
+"撤去請求" that continues indefinitely along the timeline.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+時効消滅なし
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+故意・過失がなくても妨害排除できる
+Illustration: An isometric fence mistakenly built by neighbor B on owner
+A's land, with a small speech-bubble icon "過失なし" near B. A red X is
+placed over a sign reading "故意・過失が必要". Owner A points at the
+fence with a checkmarked arrow labeled "妨害排除請求".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+主観要件は不要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+行使できる相手・場面
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記がなくても不法占有者に勝てる
+Illustration: Owner A holds an unregistered land-purchase document
+labeled "未登記". A red X is stamped over a sign reading "登記が必要".
+An arrow labeled "返還請求" points from A to unlawful occupant B, who
+is standing on the land with no legal basis, shown with a small "無権原"
+label.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+対抗要件不要
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+占有の訴えにも所有権で反訴できる
+Illustration: An isometric courthouse icon. Occupant B submits a document
+labeled "占有の訴え". Beside it, owner A submits a separate document
+labeled "所有権に基づく反訴", both documents shown on the courthouse
+desk with green checkmarks, indicating both proceedings are valid side
+by side.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+別訴訟で反撃
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+賃貸人にも返還請求できる
+Illustration: An isometric building. Person B (無権原の賃貸人) has
+rented out the building to person C (賃借人), who is actually living
+there. Two arrows labeled "返還請求" point from owner A to both B and C,
+each with a green checkmark, showing both are valid targets of the
+request.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+賃貸人も対象
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

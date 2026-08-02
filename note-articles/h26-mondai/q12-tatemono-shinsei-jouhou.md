@@ -78,3 +78,128 @@
 - 接続してれば、分割と合併を一度にできるんです
 - 管轄が違う土地でも、番号だけでいいことがあるんです
 - 名称があっても、構造・床面積は省略できないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の登記の申請情報について「複数の登記手続を一括してよいか」と「添付情報・記載事項をどこまで省略できるか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry desks,
+stacked application documents, paperclip/attachment icons, connected
+building blocks, unit mailbox rows, registry-office buildings, red cross
+marks, green checkmarks, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・地・番・建・物・登・記・所・請・報 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の登記、申請情報はどこまで省略できる？
+
+Subtitle (smaller, centered, 1行):
+平成26年度　午後の部　第12問－一括申請の可否と添付・記載情報の要否
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+一括して申請できるか
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物全部でも各別の申請書でOK
+Illustration: An isometric apartment building with ten unit icons in a
+grid, each unit holding its own small application-document icon
+("各別の申請情報"). Arrows from all ten documents converge into one
+registry-desk basket labeled "同時提出", with a green checkmark above the
+basket.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+個別書類でも同時提出でOK
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+接続していれば分割・合併を一括申請
+Illustration: Two isometric attached-building blocks, one labeled "甲建物
+の附属建物", the other labeled "乙建物の附属建物", joined together along a
+shared wall with a bridge icon showing "接続". A single application
+document above them is labeled "分割の登記＋合併の登記" with a green
+checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一の申請情報でOK
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+添付・記載情報は省略できるか
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+共通の添付書類は他の申請に一言添える
+Illustration: Three isometric application-document stacks side by side
+at a registry desk. Only the first document has a paperclip icon
+attached, labeled "住所証明情報". The second and third documents each show
+a small note tag reading "①の添付情報を援用" instead of a duplicate
+paperclip.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+他の申請にも記載
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+管轄外の土地は番号＋登記所表示でOK
+Illustration: Two isometric registry-office buildings labeled "A登記所"
+and "B登記所" connected by a dashed line crossing a prefecture border. A
+document panel shows tags "不動産番号" and "B登記所の表示" checked green,
+while tags "所在" "地目" "地積" have red cross marks over them.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所在・地目・地積は省略可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+名称があっても構造・床面積は必須
+Illustration: An isometric building with a nameplate reading
+"〇〇マンション" and a green checkmark beside it. Next to the nameplate, two
+small document icons labeled "構造" and "床面積" are shown with a red cross
+mark over an attempt to remove them, indicating they cannot be omitted.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+構造・床面積は省略不可
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

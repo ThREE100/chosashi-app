@@ -78,3 +78,130 @@
 - 地役権図面、オンラインで請求できるんです
 - 規約の証明書、利害関係がなくても見られるんです
 - 登記事項の概要証明、実はどこでも取れないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記事項の証明・閲覧について「利害関係なく請求できるか」と「請求の方法・請求先」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry counters,
+archive shelves, closed-map folders, apartment building towers,
+cloud/server icons, laptops, maps with city pins, etc. — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 証・記・権・録・閉・棟・轄 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地役権図面はオンラインで請求できるんです
+
+Subtitle (smaller, centered, 1行):
+平成26年度　午後の部　第18問－登記事項の証明・閲覧のルールを整理する
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+利害関係なく請求できるか
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+閉鎖図面も誰でも写しを請求可
+Illustration: An archived, closed 公図（地図に準ずる図面）folder labeled
+"閉鎖" sits on a registry archive shelf. A random person icon（no
+relationship label）stands at the counter and freely requests a copy; the
+registry clerk hands over the copy with a checkmark, while a tag reading
+"利害関係が必要" is crossed out with a red X.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+利害関係 不要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+マンション全戸まとめて証明書
+Illustration: An isometric apartment building tower showing several
+stacked 区分建物 units, all outlined in green. A person（管理組合の担当
+者）submits a request labeled "現に効力を有する事項の証明" at the
+registry counter and receives one bundled certificate covering every unit
+in the 一棟の建物 at once.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一棟まとめて証明可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約の証明書も誰でも請求可
+Illustration: A document icon labeled "敷地権に関する規約を設定したこと
+を証する情報" stored in the registry archive. A random person icon（no
+relationship label）requests a copy at the counter and receives it with a
+checkmark, while a tag reading "利害関係が必要" is crossed out with a red
+X.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+利害関係 不要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+請求の方法・請求先
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地役権図面はオンライン請求可
+Illustration: A cloud/server icon labeled "電磁的記録の地役権図面" is
+connected by a network line to a laptop computer icon, which sends a
+request labeled "交付の請求" toward a registry-office building icon. A
+checkmark shows the request completing without visiting the counter in
+person.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+オンライン請求 可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+概要証明書は所在地の登記所限定
+Illustration: A simplified map showing two cities, Tokyo and Osaka. The
+Tokyo registry office, labeled "所在地を管轄する登記所", is highlighted
+with a checkmark accepting a request for "登記事項概要証明書". The Osaka
+registry office icon shows the same request crossed out with a red X,
+unable to accept it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所在地の登記所のみ
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

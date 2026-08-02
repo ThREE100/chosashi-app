@@ -78,3 +78,126 @@
 - 附属建物にする合併、図面が必要なんです
 - 同じ棟内でも、床面積は省略できないんです
 - 合筆と合併、まとめて申請できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+附属建物に関する登記手続について「添付情報・記載事項は必要か」と「複数の手続を一括してよいか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric main houses with
+small attached sheds, registry desks, application documents, calendar
+icons, building blueprints, land-lot merging arrows, red cross marks,
+green checkmarks, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・番・建・物・登・記・所・録・築・請 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+附属建物の登記、添付書類と一括申請のルールは？
+
+Subtitle (smaller, centered, 1行):
+平成26年度　午後の部　第14問－添付情報・記載事項の要否と手続の一括可否
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+添付情報・記載事項は必要か
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物の新築に住所証明情報は不要
+Illustration: An isometric homeowner submitting a "表題部の変更登記申請書"
+at a registry desk for a newly built storage shed (附属建物) behind their
+existing house. A small 住民票 icon beside the desk has a red cross mark
+over it, showing the address certificate is not required.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+住所証明情報は不要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物にする合併登記には新図面が必要
+Illustration: An isometric independent building (甲建物) merging into a
+neighboring house's附属建物 slot (乙建物の附属建物), shown with a bridge
+arrow labeled "合併". Beside the merged shape, a new "合併後の建物図面・
+各階平面図" sheet is presented with a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+合併後の図面が必要
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+同じ棟内でも所在地番・構造・床面積は必須
+Illustration: An isometric floor of a condominium building showing a
+main unit (主である区分建物) and its attached附属区分建物 side by side
+within the same building outline. An attempt to omit the附属建物側の
+"所在地番"・"構造"・"床面積" labels has a red cross mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+記載省略は不可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+複数の手続を一括してよいか
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+新築日が同じなら日付記録は1回でいい
+Illustration: An isometric main house and an attached shed (附属建物)
+being built on the very same day, shown with one shared calendar icon
+between them. The附属建物側 of the calendar has a small note "重複記録は
+不要" with a red cross mark over a duplicate date entry.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+重複記録は不要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+合筆の所在変更と合併登記はまとめて申請できる
+Illustration: An isometric land plot formed by merging two smaller lots
+(合筆), with 甲建物 shown merging into 乙建物 as its附属建物 on top of it.
+A single application-document panel lists both "合併の登記" and "所在の
+変更登記" together with a green checkmark, replacing a crossed-out
+"別々に申請" label.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一の申請情報でOK
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```
