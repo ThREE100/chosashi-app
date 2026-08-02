@@ -84,7 +84,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-分筆の登記をめぐる5つの手続ルール（添付情報の省略・申請情報の記載・一の申請情報でまとめられるか・課税の有無・申請人の範囲）を、誤っている肢は正しいルールに直したうえで、2列5カードで俯瞰できる構成にした。
+分筆の登記をめぐる5肢を、「添付情報・申請情報の記載ルール」と「申請の構造・効果に関するルール」という2つの軸に沿って、誤っている肢は正しいルールに直したうえで、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。導入イラストや説明文のブロックは置かない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -94,6 +94,17 @@ modern explainer-graphic aesthetic (icons: isometric land plots, office
 buildings, government buildings, official seals (inkan), documents, ID
 cards, coins, people figures, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -101,9 +112,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-characters 号・録・権・地・番・建・物・登・記・所, which have Simplified
-Chinese variants that look similar but are NOT correct — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 号・番・地・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -111,85 +121,84 @@ Title (large, bold, 2行):
 5つの手続ルール
 
 Subtitle (smaller, centered, 1行):
-令和6年度　土地家屋調査士試験　午後の部　第8問
+令和6年度 午後の部 第8問－添付情報と申請構造の要否
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric land plot split into two parcels by a dividing
-line (分筆), surrounded by small icons of a document, a seal (inkan), an
-office building, a government building, and a coin, arranged in a loose
-circle around the plot to suggest the five rules that follow.
-この問題は、分筆の登記を申請する際の添付情報・申請情報の記載・申請の構造・
-課税・申請人の範囲に関する5つの手続ルールを問うものです。誤っている記述は、
-正しいルールに直して整理しています。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 添付情報・申請情報の記載ルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
 会社法人等番号があれば、印鑑証明書は不要
 Illustration: An isometric office building icon connected by an arrow to
-an ID-card-like icon labeled 会社法人等番号, replacing a seal (inkan)
-icon that has a large red X over it, and a small circle (○) mark next to
+an ID-card-like icon labeled "会社法人等番号", replacing a seal (inkan)
+icon that has a large red X mark over it, and a small checkmark next to
 the ID-card icon.
-Caption (small text below):
-会社法人等番号を提供すれば、地役権を消滅させる分筆の登記でも、印鑑に関する
-証明書の提供は不要（不動産登記規則50条2項、令2.3.30民二318号）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+印鑑証明書は不要
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-法定相続情報一覧図を出しても、相続人である旨は書く
-Illustration: An isometric document icon labeled 法定相続情報一覧図 with
-an arrow pointing to an application form icon that still shows a filled-in
-text line labeled 相続人である旨, indicating this line is NOT omitted.
-Caption (small text below):
-法定相続情報一覧図の写しを添付情報として提供しても、相続人である旨を
-申請情報の内容とすることは省略できない（不動産登記令3条10号）。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続人である旨は記載必須
+Illustration: An isometric document icon labeled "法定相続情報一覧図"
+with an arrow pointing to an application form icon that still shows a
+filled-in text line labeled "相続人である旨", with a small "省略不可"
+label beside it to show this line is NOT omitted.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+記載は省略不可
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 申請の構造・効果に関するルール
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-表題部所有者の土地でも、一の申請情報でまとめられる
-Illustration: Two isometric land plot icons labeled 甲土地 and 乙土地,
-both under the same government registry office building icon, connected
-to a single document icon labeled 一の申請情報, with small labels
-分筆の登記 on both plots.
-Caption (small text below):
-同一の登記所の管轄区域内にあり、登記の目的・原因・日付が同一であれば、
-一の申請情報によって申請できる（不動産登記令4条ただし書）。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+一の申請情報でまとめ可
+Illustration: Two isometric land plot icons labeled "甲土地" and
+"乙土地", both connected to a single document icon labeled "一の申請情報"
+via two arrows meeting at the same registry desk, with small labels
+"分筆の登記" on both plots.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一括申請できる
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-地方公共団体の代位嘱託には、登録免許税がかからない
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+代位嘱託は登録免許税なし
 Illustration: An isometric government building icon with an arrow
 pointing to an office building icon representing a company, with a coin
-icon at the end of the arrow that has a large red X over it.
-Caption (small text below):
-地方公共団体が代位により分筆の登記を嘱託する場合、登録免許税は課されない
-（登録免許税法5条1号、6号）。
+icon at the end of the arrow that has a large red X mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登録免許税なし
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-持分3分の1ずつでも、過半数で申請できる
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+持分3分の1ずつでも過半数で申請できる
 Illustration: Three isometric person figures labeled A・B・C standing
-around a land plot each holding a small label 3分の1, with two of the
-three figures highlighted and connected to an application document icon,
-while the third figure stands slightly apart and outside the connection.
-Caption (small text below):
-分筆の登記は共有物の軽微変更にあたり、持分の価格の過半数を有する者から
-申請できる。共有者全員の同意は不要（令5.3.28民二533号）。
+around a land plot, each holding a small label "3分の1". Two of the three
+figures are highlighted and connected to an application document icon,
+while the third figure stands slightly apart, outside the connection.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+過半数で申請可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-出典：令和6年度午後の部第8問（正解：アエ）
+Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm no card reproduces a
-statement that was judged 誤 in the original article — every card must
-show the corrected, correct legal rule.
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, confirm
+that no card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance — and confirm no card reproduces a statement that was judged 誤 in
+the original article; every card must show the corrected, correct legal
+rule.
 ```
