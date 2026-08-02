@@ -78,3 +78,140 @@
 - 提供できない理由、証明書はいらないって知ってた？
 - 4筆の合筆、まとめて1件で申請できるんです
 - 合筆の印鑑証明、返してもらえないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「申請人・申請情報に関するルール」（ア・エ＝列A・緑）と、「登記識別情報・印鑑証明書に関するルール」（イ・ウ・オ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで1枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots being
+merged, registry desks, power-of-attorney scrolls, registration
+identification notices, inkan/seal-certificate documents, application
+forms, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 筆・申・請・登・記・識・別・情・報・委・任・印・鑑・証・還・付 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+合筆はまとめるからこそ厳しい
+
+Subtitle (smaller, centered, 1行):
+平成27年度　午後の部　第9問－申請人・登記識別情報・印鑑証明の落とし穴
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請人・申請情報のルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+買っただけでは合筆を申請できない
+Illustration: A名義の甲土地・乙土地アイコンを買った人物Bが立っている。Bの手には
+売買契約書はあるが「所有権移転登記：未了」の札が付く。合筆の申請書に手を
+伸ばすBの前に赤い✕マークのバリケードが表示され、隣に「移転登記が先」の
+ラベルが立つ。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+移転登記が先
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+4筆でも1件にまとめて申請できる
+Illustration: 同じ登記所の管轄内にある甲・乙・丙・丁の4筆の土地アイコン。「甲→
+丙」「乙→丁」の合筆の矢印がそれぞれ描かれ、両方が1枚の申請書アイコンに
+まとまり緑のチェックマークが付く。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+一の申請情報でOK
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+登記識別情報・印鑑証明書のルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+識別情報の受領には特別委任が必要
+Illustration: 土地家屋調査士アイコンが委任状を持つ。委任状のチェック欄に「登記
+識別情報の通知を受ける権限」の項目があり、これが未チェックのとき、登記所窓口
+から差し出される新しい登記識別情報通知書アイコンに赤い✕マークが付く。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+特別の委任が必須
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+提供できない理由は書けば足りる
+Illustration: 「登記識別情報を提供できない理由：失念」と記入された申請情報の
+用紙アイコン。その横に「理由を証する情報」という追加書類アイコンが描かれ、
+赤い✕マークで不要を示す。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+証明書類は不要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+合筆の印鑑証明は返してもらえない
+Illustration: 合筆の登記申請書に添付された印鑑証明書アイコン。申請人が原本の
+返却を求める吹き出し「原本還付してください」を出すが、登記所窓口のスタンプに
+赤い✕マークと「還付不可」のラベルが付く。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+原本還付は不可
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 買っただけでは合筆を申請できない
+2. 4筆でも1件にまとめて申請できる
+3. 識別情報の受領には特別委任が必要
+4. 提供できない理由は書けば足りる
+5. 合筆の印鑑証明は返してもらえない
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

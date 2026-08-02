@@ -79,3 +79,119 @@
 - 戸籍の束、相続関係説明図を添えれば返ってくるんです
 - 登記識別情報の紙は、完了後に廃棄されるんです
 - 原本、申し出れば郵送で返してもらえるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「還付できる書類」（ア・ウ＝列A・緑）と「還付できない書類・還付の方法」（イ・エ・オ、いずれも誤りの肢を正しいルールに直したもの＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: document folder icons,
+certificate/seal icons, family-tree diagram icons, envelope icons,
+trash/shredder icons, mail truck icons, registry counter icons, etc. —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 原・本・還・付・証・明・書・相・続・謄・籍・確・認・識・別・廃・棄・郵・送・申 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+添付書面の原本、返してもらえる？
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第9問－原本還付の対象と方法
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+還付できる書類
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+工事会社の印鑑証明書は還付できる
+Illustration: 工事完了引渡証明書の書類アイコンに印鑑証明書が添付され、その上に還付スタンプ（✓マーク）が押されている。横に申請人本人の印鑑証明書アイコンが小さく描かれ、そちらには✕マークが付いて区別されている。
+Conclusion tag (5-15 characters):
+第三者の証明書は還付可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続関係説明図があれば戸籍は返る
+Illustration: 戸籍謄本・除籍謄本の束のアイコンの上に、家系図のような「相続関係説明図」の紙が重ねられ、その上に還付スタンプ（✓マーク）が押されている。
+Conclusion tag (5-15 characters):
+説明図添付で還付可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+還付できない書類・還付の方法
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+本人確認情報は還付できない
+Illustration: 資格者代理人が作成した「本人確認情報」の書類アイコンに、大きな✕マークと「この申請専用」というラベルが付けられている。
+Conclusion tag (5-15 characters):
+申請専用書類は還付不可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記識別情報の書面は還付できない
+Illustration: 封筒に入った登記識別情報の書面アイコンから、シュレッダーやゴミ箱アイコン（廃棄）へ向かう矢印が描かれ、大きな✕マークが付けられている。
+Conclusion tag (5-15 characters):
+完了後に廃棄され還付不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+申出があれば郵送でも還付できる
+Illustration: 登記所の窓口アイコンから、封筒に入った原本書類が矢印を通じて遠方の申請人の自宅アイコンへ郵送されている様子。小さな郵便ポストや配達トラックのアイコンが添えられる。
+Conclusion tag (5-15 characters):
+郵送での還付も可
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 工事会社の印鑑証明書は還付できる
+2. 相続関係説明図があれば戸籍は返る
+3. 本人確認情報は還付できない
+4. 登記識別情報の書面は還付できない
+5. 申出があれば郵送でも還付できる
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

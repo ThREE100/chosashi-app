@@ -84,7 +84,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-住所証明・所有権証明・代理権限証明の3系統に分け、それぞれで「省略できる場面」と「省略できない場面」を対比させながら1枚で俯瞰できる構成にした。
+「省略・代替できる添付情報」と「省略できない添付情報」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -93,6 +93,17 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric registry counter,
 documents, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -100,9 +111,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所 — these have visibly
-different Simplified Chinese forms; always draw the standard Japanese
-(Jōyō) form.
+kanji 号・録・権・地・番・建・物・登・記・所 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -110,81 +120,83 @@ Title (large, bold, 2行):
 省略できる場面・できない場面
 
 Subtitle (smaller, centered, 1行):
-住所証明・所有権証明・代理権限証明 省略の可否を徹底整理
+令和6年度 午後の部 第4問－添付情報の省略可否を見極める
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: isometric illustration of a person submitting a registration
-application at a registry counter, with document icons floating around
-(住民票, 印鑑証明, 委任状), some of the documents crossed out with a red
-line to indicate that they can be omitted in certain cases.
-表題登記の添付情報には「省略できる場面」が個別に定められています。住所証明・所有権証明・代理権限証明について、省略の可否を混同しないよう一つずつ確認しましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-住所証明情報
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+省略・代替できる添付情報
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-住民票コード提供で住所証明を省略
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+住民票コードで住所証明省略
 Illustration: isometric icon of a person handing over a card labeled
 「住民票コード」to a registry clerk, with an arrow pointing to a green
 stamp reading「省略OK」; a crossed-out icon of a paper 住民票 in the
 background to show it is no longer needed.
-Caption (small text below):
-住民票コードを提供すれば、住所を証する情報は不要（不動産登記令9条）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+住所証明は省略
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-法定相続情報一覧図が住所証明を兼ねる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+一覧図の住所で証明書は不要
 Illustration: isometric icon of a family-tree style document labeled
 「法定相続情報一覧図」with the word「住所」highlighted, an arrow pointing
 to a person icon labeled「相続人B」, and a green stamp reading「住所証明
 OK」next to it.
-Caption (small text below):
-住所が記載された法定相続情報一覧図の写しがあれば、別の住所証明書は不要（平30.3.29民二166号）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+別途証明は不要
 
---- COLUMN B HEADER (pill-shaped badge) ---
-所有権証明・敷地権関連
-
---- COLUMN B, CARD 3 ---
-Heading (bold):
-敷地共有者の証明は一部の者でも足りる
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地共有者は一部の証明で足りる
 Illustration: isometric icon of a land plot shared by three person icons
 labeled「甲」「乙」「丙」standing on it; one of the three hands over a
 stamped certificate while the other two are shown without documents, with
 an arrow labeled「1人の証明でOK」pointing to a new building being
 registered.
-Caption (small text below):
-共有地の敷地所有者証明は、共有者のうち一部の者による証明で足りる（昭37.10.8民甲2885号）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一部の証明でOK
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+省略できない添付情報
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-地上権が敷地権となるなら規約証明は必須
-Illustration: isometric icon of a building with a label「地上権」next to
-it, an arrow pointing to a document labeled「分離処分可能規約」with a red
-stamp reading「提供必要」(not crossed out), showing the document cannot
-be omitted.
-Caption (small text below):
-地上権が敷地権となる場合、分離処分可能規約を証する情報の提供は省略できない（不動産登記令別表12項添付情報へ・ホ、昭58.11.10民三6400号）
-
---- COLUMN C HEADER (pill-shaped badge) ---
-代理権限証明情報
-
---- COLUMN C, CARD 5 ---
-Heading (bold):
-電子署名があっても会社法人等番号は別途必要
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+電子署名があっても番号は必要
 Illustration: isometric icon of a laptop displaying an electronic seal
 labeled「電子署名」, connected by a plus symbol to a separate document
 icon labeled「会社法人等番号」, both leading into a folder labeled
 「代理権限証明情報」to show both are required together.
-Caption (small text below):
-合同会社の電子署名付き代理権限情報を提供しても、会社法人等番号の提供は省略できない（不動産登記令7条1項1号イ）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+番号は別途必要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+地上権が敷地権なら規約証明必須
+Illustration: isometric icon of a building with a label「地上権」next to
+it, an arrow pointing to a document labeled「分離処分可能規約」with a red
+stamp reading「提供必要」(not crossed out), showing the document cannot
+be omitted.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+省略できない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

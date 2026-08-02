@@ -82,7 +82,9 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+建物の滅失の登記について、「誰が申請人になれるか」（ウ・エ・オ＝列A・緑）と、「登記記録・保存にどう扱われるか」（ア・イ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -93,102 +95,120 @@ demolished into an empty land plot, archive boxes, registry-window
 counters, family/heir figures, apartment buildings — adapt icon set to
 the topic of a building disappearing and being registered as such).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Special caution: this topic repeatedly uses the kanji 登・記・権・建・物・
-所・地 (as in 登記, 建物, 抵当権, 所有権, 滅失, 相続, 土地). Render each of
-these in standard Japanese Jōyō form, never in Simplified Chinese form
-(権 must not become 权; 建 must not become a simplified variant; 記 must
-not become 记 — always use 記; 所 must not become a simplified variant).
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・記・権・建・物・所・続 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants (権 must not become
+权; 記 must not become 记).
 
 --- HEADER ---
 Title (large, bold, 1行):
 建物の滅失登記、5つの重要ルール
 
 Subtitle (smaller, centered, 1行):
-令和2年度 土地家屋調査士試験 午後の部 第17問
+令和2年度 午後の部 第17問－申請人の範囲と登記記録の扱い
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric building being demolished (wrecking ball or
-dust cloud around it) transitioning into an empty flat land plot, with a
-document icon labeled 滅失の登記 appearing above the empty plot.
-建物の滅失の登記は、取壊しや焼失などで建物がなくなったときにする登記です。誰が申請できるのか（申請人の範囲）、相続や仮登記がからむとどうなるのか、といった論点が問われます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- ENUMERATION NOTICE ---
-以下は本問のア〜オ、合計5個の論点カードである。番号・文言は下記のとおり一字一句そのまま使用し、重複禁止・欠落禁止・言い換え禁止とする。
-1. ア：抵当権消滅の承諾があれば、土地の分も消えた旨が記録されるんです
-2. イ：滅失登記の書類、30年間は保存されるって知ってた？
-3. ウ：仮登記名義人は、滅失の登記を申請できないんです
-4. エ：相続人は、相続登記なしで滅失の登記を申請できるんです
-5. オ：一棟の建物の滅失、区分所有者の一人からできるんです
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+誰が申請人になれるか
 
---- CARD 1（ア） ---
-Heading (bold):
-抵当権消滅の承諾があれば、土地の分も消えた旨が記録されるんです
-Illustration: An isometric condo unit (区分建物) linked by a dotted line to
-a land plot icon labeled 敷地権; the unit has a red tag icon labeled
-抵当権; a document icon labeled 承諾情報 is handed from a person icon
-（抵当権の登記名義人）toward the land plot; after that, the land plot's
-抵当権 tag fades away with a stamp reading 消滅.
-Caption (small text below):
-抵当権消滅の承諾情報を出せば、土地について抵当権が消滅した旨が記録される（不動産登記法55条4項）
-
---- CARD 2（イ） ---
-Heading (bold):
-滅失登記の書類、30年間は保存されるって知ってた？
-Illustration: A filing cabinet or archive box icon at a registry office
-(登記所), with a document labeled 滅失の登記の申請情報 being placed inside;
-a calendar/clock icon beside it displays "30年間".
-Caption (small text below):
-滅失登記の申請情報・添付情報は受付の日から30年間保存（不動産登記規則28条9号）
-
---- CARD 3（ウ） ---
-Heading (bold):
-仮登記名義人は、滅失の登記を申請できないんです
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮登記名義人は滅失登記を申請不可
 Illustration: A burnt/damaged building icon; a person icon labeled
 仮登記名義人 holding a 消防署の証明書 and a 承諾書 but blocked by a red
 "×" barrier in front of the registry-window icon; beside it, a separate
 person icon labeled 所有権の登記名義人 passes through the same window
 with a green checkmark.
-Caption (small text below):
-所有権移転の仮登記名義人は滅失の登記の申請人になれない（不動産登記法57条）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請人になれない
 
---- CARD 4（エ） ---
-Heading (bold):
-相続人は、相続登記なしで滅失の登記を申請できるんです
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続人は相続登記なしで申請可
 Illustration: A grayed-out silhouette icon (亡くなった所有権の登記名義人)
 with an arrow pointing to a child/heir person icon (相続人); the heir
 submits a document labeled 滅失の登記 directly to the registry-window
 icon with a green checkmark, while a separate icon labeled 相続による
 所有権移転の登記 is shown crossed out with a dashed arrow bypassing it.
-Caption (small text below):
-相続人は相続登記を経ずに滅失の登記を申請できる（不動産登記法30条）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+相続登記は不要
 
---- CARD 5（オ） ---
-Heading (bold):
-一棟の建物の滅失、区分所有者の一人からできるんです
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+一棟の滅失は区分所有者の1人から
 Illustration: A large isometric apartment building (一棟の建物) with
 several distinct owner icons (区分所有者) standing beside it; one single
 owner icon steps forward alone and submits a document labeled 一棟の建物
 の滅失の登記 with a green checkmark, while the other owner icons remain
 passively in the background.
-Caption (small text below):
-一棟の建物の滅失の登記は区分建物の所有者の一人から申請できる
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1人から申請可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+登記記録・保存にどう扱われるか
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+抵当権消滅の承諾で土地にも記録
+Illustration: An isometric condo unit (区分建物) linked by a dotted line to
+a land plot icon labeled 敷地権; the unit has a red tag icon labeled
+抵当権; a document icon labeled 承諾情報 is handed from a person icon
+（抵当権の登記名義人）toward the land plot; after that, the land plot's
+抵当権 tag fades away with a stamp reading 消滅.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+消滅した旨を記録
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+滅失登記の書類は30年間保存
+Illustration: A filing cabinet or archive box icon at a registry office
+(登記所), with a document labeled 滅失の登記の申請情報 being placed inside;
+a calendar/clock icon beside it displays "30年間".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+30年間保存
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 仮登記名義人は滅失登記を申請不可
+2. 相続人は相続登記なしで申請可
+3. 一棟の滅失は区分所有者の1人から
+4. 抵当権消滅の承諾で土地にも記録
+5. 滅失登記の書類は30年間保存
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Pay special attention to 登・記・権・建・物・所・地
-as noted above. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, and that they correspond exactly to ア・イ・
-ウ・エ・オ in that order.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

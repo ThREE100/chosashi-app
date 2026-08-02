@@ -83,13 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-登録免許税をめぐる5つの場面を、「非課税になるケース」3枚と「課税・税額に注意」2枚の2列構成で俯瞰できるよう構成した画像生成プロンプト。R02年度第19問・R07年度第19問と非常に近い出題があるため、記事本文に沿った正確な文言・数字を使うこと。
+登録免許税について「非課税になるケース」と「課税・税額の計算に注意すべきケース」という2つの軸に沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。R02年度第19問・R07年度第19問と近い出題があるため、記事本文に沿った正確な文言・数字を使うこと。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric balance scales, coin stacks, tax stamps, government buildings, calculators — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric balance scales,
+coin stacks, tax stamps, government buildings, calculators — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,67 +111,87 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 登・録・権・地・建・物・記・所 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
 「非課税のはず」が
-実は課税対象?
+実は課税対象？
 
 Subtitle (smaller, centered, 1行):
-分筆・合筆・合体・分割合併・代位嘱託の税額を整理(平成28年度 午後の部 第19問)
+平成28年度 午後の部 第19問－分筆・合筆・合体・分割合併・代位嘱託の税額整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric balance scale with a 登録免許税 coin stack on one side and a glowing 非課税 stamp on the other, visually representing how the outcome tips case by case.
-分筆・合筆・合体・分割合併・代位嘱託という5つの場面を、非課税になるケースと課税・税額計算に注意すべきケースの2列に分けて整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 非課税になるケース
---- COLUMN A, CARD 1 ---
-Heading (bold):
-所有権登記のない土地同士の合筆は、非課税
-Illustration: Two isometric land plots, neither carrying a 所有権登記 tag, merging together(合筆)with a glowing 非課税 stamp.
-Caption (small text below):
-所有権の登記がない土地同士の合筆の登記には、登録免許税は課されない。
---- COLUMN A, CARD 2 ---
-Heading (bold):
-表題登記のない建物との合体は、非課税
-Illustration: An isometric untitled building(表題登記なし)merging with a titled-only building(表題登記のみ), unable to receive a 所有権保存登記 stamp, resulting in a glowing 非課税 stamp instead.
-Caption (small text below):
-表題登記のない建物との合体では所有権保存登記自体ができないため、登録免許税は課されない。
---- COLUMN A, CARD 3 ---
-Heading (bold):
-地方公共団体の代位嘱託は、非課税
-Illustration: An isometric local-government building icon(地方公共団体)submitting a 代位による分筆の登記 on behalf of a private landowner figure(私人), with a glowing 非課税 stamp.
-Caption (small text below):
-私人の土地について地方公共団体が代位により分筆の登記を嘱託するときは、登録免許税は課されない(登録免許税法5条1号)。
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有権登記なしの合筆は非課税
+Illustration: Two isometric land plots, neither carrying a 所有権登記
+tag, merging together(合筆)with a glowing 非課税 stamp.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+登録免許税なし
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+未登記建物の合体も非課税
+Illustration: An isometric untitled building(表題登記なし)merging with a
+titled-only building(表題登記のみ), unable to receive a 所有権保存登記
+stamp, resulting in a glowing 非課税 stamp instead.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+保存登記できず非課税
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+地方公共団体の代位嘱託も非課税
+Illustration: An isometric local-government building icon(地方公共団体)
+submitting a 代位による分筆の登記 on behalf of a private landowner
+figure(私人), with a glowing 非課税 stamp.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位嘱託も非課税
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 課税・税額の計算に注意
---- COLUMN B, CARD 1 ---
-Heading (bold):
-敷地権登記がある土地も、分筆には課税される
-Illustration: An isometric apartment building's land(敷地権付き土地)being divided(分筆), with a 1,000円 coin stamp attached to each resulting plot.
-Caption (small text below):
-敷地権の登記がある土地も所有権の登記がある土地として扱われ、分筆の登記には課税される。
---- COLUMN B, CARD 2 ---
-Heading (bold):
-分割+合併セットの税額は、できる建物の数で決まる
-Illustration: An isometric building split(分割)and merged(合併)in a single application, resulting in 2 separate buildings, with a calculation showing 1,000円×2=2,000円, and a crossed-out 3,000円 stamp beside it.
-Caption (small text below):
-分割の登記と合併の登記を一の申請情報で行う場合の税額は、結果としてできる建物の個数(1個につき1,000円)で決まる。
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権の土地も分筆課税
+Illustration: An isometric apartment building's land(敷地権付き土地)
+being divided(分筆), with a 1,000円 coin stamp attached to each
+resulting plot.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+分筆にも課税
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+税額は結果の建物数で決定
+Illustration: An isometric building split(分割)and merged(合併)in a
+single application, resulting in 2 separate buildings, with a
+calculation showing 1,000円×2=2,000円, and a crossed-out 3,000円 stamp
+beside it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+正しくは2,000円
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第19問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3 cards under 非課税になるケース, 2 cards under 課税・税額の計算に注意), with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 非課税になるケース, 2 cards under 課税・税額の計算に注意), with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

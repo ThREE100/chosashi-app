@@ -199,8 +199,6 @@ Conclusion tag (blue, 5-15 Japanese characters):
 追認前のみ取消し可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験対策｜令和3年度午後第1問　代理・無権代理
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay special

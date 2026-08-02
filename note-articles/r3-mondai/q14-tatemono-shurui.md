@@ -218,8 +218,6 @@ sentence, NOT a legal citation):
 保育所も登記可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和3年度 午後の部 第14問　建物の種類の定め方 まとめ
 
 Pay special attention to the following kanji, which have visually similar
 but distinct Simplified Chinese forms — do NOT render the simplified

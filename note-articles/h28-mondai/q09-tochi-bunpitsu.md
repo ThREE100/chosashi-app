@@ -83,13 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地の分筆の登記をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+土地の分筆の登記について「誰が申請できるか」と「書面・地図・地積の取り扱い」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric land plots being split, dotted dividing lines, magnifying glasses, stamps, precision gauges — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots being
+split, dotted dividing lines, magnifying glasses, stamps, precision
+gauges — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,9 +111,9 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 権・地・登・記・図・積, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -110,49 +123,87 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 地図訂正・共有物分割禁止・契印・精度区分・敷地権を整理(平成28年度 午後の部 第9問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric land plot being split into two by a dotted line (分筆), with a magnifying glass hovering over the dividing line revealing a small error mark on it.
-地積測量図の誤りの直し方、共有物分割禁止の定め、書面申請の契印、精度区分による更正登記の要否、賃借権が敷地権の場合の申請人という5つの場面を整理します。
---- CARD 1 ---
-Heading (bold):
-分筆線の誤りは、地図訂正では直せない
-Illustration: An isometric land plot with a crooked dividing line (誤った分筆線) and a 地図訂正の申出 stamp crossed out with a prohibition mark, replaced by a glowing 分筆錯誤の登記 stamp.
-Caption (small text below):
-地積測量図の分筆線の誤りは、地図訂正の申出では直せず、分筆錯誤の登記による(昭和43年6月8日民事甲第1653号)。
---- CARD 2 ---
-Heading (bold):
-共有物分割禁止でも、分筆はできる
-Illustration: An isometric shared land plot with a 共有物分割禁止 lock icon on top, but a separate dotted 分筆 split-line passing straight through it unaffected, with a checkmark.
-Caption (small text below):
-共有物分割禁止の定めがある土地でも、表示に関する登記である分筆の登記は申請できる。
---- CARD 3 ---
-Heading (bold):
-契印は、共有者のうち1人でいい
-Illustration: An isometric multi-page application document with a single stamp (契印) pressed at the binding, only one of two co-owner figures holding the seal while the other stands by empty-handed.
-Caption (small text below):
-申請書が2枚以上でも、共有者のうち1人が各用紙のつづり目に契印すれば足りる(不動産登記規則46条2項)。
---- CARD 4 ---
-Heading (bold):
-精度区分によって、更正登記の要否が変わる
-Illustration: Two isometric land-survey precision gauge icons labeled 甲1 with a glowing checkmark(更正登記不要), and 乙1 with a prohibition mark(特例は適用されない).
-Caption (small text below):
-更正登記を要しない特例は精度区分甲1が前提であり、乙1の精度区分には適用されない。
---- CARD 5 ---
-Heading (bold):
-賃借権が敷地権のとき、理事長は申請できない
-Illustration: An isometric apartment building with a 管理組合理事長 figure crossed out as 申請人ではない, while the land owner (賃貸人) figure below the building is marked with a glowing 申請人 badge.
-Caption (small text below):
-賃借権を敷地権とする土地の分筆登記の申請人は土地の所有権登記名義人(賃貸人)であり、理事長ではない。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+誰が分筆登記を申請できるか
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+共有物分割禁止でも分筆可
+Illustration: An isometric shared land plot with a 共有物分割禁止 lock
+icon on top, but a separate dotted 分筆 split-line passing straight
+through it unaffected, with a checkmark.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+分筆は制限されない
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+賃借権敷地権では理事長不可
+Illustration: An isometric apartment building with a 管理組合理事長
+figure crossed out as 申請人ではない, while the land owner (賃貸人)
+figure below the building is marked with a glowing 申請人 badge.
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+申請人は賃貸人
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+書面・地図・地積の取り扱い
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分筆線の誤りは地図訂正で直せない
+Illustration: An isometric land plot with a crooked dividing line
+(誤った分筆線) and a 地図訂正の申出 stamp crossed out with a prohibition
+mark, replaced by a glowing 分筆錯誤の登記 stamp.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+分筆錯誤の登記で訂正
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+契印は共有者の1人で足りる
+Illustration: An isometric multi-page application document with a single
+stamp (契印) pressed at the binding, only one of two co-owner figures
+holding the seal while the other stands by empty-handed.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+契印は1人でよい
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+乙1では更正登記省略は不可
+Illustration: Two isometric land-survey precision gauge icons labeled
+甲1 with a glowing checkmark(更正登記不要), and 乙1 with a prohibition
+mark(特例は適用されない).
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+乙1に特例なし
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第9問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+attention to 権・地・登・記・図・積. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly (Column A: cards 1-2
+in green, Column B: cards 3-5 in blue, numbers continuous, not restarted
+in column B), with no duplicated or missing cards, confirm there is no
+intro illustration or paragraph block between the header and the cards,
+and confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance. Confirm the 5 card headings are exactly: (1) 共有物
+分割禁止でも分筆可／(2) 賃借権敷地権では理事長不可／(3) 分筆線の誤りは
+地図訂正で直せない／(4) 契印は共有者の1人で足りる／(5) 乙1では更正登記
+省略は不可 — do not merge, omit, duplicate, or reword any of these five
+headings.
 ```

@@ -86,7 +86,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地家屋調査士法が定める3つの業務上の義務(依頼応諾義務・秘密保持義務・自ら業務を行う義務)とその例外、そして登録・法人設立という組織面の規定を、対立軸に沿って5枚のカードで俯瞰する構成。
+土地家屋調査士法について「業務上の義務とその例外」と「登録・組織に関する規定」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -96,16 +96,27 @@ modern explainer-graphic aesthetic (icons: isometric survey equipment,
 official document folders, office buildings, registration seals, torn
 paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Pay special
-attention to the following characters, which have visibly different
-Simplified Chinese forms and must be rendered in their correct Japanese
-(Jōyō) form: 調・査・録・義・務・筆・界・補・助・漏・秘・密・測・識・法・人.
-Reproduce the exact text strings given below verbatim — do not paraphrase,
-translate, summarize, or substitute any characters.
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+following kanji, which have visibly different Simplified Chinese forms and
+must be rendered in their correct Japanese (Jōyō) form: 調・査・録・義・
+務・筆・界・補・助・秘・密・測・法・人.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -113,82 +124,82 @@ Title (large, bold, 2行):
 義務の範囲と例外
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第20問 ― 業務上の義務と登録・組織のルール
+令和6年度 午後の部 第20問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 土地家屋調査士のキャラクターが天秤(はかり)を持ち、左右の皿にそれぞれ
-「義務」「例外」のラベルが付いた札が乗り、釣り合っている構図。
-土地家屋調査士法の分野は、業務上の義務と、その例外・手続を対立軸で整理するのが
-ポイントです。依頼応諾義務・秘密保持義務・自ら業務を行う義務という3つの義務と、
-登録手続・法人設立という組織面の規定を、5つの原則カードで整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 業務上の義務とその例外
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-筆界特定の代理業務は、正当な理由がなくても断れる
+Badge: a filled green circle containing the number 1 (numbers run
+continuously through all 5 cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+筆界特定代理は理由なく拒否可
 Illustration: 土地家屋調査士のキャラクターが「筆界特定」のラベル付き書類を持ち、
-依頼者から差し出された封筒(依頼の書類)に対して、手のひらを見せて穏やかに断る
-ジェスチャーをしている構図。近くに「正当な事由 不要」と書かれた小さな丸いバッジ。
-Caption (small text below):
-筆界特定手続の代理・相談業務は依頼に応ずる義務の対象外。理由の説明なしに依頼を
-断ることができる。
+依頼者から差し出された封筒（依頼の書類）に対して、手のひらを見せて穏やかに断る
+ジェスチャーをしている構図。近くに「正当な事由 不要」と書かれた小さな丸い
+バッジ。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+正当事由不要
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-秘密保持義務には、正当な事由がある場合の例外がある
-Illustration: 土地家屋調査士のキャラクターが鍵のかかった「秘密」のラベル付き書類を
-両腕で抱えている構図。その隣に、半分だけ開いた扉があり、扉の上に「正当な事由」の
-ラベルが付いている(緊急時のみ開く例外を表す)。
-Caption (small text below):
-業務上取り扱った事件について知り得た秘密を他に漏らしてはならないが、正当な事由が
-ある場合には例外として開示が認められる。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+秘密保持義務にも例外がある
+Illustration: 土地家屋調査士のキャラクターが鍵のかかった「秘密」のラベル付き
+書類を両腕で抱えている構図。その隣に、半分だけ開いた扉があり、扉の上に
+「正当な事由」のラベルが付いている（緊急時のみ開く例外を表す）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+正当事由で例外
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-測量業務は、やむを得ない事由があっても補助者に任せられない
-Illustration: 土地家屋調査士のキャラクターが測量機器(トータルステーション)を自ら
-構えて使用している構図。その隣に立つ補助者のキャラクターの手元には、測量機器に
-大きなバツ印が重なったアイコンが表示されている。
-Caption (small text below):
-登記の申請情報の提供・登記識別情報の受領・申請情報の補正などと同様に、土地の表示
-に関する登記に必要な測量業務も、やむを得ない事由があっても補助者に取り扱わせる
-ことはできない。
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+測量業務は補助者に任せられない
+Illustration: 土地家屋調査士のキャラクターが測量機器（トータルステーション）を
+自ら構えて使用している構図。その隣に立つ補助者のキャラクターの手元には、
+測量機器に大きなバツ印が重なったアイコンが表示されている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+補助者は不可
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 登録・組織に関する規定
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-登録申請書は、法務局ではなく調査士会を経由して提出する
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously — this is card 4, following cards 1-3 in column A).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+登録申請は調査士会経由で提出
 Illustration: 土地家屋調査士となる資格を有する者が登録申請書を手に持ち、矢印の
-経路が法務局の建物アイコン(大きなバツ印つき)を避けて、土地家屋調査士会の建物
+経路が法務局の建物アイコン（大きなバツ印つき）を避けて、土地家屋調査士会の建物
 アイコンを経由し、日本土地家屋調査士会連合会の建物アイコンへ向かう構図。
-Caption (small text below):
-事務所を設けようとする地を管轄する法務局又は地方法務局の管轄区域内に設立された
-土地家屋調査士会を経由して、日本土地家屋調査士会連合会に備える調査士名簿に登録の
-申請をする。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+調査士会経由
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-調査士法人は、社員1人でも設立できる
-Illustration: 一人の土地家屋調査士のキャラクターが「土地家屋調査士法人」の看板を
-掲げた建物の前に立ち、定款の書類を掲げている構図。そばに「社員1人」と書かれた
-ラベル。
-Caption (small text below):
-令和元年の法改正(令和2年8月1日施行)により、社員となろうとする土地家屋調査士が
-1人であっても、定款を定めて調査士法人を設立できるようになった。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+調査士法人は社員1人でも設立可
+Illustration: 一人の土地家屋調査士のキャラクターが「土地家屋調査士法人」の
+看板を掲げた建物の前に立ち、定款の書類を掲げている構図。そばに「社員1人」と
+書かれたラベル。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一人でも設立可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay special attention
-to 調・査・録・義・務・筆・界・補・助・漏・秘・密・測・識, which are easily
-confused with Simplified Chinese variants. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, and confirm the two column labels「業務上の義務とその例外」
-「登録・組織に関する規定」are each rendered exactly once, verbatim.
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 調・査・録・義・務・筆・界・補・助・秘・密・測・法・人. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly, with badge numbers running 1-5 continuously across both
+columns without resetting (3 cards in column A: 業務上の義務とその例外,
+2 cards in column B: 登録・組織に関する規定), with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
 ```

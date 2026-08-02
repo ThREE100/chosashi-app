@@ -82,14 +82,28 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+分筆の登記を「誰が・どんな要件で」申請・嘱託・代位できるかという5つの場面を、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした（本問は5肢がそれぞれ別々の主体・場面を扱うため、列A・列Bには分けず単一列とした）。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots, maps,
+registrar desks, rivers, courthouses, co-owner figures, torn paper
+labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -97,7 +111,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・図・権・登・記・嘱・託・筆 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -107,83 +123,85 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和2年度 午後の部 第9問／職権・嘱託・代位の5つの場面
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric single land plot being split into two by a
-dotted line (分筆), surrounded by small actor icons representing
-different routes to申請: 登記官 (a registrar), 河川管理者 (a river
-administrator), 共有者 (co-owners), and 国 (the national government),
-each with a small arrow pointing toward the dotted split line.
-分筆の登記は原則として所有者本人が申請しますが、登記官の職権や、第三者による代位・嘱託が認められる例外もあります。誰が・どんな要件で申請できるかを5つの場面で確認します。
-
-以下の5枚のカードは、下記の番号・見出し文言のとおり過不足なくちょうど5枚作成すること（重複禁止・欠落禁止・言い換え禁止）：
-1. 地図作成のための職権分筆は、所有権登記名義人の異議がないときに限る
-2. 地目変更と分筆を一括申請するときは、登記原因と日付を書く
-3. 河川区域になった土地は、河川管理者が代位して分筆を嘱託できる
-4. 共有持分だけの買収では、国は当然には代位分筆できない
-5. 共有物分割判決が確定すれば、非協力の共有者に代位して分筆を申請できる
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。5肢が別々の主体・場面を扱うため列分けはせず、単一列の
+カード群とする。）
 
 --- CARD 1 ---
-Heading (bold):
-地図作成のための職権分筆は、所有権登記名義人の異議がないときに限る
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+異議なければ職権分筆可
 Illustration: An isometric flow chart: a registrar icon (登記官) holding
 a map (地図) faces a landowner icon. If the landowner shows a speech
 bubble saying 異議あり, an X mark appears over a 職権分筆 stamp icon; if
 the landowner shows 異議なし instead, a checkmark appears over the same
 stamp icon.
-Caption (small text below):
-登記官は地図作成のため必要があっても、所有権の登記名義人の異議がないときに限り職権で分筆できる（不動産登記法39条3項）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+異議なしが条件
 
 --- CARD 2 ---
-Heading (bold):
-地目変更と分筆を一括申請するときは、登記原因と日付を書く
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+地目変更と一括なら日付を記載
 Illustration: An isometric single application document icon containing
 two split land plots — one labeled 宅地 (new land use) and one labeled
 元の地目 (original land use) — plus a calendar icon with the label
 年月日地目変更 attached to the document.
-Caption (small text below):
-地目に関する変更の登記と分筆の登記を一の申請情報で申請するときは、地目変更の登記原因及びその日付を申請情報の内容としなければならない
+Conclusion tag (green banner below the illustration, 5-15 characters):
+登記原因・日付を記載
 
 --- CARD 3 ---
-Heading (bold):
-河川区域になった土地は、河川管理者が代位して分筆を嘱託できる
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+河川管理者は代位して嘱託できる
 Illustration: An isometric land plot with a blue winding river (河川)
 covering part of it. A river-administrator icon (河川管理者, a
 government-official figure) submits a 嘱託 document directly to a
 registry-office icon (登記所), with the landowner icon standing passively
 to the side.
-Caption (small text below):
-一筆の土地の一部が河川区域内の土地となった場合、河川管理者は所有権の登記名義人に代位して分筆の登記を登記所に嘱託できる
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位して嘱託可
 
 --- CARD 4 ---
-Heading (bold):
-共有持分だけの買収では、国は当然には代位分筆できない
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+持分買収では国は代位できない
 Illustration: An isometric single, undivided land plot shared by two
 co-owner icons A and B. A government icon (国) receives only A's持分
 via an arrow labeled 持分譲渡, while the land plot itself remains a
 single unsplit shape with a label 分筆×.
-Caption (small text below):
-共有者の一部持分を国が買収しても、それは共有状態になるだけで物理的な分割ではなく、国が当然に代位して分筆の登記を申請できるわけではない
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位分筆はできない
 
 --- CARD 5 ---
-Heading (bold):
-共有物分割判決が確定すれば、非協力の共有者に代位して分筆を申請できる
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+分割判決確定後は代位して申請可
 Illustration: An isometric courthouse icon with a document labeled
 判決確定 above a land plot split by a dividing line. Co-owner A icon
 holds an application document, while co-owner B icon stands with arms
 crossed labeled 非協力; an arrow labeled 代位 runs from A to B's portion
 of the application.
-Caption (small text below):
-共有物分割の判決確定後、一方の共有者が分筆の登記の申請に協力しないときは、他方の共有者がその者に代位して分筆の登記を申請できる（民法423条）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+非協力でも代位可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-出典：令和2年度 土地家屋調査士試験 午後の部 第9問（不動産登記法39条3項、民法423条ほか）
 
-特に誤りやすい漢字（地・物・権・登・記・所など）がカード文言に含まれています。これらの漢字は必ず日本語（常用漢字）の字体で描画し、簡体字（中国語の簡化字）にしないでください。
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 異議なければ職権分筆可
+2. 地目変更と一括なら日付を記載
+3. 河川管理者は代位して嘱託できる
+4. 持分買収では国は代位できない
+5. 分割判決確定後は代位して申請可
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards and badge numbers running 1-5 without
+resetting, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as a
+short heading + a short conclusion tag, at a glance.
 ```

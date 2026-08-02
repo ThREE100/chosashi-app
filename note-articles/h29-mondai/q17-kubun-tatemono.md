@@ -79,3 +79,122 @@
 - 非区分建物同士がつながったら、一括申請なんです
 - 敷地権の抹消、実は職権でやってくれるんです
 - 表題登記しない原始取得者、転得者が代位できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+区分建物の登記について「添付情報が不要なケース」（ア・イ＝列A・緑）と「一括申請・代位申請のルール」（ウ・エ・オ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。誤りの肢（ア・イ・エ）は、いずれも正しいルールに直した内容だけを図解する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric building blocks,
+registry desks, document folders, name plates, land parcels with dotted
+boundary lines, official stamps, clip-bound document sets, etc. — adapt
+icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 証・図・権・職・請・積・建・区・分・番 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+区分建物になる・ならない、そのとき何が要る？
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第17問－区分建物の登記の添付情報と申請ルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+添付情報が不要なケース
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+既存所有者の住所証明は不要
+Illustration: 非区分建物（甲建物、既存の表題部所有者Aのネームプレート付き）
+の隣に、新築されたBの乙区分建物を描く。受付窓口でBが書類「住所証明情報」を
+提出し緑のチェックマーク。Aの横には同じ書類のアイコンに赤い✕マークと
+「不要」のラベルを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+新規のBのみ必要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+地番変更だけなら図面は不要
+Illustration: 分筆線で分かれた土地の上に建つ区分建物のアイコンを描き、
+地番プレートが「12番」から「12番1」に変わる矢印を添える。傍らに「建物
+図面」「各階平面図」の書類アイコンに赤い✕マークを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+図面の添付は不要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+一括申請・代位申請のルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+非区分建物同士の接続は一括申請
+Illustration: 別々に登記されていた甲建物・乙建物が増築工事でつながり
+1つの区分建物になる様子を描く。2つの申請書アイコンをクリップで1つに
+まとめ、緑のチェックマークと「一括申請」のラベルを添える。バラバラの
+2枚の申請書アイコンには赤い✕マークを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+まとめて一件
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権抹消は登記官の職権で処理
+Illustration: 敷地権付きの甲・乙区分建物が区分合併で1つの非区分建物に
+なる図を描く。登記官キャラクターがスタンプを押し「職権で抹消」のラベルを
+添える。傍らに「変更登記を併せて申請」という書類アイコンに赤い✕マークを
+添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+職権で抹消される
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+原始取得者に代位して転得者が申請
+Illustration: デベロッパー（原始取得者）が表題登記を放置している横で、
+買主C（転得者）が「代位」のラベルの付いた矢印でデベロッパー名義の申請書を
+提出する図を描き、緑のチェックマークを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+代位申請できる
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

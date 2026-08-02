@@ -86,16 +86,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-敷地権が専有部分と一体化する場面の原則2枚、その一体化を分離処分する場面の原則3枚、計5枚のカードで構成し、甲土地・乙土地上の丁区分建物・戊区分建物と、隣接する丙土地（A・B駐車場）の位置関係をイントロのイラストに反映した画像生成プロンプト。
+敷地権について「専有部分と一体（分離処分できない）」と「分離するには規約設定＋抹消が必要」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。導入イラスト・導入文のブロックは置かない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, a
 building split into sectioned units, official stamps/seals, meeting
 assembly icons, padlocks, parking-lot car icons, arrows — adapt icon
 set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -104,103 +115,96 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・権・地・建・物・登・記, which have Simplified Chinese look-alike
-forms with visibly different stroke shapes — always draw the standard
-Japanese (Jōyō) form of these characters.
+kanji 権・地・建・物・登・記・処・約 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-敷地権を切り離すには
-「規約」がいるんです
+Title (large, bold, 1行):
+敷地権を切り離すには「規約」がいるんです
 
 Subtitle (smaller, centered, 1行):
-共有持分と敷地権、分離処分可能規約の関係を整理(令和4年度 午後の部 第18問)
+令和4年度 午後の部 第18問－共有持分と敷地権、分離処分可能規約の関係
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric site-layout diagram on the left showing two
-adjacent land plots labeled "甲土地" and "乙土地", both tagged as jointly
-owned by "A" and "B", with a single tall building standing across both
-plots, internally divided into two sections labeled "丁区分建物" (linked
-to a small "A" figure) and "戊区分建物" (linked to a small "B" figure).
-Beside these two plots, a separate land plot labeled "丙土地" is shown
-as a parking lot with small car icons, also tagged as jointly owned by
-"A" and "B".
-敷地権は、専有部分と、その敷地を利用する権利（敷地利用権）を一体化させて、
-バラバラに処分できないようにする仕組みです。この問題は、共有持分と敷地権、
-そして分離処分可能規約の関係を、具体的な土地・建物の配置に沿って問うています。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-敷地権は原則として専有部分と一体（分離処分できない）
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+敷地権は専有部分と一体（分離処分できない）
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-共有持分権を敷地権として、丁区分建物の表題登記を申請できる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+共有持分権も敷地権として登記できる
 Illustration: An isometric icon showing the "甲土地"・"乙土地" plots
-with A's共有持分 (a highlighted slice of the jointly-owned plots tagged
-"Aの共有持分権") connected by a solid chain-link icon to the "丁区分建物"
-section of the building, with a document icon labeled "表題登記" being
-approved by a green checkmark stamp.
-Caption (small text below):
-共有持分権を敷地権として丁区分建物の表題登記を申請できる（区分所有法22条1項）。
+with Ａの共有持分 (a highlighted slice of the jointly-owned plots tagged
+"Ａの共有持分権") connected by a solid chain-link icon to the "丁区分建物"
+section of the building, with a document icon labeled "表題登記" approved
+by a green ✓ checkmark stamp.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+共有持分でも敷地権
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-規約敷地になったら、Bは1か月以内に表題部変更登記を申請
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約敷地になれば1か月以内に変更登記
 Illustration: An isometric arrow transforms the "丙土地" parking-lot
 plot (car icons fading out) into a plot tagged "規約敷地" attached to
-the "戊区分建物" section, with a small "B" figure holding a document,
+the "戊区分建物" section, with a small "Ｂ" figure holding a document,
 next to a calendar icon highlighting "1か月以内".
-Caption (small text below):
-規約敷地になったらBは1か月以内に表題部変更登記を申請（法51条1項）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1か月以内に申請
 
---- COLUMN B HEADER (pill-shaped badge) ---
-分離するには規約の設定＋敷地権登記の抹消が必要
-
---- COLUMN B, CARD 1 ---
-Heading (bold):
-規約の設定には4分の3以上の多数決が必要で、Aのみでは足りない
-Illustration: An isometric assembly (集会) scene with several small
-resident silhouette figures around a table, three-quarters of them
-highlighted green with checkmarks and a large "4分の3" fraction badge
-above, while a single lone "A" figure holding a議事録-style document is
-marked with a red X to show insufficient agreement.
-Caption (small text below):
-規約設定には4分の3以上の多数決が必要でAのみでは不可（区分所有法31条1項）。
-
---- COLUMN B, CARD 2 ---
-Heading (bold):
-一部の区分建物についてのみ、分離処分可能規約を設定できる
-Illustration: An isometric view of the building split into its two
-sections: "丁区分建物" has an open padlock icon and a badge labeled
-"分離処分可能規約", while "戊区分建物" keeps a closed padlock icon,
-showing the regulation applies to only one section of the building.
-Caption (small text below):
-一部の区分建物についてのみ分離処分可能規約を設定できる（昭58.11.10民三
-6400号）。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+分離するには規約設定＋抹消が必要
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-分離して処分するには、前提として敷地権登記の抹消が必要
-Illustration: A two-step isometric sequence: Step 1 shows "甲土地のA
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約設定は4分の3以上の賛成が必要
+Illustration: An isometric assembly (集会) scene with several small
+resident silhouette figures around a table, three-quarters of them
+highlighted green with ✓ checkmarks and a large "4分の3" fraction badge
+above, while a single lone "Ａ" figure holding a議事録-style document is
+marked with a red ✕ to show insufficient agreement.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+4分の3の賛成必須
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+一部の区分建物だけ分離処分規約も可
+Illustration: An isometric view of the building split into its two
+sections: "丁区分建物" has an open padlock icon and a badge labeled
+"分離処分可能規約" with a ✓ checkmark, while "戊区分建物" keeps a closed
+padlock icon, showing the regulation applies to only one section of the
+building.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一部だけでも設定可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+分離処分には敷地権登記の抹消が前提
+Illustration: A two-step isometric sequence: Step 1 shows "甲土地のＡ
 の共有持分権" with a "敷地権" stamp being crossed out by a red "抹消"
 stamp on the "丁区分建物" registry page; Step 2, connected by an arrow,
 shows the共有持分権 now free to move with a "移転登記" arrow pointing to
-a new owner icon, illustrating that the抹消 must happen first.
-Caption (small text below):
-分離処分には前提として敷地権登記の抹消が必要（法73条2項）。
+a new owner icon and a ✓ checkmark, illustrating that the抹消 must
+happen first.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+先に抹消登記が必要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和4年度 午後の部 第18問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・権・地・建・物・登・記. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly (2 cards
-under 敷地権は原則として専有部分と一体（分離処分できない）, 3 cards
-under 分離するには規約の設定＋敷地権登記の抹消が必要), with no
-duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+attention to 権・地・建・物・登・記・処・約. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

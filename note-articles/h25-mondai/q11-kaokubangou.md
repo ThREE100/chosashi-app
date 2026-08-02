@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-家屋番号の性質に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+家屋番号について「申請情報でどう扱われるか」と「どこにどう記録・付番されるか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric houses, land plots,
+registry desks, application documents, number-tag nameplates, torn paper
+labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,9 +110,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・地・番・建・物・登・記・所 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -108,57 +120,85 @@ Title (large, bold, 2行):
 家屋番号は自動で変わらない
 
 Subtitle (smaller, centered, 1行):
-家屋番号の性質を整理(平成25年度 午後の部 第11問)
+家屋番号の性質を整理（平成25年度 午後の部 第11問－申請情報での扱いと記録のされ方）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric house icon with a fixed number-tag (家屋番号) attached to it like a permanent nameplate, while the land plot beneath it changes its own number tag (地番) without affecting the house's nameplate.
-家屋番号は、土地の地番とは別に建物ごとに付される固有の識別番号です。地番の変更に連動して自動的に変わるものではない、という独立性を5枚のカードで整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-分割の登記の申請には、分割前の建物の家屋番号の提供が必要
-Illustration: An isometric building being split into two by scissors icon (建物の分割), with the application document requiring the original building's number tag (分割前の家屋番号) to be filled in, red X over a blank field.
-Caption (small text below):
-建物の分割の登記を申請するときは、どの建物を分割するか特定するため分割前の建物の家屋番号を申請情報に含める必要がある。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請情報での扱い
 
---- CARD 2 ---
-Heading (bold):
-不動産番号を提供する場合は、家屋番号の提供を省略できる
-Illustration: An isometric document showing a single 不動産番号 barcode tag replacing the need for separate 地番 and 家屋番号 fields, both greyed out as unnecessary.
-Caption (small text below):
-申請情報として不動産番号を提供する場合には、家屋番号など他の識別情報の提供を省略できる。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+分割登記は元の家屋番号が必要
+Illustration: An isometric building being split into two by a scissors
+icon (建物の分割). A person submits an application form at a registry
+desk; the field for the original building's number tag (分割前の家屋番号)
+is highlighted as required, with a red X over an attempt to leave it
+blank.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+分割前の番号が必要
 
---- CARD 3 ---
-Heading (bold):
-家屋番号は地番の更正に連動せず、家屋番号自体の更正登記という制度はない
-Illustration: An isometric house with a fixed number-tag (家屋番号10番1) remaining unchanged, while the land plot beneath it changes its number tag from 10番 to 10番1の更正, a red X over an attempted 家屋番号の更正登記 stamp.
-Caption (small text below):
-建物の所在する土地の地番が更正されても家屋番号は当然には連動せず、家屋番号自体を更正する登記という制度はない。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+不動産番号があれば省略可
+Illustration: An isometric application document showing a single
+不動産番号 barcode tag glowing as sufficient, while separate 地番 and
+家屋番号 fields on the same form are greyed out and crossed through as
+unnecessary.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+家屋番号は省略可
 
---- CARD 4 ---
-Heading (bold):
-区分建物の家屋番号は、区分建物と一棟の建物の両方の表題部に記録される
-Illustration: An isometric condominium building (一棟の建物) with a master list on its own record showing every unit's number tag, and each individual unit (区分建物) also carrying its own matching number tag on its own record.
-Caption (small text below):
-区分建物の家屋番号は、各区分建物自身の表題部だけでなく、一棟の建物の表題部にも一覧的に記録される。
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+地番が変わっても番号は不変
+Illustration: An isometric house with a fixed number-tag nameplate
+(家屋番号10番1) staying unchanged, while the land plot beneath it changes
+its own tag from 10番 to 10番1. A red X sits over an attempted stamp
+reading 家屋番号の更正登記.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+更正登記の制度なし
 
---- CARD 5 ---
-Heading (bold):
-管轄登記所が異なっても、附属建物に独立した家屋番号は付されない
-Illustration: An isometric main building (主である建物) under 登記所A with its own number tag, connected to a small attached shed (附属建物) physically located under a different 登記所B boundary line, the shed having no separate number tag of its own, red X over an attempted independent tag.
-Caption (small text below):
-主である建物と附属建物の所在する土地の管轄登記所が異なる場合でも、附属建物に独立した家屋番号は付されない。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+記録・付番のルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物は一棟にも二重記録
+Illustration: An isometric condominium tower (一棟の建物) with a master
+list on its own record showing every unit's number tag, connected by a
+dotted line to a single unit below (区分建物) that also carries its own
+matching number tag on its own separate record.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一棟にも記録される
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+別管轄の附属建物は付番なし
+Illustration: An isometric main building (主である建物) inside a
+登記所Aの管轄 boundary carrying its own number tag, connected by a bridge
+to a small attached shed (附属建物) sitting inside a different 登記所B
+の管轄 boundary line. The shed has no separate number tag; a red X sits
+over an attempted independent tag.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+独立した番号なし
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第11問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+（申請情報での扱いに3枚、記録・付番のルールに2枚）, with no duplicated or
+missing cards, that badge numbers run 1-5 continuously across both
+columns without resetting, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

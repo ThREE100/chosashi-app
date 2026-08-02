@@ -94,10 +94,10 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地の地目について、教授と学生の対話に登場する5つの施設・土地の組合せ（ア〜オ）を、正しい地目のルールに直したうえで5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+土地の地目について、「地目が同じペア」（イ・ウ・エ）と「地目が違うペア」（ア・オ）という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric park with trees and
@@ -108,6 +108,17 @@ canal through rice paddies, water channel leading to a hydroelectric dam,
 ledger book, wooden number tags, equals "＝" and not-equal "≠" badge
 symbols — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -115,104 +126,90 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・準・則・条・敷・雑・悪・電・変,
-which have Simplified Chinese look-alike forms with visibly different
-stroke shapes — always draw the standard Japanese (Jōyō) form of these
-characters.
+kanji 地・番・準・則・条・敷・雑・悪・電・変 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-土地の地目、同じ？違う？
-準則68条・69条で見分ける
+Title (large, bold, 1行):
+その土地、地目は同じ？違う？
 
 Subtitle (smaller, centered, 1行):
-教授と学生の対話形式問題を整理（平成30年度 午後の部 第9問）
+平成30年度 午後の部 第9問－準則68条・69条で見分ける地目
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design scene showing small icons of a
-park, a horse racetrack, a kindergarten building with a playground, an
-apartment building, an oil tank, an electricity pylon, a substation, an
-irrigation canal, and a hydroelectric water channel arranged loosely
-around a central open ledger book labeled "準則68条・69条", with faint
-question mark icons connecting related pairs to suggest "同じ地目か、
-違う地目か" comparisons.
-地目の認定は、不動産登記事務取扱準則68条・69条にほぼ答えが集約されて
-います。68条が23種類の地目の定義を、69条が「その土地は何地目として
-取り扱うか」という運用の具体例を並べています。対話形式で問われる各
-施設・土地が、準則のどこに位置づけられるかを一つずつ照らし合わせます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-公衆の遊楽のための土地は「公園」、馬場は「雑種地」で別の地目
-Illustration: An isometric park icon (trees, bench, small fountain)
-labeled "公園" on the left, connected by a dotted line to a "≠"
-not-equal badge symbol in the center, leading to an oval horse
-racetrack icon labeled "雑種地" on the right. A small wooden tag reading
-"準則68条22号" sits near the park icon, and a small wooden tag reading
-"準則69条8号" sits near the racetrack icon.
-Caption (small text below):
-公衆の遊楽のために供する土地は雑種地ではなく「公園」（準則68条22号）。
-競馬場内の馬場は雑種地（準則69条8号）で別の地目。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+地目が同じペア
 
---- CARD 2 ---
-Heading (bold):
-園舎の敷地も一体利用の運動場も、まとめて「学校用地」
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+園舎と運動場は同じ学校用地
 Illustration: An isometric kindergarten building icon connected by a
 solid line with an "＝" equals badge symbol to an adjacent playground
 and running-track icon, both enclosed together within a single rounded
-dashed boundary labeled "学校用地". A small reference tag reads
-"地目認定82頁".
-Caption (small text below):
-幼稚園の園舎の敷地と、それと一体的に利用されている運動場は、いずれも
-学校用地として一体で取り扱う（地目認定82頁）。
+dashed boundary labeled "学校用地".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+学校用地でひとまとめ
 
---- CARD 3 ---
-Heading (bold):
-石油タンクの敷地も、共同住宅の敷地と同じ「宅地」
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+石油タンクも共同住宅も宅地
 Illustration: An isometric apartment building icon labeled "宅地" on the
 left, connected by an "＝" equals badge symbol to a cylindrical oil
-storage tank icon also labeled "宅地" on the right. Small wooden tags
-near the tank read "準則68条3号" and "準則69条10号".
-Caption (small text below):
-建物の敷地は宅地（準則68条3号）。石油タンクは建物ではないが、その敷地
-も宅地として取り扱う（準則69条10号）。共同住宅の敷地と同じ地目。
+storage tank icon also labeled "宅地" on the right.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+どちらも宅地
 
---- CARD 4 ---
-Heading (bold):
-高圧線下の土地も変電所の敷地も、どちらも「雑種地」
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+高圧線下も変電所も雑種地
 Illustration: An isometric electricity pylon with high-voltage lines
 running over a narrow strip of land labeled "雑種地" on the left,
 connected by an "＝" equals badge symbol to a fenced substation icon
-also labeled "雑種地" on the right. A small wooden tag reads
-"準則69条14号".
-Caption (small text below):
-高圧線の下で他の目的に使用できない土地も、変電所の敷地も、いずれも
-雑種地として取り扱う（準則69条14号）。
+also labeled "雑種地" on the right.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+どちらも雑種地
 
---- CARD 5 ---
-Heading (bold):
-かんがい用水路は「用悪水路」、発電用の排水路は「雑種地」で別の地目
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+地目が違うペア
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+公園と馬場は別の地目
+Illustration: An isometric park icon (trees, bench, small fountain)
+labeled "公園" on the left, connected by a dotted line to a "≠"
+not-equal badge symbol in the center, leading to an oval horse
+racetrack icon labeled "雑種地" on the right.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+公園≠雑種地
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+用悪水路と発電水路は別地目
 Illustration: An isometric narrow irrigation canal running through rice
 paddies labeled "用悪水路" on the left, connected by a dotted line to a
 "≠" not-equal badge symbol in the center, leading to a water channel
 flowing into a hydroelectric dam/power station labeled "雑種地" on the
-right. Small wooden tags read "準則68条16号" near the canal and
-"準則69条5号" near the power channel.
-Caption (small text below):
-かんがい用または悪水排せつ用の水路は用悪水路（準則68条16号）。水力
-発電のための水路は雑種地（準則69条5号）で別の地目。
+right.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+用悪水路≠雑種地
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成30年度 午後の部 第9問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・準・則・条・敷・雑・
-悪・電・変. If any character renders as a Simplified Chinese variant,
-redraw that character in the correct Japanese form. Confirm the number
-of cards equals 5 exactly, with no duplicated or missing cards, and
-confirm every heading, illustration label, and caption text matches the
-Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

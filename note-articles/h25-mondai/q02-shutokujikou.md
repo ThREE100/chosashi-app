@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-取得時効における善意無過失の判断基準と占有の承継について、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+取得時効について「単独で占有した場合のルール」と「占有を引き継いだ場合のルール」という2つの軸に沿って、5肢すべての結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots, timeline
+rulers, relay-race runners, progress bars, magnifying glasses, torches,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,67 +110,90 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・継・隠・悪・効 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-取得時効のものさし
-「いつ」の善意無過失が効くのか
+Title (large, bold, 1行):
+取得時効、「いつ」の善意が効くのか
 
 Subtitle (smaller, centered, 1行):
 占有の承継と善意無過失の判断基準を整理(平成25年度 午後の部 第2問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene showing a land plot with a timeline ruler stretching across it, a small figure standing at the start of the timeline (占有開始) with a magnifying glass icon, and a second figure further along the timeline holding a torch (occupation being passed on).
-取得時効の「善意無過失」は占有を始めた時だけで判断され、「平穏・公然」は占有期間を通じて必要という、要件ごとの性質の違いがポイントです。占有を引き継いだ場合の判断基準もあわせて整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-賃借権も時効取得の対象となり得る
-Illustration: An isometric land plot with a small house icon and a key icon labeled 賃借権 slowly filling up a progress bar over a timeline, ending with a green checkmark stamp.
-Caption (small text below):
-無権利者から借りた土地であっても、賃借の意思をもって平穏かつ公然に使用収益を続ければ、賃借権を時効によって取得できる。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+単独で占有した場合のルール
 
---- CARD 2 ---
-Heading (bold):
-「平穏・公然」は占有期間を通じて必要。途中で隠匿になれば時効は成立しない
-Illustration: An isometric timeline where the first half of a land plot's occupation is shown brightly lit and open (公然), and the second half suddenly darkens with a figure hiding behind a fence icon (隠匿), with a red X stamp over the time-effect result.
-Caption (small text below):
-占有開始時に善意無過失でも、10年が経過する前に隠匿の占有に転じると、公然性の要件が失われ時効は成立しない。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+賃借権も時効取得の対象になる
+Illustration: An isometric land plot with a small house icon and a key
+icon labeled 賃借権 slowly filling up a progress bar over a timeline,
+ending with a green checkmark stamp.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+賃借権も時効取得可
 
---- CARD 3 ---
-Heading (bold):
-「善意無過失」は占有開始時のみで判断。途中で悪意に転じても10年時効は成立する
-Illustration: An isometric timeline showing a figure at the starting point with a bright green checkmark labeled 善意無過失, and later along the same timeline a thought bubble revealing the truth (悪意に転じる), but the final result still shows a green checkmark at the 10-year mark.
-Caption (small text below):
-占有開始の時点で善意無過失であれば、その後に真の所有者を知ったとしても、10年の取得時効の成立には影響しない。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+途中で隠匿になれば時効不成立
+Illustration: An isometric timeline where the first half of a land plot's
+occupation is shown brightly lit and open (公然), and the second half
+suddenly darkens with a figure hiding behind a fence icon (隠匿), with a
+red X stamp over the time-effect result.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+隠匿で時効ストップ
 
---- CARD 4 ---
-Heading (bold):
-承継占有を合算する場合、善意無過失は最初の占有者を基準に判断する
-Illustration: An isometric relay-race scene on a land plot: a first runner figure labeled 善意無過失 handing a baton to a second runner figure labeled 悪意, with a single green checkmark stamped at the finish line labeled 10年.
-Caption (small text below):
-前の占有者の占有をあわせて主張する場合、善意無過失の判断は最初に占有を開始した者を基準に行う(判例)。
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+善意無過失は「開始時」だけで判定
+Illustration: An isometric timeline showing a figure at the starting point
+with a bright green checkmark labeled 善意無過失, and later along the same
+timeline a thought bubble revealing the truth (悪意に転じる), but the
+final result still shows a green checkmark at the 10-year mark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+開始時さえ善意ならOK
 
---- CARD 5 ---
-Heading (bold):
-最初の占有者が悪意なら、合算しても10年の短期時効は成立しない
-Illustration: An isometric relay-race scene mirroring the previous card but reversed: a first runner figure labeled 悪意 handing a baton to a second runner figure labeled 善意無過失, with a red X at the 10-year finish line.
-Caption (small text below):
-最初の占有者が占有開始時から悪意であった場合、後に善意無過失の占有者が引き継いでも、10年の短期取得時効は成立しない。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+占有を引き継いだ場合のルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+合算時は最初の占有者で判断
+Illustration: An isometric relay-race scene on a land plot: a first runner
+figure labeled 善意無過失 handing a baton to a second runner figure
+labeled 悪意, with a single green checkmark stamped at the finish line
+labeled 10年.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+最初が善意なら合算OK
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+最初が悪意なら合算しても不成立
+Illustration: An isometric relay-race scene mirroring the previous card
+but reversed: a first runner figure labeled 悪意 handing a baton to a
+second runner figure labeled 善意無過失, with a red X at the 10-year
+finish line.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+最初が悪意だと不成立
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第2問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

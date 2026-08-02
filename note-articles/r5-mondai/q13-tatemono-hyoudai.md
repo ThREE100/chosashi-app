@@ -84,15 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の表題登記について、表題部所有者・申請人に関するルール2枚と、所在・名称・申請書に関するルール3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+建物の表題登記について「表題部所有者・申請人に関するルール」2枚と「所在・名称・申請書に関するルール」3枚の計5枚のポスター型カードで俯瞰する構成。通し番号バッジ・短い見出し・図解・短い結論タグだけで構成し、導入イラスト・導入文のブロックは置かない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, ledger
 pages, name tags, address labels, company/person figures, document
 stamps, arrows, prohibition marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -101,9 +112,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 建・物・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -111,98 +121,86 @@ Title (large, bold, 2行):
 申請ルールを整理する
 
 Subtitle (smaller, centered, 1行):
-合併・小字・名称・一括申請・共有者(令和5年度 午後の部 第13問)
+令和5年度 午後の部 第13問－合併・小字・名称・一括申請・共有者
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon showing a newly built house
-with no registration record yet (a blank ledger page beside it), and an
-arrow transforming the blank ledger into a filled 表題部 page listing
-表題部所有者・所在・家屋番号・名称, with small icon tags (a person
-figure, an address label, a name plate) orbiting the building to
-represent the several things this registration must record correctly.
-建物の表題登記は、まだ登記記録のない建物について表題部を新しく作る登記です。
-誰が申請できるのか、所在や名称をどう記録するのか、区分建物の一括申請の
-ルールはどうなっているのかを整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 表題部所有者・申請人に関するルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-吸収合併で引き継いだ会社は、表題部所有者にはならない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+合併会社は表題部所有者にならない
 Illustration: Two isometric company-building icons labeled 株式会社Ａ and
 株式会社Ｂ, with a merge arrow showing 株式会社Ｂ being absorbed into a
 third company icon labeled 株式会社Ｃ. Beside them, a 甲建物 icon with a
 表題部 nameplate listing only "株式会社Ａ・株式会社Ｂ", while the
 株式会社Ｃ icon stands outside the nameplate with a small "一般承継人"
-label and a prohibition (no-entry) mark between it and the nameplate.
-Caption (small text below):
-表題部所有者となるのはあくまで原始取得者である株式会社Ａ及び株式会社Ｂで
-あり、吸収合併により引き継いだだけの株式会社Ｃを表題部所有者とすること
-はできない(法47条)。
+label and a red X mark between it and the nameplate.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一般承継人にすぎない
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-共有の区分建物の表題登記は、共有者の一人から申請できる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+共有の区分建物は一人で申請可
 Illustration: An isometric apartment-room icon shared by two person
 figures labeled Ａさん and Ｂさん. Ａさん steps forward alone holding a
 document stamped 申請 with a small "保存行為" badge attached, while
 Ｂさん stands calmly in the background without taking action.
-Caption (small text below):
-表題登記の申請は保存行為にあたるため、共有者の一人から申請することが
-できる(民法252条ただし書)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+保存行為で申請可
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 所在・名称・申請書に関するルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-地番区域が大字でも、小字の記載は省略できない
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+大字でも小字は省略できない
 Illustration: An isometric address tag reading "甲郡乙町大字丙字丁" with
 the "字丁" portion circled by a magnifying glass, and a crossed-out
 scissors icon hovering over "字丁" to show that this part cannot be cut
 off or omitted.
-Caption (small text below):
-地番区域が大字である場合であっても、小字である丁の記載を省略すること
-はできない(昭41.1.11民甲229号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+小字は省略不可
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-非区分建物の名称は、所在欄に記録される
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+非区分建物の名称は所在欄に記録
 Illustration: An isometric one-story house icon with a small nameplate
 reading "○○荘" attached to it, connected by an arrow into a ledger
 page's "所在欄" row. A separate row labeled "建物の名称欄" is shown
 grayed out and crossed out beside it, since non-区分建物 records have no
 independent name column.
-Caption (small text below):
-区分建物でない建物の名称は、表題部の所在欄に記録される。独立した建物の
-名称欄は設けられていない(法44条1項4号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+名称欄は存在しない
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-区分建物の一括申請は、各別の申請書でも差し支えない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+一括申請でも申請書は分けてよい
 Illustration: An isometric apartment building containing several
 区分建物 unit icons, each connected by a dotted line to its own small
 申請書 document (not one single bundled document), with all documents
 grouped inside a dashed boundary and a checkmark labeled "全部そろえば
 OK" over the group.
-Caption (small text below):
-区分建物を新築した場合は全部の区分建物について一括して申請しなければ
-ならないが、全部そろっていれば各別の申請書によっても差し支えない
-(法48条1項、昭58.11.10民三6400号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+各別の申請書も可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第13問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (2
-cards under 表題部所有者・申請人に関するルール, 3 cards under
-所在・名称・申請書に関するルール), with no duplicated or missing cards,
-and confirm every heading, illustration label, and caption text matches
-the Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

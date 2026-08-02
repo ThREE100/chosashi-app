@@ -82,7 +82,9 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+土地家屋調査士・土地家屋調査士法人に関する5つの規律（利益相反・清算人の資格・登録取消しへの不服申立て・法人の鑑定業務・補助者の扱い）は、互いに独立したテーマであり2軸に分ける自然な構造がないため、列分けをせず単一列・通し番号1〜5の5枚のカードで俯瞰する構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -93,103 +95,111 @@ figure with a badge, a law-book icon, a corporate/法人 building icon,
 surveying equipment, government-office icons — adapt icon set to the
 topic of professional regulation for land and house surveyors).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Special caution: this topic repeatedly uses the kanji 登・録・地・建・物・
-所 (as in 土地家屋調査士, 登録取消し, 事務所). Render each of these in
-standard Japanese Jōyō form, never in Simplified Chinese form (録 must
-not become a simplified variant; 建 must not become a simplified variant;
-所 must not become a simplified variant; 記 must not become 记 — always
-use 記).
+summarize, or substitute any characters. Pay special attention to the
+kanji 調・査・士・登・録 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (録 must not become a
+simplified variant).
 
 --- HEADER ---
 Title (large, bold, 1行):
 土地家屋調査士・調査士法人、5つの規律ポイント
 
 Subtitle (smaller, centered, 1行):
-令和2年度 土地家屋調査士試験 午後の部 第20問
+令和2年度 午後の部 第20問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric figure of a土地家屋調査士(land and house
-surveyor) wearing a professional badge, standing beside icons
-representing a law book (土地家屋調査士法), a corporate/法人 building
-icon, and surveying equipment（測量機器）, symbolizing professional
-regulation.
-土地家屋調査士法・土地家屋調査士法人に関するルールのまとめです。利益相反の禁止、法人の清算人の資格、登録取消しへの不服申立て、鑑定業務、補助者の扱いなど、実務家としての基本的な規律が問われます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- ENUMERATION NOTICE ---
-以下は本問のア〜オ、合計5個の論点カードである。番号・文言は下記のとおり一字一句そのまま使用し、重複禁止・欠落禁止・言い換え禁止とする。
-1. ア：公務員時代に扱った事件、調査士としても扱えないんです
-2. イ：調査士法人の清算人は、調査士じゃなきゃダメなんです
-3. ウ：登録取消しの不服は、法務大臣に審査請求するんです
-4. エ：調査士法人は、筆界鑑定の仕事もできるって知ってた？
-5. オ：測量業務そのものは、補助者に任せられないんです
-
---- CARD 1（ア） ---
-Heading (bold):
-公務員時代に扱った事件、調査士としても扱えないんです
+--- CARD 1 ---
+Badge: a filled circle in a single accent color containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+公務員時代の事件は扱えない
 Illustration: A single person icon shown in two roles side by side —
 left half wearing a 公務員(government official) uniform handling a case
 file labeled 事件Ｘ, right half wearing a 土地家屋調査士バッジ reaching
 toward the same file 事件Ｘ but blocked by a red "×" barrier.
-Caption (small text below):
-公務員として取り扱った事件は業務を行えない（土地家屋調査士法22条の2第1項）
+Conclusion tag (colored banner below the illustration, 5-15 characters):
+業務を行えない
 
---- CARD 2（イ） ---
-Heading (bold):
-調査士法人の清算人は、調査士じゃなきゃダメなんです
+--- CARD 2 ---
+Badge: a filled circle in a single accent color containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+調査士法人の清算人は調査士に限る
 Illustration: A corporate/法人 building icon labeled 土地家屋調査士法人
 undergoing 解散・清算(dissolution), with a person icon wearing a
 土地家屋調査士バッジ stepping in as 清算人 with a green checkmark, while a
 generic office-staff person icon (no badge) is blocked with a red "×"
 from becoming 清算人.
-Caption (small text below):
-調査士法人の清算人は調査士でなければならない（土地家屋調査士法39条3項）
+Conclusion tag (colored banner below the illustration, 5-15 characters):
+調査士でなければならない
 
---- CARD 3（ウ） ---
-Heading (bold):
-登録取消しの不服は、法務大臣に審査請求するんです
+--- CARD 3 ---
+Badge: a filled circle in a single accent color containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+登録取消しの不服は法務大臣へ
 Illustration: A 土地家屋調査士 person icon receiving a torn-paper notice
 labeled 登録取消し; an arrow shows the person submitting a document
 labeled 審査請求 to a government-building icon labeled 法務大臣.
-Caption (small text below):
-業務不履行による登録取消しへの不服は法務大臣への審査請求（同法17条）
+Conclusion tag (colored banner below the illustration, 5-15 characters):
+法務大臣へ審査請求
 
---- CARD 4（エ） ---
-Heading (bold):
-調査士法人は、筆界鑑定の仕事もできるって知ってた？
+--- CARD 4 ---
+Badge: a filled circle in a single accent color containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+調査士法人は筆界鑑定業務も可
 Illustration: A 土地家屋調査士法人 building icon with a document icon
 labeled 定款; beside it, a person icon（鑑定人）holding a magnifying glass
 over a land-boundary line (筆界) and producing a document labeled 鑑定書,
 with a green checkmark.
-Caption (small text below):
-調査士法人は定款で定めれば筆界鑑定業務ができる
+Conclusion tag (colored banner below the illustration, 5-15 characters):
+鑑定業務ができる
 
---- CARD 5（オ） ---
-Heading (bold):
-測量業務そのものは、補助者に任せられないんです
+--- CARD 5 ---
+Badge: a filled circle in a single accent color containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+測量業務そのものは補助者に不可
 Illustration: A 土地家屋調査士 person icon holding surveying equipment
 （測量機器）standing at a land plot; a 補助者(assistant) person icon
 nearby reaching for the surveying equipment but blocked by a red "×",
 while a small separate icon shows the 補助者 doing only secondary
 desk/office tasks labeled 補助的な事務 with a green checkmark.
-Caption (small text below):
-測量業務そのものは補助者に取り扱わせることができない
+Conclusion tag (colored banner below the illustration, 5-15 characters):
+補助者には不可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 公務員時代の事件は扱えない
+2. 調査士法人の清算人は調査士に限る
+3. 登録取消しの不服は法務大臣へ
+4. 調査士法人は筆界鑑定業務も可
+5. 測量業務そのものは補助者に不可
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Pay special attention to 登・録・地・建・物・所 as
-noted above. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, and that they correspond exactly to ア・イ・
-ウ・エ・オ in that order.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

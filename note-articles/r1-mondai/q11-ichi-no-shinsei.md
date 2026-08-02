@@ -80,3 +80,131 @@
 - 滅失と新築の表題登記は、別々の出来事だから一括できない
 - 同じ日に2筆が宅地になったら、まとめて申請できるって知ってた？
 - 分筆は申請人が同じなら、一件でまとめて出せるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+一の申請情報でまとめられる場面かどうかを、「同一の不動産の中で完結する組み合わせ」（列A・緑、ア・イ）と「複数の不動産にまたがる組み合わせ」（列B・青、ウ・エ・オ、いずれも正しい結論だけを図解）の2系統に整理し、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, house/
+building icons, registry desks, application document folders, stamps,
+merge arrows, checkmarks and cross marks, calendar icons, etc. — adapt
+icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・建・物・登・記・所・筆・合・変・更・題・滅・失・義・者 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+一の申請情報、まとめられるのはどこまで？
+
+Subtitle (smaller, centered, 1行):
+令和元年度　午後の部　第11問－一括申請の許容ライン
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+同一の不動産で完結する組み合わせ
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+氏名変更と合筆はまとめて申請OK
+Illustration: 一つの土地アイコン（甲土地）の前に表題部所有者Aのキャラクター
+が立ち、右手に「氏名変更」のラベル付き書類、左手に「合筆」のラベル付き書類
+を持っている。二つの書類が矢印で一つの申請書フォルダにまとまり、フォルダに
+緑の✓マークが付く。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+同一申請で一括可能
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+地目変更と地積更正も一括でOK
+Illustration: 一つの土地アイコンの上に「地目変更」のスタンプと「地積更正」
+のスタンプが重なって表示され、矢印で一つの申請書フォルダへまとまっていく。
+フォルダに緑の✓マーク。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+表題部の変更更正は一括可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+複数の不動産にまたがる組み合わせ
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+別の建物どうしの滅失と表題登記は不可
+Illustration: 左に取り壊される甲建物アイコン（崩れるイメージ、赤い✕）、
+右に新築された乙建物アイコン（＋マーク）。それぞれ別々の申請書フォルダに
+入っており、二つのフォルダを結ぶ線に赤い✕マークと「別々に申請」の小さな
+ラベル。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+対象建物が別なら不可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+同じ日の地目変更2筆はまとめてOK
+Illustration: 隣接する甲土地・乙土地の二つのアイコンが、どちらも「雑種地
+→宅地」に変わる矢印を持ち、同じカレンダーアイコン（同一日付）を共有して
+いる。二つの申請が一つの申請書フォルダにまとまり、緑の✓マーク。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+目的原因日付が同一
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有者が同じ2筆の分筆もまとめてOK
+Illustration: 甲土地（表題部所有者Aのラベル）と乙土地（登記名義人Aの
+ラベル）が、それぞれ点線で二つに分かれる様子を描き、Aのキャラクターが
+一つの申請書フォルダにまとめて提出する。フォルダに緑の✓マーク。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+申請人目的が同一なら可
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 氏名変更と合筆はまとめて申請OK
+2. 地目変更と地積更正も一括でOK
+3. 別の建物どうしの滅失と表題登記は不可
+4. 同じ日の地目変更2筆はまとめてOK
+5. 所有者が同じ2筆の分筆もまとめてOK
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

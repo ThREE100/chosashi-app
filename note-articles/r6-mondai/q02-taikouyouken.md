@@ -84,106 +84,114 @@ Aが甲土地をBに売却した後、登記未了の間にCのために抵当�
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「177条の第三者にあたるか」を分水嶺として、登記なしでは対抗できない相手（ア・イ）と、登記なしでも対抗できる相手（ウ・エ・オ）を2列に分けて対比させ、5枚のカードで俯瞰する構成。
+「177条の第三者にあたるか」を分水嶺として、登記なしでは対抗できない相手（ア・イ）と、登記なしでも対抗できる相手（ウ・エ・オ）の2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, hanko
 stamps, torn paper labels, house-shaped registration seals, courthouse
 gavel icons, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Pay special
-attention to the characters 権・地・登・記・所, which have simplified
-Chinese look-alike forms with different stroke shapes — always draw the
-standard Japanese (Jōyō) form. Reproduce the exact text strings given below
-verbatim — do not paraphrase, translate, summarize, or substitute any
-characters.
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・地・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
 登記なしで対抗できる相手・できない相手
 
-Subtitle (smaller, centered, 2行):
-民法177条の「第三者」の範囲を見極める
-令和6年度 土地家屋調査士試験 午後の部 第2問
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第2問－民法177条の「第三者」の範囲を見極める
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Aから甲土地をBが購入する売買契約の場面（AとBの間に甲土地を
-表す isometric な区画と、判子(はんこ)を押す手のアイコン）。その背後に、
-Cやその他の人物のシルエットが複数並び、「この人は『第三者』？」と問いか
-けるような吹き出しアイコンを添える。
-甲土地をBに売却した後、登記をしないままだと、様々な人との関係で「対抗で
-きるか」が問題になります。民法177条の「第三者」にあたるかどうかで、登記
-がなくても対抗できるかが分かれます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-第三者にあたる → 登記がなければ対抗できない
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+第三者にあたる→登記なしでは対抗できない
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-単純悪意の第三者にも、登記がなければ対抗できない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+単純悪意者にも登記なしは不可
 Illustration: 甲土地の権利証を持たないBと、「AB間の売買を知っていた」だ
 けの単なる悪意者Cが向き合う構図。Bの手には×印のついた盾のアイコン（対抗
 不可を表す）。傍らに判例ラベルの札「最判昭32.9.19」を添える。
-Caption (small text below):
-単純悪意の第三者も「第三者」にあたり、登記なしでは対抗できない（最判昭32.9.19）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+悪意でも対抗不可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-抵当権が実行されて買受人となった者にも、登記がなければ対抗できない
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+抵当権実行の買受人にも不可
 Illustration: 甲土地に設定された抵当権(isometric な鎖と錠前のアイコン)が
 実行され、競売のハンマー(gavel)アイコンとともに買受人Dが土地の鍵を受け取
 る構図。登記のないBは壁の外側に立ち、×印のついた盾を持つ。
-Caption (small text below):
-抵当権実行の買受人は所有権取得者であり、登記なしでは対抗できない
+Conclusion tag (green banner below the illustration, 5-15 characters):
+買受人にも対抗不可
 
-（…ここでCOLUMN Aは以上2枚で終わり、COLUMN Bへ続く。列を分けている。）
-
---- COLUMN B HEADER (pill-shaped badge) ---
-第三者にあたらない → 登記がなくても対抗できる
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+第三者にあたらない→登記なしでも対抗できる
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-前主・後主の関係にある者には、登記なしで対抗できる
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+前主・後主は対抗できる
 Illustration: A→B→Cと一直線につながる矢印で甲土地の所有権が転々移転する
 様子を描く。Cが元の所有者Aに向かって、チェックマーク付きの盾のアイコン
 （対抗成功）を掲げる。傍らに判例ラベルの札「最判昭43.11.19」を添える。
-Caption (small text below):
-前主・後主の関係にある者は「第三者」にあたらず、登記なしで対抗できる（最判昭43.11.19）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+前主後主は対抗可
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-売主の相続人には、登記なしで対抗できる
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+売主の相続人にも対抗できる
 Illustration: Aが亡くなり(星のような小さな追悼アイコン)、矢印でAの立場が
 そのまま唯一の相続人Cへ引き継がれる相続の図。BとCの間にチェックマーク付
 きの盾のアイコンを配置する。傍らに条文ラベルの札「民法896条本文」を添え
 る。
-Caption (small text below):
-相続人は被相続人を包括承継するため、登記なしで対抗できる（896条本文）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+包括承継だから対抗可
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-不法占拠者には、登記なしで明渡しを請求できる
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+不法占拠者に登記は不要
 Illustration: 何の権原もないCが甲土地の上に勝手にテントを張って住み着い
 ている構図。Bがその前でチェックマーク付きの盾のアイコンと「明渡し請求」
 を表す矢印のアイコンを掲げる。
-Caption (small text below):
-不法占拠者は「第三者」にあたらず、登記なしで対抗できる
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+明渡し請求できる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 権・地・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly (2 cards in Column A, 3 cards
-in Column B), with no duplicated or missing cards, and confirm the card
-headings and captions match the text given above verbatim.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards in Column A, 3 cards in Column B), with no duplicated or missing
+cards, that badge numbers run 1-5 continuously across both columns
+without resetting, confirm there is no intro illustration or paragraph
+block between the header and the cards, and confirm that no card contains
+a full sentence of explanatory prose — every card's takeaway must read
+as a short heading + a short conclusion tag, at a glance.
 ```

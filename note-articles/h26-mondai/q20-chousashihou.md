@@ -78,3 +78,120 @@
 - 正当な理由がなければ、秘密は話せないんです
 - 社員じゃなくても、社員と同じ責任を負うことがあるんです
 - 研修を受けるのは、実は努力義務なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地家屋調査士法の業務ルールに関する5つの異なる論点（届出の経由先、民間紛争解決手続代理関係業務の執行権限、秘密保持義務、外観責任、研修の努力義務）を、単一列・5枚のポスター型カードで、通し番号バッジ・短い見出し・図解・短い結論タグだけで俯瞰する構成。導入イラストや導入文のブロックは置かない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric office buildings,
+registry association halls, ID badges, locked speech-bubble icons,
+handshake icons, seminar/training icons, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 経・廃・認・誤・責・資 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+業務廃止の届出は、連合会に直接じゃないんです
+
+Subtitle (smaller, centered, 1行):
+平成26年度　午後の部　第20問－土地家屋調査士法の業務ルールを個数問題で総まとめ
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+業務廃止届は調査士会を経由
+Illustration: An isometric 土地家屋調査士 person icon walking first to a
+local building labeled "所属する土地家屋調査士会" with a checkmark, then
+an arrow continuing on to a larger building labeled "日本土地家屋調査士
+会連合会". A separate direct path from the person straight to the
+連合会 building is crossed out with a red X.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+調査士会経由、直接不可
+
+--- CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+認定調査士だけが業務執行
+Illustration: An isometric 土地家屋調査士法人 office with two 社員 person
+icons. One wears a badge labeled "認定" and holds a document labeled
+"民間紛争解決手続代理関係業務" with a checkmark. The other 社員, without
+the badge, has a red X blocking them from touching that same document.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+認定調査士のみ執行
+
+--- CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+正当な事由なく秘密は漏らせない
+Illustration: An isometric 土地家屋調査士 person icon with a padlock over
+a speech bubble containing small icons representing a 依頼者の秘密情報.
+A leaking-mouth icon is crossed out with a red X, labeled "秘密を漏らす
+禁止", while a small key icon labeled "正当な事由" sits beside the lock
+as the only exception.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+秘密保持義務
+
+--- CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+社員と誤認させたら同一責任
+Illustration: A person NOT actually a 社員, wearing a fake badge labeled
+"社員", shaking hands with a client icon labeled "取引の相手方（誤認）".
+A stamp labeled "社員と同一の責任" is applied onto the fake-社員 person,
+showing the consequence of the deception.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+外観を信頼した者を保護
+
+--- CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+研修受講は努力義務
+Illustration: An isometric 土地家屋調査士 person icon attending a
+研修セミナー, with banner icons for "土地家屋調査士会" and "日本土地家屋
+調査士会連合会" above the podium. A skill-up arrow icon rises beside the
+person, and a soft rounded badge labeled "努力義務" is shown instead of a
+hard "義務" stamp.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+資質向上に努める
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```

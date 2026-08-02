@@ -86,15 +86,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-地積測量図について、作成に関する原則を3枚、提供・保存に関する原則を2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+地積測量図について、作成に関する原則（基準点・分筆単位・縮尺）を3枚、提供・保存に関する原則を2枚の、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots,
 surveying instruments, ledger books, filing shelves, courthouse/gavel,
 stamps, arrows — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,103 +113,95 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to
-standard Japanese (Jōyō) form of these characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・縮・尺 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 地積測量図、作成から保存まで
-縮尺と保存期間の落とし穴
 
 Subtitle (smaller, centered, 1行):
-座標の記録から閉鎖後の保存期間まで整理(令和元年度 午後の部 第7問)
+令和元年度 午後の部 第7問－縮尺と保存期間の落とし穴
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a
-surveyor with a measuring instrument taking a reading from a land plot
-marked with coordinate points, connected by a dotted line to a filing
-shelf holding ledger books on the right, representing storage.
-地積測量図は、筆界点の座標をどう記録するか、複数筆をまとめて分筆すると
-きにどう作成するか、そしてその図面をいつまで保存するかまで、不動産登記
-規則が細かくルールを定めています。「〜しなければならない」という言い回
-しが本当に義務なのか、どこまでの範囲に及ぶのかを正確に押さえましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 地積測量図の作成に関する原則
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-基本三角点等がなければ、近傍の恒久的な地物で測る
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+基準点なければ近傍の地物で測る
 Illustration: An isometric land plot with a triangulation point icon
-crossed out in the distance (absent), a large fixed structure (a stone
-monument) nearby labeled 「恒久的な地物」, and a surveyor taking a
-measurement line from that structure to the land plot's corner point.
-Caption (small text below):
-近傍に基本三角点等がなく測量ができない特別の事情があるときは、近傍の恒
-久的な地物に基づく測量成果による座標値を記録する(不登規77条、準則50条
-2項)。
+crossed out in the distance (absent), a large fixed stone monument nearby
+labeled 「恒久的な地物」, and a surveyor taking a measurement line from
+that monument to the land plot's corner point, with a checkmark on the
+recorded coordinate.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+近傍の恒久的地物
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-数筆まとめて分筆するときは、元の筆ごとに図面を作る
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+数筆分筆でも図面は元の筆ごと
 Illustration: An isometric view of three adjacent land plots labeled
-「甲番」「乙番」「丙番」each divided by a dashed line, with three
-separate sheets of paper fanned out, each stamped with only one original
-plot number, showing they are drawn individually rather than combined
-into one sheet.
-Caption (small text below):
-一の申請情報で隣接する数筆の分筆の登記を申請する場合、地積測量図は分筆
-前の土地ごとに作成する。
+「甲番」「乙番」「丙番」each divided by a dashed line, with three separate
+sheets of paper fanned out, each stamped with only one original plot
+number, showing they are drawn individually rather than combined into
+one sheet.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+分筆前の筆ごとに作成
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-地積測量図と地役権図面、縮尺をそろえる義務はない
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+縮尺、地役権図面と揃える義務なし
 Illustration: An isometric two-panel comparison: left panel a land plot
 drawing labeled 「地積測量図 250分の1」, right panel an overlapping range
 drawing labeled 「地役権図面 適宜の縮尺」, connected by an equals-sign
-icon with a red cross-out mark over it to show they need NOT match.
-Caption (small text below):
-地積測量図は250分の1が原則、地役権図面の縮尺は適宜でよく、両者を同一に
-しなければならない規定はない(不登規77条4項・79条2項)。
+icon with a large red X mark over it to show they need NOT match.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+縮尺統一は不要
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 地積測量図の提供・保存に関する原則
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-判決による所有権保存登記でも、地積測量図が必要
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+判決の保存登記でも図面必要
 Illustration: An isometric courthouse/gavel icon and a document labeled
-「確定判決」 pointing with an arrow to a land plot, alongside icons of
-the required attachments 「土地所在図」 and 「地積測量図」 being handed
-over together with the registration application.
-Caption (small text below):
-確定判決で所有権を確認された者が所有権の保存登記を申請する場合にも、土
-地所在図・地積測量図を提供しなければならない(不登法74条2項)。
+「確定判決」 pointing with an arrow to a land plot, alongside icons of the
+required attachments 「土地所在図」 and 「地積測量図」 with checkmarks,
+being handed over together with the registration application.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+図面提供は必須
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-閉鎖された地積測量図は、永久保存ではない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+閉鎖図面は永久保存じゃない
 Illustration: An isometric filing shelf with two ledger books: one
-labeled 「現に効力を有する図面」 stamped 「永久保存」, another labeled
+labeled 「現に効力を有する図面」 stamped 「永久保存」; another labeled
 「閉鎖された図面」 with a clock/hourglass icon showing a limited time
-period, eventually being placed into a 「廃棄」 bin after the period
-elapses.
-Caption (small text below):
-閉鎖された地積測量図は永久保存の対象ではなく、一定の保存期間の経過後は
-保存対象から外れる(不登規28条)。
+period and a red X mark over 「永久」, eventually being placed into a
+「廃棄」 bin after the period elapses.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+保存期間あり
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度 午後の部 第7問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・縮・尺. If any
-character renders as a Simplified Chinese variant, redraw that character
-in the correct Japanese form. Confirm the number of cards equals 5
-exactly (3 cards under 地積測量図の作成に関する原則, 2 cards under 地積
-測量図の提供・保存に関する原則), with no duplicated or missing cards,
-and confirm every heading, illustration label, and caption text matches
-the Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

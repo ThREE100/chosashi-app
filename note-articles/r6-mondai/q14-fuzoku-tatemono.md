@@ -84,7 +84,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「効用上一体性という実体要件」と「合併・変更登記に必要な図面という手続要件」の2系統に分け、ア〜オ5肢すべてを正しいルールとして俯瞰する5カード構成。
+附属建物にまつわるア〜オ5肢の正しいルールを、「効用上一体性という実体要件」と「合併・変更登記に必要な添付情報という手続要件」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成(導入イラスト・導入文のブロックは置かない)。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -94,95 +94,107 @@ modern explainer-graphic aesthetic (icons: isometric houses, warehouses,
 annex buildings, floor-plan documents, torn paper labels, stamps, etc. —
 adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. In particular, the kanji 号・権・
-建・物・登・記・所 have Simplified Chinese variants that look similar but
-are structurally different — draw them in the standard Japanese (Jōyō)
-form only, never the simplified form.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・権・建・物・登・記・所・図・積 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-離れは、いつでも附属建物になれるわけじゃない
-附属建物の要件と手続を整理
+Title (large, bold, 1行):
+離れは、いつでも附属建物になれる?
 
 Subtitle (smaller, centered, 1行):
-出題年度：令和6年度　午後の部　第14問
+令和6年度 午後の部 第14問－要件と手続を整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric main house (主である建物) with a smaller
-annex building (附属建物) connected to it by a dotted line and a small
-"効用上一体" torn-paper label, next to a magnifying glass hovering over
-a floor-plan document, symbolizing both the substantive requirement and
-the registration procedure.
-附属建物として登記できるかどうかの核心は、「主である建物と効用上一体として利用される状態にあるか」という一点です。この要件を軸に、合併・変更登記の添付情報や申請義務の細目を確認していきましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-実体要件：効用上一体性(法2条1項23号)
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+実体要件：効用上一体性
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-効用上一体でない建物は、附属建物とする登記ができない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+効用上一体でなければ附属不可
 Illustration: Two separate isometric buildings standing close together
 but not connected — a house labeled "甲建物(住宅)" and, right next to
 it, a warehouse labeled "乙建物(倉庫)" with no shared roof or walkway; a
 red "✕" mark and a red torn-paper label "効用上一体でない" placed between
 them.
-Caption (small text below):
-隣り合って建っているだけで用途上の関連がない甲建物(住宅)と乙建物(まったく無関係の倉庫)について、乙建物を甲建物の附属建物として登記することはできません。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+附属建物にできない
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 手続要件：添付情報と申請義務
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-建物合併登記でも、各階平面図の提供は省略できない
+--- COLUMN B, CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+建物合併も各階平面図は必須
 Illustration: Two isometric buildings merging into one outlined building
 with an arrow labeled "合併登記", next to a stack of floor-plan documents
 labeled "各階平面図" stamped with a red circle reading "提供必須".
-Caption (small text below):
-甲建物を乙建物の附属建物とする合併登記を申請する際、床面積などがまったく変わらないからといって各階平面図の提供を省略することはできません。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+省略できない
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-先取特権保存登記後の附属建物完成は「遅滞なく」変更登記が必要
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+先取特権後の完成は遅滞なく登記
 Illustration: An annex building under construction with scaffolding, next
 to a document icon labeled "先取特権 保存登記" already stamped, a clock
 icon, and a red torn-paper label "遅滞なく", with an arrow pointing to a
 document labeled "表題部変更登記".
-Caption (small text below):
-増築中の離れについて先取特権の保存登記をしていた場合、離れが完成したら、通常の増築より急いで表題部の変更登記を申請しなければなりません。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+遅滞なく申請
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-附属建物の新築日が主建物と同日なら、日付の記載は不要
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+同日新築なら新築日の記載不要
 Illustration: An isometric main house (母屋) and a small annex (離れ)
 being built side by side, both pointing to a single calendar with one
 circled date shared by both buildings; a document icon showing 申請情報
 with the 新築日 field for the annex marked with a small "記載不要" label.
-Caption (small text below):
-母屋と離れを同じ日に新築した場合、離れについて改めて新築日を申請情報に記載する必要はありません。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+記載省略できる
 
---- COLUMN B, CARD 4 ---
-Heading (bold):
-附属建物新築による変更登記には、建物図面の提供が必要
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物新築には建物図面が必要
 Illustration: A house with a newly built annex (物置) beside it, and a
 hand placing a floor-plan document labeled "建物図面" onto a stamped
 folder, with a torn-paper label "提出必須".
-Caption (small text below):
-既存の住宅に新しく物置(附属建物)を建てた場合の変更登記では、その物置の位置がわかる変更後の建物図面を提供する必要があります。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+提供必須
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (1
-card in Column A, 4 cards in Column B), with no duplicated or missing
-cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

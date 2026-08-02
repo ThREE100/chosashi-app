@@ -86,16 +86,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-名簿の登録取消し・調査士法人の入会・審査請求・欠格事由・変更届出という5つの手続ルールを、各肢1枚ずつ、正しいルールに直した5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+名簿の登録取消し・調査士法人の入会・審査請求・欠格事由・変更届出という5つの手続ルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×2200 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x2200 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric ledger book, official
 seals/stamps, balance scale for discretion, calendar pages, courthouse/
 government building, envelope and arrow for notifications, ID badge for
-association membership).
+association membership — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -104,102 +115,89 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・猶・予・審・査・欠・格, which
-have Simplified Chinese look-alike forms with visibly different stroke
-shapes — always draw the standard Japanese (Jōyō) form of these characters.
+kanji 登・録・地・猶・予・審・査・欠・格・請 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-名簿の登録と入会
-取消しは義務か、裁量か
+Title (large, bold, 1行):
+名簿の登録と入会、取消しは義務か裁量か
 
 Subtitle (smaller, centered, 1行):
-取消し・入会・審査請求・届出のルールを整理(平成30年度 午後の部 第20問)
+平成30年度 午後の部 第20問－取消し・入会・審査請求・届出のルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a large
-open ledger book labeled "土地家屋調査士名簿" with a wooden ID badge
-labeled "調査士会" resting beside it, connected by a thin dotted line to
-show that registration in the ledger and membership in the association
-are two linked but distinct procedures.
-土地家屋調査士名簿の登録や調査士会への入会は、「取消しは義務なのか裁量な
-のか」「会員になるのは届出をしたときか、それとも成立と同時か」といった
-細かい違いが問われます。条文の言い回しに引きずられず、原則を正確に押さ
-えることが大切です。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-2年以上業務を行わなくても、取消しは「できる」であって義務ではない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+2年未業務でも取消しは裁量
 Illustration: An isometric scene showing a land and house surveyor figure
 standing idle beside a dusty desk, with a balance scale icon above
 labeled "裁量" tilting to show a judgment call rather than an automatic
 action, and a small ledger page labeled "土地家屋調査士名簿" with a
 pencil icon (not a stamp) hovering over it to show the decision is not
 yet fixed.
-Caption (small text below):
-引き続き2年以上業務を行わないときの登録取消しは裁量的取消しであり、
-連合会は「取り消すことができる」(法16条1項1号)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+義務ではなく裁量
 
 --- CARD 2 ---
-Heading (bold):
-調査士法人は、届出の有無にかかわらず成立の時に会員となる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+調査士法人は成立時に当然会員
 Illustration: An isometric scene showing a building labeled "土地家屋
 調査士法人" with a red official seal stamp marking the moment of
 establishment, and at the exact same instant an ID badge labeled
 "調査士会 会員" automatically clipping onto the building, with a bold
 "＝" symbol between the seal and the badge to show they occur
 simultaneously, and no envelope or notification icon present.
-Caption (small text below):
-調査士法人は、その成立の時に主たる事務所の所在地の調査士会の会員となる。
-会員となるための要件として届出は求められていない(法53条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+届出は不要
 
 --- CARD 3 ---
-Heading (bold):
-3月経過しても処分がなければ、拒否とみなして審査請求できる
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+3月無処分なら拒否とみなし審査請求
 Illustration: An isometric scene showing a calendar block flipping
 through three pages labeled "1月" "2月" "3月" beside an empty inbox tray
 labeled "処分なし", with an arrow leading from the calendar to a
 government building icon labeled "法務大臣" and a document labeled
 "審査請求" being handed toward it.
-Caption (small text below):
-登録の申請の日から3月を経過しても連合会が何らの処分をしないときは、
-申請者は登録を拒否されたものとして、法務大臣に対して審査請求をする
-ことができる(法12条2項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+拒否とみなす
 
 --- CARD 4 ---
-Heading (bold):
-執行猶予中も欠格事由に該当し、登録を取り消すことができる
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+執行猶予中も欠格事由で取消し可
 Illustration: An isometric scene showing a document labeled "禁錮以上の
 刑" with a smaller attached tag labeled "執行猶予中", next to a ledger
 page labeled "土地家屋調査士名簿" being marked with a red stamp labeled
 "取消し可" to show the association still has the power to revoke.
-Caption (small text below):
-禁錮以上の刑に処せられ、その刑の全部の執行が猶予されている場合も欠格
-事由に該当し、連合会は登録を取り消すことができる(刑法10条1項本文)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+取消しできる
 
 --- CARD 5 ---
-Heading (bold):
-登録事項の変更は、所属の調査士会を経由して連合会へ届け出る
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+変更事項は調査士会経由で届出
 Illustration: An isometric scene showing a surveyor figure holding a
 document labeled "変更届出書", passing it first to a local office
 building labeled "所属 調査士会", from which an arrow continues onward to
 a larger building labeled "日本土地家屋調査士会連合会", making the
 two-step routing visually explicit.
-Caption (small text below):
-調査士名簿に登録を受けた事項に変更が生じたときは、遅滞なく、所属する
-調査士会を経由して、調査士会連合会にその旨を届け出なければならない
-(法14条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+調査士会を経由
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成30年度 午後の部 第20問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・猶・予・審・査・欠・格.
-If any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the number of cards
-equals 5 exactly, with no duplicated or missing cards, and confirm every
-heading, illustration label, and caption text matches the Japanese text
-given above verbatim, with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

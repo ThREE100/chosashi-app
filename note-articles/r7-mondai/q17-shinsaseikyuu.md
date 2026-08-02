@@ -85,7 +85,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-登記官の処分についての審査請求を「不動産登記法158条による一般法の適用除外」「審査請求の対象にならないもの」「裁決後の手続き」の3系統に分け、5枚のカードで俯瞰する構成にした。
+登記官の処分についての審査請求を「審査請求ができないケース」と「審査請求の基本ルール」という2つの軸に沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -95,6 +95,17 @@ modern explainer-graphic aesthetic (icons: isometric government office
 buildings, courthouse, calendar pages, official document stamps, torn
 paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -102,95 +113,85 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-following kanji, which have visually similar but different Simplified
-Chinese forms: 権・地・登・記・当・筆・界・積・請・裁・決・謄 — render
-each in its standard Japanese (Jōyō) form only.
+kanji 地・登・記・筆・界・積・請・裁・決・謄 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-令和7年度 第17問
-審査請求の期間と対象
+Title (large, bold, 1行):
+審査請求、その主張は通る？
 
 Subtitle (smaller, centered, 1行):
-登記官の処分に対する審査請求 ― 5つの記述を検証する
+令和7年度 午後の部 第17問－対象・期間・参加人のルールを検証
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 女性の土地家屋調査士が書類を手に持ち、左側に法務局の建物、
-右側に裁判所の建物を見比べているイソメトリックイラスト。頭上に「審査請求」
-と書かれた吹き出しラベル。
-登記官の処分に対する審査請求には、期間の制限や、そもそも対象になるかどうかの
-見極めが必要です。数字の間違いや対象外の主張を見抜くのがポイントです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-一般法の適用除外(不動産登記法158条)
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+審査請求ができないケース
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+筆界特定の結果は対象外
+Illustration: 筆界特定登記官が示した判定結果の書類に「処分ではない」と
+書かれた札が付いている。書類から裁判所の建物へ向かう矢印があり、矢印
+の途中に「境界確定訴訟」というラベルが添えられている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+境界確定訴訟で争う
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+隣接地は筆界異議で争えない
+Illustration: 隣り合う甲土地と乙土地のイソメトリックイラスト。乙土地の
+所有者が甲土地の地積更正登記に向かって「筆界異議」という吹き出しを出し
+ているが、その吹き出しには赤い×印が重ねられている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+筆界異議では不可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+参加人という制度自体がない
+Illustration: 審査請求の手続きを表す机のイラスト。机には審査請求人(本人)
+だけが着席し、抵当権者を表す人物には「参加人」と書かれた札に赤い×印が
+かかっている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+参加人制度なし
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+審査請求の基本ルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
 審査請求に期間制限はない
 Illustration: 破れたカレンダーのイラストに大きく「期間制限なし」と書かれた
 判子が押されている。背景に「1か月」「3か月」という数字ラベルがあり、
 それぞれに赤い×印が重ねられている。
-Caption (small text below):
-登記官の処分についての審査請求(不動産登記法156条1項)には、不動産登記法
-158条により行政不服審査法18条が適用除外され、そもそも期間制限という
-考え方自体が存在しない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+期間制限そのものなし
 
---- COLUMN A, CARD 2 ---
-Heading (bold):
-参加人という制度自体が存在しない
-Illustration: 審査請求の手続きを表す机のイラスト。机には審査請求人(本人)
-だけが着席し、抵当権者を表す人物には「参加人」と書かれた札に赤い×印が
-かかっている。
-Caption (small text below):
-行政不服審査法13条の参加人制度も、不動産登記法158条により156条1項の
-審査請求には適用除外されている。抵当権者であっても参加人として加わる
-ことはできない。
-
---- COLUMN B HEADER (pill-shaped badge) ---
-審査請求の対象にならないもの
-
---- COLUMN B, CARD 3 ---
-Heading (bold):
-筆界特定の結果は審査請求の対象外
-Illustration: 筆界特定登記官が示した判定結果の書類に「処分ではない」と
-書かれた札が付いている。書類から裁判所の建物へ向かう矢印があり、矢印
-の途中に「境界確定訴訟」というラベルが添えられている。
-Caption (small text below):
-筆界特定は実体的な権利関係を確定させる処分ではないため、審査請求の対象
-にならない。不服がある場合は境界確定訴訟によって争う。
-
---- COLUMN B, CARD 4 ---
-Heading (bold):
-隣接地の地積更正登記は筆界異議で争えない
-Illustration: 隣り合う甲土地と乙土地のイソメトリックイラスト。乙土地の
-所有者が甲土地の地積更正登記に向かって「筆界異議」という吹き出しを出し
-ているが、その吹き出しには赤い×印が重ねられている。
-Caption (small text below):
-隣接する乙土地の所有者は、筆界に異議があることを理由として甲土地の地積
-更正登記の取消しを求める審査請求はできない。対抗手段は筆界特定の申請
-(不動産登記法131条)による。
-
---- COLUMN C HEADER (pill-shaped badge) ---
-裁決後の手続き
-
---- COLUMN C, CARD 5 ---
-Heading (bold):
-裁決書の謄本は審査請求人と登記官の双方に交付
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+裁決書謄本は双方に交付
 Illustration: 法務局の建物から2通の書類が飛び出し、一方は審査請求人の
 もとへ、もう一方は登記官のもとへ届くイラスト。それぞれの書類に
 「裁決書謄本」というラベルが付いている。
-Caption (small text below):
-法務局又は地方法務局の長が裁決したときは、裁決書の謄本を審査請求人だけ
-でなく処分をした登記官にも交付する(不動産登記準則145条1項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+請求人と登記官へ
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-note記事「審査請求、期間と対象を正しく押さえる」より
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm no heading or label text is
-repeated across different cards.
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

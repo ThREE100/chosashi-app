@@ -84,16 +84,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-制限行為能力者(未成年後見人・成年被後見人・被保佐人・補助)の類型ごとに、「誰が請求できるか」「本人の同意が要るか」「相手方の事情が影響するか」という正しいルールを、4つの類型を列(コラム)の軸として5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+制限行為能力者(未成年後見人がいる未成年者・成年被後見人・被保佐人・補助)に関する5つの正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric people figures,
 courthouse and gavel, family/guardian figures, shopping basket, contract
 documents, speech bubbles, padlocks, prohibition marks, checkmark stamps —
 adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,125 +113,94 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・審・証・検・監・佐, which have Simplified Chinese look-alike
-forms with visibly different stroke shapes — always draw the standard
-Japanese (Jōyō) form of these characters.
+kanji 後・見・審・補・資 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
 制限行為能力者
-類型ごとに変わる「できること」
+どこまで自分で決められる？
 
 Subtitle (smaller, centered, 1行):
-未成年後見人・成年被後見人・被保佐人・補助のルールを整理(平成30年度 午後の部 第1問)
+未成年後見人・成年被後見人・被保佐人・補助のルールを整理（平成30年度 午後の部 第1問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design scene showing four separate
-pastel-colored platforms arranged left to right, each with a small
-isometric figure and a wooden name tag: a teenage figure with a tag
-reading "未成年後見人", an elderly figure with a tag reading "成年被後見
-人", a middle-aged figure with a tag reading "被保佐人", and a figure with
-a tag reading "補助", all connected by a thin dotted baseline to show they
-belong to the same制度ファミリー(制限行為能力者制度)。
-未成年者・成年被後見人・被保佐人・被補助人は、判断能力に応じて4つの類型に
-分かれ、「誰が手続を請求できるか」「本人の同意が必要か」「相手方の事情が
-結論に影響するか」がそれぞれ異なります。類型ごとの違いを、5つのルールに
-分けて整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-未成年後見人が選任されている未成年者
-
---- COLUMN A, CARD 1 ---
-Heading (bold):
-未成年後見人がいても、成年後見人を付けられる
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+未成年後見人がいても後見開始できる
 Illustration: An isometric scene showing a teenage figure with a small
 "未成年後見人" tag standing beside them, above which a courthouse icon
 with a gavel issues a scroll labeled "後見開始の審判"; an arrow points
 from the scroll to a new badge reading "成年後見人" appearing next to the
 teenage figure, with a small hourglass icon nearby labeled "成年後の
 備え" to show this is done in preparation for adulthood.
-Caption (small text below):
-未成年後見人がいる未成年者でも、事理を弁識する能力を欠く常況にあるとき
-は、後見開始の審判をして成年後見人を付することができる。成年に達すると
-未成年後見の効力が終わるため、あらかじめ備えておく制度である。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+後見開始は可能
 
---- COLUMN B HEADER (pill-shaped badge) ---
-成年被後見人
-
---- COLUMN B, CARD 2 ---
-Heading (bold):
-日用品の購入は、相手方の善意・悪意を問わず取り消せない
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+日用品購入は善意でも取消不可
 Illustration: An isometric scene showing a figure labeled "成年被後見
 人" shopping at a small grocery stall holding a basket with food icons,
 next to a store clerk figure with a thought bubble containing a question
 mark (representing not knowing the buyer's status); overlaying a torn
 paper label reading "取消し" is a red prohibition (no-entry) mark, and a
 small tag reading "日用品" is attached to the basket.
-Caption (small text below):
-日用品の購入その他日常生活に関する行為は、売主が後見開始の事実を知らな
-かった(善意)場合でも、成年被後見人が単独でしたときは取り消すことができ
-ない(民法9条ただし書)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+善意でも取消不可
 
---- COLUMN C HEADER (pill-shaped badge) ---
-被保佐人
-
---- COLUMN C, CARD 3 ---
-Heading (bold):
-契約相手は、保佐開始の審判取消しを請求できない
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+契約相手は審判取消しを請求できない
 Illustration: An isometric scene showing a courthouse icon on one side
 with a row of eligible requester figures labeled "本人"「配偶者」「4親
 等内の親族」「保佐人」each with a green checkmark pointing toward the
 courthouse; separately, a businessperson figure labeled "契約相手" stands
 outside a low fence icon topped with a red prohibition mark, unable to
 reach the courthouse.
-Caption (small text below):
-保佐開始の審判を受けた原因が消滅したときの審判取消しを請求できるのは、
-本人・配偶者・4親等内の親族・保佐人など条文に列挙された者に限られる
-(民法14条1項)。単なる契約の相手方は請求権者に含まれない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+請求資格なし
 
---- COLUMN C, CARD 4 ---
-Heading (bold):
-保佐人の同意を得た行為でも、やめるかどうかは本人が決める
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+同意があってもやめるのは本人次第
 Illustration: An isometric scene showing a figure labeled "被保佐人"
 holding a document labeled "保証契約" stamped with a green checkmark from
-a figure labeled "保佐人" standing beside them(representing 同意); the
+a figure labeled "保佐人" standing beside them (representing 同意); the
 被保佐人 figure is shown turning away with a hand gesture and setting the
 document down, with a small label reading "やめる" and no coercion arrow,
 to show the choice is entirely the本人のもの。
-Caption (small text below):
-保佐人の同意は「してよい」という許可にとどまり、「しなければならない」
-という義務ではない。同意を得た保証契約であっても、締結するかどうかは被
-保佐人自身の判断でやめることができる(民法13条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+撤回は本人の自由
 
---- COLUMN D HEADER (pill-shaped badge) ---
-補助
-
---- COLUMN D, CARD 5 ---
-Heading (bold):
-本人以外の請求で補助を始めるには、本人の同意が必要
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+補助開始には本人の同意が必要
 Illustration: An isometric scene showing a family member figure with a
 speech bubble reading "補助開始の審判をお願いします" pointing toward a
 courthouse icon whose door has a padlock; beside it, an elderly figure
 labeled "本人" holds up a speech bubble with a checkmark reading
 "同意します", and only when this checkmark bubble touches the padlock
 does it unlock, showing the court cannot proceed without本人の同意。
-Caption (small text below):
-本人以外の者の請求により補助開始の審判をするには、本人の同意が必要であ
-る(民法15条2項)。補助は制限行為能力者制度のなかで判断能力の低下がもっ
-とも軽い類型であり、本人の自己決定を尊重する。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+本人の同意が必須
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成30年度 午後の部 第1問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・審・証・検・監・佐. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly (1 card under 未成年後
-見人が選任されている未成年者, 1 card under 成年被後見人, 2 cards under
-被保佐人, 1 card under 補助), with no duplicated or missing cards, and
-confirm every heading, illustration label, and caption text matches the
-Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+without resetting, confirm there is no intro illustration or paragraph
+block between the header and the cards, and confirm that no card contains
+a full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
 ```

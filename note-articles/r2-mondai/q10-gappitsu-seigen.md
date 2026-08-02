@@ -82,14 +82,28 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+合筆の登記の制限を「合筆できる例外」（列A・緑）と「合筆できない事由」（列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots, mortgage
+stamps, trust documents, street signs, easement paths, registration
+stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -97,7 +111,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・番・録・権・登・記・所・筆・役 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -107,80 +123,88 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和2年度 午後の部 第10問／権利関係が同一なら合筆できる例外
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric view of two adjacent land plots (甲土地・
-乙土地) with a merge arrow between them, overlaid with small icon badges
-— 抵当権, 信託, 地役権, 仮登記 — each badge paired with either a green
-circle (合筆できる) or a red X (合筆できない) depending on whether the
-right-hand content matches.
-合筆の登記は、権利関係が複雑な土地どうしをまとめると公示が煩雑になるため、原則として制限されています。ただし、権利の内容が完全に同一であれば例外的に認められる場合もあります。5つの場面で「合筆できる／できない」を確認します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
-以下の5枚のカードは、下記の番号・見出し文言のとおり過不足なくちょうど5枚作成すること（重複禁止・欠落禁止・言い換え禁止）：
-1. 内容が完全に同一の抵当権と変更登記があれば、合筆できる
-2. 地番区域が異なる土地は、合筆できない
-3. 信託目録の登記事項が同一なら、信託の登記があっても合筆できる
-4. 要役地としての地役権の登記がある土地は、合筆できない
-5. 所有権移転の仮登記がある土地は、合筆できない
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+合筆できる例外のルール
 
---- CARD 1 ---
-Heading (bold):
-内容が完全に同一の抵当権と変更登記があれば、合筆できる
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+同一内容の抵当権なら合筆可
 Illustration: An isometric 甲土地 and 乙土地 side by side, each with an
 identical mortgage icon (抵当権) labeled with the same 受付年月日・受付番号,
 followed by identical change-registration icons (変更登記) on both
 plots. A green 合筆○ label sits between the two plots.
-Caption (small text below):
-登記の目的・受付年月日・受付番号・登記原因及びその日付がすべて同一の抵当権（変更登記を含む）であれば、合筆できる（不動産登記規則105条2号）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+内容同一なら合筆可
 
---- CARD 2 ---
-Heading (bold):
-地番区域が異なる土地は、合筆できない
-Illustration: An isometric land plot with a street sign reading
-○○町一丁目 next to an adjacent land plot with a street sign reading
-○○町二丁目, with a red 合筆× label between them despite the plots being
-physically adjacent.
-Caption (small text below):
-地目または地番区域が相互に異なる土地は合筆することができない（不動産登記法41条2号）
-
---- CARD 3 ---
-Heading (bold):
-信託目録の登記事項が同一なら、信託の登記があっても合筆できる
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+信託目録同一なら合筆可
 Illustration: An isometric 甲土地 and 乙土地, each with a trust
 registration icon (信託の登記) and an accompanying 信託目録 document. An
 equals sign (＝) connects the contents of both 信託目録 documents,
 showing they are identical, with a green 合筆○ label.
-Caption (small text below):
-双方の信託の登記について、各信託目録に記録された登記事項が同一であるものは、例外的に合筆できる（不動産登記規則105条3号）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+信託目録が同一なら可
 
---- CARD 4 ---
-Heading (bold):
-要役地としての地役権の登記がある土地は、合筆できない
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+合筆できない事由のルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+地番区域が違えば合筆不可
+Illustration: An isometric land plot with a street sign reading
+○○町一丁目 next to an adjacent land plot with a street sign reading
+○○町二丁目, with a red 合筆× label between them despite the plots being
+physically adjacent.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+区域相違は合筆不可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+要役地の地役権は合筆不可
 Illustration: An isometric 丙土地 (承役地, shown as a pathway/road strip)
 in the middle, with 甲土地 and 乙土地 (要役地) on either side, each
 connected to 丙土地 by an arrow labeled 地役権. A red X sits on a merge
 arrow between 甲土地 and 乙土地, with a small note 例外は承役地側の地役権のみ.
-Caption (small text below):
-合筆の例外として認められるのは承役地についてする地役権の登記に限られ、要役地としての地役権の登記がある土地は合筆できない（不動産登記規則105条1号）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+例外は承役地側のみ
 
---- CARD 5 ---
-Heading (bold):
-所有権移転の仮登記がある土地は、合筆できない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有権移転の仮登記は合筆不可
 Illustration: An isometric 甲土地 and 乙土地, each stamped with an
 identical dashed-outline registration icon labeled 仮登記（所有権移転）,
 with a red 合筆× label between the two plots despite the identical
 content.
-Caption (small text below):
-所有権の移転の仮登記がある土地は、その内容が同一であっても合筆することができない（不動産登記法41条）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+仮登記があれば不可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-出典：令和2年度 土地家屋調査士試験 午後の部 第10問（不動産登記法41条、不動産登記規則105条ほか）
 
-特に誤りやすい漢字（号・地・番・録・権・登・記・所など）がカード文言に含まれています。これらの漢字は必ず日本語（常用漢字）の字体で描画し、簡体字（中国語の簡化字）にしないでください。
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 同一内容の抵当権なら合筆可
+2. 信託目録同一なら合筆可
+3. 地番区域が違えば合筆不可
+4. 要役地の地役権は合筆不可
+5. 所有権移転の仮登記は合筆不可
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -85,13 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地家屋調査士法人の業務制限をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+土地家屋調査士法人の業務制限に関する5つの場面を、単一の対立軸には収まらない独立した5つの原則として扱い、単一列・5枚のポスター型カードで通し番号バッジ・短い見出し・図解・短い結論タグだけを使って俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric office buildings, staff figures, contracts, coin purses, badges — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric office buildings,
+staff figures, contracts, coin purses, badges — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,9 +113,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・調・査, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 調・査 — these must be rendered in their standard Japanese forms,
+never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -110,51 +122,70 @@ Title (large, bold, 2行):
 できないことがある
 
 Subtitle (smaller, centered, 1行):
-業務制限・競業禁止・連帯責任・筆界調査委員・使用人を整理(平成28年度 午後の部 第20問)
+平成28年度 午後の部 第20問－業務制限・競業禁止・連帯責任・筆界調査委員・使用人
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric 土地家屋調査士法人 office building icon with several社員 figures inside, and one figure(X)shown stepping outside the building to represent leaving(脱退)or working as a使用人.
-脱退後の業務制限、競業禁止の絶対性、社員の連帯責任、筆界調査委員経験者への制限、使用人が受任した事件の相手方制限という5つの場面を通じて、調査士法人の業務制限を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
 --- CARD 1 ---
-Heading (bold):
-関わっていない事件なら、脱退後も引き受けられる
-Illustration: An isometric former社員 figure(脱退後のX)standing outside the法人 office building, receiving a new case document from the相手方 of a matter X never touched while still inside, marked with a checkmark.
-Caption (small text below):
-業務制限の対象は在職中に自ら関与した事件に限られ、関与していない事件なら脱退後に相手方から受任できる(法22条の2第2項)。
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+無関与の事件は脱退後も受任可
+Illustration: An isometric former社員 figure(脱退後のX)standing outside
+the法人 office building, receiving a new case document from the相手方
+of a matter X never touched while still inside, marked with a checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+関与なしなら受任可
+
 --- CARD 2 ---
-Heading (bold):
-全員が賛成しても、競業はできない
-Illustration: An isometric group of社員 figures all giving a thumbs-up(総社員の同意)toward one社員(X)starting a side business, but a large 禁止 stamp blocks the attempt anyway.
-Caption (small text below):
-調査士法人の社員の競業禁止は、総社員の同意があっても解除されない絶対的な禁止(法37条1項)。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+同意があっても競業は不可
+Illustration: An isometric group of社員 figures all giving a thumbs-up
+(総社員の同意)toward one社員(X)starting a side business, but a large
+禁止 stamp blocks the attempt anyway.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+同意でも解禁されない
+
 --- CARD 3 ---
-Heading (bold):
-法人の財産で足りなければ、社員みんなで払う
-Illustration: An isometric法人 office building with an empty coin purse(財産不足), and all社員 figures each contributing their own coins together(連帯して弁済)toward a依頼者 figure.
-Caption (small text below):
-法人財産で債務を完済できないときは、各社員が連帯してその弁済の責任を負う(法35条の3第1項)。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+財産不足なら社員が連帯弁済
+Illustration: An isometric法人 office building with an empty coin purse
+(財産不足), and all社員 figures each contributing their own coins
+together(連帯して弁済)toward a依頼者 figure.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+社員が連帯責任
+
 --- CARD 4 ---
-Heading (bold):
-元・筆界調査委員の事件は、法人でも扱えない
-Illustration: An isometric社員 figure(X)wearing a 筆界調査委員 badge handling a case in the past, and that same case being brought later to the法人, blocked by a 受任不可 stamp.
-Caption (small text below):
-社員が筆界調査委員として職務上取り扱った事件は、その者が所属する法人も受任できない(法22条の2第1項)。
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+筆界調査委員の事件は法人も不可
+Illustration: An isometric社員 figure(X)wearing a 筆界調査委員 badge
+handling a case in the past, and that same case being brought later to
+the法人, blocked by a 受任不可 stamp.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+法人でも受任不可
+
 --- CARD 5 ---
-Heading (bold):
-依頼者がOKでも、相手方は受けられない
-Illustration: An isometric使用人 figure(X)already representing依頼者A, with相手方B approaching the法人 for the same case, blocked despite A giving a thumbs-up(同意)icon nearby.
-Caption (small text below):
-使用人が既に受任している事件の相手方からは、依頼者の同意があっても法人は受任できない(法36条の3第1項4号)。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+依頼者の同意でも相手方は不可
+Illustration: An isometric使用人 figure(X)already representing依頼者A,
+with相手方B approaching the法人 for the same case, blocked despite A
+giving a thumbs-up(同意)icon nearby.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+相手方は受任不可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第20問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・調・査. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

@@ -86,7 +86,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「申請義務・添付書類が不要な場面（ア・イ・エ）」と「誰が申請できるか（ウ・オ）」の2系統に分け、5枚のカードで地積更正登記の全体像を俯瞰する構成。
+地積更正登記について「申請義務・添付書類は不要か」と「誰が申請できるか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
@@ -96,18 +96,26 @@ modern explainer-graphic aesthetic (icons: isometric land plots, measuring
 tape, registry ledger books, official documents, stamps, torn paper labels,
 etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Pay special attention to the following kanji, which are easily confused
-with Simplified Chinese variants: 号・録・権・地・番・建・物・登・記・所。
-Render every occurrence of these characters in standard Japanese (Jōyō)
-form only, never in Simplified Chinese form.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・地・登・記・所・単・独・買 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -115,80 +123,79 @@ Title (large, bold, 2行):
 義務？承諾？申請人は？
 
 Subtitle (smaller, centered, 1行):
-平成17年度 午後の部 第15問を1枚で整理
+平成17年度 午後の部 第15問－申請義務・承諾の要否と申請人の範囲
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 測量士が土地の上で測量メジャー(巻尺)を広げているイラスト。
-背景に登記簿(帳簿)のアイコンを配置し、帳簿に記載された地積の数値と、
-実測した地積の数値がずれていることを、2つの吹き出し数値表示で示す。
-地積の更正登記は、実測したら登記記録の面積と実際の面積が食い違っていた
-ときに、記録を実際に合わせる登記です。「そもそも申請義務があるのか」
-「誰の承諾・証明が必要なのか」「誰が申請できるのか」という論点を整理
-します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 申請義務・添付書類は不要
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
 更正登記に申請義務はない
-Illustration: 新しい所有者を表す人物アイコンの横に「地積更正登記」と
-書かれた書類アイコンを置き、その書類に大きな×印を重ねる。対比として
-隣に「変更登記」の書類アイコンとカレンダー(1か月以内を示す)を小さく
-添え、○印を付ける。
-Caption (small text below):
-所有権が第三者に移転しても、更正登記の申請義務は生じない
-(変更登記の1か月以内の義務とは別の規律)。
+Illustration: An isometric person icon representing the new owner,
+beside a document icon labeled "地積更正登記" with a large red cross
+mark over it. Next to it, for contrast, a small "変更登記" document
+icon with a calendar labeled "1か月以内" carries a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請義務なし
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
 抵当権者の承諾は不要
-Illustration: 銀行(抵当権)を表すアイコンと土地アイコンの間に、承諾書
-アイコンを配置し、その承諾書に×印を重ねる。
-Caption (small text below):
-地積更正登記は表示に関する登記であり、抵当権の登記名義人の承諾を
-証する情報の提供は不要。
+Illustration: An isometric bank icon (representing the 抵当権者)
+beside a land plot icon, with a small "承諾書" document between them
+carrying a large red cross mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾は不要
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-地積増加分の所有権証明情報は不要
-Illustration: 小さい土地アイコンから大きい土地アイコンへ広がる矢印を描き、
-増加した部分に「所有権証明情報」と書かれた書類アイコンを重ね、その書類に
-×印を付ける。
-Caption (small text below):
-地積が増加しても新たに所有権を取得するわけではないため、増加部分の
-所有権を証する情報の提供は不要。
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積増加分の証明情報は不要
+Illustration: An isometric small land plot growing into a larger one
+via an arrow. The newly added area carries a "所有権証明情報" document
+icon with a large red cross mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+証明情報は不要
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 誰が申請できるか
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
 共有者は1人で単独申請できる
-Illustration: 3人の人物アイコン(共有者)を並べ、そのうち1人だけが
-「地積更正登記」の申請書類を窓口に提出している構図。残り2人は背景で
-控えめに描く。
-Caption (small text below):
-共有名義の土地の地積更正登記は、共有者全員の利益になる保存行為として、
-共有者の1人から全員のために申請できる。
+Illustration: Three isometric person icons representing co-owners
+standing side by side. Only one of them steps forward to submit an
+"地積更正登記" application at a registry desk; the other two stand
+back, unobtrusive.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+単独申請できる
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
 買主は売主に代位して申請できる
-Illustration: 買主を表す人物アイコンが、売主を表す人物アイコンの後ろから
-手を伸ばして申請書類を提出している構図。両者の間に「代位」と書かれた
-矢印ラベルを添える。
-Caption (small text below):
-土地の一部を買い受けた者は、民法423条の債権者代位権に基づき、
-売主(登記名義人)に代位して地積に関する更正の登記を申請できる。
+Illustration: An isometric buyer figure reaching from behind a seller
+figure to hand in an application document at a registry desk. A
+small arrow labeled "代位" connects the two figures.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+代位申請できる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm no text has been paraphrased
-or substituted from the strings given above.
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

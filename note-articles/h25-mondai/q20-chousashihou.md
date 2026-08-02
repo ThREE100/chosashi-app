@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地家屋調査士法の基本業務ルールに関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+土地家屋調査士法の基本業務ルールに関する5肢の正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。導入イラスト・導入文のブロックは置かない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric surveyor character,
+document seals, office buildings, gavels, open books, booklets, torn
+paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,9 +110,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・所 — these must be rendered in their standard Japanese forms,
+never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -108,57 +120,71 @@ Title (large, bold, 2行):
 「会則」ではない
 
 Subtitle (smaller, centered, 1行):
-土地家屋調査士法の基本業務ルールを整理(平成25年度 午後の部 第20問)
+平成25年度 午後の部 第20問－土地家屋調査士法の基本業務ルールを整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric土地家屋調査士 character standing beside five small badge icons representing their professional duties (相談対応, 罰則, 研鑽義務, 事務所, 職印), each badge glowing to indicate a distinct rule.
-土地家屋調査士法は、実務家としての基本的な義務や罰則を定めた法律で、択一式でも毎年出題される重要分野です。細かい規定の根拠が「法律」か「会則」か「省令」かを区別できるかがポイントです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-筆界特定手続の代理は拒めても、相談は正当な事由なく拒めない
-Illustration: An isometric土地家屋調査士 character with two doors: one labeled 代理の依頼 that can be closed freely, and one labeled 相談の依頼 that stays open unless a 正当な事由 sign is shown.
-Caption (small text below):
-土地家屋調査士は、筆界特定手続についての代理の依頼は拒むことができるが、正当な事由がなければ相談の依頼を拒むことはできない。
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+相談は正当事由なく拒めない
+Illustration: An isometric 土地家屋調査士 character with two doors: one
+labeled 代理の依頼 that can be closed freely, and one labeled 相談の依頼
+that stays open unless a 正当な事由 sign is shown.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+相談は拒めない
 
 --- CARD 2 ---
-Heading (bold):
-虚偽の調査・測量には、1年以下の懲役又は100万円以下の罰金が科される
-Illustration: An isometric土地家屋調査士 character caught faking a survey document (虚偽の調査又は測量), a gavel icon striking down with a label reading 1年以下の懲役又は100万円以下の罰金.
-Caption (small text below):
-土地家屋調査士がその業務に関して虚偽の調査又は測量をしたときは、1年以下の懲役又は100万円以下の罰金に処せられる。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+虚偽測量は懲役・罰金の対象
+Illustration: An isometric 土地家屋調査士 character caught faking a
+survey document (虚偽の調査又は測量). A gavel icon strikes down with a
+label reading 1年以下の懲役又は100万円以下の罰金.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+懲役・罰金の対象
 
 --- CARD 3 ---
-Heading (bold):
-業務地域の慣習など、業務知識を深める努力義務がある
-Illustration: An isometric土地家屋調査士 character studying an open book icon labeled 筆界を明らかにするための方法に関する慣習, with a small region-map icon in the background representing their local 業務を行う地域.
-Caption (small text below):
-土地家屋調査士は、その業務を行う地域における筆界を明らかにするための方法に関する慣習その他の業務についての知識を深めるよう努めなければならない。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+地域慣習を学ぶ努力義務あり
+Illustration: An isometric 土地家屋調査士 character studying an open
+book icon labeled 筆界を明らかにするための方法に関する慣習, with a small
+region-map icon in the background representing their local
+業務を行う地域.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+研鑽の努力義務
 
 --- CARD 4 ---
-Heading (bold):
-土地家屋調査士は、2以上の事務所を設けることができない
-Illustration: An isometric single office building icon glowing green with a checkmark, next to a second office building icon crossed out with a red X, both connected to the same土地家屋調査士 character.
-Caption (small text below):
-土地家屋調査士は、2以上の事務所を設けることができない。
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+事務所は2以上持てない
+Illustration: An isometric single office building icon glowing green
+with a checkmark, next to a second office building icon crossed out with
+a red X, both connected to the same 土地家屋調査士 character.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+事務所は1つまで
 
 --- CARD 5 ---
-Heading (bold):
-職印は「会則」ではなく、法務省令の定めによるものとされる
-Illustration: An isometric official seal (職印) with a document trail leading not to a 調査士会の会則 booklet (crossed out with a red X) but to a 法務省令 government-regulation booklet instead.
-Caption (small text below):
-土地家屋調査士が業務上使用する職印は、会則ではなく、法務省令の定めるところにより定めるものとされる。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+職印は会則でなく省令が根拠
+Illustration: An isometric official seal (職印) with a document trail
+leading not to a 調査士会の会則 booklet (crossed out with a red X) but
+to a 法務省令 government-regulation booklet instead.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+根拠は法務省令
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第20問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence of
+explanatory prose — every card's takeaway must read as a short heading +
+a short conclusion tag, at a glance.
 ```

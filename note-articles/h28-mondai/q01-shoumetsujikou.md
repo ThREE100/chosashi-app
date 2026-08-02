@@ -84,13 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-消滅時効を止める・動かす5つの場面を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+催告・裁判上の請求・承認という「時効を止める手段」ごとに、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric hourglasses, clocks, envelopes, courthouse/gavel, coin stacks, locked doors — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric hourglasses, clocks,
+envelopes, courthouse/gavel, coin stacks, locked doors — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -99,61 +112,80 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・時・効, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 時・効・催・訴・認・済・決・進・残・務 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-消滅時効、
-止まる場面・止まらない場面
+Title (large, bold, 1行):
+消滅時効、止まる場面と止まらない場面
 
 Subtitle (smaller, centered, 1行):
-催告・確定判決・一部弁済・時効完成後の承認を整理(平成28年度 午後の部 第1問)
+平成28年度 午後の部 第1問－催告・確定判決・一部弁済・承認の効力を整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric hourglass with sand flowing, and a hand icon reaching out to press a stop button on it, with a small calendar in the background counting down days, representing how debts can quietly reach their time limit unless someone acts.
-AがBに100万円を貸した事例をもとに、催告・裁判上の請求・承認といった「時効の完成を止める手段」が、それぞれどこまで効力を及ぼすのかを5つの場面で整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
 --- CARD 1 ---
-Heading (bold):
-催告は一度だけ、6か月の猶予をくれる
-Illustration: An isometric figure mailing a letter icon labeled 催告 toward another figure, with a 6-month gauge clock ticking down; a second letter sent shortly after is shown with a prohibition mark and no extra time added to the gauge.
-Caption (small text below):
-最初の催告から6か月以内に再び催告しても、そこから新たな6か月の完成猶予は生じない。
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+再度の催告でも猶予は延びない
+Illustration: An isometric figure mailing a letter icon labeled 催告 toward
+another figure, with a 6か月 gauge clock ticking down. A second letter sent
+shortly after is shown with a red prohibition mark over it and no extra
+time added to the gauge.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+猶予の延長なし
+
 --- CARD 2 ---
-Heading (bold):
-確定判決が出れば、そこから時効は生まれ変わる
-Illustration: An isometric courthouse and gavel icon stamping a document labeled 確定判決, with a calendar/timeline icon resetting to zero and a fresh arrow starting a brand-new countdown.
-Caption (small text below):
-裁判上の請求によって中断した時効は、判決が確定した時から新たにその進行を始める。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+確定判決で時効はゼロから再進行
+Illustration: An isometric courthouse and gavel icon stamping a document
+labeled 確定判決, with a calendar/timeline icon resetting to zero and a
+fresh arrow starting a brand-new countdown.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+時効は新たに進行
+
 --- CARD 3 ---
-Heading (bold):
-取り下げても、請求の意思表示は催告として残る
-Illustration: An isometric lawsuit document being crumpled/withdrawn (取下げ) by a figure, but a glowing stamp reading 催告として有効 remains attached to it, still connected by a dotted line to the time-limit gauge.
-Caption (small text below):
-訴え提起後に訴えを取り下げても、その意思表示は裁判上の催告として時効の完成猶予の効力を持つ。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+訴え取下げでも催告として有効
+Illustration: An isometric lawsuit document being crumpled/withdrawn
+(取下げ) by a figure, but a glowing stamp reading 催告として有効 remains
+attached to it, still connected by a dotted line to the time-limit gauge.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+催告としては有効
+
 --- CARD 4 ---
-Heading (bold):
-一部でも返せば、残りも認めたことになる
-Illustration: An isometric hand handing over a small stack of coins labeled 50万円 to a creditor figure, next to a larger ledger icon showing 100万円 with the remaining 50万円 portion stamped 承認 and glowing.
-Caption (small text below):
-一部弁済は残債務の承認にあたり、残部についても時効中断の効力が生じる。
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+一部弁済で残額も承認扱い
+Illustration: An isometric hand handing over a small stack of coins
+labeled 50万円 to a creditor figure, next to a larger ledger icon showing
+100万円 with the remaining 50万円 portion stamped 承認 and glowing.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+残債務も承認扱い
+
 --- CARD 5 ---
-Heading (bold):
-時効成立後に認めたら、もう時効は主張できない
-Illustration: An isometric figure bowing apologetically toward a creditor figure after time has clearly run out (broken hourglass in background), with a locked door icon labeled 時効の援用不可 behind the debtor.
-Caption (small text below):
-時効完成後に債務を承認すると、その後は信義則上、時効を援用することができない。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+時効完成後の承認は覆せない
+Illustration: An isometric figure bowing apologetically toward a creditor
+figure after time has clearly run out (a broken hourglass in the
+background), with a locked door icon labeled 時効の援用不可 behind the
+debtor.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+時効の援用不可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第1問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・時・効. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

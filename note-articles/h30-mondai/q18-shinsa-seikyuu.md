@@ -86,16 +86,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-登記官の処分・不作為についての審査請求について、監督法務局長等が「命じる」立場であること(2枚)と、審査請求手続の3つのルール(期間・書面交付・証拠返還、3枚)を、2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+登記官の処分・不作為についての審査請求について、「監督法務局長等は命じる立場」と「審査請求手続の3つのルール」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: robed senior official figure,
 registrar figure at a desk, ordinary person figure, ledger/document
 folders, red hanko stamps, prohibition marks, calendars, infinity
 timeline arrows, evidence document stacks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -104,40 +115,26 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・監・督・証・拠・謄・決・請,
-which have Simplified Chinese look-alike forms with visibly different
-stroke shapes — always draw the standard Japanese (Jōyō) form of these
-characters.
+kanji 登・記・監・督・証・拠・謄・決・請 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 審査請求は「誰が・いつまで・何をする」
-監督法務局長等の権限を正確に押さえる
 
 Subtitle (smaller, centered, 1行):
-「自らやる」のか「命じる」のか(平成30年度 午後の部 第18問)
+平成30年度 午後の部 第18問－監督法務局長等の権限と手続のルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric icon on the left showing a robed senior
-official figure (labeled 監督法務局長等) standing behind and slightly
-above a smaller registrar figure (labeled 登記官) seated at a desk
-stamping a document, with a speech-bubble arrow from the senior official
-pointing to the registrar labeled "命じる", and a prohibition (no-entry)
-mark over the senior official's hand reaching directly toward the
-document, emphasizing that the senior official never acts on the
-document directly.
-登記官の処分に対する審査請求は、監督法務局長等が「誰の判断で」「いつまで
-にできて」「そのあと何をするか」という手続の流れがポイントです。監督法務
-局長等は自らその場で処分するのではなく、常に登記官に「命じる」という形を
-とります。期間制限の有無や、裁決後の書面のやり取り、証拠書類の返還など、
-細かい手続のルールも正確に押さえましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 監督法務局長等は「命じる」立場
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-監督法務局長等は自ら処分せず、登記官に「相当の処分」を命じる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+監督法務局長等は「命じる」だけ
 Illustration: An isometric scene of a senior official figure (labeled
 監督法務局長等) pointing with an arrow toward a registrar figure (labeled
 登記官) seated at a desk stamping a document; a large red prohibition
@@ -145,42 +142,42 @@ Illustration: An isometric scene of a senior official figure (labeled
 official toward the document, showing the senior official does not act
 directly; a speech-bubble arrow labeled "命じる" runs from the senior
 official to the registrar.
-Caption (small text below):
-審査請求を理由があると認めるときは、監督法務局長等は登記官に相当の処分を
-命じる(不動産登記法157条3項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+自らはしない
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-不作為の申請を却下すべきときも、登記官に「却下する処分」を命じる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+却下処分も登記官に命じる
 Illustration: An isometric scene similar in composition to Card 1: a
 senior official figure (labeled 監督法務局長等) pointing with an arrow
 labeled "却下せよ" toward a registrar figure (labeled 登記官); the
 registrar stamps a document folder (labeled 申請) with a red "却下" torn
 paper stamp, while the senior official's hand stays behind a prohibition
 mark, showing the senior official again does not act directly.
-Caption (small text below):
-不作為に係る申請を却下すべきと認めるときも、監督法務局長等は登記官に却下
-する処分を命じる(不動産登記法157条5項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+登記官に命じる
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 審査請求手続の3つのルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-登記官の処分への審査請求に、期間の制限はない
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+審査請求に期間制限はない
 Illustration: An isometric icon of a calendar page with a red "3ヶ月"
 label crossed out by a prohibition mark, positioned beside an open-ended
 horizontal timeline arrow that extends off the right edge of the card
 toward an infinity symbol, labeled "いつでも可能"; a small person figure
 hands a document into a mailbox/window positioned freely along the
 timeline, not fixed to any date.
-Caption (small text below):
-行政不服審査法18条の適用が除外されており、法律上の利益がある間はいつでも
-審査請求ができる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+期限なし
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-裁決書の謄本と審理員意見書の写しは、審査請求人・登記官の両方に交付する
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+裁決書謄本は請求人と登記官へ
 Illustration: A symmetric isometric scene with a senior official figure
 (labeled 監督法務局長等) in the center holding two identical document
 sets, each set clearly labeled "裁決書謄本" and "審理員意見書写し"; one
@@ -188,13 +185,13 @@ set flies via a dotted arrow to a person figure on the left labeled
 審査請求人, an identical set flies via a dotted arrow to a registrar
 figure on the right labeled 登記官, emphasizing both receive the same
 documents.
-Caption (small text below):
-監督法務局長等が裁決をしたときは、裁決書の謄本及び審理員意見書の写しを
-審査請求人及び登記官の双方に交付する(不動産登記事務取扱準則145条1項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+双方に交付
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-証拠書類は、原則として提出した人に速やかに返還する
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+証拠書類は原則速やかに返還
 Illustration: An isometric icon of a document folder/stack labeled
 証拠書類 being handed back with an arrow from a senior official figure to
 a person figure, with a small clock icon labeled "速やかに" beside the
@@ -202,22 +199,19 @@ arrow; a smaller secondary branch on the side shows the same person
 figure with a checkmark and a speech bubble labeled "返還不要に同意",
 with the document folder instead resting in a small archive box, showing
 the exception.
-Caption (small text below):
-裁決後、提出者が返還を要しないことに同意している場合を除き、監督法務局長
-等は証拠書類を速やかに提出者に返還する(行政不服審査法53条)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+原則として返還
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成30年度 午後の部 第18問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・監・督・証・拠・謄・
-決・請. If any character renders as a Simplified Chinese variant, redraw
-that character in the correct Japanese form. Confirm the number of cards
-equals 5 exactly (2 cards under 監督法務局長等は「命じる」立場, 3 cards
-under 審査請求手続の3つのルール), with no duplicated or missing cards,
-and confirm every heading, illustration label, and caption text matches
-the Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -81,3 +81,126 @@
 - 昔は台帳と登記簿、別々の帳簿だったんです
 - 表題部所有者、実は「申請できる人」の目印なんです
 - 相続人が保存登記を申請できる理由、ここにあるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+表題部所有者という制度について、「制度の沿革（台帳から登記への統合）」と「表題部所有者が持つ機能（申請適格者を特定する）」という2つの軸に沿って、5つの空欄すべての正解語句を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric archive shelves,
+old dusty ledger books, city-hall buildings, coin/tax icons, registry
+desks, document stamps, torn paper labels, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 台・帳・徴・収・沿・革・登・記・適・格・保・存 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表題部所有者、そのルーツと役割がわかる
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第4問－台帳から表題部所有者の機能まで
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+制度の沿革
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題部のルーツは台帳制度
+Illustration: An isometric archive shelf holding an old dusty ledger book
+labeled "土地台帳・家屋台帳". An arrow flows from the old ledger into a
+modern registry panel labeled "表題部", showing the information carried
+over into today's registry.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+台帳が前身
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+固定資産税を集めるのは市町村
+Illustration: An isometric city-hall building icon labeled "市町村"
+collecting a coin/tax icon labeled "固定資産税" from a house-and-land
+icon. Small icons for "国" and "都道府県" stand off to the side, each
+with a red X over them, showing they are not the collector.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+徴収は市町村
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+権利部の前身は不動産登記制度
+Illustration: Two separate isometric ledger books — one labeled
+"土地台帳・家屋台帳"（物理的状況）and one labeled "不動産登記"（権利関係）
+— merging with converging arrows into a single unified registry record
+panel showing both "表題部" and "権利部" sections, with a small label
+"昭和35年統合".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+権利部は登記由来
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+表題部所有者の機能
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+変更・更正登記の申請適格者
+Illustration: An isometric registry desk. A 表題部所有者 character holds
+a stamp labeled "申請適格者" and submits a document labeled "地目変更の
+登記" onto the desk, with a green checkmark confirming the submission is
+valid.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+申請できる人の目印
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+保存登記の申請適格者でもある
+Illustration: A 表題部所有者 character A（with a small tombstone icon
+showing deceased）connected by an arrow to their 相続人 character B, who
+holds a document labeled "所有権の保存の登記" and submits it at the
+registry desk with a green checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+保存登記も対象
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

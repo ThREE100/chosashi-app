@@ -79,3 +79,119 @@
 - 団地共用部分の滅失、所有者証明が必要なんです
 - 借地の建物も、賃借権登記なしで滅失登記義務があるんです
 - 抵当権が付いてても、承諾書はいらないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の滅失の登記について「添付情報が不要な場面」（ア・イ・オ＝列A・緑）と「添付情報が必要・申請義務がある場面」（ウ・エ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。誤りの肢（ア・イ・オ）は、いずれも正しいルールに直した内容だけを図解する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric demolished building
+rubble, torn-down house frames, document folders, official stamps,
+apartment/団地 community halls, leasehold land plots, fire-damaged
+buildings, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 証・図・権・団・記・登・借・賃・共・滅 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の滅失登記、印鑑証明書も承諾書もいらないんです
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第18問－建物の滅失の登記の添付情報と申請義務
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+添付情報が不要な場面
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+滅失登記に印鑑証明書は不要
+Illustration: 自分の建物を自ら取り壊すAさんのアイソメ図を描き、取り
+壊された建物の瓦礫の横に申請書アイコンを置く。書類の束の中に「印鑑証明書」
+のアイコンを描き、赤い✕マークを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+印鑑証明書は不要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+建物図面がなくても添付は不要
+Illustration: 古い建物の取り壊し現場を描き、傍らの本棚に「建物図面：
+なし」の空のファイルアイコンを置く。申請書の添付欄に「建物図面」の
+アイコンを描き、赤い✕マークを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+図面の添付は不要
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+抵当権付きでも承諾は不要
+Illustration: 焼け跡になった建物のアイソメ図を描き、上に薄れかけた
+「抵当権」のスタンプを添える。申請書の添付欄に「抵当権者の承諾を証する
+情報」のアイコンを描き、赤い✕マークを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾は不要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+添付情報が必要・申請義務がある場面
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+団地共用部分は所有者証明が必要
+Illustration: マンション団地の集会所（団地共用部分）が取り壊される図を
+描く。申請書の添付欄に「所有者を証する情報」のアイコンを描き、緑の
+チェックマークを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所有者証明が必要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+借地上の建物も滅失登記義務あり
+Illustration: 借地の上に建つ建物が建替えのため取り壊される図を描く。
+賃借権の登記の有無を示す看板に「登記なし」と書かれていても、所有者の
+横に「1か月以内に申請」の緑のチェックマーク付きラベルを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+賃借権登記の有無問わず
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

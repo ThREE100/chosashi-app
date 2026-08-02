@@ -81,7 +81,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-調査士・調査士法人に関する5肢を「届出のルール（どこに届け出るか）」と「登録取消のルール（義務か裁量か）」の2系統に分け、正しいルールだけを5枚のカードで俯瞰できる構成にした。
+土地家屋調査士・調査士法人に関する5肢を「届出のルール」と「登録取消のルール」という2つの軸に沿って、すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -91,78 +91,94 @@ modern explainer-graphic aesthetic (icons: isometric office buildings,
 government bureau buildings, association halls, documents, stamps, torn
 paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Pay special
-attention to the following kanji, which are easily confused with
-Simplified Chinese variants: 地・号・録・建・物・登・所. Do not simplify
-them. Reproduce the exact text strings given below verbatim — do not
-paraphrase, translate, summarize, or substitute any characters.
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・録・登・所 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
-土地家屋調査士・調査士法人のルール
-令和7年度 第20問
+調査士・調査士法人のルール
+届出先と脱退・取消
 
 Subtitle (smaller, centered, 1行):
-届出先と登録取消、正しいルールはこれ
+令和7年度 午後の部 第20問－義務なのか裁量なのかを検証
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 土地家屋調査士のキャラクターが「定款変更届」「補助者廃止届」「事務所設置」の3種類の書類を手に持ち、背後に法務局・土地家屋調査士会・日本土地家屋調査士会連合会の3つの建物が並んで俯瞰的に描かれている。正しい届出先の建物にだけ矢印が伸びている構図。
-土地家屋調査士・調査士法人に関する届出は「どこに届け出るか」、登録の取消は「義務なのか裁量なのか」を正しく押さえることがポイントです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-届出のルール（ア・イ・ウ）
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+届出のルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-定款変更は、法務局ではなく調査士会と連合会へ
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+定款変更は調査士会と連合会へ
 Illustration: 土地家屋調査士法人のスタッフが「定款変更届出書」というラベルの書類を手に持っている。法務局の建物には大きな赤い✕印。主たる事務所の所在地の土地家屋調査士会の建物と、日本土地家屋調査士会連合会の建物の両方に向かって矢印が伸びている。書類の近くに「変更の日から2週間以内」という小さなラベルを添える。
-Caption (small text below):
-法34条2項。変更の日から2週間以内に、主たる事務所の所在地の土地家屋調査士会及び日本土地家屋調査士会連合会の両方に届け出なければならない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+法務局ではない
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-補助者がいなくなったら、調査士会へ届出
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+補助者がいなくなったら調査士会へ届出
 Illustration: 調査士の事務所の机の隣にあった補助者用の椅子が空になっている様子。調査士のキャラクターが「補助者廃止届」というラベルの書類を持ち、土地家屋調査士会の建物に向かって矢印を伸ばしている。
-Caption (small text below):
-土地家屋調査士法施行規則23条2項。置いていた補助者を置かなくなったときは、遅滞なく、その旨を所属の土地家屋調査士会に届け出なければならない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+遅滞なく届出
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-調査士の事務所は、一人につき一つだけ
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+調査士の事務所は一人一つだけ
 Illustration: 1つ目の調査士事務所の建物アイコンには緑色の丸印。2つ目の事務所の建物アイコン（別の都道府県に見立てた地図の上）には大きな赤い✕印。日本土地家屋調査士会連合会の建物から「届出」という矢印が伸びているが、それでも2つ目の建物には✕印が重ねて描かれている。
-Caption (small text below):
-土地家屋調査士法施行規則18条。調査士は二以上の事務所を設けることができない。連合会に届け出ても、複数の事務所（複数都道府県にまたがるものを含む）を持つことはできない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+二以上は不可
 
---- COLUMN B HEADER (pill-shaped badge) ---
-登録取消のルール（エ・オ）
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+登録取消のルール
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-登録取消と同時に、法人からも自動退場
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+登録取消で法人を当然脱退
 Illustration: 土地家屋調査士法人の建物の中に、社員である調査士のキャラクターが数人並んでいる。そのうち1人に「登録取消」というスタンプが押された瞬間、矢印でそのキャラクターが自動的に建物の外へ押し出されている。追加の書類アイコンには✕印を添え、特別な手続きが不要であることを示す。
-Caption (small text below):
-土地家屋調査士法38条。土地家屋調査士法人の社員である土地家屋調査士が、その登録を取り消された場合には、当該法人を当然に脱退する。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+当然に脱退
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-「取り消さなければ」ではなく、裁量なんです
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+心身の故障による取消は裁量
 Illustration: 体調不良を示す土地家屋調査士のキャラクター（布団と体温計のアイコン）と、日本土地家屋調査士会連合会の建物。連合会から伸びる矢印の先に天秤（バランス）のアイコンがあり、「取り消すことができる」というラベルを添える。「取り消さなければならない」という文字列には赤い✕印を重ねる。
-Caption (small text below):
-土地家屋調査士法16条1項2号。心身の故障により業務を行うことができないときであっても、日本土地家屋調査士会連合会は、登録を取り消すことができるという裁量的な扱いであり、義務ではない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+義務ではない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to 地・号・録・建・物・登・所. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, and confirm the two column labels read exactly
-「届出のルール（ア・イ・ウ）」and「登録取消のルール（エ・オ）」with no
-substitutions.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -82,14 +82,28 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+地目変更登記の手続ルールを「申請人・前提条件」（列A・緑）と「申請情報の書き方・添付の要否」（列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric mansions, land
+plots, registration documents, calendars, registrar desks, torn paper
+labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -97,7 +111,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・権・登・記・積・務・況・変 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -107,81 +123,89 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和2年度 午後の部 第7問／申請義務者・日付・過去の変更の扱い
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric land plot transitioning from 畑 (farmland,
-left half) to 宅地 (residential land with a small house, right half),
-with a person icon representing the registered owner (所有権の登記名義人)
-filing a document, and an arrow labeled 現況が変わった日 pointing from the
-land toward a registry-office icon (登記所).
-地目変更登記は、土地の現況（今の使われ方）をそのまま登記簿に反映させるための手続です。「誰が申請するか」「登記原因の日付をいつにするか」「過去の変更をどこまで書くか」という5つのルールを確認します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
-以下の5枚のカードは、下記の番号・見出し文言のとおり過不足なくちょうど5枚作成すること（重複禁止・欠落禁止・言い換え禁止）：
-1. 敷地権の登記があっても、抹消せず地目変更登記を申請できる
-2. 現況を変えたのが地上権者でも、申請義務者は所有権の登記名義人
-3. 過去に何度も地目が変わっても、現況に一致する最終の変更だけ登記すれば足りる
-4. 地目変更の登記は、地積変更の登記と併せてしなくてよい
-5. 登記原因の日付は「現況が変わった日」で、農地法の許可日ではない
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請人・前提条件のルール
 
---- CARD 1 ---
-Heading (bold):
-敷地権の登記があっても、抹消せず地目変更登記を申請できる
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権登記の抹消は不要
 Illustration: An isometric mansion (集合住宅) building with a 敷地権 (敷地権
 である旨の登記) stamp icon still attached and intact — no cancellation
 mark or X — with an arrow pointing to a land-use-change application
 document icon labeled 地目変更登記.
-Caption (small text below):
-敷地権である旨の登記の有無にかかわらず、現況から地目を変更する登記を申請できる。抹消は不要。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+抹消不要で申請可
 
---- CARD 2 ---
-Heading (bold):
-現況を変えたのが地上権者でも、申請義務者は所有権の登記名義人
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+申請義務者は所有権登記名義人
 Illustration: An isometric scene with two people: person A (地上権者,
 holding a pickaxe, clearing a forested plot labeled 山林→宅地) and
 person B (所有権の登記名義人, in business attire, standing beside a
 registration document). An arrow labeled 申請義務 points from the
 document to person B only, not to person A.
-Caption (small text below):
-現況を変えたのが地上権者であっても、地目変更の登記を申請する義務を負うのは所有権の登記名義人（不動産登記法37条1項）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+義務者は所有者
 
---- CARD 3 ---
-Heading (bold):
-過去に何度も地目が変わっても、現況に一致する最終の変更だけ登記すれば足りる
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+申請情報の書き方・添付のルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+最終の変更だけ登記すれば足りる
 Illustration: An isometric timeline showing a land plot's history as
 田→畑→宅地, with the first two transitions (田→畑) grayed out and
 crossed through, and only the final transition to 宅地 highlighted with
 an arrow leading to a single registration document icon.
-Caption (small text below):
-途中の変更をすべて登記する必要はなく、直ちに現況に一致する登記をすれば足りる（登記研究429号120頁）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+現況だけ登記
 
---- CARD 4 ---
-Heading (bold):
-地目変更の登記は、地積変更の登記と併せてしなくてよい
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積変更との併合は不要
 Illustration: Two separate isometric document icons side by side: one
 labeled 地目変更登記 with a checkmark standing alone and independent,
 the other labeled 地積変更登記 shown faded/optional with a label 併合不要
 and no connecting chain or link between the two documents.
-Caption (small text below):
-地目を宅地に変更する登記は単独で申請でき、地積の変更の登記と必ず併せてする必要はない
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+併せて申請不要
 
---- CARD 5 ---
-Heading (bold):
-登記原因の日付は「現況が変わった日」で、農地法の許可日ではない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+日付は現況が変わった日
 Illustration: An isometric calendar with two marked dates: 3月1日 labeled
 農地法許可日 shown grayed out and unused, and 6月1日 labeled 現況が宅地に変わった日
 shown highlighted and connected by an arrow to a registration document
 icon.
-Caption (small text below):
-登記原因の日付は現況（主たる用途）に変更が生じた日であり、農地法所定の許可があった日ではない（登記研究44号29頁）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+現況変更日が基準
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-出典：令和2年度 土地家屋調査士試験 午後の部 第7問（不動産登記法37条1項ほか）
 
-特に誤りやすい漢字（号・地・権・登・記など）がカード文言に含まれています。これらの漢字は必ず日本語（常用漢字）の字体で描画し、簡体字（中国語の簡化字）にしないでください。
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 敷地権登記の抹消は不要
+2. 申請義務者は所有権登記名義人
+3. 最終の変更だけ登記すれば足りる
+4. 地積変更との併合は不要
+5. 日付は現況が変わった日
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

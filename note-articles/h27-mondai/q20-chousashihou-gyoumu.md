@@ -79,3 +79,131 @@
 - 報酬の基準、契約前に示す義務があるんです
 - 正当な理由があっても、補助者には業務を任せられない
 - 補助者を置いたら、届出先は調査士会なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「調査士・調査士法人本人の資格と業務範囲」（ア・イ・ウ＝列A・緑）と、「補助者にできること・できないこと」（エ・オ、いずれも誤りの肢を正しいルールに直したもの＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric土地家屋調査士の
+事務所、懲戒処分スタンプ、法人の建物、鑑定人バッジ、報酬基準表、測量
+機材、補助者キャラクター、調査士会の建物など — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 業・務・禁・止・処・分・調・査・士・法・人・格・鑑・定・依・頼・報・酬・基
+・準・示・義・補・助・者・届・出・地・方 —
+these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+補助者に任せていいこと・ダメなこと
+
+Subtitle (smaller, centered, 1行):
+平成27年度　午後の部　第20問－業務禁止・鑑定業務・報酬提示のルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+調査士・調査士法人の資格と業務範囲
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+業務禁止後3年間は資格喪失
+Illustration: 土地家屋調査士キャラクターに赤い「業務禁止」の懲戒処分
+スタンプが押される場面。横のカレンダーに大きく「3年」と表示し、その先に
+「再登録」の扉のアイコンを描く。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+3年経過で再登録可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+調査士法人は定款で鑑定業務可
+Illustration: 土地家屋調査士法人の事務所の建物アイコン。定款の書類に
+「鑑定業務」の条項があり、緑のチェックマークが付く。裁判所からの依頼で
+鑑定人バッジを付けた法人キャラクターが筆界を鑑定している様子。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+定款規定で鑑定業務可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+受任前に報酬基準の提示が必要
+Illustration: 土地家屋調査士キャラクターが依頼者に「報酬基準表」を契約前
+に手渡している場面。横に置かれた契約書アイコンには赤い✕マーク（まだ
+締結していないことを表す）を重ねる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+契約前に基準を提示
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+補助者にできること・できないこと
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+補助者に業務そのものは任せられない
+Illustration: 体調不良で寝込んでいる土地家屋調査士キャラクターのベッド
+アイコン。補助者キャラクターが測量機材を持って業務に向かおうとしている
+が、大きな赤い✕マークで止められている。「正当な事由」というラベルにも
+✕マークを重ねる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+正当事由でも不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+補助者設置の届出先は調査士会
+Illustration: 調査士事務所に補助者キャラクターが新しく加わる場面。届出
+書類が法務局の建物アイコンに向かおうとしているが赤い✕マークで止まり、
+代わりに土地家屋調査士会の建物アイコンに矢印でつながり、緑のチェック
+マークが付く。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+法務局でなく調査士会
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 業務禁止後3年間は資格喪失
+2. 調査士法人は定款で鑑定業務可
+3. 受任前に報酬基準の提示が必要
+4. 補助者に業務そのものは任せられない
+5. 補助者設置の届出先は調査士会
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

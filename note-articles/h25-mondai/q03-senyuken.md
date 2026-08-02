@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-占有権に関する5つの条文論点（機関占有、占有の訴え、悪意とみなす時点、代理占有、指図による占有移転）を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+占有権について「占有の訴えに関するルール」と「代理占有のルール」という2つの軸に沿って、5肢すべての結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric office buildings,
+land plots, courthouses, gavels, thought bubbles, document stamps, etc.
+— adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,67 +110,91 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・悪・諾・図 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-占有権の条文を
-1文字ずつ正確に読む
+Title (large, bold, 1行):
+占有権、条文の主語を正確に読む
 
 Subtitle (smaller, centered, 1行):
 占有回収の訴え・代理占有・指図による占有移転を整理(平成25年度 午後の部 第3問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene showing a magnifying glass hovering over a legal document icon with small highlighted words, next to a hand icon pointing precisely at one word among several similar-looking words.
-占有権の分野は、条文の主語や起算点を正確に読み取れているかが試されます。誰が占有できるのか、誰が承諾するのかという「主語の取り違え」に注意しながら5つの原則を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-機関としての占有と個人としての占有は併存し得る
-Illustration: An isometric office building icon with a representative character standing both behind a company desk (labeled 法人の機関) and, overlapping in a dashed outline, as an individual figure at the same building (labeled 個人), with two separate green tags reading 占有回収の訴え可能.
-Caption (small text below):
-法人の代表者が個人としても占有していたと認められる場合、代表者個人としての占有回収の訴えも提起できる。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+占有の訴えに関するルール
 
---- CARD 2 ---
-Heading (bold):
-占有の訴えは、善意・悪意を問わず提起できる
-Illustration: An isometric figure with a small dark-cloud icon overhead (labeled 悪意) still successfully filing a document labeled 占有回収の訴え into a courthouse icon, with a green checkmark.
-Caption (small text below):
-占有の訴えは占有という事実状態を保護する制度であり、占有者が悪意であっても占有回収の訴えを提起できる(民法197条以下)。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+機関占有と個人占有は併存できる
+Illustration: An isometric office building icon with a representative
+character standing both behind a company desk (labeled 法人の機関) and,
+overlapping in a dashed outline, as an individual figure at the same
+building (labeled 個人), with two separate green tags reading
+占有回収の訴え可能.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+個人としても訴え可
 
---- CARD 3 ---
-Heading (bold):
-本権の訴えで敗訴した善意占有者は、「訴え提起の時」から悪意とみなされる
-Illustration: An isometric timeline of a courtroom scene: a figure holding an item, with a courthouse gavel icon striking at the moment labeled 訴えの提起の時, and the figure's status tag flipping from 善意 to 悪意 exactly at that point on the timeline, not at the start.
-Caption (small text below):
-善意の占有者が本権の訴えで敗訴したときは、占有開始の時からではなく「訴えの提起の時」から悪意の占有者とみなされる(民法189条2項)。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+悪意の占有者も訴えを起こせる
+Illustration: An isometric figure with a small dark-cloud icon overhead
+(labeled 悪意) still successfully filing a document labeled 占有回収の訴え
+into a courthouse icon, with a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+悪意でも提訴可
 
---- CARD 4 ---
-Heading (bold):
-代理占有の善意・悪意は、占有代理人を基準に判断する
-Illustration: An isometric scene with a principal character (本人) thinking a green checkmark thought bubble (善意), while the occupying agent character (占有代理人) standing on the land plot has a dark thought bubble (悪意), with an arrow pointing to the agent labeled 判断基準.
-Caption (small text below):
-代理人によって占有をする場合、その占有の善意・悪意は本人ではなく占有代理人を基準に判断される。
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+悪意とみなす起点は訴え提起の時
+Illustration: An isometric timeline of a courtroom scene: a figure holding
+an item, with a courthouse gavel icon striking at the moment labeled
+訴えの提起の時, and the figure's status tag flipping from 善意 to 悪意
+exactly at that point on the timeline, not at the start.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+起算点は提訴時
 
---- CARD 5 ---
-Heading (bold):
-指図による占有移転で承諾するのは「第三者」であり「代理人」ではない
-Illustration: An isometric three-figure diagram: 本人 pointing an instruction arrow labeled 命じる toward 代理人, and a second arrow from 代理人 toward 第三者 who alone stamps a document with 承諾, with a red X over a mistaken arrow showing 代理人 stamping 承諾 instead.
-Caption (small text below):
-民法184条の指図による占有移転では、本人が代理人に命じ、承諾するのは第三者であって代理人ではない。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+代理占有のルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+代理占有の善意・悪意は代理人基準
+Illustration: An isometric scene with a principal character (本人)
+thinking a green checkmark thought bubble (善意), while the occupying
+agent character (占有代理人) standing on the land plot has a dark thought
+bubble (悪意), with an arrow pointing to the agent labeled 判断基準.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+判断基準は代理人
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+指図による移転は第三者が承諾
+Illustration: An isometric three-figure diagram: 本人 pointing an
+instruction arrow labeled 命じる toward 代理人, and a second arrow from
+代理人 toward 第三者 who alone stamps a document with 承諾, with a red X
+over a mistaken arrow showing 代理人 stamping 承諾 instead.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+承諾するのは第三者
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第3問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -95,15 +95,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の表示に関する登記の添付情報について、調査士と補助者の対話から抽出した正しい取扱いを、所有権を証する情報に関するルール3枚と、住所を証する情報に関するルール2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+建物の表示に関する登記の添付情報について「所有権を証する情報に関するルール」3枚と「住所を証する情報に関するルール」2枚の計5枚のポスター型カードで俯瞰する構成。通し番号バッジ・短い見出し・図解・短い結論タグだけで構成し、導入イラスト・導入文のブロックは置かない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, documents,
 seals/hanko, calendars, company/person figures, ID cards, checkmarks,
 prohibition marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -112,9 +123,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 権・地・番・号・建・物・登・記・所 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -122,97 +132,84 @@ Title (large, bold, 2行):
 補助者の解答、どこが誤り？
 
 Subtitle (smaller, centered, 1行):
-正当な権原・印鑑証明・支配人・住所証明(令和5年度 午後の部 第14問)
+令和5年度 午後の部 第14問－正当な権原・印鑑証明・支配人・住所証明
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene with two person characters facing each
-other — one labeled 調査士 holding a clipboard and asking a question
-(speech bubble with a question mark), the other labeled 補助者 answering
-(speech bubble with a checkmark), with a small stack of document icons
-(印鑑証明書、住民票、工事完了引渡証明書) floating between them to
-represent the添付情報 being discussed.
-建物の表示に関する登記の添付情報について、所有権を証する情報や住所を
-証する情報、期間制限のルールを、調査士と補助者の対話から正しい取扱い
-として整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 所有権を証する情報に関するルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-敷地の正当な権原を証する情報は、必ず提供が必要というわけではない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地の権原証明は必須ではない
 Illustration: An isometric building standing on a land plot, with a
 document icon labeled "所有権を証する情報" stamped with a confident
 checkmark, and beside it a separate dashed-outline document icon labeled
-"敷地利用の正当な権原を証する情報" with a small "必須ではない" badge
-attached, drawn with a dashed rather than solid outline to show it is
-optional, not mandatory.
-Caption (small text below):
-申請人が敷地を所有していない場合でも、敷地を利用する正当な権原を証する
-情報を必ず提供しなければならないわけではない。建物の所有権を証明できれば
-足りる。
+"敷地利用の正当な権原を証する情報" with a red X mark and a small
+"必須ではない" badge attached.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+所有権証明で足りる
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-所有権を証する情報に添付する印鑑証明書に、3か月の期間制限はない
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+印鑑証明に3か月制限なし
 Illustration: An isometric 工事完了引渡証明書 document with a company
 印鑑(はんこ) stamp and an attached 印鑑証明書, beside a calendar icon
 showing an old date with a checkmark, and a "3か月" ruler icon crossed
 out to show the rule does not apply here.
-Caption (small text below):
-表示に関する登記の所有権を証する情報に添付する印鑑証明書には、作成後
-3か月以内という期間制限はない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+期間制限なし
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-会社法人等番号があれば、支配人の権限を証する情報は別途不要
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+会社法人等番号で支配人証明不要
 Illustration: An isometric company building labeled "Ａ株式会社支店" with
 a person figure labeled 支配人 beside it, a glowing number badge labeled
 "会社法人等番号" with a checkmark, and a separate document icon labeled
 "支配人の権限を証する情報" crossed out to show it is not needed.
-Caption (small text below):
-支配人から申請する場合も、会社法人等番号を提供すれば支配人の資格・権限
-を確認できるため、権限を証する情報を別途提供する必要はない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+番号確認で足りる
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 住所を証する情報に関するルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-申請人の住所を証する情報にも、3か月の期間制限はない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+住所証明にも3か月制限なし
 Illustration: An isometric 住民票(住所を証する情報) document icon with
 an old calendar date and a checkmark, beside a "3か月" ruler icon
 crossed out, drawn in the same visual style as the印鑑証明書 card to
 show the parallel rule.
-Caption (small text below):
-建物の表題登記で提供する申請人の住所を証する情報についても、作成後
-3か月以内という期間制限はない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+期間制限なし
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-合体前の各建物の所有権登記名義人の住所を証する情報は、省略できない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+合体時は住所証明を省略できない
 Illustration: Two building icons labeled 合体前の甲建物・合体前の乙建物
 merging into one building labeled 合体後の建物, with two person figures
 (登記名義人) each holding a 住所を証する情報 document, and a crossed-out
 speech bubble reading "登記記録から明らか" to show that this reasoning
 is rejected.
-Caption (small text below):
-合体前の各建物に所有権の登記があるときは、その登記名義人の住所を証する
-情報を提供しなければならない。登記記録から住所が明らかであることを理由
-に省略することはできない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+省略は認められない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第14問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3
-cards under 所有権を証する情報に関するルール, 2 cards under
-住所を証する情報に関するルール), with no duplicated or missing cards,
-and confirm every heading, illustration label, and caption text matches
-the Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

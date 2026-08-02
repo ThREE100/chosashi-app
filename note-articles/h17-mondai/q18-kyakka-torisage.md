@@ -86,108 +86,121 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-却下時の書類の扱い(1枚)と、取下げの自由がどこまで及ぶか(4枚)という2つの軸に沿って、ア〜オ5肢すべての「正しいルール」を5枚のカードで俯瞰できる構成にした。
+却下されたときに書類がどう扱われるかという1枚と、取下げの自由がどこまで及ぶかという4枚という2つの軸に沿って、ア〜オ5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。導入イラスト・導入文のブロックは置かない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric registry office
 counters, document stacks, stamps, torn paper labels, envelopes, locked
 drawers, hands pulling back paper, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Pay special
-attention to 登 and 記 (as in 登記, 登記官, 登記所, 登記完了, 登記識別情報,
-登記名義人) — these must never be rendered as Simplified Chinese
-look-alikes. Reproduce the exact text strings given below verbatim — do
-not paraphrase, translate, summarize, or substitute any characters.
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 却・添・書・還・偽・造・請・記・筆・個・別・対 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-表示登記の却下・取下げ
-急所を整理する
+Title (large, bold, 1行):
+却下・取下げ、書類と手続はどうなる？
 
 Subtitle (smaller, centered, 1行):
-平成17年度 午後の部 第18問／正しいものは3個（ア・エ・オ）
+平成17年度 午後の部 第18問－却下時の書類還付と取下げの自由の範囲
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Isometric illustration of a registry office counter with a
-single document splitting into two branching paths — one path labeled
-「却下」leading to a rejection stamp icon, the other path labeled「取下げ」
-leading to a hand pulling the document back.
-登記の申請には、登記官が受け付けを拒否する「却下」と、申請人が自らの意思
-でやめる「取下げ」という2つの終わり方がある。この問題は、却下されたとき
-に書類がどう扱われるか、そして取下げがいつまで・どこまで自由にできるかを
-問う。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 却下されたときの書類の扱い
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-却下されても、添付書面は原則として還付される
-Illustration: Isometric illustration of a registry clerk handing back a
-stack of documents labeled「添付書面」to an applicant across a counter,
-while one document marked with a torn red paper label「偽造書面等は除く」
-is kept separately, locked inside a drawer/box.
-Caption (small text below):
-却下されても添付書面は還付される。偽造書面等の疑いがあるものは除く
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+却下でも添付書面は還付
+Illustration: An isometric registry clerk handing back a stack of
+documents labeled「添付書面」to an applicant across a counter. One
+document marked with a torn red paper label「偽造書面等」has a red cross
+mark over it and is kept separately, locked inside a drawer/box, showing
+it is excluded from the return.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+原則として還付
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 取下げの自由とその限界
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-不正の疑いがあっても、取下げの自由は制限されない
-Illustration: Isometric illustration of a magnifying glass icon labeled
-「不正の疑い」hovering over a document, next to a person confidently
-pulling back a paper labeled「取下げ」, with an open unblocked arrow
-showing the action is not obstructed by any wall or barrier icon.
-Caption (small text below):
-不正の疑いがあっても、申請人の取下げは制限されない
-
 --- COLUMN B, CARD 2 ---
-Heading (bold):
-事前通知後、名義人の回答前でも取下げができる
-Illustration: Isometric illustration of an envelope labeled「事前通知」
-sent from a registry office to a house icon labeled「登記名義人」, with a
-dotted clock icon labeled「回答前」, while a person pulls back a document
-labeled「取下げ」at the same time via an unblocked arrow.
-Caption (small text below):
-事前通知後、登記名義人の回答前でも取下げをすることができる
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+不正の疑いでも取下げ可能
+Illustration: An isometric magnifying glass icon labeled「不正の疑い」
+hovering over a document, next to a person confidently pulling back a
+paper labeled「取下げ」, with an open unblocked arrow showing the action
+is not obstructed by any wall or barrier icon.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+取下げは制限されない
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-一の申請情報でも、申請ごとに一部だけ取り下げられる
-Illustration: Isometric illustration of one combined document labeled
-「一の申請情報」splitting into two separate document icons labeled
-「分筆の登記」and「合筆の登記」; the「合筆の登記」icon is being pulled
-back by a hand labeled「取下げ」, while the「分筆の登記」icon remains
-stamped and untouched beside it.
-Caption (small text below):
-一の申請情報による複数登記でも、申請ごとに個別に取下げをすることができる
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+事前通知後も回答前に取下げ可
+Illustration: An isometric envelope labeled「事前通知」sent from a
+registry office to a house icon labeled「登記名義人」, with a dotted
+clock icon labeled「回答前」, while a person pulls back a document
+labeled「取下げ」at the same time via an unblocked arrow.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+回答を待たず取下げ可
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-登記完了後は、取下げをすることができない
-Illustration: Isometric illustration of a completed registry record book
-stamped「登記完了」, with a hand reaching to pull back a document labeled
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+一部の申請だけ取下げ可能
+Illustration: An isometric single combined document labeled「一の申請情報」
+splitting into two separate document icons labeled「分筆の登記」and
+「合筆の登記」; the「合筆の登記」icon is being pulled back by a hand
+labeled「取下げ」, while the「分筆の登記」icon remains stamped and
+untouched beside it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+申請ごとに個別対応
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記完了後は取下げ不可
+Illustration: An isometric completed registry record book stamped
+「登記完了」, with a hand reaching to pull back a document labeled
 「取下げ」but blocked by a red X-mark barrier icon, indicating the action
 is no longer possible.
-Caption (small text below):
-登記完了後は取下げをすることができない
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+完了後は取下げ不可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (1
-card in Column A, 4 cards in Column B), with no duplicated or missing
-cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

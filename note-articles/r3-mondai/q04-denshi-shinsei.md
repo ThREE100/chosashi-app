@@ -207,8 +207,6 @@ illustration, blue, 5-15 Japanese characters):
 原本提示 省略可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-出典：令和3年度 土地家屋調査士試験 午後の部 第4問（対話形式・組合せ問題）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special

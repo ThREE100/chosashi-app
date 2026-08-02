@@ -84,16 +84,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の分割の登記について、分割の方法・申請人に関するルール2枚と、図面・符号・登記記録に関するルール3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+建物の分割の登記について「分割の方法・申請人に関するルール」2枚と「図面・符号・登記記録に関するルール」3枚の計5枚のポスター型カードで俯瞰する構成。通し番号バッジ・短い見出し・図解・短い結論タグだけで構成し、導入イラスト・導入文のブロックは置かない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric houses, attached
 small structures, blueprints/floor plans, numbered symbol tags, ledger
 pages, person figures, arrows, prohibition marks — adapt icon set to the
 topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,9 +113,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 号・録・番・建・物・登・記 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -112,96 +122,84 @@ Title (large, bold, 2行):
 附属建物を切り離すルールを整理する
 
 Subtitle (smaller, centered, 1行):
-代位申請・符号・登記記録の書き方(令和5年度 午後の部 第15問)
+令和5年度 午後の部 第15問－代位申請・符号・登記記録の書き方
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric main house (甲建物) with a small attached
-structure (附属建物) connected by a thin dotted line, and an arrow
-showing the attached structure being lifted away and set down separately
-as its own free-standing building (乙建物), with a pair of scissors icon
-at the cut point to represent the 分割 action.
-建物の分割の登記は、1個の建物として登記されている主である建物と附属建物
-のうち、附属建物を切り離して別の1個の建物にする登記です。分割の方法の
-バリエーション、代位による申請の可否、図面や符号の扱い、登記記録の記載
-方法を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 分割の方法・申請人に関するルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-主である建物とその附属建物への分割は、1段階でできる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+主と附属への分割は1段階でできる
 Illustration: An isometric main house (母屋) with two attached small
 structures labeled 離れ and 倉庫 (附属建物), connected by dotted lines.
 A single arrow shows both being separated at once and rearranged into a
 new grouping: 離れ becomes a free-standing 主である建物 with 倉庫
 attached to it as its附属建物. A crossed-out second arrow labeled
 "合併の登記" shows that this extra step is not required.
-Caption (small text below):
-主である建物から数棟の附属建物を分割して、その中の1棟を新たな主である
-建物、残りをその附属建物とすることもできる。分割後にあらためて合併の
-登記をする2段階の手続が必須なわけではない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+合併登記は不要
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-仮処分債権者は、代位して建物の分割の登記を申請できる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮処分債権者は代位で申請できる
 Illustration: A person figure labeled Ｂ(債権者) holding a document
 labeled "仮処分命令の正本", an arrow labeled "代位" pointing toward a
 附属建物 icon being separated from 甲建物, with 所有者Ａ shown passively
 standing in the background.
-Caption (small text below):
-附属建物について処分禁止の仮処分命令を得た債権者は、仮処分命令の正本を
-代位原因を証する情報として提供し、所有者に代位して建物の分割の登記を
-申請することができる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位申請が可能
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 図面・符号・登記記録に関するルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-建物図面・各階平面図には、分割後の各建物を表示し符号を付す
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+図面に分割後の建物と符号を表示
 Illustration: An isometric blueprint/floor-plan page showing two building
 outlines labeled "分割後の母屋" and "分割後の離れ", each tagged with a
 numbered symbol (符号).
-Caption (small text below):
-建物の分割の登記を申請する場合に提供する建物図面及び各階平面図には、
-分割後の各建物を表示し、これに符号を付さなければならない(規則84条)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+符号を付して表示
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-使用した符号は再使用しない(繰り上がらない)
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+使った符号は繰り上がらない
 Illustration: An isometric main building with three附属建物 tags
 numbered 1・2・3 attached, with tag 2 being lifted away (分割 arrow),
 leaving an empty gap where 2 used to be, and a prohibition mark over a
 curved arrow that would have moved tag 3 into the 2 position, showing
 tag 3 stays labeled 3.
-Caption (small text below):
-いったん使用した符号は再使用することができない(昭37.6.11民甲1559号)。
-符号2の附属建物を分割しても、符号3が符号2に繰り上がることはない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+符号は再使用しない
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-分割後の登記記録には、予定家屋番号で「5番の2に分割」と記録される
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記記録は「5番の2に分割」と記録
 Illustration: An isometric ledger page (甲建物の登記記録) with the
 "原因及びその日付欄" row highlighted, showing the text "5番の2に分割"
 written inside it, beside a crossed-out alternative text bubble reading
 "5番の1、5番の2に分割" to show that wording is incorrect.
-Caption (small text below):
-建物の分割の登記では、分割する附属建物の登記原因及びその日付欄に、
-分割後の予定家屋番号を用いて「5番の2に分割」と記録される。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+予定家屋番号で記録
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第15問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (2
-cards under 分割の方法・申請人に関するルール, 3 cards under
-図面・符号・登記記録に関するルール), with no duplicated or missing
-cards, and confirm every heading, illustration label, and caption text
-matches the Japanese text given above verbatim, with no paraphrasing and
-no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

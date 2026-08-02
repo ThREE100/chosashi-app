@@ -80,3 +80,122 @@
 - 未成年者の代理行為、親でも取り消せないんです
 - 「許諾したから責任なし」とは言えないんです
 - 相手が先に取り消したら、もう追認はできないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「代理行為の効果は誰を基準に判断するか」（ア・オ＝列A・緑）と、「代理人という地位・権限をめぐるルール」（イ・ウ・エ、いずれも誤りの肢を正しいルールに直したもの＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric people figures for
+本人・代理人・相手方, contract documents, a building with a small leak
+icon, empty-handed figures, thought bubbles, school-uniform figures for
+a minor, a scale/balance icon, timeline arrows, red X marks and green
+check marks, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 代・理・瑕・疵・善・悪・追・認・取・消・復・任・選・監・督・責・権・未・成・帰・属
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+代理のルール、判断の基準は「誰」？
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第1問－瑕疵判断・表見代理・代理人資格・復代理人・追認
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+代理行為の効果は「誰」基準？
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+瑕疵の有無は代理人基準で判断
+Illustration: 本人Aが遠くに立ち、頭上に空っぽの吹き出し（何も知らない）。中央の代理人Bは建物アイコンの前に立ち、「瑕疵あり」の書類を手に持ち、頭上に「知っていた（悪意）」という小さなラベル。建物の壁に小さな雨漏りアイコン。Bの悪意が矢印でAへ伝わり、Aの吹き出しも悪意マークに変わる。Aから伸びる「責任追及」の矢印には赤い✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+代理人が知れば本人も悪意
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相手方の取消し後は追認不可
+Illustration: 横向きのタイムラインイラスト。左端で無権代理人Bが契約書にサインしている。中央で相手方Cが「取消し」の赤いスタンプを契約書に押す。右端で本人Aが「やっぱり追認しよう」という吹き出しを出しているが、Aの吹き出しから契約書へ伸びる矢印に大きな赤い✕マーク。
+Conclusion tag (green, 5-15 characters):
+取消し先行で追認不可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+土台の代理権ゼロなら表見代理不成立
+Illustration: 何も持たない両手だけのイラストのB（代理権なし）が宙に浮いている。Cが「信じます、正当な理由あり」という吹き出しを出しているが、Bの足元にあるべき「基本代理権」という土台ブロックが存在せず、点線の枠だけが描かれ赤い✕マークが付いている。Cの吹き出しからAへ伸びる矢印にも✕マーク。
+Conclusion tag (green, 5-15 characters):
+土台となる代理権が必要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+代理人の資格・権限をめぐるルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+未成年者の代理行為は取り消せない
+Illustration: 学生服を着た未成年者アイコンのB（代理人）が契約書にサインしている。契約の効果を示す矢印が本人Aへまっすぐ伸びる。背後でBの親（法定代理人）が「未成年だから取り消す」と手を伸ばしているが、その手は契約書とAへの矢印の手前で赤い✕マークに止められている。
+Conclusion tag (blue, 5-15 characters):
+効果は本人に帰属
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+許諾ありの復代理人選任も責任あり
+Illustration: 本人Aが「許諾」の緑のスタンプを書類に押す。代理人Bが復代理人Cを選ぶ様子。Cのアイコンの横に小さな警告マーク「信用できない人物」が付いている。Bの頭上に「選任・監督の責任」というラベルと緑の✓マークが浮かび、「責任なし」と書かれた吹き出しには赤い✕マークが重ねられている。
+Conclusion tag (blue, 5-15 characters):
+選任・監督の責任は残る
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 瑕疵の有無は代理人基準で判断
+2. 相手方の取消し後は追認不可
+3. 土台の代理権ゼロなら表見代理不成立
+4. 未成年者の代理行為は取り消せない
+5. 許諾ありの復代理人選任も責任あり
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

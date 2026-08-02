@@ -83,15 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-筆界特定の手続きにおける申請人と筆界特定登記官の役割分担を3枚、筆界特定申請情報の書き方に関する原則を2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+筆界特定の手続について「申請人と筆界特定登記官の役割分担」と「申請情報に関する原則」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。導入イラスト・導入文のブロックは置かない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots with a
 dotted boundary line, official stamps/seals, envelopes, ledger books,
 coin/cash trays, document forms, arrows — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,107 +111,96 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 筆・請・費・誤・権・規・則・記・納・報, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 筆・請・費・誤・権・記・納 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-筆界特定
-費用を払うのは「申請した人」だけなんです
+Title (large, bold, 1行):
+筆界特定、費用を払うのは「申請した人」だけなんです
 
 Subtitle (smaller, centered, 1行):
-通知・予納・申請情報のルールを整理(令和4年度 午後の部 第19問)
+令和4年度 午後の部 第19問－通知・予納・申請情報のルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing two land
-plots separated by a dotted boundary line labeled "筆界", with a small
-official character icon (筆界特定登記官) standing beside the boundary
-holding a stamp and a measuring tool, and a small document form icon
-labeled "申請" nearby to show the official judging where the boundary is.
-筆界特定は、土地の筆界(公法上の境界)がどこかを、筆界特定登記官が判断する
-手続です。誰が通知するのか、費用は誰が負担するのか、申請はどう書くのか、
-といった手続のルールが問われています。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 申請人と筆界特定登記官の役割分担
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-申請後の通知は、申請人ではなく筆界特定登記官が行う
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+通知するのは登記官で申請人ではない
 Illustration: An isometric scene showing a registry official character
 (筆界特定登記官) sending an envelope labeled "通知" toward two other
 character icons labeled "対象土地の所有者" and "関係土地の所有者", with a
-prohibition mark over a separate applicant character icon that is crossed
-out from sending any envelope, to show the applicant does not notify.
-Caption (small text below):
-筆界特定をしたときは、筆界特定登記官が遅滞なく公告し、申請人以外の対象
-土地の所有者と関係土地の所有者に通知しなければならない(法133条1項)。
+prohibition mark (✕) over a separate applicant character icon that is
+crossed out from sending any envelope, to show the applicant does not
+notify.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+通知は登記官の役目
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-明白かつ重大な誤りがあれば、再度の申請ができる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+重大な誤りなら再度の申請ができる
 Illustration: An isometric ledger page showing a land plot stamped
 "筆界特定済み", with a torn paper label reading "偽造された資料" attached,
 and a curved arrow looping back to a fresh document form icon labeled
-"改めて申請" to show a new application is possible despite the earlier
-result.
-Caption (small text below):
-既に筆界特定がされている土地の筆界でも、既にされた筆界特定が偽造された
-資料によってなされた場合など特段の必要があると認められる場合には、改めて
-筆界特定の申請をすることができる(平17.12.6民二2760号)。
+"改めて申請" with a ✓ checkmark, to show a new application is possible
+despite the earlier result.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+再申請の余地あり
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-手続費用の予納義務は、申請人だけが負う
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+費用の予納義務は申請人だけが負う
 Illustration: An isometric scene showing an applicant character icon
 placing coins into a tray labeled "予納", while a separate character icon
-labeled "対象土地の所有権の登記名義人(申請人ではない)" stands beside an
-empty tray with a prohibition mark, showing this person is not required
-to pay.
-Caption (small text below):
-測量に要する費用その他の手続費用は申請人の負担とされ、筆界特定登記官は
-申請人に概算額を予納させる。対象土地の所有権の登記名義人であっても、
-申請人でなければ予納の負担は負わない(法146条1項・5項)。
+labeled "対象土地の所有権の登記名義人（申請人ではない）" stands beside an
+empty tray with a prohibition mark (✕), showing this person is not
+required to pay.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+予納は申請人のみ
 
---- COLUMN B HEADER (pill-shaped badge) ---
-筆界特定申請情報に関する原則
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+申請情報に関する原則
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-筆界特定の申請は、申請の趣旨を明らかにしてしなければならない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+申請は「申請の趣旨」を明示する
 Illustration: An isometric document form icon labeled "筆界特定申請情報"
 with a highlighted line reading "申請の趣旨" glowing, and a small speech
-bubble icon showing a checkmark to represent a clear, unambiguous
+bubble icon showing a ✓ checkmark to represent a clear, unambiguous
 statement of intent by the applicant.
-Caption (small text below):
-申請の趣旨とは、筆界特定を求める旨の申請人の明確な意思表示をいう(法131条
-3項1号、平17.12.6民二2760号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+趣旨の明示が必須
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-対象土地の一を共通にする複数の申請は、一の申請情報でできる
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+対象土地が共通なら一の申請情報で可
 Illustration: An isometric diagram showing three land plots labeled
 "甲土地"・"乙土地"・"丙土地", with 甲土地 in the center connected by
 dotted lines to both 乙土地 and 丙土地, and two separate document form
 icons merging via an arrow into a single document form icon labeled
-"一の筆界特定申請情報".
-Caption (small text below):
-甲土地・乙土地を対象とする申請と、甲土地・丙土地を対象とする申請は、
-甲土地を共通にしているため、まとめて一の申請情報で申請できる(規則208条)。
+"一の筆界特定申請情報" with a ✓ checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一の申請情報で可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和4年度 午後の部 第19問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 筆・請・費・誤・権・規・則・記・納・報. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3
-cards under 申請人と筆界特定登記官の役割分担, 2 cards under 筆界特定
-申請情報に関する原則), with no duplicated or missing cards, and confirm
-every heading, illustration label, and caption text matches the Japanese
-text given above verbatim, with no paraphrasing and no substituted
-characters.
+attention to 筆・請・費・誤・権・記・納. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, that badge numbers run 1-5 continuously across both
+columns without resetting, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

@@ -183,8 +183,6 @@ sentence, NOT a legal citation):
 書面で作成
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和3年度　午後の部　第6問（登記申請の却下）
 
 Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):
