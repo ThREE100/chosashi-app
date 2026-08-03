@@ -80,3 +80,117 @@
 - 工事完了証明の添付書類、3か月の期限はないんです
 - 市区町村の嘱託なら、所有権証明を省略できる
 - 共有名義の表題登記、一人だけで申請できるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の表題登記の添付情報に関する5つの独立したルール（借地権証明の要否・電子申請の図面スキャンの可否・資格証明書の期限・嘱託での省略・共有申請の単独可否）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric new house under
+construction, application documents, scanner/computer icons, calendar
+icons, government building, multiple owner figures — adapt icon set to
+the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・証・嘱・託・単・独, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+表題登記の添付情報、省略できるのはどこ？
+借地権・電子申請・嘱託・共有の申請ルール
+
+Subtitle (smaller, centered, 1行):
+本当に必要な証明は何かを5つの場面で確認する
+(平成27年度 午後の部 第14問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric new house under construction with a stack
+of application documents beside it, and small vignette icons radiating
+out: a rental contract, a scanner, a calendar, a government building,
+and two people figures sharing ownership.
+建物の表題登記は、新築した建物を初めて登記記録に載せる大事な手続
+です。添付情報の要否・電子申請の可否・嘱託申請の特例・共有者による
+単独申請の可否といった論点を、条文に沿って整理します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+土地の賃借人が建物を新築しても、借地権証明情報の提供は不要
+Illustration: An isometric new house built on rented land, with a
+rental contract document icon crossed out beside the application
+form, showing it does not need to be attached.
+Caption (small text below):
+土地の賃借人が、その土地上に新築した建物の表題登記を申請する際、
+借地権を有することを証する情報の提供は求められていない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+建物図面・各階平面図は、スキャンした電磁的記録を添付情報にできない
+Illustration: An isometric paper building floor-plan document being
+fed into a scanner, with the resulting digital file icon crossed out
+by a prohibition mark, while a separate "工事完了引渡証明書" document
+is shown successfully being scanned beside it with a checkmark.
+Caption (small text below):
+電子申請で書面を電磁的記録に変換して提供できる方法は、建物図面・
+各階平面図には認められていない(不動産登記令13条1項かっこ書)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+工事完了証明に添える代表者資格証明書に、3か月の期限はない
+Illustration: An isometric "工事完了引渡証明書" document beside a
+company registration certificate stamped six months ago, with a
+calendar showing no expiration deadline crossed through it.
+Caption (small text below):
+表題部所有者となる者の所有権を証する情報として提供する工事完了
+引渡証明書に併せる代表者の資格証明書には、作成後の期間制限は
+定められていない。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+地方公共団体が嘱託するときは、所有権証明情報を省略できる
+Illustration: An isometric government building icon submitting an
+application labeled "嘱託", with a "所有権証明情報" document icon
+crossed out beside it as unnecessary, contrasted with an ordinary
+private applicant who still needs to attach it.
+Caption (small text below):
+地方公共団体が所有する建物について、その地方公共団体が表題登記を
+嘱託する場合には、所有権を有することを証する情報の提供を省略する
+ことができる。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+区分建物でない共有名義の表題登記は、共有者の一人から単独で申請できる
+Illustration: An isometric house with two owner figures (siblings)
+standing beside it, one figure alone stepping forward to submit the
+application document while the other figure stays at home, showing
+one person alone is sufficient.
+Caption (small text below):
+区分建物ではない建物について、二人以上の者を表題部所有者とする
+表題登記の申請は、保存行為として、共有者のうちの一人から単独で
+することができる(民法252条ただし書等)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第14問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・証・嘱・託・単・独. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

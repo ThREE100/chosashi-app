@@ -80,3 +80,122 @@
 - 規約廃止の変更登記、申請するのは建物側なんです
 - 1つの土地が2つのマンションの敷地になれるって知ってた？
 - 承諾書があれば、抵当権も消したと登記できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+敷地権の登記に関する5つの独立したルール（分離処分規約の証明情報・みなし規約敷地・変更登記の申請人・規約敷地の追加・抵当権消滅の登記）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric condominium
+building on land plots, regulation documents, demolition icons, two
+buildings sharing one plot, bank/mortgage icons — adapt icon set to
+the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・敷・規・約・抵・当, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+敷地権、増える場合・消える場合
+規約敷地の追加とみなし規約敷地の落とし穴
+
+Subtitle (smaller, centered, 1行):
+誰が申請するか、消えたと見なされるかを見分ける
+(平成27年度 午後の部 第16問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric condominium building standing on a land
+plot, with a regulation-document icon floating above it and small
+vignette icons around: a demolition icon on part of the plot, a second
+condominium sharing the same plot, and a mortgage/bank icon.
+敷地権は、区分建物の中でも特にルールが細かい論点です。「分離処分を
+可能にする規約があるかどうか」「一部の建物が取り壊されて敷地の一部
+に建物がなくなったらどうなるか」「規約敷地を追加できるか」を、条文
+の立て付けに沿って確認します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+分離処分を可能とする規約があるときは、規約を証する情報が必要
+Illustration: An isometric condominium unit being separated from its
+land-share icon by a dotted line labeled "分離処分可能規約", with a
+regulation document being attached to the application form as required
+evidence.
+Caption (small text below):
+専有部分と敷地利用権との分離処分を可能とする旨の規約を定めたことに
+より所有権が敷地権とならないときは、その規約の定めを証する情報を
+提供しなければならない(不動産登記令別表12項添付情報ホ)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+法定敷地の一部に建物がなくなっても、「みなし規約敷地」となる
+Illustration: An isometric condominium spanning two land plots, one
+half demolished (wrecking ball icon) so no building stands on it
+anymore, with an automatic "みなし規約敷地" badge appearing over that
+now-empty plot instead of a "変更登記" stamp, which is crossed out.
+Caption (small text below):
+法定敷地の一部に建物が存在しなくなった場合、その土地は規約で定めた
+敷地とみなされる(区分所有法5条2項前段)。敷地権消滅の変更登記は
+不要。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+規約廃止による変更登記は、区分建物の所有者側が申請する
+Illustration: An isometric scene showing a regulation document being
+torn up (規約廃止), with an arrow from the condominium room owner
+figure (not the land owner figure, shown crossed out) reaching for the
+"変更登記" stamp.
+Caption (small text below):
+規約が廃止されて敷地権でなくなった場合の表題部の変更の登記は、
+区分建物の表題部所有者又は所有権の登記名義人が申請する
+(不動産登記法51条1項)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+1つの土地を、別の一棟の建物の規約敷地として追加できる
+Illustration: An isometric land plot originally serving only 甲マン
+ション, with a regulation document icon connecting the same plot to a
+second, separate condominium building 乙マンション nearby, both now
+sharing the plot as their敷地.
+Caption (small text below):
+甲区分建物の法定敷地として登記されている土地を、別の一棟の建物に
+属する乙区分建物の敷地とする規約を設定したときは、敷地権の発生を
+原因とする乙区分建物の表題部変更登記を申請できる。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+抵当権者の承諾情報があれば、抵当権は消滅した旨を登記できる
+Illustration: An isometric land plot with a mortgage/bank stamp icon
+on it, with the mortgage-holder figure signing a "承諾" document, and
+an arrow showing the mortgage stamp being replaced with a "消滅" seal
+on the registry ledger.
+Caption (small text below):
+敷地権であった権利を目的とする抵当権について、抵当権者が消滅を承諾
+したことを証する情報が提供されたときは、登記官はその土地について
+抵当権が消滅した旨を登記できる(不動産登記法55条1項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第16問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・敷・規・約・抵・当. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

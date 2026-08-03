@@ -81,3 +81,119 @@
 - 報酬の基準、契約前に示す義務があるんです
 - 正当な理由があっても、補助者には業務を任せられない
 - 補助者を置いたら、届出先は調査士会なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地家屋調査士又は調査士法人の業務に関する5つの独立したルール（業務禁止処分後の資格喪失期間・調査士法人の鑑定業務・報酬基準の提示義務・補助者への業務委任不可・補助者設置の届出先）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric surveyor figure
+with tools, corporate building icon, fee/estimate documents, assistant
+figure, local association office building — adapt icon set to the
+topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・調・査・鑑・定・補, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+補助者に任せていいこと・ダメなこと
+業務禁止・鑑定業務・報酬提示のルール
+
+Subtitle (smaller, centered, 1行):
+調査士本人・調査士法人・補助者の役割を切り分ける
+(平成27年度 午後の部 第20問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric surveyor's office with three figures: the
+調査士 figure at the center holding survey tools, a corporate building
+icon beside them labeled "調査士法人", and an assistant figure (補助者)
+standing slightly behind, holding only minor supporting tools.
+調査士本人にしかできない業務、法人でもできる業務、補助者の位置づけ
+といった、土地家屋調査士法・同施行規則の基本ルールを一つずつ確認
+します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+業務禁止処分を受けた調査士は、処分の日から3年間、資格を失う
+Illustration: An isometric surveyor figure with a "業務禁止" stamp on
+their badge, standing outside a locked office door, with a calendar
+counting down 3 years to a "再登録可" checkmark appearing at the end.
+Caption (small text below):
+業務の禁止の処分を受けた土地家屋調査士は、その登録が取り消され、
+処分の日から3年を経過するまでの間、土地家屋調査士となる資格を
+失う。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+調査士法人は、定款で定めれば筆界の鑑定業務ができる
+Illustration: An isometric corporate building icon (調査士法人) with
+a document labeled "定款" beside it, and an arrow pointing to a judge's
+gavel and boundary-marker icon labeled "筆界の鑑定業務", with a
+checkmark.
+Caption (small text below):
+土地家屋調査士法人は、定款で定めるところにより、当事者その他関係
+人の依頼を受けて鑑定人に就任し、土地の筆界に関する鑑定を行う業務
+をすることができる。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+調査士は、受任前に依頼者へ報酬の基準を示さなければならない
+Illustration: An isometric surveyor figure handing a "報酬基準" fee
+estimate document to a client figure, with a checkmark, before a
+contract signature line is filled in.
+Caption (small text below):
+土地家屋調査士は、業務を受任しようとするときは、あらかじめ依頼を
+しようとする者に対し、報酬の算定方法その他の基準を示さなければ
+ならない(土地家屋調査士法施行規則21条)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+正当な事由があっても、補助者に業務そのものを取り扱わせることはできない
+Illustration: An isometric surveyor figure unable to work (shown with
+a small "体調不良" icon), with the assistant figure (補助者) reaching
+for the survey tools but blocked by a prohibition mark, showing the
+work cannot simply be handed over.
+Caption (small text below):
+土地家屋調査士は他人にその業務を取り扱わせてはならない。自ら業務を
+行うことができない正当な事由があっても、補助者に業務そのものを
+取り扱わせることはできない(土地家屋調査士法施行規則22条)。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+補助者を置いたときの届出先は、法務局長ではなく所属の調査士会
+Illustration: An isometric surveyor figure with a new assistant figure
+beside them, holding a "補助者設置届" document with an arrow pointing
+to a local "土地家屋調査士会" office building, while a government
+"法務局" building icon is crossed out as the wrong destination.
+Caption (small text below):
+土地家屋調査士は、補助者を置いたときは、遅滞なく、その旨を事務所
+所在地の法務局長にではなく、所属する土地家屋調査士会に届け出な
+ければならない(土地家屋調査士法施行規則23条1項・2項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第20問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・調・査・鑑・定・補. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

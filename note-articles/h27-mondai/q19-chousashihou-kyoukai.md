@@ -90,3 +90,118 @@
 - 筆界特定に不服があっても、審査請求はできないんです
 - 職権での地積更正、筆界特定登記官じゃなくてもできる
 - 確定判決が出たら、もう一度の筆界特定はできないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+教授と学生の対話をたどりながら、筆界特定制度に関する5つの独立したルール（和解による確定不可・筆界調査委員の任命者・審査請求不可・職権措置の主体・確定判決後の申請不可）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric professor and
+student figures in dialogue, boundary marker stakes between two land
+plots, official registry office icons, court gavel — adapt icon set to
+the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・筆・審・査・請・求, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+筆界は「決める」ものじゃない
+和解ではできない、境界確定の話
+
+Subtitle (smaller, centered, 1行):
+教授と学生の対話でたどる筆界特定制度の5論点
+(平成27年度 午後の部 第19問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene showing a professor figure and a
+student figure standing on either side of a small table with a
+boundary-marker stake model between two miniature land plots (甲土地・
+乙土地), a speech-bubble icon connecting them.
+境界には、「所有権の範囲(所有権界)」と「筆界(登記された公法上の
+境界)」という2つの顔があります。所有権界は当事者の合意で自由に
+決められますが、筆界はそうはいきません。教授と学生の対話を通じて、
+筆界特定制度のしくみを確認します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+筆界は、私人どうしの和解契約で確定することはできない
+Illustration: An isometric scene showing two neighbor figures shaking
+hands over a signed "和解契約" document, with an arrow toward the
+boundary marker stake blocked by a prohibition mark, showing the
+agreement affects ownership only, not the official筆界.
+Caption (small text below):
+筆界は登記されたときに定まった公法上の境界であり、私人間の和解や
+調停で自由に動かしたり作り出したりすることはできない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+筆界調査委員は、法務局・地方法務局の長が任命し、調査士も任命されうる
+Illustration: An isometric government office building (法務局) with
+an official figure handing an appointment certificate to a surveyor
+figure wearing a "土地家屋調査士" badge, labeled "筆界調査委員に任命".
+Caption (small text below):
+筆界特定に必要な事実の調査を行う筆界調査委員は、法務局又は地方
+法務局の長が任命する。土地家屋調査士も任命されうる(不動産登記法
+127条1項・2項)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+筆界特定は行政処分ではないため、審査請求はできない
+Illustration: An isometric completed 筆界特定書 document beside a
+prohibition mark over a "審査請求" stamp, with an arrow instead
+pointing toward a courthouse icon labeled "筆界確定訴訟".
+Caption (small text below):
+筆界特定登記官が行う筆界特定には行政処分としての法的効力がなく、
+その結果に不服があっても審査請求をすることはできない(最判昭和
+39年10月29日)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+職権による地積更正・地図訂正は、筆界特定登記官に限られない
+Illustration: An isometric registry office with several registry
+official figures, one wearing a "筆界特定登記官" badge and others
+wearing plain "登記官" badges, all equally able to stamp "職権で
+地積更正・地図訂正" on the ledger.
+Caption (small text below):
+筆界特定の結果に基づき職権で地積更正登記や地図訂正を行える登記官
+は、筆界特定登記官に限定されない(平成18年1月6日民二27号)。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+筆界確定訴訟の確定判決後は、別途の筆界特定申請はできない
+Illustration: An isometric courthouse with a "確定判決" gavel stamp
+on a document, with an arrow from a second neighbor figure reaching
+for a "筆界特定の申請" form blocked by a prohibition mark and a
+"却下" stamp.
+Caption (small text below):
+筆界確定訴訟の確定判決によって筆界がすでに確定している場合には、
+あらためて筆界特定を申請しても却下される(不動産登記法132条1項
+6号)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第19問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・筆・審・査・請・求. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

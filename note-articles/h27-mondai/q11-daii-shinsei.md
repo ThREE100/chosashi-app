@@ -80,3 +80,125 @@
 - 共有物分割の勝訴判決があれば、相手に代わって分筆できる
 - 処分禁止の仮処分、その前提として代位分筆できるって知ってた？
 - 農地の許可前でも、条件付仮登記の前提なら代位分筆できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+代位申請が「できないケース」と「できるケース」という本問の軸に沿って、できない側2枚・できる側3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots being
+split, people figures, court gavel, court order documents, farm crops
+— adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・筆・債・権・処・分, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その分筆、誰が「代わりに」申請できる？
+登記の代位申請を4つのケースで整理する
+
+Subtitle (smaller, centered, 1行):
+自分の登記を実現するために分筆が本当に必要か
+(平成27年度 午後の部 第11問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric land plot with a person figure standing
+beside it holding a document labeled "代位申請", with a thought-bubble
+question mark asking "分筆が本当に必要？" pointing at the plot.
+代位申請とは、本来は登記名義人(債務者)が申請すべき登記を、その
+債権者が「本人に代わって」申請する仕組みです(民法423条)。「自分の
+登記を実現するために、その前提としてどうしても他人名義の分筆登記が
+必要か」という視点で整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+代位分筆できないケース
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+土地全部を借りる転借人は、代位して分筆できない
+Illustration: An isometric scene showing tenant B renting the whole
+land plot from owner A, and sub-tenant C occupying only a corner of
+it, with C reaching for a "代位申請" stamp blocked by a prohibition
+mark, since C has no direct claim against A.
+Caption (small text below):
+土地の全部を賃借している転借人は、分筆をしなくても自己の債権が保全
+されるため、地主に代位して分筆の登記を申請することはできない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+地役権者は、土地の一部にも設定できるので代位分筆はいらない
+Illustration: An isometric land plot with a dotted path icon (地役権)
+running through only part of it, with the easement-holder figure
+reaching for a "代位申請" stamp blocked by a prohibition mark, since
+the easement itself can be registered without splitting the land.
+Caption (small text below):
+地役権は一筆の土地の一部にも設定できる。分筆をしなくても地役権設定
+登記請求権が保全されるため、地役権者は代位による分筆の登記を申請
+できない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+代位分筆できるケース
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+共有物分割の確定判決があれば、他の共有者に代位して分筆できる
+Illustration: An isometric court gavel stamping a "確定判決" document,
+with an arrow from co-owner A directly to a "分筆登記" stamp on the
+shared land plot, bypassing an uncooperative co-owner B figure shown
+with crossed arms.
+Caption (small text below):
+共有物分割の訴えについて確定判決を得た場合には、その判決正本を
+代位原因を証する情報として、申請に協力しない他の共有者に代位して
+分筆の登記を申請できる。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+処分禁止の仮処分を得た債権者は、その前提として代位分筆できる
+Illustration: An isometric land plot with a portion highlighted by a
+red "処分禁止" stamp from a court order document, with an arrow
+showing the creditor figure using that order to trigger a "代位分筆"
+step before the "仮処分登記" can be entered.
+Caption (small text below):
+一筆の土地の一部について処分禁止の仮処分の決定を得た債権者は、仮処分
+の登記をする前提として、決定正本を代位原因を証する情報として提供し、
+代位して分筆の登記を申請できる。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+農地法の許可前でも、条件付仮登記の前提として代位分筆できる
+Illustration: An isometric farm field being purchased, with a "条件付
+仮登記" document icon showing a pending checkbox for "都道府県知事の
+許可", and an arrow showing the buyer proceeding with a "代位分筆"
+step even before the checkbox is checked.
+Caption (small text below):
+農地法5条の許可前に農地の一部を買い受けた者は、条件付所有権移転の
+仮登記をする前提として、代位による分筆の登記を申請することができる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第11問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・筆・債・権・処・分. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly (2 cards
+under 代位分筆できないケース, 3 cards under 代位分筆できるケース), with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

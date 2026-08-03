@@ -80,3 +80,127 @@
 - 立体駐車場のタワー、ちゃんと建物として登記できる
 - アーケード街路は「道路の一部」扱いなんです
 - ガラス張りの温床施設、建物として登記できるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+外気分断性・定着性・用途性の3要件に照らして「登記できる建造物」と「登記できない建造物」を見分ける本問の軸に沿って、できる側3枚・できない側2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric statue/temple,
+train platform kiosk, rotary parking tower, shopping arcade, greenhouse
+— adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・築・観・音・独, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+それ、建物として登記できる？
+外気分断性・定着性・用途性の3要件で見分ける
+
+Subtitle (smaller, centered, 1行):
+登記できない2つと登記できる3つの具体例
+(平成27年度 午後の部 第13問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric checklist board with three icons in a row:
+a roof-and-walls icon labeled "外気分断性", an anchor-into-ground icon
+labeled "定着性", and a checkmark-on-building icon labeled "用途性",
+with small silhouettes of unusual structures (a statue, a kiosk, a
+tower) lined up below waiting to be judged against the checklist.
+「建物」として登記できるかどうかは、①外気分断性(屋根・周壁がある
+こと)、②定着性(土地に固定されていること)、③用途性(その目的に使える
+状態にあること)の3要件で判断します。見た目が変わった建造物でも、
+この3要件に当てはめて考えれば結論を導けます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+建物として登記できる
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+礼拝設備のある観音像は、建物として登記できる
+Illustration: An isometric large statue of a deity with a cutaway view
+showing an altar and seating space inside, with a small checkmark badge
+labeled "建物として登記可" beside it.
+Caption (small text below):
+内部に祭壇や参拝者が着席できる設備があり、寺院の本堂として利用
+されている観音像は、建物として取り扱われる(昭和30年4月9日民甲
+694号)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+回転式パーキングタワーは、建物として登記できる
+Illustration: An isometric tall tower-shaped mechanical parking
+structure with a roof and outer walls, cars visible through small
+windows on a rotating mechanism inside, with a checkmark badge beside
+it.
+Caption (small text below):
+屋根及び外壁があり、内部に車を格納する回転式のパーキング機械が
+設置されているタワー状の立体駐車場は、外気分断性・定着性・用途性
+の3要件を満たし、建物として取り扱われる。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+半永久的なガラス張りの温床施設は、建物として登記できる
+Illustration: An isometric greenhouse structure with glass roof and
+glass walls over rows of seedlings, sturdy metal frame visible, with
+a checkmark badge beside it (distinguished from a flimsy plastic
+vinyl-sheet tent shown small and crossed out in the background).
+Caption (small text below):
+屋根及び周壁の部分がガラスで覆われ、半永久的な建造物と認められる
+農耕用の温床施設は、建物として取り扱われる(準則77条1号オ)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+建物として登記できない
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+駅ホーム内の売店は、独立性を欠き建物として登記できない
+Illustration: An isometric small kiosk booth with a roof, standing on
+a concrete foundation inside a train platform, with a prohibition mark
+over a "建物として登記" stamp, and a label "停車場の一部" showing it
+is treated as part of the station facility.
+Caption (small text below):
+屋根があり、コンクリートで基礎工事が施された売店であっても、駅の
+ホーム内にあるものは停車場の一部であって独立性を欠き、建物として
+登記することができない(昭和63年3月24日民三1826号)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+アーケード付街路は、道路の附属物で建物として登記できない
+Illustration: An isometric shopping street with a simple roof/awning
+covering the walkway between shops, with pedestrians walking under it,
+and a prohibition mark over a "建物として登記" stamp, labeled "道路の
+附属物".
+Caption (small text below):
+公衆用道路の上に屋根や覆いを施しただけのアーケード付街路は、道路の
+附属物にすぎず、独立した用途性を欠くため、建物として認められない
+(準則77条2号エ)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第13問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・築・観・音・独. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly (3 cards under 建物と
+して登記できる, 2 cards under 建物として登記できない), with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```
