@@ -79,3 +79,127 @@
 - 屋根裏、天井高1.5メートル以上なら1つの階なんです
 - 地下階の基準は「天井高の3分の1」なんです
 - 高床式は2メートルの床上げで「平家建」と呼べないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の構造表示のルールを、「造り・屋根の材料による表示ルール」（ア・イ＝列A・緑）と「高さの基準による階数・表示ルール」（ウ・エ・オ＝列B・青、いずれも数字の基準がポイント）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。誤りの肢（ア・エ・オ）は、いずれも正しいルールに直した内容だけを図解する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric building frames,
+steel skeletons, wall panels, roof tile textures, measuring tapes, attic
+spaces, cross-section floor diagrams, elevated buildings on columns,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 造・構・鉄・骨・壁・屋・根・階・建・地・下・床・高・車・駐 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+屋根裏部屋は「階」に入る？入らない？
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第16問－建物の構造の表示ルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+造り・屋根の材料による表示ルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+外壁がALC板でも主要構造部で判断
+Illustration: 鉄骨の骨組みだけを描いたアイソメ建物アイコンに「主要構造部：
+鉄骨」のラベルを付ける。その外側に薄いパネルを重ね「ALC板（外壁）」と
+ラベルする。骨組みから伸びる矢印の先に構造欄のラベルタグ「鉄骨造」と緑の
+チェックマーク、その下に紛らわしい「鉄骨・鉄筋コンクリート造」のラベルに
+赤い✕マークを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+骨組みで判断
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+屋根は3割以上占める種類を表示
+Illustration: 屋根を上から見たアイソメ図を2色の瓦柄で分割し、「スレート
+65%」と「かわら35%」のラベルを付ける。両方に緑のチェックマークを添え、
+下に目盛りバー「30%ライン」を描いて、両方のブロックがそのラインを超えて
+いることを示す。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+3割ラインが基準
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+高さの基準による階数・表示ルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+屋根裏は天井高1.5m以上で1階算入
+Illustration: 2階建て建物の断面図。天井裏の収納式はしごのある屋根裏部屋に
+巻尺アイコンで「1.5m」の高さを示す。屋根裏部屋に緑のチェックマークと
+「3階建」のラベルタグを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+1.5m以上で算入
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地下階の基準は天井高の3分の1
+Illustration: 3層建物の断面図。一番下の階の天井高「2.7m」に巻尺を添え、
+床面が地盤面より「1.1m」低い位置にあることを矢印で示す。天井高の3分の1
+「0.9m」の目盛り線を描き、1.1mがそれを超えていることを強調する。階の
+ラベルタグ「地下1階付き2階建」に緑のチェックマーク、隣に「3階建」だけの
+ラベルに赤い✕マークを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+3分の1超で地下階
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+床上げ1.5m以上は高床式
+Illustration: 鉄骨の柱で地面から持ち上げられた平家建の店舗を描き、柱の
+脇に巻尺で「2.0m」の高さを表示する。床下は壁のない駐車スペースで、車の
+アイコンと外気を示す風の線を添える。建物の構造欄のラベルタグ「高床式
+平家建」に緑のチェックマーク、隣に「平家建」だけのラベルに赤い✕マークを
+添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+高床式平家建
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

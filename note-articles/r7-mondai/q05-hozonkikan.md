@@ -89,7 +89,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-閉鎖後も「永久」保存が続くもの（建物所在図・筆界特定書）と、期限つきで保存期間が満了するもの（土地の閉鎖登記記録・建物合併登記の申請情報・閉鎖した地積測量図）の2グループに分け、5枚のカードで対比する構成。
+閉鎖後も「永久」保存が続くもの（建物所在図・筆界特定書）と、期限つきで保存期間が満了するもの（土地の閉鎖登記記録・建物合併登記の申請情報・閉鎖した地積測量図）の2グループに分け、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで対比する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -98,94 +98,105 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-kanji, which have visually similar but different Simplified Chinese forms
-— render them only in standard Japanese (Jōyō) form: 閉, 鎖, 登, 記, 録,
-建, 物, 地, 番, 所, 図, 書, 続, 筆, 併, 測, 量. Do not render any of these
-as Simplified Chinese variants.
+summarize, or substitute any characters. Pay special attention to the
+kanji 閉・鎖・登・記・録・建・物・地・所・図・書・筆・併・測・量 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
 同じ「閉鎖された図面」でも保存期間が違う？
-令和7年度 第5問
+令和7年度 午後の部 第5問
 
 Subtitle (smaller, centered, 1行):
 同じ「閉鎖された図面」でも、寿命が違うんです
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 法務局の書庫の棚を俯瞰したアイソメトリックイラスト。片側の棚には
-「永久」のスタンプが押されたファイルが並び、もう片側の棚には砂時計や
-カウントダウンのアイコンが付いたファイルが並んでいて、保存期間の違いを
-一目で対比できる構図にする。
-同じ「閉鎖された図面」でも建物所在図と地積測量図とでは保存期間の長さが違う、
-という点を押さえておく必要があります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 閉鎖後も「永久」保存が続く資料
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
 閉鎖した建物所在図は永久保存
 Illustration: 建物所在図の図面ファイルに「永久」の丸いスタンプが押されている
 アイソメトリックイラスト。書庫の棚にずっと保管され続けている様子を、無限
 マーク(∞)のアイコンとともに表現する。
-Caption (small text below):
-その古い図面は捨てられず、法務局にずっと保管され続けます。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+閉鎖後も永久保存
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-筆界特定書に記載された情報は永久保存
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+筆界特定書は永久保存
 Illustration: 筆界特定書のファイルに「永久」の丸いスタンプが押され、隣に境界標
 （杭）のアイソメトリックアイコンを添える。
-Caption (small text below):
-当時の判断根拠を遡って確認できるよう、期限を設けず保存され続けます。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+期限なく永久保存
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 保存期間に期限があるもの
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-閉鎖登記記録（土地）は50年で保存期間満了
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+土地の閉鎖登記記録は50年満了
 Illustration: 土地の登記記録ファイルに「50年」のラベルと砂時計のアイソメトリック
 アイコンを添え、書庫の棚から一定期間後に取り除かれていく様子を表現する。
-Caption (small text below):
-閉鎖から50年が経つと保存期間が満了し、それより古い記録は法務局に残っていない
-可能性があります。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+50年で保存終了
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-建物合併登記の申請情報は30年で保存期間満了
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+建物合併登記の申請情報は30年満了
 Illustration: 2棟の建物のアイソメトリックアイコンが1棟にまとまる矢印とともに、
 申請書類のファイルに「30年」のラベルを添える。
-Caption (small text below):
-審査を経て登記が完了した後も一定期間は保管されますが、それも30年で保存期間の
-対象から外れます。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+30年で保存終了
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-閉鎖した地積測量図は30年で保存期間満了
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+閉鎖した地積測量図は30年満了
 Illustration: 地積測量図のファイルに「30年」のラベルを添え、その隣にカード1
 （永久マークの建物所在図ファイル）を小さく並べて対比させ、同じ「閉鎖された
 図面」でも寿命が違うことを一目で示す構図にする。
-Caption (small text below):
-同じ「閉鎖された図面」でも、建物所在図と地積測量図とでは保存期間の長さが違う、
-という点を押さえておく必要があります。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+建物所在図とは別扱い
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly
-(2 cards under 「閉鎖後も「永久」保存が続く資料」and 3 cards under
-「保存期間に期限があるもの」), with no duplicated or missing cards, and
-that no card states a false ("誤"と判定された) rule — every card must show
-the legally correct rule only.
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards under 「閉鎖後も「永久」保存が続く資料」and 3 cards under「保存期間
+に期限があるもの」), with no duplicated or missing cards, that badge
+numbers run 1-5 continuously across both columns without resetting,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence
+of explanatory prose — every card's takeaway must read as a short heading
++ a short conclusion tag, at a glance. Confirm no card states a false
+("誤"と判定された) rule — every card must show the legally correct rule
+only.
 ```

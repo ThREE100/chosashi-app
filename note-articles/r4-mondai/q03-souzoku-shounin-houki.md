@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 強迫で遺言をさせた者は相続欠格者となる（891条3号） |
-| イ | 正 | 熟慮期間内に何もしなければ単純承認とみなされる（921条2号） |
-| ウ | 誤 | 限定承認は共同相続人全員が共同してのみできる（923条） |
-| エ | 正 | 放棄した者は初めから相続人でなかったとみなされる（939条） |
-| オ | 誤 | 強迫による相続放棄は取り消すことができる（919条2項） |
+- **ア（正）** 強迫で遺言をさせた者は相続欠格者となる（891条3号）
+- **イ（正）** 熟慮期間内に何もしなければ単純承認とみなされる（921条2号）
+- **ウ（誤）** 限定承認は共同相続人全員が共同してのみできる（923条）
+- **エ（正）** 放棄した者は初めから相続人でなかったとみなされる（939条）
+- **オ（誤）** 強迫による相続放棄は取り消すことができる（919条2項）
 
 「限定承認＝全員そろって」「放棄の撤回は不可だが取消しは可」という2つのルールを正確に押さえておけば、迷わず正解にたどり着けます。
 
@@ -85,16 +83,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-相続の承認・放棄について、相続人の資格や承認の可否に関する原則3枚と、放棄の効果に関する原則2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+相続の承認・放棄について、相続人の資格や承認の可否に関する原則3枚と、放棄の効果に関する原則2枚を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric people figures,
 signposts, calendars, family-tree diagrams, court/gavel icons, torn
 paper documents, prohibition marks, stamps/seals — adapt icon set to
 the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,9 +112,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 続・認・棄・欠・権・強・迫・単・裁・剥, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 続・認・棄・欠・強・迫・単・裁 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -113,101 +121,89 @@ Title (large, bold, 2行):
 限定承認は「全員そろって」、放棄の取消しは「できる」
 
 Subtitle (smaller, centered, 1行):
-単純承認・限定承認・放棄の手続と効果の違いを整理(令和4年度 午後の部 第3問)
+単純承認・限定承認・放棄の違いを整理（令和4年度 午後の部 第3問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a person
-icon (representing an heir) standing at a fork in the road that branches
-into three signposts labeled "単純承認"、"限定承認"、"放棄", each signpost
-leading down a differently colored path, representing the three choices
-available to an heir.
-相続の承認・放棄の分野は、「単純承認・限定承認・放棄」の3つの選択肢と、
-それぞれの手続・効果・取消しの可否を整理できているかが問われます。とくに
-限定承認の共同性と、放棄の取消しの扱いが定番の論点です。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 相続人の資格と承認に関する原則
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-強迫で遺言をさせた者は、相続欠格者になる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+強迫で遺言させたら欠格者
 Illustration: An isometric scene showing a woman character labeled "Ｂ"
 menacingly holding a scroll toward a man character labeled "Ａ" who is
 being forced to write on a document stamped "遺言", with a large red
-prohibition (no-entry) icon and a torn "相続人" name-tag falling away
-from Ｂ to show she loses her heir status.
-Caption (small text below):
-詐欺または強迫によって、被相続人に遺言をさせたり、撤回・取消し・変更を
-妨げたりした者は、相続欠格者として相続権を剥奪される。不正な手段で相続に
-介入した者への制裁である(891条3号)。
+prohibition ("✕") icon and a torn "相続人" name-tag falling away from Ｂ
+to show she loses her heir status.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+相続欠格者になる
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-熟慮期間内に何もしなければ、単純承認とみなされる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+熟慮期間の放置で単純承認
 Illustration: An isometric calendar icon showing "3か月" counting down to
 zero with no action taken, next to a small scale balancing a money bag
 and a torn IOU-style paper, both being handed to a person icon labeled
 "Ｂ", with a stamp reading "単純承認" appearing automatically above the
 scale.
-Caption (small text below):
-自己のために相続の開始があったことを知った時から3か月(熟慮期間)内に、
-限定承認も相続放棄もしなかったときは、単純承認をしたものとみなされる。
-何もしないと、プラスの財産もマイナスの借金もそのまま引き継ぐことになる
-(921条2号)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+単純承認とみなす
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-限定承認は、共同相続人の全員が共同してのみできる
-Illustration: An isometric family court building icon in front of which
-two person icons labeled "Ｂ" and "Ｃ" stand together holding a single
-joint document stamped "限定承認", while beside them a large red
-prohibition mark is overlaid on a single person icon holding the same
-document alone, to show it cannot be done individually.
-Caption (small text below):
-限定承認は、相続人が複数いる場合、共同相続人の全員が共同してのみすること
-ができる。一人だけが単独ですることは認められていない(923条)。
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+限定承認は全員共同でのみ
+Illustration: An isometric family court building icon labeled "家庭裁判所"
+in front of which two person icons labeled "Ｂ" and "Ｃ" stand together
+holding a single joint document stamped "限定承認", while beside them a
+large red prohibition ("✕") mark is overlaid on a single person icon
+holding the same document alone, to show it cannot be done individually.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+全員共同が必要
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 相続放棄の効果に関する原則
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-相続を放棄した者は、初めから相続人でなかったとみなされる
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+放棄者は最初から相続人でない
 Illustration: An isometric family tree diagram where a person icon
 labeled "Ｂ" fades into a dotted outline and is erased from the family
 tree branch, with a clock icon showing an arrow curving backward to the
 very start of the tree, showing Ｂ is treated as never having been an
 heir from the beginning.
-Caption (small text below):
-相続の放棄をした者は、その相続に関しては、初めから相続人とならなかった
-ものとみなされる。放棄はさかのぼって効力を生じる(939条)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+遡って相続人でない
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-強迫による相続放棄は、取り消すことができる
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+強迫による放棄は取消しできる
 Illustration: An isometric scene showing a person icon labeled "Ｃ"
 holding a torn "相続放棄" document while a menacing figure labeled "Ｂ"
-looms nearby; a large red X crosses over an arrow icon labeled "撤回",
-while a separate green checkmark arrow labeled "取消し" leads toward a
+looms nearby; a large red "✕" crosses over an arrow icon labeled "撤回",
+while a separate green "✓" arrow labeled "取消し" leads toward a
 court/gavel icon, showing the different path that remains open.
-Caption (small text below):
-承認・放棄は、熟慮期間中でも撤回はできない(919条1項)。しかし、総則編
-(制限行為能力・錯誤・詐欺・強迫)や親族編(後見)の規定によって取り消す
-ことは認められている(919条2項)。撤回はできなくても、取消しは別問題で
-ある。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+撤回不可でも取消し可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和4年度 午後の部 第3問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 続・認・棄・欠・権・強・迫・単・裁・剥. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3
-cards under 相続人の資格と承認に関する原則, 2 cards under 相続放棄の
-効果に関する原則), with no duplicated or missing cards, and confirm
-every heading, illustration label, and caption text matches the Japanese
-text given above verbatim, with no paraphrasing and no substituted
-characters.
+attention to 続・認・棄・欠・強・迫・単・裁. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, that badge numbers run 1-5 continuously across both
+columns without resetting (3 cards under 相続人の資格と承認に関する原則,
+2 cards under 相続放棄の効果に関する原則), confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

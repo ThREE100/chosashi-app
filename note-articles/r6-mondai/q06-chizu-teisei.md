@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 近傍に基本三角点等がなくても恒久的な地物を基礎にできるとする規定はない（規則10条1項、3項） |
-| イ | 誤 | 隣接2筆でも一の申出情報にまとめることはできない（登記研究696号158頁） |
-| ウ | 正 | 閉鎖された地図に準ずる図面も保存期間は永久（規則28条2号、3号） |
-| エ | 正 | 閉鎖図面で確認できれば、その図面特定情報で足りる（規則16条6項〜9項、平17.2.25民二457号） |
-| オ | 誤 | 分筆線の誤りは地図訂正でなく分筆錯誤の更正登記で直す（昭43.6.8民甲1653号） |
+- **ア（誤）** 近傍に基本三角点等がなくても恒久的な地物を基礎にできるとする規定はない（規則10条1項、3項）
+- **イ（誤）** 隣接2筆でも一の申出情報にまとめることはできない（登記研究696号158頁）
+- **ウ（正）** 閉鎖された地図に準ずる図面も保存期間は永久（規則28条2号、3号）
+- **エ（正）** 閉鎖図面で確認できれば、その図面特定情報で足りる（規則16条6項〜9項、平17.2.25民二457号）
+- **オ（誤）** 分筆線の誤りは地図訂正でなく分筆錯誤の更正登記で直す（昭43.6.8民甲1653号）
 
 「誤り」を直す手続はひとつではなく、原因と図面の性質によって使い分けるべきものだと分かります。
 
@@ -86,14 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「誰が・どんな図面をもとに・どんな手続で」地図の誤りを直すのかという本問の軸に沿って、ア〜オ各肢の正しいルールを5枚のカードで俯瞰する構成。
+地図の"訂正"に関する5肢を、「図面そのものに関するルール（測量の基礎・保存期間）」と「地図訂正の申出の手続（申出情報の単位・添付情報の省略・分筆錯誤との違い）」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。導入イラストや説明文のブロックは置かない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric surveyor tools,
+triangulation point markers, registry archive shelves, land plots, torn
+paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,86 +112,93 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-characters 号・録・権・地・番・建・物・登・記・所, which have Simplified
-Chinese variants that look similar but are incorrect — always render the
-standard Japanese (Jōyō) form.
+kanji 地・筆・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
 地図の"訂正"、実はどこでもできるわけじゃない
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第6問を解説
+令和6年度 午後の部 第6問－地図訂正の申出と分筆錯誤の更正
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: A surveyor character standing between an official triangulation
-point marker (isometric stone pillar with a brass plate) and a shelf of
-old, stamped-closed map documents in a registry office, isometric flat style.
-誰が、どんな図面をもとに、どんな手続で誤りを直すのか。地図・地図に準ずる図面・
-地図訂正の申出に関する5つの正しいルールを整理しました。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-地図作成の測量は、基本三角点等の測量成果が基礎
-Illustration: An isometric surveyor using a total station aimed at an official
-triangulation point marker (三角点) and electronic reference point; beside it,
-a small crossed-out icon of a roadside stone Jizo statue and a concrete stake
-labeled 恒久的な地物, with a red "NG" cross mark over them.
-Caption (small text below):
-近傍に基本三角点等がなくても、近傍の恒久的な地物を基礎に測量してよいとする
-規定はない（不動産登記規則10条1項、3項）
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+図面そのものに関するルール
 
---- CARD 2 ---
-Heading (bold):
-隣接する2筆の区画訂正でも、申出は1筆ごとに必要
-Illustration: Two adjacent isometric land plots labeled 甲土地 and 乙土地,
-each with its own separate document/form icon labeled 地図訂正申出情報,
-connected by an arrow to the same registry office building, emphasizing
-two separate submissions rather than one combined document.
-Caption (small text below):
-同一の登記所の管轄区域内にある土地でも、一の地図訂正申出情報にまとめることは
-できない（登記研究696号158頁）
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+測量は基本三角点等が基礎
+Illustration: An isometric surveyor using a total station aimed at an
+official triangulation point marker (三角点) and electronic reference
+point. Beside it, a small crossed-out icon of a roadside stone Jizo
+statue and a concrete stake labeled "恒久的な地物", with a red X mark
+over them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+地物基準はNG
 
---- CARD 3 ---
-Heading (bold):
-閉鎖された地図に準ずる図面も、保存期間は永久
-Illustration: An isometric registry archive shelf holding a new detailed map
-labeled 地図 next to an older map document stamped with a red 閉鎖 stamp,
-both stored inside a vault/safe icon with an "永久保存" pill-shaped badge above.
-Caption (small text below):
-新たに地図が備え付けられて従前の地図に準ずる図面が閉鎖されても、保存期間は
-短縮されない（不動産登記規則28条2号、3号）
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+閉鎖図面も保存期間は永久
+Illustration: An isometric registry archive shelf holding a new detailed
+map labeled "地図" next to an older map document stamped with a red
+"閉鎖" stamp, both stored inside a vault/safe icon with a small
+"永久保存" pill-shaped badge above them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+保存期間は永久
 
---- CARD 4 ---
-Heading (bold):
-閉鎖図面で誤りを確認できれば、その図面の特定情報で足りる
-Illustration: An isometric hand pointing at a closed (閉鎖) old map document
-that clearly shows a discrepancy, with a document icon labeled
-図面を特定する情報 highlighted, and a separate icon of a newly surveyed
-地積測量図 crossed out with an "NG" mark to show it is not required in
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+地図訂正の申出の手続
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+隣接区画でも申出は1筆ごと
+Illustration: Two adjacent isometric land plots labeled "甲土地" and
+"乙土地", each with its own separate document icon labeled
+"地図訂正申出情報", connected by two separate arrows to the same registry
+desk, emphasizing two separate submissions rather than one combined
+document.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+申出は1筆ごとに
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+閉鎖図面で確認できれば足りる
+Illustration: An isometric hand pointing at a closed ("閉鎖") old map
+document that clearly shows a discrepancy, with a document icon labeled
+"図面を特定する情報" highlighted, and a separate icon of a newly surveyed
+"地積測量図" crossed out with a red X mark to show it is not required in
 this case.
-Caption (small text below):
-登記所に備え付けられている閉鎖図面で誤りが確認できるときは、地積測量図等の
-提供を省略し、当該図面を特定する情報を提供すれば足りる
-（不動産登記規則16条6項〜9項、平17.2.25民二457号）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+特定情報で足りる
 
---- CARD 5 ---
-Heading (bold):
-分筆線の誤りは、地図訂正ではなく分筆錯誤の更正登記で直す
-Illustration: An isometric land plot with an incorrect dividing line labeled
-誤った分筆線, with a red "NG" cross over a document icon labeled 地図訂正の申出,
-and an arrow pointing instead to a highlighted correct path document icon
-labeled 分筆錯誤による更正の登記.
-Caption (small text below):
-誤った分筆線のまま分筆の登記がされた場合、その是正は分筆錯誤による更正の登記
-によるべきで、地図訂正の申出によっては直せない（昭43.6.8民甲1653号）
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆線の誤りは更正登記で直す
+Illustration: An isometric land plot with an incorrect dividing line
+labeled "誤った分筆線", with a red X mark over a document icon labeled
+"地図訂正の申出", and an arrow pointing instead to a highlighted correct
+path document icon labeled "分筆錯誤による更正の登記".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+更正登記で直す
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards.
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

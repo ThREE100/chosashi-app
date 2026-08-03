@@ -79,3 +79,119 @@
 - 古材で別の土地に建て直し、それは「新築」なんです
 - 屋根のふき替えだけなら、所有権証明はいらないんです
 - 車庫を倉庫にするだけなら、所有権証明はいらないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「所有権証明情報が必要なケース」（イ・ウ＝列A・緑）と「所有権証明情報が不要なケース」（ア・エ・オ、いずれも誤りの肢を正しいルールに直したもの＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric building/house icons,
+construction materials, application document panels, registry desks,
+before/after roof or garage icons, torn paper labels, etc. — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 証・明・情・報・要・築・新・登・記・変・更・申・請・造・種・類・壁・併・積 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+所有権証明情報、いる？いらない？
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第7問－建物表示登記における所有権証明情報の要否
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+所有権証明情報が必要なケース
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+増築部分は所有権証明が必要
+Illustration: 建物アイコンの半分が取り壊された状態（点線で消えた部分に✕マーク）が描かれ、「3週間後」の矢印の先に新しい増築部分（斜線ハッチングで新設部分を強調）が付け加えられている。増築部分に「所有権証明情報」の書類アイコンが✓マーク付きで添付され、床面積の数字に「全体では減少」という吹き出しが添えられるが、証明書アイコンは変わらず必要のまま示される。
+Conclusion tag (5-15 characters):
+減少でも証明は必要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+材料を移しても登記上は新築
+Illustration: 建物アイコンが解体され、材料（木材アイコン）が矢印で別の土地のアイコンへ移動し、そこに同じ形の建物が再び建てられている。新しい建物の上に「表題登記」のラベルと「所有権証明情報」の書類アイコンが✓マーク付きで示される。
+Conclusion tag (5-15 characters):
+表題登記で証明必要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+所有権証明情報が不要なケース
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+壁を壊さない合併的変更は証明不要
+Illustration: 隣り合う2つの区分建物アイコンが点線で繋がれ、「隔壁を壊さない」というラベルが添えられる。所有者Aの人物アイコンが登記所の窓口へ申請書を提出しているが、「所有権証明情報」の書類アイコンには大きな✕マークが付けられている。
+Conclusion tag (5-15 characters):
+名義人申請で証明不要
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+屋根のふき替えは証明不要
+Illustration: 建物アイコンの屋根が瓦から亜鉛メッキ板に張り替えられている様子（ビフォーアフターの矢印）。所有者Aが構造変更登記の申請書を提出しており、横に置かれた「所有権証明情報」の書類アイコンに✕マークが付く。
+Conclusion tag (5-15 characters):
+構造変更のみで証明不要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+車庫を倉庫にしても証明不要
+Illustration: シャッター付き車庫アイコンにシャッターが取り付けられ「倉庫」のラベルに変わる（床面積の数字は変わらず同じまま）。「所有権証明情報」の書類アイコンに✕マークが付けられている。
+Conclusion tag (5-15 characters):
+種類変更のみで証明不要
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 増築部分は所有権証明が必要
+2. 材料を移しても登記上は新築
+3. 壁を壊さない合併的変更は証明不要
+4. 屋根のふき替えは証明不要
+5. 車庫を倉庫にしても証明不要
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 一部の目的だけに却下事由があるときは、その部分だけ却下される（準則28条4項) |
-| イ | 正 | 筆界を確認できない地積更正の申請は却下される（法25条11号） |
-| ウ | 正 | 基本三角点等を利用できるのに利用しない地積測量図は却下される（規則77条1項7号) |
-| エ | 正 | 補正できる不備を期間内に補正すれば却下されない（法25条ただし書) |
-| オ | 誤 | 電子申請の却下決定書も電磁的記録ではなく書面で作成される（規則38条1項) |
+- **ア（誤）** 一部の目的だけに却下事由があるときは、その部分だけ却下される（準則28条4項)
+- **イ（正）** 筆界を確認できない地積更正の申請は却下される（法25条11号）
+- **ウ（正）** 基本三角点等を利用できるのに利用しない地積測量図は却下される（規則77条1項7号)
+- **エ（正）** 補正できる不備を期間内に補正すれば却下されない（法25条ただし書)
+- **オ（誤）** 電子申請の却下決定書も電磁的記録ではなく書面で作成される（規則38条1項)
 
 「却下されるか・されないか」だけでなく、「却下されるとしてどこまで（全部か一部か)」「どんな方式で(書面か電磁的記録か)」まで押さえておくことが、この分野を取りこぼさないコツです。
 
@@ -86,7 +84,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「却下されるか・されないか」の判断基準（イ・ウ・エ）と、「却下の範囲・方式」に関するルール（ア・オ、いずれも誤りの肢を正しいルールに直したもの）の2系統に分け、5枚のカードで一枚に俯瞰できる構成にした。
+「却下されるか・されないか」の判断基準（イ・ウ・エ＝列A・緑）と、「却下の範囲・方式」に関するルール（ア・オ、いずれも誤りの肢を正しいルールに直したもの＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -96,6 +94,17 @@ modern explainer-graphic aesthetic (icons: isometric registry office
 building, document folders, rubber stamps, torn paper labels, calendar,
 magnifying glass, computer/tablet, envelopes, etc. — adapt icon set to
 the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -116,65 +125,79 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和3年度　午後の部　第6問　全肢のポイントを一枚で
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 登記官のキャラクターがデスクで申請書の束を確認している。デスクの上には「受理」と書かれた緑のトレイと「却下」と書かれた赤いトレイがあり、申請書がどちらかに仕分けされている。手前に大きな虫眼鏡アイコン。
-登記の申請の却下は、登記官が申請を受け付けない場面のルールです。「却下されるか・されないか」だけでなく、「却下されるとしてどこまで（全部か一部か）」「どんな方式で（書面か電磁的記録か）」まで押さえておくことが、この分野を取りこぼさないコツです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 却下事由の有無を判断するルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
 筆界確認不能の地積更正は却下される
-Illustration: 二つの土地の区画アイコンの境界線（筆界）がギザギザの点線で不明りょうに描かれ、登記官キャラクターが虫眼鏡で境界を探しているが「？」マークが浮かんでいる。その横に「地積更正登記申請書」のアイコンに赤い却下スタンプが押されている。
-Caption (small text below):
-筆界を確認できない地積更正の申請は却下される（不動産登記法25条11号）
+Illustration: 二つの土地区画アイコンの境界線（筆界）をギザギザの点線で描き、登記官キャラクターが虫眼鏡を境界に向けている。境界線の上に赤い「？」マークを配置。その横に「地積更正登記申請書」アイコンに赤い却下スタンプ（「却下」の文字入り）を押す。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+筆界不明は却下
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
 基準点不使用の地積測量図は却下される
-Illustration: 「地積測量図」のアイコンと、使われていない「基本三角点」のアイコンが離れた位置に描かれ、両者の間に赤い×の断絶線がある。地積測量図には却下スタンプが押されている。
-Caption (small text below):
-基本三角点等を利用できるのに利用しない地積測量図は却下される（不動産登記規則77条1項7号）
+Illustration: 「地積測量図」アイコンと「基本三角点」アイコンを離して配置し、間に赤い✕印の断絶線を描く。「地積測量図」アイコンに赤い却下スタンプ（「却下」の文字入り）を押す。
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+基準点未使用は却下
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
 期間内に補正すれば却下されない
-Illustration: 不備のある申請書アイコン（赤い付箋「不備」付き）から矢印が伸び、カレンダーアイコン（「相当の期間」ラベル）を経て、修正済みの申請書アイコン（緑のチェックマーク付き）に変わる。最後に大きな緑の丸に「却下されない」のラベル。
-Caption (small text below):
-補正できる不備を期間内に補正すれば却下されない（不動産登記法25条ただし書）
+Illustration: 赤い付箋「不備」が貼られた申請書アイコンから矢印が伸び、カレンダーアイコン（「相当の期間」ラベル付き）を経て、緑のチェックマーク付きの修正済み申請書アイコンに変わる。最後に大きな緑の丸バッジに「却下されない」のラベル。
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+補正で却下回避
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 却下の範囲・方式に関するルール
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-却下事由が一部だけならその部分だけ却下される
-Illustration: 一枚の申請書アイコンに「所有権移転」のタグと「抵当権設定」のタグが並んでいる。「所有権移転」のタグには緑のチェックマークが付き、「抵当権設定」のタグにだけ赤い却下スタンプが押されている。申請書全体を覆う大きな×印は描かない。
-Caption (small text below):
-一部の目的だけに却下事由があるときは、その部分だけ却下される（不動産登記事務取扱準則28条4項）
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously across all columns — do not restart at 1).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+却下は不備がある部分のみ
+Illustration: 一枚の申請書アイコンに「所有権移転」タグと「抵当権設定」タグを並べる。「所有権移転」タグには緑のチェックマーク、「抵当権設定」タグにだけ赤い却下スタンプ（「却下」の文字入り）を押す。申請書全体を覆う大きな✕印は描かない。
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+一部だけ却下
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
 電子申請の却下決定書も書面で作成される
-Illustration: パソコン画面から「電子申請」の送信アイコンが登記所の建物アイコンに向かって送られている。登記所の建物から出てくるのは電子データのアイコンではなく、印刷された紙の「却下決定書」と封筒アイコンで、申請人キャラクターの元へ届けられている。
-Caption (small text below):
-電子申請の却下決定書も電磁的記録ではなく書面で作成される（不動産登記規則38条1項）
+Illustration: パソコン画面から「電子申請」の送信アイコンが登記所の建物アイコンに向かって送られる。登記所の建物から出てくるのは電子データのアイコンではなく、印刷された紙の「却下決定書」アイコンと封筒アイコンで、申請人キャラクターの元へ届けられる。
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+書面で作成
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和3年度　午後の部　第6問（登記申請の却下）
 
-Card list for self-verification (do not duplicate, omit, or reword any of these 5 headings):
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
 1. 筆界確認不能の地積更正は却下される
 2. 基準点不使用の地積測量図は却下される
 3. 期間内に補正すれば却下されない
-4. 却下事由が一部だけならその部分だけ却下される
+4. 却下は不備がある部分のみ
 5. 電子申請の却下決定書も書面で作成される
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
 ```

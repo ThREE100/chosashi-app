@@ -85,13 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-地積測量図・地役権図面をめぐる5つの規定を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。R07年度第9問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
+「地積測量図に関するルール」と「地役権図面に関するルール」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric drafting tables, drawing pens, survey diagrams, archive shelves, compass icons — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric drafting tables,
+drawing pens, survey diagrams, coordinate points, compass icons, archive
+shelves, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,61 +113,86 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 権・地・番・登・記・所・録 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-地積測量図は、
-時々「一人二役」
+Title (large, bold, 1行):
+地積測量図は、時々「一人二役」
 
 Subtitle (smaller, centered, 1行):
-細線・縮尺・保存期間・座標値と方位を整理(平成28年度 午後の部 第11問)
+平成28年度 午後の部 第11問－地積測量図と地役権図面、5つのルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric drafting table with a 地積測量図 drawing on one side and a 地役権図面 drawing on the other, a fine drawing pen icon actively drawing a thin line labeled 0.2ミリメートル.
-線の太さ、地役権図面の縮尺、地積測量図と土地所在図の兼用、地役権図面の保存期間、座標値と方位という5つの規定を整理します。
---- CARD 1 ---
-Heading (bold):
-線の太さは、0.2mm以下
-Illustration: An isometric ruler measuring a fine drawn survey line labeled 0.2ミリメートル以下, next to a thick crossed-out line marked as too thick.
-Caption (small text below):
-書面の地積測量図は0.2ミリメートル以下の細線で図形を鮮明に表示する(不動産登記規則74条)。
---- CARD 2 ---
-Heading (bold):
-地役権図面の縮尺は、決まっていない
-Illustration: An isometric 地役権図面 sheet with three different scale rulers shown beside it — 250分の1, 500分の1, 100分の1 — all glowing as equally valid, with no single fixed scale highlighted.
-Caption (small text below):
-地役権図面の縮尺は250分の1固定ではなく、土地の状況に応じた適宜の縮尺でよい(不動産登記規則79条2項)。
---- CARD 3 ---
-Heading (bold):
-条件がそろえば、1枚で2つの図面を兼ねられる
-Illustration: An isometric single drawing sheet labeled 土地所在図兼地積測量図, formed by merging two separate document icons(土地所在図 and 地積測量図) into one glowing sheet.
-Caption (small text below):
-縮尺が同一で土地の所在を明確に表示できるときは、地積測量図が土地所在図を兼ねることができる(不動産登記規則77条3項)。
---- CARD 4 ---
-Heading (bold):
-地役権図面のつづり込み帳は、ずっと保存される
-Illustration: An isometric archive shelf holding a ledger book labeled 地役権図面つづり込み帳 stamped 永久保存, with a crossed-out calendar icon reading 30年 beside it.
-Caption (small text below):
-地役権図面つづり込み帳は30年間ではなく、永久に保存される(不動産登記規則28条1項1号)。
---- CARD 5 ---
-Heading (bold):
-座標値さえあれば、方位は省略できる
-Illustration: An isometric land survey diagram with several coordinate points(座標値)marked and glowing, and a compass icon(方位)crossed out beside it as unnecessary.
-Caption (small text below):
-基本三角点等に基づく測量成果による座標値を記録した場合には、方位の記録を省略できる(不動産登記規則77条1項8号ただし書)。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+地積測量図に関するルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+線の太さは0.2mm以下
+Illustration: An isometric ruler measuring a fine drawn survey line
+labeled "0.2ミリメートル以下" next to a thick pen line crossed out with a
+red X, showing the thick line fails the requirement.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+細線で鮮明に
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+条件がそろえば土地所在図を兼ねる
+Illustration: An isometric single drawing sheet labeled
+"土地所在図兼地積測量図", formed by two document icons ("土地所在図" and
+"地積測量図") merging into one glowing sheet, with a small label
+"縮尺が同一" beside the merge point.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1枚で兼用可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+座標値があれば方位は省略可
+Illustration: An isometric land survey diagram with several coordinate
+points ("座標値") glowing along the筆界 line, and a compass icon ("方位")
+crossed out with a red X beside it as unnecessary.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+方位の記録は省略可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+地役権図面に関するルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地役権図面の縮尺は自由
+Illustration: An isometric 地役権図面 sheet with three different scale
+rulers shown beside it — "250分の1"、"500分の1"、"100分の1" — all glowing
+equally as valid, with no single fixed scale highlighted.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+縮尺は適宜でよい
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+つづり込み帳は永久保存
+Illustration: An isometric archive shelf holding a ledger book labeled
+"地役権図面つづり込み帳" stamped "永久保存", with a torn-paper label reading
+"30年" crossed out with a red X beside it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+30年ではなく永久
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第11問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

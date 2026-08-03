@@ -83,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-相続と表示登記の添付情報に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+相続がからむ表示登記について「誰が申請人になれるか」と「遺産分割協議書・相続関係説明図をどう扱うか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+plots, family trees, document icons, registry desks, torn paper labels,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,9 +110,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 建・物・登・記 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -108,57 +120,82 @@ Title (large, bold, 2行):
 謄本を省略できない
 
 Subtitle (smaller, centered, 1行):
-相続と表示登記の添付情報を整理(平成25年度 午後の部 第15問)
+相続と表示登記の添付情報を整理（平成25年度 午後の部 第15問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric family tree icon connecting a deceased figure (被相続人) to several heir figures, with document icons (戸籍謄本, 遺産分割協議書, 相続関係説明図) flowing toward a registry-office window.
-相続がからむ表示登記は「誰が申請できるか」と「どの範囲の証明書が必要か」が中心論点です。特に相続関係説明図による原本還付の簡略化は対象範囲を正確に押さえる必要があります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-区分建物を新築した所有者の死亡後、相続人は被相続人名義で表題登記を申請できる
-Illustration: An isometric newly-built condominium unit with the deceased owner's name tag (被相続人) still on the registration document, an heir figure (相続人) submitting the application on their behalf, green checkmark.
-Caption (small text below):
-区分建物を新築した所有者について相続があったときは、相続人は被相続人を表題部所有者とする表題登記を申請できる。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+誰が申請人になれるか
 
---- CARD 2 ---
-Heading (bold):
-共同相続人の一人が申請する場合、全員分の相続証明情報までは不要
-Illustration: An isometric family tree with three heir figures (A, B, C), only A submitting the application with a document proving just A's own relationship to the deceased, the other two heirs' documents greyed out as unnecessary.
-Caption (small text below):
-被相続人名義の建物の表題部の変更登記を共同相続人の一人が申請する場合、共同相続人全員分の相続証明情報までは不要。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続人は被相続人名義で申請可
+Illustration: An isometric newly-built condominium unit with the
+deceased owner's name tag (被相続人) still shown on the registration
+document. An heir figure (相続人) submits the application on the
+deceased's behalf, green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+被相続人名義で申請可
 
---- CARD 3 ---
-Heading (bold):
-遺産分割協議書に基づき、指定された相続人同士が共同で分筆登記を申請できる
-Illustration: An isometric land plot being split by a dotted line (分筆) into two, one side labeled A、one side labeled B, both matching a document icon labeled 遺産分割協議書, both A and B jointly stamping the application.
-Caption (small text below):
-遺産分割協議書に土地を分筆したうえでA・Bがそれぞれ相続する旨が記載されていれば、A及びBが共同して分筆の登記を申請できる。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続人一人なら全員分は不要
+Illustration: An isometric family tree with three heir figures (A, B,
+C). Only A submits the application with a document proving just A's own
+relationship to the deceased; the other two heirs' documents are greyed
+out as unnecessary.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+全員分は不要
 
---- CARD 4 ---
-Heading (bold):
-相続関係説明図による原本還付の簡略化は戸籍関係書類が対象。遺産分割協議書は対象外
-Illustration: An isometric family-tree chart (相続関係説明図) attached to a 戸籍謄本 document with a green return arrow (謄本省略で還付可), while a separate 遺産分割協議書 document has a red X over the same simplified return arrow, requiring a full copy instead.
-Caption (small text below):
-相続関係説明図を提供すれば戸籍の全部事項証明書は謄本省略で原本還付できるが、遺産分割協議書はこの簡略化の対象外。
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+死亡前滅失の滅失登記も一人で可
+Illustration: An isometric collapsed and removed building icon
+（滅失した建物）, with only one heir figure (相続人の一人) stamping the
+滅失の登記 application alone, green checkmark, labeled as a 保存行為.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+相続人の一人で可
 
---- CARD 5 ---
-Heading (bold):
-死亡前に滅失した建物の滅失登記は、共同相続人の一人から申請できる
-Illustration: An isometric collapsed/removed building icon (滅失した建物) with only one heir figure (相続人の一人) stamping the 滅失の登記 document alone, green checkmark, as a保存行為.
-Caption (small text below):
-被相続人の死亡前に滅失していた被相続人名義の建物の滅失の登記の申請は、保存行為として共同相続人の一人がすることができる。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+遺産分割協議書・相続関係説明図の扱い
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+遺産分割協議書で分筆も共同申請可
+Illustration: An isometric land plot being split by a dotted line
+（分筆）into two, one side labeled A, one side labeled B, both matching
+a document icon labeled 遺産分割協議書, with A and B jointly stamping
+the application.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+A・Bで共同申請可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+遺産分割協議書は謄本省略の対象外
+Illustration: An isometric family-tree chart (相続関係説明図) attached
+to a 戸籍謄本 document with a green return arrow labeled 謄本省略で
+還付可. A separate 遺産分割協議書 document has a red X over the same
+simplified return arrow, requiring a full copy instead.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+謄本の提出が必要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第15問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+（誰が申請人になれるかに3枚、遺産分割協議書・相続関係説明図の扱いに2枚）,
+with no duplicated or missing cards, that badge numbers run 1-5
+continuously across both columns without resetting, confirm there is no
+intro illustration or paragraph block between the header and the cards,
+and confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

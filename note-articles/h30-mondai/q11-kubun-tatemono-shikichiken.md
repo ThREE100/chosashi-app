@@ -128,17 +128,29 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-区分建物（【Ａ】）と敷地権（【Ｂ】）の定義を、空欄①〜⑦を含む9枚のカードで、「区分建物に関する語句」「敷地権に関する語句」の2カラムに分けて俯瞰できるよう構成した画像生成プロンプト。
+区分建物（【Ａ】）と敷地権（【Ｂ】）の定義を、「区分建物に関する語句」「敷地権に関する語句」という2つの軸に沿って、空欄①〜⑦を含む9枚のカードを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・9枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×2800 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x2800 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric apartment building
 cross-section, single highlighted room, wall/floor/ceiling boundary lines,
 house/shop/office/warehouse use icons, law book/scroll, meeting room icon,
 land plot, registry ledger book, official stamp/seal, prohibition marks,
-dotted connecting lines, pill-shaped badges, blank-fill number tags).
+dotted connecting lines, blank-fill number tags — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -147,141 +159,137 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・専・棟・職・構・敷, which
-have Simplified Chinese look-alike forms with visibly different stroke
-shapes — always draw the standard Japanese (Jōyō) form of these characters.
+kanji 号・録・権・地・番・建・物・登・記・所・専・棟・職・構・敷 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
 区分建物と敷地権
-穴埋めで定義を丸ごと覚える
+定義を丸ごと覚える
 
 Subtitle (smaller, centered, 1行):
-マンションの一室と土地の権利を条文の言葉で整理(平成30年度 午後の部 第11問)
+平成30年度 午後の部 第11問－空欄①〜⑦の穴埋めで見る2つの定義
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon showing a multi-story apartment
-building with one room highlighted and labeled "301号室", connected by a
-thin dotted vertical line down to a small square land plot beneath the
-building. A pill-shaped tag reading "【Ａ】区分建物" points to the
-highlighted room, and another pill-shaped tag reading "【Ｂ】敷地権"
-points to the land plot below, showing the two concepts are linked but
-distinct.
-区分建物（【Ａ】）と敷地権（【Ｂ】）は、マンションの一室とその土地の権利を
-捉える2つの重要概念です。空欄①から⑦までに入る語句を、条文の定義に沿って
-順番に確認します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 区分建物に関する語句
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-一棟の建物の中で独立した所有権の対象になる部分
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+一室が独立した所有権の対象に
 Illustration: An isometric high-rise apartment building cut away to show
 one room pulled out and spotlighted, labeled "301号室", with a small
 wooden tag reading "【Ａ】区分建物" attached to it, showing that a single
 room within one building can become an independent object of ownership.
-Caption (small text below):
-一棟の建物の中に独立した所有権の客体となる建物を有するものを区分建物と
-いいます（法2条22号）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+独立の所有権客体
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-壁・床・天井ではっきり仕切られていること
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+壁・床・天井で区切る「構造上」
 Illustration: A cross-section of two adjacent rooms separated by a solid
 concrete wall, floor, and ceiling, with a ruler/measuring icon over the
 wall and a number tag reading "①構造上" placed above the boundary,
 emphasizing physical separation between the two rooms.
-Caption (small text below):
-壁・床・天井で他と区別される物理的独立性が必要です（構造上の独立性）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+構造上の独立性
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-「住居、店舗、事務所又は倉庫」の用途に使えること
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+用途は「住居、店舗、事務所、倉庫」
 Illustration: Four small isometric icons in a row: a house/room icon
 labeled "住居" (circled and highlighted as the correct answer), a shop
 icon labeled "店舗", an office building icon labeled "事務所", and a
 warehouse icon labeled "倉庫", with a number tag reading "②住居" pointing
 to the first, highlighted icon.
-Caption (small text below):
-「住居、店舗、事務所又は倉庫」の列挙の先頭に来る語句です。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+②は住居
 
 --- COLUMN A, CARD 4 ---
-Heading (bold):
-区分所有法上の所有権の対象
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+専有部分＝区分所有法上の対象
 Illustration: An isometric single room interior with furniture inside a
 highlighted dashed boundary, labeled "③専有部分", connected by a thin
 line to a small law-book icon labeled "区分所有法2条3項".
-Caption (small text below):
-区分所有法2条3項にいう所有権の対象である「専有部分」を指します。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+③は専有部分
 
 --- COLUMN A, CARD 5 ---
-Heading (bold):
-本来は専有部分になれるが規約で共用にした部分
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約共用部分も区分建物に含む
 Illustration: A small room icon labeled "集会室" next to a scroll/document
 icon labeled "規約", with an arrow pointing into a folder labeled
 "④規約共用部分". Beside it, a grayed-out corridor/staircase icon labeled
 "法定共用部分" has a prohibition (no-entry) mark overlaid, showing it is
 excluded.
-Caption (small text below):
-規約で共用と定めた独立部分も区分建物に含みます（区分所有法4条2項）。
-廊下等の法定共用部分は含みません。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+④規約共用部分
 
 --- COLUMN A, CARD 6 ---
-Heading (bold):
-それだけで用途に使える独立性
+Badge: a filled green circle containing the number 6.
+Heading (bold, ONE line, ~20 characters or fewer):
+それだけで使える「利用上」
 Illustration: A single room icon with its own front door/entrance
 highlighted in bright color, labeled "⑤利用上", showing the room is
 self-contained and does not require passing through another room to
 reach it.
-Caption (small text below):
-それだけで用途に使える利用上の独立性を備えていることが必要です。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+利用上の独立性
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 敷地権に関する語句
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
+--- COLUMN B, CARD 7 ---
+Badge: a filled blue circle containing the number 7.
+Heading (bold, ONE line, ~20 characters or fewer):
 専有部分と一体化した土地の権利
 Illustration: An isometric building sitting on top of a square land plot,
 with a dotted band wrapping around both the building and the land plot
 labeled "【Ｂ】敷地権", and a prohibition (no-separation) icon placed
 between the building and the land to show they cannot be separated.
-Caption (small text below):
-専有部分と分離処分できない土地の権利をいいます（法44条1項9号）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+分離処分は不可
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-敷地権が登記される先の登記記録
+--- COLUMN B, CARD 8 ---
+Badge: a filled blue circle containing the number 8.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権は土地の登記記録へ
 Illustration: A land plot icon with an open ledger book resting on top of
 it labeled "土地の登記記録", with a dotted arrow coming down from the
 building above pointing into the ledger, and a number tag reading
 "⑥土地" beside the arrow.
-Caption (small text below):
-敷地権が登記される先の登記記録です。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+⑥は土地
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-登記官が申請なしに敷地権である旨を登記する
+--- COLUMN B, CARD 9 ---
+Badge: a filled blue circle containing the number 9.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記官が職権で登記する
 Illustration: A hand representing "登記官" pressing an official stamp/seal
 onto a land ledger page, with a "申請書" (application document) icon
 crossed out and placed off to the side to show no application was
 submitted, and a number tag reading "⑦職権で" beside the stamp.
-Caption (small text below):
-登記官が敷地権である旨を職権で登記します（法46条）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+⑦は職権で
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成30年度 午後の部 第11問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・専・棟・職・構・敷.
-If any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the number of cards
-equals 9 exactly (6 cards under 区分建物に関する語句, 3 cards under
-敷地権に関する語句), with no duplicated or missing cards, and confirm
-every heading, illustration label, and caption text matches the Japanese
-text given above verbatim, with no paraphrasing and no substituted
-characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 9 exactly, with
+no duplicated or missing cards, that badge numbers run 1-9 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 急傾斜地の防災用擁壁が占める土地は「堤」ではなく「雑種地」（登記研究422号） |
-| イ | 正 | ため池のえん堤もため池の一部として「ため池」に含める（準則68条17号） |
-| ウ | 誤 | 「墓地」は人の遺骸・遺骨を埋める土地。動物は含まず「雑種地」（準則68条12号） |
-| エ | 正 | 宗教法人の聖堂が存する土地は「境内地」（準則68条13号） |
-| オ | 誤 | 着工前で仮設事務所のみでは宅地にできない（昭56.8.28民三5402号・5403号） |
+- **ア（誤）** 急傾斜地の防災用擁壁が占める土地は「堤」ではなく「雑種地」（登記研究422号）
+- **イ（正）** ため池のえん堤もため池の一部として「ため池」に含める（準則68条17号）
+- **ウ（誤）** 「墓地」は人の遺骸・遺骨を埋める土地。動物は含まず「雑種地」（準則68条12号）
+- **エ（正）** 宗教法人の聖堂が存する土地は「境内地」（準則68条13号）
+- **オ（誤）** 着工前で仮設事務所のみでは宅地にできない（昭56.8.28民三5402号・5403号）
 
 地目の問題は、準則68条の定義を軸に、「当てはまらないものは雑種地」という原則と、擁壁・ペット霊園・着工前の土地といった先例で結論が固まっている論点を押さえておくことが得点への近道です。
 
@@ -85,7 +83,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-ア・ウ・オを「一見それらしいが実は雑種地に落ちる地目」、イ・エを「定義どおりに認定される地目」の2系統に整理し、擁壁・ため池・墓地・境内地・宅地という5つの認定結論を1枚で俯瞰できる構成とした。
+ア・ウ・オを「一見それらしいが実は雑種地に落ちるパターン」（列A・ベージュ）、イ・エを「定義どおりに認定される地目」（列B・青）の2系統に整理し、通し番号1〜5で擁壁・墓地・仮設事務所・ため池・境内地の5つの認定結論を1枚で俯瞰できる構成とした。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -95,6 +93,17 @@ modern explainer-graphic aesthetic (icons: isometric retaining walls,
 irrigation ponds with embankments, pet cemetery grave markers, a temple
 hall, a prefab site office, land-survey motifs — adapt icon set to the
 topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -115,77 +124,83 @@ Subtitle (smaller, centered, 2行):
 擁壁・ため池・墓地・境内地・宅地
 定義と先例で見分ける
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 虫眼鏡を持った測量士のキャラクターが、地図の上に並んだ
-「擁壁」「ため池」「墓地」「聖堂」「仮設事務所」の5つのアイソメトリック
-アイコンを見比べている構図。
-地目は、不動産登記事務取扱準則68条が定める23種類の定義に当てはめて認定
-する。似ているようで定義に当てはまらないものは「雑種地」になるという
-原則と、先例・通達で結論が固められている論点を押さえることが得点への
-近道。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-「雑種地」に落ちるパターン（似て非なる地目）
+--- COLUMN A HEADER (pill-shaped badge, color: beige) ---
+「雑種地」に落ちるパターン
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-ア：急傾斜地の防災用擁壁が占める土地は、「堤」ではなく「雑種地」
+Badge: a filled circle in beige containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+防災用擁壁の土地は雑種地
 Illustration: 山の急傾斜地に構築されたコンクリート擁壁の断面イラスト。
-擁壁の隣に「堤」のアイコンとバツ印、矢印の先に「雑種地」のラベルを表示。
-Caption (small text below):
-急傾斜地の防災用擁壁が占める土地は「堤」ではなく「雑種地」（登記研究422号）
+擁壁アイコンの脇に「堤」のラベル札とバツ印（✕）、矢印の先に「雑種地」の
+ラベル札とチェックマーク（✓）を表示。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+堤ではなく雑種地
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-ウ：動物の遺骸を埋める土地は「墓地」ではなく「雑種地」
-Illustration: ペット霊園を思わせる犬・猫の墓標が並ぶイラスト。「墓地」の
-ラベルにバツ印、矢印の先に「雑種地」のラベルを表示。
-Caption (small text below):
-「墓地」は人の遺骸・遺骨を埋める土地。動物は含まず「雑種地」（準則68条12号）
+Badge: a filled circle in beige containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+動物を埋めた土地は雑種地
+Illustration: ペット霊園を思わせる犬・猫の墓標アイコンが並ぶイラスト。
+「墓地」のラベル札にバツ印（✕）、矢印の先に「雑種地」のラベル札と
+チェックマーク（✓）を表示。
+Conclusion tag (beige, 5-15 Japanese characters):
+動物埋葬は雑種地
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-オ：着工前で仮設事務所があるだけの段階では、まだ「宅地」にできない
-Illustration: 整地された土地にプレハブの仮設事務所が1棟建つイラスト。
-「基礎工事」「建築確認」のアイコンにバツ印を重ね、「宅地」のラベルに
-バツ印を表示。
-Caption (small text below):
-着工前で仮設事務所のみでは宅地にできない（昭56.8.28民三5402号・5403号）
+Badge: a filled circle in beige containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+着工前の仮設事務所は宅地不可
+Illustration: 整地された土地に建つプレハブの仮設事務所アイコン。
+「基礎工事」「建築確認」の小アイコンにバツ印（✕）を重ね、「宅地」の
+ラベル札にもバツ印（✕）を表示。
+Conclusion tag (beige, 5-15 Japanese characters):
+宅地変更はまだ不可
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 定義どおりに認定される地目
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-イ：ため池のえん堤も、ため池の一部として「ため池」
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+ため池のえん堤もため池
 Illustration: 農業用のため池と、水をせき止めるえん堤（土手）が一体と
-なった俯瞰イラスト。池本体とえん堤の両方に同じ「ため池」のラベルを
-表示し、切り離さないことを示す。
-Caption (small text below):
-ため池のえん堤もため池の一部として「ため池」に含める（準則68条17号）
+なった俯瞰イラスト。池本体とえん堤の両方に同じ「ため池」のラベル札と
+チェックマーク（✓）を表示し、切り離さないことを示す。
+Conclusion tag (blue, 5-15 Japanese characters):
+一体でため池
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-エ：宗教法人の聖堂が存する土地は「境内地」
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+聖堂が建つ土地は境内地
 Illustration: 宗教法人の聖堂（本堂）が建つ敷地の俯瞰イラスト。建物に
-「境内地」のラベルを表示。
-Caption (small text below):
-宗教法人の聖堂が存する土地は「境内地」（準則68条13号）
+「境内地」のラベル札とチェックマーク（✓）を表示。
+Conclusion tag (blue, 5-15 Japanese characters):
+境内地に認定
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和3年度 午後の部 第10問（地目認定）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially for
 号・地・建・物・登・記. If any character renders as a Simplified Chinese
 variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly, with no duplicated or missing cards,
-and that they cover exactly these 5 conclusions, each appearing once and
-verbatim as written above:
-1. 急傾斜地の防災用擁壁が占める土地は「堤」ではなく「雑種地」（登記研究422号）
-2. ため池のえん堤もため池の一部として「ため池」に含める（準則68条17号）
-3. 「墓地」は人の遺骸・遺骨を埋める土地。動物は含まず「雑種地」（準則68条12号）
-4. 宗教法人の聖堂が存する土地は「境内地」（準則68条13号）
-5. 着工前で仮設事務所のみでは宅地にできない（昭56.8.28民三5402号・5403号）
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence
+of explanatory prose — every card's takeaway must read as a short heading
++ a short conclusion tag, at a glance. Confirm the 5 conclusion tags each
+appear once and verbatim as written above:
+1. 堤ではなく雑種地
+2. 動物埋葬は雑種地
+3. 宅地変更はまだ不可
+4. 一体でため池
+5. 境内地に認定
 ```

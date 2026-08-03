@@ -84,15 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の個数認定について、複数棟を一個として扱うかどうかの判断基準を3枚、区分所有建物における共用部分の扱いを2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+建物の個数認定について、複数棟を一個として扱うかどうかの判断基準（効用上の一体性・主従関係）を3枚、区分所有建物における共用部分の扱いを2枚の、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric houses, apartment
 buildings, staircases, corridors, official stamps/seals, dotted outlines
 — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,103 +111,91 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to
-standard Japanese (Jōyō) form of these characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・権・建・物・登・記・棟・附・属 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 その建物、1個？それとも別々？
-一体性と共用部分で見分ける個数認定
 
 Subtitle (smaller, centered, 1行):
-効用上の一体性・主従関係・区分所有の共用部分を整理(令和元年度 午後の部 第9問)
+令和元年度 午後の部 第9問－一体性と共用部分で見分ける個数認定
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing two
-adjacent house-shaped buildings connected by a single outdoor staircase,
-with a dotted outline merging them into one silhouette, next to a
-separate small icon of a shared corridor inside an apartment building on
-the right.
-建物の個数は、複数の建物が物理的・効用上一体といえるか、主従の関係があ
-るかという視点と、区分所有法上の共用部分をどう扱うかという視点の両方か
-ら判断します。誤りやすいのは、一体性の判断基準を取り違えたり、共用部分
-を専有部分と混同したりする点です。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 複数の建物を一個として扱うかどうかの判断
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-同じ屋外階段しか使えない二棟は、一個の建物
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+屋外階段共用の二棟は一個の建物
 Illustration: An isometric view of two closely built houses sharing a
 single external staircase leading to both second floors, a dotted line
-encircling both buildings together with a label 「一個の建物」 and a
-green stamp.
-Caption (small text below):
-近接する二棟の建物が、2階への出入りに同一の屋外階段を用いるほかないと
-きは、一個の建物として取り扱う。
+encircling both buildings together with a green checkmark stamp labeled
+「一個の建物」.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一個の建物
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-別々の借主が住む三棟は、主従関係のない別個の建物
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+別々の借主の三棟は別個の建物
 Illustration: An isometric view of three separate small houses on one
 plot, each with a different tenant figure standing in front holding a
 different-colored door key, three separate dotted outlines (not merged)
 around each house with a label 「別個の建物」.
-Caption (small text below):
-同一所有者の三棟でも、それぞれ異なる借主の居宅として利用され主従の関係
-がないときは、一個の建物として扱うことはできず、別個の建物となる(準則
-78条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+別個の建物
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-抵当権が付いていても、附属建物にできる
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+抵当権付きでも附属建物にできる
 Illustration: An isometric main house (甲建物) with a red 「抵当権」 seal
-stamped on its wall, next to a small newly built shed (乙建物) beside
-it, connected by an arrow labeled 「主・附属」 showing the two are
+stamped on its wall, next to a small newly built shed (乙建物) beside it,
+connected by a checkmark arrow labeled 「主・附属」 showing the two are
 combined into one building despite the mortgage seal.
-Caption (small text below):
-甲建物に抵当権の設定登記があっても、それを理由に乙建物を附属建物とする
-取扱いが妨げられることはなく、抵当権の効力は附属建物にも及ぶ。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+附属建物にできる
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 区分所有建物における共用部分の扱い
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-一部共用の廊下は、独立した一個の建物にはできない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+一部共用の廊下は一個の建物不可
 Illustration: An isometric apartment building cross-section showing a
-shared corridor connecting several unit doors, the corridor highlighted
-with a label 「共用部分」 and a prohibition (no-entry) icon overlaid on
-an attempt to draw a separate registration stamp on just the corridor.
-Caption (small text below):
-数個の専有部分に通ずる廊下など区分所有者の一部の共用に供される部分は法
-定共用部分であり、独立した一個の建物として登記することはできない(区分
-所有法4条1項)。
+shared corridor connecting several unit doors, the corridor labeled
+「共用部分」 with a prohibition (no-entry) icon overlaid on an attempted
+registration stamp on just the corridor.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+共用部分は不可
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-共用部分である旨の登記があっても、一個の建物
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+共用部分登記でも一個の建物
 Illustration: An isometric small room icon (集会室) inside an apartment
-building, stamped with 「共用部分である旨の登記」, still enclosed within
-its own dotted outline labeled 「一個の建物」 to show it remains
-independently registered.
-Caption (small text below):
-共用部分である旨の登記は表題登記済みの建物についてされるものであり、そ
-の建物は登記記録上も一個の建物として存在し続ける。
+building, stamped 「共用部分である旨の登記」, still enclosed within its
+own dotted outline labeled 「一個の建物」 with a checkmark, showing it
+remains independently registered.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一個の建物のまま
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度 午後の部 第9問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・権・建・物・登・記・棟・附・属. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly (3 cards
-under 複数の建物を一個として扱うかどうかの判断, 2 cards under 区分所有
-建物における共用部分の扱い), with no duplicated or missing cards, and
-confirm every heading, illustration label, and caption text matches the
-Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

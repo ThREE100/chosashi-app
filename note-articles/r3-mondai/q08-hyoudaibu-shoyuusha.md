@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 住所更正と氏の変更は一の申請情報で申請できる（規則35条6号） |
-| イ | 誤 | 中間を省略した「AからCへ」の表題部所有者変更登記は申請できない（法32条） |
-| ウ | 正 | 新たに加わるBの更正登記申請には、Bの住所を証する情報が必要（令別表2項添付情報ロ） |
-| エ | 正 | 他の共有者の承諾を添えれば、共有者の1人が単独で持分の更正登記を申請できる（法33条4項） |
-| オ | 誤 | 表題部所有者の住所変更登記に、1か月以内の申請義務はない（法31条） |
+- **ア（正）** 住所更正と氏の変更は一の申請情報で申請できる（規則35条6号）
+- **イ（誤）** 中間を省略した「AからCへ」の表題部所有者変更登記は申請できない（法32条）
+- **ウ（正）** 新たに加わるBの更正登記申請には、Bの住所を証する情報が必要（令別表2項添付情報ロ）
+- **エ（正）** 他の共有者の承諾を添えれば、共有者の1人が単独で持分の更正登記を申請できる（法33条4項）
+- **オ（誤）** 表題部所有者の住所変更登記に、1か月以内の申請義務はない（法31条）
 
 表題部所有者については、「更正・変更の登記は誰がどうやってするのか」と「申請義務が課されるのはどの場面か」を切り分けて覚えておくことが得点のカギです。とくに肢オのように、所有権の登記名義人のルールと引っかけてくるパターンに注意しましょう。
 
@@ -86,7 +84,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-表題部所有者に関する5つの肢を「更正・変更登記をまとめてできるか」「誰が申請できるか」「申請義務はあるか」という3つの視点に分け、誤りの肢（イ・オ）は正しいルールに直したうえで、5枚のカードで1枚に俯瞰できるよう構成した。
+表題部所有者に関する5つの肢を「更正・変更登記をまとめてできるか」「誰が申請できるか」「申請義務はあるか」という3つの視点に分け、誤りの肢（イ・オ）は正しいルールに直したうえで、通し番号バッジ・短い見出し・図解・結論タグの4要素のみで構成する5枚のカードに俯瞰できるようまとめた。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -95,6 +93,17 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric registry ledgers,
 houses, ID/address certificate documents, seals, consent letters, moving
 trucks, calendars, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -114,93 +123,87 @@ Title (large, bold, 1行):
 Subtitle (smaller, centered, 1行):
 誰が申請できる？ 申請義務はある？
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric registry ledger stands at the center, with
-two people icons (labeled A and B) standing beside it. Near person A,
-a small moving-truck icon represents an address change; near person B,
-a pie-chart icon represents a co-ownership share. Three question-mark
-icons float above, each attached to a small label: "誰が" / "どうやって" /
-"いつまでに".
-表題部所有者の登記は、「更正・変更をどうやってまとめて直すか」「誰が
-申請できるのか」「申請する義務はあるのか」という3つの視点で整理すると、
-正しいルールが見えてきます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 更正・変更をまとめてできるか
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-住所の更正と氏の変更は、まとめて一つの申請でできる
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B or C).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+住所更正と氏の変更は一括申請できる
 Illustration: A single application-form icon in the center. Two smaller
-icons merge into it with arrows: a house/address-certificate icon
-labeled "住所の更正" and a marriage-registration icon labeled "氏の変更".
-A checkmark badge sits on the merged form.
-Caption (small text below):
-同一の表題部についての更正・変更の登記は、一の申請情報によって申請
-することができる（不動産登記規則35条6号）。
+icons merge into it with arrows: a residence-certificate icon labeled
+"住所" and a family-register icon labeled "氏". A green checkmark badge
+sits on the merged form, with a small label "一括" beside it.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+一括申請が可能
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 誰が申請できるか
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-「Ａ→Ｂ→Ｃ」の中間を飛ばした変更登記はできない
+--- COLUMN B, CARD 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+ＡからＣへの中間省略は不可
 Illustration: Three person icons in a row labeled Ａ・Ｂ・Ｃ, connected
 by arrows Ａ→Ｂ→Ｃ with a green checkmark on that path. A separate
-direct arrow from Ａ straight to Ｃ is drawn with a large red X over it.
-Caption (small text below):
-表題部所有者の変更登記は権利変動の経緯どおりに申請する必要があり、
-中間のＢを省略した「ＡからＣへ」の変更登記を申請することはできない
-（不動産登記法32条）。
-
---- COLUMN B, CARD 2 ---
-Heading (bold):
-新たに加わる共有者には、住所を証する情報が必要
-Illustration: A registry ledger icon showing only person Ａ registered.
-Person Ｂ stands beside it holding a residence-certificate document
-icon labeled "住所を証する情報". An arrow shows Ｂ's name being added
-to the ledger alongside Ａ's.
-Caption (small text below):
-真の共有者Ｂが持分の更正登記を申請するときは、Ｂの住所を証する情報も
-提供しなければならない（不動産登記令別表2項添付情報ロ）。持分の更正
-登記は、表題部所有者である共有者の1人から申請することができる
-（不動産登記法33条3項）。
+direct arrow from Ａ straight to Ｃ is drawn with a large red X over it,
+with a small label "中間省略" next to the X.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+中間省略は不可
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-他の共有者の承諾があれば、一人で持分の更正登記を申請できる
-Illustration: Person Ｂ hands a consent-letter icon labeled "承諾を
-証する情報" to person Ａ. Person Ａ alone then walks toward a registry
-office icon carrying a single application-form icon marked for both
-Ａ and Ｂ's shares.
-Caption (small text below):
-Ａ・Ｂの持分が誤って登記されている場合、Ａは、Ｂの承諾を証する情報を
-提供すれば、単独でＡ及びＢの持分についての更正の登記を申請すること
-ができる（不動産登記法33条4項）。
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+新たな共有者に住所証明が必要
+Illustration: A registry ledger icon showing only person Ａ registered.
+Person Ｂ stands beside it holding a document icon labeled "住所証明".
+An arrow shows Ｂ's name being added to the ledger alongside Ａ's, with
+a checkmark badge on the ledger.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+住所証明が必要
 
---- COLUMN C HEADER (pill-shaped badge) ---
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+承諾があれば単独で更正登記可
+Illustration: Person Ｂ hands a document icon labeled "承諾書" to person
+Ａ. Person Ａ alone then walks toward a registry-office icon carrying a
+single application-form icon marked "Ａ・Ｂ分", with a checkmark badge.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+承諾があれば単独可
+
+--- COLUMN C HEADER (pill-shaped badge, color: beige) ---
 申請義務はあるか
 
---- COLUMN C, CARD 1 ---
-Heading (bold):
-住所変更に、申請義務も1か月の期限もない
+--- COLUMN C, CARD 5 ---
+Badge: a filled circle in beige containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+住所変更に申請義務も期限もない
 Illustration: Person Ａ stands beside a moving-truck icon and moving
-boxes. A calendar icon with "1か月以内" is crossed out with a large red
-X, next to a label reading "申請義務なし". A small faded contrasting
-icon in the corner shows a building with地目・地積の変更 to suggest
-that only physical changes carry a filing-deadline duty.
-Caption (small text below):
-表題部所有者の住所に変更があっても、変更の日から1か月以内に申請
-しなければならないという義務はない（不動産登記法31条参照）。期限
-付きの申請義務があるのは、あくまで不動産の物理的現況（地目・地積・
-床面積など）の変更に限られる。
+boxes. A calendar icon labeled "1か月" is crossed out with a large red
+X, next to a label reading "義務なし".
+Conclusion tag (beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+申請義務なし
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

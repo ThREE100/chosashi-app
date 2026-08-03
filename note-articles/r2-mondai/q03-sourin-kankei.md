@@ -82,14 +82,29 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+「通行権はいつ・どこまで認められるか」（列A・緑、登記の要否・水路・自動車の3肢）と「通行権をどう行使し、どう存続させるか」（列B・青、通路開設・分割後の承継の2肢）という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots
+surrounded by other land, water channels with blue wave lines, cars,
+roads, shovels, registry documents, arrows, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -97,67 +112,76 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・地・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
 「袋地」の通行権、5つのポイント
 
 Subtitle (smaller, centered, 1行):
-令和2年度 第3問／登記・水路・自動車・通路開設・分割
+令和2年度 午後の部 第3問－登記・水路・自動車・通路開設・分割
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 周囲を建物や他の土地に囲まれ、公道に接していない「袋地」を俯瞰で描いたアイソメトリックイラスト。袋地から周囲の土地を抜けて公道へ向かう点線の通路を描く。
-相隣関係の中でも、袋地（＝周りを他の土地に囲まれて公道に出られない土地）の通行権は頻出テーマです。囲繞地通行権（民法210条〜213条）は当事者の契約ではなく法律が当然に認める権利であるという性質を押さえると、各肢の正誤が見えてきます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-袋地を買った人は、登記がなくても囲繞地通行権を主張できる
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+通行権の成立と範囲
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記なくても通行権を主張できる
 Illustration: 周囲を建物・土地に囲まれた袋地の俯瞰イラスト。袋地の上に人物シルエットを置き、「まだ登記していない」を示す書類アイコンを添える。その人物から囲繞地の所有者へ向かって「公道に出るため通らせてください」の吹き出しと、公道へ続く通行の矢印を描く。
-Caption (small text below):
-袋地の譲受人は登記がなくても囲繞地通行権を主張できる（最判昭47.4.14）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+登記なしでも主張可
 
---- CARD 2 ---
-Heading (bold):
-水路に囲まれた土地でも、事情によっては隣の土地を通行できる
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+水路に囲まれても通行できる
 Illustration: 青い波線の水路に囲まれた土地と、隣接する陸地の俯瞰イラスト。水路の上に壊れた橋のアイコンを描いて水路を渡るのが困難であることを示し、隣地へ向かう通行の矢印を描く。
-Caption (small text below):
-水路に囲まれた準袋地も210条2項で通行権あり、一律に否定はできない
+Conclusion tag (green banner below the illustration, 5-15 characters):
+水路でも通行権あり
 
---- CARD 3 ---
-Heading (bold):
-自動車通行を前提とする囲繞地通行権も、承諾なしに成立し得る
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+自動車通行も承諾なしで成立
 Illustration: 袋地から公道へ向かう自動車のアイソメトリックアイコンを中央に描き、その周囲に「通行の必要性」「周辺の土地の状況」「囲繞地所有者の不利益」の3つのラベルを付けた小アイコン（車、地図、天秤）を並べ、総合考慮のイメージを表現する。
-Caption (small text below):
-自動車通行を前提とする通行権も、承諾なしに諸事情の総合考慮で成立し得る（最判平18.3.16）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾なしで成立
 
---- CARD 4 ---
-Heading (bold):
-通行権者は、承諾がなくても囲繞地に通路を開設できる
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+通行権の行使と存続
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+通路開設に承諾は不要
 Illustration: 袋地から囲繞地を通って公道へ続く、舗装された通路のアイソメトリックイラスト。通路のそばにスコップのアイコン（開設工事）を配置する。
-Caption (small text below):
-通行権者は承諾なしに通路を開設できる（民法211条2項）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+承諾なしで開設可
 
---- CARD 5 ---
-Heading (bold):
-分割で生じた袋地の通行権は、相手の土地が他人に譲られても消えない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+分割後の通行権は承継後も消えない
 Illustration: 一筆の土地が分割線で二つに分かれる俯瞰イラスト。片方が袋地、もう片方が通行路を提供する土地になる。通行路の土地の上に「所有者の交代」を示す矢印（旧所有者のシルエットから新所有者のシルエットへ）を描くが、袋地から公道へ続く通行の矢印は消さずにそのまま描く。
-Caption (small text below):
-分割で生じた袋地の通行権は、相手土地の特定承継後も消滅しない（最判平2.11.20）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+譲渡後も消滅せず
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験対策｜令和2年度 午後の部 第3問
-
-Note on frequently miswritten kanji: This infographic's card text uses the
-kanji 権・地・登・記・所, which are often confused with visually similar
-Simplified Chinese characters. Render each strictly in standard Japanese
-(Jōyō) form — do not substitute any Simplified Chinese variant for 権, 地,
-登, 記, or 所.
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

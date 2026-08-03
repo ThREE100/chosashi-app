@@ -84,15 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-登記官による調査について、調査の要否に関するルールと実地調査の実施ルールを、調査の要否に関するルール2枚・実地調査の実施ルール3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+「調査の要否に関するルール」と「実地調査の実施ルール」という2つのテーマに沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric registry officials,
 magnifying glasses, land plots, buildings, clipboards, sun/day arcs,
 document folders — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -101,108 +112,94 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・権・地・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 登・記・所 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-登記官はどこまで調べられる
-表示登記の調査・本人確認・実地調査のルール
+Title (large, bold, 1行):
+登記官はどこまで調べられる？
 
 Subtitle (smaller, centered, 1行):
-誤っている記述を見抜くための正しいルールを整理(令和5年度 午後の部 第4問)
+令和5年度 午後の部 第4問－調査の要否と実地調査のルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a
-registry official (登記官) figure holding a magnifying glass over a land
-plot and a house icon, with a small sunrise-to-sunset arc icon and a
-document/checklist icon beside him, representing the scope and limits of
-the registrar's investigative authority.
-表示に関する登記は、登記官が職権で調査できる場面が多いのが特徴です。
-この問題は「誤っているもの」を選ぶ形式なので、実地調査ができる時間帯
-や、本人確認調査の要否、調査を職員に代行させられるかといったルールを、
-条文レベルで正確に押さえられているかが問われます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 調査の要否に関するルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-登記官は、建物の所有者に関する事項も調査することができる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有者に関する事項も調査可
 Illustration: An isometric registry official figure holding a magnifying
 glass over a house icon, with a floating name-tag/ID-card icon labeled
 "所有者" being examined; a checklist/clipboard icon beside the official
 shows a checkmark next to "所有者に関する事項".
-Caption (small text below):
-表題部所有者となる者が誰かも申請情報の内容になるため、登記官は建物の
-表題登記の申請があった場合、その所有者に関する事項について調査すること
-ができる(不動産登記法25条11号)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+所有者も調査対象
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-申請を却下すべきときは、本人確認調査を行う必要はない
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+却下すべき申請は本人確認不要
 Illustration: An isometric registry official figure at a desk holding
 two documents: one stamped "却下" in red, and one labeled "本人確認調査";
 an arrow shows the official setting aside the本人確認調査 document
 (crossed out) because the却下 stamp already applies, meaning the check is
 skipped.
-Caption (small text below):
-登記官は、申請人となるべき者以外の者が申請していると疑うに足りる相当な
-理由があるときは申請人の権限の有無を調査しなければならないが、その申請
-を却下すべきときは、本人確認調査を行う必要はない(不動産登記法24条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+本人確認調査は不要
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 実地調査の実施ルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-実地調査は、日出から日没までの間に限って行うことができる
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+実地調査は日出から日没まで
 Illustration: An isometric scene of a registry official walking toward a
 land plot with a measuring tool, framed within a large sunrise-to-sunset
 arc icon in the sky above, with a crossed-out moon/night icon at both
 edges of the arc showing the official cannot be there before sunrise or
 after sunset.
-Caption (small text below):
-登記官が実地調査をすることができるのは、日出から日没までの間に限られる
-(不動産登記法29条2項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+日出~日没のみ
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-登記官は、登記所の職員に実地調査を代行させることができる
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+職員に実地調査を代行させ可
 Illustration: An isometric registry-office scene where a registry
 official figure hands a clipboard with written instructions to a junior
 staff figure labeled "登記所の職員", who then walks off toward a land
 plot with the magnifying glass instead of the official, with an arrow
 labeled "指示" showing the delegation clearly.
-Caption (small text below):
-登記官は、必要があると認める場合には、登記所の職員に細部の指示を与えて
-実地調査を代行させることができる(不動産登記事務取扱準則64条)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+職員に代行可
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-登記官は、関係者に対して文書の提示を求めることができる
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+関係者に文書提示を求め可
 Illustration: An isometric scene of a registry official extending a hand
 toward a property owner figure, requesting a document; the owner figure
 holds out a folder/document icon labeled "文書"; a small separate warning
 icon showing a crossed-out fake document with a "罰金" tag nearby
 represents the penalty for false documents.
-Caption (small text below):
-実地調査では、登記官は不動産の所有者その他の関係者に対し、文書の提示を
-求めることができる。虚偽の文書を提示した者は罰金刑に処せられる
-(不動産登記法29条2項、162条2号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+文書提示を要求可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第4問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・権・地・建・物・登・記・所. If any character renders as
-a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly (2 cards
-under 調査の要否に関するルール, 3 cards under 実地調査の実施ルール),
-with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

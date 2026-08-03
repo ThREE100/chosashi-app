@@ -10,7 +10,7 @@
 >
 > ウ　抵当権の設定の登記がされている建物が取り壊されて滅失した場合には、当該抵当権の設定の登記を抹消した後でなければ、建物の滅失の登記を申請することができない。
 >
-> エ　共用部分である旨の登記がされている建物が滅失したために当該建物の滅失の登記を申請する場合には、その申請情報と併せて当該建物の所有権を証する情報を提供しなければならない。
+> エ　共用部分である旨の登記がされている建物が滅失したために当該建物の滅失の登記を申請する場合には、その申請情報と併せて当該建物の所有者を証する情報を提供しなければならない。
 >
 > オ　一棟の建物がいずれもＡが所有権の登記名義人である甲区分建物及び乙区分建物のみで構成されている場合において、乙区分建物が滅失したときは、Ａは、乙区分建物の滅失の登記と、甲区分建物を区分建物でない建物とする建物の表題部の変更の登記とを、一括して申請しなければならない。
 >
@@ -36,13 +36,13 @@
 
 **たとえば**、住宅ローンの抵当権が付いたままの古い家を解体したとき、「まず銀行の抵当権を消してもらわないと滅失の登記ができない」と考えてしまいがちですが、実際には抵当権の抹消を待たずに、建物が消えた事実をそのまま滅失の登記として申請できます。
 
-### エ：共用部分である旨の登記がある建物の滅失には、所有権（所有者）を証する情報が必要
+### エ：共用部分である旨の登記がある建物の滅失には、所有者を証する情報が必要
 
-共用部分である旨の登記がされている建物が滅失し、その滅失の登記を申請する場合には、申請情報と併せて当該建物の所有権を証する情報を提供しなければなりません（不動産登記令別表17項の添付情報）。共用部分である旨の登記がある建物は登記記録に所有者が公示されていないため、申請人が正当な申請権限をもつことを、所有権（所有者）を証する情報によって示す必要があるのです。
+共用部分である旨の登記がされている建物が滅失し、その滅失の登記を申請する場合には、申請情報と併せて当該建物の所有者を証する情報を提供しなければなりません（不動産登記令別表17項の添付情報）。共用部分である旨の登記がある建物は登記記録に所有者が公示されていないため、申請人が正当な申請権限をもつことを、所有者を証する情報によって示す必要があるのです。
 
 **たとえば**、マンションの管理人室のように「共用部分」として登記された部屋が取り壊されたとき、その滅失の登記を申請する人は、自分がその建物の所有者であることを示す書類を添えて申請することになります。
 
-（なお、出題当時の問題文は「所有者を証する情報」ではなく「所有権を証する情報」と記載されていました。データベース上も条文の趣旨に照らして正しい肢と判定されていますが、表現の細部には注意しておきましょう。）
+（なお出題当時の問題文は「所有者を証する情報」ではなく「所有権を証する情報」と記載されていました。）
 
 ### オ：区分建物の滅失の登記と表題部の変更の登記は、一括して申請しなければならないわけではない
 
@@ -52,13 +52,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 移転登記未了なら、登記名義人である売主Ａが滅失の登記を申請できる（法57条） |
-| イ | 正 | 主・附属建物の取壊し日が同一なら、附属建物の原因・日付欄は記録不要（準則101条） |
-| ウ | 誤 | 抵当権を抹消しなくても滅失の登記は申請できる（承諾書も不要／大阪高判昭36.10.18） |
-| エ | 正 | 共用部分の登記がある建物の滅失には所有権（所有者）を証する情報が必要（令別表17項） |
-| オ | 誤 | 滅失の登記と表題部の変更の登記は、一括申請の義務はない（別々でも可） |
+- **ア（正）** 移転登記未了なら、登記名義人である売主Ａが滅失の登記を申請できる（法57条）
+- **イ（正）** 主・附属建物の取壊し日が同一なら、附属建物の原因・日付欄は記録不要（準則101条）
+- **ウ（誤）** 抵当権を抹消しなくても滅失の登記は申請できる（承諾書も不要／大阪高判昭36.10.18）
+- **エ（正）** 共用部分の登記がある建物の滅失には所有者を証する情報が必要（令別表17項）
+- **オ（誤）** 滅失の登記と表題部の変更の登記は、一括申請の義務はない（別々でも可）
 
 建物の滅失の登記は「表示に関する登記だから、物理的事実をそのまま反映する」という基本を押さえておくと、ウ（権利の抹消は前提でない）やオ（一括申請の強制はない）のような引っかけを見抜きやすくなります。
 
@@ -81,14 +79,14 @@
 - 名義変更の前に建物が消えたら、売主が滅失登記なんです
 - 取壊し日が同じなら、附属建物の欄は書かなくていいって知ってた？
 - 抵当権を消さなくても、滅失登記はできるんです
-- 共用部分の滅失には「所有権を証する情報」が要るんです
+- 共用部分の滅失には「所有者を証する情報」が要るんです
 - 滅失登記と表題部変更、一括じゃなくてもいいんです
 
 ---
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の滅失の登記を「誰が申請するのか」「何を記録するのか」「何を添付するのか」「どこまで一括申請するのか」という4つの論点別に5枚のカードで俯瞰し、ウ・オについては誤りの記述ではなく本来の正しいルールを図解する構成。
+建物の滅失の登記を「申請人」「記録内容」「添付情報」「一括申請の要否」という論点別に5枚のカードで通し番号（1〜5）により俯瞰し、ウ・オについては誤りの記述ではなく本来の正しいルールを図解する構成。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -96,6 +94,17 @@ clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -116,85 +125,91 @@ Subtitle (smaller, centered, 2行):
 申請人・添付情報・一括申請の勘どころ
 令和3年度　午後の部　第17問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric small house rendered mid-collapse, with a
-registry book icon labeled "登記記録" open beside it and a magnifying
-glass hovering over the text "滅失の登記", suggesting an investigation
-into what happens when a building disappears.
-建物の滅失の登記は、「誰が申請するのか（申請人・申請義務）」「何を添付する
-のか（添付情報）」「どこまで一緒に申請するのか（一括申請）」という3つの視
-点で整理すると迷いにくくなります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-名義変更の前に建物が消えたら、売主が滅失登記なんです
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+移転登記未了なら売主が申請できる
 Illustration: Isometric scene: two people stand in front of a small
 collapsed house (broken roof pieces scattered on the ground). One person
-is labeled "Ａ" and holds a document stamped "滅失の登記の申請書"; a second
-person labeled "Ｂ" stands slightly behind with a torn paper label reading
-"所有権の移転の登記　未了" between them. Beside the scene, a registry
-record card icon reads "登記記録：Ａ名義".
-Caption (small text below):
-移転登記未了なら、登記名義人である売主Ａが滅失の登記を申請できる（法57条）
+labeled "Ａ" holds a document stamped "滅失登記の申請書" with a green
+checkmark ✓ beside it; a second person labeled "Ｂ" stands slightly behind
+with a torn paper label reading "所有権の移転登記　未了" between them. A
+registry record card beside them reads "登記記録：Ａ名義".
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+登記名義人が申請
 
 --- CARD 2 ---
-Heading (bold):
-取壊し日が同じなら、附属建物の欄は書かなくていいって知ってた？
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+取壊し日が同じなら附属建物は記録不要
 Illustration: Isometric scene: a main house icon labeled "主である建物"
-connected to a smaller shed icon labeled "附属建物", both shown as rubble
+connected to a smaller shed icon labeled "附属建物", both shown as rubble,
 with a single calendar icon labeled "取壊し年月日" pointing only to the
 main house's record card, which has the date filled in. The附属建物の
-record card shows a large checkmark stamp reading "記録不要" over a blank
-line where the date would go.
-Caption (small text below):
-主・附属建物の取壊し日が同一なら、附属建物の原因・日付欄は記録不要（準則101条）
+record card shows a large green checkmark ✓ stamp reading "記録不要" over
+a blank line where the date would go.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+附属建物欄は記録不要
 
 --- CARD 3 ---
-Heading (bold):
-抵当権を消さなくても、滅失登記はできるんです
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+抵当権を抹消しなくても申請できる
 Illustration: Isometric scene: a demolished house shown as rubble, with a
 red document icon labeled "抵当権の設定の登記" still floating above the
 rubble (not crossed out, still present). An arrow leads directly from the
-rubble to a registry stamp labeled "滅失の登記", passing through a gate
-icon labeled "抹消" that is crossed out in red to show it is not required.
-Caption (small text below):
-抵当権を抹消しなくても滅失の登記は申請できる（承諾書も不要／大阪高判昭36.10.18）
+rubble to a registry stamp labeled "滅失登記", passing through a gate icon
+labeled "抹消" that is crossed out with a red ✕ mark to show it is not
+required.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+抹消・承諾は不要
 
 --- CARD 4 ---
-Heading (bold):
-共用部分の滅失には「所有権を証する情報」が要るんです
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+共用部分の滅失には所有者証明が必要
 Illustration: Isometric scene: a small room icon labeled "共用部分である
 旨の登記がされている建物" shown demolished as rubble. A person submits two
-document icons side by side: one labeled "申請情報" and one labeled "所有
-権を証する情報". Beside them, a registry record card shows a blank field
-labeled "所有者" to indicate that no owner is publicly recorded for this
-building.
-Caption (small text below):
-共用部分の登記がある建物の滅失には所有権（所有者）を証する情報が必要（令別表17項）
+document icons side by side, each with a green checkmark ✓: one labeled
+"申請情報" and one labeled "所有者を証する情報". Beside them, a registry
+record card shows a blank field labeled "所有者" to indicate that no owner
+is publicly recorded for this building.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+所有者証する情報 必要
 
 --- CARD 5 ---
-Heading (bold):
-滅失登記と表題部変更、一括じゃなくてもいいんです
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+滅失登記と変更登記は別々でも可
 Illustration: Isometric scene: one building block divided into two units
 labeled "甲区分建物" and "乙区分建物". The "乙区分建物" side is shown as
 rubble, while the "甲区分建物" side carries a floating tag reading "区分
 建物でない建物". Two separate document icons sit side by side — one
-labeled "乙区分建物の滅失の登記" and one labeled "甲建物の表題部の変更の
-登記" — connected by a loose dashed line (not a solid clip or staple) to
-show they need not be bundled into one submission.
-Caption (small text below):
-滅失の登記と表題部の変更の登記は、一括申請の義務はない（別々でも可）
+labeled "乙区分建物の滅失登記" and one labeled "甲建物の表題部変更登記" —
+connected by a loose dashed line, with a staple icon crossed out by a red
+✕ mark to show they need not be bundled into one submission.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+一括申請の義務なし
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験対策
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay special
 attention to 号・録・権・地・番・建・物・登・記・所. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading and caption
-string matches the Japanese text given above verbatim, with no
-paraphrasing or substitution.
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance. Confirm every heading and conclusion tag string matches the
+Japanese text given above verbatim, with no paraphrasing or substitution.
 ```

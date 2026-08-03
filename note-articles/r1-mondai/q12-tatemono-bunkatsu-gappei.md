@@ -80,3 +80,131 @@
 - 区分建物の合併、種類が違っても大丈夫って知ってた？
 - 主従の関係がなければ、そのまま分割の登記でいいんです
 - 敷地権付きでも、区分建物どうしなら合併できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の合併に関するルール（列A・緑、ア・ウ・オ、いずれも正しい結論だけを図解）と、建物の分割に関するルール（列B・青、イ・エ）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment/house
+buildings, small attached buildings (附属建物), registry desks,
+application document folders, split/merge arrows, checkmarks and cross
+marks, small plot-with-key badges for 敷地権, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 部・分・登・記・合・併・種・類・敷・地・権・区・建・物・属・割・従・変・更 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の分割・合併、その申請できる？
+
+Subtitle (smaller, centered, 1行):
+令和元年度　午後の部　第12問－合併の制限と分割・合併の一括申請
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+合併に関するルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+共用部分の登記がある建物は合併不可
+Illustration: マンションの集会室アイコンに「共用部分である旨の登記」の
+スタンプが押されている。その建物が隣の乙建物アイコンにくっつこうとする
+矢印に、大きな赤い✕マークが重なる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+権利登記なしで合併不可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物、種類が違っても合併OK
+Illustration: 「居宅」ラベルの区分建物アイコンと「事務所」ラベルの区分
+建物アイコンが、共通の壁を挟んで隣り合い、一つの区分建物へと合体する矢印。
+矢印の先に緑の✓マーク。種類ラベルはそれぞれ異なるままでよいことを示す。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+種類の同一性は不要
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権付き区分建物どうしも合併OK
+Illustration: 敷地権の小さなバッジが付いた甲区分建物アイコンと、同じく
+敷地権バッジ付きの乙区分建物アイコンが合体する矢印に緑の✓マーク。横に
+小さく、敷地権付きの土地アイコンが合筆できずに✕マークが付いている対比を
+添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+土地の合筆とは扱いが違う
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+分割に関するルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物の分割と合併は一括申請OK
+Illustration: 甲建物から附属建物（小さな建物アイコン）が切り離される
+「分割」の矢印と、それが乙建物にくっつく「合併」の矢印が、一つの申請書
+フォルダにまとまる。フォルダに緑の✓マーク。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+分割と合併は一括可能
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+主従関係なければ直接、分割登記でOK
+Illustration: 一棟の建物が中間で取り壊され、接続しない二棟のアイコンに
+分かれる。「表題部の変更登記」の書類アイコンに赤い✕マーク（不要）、その
+代わりに直接「建物の分割の登記」の申請書フォルダへ矢印が伸び、緑の✓マーク。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+回り道の変更登記は不要
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 共用部分の登記がある建物は合併不可
+2. 区分建物、種類が違っても合併OK
+3. 敷地権付き区分建物どうしも合併OK
+4. 附属建物の分割と合併は一括申請OK
+5. 主従関係なければ直接、分割登記でOK
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

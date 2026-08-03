@@ -84,15 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-表題部の登記記録が「既存のまま使われる場面」と「新たに作られる場面」を、換地・先取特権・分合筆の3枚と、解体移転・区分建物の2枚、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+「既存の登記記録がそのまま使われる場面」と「新たな登記記録が作られる場面」という2つのテーマに沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, building
 blocks, ledger books, official stamps/seals, arrows, prohibition marks —
 adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -101,109 +112,94 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 録・権・地・建・物・登・記 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-その登記記録、新しく作られる？作られない？
-換地・先取特権・分合筆・解体移転・区分建物で見抜く
+Title (large, bold, 1行):
+その登記記録、新しく作られる？
 
 Subtitle (smaller, centered, 1行):
-表題部の登記記録が新たに作成されるか(令和5年度 午後の部 第5問)
+令和5年度 午後の部 第5問－換地・先取特権・分合筆・解体移転・区分建物
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric ledger book icon on the left, split into two
-branching arrows: one arrow loops back onto the same ledger page (showing
-it stays in use), the other arrow points to a brand-new blank ledger page
-appearing beside it (showing a new record being created), representing the
-two possible outcomes for a土地・建物の表題部登記記録.
-表題部の登記記録は、土地や建物が「別物になった」ときに新しく作り直されます。
-逆に、同じ不動産のまま表示が変わっただけなら、既存の登記記録がそのまま
-使われます。この問題では、換地・先取特権・分合筆・解体移転・区分建物という
-5つの場面ごとに、登記記録が新規に作られるのか、それとも既存のものが
-使われるのかを切り分けられるかが問われています。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 既存の登記記録がそのまま使われる場面
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-1個の土地に1個の換地なら、新しい登記記録は作られない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+換地1対1なら記録は流用
 Illustration: An isometric land plot labeled "従前地" transforming into a
 plot labeled "換地" via a curved arrow, with the same ledger book icon
 underneath looping back onto itself (no second ledger appears) to show
 the same登記記録がそのまま引き継がれる様子.
-Caption (small text below):
-1個の従前地に1個の換地が照応する場合は、従前地の登記記録がそのまま使われ、
-新たな登記記録は作成されない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+記録は流用
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-先取特権保存済みの建物が完成しても、既存の登記記録が使われる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+先取特権建物は既存記録流用
 Illustration: An isometric ledger page labeled "設計書による表題部" already
 open on a stand beside a half-built house icon, with a pen icon editing
 the same page into a completed-house record (no second ledger page
 appears anywhere in the scene).
-Caption (small text below):
-先取特権の保存登記の際に作られた表題部を、建物完成後の表題登記でそのまま
-使う。新たな登記記録は作成されない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+新規作成なし
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-分筆して合筆する部分については、登記記録は作成されない
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆合筆部分は記録作成なし
 Illustration: An isometric land plot labeled "甲土地" with a small
 wedge-shaped piece cut out along a dotted line, an arrow carrying that
 wedge directly into an adjacent plot labeled "乙土地", and a small
 prohibition (no-entry) icon over an empty ledger page to show no
 intermediate registry record is created for the cut piece.
-Caption (small text below):
-甲土地の一部を分筆して乙土地に合筆する場合、分筆・合筆する部分について
-独立した登記記録は作成されない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+登記記録なし
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 新たな登記記録が作られる場面
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-解体移転は新築扱いなので、解体・移転した旨は記録されない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+解体移転は新築扱いで記録なし
 Illustration: An isometric building labeled "甲建物" shown disassembled
 into loose parts on one land plot, the parts moving along a dotted arrow
 to a new land plot where they reassemble into a new building; the
 original ledger page for 甲建物 shows only a red "滅失" stamp with no
 text about "解体" or "移転" written on it, while a brand-new blank ledger
 page appears beside the reassembled building.
-Caption (small text below):
-解体移転は既存建物との同一性が認められないため新築として扱われる。甲建物は
-滅失し、移転後の建物は新たな登記記録により表題登記される。甲建物の登記
-記録に「解体及び移転した旨」は記録されない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+解体移転は記載なし
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-区分建物が非区分建物になると、新しい登記記録が作成される
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分→非区分は新記録作成
 Illustration: An isometric long row-house building divided into two units
 labeled "甲建物" and "乙建物", with the middle connecting section shown
 being demolished (rubble/dust cloud); an arrow shows the two now-separate
 houses each receiving their own brand-new ledger book, while the original
 shared ledger page is stamped "閉鎖" in red.
-Caption (small text below):
-区分建物が非区分建物になった場合は登記記録の様式が異なるため、従前の
-区分建物の登記記録は閉鎖され、甲建物・乙建物それぞれに新たな登記記録が
-作成される。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+新記録を作成
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第5問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3
-cards under 既存の登記記録がそのまま使われる場面, 2 cards under 新たな
-登記記録が作られる場面), with no duplicated or missing cards, and confirm
-every heading, illustration label, and caption text matches the Japanese
-text given above verbatim, with no paraphrasing and no substituted
-characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

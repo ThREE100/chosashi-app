@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 法人の解散・清算を監督するのは裁判所であって、法務局長ではない（法39条の3第1項） |
-| イ | 誤 | 登録申請書の経由先は調査士会であって、法務局・地方法務局ではない（法9条） |
-| ウ | 誤 | 補助者の届出先は所属の調査士会のみで足り、法務局長への届出は不要（規則23条2項・3項） |
-| エ | 正 | 依頼を承諾しないときは、速やかにその旨を依頼者に通知する義務がある（規則25条2項） |
-| オ | 正 | 依頼応諾義務（正当事由がなければ拒めない、法22条）は調査士法人にも準用される（法41条1項） |
+- **ア（誤）** 法人の解散・清算を監督するのは裁判所であって、法務局長ではない（法39条の3第1項）
+- **イ（誤）** 登録申請書の経由先は調査士会であって、法務局・地方法務局ではない（法9条）
+- **ウ（誤）** 補助者の届出先は所属の調査士会のみで足り、法務局長への届出は不要（規則23条2項・3項）
+- **エ（正）** 依頼を承諾しないときは、速やかにその旨を依頼者に通知する義務がある（規則25条2項）
+- **オ（正）** 依頼応諾義務（正当事由がなければ拒めない、法22条）は調査士法人にも準用される（法41条1項）
 
 「監督は裁判所」「経由は調査士会」「補助者の届出は調査士会だけ」という宛先の対応関係と、依頼を断るときの通知義務・依頼応諾義務を、言葉のすり替えに惑わされず正確に押さえておくことが得点のカギです。
 
@@ -77,7 +75,7 @@
 
 ## インフォグラフィック プロンプト(問題全体)
 
-監督機関(裁判所)・登録の経由先(調査士会)・補助者届出先(調査士会のみ)という手続きの宛先ルールと、依頼を断るとき・法人が依頼を拒めないときの対応義務を、2列5枚のカードで一望できる構成とする。
+監督機関(裁判所)・登録の経由先(調査士会)・補助者届出先(調査士会のみ)という手続きの宛先ルール(列A・3枚)と、依頼を断るとき・法人が依頼を拒めないときの対応義務(列B・2枚)を、通し番号1〜5のカードだけで一望できる構成とする。導入イラスト・導入文のブロックは置かない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
@@ -86,15 +84,26 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. The kanji 地・登・記・所・録 in
-particular must be drawn in their standard Japanese (Jōyō) forms, never as
-Simplified Chinese variants.
+summarize, or substitute any characters. The kanji 地・登・記・所・録・権・
+建・物・号 in particular must be drawn in their standard Japanese (Jōyō)
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -104,80 +113,84 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和3年度 午後の部 第20問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 法務局、地方法務局、土地家屋調査士会、日本土地家屋調査士会連合会、
-裁判所という5つの建物アイコンを並べ、矢印で「どの手続きがどこへ向かうか」を
-示すイラスト
-土地家屋調査士法の分野は、「誰が監督するのか」「どこを経由するのか」
-「どこに届け出るのか」といった手続の宛先や、依頼を受ける・断るときのルールを、
-条文どおりに正確に覚えているかが問われます。似た言葉(法務局・地方法務局・
-調査士会・連合会・裁判所)が入れ替えられて出題されるので、対応関係を丁寧に
-押さえておきましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 手続きの宛先ルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-法人の解散・清算を見張るのは裁判所
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+解散・清算の監督は裁判所
 Illustration: 天秤を持つ裁判所の建物アイコンの前に、「土地家屋調査士法人」と
-書かれた看板としまわれていく書類の束が置かれ、裁判所から書類へ視線を表す
-虫眼鏡アイコンが伸びている構図
-Caption (small text below):
-土地家屋調査士法人の解散及び清算は、裁判所の監督に属する(法39条の3第1項)。
+書かれた看板としまわれていく書類の束が置かれている。すぐ隣に法務局の建物
+アイコンを小さく描き、そこへ向かう矢印には大きな✕マークを重ねる(法務局は
+監督機関ではないことを示す)。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+監督は裁判所
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-登録申請書は、まず調査士会を経由する
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+登録申請は調査士会経由
 Illustration: 合格証書を持つ人物から、土地家屋調査士会の建物へ書類が渡され、
-そこから矢印が日本土地家屋調査士会連合会の建物へ伸びる一方通行の流れ図
-Caption (small text below):
-土地家屋調査士となる資格を有する者が登録申請書を提出するときは、事務所を
-設けようとする地を管轄する土地家屋調査士会を経由して提出しなければならない
-(法9条)。
+そこから矢印が日本土地家屋調査士会連合会の建物へ伸びる一方通行の流れ図。
+人物から法務局の建物へ直接向かう矢印には大きな✕マークを付ける。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+経由は調査士会
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-補助者の届出は、所属の調査士会だけでよい
-Illustration: 調査士事務所のアイコンから土地家屋調査士会の建物へ一本の届出
-矢印が伸び、調査士会から法務局又は地方法務局の建物へは点線の通知矢印が別に
-伸びている一方、調査士事務所から法務局又は地方法務局へ直接向かう矢印には
-大きな×印が付いている構図
-Caption (small text below):
-土地家屋調査士は、補助者を置いたときは、遅滞なく、その旨を所属の土地家屋
-調査士会に届け出れば足りる(規則23条2項・3項)。
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+補助者届出は調査士会のみ
+Illustration: 調査士事務所のアイコンから土地家屋調査士会の建物へ一本の実線の
+届出矢印が伸び、調査士会から法務局又は地方法務局の建物へは点線の通知矢印が
+別に伸びている。調査士事務所から法務局又は地方法務局へ直接向かう矢印には
+大きな✕印を付ける。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+法務局届出は不要
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 依頼への対応義務
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-依頼を断るなら、速やかに通知する
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously — this is card 4, following cards 1-3 in column A).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+依頼を断るなら速やかに通知
 Illustration: 依頼者が差し出す書類の前で、土地家屋調査士が吹き出しで
-「お引き受けできません」と伝えており、吹き出しの横に時計の針が速く動く
-アイコンが添えられている構図
-Caption (small text below):
-筆界特定の手続についての代理に関する業務についての事件の依頼を承諾しない
-ときは、速やかに、その旨を依頼者に通知しなければならない(規則25条2項)。
+「お断りします」と伝えており、吹き出しの横に針が速く動く時計アイコンを
+添える。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+速やかに通知
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-正当な事由がなければ、法人でも依頼は拒めない
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+正当事由なければ拒否不可
 Illustration: 「土地家屋調査士法人」と書かれた建物の前で、依頼者が差し出す
-登記申請の書類を法人側が受け取っており、背景に「正当な事由」と書かれた看板が
-小さく描かれている構図
-Caption (small text below):
-依頼応諾義務(正当な事由がなければ拒めない、法22条)は、土地家屋調査士法人
-にも準用される(法41条1項)。
+登記申請の書類を法人側が受け取っている。書類を拒む矢印には大きな✕印を重ね、
+背景に小さく「正当な事由」と書かれた看板を添える。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+正当事由が必要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
 ```
 
 ---

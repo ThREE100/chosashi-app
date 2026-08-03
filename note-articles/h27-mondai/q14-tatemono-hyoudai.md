@@ -78,3 +78,131 @@
 - 工事完了証明の添付書類、3か月の期限はないんです
 - 市区町村の嘱託なら、所有権証明を省略できる
 - 共有名義の表題登記、一人だけで申請できるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「実は不要・認められない添付情報」（ア・イ・ウ＝列A・緑、いずれも誤りの肢を正しいルールに直したもの）と「特則で簡略化できること」（エ・オ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry desks,
+document folders, scanners/computers, rubber stamps, calendars, town hall
+buildings, house icons, family/co-owner figures, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 借・地・権・証・明・不・要・建・図・面・各・階・平・磁・記・録・添・付・情・報・資・格・期・間・制・限・地・方・公・共・団・体・嘱・託・所・有・省・略・単・独・申・請
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表題登記の添付情報、本当に必要？
+
+Subtitle (smaller, centered, 1行):
+平成27年度　午後の部　第14問－省略できる書類・できない書類
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+実は不要・認められない添付情報
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+借地権の証明書は不要
+Illustration: 借りた土地の上に新築した家アイコンを描き、その持ち主が登記
+所窓口で「工事完了引渡証明書」だけを差し出している。横に「賃借権証明書」と
+書かれた破れ紙に赤い✕マークを重ね、提出不要であることを示す。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+借地権の証明は不要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+建物図面はスキャンでは提出不可
+Illustration: 紙の「建物図面」「各階平面図」を持つ手のアイコンと、その紙
+をスキャナーで読み取ろうとするコンピューターアイコンを描く。読み取り矢印の
+上に赤い✕マークを重ね、電磁的記録化した書面は添付情報にできないことを示
+す。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+電磁的記録化は不可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+資格証明書に3か月の期限なし
+Illustration: 施工会社の担当者アイコンが「工事完了引渡証明書」と「代表者
+の資格を証する書面」を両手に持つ。資格証明書の隣に古い日付を示すカレンダー
+アイコンを描くが、時計の期限切れマークは付けず、緑のチェックマークを添え
+る。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+期間制限なし
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+特則で簡略化できること
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously across both columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+地方公共団体の嘱託は証明省略
+Illustration: 市役所・町役場アイコンが「嘱託」の書類を登記所窓口に提出す
+る様子を描く。窓口の横に「所有権証明情報」という破れ紙を配置し、赤い✕マー
+クを重ねて省略できることを示す。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所有権証明は省略可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+共有名義でも一人で申請できる
+Illustration: 兄弟2人が共有する家アイコンを描き、片方の人物アイコンだけ
+が登記所窓口で申請書を提出する。もう一人の人物アイコンは家の前に立ったまま
+で、窓口には緑のチェックマークを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+共有者の一人で申請可
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 借地権の証明書は不要
+2. 建物図面はスキャンでは提出不可
+3. 資格証明書に3か月の期限なし
+4. 地方公共団体の嘱託は証明省略
+5. 共有名義でも一人で申請できる
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

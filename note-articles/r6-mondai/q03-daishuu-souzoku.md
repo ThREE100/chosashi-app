@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 縁組がAの死亡以前ならば、養子Cも代襲相続人となり得る（727条） |
-| イ | 正 | 胎児も生きて生まれれば代襲相続人となる（886条） |
-| ウ | 正 | 廃除は代襲原因であり、Bの子Cが代襲相続人となる |
-| エ | 正 | 配偶者は被代襲者とならず、連れ子Dは代襲相続人とならない |
-| オ | 誤 | 直系尊属Dは代襲ではなく、固有の権利で相続人となる（889条1項1号） |
+- **ア（誤）** 縁組がAの死亡以前ならば、養子Cも代襲相続人となり得る（727条）
+- **イ（正）** 胎児も生きて生まれれば代襲相続人となる（886条）
+- **ウ（正）** 廃除は代襲原因であり、Bの子Cが代襲相続人となる
+- **エ（正）** 配偶者は被代襲者とならず、連れ子Dは代襲相続人とならない
+- **オ（誤）** 直系尊属Dは代襲ではなく、固有の権利で相続人となる（889条1項1号）
 
 「誰が被代襲者になれるか」「代襲者は直系卑属に限られるか」という2つの軸で読めば、誤りの肢が浮かび上がってきます。
 
@@ -86,25 +84,36 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-この問題の5肢を「代襲相続人になるケース」「代襲相続人にならないケース」の2系統に整理し、各原則を1枚のカードとして俯瞰する構成。
+「代襲相続人になるケース」と「代襲相続人にならないケース」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric family tree diagrams,
 people figures, courthouse buildings, stamps, timeline arrows, baby icons,
-etc. — adapt icon set to the topic of inheritance law).
+torn paper labels, etc. — adapt icon set to the topic of inheritance law).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Pay special
-attention to the kanji 権 and 号, which have Simplified Chinese variants
-that must NOT be used. Reproduce the exact text strings given below
-verbatim — do not paraphrase, translate, summarize, or substitute any
-characters.
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・続・号 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -112,64 +121,67 @@ Title (large, bold, 2行):
 誰が代襲相続人になれるのか
 
 Subtitle (smaller, centered, 1行):
-令和6年度 土地家屋調査士試験 午後の部 第3問
+令和6年度 午後の部 第3問－代襲相続人の範囲を見極める
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 祖父母世代・親世代・子世代の3層構造をもつ家系図を俯瞰するアイソメトリックイラスト。中心に被相続人Aのアイコンを配置する。
-代襲相続とは、被相続人の死亡以前に相続人となるべき子・兄弟姉妹が死亡し、または廃除・欠格によって相続権を失った場合に、その者の直系卑属が代わって相続する制度です。誰が被代襲者になれるのか、代襲者の範囲はどこまでかを、5つの場面で整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 代襲相続人になるケース
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-養子縁組が死亡以前なら、養子も代襲相続人になる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+死亡以前の縁組なら養子も代襲
 Illustration: 家系図のアイソメトリックイラスト。被相続人A、Aの実子B（死亡を示す灰色のアイコンと×マーク）、Bの養子C（Aから点線の矢印でCへつながり「代襲」のラベル）。Cの脇に「養子」のラベル。縁組の時期を示す小さな時計またはタイムラインアイコンで「縁組→Bの死亡」の順序を示す。
-Caption (small text below):
-養子と養親の血族との間には法定血族関係が生じる（民法727条）。縁組がAの死亡以前であれば、養子Cも代襲相続人となる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+縁組が先なら代襲
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-胎児も、生きて生まれれば代襲相続人になる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+胎児も生きて生まれれば代襲
 Illustration: 被相続人A（死亡アイコン）、Aの実子B（死亡アイコン）、Bの配偶者（妊娠中を示すアイコン）、お腹の中の胎児を示す点線の吹き出しから、誕生後の赤ちゃんCへ矢印でつながる図。「相続については既に生まれたものとみなす」という短い吹き出しラベルを添える。
-Caption (small text below):
-胎児は死体で生まれたときを除き、相続については既に生まれたものとみなされる（民法886条）。生きて生まれれば代襲相続人となる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+出生で代襲成立
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-廃除で相続権を失った人の子も、代襲相続人になる
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+廃除された者の子も代襲
 Illustration: 被相続人A、Aの実子B（裁判所の書類アイコンと「廃除」のスタンプが押されたアイコン）、Bの子C（Aから点線の矢印でCへつながり「代襲」のラベル）。
-Caption (small text below):
-廃除は代襲原因のひとつ。実子Bが廃除によって相続権を失っても、Bの子Cは代襲相続人となる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+廃除は代襲原因
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 代襲相続人にならないケース
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-配偶者の連れ子は、代襲相続人にならない
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+配偶者の連れ子は代襲しない
 Illustration: 被相続人A、Aの配偶者B（死亡アイコン）、Bの元配偶者C、BとCの間の子D。AとDの間に大きな×マークと「血縁なし」のラベルを配置し、代襲が生じないことを示す。
-Caption (small text below):
-相続人となるべき配偶者Bが死亡しても、配偶者は被代襲者にならない。BとCの子Dは代襲相続人とならない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+血縁なしは対象外
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-直系尊属は代襲ではなく、自分自身の権利で相続人になる
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+直系尊属は固有の権利で相続
 Illustration: 被相続人A（子なしを示すアイコン）、Aの父B・母C（いずれも死亡アイコン）、Bの父D（生存を示すアイコン）。DからAへ直接つながる矢印に「代襲ではなく固有の権利」というラベルを添える。
-Caption (small text below):
-直系尊属は被代襲者にならない。Dは、より親等の近い直系尊属がいなければ、直系尊属としての固有の相続権に基づき相続人となる（民法889条1項1号）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+代襲ではない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay particular
-attention to 権 and 号, which must NOT appear as Simplified Chinese
-variants. If any character renders as a Simplified Chinese variant,
-redraw that character in the correct Japanese form. Confirm the number
-of cards equals 5 exactly, with no duplicated or missing cards, and that
-each of the following card headings appears exactly once, verbatim:
-「養子縁組が死亡以前なら、養子も代襲相続人になる」「胎児も、生きて生まれれば代襲相続人になる」
-「廃除で相続権を失った人の子も、代襲相続人になる」「配偶者の連れ子は、代襲相続人にならない」
-「直系尊属は代襲ではなく、自分自身の権利で相続人になる」
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

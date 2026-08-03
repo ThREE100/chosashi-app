@@ -85,14 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-筆界特定手続の事後手続と記録管理に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+筆界特定手続の事後手続と記録管理に関する5肢の正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。導入イラスト・導入文のブロックは置かない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric registry offices,
+filing cabinets, document copies, calendars, notice boards, envelopes,
+torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,9 +112,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 録・地・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -110,57 +122,72 @@ Title (large, bold, 2行):
 「永久」ではない
 
 Subtitle (smaller, centered, 1行):
-筆界特定手続記録の保管ルールを整理(平成25年度 午後の部 第18問)
+平成25年度 午後の部 第18問－筆界特定手続記録の保管ルールを整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric registry office with a filing cabinet labeled 筆界特定手続記録, a calendar icon showing a limited number of years rather than an infinity symbol, and a small envelope icon being sent to the applicant.
-筆界特定制度は、手続の流れ（通知・公告）と記録の管理（保管場所・保存期間・公開）の両方が出題対象になります。「実際に手続を行った登記所で記録が管理される」という点を軸に整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-筆界特定後は、写しの交付による通知・公告・関係人への通知が行われる
-Illustration: An isometric registry officer sending a document copy (筆界特定書の写し) to the applicant, simultaneously posting a public notice board icon (公告) and sending a separate envelope to a neighboring landowner figure (関係人).
-Caption (small text below):
-筆界特定登記官は、遅滞なく申請人へ筆界特定書の写しを交付して通知するとともに、公告し、関係人にも通知しなければならない。
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+特定後は通知・公告もセット
+Illustration: An isometric registry officer sending a document copy
+(筆界特定書の写し) to the applicant figure, simultaneously posting a
+public notice board icon (公告) and sending a separate envelope to a
+neighboring landowner figure (関係人).
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+通知・公告もセット
 
 --- CARD 2 ---
-Heading (bold):
-筆界特定手続記録は、上級官庁ではなく実際に手続を行った登記所（出張所）で保管される
-Illustration: An isometric local registry sub-office building (B出張所) with a filing cabinet labeled 筆界特定手続記録 inside it, a red X over an arrow suggesting the records are sent up to a higher-level office (A法務局) instead.
-Caption (small text below):
-筆界特定手続記録は、実際に手続を行った登記所（出張所）で保管され、上級官庁である法務局に一元的に保管されるわけではない。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+記録は出張所で保管される
+Illustration: An isometric local registry sub-office building (B出張所)
+with a filing cabinet labeled 筆界特定手続記録 inside it. A red X sits
+over an arrow suggesting the records are sent up to a higher-level office
+(A法務局) instead.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+出張所で保管
 
 --- CARD 3 ---
-Heading (bold):
-筆界特定手続記録の保存期間は「永久」ではなく、法令で定められた有期限の期間である
-Illustration: An isometric filing cabinet labeled 筆界特定手続記録 with a calendar showing a finite countdown of years, a red X over an infinity symbol labeled 永久保存.
-Caption (small text below):
-筆界特定手続記録に記載された情報の保存期間は、法令で定められた有期限の期間であり、永久ではない。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+保存期間は永久ではない
+Illustration: An isometric filing cabinet labeled 筆界特定手続記録 with a
+calendar showing a finite countdown of years. A red X sits over an
+infinity symbol labeled 永久保存.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+永久保存ではない
 
 --- CARD 4 ---
-Heading (bold):
-何人も、手数料を納付すれば筆界特定書の写しの交付を請求できる
-Illustration: An isometric ordinary citizen figure (何人も) not connected to the case, paying a small coin icon (手数料) at the registry window and receiving a document copy (筆界特定書の写し).
-Caption (small text below):
-筆界特定書の写しの交付請求は、申請人や関係人に限らず、何人も手数料を納付すれば行うことができる。
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+誰でも手数料で写しを請求可
+Illustration: An isometric ordinary citizen figure (何人も), unconnected
+to the case, paying a small coin icon (手数料) at the registry window and
+receiving a document copy (筆界特定書の写し).
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+何人も交付請求可
 
 --- CARD 5 ---
-Heading (bold):
-筆界特定がされた旨は、対象土地の登記記録に転写される
-Illustration: An isometric land-plot registration record sheet (乙土地の登記記録), a stamp reading 筆界特定がされた旨 being transferred onto its 表題部 section.
-Caption (small text below):
-筆界特定がされた場合、その旨の記録は対象となった土地の登記記録の表題部に転写される。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+特定の旨は登記記録に転写
+Illustration: An isometric land-plot registration record sheet
+(乙土地の登記記録), with a stamp reading 筆界特定がされた旨 being
+transferred onto its 表題部 section.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記記録に転写
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第18問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence of
+explanatory prose — every card's takeaway must read as a short heading +
+a short conclusion tag, at a glance.
 ```

@@ -81,3 +81,132 @@
 - 登録取消しがあれば、同意なく脱退になるんです
 - 事務所には、地元の調査士会員を常駐させるんです
 - 調査士法人、実は1人でも設立できちゃうんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地家屋調査士法人に関する5肢は、「社員資格の得喪」（イ・ウ）、「法人としての体制」（ア・エ）、「設立の人数要件」（オ）という3つの異なるテーマにまたがっており、2列にきれいに分けられないため、列見出しを設けず、通し番号1〜5の5枚のカードを1列で並べる構成にした。誤りの肢（ウ・オ）は、いずれも正しいルールに直した内容だけを図解する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric professional-office
+characters in suits, corporate/法人 building icon, articles-of-incorporation
+document, crown-shaped representative badge, official registration stamp,
+a single founder character raising a signboard, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・録・義・務・執・行・設・会・駐・脱 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+調査士法人、実は1人でも設立できるんです
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第20問－土地家屋調査士法人のルール（当時と現行の違いに注意）
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+代表社員は定款か同意で決められる
+Illustration: 複数の調査士アイソメキャラクターが並ぶ法人アイコンを描く。
+定款の書類、または「総社員の同意」の吹き出しから矢印が伸び、1人の
+キャラクターに王冠形の「代表社員」バッジが付く図に緑のチェックマークを
+添える。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+定款か同意で決定
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+社員は全員に業務執行の権利義務
+Illustration: 3人の社員アイソメキャラクターが横一列に並び、全員が同じ
+「業務執行」の書類を手にしている図を描く。1人だけ業務執行の書類を持たせ
+ない矢印には赤い✕マークを添える。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+全員が権利義務あり
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+登録取消しで当然に脱退する
+Illustration: 社員の1人に「登録取消し」のスタンプが押され、法人の輪から
+自動的に外れていく矢印の図を描く。「総社員の同意」の吹き出しに赤い
+✕マークを添え、同意が不要であることを示す。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+同意なく当然脱退
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+事務所には地元の調査士会員を常駐
+Illustration: 法人の事務所アイコンの前に、地域の調査士会バッジを付けた
+社員キャラクターが常駐している図を描き、緑のチェックマークを添える。
+よその調査士会バッジを付けた人影の横に「不可」のラベルと赤い✕マークを
+添える。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+管轄調査士会の会員
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+現行法は調査士1人でも設立可
+Illustration: 1人の調査士キャラクターが定款の書類を持って法人設立の
+看板を掲げている図を描き、緑のチェックマークを添える。「社員2人以上
+必要」という古い看板に赤い✕マークと「令和2年改正」の小さなラベルを添える。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+1人でも設立可能
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 代表社員は定款か同意で決められる
+2. 社員は全員に業務執行の権利義務
+3. 登録取消しで当然に脱退する
+4. 事務所には地元の調査士会員を常駐
+5. 現行法は調査士1人でも設立可
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```

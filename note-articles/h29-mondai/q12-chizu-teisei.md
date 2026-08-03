@@ -79,3 +79,133 @@
 - 隣の土地でも、まとめて1枚の申出はできないんです
 - 移転登記前の買主は、地図訂正を申し出られないんです
 - 地積もズレてたら、地積更正と一緒に直すんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地図等の訂正に関する5肢を「図面の要否」（ア・イ）と「訂正の申出に関する手続ルール」（ウ・エ・オ）の2系統に分け、誤りの肢は正しいルールに直した上で、通し番号1〜5の5枚のカードとして一枚に俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry office,
+land plots with boundary lines, survey maps (土地所在図・地積測量図),
+application forms, magnifying glass, official stamps, torn paper labels,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・番・図・訂・正・所・在・積・測・量・形・状・要・申・出・情・報・複・数・区・画・買・主・移・転・登・記・名・義・人・更
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その地図の訂正、図面はいる？いらない？
+
+Subtitle (smaller, centered, 1行):
+平成29年度 午後の部 第12問－地図等の訂正の要否と手続
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+図面の要否
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+地番の誤りだけなら図面不要
+Illustration: An isometric "地図に準ずる図面" showing a land plot whose
+地番 label "12番" is crossed out and corrected to "13番", with the plot's
+shape and boundary completely unchanged. Small icons for 土地所在図 and
+地積測量図 are shown grayed out with red X marks and a label "提供不要".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+図面提供は不要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+形状の誤りには測量図面が必要
+Illustration: A land plot drawn with a jagged, incorrect boundary line,
+overlaid by a dotted correct boundary line for comparison. Icons for
+土地所在図 and 地積測量図 are shown attached to the correction application
+with green checkmarks.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+測量図面を添付
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+申出の手続ルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+複数区画の訂正はまとめて申出不可
+Illustration: Two adjacent land plots labeled "甲地" and "乙地", both with
+incorrect boundary lines. Two separate application forms, each labeled
+"地図訂正申出情報", are shown side by side. A single combined form attempt
+covering both plots is crossed out with a red X.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+土地ごとに申出
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+買主は移転登記を受けてから申出
+Illustration: A person labeled "買主B" holds a 売買契約書 and stands at the
+registry counter, blocked by a red X labeled "訂正の申出できない". Beside
+it, a corrected sequence shows B first receiving a "所有権の移転の登記"
+stamp, then submitting "地図訂正の申出" with a green checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記名義人になってから
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積の錯誤は更正登記とセットで申出
+Illustration: A land plot with its boundary shape corrected, bundled
+together with a paperclip icon alongside a document labeled "地積に関する
+更正の登記". Both are submitted together at the registry counter as one
+package, with a green checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+更正登記とセットで
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 地番の誤りだけなら図面不要
+2. 形状の誤りには測量図面が必要
+3. 複数区画の訂正はまとめて申出不可
+4. 買主は移転登記を受けてから申出
+5. 地積の錯誤は更正登記とセットで申出
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

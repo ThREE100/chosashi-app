@@ -78,3 +78,130 @@
 - 建物の所在、床面積の順番では決まらないんです
 - 物置を建て替えても、同じ番号は使えないんです
 - 土地が分筆されたら、建物の変更登記も必要なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の表題部の変更登記について「登記原因をどう書くか」と「所在・符号・申請義務をどう記録するか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric wooden houses, moving
+cranes/rollers, registry desks, calendar icons, numbered symbol tags, land
+parcels with lot-number labels, application documents, red cross marks,
+green checkmarks, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・地・番・建・物・登・記・所・権・転 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物表題部の変更登記、記録の正しいルールは？
+
+Subtitle (smaller, centered, 1行):
+平成26年度　午後の部　第11問－登記原因の書き方と所在・符号・申請義務
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+登記原因の書き方
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+曳行移転の登記原因は「曳行移転」
+Illustration: An isometric wooden building being moved sideways on
+rollers/a small crane, still fully intact, sliding from its original lot
+to an adjacent lot along a dotted arrow path. A registration-document
+panel shows the label "曳行移転" being stamped as the correct 登記原因,
+while a separate torn-paper label reading "所在地番変更" has a red cross
+mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+登記原因は「曳行移転」
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+増築は最終の1回分の日付でOK
+Illustration: An isometric house with two visibly different additions
+built onto it at different times, each labeled with a small calendar icon
+("増築①" dated earlier, "増築②" dated later). A single application-document
+panel shows only the later calendar date circled in green as the recorded
+登記原因の日付, while the earlier calendar icon has a red cross mark over
+it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+最終の増築日だけでよい
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+所在・符号・申請義務のルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+所在の記録は床面積順ではない
+Illustration: An isometric building spanning four adjoining land lots
+labeled 1番・2番・3番・4番 with different floor-area size tags (100㎡,
+200㎡, 120㎡, 150㎡) shown above each lot. A list sorted by floor-area
+size (200→150→120→100) has a red cross mark over it, while a separate
+tag reading "主たる部分などの基準" is highlighted with a green checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+床面積順に並べない
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+取り壊した附属建物の符号は使い回せない
+Illustration: An isometric small storage shed labeled "附属建物・符号1"
+being demolished (small rubble icons around it), and a brand-new shed
+being built in the same spot labeled "附属建物・符号2". The old tag "符号1"
+being reused on the new shed has a red cross mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+符号の再利用は不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆で所在変更、申請義務あり
+Illustration: An isometric land plot split into two parcels by a dotted
+subdivision line (分筆), with a small house (乙建物, owned by B) sitting on
+one of the new parcels. A person labeled "B" holds a "所在の変更登記申請書"
+and walks toward a registry desk, with a green checkmark banner above
+reading "申請義務あり" replacing a crossed-out "申請不要" label.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所在変更登記の申請義務あり
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

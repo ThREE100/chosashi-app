@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 非区分建物が接続して区分建物になったら変更登記は一括申請（法52条3項） |
-| イ | 誤 | 一棟の床面積変更は一人が申請すれば他は職権で変更（法51条6項） |
-| ウ | 誤 | 敷地権のない区分建物でも一棟の全部を一括申請（法48条1項） |
-| エ | 正 | 非区分建物に接続して区分建物新築なら変更登記と一括申請（法48条3項） |
-| オ | 誤 | 相続人は原始取得者Aを表題部所有者として申請できる（法47条2項） |
+- **ア（正）** 非区分建物が接続して区分建物になったら変更登記は一括申請（法52条3項）
+- **イ（誤）** 一棟の床面積変更は一人が申請すれば他は職権で変更（法51条6項）
+- **ウ（誤）** 敷地権のない区分建物でも一棟の全部を一括申請（法48条1項）
+- **エ（正）** 非区分建物に接続して区分建物新築なら変更登記と一括申請（法48条3項）
+- **オ（誤）** 相続人は原始取得者Aを表題部所有者として申請できる（法47条2項）
 
 「区分建物は一棟まるごと一括申請が基本」「区分建物の表題登記の申請人は原始取得者（相続人は原始取得者を表題部所有者として申請）」という2つの柱を押さえれば、正解のア・エが選べます。
 
@@ -85,16 +83,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-区分建物の登記の申請について、一括申請の対象となる場面3枚と、申請義務があるのは誰かを示す2枚の、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+区分建物の登記の申請について「一括申請の対象となる場面」と「申請義務があるのは誰か」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。導入イラスト・導入文のブロックは置かない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric apartment buildings,
 single-family houses, registry documents, official stamps/seals, bundled
 ribbon/paperclip icons, family-tree icons, arrows — adapt icon set to the
 topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,108 +112,96 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記・権・地・所・属・続, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 建・物・登・記・権・地・所・続 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-区分建物の表題登記は
-「一棟まるごと一括」が基本なんです
+Title (large, bold, 1行):
+区分建物、表題登記は一棟まるごと一括なんです
 
 Subtitle (smaller, centered, 1行):
-区分建物の登記の申請を解説(令和4年度 午後の部 第17問)
+令和4年度 午後の部 第17問－一括申請の範囲と申請義務者の整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing an
-apartment building (一棟) made up of several stacked room units, with a
-thin dotted outline connecting all the units to a single bundled document
-labeled "一括", to show the building and its 専有部分 are closely linked.
-区分建物(マンションの一室など)の登記は、一棟の建物と専有部分が密接に
-関わるため、「一括して申請しなければならない」場面が多いのが特徴です。
-どこまでが一括申請の対象で、誰に申請義務があるのかを整理しましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 一括申請の対象となる場面
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-非区分建物が接続して区分建物になったら、変更登記は一括で申請
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+非区分建物接続なら変更登記は一括
 Illustration: An isometric diagram showing two separate small houses
 labeled "甲建物" and "乙建物", connected by a construction/increase-work
 icon (crane or scaffolding), merging into one outlined building shape;
 two document icons from each building are shown converging into a single
-bundled stack of papers stamped "一括".
-Caption (small text below):
-いずれも表題登記がある区分建物でない甲建物・乙建物が増築工事で接続して
-区分建物になった場合、甲・乙の表題部の変更登記は一括して申請しなければ
-ならない(不動産登記法52条3項)。
+bundled stack of papers stamped "一括" with a ✓ checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+変更登記は一括申請
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-敷地権のない区分建物でも、一棟の全部を一括して申請する
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権なしでも一棟まるごと一括申請
 Illustration: An isometric apartment building (一棟) divided into several
 stacked room units, none of the units carrying a "敷地権" tag, all units
 connected by a single bundled ribbon labeled "一括" leading to a registry
-window counter where the whole bundle is submitted at once.
-Caption (small text below):
-一棟の建物が新築された場合、敷地権付き区分建物でなくても、一棟の建物に
-属する全部の区分建物の表題登記は一括して申請しなければならない(不動産
-登記法48条1項)。
+window counter where the whole bundle is submitted at once, marked with
+a ✓ checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一棟まるごと一括
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-非区分建物に接続して区分建物を新築したら、変更登記と一括で申請
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物新築なら変更登記と一括申請
 Illustration: An isometric existing single house labeled "非区分建物"
 with a newly built connected section labeled "区分建物" under
 construction beside it, both linked by a bundle/paperclip icon labeled
-"一括" joining two document icons marked "変更登記" and "表題登記".
-Caption (small text below):
-表題登記がある非区分建物に接続して区分建物が新築された場合、非区分建物
-の表題部の変更登記と、区分建物の表題登記は一括して申請しなければ
-ならない(不動産登記法48条3項)。
+"一括" joining two document icons marked "変更登記" and "表題登記" with a
+✓ checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+変更登記とセット
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 申請義務があるのは誰か
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-一棟の床面積変更は一人が申請すれば、他は職権で変更される
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+一人が申請すれば他は職権で変更
 Illustration: An isometric cross-section of an apartment building showing
 several room units; one unit's owner character submits a document at a
 registry counter, while a registry official character stamps the other
 units' records automatically with a "職権" seal, with small arrows
 spreading from the counter to the other rooms.
-Caption (small text below):
-区分建物の所有権登記名義人の一人が一棟の建物の床面積変更登記を申請すれば、
-他の区分建物の登記記録にある一棟の建物の表示は、登記官の職権で変更される
-(不動産登記法51条6項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+他は職権で変更
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-区分建物の表題登記は、相続人が「Aを表題部所有者として」申請する
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続人は原始取得者を表題部所有者に
 Illustration: An isometric family-tree style icon showing a faded person
-character labeled "A" (原始取得者) with an arrow to a person character
-labeled "B" (相続人) holding a document labeled "表題登記" whose name
-field reads "表題部所有者:A"; no clock or deadline icon is shown, to
+character labeled "Ａ" (原始取得者) with an arrow to a person character
+labeled "Ｂ" (相続人) holding a document labeled "表題登記" whose name
+field reads "表題部所有者：Ａ"; no clock or deadline icon is shown, to
 indicate there is no fixed time limit.
-Caption (small text below):
-区分建物を新築した所有者Aが死亡した場合、相続人Bは、Aを表題部所有者と
-する表題登記を申請することができる。B自身が表題部所有者になるのでは
-なく、「相続した日から1か月以内」という申請義務も課されない(不動産
-登記法47条2項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+原始取得者のまま
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和4年度 午後の部 第17問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 建・物・登・記・権・地・所・属・続. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly (3 cards
-under 一括申請の対象となる場面, 2 cards under 申請義務があるのは誰か),
-with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+attention to 建・物・登・記・権・地・所・続. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

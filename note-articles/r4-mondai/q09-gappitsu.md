@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 登記できない使用貸借の土地は合筆できる（法41条6号） |
-| イ | 正 | 敷地権である旨の登記がある土地は合筆できない（法41条6号） |
-| ウ | 誤 | 合筆では消滅承諾書を付けても合筆できない |
-| エ | 誤 | 字が同一なら別々の地図でも合筆できる（法41条2号） |
-| オ | 誤 | 一部にのみ順位変更があると合筆できない（規則105条2号、昭58.11.10民三6400号） |
+- **ア（正）** 登記できない使用貸借の土地は合筆できる（法41条6号）
+- **イ（正）** 敷地権である旨の登記がある土地は合筆できない（法41条6号）
+- **ウ（誤）** 合筆では消滅承諾書を付けても合筆できない
+- **エ（誤）** 字が同一なら別々の地図でも合筆できる（法41条2号）
+- **オ（誤）** 一部にのみ順位変更があると合筆できない（規則105条2号、昭58.11.10民三6400号）
 
 「所有権以外の権利に関する登記があるか」「例外にあたるほど完全に一致しているか」という視点で各肢を切り分けると、正解のア・イが見えてきます。
 
@@ -86,15 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-合筆の可否を左右する「所有権以外の権利に関する登記の有無」の原則を3枚、地番区域と権利内容の一致に関するその他の要件を2枚の、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+合筆の登記について「所有権以外の権利に関する登記の有無」と「地番区域・権利内容の一致要件」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, merge
-arrows, official stamps/seals, ledger books, torn paper documents,
-prohibition marks, magnifying glass — adapt icon set to the topic).
+arrows, seal/stamp icons, ledger books, torn paper documents, etc. —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,9 +112,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 権・地・番・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -113,102 +121,82 @@ Title (large, bold, 2行):
 「所有権以外の登記」がカギ
 
 Subtitle (smaller, centered, 1行):
-所有権の登記名義人が同一である隣接する甲土地と乙土地の合筆の登記
-(令和4年度 午後の部 第9問)
+令和4年度 午後の部 第9問－甲土地と乙土地の合筆の登記
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing two
-adjacent land plots labeled "甲土地" and "乙土地" with a magnifying glass
-hovering over a small tag reading "所有権以外の権利に関する登記の有無",
-and an arrow forking into two outcomes: a merged single plot stamped with
-a green checkmark, and a merge blocked by a red prohibition (no-entry)
-icon, to show that this single question decides whether the two plots
-can be merged.
-合筆の登記は、複数の土地を1つにまとめる手続で、公示が複雑にならないよう
-厳しい制限がかかっています。ポイントは「所有権の登記以外の権利に関する
-登記がある土地は、原則として合筆できない」(不動産登記法41条6号)という
-ルールです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 所有権以外の権利に関する登記の有無
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-登記できない使用貸借なら、合筆できる
-Illustration: An isometric land plot labeled "乙土地" with a small tag
-reading "使用貸借" crossed by a closed ledger-book icon with an X mark
-(meaning it cannot be registered), placed beside a land plot labeled
-"甲土地", both connected by a merge arrow into one combined plot stamped
-with a green checkmark.
-Caption (small text below):
-使用貸借権はそもそも登記することができない権利なので、乙土地は「所有権
-以外の権利に関する登記がある土地」にはあたらず、合筆できる(法41条6号)。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記できない使用貸借は合筆OK
+Illustration: An isometric land plot labeled "乙土地" with a tag reading
+"使用貸借" crossed by a closed ledger-book icon bearing a red X (meaning
+it cannot be registered), beside a land plot labeled "甲土地", both
+connected by a merge arrow into one combined plot stamped with a green
+checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+合筆できる
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-同一区分建物の敷地権である旨の登記があると、合筆できない
-Illustration: Two isometric land plots labeled "甲土地" and "乙土地", each
-stamped with a tag reading "敷地権である旨の登記", connected by a merge
-arrow that is blocked by a red prohibition (no-entry) icon in the middle.
-Caption (small text below):
-「所有権の登記以外の権利に関する登記」には敷地権である旨の登記も含まれる
-ため、敷地権である旨の登記がされている甲・乙土地は合筆することができな
-い(法41条6号)。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権の登記があると合筆不可
+Illustration: Two isometric land plots labeled "甲土地" and "乙土地",
+each stamped with a tag reading "敷地権である旨の登記", connected by a
+merge arrow blocked by a red X in the middle.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+合筆できない
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-合筆では、消滅承諾書を付けても合筆できない
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+消滅承諾書だけでは合筆不可
 Illustration: An isometric land plot labeled "乙土地" with a red 抵当権
-stamp/seal on it, next to a torn paper document labeled "消滅承諾書" with
-a large red X mark over it, and a small separate icon showing a hand
-physically pulling the 抵当権 stamp off the plot to show the correct
-method (実際の抹消) instead.
-Caption (small text below):
-分筆と違い、合筆や建物合併では、すべての不動産について所有権以外の権利
-に関する登記を消滅させることができないため、消滅承諾書を添付して合筆す
-ることはできない。
+stamp on it, beside a torn-paper document labeled "消滅承諾書" with a
+large red X over it, and a small separate icon showing a hand pulling
+the 抵当権 stamp off the plot to show the correct method instead.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾書では不可
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 地番区域・権利内容の一致要件
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-字が同一なら、同じ地図に載っていなくても合筆できる
-Illustration: Two isometric land plots labeled "甲土地" and "乙土地", both
-tagged with the same 字 label, placed on two separate registry map-sheet
-icons (different 地図 pages) side by side, connected by a merge arrow
-stamped with a green checkmark to show that being on different map sheets
-does not block the merger.
-Caption (small text below):
-合筆は地目または地番区域(字)が異なる土地ではできないが、所在する字が同
-一であれば、同一の地図又は地図に準ずる図面に記録されていなくても合筆制
-限にはあたらない(法41条2号)。
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+字が同じなら別地図でも合筆OK
+Illustration: Two isometric land plots labeled "甲土地" and "乙土地",
+both tagged with the same "字" label, placed on two separate registry
+map-sheet icons side by side, connected by a merge arrow stamped with a
+green checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+合筆できる
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-甲だけに順位変更があると、権利が同一でないため合筆できない
-Illustration: Two isometric land plots labeled "甲土地" and "乙土地", each
-with an identical 抵当権 tag, but 甲土地 has one extra tag reading "順位
-変更の登記" attached to it, with a merge arrow between the two plots
-blocked by a red prohibition (no-entry) icon because of the mismatched
-extra tag.
-Caption (small text below):
-登記の目的・受付年月日及び受付番号並びに登記原因及びその日付が「すべて
-同一」であることが必要で、一部の土地にのみ順位の変更などの登記がされて
-いると、合筆はできない(規則105条2号、昭58.11.10民三6400号)。
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+一部だけ順位変更あると合筆不可
+Illustration: Two isometric land plots labeled "甲土地" and "乙土地",
+each with an identical 抵当権 tag, but 甲土地 has one extra tag reading
+"順位変更の登記" attached, with a merge arrow between the two plots
+blocked by a red X because of the mismatched extra tag.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+合筆できない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和4年度 午後の部 第9問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3
-cards under 所有権以外の権利に関する登記の有無, 2 cards under 地番区域・
-権利内容の一致要件), with no duplicated or missing cards, and confirm
-every heading, illustration label, and caption text matches the Japanese
-text given above verbatim, with no paraphrasing and no substituted
-characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

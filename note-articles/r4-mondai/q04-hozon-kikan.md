@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 土地の閉鎖登記記録は閉鎖の日から50年間（規則28条4号） |
-| イ | 誤 | 法定相続情報一覧図つづり込み帳は翌年から5年間（規則28条の2第6号） |
-| ウ | 正 | 閉鎖された各階平面図は閉鎖の日から30年間（規則28条13号） |
-| エ | 正 | 筆界特定書以外の手続記録は翌年から30年間（規則235条1項2号） |
-| オ | 正 | 書面申請の申請書は受付の日から30年間（規則28条9号） |
+- **ア（誤）** 土地の閉鎖登記記録は閉鎖の日から50年間（規則28条4号）
+- **イ（誤）** 法定相続情報一覧図つづり込み帳は翌年から5年間（規則28条の2第6号）
+- **ウ（正）** 閉鎖された各階平面図は閉鎖の日から30年間（規則28条13号）
+- **エ（正）** 筆界特定書以外の手続記録は翌年から30年間（規則235条1項2号）
+- **オ（正）** 書面申請の申請書は受付の日から30年間（規則28条9号）
 
 「土地の閉鎖登記記録＝50年」「法定相続情報一覧図つづり込み帳＝5年」の2つは、他の30年組と紛らわしいので、意識的に区別して暗記しておきましょう。
 
@@ -85,15 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-登記記録等の保存期間について、「30年組」と紛らわしい特別な年数(ア:50年・イ:5年)の2枚と、30年保存のグループ(ウ・エ・オ)の3枚、計5枚のカードで起算点と年数を対応づけられるよう構成した画像生成プロンプト。
+登記記録等の保存期間について、「30年組」と紛らわしい特別な年数の2枚と、30年保存のグループの3枚を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric ledger books, filing
 cabinets, calendars, official stamps/seals, document folders, clock faces
 — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,9 +111,9 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・建・物・登・記・所・地・鎖・筆・界・存・期・間, which have
-Simplified Chinese look-alike forms with visibly different stroke shapes —
-always draw the standard Japanese (Jōyō) form of these characters.
+kanji 録・登・記・所・地・建・物・鎖・筆・界・存・期・間 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -112,88 +121,82 @@ Title (large, bold, 2行):
 一覧図つづり込み帳は5年
 
 Subtitle (smaller, centered, 1行):
-保存期間を解説(令和4年度 午後の部 第4問)
+保存期間を解説（令和4年度 午後の部 第4問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a tall
-stack of bound ledger books and closed document folders beside a large
-calendar/clock face, with floating number tags reading "5年", "30年",
-"50年", and "永久" arranged around the calendar, and a magnifying glass
-hovering over the calendar to highlight the starting date.
-保存期間の分野は、暗記勝負に見えて、実は「起算点（いつから数えるか）」と
-「年数（5年・30年・50年・永久）」の2つを正確に対応づけられているかが
-勝負です。似た数字が並ぶので、混同しやすいものをセットで覚えましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 30年組と紛らわしい特別な年数
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-土地の閉鎖登記記録は、閉鎖した日から50年間
-Illustration: An isometric registry ledger book stamped with a red "閉鎖"
-seal and a large calendar tag reading "50年", positioned next to a
-smaller building-shaped ledger book tagged "30年" for size comparison,
-with a thin dotted arrow contrasting the two durations.
-Caption (small text below):
-土地に関する閉鎖された登記記録の保存期間は、閉鎖した日から50年間(規則28条
-4号)。建物の閉鎖登記記録は30年間で、土地と建物で年数が違う点に注意。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+土地の閉鎖登記記録は50年
+Illustration: An isometric registry ledger book labeled "登記記録" stamped
+with a red "閉鎖" seal and a large calendar tag reading "50年", positioned
+next to a smaller building-shaped ledger book labeled "建物" and tagged
+"30年" for comparison, with a thin dotted arrow contrasting the two
+durations.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+閉鎖から50年間
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-法定相続情報一覧図つづり込み帳は、翌年から5年間
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+つづり込み帳は翌年から5年
 Illustration: An isometric bound folder labeled "法定相続情報一覧図つづり
 込み帳" with a small calendar showing a "5年" tag and a curved arrow from
 a calendar page labeled "作成の翌年" pointing to the start of the count.
-Caption (small text below):
-法定相続情報一覧図つづり込み帳の保存期間は、作成の年の翌年から5年間(規則
-28条の2第6号)。登記記録本体のような長期保存ではない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+翌年から5年間
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 30年保存のグループ
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-閉鎖された各階平面図は、閉鎖した日から30年間
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+各階平面図は閉鎖から30年
 Illustration: An isometric rolled blueprint/floor-plan drawing labeled
 "各階平面図" stamped with a red "閉鎖" seal, next to a calendar tag
 reading "30年".
-Caption (small text below):
-閉鎖された土地所在図、地積測量図、建物図面および各階平面図は、閉鎖した日
-から30年間保存される(規則28条13号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+閉鎖から30年間
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-筆界特定書「以外」の手続記録は、翌年から30年間
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+特定書以外の記録は翌年30年
 Illustration: An isometric split scene: on the left, a golden sealed
-document labeled "筆界特定書" with an infinity symbol and a "永久" tag;
-on the right, a stack of related folders labeled "手続記録" with a "30年"
-tag and a curved arrow from a calendar page labeled "翌年から".
-Caption (small text below):
-筆界特定書に記載・記録された情報は永久保存(規則235条1項1号)。筆界特定書
-以外の手続記録は、送付を受けた年の翌年から30年間保存される(規則235条1項
-2号)。
+document labeled "筆界特定書" with an infinity symbol and a "永久" tag; on
+the right, a stack of related folders labeled "手続記録" with a "30年" tag
+and a curved arrow from a calendar page labeled "翌年から".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+翌年から30年間
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-書面申請の申請書は、受付の日から30年間
-Illustration: An isometric registry counter where a paper application
-form is being stamped with a red "受付" stamp, with a calendar tag
-reading "30年" counting forward from the stamp date.
-Caption (small text below):
-表示および権利に関する登記の申請情報とその添付情報は、受付の日から30年間
-保存される(規則28条9号)。
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+申請書は受付日から30年
+Illustration: An isometric registry counter (登記所) where a paper
+application form is being stamped with a red "受付" stamp, with a
+calendar tag reading "30年" counting forward from the stamp date.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+受付日から30年間
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和4年度 午後の部 第4問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・建・物・登・記・所・地・鎖・筆・界・存・期・間. If any
+attention to 録・登・記・所・地・建・物・鎖・筆・界・存・期・間. If any
 character renders as a Simplified Chinese variant, redraw that character
 in the correct Japanese form. Confirm the number of cards equals 5
-exactly (2 cards under 30年組と紛らわしい特別な年数, 3 cards under 30年保存
-のグループ), with no duplicated or missing cards, and confirm every
-heading, illustration label, and caption text matches the Japanese text
-given above verbatim, with no paraphrasing and no substituted characters.
+exactly, with no duplicated or missing cards, that badge numbers run 1-5
+continuously across both columns without resetting (2 cards under 30年組
+と紛らわしい特別な年数, 3 cards under 30年保存のグループ), confirm there
+is no intro illustration or paragraph block between the header and the
+cards, and confirm that no card contains a full sentence of explanatory
+prose — every card's takeaway must read as a short heading + a short
+conclusion tag, at a glance.
 ```

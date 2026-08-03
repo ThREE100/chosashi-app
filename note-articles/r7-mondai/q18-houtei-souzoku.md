@@ -83,7 +83,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「一覧図を作る・保管するとき」と「一覧図を使うとき」の2列に分け、記載事項・申出先・返却物・再交付・番号利用の5つの正しいルールを1枚で俯瞰できる構成にした。
+法定相続情報一覧図の制度について「一覧図を作る・保管するとき」と「一覧図を使うとき」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -93,6 +93,17 @@ modern explainer-graphic aesthetic (icons: isometric government office
 building, document/list sheets, family tree diagram, stamps, calendar
 timeline, ID number tag, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -100,9 +111,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・権・地・番・登・記・所, which have Simplified Chinese variants
-that look similar but must NOT be used — render them in standard Japanese
-Jōyō form only.
+kanji 号・地・番・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -110,95 +120,85 @@ Title (large, bold, 2行):
 書くべきこと・戻ってくるもの
 
 Subtitle (smaller, centered, 1行):
-令和7年度 午後の部 第18問のポイントを1枚で整理
+令和7年度 午後の部 第18問－記載事項・申出先・返却物を検証
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric family-tree style document sheet (法定相続情報一覧図)
-connected by a dotted arrow to an isometric government registry office
-building (登記所). Small icons around them suggest a family relationship
-chart and a stack of returned certificates.
-法定相続情報一覧図の制度は、相続手続きの負担を軽くする仕組みです。
-「何を書くか」「どこに申し出るか」「何が返ってくるか」「番号だけで
-済む場面」を押さえましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-保管の申出をするとき
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+一覧図を作る・保管するとき
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
 本籍地の記載は任意
 Illustration: An isometric 法定相続情報一覧図 document card showing checked
 entry fields labeled 氏名・生年月日・死亡年月日・最後の住所 with green
 checkmarks, and one field labeled 本籍地 shown with a dashed outline and a
 small badge reading 任意的記載事項 (not required, no red X).
-Caption (small text below):
-一覧図には氏名・生年月日・死亡年月日・最後の住所などを記載するが、
-本籍地の記載は任意的記載事項であり必須ではない(不動産登記規則247条1項
-各号・3項1号)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+本籍地は任意
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-申出先は被相続人名義の不動産の所在地
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+申出先は被相続人名義の不動産
 Illustration: An isometric map with a registry office building (登記所)
 icon. A solid arrow flows from a land plot icon labeled 被相続人名義の
 不動産 into the registry office. A separate land plot icon labeled 申出人
 自身の不動産 has a crossed-out (×) arrow toward a different, unrelated
 registry office, showing it is not a valid destination.
-Caption (small text below):
-保管の申出は、被相続人の本籍地・最後の住所地・申出人の住所地、または
-被相続人名義の不動産の所在地を管轄する登記所にすることができる
-(不動産登記規則247条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+被相続人名義が基準
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
 戸籍の全部事項証明書は返却される
 Illustration: An isometric registry office clerk counter. A stack of
 documents labeled 戸籍の全部事項証明書 is handed over by an applicant,
 then the same stack is handed back to the applicant together with a
 document labeled 法定相続情報一覧図の写し, illustrated with a return arrow.
-Caption (small text below):
-保管の申出の際に添付書面として提出した相続人の戸籍の全部事項証明書は、
-一覧図の写しを交付する際に併せて返却される。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+戸籍は返却される
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 一覧図を使うとき
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
 写しの再交付は保存期間内にできる
 Illustration: An isometric calendar/timeline bar spanning 5 years labeled
 保存期間(5年間), with a marker showing 作成の年の翌年 as the start point.
 A hand icon reaches for a document labeled 法定相続情報一覧図の写し at any
 point along the bar before it ends, illustrating repeated re-issuance
 within the period.
-Caption (small text below):
-法定相続情報一覧図の写しの再交付の申出は、その一覧図の保存期間
-(作成の年の翌年から5年間、規則28条の2第6号)が満了するまでの間、行う
-ことができる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+5年間は再交付可
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
 番号があれば写しの提出は不要
 Illustration: An isometric registration application document labeled
 土地の表示に関する登記の申請書 next to a small ID tag/card labeled
 法定相続情報番号. A large stack of paper labeled 法定相続情報一覧図の写し
 is shown crossed out or fading away, indicating it does not need to be
 attached when the number is provided.
-Caption (small text below):
-土地の表示に関する登記を申請する場合、相続があったことを証する情報として
-法定相続情報番号を提供するときは、法定相続情報一覧図の写しを提供すること
-を要しない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+番号だけでOK
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — pay special
-attention to 号・権・地・番・登・記・所. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, and that COLUMN A contains exactly 3 cards (本籍地の記載は
-任意 / 申出先は被相続人名義の不動産の所在地 / 戸籍の全部事項証明書は返却
-される) and COLUMN B contains exactly 2 cards (写しの再交付は保存期間内に
-できる / 番号があれば写しの提出は不要).
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

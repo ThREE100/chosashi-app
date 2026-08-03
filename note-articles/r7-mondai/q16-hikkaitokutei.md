@@ -83,15 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-筆界特定が「所有権を決める訴訟とは別次元の手続きであること」と「関係人の権利がきちんと守られる手続きであること」の2軸で、ア〜オの5肢を正しいルールとして俯瞰できる構成にした。
+筆界特定に関する5肢を、「所有権を決める訴訟とは別次元の手続きであること」と「関係人の権利がきちんと守られる手続きであること」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric courthouse building,
 surveyor with a measuring pole and boundary stake, document folders,
 scales/balance, family-tree icon, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,106 +111,92 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-following kanji, which have visibly different Simplified Chinese forms and
-must be drawn in their standard Japanese form: 権, 記, 続, 証, 対, 閲, 覧,
-還, 号, 登, 地, 所.
+kanji 権・記・続・証・対・閲・覧・還・号・登・地・所 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
 筆界特定、訴訟とは違うからこそのルール
 
-Subtitle (smaller, centered, 2行):
-令和7年度 午後の部 第16問
-筆界特定に関する5つの原則
+Subtitle (smaller, centered, 1行):
+令和7年度 午後の部 第16問－訴訟との違いと関係人の権利保障
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Left side shows a courthouse building icon and a boundary
-stake/surveyor icon placed on opposite sides of a balance scale, with a
-small confused-looking person icon standing between them looking back and
-forth at both sides.
-筆界特定は「筆界（公法上の境界）」を明らかにする手続きであり、「所有権の
-範囲」を決める訴訟とは似て非なるものです。この違いを押さえるのがポイント
-です。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
-The five principles below must all appear, exactly once each, with the
-exact heading text given (do not duplicate, omit, or reword any of them):
-1. 申請人でない共有者も、意見や資料を提出できる（法139条）
-2. 所有権確認訴訟の判決があっても、筆界特定は申請できる
-3. 手続の途中でも、関係人は調書・資料を閲覧できる（法141条）
-4. 原本で提出した売買契約書は、還付を請求できる
-5. 判断者に利害関係があれば、改めて申請できる
-
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 筆界特定は、所有権を決める訴訟とは別次元
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-申請人でない共有者も、意見や資料を提出できる（法139条）
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+申請人でない共有者も意見可
 Illustration: A shared piece of land with two boundary stakes; two
 siblings (brother and sister icons) stand side by side. The brother has
 already submitted an application document to a registrar-officer icon.
 The sister hands over a folder labeled 資料 to the same registrar-officer,
 with a speech bubble icon above her (no text needed inside the bubble,
 just a speech-bubble shape).
-Caption (small text below):
-対象土地の共有者の一人が申請人でも、申請人でない他の共有者は、筆界特定
-登記官に意見や資料を提出できる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+意見・資料を提出可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-所有権確認訴訟の判決があっても、筆界特定は申請できる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有権確認訴訟でも申請可
 Illustration: A large balance scale. On the left pan, a courthouse
 building icon with the label 所有権確認訴訟. On the right pan, a surveyor
 icon with a measuring pole and boundary stake with the label 筆界特定. The
 two pans are drawn at the same level (balanced, not one outweighing the
 other), with a small label above the scale reading 別次元.
-Caption (small text below):
-却下事由となるのは境界確定訴訟の判決のみで、所有権確認訴訟の判決が確定
-していても筆界特定の申請は妨げられない（法132条1項6号）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+筆界は別次元
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 筆界特定の手続は、関係人の権利をきちんと守る
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-手続の途中でも、関係人は調書・資料を閲覧できる（法141条）
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+手続途中でも調書を閲覧可
 Illustration: A progress gauge/clock icon showing "in progress" (partially
 filled, not complete), next to a person holding a magnifying glass over an
 open document folder labeled 調書・提出資料.
-Caption (small text below):
-公告があった時から筆界特定登記官による通知がされるまでの間、申請人及び
-関係人は閲覧を請求できる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+閲覧できる
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-原本で提出した売買契約書は、還付を請求できる
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+原本の契約書は還付請求可
 Illustration: A document labeled 売買契約書（原本） with a stamp icon on
 it, being handed back from a registrar-officer icon to an applicant icon,
 shown with a return arrow between them.
-Caption (small text below):
-書面申請で所有権を証する書面として売買契約書の原本を添付した場合、その
-原本の還付を請求できる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+還付請求できる
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-判断者に利害関係があれば、改めて申請できる
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+利害関係あれば再申請可
 Illustration: A small family-tree icon connecting a registrar-officer
 figure and an applicant figure with a label 叔父, next to a tilted balance
 scale labeled 公正 tipping to one side. Beside it, a second person icon
 (labeled 乙土地の所有者) submits a new application document.
-Caption (small text below):
-筆界特定登記官が四親等内の親族に当たる場合は除斥され（法126条2号）、これ
-は「特段の必要」（法132条1項7号ただし書）に当たるため、乙土地の所有者は
-改めて筆界特定の申請をすることができる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+改めて申請可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (2 in
-Column A, 3 in Column B), with no duplicated or missing cards, and that
-each of the 5 numbered headings listed in the intro block appears exactly
-once as a card heading, verbatim.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

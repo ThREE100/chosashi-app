@@ -52,13 +52,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 1点のみで接する土地どうしは筆界特定の対象にならない |
-| イ | 正 | 表題登記のない土地の所有者は所有権を有することを証する情報が必要 |
-| ウ | 誤 | 時効取得した部分が対象筆界に接していなくても申請できる |
-| エ | 正 | 双方表題登記のない土地どうしは筆界特定の対象にならない |
-| オ | 誤 | 筆界確定訴訟が係属中でも筆界特定の申請はできる |
+- **ア（正）** 1点のみで接する土地どうしは筆界特定の対象にならない
+- **イ（正）** 表題登記のない土地の所有者は所有権を有することを証する情報が必要
+- **ウ（誤）** 時効取得した部分が対象筆界に接していなくても申請できる
+- **エ（正）** 双方表題登記のない土地どうしは筆界特定の対象にならない
+- **オ（誤）** 筆界確定訴訟が係属中でも筆界特定の申請はできる
 
 対象土地の要件（筆界で相互に接する2筆）と、訴訟係属中でも申請を妨げないという2点を正確に押さえられたかがこの問題の決め手です。
 
@@ -88,7 +86,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「対象土地の要件」（ア・ウ・エ）と「申請手続きの要件」（イ・オ）の2系統に分け、誤りの肢（ウ・オ）は本来の正しいルールに直したうえで、5つの原則を1枚で俯瞰できる構成にした。
+筆界特定について「対象土地の要件」と「申請手続きの要件」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -98,6 +96,17 @@ modern explainer-graphic aesthetic (icons: isometric land plots, boundary
 lines, torn-paper labels, courthouse and registry-office buildings, etc.
 — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -105,87 +114,95 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 筆, 界, 権, 地, 登, 記, 所 — render each in its standard Japanese
+kanji 筆・界・権・地・登・記・所 — render each in its standard Japanese
 (Jōyō) form, never as a Simplified Chinese variant.
 
 --- HEADER ---
 Title (large, bold, 2行):
-令和6年度 第19問
-筆界特定の要件
+筆界特定、対象土地の要件と
+申請の可否を整理する
 
 Subtitle (smaller, centered, 1行):
-対象土地の要件と、申請の可否を五肢で整理する
+令和6年度 午後の部 第19問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Two adjacent land plots (甲土地 and 乙土地) viewed from
-above in isometric style, drawn with a dotted boundary line and small
-round points marking the 筆界(boundary), with a magnifying glass icon
-hovering over the boundary line
-筆界特定の分野は、「筆界」とは何かという定義から出発すると理解しやすくなります。筆界は表題登記がある1筆の土地とこれに隣接する土地との境を指すため、対象土地の要件と、申請人の適格をセットで押さえるのがコツです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 対象土地の要件
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
+Badge: a filled green circle containing the number 1 (numbers run
+continuously through all 5 cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
 1点だけ接する土地は対象外
 Illustration: Isometric aerial view of two land plots, with a 甲土地
 label on one plot and a 乙土地 label on the adjacent plot, touching only
 at a single corner point marked with a red circle and an X mark, a
-speech-bubble-style label reading 筆界なし near the touching point
-Caption (small text below):
-1点のみで接する土地どうしは筆界特定の対象にならない
+small label reading 筆界なし near the touching point.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+筆界にならない
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-時効取得した部分は筆界に接していなくてもよい
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+時効取得部分は隣接不要でも可
 Illustration: Isometric plot of 乙土地 divided into two sections, one
 section highlighted with a torn-paper label reading 時効取得, an arrow
 connecting the owner figure of that section to a separate boundary line
-shared with 甲土地 elsewhere on the same plot, with a checkmark icon
-Caption (small text below):
-時効取得した部分が対象筆界に接していなくても、甲土地との筆界について申請できる
+shared with 甲土地 elsewhere on the same plot, with a green checkmark
+icon.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請できる
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-未登記どうしの境は筆界にならない
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+双方未登記なら筆界不成立
 Illustration: Isometric view of a water channel (水路) and a road (道路)
 lying side by side, each with a torn-paper label reading 表題登記なし,
 the shared boundary line drawn as a faded dashed line with a label
-reading 筆界不成立
-Caption (small text below):
-双方に表題登記がない場合、両者の間には筆界という概念が成立しない
+reading 筆界不成立.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+対象外になる
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 申請手続きの要件
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-未登記土地の所有者は所有権の証明が必要
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously — this is card 4, following cards 1-3 in column A).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+未登記の所有者は証明書が必要
 Illustration: Isometric figure representing the owner of a 未登記の甲土地
 holding a document icon labeled 所有権を証する情報, standing next to a
-stamp icon, facing an adjacent plot labeled 表題登記のある乙土地
-Caption (small text below):
-表題登記のない土地の所有者は、所有権を有することを証する情報を提供しなければならない
+stamp icon, facing an adjacent plot labeled 表題登記のある乙土地.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所有権の証明必須
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
 訴訟係属中でも申請できる
 Illustration: Isometric courthouse building icon on one side labeled
 筆界確定訴訟係属中, connected by a dotted line to a registry office
-building icon on the other side labeled 筆界特定の申請, with a checkmark
-icon between them
-Caption (small text below):
-民事訴訟の手続により筆界の確定を求める訴えが係属していても、筆界特定の申請をすることができる
+building icon on the other side labeled 筆界特定の申請, with a green
+checkmark icon between them.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+申請は可能
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Pay particular
-attention to 筆, 界, 権, 地, 登, 記, 所 — if any character renders as a
+attention to 筆・界・権・地・登・記・所 — if any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated
-or missing cards, and that no card heading or caption text has been
-paraphrased, translated, or altered from the exact strings given above.
+form. Confirm the number of cards equals 5 exactly, with badge numbers
+running 1-5 continuously across both columns without resetting (3 cards
+in column A: 対象土地の要件, 2 cards in column B: 申請手続きの要件), with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

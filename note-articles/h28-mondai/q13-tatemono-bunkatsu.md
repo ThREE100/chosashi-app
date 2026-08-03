@@ -83,13 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の分割の登記をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+「申請できるか・添付情報は」と「登記記録に何が記録されるか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings splitting apart, mortgage tags, registry record cards, documents — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric buildings splitting
+apart, mortgage tags, application documents, registry record cards, etc.
+— adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,61 +111,86 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 権・建・物・登・記・録・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-建物を分けても、
-抵当権は消えない
+Title (large, bold, 1行):
+建物を分けても、抵当権は消えない
 
 Subtitle (smaller, centered, 1行):
-承諾・添付情報・代位・記録方法・転写を整理(平成28年度 午後の部 第13問)
+平成28年度 午後の部 第13問－申請要件と登記記録の扱いを整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric main building(甲建物)splitting off its attached附属建物 into a separate building(乙建物), with a small 抵当権 tag shown following one side of the split.
-抵当権消滅の承諾、共用部分の添付情報、代位申請、不動産所在事項の記録方法、所有権登記の転写という5つの場面を通じて、建物の分割の登記を整理します。
---- CARD 1 ---
-Heading (bold):
-承諾があれば、抵当権は片方だけに残せる
-Illustration: An isometric 抵当権 tag attached to both 甲建物 and 乙建物 before splitting; after a glowing 承諾情報 stamp is applied, the tag remains only on 甲建物 while the tag on 乙建物 fades away.
-Caption (small text below):
-抵当権者の消滅承諾情報の提供があれば、分割後は一方の建物のみに抵当権を存続させられる。
---- CARD 2 ---
-Heading (bold):
-共用部分の登記があっても、所有者証明は必要
-Illustration: An isometric building stamped 共用部分である旨の登記, still requiring a document icon labeled 建物の所有者を証する情報 to be submitted, marked with a checkmark rather than being skipped.
-Caption (small text below):
-甲建物に共用部分である旨の登記があっても、建物の所有者を証する情報の添付は必要。
---- CARD 3 ---
-Heading (bold):
-附属建物を取得した人は、代位で申請できる
-Illustration: An isometric figure who purchased only the附属建物(highlighted in a bright color)submitting an application marked 代位により on behalf of the passive registered owner of 甲建物 standing beside it.
-Caption (small text below):
-附属建物の所有権を取得した者は、甲建物の所有権登記名義人に代位して分割登記を申請できる。
---- CARD 4 ---
-Heading (bold):
-所在の変更は、変更前・変更後をセットで記録
-Illustration: An isometric registry record card showing three fields filled in together: 変更前の事項(with a strike-through mark), 分割により変更した旨, and 変更後の事項.
-Caption (small text below):
-分割による不動産所在事項の変更時は、変更後の事項・変更した旨・変更前事項の抹消記号を記録する。
---- CARD 5 ---
-Heading (bold):
-所有権登記が先にあると、転写ではなく新規で記録
-Illustration: An isometric timeline showing 所有権登記(先)→ 附属建物の新築(後)→ 分割, with the resulting乙建物's registry record stamped 分割による所有権の登記 instead of a plain 転写 arrow.
-Caption (small text below):
-所有権登記後に新築された附属建物を分割する場合、所有権登記は転写されず、分割による所有権登記である旨が記録される。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請できるか・添付情報は
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+共用部分でも所有者証明は必要
+Illustration: An isometric building stamped "共用部分である旨の登記", still
+requiring a document icon labeled "建物の所有者を証する情報" to be
+submitted, marked with a green checkmark rather than being skipped.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+証明省略は不可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物の取得者も代位で申請可
+Illustration: An isometric figure who purchased only the "附属建物"
+(highlighted in a bright color) submitting an application marked
+"代位により" on behalf of the passive registered owner of "甲建物"
+standing beside it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位申請できる
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+登記記録に何が記録されるか
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+承諾があれば抵当権は片方に残る
+Illustration: An isometric "抵当権" tag attached to both "甲建物" and
+"乙建物" before splitting; after a glowing "承諾情報" stamp is applied, the
+tag remains only on "甲建物" while the tag on "乙建物" fades away.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+片方だけ存続
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+所在変更は前後をセットで記録
+Illustration: An isometric registry record card showing three fields
+filled in together: "変更前の事項" (with a strike-through mark), "分割に
+より変更した旨", and "変更後の事項".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+変更前後を記録
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有権登記が先なら転写でなく新規記録
+Illustration: An isometric timeline showing "所有権登記(先)" →
+"附属建物の新築(後)" → "分割", with the resulting "乙建物" registry record
+stamped "分割による所有権の登記" instead of a plain "転写" arrow.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+転写でなく新規
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第13問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -85,13 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の合併の登記をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。R04年度第16問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
+「申請できるか・要件は」と「添付書類は何が要るか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。R04年度第16問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric merging buildings, family trees, address tags, seals, floor-plan drawings — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric merging buildings,
+family trees, address tags, apartment units, floor-plan drawings, seal
+stamps, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,61 +113,85 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 建・物・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-「所有者が死んだ」だけでは
-合併登記は止まらない
+Title (large, bold, 1行):
+「所有者が死んだ」だけでは合併登記は止まらない
 
 Subtitle (smaller, centered, 1行):
-相続・住所不一致・区分合併・図面・印鑑証明を整理(平成28年度 午後の部 第14問)
+平成28年度 午後の部 第14問－合併登記の要件と添付書類を整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Two isometric buildings(甲建物・乙建物)merging into a single building(合併), with a small family-tree icon(相続人)standing beside them.
-相続登記の要否、住所の不一致、区分合併の要件、合併後の図面、表題部所有者の印鑑証明という5つの場面を通じて、建物の合併の登記を整理します。
---- CARD 1 ---
-Heading (bold):
-相続登記なしでも、相続人が合併登記できる
-Illustration: An isometric deceased registered-owner figure fading away, with an arrow going directly to heir figures submitting a 合併登記 application, skipping over a crossed-out 相続登記 step in between.
-Caption (small text below):
-表示に関する登記は相続登記を経なくても、相続人が被相続人名義のまま合併登記を申請できる(不動産登記法30条)。
---- CARD 2 ---
-Heading (bold):
-住所が食い違ったままでは、合併できない
-Illustration: Two isometric buildings with mismatched address tags for the same owner(旧住所 vs 新住所), and a document icon labeled 住所の変更を証する情報 with a prohibition mark stamped 合併不可 over it.
-Caption (small text below):
-甲乙の登記記録上の住所が一致していなければ、住所変更を証する情報を提供しても合併できない。
---- CARD 3 ---
-Heading (bold):
-区分合併は、仲良し(効用上一体)じゃなくてもいい
-Illustration: Two isometric adjacent apartment units(区分建物)merging together, with a crossed-out 効用上一体 requirement icon floating beside them, keeping only glowing 同一名義人・接続 checkmarks.
-Caption (small text below):
-区分合併は所有権登記名義人が同一で互いに接続していれば足り、効用上一体の関係は不要(不動産登記規則133条)。
---- CARD 4 ---
-Heading (bold):
-床面積が同じでも、合併後の図面は必ず作る
-Illustration: Two isometric buildings merging with a fresh 各階平面図 being actively drawn, despite a 床面積変更なし label nearby, and a crossed-out 省略可 stamp.
-Caption (small text below):
-従来の各階平面図の床面積に変更がなくても、合併後の各階平面図の添付は省略できない(不動産登記令別表16項添付情報イ)。
---- CARD 5 ---
-Heading (bold):
-表題部所有者なら、印鑑証明はいらない
-Illustration: An isometric 表題部所有者 figure submitting an application with a 印鑑に関する証明書 icon crossed out as unnecessary, contrasted with a 所有権登記名義人 figure beside it who does need to submit one.
-Caption (small text below):
-表題部所有者が合併登記を申請するときは、印鑑に関する証明書の添付は不要。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請できるか・要件は
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続登記なしでも相続人が申請可
+Illustration: An isometric deceased registered-owner figure fading away,
+with an arrow going directly to heir figures submitting a "合併登記"
+application, skipping over a crossed-out "相続登記" step in between.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+相続登記は不要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+住所が食い違うと合併できない
+Illustration: Two isometric buildings with mismatched address tags for
+the same owner ("旧住所" vs "新住所"), and a document icon labeled
+"住所の変更を証する情報" with a prohibition mark stamped "合併不可" over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+住所一致が前提
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分合併は効用上一体でなくてよい
+Illustration: Two isometric adjacent apartment units ("区分建物") merging
+together, with a crossed-out "効用上一体" requirement icon floating
+beside them, keeping only glowing "同一名義人"・"接続" checkmarks.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+効用上一体は不要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+添付書類は何が要るか
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+床面積同じでも合併後の図面は必要
+Illustration: Two isometric buildings merging with a fresh "各階平面図"
+being actively drawn, despite a "床面積変更なし" label nearby, and a
+crossed-out "省略可" stamp.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+図面省略は不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題部所有者は印鑑証明書不要
+Illustration: An isometric "表題部所有者" figure submitting an application
+with a "印鑑に関する証明書" icon crossed out as unnecessary, contrasted
+with a "所有権登記名義人" figure beside it who does need to submit one.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+印鑑証明は不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第14問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

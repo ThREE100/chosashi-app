@@ -78,3 +78,125 @@
 - 三角点の位置まで、地図に載っているんです
 - 地図の閲覧、実は誰でもできちゃうんです
 - 縮尺は地域ごとに変わるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地図（17条地図）について、「地図の作成・記録に関するルール」と「地図の訂正・閲覧の手続に関するルール」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land parcels with
+boundary lines, rice-paddy and forest landscape panels, triangulation
+survey markers, registry desks, document clips, torn paper labels, etc.
+— adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 図・縮・尺・訂・正・積・錯・誤・閲・覧 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地図って結局、誰が見られるの？
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第5問－地図の作成基準と閲覧のルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+地図の作成・記録内容
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+地図は区画と地番を明示
+Illustration: An isometric grid of land parcels, each with a clear
+boundary line and a small tag showing a 地番（例："123番"）on it,
+demonstrating that each parcel's shape and number are clearly shown.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+区画・地番を明確化
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+田畑地域は2,500分の1ではない
+Illustration: Two isometric landscape panels side by side. The left
+panel shows rice paddies and fields labeled "田・畑" with a tag
+"500分の1・1,000分の1" and a green checkmark. The right panel shows
+forest and wasteland labeled "山林・原野" with a tag "2,500分の1" and a
+green checkmark. A red X connects the "田・畑" panel to the
+"2,500分の1" tag, showing that combination is wrong.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+山林原野の縮尺
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+地図には基本三角点も記録
+Illustration: An isometric land-map panel with a small triangular survey
+marker icon（基本三角点）placed at one corner of the map, connected by a
+short line to a label "位置を記録".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+三角点も記録
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+地図の訂正・閲覧の手続
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積の錯誤は更正登記と併せて申出
+Illustration: An isometric registry desk. A person submits two documents
+together — one labeled "地図訂正の申出" and one labeled "地積の更正登記
+の申請" — clipped together with a paperclip icon, showing they must be
+filed as a set.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+同時に手続き
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+地図の閲覧は誰でも請求できる
+Illustration: A row of varied isometric people figures — a landowner, a
+mortgage holder, a neighboring landowner, and an unrelated third party
+with no connection to the land — all standing at a registry counter
+requesting "地図の閲覧", each shown with a green checkmark. A sign
+reading "利害関係が必要" is crossed out with a red X above the counter.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+利害関係不要
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

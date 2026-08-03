@@ -79,3 +79,123 @@
 - 質問するにも、登記官の許可がいるんです
 - 承諾があれば、日出前でも立ち入れるんです
 - 結果が出る前でも、資料は閲覧できるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+筆界特定について「対象土地の調査に関するルール」（ア・イ・エ＝列A・緑）と「手続中に認められる権利」（ウ・オ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。誤りの肢（ア・ウ・オ）は、いずれも正しいルールに直した内容だけを図解する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric adjoining land
+parcels with a boundary flag, magnifying glass, surveying equipment,
+fenced private land, hearing-room desks, document/dossier files, an
+officer character with an official stamp, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 筆・界・権・測・量・査・許・覧・登・記 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定は「所有権の境界」を決めるものじゃないんです
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第19問－筆界特定の調査ルールと関係人の権利
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+対象土地の調査に関するルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+筆界特定は所有権の境界を決めない
+Illustration: 隣接する2つの土地区画を描き、境界線上に「筆界」ラベル付きの
+旗と虫眼鏡アイコンを添える。傍らに「所有権の境界」という吹き出しに赤い
+✕マークを添え、代わりに裁判所アイコンへ矢印で「別途、訴訟等で解決」の
+小さなラベルを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+所有権は決めない
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+立会いなしでも測量・調査は進む
+Illustration: 筆界調査委員が土地に測量機材を構えている図を描く。通知書
+アイコンに「日時・場所を通知済み」のラベルを添え、申請人・関係人の人影は
+点線の輪郭で不在を示すが、調査委員には緑のチェックマークと「測量を継続」
+のラベルを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+通知済みなら実施可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+承諾があれば日出前でも立入可
+Illustration: 柵で囲まれた他人の土地を描き、占有者が「承諾」の書類を
+差し出している図を添える。空には夜明け前を示す月と薄明かりのグラデー
+ションを描く。筆界調査委員が柵を越えて立ち入る図に緑のチェックマークを
+添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+占有者の承諾があれば可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+手続中に認められる権利
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+質問には登記官の許可が必要
+Illustration: 意見聴取の場を描き、筆界調査委員が申請人に質問しようとする
+吹き出しの手前に、筆界特定登記官のキャラクターが許可スタンプを押している
+図を添える。許可スタンプなしで質問する矢印には赤い✕マークを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記官の許可が必要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+特定される前でも調書は閲覧できる
+Illustration: 手続進行中を示す進捗バー（途中の位置）の下で、関係人が
+調書・資料のファイルを開いて閲覧している図を描き、緑のチェックマークを
+添える。「筆界特定前は閲覧不可」という看板に赤い✕マークを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+手続中でも閲覧可
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

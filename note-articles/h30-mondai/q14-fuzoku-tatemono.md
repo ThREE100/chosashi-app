@@ -84,16 +84,28 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-附属建物の登記記録の書き方について、新築日の記録省略・「同上」不可・変更登記の抹消範囲・地番の記録順・区分建物の場合の記録省略という5つのルールを、1列に並んだ5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+附属建物の登記記録の書き方について、新築日の記録省略・「同上」不可・変更登記の抹消範囲・地番の記録順・区分建物の場合の記録省略という互いに独立した5つのルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric house and small
 outbuilding shapes, wooden number tags, ledger/register book pages,
 calendar icons, prohibition (no-entry) marks, arrows, land-plot squares,
-apartment building block with room doors, torn-paper labels).
+apartment building block with room doors, torn-paper labels — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,9 +114,9 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・符・棟・変・更, which have
-Simplified Chinese look-alike forms with visibly different stroke shapes —
-always draw the standard Japanese (Jōyō) form of these characters.
+kanji 号・録・権・地・番・建・物・登・記・所・符・棟・変・更 — these must
+be rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -112,23 +124,15 @@ Title (large, bold, 2行):
 符号は残す、重複は書かない
 
 Subtitle (smaller, centered, 1行):
-新築日・「同上」・変更登記・所在欄・区分建物の記録ルールを整理(平成30年度 午後の部 第14問)
+平成30年度 午後の部 第14問－新築日・「同上」・変更登記・所在欄・区分建物の記録ルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a large
-house shape labeled "主である建物" connected by a thin dotted line to a
-smaller outbuilding shape labeled "附属建物"、with a small wooden tag
-reading "符号1" attached to the outbuilding, and an open ledger book page
-icon labeled "表題部" beside them, to show that the outbuilding's details
-are recorded on the same register page as the main building.
-附属建物の論点というと「効用上の一体性」という実体要件が有名ですが、この
-問題が問うのはもう一歩進んだ「登記記録への書き方の作法」です。新築日・
-「同上」表記・変更登記の抹消範囲・所在の記録順・区分建物の場合の扱いと
-いう、細かいけれど得点源になる論点を一つずつ整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-新築日が主建物と同日なら、記録は不要
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+同日新築なら日付記録は不要
 Illustration: An isometric house labeled "主である建物" with a calendar
 icon showing a checkmark and the label "新築日 同一"、next to a smaller
 outbuilding labeled "附属建物"。A blank ledger line next to the
@@ -136,54 +140,52 @@ outbuilding reading "原因及びその日付" has a red prohibition (no-entry)
 circle-slash mark overlaid on it, with a thin dotted arrow from the
 main building's calendar to the outbuilding to show the date does not
 need to be repeated.
-Caption (small text below):
-附属建物の新築の日が主である建物と同一であるときは、附属建物の表示欄の
-原因及びその日付欄の記録を要しない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+日付記録は不要
 
 --- CARD 2 ---
-Heading (bold):
-同一内容でも「同上」ではなく、そのまま記録する
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+「同上」ではなく内容を記録
 Illustration: An isometric open ledger book page showing two outbuilding
 entries side by side, one tagged "符号1" and one tagged "符号2"、both
 identical small storage-shed icons. Each entry has its own full text
 block reading "木造平屋建" written out separately under both tags. Next
 to the 符号2 entry, the word "同上" is shown crossed out with a red
 prohibition (no-entry) circle-slash mark.
-Caption (small text below):
-附属建物は変更・更正登記の際に符号を除く登記事項の全部が抹消されるため、
-「同上」と略記することはできない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+「同上」は使えない
 
 --- CARD 3 ---
-Heading (bold):
-種類変更登記では、符号を除く従前の記録が全部抹消される
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+種類変更でも符号だけは残る
 Illustration: An isometric ledger book page with a wooden tag labeled
 "符号1" that stays fixed in place (highlighted with a small green check
 mark), while below it the old text "種類：物置" has a red strikethrough
 line through it, and new text "種類：車庫" is being written in beside it
 with a pencil icon, showing the tag is kept while the content underneath
 is replaced.
-Caption (small text below):
-附属建物の種類に関する変更・更正登記をする場合、変更後の種類・構造・
-床面積が記録され、符号を除く従前の登記事項の全部が抹消される
-(準則94条1項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+符号は残る
 
 --- CARD 4 ---
-Heading (bold):
-地番が異なる附属建物の土地の地番も、後ろに記録される
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地番が違っても後ろに記録
 Illustration: Two adjacent isometric land-plot squares, the left one
 labeled "10番" with a house icon labeled "主である建物" on it, the right
 one labeled "11番" with a small underground garage icon labeled "附属
 建物(地下車庫)" on it. Below them, a ledger label strip reading
 "所在欄" shows the text "10番" followed by an arrow then "11番",
 indicating both numbers are recorded in that order.
-Caption (small text below):
-主である建物の存する土地の地番と附属建物の存する土地の地番とが異なる
-場合、主である建物の地番を先に、附属建物の存する土地の地番を後に、
-いずれも所在欄に記録される。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+地番は記録される
 
 --- CARD 5 ---
-Heading (bold):
-同一の一棟に属する区分建物なら、一棟の表示は書かない
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+同一棟内なら一棟表示は不要
 Illustration: An isometric apartment building block (一棟の建物) with
 two highlighted room units inside: one labeled "301号室(主である建物)"
 carrying a small info tag reading "一棟の所在・構造・床面積"、and another
@@ -191,21 +193,18 @@ labeled "地下倉庫(附属建物)" whose matching info tag has a red
 prohibition (no-entry) circle-slash mark overlaid on it, with a thin
 dotted line connecting the two rooms to show they share the same
 building record.
-Caption (small text below):
-附属建物が主である建物と同一の一棟の建物に属する区分建物である場合、
-一棟の建物の所在・構造・床面積を重ねて記録することを要しない
-(準則89条)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+重複記録は不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成30年度 午後の部 第14問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・符・棟・変・更. If
-any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the number of cards
-equals 5 exactly, with no duplicated or missing cards, and confirm every
-heading, illustration label, and caption text matches the Japanese text
-given above verbatim, with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

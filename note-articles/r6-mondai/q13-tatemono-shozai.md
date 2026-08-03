@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 行政区画の名称変更は登記官の職権による処理であり申請義務はない |
-| イ | 誤 | 規約敷地の地番は一棟の建物の所在欄には記録されない |
-| ウ | 正 | 仮換地上の建物は、現に存する土地の地番を所在として提供する |
-| エ | 正 | 桟橋上の建物は、最も近い土地の地番で「何番地先」と記録する |
-| オ | 正 | 主建物と同一棟の附属区分建物は所在地番の記載を省略できる |
+- **ア（誤）** 行政区画の名称変更は登記官の職権による処理であり申請義務はない
+- **イ（誤）** 規約敷地の地番は一棟の建物の所在欄には記録されない
+- **ウ（正）** 仮換地上の建物は、現に存する土地の地番を所在として提供する
+- **エ（正）** 桟橋上の建物は、最も近い土地の地番で「何番地先」と記録する
+- **オ（正）** 主建物と同一棟の附属区分建物は所在地番の記載を省略できる
 
 建物の所在のルールは、場面ごとに「誰が動くか(職権か申請か)」「どの地番を使うか」を切り分けて覚えるのがコツです。
 
@@ -86,7 +84,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の所在に関する5つの記述(行政区画変更・規約敷地・仮換地・桟橋・附属区分建物)を、「誰が動くか(職権か申請か)」「どの地番を使うか」の2軸に整理し、1枚で俯瞰できる構成にした。
+建物の所在に関する5つの記述(行政区画変更・規約敷地・仮換地・桟橋・附属区分建物)を、「誰が動くか(職権か申請か)」と「どの地番を使うか」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成(導入イラスト・導入文のブロックは置かない)。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -97,103 +95,109 @@ plots, official stamps, torn paper labels, a pier/dock, an apartment
 building cross-section, land-readjustment plots — adapt icon set to
 the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Pay special
-attention to the kanji 号・録・権・地・番・建・物・登・記・所, which have
-Simplified Chinese variants that look similar but are incorrect — always
-render the standard Japanese (Jōyō) form. Reproduce the exact text strings
-given below verbatim — do not paraphrase, translate, summarize, or
-substitute any characters.
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-建物の所在の記録ルール
+建物の所在、どう記録する?
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第13問
+令和6年度 午後の部 第13問－誰が動く?どの地番を使う?
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: A building standing on a land plot, with a highlighted
-label showing its 地番(lot number), and small icons around it hinting
-at special situations (a city-hall stamp, a fenced-off parcel, a pier,
-an apartment cross-section) radiating outward from the main building.
-建物の所在は、原則として建物が存する土地の地番で表しますが、行政区画の
-変更・仮換地・桟橋・区分建物といった特殊な場面ごとに、それぞれ独自の
-記録ルールが定められています。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 誰が動くか(職権か申請か)
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-行政区画の名称変更は、登記官の職権で処理され申請不要
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+行政区画変更は職権で処理
 Illustration: A city hall building with a sign changing from an old
 town name to a new town name (municipal merger), and next to it an
 isometric 登記官(registrar) stamping a document with an official seal.
-The building owner is shown standing idle, doing nothing. A label
-reads「登記官の職権により処理」and another reads「所有者の申請は不要」。
-Caption (small text below):
-行政区画またはその名称の変更があった場合は、変更登記があったものと
-みなされ、所有者に申請義務は課されない(規則92条)。
+The building owner is shown standing idle, doing nothing, next to a
+document labeled "申請" with a red cross mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請不要・職権で処理
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 どの地番を使うか(申請時の記載ルール)
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-規約敷地の地番は、一棟の建物の所在欄には記録されない
+--- COLUMN B, CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約敷地の地番は所在欄に無し
 Illustration: An isometric apartment building standing on its 法定敷地
 (the land it actually stands on, labeled with its 地番), with a
 separate parking-lot parcel nearby labeled「規約敷地」connected by a
 dashed line and a torn-paper label reading「所在欄には記録されない」。
-Caption (small text below):
-一棟の建物の所在欄に記録されるのは法定敷地の地番のみで、規約によって
-敷地とされた土地(規約敷地)の地番は記録されない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所在欄には非記録
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-仮換地上に新築した建物は、現に存する土地の地番を所在とする
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮換地上の建物は現地地番
 Illustration: An isometric land-readjustment site divided into grid
 parcels, with a newly built house standing on one parcel labeled with
 its 地番(the plot the building currently stands on), and a small
 parenthetical label beside it reading「(換地予定地番を併記)」。
-Caption (small text below):
-表題登記の所在欄には、建物が現に存する(仮換地の)土地の地番を提供する
-(昭43.2.14民甲170号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+現に存する地番
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-桟橋上の建物の所在は、最も近い土地の地番で「何番地先」と記録
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+桟橋上の建物は「何番地先」
 Illustration: An isometric pier extending from the coastline over the
 sea, with a small building standing on the pier. A dashed arrow points
 from the nearest land parcel (labeled with its 地番) out to the
 building, with a label reading「◯番地先」。
-Caption (small text below):
-永久的な施設である桟橋上または固定した浮舟上の建物は、最も近い土地の
-地番を用いて「何番地先」のように記録する(準則88条4項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+最も近い地番
 
---- COLUMN B, CARD 4 ---
-Heading (bold):
-主建物と同一棟の附属区分建物は、所在地番の記載を省略できる
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+同一棟の附属区分建物は記載省略
 Illustration: An isometric cross-section of one apartment building
 showing two units side by side: the 主である建物(main unit, highlighted)
 and an 附属建物(annex unit, same building), with a torn-paper label on
 the annex unit reading「所在地番の記載は不要」。
-Caption (small text below):
-区分建物は一棟の建物の所在のみが記録されるため、主である建物と同一の
-一棟の建物に属する附属建物(区分建物)は、所在地番を申請情報の内容と
-する必要はない(法44条1項1号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+記載省略できる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially for
-号・録・権・地・番・建・物・登・記・所. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly (1 card in
-Column A, 4 cards in Column B), with no duplicated or missing cards.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -83,7 +83,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-共用部分の登記をめぐる5つの論点を「証明情報が必要な場面」と「義務・全員・氏名は不要な場面」の2列に分け、正しいルールだけを5枚のカードで俯瞰できる構成にした。
+共用部分の登記に関する5肢を、「証明情報が必要な場面」と「義務・全員・氏名は不要な場面」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -93,92 +93,104 @@ modern explainer-graphic aesthetic (icons: isometric apartment building
 cross-section, stamped documents, keys, torn paper labels, etc. — adapt
 icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Pay special
-attention to the following kanji, which are easy to mistake for their
-Simplified Chinese look-alikes: 号・録・権・地・番・建・物・登・記・所・共・
-用・部・抵・当・証・規・約・棟。Reproduce the exact text strings given below
-verbatim — do not paraphrase, translate, summarize, or substitute any
-characters.
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・共・用・部・抵・当・証・規・
+約・棟 — these must be rendered in their standard Japanese forms, never
+as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-共用部分の登記
-承諾がいる場面・いらない場面
+Title (large, bold, 1行):
+共用部分の登記、承諾がいる場面・いらない場面
 
 Subtitle (smaller, centered, 1行):
-令和7年度　午後の部　第15問／正解：ア・ウの組合せ
+令和7年度 午後の部 第15問－証明情報の要否と申請の要件
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: マンションの断面図イラスト。中央に「共用部分」とラベルの付いた
-管理人室の建物アイコン。そこから左右に矢印が伸び、左側は書類とスタンプの
-アイコン(証明情報が必要)、右側はカレンダーや氏名バッジにバツ印のアイコン
-(義務・全員・氏名は不要)へつながる、天秤のような左右対称の構図。
-建物を「共用部分」にするということは、その建物の独立した所有権や担保権の扱いを大きく変えることです。既存の権利者にどんな影響が及ぶかを軸に見ていきましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 証明情報が必要な場面
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-抵当権がついてるなら、承諾もらってからです
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+抵当権者の承諾が必要
 Illustration: 抵当権の登記済みの建物アイコン(赤い印鑑・スタンプが押された
 証書)から、共用部分の建物アイコンへ変化する矢印。間に「承諾書」の書類
 アイコンと、天秤(裁判)のアイコンを並べる。
-Caption (small text below):
-抵当権付き建物を共用部分にするには抵当権者の承諾等の情報が必要
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾が必要
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-所有者がいなくても、証明はちゃんといります
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物分割にも所有者証明
 Illustration: 「共用部分」ラベルの付いた甲建物アイコンから、附属建物(倉庫の
 アイコン)が切り離されて乙建物になるイラスト。切り離しの矢印のそばに
 「所有者を証する情報」とラベルの付いた書類アイコン。
-Caption (small text below):
-共用部分の附属建物を分割するには甲建物の所有者証明情報が必要
+Conclusion tag (green banner below the illustration, 5-15 characters):
+証明書は必要
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 義務・全員・氏名は不要な場面
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-規約ができても、1か月の締め切りはなし
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約設定に1か月の期限なし
 Illustration: 規約の書類アイコンの隣に、カレンダーアイコンと大きな赤い
 バツ印。吹き出しに「申請義務なし」の短いラベル。
-Caption (small text below):
-規約が定められても1か月以内の申請義務はない
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+申請義務なし
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-共有でも、全員そろわなくて大丈夫
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+共有でも全員申請は不要
 Illustration: 複数人のアイコン(共有者)が並ぶ中、一部の人物にだけチェック
 マークが付き、残りの人物はグレーアウトしている構図。書類アイコンに
 「申請」のラベル。
-Caption (small text below):
-共有建物でも共有者全員での申請が必須とは限らない
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+全員でなくて可
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-他棟の名前は不要でも、家屋番号は書きます
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+氏名は不要でも家屋番号は必要
 Illustration: 甲棟と乙棟、2棟のアイソメトリックな建物アイコンを並べ、
-乙棟側の人物アイコンから氏名バッジへ伸びる矢印に大きな赤いバツ印。
-その隣に、乙棟の建物アイコンから「家屋番号」のプレートへ伸びる矢印には
-緑のチェックマークを付け、氏名は不要でも家屋番号は必要であることを示す。
-Caption (small text below):
-他棟の共用する区分所有者の氏名は不要だが、その所有建物の家屋番号は
-申請情報として提供する必要がある
+乙棟側の人物アイコンから氏名バッジへ伸びる矢印に大きな赤いバツ印。その隣に、
+乙棟の建物アイコンから「家屋番号」のプレートへ伸びる矢印には緑のチェック
+マークを付け、氏名は不要でも家屋番号は必要であることを示す。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+家屋番号は必要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay particular
-attention to 号・録・権・地・番・建・物・登・記・所・共・用・部・抵・当・証・
-規・約・棟 and redraw any character that renders as a Simplified Chinese
-variant. Confirm the number of cards equals 5 exactly, with no duplicated
-or missing cards, and that each heading/caption text matches the Japanese
-strings given above verbatim with no paraphrasing.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

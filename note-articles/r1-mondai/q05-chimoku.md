@@ -87,15 +87,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-地目の認定について、施設・用途に着目する地目3枚・生育物や耕作に着目する地目2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+地目の認定について、「施設・用途に着目する地目」と「生育物・耕作に着目する地目」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric gas station pumps,
 swimming pools, water pipes, rice paddies, forested hillsides — adapt
 icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,8 +114,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to
-standard Japanese (Jōyō) form of these characters: 地・建・号.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・建・号・雑 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -112,88 +124,81 @@ Title (large, bold, 2行):
 プールと竹木で差がつく準則の当てはめ
 
 Subtitle (smaller, centered, 1行):
-施設で決まる地目・育つ物で決まる地目(令和元年度 午後の部 第5問)
+施設で決まる地目・育つ物で決まる地目－令和元年度 午後の部 第5問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric composite scene with small vignettes arranged
-around a central pill-shaped label reading "地目": a fuel pump icon, a
-swimming pool icon, a water pipe icon, a rice paddy icon, and a
-forested hillside icon.
-地目の認定は、準則に列挙された定義に土地の現況を当てはめる作業です。
-宅地に接続するかどうか、生えているのが竹木か雑草かといった細部の
-違いで、同じような土地でも地目が変わります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 施設・用途に着目する地目
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-ガソリンスタンドは、附随的な事務所を含めて全体が雑種地
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+ガソスタは事務所ごと雑種地
 Illustration: An isometric gas station scene with fuel pump icons, car
 icons, and a small office building icon, all enclosed within a single
 dotted boundary labeled "雑種地(一団として)".
-Caption (small text below):
-給油設備の敷地に附随的な事務所が建っていても、事務所部分だけを
-切り分けず、敷地全体を雑種地として認定する。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一団として雑種地
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-宅地に接続する屋外プールは、雑種地ではなく宅地
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+宅地に接続するプールは宅地
 Illustration: An isometric house icon labeled "宅地" with an outdoor
 swimming pool directly attached to it with no gap, both enclosed in one
 dotted boundary labeled "宅地". A separate, detached pool icon further
 away is labeled "雑種地" for contrast.
-Caption (small text below):
-プールは宅地に接続するものは宅地、接続しないものは雑種地として扱う
-(準則69条9号)。本問のプールは宅地に接続するため宅地。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+接続すれば宅地
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-給水目的の水路の敷地は、水道用地
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+給水目的の水路は水道用地
 Illustration: An isometric water infrastructure scene showing a取水口
 (intake)icon connected via a canal icon to a浄水場(water treatment
 plant)icon, with the connecting waterway highlighted and labeled
 "水道用地".
-Caption (small text below):
-専ら給水の目的で敷設された取水口から浄水場までの水路の用に供する
-土地は、水道用地である(準則68条15号)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+取水口から水道用地
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 生育物・耕作に着目する地目
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-用水を利用してわさびを肥培管理する土地は、田
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+わさびを育てる土地は「田」
 Illustration: An isometric terraced わさび田(wasabi paddy)icon with
 flowing water channels and green わさび plants growing in shallow water,
 labeled "田".
-Caption (small text below):
-田とは用水を利用して耕作する農耕地をいう。わさびを肥培管理する土地
-もこれにあたり、地目は田である(準則68条1号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+用水利用で田
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-竹木が生育する土地は、原野ではなく山林
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+竹木が生える土地は山林
 Illustration: An isometric hillside covered with tall trees labeled
 "竹木", labeled overall "山林", beside a smaller contrasting patch
 showing only grass and low shrubs labeled "雑草・かん木" and labeled
 overall "原野", with a crossed-out arrow between the two to show 竹木の
 土地を原野とするのは誤り.
-Caption (small text below):
-耕作の方法によらず竹木が生育する土地は山林、雑草・かん木類が生育
-する土地が原野である(準則68条9号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+原野ではない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度 午後の部 第5問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 地・建・号. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly (3 cards under 施設・用途
-に着目する地目, 2 cards under 生育物・耕作に着目する地目), with no
-duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

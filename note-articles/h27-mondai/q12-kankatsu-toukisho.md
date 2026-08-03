@@ -79,3 +79,133 @@
 - 附属建物を合併しても、主である建物の登記所のままなんです
 - 市町村合併で管轄そのものが変わることもあるんです
 - 建物をそのまま曳いて移動、管轄も一緒についてくる
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「管轄が特定・変わらない場面」（ア・イ・ウ＝列A・緑）と「管轄区域そのものが移動する場面」（エ・オ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry office
+buildings labeled 甲 and 乙, houses, dashed boundary lines, maps, moving
+trucks/rollers, folders, rubber stamps, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 管・轄・登・記・所・甲・乙・指・定・増・築・合・併・附・属・建・物・村・移・転・変・可 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物がまたがったら、管轄登記所はどっち？
+
+Subtitle (smaller, centered, 1行):
+平成27年度　午後の部　第12問－管轄が動く場面・動かない場面
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+管轄が特定・変わらない場面
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+指定前はどちらの登記所でもOK
+Illustration: 一つの建物アイコンが甲登記所と乙登記所の境界の点線をまたいで
+建っている様子をイソメトリックで描く。左右に甲登記所・乙登記所の建物アイコン
+を配置し、どちらにも緑のチェックマークをつける。境界線上に「指定前」という
+破れ紙ラベルを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+指定前はいずれも可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+増築でまたがっても管轄は不変
+Illustration: 甲登記所の管轄内にある家アイコンから増築部分が境界の点線を越
+えて乙登記所側にはみ出している様子を描く。矢印で増築部分から甲登記所の建物
+アイコンへ結び、甲にチェックマーク、乙登記所の建物アイコンには✕マークをつ
+ける。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+管轄は甲のまま
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物の合併でも主たる建物の登記所
+Illustration: 甲登記所側にある母屋アイコンと、乙登記所側にある物置アイコン
+を「合併」の矢印で結ぶ。母屋（甲登記所管轄）にチェックマーク、物置がある乙
+登記所の建物アイコンには✕マークをつけ、申請先が甲登記所のままであることを
+示す。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+主である建物の登記所
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+管轄区域そのものが移動する場面
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously across both columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+市町村合併で管轄区域ごと移動
+Illustration: 地図アイコン上で、甲登記所の管轄エリアの一部が矢印とともに乙
+登記所の管轄エリアへ移る様子を描く。移動するエリア内に建物アイコンを配置し、
+登記記録フォルダのアイコンが甲登記所から乙登記所へ移動する矢印を添える。乙
+登記所にチェックマーク。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+移転先の乙で申請
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+えい行移転なら甲乙どちらでも申請可
+Illustration: 家アイコンの下にコロ（ローラー）を描き、ロープで引かれて境界
+の点線を完全に越えて乙登記所側へ移動している様子を描く。移動後の家アイコン
+の横に、甲登記所・乙登記所の建物アイコン両方に緑のチェックマークをつける。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+甲乙どちらでも申請可
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 指定前はどちらの登記所でもOK
+2. 増築でまたがっても管轄は不変
+3. 附属建物の合併でも主たる建物の登記所
+4. 市町村合併で管轄区域ごと移動
+5. えい行移転なら甲乙どちらでも申請可
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

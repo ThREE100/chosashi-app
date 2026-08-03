@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 事件簿は閉鎖後7年間保存しなければならない（規則28条） |
-| イ | 誤 | 注意勧告をしても公表しなければならない義務はない（法56条） |
-| ウ | 誤 | 代表社員は定款で定めることができる（任意）で、義務ではない（法35条の2第1項） |
-| エ | 正 | 競業は総社員の同意があっても禁止される（法37条1項） |
-| オ | 正 | 従たる事務所には管轄区域内の調査士会の会員である社員を常駐させる（法36条） |
+- **ア（正）** 事件簿は閉鎖後7年間保存しなければならない（規則28条）
+- **イ（誤）** 注意勧告をしても公表しなければならない義務はない（法56条）
+- **ウ（誤）** 代表社員は定款で定めることができる（任意）で、義務ではない（法35条の2第1項）
+- **エ（正）** 競業は総社員の同意があっても禁止される（法37条1項）
+- **オ（正）** 従たる事務所には管轄区域内の調査士会の会員である社員を常駐させる（法36条）
 
 問われているのは「誤っている肢」なので、イ・ウを選ぶのがゴールです。「注意勧告に公表義務はない」「代表社員の定めは任意」という2つのポイントが決め手になります。
 
@@ -86,15 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地家屋調査士および土地家屋調査士法人の規律を、「しなければならない」義務があるもの3枚・「できる（任意）」で義務ではないもの2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+土地家屋調査士および土地家屋調査士法人の規律について「しなければならない」義務があるものと「できる（任意）」で義務ではないものという2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。導入イラスト・導入文のブロックは置かない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric office buildings,
 professional figures, ledger books, official stamps/seals, signposts,
 badges, prohibition marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,102 +112,94 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 調・査・総・務・閉・鎖・従・勧・業・員・駐, which have Simplified
-Chinese look-alike forms with visibly different stroke shapes — always
-draw the standard Japanese (Jōyō) form of these characters.
+kanji 調・査・閉・鎖・従・勧・業・員・駐 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-事件簿は「閉鎖後7年」
-代表社員は「任意」なんです
+Title (large, bold, 1行):
+事件簿は「閉鎖後7年」、代表社員は「任意」なんです
 
 Subtitle (smaller, centered, 1行):
-「しなければならない」か「できる（任意）」かの区別を整理(令和4年度 午後の部 第20問)
+令和4年度 午後の部 第20問－義務か任意かを見極める5つの規律
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a single
-土地家屋調査士 professional figure holding a ledger book beside a
-土地家屋調査士法人 office building icon with two person figures inside,
-both connected to a signpost that splits into two arrows: one arrow
-labeled "しなければならない" pointing to a padlock/checkmark icon, and
-another arrow labeled "できる(任意)" pointing to a flexible dashed-outline
-badge icon, showing the two icons are governed by rules that are either
-mandatory or optional.
-この問題は、土地家屋調査士および土地家屋調査士法人の義務・組織に関する
-細かな規律を問うものです。数字（保存年数）や、「〜しなければならない」
-なのか「〜できる（任意）」なのかの区別が勝負を分けます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 「しなければならない」義務があるもの
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-事件簿は、閉鎖後7年間保存しなければならない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+事件簿は閉鎖後7年間保存する
 Illustration: An isometric ledger book stamped with a "閉鎖" seal, sitting
 inside a storage box, with a calendar/clock icon beside it showing
-"7年間" and a small padlock icon to indicate a mandatory retention period.
-Caption (small text below):
-事件簿は閉鎖後7年間保存しなければならない（規則28条）
+"7年間" and a small padlock icon with a ✓ checkmark to indicate a
+mandatory retention period.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+閉鎖後7年保存
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-競業は、総社員の同意があっても禁止される
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+競業は全員同意でも禁止される
 Illustration: An isometric 土地家屋調査士法人 社員 figure reaching
 toward a briefcase icon labeled "自己の業務" that is overlaid with a red
-prohibition (no-entry) mark, while nearby colleague figures show a
+prohibition (✕, no-entry) mark, while nearby colleague figures show a
 thumbs-up "同意" gesture, illustrating that the prohibition mark still
 applies even though the other members consent.
-Caption (small text below):
-競業は総社員の同意があっても禁止される（法37条1項）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+同意があっても禁止
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-従たる事務所には、管轄区域内の調査士会の会員である社員を常駐させる
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+従たる事務所は管轄の社員を常駐
 Illustration: An isometric map showing a main office building and a
 smaller branch office building labeled "従たる事務所" in a different
 region, with a professional figure standing fixed inside the branch
-office wearing a badge that matches the local 調査士会 emblem shown on a
-nearby regional boundary line, indicating the figure must be resident
-there.
-Caption (small text below):
-従たる事務所には管轄区域内の調査士会の会員である社員を常駐させる（法36条）
+office wearing a badge labeled "常駐" that matches the local 調査士会
+emblem shown on a nearby regional boundary line.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+管轄内の社員常駐
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 「できる（任意）」で義務ではないもの
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-注意勧告をしても、公表しなければならない義務はない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+注意勧告しても公表義務はない
 Illustration: An isometric 調査士会 office building issuing a warning
 note icon labeled "注意勧告" toward a small professional figure, with a
-megaphone/announcement icon crossed out by a red prohibition mark to
+megaphone/announcement icon crossed out (✕) by a red prohibition mark to
 show there is no obligation to make the warning public.
-Caption (small text below):
-注意勧告をしても公表しなければならない義務はない（法56条）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+公表義務はなし
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-代表社員は「定めることができる」のであって、義務ではない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+代表社員は定めるかどうか任意
 Illustration: An isometric 土地家屋調査士法人 office building containing
 two identical professional figures standing side by side, with a small
 dashed-outline optional badge labeled "任意" hovering above one figure
 and a document icon labeled "定款" beside them, showing that naming one
 figure as representative is a discretionary choice, not a requirement.
-Caption (small text below):
-代表社員は定款で定めることができる（任意）で、義務ではない（法35条の2第1項）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+定めは任意
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和4年度 午後の部 第20問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 調・査・総・務・閉・鎖・従・勧・業・員・駐. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3
-cards under 「しなければならない」義務があるもの, 2 cards under
-「できる（任意）」で義務ではないもの), with no duplicated or missing
-cards, and confirm every heading, illustration label, and caption text
-matches the Japanese text given above verbatim, with no paraphrasing and
-no substituted characters.
+attention to 調・査・閉・鎖・従・勧・業・員・駐. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

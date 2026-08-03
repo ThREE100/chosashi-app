@@ -78,3 +78,131 @@
 - だまして契約すると、あとから取り消せなくなるんです
 - 「治ったから終わり」じゃない、後見のやめ方
 - 後見人と保佐人・補助人、代理権の範囲がこんなに違う
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+成年後見・保佐・補助の制度について、「取消しができるかどうか」と「同意・審判の効力・代理権をめぐる制度の使い分け」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric people figures,
+convenience-store shelves, family-court buildings, document stamps,
+scale/balance icons, torn paper labels, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 後・見・佐・補・助・権・審・判・欠・格 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+後見・保佐・補助、取消し・同意・代理権はどう違う？
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第1問－取消し・同意・代理権の使い分け
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+取消しができるかどうか
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+日用品の購入は取消し不可
+Illustration: An isometric convenience-store aisle. An elderly woman
+character (成年被後見人) holds a small bag labeled "日用品". A red
+cancel/X stamp labeled "取消し" hovers near the bag but is crossed out
+with a large red X, showing it cannot be used here. A small torn-paper
+label beside her reads "意思能力の有無は関係ない".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+取消しの対象外
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+だましたら取消権を失う
+Illustration: An isometric scene of a person (被保佐人) handing a fake
+certificate labeled "行為能力者だと偽る証明書" to a real-estate agent
+character across a desk with a land-sale document. A red X is stamped
+over a "取消し" document near the person, showing the right to rescind
+has been lost.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+詐術で取消不可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+同意・審判・代理権の使い分け
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+同意必須は補助開始だけ
+Illustration: Three small family-court building icons side by side,
+labeled "後見開始", "保佐開始", "補助開始". Under the first two, a
+"本人の同意" label has a red X over it. Under the third ("補助開始"),
+the same "本人の同意" label has a green checkmark, showing it alone
+requires the person's own consent.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+補助だけ同意必要
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+後見終了は裁判所の取消審判だけ
+Illustration: An isometric elderly man character whose head icon shows
+"判断能力が回復" with a small brain/lightbulb icon. An arrow toward
+"行為能力の自動回復" is crossed out with a red X. Beside him, a
+family-court building icon holds a document labeled "後見開始の審判の
+取消し" with a checkmark, showing this formal step is the only way to
+end the guardianship.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+自動回復はしない
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+後見人は包括、保佐等は個別代理
+Illustration: An isometric scene split in two. On the left, a 成年後見人
+character holds one large stamp labeled "財産全般" covering icons of a
+house, a bank passbook, and a contract. On the right, a 保佐人・補助人
+character holds a small stamp labeled "審判で定めた行為のみ" covering
+only one icon (a house-sale document), with the other icons (bank
+passbook, contract) shown outside the stamp's reach.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+範囲が全然違う
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

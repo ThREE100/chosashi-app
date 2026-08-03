@@ -87,15 +87,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の表題登記に関する5つの記述を、「表題部所有者は誰にするか」(2枚)と「どんな証明書が必要か」(3枚)の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+建物の表題登記に関する5肢を、「表題部所有者は誰にするか」と「どんな証明書が必要か」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, documents, official stamps/seals, scanners, arrows, prohibition
 marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -104,99 +115,93 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 号・録・権・地・番・建・物・登・記・所 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-建物の表題登記
-名義と証明書のルール
+Title (large, bold, 1行):
+建物の表題登記、名義と証明書のルール
 
 Subtitle (smaller, centered, 1行):
-表題部所有者は誰か、どんな証明書が必要かを整理(令和7年度 午後の部 第14問)
+令和7年度 午後の部 第14問－表題部所有者は誰か・証明書は何が要るか
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a small
-house-shaped building under construction with a registration ledger book
-and an official stamp beside it, and a small document icon with a
-magnifying glass to suggest checking attached certificates.
-建物の表題登記では、「誰の名義で登記するか」と「どんな証明書が必要か」
-という基本ルールが問われます。5つの記述を、名義に関するルールと証明書
-に関するルールの2つに整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 表題部所有者は誰にするか
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-2棟の合体、まとめて申請していいんです
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+2棟の合体、まとめて申請
 Illustration: An isometric diagram showing two separate small warehouse
 buildings, each tagged "表題登記のみ", merging via an arrow into one
 larger building tagged "合体後の建物". Beside it, a person character
 holds two documents at once toward a registry-office window icon: one
 document labeled "合体後の建物の表題登記" and another labeled "合体前の
 建物の表題部の登記の抹消", both being submitted together.
-Caption (small text below):
-表題登記のみの2棟の合体は、合体後の登記と合体前の抹消をまとめて
-申請できる
+Conclusion tag (green banner below the illustration, 5-15 characters):
+まとめて申請可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-亡くなった親を、経由しなくていいんです
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+亡くなった親を経由不要
 Illustration: An isometric house icon connected by a dotted, crossed-out
 arrow to a faded parent character tagged "被相続人" (showing this route
 is not required), and by a solid direct arrow to a child character tagged
 "相続人", who receives a stamp reading "表題部所有者".
-Caption (small text below):
-未登記のまま死亡した場合、相続人は自分を表題部所有者として直接
-申請できる
+Conclusion tag (green banner below the illustration, 5-15 characters):
+相続人が直接申請
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 どんな証明書が必要か
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-スキャンしても、電子署名は省略できません
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+スキャンでも電子署名必要
 Illustration: An isometric scanner scanning a paper document tagged
 "確認済証", with an arrow to a computer screen showing the resulting
 electronic file, onto which a seal/stamp icon tagged "電子署名" is being
 attached, plus a small prohibition (no-entry) mark over a crossed-out
 label reading "署名省略".
-Caption (small text below):
-スキャンした確認済証にも作成者の電子署名が必要
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+署名は省略不可
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-借地権の証明、実は求められません
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+借地権の証明情報は不要
 Illustration: An isometric land plot tagged "借地" with a house built on
 top of it, beside a document icon tagged "借地権を有することを証する情報"
 overlaid with a red prohibition (no-entry) mark to show it is not
 required.
-Caption (small text below):
-借地上の建物の表題登記に借地権の証明情報は不要
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+証明書は不要
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-住所の証明、印鑑証明書でも大丈夫
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+住所証明は印鑑証明書も可
 Illustration: An isometric person character holding a document tagged
 "印鑑に関する証明書" beside an equals sign and another document tagged
 "住民票", both feeding into a folder tagged "表題登記の添付情報", with a
 checkmark icon confirming both are acceptable.
-Caption (small text below):
-表題部所有者の住所証明として印鑑に関する証明書を提供することができる
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+印鑑証明書も可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和7年度 午後の部 第14問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (2
-cards under 表題部所有者は誰にするか, 3 cards under どんな証明書が必要か),
-with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

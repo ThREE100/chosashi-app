@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 不法占有者への明渡請求は保存行為として単独でできる（252条5項） |
-| イ | 誤 | 共有者の単独占有者に対し、他の共有者は直ちには明渡請求できない（最判昭和41年5月19日） |
-| ウ | 誤 | 賃貸借の解除は管理行為であり、持分の過半数の同意が必要（252条1項、最判昭和39年2月25日） |
-| エ | 正 | 自己の持分については単独で抵当権を設定できる |
-| オ | 誤 | 賃借人には占有権原があり、他の共有者は直ちには明渡請求できない |
+- **ア（正）** 不法占有者への明渡請求は保存行為として単独でできる（252条5項）
+- **イ（誤）** 共有者の単独占有者に対し、他の共有者は直ちには明渡請求できない（最判昭和41年5月19日）
+- **ウ（誤）** 賃貸借の解除は管理行為であり、持分の過半数の同意が必要（252条1項、最判昭和39年2月25日）
+- **エ（正）** 自己の持分については単独で抵当権を設定できる
+- **オ（誤）** 賃借人には占有権原があり、他の共有者は直ちには明渡請求できない
 
 共有物に関する行為は、「共有物を守るだけの保存行為（単独可）」「共有物の利用方法を決める管理行為（過半数）」「共有物の性質を変える変更行為（全員同意）」という三段階に整理すると判断しやすくなります。イとオは「占有者・賃借人にも正当な権原がある」という視点を見落とさないことが、ウは「解除＝管理行為であって単独ではできない」という点がそれぞれ急所です。
 
@@ -87,7 +85,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-共有物に対する行為を「単独でできる行為（保存行為・持分の処分）」「持分の過半数が必要な行為（管理行為）」「占有権原がある者には直ちにはできない請求」の3グループ・4枚のカードに整理し、共有者Ａ・Ｂ・Ｃのケースを1枚で俯瞰できる構成にした。
+共有物に対する行為を「共有者が単独でできること」と「他者の関与（過半数の同意・占有権原の尊重）が必要なこと」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・4枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -95,8 +93,19 @@ clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric two-story house,
 stick-figure people, torn-paper labels, stamps/hanko seals, contract
-documents, padlock-shaped icons, check marks — adapt icon set to the
-topic).
+documents, padlock-shaped icons, check marks, translucent barrier icons —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -105,89 +114,81 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-characters 権・建・物・持・占・渡・抵・当・契・約・解・除 — their
-Simplified Chinese forms differ visibly from the correct Japanese forms;
-do not substitute the simplified variant for any of them.
+kanji 権・建・物・持・占・渡・抵・当・契・約・解・除 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-共有物は、
-誰の同意で動かせる？
+Title (large, bold, 1行):
+共有物、単独でできる？できない？
 
-Subtitle (smaller, centered, 2行):
-平成17年度 午後の部 第1問
-共有者Ａ・Ｂ・Ｃ（持分各3分の1）のケース
+Subtitle (smaller, centered, 1行):
+平成17年度 午後の部 第1問－共有者Ａ・Ｂ・Ｃによる保存・管理・処分行為の仕分け
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Isometric two-story house (甲建物) divided into three equal
-pastel-colored sections (blue, green, beige), with three isometric
-stick-figure people labeled Ａ、Ｂ、Ｃ standing in front of it, each
-holding a torn-paper tag reading「持分3分の1」.
-甲建物をＡ・Ｂ・Ｃが3分の1ずつ共有している場合、共有物に関する行為は
-「保存行為」「管理行為」「持分の処分」のどれに当たるかによって、必要な
-同意の範囲が変わります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-単独でできる行為（保存行為・持分の処分）
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+共有者が単独でできること
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-不法占有者への明渡請求は、単独でできる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+不法占有者への明渡請求は単独でできる
 Illustration: Isometric scene: person Ａ pointing at a stick-figure
 intruder labeled Ｄ standing in front of the building's door, a
 torn-paper label reading「保存行為」floating above Ａ, a small text tag
 reading「単独でOK」near Ａ.
-Caption (small text below):
-権原なく建物を占有する第三者への明渡請求は保存行為（民法252条5項）。
-共有者の一人が単独で請求できる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+保存行為は単独可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-自己の持分には、単独で抵当権を設定できる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+自己の持分は単独で処分できる
 Illustration: Isometric scene: person Ａ stamping a document labeled
 「持分3分の1」with a hanko seal, a padlock-shaped icon representing
 抵当権 linked only to Ａ's one-third section of the building, a
 torn-paper label reading「持分の処分」floating above.
-Caption (small text below):
-持分は各共有者に帰属する独立した権利であり、他の共有者の同意なく自由に
-処分できる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+持分の処分は自由
 
---- COLUMN B HEADER (pill-shaped badge) ---
-持分の過半数の同意が必要な行為（管理行為）
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+他者の関与が必要なこと
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-賃貸借契約の解除は、持分の過半数の同意が必要
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+賃貸借の解除は過半数の同意が必要
 Illustration: Isometric scene: a torn contract document with a large ×
 mark on it, person Ａ alone unable to tear it by himself, with Ｂ and Ｃ
 each holding up a check mark to show approval, a torn-paper label
 reading「管理行為」floating above, a small text tag reading「過半数で決定」.
-Caption (small text below):
-賃貸借の解除は管理行為（民法252条1項）。単独ではできず、持分の過半数の
-同意が必要。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+過半数の同意が必要
 
---- COLUMN C HEADER (pill-shaped badge) ---
-直ちにはできない請求（占有権原がある場合）
-
---- COLUMN C, CARD 1 ---
-Heading (bold):
-占有・使用の権原がある者には、直ちに明渡請求できない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+占有権原があれば直ちに明渡し不可
 Illustration: Isometric scene: a person standing inside the building
 (representing either a co-owner occupying it alone, or a tenant),
 holding a torn-paper tag reading「占有権原あり」, with Ｂ・Ｃ standing
 outside reaching toward the door but blocked by a translucent barrier, a
 small text label reading「直ちには不可」.
-Caption (small text below):
-共有者の一人が単独で占有している場合も、賃借人が占有している場合も、
-正当な占有権原がある限り、他の共有者は当然には明渡しを請求できない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+直ちには請求不可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験 解説メモ
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 4 exactly, with
-no duplicated or missing cards.
+no duplicated or missing cards, that badge numbers run 1-4 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

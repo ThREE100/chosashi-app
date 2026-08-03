@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 仮換地上の建物の表題登記は、現地番に予定地番を括弧書きで併記できる（実務上の取扱い） |
-| イ | 正 | 換地を定めなかった従前の宅地の権利は公告日終了時に消滅し、登記記録も閉鎖される（104条） |
-| ウ | 正 | 施行者は表示登記のない従前地について、所有者に代位して表題登記を申請できる（107条） |
-| エ | 誤 | 分筆の登記は施行者の嘱託・登記所の職権により行われ、所有者に申請義務はない |
-| オ | 誤 | 保留地の表題登記は換地処分後（公告日の翌日以後）でなければ申請できない（104条11項） |
+- **ア（正）** 仮換地上の建物の表題登記は、現地番に予定地番を括弧書きで併記できる（実務上の取扱い）
+- **イ（正）** 換地を定めなかった従前の宅地の権利は公告日終了時に消滅し、登記記録も閉鎖される（104条）
+- **ウ（正）** 施行者は表示登記のない従前地について、所有者に代位して表題登記を申請できる（107条）
+- **エ（誤）** 分筆の登記は施行者の嘱託・登記所の職権により行われ、所有者に申請義務はない
+- **オ（誤）** 保留地の表題登記は換地処分後（公告日の翌日以後）でなければ申請できない（104条11項）
 
 正しいのはア・イ・ウの3つで、エ・オは誤りです。区画整理の登記は、仮換地の段階・換地処分の段階・保留地の取扱いという3つの局面ごとに、「誰が」「いつ」登記できるのかを正確に押さえておくことが得点の分かれ目になります。
 
@@ -88,7 +86,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-この問題を貫く「仮換地の段階」「換地処分の段階」「保留地の段階」という3局面ごとに、誰がいつ何を登記できるのかを1枚で俯瞰できる構成にした。
+土地区画整理事業の登記について「誰が登記するか」と「いつ登記できるか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -99,6 +97,17 @@ plots grouped in grid blocks like a land readjustment zone, official
 stamps, document/paper icons, torn paper labels, etc. — adapt icon set
 to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -106,100 +115,95 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which appear repeatedly below
-(地番, 予定地番, 登記, 表題登記, 登記記録, 登記所, 権利, 建物, 施行者 など)
-— render each in its standard Japanese (Jōyō) form, never the Simplified
+kanji 権・地・番・建・物・登・記・所, which appear repeatedly below (地番,
+予定地番, 登記, 表題登記, 登記記録, 登記所, 権利, 建物, 施行者 など) —
+render each in its standard Japanese (Jōyō) form, never the Simplified
 Chinese variant.
 
 --- HEADER ---
 Title (large, bold, 1行):
-土地区画整理事業と表示登記の急所
+その分筆、所有者が申請しなくていいんです
 
-Subtitle (smaller, centered, 2行):
-仮換地・換地処分・保留地
-誰が、いつ、登記できるのか
+Subtitle (smaller, centered, 1行):
+平成17年度 午後の部 第11問－土地区画整理事業と表示登記の急所
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: A surveyor-style character holding a magnifying glass,
-looking down at an isometric land readjustment zone laid out in a
-grid of rectangular plots; some plots are labeled with small tags
-reading 仮換地 and 保留地 to show the mixed states of land within the
-project area.
-土地区画整理事業の登記は、実務色が強く「誰が」「いつ」「何を」申請できるのかが局面ごとに異なる。仮換地・換地処分・保留地という3つの場面に分けて、正しいルールを整理する。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-仮換地の段階
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+誰が登記するか
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-仮換地上の建物、現地番と予定地番を併記できる
-Illustration: An isometric house standing on a plot labeled 仮換地.
-Next to the house, a document/label icon shows the text
-「所在：現在の地番（予定地番　○番）」, with the bracketed part
-(予定地番　○番) enclosed in a dashed outline to emphasize that it is
-written in parentheses alongside the current lot number.
-Caption (small text below):
-仮換地の指定を受けた土地上の建物の表題登記は、所在に現在の地番を記載し、将来の予定地番を括弧書きで併記できる（実務上の取扱い）
-
---- COLUMN B HEADER (pill-shaped badge) ---
-換地処分の段階
-
---- COLUMN B, CARD 1 ---
-Heading (bold):
-換地を定めなかった従前地、権利は消滅し登記も閉鎖される
-Illustration: A two-panel timeline. Left panel: a land plot icon
-labeled 従前の宅地 with an official stamp reading 公告 being pressed
-onto it. Right panel: the same plot icon now grayed out/faded, next
-to a registry-book icon stamped in red with 閉鎖.
-Caption (small text below):
-換地計画で換地を定められなかった従前の宅地の権利は、公告があった日が終了した時に消滅し、登記記録も閉鎖される（土地区画整理法104条）
-
---- COLUMN B, CARD 2 ---
-Heading (bold):
-未登記の従前地、施行者が所有者に代位して表題登記を申請できる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+未登記地は施行者が代位申請
 Illustration: An isometric character wearing a construction helmet
 (labeled 施行者) holding a document labeled 代位申請 and submitting it
 at a government building icon (法務局). A second character labeled
 所有者 stands behind, simply watching, not holding any document.
-Caption (small text below):
-表示に関する登記がない従前の土地について、施行者は所有者に代位して表題登記を申請できる（土地区画整理法107条）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位申請OK
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-数個の換地が定められても、分筆登記は所有者の義務ではない
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆は所有者の義務ではない
 Illustration: A single land-plot icon split by a dashed line into two
 plots. Next to it, a document icon labeled 嘱託 (from 施行者) and an
 official seal labeled 職権 (from 登記所) sit side by side. The 所有者
 character stands apart with a red prohibition (no-entry) mark over a
 label reading 申請不要.
-Caption (small text below):
-従前の1筆の土地に数個の換地が定められても、分筆の登記は施行者の嘱託または登記所の職権によって行われ、所有者が分筆登記を申請する義務は負わない
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請義務なし
 
---- COLUMN C HEADER (pill-shaped badge) ---
-保留地の段階
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+いつ登記できるか
 
---- COLUMN C, CARD 1 ---
-Heading (bold):
-保留地の表題登記は、換地処分の公告後でなければ申請できない
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮換地建物は予定地番も併記可
+Illustration: An isometric house standing on a plot labeled 仮換地.
+Next to the house, a document/label icon shows the text
+「所在：現在の地番（予定地番　○番）」, with the bracketed part
+(予定地番　○番) enclosed in a dashed outline to emphasize that it is
+written in parentheses alongside the current lot number.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+括弧書きでOK
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+換地なし従前地は権利消滅
+Illustration: A two-panel timeline. Left panel: a land plot icon
+labeled 従前の宅地 with an official stamp reading 公告 being pressed
+onto it. Right panel: the same plot icon now grayed out/faded, next
+to a registry-book icon stamped in red with 閉鎖.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記記録も閉鎖
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+保留地は換地処分後に登記可
 Illustration: A land-plot icon labeled 保留地 with a padlock icon
 overlaid on it. A horizontal timeline arrow beneath shows three
 stages in order: 換地処分の公告 → 翌日 → 表題登記が可能。 Before the
 first stage, the plot icon carries a red prohibition mark labeled
 表題登記不可.
-Caption (small text below):
-保留地は換地処分によって初めて土地として確定するため、表題登記は換地処分の公告があった後（公告があった日の翌日以後）でなければ申請できない（土地区画整理法104条11項）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+公告後に申請可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to 号・録・権・地・番・建・物・登・記・所 in words such as
-地番, 予定地番, 登記, 表題登記, 登記記録, 登記所, 権利, 建物, 施行者 —
-if any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the number of cards
-equals 5 exactly (1 card in Column A, 3 cards in Column B, 1 card in
-Column C), with no duplicated or missing cards, and confirm every card
-caption matches the Japanese text given above verbatim with no
-paraphrasing.
+attention to 権・地・番・建・物・登・記・所 in words such as 地番,
+予定地番, 登記, 表題登記, 登記記録, 登記所, 権利, 建物, 施行者 — if any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, that badge numbers run 1-5
+continuously across both columns without resetting, confirm there is no
+intro illustration or paragraph block between the header and the cards,
+and confirm that no card contains a full sentence of explanatory prose.
 ```

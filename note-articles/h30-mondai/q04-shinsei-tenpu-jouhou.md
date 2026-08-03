@@ -84,10 +84,10 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-申請情報・添付情報に関する一般原則3枚（援用の記載・資格証明情報・相続人の表示）と、電子申請に特有のルール2枚（登記識別情報の提供方法・補正の方法）の、計5枚のカードで問題全体を俯瞰できるよう構成した画像生成プロンプト。
+申請情報・添付情報について、「申請情報・添付情報に関する一般原則」と「電子申請に特有のルール」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric application document
@@ -96,6 +96,17 @@ and clock icons, family/person silhouettes, computer monitor and keyboard,
 prohibition marks, arrows and connecting lines — adapt icon set to the
 topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -103,9 +114,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・証・続・識・処・補・図, which
-have Simplified Chinese look-alike forms with visibly different stroke
-shapes — always draw the standard Japanese (Jōyō) form of these characters.
+kanji 証・続・識・補・図・登・記 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -113,104 +123,88 @@ Title (large, bold, 2行):
 細かいルールを一枚で整理する
 
 Subtitle (smaller, centered, 1行):
-援用・資格証明・相続人表示・電子申請の決まりごと(平成30年度 午後の部 第4問)
+援用・資格証明・相続人表示・電子申請の決まりごと（平成30年度 午後の部 第4問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a central
-application document labeled "申請情報" with several smaller attached
-paper sheets labeled "添付情報" clipped to it, and the bundle splitting
-into two paths — one path leading to a paper/booklet icon labeled "書面"
-and the other path leading to a computer monitor icon labeled "電子" — to
-show that the same申請情報・添付情報が書面と電子の両方の場面で扱われる
-ことを示す。
-表示に関する登記の申請では、添付情報の書き方や書面の要否、電子申請ならではの
-手続を、条文どおりに細かく確認する必要があります。援用の書き方、資格証明情報の
-期限、相続人の表示、登記識別情報の提供方法、補正の方法という5つの論点を
-整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 申請情報・添付情報に関する一般原則
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-援用した添付情報は「前件添付」と記載する
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+援用したら前件添付と記載
 Illustration: An isometric pair of application document icons side by
 side. The first document has a paper-clip icon labeled "添付書類" attached
 to it. A dotted arrow points from the first document to the second
 document, where a small sticky-tag icon reads "前件添付", showing that the
 second application refers back to the attachment bundled with the first.
-Caption (small text below):
-同一の登記所に同時に複数の申請をする場合、共通する添付情報を一の申請に
-まとめて提供したときは、援用した旨を他の申請情報の内容とする（不動産登記
-規則37条2項）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+前件添付と記載
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-番号のない法人は3月以内の資格証明情報を添付する
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+番号なし法人は3月以内の証明
 Illustration: An isometric building icon labeled "法人" (no company
 number badge shown, to indicate it lacks a 会社法人等番号) connected by
 an arrow to a document icon labeled "資格証明書"。Next to the document, a
 small calendar/clock icon reads "作成後3月以内" to emphasize the time
 limit.
-Caption (small text below):
-会社法人等番号を有しない法人が申請するときは、代表者の資格を証する情報
-として、作成後3月以内の登記事項証明書（資格証明書）を添付する（不動産
-登記令7条1項1号ロ）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+3月以内の証明
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-相続人が申請するときは「相続人である旨」を記載する
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続人は「相続人の旨」を記載
 Illustration: An isometric person silhouette icon labeled "相続人" beside
 an application document where a pen icon is writing the text "相続人で
 ある旨" onto the form. Separately, a ledger-style paper icon labeled
 "法定相続情報一覧図の写し" is shown attached alongside, with a small equal
 (=) mark removed and instead a "＋" mark between the two icons, to show
 both the記載と添付が別々に必要であることを示す。
-Caption (small text below):
-表題部所有者の相続人が申請する場合、法定相続情報一覧図の写しを添付して
-いても、相続人である旨は必ず申請情報の内容とする（不動産登記令3条10号）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+相続人の旨も記載
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 電子申請に特有のルール
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-電子申請でも登記識別情報は書面で出せない
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+識別情報は書面で出せない
 Illustration: An isometric computer monitor icon labeled "電子情報処理
 組織" displaying a form field being typed with the text "登記識別情報"。
 Beside the monitor, a paper document also labeled "登記識別情報" has a red
 prohibition (no-entry) circle-and-slash mark overlaid on it, showing that
 even under the special paper-submission method this one item cannot be
 submitted on paper.
-Caption (small text below):
-電子申請における添付情報の書面提出の特例（不動産登記令附則5条）を用いる
-場合であっても、登記識別情報は電子情報処理組織を使用して提供し、書面で
-提出することはできない（不動産登記規則66条1項1号、令附則5条1項かっこ
-書）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+書面提出は不可
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-電子申請の補正も電子情報処理組織で行う
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+補正も電子情報処理組織で行う
 Illustration: An isometric computer monitor icon showing an application
 form with a red tag reading "補正"。A curved arrow loops from the form
 back into the same monitor screen (not toward a paper counter or window),
 emphasizing that the correction stays within the online system.
-Caption (small text below):
-電子申請をした場合、申請情報の補正は、電子情報処理組織を使用する方法に
-よってしなければならない（不動産登記規則60条2項1号）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+補正も電子で
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成30年度 午後の部 第4問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・証・続・識・処・補・図.
-If any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the number of cards
-equals 5 exactly (3 cards under 申請情報・添付情報に関する一般原則, 2
-cards under 電子申請に特有のルール), with no duplicated or missing cards,
-and confirm every heading, illustration label, and caption text matches
-the Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

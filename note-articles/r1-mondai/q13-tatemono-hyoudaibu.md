@@ -79,3 +79,132 @@
 - 先取特権があっても、完成後の表題登記は必要なんです
 - 離れが増えたら、遅滞なく表題部の変更登記を
 - 附属建物の合体は、まず分割から。順番が命なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+保存登記が錯誤で抹消されたときに登記記録がどうなるか（列A・緑、ア・イ）と、先取特権・附属建物・合体という個別の手続場面（列B・青、ウ・エ・オ、いずれも正しい結論だけを図解）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry record
+folders/binders, house and small attached-building icons, cancellation/
+closure stamps, clock icons for timing, split/merge arrows, checkmarks
+and cross marks, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 建・物・登・記・保・存・錯・誤・抹・消・閉・鎖・復・活・先・取・権・題・属・滞・合・体・分・割
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+保存登記が消えたその後、登記記録はどうなる？
+
+Subtitle (smaller, centered, 1行):
+令和元年度　午後の部　第13問－建物の表題部の登記を総ざらい
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+保存登記の錯誤抹消と登記記録の運命
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+本人の保存登記が消えたら記録ごと閉鎖
+Illustration: 表題部所有者Aのキャラクターの横に「所有権の保存の登記」の
+スタンプがあり、赤い✕（錯誤抹消）が重なる。登記記録のフォルダに「閉鎖」
+の大きなスタンプが押され、隣で新しい所有者Bのキャラクターが「表題登記」
+の新しい申請書を差し出す矢印。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+改めて表題登記からやり直し
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続人名義なら記録は生き残る
+Illustration: 相続人のキャラクターが持つ「所有権の保存の登記」スタンプに
+赤い✕（錯誤抹消）が重なるが、表題部所有者Aのキャラクターが登記記録
+フォルダの中で復活する矢印。フォルダの「閉鎖」スタンプには赤い✕（閉鎖
+されない）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+表題部所有者の記録を復活
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+先取特権・附属建物・合体の手続
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+先取特権があっても完成後は表題登記必要
+Illustration: 建設中の建物アイコンに「不動産工事の先取特権の保存の登記
+（設計書による）」のラベル。建物が完成したアイコンへ矢印が伸び、その先に
+「表題登記」の申請書フォルダと緑の✓マーク。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+完成後は表題登記が必要
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物完成後は遅滞なく変更登記
+Illustration: 所有権登記済みの母屋アイコンに、先取特権の保存登記スタンプ
+が付いた小さな離れ（附属建物）アイコンがくっつく。時計アイコンに「遅滞
+なく」のラベル、その先に「建物の表題部の変更登記」の申請書フォルダと
+緑の✓マーク。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+遅滞なく変更登記を申請
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物の合体はまず分割が前提
+Illustration: 乙建物にくっついた丙建物（附属建物）アイコンに、丙を切り
+離す「分割の登記」の矢印と番号①。次に甲建物と丙建物が合体する矢印と
+番号②、その先に「合体の登記」の申請書フォルダ。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+分割してから合体登記へ
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 本人の保存登記が消えたら記録ごと閉鎖
+2. 相続人名義なら記録は生き残る
+3. 先取特権があっても完成後は表題登記必要
+4. 附属建物完成後は遅滞なく変更登記
+5. 附属建物の合体はまず分割が前提
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

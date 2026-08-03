@@ -95,15 +95,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地の滅失について、「人工的な原因か自然的な原因か」による判断基準を4枚、申請期間の起算点という手続の基本ルールを1枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+土地の滅失について「人工的な原因か自然的な原因か」で地目変更・滅失を見分ける4枚と、申請期間の起算点という手続の基本ルールを1枚の、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する計5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, ocean
 waves, shovels, water channels, official stamps/seals, calendars,
 prohibition marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -111,106 +122,94 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to
-standard Japanese (Jōyō) form of these characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 滅・積・没・地・番・登・記・号・権・所 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 土地の滅失、その境目は？
-地目変更・滅失・地積変更を見分ける
 
 Subtitle (smaller, centered, 1行):
-人工か自然か、全部か一部かで手続が変わる(令和元年度 午後の部 第6問)
+令和元年度 午後の部 第6問－地目変更・滅失・地積変更の見分け方
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a coastal
-land plot with one half being submerged by ocean waves (natural erosion)
-and the other half showing a person digging a hole with a shovel to make
-an artificial pond, a forked dotted-line arrow branching from a single
-land plot icon toward both scenes to represent the classification fork.
-土地が滅失したといえるかどうかは、その土地が物理的に消滅したかどうかで
-決まります。人工的に水を張っただけなら地目変更、自然の作用で全部が海面下
-に没すれば滅失、一部だけが没した場合は地積の変更です。あわせて、滅失の
-登記を申請すべき期間の起算点も正確に押さえておく必要があります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 滅失にあたるかどうかの判断基準
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-人工的に掘った池は、地目変更にすぎない
-Illustration: An isometric land plot icon showing a person digging a hole
-with a shovel, water filling the hole to form a small pond, a wooden
-signboard on the plot changing from 「畑」 to 「池沼」, an arrow pointing
-to a green stamp reading 「地目変更」, and a separate red stamp reading
-「滅失」 with a prohibition (no-entry) mark over it to show this is NOT
-the correct classification.
-Caption (small text below):
-一筆の全部を人工的に掘って池にしても、土地の区画は消えないため、滅失で
-はなく池沼への地目変更の登記をする(準則68条8号)。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+人工的に掘った池は地目変更
+Illustration: An isometric land plot showing a person digging a hole with
+a shovel, water filling the hole to form a small pond. A wooden signboard
+on the plot flips from 「畑」 to 「池沼」. A green checkmark stamp reads
+「地目変更」, while a separate red stamp reading 「滅失」 has a large red
+X mark over it to show this is NOT the correct classification.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+地目変更（池沼）
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-人工の運河用水路も、地目変更にすぎない
-Illustration: An isometric land plot icon showing a small boat passing
-through an artificial water channel dug into the land, a wooden signboard
-reading 「運河用地」, an arrow pointing to a green stamp reading
-「地目変更」, and a separate red stamp reading 「滅失」 with a prohibition
-mark over it.
-Caption (small text below):
-国土交通大臣の免許を受けて人工的に設けた水路も、土地が物理的に消滅した
-わけではないため、運河用地への地目変更の登記をする(準則68条14号、運河
-法12条)。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+人工の運河用水路も地目変更
+Illustration: An isometric land plot showing a small boat passing through
+an artificial water channel dug into the land. A wooden signboard reads
+「運河用地」. A green checkmark stamp reads 「地目変更」, while a separate
+red stamp reading 「滅失」 has a large red X mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+地目変更（運河用地）
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-満潮時に一筆全部が海面下に没したら、滅失
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+満潮時に全部沈めば滅失登記
 Illustration: An isometric coastal land plot fully submerged under ocean
 waves at high tide, a small marker labeled 「春分・秋分の満潮時」 beside
-it, and a red stamp reading 「滅失登記」 being pressed onto the submerged
-plot.
-Caption (small text below):
-春分又は秋分の満潮時を基準に、一筆の全部が海面下に没したときは、自然の
-作用による滅失として滅失の登記を申請する。
+it, and a red checkmark stamp reading 「滅失登記」 being pressed onto the
+submerged plot.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+自然の滅失
 
 --- COLUMN A, CARD 4 ---
-Heading (bold):
-一部だけ海面下に没したら、地積の変更
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+一部だけ海没なら地積変更
 Illustration: An isometric coastal land plot where only a corner edge is
-crumbling into the sea due to a cliff collapse, while the larger
-remaining portion is still shown as solid land, an arrow pointing to a
-stamp reading 「地積変更登記」, and a separate red stamp reading 「滅失」
-with a prohibition mark over it.
-Caption (small text below):
-崖崩れなどで一筆の一部だけが常時海面下に没しても、残りは陸地として存在
-するため、滅失ではなく地積の変更の登記をする。
+crumbling into the sea from a cliff collapse, while most of the plot
+remains solid land. An arrow points to a checkmark stamp reading
+「地積変更登記」, and a separate red stamp reading 「滅失」 has a large
+red X mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+地積変更
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 申請期間の基本ルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-申請期間は「滅失の日」から1か月以内
-Illustration: An isometric calendar icon showing a land plot crumbling
-into the sea marked on one date, a 「1か月」 countdown arrow starting
-exactly from that date, and a separate calendar page labeled 「知った日」
-with a magnifying glass and a red cross-out mark to show that this later
-date is NOT the starting point.
-Caption (small text below):
-滅失の登記の申請期間は、滅失した事実を知った日ではなく、客観的な「滅失
-の日」から1か月以内に進行する(不登法42条)。
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+起算点は「知った日」じゃない
+Illustration: An isometric calendar showing a land plot crumbling into the
+sea marked on one date, with a 「1か月」 countdown arrow starting exactly
+from that date. A separate calendar page labeled 「知った日」 has a
+magnifying glass and a large red X mark over it, showing this later date
+is NOT the starting point.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+滅失の日から1か月
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度 午後の部 第6問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 滅・積・没・地・番・登・記・号・権・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (4
-cards under 滅失にあたるかどうかの判断基準, 1 card under 申請期間の基本
-ルール), with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

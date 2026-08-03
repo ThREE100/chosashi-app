@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 石油タンク・ガスタンクの敷地は宅地とできる（準則69条10号） |
-| イ | 誤 | 引き込んだ温泉宿の敷地は宅地（鉱泉地はわき出し口とその維持に必要な土地・準則68条7号） |
-| ウ | 正 | 天端が道路利用でも堤防の地目は堤（準則68条18号） |
-| エ | 正 | 村落の間の通水路の地目は井溝（準則68条19号） |
-| オ | 誤 | 公園内のテニスコートも一体で公園にできる（準則68条22号） |
+- **ア（誤）** 石油タンク・ガスタンクの敷地は宅地とできる（準則69条10号）
+- **イ（誤）** 引き込んだ温泉宿の敷地は宅地（鉱泉地はわき出し口とその維持に必要な土地・準則68条7号）
+- **ウ（正）** 天端が道路利用でも堤防の地目は堤（準則68条18号）
+- **エ（正）** 村落の間の通水路の地目は井溝（準則68条19号）
+- **オ（誤）** 公園内のテニスコートも一体で公園にできる（準則68条22号）
 
 「石油タンク＝宅地」「温泉宿＝宅地、鉱泉地はわき出し口だけ」という2つのひっかけを押さえられれば、消去法で正解にたどり着けます。
 
@@ -85,16 +83,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-地目の分野で、正しい地目の定義を「宅地と判断される土地」2枚・「用途ごとに決まる地目」3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+地目の分野の5肢すべての正しいルールを、「宅地と判断される土地」と「用途ごとに決まる地目」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric oil tank, hot spring
 inn building, levee/dike with road on top, small water channel, park with
-tennis court, land plots, official stamps/seals, magnifying glass — adapt
-icon set to the topic).
+tennis court, land plots, torn paper labels, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,9 +112,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 準・則・地・目・宅・鉱・泉・堤・溝・園・登・記・所, which have
-Simplified Chinese look-alike forms with visibly different stroke shapes —
-always draw the standard Japanese (Jōyō) form of these characters.
+kanji 地・宅・鉱・泉・堤・溝・園・建・物 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -113,91 +121,84 @@ Title (large, bold, 2行):
 温泉宿も「宅地」なんです
 
 Subtitle (smaller, centered, 1行):
-「土地の主な用途」で判断する(令和4年度 午後の部 第6問)
+令和4年度 午後の部 第6問－宅地と判断される土地／用途で決まる地目
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design cluster on the left showing, small
-side by side, an oil tank icon, a hot spring inn building icon, a levee
-cross-section with a road on top, a small water channel, and a park with
-a tennis court, all sitting on separate small land plots, with a large
-magnifying glass hovering over the group focused on a plain land-plot icon
-labeled "用途" to show that land use, not the visible facility, decides
-the classification.
-地目の分野は、不動産登記事務取扱手続準則68条・69条に列挙された23種類の
-地目の定義を、具体的な土地の使われ方に当てはめられるかが問われます。
-「見た目の施設」ではなく「土地の主な用途」で判断するのがコツです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 宅地と判断される土地
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-石油タンクの敷地も、宅地とすることができる
-Illustration: An isometric large cylindrical oil tank standing on a bare
-land plot with no building on it, the plot tagged with a wooden label
-reading "宅地", and a small crossed-out "建物が必要" icon beside it to
-show a building is not required for the land to be sakuchi.
-Caption (small text below):
-ガスタンクや石油タンクそのものは建物とは認定されないが、これらの敷地は
-宅地として取り扱われる(準則69条10号)。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+石油タンクの敷地も宅地にできる
+Illustration: An isometric large cylindrical oil tank standing alone on a
+bare land plot with no building on it. The plot is tagged with a wooden
+label reading "宅地". Beside the tank, a small icon reading "建物が必要"
+has a red X mark drawn over it, showing that a building is not required
+for the land to be sakuchi.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+建物なしでも宅地
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-温泉を引き込んだ温泉宿の敷地は、宅地
-Illustration: An isometric traditional hot spring inn building on a land
-plot tagged "宅地", connected by a dotted pipe line running from a
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+引き込み温泉宿の敷地は宅地
+Illustration: An isometric traditional hot spring inn building sitting on
+a land plot tagged "宅地". A dotted pipe line runs from the inn to a
 separate small land plot with a bubbling spring icon tagged "鉱泉地",
-showing the inn's land and the spring's wellspring land are different
-plots with different chimoku.
-Caption (small text below):
-鉱泉地は、鉱泉のわき出し口およびその維持に必要な土地の地目。別の土地から
-温泉を引き込んでいる温泉宿の敷地は、わき出し口ではなく建物の敷地なので
-宅地となる(準則68条7号・3号)。
+showing the inn's building land and the spring's wellspring land are two
+different plots with two different chimoku.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+鉱泉地は湧出口のみ
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 用途ごとに決まる地目
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-道路にも使われている堤防の地目は、堤
-Illustration: An isometric cross-section of a levee (dike) built for flood
-prevention, with a small road and pedestrians running along its flat top
-(天端), the whole levee land plot tagged with a wooden label reading "堤".
-Caption (small text below):
-防水のために築造された堤防の土地の地目は堤とする。天端が一般交通の用に
-供する道路として利用されていても、地目は堤のまま(準則68条18号)。
-
---- COLUMN B, CARD 2 ---
-Heading (bold):
-村落の間にある通水路の地目は、井溝
-Illustration: An isometric small narrow water channel running between
-rice paddies and a small village of houses, the channel's land plot
-tagged with a wooden label reading "井溝".
-Caption (small text below):
-田畝または村落の間にある通水路の地目は井溝とする(準則68条19号)。
-
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-テニスコートがあっても、公園にできる
-Illustration: An isometric single park land plot with trees, benches, and
-a tennis court all inside it with no dividing line separating the tennis
-court from the rest of the park, the whole plot tagged with a wooden
-label reading "公園".
-Caption (small text below):
-公衆の遊楽のために供する土地は公園とする。公園内にある運動施設などの
-公園施設の敷地も一体として公園になる(準則68条22号)。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+道路化した堤防の地目は堤
+Illustration: An isometric cross-section of a levee (dike) built for
+flood prevention, with a small road and pedestrians walking along its
+flat top (天端). The whole levee land plot is tagged with a wooden label
+reading "堤", with a small label "道路利用でも" pinned beside the tag.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+地目は堤のまま
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+村落間の通水路は井溝
+Illustration: An isometric small narrow water channel running between
+rice paddies and a small cluster of village houses. The channel's land
+plot is tagged with a wooden label reading "井溝".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+地目は井溝
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+テニスコートも公園に含む
+Illustration: An isometric single park land plot containing trees,
+benches, and a tennis court, with no dividing line separating the tennis
+court from the rest of the park. The whole plot is tagged with a wooden
+label reading "公園", and a small icon labeled "コート部分だけ分割" has a
+red X mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一体で公園
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和4年度 午後の部 第6問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 準・則・地・目・宅・鉱・泉・堤・溝・園・登・記・所. If any
-character renders as a Simplified Chinese variant, redraw that character
-in the correct Japanese form. Confirm the number of cards equals 5 exactly
-(2 cards under 宅地と判断される土地, 3 cards under 用途ごとに決まる地目),
-with no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

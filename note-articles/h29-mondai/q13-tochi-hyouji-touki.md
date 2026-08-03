@@ -77,3 +77,135 @@
 - 全部沈んでも「一時的」なら所有権は消えないんです
 - 河川区域内になったら、その旨の登記をするんです
 - 河川区域の一部滅失、河川管理者が地積変更を嘱託するんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+海没・河川区域に関する5肢を「土地そのものの変化にどう対応するか」（ア・イ・ウ）と「河川区域に関する登記」（エ・オ）の2系統に分け、誤りの肢は正しいルールに直した上で、通し番号1〜5の5枚のカードとして一枚に俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric coastal land plots,
+ocean waves, boundary lines, calendars/clocks for temporary vs permanent
+states, rivers, official stamps, torn paper labels, etc. — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 分・筆・線・誤・抹・消・地・積・変・更・登・記・海・没・常・時・滅・失・河・川・区・域・旨・嘱・託・所・有・権
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+海に沈んだ土地、川になった土地
+どんな登記をすればいい？
+
+Subtitle (smaller, centered, 1行):
+平成29年度 午後の部 第13問－原因と登記の目的の組合せ
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+土地そのものの変化への対応
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆線の誤りは抹消してやり直す
+Illustration: A land plot with an incorrectly drawn 分筆線 (dotted line)
+marked with a red X. A document labeled "分筆の登記" is stamped "抹消".
+Below it, a newly drawn correct 分筆線 appears with a fresh "分筆の登記"
+stamp and a green checkmark. A separate document labeled "地積に関する
+更正の登記" sits off to the side with a red X mark over it, showing this
+is the wrong approach.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+抹消して再分筆
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+一部が常時海没なら地積変更
+Illustration: A coastal land plot with a portion permanently submerged
+under a wave icon, with a small calendar/clock icon labeled "常時" beside
+it. A document labeled "地積に関する変更の登記" shows the area figure
+decreasing from a larger number to a smaller one.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+地積の変更登記
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+一時的な全部水没は滅失登記しない
+Illustration: A land plot fully covered by a wave icon, with a clock icon
+labeled "一時的" beside it, and a before/after arrow showing the water
+receding back to reveal normal land again. A document labeled "滅失の登
+記" is crossed out with a red X.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+所有権は消えない
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+河川区域に関する登記
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+全部が河川区域になったら旨の登記
+Illustration: A land plot entirely inside a dashed boundary labeled "河川
+区域", with a flowing river/water icon beside it. A registry entry stamp
+reads "河川区域内の土地である旨" with a green checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+河川区域である旨
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+河川区域内の一部滅失は地積変更を嘱託
+Illustration: A river washing away a portion of a land plot located
+inside 河川区域. A character labeled "河川管理者" submits a document
+labeled "地積の変更の登記（嘱託）" at the registry counter. A document
+labeled "分筆及び滅失の登記" is crossed out with a red X beside it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+河川管理者が嘱託
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 分筆線の誤りは抹消してやり直す
+2. 一部が常時海没なら地積変更
+3. 一時的な全部水没は滅失登記しない
+4. 全部が河川区域になったら旨の登記
+5. 河川区域内の一部滅失は地積変更を嘱託
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

@@ -87,7 +87,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-敷地権に関する登記の可否を「土地側の制限（地目変更・合筆）」と「建物側の取り扱い（住所変更・合併・表題登記）」の2系統に分け、5肢すべてを正しいルールに直した5枚のカードで1枚に俯瞰できる構成とした。
+敷地権に関する登記の可否を「土地側の制限」と「建物側の取り扱い」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -98,6 +98,17 @@ land plots, registration document stamps, address tags, torn paper labels,
 chain-link icons for merger/consolidation, regulation scrolls — adapt icon
 set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -105,100 +116,93 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・建・物・登・記・所・号・筆 — these have visibly different
-Simplified Chinese forms; render them in their correct Japanese forms only.
+kanji 権・地・建・物・登・記・所・号・筆 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
 敷地権の登記、何が制限され何ができるのか
 
 Subtitle (smaller, centered, 1行):
-令和7年度 午後の部 第13問
+令和7年度 午後の部 第13問－土地側の制限と建物側の取り扱い
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: an isometric apartment building standing on a land plot,
-with a dotted outline connecting the building icon and the land icon to
-show they are bound together as one unit; a small tag reading "敷地権"
-attached to the connection.
-敷地権とは、マンションのような区分建物の所有権と、その建物が建っている
-土地の権利（共有持分など）を、切り離せない一体のものとして扱う仕組みの
-ことです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 土地の登記に関する制限
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-地目を変えるだけなら、敷地権はそのままでOK
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+地目変更に敷地権抹消は不要
 Illustration: an isometric land plot with a small signboard reading
 "敷地権である旨の登記" standing on it unchanged, next to a second signboard
 being swapped from "宅地" to another land-use label, with a crossed-out
 (✕) eraser icon over a separate "敷地権登記の抹消" document to show that
 step is unnecessary.
-Caption (small text below):
-敷地権である旨の登記がされている土地でも、地目を宅地以外に変更するため
-に、あらかじめ敷地権の登記を抹消しておく必要はない。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+抹消は不要
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-敷地権の土地同士は、くっつけられません
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権の土地同士は合筆不可
 Illustration: two adjacent isometric land plots, each with a signboard
 reading "敷地権である旨の登記", with a chain-link icon between them
 crossed out by a red ✕ mark, representing a blocked 合筆 (consolidation)
 registration.
-Caption (small text below):
-隣接する2筆の土地のいずれにも敷地権である旨の登記がされている場合、
-その2筆の合筆の登記はできない（不動産登記法41条6号）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+合筆できない
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 建物の登記に関する取り扱い
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-住所がバラバラなら、まず直すのが先です
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+住所不一致はまず変更登記
 Illustration: an isometric区分建物 building icon and a land plot icon,
 each with a small address tag showing different addresses, and an arrow
 pointing to a document labeled "住所の変更又は更正の登記" placed before
 a second document labeled "敷地権の発生を原因とする表題部の変更の登記",
 showing the required order.
-Caption (small text below):
-区分建物と敷地権の目的となる土地の登記名義人の住所が一致していない
-場合、同一性を証する情報を添付するだけでは足りず、住所の変更又は
-更正の登記を先に行う必要がある。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+変更登記が先
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-ちぐはぐでも、部屋同士はくっつけられます
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+食い違っても建物は合併可
 Illustration: two isometric区分建物 room icons side by side, one
 labeled "甲建物" with a small "敷地権登記あり" tag and the other labeled
 "乙建物" with a small "敷地権登記なし" tag, joined by a chain-link icon
 with a green check mark showing the merger is allowed.
-Caption (small text below):
-甲建物のみに敷地権の登記があり乙建物にはない場合であっても、建物の
-合併の登記を申請することができる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+合併は可能
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-一部だけ特別でも、まとめて登記できます
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+一部だけ規約でも一括登記
 Illustration: an isometric apartment building cross-section showing
 multiple rooms; one room is marked with a torn-paper label reading
 "分離処分可能規約あり" and excluded with a dashed outline, while the
 remaining rooms are grouped together under a single document labeled
 "敷地権に関する事項を記載した表題登記".
-Caption (small text below):
-一棟の建物の区分建物全部について表題登記を申請する際、一部の区分
-建物にのみ分離処分を可能とする規約があるときは、他の区分建物に
-ついてのみ敷地権に関する事項を記載して申請できる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一括登記できる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly
-(2 cards in Column A, 3 cards in Column B), with no duplicated or
-missing cards, and that no card reproduces an "incorrect" statement
-from the original question — every card must show the legally correct
-rule only.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

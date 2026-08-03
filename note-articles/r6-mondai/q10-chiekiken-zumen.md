@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 書面提出の地役権図面には地役権者の署名又は記名押印が必要（規則79条3項、4項） |
-| イ | 誤 | 地役権図面の縮尺は適宜でよく、地積測量図と同一にする必要はない（規則79条2項） |
-| ウ | 誤 | 範囲が一部残る場合でも地役権図面の提供は必要（令別表8項添付情報ロ） |
-| エ | 正 | 新たな地役権図面提供による分筆登記後、従前図面は閉鎖される（規則87条1項） |
-| オ | 誤 | 地役権図面に要役地の所在地番を記録する義務はない |
+- **ア（正）** 書面提出の地役権図面には地役権者の署名又は記名押印が必要（規則79条3項、4項）
+- **イ（誤）** 地役権図面の縮尺は適宜でよく、地積測量図と同一にする必要はない（規則79条2項）
+- **ウ（誤）** 範囲が一部残る場合でも地役権図面の提供は必要（令別表8項添付情報ロ）
+- **エ（正）** 新たな地役権図面提供による分筆登記後、従前図面は閉鎖される（規則87条1項）
+- **オ（誤）** 地役権図面に要役地の所在地番を記録する義務はない
 
 地役権図面のルールは、「分筆後にどこまで地役権の範囲が残るか」という具体的な場面をイメージしながら覚えると整理しやすくなります。
 
@@ -86,103 +84,117 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-地役権図面に関する5つの論点（署名・縮尺・分筆時の提供要否・従前図面の閉鎖・要役地の記載事項）を、「作成・記載のルール」と「分筆登記のときの取扱い」の2列に分けて1枚で俯瞰できる構成にした。
+地役権図面に関する5肢を、「図面の作成・記載に関するルール（署名・縮尺・要役地の記載事項）」と「分筆登記のときの取扱い（提供要否・従前図面の閉鎖）」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。導入イラストや説明文のブロックは置かない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric surveyor's desks,
+land plots, diagram sheets, filing shelves, stamps, torn paper labels,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Pay special
-attention to the characters 役・図・面・筆・閉・鎖・縮・尺・積・測・量・
-地・番・登・記・規・則・令・表・付・所・権・号・録・建・物 — do not render
-any of them as Simplified Chinese variants. Reproduce the exact text
-strings given below verbatim — do not paraphrase, translate, summarize,
-or substitute any characters.
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 役・地・権・図・面・縮・尺・積・測・量・閉・鎖 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
 地役権図面のルール、これで迷わない
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第10問
+令和6年度 午後の部 第10問－署名・縮尺・分筆時の取扱い
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric surveyor's desk scene showing a 承役地
-(servient land) plot document with a dotted-line easement area drawn on
-it, a stamp, and a pen — conveying "a diagram attached to a land
-registration."
-地役権図面は、承役地の登記記録に地役権の範囲を示す図面です。誰が署名するか、縮尺は自由か、分筆のときに提供や閉鎖がどうなるかを、場面ごとに整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 図面の作成・記載に関するルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-書面提出の地役権図面には、署名か記名押印が必要なんです
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+署名か記名押印が必要
 Illustration: An isometric person at a desk signing a paper document by
-hand, with a hanko (name seal) stamp resting beside it, emphasizing
-"署名" (signature) written next to the hand and "記名押印" (name entry
-plus seal) written next to the stamp.
-Caption (small text below):
-不動産登記規則79条3項、4項
+hand, with a hanko (name seal) stamp resting beside it. The word "署名"
+is written next to the hand, and "記名押印" is written next to the stamp.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+署名・記名押印必須
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-地役権図面の縮尺、地積測量図と揃えなくていいんです
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+縮尺は地積測量図と別でよい
 Illustration: Two isometric drawing boards side by side, one labeled
-「地役権図面」with a small ruler icon, the other labeled「地積測量図」with
+"地役権図面" with a small ruler icon, the other labeled "地積測量図" with
 a different-sized ruler icon, connected by a crossed-out equals sign to
 show the scales do not need to match.
-Caption (small text below):
-不動産登記規則79条2項
+Conclusion tag (green banner below the illustration, 5-15 characters):
+縮尺は自由
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-地役権図面に、要役地の住所までは書かないんです
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+要役地の地番は記載不要
 Illustration: An isometric diagram sheet with the 承役地 (servient land)
-section clearly filled in with地番, while the 要役地 (dominant land)
-section is shown as a faded, dashed placeholder box, with a small
-「記載不要」tag pointing at the dashed box.
-Caption (small text below):
-承役地の所在は記載するが、要役地の所在地番は記録事項ではない
+section clearly filled in with a 地番 label, while the 要役地 (dominant
+land) section is shown as a faded, dashed placeholder box, with a small
+"記載不要" tag pointing at the dashed box.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+要役地は記載不要
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 分筆登記のときの取扱い
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-範囲が一部残るなら、地役権図面はやっぱり必要なんです
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+範囲が一部残るなら提供必要
 Illustration: An isometric land plot being split by a dotted cut line
 into two smaller plots; one of the resulting plots still carries a
 shaded 地役権 overlay, with an arrow pointing from that plot to a new
-document icon labeled「地役権図面 提供必要」.
-Caption (small text below):
-不動産登記令別表8項添付情報ロ
+document icon labeled "地役権図面 提供必要".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+図面提供は必要
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-新しい図面を出せば、古い地役権図面は閉鎖されるんです
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+新図面提供で従前図面閉鎖
 Illustration: An isometric filing shelf showing an old document stamped
-in red with「閉鎖」being slid to the back, while a new document labeled
-「新たな地役権図面」is being placed in front of it.
-Caption (small text below):
-不動産登記規則87条1項
+in red with "閉鎖" being slid to the back, while a new document labeled
+"新たな地役権図面" is being placed in front of it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+従前図面は閉鎖
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-出典：令和6年度 土地家屋調査士試験 午後の部 第10問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, and confirm each card's heading and
-caption text matches the strings given above verbatim.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

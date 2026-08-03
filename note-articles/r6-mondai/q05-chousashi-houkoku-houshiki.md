@@ -52,13 +52,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 地役権設定範囲を証する書面は第三者の意思確認書面であり、原本提示が必要 |
-| イ | 正 | 委任状は申請人自身が作成した書面であり、調査士報告方式の対象 |
-| ウ | 正 | 工事完了引渡証明書は定型的な所有権証明書面であり、調査士報告方式の対象 |
-| エ | 誤 | 表題部所有者の承諾書は本人の意思確認書面であり、原本提示が必要 |
-| オ | 誤 | 抵当権者の承諾書も第三者の意思確認書面であり、原本提示が必要 |
+- **ア（誤）** 地役権設定範囲を証する書面は第三者の意思確認書面であり、原本提示が必要
+- **イ（正）** 委任状は申請人自身が作成した書面であり、調査士報告方式の対象
+- **ウ（正）** 工事完了引渡証明書は定型的な所有権証明書面であり、調査士報告方式の対象
+- **エ（誤）** 表題部所有者の承諾書は本人の意思確認書面であり、原本提示が必要
+- **オ（誤）** 抵当権者の承諾書も第三者の意思確認書面であり、原本提示が必要
 
 「申請人自身が作成した書面か、それとも第三者の意思確認を担保すべき書面か」という視点で仕分けると、対象・対象外の判断がつきやすくなります。
 
@@ -88,87 +86,103 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「申請人自身が作成した書面か、第三者の意思確認を担保すべき書面か」という一つの軸でア〜オ5肢を2列に仕分け、調査士報告方式の対象・対象外を1枚で俯瞰できる構成にした。
+「対象となる書面（原本提示は不要）」と「対象とならない書面（原本提示が必要）」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric documents, stamps,
 buildings, land plots, torn paper labels, etc. — adapt icon set to the
 topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Pay special
-attention to the kanji 権・地・建・物・登・記・所 — render them in their
-standard Japanese (Jōyō) form, never as Simplified Chinese variants.
-Reproduce the exact text strings given below verbatim — do not paraphrase,
-translate, summarize, or substitute any characters.
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・地・建・物・登・記・所 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 原本提示が省略できる書面／できない書面
 
 Subtitle (smaller, centered, 1行):
-調査士報告方式の対象を見分ける（令和6年度 午後の部 第5問）
+令和6年度 午後の部 第5問－調査士報告方式の対象を見分ける
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 土地家屋調査士（女性、事務服）が、タブレットと5種類の書類の山を前にして、書類を左右に仕分けている構図。左側の書類には「申請人が作成」の付箋、右側の書類には「第三者の意思確認」の付箋が付いている。
-調査士報告方式は、電子申請の際に一定の添付情報について原本提示を省略できる実務上の取扱いです。「申請人自身が作成した書面か、第三者の意思確認を担保すべき書面か」という視点で、対象となる書面と対象とならない書面を仕分けます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 対象となる書面（原本提示は不要）
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-委任状は申請人自身が作成した書面
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+委任状は申請人自身が作成
 Illustration: 依頼者（申請人）が「委任状」と書かれた書類にサインし、土地家屋調査士に手渡している場面。書類アイコンに「委任状」のラベル。申請人から調査士へ向かう矢印。
-Caption (small text below):
-建物の滅失登記等の代理権限を証する委任状は、申請人本人が作成する書面であるため、調査士報告方式の対象となります。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+原本提示は不要
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-工事完了引渡証明書は定型的な所有権証明書面
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+工事完了引渡証明書も対象
 Illustration: 工務店の作業員が「工事完了引渡証明書」と書かれた書類を、新築の建物（アイソメトリック）の前で施主に手渡している場面。書類アイコンに「工事完了引渡証明書」のラベル。
-Caption (small text below):
-建物の表題登記で用いる工事完了引渡証明書は、第三者（工事施工会社）作成でも定型的な所有権証明書面として、調査士報告方式の対象となります。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+原本提示は不要
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 対象とならない書面（原本提示が必要）
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-地役権設定範囲を証する書面は原本提示が必要
-Illustration: 分筆された承役地（土地のアイソメトリック、一部にハッチングで地役権設定範囲を表示）の前で、地役権者が「地役権設定の範囲を証する書面」と書かれた書類にサインしている場面。
-Caption (small text below):
-地役権者という第三者の意思を証する書面であるため、調査士報告方式の対象外となり、原本の提示が必要です。
-
---- COLUMN B, CARD 2 ---
-Heading (bold):
-表題部所有者の承諾書は原本提示が必要
-Illustration: 表題部所有者が「承諾書」と書かれた書類にサインしている場面。背景に建物のアイソメトリックアイコンと「表題部所有者の更正の登記」のラベル。
-Caption (small text below):
-表題部所有者本人の意思確認を担保する書面であるため、調査士報告方式の対象外となり、原本の提示が必要です。
-
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-抵当権者の承諾書も原本提示が必要
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+地役権設定範囲の証明書は必要
+Illustration: 分筆された承役地（土地のアイソメトリック、一部にハッチングで地役権設定範囲を表示）の前で、地役権者が「地役権設定の範囲を証する書面」と書かれた書類にサインしている場面。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+原本提示が必要
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題部所有者の承諾書は必要
+Illustration: 表題部所有者が「承諾書」と書かれた書類にサインしている場面。背景に建物のアイソメトリックアイコンと「表題部所有者の更正の登記」のラベル。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+原本提示が必要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+抵当権者の承諾書も必要
 Illustration: 抵当権付きの甲建物と抵当権のない乙建物が合体して1個の建物になる様子（矢印で合体を表現）の前で、抵当権者が「承諾書」と書かれた書類にサインしている場面。
-Caption (small text below):
-抵当権者という第三者の権利処分の意思を証する書面であるため、調査士報告方式の対象外となり、原本の提示が必要です。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+原本提示が必要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — especially
-権・地・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly (2 cards in the left column,
-3 cards in the right column), with no duplicated or missing cards, and
-confirm no card describes an incorrect ("誤") statement as if it were the
-correct rule.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (2
+cards in Column A, 3 cards in Column B), with no duplicated or missing
+cards, that badge numbers run 1-5 continuously across both columns
+without resetting, confirm there is no intro illustration or paragraph
+block between the header and the cards, and confirm that no card contains
+a full sentence of explanatory prose — every card's takeaway must read
+as a short heading + a short conclusion tag, at a glance.
 ```

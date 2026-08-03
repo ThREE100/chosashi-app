@@ -83,7 +83,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-相続放棄の申述先・財産管理義務・単純承認とみなされる行為の境界という「基本ルール」の列と、限定承認における弁済順序・共同要件という「限定承認のルール」の列の2列構成で、この問題の5肢の要点を1枚で俯瞰する。
+相続放棄の申述先・財産管理義務・単純承認とみなされる行為の境界という「手続きの基本」の列と、限定承認における弁済順序・共同要件という「限定承認のルール」の列に分け、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
@@ -93,15 +93,26 @@ modern explainer-graphic aesthetic (icons: isometric courthouse and
 government-office buildings, family/house icons, coin stacks, torn paper
 labels, calendar/clock icons, etc. — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Pay special attention to 続, 権, 産, 処,
-放, 棄, 認, 続, 庭, 裁, 債, 遺 — render each in its standard Japanese form,
-never the Simplified Chinese variant. Every kanji must match standard
-Japanese orthography exactly as written below, stroke-for-stroke.
-Reproduce the exact text strings given below verbatim — do not paraphrase,
-translate, summarize, or substitute any characters.
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 続・権・産・処・放・棄・認・庭・裁・債・遺 — these must be rendered
+in their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -109,82 +120,81 @@ Title (large, bold, 2行):
 重要ポイント整理
 
 Subtitle (smaller, centered, 1行):
-法務局と家庭裁判所の違い、保存行為、共同相続人の限定承認
+令和7年度 午後の部 第3問－法務局と家庭裁判所の違い、保存行為、限定承認
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene of a person standing at a fork in a road
-in front of a house icon labeled 相続財産. Three signposts point down
-three paths labeled 単純承認, 限定承認, 相続放棄.
-相続人は、相続の開始を知ったときから熟慮期間内に、単純承認・限定承認・
-相続放棄のいずれかを選択する。決定までの財産管理や手続きの場所を誤ると、
-思わぬ不利益を受けることがある。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 手続きの基本（申述先・管理義務・処分行為）
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
 相続放棄の申述先は家庭裁判所
 Illustration: An isometric government building labeled 法務局 with a red
 X mark over it, and an arrow pointing to a separate isometric courthouse
 building labeled 家庭裁判所 with a green checkmark, with a person holding
 a document walking toward the courthouse.
-Caption (small text below):
-相続の放棄をしようとする者は、その旨を家庭裁判所に申述しなければならない
-（法務局ではない）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+家庭裁判所へ申述
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-承認・放棄を決めるまでは固有財産と同一の注意で管理
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+決定まで固有財産と同一の注意で管理
 Illustration: An isometric balance scale with a house icon labeled
 固有財産 on one side and a house icon labeled 相続財産 on the other side,
 balanced evenly, with a small shield icon above each house.
-Caption (small text below):
-相続人は、承認又は放棄をするまでの期間中、その固有財産におけるのと同一の
-注意をもって相続財産を管理しなければならない
+Conclusion tag (green banner below the illustration, 5-15 characters):
+固有財産と同一の注意
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
 保存行為だけでは単純承認とみなされない
 Illustration: An isometric house split by a vertical dividing line. Left
 side shows small maintenance icons (a roof being repaired, a lock being
 changed) labeled 保存行為 with a green checkmark. Right side shows a cash
 icon and a person carrying furniture away labeled 処分行為 with a red
 stamp reading 単純承認.
-Caption (small text below):
-相続財産の処分をしたときは単純承認とみなされるが、保存行為はこれに
-含まれない
+Conclusion tag (green banner below the illustration, 5-15 characters):
+保存行為は対象外
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 限定承認のルール
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
 限定承認は相続債権者が先、遺贈は後
 Illustration: An isometric sequential flow with a coin stack icon labeled
 相続債権者 marked with a large number 1, an arrow pointing right, then a
 torn paper label icon labeled 受遺者 marked with a large number 2.
-Caption (small text below):
-限定承認者は、民法の規定に従って各相続債権者に弁済をした後でなければ、
-受遺者に弁済をすることができない
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+債権者が先、遺贈は後
 
 --- COLUMN B, CARD 5 ---
-Heading (bold):
-期間徒過の相続人がいても全員での限定承認は可能
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+期間徒過があっても全員で限定承認可
 Illustration: Two isometric person icons labeled 兄 and 弟, each next to
 a clock icon; the clock next to 兄 shows a red X (期間経過), the clock
 next to 弟 shows a green checkmark (期間内)。An arrow from both people
 converges into a single stamped document labeled 限定承認（共同）。
-Caption (small text below):
-共同相続人のうちの一人について期間が経過していても、他の相続人の期間内
-であれば、全員共同して限定承認をすることができる
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+全員での限定承認は可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards.
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

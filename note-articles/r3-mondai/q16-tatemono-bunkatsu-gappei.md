@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 区分建物の附属建物どうしは、接続していなければ分割・合併できない（規則35条3号） |
-| イ | 誤 | 乙建物には「分割した旨」ではなく「何番から合併」と記録される（準則100条2項） |
-| ウ | 正 | 分割で甲の所在地番が変わっても、変更登記を併せて申請する必要はない |
-| エ | 誤 | 提供するのは甲の保存登記時ではなく乙建物の登記識別情報（規則128条2項） |
-| オ | 誤 | 敷地権の割合の相違は合併の制限に当たらない（法56条） |
+- **ア（正）** 区分建物の附属建物どうしは、接続していなければ分割・合併できない（規則35条3号）
+- **イ（誤）** 乙建物には「分割した旨」ではなく「何番から合併」と記録される（準則100条2項）
+- **ウ（正）** 分割で甲の所在地番が変わっても、変更登記を併せて申請する必要はない
+- **エ（誤）** 提供するのは甲の保存登記時ではなく乙建物の登記識別情報（規則128条2項）
+- **オ（誤）** 敷地権の割合の相違は合併の制限に当たらない（法56条）
 
 建物の分割・合併は、「接続の要件」「登記記録に何と記録されるか」「どの登記識別情報を提供するか」という細部で正誤が決まります。条文と準則の取扱いをセットで押さえておきましょう。
 
@@ -97,6 +95,17 @@ modern explainer-graphic aesthetic (icons: isometric apartment buildings,
 registry ledgers, keys, stamps, pie charts, torn paper labels, etc. —
 adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -119,81 +128,89 @@ Subtitle (smaller, centered, 2行):
 附属建物の接続要件・記録事項・登記識別情報の落とし穴
 （令和3年度 午後の部 第16問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Two isometric multi-story buildings, 甲建物 on the left and
-乙建物 on the right, each with a small attached box labeled 附属建物. A
-small dolly/cart icon carries the 附属建物 box from 甲建物 toward 乙建物
-along a dashed path. In the foreground, an open isometric ledger book
-labeled 登記記録 sits under a magnifying glass.
-建物の分割・合併の登記は、附属建物をどう切り離し、どう別の建物にくっつけ
-るかというテーマです。区分建物どうしの「接続」の要件、登記記録に何がどう
-記録されるか、そして分割・合併の申請でどの登記識別情報を提供するのか
-——細かい取扱いの違いが正誤の分かれ目になります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-接続していない附属建物同士は分割・合併できない
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+非接続の附属建物は合併不可
 Illustration: Two isometric buildings labeled 甲建物 and 乙建物, each with
 a small box labeled 附属建物. In one scene the two 附属建物 boxes touch
 directly with a green checkmark and the label 接続; in a second, faded
 scene the two 附属建物 boxes are drawn apart with a visible gap and a red
 circle-slash prohibition icon over a merge arrow, labeled 接続していない.
-Caption (small text below):
-区分建物の附属建物どうしは、接続していなければ分割・合併できない（規則
-35条3号）
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+接続要件は必須
 
 --- CARD 2 ---
-Heading (bold):
-乙建物に記録されるのは「合併」であって「分割」ではない
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+乙建物には「合併」と記録される
 Illustration: An isometric open ledger book on the 乙建物 side, with a
 stamp icon reading「何番から合併」being pressed onto the page. Beside it,
 a separate label reading「分割した旨」is shown crossed out with a red X,
 indicating this wording is not what actually gets recorded.
-Caption (small text below):
-乙建物には「分割した旨」ではなく「何番から合併」と記録される（準則
-100条2項）
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+分割とは書かない
 
 --- CARD 3 ---
-Heading (bold):
-所在地番の変更登記は、別途申請しなくてよい
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地番変更登記は別途申請不要
 Illustration: An isometric 甲建物 with a floating label showing its 地番
 changing (old 地番 crossed out, new 地番 written beside it). Next to the
 building, one document icon labeled「分割の登記の申請」has a green
 checkmark; a second document icon labeled「建物表題部の変更登記の申請」
 has a red circle-slash, showing it is unnecessary.
-Caption (small text below):
-分割で甲の所在地番が変わっても、変更登記を併せて申請する必要はない
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+分割申請のみで足りる
 
 --- CARD 4 ---
-Heading (bold):
-合併登記に提供するのは、乙建物の登記識別情報
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+提供するのは乙建物の識別情報
 Illustration: An isometric key icon labeled「乙建物の登記識別情報」being
 handed toward a registry counter. A second key icon labeled「甲建物の保存
 登記完了時の登記識別情報」is shown crossed out with a red X, indicating it
 is not the one to provide.
-Caption (small text below):
-提供するのは甲の保存登記時ではなく乙建物の登記識別情報（規則128条2項）
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+甲の識別情報は不可
 
 --- CARD 5 ---
-Heading (bold):
-敷地権の割合の違いは、合併を妨げない
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+敷地権割合の違いは合併の妨げでない
 Illustration: Two isometric buildings, 甲建物 and 乙建物, standing on the
 same plot labeled 丙土地. Above each building, a small pie-chart icon
 shows differing 敷地権の割合 (one larger slice, one smaller slice).
 Between the buildings, a merge arrow with a green checkmark shows the
 merger is still permitted.
-Caption (small text below):
-敷地権の割合の相違は合併の制限に当たらない（法56条）
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+割合差は無関係
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験　令和3年度 午後の部 第16問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay particular
 attention to 号, 録, 権, 地, 番, 建, 物, 登, 記, 所. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly
-(接続要件／記録内容／所在地番変更／登記識別情報／敷地権割合の5枚)、with
-no duplicated or missing cards.
+(接続要件／記録内容／所在地番変更／登記識別情報／敷地権割合の5枚), with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```
