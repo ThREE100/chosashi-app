@@ -81,3 +81,128 @@
 - 団地共用部分の滅失、所有者証明が必要なんです
 - 借地の建物も、賃借権登記なしで滅失登記義務があるんです
 - 抵当権が付いてても、承諾書はいらないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の滅失の登記に関する5肢を、「添付情報が不要な場面」（ア・イ・オ）と「添付情報が必要な場面・申請義務」（ウ・エ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric demolished buildings
+with dust clouds, document stamps, prohibition marks, condo/shared-area
+icons, calendar countdown icons — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 滅・失・登・記・証・明・書・団・地・権, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の滅失登記
+印鑑証明書も承諾書もいらない
+
+Subtitle (smaller, centered, 1行):
+添付情報の要否と申請義務を整理(平成29年度 午後の部 第18問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design building icon collapsing into a
+pile of rubble with a small dust-cloud puff, and a registry ledger page
+beside it stamped "滅失登記" with several document icons around it, some
+crossed out with prohibition marks and some circled with checkmarks.
+建物の滅失の登記は、建物がなくなったという客観的な事実を登記記録に
+反映させる手続です。滅失登記に印鑑証明書や承諾書が必要か、建物図面の
+添付が必要な場面、借地上の建物の申請義務の有無を整理できているかが
+問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+添付情報が不要な場面
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+滅失登記の申請に、印鑑証明書は不要
+Illustration: An isometric building icon collapsing into rubble, with a
+person figure labeled "所有権の登記名義人" standing beside it holding
+only a simple "滅失登記" application document, and a crossed-out印鑑
+証明書 (personal seal certificate) icon floating away with a prohibition
+mark.
+Caption (small text below):
+建物の所有権の登記名義人が当該建物を自ら取り壊した場合において、滅失
+の登記の申請をするときは、当該登記名義人の印鑑に関する証明書を添付
+する必要はない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+建物図面がない建物の滅失登記でも、新たな図面は不要
+Illustration: An isometric collapsed building rubble pile with no
+blueprint document anywhere nearby, a crossed-out建物図面 (floor plan
+blueprint) icon floating away with a prohibition mark, showing the
+absence of a pre-existing floor plan doesn't require creating one now.
+Caption (small text below):
+建物図面が備え付けられていない建物を取り壊した場合において、滅失の
+登記の申請をするときも、建物図面を新たに添付する必要はない。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+滅失登記に、抵当権者の承諾は不要
+Illustration: An isometric burning/collapsing building icon with a
+chain-link (抵当権) icon attached, and a crossed-out "承諾を証する情報"
+document floating away from the抵当権者 figure with a prohibition mark,
+since the building's disappearance is an objective fact requiring no
+consent.
+Caption (small text below):
+抵当権の設定の登記がある建物が焼失した場合において、滅失の登記の申請
+をするときも、抵当権の登記名義人の承諾を証する情報を添付する必要は
+ない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+添付情報が必要な場面・申請義務
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+団地共用部分の滅失登記には、所有者を証する情報が必要
+Illustration: An isometric shared community-hall building icon (団地
+共用部分) collapsing into rubble, with a person figure holding up a
+"所有者を証する情報" document that must be attached to the滅失登記
+application, shown with a checkmark rather than a crossed-out mark.
+Caption (small text below):
+団地共用部分である旨の登記がある建物の滅失の登記を申請する場合には、
+当該建物の所有者を証する情報を添付しなければならない(令別表17項)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+借地上の建物も、賃借権登記の有無を問わず滅失登記義務がある
+Illustration: An isometric small house icon standing on a land plot
+labeled "借地"、with no chain-link (賃借権登記) icon attached to the
+land, yet the collapsing building still shows a countdown-calendar icon
+labeled "1か月以内" pointing to a "滅失登記" stamp that must still be
+filed.
+Caption (small text below):
+借地上に存する建物の所有権の登記名義人が当該建物を建替えのために取り
+壊した場合には、当該借地に賃借権の設定の登記がされていないときで
+あっても、当該建物の滅失の登記を申請しなければならない(法57条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第18問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 滅・失・登・記・証・明・書・団・地・権. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 添付情報が不要な場面, 2 cards under 添付情報が必要な場面・
+申請義務), with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```
