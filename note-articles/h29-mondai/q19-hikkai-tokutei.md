@@ -81,3 +81,131 @@
 - 質問するにも、登記官の許可がいるんです
 - 承諾があれば、日出前でも立ち入れるんです
 - 結果が出る前でも、資料は閲覧できるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+筆界特定に関する5肢を、「筆界特定という制度の目的」（ア）と「手続の進め方（測量・質問・立入り・閲覧）」（イ・ウ・エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land-boundary
+survey tools, measuring tapes, official committee-member figures,
+speech-bubble question marks, sunrise/sunset icons, document folders —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 筆・界・特・定・登・記・官・調・査・委, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+筆界特定は「所有権の境界」を
+決めるものじゃない
+
+Subtitle (smaller, centered, 1行):
+手続の進め方を整理(平成29年度 午後の部 第19問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design pair of adjacent land plots with
+a dotted line between them labeled "筆界(公法上の境界)"、clearly separated
+from a second faded overlapping icon labeled "所有権の境界(私法上)" with
+a crossed-out equals sign between the two concepts.
+筆界特定制度は、裁判によらずに、公法上の境界(筆界)がどこにあるかを
+登記官が判断する手続です。筆界特定の目的、測量・実地調査の進め方、
+筆界調査委員の質問権に登記官の許可が要るか、資料の閲覧の可否を整理
+できているかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+筆界特定という制度の目的
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+筆界特定は、所有権の境界の特定を目的としない
+Illustration: An isometric筆界調査委員 figure holding a measuring tool
+pointed at a dotted "筆界" line between two land plots, with a crossed-
+out "所有権の境界" label and a red prohibition mark showing this is
+outside the scope of the survey.
+Caption (small text below):
+筆界調査委員は、対象土地の筆界特定のために必要な事実の調査に当たって
+は、筆界特定が対象土地の所有権の境界の特定を目的とするものでないこと
+に留意しなければならない(法135条2項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+手続の進め方（測量・質問・立入り・閲覧）
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+立会いの機会を与えれば、立会いなしでも測量・実地調査ができる
+Illustration: An isometric筆界調査委員 figure standing on a land plot
+with measuring equipment, sending a notification letter icon to two
+person figures labeled "申請人" and "関係人" who are shown absent (empty
+chairs), yet the survey proceeds anyway with a checkmark.
+Caption (small text below):
+筆界調査委員は、あらかじめ測量又は実地調査を行う旨並びに日時及び場所
+を申請人及び関係人に通知して立ち会う機会を与えた場合には、立会いが
+ないときでも測量又は実地調査をすることができる(法136条1項)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+質問を発するには、筆界特定登記官の許可が必要
+Illustration: An isometric筆界調査委員 figure with a speech-bubble
+question mark aimed at a申請人 figure, but blocked by a red prohibition
+icon until a separate筆界特定登記官 figure stamps an "許可" seal that
+unlocks the speech bubble.
+Caption (small text below):
+筆界調査委員は、意見聴取等の期日に立ち会う場合には、筆界特定登記官の
+許可を得て、申請人若しくは関係人又は参考人に対し質問を発することが
+できる(法140条3項)。
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+占有者の承諾があれば、日出前でも立ち入ることができる
+Illustration: An isometric fenced land plot icon with a "他人の占有する
+土地" label, a sunrise icon on the horizon showing "日出前"、and a
+筆界調査委員 figure stepping through the fence gate because a占有者
+figure is holding up a "承諾" stamped document, removing the usual
+red prohibition mark for entering before sunrise.
+Caption (small text below):
+筆界調査委員は、柵で囲まれた他人の占有する土地の実地調査をする場合に
+おいて、当該土地の占有者の承諾があるときは、日出前であっても、当該
+土地に立ち入ることができる(法137条4項)。
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+関係人は、筆界が特定される前でも調書・資料を閲覧できる
+Illustration: An isometric関係人 figure standing at a registry-office
+counter reaching for a folder labeled "調書及び提出された資料"、with a
+timeline behind them showing "公告" on the left and "筆界特定" on the
+right still unreached, yet the folder is handed over with a checkmark
+rather than a prohibition mark.
+Caption (small text below):
+筆界特定の関係人は、筆界が特定されるまでの間であっても、当該筆界特定
+の手続において作成された調書及び提出された資料の閲覧を請求すること
+ができる(法141条1項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第19問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 筆・界・特・定・登・記・官・調・査・委. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (1
+card under 筆界特定という制度の目的, 4 cards under 手続の進め方（測量・
+質問・立入り・閲覧）), with no duplicated or missing cards, and confirm
+every heading, illustration label, and caption text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters.
+```
