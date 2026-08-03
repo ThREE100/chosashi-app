@@ -70,6 +70,7 @@
 - 出題年度・問題番号・正解番号（4番＝ウ・オ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - 各肢の根拠は、ア・エ（不動産登記法14条、不動産登記規則88条：地図の記録事項）、ウ（不動産登記規則10条：地図の縮尺区分）、オ（不動産登記法120条：地図の閲覧は利害関係の限定なく請求可能）まで条文レベルで確認できています。イ（地図訂正の申出と地積更正登記の関係）は不動産登記規則の運用に基づく実務上の取扱いとして整理しています。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。地図（17条地図）の作成基準・閲覧請求がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令チェック（2026-08-03実施）**：地図の作成基準（不動産登記規則10条の縮尺区分）及び閲覧請求（不動産登記法120条）に関する規定について確認しましたが、直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。
 
 ---
 
@@ -80,3 +81,136 @@
 - 三角点の位置まで、地図に載っているんです
 - 地図の閲覧、実は誰でもできちゃうんです
 - 縮尺は地域ごとに変わるって知ってた？
+
+---
+
+## 見出し画像用フレーズの次に：問題全体のインフォグラフィック プロンプト
+
+以下は、`infographic-prompt-template.md` のルール（②問題全体のインフォグラフィック）に従って作成した、画像生成AI（GPT Image 2等）向けのプロンプトです。画像はこのリポジトリでは生成せず、プロンプト文のみを掲載しています。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to kanji
+that differ visually from Simplified Chinese equivalents, such as 号・録・
+権・地・番・建・物・登・記・所— render them in standard Japanese form only.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地図(17条地図) 5つの原則
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第5問 徹底解説
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: soft beige) ---
+地図の作成・記録内容
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in soft beige containing the number 1 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地図は区画と地番を明確にする
+Illustration: An isometric map grid showing several land-plot squares each with a clear boundary line and a number tag (地番) on it, a magnifying glass hovering over the boundaries with a green checkmark (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+区画と地番を明示
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in soft beige containing the number 2 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+田畑地域は2,500分の1ではない
+Illustration: An isometric rice-paddy field icon next to a ruler icon showing 500分の1・1,000分の1 with a green checkmark, a mountain/forest icon off to the side showing 2,500分の1 with a red X crossing it out to show it's the wrong scale for farmland (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+500〜1000分の1
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled circle in soft beige containing the number 3 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地図には基本三角点も記録される
+Illustration: An isometric triangulation-point marker icon (small pyramid post) placed on the map grid, a dashed measurement line connecting it to the land plots, labeled 基本三角点等 (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+測量基準点も記録
+
+--- COLUMN B HEADER (pill-shaped badge, color: soft blue) ---
+地図に関する手続
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in soft blue containing the number 4 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地積の錯誤は更正登記と併せる
+Illustration: An isometric map-correction icon (a pencil eraser fixing a boundary line) tied by a paperclip to a separate document icon labeled 地積の更正の登記, both submitted together (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+訂正申出と併せ申請
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in soft blue containing the number 5 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地図の閲覧は誰でもできる
+Illustration: An isometric registry-window counter with many different figures (business person, elderly person, student) lined up, all being handed a copy of the map with a green checkmark, no ID-check icon present (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+利害関係不要
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

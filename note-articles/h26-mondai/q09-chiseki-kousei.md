@@ -70,6 +70,7 @@ A及びBが共有する土地について、Aが単独で地積の更正の登�
 - 出題年度・問題番号・正解番号（5番＝ウ・オ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - ア（地積の更正の登記に申請義務規定がないこと）、エ（申請人が表題部所有者・所有権登記名義人に限られること）、オ（共有者の一人による単独申請の可否）は不動産登記法・実務解説の内容と整合しています。ウ（地積減少時の抵当権者の承諾の要否）とイ（代位申請時の地積更正登記の可否）についても実務上確立した取扱いとして整理していますが、根拠条文の逐条確認までは至っていない部分があります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。地積の更正の登記の申請人・添付情報がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令チェック（2026-08-03実施）**：令和5年4月1日施行の共有制度改正（民法252条等、共有物の管理・変更に関する意思決定ルールの見直し）が肢オ（共有者の一人による地積の更正の登記の単独申請）に影響しないかを確認しました。この改正は共有物の利用・管理方法に関する共有者間の意思決定ルールの見直しであり、表示に関する登記における保存行為としての単独申請の扱い（不動産登記法上の申請人適格の問題）には影響しないことを確認しました。他の肢についても、直近の法改正で結論に影響するものは見当たりませんでした。
 
 ---
 
@@ -80,3 +81,136 @@ A及びBが共有する土地について、Aが単独で地積の更正の登�
 - 地積が減っても、抵当権者の承諾はいらないんです
 - 更正登記、抵当権者は申請できないんです
 - 共有者の一人でも、単独で申請できるんです
+
+---
+
+## 見出し画像用フレーズの次に：問題全体のインフォグラフィック プロンプト
+
+以下は、`infographic-prompt-template.md` のルール（②問題全体のインフォグラフィック）に従って作成した、画像生成AI（GPT Image 2等）向けのプロンプトです。画像はこのリポジトリでは生成せず、プロンプト文のみを掲載しています。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to kanji
+that differ visually from Simplified Chinese equivalents, such as 号・録・
+権・地・番・建・物・登・記・所— render them in standard Japanese form only.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地積の更正の登記 5つの原則
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第9問 徹底解説
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: soft beige) ---
+申請人・申請義務
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in soft beige containing the number 1 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+更正登記に1か月以内の義務なし
+Illustration: An isometric land-survey clipboard showing a corrected area number, a crossed-out stopwatch icon labeled 1か月, next to it a calendar with no deadline marked (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+申請期限なし
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in soft beige containing the number 2 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+申請人は表題部所有者と名義人だけ
+Illustration: An isometric land plot with two figures holding a 地積更正 document (表題部所有者・所有権登記名義人), a bank/mortgage-holder figure standing apart with a crossed-out document (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+抵当権者は不可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled circle in soft beige containing the number 3 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+共有者の一人で単独申請できる
+Illustration: An isometric shared land plot with two co-owner figures A and B, A alone submitting a 地積更正 document with a green checkmark, no consent-signature icon required from B (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+保存行為で単独可
+
+--- COLUMN B HEADER (pill-shaped badge, color: soft gray) ---
+代位・承諾の要否
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in soft gray containing the number 4 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+誤差超過なら代位で更正登記も可
+Illustration: An isometric land plot split by a dashed 分筆 line with a time-lapse figure (時効取得者) pointing an arrow labeled 代位 toward a 地積更正 document, a green checkmark despite an 誤差の限度 warning icon (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft gray, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+代位申請できる
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in soft gray containing the number 5 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地積減少でも抵当権者の承諾不要
+Illustration: An isometric land plot shrinking (area number decreasing with a downward arrow), a bank/mortgage icon standing nearby with a crossed-out signature/consent document (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft gray, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+承諾情報は不要
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

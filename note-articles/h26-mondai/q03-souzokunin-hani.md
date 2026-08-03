@@ -68,6 +68,7 @@ Aの死亡前にCとGがいずれも死亡していた場合、第1順位の相�
 - 出題年度・問題番号・正解番号（5番）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - 各肢の条文根拠について、1（民法32条の2、887条2項）、2（民法891条1号）、4（民法887条2項）は条文に明記された内容です。3（直系尊属の相続順位における親等優先のルール、民法889条1項1号）と5（離婚と血族関係の帰趨）は、条文の直接的な規定というより、条文の趣旨・親族法の一般原則からの整理となっています。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。相続人の範囲（同時死亡推定・相続欠格・代襲相続・相続放棄・離婚）がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令チェック（2026-08-03実施）**：平成30年民法（相続法）改正（自筆証書遺言の方式緩和、配偶者居住権の新設、特別の寄与制度等、令和元年7月1日施行）の影響を確認しましたが、この改正は遺言・遺産分割・遺留分等の規定が中心であり、本問で問われている同時死亡の推定（32条の2）、相続欠格（891条）、代襲相続（887条2項）、相続放棄（939条）、離婚と親子関係の帰趨といった相続人の範囲に関する基本規定には変更がなく、各肢の結論に影響しません。
 
 ---
 
@@ -78,3 +79,125 @@ Aの死亡前にCとGがいずれも死亡していた場合、第1順位の相�
 - おばあちゃんが相続人になれない、その理由
 - 放棄しても、子どもには引き継がれないんです
 - 離婚しても、子どもの相続権は消えないんです
+
+---
+
+## 見出し画像用フレーズの次に：問題全体のインフォグラフィック プロンプト
+
+以下は、`infographic-prompt-template.md` のルール（②問題全体のインフォグラフィック）に従って作成した、画像生成AI（GPT Image 2等）向けのプロンプトです。画像はこのリポジトリでは生成せず、プロンプト文のみを掲載しています。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to kanji
+that differ visually from Simplified Chinese equivalents, such as 号・録・
+権・地・番・建・物・登・記・所— render them in standard Japanese form only.
+
+--- HEADER ---
+Title (large, bold, 1行):
+相続人の範囲 5つの原則
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第3問 徹底解説
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft beige containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+同時死亡なら孫が代襲相続する
+Illustration: An isometric family tree diagram: A and C figures connected by a lightning-bolt crash icon (same accident) with a red X between them (no mutual inheritance), an arrow skipping down to a G (grandchild) figure with a green checkmark, a D (father) figure grayed out in the background (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+孫Gが代襲相続
+
+--- CARD 2 ---
+Badge: a filled circle in soft beige containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+同順位者殺害未遂で欠格になる
+Illustration: An isometric family tree with a C figure holding a crossed-out dagger icon pointed at a B figure (spouse, same rank), a red X stamp labeled 欠格 over the C figure (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+相続人になれない
+
+--- CARD 3 ---
+Badge: a filled circle in soft beige containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+祖母より父が優先して相続する
+Illustration: An isometric ladder diagram showing 父D (1親等) on a lower rung with a green checkmark and 祖母F (2親等) on a higher rung grayed out with a red X, a small ruler icon measuring the rungs labeled 親等 (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+近い親等が優先
+
+--- CARD 4 ---
+Badge: a filled circle in soft beige containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+放棄しても孫は代襲できない
+Illustration: An isometric family tree with a C figure holding a torn-paper icon labeled 放棄, a red X blocking an arrow that would otherwise pass to a G (grandchild) figure (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+放棄は代襲原因外
+
+--- CARD 5 ---
+Badge: a filled circle in soft beige containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+離婚しても親子関係は続く
+Illustration: An isometric family diagram showing A and B figures split by a broken wedding-ring icon (divorce), but a solid unbroken green line still connects A to a C (child) figure with a checkmark labeled 血族関係 (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+相続人であり続ける
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

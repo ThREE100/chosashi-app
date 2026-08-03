@@ -70,6 +70,7 @@
 - 出題年度・問題番号・正解番号（3番＝イ・ウ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - ア（壁芯計算の原則）、イ（一棟の建物全体は壁芯計算であること）、オ（周壁のないベランダの床面積不算入）は不動産登記規則115条等に基づく実務上の取扱いとして確認できています。ウ（エレベーター機械室・階段室のみで構成される塔屋の床面積不算入の基準）については、天井高さの基準（1.5メートル等）とは別に、機械室・階段室のみで構成される場合の特則が働くという理解に基づいて整理していますが、根拠となる不動産登記規則・不動産登記事務取扱手続準則の逐条確認までは至っていない部分があり、実務書での追加確認をおすすめします。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。建物の床面積の定め方（壁芯・内法、塔屋の算入）がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令チェック（2026-08-03実施）**：建物の床面積の算定方法（不動産登記規則115条等）について確認しましたが、直近の法改正で変更された事実は見当たりません。ただし、肢ウ（塔屋の床面積算入基準）の技術的な扱いについては、本文中の確認事項に記載のとおり、条文の逐条確認までは至っていません。
 
 ---
 
@@ -80,3 +81,136 @@
 - 屋上の機械室、床面積に入らないんです
 - 屋根が開いてても、床面積に入るんです
 - ベランダは、どの建物でも床面積に入らないんです
+
+---
+
+## 見出し画像用フレーズの次に：問題全体のインフォグラフィック プロンプト
+
+以下は、`infographic-prompt-template.md` のルール（②問題全体のインフォグラフィック）に従って作成した、画像生成AI（GPT Image 2等）向けのプロンプトです。画像はこのリポジトリでは生成せず、プロンプト文のみを掲載しています。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to kanji
+that differ visually from Simplified Chinese equivalents, such as 号・録・
+権・地・番・建・物・登・記・所— render them in standard Japanese form only.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の床面積の定め方 5つの原則
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第15問 徹底解説
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: soft beige) ---
+床面積の算定方法(壁芯)
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in soft beige containing the number 1 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+非区分建物は柱の中心線(壁芯)で計測
+Illustration: An isometric wooden house cross-section, a dashed measurement line running through the CENTER of the wall/pillar thickness, a ruler icon labeled 壁芯 with a green checkmark (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+壁芯計算
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in soft beige containing the number 2 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+一棟全体の床面積も壁芯で計測
+Illustration: An isometric whole apartment building outline, a dashed measurement line running through the center of the exterior walls (not the inner surface), a crossed-out 内側線 label (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+一棟全体も壁芯
+
+--- COLUMN B HEADER (pill-shaped badge, color: soft gray) ---
+特殊部分の床面積算入
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled circle in soft gray containing the number 3 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+機械室だけの塔屋は床面積に算入せず
+Illustration: An isometric small rooftop tower containing only an elevator-motor icon and a stairwell icon, a crossed-out floor-area-inclusion arrow pointing away from the main building's total (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft gray, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+算入しない
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in soft gray containing the number 4 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+開閉式屋根でも床面積に算入する
+Illustration: An isometric stadium with a fixed-roof spectator stand and a retractable-roof field section (shown half-open), both sections marked with a green checkmark for floor-area inclusion (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft gray, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+両方とも算入
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in soft gray containing the number 5 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+周壁のないベランダは算入しない
+Illustration: An isometric balcony with no side walls (open railing only) attached to a building, a crossed-out floor-area-inclusion arrow, applicable to both an apartment unit and a house (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft gray, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+常に算入しない
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

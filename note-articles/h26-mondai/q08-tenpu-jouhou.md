@@ -70,6 +70,7 @@ Aが署名して公証人の認証を受けた委任状を提供するときは�
 - 出題年度・問題番号・正解番号（3番＝イ・エ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - ウ（公証人認証による委任状と印鑑証明書省略）、エ（相続を証する情報の提供が必要であること）、オ（住民票コードによる住所証明情報の省略、不動産登記令9条・不動産登記規則36条4項相当）は条文・実務解説の内容と整合しています。ア（法人代表者資格証明情報の省略、法務大臣指定の登記所に関する規定）とイ（土地家屋調査士会発行の職印証明書が印鑑証明書の省略事由にならないこと）についても、実務上確立した取扱いとして整理していますが、根拠条文の逐条確認までは至っていない部分があります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。表示に関する登記の申請における添付情報の省略可否がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令チェック（2026-08-03実施）**：表示に関する登記の申請における添付情報（不動産登記令・不動産登記規則関連）について確認しましたが、直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。
 
 ---
 
@@ -80,3 +81,136 @@ Aが署名して公証人の認証を受けた委任状を提供するときは�
 - 公証人の認証があれば、印鑑証明はいらないんです
 - 相続人が申請するには、戸籍がやっぱり必要なんです
 - 住民票コードで、住所証明が省略できるんです
+
+---
+
+## 見出し画像用フレーズの次に：問題全体のインフォグラフィック プロンプト
+
+以下は、`infographic-prompt-template.md` のルール（②問題全体のインフォグラフィック）に従って作成した、画像生成AI（GPT Image 2等）向けのプロンプトです。画像はこのリポジトリでは生成せず、プロンプト文のみを掲載しています。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to kanji
+that differ visually from Simplified Chinese equivalents, such as 号・録・
+権・地・番・建・物・登・記・所— render them in standard Japanese form only.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表示登記の添付情報 5つの原則
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第8問 徹底解説
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: soft blue) ---
+印鑑証明書・資格証明書の省略
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in soft blue containing the number 1 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+登記所が同じなら資格証明省略可
+Illustration: An isometric two identical registry-office buildings connected by a green checkmark bridge, a company-seal document icon labeled 代表者の資格を証する情報 with a crossed-out stamp showing it's not needed (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+同一登記所は省略可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in soft blue containing the number 2 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+職印証明書だけでは印鑑証明省略不可
+Illustration: An isometric surveyor figure holding a red official-seal certificate labeled 職印に関する証明書, a red X over a separate 印鑑証明書 document showing it is still required (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+省略事由にならない
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled circle in soft blue containing the number 3 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+公証人の認証があれば印鑑証明不要
+Illustration: An isometric notary-office building with a stamp being applied to a 委任状 document, a green checkmark arrow pointing away from a crossed-out 印鑑証明書 icon (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+公証人認証で省略
+
+--- COLUMN B HEADER (pill-shaped badge, color: soft green) ---
+相続・住所証明の省略
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in soft green containing the number 4 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+相続人の申請には戸籍謄本が必要
+Illustration: An isometric family tree with a deceased-figure icon labeled A crossed with a small ribbon, an arrow to a B figure holding a koseki (family register) document icon, a green checkmark on the document (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+相続証明は必須
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in soft green containing the number 5 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+住民票コードで住所証明を省略
+Illustration: An isometric ID-card icon with a barcode labeled 住民票コード being handed to a registry clerk, a crossed-out separate 住民票の写し document beside it (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+コードで省略可
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

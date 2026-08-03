@@ -70,6 +70,7 @@
 - 出題年度・問題番号・正解番号（3番＝イ・ウ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - イ（一棟の建物に属する区分建物全部の証明書交付請求、不動産登記規則）、ウ（電磁的記録の地役権図面のオンライン請求）、オ（登記事項概要証明書は所在地管轄の登記所限定）は不動産登記法・不動産登記規則の内容と整合しています。ア・エ（閉鎖された地図に準ずる図面、規約証明情報の写しの交付請求における利害関係の限定の有無）については、実務上確立した取扱いとして整理していますが、根拠条文の逐条確認までは至っていない部分があります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。登記事項の証明・閲覧の請求方法がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令チェック（2026-08-03実施）**：登記事項の証明・閲覧に関する規定（不動産登記法119条〜121条等）について確認しましたが、直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。オンライン請求の対象範囲は年々拡大していますが、本問の各肢の結論（誰でも請求できるか、どの登記所に請求できるか等）には影響しません。
 
 ---
 
@@ -80,3 +81,125 @@
 - 地役権図面、オンラインで請求できるんです
 - 規約の証明書、利害関係がなくても見られるんです
 - 登記事項の概要証明、実はどこでも取れないんです
+
+---
+
+## 見出し画像用フレーズの次に：問題全体のインフォグラフィック プロンプト
+
+以下は、`infographic-prompt-template.md` のルール（②問題全体のインフォグラフィック）に従って作成した、画像生成AI（GPT Image 2等）向けのプロンプトです。画像はこのリポジトリでは生成せず、プロンプト文のみを掲載しています。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to kanji
+that differ visually from Simplified Chinese equivalents, such as 号・録・
+権・地・番・建・物・登・記・所— render them in standard Japanese form only.
+
+--- HEADER ---
+Title (large, bold, 1行):
+登記事項の証明・閲覧 5つの原則
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第18問 徹底解説
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft green containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+閉鎖地図に準ずる図面も自由に閲覧
+Illustration: An isometric closed/archived map file stamped 閉鎖, a random visitor figure with no ID-check receiving a copy, a crossed-out 利害関係 requirement label (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+利害関係不要
+
+--- CARD 2 ---
+Badge: a filled circle in soft green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+区分建物全部の証明書を取得できる
+Illustration: An isometric apartment building with five unit icons, a single combined certificate document being issued covering all units at once, labeled 現に効力を有する事項 (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+一括で証明書取得可
+
+--- CARD 3 ---
+Badge: a filled circle in soft green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地役権図面の証明はオンライン請求可
+Illustration: An isometric laptop computer sending a request icon over a network line to a registry-office server, a 地役権図面 document icon appearing on the receiving end with a green checkmark (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+電子申請できる
+
+--- CARD 4 ---
+Badge: a filled circle in soft green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+規約証明情報の写しは誰でも取れる
+Illustration: An isometric regulation-document icon (規約を証する情報) being copied at a registry counter, a random visitor figure with no ID-check receiving the copy (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+利害関係不要
+
+--- CARD 5 ---
+Badge: a filled circle in soft green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+概要証明書は所在地の登記所限定
+Illustration: An isometric map showing 東京 registry office and 大阪 registry office, a person trying to request a 登記事項概要証明書 at the wrong (大阪) office with a red X, only the correct (所在地) office issuing it (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+管轄限定
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

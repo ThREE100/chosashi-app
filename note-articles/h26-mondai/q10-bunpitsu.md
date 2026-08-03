@@ -70,6 +70,7 @@ A及びBが共有する土地について共有物分割を命ずる判決が確
 - 出題年度・問題番号・正解番号（1番＝ア・ウ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - ア（分筆後の抵当権の消滅・転写の取扱い）、イ（分筆の登記が原則任意であること）、エ（共有物分割判決確定後の代位申請の可否）、オ（地上権の一部譲渡と土地所有者の分筆義務の無関係性）は不動産登記法・実務解説の内容と整合しています。ウ（表題部所有者名義の土地の取得者による分筆申請の可否）についても実務上確立した取扱いとして整理していますが、根拠条文の逐条確認までは至っていない部分があります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。分筆の登記の申請人・抵当権の帰趨がテーマ。R03第11問も分筆の登記がテーマですが、肢の内容（相続財産管理人・賃借権者の承諾等）は完全に異なり、同一問題ではありません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令チェック（2026-08-03実施）**：令和5年4月1日施行の共有制度改正（民法252条等）が本問（分筆の登記の申請人・抵当権の帰趨）に影響しないかを確認しましたが、分筆の登記の申請人・添付情報に関する不動産登記法上のルールには変更がなく、各肢の結論に影響しません。
 
 ---
 
@@ -80,3 +81,125 @@ A及びBが共有する土地について共有物分割を命ずる判決が確
 - 承諾書があっても、分筆できないことがあるんです
 - 判決があれば、代位して分筆できるんです
 - 地上権を譲っても、土地の持ち主に義務はないんです
+
+---
+
+## 見出し画像用フレーズの次に：問題全体のインフォグラフィック プロンプト
+
+以下は、`infographic-prompt-template.md` のルール（②問題全体のインフォグラフィック）に従って作成した、画像生成AI（GPT Image 2等）向けのプロンプトです。画像はこのリポジトリでは生成せず、プロンプト文のみを掲載しています。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to kanji
+that differ visually from Simplified Chinese equivalents, such as 号・録・
+権・地・番・建・物・登・記・所— render them in standard Japanese form only.
+
+--- HEADER ---
+Title (large, bold, 1行):
+分筆の登記 5つの原則
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第10問 徹底解説
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+承諾があれば片方だけ抵当権消滅
+Illustration: An isometric land plot splitting into 甲土地 and 乙土地, a mortgage-bank icon stamping a green checkmark consent only on the 甲土地 side (抵当権消滅), while the 乙土地 side keeps the mortgage icon transferred (転写) (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+片方のみ消滅可
+
+--- CARD 2 ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+建物を建てても分筆は任意
+Illustration: An isometric sectioned land plot with a small new house built on part of it, a crossed-out stopwatch icon next to a 分筆 document showing no mandatory deadline (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+申請義務なし
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+表題部所有者名義の土地は取得者不可
+Illustration: An isometric land plot labeled with three names A・B・C (表題部所有者), a new figure D holding a consent letter but a red X blocking D from submitting a 分筆 document (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+承諾だけでは不可
+
+--- CARD 4 ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+判決確定後は代位して分筆できる
+Illustration: An isometric courthouse gavel icon stamping 確定 on a document, an A figure submitting a 分筆 document on behalf of an uncooperative B figure (crossed arms), with an arrow labeled 代位 (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+代位申請できる
+
+--- CARD 5 ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地上権譲渡に土地所有者の義務なし
+Illustration: An isometric land plot with two small flag icons for 地上権, one flag being handed from figure A to figure B, while the land-owner figure C stands aside with a crossed-out 分筆 document (embed any ✕/✓ marks and short
+name-tag labels directly inside the illustration itself, e.g. a crossed-out
+document icon with a 2-4 character label next to it)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+所有者の義務なし
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```
