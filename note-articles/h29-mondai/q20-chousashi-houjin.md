@@ -82,3 +82,126 @@
 - 登録取消しがあれば、同意なく脱退になるんです
 - 事務所には、地元の調査士会員を常駐させるんです
 - 調査士法人、実は1人でも設立できちゃうんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地家屋調査士法人に関する5肢を、「法人の基本体制」（ア・イ・エ）と「社員資格の得喪と設立要件」（ウ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric office buildings,
+person figures in business attire, badge/ID stamps, corporate seal
+icons, single-founder icons — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 調・査・士・法・人・社・員・代・表・登, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+土地家屋調査士法人
+実は1人でも設立できる
+
+Subtitle (smaller, centered, 1行):
+社員数の改正に注意(平成29年度 午後の部 第20問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design office building icon with a
+corporate signboard reading "土地家屋調査士法人"、and a single person
+figure standing confidently at the entrance holding a "定款" document,
+showing that one member alone can now found the firm.
+土地家屋調査士法人は、複数の調査士が共同で業務を行うための法人形態
+です。代表社員の定め方、社員全員の業務執行権限、社員資格を失ったとき
+の扱い、事務所への常駐義務、そして法人を設立するのに必要な人数を整理
+できているかが問われます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+法人の基本体制
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+代表社員は、定款又は総社員の同意で定められる
+Illustration: An isometric group of three person figures standing around
+a table, with two possible paths shown side by side — one path where all
+three stamp a "定款" document together, another path where they simply
+raise hands in "総社員の同意"、both paths leading to one figure being
+crowned with a small "代表社員" badge.
+Caption (small text below):
+土地家屋調査士法人は、定款又は総社員の同意によって、社員のうち特に
+法人を代表すべきものを定めることができる(調査士法35条の2第1項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+社員は全員、業務執行の権利を有し義務を負う
+Illustration: An isometric row of three person figures, each holding an
+identical briefcase icon labeled "業務執行"、with no figure shown empty-
+handed or excluded, emphasizing that every member carries the same
+responsibility.
+Caption (small text below):
+土地家屋調査士法人の社員である土地家屋調査士は、全て業務を執行する
+権利を有し、義務を負う(調査士法35条1項)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+事務所には、管轄区域内の調査士会の会員社員を常駐させる
+Illustration: An isometric office building icon with a person figure
+standing inside wearing a badge that matches the region's調査士会
+emblem shown on a map pin beside the building, both icons connected by a
+matching-checkmark to show the jurisdiction lines up.
+Caption (small text below):
+土地家屋調査士法人は、その事務所に、当該事務所の所在地を管轄する法務
+局又は地方法務局の管轄区域内に設立された土地家屋調査士会の会員である
+社員を常駐させなければならない(調査士法36条1項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+社員資格の得喪と設立要件
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+登録の取消しがあれば、総社員の同意なく当然に脱退する
+Illustration: An isometric person figure with a red "登録取消し" stamp
+appearing on their badge, automatically stepping outside the office
+building's door on their own, with a crossed-out "総社員の同意" document
+floating away to show no group vote is needed.
+Caption (small text below):
+土地家屋調査士法人の社員である土地家屋調査士は、土地家屋調査士の登録
+の取消しがあった場合には、総社員の同意がなくても、当該法人の社員を
+当然に脱退する(調査士法39条1項)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+現行法では、調査士1人でも法人を設立できる
+Illustration: An isometric single person figure standing alone in front
+of a blank office building signboard, placing a "定款" document down and
+the signboard lighting up with "土地家屋調査士法人" text, with a faded
+ghost outline of a second missing figure crossed out to show a second
+member is not required.
+Caption (small text below):
+土地家屋調査士法人は、社員となろうとする土地家屋調査士が1人であって
+も、定款を定めて設立することができる(令和2年改正・調査士法26条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第20問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 調・査・士・法・人・社・員・代・表・登. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (3
+cards under 法人の基本体制, 2 cards under 社員資格の得喪と設立要件),
+with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
