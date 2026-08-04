@@ -80,3 +80,110 @@
 - 桟橋の上の店舗、定着性があれば建物って知ってた？
 - 観音像そのものの本堂でも、建物として登記できるんです
 - ガード下の店舗も、基礎と壁があれば立派な建物なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+これって「建物」って言えるの？
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第16問／建物の認定
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft green containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+立体駐車場も屋根と壁があれば建物
+Illustration: タワー状の立体駐車場のisometricイラスト。回転式のパーキング機械のアイコン。屋根と壁を強調する枠線。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+3要件を満たせば建物
+
+--- CARD 2 ---
+Badge: a filled circle in soft green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+柱・壁が別々なら別々の建物
+Illustration: 屋根がくっついたAとBの建物のisometricイラスト。それぞれ独立した柱と壁のアイコンで区切られる。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+構造上の独立性で判断
+
+--- CARD 3 ---
+Badge: a filled circle in soft green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+桟橋の上の店舗も定着性があれば建物
+Illustration: 海に固定された桟橋の上に建つ店舗のisometricイラスト。桟橋の脚柱が海底に固定される様子を強調。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+定着性があれば建物
+
+--- CARD 4 ---
+Badge: a filled circle in soft green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+観音像の外壁でも本堂なら建物
+Illustration: 観音像の形をした外壁を持つ本堂のisometricイラスト。内部に祭壇と参拝者の椅子のアイコン。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+用途に供されれば建物
+
+--- CARD 5 ---
+Badge: a filled circle in soft green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+ガード下の店舗・倉庫も建物になる
+Illustration: 高架線の下に基礎と壁を築いた店舗・倉庫のisometricイラスト。高架構造物を上部に描く。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+定着すれば建物
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

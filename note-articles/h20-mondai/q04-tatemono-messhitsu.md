@@ -82,3 +82,110 @@
 - 地主さんは、借地人の建物の滅失登記を出せないんです
 - 名前が載ってない共用部分、所有者ひとりで消せるって知ってた？
 - 表示の登記に、仮処分の債権者の承諾はいらないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+壊れた建物、だれが登記を消す？
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第4問／建物の滅失の登記
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft green containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+相続人ひとりで滅失登記を申請できる
+Illustration: 取り壊された物置のisometricイラスト。3人の相続人キャラクターのうち1人だけが申請書を提出する図。他の2人のキャラクターは背景に薄く描く。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+単独申請OK
+
+--- CARD 2 ---
+Badge: a filled circle in soft green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+一部取壊しでも残りの構造変更登記は不要
+Illustration: 3階建てマンションのisometricイラストが3階部分だけ取り壊され2階建てになる図。残った1・2階の部屋には✕マークの付いた変更登記書類。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+変更登記は不要
+
+--- CARD 3 ---
+Badge: a filled circle in soft green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地主は借地人の建物を自分では消せない
+Illustration: 地主のキャラクターが取り壊された借地人の建物の前で申請書を持つが、大きな✕マークが付く図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+申請適格なし
+
+--- CARD 4 ---
+Badge: a filled circle in soft green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+共用部分は所有者ひとりで滅失登記できる
+Illustration: マンションの集会室のisometricイラストが取り壊される図。区分所有者の1人が「所有権を証する情報」の書類を持って申請する。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+所有者の一人で申請可
+
+--- CARD 5 ---
+Badge: a filled circle in soft green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+仮処分があっても承諾情報は不要
+Illustration: 「処分禁止」のリボンが巻かれた建物が取り壊されるisometricイラスト。仮処分の債権者のキャラクターの承諾書アイコンに✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+承諾情報は不要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

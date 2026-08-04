@@ -80,3 +80,110 @@
 - 未登記の建物は「変更」じゃなく、まず「表題登記」から
 - 物置だけ壊したら、滅失じゃなくて表題部の変更登記なんです
 - 同じ家に建て替えても、滅失＋新築の登記がいるって知ってた？
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その工事、登記は必要？
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第5問／建物の変更・表題・滅失の使い分け
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+外壁と屋根の改修だけなら登記不要
+Illustration: リフォーム中の家のisometricイラスト。外壁と屋根がきれいになる様子。横に「登記事項変わらず」のラベルと✕マークの付いた変更登記書類。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+登記事項に変動なし
+
+--- CARD 2 ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+増築部分は独立性なければ既存所有者のもの
+Illustration: 家に継ぎ足された小部屋のisometricイラスト。所有者Aのキャラクターの家に一体化する矢印。Bのキャラクターの持分ラベルには✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+附合により帰属
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+未登記の建物はまず表題登記から
+Illustration: 登記されていない家のisometricイラスト。「変更登記」の書類に✕マーク、代わりに「表題登記」の書類にチェックマーク。AとBの共有者アイコン。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+表題登記が先
+
+--- CARD 4 ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+附属建物だけの取壊しは表題部変更登記
+Illustration: 母屋のisometricイラストの横にある物置が取り壊される図。「滅失登記」の書類に✕マーク、「表題部変更登記」の書類にチェックマーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+滅失登記ではない
+
+--- CARD 5 ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+建て替えなら滅失＋表題登記が必要
+Illustration: 古い家が取り壊され、同じ場所・同じ形の新しい家が建つisometricイラスト。矢印の途中に「滅失登記」と「表題登記」の2つの書類アイコン。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+登記は省略不可
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

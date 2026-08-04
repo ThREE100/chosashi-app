@@ -81,3 +81,110 @@
 - ただの居座り相手なら、登記がなくても追い出せるんです
 - 共有者仲間も、実は「第三者」だって知ってた？
 - 悪い奴から買った人でも、事情を知らなければ守られるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+登記がないと負けるのは誰？
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第2問／不動産物権変動と対抗要件
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+時効完成後の第三者には登記が必要
+Illustration: 土地のisometricイラスト。左にAの時効取得アイコン(カレンダー+チェック)、右にBから買ったCへの矢印と登記スタンプ。AからCへの矢印には✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+登記なければ負ける
+
+--- CARD 2 ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+贈与者の相続人からの買主にも登記勝負
+Illustration: 贈与を受けたAのキャラクターと未登記の書類アイコン。相続人Bのキャラクターから買主Cへの矢印+登記スタンプ。AからCへの矢印に✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+受贈者も登記必要
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+不法占拠者には登記なしで勝てる
+Illustration: 土地の隅に物置を置いて座り込む不法占拠者Bのisometricキャラクター。買主Aから伸びる矢印にチェックマーク(登記なしでもOK)。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+第三者に当たらない
+
+--- CARD 4 ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+他の共有者にも登記が必要
+Illustration: A・B・Cの3人が共有する土地のisometricイラスト。Aの持分をDへ売る矢印に✕マーク、BとCのキャラクターの頭上に「まだAのもの」のラベル。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+持分譲受人も登記要
+
+--- CARD 5 ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+背信的悪意者を経て買った人は保護される
+Illustration: 悪質なBのキャラクター(黒いマント)を経由し、普通の買主Cへ矢印が伸びるisometricイラスト。AからCへの矢印に✕マーク、Cの頭上にチェックマーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+転得者は保護対象
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

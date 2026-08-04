@@ -80,3 +80,110 @@
 - 同じ人の建物どうしなら、登記識別情報は片方でいいんです
 - 抵当権を消すには、抵当権者の承諾がいるんです
 - 名義人が違う建物の合体でも、抵当権にはひと手間必要
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+2棟が1棟になる「合体」の実務
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第15問／建物の合体による登記等
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft beige containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+合体の登記に登録免許税はかからない
+Illustration: 2棟の建物が1棟につながるisometricイラスト。税金の請求書アイコンに大きな✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+表示登記は非課税
+
+--- CARD 2 ---
+Badge: a filled circle in soft beige containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+全員申請＋印鑑証明で持分証明は省ける
+Illustration: AとBのキャラクターが並んで印鑑証明書を提出するisometricイラスト。別の「持分証明書」の書類に✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+別途の証明は不要
+
+--- CARD 3 ---
+Badge: a filled circle in soft beige containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+同一名義人なら登記識別情報は一方でOK
+Illustration: Aが所有する2棟の建物のisometricイラスト。片方の登記識別情報の通知書だけが提出される図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+一方の提供で足りる
+
+--- CARD 4 ---
+Badge: a filled circle in soft beige containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+抵当権を消すには承諾情報が必要
+Illustration: 合体前の建物に付いた抵当権のリボンが外れるisometricイラスト。抵当権者のキャラクターが承諾書を渡す図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+承諾情報が必要
+
+--- CARD 5 ---
+Badge: a filled circle in soft beige containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+名義人が違っても抵当権存続に承諾情報
+Illustration: A所有とB所有の建物が合体するisometricイラスト。A側の抵当権が持分に存続するために、抵当権者の承諾書が渡される図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+承諾情報が必要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

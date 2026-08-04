@@ -84,3 +84,110 @@
 - 署名するのは作成者じゃなくて「地役権者」なんです
 - 土地所在図と地積測量図、誤差の限度は別扱いなんです
 - 三角点がなくても、動かない目印があれば座標が出せる
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+図面作成、正しいルールはいくつ？
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第11問／土地所在図・地積測量図・地役権図面
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+精度区分は地域で決まる
+Illustration: 市街地・村落農耕地・山林原野の3つのisometric地域アイコンが並ぶ。それぞれに甲1・甲2・甲3のバッジ。既存の地図アイコンから伸びる矢印には✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+所在地域で判定
+
+--- CARD 2 ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地役権図面に地積は書かない
+Illustration: 地役権図面のisometricイラスト。通行できる範囲を囲む点線と方位・縮尺・地番のラベルは描かれるが、面積の数字ラベルには大きな✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+地積は記録事項でない
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+署名するのは調査士でなく地役権者
+Illustration: 地役権図面のisometricイラスト。地役権者のキャラクターが図面に署名（または記名押印）する図。調査士のキャラクターは横で見守るだけで、署名欄には触れない。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+地役権者本人が署名
+
+--- CARD 4 ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+土地所在図と地積測量図は別基準
+Illustration: ざっくりした位置を示す土地所在図と、座標値まで示す精密な地積測量図が並ぶisometricイラスト。それぞれ異なる誤差の定規アイコン。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+誤差限度は別々
+
+--- CARD 5 ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+三角点がなければ恒久的地物でも可
+Illustration: 山あいの土地のisometricイラスト。近くに三角点がなく、代わりに境界標のアイコンを基準に座標を測る図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+恒久的地物でOK
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

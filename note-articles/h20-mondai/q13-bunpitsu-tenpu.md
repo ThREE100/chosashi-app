@@ -79,3 +79,110 @@
 - 規約が必要なのは「切り離して売る」段階なんです
 - 地目変更とセットの分筆は、登記原因と日付を忘れずに
 - 地役権のある部分を分筆しても、図面の出し直しは不要って知ってた？
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+分筆と一緒に申請するときの添付情報
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第13問／分筆の登記の申請情報・添付情報
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft green containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地積更正との一括申請は分筆後の求積で足りる
+Illustration: 甲土地が分筆されて甲・乙になるisometricイラスト。分筆後の2つの土地それぞれに求積結果の数字ラベル。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+分筆後の求積でOK
+
+--- CARD 2 ---
+Badge: a filled circle in soft green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+相続人からの申請は一人の名前で足りる
+Illustration: 亡くなった父名義の土地のisometricイラスト。複数の相続人キャラクターのうち1人だけが地目変更＋分筆の申請書を提出。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+単独申請でよい
+
+--- CARD 3 ---
+Badge: a filled circle in soft green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+規約証明は分離処分の段階で必要
+Illustration: マンションの敷地のisometricイラスト。分筆の書類と、切り離して売る段階の書類が別々に描かれ、規約証明書は後者にだけ付く。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+分筆自体には不要
+
+--- CARD 4 ---
+Badge: a filled circle in soft green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地目変更との一括申請は原因日付が必要
+Illustration: 畑から宅地に変わった部分が分筆されるisometricイラスト。申請書に「登記原因：年月日」のラベル。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+登記原因の記載必須
+
+--- CARD 5 ---
+Badge: a filled circle in soft green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地役権部分の分筆に新たな図面は不要
+Illustration: 地役権が設定された部分がそのまま乙土地として分筆されるisometricイラスト。既存の地役権図面のアイコンがそのまま使われ、新規作成の書類に✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+既存図面を流用
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

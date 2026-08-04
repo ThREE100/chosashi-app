@@ -86,3 +86,110 @@
 - 「併せて申請」と「一の申請情報」は別物なんです
 - 建築主が動かないなら、買った人が代位申請できる
 - 敷地権の日付は「建てた日」じゃなく「買った日」のことも
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+区分建物の表題登記、落とし穴はここ
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第14問／区分建物の表示に関する登記
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地下地上またがる部屋は地下一階地上一階建
+Illustration: 地下と地上にまたがる区分建物のisometricイラスト。階層表示ラベル「地下一階地上一階建」。「平家建」の表示には✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+正しい階層表示
+
+--- CARD 2 ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+柱の凹凸はならして壁面で求積
+Illustration: 部屋の隅に張り出す柱のisometricイラスト。実際の凹凸を示す点線に✕マーク、壁面を結ぶ直線にチェックマーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+壁面基準で計算
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+必要なのは「併せて申請」、1件にまとめる話ではない
+Illustration: マンションの複数の住戸のisometricイラスト。各住戸の申請書が同じタイミングの矢印で並んで提出される図(併せて申請)。1つのファイルにホチキス留めするイラストには✕マーク(一の申請情報ではない)。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+常に一括とは限らない
+
+--- CARD 4 ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+転得者は原始取得者に代位して申請できる
+Illustration: 建築主Aから区分建物を買ったBのキャラクターが、Aに代わって表題登記の申請書を提出するisometricイラスト。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+代位申請できる
+
+--- CARD 5 ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+敷地権の日付は権利取得のタイミング次第
+Illustration: Bの土地の上にAが建物を新築し、その後Bから土地を買うisometricイラスト。「新築日」と「土地取得日」の2つのカレンダーアイコンが並ぶ。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+取得時期で日付決定
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

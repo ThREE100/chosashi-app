@@ -81,3 +81,110 @@
 - 畑の地積は、細かく書かずに整数で切り捨てるんです
 - 温泉の湧出口でも、地目が保安林なら整数のままって知ってた？
 - 造成「中」はまだ宅地じゃない、地積は整数なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地積は小数点第何位まで？
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第6問／地積の記録単位
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft beige containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+宅地はいつも小数点第2位まで
+Illustration: 宅地のisometricイラストに定規のアイコン。「620.5782→620.57㎡」の数字ラベル。誤った「620㎡」の表示には✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+宅地は常に細かく
+
+--- CARD 2 ---
+Badge: a filled circle in soft beige containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+10㎡以下は地目問わず細かく記録
+Illustration: 小さな公衆用道路のisometricイラスト。「9.0025→9.00㎡」の数字ラベルとチェックマーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+10㎡以下は例外
+
+--- CARD 3 ---
+Badge: a filled circle in soft beige containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+宅地・鉱泉地以外は10㎡超で整数
+Illustration: 畑と保安林のisometricイラストが並ぶ。それぞれ「34.9471→34㎡」「56.8703→56㎡」の数字ラベル。細かい数字の表示には✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+超えたら切り捨て
+
+--- CARD 4 ---
+Badge: a filled circle in soft beige containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地目変更なければ地目はそのまま
+Illustration: 温泉が湧く保安林のisometricイラスト。「鉱泉地？」の吹き出しに✕マーク、「保安林のまま」のラベルにチェックマーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+現況だけでは変わらず
+
+--- CARD 5 ---
+Badge: a filled circle in soft beige containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+造成中の土地はまだ元の地目のまま
+Illustration: 宅地造成工事中の畑のisometricイラスト。ショベルカーのアイコン。「215.4766→215㎡」の整数ラベル。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+工事中は元の地目
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

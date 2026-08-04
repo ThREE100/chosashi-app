@@ -86,3 +86,110 @@
 - 取消しは過去にさかのぼる、将来だけじゃないんです
 - 払ったお金が返るのは、無効でも取消しでも同じ（いまは121条の2）
 - 成年被後見人の契約は「無効」じゃなくて「取消し」なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「無効」と「取消し」はどこが違う？
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第3問／無効な法律行為と取り消すことができる法律行為
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft beige containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+時間が経つと取消しは確定的に有効化
+Illustration: 砂時計のisometricアイコンと契約書。時間経過とともに契約書の周りの点線が実線に変わり「確定」のスタンプが押される図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+取消しうる行為の特徴
+
+--- CARD 2 ---
+Badge: a filled circle in soft beige containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+誰でも主張できるのは無効の特徴
+Illustration: 大勢の人物アイコンが1つの契約書を指差す図。契約書に「無効」のラベル。取消し可能な契約書には1人のキャラクターだけが指を差す。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+無効は誰でも主張可
+
+--- CARD 3 ---
+Badge: a filled circle in soft beige containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+取消しは過去にさかのぼって無効になる
+Illustration: タイムラインのisometricイラスト。契約締結の時点まで矢印が巻き戻り、「最初からなかったこと」のラベルが付く図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+遡及効あり
+
+--- CARD 4 ---
+Badge: a filled circle in soft beige containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+返金請求は無効でも取消しでも可能
+Illustration: お金の袋アイコンが行き来する図。無効な契約と取消し済みの契約、両方の吹き出しから同じ「返金請求OK」のラベルが伸びる。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+無効・取消し共通
+
+--- CARD 5 ---
+Badge: a filled circle in soft beige containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+成年被後見人の契約は原則取消しうる
+Illustration: 成年被後見人のキャラクターが絵画を購入するisometricイラスト。成年後見人のキャラクターが「取消し」のスタンプを押す図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+取消しうる行為
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

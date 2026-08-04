@@ -80,3 +80,110 @@
 - 建物を一部壊しても、敷地権が即消えるとは限らない
 - 承諾があれば、抵当権を消す変更登記もできるんです
 - 「絶対に必要」と言い切る肢ほど、実は怪しいんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+敷地権の登記原因日付、正解はいつ？
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第19問／区分建物の敷地権
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft green containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+先に土地の権利を持てば建物が生じた日
+Illustration: 自分の土地の上にマンションを新築するAのキャラクターのisometricイラスト。「新築日＝登記原因日付」のカレンダーラベル。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+新築日が原因日付
+
+--- CARD 2 ---
+Badge: a filled circle in soft green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+建物取壊しで敷地権が即消えるとは限らない
+Illustration: 甲・乙2つの土地にまたがる敷地権付き区分建物のisometricイラスト。甲土地上の建物部分が取り壊されても、敷地権のラベルはまだ付いたまま。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+即断定はできない
+
+--- CARD 3 ---
+Badge: a filled circle in soft green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+他管轄の証明書提供が一律必須ではない
+Illustration: 2つの登記所の管轄をまたぐ土地のisometricイラスト。登記事項証明書の書類に「？」マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+一律必須ではない
+
+--- CARD 4 ---
+Badge: a filled circle in soft green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+承諾情報があれば抵当権消滅の変更登記可
+Illustration: 敷地権付き区分建物の抵当権のリボンが外れるisometricイラスト。抵当権者のキャラクターが承諾書を渡す図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+承諾があれば可能
+
+--- CARD 5 ---
+Badge: a filled circle in soft green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+敷地権喪失の変更登記に規約証明は不要な場合も
+Illustration: 規約敷地が敷地権でなくなるisometricイラスト。分離処分可能規約の書類に「？」マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+一律必須ではない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
