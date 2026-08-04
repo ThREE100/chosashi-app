@@ -1,0 +1,203 @@
+## 【土地家屋調査士受験生向け】屋根のない観覧席は建物じゃない?〜建物認定を具体例で徹底解説〜
+
+**出題年度：平成30年度　午後の部　第10問**
+
+> 次のアからオまでの建造物のうち，建物として登記することができないものの組合せは，後記1から5までのうち，どれか。
+>
+> ア　競馬場の観覧席のうち，屋根を有しない部分
+>
+> イ　土地に固定している浮船を利用した店舗
+>
+> ウ　ガード下を利用して築造した倉庫
+>
+> エ　容易に運搬することができる切符売場
+>
+> オ　廃車となった鉄道車両に基礎工事や付帯設備等を施した居宅
+>
+> 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+建物として登記できるかどうかは、①外気分断性、②土地への定着性、③用途性(人や物がとどまることができるか)という3要件を満たすかで決まります。今回は「登記できないもの」を選ぶ問題なので、どの要件が欠けているかを一つずつ確認していきましょう。
+
+### ア：屋根を有しない観覧席は、外気分断性を欠き建物として登記できない
+
+野球場や競馬場の観覧席は、屋根を有する部分であれば建物として取り扱いますが、屋根を有しない部分は建物として取り扱いません(準則77条1号イ)。屋根がなければ外気を分断できず、建物認定の要件を満たさないためです。
+
+**たとえば**、競馬場のスタンドのうち大屋根に覆われた指定席部分は建物になり得ますが、青空の下でレースを見るだけの屋根なし観覧席は、外気と分断されていないため建物として登記することはできません。
+
+### イ：土地に固定された浮船利用の店舗は、定着性が認められ建物として登記できる
+
+浮船を利用した建造物は、浮船が動くものであれば定着性が認められず建物として取り扱いませんが、浮船が土地に固定されていれば建物として登記することを要します(準則77条2号ウ)。今回は「土地に固定している浮船」なので、定着性が認められます。
+
+**たとえば**、川岸に杭やアンカーでしっかり固定され、水面で動かないようになっている屋形船を改装したレストランは、定着性が認められるため建物として登記することができます。
+
+### ウ：ガード下を利用した倉庫は、建物として登記できる
+
+ガード下を利用して築造した建造物は、建物として取り扱います(準則77条1号ウ)。高架橋の下という特殊な立地であっても、周壁と屋根で外気を分断し、土地に定着して倉庫として使われている以上、3要件を満たすためです。
+
+**たとえば**、鉄道の高架下のスペースに壁と扉を設けて造られた宅配業者の荷物倉庫は、ガード下であっても建物として登記することができます。
+
+### エ：容易に運搬できる切符売場は、定着性を欠き建物として登記できない
+
+切符売場や入場券売場であっても、容易に運搬しうる建造物は定着性が認められず、建物として取り扱いません(準則77条2号オ)。基礎で土地に固定されておらず、そのまま持ち運べるものは、土地への定着性という要件を欠くためです。
+
+**たとえば**、イベント会場の入口にちょこんと置かれ、フォークリフトやトラックで簡単に移動できるプレハブ小屋のような切符売場は、定着性がないため建物として登記することはできません。
+
+### オ：基礎工事を施した廃車鉄道車両の居宅は、定着性が認められ建物として登記できる
+
+廃車となった鉄道車両であっても、基礎工事や付帯設備等が施されて土地への定着性が認められる場合には、建物として取り扱います(建物認定95頁)。車両としての用途を離れ、外気分断性・定着性・用途性の3要件を満たすためです。
+
+**たとえば**、引退した電車の車両を土地にコンクリート基礎で固定し、水道や電気を引き込んで住居として使っている場合、この車両は建物として登記することができます。
+
+### まとめ表
+
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 誤 | 屋根を有しない観覧席は外気分断性を欠き建物として登記できない |
+| イ | 正 | 土地に固定された浮船利用の店舗は定着性が認められ建物として登記できる |
+| ウ | 正 | ガード下を利用した倉庫は建物として登記できる |
+| エ | 誤 | 容易に運搬できる切符売場は定着性を欠き建物として登記できない |
+| オ | 正 | 基礎工事を施した廃車鉄道車両の居宅は定着性が認められ建物として登記できる |
+
+「登記できないもの」を選ぶ問題では、外気分断性・定着性・用途性のどれが欠けているかを一つずつ確認するのが確実です。
+
+**正解：アエの組合せ（選択肢2番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出題年度・問題番号・正解番号(2番＝アエ)は、土地家屋調査士試験対策アプリの検証済みデータベース(takuitsu.json、法務省公式正答を反映)で確認済みです。
+- 各肢の根拠のうち、ア(準則77条1号イ)、イ(準則77条2号ウ)、ウ(準則77条1号ウ)、エ(準則77条2号オ)は、元データの解説で準則の号まで明記されています。オ(廃車鉄道車両)については、元データ上「建物認定95頁」という参考書籍の記載があるのみで、具体的な先例番号までは明記されておらず、建物認定の一般原則(定着性・外気分断性・用途性)からの当てはめにとどまる点は留意してください。
+- 各肢の根拠は、ローカルのアガルート教材(過去問テキスト)の解説を条文根拠の一次情報源として参照しています(元データの解説はアガルート過去問テキストのOCRに基づきます)。なお、このQ10の解説は元データ上Q9のexplanationフィールド末尾にOCRで紛れ込んでいたものを整理して用いています。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（建物の認定）と同一・類似の問題が再出題されていないかを確認しました。**重複が見つかりました。** 建物の認定は令和4年度・令和5年度・令和6年度とほぼ毎年出題される定番テーマです。特に令和6年度第12問（既存記事：`r6-mondai/q12-tatemono-nintei.md`）の肢ウ「廃車となった鉄道車両は、基礎工事が施されて土地に定着しており、店舗の用途に供されている場合には、建物として登記することができる」は、本問の肢オ（廃車鉄道車両+基礎工事の居宅）と同一の事例パターン（定着性のある廃車鉄道車両の建物）を扱っています。令和6年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
+
+---
+
+## 見出し画像用フレーズ
+
+- 屋根のない観覧席、実は建物として登記できないんです
+- 固定された浮船のお店は、ちゃんと建物になれるんですよ
+- ガード下の倉庫だって、建物として登記できるって知ってた?
+- 簡単に運べる切符売場は、建物になれないんです
+- 基礎を打った廃車の電車は、住まいとして登記できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物として登記できるかどうかを分ける3要件（外気分断性・定着性・用途性）を、ア〜オ5つの具体例それぞれについて「登記できる／できない」の結論と理由で俯瞰できるよう、5枚のカードを1列に並べて構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric grandstand with and
+without a roof, a river with an anchored boat-shaped building, an elevated
+railway viaduct with a warehouse underneath, a small wheeled ticket booth,
+a retired train car on a concrete foundation, green "建物" approval stamps,
+red prohibition marks, official seals).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・覧・倉・庫・売・運・鉄・両・準・則,
+which have Simplified Chinese look-alike forms with visibly different
+stroke shapes — always draw the standard Japanese (Jōyō) form of these
+characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物として登記できる/できない
+3要件で見極める
+
+Subtitle (smaller, centered, 1行):
+外気分断性・定着性・用途性で判定(平成30年度 午後の部 第10問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Three small isometric icon badges arranged in a row on the
+left: a roof/wall enclosure icon labeled "外気分断性", an anchor and stake
+driven into the ground icon labeled "定着性", and a person standing icon
+labeled "用途性", connected by thin lines to a central house-shaped
+silhouette to show all three are required for a building to be registered.
+建物として登記できるかどうかは、①外気分断性、②土地への定着性、③用途性
+(人や物がとどまることができるか)という3要件を満たすかで決まります。ア
+からオまでの5つの具体例について、どの要件を満たし、どの要件が欠けている
+かを一つずつ確認します。
+
+--- CARD 1 ---
+Heading (bold):
+ア　屋根を有しない観覧席は、外気分断性を欠き建物として登記できない
+Illustration: An isometric racetrack/baseball stadium grandstand split
+into two halves. The left half has a solid roof over the seating, with a
+green circular "建物" approval stamp. The right half has open seating with
+no roof, exposed to a cloud and sun in the open sky above, overlaid with a
+red circular prohibition (no-entry) mark and a small label tag reading
+"屋根なし観覧席".
+Caption (small text below):
+屋根を有する部分は建物として取り扱うが、屋根を有しない部分は外気分断性を
+欠くため建物として登記できない(準則77条1号イ)。
+
+--- CARD 2 ---
+Heading (bold):
+イ　土地に固定された浮船利用の店舗は、定着性が認められ建物として登記できる
+Illustration: An isometric riverside scene showing a boat-shaped building
+(a renovated houseboat/restaurant) floating on water but tied down to the
+riverbank with a visible anchor and chain plus wooden stakes driven into
+the ground, a green circular "建物" approval stamp beside it, and a small
+label tag reading "浮船(固定)".
+Caption (small text below):
+浮船を利用した建造物でも、土地に固定されていれば定着性が認められ、建物
+として登記することを要する(準則77条2号ウ)。
+
+--- CARD 3 ---
+Heading (bold):
+ウ　ガード下を利用した倉庫は、建物として登記できる
+Illustration: An isometric elevated railway viaduct (ガード) with a small
+walled warehouse built into the space underneath it, complete with walls,
+a roof, and a door, a green circular "建物" approval stamp on the
+warehouse, and a small label tag reading "ガード下倉庫".
+Caption (small text below):
+ガード下という特殊な立地でも、周壁・屋根で外気を分断し土地に定着して用途
+に供されていれば建物として登記できる(準則77条1号ウ)。
+
+--- CARD 4 ---
+Heading (bold):
+エ　容易に運搬できる切符売場は、定着性を欠き建物として登記できない
+Illustration: An isometric small prefab ticket booth kiosk sitting on
+wheels, with a forklift or hand-truck beside it and short dashed motion
+lines suggesting it can be easily moved, overlaid with a red circular
+prohibition (no-entry) mark and a small label tag reading "切符売場(可動)".
+Caption (small text below):
+容易に運搬しうる建造物は土地への定着性が認められず、建物として登記する
+ことはできない(準則77条2号オ)。
+
+--- CARD 5 ---
+Heading (bold):
+オ　基礎工事を施した廃車鉄道車両の居宅は、定着性が認められ建物として登記できる
+Illustration: An isometric retired train car body permanently set on a
+gray concrete foundation, with a utility pole and a water pipe connected
+to it, a small door and window added to the side, a green circular "建物"
+approval stamp beside it, and a small label tag reading "廃車車両(基礎固定)".
+Caption (small text below):
+廃車となった鉄道車両でも、基礎工事や付帯設備が施されて定着性が認められる
+場合には、建物として登記できる(建物認定95頁)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第10問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・覧・倉・庫・売・運・
+鉄・両・準・則. If any character renders as a Simplified Chinese variant,
+redraw that character in the correct Japanese form. Confirm the number of
+cards equals 5 exactly (ア・イ・ウ・エ・オの順に1枚ずつ、列分けなし), with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

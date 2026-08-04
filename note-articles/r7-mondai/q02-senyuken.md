@@ -50,15 +50,13 @@
 
 **たとえば**、賃借人A（大家から部屋を借りている）が、その部屋をBに又貸し（転貸）。Bが実際に住んでいたところ、不法侵入者Cが鍵を変えてBを追い出し、居座ったとします。この場合、直接住んでいたBはもちろん、間接占有者であるAも「占有を回復せよ」とCに対して訴えを起こすことができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 相続人は自己の占有のみの主張も自由に選べる |
-| イ | 誤 | 無過失の善意占有者は使用利益の返還義務を負わない（189条類推） |
-| ウ | 誤 | 特別の必要費（偶発的損傷の修繕費）は果実取得者でも償還請求できる |
-| エ | 正 | 指図による占有移転（184条）そのもの |
-| オ | 正 | 間接占有者も占有訴権を行使できる（197条） |
+- **ア（誤）**　相続人は自己の占有のみの主張も自由に選べる
+- **イ（誤）**　無過失の善意占有者は使用利益の返還義務を負わない（189条類推）
+- **ウ（誤）**　特別の必要費（偶発的損傷の修繕費）は果実取得者でも償還請求できる
+- **エ（正）**　指図による占有移転（184条）そのもの
+- **オ（正）**　間接占有者も占有訴権を行使できる（197条）
 
 占有権は「誰が・どういう資格で・何を主張できるか」を整理すると一気に理解が進みます。
 
@@ -80,3 +78,94 @@
 - 特別な出費は、所有者に請求できます
 - 「指図」だけで、占有権は移るんです
 - 又貸し元にも、占有を取り戻す権利があります
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+特に「権」という字は簡体字（权）と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+--- HEADER ---
+Title (large, bold, 1行):
+占有権の判例整理
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第2問　民法(占有権)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric house surrounded by multiple character icons
+(占有者・所有者・間接占有者) connected with arrows showing layered
+occupancy relationships.
+法律系資格試験で頻出の「占有権」。条文の文言だけを覚えても、事例問題になると途端に解けなくなる分野です。
+
+--- CARD 1 ---
+Heading (bold):
+相続人は「自分の占有だけ」を主張してもいい
+Illustration: An isometric family-tree icon showing a father character (A)
+with a house and a tag「占有15年」passing down to a son character (B). B
+has two speech bubbles, both checked:「自分の占有だけでOK」and
+「合わせてもOK」.
+Caption (small text below):
+相続人は自己の占有のみの主張も自由に選べる
+
+--- CARD 2 ---
+Heading (bold):
+無過失で信じていたら、使用利益は返さなくていい
+Illustration: A tenant character (C) living in a house rented from a
+non-owner character (B), with a badge labeled「無過失」. The true owner
+character (A) arrives, with a coin icon crossed out and a label
+「使用利益 返還不要」.
+Caption (small text below):
+無過失の善意占有者は使用利益の返還義務を負わない（189条類推）
+
+--- CARD 3 ---
+Heading (bold):
+落雷のような「特別な出費」は請求できる
+Illustration: A house with a lightning-bolt damage icon on the roof. The
+tenant character (C) hands a repair-cost coin icon to the owner character
+(A), with a checkmark stamp labeled「特別の必要費は請求できる」.
+Caption (small text below):
+特別の必要費（偶発的損傷の修繕費）は果実取得者でも償還請求できる
+
+--- CARD 4 ---
+Heading (bold):
+「指図による占有移転」の典型例
+Illustration: A landlord character (A) sells a house to a new owner
+character (C) while a tenant character (B) stays inside without moving. A
+speaks to B with a speech bubble「以後Cのために」, B nods with a checkmark,
+and a dashed arrow shows the indirect occupancy shifting from A to C.
+Caption (small text below):
+指図による占有移転（184条）そのもの
+
+--- CARD 5 ---
+Heading (bold):
+間接占有者にも「占有回収の訴え」の権利がある
+Illustration: A tenant character (A) has sublet the house to another
+character (B) who lives there; an intruder character (C) kicks the door
+open and occupies it. A dashed arrow from A points to a courthouse icon
+labeled「占有回収の訴え提起できる」.
+Caption (small text below):
+間接占有者も占有訴権を行使できる（197条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

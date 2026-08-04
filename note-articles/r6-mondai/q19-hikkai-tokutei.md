@@ -50,15 +50,13 @@
 
 **たとえば**、隣人と裁判所で筆界確定訴訟を争っている最中のＤさんが、並行して法務局に筆界特定の申請をすることもできます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 1点のみで接する土地どうしは筆界特定の対象にならない |
-| イ | 正 | 表題登記のない土地の所有者は所有権を有することを証する情報が必要 |
-| ウ | 誤 | 時効取得した部分が対象筆界に接していなくても申請できる |
-| エ | 正 | 双方表題登記のない土地どうしは筆界特定の対象にならない |
-| オ | 誤 | 筆界確定訴訟が係属中でも筆界特定の申請はできる |
+- **ア（正）**　1点のみで接する土地どうしは筆界特定の対象にならない
+- **イ（正）**　表題登記のない土地の所有者は所有権を有することを証する情報が必要
+- **ウ（誤）**　時効取得した部分が対象筆界に接していなくても申請できる
+- **エ（正）**　双方表題登記のない土地どうしは筆界特定の対象にならない
+- **オ（誤）**　筆界確定訴訟が係属中でも筆界特定の申請はできる
 
 対象土地の要件（筆界で相互に接する2筆）と、訴訟係属中でも申請を妨げないという2点を正確に押さえられたかがこの問題の決め手です。
 
@@ -83,3 +81,80 @@
 - 時効取得の部分、筆界に接していなくてもいいんです
 - 未登記どうしの境は、そもそも筆界じゃないんです
 - 訴訟中でも、筆界特定は申請できるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: this prompt contains kanji that are easily confused with Simplified
+Chinese variants, especially 登・記・地・番. Render these strictly in
+their standard Japanese (Jōyō) forms, never as simplified hanzi.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定、対象土地の要件と申請の可否を整理
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第19問｜筆界特定
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 隣接する土地のアイソメトリックイラスト。筆界線がラベル付きで強調され、裁判所と法務局のアイコンが並ぶ。
+筆界特定の分野は、「筆界」とは何かという定義から出発すると理解しやすくなります。対象土地の要件と、申請人の適格をセットで押さえるのがコツです。
+
+--- CARD 1 ---
+Heading (bold):
+1点だけ接する土地どうしは、筆界特定の対象外
+Illustration: 甲土地・乙土地が地図上でちょうど一点の角だけ触れ合うアイソメトリックイラスト。接点にバツ印のラベル。
+Caption (small text below):
+1点のみで接する土地どうしは筆界特定の対象にならない
+
+--- CARD 2 ---
+Heading (bold):
+未登記の土地の所有者は、所有権を証する情報が必要
+Illustration: 表題登記のない甲土地の所有者が、隣接する表題登記済みの乙土地との筆界特定を申請するアイソメトリックイラスト。権利証・売買契約書の書類アイコン。
+Caption (small text below):
+表題登記のない土地の所有者は所有権を有することを証する情報が必要
+
+--- CARD 3 ---
+Heading (bold):
+時効取得した部分が筆界に接していなくても、申請できる
+Illustration: 乙土地の一部を時効取得した人物Cが、その取得部分が甲土地に直接接していない場合でも、甲土地との筆界特定を申請するアイソメトリックイラスト。矢印にチェックマーク。
+Caption (small text below):
+時効取得した部分が対象筆界に接していなくても申請できる
+
+--- CARD 4 ---
+Heading (bold):
+未登記どうしの土地は、そもそも筆界の対象にならない
+Illustration: 表題登記のない里道と水路が隣り合うアイソメトリックイラスト。両者の間にバツ印付きの「筆界特定不可」ラベル。
+Caption (small text below):
+双方表題登記のない土地どうしは筆界特定の対象にならない
+
+--- CARD 5 ---
+Heading (bold):
+筆界確定訴訟が係属中でも、筆界特定は申請できる
+Illustration: 裁判所(訴訟係属中のラベル)と法務局(筆界特定申請)が並ぶアイソメトリックイラスト。両方に同時進行のチェックマーク。
+Caption (small text below):
+筆界確定訴訟が係属中でも筆界特定の申請はできる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

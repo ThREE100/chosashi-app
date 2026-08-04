@@ -52,15 +52,13 @@
 
 **たとえば**、登記簿上の住所が10年前のままで、その後2回引っ越しをしていたとしても、いちいち「引っ越し1回目」「引っ越し2回目」と段階的に登記を直す必要はありません。最初の登記から今の住所へ一気に変更する登記を1回申請するだけで済みます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 吸収合併は名称変更ではなく更正の登記として扱われる（法33条） |
-| イ | 正 | 特例有限会社から株式会社への移行は同一法人の名称変更 |
-| ウ | 誤 | 住所の更正と氏の変更は一の申請情報でまとめて申請できる |
-| エ | 正 | 持分の誤りは他の共有者の承諾があれば単独で更正できる |
-| オ | 正 | 住所変更は中間を省略して現在の住所に一気に更正できる |
+- **ア（誤）**　吸収合併は名称変更ではなく更正の登記として扱われる（法33条）
+- **イ（正）**　特例有限会社から株式会社への移行は同一法人の名称変更
+- **ウ（誤）**　住所の更正と氏の変更は一の申請情報でまとめて申請できる
+- **エ（正）**　持分の誤りは他の共有者の承諾があれば単独で更正できる
+- **オ（正）**　住所変更は中間を省略して現在の住所に一気に更正できる
 
 「同じ人格の名前が変わっただけ」なのか「別の人格に引き継がれた」のかを見分けることが、この分野の一番のポイントです。
 
@@ -82,3 +80,89 @@
 - 住所も氏も、まとめて1通で直せます
 - 相手の一言があれば、一人でも直せます
 - 何回引っ越してても、一気に更正できます
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+特に「登」「記」「所」といった字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+--- HEADER ---
+Title (large, bold, 1行):
+"名前が変わった"と"別の会社が引き継いだ"は別物
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第8問　不動産登記法(表題部所有者)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Two company signboards (one being absorbed into another)
+placed side by side with a single signboard whose name changes but
+building stays the same, for comparison.
+会社にまつわる変化にはいろいろな種類がありますが、「同じ会社が名前を変えただけ」なのか「別の会社が引き継いだ」のかで、登記の扱いはまったく変わってきます。
+
+--- CARD 1 ---
+Heading (bold):
+吸収合併は「名称変更」ではなく「別の会社への承継」（正確には更正の登記）
+Illustration: A company signboard icon（株式会社A）being absorbed into
+another signboard（株式会社B）with an arrow labeled「更正の登記（法33条）」,
+and a small tag「申請人＝Ｂ」.
+Caption (small text below):
+吸収合併は名称変更ではなく更正の登記として扱われる（法33条）
+
+--- CARD 2 ---
+Heading (bold):
+特例有限会社から株式会社への移行は、同じ会社の「名称変更」
+Illustration: A signboard icon morphing from「特例有限会社Ａ」to
+「株式会社Ａ」with the same building and same character standing in front,
+labeled「名称変更でOK」.
+Caption (small text below):
+特例有限会社から株式会社への移行は同一法人の名称変更
+
+--- CARD 3 ---
+Heading (bold):
+住所の更正と氏の変更は、まとめて一つの申請でできる
+Illustration: A single document-folder icon combining two labels
+「住所の更正」and「氏の変更」inside it, with a checkmark labeled
+「一括申請可」.
+Caption (small text below):
+住所の更正と氏の変更は一の申請情報でまとめて申請できる
+
+--- CARD 4 ---
+Heading (bold):
+持分の誤りは、相手の承諾があれば単独で直せる
+Illustration: Two co-owner character icons (A・B) with a percentage split
+shown as「誤:6:4」crossed out and「正:5:5」, with B handing a document
+labeled「承諾書」to A, who submits alone.
+Caption (small text below):
+持分の誤りは他の共有者の承諾があれば単独で更正できる
+
+--- CARD 5 ---
+Heading (bold):
+住所が何度変わっていても、今の住所に一気に直せる
+Illustration: A timeline of address changes（旧住所→引越1→引越2→現住所）
+with a single arrow skipping directly from「旧住所」to「現住所」.
+Caption (small text below):
+住所変更は中間を省略して現在の住所に一気に更正できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

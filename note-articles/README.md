@@ -9,77 +9,35 @@ note-articles/
 ├── README.md               このファイル
 ├── format-template.md      note記事の執筆フォーマット(固定テンプレート)
 ├── generate-prompt.md      新しい問題の記事を生成するためのプロンプトテンプレート
-├── tools/
-│   └── md_to_mt.py         記事一式をnote.comインポート用MT形式に一括変換するスクリプト
-├── exports/                md_to_mt.pyの変換結果(年度フォルダごとの.mt.txt)
-│   ├── r6-mondai.mt.txt
-│   ├── r7-mondai.mt.txt
-│   └── h23-mondai.mt.txt
-├── r7-mondai/              令和7年度 午後の部の解説記事(問題ごとに1ファイル)
-│   ├── q02-senyuken.md            第2問 占有権
-│   ├── q03-souzoku.md             第3問 相続の承認及び放棄
-│   ├── q04-chizu-teisei.md        第4問 地図の訂正
-│   ├── q05-hozonkikan.md          第5問 保存期間
-│   ├── q06-shokutaku-touki.md     第6問 嘱託登記
-│   ├── q07-ininjou.md             第7問 委任状・代理権
-│   ├── q08-hyoudaibu-shoyuusha.md 第8問 表題部所有者
-│   ├── q09-chisekisokuryouzu.md   第9問 地積測量図
-│   ├── q10-tatemonozumen.md       第10問 建物図面及び各階平面図
-│   ├── q11-bunpitsu.md            第11問 分筆の登記
-│   ├── q12-tatemono-shurui.md     第12問 建物の種類
-│   ├── q13-shikichiken.md         第13問 敷地権
-│   ├── q14-tatemono-hyoudai.md    第14問 建物の表題登記
-│   ├── q15-kyouyoububun.md        第15問 共用部分である旨の登記
-│   ├── q16-hikkaitokutei.md       第16問 筆界特定
-│   ├── q17-shinsaseikyuu.md       第17問 審査請求
-│   ├── q18-houtei-souzoku.md      第18問 法定相続情報一覧図
-│   ├── q19-touroku-menkyozei.md   第19問 登録免許税
-│   └── q20-chousashihou.md        第20問 土地家屋調査士・調査士法人
-└── r6-mondai/              令和6年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
-    ├── q01-koui-nouryoku.md           第1問 制限行為能力者の取消し
-    ├── q02-taikouyouken.md            第2問 対抗要件(民法177条)
-    ├── q03-daishuu-souzoku.md         第3問 代襲相続
-    ├── q04-hyoudai-touki-tenpu.md     第4問 表題登記の添付情報
-    ├── q05-chousashi-houkoku-houshiki.md 第5問 調査士報告方式
-    ├── q06-chizu-teisei.md            第6問 地図等
-    ├── q07-chiseki-kosei.md           第7問 地積に関する更正の登記
-    ├── q08-bunpitsu-touki.md          第8問 土地の分筆の登記
-    ├── q09-gappitsu-touki.md          第9問 合筆の登記
-    ├── q10-chiekiken-zumen.md         第10問 地役権図面
-    ├── q11-daii-ni-yoru-touki.md      第11問 代位による登記
-    ├── q12-tatemono-nintei.md         第12問 建物の認定
-    ├── q13-tatemono-shozai.md         第13問 建物の所在
-    ├── q14-fuzoku-tatemono.md         第14問 附属建物
-    ├── q15-tatemono-hyoji-touki.md    第15問 建物の表示に関する登記
-    ├── q16-tatemono-bunkatsu-gappei.md 第16問 建物の分割又は合併の登記
-    ├── q17-tatemono-messitsu.md       第17問 建物の滅失の登記
-    ├── q18-kubun-tatemono.md          第18問 区分建物の登記
-    ├── q19-hikkai-tokutei.md          第19問 筆界特定
-    └── q20-chousashihou-gyoumu-kitei.md 第20問 土地家屋調査士法
-└── h23-mondai/             平成23年度 午後の部の解説記事(第1問〜第20問すべて作成済み、r6-mondaiと同格の年度フォルダ)
-    ├── q01-ishi-hyouji.md             第1問 意思表示
-    ├── q02-jikou-engyo.md             第2問 時効の援用
-    ├── q03-kyouyu.md                  第3問 共有
-    ├── q04-touki-shikibetsu-jouhou.md 第4問 登記識別情報の通知
-    ├── q05-chizu-teisei.md            第5問 地図の訂正
-    ├── q06-bunpitsu.md                第6問 分筆の登記の申請
-    ├── q07-chiban.md                  第7問 登記官が定める地番
-    ├── q08-bunpitsu-gappitsu-kenri.md 第8問 所有権以外の権利のある土地の分筆及び合筆
-    ├── q09-hikkai-shoyukenkai.md      第9問 筆界及び所有権界
-    ├── q10-ichi-no-shinsei-jouhou.md  第10問 一の申請情報で申請する登記
-    ├── q11-daii-shinsei.md            第11問 登記の代位申請
-    ├── q12-hyoudaibu-kousei.md        第12問 表題部の更正の登記
-    ├── q13-tatemono-messitsu.md       第13問 建物の滅失の登記
-    ├── q14-kankatsu.md                第14問 登記所の管轄
-    ├── q15-tatemonozumen-kaisuheimenzu.md 第15問 建物図面及び各階平面図
-    ├── q16-hyouji-touki-gimu.md       第16問 不動産の表示に関する登記(申請義務)
-    ├── q17-fuzoku-tatemono.md         第17問 附属建物
-    ├── q18-tatemono-gattai.md         第18問 建物が合体した場合の登記の申請
-    ├── q19-kubun-tatemono-hyoudai.md  第19問 建物の表題登記の申請(区分建物)
-    └── q20-chousashihou.md            第20問 土地家屋調査士・調査士法人の業務制限
+├── column/                 特定の1問に紐づかない概念解説・横断参照コラム(4本)
+├── bunya-kaisetsu/         分野別の深掘り解説(制限行為能力者の各類型、附属建物の所在等、8本)
+├── topics/                 テーマ別の短い解説記事(地目23種類、申請適格、取消権事項等、3本)
+├── exports/                note.comインポート用MT形式の変換済みファイル
+├── tools/                  記事の一括変換・整形スクリプト(md_to_mt.py、table_to_bullets.py等)
+├── r7-mondai/              令和7年度 午後の部(第1問〜第20問、全問完成)
+├── r6-mondai/              令和6年度 午後の部(第1問〜第20問、全問完成)
+├── r5-mondai/              令和5年度 午後の部(第1問〜第20問)
+├── r4-mondai/              令和4年度 午後の部(第1問〜第20問)
+├── r3-mondai/              令和3年度 午後の部(第1問〜第20問)
+├── r2-mondai/              令和2年度 午後の部(第1問〜第20問)
+├── r1-mondai/              令和元年度 午後の部(第1問〜第20問)
+├── h30-mondai/             平成30年度 午後の部(第1問〜第20問)
+├── h29-mondai/             平成29年度 午後の部(第1問〜第20問)
+├── h28-mondai/             平成28年度 午後の部(第1問〜第20問)
+├── h27-mondai/             平成27年度 午後の部(第1問〜第20問)
+├── h26-mondai/             平成26年度 午後の部(第1問〜第20問)
+├── h25-mondai/             平成25年度 午後の部(第1問〜第20問)
+├── h24-mondai/             平成24年度 午後の部(第1問〜第20問)
+├── h23-mondai/             平成23年度 午後の部(第1問〜第20問、全問完成)
+├── h22-mondai/             平成22年度 午後の部(第1問〜第20問)
+├── h21-mondai/             平成21年度 午後の部(第1問〜第20問)
+├── h20-mondai/             平成20年度 午後の部(第1問〜第20問)
+└── h17-mondai/             平成17年度 午後の部(17問。第7問・第9問・第20問は欠番)
 ```
 
-令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分・平成23年度分はいずれも第1問〜第20問すべて作成済みです。
+**令和6年度・令和7年度・平成23年度は、このリポジトリのセッションで作成・ダブルチェック・インフォグラフィックプロンプト追加まで完了済みです**（令和7年度は当初第2問から作業を開始したため、第1問(意思表示)は後日追加しました）。
+
+**令和5年度〜平成17年度分は、GitHub上の複数のClaude Codeセッション(ブランチ`claude/surveyor-exam-*`)で個別に作成されたものを、2026年7月にこのリポジトリの`main`ブランチへ統合したものです**。各年度・各記事の作成経緯や情報ソースの確認状況は、それぞれの記事末尾の確認事項ブロックをご参照ください。統合時に内容の再検証は行っていないため、精度は記事ごとに異なる可能性があります。
 
 ## 平成23年度分の情報ソースについて
 
@@ -109,10 +67,11 @@ note-articles/
 2. 出典（出題年度・午前/午後・問題番号）
 3. 問題文の引用（ア〜オの肢＋選択肢の組合せを含む全文）
 4. 各肢の解説（見出しは正しい結論を表すフレーズ、条文根拠、「たとえば」で始まる具体例）
-5. まとめ表（肢・判定・ポイントの3列）
+5. まとめ（`### まとめ` 見出し＋「肢（正/誤）　ポイント」の箇条書き。noteの本文エディタが表組みに対応していないため、Markdownの表は使わない）
 6. 正解（本文の最後に明記。冒頭での先出しはしない）
 7. 「このまま使える点／使う前に確認したい点」の確認事項ブロック（出典・根拠の確認状況を正直に記載）
 8. 見出し画像用フレーズ（語り口調のキャッチフレーズ、通常5つ）
+9. インフォグラフィック生成プロンプト（問題全体・5肢をカード化した画像生成プロンプト。詳細は`format-template.md`参照）
 
 ## 正確性についての方針
 
