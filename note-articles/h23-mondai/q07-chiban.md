@@ -48,15 +48,13 @@
 
 **たとえば**、分筆でいったん生まれた「2番」の地番が、その分筆自体が錯誤で抹消されて消えたとしても、後から出てきた別の土地にその「2番」を何の事情もなく割り当て直すことはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 新規の地番は隣地の支号を付す方法に限定されていない（規則98条） |
-| イ | 正 | 地役権を消す側の土地には支号なしの地番を残せる |
-| ウ | 正 | 特別の事情があれば合筆後の地番は首位でなくてよい |
-| エ | 正 | 地番は地域ごとに位置が分かりやすいように定める（規則98条） |
-| オ | 誤 | いったん抹消された地番は事情がなくても再使用はできない |
+- **ア（誤）**　新規の地番は隣地の支号を付す方法に限定されていない（規則98条）
+- **イ（正）**　地役権を消す側の土地には支号なしの地番を残せる
+- **ウ（正）**　特別の事情があれば合筆後の地番は首位でなくてよい
+- **エ（正）**　地番は地域ごとに位置が分かりやすいように定める（規則98条）
+- **オ（誤）**　いったん抹消された地番は事情がなくても再使用はできない
 
 「地番は登記官が公的に定めるもの」という視点に立つと、当事者の都合や思い込みで自由に付け替えたり使い回したりできない理由が見えてきます。
 
@@ -71,6 +69,7 @@
 - 各肢の法的根拠のうち、ア・エ（地番は位置が分かりやすいように、地域ごとに起番して定める＝不動産登記規則98条）は条文レベルで確認済みです。イ・ウ・オについては、条文番号・先例番号をピンポイントで特定せず、地番の付け方・合筆後の地番・抹消された地番の再使用に関する不動産登記事務取扱準則等の一般原則および実務上の取り扱いからの整理にとどめています。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成24年度以降令和7年度までの試験で「登記官が定める地番」を単独テーマとする問題が再出題されていないかを確認しました。該当する出題は見つからず、重複はありません。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記規則98条〜101条（地番の設定・分筆合筆時の地番）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -81,3 +80,95 @@
 - 特別の事情があれば、合筆後の地番は首位じゃなくていいんです
 - 地番は、地域ごとに位置が分かるように付けるんです
 - いったん消えた地番、勝手には使い回せないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 番（地番）and 号（支号）appear
+prominently in this infographic. Do not render 番 or 号 as any Simplified
+Chinese variant — use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地番って、どうやって決まるの？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第7問　不動産登記法(登記官が定める地番)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A row of numbered land-plot icons（1番、2番、3番...）with a
+registry officer character holding a stamp labeled「地番」, placing numbers
+onto new plots in a neighborhood grid.
+登記官が地番を定める規則(不動産登記規則98条〜103条)に関する問題です。もっともらしい記述に引きずられず、条文の原則に立ち返って確かめていきます。
+
+--- CARD 1 ---
+Heading (bold):
+新規の地番は、隣地の支号と決まっているわけではない
+Illustration: A new land plot appears next to an existing numbered plot
+「5番」. An arrow tentatively suggests「5番の1」（支号）but a red「✕限定
+されない」mark shows other numbering is also possible, with a「位置が
+分かりやすいように」label instead.
+Caption (small text below):
+新規の地番は隣地の支号を付す方法に限定されていない（規則98条）
+
+--- CARD 2 ---
+Heading (bold):
+地役権を消す側には、支号なしの地番を残せる
+Illustration: A land plot with an「地役権」ribbon being cut and removed
+from one half after division, leaving that half with a plain number
+（支号なし）and a checkmark, while the other half keeps a支号.
+Caption (small text below):
+地役権を消す側の土地には支号なしの地番を残せる
+
+--- CARD 3 ---
+Heading (bold):
+特別の事情があれば、合筆後の地番は首位でなくてよい
+Illustration: Two land plots「3番」and「7番」merging into one (合筆), with
+an arrow normally pointing to「3番」（首位）as the surviving number, but a
+special-circumstance icon（特別の事情）allows「7番」to be kept instead,
+with a checkmark.
+Caption (small text below):
+特別の事情があれば合筆後の地番は首位でなくてよい
+
+--- CARD 4 ---
+Heading (bold):
+地番は、地域ごとに位置が分かるように付ける
+Illustration: A neighborhood map divided into named districts（字・町）,
+each filled with sequentially numbered land plots arranged so a
+character can trace their finger along a clear, readable path.
+Caption (small text below):
+地番は地域ごとに位置が分かりやすいように定める（規則98条）
+
+--- CARD 5 ---
+Heading (bold):
+いったん消えた地番は、勝手に使い回せない
+Illustration: A land plot「乙土地」labeled with a torn「抹消」stamp after
+an erroneous division is cancelled, with its number sitting in a
+"retired numbers" box, and a red「✕再使用不可」mark blocking a new plot
+from reusing that same number without special circumstances.
+Caption (small text below):
+いったん抹消された地番は事情がなくても再使用はできない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

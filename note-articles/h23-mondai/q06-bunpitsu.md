@@ -48,15 +48,13 @@
 
 **たとえば**、まだ表題登記しかない土地を買い受けた人が、登記簿上の表題部所有者から「分筆してよい」という承諾書をもらったとしても、その承諾書だけを根拠に自分の名で分筆の登記を申請することはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 「3分の2以上で分筆できる」という規定は存在しない |
-| イ | 誤 | 分筆の申請に規約を定めたことを証する情報は要らない |
-| ウ | 誤 | 地目が分かれても職権分筆はなく、自分で申請を要する |
-| エ | 正 | 誤差の限度内なら地積更正の登記は要しない |
-| オ | 誤 | 表題部所有者でなければ承諾書があっても分筆申請できない（法39条） |
+- **ア（誤）**　「3分の2以上で分筆できる」という規定は存在しない
+- **イ（誤）**　分筆の申請に規約を定めたことを証する情報は要らない
+- **ウ（誤）**　地目が分かれても職権分筆はなく、自分で申請を要する
+- **エ（正）**　誤差の限度内なら地積更正の登記は要しない
+- **オ（誤）**　表題部所有者でなければ承諾書があっても分筆申請できない（法39条）
 
 正しいのは1個（肢エだけ）です。もっともらしい数字や「職権でできる」という言い回しに引きずられず、「申請できる人は誰か」という原則に立ち返るのが確実です。
 
@@ -71,6 +69,7 @@
 - 各肢の法的根拠のうち、オ（分筆の登記の申請人は表題部所有者又は所有権の登記名義人＝不動産登記法39条）は条文レベルで確認済みです。ア・イ・ウ・エについては、条文番号・先例番号をピンポイントで特定せず、分筆の登記に関する一般原則・実務上の取り扱いからの整理にとどめています（特にエは不動産登記規則の誤差の限度に関する規定の存在を前提とする整理です）。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、「分筆の登記」は令和7年度第11問（本シリーズで既に note-articles/r7-mondai/q11-bunpitsu.md として執筆済み）、平成26年度第10問、平成25年度第9問、平成24年度第7問など、ほぼ毎年出題されている頻出テーマであることを確認しました。令和7年度第11問は担保権・仮登記のある土地の分筆時の権利処理が中心で、本問（申請人適格・職権分筆の有無・地積誤差の許容範囲）とは具体的な論点が異なるため、直接の重複ではありません。ただし、平成26年度第10問の肢ウ（表題部所有者以外の実体上の所有者が、承諾を証する情報を提供しても分筆登記を申請できない）は、本問の肢オと実質的に同一の論点であり、平成26年度分を今後執筆する際は重複に注意してください。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法39条（分筆の登記の申請人）、46条（敷地権付き区分建物の分筆制限）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -81,3 +80,98 @@
 - 地目が分かれても、職権では分筆してくれないんです
 - 誤差の範囲内なら、地積更正はしなくていいんです
 - 表題部所有者じゃなきゃ、承諾書があっても申請できないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 筆（分筆）appears prominently in
+this infographic. Do not render it as the Simplified Chinese variant
+（笔）— use the standard Japanese form 筆 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+分筆、申請できる人・要る情報は？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第6問　不動産登記法(分筆の登記の申請)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A land plot being split by a dotted cutting line into two
+parcels（分筆）, with a character holding a「申請書」pointing at the line,
+surrounded by five small floating icons representing different rules
+being checked with a magnifying glass.
+分筆の登記を「誰が申請できるのか」「どんな添付情報が要るのか」「職権でできるのか」を問う問題です。条文の原則に立ち返って一つずつ真偽を確かめていきます。
+
+--- CARD 1 ---
+Heading (bold):
+「3分の2以上で分筆できる」というルールは存在しない
+Illustration: A condominium building icon (敷地権) with several resident
+characters, a fraction icon「2/3」floating above with a red「✕存在しない
+ルール」stamp over it, and a padlock icon on the land plot below（分筆
+制限）.
+Caption (small text below):
+「3分の2以上で分筆できる」という規定は存在しない
+
+--- CARD 2 ---
+Heading (bold):
+分筆の申請に、規約を定めたことを証する情報までは要らない
+Illustration: A land plot split into two, one piece now outside the
+condominium building's footprint. A「規約設定証明書」document floats
+nearby with a red「✕添付不要」mark next to the simple「分筆申請書」that
+alone goes through.
+Caption (small text below):
+分筆の申請に規約を定めたことを証する情報は要らない
+
+--- CARD 3 ---
+Heading (bold):
+地目が分かれたら、自分で分筆を申請しないといけない
+Illustration: A land plot with one half turning green (畑) and the other
+staying gray (宅地), with a registry-officer character shown NOT
+stamping it automatically (red「✕職権なし」), while the landowner character
+must submit their own「分筆申請」paper.
+Caption (small text below):
+地目が分かれても職権分筆はなく、自分で申請を要する
+
+--- CARD 4 ---
+Heading (bold):
+誤差の範囲内なら、地積更正はしなくてよい
+Illustration: A measuring-tape icon comparing two numbers「100㎡」and
+「99.8㎡」on a land plot, with a small green tolerance-zone bracket
+（誤差の限度内）and a checkmark, next to a crossed-out「地積更正登記」stamp
+labeled「不要」.
+Caption (small text below):
+誤差の限度内なら地積更正の登記は要しない
+
+--- CARD 5 ---
+Heading (bold):
+表題部所有者でなければ、承諾書があっても分筆申請できない
+Illustration: A registered-title character（表題部所有者）holding a
+「承諾書」paper handing it to an unregistered actual-owner character, who
+tries to submit a「分筆申請」but is blocked by a red「✕」at the registry
+window because they are not the title holder.
+Caption (small text below):
+表題部所有者でなければ承諾書があっても分筆申請できない（法39条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

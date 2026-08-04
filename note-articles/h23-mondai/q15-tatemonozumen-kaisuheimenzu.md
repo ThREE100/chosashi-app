@@ -48,15 +48,13 @@
 
 **たとえば**、建物を甲土地から乙土地へ曳いて移した結果、それまでの建物図面が「従前の図面」として使われなくなった場合、その図面は永久にではなく30年間保存されます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 建物分割の登記では床面積が変わらなくても各階平面図が必要 |
-| イ | 正 | 規約敷地の追加だけなら建物図面は不要 |
-| ウ | 誤 | 増築で一棟に変更があっても一棟全体の図面までは不要 |
-| エ | 正 | 仮換地の形を実線で、将来の地番を括弧書きで記載する |
-| オ | 正 | 曳行移転で使われなくなった従前の建物図面の保存期間は30年 |
+- **ア（誤）**　建物分割の登記では床面積が変わらなくても各階平面図が必要
+- **イ（正）**　規約敷地の追加だけなら建物図面は不要
+- **ウ（誤）**　増築で一棟に変更があっても一棟全体の図面までは不要
+- **エ（正）**　仮換地の形を実線で、将来の地番を括弧書きで記載する
+- **オ（正）**　曳行移転で使われなくなった従前の建物図面の保存期間は30年
 
 図面が示すべき「今の建物の姿」が変わるかどうかを軸に置けば、添付の要否は自然と整理できます。
 
@@ -71,6 +69,7 @@
 - 各肢の法的根拠について、条文番号を一義的に特定できるものは確認できておらず、いずれも不動産登記規則の建物図面・各階平面図に関する一般的な取扱い、および登記実務上の先例からの整理にとどまります。特にオの「保存期間30年」という具体的な数字は、条文の号を明示できていない点にご留意ください。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）の記述があり、内容の精度にばらつきがあったため採用せず、正解番号と一般原則から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和7年度第10問「建物図面及び各階平面図」（本シリーズで既に note-articles/r7-mondai/q10-tatemonozumen.md として執筆済み）が、本問と強く重複するテーマであることを確認しました。両問とも「規約敷地を追加する登記に建物図面の添付を要するか」（本問の肢イ、令和7年度第10問の肢イに相当）、「仮換地上に建築された建物の表題登記に添付する建物図面の記載方法」（本問の肢エ、令和7年度第10問の肢ウに相当）という同一の論点を扱っています。note投稿の際は、両記事の内容が重ならないよう書き分けるか、公開の間隔に配慮してください。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記規則82条・83条（建物図面・各階平面図）、28条（保存期間）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -81,3 +80,94 @@
 - 増築しても、一棟全体の図面までは要らないんです
 - 仮換地の建物図面、将来の地番は括弧書きなんです
 - 従前の建物図面、実は30年しか保存されないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 図（建物図面）appears repeatedly in
+this infographic. Do not render it as the Simplified Chinese variant
+（图）— use the standard Japanese form 図 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その図面、本当に添付が要る？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第15問　不動産登記法(建物図面及び各階平面図)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A blueprint/floor-plan icon（建物図面）with a magnifying
+glass hovering over it, half glowing green with a checkmark（添付要）and
+half grayed out with a red「✕」（添付不要）, representing the現況主義.
+建物図面・各階平面図は「今の建物の姿」を示す図面です。物理的な状態が変わる場面では改めて添付が必要になり、変わらない場面では省略できるという現況主義で見分けていきます。
+
+--- CARD 1 ---
+Heading (bold):
+建物を分割するとき、床面積が変わらなくても各階平面図が要る
+Illustration: A building icon splitting into two separate registered
+buildings（建物分割）with identical total floor area before and after,
+but each new building still requires its own fresh各階平面図 document
+with a checkmark.
+Caption (small text below):
+建物分割の登記では床面積が変わらなくても各階平面図が必要
+
+--- CARD 2 ---
+Heading (bold):
+規約敷地を追加するだけなら、建物図面は不要
+Illustration: A condominium building icon gaining an additional
+regulation-designated plot of land nearby（規約敷地）via a rulebook icon
+（規約）, with a red「✕建物図面不要」crossing out a blueprint document.
+Caption (small text below):
+規約敷地の追加だけなら建物図面は不要
+
+--- CARD 3 ---
+Heading (bold):
+増築で一棟に変更があっても、一棟全体の図面までは不要
+Illustration: A condominium unit being extended（増築）with a small
+highlighted room addition, while the surrounding full-building blueprint
+（一棟の建物図面全体）sits crossed out with a red「✕全部添付不要」— only
+the changed room's floor plan is needed.
+Caption (small text below):
+増築で一棟に変更があっても一棟全体の図面までは不要
+
+--- CARD 4 ---
+Heading (bold):
+仮換地の建物図面、将来の地番は括弧書きなんです
+Illustration: A building on a temporary land-readjustment plot（仮換地）
+drawn with a solid outline, with a small parenthetical tag「(換地後
+予定地番)」floating beside the plot's future permanent number.
+Caption (small text below):
+仮換地の形を実線で、将来の地番を括弧書きで記載する
+
+--- CARD 5 ---
+Heading (bold):
+曳行移転で使われなくなった従前の建物図面の保存期間は30年
+Illustration: A building icon being pulled by a rope to a new land plot
+（曳行移転）, leaving behind its old blueprint document in a filing
+cabinet drawer labeled「30年保存」instead of a永久 stamp.
+Caption (small text below):
+曳行移転で使われなくなった従前の建物図面の保存期間は30年
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -48,15 +48,13 @@
 
 **たとえば**、伊藤さんだけが所有者と記録されていた建物を、伊藤さん・木村さんの共有に直すとき、新しく名義人になる木村さんは、自分の住所を証する情報を付ける必要があります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 登記原因・日付の誤りも、表題部所有者が更正できる |
-| イ | 誤 | 持分更正に、Aの持分権を証する情報までは要らない |
-| ウ | 正 | 判決があれば、実体上の所有者が更正を申請できる |
-| エ | 正 | 公的な証明がないときは、代わりの情報でよい |
-| オ | 正 | 新たに名義人になる人は、住所の証明が要る |
+- **ア（誤）**　登記原因・日付の誤りも、表題部所有者が更正できる
+- **イ（誤）**　持分更正に、Aの持分権を証する情報までは要らない
+- **ウ（正）**　判決があれば、実体上の所有者が更正を申請できる
+- **エ（正）**　公的な証明がないときは、代わりの情報でよい
+- **オ（正）**　新たに名義人になる人は、住所の証明が要る
 
 何を更正できるか、どんな添付情報が本当に必要か、新たに名義人になる人に何を求めるか——この3点を要件に照らして丁寧に切り分けることが大切です。
 
@@ -71,6 +69,7 @@
 - 各肢の法的根拠は、表題部の更正の登記の対象範囲・添付情報に関する不動産登記法・不動産登記令・不動産登記規則の一般的な扱いからの整理にとどまり、個別の条文番号までは明示していません。この点は正直にお伝えします。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成24年度以降令和7年度までの試験で「表題部の更正の登記」を単独テーマとする問題が再出題されていないかを確認しました。該当する出題は見つからず、重複はありません。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法37条（表題部の更正）、76条（確定判決等による登記）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -81,3 +80,93 @@
 - 判決があれば、実体上の所有者が更正できるって知ってた?
 - 公的な証明がないときは、代わりの情報でいいんです
 - 新たに名義人になる人は、住所の証明が要るんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 証（証する情報）and 権（持分権）appear
+repeatedly in this infographic. Do not render 証 as the Simplified Chinese
+variant（证）or 権 as（权）— use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表題部の更正、誰が・何を証明する？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第12問　不動産登記法(表題部の更正の登記)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A registration document icon with a highlighted incorrect
+field being erased and rewritten with a red pen（更正）, surrounded by
+five small floating documents representing different types of proof
+information.
+表題部の更正の登記に関する問題です。「誰が更正を申請できるのか」「どんな証明情報が要るのか」を、一つずつ性質に分けて整理していきます。
+
+--- CARD 1 ---
+Heading (bold):
+登記原因・日付の誤りも、表題部所有者が更正できる
+Illustration: A registration document with the「登記原因及びその日付」
+field circled in red, and the表題部所有者 character stamping a
+「更正申請」seal directly onto it with a checkmark.
+Caption (small text below):
+登記原因・日付の誤りも、表題部所有者が更正できる
+
+--- CARD 2 ---
+Heading (bold):
+持分更正に、Aの持分権を証する情報までは要らない
+Illustration: A pie-chart icon showing shared ownership shifting from
+「A:1/2, B:1/2」to「A:2/3, B:1/3」, with B's「承諾書」attached but a red
+「✕不要」crossing out a separate「Aの持分権証明情報」document.
+Caption (small text below):
+持分更正に、Aの持分権を証する情報までは要らない
+
+--- CARD 3 ---
+Heading (bold):
+判決があれば、実体上の所有者が更正を申請できる
+Illustration: A courthouse/gavel icon stamping「対抗判決」onto a document,
+handed to an actual-owner character (B) who was not previously listed,
+allowing B to stamp a「更正申請」directly with a checkmark.
+Caption (small text below):
+判決があれば、実体上の所有者が更正を申請できる
+
+--- CARD 4 ---
+Heading (bold):
+公的な証明がないときは、代わりの情報でよい
+Illustration: A city-hall building icon with a red「✕証明書なし」crossing
+out an official certificate, replaced by an alternative document icon
+（これに代わるべき情報）with a checkmark accepted at the registry window.
+Caption (small text below):
+公的な証明がないときは、代わりの情報でよい
+
+--- CARD 5 ---
+Heading (bold):
+新たに名義人になる人は、住所の証明が要る
+Illustration: A character newly added to a title document（新たな共有
+者）holding up an「住所証明情報」card at the registry window, with a
+checkmark confirming the requirement.
+Caption (small text below):
+新たに名義人になる人は、住所の証明が要る
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

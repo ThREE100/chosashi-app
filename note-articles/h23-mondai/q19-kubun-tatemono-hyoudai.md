@@ -46,15 +46,13 @@
 
 **たとえば**、マンションの1室を建てた人が登記をしないまま亡くなった場合、その子どもは表題登記の申請人にはなれますが、登記記録の表題部所有者欄には亡くなった親の名前が記録され、子ども自身の名前を表題部所有者として記録させることはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 既存建物の登記は抹消ではなく更正で対応する |
-| イ | 正 | 未登記建物に接続した区分建物の所有者は他の分もまとめて申請できる |
-| ウ | 誤 | 一部売却後も原始取得者本人がなお申請でき、代位に限定されない |
-| エ | 正 | 全部が同一所有者なら1個の非区分建物として登記する選択もできる |
-| オ | 誤 | 相続人は「自己」を表題部所有者とする登記はできない |
+- **ア（誤）**　既存建物の登記は抹消ではなく更正で対応する
+- **イ（正）**　未登記建物に接続した区分建物の所有者は他の分もまとめて申請できる
+- **ウ（誤）**　一部売却後も原始取得者本人がなお申請でき、代位に限定されない
+- **エ（正）**　全部が同一所有者なら1個の非区分建物として登記する選択もできる
+- **オ（誤）**　相続人は「自己」を表題部所有者とする登記はできない
 
 「誰の名前が登記記録に残るのか」を軸に置くと、代位や更正・抹消といった手続の選び方の誤りに気づきやすくなります。
 
@@ -69,6 +67,7 @@
 - 各肢の法的根拠のうち、イ・エ・オは不動産登記法48条および区分所有権の任意性という一般原則に基づく整理ですが、条文の各項番号までは断定していません。ア（既存の非区分建物の登記を更正で対応する点）とウ（原始取得者の申請義務が代位に限定されない点）については、実務上の取扱い・先例からの整理にとどまり、条文で明確に裏付けられたものではない点を正直にお伝えします。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で、記述の途中で判断が二転三転している箇所があったため採用せず、正解番号と一般原則から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和7年度第14問「建物の表題登記」（本シリーズで既に note-articles/r7-mondai/q14-tatemono-hyoudai.md として執筆済み）が、本問と重複する論点を含むことを確認しました。特に「新築された表題登記のない建物の原始取得者が死亡した場合に、相続人が自己を表題部所有者とする表題登記を申請できるか」という論点は、本問の肢オと令和7年度第14問の肢ウで共通してテストされています（いずれも「できない」が結論）。note投稿の際は、この論点の重複に注意し、書き分けを検討してください。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法47条・48条（区分建物の表題登記）を確認しました。令和6年（2024年）4月1日施行の相続登記の申請義務化は、既に登記されている不動産の所有権移転登記に関する義務であり、本問が扱う未登記建物の原始取得者死亡時の表題登記の申請（表題部所有者を誰と記録するか）とは別範疇のため、本問の内容への影響はありません。
 
 ---
 
@@ -79,3 +78,97 @@
 - 一部を売っても、原始取得者はまだ申請できるって知ってた？
 - 全部同じ所有者なら、区分しない登記も選べるんです
 - 相続人は「自分」を表題部所有者にはできないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 続（相続人）と証（更正）appear in
+this infographic. Do not render 続 as the Simplified Chinese variant
+（续）or otherwise substitute any character — use the standard Japanese
+forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表題登記、義務者は本当に「代位」しないといけない？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第19問　不動産登記法(建物の表題登記の申請)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A registration document icon with a name field, and a
+question mark hovering over「誰の名前が記録される？」, surrounded by small
+icons of an original owner, a buyer, and an heir character.
+区分建物の表題登記は、「誰が」「誰の名前で」申請できるのかという申請人・記録される所有者名の問題です。区分建物として登記するかどうかは所有者の選択に委ねられている点も押さえましょう。
+
+--- CARD 1 ---
+Heading (bold):
+既存建物の登記は、抹消ではなく更正で対応する
+Illustration: An independent warehouse icon（非区分建物）becoming attached
+to a new condominium unit（区分建物）, with a red「✕抹消」crossed out and
+a green「更正登記」stamp applied instead to the warehouse's existing
+record.
+Caption (small text below):
+既存建物の登記は抹消ではなく更正で対応する
+
+--- CARD 2 ---
+Heading (bold):
+未登記建物に接続した区分建物の所有者は、他の区分建物の分もまとめて申請できる
+Illustration: A newly-built condominium unit（区分建物）connecting to an
+unregistered apartment building（表題登記なし）, with the new unit's
+owner character stamping「表題登記」seals for both their own unit and the
+other units on behalf of their owners.
+Caption (small text below):
+未登記建物に接続した区分建物の所有者は他の分もまとめて申請できる
+
+--- CARD 3 ---
+Heading (bold):
+一部を売却しても、原始取得者本人がなお申請できる
+Illustration: A builder character（原始取得者）holding an entire
+unregistered condominium building, selling one unit to a buyer, but
+still personally stamping the「表題登記申請」seal for that sold unit —
+no special「代位」stamp required.
+Caption (small text below):
+一部売却後も原始取得者本人がなお申請でき、代位に限定されない
+
+--- CARD 4 ---
+Heading (bold):
+全部が同じ所有者なら、区分建物として登記しない選択もできる
+Illustration: A single owner character standing in front of an entire
+apartment building, with two path options: stamping「区分建物として登記」
+or「1個の非区分建物として登記」, both shown as valid green checkmarks.
+Caption (small text below):
+全部が同一所有者なら1個の非区分建物として登記する選択もできる
+
+--- CARD 5 ---
+Heading (bold):
+相続人は「自己」を表題部所有者とする登記はできない
+Illustration: An unregistered condominium unit's original builder
+character passing away（星マークの吹き出し）, with their heir character
+submitting a「表題登記申請」but a red「✕」blocks the heir's own name from
+the表題部所有者 field, which instead shows the deceased builder's name.
+Caption (small text below):
+相続人は「自己」を表題部所有者とする登記はできない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

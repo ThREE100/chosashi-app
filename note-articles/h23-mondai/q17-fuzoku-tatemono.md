@@ -48,15 +48,13 @@
 
 **たとえば**、複数ある物置のうち一つだけ残して他を全部取り壊した場合、残る建物の位置が変わらず建物図面も提出済みであれば、変更登記で改めて建物図面を出す必要はありません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 附属建物を独立させる分割登記は共有者全員で申請する |
-| イ | 正 | 追加した附属建物の分だけ各階平面図を提出すればよい |
-| ウ | 正 | 滅失の日を書けばよく、附属の取壊し日は別に要らない |
-| エ | 誤 | 基礎を残しても建て直せば建物図面の添付が要る |
-| オ | 誤 | 図面提出済みで変化がなければ建物図面は省略できる |
+- **ア（正）**　附属建物を独立させる分割登記は共有者全員で申請する
+- **イ（正）**　追加した附属建物の分だけ各階平面図を提出すればよい
+- **ウ（正）**　滅失の日を書けばよく、附属の取壊し日は別に要らない
+- **エ（誤）**　基礎を残しても建て直せば建物図面の添付が要る
+- **オ（誤）**　図面提出済みで変化がなければ建物図面は省略できる
 
 附属建物の図面は、「既提出＋現況不変なら省略、建て直し等で現況が変われば必要」という一本の物差しで判断すると迷いません。
 
@@ -71,6 +69,7 @@
 - 各肢の法的根拠のうち、ア(建物の分割の登記＝共有者全員申請)、イ・オ(既提出図面がある場合の各階平面図・建物図面の省略の可否)、エ(取り壊して新築した建物についての建物図面の要否)は、不動産登記法・不動産登記令別表・準則の建物図面まわりの一般原則からの整理です。ウの滅失日の申請情報の細部は、実務上の記録方法からの整理にとどまり、条文番号を断定していない点は留意してください。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和6年度第14問「附属建物」（本シリーズで既に note-articles/r6-mondai/q14-fuzoku-tatemono.md として執筆済み）が、本問と同じ「附属建物」をテーマとする問題であることを確認しました。両問とも「附属建物の新築に伴う図面(各階平面図・建物図面)の添付の要否」という切り口を含んでいますが、具体的な設問（本問は建て替え・独立化・滅失時の図面、令和6年度第14問は先取特権・新築日の記載省略等）は異なります。全体として直接の重複ではありませんが、テーマが同じため、note投稿の際は両記事を見比べることを推奨します。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法54条（建物の分割の登記）、不動産登記規則121条等（附属建物の図面）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -81,3 +80,93 @@
 - 滅失の日を書けば、附属の取壊し日は別にいらないんです
 - 基礎を残して建て直しても、建物図面はやっぱり要る
 - 図面が出てて変化なしなら、建物図面は省略できるって知ってた？
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 属（附属建物）and 図（建物図面）appear
+repeatedly in this infographic. Do not render 属 or 図 as any Simplified
+Chinese variant — use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+附属建物の図面、いる場面といらない場面
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第17問　不動産登記法(附属建物)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A main house icon（主である建物）with a small shed attached
+beside it（附属建物）, and a blueprint document hovering between them,
+half glowing green（添付要）and half grayed out（添付不要）.
+附属建物をめぐる登記では、「図面を添付する必要があるか」の見極めが得点源になります。現況主義を軸に整理していきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+附属建物を独立させる登記は、共有者全員で申請する
+Illustration: A small shed（附属建物）being detached from a main house
+and becoming its own independent building icon, with two co-owner
+characters (A, B) both stamping the「分割登記」seal together.
+Caption (small text below):
+附属建物を独立させる分割登記は共有者全員で申請する
+
+--- CARD 2 ---
+Heading (bold):
+追加した附属建物の分だけ、各階平面図を出せばよい
+Illustration: A main house with an existing filed floor-plan document,
+gaining a new small shed（附属建物新築）, with only the shed's own small
+各階平面図 document being submitted, not the whole house's plan again.
+Caption (small text below):
+追加した附属建物の分だけ各階平面図を提出すればよい
+
+--- CARD 3 ---
+Heading (bold):
+滅失の日を書けばよく、附属の取壊し日を別に書く必要はない
+Illustration: A main house demolished first, then its attached shed
+demolished later, both converging into a single「滅失登記」stamp with
+one overall滅失日 date, with a red「✕別記載不要」next to a separate
+取壊し日 field.
+Caption (small text below):
+滅失の日を書けばよく、附属の取壊し日は別に要らない
+
+--- CARD 4 ---
+Heading (bold):
+基礎を残しても建て直せば、建物図面の添付が要る
+Illustration: A garage（車庫）being demolished down to its foundation
+slab, then rebuilt as a storage shed（物置）of the same size on the same
+foundation, with a blueprint document still required with a checkmark.
+Caption (small text below):
+基礎を残しても建て直せば建物図面の添付が要る
+
+--- CARD 5 ---
+Heading (bold):
+図面が出ていて残る建物に変化がなければ、建物図面は省略できる
+Illustration: Several small shed icons（複数の附属建物）with one being
+demolished while the others remain unchanged, next to an already-filed
+blueprint document with a checkmark and a red「✕再提出不要」.
+Caption (small text below):
+図面提出済みで変化がなければ建物図面は省略できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

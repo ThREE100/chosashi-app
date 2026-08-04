@@ -48,15 +48,13 @@
 
 **たとえば**、渡り廊下でつながっていた1棟の建物のうち中間部分を取り壊して物理的に2棟に分かれてしまった場合、所有者が申請すべきなのは分割の登記ではなく、建物の一部滅失にともなう変更の登記です。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 増築登記の起算点は共用部分登記の日ではなく工事完了日 |
-| イ | 正 | 敷地権の割合変更は、変更の日から1か月以内に表題部変更登記 |
-| ウ | 正 | 分筆で建物の地番が変わったら、変更の日から1か月以内に所在変更登記 |
-| エ | 誤 | 地目変更登記の起算点は取得日ではなく地目が変わった日 |
-| オ | 誤 | 一部取壊しで複数棟になっても「建物の分割の登記」ではない |
+- **ア（誤）**　増築登記の起算点は共用部分登記の日ではなく工事完了日
+- **イ（正）**　敷地権の割合変更は、変更の日から1か月以内に表題部変更登記
+- **ウ（正）**　分筆で建物の地番が変わったら、変更の日から1か月以内に所在変更登記
+- **エ（誤）**　地目変更登記の起算点は取得日ではなく地目が変わった日
+- **オ（誤）**　一部取壊しで複数棟になっても「建物の分割の登記」ではない
 
 「いつから1か月か」「何の登記を申請するのか」を丁寧に切り分ければ、この分野は得点源にできます。
 
@@ -71,6 +69,7 @@
 - 各肢の法的根拠のうち、不動産登記法上の1か月以内の申請義務そのものは条文（不動産登記法36条・37条・51条等）に基づく一般原則ですが、各肢の細部（起算点の具体的な特定、申請すべき登記の種類）について個別の条文番号までは特定できておらず、一般原則からの整理にとどまる点をご留意ください。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文は、本問については結論・根拠とも大筋で妥当な内容でしたが、他の問題で誤りが確認されたファイルであるため、本記事では条文・一般原則から独立に再構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和元年度第16問（未執筆）に「分筆により建物が所在する土地の地番が変更した場合、当該建物の所有権の登記名義人は建物所在の変更登記を申請する義務を負う」という、本問の肢ウと同一の論点を含む肢があることを確認しました。また、本シリーズで既に執筆済みの note-articles/r6-mondai/q15-tatemono-hyoji-touki.md（建物の表示に関する登記）とはテーマの大分類が近い（本問は不動産全般の表示登記の申請義務の起算点が中心）ため、念のため両記事の内容を見比べることを推奨します。令和5年度第4問（実地調査に関する問題）とは論点が異なり、重複はありません。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法36条・37条・51条（表示に関する登記の申請義務）を確認しました。令和8年（2026年）4月1日施行の所有権登記名義人の氏名・住所変更登記の義務化は、権利部の氏名・住所変更に関する別制度の新設であり、本問が扱う表示に関する登記（増築・敷地権割合・地番変更・地目変更・建物分割）の申請義務とは別範疇のため、本問の内容への影響はありません。
 
 ---
 
@@ -81,3 +80,94 @@
 - 分筆で地番が変わったら、1か月以内に申請なんです
 - 地目変更登記の起算点、実は取得日じゃないって知ってた？
 - 一部取壊しで2棟になっても「分割の登記」じゃないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 義（義務）and 産（不動産）appear
+repeatedly in this infographic. Do not render 義 or 産 as any Simplified
+Chinese variant — use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「1か月以内」、いつから数える？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第16問　不動産登記法(不動産の表示に関する登記の申請義務)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A large calendar/stopwatch icon labeled「1か月」with five
+small starting-flag icons at different points, each representing a
+different possible起算点 being checked with a magnifying glass.
+表示に関する登記の多くには「変更があった日から1か月以内」という申請義務が課されています。「1か月」をいつから数え始めるのかという起算点を正確に押さえましょう。
+
+--- CARD 1 ---
+Heading (bold):
+増築登記の起算点は、共用部分登記の日ではなく工事完了日
+Illustration: A building being extended with construction scaffolding
+（増築工事完了）marked with a green flag as the true starting point,
+while a later「共用部分登記」stamp date is crossed out with a red「✕」as
+the wrong starting point.
+Caption (small text below):
+増築登記の起算点は共用部分登記の日ではなく工事完了日
+
+--- CARD 2 ---
+Heading (bold):
+敷地権の割合変更は、変更の日から1か月以内に表題部変更登記
+Illustration: A condominium building's pie-chart敷地権割合 shifting to
+new fractions, with a calendar starting a「1か月」countdown from that
+exact change date toward a「表題部変更登記」stamp.
+Caption (small text below):
+敷地権の割合変更は、変更の日から1か月以内に表題部変更登記
+
+--- CARD 3 ---
+Heading (bold):
+分筆で建物の地番が変わったら、変更の日から1か月以内に所在変更登記
+Illustration: A land plot splitting (分筆) causing the building's address
+tag to change number, with a calendar starting a「1か月」countdown toward
+a「所在変更登記」stamp.
+Caption (small text below):
+分筆で建物の地番が変わったら、変更の日から1か月以内に所在変更登記
+
+--- CARD 4 ---
+Heading (bold):
+地目変更登記の起算点は、取得日ではなく地目が変わった日
+Illustration: A forest-labeled land plot（山林）growing a house on it
+（地目が事実上変わった日、green flag）, with a later buyer character's
+「取得日」marked with a red「✕」as the wrong starting point.
+Caption (small text below):
+地目変更登記の起算点は取得日ではなく地目が変わった日
+
+--- CARD 5 ---
+Heading (bold):
+一部取壊しで複数棟になっても「建物の分割の登記」ではない
+Illustration: One connected building being partially demolished in the
+middle, physically splitting into two separate buildings, with a red
+「✕建物の分割の登記」crossed out and a correct「一部滅失による変更登記」
+stamp applied instead.
+Caption (small text below):
+一部取壊しで複数棟になっても「建物の分割の登記」ではない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -50,15 +50,13 @@ Aがc-dまでの部分（abdcaで囲まれた土地）を時効取得すれば�
 
 **たとえば**、裁判で「登記上の境目はこの線」と決まった後でも、渡辺さんと伊藤さんが話し合って「実際の土地の使い分けはこっちの線でいこう」と所有権界を別に取り決めることはできます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 合意で動くのは所有権界だけで、筆界は動かない |
-| イ | 誤 | 時効取得で所有権界は動いても、筆界はa-bのまま |
-| ウ | 誤 | 信じて買っただけでは、所有権界も筆界も動かない |
-| エ | 正 | 官民境界確定協議で決まるのは所有権界、筆界とはズレうる |
-| オ | 正 | 筆界が判決で確定しても、所有権界は合意で別に決められる |
+- **ア（誤）**　合意で動くのは所有権界だけで、筆界は動かない
+- **イ（誤）**　時効取得で所有権界は動いても、筆界はa-bのまま
+- **ウ（誤）**　信じて買っただけでは、所有権界も筆界も動かない
+- **エ（正）**　官民境界確定協議で決まるのは所有権界、筆界とはズレうる
+- **オ（正）**　筆界が判決で確定しても、所有権界は合意で別に決められる
 
 正しいのは2個（肢エ・オ）です。合意・時効・処分で動くのは所有権界だけで、筆界は動かない——この一点を軸に切り分ければ、迷うことはありません。
 
@@ -73,6 +71,7 @@ Aがc-dまでの部分（abdcaで囲まれた土地）を時効取得すれば�
 - 各肢の法的根拠のうち、エ（国有財産法上の官民境界確定協議）は制度名まで問題文に明示されていますが、条文番号・判例番号までは明示していません。ア・イ・ウ・オは「筆界＝公法上の境界は合意・時効・処分で動かない／所有権界＝私法上の境界は動く」という一般原則からの整理にとどまり、個別の条文番号・判例番号までは特定していません。この点は正直にお伝えします。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、「筆界特定」を単独テーマとする問題が令和6年度第19問（note-articles/r6-mondai/q19-hikkai-tokutei.md執筆済み）・令和7年度第16問（note-articles/r7-mondai/q16-hikkaitokutei.md執筆済み）で出題されていますが、これらはいずれも筆界特定という行政手続そのもの（申請適格・除斥事由・訴訟係属中の取扱い等）を問う問題であり、本問（筆界と所有権界という2つの概念の理論的な関係、合意・時効取得・処分によってどちらが動くか）とはテーマが異なります。重複はありません。
+- **最新法令準拠チェック（2026-08-04実施）**：筆界・所有権界の理論的な区別（合意・時効取得・処分による変動の可否）は判例法理であり、直近の民法・不動産登記法改正による変更はありません。
 
 ---
 
@@ -83,3 +82,96 @@ Aがc-dまでの部分（abdcaで囲まれた土地）を時効取得すれば�
 - 信じて買っただけじゃ、境界は動かないって知ってた?
 - 官民境界の協議で決まるのは所有権界なんです
 - 筆界が判決で決まっても、所有権界は別に合意できるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 筆（筆界）and 権（所有権）appear
+repeatedly in this infographic. Do not render 筆 as the Simplified Chinese
+variant（笔）or 権 as（权）— use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界は動かない、所有権界は動く
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第9問　不動産登記法(筆界及び所有権界)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Two land plots side by side with two overlapping boundary
+lines drawn: a solid public line labeled「筆界(a-b)」that never moves, and
+a dashed private line labeled「所有権界(c-d)」that shifts freely, with a
+lock icon on the solid line and an unlocked icon on the dashed line.
+筆界(公法上の境界)は当事者の合意・時効取得・処分では動かず、所有権界(私法上の境界)は動きます。両者の対比がこの問題のすべてです。
+
+--- CARD 1 ---
+Heading (bold):
+合意で動くのは所有権界だけで、筆界は動かない
+Illustration: Two neighbor characters shaking hands over a「合意」icon,
+moving the dashed private line（所有権界）to a new position, while the
+solid public line（筆界）stays locked in place with a padlock icon.
+Caption (small text below):
+合意で動くのは所有権界だけで、筆界は動かない
+
+--- CARD 2 ---
+Heading (bold):
+時効取得で所有権界は動いても、筆界は動かない
+Illustration: A character occupying a strip of land for many years
+（時効取得のカレンダーアイコン）, causing the dashed private line to shift
+outward, while the solid public line remains locked and unchanged.
+Caption (small text below):
+時効取得で所有権界は動いても、筆界はa-bのまま
+
+--- CARD 3 ---
+Heading (bold):
+信じて買っただけでは、所有権界も筆界も動かない
+Illustration: A seller character pointing confidently at a wrong
+boundary line while a buyer character nods and signs, but both the
+dashed and solid lines remain unchanged with a red「✕動かない」stamp over
+the mistaken belief bubble.
+Caption (small text below):
+信じて買っただけでは、所有権界も筆界も動かない
+
+--- CARD 4 ---
+Heading (bold):
+官民境界確定協議で決まるのは所有権界、筆界とはズレうる
+Illustration: A landowner character and a government building icon
+（国）shaking hands over an「官民境界確定協議」contract, shifting the
+dashed private line, while the solid public line stays put, creating a
+visible gap between the two lines labeled「ズレ」.
+Caption (small text below):
+官民境界確定協議で決まるのは所有権界、筆界とはズレうる
+
+--- CARD 5 ---
+Heading (bold):
+筆界が判決で確定しても、所有権界は合意で別に決められる
+Illustration: A courthouse/gavel icon stamping the solid public line
+firmly in place（確定判決）, while two neighbor characters separately
+shake hands to move the dashed private line to a different position,
+both coexisting on the same land plots.
+Caption (small text below):
+筆界が判決で確定しても、所有権界は合意で別に決められる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

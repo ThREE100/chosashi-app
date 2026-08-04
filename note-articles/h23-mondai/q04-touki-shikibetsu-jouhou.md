@@ -48,15 +48,13 @@
 
 **たとえば**、長らく行方が分からない人の土地について、家庭裁判所が選んだ財産管理人が代わりに合筆の登記を申請した場合、できあがった登記識別情報は、行方不明の本人にではなく、実際に手続をした管理人のもとへ届けられます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 登記識別情報は名義人ごとに異なるもので、「同一の内容」ではない |
-| イ | 正 | 官公署は希望の申出がなければ通知不要（不登法21条ただし書、規則64条1項2号） |
-| ウ | 誤 | 登記識別情報に再発行制度はなく、焼失しても再発行されない |
-| エ | 誤 | 未受領で通知不要になるのは登記完了から3か月（規則64条1項1号）、30日ではない |
-| オ | 正 | 不在者財産管理人が申請した場合、通知は管理人に対して行う |
+- **ア（誤）**　登記識別情報は名義人ごとに異なるもので、「同一の内容」ではない
+- **イ（正）**　官公署は希望の申出がなければ通知不要（不登法21条ただし書、規則64条1項2号）
+- **ウ（誤）**　登記識別情報に再発行制度はなく、焼失しても再発行されない
+- **エ（誤）**　未受領で通知不要になるのは登記完了から3か月（規則64条1項1号）、30日ではない
+- **オ（正）**　不在者財産管理人が申請した場合、通知は管理人に対して行う
 
 「名義人ごとに別」「再発行なし」「未受領は3か月」という数字とルールを正確に押さえておくことが、この分野の得点につながります。
 
@@ -71,6 +69,7 @@
 - 各肢の法的根拠のうち、イ（不動産登記法21条ただし書、不動産登記規則64条1項2号）、エ（不動産登記規則64条1項1号）は条文レベルで確認済みです。ア（名義人ごとに異なる識別情報が通知されること）、ウ（再発行制度がないこと）、オ（不在者財産管理人に対して通知されること）は、登記識別情報制度の一般原則からの整理にとどまります。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成29年度第5問で「登記識別情報の通知」が同じくテーマとして出題されていることを確認しました。平成29年度第5問は合筆の登記に特化した場面設定（通知希望の申出、資格者代理人への特別委任等）であり、本問（共有名義への通知、官庁公署への通知、書面滅失後の再発行、不受領時の取扱い、不在者財産管理人への通知）とは具体的な論点が異なります。平成29年度分は本シリーズでは未執筆です。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法21条（登記識別情報の通知）の現行条文を確認しましたが、官庁・公署への通知に関する規律（21条ただし書、規則64条）に変更はありません。令和8年（2026年）4月1日に施行された所有権登記名義人の氏名・住所変更登記の義務化は、権利部の氏名・住所変更に関する別制度であり、本問が扱う登記識別情報の通知（表題部・権利部共通の本人確認情報）とは別範疇のため、本問の内容への影響はありません。
 
 ---
 
@@ -81,3 +80,95 @@
 - 登記識別情報、なくしても再発行はないんです
 - 受け取らないと通知不要になるのは、30日じゃなくて3か月
 - 行方不明の人の土地は、管理人あてに通知が届くんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 識（識別情報）and 権（登記名義人の
+権利）appear in this infographic. Do not render 識 as the Simplified
+Chinese variant（识）or 権 as（权）— use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+なくしても、二度と発行されないんです
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第4問　不動産登記法(登記識別情報の通知)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A sealed envelope icon labeled「登記識別情報」being handed
+from a registry-office building icon to a character, with a large
+padlock icon underneath reading「一度きり」.
+登記識別情報は、かつての権利証に代わる本人確認の仕組みです。「誰に通知されるのか」「通知が要らないのはどんな場面か」「なくしたらどうなるのか」を正確に押さえられているかが問われます。
+
+--- CARD 1 ---
+Heading (bold):
+登記識別情報は、名義人ごとに別のものが通知される
+Illustration: Two co-owner characters (husband and wife icons) each
+receiving their own separate sealed envelope with distinct random
+character codes on them, with a red「✕同一ではない」crossing out a single
+shared envelope.
+Caption (small text below):
+登記識別情報は名義人ごとに異なるもので、「同一の内容」ではない
+
+--- CARD 2 ---
+Heading (bold):
+官公署は、希望しなければ通知されない
+Illustration: A government-building icon（官庁・公署）standing next to a
+registry-office building, with a sealed envelope hovering between them
+crossed out by a red「✕」unless a checkbox icon labeled「希望の申出」is
+ticked.
+Caption (small text below):
+官公署は希望の申出がなければ通知不要（不登法21条ただし書、規則64条1項2号）
+
+--- CARD 3 ---
+Heading (bold):
+登記識別情報は、なくしても再発行されない
+Illustration: A burning house icon with a sealed envelope inside catching
+fire（焼失）, and an empty hand reaching toward a registry-office window
+with a red「✕再発行不可」stamp and a padlock icon.
+Caption (small text below):
+登記識別情報に再発行制度はなく、焼失しても再発行されない
+
+--- CARD 4 ---
+Heading (bold):
+受け取らないと通知不要になるのは、30日ではなく3か月
+Illustration: A calendar icon counting up from a registration-complete
+stamp, with a red「✕30日」crossed out and a green checkmark on「3か月」,
+next to an uncollected envelope sitting in a registry-office mailbox.
+Caption (small text below):
+未受領で通知不要になるのは登記完了から3か月（規則64条1項1号）、30日ではない
+
+--- CARD 5 ---
+Heading (bold):
+不在者財産管理人には、管理人あてに通知される
+Illustration: A silhouette character with a「？行方不明」tag standing far
+away, while a family-court building icon appoints a manager character
+（財産管理人）who receives the sealed envelope directly, with an arrow
+from the registry office pointing to the manager, not the silhouette.
+Caption (small text below):
+不在者財産管理人が申請した場合、通知は管理人に対して行う
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

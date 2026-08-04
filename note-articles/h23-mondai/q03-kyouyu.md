@@ -48,15 +48,13 @@ Bの持分についてのみ第三者Dへの不実の持分移転登記がされ
 
 **たとえば**、3人で共有する一つの土地を、細かく切り分けると使い物にならなくなってしまうような場合、裁判所は「まるごと売ってしまい、その代金を3人で分けなさい」と命じることができるのです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 賃貸借の解除は管理行為で、持分の過半数が必要（252条本文） |
-| イ | 正 | 単独占有する共有者にも、当然には明渡しを請求できない（最判昭41.5.19） |
-| ウ | 誤 | 不実の登記の抹消は保存行為で、共有者が単独で請求できる（最判昭31.5.10） |
-| エ | 正 | 不法占有への損害賠償は、自己の持分割合の範囲でのみ請求できる（最判昭51.9.7） |
-| オ | 正 | 現物分割が不能等なら、裁判所は競売による代金分割を命じられる（258条） |
+- **ア（誤）**　賃貸借の解除は管理行為で、持分の過半数が必要（252条本文）
+- **イ（正）**　単独占有する共有者にも、当然には明渡しを請求できない（最判昭41.5.19）
+- **ウ（誤）**　不実の登記の抹消は保存行為で、共有者が単独で請求できる（最判昭31.5.10）
+- **エ（正）**　不法占有への損害賠償は、自己の持分割合の範囲でのみ請求できる（最判昭51.9.7）
+- **オ（正）**　現物分割が不能等なら、裁判所は競売による代金分割を命じられる（258条）
 
 「保存は一人で、管理は過半数で、処分は全員で」という三段階の切り分けを持っておけば、共有の問題は迷わず解けるようになります。
 
@@ -71,6 +69,7 @@ Bの持分についてのみ第三者Dへの不実の持分移転登記がされ
 - 各肢の法的根拠のうち、ア（民法252条本文）、イ（最判昭41.5.19）、ウ（最判昭31.5.10ほか）、エ（最判昭51.9.7）、オ（民法258条）は条文・判例レベルで確認済みです。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成27年度第2問で「共有」が同じくテーマとして出題されていることを確認しました。ただし具体的な論点（本問は共同賃貸の解除・不実登記の抹消請求・単独占有への明渡請求・損害賠償・競売による代金分割、平成27年度第2問は変更行為への同意・賃貸借解除の要件等）は異なり、平成27年度分の記事は本シリーズでは未執筆です。将来平成27年度分を執筆する際は、論点の重複がないか改めてご確認ください。
+- **最新法令準拠チェック（2026-08-04実施）**：令和5年（2023年）4月1日施行の共有制度改正（民法251条・252条等）を確認しました。肢ア（共同賃貸借の解除は管理行為として持分の過半数で決定する）は、改正後も252条1項に明文で維持されている結論です。肢イ（単独占有する共有者への当然の明渡請求はできないとする最判昭41.5.19）は、改正で新設された249条2項（使用共有者の対価償還義務）と併存する別論点であり、判例の結論は改正後も維持されています。その他の肢（保存行為としての抹消登記請求、損害賠償の按分、競売による代金分割）も条文上の変更はなく、内容の修正は不要と判断しました。
 
 ---
 
@@ -81,3 +80,98 @@ Bの持分についてのみ第三者Dへの不実の持分移転登記がされ
 - ウソの登記を消すのは、共有者一人でもできるんです
 - 損害賠償で取れるのは、自分の持分の分だけなんです
 - 分けられない土地は、競売してお金で山分けするんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 権（持分権）and 済（済ませる）appear
+in this infographic. Do not render 権 as the Simplified Chinese variant
+（权）or 済 as（济）— use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+一人でできる？　みんなで決める？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第3問　民法(共有)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A land plot divided into three equal wedges, each with a
+small character standing on it holding a「持分3分の1」tag, and three
+speech bubbles above reading「保存」「管理」「処分」pointing to a decision
+scale icon.
+共有の分野は、ある行為が「保存行為（各自が単独でできる）」「管理行為（持分価格の過半数で決める）」「変更・処分行為（全員の同意が必要）」のどれに当たるのかを見分けることが最大のポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+共同で貸した土地の解除は、過半数の同意が要る
+Illustration: Three co-owner characters (A, B, C) standing around a
+land-plot icon rented out to a tenant (D) via a lease-contract icon. A
+alone reaches for a「解除」stamp with a red「✕」, while a majority-vote
+icon（2/3の賛成）is required to approve the stamp.
+Caption (small text below):
+賃貸借の解除は管理行為で、持分の過半数が必要（252条本文）
+
+--- CARD 2 ---
+Heading (bold):
+単独占有する共有者にも、当然には明渡しを求められない
+Illustration: Character A occupies the entire land plot alone, while B
+and C (combined majority persuasion, labeled「2/3」) point at A demanding
+「明渡し」, but a shield icon around A labeled「使用権」blocks the demand
+with a red「✕当然には不可」.
+Caption (small text below):
+単独占有する共有者にも、当然には明渡しを請求できない（最判昭41.5.19）
+
+--- CARD 3 ---
+Heading (bold):
+不実の登記の抹消は、共有者が一人で請求できる
+Illustration: A registration-document icon showing B's portion
+fraudulently transferred to a third party D (labeled「不実登記」). Co-owner
+A alone (not needing B or C) stamps a「抹消請求」seal onto D's portion,
+with a checkmark for「保存行為」.
+Caption (small text below):
+不実の登記の抹消は保存行為で、共有者が単独で請求できる（最判昭31.5.10）
+
+--- CARD 4 ---
+Heading (bold):
+損害賠償は、自分の持分の分しか請求できない
+Illustration: An outsider character E unlawfully occupying the shared
+land plot. Co-owner A points a「損害賠償請求」arrow at E, but the arrow's
+size is scaled down to exactly 1/3 of the full plot, with a red「✕全部は
+不可」on a larger arrow.
+Caption (small text below):
+不法占有への損害賠償は、自己の持分割合の範囲でのみ請求できる（最判昭51.9.7）
+
+--- CARD 5 ---
+Heading (bold):
+現物で分けられないなら、競売してお金で分ける
+Illustration: A land plot with a red「✕分割不能」mark over an attempt to
+cut it into pieces, transitioning to a gavel/auction-hammer icon
+（競売）selling the whole plot, with the resulting coin pile split into
+three equal stacks for A, B, and C.
+Caption (small text below):
+現物分割が不能等なら、裁判所は競売による代金分割を命じられる（258条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

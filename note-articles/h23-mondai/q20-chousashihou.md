@@ -51,15 +51,13 @@
 
 **たとえば**、Aさんから書類の作成だけを頼まれていた法人Dは、同じ手続についてBさんからも書類作成を頼まれた場合、Aさんの同意を取り付けたとしても、その依頼を引き受けることはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 代理受任の相手方の別事件は、同意があれば受任できる |
-| イ | 誤 | 法人の社員は自ら関与していなくても法人全体の制限を受ける |
-| ウ | 誤 | 自ら関与した事件は、脱退後も相手方から受任できない |
-| エ | 誤 | 正式受任前でも協議を受けて信頼を得た事件は制限の対象になる |
-| オ | 正 | 書類作成として受任している事件は、同意があっても相手方から受任できない |
+- **ア（正）**　代理受任の相手方の別事件は、同意があれば受任できる
+- **イ（誤）**　法人の社員は自ら関与していなくても法人全体の制限を受ける
+- **ウ（誤）**　自ら関与した事件は、脱退後も相手方から受任できない
+- **エ（誤）**　正式受任前でも協議を受けて信頼を得た事件は制限の対象になる
+- **オ（正）**　書類作成として受任している事件は、同意があっても相手方から受任できない
 
 「代理」として受任しているか「書類作成」として受任しているかで、同意による例外が使えるかどうかが変わる——この一点が、この問題を解く鍵です。
 
@@ -75,6 +73,7 @@
 - 肢イ・ウ・エ（土地家屋調査士法人の社員・使用人への準用、自ら関与した事件の脱退後の扱い、協議を受けて賛助した事件の扱い）についても、同様に検索結果の要約に基づく一般的な理解にとどまり、根拠となる条文の項・号までは特定できていません。正確な条文番号を確認したい場合は、土地家屋調査士法22条の2および同法第五章（土地家屋調査士法人）の該当条文を直接ご確認いただくことを推奨します。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）には第20問の解説データが収録されていなかったため、参照していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和6年度第20問・令和7年度第20問（本シリーズで既に note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md、note-articles/r7-mondai/q20-chousashihou.md として執筆済み）はいずれも「土地家屋調査士又は土地家屋調査士法人」という同じ法律をテーマとしていますが、具体的な出題内容（令和6年度：業務の依頼拒否・秘密保持・補助者への測量業務・法人設立要件、令和7年度：定款変更届出・補助者廃止届出・複数事務所設置・社員の当然脱退・登録取消事由）は、本問（筆界特定手続における代理・書類作成受任の利益相反、22条の2の業務制限）とは異なります。重複はありません。
+- **最新法令準拠チェック（2026-08-04実施）**：土地家屋調査士法22条の2（業務を行い得ない事件）の現行条文構造を確認しました。令和2年（2020年）8月1日施行の同法改正は懲戒権者の変更（法務局長等→法務大臣）や清算結了後の法人への懲戒手続に関するものであり、本問が扱う22条の2の業務制限（代理・書類作成の受任制限）そのものへの実体的な変更ではないため、本問の内容への影響はありません。
 
 ---
 
@@ -85,3 +84,98 @@
 - 自分が関わった事件は、法人を辞めても相手方を受けられない
 - 正式に受任してなくても、相談に乗った事件は制限の対象なんです
 - 書類作成だけの受任は、同意があっても相手方は受けられないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 調（調査士）と査（調査士）appear
+repeatedly in this infographic. Do not render 調 or 査 as any Simplified
+Chinese variant — use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「代理」と「書類作成」で、ルールが変わる
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第20問　土地家屋調査士法(業務制限)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A土地家屋調査士 character standing between two land-plot
+icons (甲土地・乙土地 owned by A, and 丙土地・丁土地 owned by B), with two
+document icons labeled「代理」and「書類作成」on either side, one glowing
+green (同意で受任可) and one showing a red lock (同意でも不可).
+土地家屋調査士法は、依頼者の信頼を守るため、相手方から依頼された事件を受任することを制限しています。「代理」として受任しているか「書類作成」として受任しているかで、同意による例外が使えるかどうかが変わります。
+
+--- CARD 1 ---
+Heading (bold):
+代理を受任していても、同意があれば別の事件の相手方も受任できる
+Illustration: A調査士character（C）holding a「代理」contract with client
+A, and a second, unrelated dispute involving B, with A giving a
+「同意」checkmark stamp allowing C to also represent B in the separate
+matter.
+Caption (small text below):
+代理受任の相手方の別事件は、同意があれば受任できる
+
+--- CARD 2 ---
+Heading (bold):
+法人の社員は自ら関与していなくても法人全体の制限を受ける
+Illustration: A土地家屋調査士法人building icon representing A's case,
+with one social character (E) inside who never touched the case, but a
+red「✕」shield still surrounds the whole firm building, blocking E from
+personally taking B's unrelated case.
+Caption (small text below):
+法人の社員は自ら関与していなくても法人全体の制限を受ける
+
+--- CARD 3 ---
+Heading (bold):
+自ら関与した事件は、脱退後も相手方から受任できない
+Illustration: A社員character (E) who personally worked on A's case
+inside a firm building, then walking out the door labeled「脱退」, but a
+red「✕」still blocks E from accepting B's request for「書類作成」on the
+same case even after leaving.
+Caption (small text below):
+自ら関与した事件は、脱退後も相手方から受任できない
+
+--- CARD 4 ---
+Heading (bold):
+正式受任前でも協議を受けて信頼を得た事件は制限の対象になる
+Illustration: A調査士法人building repeatedly receiving consultation
+speech bubbles from client A (協議を受けて賛助) without a signed contract
+icon, yet a red「✕」still blocks the firm from accepting B's request on
+the same matter.
+Caption (small text below):
+正式受任前でも協議を受けて信頼を得た事件は制限の対象になる
+
+--- CARD 5 ---
+Heading (bold):
+書類作成として受任している事件は、同意があっても相手方から受任できない
+Illustration: A使用人調査士character (E) holding only a「書類作成」
+document (not代理) for client A, with A's「同意」checkmark stamp still
+blocked by a red「✕」from allowing the firm to accept the same document
+work for B.
+Caption (small text below):
+書類作成として受任している事件は、同意があっても相手方から受任できない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

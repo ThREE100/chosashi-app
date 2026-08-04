@@ -48,15 +48,13 @@
 
 **たとえば**、隣り合う2筆に同じ日付・同じ内容の所有権移転の仮登記が付いていても、その条件が一致していることを理由にその2筆を合筆することはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 抵当権を消すには、その抵当権を目的とする第三者の承諾も要る（法40条） |
-| イ | 正 | 範囲が一部となる地役権は、地役権図面・地役権証明書で範囲を示す |
-| ウ | 正 | 永小作権・採石権があると条件が同一でも合筆できない（法41条） |
-| エ | 誤 | 抵当権を消した後の分筆は分筆錯誤では抹消できない |
-| オ | 誤 | 所有権移転の仮登記がある土地は条件が同一でも合筆できない |
+- **ア（正）**　抵当権を消すには、その抵当権を目的とする第三者の承諾も要る（法40条）
+- **イ（正）**　範囲が一部となる地役権は、地役権図面・地役権証明書で範囲を示す
+- **ウ（正）**　永小作権・採石権があると条件が同一でも合筆できない（法41条）
+- **エ（誤）**　抵当権を消した後の分筆は分筆錯誤では抹消できない
+- **オ（誤）**　所有権移転の仮登記がある土地は条件が同一でも合筆できない
 
 「合筆できる例外は限られている」「権利変動を伴った登記は簡単には巻き戻せない」という二つの軸を押さえると、正誤の判断が安定します。
 
@@ -71,6 +69,7 @@
 - 各肢の法的根拠のうち、ア（分筆で抵当権を消す場合の第三者の承諾＝不動産登記法40条）・ウ（用益権のある土地の合筆制限＝不動産登記法41条）は条文レベルで確認済みです。イ（地役権の範囲が一部となる場合の地役権図面・地役権証明書）・エ（権利変動を伴った分筆の分筆錯誤による抹消の可否）・オ（仮登記がある土地の合筆の可否）については、条文番号・先例番号をピンポイントで特定せず、合筆の可否の例外の枠組みおよび実務上の取り扱いからの整理にとどめています。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、「合筆の登記」は令和6年度第9問（本シリーズで既に note-articles/r6-mondai/q09-gappitsu-touki.md として執筆済み）をはじめ、平成27・28年度等でも頻出のテーマであることを確認しました。令和6年度第9問の肢オ（承役地についてする地役権の登記がある土地の合筆時に地役権設定の範囲を申請情報の内容とする点）は、本問の肢イ（同様の場面での地役権図面・証明書の添付）と関連する論点ですが、具体的に問われている添付情報の内容は異なります。本問はむしろ担保権(抵当権)・永小作権・採石権・仮登記のある場合の可否が中心であり、全体としては直接の重複ではありませんが、地役権のある土地の合筆という共通の切り口がある点にはご留意ください。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法40条・41条（分筆合筆時の権利の処理、合筆の制限）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -81,3 +80,97 @@
 - 永小作権・採石権があると、条件がそろっても合筆できないんです
 - 権利を消したあとの分筆、錯誤じゃ戻せないんです
 - 仮登記がある土地は、条件がそろっても合筆できないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 権（抵当権・地役権・採石権）appears
+repeatedly in this infographic. Do not render it as the Simplified
+Chinese variant（权）— use the standard Japanese form 権 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+権利が付いた土地、分けても大丈夫？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第8問　不動産登記法(所有権以外の権利のある土地の分筆及び合筆)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A land plot with several ribbon icons attached representing
+different rights（抵当権・地役権・永小作権・仮登記）, being split by
+scissors on one side and merged with an arrow on the other, with a
+magnifying glass checking each ribbon.
+所有権以外の権利のある土地の分筆・合筆に関する問題です。権利ごとに扱いが違う点を、条文の原則に立ち返って確かめていきます。
+
+--- CARD 1 ---
+Heading (bold):
+抵当権を消すには、その上の第三者の承諾も要る
+Illustration: A land plot splitting into two, with an「抵当権」ribbon on
+one side being crossed out. A second, smaller「転抵当権」ribbon
+attached to the first requires its own separate character to stamp a
+「承諾書」before the first can be removed.
+Caption (small text below):
+抵当権を消すには、その抵当権を目的とする第三者の承諾も要る（法40条）
+
+--- CARD 2 ---
+Heading (bold):
+範囲が一部になる地役権は、図面で範囲を示す
+Illustration: A land plot being divided, with an「地役権」ribbon covering
+only part of the resulting parcel. A small map icon（地役権図面）and a
+certificate icon（地役権証明書）are attached showing the exact shaded
+range.
+Caption (small text below):
+範囲が一部となる地役権は、地役権図面・地役権証明書で範囲を示す
+
+--- CARD 3 ---
+Heading (bold):
+永小作権・採石権があると、条件がそろっても合筆できない
+Illustration: Two land plots each with a「永小作権」or「採石権」ribbon,
+matching identical labels（同一の登記の目的・受付番号）trying to merge,
+but a red「✕合筆不可」stamp blocks them regardless of the matching
+conditions.
+Caption (small text below):
+永小作権・採石権があると条件が同一でも合筆できない（法41条）
+
+--- CARD 4 ---
+Heading (bold):
+抵当権を消した後の分筆は、錯誤では戻せない
+Illustration: A land plot split into two, with the「抵当権」ribbon on one
+piece already removed via a consent stamp. An attempt to undo everything
+with a「分筆錯誤」stamp is blocked by a red「✕」since the rights have
+already changed.
+Caption (small text below):
+抵当権を消した後の分筆は分筆錯誤では抹消できない
+
+--- CARD 5 ---
+Heading (bold):
+仮登記がある土地は、条件がそろっても合筆できない
+Illustration: Two land plots, one with a dashed-outline「仮登記」stamp
+(所有権移転の仮登記), matching identical conditions trying to merge, but
+a red「✕合筆不可」stamp blocks the merge regardless.
+Caption (small text below):
+所有権移転の仮登記がある土地は条件が同一でも合筆できない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -48,15 +48,13 @@
 
 **たとえば**、鉄筋コンクリート造のビルが火災で内装を焼いても、柱や梁など主要構造部が無事で、修繕すれば元どおり使える状態なら、まだ滅失登記の対象にはなりません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 材料を使い回して建て直しても元の建物の滅失登記が必要 |
-| イ | 誤 | 滅失登記に他の権利者の承諾書は要らない |
-| ウ | 正 | 区分建物の所有者の一人から一棟の滅失登記を申請できる |
-| エ | 正 | 初めから区分の実体がない建物は錯誤の滅失登記で処理する |
-| オ | 正 | 主要構造部が残り使える状態ならまだ滅失ではない |
+- **ア（正）**　材料を使い回して建て直しても元の建物の滅失登記が必要
+- **イ（誤）**　滅失登記に他の権利者の承諾書は要らない
+- **ウ（正）**　区分建物の所有者の一人から一棟の滅失登記を申請できる
+- **エ（正）**　初めから区分の実体がない建物は錯誤の滅失登記で処理する
+- **オ（正）**　主要構造部が残り使える状態ならまだ滅失ではない
 
 正しいのは4個（誤りは肢イだけ）です。滅失登記は「物理的に建物が無くなったか」という事実を軸に、権利関係の承諾は要らないという感覚をつかめば迷いません。
 
@@ -71,6 +69,7 @@
 - 各肢の法的根拠については、条文番号や判例番号を一義的に特定できるものがなく、いずれも建物の滅失の登記に関する一般原則・登記実務上の先例からの整理にとどまります。特に肢エ（初めから区分の実体がない建物の処理）は先例による取扱いであり、条文レベルでの断定は避けています。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施・最重要）**：takuitsu.jsonを検索した結果、令和6年度第17問「建物の滅失の登記」（本シリーズで既に note-articles/r6-mondai/q17-tatemono-messitsu.md として執筆済み）が、本問と非常に強く重複するテーマであることを確認しました。5肢のうち3肢が実質的に同一の論点を扱っています：(1)建物を全部取り壊して材料を流用して再築した場合、既存建物の滅失登記が必要（本問の肢ア、令和6年度第17問の肢オに相当）、(2)滅失登記に他の権利者(抵当権者等)の承諾は不要（本問の肢イ、令和6年度第17問の肢アに相当）、(3)所有者が異なる区分建物が属する一棟の建物が滅失した場合、区分建物の所有者の一人が一棟の滅失登記を申請できる（本問の肢ウ、令和6年度第17問の肢ウに相当）。この2つの記事は内容が大きく重なるため、note投稿の際は両方をそのまま公開するのではなく、どちらか一方に絞るか、公開時期をずらす、あるいは重複部分を要約して差別化するなどの対応を強く推奨します。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法57条・58条（建物の滅失の登記）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -81,3 +80,93 @@
 - マンション一棟の滅失、一人からでも申請できるんです
 - 実体のない区分建物は、錯誤の滅失登記で消すんです
 - まだ使える状態なら、それは「滅失」じゃないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 滅（滅失）and 証（承諾書）appear
+repeatedly in this infographic. Do not render 滅 or 証 as any Simplified
+Chinese variant — use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の滅失、正しいのは何個？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第13問　不動産登記法(建物の滅失の登記)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A building icon crumbling into rubble with a large「滅失」
+stamp, surrounded by five small numbered circles (1〜5) representing the
+count-question format, with a magnifying glass checking each one.
+建物の滅失の登記が「物理的な事実の公示」であることを一本の軸にして、何をもって建物が滅失したといえるか、誰が申請できるかを一つずつ確かめていきます。
+
+--- CARD 1 ---
+Heading (bold):
+材料を使い回して建て直しても、元の建物は滅失登記が必要
+Illustration: An old building being demolished into a pile of reusable
+lumber icons, then reassembled into a new building on the same spot, with
+a「滅失登記」stamp still applied to the original building's record with a
+checkmark.
+Caption (small text below):
+材料を使い回して建て直しても元の建物の滅失登記が必要
+
+--- CARD 2 ---
+Heading (bold):
+滅失登記に、他の権利者の承諾書は要らない
+Illustration: A building icon with an「抵当権」ribbon collapsing into
+rubble, with a red「✕承諾書不要」crossing out a document icon that the
+mortgage-holder character was expected to sign.
+Caption (small text below):
+滅失登記に他の権利者の承諾書は要らない
+
+--- CARD 3 ---
+Heading (bold):
+区分建物の所有者の一人から、一棟の滅失登記を申請できる
+Illustration: A collapsed apartment building icon with multiple
+different owner characters for each unit, one of them alone stamping a
+「一棟滅失登記」seal on behalf of everyone, with a checkmark.
+Caption (small text below):
+区分建物の所有者の一人から一棟の滅失登記を申請できる
+
+--- CARD 4 ---
+Heading (bold):
+初めから区分の実体がない建物は、錯誤の滅失登記で処理する
+Illustration: A building registered as two separate units（区分建物）but
+shown with no dividing wall inside（実体なし）, with a「錯誤」stamp
+applied to erase the mistaken registration.
+Caption (small text below):
+初めから区分の実体がない建物は錯誤の滅失登記で処理する
+
+--- CARD 5 ---
+Heading (bold):
+主要構造部が残り使える状態なら、まだ滅失ではない
+Illustration: A concrete building with fire and smoke damage only on the
+interior walls, but its main structural frame (柱・梁) intact and glowing
+green with a checkmark and a red「✕滅失ではない」label.
+Caption (small text below):
+主要構造部が残り使える状態ならまだ滅失ではない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

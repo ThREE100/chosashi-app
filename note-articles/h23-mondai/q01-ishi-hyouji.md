@@ -44,19 +44,19 @@
 
 ### 肢オ：代理権の濫用は、相手方が見抜けたはずなら本人が否定できる
 
-代理人Bが自分の利益を図る意図で代理行為をした場合（代理権の濫用）、相手方Cがその意図を知り、または知ることができたとき（悪意または有過失）は、本人Aはその行為の効果を否定できます。平成23年当時の判例は、心裡留保の規定（旧93条ただし書）を類推適用してこう解していました（最判昭42.4.20）。相手方Cが着服の意図を知ることができた（有過失）以上、Aは効果を否定でき、「無効を主張できる」とする当時の理解は正しいものです。
+代理人Bが自分の利益を図る意図で代理行為をした場合（代理権の濫用）、相手方Cがその意図を知り、または知ることができたとき（悪意または有過失）は、本人Aはその行為の効果を否定できます。この記述は正しいものです。
 
-**たとえば**、土地を売る代理を任されたBさんが、代金をこっそり自分のものにするつもりでCさんに売ったとします。Cさんがその下心にうすうす気づけたはずだったのなら、本人のAさんは「あの契約はなかったことにしてほしい」と主張できるのです。
+出題当時の平成23年（2011年）の実務・学説は、心裡留保の規定（旧93条ただし書）を類推適用してこの結論を導いていました（最判昭42.4.20）。もっとも、令和2年（2020年）4月1日施行の民法改正で、この判例法理は民法107条として明文化されています。現行の107条の下では、相手方が代理人の意図を知り、または知ることができたときは、その行為は「代理権を有しない者がした行為」、つまり無権代理行為とみなされます。したがって、現在の条文構成に即して言えば、本人Aは、無権代理行為として追認を拒絶することでその効果を否定できる、と整理するのがより正確です。設問文は当時の判例の表現に合わせて「無効を主張することができる」としていますが、結論（本人が効果を否定できる）自体は現行法でも変わりません。
 
-### まとめ表
+**たとえば**、土地を売る代理を任されたBさんが、代金をこっそり自分のものにするつもりでCさんに売ったとします。Cさんがその下心にうすうす気づけたはずだったのなら、本人のAさんは「あの契約は自分には効果が及ばない」と主張できるのです。
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 強迫の取消しには第三者保護規定がなく、善意の第三者にも対抗できる |
-| イ | 正 | 善意のCが挟まれば、悪意の転得者Dも保護される（94条2項、最判昭45.7.24） |
-| ウ | 誤 | 錯誤取消しを主張できるのは表意者側のみ、重過失なら本人も不可（95条） |
-| エ | 誤 | 第三者の詐欺は相手方が善意無過失なら取り消せない（96条2項） |
-| オ | 正 | 代理権濫用は相手方が悪意・有過失なら本人が効果を否定できる |
+### まとめ
+
+- **ア（誤）**　強迫の取消しには第三者保護規定がなく、善意の第三者にも対抗できる
+- **イ（正）**　善意のCが挟まれば、悪意の転得者Dも保護される（94条2項、最判昭45.7.24）
+- **ウ（誤）**　錯誤取消しを主張できるのは表意者側のみ、重過失なら本人も不可（95条）
+- **エ（誤）**　第三者の詐欺は相手方が善意無過失なら取り消せない（96条2項）
+- **オ（正）**　代理権濫用は相手方が悪意・有過失なら本人が効果を否定できる（現行民法107条、旧93条ただし書類推・最判昭42.4.20の明文化）
 
 第三者を守る規定が「あるのは詐欺・虚偽表示」「ないのは強迫」という対比を軸に置くと、この分野は一気に整理できます。
 
@@ -68,7 +68,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第1問＝イオ／3番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 各肢の法的根拠のうち、イ（民法94条2項、最判昭45.7.24）、ウ（民法95条）、エ（民法96条2項）、オ（最判昭42.4.20、旧93条ただし書類推）は条文・判例レベルで確認済みです。ア（強迫による取消しに第三者保護規定がないこと）は民法96条の反対解釈という一般原則からの整理にとどまります。
+- 各肢の法的根拠のうち、イ（民法94条2項、最判昭45.7.24）、ウ（民法95条）、エ（民法96条2項）は条文・判例レベルで確認済みです。ア（強迫による取消しに第三者保護規定がないこと）は民法96条の反対解釈という一般原則からの整理にとどまります。
+- **最新法令準拠チェック（2026-08-04実施）**：肢オ（代理権の濫用）について、出題当時（平成23年）は最判昭42.4.20による判例法理（旧93条ただし書の類推適用）が根拠でしたが、令和2年4月1日施行の民法改正でこの判例法理は民法107条として明文化されました。107条の下では当該行為は「代理権を有しない者がした行為」（無権代理行為）とみなされる点が、旧来の「無効」という整理と異なります。結論（本人が契約の効果を否定できること）自体は変わりませんが、条文上の根拠・法的構成が更新されているため、本記事では現行107条を主たる根拠として明記し、旧来の判例構成も併記する形に修正しました。その他の肢（強迫・虚偽表示・錯誤・詐欺の各規定）については、令和2年民法改正・令和5年共有法改正・相続登記義務化等の近年の主要な民法・不動産登記法改正の影響を確認しましたが、内容に影響する変更は見つかりませんでした。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、本問より後の年度で「意思表示」をテーマとする問題が繰り返し出題されていることを確認しました。令和4年度第2問（虚偽表示・詐欺・強迫の転得者保護）、平成27年度第1問（詐欺又は強迫による意思表示）、令和7年度第1問（錯誤・強迫・詐欺・到達主義・心裡留保）はいずれも「意思表示」がテーマで、特に「強迫による意思表示には第三者保護規定がない」「詐欺による意思表示は善意無過失の第三者に対抗できない」という本問の核心論点は、これらの年度でも形を変えて繰り返し問われています。令和7年度第1問は本noteシリーズでは未執筆（第2問から着手したため）ですが、今後執筆する際は本記事と論点が重複しないよう、具体的な肢の違い（本問は錯誤・代理権濫用を含む点が特色）を意識して書き分けてください。
 
@@ -81,3 +82,102 @@
 - 「勘違い」を取り消せるのは、勘違いした本人だけなんです
 - 何も知らない相手には、詐欺でも取り消せないことがある
 - 代理人の下心、見抜けたはずなら本人が「なかったこと」にできる
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 権（代理権・取消権）and 済（済ませる）
+appear in this infographic. Do not render 権 as the Simplified Chinese
+variant（权）or 済 as（济）— use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その意思表示、第三者に対抗できる？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第1問　民法(意思表示)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene with five small vignette icons arranged
+in a row: a fist raised in threat（強迫）, two people shaking hands behind
+a curtain（通謀虚偽表示）, a puzzled character with a large「？」（錯誤）,
+a masked figure whispering into an ear（詐欺）, and a person with a
+briefcase pocketing a coin（代理権濫用）. A magnifying glass icon hovers
+above all five.
+意思表示の分野は、強迫・詐欺・虚偽表示・錯誤・代理権の濫用について、「取り消せるのは誰か」「第三者は保護されるのか」という対抗関係を正確に整理できているかが問われます。
+
+--- CARD 1 ---
+Heading (bold):
+強迫による取消しは、善意の第三者にも対抗できる
+Illustration: A character being threatened by a fist icon sells a
+land-plot icon（甲土地）to a second character, who resells it to a third,
+smiling character labeled「善意のC」. An arrow loops back from the first
+character to the land plot with a red「取消し」stamp overriding the
+transfer, and a checkmark next to C.
+Caption (small text below):
+強迫の取消しには第三者保護規定がなく、善意の第三者にも対抗できる
+
+--- CARD 2 ---
+Heading (bold):
+善意のCが間に入れば、悪意のDも保護される
+Illustration: A land-plot icon passing through a chain of three characters
+A→B→C→D connected by arrows. A curtain icon（仮装譲渡）hangs behind A and
+B. C is drawn with a bright halo（善意）, D is drawn with a dark speech
+bubble「知ってた」（悪意）, but a green shield icon still protects D
+because it passes through C.
+Caption (small text below):
+善意のCが挟まれば、悪意の転得者Dも保護される（94条2項、最判昭45.7.24）
+
+--- CARD 3 ---
+Heading (bold):
+錯誤取消しを主張できるのは、表意者の側だけ
+Illustration: Two characters facing each other over a contract; the left
+character (A) has a large confused「？」icon above their head and holds a
+「取消権」stamp, while the right character (B) reaches for the same stamp
+with a red「✕」crossing out B's hand.
+Caption (small text below):
+錯誤取消しを主張できるのは表意者側のみ、重過失なら本人も不可（95条）
+
+--- CARD 4 ---
+Heading (bold):
+第三者の詐欺は、相手方が善意無過失なら取り消せない
+Illustration: A masked figure（第三者B）whispering deception into
+character A's ear while A signs a contract with character C. C is drawn
+with a bright halo and a checkmark labeled「善意無過失」, with a red「✕」
+over a torn-up contract icon that fails to cancel.
+Caption (small text below):
+第三者の詐欺は相手方が善意無過失なら取り消せない（96条2項）
+
+--- CARD 5 ---
+Heading (bold):
+代理権濫用は相手方が悪意・有過失なら本人が効果を否定できる
+Illustration: An agent character (B) holding a briefcase secretly slips a
+coin into their own pocket while signing a contract with character C, who
+has a raised eyebrow icon（知ることができた）. Behind them, the principal
+(A) holds up a red stamp labeled「効果否定」pointed at the contract.
+Caption (small text below):
+代理権濫用は相手方が悪意・有過失なら本人が効果を否定できる（現行民法107条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

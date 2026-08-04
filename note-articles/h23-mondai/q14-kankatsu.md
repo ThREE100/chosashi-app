@@ -48,15 +48,13 @@
 
 **たとえば**、建物を丸ごと甲登記所管内から乙登記所管内へ引いて移した場合、手続を行うのは移動先の乙登記所であり、元の甲登記所ではありません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 行政区画が決まっていない土地の建物は表題登記を申請できない |
-| イ | 正 | 管轄は主である建物が基準、附属建物の大きさは関係ない |
-| ウ | 誤 | 管轄指定を待たなくても表題登記の申請はできる |
-| エ | 正 | 主である建物が移れば管轄もそちらに移る |
-| オ | 誤 | 建物が移った先の登記所に所在の変更の登記を申請する |
+- **ア（正）**　行政区画が決まっていない土地の建物は表題登記を申請できない
+- **イ（正）**　管轄は主である建物が基準、附属建物の大きさは関係ない
+- **ウ（誤）**　管轄指定を待たなくても表題登記の申請はできる
+- **エ（正）**　主である建物が移れば管轄もそちらに移る
+- **オ（誤）**　建物が移った先の登記所に所在の変更の登記を申請する
 
 肢イと肢オは対照的です。イは主である建物が甲に残るから管轄は甲、オは建物自体が乙へ移るから管轄は乙。「主である建物がどこにあるか」を追えば、管轄は自然に決まります。
 
@@ -71,6 +69,7 @@
 - 各肢の法的根拠については、条文番号を一義的に特定できるものがなく、いずれも登記所の管轄（管轄は主である建物の所在地を基準とすること、管轄指定・えい行移転の取扱い）に関する一般原則・登記実務からの整理にとどまります。条文レベルでの断定は避けています。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成24年度以降令和7年度までの試験で「登記所の管轄」を単独テーマとする問題が再出題されていないかを確認しました。該当する出題は見つからず、重複はありません。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法6条・7条（管轄登記所、複数管轄にまたがる場合の指定）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -81,3 +80,95 @@
 - 管轄指定を待たなくても、表題登記は申請できるんです
 - 母屋が移れば、管轄もちゃんとそっちに移るんです
 - 建物が移ったら、申請先は移った先の登記所なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 轄（管轄）appears prominently in
+this infographic. Do not render it as the Simplified Chinese variant
+（辖）— use the standard Japanese form 轄 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+管轄の決め手は「主である建物」
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第14問　不動産登記法(登記所の管轄)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Two registry-office building icons (甲登記所, 乙登記所) with
+a dotted jurisdiction line between them, and a house icon (主である建物)
+with a smaller attached shed (附属建物) straddling the line, an arrow
+pointing from the house to the correct office.
+登記所の管轄は、複数の登記所にまたがる建物をどこに登記するかという問題です。「管轄は主である建物の所在地を基準に決まる」という一本の軸で押さえましょう。
+
+--- CARD 1 ---
+Heading (bold):
+所在の行政区画が決まっていない土地の建物は、表題登記を申請できない
+Illustration: A newly reclaimed landfill icon (埋立地) with a building on
+it and a large「？行政区画未定」question mark, with a red「✕表題登記
+不可」stamp blocking the registry window.
+Caption (small text below):
+行政区画が決まっていない土地の建物は表題登記を申請できない
+
+--- CARD 2 ---
+Heading (bold):
+管轄は主である建物が基準、附属建物の大きさは関係ない
+Illustration: A small main house icon（主である建物）sitting in甲登記所's
+territory, connected to a much larger warehouse icon（附属建物）that
+crosses into乙登記所's territory, with an arrow confirming「甲登記所」as
+the correct office regardless of size.
+Caption (small text below):
+管轄は主である建物が基準、附属建物の大きさは関係ない
+
+--- CARD 3 ---
+Heading (bold):
+管轄指定を待たなくても、表題登記の申請はできる
+Illustration: A large factory building straddling the dotted line
+between two registry offices, with a character submitting a「表題登記
+申請」paper immediately, not waiting for a法務大臣 pending-指定 stamp.
+Caption (small text below):
+管轄指定を待たなくても表題登記の申請はできる
+
+--- CARD 4 ---
+Heading (bold):
+主である建物が移れば、管轄もそちらに移る
+Illustration: A main house icon（主である建物）being pulled by a rope
+（曳行移転）from甲登記所's territory into乙登記所's territory, while a
+larger attached shed（附属建物）stays behind in甲登記所, with an arrow
+confirming管轄 follows the main house to乙登記所.
+Caption (small text below):
+主である建物が移れば管轄もそちらに移る
+
+--- CARD 5 ---
+Heading (bold):
+建物が移った先の登記所に、所在の変更の登記を申請する
+Illustration: A whole building icon being pulled by a rope from甲登記所
+to乙登記所's territory, with a「所在変更登記」stamp being applied at the
+乙登記所 window (destination), not甲登記所 (origin).
+Caption (small text below):
+建物が移った先の登記所に所在の変更の登記を申請する
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

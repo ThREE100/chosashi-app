@@ -20,13 +20,13 @@
 
 ### 肢ア：連帯保証人は、主債務の消滅時効を援用できる
 
-連帯保証人は、主債務が消滅すれば自らの保証債務も消滅するため、主債務の消滅時効について直接利益を受ける援用権者です。ここで、主債務の時効完成「前」に自分の連帯保証債務を承認していたとしても、それはあくまで保証債務についての話であって、主債務の時効の援用とは別問題です。したがって、CはAの売買代金債務の消滅時効を援用して請求を拒めます。この記述は正しいものです。
+連帯保証人は、主債務が消滅すれば自らの保証債務も消滅するため、主債務の消滅時効について直接利益を受ける援用権者です。この点は、令和2年（2020年）4月1日施行の民法改正により、145条に「保証人、物上保証人、第三取得者その他権利の消滅について正当な利益を有する者」が援用権者である「当事者」に含まれることが明文化され、現在では条文上も明確です。ここで、主債務の時効完成「前」に自分の連帯保証債務を承認していたとしても、それはあくまで保証債務についての話であって、主債務の時効の援用とは別問題です。したがって、CはAの売買代金債務の消滅時効を援用して請求を拒めます。この記述は正しいものです。
 
 **たとえば**、友人Aさんの借金の連帯保証人になったCさんが、以前「私が保証しています」と認めていたとしても、Aさん本体の借金が時効で消えたなら、Cさんは「もとの借金が消えたのだから私も払いません」と言えるのです。
 
 ### 肢イ：後順位抵当権者は、先順位の被担保債権の時効を援用できない
 
-後順位抵当権者Bが、先順位抵当権の被担保債権の消滅によって得るのは、抵当権の順位が上がって配当が増えるかもしれないという期待にすぎません。これは時効による反射的・間接的な利益であって、直接利益を受ける立場とはいえないため、援用権者に当たりません（最判平11.10.21）。「援用することができない」とする記述は正しいものです。
+後順位抵当権者Bが、先順位抵当権の被担保債権の消滅によって得るのは、抵当権の順位が上がって配当が増えるかもしれないという期待にすぎません。これは時効による反射的・間接的な利益であって、直接利益を受ける立場とはいえないため、援用権者に当たりません（最判平11.10.21）。この判例の考え方は、令和2年民法改正後の145条（当事者の範囲を「権利の消滅について正当な利益を有する者」に限定する明文）の解釈においても、後順位抵当権者を援用権者から除外する結論として維持されています。「援用することができない」とする記述は正しいものです。
 
 **たとえば**、同じ土地に一番手・二番手で抵当権を持つ人がいて、一番手の借金が時効で消えれば二番手のBさんは順位が繰り上がって得をしますが、それは棚ぼたのようなもの。Bさんが自分から「一番手の借金は時効だ」と言い出すことはできないのです。
 
@@ -48,15 +48,13 @@
 
 **たとえば**、Bさんが「借りたお金はちゃんと返します」と言ってしまったあとで、実はその時点ですでに時効が完成していたと気づいても、もう「あれは時効でした」と手のひらを返すことはできないのです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 連帯保証人は主債務の消滅時効を援用できる |
-| イ | 正 | 後順位抵当権者の利益は反射的で援用できない（最判平11.10.21） |
-| ウ | 誤 | 建物賃借人は敷地の取得時効を援用できない（利益が間接的） |
-| エ | 誤 | 共同相続人は自己の相続分の範囲でしか援用できない |
-| オ | 正 | 時効完成後に承認したら、完成を知らなくても援用できない（最判昭41.4.20） |
+- **ア（正）**　連帯保証人は主債務の消滅時効を援用できる（現行145条で明文化）
+- **イ（正）**　後順位抵当権者の利益は反射的で援用できない（最判平11.10.21、現行145条の解釈でも維持）
+- **ウ（誤）**　建物賃借人は敷地の取得時効を援用できない（利益が間接的）
+- **エ（誤）**　共同相続人は自己の相続分の範囲でしか援用できない
+- **オ（正）**　時効完成後に承認したら、完成を知らなくても援用できない（最判昭41.4.20）
 
 「直接利益を受けるか、棚ぼたの反射的利益にすぎないか」で援用権者を切り分けるのが、この分野を得点源にする鍵です。
 
@@ -68,8 +66,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第2問＝ウエ／4番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 各肢の法的根拠のうち、イ（最判平11.10.21）、オ（最判昭41.4.20）は判例レベルで確認済みです。ア（連帯保証人の援用権）、ウ（建物賃借人の援用権否定）、エ（共同相続人の相続分の範囲での援用）は、時効の援用権者は「時効により直接利益を受ける者」に限られるという一般原則からの整理にとどまります。
+- 各肢の法的根拠のうち、イ（最判平11.10.21）、オ（最判昭41.4.20）は判例レベルで確認済みです。ウ（建物賃借人の援用権否定）、エ（共同相続人の相続分の範囲での援用）は、時効の援用権者は「時効により直接利益を受ける者」に限られるという一般原則からの整理にとどまります。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
+- **最新法令準拠チェック（2026-08-04実施）**：出題当時（平成23年）、援用権者の範囲（肢ア・イに関連）は民法145条の解釈上の判例法理にとどまっていましたが、令和2年4月1日施行の民法改正により、145条に「当事者（消滅時効にあっては、保証人、物上保証人、第三取得者その他権利の消滅について正当な利益を有する者を含む。）」という文言が追加され、判例法理が明文化されました。連帯保証人（肢ア）が援用権者に含まれること、後順位抵当権者（肢イ）が除外されることは、この現行145条の解釈としても維持されていることを確認しました。本記事の各肢の根拠説明にこの現行条文の明文化を反映するよう更新しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成24年度以降令和7年度までの試験で「時効の援用」を単独テーマとする問題が再出題されていないかを確認しました。該当する出題は見つからず、重複はありません。
 
 ---
@@ -81,3 +80,95 @@
 - 土地を借りてる人は、敷地の時効を使えないんです
 - 相続人が使える時効は、自分の取り分の分だけなんです
 - 一度「返します」と言ったら、もう時効は言えなくなる
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 権（抵当権）and 続（相続）appear in
+this infographic. Do not render 権 as the Simplified Chinese variant（权）
+or 続 as（续）— use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その時効、あなたが使える人ですか？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第2問　民法(時効の援用)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A large clock icon with a torn「時効」paper label, surrounded
+by five small character icons each raising a hand asking「援用できる？」,
+with a magnifying glass hovering over the word「直接利益」.
+時効の援用の分野は、「時効の完成によって直接利益を受ける者は誰か」という援用権者の範囲が中心です。誰が援用でき、誰ができないのかを、利益が直接的か間接的かで見分けていきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+連帯保証人は、主債務の消滅時効を援用できる
+Illustration: A character labeled「連帯保証人C」standing behind a debtor
+character A, both connected to a torn-up「借金」contract icon with a
+「時効」stamp. A green checkmark appears over C's raised hand.
+Caption (small text below):
+連帯保証人は主債務の消滅時効を援用できる（現行145条で明文化）
+
+--- CARD 2 ---
+Heading (bold):
+後順位抵当権者は、先順位の被担保債権の時効を援用できない
+Illustration: Two isometric house/mortgage-stamp icons labeled「1番抵当権」
+and「2番抵当権」stacked on a single land plot. The 1番抵当権 stamp fades
+away（時効消滅）, and an arrow shows the 2番抵当権 holder reaching up
+hopefully with a red「✕援用不可」mark, labeled「反射的利益」.
+Caption (small text below):
+後順位抵当権者の利益は反射的で援用できない（最判平11.10.21、現行145条の解釈でも維持）
+
+--- CARD 3 ---
+Heading (bold):
+建物の賃借人は、敷地の取得時効を援用できない
+Illustration: A house icon on a land plot, with a renter character inside
+the house holding a「賃借」tag, disconnected from the land plot's
+「時効取得」stamp by a dotted line and a red「✕」, while the building-owner
+character below the house holds the stamp directly with a checkmark.
+Caption (small text below):
+建物賃借人は敷地の取得時効を援用できない（利益が間接的）
+
+--- CARD 4 ---
+Heading (bold):
+共同相続人は、自分の相続分の範囲でしか援用できない
+Illustration: A land plot divided into three equal wedge slices, each
+labeled with a fraction icon（各3分の1）and a small heir character
+standing on their own slice only, with a red「✕」over one heir reaching
+across to grab the whole plot.
+Caption (small text below):
+共同相続人は自己の相続分の範囲でしか援用できない
+
+--- CARD 5 ---
+Heading (bold):
+時効完成後に承認したら、もう援用できない
+Illustration: A character signing a「承認します」paper after a clock icon
+has already struck「時効完成」, with a speech bubble reading「知らなかった」
+crossed out by a red「✕」next to a locked padlock icon labeled「援用不可」.
+Caption (small text below):
+時効完成後に承認したら、完成を知らなくても援用できない（最判昭41.4.20）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

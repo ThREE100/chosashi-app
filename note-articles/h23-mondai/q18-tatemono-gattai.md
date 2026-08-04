@@ -48,15 +48,13 @@
 
 **たとえば**、未登記のまま増築を繰り返していた2つの離れが物理的に1個の建物になった場合、どちらも登記されていない以上、合体の登記ではなく、新しく建った1個の建物として表題登記を申請することになります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 主である建物と附属建物は同一の登記記録内にあり合体の対象外 |
-| イ | 正 | 未登記建物側の持分取得者には合体登記の申請義務がある |
-| ウ | 誤 | 申請人が証明すべきは自分の持分であり建物全体ではない |
-| エ | 正 | 更正登記で表題部所有者となった者にも申請義務が生じる |
-| オ | 正 | 双方未登記なら合体登記ではなく新築の表題登記を申請する |
+- **ア（誤）**　主である建物と附属建物は同一の登記記録内にあり合体の対象外
+- **イ（正）**　未登記建物側の持分取得者には合体登記の申請義務がある
+- **ウ（誤）**　申請人が証明すべきは自分の持分であり建物全体ではない
+- **エ（正）**　更正登記で表題部所有者となった者にも申請義務が生じる
+- **オ（正）**　双方未登記なら合体登記ではなく新築の表題登記を申請する
 
 「そもそも合体の対象か」「証明すべき所有権は誰の分か」の2点を押さえれば、この分野の誤りの肢は見抜けます。
 
@@ -71,6 +69,7 @@
 - 各肢の法的根拠のうち、合体による登記の申請義務・1か月以内という期間については不動産登記法49条の一般的な制度趣旨に基づく整理ですが、各肢の細部（主従建物の合体対象外、証明すべき所有権の範囲）について個別の条文番号までは特定できておらず、一般原則からの整理にとどまる点をご留意ください。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文は、本問については結論・根拠とも大筋で妥当な内容でしたが、他の問題（第2問）で明確な誤りが確認されたファイルであるため、本記事では条文・一般原則から独立に再構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、平成26年度第17問「合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（合体による登記等）」が、本問と非常に強く重複するテーマであることを確認しました。特に「主である建物とその附属建物が合体した場合は、そもそも合体による登記等の制度の対象外である」という論点は、本問の肢アと平成26年度第17問の肢エで共通してテストされています。平成26年度分は本シリーズでは未執筆ですが、将来執筆する際はこの論点の重複に十分注意してください。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法49条（合体による登記等）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -81,3 +80,95 @@
 - 証明すべきは自分の持分だけ、建物全体じゃないんです
 - 更正登記で所有者になった人にも、申請義務があるって知ってた？
 - どちらも未登記なら、合体じゃなくて新築の登記なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 証（証する情報）と続（手続）appear
+in this infographic. Do not render 証 as the Simplified Chinese variant
+（证）or 続 as（续）— use the standard Japanese forms exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物が「合体」するとき、誰の所有権を証明する？
+
+Subtitle (smaller, centered, 1行):
+平成23年度　午後の部　第18問　不動産登記法(建物が合体した場合の登記の申請)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Two separate building icons merging into one single
+building（合体）, with a torn「表題部抹消」stamp on each original record
+and a fresh「表題登記」stamp on the new combined building.
+建物の合体の登記は、別々に登記されていた複数の建物が1個になったときに、合体後の表題登記と、合体前の各建物の表題部の登記の抹消をセットで申請する制度です。
+
+--- CARD 1 ---
+Heading (bold):
+主である建物と附属建物は、そもそも「合体」の対象ではない
+Illustration: A main house icon and its small attached shed（附属建物）
+already sharing the same single registration folder icon, with a red
+「✕合体登記の対象外」stamp blocking an attempt to apply the合体 process
+to them.
+Caption (small text below):
+主である建物と附属建物は同一の登記記録内にあり合体の対象外
+
+--- CARD 2 ---
+Heading (bold):
+合体前の未登記建物側の持分を取得した人には、申請義務がある
+Illustration: An unregistered shed（未登記）merging with a registered
+house（登記済み）into one building, with a buyer character purchasing a
+share of the shed's portion, holding a calendar「1か月」countdown toward
+a「合体登記」stamp.
+Caption (small text below):
+未登記建物側の持分取得者には合体登記の申請義務がある
+
+--- CARD 3 ---
+Heading (bold):
+申請人が証明すべきなのは、自分の持分の所有権であって建物全体ではない
+Illustration: A registered house owner merging with an unregistered
+shed, stamping a「所有権証明情報」document that covers only their own
+original house portion, with a red「✕建物全体の証明は不要」over an
+oversized certificate.
+Caption (small text below):
+申請人が証明すべきは自分の持分であり建物全体ではない
+
+--- CARD 4 ---
+Heading (bold):
+更正登記で表題部所有者となった人にも、申請義務が生じる
+Illustration: A name-correction stamp（更正登記）fixing an incorrect
+owner name on a title-only building, with the newly-corrected owner
+character holding a calendar「1か月」countdown toward a「合体登記」stamp.
+Caption (small text below):
+更正登記で表題部所有者となった者にも申請義務が生じる
+
+--- CARD 5 ---
+Heading (bold):
+どちらも未登記のまま合体したら、合体登記ではなく新築の表題登記
+Illustration: Two unregistered shed icons（未登記建物）merging into one
+building, with a red「✕合体登記」crossed out and a green「新築による表題
+登記」stamp applied instead.
+Caption (small text below):
+双方未登記なら合体登記ではなく新築の表題登記を申請する
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.
