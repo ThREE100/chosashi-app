@@ -48,15 +48,13 @@
 
 **たとえば**、測量ミスによって本来の位置と少しずれた分筆線で登記が完了してしまった場合、「後から地図の訂正申出をすれば直せる」と考えるのは誤りで、分筆錯誤としての更正登記の手続を踏む必要があります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 近傍に基本三角点等がなくても恒久的な地物を基礎にできるとする規定はない |
-| イ | 誤 | 隣接2筆でも一の申出情報にまとめることはできない（登記研究696号158頁） |
-| ウ | 正 | 閉鎖された地図に準ずる図面も保存期間は永久（規則28条2号、3号） |
-| エ | 正 | 閉鎖図面で確認できれば、その図面特定情報で足りる（規則16条6項〜9項、平17.2.25民二457号） |
-| オ | 誤 | 分筆線の誤りは地図訂正でなく分筆錯誤の更正登記で直す（昭43.6.8民甲1653号） |
+- **ア（誤）**　近傍に基本三角点等がなくても恒久的な地物を基礎にできるとする規定はない
+- **イ（誤）**　隣接2筆でも一の申出情報にまとめることはできない（登記研究696号158頁）
+- **ウ（正）**　閉鎖された地図に準ずる図面も保存期間は永久（規則28条2号、3号）
+- **エ（正）**　閉鎖図面で確認できれば、その図面特定情報で足りる（規則16条6項〜9項、平17.2.25民二457号）
+- **オ（誤）**　分筆線の誤りは地図訂正でなく分筆錯誤の更正登記で直す（昭43.6.8民甲1653号）
 
 「誤り」を直す手続はひとつではなく、原因と図面の性質によって使い分けるべきものだと分かります。
 
@@ -81,3 +79,81 @@
 - 閉鎖された図面も、実は永久保存なんです
 - 閉鎖図面で確認できれば、それだけで足りるんです
 - 分筆線の誤りは、地図訂正じゃ直せないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the characters 地・番（地図・地番）、登・記・所
+（登記所）、号（696号158頁）appear in this infographic. Do not render 登・记
+(Simplified Chinese) or 号 as a simplified variant — use the standard
+Japanese forms 地・番・登・記・所・号 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地図の"訂正"、どこでもできるわけじゃない
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第6問／地図・地図訂正
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 地図のisometricイラスト、古い地図に準ずる図面(公図)と新しい精密な地図が並び、間に「訂正」のマークと虫眼鏡アイコンが描かれる。
+地図・地図に準ずる図面、そして地図訂正の申出について、「誰が」「どんな図面をもとに」「どんな手続で」誤りを直すのかを整理します。
+
+--- CARD 1 ---
+Heading (bold):
+地図作成の測量は、基本三角点等の成果を基礎にする
+Illustration: 測量士キャラクターが三角点(isometricな三角形の杭アイコン)を基準に測量する様子。近くのお地蔵さんアイコンに赤い×マークと「基準にできない」のラベルを添える。
+Caption (small text below):
+近傍に基本三角点等がなくても恒久的な地物を基礎にできるとする規定はない
+
+--- CARD 2 ---
+Heading (bold):
+隣同士の区画訂正でも、申出は1筆ずつ
+Illustration: 隣接する甲土地・乙土地のisometricイラスト、それぞれに別々の「地図訂正申出情報」の書類アイコンが対応し、1枚にまとめようとする矢印に赤い×マークを添える。
+Caption (small text below):
+隣接2筆でも一の申出情報にまとめることはできない（登記研究696号158頁）
+
+--- CARD 3 ---
+Heading (bold):
+閉鎖された図面も、永久に保存される
+Illustration: 古い地図に準ずる図面(巻物のようなアイコン)に「閉鎖」の判子が押されつつ、金庫のisometricアイコンに保管される様子。「永久保存」のラベルと緑の○マークを添える。
+Caption (small text below):
+閉鎖された地図に準ずる図面も保存期間は永久（規則28条2号、3号）
+
+--- CARD 4 ---
+Heading (bold):
+閉鎖図面で確認できれば、それだけで足りる
+Illustration: 閉鎖された図面のアイコンを虫眼鏡で確認する様子、その横に新しい地積測量図のアイコンに赤い×マーク(不要)、閉鎖図面を「特定する情報」のラベルカードに緑の○マークを添える。
+Caption (small text below):
+閉鎖図面で確認できれば、その図面特定情報で足りる（規則16条6項〜9項、平17.2.25民二457号）
+
+--- CARD 5 ---
+Heading (bold):
+分筆線の誤りは、地図訂正では直せない
+Illustration: 分筆された土地のisometricイラスト、誤った分筆線に赤い×マークと「地図訂正」のラベルに×、代わりに「更正登記」のラベルが書かれた書類アイコンに緑の○マークを添える。
+Caption (small text below):
+分筆線の誤りは地図訂正でなく分筆錯誤の更正登記で直す（昭43.6.8民甲1653号）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

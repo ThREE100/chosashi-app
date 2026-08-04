@@ -1,0 +1,211 @@
+## 【土地家屋調査士受験生向け】令和2年度 第15問・登記記録を「読む」力を試す穴埋め問題〜敷地権付き区分建物の登記記録〜
+
+**出題年度：令和2年度　午後の部　第15問**
+
+> 次の〔登記記録〕の中の（ ア ）から（ オ ）までの空欄に後記の〔語句群〕の中から適切な語句を選んで入れると，敷地権付き区分建物の登記記録となる。（ ア ）から（ オ ）までの空欄に入れるべき語句が含まれていないものは，後記1から5までのうち，どれか。ただし，同一の文字の付された空欄には同一の語句が入り，異なる文字の付された空欄に同一の語句は入らないものとする。
+>
+> 〔登記記録〕（主要部分を抜粋）
+>
+> **表題部（一棟の建物の表示）**　所在：Ａ市Ｂ町一丁目1番地1／構造：鉄筋コンクリート造陸屋根3階建／床面積：1階300.00㎡　2階300.00㎡　3階300.00㎡〔令和2年10月26日〕
+>
+> **表題部（敷地権の目的である土地の表示）**　符号1／Ａ市Ｂ町一丁目1番1／宅地／350.00㎡／令和2年10月26日
+>
+> **表題部（専有部分の建物の表示）**　家屋番号：Ｂ町一丁目1番1の1／種類：居宅／構造：鉄筋コンクリート造（ ア ）／床面積：（ イ ）150.00㎡（令和2年10月20日新築）〔令和2年10月26日〕／（第2行）75.00㎡（1番1の4を区分）〔令和2年11月25日〕
+>
+> **表題部（敷地権の表示）**　符号1／敷地権の種類（ ウ ）／割合3分の1／令和2年10月20日（ エ ）〔令和2年10月26日〕／符号1／（ ウ ）／割合6分の1／令和2年11月20日（ オ ）〔令和2年11月25日〕
+>
+> 所有者：Ａ市Ｂ町一丁目2番3号　株式会社○○
+>
+> 〔語句群〕
+> 敷地権，1階部分，使用貸借権，1階，非敷地権，平家建，地上権，一部抹消，分割，変更，敷地権消滅，1階建，新築
+>
+> 1　使用貸借権　敷地権　地上権
+> 2　分割　新築　1階
+> 3　敷地権消滅　1階建　1階部分
+> 4　変更　非敷地権　平家建
+> 5　一部抹消　1階　1階部分
+
+この問題は、実際の登記記録を読ませて、空欄ア〜オに入る正しい語句を判断させる「穴埋め型」の問題です。聞かれているのは少し変わっていて、「空欄に入れるべき語句（ア〜オに入る5語）が**含まれていない**選択肢はどれか」です。まずア〜オに入る語句を確定させ、次にその5語をどれも含まない選択肢を探します。
+
+### （ア）：区分建物の階数は「平家建」ではなく「1階建」
+
+一棟の建物は3階建ですが、この専有部分の床面積は1つの階層分（150.00㎡）しか表示されていません。つまり縦割り（メゾネット）の区分建物ではなく、一棟の建物を階層で区分したタイプです。この場合、1階にある専有部分の階数は「平家建」ではなく「1階建」と表示します。したがって（ア）には「**1階建**」が入ります。
+
+**たとえば**、一戸建てなら「平家建」と書くところですが、3階建てマンションの1階の一室は「1階建」と表示します。同じ「1階分」でも、区分建物では書き方が変わるのです。
+
+### （イ）：床面積の階名は「1階部分」
+
+一棟の建物を階層で区分した場合、専有部分の床面積の各階の表示は「1階部分」「2階部分」のように記録します。この専有部分は1階にあるので、（イ）には「**1階部分**」が入ります。
+
+**たとえば**、マンションの1階の部屋の床面積は、単に「150.00㎡」と書くのではなく、「1階部分　150.00㎡」というように、どの階の部分かを添えて記録します。
+
+### （ウ）：敷地権の種類は「地上権」
+
+敷地権とは、敷地利用権のうち、登記された所有権・地上権・賃借権であって、分離処分が禁止されているものをいいます（不動産登記法44条1項9号）。語句群の「使用貸借権」は区分所有法上の敷地利用権ではありますが、登記することができないため、敷地権にはなりません。語句群の中で敷地権の種類になり得るのは「地上権」なので、（ウ）には「**地上権**」が入ります。
+
+**たとえば**、マンションの敷地を「借りて使う権利」でも、それが登記された地上権なら敷地権になりますが、登記できない使用貸借（ただで借りる約束）では敷地権にはなりません。
+
+### （エ）：最初の敷地権発生の原因は「敷地権」
+
+敷地権の表示では、敷地権の目的である土地1筆ごとに、符号・敷地権の種類・割合・原因及びその日付を記録します。登記原因及びその日付は「年月日敷地権」とします。最初の行（令和2年10月20日）は敷地権が発生した原因なので、（エ）には「**敷地権**」が入ります。
+
+**たとえば**、専有部分が新築された令和2年10月20日に敷地権が生じたことは、「令和2年10月20日敷地権」と記録されます。
+
+### （オ）：区分後の割合変更の原因は「変更」
+
+2行目（令和2年11月20日、登記の日付は11月25日）は、専有部分が「1番1の4を区分」する区分登記がされたことに伴い、敷地権の割合が3分の1から6分の1に変わったことを示しています。この場合の原因は「年月日変更」と記録します。したがって（オ）には「**変更**」が入ります。
+
+**たとえば**、部屋を区分してもう一戸増やしたことで、それぞれの敷地権の取り分（割合）が変わったときは、「令和2年11月20日変更」というように「変更」を原因として記録します。
+
+### まとめ表
+
+| 空欄 | 入る語句 | ポイント |
+|---|---|---|
+| ア | 1階建 | 区分建物の1階の階数は「平家建」でなく「1階建」 |
+| イ | 1階部分 | 階層区分の専有部分の床面積は「◯階部分」と記録 |
+| ウ | 地上権 | 敷地権になり得るのは登記された所有権・地上権・賃借権（使用貸借権は不可） |
+| エ | 敷地権 | 敷地権発生の原因は「年月日敷地権」 |
+| オ | 変更 | 区分に伴う割合変更の原因は「年月日変更」 |
+
+空欄ア〜オに入る語句は「1階建・1階部分・地上権・敷地権・変更」の5つです。この5語をどれも含まない選択肢を探すと、選択肢2の「分割・新築・1階」は、いずれもア〜オの空欄には入らない語句だけで構成されています（「新築」は専有部分の原因欄にすでに印字済み、「1階」「分割」はどの空欄にも入りません）。
+
+**正解：選択肢2番（分割・新築・1階）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。ただし、本問は登記記録の表を読ませる穴埋め問題のため、実際に出題を確認する際は法務省公表の問題原本の表組みも併せてご覧いただくと分かりやすいです。
+- 出典（令和2年度午後の部 第15問）・正解番号（選択肢2番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
+- 空欄ウ（敷地権の種類）については、データベースの補足解説フィールドに「所有権が入る」という趣旨の記載がありましたが、これは語句群（所有権は選択肢になく、地上権・使用貸借権が候補）と整合しないため、データベース内の別フィールドに残っていた元資料の解答（ア＝1階建、イ＝1階部分、ウ＝地上権、エ＝敷地権、オ＝変更）と照合し直し、「地上権」と整理しています。この解答の組合せによれば、5つの空欄語句をいずれも含まない選択肢は2のみであり、公式正答（選択肢2番）と一致します。
+- なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回は参照できませんでした。
+- **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。本問と同じ「登記記録の空欄補充」形式の問題は他の年度には見当たりませんでした（令和4年度第18問は図を用いた事例問題ですが、通常のア〜オの記述式で、空欄補充形式ではありません）。「敷地権」というテーマ自体は令和7年度第13問と重なりますが、令和7年度第13問は通常のア〜オ記述式で出題内容も異なるため、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+
+---
+
+## 見出し画像用フレーズ
+
+- マンションの1階の部屋は「平家建」じゃなく「1階建」なんです
+- 専有部分の床面積は「◯階部分」と書くって知ってた？
+- 使用貸借権は登記できないから、敷地権になれないんです
+- 敷地権の発生原因は、そのまま「敷地権」なんです
+- 区分で割合が変わったら、原因は「変更」なんです
+
+---
+
+## 問題全体インフォグラフィック プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment buildings,
+registry record cards, dashed fillable fields, ownership-right icons, etc. —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special attention: the kanji 地・番・建・物・登・記・権 appear repeatedly
+in the card text below. Render every one of them in its standard Japanese
+(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
+
+This infographic has exactly 5 cards, one per card heading listed below,
+one for each blank ア〜オ in the registry record. Reproduce all 5
+headings exactly as written, in this order, with no duplication, no
+omission, and no paraphrasing:
+1. マンションの1階の部屋は「平家建」じゃなく「1階建」なんです
+2. 専有部分の床面積は「◯階部分」と書くって知ってた？
+3. 使用貸借権は登記できないから、敷地権になれないんです
+4. 敷地権の発生原因は、そのまま「敷地権」なんです
+5. 区分で割合が変わったら、原因は「変更」なんです
+
+--- HEADER ---
+Title (large, bold, 2行):
+登記記録を「読む」力
+空欄ア〜オの5つの正解
+
+Subtitle (smaller, centered, 1行):
+令和2年度 土地家屋調査士試験 午後の部 第15問(敷地権付き区分建物の登記記録)より
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric 3-story apartment building cross-section
+beside a large floating registry-record document. The document shows
+five dashed, fillable blank boxes with question marks in them,
+corresponding to the five blanks ア〜オ that need to be filled in.
+実際の登記記録を読んで、空欄に入る正しい語句を判断する「穴埋め型」
+の問題です。専有部分の構造・床面積の書き方や、敷地権の種類・発生原
+因・変更原因の記録方法を、5つのカードで整理します。
+
+--- CARD 1 ---
+Heading (bold):
+マンションの1階の部屋は「平家建」じゃなく「1階建」なんです
+Illustration: Isometric 3-story apartment building with the 1st-floor
+unit highlighted in a pastel color. A label tag with a checkmark reads
+"1階建", next to a smaller crossed-out label reading "平家建" for
+comparison.
+Caption (small text below):
+一棟の建物を階層で区分した専有部分の階数は「平家建」ではなく「1階
+建」と表示する
+
+--- CARD 2 ---
+Heading (bold):
+専有部分の床面積は「◯階部分」と書くって知ってた？
+Illustration: Isometric floor plan of the highlighted 1st-floor unit,
+with a floor-area label tag reading "1階部分　150.00㎡" and an arrow
+pointing from the room outline to the label.
+Caption (small text below):
+一棟の建物を階層で区分した専有部分の床面積は「1階部分」のように、
+階を添えて記録する
+
+--- CARD 3 ---
+Heading (bold):
+使用貸借権は登記できないから、敷地権になれないんです
+Illustration: Isometric land plot beneath the apartment building, with
+three right-icons floating above it labeled "所有権", "地上権", and
+"使用貸借権". The "所有権" and "地上権" icons are circled with a
+checkmark and connected by a chain down to the building, labeled
+"敷地権になり得る"; the "使用貸借権" icon has a crossed-out chain and
+a small "登記不可" stamp beside it.
+Caption (small text below):
+敷地権になり得るのは登記された所有権・地上権・賃借権であり、登記す
+ることができない使用貸借権は敷地権にならない
+
+--- CARD 4 ---
+Heading (bold):
+敷地権の発生原因は、そのまま「敷地権」なんです
+Illustration: Isometric registry record card for "敷地権の表示",
+showing a date tag "令和2年10月20日" connected by an arrow to a
+reason/label tag reading "敷地権" with a checkmark.
+Caption (small text below):
+敷地権の表示における最初の登記原因及びその日付は「年月日敷地権」と
+記録する
+
+--- CARD 5 ---
+Heading (bold):
+区分で割合が変わったら、原因は「変更」なんです
+Illustration: Isometric apartment unit being split into two smaller
+units by a dashed cut-line (区分), with two fraction labels showing
+"3分の1" changing to "6分の1". A date tag "令和2年11月20日" is
+connected by an arrow to a reason/label tag reading "変更" with a
+checkmark.
+Caption (small text below):
+専有部分の区分に伴って敷地権の割合が変わったときの登記原因及びその
+日付は「年月日変更」と記録する
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 地・番・建・物・登・記・権. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and that all 5 card headings listed above
+appear verbatim with no paraphrasing.
+```

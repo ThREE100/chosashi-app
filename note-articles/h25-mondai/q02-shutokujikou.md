@@ -1,0 +1,166 @@
+## 【土地家屋調査士受験生向け】「最初だけ善意」でも時効取得できる？〜取得時効の起算点と占有の承継〜
+
+**出題年度：平成25年度　午後の部　第2問**
+
+> A所有の甲土地についての取得時効に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
+>
+> ア　Bは、甲土地を無権利者Cから賃借した場合には、甲土地の賃借権を時効によって取得することはできない。
+>
+> イ　Bは、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始したものの、それから10年が経過する前に当該占有が隠匿のものとなった場合には、当該占有の開始から10年間占有を継続しても、甲土地の所有権を時効によって取得することはできない。
+>
+> ウ　Bは、甲土地を無権利者Cから買い受け、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始したものの、それから10年が経過する前に甲土地がAの所有する物であることを知った場合には当該占有の開始から10年間占有を継続しても、甲土地の所有権を時効によって取得することはできない。
+>
+> エ　Bは、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始し、その3年後、甲土地がAの所有する物であることを知っているCに対して甲土地を売却した。この場合において、Cは、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、それから7年が経過したときには、甲土地の所有権を時効によって取得することができる。
+>
+> オ　Bは、甲土地がAの所有する物であることを知りながら、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、その4年後、甲土地がBの所有する物であると過失なく信じたCに対して甲土地を売却した。この場合において、Cは、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、それから6年が経過したときには、甲土地の所有権を時効により取得することができる。
+>
+> 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
+
+取得時効は、「善意無過失は占有開始時だけで判断する」のに対し、「平穏・公然」は占有期間を通じて必要という、要件ごとの性質の違いを理解しているかが最大のポイントです。占有の承継（合算）の場面も絡めて出題されており、応用力が問われます。
+
+### ア：賃借権も時効取得の対象になる
+
+判例上、所有権だけでなく、継続的に用益する権利としての賃借権も時効取得の対象となり得るとされています。無権利者から賃借した場合であっても、賃借の意思をもって平穏かつ公然に土地の使用収益を継続すれば、賃借権を時効によって取得することができます。
+
+**たとえば**、実は所有者ではないCさんから「この土地を貸します」と言われて借り、Bさんが長年その土地を耕作し続けていた場合、Bさんは本当の所有者Aさんとの関係でも、賃借権を時効によって取得できる可能性があります。
+
+### イ：占有開始時は善意でも、途中で「隠匿」になれば時効は成立しない
+
+10年の短期取得時効に必要な「善意無過失」は占有開始時に備わっていればよいとされていますが、「平穏に、かつ、公然と」という要件は占有期間を通じて必要とされています。占有の途中で人目を忍ぶ「隠匿」の占有に転じた場合には、公然性の要件が失われるため、占有開始から10年間占有を継続しても取得時効は成立しません。
+
+**たとえば**、Bさんが最初は正々堂々と土地を使っていたのに、途中から所有者に見つからないようこっそり隠れて使うようになった場合、たとえ通算の占有期間が10年に達していても、その隠匿していた期間があるために時効取得は認められません。
+
+### ウ：占有開始時に善意無過失なら、途中で悪意に転じても10年時効は成立する
+
+これに対して「善意無過失」の要件は、占有を開始した時点で備わっていれば足り、その後に本当の所有者を知った（悪意に転じた）としても、10年の取得時効の成立には影響しません。占有開始の時点での状態を基準とするのが判例の考え方です。
+
+**たとえば**、Bさんが「自分の土地だ」と信じて使い始めた土地について、途中で「実はAさんの土地だった」と知ってしまっても、占有を開始した時点で善意無過失だった以上、そのまま10年間占有を続ければ時効取得が認められます。
+
+### エ：前主の占有と合算する場合、善意無過失は最初の占有者を基準に判断する
+
+占有の承継人は、前の占有者の占有をあわせて主張することができます（民法187条）。判例は、前主の占有をあわせて主張する場合の善意無過失の判断は、最初に占有を開始した者（前主）を基準に行うとしています。この事例では、善意無過失で占有を始めたBの占有（3年）と、悪意のCの占有（7年）を合算すれば10年に達し、最初の占有者Bが善意無過失であった以上、Cは時効によって所有権を取得することができます。
+
+**たとえば**、自分の土地だと信じて3年間使っていたBさんから、実はAさんの土地だと知っているCさんが土地を買い受けて7年間使い続けたとしても、最初のBさんが善意無過失だったおかげで、通算10年でCさんは時効取得できることになります。
+
+### オ：最初の占有者が悪意なら、合算しても短期（10年）の時効は成立しない
+
+逆に、最初の占有者Bが占有開始時から悪意（Aの所有と知っていた）であった場合、その後を承継した善意無過失のCが自己の占有のみを主張しても占有期間はまだ10年に満たず、Bの占有とあわせて主張しても最初の占有者Bが悪意である以上、10年の短期取得時効は成立しません（20年の長期取得時効の要件を満たす必要があります）。この事例では、Bの占有（4年）とCの占有（6年）をあわせても10年に達していますが、最初の占有者Bが悪意であるため、この時点で時効取得することはできません。
+
+**たとえば**、Aさんの土地だと知りながら4年間使っていたBさんから、今度は本当に「自分の土地だ」と信じて買い受けたCさんが6年間使い続けても、最初のBさんが悪意だった以上、この時点ではまだ時効取得は認められません。
+
+### まとめ表
+
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 誤 | 賃借権も時効取得の対象となり得る |
+| イ | 正 | 「平穏・公然」は占有期間を通じて必要。途中で隠匿になれば時効は成立しない |
+| ウ | 誤 | 「善意無過失」は占有開始時のみで判断。途中で悪意に転じても10年時効は成立する |
+| エ | 正 | 承継占有を合算する場合、善意無過失は最初の占有者を基準に判断する（判例） |
+| オ | 誤 | 最初の占有者が悪意なら、合算しても10年の短期時効は成立しない |
+
+「善意無過失は最初の一点」「平穏・公然は期間を通じて」という2つのモノサシを使い分けられるかどうかが、この分野の得点力を左右します。
+
+**正解：イエの組合せ（選択肢3番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出題番号・正解番号（3番＝イ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
+- 各肢の法的根拠のうち、イ・ウ（善意無過失は占有開始時のみ判断、平穏・公然は継続的要件）は判例（大連判明治44年4月7日など）に基づく一般的な理解です。エ・オ（占有の承継における善意無過失の判断基準）は最高裁判例（最判昭和53年3月6日の趣旨）によるものですが、条文の直接の明文ではなく判例法理であるため、確度としては判例の趣旨からの推論にとどまる部分があります。
+- **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。R02年度第2問が「不動産の取得時効」を正面から扱っていますが、占有の承継・善意無過失の判断基準という本問独自の具体的な組合せそのものの再出題は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**。
+
+---
+
+## 見出し画像用フレーズ
+
+- こっそり隠れて使うと、時効の意味が変わっちゃうんです
+- 途中で気づいても、最初が善意ならセーフなんです
+- 時効の判断基準は「最初の人」で決まるって知ってた？
+- 悪意から始まった占有は、引き継いでも救われないんです
+- 賃借権にも時効取得ってあるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+取得時効における善意無過失の判断基準と占有の承継について、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+取得時効のものさし
+「いつ」の善意無過失が効くのか
+
+Subtitle (smaller, centered, 1行):
+占有の承継と善意無過失の判断基準を整理(平成25年度 午後の部 第2問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene showing a land plot with a timeline ruler stretching across it, a small figure standing at the start of the timeline (占有開始) with a magnifying glass icon, and a second figure further along the timeline holding a torch (occupation being passed on).
+取得時効の「善意無過失」は占有を始めた時だけで判断され、「平穏・公然」は占有期間を通じて必要という、要件ごとの性質の違いがポイントです。占有を引き継いだ場合の判断基準もあわせて整理します。
+
+--- CARD 1 ---
+Heading (bold):
+賃借権も時効取得の対象となり得る
+Illustration: An isometric land plot with a small house icon and a key icon labeled 賃借権 slowly filling up a progress bar over a timeline, ending with a green checkmark stamp.
+Caption (small text below):
+無権利者から借りた土地であっても、賃借の意思をもって平穏かつ公然に使用収益を続ければ、賃借権を時効によって取得できる。
+
+--- CARD 2 ---
+Heading (bold):
+「平穏・公然」は占有期間を通じて必要。途中で隠匿になれば時効は成立しない
+Illustration: An isometric timeline where the first half of a land plot's occupation is shown brightly lit and open (公然), and the second half suddenly darkens with a figure hiding behind a fence icon (隠匿), with a red X stamp over the time-effect result.
+Caption (small text below):
+占有開始時に善意無過失でも、10年が経過する前に隠匿の占有に転じると、公然性の要件が失われ時効は成立しない。
+
+--- CARD 3 ---
+Heading (bold):
+「善意無過失」は占有開始時のみで判断。途中で悪意に転じても10年時効は成立する
+Illustration: An isometric timeline showing a figure at the starting point with a bright green checkmark labeled 善意無過失, and later along the same timeline a thought bubble revealing the truth (悪意に転じる), but the final result still shows a green checkmark at the 10-year mark.
+Caption (small text below):
+占有開始の時点で善意無過失であれば、その後に真の所有者を知ったとしても、10年の取得時効の成立には影響しない。
+
+--- CARD 4 ---
+Heading (bold):
+承継占有を合算する場合、善意無過失は最初の占有者を基準に判断する
+Illustration: An isometric relay-race scene on a land plot: a first runner figure labeled 善意無過失 handing a baton to a second runner figure labeled 悪意, with a single green checkmark stamped at the finish line labeled 10年.
+Caption (small text below):
+前の占有者の占有をあわせて主張する場合、善意無過失の判断は最初に占有を開始した者を基準に行う(判例)。
+
+--- CARD 5 ---
+Heading (bold):
+最初の占有者が悪意なら、合算しても10年の短期時効は成立しない
+Illustration: An isometric relay-race scene mirroring the previous card but reversed: a first runner figure labeled 悪意 handing a baton to a second runner figure labeled 善意無過失, with a red X at the 10-year finish line.
+Caption (small text below):
+最初の占有者が占有開始時から悪意であった場合、後に善意無過失の占有者が引き継いでも、10年の短期取得時効は成立しない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第2問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

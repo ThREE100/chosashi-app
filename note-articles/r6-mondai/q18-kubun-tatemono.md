@@ -50,15 +50,13 @@
 
 **たとえば**、マンションの甲区分建物の増築に伴って、その所有者が甲区分建物の床面積の変更登記と一棟の建物の床面積の変更登記をあわせて申請した場合、隣の乙区分建物の所有者は、自分の名前で重ねて一棟の変更登記を申請する必要はありません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 一つの土地は複数の一棟の建物の法定敷地・規約敷地を兼ねられる |
-| イ | 正 | 別の一棟にある区分建物を附属建物とするときはその一棟の他の区分建物の表題登記と併せて申請 |
-| ウ | 誤 | 建物の一部取壊しでもみなし規約敷地となり敷地権変更登記は不要 |
-| エ | 誤 | 区分建物の滅失登記と他の区分建物の変更登記の一括申請は不要 |
-| オ | 正 | 一棟の変更登記は一人が申請すれば他の区分所有者は重ねて申請不要 |
+- **ア（誤）**　一つの土地は複数の一棟の建物の法定敷地・規約敷地を兼ねられる
+- **イ（正）**　別の一棟にある区分建物を附属建物とするときはその一棟の他の区分建物の表題登記と併せて申請
+- **ウ（誤）**　建物の一部取壊しでもみなし規約敷地となり敷地権変更登記は不要
+- **エ（誤）**　区分建物の滅失登記と他の区分建物の変更登記の一括申請は不要
+- **オ（正）**　一棟の変更登記は一人が申請すれば他の区分所有者は重ねて申請不要
 
 区分建物の登記は「一括申請が必要な場面」と「一人の申請で足りる場面」の線引きを、条文の趣旨から丁寧に読み解けるかが決め手です。
 
@@ -83,3 +81,80 @@
 - 一部を壊しても、敷地権はそのまま残るんです
 - 区分建物が滅失しても、一括申請はいらないんです
 - 一棟の変更登記、一人が申請すればそれで済むんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: this prompt contains kanji that are easily confused with Simplified
+Chinese variants, especially 登・記・建・物・地・番. Render these strictly
+in their standard Japanese (Jōyō) forms, never as simplified hanzi.
+
+--- HEADER ---
+Title (large, bold, 1行):
+区分建物の登記、一括申請と単独申請を区別する
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第18問｜区分建物の登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: マンションのアイソメトリックイラスト。専有部分・一棟の建物・敷地権の3つのレイヤーをそれぞれ色分けして重ねたイラスト。
+区分建物の登記は、専有部分・一棟の建物・敷地権という3つのレイヤーが絡み合うため難易度が高い分野です。「一括して申請しなければならない場面」と「一人が申請すれば足りる場面」を区別できるかがポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+一つの土地は、複数の一棟の建物の敷地を兼ねられる
+Illustration: 隣り合う2棟のマンションが共有の駐車場敷地を持つアイソメトリックイラスト。同じ土地から2本の矢印が伸び、一方に「法定敷地」、もう一方に「規約敷地」のラベル。
+Caption (small text below):
+一つの土地は複数の一棟の建物の法定敷地・規約敷地を兼ねられる
+
+--- CARD 2 ---
+Heading (bold):
+別棟の区分建物を附属建物にするときは、表題登記も併せて申請
+Illustration: A棟の1室(主である建物)と、まだ表題登記のないB棟の倉庫部分(附属建物)のアイソメトリックイラスト。B棟の他の専有部分の表題登記書類も一緒にまとめられている。
+Caption (small text below):
+別の一棟にある区分建物を附属建物とするときはその一棟の他の区分建物の表題登記と併せて申請
+
+--- CARD 3 ---
+Heading (bold):
+建物の一部取壊しでも、みなし規約敷地となり変更登記は不要
+Illustration: 甲土地・乙土地にまたがるマンションの、甲土地側の棟だけを取り壊すアイソメトリックイラスト。甲土地に「みなし規約敷地」のラベル、変更登記の書類にバツ印。
+Caption (small text below):
+建物の一部取壊しでもみなし規約敷地となり敷地権変更登記は不要
+
+--- CARD 4 ---
+Heading (bold):
+区分建物が滅失しても、他の区分建物の変更登記との一括申請は不要
+Illustration: 二世帯住宅の片方(甲区分建物)が滅失し、残った世帯部分(乙区分建物)を非区分建物とする変更登記のアイソメトリックイラスト。2つの申請書類が別々に並び、間の「一括」矢印にバツ印。
+Caption (small text below):
+区分建物の滅失登記と他の区分建物の変更登記の一括申請は不要
+
+--- CARD 5 ---
+Heading (bold):
+一棟の変更登記は、一人が申請すれば他の所有者は不要
+Illustration: 甲区分建物の増築による床面積変更登記のアイソメトリックイラスト。甲区分建物の所有者が申請書類を提出し、隣の乙区分建物の所有者アイコンには「申請不要」のラベル。
+Caption (small text below):
+一棟の変更登記は一人が申請すれば他の区分所有者は重ねて申請不要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

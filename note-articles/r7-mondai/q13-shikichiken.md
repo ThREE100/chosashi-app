@@ -50,15 +50,13 @@
 
 **たとえば**、新築マンションの全部屋をまとめて表題登記する際に、1階の店舗部分だけは「部屋と敷地利用権を別々に売買してもよい」という特別な規約が定められていたとします。この場合、その店舗部分を除いた他の住居部分についてだけ、敷地権の情報を記載して一括で登記申請をすることができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 地目変更に敷地権登記の抹消は前提条件として不要 |
-| イ | 誤 | 住所不一致は同一性証明だけでは足りず別途住所変更登記が必要 |
-| ウ | 誤 | 敷地権の登記がある土地同士は合筆できない（法41条6号） |
-| エ | 正 | 敷地権登記の有無が食い違っていても建物の合併はできる |
-| オ | 正 | 分離処分可能規約のある部屋を除いて一括で敷地権付き表題登記ができる |
+- **ア（誤）**　地目変更に敷地権登記の抹消は前提条件として不要
+- **イ（誤）**　住所不一致は同一性証明だけでは足りず別途住所変更登記が必要
+- **ウ（誤）**　敷地権の登記がある土地同士は合筆できない（法41条6号）
+- **エ（正）**　敷地権登記の有無が食い違っていても建物の合併はできる
+- **オ（正）**　分離処分可能規約のある部屋を除いて一括で敷地権付き表題登記ができる
 
 **正解：エ・オの組合せ（選択肢5番）**
 
@@ -84,3 +82,82 @@
 - 敷地権の土地同士は、くっつけられません
 - ちぐはぐでも、部屋同士はくっつけられます
 - 一部だけ特別でも、まとめて登記できます
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: kanji such as 敷・地・権・建・物・登・記・合・筆・所 are
+especially prone to being rendered as Simplified Chinese variants. Draw
+every instance of these characters in their correct standard Japanese
+(Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+敷地権の登記、できること・できないこと
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第13問／敷地権
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: マンションの一棟の建物と、その下の敷地（土地）がリボンで結ばれているイソメトリック図。「敷地権」のラベルが土地と建物をつなぐリボンに付いている。
+敷地権（建物とその敷地の権利を一体のものとして扱う仕組み）が絡む登記には、いくつかの独特な制限があります。「できない」と「できる」を条文の裏付けとともに整理しましょう。
+
+--- CARD 1 ---
+Heading (bold):
+地目を変えるだけなら、敷地権登記の抹消は不要
+Illustration: マンションの敷地の一部（駐車場・緑地アイコン）の地目ラベルが「宅地」から「雑種地」に書き換えられている横で、「敷地権」のリボンはそのまま繋がったまま。
+Caption (small text below):
+地目を変えるだけなら、敷地権はそのままでOK
+
+--- CARD 2 ---
+Heading (bold):
+住所が一致していないときは、まず住所変更登記が必要
+Illustration: 建物側の登記記録カードと土地側の登記記録カードに、それぞれ違う住所ラベルが付いている。間に「住所変更登記」という書類アイコンが挟まり、それを経てから「敷地権発生の登記」の矢印が続く。
+Caption (small text below):
+住所がバラバラなら、まず直すのが先です
+
+--- CARD 3 ---
+Heading (bold):
+敷地権の登記がある土地同士は、合筆できない
+Illustration: 隣り合う2筆の土地アイコンにそれぞれ「敷地権」のリボンが付いており、その間に✕印の付いた「合筆」の矢印。
+Caption (small text below):
+敷地権の土地同士は、くっつけられません
+
+--- CARD 4 ---
+Heading (bold):
+敷地権登記の有無が食い違っていても、建物の合併はできる
+Illustration: 甲部屋（敷地権のリボン付き）と乙部屋（リボンなし）が並ぶ区分建物のイラスト。二つの部屋の間に「合併」の矢印が繋がり、丸（OK）マークが付いている。
+Caption (small text below):
+ちぐはぐでも、部屋同士はくっつけられます
+
+--- CARD 5 ---
+Heading (bold):
+分離処分可能規約のある部屋を除いて、まとめて敷地権付き表題登記ができる
+Illustration: 新築マンションの各部屋のイラスト。1階の店舗部屋だけ「分離処分可能規約」の破れた紙ラベルが付き、敷地権のリボンなし。他の部屋はまとめて「敷地権付き表題登記」の書類とともに一括登記される矢印が伸びる。
+Caption (small text below):
+一部だけ特別でも、まとめて登記できます
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　令和7年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -48,15 +48,13 @@
 
 **たとえば**、マンションの集会室のように共用部分である旨の登記がされている建物の表題部を更正する必要がある場合でも、共有者全員がそろわなくても、共有者の1人が申請すれば足ります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 建物名称を記載しても滅失登記で構造・床面積は省略できない |
-| イ | 正 | 表題部所有者の氏名変更登記の登記原因は「氏名変更」 |
-| ウ | 誤 | 表題部所有者の更正登記は真正な所有者からのみ申請できる |
-| エ | 正 | 階層的に区分した専有部分の構造欄には屋根の種類を記載しない |
-| オ | 誤 | 共用部分である旨の登記がある建物も共有者の1人から申請できる |
+- **ア（誤）**　建物名称を記載しても滅失登記で構造・床面積は省略できない
+- **イ（正）**　表題部所有者の氏名変更登記の登記原因は「氏名変更」
+- **ウ（誤）**　表題部所有者の更正登記は真正な所有者からのみ申請できる
+- **エ（正）**　階層的に区分した専有部分の構造欄には屋根の種類を記載しない
+- **オ（誤）**　共用部分である旨の登記がある建物も共有者の1人から申請できる
 
 建物の表示登記は、「誰が申請できるか」と「何を省略できるか」を、場面ごとに丁寧に切り分けて覚えることが得点への近道です。
 
@@ -81,3 +79,80 @@
 - 更正登記できるのは、実は真の所有者だけなんです
 - 階層で区分した部屋、屋根の種類は書かないんですよ
 - 共用部分の建物も、1人で更正登記できるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: this prompt contains kanji that are easily confused with Simplified
+Chinese variants, especially 登・記・建・物・所. Render these strictly in
+their standard Japanese (Jōyō) forms, never as simplified hanzi.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の表示登記、申請人と省略可否を整理
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第15問｜建物の表示に関する登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 建物の登記簿(表題部)のアイソメトリックイラスト。滅失・変更・更正・区分の4つの場面アイコンが並ぶ。
+建物の表示に関する登記は、滅失・変更・更正・区分といった場面ごとに、申請情報として何を書くべきか、誰が申請できるかが細かく定められています。
+
+--- CARD 1 ---
+Heading (bold):
+建物名称を記載しても、滅失登記で構造・床面積は省略できない
+Illustration: 「山田ハイツ」の名称プレートが付いた建物を取り壊すアイソメトリックイラスト。滅失登記の申請書類に、構造・床面積の欄がチェックマーク付きで残っている。
+Caption (small text below):
+建物名称を記載しても滅失登記で構造・床面積は省略できない
+
+--- CARD 2 ---
+Heading (bold):
+表題部所有者の氏名変更、登記原因は「氏名変更」
+Illustration: 表題部所有者の氏名が「鈴木花子」から「田中花子」に書き換えられるアイソメトリックイラスト。登記原因欄に「氏名変更」のラベル。
+Caption (small text below):
+表題部所有者の氏名変更登記の登記原因は「氏名変更」
+
+--- CARD 3 ---
+Heading (bold):
+表題部所有者の更正登記は、真の所有者からのみ申請できる
+Illustration: 誤って登記された人物アイコン(A)と真の所有者アイコン(B)のアイソメトリックイラスト。Bから更正登記の書類への矢印にチェックマーク、Aから同じ書類への矢印にバツ印。
+Caption (small text below):
+表題部所有者の更正登記は真正な所有者からのみ申請できる
+
+--- CARD 4 ---
+Heading (bold):
+階層区分した専有部分の構造欄には、屋根の種類を書かない
+Illustration: 2階建て建物を1階(甲区分建物)・2階(乙区分建物)に分けるアイソメトリックイラスト。屋根アイコンから構造欄への矢印にバツ印。
+Caption (small text below):
+階層的に区分した専有部分の構造欄には屋根の種類を記載しない
+
+--- CARD 5 ---
+Heading (bold):
+共用部分の建物も、共有者の1人から更正登記できる
+Illustration: マンションの集会室(共用部分である旨の登記がある建物)のアイソメトリックイラスト。複数の共有者アイコンのうち1人だけが申請書類を提出。
+Caption (small text below):
+共用部分である旨の登記がある建物も共有者の1人から申請できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

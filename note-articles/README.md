@@ -9,32 +9,27 @@ note-articles/
 ├── README.md               このファイル
 ├── format-template.md      note記事の執筆フォーマット(固定テンプレート)
 ├── generate-prompt.md      新しい問題の記事を生成するためのプロンプトテンプレート
-├── tools/
-│   └── md_to_mt.py         記事フォルダをnote.comインポート用MT形式に一括変換するスクリプト
+├── infographic-prompt-template.md  ②問題全体のインフォグラフィック生成プロンプトの作成ルール(固定テンプレート)
+├── column/                 特定の1問に紐づかない概念解説・横断参照コラム
+├── bunya-kaisetsu/         分野別の深掘り解説(制限行為能力者の各類型、附属建物の所在等)
+├── topics/                 テーマ別の短い解説記事(地目23種類、申請適格、取消権事項等)
 ├── exports/                md_to_mt.py で変換したnote.comインポート用ファイル(年度フォルダごとに1ファイル)
-│   ├── r6-mondai.mt.txt
-│   ├── r7-mondai.mt.txt
-│   └── h22-mondai.mt.txt
-├── r7-mondai/              令和7年度 午後の部の解説記事(問題ごとに1ファイル)
-│   ├── q02-senyuken.md            第2問 占有権
-│   ├── q03-souzoku.md             第3問 相続の承認及び放棄
-│   ├── q04-chizu-teisei.md        第4問 地図の訂正
-│   ├── q05-hozonkikan.md          第5問 保存期間
-│   ├── q06-shokutaku-touki.md     第6問 嘱託登記
-│   ├── q07-ininjou.md             第7問 委任状・代理権
-│   ├── q08-hyoudaibu-shoyuusha.md 第8問 表題部所有者
-│   ├── q09-chisekisokuryouzu.md   第9問 地積測量図
-│   ├── q10-tatemonozumen.md       第10問 建物図面及び各階平面図
-│   ├── q11-bunpitsu.md            第11問 分筆の登記
-│   ├── q12-tatemono-shurui.md     第12問 建物の種類
-│   ├── q13-shikichiken.md         第13問 敷地権
-│   ├── q14-tatemono-hyoudai.md    第14問 建物の表題登記
-│   ├── q15-kyouyoububun.md        第15問 共用部分である旨の登記
-│   ├── q16-hikkaitokutei.md       第16問 筆界特定
-│   ├── q17-shinsaseikyuu.md       第17問 審査請求
-│   ├── q18-houtei-souzoku.md      第18問 法定相続情報一覧図
-│   ├── q19-touroku-menkyozei.md   第19問 登録免許税
-│   └── q20-chousashihou.md        第20問 土地家屋調査士・調査士法人
+├── tools/                  記事の一括変換・整形スクリプト(md_to_mt.py、table_to_bullets.py等)
+├── r7-mondai/              令和7年度 午後の部(第1問〜第20問、全問完成)
+├── r6-mondai/              令和6年度 午後の部(第1問〜第20問、全問完成)
+├── r5-mondai/              令和5年度 午後の部(第1問〜第20問)
+├── r4-mondai/              令和4年度 午後の部(第1問〜第20問)
+├── r3-mondai/              令和3年度 午後の部(第1問〜第20問)
+├── r2-mondai/              令和2年度 午後の部(第1問〜第20問)
+├── r1-mondai/              令和元年度 午後の部(第1問〜第20問)
+├── h30-mondai/             平成30年度 午後の部(第1問〜第20問)
+├── h29-mondai/             平成29年度 午後の部(第1問〜第20問)
+├── h28-mondai/             平成28年度 午後の部(第1問〜第20問)
+├── h27-mondai/             平成27年度 午後の部(第1問〜第20問)
+├── h26-mondai/             平成26年度 午後の部(第1問〜第20問)
+├── h25-mondai/             平成25年度 午後の部(第1問〜第20問)
+├── h24-mondai/             平成24年度 午後の部(第1問〜第20問)
+├── h23-mondai/             平成23年度 午後の部(第1問〜第20問)
 ├── h22-mondai/             平成22年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
 │   ├── q01-muken-dairi-souzoku.md    第1問 無権代理と相続
 │   ├── q02-taikou-youken-177.md      第2問 対抗要件(民法177条の第三者)
@@ -56,30 +51,14 @@ note-articles/
 │   ├── q18-bunpitsu.md               第18問 分筆の登記
 │   ├── q19-touki-shikibetsu-jouhou.md 第19問 登記識別情報
 │   └── q20-chousashi-touroku.md      第20問 土地家屋調査士の登録
-└── r6-mondai/              令和6年度 午後の部の解説記事(問題ごとに1ファイル、第1問〜第20問すべて作成済み)
-    ├── q01-koui-nouryoku.md           第1問 制限行為能力者の取消し
-    ├── q02-taikouyouken.md            第2問 対抗要件(民法177条)
-    ├── q03-daishuu-souzoku.md         第3問 代襲相続
-    ├── q04-hyoudai-touki-tenpu.md     第4問 表題登記の添付情報
-    ├── q05-chousashi-houkoku-houshiki.md 第5問 調査士報告方式
-    ├── q06-chizu-teisei.md            第6問 地図等
-    ├── q07-chiseki-kosei.md           第7問 地積に関する更正の登記
-    ├── q08-bunpitsu-touki.md          第8問 土地の分筆の登記
-    ├── q09-gappitsu-touki.md          第9問 合筆の登記
-    ├── q10-chiekiken-zumen.md         第10問 地役権図面
-    ├── q11-daii-ni-yoru-touki.md      第11問 代位による登記
-    ├── q12-tatemono-nintei.md         第12問 建物の認定
-    ├── q13-tatemono-shozai.md         第13問 建物の所在
-    ├── q14-fuzoku-tatemono.md         第14問 附属建物
-    ├── q15-tatemono-hyoji-touki.md    第15問 建物の表示に関する登記
-    ├── q16-tatemono-bunkatsu-gappei.md 第16問 建物の分割又は合併の登記
-    ├── q17-tatemono-messitsu.md       第17問 建物の滅失の登記
-    ├── q18-kubun-tatemono.md          第18問 区分建物の登記
-    ├── q19-hikkai-tokutei.md          第19問 筆界特定
-    └── q20-chousashihou-gyoumu-kitei.md 第20問 土地家屋調査士法
+├── h21-mondai/             平成21年度 午後の部(第1問〜第20問)
+├── h20-mondai/             平成20年度 午後の部(第1問〜第20問)
+└── h17-mondai/             平成17年度 午後の部(17問。第7問・第9問・第20問は欠番)
 ```
 
-令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分は第1問〜第20問すべて作成済みです。
+**令和6年度・令和7年度は、このセッションで作成・ダブルチェック・インフォグラフィックプロンプト追加まで完了済みです**（令和7年度は当初第2問から作業を開始したため、第1問(意思表示)は後日追加しました）。
+
+**令和5年度〜平成17年度分は、GitHub上の複数のClaude Codeセッション(ブランチ`claude/surveyor-exam-*`)で個別に作成されたものを、2026年7月にこのリポジトリの`main`ブランチへ統合したものです**。各年度・各記事の作成経緯や情報ソースの確認状況は、それぞれの記事末尾の確認事項ブロックをご参照ください。統合時に内容の再検証は行っていないため、精度は記事ごとに異なる可能性があります。
 
 ## 令和6年度分の情報ソースについて
 

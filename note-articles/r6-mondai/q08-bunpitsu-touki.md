@@ -48,15 +48,13 @@
 
 **たとえば**、Ａ・Ｂ・Ｃがそれぞれ3分の1ずつの持分で共有している甲土地から乙土地を分筆する場合、3人全員の署名押印が揃わなくても、持分の合計が過半数となる2人だけで申請することができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 会社法人等番号を提供すれば印鑑証明書は不要（規則50条2項、令2.3.30民二318号） |
-| イ | 誤 | 目的・原因・日付が同一なら一の申請情報でまとめられる（令4条ただし書） |
-| ウ | 誤 | 法定相続情報一覧図を提供しても相続人である旨は申請情報に記載を要する（令3条10号） |
-| エ | 正 | 地方公共団体の代位嘱託による分筆登記は登録免許税が課されない（登録免許税法5条1号、6号） |
-| オ | 誤 | 持分価格の過半数を有する者から申請できる（令5.3.28民二533号） |
+- **ア（正）**　会社法人等番号を提供すれば印鑑証明書は不要（規則50条2項、令2.3.30民二318号）
+- **イ（誤）**　目的・原因・日付が同一なら一の申請情報でまとめられる（令4条ただし書）
+- **ウ（誤）**　法定相続情報一覧図を提供しても相続人である旨は申請情報に記載を要する（令3条10号）
+- **エ（正）**　地方公共団体の代位嘱託による分筆登記は登録免許税が課されない（登録免許税法5条1号、6号）
+- **オ（誤）**　持分価格の過半数を有する者から申請できる（令5.3.28民二533号）
 
 添付情報の省略や一括申請の可否は、「誰の意思を確認する必要があるか」という視点で整理すると迷いにくくなります。
 
@@ -81,3 +79,82 @@
 - 法定相続情報一覧図を出しても、相続人である旨は書くんです
 - 地方公共団体の代位嘱託には、登録免許税がかからないんです
 - 持分3分の1ずつでも、過半数でできちゃうんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the characters 地・権（地役権）、登・記（登記）、
+番・号（会社法人等番号・民二318号）、所（所有権）appear in this
+infographic. Do not render 権 or 记 as Simplified Chinese variants
+（权・记）— use the standard Japanese forms 地・権・登・記・番・号・所
+exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+会社法人等番号があれば、印鑑証明書はいらない
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第8問／分筆の登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 分筆される土地のisometricイラスト、書類の束(添付情報)が積まれ、印鑑証明書のアイコンに「省略できる？」の吹き出しがついている。
+分筆の登記の添付情報や申請構造について、「一の申請情報でまとめられるか」「相続人が申請するときの記載」などの細かな手続ルールを整理します。
+
+--- CARD 1 ---
+Heading (bold):
+会社法人等番号があれば、印鑑証明書はいらない
+Illustration: 株式会社のisometric建物アイコン、地役権消滅の書類、会社法人等番号のカードアイコンに緑の○マーク、印鑑証明書のアイコンに赤い×マークと「不要」のラベルを添える。
+Caption (small text below):
+会社法人等番号を提供すれば印鑑証明書は不要（規則50条2項、令2.3.30民二318号）
+
+--- CARD 2 ---
+Heading (bold):
+表題部所有者の土地でも、一の申請でまとめられる
+Illustration: 甲土地(表題登記のみ)と乙土地(所有権登記済み)が同じ登記所の管轄内に並ぶisometricイラスト。両方の分筆申請書が1枚の書類にまとまる様子に緑の○マークと「一括申請OK」のラベルを添える。
+Caption (small text below):
+目的・原因・日付が同一なら一の申請情報でまとめられる（令4条ただし書）
+
+--- CARD 3 ---
+Heading (bold):
+法定相続情報一覧図を出しても、相続人である旨は書く
+Illustration: 相続人Bキャラクターが法定相続情報一覧図を提出しつつ、申請情報の欄に「Aの相続人である」という文言を書き込む様子に緑の○マークと「記載必要」のラベルを添える。
+Caption (small text below):
+法定相続情報一覧図を提供しても相続人である旨は申請情報に記載を要する（令3条10号）
+
+--- CARD 4 ---
+Heading (bold):
+地方公共団体の代位嘱託には、登録免許税がかからない
+Illustration: 市役所のisometric建物アイコンが株式会社所有の土地の分筆登記を代わりに嘱託する様子。登録免許税のスタンプアイコンに赤い×マークと「非課税」のラベルを添える。
+Caption (small text below):
+地方公共団体の代位嘱託による分筆登記は登録免許税が課されない（登録免許税法5条1号、6号）
+
+--- CARD 5 ---
+Heading (bold):
+持分3分の1ずつでも、過半数で申請できる
+Illustration: A・B・C3人の共有者アイコンが並ぶ甲土地、そのうち2人(合計で過半数の持分)だけが申請書にサインする様子に緑の○マークと「過半数でOK」のラベルを添える。
+Caption (small text below):
+持分価格の過半数を有する者から申請できる（令5.3.28民二533号）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

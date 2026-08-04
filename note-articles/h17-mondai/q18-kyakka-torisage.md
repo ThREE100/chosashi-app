@@ -1,0 +1,195 @@
+## 【土地家屋調査士受験生向け】却下されても書類は返る?取下げはいつまでできる?〜表示登記の却下・取下げの急所を整理する〜
+
+**出題年度：平成17年度　午後の部　第18問**
+
+> 表示に関する登記の申請の却下又は取下げに関する次のアからオまでの記述のうち、正しいものは幾つあるか。
+>
+> ア　書面申請が却下されたときは、偽造された書面その他の不正な登記の申請のために用いられた疑いがある書面を除き、添付書面は還付される。
+>
+> イ　登記の申請がされた場合において、登記官が、当該登記の申請が不正な登記の申請であるとの疑いがあると認めたときは、申請人は、当該登記の申請を取り下げることができない。
+>
+> ウ　登記識別情報の提供を要する登記の申請がされた場合において、登記官が事前通知をしたときは、申請人は、登記名義人が当該事前通知に対して回答をするまでの間は、当該申請を取り下げることができない。
+>
+> エ　土地の分筆の登記及び当該分筆後の一の土地と他の土地との合筆の登記の申請を一の申請情報によってしたときでも、申請人は、合筆の登記の申請のみを取り下げることができる。
+>
+> オ　申請の取下げは、登記完了後は、することができない。
+>
+> 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
+
+登記の申請には「却下（登記官が受け付けを拒否すること）」と「取下げ（申請人が自分の意思で申請をやめること）」という2つの終わり方があります。この問題は、却下されたときに提出書類がどうなるのか、そして取下げがいつまで・どんな場合でもできるのかを問う分野です。「正しいものが幾つあるか」を問う個数問題なので、ア〜オを一つずつ確認していきましょう。
+
+### ア：却下されても、偽造書面等を除き添付書面は還付される
+
+登記の申請が却下された場合であっても、申請人からの請求があれば、添付書面（原本）は還付されます。ただし、偽造された書面その他の不正な登記の申請のために用いられた疑いがある書面については、この還付の対象から除かれます。これは、不正な申請に使われた疑いのある書類を申請人にそのまま返してしまうと、証拠が散逸し、その後の捜査や調査に支障が出かねないためです。したがって、肢アは正しい記述です。
+
+**たとえば**、Aさんが分筆登記を申請したものの、書類の不備で却下されてしまったとします。この場合、Aさんが提出した測量図や委任状などの添付書面は、原則としてAさんの手元に返してもらえます。ただし、その中に偽造が疑われる印鑑証明書のようなものが混ざっていた場合には、その書類だけは返してもらえません。
+
+### イ：不正の疑いがあっても、申請人は取下げをすることができる
+
+登記官が「この申請は不正な登記の申請ではないか」という疑いを持ったとしても、そのことを理由に申請人の取下げそのものが制限されるわけではありません。取下げは、申請人が自らの意思で手続を終わらせる行為であり、不正の疑いの有無によって取下げの可否が左右される規定はありません。したがって、「取り下げることができない」とする肢イは誤りです。
+
+**たとえば**、Bさんが提出した登記申請について、登記官が「添付された書類に不審な点がある」と感じて調査を始めたとします。この段階でBさんが「やはりこの申請はやめておこう」と考えた場合、不正の疑いをかけられていることを理由に取下げを拒否されるわけではなく、Bさんは通常どおり申請を取り下げることができます。
+
+### ウ：事前通知後、名義人の回答前でも取下げをすることができる
+
+登記識別情報の提供を要する申請について登記官が事前通知をした場合でも、その通知に対する登記名義人からの回答があるまでの間、申請人が取下げをできなくなるわけではありません。事前通知は、登記名義人本人の意思を確認するための手続にすぎず、申請人の取下げの自由を制限する制度ではないため、回答を待たずに取下げをすることができます。したがって、「回答をするまでの間は取り下げることができない」とする肢ウは誤りです。
+
+**たとえば**、Cさんが所有権移転登記を申請し、登記識別情報を提供できなかったため、登記官から登記名義人であるDさんに事前通知が送られたとします。Dさんからの回答がまだ届いていない段階でも、Cさん側の事情で「今回の申請は取り下げたい」となれば、Dさんの回答を待たずに取り下げることができます。
+
+### エ：一の申請情報による複数登記でも、一部の申請だけを取り下げることができる
+
+土地の分筆の登記と、その分筆後の一筆と他の土地との合筆の登記を、一の申請情報でまとめて申請した場合であっても、それぞれの登記の申請は別個のものとして扱われます。そのため、申請人は、まとめて申請したうちの合筆の登記の申請だけを取り下げ、分筆の登記の申請は残しておく、という一部だけの取下げをすることができます。一の申請情報で複数の登記の目的をまとめて申請した場合に、却下すべき事由がある部分だけが却下される取扱いと同じように、取下げについても申請ごとに個別に扱われるという発想です。したがって、肢エは正しい記述です。
+
+**たとえば**、Eさんが自分の土地を分筆したうえで、そのうちの一筆を隣接するFさんの土地と合筆する登記を、一枚の申請情報でまとめて申請したとします。その後、合筆の相手であるFさんとの話し合いがまとまらなくなった場合、Eさんは分筆の登記の申請はそのまま残し、合筆の登記の申請だけを取り下げることができます。
+
+### オ：登記完了後は、取下げをすることができない
+
+申請の取下げは、登記が完了する前までであれば認められますが、登記が完了した後は取下げをすることができません。いったん登記が完了して登記記録に反映されてしまった以上、それを申請の取下げという形で覆すことはできず、内容を正すのであれば更正の登記など別の手続によることになります。したがって、肢オは正しい記述です。
+
+**たとえば**、Gさんが表題登記を申請し、無事に登記が完了して登記記録に反映されたとします。その後になって「やっぱりこの申請はなかったことにしたい」と思っても、完了した登記を取下げによって消すことはできません。内容に誤りがあれば、更正の登記などの別の手続で対応することになります。
+
+### まとめ表
+
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 正 | 却下されても添付書面は還付される。偽造書面等の疑いがあるものは除く |
+| イ | 誤 | 不正の疑いがあっても、申請人の取下げは制限されない |
+| ウ | 誤 | 事前通知後、登記名義人の回答前でも取下げをすることができる |
+| エ | 正 | 一の申請情報による複数登記でも、申請ごとに個別に取下げをすることができる |
+| オ | 正 | 登記完了後は取下げをすることができない |
+
+正しいのはア・エ・オの3つで、イ・ウは誤りです。却下・取下げの分野は、「申請人の取下げの自由」がどこまで及ぶのか（不正の疑いや事前通知があっても制限されない）という視点と、「却下されたときに書類がどう扱われるか」という視点を分けて押さえておくと整理しやすくなります。
+
+**正解：3個（選択肢3番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出題年度・問題番号（平成17年度　午後の部　第18問）と正解（正しいものは3個＝選択肢3番）は、土地家屋調査士試験対策アプリの検証済みデータベース（この年度はtakuitsu.jsonのexplanationフィールドが空欄のため、kaisetsu_plus.jsonのapproach／pitfalls／keyPointsを主たる根拠として使用）で確認済みです。
+- **重要な留保**：本セッションではWebSearchの利用回数上限に達してしまい、今回はe-Gov法令検索・実務解説サイトとの突き合わせによる条文番号の再確認ができませんでした。そのため本記事では、DB（qdata）が挙げる条文番号をそのまま転記するのではなく、本アプリの他の解説記事（同じ却下・取下げを扱う令和3年度午後第6問の解説、および建物の表題部更正を扱う令和3年度午後第15問の解説）で既にWebSearch照合済みの条文番号との整合性を確認したうえで、確信が持てない条文番号は本文中に明記しない方針を取りました。
+- 具体的には、DB（kaisetsu_plus.jsonのkeyPoints）は「不動産登記法第25条（却下と添付書面の還付）、第27条（申請の取下げ）」を根拠として挙げていますが、本アプリの別記事（令和3年度午後第6問の解説）で不動産登記法25条はWebSearch済みで「申請の却下事由」を定める条文であることが確認されており、添付書面の還付そのものを定める条文とまでは言い切れません。また、本アプリの別記事（令和3年度午後第15問の解説）では不動産登記法27条がWebSearch済みで「表示に関する登記の登記事項」を定める条文であることが確認されており、「申請の取下げ」を定める条文ではない可能性が高いと考えられます。このため、本記事の肢ア・イ・ウ・エ・オの本文では、25条・27条という具体的な条番号を断定的には用いず、正誤判定と法的な仕組み（還付の可否・取下げの自由・事前通知との関係・一部取下げの可否・登記完了後の取下げ不可）についてはDBのapproach／pitfallsの記述に忠実に説明する一方、条文番号の断定は避けました。
+- 肢エの「一の申請情報による複数登記のうち一部だけを個別に取り下げられる」という考え方は、本アプリの別記事（令和3年度午後第6問）で確認済みの「一の申請情報で複数の登記の目的をまとめて申請した場合、却下事由がある部分だけが却下される（不動産登記事務取扱準則28条4項）」という取扱いと同じ発想に基づくものとして説明しましたが、この準則の規定が却下だけでなく取下げにも同様に及ぶかどうかまでは、今回のセッションでは確認できていません。一般原則からの類推である旨、正直に開示します。
+- 上記の事情により、本記事は「DBの正誤判定・法的帰結（approach／pitfalls／keyPointsの内容）」には忠実に従っていますが、条文番号の断定的な引用は最小限にとどめています。次回セッションでWebSearchが利用可能になった際に、e-Gov法令検索での再確認をおすすめします。
+- アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。本記事は上記アプリの検証済みデータベースと、本アプリ内の他記事で既にWebSearch確認済みの条文情報との整合性チェックのみに基づいて作成しています。
+
+---
+
+## 見出し画像用フレーズ
+
+- 却下されても、書類はちゃんと返ってくるんです
+- 不正の疑いがあっても、取下げは止められないんです
+- 事前通知のあとでも、回答前に取下げできるって知ってた？
+- まとめて申請しても、一部だけ取り下げられるんです
+- 登記が終わったら、もう取下げはできないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+却下時の書類の扱い(1枚)と、取下げの自由がどこまで及ぶか(4枚)という2つの軸に沿って、ア〜オ5肢すべての「正しいルール」を5枚のカードで俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry office
+counters, document stacks, stamps, torn paper labels, envelopes, locked
+drawers, hands pulling back paper, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Pay special
+attention to 登 and 記 (as in 登記, 登記官, 登記所, 登記完了, 登記識別情報,
+登記名義人) — these must never be rendered as Simplified Chinese
+look-alikes. Reproduce the exact text strings given below verbatim — do
+not paraphrase, translate, summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+表示登記の却下・取下げ
+急所を整理する
+
+Subtitle (smaller, centered, 1行):
+平成17年度 午後の部 第18問／正しいものは3個（ア・エ・オ）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: Isometric illustration of a registry office counter with a
+single document splitting into two branching paths — one path labeled
+「却下」leading to a rejection stamp icon, the other path labeled「取下げ」
+leading to a hand pulling the document back.
+登記の申請には、登記官が受け付けを拒否する「却下」と、申請人が自らの意思
+でやめる「取下げ」という2つの終わり方がある。この問題は、却下されたとき
+に書類がどう扱われるか、そして取下げがいつまで・どこまで自由にできるかを
+問う。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+却下されたときの書類の扱い
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+却下されても、添付書面は原則として還付される
+Illustration: Isometric illustration of a registry clerk handing back a
+stack of documents labeled「添付書面」to an applicant across a counter,
+while one document marked with a torn red paper label「偽造書面等は除く」
+is kept separately, locked inside a drawer/box.
+Caption (small text below):
+却下されても添付書面は還付される。偽造書面等の疑いがあるものは除く
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+取下げの自由とその限界
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+不正の疑いがあっても、取下げの自由は制限されない
+Illustration: Isometric illustration of a magnifying glass icon labeled
+「不正の疑い」hovering over a document, next to a person confidently
+pulling back a paper labeled「取下げ」, with an open unblocked arrow
+showing the action is not obstructed by any wall or barrier icon.
+Caption (small text below):
+不正の疑いがあっても、申請人の取下げは制限されない
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+事前通知後、名義人の回答前でも取下げができる
+Illustration: Isometric illustration of an envelope labeled「事前通知」
+sent from a registry office to a house icon labeled「登記名義人」, with a
+dotted clock icon labeled「回答前」, while a person pulls back a document
+labeled「取下げ」at the same time via an unblocked arrow.
+Caption (small text below):
+事前通知後、登記名義人の回答前でも取下げをすることができる
+
+--- COLUMN B, CARD 3 ---
+Heading (bold):
+一の申請情報でも、申請ごとに一部だけ取り下げられる
+Illustration: Isometric illustration of one combined document labeled
+「一の申請情報」splitting into two separate document icons labeled
+「分筆の登記」and「合筆の登記」; the「合筆の登記」icon is being pulled
+back by a hand labeled「取下げ」, while the「分筆の登記」icon remains
+stamped and untouched beside it.
+Caption (small text below):
+一の申請情報による複数登記でも、申請ごとに個別に取下げをすることができる
+
+--- COLUMN B, CARD 4 ---
+Heading (bold):
+登記完了後は、取下げをすることができない
+Illustration: Isometric illustration of a completed registry record book
+stamped「登記完了」, with a hand reaching to pull back a document labeled
+「取下げ」but blocked by a red X-mark barrier icon, indicating the action
+is no longer possible.
+Caption (small text below):
+登記完了後は取下げをすることができない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly (1
+card in Column A, 4 cards in Column B), with no duplicated or missing
+cards.
+```
