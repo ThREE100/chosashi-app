@@ -50,15 +50,13 @@
 
 **たとえば**、分筆などによって古い地積測量図が新しいものに置き換えられ「閉鎖」の扱いになると、その閉鎖後の地積測量図は30年間保存された後、保存期間の対象から外れます。同じ「閉鎖された図面」でも、建物所在図と地積測量図とでは保存期間の長さが違う、という点を押さえておく必要があります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 閉鎖登記記録（土地）は50年で保存期間満了 |
-| イ | 正 | 閉鎖した建物所在図は永久保存 |
-| ウ | 誤 | 建物合併登記の申請情報は30年で保存期間満了 |
-| エ | 正 | 筆界特定書に記載された情報は永久保存 |
-| オ | 誤 | 閉鎖した地積測量図は30年で保存期間満了（建物所在図とは異なる） |
+- **ア（誤）**　閉鎖登記記録（土地）は50年で保存期間満了
+- **イ（正）**　閉鎖した建物所在図は永久保存
+- **ウ（誤）**　建物合併登記の申請情報は30年で保存期間満了
+- **エ（正）**　筆界特定書に記載された情報は永久保存
+- **オ（誤）**　閉鎖した地積測量図は30年で保存期間満了（建物所在図とは異なる）
 
 「図面だから全部同じ扱い」と思い込まず、書類の種類ごとに保存期間が細かく分かれている点、特に「閉鎖後も永久（建物所在図）」と「閉鎖後は30年（地積測量図）」の違いを押さえておきましょう。
 
@@ -86,3 +84,86 @@
 - 合併登記の申請書、30年で役目を終えます
 - 境界を決めた記録は、ずっと残り続けます
 - 同じ「閉鎖図面」でも、寿命が違うんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+特に「登」「記」「録」「地」「建」「物」「所」といった字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+--- HEADER ---
+Title (large, bold, 1行):
+保存期間の落とし穴を整理する
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第5問　不動産登記法(保存期間)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A shelf of files in a registry office (法務局) with some
+boxes labeled「永久保存」and others labeled with numeric year tags, side
+by side.
+登記記録や図面、申請書類は、法務局に永久に残っているわけではありません。書類の種類ごとに保存期間が細かく定められており、「図面だから」「登記記録だから」とひとくくりにできない点が本問のポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+土地の閉鎖登記記録は「50年」で保存期間が満了する
+Illustration: A filing-cabinet icon labeled「閉鎖登記記録(土地)」with a
+clock counting up to「50年」, after which the paper fades/shreds.
+Caption (small text below):
+閉鎖登記記録（土地）は50年で保存期間満了
+
+--- CARD 2 ---
+Heading (bold):
+閉鎖した建物所在図は「永久」に保存される
+Illustration: A filing-cabinet icon labeled「閉鎖した建物所在図」with an
+infinity symbol「∞」stamp labeled「永久保存」.
+Caption (small text below):
+閉鎖した建物所在図は永久保存
+
+--- CARD 3 ---
+Heading (bold):
+建物の合併の登記の申請情報は「30年」で保存期間が満了する
+Illustration: A document-stack icon labeled「建物合併登記申請情報」with a
+clock showing「30年」, after which the paper fades.
+Caption (small text below):
+建物合併登記の申請情報は30年で保存期間満了
+
+--- CARD 4 ---
+Heading (bold):
+筆界特定書に記載された情報は「永久」に保存される
+Illustration: A document icon labeled「筆界特定書」with an infinity symbol
+「∞」stamp labeled「永久保存」and a gavel/official-seal icon.
+Caption (small text below):
+筆界特定書に記載された情報は永久保存
+
+--- CARD 5 ---
+Heading (bold):
+閉鎖した地積測量図は「30年」で保存期間が満了する（建物所在図とは違う扱い）
+Illustration: A document icon labeled「閉鎖した地積測量図」with a clock
+showing「30年」then fading, placed next to a faded ghost outline of Card
+2's infinity stamp for contrast, labeled「建物所在図とは異なる」.
+Caption (small text below):
+閉鎖した地積測量図は30年で保存期間満了（建物所在図とは異なる）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

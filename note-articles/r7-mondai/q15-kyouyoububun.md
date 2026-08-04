@@ -50,15 +50,13 @@
 
 **たとえば**、A棟の集会室をB棟の住民も共用する取り決めになっていたとしても、その登記の申請書に「B棟の誰それも使います」という個別の氏名まで書き込む必要はありません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 抵当権付き建物を共用部分にするには抵当権者の承諾等の情報が必要 |
-| イ | 誤 | 規約が定められても1か月以内の申請義務はない |
-| ウ | 正 | 共用部分の附属建物を分割するには甲建物の所有者証明情報が必要 |
-| エ | 誤 | 共有建物でも共有者全員での申請が必須とは限らない |
-| オ | 誤 | 他棟の共用する区分所有者の氏名を申請情報に含める必要はない |
+- **ア（正）**　抵当権付き建物を共用部分にするには抵当権者の承諾等の情報が必要
+- **イ（誤）**　規約が定められても1か月以内の申請義務はない
+- **ウ（正）**　共用部分の附属建物を分割するには甲建物の所有者証明情報が必要
+- **エ（誤）**　共有建物でも共有者全員での申請が必須とは限らない
+- **オ（誤）**　他棟の共用する区分所有者の氏名を申請情報に含める必要はない
 
 **正解：ア・ウの組合せ（選択肢2番）**
 
@@ -78,3 +76,82 @@
 - 所有者がいなくても、証明はちゃんといります
 - 共有でも、全員そろわなくて大丈夫
 - 他棟の名前まで、書く必要はありません
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: kanji such as 共・用・権・建・物・登・記・所・証 are
+especially prone to being rendered as Simplified Chinese variants. Draw
+every instance of these characters in their correct standard Japanese
+(Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+共用部分の登記、承諾がいる場面・いらない場面
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第15問／共用部分である旨の登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: マンションの管理人室（共用部分）のイラストに、抵当権のスタンプアイコンと承諾書のアイコンが並ぶ。
+建物を「共用部分」にするということは、その建物の独立した所有権や担保権の扱いを大きく変えることです。既存の権利者にどんな影響が及ぶかを軸に見ていきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+抵当権付き建物を共用部分にするには、抵当権者の承諾等の情報が必要
+Illustration: 管理人室のイラストに抵当権のスタンプアイコンが付いており、銀行のアイコン（人物）が承諾書を差し出している。
+Caption (small text below):
+抵当権がついてるなら、承諾もらってからです
+
+--- CARD 2 ---
+Heading (bold):
+規約が定められても、1か月以内の申請義務はない
+Illustration: 管理組合の総会で「共用部分にする規約」が決議される書類アイコンの横に、カレンダーアイコンに✕印（締め切りなし）が付いている。
+Caption (small text below):
+規約ができても、1か月の締め切りはなし
+
+--- CARD 3 ---
+Heading (bold):
+共用部分の附属建物を分割するには、甲建物の所有者証明情報が必要
+Illustration: 共用部分の管理人室に付属する倉庫部分が切り離されて別の建物になるイラスト。切り離しの申請書類に「所有者証明情報」のラベルが付いた紙が添えられている。
+Caption (small text below):
+所有者がいなくても、証明はちゃんといります
+
+--- CARD 4 ---
+Heading (bold):
+共有建物でも、共有者全員での申請が必須とは限らない
+Illustration: 複数人で共有する部屋のイラストに、共有者の人物アイコンが数人並ぶ中、一部の人物だけが申請書類を提出している。
+Caption (small text below):
+共有でも、全員そろわなくて大丈夫
+
+--- CARD 5 ---
+Heading (bold):
+他棟の共用する区分所有者の氏名を、申請情報に含める必要はない
+Illustration: A棟とB棟のマンションのイラスト。A棟の集会室をB棟の住民も使えることを示す矢印があるが、申請書類には個別の氏名欄が✕印で消されている。
+Caption (small text below):
+他棟の名前まで、書く必要はありません
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　令和7年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

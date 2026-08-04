@@ -50,15 +50,13 @@
 
 **たとえば**、以前の筆界特定を担当した登記官が、実は申請人の親戚だったと後から分かった場合、その判断の公正さに疑問が残るため、隣の土地の所有者は、改めて公正な立場の登記官による筆界特定をやり直すよう申請することができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 申請人でない共有者も意見・資料を提出できる（法139条） |
-| イ | 誤 | 所有権確認訴訟の判決があっても筆界特定は申請できる（却下事由は境界確定訴訟のみ、法132条1項6号） |
-| ウ | 誤 | 筆界特定の途中でも関係人は調書・資料を閲覧請求できる（法141条） |
-| エ | 正 | 原本添付した売買契約書は還付を請求できる |
-| オ | 正 | 判断者に利害関係があれば改めて筆界特定を申請できる |
+- **ア（正）**　申請人でない共有者も意見・資料を提出できる（法139条）
+- **イ（誤）**　所有権確認訴訟の判決があっても筆界特定は申請できる（却下事由は境界確定訴訟のみ、法132条1項6号）
+- **ウ（誤）**　筆界特定の途中でも関係人は調書・資料を閲覧請求できる（法141条）
+- **エ（正）**　原本添付した売買契約書は還付を請求できる
+- **オ（正）**　判断者に利害関係があれば改めて筆界特定を申請できる
 
 **正解：イ・ウの組合せ（選択肢3番）**
 
@@ -79,3 +77,81 @@
 - 途中経過も、ちゃんと見せてもらえます
 - 原本の契約書、ちゃんと返してもらえます
 - 身内が判断してたら、やり直しがききます
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: kanji such as 筆・界・権・地・登・記・所・証 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定、訴訟とは違うルール
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第16問／筆界特定
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 隣接する甲土地と乙土地の間に引かれた点線の筆界線のイラスト。筆界特定登記官のアイコンが虫眼鏡で境界を調べている。
+筆界特定は「筆界（公法上の境界）」を明らかにする手続きであり、「所有権の範囲」を決める訴訟とは似て非なるものです。この違いを押さえるのがポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+申請人でない共有者も、意見や資料を提出できる
+Illustration: 共有する土地のイラストに、申請人である兄のアイコンの横で、申請人でない弟のアイコンが吹き出しで意見や資料を差し出している。
+Caption (small text below):
+申請人じゃなくても、意見は言えるんです
+
+--- CARD 2 ---
+Heading (bold):
+所有権確認訴訟の判決があっても、筆界特定は申請できる
+Illustration: 裁判所のアイコン（判決書）と、それとは別に隣接する甲土地・乙土地の間で虫眼鏡を持つ筆界特定登記官のアイコンが並ぶ。判決書と筆界特定の間に「別次元」を示す仕切り線。
+Caption (small text below):
+裁判で決まっても、筆界はまた別の話です
+
+--- CARD 3 ---
+Heading (bold):
+筆界特定の途中でも、関係人は調書・資料の閲覧を請求できる
+Illustration: 手続き途中の書類フォルダのアイコンを、関係人のアイコンが閲覧している様子。
+Caption (small text below):
+途中経過も、ちゃんと見せてもらえます
+
+--- CARD 4 ---
+Heading (bold):
+原本添付した売買契約書は、還付を請求できる
+Illustration: 売買契約書の原本アイコンが、申請書類から手続き終了後に持ち主のアイコンの手元に戻ってくる矢印。
+Caption (small text below):
+原本の契約書、ちゃんと返してもらえます
+
+--- CARD 5 ---
+Heading (bold):
+判断者に利害関係があれば、改めて筆界特定を申請できる
+Illustration: 以前の筆界特定登記官のアイコンと申請人のアイコンの間に「叔父」という家族関係のラベルが付き、そこに✕印。隣の乙土地の所有者アイコンが新しい申請書類を差し出している。
+Caption (small text below):
+身内が判断してたら、やり直しがききます
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　令和7年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -1,0 +1,213 @@
+## 【土地家屋調査士受験生向け】附属建物の「記録の作法」を読み解く〜同日・同上・符号・所在の細目を整理〜
+
+**出題年度：平成30年度　午後の部　第14問**
+
+> 附属建物の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
+>
+> ア　附属建物がある建物の表題登記をする場合において，附属建物の新築の日が主である建物の新築の日と同一であるときは，附属建物の表示欄の原因及びその日付欄の記録は要しない。
+>
+> イ　表題部に附属建物に関する事項を記録する場合において，当該附属建物の種類，構造及び床面積が直前に記録された附属建物の記録と同一のときは，「同上」と記録される。
+>
+> ウ　附属建物の種類に関する変更の登記をする場合において，表題部に附属建物に関する記録をするときは，当該変更後の附属建物の種類，構造及び床面積が記録され，当該変更前の附属建物の符号を除くその登記事項の全部が抹消される。
+>
+> エ　区分建物でない建物の登記記録において，主である建物が存在する土地の地番と附属建物である地下車庫が存在する土地の地番とが同一ではない場合には，当該附属建物が存在する土地の地番は，主である建物の表示欄の所在欄に記録されない。
+>
+> オ　附属建物が主である建物と同一の一棟の建物に属する区分建物である場合において，当該附属建物に関する登記事項を記録するには，その一棟の建物の所在する市，区，郡，町，村，字及び土地の地番並びに構造及び床面積を記録することを要する。
+>
+> 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
+
+附属建物の論点というと「効用上の一体性」という実体要件が有名ですが、この問題が問うのはもう一歩進んだ「登記記録への書き方の作法」です。新築日・「同上」表記・変更登記の抹消範囲・所在の記録順・区分建物の場合の扱いという、細かいけれど得点源になる論点を一つずつ整理していきましょう。
+
+### ア：附属建物の新築日が主建物と同日なら、日付の記録は不要
+
+附属建物が新築された日が主である建物と異なれば、附属建物の登記原因及びその日付欄に「年月日新築」と記録することを要します。しかし、主である建物と同日に新築されたものであるときは、あえて附属建物側の原因及びその日付欄に記録する必要はありません。主建物の欄を見れば新築日がわかるため、重複した記録を省く趣旨です。
+
+**たとえば**、母屋と離れ(物置)を同じ日に建てて一緒に表題登記を申請する場合、離れの原因及びその日付欄に改めて「年月日新築」と書き込む必要はありません。
+
+### イ：附属建物が同一内容でも「同上」ではなく、内容がそのまま記録される
+
+一見すると、直前の附属建物と種類・構造・床面積が同じなら「同上」と略記できそうに思えますが、附属建物についてはこの取扱いをすることができません。なぜなら、附属建物は変更または更正の登記があった場合、従前の符号を除くその登記事項の全部が抹消され、符号の順番に変動が生じる可能性があるためです。「同上」で前の記録に依存させてしまうと、抹消・再記録の際に内容が読み取れなくなってしまいます。
+
+**たとえば**、符号1と符号2の物置がまったく同じ木造平屋建の物置であっても、符号2の欄に「同上」と書くのではなく、種類・構造・床面積をそれぞれきちんと記録することになります。
+
+### ウ：附属建物の種類変更登記では、符号を除く従前の登記事項が全部抹消される
+
+附属建物の種類に関する変更または更正の登記をする場合、表題部に附属建物に関する記録をするときは、当該変更または更正後の種類・構造・床面積が記録され、従前の附属建物の符号を除くその登記事項の全部が抹消されます(準則94条1項)。符号は同一の附属建物を追跡する見出しなので残し、中身の記録は新しいものに置き換える、という処理です。
+
+**たとえば**、符号1の「物置」を「車庫」に用途変更したときは、符号1という見出しはそのままに、旧「物置」の記録を抹消して新しく「車庫」の種類・構造・床面積を記録し直すことになります。
+
+### エ：主建物と地番が異なる附属建物でも、その土地の地番は所在欄に記録される
+
+区分建物でない建物で、主である建物の存する土地の地番と附属建物(地下車庫など)の存する土地の地番とが異なる場合には、主である建物の存する土地の地番を先に記録し、附属建物が存する他の土地の地番を後ろに記録します。したがって「附属建物が存する土地の地番は所在欄に記録されない」というのは誤りで、順番を後にして記録されるのが正しい扱いです。
+
+**たとえば**、母屋が10番の土地に、地下車庫が隣接する11番の土地にまたがって建っている場合、所在欄には10番を先に、11番を後に、いずれも記録されます。
+
+### オ：主建物と同一の一棟に属する区分建物なら、一棟の表示の記録は不要
+
+附属建物が区分建物である場合、通常はその一棟の建物の所在(市区郡町村字及び土地の地番。法44条1項5号)や構造・床面積(法44条1項7号)などを附属建物の構造欄に加えて記録します。しかし、本肢のように主である建物と附属建物が同じ一棟の建物に属する専有部分であるときは、その一棟の表示はすでに主である建物の表題部に記録されています。そのため、附属建物の構造欄に一棟の所在・構造・床面積を重ねて記録する必要はありません(準則89条)。「記録することを要する」とする本肢は誤りです。
+
+**たとえば**、同じマンション(一棟の建物)の中で、301号室を主である建物、同じ棟の地下1階の倉庫を附属建物とする場合、一棟の所在や構造・床面積は301号室側にすでに載っているので、倉庫の側で重ねて記録する必要はありません。
+
+### まとめ表
+
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 正 | 附属建物の新築日が主建物と同日なら日付の記録は不要 |
+| イ | 誤 | 附属建物は「同上」ではなく内容をそのまま記録する |
+| ウ | 正 | 種類変更登記では符号を除く従前の登記事項が全部抹消される |
+| エ | 誤 | 地番が異なる附属建物の土地の地番も所在欄に記録される |
+| オ | 誤 | 同一の一棟に属する区分建物なら一棟の表示の記録は不要 |
+
+附属建物の記録は、「符号だけは残して中身は置き換える」「主建物にある情報は重ねて書かない」という一貫した考え方でつながっています。個々の結論を丸暗記するより、この重複を避ける発想を軸に整理すると迷いません。
+
+**正解：アウの組合せ（選択肢1番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出題番号・正解番号(1番＝アウ)は、土地家屋調査士試験対策アプリの検証済みデータベース(takuitsu.json、法務省公式正答を反映)で確認済みです。
+- 各肢の根拠のうち、ウ(不動産登記事務取扱準則94条1項)、オ(不動産登記法44条1項5号・7号、準則89条)は、元データの解説に条文番号まで明記されています。ア(新築日が同日の場合の記録省略)、イ(「同上」記録の可否)、エ(附属建物の土地の地番の記録順)については、元データ解説では取扱いの説明のみで具体的な条文番号までは示されておらず、記録実務の一般原則からの説明にとどまる点はご留意ください。
+- 各肢の解説は、元データ(アガルート過去問テキストのOCRに基づくデータベースのexplanationフィールド)を条文根拠の一次情報源として参照しています。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（附属建物の登記）と同一・類似の論点がないか確認しました。**重複が見つかりました。** 令和6年度第14問（既存記事：`r6-mondai/q14-fuzoku-tatemono.md`）の肢エ「附属建物の新築の日が主である建物の新築の日と同一であるときは、附属建物の新築の日を申請情報の内容とすることを要しない」は、本問の肢アと全く同一のルールを扱っています。令和6年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
+
+---
+
+## 見出し画像用フレーズ
+
+- 母屋と同じ日に建てた離れは、新築日を書かなくていいんです
+- 附属建物は、同じ内容でも「同上」って書けないんですよ
+- 種類を変えても、符号だけは残るって知ってた？
+- 地番が違う地下車庫でも、その土地はちゃんと載るんです
+- 同じマンション内の倉庫なら、一棟の表示は書かなくていいんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+附属建物の登記記録の書き方について、新築日の記録省略・「同上」不可・変更登記の抹消範囲・地番の記録順・区分建物の場合の記録省略という5つのルールを、1列に並んだ5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric house and small
+outbuilding shapes, wooden number tags, ledger/register book pages,
+calendar icons, prohibition (no-entry) marks, arrows, land-plot squares,
+apartment building block with room doors, torn-paper labels).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・符・棟・変・更, which have
+Simplified Chinese look-alike forms with visibly different stroke shapes —
+always draw the standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+附属建物 記録の作法
+符号は残す、重複は書かない
+
+Subtitle (smaller, centered, 1行):
+新築日・「同上」・変更登記・所在欄・区分建物の記録ルールを整理(平成30年度 午後の部 第14問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a large
+house shape labeled "主である建物" connected by a thin dotted line to a
+smaller outbuilding shape labeled "附属建物"、with a small wooden tag
+reading "符号1" attached to the outbuilding, and an open ledger book page
+icon labeled "表題部" beside them, to show that the outbuilding's details
+are recorded on the same register page as the main building.
+附属建物の論点というと「効用上の一体性」という実体要件が有名ですが、この
+問題が問うのはもう一歩進んだ「登記記録への書き方の作法」です。新築日・
+「同上」表記・変更登記の抹消範囲・所在の記録順・区分建物の場合の扱いと
+いう、細かいけれど得点源になる論点を一つずつ整理します。
+
+--- CARD 1 ---
+Heading (bold):
+新築日が主建物と同日なら、記録は不要
+Illustration: An isometric house labeled "主である建物" with a calendar
+icon showing a checkmark and the label "新築日 同一"、next to a smaller
+outbuilding labeled "附属建物"。A blank ledger line next to the
+outbuilding reading "原因及びその日付" has a red prohibition (no-entry)
+circle-slash mark overlaid on it, with a thin dotted arrow from the
+main building's calendar to the outbuilding to show the date does not
+need to be repeated.
+Caption (small text below):
+附属建物の新築の日が主である建物と同一であるときは、附属建物の表示欄の
+原因及びその日付欄の記録を要しない。
+
+--- CARD 2 ---
+Heading (bold):
+同一内容でも「同上」ではなく、そのまま記録する
+Illustration: An isometric open ledger book page showing two outbuilding
+entries side by side, one tagged "符号1" and one tagged "符号2"、both
+identical small storage-shed icons. Each entry has its own full text
+block reading "木造平屋建" written out separately under both tags. Next
+to the 符号2 entry, the word "同上" is shown crossed out with a red
+prohibition (no-entry) circle-slash mark.
+Caption (small text below):
+附属建物は変更・更正登記の際に符号を除く登記事項の全部が抹消されるため、
+「同上」と略記することはできない。
+
+--- CARD 3 ---
+Heading (bold):
+種類変更登記では、符号を除く従前の記録が全部抹消される
+Illustration: An isometric ledger book page with a wooden tag labeled
+"符号1" that stays fixed in place (highlighted with a small green check
+mark), while below it the old text "種類：物置" has a red strikethrough
+line through it, and new text "種類：車庫" is being written in beside it
+with a pencil icon, showing the tag is kept while the content underneath
+is replaced.
+Caption (small text below):
+附属建物の種類に関する変更・更正登記をする場合、変更後の種類・構造・
+床面積が記録され、符号を除く従前の登記事項の全部が抹消される
+(準則94条1項)。
+
+--- CARD 4 ---
+Heading (bold):
+地番が異なる附属建物の土地の地番も、後ろに記録される
+Illustration: Two adjacent isometric land-plot squares, the left one
+labeled "10番" with a house icon labeled "主である建物" on it, the right
+one labeled "11番" with a small underground garage icon labeled "附属
+建物(地下車庫)" on it. Below them, a ledger label strip reading
+"所在欄" shows the text "10番" followed by an arrow then "11番",
+indicating both numbers are recorded in that order.
+Caption (small text below):
+主である建物の存する土地の地番と附属建物の存する土地の地番とが異なる
+場合、主である建物の地番を先に、附属建物の存する土地の地番を後に、
+いずれも所在欄に記録される。
+
+--- CARD 5 ---
+Heading (bold):
+同一の一棟に属する区分建物なら、一棟の表示は書かない
+Illustration: An isometric apartment building block (一棟の建物) with
+two highlighted room units inside: one labeled "301号室(主である建物)"
+carrying a small info tag reading "一棟の所在・構造・床面積"、and another
+labeled "地下倉庫(附属建物)" whose matching info tag has a red
+prohibition (no-entry) circle-slash mark overlaid on it, with a thin
+dotted line connecting the two rooms to show they share the same
+building record.
+Caption (small text below):
+附属建物が主である建物と同一の一棟の建物に属する区分建物である場合、
+一棟の建物の所在・構造・床面積を重ねて記録することを要しない
+(準則89条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第14問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・符・棟・変・更. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly, with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```

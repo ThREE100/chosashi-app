@@ -48,15 +48,13 @@
 
 **たとえば**、増築によって床面積が変わった共有の甲建物について、共有者の一人である渡辺さんが変更登記に応じなくても、もう一人の共有者である伊藤さんは、渡辺さんに代位するのではなく、自分ひとりの申請として変更登記をすることができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 附属建物のみの買主は、売主に代位して分割登記を申請できる |
-| イ | 誤 | 合筆は所有権移転登記の保全に必須ではなく、代位申請はできない |
-| ウ | 誤 | 転得者も、原始取得者に代位して区分建物の表題登記を申請できる |
-| エ | 正 | 地役権者は、承役地の分筆登記を代位して申請することはできない |
-| オ | 誤 | 共有建物の変更登記は保存行為として共有者の1人が申請でき、代位は不要 |
+- **ア（正）**　附属建物のみの買主は、売主に代位して分割登記を申請できる
+- **イ（誤）**　合筆は所有権移転登記の保全に必須ではなく、代位申請はできない
+- **ウ（誤）**　転得者も、原始取得者に代位して区分建物の表題登記を申請できる
+- **エ（正）**　地役権者は、承役地の分筆登記を代位して申請することはできない
+- **オ（誤）**　共有建物の変更登記は保存行為として共有者の1人が申請でき、代位は不要
 
 代位による登記が認められるかどうかは、「代位しなければ自分の権利が保全されないか」という一点で決まります。
 
@@ -81,3 +79,80 @@
 - マンションの転得者も、代位で表題登記できるって知ってた?
 - 地役権者は、代位で分筆登記はできないんです
 - 共有建物の変更登記、代位じゃなくて1人でできるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: this prompt contains kanji that are easily confused with Simplified
+Chinese variants, especially 登・記・建・物・権・地・番・所. Render these
+strictly in their standard Japanese (Jōyō) forms, never as simplified hanzi.
+
+--- HEADER ---
+Title (large, bold, 1行):
+代位申請、できる場合とできない場合
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第11問｜代位による登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 債権者と債務者を表す2人の人物アイコンと、その間にある建物・土地のアイソメトリックイラスト。矢印で「代位」の関係を示す。
+登記の代位申請は、「自分の権利を保全するために、他人がすべき登記を代わりに申請できるか」を問う分野です。代位が認められるかどうかは「代位しなければ自分の権利が保全されないか」という一点で決まります。
+
+--- CARD 1 ---
+Heading (bold):
+附属建物のみの買主は、代位して分割登記を申請できる
+Illustration: アイソメトリックの主である建物(甲建物)に付属する小さな附属建物(物置)を強調。附属建物だけに矢印が伸び、買主を表す人物アイコンから売主を表す人物アイコンへ「代位」のラベル付き矢印。分割線のアイコン(ミシン目)で建物を切り離すイメージ。
+Caption (small text below):
+附属建物のみの買主は、売主に代位して分割登記を申請できる
+
+--- CARD 2 ---
+Heading (bold):
+合筆前提でも、代位申請はできない
+Illustration: 隣接する甲土地・乙土地のアイソメトリック地図。合筆を示す矢印にバツ印(×)。その横に、所有権移転登記の書類アイコンにチェックマーク(合筆なしでも移転登記は保全される)。
+Caption (small text below):
+合筆は所有権移転登記の保全に必須ではなく、代位申請はできない
+
+--- CARD 3 ---
+Heading (bold):
+転得者も、原始取得者に代位して表題登記を申請できる
+Illustration: マンションのアイソメトリックイラスト。分譲会社(A)からB、Bからさらに買い受けたC、という譲渡の矢印チェーン。Cから、表題登記の書類アイコンに向かって「代位」ラベル付きの矢印がAを経由して伸びる。
+Caption (small text below):
+転得者も、原始取得者に代位して区分建物の表題登記を申請できる
+
+--- CARD 4 ---
+Heading (bold):
+地役権者は、代位して分筆登記を申請できない
+Illustration: 甲土地のアイソメトリック地図。一部に地役権を示す帯状のラインアイコン。分筆線のアイコンにバツ印(×)。地役権者を表す人物アイコンから土地所有者への矢印にもバツ印。
+Caption (small text below):
+地役権者は、承役地の分筆登記を代位して申請することはできない
+
+--- CARD 5 ---
+Heading (bold):
+共有建物の変更登記は、共有者の1人で申請できる
+Illustration: 共有の甲建物のアイソメトリックイラスト。2人の所有者アイコン(共有者A・共有者B)。共有者Aだけが単独で申請書類アイコンを差し出している。「代位」ラベルにバツ印。
+Caption (small text below):
+共有建物の変更登記は保存行為として共有者の1人が申請でき、代位は不要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

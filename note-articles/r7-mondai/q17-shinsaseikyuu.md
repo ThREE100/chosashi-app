@@ -50,15 +50,13 @@
 
 **たとえば**、土地の持ち主が分筆登記を却下されて審査請求をしたとしても、その土地に抵当権を持っているだけの銀行は、その審査請求の手続きに正式な参加人として加わることはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 登記官の処分への審査請求には、そもそも期間制限がない（法158条により行審法18条を適用除外） |
-| イ | 正 | 裁決書の謄本は審査請求人・登記官双方に交付される（不動産登記準則145条1項） |
-| ウ | 誤 | 筆界特定は「処分」に当たらないため、審査請求の対象にならない |
-| エ | 誤 | 隣接地所有者は他人の地積更正登記を筆界異議で争えない |
-| オ | 正 | 登記官の処分への審査請求には、そもそも参加人制度がない（法158条により行審法13条を適用除外） |
+- **ア（誤）**　登記官の処分への審査請求には、そもそも期間制限がない（法158条により行審法18条を適用除外）
+- **イ（正）**　裁決書の謄本は審査請求人・登記官双方に交付される（不動産登記準則145条1項）
+- **ウ（誤）**　筆界特定は「処分」に当たらないため、審査請求の対象にならない
+- **エ（誤）**　隣接地所有者は他人の地積更正登記を筆界異議で争えない
+- **オ（正）**　登記官の処分への審査請求には、そもそも参加人制度がない（法158条により行審法13条を適用除外）
 
 **正解：イ・オの組合せ（選択肢3番）**
 
@@ -70,6 +68,7 @@
 - 出題番号・正解番号（3番＝イ・オ）は法務省公表の試験問題原本・正答資料で確認済みです。
 - **アについて重要な訂正**：当初「行政不服審査法18条1項により期間は1か月ではなく3か月」と記載していましたが、これは誤りでした。不動産登記法158条は、登記官の処分についての審査請求（156条1項）について行政不服審査法18条の規定自体を適用除外としており（e-Gov法令検索・Wikibooks・法令データベース(hourei.net)の条文原文で確認済み）、正しくは「そもそも期間制限が存在しない」が結論です。「3か月」という一般法の原則をそのまま当てはめた誤りで、市販の資格予備校系の解説記事にも同種の見落としが見られたため、あわせて訂正しました。
 - **オについても訂正**：当初「行政不服審査法13条の『参加人』の要件を満たさないため」と記載していましたが、13条自体も不動産登記法158条により156条1項の審査請求には適用除外されています（条文原文で確認済み）。正しくは「そもそも参加人という制度が存在しない」が結論です。結論（Ｂは参加人になれない＝オは正しい）自体は変わりませんが、根拠が異なります。なお、この結論は土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）を過去問全年度にわたって検索して見つかった**平成25年度午後の部第19問**（Ａの分筆登記却下処分に対する審査請求へ抵当権者Ｂが参加人として参加できるかを問う、本問オと実質同一論点の過去問）でも、「参加人として参加できる」とする記述が誤りと確定しており、独立に裏付けられています。
+
 - イ（不動産登記準則145条1項。裁決書の送達義務自体は行政不服審査法50条・51条による）、ウ（筆界特定は「処分」に該当せず審査請求の対象外）、エは、いずれも条文・制度趣旨で確認済みです。
 - 上記の訂正を踏まえ、今後の記事作成では、行政不服審査法など試験範囲外の一般法をそのまま根拠にする前に、不動産登記法・土地家屋調査士法などの試験範囲法令に特則（適用除外）がないかを必ず確認するルールを `format-template.md` に追加しました。
 
@@ -82,3 +81,81 @@
 - 筆界特定の結果、審査請求では争えません
 - 隣の更正登記、筆界異議じゃ取り消せません
 - 抵当権者どころか、誰も参加人にはなれないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: kanji such as 審・査・請・求・登・記・権・所 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+審査請求、期間と対象のルール
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第17問／登記官の処分又は不作為についての審査請求
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 法務局のアイコンと、審査請求書を提出する人物のアイコン。時計とカレンダーのアイコンが横にある。
+登記官の処分に対する審査請求には、期間の制限や、そもそも対象になるかどうかの見極めが必要です。数字の間違いや対象外の主張を見抜くのがポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+登記官の処分についての審査請求には、そもそも期間制限がない
+Illustration: カレンダーのアイコンに「1か月」「3か月」の文字が✕印で消され、代わりに「制限なし」の丸ラベルが付く。
+Caption (small text below):
+「1か月」どころか、実は期間制限そのものがないんです
+
+--- CARD 2 ---
+Heading (bold):
+裁決したときは、裁決書の謄本を審査請求人・登記官双方に交付する
+Illustration: 裁決書の謄本アイコンが二つに枝分かれし、一方は審査請求人のアイコンへ、もう一方は登記官のアイコンへ届く。
+Caption (small text below):
+裁決の結果は、登記官にも届くんです
+
+--- CARD 3 ---
+Heading (bold):
+筆界特定の結果は「処分」に当たらず、審査請求の対象にならない
+Illustration: 筆界特定の結果の書類アイコンから審査請求の窓口への矢印に✕印。代わりに裁判所への「境界確定訴訟」の矢印が示される。
+Caption (small text below):
+筆界特定の結果、審査請求では争えません
+
+--- CARD 4 ---
+Heading (bold):
+隣接地の所有者は、他人の地積更正登記を筆界異議で争えない
+Illustration: 甲土地の地積更正登記の書類アイコンに、隣の乙土地の所有者アイコンが「筆界に異議あり」と主張しているが、審査請求の矢印に✕印。代わりに「筆界特定の申請」への矢印が示される。
+Caption (small text below):
+隣の更正登記、筆界異議じゃ取り消せません
+
+--- CARD 5 ---
+Heading (bold):
+登記官の処分についての審査請求には、そもそも参加人という制度がない
+Illustration: 分筆登記却下の審査請求書類の横に、抵当権者のアイコンが「参加人」として加わろうとしているが、✕印で参加人の椅子（制度）自体が用意されていないことを示す。
+Caption (small text below):
+抵当権者どころか、誰も参加人にはなれないんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　令和7年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

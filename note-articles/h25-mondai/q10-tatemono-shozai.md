@@ -1,0 +1,166 @@
+## 【土地家屋調査士受験生向け】仮換地の上に建てた家は、どの地番で登記する？〜建物の所在の特殊ルール〜
+
+**出題年度：平成25年度　午後の部　第10問**
+
+> 建物の所在に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。
+>
+> ア　建物の登記記録の表題部に不動産所在事項が記録されている場合において、当該建物が他の都道府県にまたがって存在するときは、不動産所在事項に当該他の都道府県名が冠記される。
+>
+> イ　甲区分建物を主である建物とし、甲区分建物が属する一棟の建物と同一の土地上に存する別の一棟の建物に属する乙区分建物を附属建物とする建物の表題登記を申請する場合には、申請情報として、乙区分建物の属する一棟の建物が所在する土地の地番を提供することを要しない。
+>
+> ウ　建物が永久的な施設としてのさん橋の上に存する場合における当該建物の登記記録には、当該建物から最も近い土地の地番を用い、「何番地先」のように当該建物の所在が記録される。
+>
+> エ　仮換地上に建物を新築した場合において、当該建物の表題登記の申請をするときは、申請情報である当該建物の所在として、従前の土地の地番を提供しなければならない。
+>
+> オ　建物の登記記録の表題部に２筆以上の土地にまたがる建物の不動産所在事項を記録する場合には、床面積の多い部分又は主である建物の所在する土地の地番を先に記録し、他の土地の地番は後に記録する。
+>
+> 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
+
+建物の所在の記録方法は、通常の土地上の建物であれば単純ですが、都道府県境をまたぐ建物、さん橋の上の建物、仮換地上の建物といった特殊なケースでは、独自の記録ルールが定められています。実務でも間違えやすいポイントです。
+
+### ア：他の都道府県にまたがる建物は、都道府県名が冠記される
+
+建物が複数の都道府県にまたがって存在する場合、その建物の所在を示す不動産所在事項には、他の都道府県の名称が冠記されます。これにより、建物がどの都道府県の土地にまたがっているかが登記記録上も明確になります。
+
+**たとえば**、県境に建つ建物で、主な敷地はA県にあるものの、一部がB県にもまたがっている場合、その建物の所在の記録には「B県〇〇」というようにB県の名称が付け加えられます。
+
+### イ：別の一棟の建物に属する区分建物を附属建物とする場合、その所在地番の提供は必要
+
+甲区分建物を主である建物とし、別の一棟の建物に属する乙区分建物を附属建物とする表題登記を申請する場合、乙区分建物がどこに所在するのか（乙区分建物が属する一棟の建物が所在する土地の地番）を申請情報として提供する必要があります。これを「提供することを要しない」とするのは誤りです。
+
+**たとえば**、甲区分建物とは別の建物にある乙区分建物を、甲区分建物の附属建物として登記したい場合には、乙区分建物がどこに建っているのかという土地の地番情報も、申請書にきちんと記載しなければなりません。
+
+### ウ：さん橋の上の建物は、「何番地先」という特殊な表記で記録される
+
+永久的な施設としてのさん橋（船着き場などの構造物）の上に建物がある場合、その建物の所在は、最も近い土地の地番を用いて「何番地先」のように記録されます。これは、さん橋自体が土地に該当しないための特殊な取扱いです。
+
+**たとえば**、港にあるさん橋の上に倉庫が建てられている場合、その建物の所在は、陸地の最も近い地番を使って「〇番地先」という形で登記記録に記載されます。
+
+### エ：仮換地上の建物は、仮換地の地番で登記される
+
+土地区画整理事業によって仮換地が指定されている土地の上に建物を新築した場合、その建物の表題登記の申請にあたっては、実際に建物が所在する仮換地の地番を用いるのが実務上の取扱いです。従前の土地（区画整理前の元の土地）の地番を提供しなければならないとするのは誤りです。
+
+**たとえば**、区画整理が進行中で、まだ正式な換地処分は済んでいないものの、すでに仮換地として指定された土地に家を新築した場合、その建物の所在としては、従前の地番ではなく、現在使用している仮換地の地番を用いて登記します。
+
+### オ：2筆以上にまたがる建物は、床面積の多い部分の土地を先に記録する
+
+建物が2筆以上の土地にまたがって存在する場合、その所在を登記記録に記録する際には、床面積の多い部分又は主である建物が所在する土地の地番を先に記録し、他の土地の地番はその後に記録します。
+
+**たとえば**、甲土地と乙土地にまたがって建てられた家で、建物の大部分が甲土地の上にある場合、その建物の所在は「甲土地の地番、乙土地の地番」という順序で記録されます。
+
+### まとめ表
+
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 正 | 他の都道府県にまたがる建物は、都道府県名が冠記される |
+| イ | 誤 | 別の一棟の建物に属する区分建物を附属建物とする場合、その所在地番の提供は必要 |
+| ウ | 正 | さん橋上の建物は、最も近い土地の地番を用いて「何番地先」と記録される |
+| エ | 誤 | 仮換地上の建物は、従前の地番ではなく仮換地の地番を用いて登記する |
+| オ | 正 | 2筆以上にまたがる建物は、床面積の多い部分（主たる部分）の地番を先に記録する |
+
+建物の所在は「今、実際にどこにあるか」を反映させることが基本方針です。仮換地のケースも、この現況重視の発想で理解すると覚えやすくなります。
+
+**正解：イエの組合せ（選択肢4番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出題番号・正解番号（4番＝イ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
+- 各肢の法的根拠は、不動産登記規則が定める建物所在の記録方法（都道府県名の冠記、さん橋上の建物、複数筆にまたがる建物の記録順序）及び、仮換地上の建物についての実務上の取扱いに基づく一般的な理解です。エの仮換地の扱いについては、土地区画整理法上の仮換地の効果を踏まえた実務理解であり、条文の逐条的な確認までは行っていません。
+- **重複出題チェック（2026-07-21実施、重要）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。**R02年度第11問が、本問ウ（さん橋上の建物は「何番地先」と記録）・本問エ（仮換地上の建物は従前の地番ではなく仮換地の地番を用いる）の2点とほぼ同一の文言で再出題しています**。具体的には、R02年度第11問オ「建物が永久的な施設としての海上のさん橋の上に存する場合...その建物から最も近い土地の地番を用いて『何番地先』のように記録する」（本問ウとほぼ同旨）、同ウ「仮換地が指定された土地の上に建物を新築する場合...申請情報である建物の所在として、従前の土地の地番を提供しなければならない」（本問エと同一の誤った記述）が確認できます。**同じ2つの具体的論点がR02年度第11問でそのまま繰り返されているため、R02年度分のnote記事を執筆する際は、本問の解説文・具体例をそのまま転用せず、別の切り口で説明することを強くお勧めします**。
+
+---
+
+## 見出し画像用フレーズ
+
+- 県境をまたぐ建物、県名がちゃんと記録されるんです
+- 別の建物の附属建物、地番の記載を忘れちゃダメなんです
+- さん橋の上の建物は「何番地先」って表記されるんです
+- 仮換地の上の家は、仮換地の地番で登記するんです
+- 2筆にまたがる建物、記録の順番にもルールがあるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の所在に関する5つの特殊ルールを、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to these
+easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
+render any of them as a Simplified Chinese variant.
+
+--- HEADER ---
+Title (large, bold, 2行):
+仮換地の上の家は
+どの地番で登記する？
+
+Subtitle (smaller, centered, 1行):
+建物の所在の特殊ルールを整理(平成25年度 午後の部 第10問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric collage showing four unusual building-location scenes side by side: a building straddling a prefectural border line, a warehouse on a pier over water, a house on a temporary replotted land parcel, and a building spanning two adjacent land plots.
+建物の所在の記録方法は、通常の土地上の建物であれば単純ですが、都道府県境をまたぐ建物、さん橋の上の建物、仮換地上の建物といった特殊なケースでは、独自の記録ルールがあります。
+
+--- CARD 1 ---
+Heading (bold):
+他の都道府県にまたがる建物は、都道府県名が冠記される
+Illustration: An isometric building straddling a dashed border line between two prefectures, with a small tag reading B県〇〇 attached to the building's address record, showing the other prefecture's name added.
+Caption (small text below):
+建物が他の都道府県にまたがって存在する場合、不動産所在事項にはその他の都道府県名が冠記される。
+
+--- CARD 2 ---
+Heading (bold):
+別の一棟の建物に属する区分建物を附属建物とする場合、その所在地番の提供は必要
+Illustration: An isometric main condominium unit (甲区分建物) with an arrow connecting to a separate building's unit (乙区分建物) on a different land plot, with a document icon requiring the address tag of that separate plot, red X over a crossed-out omission.
+Caption (small text below):
+別の一棟の建物に属する乙区分建物を附属建物とする表題登記では、乙区分建物が所在する土地の地番の提供が必要。
+
+--- CARD 3 ---
+Heading (bold):
+さん橋上の建物は、最も近い土地の地番を用いて「何番地先」と記録される
+Illustration: An isometric pier (さん橋) extending over water with a small warehouse building on it, a dashed line connecting it to the nearest land plot's number tag, with a label reading 何番地先.
+Caption (small text below):
+永久的な施設としてのさん橋の上に建物がある場合、最も近い土地の地番を用いて「何番地先」のように所在が記録される。
+
+--- CARD 4 ---
+Heading (bold):
+仮換地上の建物は、従前の地番ではなく仮換地の地番を用いて登記する
+Illustration: An isometric land-readjustment scene showing a new temporary replotted parcel labeled 仮換地 with a new house built on it, an arrow from the house pointing to the 仮換地 number tag, and a red X over the old 従前の土地 number tag.
+Caption (small text below):
+仮換地上に建物を新築した場合、表題登記の申請情報である建物の所在としては仮換地の地番を用いる。
+
+--- CARD 5 ---
+Heading (bold):
+2筆以上にまたがる建物は、床面積の多い部分（主たる部分）の地番を先に記録する
+Illustration: An isometric building spanning two land plots of unequal size, the larger-floor-area plot's number tag placed first in a record list, followed by the smaller plot's number tag second.
+Caption (small text below):
+2筆以上の土地にまたがる建物は、床面積の多い部分又は主である建物の所在する土地の地番を先に、他の土地の地番を後に記録する。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成25年度 午後の部 第10問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```
