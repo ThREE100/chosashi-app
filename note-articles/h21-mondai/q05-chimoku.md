@@ -81,3 +81,81 @@
 - 「畑・雑種地」はダメ、一筆に一つが原則なんです
 - 途中の地目、飛ばして直接変えていいって知ってた？
 - 仮換地に家を建てても、従前地は宅地にできないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, registry
+ledgers, magnifying glasses, torn paper labels, etc. — adapt icon set to
+the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 変 (as in 変更・地目の変更) appears
+in this infographic. Do not render it as the Simplified Chinese variant
+(变) — use the standard Japanese form 変 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「地目」は誰がどう決める？ — 現況主義の落とし穴
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第5問／地目
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 教授キャラクターと学生キャラクターが向き合って対話しているisometricなイラスト。二人の間に畑・雑種地・宅地などの土地アイコンが並び、「主観」の吹き出しには×マーク、「客観的な現況」を映す虫眼鏡アイコンには○マークを添える。
+地目は、土地の現況を公示するために表題部に記録される基本的な登記事項です。この問題では、「地目は何を表すのか」「誰がどう認定するのか」「現況が変わったときの登記のしかた」という、地目の基本原則がまとめて問われています。
+
+--- CARD 1 ---
+Heading (bold):
+地目は土地の「用途」の分類、表題部に記録される
+Illustration: 登記記録の紙面のisometricなイラスト。表題部の欄に「所在・地番・地積・地目」の4項目が並び、地目の欄「宅地」の部分を虫眼鏡で拡大して強調する。
+Caption (small text below):
+地目は用途による分類で、所在・地番・地積とともに表題部に記録される（不登法34条1項3号）
+
+--- CARD 2 ---
+Heading (bold):
+「宅地にしたい」という気持ちだけでは、地目は変わらない
+Illustration: 所有者キャラクターが頭の中で「宅地にしたい」と思い描く吹き出しに×マーク。実際に目の前に広がる畑のイラストには○マークを添え、登記官キャラクターが畑を見て地目を認定している様子を描く。
+Caption (small text below):
+地目は所有者の主観ではなく、客観的な現況・利用目的で登記官が認定（不登規則99条）
+
+--- CARD 3 ---
+Heading (bold):
+「畑・雑種地」はダメ、一筆に一つの地目が原則
+Illustration: 一枚の土地に資材置場（雑種地）と隅の小さな畑が描かれ、全体としては一つの地目ラベル「雑種地」がつけられているisometricなイラスト。「雑種地・畑」という二重ラベルには×マークを添える。
+Caption (small text below):
+一筆一地目が原則で、「畑・雑種地」のような複合地目は認められない
+
+--- CARD 4 ---
+Heading (bold):
+途中の地目は飛ばして、直接いまの地目に変更できる
+Illustration: 「山林→雑種地→宅地」という3段階の矢印のイラスト。中間の「雑種地」の部分に×マーク（スキップ）を重ね、山林から宅地へ直接向かう太い矢印を描く。
+Caption (small text below):
+現況主義により、中間の地目を経ず直接現在の地目へ変更登記できる
+
+--- CARD 5 ---
+Heading (bold):
+仮換地に家を建てても、従前地は宅地にできない
+Illustration: 区画整理のisometricなイラスト。従前の土地（空き地のまま）と仮換地（家が建っている）を並べて描き、利用権が仮換地に移ったことを矢印で示す。従前地の地目ラベルには変化がないことを示す×マークを添える。
+Caption (small text below):
+仮換地上に建物を建てても従前地の物理的現況は変わらず地目変更はできない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

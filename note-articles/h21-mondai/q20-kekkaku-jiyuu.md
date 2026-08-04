@@ -83,3 +83,80 @@
 - 破産しても、復権すればもう欠格じゃないんです
 - 公認会計士の登録抹消、欠格リストにないんです
 - 減給6か月は免職じゃない、資格は失わないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 権 (as in 復権) appears in this
+infographic. Do not render it as the Simplified Chinese variant (权) —
+use the standard Japanese form 権 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「資格なし」と言い切れるのは、たった一人
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第20問／土地家屋調査士法（調査士の欠格事由）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: isometricな5人の人物キャラクター（A・B・C・D・E）が横一列に並び、それぞれの頭上に「資格あり？なし？」の吹き出しと虫眼鏡アイコンが浮かぶイラスト。中央に「土地家屋調査士法5条」と書かれた法律書のアイコンを添える。
+この問題は、「土地家屋調査士となる資格を有しない（＝欠格事由に当たる）」という結論が、各人について正しいかどうかを問うものです。当時（平成21年）の土地家屋調査士法5条が定める欠格事由に当てはまるかを、一人ずつ確認していきましょう。日付の計算がポイントになる肢もあります。
+
+--- CARD 1 ---
+Heading (bold):
+ア：Ａは18歳6か月、当時の基準で未成年者なので資格なしは正しい
+Illustration: isometricな学生服姿の若者キャラクターＡの頭上に「18歳6か月」というラベルと、カレンダーアイコン（平成2年10月1日から平成21年4月1日への矢印）を配置。Ａの足元に「未成年者」のラベルと×マーク（資格なし）を重ねる。
+Caption (small text below):
+ア（正（資格なしは正しい））　18歳6か月で未成年者なので欠格事由に当たる
+
+--- CARD 2 ---
+Heading (bold):
+イ：Ｂは司法書士の業務禁止から3年経過、もう欠格ではない
+Illustration: isometricなスーツ姿のキャラクターＢの横で、カレンダーが4年分めくれる様子（平成17年4月1日から平成21年4月1日）を描く。「業務禁止処分」のラベルに薄いグレーの×マークを、「3年経過」のラベルに○マークを重ねる。
+Caption (small text below):
+イ（誤）　司法書士の業務禁止は欠格事由だが、処分から3年の期間が満了済み
+
+--- CARD 3 ---
+Heading (bold):
+ウ：Ｃは復権したので、もう欠格事由に当たらない
+Illustration: isometricなキャラクターＣが破産を示す割れた貯金箱アイコンの前に立ち、その後「復権」のスタンプが押された書類を受け取る様子を描く。復権後のＣの足元に○マークを添える。
+Caption (small text below):
+ウ（誤）　復権を得た以上は欠格事由に当たらず資格を有する
+
+--- CARD 4 ---
+Heading (bold):
+エ：Ｄの公認会計士登録抹消は、欠格リストに載っていない
+Illustration: isometricなキャラクターＤの前に「公認会計士登録抹消」のラベル付き書類を配置。土地家屋調査士法の欠格事由リストの巻物アイコンに、Ｄの処分が載っていないことを示す虫眼鏡と×マーク（該当なし）を添える。
+Caption (small text below):
+エ（誤）　公認会計士の登録抹消は調査士法の欠格事由に列挙されていない
+
+--- CARD 5 ---
+Heading (bold):
+オ：Ｅの減給6か月は懲戒免職ではない、資格は失われない
+Illustration: isometricな県庁職員風のキャラクターＥの給与明細アイコンに「減給6か月」のラベルを添える。隣に「懲戒免職」の文字に大きな×マークを重ね、Ｅの足元に○マーク（資格あり）を配置する。
+Caption (small text below):
+オ（誤）　減給処分は懲戒免職ではなく欠格事由に当たらない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

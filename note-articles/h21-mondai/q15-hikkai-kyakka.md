@@ -80,3 +80,80 @@
 - 表題登記のない道路と水路の境は、申請できないんです
 - 抵当権者は、筆界特定を申請できないんです
 - 一筆の一部を買った人も、申請はできるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 対 (as in 対象土地) appears in this
+infographic. Do not render it as the Simplified Chinese variant (对) —
+use the standard Japanese form 対 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定の分かれ目 — 申請できる？できない？
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第15問／不動産登記法（筆界特定申請の却下）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: isometricな筆界特定の窓口に、所有者・抵当権者・裁判係争中の人など複数のキャラクターが申請書を手に並んでいるイラスト。中央に丸（○）と×の仕分けアイコンを配置する。
+筆界特定制度の分野からの出題です。「誰が申請できるのか（申請権者）」「どんな土地が対象になるのか」「他の手続との関係でどうなるのか」を押さえると、却下されるものとされないものを正確に切り分けられます。
+
+--- CARD 1 ---
+Heading (bold):
+隣の土地が管轄外でも、申請はできる
+Illustration: 対象土地とその隣接地が県境をまたいで描かれた地図のイラスト。二つの法務局アイコンを両側に配置し、間に丸（○）マークと「管轄外でも却下事由でない」というラベルを添える。
+Caption (small text below):
+接する土地の所在が管轄外でも却下事由にあたらない
+
+--- CARD 2 ---
+Heading (bold):
+裁判で係争中でも、申請できる
+Illustration: 裁判所のisometricなアイコンと筆界特定申請書のアイコンが、それぞれ並行に進む二本の矢印として描かれるイラスト。丸（○）マークと「並行可能」というラベルを添える。
+Caption (small text below):
+裁判で係争中でも筆界特定の申請は却下されない
+
+--- CARD 3 ---
+Heading (bold):
+表題登記のない道路と水路の境は、却下される
+Illustration: 表題登記のない道路と水路が隣り合うイラスト。両方に「未登記」というラベルを付け、境目に赤い×マークと「筆界を観念できず却下」というラベルを添える。
+Caption (small text below):
+双方とも表題登記がある一筆の土地に当たらず、筆界を観念できず却下（法123条1号）
+
+--- CARD 4 ---
+Heading (bold):
+抵当権者は、申請権者にあたらない
+Illustration: 金融機関を表すキャラクター（抵当権者）が窓口で申請書を差し出そうとするイラスト。赤い×マークと「申請権者に含まれず却下」というラベルを重ねる。
+Caption (small text below):
+抵当権者は申請権者に含まれず却下（不登法131条）
+
+--- CARD 5 ---
+Heading (bold):
+一筆の一部を買った人も、申請できる
+Illustration: 一筆の土地の一部を購入したキャラクターが、取得した部分以外の側の筆界について申請書を提出するイラスト。丸（○）マークと「却下されない」というラベルを添える。
+Caption (small text below):
+一筆の一部を取得した者の申請も却下されない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

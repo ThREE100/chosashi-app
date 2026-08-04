@@ -82,3 +82,80 @@
 - シャッターなしの車庫でも、三方が壁なら床面積なんです
 - 各階に止まるエレベータ、一階だけじゃないんです
 - 手すり付きの外階段、実は床面積に入らないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 積 (as in 床面積・面積) appears
+repeatedly in this infographic. Do not render it as the Simplified Chinese
+variant (积) — use the standard Japanese form 積 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その部分、床面積に入る？入らない？
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第17問／不動産登記法（建物の床面積の定め方）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: isometricな建物の断面図の中に、積卸場・階段室・駐車スペース・エレベータ・屋外階段という5つのパーツが浮かび上がり、それぞれに○や×のチェックマークが浮かぶイラスト。中央に定規と虫眼鏡のアイコンを添える。
+建物の床面積は、各階ごとに壁その他の区画の中心線で囲まれた部分の水平投影面積によって算定します（不動産登記規則115条）。もっとも、実務では「その部分に外気分断性・用途性・定着性があるか」という視点で、算入するか否かが細かく決まっています。ここでは典型的な出題パターンを一つずつ当てはめていきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+ア：上屋がある積卸場は、屋根の下の部分を床面積に算入する
+Illustration: isometricな屋根付きの積卸場（トラックが荷物を積み下ろす場所）のイラスト。屋根の下の床面に緑色のハイライトと○マークを重ね、「床面積に算入」というラベルを添える。
+Caption (small text below):
+ア（正）　上屋のある積卸場は上屋下部の面積を床面積に算入
+
+--- CARD 2 ---
+Heading (bold):
+イ：出入口専用の屋上階段室は、床面積に算入しない
+Illustration: ビル屋上のisometricな小さな階段室（塔屋）のイラスト。周囲を壁で囲まれているが、階段室全体に×マークと「不算入」のラベルを重ねる。
+Caption (small text below):
+イ（誤）　出入口専用の屋上階段室は外気分断性があっても不算入
+
+--- CARD 3 ---
+Heading (bold):
+ウ：三方を壁で囲まれた駐車スペースは、シャッターがなくても算入する
+Illustration: isometricな木造住宅の1階部分、コの字型に壁で囲まれた駐車スペース（車のアイコン）のイラスト。前面が開放されているが、床部分に緑のハイライトと○マークを添える。
+Caption (small text below):
+ウ（正）　3方向が壁の駐車スペースは常時開放でも算入
+
+--- CARD 4 ---
+Heading (bold):
+エ：各階に止まるエレベータ室は、各階で床面積に算入する
+Illustration: 5階建てのisometricなビルの断面イラスト。各階にエレベータの扉アイコンが並び、それぞれの階のエレベータ室部分に緑のハイライトと○マークを付ける。1階だけに×マークを重ねて誤りの主張を示す。
+Caption (small text below):
+エ（誤）　各階に止まるエレベータ室は各階で算入（１階のみは誤り）
+
+--- CARD 5 ---
+Heading (bold):
+オ：手すり付きの屋外階段は、床面積に算入しない
+Illustration: isometricなアパートの外側に取り付けられた鉄骨の外階段（手すり付き）のイラスト。階段全体に×マークと「不算入」のラベルを重ねる。
+Caption (small text below):
+オ（誤）　屋外階段は手すりが付いていても不算入
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

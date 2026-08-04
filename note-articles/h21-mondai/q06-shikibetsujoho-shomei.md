@@ -81,3 +81,80 @@
 - 「有効・未通知・失効」の3つが証明できるんです
 - 引っ越して住所が違っても、証明は取れるんです
 - 調査士は職印証明で委任状いらず、なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 証 (as in 証明・保証) appears in
+this infographic. Do not render it as the Simplified Chinese variant (证) —
+use the standard Japanese form 証 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+登記識別情報の証明 — 請求できるのは誰？
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第6問／不動産登記法（登記識別情報に関する証明）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 登記名義人キャラクターが登記識別情報のカード（isometricなIDカード風アイコン）を大事に持ち、その隣で利害関係人キャラクターが手を伸ばすが大きな×マークで止められているイラスト。中央に虫眼鏡のアイコンを配置する。
+登記識別情報に関する証明とは、ある登記識別情報が有効なものかどうか、あるいは通知されていない・失効しているといった状態を、登記官が証明してくれる手続きです。誰が請求できるのか、どんな方法で請求できるのか、何について証明を求められるのかを、一つずつ確認していきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+証明を請求できるのは登記名義人だけ
+Illustration: 登記名義人キャラクターがIDカード（登記識別情報カード）を手に窓口へ向かうイラスト。横で利害関係人キャラクターが同じ窓口に近づこうとするが、大きな×マークと「利害関係人は請求不可」というラベルで止められている。
+Caption (small text below):
+請求できるのは登記名義人（と一般承継人）で、利害関係人は請求できない
+
+--- CARD 2 ---
+Heading (bold):
+オンラインでも証明を請求できる
+Illustration: パソコンとオンライン申請画面のisometricアイコンを操作する調査士キャラクター。画面から登記識別情報の証明書アイコンが発行される様子を描き、従来の窓口アイコンと並べて○マークを添える。
+Caption (small text below):
+電子情報処理組織（オンライン）を使用して請求することができる
+
+--- CARD 3 ---
+Heading (bold):
+「有効・未通知・失効」の3つが証明できる
+Illustration: 「有効」「未通知」「失効」とラベルされた3枚のisometricなスタンプカードが横に並ぶイラスト。中央のカードに緑のチェックマークを添える。
+Caption (small text below):
+有効・未通知・失効のいずれについても証明を請求できる
+
+--- CARD 4 ---
+Heading (bold):
+住所が違っても、変更証明を添えれば請求できる
+Illustration: 引っ越しの段ボール箱アイコンを持つキャラクターが、住民票（住所変更証明情報）のisometricな書類アイコンを窓口の登記官キャラクターに手渡す様子。書類に○マークを添える。
+Caption (small text below):
+住所が合致しない場合は、住所変更を証する情報を提供して請求できる
+
+--- CARD 5 ---
+Heading (bold):
+調査士は職印証明で委任状いらず
+Illustration: 土地家屋調査士キャラクターが職印証明書のisometricなスタンプ入り書類を掲げ、その横で委任状の書類アイコンに大きな×マークをつけて省略できることを示すイラスト。
+Caption (small text below):
+調査士は職印に関する証明情報の提供により、代理権限証書なしで請求できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

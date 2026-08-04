@@ -80,3 +80,80 @@
 - 不正登記防止の申出、郵送じゃダメなんです
 - 本人確認が調べるのは「本人かどうか」なんです
 - 電話で確認できれば、出頭はいらないって知ってた？
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 確 (as in 本人確認調査) appears in
+this infographic. Do not render it as the Simplified Chinese variant (确) —
+use the standard Japanese form 確 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+本人確認調査の分かれ目 — 義務か裁量か
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第14問／不動産登記法（登記官による本人確認調査）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: isometricな登記官キャラクターが虫眼鏡を手に申請書類を審査するイラスト。頭上に「義務？」「裁量？」という2つの吹き出しを浮かべる。
+登記官による本人確認調査（不動産登記法24条）の分野からの出題です。「義務なのか裁量なのか」「不正登記防止の申出はどうやってするのか」といった手続の骨格を押さえると、正確に判断できます。
+
+--- CARD 1 ---
+Heading (bold):
+住所変更くらいでは、調査義務は生じない
+Illustration: 合筆の登記の申請書アイコンの横に「3か月以内の住所変更登記」というラベル付きの書類を並べたイラスト。両者をつなぐ矢印に赤い×マークと「相当な理由なし」というラベルを添える。
+Caption (small text below):
+住所変更の事実だけでは「疑うに足りる相当な理由」に当たらず調査義務は生じない
+
+--- CARD 2 ---
+Heading (bold):
+資格者代理人には、まず情報提供を求める
+Illustration: 登記官キャラクターが土地家屋調査士キャラクターに向かって「情報をください」と話しかけるイラスト。奥に薄く描かれた申請人本人のアイコンへ向かう矢印は点線にして「後回し」を示す。
+Caption (small text below):
+資格者代理人による申請では、まず代理人に情報提供を求める
+
+--- CARD 3 ---
+Heading (bold):
+不正登記防止の申出は、出頭が必要
+Illustration: 申出人キャラクターが登記所の窓口に直接出向いて申出書を手渡すイラストの横に、郵便ポストのアイコンに赤い×マークを重ねて「送付不可」というラベルを添える。
+Caption (small text below):
+不正登記防止の申出は出頭してするもので、送付ではできない
+
+--- CARD 4 ---
+Heading (bold):
+確認するのは「本人かどうか」という申請権限
+Illustration: 申請人キャラクターの顔と身分証アイコンを虫眼鏡で照合する登記官のイラスト。「申請権限の有無」というラベルを添える。
+Caption (small text below):
+本人確認調査の対象は申請の権限（本人であること）の有無
+
+--- CARD 5 ---
+Heading (bold):
+電話で確認できれば、出頭はいらない
+Illustration: 遠方に住む申請人キャラクターが電話で登記官キャラクターと話しているイラスト。登記所の建物へ向かう矢印に赤い×マークを重ねて「出頭不要」というラベルを添える。
+Caption (small text below):
+電話等で本人と確認できれば、出頭を求める必要はない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

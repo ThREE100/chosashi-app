@@ -80,3 +80,80 @@
 - 石油タンクが建物にならない理由、知ってた？
 - 機械の上に載ってるだけじゃ、建物とは言えないんです
 - 球場の屋根付き観覧席は、実は登記できる建物なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric greenhouses, storage
+containers, tanks, stadium stands, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 庫 (as in 倉庫) appears in this
+infographic. Do not render it as the Simplified Chinese variant (库) —
+use the standard Japanese form 庫 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+これは「建物」になる？ならない？
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第4問／建物の認定
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 3つのisometricなアイコン（杭＝定着性、屋根と壁＝外気分断性、中にいる人物＝用途性）が横一列に並び、その下にビニール温室・コンテナ・石油タンク・機械上の建造物・観覧席の小さなアイコンが判定を待つように並ぶイラスト。
+建物として登記できるかどうかは、「定着性（土地に永続的に固着しているか）」「外気分断性（屋根と三方以上の壁で外気を遮っているか）」「用途性（人や物がとどまって使える目的があるか）」の3つの要件で判断します。
+
+--- CARD 1 ---
+Heading (bold):
+1年で朽ちるビニール温室は、建物になれない
+Illustration: 骨組みにビニールを張った簡易温室のisometricなイラスト。風でビニールが破れかけている様子を描き、「定着性なし」のラベルと大きな×マークを添える。
+Caption (small text below):
+耐用年数1年程度のビニール温室は定着性（永続性）を欠く
+
+--- CARD 2 ---
+Heading (bold):
+基礎で固定したコンテナ倉庫は、立派な建物
+Illustration: 更地にコンクリートの基礎を打ち、その上にコンテナがしっかり据え付けられ「貸倉庫」の看板がかかるisometricなイラスト。荷物を運び入れる人物キャラクターと○マークを添える。
+Caption (small text below):
+基礎工事で定着したコンテナ倉庫は3要件を満たし登記できる
+
+--- CARD 3 ---
+Heading (bold):
+石油タンクは、建物にならない
+Illustration: 港に並ぶ円筒形の石油タンクのisometricなイラスト。断面図で中が液体で満たされ、人が出入りできないことを示す。「用途性なし」のラベルと×マークを添える。
+Caption (small text below):
+石油タンクは用途性（人貨滞留性）を欠き建物にならない
+
+--- CARD 4 ---
+Heading (bold):
+機械の上に載っているだけでは、建物と言えない
+Illustration: 大きな機械の上に操作室のような小屋が乗っているisometricなイラスト。小屋の足元から地面までを点線で結び「定着なし」のラベルと×マークを添える。
+Caption (small text below):
+機械上の建造物は地上への直接定着がなく定着性を欠く
+
+--- CARD 5 ---
+Heading (bold):
+屋根付き観覧席は、実は登記できる建物
+Illustration: 野球場のスタンドのisometricなイラスト。屋根のある区画には○マーク、屋根のない区画には×マークを対比させて描き、観客キャラクターが屋根の下で観戦している様子を添える。
+Caption (small text below):
+屋根を有する観覧席部分は外気分断性・定着性・用途性を満たす
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

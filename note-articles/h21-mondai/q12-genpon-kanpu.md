@@ -80,3 +80,80 @@
 - 登記識別情報通知書は、原本還付できないって知ってた？
 - 印鑑証明書は、原本を返してもらえるんです
 - 筆界特定の添付書面も、ちゃんと返してもらえるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 権 (as in 権利の登記名義人) appears
+in this infographic. Do not render it as the Simplified Chinese variant
+(权) — use the standard Japanese form 権 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+原本還付の分かれ目 — 返る書面・返らない書面
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第12問／不動産登記法（添付書面の原本還付）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: isometricな申請書類の束から、いくつかの書面が矢印に沿って「還付済み」の受け皿へ戻り、いくつかは「還付不可」のスタンプが押された金庫箱に残るイラスト。中央に虫眼鏡のアイコンを添える。
+添付書面の原本還付に関する分野です。原則は「添付書面の原本は還付を請求できる」であり、例外として「還付を請求できない書面」が定められています。この問題は「誤っているもの（＝実際は還付できるのに『できない』と述べているもの、又はその逆）の組合せ」を選ぶ点に注意しましょう。
+
+--- CARD 1 ---
+Heading (bold):
+更正についての承諾書は、申請専用書面で返らない
+Illustration: 表題部所有者の更正登記のために作られた承諾書に「この申請のみ」というラベルが貼られ、その書類が「還付不可」と書かれた金庫のような箱に収められていくイラスト。
+Caption (small text below):
+更正についての承諾書は申請専用書面で原本還付できない（規則55条1項ただし書）
+
+--- CARD 2 ---
+Heading (bold):
+合体の承諾書も、原本は戻ってこない
+Illustration: 二棟の建物がひとつに合体していくイラストの傍らで、抵当権者キャラクターが差し出した承諾書に「還付不可」のスタンプが押されるイラスト。
+Caption (small text below):
+合体についての承諾書も申請専用書面で原本還付できない（規則55条1項ただし書）
+
+--- CARD 3 ---
+Heading (bold):
+登記識別情報通知書は、原本還付の対象外
+Illustration: 封筒型の登記識別情報通知書アイコンが窓口カウンターに提出され、その上に「還付不可」の判が押されるイラスト。
+Caption (small text below):
+登記識別情報通知書は原本還付の対象外
+
+--- CARD 4 ---
+Heading (bold):
+工事完了引渡証明書に添えた印鑑証明書は、返してもらえる
+Illustration: 建設会社代表者の印鑑証明書が「一般書面」というラベル付きの受け皿に置かれ、丸（○）マークとともに申請者の手元へ戻っていくイラスト。
+Caption (small text below):
+印鑑証明書は一般的書面で、原本の還付を請求できる
+
+--- CARD 5 ---
+Heading (bold):
+筆界特定の添付書面も、ちゃんと返してもらえる
+Illustration: 筆界特定申請の書類束（測量図・登記事項証明書のアイコン）が丸（○）マークとともに申請人の手元に返却されていくイラスト。
+Caption (small text below):
+筆界特定の申請添付書面も、原則として原本の還付を請求できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

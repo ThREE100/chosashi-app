@@ -80,3 +80,80 @@
 - 約束を破られても、遺産分割は解除できないって知ってた？
 - 一度放棄したら、全員が頼んでも話し合いに戻れないんです
 - 「相続させる」の遺言、原則あとから分け直せないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric family figures, land
+plots, contract papers, scales, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 続 (as in 相続・相続人) appears in
+this infographic. Do not render it as the Simplified Chinese variant (续) —
+use the standard Japanese form 続 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+遺産分割の「やり直し」と「解除」— 合意はOK、不履行はNG
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第3問／遺産分割
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 相続人となる兄弟キャラクターたちが円卓を囲んで話し合うisometricなイラスト。中央に天秤を配置し、片方に「全員の合意」のラベル、もう片方に「一人の不履行」のラベルを乗せ、結論が逆向きの矢印で示される。
+遺産分割は、「全員の合意」ならどこまでできるのか、逆に「一人の債務不履行」を理由にどこまでできるのか、その線引きが判例で細かく決まっています。似たような場面でも結論が真逆になります。
+
+--- CARD 1 ---
+Heading (bold):
+全員が合意すれば、遺産分割はやり直せる
+Illustration: 兄弟3人のキャラクターが、一度まとめた分割協議書を丸めて捨て、新しい協議書に全員でサインし直しているイラスト。○マークを添える。
+Caption (small text below):
+全員の合意があれば分割協議を解除・再協議できる
+
+--- CARD 2 ---
+Heading (bold):
+多くもらっても、登記がないと第三者に負ける
+Illustration: 法定相続分を超える土地を得た相続人キャラクターが登記をせず放置している間に、別の相続人が自分の持分を第三者に売り渡して登記まで済ませてしまうイラスト。超過部分に×マークを重ねる。
+Caption (small text below):
+分割後の第三者には登記がなければ超過部分を対抗できない
+
+--- CARD 3 ---
+Heading (bold):
+約束を破られても、遺産分割協議は解除できない
+Illustration: 「土地をもらう代わりに現金を渡す」という契約書のイラスト。現金を渡さない相続人キャラクターの前で、他の相続人が「協議を解除する」と言おうとする吹き出しに大きな×マークを重ねる。
+Caption (small text below):
+遺産分割協議は債務不履行を理由に法定解除できない
+
+--- CARD 4 ---
+Heading (bold):
+相続放棄をした人は、全員が頼んでも話し合いに戻れない
+Illustration: 相続放棄の書類にサインした人物キャラクターが輪の外に立ち、他の相続人たちが「戻ってきて」と手を伸ばしても輪に入れずにいるイラスト。人物の足元に×マークを添える。
+Caption (small text below):
+相続放棄者は全員同意があっても分割協議の当事者になれない
+
+--- CARD 5 ---
+Heading (bold):
+「相続させる」の遺言、原則あとから分け直せない
+Illustration: 「甲不動産は相続人Cに相続させる」と書かれた遺言書のイラスト。家の鍵アイコンが死亡と同時にCへ直接渡る矢印を描き、他の相続人が家を欲しがって分け直そうとする矢印には×マークを重ねる。
+Caption (small text below):
+「相続させる」旨の遺言の対象財産は原則分割の対象外
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

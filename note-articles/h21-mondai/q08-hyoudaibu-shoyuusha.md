@@ -81,3 +81,80 @@ A・B・Cの持分（Aが10分の5、Bが10分の3、Cが10分の2）のうち�
 - 持分の更正、損する人だけが承諾すればいいんです
 - 社名が変わっただけなら、すぐ表示変更できるんです
 - 相続は「変更」じゃなくて保存登記なんだって知ってた？
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 権 (as in 所有権) appears in this
+infographic. Do not render it as the Simplified Chinese variant (权) —
+use the standard Japanese form 権 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表題部所有者の更正・変更、どこまでできる？
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第8問／不動産登記法（表題部所有者の登記）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 表題部の記録用紙（isometricな書類アイコン）の上に人物アイコンの名前が書かれ、「更正」と「変更」という2つの矢印付きラベルが左右に分かれて描かれるイラスト。
+表題部所有者は、まだ所有権の登記（保存登記）がされていない不動産について、その所有者として表題部に記録される者です。この問題では、その記録を「更正」する場合と「変更」する場合とで、誰がどんな情報を添えて申請できるのかが問われています。更正（もともと誤っていたのを直す）と変更（後から事情が変わった）の区別を意識して読み進めましょう。
+
+--- CARD 1 ---
+Heading (bold):
+別人への更正はAの単独申請ではできない
+Illustration: 表題部所有者Aのキャラクターが記録用紙を単独で書き換えようとしているが大きな×マークで止められ、隣に真の所有者Bのキャラクターが所有権証明書のisometricな書類を持って立っているイラスト。
+Caption (small text below):
+表題部所有者を別人Bとする更正は、Aの単独申請では認められない
+
+--- CARD 2 ---
+Heading (bold):
+新たに加わるBは所有権を証明する
+Illustration: 「A」とだけ書かれた記録用紙に「B」の名前を書き加えるイラスト。Bキャラクターが所有権を証する情報の書類アイコンを差し出し、○マークがつく。
+Caption (small text below):
+AからA及びBへの更正には、Bの所有権を証する情報の提供を要する
+
+--- CARD 3 ---
+Heading (bold):
+承諾がいるのは持分の減る人だけ
+Illustration: A・B・Cの3人の持分を表す円グラフ風isometricアイコン。持分が減るBのキャラクターに「承諾必要」のラベル、持分が変わらないAのキャラクターに「承諾不要」のラベルと×マークをつける。
+Caption (small text below):
+承諾が必要なのは持分の減るBのみで、持分の変わらないAの承諾は不要
+
+--- CARD 4 ---
+Heading (bold):
+社名が変わっただけならすぐ表示変更できる
+Illustration: 「株式会社A」の看板が「B株式会社」に架け替えられるisometricなビルのイラスト。同じ建物のまま看板だけが交換され、○マークと「同一法人」というラベルを添える。
+Caption (small text below):
+商号変更による同一法人の名称変更は、直ちに表示変更の登記を申請できる
+
+--- CARD 5 ---
+Heading (bold):
+相続は「変更」ではなく保存登記でする
+Illustration: 表題部所有者A・Bのキャラクターのうち、Aに「相続」というラベル付き矢印が伸び、B単独への「表題部変更登記」という矢印に×マークをつけ、代わりに「所有権保存登記」という書類アイコンに○マークをつける。
+Caption (small text below):
+相続は表題部所有者の変更登記ではなく、相続人名義の所有権保存登記による
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -75,3 +75,80 @@
 - 「市町村役場に保管」はひっかけなんです
 - 公図は、正確な「方位」までは表さないんです
 - いまの公図は「地図に準ずる図面」なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 図 (as in 公図・地図・改租図) appears
+repeatedly in this infographic. Do not render it as the Simplified Chinese
+variant (图) — use the standard Japanese form 図 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+公図の"生い立ち" — 史実とズレているのはどこ？
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第16問／不動産登記法（登記所備付図面の沿革）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 明治の測量士・税務署の建物・法務局の建物という3つの時代を横一列に並べたisometricなタイムラインイラスト。矢印でつながれ、それぞれに「地租改正」「税務署保管」「地図に準ずる図面」のラベルタグを配置する。中央に虫眼鏡のアイコンを添える。
+いわゆる「公図」の歴史をたどる文章の穴埋め問題です。地租改正から現行の不動産登記法までの流れの中で、語句が史実や条文と合っているかを一つずつ確かめていきます。文章全体を丸暗記するのではなく、「保管場所はどこだったか」「地図に準ずる図面が表示するのは何か」といった急所を押さえるのがコツです。
+
+--- CARD 1 ---
+Heading (bold):
+①地租改正は、明治初期の税制改革として正しい
+Illustration: 明治時代のisometricな農民キャラクターが土地の前に立ち、政府の役人キャラクターが測量ポールを持って土地を測る様子。背景に「地租改正」と書かれた木製の看板と、地券を象徴する巻物アイコンを配置し、○マークを添える。
+Caption (small text below):
+①地租改正（正）　明治初期の税制改革の名称として正しい
+
+--- CARD 2 ---
+Heading (bold):
+②改租図は、地租改正に伴い作成された図の呼称
+Illustration: isometricな職人キャラクターが古い巻物状の地図（改租図）を描いているイラスト。地図の上に村の区画線が描かれ、「改租図」というラベルの紙タグを添付し、○マークを添える。
+Caption (small text below):
+②改租図（正）　地租改正に伴い作成された図の呼称として通用（本解説では正として扱う）
+
+--- CARD 3 ---
+Heading (bold):
+③保管されていたのは「市町村役場」ではなく「税務署」
+Illustration: isometricな税務署の建物アイコンに図面の束が保管されている様子と、隣に市町村役場の建物アイコンを描き、市町村役場側に大きな×マークを重ね、矢印で「税務署が正しい」というラベルを添える。
+Caption (small text below):
+③市町村役場（誤）　移管前の保管場所は「税務署」。市町村役場ではない
+
+--- CARD 4 ---
+Heading (bold):
+④公図が表示するのは「位置・形状・地番」で、「方位」は含まれない
+Illustration: isometricな公図（区画の入った地図）のイラストに、位置・形状・地番を示すピン・多角形・番号札のアイコンを○で囲み、方位磁石のアイコンに大きな×マークを重ねる。
+Caption (small text below):
+④「土地の位置、方位、形状及び地番」（誤）　条文（不登法14条5項）の表示事項は「位置・形状・地番」で、方位は含まれない
+
+--- CARD 5 ---
+Heading (bold):
+⑤いまの公図は「地図に準ずる図面」として法律上の根拠を持つ
+Illustration: 法務局のisometricな建物の前で、係員キャラクターが「地図に準ずる図面」と書かれた紙タグ付きの図面を来訪者キャラクターに手渡す様子。背景に不動産登記法の条文を象徴する本のアイコンを配置し、○マークを添える。
+Caption (small text below):
+⑤地図に準ずる図面（正）　平成5年改正で法的根拠を得た呼称（不登法14条4項）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

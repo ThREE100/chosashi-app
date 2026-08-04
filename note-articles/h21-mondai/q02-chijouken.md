@@ -80,3 +80,80 @@
 - 地上権は物権だから、地主の許可なしで譲れるんです
 - 地上権の地代、約束がなければ払わなくていいんです
 - 2年ため込むと、地上権は消滅させられちゃうんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, contracts, coin stacks, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 権 (as in 地上権・抵当権) appears in
+this infographic. Do not render it as the Simplified Chinese variant (权) —
+use the standard Japanese form 権 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地上権は「物権」— 賃貸借とはここが違う
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第2問／地上権
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 土地の上に建つisometricな倉庫のイラストと、それを支える鎖のような「物権」アイコン。傍らに天秤を配置し、片方に「地上権（物権）」、もう片方に「賃借権（債権）」のラベルを乗せて対比させる。
+地上権は、他人の土地に工作物や竹木を所有するための「物権」です。ポイントは、賃借権のような債権とは異なり、土地の持ち主の意向に左右されにくい強い権利であること、そして地代の支払は当然の要素ではないことです。
+
+--- CARD 1 ---
+Heading (bold):
+工作物が滅失しても、地上権は消えない
+Illustration: 火事で焼けた倉庫のisometricなイラスト。土地の上には「地上権」のラベルがそのまま残り、Aキャラクターが同じ場所に新しい倉庫を建て直している様子を描く。「地上権消滅」の文字には×マークを重ねる。
+Caption (small text below):
+工作物が滅失しても地上権は消滅しない（土地利用権として存続）
+
+--- CARD 2 ---
+Heading (bold):
+時効取得には「使う意思」が外から見えることが必要
+Illustration: 他人の土地に建物を建てて住み続け、地代の袋を渡し続ける人物キャラクターのイラスト。頭上に「これは地上権を使っているのだ」という吹き出しアイコンを描き、隣に立つ単なる通行人のシルエットには×マークをつける。
+Caption (small text below):
+時効取得には外形的事実＋地上権行使意思の客観的表現が必要
+
+--- CARD 3 ---
+Heading (bold):
+地上権者は、地主の許可なく譲渡・抵当権設定ができる
+Illustration: 地上権者キャラクターが権利証書を第三者へ手渡すイラストと、同じ証書を担保に銀行から融資を受けるイラストを並べる。土地所有者キャラクターの頭上に「許可不要」のラベルを添える。
+Caption (small text below):
+物権なので所有者の承諾なく譲渡・抵当権設定ができる
+
+--- CARD 4 ---
+Heading (bold):
+約束がなければ、地代は払わなくてよい
+Illustration: 無償の地上権契約書のイラスト。地代の欄が空欄のまま描かれ、地上権者キャラクターの頭上に「請求されない」という吹き出しを添える。傍らの裁判所アイコンには「地代を定める制度なし」のラベルと×マークを重ねる。
+Caption (small text below):
+特段の定めがなければ地代支払義務は生じず、裁判所が定める制度もない
+
+--- CARD 5 ---
+Heading (bold):
+2年ため込むと、地上権は消滅を請求される
+Illustration: カレンダーで2年間の経過を示すイラスト。未払いの請求書が積み重なっていく様子を描き、土地所有者キャラクターが最後に「消滅請求」のスタンプを押す。
+Caption (small text below):
+2年以上の地代滞納で所有者は地上権消滅を請求できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -80,3 +80,80 @@
 - 調査士の職印証明書は、作成後3月以内じゃなきゃダメなんです
 - 抵当権放棄証書の印鑑証明書も、3月以内はいらないって知ってた？
 - 法定代理人の戸籍謄本だけは、3月以内が必要なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 証 (as in 印鑑証明書) appears in
+this infographic. Do not render it as the Simplified Chinese variant (证) —
+use the standard Japanese form 証 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+同じ印鑑証明書でも「3月以内」とは限らない
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第9問／不動産登記法（添付情報の作成後3月以内要件）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: カレンダーのisometricアイコンと、住民票・印鑑証明書・戸籍謄本などの書類アイコンが複数並び、一部の書類にだけ「3月」というラベル付きの砂時計アイコンが添えられているイラスト。
+添付情報の「作成後3月以内」要件を問う分野です。ポイントは、同じ「印鑑証明書」でも、申請人自身の委任状に押した印を証明するものと、他人が作成した書面の真正を担保するために添えるものとで、3月以内の縛りがかかるかどうかが分かれる点にあります。
+
+--- CARD 1 ---
+Heading (bold):
+表題登記の住民票に3月以内の縛りはない
+Illustration: 表題部所有者キャラクターが住民票のisometricな書類アイコンを窓口に提出するイラスト。書類の横に砂時計ではなく○マークと「期限なし」というラベルを添える。
+Caption (small text below):
+表題登記の住所証明情報(住民票)に3月以内の定めはない
+
+--- CARD 2 ---
+Heading (bold):
+他人の証明書に添える印鑑証明書は古くてもいい
+Illustration: 工事施工会社の代表者キャラクターが工事完了引渡証明書と印鑑証明書のisometricな書類を差し出すイラスト。印鑑証明書に「期限なし」というラベルと○マークをつける。
+Caption (small text below):
+所有権証明書の真正担保のための印鑑証明書は3月以内の対象外
+
+--- CARD 3 ---
+Heading (bold):
+調査士の職印証明書は作成後3月以内
+Illustration: 土地家屋調査士キャラクターが本人確認情報の書類と職印証明書を提出するイラスト。職印証明書に大きな「3月」というラベル付きの砂時計アイコンを添える。
+Caption (small text below):
+本人確認情報に添える調査士の職印証明書は作成後3月以内
+
+--- CARD 4 ---
+Heading (bold):
+抵当権放棄証書の印鑑証明書も3月以内はいらない
+Illustration: 会社である抵当権者の代表者キャラクターが抵当権放棄証書と印鑑証明書のisometricな書類を提出するイラスト。印鑑証明書に○マークと「期限なし」というラベルを添える。
+Caption (small text below):
+抵当権放棄証書の真正担保のための印鑑証明書は3月以内の対象外
+
+--- CARD 5 ---
+Heading (bold):
+法定代理人の戸籍謄本だけは3月以内が必要
+Illustration: 親権者キャラクターが子どもに代わって地目変更登記を申請する様子。戸籍謄本のisometricな書類アイコンに「3月」というラベル付きの砂時計アイコンを添える。
+Caption (small text below):
+法定代理人の権限を証する戸籍謄本は作成後3月以内
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

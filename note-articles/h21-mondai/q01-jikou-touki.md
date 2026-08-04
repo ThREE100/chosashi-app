@@ -80,3 +80,80 @@
 - 元の持ち主が相手なら、登記いらずで主張できるって知ってた？
 - 時効のスタート地点、自分で選び直せないんです
 - 善意無過失でも、20年時効はちゃんと使えるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, timelines,
+registration stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 対 (as in 対抗・対抗要件) appears in
+this infographic. Do not render it as the Simplified Chinese variant (对) —
+use the standard Japanese form 対 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+時効取得と登記 — 「完成前」と「完成後」で結論が変わる
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第1問／取得時効と登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 占有開始日から時効完成日までを示すisometricなタイムラインのイラスト。タイムラインの左右に土地のアイコンが並び、時効完成日を示すカレンダーの旗を中央に立てる。中央に虫眼鏡のアイコンを配置する。
+取得時効と登記は、判例の理解が結論を左右する頻出テーマです。この事例ではAが平成2年1月1日に善意・無過失で占有を開始しているので、10年の取得時効は平成12年1月1日に完成します。この「完成日」を基準に、第三者が登場したのが完成の前なのか後なのか、そして相手が第三者なのか元所有者なのかで、登記が必要かどうかがきれいに切り替わります。
+
+--- CARD 1 ---
+Heading (bold):
+完成前の第三者には、登記なしで対抗できる
+Illustration: タイムラインの「時効完成日」より左側に、親キャラクターから子キャラクターへ土地の名義がそのまま引き継がれるisometricなイラスト。占有を続けるAキャラクターの頭上に○マークと「登記なしで主張できる」というラベルを添える。
+Caption (small text below):
+時効完成前の第三者には登記なくして対抗できる（当事者類似の関係）
+
+--- CARD 2 ---
+Heading (bold):
+完成後の第三者とは、登記の早い者勝ち
+Illustration: タイムラインの「時効完成日」より右側で、AキャラクターとCキャラクターが同じ土地をめぐって向き合うイラスト。中央に登記の旗を先に立てた方に○マーク、遅れた方に×マークをつける。
+Caption (small text below):
+時効完成後の第三者とは対抗関係に立ち、登記が必要（民法177条）
+
+--- CARD 3 ---
+Heading (bold):
+元の所有者には、登記がなくても主張できる
+Illustration: AキャラクターとB（元の所有者）キャラクターが正面から向き合うイラスト。Aの頭上に「時効で自分のものです」という吹き出しと○マーク、二人の間には対抗関係ではなく当事者関係を示す太い矢印を描く。
+Caption (small text below):
+元所有者Bは当事者であり、登記なくして時効取得を主張できる
+
+--- CARD 4 ---
+Heading (bold):
+時効のスタート地点は、あとから選び直せない
+Illustration: マラソンのスタートラインのisometricなイラスト。Aキャラクターが実際に走り始めた地点（占有開始日）にピンが立ち、後から都合の良い地点へ移動しようとする矢印に大きな×マークを重ねる。
+Caption (small text below):
+起算点は占有開始時に固定され、任意にずらせない（最判昭35.7.27）
+
+--- CARD 5 ---
+Heading (bold):
+善意無過失でも、20年の時効を使ってよい
+Illustration: 切符売り場のイラスト。「10年（特急）」と「20年（各駅停車）」という2枚の切符が並び、Aキャラクターがどちらの切符も選べることを示す○マークを両方に添える。
+Caption (small text below):
+善意無過失でも20年の取得時効を重ねて主張できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

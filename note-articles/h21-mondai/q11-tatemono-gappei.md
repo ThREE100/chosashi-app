@@ -78,3 +78,80 @@
 - 地番区域が違っても、建物なら合併できるって知ってた？
 - 同じ内容の質権なら、合併できちゃうんです
 - 表題部所有者なら、印鑑証明書はいらないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 証 (as in 印鑑証明書) appears in
+this infographic. Do not render it as the Simplified Chinese variant (证) —
+use the standard Japanese form 証 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物合併の分かれ目 — 印鑑証明書は本当に必要？
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第11問／不動産登記法（建物の合併）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: isometricな二棟の建物が矢印でひとつに合併していく様子を描いたイラスト。傍らに印鑑証明書・質権証書・測量図などの書類アイコンを小さく配置し、中央に虫眼鏡のアイコンを添える。
+建物の合併の登記に関する分野です。合併できる場合・できない場合の制限や、申請の際の添付書面が問われています。この問題は「正しいものの組合せ」ではなく、1から5の記述のうち「誤っているものはどれか」を一つ選ぶ単数選択式である点に注意して読みましょう。
+
+--- CARD 1 ---
+Heading (bold):
+登記識別情報の通知を希望しないなら、あらかじめ申出が必要
+Illustration: 書面で合併登記を申請する所有権登記名義人キャラクターが、窓口で「通知は希望しません」という吹き出し付きの申出書を提出するイラスト。背景に封筒アイコン（登記識別情報通知）を描き、その封筒に薄く×を重ねて「事前申出が必要」のラベルを添える。
+Caption (small text below):
+登記識別情報の通知を希望しないときはあらかじめ申出が必要（規則64条1項）
+
+--- CARD 2 ---
+Heading (bold):
+接続していない区分建物は、区分合併できない
+Illustration: マンションのisometricな断面図で、廊下を挟んで離れた二つの区分建物を描く。二つの部屋の間に隙間と赤い×マークを配置し、「接続なし→区分合併不可」というラベルを添える。
+Caption (small text below):
+互いに接続していない区分建物は区分合併できない（接続が要件）
+
+--- CARD 3 ---
+Heading (bold):
+地番区域が違っても、建物は合併できる
+Illustration: 道路を挟んで異なる地番区域の看板が立つ母屋と離れの建物を描いたイラスト。二棟をつなぐ点線の矢印と丸（○）マークを配置し、「同一登記所管轄ならOK」というラベルを添える。
+Caption (small text below):
+所在の地番区域が異なっても、同一登記所管轄なら合併できる
+
+--- CARD 4 ---
+Heading (bold):
+同じ内容の質権付きの建物どうしなら合併できる
+Illustration: 二棟の建物にそれぞれ同じ形の質権証書アイコン（同一の受付番号ラベル付き）が乗っているイラスト。中央にイコール（＝）記号と丸（○）マークを配置する。
+Caption (small text below):
+質権の目的・受付・原因日付が同一なら合併できる（法56条参照）
+
+--- CARD 5 ---
+Heading (bold):
+表題部所有者なら、印鑑証明書はいらない
+Illustration: 表題部所有者キャラクターが合併登記の申請書を窓口へ差し出すイラスト。印鑑証明書のアイコンに大きな×マークを重ね、「登記義務者ではない→添付不要」というラベルを添える。
+Caption (small text below):
+表題部所有者は登記義務者でなく、印鑑証明書の添付は不要（令16条2項）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

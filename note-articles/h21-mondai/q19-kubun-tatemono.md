@@ -82,3 +82,80 @@
 - 用途を変えたら、図面の差し替えだけじゃ足りないんです
 - 一棟まるごと滅失、一人で滅失登記を出せるんです
 - 共用部分、実は他の棟の住民のためにも作れるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 権 (as in 敷地権・所有権) appears
+repeatedly in this infographic. Do not render it as the Simplified Chinese
+variant (权) — use the standard Japanese form 権 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+区分建物の登記、主役は「最初に所有した人」
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第19問／不動産登記法（区分建物の表示に関する登記）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: isometricな分譲マンション（複数の区分建物のアイコン）とその足元の敷地アイコン、上空に「敷地権」「表題部所有者」「共用部分」という3つの吹き出しラベルが浮かぶイラスト。中央に虫眼鏡のアイコンを添える。
+区分建物（分譲マンションの各部屋など）の表示登記は、敷地権・表題部所有者・共用部分といった区分建物特有の論点が絡み合います。「誰が申請するのか」「どこまでを敷地権・共用部分とできるのか」を軸に、一つずつ整理していきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+ア：他棟の法定敷地でも、規約で自分の棟の敷地権にできる
+Illustration: isometricなA棟とB棟の2つのマンションのイラスト。A棟の敷地の一角にB棟の住民が停める駐車場アイコンを描き、その部分に「規約敷地」「B棟の敷地権」のラベルタグと○マークを添える。
+Caption (small text below):
+ア（正）　他棟の法定敷地でも規約敷地として敷地権に登記できる
+
+--- CARD 2 ---
+Heading (bold):
+イ：表題登記の申請者は「最初に所有した人」だけ
+Illustration: isometricな建築現場でAさんキャラクターが最初にマンションを受け取り、その後Cさん（不動産販売業者）へ矢印で譲渡される様子。Aさんの上に「表題部所有者」の王冠アイコン、Cさんの上に大きな×マークと「表題登記できない」のラベルを添える。
+Caption (small text below):
+イ（誤）　区分建物の表題登記は「最初に所有した者」が申請する
+
+--- CARD 3 ---
+Heading (bold):
+ウ：用途変更の登記は、図面だけでは足りない
+Illustration: isometricな駐輪場（自転車アイコン）が集会場（椅子とテーブルのアイコン）に改装される様子。差し替えた図面の書類束の横に規約書類のアイコンを追加し、「図面だけでは不足」のラベルを添える。
+Caption (small text below):
+ウ（誤）　用途変更の登記は建物図面等だけでは足りず規約関係の情報も必要
+
+--- CARD 4 ---
+Heading (bold):
+エ：一棟まるごと滅失したら、一人で滅失登記を申請できる
+Illustration: isometricな火事で焼け落ちたマンション全体のイラスト。複数の区分所有者キャラクターのうち一人だけが申請書を法務局の窓口に提出する様子。「単独申請」のラベルと○マークを添える。
+Caption (small text below):
+エ（正）　一棟全部滅失なら区分所有者の一人が単独で滅失登記を申請できる
+
+--- CARD 5 ---
+Heading (bold):
+オ：共用部分は、他の棟の住民のためにも登記できる
+Illustration: isometricな団地内の複数棟（A棟・B棟・C棟）と、その中央にある集会所の建物アイコン。集会所から各棟へ矢印が伸び、「共用部分」のラベルと○マークを添える。同一棟限定の考え方には×マークを重ねる。
+Caption (small text below):
+オ（誤）　共用部分の登記は同一棟の区分所有者に限らず他棟の共用でもできる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

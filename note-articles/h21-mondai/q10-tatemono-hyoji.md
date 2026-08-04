@@ -80,3 +80,80 @@
 - 相続の所有権移転を待たなくても、変更登記できるんです
 - 曳家しても建物は「滅失」してないって知ってた？
 - 相続人は亡き人の名義で登記「できる」だけなんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 記 (as in 登記) appears in this
+infographic. Do not render it as the Simplified Chinese variant (记) —
+use the standard Japanese form 記 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+曳家しても、建物は「滅失」していない
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第10問／不動産登記法（建物の表示に関する登記）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 建物のisometricなアイコンが複数並び、それぞれから「表題登記」「変更登記」「滅失登記」というラベル付きの矢印が伸びるイラスト。中央にカレンダーと「1月以内」というラベル付きの砂時計アイコンを配置する。
+建物の表示に関する登記の申請義務や申請手続を横断的に問う分野です。「誰が」「いつまでに」「どの登記を」申請しなければならないのか、そして曳家（えい行移転）や相続がからむ場面での処理を、条文に沿って正確に整理していきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+譲り受けたら、その日から1月以内に表題登記
+Illustration: 建物を買い取ったキャラクターが「取得日」というラベル付きのカレンダーの横で表題登記の申請書を提出するイラスト。砂時計アイコンに「1月」というラベルと○マークを添える。
+Caption (small text below):
+表題登記未済の建物の取得者は取得日から1月以内に表題登記を申請（法47条1項）
+
+--- CARD 2 ---
+Heading (bold):
+共用部分の規約廃止後、1月以内に表題登記
+Illustration: マンションの集会室（共用部分）のisometricなアイコンから「規約廃止」というラベル付きの書類が破られ、所有者キャラクターが表題登記の申請書を提出するイラスト。砂時計アイコンに「1月」というラベルを添える。
+Caption (small text below):
+共用部分の規約廃止後、所有者は廃止日から1月以内に表題登記を申請（法58条6項）
+
+--- CARD 3 ---
+Heading (bold):
+所有権移転登記を待たなくても表題部変更登記できる
+Illustration: 表題部所有者Aの建物に附属建物（isometricな物置アイコン）が増築されているイラスト。相続人B・Cのキャラクターが「所有権移転登記」というラベル付きの矢印に×マークをつけ、直接「表題部変更登記」の申請書を提出する様子を描く。
+Caption (small text below):
+相続による所有権移転登記を経なくても相続人は表題部変更登記を申請できる（法30条）
+
+--- CARD 4 ---
+Heading (bold):
+曳家しても建物は「滅失」していない
+Illustration: 家全体をレールに乗せて少し移動させるisometricな曳家（えい行移転）のイラスト。「滅失登記＋表題登記」というラベル付きの矢印に×マークをつけ、代わりに「表題部変更登記」というラベルと○マークを添える。
+Caption (small text below):
+えい行移転は建物の同一性が保たれ、滅失＋表題登記でなく変更登記で処理（法51条）
+
+--- CARD 5 ---
+Heading (bold):
+相続人は亡き人の名義で登記「できる」だけ
+Illustration: 亡くなった所有者Aを表すラベル付きの人物シルエットの横に相続人B・Cのキャラクターが立ち、「Aの名義で登記できる」「B・C自身の名義でも登記できる」という2つの矢印が並んで描かれるイラスト。
+Caption (small text below):
+相続人は被承継人名義で申請「できる」だけで、それに限定・義務づけられない（法30条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

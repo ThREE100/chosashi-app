@@ -80,3 +80,80 @@
 - 地積更正と図面訂正、セット強制じゃないって知ってた？
 - 相続登記の前でも、地図訂正は申し出られるんです
 - 却下だと、申出書だけは手元に戻らないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 続 (as in 相続・手続) appears in
+this infographic. Do not render it as the Simplified Chinese variant (续) —
+use the standard Japanese form 続 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地図訂正の分かれ目 — 思い込みで足をすくわれるな
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第13問／不動産登記法（地図等の訂正）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: isometricな公図の一部がゆがんで描かれ、隣に正しい形を示す測量図のアイコンが並ぶイラスト。傍らに「申出」と書かれた書類アイコンを配置し、中央に虫眼鏡を添える。
+地図・地図に準ずる図面の訂正の申出に関する分野からの出題です。「どんな書面が必要か」「誰が申し出られるか」「申請ではなく申出だからどう扱われるか」を、条文・手続の性質に沿って整理すると正確に判断できます。
+
+--- CARD 1 ---
+Heading (bold):
+区画・形の誤りには、測量図の添付が必要
+Illustration: ゆがんだ形で描かれた公図の区画と、正しい形を示す地積測量図のアイコンを並べて比較するイラスト。両者をつなぐ矢印に「添付が必要」というラベルを添える。
+Caption (small text below):
+区画・位置・形状の誤りには土地所在図又は地積測量図を添付（不登規則16条5項）
+
+--- CARD 2 ---
+Heading (bold):
+隣の土地まで動く訂正は、申出では受けられない
+Illustration: 自分の土地の区画線を直そうとすると、その動きが隣の土地の区画線まで連動して動いてしまうイラスト。隣地部分に赤い×マークと「申出不可」というラベルを添える。
+Caption (small text below):
+申出に係る土地以外の区画を訂正すべき場合は申出による訂正不可（不登規則16条13項）
+
+--- CARD 3 ---
+Heading (bold):
+地積更正と図面訂正、セット提出は義務ではない
+Illustration: 地積更正登記の申請書アイコンと地積測量図訂正の申出書アイコンが、鎖でつながらずにそれぞれ独立して浮かんでいるイラスト。間に「必須ではない」というラベルを添える。
+Caption (small text below):
+地積更正の申請と地積測量図訂正の申出を「併せてしなければならない」義務はない
+
+--- CARD 4 ---
+Heading (bold):
+相続登記の前でも、地図訂正は申し出られる
+Illustration: 親の名義のままの土地の看板の前に立つ相続人キャラクターが、地図訂正の申出書を窓口へ差し出すイラスト。「相続登記未了でもOK」というラベルと丸（○）マークを添える。
+Caption (small text below):
+相続人は移転登記を経ていなくても地図訂正の申出ができる
+
+--- CARD 5 ---
+Heading (bold):
+却下だと、申出書だけは手元に戻らない
+Illustration: 左側に「取下げ」で書類一式がそのまま申出人の手元へ戻る様子、右側に「却下」で添付書面だけが戻り申出書は登記所に残る様子を対比させたイラスト。
+Caption (small text below):
+却下では添付書面のみ還付され、申出書自体は還付されない（規則16条14項が準用する規則38条・39条）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

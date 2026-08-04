@@ -81,3 +81,80 @@
 - 地積更正に「判決を得て代位」は使えないんです
 - 代位原因がなくても、正しい更正は消せないんです
 - 誤差の限度内でも、地積更正は申請できるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 積 (as in 地積) appears in this
+infographic. Do not render it as the Simplified Chinese variant (积) —
+use the standard Japanese form 積 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地積更正、使える場面・使えない場面
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第7問／不動産登記法（地積の更正の登記）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 土地の区画を表すisometricな地面アイコンの上に、正しい地積の数値が書かれた看板と誤った数値が書かれた看板が並び、定規と虫眼鏡を持って測量するキャラクターが描かれるイラスト。
+地積の更正の登記は、登記記録上の地積と実際の地積が食い違っているときに、正しい地積へ直す登記です。この問題では、誰が代位で申請できるのか、分筆線の位置を間違えたときの直し方、誤差の限度との関係など、地積更正が「使える場面」と「使えない場面」の切り分けが問われています。
+
+--- CARD 1 ---
+Heading (bold):
+一部を買った人は代位で地積更正できる
+Illustration: 土地の一角を購入したキャラクターが所有権証明書のisometricな書類を手に、代位のラベル付き矢印で登記名義人キャラクターの位置から地積更正・分筆の申請書を提出するイラスト。書類に○マークを添える。
+Caption (small text below):
+一部の所有権取得者は、所有権を証する情報を添えて代位により地積更正・分筆を申請できる
+
+--- CARD 2 ---
+Heading (bold):
+分筆線のズレは地積更正では直せない
+Illustration: 甲地と乙地に分かれた土地のisometricな地面アイコン。誤った分筆線に赤い×マークをつけ、その横の地積の数字アイコンにも×マークをつけて、「合筆してやり直し」というラベル付きの矢印を添える。
+Caption (small text below):
+分筆線位置の誤りは地積更正では直せず、合筆のうえ再分筆による
+
+--- CARD 3 ---
+Heading (bold):
+「判決を得て代位」は地積更正には使えない
+Illustration: 裁判所のisometricな建物アイコンと判決文の書類を持つ利害関係人キャラクター。その書類から地積更正の申請書へ向かう矢印に大きな×マークをつける。
+Caption (small text below):
+地積更正は表示の登記であり、判決を得て代位申請する方法はとれない
+
+--- CARD 4 ---
+Heading (bold):
+正しい地積更正は、代位原因がなくても消せない
+Illustration: 「代位原因なし」というラベル付き吹き出しを持つキャラクターが、既に更正済みの地積記録（緑のチェックマーク付き書類）を消そうとしているが、大きな×マークで阻まれるイラスト。
+Caption (small text below):
+内容が正しい地積更正を、代位原因不存在を理由に錯誤で抹消することはできない
+
+--- CARD 5 ---
+Heading (bold):
+誤差の限度内でも、地積更正は申請できる
+Illustration: 測量士キャラクターが測量結果と登記地積をわずかに比較するイラスト。「誤差の限度内」というラベルの横に○マークと申請書アイコンを添える。
+Caption (small text below):
+誤差の限度内でも、地積が異なれば地積更正の登記を申請できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

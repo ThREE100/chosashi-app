@@ -82,3 +82,80 @@
 - 敷地権の登記がなければ、その証明書はいらないんです
 - くっつけて建てた離れ、それは合体じゃないんです
 - 抵当証券が出てたら、承諾書だけじゃ足りないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: the character 証 (as in 抵当証券・証する情報) appears
+in this infographic. Do not render it as the Simplified Chinese variant
+(证) — use the standard Japanese form 証 exactly.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「合体」は、くっついて一棟になること
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第18問／不動産登記法（合体による登記等）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: isometricな2棟の建物が矢印でつながり、間に工事現場アイコン（ハンマーで隔壁を壊す作業員）を挟んで1棟に合体する様子を描いたイラスト。合体後の建物には「表題登記」のラベル、合体前の建物には「抹消」のラベルの紙タグを添える。
+「合体」とは、物理的に別々だった二以上の建物が、工事などによって一棟の建物になることをいいます。この場合、合体後の建物について表題登記を、合体前の各建物について表題部の登記の抹消を、あわせて申請します（合体による登記等）。似て非なる「合併」「附属建物」との違いを意識しながら、各肢を確認していきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+ア：隔壁を取り壊して区分建物の要件を欠いたら、合体による登記等を申請
+Illustration: isometricな2つの分譲マンションの部屋の間の壁をハンマーで取り壊す作業員キャラクターのイラスト。壁が壊れて1部屋につながる様子と、「合体による登記等」というラベルの申請書アイコンを添える。○マークを重ねる。
+Caption (small text below):
+ア（正）　隔壁取壊しで区分要件を欠けば合体による登記等を申請
+
+--- CARD 2 ---
+Heading (bold):
+イ：名義人が違っても、一人が単独で申請できる
+Illustration: isometricな2棟の建物、それぞれ異なる所有者キャラクター（AさんとBさん）が描かれ、Aさん一人が申請書を法務局の窓口に提出している様子。Bさんは背景で見守るのみで、「単独申請」のラベルと、「全員共同」の文字に×マークを重ねる。
+Caption (small text below):
+イ（誤）　名義人が異なっても一人から単独申請でき、全員共同ではない
+
+--- CARD 3 ---
+Heading (bold):
+ウ：敷地権の登記がなければ、「敷地権でない証明」は不要
+Illustration: isometricな区分建物と土地のイラスト。土地の所有権登記名義人キャラクターが立ち、区分建物の登記簿アイコンに「敷地権の登記：なし」のラベルを添える。証明書アイコンに大きな×マークをつけ「提出不要」のラベルを重ねる。
+Caption (small text below):
+ウ（正）　合体前に敷地権の登記がなければ敷地権でない旨の証明は不要
+
+--- CARD 4 ---
+Heading (bold):
+エ：構造上独立・利用上非独立の新築は、合体ではなく附属建物の話
+Illustration: isometricな母屋に渡り廊下でつながる小さな離れ（物置）を新しく建てるイラスト。離れの上に「附属建物」のラベルを添え、離れと「合体」の文字の間に×マークを配置する。
+Caption (small text below):
+エ（誤）　構造上独立・利用上非独立の新築は合体ではなく附属建物等の問題
+
+--- CARD 5 ---
+Heading (bold):
+オ：抵当証券が発行されていたら、承諾情報だけでは足りない
+Illustration: isometricな抵当権者キャラクターが「承諾情報」の書類を差し出す横に、別途「抵当証券」という証書アイコンを追加提出する様子。承諾情報だけの書類の山に×マークを重ねる。
+Caption (small text below):
+オ（誤）　抵当証券発行済みなら承諾情報等だけでは足りず抵当証券も必要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.
