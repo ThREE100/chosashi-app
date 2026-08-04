@@ -50,15 +50,13 @@
 
 **たとえば**、新築した家の表題登記を申請する際、自分の住所を証明する書類として、住民票の代わりに印鑑証明書（住所が記載されている）を使うこともできます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 表題登記のみの2棟の合体は、合体後の登記＋合体前の抹消をまとめて申請できる |
-| イ | 誤 | スキャンした確認済証にも作成者の電子署名が必要 |
-| ウ | 誤 | 未登記のまま死亡した場合、相続人は自分を表題部所有者として直接申請できる |
-| エ | 誤 | 借地上の建物の表題登記に借地権の証明情報は不要 |
-| オ | 正 | 表題部所有者の住所証明として印鑑証明書を使うことができる |
+- **ア（正）**　表題登記のみの2棟の合体は、合体後の登記＋合体前の抹消をまとめて申請できる
+- **イ（誤）**　スキャンした確認済証にも作成者の電子署名が必要
+- **ウ（誤）**　未登記のまま死亡した場合、相続人は自分を表題部所有者として直接申請できる
+- **エ（誤）**　借地上の建物の表題登記に借地権の証明情報は不要
+- **オ（正）**　表題部所有者の住所証明として印鑑証明書を使うことができる
 
 **正解：ア・オの組合せ（選択肢2番）**
 
@@ -82,3 +80,81 @@
 - 亡くなった親を、経由しなくていいんです
 - 借地権の証明、実は求められません
 - 住所の証明、印鑑証明書でも大丈夫
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Special caution: kanji such as 建・物・登・記・証・署・所・権 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の表題登記、証明書と署名のルール
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第14問／建物の表題登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 2棟の倉庫が合体して1棟の大きな倉庫になるイソメトリック図。合体前の2つの表題登記カードが、合体後の1つの表題登記カードにまとまる。
+建物の表題登記では、「誰の名義で登記するか」「どんな証明書が必要か」という基本ルールが問われます。一つずつ確認しましょう。
+
+--- CARD 1 ---
+Heading (bold):
+表題登記のみの2棟の合体は、合体後の登記と合体前の抹消をまとめて申請できる
+Illustration: 隣接する2棟の倉庫のイラストが壁を取り払って1棟に合体する様子。合体後の建物の表題登記の書類と、合体前の2枚の登記カードに✕印が付いた抹消の書類が、1つの申請書アイコンにまとめられている。
+Caption (small text below):
+2棟の合体、まとめて申請していいんです
+
+--- CARD 2 ---
+Heading (bold):
+スキャンした確認済証にも、作成者の電子署名が必要
+Illustration: 紙の確認済証をスキャナで読み取ってパソコン画面上のPDFアイコンにする図。PDFアイコンに電子署名（印鑑のような電子サインマーク）が付いている。
+Caption (small text below):
+スキャンしても、電子署名は省略できません
+
+--- CARD 3 ---
+Heading (bold):
+未登記のまま死亡した場合、相続人は自分を表題部所有者として直接申請できる
+Illustration: 亡くなった親のアイコンから、点線の矢印が✕印で示され、代わりに子（相続人）のアイコンから直接、表題登記の書類に「表題部所有者：子」のラベルが結び付く。
+Caption (small text below):
+亡くなった親を、経由しなくていいんです
+
+--- CARD 4 ---
+Heading (bold):
+借地上の建物の表題登記に、借地権の証明情報は不要
+Illustration: 借りている土地の上に建つ新築の家のイラスト。表題登記の申請書類アイコンの横に「借地権証明書」のアイコンが✕印で消されている。
+Caption (small text below):
+借地権の証明、実は求められません
+
+--- CARD 5 ---
+Heading (bold):
+表題部所有者の住所証明として、印鑑証明書を使うことができる
+Illustration: 表題登記の申請書類に、住民票のアイコンと並んで印鑑証明書のアイコンが「OK」マーク付きで示されている。
+Caption (small text below):
+住所の証明、印鑑証明書でも大丈夫
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　令和7年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

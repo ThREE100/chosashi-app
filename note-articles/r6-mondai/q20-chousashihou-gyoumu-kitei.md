@@ -50,15 +50,13 @@
 
 **たとえば**、これまで個人事務所として開業していたベテラン調査士が、一人法人として土地家屋調査士法人を設立し、看板を掛け替えることができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 筆界特定の代理業務は正当事由がなくても依頼を拒める |
-| イ | 誤 | 登録申請書は法務局ではなく所属予定の調査士会を経由して提出 |
-| ウ | 誤 | 秘密保持義務には正当な事由がある場合の例外がある |
-| エ | 誤 | 測量業務はやむを得ない事由があっても補助者に取り扱わせられない |
-| オ | 正 | 調査士法人は社員1人でも設立できる |
+- **ア（正）**　筆界特定の代理業務は正当事由がなくても依頼を拒める
+- **イ（誤）**　登録申請書は法務局ではなく所属予定の調査士会を経由して提出
+- **ウ（誤）**　秘密保持義務には正当な事由がある場合の例外がある
+- **エ（誤）**　測量業務はやむを得ない事由があっても補助者に取り扱わせられない
+- **オ（正）**　調査士法人は社員1人でも設立できる
 
 義務の「対象範囲」と「例外の有無」を条文ごとに正確に切り分けられたかが、この問題の決め手です。
 
@@ -72,6 +70,7 @@
 - 出典・正解番号（2番＝アオ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の条文根拠は、ア（土地家屋調査士法22条かっこ書・同法施行規則25条2項）、イ（土地家屋調査士法9条1項）、ウ（土地家屋調査士法24条の2）、オ（土地家屋調査士法26条）と、いずれもデータベースのexplanationフィールドで条文番号まで明記されています。
 - **エについて再訂正**：本記事は一時、Web検索での一次資料確認ができなかったことを理由に、エの根拠を土地家屋調査士法25条・2条に差し替えていましたが、ユーザーが保有するアガルートの土地家屋調査士法テキスト(手元資料)で該当箇所を直接確認したところ、「調査士は、他人をしてその業務を取り扱わせてはならない（規則22条）。また、補助者も同様であり、補助者に登記の申請情報の提供、登記識別情報の受領及び登記の申請情報の補正をさせることはできず、補正が軽微なものであっても取り扱わせてはならない」という記載が確認できたため、当初の記載(土地家屋調査士法施行規則22条、具体的な業務の列挙)が正確であったことが判明し、この記述に戻しました。Web検索だけでは一次資料に行き着けない場合があることの実例です。
+
 - ローカルのアガルート教材フォルダも確認しましたが、択一式の過去問解説講座については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキストによる解説は含まれていなかったため、今回はそちらを参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題を確認しました。令和7年度第20問も「土地家屋調査士・調査士法人」がテーマですが、各肢の具体的な出題内容（定款変更の届出先・補助者廃止の届出・複数事務所設置の可否・登録取消による法人脱退・心身故障による登録取消）は本問（依頼拒否の正当事由・登録申請書の提出経由・秘密保持義務・補助者への業務委託・一人法人設立）と異なり、**内容の重複は見つかりませんでした**（同じ大分野からの出題ですが、問われている個別の論点は別物です）。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -84,3 +83,80 @@
 - 秘密保持にも、正当な理由があれば例外があるんです
 - 測量業務、補助者に任せることはできないんです
 - 調査士法人、実は一人でも作れるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: this prompt contains kanji that are easily confused with Simplified
+Chinese variants, especially 登・記・号. Render these strictly in their
+standard Japanese (Jōyō) forms, never as simplified hanzi.
+
+--- HEADER ---
+Title (large, bold, 1行):
+調査士の義務と例外、条文ごとに整理
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第20問｜土地家屋調査士法
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 土地家屋調査士のバッジ・事務所・調査士会のアイソメトリックイラスト。義務と例外の2つのラベルが対比的に配置される。
+土地家屋調査士法の分野は、「義務の対象範囲」と「その例外」をセットで押さえるのがポイントです。依頼応諾義務・秘密保持義務・登録手続・法人設立の各条文を、義務か例外かという対立軸で整理していきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+筆界特定の代理業務は、理由なく依頼を拒める
+Illustration: 土地家屋調査士(人物アイコン)が、筆界特定の代理業務の依頼を断るアイソメトリックイラスト。「正当な事由不要」のラベル。
+Caption (small text below):
+筆界特定の代理業務は正当事由がなくても依頼を拒める
+
+--- CARD 2 ---
+Heading (bold):
+登録申請書は、調査士会を経由して提出する
+Illustration: 調査士資格者が登録申請書を提出するアイソメトリックイラスト。法務局アイコンにバツ印、土地家屋調査士会アイコンにチェックマーク、その先に日本土地家屋調査士会連合会のアイコン。
+Caption (small text below):
+登録申請書は法務局ではなく所属予定の調査士会を経由して提出
+
+--- CARD 3 ---
+Heading (bold):
+秘密保持義務にも、正当な事由による例外がある
+Illustration: 調査士(人物アイコン)が業務上知り得た秘密の書類を持つアイソメトリックイラスト。「正当な事由がある場合」のラベル付きの例外の矢印。
+Caption (small text below):
+秘密保持義務には正当な事由がある場合の例外がある
+
+--- CARD 4 ---
+Heading (bold):
+測量業務は、補助者に取り扱わせられない
+Illustration: 土地家屋調査士(人物アイコン)と補助者(人物アイコン)、測量機器のアイソメトリックイラスト。補助者から測量業務への矢印にバツ印。
+Caption (small text below):
+測量業務はやむを得ない事由があっても補助者に取り扱わせられない
+
+--- CARD 5 ---
+Heading (bold):
+調査士法人は、社員1人でも設立できる
+Illustration: 個人事務所の看板を「土地家屋調査士法人」の看板に掛け替えるアイソメトリックイラスト。社員1人のアイコンにチェックマーク。
+Caption (small text below):
+土地家屋調査士法人は、社員となろうとする土地家屋調査士が1人であっても、設立することができる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

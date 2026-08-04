@@ -1,0 +1,202 @@
+## 【土地家屋調査士受験生向け】建物図面のルール、義務？それとも任意？〜作成・提供・訂正の細かい線引き〜
+
+**出題年度：令和元年度　午後の部　第10問**
+
+> 建物図面及び各階平面図に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
+>
+> ア　建物の敷地についての地積の更正の登記がされ、新たに地積測量図が備え付けられたときは、当該建物の表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人は、当該建物の建物図面の訂正の申出をしなければならない。
+>
+> イ　書面を提出する方法により建物図面又は各階平面図を提供する場合において、用紙が数枚にわたるときは、当該建物図面又は各階平面図の余白の適宜の箇所にその総枚数及び当該用紙が何枚目の用紙である旨を記載するものとされている。
+>
+> ウ　資格者代理人が電子署名を行って提供する建物図面又は各階平面図には、作成の年月日並びに申請人及び作成者の氏名又は名称を記録しなければならない。
+>
+> エ　資格者代理人が電子署名を行って提供する建物図面は、その建物の敷地についての不動産登記法第14条第1項の地図が備え付けられているときは、当該地図と同一の縮尺により作成しなければならない。
+>
+> オ　区分建物としての構造上の要件を備える互いに隣接した2部屋を一個の区分建物として登記している場合において、その2部屋間の隔壁を除去し物理的に1部屋としたときは、建物図面及び各階平面図の訂正の申出をすることができる。
+>
+> 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
+
+建物図面・各階平面図の分野は、作成の方法（記録事項・縮尺・用紙の扱い）と、備え付けられた図面に誤りがあったときの「訂正の申出」の性質を問うものです。とくに「しなければならない（義務）」なのか「することができる（任意）」なのかの線引きが正誤を分けます。
+
+### ア：添付図面の訂正の申出は、義務ではなく任意
+
+登記所に備え付けられた建物図面などの添付図面に誤りがあるときは、表題部所有者・所有権の登記名義人またはこれらの相続人その他の一般承継人が、その訂正の申出をすることが**できます**。しかし、これはあくまで任意の手続であり、「しなければならない」という義務ではありません。敷地の地積更正登記がされて新たな地積測量図が備え付けられたことをもって、建物図面の訂正申出が義務づけられることはありません。
+
+**たとえば**、自分の建物が建っている土地の地積更正登記がされ、正確な地積測量図が新たに備え付けられたとしても、建物図面の訂正の申出をするかどうかは所有者の判断に委ねられており、必ず訂正しなければ違反になる、というものではありません。
+
+### イ：用紙が数枚にわたるときは、総枚数と何枚目かを記載する
+
+書面を提出する方法で建物図面または各階平面図を提供する場合、用紙が数枚にわたるときは、その図面の余白の適宜の箇所に、総枚数および当該用紙が何枚目の用紙である旨を記載するものとされています。図面がバラバラにならず、順序と全体像が分かるようにするための決まりです。
+
+**たとえば**、大きな建物で各階平面図が3枚に分かれてしまうときは、それぞれの用紙の余白に「全3枚のうち1枚目」「同2枚目」…といった形で記載しておく、というイメージです。
+
+### ウ：電子署名して提供する図面にも、作成年月日・申請人・作成者名を記録する
+
+資格者代理人が電子署名を行って提供する建物図面または各階平面図にも、作成の年月日、並びに申請人および作成者の氏名または名称を記録しなければなりません。電子申請だからといって記録すべき事項が省略されるわけではなく、書面の場合と同様に、いつ・誰の申請で・誰が作成した図面かを明らかにする必要があります。
+
+**たとえば**、調査士がオンライン申請で各階平面図のデータを電子署名して送信する場合でも、図面データの中に「作成日・申請人（依頼者）の氏名・作成者（調査士）の氏名」をきちんと記録しておかなければなりません。
+
+### エ：建物図面の縮尺は500分の1が原則で、地図と同一である必要はない
+
+建物図面の縮尺は、原則として500分の1によって作成します（適当でない場合は適宜の縮尺でも可）。敷地について法14条1項の地図が備え付けられているからといって、その地図と同一の縮尺で建物図面を作成しなければならない、という決まりはありません。図面の種類ごとに縮尺のルールは独立しています。
+
+**たとえば**、敷地に250分の1の法14条地図が備わっていても、建物図面はそれに合わせる必要はなく、原則どおり500分の1で作成すればよい、ということです。
+
+### オ：隔壁を除去して1部屋にしたときは、訂正の申出ではなく変更の登記
+
+互いに隣接した2部屋を一個の区分建物として登記している状態で、その2部屋間の隔壁を除去して物理的に1部屋にしたときは、建物の物理的現況そのものが変わっています。この場合は、単なる図面の誤りを直す「訂正の申出」で対応する場面ではなく、建物の表題部の変更に対応する手続によるべきものであり、訂正の申出をすることができるわけではありません。
+
+**たとえば**、もともと壁で仕切られていた2部屋をつなげて広い1部屋にリフォームした場合は、「図面の書き間違いを直す」訂正申出ではなく、建物の現況変更に対応した登記手続によって処理することになります。
+
+### まとめ表
+
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 誤 | 添付図面の訂正の申出は任意であり、「しなければならない」義務ではない |
+| イ | 正 | 用紙が数枚にわたるときは、余白に総枚数と何枚目かを記載する |
+| ウ | 正 | 電子署名して提供する図面にも、作成年月日・申請人・作成者名を記録する |
+| エ | 誤 | 建物図面の縮尺は原則500分の1で、法14条地図と同一である必要はない |
+| オ | 誤 | 隔壁除去で物理的に変化したときは、訂正の申出ではなく変更の手続による |
+
+「義務か任意か」「訂正の申出で足りるか、変更の登記が必要か」という手続の性質の違いを、図面のルールごとに丁寧に押さえておきましょう。
+
+**正解：イウの組合せ（選択肢3番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出題年度・問題番号・正解番号（3番＝イ・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
+- 各肢の根拠のうち、肢イ（用紙複数枚のときの総枚数・枚数の記載）と肢エ（建物図面の縮尺は原則500分の1）は、内容として確認できたものです。ただし、条文番号については、データベース内で不動産登記規則の該当条文番号（例：訂正の申出・用紙記載・電子申請時の記録事項・縮尺の各規定）の表記に揺れがあり（規則51条／73条／74条／82条／88条・準則51条5項などの候補）、条番号を一つに断定できませんでした。本文では条番号の断定を避け、内容ベースで記載しています。正確な条番号は不動産登記規則・準則の原文でご確認ください。
+- 肢ア（訂正申出は任意）、肢ウ（電子申請時の記録事項）、肢オ（隔壁除去は変更の手続による）は、規則・準則および登記実務の一般原則からの説明です。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ正 エ誤 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（建物図面及び各階平面図）と同一・類似の問題が再出題されていないかを確認しました。候補のうち、令和5年度第10問の肢ア（建物図面・各階平面図に記録すべき事項、規則74条2項）は、本問の肢ウ（電子署名提供時の作成年月日・申請人・作成者氏名の記録）と記録事項の範囲という同一の条文論点を扱っており、また同問の肢ウ（床面積計算の誤りについて更正登記ができる場合は訂正の申出ができない、規則88条1項ただし書）は、本問の肢オ（隔壁除去による物理的変化は訂正の申出ではなく変更の登記による）と「訂正の申出の限界」という同一の論点を扱っています。**部分的に類似する記述があります**。なお、その他の候補（令和3年度第13問、令和7年度第10問）は、えい行移転・仮換地・団地共用部分や共用部分の規約廃止など別の場面を扱っており、本問の肢ア・イ・エとは重複しません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+
+---
+
+## 見出し画像用フレーズ
+
+- 図面の訂正の申出、実は「しなくてもいい」んです
+- 図面が数枚に分かれたら、何枚目かを書いておくんです
+- 電子申請でも、作成日と作成者名は必ず記録なんです
+- 建物図面の縮尺は500分の1が基本って知ってた？
+- 壁をぶち抜いて1部屋にしたら、訂正じゃなくて変更なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物図面及び各階平面図について、図面の作成・記録に関するルールを3枚、訂正の申出の性質を2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric drafting tables,
+building floor plans, digital tablets with electronic seals, official
+stamps, rulers, arrows — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物図面、義務？それとも任意？
+作成のルールと訂正の申出の線引き
+
+Subtitle (smaller, centered, 1行):
+記録事項・縮尺・用紙の扱いと訂正の申出の性質を整理(令和元年度 午後の部 第10問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric flat-design icon on the left showing a
+drafting table with a building floor plan drawing tool set (ruler,
+pencil), next to a stack of numbered sheets and a stamp labeled 「訂正
+の申出」 on the right.
+建物図面・各階平面図の分野は、作成の方法（記録事項・縮尺・用紙の扱い）
+と、備え付けられた図面に誤りがあったときの「訂正の申出」の性質を問うも
+のです。「しなければならない（義務）」なのか「することができる（任意）」
+なのかの線引きが正誤を分けます。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+図面の作成・記録に関するルール
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+用紙が数枚にわたるときは、総枚数と何枚目かを記載する
+Illustration: An isometric view of three sheets of building floor plan
+drawings fanned out, each with a small margin note reading 「全3枚のう
+ち1枚目」「同2枚目」「同3枚目」.
+Caption (small text below):
+書面提出で建物図面・各階平面図の用紙が数枚にわたるときは、余白の適宜の
+箇所に総枚数と何枚目かを記載する。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+電子署名で提供する図面にも、作成日・申請人・作成者名を記録する
+Illustration: An isometric tablet/computer screen showing a digital
+building floor plan with an electronic seal icon (電子署名), and a data
+label box displaying 「作成年月日」「申請人氏名」「作成者氏名」 all
+filled in, not blank.
+Caption (small text below):
+資格者代理人が電子署名を行って提供する建物図面・各階平面図にも、作成の
+年月日並びに申請人及び作成者の氏名又は名称を記録しなければならない。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+建物図面の縮尺は原則500分の1、地図に合わせる必要はない
+Illustration: An isometric two-panel comparison: left panel a small-scale
+area map labeled 「法14条地図」 with one scale marking, right panel a
+building floor plan labeled 「建物図面 500分の1」, connected by an
+equals-sign icon with a red cross-out mark over it to show they need not
+match.
+Caption (small text below):
+建物図面は原則として500分の1で作成し、敷地に法14条1項の地図が備え付け
+られていても、その地図と同一の縮尺にする必要はない。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+訂正の申出の性質
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+添付図面の訂正の申出は、任意であって義務ではない
+Illustration: An isometric person standing next to a filed building
+drawing with a new地積測量図 beside it, a speech bubble icon showing
+「できる」 with a checkmark, and a crossed-out label reading 「しなけれ
+ばならない」 to show it is not obligatory.
+Caption (small text below):
+敷地の地積更正登記で新たな地積測量図が備え付けられても、建物図面の訂正
+の申出は所有者などが任意にできる手続であり、義務ではない。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+隔壁を除去して1部屋にしたときは、訂正でなく変更の手続
+Illustration: An isometric view of two adjacent rooms with a dividing
+wall (隔壁) being removed, merging into one larger room, an arrow
+pointing not to a crossed-out 「訂正の申出」 stamp but to a 「変更の登
+記」 stamp.
+Caption (small text below):
+隔壁を除去して物理的に1部屋にしたときは、建物の現況が変わっているた
+め、訂正の申出ではなく変更の登記に対応する手続による。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和元年度 午後の部 第10問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・縮・尺・隔・壁. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly (3 cards under 図面の作成・記録に関するルール, 2 cards
+under 訂正の申出の性質), with no duplicated or missing cards, and confirm
+every heading, illustration label, and caption text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters.
+```
