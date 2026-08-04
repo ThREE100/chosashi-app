@@ -61,7 +61,7 @@ def convert_file(path):
     bullets = "\n".join(
         f"- **{label}（{verdict}）**　{point}" for label, verdict, point in rows
     )
-    replacement = f"### まとめ\n\n{bullets}"
+    replacement = f"### まとめ\n\n{bullets}\n"
 
     new_text = text[: m.start()] + replacement + text[m.end():]
     if new_text == text:

@@ -48,15 +48,13 @@
 
 **たとえば**、10年前に甲土地を乙土地へ合筆したことで閉鎖された甲土地の登記記録は、閉鎖された日から50年が経過するまでは、法務局で確認することができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 筆界特定書は永久保存であり、50年間ではない（不登規則235条） |
-| イ | 誤 | 地積測量図は電磁的記録であっても永久保存であり、10年間ではない |
-| ウ | 正 | 表示に関する登記の申請情報・添付情報は、受付の日から30年間保存される |
-| エ | 誤 | 地図に準ずる図面（公図）は、閉鎖後も永久保存であり、50年間ではない |
-| オ | 正 | 土地の閉鎖登記記録は、閉鎖された日から50年間保存される |
+- **ア（誤）**　筆界特定書は永久保存であり、50年間ではない（不登規則235条）
+- **イ（誤）**　地積測量図は電磁的記録であっても永久保存であり、10年間ではない
+- **ウ（正）**　表示に関する登記の申請情報・添付情報は、受付の日から30年間保存される
+- **エ（誤）**　地図に準ずる図面（公図）は、閉鎖後も永久保存であり、50年間ではない
+- **オ（正）**　土地の閉鎖登記記録は、閉鎖された日から50年間保存される
 
 「永久保存されるもの（登記記録・地図・地積測量図・筆界特定書など基礎資料）」と「期限付きで保存されるもの（申請書類は30年、閉鎖登記記録は50年）」の2グループに分けて覚えるのが効率的です。
 
@@ -80,3 +78,82 @@
 - 申請書類は30年で保存期限がくるんです
 - 古い公図も、実は捨てられないんです
 - 合筆で消えた登記記録、50年は残るんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: archive boxes, filing
+cabinets, clocks, calendars, vault icons, etc. — adapt icon set to the
+topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 保・存・期・間・筆・界・閉・鎖 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その書類、何年残る？保存期間の真実
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第11問／登記記録等の保存期間
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 書庫のisometricイラスト。棚に「永久」「50年」「30年」というラベル付きの箱が並ぶ。
+登記記録・図面・申請書類の保存期間は、資料の重要度に応じて「永久」「50年」「30年」に区分されています。数字を丸暗記するだけでなく、「なぜその期間なのか」を意識すると覚えやすくなります。
+
+--- CARD 1 ---
+Heading (bold):
+筆界特定書は、永久に保存される
+Illustration: 筆界特定書のファイルアイコンが金庫（永久保存の象徴）にしまわれるイラスト。
+Caption (small text below):
+筆界特定書、実は永久保存なんです
+
+--- CARD 2 ---
+Heading (bold):
+地積測量図は、電子化されても永久に保存される
+Illustration: 紙の地積測量図がスキャンされてパソコン画面のアイコンになり、そのまま金庫マークに収まる。
+Caption (small text below):
+地積測量図、電子化されても消えないんです
+
+--- CARD 3 ---
+Heading (bold):
+表示登記の申請情報・添付情報は、30年間保存される
+Illustration: 申請書類のファイルアイコンに「30年」のタイマーが付いている。
+Caption (small text below):
+申請書類は30年で保存期限がくるんです
+
+--- CARD 4 ---
+Heading (bold):
+地図に準ずる図面（公図）は、閉鎖後も永久保存
+Illustration: 古い公図が「閉鎖」のスタンプを押されつつ、金庫マークにしまわれるイラスト。
+Caption (small text below):
+古い公図も、実は捨てられないんです
+
+--- CARD 5 ---
+Heading (bold):
+合筆で消えた登記記録は、閉鎖後50年間保存される
+Illustration: 2つの土地が合筆されて1つになり、消滅した方の登記記録ファイルに「閉鎖・50年」のラベルが付く。
+Caption (small text below):
+合筆で消えた登記記録、50年は残るんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

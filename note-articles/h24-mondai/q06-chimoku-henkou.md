@@ -48,15 +48,13 @@
 
 **たとえば**、マンションの敷地の一部が現況として庭園や駐車場ではなく、実質的に別の用途に利用されるようになった場合でも、敷地権である旨の登記があることだけを理由に地目変更登記が拒否されるわけではありません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 地目変更登記の登記原因日付は、許可日ではなく現況が変わった日 |
-| イ | 誤 | 地目は地表の現況に基づいて認定され、地下利用だけでは変更を強制されない |
-| ウ | 誤 | 河川区域内である旨の登記の抹消は、地目変更登記の前提要件ではない |
-| エ | 正 | 保安林の指定が解除されない限り、現況が荒れても地目変更登記はできない |
-| オ | 誤 | 敷地権である旨の登記があっても、地目変更が一律禁止されるわけではない |
+- **ア（正）**　地目変更登記の登記原因日付は、許可日ではなく現況が変わった日
+- **イ（誤）**　地目は地表の現況に基づいて認定され、地下利用だけでは変更を強制されない
+- **ウ（誤）**　河川区域内である旨の登記の抹消は、地目変更登記の前提要件ではない
+- **エ（正）**　保安林の指定が解除されない限り、現況が荒れても地目変更登記はできない
+- **オ（誤）**　敷地権である旨の登記があっても、地目変更が一律禁止されるわけではない
 
 「地目は現況主義が原則だが、保安林のような行政上の指定がある場合は指定の解除が先決になる」という例外パターンを押さえておくと得点につながります。
 
@@ -80,3 +78,81 @@
 - 河川区域の登記、抹消しなくても地目は変えられるんです
 - 保安林、指定解除までは荒れても地目は変わらないんです
 - 敷地権があっても、地目変更は禁止されないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: farmland/forest/land icons,
+calendars, road signs, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 地・目・変・更・登・記・許・可 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地目変更の登記原因日、いつが正解？
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第6問／地目の変更の登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 畑のアイコンから宅地のアイコンへ変化する土地のisometricなbefore/afterイラスト。中央にカレンダーのアイコン。
+地目は、土地の主な用途を表す登記事項です。地目の変更登記は「現況が変わったらいつでも自由に変更できる」わけではなく、登記原因日付の考え方や、行政上の指定・登記の存在によって扱いが変わる場面があります。
+
+--- CARD 1 ---
+Heading (bold):
+登記原因の日付は、許可日ではなく現況が変わった日
+Illustration: 農業委員会の許可証アイコン（6月1日）と、実際に宅地になった日（8月1日）を示すカレンダーが並び、後者に赤い丸印。
+Caption (small text below):
+地目変更の登記原因日、許可日じゃないんです
+
+--- CARD 2 ---
+Heading (bold):
+地下に鉄道が通っても、地目は変わらないことがある
+Illustration: 地表は公園のまま、地下にトンネルと鉄道のアイコンが描かれ、地表のラベルには変化なしを示す○マーク。
+Caption (small text below):
+地下に鉄道が通っても、地目は変わらないことがあるんです
+
+--- CARD 3 ---
+Heading (bold):
+河川区域の登記、抹消しなくても地目は変えられる
+Illustration: 「河川区域内の土地」というラベルが付いた土地アイコンの隣に、地目変更の申請書が独立して提出されるイラスト。
+Caption (small text below):
+河川区域の登記、抹消しなくても地目は変えられるんです
+
+--- CARD 4 ---
+Heading (bold):
+保安林、指定解除までは荒れても地目は変わらない
+Illustration: 崩れた山の斜面アイコンに「保安林」のラベルが付いたままで、原野への変更申請に×マーク。
+Caption (small text below):
+保安林、指定解除までは荒れても地目は変わらないんです
+
+--- CARD 5 ---
+Heading (bold):
+敷地権があっても、地目変更は禁止されない
+Illustration: マンションの敷地アイコンに「敷地権」のラベルが付きつつ、地目変更の申請書に○マーク。
+Caption (small text below):
+敷地権があっても、地目変更は禁止されないんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -48,15 +48,13 @@
 
 **たとえば**、住宅密集地で地積測量を行う場合、山林・原野地域よりもはるかに厳しい誤差の限度（高い精度区分）が要求されます。「市街地だから甲三まで許される」というのは誤りで、実際にはさらに高い精度が求められます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 縮尺係数は地図の記録事項ではない |
-| イ | 正 | 電磁的記録の地図には各筆界点の座標値が記録される |
-| ウ | 正 | 地域区分（市街地・村落農耕・山林原野）に応じて縮尺が定められている |
-| エ | 正 | 表題部所有者・所有権登記名義人・その相続人等は訂正の申出ができる（不登法14条5項） |
-| オ | 誤 | 市街地地域の誤差の限度は「甲三まで」ではなく、より高い精度区分が求められる |
+- **ア（誤）**　縮尺係数は地図の記録事項ではない
+- **イ（正）**　電磁的記録の地図には各筆界点の座標値が記録される
+- **ウ（正）**　地域区分（市街地・村落農耕・山林原野）に応じて縮尺が定められている
+- **エ（正）**　表題部所有者・所有権登記名義人・その相続人等は訂正の申出ができる（不登法14条5項）
+- **オ（誤）**　市街地地域の誤差の限度は「甲三まで」ではなく、より高い精度区分が求められる
 
 地図の記録事項（座標値は記録されるが縮尺係数は記録されない）と、精度区分の水準（市街地ほど高精度）を正確に区別できるかが、この問題の分かれ目です。
 
@@ -80,3 +78,81 @@
 - 地域ごとに、地図の縮尺は決まってるんです
 - 相続人でも、地図の訂正を申し出られるんです
 - 市街地の精度、「甲三まで」じゃ甘いんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: maps, grid coordinates,
+magnifying glass, rulers, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 地・図・縮・尺・筆・界・訂・精 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地図に記録されるもの、されないもの
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第5問／地図（14条地図）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 座標グリッドの上に描かれた土地の区画図と、それを虫眼鏡で確認する測量士アイコン。
+不動産登記法14条に基づく地図は、いわゆる「14条地図」として、正確な筆界を復元できる基礎資料と位置付けられています。地図の記録事項、縮尺の定め方、精度区分、訂正の申出権者を、それぞれ正確に切り分けて覚える必要があります。
+
+--- CARD 1 ---
+Heading (bold):
+縮尺係数は、地図の記録事項ではない
+Illustration: 地図アイコンの中に「縮尺係数」というラベルが浮かび上がり、大きな×マークで打ち消される。
+Caption (small text below):
+縮尺係数、実は地図に記録されないんです
+
+--- CARD 2 ---
+Heading (bold):
+電磁的記録の地図には、座標値が記録される
+Illustration: パソコン画面のアイコンに座標グリッドと数値（X, Y座標）が表示されているイラスト。
+Caption (small text below):
+電磁的な地図には、座標値がちゃんと入ってるんです
+
+--- CARD 3 ---
+Heading (bold):
+地域区分に応じて、地図の縮尺が定められている
+Illustration: 3つの地域（市街地・村落農耕地・山林原野）のアイコンが並び、それぞれ異なる縮尺の目盛りが付されている。
+Caption (small text below):
+地域ごとに、地図の縮尺は決まってるんです
+
+--- CARD 4 ---
+Heading (bold):
+表題部所有者・所有権登記名義人・その相続人等は訂正の申出ができる
+Illustration: 地図の誤った区画線を指差す所有者アイコンと、その隣に立つ相続人アイコンが、法務局アイコンに「訂正申出書」を提出している。
+Caption (small text below):
+相続人でも、地図の訂正を申し出られるんです
+
+--- CARD 5 ---
+Heading (bold):
+市街地地域の精度は「甲三まで」では甘い
+Illustration: 精度区分のはしごアイコン（甲一・甲二・甲三…）の中で、市街地アイコンから上位の「甲一」への矢印が強調され、「甲三」には×マーク。
+Caption (small text below):
+市街地の精度、「甲三まで」じゃ甘いんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

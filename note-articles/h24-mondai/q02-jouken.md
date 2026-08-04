@@ -48,15 +48,13 @@
 
 **たとえば**、BさんがAさんに「大学で進級できなかったら、それ以降は奨学金を支払わない」と約束していた場合、Aさんが実際に進級できなかった時点で、Bさんがその事実をまだ知らなくても、Bさんは自動的にその後の奨学金支払義務を免れます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 農地法の許可は行政処分であり、130条のみなし成就では代替できない |
-| イ | 誤 | 期限付き催告と一体化した条件付き解除の意思表示は有効 |
-| ウ | 正 | 停止条件付き贈与契約の請求権は仮登記で保全できる（不登法105条2号） |
-| エ | 誤 | 条件成就前の期待的地位は、確定的な損害賠償請求権までは生じさせない |
-| オ | 正 | 解除条件成就の効果は、知・不知にかかわらず当然に生じる（民法127条2項） |
+- **ア（誤）**　農地法の許可は行政処分であり、130条のみなし成就では代替できない
+- **イ（誤）**　期限付き催告と一体化した条件付き解除の意思表示は有効
+- **ウ（正）**　停止条件付き贈与契約の請求権は仮登記で保全できる（不登法105条2号）
+- **エ（誤）**　条件成就前の期待的地位は、確定的な損害賠償請求権までは生じさせない
+- **オ（正）**　解除条件成就の効果は、知・不知にかかわらず当然に生じる（民法127条2項）
 
 「私法上の条件成就」と「行政処分の存在」を混同しないこと、そして条件成就の効果は当事者の認識と無関係に生じることの2点が、この分野の得点を左右します。
 
@@ -80,3 +78,81 @@
 - 「結婚したら贈与」でも仮登記できるって知ってた？
 - 条件成就前の期待権、損害賠償まではまだ生まれないんです
 - 知らなくても、条件が成就すれば効果は生じるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: contract documents, calendars,
+scales, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 条・件・許・可・贈・与・権 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+条件付きの契約、成就するとどうなる？
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第2問／法律行為に付された条件
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 分岐点のアイコン。左側に「条件成就前」（曇りマーク）、右側に「条件成就後」（晴れマーク）の対比イラスト。中央に契約書と天秤のアイコン。
+条件（停止条件・解除条件）は、不動産登記法の仮登記と結び付けて出題される重要分野です。「条件が成就するとどうなるか」「条件付きの権利をどう保全するか」という2本柱で整理しましょう。
+
+--- CARD 1 ---
+Heading (bold):
+農地の許可、私人の意思表示じゃ代わりにできない
+Illustration: 農地のアイコンと役所（農業委員会）の建物アイコンの間に、売主が申請書類を隠すジェスチャー。買主アイコンが「みなして」と主張する吹き出しに大きな×マーク。
+Caption (small text below):
+農地の許可、私人の意思表示じゃ代わりにできないんです
+
+--- CARD 2 ---
+Heading (bold):
+期限付きの「解除するよ」通知は有効
+Illustration: 売主アイコンが「2週間以内に支払わなければ解除」というカレンダー付きの手紙を買主アイコンに渡すイラスト。手紙の横に○マーク。
+Caption (small text below):
+期限付きの「解除するよ」通知、実は有効なんです
+
+--- CARD 3 ---
+Heading (bold):
+「結婚したら贈与」でも仮登記できる
+Illustration: 指輪のアイコンと家のアイコンをつなぐ点線の矢印、その途中に「仮登記」のスタンプアイコン。
+Caption (small text below):
+「結婚したら贈与」でも仮登記できるって知ってた？
+
+--- CARD 4 ---
+Heading (bold):
+条件成就前の期待権、損害賠償まではまだ生まれない
+Illustration: 建物が炎上するイラストの横に、まだ大学に合格していない学生アイコンが立ち、損害賠償請求の書類に×マーク。
+Caption (small text below):
+条件成就前の期待権、損害賠償まではまだ生まれないんです
+
+--- CARD 5 ---
+Heading (bold):
+知らなくても、条件が成就すれば効果は生じる
+Illustration: 進級できなかった学生アイコンと、まだそれを知らない様子の奨学金提供者アイコン（頭上に「？」）の間に、自動的に閉じる財布のアイコン。
+Caption (small text below):
+知らなくても、条件が成就すれば効果は生じるんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

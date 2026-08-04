@@ -48,15 +48,13 @@
 
 **たとえば**、建物とその敷地が同じ登記所の管轄内にある場合、敷地権の発生による建物の表題部変更登記を申請する際に、その土地の登記事項証明書をわざわざ取り寄せて提出する必要はありません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 共用部分の更正登記でも、所有者を証する情報の提供は省略できない |
-| イ | 正 | 相続による表題登記でも、相続を証する市町村長作成の情報の提供が必要 |
-| ウ | 正 | 抵当証券が発行されていない抵当権があるときは、登記名義人の承諾証明情報が必要 |
-| エ | 誤 | 規約廃止後の表題登記でも、所有権を証する情報の提供は省略できない |
-| オ | 誤 | 同一管轄区域内の土地であれば、登記事項証明書の提供は不要 |
+- **ア（誤）**　共用部分の更正登記でも、所有者を証する情報の提供は省略できない
+- **イ（正）**　相続による表題登記でも、相続を証する市町村長作成の情報の提供が必要
+- **ウ（正）**　抵当証券が発行されていない抵当権があるときは、登記名義人の承諾証明情報が必要
+- **エ（誤）**　規約廃止後の表題登記でも、所有権を証する情報の提供は省略できない
+- **オ（誤）**　同一管轄区域内の土地であれば、登記事項証明書の提供は不要
 
 「登記官が自分の管轄内で確認できる情報は添付を省略できる」一方で、「所有関係を新たに証明する場面（更正・規約廃止後の表題登記）では省略できない」という対比を意識すると、この分野は整理しやすくなります。
 
@@ -81,3 +79,82 @@
 - 抵当証券ナシの抵当権、承諾証明がいるんです
 - 規約廃止後も、所有権証明は省略できないんです
 - 同じ登記所内なら、証明書はいらないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: building blueprints, document
+stacks, family trees for inheritance, certificate seals, etc. — adapt
+icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 添・付・証・共・用・抵・当・券 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の表題登記、何を添付する？
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第12問／建物の表示に関する登記の添付情報
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 建物のisometricイラストと、それに向かって差し出される複数の証明書アイコン（一部は登記官が省略を認めているものはグレーアウト）。
+建物の表示に関する登記の添付情報は、「登記官が自ら確認できる情報は省略できる」「所有関係を新たに証明する必要がある場面では省略できない」という2つの視点で整理すると理解しやすくなります。
+
+--- CARD 1 ---
+Heading (bold):
+共用部分の更正登記でも、所有者証明は省略できない
+Illustration: 「錯誤があったことを証する情報」だけの書類に×マーク、「所有者を証する情報」も追加される。
+Caption (small text below):
+共用部分の更正、所有者の証明も必要なんです
+
+--- CARD 2 ---
+Heading (bold):
+相続による表題登記でも、相続を証する情報が必要
+Illustration: 家系図アイコンと戸籍謄本アイコンが、表題登記の申請書に添付される。
+Caption (small text below):
+相続での表題登記、戸籍謄本が欠かせないんです
+
+--- CARD 3 ---
+Heading (bold):
+抵当証券がない抵当権があるときは、承諾証明情報が必要
+Illustration: 抵当権者アイコンが承諾書にサインしているイラスト。
+Caption (small text below):
+抵当証券ナシの抵当権、承諾証明がいるんです
+
+--- CARD 4 ---
+Heading (bold):
+規約廃止後の表題登記でも、所有権証明は省略できない
+Illustration: 「規約廃止証明書」だけの書類に×マーク、隣に「所有権を証する情報」も必要というラベル。
+Caption (small text below):
+規約廃止後も、所有権証明は省略できないんです
+
+--- CARD 5 ---
+Heading (bold):
+同じ登記所の管轄内なら、登記事項証明書はいらない
+Illustration: 同じ建物アイコンの下、建物と土地が同じ登記所の管轄円の中にあり、証明書アイコンに×マーク。
+Caption (small text below):
+同じ登記所内なら、証明書はいらないんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

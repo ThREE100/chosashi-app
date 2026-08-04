@@ -48,15 +48,13 @@
 
 **たとえば**、隣接するAさんの事務所建物とBさんの倉庫が、増改築によって物理的に1つの建物になったとします。この場合、AさんまたはBさんは、1個の建物になった日から1か月以内に、新しくなった建物の表題登記と、もとの甲建物の表題部登記の抹消をあわせて申請しなければなりません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 床面積の誤りを正す更正登記には、申請義務の期限はない |
-| イ | 誤 | 所有権を取得した者の申請義務は、改築完了日ではなく取得の日から起算される |
-| ウ | 正 | 共用部分の規約廃止後の表題登記は、廃止の日から1か月以内に申請義務がある |
-| エ | 誤 | 行政区画の名称変更は、当事者の申請義務ではなく、変更があったものとみなされる |
-| オ | 正 | 建物の合体による登記は、合体の日から1か月以内に申請義務がある |
+- **ア（誤）**　床面積の誤りを正す更正登記には、申請義務の期限はない
+- **イ（誤）**　所有権を取得した者の申請義務は、改築完了日ではなく取得の日から起算される
+- **ウ（正）**　共用部分の規約廃止後の表題登記は、廃止の日から1か月以内に申請義務がある
+- **エ（誤）**　行政区画の名称変更は、当事者の申請義務ではなく、変更があったものとみなされる
+- **オ（正）**　建物の合体による登記は、合体の日から1か月以内に申請義務がある
 
 「変更の登記には申請義務があるが、更正の登記や職権処理される事項には申請義務がない」という原則を押さえつつ、申請義務の起算点（現況が変わった日か、所有権を取得した日か）を混同しないことが重要です。
 
@@ -80,3 +78,82 @@
 - 規約廃止後は、1か月以内に表題登記なんです
 - 市町村名が変わっても、自分で申請しなくていいんです
 - 建物がくっついたら、1か月以内に手続きなんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: calendar with 1-month
+countdown, buildings merging, stamps, clocks, etc. — adapt icon set to
+the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 床・面・積・更・正・義・務・合・体 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+1か月以内の義務、あるものないもの
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第13問／建物の表示に関する登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: カレンダーのアイコンに「1か月」の輪が強調され、その隣に「義務なし」のグレーのカレンダーが並ぶisometricな対比イラスト。
+建物の表示に関する登記には「1か月以内に申請しなければならない」という申請義務が課される場面が多くありますが、更正の登記や行政区画名称の変更のように、義務が課されない（あるいは職権処理される）例外もあります。
+
+--- CARD 1 ---
+Heading (bold):
+床面積の誤りを正す更正登記には、期限はない
+Illustration: 誤った床面積の数字が書かれた建物図面アイコンの横に、期限なしのカレンダー（砂時計に×マーク）。
+Caption (small text below):
+床面積の誤り、更正登記に期限はないんです
+
+--- CARD 2 ---
+Heading (bold):
+申請義務の起算点は、取得した日から
+Illustration: 改築完了日のカレンダーに×マーク、所有権取得日のカレンダーに「1か月カウント開始」の矢印。
+Caption (small text below):
+申請義務の起算点、取得した日からなんです
+
+--- CARD 3 ---
+Heading (bold):
+共用部分の規約廃止後は、1か月以内に表題登記
+Illustration: 規約廃止のスタンプが押された書類の横に、1か月のカウントダウンタイマー。
+Caption (small text below):
+規約廃止後は、1か月以内に表題登記なんです
+
+--- CARD 4 ---
+Heading (bold):
+市町村名が変わっても、自分で申請しなくていい
+Illustration: 市町村合併を示す地図アイコンと、登記官が自動的に表示を書き換えるペンのアイコン。所有者アイコンは何もしていない様子。
+Caption (small text below):
+市町村名が変わっても、自分で申請しなくていいんです
+
+--- CARD 5 ---
+Heading (bold):
+建物がくっついたら、1か月以内に手続き
+Illustration: 隣接する2つの建物アイコンが1つに合体し、1か月のカウントダウンタイマーが付く。
+Caption (small text below):
+建物がくっついたら、1か月以内に手続きなんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

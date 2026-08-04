@@ -46,15 +46,13 @@
 
 **たとえば**、分譲会社が「この物件については、専有部分（部屋）だけを売買したり、敷地利用権だけを別に処分したりできるようにします」とあらかじめ公正証書で定めておくことができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| 1 | 適切 | 規約共用部分の設定は、公正証書による単独設定の対象（区分所有法32条） |
-| 2 | 適切 | 規約敷地の設定は、公正証書による単独設定の対象（区分所有法32条） |
-| 3 | 不適切 | 法定共用部分の持分割合の変更は、32条の列挙事項に含まれない |
-| 4 | 適切 | 敷地利用権の持分割合の別段の定めは、公正証書による単独設定の対象（区分所有法32条） |
-| 5 | 適切 | 専有部分と敷地利用権の分離処分を可能にする定めは、公正証書による単独設定の対象（区分所有法32条） |
+- **1（適切）**　規約共用部分の設定は、公正証書による単独設定の対象（区分所有法32条）
+- **2（適切）**　規約敷地の設定は、公正証書による単独設定の対象（区分所有法32条）
+- **3（不適切）**　法定共用部分の持分割合の変更は、32条の列挙事項に含まれない
+- **4（適切）**　敷地利用権の持分割合の別段の定めは、公正証書による単独設定の対象（区分所有法32条）
+- **5（適切）**　専有部分と敷地利用権の分離処分を可能にする定めは、公正証書による単独設定の対象（区分所有法32条）
 
 区分所有法32条が認める「最初の所有者による公正証書単独設定」は、①規約共用部分、②規約敷地、③敷地利用権の分離処分、④敷地利用権の持分割合の別段の定め、の4つに限定されています。この4つに当てはまるかどうかで機械的に判定できる問題です。
 
@@ -67,6 +65,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・選択肢の全文・正解番号（3番）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - 各選択肢の判定根拠は、区分所有法32条（最初に建物の専有部分の全部を所有する者による公正証書での規約設定）が、同法4条2項（規約共用部分）・5条1項（規約敷地）・22条1項ただし書（分離処分を可能にする定め）・22条2項ただし書（敷地利用権の持分割合の別段の定め）の4事項に限定列挙されているという条文構造に基づく整理です。この条文の構造自体は確立した基本知識ですが、条番号（4条2項・5条1項・22条1・2項）は本記事作成時点で条文原文と逐一照合できておらず、一般的な理解に基づく記載です。noteに掲載する前に、区分所有法（建物の区分所有等に関する法律）32条・4条・5条・22条の条文原文（e-Gov法令検索等）での確認を推奨します。
+- **最新法令チェック（2026-08-04実施）**：「老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律」（令和7年法律第47号、令和8年4月施行）により区分所有法が改正されていることをWeb検索で確認しました。ただし、この改正は主に集会決議要件（39条1項、大規模修繕等の決議要件緩和）とマンション再生手法（建替え以外の再生スキームの拡充）に関するものであり、本問がテーマとする32条（最初の所有者による公正証書規約設定）・4条・5条・22条の基本的な仕組み自体が変更されたことを示す情報は見つかりませんでした。もっとも、条文原文レベルでの改正前後の逐語比較までは行えていないため、noteへの掲載前に32条周辺の条文が令和7年改正の影響を受けていないか、最新の条文（e-Gov法令検索等）で再確認することを推奨します。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「公正証書」「専有部分の全部を所有する者」「区分所有」がテーマの問題を確認しました。専有部分と敷地利用権の分離処分（区分所有法22条関連）に触れる出題は令和4年度第18問など複数見られますが、本問のように区分所有法32条の公正証書による規約設定を正面からテーマとし、「規約として適切なものとならない設定」を単一選択で問う出題形式・内容と完全に一致するものは見つかりませんでした。**内容の重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -78,3 +77,82 @@
 - 法定共用部分の持分、実は公正証書じゃ変えられないんです
 - 敷地利用権の割合、公正証書で自由に決められるんです
 - 部屋と敷地権、分離処分できるようにもできるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: notary seals, condominium
+buildings, shared common areas, land plots, etc. — adapt icon set to
+the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 公・正・証・書・規・約・敷・地 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+公正証書で決められる規約、決められない規約
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第18問／区分所有法32条
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 分譲マンションのisometricイラストの前に、公正証書のアイコンを持つ最初の所有者（分譲会社）のキャラクター。
+最初に建物の専有部分の全部を所有する者（分譲会社）は、公正証書によって一定の規約をあらかじめ設定しておくことができます。ただし、この「最初の所有者による単独設定」が認められる規約の内容は、区分所有法32条によって4つの事項に限定されています。
+
+--- CARD 1 ---
+Heading (bold):
+集会室を共用部分にすることは、公正証書でOK
+Illustration: マンションの集会室アイコンに「共用部分」のラベルと公正証書のスタンプ。
+Caption (small text below):
+集会室を共用部分にするの、公正証書でOKなんです
+
+--- CARD 2 ---
+Heading (bold):
+庭や通路も、公正証書で敷地にできる
+Illustration: マンション本体に隣接する庭・通路のアイコンに「敷地」のラベルと公正証書のスタンプ。
+Caption (small text below):
+庭や通路も、公正証書で敷地にできるんです
+
+--- CARD 3 ---
+Heading (bold):
+法定共用部分の持分割合は、公正証書では変えられない
+Illustration: 階段室・エレベーターの共用部分アイコンに、持分割合を変更しようとする矢印と大きな×マーク。
+Caption (small text below):
+法定共用部分の持分、実は公正証書じゃ変えられないんです
+
+--- CARD 4 ---
+Heading (bold):
+敷地利用権の割合は、公正証書で自由に決められる
+Illustration: 各住戸アイコンに異なる割合のパイチャートが割り当てられ、公正証書のスタンプが押される。
+Caption (small text below):
+敷地利用権の割合、公正証書で自由に決められるんです
+
+--- CARD 5 ---
+Heading (bold):
+部屋と敷地権を分離処分できるようにもできる
+Illustration: 専有部分（部屋）アイコンと敷地利用権アイコンの間の鎖が外れ、別々に処分できることを示す矢印。
+Caption (small text below):
+部屋と敷地権、分離処分できるようにもできるんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

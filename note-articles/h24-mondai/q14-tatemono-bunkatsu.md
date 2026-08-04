@@ -48,15 +48,13 @@
 
 **たとえば**、甲建物とその附属建物である車庫について、Aさんを所有権登記名義人とする所有権の登記がされていたとします。この車庫を分割して独立した乙建物とした場合、乙建物の登記記録にも、Aさんが分割によって所有権を取得した旨の登記が記録されます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 所有権移転の前提として、買主が売主に代位して分割登記を申請できる |
-| イ | 誤 | 附属建物の主従を入れ替えるのに、2棟とも分割してからやり直す必要はない |
-| ウ | 誤 | 分割登記の申請だけで、抵当権の消滅登記まで一体として行うことはできない |
-| エ | 誤 | 建物の分割登記は、主である建物を管轄する登記所に申請する |
-| オ | 正 | 分割によって生じた乙建物には、分割前の所有権登記がそのまま引き継がれる |
+- **ア（正）**　所有権移転の前提として、買主が売主に代位して分割登記を申請できる
+- **イ（誤）**　附属建物の主従を入れ替えるのに、2棟とも分割してからやり直す必要はない
+- **ウ（誤）**　分割登記の申請だけで、抵当権の消滅登記まで一体として行うことはできない
+- **エ（誤）**　建物の分割登記は、主である建物を管轄する登記所に申請する
+- **オ（正）**　分割によって生じた乙建物には、分割前の所有権登記がそのまま引き継がれる
 
 「表示登記と権利登記は別の手続」「管轄は主である建物を基準に判断する」という2つの原則を押さえておくと、この分野は整理しやすくなります。
 
@@ -80,3 +78,82 @@
 - 抵当権の消滅、分割登記だけじゃ済まないんです
 - 分割登記は、主である建物の登記所に出すんです
 - 分割後の建物にも、所有権登記は引き継がれるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: buildings splitting apart,
+office buildings representing registry offices, arrows, etc. — adapt
+icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 建・物・分・割・附・属・代・位 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の分割登記、誰が・どこに申請する？
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第14問／建物の分割の登記等
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 主である建物と附属建物が1つのisometricイラストで描かれ、点線で切り離される様子。
+建物の分割の登記は、附属建物を独立した1個の建物として切り離す表示登記です。「表示登記でできること」と「権利登記が必要なこと」の境界線、そして管轄・代位申請のルールを問う問題です。
+
+--- CARD 1 ---
+Heading (bold):
+買主でも、売主に代わって分割登記を申請できる
+Illustration: 車庫だけを買った買主アイコンが、売主アイコンに代わって分割登記の申請書を法務局アイコンに提出している。
+Caption (small text below):
+買主でも、売主に代わって分割登記できるんです
+
+--- CARD 2 ---
+Heading (bold):
+主従の入れ替えに、2段階の手続はいらない
+Illustration: 「分割→分割→合併」の3ステップに大きな×マーク、隣に簡略化された1ステップの矢印。
+Caption (small text below):
+主従の入れ替え、実は2段階もいらないんです
+
+--- CARD 3 ---
+Heading (bold):
+抵当権の消滅は、分割登記だけでは済まない
+Illustration: 分割登記の書類と、別に必要な抵当権抹消登記の書類が並ぶイラスト。
+Caption (small text below):
+抵当権の消滅、分割登記だけじゃ済まないんです
+
+--- CARD 4 ---
+Heading (bold):
+分割登記は、主である建物の登記所に申請する
+Illustration: 主である建物のある甲登記所の建物アイコンが強調され、附属建物のある乙登記所にはグレーの×マーク。
+Caption (small text below):
+分割登記は、主である建物の登記所に出すんです
+
+--- CARD 5 ---
+Heading (bold):
+分割後の建物にも、所有権登記は引き継がれる
+Illustration: 分割前の建物の所有権登記アイコンから、分割後に生じた乙建物へ矢印が伸び、同じ所有権登記が引き継がれる。
+Caption (small text below):
+分割後の建物にも、所有権登記は引き継がれるんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

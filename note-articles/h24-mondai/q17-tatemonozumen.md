@@ -48,15 +48,13 @@
 
 **たとえば**、既存の居宅に新しく物置を建て増しして附属建物とする変更登記を申請する場合、提出する建物図面には、新築した物置の部分だけでなく、もとからある居宅の部分も含めて描く必要があります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 建物図面・各階平面図は、主である建物と附属建物を合わせて1個の建物ごとに作成する |
-| イ | 誤 | 書面作成時の線の太さは「0.3ミリメートル以下」ではなく、より細い線が求められる |
-| ウ | 正 | 極めて小さくなる建物は、位置のみ記入して余白に拡大表示できる |
-| エ | 誤 | 各階平面図の縮尺は、250分の1が適当でない場合でも「500分の1」に限定されない |
-| オ | 正 | 附属建物新築による変更登記でも、建物図面は主である建物も含めて記録する |
+- **ア（正）**　建物図面・各階平面図は、主である建物と附属建物を合わせて1個の建物ごとに作成する
+- **イ（誤）**　書面作成時の線の太さは「0.3ミリメートル以下」ではなく、より細い線が求められる
+- **ウ（正）**　極めて小さくなる建物は、位置のみ記入して余白に拡大表示できる
+- **エ（誤）**　各階平面図の縮尺は、250分の1が適当でない場合でも「500分の1」に限定されない
+- **オ（正）**　附属建物新築による変更登記でも、建物図面は主である建物も含めて記録する
 
 線の太さ・縮尺のような数値は覚え間違えやすいポイントなので、「原則の数値」と「例外の柔軟な扱い」をセットで整理しておくことをおすすめします。
 
@@ -80,3 +78,81 @@
 - 小さい建物は、余白に拡大表示できるんです
 - 各階平面図、500分の1縛りじゃないんです
 - 附属建物だけじゃなく、主である建物も描くんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: technical drawings, rulers,
+pencils, scale bars, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 建・物・図・面・縮・尺・附・属 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物図面の作り方、細部のルール
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第17問／建物図面又は各階平面図
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 製図中の建物図面アイコンと、定規・コンパス・鉛筆のisometricなイラスト。
+建物図面・各階平面図の作成ルールは、細かい数値（線の太さ・縮尺）が出題されやすい分野です。「原則の数値」と「例外的な取扱い」を正確に区別できているかがポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+建物図面・各階平面図は、附属建物も合わせて1個の建物ごとに作成
+Illustration: 主である建物と附属建物（物置）が1枚の図面の中にまとめて描かれているイラスト。
+Caption (small text below):
+建物図面、附属建物も一緒に作るんです
+
+--- CARD 2 ---
+Heading (bold):
+書面作成時の線の太さは、0.3ミリでは太すぎる
+Illustration: 太い線で描かれた図面に×マーク、細い線で描かれた図面に○マーク。
+Caption (small text below):
+0.3ミリの線、実は太すぎるんです
+
+--- CARD 3 ---
+Heading (bold):
+極めて小さい建物は、余白に拡大表示できる
+Illustration: 図面の隅に点のように小さく描かれた建物から矢印が伸び、余白に拡大表示された図が描かれる。
+Caption (small text below):
+小さい建物は、余白に拡大表示できるんです
+
+--- CARD 4 ---
+Heading (bold):
+各階平面図の縮尺は、500分の1に限定されない
+Illustration: 「250分の1」の目盛りに×マーク（不適当な場合）、その先に複数の縮尺オプションが並ぶ。
+Caption (small text below):
+各階平面図、500分の1縛りじゃないんです
+
+--- CARD 5 ---
+Heading (bold):
+附属建物新築の変更登記でも、建物図面は主である建物も含めて記録
+Illustration: 新築された附属建物（物置）だけでなく、既存の主である建物も一緒に描かれた建物図面。
+Caption (small text below):
+附属建物だけじゃなく、主である建物も描くんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

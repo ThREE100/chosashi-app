@@ -48,15 +48,13 @@
 
 **たとえば**、地積測量図に記載された地番が、他の登記所備え付け資料と照合すれば誤りであることが一目瞭然だったとしても、申出人は「訂正後の正しい地番を記載した地積測量図」自体を作成して提供しなければならず、「資料を見れば分かるから図面の提出は省略します」ということはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 相続人の一人からでも地積測量図の訂正の申出はできる |
-| イ | 誤 | 登記記録の地積そのものが変わる場合は、訂正ではなく地積の更正登記による |
-| ウ | 正 | 住所変更を証する情報を提供すれば、住所相違があっても申出できる |
-| エ | 誤 | 委任状への押印について、申出人の印鑑証明書の添付までは求められない |
-| オ | 正 | 訂正事由が資料から明らかでも、訂正後の地積測量図の提供は省略できない |
+- **ア（誤）**　相続人の一人からでも地積測量図の訂正の申出はできる
+- **イ（誤）**　登記記録の地積そのものが変わる場合は、訂正ではなく地積の更正登記による
+- **ウ（正）**　住所変更を証する情報を提供すれば、住所相違があっても申出できる
+- **エ（誤）**　委任状への押印について、申出人の印鑑証明書の添付までは求められない
+- **オ（正）**　訂正事由が資料から明らかでも、訂正後の地積測量図の提供は省略できない
 
 「訂正でできること（図面の記載誤りの是正）」と「更正登記が必要なこと（実際の地積の変更）」を混同しないことが、この分野の最大のポイントです。
 
@@ -80,3 +78,81 @@
 - 住所が変わっても、証明情報があれば申し出られるんです
 - 委任状に印鑑証明書、実はいらないんです
 - 誤りが明らかでも、訂正後の図面は必要なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: measurement diagrams, pencils,
+magnifying glass, official documents, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 地・積・測・量・図・訂・正・証 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地積測量図の「訂正」でできること
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第9問／地積測量図の訂正の申出
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 地積測量図のアイコンに赤ペンで訂正マークが入るisometricなイラスト。
+地積測量図の訂正の申出は、「登記記録の内容を変える手続」ではなく「図面そのものの誤記を正す手続」である点が最大のポイントです。実際に地積が変わる場合は、訂正ではなく地積の更正登記が必要になります。
+
+--- CARD 1 ---
+Heading (bold):
+相続人が複数いても、一人で訂正を申し出られる
+Illustration: 3人兄弟のアイコンのうち1人だけが訂正申出書を法務局アイコンに提出している。
+Caption (small text below):
+相続人が複数いても、一人で訂正を申し出られるんです
+
+--- CARD 2 ---
+Heading (bold):
+地積そのものが変わるなら、訂正ではなく更正登記
+Illustration: 「訂正」の書類に×マーク、隣に「地積の更正登記」の書類が強調されるイラスト。
+Caption (small text below):
+地積が変わるなら、訂正じゃなく更正登記なんです
+
+--- CARD 3 ---
+Heading (bold):
+住所が変わっても、証明情報があれば申し出られる
+Illustration: 引っ越しアイコンと住民票の写しアイコンが、訂正申出書に添付されるイラスト。
+Caption (small text below):
+住所が変わっても、証明情報があれば申し出られるんです
+
+--- CARD 4 ---
+Heading (bold):
+委任状には、印鑑証明書はいらない
+Illustration: 委任状のアイコンに記名押印マークがあり、隣の印鑑証明書アイコンには×マーク。
+Caption (small text below):
+委任状に印鑑証明書、実はいらないんです
+
+--- CARD 5 ---
+Heading (bold):
+誤りが明らかでも、訂正後の図面は必要
+Illustration: 「資料を見れば明らか」の吹き出しの横に、それでも新しい地積測量図を作成する測量士アイコン。
+Caption (small text below):
+誤りが明らかでも、訂正後の図面は必要なんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

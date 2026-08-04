@@ -48,15 +48,13 @@
 
 **たとえば**、道路拡幅工事のために、地方公共団体が私人の土地の一部を分筆する必要が生じ、その私人に代わって分筆の登記を嘱託する場合、この分筆登記には登録免許税がかかりません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 錯誤による分筆登記の抹消は非課税であり、1,000円はかからない |
-| イ | 誤 | 敷地権付きの土地でも、分筆登記には通常どおり登録免許税がかかる |
-| ウ | 誤 | 所有権登記名義人が異なる建物の合体登記は、権利登記も伴い1,000円では済まない |
-| エ | 正 | 分筆と合筆を一の申請情報でまとめて申請すると、登録免許税は合計2,000円 |
-| オ | 正 | 地方公共団体が代位で嘱託する分筆の登記は非課税 |
+- **ア（誤）**　錯誤による分筆登記の抹消は非課税であり、1,000円はかからない
+- **イ（誤）**　敷地権付きの土地でも、分筆登記には通常どおり登録免許税がかかる
+- **ウ（誤）**　所有権登記名義人が異なる建物の合体登記は、権利登記も伴い1,000円では済まない
+- **エ（正）**　分筆と合筆を一の申請情報でまとめて申請すると、登録免許税は合計2,000円
+- **オ（正）**　地方公共団体が代位で嘱託する分筆の登記は非課税
 
 分筆・合筆の定額課税（1筆1,000円）を基本としつつ、「非課税になる特別な場面（抹消・地方公共団体の代位嘱託）」と「権利登記が絡んで定額では済まなくなる場面」を区別することが得点のカギです。
 
@@ -80,3 +78,81 @@
 - 合体登記、1,000円じゃ済まないことがあるんです
 - 分筆＋合筆、まとめて2,000円で済むんです
 - 自治体の代位嘱託、実は税金かからないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: coins, receipts, tax stamps,
+calculators, government buildings, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 登・録・免・許・税・課・非・嘱 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+登録免許税、かかる場面・かからない場面
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第19問／登録免許税
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 電卓アイコンと硬貨のアイコン、その横に「1,000円」のラベルが付いた申請書アイコン。
+表示に関する登記の登録免許税は、権利に関する登記のような不動産価額に応じた定率課税ではなく、多くが定額課税（分筆・合筆は1筆につき1,000円）となっているのが特徴です。「非課税になる場面」と「定額課税が積み上がる場面」を正確に区別しましょう。
+
+--- CARD 1 ---
+Heading (bold):
+錯誤による分筆登記の抹消は、非課税
+Illustration: 分筆登記の抹消申請書アイコンに「非課税」のスタンプ。
+Caption (small text below):
+錯誤で分筆を取り消すの、実は非課税なんです
+
+--- CARD 2 ---
+Heading (bold):
+敷地権付きの土地でも、分筆登記には税金がかかる
+Illustration: マンション敷地の土地アイコンの分筆申請書に、1,000円の税金スタンプ。
+Caption (small text below):
+敷地権付きでも、分筆の税金はかかるんです
+
+--- CARD 3 ---
+Heading (bold):
+所有者が異なる建物の合体登記は、1,000円では済まない
+Illustration: AさんとBさんの建物が合体し、追加の権利登記書類が並ぶイラスト。
+Caption (small text below):
+合体登記、1,000円じゃ済まないことがあるんです
+
+--- CARD 4 ---
+Heading (bold):
+分筆と合筆を一括申請すると、合計2,000円
+Illustration: 「分筆1,000円＋合筆1,000円＝2,000円」を示す計算式アイコン。
+Caption (small text below):
+分筆＋合筆、まとめて2,000円で済むんです
+
+--- CARD 5 ---
+Heading (bold):
+地方公共団体の代位嘱託による分筆登記は非課税
+Illustration: 地方公共団体（役所）アイコンが分筆登記を代位で嘱託し、「非課税」のスタンプが押される。
+Caption (small text below):
+自治体の代位嘱託、実は税金かからないんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

@@ -50,15 +50,13 @@
 
 **たとえば**、Aさんが隣接する乙土地の所有者Fさんとの間で「自分が所有している範囲はここまでだ」という所有権確認の訴えを起こし、その判決が確定したとします。それでもAさんは、あらためて甲土地・乙土地の筆界そのものを明らかにするために、筆界特定の申請をすることができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 資料が偽造されていたなど重大な事由があれば、同一筆界の再申請ができる |
-| イ | 正 | 直接筆界を接しない土地同士（甲・丙）は対象土地にできない |
-| ウ | 誤 | 抵当権者には筆界特定の申請適格がない |
-| エ | 誤 | 無地番の土地同士は筆界特定の対象土地にできない |
-| オ | 正 | 所有権確認訴訟の判決が確定していても、筆界特定の申請は妨げられない |
+- **ア（誤）**　資料が偽造されていたなど重大な事由があれば、同一筆界の再申請ができる
+- **イ（正）**　直接筆界を接しない土地同士（甲・丙）は対象土地にできない
+- **ウ（誤）**　抵当権者には筆界特定の申請適格がない
+- **エ（誤）**　無地番の土地同士は筆界特定の対象土地にできない
+- **オ（正）**　所有権確認訴訟の判決が確定していても、筆界特定の申請は妨げられない
 
 「筆界」と「所有権の範囲」は別の概念であること、そして申請人適格・対象土地の要件を図の位置関係とセットで確認することが、この問題を解く鍵です。
 
@@ -82,3 +80,82 @@
 - 抵当権者じゃ、筆界特定は申請できないんです
 - 無地番同士、実は筆界特定できないんです
 - 所有権の裁判と筆界特定、実は別物なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: adjacent land plots, gavel/
+court icons, magnifying glass, dotted boundary lines, etc. — adapt icon
+set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 筆・界・特・定・抵・当・権・訴 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定できる人・できない人
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第10問／筆界特定の申請
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 隣接する甲土地・乙土地・丙土地のisometric地図に、点線の筆界線と虫眼鏡を持つ筆界特定登記官のアイコン。
+筆界特定制度は、筆界（登記上の土地の境）を公的に明らかにする手続です。「誰が申請できるか（申請人適格）」「どの土地が対象になるか（対象土地の要件）」「所有権の範囲とは別物であること」を正確に理解できているかがポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+資料が偽造なら、筆界特定はやり直せる
+Illustration: 古い書類アイコンに「偽造」のラベルと×マーク、その横に新しい筆界特定の申請書。
+Caption (small text below):
+資料が偽造なら、筆界特定はやり直せるんです
+
+--- CARD 2 ---
+Heading (bold):
+隣り合っていない土地は、対象にできない
+Illustration: 甲土地・乙土地・丙土地が並ぶ地図で、間に挟まれた乙土地のせいで甲と丙の間に破線と×マーク。
+Caption (small text below):
+隣り合ってない土地は、対象にできないんです
+
+--- CARD 3 ---
+Heading (bold):
+抵当権者は、筆界特定を申請できない
+Illustration: 抵当権者アイコンが申請書を差し出そうとしているが、受付窓口に×マーク。
+Caption (small text below):
+抵当権者じゃ、筆界特定は申請できないんです
+
+--- CARD 4 ---
+Heading (bold):
+無地番の土地同士は、筆界特定できない
+Illustration: 地番のない水路アイコンと道路アイコンが並び、その間の破線に×マーク。
+Caption (small text below):
+無地番同士、実は筆界特定できないんです
+
+--- CARD 5 ---
+Heading (bold):
+所有権の裁判と筆界特定は別物
+Illustration: 裁判所の判決書アイコンと、それとは別に虫眼鏡で境界を調べる筆界特定登記官のアイコンが並ぶ。間に「別次元」の仕切り線。
+Caption (small text below):
+所有権の裁判と筆界特定、実は別物なんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

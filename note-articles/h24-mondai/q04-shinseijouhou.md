@@ -48,15 +48,13 @@
 
 **たとえば**、甲土地を分筆して乙土地を新たに生じさせる場合、申請情報には分筆後の乙土地の地目・地積とあわせて、「〇〇市〇〇町字〇〇」という所在についても記載しなければなりません。「所在は省略できる」ということはありません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 地番は登記官が付すものであり、申請情報に記載する事項ではない（不登規則98条） |
-| イ | 正 | 分筆後の一部にのみ地役権が及ぶときは新図面を提出すれば足り、旧図面番号の記載は不要 |
-| ウ | 正 | 登記識別情報を提供できないときは、その理由を申請情報の内容とする（不登令3条12号） |
-| エ | 誤 | 法人代表者の氏名は申請情報の記載事項であり、登記記録の表題部には記録されない |
-| オ | 誤 | 分筆後の土地の所在（市区町村字）も申請情報として必要 |
+- **ア（誤）**　地番は登記官が付すものであり、申請情報に記載する事項ではない（不登規則98条）
+- **イ（正）**　分筆後の一部にのみ地役権が及ぶときは新図面を提出すれば足り、旧図面番号の記載は不要
+- **ウ（正）**　登記識別情報を提供できないときは、その理由を申請情報の内容とする（不登令3条12号）
+- **エ（誤）**　法人代表者の氏名は申請情報の記載事項であり、登記記録の表題部には記録されない
+- **オ（誤）**　分筆後の土地の所在（市区町村字）も申請情報として必要
 
 「登記官が定める事項（地番）」「申請人を特定するための事項（代表者氏名）」「登記記録に記録される事項」の3つを区別できると、この手の問題は整理しやすくなります。
 
@@ -80,3 +78,81 @@
 - 権利証をなくしても、理由を書けば申請できるんです
 - 法人の代表者名、実は登記記録には残らないんです
 - 分筆でも、土地の所在はちゃんと書くんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: application forms, clipboards,
+land plots, official seals, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 申・請・識・別・録・番 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+申請情報、何を書いて何を書かない？
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第4問／申請情報
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 申請書のクリップボードアイコンの上に、記入すべき項目と記入不要な項目を仕分けするisometricな手のイラスト。
+「申請情報として何を記載しなければならないか」は、表示に関する登記の実務の入り口にあたる分野です。地番のように登記官が定める事項と、申請人が記載すべき事項とを混同しないことがポイントです。
+
+--- CARD 1 ---
+Heading (bold):
+地番は登記官が付すものであり、申請情報に書かなくていい
+Illustration: 申請書のアイコンに「地番：〇〇」の欄が空白のまま提出され、登記官のアイコンがスタンプで地番を書き込む様子。
+Caption (small text below):
+地番、実は申請情報に書かなくていいんです
+
+--- CARD 2 ---
+Heading (bold):
+新しい地役権図面があれば、古い図面番号は不要
+Illustration: 古い地役権図面のアイコンに薄いグレーの×マーク、隣に新しい地役権図面のアイコンが強調されて申請書に添付される様子。
+Caption (small text below):
+新しい地役権図面があれば、古い番号は不要なんです
+
+--- CARD 3 ---
+Heading (bold):
+権利証をなくしても、理由を書けば申請できる
+Illustration: 破れた権利証（登記識別情報）のアイコンの横に、「失念した理由」を書き込む申請書のアイコン。
+Caption (small text below):
+権利証をなくしても、理由を書けば申請できるんです
+
+--- CARD 4 ---
+Heading (bold):
+法人の代表者名は、登記記録には残らない
+Illustration: 申請書には「代表取締役A」の記載があるが、完成した登記記録のカードには会社名だけが残り、代表者名の部分に薄い×マーク。
+Caption (small text below):
+法人の代表者名、実は登記記録には残らないんです
+
+--- CARD 5 ---
+Heading (bold):
+分筆でも、土地の所在はちゃんと書く
+Illustration: 分筆された甲土地・乙土地のisometric地図アイコンに、それぞれ「〇〇市〇〇町字〇〇」という所在ラベルが付されている。
+Caption (small text below):
+分筆でも、土地の所在はちゃんと書くんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

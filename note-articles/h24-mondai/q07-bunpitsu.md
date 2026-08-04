@@ -46,15 +46,13 @@
 
 **たとえば**、マンションの敷地となっている甲土地について、地上権が敷地権として登記されている場合でも、その甲土地自体の分筆登記を申請するのは土地の所有者（地主）であり、マンションの各区分所有者全員が揃って申請する必要はありません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 地役権の範囲が変わるときは、既存図面があっても新たな地役権図面の提供が必要 |
-| イ | 誤 | 分筆後に地役権が甲土地全部に及ぶ場合の登記記録の処理方法について、肢の記述には誤りがある（詳細未確認） |
-| ウ | 正 | 要役地の分筆で地役権を消滅させるときは、担保価値保護のため抵当権者の承諾も必要になりうる |
-| エ | 誤 | 分筆の登記だけでは共有関係は変わらず、別途持分移転登記（共有物分割）が必要 |
-| オ | 誤 | 敷地権の目的である土地の分筆は、土地の所有権登記名義人が申請する（区分建物所有者全員ではない） |
+- **ア（正）**　地役権の範囲が変わるときは、既存図面があっても新たな地役権図面の提供が必要
+- **イ（誤）**　分筆後に地役権が甲土地全部に及ぶ場合の登記記録の処理方法について、肢の記述には誤りがある（詳細未確認）
+- **ウ（正）**　要役地の分筆で地役権を消滅させるときは、担保価値保護のため抵当権者の承諾も必要になりうる
+- **エ（誤）**　分筆の登記だけでは共有関係は変わらず、別途持分移転登記（共有物分割）が必要
+- **オ（誤）**　敷地権の目的である土地の分筆は、土地の所有権登記名義人が申請する（区分建物所有者全員ではない）
 
 地役権が絡む分筆、共有地の分筆、敷地権の目的地の分筆は、いずれも「分筆登記だけで完結するか、別の手続が必要か」という視点で整理すると理解しやすくなります。
 
@@ -78,3 +76,82 @@
 - 分筆しただけじゃ、共有はまだ解消されないんです
 - 敷地権があっても、分筆は地主が申請するんです
 - イの肢、実は正誤の根拠がまだ確認できてないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: land plots being split,
+diagrams, seals, question marks for uncertain items, etc. — adapt icon
+set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 分・筆・地・役・権・図・共・有 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+分筆しただけで共有は解消される？
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第7問／分筆の登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 1枚の土地アイコンが点線で2つに分かれ、甲土地・乙土地というラベルが付くisometricなイラスト。
+分筆の登記は、一筆の土地を複数の土地に分ける表示登記ですが、地役権・共有・敷地権が絡むと、単純な分筆だけでは済まない場面が出てきます。「分筆登記だけでできること」と「別途の手続や情報提供が必要なこと」を区別しましょう。
+
+--- CARD 1 ---
+Heading (bold):
+地役権の範囲が変わるときは、新たな地役権図面が必要
+Illustration: 古い地役権図面のアイコンの横に、範囲が縮小した新しい地役権図面が強調され、申請書に添付される様子。
+Caption (small text below):
+地役権の範囲が変わるなら、図面も作り直すんです
+
+--- CARD 2 ---
+Heading (bold):
+要役地の分筆で地役権を消すには、抵当権者の承諾も必要
+Illustration: 地役権消滅の書類の横に、抵当権者アイコンが承諾のハンコを押しているイラスト。
+Caption (small text below):
+地役権を消すには、抵当権者の承諾もいるんです
+
+--- CARD 3 ---
+Heading (bold):
+分筆の登記だけでは、共有はまだ解消されない
+Illustration: 分筆された甲土地・乙土地の両方に、A・B共有を示す2人のアイコンがそのまま残っているイラスト。
+Caption (small text below):
+分筆しただけじゃ、共有はまだ解消されないんです
+
+--- CARD 4 ---
+Heading (bold):
+敷地権の目的である土地の分筆は、地主が申請する
+Illustration: マンションのisometricイラストの下の土地アイコンに、地主（土地所有者）アイコンが分筆申請書を提出している。区分所有者たちは背景に控えめに描く。
+Caption (small text below):
+敷地権があっても、分筆は地主が申請するんです
+
+--- CARD 5 ---
+Heading (bold):
+イの肢、実は正誤の根拠がまだ確認できていない
+Illustration: 虫眼鏡アイコンと「？」マークが重なる、調査中を示すイラスト。
+Caption (small text below):
+イの肢、実は正誤の根拠がまだ確認できてないんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

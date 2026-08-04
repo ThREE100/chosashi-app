@@ -48,15 +48,13 @@
 
 **たとえば**、甲土地には2件の抵当権（順位1番・2番）が付いており、乙土地には1件の抵当権（順位1番）しか付いていないとします。甲土地の順位2番と乙土地の順位1番の抵当権の内容がぴったり一致していても、甲土地の順位1番抵当権に対応するものが乙土地には存在しない以上、この2筆を合筆することはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 持分移転の登記を経ないまま、証明情報の提供だけで合筆はできない |
-| イ | 正 | 地目が同じでも、地番区域が異なれば合筆できない（不登法41条） |
-| ウ | 誤 | 双方に同一の地役権の登記がある場合は、合筆できないとは限らない |
-| エ | 誤 | 所有権の登記の有無が異なる土地同士は合筆できない（不登法41条） |
-| オ | 正 | 一部の抵当権が一致していても、他に一致しない抵当権が残っていれば合筆できない |
+- **ア（誤）**　持分移転の登記を経ないまま、証明情報の提供だけで合筆はできない
+- **イ（正）**　地目が同じでも、地番区域が異なれば合筆できない（不登法41条）
+- **ウ（誤）**　双方に同一の地役権の登記がある場合は、合筆できないとは限らない
+- **エ（誤）**　所有権の登記の有無が異なる土地同士は合筆できない（不登法41条）
+- **オ（正）**　一部の抵当権が一致していても、他に一致しない抵当権が残っていれば合筆できない
 
 合筆の制限は「名義人・持分の完全一致」「地目・地番区域の一致」「抵当権等が全て一致するか登記がないこと」という3つの軸で機械的に判定できるので、条文（不登法41条）の列挙事項をそのまま覚えておくと得点しやすい分野です。
 
@@ -80,3 +78,82 @@
 - 地役権があっても、合筆できることがあるんです
 - 所有権登記の有無、実は合筆の壁になるんです
 - 抵当権が1つでも一致しなければ、合筆できないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: two land plots merging into
+one, checklist icons, red/green check marks, etc. — adapt icon set to
+the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 合・筆・地・番・区・域・権 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+合筆できる土地、できない土地
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第8問／合筆の登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 2枚の土地アイコンが矢印でつながり1枚に合体するisometricなイラスト。中央にチェックリストのアイコン。
+合筆の登記は、不動産登記法41条に列挙された制限に一つでも該当すると申請できません。「所有者・持分が完全に一致しているか」「地番区域が同じか」「合筆を妨げる権利の登記がないか」という3つの視点で、各肢を丁寧に当てはめていく問題です。
+
+--- CARD 1 ---
+Heading (bold):
+証明情報だけでは、合筆はできない
+Illustration: 「持分を取得したことを証する情報」という書類アイコンだけが提出され、実際の持分移転登記が未了であることを示す×マーク。
+Caption (small text below):
+証明情報だけじゃ、合筆はできないんです
+
+--- CARD 2 ---
+Heading (bold):
+地目が同じでも、地番区域が違えばアウト
+Illustration: 同じ宅地マークの2つの土地アイコンだが、それぞれ異なる地番区域のラベル（A町・B町）が付き、間に×マーク。
+Caption (small text below):
+地目が同じでも、地番区域が違えばアウトなんです
+
+--- CARD 3 ---
+Heading (bold):
+地役権があっても、合筆できることがある
+Illustration: 同じ地役権のラベルが付いた2つの土地アイコンが合体し、○マークが付く。
+Caption (small text below):
+地役権があっても、合筆できることがあるんです
+
+--- CARD 4 ---
+Heading (bold):
+所有権登記の有無が、合筆の壁になる
+Illustration: 「表題登記のみ」の土地アイコンと「所有権登記あり」の土地アイコンの間に×マーク。
+Caption (small text below):
+所有権登記の有無、実は合筆の壁になるんです
+
+--- CARD 5 ---
+Heading (bold):
+抵当権が1つでも一致しなければ、合筆できない
+Illustration: 甲土地に2つの抵当権アイコン、乙土地に1つの抵当権アイコン。一致するペアには○、余った1つには×マーク。
+Caption (small text below):
+抵当権が1つでも一致しなければ、合筆できないんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

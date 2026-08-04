@@ -48,15 +48,13 @@ AB間の売買契約をAが詐欺を理由に取り消した後、Bへの移転�
 
 **たとえば**、Aさんが、Bさんに騙されて土地を売り、登記も移してしまった後、詐欺に気づいて契約を取り消したとします。ところが、まだ登記を戻す前に、Bさんがその土地をCさんに転売してしまいました。この場合、Cさんは自分名義への登記を済ませていなければ、Aさんに対して「この土地は私のものだ」と主張することはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 元の譲渡人Aは第三者に当たらず、登記なしで対抗できる |
-| イ | 誤 | 相続人は当事者の地位を承継するため、登記なしで対抗できる |
-| ウ | 誤 | 中間省略登記の合意があっても、債権者の代位行使は妨げられない |
-| エ | 誤 | 登記請求権保全のための債権者代位は認められる（債権者代位権の転用） |
-| オ | 正 | 詐欺取消し後の第三者との関係は177条の対抗問題として処理される |
+- **ア（正）**　元の譲渡人Aは第三者に当たらず、登記なしで対抗できる
+- **イ（誤）**　相続人は当事者の地位を承継するため、登記なしで対抗できる
+- **ウ（誤）**　中間省略登記の合意があっても、債権者の代位行使は妨げられない
+- **エ（誤）**　登記請求権保全のための債権者代位は認められる（債権者代位権の転用）
+- **オ（正）**　詐欺取消し後の第三者との関係は177条の対抗問題として処理される
 
 「登記なしで対抗できる相手（当事者・その承継人・代位債権者）」と「登記がなければ対抗できない相手（取消し後の第三者など177条の第三者）」の線引きを、具体的な人物関係で整理しておくことが得点のコツです。
 
@@ -80,3 +78,82 @@ AB間の売買契約をAが詐欺を理由に取り消した後、Bへの移転�
 - 中間省略の約束、実は債権者には関係ないんです
 - 登記請求権を守るための代位、ちゃんと認められてるんです
 - 取消し後に現れた買主には、登記がモノを言うんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, arrows
+showing ownership transfer, registration stamps, chain links, etc. —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 登・記・譲・渡・権・詐・欺 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+対抗要件（177条）の第三者は誰？
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第3問／対抗要件（民法177条）
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A→B→Cと矢印でつながる3人のisometricな人物アイコンの列。中央の土地アイコンの上に「登記」のスタンプが浮かぶ。
+不動産物権変動の対抗要件（民法177条）は、「誰が登記なしで対抗できる相手か」を正確に見極める分野です。当事者そのもの・当事者の地位を承継した者・登記請求権保全のための債権者代位は「第三者」に当たりません。
+
+--- CARD 1 ---
+Heading (bold):
+元の譲渡人には、登記なしで対抗できる
+Illustration: A・B・Cの3人が一列に並び、CからAへ「登記なくても主張できる」の矢印が直接伸びる。B・Cの間の矢印はグレーで薄く表示。
+Caption (small text below):
+元の売主には、登記なしでも対抗できるんです
+
+--- CARD 2 ---
+Heading (bold):
+相続人が相手でも、登記はいらない
+Illustration: Bのアイコンの上に「相続」の矢印が伸びてDのアイコンに変わる。Cのアイコンから「登記なくても対抗できる」の矢印がDに向かう。
+Caption (small text below):
+相続人が相手でも、登記はいらないんです
+
+--- CARD 3 ---
+Heading (bold):
+中間省略の合意があっても、債権者の代位行使は妨げられない
+Illustration: A・B・Cの3人が握手する合意の輪の外側に、Bの債権者Eのアイコンが立ち、Aに向けて請求書を差し出している。
+Caption (small text below):
+中間省略の約束、実は債権者には関係ないんです
+
+--- CARD 4 ---
+Heading (bold):
+登記請求権を守るための代位は認められる
+Illustration: CのアイコンからBのアイコンを経由してAのアイコンへ、点線の「代位」矢印が伸び、その先に登記のスタンプアイコン。
+Caption (small text below):
+登記請求権を守るための代位、ちゃんと認められてるんです
+
+--- CARD 5 ---
+Heading (bold):
+詐欺取消し後に現れた第三者には、登記が必要
+Illustration: AとBの間の契約書に赤い「詐欺」ラベルと取消しの×マーク。その後ろでBからCへこっそり土地が譲渡されるイラスト。Cの頭上に「登記が必要」のラベル。
+Caption (small text below):
+取消し後に現れた買主には、登記がモノを言うんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

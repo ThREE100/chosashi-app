@@ -48,15 +48,13 @@
 
 **たとえば**、1棟の建物の1階部分が倉庫、離れた場所にある別の部分が住居として構造上区分されていても、両方ともAさん1人の所有であれば、区分建物として別々に登記せず、まとめて1個の建物として登記することができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 効用上一体として利用されていなければ、数棟をまとめて1個の建物として登記できない |
-| イ | 正 | 階段室・エレベーター室などの法定共用部分は、独立した登記の対象にならない |
-| ウ | 正 | 物理的な現況が変わらなくても、登記の申請によって建物の個数は増減する |
-| エ | 誤 | 区分建物の登記記録は、1棟ごとではなく専有部分ごとに作成される |
-| オ | 誤 | 構造上区分された部分でも、所有者が同一であれば1個の建物として登記できる |
+- **ア（誤）**　効用上一体として利用されていなければ、数棟をまとめて1個の建物として登記できない
+- **イ（正）**　階段室・エレベーター室などの法定共用部分は、独立した登記の対象にならない
+- **ウ（正）**　物理的な現況が変わらなくても、登記の申請によって建物の個数は増減する
+- **エ（誤）**　区分建物の登記記録は、1棟ごとではなく専有部分ごとに作成される
+- **オ（誤）**　構造上区分された部分でも、所有者が同一であれば1個の建物として登記できる
 
 「建物の個数＝物理的な棟の数」ではなく、「登記の申請・法定共用部分・所有者の同一性」によって個数の扱いが変わるという視点が、この分野の理解のポイントです。
 
@@ -80,3 +78,81 @@
 - 現況が同じでも、登記で個数は増減するんです
 - 区分建物の登記記録、実は専有部分ごとなんです
 - 離れてても、同じ所有者なら1個にできるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: multiple buildings, stairwells,
+elevators, counting icons, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 個・数・共・用・階・段・区・分 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物は何個？数え方のルール
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第15問／建物の個数
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 数棟の建物アイコンが並び、それぞれに「1個」「2個」というラベルが揺れ動くisometricなイラスト。
+建物の「個数」は、必ずしも建物の物理的な形と一対一で対応しているわけではありません。登記の申請によって個数が変わることもあれば、法定共用部分のように独立した登記の対象にならないものもあります。
+
+--- CARD 1 ---
+Heading (bold):
+効用上一体でなければ、数棟をまとめて1個にできない
+Illustration: バラバラに使われている2棟の建物アイコンの間に×マーク、渡り廊下でつながった建物には○マーク。
+Caption (small text below):
+バラバラに使われてる数棟、1個にはできないんです
+
+--- CARD 2 ---
+Heading (bold):
+共用階段は、独立して登記できない
+Illustration: マンションの共用階段アイコンに×マーク、専有部分として切り出そうとする矢印に禁止マーク。
+Caption (small text below):
+共用階段、実は独立して登記できないんです
+
+--- CARD 3 ---
+Heading (bold):
+現況が同じでも、登記の申請で個数は増減する
+Illustration: 同じ形のビルのアイコンが、申請書によって1個から複数個の登記記録に分かれるイラスト。
+Caption (small text below):
+現況が同じでも、登記で個数は増減するんです
+
+--- CARD 4 ---
+Heading (bold):
+区分建物の登記記録は、専有部分ごとに作られる
+Illustration: マンションのisometricイラストの各住戸に、それぞれ独立した登記記録カードが対応している。
+Caption (small text below):
+区分建物の登記記録、実は専有部分ごとなんです
+
+--- CARD 5 ---
+Heading (bold):
+離れていても、同じ所有者なら1個の建物にできる
+Illustration: 離れた場所にある倉庫部分と住居部分のアイコンが、同じ所有者アイコンのもとで1本の点線で結ばれる。
+Caption (small text below):
+離れてても、同じ所有者なら1個にできるんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

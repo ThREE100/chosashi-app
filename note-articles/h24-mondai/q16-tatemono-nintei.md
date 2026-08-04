@@ -48,15 +48,13 @@
 
 **たとえば**、商店街の通路の上に屋根だけを設けたアーケードは、雨よけの役割は果たしていても、側面が壁で囲まれておらず外気と分断されていないため、建物として登記することはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 永久的な構築物に支えられていれば、土地への定着性は認められる |
-| イ | 正 | 下部の建物と上部の展望台は、連絡設備があれば一体として認定できる |
-| ウ | 誤 | 屋根材の材質だけで、建物性を一律に否定することはできない |
-| エ | 正 | ガード下を利用した倉庫も、3要件を満たせば建物と認定できる |
-| オ | 誤 | アーケード付街路は、外気分断性を欠くため建物と認定できない |
+- **ア（誤）**　永久的な構築物に支えられていれば、土地への定着性は認められる
+- **イ（正）**　下部の建物と上部の展望台は、連絡設備があれば一体として認定できる
+- **ウ（誤）**　屋根材の材質だけで、建物性を一律に否定することはできない
+- **エ（正）**　ガード下を利用した倉庫も、3要件を満たせば建物と認定できる
+- **オ（誤）**　アーケード付街路は、外気分断性を欠くため建物と認定できない
 
 建物認定は「外気分断性・定着性・用途性」の3要件に立ち返って考えれば、特殊な構造物についても筋道立てて判断できます。
 
@@ -80,3 +78,81 @@
 - 屋根の素材だけじゃ、建物かどうか決まらないんです
 - ガード下の倉庫も、ちゃんと建物になれるんです
 - アーケード街路、実は建物にはなれないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: piers, towers, arcades,
+underpasses, roofs and walls, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note on kanji accuracy: kanji such as 建・物・認・定・桟・橋・塔・街 are especially
+prone to being rendered as Simplified Chinese variants. Draw every
+instance of these characters in their correct standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+それは「建物」？認定3要件で判定
+
+Subtitle (smaller, centered, 1行):
+平成24年度　午後の部　第16問／建物の認定
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 「外気分断性」「定着性」「用途性」の3つのアイコン（壁、杭、家具）が三角形に並び、中央に「建物？」の吹き出し。
+建物の認定は、「外気分断性」「土地への定着性」「用途性」の3要件で判断するのが基本です。桟橋・鉄塔・ガード下・アーケードなど特殊な構造物については、先例の積み重ねによって個別に結論が示されています。
+
+--- CARD 1 ---
+Heading (bold):
+永久的な構築物に支えられていれば、定着性は認められる
+Illustration: 海上に立つ桟橋の脚柱アイコンの上に、屋根と壁のある家屋が建っているイラスト。
+Caption (small text below):
+海の上でも、桟橋があれば建物になれるんです
+
+--- CARD 2 ---
+Heading (bold):
+下部の建物と上部の展望台は、連絡設備があれば一体
+Illustration: 鉄塔の下部にある建物と、上部の展望台がエレベーターの線でつながっているイラスト。
+Caption (small text below):
+鉄塔と展望台、連絡通路があれば一体なんです
+
+--- CARD 3 ---
+Heading (bold):
+屋根材の材質だけで、建物性は否定されない
+Illustration: 波形ビニール屋根の倉庫アイコンに○マーク。
+Caption (small text below):
+屋根の素材だけじゃ、建物かどうか決まらないんです
+
+--- CARD 4 ---
+Heading (bold):
+ガード下を利用した倉庫も、建物と認定できる
+Illustration: 高架鉄道の下の空間に壁とシャッターが設けられた倉庫アイコン。
+Caption (small text below):
+ガード下の倉庫も、ちゃんと建物になれるんです
+
+--- CARD 5 ---
+Heading (bold):
+アーケード付街路は、建物と認定できない
+Illustration: 商店街のアーケード（屋根だけで側面が開放されている）アイコンに×マーク。
+Caption (small text below):
+アーケード街路、実は建物にはなれないんです
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+土地家屋調査士試験　平成24年度　午後の部
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.
