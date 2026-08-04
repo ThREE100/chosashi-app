@@ -1,0 +1,160 @@
+## 【土地家屋調査士受験生向け】その修正、地図訂正でいいの？土地の分筆登記の落とし穴〜共有物分割禁止・契印・精度区分・敷地権のルール〜
+
+**出題年度：平成28年度　午後の部　第9問**
+
+> 土地の分筆の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
+>
+> ア　土地の分筆の登記をし，分筆後の一筆の土地につき所有権の移転の登記をした後，当該分筆の登記の申請の際に添付情報として提供した地積測量図の分筆線に誤りがあることが発見された場合には，地図の訂正の申出により地図の分筆線を訂正することができる。
+>
+> イ　Ａ及びＢが所有権の登記名義人である土地に共有物分割禁止の定めの登記がある場合であっても，Ａ及びＢは，当該土地の分筆の登記を申請することができる。
+>
+> ウ　Ａ及びＢが所有権の登記名義人である土地の分筆の登記を書面により申請する場合において，その申請書が2枚以上であるときは，Ａ又はＢのいずれかが，各用紙のつづり目に契印すれば足りる。
+>
+> エ　市街地地域内の土地の分筆の登記を申請する場合において，その土地を管轄する登記所に備え付けられている地図が乙1の精度区分で作成されており，かつ，当該土地の分筆前の地積と分筆後の地積の差が分筆前の地積を基準にして乙1の精度区分の限度内であるときは，地積に関する更正の登記の申請を要しない。
+>
+> オ　区分建物である建物の登記記録の表題部に敷地権の種類として賃借権が記録されている土地の分筆の登記は，当該区分建物において管理組合の理事長が管理者として定められているときは，当該理事長が単独で申請することができる。
+>
+> 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+
+土地の分筆の登記は調査士試験の頻出分野ですが、本問は「登記後に誤りが見つかったらどう直すか」「共有名義や特殊な権利があるときに分筆できるか」「書面申請の作法」「精度区分の特例」「敷地権付き土地の申請人」という5つの切り口から、分筆登記の周辺知識を幅広く確認する問題です。
+
+### ア：地積測量図の分筆線の誤りは、地図訂正の申出では直せない
+
+分筆線の抹消や訂正が必要な場合、地図の訂正の申出や地積測量図の訂正の申出によってこれを行うことはできず、分筆の錯誤を原因とする登記(分筆錯誤の登記)を申請すべき取扱いとされています(昭和43年6月8日民事甲第1653号)。地図の訂正の申出は地図そのものの誤りを是正するための制度であり、分筆線の誤りという登記の内容自体の誤りを直す手段ではありません。
+
+**たとえば**、AさんとBさんの土地を分筆した際に使った地積測量図の分筆線が実際の境界とずれていたことが、所有権移転登記が完了した後になって発覚したとします。この場合、「地図の訂正の申出をすれば直せるはず」と考えるのは誤りで、実際には分筆の錯誤を原因とする登記という別の手続を経る必要があります。
+
+### イ：共有物分割禁止の定めがあっても、分筆の登記は申請できる
+
+分筆の登記は土地の物理的状況を公示するための表示に関する登記であり、共有物分割禁止の定め(遺産分割を禁止する遺言や、共有物不分割の特約の登記など)による制限とは性質が異なります。そのため、共有物分割禁止の定めの登記がある土地であっても、A及びBは当該土地の分筆の登記を申請することができます。
+
+**たとえば**、AさんとBさんが共有する土地について「5年間は分割しない」という共有物分割禁止の特約が登記されていたとしても、その土地を測量して2筆に分ける分筆の登記自体は、AさんとBさんが申請することができます(ただし、分筆後にどちらか一方の単独所有とするような所有権移転の登記は別途制限されます)。
+
+### ウ：申請書が2枚以上のときは、共有者のうち1人が契印すれば足りる
+
+書面により登記を申請する場合において、申請書が2枚以上にわたるときは、各用紙のつづり目に契印をしなければなりません(不動産登記規則46条1項)。申請人が2名以上いる場合、その全員が契印する必要はなく、そのうちの1人が契印すれば足ります(同条2項)。
+
+**たとえば**、AさんとBさんが共有する土地の分筆登記を書面で申請する際、申請書が3枚に及んだとします。この場合、AさんとBさんの両方が各ページのつづり目に契印する必要はなく、どちらか一方が契印すれば手続として足ります。
+
+### エ：精度区分乙1では、地積の更正登記を省略できる特例は適用されない
+
+地積測量図の精度は地図の精度と対応しており、市街地地域及びその周辺の地域については精度区分甲2まで、村落・農耕地域及びその周辺の地域については精度区分乙1まで、山林・原野地域及びその周辺の地域については精度区分乙3までとされています(不動産登記規則77条4項、10条4項)。分筆前後の地積の差が精度区分の限度内であれば地積の更正登記を要しないとする取扱いは、市街地地域における精度区分甲1を前提とするものであり、乙1の精度区分で作成された地図が備え付けられている場合にはこの特例は適用されません。
+
+**たとえば**、村落・農耕地域にある土地で、登記所備え付けの地図が乙1の精度区分で作成されている場合、分筆前後の地積の差がその精度区分の限度内に収まっていたとしても、「更正登記は不要」と単純に判断することはできません。乙1は市街地地域向けの特例の対象になる精度区分ではないためです。
+
+### オ：賃借権を敷地権とする土地の分筆登記は、理事長が単独で申請することはできない
+
+区分建物の敷地権の種類が賃借権である場合、その敷地(土地)についての所有権の登記名義人は、賃借権を設定した土地所有者(賃貸人)です。管理組合の理事長は、区分建物の共用部分等の管理者としての地位を持つにすぎず、敷地である土地の所有権登記名義人ではありません。したがって、当該理事長が単独で土地の分筆登記を申請することはできません。
+
+**たとえば**、あるマンションの敷地(土地)がオーナー所有のもので、区分建物の所有者たちが賃借権を敷地権として登記しているケースで、そのマンションの管理組合の理事長が「管理者だから」といって単独でその土地の分筆登記を申請することはできず、あくまで土地の所有権登記名義人(オーナー側)が申請人となります。
+
+### まとめ表
+
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 誤 | 地積測量図の分筆線の誤りは地図訂正の申出では直せず、分筆錯誤の登記による(昭43.6.8民甲1653号) |
+| イ | 正 | 共有物分割禁止の定めがあっても、分筆の登記自体は申請できる |
+| ウ | 正 | 申請書が2枚以上でも、共有者のうち1人が契印すれば足りる(不登規則46条2項) |
+| エ | 誤 | 更正登記を要しない特例は精度区分甲1が前提であり、乙1には適用されない |
+| オ | 誤 | 賃借権が敷地権の場合の申請人は土地の所有権登記名義人(賃貸人)であり、理事長ではない |
+
+分筆の登記は「誰が申請できるか」「どの手続で誤りを直すか」という視点で細部の先例知識まで押さえておくと得点源になります。
+
+**正解：イウの組合せ（選択肢3番）**
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。
+- 出題番号・正解番号は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の内容と、法務省公式の正答PDF（ユーザー提供、平成28年度午後の部第9問＝3）を突き合わせて確認しました。なお、データベース内では本問が誤って「第2問」として登録されていましたが、問題文・選択肢の内容を法務省公式の試験問題原本（ユーザー提供PDF）と照合した結果、実際には第9問であることが判明したため、正しい番号（第9問）で掲載しています。
+- 各肢の条文根拠（不動産登記規則46条・77条等、及び先例）は、データベースのexplanationフィールドに基づくものです。ア・エ・オの先例（昭43.6.8民甲1653号等）に基づく部分は、条文そのものというより実務上の取扱い・先例によるものである点は留意してください。
+- **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（土地の分筆の登記）と同一・類似の問題が再出題されていないかを確認しました。「土地の分筆の登記」は頻出テーマで、R02年度第9問・R04年度第8問・R05年度第9問・R06年度第8問・R07年度第11問と、同一・類似のタイトルで毎年のように出題されていますが、いずれも具体的な肢の内容（職権分筆、抵当権消滅承諾の印鑑証明書、買戻し特約の転写、代位申請、共有物分割訴訟、遺産分割後の申請権限、地役権消滅証明、法定相続情報一覧図の利用、地上権・仮登記の転写等）は、本問の各肢（地積測量図の分筆線誤りと地図訂正、共有物分割禁止の定めと分筆可否、契印、精度区分と更正登記の要否、賃借権が敷地権の場合の申請人）とは異なっており、**具体的な論点レベルでの重複は見つかりませんでした**（同じ大テーマが繰り返し出題されているだけです）。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+
+---
+
+## 見出し画像用フレーズ
+
+- 分筆線の誤り、地図訂正では直せないんです
+- 共有物分割禁止でも、分筆はできちゃうんです
+- 契印、実は1人がすれば足りるんです
+- 精度区分によって、更正登記の要不要が変わるんです
+- 理事長でも、単独では申請できないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地の分筆の登記をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots being split, dotted dividing lines, magnifying glasses, stamps, precision gauges — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+分筆登記、
+直せるもの・直せないもの
+
+Subtitle (smaller, centered, 1行):
+地図訂正・共有物分割禁止・契印・精度区分・敷地権を整理(平成28年度 午後の部 第9問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric land plot being split into two by a dotted line (分筆), with a magnifying glass hovering over the dividing line revealing a small error mark on it.
+地積測量図の誤りの直し方、共有物分割禁止の定め、書面申請の契印、精度区分による更正登記の要否、賃借権が敷地権の場合の申請人という5つの場面を整理します。
+--- CARD 1 ---
+Heading (bold):
+分筆線の誤りは、地図訂正では直せない
+Illustration: An isometric land plot with a crooked dividing line (誤った分筆線) and a 地図訂正の申出 stamp crossed out with a prohibition mark, replaced by a glowing 分筆錯誤の登記 stamp.
+Caption (small text below):
+地積測量図の分筆線の誤りは、地図訂正の申出では直せず、分筆錯誤の登記による(昭和43年6月8日民事甲第1653号)。
+--- CARD 2 ---
+Heading (bold):
+共有物分割禁止でも、分筆はできる
+Illustration: An isometric shared land plot with a 共有物分割禁止 lock icon on top, but a separate dotted 分筆 split-line passing straight through it unaffected, with a checkmark.
+Caption (small text below):
+共有物分割禁止の定めがある土地でも、表示に関する登記である分筆の登記は申請できる。
+--- CARD 3 ---
+Heading (bold):
+契印は、共有者のうち1人でいい
+Illustration: An isometric multi-page application document with a single stamp (契印) pressed at the binding, only one of two co-owner figures holding the seal while the other stands by empty-handed.
+Caption (small text below):
+申請書が2枚以上でも、共有者のうち1人が各用紙のつづり目に契印すれば足りる(不動産登記規則46条2項)。
+--- CARD 4 ---
+Heading (bold):
+精度区分によって、更正登記の要否が変わる
+Illustration: Two isometric land-survey precision gauge icons labeled 甲1 with a glowing checkmark(更正登記不要), and 乙1 with a prohibition mark(特例は適用されない).
+Caption (small text below):
+更正登記を要しない特例は精度区分甲1が前提であり、乙1の精度区分には適用されない。
+--- CARD 5 ---
+Heading (bold):
+賃借権が敷地権のとき、理事長は申請できない
+Illustration: An isometric apartment building with a 管理組合理事長 figure crossed out as 申請人ではない, while the land owner (賃貸人) figure below the building is marked with a glowing 申請人 badge.
+Caption (small text below):
+賃借権を敷地権とする土地の分筆登記の申請人は土地の所有権登記名義人(賃貸人)であり、理事長ではない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第9問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
+illustration label, and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```

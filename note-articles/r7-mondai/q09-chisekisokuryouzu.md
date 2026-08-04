@@ -50,15 +50,13 @@
 
 **たとえば**、縮尺250分の1で作られた地積測量図が、たまたま土地所在図として必要な縮尺とも一致していて、その図面だけで土地の場所もはっきり分かる場合には、別に土地所在図を新しく作る必要はなく、1枚の図面に「土地所在図兼地積測量図」と書いて兼用することができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 市町村長作成の氏名変更証明があれば地積測量図の訂正申出ができる |
-| イ | 正 | 作成者が署名すれば押印は不要（規則74条2項） |
-| ウ | 正 | 永続性のある境界標は地積測量図に記録が義務付けられる（規則77条） |
-| エ | 誤 | 省略できるのは求積方法であり、地積の数値自体は省略できない |
-| オ | 誤 | 縮尺・表示が条件を満たせば地積測量図は土地所在図を兼ねられる（準則51条4項） |
+- **ア（正）**　市町村長作成の氏名変更証明があれば地積測量図の訂正申出ができる
+- **イ（正）**　作成者が署名すれば押印は不要（規則74条2項）
+- **ウ（正）**　永続性のある境界標は地積測量図に記録が義務付けられる（規則77条）
+- **エ（誤）**　省略できるのは求積方法であり、地積の数値自体は省略できない
+- **オ（誤）**　縮尺・表示が条件を満たせば地積測量図は土地所在図を兼ねられる（準則51条4項）
 
 「省略できる」という言葉が出てきたとき、それが「数値そのもの」の話なのか「計算過程」の話なのかを見分けることが、エとオを正しく判断する鍵になります。
 
@@ -80,3 +78,89 @@
 - 頑丈な杭は、必ず記録しなきゃダメなんです
 - 省略できるのは、面積じゃなくて計算過程
 - 地積測量図、実は所在図にもなれるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+特に「地」「記」「所」といった字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+--- HEADER ---
+Title (large, bold, 1行):
+省略できるのは「面積」？それとも「計算過程」？
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第9問　不動産登記法(地積測量図)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A document icon（地積測量図）with a green「省略可」stamp on
+one section and a red「省略不可」stamp on another section.
+地積測量図には「ここまでは省略できる」「ここは絶対に省略できない」という細かい線引きがあります。特にエ・オは似たような話に見えて実は根拠が異なるので、丁寧に区別していきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+氏名が違っても、証明書があれば地積測量図の訂正申出ができる
+Illustration: A character icon with an old-name tag（旧姓）holding a
+certificate icon from a city-hall building（市町村長作成の証明書）, with an
+arrow to a document labeled「地積測量図 訂正申出」and a checkmark.
+Caption (small text below):
+市町村長作成の氏名変更証明があれば地積測量図の訂正申出ができる
+
+--- CARD 2 ---
+Heading (bold):
+署名すれば、押印は不要
+Illustration: A document icon（地積測量図）with a handwritten signature
+line labeled「署名」, and a hanko (personal seal) icon crossed out labeled
+「押印不要」.
+Caption (small text below):
+作成者が署名すれば押印は不要（規則74条2項）
+
+--- CARD 3 ---
+Heading (bold):
+永続性のある境界標は、地積測量図に必ず記録する
+Illustration: A land-corner icon with a stone/metal marker (石杭・金属標),
+with an arrow to a document icon（地積測量図）labeled「記録義務」with a
+checkmark.
+Caption (small text below):
+永続性のある境界標は地積測量図に記録が義務付けられる（規則77条）
+
+--- CARD 4 ---
+Heading (bold):
+省略できるのは「求積方法」であって、「地積」そのものではない
+Illustration: A broad land plot being split into a large piece and a tiny
+piece; a calculation-sheet icon（求積表）over the tiny piece is crossed
+out, but the numeric area label「100㎡」remains with a checkmark labeled
+「地積は省略不可」.
+Caption (small text below):
+省略できるのは求積方法であり、地積の数値自体は省略できない
+
+--- CARD 5 ---
+Heading (bold):
+縮尺が同じで所在を明確に表示できれば、地積測量図は土地所在図を兼ねられる
+Illustration: A single document icon stamped「土地所在図兼地積測量図」
+combining both roles, with a checkmark labeled「同一縮尺」.
+Caption (small text below):
+縮尺・表示が条件を満たせば地積測量図は土地所在図を兼ねられる（準則51条4項）
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

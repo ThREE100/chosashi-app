@@ -50,15 +50,13 @@
 
 **たとえば**、兄が先に親の死亡を知って3か月が過ぎてしまったが、遠方に住む弟が後から死亡を知ったため弟の3か月はまだ残っている、というケースでも、兄と弟が力を合わせて限定承認の申述をすることができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 相続放棄の申述先は家庭裁判所（法務局ではない） |
-| イ | 正 | 承認・放棄を決めるまでは固有財産と同一の注意で管理 |
-| ウ | 正 | 限定承認は相続債権者への弁済が受遺者への弁済に先行 |
-| エ | 誤 | 保存行為は単純承認とみなされる行為から除外される |
-| オ | 正 | 一部の相続人の期間徒過があっても全員での限定承認は可能 |
+- **ア（誤）**　相続放棄の申述先は家庭裁判所（法務局ではない）
+- **イ（正）**　承認・放棄を決めるまでは固有財産と同一の注意で管理
+- **ウ（正）**　限定承認は相続債権者への弁済が受遺者への弁済に先行
+- **エ（誤）**　保存行為は単純承認とみなされる行為から除外される
+- **オ（正）**　一部の相続人の期間徒過があっても全員での限定承認は可能
 
 相続の承認・放棄は「誰に・いつまでに・何を」を丁寧に切り分けると整理しやすくなります。
 
@@ -80,3 +78,89 @@
 - 限定承認は、相続債権者が先、遺贈は後
 - 保存行為だけじゃ、単純承認になりません
 - 期間切れの相続人がいても、諦めなくていい
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+特に「権」という字は簡体字（权）と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+--- HEADER ---
+Title (large, bold, 1行):
+相続の承認及び放棄の重要ポイント
+
+Subtitle (smaller, centered, 1行):
+令和7年度　午後の部　第3問　民法(相続)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: A courthouse building icon beside a scale with three tags
+labeled「承認」「限定承認」「放棄」balanced on it.
+相続の承認・放棄は、条文の文言と実際の手続の場所・タイミングを正確に押さえていないと足元をすくわれる分野です。
+
+--- CARD 1 ---
+Heading (bold):
+相続放棄の申述先は「家庭裁判所」
+Illustration: A character walking toward a courthouse building icon
+labeled「家庭裁判所」with a scale-of-justice icon, while a nearby 法務局
+building icon has a large red X over it.
+Caption (small text below):
+相続放棄の申述先は家庭裁判所（法務局ではない）
+
+--- CARD 2 ---
+Heading (bold):
+結論を出すまでは「自分の物と同じように」管理する義務
+Illustration: A character holding two identical care icons (heart-shield)
+— one over a box labeled「固有財産」and one over a box labeled
+「相続財産」— showing the same level of care applied to both.
+Caption (small text below):
+承認・放棄を決めるまでは固有財産と同一の注意で管理
+
+--- CARD 3 ---
+Heading (bold):
+限定承認では「相続債権者が先、遺贈は後」
+Illustration: A flow diagram: a coin-pot icon labeled「相続財産」sends an
+arrow first to a bank icon labeled「相続債権者」, then a second arrow to a
+gift-box icon labeled「受遺者」marked「後」.
+Caption (small text below):
+限定承認は相続債権者への弁済が受遺者への弁済に先行
+
+--- CARD 4 ---
+Heading (bold):
+「保存行為」だけでは単純承認とみなされない
+Illustration: A house icon with a character doing minor repairs (hammer
+and roof patch) labeled「保存行為」, with a checkmark stamp labeled
+「単純承認にならない」.
+Caption (small text below):
+保存行為は単純承認とみなされる行為から除外される
+
+--- CARD 5 ---
+Heading (bold):
+期間切れの相続人がいても、全員での限定承認は可能
+Illustration: Two sibling characters (兄・弟), each with a calendar icon;
+兄's calendar shows a crossed-out deadline, 弟's calendar shows an active
+deadline. Both characters together sign a document labeled「限定承認」.
+Caption (small text below):
+一部の相続人の期間徒過があっても全員での限定承認は可能
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

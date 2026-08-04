@@ -50,15 +50,13 @@
 
 **たとえば**、抵当権が付いている建物を二つに分割する際、抵当権者が承諾書を提出したとしても、分割後にできる両方の建物から抵当権を消せるわけではなく、少なくとも一方の建物には抵当権が残ることになります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 表題部所有者自身が申請人となるときは印鑑証明書は不要 |
-| イ | 正 | 仮登記がある建物同士は合併の登記ができない |
-| ウ | 正 | 共用部分である旨の登記がある建物同士も合併できない |
-| エ | 誤 | 分棟による表題部変更登記と分割登記は一の申請情報で申請できる |
-| オ | 誤 | 抵当権を消滅させられるのは分割後の建物の一部にとどまる |
+- **ア（誤）**　表題部所有者自身が申請人となるときは印鑑証明書は不要
+- **イ（正）**　仮登記がある建物同士は合併の登記ができない
+- **ウ（正）**　共用部分である旨の登記がある建物同士も合併できない
+- **エ（誤）**　分棟による表題部変更登記と分割登記は一の申請情報で申請できる
+- **オ（誤）**　抵当権を消滅させられるのは分割後の建物の一部にとどまる
 
 合併の登記は「所有権以外の権利」や「共用部分の登記」があると使えない、という制限を正確に押さえられたかが決め手の問題です。
 
@@ -83,3 +81,80 @@
 - 共用部分の登記があると、合併はできないんです
 - 分棟と分割、実は1通の申請書でいけるんです
 - 分割しても、抵当権が消えるのは片方だけなんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: this prompt contains kanji that are easily confused with Simplified
+Chinese variants, especially 登・記・建・物・権. Render these strictly in
+their standard Japanese (Jōyō) forms, never as simplified hanzi.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の合併、仮登記や共用部分があるとできない
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第16問｜建物の分割又は合併の登記
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 甲建物・乙建物を1つにまとめるアイソメトリックの合併イラスト。印鑑・仮登記の紙・共用部分のラベルなど制限を表すアイコンが周囲に配置。
+建物の分割・合併の登記は、土地の分筆・合筆と発想は似ていますが、「合併の制限」という建物特有のルールがあるのがポイントです。所有権以外の権利の登記がある建物や、共用部分である旨の登記がある建物は、そのままでは合併できません。
+
+--- CARD 1 ---
+Heading (bold):
+表題部所有者本人の申請なら、印鑑証明書は不要
+Illustration: 自分名義の母屋(甲建物)と物置(乙建物)を持つ人物Aが、自ら合併登記を申請するアイソメトリックイラスト。印鑑証明書の書類アイコンにバツ印。
+Caption (small text below):
+表題部所有者自身が申請人となるときは印鑑証明書は不要
+
+--- CARD 2 ---
+Heading (bold):
+仮登記がある建物同士は、合併できない
+Illustration: 甲建物・乙建物それぞれに「所有権移転請求権の仮登記」のちぎれた紙ラベルが貼られたアイソメトリックイラスト。合併の矢印にバツ印。
+Caption (small text below):
+仮登記がある建物同士は合併の登記ができない
+
+--- CARD 3 ---
+Heading (bold):
+共用部分の登記がある建物同士も、合併できない
+Illustration: 「共用部分である旨の登記」のラベルが貼られた甲建物・乙建物のアイソメトリックイラスト。合併の矢印にバツ印。
+Caption (small text below):
+共用部分である旨の登記がある建物同士も合併できない
+
+--- CARD 4 ---
+Heading (bold):
+分棟の変更登記と分割登記は、1通の申請書でできる
+Illustration: 1棟の長屋の中間部分を取り壊し、相互に接続しない2棟に分けるアイソメトリックイラスト。表題部変更登記と分割登記の2枚の書類が1つの申請書アイコンにまとめられ、チェックマーク。
+Caption (small text below):
+分棟による表題部変更登記と分割登記は一の申請情報で申請できる
+
+--- CARD 5 ---
+Heading (bold):
+分割後、抵当権が消えるのは建物の一部だけ
+Illustration: 抵当権付きの建物を2つに分割するアイソメトリックイラスト。片方の建物には抵当権アイコンが消え、もう片方には抵当権アイコンが残っている。
+Caption (small text below):
+抵当権を消滅させられるのは分割後の建物の一部にとどまる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.

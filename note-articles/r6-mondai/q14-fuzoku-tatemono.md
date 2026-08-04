@@ -48,15 +48,13 @@
 
 **たとえば**、既存の住宅に新しく物置(附属建物)を建てた場合の変更登記では、その物置の位置がわかる変更後の建物図面を提供する必要があります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 効用上一体でない建物は附属建物とする登記ができない |
-| イ | 誤 | 建物合併登記でも各階平面図の提供は省略できない |
-| ウ | 正 | 先取特権保存登記後の附属建物完成は遅滞なく変更登記が必要 |
-| エ | 正 | 附属建物の新築日が主建物と同日なら日付の記載は不要 |
-| オ | 誤 | 附属建物新築による変更登記には建物図面の提供が必要 |
+- **ア（正）**　効用上一体でない建物は附属建物とする登記ができない
+- **イ（誤）**　建物合併登記でも各階平面図の提供は省略できない
+- **ウ（正）**　先取特権保存登記後の附属建物完成は遅滞なく変更登記が必要
+- **エ（正）**　附属建物の新築日が主建物と同日なら日付の記載は不要
+- **オ（誤）**　附属建物新築による変更登記には建物図面の提供が必要
 
 附属建物にまつわる登記は、「効用上の一体性という実体要件」と「合併・変更登記に必要な図面という手続要件」を分けて押さえることが大切です。
 
@@ -81,3 +79,80 @@
 - 先取特権のあとの増築、申請は「遅滞なく」なんです
 - 同じ日に建てた離れは、新築日を書かなくていいんです
 - 附属建物を建てたら、建物図面は必ず必要なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: this prompt contains kanji that are easily confused with Simplified
+Chinese variants, especially 登・記・建・物・権. Render these strictly in
+their standard Japanese (Jōyō) forms, never as simplified hanzi.
+
+--- HEADER ---
+Title (large, bold, 1行):
+附属建物の要件と手続を整理
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第14問｜附属建物
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: 主である建物(母屋)と附属建物(離れ・物置)のアイソメトリックイラスト。「効用上一体」のラベル付きの点線で結ばれる。
+附属建物として登記できるかどうかの核心は、「主である建物と効用上一体として利用される状態にあるか」という一点にあります。この要件を軸に、合併・変更登記の添付情報や申請義務の細目を確認していきましょう。
+
+--- CARD 1 ---
+Heading (bold):
+効用上一体でない建物は、附属建物にできない
+Illustration: 近接して建つ甲建物(住宅)と乙建物(無関係の倉庫)のアイソメトリックイラスト。両者を結ぶ点線にバツ印。
+Caption (small text below):
+効用上一体でない建物は附属建物とする登記ができない
+
+--- CARD 2 ---
+Heading (bold):
+建物合併登記でも、各階平面図は省略できない
+Illustration: 甲建物と乙建物を合併するアイソメトリックイラスト。各階平面図の書類アイコンにチェックマーク(必ず提供)。
+Caption (small text below):
+建物合併登記でも各階平面図の提供は省略できない
+
+--- CARD 3 ---
+Heading (bold):
+先取特権登記後の附属建物完成は、遅滞なく変更登記が必要
+Illustration: 増築中の離れ(附属建物)のアイソメトリックイラスト。先取特権の書類アイコンと、時計アイコンに「遅滞なく」のラベル。
+Caption (small text below):
+先取特権保存登記後の附属建物完成は遅滞なく変更登記が必要
+
+--- CARD 4 ---
+Heading (bold):
+附属建物の新築日が主建物と同日なら、日付の記載は不要
+Illustration: 母屋と離れを同じ日に新築するアイソメトリックイラスト。カレンダーアイコンに同じ日付、附属建物の新築日欄にバツ印(記載省略)。
+Caption (small text below):
+附属建物の新築日が主建物と同日なら日付の記載は不要
+
+--- CARD 5 ---
+Heading (bold):
+附属建物新築による変更登記には、建物図面が必要
+Illustration: 既存の住宅に新しく物置(附属建物)を建てるアイソメトリックイラスト。変更後の建物図面の書類アイコンにチェックマーク。
+Caption (small text below):
+附属建物新築による変更登記には建物図面の提供が必要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards.
