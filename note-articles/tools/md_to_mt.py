@@ -38,9 +38,11 @@ def read_file(path):
 
 
 def inline_md_to_html(text):
-    """1行程度のインライン要素(太字)をHTMLに変換する。"""
+    """1行程度のインライン要素(太字・斜体)をHTMLに変換する。"""
     text = escape(text, quote=False)
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+    # 残った単一の "*...*" (太字変換後に残るもの)を斜体として変換する
+    text = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", text)
     return text
 
 
@@ -144,6 +146,18 @@ def parse_article(md_text):
     m = re.search(r"^\*\*(出題年度：.+?)\*\*", md_text, re.M)
     if m:
         body_parts.append(f"<p><strong>{escape(m.group(1))}</strong></p>")
+
+    # 出典行と問題文引用の間にある補足段落(斜体の注記など)を抽出する
+    if m:
+        after_source = md_text[m.end():]
+        quote_start = re.search(r"^>", after_source, re.M)
+        between_source_and_quote = (
+            after_source[: quote_start.start()] if quote_start else ""
+        )
+        for l in between_source_and_quote.strip("\n").splitlines():
+            l = l.strip()
+            if l and l != "---":
+                body_parts.append(f"<p>{inline_md_to_html(l)}</p>")
 
     # 問題文の引用ブロック(連続する "> " 行)
     quote_lines = []
