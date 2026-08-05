@@ -99,7 +99,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-任意代理の5肢を、「代理権の限界を見極める」（ア・イ・ウ）と「復代理と無権代理の後始末」（エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト（現行法アレンジ版・単一選択式に対応）。
+任意代理の5肢を、「代理権の限界を見極める」（ア・イ・ウ）と「復代理と無権代理の後始末」（エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト（現行法アレンジ版・単一選択式に対応）。キャプションは1〜2行の短い文に絞り、画像内のテキスト量を抑えている。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
@@ -124,11 +124,10 @@ of these characters.
 --- HEADER ---
 Title (large, bold, 2行):
 任意代理
-代理行為の瑕疵は誰を基準に判断する？
+瑕疵は誰を基準に判断する？
 
 Subtitle (smaller, centered, 1行):
-代理権の限界と無権代理の後始末を整理(平成29年度 午後の部 第1問・現行法
-アレンジ版)
+代理権の限界と無権代理の後始末(第1問・現行法アレンジ版)
 
 --- INTRO BLOCK (left: illustration; right: paragraph text) ---
 Illustration: An isometric flat-design scene showing three simple people
@@ -136,10 +135,8 @@ figures arranged in a triangle — labeled "本人", "代理人", "相手方" �
 a small contract document icon and a speech bubble floating above the
 "代理人" figure to show the agent is the one acting and speaking on the
 principal's behalf.
-任意代理の分野は、「代理行為の瑕疵は誰を基準に判断するのか」「代理権の
-ない者がした行為はどうなるのか」「代理人の資格や復代理人を選んだときの
-責任はどうなるのか」といった、代理の基本的な枠組みを正確に理解できて
-いるかが問われます。
+代理行為の瑕疵は誰の基準か、代理権のない者の行為はどうなるか。
+任意代理の基本を確認します。
 
 --- COLUMN A HEADER (pill-shaped badge) ---
 代理権の限界を見極める
@@ -154,22 +151,20 @@ second arrow from the 本人 figure toward a document labeled "契約不適合
 責任" with a checkmark badge (NOT a prohibition mark) to show the claim
 can still be made.
 Caption (small text below):
-代理行為の瑕疵(契約不適合)の有無は代理人を基準に判断される(民法101条
-1項)ため、代理人が悪意なら本人も悪意として扱われる。もっとも契約不適合
-責任は買主の善意・悪意を問わず、不適合を知った時から1年以内に通知すれば
-追及できる(民法566条)。
+代理人が悪意なら本人も悪意扱い(101条)。
+契約不適合責任は追及できる(566条)。
 
 --- COLUMN A, CARD 2 ---
 Heading (bold):
-まったく代理権のない者に、表見代理は成立しない
+代理権ゼロなら、表見代理は成立しない
 Illustration: An isometric person figure with empty open hands (no
 document) standing next to a contract table, with a large red prohibition
 (no-entry) circle over a "表見代理" badge, contrasted with a faded ghost
 outline of a person figure holding a "基本代理権" document icon that is
 required but missing.
 Caption (small text below):
-何ら代理権を与えられていない者がした行為は、相手方が代理権があると信じ、
-そう信じたことに正当な理由があっても、表見代理は成立しない(民法110条)。
+基本代理権がなければ、相手方が信じても
+表見代理は成立しない(110条)。
 
 --- COLUMN A, CARD 3 ---
 Heading (bold):
@@ -179,15 +174,15 @@ outfit signing a contract as an agent, with a parent-figure standing
 behind reaching toward the contract but blocked by a red prohibition
 (no-entry) icon between the parent's hand and the document.
 Caption (small text below):
-代理人には行為能力は不要。未成年者がした代理行為の効果は本人に帰属し、
-その法定代理人が取り消すことはできない(民法102条本文)。
+未成年者も代理人になれる。
+その代理行為は法定代理人でも取り消せない(102条)。
 
 --- COLUMN B HEADER (pill-shaped badge) ---
 復代理と無権代理の後始末
 
 --- COLUMN B, CARD 1 ---
 Heading (bold):
-許諾を得た復代理人選任でも、善管注意義務違反があれば責任を負う
+復代理人選任の免責規定は、実は削除されている
 Illustration: An isometric scene showing an old law-book icon labeled
 "旧105条" being crossed out and removed, while a "代理人" person figure
 selects a "復代理人" figure and a separate document labeled "委任契約
@@ -195,10 +190,8 @@ selects a "復代理人" figure and a separate document labeled "委任契約
 responsibility, with a thin chain-link icon still connecting the 代理人
 and 復代理人 figures.
 Caption (small text below):
-復代理人選任の責任を軽減していた旧105条は2020年の債権法改正で削除
-された。現在は委任契約上の善管注意義務(民法644条)と債務不履行の一般
-原則(民法415条)により、選任・監督に落ち度があれば代理人は本人に対し
-責任を負う。
+旧105条(免責規定)は削除済み。
+現在は善管注意義務で判断する(644条)。
 
 --- COLUMN B, CARD 2 ---
 Heading (bold):
@@ -208,8 +201,8 @@ red flag reading "相手方の取消し" placed earlier on the timeline, and a
 second flag reading "本人の追認" placed later, crossed out with a
 prohibition mark to show it can no longer happen after the first flag.
 Caption (small text below):
-無権代理人がした契約について、その契約を相手方が取り消した後は、本人は
-もはや追認をすることができない(民法115条本文)。
+無権代理の追認は、相手方が先に
+取り消した後はできない(115条)。
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -219,7 +212,8 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
 attention to 代・理・権・任・意・責・追・認・者・契・約・不・適・合・
 委・善・管・義・務. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
+variant, redraw that character in the correct Japanese form. Confirm all
+captions are 1〜2 short lines only, with no long paragraphs. Confirm the
 number of cards equals 5 exactly (3 cards under 代理権の限界を見極める,
 2 cards under 復代理と無権代理の後始末), with no duplicated or missing
 cards, and confirm every heading, illustration label, and caption text
