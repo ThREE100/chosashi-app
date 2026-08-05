@@ -233,16 +233,25 @@ def parse_article(md_text):
         else:
             after_table = tail_text
 
-    # 結論文 + 正解行(「**正解：」を含む段落まで)を抽出
-    conclusion_match = re.search(r"^\*\*正解：.+?\*\*\s*$", after_table, re.M)
-    if conclusion_match:
-        between = after_table[: conclusion_match.start()]
+    # 結論文 + 正解行(「**」で始まり「正解」を含む太字段落。法改正で結論が
+    # 割れる問題では複数行になることがあるため、すべて拾う)を抽出
+    conclusion_matches = list(re.finditer(r"^\*\*.*正解.*\*\*\s*$", after_table, re.M))
+    if conclusion_matches:
+        between = after_table[: conclusion_matches[0].start()]
         for l in between.strip().splitlines():
             l = l.strip()
             if l and l != "---":
                 body_parts.append(f"<p>{inline_md_to_html(l)}</p>")
-        body_parts.append(f"<p>{inline_md_to_html(conclusion_match.group(0).strip())}</p>")
-        rest_after_conclusion = after_table[conclusion_match.end():]
+        for i, m in enumerate(conclusion_matches):
+            body_parts.append(f"<p>{inline_md_to_html(m.group(0).strip())}</p>")
+            # 正解行どうしの間にある文章(補足段落など)も拾う
+            if i + 1 < len(conclusion_matches):
+                gap = after_table[m.end():conclusion_matches[i + 1].start()]
+                for l in gap.strip().splitlines():
+                    l = l.strip()
+                    if l and l != "---":
+                        body_parts.append(f"<p>{inline_md_to_html(l)}</p>")
+        rest_after_conclusion = after_table[conclusion_matches[-1].end():]
     else:
         rest_after_conclusion = after_table
 
