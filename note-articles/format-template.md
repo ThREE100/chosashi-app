@@ -51,3 +51,4 @@
 - 法務省 正答資料: 上記ページから辿るか、「令和◯年度土地家屋調査士試験筆記試験（多肢択一式問題）の正解及び基準点等について」で検索
 - e-Gov法令検索: https://laws.e-gov.go.jp/ （`laws/`に収録がない法令、または`laws/README.md`記載の取得日以降の改正を確認する場合に使用）
 - note公式ヘルプ「タイトルと見出し画像のコツ」: https://www.help-note.com/hc/ja/articles/360012426353 （タイトルの文字数ルールの根拠）
+- note公式ヘルプ「登録画像の推奨サイズ一覧」: https://www.help-note.com/hc/ja/articles/360000231642 （見出し画像の推奨サイズ・比率の根拠。詳細は`infographic-prompt-template.md`の「サイズ・アスペクト比」参照）
