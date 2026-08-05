@@ -10,7 +10,7 @@ note-articles/
 ├── format-template.md      note記事の執筆フォーマット(固定テンプレート)
 ├── generate-prompt.md      新しい問題の記事を生成するためのプロンプトテンプレート
 ├── column/                 特定の1問に紐づかない概念解説・横断参照コラム(4本)
-├── bunya-kaisetsu/         分野別の深掘り解説(制限行為能力者の各類型、附属建物の所在等、8本)
+├── bunya-kaisetsu/         分野別の深掘り解説(制限行為能力者の各類型、附属建物の所在、従前地・底地・仮換地等、9本)
 ├── topics/                 テーマ別の短い解説記事(地目23種類、申請適格、取消権事項等、3本)
 ├── exports/                note.comインポート用MT形式の変換済みファイル
 ├── tools/                  記事の一括変換・整形スクリプト(md_to_mt.py、table_to_bullets.py等)
