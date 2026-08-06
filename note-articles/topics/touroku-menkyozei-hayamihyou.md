@@ -108,6 +108,398 @@
 
 ---
 
+## インフォグラフィック プロンプト
+
+### 画像1：登録免許税の課税範囲の判定フロー
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1700 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded flowchart nodes connected by arrows,
+consistent with a modern explainer-graphic aesthetic (icons: isometric
+land-registration document, coin/yen stamp, government building, diamond-
+shaped decision nodes, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+flowchart poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the flowchart. Every node must communicate its
+point almost entirely through the illustration (icons, X marks,
+checkmarks, small embedded labels) plus one short line of text. Do NOT
+render any full-sentence explanation, legal citation, or paragraph of body
+text anywhere on the poster. If a piece of information cannot be expressed
+as a short label (a few words) or drawn as an icon, leave it out rather
+than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+表示に関する登記、課税か非課税かの判定フロー
+
+Subtitle (smaller, centered, 2行):
+まず「別表第一に載っているか」だけを見る
+載っていても代位の主体次第で非課税になる
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+Node 1 (start node, rounded rectangle, beige):
+表示に関する登記を申請する
+
+Node 2 (diamond decision node, blue outline):
+別表第一に掲げられている登記か？（2条）
+
+Node 3 (result node, gray background, ✕ icon):
+課税範囲外
+（非課税ではなく、そもそも課税を観念しない）
+
+Node 4 (diamond decision node, blue outline):
+(十三)分筆・分割・区分、又は合筆・合併の登記か？
+
+Node 5 (result node, gray background, ✕ icon):
+非課税
+（(十四)(十五)の括弧書きにより表示に関するものを除外）
+
+Node 6 (diamond decision node, blue outline):
+国・別表第二法人が自己のために受ける登記、又はこれらの者が私人に代位して
+する登記か？（4条・5条）
+
+Node 7 (result node, gray background, ✕ icon):
+非課税
+（4条1項・5条1号）
+
+Node 8 (result node, green background, ✓ icon):
+課税
+（結果として生じる不動産の個数×1,000円）
+
+Flow (draw as numbered arrows between nodes, each arrow labeled はい/いいえ
+where it follows a decision node):
+Node 1 → Node 2
+Node 2 --いいえ--> Node 3
+Node 2 --はい--> Node 4
+Node 4 --いいえ--> Node 5
+Node 4 --はい--> Node 6
+Node 6 --はい--> Node 7
+Node 6 --いいえ--> Node 8
+
+Do not add, omit, or reword any node. Reproduce every node's text exactly
+as given above, verbatim.
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This flowchart has exactly 8 numbered
+nodes (1 start node, 3 diamond decision nodes, 4 result nodes), connected
+by arrows labeled はい／いいえ exactly as specified above, with no missing
+or duplicated nodes. Pay special attention to the kanji 課, 税, 免, 許,
+録, 筆, 併, 分, 号, 別, 表, 額 — render every one of them in standard
+Japanese (Jōyō) form, never in Simplified Chinese form, even though some
+of these characters have visually similar Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the flowchart has exactly 8 nodes (1 start,
+3 decisions, 4 results) with no duplicated or missing nodes, confirm there
+is no intro illustration or paragraph block between the header and the
+flowchart, and confirm that no node contains a full sentence of
+explanatory prose — every node's text must read as a short label, at a
+glance.
+```
+
+### 画像2：登録免許税 課税・非課税 早見表(1/2)
+
+```
+Create a Japanese-language infographic, landscape layout, 1600x1100 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded table section with a small isometric
+icon strip near the top (coin/yen stamp, land-registration document,
+government building), consistent with a modern explainer-graphic
+aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to the table. Do NOT render any full-sentence explanation beyond the
+table cell text itself. If a piece of information does not fit in a table
+cell as a short phrase, leave it out rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+表示に関する登記の登録免許税 早見表 (1/2)
+
+Subtitle (smaller, centered, 1行):
+課税範囲外の登記を中心に
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(pale blue / pale beige), Japanese sans-serif font, no monospace font,
+generous line height for the「登記の種類」column so its text wraps cleanly
+within the cell without overlapping other columns.
+
+Header row (bold, colored background):
+登記の種類 / 課税関係 / 根拠
+
+Data row 1:
+表題登記そのもの（土地・建物） / 非課税（課税範囲外）
+（グレーの背景に「✕」アイコン） / 2条・別表第一に不掲載
+
+Data row 2:
+地目又は地積の変更・更正の登記 / 非課税（課税範囲外）
+（グレーの背景に「✕」アイコン） / 2条・別表第一に不掲載
+
+Data row 3:
+建物の表題部の変更の登記（構造・床面積・種類等） / 非課税（課税範囲外）
+（グレーの背景に「✕」アイコン） / 2条・別表第一に不掲載
+
+Data row 4:
+土地・建物の滅失の登記 / 非課税（課税範囲外）
+（グレーの背景に「✕」アイコン） / 2条・別表第一に不掲載
+
+Data row 5:
+敷地権である旨・共用部分である旨の登記 / 非課税（課税範囲外）
+（グレーの背景に「✕」アイコン） / 2条・別表第一に不掲載
+
+Data row 6:
+表題部所有者・所有権登記名義人の氏名/住所の更正・変更登記 / 非課税
+（課税範囲外）（グレーの背景に「✕」アイコン） / 別表第一(十四)括弧書
+
+Do not add, omit, merge, or reword any row. Reproduce every cell string
+exactly as given above, verbatim.
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This table has exactly 6 data rows plus
+1 header row, in the exact order listed above, with no duplicated or
+missing rows. This is part (1/2) of a two-part table; part (2/2) continues
+with the remaining rows (課税される登記を含む) in a separate image. Pay
+special attention to the kanji 課, 税, 免, 許, 録, 号, 別, 表, 額, 更, 更正
+— render every one of them in standard Japanese (Jōyō) form, never in
+Simplified Chinese form, even though some of these characters have
+visually similar Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 1 header row and 6
+data rows, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm every cell text matches the strings given above exactly, with no
+paraphrasing.
+```
+
+### 画像3：登録免許税 課税・非課税 早見表(2/2)
+
+```
+Create a Japanese-language infographic, landscape layout, 1600x1100 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded table section with a small isometric
+icon strip near the top (coin/yen stamp, land-registration document,
+government building), consistent with a modern explainer-graphic
+aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to the table. Do NOT render any full-sentence explanation beyond the
+table cell text itself. If a piece of information does not fit in a table
+cell as a short phrase, leave it out rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+表示に関する登記の登録免許税 早見表 (2/2)
+
+Subtitle (smaller, centered, 1行):
+課税される4つの登記と、代位・官公署の非課税を中心に
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(pale blue / pale beige), Japanese sans-serif font, no monospace font,
+generous line height for the「登記の種類」column so its text wraps cleanly
+within the cell without overlapping other columns.
+
+Header row (bold, colored background):
+登記の種類 / 課税関係 / 根拠
+
+Data row 1:
+土地の分筆・建物の分割又は区分の登記（所有権登記のある不動産） / 課税：
+分筆・分割・区分後の個数×1,000円（緑色の背景に「○」アイコン） / 別表第一
+(十三)イ
+
+Data row 2:
+土地の合筆・建物の合併の登記（所有権登記のある不動産） / 課税：合筆・合併
+後の個数×1,000円（緑色の背景に「○」アイコン） / 別表第一(十三)ロ
+
+Data row 3:
+所有権登記のない土地（建物）同士の合筆（合併） / 非課税（課税範囲外）
+（グレーの背景に「✕」アイコン） / 別表第一(十三)ロの対象外
+
+Data row 4:
+土地・建物の表題部の登記の抹消（合筆登記の錯誤抹消等） / 非課税
+（グレーの背景に「✕」アイコン） / 別表第一(十五)括弧書
+
+Data row 5:
+国・別表第二法人が自己のために受ける登記等 / 非課税
+（グレーの背景に「✕」アイコン） / 4条1項
+
+Data row 6:
+国・別表第二法人が私人に代位してする登記 / 非課税
+（グレーの背景に「✕」アイコン） / 5条1号
+
+Do not add, omit, merge, or reword any row. Reproduce every cell string
+exactly as given above, verbatim.
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This table has exactly 6 data rows plus
+1 header row, in the exact order listed above, with no duplicated or
+missing rows. This is part (2/2) of a two-part table; part (1/2) covers
+the non-taxable (課税範囲外) rows in a separate image. Pay special
+attention to the kanji 課, 税, 免, 許, 録, 筆, 併, 区, 分, 号, 別, 表, 額,
+抹, 消 — render every one of them in standard Japanese (Jōyō) form, never
+in Simplified Chinese form, even though some of these characters have
+visually similar Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 1 header row and 6
+data rows, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm every cell text matches the strings given above exactly, with no
+paraphrasing.
+```
+
+### 画像4：登録免許税の計算例(分筆・区分・分割の一括申請)
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plot splitting
+and merging, building unit splitting into two, small building annex
+detaching and merging into a neighboring building, yen coin stamps, etc.
+— adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+登録免許税の計算例、3パターン
+
+Subtitle (smaller, centered, 2行):
+「結果として生じる不動産の個数×1,000円」を
+合算するだけで計算できる
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列を分けないため、バッジ色は1色に統一する。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分筆と合筆は合算して計算
+Illustration: an isometric land plot splitting into two plots (tagged
+「1,000円」), with one of the resulting plots then merging into a
+neighboring plot (tagged「1,000円」), a plus sign between the two steps.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence,
+NOT a legal citation):
+2,000円（1,000円+1,000円）
+
+--- CARD 2 ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+再区分は個数×1,000円
+Illustration: an isometric single-unit building splitting into two
+building units, each tagged「1,000円」.
+Conclusion tag (soft blue, 5-15 Japanese characters):
+2,000円（2個×1,000円）
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分割と合併も合算のみ
+Illustration: an isometric building with a small annex detaching (tagged
+「1,000円」), then that annex merging into a neighboring building (tagged
+「1,000円」); next to this, a crossed-out red label reading「3,000円」with
+an X mark, beside a correct green label reading「2,000円」with a
+checkmark.
+Conclusion tag (soft blue, 5-15 Japanese characters):
+2,000円（3,000円ではない）
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This poster has exactly 3 cards in a
+single column, numbered continuously 1 through 3 with no gaps or
+duplicates: (1) 分筆＋合筆の一括申請, (2) 区分建物の再区分登記, (3) 建物の
+分割＋合併の一括申請. Pay special attention to the kanji 課, 税, 免, 許,
+録, 筆, 併, 区, 分, 額 — render every one of them in standard Japanese
+(Jōyō) form, never in Simplified Chinese form, even though some of these
+characters have visually similar Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 3 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```
+
+---
+
 ### 対象とした過去問記事
 
 - [令和7年度午後の部第19問(登録免許税)](../r7-mondai/q19-touroku-menkyozei.md)

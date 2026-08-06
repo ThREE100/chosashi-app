@@ -117,6 +117,462 @@
 
 ---
 
+## インフォグラフィック プロンプト
+
+### 画像1：調査士の届出先マトリクス(1/2)
+
+```
+Create a Japanese-language infographic, landscape layout, 1700x1100 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded table section with a small isometric
+icon strip near the top (registry-office building, envelope, association
+badge), consistent with a modern explainer-graphic aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to the table. Do NOT render any full-sentence explanation beyond the
+table cell text itself. If a piece of information does not fit in a table
+cell as a short phrase, leave it out rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+土地家屋調査士の届出先マトリクス (1/2)
+
+Subtitle (smaller, centered, 2行):
+法務局ではなく、調査士会を経由して連合会へ
+個人の届出を中心に
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(pale blue / pale beige), Japanese sans-serif font, no monospace font,
+generous line height for the「手続」「経由・届出先」columns so their text
+wraps cleanly within the cell without overlapping other columns.
+
+Header row (bold, colored background):
+手続 / 経由・届出先 / 登録事務を行う機関 / 根拠条文
+
+Data row 1:
+新規登録の申請 / 事務所を設けようとする地を管轄する法務局・地方法務局の
+管轄区域内に設立された調査士会を経由 / 連合会（名簿登録） / 8条2項・9条
+1項
+
+Data row 2:
+所属調査士会の変更登録の申請 / 新たに事務所を移す地の調査士会を経由
+（現に所属する調査士会にも別途届出） / 連合会 / 13条1項・2項
+
+Data row 3:
+登録事項の変更届出（所属会の変更を除く） / 所属する調査士会を経由 /
+連合会 / 14条
+
+Data row 4:
+登録取消し事由（死亡・業務廃止等）発生の届出（本人・法定代理人・相続人）
+/ 所属し、又は所属していた調査士会を経由 / 連合会（取消し） / 15条2項
+
+Data row 5:
+心身の故障のおそれがある場合の届出（本人・法定代理人・同居の親族） /
+所属する調査士会を経由 / 連合会 / 16条2項、施行規則17条の2
+
+Data row 6:
+補助者を置いた/置かなくなったときの届出 / 所属の調査士会（調査士会が
+法務局長へ通知） / ― / 施行規則23条2項・3項
+
+Do not add, omit, merge, or reword any row. Reproduce every cell string
+exactly as given above, verbatim.
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This table has exactly 6 data rows plus
+1 header row, in the exact order listed above, with no duplicated or
+missing rows. This is part (1/2) of a two-part table; part (2/2) continues
+with the remaining rows covering 調査士法人の届出 in a separate image. Pay
+special attention to the kanji 調, 査, 登, 録, 号, 届, 出, 経, 由, 連, 合,
+会, 務, 局 — render every one of them in standard Japanese (Jōyō) form,
+never in Simplified Chinese form, even though some of these characters
+have visually similar Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 1 header row and 6
+data rows, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm every cell text matches the strings given above exactly, with no
+paraphrasing.
+```
+
+### 画像2：調査士の届出先マトリクス(2/2)
+
+```
+Create a Japanese-language infographic, landscape layout, 1700x1000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded table section with a small isometric
+icon strip near the top (registry-office building, envelope, association
+badge), consistent with a modern explainer-graphic aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to the table. Do NOT render any full-sentence explanation beyond the
+table cell text itself. If a piece of information does not fit in a table
+cell as a short phrase, leave it out rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+土地家屋調査士の届出先マトリクス (2/2)
+
+Subtitle (smaller, centered, 2行):
+法務局ではなく、調査士会を経由して連合会へ
+調査士法人の届出を中心に
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(pale blue / pale beige), Japanese sans-serif font, no monospace font,
+generous line height for the「手続」「経由・届出先」columns so their text
+wraps cleanly within the cell without overlapping other columns.
+
+Header row (bold, colored background):
+手続 / 経由・届出先 / 登録事務を行う機関 / 根拠条文
+
+Data row 1:
+調査士法人の成立の届出 / 主たる事務所所在地の調査士会 及び 連合会 /
+連合会（法人名簿登録） / 33条
+
+Data row 2:
+調査士法人の定款変更の届出 / 主たる事務所所在地の調査士会 及び 連合会 /
+連合会 / 34条2項
+
+Data row 3:
+調査士法人の解散の届出（合併による解散を除く） / 主たる事務所所在地の
+調査士会 及び 連合会 / 連合会 / 39条2項
+
+Data row 4:
+調査士法人の合併の届出 / 主たる事務所所在地の調査士会 及び 連合会 /
+連合会 / 40条3項
+
+Data row 5:
+調査士法人の清算結了の届出（清算人が行う） / 主たる事務所所在地の調査士会
+及び 連合会 / 連合会 / 53条3項
+
+Do not add, omit, merge, or reword any row. Reproduce every cell string
+exactly as given above, verbatim.
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This table has exactly 5 data rows plus
+1 header row, in the exact order listed above, with no duplicated or
+missing rows. This is part (2/2) of a two-part table; part (1/2) covers
+the individual-調査士 rows in a separate image. Pay special attention to
+the kanji 調, 査, 登, 録, 号, 届, 出, 経, 由, 連, 合, 会, 法, 人, 併, 算,
+了 — render every one of them in standard Japanese (Jōyō) form, never in
+Simplified Chinese form, even though some of these characters have
+visually similar Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 1 header row and 5
+data rows, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm every cell text matches the strings given above exactly, with no
+paraphrasing.
+```
+
+### 画像3：登録取消し、義務的取消し(第15条)と裁量的取消し(第16条)の対比
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded two-column comparison layout,
+consistent with a modern explainer-graphic aesthetic (icons: registry
+official stamping a「取消」seal with force on the left, registry official
+weighing options on a balance scale on the right, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the two columns. Every item must communicate its point almost entirely
+through a short label plus a small icon. Do NOT render any full-sentence
+explanation or paragraph of body text anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+登録取消し、義務的取消しと裁量的取消し
+
+Subtitle (smaller, centered, 1行):
+「取り消さなければならない」か「取り消すことができる」か
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN ---
+Column header (pill-shaped badge, color: soft red):
+第15条 義務的取消し（取り消さなければならない）
+
+Item 1: 1号　業務を廃止したとき
+Item 2: 2号　死亡したとき
+Item 3: 3号　調査士となる資格を有しないことが判明したとき
+Item 4: 4号　欠格事由（第5条各号、2号を除く）に該当するに至ったとき
+
+--- RIGHT COLUMN ---
+Column header (pill-shaped badge, color: soft blue):
+第16条 裁量的取消し（取り消すことができる）
+
+Item 1: 1号　引き続き2年以上業務を行わないとき
+Item 2: 2号　心身の故障により業務を行うことができないとき
+Item 3: 該当なし（グレーアウトして「―」とだけ表示し、左列の項目数と高さを
+揃える）
+Item 4: 該当なし（グレーアウトして「―」とだけ表示し、左列の項目数と高さを
+揃える）
+
+Layout: place LEFT COLUMN item N and RIGHT COLUMN item N at the same
+vertical height, so the two columns read as 4 aligned rows. Items with no
+corresponding rule on one side must be shown as a grayed-out「―該当なし」
+placeholder rather than left blank.
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This poster has exactly 2 columns, each
+listing exactly 4 items aligned at the same height (LEFT: 4 numbered rules
+under 第15条; RIGHT: 2 numbered rules under 第16条 plus 2 grayed-out「該当
+なし」placeholders), with no duplicated or missing items. Pay special
+attention to the kanji 調, 査, 登, 録, 号, 取, 消, 義, 務, 裁, 量, 欠, 格
+— render every one of them in standard Japanese (Jōyō) form, never in
+Simplified Chinese form, even though some of these characters have
+visually similar Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the LEFT column has exactly 4 items and the
+RIGHT column has exactly 2 real items plus 2 grayed-out placeholders, with
+no duplicated or missing items, confirm there is no intro illustration or
+paragraph block between the header and the columns, and confirm that no
+item contains a full sentence of explanatory prose.
+```
+
+### 画像4：事務所の設置、個人は1箇所限定・法人は主+従もOK
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded two-column comparison layout,
+consistent with a modern explainer-graphic aesthetic (icons: a single
+isometric individual office building on the left, a main office building
+connected by a dotted line to a smaller branch office building on the
+right, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the two columns. Every item must communicate its point almost entirely
+through a short label plus a small icon. Do NOT render any full-sentence
+explanation or paragraph of body text anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+事務所の設置、個人と法人のちがい
+
+Subtitle (smaller, centered, 1行):
+個人は1箇所限定、法人は主たる事務所＋従たる事務所もOK
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN ---
+Column header (pill-shaped badge, color: soft green):
+個人の土地家屋調査士
+
+Item 1: 事務所は2以上設けることができない（施行規則18条）
+Item 2: 連合会に届け出ても、複数の都道府県に事務所を設置することはできない
+
+--- RIGHT COLUMN ---
+Column header (pill-shaped badge, color: soft blue):
+土地家屋調査士法人
+
+Item 1: 主たる事務所及び従たる事務所を持てる（定款31条3項3号）
+Item 2: 従たる事務所の新設・移転・廃止に応じた入会・退会の届出ルールが
+ある（53条4項〜7項）
+
+Layout: place LEFT COLUMN item N and RIGHT COLUMN item N at the same
+vertical height, so the two columns read as 2 aligned rows.
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This poster has exactly 2 columns, each
+listing exactly 2 items aligned at the same height, with no duplicated or
+missing items. Pay special attention to the kanji 調, 査, 登, 録, 事, 務,
+所, 法, 人, 主, 従 — render every one of them in standard Japanese (Jōyō)
+form, never in Simplified Chinese form, even though some of these
+characters have visually similar Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the LEFT column has exactly 2 items and the
+RIGHT column has exactly 2 items, with no duplicated or missing items,
+confirm there is no intro illustration or paragraph block between the
+header and the columns, and confirm that no item contains a full sentence
+of explanatory prose.
+```
+
+### 画像5：調査士法人の社員が法定脱退する5つの事由
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1900 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric figure stepping out
+of an office-building icon, contract document icons, a group of figures
+raising hands in agreement, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+調査士法人の社員が法定脱退する5つの事由
+
+Subtitle (smaller, centered, 2行):
+登録取消しなら、届出なしで当然に脱退する（第38条）
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列を分けないため、バッジ色は1色に統一する。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+登録取消しで当然に脱退
+Illustration: an isometric figure stepping out of an office-building icon
+automatically, with a small red「取消」stamp icon above the figure and no
+separate document/届出 icon nearby (emphasizing no extra filing is
+needed).
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence,
+NOT a legal citation):
+届出不要で当然脱退
+
+--- CARD 2 ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+定款に定める理由の発生
+Illustration: an isometric contract document labeled「定款」with a
+highlighted clause, next to a figure stepping out of the office-building
+icon.
+Conclusion tag (soft blue, 5-15 Japanese characters):
+定款所定の事由
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+総社員の同意による脱退
+Illustration: a small group of isometric figures all raising a hand in
+agreement, with one figure then stepping out of the office-building icon.
+Conclusion tag (soft blue, 5-15 Japanese characters):
+全員一致の同意
+
+--- CARD 4 ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+業務停止処分中の法人の社員等
+Illustration: an isometric figure standing next to an office-building icon
+marked with a red「業務停止」ribbon, then stepping away from the building.
+Conclusion tag (soft blue, 5-15 Japanese characters):
+第28条2項各号に該当
+
+--- CARD 5 ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+除名による脱退
+Illustration: an isometric figure being pointed out of the office-building
+icon by other figures, with a small「除名」name-tag label.
+Conclusion tag (soft blue, 5-15 Japanese characters):
+除名
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This poster has exactly 5 cards in a
+single column, numbered continuously 1 through 5 with no gaps or
+duplicates: (1) 調査士の登録の取消し, (2) 定款に定める理由の発生,
+(3) 総社員の同意, (4) 第28条2項各号のいずれかに該当することとなったこと,
+(5) 除名. Pay special attention to the kanji 調, 査, 登, 録, 号, 法, 人,
+社, 員, 脱, 退, 定, 款, 除, 名 — render every one of them in standard
+Japanese (Jōyō) form, never in Simplified Chinese form, even though some
+of these characters have visually similar Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```
+
+---
+
 ## 参照した過去問記事一覧
 
 - [H20第20問 懲戒(官報公告・聴聞・複数事務所への処分)](../h20-mondai/q20-choukai.md)

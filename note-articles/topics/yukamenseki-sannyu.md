@@ -108,6 +108,448 @@
 
 ---
 
+## インフォグラフィック プロンプト
+
+### 画像1：床面積の計測基準──壁芯（中心線）と内法（内側線）の対比
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric house cross-section,
+apartment building, dashed measurement lines, ruler icon).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the columns. Every row must communicate its point almost entirely
+through the illustration (icons, dashed lines, short embedded labels) plus
+one short line of text. Do NOT render any full-sentence explanation, legal
+citation, or paragraph of body text anywhere on the poster except the one
+short footer note specified below. If a piece of information cannot be
+expressed as a short label (a few words) or drawn as an icon, leave it out
+rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 芯, 建,
+物, 積, 区, 画, 側, 線, 権 — do not render these as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+床面積の計測基準、壁芯？内法？
+
+Subtitle (smaller, centered, 1行):
+区分建物でない建物は中心線、区分建物の専有部分は内側線
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN HEADER (pill-shaped badge, color: green) ---
+区分建物でない建物
+
+--- LEFT COLUMN, ROW 1 ---
+Label: 建物の例
+Content: 一戸建てなど、区分建物でない建物
+Illustration: an isometric single-family house exterior icon.
+
+--- LEFT COLUMN, ROW 2 ---
+Label: 計測の基準線
+Content: 壁その他の区画の中心線
+Illustration: a top-down cross-section of a wall with a dashed vertical
+line running through the exact center of the wall's thickness, labeled
+中心線.
+
+--- LEFT COLUMN, ROW 3 ---
+Label: 呼び方
+Content: 壁芯（かべしん）計算
+Illustration: a small green pill badge reading 壁芯計算 placed next to the
+wall cross-section icon.
+
+--- RIGHT COLUMN HEADER (pill-shaped badge, color: blue) ---
+区分建物（マンション等の専有部分）
+
+--- RIGHT COLUMN, ROW 1 ---
+Label: 建物の例
+Content: 区分建物（マンション等）の専有部分
+Illustration: an isometric apartment building icon with one unit
+highlighted in blue.
+
+--- RIGHT COLUMN, ROW 2 ---
+Label: 計測の基準線
+Content: 壁その他の区画の内側線
+Illustration: a top-down cross-section of a wall with a dashed vertical
+line running along the inner (room-side) face of the wall, labeled 内側線.
+
+--- RIGHT COLUMN, ROW 3 ---
+Label: 呼び方
+Content: 内法（うちのり）計算。壁芯より数値が小さくなる
+Illustration: a small blue pill badge reading 内法計算 placed next to the
+wall cross-section icon, with a small tag reading 壁芯より狭い.
+
+--- FOOTER NOTE (full-width gray banner placed below both columns, above
+the Final check paragraph) ---
+一棟の建物全体の床面積は、専有部分とは異なり壁芯計算による（規則115条）
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly 3 rows in the left column
+and exactly 3 rows in the right column, with no duplicated or missing
+rows, confirm there is no intro illustration or paragraph block between
+the header and the columns, and confirm that no row contains a full
+sentence of explanatory prose beyond the short label/content text and the
+one footer note specified above.
+```
+
+### 画像2：床面積に算入するもの一覧（早見表）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: staircase, bay window, chimney,
+underground parking, train platform, stadium grandstand, slanted wall).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Each table row must communicate its point through a small
+icon plus the short text specified for that row. Do NOT add any
+explanation, illustration, or text beyond what is explicitly listed below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 段, 準,
+則, 号, 積, 建, 物, 権, 録, 地, 番, 記, 所 — do not render these as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+床面積に算入するもの一覧
+
+Subtitle (smaller, centered, 1行):
+不動産登記事務取扱手続準則82条の個別ルール（算入する側）
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(light green / white), Japanese sans-serif font, no monospace font. Each
+row has a small isometric icon on the left, followed by the three columns
+below, laid out in a single-column stacked table (not multi-column grid)
+so all Japanese text remains legible.
+
+Header row (3 columns, verbatim):
+部位・ケース ｜ 算入のルール ｜ 根拠
+
+Data rows (numbered 1-8 in this exact order; reproduce every row exactly
+as written; do not omit, duplicate, merge, reorder, or paraphrase any
+row):
+
+1. 部位・ケース: 階段室・エレベーター室（またはこれに準ずるもの）
+   算入のルール: 床を有するものとみなして各階の床面積に算入する
+   根拠: 準則82条6号
+   Icon: an isometric staircase/elevator shaft icon.
+
+2. 部位・ケース: 出窓
+   算入のルール: 高さ1.5メートル以上で、かつ下部が床面と同一の高さにある
+   ものに限り算入する（2条件を両方満たす必要あり）
+   根拠: 準則82条11号
+   Icon: an isometric bay window with a small ruler mark labeled 1.5メートル
+   next to the window height, and a small arrow showing the sill (下部)
+   aligned with the floor level.
+
+3. 部位・ケース: 内部にある煙突・ダストシュート（一部が外側に及んでいる
+   ものを含む）
+   算入のルール: その部分は各階の床面積に算入する
+   根拠: 準則82条10号
+   Icon: an isometric chimney that starts inside the building and pokes
+   partway through an outer wall, with the entire chimney (both the inside
+   and the protruding part) shaded the same green as "counted" areas and a
+   small checkmark.
+
+4. 部位・ケース: 地下停車場・地下駐車場・地下街の建物
+   算入のルール: 壁又は柱等により区画された部分の面積で定める（常時一般
+   に開放されている通路・階段を除く）
+   根拠: 準則82条4号
+   Icon: an isometric underground parking area with columns marking off a
+   section.
+
+5. 部位・ケース: 天井の高さ1.5メートル未満の部分でも、1室の一部にすぎない
+   場合
+   算入のルール: その部分を含めて当該1室の面積に算入する
+   根拠: 準則82条1号ただし書
+   Icon: a single room with a partially lowered ceiling section (a small
+   nook), the low-ceiling nook shaded the same color as the rest of the
+   room to show it is still counted.
+
+6. 部位・ケース: 停車場の上屋を有する乗降場・荷物積卸場
+   算入のルール: その上屋の占める部分の面積により計算する
+   根拠: 準則82条2号
+   Icon: an isometric train platform with a roof canopy (上屋) over it.
+
+7. 部位・ケース: 野球場・競馬場又はこれらに類する施設の観覧席
+   算入のルール: 屋根の設備のある部分の面積を床面積として計算する
+   根拠: 準則82条3号
+   Icon: an isometric stadium grandstand with a roof over part of the
+   seating area.
+
+8. 部位・ケース: 柱又は壁が傾斜している場合
+   算入のルール: 各階の床面の接着する壁その他の区画の中心線で囲まれた
+   部分による（不算入というより計算方法の特則）
+   根拠: 準則82条9号
+   Icon: an isometric slanted wall or column with a dashed center line
+   running through it.
+
+Self-check instruction to embed in the image generation reasoning (not
+rendered as visible text): confirm the table has exactly 8 data rows
+corresponding to the numbered list above, in the same order, with no row
+omitted, duplicated, merged, or reworded.
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 8 data rows exactly
+matching the list above, with no duplicated or missing rows, confirm there
+is no intro illustration or paragraph block between the header and the
+table, and confirm that no row contains any text beyond the 部位・ケース /
+算入のルール / 根拠 text specified for that row.
+```
+
+### 画像3：床面積に算入しないもの一覧（早見表）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1800 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: low-ceiling basement, outdoor
+staircase, atrium void, chimney, bay window, underground passage).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Each table row must communicate its point through a small
+icon plus the short text specified for that row. Do NOT add any
+explanation, illustration, or text beyond what is explicitly listed below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 段, 準,
+則, 号, 積, 建, 物, 階, 地, 通, 路, 設, 備 — do not render these as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+床面積に算入しないもの一覧
+
+Subtitle (smaller, centered, 1行):
+不動産登記事務取扱手続準則82条の個別ルール（算入しない側）
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(light beige / white), Japanese sans-serif font, no monospace font. Each
+row has a small isometric icon on the left, followed by the three columns
+below, laid out in a single-column stacked table (not multi-column grid)
+so all Japanese text remains legible. Use a small ✕ mark motif near each
+icon to visually reinforce "not counted".
+
+Header row (3 columns, verbatim):
+部位・ケース ｜ 不算入のルール ｜ 根拠
+
+Data rows (numbered 1-7 in this exact order; reproduce every row exactly
+as written; do not omit, duplicate, merge, reorder, or paraphrase any
+row):
+
+1. 部位・ケース: 天井の高さ1.5メートル未満の地階・屋階（特殊階）全体
+   不算入のルール: 床面積に算入しない（空間全体が対象。1室の一部にとどまる
+   場合は上表のとおり算入）
+   根拠: 準則82条1号本文
+   Icon: an isometric basement/attic room with a low sloped ceiling and a
+   ruler mark labeled 1.5メートル未満, the whole room shaded gray with a
+   ✕ mark.
+
+2. 部位・ケース: 建物に附属する屋外の階段
+   不算入のルール: 床面積に算入しない
+   根拠: 準則82条7号
+   Icon: an isometric outdoor staircase attached to the outside of a
+   building, shaded gray with a ✕ mark.
+
+3. 部位・ケース: 上階まで続く吹抜けの部分
+   不算入のルール: 上階の床面積に算入しない（吹抜けの起点となる床のある
+   階には算入する）
+   根拠: 準則82条8号
+   Icon: an isometric two-story atrium/void cutting through a floor slab;
+   the upper floor's open void area shaded gray with a ✕ mark, while the
+   ground floor beneath it is shaded green with a checkmark.
+
+4. 部位・ケース: 外側にある煙突・ダストシュート
+   不算入のルール: 算入しない
+   根拠: 準則82条10号
+   Icon: an isometric chimney standing entirely outside a building's
+   outer wall, shaded gray with a ✕ mark.
+
+5. 部位・ケース: 出窓のうち、高さ1.5メートル未満のもの、または下部が床面と
+   同一の高さにないもの
+   不算入のルール: 算入しない（11号の要件を満たさないもの）
+   根拠: 準則82条11号（反対解釈）
+   Icon: an isometric bay window with a ruler mark labeled 1.5メートル未満
+   and a small gap shown between the sill and the floor level, shaded gray
+   with a ✕ mark.
+
+6. 部位・ケース: 地下停車場・地下駐車場・地下街のうち、常時一般に開放
+   されている通路及び階段の部分
+   不算入のルール: 算入しない
+   根拠: 準則82条4号ただし書
+   Icon: an isometric underground passage and staircase left unshaded
+   (open) with a ✕ mark, distinct from the surrounding parking area.
+
+7. 部位・ケース: 停車場の地下道設備（地下停車場のものを含む）
+   不算入のルール: 床面積に算入しない
+   根拠: 準則82条5号
+   Icon: an isometric underground pedestrian passage beneath a train
+   platform, shaded gray with a ✕ mark.
+
+Self-check instruction to embed in the image generation reasoning (not
+rendered as visible text): confirm the table has exactly 7 data rows
+corresponding to the numbered list above, in the same order, with no row
+omitted, duplicated, merged, or reworded.
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 7 data rows exactly
+matching the list above, with no duplicated or missing rows, confirm there
+is no intro illustration or paragraph block between the header and the
+table, and confirm that no row contains any text beyond the 部位・ケース /
+不算入のルール / 根拠 text specified for that row.
+```
+
+### 画像4：同じ「1.5メートル」でも意味が違う三つの基準
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: bay window with ruler, low
+basement ceiling with ruler, building floor stack with a crossed-out
+floor).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, ✕/✓ marks, small embedded labels) plus
+one short heading and one short conclusion tag. Do NOT render any
+full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 窓, 階,
+数, 積, 準, 則, 号 — do not render these as Simplified Chinese variants.
+Note: this instruction itself must not be rendered as visible text on the
+poster.
+
+--- HEADER ---
+Title (large, bold, 2行):
+同じ「1.5メートル」でも
+場面によって意味が違う
+
+Subtitle (smaller, centered, 1行):
+出窓・特殊階の床面積・特殊階の階数、それぞれの基準
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列は分けず1列で並べ、バッジ色はオレンジに統一する。）
+
+--- CARD 1 ---
+Badge: a filled orange circle containing the number 1.
+Small context tag above the heading (a small pill label): 出窓の高さ基準
+（準則82条11号）
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+出窓は1.5メートル以上で算入
+Illustration: an isometric bay window with a ruler mark showing exactly
+1.5メートル for the window height, and an arrow showing the sill (下部)
+level exactly matching the floor level, with a green checkmark. Include a
+second small inset showing the same window shorter than 1.5メートル with a
+✕ mark, to contrast the two outcomes.
+Conclusion tag (short colored banner/pill directly below the illustration,
+orange, 5-15 Japanese characters, a keyword phrase — NOT a sentence):
+2条件そろって算入
+
+--- CARD 2 ---
+Badge: a filled orange circle containing the number 2.
+Small context tag above the heading (a small pill label): 特殊階の床面積
+基準（準則82条1号）
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+特殊階全体は床面積に不算入
+Illustration: an isometric basement/attic room with a low sloped ceiling
+and a ruler mark showing 1.5メートル未満 for the ceiling height, the whole
+room shaded gray with a ✕ mark.
+Conclusion tag (short colored banner/pill directly below the illustration,
+orange, 5-15 Japanese characters, a keyword phrase — NOT a sentence):
+床面積は不算入
+
+--- CARD 3 ---
+Badge: a filled orange circle containing the number 3.
+Small context tag above the heading (a small pill label): 特殊階の階数基準
+（準則81条4項）
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+特殊階は階数にも算入しない
+Illustration: an isometric stack of building floors as a vertical column
+of slabs, with the same low-ceiling basement/attic floor from Card 2
+crossed out with a ✕ mark and excluded from the floor-count numbering
+shown beside the stack (the visible floors are numbered, the crossed-out
+floor is not).
+Conclusion tag (short colored banner/pill directly below the illustration,
+orange, 5-15 Japanese characters, a keyword phrase — NOT a sentence):
+階数はカウント外
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 3 exactly, with
+no duplicated or missing cards, confirm that each card's small context tag
+(出窓の高さ基準 / 特殊階の床面積基準 / 特殊階の階数基準) is not confused
+with another card's context, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a context tag + short heading + short conclusion tag, at a glance.
+```
+
+---
+
 ## 対象とした過去問記事
 
 - [令和5年度 午後の部 第12問](../r5-mondai/q12-yukamenseki.md)

@@ -175,6 +175,571 @@
 
 ---
 
+## インフォグラフィック プロンプト
+
+### 画像1：筆界特定制度とは何か（筆界と所有権界の対比表）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots with
+dotted boundary lines, magnifying glass, courthouse/scale icon, document
+with a stamp, handshake icon — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the comparison rows. Every row must communicate its point almost
+entirely through the illustration (icons, X marks, checkmarks, small
+embedded labels) plus one short heading per side. Do NOT render any
+full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定制度とは何か
+
+Subtitle (smaller, centered, 1行):
+「筆界」と「所有権界」は別物
+
+（タイトル・サブタイトルのすぐ下に比較列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN HEADER (pill-shaped badge, color: blue) ---
+筆界（公法上の境界）
+
+--- RIGHT COLUMN HEADER (pill-shaped badge, color: green) ---
+所有権界（私法上の境界）
+
+--- ROW 1 ---
+Left heading (bold, one line): 登記された時点で定まる客観的な線
+Left illustration: 一筆の土地を表すアイソメの土地区画アイコン、区画の境目に
+くっきりした実線の境界線。
+Right heading (bold, one line): 所有者どうしの合意で変わる線
+Right illustration: 隣り合う二つの土地アイコンの間に、握手する二人の小さな
+アイコンと、点線で描いた境界線（動かせることを示す）。
+
+--- ROW 2 ---
+Left heading: 私人の合意では動かせない
+Left illustration: 実線の境界の上に鍵のアイコン（固定・不変を示す）。
+Right heading: 合意や時効取得で変わりうる
+Right illustration: 点線の境界の上に時計のアイコン（時効取得を示す）。
+
+--- ROW 3 ---
+Left heading: 争うなら筆界確定訴訟・筆界特定
+Left illustration: 天秤（スケール）アイコンと、虫眼鏡で境界線を確認する
+アイソメの人物アイコン。
+Right heading: 争うなら所有権確認訴訟
+Right illustration: 天秤（スケール）アイコンと、書類に「所有権」の小さな
+ラベル札。
+
+--- ROW 4 ---
+Left heading: 確定判決は却下事由になる
+Left illustration: 確定した判決書のアイコンに赤い「却下」のスタンプ。
+Right heading: 該当なし（グレーアウト）
+Right illustration: このセルはグレーアウトした空白のカードとして描き、
+アイコンやラベルは置かない（対応する制度がないことを示す）。
+
+--- ROW 5 ---
+Left heading: 判断は筆界特定登記官・筆界調査委員
+Left illustration: 制服姿のアイソメの登記官アイコンと、書類を調査する
+調査委員のアイコン。
+Right heading: 該当なし（グレーアウト）
+Right illustration: このセルはグレーアウトした空白のカードとして描き、
+アイコンやラベルは置かない。
+
+（各行は左右で同じ高さに揃えて配置する。片方にしか存在しない要素は
+「該当なし」としてグレーアウト表示する。）
+
+--- FOOTER ---
+
+注意：特に「地」「番」「建」「物」「登」「記」「所」「権」の各漢字は、
+簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly 5 rows, with no
+duplicated or missing rows, confirm there is no intro illustration or
+paragraph block between the header and the comparison rows, and confirm
+that no row contains a full sentence of explanatory prose — every row's
+takeaway must read as a short heading on each side, at a glance.
+```
+
+### 画像2：筆界特定は誰が申請できるか（申請できる人・できない人）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric people figures,
+document with a seal, family-tree icon, land plot with dotted boundary,
+bank/key icon for a mortgage, contract and pen icon — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定は誰が申請できるか
+
+Subtitle (smaller, centered, 1行):
+所有権登記名義人等に限られる
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請できる人
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+所有権登記名義人・表題部所有者
+Illustration: 権利証を手に持つアイソメの人物アイコンと、家と土地のアイコン。
+人物の横に緑のチェックマーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters):
+申請できる
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading: 相続人は相続登記が未了でも可
+Illustration: 家系図のアイコンと、書類に「相続登記 未」という小さな
+ラベル札、緑のチェックマーク。
+Conclusion tag (green):
+一般承継人も可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled circle in green containing the number 3.
+Heading: 土地の一部を時効取得した人も可
+Illustration: 土地アイコンの一部を点線で丸く囲み、その上に時計のアイコン、
+緑のチェックマーク。
+Conclusion tag (green):
+隣接なくても可
+
+--- COLUMN B HEADER (pill-shaped badge, color: red) ---
+申請できない人
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in red containing the number 4 (continuing the
+numbering from column A).
+Heading: 所有権移転の仮登記名義人
+Illustration: 書類のアイコンに「仮」という朱色のスタンプ、赤い✕マーク。
+Conclusion tag (red):
+仮登記は不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in red containing the number 5.
+Heading: 抵当権など担保権の登記名義人
+Illustration: 銀行・金庫のアイコンと鍵のアイコン、「抵当権」という小さな
+ラベル札、赤い✕マーク。
+Conclusion tag (red):
+担保権者は不可
+
+--- COLUMN B, CARD 6 ---
+Badge: a filled circle in red containing the number 6.
+Heading: 移転登記前の買主（特定承継人）
+Illustration: 契約書と印鑑のアイコン、「移転登記 未」という小さなラベル札、
+赤い✕マーク。
+Conclusion tag (red):
+移転登記が先
+
+--- FOOTER ---
+
+注意：特に「登」「記」「権」「地」の各漢字は、簡体字ではなく標準的な
+日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 6 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
+
+### 画像3：対象土地になれるか（対象土地の要件 早見表）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1080 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, dotted
+boundary lines, small connector icons between plots — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Do NOT render any full-sentence explanation or paragraph of
+body text anywhere on the poster; every row must read as a short phrase
+plus an icon.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+対象土地になれるか？
+
+Subtitle (smaller, centered, 1行):
+一筆の土地どうしの要件
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background
+colors, Japanese sans-serif font, no monospace font. 3 columns: 「状況」
+「判定」「理由」。Reproduce the header row and all 4 data rows exactly as
+written below, verbatim, in this order, with no duplicated or missing
+rows:
+
+ヘッダー行: 状況 | 判定 | 理由
+
+行1: 一点のみで接している土地どうし | ×（対象外） | 線としての筆界が存在しない
+行2: 間に別の土地を挟む土地どうし | ×（対象外） | 直接筆界を接しない
+行3: 双方とも表題登記のない土地どうし | ×（対象外） | 筆界の概念が成立しない
+行4: 一方が表題登記のない土地 | ○（対象になる） | 所有権を証する情報の提供が必要
+
+「×（対象外）」のセルは薄い赤の背景に赤い✕アイコンを添え、「○（対象になる）」
+のセルは薄い緑の背景に緑のチェックアイコンを添える。各行の左端に、二つの
+土地区画をアイソメで小さく描いたミニアイコンを置き、行1〜3はその二区画の
+接し方（点のみで接する／間に別の区画を挟む／両方とも地番のない区画）を
+図解する。
+
+--- FOOTER ---
+
+注意：特に「地」「番」「筆」の各漢字は、簡体字ではなく標準的な日本語の
+常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 4 data rows plus the
+header row, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm no cell contains a full sentence of explanatory prose.
+```
+
+### 画像4：筆界特定の申請が却下されるとき（却下事由 早見表）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1400 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: document with a red rejection
+stamp, isometric building icons for a courthouse/registry office —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Do NOT render any full-sentence explanation or paragraph of
+body text anywhere on the poster; every row must read as a short phrase.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定の申請が却下されるとき
+
+Subtitle (smaller, centered, 1行):
+132条1項 却下事由（1号〜9号）
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background
+colors, Japanese sans-serif font, no monospace font. 2 columns: 「号」
+「却下事由」。Reproduce the header row and all 9 data rows exactly as
+written below, verbatim, in this exact order, with no duplicated or
+missing rows and no renumbering:
+
+ヘッダー行: 号 | 却下事由
+
+行1: 1号 | 対象土地の所在地が管轄外
+行2: 2号 | 申請権限のない者の申請
+行3: 3号 | 申請の記載事項（131条3項）に違反
+行4: 4号 | 申請情報の提供方法が法定方式に不適合
+行5: 5号 | 所有権の境界の特定など筆界特定以外が目的
+行6: 6号 | 筆界確定訴訟の確定判決がある
+行7: 7号 | 既に筆界特定がされている（特段の必要がある場合を除く）
+行8: 8号 | 手数料を納付しない
+行9: 9号 | 146条5項の予納命令に従わない
+
+各行の左端（「号」列）は円形の連番バッジ（1〜9）として描き、右端（「却下事由」
+列）の右側に小さな赤い✕アイコンを添える。
+
+--- FOOTER ---
+
+これは9号までの限定列挙であり、重複禁止・欠落禁止・言い換え禁止で全9行を
+正確に描画すること。特に「号」「権」「地」「所」「記」「登」の各漢字は、
+簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Count the data rows and confirm there are exactly
+9, numbered 1号 through 9号 in order with no duplicates and no gaps.
+Confirm there is no intro illustration or paragraph block between the
+header and the table, and confirm no cell contains a full sentence of
+explanatory prose.
+```
+
+### 画像5：筆界特定手続の流れ（申請から手続記録の保管まで）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2400 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: document icons, envelope for
+notice, measuring tape for surveying, magnifying glass, courthouse icon,
+filing cabinet for storage — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the flowchart. Every node must communicate its point almost entirely
+through the illustration (icons, arrows, a diamond decision shape) plus
+one short heading. Do NOT render any full-sentence explanation, legal
+citation, or paragraph of body text anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定手続の流れ
+
+Subtitle (smaller, centered, 1行):
+申請から手続記録の保管まで
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+Draw a top-to-bottom flowchart connected by arrows. Each node is numbered
+and rendered as a rounded rectangle (or a diamond for the one decision
+node). Reproduce all node labels exactly as written below, verbatim, with
+no duplicated or missing nodes:
+
+ノード1（開始・丸い端子形）: 筆界特定の申請
+Illustration: 申請書を提出するアイソメの人物アイコン。小さな注記ラベル
+「対象土地が同じなら複数申請を一括可」を添える。
+
+ノード2（ひし形・分岐）: 却下事由に該当するか？
+Illustration: 疑問符アイコン。
+
+分岐「はい」→ ノード2a（終端・結果ノード）: 却下決定（審査請求 可）
+Illustration: 書類に赤い「却下」のスタンプと赤い✕アイコン、脇に小さな
+「審査請求できる」ラベル。この分岐で流れは終わる。
+
+分岐「いいえ」→ ノード3: 通知・公告
+Illustration: 封筒と掲示板のアイコン。「筆界特定登記官が実施」という小さな
+注記。
+
+ノード4: 筆界調査委員の指定・事実の調査
+Illustration: 虫眼鏡を持つ調査委員のアイソメアイコン。
+
+ノード5: 測量・実地調査・立入調査
+Illustration: 測量メジャーと三脚のアイコン、家屋への立ち入りを示す小さな
+矢印。
+
+ノード6: 意見・資料の提出、意見聴取等の期日
+Illustration: 発言する人物と書類提出のアイコン。
+
+ノード7: 調書等の閲覧
+Illustration: 開いたファイルを閲覧する人物のアイコン。
+
+ノード8: 筆界調査委員の意見提出
+Illustration: 調査委員から登記官へ矢印でつながる書類のアイコン。
+
+ノード9: 筆界特定
+Illustration: 天秤（スケール）アイコンと、完成した筆界特定書のアイコン。
+
+ノード10: 通知等
+Illustration: 申請人への封筒アイコンと、公告の掲示板アイコン。小さな注記
+「発送後は取下げ不可」。
+
+ノード11（終端・結果ノード・○アイコン付き）: 手続記録の保管（登記所）
+Illustration: ファイルキャビネットのアイコンに緑のチェックマーク。
+
+すべてのノードを矢印でつなぎ、ノード2の分岐だけがひし形で二方向に分かれる
+（それ以外のノードは一本道で直線的につながる）。
+
+--- FOOTER ---
+
+特に「筆」「界」「登」「記」「地」「所」「権」の各漢字は、簡体字ではなく
+標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the flowchart has exactly 11 nodes (1
+start, 1 diamond decision, 2 branch outcomes counted within, through node
+11) with no duplicated or missing nodes, confirm there is no intro
+illustration or paragraph block between the header and the flowchart, and
+confirm that no node contains a full sentence of explanatory prose.
+```
+
+### 画像6：効力・保存期間・費用負担・不服申立てのまとめ
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1700 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: magnifying glass over a land
+boundary, registry ledger icon, vault/safe icon for permanent storage,
+wallet and coin icon, rejection document with a checkmark, courthouse
+icon — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定の効力・保存期間・費用・不服申立て
+
+Subtitle (smaller, centered, 1行):
+手続が終わったあとの取り扱い
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列を分けないため、バッジ色は1色（紺色）に統一する。）
+
+--- CARD 1 ---
+Badge: a filled circle in navy blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+既存の筆界を明らかにするだけ
+Illustration: 虫眼鏡で境界線を確認するアイソメの人物アイコン。小さな注記
+ラベル「新たな筆界は作らない」。
+Conclusion tag (navy blue banner, 5-15 Japanese characters):
+新設ではない
+
+--- CARD 2 ---
+Badge: a filled circle in navy blue containing the number 2.
+Heading: 対象土地の登記記録に記録される
+Illustration: 登記簿・登記記録帳のアイソメアイコンにチェックマークの
+スタンプ。
+Conclusion tag (navy blue):
+規則234条
+
+--- CARD 3 ---
+Badge: a filled circle in navy blue containing the number 3.
+Heading: 筆界特定書は永久保存
+Illustration: 金庫（保管庫）のアイコンの中に「永久」というラベル札の
+ついた書類と、金庫の外に「30年」というラベル札のついた別の書類の束。
+Conclusion tag (navy blue):
+それ以外は30年
+
+--- CARD 4 ---
+Badge: a filled circle in navy blue containing the number 4.
+Heading: 手続費用は申請人が負担
+Illustration: 財布とコインのアイコンから申請人のアイソメ人物へ矢印。
+所有権登記名義人だが申請していない人物のアイコンには赤い✕マーク。
+Conclusion tag (navy blue):
+概算額を予納
+
+--- CARD 5 ---
+Badge: a filled circle in navy blue containing the number 5.
+Heading: 却下処分には審査請求できる
+Illustration: 赤い「却下」スタンプのある書類から、審査請求の書類へ緑の
+矢印とチェックマーク。
+Conclusion tag (navy blue):
+156条 審査請求可
+
+--- CARD 6 ---
+Badge: a filled circle in navy blue containing the number 6.
+Heading: 特定結果自体には審査請求できない
+Illustration: 完成した筆界特定書のアイコンに赤い✕マーク、そこから
+裁判所（天秤アイコン）へ矢印で「境界確定訴訟」という小さなラベル札。
+Conclusion tag (navy blue):
+境界確定訴訟へ
+
+（カードは2列×3段、または1列で通し番号1〜6を振って配置する。列を分ける
+場合もバッジ色は紺色で統一する。）
+
+--- FOOTER ---
+
+特に「筆」「界」「登」「記」「地」「権」「所」の各漢字は、簡体字ではなく
+標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 6 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
+
+---
+
 ## 参照した過去問記事一覧
 
 - [H20第7問 筆界(対話式)](../h20-mondai/q07-hikkai-taiwa.md)
