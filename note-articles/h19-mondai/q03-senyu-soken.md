@@ -79,3 +79,149 @@
 - 居座られても「奪われた」にはならないんです
 - 貸しただけじゃ、占有は手放してないんです
 - 1年のカウントは「奪われた時」から始まるんです
+
+---
+
+## 問題全体のインフォグラフィック生成プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric houses, garden trees,
+bicycles, court documents, excavators, hourglasses, timelines, etc. —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+占有訴権 5つの正しいルール
+
+Subtitle (smaller, centered, 1行):
+占有保全と占有回収、条文の文言で見分ける
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+占有保全の訴え
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+予防か担保、どちらか一方のみ
+Illustration: Isometric scene: person A stands on their own land next to
+the property boundary; on the neighboring plot, a tall tree leans
+dangerously toward A's land. Two speech-bubble icons rise from A pointing
+toward neighbor B: a wrench-and-prop icon labeled "予防" and a
+shield-with-coin icon labeled "担保", joined by a large word "または"
+placed between them. Below the two bubbles, a combined icon showing the
+prop and the shield stacked together has a large red "✕" drawn over it,
+showing the two cannot be requested together.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+どちらか一方のみ
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+不法占拠でも占有保全を使える
+Illustration: Isometric scene: person A has built a small hut on B's
+empty lot without permission, with a small label "無断で居住" next to the
+hut. B arrives driving a heavy construction excavator toward the hut to
+demolish it. A large red "✕" is placed over the excavator. Between A and
+the excavator, a court-document icon labeled "占有保全の訴え" blocks the
+machine's path, with a small tag reading "自力救済 禁止" placed next to
+the excavator.
+Conclusion tag (green, 5-15 Japanese characters):
+自力救済は禁止
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+占有回収の訴え
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled circle in blue containing the number 3 (numbers run
+continuously across all columns).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+居座りは「奪う」に当たらない
+Illustration: Two-panel isometric scene. Left panel: landlord B hands
+house keys to tenant A, with an arrow labeled "任意に引渡し" and a small
+tag "契約開始". Right panel: a calendar icon marked "契約終了" next to A
+still standing inside the house with arms crossed while B points toward
+the door from outside. A red "✕" is placed over a court-document icon
+labeled "占有回収の訴え", and a green checkmark is placed over a separate
+document icon labeled "明渡請求".
+Conclusion tag (blue, 5-15 Japanese characters):
+明渡請求で対応
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+貸しても侵奪者Bが相手方のまま
+Illustration: Isometric scene: B forcibly snatches a small house icon away
+from A (a hand gripping the house, with a red tag "奪う" next to it).
+Beside it, B hands the same house to C, with an arrow labeled "賃貸". A
+dashed outline of B remains standing behind C's house, labeled
+"間接占有". A's arrow points directly at B with a green checkmark and a
+tag "占有回収の訴え", while a separate arrow drawn from A toward C has a
+red "✕" over it.
+Conclusion tag (blue, 5-15 Japanese characters):
+相手方はBのまま
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+起算点は「奪われた時」
+Illustration: A horizontal timeline icon with two marked points. The
+left/earlier point is labeled "2年前 Bが自転車を盗む" with a small
+bicycle icon, and an hourglass icon starting exactly at this point is
+labeled "出訴期間 1年"; at the timeline's right end a courthouse icon has
+a red "✕" over it, showing the period has already expired. The
+right/later point is labeled "半年前 CがBから買い受け" with a second,
+smaller hourglass icon that has a red "✕" over it, showing this point is
+NOT where the period starts.
+Conclusion tag (blue, 5-15 Japanese characters):
+盗まれた時から1年
+
+（…カードの数だけ繰り返し。列を分けない場合は「COLUMN」を省略して1列で並べ、
+バッジ色は1色に統一する。）
+
+--- FOOTER ---
+
+All Japanese text strings inside the cards above must be reproduced
+verbatim, exactly as written, without paraphrasing. Kanji such as
+「権」「地」「建」「物」「所」are especially easy to mistake for
+Simplified Chinese variants because their shapes are close — draw them in
+standard Japanese (Jōyō) form, never in Simplified Chinese form.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```
