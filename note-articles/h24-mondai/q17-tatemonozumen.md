@@ -160,18 +160,22 @@ Conclusion tag: 主である建物も記録
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
-Heading: 線の太さは0.3ミリでは太すぎる
-Illustration: A thick pen line labeled "0.3ミリ" crossed out with an
-"✕", next to a thinner pen line with a checkmark.
-Conclusion tag: もっと細い線が必要
+Heading: 線の太さは0.2ミリ以下が必要
+Illustration: A thick pen line labeled "0.3ミリ以下" crossed out with an
+"✕", next to a clearly thinner pen line labeled "0.2ミリ以下" with a
+checkmark, both lines drawn at visibly different thicknesses so the
+size difference itself is legible at a glance.
+Conclusion tag: 0.2ミリ以下の細線
 
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
-Heading: 縮尺は500分の1に限らない
-Illustration: A floor plan with "250分の1" crossed out and an arrow
-pointing not only to "500分の1" but to several other scale options, all
-with checkmarks (flexible choice, not fixed).
-Conclusion tag: 500分の1に限らない
+Heading: 原則250分の1、限定はされない
+Illustration: A floor plan labeled "各階平面図：原則250分の1" as the
+default scale; a branching arrow from it leads to several alternative
+scale labels (500分の1を含む複数の縮尺オプション) each with a checkmark,
+while a single signboard reading "500分の1に固定" is crossed out with an
+"✕" to show that no single fallback scale is mandated.
+Conclusion tag: 原則250分の1、限定なし
 
 --- FOOTER ---
 

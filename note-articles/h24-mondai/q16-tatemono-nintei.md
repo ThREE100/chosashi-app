@@ -163,9 +163,11 @@ Conclusion tag: 定着性は認められる
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
 Heading: 屋根材だけでは建物性は否定不可
-Illustration: A shed with a corrugated vinyl roof, three icons showing
-外気分断性・定着性・用途性 all with checkmarks, while a "屋根材の種類"
-label is crossed out with an "✕" (not a deciding factor).
+Illustration: A shed with a corrugated vinyl roof, labeled with a small
+registration tag reading "屋根：ビニール板ぶき" (showing this roof material
+is itself a recognized registration category, not a disqualifier); three
+separate icons showing 外気分断性・定着性・用途性 all with checkmarks,
+while a "屋根材の種類だけで却下" label is crossed out with an "✕".
 Conclusion tag: 材質だけでは否定不可
 
 --- COLUMN B, CARD 5 ---
