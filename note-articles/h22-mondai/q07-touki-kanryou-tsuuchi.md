@@ -48,7 +48,7 @@
 
 **たとえば**、共有者どうしで持分の割合を直す更正登記をしたときは、その持分に関わる人の1人と、申請した人に知らせておけば足ります。
 
-### まとめ
+### まとめ表
 
 - **ア（正）**　通知を受けるべき者が2人以上なら1人で足りる
 - **イ（正）**　代位申請では共有者の1人＋申請人（債権者）に通知すれば足りる
@@ -81,3 +81,132 @@
 - 職権の登記でも、1人に知らせれば足りる
 - 更正登記は「元の所有者」に通知するんです
 - 新所有者だけに通知は、実はダメなんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+登記完了の通知 誰に届く？
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第7問　登記完了の通知
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+共有者への通知は1人で足りる
+
+Illustration: Three co-owner character icons (A・B・C) with a mail envelope icon 「登記完了通知」arriving and being handed to just one of them (A), with a checkmark labeled「1人でOK」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+1人への通知で足りる
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+代位申請は申請人と共有者1人に届く
+
+Illustration: A creditor character (D) submitting an application on behalf of debtor A, with two mail envelopes going out: one to D (申請人) and one to A (共有者の1人), other co-owners B・C shown without envelopes.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+申請人＋共有者1人に通知
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+職権登記でも共有者1人への通知で足りる
+
+Illustration: A registrar character (登記官) stamping a 職権 registration, with a single mail envelope going to one co-owner character (A) out of three, checkmark labeled「1人でOK」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+職権でも1人でOK
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+更正登記は更正前の所有者にも届く
+
+Illustration: A document showing 表題部所有者の更正 changing from A・B・C to D・E・F, with mail envelopes going to BOTH the new owners (D・E) AND at least one of the original owners (A/B/C), with a ✕ mark over a version that sends mail only to D・E.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+更正前の所有者にも通知
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+持分更正でも更正前の所有者1人に届く
+
+Illustration: A document showing 持分の更正 (A1/6→3/6 etc.), with mail envelopes going to the applicant (C) and one of the pre-correction owners (A), checkmark labeled「更正前の所有者へ」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+更正前の所有者へ通知
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

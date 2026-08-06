@@ -48,7 +48,7 @@
 
 **たとえば**、確認済証に工事の場所として隣の土地の地番まで書かれていても、建物が実際に建っていない隣の土地の地番を、登記の「所在地番」に含める必要はありません。
 
-### まとめ
+### まとめ表
 
 - **ア（正）**　別の一棟に属する区分建物を附属建物とするには、その一棟の他の区分建物も併せて表題登記する
 - **イ（正）**　分離処分できる区分建物を除き、他の区分建物について敷地権の事項を申請できる
@@ -80,3 +80,132 @@
 - 敷地だけの抵当権、「消滅の登記」がされるわけじゃない
 - 片方だけ承諾なら、もう片方に抵当権が移るんです
 - 所在地番は、実際に建物がある土地の地番なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+区分建物の登記 抵当権と所在地番の扱い
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第15問　区分建物の表示に関する登記
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+別棟を附属建物にするなら他の区分建物も登記
+
+Illustration: Two separate building-block icons (一棟の建物A・一棟の建物B), with one unit from building B being attached to building A as 附属建物 (dashed arrow), while the other units of building B also get 表題登記 stamps simultaneously.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+他の区分建物も併せて登記
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分離処分できる1戸を除いて敷地権にできる
+
+Illustration: Three区分建物 icons in a row, one highlighted with a 「分離処分可能」tag and a ✕ over敷地権, the other two stamped 敷地権 with checkmarks.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+残り2戸は敷地権にできる
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+敷地の抵当権消滅承諾があっても消滅登記はしない
+
+Illustration: A land plot with an 抵当権 stamp, a 承諾書 handed over by the 抵当権者 character, but the 抵当権 stamp on the land does NOT get a 「消滅した旨」red stamp — instead it quietly transforms/transfers, ✕ over the 「消滅した旨の登記」version.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+消滅した旨の登記はしない
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+一方だけ承諾があれば他方だけに転写される
+
+Illustration: A building being split into two区分建物 (甲・乙), with 抵当権者 giving 承諾 only for 甲, so the 抵当権 stamp disappears from 甲 but transfers (dashed arrow) onto 乙 only.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+片方だけに転写される
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+所在地番は確認済証の隣接地番を書かない
+
+Illustration: A building icon standing on 実際の土地(地番A), with a 確認済証 document showing an additional 隣接地番B listed, but the registration form only fills in 地番A with a ✕ over 地番B.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+実際に所在する地番のみ
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

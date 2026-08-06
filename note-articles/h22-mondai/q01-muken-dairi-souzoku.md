@@ -20,41 +20,41 @@
 
 ### ア：本人が無権代理人を相続しても、117条の損害賠償責任は免れない
 
-本人Ｂが無権代理人Ａを相続した場合、本人としての立場で追認を拒絶することはできます。しかし、無権代理人Ａが負っていた無権代理人の責任（民法117条の損害賠償責任）は、相続によってそのままＢに承継されます。したがって、追認を拒絶しても損害賠償責任そのものを免れることはできません（最判昭48.7.3）。
+本人Ｂが無権代理人Ａを相続した場合、本人としての立場で追認を拒絶することはできます。しかし、無権代理人Ａが負っていた無権代理人の責任（民法117条の損害賠償責任）は、相続によってそのままＢに承継されます。したがって、追認を拒絶しても損害賠償責任そのものを免れることはできないというのが判例の立場です。
 
 **たとえば**、勝手に親Ｂの土地を売ってしまった子Ａが亡くなり、親Ｂがその子を相続した場合、Ｂは「その売買は認めない」と追認を拒絶することはできても、子Ａが買主に対して負っていた「代金を返す・損害を賠償する」という責任までは肩代わりを免れられません。
 
 ### イ：本人が追認拒絶した後は、無権代理人が本人を相続しても請求を拒める
 
-本人Ｂがいったん追認を拒絶すると、その時点で無権代理行為は本人に対して効力を生じないことが確定します。その後に無権代理人Ａが本人Ｂを相続しても、いったん確定した追認拒絶の効果は覆りません。したがってＡは、追認拒絶の効果を主張して引渡請求を拒むことができます（最判平10.7.17）。
+本人Ｂがいったん追認を拒絶すると、その時点で無権代理行為は本人に対して効力を生じないことが確定します。その後に無権代理人Ａが本人Ｂを相続しても、いったん確定した追認拒絶の効果は覆りません。したがってＡは、追認拒絶の効果を主張して引渡請求を拒むことができるというのが判例の立場です。
 
 **たとえば**、親Ｂが「勝手に売られた土地の契約は認めない」ときっぱり断った後に亡くなり、その親を子Ａ（勝手に売った本人）が相続したとしても、親が一度断った事実は生き続けるので、Ａは「あの契約は無効のままです」と言って買主の引渡請求を拒むことができます。設問は「拒むことができない」としているため、判例と逆で誤りです。
 
 ### ウ：無権代理人が本人を共同相続したときは、他の相続人とともに追認を拒絶できる
 
-無権代理人Ａが本人Ｂを他の相続人とともに共同で相続した場合、無権代理行為を有効にするには共同相続人全員が共同して追認しなければなりません。したがって、他の相続人が追認しない限り、無権代理人Ａ自身の相続分についても当然に有効となるわけではなく、Ａは他の相続人とともに追認を拒絶して請求を拒むことができます（最判平5.1.21）。
+無権代理人Ａが本人Ｂを他の相続人とともに共同で相続した場合、無権代理行為を有効にするには共同相続人全員が共同して追認しなければなりません。したがって、他の相続人が追認しない限り、無権代理人Ａ自身の相続分についても当然に有効となるわけではなく、Ａは他の相続人とともに追認を拒絶して請求を拒むことができるというのが判例の立場です。
 
 **たとえば**、勝手に土地を売った子Ａが、親Ｂの死亡で他のきょうだいと一緒に相続した場合、きょうだい全員が「認める」と言わなければ契約は有効にならず、Ａも含めてみんなで「認めません」と拒むことができます。
 
 ### エ：無権代理人が本人を単独相続したら、追認拒絶はできない
 
-無権代理人Ａが本人Ｂを単独で相続した場合には、Ａは本人の立場と無権代理人の立場が一人に融合します。この場合に本人の資格で追認を拒絶するのは信義則に反して許されず、無権代理行為は当然に有効となります。したがってＡは追認を拒絶して請求を拒むことはできません（最判昭40.6.18）。
+無権代理人Ａが本人Ｂを単独で相続した場合には、Ａは本人の立場と無権代理人の立場が一人に融合します。この場合に本人の資格で追認を拒絶するのは信義則に反して許されず、無権代理行為は当然に有効となります。したがってＡは追認を拒絶して請求を拒むことはできないというのが判例の立場です。
 
 **たとえば**、勝手に親の土地を売ってしまった子Ａが、その親を一人で相続した場合、「自分が売った契約だけど、本人としては認めない」という主張は虫が良すぎて通らず、その売買は有効なものとして扱われます。
 
 ### オ：無権代理人の地位を経て最終的に本人の地位も承継した者は、追認拒絶できない
 
-まず無権代理人Ａの死亡により、本人Ｂと子ＤがＡ（無権代理人）の地位を共同相続し、次にＢの死亡によりＤがＢ（本人）の地位も単独で相続しています。最終的にＤは無権代理人の地位と本人の地位の双方を承継しており、これは無権代理人が本人を相続した場合と同様に扱われます。したがってＤは追認を拒絶して請求を拒むことはできません（最判昭63.3.1参照）。
+まず無権代理人Ａの死亡により、本人Ｂと子ＤがＡ（無権代理人）の地位を共同相続し、次にＢの死亡によりＤがＢ（本人）の地位も単独で相続しています。最終的にＤは無権代理人の地位と本人の地位の双方を承継しており、これは無権代理人が本人を相続した場合と同様に扱われます。したがってＤは追認を拒絶して請求を拒むことはできないというのが判例の立場です。
 
 **たとえば**、勝手に土地を売った父Ａが亡くなり、その立場を母Ｂと子Ｄが引き継ぎ、続いて母Ｂも亡くなって子Ｄがすべてを一人で引き継いだ場合、Ｄは結局「売った側」と「本人側」の両方をまとめて背負うことになるので、「本人としては認めない」と拒むことはできません。
 
-### まとめ
+### まとめ表
 
-- **ア（誤）**　本人が無権代理人を相続しても、117条の損害賠償責任は免れない（最判昭48.7.3）
-- **イ（誤）**　追認拒絶後に無権代理人が本人を相続しても、拒絶の効果は覆らず請求を拒める（最判平10.7.17）
-- **ウ（正）**　無権代理人による本人の共同相続では、他の相続人とともに追認を拒絶できる（最判平5.1.21）
-- **エ（正）**　無権代理人が本人を単独相続すると、追認拒絶は信義則上許されない（最判昭40.6.18）
-- **オ（正）**　無権代理人の地位を経て本人の地位も承継した者は、追認拒絶できない（最判昭63.3.1参照）
+- **ア（誤）**　本人が無権代理人を相続しても、117条の損害賠償責任は免れない
+- **イ（誤）**　追認拒絶後に無権代理人が本人を相続しても、拒絶の効果は覆らず請求を拒める
+- **ウ（正）**　無権代理人による本人の共同相続では、他の相続人とともに追認を拒絶できる
+- **エ（正）**　無権代理人が本人を単独相続すると、追認拒絶は信義則上許されない
+- **オ（正）**　無権代理人の地位を経て本人の地位も承継した者は、追認拒絶できない
 
 「誰が誰を、いつ、単独か共同で相続したか」を図にして整理すれば、結論は判例のルールから機械的に導けます。
 
@@ -81,3 +81,135 @@
 - 共同相続なら、みんなで「認めない」と言えるんです
 - 単独で相続したら、もう追認拒絶はできないんです
 - 立場が入れ替わる順番、図に描くと見えてくる
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+特に「継」「拒」「償」という字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+無権代理と相続 誰が誰を相続した？
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第1問　民法(無権代理と相続)
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+本人が無権代理人を相続しても賠償責任は残る
+
+Illustration: An isometric elderly character (本人B) inheriting from a younger character (無権代理人A, shown as a ghost/faded icon with a crossed-out contract). B holds a speech bubble「追認は拒絶」but a coin-icon labeled「損害賠償」stays attached to B with a red arrow, not crossed out.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+賠償責任は消えない
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+本人が拒絶した後は無権代理人が継いでも拒める
+
+Illustration: An elderly character (本人B) stamping a document with a red ✕ and a label「追認拒絶」, then fading into a younger character (無権代理人A) who inherits. A dashed arrow shows the ✕ stamp carrying over intact to A, with a checkmark icon labeled「拒絶の効果は残る」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+一度断れば覆らない
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+共同相続なら全員でそろって拒める
+
+Illustration: Three sibling character icons (共同相続人) standing side by side, each holding a small stamp. All three stamps together form one big ✕ mark over a contract icon, with a label「全員そろって拒絶」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+みんなで拒絶できる
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+単独で相続したら拒絶できない
+
+Illustration: A single character icon that is half labeled「無権代理人」and half labeled「本人」(split face/two-tone body), standing next to a contract icon with a ✓ checkmark and label「有効」, unable to add a ✕ stamp (stamp icon shown crossed out itself).
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+信義則で拒絶不可
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+立場を両方継いだら結局拒絶できない
+
+Illustration: A family-tree diagram: 父(無権代理人) and 母 icons merging into a 子 character who first inherits 父 alongside 母, then inherits 母 too, ending as one character holding both a 「無権代理人」badge and a 「本人」badge, next to a contract icon stamped ✓「有効」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+両方継いだら拒絶不可
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

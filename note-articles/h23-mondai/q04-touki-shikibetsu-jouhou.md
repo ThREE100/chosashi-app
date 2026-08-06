@@ -51,7 +51,7 @@
 ### まとめ
 
 - **ア（誤）**　登記識別情報は名義人ごとに異なるもので、「同一の内容」ではない
-- **イ（正）**　官公署は希望の申出がなければ通知不要（不登法21条ただし書、規則64条1項2号）
+- **イ（正）**　官公署は希望の申出がなければ通知不要
 - **ウ（誤）**　登記識別情報に再発行制度はなく、焼失しても再発行されない
 - **エ（誤）**　未受領で通知不要になるのは登記完了から3か月（規則64条1項1号）、30日ではない
 - **オ（正）**　不在者財産管理人が申請した場合、通知は管理人に対して行う
@@ -69,6 +69,7 @@
 - 各肢の法的根拠のうち、イ（不動産登記法21条ただし書、不動産登記規則64条1項2号）、エ（不動産登記規則64条1項1号）は条文レベルで確認済みです。ア（名義人ごとに異なる識別情報が通知されること）、ウ（再発行制度がないこと）、オ（不在者財産管理人に対して通知されること）は、登記識別情報制度の一般原則からの整理にとどまります。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成29年度第5問で「登記識別情報の通知」が同じくテーマとして出題されていることを確認しました。平成29年度第5問は合筆の登記に特化した場面設定（通知希望の申出、資格者代理人への特別委任等）であり、本問（共有名義への通知、官庁公署への通知、書面滅失後の再発行、不受領時の取扱い、不在者財産管理人への通知）とは具体的な論点が異なります。平成29年度分は本シリーズでは未執筆です。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法21条（登記識別情報の通知）の現行条文を確認しましたが、官庁・公署への通知に関する規律（21条ただし書、規則64条）に変更はありません。令和8年（2026年）4月1日に施行された所有権登記名義人の氏名・住所変更登記の義務化は、権利部の氏名・住所変更に関する別制度であり、本問が扱う登記識別情報の通知（表題部・権利部共通の本人確認情報）とは別範疇のため、本問の内容への影響はありません。
 
 ---
 
@@ -79,3 +80,115 @@
 - 登記識別情報、なくしても再発行はないんです
 - 受け取らないと通知不要になるのは、30日じゃなくて3か月
 - 行方不明の人の土地は、管理人あてに通知が届くんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記識別情報の通知に関する5つの独立した個別ルール（名義人ごとの通知・官公署の希望制・再発行なし・未受領時の期間・不在者財産管理人への通知）であり2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric people, sealed
+envelopes, registry-office buildings, padlocks, calendars, torn paper
+labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 識・権・発・産 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 識 not 识, 権 not 权,
+発 not 发, 産 not 产).
+
+--- HEADER ---
+Title (large, bold, 1行):
+なくしても、二度と発行されないんです
+
+Subtitle (smaller, centered, 1行):
+平成23年度 午後の部 第4問－登記識別情報の通知ルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+名義人ごとに別々に通知される
+Illustration: Two co-owner characters (husband and wife icons) each
+receiving their own separate sealed envelope with distinct random
+character codes on them, with a red X crossing out a single shared
+envelope between them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+同一内容ではない
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+官公署は希望なければ通知不要
+Illustration: A government-building icon standing next to a
+registry-office building, with a sealed envelope hovering between them
+crossed out by a red X, unless a checkbox icon labeled 希望の申出 is
+ticked.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+希望制
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+なくしても再発行はされない
+Illustration: A burning house icon with a sealed envelope inside
+catching fire, and an empty hand reaching toward a registry-office
+window blocked by a red X and a padlock icon.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+再発行なし
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+未受領なら3か月で通知不要に
+Illustration: A calendar icon counting up from a registration-complete
+stamp, with a red X on "30日" and a green checkmark on "3か月", next to
+an uncollected envelope sitting in a registry-office mailbox.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+3か月がボーダー
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+不在者には財産管理人へ通知
+Illustration: A silhouette character with a 行方不明 tag standing far
+away, while a family-court building icon appoints a manager character
+who receives the sealed envelope directly, with an arrow from the
+registry office pointing to the manager, not the silhouette.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+管理人へ通知
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, with particular
+attention to 識・権・発・産. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
+```

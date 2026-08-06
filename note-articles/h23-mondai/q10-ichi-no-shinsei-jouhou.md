@@ -69,6 +69,7 @@
 - 各肢の法的根拠は、「同一の不動産について一連の手続として結び付いた登記は一の申請情報で申請できる」という一の申請情報の一般原則・登記実務からの整理にとどまり、条文番号・先例番号までは明示していません。この点は正直にお伝えします。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、「一の申請情報で申請する登記」を単独テーマとする問題が後年に再出題されていないかを確認しました。平成29年度第6問・平成24年度第4問に「申請情報」という類似の語を含む問題がありますが、これらは申請情報一般の記載事項（不動産番号、代表者氏名、持分の記載省略等）を問うものであり、本問（複数の登記を一の申請情報で併せて申請できるかという組み合わせの可否）とは論点が異なります。重複はありません。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記規則35条（一の申請情報による申請）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -79,3 +80,113 @@
 - 住所変更と合筆も、まとめて申請できるって知ってた?
 - 地目変更と地積更正は、まとめて出せるんです
 - 別々の建物は、名義人が同じでもまとめられないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+一の申請情報でまとめて申請できる登記の組み合わせを5つの独立した具体例で確認する構成であり、まとめられる例が大半のため2つの軸には分けず、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, envelopes, stamps, torn paper labels, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 請・録・筆・録 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 請 not 请, 録 not 录,
+筆 not 笔).
+
+--- HEADER ---
+Title (large, bold, 1行):
+その2つ、まとめて申請できる？
+
+Subtitle (smaller, centered, 1行):
+平成23年度 午後の部 第10問－一の申請情報で申請する登記
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分と合併もまとめて申請可
+Illustration: A building icon being split into a separate unit, then
+immediately merged as an 附属建物 into another building icon, both
+stamps combined into a single envelope with a checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一括申請可
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積更正と分筆はまとめて申請可
+Illustration: A land plot's area number being corrected, immediately
+followed by a cutting line dividing it, both stamps combined into a
+single envelope with a checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一括申請可
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+住所変更と合筆もまとめて申請可
+Illustration: A character's address tag being updated on a land-title
+document, immediately followed by two land plots merging, both stamps
+combined into a single envelope with a checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一括申請可
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地目変更と地積更正もまとめて可
+Illustration: A land plot changing its category tag from 畑 to 宅地,
+alongside its area number being corrected, both stamps combined into a
+single envelope with a checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一括申請可
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+別々の建物はまとめられない
+Illustration: Two separate, unconnected building icons (甲建物・乙建物)
+each with the same owner character standing beside them, but a red X
+blocks an envelope trying to merge their two separate registration
+stamps into one.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+名義人同じでも不可
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, with particular
+attention to 請・録・筆. If any character renders as a Simplified Chinese
+variant, redraw that character in the correct Japanese form. Confirm the
+number of cards equals 5 exactly, with no duplicated or missing cards,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence
+of explanatory prose — every card's takeaway must read as a short
+heading + a short conclusion tag, at a glance.
+```

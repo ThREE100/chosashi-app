@@ -38,7 +38,7 @@ A・B・Cの三者間でAからCへ直接登記名義を移転する合意（中
 
 ### エ：登記請求権を保全するための債権者代位は認められる
 
-Cは、Bに対する所有権移転登記請求権を保全するために、Bに代位してAに対しBへの所有権移転登記手続を請求することができます。これは金銭債権の保全を目的とした本来の債権者代位権とは異なり、特定物である不動産の登記請求権を保全するために債権者代位権を転用する典型例として、判例上確立しています。
+Cは、Bに対する所有権移転登記請求権を保全するために、Bに代位してAに対しBへの所有権移転登記手続を請求することができます。これは金銭債権の保全を目的とした本来の債権者代位権とは異なり、特定物である不動産の登記請求権を保全するために債権者代位権を転用する制度です。出題当時（平成24年）は判例上確立した法理として扱われていましたが、令和2年4月1日施行の民法（債権関係）改正により、この「登記請求権保全のための債権者代位権の転用」は民法423条の7として明文化されています。
 
 **たとえば**、Cさんが甲土地をBさんから買ったのに、登記名義がまだAさんのままで止まっているとします。この場合、Cさんは自分の「Bさんへの移転登記を請求する権利」を守るために、Bさんに代わって「Aさんに対しBさんへ登記を移してください」と請求することができます。
 
@@ -66,7 +66,9 @@ AB間の売買契約をAが詐欺を理由に取り消した後、Bへの移転�
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・正解番号（2番＝ア・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。土地家屋調査士試験対策アプリのデータベースは本問について肢の文言が正確に収録されていなかったため、本記事では参照していません。
-- ア・イ・エ（当事者・相続人・代位債権者は177条の第三者に当たらないという判例法理）とオ（詐欺取消し後の第三者と対抗問題として処理する判例法理）は、いずれも確立した判例・通説として広く知られている内容ですが、本記事作成時点で個別の最高裁判例の年月日・判例番号までは特定できていません。ウ（中間省略登記合意と債権者代位の関係）についても、一般原則からの整理であり、直接の判例で確認したものではないため、断定を避けた表現にしています。より厳密な出典を求める場合は、判例検索や予備校教材での照合を推奨します。
+- ア・イ（当事者・相続人は177条の第三者に当たらないという判例法理）とオ（詐欺取消し後の第三者と対抗問題として処理する判例法理）は、いずれも確立した判例・通説として広く知られている内容ですが、本記事作成時点で個別の最高裁判例の年月日・判例番号までは特定できていません。ウ（中間省略登記合意と債権者代位の関係）についても、一般原則からの整理であり、直接の判例で確認したものではないため、断定を避けた表現にしています。より厳密な出典を求める場合は、判例検索や予備校教材での照合を推奨します。
+- **最新法令チェック（2026-08-06実施）**：エの根拠とした「登記請求権保全のための債権者代位権の転用」は、出題当時（平成24年）は判例上確立した法理として説明されるのが一般的でしたが、令和2年4月1日施行の民法（債権関係）改正により民法423条の7として明文化されていることをWeb検索で確認しました。出題当時の正誤判定・正解番号（2番＝ア・オ）自体は変わりませんが、本文の解説はこの明文化を反映するように修正しています。ア（177条の第三者非該当）・イ（相続人による地位承継）・オ（詐欺取消し後の第三者と対抗問題）については、177条および取消後の第三者に関する判例法理に影響する改正は見当たりませんでした。
+- **最新法令チェック追記（2026-08-08実施）**：`note-articles/laws/`のローカル法令データベース（e-Gov現行法、2026-08-04取得）で民法423条の7の条文原文を確認しました。「登記又は登録をしなければ権利の得喪及び変更を第三者に対抗することができない財産を譲り受けた者は、その譲渡人が第三者に対して有する登記手続又は登録手続をすべきことを請求する権利を行使しないときは、その権利を行使することができる。」とあり、本文で説明した肢エの内容と完全に一致します。あわせて民法177条・96条3項の条文原文も確認しました。96条3項（詐欺による取消しは善意無過失の第三者に対抗できない旨）は、その文言上、取消し前に登場した第三者を保護する規定であり、肢オのように取消し後に登場した第三者Cには及ばないため、肢オを177条の対抗問題として処理する本文の説明は条文上も整合しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「対抗要件」「177条」等がテーマの問題を確認しました。対抗要件（民法177条）は不動産登記法分野の基本論点として毎年のように出題されていますが、本問の具体的事実関係（甲土地がA→B→Cと順次譲渡され、かつAB間の詐欺取消し後にB→Cの譲渡があった場合の対抗問題）と一致する出題は見つかりませんでした。**重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -78,3 +80,115 @@ AB間の売買契約をAが詐欺を理由に取り消した後、Bへの移転�
 - 中間省略の約束、実は債権者には関係ないんです
 - 登記請求権を守るための代位、ちゃんと認められてるんです
 - 取消し後に現れた買主には、登記がモノを言うんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+甲土地がA→B→Cと譲渡された事案の5肢を、「登記なしで対抗できる関係」と「債権者代位・取消し後の第三者」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plot, arrow
+chain between three people, family-tree icon, document with a seal,
+scales, fraud/deception icon, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 譲・渡・登・記・相・続・代・位・詐・欺・取・消・抹 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+取消し後に現れた買主には登記が必要なんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第3問－対抗要件（民法177条）の考え方
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+登記なしで対抗できる関係
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+元の譲渡人には登記なしで対抗可
+Illustration: Three person icons in a row labeled A→B→C connected by
+arrows; the land registry icon still shows "A" as the name on record, yet
+C points directly at A with a checkmark, no registration document needed
+between them.
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+元の譲渡人には対抗可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 相続人にも登記なしで対抗可
+Illustration: A family-tree icon showing B's heir D taking over B's
+position; C points at D with a checkmark, no registration document
+required.
+Conclusion tag: 相続人にも対抗可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+債権者代位・取消し後の第三者
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading: 中間省略合意でも代位は可能
+Illustration: Three person icons (A, B, C) holding a joint agreement
+paper labeled "中間省略登記の合意", while off to the side B's creditor E
+submits a registration request document directly to A, checkmark
+confirming this is still possible.
+Conclusion tag: 代位行使は妨げられない
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 登記請求権保全の代位は可能
+Illustration: Person C holding a shield icon labeled "登記請求権" while
+submitting a registration request to A "instead of" B (B stands aside),
+checkmark confirming validity.
+Conclusion tag: 代位は認められる
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 取消し後の第三者には登記が必要
+Illustration: A rescinded contract document (詐欺取消し) with a "戻る"
+arrow toward A, but before the registration is erased, B transfers the
+land to C; C stands next to a land registry document stamped with a
+checkmark only after their own registration is completed.
+Conclusion tag: 登記なければ対抗不可
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

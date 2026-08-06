@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成22年度 第8問〜電子申請は紙で出せる？印紙は再利用できる？〜
+## 【土地家屋調査士受験生向け】平成22年度 第8問〜申請の取下げ、電子申請は紙で出せない〜
 
 **出題年度：平成22年度　午後の部　第8問**
 
@@ -48,11 +48,11 @@
 
 **たとえば**、いくつかの登記を一枚の申請でまとめて出したあとで、そのうちの1件だけ問題が見つかった場合には、その1件だけを取り下げて、残りはそのまま進めることができます。
 
-### まとめ
+### まとめ表
 
 - **ア（正）**　登記完了後は理由を問わず取り下げられない
 - **イ（正）**　書面申請の取下げでは、消印済み印紙の再使用を申し出られる
-- **ウ（誤）**　電子申請の取下げはオンラインによる。書面提出ではできない（規則39条）
+- **ウ（誤）**　電子申請の取下げはオンラインによる。書面提出ではできない
 - **エ（誤）**　取下げのときは代理権限証書も還付される。「除いた」とする点が誤り
 - **オ（正）**　一の申請情報でまとめて申請しても、一部だけ取り下げられる
 
@@ -67,7 +67,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成22年度午後の部 第8問）・正解番号（4番＝ウエ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。なお、本問の内容は登記申請の取下げ手続（不動産登記規則）に関するもので、データベース上の分野タグ（土地家屋調査士法）は便宜的なものです。
 - 各肢の判定（誤りはウ・エ）は、公式の正解の組合せ「ウエ」から確定できるものです。
-- 各肢の根拠のうち、ウ（電子申請の取下げは電子情報処理組織を使用する方法による）は不動産登記規則39条から確認できるものです。ア（完了後は取下げ不可）・イ（消印済み印紙の再使用の申出）・エ（取下げ時の添付書面・代理権限証書の還付）・オ（一部取下げの可否）は、取下げ手続に関する規則・実務の一般的な理解に基づくもので、条文の細かな文言までは個別に照合しきれていない部分があります。各自でも条文を確認することをおすすめします。
+- 各肢の根拠は、`note-articles/laws/fudousan-touki-kisoku-1.md`で条文原文を確認済みです。ア（登記完了後は取下げ不可）・ウ（電子申請の取下げはオンラインで行うこと）・エ（取下げ時に代理権限証書を含む添付書面が還付されること）は不動産登記規則39条（1項が電子申請・書面申請それぞれの取下げ方法、2項が完了後の取下げ不可、3項が添付書面の還付）から確認できます。イ（消印済み印紙の再使用の申出）・オ（一部取下げの可否）は、不動産登記事務取扱手続準則の関係条項に基づく一般的な理解にとどまり、条文の個別確認はできていません。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（登記申請の取下げ）と同一の問題が再出題されていないかを確認しました。平成29年度第10問に「表示に関する登記の申請の却下又は取下げ」をテーマとする問題がありますが、問題文＋肢全体の類似度は0.29程度で、扱う肢の内容（印紙の再使用申出、電子申請の取下げ方法、添付書面の還付、一部取下げの可否）の組合せも異なります。**問題全体としての重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -80,3 +80,132 @@
 - 電子申請の取下げは、電子でやるんです
 - 取下げなら、委任状もちゃんと返ってくる
 - まとめて申請しても、一部だけ取り下げられる
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+登記申請の取下げ できることできないこと
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第8問　登記申請の取下げ
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+登記完了後は理由を問わず取り下げられない
+
+Illustration: A completed registration certificate stamped 「登記完了」with a hand reaching to withdraw it, blocked by a large ✕ and a lock icon.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+完了後は取下げ不可
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+書面申請なら印紙の再使用を申し出られる
+
+Illustration: A cancelled revenue-stamp icon (印紙, with a 消印 mark) being handed back with a speech bubble 「再使用したい」and a checkmark from the registrar character.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+消印済み印紙は再使用可
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+電子申請の取下げは書面ではできない
+
+Illustration: A person trying to hand a paper document labeled 「取下げ書」to a computer/online-portal icon, with a large ✕ over the paper and a checkmark over an on-screen 「オンラインで取下げ」button instead.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+オンラインでのみ取下げ
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+取下げでは代理権限証書も還付される
+
+Illustration: A document folder being returned to the applicant, containing both 添付書面 AND a 代理権限証書 (highlighted with a checkmark), not held back separately.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+代理権限証書も還付
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+一の申請でも一部だけ取り下げられる
+
+Illustration: A single application document icon bundling two registration requests (登記1・登記2), with one of them being pulled out and crossed with a small ✕ while the other stays stamped ✓.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+一部だけの取下げ可
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

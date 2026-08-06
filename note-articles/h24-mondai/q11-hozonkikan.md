@@ -20,37 +20,37 @@
 
 ### ア：筆界特定書に記載・記録された情報は、永久に保存される
 
-筆界特定書は、筆界特定制度における最終的な判断を記載した重要な資料であり、不動産登記規則235条により、永久に保存されます。「50年間」という有期の保存期間ではありません。
+筆界特定書は、筆界特定制度における最終的な判断を記載した重要な資料であり、不動産登記規則235条1項1号により、永久に保存されます。「50年間」という有期の保存期間ではありません。
 
 **たとえば**、10年前に行われた筆界特定の内容を確認したいという場合でも、筆界特定書自体は永久保存されているため、期間経過による廃棄を心配する必要はありません。
 
 ### イ：地積測量図は、電磁的記録であっても永久に保存される
 
-地積測量図は、土地の境界・面積を証明する基礎資料として重要性が高く、電磁的記録に記録して保存された場合であっても、永久に保存されます。「10年間」という有期の保存期間が定められているわけではありません。
+地積測量図は、土地の境界・面積を証明する基礎資料として重要性が高く、原則として永久に保存されます（不動産登記規則28条13号）。電磁的記録に記録して保存された場合も、その電磁的記録自体は同号により永久に保存されます。「10年間」という有期の保存期間が定められているわけではありません。
 
 **たとえば**、30年以上前に提出された地積測量図であっても、電磁的記録として保存されている限り、法務局で取得することができます。
 
 ### ウ：表示に関する登記の申請情報・添付情報は、受付の日から30年間保存される
 
-所有権の登記がない土地の表題部の持分の更正の登記も含め、表示に関する登記の申請情報及びその添付情報は、受付の日から30年間保存されます。永久保存となる登記記録・地図・地積測量図とは異なり、申請書類そのものは一定期間で保存期間が満了する扱いになっています。
+所有権の登記がない土地の表題部の持分の更正の登記も含め、表示に関する登記の申請情報及びその添付情報は、受付の日から30年間保存されます（不動産登記規則28条9号）。永久保存となる登記記録・地図・地積測量図とは異なり、申請書類そのものは一定期間で保存期間が満了する扱いになっています。
 
 **たとえば**、20年前に申請された表題部の持分の更正の登記の申請書類は、受付の日からまだ30年が経過していなければ、法務局に保存されています。
 
 ### エ：地図に準ずる図面（いわゆる公図）は、閉鎖後も永久に保存される
 
-地図が新たに備え付けられたことにより、従前の地図に準ずる図面（公図）が閉鎖された場合でも、当該図面は閉鎖された日から永久に保存されます。「50年間」という有期の保存期間ではありません。公図は、閉鎖後も土地の沿革を確認するための重要な資料として、永続的に保存される扱いになっています。
+地図及び地図に準ずる図面（公図）は、閉鎖したものを含めて永久に保存されます（不動産登記規則28条2号）。地図が新たに備え付けられたことにより、従前の地図に準ずる図面（公図）が閉鎖された場合でも、当該図面は閉鎖された日から永久に保存されます。「50年間」という有期の保存期間ではありません。公図は、閉鎖後も土地の沿革を確認するための重要な資料として、永続的に保存される扱いになっています。
 
 **たとえば**、新しい14条地図が整備されたことで古い公図が閉鎖されたとしても、その公図は永久に保存されるため、何十年後でも過去の筆界の履歴を確認する資料として取得することができます。
 
 ### オ：合筆で消滅した土地の登記記録（閉鎖登記記録）は、閉鎖された日から50年間保存される
 
-甲土地を乙土地に合筆した場合、甲土地の登記記録は閉鎖登記記録となります。土地に関する閉鎖登記記録は、閉鎖された日から50年間保存されます。永久保存となる現に効力を有する登記記録とは異なり、閉鎖された登記記録には50年という期限付きの保存期間が定められています。
+甲土地を乙土地に合筆した場合、甲土地の登記記録は閉鎖登記記録となります。土地に関する閉鎖登記記録は、閉鎖された日から50年間保存されます（不動産登記規則28条4号。なお建物の閉鎖登記記録は同条5号により30年間と、土地より短く定められています）。永久保存となる現に効力を有する登記記録とは異なり、閉鎖された登記記録には50年という期限付きの保存期間が定められています。
 
 **たとえば**、10年前に甲土地を乙土地へ合筆したことで閉鎖された甲土地の登記記録は、閉鎖された日から50年が経過するまでは、法務局で確認することができます。
 
 ### まとめ
 
-- **ア（誤）**　筆界特定書は永久保存であり、50年間ではない（不登規則235条）
+- **ア（誤）**　筆界特定書は永久保存であり、50年間ではない
 - **イ（誤）**　地積測量図は電磁的記録であっても永久保存であり、10年間ではない
 - **ウ（正）**　表示に関する登記の申請情報・添付情報は、受付の日から30年間保存される
 - **エ（誤）**　地図に準ずる図面（公図）は、閉鎖後も永久保存であり、50年間ではない
@@ -66,7 +66,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・正解番号（5番＝ウ・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
-- 各肢の保存期間については、不動産登記規則28条・235条に関する複数の実務解説サイト・予備校教材の解説（検索により確認）に基づいて整理しました。ア（筆界特定書は永久保存＝不登規則235条1項1号）、イ・エ（地積測量図・地図に準ずる図面は永久保存）、ウ（表示に関する登記の申請情報等は30年＝不登規則28条9号）、オ（土地の閉鎖登記記録は50年＝不登規則28条4号）は、いずれも複数の情報源で一致した内容です。特にオ・ア・ウの号数は、後述の重複出題チェックで見つかった令和4年度第4問（登記記録等の保存期間）の解説（登記所データベース収録、条文根拠つき）でも同一の号数が確認できたため、確度が高いと判断しています。イ・エ（地積測量図・地図に準ずる図面が閉鎖された場合の保存期間＝30年、不登規則28条13号）については、本問が「電磁的記録に記録して保存された場合」「地図が備え付けられた後に閉鎖された場合」という条件を付しており、令和4年度第4問で確認できた「閉鎖された」地積測量図等の30年保存という規定とは前提が微妙に異なる可能性があるため、完全な確証には至っていません。より厳密な出典を求める場合は、不動産登記規則28条・235条の条文原文（e-Gov法令検索等）での照合を推奨します。
+- `note-articles/laws/`のローカル法令データベース（不動産登記規則、e-Gov現行法2026-08-04取得）で全肢の条文原文・号数を確認済みです。ア＝規則235条1項1号（筆界特定書は永久）、イ＝規則28条13号（土地所在図・地積測量図・建物図面・各階平面図は原則永久）、ウ＝規則28条9号（表示に関する登記の申請情報・添付情報は30年）、エ＝規則28条2号（地図及び地図に準ずる図面は閉鎖したものを含め永久）、オ＝規則28条4号（土地の閉鎖登記記録は50年、建物の閉鎖登記記録は5号により30年）は、いずれも条文の文言そのままの内容です。イについては、28条13号のかっこ書きが、規則20条3項の規定により申請書類つづり込み帳に綴り込まれた書面（電磁的記録化された地積測量図の紙原本など）を対象から除外しており、この紙原本自体は28条9号のかっこ書き（電磁的記録に記録して保存した日から30年間）が適用される可能性があります。もっとも、本肢が問う「地積測量図（電磁的記録の情報そのもの）」は13号の対象として永久保存であり、本文の結論（「10年間」は誤り）自体には影響しません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「保存期間」がテーマの問題を確認しました。**本問肢オ（甲土地を乙土地に合筆した場合、甲土地の登記記録は閉鎖された日から50年間保存される、という記述）と全く同じ論点（土地の閉鎖登記記録の保存期間＝50年）が、令和4年度第4問肢ア（同じ50年という数値を「30年」と誤って記述したもの）でも問われています。**両問とも「土地の閉鎖登記記録は50年保存」という同一の条文知識（不登規則28条4号）を土台としていますが、具体的な出題の切り口（本問は合筆による閉鎖、令和4年度は一般的な保存期間の数値問題）は異なります。noteでの発信時は、この論点が繰り返し出題される重要知識であることに触れつつ、令和4年度の記事（本シリーズには未収録）と混同されないよう注意してください。それ以外の肢については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -78,3 +78,108 @@
 - 申請書類は30年で保存期限がくるんです
 - 古い公図も、実は捨てられないんです
 - 合筆で消えた登記記録、50年は残るんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記記録等の保存期間に関する5肢を、「永久保存されるもの」と「期限付きで保存されるもの」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric archive shelf,
+server/database, stopwatch/timer, filing cabinet with a countdown badge,
+old rolled-up map, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 筆・界・特・定・積・測・量・図・保・存・閉・鎖・合・筆 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定書、実は永久保存なんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第11問－登記記録等の保存期間
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+永久保存されるもの
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+筆界特定書は永久保存
+Illustration: An archive shelf icon holding a document labeled "筆界特定
+書" with an infinity symbol (∞) stamp, a stopped clock in the background.
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+永久保存
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 地積測量図も電子化後は永久
+Illustration: A server/database icon storing a digital 地積測量図, with
+an infinity symbol (∞) label, "10年" crossed out with an "✕" nearby.
+Conclusion tag: 電子化されても永久
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading: 閉鎖後の公図も永久保存
+Illustration: An old rolled-up map icon labeled "地図に準ずる図面（閉鎖）"
+on an archive shelf with an infinity symbol (∞) stamp, "50年" crossed out
+with an "✕".
+Conclusion tag: 閉鎖後も永久保存
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+期限付きで保存されるもの
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 申請書類は30年で保存期限
+Illustration: A filing cabinet holding application documents with a
+countdown timer badge reading "30年".
+Conclusion tag: 30年で満了
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 合筆で消えた登記記録は50年
+Illustration: A closed/merged land registry record stamped "閉鎖登記記録"
+with a countdown timer badge reading "50年".
+Conclusion tag: 50年保存される
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

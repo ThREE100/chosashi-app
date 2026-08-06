@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成22年度 第12問〜「工場用地」なんて地目はないんです〜
+## 【土地家屋調査士受験生向け】平成22年度 第12問〜「工場用地」なんて地目、実はないんです〜
 
 **出題年度：平成22年度　午後の部　第12問**
 
@@ -48,7 +48,7 @@
 
 **たとえば**、山を切り開いて宅地にするための造成が終わり、いままさに家を建てている最中の土地は、「雑種地」ではなく「宅地」として扱われます。
 
-### まとめ
+### まとめ表
 
 - **ア（誤）**　かんがい用水でない貯留池は「ため池」ではなく「池沼」
 - **イ（誤）**　耕作放棄地はただちに「雑種地」にはならない（原野等）
@@ -80,3 +80,135 @@
 - 高圧線の下でも、建物があれば「宅地」なんです
 - 「工場用地」なんて地目は、実はないんです
 - 造成が終わって建築中なら、もう「宅地」なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+特に「溜」「池」「畑」「宅」という字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+その土地の地目は何？
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第12問　地目の認定
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+かんがい用水でない貯留池は池沼
+
+Illustration: A water-reservoir icon with a label 「かんがい用水ではない」and a tag 「池沼」attached, with a ✕ over a 「ため池」label crossed out beside it.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+正しくは「池沼」
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+耕作放棄地はすぐには雑種地にならない
+
+Illustration: An abandoned farm-field icon with overgrown weeds/bushes, a tag「畑」still attached, with a ✕ over a 「雑種地」label crossed out beside it.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+現況次第で畑のまま
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+高圧線の下でも建物の敷地なら宅地
+
+Illustration: An isometric power-line tower with cables overhead, a small house icon underneath on the land, tag 「宅地」attached with a checkmark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+正しくは「宅地」
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+工場の敷地も地目は宅地
+
+Illustration: An isometric factory building icon on a land plot, tag 「宅地」attached with a checkmark, and a ✕ over a 「工場用地」label (crossed out, showing this地目 doesn't exist).
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+「工場用地」は存在しない
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+造成完了・建築中の土地も宅地
+
+Illustration: A land plot mid-construction (partially built house frame icon, cleared/leveled ground), tag 「宅地」attached with a checkmark, ✕ over a 「雑種地」label crossed out.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+正しくは「宅地」
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

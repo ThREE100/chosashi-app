@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成22年度 第11問〜抵当権者の承諾はいる？分筆の失敗は直せる？〜
+## 【土地家屋調査士受験生向け】平成22年度 第11問〜地積の更正、抵当権者の承諾は本当に不要？〜
 
 **出題年度：平成22年度　午後の部　第11問**
 
@@ -48,7 +48,7 @@
 
 **たとえば**、登記簿の面積が実際と違うと気づいても、「1か月以内に直さないと過料」ということはありません。更正は義務ではなく、必要に応じてする登記です。
 
-### まとめ
+### まとめ表
 
 - **ア（誤）**　地積が減少する更正でも、抵当権者の承諾は不要
 - **イ（正）**　地図訂正で地積にも錯誤があるときは、地積更正を併せて申請する
@@ -67,7 +67,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成22年度午後の部 第11問）・正解番号（2番＝正しいものは2個）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の判定のうち、ア（承諾不要）・エ（分筆の失敗は更正で直せない）・オ（1か月の申請義務なし）が誤りであることは、地積更正の登記の性質（事実の是正、義務登記ではない）から確認できるものです。この3つが誤りであることと、正しいものが2個という公式の正解から、正しいのはイとウと確定できます。
-- ウ（地積更正と合筆の一の申請情報による申請）とイ（地図訂正と地積更正の併合申請）は、上記の確定に加え、実務上の取扱い・先例に基づく理解によるものです。特にウの一括申請の可否については、条文・先例の番号レベルまでは個別に照合しきれていないため、各自でも登記実務書等で確認することをおすすめします。
+- ウ（地積更正と合筆の一の申請情報による申請）は、`note-articles/laws/fudousan-touki-kisoku-1.md`で条文原文を確認済みです。不動産登記規則35条7号が、同一不動産についての表題部の変更・更正の登記と土地の分筆・合筆の登記を一の申請情報で申請できる旨を明文で定めており、この規定から確認できます。イ（地図訂正と地積更正の併合申請）は、実務上の取扱いに基づく理解にとどまり、条文の個別確認はできていません。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解と公式正解との整合を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（地積に関する更正の登記）と同一の問題が再出題されていないかを確認しました。「地積に関する更正の登記」は平成26年度第9問・令和2年度第8問・令和6年度第7問でも繰り返しテーマとなっていますが、問題文＋肢全体の類似度は0.20〜0.25程度、肢単位で最も近いもの（一の申請情報による合筆登記との併合申請を問う本問の肢ウと令和2年度第8問の肢イ）でも類似度0.73程度にとどまり、他の肢の組合せは異なります。**問題全体としての重複は見つかりませんでした**。地積更正の登記は頻出テーマである点に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -80,3 +80,132 @@
 - 地積の更正と合筆、一枚の申請でまとめられる
 - 分筆線の引き間違いは、更正では直せないんです
 - 地積更正に、1か月の期限はないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+地積更正 承諾と期限のルール
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第11問　地積に関する更正の登記
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地積が減っても抵当権者の承諾はいらない
+
+Illustration: A land plot with an 抵当権 stamp shrinking slightly in size (地積減少の矢印), with the 抵当権者 character standing by without needing to sign a 承諾書 (that document icon crossed out).
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+抵当権者の承諾は不要
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地図訂正と地積の錯誤は一緒に直す
+
+Illustration: A 地図訂正の申出 document next to a 地積 error correction document, bundled together with a paperclip icon and a checkmark labeled「併せて申請」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+地図訂正と併せて申請
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地積更正と合筆は一緒に申請できる
+
+Illustration: A 地積更正 document and a 合筆 document merging into a single application folder icon labeled「一の申請情報」with a checkmark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+一の申請情報でまとめ可
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分筆線の失敗は地積更正では直せない
+
+Illustration: Two newly-split land plots (甲・乙) with wobbly/misplaced boundary line, and a 地積更正申請書 being stamped with a large ✕ — a 「分筆やり直し」icon shown instead as the correct path.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+地積更正では直せない
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地積更正に1か月以内の期限はない
+
+Illustration: A land plot with a mismatched 地積 label discovered by a magnifying glass, and a calendar icon with no countdown ring (crossed-out 1か月 timer).
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+申請期限は定められていない
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
