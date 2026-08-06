@@ -113,9 +113,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・部・問題番号（平成19年度午前の部第19問）、正解番号（3番＝3個）はユーザー提供資料に基づいており、条文の原文を突き合わせた結果とも一致することを確認しました。
-- 条文根拠について：不動産登記事務取扱手続準則は法務省民事局長の「通達」であり、e-Gov法令検索は法律・政令・省令等の「法令」を収録対象としているため、この準則自体はe-Gov法令検索には掲載されていません（本セッション内で確認済み）。準則77条の本文は、法務省ウェブサイトが公表しているPDF原本（https://www.moj.go.jp/content/001394394.pdf）を直接取得しようとしましたが、本セッションのネットワーク環境からはmoj.go.jpへの接続がブロックされ、PDFそのものの閲覧はできませんでした。代わりに、検索エンジン経由で複数の独立した引用元から77条の例示（「建物として取り扱うもの」5項目、「建物として取り扱わないもの」5項目、及び各ただし書き）を突き合わせ、内容が完全に一致することを確認した上で本文を執筆しています。
+- 条文根拠について：不動産登記事務取扱手続準則は法務省民事局長の「通達」であり、e-Gov法令検索は法律・政令・省令等の「法令」を収録対象としているため、この準則自体はe-Gov法令検索には掲載されていません。準則77条（建物認定の基準）の本文は、`note-articles/laws/fudousan-touki-jimu-junsoku.md`（e-Gov法令API等から2026-08-04に取得し保存した現行条文の一次資料）の原文で確認済みです。ア〜コの各肢に対応する例示（(1)建物として取り扱うもの5項目：停車場の乗降場・観覧席・ガード下建造物・地下停車場等・温床施設、(2)建物として取り扱わないもの5項目：タンク類・機械上の建造物・浮船・アーケード付街路・容易に運搬できる売場）及び各ただし書きの文言は、記事本文の引用と一字一句完全に一致することを確認済みです。
 - 特に、オ（機械上の建造物・地上に基脚を有するもの）とケ（浮船・固定しているもの）は、いずれも「建物として取り扱わないものの例示」に対するただし書きの除外要件（「地上に基脚を有し、又は支柱を施したものを除く」「固定しているものを除く」）にちょうど当てはまる記述になっており、これにより「扱える」側と判定しました。ユーザー提供の論点メモでは「ア・ク・ケの3個」という推測でしたが、条文のただし書きを確認した結果、ケは固定されているため除外要件を満たして「扱える」側になり、代わりにコ（アーケード付街路）が「取り扱わないものの例示」の文言に一致していたため、正しい組合せは「ア・ク・コ」であると判断しました。個数としては3個であり、ユーザー提供の正解番号（3番）と一致しています。
-- 準則の条文原文をe-Gov等の一次資料で直接目視確認できなかった点は、投稿前に可能であれば法務省PDF原本（またはその他の一次資料）での最終確認を推奨します。
+- laws/ファイルの取得日（2026-08-04）時点で準則77条に改正の形跡はなく、平成19年（2007年）出題当時から現行条文まで例示・ただし書きの内容は変わっていないと判断しています。したがって、この問題の公式正解（ア・ク・コの3個＝選択肢3番）は現行の準則に照らしても変わりません。
 
 ---
 
@@ -131,3 +131,188 @@
 - 動かせる売店は、建物として登記できないんです
 - 固定した浮船は、建物として扱われるんです
 - アーケードは、建物として登記できないんです
+
+---
+
+## 問題全体のインフォグラフィック生成プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2200 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric tanks, ticket booths,
+railway viaducts, subway stations, train platforms with canopies, machines
+with anchored bases, greenhouses, stadium stands, moored boats, arcade
+roofs over a street — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物として扱えるもの・扱えないもの
+
+Subtitle (smaller, centered, 1行):
+不動産登記事務取扱手続準則77条 建物認定基準 ア〜コ全10項目
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: coral red) ---
+建物として扱えないもの
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in coral red containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+給水タンクは建物ではない
+Illustration: a large cylindrical isometric water tank standing alone on
+the ground, with a bold red ✕ mark overlaid on it, and a small name-tag
+label reading「給水タンク」next to the tank
+Conclusion tag (a short colored banner/pill directly below the illustration,
+coral red, 5-15 Japanese characters, a keyword phrase — NOT a sentence):
+タンク類は対象外
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in coral red containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+動かせる売場は建物じゃない
+Illustration: a small ticket booth on visible caster wheels being pushed
+by a hand, with a bold red ✕ mark overlaid, and a small name-tag label
+reading「入場券売場」next to the booth
+Conclusion tag (coral red, 5-15 Japanese characters, a keyword phrase):
+簡単に運搬できる
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled circle in coral red containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+アーケードは建物にならない
+Illustration: an isometric shopping-street arcade — a roof-only canopy
+covering a public road with pedestrians below and no side walls — with a
+bold red ✕ mark overlaid, and a small name-tag label reading「屋根覆いのみ」
+Conclusion tag (coral red, 5-15 Japanese characters, a keyword phrase):
+周壁に相当する構造なし
+
+--- COLUMN B HEADER (pill-shaped badge, color: green) ---
+建物として扱えるもの
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+ガード下の倉庫は建物
+Illustration: an isometric railway viaduct (elevated railway) with a
+shuttered warehouse/store built into the space underneath it, with a bold
+green checkmark overlaid, and a small name-tag label reading「店舗・倉庫」
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase):
+高架下も建物扱い
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地下でも建物として扱う
+Illustration: a cutaway isometric view of an underground subway station
+with walls and a ceiling, people on a platform, with a bold green
+checkmark overlaid, and a small name-tag label reading「地下停車場」
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase):
+地下街・地下駐車場も同様
+
+--- COLUMN B, CARD 6 ---
+Badge: a filled circle in green containing the number 6.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+屋根付きホームは建物
+Illustration: an isometric train platform split into two halves — the
+left half has a roof/canopy (上屋) overhead with a bold green checkmark and
+a name-tag label「上屋あり」, the right half is open-air with no roof and a
+bold red ✕ mark and a name-tag label「上屋なし」
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase):
+上屋がある部分のみ
+
+--- COLUMN B, CARD 7 ---
+Badge: a filled circle in green containing the number 7.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+基脚があれば建物になる
+Illustration: an isometric structure built on top of a machine, with
+visible foundation legs (基脚) anchoring the base firmly into the ground,
+with a bold green checkmark overlaid, and a small name-tag label
+reading「地上に基脚」
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase):
+基脚・支柱があれば該当
+
+--- COLUMN B, CARD 8 ---
+Badge: a filled circle in green containing the number 8.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+恒久的な温室は建物
+Illustration: an isometric glass-paneled greenhouse standing on a solid
+concrete foundation, with a bold green checkmark overlaid, and a small
+name-tag label reading「半永久的」
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase):
+半永久的な構造なら該当
+
+--- COLUMN B, CARD 9 ---
+Badge: a filled circle in green containing the number 9.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+屋根のある観覧席は建物
+Illustration: an isometric stadium grandstand split into two halves — the
+left half is covered by a roof with a bold green checkmark and a name-tag
+label「屋根あり」, the right half is open-air seating with no roof and a
+bold red ✕ mark and a name-tag label「屋根なし」
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase):
+屋根がある部分のみ
+
+--- COLUMN B, CARD 10 ---
+Badge: a filled circle in green containing the number 10.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+固定した浮船は建物
+Illustration: an isometric boat/houseboat moored to the riverbed or
+riverbank with visible anchor and mooring rope/chain icons holding it
+firmly in place, with a bold green checkmark overlaid, and a small
+name-tag label reading「固定」
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase):
+固定していれば該当
+
+（列挙リスト：本ポスターに描くカードはア〜コの全10項目に対応する。重複禁止・
+欠落禁止・言い換え禁止。
+1. ア（給水タンク／扱えない）
+2. ク（容易に運搬できる入場券売場／扱えない）
+3. コ（アーケード付街路／扱えない）
+4. イ（ガード下の倉庫／扱える）
+5. ウ（地下停車場／扱える）
+6. エ（上屋を有する乗降場／扱える）
+7. オ（地上に基脚を有する機械上の建造物／扱える）
+8. カ（半永久的な温床施設／扱える）
+9. キ（屋根を有する観覧席／扱える）
+10. ケ（固定している浮船／扱える）
+生成後、この10項目すべてが1枚ずつカードとして描かれているか、重複や欠落がな
+いかを自己検証すること。特に「建・物・登・記・準・則・条・地・番・所」の字形
+は簡体字と混同しやすいため、標準的な日本語の字形（常用漢字）で描かれているか
+を個別に確認すること。）
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 10 exactly
+(3 cards in the red "建物として扱えないもの" column numbered 1-3, and 7
+cards in the green "建物として扱えるもの" column numbered 4-10), with no
+duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
