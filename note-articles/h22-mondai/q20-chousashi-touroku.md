@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成22年度 第20問〜会の変更は「移転先の会」経由なんです〜
+## 【土地家屋調査士受験生向け】登録は調査士会経由、会の変更は「移転先の会」経由なんです〜平成22年度午後の部 第20問・調査士の登録を解説〜
 
 **出題年度：平成22年度　午後の部　第20問**
 
@@ -48,13 +48,15 @@
 
 **たとえば**、体調を理由に登録を取り消された調査士が「その判断には納得できない」というときは、法務大臣に対して審査請求をして争うことができます。
 
-### まとめ
+### まとめ表
 
-- **ア（誤）**　登録申請書は法務局ではなく、所属予定の調査士会を経由して提出する
-- **イ（正）**　調査士が死亡したときは、相続人が遅滞なく連合会に届け出る
-- **ウ（誤）**　会の変更の登録は、移転先の（新しい）調査士会を経由して申請する
-- **エ（誤）**　3か月経過で「認められたものとみなす」制度はない
-- **オ（正）**　衰弱を理由の登録取消しには、法務大臣に審査請求できる
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 誤 | 登録申請書は法務局ではなく、所属予定の調査士会を経由して提出する |
+| イ | 正 | 調査士が死亡したときは、相続人が遅滞なく連合会に届け出る |
+| ウ | 誤 | 会の変更の登録は、移転先の（新しい）調査士会を経由して申請する |
+| エ | 誤 | 3か月経過で「認められたものとみなす」制度はない |
+| オ | 正 | 衰弱を理由の登録取消しには、法務大臣に審査請求できる |
 
 「入口も会の変更も“調査士会を経由”、ただし変更は移転先の会」という点と、みなし認可がないことを押さえれば、正しいのはイとオだと分かります。
 
@@ -80,3 +82,135 @@
 - 会の変更は、「移転先の会」を経由するんです
 - 3か月放置で「認可」なんて、実はないんです
 - 衰弱で登録取消し、法務大臣に審査請求できるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+特に「登」「録」「連」「審」という字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+調査士の登録 経由先はどこ？
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第20問　土地家屋調査士の登録
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+登録申請は法務局ではなく調査士会を経由
+
+Illustration: A character holding a 登録申請書, walking PAST a 法務局 building icon (crossed with ✕) and INTO a 土地家屋調査士会 building icon (checkmark) on the way to 連合会.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+調査士会を経由する
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+調査士の死亡は相続人が連合会に届け出る
+
+Illustration: A 土地家屋調査士 character fading into a tombstone icon, with an heir character promptly sending a 「死亡届」document to the 日本土地家屋調査士会連合会 building icon, checkmark labeled「遅滞なく届出」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+相続人が遅滞なく届出
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+事務所移転は移転先の調査士会を経由
+
+Illustration: A character moving from one地方 to another, holding a 変更登録申請書, walking PAST their OLD 調査士会 building (crossed with ✕) and INTO the NEW 移転先の調査士会 building (checkmark).
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+移転先の調査士会経由
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+3か月放置でも自動的には認められない
+
+Illustration: A 変更登録の申請書 sitting on a desk with a calendar showing 3か月経過, but NO automatic 「認められたものとみなす」stamp appears — a ✕ over that stamp icon.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+みなし承認の制度はない
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+衰弱による取消しには法務大臣に審査請求
+
+Illustration: A 土地家屋調査士 character receiving a 「登録取消し」stamp (身体又は精神の衰弱を理由), then submitting a 「審査請求」document to a 法務大臣 character/building icon, checkmark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+法務大臣に審査請求可
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

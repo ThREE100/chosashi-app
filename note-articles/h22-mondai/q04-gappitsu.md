@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成22年度 第4問〜くっつけられる土地、くっつけられない土地〜
+## 【土地家屋調査士受験生向け】くっつけられる土地、くっつけられない土地〜平成22年度午後の部 第4問・合筆の登記の制限を解説〜
 
 **出題年度：平成22年度　午後の部　第4問**
 
@@ -48,13 +48,15 @@
 
 **たとえば**、行方不明の人の土地を管理している財産管理人が、管理しやすくするために隣り合う二筆をまとめる合筆をする場合は、家庭裁判所にお伺いを立てなくても手続を進められます。
 
-### まとめ
+### まとめ表
 
-- **ア（正）**　敷地権である旨の登記がある土地は合筆できない
-- **イ（誤）**　担保権の登記がある土地の合筆は、受付年月日・受付番号まで同一でなければできない（規則105条）
-- **ウ（誤）**　破産手続終結の登記があれば、開始の登記を抹消しなくても合筆できる
-- **エ（正）**　信託目録の登記事項がすべて同一なら合筆できる（法97条1項各号、規則105条）
-- **オ（誤）**　合筆は管理行為であり、不在者財産管理人の申請に家裁の許可は不要
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 正 | 敷地権である旨の登記がある土地は合筆できない |
+| イ | 誤 | 担保権の登記がある土地の合筆は、受付年月日・受付番号まで同一でなければできない（規則105条） |
+| ウ | 誤 | 破産手続終結の登記があれば、開始の登記を抹消しなくても合筆できる |
+| エ | 正 | 信託目録の登記事項がすべて同一なら合筆できる（法97条1項各号、規則105条） |
+| オ | 誤 | 合筆は管理行為であり、不在者財産管理人の申請に家裁の許可は不要 |
 
 「権利の登記があると原則ダメ、例外は“完全に同一”のときだけ」という骨組みで整理すると、条件の抜け落ちに気づけます。
 
@@ -81,3 +83,132 @@
 - 破産が終結してれば、抹消しなくても合筆できる
 - 信託の中身が全部同じなら、合筆できるんです
 - 合筆に、家庭裁判所の許可はいらないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+くっつけられる土地 くっつけられない土地
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第4問　合筆の登記の制限
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+敷地権付きの土地は合筆できない
+
+Illustration: Two land-plot icons (甲・乙) both stamped「敷地権」, with a merge-arrow between them crossed out by a large ✕.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+敷地権があると合筆不可
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+先取特権は日付が同じでも合筆できない
+
+Illustration: Two land plots each with a 先取特権 tag showing identical dates, with a merge-arrow crossed out by a ✕ and a label「日付が同じでもダメ」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+先取特権は合筆不可
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+破産手続が終われば抹消なしで合筆できる
+
+Illustration: Two land plots each showing a 「破産手続開始」stamp being replaced by a 「終結」stamp (checkmark), with a merge-arrow between them showing ✓, no scissors/eraser icon needed.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+終結後は抹消不要
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+信託目録が同じなら合筆できる
+
+Illustration: Two land plots each with a 信託目録 document icon showing identical content, with a merge-arrow between them and a checkmark labeled「内容が同一ならOK」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+信託目録同一なら合筆可
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+財産管理人の合筆申請に家裁の許可はいらない
+
+Illustration: A court-building icon (家庭裁判所) with a ✕ mark, next to a 不在者財産管理人 character confidently stamping a merge application without needing the court's permission slip.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+家裁の許可は不要
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
