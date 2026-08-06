@@ -69,6 +69,7 @@
 - 各肢の法的根拠について、条文番号を一義的に特定できるものは確認できておらず、いずれも不動産登記規則の建物図面・各階平面図に関する一般的な取扱い、および登記実務上の先例からの整理にとどまります。特にオの「保存期間30年」という具体的な数字は、条文の号を明示できていない点にご留意ください。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）の記述があり、内容の精度にばらつきがあったため採用せず、正解番号と一般原則から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和7年度第10問「建物図面及び各階平面図」（本シリーズで既に note-articles/r7-mondai/q10-tatemonozumen.md として執筆済み）が、本問と強く重複するテーマであることを確認しました。両問とも「規約敷地を追加する登記に建物図面の添付を要するか」（本問の肢イ、令和7年度第10問の肢イに相当）、「仮換地上に建築された建物の表題登記に添付する建物図面の記載方法」（本問の肢エ、令和7年度第10問の肢ウに相当）という同一の論点を扱っています。note投稿の際は、両記事の内容が重ならないよう書き分けるか、公開の間隔に配慮してください。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記規則82条・83条（建物図面・各階平面図）、28条（保存期間）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -79,3 +80,114 @@
 - 増築しても、一棟全体の図面までは要らないんです
 - 仮換地の建物図面、将来の地番は括弧書きなんです
 - 従前の建物図面、実は30年しか保存されないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物図面及び各階平面図の添付の要否に関する5つの独立した個別ルール（建物分割時・規約敷地追加時・増築時・仮換地上の記載方法・保存期間）であり2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings,
+blueprint/floor-plan documents, filing cabinets, stamps, torn paper
+labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 図・録・約・換 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 図 not 图, 録 not 录,
+約 not 约, 換 not 换).
+
+--- HEADER ---
+Title (large, bold, 1行):
+その図面、本当に添付が要る？
+
+Subtitle (smaller, centered, 1行):
+平成23年度 午後の部 第15問－建物図面及び各階平面図
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+建物分割は床面積不変でも図面必要
+Illustration: A building icon splitting into two separate registered
+buildings with identical total floor area before and after, but each
+new building still requires its own fresh各階平面図 document with a
+checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+各階平面図は必要
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約敷地追加だけなら図面不要
+Illustration: A condominium building icon gaining an additional
+regulation-designated plot of land nearby, with a red X crossing out a
+blueprint document.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+建物図面は不要
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+増築時は変更箇所の図面で足りる
+Illustration: A condominium unit being extended with a small
+highlighted room addition, while the surrounding full-building
+blueprint sits crossed out with a red X, and only the changed portion
+has a checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一棟全体は不要
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮換地は実線、将来地番は括弧書き
+Illustration: A building on a temporary land-readjustment plot drawn
+with a solid outline, with a small parenthetical tag showing its
+future permanent number floating beside the plot.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+実線＋括弧書き
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+使われなくなった図面は30年保存
+Illustration: A building icon being pulled by a rope to a new land
+plot, leaving behind its old blueprint document in a filing-cabinet
+drawer labeled 30年保存 instead of a permanent stamp.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+保存期間30年
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, with particular
+attention to 図・録・約・換. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
+```

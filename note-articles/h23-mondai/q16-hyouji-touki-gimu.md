@@ -69,6 +69,7 @@
 - 各肢の法的根拠のうち、不動産登記法上の1か月以内の申請義務そのものは条文（不動産登記法36条・37条・51条等）に基づく一般原則ですが、各肢の細部（起算点の具体的な特定、申請すべき登記の種類）について個別の条文番号までは特定できておらず、一般原則からの整理にとどまる点をご留意ください。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文は、本問については結論・根拠とも大筋で妥当な内容でしたが、他の問題で誤りが確認されたファイルであるため、本記事では条文・一般原則から独立に再構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和元年度第16問（未執筆）に「分筆により建物が所在する土地の地番が変更した場合、当該建物の所有権の登記名義人は建物所在の変更登記を申請する義務を負う」という、本問の肢ウと同一の論点を含む肢があることを確認しました。また、本シリーズで既に執筆済みの note-articles/r6-mondai/q15-tatemono-hyoji-touki.md（建物の表示に関する登記）とはテーマの大分類が近い（本問は不動産全般の表示登記の申請義務の起算点が中心）ため、念のため両記事の内容を見比べることを推奨します。令和5年度第4問（実地調査に関する問題）とは論点が異なり、重複はありません。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法36条・37条・51条（表示に関する登記の申請義務）を確認しました。令和8年（2026年）4月1日施行の所有権登記名義人の氏名・住所変更登記の義務化は、権利部の氏名・住所変更に関する別制度の新設であり、本問が扱う表示に関する登記（増築・敷地権割合・地番変更・地目変更・建物分割）の申請義務とは別範疇のため、本問の内容への影響はありません。
 
 ---
 
@@ -79,3 +80,113 @@
 - 分筆で地番が変わったら、1か月以内に申請なんです
 - 地目変更登記の起算点、実は取得日じゃないって知ってた？
 - 一部取壊しで2棟になっても「分割の登記」じゃないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+表示に関する登記の申請義務について、「いつから1か月を数えるか」という起算点の論点が4肢、「何の登記を申請するか」という種類の論点が1肢という構成であり、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings,
+calendars, stopwatches, land plots, stamps, torn paper labels, etc. —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 義・産・録・築 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「1か月以内」、いつから数える？
+
+Subtitle (smaller, centered, 1行):
+平成23年度 午後の部 第16問－表示に関する登記の申請義務
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+増築登記の起算点は工事完了日
+Illustration: A building being extended with construction scaffolding,
+marked with a green flag as the true starting point, while a later
+共用部分登記 stamp date is crossed out with a red X as the wrong
+starting point.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+工事完了日が起点
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権割合変更は1か月以内に申請
+Illustration: A condominium building's pie-chart 敷地権割合 shifting to
+new fractions, with a calendar starting a "1か月" countdown from that
+exact change date toward a 表題部変更登記 stamp.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+変更日から1か月
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆で地番変更も1か月以内に申請
+Illustration: A land plot splitting, causing the building's address tag
+to change number, with a calendar starting a "1か月" countdown toward a
+所在変更登記 stamp.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+変更日から1か月
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地目変更の起算点は取得日でない
+Illustration: A forest-labeled land plot growing a house on it (green
+flag marking the actual change), with a later buyer character's 取得日
+marked with a red X as the wrong starting point.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+地目変更日が起点
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+一部取壊しは分割の登記ではない
+Illustration: One connected building being partially demolished in the
+middle, physically splitting into two separate buildings, with a red X
+over 建物の分割の登記 and a checkmark over 一部滅失による変更登記
+instead.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+変更登記で対応
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, with particular
+attention to 義・産・録・築. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
+```
