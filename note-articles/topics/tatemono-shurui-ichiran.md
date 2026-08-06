@@ -121,6 +121,391 @@
 
 ---
 
+## インフォグラフィック プロンプト
+
+### 画像1：37種類の全体像と3つの原則(俯瞰カードポスター型)
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings of varied
+shapes — house, shop, school, hospital, garage, etc. — stamps, name-tag
+labels, torn-paper labels, checkmarks and X marks; adapt icon set to the
+topic of building types under Japanese real estate registration law).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の種類、基本の37パターン
+
+Subtitle (smaller, centered, 2行):
+不動産登記規則113条1項・不動産登記事務取扱準則80条1項
+「主な用途」で決まる、建物の種類の全体像
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously from 1 to 4, single column, no column split).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+規則113条の12種類が土台
+Illustration: a neat grid of isometric building icons of varied shapes (a
+simple house shape, a small shop-front shape, a boxy garage shape), with a
+large circular badge showing the number "12" beside the group, and a small
+torn-paper label beneath the group reading "不動産登記規則113条1項".
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+基本の12種類
+
+--- CARD 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+準則80条がさらに25種類を追加
+Illustration: a second, more varied grid of isometric building icons (a
+school-like building with a small flagpole, a hospital-like building with a
+cross symbol, a factory-like structure), positioned beside Card 1's group
+to visually suggest they add up together, with a circular badge showing
+the number "25", and a small torn-paper label beneath the group reading
+"不動産登記事務取扱準則80条1項".
+Conclusion tag:
+追加の25種類
+
+--- CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+用途が2つ以上なら並記する
+Illustration: two small building icons connected by a "・" (nakaguro) dot
+symbol, with a name-tag label beneath them reading "居宅・店舗" and a green
+checkmark; next to this, a separate speech-bubble icon with the label
+"多目的ビル" crossed out by a red X mark, showing that an abstract catch-all
+name is not allowed.
+Conclusion tag:
+多目的ビルは不可
+
+--- CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+種類は専有部分ごとに記録
+Illustration: an isometric cutaway of a multi-story apartment building
+where most floor units carry a small tag reading "居宅", but one
+highlighted unit carries a differently colored tag reading "事務所"; an
+arrow points away from a document icon labeled "一棟の建物の表題部" with a
+red X mark beside it, showing the species is not recorded there.
+Conclusion tag:
+一棟には記録されない
+
+--- FOOTER ---
+
+特に誤りやすい漢字（号・権・地・番・建・物・登・記・所など）は、簡体字ではなく
+標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 4 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's takeaway
+must read as a short heading + a short conclusion tag, at a glance.
+```
+
+### 画像2：建物の種類 早見表(1/2)　居住・宿泊系〜医療・福祉系(早見表型)
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel containing a clean data table,
+consistent with a modern explainer-graphic aesthetic (small isometric
+building icons may decorate the header only; the body of the poster is a
+table, not illustrated cards).
+
+GLANCEABLE-TABLE REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to the table. Render the content strictly as a clean flat-design
+table with alternating row background colors, Japanese sans-serif font, no
+monospace font. Do NOT render any full-sentence explanation or legal
+citation paragraph anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の種類 早見表（1/2）
+
+Subtitle (smaller, centered, 1行):
+全37種類のうち「居住・宿泊系」〜「医療・福祉系」
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Header row (bold, colored background):
+分類 | 種類名（規則113条1項・準則80条1項）
+
+Data row 1:
+居住・宿泊系（規則113条1項） | 居宅、寄宿舎、共同住宅、旅館
+
+Data row 2:
+商業・業務系（規則113条1項） | 店舗、事務所、料理店、工場、倉庫、車庫
+
+Data row 3:
+エネルギー・供給系（規則113条1項・準則80条1項） | 発電所、変電所、給油所
+
+Data row 4:
+教育・研究系（準則80条1項） | 校舎、講堂、研究所
+
+Data row 5:
+医療・福祉系（準則80条1項） | 病院、診療所
+
+Render as a clean flat-design table with alternating row background colors
+(pastel blue / pastel beige), a Japanese sans-serif font, and no monospace
+font. Each data row's right-hand cell lists multiple building-type names
+separated by "、" (Japanese comma) — keep every name on the row, wrapping
+the cell text rather than truncating it.
+
+--- FOOTER ---
+
+列挙リストの検証用マスターリスト（この表の5行に登場する建物の種類名、
+全18種類。番号順・文言とも下記のとおり一字一句そのまま使うこと。重複禁止・
+欠落禁止・言い換え禁止）：
+1. 居宅
+2. 寄宿舎
+3. 共同住宅
+4. 旅館
+5. 店舗
+6. 事務所
+7. 料理店
+8. 工場
+9. 倉庫
+10. 車庫
+11. 発電所
+12. 変電所
+13. 給油所
+14. 校舎
+15. 講堂
+16. 研究所
+17. 病院
+18. 診療所
+
+特に誤りやすい漢字（号・地・番・建・物・登・記・所など）は、簡体字ではなく
+標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 5 data rows (plus the
+header row), confirm the total number of building-type names across all
+rows equals 18 exactly, matching the master list above with no duplicated
+or missing names and no paraphrasing, and confirm there is no intro
+illustration or paragraph block between the header and the table.
+```
+
+### 画像3：建物の種類 早見表(2/2)　公共・集会系〜その他(早見表型)
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel containing a clean data table,
+consistent with a modern explainer-graphic aesthetic (small isometric
+building icons may decorate the header only; the body of the poster is a
+table, not illustrated cards).
+
+GLANCEABLE-TABLE REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to the table. Render the content strictly as a clean flat-design
+table with alternating row background colors, Japanese sans-serif font, no
+monospace font. Do NOT render any full-sentence explanation or legal
+citation paragraph anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の種類 早見表（2/2）
+
+Subtitle (smaller, centered, 1行):
+全37種類のうち「公共・集会系」〜「その他」
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Header row (bold, colored background):
+分類 | 種類名（準則80条1項）
+
+Data row 1:
+公共・集会系（準則80条1項） | 集会所、公会堂、停車場、守衛所
+
+Data row 2:
+娯楽・スポーツ系（準則80条1項） | 劇場、映画館、遊技場、競技場、野球場、競馬場
+
+Data row 3:
+衛生・生活系（準則80条1項） | 公衆浴場、火葬場、便所
+
+Data row 4:
+農業・畜産系（準則80条1項） | 温室、蚕室、鶏舎、酪農舎
+
+Data row 5:
+その他（準則80条1項） | 茶室、物置
+
+Render as a clean flat-design table with alternating row background colors
+(pastel green / pastel beige), a Japanese sans-serif font, and no monospace
+font. Each data row's right-hand cell lists multiple building-type names
+separated by "、" (Japanese comma) — keep every name on the row, wrapping
+the cell text rather than truncating it.
+
+--- FOOTER ---
+
+列挙リストの検証用マスターリスト（この表の5行に登場する建物の種類名、
+全19種類。番号順・文言とも下記のとおり一字一句そのまま使うこと。重複禁止・
+欠落禁止・言い換え禁止）：
+1. 集会所
+2. 公会堂
+3. 停車場
+4. 守衛所
+5. 劇場
+6. 映画館
+7. 遊技場
+8. 競技場
+9. 野球場
+10. 競馬場
+11. 公衆浴場
+12. 火葬場
+13. 便所
+14. 温室
+15. 蚕室
+16. 鶏舎
+17. 酪農舎
+18. 茶室
+19. 物置
+
+特に誤りやすい漢字（号・地・番・建・物・登・記・所など）は、簡体字ではなく
+標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 5 data rows (plus the
+header row), confirm the total number of building-type names across all
+rows equals 19 exactly, matching the master list above with no duplicated
+or missing names and no paraphrasing, and confirm there is no intro
+illustration or paragraph block between the header and the table.
+```
+
+### 画像4：建物の種類、決め方の判定フロー(フローチャート型)
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded process and decision nodes connected
+by arrows, consistent with a modern explainer-graphic aesthetic (icons:
+isometric buildings, diamond-shaped decision nodes, checkmarks, X marks).
+
+GLANCEABLE-FLOWCHART REQUIREMENT (critical): This is a quick-reference
+decision flowchart, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the flowchart. Every node must communicate its
+point through a short label (a few words to one short line) plus a small
+icon, X mark, or checkmark where relevant. Do NOT render any full-sentence
+legal-citation paragraph anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の種類、どう決める？
+
+Subtitle (smaller, centered, 1行):
+主な用途が1つなら単独、2つ以上なら並記する
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+Node 1 (start, rounded rectangle, top of flow):
+建物の種類をどう定めるか
+
+Node 2 (diamond decision node, below Node 1):
+区分建物ですか？
+Two arrows leave this node, labeled "はい" and "いいえ".
+
+Node 3 (process rectangle, reached via the "はい" arrow from Node 2):
+各区分建物（専有部分）ごとに、その専有部分の現実の用途で判定する
+（小さな注記：一棟の建物の表題部には種類を記録しない）
+An arrow continues from Node 3 down into Node 4.
+
+Node 4 (diamond decision node, reached via the "いいえ" arrow from Node 2,
+and also via the continuing arrow from Node 3):
+主な用途はいくつありますか？
+Two arrows leave this node, labeled "1つ" and "2つ以上".
+
+Node 5 (result rectangle with a green checkmark icon, reached via the
+"1つ" arrow from Node 4):
+その用途をそのまま種類とする（例：居宅）
+
+Node 6 (result rectangle, reached via the "2つ以上" arrow from Node 4,
+containing two parts): a green-checkmark part reading
+「各用途を並記する（例：居宅・店舗、遊技場・映画館・居宅）」
+and, directly beside it, a separate red-X part reading
+「『多目的ビル』のような抽象的な名称は使えない」
+
+--- FOOTER ---
+
+特に誤りやすい漢字（号・権・地・番・建・物・登・記・所など）は、簡体字ではなく
+標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the flowchart has exactly 6 numbered nodes
+with no duplicated or missing nodes, confirm the arrow labels "はい／いいえ"
+and "1つ／2つ以上" appear exactly as given, and confirm there is no intro
+illustration or paragraph block between the header and the flowchart.
+```
+
+---
+
 ## 参考にした過去問記事
 
 - [令和7年度 第12問〜学習塾も給油所も、種類はそのままでいい〜](../r7-mondai/q12-tatemono-shurui.md)
