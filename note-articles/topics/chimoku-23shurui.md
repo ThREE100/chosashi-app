@@ -10,35 +10,35 @@
 
 - **①田**：農耕地で用水を利用して耕作する土地
 - **②畑**：農耕地で田以外のもの（陸稲・野菜・果樹等を栽培する土地）
-- **⑨山林**：耕作の方法によらないで竹木の生育する土地
-- **⑩牧場**：家畜を放牧する土地
-- **⑪原野**：耕作の方法によらないで雑草・かん木類が生育する土地
-- **⑳保安林**：森林法に基づき保安林として指定された土地
+- **③山林**：耕作の方法によらないで竹木の生育する土地
+- **④牧場**：家畜を放牧する土地
+- **⑤原野**：耕作の方法によらないで雑草・かん木類が生育する土地
+- **⑥保安林**：森林法に基づき保安林として指定された土地
 
 **宅地・公共施設系**
 
-- **③宅地**：建物の敷地及びその維持・効用を果たすために必要な土地
-- **④学校用地**：学校の校舎・附属施設の敷地及び運動場
-- **⑤鉄道用地**：鉄道の駅舎・附属施設及び路線の敷地
-- **⑭運河用地**：運河法上の水路・敷地等の土地
-- **⑮水道用地**：給水目的の水源地・貯水池・濾水場・水道線路の土地
-- **㉑公衆用道路**：一般公衆の交通の用に供する道路（私有地でも該当）
-- **㉒公園**：公衆の遊楽のために供する土地
+- **⑦宅地**：建物の敷地及びその維持・効用を果たすために必要な土地
+- **⑧学校用地**：学校の校舎・附属施設の敷地及び運動場
+- **⑨鉄道用地**：鉄道の駅舎・附属施設及び路線の敷地
+- **⑩水道用地**：給水目的の水源地・貯水池・濾水場・水道線路の土地
+- **⑪運河用地**：運河法上の水路・敷地等の土地
+- **⑫公衆用道路**：一般公衆の交通の用に供する道路（私有地でも該当）
+- **⑬公園**：公衆の遊楽のために供する土地
 
 **水・水路系**
 
-- **⑥塩田**：海水を引き入れて塩を採取する土地
-- **⑦鉱泉地**：鉱泉（温泉を含む）の湧出口及びその維持に必要な土地
-- **⑧池沼**：かんがい用水でない水の貯留池
-- **⑯用悪水路**：かんがい用又は悪水排せつ用の水路
+- **⑭池沼**：かんがい用水でない水の貯留池
+- **⑮鉱泉地**：鉱泉（温泉を含む）の湧出口及びその維持に必要な土地
+- **⑯塩田**：海水を引き入れて塩を採取する土地
 - **⑰ため池**：灌漑用に水を貯留する池
 - **⑱堤**：防水のために築造した堤防
 - **⑲井溝**：田畝又は村落の間にある通水路
+- **⑳用悪水路**：かんがい用又は悪水排せつ用の水路
 
 **祭祀・その他**
 
-- **⑫墓地**：人の遺体又は遺骨を埋葬する土地
-- **⑬境内地**：境内に属する土地で、宗教法人の所有に属するもの
+- **㉑墓地**：人の遺体又は遺骨を埋葬する土地
+- **㉒境内地**：境内に属する土地で、宗教法人の所有に属するもの
 - **㉓雑種地**：以上のいずれにも該当しない土地
 
 ### 判定で迷いやすいポイント
@@ -58,9 +58,9 @@
 **このまま使える点／使う前に確認したい点**
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 23種類という総数、及び田・畑・宅地・学校用地・鉄道用地・塩田・鉱泉地・池沼・山林・牧場・原野・墓地・境内地・運河用地・水道用地・用悪水路・ため池・堤・井溝・保安林・公衆用道路・公園・雑種地という名称・並び順は、不動産登記規則99条に基づくものとしてWeb検索で複数の情報源から確認済みです。
-- 各地目の定義のうち、田(1号)・宅地(3号)・鉄道用地(5号)・鉱泉地(7号)・池沼(8号)・山林(9号)・牧場(10号)・墓地(12号)・運河用地(14号)・水道用地(15号)・用悪水路(16号)・堤(18号)・井溝(19号)・公園(22号)の14種類は、土地家屋調査士試験対策アプリのデータベース（takuitsu.json、複数年度の解説）で「準則68条○号」という条文番号つきで確認できたものです。
-- 残る9種類（畑・学校用地・塩田・原野・境内地・ため池・保安林・公衆用道路・雑種地）については、上記14種類が号数と地目名の並び順が完全に一致していることから号数を類推していますが、データベース上に条文番号つきの直接的な引用は見つかっていません。定義自体は一般に知られた内容ですが、号数の割り当てについては推測にとどまる点にご留意ください。
+- 23種類という総数、及び田・畑・宅地・学校用地・鉄道用地・塩田・鉱泉地・池沼・山林・牧場・原野・墓地・境内地・運河用地・水道用地・用悪水路・ため池・堤・井溝・保安林・公衆用道路・公園・雑種地という名称は、不動産登記規則99条に基づくものとしてWeb検索で複数の情報源から確認済みです。
+- **2026-08-06追記（丸数字の位置づけを変更）**：本文の丸数字①〜㉓は、暗記しやすいよう「農林・牧畜系(①〜⑥)」「宅地・公共施設系(⑦〜⑬)」「水・水路系(⑭〜⑳)」「祭祀・その他(㉑〜㉓)」の4グループに沿って付け直した**便宜上の通し番号**です。不動産登記規則99条・不動産登記事務取扱準則68条が定める号数（法令上の号番号）とは対応していない点にご注意ください。
+- 参考として、法令上の号数が条文番号つきで確認できている14種類は次のとおりです：田(1号)・宅地(3号)・鉄道用地(5号)・鉱泉地(7号)・池沼(8号)・山林(9号)・牧場(10号)・墓地(12号)・運河用地(14号)・水道用地(15号)・用悪水路(16号)・堤(18号)・井溝(19号)・公園(22号)。これらは土地家屋調査士試験対策アプリのデータベース（takuitsu.json、複数年度の解説）で「準則68条○号」という条文番号つきで確認できたものです。残る9種類（畑・学校用地・塩田・原野・境内地・ため池・保安林・公衆用道路・雑種地）は、上記14種類の号数と地目名の並び順（規則99条の法定順）から号数を類推していますが、データベース上に条文番号つきの直接的な引用は見つかっていません。定義自体は一般に知られた内容ですが、号数の割り当てについては推測にとどまる点にご留意ください。いずれにせよ、本文中の丸数字はこの法令上の号数ではなく、上記の便宜上の通し番号である点を重ねてご確認ください。
 
 ---
 
@@ -121,10 +121,10 @@ Header row: 番号 | 地目 | 定義
 
 Row 1: ① | 田 | 農耕地で用水を利用して耕作する土地
 Row 2: ② | 畑 | 農耕地で田以外のもの（陸稲・野菜・果樹等を栽培する土地）
-Row 3: ⑨ | 山林 | 耕作の方法によらないで竹木の生育する土地
-Row 4: ⑩ | 牧場 | 家畜を放牧する土地
-Row 5: ⑪ | 原野 | 耕作の方法によらないで雑草・かん木類が生育する土地
-Row 6: ⑳ | 保安林 | 森林法に基づき保安林として指定された土地
+Row 3: ③ | 山林 | 耕作の方法によらないで竹木の生育する土地
+Row 4: ④ | 牧場 | 家畜を放牧する土地
+Row 5: ⑤ | 原野 | 耕作の方法によらないで雑草・かん木類が生育する土地
+Row 6: ⑥ | 保安林 | 森林法に基づき保安林として指定された土地
 
 --- FOOTER ---
 
@@ -149,7 +149,7 @@ Create a Japanese-language infographic, portrait layout, 1080x1550 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, beige, gray, green), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric house on a plot,
-school building, train station, canal, waterworks facility, public road,
+school building, train station, waterworks facility, canal, public road,
 park — adapt icon set to the topic).
 
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
@@ -187,18 +187,18 @@ name. Header row and 7 data rows, verbatim as follows:
 
 Header row: 番号 | 地目 | 定義
 
-Row 1: ③ | 宅地 | 建物の敷地及びその維持・効用を果たすために必要な土地
-Row 2: ④ | 学校用地 | 学校の校舎・附属施設の敷地及び運動場
-Row 3: ⑤ | 鉄道用地 | 鉄道の駅舎・附属施設及び路線の敷地
-Row 4: ⑭ | 運河用地 | 運河法上の水路・敷地等の土地
-Row 5: ⑮ | 水道用地 | 給水目的の水源地・貯水池・濾水場・水道線路の土地
-Row 6: ㉑ | 公衆用道路 | 一般公衆の交通の用に供する道路（私有地でも該当）
-Row 7: ㉒ | 公園 | 公衆の遊楽のために供する土地
+Row 1: ⑦ | 宅地 | 建物の敷地及びその維持・効用を果たすために必要な土地
+Row 2: ⑧ | 学校用地 | 学校の校舎・附属施設の敷地及び運動場
+Row 3: ⑨ | 鉄道用地 | 鉄道の駅舎・附属施設及び路線の敷地
+Row 4: ⑩ | 水道用地 | 給水目的の水源地・貯水池・濾水場・水道線路の土地
+Row 5: ⑪ | 運河用地 | 運河法上の水路・敷地等の土地
+Row 6: ⑫ | 公衆用道路 | 一般公衆の交通の用に供する道路（私有地でも該当）
+Row 7: ⑬ | 公園 | 公衆の遊楽のために供する土地
 
 --- FOOTER ---
 
 Enumeration check: this table must contain exactly 7 data rows, corresponding
-one-to-one to 宅地・学校用地・鉄道用地・運河用地・水道用地・公衆用道路・公園
+one-to-one to 宅地・学校用地・鉄道用地・水道用地・運河用地・公衆用道路・公園
 above — do not add, omit, merge, duplicate, or reword any row; the 番号 and
 定義 text must match the list above character-for-character.
 
@@ -217,9 +217,9 @@ confirm every cell text matches the verbatim strings above exactly.
 Create a Japanese-language infographic, portrait layout, 1080x1550 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, gray, beige, teal), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: salt evaporation flats, hot
-spring source, pond, irrigation/drainage channel, reservoir pond, levee
-embankment, small drainage ditch — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: pond, hot spring source, salt
+evaporation flats, reservoir pond, levee embankment, small drainage ditch,
+irrigation/drainage channel — adapt icon set to the topic).
 
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
 poster, NOT a text-heavy explainer document. There is NO intro illustration
@@ -256,18 +256,18 @@ name. Header row and 7 data rows, verbatim as follows:
 
 Header row: 番号 | 地目 | 定義
 
-Row 1: ⑥ | 塩田 | 海水を引き入れて塩を採取する土地
-Row 2: ⑦ | 鉱泉地 | 鉱泉（温泉を含む）の湧出口及びその維持に必要な土地
-Row 3: ⑧ | 池沼 | かんがい用水でない水の貯留池
-Row 4: ⑯ | 用悪水路 | かんがい用又は悪水排せつ用の水路
-Row 5: ⑰ | ため池 | 灌漑用に水を貯留する池
-Row 6: ⑱ | 堤 | 防水のために築造した堤防
-Row 7: ⑲ | 井溝 | 田畝又は村落の間にある通水路
+Row 1: ⑭ | 池沼 | かんがい用水でない水の貯留池
+Row 2: ⑮ | 鉱泉地 | 鉱泉（温泉を含む）の湧出口及びその維持に必要な土地
+Row 3: ⑯ | 塩田 | 海水を引き入れて塩を採取する土地
+Row 4: ⑰ | ため池 | 灌漑用に水を貯留する池
+Row 5: ⑱ | 堤 | 防水のために築造した堤防
+Row 6: ⑲ | 井溝 | 田畝又は村落の間にある通水路
+Row 7: ⑳ | 用悪水路 | かんがい用又は悪水排せつ用の水路
 
 --- FOOTER ---
 
 Enumeration check: this table must contain exactly 7 data rows, corresponding
-one-to-one to 塩田・鉱泉地・池沼・用悪水路・ため池・堤・井溝 above — do not add,
+one-to-one to 池沼・鉱泉地・塩田・ため池・堤・井溝・用悪水路 above — do not add,
 omit, merge, duplicate, or reword any row; the 番号 and 定義 text must match
 the list above character-for-character.
 
@@ -325,8 +325,8 @@ name. Header row and 3 data rows, verbatim as follows:
 
 Header row: 番号 | 地目 | 定義
 
-Row 1: ⑫ | 墓地 | 人の遺体又は遺骨を埋葬する土地
-Row 2: ⑬ | 境内地 | 境内に属する土地で、宗教法人の所有に属するもの
+Row 1: ㉑ | 墓地 | 人の遺体又は遺骨を埋葬する土地
+Row 2: ㉒ | 境内地 | 境内に属する土地で、宗教法人の所有に属するもの
 Row 3: ㉓ | 雑種地 | 以上のいずれにも該当しない土地
 
 Below the table, add a small footer badge (not a paragraph, a short label
