@@ -64,8 +64,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（平成19年度午前の部第15問）と正解番号（1番＝1個）は、ユーザー提供の資料に基づいて記載しています。
-- 条文レベルで確認できた事項：不動産登記令16条1項・18条1項（申請書・委任状は原則として記名押印を要する）、不動産登記規則47条1号（委任による代理人が申請書に署名した場合は記名押印を要しない）、不動産登記規則49条1項1号（申請人等が署名した委任状について公証人又はこれに準ずる者の認証を受けた場合は記名押印を要しない）、不動産登記規則74条2項（地積測量図・建物図面・各階平面図等について、申請人は記名するものとされ押印までは求められておらず、作成者は署名又は記名押印のいずれかで足りる）。これらは、実務家（司法書士・土地家屋調査士）による複数の独立した解説記事・資格予備校ブログで条文番号と内容が相互に一致していたことから採用しています。
-- 一方で、本セッションではe-Gov法令検索（laws.e-gov.go.jp）へのアクセスが環境上の制約（プロキシ経由で403エラー）により直接できず、上記の条文はいずれも二次情報源（実務家サイト・資格予備校ブログ）経由での確認にとどまっています。特に不動産登記規則47条・49条それぞれの他の号（記名押印を要しない場合の全パターン）や、47条3号イ〜ホが指す具体的な適用除外の内容までは全文を確認できておらず、ア・エがこれらの除外規定に該当しないという判断は、確認できた範囲の規定からの推論を含みます。投稿前にe-Gov法令検索で条文原文を直接確認できると、より確実になります。
+- 条文レベルで確認できた事項：不動産登記令16条1項・18条1項（申請書・委任状は原則として記名押印を要する）、不動産登記規則47条1号（委任による代理人が申請書に署名した場合は記名押印を要しない）、不動産登記規則49条1項1号（申請人等が署名した委任状について公証人又はこれに準ずる者の認証を受けた場合は記名押印を要しない）、不動産登記規則74条2項（地積測量図・建物図面・各階平面図等について、申請人は記名するものとされ押印までは求められておらず、作成者は署名又は記名押印のいずれかで足りる）。これらはいずれも、リポジトリ内に保存されたe-Gov法令API取得の法令全文（`note-articles/laws/fudousan-touki-rei.md`・`fudousan-touki-kisoku-1.md`、2026-08-04時点で現行の版）の条文原文と条文番号・文言とも一字一句一致することを直接確認済みです。
+- 不動産登記規則47条3号イ〜ホ（記名押印を要しない場合のうち、登記識別情報の提供を要しない登記名義人等に関する例外）についても全文を確認しましたが、ア・エはこれらのいずれの類型にも該当しないため、原則どおり押印が必要という判断に影響しません。
+- 平成19年（2007年）の出題時から現在までの間に不動産登記規則には複数回の改正がありますが（登記識別情報・オンライン申請関連を中心に）、確認した限り47条1号・49条1項1号・74条2項の規律・条文番号自体に変更はなく、記事の説明は現行法でもそのまま通用します。
 - 結論として、条文調査に基づく判定（押印が必要なのはアのみ＝1個）は、ユーザー提供の公式正解（1番＝1個）と一致しました。
 
 ---
@@ -77,3 +78,151 @@
 - 図面の申請人欄は、実は押印不要なんです
 - 署名+公証人の認証で、印鑑スルーできるんです
 - 測量図の作成者も、署名だけでOKなんです
+
+---
+
+## 問題全体のインフォグラフィック生成プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric documents, hanko
+stamps, pens, torn paper labels, land survey diagrams, etc. — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 号・
+記・署・押・印・欄・証・請・図 — these must render in standard Japanese
+(Jōyō) form, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「記名」と「署名」で
+押印の要否が変わる
+
+Subtitle (smaller, centered, 1行):
+平成19年度　午前の部　第15問　押印が必要なのは、5つ中たった1つ
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: soft coral red) ---
+押印が必要
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in soft coral red containing the number 1, with a
+small kana tag「ア」directly below the circle.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+委任状への記名は押印が必要
+Illustration: An isometric document labeled 委任状 (power of attorney)
+showing printed/typed text on the signature line with a small label tag
+reading 記名 next to it (indicating a typed/printed name, not handwritten).
+A red hanko stamp icon presses down onto the document with a green
+checkmark ✓ beside it (stamp required). Next to it, a small fountain-pen
+signature icon is shown crossed out with a red ✕, indicating a handwritten
+signature was NOT used here.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft coral red, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+原則どおり押印必要
+
+--- COLUMN B HEADER (pill-shaped badge, color: soft green) ---
+押印が不要
+
+--- COLUMN B, CARD 2 ---
+Badge: a filled circle in soft green containing the number 2, with a
+small kana tag「イ」directly below the circle.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+代理人が署名すれば押印不要
+Illustration: An isometric application document labeled 申請書 (application
+form) showing a handwritten cursive signature icon with a small label tag
+reading 署名 next to it, and a green checkmark ✓ beside the signature. A
+hanko stamp icon is shown crossed out with a red ✕ next to it, indicating
+no stamp is required when the agent (代理人) has signed by hand.
+Conclusion tag (soft green, 5-15 Japanese characters, a keyword phrase —
+NOT a sentence, NOT a legal citation):
+署名で足りる
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled circle in soft green containing the number 3, with a
+small kana tag「ウ」directly below the circle.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+図面の申請人欄は押印不要
+Illustration: An isometric building floor-plan diagram labeled 建物図面
+(building diagram) with a small printed name label reading 申請人 in one
+corner (a 記名 tag beside it, not a signature). A hanko stamp icon is
+shown crossed out with a red ✕ next to the applicant's name, indicating
+no stamp is required for the applicant's entry on the diagram.
+Conclusion tag (soft green, 5-15 Japanese characters, a keyword phrase —
+NOT a sentence, NOT a legal citation):
+記名のみで足りる
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in soft green containing the number 4, with a
+small kana tag「エ」directly below the circle.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+署名と公証人の認証で押印不要
+Illustration: An isometric power-of-attorney document labeled 委任状 with a
+handwritten signature icon (label tag 署名) and an official round notary
+certification seal icon labeled 公証人 stamped beside it. A separate hanko
+stamp icon (representing the applicant's own personal stamp) is shown
+crossed out with a red ✕, indicating it is not required once the notary
+has certified the signature.
+Conclusion tag (soft green, 5-15 Japanese characters, a keyword phrase —
+NOT a sentence, NOT a legal citation):
+認証があれば不要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in soft green containing the number 5, with a
+small kana tag「オ」directly below the circle.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+作成者は署名でも押印不要
+Illustration: An isometric land-survey diagram labeled 地積測量図 (land
+area survey map) with an 作成者 (preparer) signature area showing two
+small icons connected by a label または (or): one icon is a handwritten
+signature (label tag 署名) with a green checkmark ✓ and no stamp next to
+it; the other icon is a printed name plus a hanko stamp (label tag 記名押印)
+also marked with a green checkmark ✓. Both icons are valid alternatives,
+but no extra stamp appears on top of the signature icon.
+Conclusion tag (soft green, 5-15 Japanese characters, a keyword phrase —
+NOT a sentence, NOT a legal citation):
+署名なら押印不要
+
+--- FOOTER ---
+
+The five items ア・イ・ウ・エ・オ must all appear exactly once, in this
+order, with no duplication and no omission, using these exact heading and
+conclusion-tag strings verbatim (do not paraphrase or reorder):
+1 (ア) 委任状への記名は押印が必要 ／ 原則どおり押印必要
+2 (イ) 代理人が署名すれば押印不要 ／ 署名で足りる
+3 (ウ) 図面の申請人欄は押印不要 ／ 記名のみで足りる
+4 (エ) 署名と公証人の認証で押印不要 ／ 認証があれば不要
+5 (オ) 作成者は署名でも押印不要 ／ 署名なら押印不要
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```
