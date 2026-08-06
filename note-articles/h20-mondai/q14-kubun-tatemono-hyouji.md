@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成20年度 第14問〜柱の出っ張りは床面積の計算では無視するんです〜
+## 【土地家屋調査士受験生向け】区分建物の表題登記、階層表示・床面積・敷地権日付の落とし穴〜転得者の代位申請もポイント〜
 
 **出題年度：平成20年度　午後の部　第14問**
 
@@ -30,17 +30,19 @@
 
 **たとえば**、部屋の隅に太い構造用の柱が張り出していて、そのぶん見た目の室内空間が凹んでいたとしても、床面積の計算上は、その柱の凹凸をならして、壁面どうしを結んだ線を基準に求積します。柱の出っ張りの分だけ床面積が目減りする、という計算はしないのです。
 
-### ウ：一棟のすべての区分建物を一の申請情報で申請するとは限らない（誤り）
+### ウ：求められているのは「一の申請情報」ではなく「併せて申請」（誤り）
 
-区分建物の表題登記は、原則として一棟の建物に属する他の区分建物とあわせて一の申請情報により申請することが求められますが、これは常に例外なく貫かれる決まりではありません。区分建物ごとに原始取得者が異なる場合や、既に一部の区分建物について表題登記がされている場合など、一律に「すべての区分建物についてまとめて一の申請情報で申請しなければならない」とは言い切れない場面があります。したがって本肢は誤りです。
+不動産登記法48条1項は、区分建物が属する一棟の建物が新築された場合などにおける区分建物の表題登記の申請は、当該一棟の建物に属する他の区分建物についての表題登記の申請と「**併せてしなければならない**」と定めています。これは、一棟の建物の全体像が同時に登記記録に現れるようにするための**同時申請**の要求であって、「一の申請情報によって申請しなければならない」という意味ではありません。
 
-**たとえば**、一棟のマンションの各住戸を、異なる建築主（原始取得者）がそれぞれ取得しているようなケースでは、「一棟すべての住戸を一つの申請情報でまとめて申請しなければならない」と一律に扱うことはできません。
+申請情報は、原則として一の不動産ごとに作成して提供するのが建前で（不動産登記令4条本文）、複数の不動産についてまとめて一の申請情報で申請できるのは、同条ただし書と不動産登記規則35条が定める場合に限られます。そして、そこで認められているのはあくまで「一の申請情報によって申請することが**できる**」という任意の取扱いです。したがって「一の申請情報により申請しなければならない」と義務の形で言い切る本肢は誤りです。
+
+**たとえば**、一棟のマンションの各住戸について表題登記をするときは、各住戸の申請を同じタイミングで一緒に出す必要はありますが、「必ず1件の申請情報にまとめなければ受け付けない」という決まりではありません。「同時に出す（併せて申請）」と「1件にまとめる（一の申請情報）」は別の話なのです。
 
 ### エ：原始取得者が申請しないときは、転得者が代位して申請できる（正しい）
 
-区分建物を原始取得者から取得した転得者は、原始取得者が区分建物の表題登記を申請しない場合、原始取得者に代位して、その区分建物の表題登記を申請することができます。表題登記がされないままでは転得者の権利保護に支障が出るため、代位申請の道が用意されています。したがって本肢は正しい記述です。
+区分建物を原始取得者から取得した転得者は、原始取得者が区分建物の表題登記を申請しない場合、原始取得者に代位して、その区分建物の表題登記を申請することができます（不動産登記法47条2項が、区分建物の原始取得者から所有権を取得した者による表題登記の申請について定めており、代位に関する規律とあわせて理解されています）。表題登記がされないままでは転得者の権利保護に支障が出るため、申請の道が用意されているのです。したがって本肢は正しい記述です。
 
-**たとえば**、建築主Aから区分建物を買ったBさんが、Aさんがいつまでも表題登記を申請してくれないとき、Bさんは自らAさんに代位して表題登記を申請することができます。
+**たとえば**、建築主Aから区分建物を買ったBさんが、Aさんがいつまでも表題登記を申請してくれないとき、Bさんは自らAさんに代わって表題登記を申請することができます。
 
 ### オ：新築後に土地を取得した場合、敷地権の登記原因日付は土地取得の日（誤り）
 
@@ -51,8 +53,8 @@
 ### まとめ
 
 - **ア（誤）**　地下・地上にまたがる区分建物は「地下一階地上一階建」と表示する
-- **イ（正）**　柱の凹凸は無視し、壁面のみの内側線で求積する
-- **ウ（誤）**　一棟のすべての区分建物を常に一の申請情報で申請するとは限らない
+- **イ（正）**　柱の凹凸は無視し、壁面のみの内側線で求積する（規則115条の内側線基準）
+- **ウ（誤）**　法が求めるのは「併せて申請」（不登法48条1項）。一の申請情報は「できる」規定（令4条ただし書・規則35条）
 - **エ（正）**　原始取得者が申請しないときは、転得者が代位して申請できる
 - **オ（誤）**　新築後に敷地利用権を取得した場合、登記原因日付は取得の日
 
@@ -67,8 +69,11 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・エが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
 - エ（転得者による代位申請）、オ（敷地権の登記原因日付が敷地利用権の取得時期で変わること）は、条文・実務上の基本ルールに沿った説明で、確度は比較的高いと考えています。
-- イ（区分建物の床面積を求積する際、柱部分の凹凸を無視して壁面のみの内側線で計算すること）は、正解の組合せ（イエ）と整合させるために説明したものです。作成の過程で、床面積は柱の凹凸を含めた実際の内側線で求積するという逆の理解を一度採用しかけましたが、公式正答と照らして矛盾が生じたため、柱部分の凹凸を無視する計算方法が正しいという理解に修正しました。この点は本記事の中でも特に確度が低く、区分建物の床面積算定における柱の扱いについては、不動産登記規則115条まわりの一次資料をあらためて確認することを強くおすすめします。
-- ア（地下・地上にまたがる区分建物の階層表示の呼び方）は、区分建物の表示登記実務上の呼称に関する一般的な理解に基づく説明です。ウ（一棟すべての区分建物を一の申請情報で申請する原則に例外がある理由）については、正解の組合せ（イエ）から逆算して「原始取得者が異なる場合や一部既登記の場合には例外がありうる」という理解で説明していますが、根拠となる条文・先例の逐一の一次資料照合まではできていません。今回はネット検索の利用制限（レート制限）のため、この記事の作成時点でリアルタイムの再確認ができておらず、特にイ・ウについては、あらためて条文・先例を確認のうえ必要に応じて修正してください。
+- **【2026年8月4日 現行法との整合性を再検証し、肢ウの理由づけを条文ベースに書き直しました】** 初版は肢ウについて「原始取得者が異なる場合や一部既登記の場合には例外がありうる」という逆算的な説明でしたが、**不動産登記法48条1項が求めているのは「併せてしなければならない」（＝同時申請）であって、「一の申請情報によって申請しなければならない」ではない**ことを確認し、この点を軸にした説明に改めました。あわせて、複数の不動産について一の申請情報で申請できるのは不動産登記令4条ただし書・不動産登記規則35条が定める場合に限られ、しかもそれは「できる」規定であることも記載しています。判定（ウは誤り）は変わりません。
+- 関連して、表題登記がある建物（区分建物を除く）に接続して区分建物が新築された場合の併せて申請・代わってする申請が**不動産登記法48条3項・4項**にあることも確認しました（本記事の第9問の肢イと同じ条文です）。
+- イ（区分建物の床面積を求積する際、柱部分の凹凸を無視して壁面のみの内側線で計算すること）は、区分建物の床面積を「壁その他の区画の**内側線**で囲まれた部分の水平投影面積」とする不動産登記規則115条を前提とした説明です。ただし、**柱の凹凸を無視して壁面でならすという具体的な計算方法を明示した条文・先例までは、今回の再検証でも特定できていません**。本記事の中では引き続き確度が低い箇所です。
+- ア（地下・地上にまたがる区分建物の階層表示の呼び方）は、区分建物の表示登記実務上の呼称に関する一般的な理解に基づく説明で、根拠となる準則・先例までは特定できていません。
+- エ（原始取得者から取得した者による表題登記の申請）は、区分建物の原始取得者から所有権を取得した者について定める不動産登記法47条2項に関連する論点として説明しています。
 - なお、アプリのデータベースの補足解説（kaisetsu_plus.json）ではウを「正しい」としていましたが、公式正答（イエ）と整合しないため、本記事ではウを誤りとして扱っています。
 - **【重複出題あり】重複出題チェック（2026-07-22実施）**：H30年度第12問の肢エが、「Bが所有する土地に区分建物を新築したAが、建物完成後にBからその土地を買い受けて敷地権付き区分建物として表題登記を申請する」という本問の肢オと完全に同一の登場人物・場面設定を用いています（結論として問われる日付が、本問では「新築の日」、H30年度第12問では「表題登記の申請日」である点のみ異なります）。**noteへの投稿にあたっては、H30年度第12問の解説記事とテーマ・具体例が重複する点に注意し、両方を続けて発信しないようにしてください。**
 
@@ -78,6 +83,113 @@
 
 - 地下と1階にまたがる部屋、階層表示は「平家建」じゃないんです
 - 柱の出っ張りは、実は「なかったこと」にして計算するんです
-- マンションの各部屋、いつも一括申請とは限らない
+- 「併せて申請」と「一の申請情報」は別物なんです
 - 建築主が動かないなら、買った人が代位申請できる
 - 敷地権の日付は「建てた日」じゃなく「買った日」のことも
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+区分建物の表題登記、落とし穴はここ
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第14問／区分建物の表示に関する登記
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地下地上またがる部屋は地下一階地上一階建
+Illustration: 地下と地上にまたがる区分建物のisometricイラスト。階層表示ラベル「地下一階地上一階建」。「平家建」の表示には✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+正しい階層表示
+
+--- CARD 2 ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+柱の凹凸はならして壁面で求積
+Illustration: 部屋の隅に張り出す柱のisometricイラスト。実際の凹凸を示す点線に✕マーク、壁面を結ぶ直線にチェックマーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+壁面基準で計算
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+必要なのは「併せて申請」、1件にまとめる話ではない
+Illustration: マンションの複数の住戸のisometricイラスト。各住戸の申請書が同じタイミングの矢印で並んで提出される図(併せて申請)。1つのファイルにホチキス留めするイラストには✕マーク(一の申請情報ではない)。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+常に一括とは限らない
+
+--- CARD 4 ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+転得者は原始取得者に代位して申請できる
+Illustration: 建築主Aから区分建物を買ったBのキャラクターが、Aに代わって表題登記の申請書を提出するisometricイラスト。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+代位申請できる
+
+--- CARD 5 ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+敷地権の日付は権利取得のタイミング次第
+Illustration: Bの土地の上にAが建物を新築し、その後Bから土地を買うisometricイラスト。「新築日」と「土地取得日」の2つのカレンダーアイコンが並ぶ。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+取得時期で日付決定
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

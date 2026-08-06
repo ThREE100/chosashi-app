@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成20年度 第8問〜期間切れの地上権でも登記を消さなきゃ合筆できない〜
+## 【土地家屋調査士受験生向け】分けてくっつける「分合筆」一発申請できる？できない？〜地役権・敷地権・地目・地上権のケース別判定〜
 
 **出題年度：平成20年度　午後の部　第8問**
 
@@ -17,6 +17,8 @@
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
 
 分合筆（甲の一部を分筆して乙に合筆する）は、合筆の登記が可能かどうかがカギになります。合筆を妨げる登記があるか、地目をそろえられるか、といった条件を一つずつ判定していきます。
+
+土台になるのが不動産登記法41条（合筆の登記の制限）です。①相互に接続していない土地、②地目又は地番区域が相互に異なる土地、③表題部所有者又は所有権の登記名義人が相互に異なる土地、④それらが相互に持分を異にする土地、⑤所有権の登記がない土地と所有権の登記がある土地、⑥所有権の登記以外の権利に関する登記がある土地（合筆後の土地の登記記録に登記することができるものとして法務省令で定めるものを除く）については、合筆の登記をすることができません。⑥の「除かれるもの」は不動産登記規則105条が定めており、承役地についてする地役権の登記と、登記の目的・申請の受付年月日・受付番号・登記原因及びその日付が同一の担保権の登記が、これに当たります。
 
 ### ア：要役地の地役権は、消滅を証する情報を添えれば分合筆できる
 
@@ -44,7 +46,7 @@
 
 ### オ：期間が経過していても、地上権の登記を消さなければ合筆できない
 
-甲土地に存続期間の定めのある地上権の設定の登記がある場合、たとえ期間が経過していても、登記自体が残っている限り、それは合筆を妨げる登記になります。地上権の登記を抹消しないまま分合筆の登記を申請することはできません。したがって本肢は誤りです。
+甲土地に存続期間の定めのある地上権の設定の登記がある場合、地上権は「所有権の登記以外の権利に関する登記」であり、規則105条の例外（承役地の地役権・同一内容の担保権）にも当たらないため、不動産登記法41条6号により合筆の障害となります。たとえ存続期間が経過していても、登記官は登記記録上の記載を前提に判断するほかなく、登記自体が残っている限り制限は外れません。地上権の登記を抹消しないまま分合筆の登記を申請することはできず、本肢は誤りです。
 
 **たとえば**、甲土地に「30年間の地上権」が登記されていて、その30年がとっくに過ぎていても、登記簿から地上権の登記を消さない限り、合筆はできません。「期間が終わったんだからいいでしょう」ではなく、登記を抹消してから合筆する必要があるのです。
 
@@ -66,7 +68,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・ウが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- 各肢の判定は、合筆の登記の制限（不動産登記法41条）と、地目変更等の登記を一の申請情報で申請できる場合（不動産登記法39条まわり）の考え方に沿ったものです。ウ（地目変更と分合筆の一括申請）とオ（期間経過後も地上権の登記が残れば合筆の障害となること）は条文・原則から確度が高い一方、ア（要役地の地役権の消滅を証する情報での分合筆）とイ・エ（敷地権に関する制限）は、当時の先例・登記実務の取扱いに基づく部分を含み、先例の逐一の一次資料照合まではしていません。
+- **【2026年8月4日 現行法との整合性を再検証し、条文根拠を補いました】** 正誤の判定は初版から変更ありません。**不動産登記法41条**（合筆の登記の制限。1号＝相互に接続していない土地、2号＝地目又は地番区域が相互に異なる土地、3号＝表題部所有者又は所有権の登記名義人が相互に異なる土地、4号＝それらが相互に持分を異にする土地、5号＝所有権の登記がない土地と所有権の登記がある土地、6号＝所有権の登記以外の権利に関する登記がある土地〔合筆後の登記記録に登記できるものとして法務省令で定めるものを除く〕）が現行条文どおりであること、6号の除外が**不動産登記規則105条**（承役地についてする地役権の登記／登記の目的・受付年月日・受付番号・登記原因及びその日付が同一の担保権の登記）に定められていることを確認し、導入部と肢オに反映しました。分筆・合筆の登記は同法39条です。
+- ウ（地目変更と分合筆の一括申請）とオ（期間経過後も地上権の登記が残れば合筆の障害となること）は、上記の条文から直接説明できる部分です。一方、ア（要役地についてする地役権の登記がある土地について、地役権を消滅させることを証する地役権者作成の情報を提供して分合筆できること）と、イ・エ（敷地権である旨の登記がある土地に関する制限）は、当時の先例・登記実務の取扱いに基づく部分を含み、**根拠となる先例番号までは今回の再検証でも特定できていません**。規則105条が例外として認めるのは「承役地」についてする地役権の登記であって「要役地」についてする地役権の登記ではない点も、実務上の取扱いとあわせて確認することをおすすめします。
 - 引用した各肢の文章は、データベースに保存されていた原文をそのまま用いています。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を「本件分合筆」「一の申請情報によってする」等のキーワードで確認しました。R07年度第7問が同じく「分合筆の登記」を題材にしますが、そこで問われるのは委任状・代理権の範囲であり、本問の実体的要件（地役権・敷地権・地上権による制限）とは全く別の論点でした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
 
@@ -79,3 +82,110 @@
 - 地目が違っても、地目変更と分合筆はまとめて出せる
 - 敷地権のマンション敷地どうしでも、合筆には制限があるんです
 - 期間切れの地上権でも、登記を消さなきゃ合筆できないって知ってた？
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+分けてくっつける「分合筆」できる？
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第8問／分合筆の登記
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+要役地の地役権は消滅証明で解消できる
+Illustration: 甲土地から一部を切り取り乙土地にくっつけるisometricイラスト。地役権者のキャラクターが「消滅証明書」を渡す図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+消滅証明で分合筆可
+
+--- CARD 2 ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+敷地権付き土地は規約だけでは分合筆不可
+Illustration: マンションの敷地権付き土地のisometricイラスト。「分離処分可能規約」の書類があっても、一の申請情報の書類に✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+一括申請は不可
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+地目変更と分合筆はまとめて申請できる
+Illustration: 雑種地から宅地に変わる部分が分筆され、宅地の乙土地にくっつくisometricイラスト。「地目変更」と「分合筆」の書類が1つにまとまる図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+一の申請情報でOK
+
+--- CARD 4 ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+敷地権付き土地どうしも制限がかかる
+Illustration: 同じマンションの敷地権が付いた甲土地と乙土地のisometricイラスト。両方をくっつける矢印に✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+そのままでは合筆不可
+
+--- CARD 5 ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+期間切れの地上権も抹消しないと合筆不可
+Illustration: 地上権のリボンが巻かれた甲土地のisometricイラスト。「期間経過」のラベルがあっても、抹消登記の書類なしでは合筆の矢印に✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+抹消登記が必要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
