@@ -144,12 +144,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-地番変更だけなら図面は不要
+地番変更は建物図面のみ、各階平面図は不要
 Illustration: 分筆線で分かれた土地の上に建つ区分建物のアイコンを描き、
-地番プレートが「12番」から「12番1」に変わる矢印を添える。傍らに「建物
-図面」「各階平面図」の書類アイコンに赤い✕マークを添える。
+地番プレートが「12番」から「12番1」に変わる矢印を添える。傍らに「変更後の
+建物図面」の書類アイコンに緑のチェックマークを、「各階平面図」の書類アイ
+コンには赤い✕マークを添える。
 Conclusion tag (green banner below the illustration, 5-15 characters):
-図面の添付は不要
+建物図面のみ必要
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 一括申請・代位申請のルール

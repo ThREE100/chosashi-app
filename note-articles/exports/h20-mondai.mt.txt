@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】抵当権とはここが違う！不動産質権の「使う・転質」ルール〜承諾がいるのか、いらないのか〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第1問〜転質、実は設定者に承諾いらないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -53,7 +53,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】登記がないと負けるのは誰？物権変動と「第三者」の見分け方〜時効・相続・二重譲渡を判例で整理〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第2問〜共有者仲間も、実は「第三者」なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -106,7 +106,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】「無効」と「取消し」はどこが違う？6つの特徴で見分ける〜だれが・いつまで・さかのぼるか〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第3問〜成年被後見人の契約は「無効」じゃなく「取消し」〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -161,7 +161,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】壊れた建物、だれが登記を消す？滅失登記の申請人と添付情報〜相続・借地・共用部分・仮処分の落とし穴〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第4問〜仮処分があっても、滅失登記に承諾はいらない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -215,7 +215,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】その工事、登記は要る？建物の変更・表題・滅失の使い分け〜改修・増築・附属建物・建て替えを整理〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第5問〜同一でも建て替えなら滅失＋表題登記が必要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -268,7 +268,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】地積は小数点第何位まで？地目と面積で変わる記録ルール〜宅地・鉱泉地は特別、10㎡未満も特別〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第6問〜温泉の湧出口でも、地目は保安林のまま〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -321,7 +321,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】筆界は動かせる？動かせない？公法上の境界の正体〜地積更正では動かない・未登記地は特定できない〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第7問〜地積更正では、筆界そのものは動かない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -375,7 +375,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】分けてくっつける「分合筆」一発申請できる？できない？〜地役権・敷地権・地目・地上権のケース別判定〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第8問〜期間切れの地上権でも、抹消しないと合筆不可〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -429,7 +429,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】その登記、だれが申請できる？申請適格を見極める〜町内会・代位・清算人・管理組合・表題部所有者〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第9問〜持分変更登記、実は存在しないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -483,7 +483,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】オンライン申請の落とし穴！スキャンでいい情報・ダメな情報〜電子署名・住所証明・登記識別情報・地積測量図〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第10問〜登記識別情報は、スキャンでは代用できない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -541,7 +541,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】地積測量図・地役権図面、正しい作成ルールはいくつ？〜精度区分・地役権者の署名・誤差限度・座標の原則〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第11問〜地役権図面に、実は「面積」は書かないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -595,7 +595,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】筆界特定の申請、どこまでが「しなければならない」？〜図面の明示・却下への不服申立て・訴訟係属中の申請〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第12問〜却下処分にも、実は審査請求ができるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -651,7 +651,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】分筆と一緒に申請するときの添付情報、何が必要で何が不要？〜地積更正・相続・敷地権・地役権のケース〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第13問〜地役権部分の分筆でも、図面の出し直しは不要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -704,7 +704,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】区分建物の表題登記、階層表示・床面積・敷地権日付の落とし穴〜転得者の代位申請もポイント〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第14問〜柱の出っ張りは、実は「なかったこと」にする〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -758,7 +758,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】2棟の建物が1棟になる「合体」、税金・持分・登記識別情報はどうなる？〜表示登記だから非課税、同一名義人なら添付が省ける〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第15問〜建物の合体、実は登録免許税がかからない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -811,7 +811,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】これは「建物」？変わり種の不動産を認定基準で見分ける〜駐車場タワー・観音像本堂・ガード下店舗・桟橋〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第16問〜桟橋の上の店舗も、定着性があれば建物になる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -864,7 +864,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】床面積に入る？入らない？出窓・吹抜・開閉式屋根・渡り廊下の判定〜壁芯計算と内側線計算の違いも整理〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第17問〜2棟をつなぐ渡り廊下は、床面積に入らない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -917,7 +917,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】建物の合併、できるのはどこまで？仮登記・抵当権・工場財団・敷地権を仕分ける〜「所有権に関する登記」がカギ〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第18問〜抵当権の移転仮登記は、実は合併の邪魔にならない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -971,7 +971,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】敷地権の登記原因日付、いつが正解？〜「新築前から権利があったか」で決まる1つのルール〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第19問〜「絶対に必要」と言い切る肢ほど、実は怪しい〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1024,7 +1024,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】懲戒処分、聴聞は公開？官報公告は省ける？〜戒告・業務停止・違反通知のルールを整理〜
+TITLE: 【土地家屋調査士受験生向け】平成20年度 第20問〜戒告でも、官報公告は省略できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
