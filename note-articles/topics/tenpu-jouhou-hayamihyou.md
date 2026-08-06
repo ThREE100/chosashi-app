@@ -153,6 +153,512 @@
 
 ---
 
+## インフォグラフィック プロンプト
+
+### 画像1：表題登記は誰が申請できるか（住所・所有権証明情報の要点）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plot, house,
+apartment building, ID card, company building, family tree, document with
+a seal — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表題登記は誰が申請できるか
+
+Subtitle (smaller, centered, 1行):
+土地・建物・区分建物で異なる
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: blue) ---
+申請できる人
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+土地・通常建物は転得者も可
+Illustration: 土地区画と一戸建てのアイソメアイコン、最初の所有者から次の
+所有者（転得者）へ矢印、青のチェックマーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters):
+法36条・47条1項
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading: 区分建物は原始取得者のみ
+Illustration: マンションのアイソメアイコンと新築者を示す人物アイコン、
+転得者を示す人物アイコンに赤い✕マーク。
+Conclusion tag (blue):
+転得者は不可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading: 転得者は原始取得者に代位して申請可
+Illustration: 転得者のアイコンから原始取得者のアイコンへ矢印、書類に
+「代位」という小さなラベル札。
+Conclusion tag (blue):
+名義は原始取得者
+
+--- COLUMN B HEADER (pill-shaped badge, color: green) ---
+証明情報を省略できる場合
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in green containing the number 4 (continuing the
+numbering from column A).
+Heading: 住民票コードの提供
+Illustration: IDカードのアイコンに「住民票コード」という小さなラベル札、
+住所を証する書類のアイコンに赤い✕マーク（提供不要を示す）。
+Conclusion tag (green):
+住所証明を省略
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in green containing the number 5.
+Heading: 会社法人等番号の提供
+Illustration: 会社の建物のアイソメアイコンと番号札、代表者の資格証明書の
+アイコンに赤い✕マーク（提供不要を示す）。
+Conclusion tag (green):
+資格証明を省略
+
+--- COLUMN B, CARD 6 ---
+Badge: a filled circle in green containing the number 6.
+Heading: 法定相続情報一覧図の写し
+Illustration: 家系図のアイコンと一覧図のアイコン、相続証明・住所証明の
+両方に緑のチェックマーク。
+Conclusion tag (green):
+相続と住所を兼用
+
+--- FOOTER ---
+
+注意：特に「登」「記」「建」「物」「所」の各漢字は、簡体字ではなく
+標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 6 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
+
+### 画像2：印鑑証明書「3か月以内」ルール早見表
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1100 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: seal/hanko icon, calendar icon,
+document icon — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Do NOT render any full-sentence explanation or paragraph of
+body text anywhere on the poster; every row must read as a short phrase
+plus an icon.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+印鑑証明書、3か月ルールがある書面・ない書面
+
+Subtitle (smaller, centered, 1行):
+添付される書面によって扱いが違う
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background
+colors, Japanese sans-serif font, no monospace font. 3 columns: 「添付
+される書面」「根拠」「3か月以内の制限」。Reproduce the header row and all
+4 data rows exactly as written below, verbatim, in this order, with no
+duplicated or missing rows:
+
+ヘッダー行: 添付される書面 | 根拠 | 3か月以内の制限
+
+行1: 申請書（記名押印した者の印鑑証明書） | 不動産登記令16条2項 | ある（令16条3項）
+行2: 委任状（代理人の権限を証する情報） | 不動産登記令18条2項 | ある（令18条3項）
+行3: 承諾書等（同意又は承諾を証する情報） | 不動産登記令19条1項2項 | ない
+行4: 法人代表者の資格証明情報（登記事項証明書） | 不動産登記令7条1項1号ロ・17条1項 | ある（令17条1項）
+
+「ある」のセルは薄い赤の背景にカレンダーアイコンと「3か月」のラベルを添え、
+「ない」のセルは薄い緑の背景に無限マーク（∞）のアイコンを添える。各行の
+左端に朱肉付きの印鑑（はんこ）のミニアイコンを置く。
+
+--- FOOTER ---
+
+注意：特に「証」「明」「登」「記」の各漢字は、簡体字ではなく標準的な
+日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 4 data rows plus the
+header row, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm no cell contains a full sentence of explanatory prose.
+```
+
+### 画像3：原本還付、できないもの・できるもの早見表
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: document icon, seal icon,
+courthouse/registry icon — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Do NOT render any full-sentence explanation or paragraph of
+body text anywhere on the poster; every row must read as a short phrase
+plus an icon.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+原本還付、できないもの・できるもの
+
+Subtitle (smaller, centered, 1行):
+書面ごとに扱いが異なる
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background
+colors, Japanese sans-serif font, no monospace font. 3 columns: 「書面」
+「判定」「根拠」。Reproduce the header row and all 9 data rows exactly as
+written below, verbatim, in this exact order, with no duplicated or
+missing rows:
+
+ヘッダー行: 書面 | 判定 | 根拠
+
+行1: 申請書・委任状・承諾書に添付する印鑑証明書 | ×できない | 規則55条1項ただし書
+行2: 裁判所書記官が作成した印鑑証明書 | ×できない | 規則55条1項ただし書
+行3: 当該申請のためにのみ作成された委任状その他の書面 | ×できない | 規則55条1項ただし書
+行4: 偽造の疑いがある書面 | ×できない | 規則55条5項
+行5: 登記識別情報を記載した書面 | ×できない | 規則66条2項・69条1項
+行6: 資格者代理人が作成した本人確認情報 | ×できない | 資格者代理人自身が作成のため
+行7: 工事完了引渡証明書に添付する印鑑証明書 | ○できる | 令16条・18条・19条に非該当
+行8: 戸籍謄本・抄本等の相続証明書類 | ○できる | 相続関係説明図の添付で還付可
+行9: 筆界特定の申請添付書面 | ○できる | 不動産登記規則213条
+
+「×できない」のセルは薄い赤の背景に赤い✕アイコンを添え、「○できる」の
+セルは薄い緑の背景に緑のチェックアイコンを添える。行1〜6と行7〜9の間に
+薄い区切り線を入れ、上段が「できないもの」・下段が「できるもの」であること
+が一目でわかるようにする。
+
+--- FOOTER ---
+
+これは記事内で挙げられている全9項目であり、重複禁止・欠落禁止・言い換え
+禁止で全9行を正確に描画すること。特に「還」「付」「証」「明」「登」「記」
+の各漢字は、簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Count the data rows and confirm there are exactly
+9, with no duplicates and no gaps, and confirm the first 6 are marked
+「×できない」and the last 3 are marked「○できる」. Confirm there is no
+intro illustration or paragraph block between the header and the table,
+and confirm no cell contains a full sentence of explanatory prose.
+```
+
+### 画像4：特例方式と調査士報告方式は別の制度（対比表）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1400 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: paper document icon, scanner
+icon, electronic signature icon, envelope icon — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the comparison rows. Every row must communicate its point almost
+entirely through the illustration (icons, X marks, checkmarks, small
+embedded labels) plus one short heading per side. Do NOT render any
+full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+特例方式と調査士報告方式は別の制度
+
+Subtitle (smaller, centered, 1行):
+名前は似ているが中身が違う
+
+（タイトル・サブタイトルのすぐ下に比較列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN HEADER (pill-shaped badge, color: blue) ---
+特例方式（附則5条）
+
+--- RIGHT COLUMN HEADER (pill-shaped badge, color: green) ---
+調査士報告方式（令13条）
+
+--- ROW 1 ---
+Left heading (bold, one line): 添付情報を書面のまま提出できる
+Left illustration: 電子申請の画面アイコンから紙の書類アイコンへ矢印。
+Right heading (bold, one line): 書面をスキャンし電子署名して提供
+Right illustration: 紙の書類からスキャナーのアイコンを通って電子署名の
+アイコンへ矢印。
+
+--- ROW 2 ---
+Left heading: 持参・送付いずれの方法でもよい
+Left illustration: 登記所の建物アイコンへ、徒歩の人物アイコンと郵便物の
+アイコンの両方から矢印。
+Right heading: 調査報告情報の提供で実地調査を省略
+Right illustration: 調査士が作成した報告書のアイコンと、登記官の実地調査
+アイコンに赤い✕マーク。
+
+--- ROW 3 ---
+Left heading: 原本還付を請求できる
+Left illustration: 書面のアイコンに緑のチェックマークと「還付可」の小さな
+ラベル札。
+Right heading: 原則、原本提示を求めない（対象は限定）
+Right illustration: 書類のアイコンに緑のチェックマークと「提示不要」の
+ラベル、ただし小さな注記アイコン付き。
+
+--- ROW 4 ---
+Left heading: 該当なし（グレーアウト）
+Left illustration: このセルはグレーアウトした空白のカードとして描き、
+アイコンやラベルは置かない。
+Right heading: 対象外の書面は原本提示が必要
+Right illustration: 承諾書のアイコンに赤い✕マークと「原本提示が必要」の
+ラベル札。
+
+（各行は左右で同じ高さに揃えて配置する。片方にしか存在しない要素は
+「該当なし」としてグレーアウト表示する。）
+
+--- FOOTER ---
+
+注意：特に「例」「調」「査」「報」「告」「登」「記」の各漢字は、簡体字
+ではなく標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly 4 rows, with no
+duplicated or missing rows, confirm there is no intro illustration or
+paragraph block between the header and the comparison rows, and confirm
+that no row contains a full sentence of explanatory prose — every row's
+takeaway must read as a short heading on each side, at a glance.
+```
+
+### 画像5：調査士報告方式の対象になる書面 早見表
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1100 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: document icon, seal icon,
+scanner icon — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Do NOT render any full-sentence explanation or paragraph of
+body text anywhere on the poster; every row must read as a short phrase
+plus an icon.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+調査士報告方式の対象になる書面
+
+Subtitle (smaller, centered, 1行):
+令13条のスキャンデータ提供時の扱い
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background
+colors, Japanese sans-serif font, no monospace font. 2 columns: 「書面の
+性質」「調査士報告方式の対象になるか」。Reproduce the header row and all
+4 data rows exactly as written below, verbatim, in this order, with no
+duplicated or missing rows:
+
+ヘッダー行: 書面の性質 | 調査士報告方式の対象になるか
+
+行1: 申請人（委任者）が作成した委任状 | ○ 対象になる
+行2: 工事施工会社作成の工事完了引渡証明書（所有権証明情報） | ○ 対象になる
+行3: 地役権設定の範囲を証する地役権者作成の書面 | × 対象外（原本提示が必要）
+行4: 表題部所有者の承諾書、抵当権者の承諾書など第三者の意思を証する書面 | × 対象外（原本提示が必要）
+
+「○ 対象になる」のセルは薄い緑の背景に緑のチェックアイコンを添え、「×
+対象外（原本提示が必要）」のセルは薄い赤の背景に赤い✕アイコンを添える。
+
+--- FOOTER ---
+
+注意：特に「調」「査」「報」「告」「証」「明」の各漢字は、簡体字ではなく
+標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 4 data rows plus the
+header row, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm no cell contains a full sentence of explanatory prose.
+```
+
+### 画像6：表示登記の添付情報、4つの最重要ポイント（まとめ）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: apartment building, seal/hanko,
+document with a stamp, scanner and electronic signature icon — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表示登記の添付情報、4つの最重要ポイント
+
+Subtitle (smaller, centered, 1行):
+記事全体のまとめ
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列を分けないため、バッジ色は1色（紺色）に統一する。）
+
+--- CARD 1 ---
+Badge: a filled circle in navy blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+区分建物だけ原始取得者に限られる
+Illustration: マンションのアイソメアイコンと新築者のアイコン、転得者の
+アイコンに赤い✕マーク。その下に住民票コード・会社法人等番号・法定相続
+情報一覧図の3つを表す小さなアイコンを横に並べる。
+Conclusion tag (navy blue banner, 5-15 Japanese characters):
+省略できる場合あり
+
+--- CARD 2 ---
+Badge: a filled circle in navy blue containing the number 2.
+Heading: 申請書・委任状の印鑑証明書は3か月以内
+Illustration: 印鑑証明書のアイコンにカレンダーと「3か月」のラベル、承諾書
+のアイコンには無限マーク（∞）のラベル。
+Conclusion tag (navy blue):
+承諾書は制限なし
+
+--- CARD 3 ---
+Badge: a filled circle in navy blue containing the number 3.
+Heading: 申請書等の印鑑証明書は原則還付不可
+Illustration: 申請書に添付した印鑑証明書のアイコンに赤い✕マーク、工事
+完了引渡証明書に添付した印鑑証明書のアイコンには緑のチェックマーク。
+Conclusion tag (navy blue):
+調査完了後に還付
+
+--- CARD 4 ---
+Badge: a filled circle in navy blue containing the number 4.
+Heading: スキャンデータは作成者の電子署名が必要
+Illustration: スキャナーのアイコンから電子署名のアイコンへ矢印、その横に
+特例方式と調査士報告方式を表す2つの書類アイコンを並べる。
+Conclusion tag (navy blue):
+別々の制度
+
+（カードは2列×2段、または1列で通し番号1〜4を振って配置する。列を分ける
+場合もバッジ色は紺色で統一する。）
+
+--- FOOTER ---
+
+特に「登」「記」「建」「物」「証」「明」の各漢字は、簡体字ではなく標準的な
+日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 4 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
+
+---
+
 ## 参照した過去問
 
 - [R7第9問 地積測量図](../r7-mondai/q09-chisekisokuryouzu.md)

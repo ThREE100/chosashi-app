@@ -117,6 +117,545 @@
 
 ---
 
+## インフォグラフィック プロンプト
+
+### 画像1：判断の軸──建物そのものが変わるかどうか
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric house sliding on
+rails, apartment building with an adjacent land plot connected by a
+dashed line).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the columns. Every row must communicate its point almost entirely
+through the illustration (icons, arrows, short embedded labels) plus one
+short line of text. Do NOT render any full-sentence explanation, legal
+citation, or paragraph of body text anywhere on the poster. If a piece of
+information cannot be expressed as a short label (a few words) or drawn as
+an icon, leave it out rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 図, 面,
+建, 物, 積, 権, 登, 記, 敷, 地 — do not render these as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+図面の要不要、見分け方は「建物が変わるか」
+
+Subtitle (smaller, centered, 1行):
+位置・形状・床面積が変わるか、法律上の扱いだけが変わるか
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN HEADER (pill-shaped badge, color: green) ---
+建物そのものが変わる登記
+
+--- LEFT COLUMN, ROW 1 ---
+Label: 判定
+Content: 位置・形状・床面積が変わる → 図面の提供が必要
+Illustration: a green checkmark icon next to an isometric building icon
+with highlighted outline (position/shape/floor area) glowing to show
+change.
+
+--- LEFT COLUMN, ROW 2 (example) ---
+Label: 具体例：えい行移転
+Content: 建物を解体せずそのまま横に移動させる → 建物図面が必要
+Illustration: an isometric house shown sliding sideways along a dashed
+arrow from its original footprint (drawn in outline) to a new footprint
+(drawn solid), representing えい行移転.
+
+--- RIGHT COLUMN HEADER (pill-shaped badge, color: blue) ---
+建物そのものは変わらない登記
+
+--- RIGHT COLUMN, ROW 1 ---
+Label: 判定
+Content: 法律上の扱いだけが変わる → 図面の提供は不要
+Illustration: a gray ✕ mark icon next to an isometric building icon that
+stays unchanged (dashed outline, no glow).
+
+--- RIGHT COLUMN, ROW 2 (example) ---
+Label: 具体例：規約敷地の追加
+Content: 隣接する駐車場用地を規約で敷地に追加 → 建物図面は不要
+Illustration: an isometric apartment building connected to an adjacent
+parking-lot plot by a dashed line labeled 規約, with the building itself
+unchanged and a small ✕ mark next to a building-plan icon.
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly 2 rows in the left column
+and exactly 2 rows in the right column, with no duplicated or missing
+rows, confirm there is no intro illustration or paragraph block between
+the header and the columns, and confirm that no row contains a full
+sentence of explanatory prose beyond the short label/content text
+specified above.
+```
+
+### 画像2：登記等の種類ごとの提供要否 早見表 (1/2)
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1720 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: building with a plan sheet,
+merging two buildings, dividing lines, land parcel with characters,
+apartment building).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Each table row must communicate its point through a small
+icon plus the short text specified for that row. Do NOT add any
+explanation, illustration, or text beyond what is explicitly listed below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 図, 面,
+建, 物, 積, 権, 登, 記, 敷, 地, 番, 号, 更, 正, 属 — do not render these as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物図面・各階平面図の提供要否 早見表 (1/2)
+
+Subtitle (smaller, centered, 1行):
+不動産登記令別表12項〜16項に基づく登記等の種類ごとの整理
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(light blue / white), Japanese sans-serif font, no monospace font. Each
+row has a small isometric icon on the left, followed by the four columns
+below, laid out in a single-column stacked table (not multi-column grid)
+so all Japanese text remains legible. For 建物図面 and 各階平面図 columns,
+render 必要 as a green pill badge with a checkmark and 不要 as a gray pill
+badge with a ✕ mark.
+
+Header row (4 columns, verbatim):
+登記等の種類 ｜ 建物図面 ｜ 各階平面図 ｜ 根拠
+
+Data rows (numbered 1-7 in this exact order; reproduce every row exactly
+as written; do not omit, duplicate, merge, reorder, or paraphrase any
+row):
+
+1. 登記等の種類: 建物の表題登記(通常)
+   建物図面: 必要
+   各階平面図: 必要
+   根拠: 令別表12項添付情報イ・ロ
+   Icon: an isometric new house with a building-plan sheet icon beside it.
+
+2. 登記等の種類: 合体による登記等
+   建物図面: 必要
+   各階平面図: 必要
+   根拠: 令別表13項添付情報イ・ロ
+   Icon: two isometric buildings merging into one with an arrow.
+
+3. 登記等の種類: 表題部の変更・更正登記─所在(市区郡町村字・地番)の変更・
+   更正
+   建物図面: 必要
+   各階平面図: 不要
+   根拠: 令別表14項添付情報イ
+   Icon: an isometric building on a land parcel with an address label
+   changing (old label crossed out, new label added), no interior change.
+
+4. 登記等の種類: 表題部の変更・更正登記─床面積の変更・更正
+   建物図面: 必要
+   各階平面図: 必要
+   根拠: 令別表14項添付情報ロ
+   Icon: an isometric building with an expanding floor-area outline and a
+   ruler/measurement icon.
+
+5. 登記等の種類: 表題部の変更・更正登記─附属建物の新築
+   建物図面: 必要
+   各階平面図: 必要
+   根拠: 令別表14項添付情報ハ
+   Icon: an isometric main house with a smaller newly-added annex building
+   next to it, connected by a plus (＋) mark.
+
+6. 登記等の種類: 表題部の変更・更正登記─種類・構造の変更など(所在・床面積・
+   附属建物新築以外)
+   建物図面: 不要
+   各階平面図: 不要
+   根拠: 令別表14項に列挙なし
+   Icon: an isometric building with a small label tag changing from
+   居宅 to 店舗, the building's shape and footprint unchanged, with a ✕
+   mark next to a building-plan icon.
+
+7. 登記等の種類: 敷地権の発生・消滅による変更・更正登記(規約敷地の追加・
+   廃止等)
+   建物図面: 不要
+   各階平面図: 不要
+   根拠: 令別表15項
+   Icon: an isometric apartment building connected to an adjacent land
+   parcel by a dashed line labeled 規約, with a ✕ mark next to a
+   building-plan icon.
+
+Self-check instruction to embed in the image generation reasoning (not
+rendered as visible text): confirm the table has exactly 7 data rows
+corresponding to the numbered list above, in the same order, with no row
+omitted, duplicated, merged, or reworded.
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 7 data rows exactly
+matching the list above, with no duplicated or missing rows, confirm there
+is no intro illustration or paragraph block between the header and the
+table, and confirm that no row contains any text beyond the 登記等の種類 /
+建物図面 / 各階平面図 / 根拠 text specified for that row. Confirm the title
+shows the page indicator (1/2) exactly as written.
+```
+
+### 画像3：登記等の種類ごとの提供要否 早見表 (2/2)
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1720 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: splitting building, demolished
+house, apartment room with a stamp, empty land plot, document with a
+stamp).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Each table row must communicate its point through a small
+icon plus the short text specified for that row. Do NOT add any
+explanation, illustration, or text beyond what is explicitly listed below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 図, 面,
+建, 物, 積, 権, 登, 記, 滅, 失, 団, 規, 約, 処, 分, 制, 限 — do not render
+these as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物図面・各階平面図の提供要否 早見表 (2/2)
+
+Subtitle (smaller, centered, 1行):
+不動産登記令別表16項〜32項・準則85条に基づく登記等の種類ごとの整理
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(light beige / white), Japanese sans-serif font, no monospace font. Each
+row has a small isometric icon on the left, followed by the four columns
+below, laid out in a single-column stacked table (not multi-column grid)
+so all Japanese text remains legible. For 建物図面 and 各階平面図 columns,
+render 必要 as a green pill badge with a checkmark and 不要 as a gray pill
+badge with a ✕ mark (for row 3, render 不要(所有者証明情報のみ) as a gray
+pill badge with a ✕ mark plus the extra text in smaller type below the
+badge).
+
+Header row (4 columns, verbatim):
+登記等の種類 ｜ 建物図面 ｜ 各階平面図 ｜ 根拠
+
+Data rows (numbered 1-7 in this exact order; reproduce every row exactly
+as written; do not omit, duplicate, merge, reorder, or paraphrase any
+row):
+
+1. 登記等の種類: 建物の分割・区分・合併の登記
+   建物図面: 必要
+   各階平面図: 必要
+   根拠: 令別表16項添付情報イ
+   Icon: an isometric building being split by a dividing line into two
+   labeled sections.
+
+2. 登記等の種類: 建物の滅失の登記(通常)
+   建物図面: 不要
+   各階平面図: 不要
+   根拠: (令別表に規定なし。法57条・規則144条にも図面規定なし)
+   Icon: an isometric demolished house (rubble pile) with a ✕ mark next to
+   a building-plan icon.
+
+3. 登記等の種類: 共用部分・団地共用部分である旨の登記がある建物の滅失の
+   登記
+   建物図面: 不要(所有者証明情報のみ)
+   各階平面図: 不要
+   根拠: 令別表17項
+   Icon: an isometric demolished small common-use room (rubble pile) with
+   a single identity-document icon beside it and a ✕ mark next to a
+   building-plan icon.
+
+4. 登記等の種類: 共用部分である旨の登記／団地共用部分である旨の登記(設定)
+   建物図面: 不要
+   各階平面図: 不要
+   根拠: 令別表18項・19項
+   Icon: an isometric small room inside an apartment building being
+   stamped with a 共用部分 label stamp, the room's shape unchanged, with a
+   ✕ mark next to a building-plan icon.
+
+5. 登記等の種類: 共用部分・団地共用部分の規約廃止による建物の表題登記
+   建物図面: 不要
+   各階平面図: 不要
+   根拠: 令別表21項、規則143条
+   Icon: an isometric small room with the 共用部分 label stamp being
+   removed/crossed out, the room's shape unchanged, with a ✕ mark next to
+   a building-plan icon.
+
+6. 登記等の種類: 表題登記のない建物についてする所有権保存登記・処分制限の
+   登記
+   建物図面: 必要
+   各階平面図: 必要
+   根拠: 令別表28項ヘ・32項ロ
+   Icon: an isometric house with a blank/unregistered document icon being
+   filled in for the first time.
+
+7. 登記等の種類: えい行移転による建物の所在の変更の登記
+   建物図面: 必要
+   各階平面図: 不要
+   根拠: 準則85条2項＋令別表14項添付情報イ
+   Icon: an isometric house shown sliding sideways along a dashed arrow
+   from its original footprint (outline) to a new footprint (solid).
+
+Self-check instruction to embed in the image generation reasoning (not
+rendered as visible text): confirm the table has exactly 7 data rows
+corresponding to the numbered list above, in the same order, with no row
+omitted, duplicated, merged, or reworded.
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 7 data rows exactly
+matching the list above, with no duplicated or missing rows, confirm there
+is no intro illustration or paragraph block between the header and the
+table, and confirm that no row contains any text beyond the 登記等の種類 /
+建物図面 / 各階平面図 / 根拠 text specified for that row. Confirm the title
+shows the page indicator (2/2) exactly as written.
+```
+
+### 画像4：表題部の変更・更正登記──変更内容による判定フロー
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections and diamond-shaped
+decision icons, consistent with a modern explainer-graphic aesthetic
+(icons: building with address label, building with expanding floor area,
+building with annex, building with changing category tag).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the flowchart. Every node must communicate its point almost entirely
+through the illustration (icons, ✕/✓ marks, short embedded labels) plus
+one short line of text. Do NOT render any full-sentence explanation, legal
+citation, or paragraph of body text anywhere on the poster. If a piece of
+information cannot be expressed as a short label (a few words) or drawn as
+an icon, leave it out rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 図, 面,
+建, 物, 積, 権, 登, 記, 更, 正, 属, 種, 類, 構, 造 — do not render these as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表題部の変更・更正登記、何を変えるかで図面が変わる
+
+Subtitle (smaller, centered, 1行):
+不動産登記令別表14項(添付情報イ・ロ・ハ)による判定
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+
+Node 1 (start node, rounded rectangle, top of the flowchart):
+表題部の変更・更正登記
+(不動産登記令別表14項)
+
+Node 2 (diamond-shaped decision icon, directly below Node 1):
+変更・更正の内容は？
+
+Four branches fan out from Node 2, each ending in a result node. Draw each
+branch as an arrow labeled with the branch condition, leading to a result
+node styled as a rounded rectangle with a small icon and a colored pill
+badge for the outcome.
+
+Branch A:
+Arrow label: 所在(市区郡町村字・地番)の変更・更正
+Result node icon: an isometric building on a land parcel with an address
+label changing (old label crossed out, new label added).
+Result node text (short line): 建物図面のみ必要
+Result node badge row: 建物図面＝必要（緑チェック）, 各階平面図＝不要
+（グレー✕）
+Small reference tag inside the result node (very small type):
+添付情報イ
+
+Branch B:
+Arrow label: 床面積の変更・更正
+Result node icon: an isometric building with an expanding floor-area
+outline and a ruler/measurement icon.
+Result node text (short line): 建物図面・各階平面図とも必要
+Result node badge row: 建物図面＝必要（緑チェック）, 各階平面図＝必要
+（緑チェック）
+Small reference tag inside the result node (very small type):
+添付情報ロ
+
+Branch C:
+Arrow label: 附属建物の新築
+Result node icon: an isometric main house with a smaller newly-added
+annex building next to it, connected by a plus (＋) mark, both buildings
+outlined to show both appear on the same building-plan sheet.
+Result node text (short line): 建物図面・各階平面図とも必要
+Result node badge row: 建物図面＝必要（緑チェック、主である建物も含めて
+記録）, 各階平面図＝必要（緑チェック）
+Small reference tag inside the result node (very small type):
+添付情報ハ
+
+Branch D:
+Arrow label: 種類・構造の変更など
+(所在・床面積・附属建物新築以外)
+Result node icon: an isometric building with a small label tag changing
+from 居宅 to 店舗, the building's shape and footprint unchanged.
+Result node text (short line): 建物図面・各階平面図とも不要
+Result node badge row: 建物図面＝不要（グレー✕）, 各階平面図＝不要
+（グレー✕）
+Small reference tag inside the result node (very small type):
+添付情報イ〜ハいずれにも該当しない
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the flowchart has exactly 1 start node, 1
+decision node, and 4 branch/result nodes (Branch A through D) as specified
+above, with no duplicated or missing branches, confirm there is no intro
+illustration or paragraph block between the header and the flowchart, and
+confirm that no node contains a full sentence of explanatory prose beyond
+the short arrow label + result text + badge row + small reference tag
+specified above.
+```
+
+### 画像5：えい行移転・仮換地上の建物・訂正の申出──特殊ケース3つ
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: house sliding on rails,
+building-plan sheet with solid and dashed outlines, hand correcting a
+document).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, ✕/✓ marks, small embedded labels) plus
+one short heading and one short conclusion tag. Do NOT render any
+full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 図, 面,
+建, 物, 換, 地, 訂, 正, 更, 権, 録 — do not render these as Simplified
+Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+えい行移転・仮換地・訂正の申出──3つの特殊ケース
+
+Subtitle (smaller, centered, 1行):
+建物の位置が動く場面、図面を書き分ける場面、任意手続の場面
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列は分けず1列で並べ、バッジ色はベージュに統一する。）
+
+--- CARD 1 ---
+Badge: a filled beige circle containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+えい行移転は所在変更として扱う
+Illustration: an isometric house shown sliding sideways along a dashed
+arrow from its original footprint (outline) to a new footprint (solid),
+with a small building-plan sheet icon beside it and a ✕ mark next to a
+各階平面図 icon to show it is not required.
+Conclusion tag (short colored banner/pill directly below the illustration,
+beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence):
+建物図面のみ必要
+
+--- CARD 2 ---
+Badge: a filled beige circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+仮換地は実線、従前地は点線で図示
+Illustration: a building-plan sheet (建物図面) drawn with the currently-
+used 仮換地 parcel outline in a solid line and the 従前地 parcel outline in
+a dashed line overlapping it, with a small address label showing 従前の
+地番 followed by the future 地番 in parentheses.
+Conclusion tag (short colored banner/pill directly below the illustration,
+beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence):
+所在欄に予定地番を括弧書き
+
+--- CARD 3 ---
+Badge: a filled beige circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+更正登記ができるときは使えない
+Illustration: a hand holding a pen correcting a building-plan sheet, with
+a small branching icon showing two paths — one path blocked by a ✕ mark
+labeled 更正登記できる場合, the other path open with a checkmark labeled
+訂正の申出.
+Conclusion tag (short colored banner/pill directly below the illustration,
+beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence):
+訂正が必要な図面のみ提供
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 3 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
+
+---
+
 ## 対象とした過去問記事
 
 - [平成23年度 第15問〜規約敷地の追加だけなら建物図面は不要〜](../h23-mondai/q15-tatemonozumen-kaisuheimenzu.md)
