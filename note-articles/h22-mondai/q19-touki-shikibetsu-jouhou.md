@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成22年度 第19問〜識別情報を失念しても、道はあるんです〜
+## 【土地家屋調査士受験生向け】識別情報を失念しても、道はあるんです〜平成22年度午後の部 第19問・登記識別情報を解説〜
 
 **出題年度：平成22年度　午後の部　第19問**
 
@@ -48,13 +48,15 @@
 
 **たとえば**、符号の通知を受けていた人が亡くなっても、相続人が必ず「この符号を失効させてください」と申し出なければならない、ということはありません。必要に応じて申し出ることができる、というだけです。
 
-### まとめ
+### まとめ表
 
-- **ア（誤）**　電子申請でも、申出があれば書面を送付して交付できる
-- **イ（誤）**　識別情報の失念は「正当な理由」に当たり、事前通知等で登記できる
-- **ウ（正）**　分筆後の土地の合筆では、もとの甲土地の登記識別情報でよい
-- **エ（正）**　特別の委任を受けた代理人には、登記識別情報が通知される
-- **オ（誤）**　登記名義人が死亡しても、相続人に失効申出の義務はない
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 誤 | 電子申請でも、申出があれば書面を送付して交付できる |
+| イ | 誤 | 識別情報の失念は「正当な理由」に当たり、事前通知等で登記できる |
+| ウ | 正 | 分筆後の土地の合筆では、もとの甲土地の登記識別情報でよい |
+| エ | 正 | 特別の委任を受けた代理人には、登記識別情報が通知される |
+| オ | 誤 | 登記名義人が死亡しても、相続人に失効申出の義務はない |
 
 「なくしても事前通知で対応できる」「失効申出は任意」という点で、イとオが誤りだと分かり、正しいのはウとエになります。
 
@@ -80,3 +82,132 @@
 - 分けた土地の合筆は、もとの符号でいいんです
 - 特別に委任すれば、代理人が符号を受け取れる
 - 名義人が亡くなっても、失効申出は義務じゃないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+登記識別情報 失くしても道はある
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第19問　登記識別情報
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+電子申請でも申出があれば書面で届く
+
+Illustration: A computer-screen icon (電子申請) with a character selecting a 「書面で送付してほしい」option, and a mail envelope containing the 登記識別情報通知書 being sent out, checkmark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+申出で書面交付も可
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+識別情報を失くしても正当な理由になる
+
+Illustration: A character with an empty pocket (登記識別情報を失念) shrugging, next to a 事前通知 document icon being sent instead, checkmark labeled「正当な理由に当たる」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+失念でも正当な理由
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分筆後の合筆はもとの甲土地の識別情報でよい
+
+Illustration: A land plot 甲 splitting into 甲・乙, then 乙 merging into 丙, with the ORIGINAL 甲の登記識別情報 card being reused/carried through the whole chain via a dashed arrow, checkmark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+甲の識別情報でよい
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+特別委任の代理人には識別情報が届く
+
+Illustration: A 登記名義人 character handing a 特別の委任状 to a 代理人 character, and the 登記識別情報通知書 envelope being delivered directly to the 代理人 instead of the名義人, checkmark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+代理人に通知される
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+死亡しても相続人に失効申出の義務はない
+
+Illustration: A 登記名義人 character fading into a tombstone icon, with an heir character standing beside a 失効の申出 document — the document has NO mandatory-exclamation-mark icon, just an optional-checkbox icon, label「義務ではない」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+失効申出は任意
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
