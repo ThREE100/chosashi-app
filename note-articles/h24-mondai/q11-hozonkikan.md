@@ -78,3 +78,108 @@
 - 申請書類は30年で保存期限がくるんです
 - 古い公図も、実は捨てられないんです
 - 合筆で消えた登記記録、50年は残るんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記記録等の保存期間に関する5肢を、「永久保存されるもの」と「期限付きで保存されるもの」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric archive shelf,
+server/database, stopwatch/timer, filing cabinet with a countdown badge,
+old rolled-up map, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 筆・界・特・定・積・測・量・図・保・存・閉・鎖・合・筆 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定書、実は永久保存なんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第11問－登記記録等の保存期間
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+永久保存されるもの
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+筆界特定書は永久保存
+Illustration: An archive shelf icon holding a document labeled "筆界特定
+書" with an infinity symbol (∞) stamp, a stopped clock in the background.
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+永久保存
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 地積測量図も電子化後は永久
+Illustration: A server/database icon storing a digital 地積測量図, with
+an infinity symbol (∞) label, "10年" crossed out with an "✕" nearby.
+Conclusion tag: 電子化されても永久
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading: 閉鎖後の公図も永久保存
+Illustration: An old rolled-up map icon labeled "地図に準ずる図面（閉鎖）"
+on an archive shelf with an infinity symbol (∞) stamp, "50年" crossed out
+with an "✕".
+Conclusion tag: 閉鎖後も永久保存
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+期限付きで保存されるもの
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 申請書類は30年で保存期限
+Illustration: A filing cabinet holding application documents with a
+countdown timer badge reading "30年".
+Conclusion tag: 30年で満了
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 合筆で消えた登記記録は50年
+Illustration: A closed/merged land registry record stamped "閉鎖登記記録"
+with a countdown timer badge reading "50年".
+Conclusion tag: 50年保存される
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

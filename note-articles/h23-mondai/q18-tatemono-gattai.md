@@ -69,6 +69,7 @@
 - 各肢の法的根拠のうち、合体による登記の申請義務・1か月以内という期間については不動産登記法49条の一般的な制度趣旨に基づく整理ですが、各肢の細部（主従建物の合体対象外、証明すべき所有権の範囲）について個別の条文番号までは特定できておらず、一般原則からの整理にとどまる点をご留意ください。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文は、本問については結論・根拠とも大筋で妥当な内容でしたが、他の問題（第2問）で明確な誤りが確認されたファイルであるため、本記事では条文・一般原則から独立に再構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、平成26年度第17問「合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（合体による登記等）」が、本問と非常に強く重複するテーマであることを確認しました。特に「主である建物とその附属建物が合体した場合は、そもそも合体による登記等の制度の対象外である」という論点は、本問の肢アと平成26年度第17問の肢エで共通してテストされています。平成26年度分は本シリーズでは未執筆ですが、将来執筆する際はこの論点の重複に十分注意してください。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法49条（合体による登記等）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -79,3 +80,110 @@
 - 証明すべきは自分の持分だけ、建物全体じゃないんです
 - 更正登記で所有者になった人にも、申請義務があるって知ってた？
 - どちらも未登記なら、合体じゃなくて新築の登記なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物が合体した場合の登記に関する5つの独立した個別ルール（主従建物の対象外・申請義務者・証明範囲・更正登記後の義務・双方未登記時の扱い）であり2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings merging,
+stamps, documents, calendars, torn paper labels, etc. — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 証・続・録・築 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 証 not 证, 続 not 续).
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物が「合体」するとき、誰の所有権を証明する？
+
+Subtitle (smaller, centered, 1行):
+平成23年度 午後の部 第18問－建物が合体した場合の登記の申請
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+主従建物の合体は対象外
+Illustration: A main house icon and its small attached shed already
+sharing the same single registration-record icon, with a red X blocking
+an attempt to apply the 合体登記 process to them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+対象外
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+未登記側の持分取得者に申請義務
+Illustration: An unregistered shed merging with a registered house into
+one building, with a buyer character purchasing a share of the shed's
+portion, holding a calendar counting down "1か月".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1か月以内に申請
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+証明は自分の持分だけでよい
+Illustration: A registered house owner merging with an unregistered
+shed, stamping a 所有権証明情報 document that covers only their own
+original house portion, with a red X over an oversized certificate.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+自分の持分のみ
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+更正登記後の所有者にも義務
+Illustration: A name-correction stamp fixing an incorrect owner name on
+a title-only building, with the newly-corrected owner character holding
+a calendar counting down "1か月".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1か月以内に申請
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+双方未登記なら新築の表題登記
+Illustration: Two unregistered shed icons merging into one building,
+with a red X over 合体登記 and a checkmark over 新築表題登記 instead.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+新築表題登記
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, with particular
+attention to 証・続・録・築. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
+```

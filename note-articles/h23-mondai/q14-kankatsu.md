@@ -69,6 +69,7 @@
 - 各肢の法的根拠については、条文番号を一義的に特定できるものがなく、いずれも登記所の管轄（管轄は主である建物の所在地を基準とすること、管轄指定・えい行移転の取扱い）に関する一般原則・登記実務からの整理にとどまります。条文レベルでの断定は避けています。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成24年度以降令和7年度までの試験で「登記所の管轄」を単独テーマとする問題が再出題されていないかを確認しました。該当する出題は見つからず、重複はありません。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法6条・7条（管轄登記所、複数管轄にまたがる場合の指定）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -79,3 +80,112 @@
 - 管轄指定を待たなくても、表題登記は申請できるんです
 - 母屋が移れば、管轄もちゃんとそっちに移るんです
 - 建物が移ったら、申請先は移った先の登記所なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登記所の管轄に関する5つの独立した個別ルール（行政区画未定の扱い・主従建物の管轄基準・管轄指定前の申請可否・曳行移転時の管轄・所在変更登記の申請先）であり2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, registry
+offices, dotted jurisdiction lines, ropes pulling houses, stamps, torn
+paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 轄・録・属・属 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 轄 not 辖).
+
+--- HEADER ---
+Title (large, bold, 1行):
+管轄の決め手は「主である建物」
+
+Subtitle (smaller, centered, 1行):
+平成23年度 午後の部 第14問－登記所の管轄
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+行政区画未定なら表題登記不可
+Illustration: A newly reclaimed landfill icon with a building on it and
+a large 行政区画未定 question mark, with a red X blocking the registry
+window.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+登記不可
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+管轄は主建物基準、附属は無関係
+Illustration: A small main house icon sitting in one registry office's
+territory, connected to a much larger warehouse icon (附属建物) that
+crosses into another registry office's territory, with an arrow
+confirming the main house's office is correct regardless of size.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+主建物が基準
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+管轄指定を待たず表題登記できる
+Illustration: A large factory building straddling the dotted line
+between two registry offices, with a character submitting a 表題登記申請
+paper immediately, not waiting for a pending-指定 stamp.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+指定を待たず申請可
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+主建物が移れば管轄も移る
+Illustration: A main house icon being pulled by a rope from one
+registry office's territory into another's, while a larger attached
+shed stays behind, with an arrow confirming管轄 follows the main house.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+主建物に追従
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+所在変更登記は移った先の登記所へ
+Illustration: A whole building icon being pulled by a rope to a new
+land plot, with a 所在変更登記 stamp being applied at the destination
+registry-office window, not the origin.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+移転先の登記所へ
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, with particular
+attention to 轄・録・属. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
+```

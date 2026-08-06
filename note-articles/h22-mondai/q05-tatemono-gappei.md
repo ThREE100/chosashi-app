@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成22年度 第5問〜建物の合併、単独申請できる？住所が違うままで平気？〜
+## 【土地家屋調査士受験生向け】建物の合併、単独申請できる？住所が違うままで平気？〜平成22年度午後の部 第5問・建物の合併の登記を解説〜
 
 **出題年度：平成22年度　午後の部　第5問**
 
@@ -48,13 +48,15 @@
 
 **たとえば**、あるマンションの一室が別の建物の附属として登記されているとき、それを切り離して隣の一室にくっつける手続は、「切り離し」と「くっつけ」を一枚の申請でまとめて出すことができます。
 
-### まとめ
+### まとめ表
 
-- **ア（正）**　所有権登記のない建物は、新築居宅の表題登記→甲建物の合併の方法による
-- **イ（誤）**　建物の合併の登記は共有者全員で申請し、一名の単独申請はできない（法54条1項）
-- **ウ（正）**　買戻しの特約の登記があると、条件がそろっていても合併できない
-- **エ（誤）**　住所の表示が食い違う状態では、前提として住所変更の登記が必要で、証明情報の提供だけでは合併できない
-- **オ（正）**　区分建物の分割と合併は一の申請情報でまとめて申請できる
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 正 | 所有権登記のない建物は、新築居宅の表題登記→甲建物の合併の方法による |
+| イ | 誤 | 建物の合併の登記は共有者全員で申請し、一名の単独申請はできない（法54条1項） |
+| ウ | 正 | 買戻しの特約の登記があると、条件がそろっていても合併できない |
+| エ | 誤 | 住所の表示が食い違う状態では、前提として住所変更の登記が必要で、証明情報の提供だけでは合併できない |
+| オ | 正 | 区分建物の分割と合併は一の申請情報でまとめて申請できる |
 
 「合併の申請は名義人全員で」「登記記録の表示は先にそろえる」という基本を押さえると、イとエの誤りが見抜けます。
 
@@ -80,3 +82,132 @@
 - 買戻特約が付いてると、合併できないんです
 - 住所が食い違ったままでは、合併できないんです
 - 分割と合併、一枚の申請でまとめられるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+建物の合併 できる場合できない場合
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第5問　建物の合併の登記
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+建替え後は新築の表題登記→合併の順で
+
+Illustration: A sequence of three isometric building icons: old house being demolished, new house appearing with a 「表題登記」stamp, then an arrow merging it with the existing garage building labeled「合併」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+新築登記→合併の順
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+共有者は全員そろって申請する
+
+Illustration: Two building icons (甲・乙) both owned by the same three co-owner characters. A merge-arrow between the buildings requires all three characters to stamp together; one character alone reaching for the stamp is crossed out with a ✕.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+共有者全員で申請
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+買戻し特約があると合併できない
+
+Illustration: Two building icons each with a 買戻しの特約 tag, with a merge-arrow between them crossed out by a large ✕.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+買戻特約で合併不可
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+住所変更が未了でも証明情報を出せば合併できる
+
+Illustration: Two building icons owned by the same character, one stamped 「住所変更済み」and one not yet stamped, with the character holding a 「住所変更を証する情報」document bridging the gap, merge-arrow with a checkmark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+証明情報の提供で足りる
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分割と合併の登記は一緒に申請できる
+
+Illustration: A building icon splitting into two (分割の矢印) and immediately one of the split pieces merging into a neighboring building (合併の矢印), both arrows bundled inside one document icon labeled「一の申請情報」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+1つの申請でまとめて可
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

@@ -78,3 +78,110 @@
 - 合体登記、1,000円じゃ済まないことがあるんです
 - 分筆＋合筆、まとめて2,000円で済むんです
 - 自治体の代位嘱託、実は税金かからないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+登録免許税に関する5肢を、「非課税になる場面」と「課税額の考え方」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric coin/yen stamp,
+tax-exempt seal, application document, city hall/local government
+building, two buildings merging, land plot split-and-merge diagram,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・録・免・許・税・錯・誤・抹・消・敷・権・合・体・嘱・託 — these must
+be rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+分筆＋合筆の一括申請は、2000円なんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第19問－表示登記の登録免許税
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+非課税になる場面
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+錯誤による分筆抹消は非課税
+Illustration: A subdivision-registration document stamped "錯誤による
+抹消", with a tax-exempt (非課税) seal on it instead of a coin/yen tag.
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+抹消登記は非課税
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 自治体の代位嘱託は非課税
+Illustration: A local-government building icon submitting a subdivision
+registration on behalf of a private landowner, with a tax-exempt (非課税)
+seal stamped on the document.
+Conclusion tag: 代位嘱託は非課税
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+課税額の考え方
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading: 分筆＋合筆一括で合計2,000円
+Illustration: A calculation showing a "分筆1,000円" coin plus a "合筆
+1,000円" coin adding up to a "2,000円" coin, single application document.
+Conclusion tag: 合計2,000円
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 敷地権付きでも通常どおり課税
+Illustration: A condominium's land plot (地上権が敷地権) being subdivided,
+with a normal yen/coin tax stamp on the application (not exempt).
+Conclusion tag: 通常どおり課税
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 名義人が違う合体は1,000円超
+Illustration: Two buildings with different owner-name tags merging into
+one; a "1,000円" coin crossed out with an "✕", replaced by an additional
+ownership-registration document icon (extra cost).
+Conclusion tag: 1,000円では済まない
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

@@ -69,6 +69,7 @@
 - 各肢の法的根拠のうち、オ（分筆の登記の申請人は表題部所有者又は所有権の登記名義人＝不動産登記法39条）は条文レベルで確認済みです。ア・イ・ウ・エについては、条文番号・先例番号をピンポイントで特定せず、分筆の登記に関する一般原則・実務上の取り扱いからの整理にとどめています（特にエは不動産登記規則の誤差の限度に関する規定の存在を前提とする整理です）。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、「分筆の登記」は令和7年度第11問（本シリーズで既に note-articles/r7-mondai/q11-bunpitsu.md として執筆済み）、平成26年度第10問、平成25年度第9問、平成24年度第7問など、ほぼ毎年出題されている頻出テーマであることを確認しました。令和7年度第11問は担保権・仮登記のある土地の分筆時の権利処理が中心で、本問（申請人適格・職権分筆の有無・地積誤差の許容範囲）とは具体的な論点が異なるため、直接の重複ではありません。ただし、平成26年度第10問の肢ウ（表題部所有者以外の実体上の所有者が、承諾を証する情報を提供しても分筆登記を申請できない）は、本問の肢オと実質的に同一の論点であり、平成26年度分を今後執筆する際は重複に注意してください。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法39条（分筆の登記の申請人）、46条（敷地権付き区分建物の分筆制限）を確認しましたが、直近の改正による変更はありません。
 
 ---
 
@@ -79,3 +80,114 @@
 - 地目が分かれても、職権では分筆してくれないんです
 - 誤差の範囲内なら、地積更正はしなくていいんです
 - 表題部所有者じゃなきゃ、承諾書があっても申請できないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+分筆の登記の申請に関する5つの独立した個別ルール（敷地権付き土地の制限・添付情報・職権分筆の有無・地積誤差の許容・申請人適格）であり2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, houses,
+condominium buildings, measuring tapes, stamps, torn paper labels, etc.
+— adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 筆・権・証・約 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 筆 not 笔, 権 not 权,
+証 not 证, 約 not 约).
+
+--- HEADER ---
+Title (large, bold, 1行):
+分筆、申請できる人・要る情報は？
+
+Subtitle (smaller, centered, 1行):
+平成23年度 午後の部 第6問－分筆の登記の申請ルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+3分の2以上で分筆できる規定なし
+Illustration: A condominium building icon with several resident
+characters, a fraction icon 2/3 floating above with a red X stamp over
+it, next to a padlock icon on the land plot below.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+そんな規定はない
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約敷地の証明書は添付不要
+Illustration: A land plot split into two, one piece now outside the
+condominium building's footprint. A 規約設定証明書 document floats
+nearby with a red X, next to the simple 分筆申請書 that alone goes
+through.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+添付不要
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+地目が分かれても職権分筆なし
+Illustration: A land plot with one half turning green (畑) and the
+other staying gray (宅地), with a registry-officer character shown NOT
+stamping it automatically (red X), while the landowner character must
+submit their own 分筆申請 paper.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+自分で申請
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+誤差の範囲内なら地積更正不要
+Illustration: A measuring-tape icon comparing two numbers, 100㎡ and
+99.8㎡, on a land plot, with a small green tolerance-zone bracket and a
+checkmark, next to a crossed-out 地積更正登記 stamp.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+更正不要
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題部所有者でなければ申請不可
+Illustration: A registered-title character holding a 承諾書 paper
+handing it to an unregistered actual-owner character, who tries to
+submit a 分筆申請 but is blocked by a red X at the registry window.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾書だけでは不可
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, with particular
+attention to 筆・権・証・約. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
+```

@@ -79,3 +79,113 @@
 - 抵当証券ナシの抵当権、承諾証明がいるんです
 - 規約廃止後も、所有権証明は省略できないんです
 - 同じ登記所内なら、証明書はいらないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の表示に関する登記の添付情報に関する5肢を、「共用部分・規約に関する証明」と「相続・敷地権に関する証明」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric condominium common
+room, mortgage bond document, family registry document, land registry
+certificate, registrar office building, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 共・用・部・分・更・正・相・続・抵・当・証・券・承・諾・敷・権 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+規約廃止後も、所有権証明は省略できないんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第12問－建物の表示登記の添付情報
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+共用部分・規約に関する証明
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+共用部分の更正も所有者証明必須
+Illustration: A condominium common room icon with an update/correction
+document; a "所有者を証する情報" folder attached with a checkmark, not
+skipped.
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+所有者証明は必須
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 抵当証券なしなら承諾証明必要
+Illustration: A mortgage-holder icon signing a "承諾" document for a
+building becoming a common area, no bond (証券) icon present, checkmark
+confirming this document is required.
+Conclusion tag: 承諾証明が必要
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading: 規約廃止後も所有権証明必須
+Illustration: A "共用部分規約廃止" document next to a building icon
+becoming a normal 専有部分, with a "所有権を証する情報" folder attached,
+checkmark, not skipped.
+Conclusion tag: 所有権証明は必須
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+相続・敷地権に関する証明
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 相続による表題登記は証明必要
+Illustration: An heir icon submitting a family-registry document (戸籍
+謄本) for a deceased original owner, checkmark confirming this is
+required.
+Conclusion tag: 相続証明が必要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 同一管轄内なら証明書不要
+Illustration: A building and its land plot both inside the same
+registrar-office jurisdiction boundary; a land registry certificate
+icon crossed out with an "✕" (not needed).
+Conclusion tag: 同一管轄なら不要
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

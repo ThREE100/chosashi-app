@@ -78,3 +78,116 @@
 - 「結婚したら贈与」でも仮登記できるって知ってた？
 - 条件成就前の期待権、損害賠償まではまだ生まれないんです
 - 知らなくても、条件が成就すれば効果は生じるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+法律行為の条件に関する5肢を、「条件と行政処分・意思表示の限界」と「条件付きの権利の保全・効果発生」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric farmland, official
+stamp, notice letter, contract paper, house on fire, scholarship coin,
+blindfolded person, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 条・件・農・許・仮・登・記・贈・与・期・待・権・償 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「結婚したら贈与」でも仮登記できるって知ってた？
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第2問－条件付き法律行為のルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+条件と行政処分・意思表示の限界
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+許可の擬制は私人にはできない
+Illustration: A farmland plot icon with a seller crossing his arms in an
+"✕" pose in front of an application document (blocking it), while a
+buyer icon reaches for the document with a speech bubble showing an
+official government stamp icon crossed out (the stamp cannot be
+conjured by private agreement).
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+許可の擬制はできない
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 期限付き催告解除は有効
+Illustration: A seller icon handing a notice letter to a buyer icon; the
+letter has a small calendar showing "2週間" and a checkmark stamp
+confirming validity.
+Conclusion tag: 催告一体なら有効
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+条件付きの権利の保全・効果発生
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading: 停止条件の贈与も仮登記できる
+Illustration: A contract paper labeled "結婚したら贈与" resting on a land
+plot icon, with a provisional-registration stamp icon (仮登記) placed on
+the land, checkmark confirming it is possible even before the condition
+is met.
+Conclusion tag: 仮登記で保全できる
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 期待権は確定賠償権でない
+Illustration: A burning building icon (destroyed by a third party), next
+to a person icon labeled "条件成就前" with a crossed-out coin/compensation
+icon (no confirmed damages claim yet).
+Conclusion tag: 確定請求権はまだない
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 知らなくても解除条件は効力
+Illustration: A blindfolded person icon (representing "does not know yet")
+with an automatic checkmark stamp appearing above a scholarship coin
+icon that stops flowing, showing the obligation ends regardless of
+awareness.
+Conclusion tag: 知らなくても効力発生
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

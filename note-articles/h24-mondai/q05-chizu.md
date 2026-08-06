@@ -78,3 +78,113 @@
 - 地域ごとに、地図の縮尺は決まってるんです
 - 相続人でも、地図の訂正を申し出られるんです
 - 市街地の精度、「甲三まで」じゃ甘いんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地図（14条地図）に関する5肢を、「地図の記録事項」と「訂正申出・精度基準」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric map/blueprint,
+coordinate grid, ruler/measuring tool, server/database, urban district
+vs farmland vs forest zones, magnifying glass, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 縮・尺・係・数・座・標・値・訂・正・精・度・街 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+市街地の精度、「甲三まで」じゃ甘いんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第5問－地図の記録事項と精度区分
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+地図の記録事項
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+縮尺係数は記録事項でない
+Illustration: A map/blueprint icon with a checklist of recorded items
+(地番, 筆界, 座標値), and a separate "縮尺係数" label crossed out with an
+"✕", shown off to the side as a calculation tool rather than a recorded
+item.
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+記録事項ではない
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 電磁的記録には座標値が記録
+Illustration: A digital map on a server/database icon, with each
+boundary-point intersection labeled with small "X・Y" coordinate tags.
+Conclusion tag: 座標値は記録される
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading: 地域区分に応じて縮尺が決まる
+Illustration: Three side-by-side zone icons — dense urban buildings,
+farmland, and forest — each with a different-sized ruler/scale icon next
+to it.
+Conclusion tag: 地域で縮尺が違う
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+訂正申出・精度基準
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 相続人も地図の訂正を申出可
+Illustration: A registered owner icon and their heir icon both submitting
+a correction-request document to a registry-office icon, checkmark
+confirming both can do so.
+Conclusion tag: 相続人も申出できる
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 市街地は「甲三まで」では甘い
+Illustration: A dense urban zone icon with a signboard reading "甲三まで"
+crossed out with an "✕", replaced by a higher-precision measuring tool
+icon with a checkmark.
+Conclusion tag: 甲三では甘い
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

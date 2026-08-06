@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成22年度 第18問〜分筆で権利はどう移る？「消滅した旨の記録」に注意〜
+## 【土地家屋調査士受験生向け】分筆で権利はどう移る？「消滅した旨の記録」に注意〜平成22年度午後の部 第18問・分筆の登記を解説〜
 
 **出題年度：平成22年度　午後の部　第18問**
 
@@ -48,13 +48,15 @@
 
 **たとえば**、抵当権が付いた土地を分けるとき、抵当権者が両方の土地について「消してよい」と承諾しても、分けた片方（乙）に抵当権が付いてこないだけで、もとの土地（甲）の抵当権は、分筆とは別に抹消の手続をしないと消えません。
 
-### まとめ
+### まとめ表
 
-- **ア（正）**　共有者が協力しないときは、代位して分筆の登記を申請できる
-- **イ（誤）**　仮登記権利者が消滅を承諾すれば、分筆後の土地に仮登記は転写されない
-- **ウ（正）**　承役地を分筆すると、要役地の登記記録が職権で変更される
-- **エ（正）**　差押えの登記は、承諾があっても分筆の手続では抹消できない
-- **オ（誤）**　分筆手続の中で、もとの土地に「抵当権が消滅した旨の記録」はされない
+| 肢 | 判定 | ポイント |
+|---|---|---|
+| ア | 正 | 共有者が協力しないときは、代位して分筆の登記を申請できる |
+| イ | 誤 | 仮登記権利者が消滅を承諾すれば、分筆後の土地に仮登記は転写されない |
+| ウ | 正 | 承役地を分筆すると、要役地の登記記録が職権で変更される |
+| エ | 正 | 差押えの登記は、承諾があっても分筆の手続では抹消できない |
+| オ | 誤 | 分筆手続の中で、もとの土地に「抵当権が消滅した旨の記録」はされない |
 
 「承諾があれば分筆後の土地への転写は防げる。でも、もとの土地の権利を消すのは別の手続」という原則で、イとオの誤りが見抜けます。
 
@@ -80,3 +82,132 @@
 - 承役地を分けたら、要役地の登記も職権で直る
 - 差押えは、承諾があっても分筆では消せないんです
 - もとの土地の抵当権、分筆では「消滅」記録されないんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+分筆で権利はどう動く？
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第18問　分筆の登記
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+共有者が協力しないときは代位して申請できる
+
+Illustration: Three co-owner characters (共有物分割の裁判後), one refusing to cooperate (crossed arms), the other two characters submitting a 分筆登記 application on the refusing one's behalf (代位), checkmark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+代位して分筆申請可
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+仮登記権利者が承諾すれば転写されない
+
+Illustration: A land plot 甲 with a 仮登記 stamp being split into 甲・乙, with the 仮登記権利者 character signing a 承諾書, and the 仮登記 stamp NOT appearing on the new 乙 plot (✕ over a version where it transfers).
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+承諾があれば転写されない
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+承役地の分筆で要役地の記録も職権で変わる
+
+Illustration: A 承役地(乙) being split into two, with a dashed arrow automatically updating the 要役地(甲) registration record via a 登記官 stamp labeled「職権で変更」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+要役地の記録も職権変更
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+差押えの登記は承諾があっても抹消できない
+
+Illustration: A land plot 甲 with a 差押えの登記(競売申立て) stamp being split into 甲・乙, with the 差押えの登記 remaining firmly stamped on 甲 despite a 承諾書 being offered, ✕ over an 「抹消」stamp attempt.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+承諾があっても抹消不可
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分筆手続では抵当権消滅の記録はしない
+
+Illustration: A land plot 甲 with an 抵当権 stamp being split into 甲・乙, both抵当権者 giving 承諾, the 乙 plot has no抵当権 stamp (not transferred), but 甲 plot's 抵当権 stamp stays as-is with a ✕ over a 「消滅した旨の記録」stamp attempt.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+消滅した旨の記録はしない
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
