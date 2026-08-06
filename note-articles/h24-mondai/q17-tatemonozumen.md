@@ -78,3 +78,110 @@
 - 小さい建物は、余白に拡大表示できるんです
 - 各階平面図、500分の1縛りじゃないんです
 - 附属建物だけじゃなく、主である建物も描くんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物図面・各階平面図の作成ルールに関する5肢を、「図面の作成単位・記録範囲」と「線の太さ・縮尺のルール」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric blueprint drawing,
+house with a detached shed on the same sheet, fine-line pen, magnified
+tiny building in a margin box, floor-plan ruler, etc. — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 図・面・附・属・建・縮・尺・余・白・拡・大・表・示 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+各階平面図、500分の1縛りじゃないんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第17問－建物図面・各階平面図の作成ルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+図面の作成単位・記録範囲
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物も含め1個ごとに作成
+Illustration: A single blueprint sheet showing both a main house and a
+detached shed (附属建物) drawn together on the same drawing, checkmark.
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+附属建物も含め1枚
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 極小建物は余白に拡大表示可
+Illustration: A tiny building shown only as a dot on the main blueprint,
+with a magnified enlarged drawing of the same building placed in the
+margin box, checkmark.
+Conclusion tag: 余白に拡大表示できる
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading: 附属建物新築でも主建物も記録
+Illustration: A newly built shed (附属建物) drawn on the blueprint
+alongside the pre-existing main house, both included, checkmark.
+Conclusion tag: 主である建物も記録
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+線の太さ・縮尺のルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 線の太さは0.3ミリでは太すぎる
+Illustration: A thick pen line labeled "0.3ミリ" crossed out with an
+"✕", next to a thinner pen line with a checkmark.
+Conclusion tag: もっと細い線が必要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 縮尺は500分の1に限らない
+Illustration: A floor plan with "250分の1" crossed out and an arrow
+pointing not only to "500分の1" but to several other scale options, all
+with checkmarks (flexible choice, not fixed).
+Conclusion tag: 500分の1に限らない
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

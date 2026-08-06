@@ -78,3 +78,112 @@
 - 現況が同じでも、登記で個数は増減するんです
 - 区分建物の登記記録、実は専有部分ごとなんです
 - 離れてても、同じ所有者なら1個にできるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の個数に関する5肢を、「個数は物理的な棟の数と一致しない」と「登記の対象にならない・できない場面」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric building splitting
+into multiple registry cards, two separate detached buildings, staircase
+and elevator shaft, condominium units, house and warehouse connected by
+an ownership line, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 効・用・棟・階・段・室・区・分・専・有・記・録・倉・庫 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+現況が同じでも、登記で個数は増減するんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第15問－建物の個数の考え方
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: blue) ---
+個数は物理的な棟の数と一致しない
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+申請で個数は増減する
+Illustration: The same-shaped office building icon shown twice — before
+(1個の登記記録) and after a division application (複数個の登記記録) —
+with identical physical shape but a different registry-card count.
+Conclusion tag (blue banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+申請で個数が変わる
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading: 所有者同一なら離れていても1個
+Illustration: A house-shaped part and a detached warehouse-shaped part,
+not touching, connected by a single ownership line to the same owner
+icon "A", merged into one registry card with a checkmark.
+Conclusion tag: 所有者同一なら1個も可
+
+--- COLUMN B HEADER (pill-shaped badge, color: green) ---
+登記の対象にならない・できない場面
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading: 効用一体でないと1個にできない
+Illustration: Two separate detached buildings standing apart, no
+connecting corridor, each used independently; a "1個の建物" label crossed
+out with an "✕".
+Conclusion tag: 効用一体でないと不可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading: 共用階段は独立登記できない
+Illustration: A shared staircase/elevator-shaft icon inside a
+condominium, with an "独立登記" label crossed out with an "✕".
+Conclusion tag: 独立登記はできない
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading: 登記記録は専有部分ごとに作成
+Illustration: A condominium building icon with each individual unit
+(専有部分) having its own separate registry-card icon, instead of one
+card for the whole building (crossed out with an "✕").
+Conclusion tag: 専有部分ごとに記録
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

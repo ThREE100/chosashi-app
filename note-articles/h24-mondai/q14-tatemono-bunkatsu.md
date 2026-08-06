@@ -78,3 +78,113 @@
 - 抵当権の消滅、分割登記だけじゃ済まないんです
 - 分割登記は、主である建物の登記所に出すんです
 - 分割後の建物にも、所有権登記は引き継がれるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の分割の登記に関する5肢を、「分割登記でできること」と「分割登記だけでは済まないこと・管轄のルール」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric house with a
+detached garage, two registry offices on a map, mortgage seal, arrow
+splitting one building into two, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 分・割・代・位・附・属・合・併・抵・当・権・管・轄・所・有 — these must
+be rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+買主は売主に代わって、分割登記を申請できるんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第14問－建物の分割の登記
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+分割登記でできること
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+買主が売主に代位して申請できる
+Illustration: A buyer icon holding a "車庫" (garage) purchase document,
+submitting a division-registration application on behalf of the seller
+icon (who stands aside), checkmark confirming this is possible.
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+代位申請ができる
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 分割後も所有権登記は引継ぎ
+Illustration: An arrow splitting one building icon into a main house and
+a detached garage; the same owner-name tag "A" flows onto both resulting
+registry records.
+Conclusion tag: 所有権登記も引継ぎ
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+分割登記だけでは済まないこと・管轄のルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading: 主従の入れ替えに2段階不要
+Illustration: Two attached buildings (物置・車庫) swapping their
+"主"/"附属" labels directly with one simple arrow, a two-step detour path
+crossed out with an "✕".
+Conclusion tag: 2段階は不要
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 抵当権抹消は分割登記と別
+Illustration: A mortgage-holder's consent document next to a division
+registration; an arrow attempting to link it directly to an automatic
+"抵当権抹消" stamp is crossed out with an "✕", showing a separate
+application is needed.
+Conclusion tag: 抵当権抹消は別申請
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 申請先は主である建物の管轄
+Illustration: A map showing 甲登記所 (main building's jurisdiction) and
+乙登記所 (attached building's jurisdiction); the application arrow points
+only to 甲登記所, with 乙登記所 crossed out with an "✕".
+Conclusion tag: 主である建物の管轄
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

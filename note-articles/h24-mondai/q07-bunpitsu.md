@@ -77,3 +77,113 @@
 - 分筆しただけじゃ、共有はまだ解消されないんです
 - 敷地権があっても、分筆は地主が申請するんです
 - イの肢、実は正誤の根拠がまだ確認できてないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+分筆の登記に関する5肢を、「地役権が絡む分筆の実務」と「分筆登記だけでは足りない場面」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。なお肢イは記事本文でも正誤の具体的根拠を断定していないため、カードも「要確認」の見せ方にとどめる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plot split by a
+dividing line, easement/right-of-way map, mortgage seal, magnifying
+glass over a document, two co-owners, apartment building on stilts,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 分・筆・役・権・図・抵・当・承・諾・共・有・敷・地 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+分筆しただけじゃ、共有はまだ解消されないんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第7問－分筆登記でできること・できないこと
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+地役権が絡む分筆の実務
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+範囲が変わるなら新図面が必要
+Illustration: A land plot split into two by a dividing line, with the
+easement (地役権) zone shrinking to only part of the remaining land; the
+old easement map is crossed out with an "✕" and a new map is stamped
+with a checkmark.
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+新図面の提供が必要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 全部に及ぶ場合の記録は要確認
+Illustration: A magnifying glass hovering over a registry record document
+with a large "？" mark, a surveyor icon scratching their head.
+Conclusion tag: 記録処理は要確認
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading: 地役権消滅には抵当権者承諾も
+Illustration: An easement-extinguishment document being signed by the
+easement holder, with a mortgage-holder icon also stamping a separate
+"承諾" seal beside it.
+Conclusion tag: 承諾も必要になる
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+分筆登記だけでは足りない場面
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 分筆だけでは共有は解消しない
+Illustration: A land plot split into east and west halves, both still
+labeled with the same two co-owner icons (A・B) side by side, an "✕"
+over an imagined "単独所有" label.
+Conclusion tag: 共有のまま引き継がれる
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 敷地権の目的地は地主が申請
+Illustration: A condominium building on stilts (敷地権) with the land
+owner (地主) icon submitting the subdivision application alone, while a
+group of condominium unit-owner icons stand aside, not required to sign.
+Conclusion tag: 土地の所有者が申請
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

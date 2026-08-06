@@ -80,3 +80,111 @@
 - 抵当権者じゃ、筆界特定は申請できないんです
 - 無地番同士、実は筆界特定できないんです
 - 所有権の裁判と筆界特定、実は別物なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+筆界特定の申請に関する5肢を、「申請人と対象の要件」と「再申請・他手続との関係」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots in a row,
+mortgage document, unnumbered road/waterway, forged document, courthouse
+and surveyor balance scale, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 筆・界・特・定・抵・当・権・番・偽・造・訴・訟・確・認 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+所有権の裁判確定後も、筆界特定は申請できるんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第10問－筆界特定の申請人適格と対象土地
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請人と対象の要件
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+隣接しない土地同士は対象外
+Illustration: A row of three land plots (甲・乙・丙) where 甲 and 丙 are
+not directly touching (乙 sits between them); an application naming
+甲and丙 as the target is crossed out with an "✕".
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+隣接土地のみ対象
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 抵当権者には申請人適格なし
+Illustration: A mortgage-holder icon reaching for an application form,
+crossed out with an "✕"; only the registered land-owner icon can submit
+it, checkmark beside them.
+Conclusion tag: 抵当権者は対象外
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading: 無地番の土地同士は対象外
+Illustration: An unnumbered waterway plot and an unnumbered road plot,
+both with a "無地番" label, application between them crossed out with an
+"✕".
+Conclusion tag: 無地番同士は不可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+再申請・他手続との関係
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 資料偽造なら再申請できる
+Illustration: An old document stamped "偽造と判明" crossed out with an
+"✕", with a new application document submitted with a checkmark arrow.
+Conclusion tag: 重大な瑕疵なら再申請可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 訴訟確定後も申請は可能
+Illustration: A balance scale with a courthouse icon on one side labeled
+"所有権確認訴訟（確定）" and a surveyor icon with a measuring pole on the
+other side labeled "筆界特定", balanced evenly with a "別次元" label above.
+Conclusion tag: 訴訟確定でも申請可
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

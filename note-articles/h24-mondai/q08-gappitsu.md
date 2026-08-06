@@ -78,3 +78,113 @@
 - 地役権があっても、合筆できることがあるんです
 - 所有権登記の有無、実は合筆の壁になるんです
 - 抵当権が1つでも一致しなければ、合筆できないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+合筆の登記に関する5肢を、「合筆できない典型パターン」と「誤解しやすい例外」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric two land plots
+merging, district boundary line, easement map, blank ownership
+certificate, mortgage seals with numbers, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 合・筆・地・番・区・域・役・権・持・分・抵・当・順・位 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+抵当権が1つ残れば、合筆できないんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第8問－合筆の登記の制限
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+合筆できない典型パターン
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+地番区域が違えば合筆不可
+Illustration: Two land plots labeled with different district-boundary
+tags (A町 / B町), both marked "宅地", with a merge arrow between them
+crossed out with an "✕".
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+地番区域が違えば不可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 所有権登記の有無が壁になる
+Illustration: One land plot with only a 表題登記 stamp (no ownership
+register), another plot with a full 所有権登記 stamp, both under the
+same owner name "A"; a merge arrow between them crossed out with an "✕".
+Conclusion tag: 登記の有無が壁になる
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading: 抵当権が1つでも不一致なら不可
+Illustration: One land plot with two mortgage seals labeled "順位1番・
+2番", another plot with only one mortgage seal labeled "順位1番"; even
+though the two seals partly match, the merge arrow is crossed out with
+an "✕" because one seal has no counterpart.
+Conclusion tag: 一つでも不一致なら不可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+誤解しやすい例外
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 持分移転登記を経てから合筆
+Illustration: Two land plots with different co-owner combinations (A・B
+and B・C), a "持分移転登記" arrow flowing between them first, only after
+which a merge arrow with a checkmark appears.
+Conclusion tag: 持分移転登記が先
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 同じ地役権同士なら合筆できる
+Illustration: Two land plots, each carrying an identical easement
+(地役権) registration tag, merging together with a checkmark.
+Conclusion tag: 双方にあれば合筆可
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```
