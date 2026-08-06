@@ -66,7 +66,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝イ・オ）は、ユーザー提供の正解情報（takuitsu.jsonとの整合を確認済みとされるもの）に基づいています。法務省公表の正答資料そのものへの照合は、本セッションでは行っていません。
-- 条文レベルで確認できた根拠：民法96条3項（詐欺取消しと善意無過失の第三者。現行法は2020年施行の債権法改正により「善意でかつ過失がない」と明文化されています。平成19年度の出題当時の条文は「善意の第三者」のみで無過失要件はありませんでしたが、本問のCはいずれも単に「善意」とのみ記述されており、結論に影響する事情は見当たりません）、民法121条（取消しの遡及効）、民法94条1項・2項（虚偽表示と善意の第三者保護）、民法177条（不動産物権変動の対抗要件）、民法178条・183条（動産の対抗要件と占有改定）、民法192条（即時取得）は、いずれもe-Gov法令検索の掲載内容と整合する条文文言をウェブ検索で確認しました（e-Gov法令検索サイト自体への直接アクセスは、本セッションの環境では403エラーとなり実施できなかったため、条文引用元は複数の司法書士試験対策サイト等の二次情報源での条文全文引用と突き合わせています）。
+- 条文レベルで確認できた根拠：民法96条3項（詐欺取消しと善意無過失の第三者。現行法は2020年施行の債権法改正により「善意でかつ過失がない」と明文化されています。平成19年度の出題当時の条文は「善意の第三者」のみで無過失要件はありませんでしたが、本問のCはいずれも単に「善意」とのみ記述されており、結論に影響する事情は見当たりません）、民法121条（取消しの遡及効）、民法94条1項・2項（虚偽表示と善意の第三者保護）、民法177条（不動産物権変動の対抗要件）、民法178条・183条（動産の対抗要件と占有改定）、民法192条（即時取得）は、いずれも本リポジトリ内の `note-articles/laws/minpou-1-soukyoku-bukken.md`（e-Gov法令APIから取得した2026-08-04時点の現行条文全文）と条文原文を一字一句突き合わせて確認済みです。特に96条3項は同ファイルでも「前二項の規定による詐欺による意思表示の取消しは、善意でかつ過失がない第三者に対抗することができない。」となっており、本文の記述と完全に一致しています（94条・121条・177条・178条・183条・192条の条文文言もいずれも改正なく一致を確認済みです）。
 - 判例レベルで確認できた根拠：強迫と詐欺とで96条3項の適用範囲が異なる点（強迫には適用されない）、94条2項類推適用（不実登記を知りながら承認・放置した場合、意思外形対応型として類推適用を認めた最判昭和45年9月22日）、背信的悪意者からの転得者は転得者自身が背信的悪意者でない限り177条の第三者として保護されるとした最判平成8年10月29日、占有改定による占有取得は即時取得(192条)の要件を満たさないとした最判昭和35年2月11日について、いずれも判例の存在と判旨の要旨をウェブ検索により確認しました。ただし各判例の該当箇所（民集の巻号頁など）や判旨の一言一句までは一次資料（裁判所判例検索システム等）で直接確認したわけではなく、二次情報源（法律系サイト・判例解説サイト）の要約に基づいています。
 - ウの「事実上容認し、長期間放置」という表現が、判例が要求する「意思的関与」「明示・黙示の承認」の程度を満たすかどうかは事例ごとの評価の要素が大きく、一般論としての94条2項類推適用の可否を示すにとどまります。
 - エの「相対的構成」という判例の考え方自体は確認済みですが、本問の事実関係（Cが「専らAを害する目的」を持つ背信的悪意者に該当すること自体）は問題文の記述をそのまま前提としており、その認定基準（自由競争の範囲を逸脱するとの評価）についての精査は行っていません。
@@ -80,3 +80,151 @@
 - 不実登記を放置すると、あとで取り返しがつかない
 - 悪意の人から買った善意の人は守られるんです
 - 先に占有改定した人が、実は一番強いんです
+
+---
+
+## 問題全体のインフォグラフィック生成プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric houses/land plots,
+registry stamps, antique-shop shelves, speech bubbles, torn paper labels,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+対抗できる？できない？
+善意の第三者保護、五つの分かれ道
+
+Subtitle (smaller, centered, 1行):
+平成19年度　午前の部　第2問／Ａは第三者に所有権を主張できるか
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: muted slate-blue) ---
+Ａは対抗できない
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in muted slate-blue containing the number 1 (numbers
+run continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+詐欺取消し前の善意者には対抗不可
+Illustration: An isometric scene where person A hands a house-shaped deed
+to person B, with a small speech bubble above A reading "だまされた". A
+crossed-out clock icon shows time passing before A notices. An arrow then
+shows B selling the same house to person C, who receives it with a small
+name-tag label reading "善意" floating near C. A gray ✕ mark blocks an
+arrow drawn from A reaching back toward the house now held by C, with a
+small torn-paper label near the ✕ reading "先に登場".
+Conclusion tag (a short colored banner/pill directly below the illustration,
+muted slate-blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+善意の第三者には対抗不可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in muted slate-blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+不実登記の放置は対抗不可
+Illustration: An isometric scene where a registry-document/stamp icon
+labeled "Ｂ名義" sits next to person A, who has a thought bubble reading
+"まあいいか" and a shrugging pose. A calendar icon with several torn-off
+pages shows a long time passing. An arrow shows B selling the property to
+person C, who confidently holds the registry stamp with a name-tag label
+reading "善意". A gray ✕ mark blocks an arrow drawn from A reaching toward C.
+Conclusion tag (muted slate-blue, 5-15 Japanese characters):
+放置のツケで対抗不可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled circle in muted slate-blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+背信的悪意者からの転得者には対抗不可
+Illustration: An isometric scene with four figures in a row: A (holding an
+unregistered land icon with a small label "未登記"), B, C (drawn with a
+sly expression and a small dark-cloud icon, labeled "専らＡを害する目的"),
+and D (drawn with a neutral, friendly expression, labeled "善意"). Arrows
+show the land passing B→C (a registry stamp icon appears at C) and then
+C→D (another registry stamp icon appears at D). A gray ✕ mark blocks an
+arrow drawn from A reaching toward D.
+Conclusion tag (muted slate-blue, 5-15 Japanese characters):
+転得者には対抗不可
+
+--- COLUMN B HEADER (pill-shaped badge, color: sage green) ---
+Ａは対抗できる
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in sage green containing the number 4 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+強迫による取消しは善意者にも対抗可
+Illustration: An isometric scene where person B (drawn with an intimidating
+pose and a clenched-fist icon) looms over person A, who has a frightened
+expression and a speech bubble reading "こわい…". An arrow shows A selling
+the house to B under duress, then a second panel shows A recovering with a
+raised-fist "取消し" gesture. Meanwhile B has already sold the house to
+person C, shown with a name-tag label reading "善意". A green ✓ checkmark
+shows an arrow successfully reaching from A back through to the house,
+overriding C's position.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+sage green, 5-15 Japanese characters, a keyword phrase — NOT a sentence,
+NOT a legal citation):
+強迫なら対抗できる
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in sage green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+先に占有改定した人が対抗要件で勝つ
+Illustration: An isometric scene inside a small antique shop. Person A buys
+a vase from shop owner B but leaves it on the shop shelf, with a speech
+bubble reading "預かっておいて" and a small label near A reading "占有改定".
+A green ✓ checkmark appears near A even though the vase never physically
+moves. Later, B sells the same vase — still on the same shelf, visibly
+unchanged — to person C, who also leaves it in the shop with a name-tag
+label reading "善意" and a speech bubble reading "そのままでいいです". A
+gray ✕ mark appears near C, with a small label reading "占有改定だけでは
+即時取得できない".
+Conclusion tag (sage green, 5-15 Japanese characters):
+占有改定が先に勝つ
+
+--- FOOTER ---
+
+List of all 5 cards (verbatim headings, do not duplicate, omit, or
+paraphrase any of them): 1.詐欺取消し前の善意者には対抗不可
+2.不実登記の放置は対抗不可 3.背信的悪意者からの転得者には対抗不可
+4.強迫による取消しは善意者にも対抗可 5.先に占有改定した人が対抗要件で勝つ。
+
+Pay special attention to the following kanji, which are frequently
+mis-rendered as Simplified Chinese variants: 登・記・権・所・物・善・意・
+第・者・改・定。Redraw each of these in standard Japanese (Jōyō) form only.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
