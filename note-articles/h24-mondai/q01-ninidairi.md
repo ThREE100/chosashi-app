@@ -166,12 +166,13 @@ Conclusion tag: 未成年者でも可
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
-Heading: 放置すれば代理人が責任
+Heading: 放置すれば債務不履行責任
 Illustration: An agent icon standing beside a sub-agent icon marked with a
 small "✕ 不誠実" label; the agent is not sending any notification arrow to
 the principal and not removing the sub-agent, so a warning triangle icon
-appears and a responsibility arrow loops back to the agent.
-Conclusion tag: 代理人が責任を負う
+appears and a responsibility arrow loops back to the agent, labeled
+"債務不履行" on the arrow itself.
+Conclusion tag: 債務不履行の責任を負う
 
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
