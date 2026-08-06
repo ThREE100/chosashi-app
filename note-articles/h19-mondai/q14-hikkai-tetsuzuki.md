@@ -54,7 +54,7 @@
 
 ### オ：この枠に入るのは「筆界調査委員の意見提出」である
 
-意見聴取等の期日を経た後、筆界調査委員は、必要な事実の調査を終えたときは、遅滞なく、筆界特定登記官に対して筆界特定についての意見を提出します（不動産登記法143条1項）。筆界特定登記官は、この意見を踏まえつつ、登記記録・地図・土地の形状その他の事情を総合的に考慮して筆界特定を行います。
+意見聴取等の期日を経た後、筆界調査委員は、必要な事実の調査を終えたときは、遅滞なく、筆界特定登記官に対して筆界特定についての意見を提出します（不動産登記法142条）。筆界特定登記官は、この意見を踏まえつつ、登記記録・地図・土地の形状その他の事情を総合的に考慮して筆界特定を行います（同法143条1項）。
 
 **たとえば**、意見聴取の期日で双方の言い分と資料をひととおり聞き終えたCさんは、測量結果や関係者の証言を踏まえて「この土地の筆界は、図面上のA点・B点・C点を順に結んだ線と特定するのが相当です」という意見書を法務局に提出します。これが筆界調査委員の意見提出です。
 
@@ -76,9 +76,10 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（平成19年度午前の部第14問）と正解番号（2番＝筆界調査委員の指定）は、ユーザー提供の資料に基づいて記載しています。
-- 条文レベルで確認できた事項：不動産登記法132条1項（却下事由の審査・却下）、133条（申請があった旨の公告及び通知）、134条（筆界調査委員の指定）、135条・136条（筆界調査委員による事実の調査・測量及び実地調査）、140条（意見聴取等の期日）、143条1項（筆界調査委員による意見の提出）、144条（筆界特定をした旨の公告及び通知）。いずれもe-Gov法令検索が直接アクセス不可であったため、検索エンジン経由の抜粋・法務局公表資料（京都地方法務局の公告様式PDF等）で条文番号と内容を照合しました。条文番号については複数の独立した情報源で相互に確認が取れていますが、e-Gov法令検索の条文原文そのものには本セッション中アクセスできなかった（403エラー）ため、投稿前に可能であれば原文での最終確認を推奨します。
-- 「ア＝筆界特定登記官による審査」という表現自体は、不動産登記法132条の見出し（却下）そのものではなく、却下事由の有無を確認する審査プロセスを指す一般的な説明表現です。条文上「審査」という言葉が独立した条見出しとして存在するわけではない点は留意してください。
-- エ（意見聴取等の期日＝140条）とオ（筆界調査委員の意見提出＝143条）の順序については、140条が143条より条文番号上先に位置することから、事実の調査→意見聴取等の期日→意見提出、という順序で間違いないと判断しましたが、140条から143条の間（141条・142条）に他の手続が挟まっている可能性があり、その部分は今回未確認です。
+- 条文レベルで確認できた事項：`note-articles/laws/fudousan-touki-hou.md`（2026-08-04時点でe-Gov法令APIから取得した不動産登記法の現行全文）を直接参照し、132条1項（却下事由の審査・却下）、133条（申請があった旨の公告及び通知）、134条（筆界調査委員の指定）、135条・136条（筆界調査委員による事実の調査・測量及び実地調査）、140条（意見聴取等の期日）、142条（筆界調査委員による意見の提出）、143条1項（筆界特定・筆界特定書の作成）、144条（筆界特定をした旨の公告及び通知）の条文番号と条文内容を照合しました。
+- **修正履歴**：初稿では、オ（筆界調査委員の意見提出）の根拠条文を「143条1項」としていましたが、法令原文を確認したところ、140条（意見聴取等の期日）と142条（意見提出）の間に141条「調書等の閲覧」という独立した条文が挟まっており、意見提出の規定は142条、143条は筆界特定そのもの（筆界特定書の作成）を定める条文であることが判明したため、142条に修正しました。なお、この修正は条文引用の精度に関するものであり、フローチャートの手続順序（審査→却下／公告通知→筆界調査委員の指定→事実の調査→意見聴取等の期日→意見提出→筆界特定→公告通知）や、ウの正解（筆界調査委員の指定＝選択肢2番）には影響しません。
+- **確認できていない点**：平成19年度（2007年）出題当時の不動産登記法において141条「調書等の閲覧」が既に現在と同じ条番号で存在していたか（＝出題後の改正で条番号がずれた可能性がないか）までは、本セッションでは過去の法令データにアクセスできず確認できていません。ただし、上記のとおり手続の流れ自体（どのステップがどの順で行われるか）は現行法でも出題当時の想定と変わらないため、正解には影響しないと判断しています。
+- 「ア＝筆界特定登記官による審査」という表現自体は、不動産登記法132条の見出し（申請の却下）そのものではなく、却下事由の有無を確認する審査プロセスを指す一般的な説明表現です。条文上「審査」という言葉が独立した条見出しとして存在するわけではない点は留意してください。
 
 ---
 
@@ -89,3 +90,150 @@
 - 公告の次は、担当者を決める番なんです
 - 意見を聞く日が、ちゃんと用意されてるんです
 - 最後は専門家の意見を踏まえて特定するんです
+
+---
+
+## 問題全体のインフォグラフィック生成プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric government-office
+building, document sheets, magnifying glass, calendar, hand-off gesture,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定手続の流れ図、空欄に入るのはこれ
+
+Subtitle (smaller, centered, 1行):
+申請から筆界特定まで、５つの空欄（ア〜オ）を順番に図解
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in blue containing the katakana character 「ア」
+(this card set uses the flowchart's own blank labels ア・イ・ウ・エ・オ in
+sequence instead of plain numbers — do not substitute Arabic numerals).
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+審査で却下事由をチェック
+Illustration: An isometric registry officer (筆界特定登記官) standing at a
+government counter, holding a magnifying glass over an isometric document
+icon. Three small torn-paper tag labels float beside the document reading
+「管轄」「申請資格」「記載事項」. A small checklist icon with checkmarks
+sits next to the officer. (embed any ✕/✓ marks and short name-tag labels
+directly inside the illustration itself)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+筆界特定登記官による審査
+
+--- CARD 2 ---
+Badge: a filled circle in blue containing the katakana character 「イ」.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+却下されたら手続はここで終了
+Illustration: The arrow coming from Card 1 splits into a branch. At the
+end of the branch, an isometric document icon stamped with a large red
+「却下」stamp mark and a large red ✕ overlaid on it, next to a road
+"dead-end" sign icon. This branch arrow does NOT continue on to any later
+card — draw it visually terminating here, separate from the main flow
+arrow that continues from Card 1 to Card 3.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+却下で手続終了
+
+--- CARD 3 ---
+Badge: a filled circle in blue containing the katakana character 「ウ」.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+公告・通知のあと委員を指定
+Illustration: An isometric government-office building (法務局) with a
+director-figure pointing to and selecting a specialist isometric figure
+who carries a surveyor's tape measure and compass, wearing a name-tag
+label that reads 「筆界調査委員」. A small envelope/megaphone icon beside
+the building represents the preceding 公告及び通知 step. (embed the
+name-tag label directly inside the illustration)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+筆界調査委員の指定
+
+--- CARD 4 ---
+Badge: a filled circle in blue containing the katakana character 「エ」.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+意見を聞く期日を設ける
+Illustration: Isometric figures (the applicant and the interested parties)
+seated around a meeting table, each placing document/資料 icons on the
+table. A calendar icon with a circled date sits above the table with a
+small tag reading 「期日」. (embed the short label directly inside the
+illustration)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+意見聴取等の期日
+
+--- CARD 5 ---
+Badge: a filled circle in blue containing the katakana character 「オ」.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+委員が最終意見を提出
+Illustration: The specialist figure (筆界調査委員) handing an isometric
+opinion-document icon labeled 「意見書」 to the government-office building
+icon. A short arrow leads off the right edge of the card toward a small
+text label reading 「筆界特定へ」, showing this is the last of the five
+blanks before the flowchart's final steps. (embed the short label directly
+inside the illustration)
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+筆界調査委員の意見提出
+
+（カードは通し番号ではなく、フローチャート自体のラベルであるア・イ・ウ・エ・
+オの順に並べる。列は分けず1列で、バッジ・結論タグの色はすべて同じ青系1色に
+統一する。）
+
+--- FOOTER ---
+
+Supplemental enumeration to render as a short caption line near the bottom
+of the poster (not as prose in the cards themselves): this poster must
+contain exactly five cards, labeled in this exact order and with this
+exact text, with no duplication, no omission, and no paraphrasing —
+ア：筆界特定登記官による審査／イ：却下／ウ：筆界調査委員の指定／
+エ：意見聴取等の期日／オ：筆界調査委員の意見提出．
+
+Caution: several kanji in this poster (号・地・番・建・物・登・記・所) have
+Simplified Chinese variants that look similar but are NOT correct — render
+every instance in standard Japanese (Jōyō) form only, never the simplified
+Chinese form.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, in
+the order ア・イ・ウ・エ・オ, with no duplicated or missing cards, confirm
+there is no intro illustration or paragraph block between the header and
+the cards, and confirm that no card contains a full sentence of
+explanatory prose — every card's takeaway must read as a short heading +
+a short conclusion tag, at a glance.
+```
