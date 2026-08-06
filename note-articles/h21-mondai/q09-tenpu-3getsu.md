@@ -20,7 +20,7 @@
 
 ### ア：表題登記の住所証明情報（住民票の写し）には、作成後3月以内の制限はない
 
-表題登記の申請において表題部所有者の住所を証する情報として提供する住民票の写しには、作成後3月以内でなければならないという有効期間の定めはありません。3月以内の有効期間が定められているのは、申請人が委任状に押した印鑑を証明する印鑑証明書など、限られた書面についてです（不動産登記令16条3項参照）。住所証明情報はこれに含まれません。
+表題登記の申請において表題部所有者の住所を証する情報として提供する住民票の写しには、作成後3月以内でなければならないという有効期間の定めはありません。3月以内の有効期間が定められているのは、申請人が申請書や委任状に押した印鑑を証明する印鑑証明書など、限られた書面についてです（不動産登記令16条3項・18条3項参照）。住所証明情報はこれに含まれません。
 
 **たとえば**、建物を新築した人が表題登記を申請するときに提出する住民票が、たまたま4月前に取得したものであっても、その一事をもって受け付けられないということにはなりません。
 
@@ -69,6 +69,7 @@
 - 各肢の法的根拠のうち、「申請人の委任状印鑑証明書のみが作成後3月以内を要する（他人作成書面の真正担保のための印鑑証明書はこれに当たらない）」という整理（肢イ・エ）、および法定代理人の権限証明としての戸籍謄本の3月以内要件（肢オ、不動産登記令17条の趣旨）は、一般原則・条文の趣旨からの説明です。肢ウの職印証明書の3月以内要件は本人確認情報の提供に関する不動産登記規則の規定によるものですが、具体的な条項番号までは本記事では断定していません（○×判定は公式正答で確認済み）。
 - なお、ローカルのアガルート教材フォルダは本実行環境からは参照できないため、今回は同教材を参照していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（住民票・工事完了引渡証明書添付の印鑑証明書・調査士職印証明書・抵当権放棄証書添付の印鑑証明書・法定代理人の戸籍謄本のうちどれが作成後3月以内を要するかを組み合わせた問題）と同一・類似の問題が再出題されていないかを確認しました。工事完了引渡証明書添付書類や職印証明書の3月以内要件は個別に類似問題（H27第14問、H30第7問、H25第14問等）で出題されていますが、5項目の組合せとしては一致するものがなく、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **適用法令の現行性チェック（2026-08-04実施）**：「作成後3月以内」を定める不動産登記令の条項を確認したところ、**16条3項**（申請情報を記載した書面に記名押印した者の印鑑に関する証明書）、**18条3項**（代理人の権限を証する情報を記載した書面＝委任状に添付する印鑑に関する証明書）、**17条**（法人の代表者の資格を証する情報・代理人の権限を証する情報を記載した書面のうち、市町村長・登記官その他の公務員が職務上作成したもの）という現行の条数に変更はありませんでした。他方、第三者の**承諾を証する情報を記載した書面**に添付する印鑑に関する証明書を定める**19条2項**には3月以内の制限が置かれておらず、これが肢イ・肢エが「該当せず」となる根拠です（**肢イ・エは該当せずのまま**）。肢オの法定代理人の権限を証する戸籍謄本は、公務員が職務上作成した代理権限証明情報として17条の3月以内要件に含まれ、**肢オは3月以内必要のまま**です。肢ウの資格者代理人の職印に関する証明書も、本人確認情報の提供に関する不動産登記規則の規定により3月以内とされる取扱いに変更はなく、**肢ウも3月以内必要のまま**です。デジタル手続関連の改正（会社法人等番号の記録による代表者資格証明・印鑑証明書の提供省略など、令和2年3月30日以降の運用拡大）は提供を省略できる場面を広げるものにとどまり、上記の条項番号や3月以内要件そのものを動かしていません。また、令和3年法律24号による相続登記・住所等変更登記の申請義務化は権利に関する登記の制度であり、添付情報の有効期間には影響しません。**5肢すべて、結論（3月以内を要するか否か）は現行法でも変わりません。**なお、肢アの本文で3月以内要件の例示に挙げていた条文根拠を、より正確に「不動産登記令16条3項・18条3項」と補正しました（申請書への押印は16条3項、委任状への押印は18条3項が根拠です）。
 
 ---
 
@@ -79,3 +80,125 @@
 - 調査士の職印証明書は、作成後3月以内じゃなきゃダメなんです
 - 抵当権放棄証書の印鑑証明書も、3月以内はいらないって知ってた？
 - 法定代理人の戸籍謄本だけは、3月以内が必要なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric document sheets,
+red seal stamps, hourglasses and calendars, hard hats, bank buildings,
+family register booklets, torn paper labels).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+KANJI ACCURACY WARNING: this poster contains the characters 証・鑑・謄・
+権・記・戸・棄・職 . These differ noticeably from their Simplified Chinese
+counterparts (証 must NOT become 证, 鑑 must NOT become 鉴, 謄 must NOT
+become 誊, 権 must NOT become 权, 記 must NOT become 记, 戸 must NOT become
+户, 棄 must NOT become 弃, 職 must NOT become 职). Draw each one in the
+Japanese form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+添付情報の「作成後3月以内」
+
+Subtitle (smaller, centered, 1行):
+期限がかかる書面・かからない書面
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。カードは2列に分け、番号は列をまたいで1から5まで通しで振る。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: gray) ---
+3月以内は不要
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled gray circle containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line):
+表題登記の住民票
+Illustration: an isometric new house beside a document sheet tagged
+住民票の写し , which carries a second small tag reading 住所を証する情報 .
+An hourglass icon next to it is crossed out with a large red ✕.
+Conclusion tag (a short gray banner/pill directly below the illustration):
+期限の定めなし
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled gray circle containing the number 2.
+Heading (bold, ONE line):
+引渡証明書の印鑑証明書
+Illustration: a worker icon in a hard hat labeled 工事施工会社 holding two
+stacked document sheets: the upper one tagged 工事完了引渡証明書 , the lower
+one tagged 代表者の印鑑証明書 with a small red seal drawn on it. An
+hourglass icon beside the stack is crossed out with a large red ✕.
+Conclusion tag (a short gray banner/pill directly below the illustration):
+真正担保のため
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled gray circle containing the number 3.
+Heading (bold, ONE line):
+抵当権放棄証書の印鑑証明書
+Illustration: an isometric bank building labeled 抵当権者 handing over two
+stacked document sheets: the upper one tagged 抵当権放棄証書 , the lower one
+tagged 代表者の印鑑証明書 with a small red seal drawn on it. An hourglass
+icon beside the stack is crossed out with a large red ✕.
+Conclusion tag (a short gray banner/pill directly below the illustration):
+第三者作成書面
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+3月以内が必要
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line):
+調査士の職印証明書
+Illustration: an isometric figure with a badge labeled 土地家屋調査士 ,
+holding a document sheet tagged 本人確認情報 in one hand and a certificate
+card stamped with a red seal and tagged 職印の証明書 in the other. An
+hourglass icon beside them carries a small label 3月 and a green ✓.
+Conclusion tag (a short blue banner/pill directly below the illustration):
+作成後3月以内
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line):
+法定代理人の戸籍謄本
+Illustration: an isometric parent-and-child pair standing together, with a
+ribbon between them tagged 法定代理人 . The parent holds a booklet tagged
+戸籍謄本 , which carries a second small tag reading 代理権限を証する情報 .
+An hourglass icon beside them carries a small label 3月 and a green ✓.
+Conclusion tag (a short blue banner/pill directly below the illustration):
+資格は現在のもの
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```

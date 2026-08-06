@@ -70,6 +70,7 @@
 - 条文根拠については、登記識別情報に関する証明の請求権者・請求方法・証明内容（有効／未通知／失効）は不動産登記規則の関連規定（証明の請求に関する規定）に基づく説明ですが、条数の細部までは断定を避け、制度趣旨からの整理として記載しています。存在の確認が取れない条文番号は本文に記載していません。
 - ローカルのアガルート教材については、実行環境に当該フォルダが存在せず参照できなかったため、今回は反映していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（登記識別情報に関する証明の請求権者・電子申請の可否・証明内容・住所不一致時の扱い・調査士会職印証明での代理請求を組み合わせた問題）と同一・類似の問題が再出題されていないかを確認しました。令和4年度第5問も登記識別情報の証明を対話形式で扱っていますが、電子申請可否や職印証明といった個別要素は共通するものの、場面設定・肢の組合せが異なる別問題であり、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **適用法令の現行性チェック（2026-08-04実施）**：本問の根拠規定は**不動産登記令22条1項**（登記識別情報に関する証明の請求）と、その手続の細目を定める**不動産登記規則68条（登記識別情報に関する証明）**です。現行規定でも、①請求できるのは登記名義人又はその相続人その他の一般承継人に限られること（令22条1項。利害関係人は請求できません＝**肢アは誤のまま**）、②請求方法は「電子情報処理組織を使用する方法」と「書面を提出する方法」の二本立てであること（規則68条4項。ただし「通知されていないこと」「失効していること」の証明請求については書面によるものとされています。いずれにせよオンラインで一切請求できないわけではないので**肢イは誤のまま**）、③証明の内容が有効・未通知・失効の3類型であること（規則68条2項ほか。**肢ウは正のまま**）、④請求人の住所が登記記録と合致しない場合に、住所の変更を証する市町村長又は登記官の証明情報を提供して請求できること（**肢エは正のまま**）、⑤資格者代理人（土地家屋調査士・司法書士・弁護士）が代理請求する場合は、所属する会が発行した職印に関する証明書等の提供により、代理人の権限を証する情報の提供を要しないこと（平成20年1月15日からの取扱いで、現在も継続。**肢オは正のまま**）に、いずれも変更はありません。なお、令和3年法律24号による相続登記の申請義務化（法76条の2、2024年4月1日施行）および氏名・住所等の変更登記の申請義務化（法76条の5、2026年4月1日施行）は、いずれも**所有権の登記名義人**についての権利の登記に関する制度であり、登記識別情報の証明請求の要件には影響しません。**5肢すべて、結論（正誤）は現行法でも変わりません。**条数の誤りは見つからなかったため、本文の修正は行っていません（本文には従前どおり個別の条数を記載していません）。
 
 ---
 
@@ -80,3 +81,118 @@
 - 「有効・未通知・失効」の3つが証明できるんです
 - 引っ越して住所が違っても、証明は取れるんです
 - 調査士は職印証明で委任状いらず、なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry office
+counters, document sheets, PC monitors, seal stamps, name-tag labels,
+certificate cards).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+KANJI ACCURACY WARNING: this poster contains the characters 識・別・証・
+権・登・記・調・査・失・効 . These differ noticeably from their Simplified
+Chinese counterparts (証 must NOT become 证, 権 must NOT become 权, 記 must
+NOT become 记, 調 must NOT become 调, 別 must NOT become 别, 識 must NOT
+become 识, 効 must NOT become 效). Draw each one in the Japanese form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+登記識別情報に関する証明
+
+Subtitle (smaller, centered, 1行):
+誰が・どの方法で・何を証明できるか
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。カードは1列に縦に5枚並べ、バッジ色はすべて青で統一する。）
+
+--- CARD 1 ---
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line):
+請求できるのは登記名義人だけ
+Illustration: an isometric registry office counter. On the left, a person
+icon holding a name-tag label reading 登記名義人 walks up to the counter
+with a large green ✓ beside them. On the right, another person icon
+holding a name-tag label reading 利害関係人 is stopped by a barrier with a
+large red ✕ beside them.
+Conclusion tag (a short blue banner/pill directly below the illustration):
+一般承継人まで
+
+--- CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line):
+オンラインでも請求できる
+Illustration: two routes leading to the same registry office building. The
+upper route shows an isometric PC monitor with a small label 電子情報処理組織
+and a green ✓. The lower route shows a stack of paper documents with a
+small label 書面 and a green ✓.
+Conclusion tag (a short blue banner/pill directly below the illustration):
+書面とオンライン
+
+--- CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line):
+有効・未通知・失効の3類型
+Illustration: three certificate cards fanned out side by side in isometric
+view. Each card carries one label, in this exact order and with no
+duplication and no omission: (1) 有効 (2) 未通知 (3) 失効 . A small green ✓
+sits on each of the three cards.
+Conclusion tag (a short blue banner/pill directly below the illustration):
+証明は3種類
+
+--- CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line):
+住所が違っても証明は取れる
+Illustration: two small isometric houses connected by a moving-van arrow.
+The left house carries a label 登記記録の住所 , the right house a label
+現在の住所 . Between them, a document sheet with an official seal carries
+the label 市町村長の証明 . At the registry counter beyond them, a green ✓.
+Conclusion tag (a short blue banner/pill directly below the illustration):
+住所変更を証する情報
+
+--- CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line):
+調査士は職印証明で代理請求
+Illustration: an isometric figure with a professional badge labeled
+土地家屋調査士 , holding up a certificate card stamped with a red seal and
+labeled 職印の証明書 , with a green ✓ next to it. Beside them, a folded
+letter icon labeled 委任状 is crossed out with a large red ✕.
+Conclusion tag (a short blue banner/pill directly below the illustration):
+委任状は不要
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
