@@ -131,6 +131,366 @@
 
 ---
 
+## インフォグラフィック プロンプト
+
+### 画像1：代位申請の可否を判定するフローチャート
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry documents,
+diamond decision shapes, arrows, ○/✕ marks, people icons).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+flowchart poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere — go straight from the
+header to the flowchart. Every node must communicate its point almost
+entirely through a short label (a few words) and an icon (diamond for a
+decision, rounded rectangle for a result, with ○/✕/△ marks embedded where
+relevant). Do NOT render any full-sentence explanation, legal citation, or
+paragraph of body text anywhere on the poster. If a piece of information
+cannot be expressed as a short label or drawn as an icon, leave it out
+rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. This image contains many instances of
+kanji that are easily confused with Simplified Chinese variants — 号・録・
+権・地・番・建・物・登・記・所 in particular — draw each of these in its
+correct standard Japanese (Jōyō) form, not the simplified Chinese form.
+Every kanji must match standard Japanese orthography exactly as written
+below, stroke-for-stroke. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+代位できる？できない？を1本の樹形図で
+
+Subtitle (smaller, centered, 2行):
+「代位しなければ自分の権利が実現・保全されないか」
+から考える
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト
+・導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+Draw a top-to-bottom decision tree. Each decision node is a pastel-blue
+diamond shape with a short question inside. Each result node is a rounded
+rectangle with a large ○ (green, "できる"), ✕ (red/gray, "できない"), or
+△ (gray, "不要") icon plus a short label and 1-2 short example tags below
+it. Arrows connect nodes and are labeled "はい" or "いいえ" at each branch.
+Number every node.
+
+Node 1 (start, rounded rectangle, top of chart):
+他人に代わって登記を申請したい
+
+Node 2 (diamond, decision):
+代位しなければ、自分の権利（登記請求権・登記申請権）が
+実現・保全されないか？
+- Arrow labeled "いいえ" → Node 3
+- Arrow labeled "はい" → Node 4
+
+Node 3 (result, ✕ icon, red/gray):
+代位できない
+例：合筆前提の代位／地役権者の承役地分筆代位
+
+Node 4 (diamond, decision):
+単独申請や登記官の職権処理だけで足りるか？
+- Arrow labeled "はい" → Node 5
+- Arrow labeled "いいえ" → Node 6
+
+Node 5 (result, △ icon, gray):
+代位は不要
+例：共有者の保存行為（地目・床面積変更）／一棟表題部更正の職権反映
+
+Node 6 (diamond, decision):
+民法423条・423条の7の要件や個別の授権規定を満たすか？
+- Arrow labeled "はい" → Node 7
+- Arrow labeled "いいえ" → Node 8
+
+Node 7 (result, ○ icon, green):
+代位できる
+例：買主が売主の表題登記に代位／確定判決を得た共有者の分筆代位／
+河川管理者の分筆嘱託（43条4項）
+
+Node 8 (result, ✕ icon, red/gray):
+代位できない
+例：転借人が賃貸人に直接代位（直接の権利義務関係なし）
+
+--- FOOTER ---
+
+Enumeration check (place this short sentence just before the final check,
+not before the header): the flowchart has exactly 8 nodes — 1 start node,
+3 decision diamonds, and 4 result nodes — with every "はい"/"いいえ"
+branch label present; do not duplicate, omit, or reorder any node, and do
+not paraphrase any node text or example tag.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the flowchart has exactly 8 nodes with no
+duplicated or missing nodes and every branch correctly labeled "はい" or
+"いいえ", confirm there is no intro illustration or paragraph block
+between the header and the flowchart, and confirm that no node contains a
+full sentence of explanatory prose.
+```
+
+### 画像2：代位できる場合・できない場合の早見表（1/2）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (small isometric icons: registry
+document, people, court gavel — used sparingly beside the table, not
+inside table cells).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere — go straight from the header to the
+table. Every table cell must be a short label, never a paragraph. If a
+piece of information cannot be expressed as a short label, leave it out
+rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. This table contains many instances of
+kanji that are easily confused with Simplified Chinese variants — 号・録・
+権・地・番・建・物・登・記・所 in particular — draw each of these in its
+correct standard Japanese (Jōyō) form, not the simplified Chinese form.
+Every kanji must match standard Japanese orthography exactly as written
+below, stroke-for-stroke. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 1行, must literally include "(1/2)"):
+代位できる場合・できない場合の早見表 (1/2)
+
+Subtitle (smaller, centered, 1行):
+場面ごとに可否と理由を確認する
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文のブロ
+ックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(pale green for "できる" rows, pale beige otherwise), Japanese sans-serif
+font, no monospace font. In the "可否" column, render "できる" as a green
+pill with a ○ mark.
+
+Header row (3 columns, verbatim):
+場面 | 可否 | 理由
+
+Data rows (exactly 7 rows — rows 1 through 7 of the full 13-row table,
+verbatim, do not paraphrase, do not reorder, do not omit, do not
+duplicate):
+1. 買主が、表題登記をしない売主に代位して表題登記を申請する | できる | 登記請求権保全のための代位（民法423条の7）
+2. 区分建物の転得者が、表題登記をしない原始取得者に代位して表題登記を申請する | できる | 転得者には申請義務がなく、原始取得者への代位による
+3. 附属建物のみの買主が、分割登記をしない売主に代位して建物の分割登記を申請する | できる | 所有権移転登記請求権の保全に必要
+4. 共有物分割の確定判決・裁判上の和解を得た共有者が、非協力の共有者に代位して分筆登記を申請する | できる | 確定判決・和解調書を代位原因証明情報として提供
+5. 遺産分割調停成立後、相続人の一人が他の相続人に代位して分筆登記を申請する | できる | 調停調書正本を代位原因証明情報として提供
+6. 処分禁止の仮処分を得た債権者が、所有者に代位して分筆登記を申請する（仮処分登記の前提） | できる | 仮処分命令正本を代位原因証明情報として提供
+7. 河川管理者が、土地所有者等に代わって分筆登記を嘱託する | できる | 不動産登記法43条4項の明文の授権
+
+--- FOOTER ---
+
+Enumeration check (place this short sentence just before the final check,
+not before the header): the table has exactly 7 data rows plus 1 header
+row — this is part 1 of 2, do not duplicate, omit, or reorder any row,
+and reproduce each cell string verbatim without paraphrasing.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 7 data rows, with no
+duplicated or missing rows, confirm the title displays "(1/2)", confirm
+there is no intro illustration or paragraph block between the header and
+the table, and confirm that no table cell contains a full sentence of
+explanatory prose.
+```
+
+### 画像3：代位できる場合・できない場合の早見表（2/2）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1400 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (small isometric icons: registry
+document, people, condominium — used sparingly beside the table, not
+inside table cells).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere — go straight from the header to the
+table. Every table cell must be a short label, never a paragraph. If a
+piece of information cannot be expressed as a short label, leave it out
+rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. This table contains many instances of
+kanji that are easily confused with Simplified Chinese variants — 号・録・
+権・地・番・建・物・登・記・所 in particular — draw each of these in its
+correct standard Japanese (Jōyō) form, not the simplified Chinese form.
+Every kanji must match standard Japanese orthography exactly as written
+below, stroke-for-stroke. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 1行, must literally include "(2/2)"):
+代位できる場合・できない場合の早見表 (2/2)
+
+Subtitle (smaller, centered, 1行):
+場面ごとに可否と理由を確認する
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文のブロ
+ックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating pale-beige/white row
+background colors, Japanese sans-serif font, no monospace font. In the
+"可否" column, render "できる" as a green pill with a ○ mark, and render
+"できない" / "できない（不要）" / "できない（原則）" as a gray pill with
+a ✕ mark (row 8 is "できる"; rows 9-13 are "できない" — color each row's
+pill according to its own value, do not assume every row is the same).
+
+Header row (3 columns, verbatim):
+場面 | 可否 | 理由
+
+Data rows (exactly 6 rows — rows 8 through 13 of the full 13-row table,
+verbatim, do not paraphrase, do not reorder, do not omit, do not
+duplicate; row numbers below continue from image (1/2) and must be kept
+as shown):
+8. 受益者・委託者が、受託者に代わって信託の登記を申請する | できる | 不動産登記法99条の明文の授権
+9. 地役権者が、承役地の所有者に代位して分筆登記を申請する | できない | 地役権は土地の一部にも設定でき、分筆を要しない
+10. 合筆後の売却を前提に、買主が売主に代位して合筆登記を申請する | できない | 合筆をしなくても所有権移転登記請求権は保全される
+11. 共有者の一人が、保存行為として自ら単独申請できる登記（地目変更・床面積変更等）について他の共有者に代位する | できない（不要） | 代位を持ち出すまでもなく単独申請できる
+12. 一棟の表題部の更正登記について、他の区分建物の所有者に代位して申請する | できない | 職権で他の区分建物にも更正の効力が及ぶため
+13. 転借人が、賃貸人（所有者）に直接代位して分筆登記を申請する | できない（原則） | 転借人と所有者の間に直接の権利義務関係がない
+
+--- FOOTER ---
+
+Enumeration check (place this short sentence just before the final check,
+not before the header): the table has exactly 6 data rows (numbered 8-13)
+plus 1 header row — this is part 2 of 2, do not duplicate, omit, or
+reorder any row, and reproduce each cell string verbatim without
+paraphrasing.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 6 data rows numbered
+8-13, with no duplicated or missing rows, confirm the title displays
+"(2/2)", confirm there is no intro illustration or paragraph block between
+the header and the table, and confirm that no table cell contains a full
+sentence of explanatory prose.
+```
+
+### 画像4：代位による登記の登録免許税を判定するフローチャート
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry documents,
+diamond decision shapes, coin/tax stamp icons, arrows, ○/✕ marks).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+flowchart poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere — go straight from the
+header to the flowchart. Every node must communicate its point almost
+entirely through a short label (a few words) and an icon (diamond for a
+decision, rounded rectangle for a result, with ○/✕ marks embedded where
+relevant). Do NOT render any full-sentence explanation, legal citation, or
+paragraph of body text anywhere on the poster. If a piece of information
+cannot be expressed as a short label or drawn as an icon, leave it out
+rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. This image contains many instances of
+kanji that are easily confused with Simplified Chinese variants — 号・録・
+権・地・番・建・物・登・記・所 in particular — draw each of these in its
+correct standard Japanese (Jōyō) form, not the simplified Chinese form.
+Every kanji must match standard Japanese orthography exactly as written
+below, stroke-for-stroke. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「代位だから非課税」は早合点
+
+Subtitle (smaller, centered, 1行):
+登録免許税がかかるかどうかの判定フロー
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト
+・導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+Draw a top-to-bottom decision tree. Each decision node is a pastel-blue
+diamond shape with a short question inside. Each result node is a rounded
+rectangle with a large ○ (green, 非課税) or a neutral coin icon (gray,
+課税 or 課税対象外) plus a short label and short example tags below it.
+Arrows connect nodes and are labeled "はい" or "いいえ" at each branch.
+Number every node.
+
+Node 1 (start, rounded rectangle, top of chart):
+代位で登記を申請・嘱託した
+
+Node 2 (diamond, decision):
+その登記は登録免許税法別表第一に掲げられているか？
+- Arrow labeled "いいえ" → Node 3
+- Arrow labeled "はい" → Node 4
+
+Node 3 (result, gray, coin icon with a small ✕):
+そもそも課税対象外
+例：表題登記そのもの／地目又は地積の変更・更正の登記／滅失の登記
+
+Node 4 (diamond, decision):
+代位者は国または別表第二に掲げる者（地方公共団体等）か？
+- Arrow labeled "はい" → Node 5
+- Arrow labeled "いいえ" → Node 6
+
+Node 5 (result, ○ icon, green):
+登録免許税法5条1号により非課税
+
+Node 6 (result, gray, coin icon):
+通常どおり課税
+（代位という理由だけでは非課税にならない）
+
+--- FOOTER ---
+
+Enumeration check (place this short sentence just before the final check,
+not before the header): the flowchart has exactly 6 nodes — 1 start node,
+2 decision diamonds, and 3 result nodes — with every "はい"/"いいえ"
+branch label present; do not duplicate, omit, or reorder any node, and do
+not paraphrase any node text or example tag.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the flowchart has exactly 6 nodes with no
+duplicated or missing nodes and every branch correctly labeled "はい" or
+"いいえ", confirm there is no intro illustration or paragraph block
+between the header and the flowchart, and confirm that no node contains a
+full sentence of explanatory prose.
+```
+
+---
+
 ## 対象とした過去問記事
 
 - [平成17年度 第6問〜和解が成立したら、代位して分筆できるんです〜](../h17-mondai/q06-bunpitsu-shinsei.md)

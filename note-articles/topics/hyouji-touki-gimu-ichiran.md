@@ -103,6 +103,441 @@
 
 ---
 
+## インフォグラフィック プロンプト
+
+### 画像1：義務がある登記と義務がない登記の対比表
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2400 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, registry stamps, torn paper labels, arrows, etc. — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the two columns. Every card must communicate its point almost entirely
+through the illustration (icons, arrows, small embedded labels) plus one
+short heading and one short conclusion tag. Do NOT render any full-sentence
+explanation, legal citation, or paragraph of body text anywhere on the
+poster. If a piece of information cannot be expressed as a short label (a
+few words) or drawn as an icon, leave it out rather than writing it as
+prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. This image contains many instances of
+kanji that are easily confused with Simplified Chinese variants — 号・録・
+権・地・番・建・物・登・記・所 in particular — draw each of these in its
+correct standard Japanese (Jōyō) form, not the simplified Chinese form.
+Every kanji must match standard Japanese orthography exactly as written
+below, stroke-for-stroke. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表示に関する登記、申請義務の有無
+
+Subtitle (smaller, centered, 1行):
+「ある」登記と「ない」登記を一覧で対比する
+
+（タイトル・サブタイトルのすぐ下に左右2列のカード群を続ける。導入イラス
+ト・導入文のブロックは置かない。）
+
+--- LEFT COLUMN HEADER (pill-shaped badge, color: green) ---
+義務がある登記（1か月以内）
+
+--- LEFT COLUMN, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+所有権取得で表題登記
+Illustration: an isometric icon of a newly built house with a small
+speech-bubble arrow reading "取得の日から1か月", plus a small torn-paper
+label reading "36条・47条" tucked in the corner.
+Conclusion tag (a short green banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+取得の日から1か月
+
+--- LEFT COLUMN, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line):
+地目・地積が変わったら変更登記
+Illustration: an isometric icon of a bare field morphing (arrow) into a
+residential land-plot icon, with a small torn-paper label reading "37条"
+in the corner.
+Conclusion tag (green pill):
+変更の日から1か月
+
+--- LEFT COLUMN, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line):
+滅失したら滅失登記
+Illustration: an isometric icon of a cracked/collapsed building with a
+large ✕ mark, small torn-paper label reading "42条・57条".
+Conclusion tag (green pill):
+滅失の日から1か月
+
+--- LEFT COLUMN, CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line):
+建物が合体したら合体登記
+Illustration: an isometric icon of two separate building icons merging
+via an arrow into one building icon, small torn-paper label reading "49条".
+Conclusion tag (green pill):
+合体の日から1か月
+
+--- LEFT COLUMN, CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line):
+表題部の記載が変わったら変更登記
+Illustration: an isometric icon of a building registry document with a
+pencil icon writing on it, small torn-paper label reading "51条".
+Conclusion tag (green pill):
+変更の日から1か月
+
+--- LEFT COLUMN, CARD 6 ---
+Badge: a filled green circle containing the number 6.
+Heading (bold, ONE line):
+規約廃止後は表題登記
+Illustration: an isometric icon of a torn/discarded rulebook document next
+to a building icon, small torn-paper label reading "58条6項・7項".
+Conclusion tag (green pill):
+廃止の日から1か月
+
+--- RIGHT COLUMN HEADER (pill-shaped badge, color: gray) ---
+義務がない登記（期限の定めなし）
+
+--- RIGHT COLUMN, CARD 7 ---
+Badge: a filled gray circle containing the number 7 (numbers run
+continuously across both columns — do not restart at 1 in the right
+column).
+Heading (bold, ONE line):
+誤りを直す更正登記
+Illustration: an isometric icon of a registry document with a red
+correction-pen mark fixing an error, small torn-paper label reading
+"38条・53条".
+Conclusion tag (gray pill, 5-15 Japanese characters):
+期限の定めなし
+
+--- RIGHT COLUMN, CARD 8 ---
+Badge: a filled gray circle containing the number 8.
+Heading (bold, ONE line):
+分筆・合筆は任意
+Illustration: an isometric icon of a land plot splitting into two /
+merging into one, small torn-paper label reading "39条".
+Conclusion tag (gray pill):
+期限の定めなし
+
+--- RIGHT COLUMN, CARD 9 ---
+Badge: a filled gray circle containing the number 9.
+Heading (bold, ONE line):
+氏名・住所の変更更正登記
+Illustration: an isometric icon of a name-tag label on a registry document
+being rewritten, small torn-paper label reading "31条".
+Conclusion tag (gray pill):
+期限の定めなし
+
+--- RIGHT COLUMN, CARD 10 ---
+Badge: a filled gray circle containing the number 10.
+Heading (bold, ONE line):
+共用部分の規約設定登記
+Illustration: an isometric icon of a condominium common-area icon next to
+a rulebook document icon, small torn-paper label reading "58条".
+Conclusion tag (gray pill):
+任意の申請
+
+--- RIGHT COLUMN, CARD 11 ---
+Badge: a filled gray circle containing the number 11.
+Heading (bold, ONE line):
+行政区画変更は職権処理
+Illustration: an isometric icon of a town-name signboard being rewritten,
+with a small "登記官" name-tag label attached, small torn-paper label
+reading "規則92条".
+Conclusion tag (gray pill):
+申請不要・職権
+
+--- FOOTER ---
+
+Enumeration check (place this short sentence just before the final check,
+not before the header): the left column (green) has exactly 6 cards
+numbered 1-6, and the right column (gray) has exactly 5 cards numbered
+7-11, for 11 cards total — do not duplicate, omit, or reorder any card,
+and do not paraphrase any heading or conclusion tag text.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the left column has exactly 6 cards and the
+right column has exactly 5 cards (11 total), with no duplicated or missing
+cards, confirm there is no intro illustration or paragraph block between
+the header and the columns, and confirm that no card contains a full
+sentence of explanatory prose — every card's takeaway must read as a
+short heading + a short conclusion tag, at a glance.
+```
+
+### 画像2：主要な登記6種類の起算点の早見表
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (small isometric icons: calendar,
+registry document, land plot, building — used sparingly beside the table,
+not inside table cells).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere — go straight from the header to the
+table. Every table cell must be a short label (a few words), never a full
+sentence or a paragraph. If a piece of information cannot be expressed as
+a short label, leave it out rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. This table contains many instances of
+kanji that are easily confused with Simplified Chinese variants — 号・録・
+権・地・番・建・物・登・記・所 in particular — draw each of these in its
+correct standard Japanese (Jōyō) form, not the simplified Chinese form.
+Every kanji must match standard Japanese orthography exactly as written
+below, stroke-for-stroke. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+いつから1か月を数えるか
+
+Subtitle (smaller, centered, 1行):
+主要な登記6種類の起算点
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文のブロ
+ックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(pale green / pale beige), Japanese sans-serif font, no monospace font.
+Header row background: solid green with white text.
+
+Header row (3 columns, verbatim):
+登記 | 起算点 | 根拠条文
+
+Data rows (exactly 6 rows, verbatim, do not paraphrase, do not reorder,
+do not omit, do not duplicate):
+1. 土地の表題登記 | 所有権を取得した日 | 不登法36条
+2. 地目又は地積の変更登記 | 地目・地積に変更があった日 | 不登法37条1項
+3. 土地の滅失登記 | 滅失の日 | 不登法42条
+4. 建物の表題登記 | 所有権を取得した日 | 不登法47条1項
+5. 合体による登記等 | 合体の日 | 不登法49条1項
+6. 建物の表題部の変更登記 | 登記事項に変更があった日 | 不登法51条1項
+
+--- FOOTER ---
+
+Enumeration check (place this short sentence just before the final check,
+not before the header): the table has exactly 6 data rows plus 1 header
+row — do not duplicate, omit, or reorder any row, and reproduce each cell
+string verbatim without paraphrasing.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 6 data rows, with no
+duplicated or missing rows, confirm there is no intro illustration or
+paragraph block between the header and the table, and confirm that no
+table cell contains a full sentence of explanatory prose.
+```
+
+### 画像3：「変更」は義務あり、「更正」は義務なしの対比
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots,
+buildings, registry documents, correction pens, arrows, etc.).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the two columns. Every card must communicate its point almost entirely
+through the illustration (icons, arrows, small embedded labels) plus one
+short heading and one short conclusion tag. Do NOT render any full-sentence
+explanation, legal citation, or paragraph of body text anywhere on the
+poster. If a piece of information cannot be expressed as a short label (a
+few words) or drawn as an icon, leave it out rather than writing it as
+prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. This image contains many instances of
+kanji that are easily confused with Simplified Chinese variants — 号・録・
+権・地・番・建・物・登・記・所 in particular — draw each of these in its
+correct standard Japanese (Jōyō) form, not the simplified Chinese form.
+Every kanji must match standard Japanese orthography exactly as written
+below, stroke-for-stroke. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+同じ「直す」でも、扱いが違う
+
+Subtitle (smaller, centered, 1行):
+「変更」と「更正」、義務の有無を分ける軸
+
+（タイトル・サブタイトルのすぐ下に左右2列のカード群を続ける。導入イラス
+ト・導入文のブロックは置かない。）
+
+--- LEFT COLUMN HEADER (pill-shaped badge, color: green) ---
+変更（後発的な変動）
+
+--- LEFT COLUMN, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+雑種地に建物を建てて宅地に
+Illustration: an isometric icon of a bare vacant-land plot with an arrow
+turning into a land plot with a house on it, small torn-paper label
+reading "37条".
+Conclusion tag (green pill):
+1か月以内に義務
+
+--- LEFT COLUMN, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line):
+増築で床面積が変わった
+Illustration: an isometric icon of a building with a new extension being
+added via an arrow, small torn-paper label reading "51条".
+Conclusion tag (green pill):
+1か月以内に義務
+
+--- RIGHT COLUMN HEADER (pill-shaped badge, color: gray) ---
+更正（登記時点の誤り）
+
+--- RIGHT COLUMN, CARD 3 ---
+Badge: a filled gray circle containing the number 3 (numbers run
+continuously across both columns — do not restart at 1 in the right
+column).
+Heading (bold, ONE line):
+測量ミスで地積が違っていた
+Illustration: an isometric icon of a registry document showing a number
+that was wrong from the very start, with a red correction-pen mark, small
+torn-paper label reading "38条".
+Conclusion tag (gray pill):
+期限の定めなし
+
+--- RIGHT COLUMN, CARD 4 ---
+Badge: a filled gray circle containing the number 4.
+Heading (bold, ONE line):
+表題部所有者の記録に誤り
+Illustration: an isometric icon of a registry document with a
+mistakenly-written name label being corrected by a red pen, small
+torn-paper label reading "53条".
+Conclusion tag (gray pill):
+期限の定めなし
+
+--- FOOTER ---
+
+Enumeration check (place this short sentence just before the final check,
+not before the header): the left column (green, 変更) has exactly 2 cards
+numbered 1-2, and the right column (gray, 更正) has exactly 2 cards
+numbered 3-4, for 4 cards total — do not duplicate, omit, or reorder any
+card, and do not paraphrase any heading or conclusion tag text.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the left column has exactly 2 cards and the
+right column has exactly 2 cards (4 total), with no duplicated or missing
+cards, confirm there is no intro illustration or paragraph block between
+the header and the columns, and confirm that no card contains a full
+sentence of explanatory prose.
+```
+
+### 画像4：起算点が特殊な8つのケースの早見表
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (small isometric icons: calendar,
+registry document, signboard, gavel — used sparingly beside the table, not
+inside table cells).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere — go straight from the header to the
+table. Every table cell must be a short label (a few words), never a full
+sentence or a paragraph. If a piece of information cannot be expressed as
+a short label, leave it out rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. This table contains many instances of
+kanji that are easily confused with Simplified Chinese variants — 号・録・
+権・地・番・建・物・登・記・所 in particular — draw each of these in its
+correct standard Japanese (Jōyō) form, not the simplified Chinese form.
+Every kanji must match standard Japanese orthography exactly as written
+below, stroke-for-stroke. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+起算点のひっかけどころ
+
+Subtitle (smaller, centered, 1行):
+特殊な8つのケースを一気に確認する
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文のブロ
+ックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(pale green / pale beige), Japanese sans-serif font, no monospace font.
+Header row background: solid green with white text.
+
+Header row (3 columns, verbatim):
+特殊なケース | 起算点 | 根拠
+
+Data rows (exactly 8 rows, verbatim, do not paraphrase, do not reorder,
+do not omit, do not duplicate):
+1. 相続を重ねて未登記のまま相続 | 承継人が所有者になった時点（義務ごと承継） | 不登法47条1項
+2. 地目変更後に所有権が移転 | 新所有者が登記名義を取得した日 | 不登法37条2項
+3. 増築後に共用部分の登記 | 増築工事が完了した日 | 不登法51条1項
+4. 分筆で建物の所在地番が変更 | 地番変更の日 | 不登法51条1項
+5. 行政区画・字の名称の変更 | 起算点なし（職権処理・申請不要） | 不動産登記規則92条
+6. 未登記建物どうしの合体 | 合体の日（取得者は取得・登記の日） | 不登法49条2項〜4項
+7. 規約敷地の追加 | 敷地となった日（規約設定の日） | 不登法51条1項
+8. 共用部分の規約廃止 | 廃止の日（廃止後の取得者は取得の日） | 不登法58条6項・7項
+
+--- FOOTER ---
+
+Enumeration check (place this short sentence just before the final check,
+not before the header): the table has exactly 8 data rows plus 1 header
+row — do not duplicate, omit, or reorder any row, and reproduce each cell
+string verbatim without paraphrasing.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 8 data rows, with no
+duplicated or missing rows, confirm there is no intro illustration or
+paragraph block between the header and the table, and confirm that no
+table cell contains a full sentence of explanatory prose.
+```
+
+---
+
 ## 参照した過去問
 
 - [H23第16問 表示に関する登記の申請義務](../h23-mondai/q16-hyouji-touki-gimu.md)
