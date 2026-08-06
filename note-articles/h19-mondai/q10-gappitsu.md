@@ -22,7 +22,7 @@
 
 不動産登記法41条6号は、所有権の登記以外の権利に関する登記がある土地の合筆を原則として禁止しています。ただし、不動産登記規則105条はこの例外を4つに限定して認めており、その1号が「承役地についてする地役権の登記」です。つまり、合筆の制限が解除されるのは、地役権の負担を受ける側の土地(承役地)についての登記がある場合に限られます。
 
-設問アは、甲地及び乙地が「丙地を承役地とする地役権」の登記がある土地、すなわち丙地の通行等のために地役権の利益を受ける側(要役地)にあたります。規則105条1号の例外はあくまで「承役地についてする」登記に限定されているため、要役地である甲地・乙地にはこの例外は及びません。設問が付け加えている「登記の目的、受付の年月日等が同一であるとき」という条件は、担保権の登記(2号)などに関する要件であって、地役権の例外(1号)にそもそも要求されていない条件です。したがって、甲地・乙地は41条6号の原則どおり合筆できず、アは誤りです。
+設問アは、甲地及び乙地が「丙地を承役地とする地役権」の登記がある土地、すなわち丙地の通行等のために地役権の利益を受ける側(要役地)にあたります。規則105条1号の例外はあくまで「承役地についてする」登記に限定されているため、要役地である甲地・乙地にはこの例外は及びません。設問が付け加えている「登記の目的、受付の年月日等が同一であるとき」という条件は、担保権の登記(2号)などに関する要件であって、地役権の例外(1号)にそもそも要求されていない条件です。実際、不動産登記規則80条4項・159条1項・5項により、承役地に地役権の設定登記がされると、要役地側の登記記録の「乙区」(権利部)にも地役権に関する事項が職権で登記されるため、要役地である甲地・乙地にも「所有権の登記以外の権利に関する登記」が存在することになります。したがって、甲地・乙地は41条6号の原則どおり合筆できず、アは誤りです。
 
 **たとえば**、Aさんの持つ甲地・乙地が、隣接するBさん所有の丙地を通行するための地役権の要役地になっているとします。この場合、甲地・乙地の登記記録にも「丙地を承役地とする地役権がある」という情報が記載されますが、これは要役地側の登記です。合筆の例外が認められるのは地役権の負担を受ける承役地側だけなので、甲地・乙地をどれだけ条件をそろえても、要役地である限り合筆はできません。
 
@@ -76,8 +76,13 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号(平成19年度午前の部第10問、正解3番＝イ・ウ)は、法務省公表の試験問題原本の書き起こしに基づいています。
-- 条文レベルで確認できた根拠：不動産登記法41条が、合筆を禁止する場合を(相互に接続していない土地/地目・地番区域が相互に異なる土地/表題部所有者又は所有権登記名義人が相互に異なる土地/表題部所有者又は所有権登記名義人の持分が相互に異なる土地/所有権登記の有無が相互に異なる土地/所有権の登記以外の権利に関する登記がある土地)の6号にわたって列挙していること、および不動産登記規則105条がその6号の例外として(承役地についてする地役権の登記/登記事項が同一の担保権の登記/登記事項が同一の信託の登記/登録番号が同一の鉱害賠償登録に関する登記)の4つを限定的に定めていることは、複数の独立した専門家(司法書士・土地家屋調査士)の解説サイトで内容が一致することを確認したうえで記載しています。なお、このセッションでは平成19年度第1問の記事作成時と同様、ネットワーク環境の制約でe-Gov法令検索(laws.e-gov.go.jp)への直接アクセスがブロックされており、条文原文ページを直接開いての一字一句の確認はできませんでした。この点は正直に申し添えます。
-- 一般原則からの推論にとどまる部分：アにおける「規則105条1号の例外は承役地側にのみ適用され、要役地側には及ばない」という結論、およびオにおける「消滅承諾書の添付だけでは規則105条の例外に当たらず、先に抹消登記を済ませる必要がある」という結論は、いずれも複数の専門家サイトの解説が一致して同じ結論を述べていることを確認したものですが、規則105条の条文原文そのものを直接確認できていないため、条文の文言解釈を一次資料で突き合わせた確認ではなく、専門家解説の一致に基づく確認にとどまります。ウにおける「抵当権の仮登記も規則105条2号の担保権の登記に含まれる」という点も、同様に専門家解説の一致に基づく確認です。
+- 条文レベルで確認できた根拠：今回のセッションでは、リポジトリ内`note-articles/laws/`に保存された不動産登記法・不動産登記規則の全文原文(e-Gov法令APIから2026-08-04取得の現行版)を直接参照し、以下をすべて条文の文言そのもので突き合わせて確認しました(前回の平成19年度第1問作成時のようなe-Gov直接アクセスのブロックはなく、一次資料の原文で確認できています)。
+  - 不動産登記法41条6号「所有権の登記以外の権利に関する登記がある土地(...)の合筆の登記」の文言、および不動産登記規則105条(合筆の登記の制限の特例)が同条6号の例外として1号(承役地についてする地役権の登記)・2号(登記事項が同一の担保権の登記)・3号(登記事項が同一の信託の登記)・4号(登録番号が同一の鉱害賠償登録に関する登記)の4つを限定列挙している文言は、記事の記載と一致しています。
+  - ア(地役権)について：不動産登記規則80条4項・159条1項・5項により、承役地に地役権の設定登記がされると、要役地側の登記記録の「乙区」(権利部)にも地役権に関する事項が職権で登記されることが条文上確認できました。要役地である甲地・乙地にも「所有権の登記以外の権利に関する登記」が存在することになるため、規則105条1号の例外が「承役地についてする」ものに限定されている以上、要役地側の甲地・乙地は合筆できないという記事の結論は、条文の突き合わせによって裏付けられました。
+  - イ(鉱害賠償登録)について：規則105条4号の条文そのものが「鉱害賠償登録令第26条に規定する鉱害賠償登録に関する登記であって、鉱害賠償登録規則第2条に規定する登録番号が同一のもの」という文言であり、鉱害賠償登録に関する登記が41条6号にいう「登記」に該当し、登録番号が同一であれば合筆できることは条文上明確に確認できました。
+  - ウ(抵当権の仮登記)について：規則105条2号は「担保権の登記であって、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一のもの」とのみ定めており、本登記と仮登記を区別する文言はないことを確認しました。
+- 一般原則からの推論にとどまる部分：ウにおける「抵当権の仮登記も規則105条2号の『担保権の登記』に含まれる」という点は、条文の文言上、仮登記を除外する記載がないことは確認できたものの、仮登記を明示的に含むと定めた条文までは今回参照した法令原文の範囲では見当たらず、複数の専門家解説サイトの一致する見解に基づく確認にとどまります。オにおける「消滅承諾書の添付だけでは規則105条の例外に当たらず、先に抹消登記を済ませる必要がある」という結論も、規則105条が消滅承諾書による例外を定めていないことは条文上確認できましたが、「先に抹消登記を済ませる必要がある」という実務上の帰結自体は条文に明記された文言ではなく、専門家解説の一致に基づく確認です。
+- 現行法との整合性：今回確認した不動産登記法41条・不動産登記規則105条の条文番号・内容は、2026年8月時点の現行法でも平成19年出題当時の解説内容と相違なく、条番号のズレや規律の変更は確認されませんでした。したがって公式正解(3番＝イ・ウ)は現行法の下でも変わりません。
 
 ---
 
@@ -88,3 +93,138 @@
 - 抵当権の仮登記でも、条件がそろえば合筆できるんです
 - 相続しても、登記を先にしないと合筆できないんです
 - 承諾書だけじゃ、合筆はできないんです
+
+---
+
+## 問題全体のインフォグラフィック生成プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, registry
+ledger books, official stamps, torn paper labels, checkmark/cross badges,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+土地の合筆、できる場合・できない場合
+
+Subtitle (smaller, centered, 1行):
+平成19年度 午前の部 第10問
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in teal green containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+要役地の地役権は例外の対象外
+Illustration: Two adjacent isometric land plots labeled 甲地 and 乙地, each
+with a small open ledger-book icon on top showing 乙区 and a tag
+「要役地」. A dashed arrow connects them to a third, separate land plot
+labeled 丙地(承役地) off to the side, which has its own checkmark badge
+（丙地側は例外OKという対比が伝わるよう、丙地には小さな✓を添える）。
+甲地と乙地を合体させようとする太い矢印の上に大きな✕マークを重ね、矢印の
+近くに小さな札で「承役地のみ例外」と入れる。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+teal green, 5-15 Japanese characters):
+承役地限定の例外
+
+--- CARD 2 ---
+Badge: a filled circle in teal green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+登録番号が同じなら合筆できる
+Illustration: Two isometric land plots labeled 甲地 and 乙地, each stamped
+with an identical official stamp icon labeled 「鉱害賠償登録」and a small
+tag「登録番号 同一」. A bold arrow merges the two plots into one, with a
+large green checkmark badge over the merge point.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+teal green, 5-15 Japanese characters):
+登録番号一致で合筆可
+
+--- CARD 3 ---
+Badge: a filled circle in teal green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+仮登記でも条件同一なら合筆できる
+Illustration: Two isometric land plots labeled 甲地 and 乙地, each with a
+document icon stamped 「抵当権 仮登記」and small tags listing
+「受付年月日・受付番号」「登記原因・日付」with a checkmark next to each
+tag showing they match. A bold arrow merges the two plots into one, with a
+large green checkmark badge over the merge point.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+teal green, 5-15 Japanese characters):
+登記事項同一なら合筆可
+
+--- CARD 4 ---
+Badge: a filled circle in teal green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+相続しても移転登記が先に必要
+Illustration: Two isometric land plots side by side: 甲地 labeled with a
+name tag「名義人 A」and 乙地 labeled with a name tag「名義人 B（父）」. A
+thin arrow labeled 「相続」 points from B to A, but a large ✕ mark sits
+over an arrow trying to merge the two plots as-is. Below, a second small
+scene shows 乙地 with an updated name tag「名義人 A（相続登記後）」and a
+green checkmark over a merge arrow, showing the correct order.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+teal green, 5-15 Japanese characters):
+移転登記が先
+
+--- CARD 5 ---
+Badge: a filled circle in teal green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+承諾書だけでは合筆できない
+Illustration: Two isometric land plots labeled 甲地 and 乙地, each with a
+different bank stamp icon（甲地は「X銀行 抵当権」、乙地は「Y銀行 抵当権」）
+and a small paper icon labeled「消滅承諾書」attached. A large ✕ mark sits
+over an arrow trying to merge the two plots directly. Below, a second small
+scene shows both stamp icons crossed out with a label「抹消登記 済」and a
+green checkmark over a merge arrow, showing the correct order.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+teal green, 5-15 Japanese characters):
+抹消登記が先
+
+--- FOOTER ---
+
+Card text checklist (reproduce every string exactly as given, verbatim, no
+paraphrasing, no duplicates, no omissions — 5 cards total):
+1. 要役地の地役権は例外の対象外 ／ 承役地限定の例外
+2. 登録番号が同じなら合筆できる ／ 登録番号一致で合筆可
+3. 仮登記でも条件同一なら合筆できる ／ 登記事項同一なら合筆可
+4. 相続しても移転登記が先に必要 ／ 移転登記が先
+5. 承諾書だけでは合筆できない ／ 抹消登記が先
+
+Kanji caution: characters such as 号・録・権・地・番・建・物・登・記・所
+have Simplified Chinese variants that look similar but are NOT correct in
+Japanese text — do not render 权 for 権, 记 for 記, or any other simplified
+form. Every one of these characters must be drawn in standard Japanese
+(Jōyō) form.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
