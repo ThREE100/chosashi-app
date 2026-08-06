@@ -69,6 +69,7 @@
 - 各肢の法的根拠については、いずれも条文番号や先例番号をピンポイントで特定できたものではなく、地図訂正の申出の保存行為的性格・登記官の職権による訂正権限・添付情報の省略に関する一般原則および実務上の取り扱いからの整理にとどまります。個別の条文・先例番号を断定していない点にご留意ください。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和7年度第4問「地図の訂正」（本シリーズで既に note-articles/r7-mondai/q04-chizu-teisei.md として執筆済み）が、本問と特に強く重複するテーマであることを確認しました。両問とも「地図に表示された土地の位置・区画に誤りがある場合に、所有権の登記名義人が二人であるときはそのうちの一人から地図訂正の申出をすることができる」という論点、および「登記官が申出なしに職権で地図訂正をすることができるか」という論点を共通して扱っています。令和7年度第4問の記事が既に公開されている場合、本記事とほぼ同じ論点を重ねて発信することになるため、note投稿の際は、両記事を見比べて論点の重複に触れる形にするか、公開の間隔を空けるなどの配慮を検討してください。
+- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法14条（地図）、同条5項（登記官の職権訂正）の現行条文を確認しましたが、直近の民法・不動産登記法改正による変更はありません。
 
 ---
 
@@ -79,3 +80,114 @@
 - 当事者の合意だけじゃ、地番は付け替えられないんです
 - 登記官って、申出がなくても職権で直せるんです
 - 地積測量図で確認できるなら、別の証明はいらないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地図訂正に関する5つの独立した個別ルール（申出権者・義務の有無・地番付替えの可否・職権訂正・添付情報の省略）であり2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric people, official
+maps, land plots, stamps, magnifying glasses, torn paper labels, etc. —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 図・訂・権・証 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 図 not 图, 訂 not 订,
+権 not 权, 証 not 证).
+
+--- HEADER ---
+Title (large, bold, 1行):
+地図の間違い、誰が・どう直す？
+
+Subtitle (smaller, centered, 1行):
+平成23年度 午後の部 第5問－地図訂正の申出と職権訂正
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+共有者の一人から申出できる
+Illustration: Two co-owner characters standing on the same land plot,
+one alone stepping forward to submit a 地図訂正申出 paper to the
+registry-office window, with a checkmark, while the other stays
+relaxed in the background.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+単独で申出可
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積変更に訂正申出の義務なし
+Illustration: A land plot with a chunk broken off, connected by an
+arrow to a 地積変更登記 stamp, but a separate 地図訂正申出 paper sits to
+the side with a red X, drawn as a disconnected, independent track.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+義務ではない
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+合意だけで地番は動かせない
+Illustration: Two neighbor characters shaking hands over a 合意 icon,
+pointing at two land plots labeled 1番 and 2番 trying to swap number
+tags, but a large red X blocks the swap because a registry-officer
+stamp is required.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+登記官の権限
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記官は職権でも訂正できる
+Illustration: A registry officer character noticing a crooked line on
+the map with a magnifying glass, then stamping a 職権訂正 seal directly
+onto the map without any incoming 申出 paper.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+職権訂正可
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積測量図で確認できれば十分
+Illustration: A registry officer holding up an existing filed document
+that already shows the correct boundary, with a green checkmark, while
+a second blank 証明情報 document sits crossed out with a red X.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+別途証明不要
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, with particular
+attention to 図・訂・権・証. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
+```
