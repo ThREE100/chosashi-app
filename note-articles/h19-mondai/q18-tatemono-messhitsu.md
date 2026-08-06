@@ -20,7 +20,7 @@
 
 ### ア：所有者が死亡していても、相続人の一人から滅失登記を申請できる
 
-不動産登記法30条は、表示に関する登記の申請人となるべき者が死亡した場合には、その相続人その他の一般承継人が、これに代わって申請をすることができると定めています。建物の滅失の登記は「表示に関する登記」の一つであり(不動産登記法2条20号、57条)、事実状態をそのまま登記記録に反映させる手続にすぎないため、権利に関する登記のように相続人全員の一致した意思表示を要件とはしていません。設問は、被相続人が所有権の登記名義人である建物について、相続登記(所有権移転登記)を経る前に相続人の一人が建物を取り壊した場面ですが、この場合であっても、他の相続人は不動産登記法30条の一般承継人として、単独で滅失登記の申請をすることができます。
+不動産登記法30条は、表示に関する登記の申請人となるべき者が死亡した場合には、その相続人その他の一般承継人が、これに代わって申請をすることができると定めています。建物の滅失の登記は「表示に関する登記」の一つであり(不動産登記法2条3号、57条)、事実状態をそのまま登記記録に反映させる手続にすぎないため、権利に関する登記のように相続人全員の一致した意思表示を要件とはしていません。設問は、被相続人が所有権の登記名義人である建物について、相続登記(所有権移転登記)を経る前に相続人の一人が建物を取り壊した場面ですが、この場合であっても、他の相続人は不動産登記法30条の一般承継人として、単独で滅失登記の申請をすることができます。
 
 **たとえば**、一人暮らしの父Aが亡くなり、子B・Cが相続人になったものの、まだ相続登記(所有権移転登記)をしないうちに、Bが実家の古い建物を解体してしまったとします。この場合、Cは、Aの死亡によって滅失登記の申請人となる資格(不動産登記法30条の一般承継人)を得ているので、Bの協力がなくても、単独で滅失登記を申請することができます。
 
@@ -38,13 +38,13 @@
 
 ### エ：同一敷地内で解体移転しても、滅失登記と新たな表題登記が必要
 
-「解体移転」とは、既存の建物を取り壊し、その材料等を用いて別の場所(同一敷地内であっても)に建物を再築することを指します。建物を解体せずにそのまま動かす「曳行移転」とは異なり、解体移転の場合はいったん建物としての実体が失われ、新たに建物が建築されたものとして取り扱われます。したがって、解体移転をした場合には、まず解体前の建物について滅失登記を申請し(不動産登記法57条)、その上で新築された建物について改めて建物の表題登記を申請しなければなりません(不動産登記法47条)。「登記記録に変更がないので建物図面の変更の申出をすればよい」というような簡易な手続で済ませることは認められていません。
+「解体移転」とは、既存の建物を取り壊し、その材料等を用いて別の場所(同一敷地内であっても)に建物を再築することを指します。建物を解体せずにそのまま動かす「曳行移転」とは異なり、解体移転の場合はいったん建物としての実体が失われ、新たに建物が建築されたものとして取り扱われます。したがって、解体移転をした場合には、まず解体前の建物について滅失登記を申請し(不動産登記法57条)、その上で新築された建物について改めて建物の表題登記を申請しなければなりません(不動産登記法47条)。この扱いは、不動産登記事務取扱手続準則85条(建物の移転)が「建物を解体移転した場合は、既存の建物が滅失し、新たな建物が建築されたものとして取り扱うものとする」と明記していることからも裏付けられます(同条2項は、建物を解体せずにそのまま移動させる「えい行移転」の場合を「建物の所在の変更として取り扱う」としており、両者を区別しています)。「登記記録に変更がないので建物図面の変更の申出をすればよい」というような簡易な手続で済ませることは認められていません。
 
 **たとえば**、敷地の隅にあった古い倉庫を一度解体し、その建材を使って同じ敷地内の別の位置に建て直したとします。見た目は似ていても、登記の扱いとしては「古い倉庫が滅失し、新しい倉庫が新築された」ことになるため、古い倉庫の滅失登記と、新しい倉庫の表題登記の両方を申請する必要があります。
 
 ### オ：区分建物が一つだけ残っても、当然に複数の変更登記が義務付けられるとは言えない
 
-敷地権の登記は、専有部分が「区分建物」であることを前提として置かれる制度です(不動産登記法44条1項9号等)。したがって、一棟の建物を構成する区分建物の一部が滅失し、区分建物としての実体が失われた場合には、残された建物の登記や敷地権の登記のあり方を見直す必要が生じうる、という方向性自体は不動産登記法の基本的な考え方と整合します。しかし、設問は、甲・乙2個の区分建物のうち甲のみが滅失した場合に、乙について「敷地権であった権利が敷地権でない権利となったことによる変更登記」と「乙建物を非区分建物とする変更登記」の2つを、Aが必ず申請しなければならないと断定しています。一棟の中に区分建物が1個だけ残った場合の具体的な取扱い(残存建物を直ちに非区分建物とする変更登記を申請すべき法律上の義務があるのか、義務があるとしてどのような申請構成になるのか)を、設問の記述どおりに義務として定めた規定を条文レベルで確認することはできませんでした。ア・イが条文上明確に正しいと判断できるのに対し、オをここまで断定的に「正しい」と言い切れる根拠は薄く、本問の正解の組合せ(アイ)とも整合する結論として、オは誤りと判断します。
+敷地権の登記は、専有部分が「区分建物」であることを前提として置かれる制度です(不動産登記法44条1項9号等)。そして区分所有法1条は、区分所有権の成立要件として「一棟の建物に構造上区分された数個の部分」が存在することを求めているため、一棟の建物を構成する区分建物の一部が滅失し、区分建物としての実体が失われた場合には、残された建物の登記や敷地権の登記のあり方を見直す必要が生じうる、という方向性自体は不動産登記法・区分所有法の基本的な考え方と整合します。また、不動産登記規則145条は、敷地権付き区分建物の滅失の登記をする場合について124条(敷地権の登記の抹消)の規定を準用しており、敷地権付き区分建物の一部が滅失した際に、残存する区分建物について「敷地権であった権利が敷地権でない権利となったことによる建物の表題部に関する変更の登記」がされる場面があること自体は、規則が想定していることを条文上確認できます。しかし、124条・145条は、そのような変更の登記が既にされた場合に、登記官が敷地(土地)側の登記記録をどう処理するかという登記官側の事務処理を定めた規定にとどまり、区分建物が1個だけ残った場合にAが必ずその変更登記(及び乙建物を非区分建物とする変更登記)を申請しなければならないという申請義務そのものを条文上明確に定めた規定は確認できませんでした。設問は、甲・乙2個の区分建物のうち甲のみが滅失した場合に、この2つの変更登記をAが必ず申請しなければならないと断定していますが、その断定を裏付ける申請義務の規定までは見当たりません。ア・イが条文上明確に正しいと判断できるのに対し、オをここまで断定的に「正しい」と言い切れる根拠は薄く、本問の正解の組合せ(アイ)とも整合する結論として、オは誤りと判断します。
 
 **たとえば**、マンションの1棟の中にA所有の甲・乙2部屋(専有部分)しかなく、甲側だけが火災で全焼したとします。残った乙だけの建物を、これからも「区分建物」として登記し続けてよいのか、それとも「ふつうの一戸建てと同じ扱い」に変更する登記を必ずしなければならないのか——ここは事案ごとの検討を要する、実は簡単には言い切れない論点なのです。
 
@@ -54,7 +54,7 @@
 - **イ（正）**　抵当権が付いていても、滅失登記に抵当権者の承諾書は不要
 - **ウ（誤）**　滅失登記の委任状は認印でよく、印鑑証明書の添付は不要
 - **エ（誤）**　同一敷地内の解体移転でも、滅失登記＋新たな表題登記が必要
-- **オ（誤）**　区分建物の一部滅失後の取扱いを、設問のとおりに一律の義務と断定できる根拠は薄い
+- **オ（誤）**　区分建物の一部滅失後、残った区分建物の変更登記を設問のとおり一律の申請義務と断定できる根拠は薄い(規則124条・145条は登記官側の処理を定めるにとどまる)
 
 建物の滅失登記は「事実をそのまま反映させる登記」だと意識すると、印鑑証明書や担保権者の同意が不要になる理由がすっきり見えてきます。
 
@@ -66,10 +66,13 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典年度・問題番号・正解番号(平成19年度午前の部第18問、正解1番＝ア・イ)は、ユーザー提供の原本書き起こしに基づいています。
-- 条文レベルで確認できた根拠：不動産登記法30条(表示に関する登記の申請人となるべき者が死亡した場合に相続人その他の一般承継人が申請できる旨)、及び第57条(建物滅失登記の申請義務、滅失の日から1月以内)は、複数の実務解説サイトの記載内容を突き合わせて文言を確認しました。ただし、このセッションではネットワーク環境のポリシーによりe-Gov法令検索(laws.e-gov.go.jp)への直接接続が遮断されており(プロキシのステータス確認でconnect_rejected/403を複数回確認)、公式の条文原文ページを開いての一次確認はできませんでした。
-- イ(抵当権者の承諾不要)・ウ(印鑑証明書不要)は、複数の司法書士・土地家屋調査士事務所の実務解説、および「東京法務局は印鑑証明書の添付が無いことを理由とした補正・却下をしていない」という記載により確認しましたが、いずれも実務運用・逐条解説からの確認にとどまり、e-Gov原文との条文番号レベルの一致(不動産登記令16条2項の適用除外規定の具体的な条項番号など)までは確認できていません。
-- エ(解体移転は滅失登記＋新築の表題登記が必要)は、「建物を解体移転した場合は、既存の建物が滅失し、新たな建物が建築されたものとして取り扱う」という不動産登記事務取扱手続準則の趣旨に基づく複数の実務解説で確認しましたが、準則の具体的な条番号までは特定できませんでした。
-- オ(敷地権付き区分建物の一部滅失時の取扱い)は、本記事の中で最も確度が低い論点です。「区分建物の一部が滅失して1個だけ残った場合、残存建物の登記記録が非区分建物として書き換えられる」という一般的な方向性は実務解説で確認できましたが、設問が述べる「敷地権の変更登記」と「非区分建物とする変更登記」の2つを法律上の義務として必ず申請しなければならないという具体的な手続構成については、条文原文レベルでの確認ができていません。正解の組合せ(アイ)と整合させる観点からオを誤りと判断していますが、この点は一般原則からの推論・消去法にとどまるものであり、断定はしていないことを正直に申し添えます。
+- 2026-08-06の見直しで、`note-articles/laws/`に保存された不動産登記法・不動産登記令・不動産登記規則・不動産登記事務取扱手続準則・建物の区分所有等に関する法律の全文(2026-08-04時点でe-Govが現行としている条文)と、条文原文を突き合わせて再検証しました。
+  - ア：不動産登記法30条(表示に関する登記の申請人となるべき者について相続その他の一般承継があったときは、相続人その他の一般承継人がこれに代わって申請できる旨)、及び57条・2条3号(建物の滅失の登記が「表示に関する登記」に当たること)を条文原文で確認しました。旧版で根拠としていた「2条20号」は表題登記の定義であり号がズレていたため、正しい2条3号に訂正しました。
+  - イ：抵当権者の承諾を証する情報の添付を求める規定は、不動産登記法・同令・同規則のいずれにも見当たりませんでした(権利に関する登記については利害関係人の承諾を要求する規定が複数あるのに対し、表示に関する登記である滅失登記にはこれに相当する規定がないことを条文の不存在という形で確認)。
+  - ウ：印鑑証明書の添付要否は、不動産登記令16条2項・18条2項(申請書・委任状への押印及び印鑑証明書添付の原則)と、不動産登記規則47条3号・48条・49条2項(印鑑証明書の添付を要しない場合を定める規定。所有権登記名義人が特定の権利に関する登記を申請する場合等に限定されており、表示に関する登記である滅失登記の申請人はこれに該当しないため、添付不要という帰結になります)を突き合わせて確認しました。
+  - エ：解体移転の扱いは、不動産登記事務取扱手続準則85条(建物の移転)に「建物を解体移転した場合は、既存の建物が滅失し、新たな建物が建築されたものとして取り扱うものとする」と明記されていることを条文原文で確認しました(同条2項は、えい行移転を「建物の所在の変更」として区別しています)。滅失登記・表題登記の根拠条文(57条・47条)にも改正はありません。
+  - オ：本記事の中で最も確度が低い論点です。不動産登記規則145条が、敷地権付き区分建物の滅失の登記について124条(敷地権の登記の抹消)の規定を準用していることから、敷地権付き区分建物の一部滅失に伴い残存建物について敷地権の変更登記がされる場面があること自体は規則が想定していると確認できました。もっとも、124条・145条はいずれも、そのような変更登記が既にされた場合の登記官側の事務処理(敷地である土地の登記記録の抹消・転写等)を定めた規定であり、区分建物が1個だけ残った場合にAが当該変更登記(及び非区分建物とする変更登記)を必ず申請しなければならないという申請義務そのものを条文上明確に定めた規定は確認できませんでした。正解の組合せ(アイ)と整合させる観点からオを誤りと判断していますが、この点は規則の準用関係からの推論にとどまるものであり、断定はしていないことを正直に申し添えます。
+  - 平成19年(2007年)の出題当時から現在まで、本問に関わる不動産登記法30条・44条1項9号・57条、不動産登記令16条・18条、不動産登記規則47条〜49条・124条・145条、不動産登記事務取扱手続準則85条、区分所有法1条のいずれについても、本問の結論(正解1番＝アイ)を左右するような実質改正は確認されませんでした。
 
 ---
 
@@ -80,3 +83,147 @@
 - 滅失登記の委任状、実は認印でいいんです
 - 解体して移動しても、"新築"扱いになるんです
 - 区分建物が1つだけ残ったら…実は簡単じゃないんです
+
+---
+
+## 問題全体のインフォグラフィック生成プロンプト
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric demolished house,
+bank/mortgage building, seal and document, apartment building with two
+units, moving truck, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物の滅失登記、誰がどう申請する？
+相続・抵当権・委任状・解体移転を図解
+
+Subtitle (smaller, centered, 1行):
+平成19年度　午前の部　第18問　ア〜オの正誤を一枚で確認
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft green (#7FB88A) containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+相続人1人でも滅失登記を申請できる
+Illustration: An isometric scene of a small demolished house (rubble pile
+with a small dust cloud icon). Two isometric figures stand nearby, one
+labeled "相続人B(解体した人)" and the other labeled "相続人C". Figure C
+holds an application document with a green checkmark, walking toward a
+small isometric government-office counter icon, with no line connecting
+to figure B (showing C acts alone). A small tag near the document reads
+"単独で申請".
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft green #7FB88A, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+相続人の1人から申請OK
+
+--- CARD 2 ---
+Badge: a filled circle in soft green (#7FB88A) containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+抵当権があっても承諾書は不要
+Illustration: An isometric demolished house (rubble pile) with a small
+bank building icon labeled "抵当権者(銀行)" standing to the side. An
+application document flows directly from a homeowner figure to a
+government-office counter icon, with a red X mark over a separate
+"承諾書" document icon near the bank, showing it is skipped.
+Conclusion tag (soft green #7FB88A, 5-15 Japanese characters, a keyword
+phrase — NOT a sentence, NOT a legal citation):
+承諾書は添付不要
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue (#6FA8DC) containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+委任状は認印でよく印鑑証明書は不要
+Illustration: An isometric figure (依頼者) stamping a document labeled
+"委任状" with a plain round seal icon labeled "認印" (green checkmark next
+to it). Beside it, a separate square "印鑑証明書" document icon has a large
+red X mark over it, showing it is not required.
+Conclusion tag (soft blue #6FA8DC, 5-15 Japanese characters, a keyword
+phrase — NOT a sentence, NOT a legal citation):
+認印でOK・証明書不要
+
+--- CARD 4 ---
+Badge: a filled circle in soft blue (#6FA8DC) containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+解体移転は滅失登記と新築登記が必要
+Illustration: An isometric sequence within the same land plot: on the
+left, an old small building being demolished (rubble pile, labeled
+"旧建物") with a document icon reading "滅失登記" and a green checkmark;
+an arrow points right to a newly built small building in a different
+spot on the same plot (labeled "新建物") with a document icon reading
+"表題登記" and a green checkmark. A separate small document icon reading
+"建物図面の変更の申出" has a red X mark over it, showing it is NOT
+sufficient by itself.
+Conclusion tag (soft blue #6FA8DC, 5-15 Japanese characters, a keyword
+phrase — NOT a sentence, NOT a legal citation):
+滅失登記＋新築登記
+
+--- CARD 5 ---
+Badge: a filled circle in soft beige (#D9B382) containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+1個残った区分建物、扱いは即断できない
+Illustration: An isometric two-unit apartment building (a simple building
+icon split into two labeled boxes, "甲" and "乙"). The "甲" side is shown
+as burnt/collapsed rubble with a small fire icon, while the "乙" side
+remains intact and labeled "A所有". Above the building, a large "？" icon
+(question mark, not a red X) hovers next to two small document icons
+reading "敷地権の変更登記" and "非区分建物とする変更登記", each with a "？"
+instead of a checkmark or X, showing the outcome is not clearly mandated.
+Conclusion tag (soft beige #D9B382, 5-15 Japanese characters, a keyword
+phrase — NOT a sentence, NOT a legal citation):
+一律の義務とは言えない
+
+（カードはこの5枚のみ。列を分けない場合は「COLUMN」を省略して1列で並べ、
+バッジ色は1色に統一する。）
+
+--- FOOTER ---
+
+Card checklist — render exactly these 5 cards, no more and no fewer, no
+duplicates, each exactly once, in this order:
+1. 相続人1人でも滅失登記を申請できる（緑）
+2. 抵当権があっても承諾書は不要（緑）
+3. 委任状は認印でよく印鑑証明書は不要（青）
+4. 解体移転は滅失登記と新築登記が必要（青）
+5. 1個残った区分建物、扱いは即断できない（ベージュ）
+Do not paraphrase, merge, split, or reorder these five items.
+
+Kanji caution: this poster includes the characters 権・地・登・記・所・建・
+物・号・録・証, which have Simplified Chinese variants that look similar
+but are NOT correct Japanese Jōyō forms. Render every instance in standard
+Japanese orthography only.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway
+must read as a short heading + a short conclusion tag, at a glance.
+```
