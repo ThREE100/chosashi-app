@@ -78,3 +78,405 @@
 - 屋根があるかないかで、結論が逆転するんです
 - 「動かせるかどうか」が、建物認定のカギなんです
 - 桟橋の上の建物も、ちゃんと登記できるんです
+
+---
+
+## インフォグラフィック プロンプト
+
+### 画像1：建物認定3要件（俯瞰カードポスター型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric structure anchored to
+the ground with roots/bolts, a structure with roof and walls enclosing air,
+a person using the inside space of a structure — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 建, 物,
+定, 着, 気, 断, 用, 途 — do not draw these as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物と認められる3つの要件
+
+Subtitle (smaller, centered, 1行):
+どれか1つでも欠けると建物として登記できない
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+定着性：土地に固定されているか
+Illustration: An isometric structure with visible anchor bolts/foundation
+piles driven into the ground, a small green checkmark badge next to it;
+beside it, a small structure on wheels or skids with a red ✕ mark, labeled
+「容易に移動可能」.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+土地に固定
+Small footnote inside the card (tiny, non-prose): 昭24.2.22民事甲240号
+
+--- CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+外気分断性：屋根と周壁があるか
+Illustration: An isometric structure with a complete roof and enclosing
+walls, a green checkmark; beside it, an open-air platform with only a roof
+and no walls, a red ✕ mark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+屋根・周壁で仕切る
+
+--- CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+用途性：人が使える空間か
+Illustration: A small isometric human figure standing inside a structure's
+enclosed space, a green checkmark; beside it, a sealed tank/container with
+no interior access for a person, a red ✕ mark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+社会生活上の利用
+
+--- FOOTER ---
+
+Note: 3要件はすべて揃って初めて「建物」と認定される、という関係を
+Card群の下に一言添える(短いバッジ、文章にしない): 「3つとも揃って初めて建物」
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 3 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
+
+### 画像2：建物として登記できるもの○一覧 (1/2)
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1700 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(green, beige, blue, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric feed silo, converted
+railway carriage shop, temple gate with a storage upper floor, membrane-
+roofed pool structure, isometric observation tower, rotary parking tower —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to the table. Each table row must communicate its point through a
+small icon plus the exact label text specified below. Do NOT render any
+explanatory paragraph beyond the table cell text itself.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 建, 物,
+登, 記, 造 — do not draw these as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物として登記できるもの○ (1/2)
+変わった構造物でも建物になる例
+
+Subtitle (smaller, centered, 1行):
+○の13例のうち、前半7例
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with a green ○ badge icon at the start
+of each row, alternating row background colors (pale green / white),
+Japanese sans-serif font, no monospace font. 2 columns: 構造物 / ポイント.
+Header row and 7 data rows, verbatim as follows:
+
+Header row: 構造物 | ポイント
+
+Row 1: 家畜飼料用のサイロ | 鋼管製の脚柱で定着し鉄板で外気分断
+Row 2: 廃車になった鉄道車両 | 基礎工事・付帯設備を施し店舗居宅に利用
+Row 3: 寺院の山門(上部倉庫) | 上部が宝物庫として周壁で外気分断
+Row 4: 膜構造シートで覆った構造物 | 永続性のある特殊シートのプール施設
+Row 5: 高床式平家建の展望台 | 最上部に屋根・周壁、下部は階段室のみ
+Row 6: 回転式パーキングの立体駐車場 | 屋根・外壁を有する
+Row 7: 観音像の本堂 | 外壁があり祭壇・参拝設備で寺院利用
+
+--- FOOTER ---
+
+Enumeration check: this table must contain exactly 7 data rows,
+corresponding one-to-one to サイロ・鉄道車両・山門・膜構造シート構造物・
+展望台・立体駐車場・観音像の本堂 above — do not add, omit, merge,
+duplicate, or reword any row; the 構造物 and ポイント text must match the
+list above character-for-character.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 7 data rows plus 1
+header row, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm every cell text matches the verbatim strings above exactly.
+```
+
+### 画像3：建物として登記できるもの○一覧 (2/2)
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(green, beige, blue, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: greenhouse cold-frame structure,
+elevated railway underside shop, pier-supported building over water,
+floating houseboat shop, cargo container storage, roofed stadium seating —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to the table. Each table row must communicate its point through a
+small icon plus the exact label text specified below. Do NOT render any
+explanatory paragraph beyond the table cell text itself.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 建, 物,
+登, 記, 造 — do not draw these as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物として登記できるもの○ (2/2)
+変わった構造物でも建物になる例
+
+Subtitle (smaller, centered, 1行):
+○の13例のうち、後半6例
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with a green ○ badge icon at the start
+of each row, alternating row background colors (pale green / white),
+Japanese sans-serif font, no monospace font. 2 columns: 構造物 / ポイント.
+Header row and 6 data rows, verbatim as follows:
+
+Header row: 構造物 | ポイント
+
+Row 1: 半永久的な温床施設 | ガラス等で屋根・周壁を造り耐久性あり
+Row 2: 高架下(ガード下)の店舗・倉庫 | 高架を屋根とし周壁で外気分断
+Row 3: 桟橋の上に建築された建物 | 海底からの脚柱で支えられた永久構築物
+Row 4: 浮船を利用した店舗 | 土地に固定している浮船
+Row 5: コンテナボックスの貸倉庫 | 基礎工事が施され土地に定着
+Row 6: 屋根を有する野球場観覧席部分 | 屋根がある部分のみ建物として扱う
+
+--- FOOTER ---
+
+Enumeration check: this table must contain exactly 6 data rows,
+corresponding one-to-one to 温床施設・高架下店舗倉庫・桟橋上の建物・
+浮船利用の店舗・コンテナボックス貸倉庫・屋根付き観覧席部分 above — do not
+add, omit, merge, duplicate, or reword any row; the 構造物 and ポイント
+text must match the list above character-for-character.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 6 data rows plus 1
+header row, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm every cell text matches the verbatim strings above exactly.
+```
+
+### 画像4：建物として登記できないもの×一覧
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1750 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(red, beige, gray, blue), rounded card sections, consistent with a modern
+explainer-graphic aesthetic (icons: station platform kiosk, sealed storage
+tanks, roofed arcade street, portable ticket booth, roofless stadium
+seating, wheeled portable office, machine-mounted structure, plastic
+greenhouse — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to the table. Each table row must communicate its point through a
+small icon plus the exact label text specified below. Do NOT render any
+explanatory paragraph beyond the table cell text itself.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 建, 物,
+登, 記, 造 — do not draw these as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+建物として登記できないもの×
+どの要件を欠いているかに注目
+
+Subtitle (smaller, centered, 1行):
+×の8例と、欠けている要件
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with a red ✕ badge icon at the start
+of each row, alternating row background colors (pale red / white), Japanese
+sans-serif font, no monospace font. 3 columns: 構造物 / 理由 / 欠ける要件.
+Header row and 8 data rows, verbatim as follows:
+
+Header row: 構造物 | 理由 | 欠ける要件
+
+Row 1: 駅ホーム内にある売店 | 停車場の一部で独立性がない | 用途性
+Row 2: ガス・石油・給水タンク | 密閉容器で人が使う空間がない | 用途性
+Row 3: 公衆用道路上のアーケード付街路 | 屋根覆いのみで建物性なし | 用途性
+Row 4: 容易に運搬できる切符売場 | 定着性を欠く | 定着性
+Row 5: 屋根を有しない観覧席 | 外気分断性を欠く | 外気分断性
+Row 6: 移動可能な組立式事務所 | 鉄骨柱の土台のみで固定されていない | 定着性
+Row 7: 地上に基脚・支柱を持たない建造物 | 機械の上に建設され土地に定着せず | 定着性
+Row 8: 耐用年数概ね1年のビニールハウス | 半永久性・耐久性を欠く | 定着性
+
+--- FOOTER ---
+
+Enumeration check: this table must contain exactly 8 data rows,
+corresponding one-to-one to 駅ホーム内売店・タンク類・アーケード付街路・
+切符売場・屋根なし観覧席・組立式事務所・機械上の建造物・ビニールハウス
+above — do not add, omit, merge, duplicate, or reword any row; the 構造物・
+理由・欠ける要件 text must match the list above character-for-character.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 8 data rows plus 1
+header row, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm every cell text matches the verbatim strings above exactly.
+```
+
+### 画像5：紛らわしいポイント（対比表型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(green, red, beige, gray), rounded card sections, consistent with a modern
+explainer-graphic aesthetic (icons: glass greenhouse vs vinyl greenhouse,
+roofed vs roofless stadium seating, portable ticket booth vs fixed
+container storage, feed silo vs sealed tank — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+comparison poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the comparison rows. Each row must communicate
+its point almost entirely through the illustration (icons, ✕/✓ marks,
+short embedded labels) plus one short condition phrase per side. Do NOT
+render any full-sentence explanation or legal citation anywhere on the
+poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 建, 物,
+定, 着 — do not draw these as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+紛らわしいポイント、決め手はここ
+
+Subtitle (smaller, centered, 1行):
+似ている構造物ほど、細部の違いで結論が逆転する
+
+（タイトル・サブタイトルのすぐ下に4組の比較行を続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- LEFT COLUMN (color: green, header pill) ---
+○になる条件
+
+--- RIGHT COLUMN (color: red, header pill) ---
+×になる条件
+
+--- ROW 1 ---
+Left card: icon of a greenhouse with glass panels, sturdy and permanent.
+Label above icon: "ガラス等で半永久的".
+Conclusion tag (green pill, short phrase): 温床施設として建物
+Right card: icon of a thin vinyl-sheet greenhouse (ビニールハウス).
+Label above icon: "耐用年数概ね1年程度".
+Conclusion tag (red pill, short phrase): 建物にならない
+Row caption (small label above both cards, centered): 温床施設
+
+--- ROW 2 ---
+Left card: icon of stadium seating with a roof covering it.
+Label above icon: "屋根がある部分".
+Conclusion tag (green pill, short phrase): 外気分断性あり
+Right card: icon of stadium seating with no roof, open to the sky.
+Label above icon: "屋根がない部分".
+Conclusion tag (red pill, short phrase): 外気分断性なし
+Row caption (small label above both cards, centered): 観覧席
+
+--- ROW 3 ---
+Left card: icon of a cargo container converted into a fixed storage shed
+with visible foundation work.
+Label above icon: "基礎工事を施し土地に定着".
+Conclusion tag (green pill, short phrase): コンテナ貸倉庫は建物
+Right card: icon of a small portable ticket booth on wheels or skids, easy
+to move.
+Label above icon: "容易に運搬できる".
+Conclusion tag (red pill, short phrase): 切符売場は建物でない
+Row caption (small label above both cards, centered): 定着性の有無
+
+--- ROW 4 ---
+Left card: icon of a feed silo with a roof-like cap, cylindrical, used to
+store animal feed, a person icon nearby indicating usable space.
+Label above icon: "飼料を出し入れする用途".
+Conclusion tag (green pill, short phrase): サイロは建物
+Right card: icon of a sealed cylindrical tank (石油・ガス・給水タンク)
+with no access door, liquid contents only.
+Label above icon: "液体等を満たす密閉容器".
+Conclusion tag (red pill, short phrase): タンク類は建物でない
+Row caption (small label above both cards, centered): サイロとタンク類の違い
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly 4 comparison rows, each
+with one left card and one right card, no duplicated or missing rows,
+confirm there is no intro illustration or paragraph block between the
+header and the rows, and confirm no card contains a full sentence of
+explanatory prose — every card's takeaway must read as a short label +
+short conclusion tag, at a glance.
+```
