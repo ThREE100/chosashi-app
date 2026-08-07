@@ -84,8 +84,11 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+無権代理と相続に関する5肢は、「誰が誰をどの立場で相続したか」によって結論が変わる独立した判例法理であり2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -109,10 +112,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-
-特に「継」「拒」「償」という字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+summarize, or substitute any characters. Pay special attention to the kanji 継・拒・償 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
 
 
 --- HEADER ---
@@ -213,3 +215,4 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
