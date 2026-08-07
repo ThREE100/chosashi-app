@@ -74,6 +74,7 @@
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07、2026年7月時点でデータベースに存在する範囲）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**表題部所有者のテーマは令和3年度第8問・令和7年度第8問でほぼ同一の論点が繰り返し出題されており、強い重複が見つかりました**。具体的には、①肢ア（住所が数回変更していても直ちに現在の住所へ変更登記できる）は令和7年度第8問オとほぼ同一の記述・結論、②肢イ（持分の更正登記はBの承諾を証する情報を提供すればAが単独で申請できる）は令和3年度第8問エ・令和7年度第8問エとほぼ同一の記述・結論、③肢オ（特例有限会社が株式会社に商号変更した場合は名称の変更登記を申請できる）は令和7年度第8問イとほぼ同一の記述・結論です。noteで令和3年度第8問・令和7年度第8問の解説記事を作成する際は、本記事と内容が大きく重なるため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
 - **肢ウの実務補足を追記（2026-08-07実施）**：ユーザーの依頼により、肢ウの解説に「実務ではこうなります」の段落を追加しました。追加した内容の根拠は、(a)所有権保存登記の申請適格者を定める不動産登記法74条1項1号（表題部所有者又はその相続人その他の一般承継人が申請できる旨。条文の存在・文言はe-Gov法令検索で確認済みの基本条文です）、(b)土地家屋調査士の業務範囲を定める土地家屋調査士法3条1項（表示に関する登記の申請手続の代理等に限定されており、権利に関する登記の代理はその業務範囲に含まれないこと）です。「表示登記は土地家屋調査士、権利登記は司法書士が担当する」という業際の役割分担についての記述は、両士業の業務範囲を定める条文構造から導かれる一般的な理解であり、個別の先例・通達までは確認していません。
+- **肢ウの追加インフォグラフィックを追加（2026-08-07実施）**：ユーザーの依頼により、肢ウ（実務補足を含む）専用のインフォグラフィック画像生成プロンプトを2枚追加し、既存の問題全体プロンプトとあわせて「## インフォグラフィック プロンプト」配下に画像1〜3として整理しました（`note-articles/column/tatemono-nintei-3youken.md`等で使われている「### 画像N：{ラベル}（{型}）」の見出し形式に統一）。画像2は肢ウの基本ルール（結論カード型）、画像3は肢ウの実務の流れ・業際の役割分担（業際フロー型）です。内容は本文の該当段落と一致させています。
 
 ---
 
@@ -87,9 +88,9 @@
 
 ---
 
-## インフォグラフィック プロンプト（問題全体）
+## インフォグラフィック プロンプト
 
-土地の表題部所有者に関する5肢を、「住所・持分の変更登記」（ア・イ）と「相続・更正・商号変更の扱い」（ウ・エ・オ）の2列・計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+### 画像1：問題全体（俯瞰カード型）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
@@ -211,4 +212,173 @@ cards under 住所・持分の変更登記, 3 cards under 相続・更正・商�
 扱い), with no duplicated or missing cards, and confirm every heading,
 illustration label, and caption text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters.
+```
+
+### 画像2：肢ウの基本ルール（結論カード型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry ledger page,
+person figures, ghost/faded figure for a deceased person, arrows,
+prohibition marks, document stamps — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 表・題・部・所・有・者・死・亡・変・更・登・記・保・存・移・転・相・続,
+which have Simplified Chinese look-alike forms with visibly different
+stroke shapes — always draw the standard Japanese (Jōyō) form of these
+characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+共有者の死亡、実は
+「変更登記」じゃないんです
+
+Subtitle (smaller, centered, 1行):
+表題部所有者の相続・基本ルール(平成29年度 午後の部 第11問 肢ウ)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric registry ledger page labeled "表題部" with a
+small clock/hourglass icon overlaid, showing it is a temporary record,
+next to two person figures labeled "Ａ" and "Ｂ".
+表題部所有者欄は、まだ権利の登記がされる前の
+暫定的な記録です。共有者の死亡はこの欄では
+処理しません。
+
+--- CARD 1 ---
+Heading (bold):
+「Ａさん一人に変える」変更登記はしない
+Illustration: An isometric registry ledger page with the "Ａ・Ｂ" name
+tag, a red prohibition (no-entry) circle stamped over a label reading
+"表題部所有者の変更登記", showing this path is not taken.
+Caption (small text below):
+表題部所有者をＡのみとする変更登記は
+申請できない。
+
+--- CARD 2 ---
+Heading (bold):
+まず保存登記、次に相続の移転登記
+Illustration: An isometric two-step flow diagram — step 1 a blank
+registry page transforming into a stamped "所有権保存登記" page, step 2
+an arrow moving a ghost-outline share icon (representing deceased Ｂ's
+share) onto the surviving Ａ figure's share, labeled "相続による移転登記".
+Caption (small text below):
+所有権の保存登記をした上で、Ｂの持分を
+相続により移転する登記をする(準則32条)。
+
+--- CARD 3 ---
+Heading (bold):
+具体例：ＡさんとＢさんのケース
+Illustration: An isometric scene with a person figure labeled "Ａ" standing
+next to a faded/translucent ghost-outline person figure labeled "Ｂ" with
+a small halo icon, and a share/pie-chart icon moving from the ghost figure
+to Ａ's figure via a dotted arrow.
+Caption (small text below):
+Ｂさんが亡くなり相続人がＡさんだけなら、
+この2段階の登記で処理する。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第11問 肢ウ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 表・題・部・所・有・者・死・亡・変・更・登・記・保・存・移・転・
+相・続. If any character renders as a Simplified Chinese variant, redraw
+that character in the correct Japanese form. Confirm the number of cards
+equals 3 exactly, with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
+```
+
+### 画像3：肢ウの実務の流れ（業際フロー型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric law-book/statute
+icon, two professional person figures in different colored outfits,
+building/house icon, handoff arrow between figures, document stamps —
+adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 調・査・司・書・士・権・利・表・示・登・記・業・際・続・保・存,
+which have Simplified Chinese look-alike forms with visibly different
+stroke shapes — always draw the standard Japanese (Jōyō) form of these
+characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+保存登記・移転登記は
+実は司法書士の仕事なんです
+
+Subtitle (smaller, centered, 1行):
+表示登記と権利登記の役割分担(平成29年度 午後の部 第11問 肢ウ・実務補足)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric scene of a law-book icon labeled "不動産登記法
+74条1項1号" glowing beside a person figure labeled "Ａ(相続人)" who holds
+a "所有権保存登記" stamp.
+Ｂの相続人Ａは、不動産登記法74条1項1号に
+基づいて、自ら保存登記を申請できます。
+
+--- CARD 1 ---
+Heading (bold):
+保存登記→相続の移転登記、2段階で申請する
+Illustration: An isometric two-step numbered flow — step①a person figure
+stamping "所有権保存登記", step②an arrow to the same figure stamping
+"相続による所有権移転登記".
+Caption (small text below):
+Ａは単独で、この2段階の申請をする
+(不動産登記法74条1項1号)。
+
+--- CARD 2 ---
+Heading (bold):
+表示登記は調査士、権利登記は司法書士
+Illustration: An isometric split-screen — left half shows a person figure
+in one color labeled "土地家屋調査士" holding a house/building icon
+labeled "表示登記"; right half shows a person figure in a different color
+labeled "司法書士" holding a document icon labeled "権利登記"; a dotted
+divider line down the center.
+Caption (small text below):
+調査士が代理できるのは表示登記のみ
+(土地家屋調査士法3条1項)。
+
+--- CARD 3 ---
+Heading (bold):
+未登記建物×相続が重なったときの流れ
+Illustration: An isometric horizontal timeline with three flag icons in
+sequence — flag①"調査士が表題登記を進行中"、flag②"依頼者が死亡・相続
+発生"、flag③"司法書士へ引き継ぎ"、connected by a handoff arrow between
+the 調査士 figure and the 司法書士 figure at the final flag.
+Caption (small text below):
+表題登記は調査士が完了させ、保存・移転
+登記は司法書士に引き継ぐ。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成29年度 午後の部 第11問 肢ウ・実務補足
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 調・査・司・書・士・権・利・表・示・登・記・業・際・続・保・存.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 3 exactly, with no duplicated or missing cards, and confirm every
+heading, illustration label, and caption text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters.
 ```
