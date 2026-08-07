@@ -53,7 +53,7 @@
 - **ア（誤）**　共用部分である旨の登記に「規約設定から1か月以内」の申請義務はない
 - **イ（正）**　床面積の変更があれば、共用部分でも1か月以内に変更登記が必要
 - **ウ（正）**　他の一棟の区分所有者が共用するときは、その建物の家屋番号を申請情報にする
-- **エ（誤）**　抵当権の登記がある建物を共用部分とするには、抵当権者の承諾が必要
+- **エ（誤）**　抵当権の登記がある建物を共用部分とするには、抵当権者の承諾が必要（法58条）
 - **オ（正）**　規約廃止後に所有権を取得した者は、1か月以内に表題登記を申請する
 
 「物理的な変化には期限あり、規約による登記自体には期限なし」「権利の登記が付いていれば承諾が必要」という2点で、アとエの誤りが見抜けます。
@@ -83,8 +83,11 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+共用部分である旨の登記に関する5肢を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。誤りの肢も本来正しいルールに直して掲載する。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -209,3 +212,4 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```

@@ -53,7 +53,7 @@
 - **ア（正）**　不法占拠者は177条の第三者でない
 - **イ（誤）**　仮差押えをした一般債権者は177条の第三者にあたる
 - **ウ（正）**　前主は承継人に対する177条の第三者でない
-- **エ（誤）**　解除後の第三者と解除者は登記の先後で決まる
+- **エ（誤）**　解除後の第三者と解除者は登記の先後で決まる（177条の類推適用・判例）
 - **オ（正）**　制限行為能力の取消しは善意の第三者にも対抗できる
 
 「誤（＝登記がなければ主張できない相手）」に当たるのは、仮差押債権者のイと、解除後の第三者のエです。
@@ -84,8 +84,11 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+民法177条の「第三者」に当たるかどうかを問う5肢を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。誤りの肢も本来正しいルールに直して掲載する。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -210,3 +213,4 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```

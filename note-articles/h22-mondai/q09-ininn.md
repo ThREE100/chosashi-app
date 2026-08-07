@@ -50,11 +50,11 @@
 
 ### まとめ表
 
-- **ア（誤）**　委任者の死亡では代理権は消滅せず、代理人は申請できる
+- **ア（誤）**　委任者の死亡では代理権は消滅せず、代理人は申請できる（法17条1号）
 - **イ（正）**　本人は法人自体であり、代表者が交代しても本人に変更はなく代理権は消滅しない
 - **ウ（正）**　市町村長が職務上作成した委任状には「3か月以内」の制限がない
 - **エ（誤）**　補正のための取下げに特別の委任は不要
-- **オ（誤）**　代理人の死亡で代理権は消滅し、相続人は行使できない
+- **オ（誤）**　代理人の死亡で代理権は消滅し、相続人は行使できない（民法111条1項2号）
 
 「登記申請の委任は本人の死亡・代表者交代で消えない（特則）／代理人の死亡では消える（原則どおり）」という対比が、この問題の核心です。
 
@@ -83,8 +83,11 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+登記申請手続の委任に関する5肢を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。誤りの肢も本来正しいルールに直して掲載する。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -209,3 +212,4 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```

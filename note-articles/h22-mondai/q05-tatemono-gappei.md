@@ -51,7 +51,7 @@
 ### まとめ表
 
 - **ア（正）**　所有権登記のない建物は、新築居宅の表題登記→甲建物の合併の方法による
-- **イ（誤）**　建物の合併の登記は共有者全員で申請し、一名の単独申請はできない
+- **イ（誤）**　建物の合併の登記は共有者全員で申請し、一名の単独申請はできない（法54条1項）
 - **ウ（正）**　買戻しの特約の登記があると、条件がそろっていても合併できない
 - **エ（誤）**　住所の表示が食い違う状態では、前提として住所変更の登記が必要で、証明情報の提供だけでは合併できない
 - **オ（正）**　区分建物の分割と合併は一の申請情報でまとめて申請できる
@@ -83,8 +83,11 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+建物の合併の登記に関する5肢を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。誤りの肢も本来正しいルールに直して掲載する。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -209,3 +212,4 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```

@@ -51,9 +51,9 @@
 ### まとめ表
 
 - **ア（正）**　敷地権である旨の登記がある土地は合筆できない
-- **イ（誤）**　担保権の登記がある土地の合筆は、受付年月日・受付番号まで同一でなければできない
+- **イ（誤）**　担保権の登記がある土地の合筆は、受付年月日・受付番号まで同一でなければできない（規則105条）
 - **ウ（誤）**　破産手続終結の登記があれば、開始の登記を抹消しなくても合筆できる
-- **エ（正）**　信託目録の登記事項がすべて同一なら合筆できる
+- **エ（正）**　信託目録の登記事項がすべて同一なら合筆できる（法97条1項各号、規則105条）
 - **オ（誤）**　合筆は管理行為であり、不在者財産管理人の申請に家裁の許可は不要
 
 「権利の登記があると原則ダメ、例外は“完全に同一”のときだけ」という骨組みで整理すると、条件の抜け落ちに気づけます。
@@ -84,8 +84,11 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+合筆の登記の制限に関する5肢を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。誤りの肢も本来正しいルールに直して掲載する。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -210,3 +213,4 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```

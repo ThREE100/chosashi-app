@@ -50,9 +50,9 @@
 
 ### まとめ表
 
-- **ア（正）**　合併の登記では、いずれか1個の建物の登記識別情報で足りる
+- **ア（正）**　合併の登記では、いずれか1個の建物の登記識別情報で足りる（令8条2項）
 - **イ（誤）**　管轄区域外の敷地は、不動産番号だけでは登記事項証明書を省略できない
-- **ウ（正）**　住民票コードを提供すれば、住所証明情報を省略できる
+- **ウ（正）**　住民票コードを提供すれば、住所証明情報を省略できる（令9条）
 - **エ（誤）**　合併の登記でも、合併後の各階平面図は提供が必要
 - **オ（誤）**　増築の変更登記では、建物全体の各階平面図が必要
 
@@ -84,8 +84,11 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+建物の表示に関する登記の添付情報に関する5肢を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。誤りの肢も本来正しいルールに直して掲載する。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -210,3 +213,4 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```

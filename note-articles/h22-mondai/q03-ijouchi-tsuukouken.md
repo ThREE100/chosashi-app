@@ -20,7 +20,7 @@
 
 ### ア：分割で生じた袋地は、残余地が転売されても残余地を通行できる
 
-一筆の土地を分割・一部譲渡したことで袋地が生じたときは、その袋地の所有者は、他の分割者の所有地（残余地）のみを、償金を支払うことなく通行できます（民法213条）。この通行権は、その後に残余地が第三者に譲渡されても消滅せず、譲受人に対しても行使できるというのが判例の立場です。したがって、甲土地（袋地）を取得したＢは、Ｃに譲渡された乙土地について通行権を主張できます。
+一筆の土地を分割・一部譲渡したことで袋地が生じたときは、その袋地の所有者は、他の分割者の所有地（残余地）のみを、償金を支払うことなく通行できます（民法213条）。この通行権は、その後に残余地が第三者に譲渡されても消滅せず、譲受人に対しても行使できます（最判平2.11.20）。したがって、甲土地（袋地）を取得したＢは、Ｃに譲渡された乙土地について通行権を主張できます。
 
 **たとえば**、もともと一つだった土地を二つに分けて、公道に接しない側（甲）を買った人は、公道に接する側（乙）が後で別の人に売られても、その乙を通って公道に出る権利を主張できます。逆に、まったくの他人であるＤの丙土地は、そちらを通った方が近くても通れません。
 
@@ -50,9 +50,9 @@
 
 ### まとめ表
 
-- **ア（正）**　分割による袋地の通行権は、残余地が転売されても存続する
-- **イ（誤）**　地上権者も囲繞地に通路を開設できる
-- **ウ（誤）**　分割で袋地を残した側も、分けた相手の土地（乙）を通行できる
+- **ア（正）**　分割による袋地の通行権は、残余地が転売されても存続する（213条、最判平2.11.20）
+- **イ（誤）**　地上権者も囲繞地に通路を開設できる（210条・267条準用）
+- **ウ（誤）**　分割で袋地を残した側も、分けた相手の土地（乙）を通行できる（213条2項）
 - **エ（誤）**　囲繞地通行権の主張に所有権の登記は不要
 - **オ（正）**　競売による袋地も分割に準じ、元の一体地（乙）を通行できる（判例）
 
@@ -84,8 +84,11 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+囲繞地通行権に関する5肢は、それぞれ独立した論点であり2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -109,10 +112,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-
-特に「囲」「繞」「乙」という字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+summarize, or substitute any characters. Pay special attention to the kanji 囲・繞・乙 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
 
 
 --- HEADER ---
@@ -213,3 +215,4 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```

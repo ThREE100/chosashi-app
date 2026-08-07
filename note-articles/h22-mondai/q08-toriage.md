@@ -52,7 +52,7 @@
 
 - **ア（正）**　登記完了後は理由を問わず取り下げられない
 - **イ（正）**　書面申請の取下げでは、消印済み印紙の再使用を申し出られる
-- **ウ（誤）**　電子申請の取下げはオンラインによる。書面提出ではできない
+- **ウ（誤）**　電子申請の取下げはオンラインによる。書面提出ではできない（規則39条）
 - **エ（誤）**　取下げのときは代理権限証書も還付される。「除いた」とする点が誤り
 - **オ（正）**　一の申請情報でまとめて申請しても、一部だけ取り下げられる
 
@@ -83,8 +83,11 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+登記申請の取下げに関する5肢を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。誤りの肢も本来正しいルールに直して掲載する。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -209,3 +212,4 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
