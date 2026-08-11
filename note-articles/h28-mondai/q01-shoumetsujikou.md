@@ -101,8 +101,13 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・時・効, which have Simplified Chinese
+summarize, or substitute any characters. This applies equally to card
+headings: do not shorten, rephrase, or restate a heading in different
+words (e.g. do not turn "催告は一度だけ、6か月の猶予をくれる" into
+something like "再度の催告でも猶予は延びない") — render the exact heading
+string given for each card, character for character, including particles
+such as は/でも/ても. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・時・効・猶, which have Simplified Chinese
 look-alike forms with visibly different stroke shapes — always draw the
 standard Japanese (Jōyō) form of these characters.
 
@@ -120,7 +125,7 @@ AがBに100万円を貸した事例をもとに、催告・裁判上の請求・
 --- CARD 1 ---
 Heading (bold):
 催告は一度だけ、6か月の猶予をくれる
-Illustration: An isometric figure mailing a letter icon labeled 催告 toward another figure, with a 6-month gauge clock ticking down; a second letter sent shortly after is shown with a prohibition mark and no extra time added to the gauge.
+Illustration: An isometric figure mailing a letter icon labeled 催告 toward another figure. Draw exactly ONE 6-month gauge clock in this illustration, ticking down from the moment of that first 催告 — do NOT draw a second gauge or timer anywhere in this card. A second letter is sent partway through that same single gauge's countdown; mark that second letter with a prohibition symbol and a small label reading 猶予延長なし, but the single gauge itself must visibly continue unchanged (same needle position trajectory) straight through to its original end point, making clear no new or additional countdown was created.
 Caption (small text below):
 最初の催告から6か月以内に再び催告しても、そこから新たな完成猶予は生じない(民法150条2項)。
 --- CARD 2 ---
@@ -154,9 +159,14 @@ Small credit text in the corner (optional, keep minimal):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・時・効. If any character
+attention to 号・録・権・地・番・建・物・登・記・所・時・効・猶. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
 illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+above verbatim, with no paraphrasing and no substituted characters —
+in particular, re-check each of the 5 card headings word-for-word against
+the headings listed above; a heading that has been shortened or reworded
+into different phrasing (even if the meaning is similar) fails this check
+and must be redrawn with the exact original heading text. Also confirm
+Card 1 shows only one 6-month gauge, not two.
 ```
