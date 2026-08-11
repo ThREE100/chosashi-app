@@ -111,6 +111,19 @@ kanji 号・録・権・地・番・建・物・登・記・所・時・効・�
 look-alike forms with visibly different stroke shapes — always draw the
 standard Japanese (Jōyō) form of these characters.
 
+--- MANDATORY HEADING CHECKLIST (read before drawing any card) ---
+The 5 card headings, and ONLY these 5 strings, must appear as the bold
+heading text on their respective cards. Do not invent alternate, shorter,
+or punchier headline wording for any of them — even if it seems like a
+more natural infographic-style headline. Copy each string exactly:
+1. 催告は一度だけ、6か月の猶予をくれる
+2. 確定判決が出れば、そこから時効は生まれ変わる
+3. 取り下げても、請求の意思表示は催告として残る
+4. 一部でも返せば、残りも認めたことになる
+5. 時効成立後に認めたら、もう時効は主張できない
+If the heading you are about to render for a card does not character-for-
+character match one of these 5 lines, stop and use the listed text instead.
+
 --- HEADER ---
 Title (large, bold, 2行):
 消滅時効、
@@ -125,7 +138,7 @@ AがBに100万円を貸した事例をもとに、催告・裁判上の請求・
 --- CARD 1 ---
 Heading (bold):
 催告は一度だけ、6か月の猶予をくれる
-Illustration: An isometric figure mailing a letter icon labeled 催告 toward another figure. Draw exactly ONE 6-month gauge clock in this illustration, ticking down from the moment of that first 催告 — do NOT draw a second gauge or timer anywhere in this card. A second letter is sent partway through that same single gauge's countdown; mark that second letter with a prohibition symbol and a small label reading 猶予延長なし, but the single gauge itself must visibly continue unchanged (same needle position trajectory) straight through to its original end point, making clear no new or additional countdown was created.
+Illustration: A single isometric scene, not a two-panel or before/after layout. One figure mails one envelope labeled 催告 to another figure. There is exactly ONE circular gauge/clock face in this entire card, labeled 6か月, needle partway around its dial. This is the only clock-like, dial-like, or digital-timer-like object allowed anywhere in this card — do not draw a second gauge, a second dial, a second digital "00:00"-style readout, or any other clock icon, not even as a small decorative element. To show that repeating the catder does not help: place one small second envelope icon directly next to (touching or overlapping) the single gauge — not in its own separate frame — with a red circle-and-slash prohibition mark over that second envelope, and a small text label 猶予延長なし beside it. No second timer of any kind may accompany that second envelope.
 Caption (small text below):
 最初の催告から6か月以内に再び催告しても、そこから新たな完成猶予は生じない(民法150条2項)。
 --- CARD 2 ---
