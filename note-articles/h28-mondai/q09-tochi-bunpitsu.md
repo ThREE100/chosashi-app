@@ -36,11 +36,15 @@
 
 **たとえば**、AさんとBさんが共有する土地の分筆登記を書面で申請する際、申請書が3枚に及んだとします。この場合、AさんとBさんの両方が各ページのつづり目に契印する必要はなく、どちらか一方が契印すれば手続として足ります。
 
-### エ：精度区分乙1では、地積の更正登記を省略できる特例は適用されない
+### エ：更正登記の要否は、備え付けの地図の区分ではなく「土地の所在地域」の精度区分で判断する
 
-地積測量図の精度は地図の精度と対応しており、市街地地域及びその周辺の地域については精度区分甲2まで、村落・農耕地域及びその周辺の地域については精度区分乙1まで、山林・原野地域及びその周辺の地域については精度区分乙3までとされています(不動産登記規則77条4項、10条4項)。分筆前後の地積の差が精度区分の限度内であれば地積の更正登記を要しないとする取扱いは、市街地地域における精度区分甲1を前提とするものであり、乙1の精度区分で作成された地図が備え付けられている場合にはこの特例は適用されません。
+分筆の登記を申請する場合において、分筆前後の地積の差が、分筆前の地積を基準にして地積測量図の誤差の限度内であるときは、地積に関する更正の登記の申請を要しないという取扱いがあります(不動産登記事務取扱手続準則72条2項)。この特例自体は市街地地域に限られたものではなく、村落・農耕地域や山林・原野地域の土地についても適用されます。
 
-**たとえば**、村落・農耕地域にある土地で、登記所備え付けの地図が乙1の精度区分で作成されている場合、分筆前後の地積の差がその精度区分の限度内に収まっていたとしても、「更正登記は不要」と単純に判断することはできません。乙1は市街地地域向けの特例の対象になる精度区分ではないためです。
+ただし、どの精度区分の誤差の限度を基準とするかは、**その土地が所在する地域区分**によって決まります。不動産登記規則10条4項(77条4項により地積測量図に準用)により、市街地地域及びその周辺の地域は精度区分**甲二**まで、村落・農耕地域及びその周辺の地域は精度区分**乙一**まで、山林・原野地域及びその周辺の地域は精度区分**乙三**までとされています。これは、その土地を管轄する登記所に備え付けられている地図が実際にどの精度区分で作成されているかとは別の話です。
+
+本肢の土地は市街地地域内にあるため、更正登記の要否を判断する基準となるのは精度区分**甲二**の誤差の限度であり、登記所に備え付けられている地図が乙1の精度区分で作成されていたとしても、その乙1の限度内かどうかで判断することはできません。乙1は甲2よりも緩い(誤差として許容される範囲が広い)基準であるため、乙1の限度内に収まっていても甲2の限度を超えていることがあり、その場合は地積の更正の登記の申請を要します。
+
+**たとえば**、市街地地域にある土地で、分筆前後の地積の差が、村落・農耕地域向けの基準である乙1の限度内には収まっていたとします。しかし、その土地は市街地地域にある以上、判定基準はより厳しい甲2の限度であり、甲2の限度を超えていれば地積の更正の登記の申請が必要です。「乙1の限度内だから更正登記は不要」と単純に判断することはできません。
 
 ### オ：賃借権を敷地権とする土地の分筆登記は、理事長が単独で申請することはできない
 
@@ -55,7 +59,7 @@
 | ア | 誤 | 地積測量図の分筆線の誤りは地図訂正の申出では直せず、分筆錯誤の登記による(昭43.6.8民甲1653号) |
 | イ | 正 | 共有物分割禁止の定めがあっても、分筆の登記自体は申請できる |
 | ウ | 正 | 申請書が2枚以上でも、共有者のうち1人が契印すれば足りる(不登規則46条2項) |
-| エ | 誤 | 更正登記を要しない特例は精度区分甲1が前提であり、乙1には適用されない |
+| エ | 誤 | 更正登記の要否は土地の所在地域(市街地地域→甲二)の精度区分で判断し、地図の区分(乙1)の限度内かどうかでは判断できない(不登規則10条4項・77条4項、準則72条2項) |
 | オ | 誤 | 賃借権が敷地権の場合の申請人は土地の所有権登記名義人(賃貸人)であり、理事長ではない |
 
 分筆の登記は「誰が申請できるか」「どの手続で誤りを直すか」という視点で細部の先例知識まで押さえておくと得点源になります。
@@ -70,6 +74,7 @@
 - 出題番号・正解番号は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の内容と、法務省公式の正答PDF（ユーザー提供、平成28年度午後の部第9問＝3）を突き合わせて確認しました。なお、データベース内では本問が誤って「第2問」として登録されていましたが、問題文・選択肢の内容を法務省公式の試験問題原本（ユーザー提供PDF）と照合した結果、実際には第9問であることが判明したため、正しい番号（第9問）で掲載しています。
 - 各肢の条文根拠（不動産登記規則46条・77条等、及び先例）は、データベースのexplanationフィールドに基づくものです。ア・エ・オの先例（昭43.6.8民甲1653号等）に基づく部分は、条文そのものというより実務上の取扱い・先例によるものである点は留意してください。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（土地の分筆の登記）と同一・類似の問題が再出題されていないかを確認しました。「土地の分筆の登記」は頻出テーマで、R02年度第9問・R04年度第8問・R05年度第9問・R06年度第8問・R07年度第11問と、同一・類似のタイトルで毎年のように出題されていますが、いずれも具体的な肢の内容（職権分筆、抵当権消滅承諾の印鑑証明書、買戻し特約の転写、代位申請、共有物分割訴訟、遺産分割後の申請権限、地役権消滅証明、法定相続情報一覧図の利用、地上権・仮登記の転写等）は、本問の各肢（地積測量図の分筆線誤りと地図訂正、共有物分割禁止の定めと分筆可否、契印、精度区分と更正登記の要否、賃借権が敷地権の場合の申請人）とは異なっており、**具体的な論点レベルでの重複は見つかりませんでした**（同じ大テーマが繰り返し出題されているだけです）。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **再確認・修正（2026-08-12実施）**：エの解説文に内部矛盾があったため（1文目で「市街地地域の上限精度区分は甲2」としながら、2文目で「特例の前提は甲1」としており、精度区分の記載が一致していませんでした）、リサーチエージェントによる再調査を実施し、記述を修正しました。正しい理解は次のとおりです。①不動産登記規則10条4項（77条4項で地積測量図に準用）により、地積の誤差の限度の基準となる精度区分は、市街地地域は甲二・村落農耕地域は乙一・山林原野地域は乙三までであり、市街地地域の基準は「甲1」ではなく「甲2」です。②分筆前後の地積差が精度区分の限度内であれば地積の更正登記を要しないという特例（不動産登記事務取扱手続準則72条2項）は市街地地域に限らずすべての地域に適用されますが、どの精度区分を基準にするかは登記所備え付けの地図の実際の作成区分ではなく、その土地が所在する地域区分によって決まります。③本問の土地は市街地地域内にあるため基準は甲2であり、備え付けの地図が乙1で作成されていても乙1基準で更正登記の要否を判断することはできない、という点が本肢の誤りです。この調査は法務省公表の不動産登記事務取扱手続準則PDF・Wikibooksの条文引用・複数の司法書士/土地家屋調査士事務所の実務解説サイト・自治体資料が一致することを確認したうえで反映しています。まとめ表・インフォグラフィックCard 4も合わせて修正しました。
 
 ---
 
@@ -78,7 +83,7 @@
 - 分筆線の誤り、地図訂正では直せないんです
 - 共有物分割禁止でも、分筆はできちゃうんです
 - 契印、実は1人がすれば足りるんです
-- 精度区分によって、更正登記の要不要が変わるんです
+- 精度区分は、地図じゃなく土地の場所で決まるんです
 - 理事長でも、単独では申請できないんです
 
 ---
@@ -100,9 +105,19 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 号・録・権・地・番・建・物・登・記・所・準・則, which have Simplified
+Chinese look-alike forms with visibly different stroke shapes — always draw
+the standard Japanese (Jōyō) form of these characters.
+
+--- MANDATORY HEADING CHECKLIST ---
+Every card heading below must be reproduced VERBATIM, character-for-character,
+with no shortening, no paraphrasing, and no rewording into punchier or more
+casual phrasing. Copy exactly:
+1. 分筆線の誤りは、地図訂正では直せない
+2. 共有物分割禁止でも、分筆はできる
+3. 契印は、共有者のうち1人でいい
+4. 精度区分は、地図の区分ではなく土地の場所で決まる
+5. 賃借権が敷地権のとき、理事長は申請できない
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -135,10 +150,10 @@ Caption (small text below):
 申請書が2枚以上でも、共有者のうち1人が各用紙のつづり目に契印すれば足りる(不動産登記規則46条2項)。
 --- CARD 4 ---
 Heading (bold):
-精度区分によって、更正登記の要否が変わる
-Illustration: Two isometric land-survey precision gauge icons labeled 甲1 with a glowing checkmark(更正登記不要), and 乙1 with a prohibition mark(特例は適用されない).
+精度区分は、地図の区分ではなく土地の場所で決まる
+Illustration: A single isometric scene, not a two-panel or before/after layout. One isometric land plot in the center, clearly labeled 市街地地域. Directly above the plot, there is exactly ONE circular precision-gauge dial icon in this entire card, labeled 甲2, glowing with a checkmark and the words 判定基準はこちら. Beside the plot (not above it, and not shaped like a dial or clock), there is a separate flat rectangular map-document icon labeled 備え付けの地図（乙1で作成）, connected to the plot by a thin dotted line, with a small prohibition mark and the words 判定基準にはならない next to it. Do not draw a second gauge, dial, clock face, or any other circular meter-style icon anywhere in this card — the 乙1 element must be a flat document/map shape only, so it cannot be mistaken for a second gauge.
 Caption (small text below):
-更正登記を要しない特例は精度区分甲1が前提であり、乙1の精度区分には適用されない。
+更正登記の要否は、備え付けの地図の区分（乙1）ではなく、その土地が所在する地域（市街地地域）の基準である甲2の誤差の限度で判断する（不動産登記規則10条4項・77条4項、準則72条2項）。
 --- CARD 5 ---
 Heading (bold):
 賃借権が敷地権のとき、理事長は申請できない
@@ -152,9 +167,15 @@ Small credit text in the corner (optional, keep minimal):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+attention to 号・録・権・地・番・建・物・登・記・所・準・則. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards. Re-check each of the 5 card headings against the
+MANDATORY HEADING CHECKLIST above, character-for-character — if any heading
+has been shortened, reworded, or paraphrased, redraw it to match the
+checklist exactly. Confirm Card 4 contains exactly ONE circular gauge/dial
+icon (labeled 甲2) and that the 乙1 element is a flat map/document shape,
+not a second gauge. Confirm every illustration label and caption text
+matches the Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
 ```
