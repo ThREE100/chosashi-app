@@ -20,13 +20,13 @@
 
 ### ア：業務禁止処分を受けた調査士は、処分の日から3年間、資格を失う
 
-業務の禁止の処分（土地家屋調査士法上の懲戒処分の一つ）を受けた土地家屋調査士は、その登録が取り消され、欠格事由に該当することになります。処分の日から3年を経過するまでの間は土地家屋調査士となる資格を失い、3年を経過して初めて再登録の途が開かれます。本肢は正しい記述です。
+業務の禁止の処分（土地家屋調査士法42条3号に規定する懲戒処分の一つ）を受けた土地家屋調査士は、その登録が取り消され、処分の日から3年を経過するまでの間は調査士となる資格を有しない欠格事由に該当することになります（同法5条5号）。3年を経過して初めて再登録の途が開かれます。本肢は正しい記述です。
 
 **たとえば**、懲戒処分として業務禁止を受けた調査士は、その日からすぐに登録し直して開業する、ということはできず、3年間は資格そのものを失った状態になります。
 
 ### イ：土地家屋調査士法人は、定款で定めれば筆界の鑑定業務ができる
 
-土地家屋調査士法人は、通常の調査士業務に加えて、定款で定めるところにより、当事者その他関係人の依頼を受けて鑑定人に就任し、土地の筆界に関する鑑定を行う業務など、一定の付随業務を行うことができます。本肢は正しい記述です。
+土地家屋調査士法人は、通常の調査士業務（同法3条1項1〜6号）を行うほか、定款で定めるところにより、①法令等に基づきすべての調査士が行うことができるものとして法務省令で定める業務、②民間紛争解決手続代理関係業務を行うことができます（同法29条1項）。鑑定人に就任し土地の筆界に関する鑑定を行う業務は、この①の法務省令（土地家屋調査士法施行規則）で定める業務の一つとして、定款で定めることにより調査士法人が行うことができます。本肢は正しい記述です。
 
 **たとえば**、境界紛争の裁判で、裁判所や当事者から鑑定人としての意見を求められた場合、調査士法人はあらかじめ定款でその旨を定めておけば、法人として鑑定業務を引き受けることができます。
 
@@ -52,8 +52,8 @@
 
 | 肢 | 判定 | ポイント |
 |---|---|---|
-| ア | 正 | 業務禁止処分後、3年間は調査士となる資格を失う |
-| イ | 正 | 調査士法人は定款で定めれば筆界の鑑定業務ができる |
+| ア | 正 | 業務禁止処分後、3年間は調査士となる資格を失う（法5条5号・42条3号） |
+| イ | 正 | 調査士法人は定款で定めれば筆界の鑑定業務ができる（法29条1項1号） |
 | ウ | 正 | 受任前に報酬の基準を示す義務がある（施行規則21条） |
 | エ | 誤 | 正当な事由があっても補助者に業務そのものを取り扱わせることはできない（施行規則22条） |
 | オ | 誤 | 補助者設置の届出先は法務局長ではなく所属の土地家屋調査士会（施行規則23条1項・2項） |
@@ -68,8 +68,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝誤っているものは2個〈エ・オ〉）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。本問は組合せ問題ではなく個数問題である点にご注意ください。
-- 各肢の根拠のうち、ウ（土地家屋調査士法施行規則21条）、エ（同施行規則22条）、オ（同施行規則23条1項・2項）は、データベースのexplanation欄に条文番号まで明記されているものです。ア・イについては、同欄の説明に基づく整理ですが、個別の条文番号までは明示されていません。
+- 各肢の根拠のうち、ウ（土地家屋調査士法施行規則21条）、エ（同施行規則22条）、オ（同施行規則23条1項・2項）は、データベースのexplanation欄に条文番号まで明記されているものです。
 - なお、データベース内には本問について2種類の解説（explanationフィールドとkaisetsu_plusフィールド）が存在し、ウ・オの判定について記載に食い違いがありました。本記事は、条文番号まで具体的に示されているexplanationフィールドの記載を優先して採用しています。
+- **現行法チェック（追加実施・条文原文で確認）**：ア・イについては、当初は条文番号を明示していませんでしたが、土地家屋調査士法の現行条文原文と照合し、正確な根拠条文を特定しました。アは同法5条5号（欠格事由）・42条3号（業務の禁止の処分）、イは同法29条1項1号（調査士法人の業務範囲。「法令等に基づきすべての調査士が行うことができるものとして法務省令で定める業務」を定款で定めて行うことができる旨の規定で、鑑定業務はこの法務省令〈土地家屋調査士法施行規則〉が定める業務の一つです）です。イの条文の建て付けは、鑑定業務を29条に直接列挙する形ではなく、法務省令への委任という形をとっている点に注意してください（結論自体は変わりません）。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（土地家屋調査士又は調査士法人の業務）と同一・類似の問題が再出題されていないかを確認しました。**決定的な重複が複数見つかりました**。「土地家屋調査士又は土地家屋調査士法人の業務」は毎年出題される最頻出テーマの一つ（平成29〜令和7年度まで毎年）ですが、その中でも次の2点は、本問とほぼ同一の文言・同一の結論で繰り返し再出題されています。①本問イ（調査士法人は定款で定めるところにより鑑定人に就任し土地の筆界に関する鑑定を行う業務ができる＝正しい）と、令和2年度第20問エは一字一句同一の文言・同一の結論です。②本問エ（自ら業務を行うことができない正当な事由があるときは補助者に業務を取り扱わせることができる＝誤り、実際は取り扱わせられない）と、令和2年度第20問オ・令和6年度第20問エは、いずれも同じ論点（補助者への業務の委任不可）を同じ結論で扱っています。将来この年度についてnote記事を作成する際は、令和2年度・令和6年度との内容の重複に強く留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -81,3 +82,119 @@
 - 報酬の基準、契約前に示す義務があるんです
 - 正当な理由があっても、補助者には業務を任せられない
 - 補助者を置いたら、届出先は調査士会なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地家屋調査士又は調査士法人の業務に関する5つの独立したルール（業務禁止処分後の資格喪失期間・調査士法人の鑑定業務・報酬基準の提示義務・補助者への業務委任不可・補助者設置の届出先）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric surveyor figure
+with tools, corporate building icon, fee/estimate documents, assistant
+figure, local association office building — adapt icon set to the
+topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・調・査・鑑・定・補, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+補助者に任せていいこと・ダメなこと
+業務禁止・鑑定業務・報酬提示のルール
+
+Subtitle (smaller, centered, 1行):
+調査士本人・調査士法人・補助者の役割を切り分ける
+(平成27年度 午後の部 第20問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric surveyor's office with three figures: the
+調査士 figure at the center holding survey tools, a corporate building
+icon beside them labeled "調査士法人", and an assistant figure (補助者)
+standing slightly behind, holding only minor supporting tools.
+調査士本人にしかできない業務、法人でもできる業務、補助者の位置づけ
+といった、土地家屋調査士法・同施行規則の基本ルールを一つずつ確認
+します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+業務禁止処分を受けた調査士は、処分の日から3年間、資格を失う
+Illustration: An isometric surveyor figure with a "業務禁止" stamp on
+their badge, standing outside a locked office door, with a calendar
+counting down 3 years to a "再登録可" checkmark appearing at the end.
+Caption (small text below):
+業務の禁止の処分を受けた土地家屋調査士は、その登録が取り消され、
+処分の日から3年を経過するまでの間、土地家屋調査士となる資格を
+失う。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+調査士法人は、定款で定めれば筆界の鑑定業務ができる
+Illustration: An isometric corporate building icon (調査士法人) with
+a document labeled "定款" beside it, and an arrow pointing to a judge's
+gavel and boundary-marker icon labeled "筆界の鑑定業務", with a
+checkmark.
+Caption (small text below):
+土地家屋調査士法人は、定款で定めるところにより、当事者その他関係
+人の依頼を受けて鑑定人に就任し、土地の筆界に関する鑑定を行う業務
+をすることができる。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+調査士は、受任前に依頼者へ報酬の基準を示さなければならない
+Illustration: An isometric surveyor figure handing a "報酬基準" fee
+estimate document to a client figure, with a checkmark, before a
+contract signature line is filled in.
+Caption (small text below):
+土地家屋調査士は、業務を受任しようとするときは、あらかじめ依頼を
+しようとする者に対し、報酬の算定方法その他の基準を示さなければ
+ならない(土地家屋調査士法施行規則21条)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+正当な事由があっても、補助者に業務そのものを取り扱わせることはできない
+Illustration: An isometric surveyor figure unable to work (shown with
+a small "体調不良" icon), with the assistant figure (補助者) reaching
+for the survey tools but blocked by a prohibition mark, showing the
+work cannot simply be handed over.
+Caption (small text below):
+土地家屋調査士は他人にその業務を取り扱わせてはならない。自ら業務を
+行うことができない正当な事由があっても、補助者に業務そのものを
+取り扱わせることはできない(土地家屋調査士法施行規則22条)。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+補助者を置いたときの届出先は、法務局長ではなく所属の調査士会
+Illustration: An isometric surveyor figure with a new assistant figure
+beside them, holding a "補助者設置届" document with an arrow pointing
+to a local "土地家屋調査士会" office building, while a government
+"法務局" building icon is crossed out as the wrong destination.
+Caption (small text below):
+土地家屋調査士は、補助者を置いたときは、遅滞なく、その旨を事務所
+所在地の法務局長にではなく、所属する土地家屋調査士会に届け出な
+ければならない(土地家屋調査士法施行規則23条1項・2項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第20問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・調・査・鑑・定・補. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

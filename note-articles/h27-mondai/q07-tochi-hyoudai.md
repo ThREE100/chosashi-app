@@ -80,3 +80,119 @@
 - 未登記の土地を買ったら、1か月以内に申請なんです
 - 「たぶん半分ずつ」でも持分は書くって知ってた？
 - 地積測量図が土地所在図を兼ねられるって知ってた？
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地の表題登記の申請ルールに関する5つの独立した論点（地積測量図の作成単位・電子証明書の代替・申請義務の期限・持分の記載・図面の兼用）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land survey maps,
+ID cards, calendar/clock icons, percentage pie charts, overlapping
+document layers — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・積・測・証・書・筆, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その図面、1枚にまとめていい？
+土地の表題登記の申請ルール総点検
+
+Subtitle (smaller, centered, 1行):
+図面の作成単位・添付情報の省略・申請義務の期限
+(平成27年度 午後の部 第7問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric land survey desk with a blank land plot
+map, a clock icon showing "1ヶ月", an ID card, and a percentage pie
+chart icon, all arranged around a central "表題登記" stamp to show
+several small rules converge on a single procedure.
+土地の表題登記について、図面の作り方・添付情報の省略・申請義務・
+持分の記載といった論点を、条文に沿って一つずつ確認します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+地積測量図は、1筆の土地ごとに作成する
+Illustration: An isometric scene showing two adjacent land plots, each
+with its own separate survey map sheet beside it, and a crossed-out
+combined single sheet labeled "2筆まとめて1枚" showing that option is
+not allowed.
+Caption (small text below):
+土地の表題登記や地積の変更・更正の登記で提供する地積測量図は、
+1筆の土地ごとに作成しなければならない。複数筆をまとめて1枚には
+できない。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+公的個人認証の電子証明書は、住所証明情報の代わりになる
+Illustration: An isometric ID card with a digital certificate chip
+icon, connected by an arrow directly into the "住所を証する情報" slot
+of an application document, with a separate paper "住民票" icon crossed
+out as unnecessary.
+Caption (small text below):
+電子申請で地方公共団体の認証業務に基づく電子証明書を提供したときは、
+その提供をもって住所を証する情報の提供に代えることができる
+(不動産登記規則44条1項)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+表題登記のない土地の取得者は、取得の日から1月以内に申請する
+Illustration: An isometric calendar showing a "取得日" marked with a
+house-purchase icon, and a countdown arrow sweeping across 30 days to
+a red deadline marker labeled "1ヶ月以内に申請", with a small
+application document icon at the end.
+Caption (small text below):
+表題登記がない土地の所有権を取得した者は、その所有権の取得の日から
+1か月以内に、土地の表題登記を申請しなければならない(不動産登記法
+36条)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+持分が相等しいと推定されても、持分の記載は省略できない
+Illustration: An isometric application document with two co-owner
+figures (A and B) each holding a "1/2" tag, with an arrow showing both
+tags being written onto the form despite a thought bubble suggesting
+"省略していいかな？" being crossed out.
+Caption (small text below):
+2人以上の者が表題部所有者となる表題登記を申請するときは、持分が
+相等しいものと推定される場合でも、それぞれの持分を申請情報の内容
+としなければならない(不動産登記令3条9号)。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+電子申請の地積測量図は、土地所在図を兼ねることができる
+Illustration: An isometric single land survey document with two
+overlapping transparent layers merging into one sheet, labeled "地積
+測量図" and "土地所在図" respectively, joined by a checkmark showing
+they can be combined into a single electronic file.
+Caption (small text below):
+電子申請で送信する地積測量図(書面申請で電磁的記録に記録して提出する
+ものを含む)は、土地所在図を兼ねることができる(不動産登記事務取扱
+手続準則51条2項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第7問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・積・測・証・書・筆. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

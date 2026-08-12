@@ -80,3 +80,116 @@
 - 抵当権付きの建物を共用部分にするには、承諾書が必要
 - 共用部分でも、床面積が変わったら変更登記が必要なんです
 - 規約を廃止したら、1か月以内に表題登記が必要
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+共用部分である旨の登記に関する5つの独立したルール（申請人適格・申請義務の有無・抵当権者の承諾情報・床面積変更登記・規約廃止後の表題登記）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric community hall /
+clubhouse building, registry stamps, mortgage/bank icons, floor-plan
+blueprints, calendar icons — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・共・用・規・約・抵, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+共用部分の登記、義務？任意？
+集会所や管理人室を「共用部分」にする手続
+
+Subtitle (smaller, centered, 1行):
+申請できる人・必要な承諾・登記義務を整理する
+(平成27年度 午後の部 第17問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric small community clubhouse building beside a
+condominium tower, with a "共用部分" stamp hovering above it and small
+vignette icons around: a person figure with a registry document, a
+crossed-out clock (no deadline), a mortgage icon, and a calendar icon.
+マンションの集会所や管理人室のように、区分所有者全員で使う建物を
+「共用部分」として登記する制度です。申請人・申請義務の有無・添付
+情報・変更登記の要否を、条文に沿って確認します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+共用部分の登記は、所有権の登記名義人以外は申請できない
+Illustration: An isometric clubhouse building with its registered
+owner figure holding a "共用部分にする" stamp with a checkmark, while
+an unrelated bystander figure reaching for the same stamp is blocked
+by a prohibition mark.
+Caption (small text below):
+共用部分である旨の登記は、共用部分とすべき建物の表題部所有者又は
+所有権の登記名義人が申請人となる(不動産登記法58条2項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+「共用部分にする」登記は、対抗要件のための登記で申請義務はない
+Illustration: An isometric regulation document being signed (規約を
+定めた) beside the clubhouse building, with a calendar showing a
+crossed-out "1ヶ月以内に申請" deadline label, and a relaxed clock icon
+instead showing "いつでもよい".
+Caption (small text below):
+共用部分である旨の登記は第三者に対抗するための登記であり、規約を
+定めても申請義務は課されていない(不動産登記法58条)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+抵当権付きの建物を共用部分にするには、抵当権者の承諾情報が必要
+Illustration: An isometric building with a mortgage/bank stamp icon on
+it, with the mortgage-holder figure signing a "承諾" document before
+the "共用部分にする" stamp can be applied.
+Caption (small text below):
+所有権以外の権利(抵当権など)の登記がある建物を共用部分とする場合、
+その権利者の承諾を証する情報等を添付情報として提供しなければ
+ならない(不動産登記令別表18項添付情報ロ)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+共用部分の建物でも、床面積の変更があれば変更登記が必要
+Illustration: An isometric clubhouse building partially demolished
+(smaller floor-plan blueprint shown), with an arrow pointing to a
+"表題部変更登記" stamp being applied despite the building being a
+共用部分, not treated as exempt.
+Caption (small text below):
+共用部分である旨の登記がある建物でも、床面積などの登記事項に変更が
+あった場合には、通常の建物と同様に表題部の変更の登記を申請しなけれ
+ばならない。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+規約を廃止したら、廃止の日から1か月以内に表題登記が必要
+Illustration: An isometric regulation document being torn up (規約
+廃止) beside the clubhouse, with a calendar counting down "1ヶ月以内"
+to a red deadline marker labeled "表題登記".
+Caption (small text below):
+共用部分である旨の登記がある建物について規約を廃止したときは、
+その建物の所有者は、規約の廃止の日から1か月以内に、その建物の
+表題登記を申請しなければならない(不動産登記法58条6項)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第17問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・共・用・規・約・抵. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

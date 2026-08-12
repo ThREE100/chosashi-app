@@ -80,3 +80,120 @@
 - 敷地権の割合、単純に足すだけなら規約の証明はいらないんです
 - 無償で借りた土地の権利、敷地権にはなれないって知ってた？
 - 一棟の名称を書けば、構造・床面積は省略できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+区分建物の表示登記に関する5つの独立したルール（区分合併の要件・一棟滅失時の申請単位・敷地権割合合算・使用借権の扱い・構造床面積の省略）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric condominium
+building, adjoining room units, demolition/wrecking ball, percentage
+pie charts, handshake/loan icons — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・区・分・棟・専・有, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+区分建物の合体・合併・敷地権
+使用借権は敷地権になれない理由
+
+Subtitle (smaller, centered, 1行):
+専有部分と一棟全体、それぞれのルールを整理する
+(平成27年度 午後の部 第15問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric condominium building cutaway showing
+several room units (専有部分) inside one whole structure (一棟), with
+small vignette icons around it: two adjoining rooms merging, a
+wrecking ball, a percentage pie chart, and a crossed-out handshake/loan
+icon.
+区分建物(マンションの1室のような専有部分)の表示登記は、通常の建物
+とは異なる特有のルールが多い分野です。合併・合体・滅失・敷地権
+それぞれの場面で、条文と先例がどう扱っているかを確認します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+主従の関係がなくても、接続していれば区分建物の合併ができる
+Illustration: An isometric condominium floor plan showing two adjoining
+room units (甲区分建物・乙区分建物) with a shared wall being removed
+to merge them into one unit, with a checkmark badge despite neither
+being "主" or "従" of the other.
+Caption (small text below):
+区分建物どうしが互いに接続していれば、主従の関係にない建物どうし
+であっても合併(区分合併)が認められる(不動産登記規則133条)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+一棟全部の滅失は、一棟の滅失登記のみで足りる
+Illustration: An isometric entire condominium building being
+demolished by a wrecking ball, with a single "一棟の滅失登記" stamp
+covering the whole building, while individual "各専有部分の滅失登記"
+stamps for each room are crossed out as unnecessary.
+Caption (small text below):
+一棟の建物の全部が取り壊されたときは、一棟の建物の滅失登記のみで
+足り、各専有部分についての滅失登記は別途不要(昭和38年8月1日民三
+426号)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+敷地権割合を単純に合算する合体では、規約証明情報は不要
+Illustration: An isometric diagram showing two room units, each with
+a "10分の1" pie-chart tag, merging into one unit with a "10分の2"
+pie-chart tag (simple addition), with a "規約証明情報" document icon
+crossed out beside it as unnecessary.
+Caption (small text below):
+敷地権付き区分建物どうしを合体させ、合体前の敷地権の割合を単純に
+合算したものが合体後の敷地権の割合となるときは、規約を設定した
+ことを証する情報の提供は不要。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+使用借権は登記できないため、敷地権にはなれない
+Illustration: An isometric handshake icon (representing a free loan
+of land, 使用貸借) beside a newly built condominium, with an arrow
+attempting to connect it to a "敷地権" badge but blocked by a
+prohibition mark, contrasted with a "賃借権" (lease) icon successfully
+connecting with a checkmark.
+Caption (small text below):
+敷地権とは登記された所有権・地上権・賃借権をいう(不動産登記法44条
+1項9号)。使用貸借による使用借権は登記できないため、敷地権には
+なり得ない。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+一棟の建物の名称を記載すれば、構造・床面積は省略できる
+Illustration: An isometric application document showing a "〇〇
+マンション" name plaque being attached, with the "構造" and "床面積"
+fields on the form grayed out / crossed through as no longer needed.
+Caption (small text below):
+区分建物に関する登記をする場合、一棟の建物の名称を申請情報の内容
+としたときは、その一棟の建物の構造及び床面積を記載しないことが
+できる(不動産登記令3条8号へ)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第15問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・区・分・棟・専・有. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, and confirm every heading, illustration
+label, and caption text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters.
+```

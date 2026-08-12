@@ -81,3 +81,127 @@
 - 第三者に脅されたら、相手が善意でも取り消せる
 - 強迫の取消しは、登記を戻さなくても勝てるって知ってた？
 - 「取り消せない」んじゃない、善意の人に言えないだけなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+詐欺と強迫とで第三者保護の有無が異なる、という本問の軸に沿って、詐欺側3枚・強迫側2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric people figures,
+speech-bubble deception icons, fist/threat icons, land plots, official
+seals, torn paper labels, balance scales — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・転・売・買, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その取消し、通る？通らない？
+詐欺と強迫で分かれる第三者保護のルール
+
+Subtitle (smaller, centered, 1行):
+判例の趣旨から読む96条の非対称(平成27年度 午後の部 第1問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric balance scale in the center. On the left pan,
+a small icon of a person whispering a lie (speech bubble with a crossed
+mask) labeled "詐欺"; on the right pan, a fist icon threatening a person
+labeled "強迫". Above the scale, a small shield icon appears only over
+the "詐欺" side to show that only the fraud side has a protective rule
+for third parties.
+詐欺・強迫による意思表示の分野は、「取り消せるかどうか」そのものよりも、
+「取消しを第三者に対抗できるか」の違いが問われます。詐欺には善意の
+第三者を守る規定があるのに、強迫にはそれがない——この非対称を軸に
+整理します。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+詐欺のケース
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+代理人が詐欺をしたときは、本人の善意を問わず取り消せる
+Illustration: An isometric scene showing a representative (代理人)
+figure whispering a lie to a seller figure, while the principal (本人)
+figure stands apart, unaware, with a question mark; an arrow points from
+the seller to a "取消しできる" checkmark badge regardless of the
+principal's awareness.
+Caption (small text below):
+代理行為の瑕疵は代理人自身を基準に判断する。代理人が詐欺をした場合、
+本人が事実を知らなくても、相手方は詐欺を理由に取り消せる(民法101条)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+詐欺取消しと錯誤の主張は、どちらも選んで主張できる
+Illustration: An isometric person standing at a fork in the road, with
+two signposts both pointing forward: one labeled "詐欺による取消し",
+the other labeled "錯誤による主張"; both signposts have a checkmark,
+showing either path is available for the person to choose.
+Caption (small text below):
+だまされて意思表示をした場合、詐欺取消しと錯誤の主張はどちらも表意者
+保護のための制度であり、選択的に主張できる(大判大正11年3月22日)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+詐欺取消しはできる。ただし善意の第三者には対抗できない
+Illustration: An isometric scene with two panels connected by an arrow:
+left panel shows two people (A and B) with a torn contract and a
+checkmark labeled "当事者間では取消しできる"; right panel shows a
+third person (C) protected by a small shield icon labeled "善意の第三者
+には対抗できない".
+Caption (small text below):
+詐欺による取消しは当事者間では可能。ただし、善意の第三者には取消しの
+効果を対抗できない(民法96条3項)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+強迫のケース
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+第三者による強迫は、相手方が善意でも取り消せる
+Illustration: An isometric scene showing an unrelated third-party figure
+threatening person A with a raised fist, while person B (the contract
+partner) stands to the side looking unaware with a small "善意" label;
+an arrow points to a checkmark badge labeled "取消しできる".
+Caption (small text below):
+第三者が強迫をした場合、相手方がその事実を知らなくても、表意者は
+強迫を理由に取り消すことができる(96条2項の制限は詐欺にのみ適用)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+強迫の取消しは、登記を戻さなくても第三者に対抗できる
+Illustration: An isometric scene showing a land plot with an ownership
+document passing from A to B to C (a chain of arrows), with a "取消し"
+stamp appearing over the A-B transaction, and a bold arrow reaching
+directly to C without passing through a "登記抹消" icon, showing the
+registration-cancellation step is skipped.
+Caption (small text below):
+強迫による取消しには詐欺のような第三者保護規定がなく、登記を抹消
+しなくても、取消し前に現れた第三者に所有権を対抗できる。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第1問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・転・売・買. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly (3 cards under 詐欺の
+ケース, 2 cards under 強迫のケース), with no duplicated or missing cards,
+and confirm every heading, illustration label, and caption text matches
+the Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
+```

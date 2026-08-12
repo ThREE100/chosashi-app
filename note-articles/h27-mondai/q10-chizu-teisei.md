@@ -80,3 +80,117 @@
 - 区画のズレを直すなら、図面を添えるんです
 - 区画と地番、まとめて直すことはできないって知ってた？
 - 地図の訂正、印鑑証明はいらないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地図の訂正の申出に関する5つの独立したルール（相続人の申出適格・住所相違時の申出・添付図面・訂正のまとめ可否・印鑑証明の要否）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric map with a torn
+correction patch, family tree icons, address labels, survey maps,
+prohibition signs — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・訂・正・図・継, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地図を直す「申出」の作法
+申出人・添付図面・まとめてよいかの線引き
+
+Subtitle (smaller, centered, 1行):
+「申請」とは違う地図訂正の特有ルール
+(平成27年度 午後の部 第10問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric large map on a wall with a torn/mismatched
+patch being corrected by a hand, surrounded by small vignette icons: a
+family-tree figure, an address label, a survey map sheet, and a hanko
+seal crossed out.
+地図の訂正は「申請」ではなく「申出」という手続で行います。誰が申し
+出られるのか、どんな図面を添えるのか、複数の訂正をまとめてよいのか
+——通常の登記申請とは少し違うルールを確認します。
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+相続人は、移転登記を受けなくても地図の訂正を申し出られる
+Illustration: An isometric scene showing a child figure inheriting a
+land plot still labeled with the deceased parent's name tag, with an
+arrow pointing directly from the child to a "地図訂正の申出" document,
+bypassing a crossed-out "相続登記" step.
+Caption (small text below):
+地図の訂正の申出は、表題部所有者若しくは所有権の登記名義人又はその
+相続人その他の一般承継人ができる。相続人は移転登記を受けていなく
+ても申し出られる(不動産登記規則16条1項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+住所が登記記録と異なっても、つながりを示す情報を添えれば申出できる
+Illustration: An isometric address label showing an old address
+crossed out and a new address written beside it, connected by a
+dotted line to an official-looking certificate icon labeled "変更を
+証する情報", with an arrow reaching the "地図訂正申出" document.
+Caption (small text below):
+申出人の住所が登記記録上の住所と異なる場合でも、住所について変更等
+があったことを証する公務員作成の情報を提供すれば、地図の訂正の申出
+をすることができる(平成27年2月25日民二457号通達)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+区画の誤りを直す申出には、土地所在図または地積測量図を添える
+Illustration: An isometric map showing a land plot's outline drawn in
+the wrong shape (red dotted line), with a survey map document being
+attached to the correction request as supporting evidence.
+Caption (small text below):
+地図に表示された土地の区画に誤りがあるとして訂正の申出をするときは、
+土地所在図又は地積測量図を提供しなければならない(不動産登記規則
+16条)。
+
+--- COLUMN A, CARD 4 ---
+Heading (bold):
+区画の訂正と地番の訂正は、一の申出情報ではできない
+Illustration: An isometric land plot with two separate correction
+requests beside it — one labeled "区画の訂正", the other "地番の訂正"
+— connected by a crossed-out merge arrow, showing they must be
+submitted as two separate申出.
+Caption (small text below):
+地図の訂正の申出は、区画の訂正と地番の訂正のような異なる事項の訂正
+を一の申出情報によってまとめて申し出ることはできない(登記研究696号)。
+
+--- COLUMN A, CARD 5 ---
+Heading (bold):
+地図の訂正の申出に、印鑑証明書は不要
+Illustration: An isometric correction request document with a
+signature line filled in, and a hanko seal certificate icon crossed
+out beside it as unnecessary, contrasted with a small "合筆等" document
+elsewhere that does require one.
+Caption (small text below):
+地図(添付図面)の訂正の申出には、申出書への印鑑証明書の添付は必要
+ない。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第10問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・訂・正・図・継. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated
+or missing cards, and confirm every heading, illustration label, and
+caption text matches the Japanese text given above verbatim, with no
+paraphrasing and no substituted characters.
+```

@@ -80,3 +80,127 @@
 - 持分の更正、必要なのは相手の承諾書って知ってた？
 - 人を入れ替える更正は、証明書を三点セットで
 - 結婚で名字が変わったら「更正」じゃなくて「変更」なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「最初から間違い＝更正」「後から変化＝変更・移転」という本問の軸に沿って、更正登記側3枚・変更/移転登記側2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric registry ledger
+books, correction pen/eraser icons, official stamps, name tags, wedding
+rings, moving arrows — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・対・記・更・正・変・証, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「更正」と「変更」を間違えない
+表題部所有者の登記の直し方
+
+Subtitle (smaller, centered, 1行):
+最初から間違いか、後から変化したかで手続が変わる
+(平成27年度 午後の部 第5問)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric registry ledger book split down the middle
+by a dotted line; the left half shows a correction pen fixing a
+mistaken name tag (labeled "更正"), the right half shows an arrow
+showing a name tag being swapped for a new one over time (labeled
+"変更・移転").
+表題部所有者の登記を直す場面では、「最初から間違っていたのか(更正)」
+「後から事情が変わったのか(変更)」の区別がまず重要です。さらに、
+売却のような権利の移動は表題部の登記ではなく所有権の登記で扱う、
+という切り分けもポイントになります。
+
+--- COLUMN A HEADER (pill-shaped badge) ---
+更正登記のルール(最初から間違い)
+
+--- COLUMN A, CARD 1 ---
+Heading (bold):
+更正登記を申請できるのは真の所有者。誤記された者からはできない
+Illustration: An isometric ledger page showing the name "A" mistakenly
+recorded as owner, with a prohibition (X) mark over A's hand reaching
+for the correction pen, while a separate figure labeled "真の所有者B"
+holds the correction pen with a checkmark.
+Caption (small text below):
+表題部所有者として誤って記録された者(A)ではなく、真実の所有者(B)が
+更正の登記を申請することができる(不動産登記法33条1項)。
+
+--- COLUMN A, CARD 2 ---
+Heading (bold):
+持分の更正には他の共有者の承諾情報が必要。所有権証明情報は不要
+Illustration: An isometric ledger page showing two persons' mistaken
+percentage tags ("3/5" and "2/5") being swapped, with a signed consent
+document icon labeled "承諾情報" being handed over, while a separate
+"所有権証明情報" document icon is crossed out as unnecessary.
+Caption (small text below):
+表題部所有者の持分の更正登記では、他の共有者の承諾を証する情報の
+提供が必要だが、所有権を証する情報の添付は不要(不動産登記令別表
+3項添付情報)。
+
+--- COLUMN A, CARD 3 ---
+Heading (bold):
+人を入れ替える更正には、承諾情報＋所有権・住所証明情報が必要
+Illustration: An isometric ledger page showing person "B" being erased
+and person "C" being added as co-owner, with three document icons lined
+up beside the ledger: a consent form from B, a proof-of-ownership
+document for C, and an address certificate for C.
+Caption (small text below):
+表題部所有者から除かれる者の承諾情報に加えて、新たに加わる真の
+所有者の所有権を証する情報及び住所を証する情報を併せて提供する
+(不動産登記令別表2項添付情報)。
+
+--- COLUMN B HEADER (pill-shaped badge) ---
+変更・移転登記のルール(後から変化)
+
+--- COLUMN B, CARD 1 ---
+Heading (bold):
+売却による所有者の交代は、表題部所有者の変更登記ではなく保存・移転登記による
+Illustration: An isometric two-step diagram: step 1 shows a "所有権
+保存登記" stamp being applied to seller A's name in the registry
+ledger; step 2 shows an arrow moving the ownership from A to buyer B
+labeled "所有権移転登記", with the "表題部所有者欄" itself remaining
+untouched and crossed out as not the right place to record this.
+Caption (small text below):
+表題部所有者が土地を売却しても、表題部所有者の変更登記ではなく、
+所有権の保存登記・移転登記で対応する(不動産登記法32条)。
+
+--- COLUMN B, CARD 2 ---
+Heading (bold):
+婚姻による氏の変更は「更正」ではなく「変更」の登記
+Illustration: An isometric ledger page showing a name tag with a
+wedding ring icon beside it, an arrow labeled "表示変更登記" pointing
+to the new surname being written in, while a correction pen icon
+(representing 更正) is crossed out beside it.
+Caption (small text below):
+表題部所有者の氏名が婚姻により後発的に変わった場合は、「更正」では
+なく「表題部所有者の表示変更の登記」で対応する(不動産登記法31条)。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第5問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・対・記・更・正・変・証. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly (3 cards under 更正
+登記のルール, 2 cards under 変更・移転登記のルール), with no duplicated
+or missing cards, and confirm every heading, illustration label, and
+caption text matches the Japanese text given above verbatim, with no
+paraphrasing and no substituted characters.
+```
