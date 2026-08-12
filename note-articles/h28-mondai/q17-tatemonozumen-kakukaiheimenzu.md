@@ -114,9 +114,8 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 記名押印・地番変更・余白・朱書・共用部分廃止を整理(平成28年度 午後の部 第17問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric drafting sheet split into 建物図面(right side)and 各階平面図(left side)on one page, with one hand pressing a seal(作成者の押印)and a separate hand only writing a name(申請人の記名)without a seal.
-記名押印の主体、敷地分筆に伴う地番変更、各階平面図の余白の使い方、地下部分の朱書、共用部分廃止後の図面という5つの場面を通じて、建物図面及び各階平面図のルールを整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
+
 --- CARD 1 ---
 Heading (bold):
 申請人は記名だけ、押印するのは作成者

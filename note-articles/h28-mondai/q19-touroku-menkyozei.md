@@ -113,9 +113,7 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 分筆・合筆・合体・分割合併・代位嘱託の税額を整理(平成28年度 午後の部 第19問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric balance scale with a 登録免許税 coin stack on one side and a glowing 非課税 stamp on the other, visually representing how the outcome tips case by case.
-分筆・合筆・合体・分割合併・代位嘱託という5つの場面を、非課税になるケースと課税・税額計算に注意すべきケースの2列に分けて整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
 
 --- COLUMN A HEADER (pill-shaped badge) ---
 非課税になるケース

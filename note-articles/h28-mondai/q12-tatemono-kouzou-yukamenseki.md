@@ -115,9 +115,8 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 屋根の種類・階数表示・天井高・地下道・屋外階段を整理(平成28年度 午後の部 第12問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric cutaway building icon with different room sections highlighted in different colors, some glowing green and stamped 算入 and others grayed out and stamped 算入しない.
-区分した専有部分の屋根の種類、ガード下建物の階数表示、天井高1.5メートル未満の部分、停車場の地下道設備、屋外階段という5つの場面を通じて、床面積の算入・不算入のルールを整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
+
 --- CARD 1 ---
 Heading (bold):
 区分した専有部分に、屋根の種類は書かない

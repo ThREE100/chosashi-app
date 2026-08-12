@@ -113,9 +113,8 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 承諾・添付情報・代位・記録方法・転写を整理(平成28年度 午後の部 第13問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric main building(甲建物)splitting off its attached附属建物 into a separate building(乙建物), with a small 抵当権 tag shown following one side of the split.
-抵当権消滅の承諾、共用部分の添付情報、代位申請、不動産所在事項の記録方法、所有権登記の転写という5つの場面を通じて、建物の分割の登記を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
+
 --- CARD 1 ---
 Heading (bold):
 承諾があれば、抵当権は片方だけに残せる

@@ -112,9 +112,8 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 申請義務・持分省略・単独申請・移記・主従建物を整理(平成28年度 午後の部 第15問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Two isometric separate buildings physically merging into one structure(合体), with a stopwatch icon nearby reading 1か月以内.
-申請義務の起算点、抵当権の持分記載の省略、保存行為による単独申請、賃借権の移記、主たる建物と附属建物の合体という5つの場面を通じて、合体による登記等を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
+
 --- CARD 1 ---
 Heading (bold):
 所有権登記名義人になった日から、1か月以内

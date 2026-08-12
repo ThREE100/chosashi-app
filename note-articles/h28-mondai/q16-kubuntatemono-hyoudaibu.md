@@ -112,9 +112,8 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 原始取得者・相続・敷地権・処分制限を整理(平成28年度 午後の部 第16問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric apartment building(区分建物)under construction with a builder figure(原始取得者)holding a registration form, while a separate merged-company figure stands aside without holding any form.
-原始取得者の原則、相続人の添付情報、敷地権の更正登記、処分の制限の嘱託、登記名義人の表示不一致という5つの場面を通じて、区分建物の表題部に関する登記の申請を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
+
 --- CARD 1 ---
 Heading (bold):
 表題部所有者は、新築した会社のまま

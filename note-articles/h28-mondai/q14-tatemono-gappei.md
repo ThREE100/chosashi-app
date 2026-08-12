@@ -115,9 +115,8 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 相続・住所不一致・区分合併・図面・印鑑証明を整理(平成28年度 午後の部 第14問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Two isometric buildings(甲建物・乙建物)merging into a single building(合併), with a small family-tree icon(相続人)standing beside them.
-相続登記の要否、住所の不一致、区分合併の要件、合併後の図面、表題部所有者の印鑑証明という5つの場面を通じて、建物の合併の登記を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
+
 --- CARD 1 ---
 Heading (bold):
 相続登記なしでも、相続人が合併登記できる

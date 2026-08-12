@@ -114,9 +114,8 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 申請情報・資料提出・取下げ・訴訟との関係を整理(平成28年度 午後の部 第18問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric boundary line between two land plots, with a magnifying glass icon(筆界特定)hovering on one side and a courthouse/gavel icon(筆界確定訴訟)on the other, both pointing at the same line.
-複数申請のまとめ方、申請情報の記載事項、資料提出の方法、通知発送後の取下げ、筆界確定訴訟との関係という5つの場面を通じて、筆界特定の手続を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
+
 --- CARD 1 ---
 Heading (bold):
 土地が共通なら、まとめて1つの申請でできる

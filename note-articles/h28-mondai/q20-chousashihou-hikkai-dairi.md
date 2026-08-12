@@ -115,9 +115,8 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 業務制限・競業禁止・連帯責任・筆界調査委員・使用人を整理(平成28年度 午後の部 第20問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric 土地家屋調査士法人 office building icon with several社員 figures inside, and one figure(X)shown stepping outside the building to represent leaving(脱退)or working as a使用人.
-脱退後の業務制限、競業禁止の絶対性、社員の連帯責任、筆界調査委員経験者への制限、使用人が受任した事件の相手方制限という5つの場面を通じて、調査士法人の業務制限を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
+
 --- CARD 1 ---
 Heading (bold):
 関わっていない事件なら、脱退後も引き受けられる
