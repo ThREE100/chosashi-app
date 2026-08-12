@@ -11,3 +11,4 @@
 - 既存のfeatureブランチは削除せず保持するが、新規の作業・修正はmain側で行う。
 - 別セッションが並行して同じリポジトリのmainを更新している場合があるため、pushの前に`git pull origin main`で最新化してから作業・pushすること。
 - 例外：平成28年度午後の部の既存記事(note-articles/h28-mondai/配下)を修正する場合は、`main`に加えて`claude/surveyor-exam-afternoon-q1-20-5lehv0`ブランチにも同じ修正を反映する(2026-08-12合意)。同ブランチは他の複数年度(H23・H24・R3・R4等)のセッションからも参照されているため、当分の間はmainとの二重メンテナンスとする。
+- 例外：平成27年度午後の部の既存記事(note-articles/h27-mondai/配下)を修正する場合も、`main`に加えて`claude/surveyor-exam-afternoon-q1-20-5lehv0`ブランチにも同じ修正を反映する(2026-08-12合意)。
