@@ -38,17 +38,19 @@
 
 **たとえば**、分筆登記の申請にあたって土地所在図と地積測量図を別々の用紙で作ると二度手間になりがちですが、縮尺が同一で土地の位置関係もきちんと示せるのであれば、「土地所在図兼地積測量図」という1枚の書面にまとめて提出することができ、作成・提出の手間が軽減されます。
 
-### エ：地役権図面つづり込み帳は、30年ではなく永久保存されている
+### エ：地役権図面は、閉鎖した日から30年間保存される
 
-不動産登記規則28条1項1号により、地役権図面つづり込み帳は永久保存の帳簿とされています。設問は「閉鎖した日から30年間保存される」としていますが、実際には30年で廃棄されるものではなく、誤りです。
+不動産登記規則28条は、登記所に保存される帳簿・図面等の種類ごとに保存期間を定めています。地役権図面については、同条14号により、閉鎖した日から30年間保存するものとされています(規則21条3項も参照)。設問の内容はこの規定と一致しており、正しい記述です。
 
-**たとえば**、何十年も前に設定された地役権に関する図面が、その後地役権の登記が抹消されて帳簿が閉鎖されたとしても、法務局にはその記録が残り続けます。将来、当時の権利関係を確認したいというニーズが生じても、記録を参照できるようにするための仕組みです。
+なお、土地所在図・地積測量図・建物図面・各階平面図は「永久保存(ただし閉鎖したものは閉鎖の日から30年間)」という扱いですが、地役権図面には「永久保存」の定めそのものがなく、端的に「閉鎖した日から30年間」という有期限の保存期間が定められている点に注意してください。
 
-### オ：基本三角点等による座標値を記録すれば、方位の記録は省略できる
+**たとえば**、ある土地に設定されていた地役権について、その後、範囲の変更や地役権の消滅・抹消登記に伴って地役権図面が書き換えられたり不要になったりすると、従前の地役権図面は「閉鎖」されて閉鎖地役権図面つづり込み帳に移されます。この閉鎖の日から30年が経過すると、その地役権図面は保存期間満了として廃棄の対象となり、永久に保存されるわけではありません。
 
-不動産登記規則77条1項8号ただし書により、地積測量図に基本三角点等に基づく測量の成果による筆界点の座標値を記録した場合には、方位の記録を省略することができるとされています。設問の内容はこの規定と一致しており、正しい記述です。
+### オ：座標値を記録した場合でも、方位の記録は省略できない
 
-**たとえば**、高精度な基準点測量(基本三角点等)を用いて求めた座標値を地積測量図に記載できる場合、その座標値自体に正確な位置関係の情報が含まれているため、あらためて北を示す方位の矢印などを書き加える必要はありません。
+不動産登記規則77条1項は、地積測量図に記録すべき事項として、地番区域の名称(1号)・方位(2号)・縮尺(3号)・地番(4号)・地積及びその求積方法(5号)・筆界点間の距離(6号)・平面直角座標系の番号又は記号(7号)・基本三角点等に基づく測量の成果による筆界点の座標値(8号)・境界標(9号)・測量の年月日(10号)を掲げています。方位(2号)と座標値(8号)はそれぞれ独立した必要的記録事項として要求されており、座標値を記録した場合に方位の記録を省略できるとする「ただし書」のような規定は存在しません。したがって、基本三角点等に基づく座標値を記録した場合であっても、方位の記録を省略することはできず、設問は誤りです。
+
+**たとえば**、高精度な基準点測量(基本三角点等)を用いて求めた座標値を地積測量図に記載できる場合であっても、その座標値の記載だけで方位の記載を省略してよいわけではなく、北を示す方位は座標値とは別の必要的記録事項として、あわせて記録しなければなりません。
 
 ### まとめ表
 
@@ -57,12 +59,12 @@
 | ア | 正 | 書面の地積測量図は0.2ミリメートル以下の細線で図形を鮮明に表示する(規則74条) |
 | イ | 誤 | 地役権図面の縮尺は250分の1固定ではなく、適宜の縮尺でよい(規則79条2項) |
 | ウ | 正 | 条件を満たせば地積測量図が土地所在図を兼ねることができる(規則77条3項) |
-| エ | 誤 | 地役権図面つづり込み帳は30年間ではなく永久保存とされている(規則28条1項1号) |
-| オ | 正 | 基本三角点等による座標値を記録すれば方位の記録は省略できる(規則77条1項8号ただし書) |
+| エ | 正 | 地役権図面は、閉鎖した日から30年間保存される(規則28条14号) |
+| オ | 誤 | 座標値を記録した場合でも、方位の記録は省略できない(規則77条1項2号) |
 
 地積測量図・地役権図面は、線の太さや縮尺のように「数字が決まっている事項」と「あえて数字を決めていない事項」を区別して覚えることが得点のカギになる分野です。
 
-**正解：正しいものは3個(ア・ウ・オ)(選択肢3番)**
+**正解：正しいものは3個(ア・ウ・エ)(選択肢3番)**
 
 ---
 
@@ -70,7 +72,8 @@
 
 - 出題年度・部・問題番号(平成28年度午後の部第11問)、および正解番号(選択肢3番=正しいものが3個)は、土地家屋調査士試験対策アプリの検証済みデータベースと、法務省公式の正答PDF(ユーザー提供、平成28年度午後の部第11問=3)とを照合済みです。この記事はそのままnoteに貼り付けて使えます。
 - 各肢の条文根拠は、データベースのexplanationフィールドの記載を基本としています(ア:規則74条、イ:規則79条2項、ウ:準則51条4項)。
-- ただし、エとウ・オの条文番号については、データベースのexplanationフィールドとplusフィールド(pitfalls)の間で表記に食い違いが見られました。具体的には、ウの兼用規定についてexplanationフィールドは準則51条4項を、plusフィールドは規則77条3項を挙げており、本記事では両方を併記しました。またエ(保存期間)については、explanationフィールドの記載がOCR起因とみられる欠落・不整合を含んでおり判定が読み取りにくかったため、正誤の判定および条文根拠(規則28条1項1号、永久保存)はplusフィールドの記述を採用しています。オについても、explanationフィールド側の判定表記が実際の正誤(正)と食い違っているように読めたため、plusフィールドの判定(正・規則77条1項8号ただし書)を採用しました。これらの点は、今回e-Gov法令検索での条文原文の逐条確認までは行えていないため、実際に条文を引用・公開される際は、不動産登記規則28条・77条・79条の原文を一度ご確認いただくことをおすすめします。
+- ウの兼用規定の条文根拠については、データベースのexplanationフィールドが準則51条4項を、plusフィールドが規則77条3項を挙げており、本記事では両方を併記しています。
+- **再確認・訂正（2026-08-12実施）**：ユーザーからの指摘を受け、エ・オの正誤判定をリサーチエージェントによる独立調査、および元データベース（takuitsu.json）のexplanationフィールド原文の再確認により再検証したところ、訂正前の記事の判定が誤っていたことが判明し、訂正しました。訂正前は、エ（地役権図面つづり込み帳の保存期間）を「誤（実際は永久保存）」、オ（座標値記録時の方位省略可否）を「正（方位省略可）」としていましたが、正しくは**エ＝正、オ＝誤**です。具体的には、①不動産登記規則28条は「項」のない条文で、地役権図面の保存期間は同条**14号**により「閉鎖した日から30年間」と定められており、永久保存ではありません（土地所在図・地積測量図・建物図面・各階平面図は「永久（ただし閉鎖後30年間）」という扱いですが、地役権図面には永久保存の定めがなく端的に閉鎖後30年間です）。②不動産登記規則77条1項は方位（2号）と基本三角点等に基づく座標値（8号）をそれぞれ独立した必要的記録事項として掲げており、座標値を記録した場合に方位の記録を省略できる「ただし書」は存在しません。訂正前の記事は、データベースのplusフィールド（pitfalls）の記述（「エ×…規則28条1項1号」「オ○…規則77条1項8号ただし書」）を採用していましたが、これが誤りであり、explanationフィールドの原文（「…30年間保存される(規則28条14号、21条3項)」「オ×…方位を記録しなければならない(規則77条1項2号)」）の記載が正しかったことを確認しました。全体の正解（3個）自体は変わりませんが、正しい肢の組合せが（ア・ウ・オ）から**（ア・ウ・エ）**に変わります。まとめ表・見出し画像用フレーズ・インフォグラフィックのCard 4・Card 5も合わせて訂正しています。この調査は、Web検索による複数の独立した解説サイト（Wikibooks掲載の規則28条・77条条文引用等）と、データベース原文の両方が一致することを確認したうえで反映していますが、e-Gov法令検索での条文原文の最終確認は今回のネットワーク制限により行えていません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（地積測量図又は地役権図面）と同一・類似の問題が再出題されていないかを確認しました。**R07年度第9問オは「地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときであっても、当該地積測量図をもって土地所在図を兼ねることはできない」としており、本問ウ（同一の条件下では土地所在図を兼ねることができる）とほぼ同一の記述を、結論だけ反対にして出題したものです。これは非常に強い重複にあたります**。R06年度第10問（地役権図面）は署名記名押印・縮尺一致義務・分筆時の提供要否・閉鎖・要役地所在地番の記録という別の論点で、本問イ・エとは直接重なりません。ノートに執筆・公開する際は、R07年度第9問との重複に特に留意し、内容が同一にならないよう工夫するか、両記事に相互参照を付けることを検討してください。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -80,8 +83,8 @@
 - 地積測量図の線、0.2mmって知ってた？
 - 地役権図面の縮尺、実は決まってないんです
 - 地積測量図が土地所在図を兼ねること、あるんです
-- 地役権図面、30年じゃなく一生保存なんです
-- 座標値があれば、方位は書かなくていいんです
+- 地役権図面、閉鎖後30年で保存終了なんです
+- 座標値があっても、方位は省略できないんです
 
 ---
 
@@ -105,6 +108,16 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
 look-alike forms with visibly different stroke shapes — always draw the
 standard Japanese (Jōyō) form of these characters.
+
+--- MANDATORY HEADING CHECKLIST ---
+Every card heading below must be reproduced VERBATIM, character-for-character,
+with no shortening, no paraphrasing, and no rewording into punchier or more
+casual phrasing. Copy exactly:
+1. 線の太さは、0.2mm以下
+2. 地役権図面の縮尺は、決まっていない
+3. 条件がそろえば、1枚で2つの図面を兼ねられる
+4. 地役権図面は、閉鎖の日から30年で保存終了
+5. 座標値があっても、方位は省略できない
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -137,16 +150,16 @@ Caption (small text below):
 縮尺が同一で土地の所在を明確に表示できるときは、地積測量図が土地所在図を兼ねることができる(不動産登記規則77条3項)。
 --- CARD 4 ---
 Heading (bold):
-地役権図面のつづり込み帳は、ずっと保存される
-Illustration: An isometric archive shelf holding a ledger book labeled 地役権図面つづり込み帳 stamped 永久保存, with a crossed-out calendar icon reading 30年 beside it.
+地役権図面は、閉鎖の日から30年で保存終了
+Illustration: A single isometric scene, not a two-panel or before/after layout. An isometric archive shelf holding a ledger book labeled 閉鎖地役権図面つづり込み帳, with a single circular calendar/countdown icon beside it reading 閉鎖の日から30年, glowing, and a small 廃棄 tag at the end of the countdown. Do not draw a second calendar, timer, or clock-like icon anywhere in this card.
 Caption (small text below):
-地役権図面つづり込み帳は30年間ではなく、永久に保存される(不動産登記規則28条1項1号)。
+地役権図面は、閉鎖した日から30年間保存される(不動産登記規則28条14号)。永久保存ではない。
 --- CARD 5 ---
 Heading (bold):
-座標値さえあれば、方位は省略できる
-Illustration: An isometric land survey diagram with several coordinate points(座標値)marked and glowing, and a compass icon(方位)crossed out beside it as unnecessary.
+座標値があっても、方位は省略できない
+Illustration: An isometric land survey diagram with several coordinate points(座標値)marked and glowing on one side, and a compass icon(方位)also glowing and clearly present (not crossed out, not faded) on the other side, connected by a small "どちらも必須" label between them. Do not depict the compass as removed, optional, or unnecessary.
 Caption (small text below):
-基本三角点等に基づく測量成果による座標値を記録した場合には、方位の記録を省略できる(不動産登記規則77条1項8号ただし書)。
+基本三角点等に基づく座標値を記録した場合でも、方位の記録を省略することはできない(不動産登記規則77条1項2号)。
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -156,7 +169,12 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
 attention to 号・録・権・地・番・建・物・登・記・所. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards. Re-check each of the 5 card headings against the
+MANDATORY HEADING CHECKLIST above, character-for-character — if any heading
+has been shortened, reworded, or paraphrased, redraw it to match the
+checklist exactly. Confirm Card 5 shows the compass (方位) as present and
+required, NOT crossed out or omitted. Confirm every illustration label and
+caption text matches the Japanese text given above verbatim, with no
+paraphrasing and no substituted characters.
 ```
