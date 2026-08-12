@@ -71,6 +71,8 @@ note-articles/
     ├── q18-hikkaitokutei.md           第18問 筆界特定
     ├── q19-touroku-menkyozei.md       第19問 登録免許税
     └── q20-chousashihou-hikkai-dairi.md 第20問 土地家屋調査士法(筆界特定手続代理関係業務)
+└── bunya-kaisetsu/         年度・問題番号をまたいで特定テーマを横断整理する分野別記事
+    └── tenpu-jouhou-yuukoukigen.md 添付書類の有効期限(「作成後3か月以内」ルールの対象・対象外を横断整理)
 ```
 
 令和7年度分は第1問は本シリーズでは未作成です（作業を第2問から開始したため）。令和6年度分・平成28年度分は第1問〜第20問すべて作成済みです。
