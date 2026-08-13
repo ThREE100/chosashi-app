@@ -130,15 +130,22 @@ Caption (small text below):
 --- CARD 3 ---
 Heading (bold):
 敷地権の更正には、原因日付もセットで書く
-Illustration: An isometric registry form for 敷地権の表示の更正 showing fields for 敷地権の種類・割合 plus an additional glowing field labeled 原因及びその日付(錯誤 年月日敷地権), all filled in together.
+Illustration: An isometric registry form for 敷地権の表示の更正 showing
+three filled-in fields side by side: 土地の所在・地番・地目・地積、敷地権の
+種類・割合、and a third field glowing brighter than the other two,
+labeled 原因及びその日付(錯誤 年月日敷地権) — all three fields shown as
+required, with the glowing third field emphasized as the one easy to
+forget.
 Caption (small text below):
-敷地権遺漏の更正登記では、敷地権の種類・割合に加えて登記原因及びその日付も申請情報の内容とする(不動産登記令別表15項)。
+敷地権遺漏の更正登記では、土地の所在・地番・地目・地積、敷地権の種類・
+割合に加えて登記原因及びその日付も申請情報の内容とする(不動産登記令
+別表15項イ・ロ・ハ)。
 --- CARD 4 ---
 Heading (bold):
 処分制限の嘱託は、他の部屋の表題登記と別々でいい
 Illustration: An isometric apartment building with one unit under 処分の制限(差押え)getting its own individual 表題部 stamp from a registrar figure, while the other units remain untouched and unbundled from this process.
 Caption (small text below):
-表題登記がない区分建物への処分の制限の登記の嘱託は、他の区分建物の表題登記の嘱託と併せてすることを要しない(昭和58年11月10日民三第6400号)。
+表題登記がない区分建物への処分の制限の登記の嘱託は、他の区分建物の表題登記の嘱託と併せてすることを要しない(登記官が職権で登記。不動産登記法76条3項・75条準用、不動産登記規則157条1項)。
 --- CARD 5 ---
 Heading (bold):
 名前の表示がずれてたら、まず直すのが先
