@@ -109,7 +109,7 @@ standard Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
-「所有者が死んだ」だけでは
+所有者が亡くなっても、
 合併登記は止まらない
 
 Subtitle (smaller, centered, 1行):
