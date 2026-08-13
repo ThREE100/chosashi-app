@@ -42,11 +42,15 @@
 
 **たとえば**、甲建物の敷地の一部にあった附属建物を分割して乙建物とした結果、甲建物の所在地番の記載も変わる場合を考えてみましょう。登記記録には「変更後の所在はここです」という新しい所在と、「分割によって変更されました」という旨が記録され、あわせて元の所在の記載には抹消する記号が付されて、変更の経緯が誰にでもわかるように残されます。
 
+**実務でのケース**：土地家屋調査士のBさんが、依頼者Cさんから「敷地の一部を分筆した後、その上に建っている倉庫(甲建物の附属建物)を独立した建物として分割登記したい」という依頼を受けたとします。Bさんはまず現地に赴き、分筆後の測量図・地積測量図と照らし合わせて、倉庫の位置が新しい地番の土地上にあることを確認します。次に、分割登記の申請書を作成する段階で、この分割によって甲建物の所在地番も変更後の地番に変わることをCさんに説明し、その旨の変更登記もあわせて必要になることを伝えます。登記が完了すると、甲建物の登記記録には「変更後の不動産所在事項」「分割により変更した旨」「変更前の不動産所在事項を抹消する記号」の3点がセットで記録されるため、Bさんは完了後に取得した登記事項証明書でこの3点がきちんと反映されているかを確認し、Cさんに報告して案件を終えます。
+
 ### オ：所有権登記が先にある場合は、転写ではなく新たな所有権登記の旨が記録される
 
 分割前の甲建物について現に効力を有する所有権の登記がされた後に、当該分割に係る附属建物の新築による表題部の登記事項に関する変更の登記がされていた場合、その所有権の登記は甲建物に対するものであるため、乙建物の登記記録にそのまま転写することはできません。この場合、乙建物の登記記録には、分割による所有権の登記をする旨が記録されることになります（不動産登記規則128条2項）。したがって「所有権の登記が転写される」とする本肢は誤りです。
 
 **たとえば**、甲建物にすでに「所有者はAさんです」という所有権の登記がされた後で、Aさんが敷地内に新しく倉庫を建てて、それを甲建物の附属建物とする表題部の変更登記をしたとします。この倉庫を後日分割して乙建物にしても、既存の所有権登記がそのままコピー(転写)されるわけではなく、「分割によって所有権の登記をしました」という形であらためて記録されることになります。
+
+**実務でのケース**：土地家屋調査士のDさんが、依頼者Eさんから「甲建物にはすでに所有権の登記があるが、その後増築で新設した附属建物(倉庫)を、今回、独立した乙建物として分割登記したい」という依頼を受けたとします。事前相談の段階でEさんから「乙建物にも甲建物の所有権登記がそのままコピーされるんですよね?」と質問されたDさんは、実務上は「転写」ではなく、乙建物の登記記録には「分割による所有権の登記をする旨」が新たに記録される仕組みであることを説明し、権利部の記載イメージを示して不安を解消します。分割登記が完了した後、Dさんは乙建物の登記事項証明書を取得し、所有権に関する登記の登記原因が「転写」ではなく「年月日分割」という形で記録されていることを確認したうえでEさんに報告し、案件を終えます。
 
 ### まとめ表
 
@@ -157,4 +161,207 @@ renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
 illustration label, and caption text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（肢別・実務事例フロー）
+
+エ・オについて、本文の「実務でのケース」で描いた依頼受任から登記完了までの流れを、縦方向の4ステップで俯瞰する個別インフォグラフィック。いずれも portrait 1080×1600px、単一列のステップフロー型。
+
+### 画像1：エ－分筆で地番が変わったら、登記記録はこう変わる
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land surveyor with a
+measuring instrument, land plots, registry record cards, warehouse
+buildings — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference case-flow
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to STEP 1. Every step must communicate its point almost entirely
+through the illustration (icons, arrows, small embedded labels) plus one
+short heading and one short caption line. Do NOT render any full-sentence
+legal citation anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 建・物・登・記・録・所・番・地・分・割 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+分筆で地番が変わったら、
+登記記録はこう変わる
+
+Subtitle (smaller, centered, 1行):
+平成28年度 午後の部 第13問 肢エ－建物の分割にともなう所在変更の記録
+
+（タイトル・サブタイトルのすぐ下にステップ群を続ける。導入イラスト・導入文の
+ブロックは置かない。矢印でSTEP 1からSTEP 4へ縦につなげる。）
+
+--- STEP 1 ---
+Badge: a filled beige circle containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+現地調査で分筆後の地番を確認
+Illustration: An isometric land surveyor figure (土地家屋調査士) holding a
+measuring instrument, standing on a land plot next to a warehouse
+building (倉庫・甲建物の附属建物), comparing it against a 分筆後の測量図
+document.
+Caption (small text below, 5-15 Japanese characters):
+分筆後の地番を現地で確認
+
+--- STEP 2 ---
+Badge: a filled beige circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+甲建物の所在地番も変更が必要と判明
+Illustration: An isometric main building (甲建物) with its address tag
+(所在地番) glowing and about to change from an old label to a new label,
+with a small 分筆 dividing line drawn on the land plot beneath it.
+Caption (small text below, 5-15 Japanese characters):
+所在地番の変更が必要
+
+--- STEP 3 ---
+Badge: a filled beige circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+申請書を作成し依頼者に説明
+Illustration: An isometric surveyor figure explaining a 建物分割登記申請書
+document to a client figure (依頼者), with a small speech-bubble icon
+containing a simplified registry-card illustration between them.
+Caption (small text below, 5-15 Japanese characters):
+記録内容を事前に説明
+
+--- STEP 4 ---
+Badge: a filled beige circle containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+登記記録に変更前後がセットで記録
+Illustration: An isometric registry record card showing three fields
+filled in together and glowing: "変更後の不動産所在事項", "分割により変更
+した旨", and "変更前の不動産所在事項を抹消する記号" (this third field shown
+with a strike-through mark over the old text, not deleted entirely).
+Caption (small text below, 5-15 Japanese characters):
+変更前後をセットで記録
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第13問 肢エ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 建・物・登・記・録・所・番・地・分・割. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of steps equals 4 exactly, with
+no duplicated or missing steps, confirm there is no intro illustration or
+paragraph block between the header and STEP 1, and confirm every heading
+and caption text matches the Japanese text given above verbatim, with no
+paraphrasing and no substituted characters.
+```
+
+### 画像2：オ－「転写」ではなく「分割による所有権の登記」
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric two buildings, a
+warehouse annex, registry record cards, a client and surveyor in
+conversation — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference case-flow
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to STEP 1. Every step must communicate its point almost entirely
+through the illustration (icons, arrows, small embedded labels) plus one
+short heading and one short caption line. Do NOT render any full-sentence
+legal citation anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 建・物・登・記・録・権・転・写・割 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「転写」ではなく
+「分割による所有権の登記」
+
+Subtitle (smaller, centered, 1行):
+平成28年度 午後の部 第13問 肢オ－所有権登記が先にある場合の記録方法
+
+（タイトル・サブタイトルのすぐ下にステップ群を続ける。導入イラスト・導入文の
+ブロックは置かない。矢印でSTEP 1からSTEP 4へ縦につなげる。）
+
+--- STEP 1 ---
+Badge: a filled beige circle containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+甲建物には既に所有権登記あり
+Illustration: An isometric main building (甲建物) with a glowing
+"所有権の登記" stamp already attached to it, standing alone on its land
+plot.
+Caption (small text below, 5-15 Japanese characters):
+甲建物は所有権登記済み
+
+--- STEP 2 ---
+Badge: a filled beige circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+後から倉庫を新築し附属建物に
+Illustration: The same isometric 甲建物 with a newly-built small warehouse
+(倉庫・附属建物) attached beside it, connected by a construction-crane
+icon showing it was added later, with a 表題部の変更登記 document icon
+nearby.
+Caption (small text below, 5-15 Japanese characters):
+倉庫を附属建物として新築
+
+--- STEP 3 ---
+Badge: a filled beige circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+倉庫を分割したいと依頼者から相談
+Illustration: An isometric client figure (依頼者) asking a surveyor figure
+a question, with a speech bubble containing a small icon of the 倉庫
+being separated from 甲建物 by a dotted line into a new 乙建物, and a
+question mark over a 所有権登記 tag.
+Caption (small text below, 5-15 Japanese characters):
+乙建物に分割したい
+
+--- STEP 4 ---
+Badge: a filled beige circle containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+乙建物には「分割による所有権の登記」と記録
+Illustration: An isometric registry record card for 乙建物 (the newly
+split building), showing a glowing stamp reading "分割による所有権の登記"
+being newly written onto it, while a separate "転写" arrow icon from
+甲建物 is shown crossed out with a prohibition mark beside it — do not
+draw the crossed-out 転写 arrow as a second copy of the glowing stamp;
+keep them as two clearly distinct icons so they cannot be confused.
+Caption (small text below, 5-15 Japanese characters):
+転写でなく新規記録
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第13問 肢オ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 建・物・登・記・録・権・転・写・割. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of steps equals 4 exactly, with no
+duplicated or missing steps, confirm there is no intro illustration or
+paragraph block between the header and STEP 1, confirm STEP 4 shows the
+glowing "分割による所有権の登記" stamp and the crossed-out "転写" arrow as
+two distinct, unambiguous icons, and confirm every heading and caption
+text matches the Japanese text given above verbatim, with no paraphrasing
+and no substituted characters.
 ```
