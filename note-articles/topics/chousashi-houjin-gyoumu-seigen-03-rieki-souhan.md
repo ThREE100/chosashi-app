@@ -604,6 +604,127 @@ paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose.
 ```
 
+### 画像6：「業務を行うことができないこととされる社員」の判定フロー
+
+画像5(定義カード＋人数カウント図)と同じ内容を、カードではなく判定フロー(フローチャート型)で見せる版です。カードで全体像をつかむなら画像5を、1人の社員について「この人は数える対象か」を順番に確認したいならこちらを使ってください。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1700 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded flowchart nodes connected by arrows,
+consistent with a modern explainer-graphic aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+flowchart poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the flowchart. Every node must be a short
+label or a short question, never a full paragraph. Do NOT render any
+full-sentence explanation of body text anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+YEAR-TAG REQUIREMENT: Each diamond question node carries a small year tag
+at its right edge, rendered in a small gray font inside a thin rounded
+outline. Nodes with no recorded past-question tag show a gray「―」instead.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「業務を行うことができない
+社員」の判定フロー
+
+Subtitle (smaller, centered, 1行):
+1人の社員について、この事件を個人で受けたと仮定して確認する
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+Render as a vertical flowchart. Rectangular nodes for states, diamond
+nodes for yes/no questions, rounded nodes with ○ / ✕ icons for outcomes.
+Draw the flow top to bottom, with each「いいえ」branch continuing straight
+down to the next diamond and each「はい」branch peeling off to the right
+into a shared red outcome node.
+
+Node 1 (rectangle, start, soft blue):
+検討する社員を1人選ぶ
+（この事件について、個人の調査士だったとしたら）
+
+Node 2 (diamond, question, soft beige):
+公務員・仲裁人として職務上取り扱った事件か
+Year tag: H28
+
+Node 2 branch「はい」→ Node OUTCOME-A (peels off to the right)
+Node 2 branch「いいえ」→ Node 3 (continues straight down)
+
+Node 3 (diamond, question, soft beige):
+相手方の協議を受けて賛助・承諾した事件、又は
+信頼関係に基づく協議を受けた事件、又は受任事件の
+相手方からの他の事件か
+Year tag: ―
+
+Node 3 branch「はい」→ Node OUTCOME-A (peels off to the right)
+Node 3 branch「いいえ」→ Node 4 (continues straight down)
+
+Node 4 (diamond, question, soft beige):
+自ら関与した事件で、法人が賛助・承諾又は
+信頼関係の協議を受けたものか
+Year tag: ―
+
+Node 4 branch「はい」→ Node OUTCOME-A (peels off to the right)
+Node 4 branch「いいえ」→ Node 5 (continues straight down)
+
+Node 5 (diamond, question, soft beige):
+ADR代理関係業務について、特定社員として
+同様の類型に当たるか
+Year tag: ―
+
+Node 5 branch「はい」→ Node OUTCOME-A (peels off to the right)
+Node 5 branch「いいえ」→ Node OUTCOME-B (continues straight down)
+
+Node OUTCOME-A (rounded outcome, soft red, with a large ✕ icon; all four
+「はい」branches from Node 2/3/4/5 converge into this single node from the
+right side):
+業務を行うことができない社員
+（数える）
+
+Node OUTCOME-B (rounded outcome, soft green, with a large ○ icon, at the
+bottom of the main vertical flow):
+業務を行うことができる社員
+（数えない）
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This flowchart has exactly 6 nodes:
+1 start rectangle, 4 diamond question nodes (numbered 2 through 5, each
+with a「はい」branch and an「いいえ」branch), and 2 outcome nodes (one
+red ✕ outcome that all four「はい」branches converge into, one green ○
+outcome at the end of the「いいえ」chain). Pay special attention to the
+kanji 業, 務, 行, 社, 員, 個, 人, 調, 査, 士, 事, 件, 公, 務, 仲, 裁, 職,
+関, 協, 議, 賛, 承, 諾, 信, 頼, 受, 任, 相, 手, 方, 他, 法, 特, 定, 数,
+判 — render every one of them in standard Japanese (Jōyō) form, never in
+Simplified Chinese form, even though some of these characters have
+visually similar Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the flowchart has exactly 4 diamond
+question nodes each with both「はい」and「いいえ」branch labels, confirm
+all four「はい」branches converge into the single red ✕ outcome node,
+confirm the「いいえ」chain ends in the single green ○ outcome node,
+confirm each diamond has its year tag at its right edge, confirm there is
+no intro illustration or paragraph block between the header and the
+flowchart, and confirm that no node contains a full sentence of
+explanatory prose.
+```
+
 ---
 
 ## 参照した過去問記事一覧
