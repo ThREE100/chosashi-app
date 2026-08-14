@@ -303,6 +303,182 @@ flowchart, and confirm that no node contains a full sentence of
 explanatory prose.
 ```
 
+### 画像3：調査士法人ができる業務、イメージ図で見る当然にできる／定款が要る
+
+画像1(早見表型)と同じ内容を、表ではなくイラストのカードで見せる版です。数値・条文番号を正確に読ませたい場合は画像1を、直感的に全体像をつかませたい場合はこちらを使ってください。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric office buildings,
+survey instruments, document stacks, scrolls, gavels, badges — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, small embedded labels, a small 定款 scroll
+icon marking "requires articles of incorporation") plus one short heading
+and one short conclusion tag. Do NOT render any full-sentence explanation
+or paragraph of body text anywhere on the poster. If a piece of
+information cannot be expressed as a short label (a few words) or drawn as
+an icon, leave it out rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+YEAR-TAG REQUIREMENT: Each card carries a small year tag in the TOP-RIGHT
+corner of the card, rendered in a small font (roughly 40% the size of the
+card heading) in gray, inside a thin rounded outline. Use the exact
+strings given per card. Cards with no recorded past-question tag show a
+gray「―」instead.
+
+--- HEADER ---
+Title (large, bold, 2行):
+調査士法人ができる業務
+イメージでつかむ全体像
+
+Subtitle (smaller, centered, 1行):
+定款が要るかどうかは、小さな巻物アイコンの有無で見分ける
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: soft green) ---
+当然にできる業務（定款は不要）
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Year tag (top-right, small gray text): ―
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+表示登記の調査・測量・代理・書類作成
+Illustration: An isometric調査士法人 office building with a調査士 figure
+holding survey instruments (測量機器) next to a stack of 登記申請書類
+documents and a small 相談 speech-bubble icon. No 定款 scroll icon appears
+anywhere near this card, emphasizing that nothing extra is required.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence):
+そのままできる
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Year tag (top-right, small gray text): ―
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+筆界特定の代理・書類作成
+Illustration: An isometric調査士 figure representing a筆界特定 hearing,
+holding a document labeled 筆界特定, standing between two opposing 隣地
+figures. No 定款 scroll icon appears near this card.
+Conclusion tag (green banner, 5-15 Japanese characters):
+そのままできる
+
+--- COLUMN B HEADER (pill-shaped badge, color: soft blue) ---
+定款で定めればできる業務
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Year tag (top-right, small gray text): R2,H27
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+鑑定人に就任して鑑定を行う
+Illustration: An isometric figure standing at a raised platform holding a
+gavel and a scale icon (鑑定人), with a small 定款 scroll icon glowing
+beside the 調査士法人 office building to show the requirement is met.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+定款があれば就任可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Year tag (top-right, small gray text): ―
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+境界標と資料を管理する
+Illustration: An isometric filing cabinet full of 境界標(small boundary
+marker icons) and rolled survey maps, with a small 定款 scroll icon beside
+the 調査士法人 office building.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+定款があればできる
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Year tag (top-right, small gray text): ―
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+講演会の開催・出版物の刊行
+Illustration: An isometric figure standing at a lecture podium (講演会)
+beside a stack of published books and pamphlets (出版物), with a small
+定款 scroll icon beside the 調査士法人 office building.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+定款があればできる
+
+--- COLUMN B, CARD 6 ---
+Badge: a filled blue circle containing the number 6.
+Year tag (top-right, small gray text): ―
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+公共サービス改革法の特定業務
+Illustration: An isometric government-style building labeled 公共 with a
+特定業務 badge being handed to the 調査士法人 office building, with a
+small 定款 scroll icon nearby.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+定款があればできる
+
+--- COLUMN B, CARD 7 ---
+Badge: a filled blue circle containing the number 7.
+Year tag (top-right, small gray text): ―
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+本業に附帯・密接に関連する業務
+Illustration: An isometric 調査士法人 office building with a dotted line
+connecting it to several small satellite icons (附帯 = attached business),
+with a small 定款 scroll icon nearby.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+定款があればできる
+
+--- COLUMN B, CARD 8 (this card is the focal point; render it larger than
+the other Column B cards, with a distinct double-badge visual treatment) ---
+Badge: a filled blue circle containing the number 8.
+Year tag (top-right, small gray text): H26
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+ADR代理は二重の関門がある
+Illustration: An isometric 調査士法人 office building with TWO separate
+locks drawn side by side above its entrance — one padlock labeled 定款
+and a second, distinct padlock labeled 特定社員. Both padlocks must be
+shown unlocked simultaneously. Inside the building, draw a small group of
+社員 figures with exactly one figure wearing a highlighted 特定社員 badge,
+the others in plain gray.
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters):
+定款＋特定社員が必要
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This poster has exactly 8 cards total:
+Column A has exactly 2 cards (numbered 1-2, green, no 定款 scroll icon on
+either), and Column B has exactly 6 cards (numbered 3-8 continuing the same
+numbering sequence, blue, each showing a 定款 scroll icon except card 8
+which shows two separate locks instead). Card 8 is rendered larger than
+the other Column B cards as the visual focal point of the poster. Pay
+special attention to the kanji 調, 査, 士, 法, 人, 業, 務, 定, 款, 筆,
+界, 特, 定, 鑑, 境, 標, 民, 間, 紛, 争, 解, 決, 社, 員 — render every one
+of them in standard Japanese (Jōyō) form, never in Simplified Chinese
+form, even though some of these characters have visually similar
+Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm Column A has exactly 2 cards and Column B
+has exactly 6 cards (8 total, numbered continuously 1 through 8 with no
+gaps or duplicates), confirm every card has its year tag in the top-right
+corner, confirm card 8 is visually distinct with two separate locks rather
+than a single 定款 scroll icon, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose.
+```
+
 ---
 
 ## 参照した過去問記事一覧
