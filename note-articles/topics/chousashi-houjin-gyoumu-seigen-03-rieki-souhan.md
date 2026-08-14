@@ -30,6 +30,18 @@
 
 法人Ｙを縛るのは**第36条の3第1項5号**で、「第22条の2第1項に規定する事件…として**社員の半数以上の者**が筆界特定手続代理関係業務又はADR代理関係業務を行ってはならないこととされる事件」については、その調査士法人は業務を行ってはならない、と定めています。H28の問題文がわざわざ「Ｙは社員が2名の調査士法人であるものとする」と断っていたのは、まさにこの「半数以上」を満たすかどうかを判定させるためでした。2名中1名が制限対象なら、ちょうど半数＝「半数以上」に当たるので、Ｙも受任できません。
 
+#### 「制限社員」とは何を指すか
+
+ここで数える対象、つまり「社員の半数以上の者が…業務を行ってはならないこととされる」の「者」が具体的に何を指すのかを正確に押さえておきましょう。本記事ではこれを**制限社員**と呼びます(条文上の用語ではなく、説明の便宜のためにこの記事で使う呼び方です)。
+
+**制限社員とは、その事件について、もしその社員が調査士法人に属さず単独の調査士として動いていたとしたら、第22条の2の規定により自分自身の業務としてその事件を扱うことができないことになる社員**のことです。第36条の3第1項5号は、この制限社員に当たるかどうかの基準として、次の3つを挙げています。
+
+- **第22条の2第1項**：その社員が公務員として職務上取り扱った事件、又は仲裁人として取り扱った事件(H28第20問エの類型)
+- **第22条の2第2項1号〜5号**：相手方の協議を受けて賛助し、又はその依頼を承諾した事件、信頼関係に基づく協議を受けた事件、受任している事件の相手方からの依頼による他の事件、自ら関与した事件で法人が賛助・承諾したもの、自ら関与した事件で法人が信頼関係に基づく協議を受けたもの
+- **第22条の2第3項による、同条第2項1号〜5号**：ADR代理関係業務についての同様の類型(特定社員が対象)
+
+つまり「制限社員」は、H28第20問エのような**公務員・仲裁人としての関与(第1項)だけに限られません**。相手方から個人として協議を受けていた、といった**個人版の利益相反(第2項1号〜5号)**に当たる社員も、同じように制限社員として数えられます。第36条の3第1項5号は、法人の社員のうち、事件ごとにこの3つの基準のいずれかに当たる制限社員が何人いるかを数え、それが社員総数の半数以上であれば、法人自体が業務を行ってはならない、という規律です。
+
 **たとえば**、社員が2人の調査士法人で、そのうち1人が過去に筆界調査委員として関わった事件が持ち込まれた場合、法人としても受任できません。しかし社員が10人いる法人で、制限を受けるのがその1人だけなら「半数以上」に当たらないため、法人としては受任できることになります。人数によって結論が変わる、というのがこの号の特徴です。
 
 なお、個人の調査士を縛る第22条の2第1項は、「**公務員として職務上取り扱った事件**及び**仲裁手続により仲裁人として取り扱った事件**」について業務を行ってはならないと定めています。この規定自体もR2第20問アとH19第20問イで出題され、いずれも条文どおりの記述で正しい肢でした。
@@ -79,6 +91,7 @@
 - **条文の使い分け**：個人は第22条の2、法人は第36条の3。第41条1項の準用は「第20条から第22条まで」で止まっており、第22条の2は法人に準用されない
 - **第22条の2第1項**(個人)：公務員として職務上取り扱った事件・仲裁人として取り扱った事件は業務を行えない(R2第20問ア、H19第20問イ)
 - **第36条の3第1項5号**(法人)：**社員の半数以上**が制限を受ける事件は、法人としても行えない。社員2人中1人なら該当、10人中1人なら非該当(H28第20問エ)
+- **制限社員**(本記事の呼び方)：その事件を個人として扱ったら第22条の2により業務を行えないことになる社員。第1項(公務員・仲裁人)だけでなく、第2項1号〜5号(個人版の利益相反)、第3項(ADR代理版)のいずれかに当たる社員も含む
 - **同意で外れるのは第36条の3第1項3号だけ**。しかも3号の対象は「受任している事件の相手方からの依頼による**他の事件**」に限られる
 - **同意でも外れない**：1号(賛助・依頼の承諾)、2号(信頼関係に基づく協議)、4号(使用人が受任)、5号(社員の半数以上)、6号(特定社員が相手方からADR受任)
 - **第36条の3第2項**(ADR法人のADR業務)にはただし書自体がない
@@ -95,6 +108,7 @@
 - 各過去問の出題年度・問題番号・肢の正誤は、`src/data/takuitsu.json`(法務省公表の正答資料を出典とする検証済みデータベース)および各年度の第20問解説記事(`note-articles/{年度}-mondai/q20-*.md`)と照合しています。
 - **第41条1項の準用範囲について**：同項は「第20条から第22条まで」と定めており、第22条の2(業務を行い得ない事件)は文言上この範囲に含まれません。本記事は、法人の利益相反規制が第36条の3として別途置かれていること、およびH28第20問エの解答上もこの理解が前提とされていることから、「第22条の2は法人に準用されない」という理解を採っています。ただし、この点を明示的に述べた立法解説等の一次資料までは確認できていないため、条文の構造からの解釈である旨を申し添えます。
 - **筆界調査委員が公務員に当たる点について**：H28第20問エは、筆界調査委員として職務上取り扱った事件が第22条の2第1項の「公務員として職務上取り扱つた事件」に当たることを前提としています。この前提は不動産登記法127条(筆界調査委員は法務局又は地方法務局の長が任命し、非常勤とする)に基づくもので、既存のH28第20問解説記事でも同様の理解が採られています。
+- **「制限社員」という呼び方について**：第36条の3第1項5号が数える対象(社員の半数以上の者が第22条の2により業務を行ってはならないこととされる事件)を指す条文上の正式な用語はなく、「制限社員」は本記事が説明の便宜のために付けた呼び方です。この点は第1回で導入した「特定社員」(こちらは第35条2項に条文上の定義がある用語)とは性質が異なるため、混同しないようご留意ください。制限社員の判定基準となる第22条の2第2項1号〜5号の条文(相手方の協議を受けて賛助した事件・信頼関係に基づく協議を受けた事件等)は、いずれも`note-articles/laws/chousashi-hou.md`の条文原文で確認済みです。過去問(H23・H28)で実際に問われたのは、このうち第1項(公務員・仲裁人)の類型と、個人の調査士に第2項1号〜5号(受任事件の相手方からの他事件など)が直接適用される場面であり、「社員の半数以上」の判定において第2項1号〜5号の類型が実際に問題になった過去問は、本記事執筆時点のtakuitsu.jsonの検索範囲では見つかりませんでした。
 
 ---
 
@@ -465,6 +479,125 @@ exactly one former-社員 figure in the same pose, confirm each panel has
 its year tag in the top-right corner, confirm there is no intro
 illustration or paragraph block between the header and the panels, and
 confirm that neither panel contains a full sentence of explanatory prose.
+```
+
+### 画像5：「制限社員」とは何を指すか
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1800 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections plus a small counting
+diagram at the bottom, consistent with a modern explainer-graphic
+aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration plus one short heading and one short conclusion
+tag. Do NOT render any full-sentence explanation or paragraph of body text
+anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+YEAR-TAG REQUIREMENT: Each card carries a small year tag in the TOP-RIGHT
+corner of the card, rendered in a small gray font inside a thin rounded
+outline. Cards with no recorded past-question tag show a gray「―」instead.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「制限社員」とは何か
+個人なら扱えない社員を数える
+
+Subtitle (smaller, centered, 1行):
+条文上の用語ではなく、本シリーズの呼び方です
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列を分けないため、バッジ色は1色に統一する。）
+
+--- CARD 1 (definition card; render it with a dashed dictionary-entry style
+outline to distinguish it visually from the 3 basis cards below) ---
+Badge: a small label reading 定義 (not a numbered badge).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+制限社員＝個人なら扱えない社員
+Illustration: A single isometric社員 figure standing alone, removed from
+the 調査士法人 office building, holding the same 事件 case file that the
+building is currently being asked to handle. A thought-bubble above the
+figure shows a small 第22条の2 tag and a red ✕, meaning「この社員が1人で
+受けたら第22条の2によりできない」.
+Conclusion tag (a short gray banner/pill directly below the illustration,
+5-15 Japanese characters):
+1人だったらできない人
+
+--- CARD 2 ---
+Badge: a filled circle in soft blue containing the number 1.
+Year tag (top-right, small gray text): H28
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+公務員・仲裁人として関与した
+Illustration: An isometric社員 figure wearing a 筆界調査委員 badge from a
+past assignment, with a small 公務員 tag, standing next to the same case
+file marked with a red ✕.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+第22条の2第1項
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue containing the number 2.
+Year tag (top-right, small gray text): ―
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+個人版の利益相反に当たる
+Illustration: An isometric社員 figure being individually approached by a
+相手方 figure for advice (協議), with a small 賛助 or 信頼関係 tag, and
+the same case file marked with a red ✕.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+第22条の2第2項1〜5号
+
+--- CARD 4 ---
+Badge: a filled circle in soft blue containing the number 3.
+Year tag (top-right, small gray text): ―
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+ADR代理でも同じ判定がある
+Illustration: An isometric特定社員 figure (wearing a 特定社員 badge)
+in the same individually-approached pose as Card 3, with a small ADR代理
+tag, and the same case file marked with a red ✕.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+第22条の2第3項
+
+--- COUNTING DIAGRAM (place below the 4 cards, full width) ---
+Render a simple horizontal counting bar: a row of small isometric社員
+silhouette icons representing all members of the firm, with the ones that
+match any of Card 2/3/4's criteria highlighted in red and the rest in
+plain gray. Beside the bar, place a large fraction-style comparison icon
+(highlighted count ／ total count) with a label 半数以上なら法人も不可
+underneath it in a soft red banner.
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This poster has exactly 1 definition
+card (labeled 定義, dashed outline, no number badge) followed by exactly 3
+numbered basis cards (1 through 3, blue, each showing a red ✕ over the
+same case file icon), plus one counting diagram at the bottom. Pay special
+attention to the kanji 制, 限, 社, 員, 個, 人, 調, 査, 士, 法, 事, 件,
+公, 務, 仲, 裁, 協, 議, 賛, 助, 信, 頼, 関, 係, 特, 定, 半, 数, 以, 上 —
+render every one of them in standard Japanese (Jōyō) form, never in
+Simplified Chinese form, even though some of these characters have
+visually similar Simplified Chinese counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there is exactly 1 definition card and
+exactly 3 numbered basis cards plus 1 counting diagram at the bottom, with
+no duplicated or missing cards, confirm every numbered card has its year
+tag in the top-right corner, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose.
 ```
 
 ---
