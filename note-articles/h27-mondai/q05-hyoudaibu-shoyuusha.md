@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】「更正」と「変更」を間違えない〜表題部所有者の登記の直し方〜
+## 【土地家屋調査士受験生向け】平成27年度 第5問〜「更正」と「変更」を間違えない〜
 
 **出題年度：平成27年度　午後の部　第5問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、表題部所有者として登記されている人が結婚して名字が変わったときは、「更正」ではなく「表示変更」の登記で、新しい名字に直します。最初の登記が間違っていたわけではないからです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 更正登記は真の所有者が申請でき、誤記された者からは申請できない（法33条1項） |
-| イ | 正 | 売却は表題部所有者の変更ではなく所有権保存・移転登記による（法32条） |
-| ウ | 誤 | 持分更正は他の共有者の承諾情報が必要で、所有権証明情報は不要（令別表3項） |
-| エ | 正 | 除かれる者の承諾情報＋新所有者の所有権・住所証明情報が必要（令別表2項） |
-| オ | 誤 | 婚姻による氏の変更は「更正」ではなく「変更（表示変更）」の登記（法31条） |
+- **ア（誤）**　更正登記は真の所有者が申請でき、誤記された者からは申請できない
+- **イ（正）**　売却は表題部所有者の変更ではなく所有権保存・移転登記による
+- **ウ（誤）**　持分更正は他の共有者の承諾情報が必要で、所有権証明情報は不要
+- **エ（正）**　除かれる者の承諾情報＋新所有者の所有権・住所証明情報が必要
+- **オ（誤）**　婚姻による氏の変更は「更正」ではなく「変更（表示変更）」の登記
 
 「最初から間違い＝更正」「後から変化＝変更」、そして「権利の移動は権利の登記で」。この2つの物差しで、表題部所有者の登記はほぼ整理できます。
 
@@ -85,15 +83,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「最初から間違い＝更正」「後から変化＝変更・移転」という本問の軸に沿って、更正登記側3枚・変更/移転登記側2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+「更正登記のルール」（ア・ウ・エ＝列A・緑）と「変更登記のルール」（イ・オ＝列B・青）という2つの軸に沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric registry ledger
-books, correction pen/eraser icons, official stamps, name tags, wedding
-rings, moving arrows — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric registry boards,
+land plots, document/certificate icons, wedding-ring icons, name-tag
+labels, torn paper labels, arrows between owners, etc. — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,105 +112,100 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・対・記・更・正・変・証, which have Simplified Chinese look-alike
-forms with visibly different stroke shapes — always draw the standard
-Japanese (Jōyō) form of these characters.
+kanji 表・題・部・所・有・者・更・正・変・持・分・承・諾・証・明・情・報・住・登・
+記・保・存・移・転・姻・氏 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 「更正」と「変更」を間違えない
-表題部所有者の登記の直し方
 
 Subtitle (smaller, centered, 1行):
-最初から間違いか、後から変化したかで手続が変わる
-(平成27年度 午後の部 第5問)
+平成27年度 午後の部 第5問－表題部所有者の登記の直し方
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric registry ledger book split down the middle
-by a dotted line; the left half shows a correction pen fixing a
-mistaken name tag (labeled "更正"), the right half shows an arrow
-showing a name tag being swapped for a new one over time (labeled
-"変更・移転").
-表題部所有者の登記を直す場面では、「最初から間違っていたのか(更正)」
-「後から事情が変わったのか(変更)」の区別がまず重要です。さらに、
-売却のような権利の移動は表題部の登記ではなく所有権の登記で扱う、
-という切り分けもポイントになります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-更正登記のルール(最初から間違い)
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+更正登記のルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-更正登記を申請できるのは真の所有者。誤記された者からはできない
-Illustration: An isometric ledger page showing the name "A" mistakenly
-recorded as owner, with a prohibition (X) mark over A's hand reaching
-for the correction pen, while a separate figure labeled "真の所有者B"
-holds the correction pen with a checkmark.
-Caption (small text below):
-表題部所有者として誤って記録された者(A)ではなく、真実の所有者(B)が
-更正の登記を申請することができる(不動産登記法33条1項)。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+更正できるのは真の所有者だけ
+Illustration: An isometric registry board reading "表題部所有者：A". A
+separate figure labeled "真の所有者B" stands pointing at himself holding a
+document. Figure A raises a hand toward the board but has a red X mark
+over the gesture and a label "Aからは不可"; B stamps a document "更正登記
+申請" with a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+真の所有者のみ申請可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-持分の更正には他の共有者の承諾情報が必要。所有権証明情報は不要
-Illustration: An isometric ledger page showing two persons' mistaken
-percentage tags ("3/5" and "2/5") being swapped, with a signed consent
-document icon labeled "承諾情報" being handed over, while a separate
-"所有権証明情報" document icon is crossed out as unnecessary.
-Caption (small text below):
-表題部所有者の持分の更正登記では、他の共有者の承諾を証する情報の
-提供が必要だが、所有権を証する情報の添付は不要(不動産登記令別表
-3項添付情報)。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+持分更正は承諾書だけで足りる
+Illustration: An isometric land plot split between A and B with wrong
+share numbers "5分の3" and "5分の2" crossed out and corrected to "5分の
+2" and "5分の3". A holds a document "Bの承諾情報" with a green checkmark.
+A second document labeled "所有権証明情報" has a red X mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+所有権証明情報は不要
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-人を入れ替える更正には、承諾情報＋所有権・住所証明情報が必要
-Illustration: An isometric ledger page showing person "B" being erased
-and person "C" being added as co-owner, with three document icons lined
-up beside the ledger: a consent form from B, a proof-of-ownership
-document for C, and an address certificate for C.
-Caption (small text below):
-表題部所有者から除かれる者の承諾情報に加えて、新たに加わる真の
-所有者の所有権を証する情報及び住所を証する情報を併せて提供する
-(不動産登記令別表2項添付情報)。
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+人を入れ替える更正は書類三点セット
+Illustration: A registry board changing from "表題部所有者：A・B" to
+"表題部所有者：A・C". Figure B holds a document "承諾情報" with a green
+checkmark. New owner C holds two documents, "所有権証明情報" and
+"住所証明情報", both with green checkmarks.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾情報＋証明情報二種
 
---- COLUMN B HEADER (pill-shaped badge) ---
-変更・移転登記のルール(後から変化)
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+変更登記のルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-売却による所有者の交代は、表題部所有者の変更登記ではなく保存・移転登記による
-Illustration: An isometric two-step diagram: step 1 shows a "所有権
-保存登記" stamp being applied to seller A's name in the registry
-ledger; step 2 shows an arrow moving the ownership from A to buyer B
-labeled "所有権移転登記", with the "表題部所有者欄" itself remaining
-untouched and crossed out as not the right place to record this.
-Caption (small text below):
-表題部所有者が土地を売却しても、表題部所有者の変更登記ではなく、
-所有権の保存登記・移転登記で対応する(不動産登記法32条)。
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+売却は「変更」でなく保存・移転登記
+Illustration: An isometric land plot with an arrow from A to B labeled
+"表題部所有者の変更登記" that has a red X mark over it. Instead, a two-step
+arrow is shown: "所有権保存登記（A）" followed by "所有権移転登記（B）",
+both marked with green checkmarks.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+保存・移転登記で処理
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-婚姻による氏の変更は「更正」ではなく「変更」の登記
-Illustration: An isometric ledger page showing a name tag with a
-wedding ring icon beside it, an arrow labeled "表示変更登記" pointing
-to the new surname being written in, while a correction pen icon
-(representing 更正) is crossed out beside it.
-Caption (small text below):
-表題部所有者の氏名が婚姻により後発的に変わった場合は、「更正」では
-なく「表題部所有者の表示変更の登記」で対応する(不動産登記法31条)。
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+結婚で氏が変わったら「変更」登記
+Illustration: A person icon with a name tag changing from an old surname
+to a new surname beside a wedding-ring icon. A document labeled "表題部
+所有者の表示変更登記" has a green checkmark, while a separate label
+"更正" has a red X mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+更正でなく変更
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度 午後の部 第5問
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 更正できるのは真の所有者だけ
+2. 持分更正は承諾書だけで足りる
+3. 人を入れ替える更正は書類三点セット
+4. 売却は「変更」でなく保存・移転登記
+5. 結婚で氏が変わったら「変更」登記
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・対・記・更・正・変・証. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly (3 cards under 更正
-登記のルール, 2 cards under 変更・移転登記のルール), with no duplicated
-or missing cards, and confirm every heading, illustration label, and
-caption text matches the Japanese text given above verbatim, with no
-paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

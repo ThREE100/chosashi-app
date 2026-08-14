@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】建物の滅失登記、相続登記を経なくても申請できるんです〜令和6年度第17問・建物の滅失の登記を解説〜
+## 【土地家屋調査士受験生向け】令和6年度 第17問〜相続登記を経なくても滅失登記できる〜
 
 **出題年度：令和6年度　午後の部　第17問**
 
@@ -50,13 +50,13 @@
 
 **たとえば**、Ａさんが自宅の古材を使って別の土地に同じ間取りの家を建て直した場合、見た目が同じでも元の家とは別物として扱われるため、元の自宅については滅失登記の申請が必要になります。
 
-### まとめ
+### まとめ表
 
-- **ア（誤）**　抵当権者の承諾を証する情報は提供不要
-- **イ（誤）**　相続登記を経なくても相続人が滅失登記を申請できる
-- **ウ（正）**　一棟の滅失登記は区分建物の所有者の一人から申請できる
-- **エ（誤）**　所有権移転の仮登記名義人は滅失登記を申請できない
-- **オ（正）**　材料を用いて別の土地に建て直した場合は元の建物の滅失登記が必要
+- **ア（誤）** 抵当権者の承諾を証する情報は提供不要
+- **イ（誤）** 相続登記を経なくても相続人が滅失登記を申請できる
+- **ウ（正）** 一棟の滅失登記は区分建物の所有者の一人から申請できる
+- **エ（誤）** 所有権移転の仮登記名義人は滅失登記を申請できない
+- **オ（正）** 材料を用いて別の土地に建て直した場合は元の建物の滅失登記が必要
 
 滅失登記は「誰が申請できるか」を、所有権登記名義人・その相続人・区分建物の共有者の一人まで正確に広げられるかが勝負どころです。
 
@@ -84,13 +84,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+建物の滅失登記について「誰が申請できるか」と「添付情報・建物の同一性の判断」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric houses, demolition
+scaffolding, apartment buildings, official documents, hanko stamps,
+provisional-registration tags, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,63 +113,92 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Note: this prompt contains kanji that are easily confused with Simplified
-Chinese variants, especially 登・記・建・物・権. Render these strictly in
-their standard Japanese (Jōyō) forms, never as simplified hanzi.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・建・物・登・記・所, which appear repeatedly below and have
+Simplified Chinese variants with visibly different stroke shapes — always
+draw the standard Japanese (Jōyō) form.
 
 --- HEADER ---
-Title (large, bold, 1行):
-建物の滅失登記、申請できる人を正確に押さえる
+Title (large, bold, 2行):
+建物の滅失登記
+5つの正しいルール
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第17問｜建物の滅失の登記
+令和6年度　午後の部　第17問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 取り壊された建物の跡地のアイソメトリックイラスト。所有権登記名義人・相続人・区分建物の共有者などの人物アイコンが並ぶ。
-建物の滅失登記は、建物という物理的な客体が無くなった事実を公示するだけの登記です。誰が申請できるか、どんな添付情報が必要かを、権利登記の感覚と混同せずに整理できるかがポイントです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-抵当権者の承諾は、滅失登記に不要
-Illustration: 抵当権付きの自宅を取り壊すアイソメトリックイラスト。銀行(抵当権者)の承諾書アイコンにバツ印。
-Caption (small text below):
-抵当権者の承諾を証する情報は提供不要
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+誰が申請できるか
 
---- CARD 2 ---
-Heading (bold):
-相続登記を経なくても、相続人が滅失登記を申請できる
-Illustration: 亡くなった父A(人物アイコン)から相続人B(人物アイコン)への矢印。倒壊した実家のアイソメトリックイラスト。相続登記の書類にバツ印、滅失登記の書類にチェックマーク。
-Caption (small text below):
-相続登記を経なくても相続人が滅失登記を申請できる
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously through all 5 cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+相続登記なしで相続人が申請可
+Illustration: 古い一戸建てが倒壊している様子。手前に相続人とおぼしき人物が
+申請書を窓口に提出しているアイソメトリックイラスト。「相続を原因とする
+所有権の移転の登記」というラベルの上に大きな赤いX印（不要であることを
+示す）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+相続登記は不要
 
---- CARD 3 ---
-Heading (bold):
-一棟の滅失登記は、区分建物の所有者の一人から申請できる
-Illustration: 火災で全焼したマンション一棟のアイソメトリックイラスト。複数の所有者アイコンのうち1人だけが滅失登記の申請書類を提出。
-Caption (small text below):
-一棟の滅失登記は区分建物の所有者の一人から申請できる
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+区分建物の滅失は一人で申請可
+Illustration: 火災で全焼したマンション一棟のアイソメトリックイラスト。
+複数の住人アイコンが並ぶ中、そのうち一人だけが申請書を提出しており、
+他の住人アイコンは背景で控えめに描かれている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一人で申請できる
 
---- CARD 4 ---
-Heading (bold):
-仮登記の名義人は、滅失登記を申請できない
-Illustration: 所有権移転の仮登記名義人(人物アイコン)から滅失登記の書類への矢印にバツ印。
-Caption (small text below):
-所有権移転の仮登記名義人は滅失登記を申請できない
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+仮登記の名義人は申請できない
+Illustration: 「所有権の移転の仮登記」というラベルが付いた書類を持つ人物に
+大きな赤いX印。隣に「所有権の登記名義人」というラベルの書類を持つ別の
+人物には緑のチェックマーク。二人を対比させる構図。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請人になれない
 
---- CARD 5 ---
-Heading (bold):
-材料を使って建て直したら、元の建物の滅失登記が必要
-Illustration: 取り壊した建物の古材を使って別の土地に同じ間取りの家を建てるアイソメトリックイラスト。元の建物に「滅失登記が必要」のラベル付き書類アイコン。
-Caption (small text below):
-材料を用いて別の土地に建て直した場合は元の建物の滅失登記が必要
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+添付情報・建物の同一性
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously — this is card 4, following cards 1-3 in column A).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+抵当権者の承諾は不要
+Illustration: 抵当権のマークが付いた建物が取り壊されているアイソメトリック
+イラスト。銀行を思わせる建物アイコンから伸びる「承諾書」に大きな赤いX印。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+承諾書は不要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+同じ材料で建て直しても別物扱い
+Illustration: 左側に取り壊し中の建物がある元の土地、右側に同じ形・同じ材料で
+建てられた新しい建物がある離れた土地。二つの土地を点線の矢印でつなぎ、
+元の建物に「滅失登記が必要」というラベルを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+同一性はない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+standard Japanese (Jōyō) form, not Simplified Chinese, especially for
+権・建・物・登・記・所. If any character renders as a Simplified Chinese
+variant, redraw that character in the correct Japanese form. Confirm the
+number of cards equals 5 exactly, with badge numbers running 1-5
+continuously across both columns without resetting (3 cards in column A:
+誰が申請できるか, 2 cards in column B: 添付情報・建物の同一性), with no
+duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```

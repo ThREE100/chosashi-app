@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】調査士・調査士法人のルール、届出先と脱退・取消の仕組み 令和7年度第20問を解説
+## 【土地家屋調査士受験生向け】令和7年度 第20問〜登録取消と同時に法人を自動脱退〜
 
 **出題年度：令和7年度　午後の部　第20問**
 
@@ -52,11 +52,13 @@
 
 ### まとめ
 
-- **ア（誤）**　定款変更の届出先は法務局ではなく所属の調査士会及び連合会の両方（法34条2項）
-- **イ（正）**　補助者を置かなくなったときは所属の調査士会に届け出る（施行規則23条2項）
-- **ウ（誤）**　調査士は事務所を二以上設けることができない（施行規則18条）
-- **エ（正）**　登録を取り消された社員は法人を当然に脱退する（法38条）
-- **オ（誤）**　心身の故障による登録取消は義務ではなく裁量（法16条1項2号）
+- **ア（誤）**　定款変更の届出先は法務局ではなく所属の調査士会及び連合会の両方
+- **イ（正）**　補助者を置かなくなったときは所属の調査士会に届け出る
+- **ウ（誤）**　調査士は事務所を二以上設けることができない
+- **エ（正）**　登録を取り消された社員は法人を当然に脱退する
+- **オ（誤）**　心身の故障による登録取消は義務ではなく裁量
+
+土地家屋調査士・調査士法人のルールは、届出先の使い分けと、登録取消が義務か裁量かを条文ごとに正確に押さえておきましょう。
 
 **正解：イ・エの組合せ（選択肢4番）**
 
@@ -79,13 +81,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+土地家屋調査士・調査士法人に関する5肢を「届出のルール」と「登録取消のルール」という2つの軸に沿って、すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric office buildings,
+government bureau buildings, association halls, documents, stamps, torn
+paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -93,64 +110,77 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Special caution: kanji such as 調・査・士・登・録・建・物・所 are especially
-prone to being rendered as Simplified Chinese variants. Draw every
-instance of these characters in their correct standard Japanese (Jōyō) form.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・録・登・所 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 1行):
-調査士・調査士法人、届出先と脱退・取消のルール
+Title (large, bold, 2行):
+調査士・調査士法人のルール
+届出先と脱退・取消
 
 Subtitle (smaller, centered, 1行):
-令和7年度　午後の部　第20問／土地家屋調査士又は土地家屋調査士法人
+令和7年度 午後の部 第20問－義務なのか裁量なのかを検証
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 調査士バッジを持つ人物アイコンと、法務局・調査士会・連合会の3つの建物アイコンが並ぶ。矢印がそれぞれ異なる届出先を示す。
-土地家屋調査士・調査士法人に関する届出は、「どこに届け出るか」「取消は義務なのか裁量なのか」を見分けるのがポイントです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-定款変更の届出先は、法務局ではなく所属の調査士会及び連合会
-Illustration: 調査士法人の建物アイコンから、定款変更の書類が法務局の建物に向かう矢印に✕印。代わりに調査士会と日本土地家屋調査士会連合会、2つの建物に届く矢印。
-Caption (small text below):
-定款変更、法務局じゃなく調査士会と連合会へ
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+届出のルール
 
---- CARD 2 ---
-Heading (bold):
-補助者を置かなくなったときは、所属の調査士会に届け出る
-Illustration: 補助者のアイコンが退職して事務所から去る様子。調査士のアイコンが調査士会の建物に届出書類を提出している。
-Caption (small text below):
-補助者がいなくなったら、調査士会に報告
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+定款変更は調査士会と連合会へ
+Illustration: 土地家屋調査士法人のスタッフが「定款変更届出書」というラベルの書類を手に持っている。法務局の建物には大きな赤い✕印。主たる事務所の所在地の土地家屋調査士会の建物と、日本土地家屋調査士会連合会の建物の両方に向かって矢印が伸びている。書類の近くに「変更の日から2週間以内」という小さなラベルを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+法務局ではない
 
---- CARD 3 ---
-Heading (bold):
-調査士は事務所を二以上設けることができない
-Illustration: 東京の事務所アイコンから大阪への2つ目の事務所アイコンに向かう矢印に✕印。「事務所は一つだけ」のラベル。
-Caption (small text below):
-調査士の事務所は、そもそも1つだけです
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+補助者がいなくなったら調査士会へ届出
+Illustration: 調査士の事務所の机の隣にあった補助者用の椅子が空になっている様子。調査士のキャラクターが「補助者廃止届」というラベルの書類を持ち、土地家屋調査士会の建物に向かって矢印を伸ばしている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+遅滞なく届出
 
---- CARD 4 ---
-Heading (bold):
-登録を取り消された社員は、法人を当然に脱退する
-Illustration: 調査士法人の建物アイコンの中にいる社員アイコンに「登録取消」のスタンプが押されると同時に、法人の建物から外へ自動的に出ていく矢印。
-Caption (small text below):
-登録取消と同時に、法人からも自動退場
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+調査士の事務所は一人一つだけ
+Illustration: 1つ目の調査士事務所の建物アイコンには緑色の丸印。2つ目の事務所の建物アイコン（別の都道府県に見立てた地図の上）には大きな赤い✕印。日本土地家屋調査士会連合会の建物から「届出」という矢印が伸びているが、それでも2つ目の建物には✕印が重ねて描かれている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+二以上は不可
 
---- CARD 5 ---
-Heading (bold):
-心身の故障による登録取消は、義務ではなく裁量
-Illustration: 体調を崩した調査士のアイコンの横で、日本土地家屋調査士会連合会の建物アイコンが「取り消さなければならない」の吹き出しに✕印、「取り消すことができる」の吹き出しに丸マーク。
-Caption (small text below):
-「取り消さなければ」じゃなくて、裁量なんです
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+登録取消のルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+登録取消で法人を当然脱退
+Illustration: 土地家屋調査士法人の建物の中に、社員である調査士のキャラクターが数人並んでいる。そのうち1人に「登録取消」というスタンプが押された瞬間、矢印でそのキャラクターが自動的に建物の外へ押し出されている。追加の書類アイコンには✕印を添え、特別な手続きが不要であることを示す。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+当然に脱退
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+心身の故障による取消は裁量
+Illustration: 体調不良を示す土地家屋調査士のキャラクター（布団と体温計のアイコン）と、日本土地家屋調査士会連合会の建物。連合会から伸びる矢印の先に天秤（バランス）のアイコンがあり、「取り消すことができる」というラベルを添える。「取り消さなければならない」という文字列には赤い✕印を重ねる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+義務ではない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験　令和7年度　午後の部
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

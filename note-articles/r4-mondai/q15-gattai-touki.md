@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】合体の登記原因は「新築、新築、合体」って書くんです〜令和4年度第15問・合体による登記等を解説〜
+## 【土地家屋調査士受験生向け】令和4年度 第15問〜合体の登記原因は「新築、新築、合体」って書くんです〜
 
 **出題年度：令和4年度　午後の部　第15問**
 
@@ -26,7 +26,7 @@
 
 ### イ：表題登記がない建物の共有者Aは、単独で申請できる
 
-建物の合体による登記等は報告的登記であり、申請義務が課されるとともに、保存行為として共有者の一人や相続人の一人から申請することができます（民法252条ただし書、平5.7.30民三5320号）。よって、表題登記がない甲建物の共有者Aは、単独で合体による登記等を申請できます。本肢は正しい記述です。
+建物の合体による登記等は報告的登記であり、申請義務が課されるとともに、保存行為として共有者の一人や相続人の一人から申請することができます（民法252条5項）。よって、表題登記がない甲建物の共有者Aは、単独で合体による登記等を申請できます。本肢は正しい記述です。
 
 **たとえば**、A・B共有の未登記建物、C・Dが表題部所有者の建物、E・Fが所有権登記名義人の建物という3棟が合体したとき、関係者全員をそろえなくても、Aさん一人で合体による登記等を申請することができます。
 
@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 更正で表題部所有者となった者は更正登記から1か月以内に申請（法49条4項） |
-| イ | 正 | 表題登記がない建物の共有者は単独で申請できる（報告的登記・保存行為） |
-| ウ | 誤 | 区分建物の隔壁除去で1個にしたら合体による登記等ができる（法49条1項5号） |
-| エ | 誤 | 表題登記なし＋所有権登記ありの合体は所有権登記も併せて申請（法49条1項2号） |
-| オ | 誤 | 未登記建物どうしの合体は「新築、新築、合体」と記録（法49条2項） |
+- **ア（正）** 更正で表題部所有者となった者は更正登記から1か月以内に申請
+- **イ（正）** 表題登記がない建物の共有者は単独で申請できる（報告的登記・保存行為）
+- **ウ（誤）** 区分建物の隔壁除去で1個にしたら合体による登記等ができる
+- **エ（誤）** 表題登記なし＋所有権登記ありの合体は所有権登記も併せて申請
+- **オ（誤）** 未登記建物どうしの合体は「新築、新築、合体」と記録
 
 「合体は報告的登記なので共有者の一人から申請できる」「登記原因は新築日も合体日も書く」という2点が、正解のア・イとその他の誤りを見分けるポイントです。
 
@@ -68,8 +66,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（1番＝ア・イ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
-- 各肢の根拠（ア＝法49条4項、イ＝民252条ただし書・平5.7.30民三5320号、ウ＝法49条1項5号、エ＝法49条1項2号、オ＝法49条2項）は、データベースのexplanationフィールドに記載のものを転記しています。
+- 各肢の根拠（ア＝法49条4項、イ＝民252条5項・平5.7.30民三5320号、ウ＝法49条1項5号、エ＝法49条1項2号、オ＝法49条2項）は、データベースのexplanationフィールドに記載のものを転記しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
+- 【2026-08-03修正】肢イの根拠条文「民法252条ただし書」は、令和5年4月1日施行の共有制度見直し（民法等の一部を改正する法律）により、保存行為の規定がただし書から独立した第5項（「各共有者は、前各項の規定にかかわらず、保存行為をすることができる。」）に移動しています。内容（共有者の一人が単独で保存行為＝合体による登記等の申請ができること）自体に変更はありませんが、条文引用を現行法に合わせて「民法252条5項」に修正しました（本文中の肢イ解説、および本項目を修正）。
 
 ---
 
@@ -85,15 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-合体による登記等について、申請人・申請義務に関する原則（ア・イ）と、登記の内容・登記原因に関する原則（ウ・エ・オ）を、2枚・3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。誤りと判定されたウ・エ・オは、正しいルールに直したうえで図解している。
+合体による登記等について、「申請人・申請義務に関する原則」2枚と、「登記の内容・登記原因に関する原則」3枚、計5枚の通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, merging
 houses, official stamps/seals, ledger books, calendar/clock icons,
 documents, arrows — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,49 +112,38 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 合・体・登・記・請・義・務・単・独・権, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 合・体・登・記・請・義・務・単・独・権 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-合体の登記原因は
-「新築、新築、合体」って書くんです
+Title (large, bold, 1行):
+合体の登記原因は「新築、新築、合体」って書くんです
 
 Subtitle (smaller, centered, 1行):
-合体による登記等を解説(令和4年度 午後の部 第15問)
+令和4年度 午後の部 第15問－合体による登記等の申請人・申請義務・登記原因
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing two
-separate small house-shaped building icons labeled "甲建物" and "乙建物"
-moving toward each other along a dotted arrow and merging into one larger
-house icon, with a red stamp icon reading "合体" placed at the point
-where they join, and a small document icon beside it labeled "登記".
-「合体」は、複数の建物が物理的にくっついて1個の建物になることです。合体に
-よる登記等は、合体後の建物の表題登記と、合体前の建物の表題部の登記の抹消
-をまとめて行う、少し特殊な報告的登記です。申請人・申請義務・登記原因の
-書き方を確認しましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 申請人・申請義務に関する原則
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-更正で表題部所有者となった者は、その更正登記から1か月以内に申請
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+更正で所有者になったら1か月以内に申請
 Illustration: An isometric registry ledger page for 甲建物 with a red
 "更正" stamp being applied to a name tag labeled "表題部所有者", a small
 person icon appearing next to the corrected tag, and an arrow pointing to
 a calendar/clock icon marked "1か月以内" beside a document labeled
 "合体による登記等の申請".
-Caption (small text below):
-合体して1個の建物となった後に、合体前の表題登記がある建物の表題部所有者
-が更正された場合、更正により表題部所有者となった者は、その更正の登記が
-あった日から1か月以内に、合体による登記等を申請しなければならない
-(不動産登記法49条4項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1か月以内に申請
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-表題登記がない建物の共有者Aは、単独で申請できる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題登記なし建物の共有者は単独申請可
 Illustration: An isometric scene showing three separate buildings — one
 gray silhouette house labeled "表題登記なし" with two small figures "A"
 and "B" beside it, one house labeled "表題登記のみ" with figures "C" and
@@ -152,66 +151,58 @@ and "B" beside it, one house labeled "表題登記のみ" with figures "C" and
 merging into a single building, with only the figure "A" stepping forward
 alone to hand a document stamped "申請" to a registry office window,
 while the other figures remain in the background.
-Caption (small text below):
-合体による登記等は報告的登記であり、申請義務が課されるとともに、保存
-行為として共有者の一人や相続人の一人から申請することができる(民法252条
-ただし書、平5.7.30民三5320号)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+単独申請でOK
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 登記の内容・登記原因に関する原則
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-区分建物の隔壁を除去して1個にしたら、合体による登記等ができる
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物の隔壁除去も合体扱い
 Illustration: An isometric building divided into two adjoining 区分建物
 units labeled "甲建物" and "乙建物" separated by a dividing wall (隔壁);
 a hammer/demolition icon removes the wall, and an arrow shows the two
 units becoming one single non-divided building, with a stamp reading
 "合体による登記等" replacing a crossed-out prohibition icon.
-Caption (small text below):
-一棟の建物に属する区分建物である甲建物及び乙建物の隔壁を除去して1個の
-区分建物でない建物としたときは、甲建物及び乙建物の所有権の登記名義人は、
-合体による登記等を申請することができる(不動産登記法49条1項5号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+合体登記等が可能
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-表題登記なし＋所有権登記ありの合体は、所有権登記も併せて申請
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+未登記＋所有権登記の合体は所有権登記も併記
 Illustration: An isometric scene showing an untagged gray building
 labeled "表題登記なし・甲建物" and a titled building labeled "所有権登記
 あり・乙建物" merging into one building; two documents — one labeled
 "合体による登記等" and one labeled "所有権の保存の登記" — are clipped
 together with a paperclip icon and a small tag reading "併せて申請".
-Caption (small text below):
-表題登記がない甲建物と所有権の登記がある乙建物が合体した場合には、合体後
-の建物について、甲建物の所有者を登記名義人とする所有権の保存の登記を、
-合体による登記等と併せて申請することになる(不動産登記法49条1項2号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所有権登記も必要
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-表題登記のない建物どうしの合体は「新築、新築、合体」と記録
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+未登記建物どうしの合体は新築・新築・合体
 Illustration: An isometric ledger entry showing two untagged small houses
 labeled "甲建物" and "乙建物" merging into one house above a row of three
 sequential date stamps reading "年月日新築", "年月日新築", and
 "年月日合体" connected by arrows, forming the登記原因 line of a
 registration document.
-Caption (small text below):
-いずれも表題登記がない甲建物及び乙建物が合体して1個の建物となった場合、
-表題登記の登記原因及びその日付は「年月日新築、年月日新築、年月日合体」
-のように、合体前の各建物の新築年月日と合体の年月日を記録する
-(不動産登記法49条2項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+三段で記録
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和4年度 午後の部 第15問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 合・体・登・記・請・義・務・単・独・権. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (2
-cards under 申請人・申請義務に関する原則, 3 cards under 登記の内容・登記
-原因に関する原則), with no duplicated or missing cards, and confirm
-every heading, illustration label, and caption text matches the Japanese
-text given above verbatim, with no paraphrasing and no substituted
-characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

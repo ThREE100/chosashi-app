@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】「添付書類は全部3か月以内」は思い込みなんです〜土地の表示に関する登記の申請情報・添付情報を解説〜
+## 【土地家屋調査士受験生向け】平成28年度 第6問〜「3か月以内」は万能ルールじゃない〜
 
 **出題年度：平成28年度　午後の部　第6問**
 
@@ -50,15 +50,13 @@
 
 **たとえば**、株式会社が所有する土地について、農地から宅地への地目の変更登記を申請する場合、その会社の登記事項証明書の添付を省略できる代わりに、会社法人等番号を申請情報に含めて提供する必要があります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 表題登記の住所証明情報（印鑑証明書）に3か月以内の制限はない |
-| イ | 正 | 分筆後の土地の所在・地目・地積は申請情報の内容としなければならない |
-| ウ | 誤 | 資格者代理人作成の本人確認情報に3か月以内の制限はない |
-| エ | 正 | 申請のためだけに作成した委任状は原本還付できない |
-| オ | 正 | 会社法人等番号を有する法人は地目変更登記でも番号提供が必要 |
+- **ア（誤）**　表題登記の住所証明情報（印鑑証明書）に3か月以内の制限はない
+- **イ（正）**　分筆後の土地の所在・地目・地積は申請情報の内容としなければならない
+- **ウ（誤）**　資格者代理人作成の本人確認情報に3か月以内の制限はない
+- **エ（正）**　申請のためだけに作成した委任状は原本還付できない
+- **オ（正）**　会社法人等番号を有する法人は地目変更登記でも番号提供が必要
 
 「3か月以内」という期間制限は、すべての添付書類に一律に課されているわけではなく、条文や登記の種類ごとに個別に定められている点に注意しましょう。
 
@@ -88,13 +86,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地の表示に関する登記の申請情報・添付情報をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+土地の表示に関する登記をめぐる添付情報・申請情報の5つの原則を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric certificate stamps, application forms, calendars, corporate buildings, seals — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric certificate stamps,
+application forms, calendars, corporate buildings, seals — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,9 +114,9 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 号・地・番・記・所・証・還, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -115,49 +126,78 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 土地の表示に関する登記の申請情報・添付情報を整理(平成28年度 午後の部 第6問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric stack of various attached document icons, some stamped with a calendar reading 3か月以内 and others stamped 期限なし, visually contrasting which documents actually carry an expiry rule.
-表題登記の住所証明情報、分筆登記の申請情報、資格者代理人の本人確認情報、委任状の原本還付、会社法人等番号の提供という5つの場面を通じて、添付情報の期間制限と記載義務を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
 --- CARD 1 ---
-Heading (bold):
-表題登記の住所証明書に、3か月の期限はない
-Illustration: An isometric 印鑑に関する証明書 icon with a calendar stamped 期限なし beside it, contrasted with a separate crossed-out calendar reading 3か月以内.
-Caption (small text below):
-土地の表題登記で提供する住所を証する情報(印鑑証明書)には、作成後3か月以内という制限はない。
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+住所証明書に3か月の期限なし
+Illustration: An isometric 印鑑に関する証明書 icon with a calendar
+stamped 期限なし beside it, contrasted with a separate crossed-out
+calendar reading 3か月以内.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+期限の定めなし
+
 --- CARD 2 ---
-Heading (bold):
-分筆後の土地の所在・地目・地積は、必ず書く
-Illustration: An isometric application form icon listing three fields — 所在, 地目, 地積 — each with a bright checkmark stamped beside it.
-Caption (small text below):
-分筆の登記では、分筆後の土地の所在・地目・地積を申請情報の内容としなければならない(不動産登記令別表7項)。
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+所在・地目・地積は必須記載
+Illustration: An isometric application form icon listing three fields —
+所在, 地目, 地積 — each with a bright checkmark stamped beside it.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+地目・地積も必須
+
 --- CARD 3 ---
-Heading (bold):
-資格者代理人の確認情報にも、3か月の期限はない
-Illustration: An isometric 資格者代理人 figure holding a document labeled 本人確認情報 with a 期限なし stamp, using the same visual pattern as the first card's contrast.
-Caption (small text below):
-資格者代理人が作成する本人確認情報には、作成後3か月以内という期間制限は課されていない。
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+本人確認情報にも期限なし
+Illustration: An isometric 資格者代理人 figure holding a document labeled
+本人確認情報 with a 期限なし stamp, using the same visual pattern as the
+first card's contrast.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+3か月ルールなし
+
 --- CARD 4 ---
-Heading (bold):
-その申請のためだけの委任状は、返してもらえない
-Illustration: An isometric 委任状 document stamped この申請のためにのみ作成 being filed away permanently with no return arrow, contrasted with a general-purpose document being handed back to its owner.
-Caption (small text below):
-当該登記の申請のためにのみ作成された委任状は、原本還付を請求できない(不動産登記規則55条1項ただし書)。
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+専用委任状は原本還付不可
+Illustration: An isometric 委任状 document stamped この申請のためにのみ
+作成 being filed away permanently with no return arrow, contrasted with a
+general-purpose document being handed back to its owner.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+原本還付は不可
+
 --- CARD 5 ---
-Heading (bold):
-会社法人等番号は、地目変更でも必要
-Illustration: An isometric corporate building icon with a number badge labeled 会社法人等番号 attached, being submitted alongside an application form for 地目の変更の登記.
-Caption (small text below):
-会社法人等番号を有する法人が地目の変更の登記を申請する場合も、当該番号の提供が必要(不動産登記令7条1項1号イ)。
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地目変更でも法人番号必要
+Illustration: An isometric corporate building icon with a number badge
+labeled 会社法人等番号 attached, being submitted alongside an application
+form for 地目の変更の登記.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+番号提供は必須
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第6問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+attention to 号・地・番・記・所・証・還. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as a
+short heading + a short conclusion tag, at a glance. Confirm the 5 card
+headings are exactly: (1) 住所証明書に3か月の期限なし／(2) 所在・地目・
+地積は必須記載／(3) 本人確認情報にも期限なし／(4) 専用委任状は原本還付
+不可／(5) 地目変更でも法人番号必要 — do not merge, omit, duplicate, or
+reword any of these five headings.
 ```

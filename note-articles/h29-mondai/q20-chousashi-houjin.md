@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】調査士法人、実は1人でも設立できるんです〜社員数の改正に注意〜平成29年度午後の部 第20問を解説〜
+## 【土地家屋調査士受験生向け】平成29年度 第20問〜調査士法人、実は1人でも設立できるんです〜
 
 **出題年度：平成29年度　午後の部　第20問**
 
@@ -32,7 +32,7 @@
 
 ### ウ：登録の取消しがあれば、社員は当然に脱退する
 
-土地家屋調査士法人の社員は、土地家屋調査士でなければなりません（土地家屋調査士法28条1項）。社員である調査士について登録の取消しがあった場合は、その社員資格の前提が失われるため、当然に社員を脱退することになります（土地家屋調査士法39条1項1号・2号）。総社員の同意は不要です。「総社員の同意がなければ、当該法人の社員を脱退することはない」とする本肢は誤りです。
+土地家屋調査士法人の社員は、土地家屋調査士でなければなりません（土地家屋調査士法28条1項）。社員である調査士について登録の取消しがあった場合は、その社員資格の前提が失われるため、当然に社員を脱退することになります（土地家屋調査士法38条1号）。総社員の同意は不要です。「総社員の同意がなければ、当該法人の社員を脱退することはない」とする本肢は誤りです。
 
 **たとえば**、法人の社員である調査士が、何らかの事情で調査士としての登録を取り消されてしまったとします。この場合、他の社員たちが「脱退させないでおこう」と同意したとしても、法律上は当然に社員としての地位を失い、脱退することになるのです。
 
@@ -48,15 +48,13 @@
 
 **たとえば**、これから調査士法人を設立しようとする調査士が1人しかいない場合でも、現行法では、その1人だけで定款を作って法人を立ち上げることができます。「仲間をもう1人見つけてこないと法人を作れない」というわけではなくなっているのです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 代表社員は定款又は総社員の同意で定められる（調査士法35条の2第1項） |
-| イ | 正 | 社員は全員、業務執行の権利を有し義務を負う（調査士法35条1項） |
-| ウ | 誤 | 登録の取消しがあれば、総社員の同意なく当然に脱退する（調査士法39条1項1号・2号） |
-| エ | 正 | 事務所には管轄区域内の調査士会の会員社員を常駐させる（調査士法36条1項） |
-| オ | 誤 | 現行法では調査士1人でも法人を設立できる（令和2年改正・調査士法26条） |
+- **ア（正）**　代表社員は定款又は総社員の同意で定められる
+- **イ（正）**　社員は全員、業務執行の権利を有し義務を負う
+- **ウ（誤）**　登録の取消しがあれば、総社員の同意なく当然に脱退する
+- **エ（正）**　事務所には管轄区域内の調査士会の会員社員を常駐させる
+- **オ（誤）**　現行法では調査士1人でも法人を設立できる（令和2年改正）
 
 社員資格の得喪（イ・ウ）と、法人としての体制（ア・エ）、そして設立の人数要件（オ）を分けて整理すると、この分野は得点源にしやすくなります。
 
@@ -69,7 +67,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（5番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - **重要な注意**：肢オの「社員は2人以上必要」という記述は、平成29年（2017年）出題当時の条文（令和2年改正前の土地家屋調査士法）を前提にすると正しい内容でした。しかし令和2年の法改正により、土地家屋調査士法人は調査士1人でも定款を定めて設立できるようになった（現行の土地家屋調査士法26条）ため、現行法を前提とすると「原則として社員は2人以上必要」という記述は誤りとなります。データベース（takuitsu.json）のexplanationフィールドも、この現行法を前提とした正誤判定（オ＝誤り、正解5番＝ウオ）になっています。過去問を学習する際は、出題当時の制度と現行制度で結論が変わりうる点に注意してください。
-- 各肢の条文根拠について、ア（調査士法35条の2第1項）、イ（調査士法35条1項）、ウ（調査士法39条1項1号・2号）、エ（調査士法36条1項）、オ（調査士法26条、令和2年改正）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。
+
+- 各肢の条文根拠について、ア（調査士法35条の2第1項）、イ（調査士法35条1項）、ウ（調査士法38条1号）、エ（調査士法36条1項）、オ（調査士法26条、令和2年改正）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。
+- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、肢ウの条文引用に誤りを発見し修正しました。「登録の取消しがあれば総社員の同意なく当然に脱退する」の根拠を「土地家屋調査士法39条1項1号・2号」としていましたが、同法39条は見出し「解散」のとおり調査士法人そのものの解散事由を定めた条文（定款所定事由・総社員の同意・合併・破産等）であり、個々の社員の脱退とは無関係でした。社員の法定脱退を定めるのは見出し「法定脱退」の**38条**で、その1号が「調査士の登録の取消し」です。正しくは「土地家屋調査士法38条1号」です（条文原文で確認済み）。結論（ウ誤の判定）自体に誤りはありませんでした。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**「土地家屋調査士又は土地家屋調査士法人」は毎年出題されるテーマで、本問の複数の肢とほぼ同一の論点が繰り返し再出題されている、非常に強い重複が見つかりました**。具体的には、①肢オ（調査士1人でも法人を設立できる）は令和6年度第20問オ「土地家屋調査士法人は、社員となろうとする土地家屋調査士が１人であっても、設立することができる。」とほぼ一言一句同じ記述・結論、②肢ウ（登録の取消しがあれば総社員の同意なく当然に脱退する）は令和7年度第20問エ「土地家屋調査士法人の社員である土地家屋調査士は、その登録を取り消された場合には、当該法人を当然に脱退する。」とほぼ同一の記述・結論です。このほか、③肢ア（代表社員は定款又は総社員の同意で定められる）は令和4年度第20問ウ・令和5年度第20問ウで裏側（定款の定めがなければ定められないか等）から同じ35条の2第1項の規律が問われており、④肢エ（事務所への調査士会員社員の常駐義務）は令和4年度第20問オで従たる事務所にも同様の常駐義務が及ぶかという発展形で問われています。noteで令和4〜7年度の「調査士又は調査士法人」に関する記事を作成する際は、本記事と内容が大きく重なる可能性が高いため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
 
@@ -82,3 +82,132 @@
 - 登録取消しがあれば、同意なく脱退になるんです
 - 事務所には、地元の調査士会員を常駐させるんです
 - 調査士法人、実は1人でも設立できちゃうんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+土地家屋調査士法人に関する5肢は、「社員資格の得喪」（イ・ウ）、「法人としての体制」（ア・エ）、「設立の人数要件」（オ）という3つの異なるテーマにまたがっており、2列にきれいに分けられないため、列見出しを設けず、通し番号1〜5の5枚のカードを1列で並べる構成にした。誤りの肢（ウ・オ）は、いずれも正しいルールに直した内容だけを図解する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric professional-office
+characters in suits, corporate/法人 building icon, articles-of-incorporation
+document, crown-shaped representative badge, official registration stamp,
+a single founder character raising a signboard, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・録・義・務・執・行・設・会・駐・脱 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+調査士法人、実は1人でも設立できるんです
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第20問－土地家屋調査士法人のルール（当時と現行の違いに注意）
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+代表社員は定款か同意で決められる
+Illustration: 複数の調査士アイソメキャラクターが並ぶ法人アイコンを描く。
+定款の書類、または「総社員の同意」の吹き出しから矢印が伸び、1人の
+キャラクターに王冠形の「代表社員」バッジが付く図に緑のチェックマークを
+添える。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+定款か同意で決定
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+社員は全員に業務執行の権利義務
+Illustration: 3人の社員アイソメキャラクターが横一列に並び、全員が同じ
+「業務執行」の書類を手にしている図を描く。1人だけ業務執行の書類を持たせ
+ない矢印には赤い✕マークを添える。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+全員が権利義務あり
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+登録取消しで当然に脱退する
+Illustration: 社員の1人に「登録取消し」のスタンプが押され、法人の輪から
+自動的に外れていく矢印の図を描く。「総社員の同意」の吹き出しに赤い
+✕マークを添え、同意が不要であることを示す。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+同意なく当然脱退
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+事務所には地元の調査士会員を常駐
+Illustration: 法人の事務所アイコンの前に、地域の調査士会バッジを付けた
+社員キャラクターが常駐している図を描き、緑のチェックマークを添える。
+よその調査士会バッジを付けた人影の横に「不可」のラベルと赤い✕マークを
+添える。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+管轄調査士会の会員
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+現行法は調査士1人でも設立可
+Illustration: 1人の調査士キャラクターが定款の書類を持って法人設立の
+看板を掲げている図を描き、緑のチェックマークを添える。「社員2人以上
+必要」という古い看板に赤い✕マークと「令和2年改正」の小さなラベルを添える。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+1人でも設立可能
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 代表社員は定款か同意で決められる
+2. 社員は全員に業務執行の権利義務
+3. 登録取消しで当然に脱退する
+4. 事務所には地元の調査士会員を常駐
+5. 現行法は調査士1人でも設立可
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```

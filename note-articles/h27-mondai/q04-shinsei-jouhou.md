@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】申請書に何を書く？誰が押す？〜申請情報と押印の細かいルール〜
+## 【土地家屋調査士受験生向け】平成27年度 第4問〜代表取締役が2人でも1人でOK〜
 
 **出題年度：平成27年度　午後の部　第4問**
 
@@ -26,7 +26,7 @@
 
 ### イ：親権者が代理する分筆申請では、未成年者本人の押印は不要
 
-代理人によって申請する場合、申請人本人については氏名・住所を申請情報に記載する必要はあるものの、その記載は記名で足り、本人の署名や押印は不要です（不動産登記規則49条1項2号参照）。実際に申請手続をするのは代理人だからです。したがって、親権者が未成年者を代理して分筆の登記を申請するときは、未成年者本人が申請書に押印する必要はなく、本肢は正しい記述です。
+代理人によって申請する場合、申請書には現に申請手続を行う者（＝代理人）が記名押印すれば足ります（不動産登記令16条1項）。申請人本人については、氏名・住所を申請情報の内容として記載する必要はありますが（同令3条1号）、本人が重ねて署名や押印をする必要はありません。実際に申請手続をするのは代理人だからです。したがって、親権者が未成年者を代理して分筆の登記を申請するときは、未成年者本人が申請書に押印する必要はなく、本肢は正しい記述です。
 
 **たとえば**、未成年の子が名義人になっている土地の分筆を、親が子の代理人として申請する場合、子ども本人が申請書にハンコを押しに来る必要はなく、手続は代理人である親が進めます。
 
@@ -48,15 +48,13 @@
 
 **たとえば**、代表取締役がＡ・Ｂの2人いる会社が建物の表題登記を申請するとき、AとBの両方を書き並べる必要はなく、どちらか一人を「会社を代表する者」として記載すれば手続を進められます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 合体・合筆・合併の書面申請は記名押印が必要（令16条1項） |
-| イ | 正 | 代理申請では本人（未成年者）の押印は不要 |
-| ウ | 誤 | 代理申請でも本人の氏名・住所は申請情報に必要 |
-| エ | 誤 | 法人は代表者の「氏名」を記載、住所は不要（令3条2号） |
-| オ | 正 | 代表取締役が複数でも一人を記載すれば足りる（会社法349条2項） |
+- **ア（誤）**　合体・合筆・合併の書面申請は記名押印が必要
+- **イ（正）**　代理申請では本人（未成年者）の押印は不要
+- **ウ（誤）**　代理申請でも本人の氏名・住所は申請情報に必要
+- **エ（誤）**　法人は代表者の「氏名」を記載、住所は不要
+- **オ（正）**　代表取締役が複数でも一人を記載すれば足りる
 
 「本人が何をするのか」「代理人が何をするのか」を切り分けると、押印や記載のルールが整理できます。
 
@@ -68,7 +66,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
-- 各肢の根拠のうち、ア（不動産登記令16条1項）、エ（不動産登記令3条2号）、オ（会社法349条2項）はデータベースのexplanation欄で条文番号まで明記されているものです。イ・ウ（代理申請における本人の押印は不要だが氏名・住所の記載は必要）は、代理人による申請の一般的な取扱い（不動産登記規則49条1項2号等）に基づく説明です。
+- 各肢の根拠のうち、ア（不動産登記令16条1項）、エ（不動産登記令3条2号）、オ（会社法349条2項）はデータベースのexplanation欄で条文番号まで明記されているものです。イ・ウ（代理申請における本人の押印は不要だが氏名・住所の記載は必要）は、代理人による申請の一般的な取扱いに基づく説明です。
+- **現行法チェック（条文原文で確認）**：イの根拠として当初「不動産登記規則49条1項2号」を挙げていましたが、法令原文（`note-articles/laws/fudousan-touki-kisoku-1.md`）で確認したところ、同項号は「委任状への記名押印等の特例」に関する規定で、申請人が委任状に署名した場合の話であり、本肢が問う申請書本体における本人の押印の要否とは対象文書が異なるため、根拠として不正確でした。正確な根拠は不動産登記令16条1項（現に申請手続をする者＝代理人のみが記名押印すれば足りるという条文構造）と、同令3条1号（申請人本人の氏名・住所は申請情報の内容として必要）です。本文・本項目とも修正しました。結論（未成年者本人の押印は不要）自体は変わりません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（合体等の書面申請の押印・代理申請時の押印省略・法人代表者の記載）と同一・類似の問題が再出題されていないかを確認しました。「申請情報及び添付情報」という広いテーマの問題は平成30年度第4問・令和6年度第4問などで繰り返し出題されていますが、内容は共通添付情報の援用・資格証明書の有効期間・法定相続情報一覧図の利用・電子署名など、本問が扱う書面申請の押印可否や法人代表者の記載事項とは異なる具体的論点でした。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -85,15 +84,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-申請情報・押印に関する5つの独立したルール（合体等の押印・代理申請の押印省略・本人の氏名住所・法人代表者の記載・複数代表者の記載）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+「押印のルール」（ア・イ＝列A・緑）と「申請情報の記載事項」（ウ・エ・オ＝列B・青）という2つの軸に沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric application forms,
-seal/hanko stamps, signature pens, corporate building icons, family
-figures — adapt icon set to the topic).
+hanko stamp icons, registry desks, parent-and-child figures, company
+building icons, name-tag labels, torn paper labels, etc. — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,98 +113,98 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・対・記・押・印・署・氏・名, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 申・請・押・印・署・名・記・代・理・未・成・年・氏・住・所・法・人・表・題・
+登・締・役 — these must be rendered in their standard Japanese forms, never
+as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 申請書に何を書く？誰が押す？
-申請情報と押印の細かいルール
 
 Subtitle (smaller, centered, 1行):
-書面申請・代理申請・法人申請の場面ごとに整理する
-(平成27年度 午後の部 第4問)
+平成27年度 午後の部 第4問－申請情報と押印の細かいルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric application document on a desk with a hanko
-seal stamp, a pen, and small silhouette icons around it representing
-different applicant types (an individual, a parent-and-child pair, a
-corporate building), each connected by a thin dotted line to the
-document to show different rules apply depending on who is applying.
-申請情報の内容や押印のルールは、細かく地味ですが、書式(記述式)でも
-問われる実務直結の知識です。「本人が押すのか」「代理人が押すのか」
-「法人の代表者はどこまで書くのか」を、場面ごとに整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+押印のルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-合体・合筆等の書面申請は、署名だけでなく記名押印が必要
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+合体等の書面申請は押印必須
 Illustration: An isometric application document with a signature line
-already filled in cursive, but a large red prohibition (X) mark over an
-empty hanko seal box, with a hand holding a stamp approaching to fill
-it in, showing signature alone is not enough.
-Caption (small text below):
-所有権の登記がある土地の合筆、建物の合体、建物の合併を書面で申請
-する場合には、申請書に記名押印をしなければならない(不動産登記令
-16条1項)。
+already checked "署名済み" (green checkmark), but beside it a hanko-stamp
+box labeled "押印" is highlighted with a red arrow and the label
+"押印も必要". Behind the document, two building icons merge together
+(合体) with a large hanko-stamp icon overlaying them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+署名だけでは不足
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-親権者が代理する申請では、未成年者本人の押印は不要
-Illustration: An isometric parent figure signing and stamping an
-application document, while a child figure stands beside them with a
-crossed-out hanko seal icon, showing the child does not need to stamp
-anything themselves.
-Caption (small text below):
-代理人によって申請する場合、申請人本人については氏名・住所の記載は
-必要だが、本人の署名・押印までは不要である。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+代理申請なら本人の押印は不要
+Illustration: A parent figure submits an application document at a
+registry desk on behalf of a child. The child figure stands at home,
+small and separate, with a hanko-stamp icon crossed out with a red X
+labeled "本人の押印".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+本人の押印不要
 
---- COLUMN A, CARD 3 ---
-Heading (bold):
-代理申請でも、本人の氏名・住所は申請情報に必要
-Illustration: An isometric application document with two labeled
-sections: one filled in by a representative figure's hand (labeled
-"代理人が記入"), and another section still showing the principal's
-name and address tag being placed by an arrow (labeled "本人の氏名・
-住所は必要"), showing this part cannot be omitted.
-Caption (small text below):
-代理人が申請する場合でも、登記名義人本人の氏名・住所は申請情報の
-内容として記載しなければならない。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+申請情報の記載事項
 
---- COLUMN A, CARD 4 ---
-Heading (bold):
-法人の表題登記では、代表者の「氏名」を記載する(住所は不要)
-Illustration: An isometric corporate building icon with an arrow
-pointing to a name tag labeled "代表取締役の氏名" being attached to
-the application document, while a house-icon "住所" tag is shown
-crossed out beside it, indicating the address is not required.
-Caption (small text below):
-申請人が法人の場合は、その代表者の氏名を申請情報の内容として表示
-しなければならないが、代表者の住所までは不要である(不動産登記令
-3条2号)。
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+代理でも本人の氏名住所は書く
+Illustration: An application form split into two boxes: one labeled
+"代理人" already filled in, and a second box labeled "本人：氏名・住所"
+also filled in with a green checkmark, showing it is not left blank.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+氏名住所は省略不可
 
---- COLUMN A, CARD 5 ---
-Heading (bold):
-代表取締役が複数でも、そのうち一人を記載すれば足りる
-Illustration: An isometric corporate building icon with two identical
-representative figures (labeled A and B) standing beside it, with an
-arrow showing only figure A being written onto the application
-document while figure B is shown with a "省略可" checkmark badge.
-Caption (small text below):
-代表取締役が数人選定されている場合でも、各自が単独で会社を代表
-できるため、そのうち一人を申請情報の内容とすれば足りる(会社法
-349条2項)。
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+法人は代表者の氏名だけでよい
+Illustration: A company building icon beside an application form. A box
+labeled "代表取締役：氏名" is filled in with a green checkmark. A separate
+box labeled "住所" has a red X mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+住所の記載は不要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+代表者は複数いても一人でOK
+Illustration: Two representative figures labeled "A" and "B" stand side
+by side beside a company building icon. On the application form, only one
+name box is filled in with a green checkmark, while the other figure is
+greyed out with a small label "不要".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一人の記載で足りる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度 午後の部 第4問
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 合体等の書面申請は押印必須
+2. 代理申請なら本人の押印は不要
+3. 代理でも本人の氏名住所は書く
+4. 法人は代表者の氏名だけでよい
+5. 代表者は複数いても一人でOK
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・対・記・押・印・署・氏・名. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

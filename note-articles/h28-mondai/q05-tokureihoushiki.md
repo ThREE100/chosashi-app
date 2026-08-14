@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】特例方式でも原本還付はできるんです〜添付情報の提供方法をめぐるひっかけ〜
+## 【土地家屋調査士受験生向け】平成28年度 第5問〜特例方式でも原本還付は請求できる〜
 
 **出題年度：平成28年度　午後の部　第5問**
 
@@ -50,15 +50,13 @@
 
 **たとえば**、委任状や資格証明書のように他の登記手続でも繰り返し使う書類を特例方式で提出した場合、原本の写しを提出したうえで原本の還付を請求すれば、原本を手元に残したまま別の手続にも使い回すことができます。この扱いは特例方式であっても変わりません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 書面提出の別は申請情報の内容としなければならない |
-| イ | 正 | 書面提出は持参・送付いずれの方法でもよい |
-| ウ | 正 | 送付は書留郵便等、引受け・配達の記録が残る方法に限る |
-| エ | 正 | 却下・取下げ時は原則として添付書面が申請人に還付される |
-| オ | 誤 | 特例方式でも添付書面の原本還付を請求できる |
+- **ア（誤）**　書面提出の別は申請情報の内容としなければならない
+- **イ（正）**　書面提出は持参・送付いずれの方法でもよい
+- **ウ（正）**　送付は書留郵便等、引受け・配達の記録が残る方法に限る
+- **エ（正）**　却下・取下げ時は原則として添付書面が申請人に還付される
+- **オ（誤）**　特例方式でも添付書面の原本還付を請求できる
 
 「特例方式だから通常の申請と扱いが変わる」と思い込みやすい部分ほど、実は原則どおりの扱いが維持されている、という点が本問のポイントです。
 
@@ -88,13 +86,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-特例方式をめぐる5つの手続ルールを、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+特例方式による添付情報の提供方法・書留郵便による送付・却下取下げ後の還付・原本還付請求という5つの手続ルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric computers, paper documents, envelopes, mailboxes, registered mail stamps, returned document stacks — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric computers, paper
+documents, envelopes, mailboxes, registered mail stamps, returned
+document stacks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,61 +114,80 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 特・例・添・付・書・留・郵・還・却・申 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-特例方式でも、
-原則はちゃんと生きている
+Title (large, bold, 1行):
+特例方式でも、原則はちゃんと生きている
 
 Subtitle (smaller, centered, 1行):
-添付情報の提供方法・書留郵便・原本還付を整理(平成28年度 午後の部 第5問)
+平成28年度 午後の部 第5問－添付情報の提供方法・書留郵便・原本還付を整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric computer/electronic application icon connected by a dotted line to a paper document icon, visually representing the half-electronic, half-paper nature of 特例方式(添付情報の提供方法の特例)。
-特例方式により表示に関する登記を申請する場合の、書面提出の別・提出方法・送付方法・却下取下げ後の還付・原本還付請求という5つの手続を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
 --- CARD 1 ---
-Heading (bold):
-書面提出するかどうかは、申請情報にきちんと書く
-Illustration: An isometric application form icon with a checkbox section clearly labeled 書面提出の別, a checkmark stamp confirming it must be filled in for each attached document.
-Caption (small text below):
-特例方式では、各添付情報について書面提出の方法によるか否かの別を申請情報の内容としなければならない。
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+書面提出の別は申請情報に記載
+Illustration: An isometric application form icon with a checkbox section
+clearly labeled 書面提出の別, a checkmark stamp confirming it must be
+filled in for each attached document.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+記載省略は不可
+
 --- CARD 2 ---
-Heading (bold):
-持参でも郵送でも、どちらでもいい
-Illustration: An isometric document splitting into two equal paths: one leading to a walking figure carrying it to a registry building icon (持参), the other leading to a mailbox icon (送付), both paths marked with checkmarks.
-Caption (small text below):
-書面の提出方法は、登記所への持参・送付のいずれによることもできる。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+持参でも郵送でもどちらでも可
+Illustration: An isometric document splitting into two equal paths: one
+leading to a walking figure carrying it to a registry building icon
+(持参), the other leading to a mailbox icon (送付), both paths marked
+with checkmarks.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+持参・送付どちらも可
+
 --- CARD 3 ---
-Heading (bold):
-送るなら、記録が残る方法で
-Illustration: An isometric registered mail envelope (書留郵便) with a tracking receipt stamp, contrasted with a plain ordinary envelope crossed out with a prohibition mark beside it.
-Caption (small text below):
-送付するときは、書留郵便または引受け・配達の記録が残る信書便の役務によらなければならない。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+送付は記録が残る方法に限る
+Illustration: An isometric registered mail envelope (書留郵便) with a
+tracking receipt stamp, contrasted with a plain ordinary envelope
+crossed out with a prohibition mark beside it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+書留郵便が必須
+
 --- CARD 4 ---
-Heading (bold):
-却下・取下げでも、書類はちゃんと返ってくる
-Illustration: An isometric stack of documents being handed back from a registry official figure to an applicant figure, with a small separate icon showing a forged document (偽造書類) crossed out as the sole exception.
-Caption (small text below):
-申請が却下・取下げになっても、偽造の疑いがある書面等を除き、添付書面は申請人に還付される。
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+却下・取下げでも書類は還付
+Illustration: An isometric stack of documents being handed back from a
+registry official figure to an applicant figure, with a small separate
+icon showing a forged document (偽造書類) crossed out as the sole
+exception.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+原則として還付
+
 --- CARD 5 ---
-Heading (bold):
-特例方式でも、原本を返してもらえる
-Illustration: An isometric original document icon (原本) being handed back to an applicant with a glowing 還付請求できる stamp, while a copy icon (写し) stays behind in the registry's files.
-Caption (small text below):
-特例方式で提出した添付書面についても、原本の還付を請求することができる。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+特例方式でも原本還付を請求可
+Illustration: An isometric original document icon (原本) being handed
+back to an applicant with a glowing 還付請求できる stamp, while a copy
+icon (写し) stays behind in the registry's files.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+原本還付は可能
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第5問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

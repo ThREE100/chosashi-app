@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】住所証明・所有権証明、省略できるのはどこまで？〜表題登記の添付情報を整理する〜
+## 【土地家屋調査士受験生向け】令和6年度 第4問〜電子署名があっても番号は必要〜
 
 **出題年度：令和6年度　午後の部　第4問**
 
@@ -26,13 +26,13 @@
 
 ### イ：住所入りの法定相続情報一覧図があれば、別の住所証明書は不要
 
-登記の申請において、相続人の住所が記載されている法定相続情報一覧図の写しを提供することで、相続人の住所を証する市町村長その他の公務員が職務上作成した情報の提供に代えることができます（平30.3.29民二166号）。「別途Bの住所を証する情報を提供しなければならない」という断定は誤りです。
+登記の申請において、相続人の住所が記載されている法定相続情報一覧図の写しを提供することで、相続人の住所を証する市町村長その他の公務員が職務上作成した情報の提供に代えることができます。「別途Bの住所を証する情報を提供しなければならない」という断定は誤りです。
 
 **たとえば**、Aさんが亡くなり、唯一の相続人であるBさんが表題登記を申請する場合、Bさんの住所が記載された法定相続情報一覧図の写しを法務局から取得して提出すれば、それだけで住所証明も兼ねることができ、別に住民票を取り寄せる必要はありません。
 
 ### ウ：敷地共有者の証明は、一部の者のものでも足りる
 
-建物の表題登記の申請をする場合において、表題部所有者となる者の所有権を有することを証する情報として当該建物の敷地所有者による証明情報を添付することができますが、敷地が共有であるときは、敷地の共有者の一部の者による証明でも差し支えありません（昭37.10.8民甲2885号）。「持分の過半数を有する者によるものでなければならない」という限定は誤りです。
+建物の表題登記の申請をする場合において、表題部所有者となる者の所有権を有することを証する情報として当該建物の敷地所有者による証明情報を添付することができますが、敷地が共有であるときは、敷地の共有者の一部の者による証明でも差し支えありません。「持分の過半数を有する者によるものでなければならない」という限定は誤りです。
 
 **たとえば**、甲・乙・丙の3人が共有する土地の上に建物を新築したとき、その建物の所有権を証明する敷地所有者の証明書は、3人全員や過半数の持分を持つ者に限らず、共有者のうち1人だけの証明でも足ります。
 
@@ -44,17 +44,17 @@
 
 ### オ：地上権が敷地権となる場合は、規約を証する情報が必要
 
-区分建物表題登記では、規約敷地を定めたとき、敷地権の割合が規約割合であるとき、分離処分可能規約を定めたときには、その旨の規約を証する情報を提供しなければなりません（不動産登記令別表12項添付情報へ・ホ、昭58.11.10民三6400号）。本肢では、登記された地上権も敷地権となることから、分離処分可能規約を定めたことを証する情報を提供しなければならず、「提供することを要しない」という結論は誤りです。
+区分建物表題登記では、規約敷地を定めたとき、敷地権の割合が規約割合であるとき、分離処分可能規約を定めたときには、その旨の規約を証する情報を提供しなければなりません（不動産登記令別表12項添付情報へ・ホ）。本肢は、敷地に登記された地上権の登記名義人が区分建物の所有者と一致しているにもかかわらず、分離処分可能規約によってその地上権が敷地権とならないケースであり、まさにこの「登記名義人が一致するのに敷地権とならない事由」を証する情報の提供が求められる場面に当たるため（同項添付情報ホ）、「提供することを要しない」という結論は誤りです。
 
-**たとえば**、区分建物の敷地利用権が地上権であり、分離処分可能規約を定めていても、一棟の建物の敷地に登記されている地上権の登記名義人がその区分建物の所有者と同一である場合には、地上権が結局は敷地権となってしまうため、分離処分可能規約を定めたことを証する情報の提供を省略することはできません。
+**たとえば**、区分建物の敷地利用権が地上権であり、一棟の建物の敷地に登記されている地上権の登記名義人がその区分建物の所有者と同一である場合、名義だけを見れば地上権がそのまま敷地権になりそうな組み合わせですが、分離処分可能規約によって実際には敷地権とならない扱いになっているときは、その理由（規約の定め）を証する情報を提供する必要があり、提供を省略することはできません。
 
-### まとめ
+### まとめ表
 
-- **ア（正）**　住民票コードの提供により住所証明情報を省略できる（令9条）
-- **イ（誤）**　住所入りの法定相続情報一覧図の写しで住所証明情報に代えられる
-- **ウ（誤）**　敷地共有者の証明は一部の者のものでも足りる（昭37.10.8民甲2885号）
-- **エ（正）**　電子署名付き代理権限情報があっても、会社法人等番号は別途必要（令7条1項1号イ）
-- **オ（誤）**　地上権が敷地権となる場合は、規約を証する情報の提供が必要
+- **ア（正）** 住民票コードの提供により住所証明情報を省略できる
+- **イ（誤）** 住所入りの法定相続情報一覧図の写しで住所証明情報に代えられる
+- **ウ（誤）** 敷地共有者の証明は一部の者のものでも足りる
+- **エ（正）** 電子署名付き代理権限情報があっても、会社法人等番号は別途必要
+- **オ（誤）** 地上権が敷地権となる場合は、規約を証する情報の提供が必要
 
 「省略できる制度が使える場面かどうか」を一つずつ確認していけば、正誤の判断はぶれません。
 
@@ -82,13 +82,27 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+「省略・代替できる添付情報」と「省略できない添付情報」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric registry counter,
+documents, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -96,65 +110,93 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Note on kanji accuracy: the characters 登・記（表題登記）、地・建・物
-（土地・建物）、番・号（会社法人等番号・2885号）、所（住所）、権（地上権）
-appear in this infographic. Do not render any of 登・记・权・号・所 as
-Simplified Chinese variants — use the standard Japanese forms
-登・記・地・建・物・番・号・所・権 exactly.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 1行):
-住所証明・所有権証明、省略できるのはどこまで？
+Title (large, bold, 2行):
+表題登記の添付情報
+省略できる場面・できない場面
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第4問／表題登記の添付情報
+令和6年度 午後の部 第4問－添付情報の省略可否を見極める
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 表題登記の申請書類のisometricイラスト。住所証明書・所有権証明書・代理権限証明書の3つの書類アイコンが並び、それぞれに「省略できる？」の吹き出しマークがついている。
-表題登記の添付情報は、「省略できる場面」と「省略できない場面」の見極めが得点の分かれ目になります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-住民票コードがあれば、住所証明書はいらない
-Illustration: 申請人Aのアイコンが住民票コードの数字が書かれたカードを申請書に添える様子。従来の住民票の写しのアイコンに赤い×マーク、住民票コードのカードに緑の○マークを添える。
-Caption (small text below):
-住民票コードの提供により住所証明情報を省略できる（令9条）
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+省略・代替できる添付情報
 
---- CARD 2 ---
-Heading (bold):
-法定相続情報一覧図があれば、別の住所証明はいらない
-Illustration: 相続人Bのアイコンが法定相続情報一覧図(家系図が描かれた書類アイコン)を提出する様子。別の住民票のアイコンに赤い×マークと「不要」のラベルを添える。
-Caption (small text below):
-住所入りの法定相続情報一覧図の写しで住所証明情報に代えられる
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+住民票コードで住所証明省略
+Illustration: isometric icon of a person handing over a card labeled
+「住民票コード」to a registry clerk, with an arrow pointing to a green
+stamp reading「省略OK」; a crossed-out icon of a paper 住民票 in the
+background to show it is no longer needed.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+住所証明は省略
 
---- CARD 3 ---
-Heading (bold):
-敷地共有者の証明は、一部の人だけでも足りる
-Illustration: 甲・乙・丙3人の共有者アイコンが並ぶ敷地の上に建物が建つisometricイラスト。3人のうち1人だけが証明書にサインしている様子を緑の○マークで示し、「全員分は不要」というラベルを添える。
-Caption (small text below):
-敷地共有者の証明は一部の者のものでも足りる（昭37.10.8民甲2885号）
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+一覧図の住所で証明書は不要
+Illustration: isometric icon of a family-tree style document labeled
+「法定相続情報一覧図」with the word「住所」highlighted, an arrow pointing
+to a person icon labeled「相続人B」, and a green stamp reading「住所証明
+OK」next to it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+別途証明は不要
 
---- CARD 4 ---
-Heading (bold):
-電子署名があっても、会社法人等番号は必要
-Illustration: 合同会社のisometric建物アイコン、土地家屋調査士キャラクターが電子申請の画面を操作する様子。電子署名のアイコンと「会社法人等番号」のカードアイコンの両方に緑の○マークをつけ、「両方必要」のラベルを添える。
-Caption (small text below):
-電子署名付き代理権限情報があっても、会社法人等番号は別途必要（令7条1項1号イ）
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地共有者は一部の証明で足りる
+Illustration: isometric icon of a land plot shared by three person icons
+labeled「甲」「乙」「丙」standing on it; one of the three hands over a
+stamped certificate while the other two are shown without documents, with
+an arrow labeled「1人の証明でOK」pointing to a new building being
+registered.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一部の証明でOK
 
---- CARD 5 ---
-Heading (bold):
-地上権が敷地権になるなら、規約の証明は省略できない
-Illustration: 区分建物のisometricイラスト、敷地の地上権アイコンが建物の「敷地権」ラベルへつながる矢印。規約書のアイコンに緑の○マークと「証明が必要」のラベルを添える。
-Caption (small text below):
-地上権が敷地権となる場合は、規約を証する情報の提供が必要
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+省略できない添付情報
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+電子署名があっても番号は必要
+Illustration: isometric icon of a laptop displaying an electronic seal
+labeled「電子署名」, connected by a plus symbol to a separate document
+icon labeled「会社法人等番号」, both leading into a folder labeled
+「代理権限証明情報」to show both are required together.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+番号は別途必要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+地上権が敷地権なら規約証明必須
+Illustration: isometric icon of a building with a label「地上権」next to
+it, an arrow pointing to a document labeled「分離処分可能規約」with a red
+stamp reading「提供必要」(not crossed out), showing the document cannot
+be omitted.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+省略できない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

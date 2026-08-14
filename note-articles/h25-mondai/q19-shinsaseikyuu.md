@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】登記官への審査請求には「期限」も「参加人」もない〜不動産登記法158条の適用除外〜
+## 【土地家屋調査士受験生向け】平成25年度 第19問〜登記官への審査請求に期限も参加人もない〜
 
 **出題年度：平成25年度　午後の部　第19問**
 
@@ -44,19 +44,17 @@
 
 ### オ：審査請求が認容された場合、登記上の利害関係人にも通知される
 
-登記官を監督する法務局又は地方法務局の長は、審査請求に理由があると認めるときは、登記官に相当の処分を命じます（不動産登記法157条）。そして、その旨を、審査請求人だけでなく、登記上の利害関係人に対しても通知しなければなりません。
+登記官を監督する法務局又は地方法務局の長は、審査請求に理由があると認めるときは、登記官に相当の処分を命じます（不動産登記法157条3項）。そして、その旨を、審査請求人だけでなく、登記上の利害関係人に対しても通知しなければなりません。
 
 **たとえば**、Aさんの審査請求が認められて、登記官に「もう一度正しい処分をするように」と命じられた場合、その結果はAさんに伝えられるのはもちろん、その登記について利害関係を持つ他の関係者にも通知されます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 登記官の処分への審査請求には、そもそも参加人制度がない（法158条により行審法13条を適用除外） |
-| イ | 正 | 審査請求は、登記官を経由してしなければならない（法156条2項） |
-| ウ | 誤 | 登記官の処分への審査請求には、そもそも期間制限がない（法158条により行審法18条を適用除外） |
-| エ | 正 | 裁決書の謄本は、審査請求人及び登記官に交付される |
-| オ | 正 | 審査請求が認容された場合、審査請求人のほか登記上の利害関係人にも通知される（法157条） |
+- **ア（誤）**　登記官の処分への審査請求には、そもそも参加人制度がない（不動産登記法の特則により行政不服審査法の規定は適用除外）
+- **イ（正）**　審査請求は、登記官を経由してしなければならない
+- **ウ（誤）**　登記官の処分への審査請求には、そもそも期間制限がない（不動産登記法の特則により行政不服審査法の規定は適用除外）
+- **エ（正）**　裁決書の謄本は、審査請求人及び登記官に交付される
+- **オ（正）**　審査請求が認容された場合、審査請求人のほか登記上の利害関係人にも通知される
 
 不動産登記法158条は、行政不服審査法の一般原則を丸ごと当てはめてはいけない条文がいくつもあることを示しています。「一般法ならこうなるはず」という直感を、まず特則の有無で疑う姿勢が大切です。
 
@@ -69,8 +67,11 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（1番＝ア・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
 - **重要な訂正の経緯**：この記事は当初、「平成26年の行政不服審査法改正（60日→3か月、施行は平成28年4月）を平成25年の問題に遡って適用してはいけない」という時代考証の観点から、ウを「60日という日数自体は当時正しいが、例外規定を欠いた断定的な記述だから誤り」としていました。しかしその後、本シリーズの令和7年度第17問（審査請求）の検証過程で、不動産登記法158条が行政不服審査法18条（審査請求期間）・13条（参加人）の適用そのものを除外しており、登記官の処分についての審査請求には期間制限も参加人制度も存在しないという、より根本的な理由があることが判明したため、ア・ウの解説を全面的に訂正しました。訂正前の「時代による数字の違い」という説明は誤りであり、正しくは「そもそもその制度が存在しない」という点が誤りの理由です。結論（ア・ウが誤り）自体に変更はありません。
-- イ（登記官経由の原則、法156条2項）、ウ・ア（法158条による行政不服審査法18条・13条の適用除外）、オ（法157条）は条文の構造から確認できる根拠です。エ（裁決書謄本の交付先）は登記実務上確立した取扱いですが、根拠条文の項番号までの逐条確認はできていません。行政不服審査法・不動産登記法など試験範囲法令の条文原文は、本セッションの環境からe-Gov等へ直接アクセスできなかった（プロキシポリシーによる制限）ため、WebSearchで得られたスニペット情報と、本リポジトリ内で先に検証済みの令和7年度第17問の解説（条文原文を確認済み）を根拠としています。
+
+- **条文原文による再確認（今回実施）**：`note-articles/laws/fudousan-touki-hou.md`収録の不動産登記法156条〜158条を原文で確認しました。156条2項「審査請求は、登記官を経由してしなければならない。」はイの記述と一言一句一致します。158条「行政不服審査法第十三条、第十五条第六項、第十八条、…の規定は、第百五十六条第一項の審査請求については、適用しない。」は、行政不服審査法13条（参加人）・18条（審査請求期間）を明文で適用除外しており、アの「参加人として参加することができる」・ウの「60日以内にしなければならない」がいずれも誤りであることの直接の条文根拠です。157条3項「…登記官に相当の処分を命じ、その旨を審査請求人のほか登記上の利害関係人に通知しなければならない。」はオの記述と一言一句一致します。ア・イ・ウ・オの4肢は、いずれもこの条文原文との逐語照合で確認済みです。
+- エ（裁決書の謄本を審査請求人及び登記官に交付する旨）については、158条が適用除外していない行政不服審査法の一般規定（裁決の効力発生・送達に関する条文）に基づく取扱いと考えられますが、`note-articles/laws/`には行政不服審査法そのものが収録されていない（README「既知の制限事項」参照）ため、根拠となる行政不服審査法の具体的な条文番号までは確認できていません。登記実務上確立した取扱いとして扱い、断定は避けています。
 - **重複出題チェック（2026-07-21実施、最重要）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。**「登記官の処分についての審査請求には、不動産登記法158条により行政不服審査法の期間制限（18条）・参加人制度（13条）が適用除外されている」という本問の中核論点は、H30年度第18問・R07年度第17問という2つの年度で、形を変えてほぼそのまま再出題されています。**
+
   - H30年度第18問イ「処分があったことを知った日の翌日から起算して３月を経過したときは、審査請求をすることができない」（誤り）は、本問ウ（60日以内。誤り）と同じ「そもそも期間制限が存在しない」という結論を問う肢です。データベース上の解説（explanationフィールド）にも「審査請求をする期間に制限がなく、法律上の利益が存在する間は、いつでも審査請求をすることができる（行政不服審査法18条の適用除外）」と明記されており、本記事の訂正後の理解と完全に一致することを確認しました。
   - R07年度第17問ア・オも、本問ア（参加人として参加できる。誤り）と同じ「そもそも参加人制度が存在しない（法158条による13条の適用除外）」という論点を扱っています。この重複は、R07年度第17問の解説を訂正する過程で発見され、本記事の作成時点で既にformat-template.mdに「一般法をそのまま適用しない」ルールとして反映されています。
   - このように、**H25年度第19問・H30年度第18問・R07年度第17問の3問は、不動産登記法158条という同一の条文を核とした、実質的に同一のテーマを扱う出題**です。今後H30年度分・R07年度分のnote記事をこのシリーズで執筆・改訂する際は、本問の解説（特にアとウの解説文）とほぼ同じ内容にならないよう、各年度固有の肢（H30年度の証拠書類の返還、R07年度の裁決の種類など）を中心に据えて書き分けることを強くお勧めします。
@@ -89,14 +90,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-不動産登記法158条による行政不服審査法の適用除外を中心に、審査請求に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+登記官の処分に対する審査請求について、「不動産登記法158条による適用除外」と「審査請求の通常手続」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric registry desks,
+law-bureau officials, calendars, sealed doors, document stamps, envelopes,
+torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -104,9 +117,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・登・記 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -114,57 +127,80 @@ Title (large, bold, 2行):
 「期限」も「参加人」もない
 
 Subtitle (smaller, centered, 1行):
-不動産登記法158条による適用除外を整理(平成25年度 午後の部 第19問)
+平成25年度 午後の部 第19問－不動産登記法158条による適用除外を整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scale-of-justice icon labeled 行政不服審査法 with several of its rule-cards (期間制限, 参加人) being physically pulled out and crossed with a red X by a stamp labeled 不動産登記法158条, illustrating an exclusion.
-登記官の処分に対する審査請求は、不動産登記法が独自の規律を用意している分野です。「一般の行政処分ならこうなるはず」という感覚をそのまま当てはめると誤ってしまう5つのポイントを整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-登記官の処分への審査請求には、そもそも参加人制度がない
-Illustration: An isometric courtroom-like scene with a mortgagee figure (抵当権者B) trying to join as a 参加人 through a side door, the door sealed shut with a stamp reading 法158条により13条を適用除外.
-Caption (small text below):
-行政不服審査法13条の参加人制度は、不動産登記法158条により156条1項の審査請求には適用除外され、そもそも存在しない。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+158条による適用除外
 
---- CARD 2 ---
-Heading (bold):
-審査請求は、登記官を経由してしなければならない
-Illustration: An isometric applicant figure sending a 審査請求書 document that must first pass through the local registry officer's desk (登記官) before continuing upward to the 法務局長 office, a straight-line shortcut path crossed out.
-Caption (small text below):
-登記官の処分に対する審査請求は、直接監督機関に対して行うのではなく、登記官を経由して行わなければならない(法156条2項)。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+参加人制度はそもそもない
+Illustration: An isometric courtroom-like scene with a mortgagee figure
+(抵当権者B) trying to join as a 参加人 through a side door. The door is
+sealed shut with a stamp reading 法158条により13条を適用除外.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+参加人制度なし
 
---- CARD 3 ---
-Heading (bold):
-登記官の処分への審査請求には、そもそも期間制限がない
-Illustration: An isometric calendar with a 60日 deadline stamp crossed out by a red X, replaced with an infinity symbol icon labeled 期間制限なし, next to a stamp reading 法158条により18条を適用除外.
-Caption (small text below):
-行政不服審査法18条の審査請求期間の規定は、不動産登記法158条により適用除外され、登記官の処分への審査請求に期間制限は存在しない。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+審査請求に期間制限はない
+Illustration: An isometric calendar with a 60日 deadline stamp crossed
+out by a red X, replaced with an infinity symbol icon labeled 期間制限
+なし, beside a stamp reading 法158条により18条を適用除外.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+期間制限なし
 
---- CARD 4 ---
-Heading (bold):
-裁決書の謄本は、審査請求人及び登記官に交付される
-Illustration: An isometric law-bureau official character stamping two identical 裁決書の謄本 document copies, one arrow sending a copy to the applicant figure (審査請求人) and another arrow sending a copy back to the original registry officer (登記官).
-Caption (small text below):
-法務局又は地方法務局の長が審査請求について裁決をしたときは、裁決書の謄本を審査請求人及び登記官に交付する。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+審査請求の通常手続
 
---- CARD 5 ---
-Heading (bold):
-審査請求が認容された場合、審査請求人のほか登記上の利害関係人にも通知される
-Illustration: An isometric law-bureau official commanding the registry officer with a 相当の処分を命じる stamp, then sending notification envelopes both to the applicant (審査請求人) and to a separate interested-party figure (登記上の利害関係人).
-Caption (small text below):
-監督法務局長等は審査請求に理由があると認めるときは登記官に相当の処分を命じ、その旨を審査請求人のほか登記上の利害関係人にも通知する(法157条)。
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+審査請求は登記官経由
+Illustration: An isometric applicant figure sending a 審査請求書 document
+that must first pass through the local registry officer's desk (登記官)
+before continuing upward to the 法務局長 office. A straight-line
+shortcut path bypassing the desk is crossed out.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記官を経由
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+裁決書謄本は登記官にも交付
+Illustration: An isometric law-bureau official stamping two identical
+裁決書の謄本 document copies. One arrow sends a copy to the applicant
+figure (審査請求人), another arrow sends a copy back to the original
+registry officer (登記官).
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記官にも交付
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+認容なら利害関係人にも通知
+Illustration: An isometric law-bureau official commanding the registry
+officer with a 相当の処分を命じる stamp, then sending notification
+envelopes both to the applicant (審査請求人) and to a separate
+interested-party figure (登記上の利害関係人).
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+利害関係人にも通知
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第19問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

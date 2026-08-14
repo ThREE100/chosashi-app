@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】それ、建物として登記できる？〜外気分断性・定着性・用途性の3要件で見分ける〜
+## 【土地家屋調査士受験生向け】平成27年度 第13問〜観音像は建物、駅の売店は建物でない〜
 
 **出題年度：平成27年度　午後の部　第13問**
 
@@ -16,17 +16,17 @@
 >
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
 
-「建物」として登記できるかどうかは、①外気分断性（屋根・周壁があること）、②定着性（土地に固定されていること）、③用途性（その目的に使える状態にあること）の3要件で判断します（登記実務上の建物認定基準、昭和24年2月22日民甲240号）。見た目が変わった建造物でも、この3要件に当てはめて考えれば結論を導けます。
+「建物」として登記できるかどうかは、①外気分断性（屋根・周壁があること）、②定着性（土地に固定されていること）、③用途性（その目的に使える状態にあること）の3要件で判断します（登記実務上の建物認定基準）。見た目が変わった建造物でも、この3要件に当てはめて考えれば結論を導けます。
 
 ### ア：礼拝設備のある観音像は、建物として取り扱われる
 
-内部に祭壇や参拝者が着席できる設備があり、寺院の本堂として利用されている観音像は、外形は像であっても、内部に人が入って礼拝するための空間・設備を備え、建物としての実質を持っています。先例上、建物として取り扱われます（昭和30年4月9日民甲694号）。したがって本肢は、登記できる建物に当たります。
+内部に祭壇や参拝者が着席できる設備があり、寺院の本堂として利用されている観音像は、外形は像であっても、内部に人が入って礼拝するための空間・設備を備え、建物としての実質を持っています。先例上、建物として取り扱われます。したがって本肢は、登記できる建物に当たります。
 
 **たとえば**、大きな観音像の内部が空洞になっていて、そこに祭壇が置かれ、参拝者が座って拝めるようになっているなら、その観音像はお堂と同じように建物として登記の対象になります。
 
 ### イ：駅のホーム内の売店は、独立性を欠くため建物として取り扱われない
 
-屋根があり、コンクリートで基礎工事が施された売店であっても、駅のホーム内にあるものは、停車場（駅）の一部であって独立した建物としての独立性を欠くため、建物として登記することができません（昭和63年3月24日民三1826号）。基礎がしっかりしていることと、独立の建物として扱えることは別問題です。
+屋根があり、コンクリートで基礎工事が施された売店であっても、駅のホーム内にあるものは、停車場（駅）の一部であって独立した建物としての独立性を欠くため、建物として登記することができません。基礎がしっかりしていることと、独立の建物として扱えることは別問題です。
 
 **たとえば**、駅のホームにコンクリート基礎でしっかり固定された売店があっても、それはホーム設備の一部として扱われ、単独で建物の登記をすることはできません。
 
@@ -48,15 +48,13 @@
 
 **たとえば**、ガラス張りでしっかりと作られ、長年使い続けられる構造の温床施設（温室）は建物として登記できますが、季節限定の簡易なビニールハウスは建物として扱われません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定（建物として登記できるか） | ポイント |
-|---|---|---|
-| ア | できる | 礼拝設備のある観音像は建物として取り扱われる（昭30・4・9） |
-| イ | できない | 駅ホーム内の売店は独立性を欠き建物として取り扱われない（昭63・3・24） |
-| ウ | できる | 立体式駐車場タワーは3要件を満たし建物として取り扱われる |
-| エ | できない | アーケード付街路は道路の附属物で独立性を欠く（準則77条2号エ） |
-| オ | できる | 半永久的なガラス張りの温床施設は建物として取り扱われる（準則77条1号オ） |
+- **ア（できる）**　礼拝設備のある観音像は建物として取り扱われる
+- **イ（できない）**　駅ホーム内の売店は独立性を欠き建物として取り扱われない
+- **ウ（できる）**　立体式駐車場タワーは3要件を満たし建物として取り扱われる
+- **エ（できない）**　アーケード付街路は道路の附属物で独立性を欠く
+- **オ（できる）**　半永久的なガラス張りの温床施設は建物として取り扱われる
 
 「登記することのできる建物として取り扱うことのできないもの」＝イとエの2個です。「基礎がしっかりしているか」ではなく「独立した用途に使えるか」を見極めるのがポイントです。
 
@@ -85,15 +83,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-外気分断性・定着性・用途性の3要件に照らして「登記できる建造物」と「登記できない建造物」を見分ける本問の軸に沿って、できる側3枚・できない側2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+「建物として扱われるもの」（ア・ウ・オ＝列A・緑）と「建物として扱われないもの」（イ・エ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric statue/temple,
-train platform kiosk, rotary parking tower, shopping arcade, greenhouse
-— adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric statue/shrine, train
+platform, rotating tower parking, shopping arcade street, glass
+greenhouse, roofs, walls, foundations, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,105 +112,96 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・対・記・築・観・音・独, which have Simplified Chinese look-alike
-forms with visibly different stroke shapes — always draw the standard
-Japanese (Jōyō) form of these characters.
+kanji 観・音・像・祭・壇・礼・拝・立・体・駐・車・場・回・転・機・械・半・永・久・温・床・施・設・独・性・欠・駅・売・店・基・礎・街・路・道・付・属
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 それ、建物として登記できる？
-外気分断性・定着性・用途性の3要件で見分ける
 
 Subtitle (smaller, centered, 1行):
-登記できない2つと登記できる3つの具体例
-(平成27年度 午後の部 第13問)
+平成27年度　午後の部　第13問－外気分断性・定着性・用途性で判定
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric checklist board with three icons in a row:
-a roof-and-walls icon labeled "外気分断性", an anchor-into-ground icon
-labeled "定着性", and a checkmark-on-building icon labeled "用途性",
-with small silhouettes of unusual structures (a statue, a kiosk, a
-tower) lined up below waiting to be judged against the checklist.
-「建物」として登記できるかどうかは、①外気分断性(屋根・周壁がある
-こと)、②定着性(土地に固定されていること)、③用途性(その目的に使える
-状態にあること)の3要件で判断します。見た目が変わった建造物でも、
-この3要件に当てはめて考えれば結論を導けます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-建物として登記できる
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+建物として扱われるもの
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-礼拝設備のある観音像は、建物として登記できる
-Illustration: An isometric large statue of a deity with a cutaway view
-showing an altar and seating space inside, with a small checkmark badge
-labeled "建物として登記可" beside it.
-Caption (small text below):
-内部に祭壇や参拝者が着席できる設備があり、寺院の本堂として利用
-されている観音像は、建物として取り扱われる(昭和30年4月9日民甲
-694号)。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+礼拝空間のある観音像は建物
+Illustration: 大きな観音像をイソメトリックで描き、内部が空洞になっている
+断面図を見せる。内部に祭壇と座って拝む参拝者アイコンを配置し、像の頭部を
+屋根に見立てる。緑のチェックマークを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+内部に礼拝空間あり
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-回転式パーキングタワーは、建物として登記できる
-Illustration: An isometric tall tower-shaped mechanical parking
-structure with a roof and outer walls, cars visible through small
-windows on a rotating mechanism inside, with a checkmark badge beside
-it.
-Caption (small text below):
-屋根及び外壁があり、内部に車を格納する回転式のパーキング機械が
-設置されているタワー状の立体駐車場は、外気分断性・定着性・用途性
-の3要件を満たし、建物として取り扱われる。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+回転式立体駐車場のタワーは建物
+Illustration: 屋根と外壁で囲われたタワー状の構造物を描き、内部に車を格納
+する回転式パーキング機械のアイコンと小さな車のアイコンを配置する。緑のチェ
+ックマークを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+屋根・壁・用途性あり
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-半永久的なガラス張りの温床施設は、建物として登記できる
-Illustration: An isometric greenhouse structure with glass roof and
-glass walls over rows of seedlings, sturdy metal frame visible, with
-a checkmark badge beside it (distinguished from a flimsy plastic
-vinyl-sheet tent shown small and crossed out in the background).
-Caption (small text below):
-屋根及び周壁の部分がガラスで覆われ、半永久的な建造物と認められる
-農耕用の温床施設は、建物として取り扱われる(準則77条1号オ)。
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+半永久的なガラス温床施設は建物
+Illustration: 屋根と周壁がガラスパネルでできた温室アイコンを描き、内部に
+植物と頑丈な基礎を配置して緑のチェックマークを添える。その横に、簡易なビニ
+ールハウスのアイコンを小さく描き、赤い✕マークと「簡易ビニールハウスは除
+く」という破れ紙ラベルを添えて対比させる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+半永久的なら建物
 
---- COLUMN B HEADER (pill-shaped badge) ---
-建物として登記できない
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+建物として扱われないもの
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-駅ホーム内の売店は、独立性を欠き建物として登記できない
-Illustration: An isometric small kiosk booth with a roof, standing on
-a concrete foundation inside a train platform, with a prohibition mark
-over a "建物として登記" stamp, and a label "停車場の一部" showing it
-is treated as part of the station facility.
-Caption (small text below):
-屋根があり、コンクリートで基礎工事が施された売店であっても、駅の
-ホーム内にあるものは停車場の一部であって独立性を欠き、建物として
-登記することができない(昭和63年3月24日民三1826号)。
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously across both columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+駅ホーム内の売店は建物でない
+Illustration: 屋根のある駅のホームアイコンを描き、その中にコンクリート基
+礎の売店アイコンを配置する。売店の上に赤い✕マークと「独立性なし」という破
+れ紙ラベルを添え、背景に電車のアイコンを小さく描く。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+独立性を欠き不可
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-アーケード付街路は、道路の附属物で建物として登記できない
-Illustration: An isometric shopping street with a simple roof/awning
-covering the walkway between shops, with pedestrians walking under it,
-and a prohibition mark over a "建物として登記" stamp, labeled "道路の
-附属物".
-Caption (small text below):
-公衆用道路の上に屋根や覆いを施しただけのアーケード付街路は、道路の
-附属物にすぎず、独立した用途性を欠くため、建物として認められない
-(準則77条2号エ)。
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+アーケード街路は道路の付属物
+Illustration: 公衆用道路の上に屋根覆い（アーケード）が架かる商店街の通り
+を描き、歩行者アイコンがその下を歩く。屋根構造の上に赤い✕マークと「道路の
+一部」という破れ紙ラベルを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+道路の付属物にすぎない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度 午後の部 第13問
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 礼拝空間のある観音像は建物
+2. 回転式立体駐車場のタワーは建物
+3. 半永久的なガラス温床施設は建物
+4. 駅ホーム内の売店は建物でない
+5. アーケード街路は道路の付属物
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・対・記・築・観・音・独. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly (3 cards under 建物と
-して登記できる, 2 cards under 建物として登記できない), with no
-duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

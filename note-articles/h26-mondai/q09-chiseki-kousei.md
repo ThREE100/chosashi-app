@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】地積が減っても、抵当権者の承諾はいらないんです〜地積の更正の登記の基本ルール〜
+## 【土地家屋調査士受験生向け】平成26年度 第9問〜地積が減っても、抵当権者の承諾はいらないんです〜
 
 **出題年度：平成26年度　午後の部　第9問**
 
@@ -48,15 +48,13 @@ A及びBが共有する土地について、Aが単独で地積の更正の登�
 
 **たとえば**、A・B共有の土地について、地積に誤りがあることに気づいたAさんが、Bさんの承諾を取り付けなくても、単独でその土地の地積の更正の登記を申請することができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 地積の更正の登記に1か月以内の申請義務はない |
-| イ | 誤 | 誤差の限度を超えるときは、代位による地積更正登記の申請ができる |
-| ウ | 正 | 地積が減少する更正登記でも、抵当権者の承諾は不要 |
-| エ | 誤 | 地積の更正の登記の申請人は表題部所有者又は所有権の登記名義人に限られる |
-| オ | 正 | 共有者の一人が単独で申請する場合、他の共有者の承諾は不要 |
+- **ア（誤）**　地積の更正の登記に1か月以内の申請義務はない
+- **イ（誤）**　誤差の限度を超えるときは、代位による地積更正登記の申請ができる
+- **ウ（正）**　地積が減少する更正登記でも、抵当権者の承諾は不要
+- **エ（誤）**　地積の更正の登記の申請人は表題部所有者又は所有権の登記名義人に限られる
+- **オ（正）**　共有者の一人が単独で申請する場合、他の共有者の承諾は不要
 
 「地積の更正の登記には申請義務がない」「申請人は表題部所有者・所有権登記名義人に限られる」という2点を軸に整理すると、この問題の各肢がすっきり判定できます。
 
@@ -68,8 +66,9 @@ A及びBが共有する土地について、Aが単独で地積の更正の登�
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（5番＝ウ・オ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
-- ア（地積の更正の登記に申請義務規定がないこと）、エ（申請人が表題部所有者・所有権登記名義人に限られること）、オ（共有者の一人による単独申請の可否）は不動産登記法・実務解説の内容と整合しています。ウ（地積減少時の抵当権者の承諾の要否）とイ（代位申請時の地積更正登記の可否）についても実務上確立した取扱いとして整理していますが、根拠条文の逐条確認までは至っていない部分があります。
+- ア・エ（不動産登記法38条：土地の表題部の更正の登記は表題部所有者又は所有権の登記名義人以外の者は申請できないこと。同条には37条〔変更の登記〕のような「1か月以内」の申請義務規定が置かれていないこと）は、`note-articles/laws/fudousan-touki-hou.md`に保存した条文原文で確認済みです。37条（変更登記、期限あり）と38条（更正登記、期限なし）の条文構造の対比から、地積の更正の登記に申請義務がないことが裏付けられます。ウ・オ・イ（地積減少時の抵当権者の承諾の要否、共有者の一人による単独申請、代位申請時の地積更正登記の可否）については、実務上確立した取扱いとして整理していますが、38条の条文自体には明記がなく、不動産登記規則・実務先例レベルでの追加確認が望ましい部分です。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。地積の更正の登記の申請人・添付情報がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令チェック（2026-08-06実施）**：`note-articles/laws/`に保存した不動産登記法の現行条文（2026-08-04取得）で38条・39条等を再確認しました。令和5年4月1日施行の共有制度改正（民法252条等）が肢オ（共有者の一人による地積の更正の登記の単独申請）に影響しないかも確認しましたが、この改正は共有物の利用・管理方法に関する共有者間の意思決定ルールの見直しであり、表示に関する登記における保存行為としての単独申請の扱い（不動産登記法上の申請人適格の問題）には影響しません。他の肢についても、結論に影響する法改正は見当たりませんでした。
 
 ---
 
@@ -80,3 +79,126 @@ A及びBが共有する土地について、Aが単独で地積の更正の登�
 - 地積が減っても、抵当権者の承諾はいらないんです
 - 更正登記、抵当権者は申請できないんです
 - 共有者の一人でも、単独で申請できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+地積の更正の登記の申請義務・申請人に関する3肢と、承諾情報の要否に関する2肢という2つの軸に沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, registry
+desks, measuring tapes, application documents, bank/mortgage icons, stamps,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 積・権・記・登・証・誤 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地積の更正登記、申請人と承諾は？
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第9問－地積の更正の登記の申請義務・申請人・承諾情報を整理する
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請義務・申請人のルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積更正登記に1か月の義務なし
+Illustration: An isometric land plot with a measuring tape showing a
+mismatch between "登記記録の地積" and the actual measured size. A person
+holds a document labeled "地積の更正の登記" at a registry desk, with a
+clock icon showing "1か月以内" crossed out by a red cross mark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請義務なし
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+誤差を超えれば代位で更正登記も可
+Illustration: An isometric land plot split by a dotted line (分筆) with
+person B labeled "時効取得者" submitting an application at a registry
+desk with a "代位" stamp. Beside it, a small ruler icon shows a gap
+labeled "誤差限度オーバー" with an arrow pointing to a second document
+labeled "地積の更正の登記" bearing a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位で申請可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+申請人は表題部所有者・所有権登記名義人限定
+Illustration: An isometric registry desk where a person labeled
+"表題部所有者・所有権登記名義人" submits a document labeled
+"地積の更正の登記". Beside them, a bank building icon labeled "抵当権
+者" reaches toward the same application counter, with a red cross mark
+over their hand.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+抵当権者は不可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+承諾情報は必要か
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積減少でも抵当権者の承諾不要
+Illustration: An isometric land plot shown shrinking, with a before/after
+outline (before larger, after smaller) and an arrow labeled "地積減少".
+A stamp icon labeled "抵当権" stays fixed on the plot unchanged. Beside
+the registry desk, a document labeled "抵当権者の承諾を証する情報" has a
+red cross mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+承諾書 不要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+共有者の一人でも単独申請、承諾不要
+Illustration: An isometric land plot with two nameplates "A" and "B"
+side by side (共有). Person A alone submits a document labeled
+"地積の更正の登記" at a registry desk. Beside them, a document labeled
+"Bの承諾を証する情報" has a red cross mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+単独で申請可
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

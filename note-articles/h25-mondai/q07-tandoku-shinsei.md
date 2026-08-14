@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】表示登記は単独申請が原則、でも例外もある〜申請適格の見分け方〜
+## 【土地家屋調査士受験生向け】平成25年度 第7問〜名義人が別人なら単独更正はできない〜
 
 **出題年度：平成25年度　午後の部　第7問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、マンションの集会室として使われている部屋（甲区分建物）の登記名義人がBさんだった場合、規約でA・B共用とされていたとしても、Aさんが単独でこの部屋を「共用部分である旨」の登記を申請することはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | できる | 持分の更正登記は、表題部所有者の一人から単独申請できる |
-| イ | できる | 合体による登記は、共同相続人の一人から保存行為として単独申請できる |
-| ウ | できない | 人格の同一性が失われる更正登記は、名義人単独の申請ではできない |
-| エ | できる | 地積が減少する更正登記も、共有者の一人から単独申請できる |
-| オ | できない | 共用部分である旨の登記は、所有権登記名義人でなければ申請できない |
+- **ア（できる）**　持分の更正登記は、表題部所有者の一人から単独申請できる
+- **イ（できる）**　合体による登記は、共同相続人の一人から保存行為として単独申請できる
+- **ウ（できない）**　人格の同一性が失われる更正登記は、名義人単独の申請ではできない
+- **エ（できる）**　地積が減少する更正登記も、共有者の一人から単独申請できる
+- **オ（できない）**　共用部分である旨の登記は、所有権登記名義人でなければ申請できない
 
 表示に関する登記は「原則、単独でできる」からこそ、逆に「なぜこの場合だけできないのか」という例外の理由を意識して覚えることが大切です。
 
@@ -68,7 +66,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
-- 各肢の法的根拠は、不動産登記法16条（表示に関する登記の単独申請主義）を基本としつつ、ウ（人格の同一性が失われる更正登記の申請適格）とオ（共用部分である旨の登記の申請適格、不動産登記法58条の趣旨）は、実務上の一般的な理解に基づくものであり、個別の先例までは確認できていません。
+- 各肢の法的根拠は、`note-articles/laws/fudousan-touki-hou.md`の条文原文で確認しました。ア・ウは33条（表題部所有者の更正の登記等）と一致します。33条1項は「不動産の所有者と当該不動産の表題部所有者とが異なる場合においてする当該表題部所有者についての更正の登記は、当該不動産の所有者以外の者は、申請することができない」と定めており、ウのAは真正な所有者Bではないため、そもそも申請適格を持ちません（できない）。33条3項・4項は持分の更正登記について、当該共有者本人（A）が単独で申請できるが他の共有者（B）の承諾を要すると定めており、アはこれと整合します（できる）。オは58条2項「共用部分である旨の登記...は、当該...建物の表題部所有者又は所有権の登記名義人以外の者は、申請することができない」と一致します（Bが所有権登記名義人のためAは申請適格なし＝できない）。エ（地積の更正登記が共有者の一人から保存行為として単独申請できる点）は、33条の対象外（33条は表題部所有者・持分の更正に限定）であり、民法上の保存行為の考え方に基づく一般的な理解にとどまります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。本問が扱う「表題部所有者の更正」「共用部分である旨の登記」といった個別テーマは、ほぼ毎年何らかの形で出題されていますが、本問特有の「第1欄・第2欄」形式で5つの登記類型の単独申請可否をまとめて問う出題形式そのものの再出題は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**。
 
 ---
@@ -85,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-表示に関する登記の単独申請ができる場合・できない場合を、できる3枚・できない2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+表示に関する登記について「単独申請できる場合」と「単独申請できない場合」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+plots, registry desks, application documents, official stamps, torn
+paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,73 +110,88 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・建・物・登・記・所・権 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-表示登記は単独申請が原則
-でも例外もある
+Title (large, bold, 1行):
+表示登記、単独申請できるのは？
 
 Subtitle (smaller, centered, 1行):
-単独申請ができる場合・できない場合を整理(平成25年度 午後の部 第7問)
+平成25年度 午後の部 第7問－単独申請の可否を分けるルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene showing a single figure confidently stamping a document alone on the left (単独申請), and on the right a document requiring two figures together to stamp it (共同申請), separated by a dividing line.
-表示に関する登記は原則として単独で申請できますが、その原則にも例外があります。「誰が申請人としての資格を持つか」を基準に、できる場合とできない場合を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 単独申請できる場合
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-持分の更正登記は、表題部所有者の一人から単独申請できる
-Illustration: An isometric land plot with two figures A and B, A alone stamping a document labeled 持分の更正の登記 with a green checkmark, B standing by without objecting.
-Caption (small text below):
-表題部所有者A及びBの持分の更正の登記は、表示に関する登記として、Aが単独で申請できる。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+持分の更正は単独申請できる
+Illustration: An isometric land plot with two figures labeled "A" and
+"B". A alone stamps a document labeled "持分の更正の登記" with a green
+checkmark; B stands by without objecting.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一人で申請可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-合体による登記は、共同相続人の一人から保存行為として単独申請できる
-Illustration: An isometric scene showing two small buildings merging into one larger building (合体), with only one of two inheriting figures (相続人A) stamping the registration document alone, green checkmark.
-Caption (small text below):
-共同相続人A及びBのうちAが、丙建物の表題登記等を保存行為として単独で申請できる。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+合体登記も相続人一人で可
+Illustration: An isometric scene showing two small buildings merging
+into one larger building, labeled "合体". Only one of two inheriting
+figures, labeled "相続人A", stamps the registration document alone with
+a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+保存行為で可
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-地積が減少する更正登記も、共有者の一人から単独申請できる
-Illustration: An isometric land plot shrinking slightly (地積減少) with two co-owner figures A and B, A alone stamping the update document, green checkmark.
-Caption (small text below):
-更正後の地積が減少する内容であっても、地積の更正登記は共有者の一人が保存行為として単独で申請できる。
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積減少の更正も単独可
+Illustration: An isometric land plot shrinking slightly, labeled
+"地積減少", with two co-owner figures labeled "A" and "B". A alone
+stamps the update document with a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+共有者一人で可
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 単独申請できない場合
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-人格の同一性が失われる更正登記は、名義人単独の申請ではできない
-Illustration: An isometric building with a name tag reading A being swapped entirely for a tag reading B, with A alone trying to stamp the document but a red X blocking it.
-Caption (small text below):
-表題部所有者をAからBへ実質的に入れ替える更正登記は、現在の名義人Aの単独申請ではできない。
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+名義入れ替えは単独不可
+Illustration: An isometric building with a name tag reading "A" being
+swapped entirely for a tag reading "B". Figure A alone tries to stamp
+the document, blocked by a red X.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+同一性なし不可
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-共用部分である旨の登記は、所有権登記名義人でなければ申請できない
-Illustration: An isometric shared-room icon (共用部分) inside a building, with figure B (所有権登記名義人) able to stamp the document, while figure A standing nearby has a red X blocking their attempt to stamp it alone.
-Caption (small text below):
-共用部分である旨の登記は、その建物の所有権の登記名義人であるBでなければ申請できず、Aは単独で申請できない。
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+共用部分登記は名義人のみ
+Illustration: An isometric shared-room icon labeled "共用部分" inside a
+building. Figure B, labeled "所有権登記名義人", is able to stamp the
+document, while figure A standing nearby has a red X blocking their
+attempt to stamp it alone.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+名義人限定
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第7問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly (単独申請できる場合に3枚、単独申請できない場合に2枚), with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

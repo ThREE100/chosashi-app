@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】登録免許税、「非課税」と「個数×千円」の見分け方 令和7年度第19問を解説
+## 【土地家屋調査士受験生向け】令和7年度 第19問〜市が代位で分筆しても、税金はゼロ〜
 
 **出題年度：令和7年度　午後の部　第19問**
 
@@ -28,7 +28,7 @@
 
 ### イ：地方公共団体の代位による分筆登記の嘱託は、非課税
 
-地方公共団体が、私人に代位して土地の分筆の登記を嘱託する場合であっても、分筆登記のような表示に関する登記は原則として登録免許税が課されません。
+地方公共団体が、私人に代位して土地の分筆の登記を嘱託する場合、分筆登記のような表示に関する登記は本来課税対象です（登録免許税法別表第一一（十三）イにより個数×1,000円が原則）。しかし、登録免許税法5条1号は「国又は別表第二に掲げる者がこれらの者以外の者に代位してする登記又は登録」を非課税としており、登録免許税法別表第二に掲げられている地方公共団体が私人に代位して行う登記はこの非課税規定に該当します。つまり非課税となるのは「登記の種類が表示登記だから」ではなく、「代位する主体が地方公共団体（別表第二該当者）だから」です。
 
 **たとえば**、市が道路用地として土地の一部を買い受けた際、地権者に代わって代位で分筆登記を嘱託しても、その手続きに登録免許税はかかりません。
 
@@ -54,9 +54,11 @@
 
 - **ア（誤）**　表題部所有者の住所更正は非課税（1,000円ではない）
 - **イ（正）**　地方公共団体の代位による分筆登記の嘱託は非課税
-- **ウ（誤）**　合筆登記の錯誤抹消は非課税（表題部登記の抹消は別表第一(十五)の除外規定に該当）
+- **ウ（誤）**　合筆登記の錯誤抹消は非課税（表題部登記の抹消は非課税とする除外規定に該当するため）
 - **エ（正）**　区分建物の再区分は再区分後の個数×1,000円＝2,000円
 - **オ（誤）**　分割＋合併の一括申請は3,000円ではなく2,000円
+
+登録免許税は、「非課税の除外規定に当たるか」「個数×1,000円で計算するか」を条文ごとに切り分けて覚えることが得点への近道です。
 
 **正解：イ・エの組合せ（選択肢3番）**
 
@@ -65,7 +67,7 @@
 **このまま使える点／使う前に確認したい点**
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 出題番号・正解番号（3番＝イ・エ）は法務省公表の試験問題原本・正答資料で確認済みです。ア（表題部所有者の住所更正は非課税）、ウ（表題部登記の抹消は別表第一(十五)の除外規定により非課税）、エ（再区分後の個数×1,000円という計算式）はいずれも登録免許税法別表第一の条文構造で確認済みです。オ（分割＋合併の一括申請は2,000円）は実務解説サイトで確認済みです。
+- 出題番号・正解番号（3番＝イ・エ）は法務省公表の試験問題原本・正答資料で確認済みです。ア（表題部所有者の住所更正は非課税）、ウ（表題部登記の抹消は別表第一(十五)の除外規定により非課税）、エ（再区分後の個数×1,000円という計算式）はいずれも登録免許税法別表第一の条文構造で確認済みです。オについては、公式の正答（3番＝イ・エ、オは誤り）から「3,000円ではない」ことは確定していますが、正しい税額を「2,000円」とする点は実務解説サイト（二次情報源）による記載であり、一次資料・先例では独立に確認できていません。2,000円という数字自体を否定するものではありませんが、断定はできず、参考情報として扱ってください。
 
 ---
 
@@ -79,13 +81,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+登録免許税の5肢を「非課税になるケース」と「個数×1,000円で計算するケース」という2つの軸に沿って、すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+plots, stamps, torn paper labels, coins, document tags, etc. — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -93,64 +110,90 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Special caution: kanji such as 登・録・建・物・合・筆・所・権 are especially
-prone to being rendered as Simplified Chinese variants. Draw every
-instance of these characters in their correct standard Japanese (Jōyō) form.
+summarize, or substitute any characters. Pay special attention to the
+kanji 録・地・建・物・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 1行):
-登録免許税、非課税と個数×千円の見分け方
+Title (large, bold, 2行):
+登録免許税、
+「非課税」と「個数×千円」の見分け方
 
 Subtitle (smaller, centered, 1行):
-令和7年度　午後の部　第19問／登録免許税
+令和7年度 午後の部 第19問－5つの記述を検証する
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 天秤のイラスト。片方に「非課税」の札、もう片方に「個数×1,000円」の硬貨アイコンが積まれている。
-表示に関する登記の登録免許税は、「そもそも非課税」なのか「分筆・分割・区分・合併後の個数×1,000円」で計算するのかを見分けるのがポイントです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-表題部所有者の住所の更正は、非課税
-Illustration: 表題部所有者の住所更正登記の書類アイコンに「非課税」の丸ラベル。横に「1,000円」の硬貨アイコンに✕印。
-Caption (small text below):
-表題部所有者の住所更正、実は非課税です
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+非課税になるケース
 
---- CARD 2 ---
-Heading (bold):
-地方公共団体の代位による分筆登記の嘱託は、非課税
-Illustration: 市役所のアイコンが、私人に代わって土地の分筆登記を嘱託する書類を提出。書類に「非課税」の丸ラベル。
-Caption (small text below):
-代位で分筆しても、税金はかかりません
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題部所有者の住所更正は非課税
+Illustration: an isometric building icon with a small document tag
+labeled "表題部" and "住所" attached to it; a red "非課税" stamp is
+overlaid on top; no yen coin icons anywhere near this card.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+住所更正は非課税
 
---- CARD 3 ---
-Heading (bold):
-合筆登記の錯誤による抹消は、非課税
-Illustration: 3筆の土地が合筆された後、その登記を✕印で抹消する書類アイコンに「非課税」の丸ラベル。横に「3,000円」の硬貨アイコンに✕印。
-Caption (small text below):
-合筆の抹消は、実は非課税なんです
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+代位による分筆嘱託は非課税
+Illustration: an isometric land plot split into two parcels by a dotted
+line (分筆を表す); a small municipal-building icon (地方公共団体) and a
+person icon (私人) connected by a dashed arrow labeled "代位"; a
+"非課税" stamp badge over the plot.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位でも非課税
 
---- CARD 4 ---
-Heading (bold):
-区分建物の再区分は、再区分後の個数×1,000円
-Illustration: 1個の区分建物が2個に分かれるイラスト。硬貨アイコンが2枚（1,000円×2＝2,000円）並ぶ。
-Caption (small text below):
-再区分の税額、後の個数で決まるんです
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+合筆登記の錯誤抹消も非課税
+Illustration: an isometric view of three land parcels merged into one
+(合筆), overlaid with a red cancellation line/X mark (抹消) and a
+"非課税" stamp badge beside it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+表題部抹消は非課税
 
---- CARD 5 ---
-Heading (bold):
-分割の登記と合併の登記を一括申請するときは、2,000円
-Illustration: 甲建物から附属建物を切り離して乙建物にくっつける図に、1通の申請書アイコン。横に硬貨アイコン2枚（2,000円）、「3,000円」のラベルに✕印。
-Caption (small text below):
-まとめて申請したら、実は2,000円でした
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+個数×1,000円で計算するケース
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物の再区分は個数×1,000円
+Illustration: an isometric single building icon splitting via a dotted
+arrow into two identical smaller building icons (再区分), each labeled
+"1,000円"; a small total-sum bubble beside them showing "2,000円".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+合計2,000円
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+分割+合併の一括申請は2,000円
+Illustration: an isometric building labeled "甲" with a small attached
+building (附属建物) being detached and moved by an arrow to attach to a
+building labeled "乙"; a single document/application-form icon
+(一の申請情報を表す) beside the arrow; a price tag showing "2,000円"
+(not "3,000円").
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+3,000円ではない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験　令和7年度　午後の部
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

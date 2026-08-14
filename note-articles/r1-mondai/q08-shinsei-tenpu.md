@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】その情報、出す？省ける？表示登記の申請情報・添付情報〜住民票コード・地番・登記識別情報の扱いで差がつく〜
+## 【土地家屋調査士受験生向け】令和元年度 第8問〜住民票コードがあれば住所証明は不要〜
 
 **出題年度：令和元年度　午後の部　第8問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、市が公共用地について自ら表題登記を嘱託するとき、私人の申請なら求められる所有権証明書を、いちいち添付しなくてよい扱いになっています。官公署による嘱託は、申請の場合よりも添付情報が簡略化されているわけです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 会社法人等番号を提供すれば支配人の権限証明書は省略できる（不登令7条1項1号） |
-| イ | 正 | 住民票コードを提供すれば住所証明情報の提供は不要（不登令9条） |
-| ウ | 誤 | 地番は登記官が定めるので、表題登記で申請情報として提供不要（不登法35条） |
-| エ | 正 | 合筆で登記識別情報を失念したら理由を申請情報に記載（不登令3条12号） |
-| オ | 誤 | 官公署の嘱託なら所有権証明情報を省略できる（不登法16条2項） |
+- **ア（誤）**　会社法人等番号を提供すれば支配人の権限証明書は省略できる
+- **イ（正）**　住民票コードを提供すれば住所証明情報の提供は不要
+- **ウ（誤）**　地番は登記官が定めるので、表題登記で申請情報として提供不要
+- **エ（正）**　合筆で登記識別情報を失念したら理由を申請情報に記載
+- **オ（誤）**　官公署の嘱託なら所有権証明情報を省略できる
 
 正しいのは、住民票コードで住所証明を省けるイと、失念の理由を申請情報に書くエです。「番号・コードで省略できる」「地番は登記官が付ける」「官公署の嘱託は簡略化される」という原則を、逆に言い換えるひっかけに注意しましょう。
 
@@ -73,6 +71,7 @@
 - オ（官公署の嘱託での所有権証明情報の省略）は判定として検証済みで、根拠を不登法16条2項および関係政省令としていますが、省略の直接の根拠となる政省令の条項番号までは特定しきれていないため、本文では条番号を限定せず記載しています。
 - **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（土地の表示登記の申請情報・添付情報）と同一・類似の問題が再出題されていないかを確認しました。候補のうち、令和6年度第4問の肢ア（住民票コードを提供すれば住所を証する情報の提供を要しない、令9条）は本問の肢イとほぼ同一の記述・論点であり、また令和6年度第4問の肢エ及び令和5年度第14問の肢ウ（会社法人等番号を提供すれば支配人・代表者の権限を証する情報の提供を省略できるか、令7条1項1号）は、本問の肢ア（支配人の権限を証する登記事項証明書の省略）と同一の条文論点を扱っています。事案の当事者設定（合同会社、A株式会社の支店支配人等）は異なりますが、**部分的に類似する記述があります**（同一の論点が再出題されています）。なお、その他の候補（令和3年度第4問・第5問、令和6年度第5問）は電子署名・調査士報告方式・共有敷地の証明等の別の場面を扱っており、本問の肢ウ・エ・オとは重複しません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令への準拠チェック（2026年8月実施）**：WebSearchで、本文が引用する不登令7条1項1号（会社法人等番号による支配人の権限証明情報の省略）、不登令9条（住民票コードによる住所証明情報の省略）、不登法35条（地番は登記所が定める）、不登令3条12号・準則42条1項（登記識別情報を提供できない正当な理由の申請情報への記載）、不登法16条2項（官公署の嘱託の場合の取扱い）を個別に確認しました。いずれも令和元年の出題当時から現在（2026年8月）までの間に条文番号の変更・実質改正はなく、内容も現行法と一致しており、修正は不要でした。
 
 ---
 
@@ -88,15 +87,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地の表示登記の申請情報・添付情報について、添付情報を省略できる場面を3枚、申請情報に書くべきこと・書かなくてよいことを2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+土地の表示登記の申請情報・添付情報について、会社法人等番号・住民票コード・官公署の嘱託によって添付情報を省略できる場面を3枚、申請情報に書くべきこと・書かなくてよいことを2枚の、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric office buildings,
 government buildings, ID cards/number tags, documents, official stamps,
 prohibition marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -104,100 +114,90 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to
-standard Japanese (Jōyō) form of these characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所・証 — these must be rendered
+in their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 表示登記、省ける情報・省けない情報
-番号・コード・嘱託で変わる添付書類
 
 Subtitle (smaller, centered, 1行):
-会社法人等番号・住民票コード・官公署の嘱託を整理(令和元年度 午後の部 第8問)
+令和元年度 午後の部 第8問－番号・コード・嘱託で変わる添付書類
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing an
-application form surrounded by several document icons; some documents
-are stamped with a red 「不要」 cross-out mark showing they are omitted
-thanks to a number or code, while others remain highlighted as still
-required.
-表示登記の申請では、会社法人等番号や住民票コードを提供すれば省略できる
-添付情報がある一方、申請情報として書くべきこと・書かなくてよいことも定
-められています。「省略できるものをできないと言う」「不要なものを必要と
-言う」という言い換えのひっかけに注意しましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 添付情報を省略できる場面
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-会社法人等番号を提供すれば、支配人の権限証明書は省略できる
-Illustration: An isometric company building icon with a staff figure
-(支配人) holding a document, a glowing ID tag labeled 「会社法人等番号」
-with an arrow pointing to a crossed-out document labeled 「登記事項証明
-書」, showing the certificate becomes unnecessary.
-Caption (small text below):
-会社法人等番号を提供すれば、原則として支配人の権限を証する登記事項証明
-書の提供は不要となる(不登令7条1項1号)。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+番号提供で権限証明書省略可
+Illustration: An isometric company building with a staff figure (支配人)
+holding a document. A glowing ID tag labeled 「会社法人等番号」 points
+via an arrow to a document labeled 「登記事項証明書」 with a large red X
+mark over it, showing the certificate becomes unnecessary.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+権限証明書 省略可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-住民票コードを提供すれば、住所証明情報は不要
-Illustration: An isometric person icon holding a glowing card labeled
-「住民票コード」 with an arrow pointing to a crossed-out document
-labeled 「住民票の写し」, next to a land plot representing the表題登記
-申請.
-Caption (small text below):
-表題登記の申請人が住民票コードを申請情報とあわせて提供するときは、住所
-を証する情報の提供を要しない(不登令9条)。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+住民票コードで住所証明不要
+Illustration: An isometric person holding a glowing card labeled
+「住民票コード」, an arrow pointing to a document labeled 「住民票の写
+し」 with a large red X mark over it, beside a land plot labeled
+「表題登記」.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+住所証明 不要
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-官公署の嘱託なら、所有権証明情報は省略できる
-Illustration: An isometric government building icon (官公署) with an
-official stamp, sending a document labeled 「嘱託」 toward a land plot,
-with a crossed-out document labeled 「所有権証明情報」 beside it showing
-it is omitted.
-Caption (small text below):
-国又は地方公共団体が土地の表題登記を嘱託する場合は、所有権を証する情報
-の提供を省略することができる(不登法16条2項)。
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+官公署の嘱託は所有権証明省略可
+Illustration: An isometric government building (官公署) with an official
+stamp, sending a document labeled 「嘱託」 toward a land plot, with a
+document labeled 「所有権証明情報」 carrying a large red X mark beside
+it, showing it is omitted.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+所有権証明 省略可
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 申請情報に書くこと・書かなくてよいこと
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-地番は、申請人が申請情報に書く必要はない
-Illustration: An isometric blank land plot with an empty number tag,
-next to a registrar figure (登記官) stamping a new number tag onto the
-plot, with a crossed-out pencil icon over the empty tag on the
-applicant's side to show the applicant does not fill it in.
-Caption (small text below):
-地番は登記所（登記官）が定めるものであり、表題登記を申請する段階で申請
-人が申請情報として提供する必要はない(不登法35条)。
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地番は登記官が定める
+Illustration: An isometric blank land plot with an empty number tag, next
+to a registrar figure (登記官) stamping a new number tag onto the plot.
+A crossed-out pencil icon sits over the empty tag on the applicant's
+side, showing the applicant does not fill it in.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+申請人は記載不要
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-登記識別情報を失念したら、その理由を申請情報に書く
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+識別情報失念は理由を記載
 Illustration: An isometric person scratching their head next to an empty
 document holder labeled 「登記識別情報」, with a note being written onto
-the申請情報 form reading 「失念」.
-Caption (small text below):
-所有権の登記がある土地の合筆登記で登記識別情報を提供できないときは、提
-供できない理由を申請情報の内容としなければならない(不登令3条12号)。
+the申請情報 form reading 「失念（理由）」 and a checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+理由を申請情報に記載
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度 午後の部 第8問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・証. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3
-cards under 添付情報を省略できる場面, 2 cards under 申請情報に書くこと・
-書かなくてよいこと), with no duplicated or missing cards, and confirm
-every heading, illustration label, and caption text matches the Japanese
-text given above verbatim, with no paraphrasing and no substituted
-characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】時効取得に登記はいる？いらない？〜「完成前」と「完成後」で真逆になる対抗要件〜
+## 【土地家屋調査士受験生向け】平成21年度 第1問〜時効取得、完成の前後で登記の要否が逆転〜
 
 **出題年度：平成21年度　午後の部　第1問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、特急にも各駅停車にも乗れる切符を持っている人が、あえて各駅停車を選んでもよいのと同じです。善意・無過失のAは10年という「特急」に乗れますが、20年という「各駅停車」で目的地に着くことも自由にできるので、「特急に乗れるから各駅停車には乗れない」ということにはならないのです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 時効完成前の第三者には登記なくして対抗できる（当事者類似の関係） |
-| イ | 正 | 時効完成後の第三者とは対抗関係に立ち、登記が必要（民法177条） |
-| ウ | 誤 | 元所有者Bは当事者であり、登記なくして時効取得を主張できる |
-| エ | 正 | 起算点は占有開始時に固定され、任意にずらせない（最判昭35.7.27） |
-| オ | 誤 | 善意無過失でも20年の取得時効を重ねて主張できる |
+- **ア（正）**　時効完成前の第三者には登記なくして対抗できる（当事者類似の関係）
+- **イ（正）**　時効完成後の第三者とは対抗関係に立ち、登記が必要
+- **ウ（誤）**　元所有者Bは当事者であり、登記なくして時効取得を主張できる
+- **エ（正）**　起算点は占有開始時に固定され、任意にずらせない
+- **オ（誤）**　善意無過失でも20年の取得時効を重ねて主張できる
 
 「完成前か完成後か」「相手は第三者か元所有者か」という2つの軸を分けて整理できれば、取得時効と登記は確実に得点できる分野になります。設問は「誤っているものの組合せ」を問うている点にも注意してください。
 
@@ -71,6 +69,7 @@
 - 各肢の根拠のうち、民法177条（対抗要件）と民法162条（10年・20年の取得時効）は条文レベルで確認できるものです。一方、時効完成前後で対抗要件の要否が分かれる点、元所有者は当事者にあたる点、起算点固定（最判昭35.7.27）、善意無過失者による20年時効の重畳的主張が可能な点は、いずれも判例法理に基づくもので、条文そのものに明文があるわけではなく、判例・一般原則からの整理にとどまります。判例年月日は一般に知られたものを示していますが、細部は各自の教材でご確認ください。
 - ローカルのアガルート過去問テキストは本セッションの実行環境には存在せず、参照できませんでした。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（B→C譲渡の時期による対抗要件の要否、起算点固定、二重時効の重畳主張を組み合わせた対話形式の取得時効と登記の問題）と同一・類似の問題が再出題されていないかを確認しました。取得時効・占有を扱う問題自体は複数年度に存在します（R07第2問、R02第2問、R01第1問、H29第2問、H25第2問、H23第2問等）が、R02第2問オが起算点の任意選択不可の論点を単独で扱う以外は、本問特有の事案構成・肢の組合せと一致するものはなく、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文・判例法理を現行法（2026年8月時点）と照合しました。2020年4月1日施行の民法（債権関係）改正は、消滅時効の期間・起算点に関する用語や規律の整理が中心であり、取得時効を定める民法162条や対抗要件を定める民法177条には実質的な改正が及んでいません。時効完成の前後で登記の要否が分かれるという判例法理、元所有者は当事者であって対抗関係に立たないという整理、起算点は占有開始時に固定され任意にずらせないとする判例（最判昭35.7.27）、善意無過失者が20年の取得時効を重ねて主張できる点も、いずれも現在まで維持されています。したがって**各肢の正誤の結論および本記事の条文引用に変更はなく、修正は行っていません**。
 
 ---
 
@@ -81,3 +80,125 @@
 - 元の持ち主が相手なら、登記いらずで主張できるって知ってた？
 - 時効のスタート地点、自分で選び直せないんです
 - 善意無過失でも、20年時効はちゃんと使えるんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, fence
+posts, calendars/timelines, registry books, stamps, torn paper labels).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+KANJI ACCURACY WARNING: the characters 登・記・権・効・占・者・第・三 appear
+repeatedly in this poster. These are especially easy to render as
+Simplified Chinese variants. Draw every one of them in the standard
+Japanese (Jōyō) form only.
+
+--- HEADER ---
+Title (large, bold, 1行):
+取得時効と登記
+
+Subtitle (smaller, centered, 1行):
+完成の前後で登記の要否が逆転する
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。カードは1列・縦並び5枚、バッジ色はすべて緑で統一する。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously across all cards 1-5 — never restart).
+Heading (bold, ONE line):
+完成前の第三者には登記不要
+Illustration: an isometric horizontal timeline; a small flag labeled
+「完成」 sits at the middle. To the LEFT of the flag stands a buyer figure
+holding a deed, with the label 「第三者」. An arrow runs from an occupier
+figure on the left edge (label 「時効取得者」) to the buyer, with a large
+green ✓ on the arrow. A registry book icon next to the arrow is greyed out
+and marked with a small 「不要」 tag.
+Conclusion tag (short green banner/pill directly below the illustration):
+登記なしで対抗できる
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line):
+完成後の第三者には登記必要
+Illustration: the same isometric timeline with the 「完成」 flag, but now the
+buyer figure with the label 「第三者」 stands to the RIGHT of the flag. The
+occupier and the buyer face each other pulling on opposite ends of one
+land-plot tile; between them a registry book icon glows with a green ✓ and
+a small tag 「先に登記」. A red ✕ sits over an empty registry slot on the
+occupier's side.
+Conclusion tag (short green banner/pill):
+登記の早い者勝ち
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line):
+元所有者には登記なしで主張
+Illustration: two figures standing directly face to face on a single
+isometric land plot — left figure labeled 「時効取得者」, right figure labeled
+「元所有者」. A speech bubble from the left figure contains a green ✓. A
+registry book icon floats beside them, crossed out with a red ✕ and a small
+「不要」 tag. A dotted bracket labeled 「当事者」 encloses both figures.
+Conclusion tag (short green banner/pill):
+当事者の関係
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line):
+起算点は占有開始時に固定
+Illustration: an isometric running track. A start block is bolted to the
+ground with a chain, labeled 「占有開始」, marked with a green ✓. Further
+along the track, a second start block floating above the lane is crossed
+out with a large red ✕ and labeled 「途中から」. A small padlock icon sits on
+the fixed start block.
+Conclusion tag (short green banner/pill):
+起算点はずらせない
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line):
+善意無過失でも20年時効可
+Illustration: an isometric station platform with two trains side by side.
+The near train has a headboard reading 「10年」 with a green ✓; the far train
+has a headboard reading 「20年」 also with a green ✓. One passenger figure
+stands between them holding a ticket, with a small tag 「どちらも選べる」. No ✕
+marks anywhere on this card.
+Conclusion tag (short green banner/pill):
+どちらも援用できる
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+(取得時効と登記の5原則: 完成前の第三者・完成後の第三者・元所有者・起算点の固定・
+20年時効の重畳主張), with no duplicated or missing cards, confirm there is no
+intro illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

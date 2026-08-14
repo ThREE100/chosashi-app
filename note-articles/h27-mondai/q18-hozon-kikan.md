@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】その情報、何年保存される？〜永久保存と期限つき保存を見分ける〜
+## 【土地家屋調査士受験生向け】平成27年度 第18問〜筆界特定書は10年でなく永久保存〜
 
 **出題年度：平成27年度　午後の部　第18問**
 
@@ -20,7 +20,7 @@
 
 ### ア：職権表示登記等事件簿は、立件の日から5年間保存される
 
-職権表示登記等事件簿に記録された情報は、立件の日から5年間保存されます（不動産登記規則28条）。これは正しい記述です。
+職権表示登記等事件簿に記録された情報は、立件の日から5年間保存されます（不動産登記規則28条11号）。これは正しい記述です。
 
 **たとえば**、登記官が職権で表示に関する登記の手続を始めた事件の記録は、その事件を立件した日から5年間、登記所に保存されます。
 
@@ -48,15 +48,13 @@
 
 **たとえば**、筆界特定手続によって作成された筆界特定書は、手続から何十年経っても登記所（法務局）に保存され続け、後になって参照することができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 職権表示登記等事件簿は立件の日から5年間保存（規則28条） |
-| イ | 誤 | 閉鎖した建物所在図は50年ではなく永久に保存（規則28条2号・3号） |
-| ウ | 正 | 共同担保目録は全部抹消の日から10年間保存（規則28条6号） |
-| エ | 正 | 閉鎖した土地所在図は（つづり込み分を除き）30年間保存（規則28条13号） |
-| オ | 誤 | 筆界特定書は10年ではなく永久に保存（規則235条1項1号） |
+- **ア（正）**　職権表示登記等事件簿は立件の日から5年間保存
+- **イ（誤）**　閉鎖した建物所在図は50年ではなく永久に保存
+- **ウ（正）**　共同担保目録は全部抹消の日から10年間保存
+- **エ（正）**　閉鎖した土地所在図は（つづり込み分を除き）30年間保存
+- **オ（誤）**　筆界特定書は10年ではなく永久に保存
 
 「境界や位置に関わる基礎図面・記録（地図、建物所在図、筆界特定書）は永久保存」というくくりで覚えておくと、イ・オのような数字の引っかけに惑わされにくくなります。
 
@@ -85,15 +83,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「境界・位置に関わる基礎図面は永久保存」対「期限付きで保存されるもの」という本問の軸に沿って、永久保存側2枚・期限付き保存側3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+「期限が定められている保存期間」（ア・ウ・エ＝列A・緑）と、「境界・位置の基礎資料として期限なく永久に保存されるもの」（イ・オ、いずれも誤りの肢を正しい保存期間に直したもの＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric archive shelves,
-ledger books, survey maps, infinity symbol, calendar/clock icons —
-adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric登記所の書庫、
+ファイルフォルダ、カレンダー、時計、無限マーク、共同担保目録、土地・
+建物所在図の巻物、筆界特定書のファイルなど — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,98 +112,92 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・対・記・存・筆・録・図, which have Simplified Chinese look-alike
-forms with visibly different stroke shapes — always draw the standard
-Japanese (Jōyō) form of these characters.
+kanji 保・存・期・間・職・権・表・示・登・記・事・件・簿・立・年・閉・鎖・建・物・所・図・共・同・担・保・目・録・抹・消・土・地・筆・界・特・定・書・久 —
+these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 その情報、何年保存される？
-永久保存と期限つき保存を見分ける
 
 Subtitle (smaller, centered, 1行):
-境界・位置に関わる基礎図面は期限を区切らない
-(平成27年度 午後の部 第18問)
+平成27年度　午後の部　第18問－永久保存と期限つき保存を見分ける
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric archive room with tall shelves, split by a
-dotted line into two zones: the left zone glowing with an infinity
-symbol above stacked survey maps and registry books, the right zone
-showing labeled boxes each with a calendar/clock icon and a specific
-year count.
-登記所に保存される各種の情報の保存期間は、数字を正確に覚えている
-かがそのまま得点に直結する分野です。中でも「地図」「建物所在図」
-「筆界特定書」といった、土地・建物の位置や境界にかかわる基礎的な
-情報は、期限を区切らず永久に保存される点がポイントです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-永久保存されるもの
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+期限が定められている保存期間
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-閉鎖した建物所在図は、永久に保存される
-Illustration: An isometric building-location map document stamped
-"閉鎖" being placed on an archive shelf with an infinity symbol glowing
-above it, next to a crossed-out "50年" calendar label.
-Caption (small text below):
-地図や地図に準ずる図面、建物所在図は、閉鎖されたものも含めて永久に
-保存される(不動産登記規則28条2号・3号)。「50年間」ではない。
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+事件簿は立件から5年保存
+Illustration: 「職権表示登記等事件簿」と書かれたファイルアイコン。横の
+カレンダーに大きく「5年」と表示し、書庫の棚に収まっているイラスト。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+立件日から5年
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-筆界特定書は、永久に保存される
-Illustration: An isometric bound document labeled "筆界特定書" placed
-on an archive shelf with an infinity symbol glowing above it, next to
-a crossed-out "10年" calendar label.
-Caption (small text below):
-筆界特定書に記載又は記録された情報は、10年ではなく永久に保存される
-(不動産登記規則235条1項1号)。
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+共同担保目録は抹消から10年保存
+Illustration: 「共同担保目録」のファイルアイコンに、抵当権抹消の赤い
+スタンプが押されている。横のカレンダーに「10年」と表示し、書庫の棚に
+収まっているイラスト。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+全部抹消から10年
 
---- COLUMN B HEADER (pill-shaped badge) ---
-期限つきで保存されるもの
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+閉鎖した土地所在図は30年保存
+Illustration: 巻物状の「土地所在図」に「閉鎖」の赤いスタンプが押されて
+いる。横のカレンダーに「30年」と表示し、書庫の棚に収まっているイラスト。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+閉鎖日から30年
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-職権表示登記等事件簿は、立件の日から5年間保存される
-Illustration: An isometric ledger book labeled "職権表示登記等事件簿"
-on an archive shelf with a calendar counting down from a "立件日"
-marker to a "5年" deadline tag.
-Caption (small text below):
-職権表示登記等事件簿に記録された情報は、立件の日から5年間保存
-される(不動産登記規則28条)。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+基礎資料として永久に保存されるもの
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-共同担保目録は、全部抹消の日から10年間保存される
-Illustration: An isometric document labeled "共同担保目録" with a
-red "全部抹消" stamp, and a calendar counting down 10 years from that
-stamp date to an archive-disposal icon.
-Caption (small text below):
-共同担保目録は、記録されている全ての事項を抹消した日から10年間
-保存される(不動産登記規則28条6号)。
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+閉鎖後も建物所在図は永久保存
+Illustration: 巻物状の「建物所在図」に「閉鎖」の赤いスタンプが押されて
+いるが、書庫の棚には無限マーク「∞」の光が差し込み、ずっと保管され続けて
+いる様子を描く。横に「50年」というラベルに赤い✕マークを重ねる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+期限なく永久保存
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-閉鎖した土地所在図は、閉鎖の日から30年間保存される
-Illustration: An isometric land-location map document stamped "閉鎖"
-on an archive shelf with a calendar counting down 30 years from the
-閉鎖 date to an archive-disposal icon.
-Caption (small text below):
-表題部の変更・更正登記で閉鎖された土地所在図(申請書類つづり込み
-帳につづり込まれたものを除く)は、閉鎖した日から30年間保存される
-(不動産登記規則28条13号)。
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+筆界特定書は永久保存される
+Illustration: 「筆界特定書」のファイルアイコンの上に無限マーク「∞」を
+大きく描き、書庫にずっと保管され続けている様子を表す。横に「10年」と
+いうラベルに赤い✕マークを重ねる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+10年ではなく永久
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度 午後の部 第18問
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 事件簿は立件から5年保存
+2. 共同担保目録は抹消から10年保存
+3. 閉鎖した土地所在図は30年保存
+4. 閉鎖後も建物所在図は永久保存
+5. 筆界特定書は永久保存される
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・対・記・存・筆・録・図. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly (2 cards under 永久
-保存されるもの, 3 cards under 期限つきで保存されるもの), with no
-duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】未成年者は代理人になれる？双方代理はいつ許される？〜任意代理の基本ルール〜
+## 【土地家屋調査士受験生向け】平成24年度 第1問〜未成年者も双方代理も、実は認められるんです〜
 
 **出題年度：平成24年度　午後の部　第1問**
 
@@ -34,13 +34,13 @@
 
 代理人になるために行為能力者である必要はありません。制限行為能力者（未成年者・成年被後見人・被保佐人など）が代理人としてした行為は、行為能力の制限を理由に取り消すことができません（民法102条）。したがって、未成年者を代理人に選任すること自体は可能です。
 
-**たとえば**、事業を営むXさんが、信頼できる18歳の甥Aさんに「この土地の売買契約を代わりにまとめてきてほしい」と代理権を与えることができます。Aさんが未成年者であることは、この代理権授与や、Aさんが結んだ契約の効力を妨げません。
+**たとえば**、事業を営むXさんが、信頼できる15歳の甥Aさんに「この土地の売買契約を代わりにまとめてきてほしい」と代理権を与えることができます（民法4条により成年年齢は18歳のため、15歳は制限行為能力者である未成年者にあたります）。Aさんが未成年者であることは、この代理権授与や、Aさんが結んだ契約の効力を妨げません。
 
-### エ：本人の指名どおりに選んでも、不適任と知って放置すれば責任を負う
+### エ：不適任な復代理人への対応を怠れば、代理人は債務不履行の責任を負う
 
-代理人が本人の指名に従って復代理人を選任した場合、原則として代理人はその選任・監督についての責任を負いません。しかし、選んだ復代理人が不適任または不誠実であると知りながら、本人への通知や復代理人の解任を怠ったときは、代理人自身が責任を負います（改正前民法105条2項ただし書）。
+代理人が本人の指名に従って復代理人を選任した場合であっても、その復代理人が不適任または不誠実であることを代理人が知りながら、本人への通知や復代理人の解任を怠ったときは、代理人は本人に対して債務不履行の責任を負います。代理人は本人との委任契約に基づき、善良な管理者の注意をもって事務を処理する義務（善管注意義務）を負っており、指名どおりに復代理人を選んだという事情だけで、その後の対応まで免責されるわけではないためです。
 
-**たとえば**、本人Xから「あなたの知り合いのBに手続を任せてほしい」と指名されて代理人AがBを復代理人に選んだ場合、通常Aは責任を負いません。しかし、その後Bが不誠実な対応を繰り返していることにAが気づいたのに、Xに知らせず、Bを解任もしなかったときは、Aは復代理人選任・監督についての責任を免れません。
+**たとえば**、本人Xから「知り合いのBに手続を任せてほしい」と指名されて代理人AがBを復代理人に選んだとします。その後、Bが不誠実な対応を繰り返していることにAが気づいたにもかかわらず、Xに知らせず、Bを解任もしなかった場合、Aは委任契約上の善管注意義務を尽くしたとはいえず、Xに対して債務不履行の責任を負うことになります。
 
 ### オ：本人があらかじめ許諾していれば、双方代理も有効になる
 
@@ -48,15 +48,13 @@
 
 **たとえば**、不動産業者のAさんが、売主Xと買主Yの双方から「今回の契約に限ってはAさんに双方の代理人になってもらって構わない」とあらかじめ承諾を得ていた場合、Aさんは有効にX・Y双方の代理人として契約を成立させることができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 顕名がなくても、相手方が悪意・有過失なら本人に効力が生じる（民法100条） |
-| イ | 正 | 知・不知は代理人について決する（民法101条1項） |
-| ウ | 誤 | 未成年者でも代理人になれる。行為能力は代理人の要件ではない（民法102条） |
-| エ | 正 | 指名どおり選んでも、不適任と知って放置すれば代理人は責任を負う（改正前民法105条2項ただし書） |
-| オ | 誤 | 本人があらかじめ許諾していれば、双方代理も有効（民法108条ただし書） |
+- **ア（正）**　顕名がなくても、相手方が悪意・有過失なら本人に効力が生じる
+- **イ（正）**　知・不知は代理人について決する
+- **ウ（誤）**　未成年者でも代理人になれる。行為能力は代理人の要件ではない
+- **エ（正）**　不適任・不誠実な復代理人への対応を怠れば、代理人は本人に対して債務不履行の責任を負う
+- **オ（誤）**　本人があらかじめ許諾していれば、双方代理も有効
 
 「代理人になれる資格」と「双方代理・自己契約の例外」は定番の引っかけポイントなので、条文の原則と例外（ただし書）をセットで覚えておくことが得点の近道です。
 
@@ -68,7 +66,10 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・正解番号（4番＝ウ・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。土地家屋調査士試験対策アプリのデータベース（takuitsu.json）は本問（H24第1問）について肢の文言をおおむね正確に収録していましたが、他の問題では文言が不正確な例が見つかったため、本記事はアプリのデータではなく公式原本の記載を一次情報源としています。
-- 各肢の条文根拠のうち、ア（民法100条）、イ（民法101条1項）、ウ（民法102条）、オ（民法108条）は条文の文言そのままの内容であり、条文レベルで確認済みです。エについては、平成24年当時の民法105条2項ただし書（債権法改正前の条文）の内容と一致することを確認していますが、現行民法（令和2年4月施行の改正後）では復代理に関する規定の位置・文言が変更されている可能性があるため、実務・受験対策では現行条文の条番号を別途確認することを推奨します。
+- 各肢の条文根拠のうち、ア（民法100条）、イ（民法101条1項）、ウ（民法102条）、オ（民法108条）は条文の文言そのままの内容であり、条文レベルで確認済みです。
+- **最新法令チェック（2026-08-06実施）**：ウの具体例で使っていた年齢を「18歳の甥」から「15歳の甥」に修正しました。令和4年4月1日施行の成年年齢引下げ（民法4条）により18歳は現在では成年者であり、未成年者の例として不適切だったためです。ア（100条）・イ（101条1項）・ウ（102条）・オ（108条）の各条文自体は、現在も同じ条番号・同趣旨の内容で存続していることを確認済みです。
+- **最新法令チェック追記（2026-08-08実施）**：`note-articles/laws/`のローカル法令データベース（e-Gov現行法、2026-08-04取得）でア（民法100条）・イ（民法101条1項）・ウ（民法102条）・オ（民法108条）の条文原文を確認し、いずれも本文の記載内容と完全に一致することを確認しました。
+- **最新法令チェック追記（2026-08-10実施）**：エの解説を、出題当時の条文の変遷に関する説明を省き、現行法のみに基づく解説に書き改めました。ユーザーから提供された資格試験予備校の教材を参照し、現行法上の結論（代理人が復代理人への対応を怠れば、委任契約上の善管注意義務違反として本人に対する債務不履行の責任を負うこと）を確認したうえで、教材の文言はそのまま使わずオリジナルの説明としています。出題当時の正誤判定・正解番号（4番＝ウ・オ）自体に変更はありません。
 - **重複出題チェック（2026-07-22実施）**：土地家屋調査士試験対策アプリのデータベース（takuitsu.json）を検索し、平成25年度から令和7年度までの試験問題全体で「任意代理」がテーマの問題を確認しました。平成29年度第1問が同じ「任意代理」をテーマとしていますが、具体的な出題内容（瑕疵担保責任、表見代理、未成年者の代理行為の取消権、復代理人選任の許諾、追認と取消しの関係）は本問（顕名なき意思表示・101条の知不知の基準・未成年者の代理人適格・復代理人の不適任解任懈怠・双方代理の許諾）と異なり、内容の重複は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -80,3 +81,117 @@
 - 顕名忘れても、相手が知ってればセーフなんです
 - 指名どおり選んでも、放置したら代理人の責任なんです
 - 本人が許せば、双方代理もアリなんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+任意代理に関する5肢を、「誰が代理人になれて、効果は誰に帰属するか」と「代理人の責任・利益相反のルール」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric business person,
+document with a signature, speech bubble, contract paper, handshake,
+crossed-out prohibition mark, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 代・理・効・果・帰・属・復・任・双・許・諾・成・年 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+未成年者も双方代理も、実は認められるんです
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第1問－任意代理の基本ルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+誰が代理人になれて、効果は誰に帰属するか
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+知ってれば顕名なくてもOK
+Illustration: A businessperson icon signing a contract without saying "for
+my principal" (no name-tag speech bubble), while the counterpart icon has
+a small checkmark above their head (indicating they already knew). An
+arrow shows the contract's legal effect flowing directly to a separate
+principal icon standing behind the businessperson.
+Conclusion tag (green banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+相手方が悪意なら有効
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading: 知・不知は代理人が基準
+Illustration: An agent icon with a thought bubble containing a small
+crossed-out shield icon (representing "knows about the defect"), while
+the principal icon behind them has a question mark. A judgment stamp
+labeled with a checkmark points to the agent, not the principal.
+Conclusion tag: 代理人が基準
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading: 未成年者も代理人になれる
+Illustration: A young student-looking icon (school bag) wearing a sash
+labeled "代理人", confidently signing a contract document, with a
+checkmark stamp confirming the contract's validity.
+Conclusion tag: 未成年者でも可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+代理人の責任・利益相反のルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading: 放置すれば債務不履行責任
+Illustration: An agent icon standing beside a sub-agent icon marked with a
+small "✕ 不誠実" label; the agent is not sending any notification arrow to
+the principal and not removing the sub-agent, so a warning triangle icon
+appears and a responsibility arrow loops back to the agent, labeled
+"債務不履行" on the arrow itself.
+Conclusion tag: 債務不履行の責任を負う
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading: 許諾あれば双方代理も可
+Illustration: One businessperson icon standing between a seller icon and
+a buyer icon, holding a document stamped with checkmarks from both sides
+labeled "許諾"; arrows connect the single agent to both parties at once.
+Conclusion tag: 許諾で双方代理も可
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

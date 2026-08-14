@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】相続の「誤り探し」対話問題〜法定相続分・代襲・遺産共有・相続させる遺言〜
+## 【土地家屋調査士受験生向け】令和3年度 第3問〜「相続させる」遺言は死亡と同時に効くんです〜
 
 **出題年度：令和3年度　午後の部　第3問**
 
@@ -47,9 +47,11 @@
 
 ### ウ：遺産共有の解消は、共有物分割請求ではなく遺産分割で行う
 
-相続によって複数の相続人が不動産を共有している状態(遺産共有)を解消するには、地方裁判所に共有物分割請求の訴えを起こすのではなく、家庭裁判所に対して遺産分割を請求すべきものとされています(最判昭和50年11月7日)。したがって、令和3年の試験当時の法律のもとでは、Ｇが民法256条1項の共有物の分割を請求できるとした学生の解答は誤りです。「法定相続分に相当する共有持分がある」ことは事実ですが、その解消の入口が違うわけです。
+相続によって複数の相続人が不動産を共有している状態(遺産共有)を解消するには、地方裁判所に共有物分割請求の訴えを起こすのではなく、家庭裁判所に対して遺産分割を請求すべきものとされています（判例）。したがって、Ｇが民法256条1項の共有物の分割を請求できるとした学生の解答は誤りです。「法定相続分に相当する共有持分がある」ことは事実ですが、その解消の入口が違うわけです。
 
-**たとえば**、兄弟ＧとＨが親Ｚから相続した実家を「早く分けたい」と思っても、遺産分割がまだ済んでいない段階では、いきなり通常の共有物分割訴訟を地方裁判所に持ち込むことはできず、まずは家庭裁判所での遺産分割の話し合いや調停・審判というルートを通ることになります。窓口(裁判所)も手続の種類も違う、という点が引っかけどころです。
+なお、この原則には現行法上、例外が設けられています。令和5年4月1日に施行された民法258条の2により、相続開始の時から10年を経過したときは、相続人が遺産分割の請求をした上で異議を申し出た場合を除き、通常の共有物分割請求によって遺産共有持分も解決できるようになりました。本問はＺの相続開始からの経過期間が示されておらず、この例外に当たる事情もないため、結論は変わらず「遺産分割によるべき」が正しい判断です。
+
+**たとえば**、兄弟ＧとＨが親Ｚから相続した実家を「早く分けたい」と思っても、遺産分割がまだ済んでいない段階では、いきなり通常の共有物分割訴訟を地方裁判所に持ち込むことはできず、まずは家庭裁判所での遺産分割の話し合いや調停・審判というルートを通ることになります。窓口(裁判所)も手続の種類も違う、という点が引っかけどころです。ただし、相続開始から10年以上が経過していて、相続人の誰も異議を述べなければ、通常の共有物分割訴訟でも解決できる場合がある、という点は現行法の知識として押さえておきましょう。
 
 ### エ：法定相続分を超える取得は、登記がなければ第三者に対抗できない
 
@@ -59,19 +61,17 @@
 
 ### オ：「相続させる」旨の遺言があれば、死亡と同時に直ちに承継される
 
-特定の遺産を特定の相続人に「相続させる」旨の遺言は、遺贈と解すべき特段の事情がない限り、その財産を当該相続人に単独で相続させる遺産分割方法の指定と解されます(最判平成3年4月19日)。その結果、その遺産は遺産分割の協議や審判を経ることなく、被相続人の死亡と同時にその相続人へ帰属します。したがって、「承継されることはない」とした学生の解答は誤りです。
+特定の遺産を特定の相続人に「相続させる」旨の遺言は、遺贈と解すべき特段の事情がない限り、その財産を当該相続人に単独で相続させる遺産分割方法の指定と解されます（判例）。その結果、その遺産は遺産分割の協議や審判を経ることなく、被相続人の死亡と同時にその相続人へ帰属します。したがって、「承継されることはない」とした学生の解答は誤りです。
 
 **たとえば**、親Ｚが「甲不動産は子Ｇに相続させる」と遺言していた場合、Ｚが亡くなった瞬間に甲不動産はＧのものになります。改めて兄弟で分割協議をしたり家庭裁判所の審判を待ったりしなくても所有権が移る、という点が「相続させる」旨の遺言(特定財産承継遺言)の大きな効果です。
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 配偶者と兄弟姉妹が相続人なら兄弟姉妹は4分の1(900条3号) |
-| イ | 正 | 代襲者と養子の二重資格は各相続分を合算し、Ｆは3分の2 |
-| ウ | 誤 | 遺産共有の解消は共有物分割ではなく家裁の遺産分割(最判昭50.11.7) |
-| エ | 正 | 法定相続分を超える取得は登記がなければ対抗できない(899条の2第1項) |
-| オ | 誤 | 「相続させる」旨の遺言は死亡と同時に直ちに承継させる(最判平3.4.19) |
+- **ア（正）** 配偶者と兄弟姉妹が相続人なら兄弟姉妹は4分の1
+- **イ（正）** 代襲者と養子の二重資格は各相続分を合算し、Ｆは3分の2
+- **ウ（誤）** 遺産共有の解消は共有物分割ではなく家裁の遺産分割
+- **エ（正）** 法定相続分を超える取得は登記がなければ対抗できない
+- **オ（誤）** 「相続させる」旨の遺言は死亡と同時に直ちに承継させる
 
 対話形式に惑わされず、各肢を淡々と○×判定していけば、誤りはウとオの二つに絞れます。遺産共有の解消手続と「相続させる」旨の遺言の効果は、相続分野の定番論点なので確実に押さえておきましょう。
 
@@ -83,9 +83,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach/pitfalls/keyPoints）で確認済みです。
-- 条文レベルで確認できた根拠：ア（民法900条3号＝配偶者と兄弟姉妹の相続分）、エ（民法899条の2第1項＝相続分を超える部分の対抗要件）は条文番号まで明示されているものです。ウ（遺産共有の解消は遺産分割によるべき＝最判昭和50年11月7日）とオ（「相続させる」旨の遺言の効力＝最判平成3年4月19日）は判例を根拠とするもので、データベースに判例が明記されています。
+- 条文レベルで確認できた根拠：ア（民法900条3号＝配偶者と兄弟姉妹の相続分）、エ（民法899条の2第1項＝相続分を超える部分の対抗要件）は条文番号まで明示されているものです。ウ（遺産共有の解消は遺産分割によるべき＝最判昭和62年9月4日）とオ（「相続させる」旨の遺言の効力＝最判平成3年4月19日）は判例を根拠とするもので、データベースに判例が明記されています。
 - イ（代襲者と養子の二重資格による相続分の合算で3分の2となる点）について、WebSearchで裏取りしました。相続人が「代襲相続人」と「養子（＝被相続人の子）」の二重の資格を有する場合に各資格の相続分を合算できるとする実務・先例上の扱いは、法律事務所の解説コラム等で「登記先例（昭和26年9月18日民事甲1881号民事局長回答）」として具体的に引用されているのを確認できました。したがって「昭和26年」という年自体はこの先例に対応するものと考えられ、単なる判例ではなく登記先例（民事局長回答）であることも確認できました。もっとも、この先例番号（民事甲1881号）そのものをe-Gov法令検索等の一次資料で直接確認できたわけではなく、法律事務所サイトの引用に基づく確認にとどまる点は正直に残します。数値の3分の2という結論自体は検証済みデータベースの判定と一致しています。
-- ウの論点について：本問は令和3年度の出題のため、令和3年改正前(共有物分割請求前置を否定し遺産分割によるべきとする規律)を前提に「誤り」と判定しています。なお令和5年4月1日施行の民法258条の2により、相続開始から10年経過後は一定要件下で通常の共有物分割請求も可能となっている点は、現行法の学習として別途注意してください。
+- ウの論点について：民法258条の2(令和5年4月1日施行、10年経過後の例外)は本文中で解説を追記済みです。正解(ウは誤り)への影響はありません。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。
 
 ---
@@ -97,3 +97,132 @@
 - 遺産の共有、いきなり分割訴訟はできないんです
 - 相続でも「登記した人が勝つ」場面があるんです
 - 「相続させる」遺言は、亡くなった瞬間に効くんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+法定相続分の算定(ア・イ)と、遺産共有・対抗要件・遺言による承継(ウ・エ・オ)という2系統の論点を2列5枚のカードで俯瞰できる構成にした。導入ブロックは置かず、タイトル・サブタイトル直後にカード群を続ける。ウの原則(遺産共有の解消は共有物分割ではなく遺産分割による)のみを図解し、民法258条の2による10年経過後の例外は正解に影響しないためカード化しない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric family trees, houses,
+official seals/stamps, court buildings, scrolls for wills, pie charts,
+torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to kanji
+that are easily confused with Simplified Chinese variants and appear in
+this text, including 続, 産, 対, 抗, 登, 記, 議, 養, 資, 格, 継, 承 —
+render each in standard Japanese (Jōyō) form, never in Simplified Chinese
+form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+相続の「誤り探し」対話問題
+法定相続分・代襲相続・遺産共有・相続させる遺言
+
+Subtitle (smaller, centered, 1行):
+令和3年度 午後の部 第3問／誤っているのはウとオ(正解：選択肢4番)
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+法定相続分の算定
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+兄弟姉妹の相続分は4分の1
+Illustration: An isometric pie chart split into two unequal slices, a
+large slice with a spouse figure icon and a short label「配偶者」next to
+it, a small slice with a brother figure icon and a short label「兄弟姉妹」
+next to it, a small house icon in the background.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+取り分は4分の1
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+代襲と養子の資格は合算できる
+Illustration: An isometric figure standing where two paths merge into
+one, one path with a short label tag「代襲者」, the other path with a
+short label tag「養子」, the merged path leading to a name-tag label
+「3分の2」on the figure.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+合算して3分の2
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+遺産共有・対抗要件・遺言による承継
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+遺産共有の解消は遺産分割で
+Illustration: An isometric house shared by two owner figure icons, an
+arrow with a red ✕ mark pointing toward a small courthouse building
+icon labeled「共有物分割」, a second arrow with a green ✓ checkmark
+pointing toward another courthouse building icon labeled「遺産分割」.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+共有物分割は不可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+相続分超える取得は登記が必要
+Illustration: An isometric house split down the middle, the left half
+with an owner figure holding a registration stamp/document labeled
+「登記」next to a green ✓ checkmark, the right half with a document
+being handed from another owner figure to a third-party figure, a red
+✕ mark and a short label「対抗不可」next to the unregistered side.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+登記なければ対抗不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+相続させる遺言は死亡時に承継
+Illustration: An isometric scroll/will document icon labeled「相続させる」
+with a direct arrow flowing straight from a deceased figure to an heir
+figure, bypassing a small crossed-out courthouse icon (with a red ✕
+mark) labeled「遺産分割」.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+分割協議は不要
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+(2 cards in Column A, 3 cards in Column B), with no duplicated or missing
+cards, confirm there is no intro illustration or paragraph block between
+the header and the cards, and confirm that no card contains a full
+sentence of explanatory prose or legal citation — every card's takeaway
+must read as a short heading + a short conclusion tag, at a glance.
+```

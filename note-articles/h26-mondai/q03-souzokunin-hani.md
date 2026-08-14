@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】離婚しても親子は親子〜相続人の範囲を具体的な家系図で理解する〜
+## 【土地家屋調査士受験生向け】平成26年度 第3問〜離婚しても、子どもの相続権は消えないんです〜
 
 **出題年度：平成26年度　午後の部　第3問**
 
@@ -46,15 +46,13 @@ Aの死亡前にCとGがいずれも死亡していた場合、第1順位の相�
 
 **たとえば**、Aさんと妻Bさんが離婚し、子Cさんの親権者がBさんに定められたとします。その後Aさんが亡くなった場合でも、Cさんは実の子であることに変わりないため、Aさんの相続人として財産を相続する権利があります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| 1 | 誤 | 同時死亡でC・A間の相続は生じないが、Cの子Gが代襲相続するためDは相続人にならない |
-| 2 | 誤 | 同順位者（配偶者B）の殺害未遂で刑に処せられれば相続欠格となる（民法891条1号） |
-| 3 | 誤 | 直系尊属は親等の近い者が優先。父Dがいる限り祖母Fは相続人にならない |
-| 4 | 誤 | 相続放棄は代襲原因ではない（民法887条2項） |
-| 5 | 正 | 離婚しても親子の血族関係は存続し、Cは相続人であり続ける |
+- **1（誤）**　同時死亡でC・A間の相続は生じないが、Cの子Gが代襲相続するためDは相続人にならない
+- **2（誤）**　同順位者（配偶者B）の殺害未遂で刑に処せられれば相続欠格となる
+- **3（誤）**　直系尊属は親等の近い者が優先。父Dがいる限り祖母Fは相続人にならない
+- **4（誤）**　相続放棄は代襲原因ではない
+- **5（正）**　離婚しても親子の血族関係は存続し、Cは相続人であり続ける
 
 離婚・欠格・放棄・同時死亡という「相続人からの離脱・除外」に見える事情でも、それぞれ効果が及ぶ範囲がまったく違うことを、この問題を通じて整理しておきましょう。
 
@@ -68,6 +66,7 @@ Aの死亡前にCとGがいずれも死亡していた場合、第1順位の相�
 - 出題年度・問題番号・正解番号（5番）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - 各肢の条文根拠について、1（民法32条の2、887条2項）、2（民法891条1号）、4（民法887条2項）は条文に明記された内容です。3（直系尊属の相続順位における親等優先のルール、民法889条1項1号）と5（離婚と血族関係の帰趨）は、条文の直接的な規定というより、条文の趣旨・親族法の一般原則からの整理となっています。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。相続人の範囲（同時死亡推定・相続欠格・代襲相続・相続放棄・離婚）がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令チェック（2026-08-03実施）**：平成30年民法（相続法）改正（自筆証書遺言の方式緩和、配偶者居住権の新設、特別の寄与制度等、令和元年7月1日施行）の影響を確認しましたが、この改正は遺言・遺産分割・遺留分等の規定が中心であり、本問で問われている同時死亡の推定（32条の2）、相続欠格（891条）、代襲相続（887条2項）、相続放棄（939条）、離婚と親子関係の帰趨といった相続人の範囲に関する基本規定には変更がなく、各肢の結論に影響しません。
 
 ---
 
@@ -78,3 +77,128 @@ Aの死亡前にCとGがいずれも死亡していた場合、第1順位の相�
 - おばあちゃんが相続人になれない、その理由
 - 放棄しても、子どもには引き継がれないんです
 - 離婚しても、子どもの相続権は消えないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+1つの家系図を舞台に、「代襲相続はどこまで及ぶか」と「相続人の資格が身分的な事情でどう変わるか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。カードの並び順は元の肢番号（1〜5）とは一致させず、テーマごとにまとめてから通し番号を振り直している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric family-tree nodes,
+people figures connected by lines, registry desks, court/document stamps,
+broken-heart divorce icon, torn paper labels, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 続・襲・尊・属・棄・欠・格・離・婚 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+相続人になれる人、なれない人はここで決まる
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第3問－代襲相続の範囲と相続資格の得喪
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+代襲相続はどこまで及ぶか
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+同時死亡でも孫が代襲相続する
+Illustration: An isometric family-tree diagram. A (被相続人) and C (子)
+are both marked with a "同時死亡・先後不明" label and a "?" icon. An
+arrow from A toward D（父）is crossed out with a red X. A second arrow
+from C down to G（孫）is shown with a green checkmark and the label
+"代襲", with G standing at a registry desk receiving the inheritance
+documents.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+孫Gが相続人
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+直系尊属に代襲相続はない
+Illustration: The same family-tree diagram with C（子）and G（孫）both
+marked deceased with a small tombstone icon. D（父、1親等）is
+highlighted with a green checkmark as the sole heir. F（祖母、2親等）is
+marked with a red X and a label "代襲なし", with a broken arrow from
+E（死亡した母）to F showing there is no such substitution among direct
+ascendants.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+親等の近い人が優先
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続放棄は代襲の原因にならない
+Illustration: C（子）holds a document labeled "相続放棄" in one hand. A
+downward arrow from C toward G（孫）is blocked by a large red X. G is
+shown standing apart with a small "対象外" label, receiving nothing from
+A's estate.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+放棄は代襲原因外
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+相続人の資格が変わる場面
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+同順位者殺害未遂も相続欠格になる
+Illustration: C（子）character stands near B（母）with a small icon
+showing an attempted-harm gesture and a label "殺人未遂で刑に処せられた".
+A large red "相続欠格" stamp is placed over C, blocking C's path toward
+the inheritance documents on the registry desk.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+未遂でも欠格
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+離婚しても親子の相続権は残る
+Illustration: A and B are separated by a broken-heart "離婚" icon, with a
+small label "親権者はB" near B. Despite the separation, a solid
+connecting line remains between A and C labeled "血族関係は継続". C
+receives the inheritance document from A's estate with a green checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+血族関係は継続
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

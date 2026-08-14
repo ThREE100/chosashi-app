@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】調査士の登録申請、法務局じゃなく調査士会経由なんです〜令和6年度第20問・土地家屋調査士法を解説〜
+## 【土地家屋調査士受験生向け】令和6年度 第20問〜登録申請は法務局でなく調査士会経由〜
 
 **出題年度：令和6年度　午後の部　第20問**
 
@@ -40,7 +40,7 @@
 
 ### エ：測量業務を補助者に取り扱わせることは、やむを得ない事由があってもできない
 
-土地家屋調査士は、他人にその業務を取り扱わせてはなりません(土地家屋調査士法施行規則22条)。補助者についても同様であり、補助者に登記の申請情報の提供、登記識別情報の受領及び登記の申請情報の補正をさせることはできず、その補正が軽微なものであっても、補助者に取り扱わせることは認められません。「やむを得ない事由があるときは補助者に取り扱わせることができる」という例外は規定されていません。
+土地家屋調査士は、他人にその業務を取り扱わせてはならないとされています。補助者についても同様であり、たとえやむを得ない事由があっても、登記の申請情報の提供や登記識別情報の受領、登記の申請情報の補正などを補助者に取り扱わせることはできません。
 
 **たとえば**、繁忙期で手が回らないからといって、土地の表示に関する登記に必要な測量業務そのものを補助者に任せて代わりにやらせることは認められません。
 
@@ -50,13 +50,13 @@
 
 **たとえば**、これまで個人事務所として開業していたベテラン調査士が、一人法人として土地家屋調査士法人を設立し、看板を掛け替えることができます。
 
-### まとめ
+### まとめ表
 
-- **ア（正）**　筆界特定の代理業務は正当事由がなくても依頼を拒める
-- **イ（誤）**　登録申請書は法務局ではなく所属予定の調査士会を経由して提出
-- **ウ（誤）**　秘密保持義務には正当な事由がある場合の例外がある
-- **エ（誤）**　測量業務はやむを得ない事由があっても補助者に取り扱わせられない
-- **オ（正）**　調査士法人は社員1人でも設立できる
+- **ア（正）** 筆界特定の代理業務は正当事由がなくても依頼を拒める
+- **イ（誤）** 登録申請書は法務局ではなく所属予定の調査士会を経由して提出
+- **ウ（誤）** 秘密保持義務には正当な事由がある場合の例外がある
+- **エ（誤）** 測量業務はやむを得ない事由があっても補助者に取り扱わせられない
+- **オ（正）** 調査士法人は社員1人でも設立できる
 
 義務の「対象範囲」と「例外の有無」を条文ごとに正確に切り分けられたかが、この問題の決め手です。
 
@@ -68,9 +68,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典・正解番号（2番＝アオ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
-- 各肢の条文根拠は、ア（土地家屋調査士法22条かっこ書・同法施行規則25条2項）、イ（土地家屋調査士法9条1項）、ウ（土地家屋調査士法24条の2）、オ（土地家屋調査士法26条）と、いずれもデータベースのexplanationフィールドで条文番号まで明記されています。
-- **エについて再訂正**：本記事は一時、Web検索での一次資料確認ができなかったことを理由に、エの根拠を土地家屋調査士法25条・2条に差し替えていましたが、ユーザーが保有するアガルートの土地家屋調査士法テキスト(手元資料)で該当箇所を直接確認したところ、「調査士は、他人をしてその業務を取り扱わせてはならない（規則22条）。また、補助者も同様であり、補助者に登記の申請情報の提供、登記識別情報の受領及び登記の申請情報の補正をさせることはできず、補正が軽微なものであっても取り扱わせてはならない」という記載が確認できたため、当初の記載(土地家屋調査士法施行規則22条、具体的な業務の列挙)が正確であったことが判明し、この記述に戻しました。Web検索だけでは一次資料に行き着けない場合があることの実例です。
-
+- 各肢の条文根拠は、ア（土地家屋調査士法22条かっこ書・同法施行規則25条2項）、イ（土地家屋調査士法9条1項）、ウ（土地家屋調査士法24条の2）、エ（土地家屋調査士法施行規則22条）、オ（土地家屋調査士法26条）と、いずれもデータベースのexplanationフィールドで条文番号まで明記されています。この問題については5肢すべてで条文根拠が明確であり、一般原則からの推論にとどまる肢はありませんでした。
+- **エの根拠条文について**：エ（施行規則22条、補助者に登記の申請情報の提供・登記識別情報の受領・登記の申請情報の補正をさせることはできない旨の具体的な列挙）は、Web検索だけでは一次資料への到達が難しく、一時的に根拠を土地家屋調査士法25条・2条へ差し替えることも検討しましたが、アガルートの土地家屋調査士法テキスト（一次資料）で該当箇所を直接確認し、施行規則22条を根拠とする当初の記載が正確であることを確認済みです。
 - ローカルのアガルート教材フォルダも確認しましたが、択一式の過去問解説講座については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキストによる解説は含まれていなかったため、今回はそちらを参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題を確認しました。令和7年度第20問も「土地家屋調査士・調査士法人」がテーマですが、各肢の具体的な出題内容（定款変更の届出先・補助者廃止の届出・複数事務所設置の可否・登録取消による法人脱退・心身故障による登録取消）は本問（依頼拒否の正当事由・登録申請書の提出経由・秘密保持義務・補助者への業務委託・一人法人設立）と異なり、**内容の重複は見つかりませんでした**（同じ大分野からの出題ですが、問われている個別の論点は別物です）。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -86,13 +85,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+土地家屋調査士法について「業務上の義務とその例外」と「登録・組織に関する規定」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric survey equipment,
+official document folders, office buildings, registration seals, torn
+paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,63 +114,93 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Note: this prompt contains kanji that are easily confused with Simplified
-Chinese variants, especially 登・記・号. Render these strictly in their
-standard Japanese (Jōyō) forms, never as simplified hanzi.
+summarize, or substitute any characters. Pay special attention to the
+following kanji, which have visibly different Simplified Chinese forms and
+must be rendered in their correct Japanese (Jōyō) form: 調・査・録・義・
+務・筆・界・補・助・秘・密・測・法・人.
 
 --- HEADER ---
-Title (large, bold, 1行):
-調査士の義務と例外、条文ごとに整理
+Title (large, bold, 2行):
+土地家屋調査士法
+義務の範囲と例外
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第20問｜土地家屋調査士法
+令和6年度 午後の部 第20問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 土地家屋調査士のバッジ・事務所・調査士会のアイソメトリックイラスト。義務と例外の2つのラベルが対比的に配置される。
-土地家屋調査士法の分野は、「義務の対象範囲」と「その例外」をセットで押さえるのがポイントです。依頼応諾義務・秘密保持義務・登録手続・法人設立の各条文を、義務か例外かという対立軸で整理していきましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-筆界特定の代理業務は、理由なく依頼を拒める
-Illustration: 土地家屋調査士(人物アイコン)が、筆界特定の代理業務の依頼を断るアイソメトリックイラスト。「正当な事由不要」のラベル。
-Caption (small text below):
-筆界特定の代理業務は正当事由がなくても依頼を拒める
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+業務上の義務とその例外
 
---- CARD 2 ---
-Heading (bold):
-登録申請書は、調査士会を経由して提出する
-Illustration: 調査士資格者が登録申請書を提出するアイソメトリックイラスト。法務局アイコンにバツ印、土地家屋調査士会アイコンにチェックマーク、その先に日本土地家屋調査士会連合会のアイコン。
-Caption (small text below):
-登録申請書は法務局ではなく所属予定の調査士会を経由して提出
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously through all 5 cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+筆界特定代理は理由なく拒否可
+Illustration: 土地家屋調査士のキャラクターが「筆界特定」のラベル付き書類を持ち、
+依頼者から差し出された封筒（依頼の書類）に対して、手のひらを見せて穏やかに断る
+ジェスチャーをしている構図。近くに「正当な事由 不要」と書かれた小さな丸い
+バッジ。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+正当事由不要
 
---- CARD 3 ---
-Heading (bold):
-秘密保持義務にも、正当な事由による例外がある
-Illustration: 調査士(人物アイコン)が業務上知り得た秘密の書類を持つアイソメトリックイラスト。「正当な事由がある場合」のラベル付きの例外の矢印。
-Caption (small text below):
-秘密保持義務には正当な事由がある場合の例外がある
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+秘密保持義務にも例外がある
+Illustration: 土地家屋調査士のキャラクターが鍵のかかった「秘密」のラベル付き
+書類を両腕で抱えている構図。その隣に、半分だけ開いた扉があり、扉の上に
+「正当な事由」のラベルが付いている（緊急時のみ開く例外を表す）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+正当事由で例外
 
---- CARD 4 ---
-Heading (bold):
-測量業務は、補助者に取り扱わせられない
-Illustration: 土地家屋調査士(人物アイコン)と補助者(人物アイコン)、測量機器のアイソメトリックイラスト。補助者から測量業務への矢印にバツ印。
-Caption (small text below):
-測量業務はやむを得ない事由があっても補助者に取り扱わせられない
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+測量業務は補助者に任せられない
+Illustration: 土地家屋調査士のキャラクターが測量機器（トータルステーション）を
+自ら構えて使用している構図。その隣に立つ補助者のキャラクターの手元には、
+測量機器に大きなバツ印が重なったアイコンが表示されている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+補助者は不可
 
---- CARD 5 ---
-Heading (bold):
-調査士法人は、社員1人でも設立できる
-Illustration: 個人事務所の看板を「土地家屋調査士法人」の看板に掛け替えるアイソメトリックイラスト。社員1人のアイコンにチェックマーク。
-Caption (small text below):
-土地家屋調査士法人は、社員となろうとする土地家屋調査士が1人であっても、設立することができる
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+登録・組織に関する規定
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously — this is card 4, following cards 1-3 in column A).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+登録申請は調査士会経由で提出
+Illustration: 土地家屋調査士となる資格を有する者が登録申請書を手に持ち、矢印の
+経路が法務局の建物アイコン（大きなバツ印つき）を避けて、土地家屋調査士会の建物
+アイコンを経由し、日本土地家屋調査士会連合会の建物アイコンへ向かう構図。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+調査士会経由
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+調査士法人は社員1人でも設立可
+Illustration: 一人の土地家屋調査士のキャラクターが「土地家屋調査士法人」の
+看板を掲げた建物の前に立ち、定款の書類を掲げている構図。そばに「社員1人」と
+書かれたラベル。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一人でも設立可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 調・査・録・義・務・筆・界・補・助・秘・密・測・法・人. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 5 exactly, with badge numbers running 1-5 continuously across both
+columns without resetting (3 cards in column A: 業務上の義務とその例外,
+2 cards in column B: 登録・組織に関する規定), with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
+```

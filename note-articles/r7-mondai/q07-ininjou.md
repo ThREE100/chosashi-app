@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】「一切の件」と書かれた委任状、どこまで任されている？令和7年度第7問を解説
+## 【土地家屋調査士受験生向け】令和7年度 第7問〜還付金も、「一切の件」に含まれません〜
 
 **出題年度：令和7年度　午後の部　第7問**
 
@@ -28,19 +28,19 @@
 
 ### イ：会社の代表者が交代しても、委任は消滅しない
 
-委任をしたのは代表取締役個人ではなく、株式会社Ａという法人自体です。そのため、代表取締役が交代しても、法人自体が委任者である以上、既にした委任の効力に影響はありません。
+委任をしたのは代表取締役個人ではなく、株式会社Ａという法人自体です。そのため、代表取締役が交代しても、法人自体が委任者である以上、既にした委任の効力に影響はありません。なお、不動産登記法17条は、登記の申請の代理権が消滅しない事由として①本人の死亡、②本人である法人の合併による消滅、③本人である受託者の信託に関する任務の終了、④法定代理人の死亡又はその代理権の消滅・変更の4つを定めていますが、代表取締役の交代はそもそも「本人」である株式会社Ａ自体に変動が生じる事由ではないため、法17条を持ち出すまでもなく委任の前提に変化はなく、代理権も当然に存続します。
 
 **たとえば**、会社の社長が交代したからといって、その会社が以前結んだ契約が無効になるわけではないのと同じで、代表取締役が交代した後も、Ｂは変わらず株式会社Ａの代理人として登記申請を進めることができます。
 
 ### ウ：復代理人を選んでも、元の代理人自身の権限は消えない
 
-代理人が本人の許諾を得て復代理人（代理人のそのまた代理人）を選任しても、それによって元の代理人自身の代理権が消えるわけではありません。復代理人は追加で選ばれるものであり、元の代理人と入れ替わるものではないからです。
+代理人が本人の許諾を得て復代理人（代理人のそのまた代理人）を選任しても、それによって元の代理人自身の代理権が消えるわけではありません（民法104条〜106条）。復代理人は追加で選ばれるものであり、元の代理人と入れ替わるものではないからです。
 
 **たとえば**、Ｂが多忙で別の調査士に一部の手続を任せる（復代理人を選ぶ）ことにしても、Ｂ自身が引き続き株式会社Ａの代理人として本件登記申請を行うことに何の支障もありません。
 
 ### エ：代理人が死亡すると、代理権はそこで消滅する（相続されない）
 
-代理権は、本人または代理人の死亡によって消滅するのが原則です。代理人という地位は、その人自身の信頼を前提に与えられたものなので、たとえ相続人が同じ土地家屋調査士であっても、代理人としての地位を自動的に引き継ぐことはできません。
+不動産登記法17条は、登記の申請の代理権が消滅しない事由として①本人の死亡、②本人である法人の合併による消滅、③本人である受託者の信託に関する任務の終了、④法定代理人の死亡又はその代理権の消滅・変更の4つを列挙していますが、この中に「代理人自身の死亡」は含まれていません。したがって、代理人の死亡については民法111条1項2号の原則がそのまま適用され、代理権は消滅します。代理人という地位は、その人自身の信頼を前提に与えられたものなので、たとえ相続人が同じ土地家屋調査士であっても、代理人としての地位を自動的に引き継ぐことはできません。
 
 **たとえば**、Ｂが亡くなった場合、Ｂの子どもが同じく土地家屋調査士だったとしても、「父の代理人としての立場をそのまま引き継ぐ」ということはできません。株式会社Ａが改めて別途委任をし直す必要があります。
 
@@ -67,7 +67,7 @@
 **このまま使える点／使う前に確認したい点**
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 出題番号・正解番号（3番＝イ・ウ）は法務省公表の試験問題原本・正答資料で確認済みです。ア（登記識別情報の暗号化に特別の授権が必要）とオ（還付金受領に別途の委任状が必要）は実務資料・法務局の案内文書で確認済みです。イ・ウ・エは民法上の代理・委任の一般原則（法人委任の存続、復代理人選任の効果、代理権の一身専属性）に基づいています。
+- 出題番号・正解番号（3番＝イ・ウ）は法務省公表の試験問題原本・正答資料で確認済みです。ア（登記識別情報の暗号化に特別の授権が必要）とオ（還付金受領に別途の委任状が必要）は実務資料・法務局の案内文書で確認済みです。イ・エは不動産登記法17条（代理権の不消滅事由の列挙、代理人自身の死亡は含まれない）及び民法111条1項2号に基づいており、ウは民法104条〜106条（復代理人の選任と代理人自身の代理権の存続）に基づいています。
 
 ---
 
@@ -81,13 +81,29 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+「一切の件」という包括的な委任状であっても個別に明記しないと認められない行為（暗号化・還付金受領）と、代理権そのものの消滅・存続ルール（代表者交代・復代理人・死亡）という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric office building,
+scroll-style power-of-attorney document, registry desk and seal, key
+icon, envelope of money, empty chair, etc. — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -95,74 +111,95 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-特に「登」「記」「権」といった字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+summarize, or substitute any characters. Pay special attention to the
+kanji 委・任・代・理・復・授・権・承・継・相・続・還・受・領・消・滅・登・記
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-「一切の件」と書かれた委任状、どこまで任されている？
+「一切の件」の委任状、どこまで有効？
 
 Subtitle (smaller, centered, 1行):
-令和7年度　午後の部　第7問　不動産登記法(委任・代理)
+令和7年度 午後の部 第7問－委任・代理の基本ルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: A large document icon labeled「委任状」containing the words
-「登記申請」inside its frame, while the words「暗号化」and「還付金受領」
-float outside the frame's border.
-「一切の件」と書かれた委任状を渡されると、何でも任されている気になりがちですが、実際には委任状に明記しなければ有効にならない行為がいくつもあります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-登記識別情報の暗号化には「特別の授権」が必要
-Illustration: A large document icon labeled「委任状『一切の件』」with a
-padlock icon over a smaller label「登記識別情報の暗号化」, and a separate
-key icon labeled「特別の授権が必要」.
-Caption (small text below):
-登記識別情報の暗号化には特別の授権が別途必要
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+個別の授権が必要な行為
 
---- CARD 2 ---
-Heading (bold):
-会社の代表者が交代しても、委任は消滅しない
-Illustration: A company signboard icon（株式会社A）with a revolving door
-showing an old executive character leaving and a new executive character
-entering, while an unbroken arrow labeled「委任」continues to a
-representative character (B).
-Caption (small text below):
-委任者は法人自体なので代表者交代の影響を受けない
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+暗号化には特別の授権が必要
+Illustration: An isometric surveyor character sits at a computer, the
+screen showing a key icon and a label "登記識別情報". An arrow runs from a
+scroll-style power-of-attorney document to the computer, but the key icon
+floats separately, boxed off from a second document labeled "特別の授権"
+with a bold highlight border, showing it is not automatically included.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+特別授権が必要
 
---- CARD 3 ---
-Heading (bold):
-復代理人を選んでも、元の代理人自身の権限は消えない
-Illustration: Two character icons (代理人Bと復代理人) both holding umbrella
-icons over a company signboard（株式会社A）, with B's arrow to the company
-remaining solid and unbroken.
-Caption (small text below):
-復代理人を選任しても元の代理人の代理権は存続する
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+還付金の受領にも別途の授権が必要
+Illustration: An envelope stamped with a money icon (representing the tax
+refund) sits between a hand reaching to receive it and the original
+power-of-attorney scroll, which has a red cross mark over it. A second,
+separate document labeled "受領権限" with a highlight border floats
+between them, showing the extra authorization needed.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+受領権限は別途必要
 
---- CARD 4 ---
-Heading (bold):
-代理人が死亡すると、代理権はそこで消滅する（相続されない）
-Illustration: A character icon (B) with a tombstone/end icon, and a
-dashed broken-line arrow to another character (相続人C) with a red X
-labeled「代理権 承継されない」.
-Caption (small text below):
-代理権は代理人の死亡で消滅し、相続人に承継されない
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+代理権の消滅・存続ルール
 
---- CARD 5 ---
-Heading (bold):
-登録免許税の還付金受領には、別途その権限が必要
-Illustration: A coin icon labeled「過誤納の還付金」next to a document
-labeled「委任状『一切の件』」with a red X over it, and a separate new
-document icon labeled「受領権限の記載」with a checkmark.
-Caption (small text below):
-登録免許税の還付金受領には別途その権限の記載が必要
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+代表者交代でも委任は存続
+Illustration: An isometric office building icon shows the company
+representative figure swapping from an old figure to a new one via a
+curved arrow. A separate unbroken arrow runs continuously from the
+building itself to the power-of-attorney scroll, showing the delegation
+is untouched by the change.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+委任は消えない
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+復代理人を選んでも代理権は存続
+Illustration: The original agent character and a newly added sub-agent
+character stand side by side, both with lines connecting to the same
+power-of-attorney scroll. The original agent's line remains unbroken and
+solid, showing their authority is undiminished by adding the sub-agent.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+元の代理権も存続
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+代理人が死亡すると代理権は消滅
+Illustration: A simple isometric registry desk chair sits empty, with only
+a stack of documents left on it. Beside it stands a successor character;
+a red X mark sits on the line connecting the successor to the
+power-of-attorney scroll, showing the position is not inherited.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+相続はされない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

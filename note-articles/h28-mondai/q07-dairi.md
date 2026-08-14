@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】委任状があれば安心？代理権が消える瞬間・消えない瞬間〜平成28年度第7問を解説〜
+## 【土地家屋調査士受験生向け】平成28年度 第7問〜代理権が消える瞬間、消えない瞬間〜
 
 **出題年度：平成28年度　午後の部　第7問**
 
@@ -26,9 +26,7 @@
 
 ### イ：代理人が死亡すれば委任は終了し、相続人がそのまま引き継ぐことはできない
 
-民法653条1号により、委任は受任者（代理人）の死亡によって終了します。これに対応して、民法111条1項2号は「代理人の死亡」を代理権の消滅事由として明示しており、代理人Bが死亡した時点で、AB間の委任契約は終了し、Bが持っていた代理権も消滅します。代理権は当事者間の個人的な信頼関係に基づくものであり、相続の対象にはならないため、Bの相続人Cは当然にはAの代理人という地位を承継しません。AからBへの委任状をそのまま流用し、相続を証する情報を添付するだけでCが申請できるわけではなく、本肢は誤りです。
-
-なお、不動産登記法17条には代理権が消滅しない場合の特則があり（①本人の死亡、②本人である法人の合併による消滅、③本人である受託者の信託に関する任務の終了、④本人の法定代理人の死亡又はその代理権の消滅・変更、の4つ）、この特則はいずれも本人側に生じた事由に限られています。委任を受けた代理人自身（本肢のB）の死亡はこの4つのいずれにも当たらないため、17条の特則は及ばず、原則どおり民法653条1号・111条1項2号によって委任・代理権が終了します。
+民法653条1号により、委任は受任者（代理人）の死亡によって終了します。代理人Bが死亡した時点で、AB間の委任契約自体が消滅するため、Bの相続人Cは当然にはAの代理人という地位を承継しません。AからBへの委任状をそのまま流用し、相続を証する情報を添付するだけでCが申請できるわけではなく、本肢は誤りです。
 
 **たとえば**、Aから合筆の登記を頼まれていた調査士Bが急逝し、その事務所をBの子であるCがそのまま引き継いだとしても、「父が受けた委任状」を根拠にCがAの代理人として申請することはできません。Aから改めてCへの委任を受け直す必要があります。
 
@@ -50,15 +48,13 @@
 
 **たとえば**、所有権の登記名義人Aが土地の地目変更の登記を代理人Bに委任した直後に亡くなってしまったとしても、Bはその委任状に基づいて地目変更の登記を申請することができます。表示に関する登記では、本人の死亡後も手続を止めずに進められるようになっている、という点が実務上も重要です。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 複数代理人は各自代理が原則、共同代理は特約がある場合のみ |
-| イ | 誤 | 代理人の死亡で委任は終了し(653条1号)代理権も消滅する(111条1項2号)。不登法17条の不消滅特則は本人側の事由に限られ、代理人自身の死亡には及ばない |
-| ウ | 正 | 取下げは独立した意思表示、別途委任状が必要 |
-| エ | 誤 | 委任者は未成年者本人、親権者個人の破産は委任に影響しない |
-| オ | 正 | 表示に関する登記の代理権は本人の死亡によって消滅しない（不登法17条） |
+- **ア（誤）**　複数代理人は各自代理が原則、共同代理は特約がある場合のみ
+- **イ（誤）**　代理人の死亡で委任は終了し、相続人が当然に承継するわけではない
+- **ウ（正）**　取下げは独立した意思表示、別途委任状が必要
+- **エ（誤）**　委任者は未成年者本人、親権者個人の破産は委任に影響しない
+- **オ（正）**　表示に関する登記の代理権は本人の死亡によって消滅しない
 
 代理人自身の死亡は委任を終了させる一方、表示に関する登記では本人の死亡が代理権に影響しないという「非対称性」が、本問全体を貫くポイントです。
 
@@ -71,8 +67,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - この第7問は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）には収録されていません。法務省公表の試験問題原本（ユーザー提供のPDF）から問題文を直接確認したうえで、民法の委任に関する規定（653条等）および不動産登記法17条の一般的な理解に基づいてAI（Claude）が解説を作成したものです。
 - 正解番号（5番＝ウ・オ）は、法務省公式の正答PDF（ユーザー提供）と照合済みです。
-- 各肢の法的根拠は、民法653条（委任の終了事由）、民法111条（代理権の消滅事由）、および不動産登記法17条（表示の登記の代理権と本人死亡）についての一般的な理解からの推論によるものです。今回はネットワーク環境の制限により、e-Gov法令検索を用いた逐条レベルでの原文確認ができていません。この点は投稿前に条文原文でのご確認をおすすめします。
-- **再確認（2026-08-02実施）**：肢イについて、Web検索により改めて確認しました。①民法653条1号（委任者又は受任者の死亡による委任の終了）は2020年の債権法改正・2023年の物権法改正のいずれでも変更されておらず、現行法でも有効です。②民法111条1項2号が「代理人の死亡」を代理権の消滅事由として明示しており、本文にこの条文を追記しました。③不動産登記法17条は「①本人の死亡、②本人である法人の合併による消滅、③本人である受託者の信託に関する任務の終了、④本人の法定代理人の死亡又はその代理権の消滅・変更」の4つの事由に限り代理権が消滅しないと定める特則であり、これらはいずれも本人側の事由です。委任を受けた代理人自身の死亡はこの4つに含まれないため、17条の特則は及ばず、肢イが誤りであるという結論を条文上支持する内容が確認できました。なお、本問自体の公式解説・市販テキストの記述そのものは今回のWeb検索でも直接確認できておらず、上記は条文の構造からの論理的な裏付けにとどまる点にご留意ください。
+- 各肢の法的根拠は、民法653条（委任の終了事由）および不動産登記法17条（表示の登記の代理権と本人死亡）についての一般的な理解からの推論によるものです。今回はネットワーク環境の制限により、e-Gov法令検索を用いた逐条レベルでの原文確認ができていません。この点は投稿前に条文原文でのご確認をおすすめします。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（土地の表示に関する登記の申請の代理）と同一・類似の問題が再出題されていないかを確認しました。「代理人の権限の範囲」を扱う出題がR02年度第4問、R03年度第4問、R07年度第7問と複数回見つかっており、**特にR07年度第7問エ（代理人が死亡した場合にその相続人である調査士が地位を承継して申請できるか）は、本問イ（委任を受けた代理人の死亡と相続人による申請の可否）と、代理人の死亡による委任の終了（民法653条1号）という同じ法的論点を扱っており、内容が近い出題**です。またR07年度第7問イ（本人である会社の代表者が交代しても代理人は申請できるか）も、本問オ（本人の死亡後も代理人が申請できるか）と構造的に近い「本人側の変化と代理権の存続」という論点です。R02年度第4問ア・R03年度第4問オも取下げと代理人の権限に関する近接した論点を扱っています。ノートに執筆・公開する際は、これらの後年の出題と論点が重なる可能性がある点に留意し、必要に応じて記事の中で言及するか、後年の記事作成時に本記事を参照して重複を避けてください。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -89,13 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-代理権の存続・消滅をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+代理権の存続・消滅をめぐる5つの原則を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric handshake chains, agent figures, principal figures, broken links, documents — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric handshake chains,
+agent figures, principal figures, broken links, documents — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,26 +111,10 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. This applies equally to card
-headings: do not shorten, rephrase, or restate a heading in different,
-punchier words — render the exact heading string given for each card,
-character for character, including particles such as は/でも/には. Pay
-special attention to the kanji 号・録・権・地・番・建・物・登・記・所・継・承,
-which have Simplified Chinese look-alike forms with visibly different
-stroke shapes — always draw the standard Japanese (Jōyō) form of these
-characters.
-
---- MANDATORY HEADING CHECKLIST (read before drawing any card) ---
-The 5 card headings, and ONLY these 5 strings, must appear as the bold
-heading text on their respective cards. Do not invent alternate, shorter,
-or punchier headline wording for any of them. Copy each string exactly:
-1. 複数の代理人は、それぞれ単独で動ける
-2. 代理人が死ねば、委任はそこで終わる
-3. 取り下げるには、別の委任状がいる
-4. 委任者は子ども本人、親の破産は関係ない
-5. 本人が亡くなっても、表示登記の代理は続く
-If the heading you are about to render for a card does not character-for-
-character match one of these 5 lines, stop and use the listed text instead.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・継・状・産, which have Simplified Chinese look-alike forms with
+visibly different stroke shapes — always draw the standard Japanese
+(Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -132,54 +124,81 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 共同代理・死亡・取下げ・破産・本人死亡を整理(平成28年度 午後の部 第7問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric chain-link icon connecting a principal figure (本人) and an agent figure (代理人), with one link glowing intact and another link shown broken, representing where the chain of authority survives or is cut.
-複数代理人の権限、代理人の死亡、申請の取下げ、親権者の破産、本人の死亡という5つの場面を通じて、表示に関する登記の代理権がいつ消え、いつ残るのかを整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
 --- CARD 1 ---
-Heading (bold):
-複数の代理人は、それぞれ単独で動ける
-Illustration: Three isometric agent figures (A, B, C) each independently signing separate documents with no chain linking them together, a small crossed-out 共同代理 label floating nearby to show it is not the default.
-Caption (small text below):
-複数代理人が選任されていても、特に共同代理の定めがない限り、各自が単独で代理行為をできる。
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+複数代理人は各自で代理可
+Illustration: Three isometric agent figures (A, B, C) each independently
+signing separate documents with no chain linking them together, a small
+crossed-out 共同代理 label floating nearby to show it is not the default.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+各自代理が原則
+
 --- CARD 2 ---
-Heading (bold):
-代理人が死ねば、委任はそこで終わる
-Illustration: A single isometric scene. One agent figure (labeled Ｂ) fades to a translucent/grayed-out state, with the single chain link connecting Ｂ to the principal figure (labeled Ａ) shown broken into two separate dangling pieces at the midpoint. Beside faded Ｂ, draw one heir figure (labeled Ｃ) holding the old 委任状 document, with a red circle-and-slash prohibition mark directly over that old document. Do not draw a second chain, a second link, or any new chain connecting Ｃ to Ａ in this card — Ｃ must be shown holding only the old, prohibited document and nothing else, with no implied connection of any kind to Ａ.
-Caption (small text below):
-委任は受任者の死亡によって終了し(民法653条1号)、代理権も消滅する(民法111条1項2号)。相続人が当然に代理人の地位を承継するわけではない。
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+代理人の死亡で委任は終了
+Illustration: An isometric agent figure fading away (死亡) with the chain
+link to the principal breaking, and a separate heir figure standing
+nearby unable to pick up the same broken chain without a brand-new
+document.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+相続人は承継せず
+
 --- CARD 3 ---
-Heading (bold):
-取り下げるには、別の委任状がいる
-Illustration: An isometric withdrawal document (取下げ) requiring its own separate 委任状 stamp, drawn distinctly apart from the original application's own 委任状 folder.
-Caption (small text below):
-登記の申請の取下げは独立した意思表示であり、別途取下げについての委任状が必要になる。
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+取下げには別の委任状が必要
+Illustration: An isometric withdrawal document (取下げ) requiring its own
+separate 委任状 stamp, drawn distinctly apart from the original
+application's own 委任状 folder.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+別途委任状が必要
+
 --- CARD 4 ---
-Heading (bold):
-委任者は子ども本人、親の破産は関係ない
-Illustration: An isometric child figure (委任者本人) connected by an intact chain link to an agent figure, while the parent (親権者) figure fades into a small bankruptcy icon off to the side without touching or breaking the main chain.
-Caption (small text below):
-未成年者の法定代理人である親権者が破産しても、委任契約の当事者は本人(未成年者)であるため委任は終了しない。
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+親権者の破産は委任に影響なし
+Illustration: An isometric child figure (委任者本人) connected by an
+intact chain link to an agent figure, while the parent (親権者) figure
+fades into a small bankruptcy icon off to the side without touching or
+breaking the main chain.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+委任は終了しない
+
 --- CARD 5 ---
-Heading (bold):
-本人が亡くなっても、表示登記の代理は続く
-Illustration: An isometric principal figure fading away (死亡) but the chain link to the agent figure remains solid and glowing, with the agent continuing to submit an application document unaffected.
-Caption (small text below):
-表示に関する登記の代理権は、本人の死亡によっては消滅しない(不動産登記法17条)。
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+本人死亡でも代理権は消えない
+Illustration: An isometric principal figure fading away (死亡) but the
+chain link to the agent figure remains solid and glowing, with the agent
+continuing to submit an application document unaffected.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+代理権は存続
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第7問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・継・承. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters — in
-particular, re-check each of the 5 card headings word-for-word against
-the MANDATORY HEADING CHECKLIST above; a heading that has been shortened
-or reworded (even if the meaning is similar) fails this check and must be
-redrawn with the exact original heading text. Also confirm Card 2 shows
-only one broken chain and no second chain connecting Ｃ to Ａ.
+attention to 権・継・状・産. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as a
+short heading + a short conclusion tag, at a glance. Confirm the 5 card
+headings are exactly: (1) 複数代理人は各自で代理可／(2) 代理人の死亡で
+委任は終了／(3) 取下げには別の委任状が必要／(4) 親権者の破産は委任に
+影響なし／(5) 本人死亡でも代理権は消えない — do not merge, omit,
+duplicate, or reword any of these five headings.
 ```

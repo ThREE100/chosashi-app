@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】その遺言、本当に有効？〜「吉日」と指印と共同遺言の落とし穴〜
+## 【土地家屋調査士受験生向け】令和元年度 第3問〜日付を「吉日」と書くと遺言は無効になる〜
 
 **出題年度：令和元年度　午後の部　第3問**
 
@@ -26,13 +26,13 @@
 
 ### イ：日付を「吉日」とした自筆証書遺言は無効
 
-自筆証書遺言は、遺言者が全文・日付・氏名を自書し、これに押印して成立します（民法968条1項）。この「日付」は作成の日を特定できるものでなければならず、「吉日」という記載は、暦上の特定の日を指し示さないため日付の記載を欠くものとして無効とされます（最判昭54.5.31）。有効とする本肢は誤りです。
+自筆証書遺言は、遺言者が全文・日付・氏名を自書し、これに押印して成立します（民法968条1項）。この「日付」は作成の日を特定できるものでなければならず、「吉日」という記載は、暦上の特定の日を指し示さないため日付の記載を欠くものとして無効とされるというのが判例の立場です。有効とする本肢は誤りです。
 
 **たとえば**、「平成31年1月吉日」と書いてしまうと、1月のいつなのかが特定できず、せっかく書いた遺言全体が無効になってしまう、という怖い話です。日付は「◯月◯日」と具体的に書く必要があります。
 
 ### ウ：印章に代えて指印（指頭に朱肉を付けた押捺）も認められる
 
-自筆証書遺言の押印は、実印である必要はなく認印でもよく、さらに指頭に朱肉を付けて押す指印であってもよいとされています（最判平元.2.16）。したがって本肢は正しい記述です。
+自筆証書遺言の押印は、実印である必要はなく認印でもよく、さらに指頭に朱肉を付けて押す指印であってもよいというのが判例の立場です。したがって本肢は正しい記述です。
 
 **たとえば**、手元に印鑑が見当たらないときでも、指先に朱肉をつけてぽんと押した「指印」で自筆証書遺言の押印要件を満たすことができる、ということです。
 
@@ -48,15 +48,13 @@
 
 **たとえば**、夫婦が一枚の便箋に仲良く二人分の遺言を書いてしまうと、それ自体が禁止された共同遺言にあたり、片方だけが署名押印していても「じゃあその人の分だけ有効」と単純には認められない、ということです。遺言は必ず別々の紙に書くのが安全です。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 満15歳に達すれば法定代理人の同意なく有効に遺言できる（民961条） |
-| イ | 誤 | 「吉日」は日付の記載を欠き無効（民968条1項、最判昭54.5.31） |
-| ウ | 正 | 指印（指頭に朱肉）による押捺も有効（最判平元.2.16） |
-| エ | 誤 | 口がきけない者も公正証書遺言を利用できる（民969条の2） |
-| オ | 誤 | 同一紙面の共同遺言は禁止され、単独遺言として当然有効とはならない（民975条） |
+- **ア（正）**　満15歳に達すれば法定代理人の同意なく有効に遺言できる
+- **イ（誤）**　「吉日」は日付の記載を欠き無効
+- **ウ（正）**　指印（指頭に朱肉）による押捺も有効
+- **エ（誤）**　口がきけない者も公正証書遺言を利用できる
+- **オ（誤）**　同一紙面の共同遺言は禁止され、単独遺言として当然有効とはならない
 
 方式のルールが「どこまで厳格か・どこまで緩やかか」を、判例と条文で正確に区別できたかが得点の分かれ目でした。
 
@@ -71,6 +69,7 @@
 - 各肢の根拠のうち、ア（民法961条）、イ（民法968条1項、最判昭54.5.31）、ウ（最判平元.2.16）、エ（民法969条の2）、オ（民法975条）は、条文番号または判例番号まで確認できたものです。判例の事案（イは「昭和41年7月吉日」と記載された証書に関する最判昭54.5.31）を本問の「平成31年1月吉日」に当てはめて説明しており、結論の射程に問題はありませんが、日付の記載の具体的文言は事案により異なる点にご留意ください。
 - **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ誤 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（遺言の方式・要件）と同一・類似の問題が再出題されていないかを確認しました。候補のうち令和5年度第3問のウの肢「夫婦は、同一の証書により共同で遺言をすることができる」は、本問オの共同遺言禁止（民法975条）と同一の論点を、異なる具体的事案（夫婦による共同遺言の可否そのもの）で問うており、**部分的に類似する記述があります**。同問の他の肢（自書要件とカーボン紙複写、証人の欠格事由、遺言執行者の指定委託、遺言の撤回）や令和3年度第3問オ（「相続させる」旨の遺言の効力）は、本問の他の肢とは異なる論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令への準拠チェック（2026年8月実施）**：民法961条（遺言能力）、968条1項（自筆証書遺言の方式）、969条の2（口がきけない者の公正証書遺言）、975条（共同遺言禁止）、最判昭54.5.31（「吉日」の無効）、最判平元.2.16（指印による押印）について、WebSearchで現行性を確認しました。いずれも条文番号・内容とも変更なく、判例も現在まで維持されています。**もっとも重要な留意点として**、令和8年法律第45号「民法等の一部を改正する法律」（遺言関係）が2026年6月17日に成立、同月24日に公布されており、①自筆証書遺言・秘密証書遺言・特別方式遺言の押印要件の廃止（公布から1年以内に政令で定める日に施行）、②電子データで作成し法務局に保管する「保管証書遺言」（デジタル遺言）制度の創設（公布から3年以内に政令で定める日に施行）が決まっています。**2026年8月現在、両施行日はいずれも未定・未施行であり、現行の968条1項（押印必要、指印可）を前提とする本文の解説・肢ウの結論はそのまま通用します**。ただし、この改正が施行されれば「指印による押印」という論点自体の意義が変わる可能性があるため、記事の結論は変更していませんが、念のためここに記録します。日付の自書要件（肢イに関連）は今回の改正でも維持される予定です。
 
 ---
 
@@ -86,15 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-遺言の方式について、柔軟に認められること3枚・方式違反で無効・禁止となること2枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+遺言の方式について、「柔軟に認められること」と「方式違反で無効・禁止となること」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric desks, documents,
 calendars, seals/stamps, hands, notary office scenes — adapt icon set to
 the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,8 +112,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to
-standard Japanese (Jōyō) form of these characters: 遺・証・記.
+summarize, or substitute any characters. Pay special attention to the
+kanji 遺・証・記・押 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -111,85 +122,79 @@ Title (large, bold, 2行):
 「吉日」と指印と共同遺言の落とし穴
 
 Subtitle (smaller, centered, 1行):
-柔軟に認められること・無効になること(令和元年度 午後の部 第3問)
+柔軟に認められること・無効になること－令和元年度 午後の部 第3問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric desk scene with a person writing a will
-document on paper, a pen, a seal/stamp icon, and a small calendar icon
-placed nearby on the desk.
-遺言は方式が厳格に決められた要式行為ですが、能力要件や押印の方法など、
-実は柔軟に認められる部分もあります。一方で、日付の書き方や共同での
-作成など、方式を誤ると遺言全体が無効・禁止になる場面もあります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 柔軟に認められること
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-15歳に達していれば、単独で有効な遺言ができる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+15歳なら単独で有効な遺言可
 Illustration: An isometric scene of a young human figure in a school
 uniform writing a document alone at a desk, with a crossed-out speech
 bubble from a parent figure in the background reading "同意が必要", and
 a small age tag icon reading "満15歳".
-Caption (small text below):
-遺言をするのに行為能力は不要。満15歳に達した者は法定代理人の同意
-なく有効に遺言できる(民法961条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+法定代理人の同意不要
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-印章がなくても、指印(指頭に朱肉)で押印要件を満たせる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+指印(朱肉)でも押印要件を満たす
 Illustration: An isometric close-up of a hand pressing a fingertip
 covered in red ink(朱肉)onto a will document, with a crossed-out
 seal/stamp(印鑑)icon beside it to show a formal seal is not required.
-Caption (small text below):
-自筆証書遺言の押印は実印である必要はなく、指頭に朱肉を付けて押す
-指印でもよい(最判平元.2.16)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+指印でも有効
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-口がきけない者でも、公正証書遺言を利用できる
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+口がきけなくても公正証書遺言可
 Illustration: An isometric scene at a notary office with a human figure
 communicating by sign language or writing on paper toward a notary
 figure seated at a desk, with two witness figures standing beside them.
-Caption (small text below):
-口授に代えて通訳人の通訳や自書による方法があり、口がきけない者も
-公正証書遺言を利用できる(民法969条の2)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+通訳・自書で対応
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 方式違反で無効・禁止となること
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-日付を「吉日」とした遺言は、日付不特定で無効
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+「吉日」の日付は無効
 Illustration: An isometric calendar page showing "令和元年5月吉日" with
 a large red question mark over the date, and the whole will document
 stamped with a red "無効" seal.
-Caption (small text below):
-「吉日」は暦上の特定の日を指さないため日付の記載を欠き、遺言全体が
-無効となる(民法968条1項、最判昭54.5.31)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+日付不特定で無効
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-一枚の紙に二人分書くと、共同遺言として問題が生じる
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+一枚の紙の共同遺言は問題あり
 Illustration: An isometric single sheet of paper split down the middle
 showing two different handwriting styles: one side labeled "A" with a
 seal stamp, the other side labeled "B" without any stamp, and a red
 prohibition icon over the whole sheet labeled "共同遺言禁止".
-Caption (small text below):
-同一証書での共同遺言は禁止され、Bが署名押印していなくてもA単独の
-有効な遺言として当然には扱われない(民法975条)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+単独遺言にならない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度 午後の部 第3問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 遺・証・記. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
-number of cards equals 5 exactly (3 cards under 柔軟に認められること, 2
-cards under 方式違反で無効・禁止となること), with no duplicated or
-missing cards, and confirm every heading, illustration label, and caption
-text matches the Japanese text given above verbatim, with no paraphrasing
-and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

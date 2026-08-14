@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】共用部分の登記に「申請義務」はある？〜共用部分・団地共用部分である旨の登記のルール〜
+## 【土地家屋調査士受験生向け】令和5年度 第17問〜共用部分の登記に申請義務はない〜
 
 **出題年度：令和5年度　午後の部　第17問**
 
@@ -20,7 +20,7 @@
 
 ### ア：共用部分である旨の登記に、申請義務はない
 
-共用部分である旨の登記（および団地共用部分である旨の登記）は、その建物が共用部分であることを第三者に対抗するためにする登記であって、法律上の申請義務が課されているわけではありません（不動産登記法58条2項）。そのため、「規約を定めた日から1か月以内に申請しなければならない」という本肢は誤りです。
+共用部分である旨の登記（および団地共用部分である旨の登記）は、その建物が共用部分であることを第三者に対抗するためにする登記であって、法律上の申請義務が課されているわけではありません（区分所有法4条2項）。そのため、「規約を定めた日から1か月以内に申請しなければならない」という本肢は誤りです。
 
 **たとえば**、マンションの住民が集会で「1階の集会室をみんなの共用部分にしよう」と規約を決めたとしても、表題部所有者が「1か月以内に必ず登記しなさい」と義務づけられるわけではありません。登記するかどうかは、第三者に共用部分だと主張する必要があるかどうかで判断されます。
 
@@ -48,15 +48,13 @@
 
 **たとえば**、団地共用部分である旨の登記を申請するとき、その建物の不動産番号（12桁の番号）を申請書に書いておけば、わざわざ家屋番号まで重ねて書く必要はありません。不動産番号は、物件を一発で特定できる「マイナンバー」のような役割を果たすからです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 共用部分である旨の登記は対抗要件であり、申請義務はない（法58条2項） |
-| イ | 正 | 所有権の登記がない建物では表題部所有者の登記事項が抹消される（法58条4項） |
-| ウ | 正 | 表題部の変更事由が生じれば1か月以内に変更登記を申請する（法51条1項） |
-| エ | 正 | 区分登記の申請には所有者を証する情報が必要（令別表16項添付情報ロ） |
-| オ | 誤 | 不動産番号を提供すれば家屋番号は省略できる（令6条1項、規則34条2項） |
+- **ア（誤）**　共用部分である旨の登記は対抗要件であり、申請義務はない
+- **イ（正）**　所有権の登記がない建物では表題部所有者の登記事項が抹消される
+- **ウ（正）**　表題部の変更事由が生じれば1か月以内に変更登記を申請する
+- **エ（正）**　区分登記の申請には所有者を証する情報が必要
+- **オ（誤）**　不動産番号を提供すれば家屋番号は省略できる
 
 「申請義務があるものとないもの」「不動産番号で省略できるもの」を正確に切り分けられれば、この分野は得点源にできます。
 
@@ -68,10 +66,11 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（2番＝ア・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
-- 各肢の条文根拠のうち、ア（不動産登記法58条2項）、イ（法58条4項）、ウ（法51条1項）、エ（不動産登記令別表16項添付情報ロ）、オ（令6条1項・不動産登記規則34条2項）は、データベースのexplanationフィールドで条文番号まで明記されているものです。一般原則からの推論にとどまる肢は特にありません。
+- 各肢の条文根拠のうち、ア（区分所有法4条2項）、イ（法58条4項）、ウ（法51条1項）、エ（不動産登記令別表16項添付情報ロ）、オ（令6条1項・不動産登記規則34条2項）は、データベースのexplanationフィールドで条文番号まで明記されているものです。一般原則からの推論にとどまる肢は特にありません。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonでR06・R07年度の全問題と本問の各肢を文字列類似度で突き合わせました。肢ア（共用部分とする旨の規約を定めた場合の登記申請義務の有無）は、**令和7年度午後の部第15問肢イとほぼ同一の文言・同一の論点**（文字列類似度0.92）であることを確認しました。noteへの投稿順序によっては同じ論点の解説が重複するため、投稿時はどちらか一方に寄せる、または相互リンクで誘導するなどの対応を検討してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-
+- **最新法令への準拠チェック（2026-08-03実施）**：不動産登記法51条1項・58条2項・58条4項、不動産登記令6条1項、不動産登記規則34条2項は、令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。
+- **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の不動産登記法・不動産登記令・不動産登記規則・区分所有法の条文原文と照合しました。アの根拠として引用していた「不動産登記法58条2項」は、原文を確認したところ「共用部分である旨の登記等をする建物の表題部所有者又は所有権の登記名義人以外の者は、申請することができない」という申請適格者の限定規定であり、「対抗要件であって申請義務がない」という本文の説明内容とは対応していませんでした。この説明内容の実際の根拠は区分所有法4条2項（「その旨の登記をしなければ、これをもつて第三者に対抗することができない」）であるため、本文・確認事項の引用を「区分所有法4条2項」に修正しました。イ（法58条4項）、ウ（法51条1項）、エ（不動産登記令別表十六の項添付情報ロ）、オ（令6条1項・不動産登記規則34条2項・3条8号ロ）は原文と照合し、相違なしでした。
 ---
 
 ## 見出し画像用フレーズ
@@ -86,15 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-共用部分である旨の登記・団地共用部分である旨の登記について、「登記そのものに関するルール」2枚と「共用部分になった後の変更・添付情報のルール」3枚、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+共用部分である旨の登記・団地共用部分である旨の登記について、「登記そのものに関するルール」と「変更・添付情報に関するルール」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric apartment buildings,
 shared community rooms, ledger books, official stamps/seals, application
-forms, prohibition marks, arrows — adapt icon set to the topic).
+forms, prohibition marks, arrows, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,9 +113,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 建・物・登・記・所・権・番・号・証 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -113,97 +122,82 @@ Title (large, bold, 2行):
 「申請義務」はある？
 
 Subtitle (smaller, centered, 1行):
-共用部分・団地共用部分である旨の登記のルールを整理(令和5年度 午後の部 第17問)
+令和5年度 午後の部 第17問－共用部分・団地共用部分である旨の登記のルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing an
-apartment building with one room highlighted and tagged with a wooden
-label "共用部分", connected by a thin dotted line to a ledger book icon
-stamped with an official seal, to show the room being reflected in the
-registry record.
-マンションの管理人室や集会所のように、みんなで使う建物・部屋には
-「共用部分である旨の登記」という特別な登記があります。申請義務が
-あるのか、登記記録にどう反映されるのか、不動産番号を書けば何を
-省略できるのかを整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
-共用部分である旨の登記そのものに関するルール
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+登記そのものに関するルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-共用部分である旨の登記に、申請義務はない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+申請義務は課されていない
 Illustration: An isometric shared community room icon with a wooden tag
 reading "共用部分", connected to a stamp/seal icon labeled "対抗要件",
-with a prohibition (crossed-out) mark overlaid on a small speech-bubble
-text reading "1か月以内" to show there is no mandatory filing deadline.
-Caption (small text below):
-共用部分である旨の登記は、共用部分であることを第三者に対抗するための
-登記であり、法律上の申請義務は課されていない(不動産登記法58条2項)。
+with a red prohibition mark overlaid on a small speech-bubble text
+reading "1か月以内" to show there is no mandatory filing deadline.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+義務ではなく対抗要件
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-所有権の登記がない建物では、表題部所有者の登記事項が抹消される
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有権なしなら表題部所有者を抹消
 Illustration: An isometric registry ledger page showing a building's
 表題部 entry with the text "表題部所有者Ａ" crossed out by a red 抹消
 stamp/line, beside a smaller separate ledger panel showing a building
 with a 所有権 entry instead being stamped 抹消 by a registrar character
 holding an official seal (職権).
-Caption (small text below):
-建物に共用部分である旨の登記がされると、所有権の登記がない建物では
-表題部所有者の登記事項が抹消され、所有権の登記がある建物では所有権
-その他の権利に関する登記が職権で抹消される(法58条4項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+表題部所有者は抹消
 
---- COLUMN B HEADER (pill-shaped badge) ---
-共用部分になった後の変更・添付情報のルール
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+変更・添付情報に関するルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-表題部の変更事由が生じたら、1か月以内に変更登記を申請する
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+変更登記は1か月以内
 Illustration: An isometric building icon changing its usage label from
 "倉庫" to "車庫" with an arrow, next to a calendar icon marked
 "1か月以内" and a character icon labeled "規約により定められた所有者"
 holding a document ready to submit.
-Caption (small text below):
-表題部所有者または所有権の登記名義人は、建物の表題部の登記事項に
-変更があったときは、変更があった日から1か月以内に変更の登記を
-申請しなければならない。共用部分である旨の登記がある建物でも
-同じである(法51条1項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+共用部分でも変更登記
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-区分登記の申請には、所有者を証する情報が必要
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分登記には所有者証明が必要
 Illustration: An isometric single building being split by a dotted line
 into multiple区分建物 units, with a document icon labeled
 「所有者を証する情報」being clipped onto an application folder next to
 the building.
-Caption (small text below):
-団地共用部分である旨の登記がある区分建物でない建物について建物の
-区分の登記を申請する場合には、添付情報として当該建物の所有者を
-証する情報を提供しなければならない(不動産登記令別表16項添付情報ロ)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所有者を証する情報
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-不動産番号を書けば、家屋番号は省略できる
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+不動産番号があれば家屋番号は省略可
 Illustration: An isometric application form with a "不動産番号" barcode
-/ID-tag icon highlighted in the center, and a dotted, faded, crossed-out
-"家屋番号" label beside it to show that entry can be omitted.
-Caption (small text below):
-申請情報の内容として不動産番号を提供した場合には、家屋番号などの
-特定情報の一部を省略することができる。団地共用部分である旨の登記を
-申請する場合も同様である(不動産登記令6条1項、不動産登記規則34条2項)。
+/ID-tag icon highlighted in the center, and a dotted, faded, red
+crossed-out "家屋番号" label beside it to show that entry can be omitted.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+家屋番号は省略可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第17問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (2
-cards under 共用部分である旨の登記そのものに関するルール, 3 cards under
-共用部分になった後の変更・添付情報のルール), with no duplicated or
-missing cards, and confirm every heading, illustration label, and
-caption text matches the Japanese text given above verbatim, with no
-paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

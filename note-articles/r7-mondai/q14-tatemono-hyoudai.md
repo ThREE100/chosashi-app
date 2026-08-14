@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】建物の表題登記、証明書と署名のルールを整理 令和7年度第14問を解説
+## 【土地家屋調査士受験生向け】令和7年度 第14問〜合体後の登記、実は1か月以内の義務〜
 
 **出題年度：令和7年度　午後の部　第14問**
 
@@ -20,33 +20,33 @@
 
 建物の表題登記では、「誰の名義で登記するか」「どんな証明書が必要か」という基本ルールが問われます。一つずつ確認しましょう。
 
-### ア：表題登記のみの2棟を合体させたら、合体後の登記と合体前の抹消を一緒に申請できる
+### ア：2棟が合体した後に所有権の登記名義人となった場合、合体後の登記と合体前の抹消は「申請しなければならない」義務
 
-表題登記のみがされた2個の建物（まだ所有権保存登記のない建物）を買い受けた人が、両方の建物について所有権の登記名義人となった後、その2棟を物理的に1つの建物に合体させた場合、合体後の建物の表題登記と、合体前の各建物の表題部の登記の抹消を、その人が申請することができます（建物の合体による登記）。
+表題登記のみがされた2個の建物が物理的に合体して1個の建物となり、その合体の後になって、その人が合体前の各建物の表題部所有者又は所有権の登記名義人となった場合には、その人は、合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消を申請することができます。不動産登記法49条4項は「第一項各号に掲げる場合において、当該二以上の建物…が合体して一個の建物となった後に合体前の表題登記がある建物の表題部所有者又は合体前の所有権の登記がある建物の所有権の登記名義人となった者は、その者に係る表題部所有者についての更正の登記又は所有権の登記があった日から一月以内に、合体による登記等を申請しなければならない。」と定めており、この場面はまさにこの規定が想定するものです。つまり、これは単に「申請することができる」という任意の選択肢ではなく、更正の登記又は所有権の登記があった日から1か月以内に申請しなければならない法律上の義務であり、違反すれば法164条1項により10万円以下の過料に処せられます。
 
-**たとえば**、隣り合って建っていた2つの倉庫を買い取り、それぞれの所有者になった後、壁を取り払って1つの大きな倉庫としてリフォームしたとします。この場合、新しく1つになった倉庫の表題登記と、元の2つの倉庫の登記を消す手続きを、まとめて申請することができます。
+**たとえば**、表題登記のみがされていた隣り合う2つの倉庫が、まず物理的に壁を取り払われて1つの大きな倉庫に合体したとします。その後になって、ある人がこの合体前の2つの倉庫それぞれについて表題部所有者又は所有権の登記名義人となった場合、その人は、更正の登記又は所有権の登記があった日から1か月以内に、合体後の倉庫の表題登記と、合体前の2つの倉庫の登記を消す手続きを、まとめて申請しなければなりません。
 
 ### イ：スキャンした確認済証にも、電子署名は必要
 
-オンライン申請で、紙の確認済証をスキャナで電子データにして添付情報とする場合、その電子データにも作成者による電子署名が必要とされています。
+オンライン申請で、紙の確認済証をスキャナで電子データにして添付情報とする場合、その電子データにも作成者による電子署名が必要とされています。不動産登記令13条1項は、申請人又はその代理人が作成したものでない書面（図面類を除く）をスキャナ等により電磁的記録に記録したものを添付情報とする場合には、当該書面を作成した者による電子署名が必要であると定めており、確認済証はまさにこれにあたります。さらに同条2項により、申請人は登記官が定める期間内にその書面の原本を登記官に提示しなければなりません。
 
 **たとえば**、建築確認を受けたときの紙の確認済証を、スキャナで読み取ってPDFにし、オンライン申請の添付書類として提出する場合、そのPDFデータには、作成した人（通常は土地家屋調査士）の電子署名を付ける必要があります。「スキャンしただけだから署名は不要」というわけではありません。
 
 ### ウ：未登記のまま亡くなった場合、相続人は自分の名義で表題登記を申請できる
 
-区分建物以外の建物の所有権を取得した人が、表題登記をしないまま亡くなった場合、その相続人が表題登記を申請するときは、亡くなった人（被相続人）を表題部所有者とする必要はなく、相続人自身を表題部所有者として申請することができます。
+区分建物以外の建物の所有権を取得した人が、表題登記をしないまま亡くなった場合、その相続人が表題登記を申請するときは、亡くなった人（被相続人）を表題部所有者とする必要はなく、相続人自身を表題部所有者として申請することができます。不動産登記法47条1項は、所有権を取得した者（この場合は相続人）自身を表題部所有者として申請することを本則としています。同条2項は、被承継人の名義で表題登記をする代替的な取扱いを認めていますが、これは新築の区分建物に限られており、区分建物以外の本問のケースにこの代替ルートを及ぼすことはできません。
 
 **たとえば**、親が新築した家の表題登記をしないまま亡くなってしまった場合、子どもが相続人としてその家の表題登記を申請するときは、わざわざ亡くなった親を表題部所有者として登記してから改めて名義を変える必要はなく、最初から自分（相続人）を表題部所有者として登記することができます。
 
 ### エ：借地上の建物でも、借地権の証明情報は不要
 
-土地の賃借人が、その土地の上に新築した建物の表題登記を申請する場合、その土地について借地権を有することを証する情報の提供は必要とされていません。表題登記はあくまで建物についての登記であり、土地の権利関係を証明することまでは求められません。
+土地の賃借人が、その土地の上に新築した建物の表題登記を申請する場合、その土地について借地権を有することを証する情報の提供は必要とされていません。表題登記はあくまで建物についての登記であり、土地の権利関係を証明することまでは求められません。不動産登記令別表12項の添付情報欄には、建物図面・各階平面図・所有権を証する情報・住所を証する情報等が列挙されているのみで、借地権を証する情報は挙げられていません。
 
 **たとえば**、借りている土地の上に自分名義で家を新築した場合、その家の表題登記を申請する際に、「私はこの土地を借りる権利（借地権）を持っています」ということを別途証明する書類を提出する必要はありません。
 
 ### オ：表題部所有者の住所証明には、印鑑証明書を使うことができる
 
-建物の表題登記を申請する場合、表題部所有者となる者の住所を証する情報として、その人の印鑑に関する証明書を提供することができます。
+建物の表題登記を申請する場合、表題部所有者となる者の住所を証する情報として、その人の印鑑に関する証明書を提供することができます。不動産登記令別表12項添付情報欄ニは、住所を証する情報として「表題部所有者となる者の住所を証する市町村長、登記官その他の公務員が職務上作成した情報」を挙げており、印鑑証明書はこれに該当します。
 
 **たとえば**、新築した家の表題登記を申請する際、自分の住所を証明する書類として、住民票の代わりに印鑑証明書（住所が記載されている）を使うこともできます。
 
@@ -57,6 +57,8 @@
 - **ウ（誤）**　未登記のまま死亡した場合、相続人は自分を表題部所有者として直接申請できる
 - **エ（誤）**　借地上の建物の表題登記に借地権の証明情報は不要
 - **オ（正）**　表題部所有者の住所証明として印鑑証明書を使うことができる
+
+建物の表題登記は、「誰を表題部所有者にするか」と「どの証明書が必要か」を条文ごとに整理しておくと、本問のような組合せ問題にも対応しやすくなります。
 
 **正解：ア・オの組合せ（選択肢2番）**
 
@@ -83,13 +85,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+建物の表題登記に関する5肢を、「表題部所有者は誰にするか」と「どんな証明書が必要か」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+plots, documents, official stamps/seals, scanners, arrows, prohibition
+marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -97,64 +114,94 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Special caution: kanji such as 建・物・登・記・証・署・所・権 are especially
-prone to being rendered as Simplified Chinese variants. Draw every
-instance of these characters in their correct standard Japanese (Jōyō) form.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-建物の表題登記、証明書と署名のルール
+建物の表題登記、名義と証明書のルール
 
 Subtitle (smaller, centered, 1行):
-令和7年度　午後の部　第14問／建物の表題登記
+令和7年度 午後の部 第14問－表題部所有者は誰か・証明書は何が要るか
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 2棟の倉庫が合体して1棟の大きな倉庫になるイソメトリック図。合体前の2つの表題登記カードが、合体後の1つの表題登記カードにまとまる。
-建物の表題登記では、「誰の名義で登記するか」「どんな証明書が必要か」という基本ルールが問われます。一つずつ確認しましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-表題登記のみの2棟の合体は、合体後の登記と合体前の抹消をまとめて申請できる
-Illustration: 隣接する2棟の倉庫のイラストが壁を取り払って1棟に合体する様子。合体後の建物の表題登記の書類と、合体前の2枚の登記カードに✕印が付いた抹消の書類が、1つの申請書アイコンにまとめられている。
-Caption (small text below):
-2棟の合体、まとめて申請していいんです
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+表題部所有者は誰にするか
 
---- CARD 2 ---
-Heading (bold):
-スキャンした確認済証にも、作成者の電子署名が必要
-Illustration: 紙の確認済証をスキャナで読み取ってパソコン画面上のPDFアイコンにする図。PDFアイコンに電子署名（印鑑のような電子サインマーク）が付いている。
-Caption (small text below):
-スキャンしても、電子署名は省略できません
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+2棟の合体、まとめて申請
+Illustration: An isometric diagram showing two separate small warehouse
+buildings, each tagged "表題登記のみ", merging via an arrow into one
+larger building tagged "合体後の建物". Beside it, a person character
+holds two documents at once toward a registry-office window icon: one
+document labeled "合体後の建物の表題登記" and another labeled "合体前の
+建物の表題部の登記の抹消", both being submitted together.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+まとめて申請可
 
---- CARD 3 ---
-Heading (bold):
-未登記のまま死亡した場合、相続人は自分を表題部所有者として直接申請できる
-Illustration: 亡くなった親のアイコンから、点線の矢印が✕印で示され、代わりに子（相続人）のアイコンから直接、表題登記の書類に「表題部所有者：子」のラベルが結び付く。
-Caption (small text below):
-亡くなった親を、経由しなくていいんです
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+亡くなった親を経由不要
+Illustration: An isometric house icon connected by a dotted, crossed-out
+arrow to a faded parent character tagged "被相続人" (showing this route
+is not required), and by a solid direct arrow to a child character tagged
+"相続人", who receives a stamp reading "表題部所有者".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+相続人が直接申請
 
---- CARD 4 ---
-Heading (bold):
-借地上の建物の表題登記に、借地権の証明情報は不要
-Illustration: 借りている土地の上に建つ新築の家のイラスト。表題登記の申請書類アイコンの横に「借地権証明書」のアイコンが✕印で消されている。
-Caption (small text below):
-借地権の証明、実は求められません
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+どんな証明書が必要か
 
---- CARD 5 ---
-Heading (bold):
-表題部所有者の住所証明として、印鑑証明書を使うことができる
-Illustration: 表題登記の申請書類に、住民票のアイコンと並んで印鑑証明書のアイコンが「OK」マーク付きで示されている。
-Caption (small text below):
-住所の証明、印鑑証明書でも大丈夫
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+スキャンでも電子署名必要
+Illustration: An isometric scanner scanning a paper document tagged
+"確認済証", with an arrow to a computer screen showing the resulting
+electronic file, onto which a seal/stamp icon tagged "電子署名" is being
+attached, plus a small prohibition (no-entry) mark over a crossed-out
+label reading "署名省略".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+署名は省略不可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+借地権の証明情報は不要
+Illustration: An isometric land plot tagged "借地" with a house built on
+top of it, beside a document icon tagged "借地権を有することを証する情報"
+overlaid with a red prohibition (no-entry) mark to show it is not
+required.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+証明書は不要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+住所証明は印鑑証明書も可
+Illustration: An isometric person character holding a document tagged
+"印鑑に関する証明書" beside an equals sign and another document tagged
+"住民票", both feeding into a folder tagged "表題登記の添付情報", with a
+checkmark icon confirming both are acceptable.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+印鑑証明書も可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験　令和7年度　午後の部
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

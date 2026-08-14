@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】その建物、誰に「どけて」と言える？〜物権的請求権の相手方を見抜く〜
+## 【土地家屋調査士受験生向け】令和元年度 第1問〜建物を売っても名義人はまだ責任あり〜
 
 **出題年度：令和元年度　午後の部　第1問**
 
@@ -20,7 +20,7 @@
 
 ### ア：建物を買った現所有者にも、収去を求めることができる
 
-物権的請求権の相手方は、原則として現に目的物を支配して妨害している者です。乙建物の所有権はＣに移転しているので、Ａは現所有者Ｃに対して収去を求めることができます。加えて、他人の土地上の建物を取得して自らの意思で登記した者は、建物を譲渡しても登記名義を保有し続ける限り収去・明渡し義務を免れないため（最判平6.2.8）、登記名義人のままであるＢにも請求できます。「Ｃに対しては求めることができない」とする本肢は誤りです。
+物権的請求権の相手方は、原則として現に目的物を支配して妨害している者です。乙建物の所有権はＣに移転しているので、Ａは現所有者Ｃに対して収去を求めることができます。加えて、他人の土地上の建物を取得して自らの意思で登記した者は、建物を譲渡しても登記名義を保有し続ける限り収去・明渡し義務を免れないというのが判例の立場であり、登記名義人のままであるＢにも請求できます。「Ｃに対しては求めることができない」とする本肢は誤りです。
 
 **たとえば**、駐車場を無断で占領された地主さんが、そのプレハブ小屋を建てた人から別の人に小屋が売られたと知ったとき、「もう売った人には言えない」わけではなく、今その小屋を持っている買主にも「どけてください」と言えますし、登記名義が元のままなら元の建て主にも言える、というイメージです。
 
@@ -44,19 +44,17 @@
 
 ### オ：地役権の侵害者本人に対しても、妨害の禁止を求められる
 
-地役権も物権であり、地役権者には妨害排除・妨害予防の請求権が認められます（民法280条参照、最判平17.3.29）。したがってＢは、地役権を現に侵害しているＣに対して直接、侵害行為の禁止を求めることができます。承役地の所有者Ａに対してしか求められないとする本肢は誤りです。
+地役権も物権であり、地役権者には妨害排除・妨害予防の請求権が認められるというのが判例の立場です（民法280条参照）。したがってＢは、地役権を現に侵害しているＣに対して直接、侵害行為の禁止を求めることができます。承役地の所有者Ａに対してしか求められないとする本肢は誤りです。
 
 **たとえば**、通行のために設定した権利（地役権）が、他人の違法駐車でふさがれているとき、その車の持ち主本人に「どけてほしい」と直接言えるのであって、土地の持ち主にだけしか言えない、というのは筋が通らない、というイメージです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 現所有者Ｃにも収去請求可。登記名義人Ｂも義務を免れない（最判平6.2.8） |
-| イ | 正 | 不法占有者は「第三者」でなく、買主は登記なくして明渡請求できる |
-| ウ | 正 | 物権的請求権は故意・過失不要。自己所有物の撤去は拒めない |
-| エ | 正 | 時効取得の援用後、元所有者は物権的請求権を失う |
-| オ | 誤 | 地役権の侵害者Ｃ本人に対しても妨害禁止を直接求められる（民280条） |
+- **ア（誤）**　現所有者Ｃにも収去請求可。登記名義人Ｂも義務を免れない
+- **イ（正）**　不法占有者は「第三者」でなく、買主は登記なくして明渡請求できる
+- **ウ（正）**　物権的請求権は故意・過失不要。自己所有物の撤去は拒めない
+- **エ（正）**　時効取得の援用後、元所有者は物権的請求権を失う
+- **オ（誤）**　地役権の侵害者Ｃ本人に対しても妨害禁止を直接求められる
 
 相手方が「現に妨害している者は誰か」を軸に、登記名義や故意・過失に惑わされず判断できたかがカギでした。
 
@@ -71,6 +69,7 @@
 - 各肢の判例根拠のうち、ア（最判平6.2.8）、オ（最判平17.3.29）、イ（大連判明41.12.15）は判例番号まで確認できたものです。民法177条・280条は条文番号まで確認しています。一方、ウ（物権的請求権に故意・過失が不要であること）とエ（時効取得の援用による原始取得の効果）は、条文の明示的な番号ではなく、物権的請求権および取得時効の一般原則からの推論に基づく説明です。判例番号の細部（大判昭◯年の不法占拠者非該当）については断定を避けています。
 - **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（物権的請求権の相手方の特定）と同一・類似の問題が再出題されていないかを確認しました。候補として抽出された令和5年度第2問のイの肢は、未登記の買主が不法占有者に明渡しを請求できるかという事案で、本問イと同じく「民法177条の『第三者』には登記の欠缺を主張する正当な利益を有する者に限られ、不法占拠者はこれにあたらない」という同一の論点・同一の判例（大連判明41.12.15）を扱っており、**部分的に類似する記述があります**。もっとも同問の他の肢（所有権移転時期の特約、占有補助者への請求、共有者の単独請求、物権的請求権の消滅時効）は本問の他の肢とは異なる論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令への準拠チェック（2026年8月実施）**：本文で引用している民法177条・280条、大連判明41.12.15、最判平6.2.8、最判平17.3.29について、WebSearchで現行性を確認しました。民法177条（対抗要件）・280条（地役権の内容）は条文番号・内容とも現行法のまま変更はありません。大連判明41.12.15の「第三者＝登記の欠缺を主張するにつき正当な利益を有する者」という定義、および不法占有者がこれに当たらないとする判例法理（最判昭25.12.19等）も現在まで維持されています。最判平6.2.8（登記名義人の収去義務）、最判平17.3.29（通行地役権者が承役地への違法駐車者本人に妨害禁止を求めた事案）も、内容が本文の記述と一致することを確認しました。**修正すべき点はなく、記事の記述に変更はありません。**
 
 ---
 
@@ -86,15 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-物権的請求権について、「誰に対して請求できるか」という相手方の特定を、5つの場面ごとに1カードずつ、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト（列は分けず1列構成）。
+物権的請求権について、「誰に対して請求できるか」という相手方の特定を、5つの場面ごとに1カードずつ並べる、列を分けない1列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, building
 blocks, human figures, arrows, question marks, prohibition marks,
 official stamps — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,8 +112,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to
-standard Japanese (Jōyō) form of these characters: 権・地・建・物・登・記・所.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・地・建・物・登・記・所・援・撤 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -111,90 +122,81 @@ Title (large, bold, 2行):
 誰に対して請求できるか
 
 Subtitle (smaller, centered, 1行):
-相手方の特定を巡る5つのケース(令和元年度 午後の部 第1問)
+相手方の特定を巡る5つのケース－令和元年度 午後の部 第1問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon showing a square land plot
-with an owner figure standing on it, and several question marks floating
-above three other figures standing near or on the land, to represent the
-question of "who is the correct respondent" for a real-right-based claim.
-物権的請求権の分野では、「誰が」請求できるかに加えて、「誰に対して」
-請求できるか(相手方の特定)が繰り返し問われます。現に妨害状態を
-維持している者が原則として相手方になること、登記名義の有無や
-故意・過失の有無がその判断を左右しない場面があることを、5つの
-場面で整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-建物を売っても、登記名義人には収去義務が残る
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記名義人にも収去請求できる
 Illustration: An isometric building icon on a land plot, with an arrow
 pointing from the building to two separate human figures: one labeled
 "登記名義人 B" standing beside the building, and another labeled
 "新所有者 C" also connected to the building by a dotted line. A red
 arrow labeled "収去請求" points from a landowner figure toward both B
 and C to show both are valid respondents.
-Caption (small text below):
-乙建物を買ったCだけでなく、登記名義人のままのBにも、Aは建物の収去を
-求めることができる(最判平6.2.8)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+両方に収去請求可
 
 --- CARD 2 ---
-Heading (bold):
-買主は登記がなくても、不法占有者に明渡しを求められる
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記なくても不法占有者に請求可
 Illustration: An isometric land plot with a small house icon owned by
 figure B carrying a torn paper ribbon labeled "未登記", and an intruding
 figure C occupying a corner of the land labeled "違法占拠". A direct red
 arrow labeled "明渡し請求" points from B to C, passing over a crossed-out
 registration document icon to show registration is unnecessary here.
-Caption (small text below):
-違法占有者は民法177条の「第三者」にあたらないため、登記がなくても
-明渡しを請求できる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記不要で請求可
 
 --- CARD 3 ---
-Heading (bold):
-動産の所有者は、置いた本人が別人でも撤去義務を負う
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有者は撤去義務を免れない
 Illustration: An isometric land plot with an abandoned crate icon labeled
 "乙動産". A faint dotted-outline figure in the background is labeled
 "実際に放置したC", while a solid human figure in the foreground labeled
 "所有者B" receives a red arrow labeled "撤去請求" from a landowner figure,
 with a crossed-out speech bubble reading "私じゃない" above B.
-Caption (small text below):
-物権的請求権の行使に故意・過失は不要。所有者Bは、置いたのがCでも
-撤去請求を拒めない。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+撤去義務は残る
 
 --- CARD 4 ---
-Heading (bold):
-時効を援用されたら、元の所有者は請求権を失う
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+時効援用後は請求権が消滅
 Illustration: An isometric land plot with a human figure standing on it
 holding an official stamp icon labeled "時効援用". A faded, semi-
 transparent figure in the background labeled "元の所有者A" has a broken
 chain-link icon beside it and a crossed-out speech bubble reading
 "返して".
-Caption (small text below):
-取得時効の援用によりBが所有権を原始取得すると、元の所有者Aは
-物権的請求権を失う。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+請求権は消滅
 
 --- CARD 5 ---
-Heading (bold):
-地役権侵害者本人にも、直接、禁止を求められる
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+地役権侵害者本人にも請求可
 Illustration: An isometric land plot with a dotted pathway icon labeled
 "地役権(通行)". A car icon blocks the pathway, labeled "違法駐車C". A red
 arrow labeled "禁止請求" points directly from a human figure labeled
 "地役権者B" to the car, bypassing a separate figure labeled
 "承役地所有者A" standing off to the side.
-Caption (small text below):
-地役権者Bは、侵害行為をしているC本人に対して直接、妨害禁止を求める
-ことができる(最判平17.3.29)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+本人へ直接請求可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度 午後の部 第1問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・地・建・物・登・記・所. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, and confirm every heading, illustration label, and caption
-text matches the Japanese text given above verbatim, with no paraphrasing
-and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

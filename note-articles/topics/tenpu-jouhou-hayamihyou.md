@@ -1,0 +1,685 @@
+## 【土地家屋調査士受験生向け】表示に関する登記の添付情報 早見表
+
+**対象条文：不動産登記法36条・47条、不動産登記令7条・9条・12条・13条・16条〜19条・附則5条、不動産登記令別表四・十二・二十九、不動産登記規則36条・37条の2・37条の3・43条・44条・47条〜50条・55条・93条・213条**
+
+表示に関する登記の添付情報は、土地家屋調査士試験の午後の部で毎年のように出題される最頻出テーマです。しかも「住所を証する情報」「印鑑証明書」「原本還付」「電子申請」がそれぞれ独立の論点として出ることもあれば、1問の中でアからオまで横断的に問われることも多く、条文の枝葉まで正確に押さえていないと得点できません。本稿では、複数年度の過去問を横断して、①住所を証する情報・所有権を証する情報、②印鑑証明書と「3か月以内」ルール、③原本還付、④電子申請・特例方式・調査士報告方式、の4テーマに分けて整理します。
+
+### ①住所を証する情報・所有権を証する情報
+
+表題登記を申請する際に必要となる「所有権を証する情報」と「住所を証する情報」は、不動産登記令別表で個別に定められています。
+
+- **土地の表題登記**（別表四）：ハ　表題部所有者となる者が所有権を有することを証する情報／ニ　表題部所有者となる者の住所を証する市町村長、登記官その他の公務員が職務上作成した情報（公務員が職務上作成した情報がない場合にあっては、これに代わるべき情報）
+- **建物の表題登記**（別表十二）：ハ・ニも土地とほぼ同文。加えて敷地権があるときの規約情報等が別途必要
+
+**たとえば**、埋立てで土地を取得したAさんが表題登記を申請する場合、Aさんが所有権を取得したことを証する情報（造成契約書や公有水面埋立法上の竣功認可書など）と、Aさんの住民票の写しなどの住所証明情報の両方を提供する必要があります。
+
+#### 申請できる人が土地・通常建物・区分建物で違う
+
+添付情報そのものの文言は土地と建物でほぼ同じですが、**「誰が申請できるか」が土地・通常建物・区分建物で異なる**点が繰り返し出題されます。
+
+| 対象 | 表題登記を申請できる人 | 根拠 |
+|---|---|---|
+| 土地 | その時点の所有者（転得者も可） | 不動産登記法36条 |
+| 通常の建物（区分建物以外） | その時点の所有者（転得者も可） | 不動産登記法47条1項 |
+| 区分建物 | 原始取得者（新築者）のみ。転得者に申請資格自体がない | 不動産登記法47条2項 |
+
+区分建物では、原始取得者が申請しないまま放置している場合、転得者は**原始取得者に代位して**申請することはできますが、その場合も表題部所有者として記録されるのはあくまで原始取得者です（令和6年度午後の部第4問など複数年度で出題）。
+
+#### 住所証明情報・所有権証明情報を省略できる場合
+
+- **住民票コードの提供**：申請人が住民基本台帳法上の住民票コードを申請情報の内容としたときは、住所を証する情報の提供を要しません（不動産登記令9条、不動産登記規則36条4項）。
+- **会社法人等番号の提供**：法人が申請人であるとき、会社法人等番号を有する法人はその番号を提供すれば、法人の代表者の資格を証する情報（登記事項証明書）の提供を要しません（不動産登記令7条1項1号）。法人である代理人についても、会社法人等番号の提供をもって代表者の資格を証する情報の提供に代えることができます（不動産登記規則37条の2）。
+- **法定相続情報一覧図の写し**：相続人の住所が記載された法定相続情報一覧図の写し（または法定相続情報番号）を提供したときは、相続を証する情報だけでなく、登記名義人となる者の住所を証する情報の提供も兼ねることができます（不動産登記規則37条の3第1項・第2項）。
+- **官公署の嘱託**：官庁又は公署が登記の嘱託をする場合には、法人の会社法人等番号・代表者資格証明情報の提供規定（令7条1項1号・2号）自体が適用されません（不動産登記令7条2項）。
+- **電子証明書の提供（電子申請の場合）**：電子申請の申請人が、地方公共団体情報システム機構が作成する署名用電子証明書等（不動産登記規則43条1項1号）を提供したときは、その電子証明書の提供をもって申請人の現在の住所を証する情報の提供に代えることができます（不動産登記規則44条1項）。同様に、商業登記に基づく電子証明書（規則43条1項2号）を提供したときは、会社法人等番号の提供に代えることができます（規則44条2項）。
+
+**たとえば**、合同会社が代理人として調査士に依頼せず自ら建物の表題登記を電子申請する場合、その合同会社の会社法人等番号を申請情報の内容とすれば、別途、代表者の資格を証する登記事項証明書を提供する必要はありません。
+
+なお、建物の「所有権を証する情報」としては、工事施工会社が作成した工事完了引渡証明書や建築確認済証・検査済証などが実務上よく用いられますが、この点は不動産登記令別表そのものには個別の書式指定はなく、先例・実務運用による部分が大きいことにご留意ください。
+
+### ②印鑑証明書と「作成後3か月以内」ルール
+
+印鑑証明書は、**どの書面に添付されるものか**によって3か月ルールの有無が変わります。ここが本テーマ最大のひっかけどころです。
+
+| 添付される書面 | 根拠 | 「作成後3か月以内」制限 |
+|---|---|---|
+| 申請書（記名押印した者の印鑑証明書） | 不動産登記令16条2項 | **あり**（令16条3項） |
+| 委任状（代理人の権限を証する情報を記載した書面） | 不動産登記令18条2項 | **あり**（令18条3項） |
+| 承諾書等（同意又は承諾を証する情報を記載した書面） | 不動産登記令19条1項2項 | **なし**（令19条には3か月の定めを置く項がない） |
+| 法人の代表者の資格を証する登記事項証明書 | 不動産登記令7条1項1号ロ・17条1項 | **あり**（令17条1項） |
+
+**たとえば**、工事完了引渡証明書（所有権を証する情報）に施工会社の代表者印を押し、その印鑑証明書を添付する場合や、抵当権の登記名義人が分筆後の一方の土地について抵当権を消滅させることを承諾する書面（承諾書）に添付する印鑑証明書には、作成後3か月以内という制限は課されません。これは、令19条が令16条3項・18条3項のような期間制限の項を持たないためです（令和5年度午後の部第14問、令和4年度午後の部第8問で確認済み）。
+
+#### 印鑑証明書の添付自体が不要になる場合
+
+- **表題部所有者が申請する表示の登記**：印鑑証明書の添付が必要なのは、原則として「所有権の登記名義人」が書面申請をする場合であり、まだ所有権の登記がない表題部所有者が申請する場合には、申請書への記名押印者の印鑑証明書は不要です（不動産登記規則47条3号・48条5号）。共用部分である旨の登記を表題部所有者が申請する場合も同様に、表題部所有者の印鑑証明書は不要です。
+- **会社法人等番号の提供**：法人の代表者・代理人が記名押印した場合において、その会社法人等番号を申請情報の内容としたときは、登記官が記名押印した者の印鑑証明書を作成できる場合に限り、印鑑証明書の添付を要しません（不動産登記規則48条1号）。この規定は委任状（規則49条2項1号）だけでなく、承諾書にも準用されます（規則50条2項による48条1号〜3号の準用）。
+- **官公署が嘱託する場合**：嘱託情報を記載した書面には、そもそも印鑑証明書の添付規定（令16条2項）が適用されません（令16条4項・18条4項）。
+
+### ③原本還付
+
+書面申請をした申請人は、申請書の添付書面（磁気ディスクを除く）について原本の還付を請求できるのが原則です（不動産登記規則55条1項本文）。ただし、次のものは原本還付の対象外です。
+
+| 原本還付できないもの | 根拠 |
+|---|---|
+| 申請書・委任状・承諾書に添付する印鑑証明書（令16条2項・18条2項・19条2項の印鑑証明書） | 不動産登記規則55条1項ただし書 |
+| 裁判所書記官が作成した印鑑証明書（規則48条3号等） | 同上 |
+| 当該申請のためにのみ作成された委任状その他の書面 | 同上 |
+| 偽造された書面その他の不正な登記の申請のために用いられた疑いがある書面 | 規則55条5項 |
+| 登記識別情報を記載した書面（申請書に添付して提出したもの） | 登記完了後、登記官が速やかに廃棄するものとされており、還付の対象書面ではない（不動産登記規則66条2項・69条1項） |
+| 資格者代理人が作成した本人確認情報 | 資格者代理人自身が作成した書面のため |
+
+一方で、次のものは還付**できます**。
+
+- **工事完了引渡証明書に添付する（施工会社代表者の）印鑑証明書**：この印鑑証明書は令16条2項・18条2項・19条2項のいずれにも該当しない（承諾書ではなく所有権証明情報の一部）ため、還付を請求できます（平成29年度午後の部第9問で確認済み）。
+- **戸籍謄本・抄本等の相続証明書類**：相続関係説明図を添付すれば、原本の還付を請求できます。
+- **筆界特定の申請添付書面**：筆界特定の申請人が対象土地の所有権を証する書面として売買契約書の原本を提供した場合も、原本還付を請求できます（不動産登記規則213条、令和7年度午後の部第16問で確認済み）。
+
+**たとえば**、建物の表題登記で工事完了引渡証明書とその印鑑証明書を両方提供した場合、証明書本体だけでなく印鑑証明書も含めて原本還付を請求できる、という扱いになります（同じ「印鑑証明書」でも、申請書や委任状、承諾書に付いているものとは扱いが違う点に注意）。
+
+原本還付の手続としては、原本と相違ない旨を記載した謄本を提出し（規則55条2項）、**登記官の調査完了後**に還付されます（規則55条3項）。「調査完了前でも還付を受けられる」とする記述は誤りです（平成25年度午後の部第5問）。また、還付は申請人の申出により、原本を送付する方法によることもできます（規則55条6項）。
+
+### ④電子申請・特例方式・調査士報告方式での違い
+
+電子申請では、申請情報には申請人等による電子署名が必要です（不動産登記令12条1項）。添付情報が電磁的記録で作成されているときも、原則としてその作成者による電子署名が必要になります（令12条2項）。
+
+#### 表示に関する登記の特則（令13条）とスキャンデータへの電子署名
+
+表示に関する登記を電子申請する場合、添付情報（申請人等が作成したもの、および土地所在図・地積測量図・地役権図面・建物図面・各階平面図を除く）が書面に記載されているときは、その書面をスキャンして電磁的記録に記録したものを添付情報とすることができます。ただし、**その電磁的記録には「作成した者」（＝スキャンした者。多くの場合は代理人の調査士）による電子署名が必要**です（不動産登記令13条1項）。
+
+**たとえば**、建築基準法上の確認済証をスキャナで電磁的記録化して添付情報とする場合、この電磁的記録に電子署名を要しないとする記述は誤りです（令和7年度午後の部第14問）。原本作成者（建築主事等）本人の電子署名までは不要で、スキャンした代理人の署名で足りる、という点がポイントです。
+
+一方、地積測量図・建物図面などの図面類はこの特則の対象外であり、電子的に作成されたものを提供する必要があります（スキャンによる代替は不可）。また、登記識別情報が書面で通知されている場合、その書面をスキャナで電磁的記録化して電子署名を付して提供する方法は認められていません（令和3年度午後の部第4問、令和元年度午後の部第15問）。
+
+令13条1項の規定により添付情報を提供したときも、登記官が定めた相当の期間内に、申請人は当該書面を提示しなければならないのが原則です（令13条2項）。
+
+なお、表示に関する登記では登記官による実地調査が原則ですが、土地家屋調査士又は土地家屋調査士法人が代理人として作成した「申請に係る不動産の調査に関する報告」（調査報告情報）その他の情報が申請情報と併せて提供され、登記官が実地調査の必要がないと認めたときは、実地調査を省略できます（不動産登記規則93条）。この調査報告情報の位置付けが、次の「調査士報告方式」という呼び方の背景にあります。
+
+#### 調査士報告方式：原則として原本提示を求めない取扱い
+
+土地家屋調査士又は土地家屋調査士法人が代理人として電子申請の方法により表示に関する登記を申請する場合において、令13条1項に基づき添付情報が提供されたときは、**原則として、添付情報の基となった書面の提示を求めない取扱い**があります。これを「調査士報告方式」と呼びます（令和6年度午後の部第5問の設問文より）。ただし、対象となる書面は限定されており、次のように整理できます。
+
+| 書面の性質 | 調査士報告方式の対象になるか |
+|---|---|
+| 申請人（委任者）が作成した委任状 | ○ 対象になる |
+| 工事施工会社作成の工事完了引渡証明書（所有権証明情報） | ○ 対象になる |
+| 地役権設定の範囲を証する地役権者作成の書面 | × 対象外（原本提示が必要） |
+| 表題部所有者の承諾書、抵当権者の承諾書など第三者の意思を証する書面 | × 対象外（原本提示が必要） |
+
+この区別は、「調査士が内容を確認・責任を持てる書面か、それとも第三者の意思の真正を担保すべき書面か」という判断軸で説明されています（令和6年度午後の部第5問）。ただし、この対象書面の切り分けは条文そのものの文言というより実務上の取扱い・出題解説に基づくものであるため、実際の申請にあたっては最新の通達等を確認してください。
+
+#### 特例方式（不動産登記令附則5条）
+
+電子申請をする場合でも、添付情報（登記識別情報を除く）が書面に記載されているときは、当分の間、その書面を登記所に提出する方法により添付情報を提供することができます。これを「特例方式」と呼びます（不動産登記令附則5条1項）。
+
+- 特例方式による場合、その旨を申請情報の内容としなければなりません（附則5条2項）。
+- 書面の提出は、登記所へ**持参する方法・送付する方法のいずれでもよい**とされています（附則5条3項による令17条・19条の準用、不動産登記規則53条参照）。送付する場合は書留郵便又は信書便で引受け・配達の記録が残る方法によります。
+- 特例方式で提出した添付書面についても、**原本還付を請求できます**（平成28年度午後の部第5問で確認済み。「特例方式だから原本還付できない」は誤りです）。
+- 申請が却下・取下げになったときは、偽造の疑いがある書面などを除き、原則として添付書面は申請人に還付されます。
+
+特例方式（附則5条・書面のまま添付情報を出す制度）と、調査士報告方式（令13条・スキャン＋電子署名して添付情報とし、原則として原本提示を省略する運用）は、名前が似ていますが別の制度である点に注意してください。
+
+### まとめ
+
+| テーマ | 最重要ポイント |
+|---|---|
+| ①住所・所有権証明情報 | 土地・通常建物は転得者も申請可、区分建物は原始取得者のみ（法36条・47条）。会社法人等番号・住民票コード・法定相続情報一覧図の写しで各種証明情報を省略できる |
+| ②印鑑証明書と3か月ルール | 申請書・委任状（令16条・18条）の印鑑証明書は3か月以内。承諾書（令19条）の印鑑証明書には期間制限がない。表題部所有者の申請では印鑑証明書自体が原則不要 |
+| ③原本還付 | 申請書・委任状・承諾書に添付した印鑑証明書は原則還付不可。所有権証明情報に添付した第三者の印鑑証明書（例：工事完了引渡証明書の印鑑証明書）は還付可能。還付は調査完了後、送付によることもできる |
+| ④電子申請・特例方式・調査士報告方式 | 令13条のスキャンデータには作成者（スキャンした人）の電子署名が必要。調査士報告方式は原則原本提示を省略できるが対象書面は限定的。特例方式は添付情報を書面のまま提出できる制度で、原本還付も可能 |
+
+添付情報の問題は、条文の文言そのものを丸暗記するというより、「**どの場面のどの書面か**」を正確に特定できるかどうかで正誤が決まります。申請書・委任状・承諾書のどれに付いている印鑑証明書か、表題部所有者の申請か所有権登記名義人の申請か、といった場面の切り分けを意識して過去問に当たると、初見の組合せ問題にも対応しやすくなります。
+
+---
+
+**このまま使える点／使う前に確認したい点**
+
+- 不動産登記法36条・47条1項・2項、不動産登記令7条・9条・12条・13条・16条〜19条・附則5条、不動産登記令別表四・十二・二十九、不動産登記規則36条4項・37条の2・37条の3・43条・44条・47条〜50条・55条・93条・213条は、いずれも`laws/`配下の一次資料（fudousan-touki-hou.md、fudousan-touki-rei.md、fudousan-touki-rei-betsuhyou.md、fudousan-touki-kisoku-1.md）を実際にGrep・Readして条番号・文言を確認したうえで記載しています。
+- 令19条に「作成後3か月以内」の定めを置く項がない（16条3項・18条3項に相当する規定が存在しない）ことは、条文本体を通読して確認しました。これに対応する過去問の解説（令和5年度午後の部第14問、令和4年度午後の部第8問、平成21年度午後の部第9問）とも整合しています。
+- 原本還付の対象・対象外の区別（規則55条1項ただし書）、印鑑証明書添付不要の場合（規則48条・50条）も条文を確認済みです。
+- 「所有権を証する情報」として工事完了引渡証明書・確認済証・検査済証等が実務で用いられる点、および調査士報告方式の対象書面の切り分け（委任状・工事完了引渡証明書は対象、地役権設定範囲証明書・第三者の承諾書は対象外）は、不動産登記令別表や本則の条文そのものには個別の明文がなく、土地家屋調査士試験対策アプリの検証済みデータベース（kaisetsu_plus.json、reviewed:trueのエントリを中心に使用）の解説・過去問の設問文（令和6年度午後の部第5問の設問文に「調査士報告方式」の定義がそのまま記載されていたものを使用）に基づいています。先例・通達の原文までは確認できていないため、実際の申請実務にあたる際は最新の通達等でご確認ください。
+- 一部の過去問（平成21年度午後の部第9問・第12問、平成20年度午後の部第10問等）はkaisetsu_plus.jsonのreviewedフラグがfalse（AIによる推論ベースの解説）でしたが、いずれも本稿執筆にあたり法令原文と突き合わせて内容を確認しています。
+- 平成28年度午後の部第5問は、takuitsu.json・kaisetsu_plus.jsonのデータベースには収録されておらず、既存のmondai記事（h28-mondai/q05-tokureihoushiki.md）内の記述を参照しました。当該記事自体が「e-Gov法令検索での逐条確認ができていない」旨を明記していましたが、本稿の執筆にあたり改めて不動産登記令附則5条の条文を直接確認し、内容が一致することを確かめました。
+
+---
+
+## 見出し画像用フレーズ
+
+- 印鑑証明書、3か月ルールがある書面とない書面
+- 表題部所有者なら、印鑑証明書はいらないんです
+- 原本還付できる書面、実は細かく決まってるんです
+- スキャンした書類、誰の電子署名が必要？
+- 区分建物だけ、申請できる人が違うんです
+
+---
+
+## インフォグラフィック プロンプト
+
+### 画像1：表題登記は誰が申請できるか（住所・所有権証明情報の要点）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plot, house,
+apartment building, ID card, company building, family tree, document with
+a seal — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表題登記は誰が申請できるか
+
+Subtitle (smaller, centered, 1行):
+土地・建物・区分建物で異なる
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: blue) ---
+申請できる人
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+土地・通常建物は転得者も可
+Illustration: 土地区画と一戸建てのアイソメアイコン、最初の所有者から次の
+所有者（転得者）へ矢印、青のチェックマーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+blue, 5-15 Japanese characters):
+法36条・47条1項
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading: 区分建物は原始取得者のみ
+Illustration: マンションのアイソメアイコンと新築者を示す人物アイコン、
+転得者を示す人物アイコンに赤い✕マーク。
+Conclusion tag (blue):
+転得者は不可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading: 転得者は原始取得者に代位して申請可
+Illustration: 転得者のアイコンから原始取得者のアイコンへ矢印、書類に
+「代位」という小さなラベル札。
+Conclusion tag (blue):
+名義は原始取得者
+
+--- COLUMN B HEADER (pill-shaped badge, color: green) ---
+証明情報を省略できる場合
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in green containing the number 4 (continuing the
+numbering from column A).
+Heading: 住民票コードの提供
+Illustration: IDカードのアイコンに「住民票コード」という小さなラベル札、
+住所を証する書類のアイコンに赤い✕マーク（提供不要を示す）。
+Conclusion tag (green):
+住所証明を省略
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in green containing the number 5.
+Heading: 会社法人等番号の提供
+Illustration: 会社の建物のアイソメアイコンと番号札、代表者の資格証明書の
+アイコンに赤い✕マーク（提供不要を示す）。
+Conclusion tag (green):
+資格証明を省略
+
+--- COLUMN B, CARD 6 ---
+Badge: a filled circle in green containing the number 6.
+Heading: 法定相続情報一覧図の写し
+Illustration: 家系図のアイコンと一覧図のアイコン、相続証明・住所証明の
+両方に緑のチェックマーク。
+Conclusion tag (green):
+相続と住所を兼用
+
+--- FOOTER ---
+
+注意：特に「登」「記」「建」「物」「所」の各漢字は、簡体字ではなく
+標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 6 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
+
+### 画像2：印鑑証明書「3か月以内」ルール早見表
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1100 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: seal/hanko icon, calendar icon,
+document icon — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Do NOT render any full-sentence explanation or paragraph of
+body text anywhere on the poster; every row must read as a short phrase
+plus an icon.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+印鑑証明書、3か月ルールがある書面・ない書面
+
+Subtitle (smaller, centered, 1行):
+添付される書面によって扱いが違う
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background
+colors, Japanese sans-serif font, no monospace font. 3 columns: 「添付
+される書面」「根拠」「3か月以内の制限」。Reproduce the header row and all
+4 data rows exactly as written below, verbatim, in this order, with no
+duplicated or missing rows:
+
+ヘッダー行: 添付される書面 | 根拠 | 3か月以内の制限
+
+行1: 申請書（記名押印した者の印鑑証明書） | 不動産登記令16条2項 | ある（令16条3項）
+行2: 委任状（代理人の権限を証する情報） | 不動産登記令18条2項 | ある（令18条3項）
+行3: 承諾書等（同意又は承諾を証する情報） | 不動産登記令19条1項2項 | ない
+行4: 法人代表者の資格証明情報（登記事項証明書） | 不動産登記令7条1項1号ロ・17条1項 | ある（令17条1項）
+
+「ある」のセルは薄い赤の背景にカレンダーアイコンと「3か月」のラベルを添え、
+「ない」のセルは薄い緑の背景に無限マーク（∞）のアイコンを添える。各行の
+左端に朱肉付きの印鑑（はんこ）のミニアイコンを置く。
+
+--- FOOTER ---
+
+注意：特に「証」「明」「登」「記」の各漢字は、簡体字ではなく標準的な
+日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 4 data rows plus the
+header row, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm no cell contains a full sentence of explanatory prose.
+```
+
+### 画像3：原本還付、できないもの・できるもの早見表
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: document icon, seal icon,
+courthouse/registry icon — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Do NOT render any full-sentence explanation or paragraph of
+body text anywhere on the poster; every row must read as a short phrase
+plus an icon.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+原本還付、できないもの・できるもの
+
+Subtitle (smaller, centered, 1行):
+書面ごとに扱いが異なる
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background
+colors, Japanese sans-serif font, no monospace font. 3 columns: 「書面」
+「判定」「根拠」。Reproduce the header row and all 9 data rows exactly as
+written below, verbatim, in this exact order, with no duplicated or
+missing rows:
+
+ヘッダー行: 書面 | 判定 | 根拠
+
+行1: 申請書・委任状・承諾書に添付する印鑑証明書 | ×できない | 規則55条1項ただし書
+行2: 裁判所書記官が作成した印鑑証明書 | ×できない | 規則55条1項ただし書
+行3: 当該申請のためにのみ作成された委任状その他の書面 | ×できない | 規則55条1項ただし書
+行4: 偽造の疑いがある書面 | ×できない | 規則55条5項
+行5: 登記識別情報を記載した書面 | ×できない | 規則66条2項・69条1項
+行6: 資格者代理人が作成した本人確認情報 | ×できない | 資格者代理人自身が作成のため
+行7: 工事完了引渡証明書に添付する印鑑証明書 | ○できる | 令16条・18条・19条に非該当
+行8: 戸籍謄本・抄本等の相続証明書類 | ○できる | 相続関係説明図の添付で還付可
+行9: 筆界特定の申請添付書面 | ○できる | 不動産登記規則213条
+
+「×できない」のセルは薄い赤の背景に赤い✕アイコンを添え、「○できる」の
+セルは薄い緑の背景に緑のチェックアイコンを添える。行1〜6と行7〜9の間に
+薄い区切り線を入れ、上段が「できないもの」・下段が「できるもの」であること
+が一目でわかるようにする。
+
+--- FOOTER ---
+
+これは記事内で挙げられている全9項目であり、重複禁止・欠落禁止・言い換え
+禁止で全9行を正確に描画すること。特に「還」「付」「証」「明」「登」「記」
+の各漢字は、簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Count the data rows and confirm there are exactly
+9, with no duplicates and no gaps, and confirm the first 6 are marked
+「×できない」and the last 3 are marked「○できる」. Confirm there is no
+intro illustration or paragraph block between the header and the table,
+and confirm no cell contains a full sentence of explanatory prose.
+```
+
+### 画像4：特例方式と調査士報告方式は別の制度（対比表）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1400 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: paper document icon, scanner
+icon, electronic signature icon, envelope icon — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the comparison rows. Every row must communicate its point almost
+entirely through the illustration (icons, X marks, checkmarks, small
+embedded labels) plus one short heading per side. Do NOT render any
+full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+特例方式と調査士報告方式は別の制度
+
+Subtitle (smaller, centered, 1行):
+名前は似ているが中身が違う
+
+（タイトル・サブタイトルのすぐ下に比較列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN HEADER (pill-shaped badge, color: blue) ---
+特例方式（附則5条）
+
+--- RIGHT COLUMN HEADER (pill-shaped badge, color: green) ---
+調査士報告方式（令13条）
+
+--- ROW 1 ---
+Left heading (bold, one line): 添付情報を書面のまま提出できる
+Left illustration: 電子申請の画面アイコンから紙の書類アイコンへ矢印。
+Right heading (bold, one line): 書面をスキャンし電子署名して提供
+Right illustration: 紙の書類からスキャナーのアイコンを通って電子署名の
+アイコンへ矢印。
+
+--- ROW 2 ---
+Left heading: 持参・送付いずれの方法でもよい
+Left illustration: 登記所の建物アイコンへ、徒歩の人物アイコンと郵便物の
+アイコンの両方から矢印。
+Right heading: 調査報告情報の提供で実地調査を省略
+Right illustration: 調査士が作成した報告書のアイコンと、登記官の実地調査
+アイコンに赤い✕マーク。
+
+--- ROW 3 ---
+Left heading: 原本還付を請求できる
+Left illustration: 書面のアイコンに緑のチェックマークと「還付可」の小さな
+ラベル札。
+Right heading: 原則、原本提示を求めない（対象は限定）
+Right illustration: 書類のアイコンに緑のチェックマークと「提示不要」の
+ラベル、ただし小さな注記アイコン付き。
+
+--- ROW 4 ---
+Left heading: 該当なし（グレーアウト）
+Left illustration: このセルはグレーアウトした空白のカードとして描き、
+アイコンやラベルは置かない。
+Right heading: 対象外の書面は原本提示が必要
+Right illustration: 承諾書のアイコンに赤い✕マークと「原本提示が必要」の
+ラベル札。
+
+（各行は左右で同じ高さに揃えて配置する。片方にしか存在しない要素は
+「該当なし」としてグレーアウト表示する。）
+
+--- FOOTER ---
+
+注意：特に「例」「調」「査」「報」「告」「登」「記」の各漢字は、簡体字
+ではなく標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly 4 rows, with no
+duplicated or missing rows, confirm there is no intro illustration or
+paragraph block between the header and the comparison rows, and confirm
+that no row contains a full sentence of explanatory prose — every row's
+takeaway must read as a short heading on each side, at a glance.
+```
+
+### 画像5：調査士報告方式の対象になる書面 早見表
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1100 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: document icon, seal icon,
+scanner icon — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Do NOT render any full-sentence explanation or paragraph of
+body text anywhere on the poster; every row must read as a short phrase
+plus an icon.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+調査士報告方式の対象になる書面
+
+Subtitle (smaller, centered, 1行):
+令13条のスキャンデータ提供時の扱い
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background
+colors, Japanese sans-serif font, no monospace font. 2 columns: 「書面の
+性質」「調査士報告方式の対象になるか」。Reproduce the header row and all
+4 data rows exactly as written below, verbatim, in this order, with no
+duplicated or missing rows:
+
+ヘッダー行: 書面の性質 | 調査士報告方式の対象になるか
+
+行1: 申請人（委任者）が作成した委任状 | ○ 対象になる
+行2: 工事施工会社作成の工事完了引渡証明書（所有権証明情報） | ○ 対象になる
+行3: 地役権設定の範囲を証する地役権者作成の書面 | × 対象外（原本提示が必要）
+行4: 表題部所有者の承諾書、抵当権者の承諾書など第三者の意思を証する書面 | × 対象外（原本提示が必要）
+
+「○ 対象になる」のセルは薄い緑の背景に緑のチェックアイコンを添え、「×
+対象外（原本提示が必要）」のセルは薄い赤の背景に赤い✕アイコンを添える。
+
+--- FOOTER ---
+
+注意：特に「調」「査」「報」「告」「証」「明」の各漢字は、簡体字ではなく
+標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 4 data rows plus the
+header row, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm no cell contains a full sentence of explanatory prose.
+```
+
+### 画像6：表示登記の添付情報、4つの最重要ポイント（まとめ）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: apartment building, seal/hanko,
+document with a stamp, scanner and electronic signature icon — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表示登記の添付情報、4つの最重要ポイント
+
+Subtitle (smaller, centered, 1行):
+記事全体のまとめ
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列を分けないため、バッジ色は1色（紺色）に統一する。）
+
+--- CARD 1 ---
+Badge: a filled circle in navy blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+区分建物だけ原始取得者に限られる
+Illustration: マンションのアイソメアイコンと新築者のアイコン、転得者の
+アイコンに赤い✕マーク。その下に住民票コード・会社法人等番号・法定相続
+情報一覧図の3つを表す小さなアイコンを横に並べる。
+Conclusion tag (navy blue banner, 5-15 Japanese characters):
+省略できる場合あり
+
+--- CARD 2 ---
+Badge: a filled circle in navy blue containing the number 2.
+Heading: 申請書・委任状の印鑑証明書は3か月以内
+Illustration: 印鑑証明書のアイコンにカレンダーと「3か月」のラベル、承諾書
+のアイコンには無限マーク（∞）のラベル。
+Conclusion tag (navy blue):
+承諾書は制限なし
+
+--- CARD 3 ---
+Badge: a filled circle in navy blue containing the number 3.
+Heading: 申請書等の印鑑証明書は原則還付不可
+Illustration: 申請書に添付した印鑑証明書のアイコンに赤い✕マーク、工事
+完了引渡証明書に添付した印鑑証明書のアイコンには緑のチェックマーク。
+Conclusion tag (navy blue):
+調査完了後に還付
+
+--- CARD 4 ---
+Badge: a filled circle in navy blue containing the number 4.
+Heading: スキャンデータは作成者の電子署名が必要
+Illustration: スキャナーのアイコンから電子署名のアイコンへ矢印、その横に
+特例方式と調査士報告方式を表す2つの書類アイコンを並べる。
+Conclusion tag (navy blue):
+別々の制度
+
+（カードは2列×2段、または1列で通し番号1〜4を振って配置する。列を分ける
+場合もバッジ色は紺色で統一する。）
+
+--- FOOTER ---
+
+特に「登」「記」「建」「物」「証」「明」の各漢字は、簡体字ではなく標準的な
+日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 4 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
+
+---
+
+## 参照した過去問
+
+- [R7第9問 地積測量図](../r7-mondai/q09-chisekisokuryouzu.md)
+- [R7第14問 建物の表題登記](../r7-mondai/q14-tatemono-hyoudai.md)
+- [R7第16問 筆界特定](../r7-mondai/q16-hikkaitokutei.md)
+- [R6第4問 表題登記の添付情報](../r6-mondai/q04-hyoudai-touki-tenpu.md)
+- [R6第5問 調査士報告方式](../r6-mondai/q05-chousashi-houkoku-houshiki.md)
+- [R6第8問 土地の分筆の登記](../r6-mondai/q08-bunpitsu-touki.md)
+- [R5第14問 添付情報](../r5-mondai/q14-tenpujouhou.md)
+- [R3第4問 電子申請](../r3-mondai/q04-denshi-shinsei.md)
+- [R3第5問 添付情報](../r3-mondai/q05-tenpu-jouhou.md)
+- [R1第8問 土地の表示に関する登記の申請情報・添付情報](../r1-mondai/q08-shinsei-tenpu.md)
+- [R1第15問 建物の表示に関する登記の添付情報](../r1-mondai/q15-tatemono-tenpu.md)
+- [H30第4問 表示に関する登記の申請情報及び添付情報](../h30-mondai/q04-shinsei-tenpu-jouhou.md)
+- [H29第7問 所有権を有することを証する情報](../h29-mondai/q07-shoyuuken-shoumei-jouhou.md)
+- [H29第9問 添付書面の原本の還付](../h29-mondai/q09-genpon-kanpu.md)
+- [H29第17問 区分建物の登記の申請](../h29-mondai/q17-kubun-tatemono.md)
+- [H28第5問 特例方式](../h28-mondai/q05-tokureihoushiki.md)
+- [H27第9問 合筆の登記](../h27-mondai/q09-gappitsu.md)
+- [H26第8問 表示に関する登記の添付情報](../h26-mondai/q08-tenpu-jouhou.md)
+- [H25第5問 添付書面の原本の還付](../h25-mondai/q05-genpon-kanpu.md)
+- [H21第9問 作成後3月以内の添付情報](../h21-mondai/q09-tenpu-3getsu.md)
+- [H21第12問 添付書面の原本の還付請求](../h21-mondai/q12-genpon-kanpu.md)
+- [H20第10問 電子申請](../h20-mondai/q10-denshi-shinsei.md)

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】令和2年度 第8問・地積が違っていたら？地積更正登記のルール〜申請できる人・所有権証明・相続人〜
+## 【土地家屋調査士受験生向け】令和2年度 第8問〜抵当権者は、地積更正を申請できないんです〜
 
 **出題年度：令和2年度　午後の部　第8問**
 
@@ -44,19 +44,17 @@
 
 ### オ：相続人の一人からの地積更正の申請に、他の相続人の承諾は不要
 
-土地が共有（相続によって複数の相続人の共有になった場合を含む）であるとき、地積更正のような表示に関する登記は、保存行為として共有者の一人から申請することができます（民法252条ただし書参照）。他の相続人（共有者）の承諾を証する情報を提供する必要はありません。本肢は正しい記述です。
+土地が共有（相続によって複数の相続人の共有になった場合を含む）であるとき、地積更正のような表示に関する登記は、保存行為として共有者の一人から申請することができます（民法252条5項）。他の相続人（共有者）の承諾を証する情報を提供する必要はありません。本肢は正しい記述です。
 
 **たとえば**、亡くなった父名義の土地の地積更正をしたいとき、相続人が3人いても、そのうちの一人が単独で地積更正の登記を申請できます。他の2人の承諾書を集める必要はありません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 地積更正の申請人は表題部所有者・所有権登記名義人に限られ、抵当権者は不可（不動産登記法38条） |
-| イ | 正 | 地積更正と合筆は一の申請情報で申請できる（不動産登記規則35条7号） |
-| ウ | 誤 | 筆界特定後の職権地積更正は「できる」であって「しなければならない」ではない |
-| エ | 誤 | 地積が増える更正でも所有権を証する情報は不要 |
-| オ | 正 | 相続人（共有者）の一人から申請でき、他の相続人の承諾は不要（民法252条ただし書） |
+- **ア（誤）**　地積更正の申請人は表題部所有者・所有権登記名義人に限られ、抵当権者は不可
+- **イ（正）**　地積更正と合筆は一の申請情報で申請できる
+- **ウ（誤）**　筆界特定後の職権地積更正は「できる」であって「しなければならない」ではない
+- **エ（誤）**　地積が増える更正でも所有権を証する情報は不要
+- **オ（正）**　相続人（共有者）の一人から申請でき、他の相続人の承諾は不要
 
 「地積更正は面積の訂正にすぎない」「表示登記は共有者の一人から申請できる」という2点が、複数の肢を貫く判断のカギです。
 
@@ -68,7 +66,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典（令和2年度午後の部 第8問）・正解番号（イオ＝4番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
-- 各肢の根拠のうち、ア（不動産登記法38条）・イ（不動産登記規則35条7号）・オ（民法252条ただし書）は、データベースのexplanationフィールドに条文番号まで明記されています。ウ（筆界特定後の職権更正が「できる」であること）・エ（地積増加でも所有権証明情報が不要であること）は、地積更正登記の一般的な取扱いからの説明です。
+- 各肢の根拠のうち、ア（不動産登記法38条）・イ（不動産登記規則35条7号）・オ（民法252条5項）は、データベースのexplanationフィールドに条文番号まで明記されています。ウ（筆界特定後の職権更正が「できる」であること）・エ（地積増加でも所有権証明情報が不要であること）は、地積更正登記の一般的な取扱いからの説明です。
+- **法令検証（2026-08-04実施）**：ア（不動産登記法38条）・イ（不動産登記規則35条7号）は、ローカル法令データベース（`laws/fudousan-touki-hou.md`・`laws/fudousan-touki-kisoku-1.md`）の条文と完全に一致することを確認しました。オについては、データベース作成当時の「民法252条ただし書」という条文表記が、令和3年民法改正（共有制度の見直し、令和5年4月1日施行）により**「民法252条5項」**に条番号が移動していたため、本文・まとめの表記を修正しました（`laws/minpou-1-soukyoku-bukken.md`で確認）。保存行為を共有者が単独でできるという内容自体は改正の前後で変わっておらず、条番号のみの修正です（オの正誤・正解番号に影響なし）。なお、地積更正登記のような表示に関する登記が「保存行為」に当たるという分類自体も、令和5年施行改正後の解釈で変更されたことを示す情報は確認できませんでした。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。令和6年度第7問も「地積に関する更正の登記」がテーマですが、各肢の具体的な出題内容（本問は抵当権者の申請適格・合筆との一括申請・筆界特定後の職権更正・地積増加時の所有権証明・相続人の一人申請／令和6年度は公差の範囲内での更正可否・地殻変動による地積減少・抵当権者や隣接地所有者の承諾要否・申請義務の期限）は異なっており、**内容の重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -84,14 +83,28 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+地積更正登記のルールを「申請できる人」（列A・緑）と「添付情報・手続の要否」（列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots, banks,
+measuring tapes, registration documents, registrar desks, heirs, torn
+paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -99,7 +112,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・積・権・登・記・所・証・筆・界 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -109,78 +124,87 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 令和2年度 午後の部 第8問／申請できる人・添付情報・共有者の扱い
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric land plot with a surveyor holding a measuring
-tape, comparing two number labels: 登記簿の面積 (an incorrect figure with
-an X mark) versus 実際の測量結果 (the correct figure with a checkmark),
-connected by an arrow showing the figure being corrected.
-地積更正の登記は、登記記録の面積を実際の測量結果に合わせて訂正するだけの登記です。表示登記に共通するルール（誰が申請できるか・所有権証明の要否）を5つの場面で確認します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
-以下の5枚のカードは、下記の番号・見出し文言のとおり過不足なくちょうど5枚作成すること（重複禁止・欠落禁止・言い換え禁止）：
-1. 地積更正を申請できるのは所有者本人。抵当権者はできない
-2. 地積更正と合筆は、一つの申請書にまとめられる
-3. 筆界特定後の職権更正は、まず申請を促す。いきなり義務にはならない
-4. 面積が増える更正でも、所有権を証する情報は不要
-5. 相続人の一人だけで、地積更正を申請できる
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請できる人のルール
 
---- CARD 1 ---
-Heading (bold):
-地積更正を申請できるのは所有者本人。抵当権者はできない
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+抵当権者は申請できない
 Illustration: An isometric bank building icon (抵当権者) reaching for an
 application document but blocked by a large X mark, while beside it a
 land-owner person icon (所有権の登記名義人) holds the same document with
 a checkmark.
-Caption (small text below):
-地積更正の登記を申請できるのは表題部所有者または所有権の登記名義人に限られ、抵当権者は申請人になれない（不動産登記法38条）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請人は所有者のみ
 
---- CARD 2 ---
-Heading (bold):
-地積更正と合筆は、一つの申請書にまとめられる
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続人の一人だけで申請できる
+Illustration: An isometric family of three heir icons standing beside a
+land plot. One heir submits an application document alone with a
+checkmark; the other two heir icons stand nearby with a crossed-out
+consent-document icon labeled 承諾書不要.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾書は不要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+添付情報・手続のルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+地積更正と合筆は一括申請可
 Illustration: Two isometric land plots (甲土地・乙土地) merging into one
 with a single document icon labeled 一の申請情報, containing both a
 measuring-tape icon labeled 地積更正 and a merge-arrow icon labeled 合筆.
-Caption (small text below):
-地積更正の登記と合筆の登記は一の申請情報でまとめて申請できる（不動産登記規則35条7号）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一の申請情報で可
 
---- CARD 3 ---
-Heading (bold):
-筆界特定後の職権更正は、まず申請を促す。いきなり義務にはならない
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+職権更正は義務ではない
 Illustration: An isometric flow with three steps: (1) a result document
 icon labeled 筆界特定手続記録, (2) a registrar icon (登記官) with a speech
 bubble saying 申請してください pointed at a landowner icon, and (3) only
 if the owner does not respond, a dashed arrow to a stamp icon labeled
 職権更正（できる）.
-Caption (small text below):
-登記官はまず地積更正の申請を促し、申請がされないときに職権でできるのであって、いきなり職権で「しなければならない」わけではない
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+促すのが先
 
---- CARD 4 ---
-Heading (bold):
-面積が増える更正でも、所有権を証する情報は不要
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+面積増加でも所有権証明は不要
 Illustration: An isometric land plot with a dashed line showing the
 boundary expanding from before to after (面積が拡大), next to a document
 icon labeled 所有権証明情報 stamped with a large 不要 mark.
-Caption (small text below):
-地積更正はあくまで面積の訂正であり、増加部分について所有権を証する情報の提供は不要
-
---- CARD 5 ---
-Heading (bold):
-相続人の一人だけで、地積更正を申請できる
-Illustration: An isometric family of three heir icons standing beside a
-land plot. One heir submits an application document alone with a
-checkmark; the other two heir icons stand nearby with a crossed-out
-consent-document icon labeled 承諾書不要.
-Caption (small text below):
-共有者（相続人）の一人から保存行為として申請でき、他の相続人の承諾を証する情報は不要（民法252条ただし書）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所有権証明は不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-出典：令和2年度 土地家屋調査士試験 午後の部 第8問（不動産登記法38条ほか）
 
-特に誤りやすい漢字（号・地・権・登・記・所など）がカード文言に含まれています。これらの漢字は必ず日本語（常用漢字）の字体で描画し、簡体字（中国語の簡化字）にしないでください。
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 抵当権者は申請できない
+2. 相続人の一人だけで申請できる
+3. 地積更正と合筆は一括申請可
+4. 職権更正は義務ではない
+5. 面積増加でも所有権証明は不要
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】判決が出ても消えない？筆界特定の落とし穴〜申請情報・資料提出・取下げ・訴訟との関係〜
+## 【土地家屋調査士受験生向け】平成28年度 第18問〜判決が出ても、筆界特定は消えない〜
 
 **出題年度：平成28年度　午後の部　第18問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、ある土地の筆界について筆界特定登記官がいったん筆界を特定した後に、当事者が改めて筆界確定訴訟を提起して判決が確定したとします。この場合、判決と食い違う部分については筆界特定の効力が及ばなくなりますが、それ以外の部分まで含めて筆界特定がまるごと無効になるわけではありません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 対象土地の一を共通にする複数の申請は、一の申請情報でできる(不登規則208条) |
-| イ | 誤 | 関係土地の所有者が主張する線は任意的記載事項にとどまり、記載しなければならないわけではない(不登規則207条3項5号・6号) |
-| ウ | 誤 | 資料の書面提出は原本ではなく写し3部で足りる(不登規則220条1項) |
-| エ | 正 | 筆界特定の通知発送後は、申請の取下げができない(不登規則245条2項) |
-| オ | 誤 | 筆界確定訴訟の判決確定後も、筆界特定は判決と抵触する範囲でのみ効力を失う(不登法148条) |
+- **ア（正）**　対象土地の一を共通にする複数の申請は、一の申請情報でできる
+- **イ（誤）**　関係土地の所有者が主張する線は、申請情報の内容とすることまでは要求されない
+- **ウ（誤）**　資料の書面提出は原本ではなく写し3部で足りる
+- **エ（正）**　筆界特定の通知発送後は、申請の取下げができない
+- **オ（誤）**　筆界確定訴訟の判決確定後も、筆界特定は判決と抵触する範囲でのみ効力を失う
 
 筆界特定は「申請・資料提出の手続要件」と「訴訟との関係で効力がどこまで及ぶか」の2つの視点で整理しておくと、細部の知識も定着しやすくなります。
 
@@ -68,9 +66,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の内容と、法務省公式の正答PDF（ユーザー提供、平成28年度午後の部第18問＝2）を突き合わせて確認しました。
-- 各肢の条文根拠（不動産登記規則208条・220条、不動産登記法148条等）は、データベースのexplanationフィールドに基づくものです。
-- **最新法令チェック（2026-08-01実施）**：肢アの根拠条文について、当初の記事では「不動産登記法124条2項」としていましたが、データベース内に「不動産登記規則208条」とする記載もあり、両者が食い違っていました。Web検索で確認したところ、不動産登記規則208条（筆界特定申請情報の第6章にあり、一の申請情報による複数の申請を定める条文）が正しく、不動産登記法124条（筆界特定の事務の管轄を定める規定であり、申請情報の単位とは無関係）は誤りであることが分かったため、本文・まとめ表・インフォグラフィックプロンプトの引用を「不動産登記規則208条」に訂正しました。それ以外の肢（イ・ウ・エ・オ）の根拠条文については、2016年以降の改正は確認されていません。
-- **再確認・訂正（2026-08-12実施）**：リサーチエージェントによる独立調査で、3点の誤り・不備が見つかり修正しました。①アの本文に「対象土地の**一部**を共通にする」という誤記があり（問題文・まとめ表・インフォグラフィックは正しく「一」となっていた）、「一」（対象土地2筆のうち一方）に訂正しました。②イの解説が「関係土地の所有者が主張する線を申請情報の内容とする規定はありません」としていましたが、正確には不動産登記規則207条3項5号・6号にこれらの線を記載**できる**旨の任意的記載事項の規定があり、「規定がない」のではなく「義務ではない」が正確な整理です。訂正しました。③エの根拠条文（不動産登記規則245条2項・232条2項）が未記載だったため補いました。正誤判定（ア正・イ誤・ウ誤・エ正・オ誤）自体はいずれも変わりません。データベースのplusフィールドが挙げる「不登法127条」「不登法133条」（エの根拠として誤って引用されうる条文）はいずれも別内容(筆界調査委員の指定・申請の公告及び通知)で誤りであり、採用していません。
+- 各肢の条文根拠（不動産登記規則208条・220条、不動産登記法148条等）は、データベースのexplanationフィールドに基づくものです。この記事は当初「対象土地の一を共通にする複数の申請」の根拠を不動産登記法124条2項としていましたが、条文原文（`note-articles/laws/fudousan-touki-kisoku-2.md`）で確認したところ、正しい根拠は不動産登記規則208条（一の申請情報による複数の申請）であったため訂正しています。
+- **再確認・訂正（2026-08-12実施）**：リサーチエージェントによる独立調査で3点の誤り・不備が見つかり修正しました。①アの本文に「対象土地の一部を共通にする」という誤記があった（問題文・見出しは正しく「一」だった）ため、「一」（対象土地2筆のうち一方）に訂正。②イの解説が「関係土地の所有者が主張する線を申請情報の内容とする規定はありません」としていましたが、正確には不動産登記規則207条3項5号・6号にこれらの線を記載できる旨の任意的記載事項の規定があり、「規定がない」ではなく「義務ではない」が正確な整理のため訂正。③エの根拠条文（不動産登記規則245条2項・232条2項）が未記載だったため補いました。正誤判定（ア正・イ誤・ウ誤・エ正・オ誤）自体はいずれも変わりません。同内容の修正はブランチmain（コミット2363e76）にも別途適用済みです。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（筆界特定）と同一・類似の問題が再出題されていないかを確認しました。「筆界特定」はH29〜R07までほぼ毎年出題される頻出テーマですが、確認した範囲（H29年度第19問、H30年度第19問、R03年度第19問、R07年度第16問など）では、本問の5つの具体的論点（一の筆界特定申請情報でまとめられること、関係土地所有者の主張の記載義務、資料提出の原本要否、筆界特定通知発送後の取下げ制限、筆界確定訴訟の判決確定後の効力）と直接一致する出題は見つかりませんでした。なお、H29年度第19問オとR07年度第16問ウは、いずれも「筆界が特定されるまでの間の調書・資料の閲覧可否」という、本問とは別の論点で内容が重複しています（本問とは無関係）。全体として本問との明確な重複は見つかりませんでしたが、筆界特定は頻出分野のため、新しい年度の記事を作成する際は改めて確認することをおすすめします。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -87,13 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-筆界特定をめぐる5つの手続ルールを、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+筆界特定について「申請・資料提出の手続要件」と「取下げ・訴訟との関係で効力がどこまで及ぶか」という2つの軸に沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric boundary lines, magnifying glasses, courthouses, envelopes, document copies — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric boundary lines,
+magnifying glasses, courthouses, envelopes, document copies — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,9 +112,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 地・登・記 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -112,50 +121,79 @@ Title (large, bold, 2行):
 筆界特定は消えない
 
 Subtitle (smaller, centered, 1行):
-申請情報・資料提出・取下げ・訴訟との関係を整理(平成28年度 午後の部 第18問)
+平成28年度 午後の部 第18問－申請・資料提出の手続要件と訴訟との関係
 
-（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-土地が共通なら、まとめて1つの申請でできる
-Illustration: Three isometric land plots sharing one common overlapping plot(対象土地の一を共通にする), all covered together by a single 筆界特定申請情報 document icon.
-Caption (small text below):
-対象土地の一を共通にする複数の筆界特定の申請は、一の申請情報によって申請することができる(不動産登記規則208条)。
---- CARD 2 ---
-Heading (bold):
-相手の主張線まで、書く義務はない
-Illustration: An isometric applicant figure writing their own claimed boundary line(申請人の主張線)on the application form, with a neighboring landowner's separately claimed line shown apart with a crossed-out 記載義務 stamp.
-Caption (small text below):
-関係土地の所有者が主張する線は任意的記載事項であり、申請情報に記載する義務はない(不動産登記規則207条3項5号・6号)。
---- CARD 3 ---
-Heading (bold):
-資料は原本じゃなく、写し3部でいい
-Illustration: An isometric original document(原本)crossed out with a prohibition mark, replaced by three identical copy icons(写し×3)being submitted to a 筆界特定登記官 figure.
-Caption (small text below):
-資料を書面で提出するときは、写しを3部提出すれば足り、原本の提出は不要(不動産登記規則220条1項)。
---- CARD 4 ---
-Heading (bold):
-通知が届いたら、もう取り下げられない
-Illustration: An isometric 筆界特定の通知 envelope being delivered into an applicant figure's hands, with a glowing 取下げ不可 lock icon appearing immediately afterward.
-Caption (small text below):
-筆界特定登記官が申請人に筆界特定の通知を発送した後は、申請の取下げはできない(不動産登記規則245条2項)。
---- CARD 5 ---
-Heading (bold):
-判決が出ても、全部が消えるわけじゃない
-Illustration: An isometric 筆界特定 result document with a court judgment(筆界確定訴訟の判決)icon overlapping only a small portion of it, while the rest of the document remains intact and glowing as still valid.
-Caption (small text below):
-筆界確定訴訟の判決が確定しても、筆界特定は判決と抵触する範囲でのみ効力を失う(不動産登記法148条)。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請・資料提出の手続要件
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+土地が共通なら一の申請でよい
+Illustration: Three isometric land plots sharing one common overlapping
+plot(対象土地の一を共通にする), all covered together by a single
+筆界特定申請情報 document icon with a checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+まとめて1申請
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相手の主張線まで書く義務はない
+Illustration: An isometric applicant figure writing their own claimed
+boundary line(申請人の主張線)on the application form, with a neighboring
+landowner's separately claimed line shown apart and a red cross mark
+over a "記載義務" label beside it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+記載義務なし
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+資料は原本でなく写し3部でよい
+Illustration: An isometric original document(原本)crossed out with a
+prohibition mark, replaced by three identical copy icons(写し×3)being
+submitted to a 筆界特定登記官 figure.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+写し3部で足りる
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+取下げ・訴訟との関係
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+通知発送後は取下げ不可
+Illustration: An isometric 筆界特定の通知 envelope being delivered into
+an applicant figure's hands, with a glowing 取下げ不可 lock icon
+appearing immediately afterward.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+取下げ不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+判決が出ても全部は消えない
+Illustration: An isometric 筆界特定 result document with a court
+judgment(筆界確定訴訟の判決)icon overlapping only a small portion of it,
+while the rest of the document remains intact and glowing as still
+valid.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+抵触部分のみ失効
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第18問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

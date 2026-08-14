@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】令和2年度 第16問・2つの建物が1つになる「合体による登記等」〜抵当権・持分・所有権登記・賃借権〜
+## 【土地家屋調査士受験生向け】令和2年度 第16問〜合体後の所有権の登記は「職権」でされるんです〜
 
 **出題年度：令和2年度　午後の部　第16問**
 
@@ -26,37 +26,35 @@
 
 ### イ：全員が書面申請で印鑑証明書を出せば、申請情報が持分割合の証明を兼ねる
 
-合体前の各建物の所有者全員について、合体後の建物の持分割合を定める必要がある場合、その所有者全員が書面申請の方法で申請し、申請情報とあわせて印鑑に関する証明書を提供したときは、その申請情報をもって持分割合を証する情報を兼ねることができます（平5.7.30民三5320号）。本肢は正しい記述です。
+合体前の各建物の所有者全員について、合体後の建物の持分割合を定める必要がある場合、その所有者全員が書面申請の方法で申請し、申請情報とあわせて印鑑に関する証明書を提供したときは、その申請情報をもって持分割合を証する情報を兼ねることができます（先例による）。本肢は正しい記述です。
 
 **たとえば**、複数の所有者が合体後の建物の持分を「Ａ3分の2、Ｂ3分の1」と決めるとき、全員が実印を押して印鑑証明書を添えて申請すれば、その申請書自体が持分割合の合意を証明する書面を兼ねるので、別に持分割合の証明書を作る必要はありません。
 
 ### ウ：合体後の所有権の登記は「職権」でされるので、申請するわけではない
 
-いずれも所有権の登記がある2個の建物が合体した場合、申請人が申請しなければならないのは、合体後の建物についての表題登記と、合体前の各建物の表題部の登記の抹消です。合体後の建物についての所有権の登記は、これらの登記をするときに登記官が職権でします（不動産登記法49条2項）。したがって、申請人が「合体後の建物についての所有権の登記を申請しなければならない」わけではありません。本肢は誤りです。
+いずれも所有権の登記がある2個の建物が合体した場合、申請人が申請しなければならないのは、合体後の建物についての表題登記と、合体前の各建物の表題部の登記の抹消です（不動産登記法49条1項）。この場合（同項各号のうち五号の場合）は、表題登記がない建物が含まれる二号・四号・六号の場合と異なり所有権の登記を併せて申請すべき対象者が定められていないため、合体後の建物についての所有権の登記は、登記官が表題登記をする際に職権で登記記録の甲区に記録します（不動産登記規則120条1項・2項）。したがって、申請人が「合体後の建物についての所有権の登記を申請しなければならない」わけではありません。本肢は誤りです。
 
 **たとえば**、どちらも所有権の登記がある2つの建物を合体したとき、所有者が申請するのは表題登記と古い建物の表題部の抹消までで、合体後の建物の所有権の登記は登記官が職権でしてくれます。所有者が改めて所有権の登記を申請する必要はありません。
 
 ### エ：賃借権は建物の持分の上に登記できないので、合体後に存続させられない
 
-合体前の各建物に存する所有権は、付合の際の各建物の価格の割合に応じて合体後の建物の持分の上に存続し、先取特権・質権・抵当権などの担保権も合体後の建物の持分の上に移記されて存続します。しかし、これらの存続は「持分の上に登記できる権利」に限られます。賃借権は建物の持分の上に登記することができない権利なので、同一の賃借権が合体前の各建物にあっても、合体によって合体後の建物に存続させることはできません（平5.7.30民三5320号）。したがって「賃借権の表示を申請情報の内容としなければならない」とする本肢は誤りです。
+合体前の各建物に存する所有権は、付合の際の各建物の価格の割合に応じて合体後の建物の持分の上に存続し、先取特権・質権・抵当権などの担保権も合体後の建物の持分の上に移記されて存続します。しかし、これらの存続は「持分の上に登記できる権利」に限られます。賃借権は建物の持分の上に登記することができない権利なので、同一の賃借権が合体前の各建物にあっても、合体によって合体後の建物に存続させることはできません（先例による）。したがって「賃借権の表示を申請情報の内容としなければならない」とする本肢は誤りです。
 
 **たとえば**、合体前の2つの建物に同じ内容の賃借権が登記されていても、賃借権は「建物の一部の持分」の上には登記できないため、合体後の建物にその賃借権をそのまま引き継いで登記することはできません。
 
 ### オ：登記名義人が同一なら、いずれか1個の建物の登記識別情報で足りる
 
-所有権の登記がある建物の合体による登記等を申請する場合、登記名義人が同一であるときは、合体に係る建物のうちいずれか1個の建物の所有権の登記名義人の登記識別情報を提供すれば足ります（不動産登記令8条2項1号）。本肢は正しい記述です。
+所有権の登記がある建物の合体による登記等を申請する場合、登記名義人が同一であるときは、合体に係る建物のうちいずれか1個の建物の所有権の登記名義人の登記識別情報を提供すれば足ります（不動産登記令8条2項2号）。本肢は正しい記述です。
 
 **たとえば**、同じ人が所有する2つの建物を合体するとき、両方の建物の登記識別情報をそろえる必要はなく、どちらか1つの建物の登記識別情報を出せば足ります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 合体後も存続する抵当権があるときは抵当権者の承諾情報等が必要（令別表13項添付情報ト） |
-| イ | 正 | 全員が書面申請で印鑑証明書を出せば申請情報が持分割合証明を兼ねる（平5.7.30民三5320号） |
-| ウ | 誤 | 合体後の所有権の登記は登記官の職権。申請するのは表題登記と抹消（不動産登記法49条2項） |
-| エ | 誤 | 賃借権は持分の上に登記できず、合体後に存続させられない（平5.7.30民三5320号） |
-| オ | 正 | 登記名義人が同一なら1個の建物の登記識別情報で足りる（不動産登記令8条2項1号） |
+- **ア（正）**　合体後も存続する抵当権があるときは抵当権者の承諾情報等が必要
+- **イ（正）**　全員が書面申請で印鑑証明書を出せば申請情報が持分割合証明を兼ねる
+- **ウ（誤）**　合体後の所有権の登記は登記官の職権。申請するのは表題登記と抹消
+- **エ（誤）**　賃借権は持分の上に登記できず、合体後に存続させられない
+- **オ（正）**　登記名義人が同一なら1個の建物の登記識別情報で足りる
 
 「合体後の所有権の登記は職権」「持分の上に登記できない権利（賃借権）は引き継げない」という2点が、本問を分ける重要ポイントです。
 
@@ -68,8 +66,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典（令和2年度午後の部 第16問）・正解番号（ウエ＝4番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
-- 各肢の根拠のうち、ア（不動産登記令別表13項添付情報ト）・イ／エ（平5.7.30民三5320号）・ウ（不動産登記法49条：合体後の所有権の登記は職権）・オ（不動産登記令8条2項1号）は、データベースのexplanationフィールドに条文番号・先例番号まで明記されています。ウの「申請でなく職権」という点は、不動産登記法49条2項（登記官が職権で合体後の建物について所有権の登記をする旨）に基づいて整理しています。
+- 各肢の根拠のうち、ア（不動産登記令別表13項添付情報ト）・イ／エ（平5.7.30民三5320号）・ウ（合体後の所有権の登記は職権）・オ（登記識別情報の提供数）は、データベースのexplanationフィールドに根拠が明記されていましたが、ウ・オの条文番号は下記の法令再検証で訂正しています。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回は参照できませんでした。
+- **法令条文の再検証（2026-08-04実施）**：ローカル法令データベース（laws/fudousan-touki-hou.md、laws/fudousan-touki-rei.md、laws/fudousan-touki-kisoku-1.md）と照合したところ、2点の引用条文の誤りを発見し修正しました。①オ肢：登記識別情報の提供数について「不動産登記令8条2項1号」としていましたが、同条2項は各号列挙形式で、「登記名義人が同一である所有権の登記がある建物の合体による登記等」はその**二号**（1号は所有権の登記がある土地の合筆の登記）にあたるため、「不動産登記令8条2項2号」に訂正しました。②ウ肢：合体後の所有権の登記が職権でされる根拠として「不動産登記法49条2項」としていましたが、同項は「合体前の建物がいずれも表題登記がない場合」に47条・48条を準用する規定であり、職権登記そのものの根拠条文ではありません。職権で甲区に記録する旨を定めているのは**不動産登記規則120条1項・2項**（登記官が表題登記をする際に所有権の登記事項を記録する旨）であり、また申請義務の根拠は49条1項（五号の場合は所有権の登記の併合申請義務が課されていない）であるため、これらに訂正しました。いずれも令和2年出題当時から現在まで条文自体に変更はなく、記事執筆時の引用条文番号の誤りです（Case A：制度自体の正誤の変更はなし）。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。令和4年度第15問・令和5年度第16問も「合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（合体による登記等）」という同じ書き出しの事例問題ですが、各肢の具体的な出題内容（本問は抵当権者の承諾情報・持分割合証明の兼用・所有権登記の申請要否・賃借権の存続・登記識別情報の提供数／令和4年度は表題部所有者の更正後の申請期限・共有者の一人による単独申請・区分建物の隔壁除去・所有権登記の併合要否・登記原因の記載／令和5年度は表題登記の申請要否・附属建物との合体・相続人の一人による単独申請・区分所有の意思表示・住所変更登記の要否）は異なっており、**内容として完全に重複する出題は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -84,7 +83,9 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+合体による登記等について、「申請時にどんな添付情報が必要か」（ア・イ・オ＝列A・緑）と、「合体後の登記がどう扱われるか」（ウ・エ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -95,104 +96,121 @@ together, mortgage tags, hanko seals, registration-identifier tokens,
 torn paper labels — adapt icon set to the topic of two buildings becoming
 one).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Special caution: this topic repeatedly uses the kanji 登・記・権・建・物・
-号・地 (as in 登記, 建物, 抵当権, 所有権, 賃借権, 5320号, 持分). Render each
-of these in standard Japanese Jōyō form, never in Simplified Chinese form
-(号 must not become its simplified variant; 権 must not become 权; 建 must
-not become a simplified variant; 記 must not become 记 — always use 記).
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・記・権・建・物・職 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants (権 must not become
+权; 記 must not become 记).
 
 --- HEADER ---
 Title (large, bold, 1行):
-合体による登記等の5つのポイント
+合体による登記等、5つのポイント
 
 Subtitle (smaller, centered, 1行):
-令和2年度 土地家屋調査士試験 午後の部 第16問
+令和2年度 午後の部 第16問－添付情報と権利の扱われ方
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Two separate isometric buildings physically joining together
-into one merged building, connecting seams glowing softly, small
-construction/extension icons (scaffolding, arrows) indicating the two
-buildings becoming one.
-「合体による登記等」とは、2つ以上の別々の建物が、増築などで物理的に1つの建物になった（合体した）ときにする登記のことです。合体後の建物の表題登記と、合体前の各建物の表題部の登記の抹消をまとめてする点が特徴で、権利関係の引継ぎがどう処理されるかが問われます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- ENUMERATION NOTICE ---
-以下は本問のア〜オ、合計5個の論点カードである。番号・文言は下記のとおり一字一句そのまま使用し、重複禁止・欠落禁止・言い換え禁止とする。
-1. ア：合体後も残る抵当権、抵当権者の承諾がいるんです
-2. イ：全員が実印＋印鑑証明なら、申請書が持分の証明を兼ねるんです
-3. ウ：合体後の所有権の登記は「職権」。申請しなくていいんです
-4. エ：賃借権は持分に登記できないから、合体で引き継げないって知ってた？
-5. オ：名義が同じなら、登記識別情報は1個でいいんです
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+添付情報として何が必要か
 
---- CARD 1（ア） ---
-Heading (bold):
-合体後も残る抵当権、抵当権者の承諾がいるんです
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+存続する抵当権は承諾情報が必要
 Illustration: Two isometric buildings (A and B) merging into one; building
 A has a red tag icon labeled 抵当権, an arrow shows the tag moving onto a
 highlighted 持分 section of the merged building; a document icon with a
 hanko stamp labeled 承諾書 is being handed from a person icon (labeled
 抵当権者) toward the merged building.
-Caption (small text below):
-合体後も存続する抵当権があるときは抵当権者の承諾情報等が必要（令別表13項添付情報ト）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+承諾情報等が必要
 
---- CARD 2（イ） ---
-Heading (bold):
-全員が実印＋印鑑証明なら、申請書が持分の証明を兼ねるんです
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+印鑑証明書が持分割合の証明を兼ねる
 Illustration: Several person icons (owners) each stamping a hanko seal
 onto one shared document icon labeled 申請情報; the document icon has a
 second overlapping ghost label 持分割合を証する情報 appearing behind it to
 show it serves double duty; a small 印鑑証明書 icon sits next to each
 person.
-Caption (small text below):
-全員が書面申請で印鑑証明書を出せば申請情報が持分割合証明を兼ねる（平5.7.30民三5320号）
+Conclusion tag (green banner below the illustration, 5-15 characters):
+印鑑証明で証明を兼ねる
 
---- CARD 3（ウ） ---
-Heading (bold):
-合体後の所有権の登記は「職権」。申請しなくていいんです
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記識別情報は1個で足りる
+Illustration: Two buildings owned by the same person icon (identical
+face/color on both) merging into one; only a single token/card icon
+labeled 登記識別情報 is needed and shown with a green checkmark, while a
+second duplicate token icon nearby is crossed out with an "×".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1個で足りる
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+合体でどう登記されるか
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有権登記は登記官の職権
 Illustration: A person icon submitting two document icons labeled 表題登記
 and 表題部の登記の抹消 into a registry-office window icon; separately, a
 gear/stamp icon labeled 登記官の職権 automatically produces a third
 document icon labeled 所有権の登記 with no person's hand touching it,
 showing it happens automatically rather than by application.
-Caption (small text below):
-合体後の所有権の登記は登記官の職権。申請するのは表題登記と抹消（不動産登記法49条2項）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+申請不要・職権
 
---- CARD 4（エ） ---
-Heading (bold):
-賃借権は持分に登記できないから、合体で引き継げないって知ってた？
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+賃借権は持分に登記できず不存続
 Illustration: Two buildings each with a tag icon labeled 賃借権 before
 merging; after merging, the 賃借権 tag has a red "×" mark over it on the
 merged building's 持分 section, while nearby tags labeled 抵当権 and
 所有権 show green checkmarks and carry over successfully onto the merged
 building.
-Caption (small text below):
-賃借権は持分の上に登記できず、合体後に存続させられない（平5.7.30民三5320号）
-
---- CARD 5（オ） ---
-Heading (bold):
-名義が同じなら、登記識別情報は1個でいいんです
-Illustration: Two buildings owned by the same person icon (identical
-face/color on both) merging into one; only a single token/card icon
-labeled 登記識別情報 is needed and shown with a green checkmark, while a
-second duplicate token icon nearby is crossed out with an "×".
-Caption (small text below):
-登記名義人が同一なら1個の建物の登記識別情報で足りる（不動産登記令8条2項1号）
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+賃借権は引き継げない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 存続する抵当権は承諾情報が必要
+2. 印鑑証明書が持分割合の証明を兼ねる
+3. 登記識別情報は1個で足りる
+4. 所有権登記は登記官の職権
+5. 賃借権は持分に登記できず不存続
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Pay special attention to 登・記・権・建・物・号・地
-as noted above. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, and that they correspond exactly to ア・イ・
-ウ・エ・オ in that order.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

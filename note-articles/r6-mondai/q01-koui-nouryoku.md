@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】「取り消せる」のは誰？行為能力の落とし穴〜未成年者・成年被後見人・被保佐人の取消しルール〜
+## 【土地家屋調査士受験生向け】令和6年度 第1問〜日用品の買い物は悪意でも取消し不可〜
 
 **出題年度：令和6年度　午後の部　第1問**
 
@@ -48,13 +48,13 @@
 
 **たとえば**、被保佐人であるAさんが保佐人の同意なしに高額な売買契約を結んでしまった場合、契約の相手方は「この契約を追認するのかしないのか、はっきりしてください」と保佐人に催告することができ、保佐人が期間内に返事をしなければ、その契約は追認されたものとして扱われます。
 
-### まとめ
+### まとめ表
 
-- **ア（誤）**　後見開始の審判の効力は遡及しないため、審判前の契約は取り消せない
-- **イ（正）**　未成年者の取消権行使は、法定代理人の同意なく単独でできる
-- **ウ（誤）**　取り消せることを知って契約しても、取消しは可能（5条2項、120条1項）
-- **エ（誤）**　日用品の購入は相手方の善意・悪意を問わず取り消せない（9条ただし書）
-- **オ（正）**　相手方は保佐人に催告でき、無返答なら追認が擬制される（20条2項）
+- **ア（誤）** 後見開始の審判の効力は遡及しないため、審判前の契約は取り消せない
+- **イ（正）** 未成年者の取消権行使は、法定代理人の同意なく単独でできる
+- **ウ（誤）** 取り消せることを知って契約しても、取消しは可能
+- **エ（誤）** 日用品の購入は相手方の善意・悪意を問わず取り消せない
+- **オ（正）** 相手方は保佐人に催告でき、無返答なら追認が擬制される
 
 行為能力の制限と、その例外・救済手段（催告権）の組み合わせを丁寧に押さえておくことが、この分野を得点源にするコツです。
 
@@ -82,13 +82,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+「取消しができる／できないの境界」と「取消しの行使と相手方の対応」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric people, contracts,
+stamps, clocks, speech bubbles, court/estate icons, torn paper labels,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -96,63 +111,101 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Note on kanji accuracy: the character 権 (as in 取消権・相続) appears in
-this infographic. Do not render it as the Simplified Chinese variant (权) —
-use the standard Japanese form 権 exactly.
+summarize, or substitute any characters. Pay special attention to the
+kanji 悪・単・独・認 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 1行):
-行為能力の落とし穴 — 取消しは誰のもの？
+Title (large, bold, 2行):
+制限行為能力者の取消しルール
+「誰が」「いつ」「どこまで」
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第1問／行為能力
+令和6年度 午後の部 第1問－行為能力の取消しルールを整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 未成年者・成年被後見人・被保佐人という3種類の制限行為能力者を表すisometricな人物アイコンが横一列に並び、それぞれの頭上に「？」と「取消し」の吹き出しアイコンが浮かぶイラスト。中央に虫眼鏡のアイコンを配置する。
-行為能力の分野は、制限行為能力者ごとに「誰が」「いつ」取り消せるのかを正確に整理できているかが問われます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-審判前の契約は、後から取り消せない
-Illustration: 高齢の男性キャラクターのイラスト。左側に「後見開始の審判」前の時期(グレーの背景、契約書のアイコン)、右側に審判の日を示すisometricな裁判所の印章アイコンと縦の区切り線。区切り線の左側の契約書には赤い×マークをつけ、「遡って取り消せない」というラベルを添える。
-Caption (small text below):
-後見開始の審判の効力は遡及しないため、審判前の契約は取り消せない
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+取消しができる／できないの境界
 
---- CARD 2 ---
-Heading (bold):
-未成年者は、自分ひとりで契約を取り消せる
-Illustration: 学生服姿の未成年者キャラクターが一人で書類にサインしているイラスト。書類には「取消し」のラベル。背景に法定代理人(親)のアイコンを薄いグレーで描き、「同意不要」という吹き出しラベルを添える。
-Caption (small text below):
-未成年者の取消権行使は、法定代理人の同意なく単独でできる
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+審判前の契約は遡及しない
+Illustration: An isometric scene split into two time panels connected by
+a timeline arrow. Left panel: an elderly man signs a futon sales contract
+with a salesperson, labeled「後見開始の審判前」. Right panel: the same
+elderly man now sits with an official document stamped「後見開始の審判」、
+labeled「審判後」. A large red「×」icon overlays a dashed arrow pointing
+backward from the right panel to the left panel, showing that the effect
+cannot reach back into the past.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+遡及しない
 
---- CARD 3 ---
-Heading (bold):
-「知ってて契約」でも、取消しはできる
-Illustration: 未成年者キャラクターが「これは後で取り消せる契約だ」と気づきながら契約書にサインしている吹き出しアイコン。契約書の横に丸(○)のアイコンと「取消し可能」というラベルを添える。
-Caption (small text below):
-取り消せることを知って契約しても、取消しは可能（5条2項、120条1項）
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+知って契約しても取消し可
+Illustration: An isometric illustration of a young person (未成年者) with
+a speech bubble containing a small document icon and a checkmark,
+representing「この契約は後で取り消せると知っていた」. Next to them, a
+green circle icon labeled「取消し可能」with a checkmark, showing that
+knowing about the possibility of cancellation does not block the right
+to cancel.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+知っても取消し可
 
---- CARD 4 ---
-Heading (bold):
-日用品の買い物は、相手の善意・悪意を問わず取り消せない
-Illustration: スーパーのレジ前のイラスト。成年被後見人キャラクターが食料品の買い物袋を持ち、店員キャラクターの頭上に「知っていた」「知らなかった」の2つの吹き出しを並べて描く。中央に大きな×マークと「取消し不可」のラベルを重ねる。
-Caption (small text below):
-日用品の購入は相手方の善意・悪意を問わず取り消せない（9条ただし書）
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+日用品購入は取消し不可
+Illustration: An isometric scene of a 成年被後見人 figure buying groceries
+at a small shop counter from a shopkeeper. Two small thought bubbles above
+the shopkeeper show both a checkmark and a question mark (representing
+「知っていた」and「知らなかった」)、both crossed out by a single red「×」
+over a「取消し」icon, indicating the outcome is the same regardless of the
+shopkeeper's knowledge.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+善意悪意問わず不可
 
---- CARD 5 ---
-Heading (bold):
-返事がなければ、追認したとみなされる
-Illustration: 契約の相手方キャラクターが保佐人キャラクターへ手紙(催告書)を送るイラスト。時計のアイコンで期間の経過を示し、返信のない郵便受けのアイコンの先に「追認」のスタンプが押される様子を描く。
-Caption (small text below):
-相手方は保佐人に催告でき、無返答なら追認が擬制される（20条2項）
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+取消しの行使と相手方の対応
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+未成年者は単独で取消し可
+Illustration: An isometric illustration of a teenage student character
+alone, raising one hand with a document stamped「取消し」、with a small
+crossed-out icon of two overlapping figures placed beside them,
+representing「法定代理人の同意は不要」.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+同意は不要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+相手方は保佐人に催告できる
+Illustration: An isometric scene of a businessperson (契約の相手方)
+sending a letter icon labeled「催告書」toward a supporter figure (保佐人)
+standing next to a 被保佐人. A clock icon counts down next to the 保佐人、
+and an arrow points to a stamped document labeled「追認」appearing
+automatically when the clock reaches zero, representing the deemed
+ratification after no response.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+無返答は追認
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

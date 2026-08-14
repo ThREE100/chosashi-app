@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】それ、建物として登記できる？〜アーケード・山門・膜構造・展望台・立体駐車場で学ぶ建物認定〜
+## 【土地家屋調査士受験生向け】令和5年度 第11問〜膜構造のテントも建物として登記できる〜
 
 **出題年度：令和5年度　午後の部　第11問**
 
@@ -16,7 +16,7 @@
 >
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-建物として登記できるかどうかは、（1）外気分断性（屋根と周壁またはこれに類するものがあるか）、（2）定着性（土地に定着しているか）、（3）用途性（目的とする用途に使える状態か）という3要件で判断します（昭24.2.22民事甲240号）。この問題は、この3要件を微妙なケースに当てはめられるかを試しています。〔図1〕〔図2〕はいずれも省略しますが、要点は本文で言葉にして補います。
+建物として登記できるかどうかは、（1）外気分断性（屋根と周壁またはこれに類するものがあるか）、（2）定着性（土地に定着しているか）、（3）用途性（目的とする用途に使える状態か）という3要件で判断します。この問題は、この3要件を微妙なケースに当てはめられるかを試しています。〔図1〕〔図2〕はいずれも省略しますが、要点は本文で言葉にして補います。
 
 ### ア：屋根覆いを施しただけのアーケードは、建物として登記できない
 
@@ -26,37 +26,35 @@
 
 ### イ：倉庫として使われる山門は、建物として登記できる
 
-外気分断性のある部分が独立した用途に使われていれば、単なる門ではなく建物として扱われます。本肢の山門は、上部が倉庫（宝物庫）として利用され、その部分が周壁を有して外気と分断されているため、用途性が認められます（建物認定113頁）。したがって「建物として登記することはできない」とする本肢は誤りです。
+外気分断性のある部分が独立した用途に使われていれば、単なる門ではなく建物として扱われます。本肢の山門は、上部が倉庫（宝物庫）として利用され、その部分が周壁を有して外気と分断されているため、用途性が認められます。したがって「建物として登記することはできない」とする本肢は誤りです。
 
 **たとえば**、お寺の立派な山門の2階部分が、貴重な仏具や宝物をしまう倉庫として壁で囲まれて使われているとします。これは「くぐるだけの門」ではなく、収納という用途を持った空間なので、建物として登記することができます。
 
 ### ウ：膜構造の特殊シートで覆われた建造物も、建物として登記できる
 
-主たる部分が鉄骨で組まれ、屋根および周壁が永続性のある膜構造の塩化ビニールの特殊シートで覆われている建造物は、長期の使用に耐えられるため、建物として取り扱われます（建物認定74頁）。素材が一般的なコンクリートや木材でなくても、永続性があって外気を分断できていれば要件を満たすということです。したがって本肢は正しい記述です。
+主たる部分が鉄骨で組まれ、屋根および周壁が永続性のある膜構造の塩化ビニールの特殊シートで覆われている建造物は、長期の使用に耐えられるため、建物として取り扱われます。素材が一般的なコンクリートや木材でなくても、永続性があって外気を分断できていれば要件を満たすということです。したがって本肢は正しい記述です。
 
 **たとえば**、鉄骨の骨組みに丈夫な膜（テント状の特殊シート）を張った屋内プール施設をイメージしてください。ふつうの壁ではありませんが、しっかり外気を遮り長く使える造りなので、建物として登記することができます。
 
 ### エ：下部が階段室、最上部が展望台なら、その展望台を建物として登記できる
 
-最上部に1層の展望台が設けられ、その下部が階段室のみとなっている場合には、当該展望台を「高床式平家建」の建物として登記することができます（建物認定304頁）。展望台部分が屋根と周壁を有して用途に供され、鉄筋コンクリート造の階段室で土地に定着しているため、3要件を満たすからです。したがって本肢は正しい記述です。
+最上部に1層の展望台が設けられ、その下部が階段室のみとなっている場合には、当該展望台を「高床式平家建」の建物として登記することができます。展望台部分が屋根と周壁を有して用途に供され、鉄筋コンクリート造の階段室で土地に定着しているため、3要件を満たすからです。したがって本肢は正しい記述です。
 
 **たとえば**、細い塔の上にぽつんと屋根と壁のある展望室が乗っていて、そこまで鉄筋コンクリートの階段で上がっていく構造を思い浮かべてください。足元が階段だけでも、頂上の展望室は独立した用途を持つ空間なので、その展望台を高床式の平家建て建物として登記できます。
 
 ### オ：回転式パーキングのタワー型立体駐車場も、建物として登記できる
 
-屋根および外壁があり、内部に車を格納する回転式のパーキング機械が設置されたタワー状の立体駐車場は、外気分断性・定着性・用途性の3要件を満たすため、建物として取り扱われます（昭24.2.22民事甲240号）。したがって「建物として登記することはできない」とする本肢は誤りです。
+屋根および外壁があり、内部に車を格納する回転式のパーキング機械が設置されたタワー状の立体駐車場は、外気分断性・定着性・用途性の3要件を満たすため、建物として取り扱われます。したがって「建物として登記することはできない」とする本肢は誤りです。
 
 **たとえば**、駅前でよく見かける、ボタンを押すと車がぐるっと回って出てくるタワー型の立体駐車場を思い浮かべてください。屋根と外壁で囲まれ、車を保管するという用途にきちんと使えるので、これは建物として登記することができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 道路上に屋根覆いを施しただけのアーケードは建物にならない（準則77条2号エ） |
-| イ | 誤 | 倉庫として周壁で囲まれた山門は用途性があり、建物として登記できる（建物認定113頁） |
-| ウ | 正 | 鉄骨＋永続性ある膜構造シートの建造物も、建物として登記できる（建物認定74頁） |
-| エ | 正 | 下部が階段室、最上部が展望台なら、高床式平家建の建物として登記できる（建物認定304頁） |
-| オ | 誤 | 屋根・外壁があり車を格納する立体駐車場は、3要件を満たし建物になる（昭24.2.22民事甲240号） |
+- **ア（誤）**　道路上に屋根覆いを施しただけのアーケードは建物にならない
+- **イ（誤）**　倉庫として周壁で囲まれた山門は用途性があり、建物として登記できる
+- **ウ（正）**　鉄骨＋永続性ある膜構造シートの建造物も、建物として登記できる
+- **エ（正）**　下部が階段室、最上部が展望台なら、高床式平家建の建物として登記できる
+- **オ（誤）**　屋根・外壁があり車を格納する立体駐車場は、3要件を満たし建物になる
 
 建物認定は「屋根・周壁があるか」「土地に定着しているか」「用途に使えるか」の3点セットに立ち返れば、見慣れない構造物でも判断できます。素材や形の珍しさに惑わされないことが大切です。
 
@@ -71,8 +69,8 @@
 - 各肢の根拠のうち、ア（準則77条2号エ）、オ（昭24.2.22民事甲240号）は条文・先例レベルで確認できたものです。イ（建物認定113頁）、ウ（建物認定74頁）、エ（建物認定304頁）は、実務書『建物認定』の該当頁を典拠とする取扱いで、条文そのものではなく先例・実務の集積からの認定にとどまります。3要件（外気分断性・定着性・用途性）への当てはめ部分は、これらの趣旨からの敷衍を含みます。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和5年度より後に実施された試験（2026年7月時点では令和6年度・令和7年度がデータベースに存在）で、本問（建物の認定）と同一・類似の問題が再出題されていないかを確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-
----
+- **最新法令への準拠チェック（2026-08-03実施）**：不動産登記事務取扱準則77条2号ほか、引用した各条文・先例は令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行のままであることを確認しました。
+- **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の条文原文と照合しました。ア（準則77条2号エ「アーケード付街路（公衆用道路上に屋根覆いを施した部分）」）は原文と完全に一致することを確認しました。イ・ウ・エ・オの根拠（実務書『建物認定』該当頁、先例）はローカル法令データベースの収録対象外（判例・実務書）のため、条文としての再照合はできませんでしたが、記載内容と矛盾する条文は見当たりませんでした。正解（選択肢4番＝ウエ）はQ11=④の公式正解と一致しており、相違ありません。
 
 ## 見出し画像用フレーズ
 
@@ -86,15 +84,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物として登記できるかどうかを分ける外気分断性・定着性・用途性の3要件を導入部で示したうえで、「建物として登記できないもの」1枚(アーケード)と「建物として登記できるもの」4枚(山門・膜構造・展望台・立体駐車場)の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。〔図1〕〔図2〕が省略されている分、各カードの図解は元記事の文章表現をもとに構図として書き起こした。
+建物として登記できるかどうかを分ける「外気分断性・定着性・用途性」の3要件を、「建物として登記できないもの」1枚(ア)と「建物として登記できるもの」4枚(イ・ウ・エ・オ)の計5枚のポスター型カードで俯瞰する構成。通し番号バッジ・短い見出し・図解・短い結論タグだけで構成し、導入イラスト・導入文のブロックは置かない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric shopping arcades,
 temple gates, tent-membrane structures, observation towers, tower-shaped
 car parks, checkmarks, prohibition marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,9 +112,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 建・物・登・記 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -113,95 +121,81 @@ Title (large, bold, 2行):
 屋根と壁だけでは決まらない
 
 Subtitle (smaller, centered, 1行):
-外気分断性・定着性・用途性の3要件で判断する(令和5年度 午後の部 第11問)
+令和5年度 午後の部 第11問－外気分断性・定着性・用途性の3要件で判断する
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon showing three small badge
-icons side by side — a roof-and-walls icon labeled "外気分断性", a
-building anchored into the ground with foundation lines labeled
-"定着性", and a person using a desk inside a structure labeled
-"用途性" — arranged above a question-mark-shaped generic structure to
-show these three requirements are applied to judge unusual structures.
-建物として登記できるかどうかは、(1)外気分断性(屋根と周壁またはこれに
-類するものがあるか)、(2)定着性(土地に定着しているか)、(3)用途性(目的
-とする用途に使える状態か)という3要件で判断します(昭24.2.22民事甲240
-号)。この3要件を、アーケード・山門・膜構造・展望台・立体駐車場という
-5つの構造物に当てはめます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 建物として登記できないもの
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-屋根覆いを施しただけの道路上アーケードは、建物として登記できない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+道路のアーケードは建物にならない
 Illustration: An isometric shopping street covered by an overhead arcade
-roof (アーケード), flanked by rows of small shop icons on both sides,
-with a prohibition (no-entry) mark over the arcade roof section.
-Caption (small text below):
-公衆用道路の上に屋根や覆いを施しただけでは、周辺が店舗に囲まれていても、
-独立して用途に供される建物とはいえない(準則77条2号エ)。
+roof, flanked by rows of small shop icons on both sides. A red X mark
+sits over the arcade roof section, and a small torn-paper label reads
+"通行のための空間" beneath it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+建物には当たらない
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 建物として登記できるもの
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-倉庫として使われる山門(周壁で外気と分断)は、建物として登記できる
-Illustration: An isometric traditional temple gate (山門) with an
-enclosed upper room surrounded by solid walls, storage boxes visible
-inside the upper room through a small window, a checkmark badge above
-the gate.
-Caption (small text below):
-上部が倉庫として利用され、その部分が周壁を有して外気と分断されている
-ときは、用途性が認められ、建物として登記することができる(建物認定
-113頁)。
-
 --- COLUMN B, CARD 2 ---
-Heading (bold):
-鉄骨造+永続性のある膜構造シートで覆われた建造物も、建物として登記できる
-Illustration: An isometric structure with an exposed steel-frame
-skeleton (鉄骨) covered by a taut tent-like PVC membrane roof and walls
-(膜構造の特殊シート), a checkmark badge above it.
-Caption (small text below):
-主たる部分の構成材料が鉄骨であり、屋根及び周壁が永続性のある膜構造の
-塩化ビニールの特殊シートで覆われた建造物は、建物として登記することが
-できる(建物認定74頁)。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+倉庫化した山門も建物になる
+Illustration: An isometric traditional temple gate with an enclosed
+upper room surrounded by solid walls, storage boxes visible inside the
+upper room through a small window, a green checkmark badge above the
+gate, and a small embedded label reading "外気分断＋用途性".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+用途性ありで登記可
 
 --- COLUMN B, CARD 3 ---
-Heading (bold):
-階段室の上に載る展望台は、高床式平家建の建物として登記できる
-Illustration: An isometric tall reinforced-concrete staircase tower
-(階段室) supporting a single small enclosed room with a roof and walls
-at the very top labeled "展望台", a checkmark badge and a small label
-reading "高床式平家建".
-Caption (small text below):
-最上部が屋根及び周壁を有する展望台となっており、その下部が鉄筋コンク
-リートを主たる構成材料とする階段室となっている場合には、当該展望台を
-建物として登記することができる(建物認定304頁)。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+膜構造の建造物も建物になる
+Illustration: An isometric structure with an exposed steel-frame
+skeleton covered by a taut tent-like PVC membrane roof and walls, a
+checkmark badge above it, and a small embedded label reading
+"永続性のある構造".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+永続性があれば登記可
 
 --- COLUMN B, CARD 4 ---
-Heading (bold):
-回転式パーキング機械を備えたタワー型立体駐車場も、建物として登記できる
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+塔上の展望台も建物になる
+Illustration: An isometric tall reinforced-concrete staircase tower
+supporting a single small enclosed room with a roof and walls at the
+very top, a checkmark badge, and a small embedded label reading
+"高床式平家建".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+高床式平家建で登記
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+回転式駐車場も建物になる
 Illustration: An isometric tall tower-shaped car park with a roof and
-exterior walls, a cutaway showing a rotating parking mechanism (回転式
-のパーキング機械) carrying a small car icon inside, a checkmark badge
-above it.
-Caption (small text below):
-屋根及び外壁があり、内部に車を格納する回転式のパーキング機械が設置
-されているタワー状の立体駐車場は、外気分断性・定着性・用途性の3要件を
-満たす(昭24.2.22民事甲240号)。
+exterior walls, a cutaway showing a rotating parking mechanism carrying
+a small car icon inside, and a checkmark badge above it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+3要件満たせば登記可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第11問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (1
-card under 建物として登記できないもの, 4 cards under 建物として登記
-できるもの), with no duplicated or missing cards, and confirm every
-heading, illustration label, and caption text matches the Japanese text
-given above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

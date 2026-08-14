@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】建物の「種類」、正しい決め方・記録のされ方 令和7年度第12問を解説
+## 【土地家屋調査士受験生向け】令和7年度 第12問〜学習塾も給油所も、種類はそのままでいい〜
 
 **出題年度：令和7年度　午後の部　第12問**
 
@@ -22,13 +22,13 @@
 
 ### ア：区分建物の「種類」は、一棟の建物ではなく専有部分ごとに記録される
 
-マンションのような区分建物では、一棟の建物全体を示す表題部と、各部屋（専有部分）ごとの表題部という2段階で登記記録が作られます。「建物の種類」は各専有部分の実際の用途（居宅・店舗など）を示すものであり、一棟の建物の中に用途の異なる部屋が混在しうる以上、一棟全体の表題部に「種類」という項目は記録されません。
+マンションのような区分建物では、一棟の建物全体を示す表題部と、各部屋（専有部分）ごとの表題部という2段階で登記記録が作られます。「建物の種類」は各専有部分の実際の用途（居宅・店舗など）を示すものであり、一棟の建物の中に用途の異なる部屋が混在しうる以上、一棟全体の表題部に「種類」という項目は記録されません。不動産登記法44条1項は、区分建物である場合の一棟の建物の表題部に記録すべき事項として、7号の構造及び床面積、8号の名称のみを掲げており、「種類」（同項3号）は各専有部分の表題部に記録される事項です。
 
 **たとえば**、1階が店舗、2階から上が住居になっているマンションでは、建物全体をひとまとめにして「種類」を決めることはできません。「種類」は、1階の部屋なら「店舗」、5階の部屋なら「居宅」というように、それぞれの専有部分ごとに個別に記録されます。
 
 ### イ：共用部分の登記で職権抹消されるのは「種類」ではなく「所有者・権利の登記」
 
-建物を共用部分とする旨の登記をするときに、登記官が職権で抹消するのは、当該建物についての表題部所有者の登記又は権利に関する登記であり、「種類」に関する登記事項ではありません。共用部分は独立した所有権の対象ではなくなるため、所有者や権利の登記を抹消する必要がありますが、建物自体の物理的な性質を示す「種類」の情報が消されるわけではありません。
+建物を共用部分とする旨の登記をするときに、登記官が職権で抹消するのは、当該建物についての表題部所有者の登記又は権利に関する登記であり、「種類」に関する登記事項ではありません。共用部分は独立した所有権の対象ではなくなるため、所有者や権利の登記を抹消する必要がありますが、建物自体の物理的な性質を示す「種類」の情報が消されるわけではありません。不動産登記法58条4項は「登記官は、共用部分である旨の登記…をするときは、職権で、当該建物について表題部所有者の登記又は権利に関する登記を抹消しなければならない。」と定めており、抹消の対象が種類の登記事項ではないことを裏付けています。
 
 **たとえば**、マンションの管理人室を「共用部分」として登記し直すとき、法務局が消すのは「この部屋は誰それの所有物である」という所有者情報や、抵当権などの権利関係であって、「事務所」「管理人室」といった建物の種類の記載自体を消すわけではありません。
 
@@ -36,11 +36,11 @@
 
 建物の種類は、居宅・店舗・事務所・共同住宅・遊技場など、あらかじめ定められた用語の中から実際の利用状況に応じて選ぶものとされています。1つの建物が複数の用途に使われている場合には、それぞれの用途を組み合わせて表記する（例：「店舗・事務所」）必要があり、「多目的ビル」のような包括的・抽象的な表現を種類として用いることはできません。
 
-**たとえば**、1階が食品売り場、2〜3階が衣料品売り場、4階がゲームセンター、5階が映画館になっているビルであれば、その建物の種類は「店舗・遊技場・興行場」のように実際の用途を並べて記録する必要があり、「多目的ビル」とひとことでまとめることはできません。
+**たとえば**、1階が食品売り場、2〜3階が衣料品売り場、4階がゲームセンター、5階が映画館になっているビルであれば、その建物の種類は「店舗・遊技場・映画館」のように実際の用途を並べて記録する必要があり、「多目的ビル」とひとことでまとめることはできません。
 
 ### エ：学校教育法の適用外の学習塾は、「教習所」として登記できる
 
-学校教育法の適用を受けない教育・訓練施設（学習塾など）として利用されている建物の種類は、「教習所」と定めることができます。これは不動産登記規則113条・不動産登記事務取扱準則80条に列挙された37種類には含まれず、いずれにも該当しない建物について、実際の用途に応じて適宜定めることができるという扱い（規則113条）に基づく実務上の名称です。そろばん塾、音楽教室、華道教室、自動車教習所なども同じ扱いになります。
+学校教育法の適用を受けない教育・訓練施設（学習塾など）として利用されている建物の種類は、「教習所」と定めることができます。これは不動産登記規則113条・不動産登記事務取扱準則80条に列挙された37種類には含まれず、いずれにも該当しない建物について、実際の用途に応じて適宜定めることができるという扱いに基づく実務上の名称です。もっとも、この残余的な取扱いの根拠は規則113条1項ではなく、不動産登記事務取扱準則80条1項後段（「…次のように区分して定めるものとし、なお、これにより難い場合には、建物の用途により適当に定めるものとする。」）にあります。規則113条1項の残余規定は「これに準じて定めるものとする」という文言であり、「適宜定める」という文言ではないため、区別が必要です。そろばん塾、音楽教室、華道教室、自動車教習所なども同じ扱いになります。
 
 **たとえば**、正式な学校ではない民間の学習塾として使われている建物であれば、その建物の種類を「教習所」として登記することができます。
 
@@ -55,8 +55,8 @@
 - **ア（誤）**　「種類」は一棟の建物ではなく各専有部分ごとに記録される
 - **イ（誤）**　共用部分の登記で職権抹消されるのは所有者・権利の登記であり種類ではない
 - **ウ（誤）**　複数用途の建物でも「多目的ビル」という種類は認められず実際の用途を列記する
-- **エ（正）**　学校教育法の適用外の学習塾は「教習所」と定めることができる（規則113条の適宜定める枠）
-- **オ（正）**　ガソリンスタンドは「給油所」と定めることができる（準則80条）
+- **エ（正）**　学校教育法の適用外の学習塾は「教習所」と定めることができる
+- **オ（正）**　ガソリンスタンドは「給油所」と定めることができる
 
 建物の「種類」は、決められた用語の中から実際の用途を的確に選ぶものであり、抽象的な呼び方や、区分建物全体をまとめた呼び方は認められません。
 
@@ -67,7 +67,7 @@
 **このまま使える点／使う前に確認したい点**
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 出題番号・正解番号（5番＝エ・オ）は法務省公表の試験問題原本・正答資料で確認済みです。ウ（「多目的ビル」は種類として不適切）とイ（共用部分登記で職権抹消されるのは所有者・権利の登記）は実務解説サイトで確認済みです。建物の種類の全37種類（規則113条12種類＋準則80条25種類）と、「教習所」がそれに含まれず規則113条の適宜定める枠にあたる点は、複数の独立した情報源で確認済みです。ア（種類は専有部分ごとに記録）は区分建物登記の一般原則から導いています。
+- 出題番号・正解番号（5番＝エ・オ）は法務省公表の試験問題原本・正答資料で確認済みです。ウ（「多目的ビル」は種類として不適切）とイ（共用部分登記で職権抹消されるのは所有者・権利の登記）は実務解説サイトで確認済みです。建物の種類の全37種類（規則113条12種類＋準則80条25種類）と、「教習所」がそれに含まれず準則80条1項後段の適宜定める枠にあたる点は、複数の独立した情報源で確認済みです。ア（種類は専有部分ごとに記録）は区分建物登記の一般原則から導いています。
 
 ---
 
@@ -81,13 +81,29 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+建物の「種類」に関する5肢を、「どこに記録されるか」（ア・イ）と「何と表記できるか」（ウ・エ・オ）の2軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric buildings, floor
+plans, name plates/labels, gas station pumps, cram-school desks, movie
+theater screens, price tags with an "x" mark for rejected terms, etc. —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -95,64 +111,96 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Special caution: kanji such as 種・類・建・物・登・記・所・権 are especially
-prone to being rendered as Simplified Chinese variants. Draw every
-instance of these characters in their correct standard Japanese (Jōyō) form.
+summarize, or substitute any characters. Pay special attention to the
+kanji 種・類・録・権・建・物・登・記・所・場・給・実・題 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-建物の「種類」、決め方のルール
+建物の「種類」、正しい決め方・記録のされ方
 
 Subtitle (smaller, centered, 1行):
-令和7年度　午後の部　第12問／建物の種類
+令和7年度 午後の部 第12問－記録場所と表記ルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 一棟のマンションのイソメトリック図。1階に店舗アイコン、上階に住宅アイコンが並ぶ。各階の専有部分ごとに小さな名札（種類ラベル）が付いている。
-建物の「種類」は、あらかじめ決まった用語の中から実際の用途を的確に選ぶものです。「どこに記録されるか」「何と表記できるか」の2つの視点から見ていきましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-「種類」は一棟の建物ではなく、各専有部分ごとに記録される
-Illustration: マンションのイソメトリック図。一棟全体を囲む点線の枠には「種類」の記載欄が✕印で消されている。各階の専有部分（部屋）ごとに、「店舗」「居宅」などの個別の名札ラベルが付いている。
-Caption (small text below):
-「種類」は部屋ごと、建物全体じゃないんです
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+どこに記録されるか
 
---- CARD 2 ---
-Heading (bold):
-共用部分の登記で職権抹消されるのは、所有者・権利の登記であり「種類」ではない
-Illustration: 管理人室のアイコンに「所有者」「抵当権」のラベルが付いた紙が✕印で消されているが、隣の「種類：管理人室」というラベルはそのまま残っている。
-Caption (small text below):
-消えるのは所有者情報、種類じゃありません
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+種類は専有部分ごとに記録
+Illustration: A cutaway isometric view of a multi-story condominium
+(区分建物). Each floor's individual unit (専有部分) has its own small
+name plate showing its own 種類 label (e.g. "店舗", "居宅"). The building's
+overall header/title block at the top (一棟の建物の表題部) has an empty
+or grayed-out slot where "種類" would go, with a small "×" mark, showing
+that the whole-building register does NOT carry a 種類 entry.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一棟には記録なし
 
---- CARD 3 ---
-Heading (bold):
-複数用途の建物でも「多目的ビル」という種類は使えず、実際の用途を列記する
-Illustration: 5階建てビルのイソメトリック図（1階食品売場、2〜3階衣料品売場、4階ゲームセンター、5階映画館のアイコン）。ビルの上に「多目的ビル」のラベルが✕印で消され、代わりに「店舗・遊技場・興行場」という列記ラベルが付く。
-Caption (small text below):
-「多目的ビル」じゃ、種類として認められません
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+消えるのは所有者情報
+Illustration: An isometric building room labeled "共用部分" (common area,
+e.g. a management room). Two name tags next to it — "所有者" and "権利"
+— are shown being erased (eraser icon or a red "×" over them). A third
+name tag showing "種類：管理人室" remains untouched and clearly intact.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+種類は消えない
 
---- CARD 4 ---
-Heading (bold):
-学校教育法の適用外の学習塾は、種類を「教習所」と定めることができる
-Illustration: 学習塾の看板が掛かった建物アイコンに「種類：教習所」の名札ラベルが付いている。
-Caption (small text below):
-塾でも、種類は「教習所」でいいんです
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+何と表記できるか
 
---- CARD 5 ---
-Heading (bold):
-ガソリンスタンドは、種類を「給油所」と定めることができる
-Illustration: 給油機のあるガソリンスタンドの建物アイコンに「種類：給油所」の名札ラベルが付いている。
-Caption (small text below):
-ガソリンスタンドは、そのまま「給油所」
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+「多目的ビル」は種類として不可
+Illustration: An isometric 5-story building, each floor showing its actual
+use with a small icon: 1F food shop, 2-3F clothing shop, 4F game center,
+5F movie theater. Below the building, one name plate reads
+"店舗・遊技場・映画館" with a check mark, and a separate crossed-out
+("×") name plate reads "多目的ビル".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+用途を列記する
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+学習塾は「教習所」で登記
+Illustration: An isometric small building with desks and a chalkboard
+visible through a window (a private cram school, not a school under the
+School Education Act). A name plate on the building reads "教習所".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+準則80条の枠
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+ガソリンスタンドは「給油所」
+Illustration: An isometric gas station building with a canopy and fuel
+pumps. A name plate on the building reads "給油所".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+準則80条の一つ
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験　令和7年度　午後の部
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 種, 類, 録, 権, 建, 物, 登, 記, 所, 場, 給, 実, 題. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the number of cards equals 5
+exactly (2 cards under column A, 3 cards under column B), with no
+duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, and confirm the three-item name
+plate in Column B Card 3 reads exactly "店舗・遊技場・映画館" — three
+terms, in this order, no more and no fewer — confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】電子申請、どこまでスキャンで通る？〜調査士が代理人になる合筆登記の電子申請ルール〜
+## 【土地家屋調査士受験生向け】令和3年度 第4問〜電子申請、どこまでスキャンで通る？〜
 
 **出題年度：令和3年度　午後の部　第4問**
 
@@ -42,13 +42,13 @@
 
 ### ウ：申請人が作成した委任状の電磁的記録には、申請人自身の電子署名が必要
 
-添付情報が書面で作成されている場合、それをスキャナで電磁的記録に読み取り、その作成者（スキャンをした者）が電子署名をしたものを送信して提供することができます（不動産登記令13条1項）。この設問では委任状を電磁的記録にしたのが「申請人」ですから、電子署名も申請人が付さなければならず、調査士の電子署名では代替できません。よって「申請人の電子署名がないので添付情報とすることはできない」とする補助者ウの答えは正しいものです。
+電子申請における添付情報は、その作成者による電子署名が行われているものでなければなりません（不動産登記令12条2項）。委任状はこれを作成した「申請人」自身が作成者ですから、電磁的記録に記録した後の電子署名も申請人自身が付さなければならず、代理人である調査士の電子署名では代替できません（なお、不動産登記令13条1項は、表示に関する登記の添付情報についてスキャンした者の電子署名で足りるとする特例を定めていますが、申請人・代表者・代理人が自ら作成した情報〈本問の委任状はこれに当たります〉はこの特例の対象から明文で除外されており、原則どおり作成者本人の電子署名が必要です）。よって「申請人の電子署名がないので添付情報とすることはできない」とする補助者ウの答えは正しいものです。
 
 **たとえば**、依頼者本人が委任状をスキャンしてデータにしたのなら、そのデータには依頼者本人の電子署名を付ける必要があります。手紙を書いた本人がサインするのと同じで、作った人がハンコ（電子署名）を押していなければ、その委任状データはそのまま使えないのです。
 
 ### エ：調査士報告方式なら、委任状原本の提示は省略できる
 
-調査士が委任状原本を確認したうえでスキャンして電磁的記録を作成し、これに調査士の電子署名を付し、さらにその作成過程を記録した「不動産の調査に関する報告」を併せて提供する調査士報告方式による場合には、登記官に対する委任状原本の提示を省略することができます（令和元年107民二187号通達）。したがって「省略することはできません」とする補助者エの答えは誤りです。
+調査士が委任状原本を確認したうえでスキャンして電磁的記録を作成し、これに調査士の電子署名を付し、さらにその作成過程を記録した「不動産の調査に関する報告」を併せて提供する調査士報告方式による場合には、登記官に対する委任状原本の提示を省略することができます。したがって「省略することはできません」とする補助者エの答えは誤りです。
 
 **たとえば**、調査士が「この委任状の原本を自分の目で確認しました」という報告を電子署名付きで添えて申請すれば、後日わざわざ原本を登記所の窓口に持って行って見せる手間は要りません。専門家が原本確認を保証することで、原本提示に代えられる仕組みなのです。
 
@@ -60,13 +60,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 書面の登記識別情報は電子情報処理組織で入力して提供する（規則66条1項1号）。スキャン＋調査士の電子署名では不可 |
-| イ | 正 | 特例方式の書面提出は、持参・送付のいずれの方法でもよい（規則附則21条4項） |
-| ウ | 正 | 申請人が作成した委任状の電磁的記録には申請人自身の電子署名が必要（令13条1項） |
-| エ | 誤 | 調査士報告方式なら委任状原本の提示を省略できる（令元107民二187号通達） |
-| オ | 誤 | 電子申請の取下げは電子情報処理組織を使用して行う（規則39条1項1号） |
+- **ア（誤）** 書面の登記識別情報は電子情報処理組織で入力して提供する（規則66条1項1号）。スキャン＋調査士の電子署名では不可
+- **イ（正）** 特例方式の書面提出は、持参・送付のいずれの方法でもよい
+- **ウ（正）** 申請人が作成した委任状の電磁的記録には申請人自身の電子署名が必要（申請人自身が作成した情報を除く特例がある点に注意）
+- **エ（誤）** 調査士報告方式なら委任状原本の提示を省略できる
+- **オ（誤）** 電子申請の取下げは電子情報処理組織を使用して行う
 
 電子申請は「手続の種類ごとに提供方法が決まっている」のが原則です。スキャンと電子署名で万能に処理できるわけではない、という感覚を持てるかどうかが、この分野の得点を分けます。
 
@@ -78,7 +76,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（3番＝イ・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
-- 各肢の条文根拠のうち、データベースのexplanationフィールドで条文番号まで明示されているものは、ア（不動産登記規則66条1項1号）、イ（不動産登記規則附則21条4項）、ウ（不動産登記令13条1項）、オ（不動産登記規則39条1項1号）、およびエの根拠通達（令和元年107民二187号）です。これらはWebSearchで条文原文（Wikibooks・司法書士事務所等の解説サイトが条文本文を引用している箇所）を確認し、いずれも正確であることが確認できました。具体的には、不動産登記規則66条1項1号は登記識別情報を電子情報処理組織を使用して提供する方法を定める規定（1号）と書面添付による方法を定める規定（2号）から成ること、不動産登記規則附則21条4項は特例方式の添付書面を「持参」「送付」いずれの方法でも登記所に提出できると定めていること、不動産登記令13条1項は電磁的記録の作成者（申請人が委任状を作成した場合は申請人自身）による電子署名が必要であると定めていること、不動産登記規則39条1項1号・2号は電子申請の取下げは電子情報処理組織を使用する方法により、書面申請の取下げは書面提出による方法によることをそれぞれ定めていることを確認できました（いずれもe-Gov法令検索ベースで確認済み）。
+- 各肢の条文根拠は、`note-articles/laws/`配下のローカル法令データベース（不動産登記規則・不動産登記令、いずれも2026-08-04取得の現行条文）をGrepで直接確認しました。ア（不動産登記規則66条1項1号）、イ（不動産登記規則附則21条4項）、ウ（不動産登記令12条2項）、オ（不動産登記規則39条1項1号）はいずれも条文の文言・項号を照合済みです。具体的には、不動産登記規則66条1項1号は登記識別情報を電子情報処理組織を使用して提供する方法を定める規定（1号）と書面添付による方法を定める規定（2号）から成ること、不動産登記規則附則21条4項は特例方式の添付書面を送付方法による場合は書留郵便・信書便によるべきことを定めていること（持参する方法自体を禁止する規定は見当たらないため、持参・送付いずれも可能と解されます）、不動産登記令12条2項は電磁的記録として提供する添付情報にはその作成者による電子署名が必要であると定めていること、不動産登記規則39条1項1号・2号は電子申請の取下げは電子情報処理組織を使用する方法により、書面申請の取下げは書面提出による方法によることをそれぞれ定めていることを確認できました。なお、当初データベースのexplanationフィールドではウの根拠として「不動産登記令13条1項」が挙げられていましたが、laws/で条文を確認したところ、同項は表示に関する登記の添付情報についてスキャンした者の電子署名で足りるとする特例規定であり、しかも申請人・代表者・代理人が自ら作成した情報（本問の委任状はこれに該当）をその特例の対象から明文で除外しています。したがって委任状の電子署名については原則規定である令12条2項が適用され、本文の条文根拠を12条2項に修正しました（結論・正誤判定に変更はありません）。エの根拠通達（令和元年107民二187号）はlaws/に収録がない先例のため、従来どおりWebSearchでの実在確認にとどめています。
 - なお、同じデータベースのpitfallsフィールドでは、アの根拠として不動産登記令8条、オの根拠として不動産登記規則43条も挙げられていましたが、WebSearchで調べたところ、不動産登記令8条は「登記識別情報の提供を要する場合（どのようなときに提供が必要か）」を定める規定であり、本問のように提供方法（スキャン可否）を問う場面の直接の根拠条文ではありませんでした。また不動産登記規則43条は見出しが「電子証明書」であり、申請の取下げとは別の規定であることが確認できました。したがって、pitfallsフィールドの条文は論点がやや異なる（またはタイプミスに近い）参照であり、explanationフィールドの条文番号（66条1項1号・39条1項1号）を本文の根拠として採用したのは妥当と判断しています。各肢の正誤（ア×・イ○・ウ○・エ×・オ×）と正解の組合せ（イウ）は、両フィールドで一致しています。
 - 上記の条文・通達番号はWebSearchによる裏取りを経て確認済みです。ただし、エの根拠とした「令和元年107民二187号通達」については、通達自体の存在と調査士報告方式による原本提示省略の運用は複数の解説サイトで確認できたものの、通達番号そのものをe-Gov法令検索等の一次資料で直接確認できたわけではなく、実務・答案で用いる際は最新の通達番号を各自ご確認ください。
 - アガルート等のローカル教材PDFは本作業環境に存在せず、参照していません。
@@ -92,3 +90,131 @@
 - 委任状データにハンコを押すのは「作った人」なんです
 - 調査士が原本確認すれば、提示は省略できちゃう
 - オンライン申請の取下げは、オンラインで――が鉄則なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+補助者ア〜オの正誤を「オンラインで完結させる手続」（緑・カード1〜2）と「書面・原本の取り扱いルール」（青・カード3〜5）の2系統に分け、各肢の本来正しいルールを、通し番号バッジ＋短い見出し＋図解＋結論タグの4要素のみで構成する5枚のカードで俯瞰できるようにした（導入イラスト・導入文のブロックは廃止）。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric computer terminals,
+scanned documents, registry office buildings, mail trucks, hanko/seal
+stamps, report papers — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+Note: the kanji 号・録・登・記・所 appear repeatedly below (e.g. 登記,
+電磁的記録, 登記所). These have visually similar but distinct Simplified
+Chinese forms — render them strictly in standard Japanese Jōyō form, not
+the simplified variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+電子申請、
+どこまでスキャンで通る？
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後の部 第4問
+調査士が代理人になる合筆登記の電子申請ルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+オンラインで完結させる手続
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+識別情報はシステム入力必須
+Illustration: 人物がコンピューター端末（ラベル「電子情報処理組織」）に
+パスワードのようなコードを直接入力している構図。その横にスキャンされた
+紙の書類のアイコンがあり、大きな赤い×印が重ねられている。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+スキャン提供 不可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+取下げもオンラインで完結
+Illustration: 人物がコンピューター画面上の「取下げ」ボタンをクリックして
+いる構図。別のコマに、登記所の窓口カウンターに紙の書類を差し出そうと
+している人物がおり、その紙の書類に大きな赤い×印がついている。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+書面提出は不可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+書面・原本の取り扱いルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled circle in blue containing the number 3 (numbers run
+continuously across all columns).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+書面提出は持参・送付どちらも可
+Illustration: 登記所の建物のアイソメトリックアイコンに向かう2本の矢印。
+一方は書類を持って歩く人物、もう一方は郵便物を積んだ配送トラック。両方の
+矢印が同じ登記所の入り口に到達する構図。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+持参・送付 自由
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+委任状データは作成者本人が署名
+Illustration: 「申請人」とラベル付けされた人物が紙の委任状をスキャナで
+読み取り、電磁的記録（タブレット画面）にする構図。その人物自身が画面に
+電子印鑑（電子署名）を押している。傍らに「調査士」とラベル付けされた
+別の人物が自分の印鑑を押そうとして小さな赤い×印で止められている。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+本人の電子署名 必須
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+調査士報告方式なら原本提示不要
+Illustration: 「調査士」とラベル付けされた人物が、スキャンした委任状
+データと「調査士報告」とラベル付けされた報告書を両手に持ち、チェック
+マークの印が押されている。登記所の窓口カウンターから離れた場所に立ち、
+原本の紙書類を持たずに済んでいることを示す構図。
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+原本提示 省略可
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・登・記・所. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
+```

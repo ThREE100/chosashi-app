@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】遺言、どこまで自由？〜負担付遺贈・相続分の指定・遺言の解釈〜
+## 【土地家屋調査士受験生向け】平成27年度 第3問〜相続分は一部だけでも指定できる〜
 
 **出題年度：平成27年度　午後の部　第3問**
 
@@ -32,7 +32,7 @@
 
 ### ウ：遺言の解釈では、文言だけでなく遺言者の真意も探求する
 
-たしかに遺言は法律で定めた方式を要する要式行為ですが、いったん有効に成立した遺言を「どう解釈するか」の段階では、判例は、遺言書の文言を形式的に判断するだけでなく、遺言者の真意を探求すべきだとしています（最判昭和58年3月18日）。「真意を探求すべきではなく文言のみで判断しなければならない」とする本肢は誤りです。
+たしかに遺言は法律で定めた方式を要する要式行為ですが、いったん有効に成立した遺言を「どう解釈するか」の段階では、判例は、遺言書の文言を形式的に判断するだけでなく、遺言者の真意を探求すべきだとしています。「真意を探求すべきではなく文言のみで判断しなければならない」とする本肢は誤りです。
 
 **たとえば**、遺言書に「財産は家族に譲る」とだけ書かれていた場合、その「家族」が誰を指すのかを、遺言者が置かれていた事情や他の記載も手がかりにして、遺言者が本当に意図した意味を探って解釈します。
 
@@ -48,15 +48,13 @@
 
 **たとえば**、一人で子を育てているシングルの親が、「もし自分に万一のことがあったら、この子の後見人はおばである私の姉にお願いしたい」と遺言で指定しておくことができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 負担付遺贈の責任は遺贈の価額の範囲内（1002条1項） |
-| イ | 誤 | 共同相続人の一部の相続分のみを定めることもできる（902条） |
-| ウ | 誤 | 遺言の解釈は文言だけでなく遺言者の真意も探求する（最判昭58・3・18） |
-| エ | 正 | 遺言者は遺言で遺言執行者を指定できる（1006条1項） |
-| オ | 正 | 最後に親権を行う管理権者は遺言で未成年後見人を指定できる（839条1項） |
+- **ア（正）**　負担付遺贈の責任は遺贈の価額の範囲内
+- **イ（誤）**　共同相続人の一部の相続分のみを定めることもできる
+- **ウ（誤）**　遺言の解釈は文言だけでなく遺言者の真意も探求する
+- **エ（正）**　遺言者は遺言で遺言執行者を指定できる
+- **オ（正）**　最後に親権を行う管理権者は遺言で未成年後見人を指定できる
 
 「誤っているもの」を選ぶ問題なので、誤りのイ・ウを選び出せれば正解にたどり着けます。正しい肢を“誤り”と早合点しないよう、問い方に注意しましょう。
 
@@ -85,15 +83,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-遺言をめぐる5つの独立した論点（負担付遺贈・相続分の指定・遺言の解釈・遺言執行者・未成年後見人の指定）を、単一列5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+負担付遺贈・相続分の指定・遺言の解釈・遺言執行者・未成年後見人の指定という5肢はそれぞれ独立したテーマを扱っており、2つの列に自然に分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成にした。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric will/testament
-scroll, family figures, gift boxes, judge's gavel, guardian figures —
-adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric last-will documents,
+balance scales, family-tree figures, magnifying glasses, lawyer figures,
+guardian and child figures, torn paper labels, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,94 +112,89 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 遺・贈・執・行・権・続, which have Simplified Chinese look-alike
-forms with visibly different stroke shapes — always draw the standard
-Japanese (Jōyō) form of these characters.
+kanji 遺・言・贈・受・者・額・負・担・相・続・分・指・定・解・釈・真・意・探・求・
+執・行・後・見・親・権 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 遺言、どこまで自由？
-負担付遺贈・相続分の指定・遺言の解釈
 
 Subtitle (smaller, centered, 1行):
-判例の趣旨に照らして5つの論点を確認する(平成27年度 午後の部 第3問)
+平成27年度 午後の部 第3問－負担付遺贈・相続分の指定・遺言の解釈
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric old scroll-style will document lying open on
-a desk, with a quill pen beside it and five small numbered tag icons
-(①〜⑤) radiating out from the scroll toward small vignette icons(a gift
-box, a family tree, a judge's gavel, a briefcase, a child figure), showing
-the will touches five different legal topics.
-遺言のルールは条文の知識で解ける肢が多く、確実に得点したい分野です。
-負担付遺贈の責任範囲、相続分の指定、遺言の解釈方法、遺言執行者の指定、
-未成年後見人の指定という5つの独立した論点を確認します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A, CARD 1 ---
-Heading (bold):
-負担付遺贈の受遺者は、遺贈の価額の範囲でだけ義務を負う
-Illustration: An isometric gift box labeled "500万円の土地" being handed
-to a person, with a small leash connecting to a dog icon labeled "世話の
-負担"; a measuring scale shows the dog-care burden capped exactly at the
-same height as the gift box value, with an "上限" arrow.
-Caption (small text below):
-負担付遺贈を受けた者は、遺贈の目的の価額を超えない限度においてのみ、
-負担した義務を履行する責任を負う(民法1002条1項)。
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+負担付遺贈は もらった価額まで
+Illustration: An isometric balance scale. One side holds a land-plot icon
+labeled "遺贈財産（500万円）" with a green checkmark. The other side holds
+a dog-care icon labeled "負担（世話）". An overflow amount beyond the scale
+is labeled "300万円" with a red X mark, showing it is not owed.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+遺贈の価額が上限
 
---- COLUMN A, CARD 2 ---
-Heading (bold):
-共同相続人の一部の相続分だけを定めることもできる
-Illustration: An isometric family tree with three child figures under a
-parent figure; the will scroll has an arrow pointing only to the first
-child with a "2分の1" tag, while the other two children are shown
-receiving their share automatically via a "法定相続分" label with a
-checkmark, no direct instruction needed.
-Caption (small text below):
-被相続人は、遺言で共同相続人の一部の相続分のみを定めることができる。
-残りの相続人の相続分は法定相続分による(民法902条)。
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+相続分は一部だけでも指定できる
+Illustration: A family tree with three child figures. One child (長男) is
+highlighted holding a document "相続分 2分の1指定" with a green checkmark.
+The other two children share a pie-chart slice labeled "法定相続分" with a
+checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一部指定も有効
 
---- COLUMN A, CARD 3 ---
-Heading (bold):
-遺言の解釈は、文言だけでなく遺言者の真意も探求する
-Illustration: An isometric magnifying glass hovering over the will
-scroll's text, with a thought-bubble icon rising from the scroll showing
-a small heart/mind icon, indicating the reader looks both at the written
-words and at the testator's true intention behind them.
-Caption (small text below):
-遺言の解釈に当たっては、遺言書の文言を形式的に判断するだけでなく、
-遺言者の真意を探求すべきである(最判昭和58年3月18日)。
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+遺言解釈は文言＋真意を探る
+Illustration: An isometric last-will document with a magnifying glass over
+it. One side shows literal text "家族に譲る"; a connected thought-bubble
+shows the testator's true intention, joined by a green checkmark arrow. A
+separate sign reading "文言だけ" has a red X mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+真意も探求する
 
---- COLUMN A, CARD 4 ---
-Heading (bold):
-遺言者は、遺言で遺言執行者を指定できる
-Illustration: An isometric scene showing the testator figure pointing
-at a lawyer/executor figure standing beside the will scroll, with a
-small badge icon labeled "遺言執行者" being pinned onto the executor
-figure's chest.
-Caption (small text below):
-遺言者は、遺言で遺言執行者を指定し、又はその指定を第三者に委託する
-ことができる(民法1006条1項)。
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+遺言執行者は指名しておける
+Illustration: A testator figure writing a will at a desk, pointing toward
+a lawyer figure labeled "遺言執行者". A stamp icon reading "指定" with a
+green checkmark sits between them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+遺言で指定可
 
---- COLUMN A, CARD 5 ---
-Heading (bold):
-最後に親権を行う管理権者は、遺言で未成年後見人を指定できる
-Illustration: An isometric scene showing a single parent figure holding
-a child's hand, with the will scroll beside them showing an arrow
-pointing to a guardian figure labeled "未成年後見人", indicating the
-parent designates a future guardian in advance through the will.
-Caption (small text below):
-未成年者に対して最後に親権を行う者であって管理権を有する者は、遺言で
-未成年後見人を指定することができる(民法839条1項)。
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+未成年後見人も遺言で指定できる
+Illustration: A single parent figure with a child, writing a will at a
+desk. An arrow points to another family member figure (おば) labeled
+"未成年後見人", with a stamp icon reading "指定" and a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+遺言で指定可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成27年度 午後の部 第3問
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 負担付遺贈は もらった価額まで
+2. 相続分は一部だけでも指定できる
+3. 遺言解釈は文言＋真意を探る
+4. 遺言執行者は指名しておける
+5. 未成年後見人も遺言で指定できる
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 遺・贈・執・行・権・続. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated
-or missing cards, and confirm every heading, illustration label, and
-caption text matches the Japanese text given above verbatim, with no
-paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
 ```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】袋地の通行権、通れるのは「分けた相手の土地」だけなんです〜平成22年度午後の部 第3問・囲繞地通行権を解説〜
+## 【土地家屋調査士受験生向け】平成22年度 第3問〜袋地の通行権、通れるのは「分けた相手の土地」〜
 
 **出題年度：平成22年度　午後の部　第3問**
 
@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 分割による袋地の通行権は、残余地が転売されても存続する（213条、最判平2.11.20） |
-| イ | 誤 | 地上権者も囲繞地に通路を開設できる（210条・267条準用） |
-| ウ | 誤 | 分割で袋地を残した側も、分けた相手の土地（乙）を通行できる（213条2項） |
-| エ | 誤 | 囲繞地通行権の主張に所有権の登記は不要 |
-| オ | 正 | 競売による袋地も分割に準じ、元の一体地（乙）を通行できる（判例） |
+- **ア（正）**　分割による袋地の通行権は、残余地が転売されても存続する（213条、最判平2.11.20）
+- **イ（誤）**　地上権者も囲繞地に通路を開設できる（210条・267条準用）
+- **ウ（誤）**　分割で袋地を残した側も、分けた相手の土地（乙）を通行できる（213条2項）
+- **エ（誤）**　囲繞地通行権の主張に所有権の登記は不要
+- **オ（正）**　競売による袋地も分割に準じ、元の一体地（乙）を通行できる（判例）
 
 「分割・譲渡・競売で生じた袋地は、損害が少ない第三者の土地ではなく、分けた相手の土地しか通れない」というルールを軸に整理しましょう。
 
@@ -83,3 +81,138 @@
 - 奥に残した袋地からも、売った土地を通れるんです
 - 袋地の通行権に、登記はいらないんです
 - 競売で袋地になっても、元の一体地を通れるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+囲繞地通行権に関する5肢は、それぞれ独立した論点であり2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the kanji 囲・繞・乙 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+袋地の通行権 通れるのは誰の土地？
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第3問　民法(囲繞地通行権)
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分割で生じた袋地は残余地が転売されても通れる
+
+Illustration: An isometric aerial view of one land plot split into 甲(landlocked, owner B) and 乙(owner C after being sold from original owner A). A dashed footpath arrow goes from 甲 across 乙 to the road, with a checkmark icon labeled「乙を通行できる」. A separate 丙 plot (owned by D) nearby has a ✕ mark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+分けた相手の土地だけ
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地上権者も通路を作れる
+
+Illustration: Two character icons standing on a landlocked plot 甲: one labeled 所有者A and one labeled 地上権者C, both holding shovel icons digging a path toward the road through neighboring plot, both with checkmarks.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+地上権者も通路OK
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+袋地を残した側も分けた相手の土地を通れる
+
+Illustration: A land plot split into 甲(kept by original owner A) and 乙(sold to B), with A now landlocked. A dashed footpath arrow from 甲 through 乙 to the road, checkmark labeled「乙を通行できる」. A separate 丙 plot (C) has a ✕ mark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+残した側も通行できる
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+通行権の主張に登記はいらない
+
+Illustration: A landlocked-plot owner character (B, holding an unstamped/blank registration certificate) walking confidently across a footpath toward the road, with a checkmark icon and label「登記なしでOK」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+登記なしで主張できる
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+競売で袋地になっても元の土地を通れる
+
+Illustration: A land plot split into 甲(A, landlocked) and 乙(auctioned off to buyer B via a gavel/hammer icon). A dashed footpath arrow from 甲 through 乙 to the road, checkmark labeled「競売でも同じ扱い」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+競売でも元の地を通行
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

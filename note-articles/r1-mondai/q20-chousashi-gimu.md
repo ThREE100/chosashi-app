@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】その義務、「努力」か「絶対」か？調査士の義務〜依頼応諾・事務所・会則遵守・秘密保持・研修の線引き〜
+## 【土地家屋調査士受験生向け】令和元年度 第20問〜その義務、「努力」か「絶対」か？〜
 
 **出題年度：令和元年度　午後の部　第20問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、調査士は登録して終わりではなく、会の研修に参加して知識や技術を磨き続けるよう努めることが求められています。会則遵守が「絶対」の義務であるのに対し、研修は「努力」の義務、という強さの違いを押さえましょう。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 正当な事由がなければ依頼を拒めない。筆界特定代理・ADR代理は除外（調査士法22条） |
-| イ | 正 | 事務所は一つに限られ、二以上は設けられない（調査士法20条、規則18条） |
-| ウ | 誤 | 会則遵守は努力義務ではなく法的義務（「守らなければならない」／調査士法24条） |
-| エ | 誤 | 秘密保持は正当な事由があれば例外あり（調査士法24条の2） |
-| オ | 正 | 研修受講・資質向上は努力義務（調査士法25条1項） |
+- **ア（正）**　正当な事由がなければ依頼を拒めない。筆界特定代理・ADR代理は除外
+- **イ（正）**　事務所は一つに限られ、二以上は設けられない
+- **ウ（誤）**　会則遵守は努力義務ではなく法的義務（「守らなければならない」と規定されている）
+- **エ（誤）**　秘密保持は正当な事由があれば例外あり
+- **オ（正）**　研修受講・資質向上は努力義務
 
 「守らなければならない（法的義務）」なのか「努めなければならない（努力義務）」なのか、そして「正当な事由」による例外があるのか——文言の強さと例外の有無をセットで押さえるのが、義務の分野を得点源にするコツです。
 
@@ -68,7 +66,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和元年度午後第20問）・正解番号（4番＝ウ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
-- 各肢の根拠は、いずれも土地家屋調査士法の各条文で確認しています（ア＝依頼に応ずる義務・筆界特定代理等の除外／イ＝事務所の設置と二以上禁止・施行規則18条／ウ＝会則遵守義務が法的義務であること／エ＝秘密保持義務と正当な事由による例外／オ＝研修受講・資質向上の努力義務）。ただし、土地家屋調査士法は令和元年改正（令和2年8月施行）により条番号の繰り下げ・再編があり、本記事の条番号は本試験当時（令和元年10月）の条文（アプリのexplanationフィールド由来：ア＝22条、イ＝20条・規則18条、ウ＝24条、エ＝24条の2、オ＝25条1項）に合わせています。現行法では会則遵守義務・研修義務などの条番号が異なりますので、最新の条番号で確認したい場合は改正後の条文を参照してください。各肢の正誤（義務の強弱・例外の有無）そのものは改正の前後で変わりません。
+- 各肢の根拠は、いずれも土地家屋調査士法の各条文で確認しています（ア＝依頼に応ずる義務・筆界特定代理等の除外／イ＝事務所の設置と二以上禁止・施行規則18条／ウ＝会則遵守義務が法的義務であること／エ＝秘密保持義務と正当な事由による例外／オ＝研修受講・資質向上の努力義務）。
+- **最新法令への準拠チェック（2026年8月実施）**：土地家屋調査士法は令和元年6月12日公布・令和2年8月1日施行の改正（法律第29号）を受けていますが、この改正の主眼は第1条を目的規定から使命規定に改める点、懲戒権者を法務局長等から法務大臣に改める点（第42条）、社員一人の調査士法人の設立を可能とする点であり、本問が扱うア〜オの各義務規定（第22条〔依頼応諾義務〕、第20条〔事務所〕、第24条〔会則遵守義務〕、第24条の2〔秘密保持義務〕、第25条1項〔研修の努力義務〕）の条番号・内容は、改正前後を通じて変わっていないことを確認しました。以前の版で「条番号の繰り下げ・再編があり現行法では異なる可能性がある」としていた記載は、確認不足による誤った懸念でしたので訂正します。
 - **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ正 ウ誤 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（依頼応諾義務・事務所・会則遵守・秘密保持・研修）と同一・類似の問題が再出題されていないかを確認しました。候補は12件と多かったため、各候補の具体的論点を本問の各肢と照合しました。令和3年度第20問のオ（土地家屋調査士法人は、正当な事由がなければ不動産の表示に関する登記の申請手続の代理の依頼を拒むことはできない、法22条・41条1項）は本問のア（調査士自身の依頼応諾義務、法22条）と、令和7年度第20問のウ（調査士は連合会への届出により複数の都道府県に事務所を設置できるとする記述、誤り）は本問のイ（二以上の事務所を設けることはできない）と、令和6年度第20問のウ（調査士は正当な事由がある場合であっても業務上知った秘密を漏らしてはならないとする記述、誤り、法24条の2）は本問のエとほぼ同一の記述・論点です。一方、会則遵守（ウ）と研修（オ）に対応する候補は見当たりませんでした。**本問5肢のうち3肢について、同一の論点が別の年度・別の組合せで再出題されています**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -86,15 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地家屋調査士の義務について、絶対に守るべき法的義務4枚・努力義務1枚の計5枚のカードで、義務の強さの違いを軸に整理した画像生成プロンプト。
+土地家屋調査士の義務について「絶対に守るべき義務」と「努力義務」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric official figures,
 document stamps, balance scales, feather icons, key and lock icons,
 prohibition marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,105 +112,90 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to
-standard Japanese (Jōyō) form of these characters: 号・録・権・地・番・
-建・物・登・記・所.
+summarize, or substitute any characters. Pay special attention to the
+kanji 所 — it must be rendered in its standard Japanese form, never as a
+Simplified Chinese variant.
 
 --- HEADER ---
-Title (large, bold, 2行):
-その義務、「努力」か「絶対」か?
-土地家屋調査士の義務を線引きする
+Title (large, bold, 1行):
+その義務、「努力」か「絶対」か？
 
 Subtitle (smaller, centered, 1行):
-絶対に守るべき義務と、努力義務・例外の有無を対比(令和元年度 午後の部 第20問)
+令和元年度 午後の部 第20問－土地家屋調査士の義務を線引きする
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a balance
-scale (天秤); on one side sits a heavy stone icon labeled "守らなければ
-ならない", on the other side a light feather icon labeled "努めなければ
-ならない", with a small figure of a土地家屋調査士 standing at the center
-of the scale.
-土地家屋調査士の義務は、必ず守らなければならない法的義務と、努力目標として
-定められた努力義務に分かれます。さらに、正当な事由があれば例外が認められる
-義務もあります。5つの場面で、その強さと例外の有無を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 絶対に守るべき義務
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-正当な事由がなきゃ、依頼は断れない
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+正当事由なきゃ依頼は断れない
 Illustration: An isometric icon of a client figure holding out a document
 to a土地家屋調査士 figure who receives it; beside them, a small tag reads
 "正当な事由" as a narrow exception gap, and a separate small box reads
 "筆界特定代理・ADR代理は除く".
-Caption (small text below):
-土地家屋調査士は、正当な事由がある場合でなければ依頼を拒んではならない。
-ただし筆界特定の手続についての代理業務及びその相談業務並びに民間紛争
-解決手続代理関係業務は除かれる(調査士法22条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+依頼拒否は不可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-事務所は一つだけ、二か所はダメ
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+事務所は一つ、二か所はダメ
 Illustration: An isometric icon of a single office building with a green
 checkmark above it, next to a second office building icon with a red
 prohibition (no-entry) mark overlaid on it, showing that only one office
 is allowed.
-Caption (small text below):
-土地家屋調査士は事務所を設けなければならないが、その事務所は一つでなけれ
-ばならず、二以上の事務所を設けることはできない(調査士法20条、同法施行
-規則18条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+事務所は一つ
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-会則は「努める」じゃなく「守る」義務
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+会則遵守は「努力」でなく義務
 Illustration: An isometric icon of a rulebook labeled "会則" being stamped
 with the words "守らなければならない"; beside it, a light feather icon
 (representing 努力義務) has a red prohibition (no-entry) mark overlaid on
 it, showing that this obligation is not a mere effort obligation.
-Caption (small text below):
-土地家屋調査士は、その所属する土地家屋調査士会及び日本土地家屋調査士会
-連合会の会則を守らなければならない。これは努力義務ではなく法的義務である
-(調査士法24条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+会則は法的義務
 
 --- COLUMN A, CARD 4 ---
-Heading (bold):
-秘密保持、正当な事由があれば例外になる
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+秘密保持、正当事由で例外あり
 Illustration: An isometric icon of a locked document labeled "秘密" held
 by a 土地家屋調査士 figure; a small keyhole gap labeled "正当な事由" shows
 a narrow opening through which a little information icon can pass,
 representing the permitted exception.
-Caption (small text below):
-土地家屋調査士又は土地家屋調査士であった者は、正当な事由がある場合で
-なければ、業務上取り扱った事件について知ることのできた秘密を他に漏らして
-はならない。裏を返せば、正当な事由がある場合には秘密の開示が許される
-(調査士法24条の2)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+例外的に開示可
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 努力義務
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-研修は「努力義務」、会則遵守とは強さが違う
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+研修受講は努力義務
 Illustration: An isometric icon of a 土地家屋調査士 figure walking toward
 a training-room icon (blackboard and screen), with a light feather icon
 labeled "努力義務" floating above the figure's head.
-Caption (small text below):
-土地家屋調査士は、その所属する土地家屋調査士会及び日本土地家屋調査士会
-連合会が実施する研修を受け、その資質の向上を図るように努めなければ
-ならない。これは努力義務である(調査士法25条1項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+研修は努力義務
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度 午後の部 第20問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (4
-cards under 絶対に守るべき義務, 1 card under 努力義務), with no
-duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

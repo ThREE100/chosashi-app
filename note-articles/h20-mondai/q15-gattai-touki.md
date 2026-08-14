@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】2棟の建物が1棟になる「合体」、税金・持分・登記識別情報はどうなる？〜表示登記だから非課税、同一名義人なら添付が省ける〜
+## 【土地家屋調査士受験生向け】平成20年度 第15問〜建物の合体、実は登録免許税がかからない〜
 
 **出題年度：平成20年度　午後の部　第15問**
 
@@ -16,11 +16,11 @@
 >
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-建物の合体は、2つ以上の建物が物理的に一体化した場合に行う登記です。表示に関する登記としての性質（課税の有無）と、権利関係の処理（持分・登記識別情報・抵当権の扱い）の両面から問われる、応用力が試される分野です。
+建物の合体は、2つ以上の建物が物理的に一体化した場合に行う登記です。手続の根拠は不動産登記法49条で、合体があった日から1月以内に「合体による登記等」（合体後の建物についての表題登記＋合体前の建物の表題部の登記の抹消、所有権の登記がある建物が含まれるときはさらに合体後の建物についての所有権の登記＋合体前の建物の所有権の登記の抹消）を申請しなければならないとされています。表示に関する登記としての性質（課税の有無）と、権利関係の処理（持分・登記識別情報・抵当権の扱い）の両面から問われる、応用力が試される分野です。
 
-### ア：合体による登記等（表示の登記）は、登録免許税がかからない
+### ア：合体による登記等には、登録免許税がかからない
 
-建物の合体による登記等は、表示に関する登記です。表示に関する登記は原則として登録免許税が課されません。合体前のいずれの建物にも所有権の登記があったとしても、この合体による登記等の申請自体に登録免許税の納付を要するものではありません。したがって「登録免許税を納付しなければならない」とする本肢は誤りです。
+登録免許税は、登録免許税法別表第一に個別に掲げられた登記等だけに課されます（同法2条）。別表第一のうち表示に関する登記として掲げられているのは、土地の分筆・建物の分割若しくは区分、土地の合筆・建物の合併の4種類のみで（同表（十三））、建物の合体による登記等はここに含まれません。合体前のいずれの建物にも所有権の登記があったとしても、この申請自体に登録免許税の納付を要するものではないため、「登録免許税を納付しなければならない」とする本肢は誤りです。
 
 **たとえば**、隣り合う2棟の建物を増築でつなげて1棟にする合体の登記をする場合、それぞれの建物に所有権の登記があったとしても、合体の登記自体に納税の必要はありません。表示に関する登記だからこそ、税負担なく手続を進められるのです。
 
@@ -32,31 +32,29 @@
 
 ### ウ：同一名義人であれば、登記識別情報の提供は一方で足りる
 
-合体前の所有権の登記名義人が同一人である場合には、その人にとって合体前の各建物の登記識別情報のうち一方を提供すれば足り、合体前のすべての建物について登記識別情報を提供しなければならないわけではありません。「名義人の異同にかかわらず、すべての建物の登記識別情報を提供しなければならない」と一律に断定する本肢は誤りです。
+登記名義人が同一である所有権の登記がある建物の合体による登記等では、合体前の建物のうちいずれか一個の建物についての登記識別情報を提供すれば足ります（不動産登記令8条2項2号）。「名義人の異同にかかわらず、すべての建物の登記識別情報を提供しなければならない」と一律に断定する本肢は誤りです。
 
 **たとえば**、Aさんが所有する2棟の建物を合体させる場合、Aさんは合体前の建物のどちらか一方の登記識別情報を示せば足り、両方の建物の登記識別情報をそれぞれ提供する必要まではありません。
 
 ### エ：抵当権を消滅させるには、抵当権者の承諾情報等が必要
 
-合体前の建物に登記されている抵当権について、合体後の建物にその抵当権が存続する旨の記載がないものがあるときは、その抵当権を消滅させることになるため、抵当権の登記名義人が消滅を承諾したことを証する情報、または抵当権者に対抗できる裁判があったことを証する情報を提供しなければなりません。したがって本肢は正しい記述です。
+合体前の建物に登記されていた抵当権のうち合体後の建物に存続させないものは、権利の登記名義人がその消滅を承諾したことを証する情報が提供されたときに、登記官がその消滅した旨を登記します（不動産登記法50条）。したがって、抵当権の登記名義人が消滅を承諾したことを証する情報（または対抗できる裁判があったことを証する情報）の提供が必要であり、本肢は正しい記述です。
 
 **たとえば**、合体前の建物の一つに付いていた抵当権を、合体後の建物には引き継がないことにする場合、その抵当権者から「消えてもいい」という承諾をもらうか、それに代わる裁判の証明を用意する必要があります。
 
 ### オ：名義人が異なる建物の合体でも、抵当権存続には承諾情報等が必要
 
-所有権の登記名義人が異なる建物どうしを合体させる場合において、合体前の一部の建物に付いていた抵当権を、合体後の建物の持分について同一内容の登記として存続させようとするときも、その抵当権者が承諾したことを証する情報、または対抗できる裁判があったことを証する情報を提供しなければなりません。したがって本肢は正しい記述です。
+合体後の建物の持分について存続登記（合体前の建物に付いていた権利で合体後の建物に存続するもの）と同一の登記をするときは、当該存続登記に係る権利の登記名義人が承諾したことを証する情報、または対抗できる裁判があったことを証する情報を提供しなければなりません（不動産登記令別表十三の項添付情報欄ト）。所有権の登記名義人が異なる建物の合体でもこの扱いに変わりはなく、本肢は正しい記述です。
 
 **たとえば**、Aさん所有の建物とBさん所有の建物を合体させ、A所有部分に付いていた抵当権をそのまま合体後の持分にも存続させたいときは、その抵当権者から「持分に対する形でも存続を認めます」という承諾をもらうか、それに代わる裁判の証明が必要です。
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 合体による登記等（表示の登記）は登録免許税が課されない |
-| イ | 正 | 全員申請＋印鑑証明書があれば、持分割合を証する情報は別途不要 |
-| ウ | 誤 | 同一名義人であれば、登記識別情報の提供は一方で足りる |
-| エ | 正 | 抵当権を消滅させるには、承諾情報又は対抗できる裁判の情報が必要 |
-| オ | 正 | 名義人が異なる場合の抵当権存続にも、承諾情報等が必要 |
+- **ア（誤）**　合体による登記等は登録免許税法別表第一の課税対象に掲げられておらず非課税
+- **イ（正）**　全員申請＋印鑑証明書があれば、持分割合を証する情報は別途不要
+- **ウ（誤）**　同一名義人であれば、登記識別情報はいずれか一個の建物の分で足りる
+- **エ（正）**　抵当権を消滅させるには、承諾情報又は対抗できる裁判の情報が必要
+- **オ（正）**　名義人が異なる場合の抵当権存続にも、承諾情報等が必要
 
 「表示の登記だから課税されない」という原則と、「同一名義人なら添付が一部省略できる」という実務上の合理化ポイントをセットで押さえましょう。
 
@@ -68,8 +66,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・ウが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- ア（合体による登記等が表示に関する登記として原則非課税であること）は、登録免許税が表示に関する登記には原則として課されないという一般原則に基づく説明です。ウ（合体前の所有権の登記名義人が同一であれば登記識別情報は一方の提供で足りること）は、公式正答（アウが誤り）と整合するように説明したものですが、この点の条文・先例による逐一の一次資料照合は今回はできていません。イ・エ・オ（持分割合を証する情報の省略、抵当権消滅・存続の承諾情報）は、合体による登記等に関する一般的な取扱いに基づく説明です。
-- 今回はネット検索の利用制限（レート制限）のため、この記事の作成時点でリアルタイムの一次資料確認ができていません。特にア・ウの根拠条文について、あらためて確認のうえ必要に応じて修正してください。
+- **【2026年8月4日 現行法との整合性を再検証し、条文根拠を補いました】** 正誤の判定は初版から変更ありません。**不動産登記法49条**（合体による登記等の申請。合体があった日から1月以内に、合体後の建物についての表題登記および合体前の建物の表題部の登記の抹消等を申請しなければならない）が現行条文どおりであることを確認し、導入部に反映しました。
+- **【2026年8月6日 ローカル法令データベース（laws/）で全肢の条文根拠を再確認・追記しました】** 正誤の判定は変更ありません。ア（非課税）は、**登録免許税法別表第一「一　不動産の登記」（十三）**に、表示に関する登記のうち課税対象として掲げられているのは土地の分筆・建物の分割若しくは区分、土地の合筆・建物の合併の4種類のみであり、建物の合体による登記等はこの一覧に含まれないことを条文で確認しました（同法2条・別表第一）。ウ（登記識別情報の一方提供）は**不動産登記令8条2項2号**に明文の根拠があることを確認しました。エ（抵当権消滅の承諾情報）は**不動産登記法50条**、オ（抵当権存続の承諾情報）は**不動産登記令別表十三の項添付情報欄ト**にそれぞれ根拠があることを確認しました。
+- イ（全員申請＋印鑑証明書による持分割合証明の代替）については、laws/収録の不動産登記法・不動産登記令（本則・別表）・不動産登記規則のいずれにも該当する明文の規定を発見できませんでした。実務上の先例・通達に基づく取扱いの可能性があり、条文上の根拠特定には至っていません。
 - **【重複出題あり】重複出題チェック（2026-07-22実施）**：R02年度第16問の肢ア（所有権の登記名義人を異にする建物の合体における、一部建物の抵当権についての合体後持分の存続登記の承諾証明情報等の提供）が本問の肢オと、また同問の肢イ（持分割合の証明を印鑑証明書の提供で代替できる旨）が本問の肢イと、それぞれほぼ同一内容・同一言い回しです。5肢中2肢が高い一致度で再利用されています。**noteへの投稿にあたっては、R02年度第16問の解説記事とテーマ・具体例が重複する点に注意し、両方を続けて発信しないようにしてください。**
 
 ---
@@ -81,3 +80,110 @@
 - 同じ人の建物どうしなら、登記識別情報は片方でいいんです
 - 抵当権を消すには、抵当権者の承諾がいるんです
 - 名義人が違う建物の合体でも、抵当権にはひと手間必要
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+2棟が1棟になる「合体」の実務
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第15問／建物の合体による登記等
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft beige containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+合体の登記に登録免許税はかからない
+Illustration: 2棟の建物が1棟につながるisometricイラスト。税金の請求書アイコンに大きな✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+表示登記は非課税
+
+--- CARD 2 ---
+Badge: a filled circle in soft beige containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+全員申請＋印鑑証明で持分証明は省ける
+Illustration: AとBのキャラクターが並んで印鑑証明書を提出するisometricイラスト。別の「持分証明書」の書類に✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+別途の証明は不要
+
+--- CARD 3 ---
+Badge: a filled circle in soft beige containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+同一名義人なら登記識別情報は一方でOK
+Illustration: Aが所有する2棟の建物のisometricイラスト。片方の登記識別情報の通知書だけが提出される図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+一方の提供で足りる
+
+--- CARD 4 ---
+Badge: a filled circle in soft beige containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+抵当権を消すには承諾情報が必要
+Illustration: 合体前の建物に付いた抵当権のリボンが外れるisometricイラスト。抵当権者のキャラクターが承諾書を渡す図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+承諾情報が必要
+
+--- CARD 5 ---
+Badge: a filled circle in soft beige containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+名義人が違っても抵当権存続に承諾情報
+Illustration: A所有とB所有の建物が合体するisometricイラスト。A側の抵当権が持分に存続するために、抵当権者の承諾書が渡される図。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft beige, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+承諾情報が必要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

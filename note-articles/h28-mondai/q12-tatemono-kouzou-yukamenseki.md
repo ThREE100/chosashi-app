@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】「算入する」「しない」を逆に覚えると危ないんです〜建物の構造及び床面積を解説〜
+## 【土地家屋調査士受験生向け】平成28年度 第12問〜「算入する」「しない」は逆だと危ない〜
 
 **出題年度：平成28年度　午後の部　第12問**
 
@@ -50,15 +50,13 @@
 
 **たとえば**、玄関の外に設置された、屋根と手すりだけがついている屋外階段であれば、雨に濡れずに使えるとしても、周囲が壁で囲まれているわけではないため、その階段部分の面積は建物の床面積には含めません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 区分・細区分した専有部分の構造には屋根の種類を記録しなくてよい（準則81条3項） |
-| イ | 正 | ガード下の建物は「ガード下◯階建」と記録する（準則81条1項3号ウ・77条1号ウ） |
-| ウ | 誤 | 一室の一部が天井高1.5メートル未満でも、その部分を含め一室全体が床面積に算入される（準則82条1項1号） |
-| エ | 誤 | 停車場の乗降場・荷物積卸場の床面積には地下道設備の面積を算入しない（準則82条1項2号・5号） |
-| オ | 正 | 屋根や手すりがあっても外気分断性のない屋外階段は床面積に算入しない（準則82条1項7号） |
+- **ア（正）**　区分・細区分した専有部分の構造には屋根の種類を記録しなくてよい
+- **イ（正）**　ガード下の建物は「ガード下◯階建」と記録する
+- **ウ（誤）**　一室の一部が天井高1.5メートル未満でも、その部分を含め一室全体が床面積に算入される
+- **エ（誤）**　停車場の乗降場・荷物積卸場の床面積には地下道設備の面積を算入しない
+- **オ（正）**　屋根や手すりがあっても外気分断性のない屋外階段は床面積に算入しない
 
 床面積の算入・不算入は、「天井の高さ」「外気分断性」「通路・地下道かどうか」など判断軸ごとに個別の基準があり、思い込みで「入れる・入れない」の方向を逆にしないよう、一つずつ条文の要件を確認することが大切です。
 
@@ -71,7 +69,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成28年度午後の部第12問）・正解番号（4番＝ウエ）は、土地家屋調査士試験対策アプリの検証済みデータベースと、法務省公式の正答PDF（ユーザー提供、平成28年度午後の部第12問＝4）の両方で照合済みです。
 - 各肢（ア〜オ）の正誤判定および法的根拠（準則81条3項、準則81条1項3号ウ・77条1号ウ、準則82条1項1号、準則82条1項2号・5号、準則82条1項7号）は、いずれも同データベースのexplanationフィールドの解説に基づいています。e-Gov法令検索での逐条確認は本セッションでは行えていないため、実務・受験対策で使う際は、念のため準則原文での再確認をおすすめします。
-- **再確認・訂正（2026-08-12実施）**：リサーチエージェントによる独立調査の結果、エの根拠条文に誤りが見つかりました。訂正前は「準則82条1項4号」としていましたが、同号は「地下停車場・地下駐車場・地下街」に関する別の号であり、本肢の「停車場の地下道設備は床面積に算入しない」という内容の正しい根拠は**同項5号**です（あわせて上屋部分の面積計算方法を定める2号も引用しました）。正誤判定（誤）自体は変わりません。データベースのexplanationフィールド自体がこの2つの号を取り違えて引用しており、記事はそれをそのまま継承していました。他の肢（ア・イ・ウ・オ）の条文根拠は、独立調査により実在性・内容とも正確であることを確認済みです。
+- **再確認・訂正（2026-08-12実施）**：リサーチエージェントによる独立調査の結果、エの根拠条文に誤りが見つかりました。訂正前は「準則82条1項4号」としていましたが、同号は「地下停車場・地下駐車場・地下街」に関する別の号であり、本肢の「停車場の地下道設備は床面積に算入しない」という内容の正しい根拠は同項5号です（あわせて上屋部分の面積計算方法を定める2号も引用しました）。正誤判定（誤）自体は変わりません。同内容の修正はブランチmain（コミット3cfc345）にも別途適用済みです。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（建物の構造及び床面積）と同一・類似の問題が再出題されていないかを確認しました。R02年度第12問が同一タイトルで出題されていますが、内容（開閉式屋根の野球場、混構造の建物の階数表示、地下街の通路面積算入、屋根種類の異なる不算入部分の扱い）は本問の各肢（区分の際の屋根種類記録、ガード下建物の階数表示、天井高1.5m未満部分の床面積算入、停車場乗降場の床面積、屋外階段の床面積算入）と直接重なりません。H29年度第16問ウは「天井の高さ1.5メートルの屋根裏部屋」を階数区分の文脈で扱っており、本問ウの天井高1.5m基準（床面積算入の文脈）と数値は共通するものの、問われている法的効果（階数の表示か、床面積への算入か）が異なるため、直接の重複ではありません。全体として明確な重複は見つかりませんでした。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -88,13 +86,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の構造及び床面積をめぐる5つの規定を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+「構造の記録方法」と「床面積に算入するか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric cutaway buildings, roof shapes, elevated railways, staircases, station platforms — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric cutaway buildings,
+roof shapes, elevated railways, ceiling cross-sections, station
+platforms, staircases, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -103,60 +114,87 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 建・物・地 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-「算入する」「しない」を
-逆に覚えると危ない
+Title (large, bold, 1行):
+「算入する」「しない」、逆に覚えると危ない
 
 Subtitle (smaller, centered, 1行):
-屋根の種類・階数表示・天井高・地下道・屋外階段を整理(平成28年度 午後の部 第12問)
+平成28年度 午後の部 第12問－構造の記録と床面積算入のルール
 
-（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-区分した専有部分に、屋根の種類は書かない
-Illustration: An isometric apartment building divided into individual 専有部分 units, each unit's structure label box showing a crossed-out roof icon, while the overall whole-building icon above keeps its own roof-type label intact.
-Caption (small text below):
-共同住宅を階層的に区分した専有部分の構造には、屋根の種類を記録する必要はない(準則81条3項)。
---- CARD 2 ---
-Heading (bold):
-ガード下の建物は「ガード下◯階建」と書く
-Illustration: An isometric building constructed underneath an elevated railway track(ガード), with a tag reading ガード下2階建 attached to it.
-Caption (small text below):
-ガード下に新築された建物の階数区分は「ガード下◯階建」と記録する(準則81条1項3号ウ・77条1号ウ)。
---- CARD 3 ---
-Heading (bold):
-天井が低い部分も、一室まるごと床面積に入る
-Illustration: An isometric cross-section of a single room where part of the ceiling is lower than 1.5メートル(highlighted in a different shade), but the entire floor area of the room is shaded green and stamped 床面積に算入.
-Caption (small text below):
-一室の一部の天井高が1.5メートル未満でも、その部分を含め一室全体が床面積に算入される(準則82条1項1号)。
---- CARD 4 ---
-Heading (bold):
-地下道の面積は、乗降場の床面積に入れない
-Illustration: An isometric train station platform icon(乗降場)with a separate underground passage(地下道設備)connected by a crossed-out arrow, showing the passage area is NOT added into the platform's floor-area total.
-Caption (small text below):
-停車場の乗降場及び荷物積卸場の床面積には、地下道設備の面積を算入しない(準則82条1項2号・5号)。
---- CARD 5 ---
-Heading (bold):
-屋根や手すりがあっても、屋外階段は床面積に入らない
-Illustration: An isometric exterior staircase with a small roof and handrail attached, its floor area shaded gray and stamped 算入しない with a crossed-out floor-area icon.
-Caption (small text below):
-外気分断性のない屋外階段は、雨除けの屋根や手すりがあっても床面積に算入しない(準則82条1項7号)。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+構造の記録方法
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分した専有部分に屋根の種類は不要
+Illustration: An isometric apartment building divided into individual
+"専有部分" units, each unit's structure label box showing a crossed-out
+roof icon, while the overall whole-building icon above keeps its own
+roof-type label intact.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+屋根種類は不要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+ガード下建物は「ガード下◯階建」
+Illustration: An isometric building constructed underneath an elevated
+railway track ("ガード"), with a tag reading "ガード下2階建" attached to it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+ガード下◯階建
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+床面積に算入するか
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+天井が低くても一室まるごと算入
+Illustration: An isometric cross-section of a single room where part of
+the ceiling is lower than "1.5メートル" (highlighted in a different
+shade), but the entire floor area of the room is shaded green and
+stamped "床面積に算入".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一室まるごと算入
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地下道設備の面積は算入しない
+Illustration: An isometric train station platform icon ("乗降場") with a
+separate underground passage ("地下道設備") connected by an arrow crossed
+out with a red X, showing the passage area is NOT added into the
+platform's floor-area total.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+地下道は算入外
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+屋根や手すりがあっても屋外階段は不算入
+Illustration: An isometric exterior staircase with a small roof and
+handrail attached, its floor area shaded gray and stamped "算入しない"
+with a crossed-out floor-area icon.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+屋外階段は不算入
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第12問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

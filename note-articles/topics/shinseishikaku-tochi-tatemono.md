@@ -56,3 +56,249 @@
 - マンションだけは、買主に申請資格がないって知ってた？
 - 原始取得者が死んだら、相続人は「亡き人の名前」で登記するんです
 - 買主が登記できないから、後で保存登記を別にするんです
+
+## インフォグラフィック プロンプト
+
+### 画像1：表題登記、誰が申請できる？（俯瞰カードポスター型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plot, single
+house, apartment building, ownership transfer arrows, document stamps,
+family tree — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 登, 記,
+建, 物, 権, 所, 地 — do not draw these as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表題登記、誰が申請できる？
+
+Subtitle (smaller, centered, 1行):
+土地・通常の建物・区分建物で結論が異なる
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+土地・通常の建物（同じ扱い）
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+今の所有者が申請（土地）
+Illustration: an isometric land plot; a figure labeled "A" (original
+owner) hands an ownership arrow to a figure labeled "B" (buyer); B holds
+a document icon labeled "表題登記"; a checkmark (✓) is placed next to B.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+買主自身の名義
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+今の所有者が申請（通常建物）
+Illustration: an isometric single-family house; a figure labeled "A"
+(original owner, builder) hands an ownership arrow to a figure labeled
+"B" (buyer); B holds a document icon labeled "表題登記"; a checkmark (✓)
+is placed next to B.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters):
+買主自身の名義
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+区分建物（例外）
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+区分建物は原始取得者のみ
+Illustration: an isometric apartment building (マンション); a figure
+labeled "A" (原始取得者, developer) holds a document icon labeled
+"表題登記" with a checkmark (✓) next to A; a separate figure labeled "B"
+(買主) stands beside a crossed-out document icon (✕).
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+転得者は資格なし
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+Aが死亡したら相続人が亡A名義で申請
+Illustration: a simple family-tree icon showing figure "A" with a small
+torn-paper label "亡A" attached, connected by a line to figure "C"
+labeled "相続人"; C holds a document icon labeled "表題登記" on which the
+applicant name shown is "亡A", not "C".
+Conclusion tag (a short colored banner/pill directly below the
+illustration, blue, 5-15 Japanese characters):
+亡A名義のまま
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 4 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```
+
+### 画像2：表題登記の申請資格 まとめ表（早見表型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: land plot, single house,
+apartment building — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to the table. Each table row must communicate its point through a
+small icon plus the exact label text specified below. Do NOT render any
+explanatory paragraph beyond the table cell text itself.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 登, 記,
+建, 物, 権, 所, 地 — do not draw these as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+表題登記の申請資格 まとめ表
+
+Subtitle (smaller, centered, 1行):
+売却後、誰が申請し、誰の名前で登記されるか
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(pale blue / white), Japanese sans-serif font, no monospace font. 3 columns:
+対象 / 売却後、誰が申請？ / 誰の名前で登記される？. One small isometric icon
+may be placed next to each 対象 name. Header row and 3 data rows, verbatim
+as follows:
+
+Header row: 対象 | 売却後、誰が申請？ | 誰の名前で登記される？
+
+Row 1: 土地 | 今の所有者（買主） | 買主自身の名前
+Row 2: 通常の建物 | 今の所有者（買主） | 買主自身の名前
+Row 3: 区分建物 | 原始取得者のみ（買主に資格なし） | 原始取得者の名前（買主は保存登記で別途）
+
+--- FOOTER ---
+
+Enumeration check: this table must contain exactly 3 data rows,
+corresponding one-to-one to 土地・通常の建物・区分建物 above — do not add,
+omit, merge, duplicate, or reword any row; every cell's text must match
+the list above character-for-character.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 3 data rows plus 1
+header row, with no duplicated or missing rows, confirm there is no intro
+illustration or paragraph block between the header and the table, and
+confirm every cell text matches the verbatim strings above exactly.
+```
+
+### 画像3：区分建物、誰が申請できる？判定フロー（フローチャート型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: apartment building, developer
+figure, buyer figure, document stamps, family tree — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+decision-flow poster, NOT a text-heavy explainer document. There is NO
+intro illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the flowchart. Every node must communicate its
+point almost entirely through the illustration (icons, arrows, ○/✕ marks,
+short embedded labels) plus one short line of node text. Do NOT render any
+full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to 登, 記,
+建, 物, 権, 所, 地 — do not draw these as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+区分建物、誰が申請できる？判定フロー
+
+Subtitle (smaller, centered, 1行):
+原始取得者Aが売却後に申請しない場合の分かれ道
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+Node 1 (start node, rounded rectangle, top of chart):
+デベロッパーAが区分建物を新築し、表題登記前にBへ売却
+
+Node 2 (decision node, diamond shape, directly below Node 1):
+Aの状況は？
+
+Branch a (arrow from Node 2, labeled "Aが申請する") → Node 3 (result node,
+rounded rectangle with a green ✓ icon):
+表題部所有者はA
+
+Branch b (arrow from Node 2, labeled "Aが申請せず放置") → Node 4 (decision
+node, diamond shape):
+Bは代位申請できるか？（民法423条）
+　→ arrow labeled "できる" → Node 5 (result node, rounded rectangle with a
+　  green ✓ icon):
+　  Bが代位申請、表題部所有者はやはりA、Bはその後に所有権保存登記を別途申請
+
+Branch c (arrow from Node 2, labeled "Aが死亡した") → Node 6 (result node,
+rounded rectangle with a green ✓ icon):
+相続人Cが亡A名義で表題登記を申請、表題部所有者は亡A
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the flowchart has exactly 1 start node, 2
+decision nodes (diamonds), and 3 result nodes as specified above, with no
+duplicated or missing nodes, confirm there is no intro illustration or
+paragraph block between the header and the flowchart, and confirm no node
+contains a full sentence of explanatory prose beyond the short text given
+above.
+```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】所有権はいつ移る？登記がいる場面・いらない場面〜平成29年度午後の部 第2問を解説〜
+## 【土地家屋調査士受験生向け】平成29年度 第2問〜所有権が移るのは登記でなく取得の瞬間〜
 
 **出題年度：平成29年度　午後の部　第2問**
 
@@ -25,13 +25,13 @@
 
 ### ア：他人物売買では、売主が所有権を取得した時点で買主に移転する
 
-他人の物を売買の目的とした場合（他人物売買）も、債権契約としては有効です。もっとも、買主に所有権が移転するのは、売主がその物の所有権（処分権）を取得した時点です（大判大8.7.5）。本肢では、Ｂが元の所有者Ａから土地を買い受けて所有権を取得した「その時点」でＣに所有権が移転するのであって、「ＡからＢへの移転登記がされた時点」に限られるわけではありません。登記の時点に絞り込んでいる学生の解答は、判例と異なり誤りです。
+他人の物を売買の目的とした場合（他人物売買）も、債権契約としては有効です。もっとも、買主に所有権が移転するのは、売主がその物の所有権（処分権）を取得した時点だというのが判例の立場です。本肢では、Ｂが元の所有者Ａから土地を買い受けて所有権を取得した「その時点」でＣに所有権が移転するのであって、「ＡからＢへの移転登記がされた時点」に限られるわけではありません。登記の時点に絞り込んでいる学生の解答は、判例と異なり誤りです。
 
 **たとえば**、まだＡさん名義の土地を、Ｂさんが先にＣさんへ「必ず自分のものにして渡すから」と売る約束をしたとします。その後ＢさんがＡさんからその土地を買って自分のものにした瞬間に、土地はＣさんのものになります。登記の手続がいつ入ったかを待つ必要はありません。
 
 ### イ：登記後に時効が完成した占有者は、登記なくして所有権を主張できる
 
-Ａの土地をＣが占有して取得時効が進行している途中で、その土地がＡからＢへ譲渡されて登記も移った後に、Ｃの取得時効が完成した場合、ＣとＢは物権変動の当事者に類似する関係に立ちます。そのため、Ｂは民法177条の「第三者」にはあたらず、Ｃは登記なくして時効取得をＢに対抗することができます（最判昭41.11.22）。学生の解答は判例どおりで正しい記述です。
+Ａの土地をＣが占有して取得時効が進行している途中で、その土地がＡからＢへ譲渡されて登記も移った後に、Ｃの取得時効が完成した場合、ＣとＢは物権変動の当事者に類似する関係に立ちます。そのため、Ｂは民法177条の「第三者」にはあたらず、Ｃは登記なくして時効取得をＢに対抗することができるというのが判例の立場です。学生の解答は判例どおりで正しい記述です。
 
 **たとえば**、Ｃさんが長年ある土地を自分の土地のつもりで使い続けていたところ、その途中で持ち主がＡさんからＢさんに変わり、登記もＢさん名義になったとします。その後にＣさんの時効期間が満了して時効を主張した場合、Ｃさんは「登記はしていないけれど、時効で自分のものになった」とＢさんに堂々と言えるのです。
 
@@ -43,7 +43,7 @@
 
 ### エ：権原のない不法占拠者に対しては、登記なくして所有権を主張できる
 
-民法177条の「第三者」とは、当事者やその包括承継人以外の者で、登記がないことを主張するについて正当な利益を有する者に限られます（大連判明41.12.15）。何の権原もなく土地の占有を始めた不法占拠者は、この「第三者」にあたりません。したがって、買主Ｂは登記がなくても、不法占拠者Ｃに対して所有権を主張することができます。学生の解答は正しい記述です。
+民法177条の「第三者」とは、当事者やその包括承継人以外の者で、登記がないことを主張するについて正当な利益を有する者に限られるというのが判例の立場です。何の権原もなく土地の占有を始めた不法占拠者は、この「第三者」にあたりません。したがって、買主Ｂは登記がなくても、不法占拠者Ｃに対して所有権を主張することができます。学生の解答は正しい記述です。
 
 **たとえば**、Ａさんから土地を買ったＢさんが、まだ登記を移す前に、まったく無関係のＣさんが勝手にその土地に居座り始めたとします。Ｃさんには土地を使う正当な理由が何もないので、Ｂさんは「まだ登記していないから」などと気にせず、Ｃさんに「出ていってください」と所有権を主張できます。
 
@@ -53,15 +53,13 @@
 
 **たとえば**、Ｂさんが「Ａさんから買った土地の登記手続をお願いします」とＣさんに頼んでいたのに、そのＣさんが手続を進めるどころか、自分でＡさんからその土地を買い取って自分名義にしてしまったとします。これはあまりに信義に反する行為なので、Ｃさんは「Ｂさんは登記していない」と主張する資格がなく、Ｂさんは登記なしでもＣさんに勝てるのです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 他人物売買では売主が所有権を取得した時点で買主に移転（登記時点に限られない・大判大8.7.5） |
-| イ | 正 | 登記後に時効完成した占有者は、登記なくして対抗できる（最判昭41.11.22） |
-| ウ | 誤 | 解除後の第三者とは対抗関係。解除者も登記がなければ対抗できない |
-| エ | 正 | 不法占拠者は177条の「第三者」にあたらない（大連判明41.12.15） |
-| オ | 正 | 登記申請を受任していた者は「第三者」にあたらない（不登法5条2項） |
+- **ア（誤）**　他人物売買では売主が所有権を取得した時点で買主に移転（登記時点に限られない）
+- **イ（正）**　登記後に時効完成した占有者は、登記なくして対抗できる
+- **ウ（誤）**　解除後の第三者とは対抗関係。解除者も登記がなければ対抗できない
+- **エ（正）**　不法占拠者は177条の「第三者」にあたらない
+- **オ（正）**　登記申請を受任していた者は「第三者」にあたらない
 
 物権変動は「所有権がいつ移るか」と「その第三者は保護に値する正当な利益を持つか」を分けて考えると、登記の要否がすっきり整理できます。
 
@@ -86,3 +84,121 @@
 - 解除したあとの第三者には、登記がないと勝てないんです
 - 不法占拠者に「登記まだだから」は言われないんです
 - 登記を頼まれてた人が横取り、それは通らないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「登記なくして対抗できる相手」（イ・エ・オ＝列A・緑）と、「登記が必要になる場面」（ア・ウ、いずれも誤りの肢を正しいルールに直したもの＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, small
+houses, sale/transfer arrows between figures A・B・C, registry stamps,
+calendars, occupying figures with footprints, torn paper labels, red X
+marks and green check marks, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・記・得・対・抗・占・拠・権・原・効・時・受・任・解・除・転・売・義
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その主張、登記なくてもできる？
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第2問－物権変動と対抗要件の5つの場面
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+登記なくして対抗できる相手
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+登記後に時効完成なら登記不要
+Illustration: 土地アイコンの上に占有者Cの足跡と小さな小屋アイコン。土地の名義がAからBへ変わり「登記済み」の緑スタンプが押される。その後にCの時効カレンダーが「時効完成」のチェックマークに変わり、C→Bへ伸びる矢印に「対抗できる」のラベルと✓マーク、両者の間に立つ登記の壁アイコンには赤い✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+時効完成者は対抗可
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+不法占拠者に登記なくして主張可
+Illustration: 土地アイコンにA→Bの売買矢印（まだ登記前）。まったく無関係の人物C（腕組みで正当な理由なしを示す看板「正当な利益なし」を横に掲示）が勝手に土地に座り込んでいる。Bが指差して「出て行ってください」と主張する吹き出し、Cの横に置かれた登記書類アイコンには赤い✕マーク（不要の意味）。
+Conclusion tag (green, 5-15 characters):
+無権原者には登記不要
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+受任した登記申請人にも登記不要
+Illustration: BがCに「登記手続お願いします」と書類を渡す場面。その隣で、Cがこっそり自分でAから土地を買い取り、A→C登記の緑スタンプを押している。Cの頭上に「信義に反する」という警告アイコン、Bから伸びる「対抗できる」の矢印に✓マーク、登記書類アイコンには赤い✕マーク。
+Conclusion tag (green, 5-15 characters):
+受任者にも登記不要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+登記が必要になる場面
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+所有権は取得した瞬間に移転
+Illustration: A→B→Cと連なる売買の矢印。Bが元の所有者Aから土地を買い取った瞬間にキラキラマークが光り、同時にBからCへも所有権のキラキラが伝わる。横に置かれた「登記完了」のスタンプアイコンには時計の針と赤い✕マーク（登記完了を待つ必要はないことを示す）。
+Conclusion tag (blue, 5-15 characters):
+取得の瞬間に移転
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+解除後の第三者には登記が必要
+Illustration: A→Bへ売買・登記済み（緑スタンプ）。Aが「解除」の赤いスタンプを契約書に押す。その後Bが土地をCへ転売し、C名義の登記済みスタンプも押される。土地を挟んでAとCが向き合い、Aは登記していない書類（赤い✕マーク付き）を、Cは登記済みの書類（緑の✓マーク付き）を掲げている。
+Conclusion tag (blue, 5-15 characters):
+解除者も登記が必要
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 登記後に時効完成なら登記不要
+2. 不法占拠者に登記なくして主張可
+3. 受任した登記申請人にも登記不要
+4. 所有権は取得した瞬間に移転
+5. 解除後の第三者には登記が必要
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

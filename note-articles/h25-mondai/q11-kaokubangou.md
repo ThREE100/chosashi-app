@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】地番が変わっても家屋番号は自動で変わらない〜家屋番号の性質〜
+## 【土地家屋調査士受験生向け】平成25年度 第11問〜家屋番号の更正登記という制度はない〜
 
 **出題年度：平成25年度　午後の部　第11問**
 
@@ -16,7 +16,7 @@
 >
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
-家屋番号は、土地の地番とは別に建物ごとに付される固有の識別番号です。地番の変更に連動して自動的に変わるものではない、という「独立性」を理解しているかがこの問題の核心です。
+家屋番号は、土地の地番とは別に建物ごとに付される固有の識別番号です。敷地の地番が変更・更正されれば家屋番号もそれに応じて変わりますが、それはあくまで登記官が職権的に行う処理であり、申請人が「家屋番号の更正登記」という手続を申請できるわけではない、という点を理解しているかがこの問題の核心です。
 
 ### ア：分割の登記の申請には、分割前の建物の家屋番号の提供が必要
 
@@ -30,11 +30,11 @@
 
 **たとえば**、団地共用部分とする建物について、不動産番号さえ申請書に記載すれば、それとは別に家屋番号を重ねて記載する必要はありません。
 
-### ウ：地番の更正登記をしても、家屋番号の更正登記という制度はない
+### ウ：地番の更正登記をしても、「家屋番号の更正登記」という申請はできない
 
-家屋番号は、建物が最初に登記された時点の地番に基づいて付番される固有の識別番号であり、その後に建物の所在する土地の地番が更正されたとしても、家屋番号自体が当然に連動して変わるわけではありません。家屋番号そのものを「更正」する登記という制度は予定されていないため、これを申請することはできません。
+家屋番号は不動産登記法44条1項2号の登記事項であり、敷地の地番が変更・更正されれば、それに応じて家屋番号も変わります。もっとも、この家屋番号の変更は、登記官が職権的に処理するものであり、申請人が「家屋番号の更正登記」という独立した手続を申請する制度にはなっていません。不登法51条1項が、変更の登記の申請義務を定めた登記事項から家屋番号（44条1項2号）を明示的に除外しているのも、家屋番号の変更が申請人による変更登記の対象ではないことの表れです。したがって、ウのいう「家屋番号の更正の登記を申請することはできない」は正しい記述です。
 
-**たとえば**、建物が建っている土地の地番が「10番」から「10番1」に更正されたとしても、その建物にすでに付されている家屋番号自体を、あらためて「更正」する登記を申請することはできません。
+**たとえば**、建物が建っている土地の地番が「10番」から「10番1」に更正された場合、その建物の家屋番号も登記官の手によって「10番1」に改められますが、これは建物の所有者が「家屋番号の更正登記」を申請して行うものではありません。
 
 ### エ：区分建物の家屋番号は、区分建物と一棟の建物の両方の表題部に記録される
 
@@ -48,17 +48,15 @@
 
 **たとえば**、主である建物はA登記所の管轄内、附属建物はB登記所の管轄内にあるという特殊なケースでも、附属建物に独自の家屋番号が新たに付されることはなく、主である建物の家屋番号に含まれる形で扱われます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 分割の登記の申請には、分割前の建物の家屋番号の提供が必要 |
-| イ | 誤 | 不動産番号を提供する場合は、家屋番号の提供を省略できる |
-| ウ | 正 | 家屋番号は地番の更正に連動せず、家屋番号自体の更正登記という制度はない |
-| エ | 正 | 区分建物の家屋番号は、区分建物と一棟の建物の両方の表題部に記録される |
-| オ | 誤 | 管轄登記所が異なっても、附属建物に独立した家屋番号は付されない |
+- **ア（誤）**　分割の登記の申請には、分割前の建物の家屋番号の提供が必要
+- **イ（誤）**　不動産番号を提供する場合は、家屋番号の提供を省略できる
+- **ウ（正）**　家屋番号は地番の変更に応じて登記官が職権的に改めるものであり、申請人が「家屋番号の更正登記」を申請する制度はない
+- **エ（正）**　区分建物の家屋番号は、区分建物と一棟の建物の両方の表題部に記録される
+- **オ（誤）**　管轄登記所が異なっても、附属建物に独立した家屋番号は付されない
 
-家屋番号は「建物固有の背番号」のようなものであり、地番の変動や管轄の違いに左右されない独立した性質を持つ、という視点で整理すると覚えやすくなります。
+家屋番号は「建物固有の背番号」のようなものであり、地番が変われば登記官の手で書き換えられますが、その書き換えを申請人自身が「更正登記」として申請することはできない、という視点で整理すると覚えやすくなります。
 
 **正解：ウエの組合せ（選択肢4番）**
 
@@ -68,7 +66,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝ウ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
-- 各肢の法的根拠は、不動産登記法44条・不動産登記令等が定める家屋番号の記録方法・不動産番号による省略規定に基づく一般的な理解です。ウ（家屋番号は地番の更正に連動しない）とオ（管轄が異なる附属建物の家屋番号）については、条文の直接の明文というより実務上の理解にとどまる部分があります。
+- 各肢の法的根拠は、`note-articles/laws/`のローカル法令データベースで条文原文を確認しました。エは不登規則116条1項（区分建物の登記記録の表題部に、当該建物が属する一棟の建物に属する他の建物の家屋番号を記録する旨）及び規則別表（一棟の建物の表題部の「専有部分の家屋番号欄」に一棟に属する区分建物の家屋番号を記録する旨）と一致します。オは規則112条2項「附属建物には、符号を付すものとする」と一致し、附属建物には管轄の異同にかかわらず独立した家屋番号ではなく符号が付されることが確認できました。ウは、不登法44条1項2号（家屋番号は登記事項）・51条1項（変更登記の申請義務の対象から2号＝家屋番号を明示的に除外）と準則79条10号（「敷地地番の変更又は更正による...家屋番号を変更する」＝登記官が職権的に家屋番号を改める）を突き合わせて確認しました。当初の原稿では「家屋番号は地番の更正に連動しない」としていましたが、準則79条10号により家屋番号自体は地番の変更・更正に応じて改められることが判明したため、2026-08-12に本文を「家屋番号は変わるが、その変更は登記官の職権処理であり、申請人が『家屋番号の更正登記』を申請する制度はない」という趣旨に修正しました。結論（ウ＝正）自体は変わりません。ア・イは不登法44条1項2号（家屋番号の記録）と規則90条・不登法22条の不動産番号による添付省略の一般的な考え方に基づく理解です。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。「家屋番号」を主題とする問題はR02年度第15問・R03年度第9問・R04年度第11問・R05年度第15問など複数年度で見られますが、いずれも本問の5つの具体的論点（分割登記時の家屋番号提供の要否、不動産番号提供時の省略、地番更正への非連動、区分建物の二重記録、別管轄の附属建物への付番）とは異なる切り口の出題であり、直接の重複は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**。
 
 ---
@@ -85,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-家屋番号の性質に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+家屋番号について「申請情報でどう扱われるか」と「どこにどう記録・付番されるか」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric houses, land plots,
+registry desks, application documents, number-tag nameplates, torn paper
+labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,67 +110,96 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・地・番・建・物・登・記・所 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
-地番が変わっても
-家屋番号は自動で変わらない
+家屋番号の変更に
+「更正登記」の申請制度はない
 
 Subtitle (smaller, centered, 1行):
-家屋番号の性質を整理(平成25年度 午後の部 第11問)
+家屋番号の性質を整理（平成25年度 午後の部 第11問－申請情報での扱いと記録のされ方）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric house icon with a fixed number-tag (家屋番号) attached to it like a permanent nameplate, while the land plot beneath it changes its own number tag (地番) without affecting the house's nameplate.
-家屋番号は、土地の地番とは別に建物ごとに付される固有の識別番号です。地番の変更に連動して自動的に変わるものではない、という独立性を5枚のカードで整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-分割の登記の申請には、分割前の建物の家屋番号の提供が必要
-Illustration: An isometric building being split into two by scissors icon (建物の分割), with the application document requiring the original building's number tag (分割前の家屋番号) to be filled in, red X over a blank field.
-Caption (small text below):
-建物の分割の登記を申請するときは、どの建物を分割するか特定するため分割前の建物の家屋番号を申請情報に含める必要がある。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+申請情報での扱い
 
---- CARD 2 ---
-Heading (bold):
-不動産番号を提供する場合は、家屋番号の提供を省略できる
-Illustration: An isometric document showing a single 不動産番号 barcode tag replacing the need for separate 地番 and 家屋番号 fields, both greyed out as unnecessary.
-Caption (small text below):
-申請情報として不動産番号を提供する場合には、家屋番号など他の識別情報の提供を省略できる。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+分割登記は元の家屋番号が必要
+Illustration: An isometric building being split into two by a scissors
+icon (建物の分割). A person submits an application form at a registry
+desk; the field for the original building's number tag (分割前の家屋番号)
+is highlighted as required, with a red X over an attempt to leave it
+blank.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+分割前の番号が必要
 
---- CARD 3 ---
-Heading (bold):
-家屋番号は地番の更正に連動せず、家屋番号自体の更正登記という制度はない
-Illustration: An isometric house with a fixed number-tag (家屋番号10番1) remaining unchanged, while the land plot beneath it changes its number tag from 10番 to 10番1の更正, a red X over an attempted 家屋番号の更正登記 stamp.
-Caption (small text below):
-建物の所在する土地の地番が更正されても家屋番号は当然には連動せず、家屋番号自体を更正する登記という制度はない。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+不動産番号があれば省略可
+Illustration: An isometric application document showing a single
+不動産番号 barcode tag glowing as sufficient, while separate 地番 and
+家屋番号 fields on the same form are greyed out and crossed through as
+unnecessary.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+家屋番号は省略可
 
---- CARD 4 ---
-Heading (bold):
-区分建物の家屋番号は、区分建物と一棟の建物の両方の表題部に記録される
-Illustration: An isometric condominium building (一棟の建物) with a master list on its own record showing every unit's number tag, and each individual unit (区分建物) also carrying its own matching number tag on its own record.
-Caption (small text below):
-区分建物の家屋番号は、各区分建物自身の表題部だけでなく、一棟の建物の表題部にも一覧的に記録される。
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+番号は変わるが申請はできない
+Illustration: An isometric house with a number-tag nameplate changing
+from 家屋番号10番 to 家屋番号10番1 by the registrar's hand stamp (登記官の職権),
+matching the land plot's own tag change from 10番 to 10番1. A red X sits
+over an attempted application form stamped 家屋番号の更正登記申請書, held by
+the building owner.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請人からは更正できない
 
---- CARD 5 ---
-Heading (bold):
-管轄登記所が異なっても、附属建物に独立した家屋番号は付されない
-Illustration: An isometric main building (主である建物) under 登記所A with its own number tag, connected to a small attached shed (附属建物) physically located under a different 登記所B boundary line, the shed having no separate number tag of its own, red X over an attempted independent tag.
-Caption (small text below):
-主である建物と附属建物の所在する土地の管轄登記所が異なる場合でも、附属建物に独立した家屋番号は付されない。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+記録・付番のルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物は一棟にも二重記録
+Illustration: An isometric condominium tower (一棟の建物) with a master
+list on its own record showing every unit's number tag, connected by a
+dotted line to a single unit below (区分建物) that also carries its own
+matching number tag on its own separate record.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一棟にも記録される
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+別管轄の附属建物は付番なし
+Illustration: An isometric main building (主である建物) inside a
+登記所Aの管轄 boundary carrying its own number tag, connected by a bridge
+to a small attached shed (附属建物) sitting inside a different 登記所B
+の管轄 boundary line. The shed has no separate number tag; a red X sits
+over an attempted independent tag.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+独立した番号なし
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第11問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+（申請情報での扱いに3枚、記録・付番のルールに2枚）, with no duplicated or
+missing cards, that badge numbers run 1-5 continuously across both
+columns without resetting, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】「承諾するのは誰か」で結論が変わる〜占有権の細かい条文の読み方〜
+## 【土地家屋調査士受験生向け】平成25年度 第3問〜承諾するのは代理人ではなく第三者〜
 
 **出題年度：平成25年度　午後の部　第3問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、Aさんが自分の物を預けている代理人Bさんに「これからはCさんのために占有してほしい」と指示し、Cさんがこれを承諾すれば、Cさんは占有権を取得します。ここで承諾するのはBさんではなく、あくまでCさんです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 機関としての占有と個人としての占有は併存し得るため、個人としての訴えも提起できる |
-| イ | 正 | 占有の訴えは善意・悪意を問わず提起できる（民法197条以下） |
-| ウ | 誤 | 悪意とみなされるのは「占有開始の時」ではなく「本権の訴えの提起の時」（民法189条2項） |
-| エ | 正 | 代理占有の善意・悪意は占有代理人を基準に判断する |
-| オ | 誤 | 指図による占有移転で承諾するのは「第三者」であり「代理人」ではない（民法184条） |
+- **ア（誤）**　機関としての占有と個人としての占有は併存し得るため、個人としての訴えも提起できる
+- **イ（正）**　占有の訴えは善意・悪意を問わず提起できる
+- **ウ（誤）**　悪意とみなされるのは「占有開始の時」ではなく「本権の訴えの提起の時」
+- **エ（正）**　代理占有の善意・悪意は占有代理人を基準に判断する
+- **オ（誤）**　指図による占有移転で承諾するのは「第三者」であり「代理人」ではない
 
 条文の主語・起算点を正確に読み取る力が試される問題でした。特にオは、条文の文言と選択肢の記述を1語ずつ照らし合わせる習慣がないと見落としやすいポイントです。
 
@@ -68,7 +66,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝イ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
-- 各肢の法的根拠のうち、イ（民法197条）、ウ（民法189条2項）、オ（民法184条）は条文の文言そのもので確認できています。ア（機関占有と個人占有の併存）とエ（代理占有の善意・悪意の判断基準）は、判例・通説による一般的な理解です。
+- 各肢の法的根拠は、`note-articles/laws/`のローカル法令データベース（`minpou-1-soukyoku-bukken.md`）で条文原文を確認しました。イ（民法197条「占有者は、次条から第二百二条までの規定に従い、占有の訴えを提起することができる」・200条「占有者がその占有を奪われたときは、占有回収の訴えにより…請求することができる」。いずれの条文にも占有者の善意・悪意を問う文言はなく、占有回収の訴えが占有者の主観的事情を要件としないことが条文の文言上確認できます）、ウ（民法189条2項「善意の占有者が本権の訴えにおいて敗訴したときは、その訴えの提起の時から悪意の占有者とみなす」で、悪意とみなされる起点が「占有開始の時」ではなく「訴えの提起の時」であることが条文の文言そのもので確認できました）、オ（民法184条「代理人によって占有をする場合において、本人がその代理人に対して以後第三者のためにその物を占有することを命じ、その第三者がこれを承諾したときは、その第三者は、占有権を取得する」で、承諾するのは「第三者」であり「代理人」ではないことが条文の文言そのもので確認できました）は、いずれも条文の文言で確認できています。ア（機関占有と個人占有の併存）とエ（代理占有の善意・悪意の判断基準）については、`laws/`収録の民法にこれを直接定める条文が見当たりませんでした。エについては民法101条（代理行為の瑕疵）が代理人を基準に事実の有無を決する旨を定めていますが、これは意思表示の瑕疵に関する規定であり、占有代理人の善意・悪意の判断基準を直接定めたものではないため、類推の可能性を示唆するにとどまります。ア・エとも、判例・通説による一般的な理解にとどまる点は変わりません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。占有権は R03年度第2問・R07年度第2問でも出題されており、特にR07年度第2問エは、本問オと同じ民法184条（指図による占有移転）を、承諾する主体を正しく「第三者」として問う形で出題しています（本問オは誤った記述として「代理人が承諾」としている点が異なります）。条文自体は共通ですが、具体的な事例設定・問われ方は異なるため直接の重複ではありませんが、**184条という同一条文が繰り返し狙われている**点はnote投稿時に留意してください。
 
 ---
@@ -85,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-占有権に関する5つの条文論点（機関占有、占有の訴え、悪意とみなす時点、代理占有、指図による占有移転）を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+占有権について「占有の訴えに関するルール」と「代理占有のルール」という2つの軸に沿って、5肢すべての結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric office buildings,
+land plots, courthouses, gavels, thought bubbles, document stamps, etc.
+— adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,67 +110,91 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・悪・諾・図 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-占有権の条文を
-1文字ずつ正確に読む
+Title (large, bold, 1行):
+占有権、条文の主語を正確に読む
 
 Subtitle (smaller, centered, 1行):
 占有回収の訴え・代理占有・指図による占有移転を整理(平成25年度 午後の部 第3問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene showing a magnifying glass hovering over a legal document icon with small highlighted words, next to a hand icon pointing precisely at one word among several similar-looking words.
-占有権の分野は、条文の主語や起算点を正確に読み取れているかが試されます。誰が占有できるのか、誰が承諾するのかという「主語の取り違え」に注意しながら5つの原則を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-機関としての占有と個人としての占有は併存し得る
-Illustration: An isometric office building icon with a representative character standing both behind a company desk (labeled 法人の機関) and, overlapping in a dashed outline, as an individual figure at the same building (labeled 個人), with two separate green tags reading 占有回収の訴え可能.
-Caption (small text below):
-法人の代表者が個人としても占有していたと認められる場合、代表者個人としての占有回収の訴えも提起できる。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+占有の訴えに関するルール
 
---- CARD 2 ---
-Heading (bold):
-占有の訴えは、善意・悪意を問わず提起できる
-Illustration: An isometric figure with a small dark-cloud icon overhead (labeled 悪意) still successfully filing a document labeled 占有回収の訴え into a courthouse icon, with a green checkmark.
-Caption (small text below):
-占有の訴えは占有という事実状態を保護する制度であり、占有者が悪意であっても占有回収の訴えを提起できる(民法197条以下)。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+機関占有と個人占有は併存できる
+Illustration: An isometric office building icon with a representative
+character standing both behind a company desk (labeled 法人の機関) and,
+overlapping in a dashed outline, as an individual figure at the same
+building (labeled 個人), with two separate green tags reading
+占有回収の訴え可能.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+個人としても訴え可
 
---- CARD 3 ---
-Heading (bold):
-本権の訴えで敗訴した善意占有者は、「訴え提起の時」から悪意とみなされる
-Illustration: An isometric timeline of a courtroom scene: a figure holding an item, with a courthouse gavel icon striking at the moment labeled 訴えの提起の時, and the figure's status tag flipping from 善意 to 悪意 exactly at that point on the timeline, not at the start.
-Caption (small text below):
-善意の占有者が本権の訴えで敗訴したときは、占有開始の時からではなく「訴えの提起の時」から悪意の占有者とみなされる(民法189条2項)。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+悪意の占有者も訴えを起こせる
+Illustration: An isometric figure with a small dark-cloud icon overhead
+(labeled 悪意) still successfully filing a document labeled 占有回収の訴え
+into a courthouse icon, with a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+悪意でも提訴可
 
---- CARD 4 ---
-Heading (bold):
-代理占有の善意・悪意は、占有代理人を基準に判断する
-Illustration: An isometric scene with a principal character (本人) thinking a green checkmark thought bubble (善意), while the occupying agent character (占有代理人) standing on the land plot has a dark thought bubble (悪意), with an arrow pointing to the agent labeled 判断基準.
-Caption (small text below):
-代理人によって占有をする場合、その占有の善意・悪意は本人ではなく占有代理人を基準に判断される。
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+悪意とみなす起点は訴え提起の時
+Illustration: An isometric timeline of a courtroom scene: a figure holding
+an item, with a courthouse gavel icon striking at the moment labeled
+訴えの提起の時, and the figure's status tag flipping from 善意 to 悪意
+exactly at that point on the timeline, not at the start.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+起算点は提訴時
 
---- CARD 5 ---
-Heading (bold):
-指図による占有移転で承諾するのは「第三者」であり「代理人」ではない
-Illustration: An isometric three-figure diagram: 本人 pointing an instruction arrow labeled 命じる toward 代理人, and a second arrow from 代理人 toward 第三者 who alone stamps a document with 承諾, with a red X over a mistaken arrow showing 代理人 stamping 承諾 instead.
-Caption (small text below):
-民法184条の指図による占有移転では、本人が代理人に命じ、承諾するのは第三者であって代理人ではない。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+代理占有のルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+代理占有の善意・悪意は代理人基準
+Illustration: An isometric scene with a principal character (本人)
+thinking a green checkmark thought bubble (善意), while the occupying
+agent character (占有代理人) standing on the land plot has a dark thought
+bubble (悪意), with an arrow pointing to the agent labeled 判断基準.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+判断基準は代理人
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+指図による移転は第三者が承諾
+Illustration: An isometric three-figure diagram: 本人 pointing an
+instruction arrow labeled 命じる toward 代理人, and a second arrow from
+代理人 toward 第三者 who alone stamps a document with 承諾, with a red X
+over a mistaken arrow showing 代理人 stamping 承諾 instead.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+承諾するのは第三者
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第3問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

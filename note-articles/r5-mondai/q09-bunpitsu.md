@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】1筆を2筆に分ける「分筆」の落とし穴〜抵当権・相続・登録免許税・筆界特定の交差点〜
+## 【土地家屋調査士受験生向け】令和5年度 第9問〜抵当権は分筆後の全部から消せない〜
 
 **出題年度：令和5年度　午後の部　第9問**
 
@@ -20,7 +20,7 @@
 
 ### ア：分筆前に付いた抵当権なら、錯誤による分筆登記の抹消はできる
 
-分筆登記の抹消ができなくなるのは、分筆と同時に消滅承諾書を添えて、分筆後の一部の土地について抵当権などの権利の登記を消滅させた場合です。この場合は公示関係が複雑になるため、いったんすべての権利を消してから合筆し、改めて登記し直すべきとされます（登記研究380号）。しかし本肢は、分筆の「前」からすでに抵当権が設定されていたケースなので、そのような複雑化は生じず、錯誤を原因とする分筆登記の抹消をすることができます。
+分筆登記の抹消ができなくなるのは、分筆と同時に消滅承諾書を添えて、分筆後の一部の土地について抵当権などの権利の登記を消滅させた場合です。この場合は公示関係が複雑になるため、いったんすべての権利を消してから合筆し、改めて登記し直すべきとされます。しかし本肢は、分筆の「前」からすでに抵当権が設定されていたケースなので、そのような複雑化は生じず、錯誤を原因とする分筆登記の抹消をすることができます。
 
 **たとえば**、Aさんの1筆の土地にB銀行の抵当権がもともと付いていて、その後この土地を測量ミスで誤って分筆してしまったとします。この分筆はあとから消滅承諾がからんだわけではないので、「本当は分ける必要がなかった」として、錯誤を原因に分筆の登記を抹消して元の1筆に戻すことができます。
 
@@ -32,31 +32,29 @@
 
 ### ウ：遺産分割で単独取得した相続人は、分筆の登記を申請できる
 
-共有物である土地の分筆の登記は、原則として持分の価格の過半数を持つ者から申請します。もっとも、遺産分割協議によって土地の一部（あるいは全部）を取得することになった相続人は、遺産分割協議書を添付することで、単独で分筆の登記を申請することができます（登記研究229号）。したがって、単独取得したBが分筆の登記を申請できないとする本肢は誤りです。
+共有物である土地の分筆の登記は、原則として持分の価格の過半数を持つ者から申請します。もっとも、遺産分割協議によって土地の一部（あるいは全部）を取得することになった相続人は、遺産分割協議書を添付することで、単独で分筆の登記を申請することができます。したがって、単独取得したBが分筆の登記を申請できないとする本肢は誤りです。
 
 **たとえば**、亡くなったAさんの土地を、相続人BさんとCさんが「この土地はBが一人で取得する」と遺産分割協議でまとめたとします。このときBさんは、その協議書を添えれば、Cさんの関与なしに一人で甲土地の分筆の登記を申請することができます。
 
 ### エ：公共団体と私人の共有地でも、私人が申請すれば登録免許税は課される
 
-国や地方公共団体などが自己のために受ける登記は、登録免許税が非課税とされています（登録免許税法4条）。しかし、非課税になるのはあくまで「公共団体自身のための登記」です。国・地方公共団体と私人が共有している土地について、私人の側が分筆の登記を申請する場合には、通常どおり登録免許税が課されます（昭44.10.3民三938号）。したがって「課されない」とする本肢は誤りです。
+国や地方公共団体などが自己のために受ける登記は、登録免許税が非課税とされています（登録免許税法4条）。しかし、非課税になるのはあくまで「公共団体自身のための登記」です。国・地方公共団体と私人が共有している土地について、私人の側が分筆の登記を申請する場合には、通常どおり登録免許税が課されます。したがって「課されない」とする本肢は誤りです。
 
 **たとえば**、市と個人のAさんが共有している土地を、Aさんが分筆の登記で申請するケースを考えます。相手方が市だからといって丸ごと非課税になるわけではなく、申請人である私人Aさんには通常どおり登録免許税がかかります。
 
 ### オ：筆界特定がされた旨の記録は、分筆後の土地に転写される
 
-筆界特定がされると、対象土地を管轄する登記所に筆界特定手続記録が送付・保管され（不動産登記法145条）、対象土地の登記記録の地図番号欄に「年月日筆界特定（手続番号）」のように記録されます（規則234条）。そして、この記録がある土地を分筆した場合には、分筆後のすべての土地に筆界特定がされた旨が転写されます（平17.12.6民二2760号）。したがって、乙土地の登記記録にも転写されるとする本肢は正しい記述です。
+筆界特定がされると、対象土地を管轄する登記所に筆界特定手続記録が送付・保管され（不動産登記法145条）、対象土地の登記記録の地図番号欄に「年月日筆界特定（手続番号）」のように記録されます（規則234条）。そして、この記録がある土地を分筆した場合には、分筆後のすべての土地に筆界特定がされた旨が転写されます。したがって、乙土地の登記記録にも転写されるとする本肢は正しい記述です。
 
 **たとえば**、境界をめぐる争いがあって筆界特定を受けた甲土地から、乙土地を切り出して分筆したとします。このとき「筆界特定がされた」という履歴は甲土地だけでなく、分けて生まれた乙土地の登記記録にもしっかり引き継がれて記録されます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 分筆前から付いていた抵当権なら、錯誤による分筆登記の抹消はできる |
-| イ | 正 | いずれか1筆には権利を残す必要があり、全部の抵当権消滅登記はできない（法40条、規則104条1項） |
-| ウ | 誤 | 遺産分割で取得した相続人は、協議書を添えて分筆の登記を単独申請できる |
-| エ | 誤 | 公共団体と私人の共有地でも、私人の分筆申請には登録免許税が課される（登免税法4条、昭44.10.3民三938号） |
-| オ | 正 | 筆界特定がされた旨の記録は、分筆後のすべての土地に転写される（規則234条、平17.12.6民二2760号） |
+- **ア（誤）**　分筆前から付いていた抵当権なら、錯誤による分筆登記の抹消はできる
+- **イ（正）**　いずれか1筆には権利を残す必要があり、全部の抵当権消滅登記はできない
+- **ウ（誤）**　遺産分割で取得した相続人は、協議書を添えて分筆の登記を単独申請できる
+- **エ（誤）**　公共団体と私人の共有地でも、私人の分筆申請には登録免許税が課される
+- **オ（正）**　筆界特定がされた旨の記録は、分筆後のすべての土地に転写される
 
 抵当権・相続・登録免許税・筆界特定という4方向から「分筆」を揺さぶる良問です。それぞれの原則と例外の境目を押さえておきましょう。
 
@@ -71,7 +69,8 @@
 - 各肢の根拠のうち、イ（不動産登記法40条、規則104条1項）、エ（登録免許税法4条、昭44.10.3民三938号）、オ（不動産登記法145条、規則234条、平17.12.6民二2760号）、ア（登記研究380号）、ウ（登記研究229号）は、データベースのexplanationフィールドで条文番号・先例番号まで明記されているものです。一方、これらを日常例に置き換えた説明部分は、条文・先例の趣旨からの敷衍（一般原則からの推論）にとどまります。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和5年度より後に実施された試験（2026年7月時点では令和6年度・令和7年度がデータベースに存在）で、本問（土地の分筆の登記）と同一・類似の問題が再出題されていないかを確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-
+- **最新法令への準拠チェック（2026-08-03実施）**：不動産登記法40条・145条ほか、引用した各条文・先例は令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。ウの遺産分割協議に基づく分筆登記の申請人に関する先例（登記研究229号71頁）は、遺産分割の期間制限を新設した民法904条の3（遺産分割の合意・調停等ができること自体は制限しない規定）とは別の登記手続上の論点であり、影響を受けません。
+- **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の条文原文と照合しました。イ（不動産登記法40条「分筆後のいずれかの土地について消滅させることを承諾した」、規則104条1項〜3項）、エ（登録免許税法4条1項）、オ（不動産登記法145条、規則234条）はいずれも条文原文と一致し、相違なし。ア（登記研究380号）・ウ（登記研究229号）は先例（登記研究）であり、国土調査法と同様にローカル法令データベースには収録されていない資料のため、今回は照合対象外としそのままにしています。正解番号（④＝イ・オ）は独立確認済みの公式正解と一致しています。
 ---
 
 ## 見出し画像用フレーズ
@@ -86,16 +85,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-分筆登記において抵当権・相続・登録免許税・筆界特定という周辺の権利関係が絡んだときの正しい取扱いを、「抵当権が絡むとき」2枚・「相続・登録免許税・筆界特定が絡むとき」3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+分筆登記において周辺の権利関係が絡んだときの正しい取扱いを、「抵当権が絡むとき」の2枚（緑）と「相続・登録免許税・筆界特定が絡むとき」の3枚（青）、計5枚の通し番号バッジ・短い見出し・図解・短い結論タグだけで構成するポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, padlocks,
 family figures, tax stamps, boundary markers, registry office buildings,
 dotted split lines, arrows, prohibition marks — adapt icon set to the
 topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -104,106 +114,91 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 権・地・登・記 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-分筆登記
-権利関係が絡んだときのルール
+Title (large, bold, 1行):
+分筆登記、権利関係が絡んだらどうなる？
 
 Subtitle (smaller, centered, 1行):
-抵当権・相続・登録免許税・筆界特定の交差点(令和5年度 午後の部 第9問)
+令和5年度 午後の部 第9問－抵当権・相続・登録免許税・筆界特定の交差点
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a single
-land plot being split into two by a dotted cutting line (分筆), with small
-orbiting icons around it: a padlock/seal icon labeled "抵当権", a
-family/heir icon labeled "相続", a tax stamp icon labeled "登録免許税",
-and a boundary marker icon labeled "筆界特定", to show the four kinds of
-surrounding rights that complicate a partition registration.
-分筆の登記は、1筆の土地を線引きして複数に分ける登記です。土地の上に抵当権が
-付いていたり、相続がからんだり、公共団体と私人が共有していたりと、周辺の
-権利関係が絡むと途端に処理が複雑になります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 抵当権が絡むとき
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-分筆前からの抵当権なら、錯誤による分筆登記の抹消はできる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆前の抵当権なら抹消できる
 Illustration: An isometric single land plot with a padlock icon (抵当権)
 already attached before a dotted split line appears, and an arrow showing
 the split being undone with an eraser icon, returning to one whole plot.
-Caption (small text below):
-分筆と同時に消滅承諾書を添えて権利を消したケースと異なり、分筆の前から
-すでに設定されていた抵当権であれば、錯誤を原因とする分筆登記の抹消を
-することができる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+錯誤抹消は可能
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-分筆後の甲・乙2筆すべてについて抵当権を消すことはできない
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆後の抵当権を全部消せない
 Illustration: An isometric land plot split into 甲 and 乙, both still
 carrying a padlock icon (抵当権), with a large prohibition (no-entry)
 mark over an arrow trying to remove both padlocks at once, and a smaller
 separate icon showing only one padlock successfully removed with a
 checkmark.
-Caption (small text below):
-抵当権者の消滅承諾があっても、分筆後のいずれか1筆には権利を残す必要が
-あり、甲・乙の2筆すべてについて抵当権が消滅した旨の登記をすることは
-できない(不動産登記法40条、規則104条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1筆には残す必要
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 相続・登録免許税・筆界特定が絡むとき
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-遺産分割で単独取得した相続人は、分筆の登記を申請できる
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+単独取得の相続人は一人で申請可
 Illustration: An isometric land plot labeled "甲土地", with two person
 icons labeled "Ｂ" and "Ｃ" and a document icon labeled "遺産分割協議書",
 an arrow from Ｂ alone (without Ｃ) submitting the document to a registry
 office icon.
-Caption (small text below):
-遺産分割協議によって土地を単独で取得した相続人は、遺産分割協議書を添付
-することで、単独で分筆の登記を申請することができる(登記研究229号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+Ｂのみで申請可
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-公共団体と私人の共有地でも、私人の申請には登録免許税が課される
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+私人の共有持分には登録免許税
 Illustration: An isometric land plot shared by a government building icon
 (地方公共団体) and a person icon (私人), with the person icon submitting
 a document to a registry office and a small coin/tax stamp icon attached
 only to their side, while the government building icon has a crossed-out
 coin.
-Caption (small text below):
-登録免許税が非課税となるのは公共団体自身のための登記に限られる。地方
-公共団体と私人が共有する土地について私人が分筆の登記を申請する場合には、
-通常どおり登録免許税が課される(登録免許税法4条、昭44.10.3民三938号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+私人分は課税される
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-筆界特定がされた旨の記録は、分筆後のすべての土地に転写される
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+筆界特定の記録は分筆後も引継ぎ
 Illustration: An isometric land plot labeled "甲土地" with a boundary
 marker/stamp icon labeled "筆界特定", split by a dotted line into
 "甲土地" and "乙土地", with an arrow copying the same boundary
 marker/stamp icon onto the 乙土地 side.
-Caption (small text below):
-甲土地に筆界特定がされた旨の記録があるときは、分筆をしても、その記録は
-乙土地の登記記録に転写される(不動産登記法145条、規則234条、平17.12.6
-民二2760号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+乙土地にも転写
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第9問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (2
-cards under 抵当権が絡むとき, 3 cards under 相続・登録免許税・筆界特定が
-絡むとき), with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

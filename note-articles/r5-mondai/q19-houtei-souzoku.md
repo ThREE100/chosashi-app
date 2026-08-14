@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】法定相続情報一覧図、どこに申出て誰が再交付を受けられる？〜保管・写しの交付の申出の基本ルール〜
+## 【土地家屋調査士受験生向け】令和5年度 第19問〜再交付は申出人本人しか頼めない〜
 
 **出題年度：令和5年度　午後の部　第19問**
 
@@ -20,7 +20,7 @@
 
 ### ア：資格者代理人が申出るには、委任状に加えて身分証明書等が必要
 
-法定相続情報一覧図の保管・写しの交付の申出を代理人によってすることはできますが、その代理人は、申出人の法定代理人か、委任による場合は親族または戸籍法10条の2第3項に掲げる者に限られます（平29.4.17民二292号）。土地家屋調査士はこの戸籍法10条の2第3項に掲げる者（弁護士・司法書士・土地家屋調査士・税理士など）にあたるため、委任状に加えて、資格者代理人団体所定の身分証明書の写し等を提供する必要があります。「委任状以外の書面を添付する必要はない」とする本肢は誤りです。
+法定相続情報一覧図の保管・写しの交付の申出を代理人によってすることはできますが、その代理人は、申出人の法定代理人か、委任による場合は親族または戸籍法10条の2第3項に掲げる者に限られます。土地家屋調査士はこの戸籍法10条の2第3項に掲げる者（弁護士・司法書士・土地家屋調査士・税理士など）にあたるため、委任状に加えて、資格者代理人団体所定の身分証明書の写し等を提供する必要があります。「委任状以外の書面を添付する必要はない」とする本肢は誤りです。
 
 **たとえば**、相続人のAさんから委任を受けた土地家屋調査士が、Aさんの代わりに写しの交付を申出るとき、Aさんの委任状だけでは足りません。「私は確かに土地家屋調査士です」と示す所定の身分証明書の写しなども一緒に出す必要があります。
 
@@ -48,15 +48,13 @@
 
 **たとえば**、相続人Aさんが代表して保管の申出をして写しを受け取った後、書類が足りなくなって追加で写しがほしくなったとします。この再交付を申出られるのは申出人であるAさん自身であって、同じ相続人でも申出をしていないBさんが再交付を受けることはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 資格者代理人は委任状に加え身分証明書等の提供が必要（平29.4.17民二292号） |
-| イ | 正 | 申出人の住所地を管轄する登記所にも申出できる（規則247条1項） |
-| ウ | 誤 | 他の相続人の住所は任意的記載事項（規則247条1項） |
-| エ | 誤 | 被相続人が登記名義人でなくても申出できる（規則247条1項） |
-| オ | 正 | 写しの再交付は保管の申出をした申出人に限られる（規則247条7項） |
+- **ア（誤）**　資格者代理人は委任状に加え身分証明書等の提供が必要
+- **イ（正）**　申出人の住所地を管轄する登記所にも申出できる
+- **ウ（誤）**　他の相続人の住所は任意的記載事項
+- **エ（誤）**　被相続人が登記名義人でなくても申出できる
+- **オ（正）**　写しの再交付は保管の申出をした申出人に限られる
 
 「どこに申出るか」「何が必要的記載事項か」「誰が再交付を受けられるか」を整理すれば、この制度は確実に押さえられます。
 
@@ -72,7 +70,8 @@
 - 各肢の条文・先例根拠のうち、ア（平29.4.17民二292号・戸籍法10条の2第3項）、イ（不動産登記規則247条1項）、ウ（規則247条1項・平30.3.29民二166号）、エ（規則247条1項）、オ（規則247条7項）は、データベースのexplanationフィールドで条文番号・先例まで明記されているものです。一般原則からの推論にとどまる肢は特にありません。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonでR06・R07年度の全問題と突き合わせました。「法定相続情報一覧図の保管・写しの交付の申出」という制度自体は令和7年度午後の部第18問でも扱われていますが、個別の肢の内容は異なります（本問オ「再交付は申出人のみ」とR07第18問イ「再交付は保存期間満了まで可能」は別論点、文字列類似度0.81）。制度としては同じテーマの記事が2本存在するため、投稿時はタイトル・導入文で扱う範囲を明示することを推奨します。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-
+- **最新法令への準拠チェック（2026-08-03実施）**：不動産登記規則247条（法定相続情報一覧図）は、令和の押印見直し（申出書等の押印不要化）を経てもなお現行の条番号・保管申出先（本籍地・最後の住所地・申出人の住所地・不動産所在地のいずれか）に変更がないことをWeb検索で確認しました。
+- **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の不動産登記規則247条の条文原文と照合しました。イ・エ（247条1項の申出先・要件）、ウ（同項2号の記載事項に相続人の住所が含まれないこと）、オ（247条7項の再交付準用規定）は、いずれも原文と一致しており相違なしでした。ア（戸籍法10条の2第3項に掲げる者に限る旨）も247条2項の文言と一致しています。身分証明書の提供を求める部分は先例（平29.4.17民二292号）に基づくものでローカルDBに条文が収録されていないため、今回の照合対象外です。
 ---
 
 ## 見出し画像用フレーズ
@@ -87,15 +86,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-法定相続情報一覧図の保管・写しの交付の申出について、「申出をする場面のルール」3枚と「一覧図の記載事項・写しの再交付のルール」2枚、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+法定相続情報一覧図の保管・写しの交付の申出について、「申出をする場面のルール」と「記載事項・再交付のルール」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric registry office
 buildings, family-tree documents, map pins, characters, application
-forms, prohibition marks, arrows — adapt icon set to the topic).
+forms, prohibition marks, arrows, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -104,9 +114,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 登・記・所・地・証 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -114,98 +123,83 @@ Title (large, bold, 2行):
 どこに申出て誰が再交付を受けられる？
 
 Subtitle (smaller, centered, 1行):
-保管・写しの交付の申出の基本ルールを整理(令和5年度 午後の部 第19問)
+令和5年度 午後の部 第19問－保管・写しの交付の申出の基本ルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a
-family-tree document sheet labeled「法定相続情報一覧図」being placed
-into a registry office building icon (登記所), surrounded by four small
-location-pin icons connected by dotted lines to represent multiple
-possible filing locations.
-法定相続情報一覧図は、相続関係を一枚の図にまとめて登記所に保管して
-もらい、その写しを相続手続に使えるようにする制度です。どこの登記所に
-申出できるのか、何を記載するのか、誰が再交付を受けられるのかを
-整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 申出をする場面のルール
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-申出人の住所地を管轄する登記所にも申出ができる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+申出人の住所地の登記所でもOK
 Illustration: An isometric map showing four location pins labeled
 「被相続人の本籍地」「被相続人の最後の住所地」「申出人の住所地」
 「不動産の所在地」, each connected by a dotted line to a single 登記所
 building icon, with the「申出人の住所地」pin highlighted in a brighter
 color.
-Caption (small text below):
-申出は、被相続人の本籍地・最後の住所地・申出人の住所地・被相続人名義
-の不動産の所在地のいずれかを管轄する登記所にすることができる
-(不動産登記規則247条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+選べる登記所は4つ
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-被相続人が登記名義人でなくても、申出ができる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+不動産を持っていなくても申出可
 Illustration: An isometric elderly character icon (被相続人) with a
-faded, crossed-out house/land icon beside them to show they own no
+faded, red crossed-out house/land icon beside them to show they own no
 registered real estate, yet still connected by an arrow to a document
 labeled「法定相続情報一覧図」being handed toward a 登記所 building icon.
-Caption (small text below):
-相続に起因する登記その他の手続のために必要があれば申出できる。
-被相続人が不動産の表題部所有者・所有権の登記名義人であることは
-要件ではない(規則247条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+登記名義人でなくてOK
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-資格者代理人が申出るには、委任状に加えて身分証明書等が必要
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+調査士は委任状だけでは足りない
 Illustration: An isometric 土地家屋調査士 character holding two separate
 documents — one labeled「委任状」and another labeled「身分証明書の
 写し」— both being submitted together to a 登記所 counter, with a plus
 (＋) icon placed between the two documents.
-Caption (small text below):
-委任による代理人は親族または戸籍法10条の2第3項に掲げる資格者に
-限られ、土地家屋調査士が申出る場合は委任状に加えて資格者代理人団体
-所定の身分証明書の写し等の提供が必要(平29.4.17民二292号)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+身分証明書も必要
 
---- COLUMN B HEADER (pill-shaped badge) ---
-一覧図の記載事項・写しの再交付のルール
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+記載事項・再交付のルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-他の相続人の住所は、任意的記載事項である
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+他の相続人の住所は任意記載
 Illustration: An isometric法定相続情報一覧図 document showing
 「申出人Ａの住所」written in solid, bold ink with a「必須」tag, next to
 「Ｂの住所」「Ｃの住所」written in a lighter, dotted style with a
 「任意」tag, contrasting mandatory and optional entries.
-Caption (small text below):
-申出人の住所は必要的記載事項だが、他の同順位の相続人の住所は任意的
-記載事項である。記載した場合はその住所証明書の提供が必要になる
-(規則247条1項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+書くかどうかは任意
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-再交付を受けられるのは、保管の申出をした申出人だけ
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+再交付は申出人本人だけ
 Illustration: An isometric scene of a character labeled「申出人Ａ」
 receiving a duplicate copy of the法定相続情報一覧図 from a 登記所
 counter window, while another character labeled「Ｂ」stands behind with
-a prohibition (crossed-out) mark over them to show they cannot make the
-request.
-Caption (small text below):
-法定相続情報一覧図の写しの再交付は、当該保管の申出をした申出人に
-限られる。他の相続人が再交付を受けることはできない(規則247条7項)。
+a red prohibition mark over them to show they cannot make the request.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+本人限定
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第19問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3
-cards under 申出をする場面のルール, 2 cards under
-一覧図の記載事項・写しの再交付のルール), with no duplicated or missing
-cards, and confirm every heading, illustration label, and caption text
-matches the Japanese text given above verbatim, with no paraphrasing and
-no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

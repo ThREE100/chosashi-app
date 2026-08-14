@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】売主に代わって登記できる?できない?〜代位による登記の境界線を全部整理〜
+## 【土地家屋調査士受験生向け】令和6年度 第11問〜附属建物の買主は代位で分割登記できる〜
 
 **出題年度：令和6年度　午後の部　第11問**
 
@@ -44,17 +44,17 @@
 
 ### オ：共有建物の変更登記は、代位ではなく共有者の1人が保存行為として申請できる
 
-共有建物の表題部の変更登記は、保存行為として共有者の1人から申請することができます(民法252条ただし書)。つまり、共有者の一方が非協力的であっても、もう一方の共有者は単独で申請すればよく、そもそも代位による登記を申請する必要がありません。
+共有建物の表題部の変更登記は、保存行為として共有者の1人から申請することができます(民法252条5項)。つまり、共有者の一方が非協力的であっても、もう一方の共有者は単独で申請すればよく、そもそも代位による登記を申請する必要がありません。
 
 **たとえば**、増築によって床面積が変わった共有の甲建物について、共有者の一人である渡辺さんが変更登記に応じなくても、もう一人の共有者である伊藤さんは、渡辺さんに代位するのではなく、自分ひとりの申請として変更登記をすることができます。
 
-### まとめ
+### まとめ表
 
-- **ア（正）**　附属建物のみの買主は、売主に代位して分割登記を申請できる
-- **イ（誤）**　合筆は所有権移転登記の保全に必須ではなく、代位申請はできない
-- **ウ（誤）**　転得者も、原始取得者に代位して区分建物の表題登記を申請できる
-- **エ（正）**　地役権者は、承役地の分筆登記を代位して申請することはできない
-- **オ（誤）**　共有建物の変更登記は保存行為として共有者の1人が申請でき、代位は不要
+- **ア（正）** 附属建物のみの買主は、売主に代位して分割登記を申請できる
+- **イ（誤）** 合筆は所有権移転登記の保全に必須ではなく、代位申請はできない
+- **ウ（誤）** 転得者も、原始取得者に代位して区分建物の表題登記を申請できる
+- **エ（正）** 地役権者は、承役地の分筆登記を代位して申請することはできない
+- **オ（誤）** 共有建物の変更登記は保存行為として共有者の1人が申請でき、代位は不要
 
 代位による登記が認められるかどうかは、「代位しなければ自分の権利が保全されないか」という一点で決まります。
 
@@ -66,7 +66,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号(2番＝アエ)は、土地家屋調査士試験対策アプリの検証済みデータベース(takuitsu.json)のexplanationフィールドで確認済みです。
-- 各肢の根拠のうち、ア(民法423条)・ウ・オ(民法252条ただし書)は、データベースのexplanationフィールドで条文番号まで明記されています。イ・エについては、明示の条文引用はなく、代位登記の要件・登記実務上の扱いからの一般的な理由付けにとどまります。
+- 各肢の根拠のうち、ア(民法423条)・ウ・オ(民法252条5項)は、データベースのexplanationフィールドで条文番号まで明記されています(データベース上は「252条ただし書」と表記されていますが、令和3年民法改正(2023年4月1日施行)により保存行為の規定は条文移動を経て5項となっているため、現行法に合わせて条文番号を修正しています)。イ・エについては、明示の条文引用はなく、代位登記の要件・登記実務上の扱いからの一般的な理由付けにとどまります。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧(対照表PDF)のみで、テキスト解説は含まれていなかったため、今回はアガルート教材を参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題について、本問のテーマ（代位による登記）に関する記述がないか確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -82,13 +82,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+ア〜オの5肢すべてを「代位しなければ自分の権利が保全されないか」という1本の判定軸だけで貫き、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成(導入イラスト・導入文のブロックは置かない)。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+plots, registry desks, application documents, official stamps, torn
+paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -96,63 +111,89 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Note: this prompt contains kanji that are easily confused with Simplified
-Chinese variants, especially 登・記・建・物・権・地・番・所. Render these
-strictly in their standard Japanese (Jōyō) forms, never as simplified hanzi.
+summarize, or substitute any characters. Pay special attention to the
+kanji 建・物・登・記・権・地・位・転・得・筆 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-代位申請、できる場合とできない場合
+代位による登記、できる?できない?
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第11問｜代位による登記
+令和6年度 午後の部 第11問－「保全されないか」がカギ
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 債権者と債務者を表す2人の人物アイコンと、その間にある建物・土地のアイソメトリックイラスト。矢印で「代位」の関係を示す。
-登記の代位申請は、「自分の権利を保全するために、他人がすべき登記を代わりに申請できるか」を問う分野です。代位が認められるかどうかは「代位しなければ自分の権利が保全されないか」という一点で決まります。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-附属建物のみの買主は、代位して分割登記を申請できる
-Illustration: アイソメトリックの主である建物(甲建物)に付属する小さな附属建物(物置)を強調。附属建物だけに矢印が伸び、買主を表す人物アイコンから売主を表す人物アイコンへ「代位」のラベル付き矢印。分割線のアイコン(ミシン目)で建物を切り離すイメージ。
-Caption (small text below):
-附属建物のみの買主は、売主に代位して分割登記を申請できる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物のみ買主は代位可
+Illustration: An isometric main building with a small attached
+outbuilding (附属建物) drawn as a separate connected box. A buyer figure
+holds a purchase contract labeled "附属建物のみ売買" and points an arrow
+toward a "分割登記" stamp/document icon, while the seller figure stands
+with arms crossed, not cooperating. A small torn-paper label reads
+"代位でOK".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位で分割登記OK
 
 --- CARD 2 ---
-Heading (bold):
-合筆前提でも、代位申請はできない
-Illustration: 隣接する甲土地・乙土地のアイソメトリック地図。合筆を示す矢印にバツ印(×)。その横に、所有権移転登記の書類アイコンにチェックマーク(合筆なしでも移転登記は保全される)。
-Caption (small text below):
-合筆は所有権移転登記の保全に必須ではなく、代位申請はできない
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+合筆前提の代位は不可
+Illustration: Two adjacent isometric land plots (甲土地・乙土地) with a
+dashed outline merging them, labeled "合筆". A buyer figure holds a
+speech bubble saying "合筆してほしい" with a red X mark over it, and a
+small label reads "債権はすでに保全済み".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位申請は不可
 
 --- CARD 3 ---
-Heading (bold):
-転得者も、原始取得者に代位して表題登記を申請できる
-Illustration: マンションのアイソメトリックイラスト。分譲会社(A)からB、Bからさらに買い受けたC、という譲渡の矢印チェーン。Cから、表題登記の書類アイコンに向かって「代位」ラベル付きの矢印がAを経由して伸びる。
-Caption (small text below):
-転得者も、原始取得者に代位して区分建物の表題登記を申請できる
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+転得者も代位で表題登記可
+Illustration: An isometric condominium (区分建物) building with a chain
+of three connected figures and arrows labeled "原始取得者 → 買主 → 転得者"
+showing successive sales. The transferee (転得者) at the end holds a
+document and points a "代位" arrow back to the 原始取得者, submitting a
+"表題登記" stamp/document icon.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+表題登記できる
 
 --- CARD 4 ---
-Heading (bold):
-地役権者は、代位して分筆登記を申請できない
-Illustration: 甲土地のアイソメトリック地図。一部に地役権を示す帯状のラインアイコン。分筆線のアイコンにバツ印(×)。地役権者を表す人物アイコンから土地所有者への矢印にもバツ印。
-Caption (small text below):
-地役権者は、承役地の分筆登記を代位して申請することはできない
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地役権者は代位分筆不可
+Illustration: An isometric land plot (甲土地) with a shaded strip across
+one portion labeled "地役権". The 地役権者 figure holds a speech bubble
+saying "分筆してほしい" pointed at the land owner, with a red X mark, and
+a small label reads "設定登記は保全済み".
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位申請は不可
 
 --- CARD 5 ---
-Heading (bold):
-共有建物の変更登記は、共有者の1人で申請できる
-Illustration: 共有の甲建物のアイソメトリックイラスト。2人の所有者アイコン(共有者A・共有者B)。共有者Aだけが単独で申請書類アイコンを差し出している。「代位」ラベルにバツ印。
-Caption (small text below):
-共有建物の変更登記は保存行為として共有者の1人が申請でき、代位は不要
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+共有建物は共有者1人で申請可
+Illustration: An isometric building shown before and after an extension
+(増築), with two owner figures (共有者) standing beside it. One owner
+submits a document alone to a registry stamp icon labeled "保存行為",
+while the other owner stands with arms crossed in the background, next
+to a red X over a small "代位" label, showing that daii (代位) is not
+used here.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+代位不要・保存行為
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```

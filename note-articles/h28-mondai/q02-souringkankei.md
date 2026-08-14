@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】隣の土地との「ちょうどいい距離感」〜境界標・建築・竹木・立入り・袋地通行権を具体例で解説〜
+## 【土地家屋調査士受験生向け】平成28年度 第2問〜袋地の通行権は当事者間に限られる〜
 
 **出題年度：平成28年度　午後の部　第2問**
 
@@ -30,19 +30,13 @@
 
 **たとえば**、隣人が境界線から30センチメートルしか離さずに建物の建築を始めたとします。近くに住んでいなかったBさんがそれに気づかないまま1年以上が経過し、建物が完成してしまった場合、Bさんは今さら「建物を壊せ・作り直せ」と請求することはできず、損害が生じていればその賠償を求めるにとどまります。
 
-### ウ：越境した枝は、まず竹木の所有者に切らせるのが原則(自ら切除できるのは例外のみ)
+### ウ：越境した枝は、竹木の所有者に切らせるのが原則(当時の民法)
 
-現行民法233条1項では、隣地の竹木の枝が境界線を越えてきたときは、土地の所有者は竹木の所有者に対してその枝を切除するよう求めることができるのが原則です。土地の所有者が自分の判断だけで枝を切り取ってよいわけではありません。
+平成28年当時(2023年改正前)の民法233条1項では、隣地の竹木の枝が境界線を越えてきたときであっても、土地の所有者が自分でその枝を切り取ることはできず、竹木の所有者に切除を請求できるにとどまるとされていました。設問は「自ら切り取ることができる」としている点で誤りです（無条件に自ら切除できるとする点が誤りである、という結論は現行法でも変わりません）。
 
-2023年4月1日施行の改正により、この原則に加えて、次の3つの場合に限り、土地の所有者が自ら枝を切り取ることができる例外が233条3項に新設されました。①竹木の所有者に枝を切除するよう催告したにもかかわらず、相当の期間内に切除しないとき、②竹木の所有者を知ることができず、又はその所在を知ることができないとき、③急迫の事情があるとき、の3つです（なお、竹木が共有されている場合は、各共有者が単独で切除できる規定も233条2項に新設されています）。
+**たとえば**、隣家の庭木の枝が塀を越えて自分の敷地に伸びてきた場合、当時のルールでは、まず隣家の所有者に「切ってください」と頼む(それでも応じなければ裁判所に切除を求める)のが筋であり、勝手にノコギリで切り落とすことは認められていませんでした。
 
-2023年改正で新設された233条3項の例外（①催告後相当期間内に切除しない、②所有者不明・所在不明、③急迫の事情）は、あくまで限定的な例外であり、境界線を越えただけで自動的に自ら切除できるわけではありません。
-
-設問は「隣地の竹木の枝が境界線を越えるときは、その枝を切り取ることができる」と、何の条件も付けずに自ら切除できると述べています。しかし現行法の下でも、自ら切除できるのはあくまで①〜③のいずれかの要件を満たす例外的な場合に限られ、原則は竹木の所有者に切除させることです。境界線を越えてさえいれば常に自ら切り取ってよい、という一般的なルールにはなっていないため、この記述は現行法に照らしても誤りです。
-
-**たとえば**、隣家の庭木の枝が塀を越えて自分の敷地に伸びてきたというだけでは、勝手にノコギリで切り落とすことはできません。まず隣家の所有者に「切ってください」と伝え、相当期間内に応じてもらえない場合や、そもそも所有者が分からない場合、台風で折れかけて危険が迫っているような場合に、初めて自分で切ることが認められます。境界線を越えたその瞬間から自由に切ってよいわけではない、という点がこの肢のひっかけどころです。
-
-なお、本問が出題された平成28年当時（2023年4月1日施行の改正前）は、①〜③の例外そのものが存在せず、土地の所有者はいかなる場合でも自ら枝を切り取ることができませんでした。改正によって例外が新設された分だけルールは緩和されていますが、それでも「無条件に切り取ることができる」とする本肢が誤りであるという結論は、出題当時から現在まで変わっていません。
+なお、2023年4月1日施行の民法改正により、現在は233条1項の原則（竹木の所有者に切除させる）はそのままに、次の3つの場合に限り、土地の所有者が自ら枝を切り取ることができる例外が新設されています（現行233条3項）。①竹木の所有者に枝を切除するよう催告したにもかかわらず、相当の期間内に切除しないとき、②竹木の所有者を知ることができず、又はその所在を知ることができないとき、③急迫の事情があるとき、の3つです（竹木が共有されている場合は、各共有者が単独で切除できる規定も233条2項に新設されています）。本問はあくまで「(条件を問わず)切り取ることができる」という無条件の記述であるため、この例外規定を踏まえても、設問の記述はなお不正確であり結論は変わりません。
 
 ### エ：修繕のためでも、隣人の住家には勝手に立ち入れない
 
@@ -58,15 +52,13 @@
 
 **たとえば**、Aが自分の土地を甲土地と乙土地に分筆し、甲土地をBに譲渡した結果、甲土地が乙土地とC所有の丙土地に囲まれた袋地になったとします。その後Aが乙土地をDに譲渡したとしても、Bが公道に出るために通行できるのは分筆・譲渡の当事者関係にある乙土地(D所有)であって、分筆にも譲渡にも関わっていないCの丙土地を勝手に通行することはできません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 境界標の設置費用は原則として等しい割合で負担する(測量費用のみ広狭に応じる) |
-| イ | 正 | 建築着手から1年経過後は中止請求できず、損害賠償請求のみ可能 |
-| ウ | 誤 | 越境した枝は原則として竹木の所有者に切除させる。自ら切除できるのは催告後不応・所有者不明・急迫の3要件を満たす例外の場合のみ(現行233条3項)。無条件に切り取れるとする本肢は現行法でも誤り |
-| エ | 正 | 修繕目的の隣地使用が認められる場合でも、住家への立入りには承諾が必要。現行法では「使用できる」権利に変更・目的も拡大(現209条) |
-| オ | 誤 | 袋地の通行権は分割・譲渡の当事者の土地に限られ、第三者所有地には及ばない |
+- **ア（誤）**　境界標の設置費用は原則として等しい割合で負担する(測量費用のみ広狭に応じる)
+- **イ（正）**　建築着手から1年経過後は中止請求できず、損害賠償請求のみ可能
+- **ウ（誤）**　(当時の民法では)越境した枝は竹木の所有者に切除させることができるにとどまる。現行法では一定の条件下で自ら切除できる例外あり
+- **エ（正）**　修繕目的の隣地使用が認められる場合でも、住家への立入りには承諾が必要。現行法では「使用できる」権利に変更・目的も拡大
+- **オ（誤）**　袋地の通行権は分割・譲渡の当事者の土地に限られ、第三者所有地には及ばない
 
 相隣関係は、条文の原則と「誰との関係で・どこまで権利が及ぶか」という射程を丁寧に押さえることが得点のカギになります。
 
@@ -79,7 +71,7 @@
 - この第2問は、土地家屋調査士試験対策アプリの検証済みデータベース(takuitsu.json)には収録されていません。法務省公表の試験問題原本(ユーザーが提供したPDF)から問題文を直接確認し、民法の相隣関係規定・判例の趣旨に基づいてAI(Claude)が解説を作成したものです。
 - 正解番号(3番)は、法務省公式の正答PDF(ユーザー提供)と照合済みです。
 - 各肢の法的根拠(民法209条・213条・224条・233条・234条等)は、条文の一般的な理解と判例の趣旨からの推論に基づくものであり、e-Gov法令検索での逐条確認は、ネットワーク制限により今回は行えていません。
-- **最新法令チェック（2026-08-01実施・2026-08-02更新）**：本問は平成28年度出題のため、出題当時は2023年4月1日施行の物権法改正前の民法を前提にしていましたが、肢ウ・エの解説は現行法（改正後）を主として説明する形に書き改めています。(1)肢ウ(竹木の枝)：現行233条1項の原則(竹木の所有者に切除させることができる)は維持されつつ、現行233条3項で①催告後相当期間内に切除しないとき、②竹木の所有者を知ることができない・所在不明のとき、③急迫の事情があるとき、の3要件のいずれかを満たせば自ら切除できる例外が新設されています(233条2項では竹木が共有の場合の単独切除も新設)。**正誤判定への影響**：本肢は無条件に「切り取ることができる」とする記述であり、現行法でも自ら切除できるのは例外的な場合に限られる(原則は竹木の所有者に切除させること)ため、現行法に照らしても誤りという結論は変わりません。出題当時はこの例外自体が存在しなかったため、当時はより明確に誤りでした。(2)肢エ(隣地使用)：改正前209条1項の「隣地の使用を請求することができる」という構成から、現行209条では「隣地を使用することができる」という直接的な権利に変わり、目的も境界標調査・測量、233条3項による枝の切取りを含む3類型に拡大されました。**正誤判定への影響**：住家への立入りに居住者の承諾を要する点は現行法でも維持されており、本肢の結論（正しい）は変わりません。それ以外の肢(ア:224条、イ:234条、オ:213条)については、2016年以降の改正は確認されていません。総括すると、**本問5肢すべてについて、2016年出題当時の正誤判定と現行法下での正誤判定は一致しており、法改正によって答えが変わる肢はありません**。
+- **最新法令チェック（2026-08-01実施）**：本問は平成28年度出題のため、当時の民法(2023年4月1日施行の物権法改正前)を前提に書かれています。改正により、次の2点で規律が変わっています。(1)肢ウ(竹木の枝)：改正前233条1項の原則(竹木の所有者に切除させることができるにとどまる)は維持されつつ、現行233条3項で①催告後相当期間内に切除しないとき、②竹木の所有者を知ることができない・所在不明のとき、③急迫の事情があるとき、の3要件のいずれかを満たせば自ら切除できる例外が新設されました(233条2項では竹木が共有の場合の単独切除も新設)。本肢は無条件に「切り取ることができる」とする記述のため、この例外を踏まえても誤りという結論は変わりません。(2)肢エ(隣地使用)：改正前209条1項の「隣地の使用を請求することができる」という構成から、現行209条では「隣地を使用することができる」という直接的な権利に変わり、目的も境界標調査・測量、233条3項による枝の切取りを含む3類型に拡大されました。ただし、住家への立入りに居住者の承諾を要する点は現行法でも維持されており、本肢の結論は変わりません。本文にはこれらの現行法の内容を追記済みです。それ以外の肢(ア:224条、イ:234条、オ:213条)については、2016年以降の改正は確認されていません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（相隣関係）と同一・類似の問題が再出題されていないかを確認しました。R02年度第3問が「相隣関係」の同一タイトルで出題されていますが、内容は主に囲繞地通行権（民法213条以下）に関するもので、本問の境界標・境界線付近の建築・竹木の枝・立入りとは異なる肢が中心です。ただし、R02年度第3問オ（共有物の分割による袋地の通行権が特定承継後も消滅しないか）は、本問オ（共有物の分割による袋地の通行権は第三者の土地には及ばないこと）と同じ民法213条の分割による袋地通行権という論点を、異なる角度から問うものであり、**部分的に関連する出題**である点に注意してください。それ以外の肢（ア〜エ）については重複は見つかりませんでした。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -88,7 +80,7 @@
 
 - 境界標の費用、実は半分ずつなんです
 - 1年経ったら、もう建築は止められないんです
-- 隣の枝、越境しただけじゃ勝手に切れないんです
+- 隣の枝、勝手に切っちゃダメだったんです
 - 修繕でも、家の中には入れないんです
 - 袋地の通行権、他人の土地には及ばないんです
 
@@ -96,13 +88,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-相隣関係の5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+境界標の設置費用・建築の距離制限・竹木の枝・隣地への立入り・袋地の通行権という相隣関係の5つの原則を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric adjacent land plots, boundary markers, small houses under construction, trees with branches, footpaths — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric adjacent land plots,
+boundary markers, small houses under construction, trees with branches,
+footpaths — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -111,61 +116,84 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 境・界・標・建・地・権・越・承・諾・通 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-隣の土地との
-ちょうどいい距離感
+Title (large, bold, 1行):
+隣の土地との、ちょうどいい距離感
 
 Subtitle (smaller, centered, 1行):
-境界標・建築・竹木・立入り・袋地通行権を整理(平成28年度 午後の部 第2問)
+平成28年度 午後の部 第2問－境界標・建築・竹木・立入り・袋地通行権を整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: Two isometric adjacent land plots side by side with a small boundary marker post (境界標) planted exactly on the dividing line, and two house-shaped figures representing neighbors standing on each side.
-境界標の設置費用、境界線付近の建築、越境した竹木の枝、隣地への立入り、そして分割で生じた袋地の通行権という5つの場面を通じて、相隣関係の原則と権利の及ぶ範囲を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
 --- CARD 1 ---
-Heading (bold):
-境界標の設置費用は、隣同士で等しく分ける
-Illustration: Two isometric neighbor figures standing on either side of a boundary marker post, each holding an identical small stack of coins labeled 等しい割合, while a separate smaller icon shows a 測量費用 stack split unevenly according to the size of each land plot.
-Caption (small text below):
-境界標の設置費用は原則として相隣者が等しい割合で負担し、測量費用のみ土地の広狭に応じる。
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+境界標費用は隣同士で折半
+Illustration: Two isometric neighbor figures standing on either side of a
+boundary marker post, each holding an identical small stack of coins
+labeled 等しい割合, while a separate smaller icon shows a 測量費用 stack
+split unevenly according to the size of each land plot.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+設置費用は折半
+
 --- CARD 2 ---
-Heading (bold):
-着手から1年たてば、もう建築は止められない
-Illustration: An isometric building under construction close to a boundary line, with a calendar counting up to 1年, and after the mark is passed, a prohibition icon over a 中止 stamp while a small coin icon labeled 損害賠償 remains available.
-Caption (small text below):
-境界線から距離を保たない建築でも、着手から1年経過後は中止させられず、損害賠償請求のみ可能。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+着手から1年で中止請求は不可
+Illustration: An isometric building under construction close to a
+boundary line, with a calendar counting up to 1年. After the mark is
+passed, a prohibition icon covers a 中止 stamp while a small coin icon
+labeled 損害賠償 remains available.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+1年経過で中止不可
+
 --- CARD 3 ---
-Heading (bold):
-越境した枝は、まず竹木の持ち主に切らせる(自分で切れるのは例外のみ)
-Illustration: An isometric tree on one land plot with a branch crossing the boundary line into the neighboring plot; the neighboring landowner figure points at the branch while the tree's own owner figure, holding scissors, is shown as the primary one cutting it, with a small secondary badge nearby reading 例外:催告後不応・所有者不明・急迫時 to indicate the narrow exception.
-Caption (small text below):
-越境した竹木の枝は現行民法でも原則として竹木の所有者に切除させる(233条1項)。自ら切除できるのは催告後不応・所有者不明・急迫の事情の3要件のいずれかを満たすときに限られる例外(233条3項)。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+越境枝は持ち主に切らせる
+Illustration: An isometric tree on one land plot with a branch crossing
+the boundary line into the neighboring plot. The neighboring landowner
+figure points at the branch, while the tree's own owner figure, holding
+scissors, is the one shown cutting it; a prohibition mark sits over the
+neighboring landowner's hand reaching for the branch.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+自分では切れない
+
 --- CARD 4 ---
-Heading (bold):
-修繕のためでも、住居には無断で入れない
-Illustration: An isometric figure holding repair tools standing just outside the door of a neighboring house, blocked by a small shield/lock icon labeled 承諾が必要, near a boundary line where wall repair work is happening; a small additional icon nearby shows a notice slip labeled 事前通知 to reflect the current prior-notice requirement.
-Caption (small text below):
-境界付近の修繕等のため隣地を使用できる場合でも(現行民法209条、事前通知が必要)、住家への立入りには居住者の承諾が必要。
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+修繕でも住居には無断で入れない
+Illustration: An isometric figure holding repair tools standing just
+outside the door of a neighboring house, blocked by a small shield/lock
+icon labeled 承諾が必要, near a boundary line where wall repair work is
+happening.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+承諾がなければ不可
+
 --- CARD 5 ---
-Heading (bold):
-分割で生まれた袋地の通行権は、当事者の土地限定
-Illustration: An isometric diagram of a plot split into 甲(landlocked 袋地) and 乙 plots with a clear footpath arrow from 甲 through 乙 only, while a separate third-party 丙 plot nearby is marked with a red prohibition cross showing no path leads there.
-Caption (small text below):
-分割・譲渡によって生じた袋地の通行権は、他の分割者の土地に限られ、第三者の土地には及ばない。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+袋地通行権は当事者の土地限定
+Illustration: An isometric diagram of a plot split into 甲(landlocked
+袋地) and 乙 plots with a clear footpath arrow from 甲 through 乙 only,
+while a separate third-party 丙 plot nearby is marked with a red
+prohibition cross showing no path leads there.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+第三者地は対象外
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第2問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

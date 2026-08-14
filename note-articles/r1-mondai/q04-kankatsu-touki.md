@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】その申請、どこの登記所に出す？〜管轄またぎのルールを整理〜
+## 【土地家屋調査士受験生向け】令和元年度 第4問〜建物の管轄は主である建物が基準になる〜
 
 **出題年度：令和元年度　午後の部　第4問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、甲市の登記所に登記されている家に、隣の乙市の敷地へ大きな車庫（附属建物）を建て増ししたとしても、その変更の登記は元から担当している甲市の登記所に出す、ということです。附属建物がどれだけ大きくても、基準はあくまで「主である建物」です。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 分割登記は主建物所在地の甲登記所へ（準則5条） |
-| イ | 誤 | 管轄転属後は乙登記所に一元化。甲・乙の選択制ではない（不登規32条1項） |
-| ウ | 正 | 敷地権の目的土地の登記は、その土地を管轄する甲登記所へ |
-| エ | 誤 | 管轄またぎの表題登記は法務局長等が指定。床面積で決まらない（不登法6条2項・3項） |
-| オ | 正 | 附属建物新築で管轄をまたいでも、変更登記は主建物の甲登記所へ（準則5条） |
+- **ア（正）**　分割登記は主建物所在地の甲登記所へ
+- **イ（誤）**　管轄転属後は乙登記所に一元化。甲・乙の選択制ではない
+- **ウ（正）**　敷地権の目的土地の登記は、その土地を管轄する甲登記所へ
+- **エ（誤）**　管轄またぎの表題登記は法務局長等が指定。床面積で決まらない
+- **オ（正）**　附属建物新築で管轄をまたいでも、変更登記は主建物の甲登記所へ
 
 「建物の管轄は主である建物が基準」「管轄が変われば新しい登記所に一元化」「またぐ場合は指定による」という3つの軸で整理できたかがポイントでした。
 
@@ -71,6 +69,7 @@
 - 各肢の根拠のうち、エ（不動産登記法6条2項・3項による管轄指定と指定前の申請）は条文番号まで確認できたものです。ア・オ（主である建物の所在地を基準とする管轄）は不動産登記事務取扱手続準則5条を、イ（管轄転属時の登記記録の移送）は不動産登記規則32条1項を根拠としていますが、準則・規則の条番号については版・改正による変動があり得るため、答案で条番号を明記する際は最新の準則・規則で最終確認することをおすすめします。ウ（敷地権の目的土地の登記はその土地の管轄登記所へ）は、管轄の一般原則からの説明であり、特定の条番号までは断定していません。
 - **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（管轄登記所）と同一・類似の問題が再出題されていないかを確認しました。候補として抽出されたのは令和2年度第8問（地積に関する更正の登記）のみでしたが、これは抵当権者による更正登記の申請適格、地積更正登記と合筆登記の同時申請、筆界特定後の職権更正、地積増加時の添付情報、相続人の一人による申請といった地積更正登記手続の論点であり、本問が扱う建物の管轄区域の決まり方・管轄の転属・敷地権土地の管轄・管轄をまたぐ建物の表題登記といった論点とは異なります。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令への準拠チェック（2026年8月実施）**：本文で引用している不動産登記法6条2項・3項（管轄をまたぐ建物の表題登記は法務局長等の指定による）、不動産登記規則32条1項（管轄転属時の登記記録の移送）について、WebSearchで現行の条文内容と一致することを確認しました。準則5条（主である建物の所在地を基準とする管轄の原則）については、WebFetchが使えない制約上、条文全文を一次資料で直接確認することはできませんでしたが、複数の実務解説サイトで同一の内容が現行実務として説明されており、条番号・内容が変更された形跡は見当たりませんでした。なお、準則は令和6年12月2日付で最終改正されていますが、この改正はマイナンバー法改正に伴う登記事務の取扱いに関するもの（同日付法務省民二第1676号）であり、管轄（準則5条）や地目（68条・69条）とは無関係と判断しました。**修正すべき点はなく、記事の記述に変更はありません。**
 
 ---
 
@@ -86,15 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-管轄登記所の決まり方について、主である建物の所在地が基準となる原則2枚・管轄が変わる/またぐときの特別ルール3枚の計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+管轄登記所の決まり方について、「主である建物の所在地が基準になる原則」と「管轄が変わる・またぐときの特別ルール」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric maps, territory
 boundaries, buildings, official figures, ledgers, signposts, gavels —
 adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,9 +112,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to
-standard Japanese (Jōyō) form of these characters: 権・地・建・物・登・
-記・所・録.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・地・建・物・登・記・所・録 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -112,96 +122,87 @@ Title (large, bold, 2行):
 管轄またぎのルールを整理
 
 Subtitle (smaller, centered, 1行):
-主である建物が基準・例外は個別ルール(令和元年度 午後の部 第4問)
+主である建物が基準・例外は個別ルール－令和元年度 午後の部 第4問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric map-like scene with two territory zones in
-different pastel colors, labeled "甲登記所管轄" and "乙登記所管轄",
-divided by a dotted boundary line, with a small building icon straddling
-the boundary and a compass/signpost icon nearby.
-建物の登記は、どの登記所が担当するのかという「管轄」の考え方が問われ
-ます。原則は主である建物の所在地が基準になりますが、市町村合併や
-敷地権、建物が境界をまたぐ場合には、それぞれ別のルールが用意されて
-います。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 主である建物の所在地が基準
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-附属建物が別の管轄にあっても、分割登記は主建物の登記所へ
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+分割登記は主建物の登記所へ
 Illustration: An isometric main house icon labeled "主である建物" inside
 甲登記所territory, connected by a dotted line to a smaller附属建物 icon
 located across the boundary inside乙登記所territory. A red arrow labeled
 "分割登記の申請" points from the whole property to a single building
 icon labeled "甲登記所" only.
-Caption (small text below):
-一個の建物の管轄登記所は主である建物の所在地で決まる。分割登記は
-甲登記所に申請する(準則5条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+主建物基準
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-附属建物を新築して管轄をまたいでも、変更登記は主建物の登記所へ
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物新築でも変更登記は主建物へ
 Illustration: An isometric main house icon inside甲登記所territory with
 a newly built, deliberately larger garage/附属建物 icon extending across
 the boundary into乙登記所territory. A red arrow labeled "変更登記の申請"
 points only to a building icon labeled "甲登記所".
-Caption (small text below):
-附属建物の新築で管轄をまたいでも、床面積の大小にかかわらず、変更
-登記は主である建物の甲登記所に申請する(準則5条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+主建物の登記所へ
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 管轄が変わる・またぐときの特別ルール
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-市町村合併で管轄が変わったら、新しい乙登記所に一本化
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+管轄転属後は新登記所に一本化
 Illustration: An isometric scene showing a dotted boundary line shifting
 via an arrow so that a house icon moves from甲登記所territory into
 乙登記所territory. A ledger/document icon labeled "登記記録" is shown
 being carried by an arrow from the甲登記所 building icon to the乙登記所
 building icon, with a crossed-out speech bubble reading "甲でも乙でも
 可".
-Caption (small text below):
-市町村合併で管轄が転属すると登記記録は乙登記所へ移送され、以後の
-申請は乙登記所に一元化される(不動産登記規則32条1項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+選択制ではない
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-敷地権の目的である土地の登記は、その土地の管轄登記所へ
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権の土地はその土地の登記所へ
 Illustration: An isometric区分建物(condominium building)icon standing
 inside乙登記所territory, with its敷地(land)icon located inside甲登記所
 territory across the boundary. A red arrow labeled "土地の表示登記"
 points only to the甲登記所 building icon, with a separate crossed-out
 arrow pointing toward乙登記所.
-Caption (small text below):
-区分建物が乙登記所の管轄にあっても、敷地権の目的である土地の登記は、
-その土地を管轄する甲登記所に申請する。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+土地管轄が優先
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-管轄をまたぐ建物の表題登記は、法務局長等の指定による
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+管轄またぎは法務局長等が指定
 Illustration: An isometric building icon straddling the dotted boundary
 line between甲登記所と乙登記所territories, with an official figure
 labeled "法務局長等" above holding a pointer deciding between two paths,
 and a crossed-out ruler icon measuring "床面積の多い方" to show that is
 not the deciding factor.
-Caption (small text below):
-管轄区域にまたがる建物の表題登記は、法務局長等の指定による。床面積の
-多寡では決まらない(不動産登記法6条2項・3項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+床面積では決まらない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和元年度 午後の部 第4問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・地・建・物・登・記・所・録. If any character renders as
-a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly (2 cards
-under 主である建物の所在地が基準, 3 cards under 管轄が変わる・またぐ
-ときの特別ルール), with no duplicated or missing cards, and confirm
-every heading, illustration label, and caption text matches the Japanese
-text given above verbatim, with no paraphrasing and no substituted
-characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

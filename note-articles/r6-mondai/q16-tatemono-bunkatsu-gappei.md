@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】建物の合併、仮登記や共用部分があると申請できないんです〜令和6年度第16問・建物の分割又は合併の登記を解説〜
+## 【土地家屋調査士受験生向け】令和6年度 第16問〜仮登記や共用部分があると合併できない〜
 
 **出題年度：令和6年度　午後の部　第16問**
 
@@ -50,13 +50,13 @@
 
 **たとえば**、抵当権が付いている建物を二つに分割する際、抵当権者が承諾書を提出したとしても、分割後にできる両方の建物から抵当権を消せるわけではなく、少なくとも一方の建物には抵当権が残ることになります。
 
-### まとめ
+### まとめ表
 
-- **ア（誤）**　表題部所有者自身が申請人となるときは印鑑証明書は不要
-- **イ（正）**　仮登記がある建物同士は合併の登記ができない
-- **ウ（正）**　共用部分である旨の登記がある建物同士も合併できない
-- **エ（誤）**　分棟による表題部変更登記と分割登記は一の申請情報で申請できる
-- **オ（誤）**　抵当権を消滅させられるのは分割後の建物の一部にとどまる
+- **ア（誤）** 表題部所有者自身が申請人となるときは印鑑証明書は不要
+- **イ（正）** 仮登記がある建物同士は合併の登記ができない
+- **ウ（正）** 共用部分である旨の登記がある建物同士も合併できない
+- **エ（誤）** 分棟による表題部変更登記と分割登記は一の申請情報で申請できる
+- **オ（誤）** 抵当権を消滅させられるのは分割後の建物の一部にとどまる
 
 合併の登記は「所有権以外の権利」や「共用部分の登記」があると使えない、という制限を正確に押さえられたかが決め手の問題です。
 
@@ -84,13 +84,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+建物の分割又は合併の登記について「合併の登記の制限」と「分割の登記の特則」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric buildings, registration
+documents, seals/stamps, torn paper labels, red "prohibited" stamp icons,
+chain-link icons for encumbrances, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,63 +113,100 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Note: this prompt contains kanji that are easily confused with Simplified
-Chinese variants, especially 登・記・建・物・権. Render these strictly in
-their standard Japanese (Jōyō) forms, never as simplified hanzi.
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・建・物・登・記・所 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 1行):
-建物の合併、仮登記や共用部分があるとできない
+Title (large, bold, 2行):
+建物の分割又は合併の登記
+押さえるべき5つのルール
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第16問｜建物の分割又は合併の登記
+令和6年度 午後の部 第16問
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 甲建物・乙建物を1つにまとめるアイソメトリックの合併イラスト。印鑑・仮登記の紙・共用部分のラベルなど制限を表すアイコンが周囲に配置。
-建物の分割・合併の登記は、土地の分筆・合筆と発想は似ていますが、「合併の制限」という建物特有のルールがあるのがポイントです。所有権以外の権利の登記がある建物や、共用部分である旨の登記がある建物は、そのままでは合併できません。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-表題部所有者本人の申請なら、印鑑証明書は不要
-Illustration: 自分名義の母屋(甲建物)と物置(乙建物)を持つ人物Aが、自ら合併登記を申請するアイソメトリックイラスト。印鑑証明書の書類アイコンにバツ印。
-Caption (small text below):
-表題部所有者自身が申請人となるときは印鑑証明書は不要
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+合併の登記のルール
 
---- CARD 2 ---
-Heading (bold):
-仮登記がある建物同士は、合併できない
-Illustration: 甲建物・乙建物それぞれに「所有権移転請求権の仮登記」のちぎれた紙ラベルが貼られたアイソメトリックイラスト。合併の矢印にバツ印。
-Caption (small text below):
-仮登記がある建物同士は合併の登記ができない
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously through all 5 cards).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+本人申請なら印鑑証明書は不要
+Illustration: An isometric figure representing the 表題部所有者 (registered
+title holder) submitting an application document at a registry counter.
+Next to the figure, a red seal/stamp icon (印鑑) with a red X mark over
+it, indicating the certificate is not required. A small label reads
+本人申請.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+印鑑証明書は不要
 
---- CARD 3 ---
-Heading (bold):
-共用部分の登記がある建物同士も、合併できない
-Illustration: 「共用部分である旨の登記」のラベルが貼られた甲建物・乙建物のアイソメトリックイラスト。合併の矢印にバツ印。
-Caption (small text below):
-共用部分である旨の登記がある建物同士も合併できない
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+仮登記がある建物同士は合併不可
+Illustration: Two isometric buildings labeled 甲建物 and 乙建物, each with a
+torn-paper document label reading 仮登記 attached to its wall. Between the
+two buildings, a red chain-link icon and a large red X mark indicate the
+buildings cannot be merged.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+合併できない
 
---- CARD 4 ---
-Heading (bold):
-分棟の変更登記と分割登記は、1通の申請書でできる
-Illustration: 1棟の長屋の中間部分を取り壊し、相互に接続しない2棟に分けるアイソメトリックイラスト。表題部変更登記と分割登記の2枚の書類が1つの申請書アイコンにまとめられ、チェックマーク。
-Caption (small text below):
-分棟による表題部変更登記と分割登記は一の申請情報で申請できる
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+共用部分の登記がある建物も不可
+Illustration: An isometric building resembling a mansion common room
+（マンションの集会室）labeled 共用部分である旨の登記, next to another
+similar building. A large red X mark sits between them, and a small icon
+shows a registration ledger page marked with an X, indicating that no
+rights registrations are possible on this building.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+他建物との合併不可
 
---- CARD 5 ---
-Heading (bold):
-分割後、抵当権が消えるのは建物の一部だけ
-Illustration: 抵当権付きの建物を2つに分割するアイソメトリックイラスト。片方の建物には抵当権アイコンが消え、もう片方には抵当権アイコンが残っている。
-Caption (small text below):
-抵当権を消滅させられるのは分割後の建物の一部にとどまる
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+分割の登記のルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously — this is card 4, following cards 1-3 in column A).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分棟の変更登記と分割登記は一括可
+Illustration: An isometric long rowhouse-style building（長屋）being
+demolished in the middle, splitting into two separate buildings connected
+by a dashed line. Both resulting buildings point with arrows toward a
+single application document icon labeled 一の申請情報, showing that both
+registrations are filed together in one submission.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+一括申請できる
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+抵当権が消えるのは一部にとどまる
+Illustration: An isometric building labeled 抵当権 splitting into two
+separate buildings. One resulting building keeps a red chain-link icon
+（representing the surviving 抵当権）, while the other shows a green
+checkmark over a faded chain-link icon（representing the extinguished
+抵当権）. A small document icon labeled 承諾書 sits nearby.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+消滅は一部のみ
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・建・物・登・記・所. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly, with badge numbers
+running 1-5 continuously across both columns without resetting (3 cards
+in column A: 合併の登記のルール, 2 cards in column B: 分割の登記のルール),
+with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

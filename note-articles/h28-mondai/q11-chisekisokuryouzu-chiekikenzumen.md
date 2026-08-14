@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】地積測量図は、時々「一人二役」をこなすんです〜細線・縮尺・保存期間・座標値と方位を具体例で解説〜
+## 【土地家屋調査士受験生向け】平成28年度 第11問〜地積測量図は、時々「一人二役」〜
 
 **出題年度：平成28年度　午後の部　第11問**
 
@@ -52,15 +52,13 @@
 
 **たとえば**、高精度な基準点測量(基本三角点等)を用いて求めた座標値を地積測量図に記載できる場合であっても、その座標値の記載だけで方位の記載を省略してよいわけではなく、北を示す方位は座標値とは別の必要的記録事項として、あわせて記録しなければなりません。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 書面の地積測量図は0.2ミリメートル以下の細線で図形を鮮明に表示する(規則74条) |
-| イ | 誤 | 地役権図面の縮尺は250分の1固定ではなく、適宜の縮尺でよい(規則79条2項) |
-| ウ | 正 | 条件を満たせば地積測量図が土地所在図を兼ねることができる(規則77条3項) |
-| エ | 正 | 地役権図面は、閉鎖した日から30年間保存される(規則28条14号) |
-| オ | 誤 | 座標値を記録した場合でも、方位の記録は省略できない(規則77条1項2号) |
+- **ア（正）**　書面の地積測量図は0.2ミリメートル以下の細線で図形を鮮明に表示する
+- **イ（誤）**　地役権図面の縮尺は250分の1固定ではなく、適宜の縮尺でよい
+- **ウ（正）**　条件を満たせば地積測量図が土地所在図を兼ねることができる
+- **エ（正）**　地役権図面は、閉鎖した日から30年間保存される
+- **オ（誤）**　座標値を記録した場合でも、方位の記録は省略できない
 
 地積測量図・地役権図面は、線の太さや縮尺のように「数字が決まっている事項」と「あえて数字を決めていない事項」を区別して覚えることが得点のカギになる分野です。
 
@@ -73,7 +71,7 @@
 - 出題年度・部・問題番号(平成28年度午後の部第11問)、および正解番号(選択肢3番=正しいものが3個)は、土地家屋調査士試験対策アプリの検証済みデータベースと、法務省公式の正答PDF(ユーザー提供、平成28年度午後の部第11問=3)とを照合済みです。この記事はそのままnoteに貼り付けて使えます。
 - 各肢の条文根拠は、データベースのexplanationフィールドの記載を基本としています(ア:規則74条、イ:規則79条2項、ウ:準則51条4項)。
 - ウの兼用規定の条文根拠については、データベースのexplanationフィールドが準則51条4項を、plusフィールドが規則77条3項を挙げており、本記事では両方を併記しています。
-- **再確認・訂正（2026-08-12実施）**：ユーザーからの指摘を受け、エ・オの正誤判定をリサーチエージェントによる独立調査、および元データベース（takuitsu.json）のexplanationフィールド原文の再確認により再検証したところ、訂正前の記事の判定が誤っていたことが判明し、訂正しました。訂正前は、エ（地役権図面つづり込み帳の保存期間）を「誤（実際は永久保存）」、オ（座標値記録時の方位省略可否）を「正（方位省略可）」としていましたが、正しくは**エ＝正、オ＝誤**です。具体的には、①不動産登記規則28条は「項」のない条文で、地役権図面の保存期間は同条**14号**により「閉鎖した日から30年間」と定められており、永久保存ではありません（土地所在図・地積測量図・建物図面・各階平面図は「永久（ただし閉鎖後30年間）」という扱いですが、地役権図面には永久保存の定めがなく端的に閉鎖後30年間です）。②不動産登記規則77条1項は方位（2号）と基本三角点等に基づく座標値（8号）をそれぞれ独立した必要的記録事項として掲げており、座標値を記録した場合に方位の記録を省略できる「ただし書」は存在しません。訂正前の記事は、データベースのplusフィールド（pitfalls）の記述（「エ×…規則28条1項1号」「オ○…規則77条1項8号ただし書」）を採用していましたが、これが誤りであり、explanationフィールドの原文（「…30年間保存される(規則28条14号、21条3項)」「オ×…方位を記録しなければならない(規則77条1項2号)」）の記載が正しかったことを確認しました。全体の正解（3個）自体は変わりませんが、正しい肢の組合せが（ア・ウ・オ）から**（ア・ウ・エ）**に変わります。まとめ表・見出し画像用フレーズ・インフォグラフィックのCard 4・Card 5も合わせて訂正しています。この調査は、Web検索による複数の独立した解説サイト（Wikibooks掲載の規則28条・77条条文引用等）と、データベース原文の両方が一致することを確認したうえで反映していますが、e-Gov法令検索での条文原文の最終確認は今回のネットワーク制限により行えていません。
+- **再確認・訂正（2026-08-12実施）**：エ・オの正誤判定をリサーチエージェントによる独立調査、および元データベース（takuitsu.json）のexplanationフィールド原文の再確認により再検証したところ、訂正前の記事の判定が誤っていたことが判明し、訂正しました。訂正前は、エ（地役権図面つづり込み帳の保存期間）を「誤（実際は永久保存）」、オ（座標値記録時の方位省略可否）を「正（方位省略可）」としていましたが、正しくは**エ＝正、オ＝誤**です。具体的には、①不動産登記規則28条は「項」のない条文で、地役権図面の保存期間は同条**14号**により「閉鎖した日から30年間」と定められており、永久保存ではありません（土地所在図・地積測量図・建物図面・各階平面図は「永久（ただし閉鎖後30年間）」という扱いですが、地役権図面には永久保存の定めがなく端的に閉鎖後30年間です）。②不動産登記規則77条1項は方位（2号）と基本三角点等に基づく座標値（8号）をそれぞれ独立した必要的記録事項として掲げており、座標値を記録した場合に方位の記録を省略できる「ただし書」は存在しません。訂正前の記事は、データベースのplusフィールド（pitfalls）の記述（「エ×…規則28条1項1号」「オ○…規則77条1項8号ただし書」）を採用していましたが、これが誤りであり、explanationフィールドの原文（「…30年間保存される(規則28条14号、21条3項)」「オ×…方位を記録しなければならない(規則77条1項2号)」）の記載が正しかったことを確認しました。全体の正解（3個）自体は変わりませんが、正しい肢の組合せが（ア・ウ・オ）から**（ア・ウ・エ）**に変わります。まとめ・インフォグラフィックColumn A Card 3・Column B Card 5も合わせて訂正しています。この調査は、Web検索による複数の独立した解説サイト（Wikibooks掲載の規則28条・77条条文引用等）と、データベース原文の両方が一致することを確認したうえで反映していますが、e-Gov法令検索での条文原文の最終確認は今回のネットワーク制限により行えていません。同内容の修正はブランチmain（コミットa828407）にも別途適用済みです。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（地積測量図又は地役権図面）と同一・類似の問題が再出題されていないかを確認しました。**R07年度第9問オは「地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときであっても、当該地積測量図をもって土地所在図を兼ねることはできない」としており、本問ウ（同一の条件下では土地所在図を兼ねることができる）とほぼ同一の記述を、結論だけ反対にして出題したものです。これは非常に強い重複にあたります**。R06年度第10問（地役権図面）は署名記名押印・縮尺一致義務・分筆時の提供要否・閉鎖・要役地所在地番の記録という別の論点で、本問イ・エとは直接重なりません。ノートに執筆・公開する際は、R07年度第9問との重複に特に留意し、内容が同一にならないよう工夫するか、両記事に相互参照を付けることを検討してください。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -90,13 +88,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-地積測量図・地役権図面をめぐる5つの規定を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。R07年度第9問と近い出題があるため、記事本文に沿った正確な文言を使うこと。
+「地積測量図に関するルール」と「地役権図面に関するルール」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric drafting tables, drawing pens, survey diagrams, archive shelves, compass icons — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric drafting tables,
+drawing pens, survey diagrams, coordinate points, compass icons, archive
+shelves, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -105,76 +116,94 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
-
---- MANDATORY HEADING CHECKLIST ---
-Every card heading below must be reproduced VERBATIM, character-for-character,
-with no shortening, no paraphrasing, and no rewording into punchier or more
-casual phrasing. Copy exactly:
-1. 線の太さは、0.2mm以下
-2. 地役権図面の縮尺は、決まっていない
-3. 条件がそろえば、1枚で2つの図面を兼ねられる
-4. 地役権図面は、閉鎖の日から30年で保存終了
-5. 座標値があっても、方位は省略できない
+kanji 権・地・番・登・記・所・録 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-地積測量図は、
-時々「一人二役」
+Title (large, bold, 1行):
+地積測量図は、時々「一人二役」
 
 Subtitle (smaller, centered, 1行):
-細線・縮尺・保存期間・座標値と方位を整理(平成28年度 午後の部 第11問)
+平成28年度 午後の部 第11問－地積測量図と地役権図面、5つのルール
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric drafting table with a 地積測量図 drawing on one side and a 地役権図面 drawing on the other, a fine drawing pen icon actively drawing a thin line labeled 0.2ミリメートル.
-線の太さ、地役権図面の縮尺、地積測量図と土地所在図の兼用、地役権図面の保存期間、座標値と方位という5つの規定を整理します。
---- CARD 1 ---
-Heading (bold):
-線の太さは、0.2mm以下
-Illustration: An isometric ruler measuring a fine drawn survey line labeled 0.2ミリメートル以下, next to a thick crossed-out line marked as too thick.
-Caption (small text below):
-書面の地積測量図は0.2ミリメートル以下の細線で図形を鮮明に表示する(不動産登記規則74条)。
---- CARD 2 ---
-Heading (bold):
-地役権図面の縮尺は、決まっていない
-Illustration: An isometric 地役権図面 sheet with three different scale rulers shown beside it — 250分の1, 500分の1, 100分の1 — all glowing as equally valid, with no single fixed scale highlighted.
-Caption (small text below):
-地役権図面の縮尺は250分の1固定ではなく、土地の状況に応じた適宜の縮尺でよい(不動産登記規則79条2項)。
---- CARD 3 ---
-Heading (bold):
-条件がそろえば、1枚で2つの図面を兼ねられる
-Illustration: An isometric single drawing sheet labeled 土地所在図兼地積測量図, formed by merging two separate document icons(土地所在図 and 地積測量図) into one glowing sheet.
-Caption (small text below):
-縮尺が同一で土地の所在を明確に表示できるときは、地積測量図が土地所在図を兼ねることができる(不動産登記規則77条3項)。
---- CARD 4 ---
-Heading (bold):
-地役権図面は、閉鎖の日から30年で保存終了
-Illustration: A single isometric scene, not a two-panel or before/after layout. An isometric archive shelf holding a ledger book labeled 閉鎖地役権図面つづり込み帳, with a single circular calendar/countdown icon beside it reading 閉鎖の日から30年, glowing, and a small 廃棄 tag at the end of the countdown. Do not draw a second calendar, timer, or clock-like icon anywhere in this card.
-Caption (small text below):
-地役権図面は、閉鎖した日から30年間保存される(不動産登記規則28条14号)。永久保存ではない。
---- CARD 5 ---
-Heading (bold):
-座標値があっても、方位は省略できない
-Illustration: An isometric land survey diagram with several coordinate points(座標値)marked and glowing on one side, and a compass icon(方位)also glowing and clearly present (not crossed out, not faded) on the other side, connected by a small "どちらも必須" label between them. Do not depict the compass as removed, optional, or unnecessary.
-Caption (small text below):
-基本三角点等に基づく座標値を記録した場合でも、方位の記録を省略することはできない(不動産登記規則77条1項2号)。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+地積測量図に関するルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+線の太さは0.2mm以下
+Illustration: An isometric ruler measuring a fine drawn survey line
+labeled "0.2ミリメートル以下" next to a thick pen line crossed out with a
+red X, showing the thick line fails the requirement.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+細線で鮮明に
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+条件がそろえば土地所在図を兼ねる
+Illustration: An isometric single drawing sheet labeled
+"土地所在図兼地積測量図", formed by two document icons ("土地所在図" and
+"地積測量図") merging into one glowing sheet, with a small label
+"縮尺が同一" beside the merge point.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+1枚で兼用可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+座標値があっても方位は省略不可
+Illustration: An isometric land survey diagram with several coordinate
+points ("座標値") glowing along the筆界 line, and a compass icon ("方位")
+also glowing and clearly present beside it (not crossed out, not faded),
+connected by a small "どちらも必須" label between them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+方位の記録は省略不可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+地役権図面に関するルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地役権図面の縮尺は自由
+Illustration: An isometric 地役権図面 sheet with three different scale
+rulers shown beside it — "250分の1"、"500分の1"、"100分の1" — all glowing
+equally as valid, with no single fixed scale highlighted.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+縮尺は適宜でよい
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+地役権図面は閉鎖後30年で保存終了
+Illustration: An isometric archive shelf holding a ledger book labeled
+"閉鎖地役権図面つづり込み帳", with a single circular countdown/calendar icon
+beside it reading "閉鎖の日から30年", glowing, and a small "廃棄" tag at
+the end of the countdown. Do not draw a second calendar, timer, or
+clock-like icon anywhere in this card.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+閉鎖の日から30年
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第11問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards. Re-check each of the 5 card headings against the
-MANDATORY HEADING CHECKLIST above, character-for-character — if any heading
-has been shortened, reworded, or paraphrased, redraw it to match the
-checklist exactly. Confirm Card 5 shows the compass (方位) as present and
-required, NOT crossed out or omitted. Confirm every illustration label and
-caption text matches the Japanese text given above verbatim, with no
-paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance. Confirm the 5 card headings are exactly: (1) 線の太さは
+0.2mm以下／(2) 条件がそろえば土地所在図を兼ねる／(3) 座標値があっても方位は
+省略不可／(4) 地役権図面の縮尺は自由／(5) 地役権図面は閉鎖後30年で保存終了
+— do not merge, omit, duplicate, or reword any of these five headings.
+Confirm Card 3 shows the compass (方位) as present and required, NOT
+crossed out or omitted.
 ```

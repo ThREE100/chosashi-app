@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】省略できるのは「面積」？それとも「計算過程」？令和7年度第9問を解説
+## 【土地家屋調査士受験生向け】令和7年度 第9問〜省略できるのは、面積じゃなくて計算過程〜
 
 **出題年度：令和7年度　午後の部　第9問**
 
@@ -40,23 +40,23 @@
 
 ### エ：省略できるのは「求積方法」であって、「地積」そのものではない
 
-分筆前の土地が広大で分筆後の土地の一方がわずかであるといった特別の事情があるときに省略できるのは、その土地の**求積方法（測量による面積算出の過程）**であって、**地積（面積の数値そのもの）**は登記事項である以上、省略することはできません。
+不動産登記事務取扱手続準則72条2項は、分筆前の土地が広大な土地であって、分筆後の土地の一方がわずかであるなど特別の事情があるときに限り、分筆後の土地のうち1筆の土地について、規則77条1項5号から8号までに掲げる事項（同項5号の地積を除く）を記録することを便宜省略して差し支えないと定めています。つまり省略できるのは、**求積方法**のほか、**筆界点間の距離**・**平面直角座標系の番号又は記号**・**筆界点の座標値**であって、**地積（面積の数値そのもの）**は登記事項である以上、省略することはできません。また、省略が認められるのは分筆後の土地のうち1筆についてのみであり、かつ上記のような特別の事情がある場合に限られます。
 
-**たとえば**、広い畑の隅を少しだけ切り取って分筆する場合、その「残りの広い方」の土地について、改めて測量し直して細かい求積表を作る作業は省略してよいとされていますが、「その土地の面積が何㎡である」という数値そのものは、登記事項として必ず地積測量図に記載しなければなりません。
+**たとえば**、広い畑の隅を少しだけ切り取って分筆する場合、その「残りの広い方」の土地について、改めて測量し直して細かい求積表や座標値・筆界点間の距離を記録し直す作業は省略してよいとされていますが、「その土地の面積が何㎡である」という数値そのものは、登記事項として必ず地積測量図に記載しなければなりません。
 
 ### オ：縮尺が同じで所在を明確に表示できれば、地積測量図は土地所在図を兼ねられる
 
-地積測量図の縮尺が、その土地について作成すべき土地所在図の縮尺と同一で、地積測量図によって土地の所在を明確に表示できるときは、便宜、当該地積測量図をもって土地所在図を兼ねることができます（不動産登記事務取扱準則51条4項）。この場合、図面の標記は「土地所在図兼地積測量図」となります。
+地積測量図の縮尺が、その土地について作成すべき土地所在図の縮尺と同一で、地積測量図によって土地の所在を明確に表示できるときは、便宜、当該地積測量図をもって土地所在図を兼ねることができます（不動産登記事務取扱準則51条4項）。この場合、図面の標記は「土地所在図兼地積測量図」となります。なお、準則51条4項は、規則74条3項の用紙を用いて余白がある場合に作成するという準則51条3項の前提を踏まえた規定であり、常に自由に兼用できるというものではありません。
 
 **たとえば**、縮尺250分の1で作られた地積測量図が、たまたま土地所在図として必要な縮尺とも一致していて、その図面だけで土地の場所もはっきり分かる場合には、別に土地所在図を新しく作る必要はなく、1枚の図面に「土地所在図兼地積測量図」と書いて兼用することができます。
 
 ### まとめ
 
 - **ア（正）**　市町村長作成の氏名変更証明があれば地積測量図の訂正申出ができる
-- **イ（正）**　作成者が署名すれば押印は不要（規則74条2項）
-- **ウ（正）**　永続性のある境界標は地積測量図に記録が義務付けられる（規則77条）
+- **イ（正）**　作成者が署名すれば押印は不要
+- **ウ（正）**　永続性のある境界標は地積測量図に記録が義務付けられる
 - **エ（誤）**　省略できるのは求積方法であり、地積の数値自体は省略できない
-- **オ（誤）**　縮尺・表示が条件を満たせば地積測量図は土地所在図を兼ねられる（準則51条4項）
+- **オ（誤）**　縮尺・表示が条件を満たせば地積測量図は土地所在図を兼ねられる
 
 「省略できる」という言葉が出てきたとき、それが「数値そのもの」の話なのか「計算過程」の話なのかを見分けることが、エとオを正しく判断する鍵になります。
 
@@ -81,13 +81,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+地積測量図のルールを「作成・訂正・記録に関するルール」と「省略・兼用に関するルール」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots, boundary
+markers, document stamps, measuring tools, torn paper labels, etc. — adapt
+icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -95,72 +110,90 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-特に「地」「記」「所」といった字は簡体字と混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+summarize, or substitute any characters. Pay special attention to the
+kanji 測・図・証・訂・署・押・続・略・兼・義・務・境・標・積・録・登・記・所
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-省略できるのは「面積」？それとも「計算過程」？
+地積測量図の基本ルール
 
 Subtitle (smaller, centered, 1行):
-令和7年度　午後の部　第9問　不動産登記法(地積測量図)
+令和7年度 午後の部 第9問－省略できるのは面積か計算過程か
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: A document icon（地積測量図）with a green「省略可」stamp on
-one section and a red「省略不可」stamp on another section.
-地積測量図には「ここまでは省略できる」「ここは絶対に省略できない」という細かい線引きがあります。特にエ・オは似たような話に見えて実は根拠が異なるので、丁寧に区別していきましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-氏名が違っても、証明書があれば地積測量図の訂正申出ができる
-Illustration: A character icon with an old-name tag（旧姓）holding a
-certificate icon from a city-hall building（市町村長作成の証明書）, with an
-arrow to a document labeled「地積測量図 訂正申出」and a checkmark.
-Caption (small text below):
-市町村長作成の氏名変更証明があれば地積測量図の訂正申出ができる
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+作成・訂正・記録に関するルール
 
---- CARD 2 ---
-Heading (bold):
-署名すれば、押印は不要
-Illustration: A document icon（地積測量図）with a handwritten signature
-line labeled「署名」, and a hanko (personal seal) icon crossed out labeled
-「押印不要」.
-Caption (small text below):
-作成者が署名すれば押印は不要（規則74条2項）
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+氏名が違っても証明書があればOK
+Illustration: An isometric scene of a person handing a certificate to a
+city hall clerk at a counter, with a small land plot icon and a document
+labeled 訂正 nearby, suggesting a name-change certificate being submitted.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+訂正申出が可能
 
---- CARD 3 ---
-Heading (bold):
-永続性のある境界標は、地積測量図に必ず記録する
-Illustration: A land-corner icon with a stone/metal marker (石杭・金属標),
-with an arrow to a document icon（地積測量図）labeled「記録義務」with a
-checkmark.
-Caption (small text below):
-永続性のある境界標は地積測量図に記録が義務付けられる（規則77条）
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+署名すれば押印は不要
+Illustration: An isometric scene of a hand signing a document with a pen,
+with a hanko (personal seal) icon shown crossed out with a red X next to
+the signature, emphasizing that a signature alone is sufficient.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+署名だけで足りる
 
---- CARD 4 ---
-Heading (bold):
-省略できるのは「求積方法」であって、「地積」そのものではない
-Illustration: A broad land plot being split into a large piece and a tiny
-piece; a calculation-sheet icon（求積表）over the tiny piece is crossed
-out, but the numeric area label「100㎡」remains with a checkmark labeled
-「地積は省略不可」.
-Caption (small text below):
-省略できるのは求積方法であり、地積の数値自体は省略できない
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+永続性ある境界標は記録必須
+Illustration: An isometric close-up of a land plot corner with a sturdy
+stone post and a metal marker embedded in the ground, with a checklist
+icon and a pencil ticking a box, emphasizing mandatory recording.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+記録は義務
 
---- CARD 5 ---
-Heading (bold):
-縮尺が同じで所在を明確に表示できれば、地積測量図は土地所在図を兼ねられる
-Illustration: A single document icon stamped「土地所在図兼地積測量図」
-combining both roles, with a checkmark labeled「同一縮尺」.
-Caption (small text below):
-縮尺・表示が条件を満たせば地積測量図は土地所在図を兼ねられる（準則51条4項）
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+省略・兼用に関するルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+省略できるのは面積でなく計算過程
+Illustration: An isometric large land plot being divided into one large
+section and one tiny section, with the tiny section showing a
+calculation worksheet icon crossed out with a red X (求積表), while a
+separate number label showing the area figure (地積) remains clearly
+displayed and checked with a green checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+地積は省略不可
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+条件を満たせば土地所在図を兼用可
+Illustration: An isometric scene of two document icons (one labeled
+地積測量図, one labeled 土地所在図) merging into a single document labeled
+土地所在図兼地積測量図, with a ruler and scale-comparison icon nearby to
+suggest matching 縮尺.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+兼用が可能
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】これは「建物」になる？ならない？〜定着性・外気分断性・用途性で見抜く建物認定〜
+## 【土地家屋調査士受験生向け】平成21年度 第4問〜温室やタンクはダメでもコンテナ倉庫は建物になる〜
 
 **出題年度：平成21年度　午後の部　第4問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、大きな球場のバックネット裏やメインスタンドで、上に屋根がかかっていて雨の日でも観戦できる区画を思い浮かべてください。屋根と壁的な構造で囲まれ、人が集まって使える空間になっているので、その部分は「建物」として登記の対象になり得るのです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 耐用年数1年程度のビニール温室は定着性（永続性）を欠く |
-| イ | 正 | 基礎工事で定着したコンテナ倉庫は3要件を満たし登記できる |
-| ウ | 誤 | 石油タンクは用途性（人貨滞留性）を欠き建物にならない |
-| エ | 誤 | 機械上の建造物は地上への直接定着がなく定着性を欠く |
-| オ | 正 | 屋根を有する観覧席部分は外気分断性・定着性・用途性を満たす |
+- **ア（誤）**　耐用年数1年程度のビニール温室は定着性（永続性）を欠く
+- **イ（正）**　基礎工事で定着したコンテナ倉庫は3要件を満たし登記できる
+- **ウ（誤）**　石油タンクは用途性（人貨滞留性）を欠き建物にならない
+- **エ（誤）**　機械上の建造物は地上への直接定着がなく定着性を欠く
+- **オ（正）**　屋根を有する観覧席部分は外気分断性・定着性・用途性を満たす
 
 建物認定は「定着性・外気分断性・用途性」の3要件を一つずつ丁寧に当てはめれば、迷わず判断できます。設問は「正しいものの組合せ」を問うている点に注意してください。
 
@@ -68,9 +66,10 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を格納）で確認済みです。
-- 各肢の根拠のうち、建物の定義（不動産登記規則111条）は条文レベルで確認できるものです。各肢の具体的な認定（ビニール温室・コンテナ倉庫・石油タンク・機械上の建造物・屋根付き観覧席）は、不動産登記事務取扱準則における建物認定の基準および登記先例の運用に基づく整理であり、条文そのものに個別の明文があるわけではありません。準則の条番号（一般に128条が挙げられます）や個別先例の細部は各自の教材でご確認ください。
+- 各肢の根拠のうち、建物の定義（不動産登記規則111条）は条文レベルで確認できるものです。各肢の具体的な認定（ビニール温室・コンテナ倉庫・石油タンク・機械上の建造物・屋根付き観覧席）は、**不動産登記事務取扱手続準則77条**における建物認定の取扱基準および登記先例の運用に基づく整理です。同条は1項で「建物として取り扱わないもの」を、2項で「建物として取り扱うもの」を列挙しており、石油タンクや地上に基脚・支柱のない機械上の建造物は1項に、屋根を有する観覧席は2項に挙げられています。個別先例の細部は各自の教材でご確認ください。
 - ローカルのアガルート過去問テキストは本セッションの実行環境には存在せず、参照できませんでした。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（ビニール温室・コンテナ貸倉庫・石油タンク・機械上の建造物・屋外観覧席の建物該当性を組み合わせた建物認定の問題）と同一・類似の問題が再出題されていないかを確認しました。「建物の認定」を主題とする問題は他年度にも複数存在します（H24第13問・第16問、H27第13問、H30第10問、R04第10問、R05第11問、R06第12問等）が、対象となる構造物の組合せがいずれも本問とは異なり、同一事例の再出題は**見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文・通達を現行法（2026年8月時点）と照合しました。建物の定義を定める不動産登記規則111条（屋根及び周壁又はこれに類するものを有し、土地に定着した建造物であって、その目的とする用途に供し得る状態にあるもの）は現行のままで、**各肢の正誤の結論に変更はありません**。あわせて、建物認定基準の根拠として本記事が挙げていた準則の条番号を訂正しました。従前は「一般に128条が挙げられます」と記載していましたが、128条は地図・地積測量図関係の規定であり誤りで、建物認定基準を定めているのは**不動産登記事務取扱手続準則77条**です（同準則は令和6年12月2日改正が最新ですが、77条の内容に変更はありません）。石油タンク（肢ウ）および地上に基脚・支柱のない機械上の建造物（肢エ）は同条1項の「建物として取り扱わないもの」に、屋根を有する観覧席（肢オ）は同条2項の「建物として取り扱うもの」に、それぞれ直接列挙されています。
 
 ---
 
@@ -81,3 +80,119 @@
 - 石油タンクが建物にならない理由、知ってた？
 - 機械の上に載ってるだけじゃ、建物とは言えないんです
 - 球場の屋根付き観覧席は、実は登記できる建物なんです
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, greenhouses,
+shipping containers, cylindrical tanks, factory machines, stadium stands,
+stamps, torn paper labels).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+KANJI ACCURACY WARNING: the characters 建・物・登・記・機・械・観・覧・倉 appear
+repeatedly in this poster. These are especially easy to render as
+Simplified Chinese variants. Draw every one of them in the standard
+Japanese (Jōyō) form only.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物として登記できるもの
+
+Subtitle (smaller, centered, 1行):
+定着性・外気分断性・用途性の3要件で判定する
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。カードは1列・縦並び5枚、バッジ色はすべて青で統一する。）
+
+--- CARD 1 ---
+Badge: a filled blue circle containing the number 1 (numbers run
+continuously across all cards 1-5 — never restart).
+Heading (bold, ONE line):
+ビニール温室は建物でない
+Illustration: an isometric vinyl greenhouse with a thin pipe frame, drawn
+semi-transparent and slightly sagging, with a small tag 「耐用1年」. A large
+red ✕ overlays it. A small ruined-frame icon beside it carries the label
+「永続性なし」.
+Conclusion tag (short blue banner/pill directly below the illustration):
+定着性を欠く
+
+--- CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line):
+基礎で定着したコンテナは建物
+Illustration: an isometric shipping container set squarely on a thick grey
+concrete footing, with a small tag 「基礎工事」 pointing at the footing. Boxes
+of cargo are visible inside through an open door, tagged 「貸倉庫」. A large
+green ✓ sits on the container.
+Conclusion tag (short blue banner/pill):
+3要件を満たす
+
+--- CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line):
+石油タンクは建物でない
+Illustration: a large isometric cylindrical oil tank filled with a liquid
+level line, tagged 「石油」. A human figure icon at the entrance is crossed
+out with a small red ✕ and tagged 「人が入らない」. A large red ✕ overlays the
+tank.
+Conclusion tag (short blue banner/pill):
+用途性を欠く
+
+--- CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line):
+機械上の建造物は建物でない
+Illustration: an isometric factory machine with a small operator hut
+resting on top of it, tagged 「機械上」. Beneath the hut, dashed lines drop
+toward the ground where a support column icon is crossed out with a red ✕
+and tagged 「基脚・支柱なし」. A large red ✕ overlays the hut.
+Conclusion tag (short blue banner/pill):
+土地に未固着
+
+--- CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line):
+屋根付き観覧席は建物になる
+Illustration: an isometric outdoor ballpark stand. The roofed section is
+drawn in solid color with spectator figures under it and a small tag
+「屋根あり」, carrying a large green ✓. The adjacent open-air bleacher section
+is drawn faded with a small red ✕ and a tag 「屋根なし」.
+Conclusion tag (short blue banner/pill):
+屋根の有無がカギ
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly
+(建物認定の5事例: ビニール温室・コンテナ貸倉庫・石油タンク・機械上の建造物・
+屋根付き観覧席), with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

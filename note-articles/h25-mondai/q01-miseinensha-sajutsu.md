@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】「知っていたのに騙された」は成立する？〜未成年者の詐術と取消しのルール〜
+## 【土地家屋調査士受験生向け】平成25年度 第1問〜「知っていたのに騙された」は通用しない〜
 
 **出題年度：平成25年度　午後の部　第1問**
 
@@ -50,15 +50,13 @@
 
 **たとえば**、Aさんが成人した後、以前結んだ契約の代金をCさんから「特に文句も言わずに」受け取ってしまうと、それだけでこの契約を認めたことになり、あとになって「やっぱり取り消したい」と言い出すことはできなくなります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 相手方が未成年者だと知っていれば、詐術を用いても取消しは制限されない（民法21条） |
-| イ | 正 | 未成年者は、法定代理人の同意を得れば成年に達する前でも追認できる（民法124条） |
-| ウ | 正 | 法定代理人への催告に無回答なら追認したものとみなされる（民法20条2項） |
-| エ | 誤 | 取消しの意思表示は契約の相手方にすれば足り、転得者への意思表示は不要 |
-| オ | 正 | 成年に達した後、異議なく履行を受ければ法定追認が成立する（民法125条） |
+- **ア（誤）**　相手方が未成年者だと知っていれば、詐術を用いても取消しは制限されない
+- **イ（正）**　未成年者は、法定代理人の同意を得れば成年に達する前でも追認できる
+- **ウ（正）**　法定代理人への催告に無回答なら追認したものとみなされる
+- **エ（誤）**　取消しの意思表示は契約の相手方にすれば足り、転得者への意思表示は不要
+- **オ（正）**　成年に達した後、異議なく履行を受ければ法定追認が成立する
 
 「詐術」と「誰に対する取消し・追認・催告か」という2つの視点を軸に整理すると、この分野の問題は一気に解きやすくなります。
 
@@ -70,7 +68,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（2番＝ア・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。なお、平成25年度の試験問題原本は法務省の現行サイト（moj.go.jp）には掲載が確認できなかったため、問題文・選択肢についても同データベースを一次情報源としています。
-- 各肢の法的根拠は、ア（民法21条・詐術と誤信の因果関係）、イ（民法124条・法定代理人の同意による追認）、ウ（民法20条2項・催告と確答不到達のみなし追認）、エ（取消権の行使の相手方に関する一般原則）、オ（民法125条・法定追認）を条文・一般原則から確認しています。アの「相手方が知っていた場合は詐術の効果が生じない」という点は判例・通説の理解によるものであり、条文上に直接の明文はありません。
+- 各肢の法的根拠は、`note-articles/laws/`のローカル法令データベース（`minpou-1-soukyoku-bukken.md`）で条文原文を確認しました。ア（民法21条「制限行為能力者が行為能力者であることを信じさせるため詐術を用いたときは、その行為を取り消すことができない」）は条文の文言そのもので確認できましたが、「相手方が最初から未成年であることを知っていた場合は詐術の効果が生じない（誤信との因果関係が必要）」という部分は条文に直接の明文はなく、判例・通説の理解によるものです。イ（民法124条2項2号「制限行為能力者（成年被後見人を除く。）が法定代理人…の同意を得て追認をするとき」は、同条1項の「取消しの原因となっていた状況が消滅し…た後」という要件の例外として明記されており、条文の文言そのもので確認できました）。ウ（民法20条2項。同項は1項後段「その期間内に確答を発しないときは、その行為を追認したものとみなす」の規律を法定代理人への催告に及ぼすものであり、条文の文言そのもので確認できました）。エ（民法123条「取り消すことができる行為の相手方が確定している場合には、その取消し…は、相手方に対する意思表示によってする」により、取消しの意思表示は契約の相手方Cにすれば足り、転得者Dへの意思表示は不要であることが条文の文言そのもので確認できました）。オ（民法125条1号「全部又は一部の履行」。この「履行」には取消権者が履行を受ける行為も含まれるとするのが判例・通説の解釈であり、条文の文言自体は履行を受ける側・する側を区別していません）。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。民法21条の詐術（行為能力者であることを信じさせる詐術）という一般論点自体は、H26年度第1問（被保佐人版）やR04年度第1問（詐術一般）でも繰り返し出題されていますが、本問アの「相手方が未成年者であることを知っていた場合でも詐術による取消制限が及ぶか」という具体的なひねりそのものの再出題は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**が、詐術という論点自体は頻出のため、note投稿時は他年度の解説と論旨が似すぎないよう注意してください。
 
 ---
@@ -87,14 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-未成年者の取消し・追認・催告・法定追認について、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+未成年者の契約について「取消しができる場面」と「追認・法定追認が成立する場面」という2つの軸に沿って、5肢すべての結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric characters, contract
+documents, torn paper labels, theatrical masks, mailboxes, clocks, seals,
+money bags, padlocks, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,67 +112,91 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 詐・術・認・転 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-未成年者の法律行為
-取消し・追認、5つの分かれ道
+Title (large, bold, 1行):
+未成年者の契約、取消せる？できない？
 
 Subtitle (smaller, centered, 1行):
 詐術・追認・催告・法定追認のルールを整理(平成25年度 午後の部 第1問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scene on the left showing a small young character (未成年者) standing at a fork in a path, with a torn contract paper icon at the fork, and two signposts pointing in different directions labeled 取消しできる and 取消しできない.
-未成年者が同意なく結んだ契約は、詐術・追認・催告・法定追認という場面ごとに、取り消せるかどうかの結論が分かれます。誰が、いつ、どう行動すると結論が変わるのかを5枚のカードで整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-相手方が未成年者だと知っていれば、詐術を用いても取消しは制限されない
-Illustration: An isometric young character holding a small theatrical mask icon labeled 詐術 in front of their face, facing an adult character whose eyes are drawn as magnifying glasses seeing through the mask, with a green checkmark and a small tag reading 取消しできる floating above.
-Caption (small text below):
-詐術を用いても、相手方が最初から未成年者だと知っていた場合は誤信していないため、取消しは制限されない(民法21条)。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+取消しができる場面
 
---- CARD 2 ---
-Heading (bold):
-未成年者は、法定代理人の同意を得れば成年に達する前でも追認できる
-Illustration: An isometric young character and a parent-figure character standing together, the parent giving a thumbs-up next to a speech bubble labeled 同意, while the young character alone stamps a document with a seal labeled 追認.
-Caption (small text below):
-法定代理人の同意があれば、未成年者本人が成年に達する前でも単独で追認できる(民法124条)。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+知っていた相手には詐術無効
+Illustration: An isometric young character (未成年者) holding a small
+theatrical mask icon labeled 詐術 in front of their face, facing an adult
+character whose eyes are drawn as magnifying glasses seeing through the
+mask.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+取消しできる
 
---- CARD 3 ---
-Heading (bold):
-法定代理人への催告に無回答なら、追認したものとみなされる
-Illustration: An isometric mailbox sending an envelope labeled 催告 to a parent-figure character, a clock icon showing time passing with no reply speech bubble (crossed out), followed by an automatic stamp reading 追認とみなす appearing on the contract.
-Caption (small text below):
-相手方が法定代理人に1か月以上の期間を定めて確答を催告し、期間内に返事がなければ追認したものとみなされる(民法20条2項)。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+取消しは契約相手に伝えればOK
+Illustration: An isometric young character sending a speech-bubble arrow
+labeled 取消します directly to the original contract-partner character,
+while a third character standing further away (labeled 転得者) has a
+crossed-out arrow pointing toward them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+転得者への通知不要
 
---- CARD 4 ---
-Heading (bold):
-取消しの意思表示は、契約の相手方に伝えれば足りる
-Illustration: An isometric young character sending a speech-bubble arrow labeled 取消します directly to the original contract-partner character, while a third character standing further away (labeled 転得者) has a crossed-out arrow pointing toward them, showing no notice is needed.
-Caption (small text below):
-目的物が転得者に転売されていても、取消しの意思表示は元の契約相手にすれば足り、転得者に個別に伝える必要はない。
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+追認・法定追認が成立する場面
 
---- CARD 5 ---
-Heading (bold):
-成年に達した後、異議なく履行を受ければ法定追認が成立する
-Illustration: An isometric now-adult character (wearing a small 成年 badge) receiving a money-bag icon labeled 代金 with a green checkmark and no protest speech bubble, followed by a padlock icon closing over a tag reading 取消し.
-Caption (small text below):
-成年に達した後、異議をとどめずに代金などの履行を受け取ると法定追認が成立し、以後は取り消せなくなる(民法125条)。
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+同意があれば未成年でも追認可
+Illustration: An isometric young character and a parent-figure character
+standing together, the parent giving a thumbs-up next to a speech bubble
+labeled 同意, while the young character alone stamps a document with a
+seal labeled 追認.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+同意があれば追認可
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+催告に無回答なら追認とみなす
+Illustration: An isometric mailbox sending an envelope labeled 催告 to a
+parent-figure character, a clock icon showing time passing with no reply
+speech bubble (crossed out), followed by an automatic stamp reading
+追認とみなす appearing on the contract.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+無回答→追認みなし
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+代金受領で法定追認、取消し不可に
+Illustration: An isometric now-adult character (wearing a small 成年 badge)
+receiving a money-bag icon labeled 代金 with a green checkmark and no
+protest speech bubble, followed by a padlock icon closing over a tag
+reading 取消し.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+取消しできなくなる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第1問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

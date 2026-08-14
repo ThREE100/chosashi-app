@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】桟橋の上の家、住所はどう登記する?〜建物の所在の記録ルールを整理〜
+## 【土地家屋調査士受験生向け】令和6年度 第13問〜桟橋の建物は「何番地先」と登記〜
 
 **出題年度：令和6年度　午後の部　第13問**
 
@@ -32,7 +32,7 @@
 
 ### ウ：仮換地上に新築した建物は、現に存する土地の地番を所在とする
 
-仮換地上に建てた建物の表題登記では、所在として建物が現に存する土地の地番を提供するほか、かっこ書きで換地の予定地番を所在として併記する取り扱いになっています(昭43.2.14民甲170号)。
+仮換地上に建てた建物の表題登記では、所在として建物が現に存する土地の地番を提供するほか、かっこ書きで換地の予定地番を所在として併記する取り扱いになっています。
 
 **たとえば**、土地区画整理事業で仮換地の指定を受けた土地に家を新築した場合、表題登記の所在欄には、現に建物が建っている(仮換地の)土地の地番を記載します。
 
@@ -48,13 +48,13 @@
 
 **たとえば**、マンションの一室(主である建物)と同じ棟にある別の専有部分を附属建物とする場合、その附属建物についてあらためて所在地番を記載する必要はありません。
 
-### まとめ
+### まとめ表
 
-- **ア（誤）**　行政区画の名称変更は登記官の職権による処理であり申請義務はない
-- **イ（誤）**　規約敷地の地番は一棟の建物の所在欄には記録されない
-- **ウ（正）**　仮換地上の建物は、現に存する土地の地番を所在として提供する
-- **エ（正）**　桟橋上の建物は、最も近い土地の地番で「何番地先」と記録する
-- **オ（正）**　主建物と同一棟の附属区分建物は所在地番の記載を省略できる
+- **ア（誤）** 行政区画の名称変更は登記官の職権による処理であり申請義務はない
+- **イ（誤）** 規約敷地の地番は一棟の建物の所在欄には記録されない
+- **ウ（正）** 仮換地上の建物は、現に存する土地の地番を所在として提供する
+- **エ（正）** 桟橋上の建物は、最も近い土地の地番で「何番地先」と記録する
+- **オ（正）** 主建物と同一棟の附属区分建物は所在地番の記載を省略できる
 
 建物の所在のルールは、場面ごとに「誰が動くか(職権か申請か)」「どの地番を使うか」を切り分けて覚えるのがコツです。
 
@@ -82,13 +82,29 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+建物の所在に関する5つの記述(行政区画変更・規約敷地・仮換地・桟橋・附属区分建物)を、「誰が動くか(職権か申請か)」と「どの地番を使うか」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成(導入イラスト・導入文のブロックは置かない)。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+plots, official stamps, torn paper labels, a pier/dock, an apartment
+building cross-section, land-readjustment plots — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -96,63 +112,92 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Note: this prompt contains kanji that are easily confused with Simplified
-Chinese variants, especially 登・記・建・物・地・番・所. Render these
-strictly in their standard Japanese (Jōyō) forms, never as simplified hanzi.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・権・地・番・建・物・登・記・所 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-建物の所在、記録ルールを場面別に整理
+建物の所在、どう記録する?
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第13問｜建物の所在
+令和6年度 午後の部 第13問－誰が動く?どの地番を使う?
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 地図と建物のアイソメトリックイラスト。行政区画の境界線・仮換地の土地・桟橋・マンションなど、複数の場面アイコンが並ぶ。
-建物の所在は原則として建物が存する土地の地番で表しますが、行政区画の変更・仮換地・桟橋・区分建物といった特殊な場面ごとに、それぞれ独自の記録ルールが定められています。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-行政区画の名称変更は、登記官の職権で処理される
-Illustration: 市町村合併を表す地図アイソメトリックイラスト。町の名称ラベルが書き換えられる様子。登記官のスタンプアイコンが押される。所有者の人物アイコンに「申請不要」のラベル。
-Caption (small text below):
-行政区画の名称変更は登記官の職権による処理であり申請義務はない
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+誰が動くか(職権か申請か)
 
---- CARD 2 ---
-Heading (bold):
-規約敷地の地番は、一棟の建物の所在欄に記録されない
-Illustration: マンションのアイソメトリックイラスト。法定敷地(建物の下の土地)と規約敷地(離れた駐車場)を並べる。法定敷地の地番だけが「所在欄」の書類アイコンに書き込まれ、規約敷地の地番にはバツ印。
-Caption (small text below):
-規約敷地の地番は一棟の建物の所在欄には記録されない
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+行政区画変更は職権で処理
+Illustration: A city hall building with a sign changing from an old
+town name to a new town name (municipal merger), and next to it an
+isometric 登記官(registrar) stamping a document with an official seal.
+The building owner is shown standing idle, doing nothing, next to a
+document labeled "申請" with a red cross mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+申請不要・職権で処理
 
---- CARD 3 ---
-Heading (bold):
-仮換地上の建物は、現に存する土地の地番を所在とする
-Illustration: 土地区画整理事業のアイソメトリックイラスト。仮換地に建てられた家。所在欄の書類に「現に存する土地の地番」のラベル。
-Caption (small text below):
-仮換地上の建物は、現に存する土地の地番を所在として提供する
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+どの地番を使うか(申請時の記載ルール)
 
---- CARD 4 ---
-Heading (bold):
-桟橋上の建物は、最も近い土地の地番で「何番地先」と記録する
-Illustration: 海に突き出た永久的な桟橋の上に建つ建物のアイソメトリックイラスト。陸地の最寄りの地番から矢印が伸び、「何番地先」というラベル付きの吹き出し。
-Caption (small text below):
-桟橋上の建物は、最も近い土地の地番で「何番地先」と記録する
+--- COLUMN B, CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約敷地の地番は所在欄に無し
+Illustration: An isometric apartment building standing on its 法定敷地
+(the land it actually stands on, labeled with its 地番), with a
+separate parking-lot parcel nearby labeled「規約敷地」connected by a
+dashed line and a torn-paper label reading「所在欄には記録されない」。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+所在欄には非記録
 
---- CARD 5 ---
-Heading (bold):
-同じ棟の附属区分建物は、所在地番の記載を省略できる
-Illustration: マンションのアイソメトリックイラスト。主である建物(専有部分)と同じ棟にある附属建物(専有部分)。附属建物の所在地番の書類欄にバツ印(省略可)。
-Caption (small text below):
-主建物と同一棟の附属区分建物は所在地番の記載を省略できる
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮換地上の建物は現地地番
+Illustration: An isometric land-readjustment site divided into grid
+parcels, with a newly built house standing on one parcel labeled with
+its 地番(the plot the building currently stands on), and a small
+parenthetical label beside it reading「(換地予定地番を併記)」。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+現に存する地番
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+桟橋上の建物は「何番地先」
+Illustration: An isometric pier extending from the coastline over the
+sea, with a small building standing on the pier. A dashed arrow points
+from the nearest land parcel (labeled with its 地番) out to the
+building, with a label reading「◯番地先」。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+最も近い地番
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+同一棟の附属区分建物は記載省略
+Illustration: An isometric cross-section of one apartment building
+showing two units side by side: the 主である建物(main unit, highlighted)
+and an 附属建物(annex unit, same building), with a torn-paper label on
+the annex unit reading「所在地番の記載は不要」。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+記載省略できる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

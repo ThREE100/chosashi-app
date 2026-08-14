@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】その工事、登記は要る？建物の変更・表題・滅失の使い分け〜改修・増築・附属建物・建て替えを整理〜
+## 【土地家屋調査士受験生向け】平成20年度 第5問〜同一でも建て替えなら滅失＋表題登記が必要〜
 
 **出題年度：平成20年度　午後の部　第5問**
 
@@ -20,13 +20,13 @@
 
 ### ア：外壁・屋根の改修だけでは、変更登記は必要ない
 
-建物の表題部の変更の登記が必要になるのは、種類・構造・床面積など、登記事項に変動が生じたときです。外壁材や屋根材を張り替えるだけの改修では、これらの登記事項は基本的に変わりません。したがって「表題部の変更の登記が必要」とする本肢は誤りです。
+建物の表題部の変更の登記が必要になるのは、不動産登記法51条1項が定めるとおり、同法44条1項各号の登記事項（所在、家屋番号、種類、構造、床面積など）に変更があったときです。外壁材や屋根材を張り替えるだけの改修では、これらの登記事項は基本的に変わりません。したがって「表題部の変更の登記が必要」とする本肢は誤りです。
 
 **たとえば**、古くなった家の外壁と屋根をリフォームしてきれいにしても、木造2階建て・床面積◯㎡という登記の中身が変わらなければ、登記をやり直す必要はありません。見た目が新しくなっても、登記簿の記載は同じままでよいのです。
 
 ### イ：増築部分がAとBの共有になるとは限らない
 
-増築部分が区分建物の要件（構造上・利用上の独立性）を満たさない場合、その増築部分は既存の建物に一体化（附合）し、既存建物の所有者のものになります。したがって、増築の費用を出しただけのBが当然に共有者になるわけではなく、「AとBを共有者として」変更登記をするという結論は誤りです。
+増築部分が区分建物の要件（構造上・利用上の独立性）を満たさない場合、その増築部分は既存の建物に付合し、既存建物の所有者のものになります（民法242条本文）。したがって、増築の費用を出しただけのBが当然に共有者になるわけではなく、「AとBを共有者として」変更登記をするという結論は誤りです。
 
 **たとえば**、A所有の家に、Bがお金を出して独立性のない部屋を継ぎ足した場合でも、その部屋は家に一体化してA所有となります。床面積の増加による表題部変更の登記はしますが、それだけでBが所有者に加わるわけではないのです（Bの持分は、別途の合意や登記の問題として処理されます）。
 
@@ -38,7 +38,7 @@
 
 ### エ：附属建物の取壊しは、滅失の登記ではなく変更の登記
 
-主たる建物に付いている附属建物（物置や車庫など）だけを取り壊した場合、主たる建物は残っています。建物全体が無くなったわけではないので、「滅失の登記」ではなく、附属建物が減ったことを反映する「表題部の変更の登記」を申請します。したがって本肢は正しい記述です。
+附属建物は主たる建物の登記記録の登記事項の一つなので（不動産登記法44条1項5号）、附属建物だけを取り壊しても建物自体は滅失しておらず、申請するのは「表題部の変更の登記」です（同法51条1項）。したがって本肢は正しい記述です。
 
 **たとえば**、母屋（主たる建物）に付属した物置（附属建物）だけを解体したときは、建物そのものが消えたわけではないので、滅失登記ではなく、「附属建物が無くなった」という表題部の変更の登記をします。
 
@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 外壁・屋根の改修のみで登記事項が変わらなければ変更登記は不要 |
-| イ | 誤 | 独立性のない増築部分は附合し既存所有者に帰属。当然にABの共有とはならない |
-| ウ | 正 | 未登記建物は変更登記ができず、まず表題登記を申請する |
-| エ | 正 | 附属建物のみの取壊しは滅失登記でなく表題部の変更の登記 |
-| オ | 誤 | 全項目が同一でも、建て替えなら滅失＋表題登記が必要 |
+- **ア（誤）**　外壁・屋根の改修のみで登記事項が変わらなければ変更登記は不要
+- **イ（誤）**　独立性のない増築部分は附合し既存所有者に帰属。当然にABの共有とはならない
+- **ウ（正）**　未登記建物は変更登記ができず、まず表題登記を申請する
+- **エ（正）**　附属建物のみの取壊しは滅失登記でなく表題部の変更の登記
+- **オ（誤）**　全項目が同一でも、建て替えなら滅失＋表題登記が必要
 
 「登記事項が実際に動いたか」「建物が消えたのか・生まれたのか」を切り分けると、変更・表題・滅失の使い分けがクリアになります。
 
@@ -68,7 +66,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝ウ・エが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
+- **【2026年8月4日 現行法との整合性を再検証しました。判定の修正は不要でした】** 建物の表題部の変更の登記の根拠である**不動産登記法51条1項**（44条1項各号の登記事項に変更があったときは、表題部所有者又は所有権の登記名義人が1月以内に変更の登記を申請しなければならない）と、登記事項を列挙する**44条1項**（所在、家屋番号、種類、構造、床面積、附属建物があるときはその所在・種類・構造・床面積など）は、現行条文でも同じ位置にあることを確認し、肢アに条文番号を補いました。表題登記は同法47条、滅失の登記は同法57条です。
 - 本問はもともと教授と学生の対話形式で出題されたものです。手元のデータベースには各解答の要旨（ア〜オ）は保存されていましたが、対話の細かな設定（登場人物A・Bの関係など）までは残っていなかったため、引用部分の対話の前提はデータベースの要旨に沿って再構成しています。イ（増築部分の帰属）とオ（全項目同一の場合）の説明は、公式正答（正解4番＝ウエ）に整合するように、附合の原則・建て替えの取扱いという一般原則から補って説明したもので、当時の先例の逐一確認まではしていません。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、肢イ・エの条文根拠を補いました】** `fudousan-touki-hou.md`で**44条1項**（1号所在・2号家屋番号・3号種類構造床面積・**5号附属建物の所在等**・7号一棟の建物の構造及び床面積）、**51条1項**（変更の登記の申請義務）、**47条1項**（新築した建物は所有権取得の日から1月以内に表題登記）、**57条**（滅失の登記）を原文で確認しました。あわせて`minpou-1-soukyoku-bukken.md`で**民法242条**（不動産の付合。条文の表記は「附合」ではなく「**付合**」）を確認し、肢イの根拠として明記しました。肢エについては、附属建物が44条1項5号の登記事項であることから51条1項の変更の登記になる、という条文の道筋を本文に補いました。正誤の結論は変わりません。
 - ウ・エ（未登記建物の表題登記、附属建物取壊しの表題部変更登記）は、表示に関する登記の基本的な取扱いに基づく説明です。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を対話形式・「大規模改修工事」「附属建物の取壊し」等のキーワードで確認しました。完全一致するフレーズや事例は見当たりませんでした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
 
@@ -81,3 +81,110 @@
 - 未登記の建物は「変更」じゃなく、まず「表題登記」から
 - 物置だけ壊したら、滅失じゃなくて表題部の変更登記なんです
 - 同じ家に建て替えても、滅失＋新築の登記がいるって知ってた？
+
+---
+
+## インフォグラフィック生成プロンプト（問題全体）
+
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その工事、登記は必要？
+
+Subtitle (smaller, centered, 1行):
+平成20年度 午後の部 第5問／建物の変更・表題・滅失の使い分け
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+外壁と屋根の改修だけなら登記不要
+Illustration: リフォーム中の家のisometricイラスト。外壁と屋根がきれいになる様子。横に「登記事項変わらず」のラベルと✕マークの付いた変更登記書類。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+登記事項に変動なし
+
+--- CARD 2 ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+増築部分は独立性なければ既存所有者のもの
+Illustration: 家に継ぎ足された小部屋のisometricイラスト。所有者Aのキャラクターの家に一体化する矢印。Bのキャラクターの持分ラベルには✕マーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+附合により帰属
+
+--- CARD 3 ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+未登記の建物はまず表題登記から
+Illustration: 登記されていない家のisometricイラスト。「変更登記」の書類に✕マーク、代わりに「表題登記」の書類にチェックマーク。AとBの共有者アイコン。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+表題登記が先
+
+--- CARD 4 ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+附属建物だけの取壊しは表題部変更登記
+Illustration: 母屋のisometricイラストの横にある物置が取り壊される図。「滅失登記」の書類に✕マーク、「表題部変更登記」の書類にチェックマーク。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+滅失登記ではない
+
+--- CARD 5 ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
+takeaway phrase, not the original full sentence from the article):
+建て替えなら滅失＋表題登記が必要
+Illustration: 古い家が取り壊され、同じ場所・同じ形の新しい家が建つisometricイラスト。矢印の途中に「滅失登記」と「表題登記」の2つの書類アイコン。
+Conclusion tag (a short colored banner/pill directly below the illustration,
+soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
+legal citation):
+登記は省略不可
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.

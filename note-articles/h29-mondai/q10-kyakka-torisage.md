@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】申請の取下げ・却下のルール〜完了後は取り下げられない、印紙は再使用できる〜平成29年度午後の部 第10問を解説〜
+## 【土地家屋調査士受験生向け】平成29年度 第10問〜登記完了後はもう取り下げられない〜
 
 **出題年度：平成29年度　午後の部　第10問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、土地家屋調査士が代理人として申請した登記が却下された場合、却下決定書はその代理人である調査士に交付されます。わざわざ申請人本人だけに渡し、代理人には渡さない、という扱いではないのです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 電子申請の取下げは電子情報処理組織を使う方法による（規則39条1項1号） |
-| イ | 誤 | 登記完了後は取り下げられない（取下げは完了前まで・規則39条2項） |
-| ウ | 正 | 取り下げた印紙は取下げ日から1年以内に再使用の申出ができる（登録免許税法31条3項） |
-| エ | 誤 | 却下時、添付書面は還付されるが申請書は還付されない（規則38条3項） |
-| オ | 誤 | 却下決定書は代理人に交付すれば足りる（規則38条1項） |
+- **ア（正）**　電子申請の取下げは電子情報処理組織を使う方法による
+- **イ（誤）**　登記完了後は取り下げられない（取下げは完了前まで）
+- **ウ（正）**　取り下げた印紙は取下げ日から1年以内に再使用の申出ができる
+- **エ（誤）**　却下時、添付書面は還付されるが申請書は還付されない
+- **オ（誤）**　却下決定書は代理人に交付すれば足りる
 
 「取下げは登記完了前まで」「却下されても申請書は返らない」「却下決定書は代理人に交付でよい」という3点を押さえると、迷いにくくなります。
 
@@ -71,6 +69,7 @@
 - 各肢の根拠について、ア（不動産登記規則39条1項1号）、イ（規則39条2項）、ウ（登録免許税法31条：取下げによる還付と再使用証明の選択）、エ（規則38条3項）、オ（規則38条1項）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認しました。「却下」を扱う令和3年度第6問は、却下事由の具体的内容（一部却下事由の効果、筆界確認不能、基本三角点等の成果の不使用）を問うもので、本問（取下げの方法・時期・印紙の再使用・却下決定書の交付先）とは異なる論点であり、**重複は見つかりませんでした**。
+
 ---
 
 ## 見出し画像用フレーズ
@@ -80,3 +79,119 @@
 - 取り下げた印紙、1年以内なら再使用できるって知ってた？
 - 却下されても、申請書そのものは返ってこないんです
 - 却下決定書は、代理人に渡せば足りるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「取下げのルール」（ア・イ・ウ＝列A・緑）と「却下のルール」（エ・オ、いずれも誤りの肢を正しいルールに直したもの＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。導入イラスト・導入文のブロックは置かず、タイトル・サブタイトル直後からカード群に入る。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: tablet/server icons, registry
+counter icons, revenue stamp icons, calendar icons, document folder
+icons, barricade/blocked icons, torn paper labels, etc. — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 取・下・電・子・処・理・完・了・交・付・印・紙・再・使・用・却・還・決・定・代・理 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+その申請、取り下げる？却下される？
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第10問－取下げと却下のルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+取下げのルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+電子申請の取下げは電子で行う
+Illustration: タブレット画面に「取下げ」ボタンを押す人物アイコンが描かれ、電子情報処理組織のサーバーアイコンへ矢印で「取下げ情報」が送信されている。紙の取下書アイコンには✕マークが付けられている。
+Conclusion tag (5-15 characters):
+オンラインで取下げ
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記完了後はもう取り下げられない
+Illustration: 登記記録簿アイコンに「登記完了」のスタンプが押された後、申請人が取下書を差し出そうとしているが、窓口の登記官アイコンの手前に大きな✕マークのバリケードが描かれている。「完了証交付前ならOK」という吹き出しにも✕マークが付けられている。
+Conclusion tag (5-15 characters):
+完了後の取下げ不可
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+印紙は1年以内なら再使用できる
+Illustration: 消印された収入印紙のアイコンにカレンダーが添えられ「取下げの日から1年」の矢印が伸びている。その印紙が次の申請書アイコンに再び貼られ、✓マークが付いている。
+Conclusion tag (5-15 characters):
+1年以内に再使用申出
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+却下のルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 characters or fewer):
+却下されても申請書は還付されない
+Illustration: 却下スタンプが押された申請書類の束から、添付書面（戸籍謄本など）だけが矢印で申請人へ還付され✓マークが付いている。申請書そのものには✕マークが付き、登記所に残されたままの様子が描かれている。
+Conclusion tag (5-15 characters):
+添付書面のみ還付
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+却下決定書は代理人へ渡せば足りる
+Illustration: 却下決定書の書類アイコンが、調査士（代理人）の人物アイコンへ手渡されている様子が描かれている。「申請人本人にしか渡せない」という吹き出しに大きな✕マークが付けられている。
+Conclusion tag (5-15 characters):
+代理人への交付でよい
+
+--- FOOTER ---
+
+Card list for self-verification (do not duplicate, omit, or reword any of
+these 5 headings):
+1. 電子申請の取下げは電子で行う
+2. 登記完了後はもう取り下げられない
+3. 印紙は1年以内なら再使用できる
+4. 却下されても申請書は還付されない
+5. 却下決定書は代理人へ渡せば足りる
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

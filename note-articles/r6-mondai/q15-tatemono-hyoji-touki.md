@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】表題部所有者の更正、申請できるのは誰?〜建物の表示登記の細かいルールを整理〜
+## 【土地家屋調査士受験生向け】令和6年度 第15問〜表題部所有者の更正、申請できるのは誰？〜
 
 **出題年度：令和6年度　午後の部　第15問**
 
@@ -44,17 +44,17 @@
 
 ### オ：共用部分である旨の登記がある建物も、共有者の1人から申請できる
 
-建物が共有の場合、その表題部の変更・更正の登記は、保存行為として共有者の1人から申請することができます(民法252条ただし書)。これは共用部分である旨の登記がされている場合であっても同様であり、共有者全員でしなければならないわけではありません。
+建物が共有の場合、その表題部の変更・更正の登記は、保存行為として共有者の1人から申請することができます(民法252条5項)。これは共用部分である旨の登記がされている場合であっても同様であり、共有者全員でしなければならないわけではありません。
 
 **たとえば**、マンションの集会室のように共用部分である旨の登記がされている建物の表題部を更正する必要がある場合でも、共有者全員がそろわなくても、共有者の1人が申請すれば足ります。
 
-### まとめ
+### まとめ表
 
-- **ア（誤）**　建物名称を記載しても滅失登記で構造・床面積は省略できない
-- **イ（正）**　表題部所有者の氏名変更登記の登記原因は「氏名変更」
-- **ウ（誤）**　表題部所有者の更正登記は真正な所有者からのみ申請できる
-- **エ（正）**　階層的に区分した専有部分の構造欄には屋根の種類を記載しない
-- **オ（誤）**　共用部分である旨の登記がある建物も共有者の1人から申請できる
+- **ア（誤）** 建物名称を記載しても滅失登記で構造・床面積は省略できない
+- **イ（正）** 表題部所有者の氏名変更登記の登記原因は「氏名変更」
+- **ウ（誤）** 表題部所有者の更正登記は真正な所有者からのみ申請できる
+- **エ（正）** 階層的に区分した専有部分の構造欄には屋根の種類を記載しない
+- **オ（誤）** 共用部分である旨の登記がある建物も共有者の1人から申請できる
 
 建物の表示登記は、「誰が申請できるか」と「何を省略できるか」を、場面ごとに丁寧に切り分けて覚えることが得点への近道です。
 
@@ -66,7 +66,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号(3番＝イエ)は、土地家屋調査士試験対策アプリの検証済みデータベース(takuitsu.json)のexplanationフィールドで確認済みです。
-- 各肢の根拠のうち、エ(不動産登記事務取扱準則81条3項)、オ(民法252条ただし書)は、データベースのexplanationフィールドで条文まで明記されています。ア(滅失登記での構造・床面積の省略可否)、イ(氏名変更の登記原因)、ウ(表題部所有者の更正登記の申請適格)については、データベース上で明確な条文番号までは示されておらず、登記実務上の一般的な取扱いからの推論にとどまる点は留意してください。
+- 各肢の根拠のうち、エ(不動産登記事務取扱準則81条3項)、オ(民法252条5項)は、データベースのexplanationフィールドで条文まで明記されています(データベース上は「252条ただし書」と表記されていますが、令和3年民法改正(2023年4月1日施行)により保存行為の規定は条文移動を経て5項となっているため、現行法に合わせて条文番号を修正しています)。ア(滅失登記での構造・床面積の省略可否)、イ(氏名変更の登記原因)、ウ(表題部所有者の更正登記の申請適格)については、データベース上で明確な条文番号までは示されておらず、登記実務上の一般的な取扱いからの推論にとどまる点は留意してください。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧(対照表PDF)のみで、テキスト解説は含まれていなかったため、今回はアガルート教材を参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題を確認しました。本問オ（共用部分である旨の登記がある建物の表題部の**更正**登記は共有者全員の申請を要しない）と、令和7年度第15問エ（共用部分である旨の登記を**新たに申請**する場合は共有者全員の申請を要する）は、テーマが近く紛らわしい肢ですが、前者は既存の共用部分登記がある建物の「更正登記」、後者は「共用部分である旨の登記そのものの申請」であり、対象となる登記の種類が異なるため、**同一問題としての重複ではありません**。他の肢を含め、本問と完全に重複する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -82,13 +82,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+建物の表示登記に関する5肢の正しいルールを、「誰が申請できるか」と「申請情報に何を書く／書かないか」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成(導入イラスト・導入文のブロックは置かない)。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric houses and
+apartment buildings, registration documents, name plates, stamps,
+seals, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -96,63 +111,91 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Note: this prompt contains kanji that are easily confused with Simplified
-Chinese variants, especially 登・記・建・物・所. Render these strictly in
-their standard Japanese (Jōyō) forms, never as simplified hanzi.
+summarize, or substitute any characters. Pay special attention to the
+kanji 建・物・登・記・所・更・正・権 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-建物の表示登記、申請人と省略可否を整理
+建物の表示登記、誰が申請できる？
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第15問｜建物の表示に関する登記
+令和6年度 午後の部 第15問－何を書く?書かない?
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 建物の登記簿(表題部)のアイソメトリックイラスト。滅失・変更・更正・区分の4つの場面アイコンが並ぶ。
-建物の表示に関する登記は、滅失・変更・更正・区分といった場面ごとに、申請情報として何を書くべきか、誰が申請できるかが細かく定められています。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-建物名称を記載しても、滅失登記で構造・床面積は省略できない
-Illustration: 「山田ハイツ」の名称プレートが付いた建物を取り壊すアイソメトリックイラスト。滅失登記の申請書類に、構造・床面積の欄がチェックマーク付きで残っている。
-Caption (small text below):
-建物名称を記載しても滅失登記で構造・床面積は省略できない
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+誰が申請できるか（申請適格）
 
---- CARD 2 ---
-Heading (bold):
-表題部所有者の氏名変更、登記原因は「氏名変更」
-Illustration: 表題部所有者の氏名が「鈴木花子」から「田中花子」に書き換えられるアイソメトリックイラスト。登記原因欄に「氏名変更」のラベル。
-Caption (small text below):
-表題部所有者の氏名変更登記の登記原因は「氏名変更」
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+更正登記は真正な所有者だけ
+Illustration: An isometric house with a name plate showing "A" crossed
+out with an X mark (誤り), while a separate person labeled "B" submits
+an application document with a checkmark (○), indicating only the true
+owner B may file.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+Ａは申請不可
 
---- CARD 3 ---
-Heading (bold):
-表題部所有者の更正登記は、真の所有者からのみ申請できる
-Illustration: 誤って登記された人物アイコン(A)と真の所有者アイコン(B)のアイソメトリックイラスト。Bから更正登記の書類への矢印にチェックマーク、Aから同じ書類への矢印にバツ印。
-Caption (small text below):
-表題部所有者の更正登記は真正な所有者からのみ申請できる
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+共用部分も共有者1人で更正可
+Illustration: An isometric shared common-area room (mansion common
+room, 共用部分) with several people standing around it, but only one
+person stepping forward to submit an application document; the other
+people are shown with a dashed outline and a checkmark labeled
+「1人でOK」, indicating not all co-owners need to apply together.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+全員不要・1人でOK
 
---- CARD 4 ---
-Heading (bold):
-階層区分した専有部分の構造欄には、屋根の種類を書かない
-Illustration: 2階建て建物を1階(甲区分建物)・2階(乙区分建物)に分けるアイソメトリックイラスト。屋根アイコンから構造欄への矢印にバツ印。
-Caption (small text below):
-階層的に区分した専有部分の構造欄には屋根の種類を記載しない
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+何を書くか・書かないか（申請情報の記載事項）
 
---- CARD 5 ---
-Heading (bold):
-共用部分の建物も、共有者の1人から更正登記できる
-Illustration: マンションの集会室(共用部分である旨の登記がある建物)のアイソメトリックイラスト。複数の共有者アイコンのうち1人だけが申請書類を提出。
-Caption (small text below):
-共用部分である旨の登記がある建物も共有者の1人から申請できる
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+名称を書いても構造・床面積要
+Illustration: An isometric house under demolition with a name plate
+reading "山田ハイツ", next to an application form where the fields
+「構造」and「床面積」are shown filled in and circled (not omitted),
+with a small "省略不可" label.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+省略できない
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+氏名変更の登記原因は「氏名変更」
+Illustration: An isometric registration record card showing the name
+「鈴木花子」being updated to「田中花子」with an arrow, and a
+registration-cause field prominently displaying「氏名変更」.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+氏名変更
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+階層区分の専有部分は屋根不記載
+Illustration: An isometric two-story house sliced horizontally into
+an upper unit labeled「乙区分建物」and a lower unit labeled
+「甲区分建物」, with the roof icon at the top marked with an X and a
+label「構造欄に屋根の種類の記載なし」.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+屋根の種類は書かない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

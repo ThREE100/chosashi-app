@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】登記識別情報が出せないとき、どうすればいい？平成28年度午後の部第4問を解説
+## 【土地家屋調査士受験生向け】平成28年度 第4問〜本人死亡後も相続人全員で申出可能〜
 
 **出題年度：平成28年度　午後の部　第4問**
 
@@ -50,15 +50,13 @@
 
 **たとえば**、事前通知を受け取るはずだった登記名義人が、通知の到達後に亡くなってしまった場合を考えてみます。その方の相続人全員が戸籍謄本などで相続関係を証明する情報を提供し、相続人全員の名前で「この登記申請の内容に間違いはありません」という申出をすれば、手続きを進めることができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 提供できない理由は申請情報の内容とすることが必要（省略不可） |
-| イ | 誤 | 事前通知・本人確認情報の提供以外の方法も認められていると考えられる |
-| ウ | 正 | 住所変更登記から6か月経過後の申請では前の住所への通知はされない |
-| エ | 正 | 登記名義人の住所が外国にある場合の申出期間は4週間 |
-| オ | 誤 | 相続人全員からの申出により登記申請の内容が真実である旨の申出が可能 |
+- **ア（誤）**　提供できない理由は申請情報の内容とすることが必要（省略不可）
+- **イ（誤）**　事前通知・本人確認情報の提供以外の方法も認められていると考えられる
+- **ウ（正）**　住所変更登記から6か月経過後の申請では前の住所への通知はされない
+- **エ（正）**　登記名義人の住所が外国にある場合の申出期間は4週間
+- **オ（誤）**　相続人全員からの申出により登記申請の内容が真実である旨の申出が可能
 
 登記識別情報を提供できない場合の手続きは、「理由の記載義務」「認められる本人確認方法の範囲」「前住所通知の期間制限」「外国居住者の申出期間」「相続発生後の申出」など、細かい要件を一つひとつ押さえることが得点につながります。
 
@@ -87,13 +85,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-登記識別情報を提供できない場合の手続を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。イの内容は断定的すぎないニュアンスの図解にとどめている。
+登記識別情報を提供できないときの、理由の記載義務・本人確認の方法・前住所通知・外国居住者の申出期間・相続発生後の申出という5つの手続を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。イの内容は断定的すぎないニュアンスの図解にとどめる。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric ID cards, envelopes, application forms, mailboxes, world globe, family groups — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric ID cards, envelopes,
+application forms, mailboxes, world globe, family groups — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -102,61 +113,81 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 識・別・登・記・所・住・続・申・認・通 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-識別情報が出せない時、
-どう乗り切るか
+Title (large, bold, 1行):
+識別情報が出せない時、どう乗り切るか
 
 Subtitle (smaller, centered, 1行):
-理由の記載・本人確認・前住所通知・外国居住・相続後の申出を整理(平成28年度 午後の部 第4問)
+平成28年度 午後の部 第4問－理由の記載・本人確認・前住所通知・外国居住・相続後の申出を整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric figure holding an empty ID-card-shaped icon labeled 登記識別情報 with a large question mark floating above it, standing next to a filled-in application document icon labeled 申請情報.
-登記識別情報を提供できないときの、理由の記載義務・本人確認の方法・前住所通知・外国居住者の申出期間・相続発生後の申出という5つの手続を整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
 --- CARD 1 ---
-Heading (bold):
-提供できない理由は、申請情報にきちんと書く
-Illustration: An isometric application document icon labeled 申請情報 with a filled-in section clearly labeled 提供できない理由, a checkmark stamp confirming it cannot be left blank.
-Caption (small text below):
-正当な理由があっても、提供できない理由の記載を省略することはできない(不動産登記令3条12号)。
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+理由は正当でも記載は必須
+Illustration: An isometric application document icon labeled 申請情報
+with a filled-in section clearly labeled 提供できない理由, a checkmark
+stamp confirming it cannot be left blank.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+記載省略は不可
+
 --- CARD 2 ---
-Heading (bold):
-本人確認の方法は、ひとつに限られないと考えられる
-Illustration: An isometric fork-in-the-road with three signposts: 事前通知, 資格者代理人による本人確認情報, and a third unlabeled signpost marked with a small question mark, suggesting the range of possible methods is not fully closed.
-Caption (small text below):
-事前通知・資格者代理人による本人確認情報の提供以外の方法も想定される余地があり、断定は避けたい論点。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+本人確認の方法は限定されない
+Illustration: An isometric fork-in-the-road with three signposts:
+事前通知, 資格者代理人による本人確認情報, and a third unlabeled signpost
+marked with a small question mark, suggesting the range of possible
+methods is not fully closed.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+断定はできない
+
 --- CARD 3 ---
-Heading (bold):
-半年たてば、前の住所には知らせが行かない
-Illustration: An isometric old house icon labeled 前の住所 with a mail envelope icon crossed out beside it, and a calendar showing 6か月経過, contrasted with a new house icon labeled 現在の住所 receiving the envelope instead.
-Caption (small text below):
-住所変更登記の受付日から一定の短期間を過ぎていれば、登記官から前の住所にあてた通知はされない。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+半年後は前住所に通知されない
+Illustration: An isometric old house icon labeled 前の住所 with a mail
+envelope icon crossed out beside it, and a calendar showing 6か月経過,
+contrasted with a new house icon labeled 現在の住所 receiving the
+envelope instead.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+前住所通知なし
+
 --- CARD 4 ---
-Heading (bold):
-海外在住なら、返事の期限は4週間
-Illustration: An isometric airmail envelope flying from a Japanese registry building icon toward a globe icon representing an overseas address, with a calendar showing 4週間 instead of the usual shorter period.
-Caption (small text below):
-登記名義人が外国に住所を有するときは、事前通知への申出期間は4週間以内(不動産登記規則70条)。
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+海外在住なら申出期間は4週間
+Illustration: An isometric airmail envelope flying from a Japanese
+registry building icon toward a globe icon representing an overseas
+address, with a calendar showing 4週間 instead of the usual shorter
+period.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+申出期間4週間
+
 --- CARD 5 ---
-Heading (bold):
-本人が亡くなっても、相続人全員でなら手続きを進められる
-Illustration: An isometric group of heir figures (相続人全員) standing together signing a single document, replacing a faded single figure who has passed away, with a checkmark stamp confirming the申出 can proceed.
-Caption (small text below):
-事前通知を受けるべき者が死亡しても、相続人全員から相続証明情報を提供すれば、真実である旨の申出ができる。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+本人死亡後も相続人全員でOK
+Illustration: An isometric group of heir figures (相続人全員) standing
+together signing a single document, replacing a faded single figure who
+has passed away, with a checkmark stamp confirming the申出 can proceed.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+相続人全員で申出可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第4問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

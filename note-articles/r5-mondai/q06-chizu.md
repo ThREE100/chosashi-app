@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】地図はどうやって作られ、どこまで証明できる？〜電子基準点・記録事項・地籍図・閉鎖図面・地図訂正の勘どころ〜
+## 【土地家屋調査士受験生向け】令和5年度 第6問〜調査士の実測図も地図になり得る〜
 
 **出題年度：令和5年度　午後の部　第6問**
 
@@ -45,7 +45,7 @@
 
 ### エ：閉鎖された図面でも、証明書の交付を請求できる
 
-新たに地図が備え付けられて古い「地図に準ずる図面（いわゆる公図）」が閉鎖された場合でも、閉鎖された地図・地図に準ずる図面・建物所在図については、閉鎖されたものである旨の認証文が入った写しの交付を請求することができます（規則136条1項8号・9号）。閉鎖されたからといって、その内容を証明した書面がまったく取れなくなるわけではありません。
+新たに地図が備え付けられて古い「地図に準ずる図面（いわゆる公図）」が閉鎖された場合でも、閉鎖された地図・地図に準ずる図面・建物所在図については、閉鎖されたものである旨の認証文が入った写しの交付を請求することができます（不動産登記事務取扱手続準則136条1項9号・10号）。閉鎖されたからといって、その内容を証明した書面がまったく取れなくなるわけではありません。
 
 **たとえば**、ある地区に新しい地図が整備されて、それまで使われていた公図が閉鎖されたとします。それでも、過去の区画がどうなっていたかを確認したいときには、「これは閉鎖された図面です」という認証文付きの写しを請求して、内容を証明してもらうことができます。
 
@@ -55,15 +55,13 @@
 
 **たとえば**、Aさんの土地について地図の区画のずれを直す申出をするとき、測り直した地積と登記簿上の地積の差がごくわずかで、法律の許す誤差（公差）の範囲内におさまっているなら、わざわざ地積の更正の登記まで一緒にする必要はなく、地図訂正の申出だけで足ります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 地図作成の測量は電子基準点を基礎として行える（規則10条3項） |
-| イ | 誤 | 記録するのは基本三角点等の「位置」で、名称・座標値は記録事項ではない（規則13条） |
-| ウ | 正 | 国土調査法19条5項の指定を受けた実測図は地図として備え付けられる（規則10条5項） |
-| エ | 誤 | 閉鎖された図面も認証文付きの写しの交付を請求できる（規則136条1項8号・9号） |
-| オ | 誤 | 地積の差が公差の範囲内なら、地積更正を併せてする必要はない（規則16条2項） |
+- **ア（正）**　地図作成の測量は電子基準点を基礎として行える
+- **イ（誤）**　記録するのは基本三角点等の「位置」で、名称・座標値は記録事項ではない
+- **ウ（正）**　国土調査法19条5項の指定を受けた実測図は地図として備え付けられる
+- **エ（誤）**　閉鎖された図面も認証文付きの写しの交付を請求できる
+- **オ（誤）**　地積の差が公差の範囲内なら、地積更正を併せてする必要はない
 
 地図の「作り方・記録事項・備付け・証明・訂正」という一連の流れを、条文とセットで押さえておくと、この分野は安定して得点できます。
 
@@ -75,11 +73,12 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（2番＝ア・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
-- 各肢の根拠は、ア（不動産登記規則10条3項）、イ（規則13条1項・2項）、ウ（規則10条5項、国土調査法19条5項）、エ（規則136条1項8号・9号）、オ（規則16条2項）と、いずれもデータベースの解説で条文レベルまで明記されているものです。一般原則からの推論にとどまる肢はありません。
+- 各肢の根拠は、ア（不動産登記規則10条3項）、イ（規則13条1項・2項）、ウ（規則10条5項、国土調査法19条5項）、エ（不動産登記事務取扱手続準則136条1項9号・10号）、オ（規則16条2項）と、いずれもデータベースの解説で条文レベルまで明記されているものです。一般原則からの推論にとどまる肢はありません。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
 - 問題文の引用ブロックには、当初、肢ウが引用する国土調査法19条5項の（参考）条文本文が抜け落ちていました（「第19条（略）」のみで終わっていた）。takuitsu.jsonのexplanationフィールドから同項の正確な条文本文を確認し、追記しています。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和5年度より後に実施された試験（2026年7月時点では令和6年度・令和7年度がデータベースに存在）で、本問（地図）と同一・類似の問題が再出題されていないかを確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-
+- **最新法令への準拠チェック（2026-08-03実施）**：不動産登記規則10条3項ほか、引用した各条文は令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。
+- **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の条文原文と照合しました。ア（規則10条3項）・イ（規則13条1項・2項）・ウ（規則10条5項）・オ（規則16条2項）は原文と一致し相違なし。エの根拠条文に誤りがあり、「不動産登記規則136条1項8号・9号」は同条が実際には無関係の建物分割・区分合併登記の規定であるため誤りと判明したため、「不動産登記事務取扱手続準則136条1項9号・10号」（閉鎖された地図等の写し・閉鎖された地図等の電磁的記録内容証明書に関する認証文の規定）に修正しました（本文・確認用の根拠一覧の2箇所）。なお、ウが引用する国土調査法19条5項は同法がローカル法令データベースに未収録のため、今回は照合対象外としそのままにしています。正解番号（②＝ア・ウ）は独立確認済みの公式正解と一致しています。
 ---
 
 ## 見出し画像用フレーズ
@@ -94,15 +93,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-地図をめぐる論点を「地図の作成・記録事項」の2枚と「地図の備付け・証明・訂正」の3枚、計5枚のカードで俯瞰できるよう構成した画像生成プロンプト。国土調査法の参考条文引用は問題文の一部のため、カード内容には含めていない。
+地図をめぐる論点を「地図の作成・記録事項」の2枚（緑）と「地図の備付け・証明・訂正」の3枚（青）、計5枚の通し番号バッジ・短い見出し・図解・短い結論タグだけで構成するポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, survey
 instruments, satellite/GNSS icons, filing cabinets, official stamps/seals,
 arrows, prohibition marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -111,105 +121,93 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+kanji 録・地・登・記・所・証・図 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-地図はどうやって作られ、どこまで証明できる？
-電子基準点・記録事項・地籍図・閉鎖図面・地図訂正の勘どころ
+Title (large, bold, 1行):
+地図、どうやって作られ証明される？
 
 Subtitle (smaller, centered, 1行):
-地図に関する論点整理(令和5年度 午後の部 第6問)
+令和5年度 午後の部 第6問－作成・記録事項・備付け・閉鎖図面・訂正の勘どころ
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric large drafting table displaying a blueprint-style
-map of land plots, with a surveyor character holding a total station
-instrument, connected by a thin dotted measurement line up to a satellite
-icon in the sky labeled "電子基準点".
-地図は、土地の位置や区画を公的に示す、登記制度の土台となる図面です。この
-問題では、地図を作るための測量の基礎、地図に何を記録するのか、どういう
-図面が地図として備え付けられるのか、閉鎖された図面はどこまで証明できるのか、
-そして地図訂正と地積更正の関係まで、地図をめぐる幅広い論点が問われています。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 地図の作成・記録事項
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-地図作成の測量は、電子基準点を基礎として行うことができる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+測量は電子基準点を基礎にできる
 Illustration: An isometric surveyor character holding a GNSS receiver,
 connected by dotted measurement lines upward to a satellite icon labeled
 "電子基準点" and downward to a ground-based survey pillar icon, with
 measurement lines extending outward to define a land plot boundary.
-Caption (small text below):
-地図を作成するための測量は、基本測量の成果である電子基準点を基礎として
-行うことができる(規則10条3項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+電子基準点が基礎
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-記録するのは基本三角点等の「位置」であって、名称・座標値ではない
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+基本三角点等は「位置」だけ記録
 Illustration: An isometric digital map screen showing small triangular
 pillar icons (基本三角点) placed at points on the map, each with a small
 "位置" label pin, while a separate prohibition (crossed-out) tag reading
 "名称・座標値" floats beside one of the triangle icons to show these are
 not required data fields.
-Caption (small text below):
-電磁的記録の地図に記録されるのは基本三角点等の「位置」であり、その名称
-及び座標値は記録事項ではない(規則13条)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+名称・座標値は対象外
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 地図の備付け・証明・訂正
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-指定を受けた実測図は、地図として備え付けることができる
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+指定を受けた実測図は地図になる
 Illustration: An isometric surveyor character (土地家屋調査士) holding a
 rolled-up map labeled "実測図", with an arrow passing through an official
 stamp icon labeled "指定" and continuing on to be mounted onto a wall
 display labeled "地図", next to another already-mounted map to show equal
 treatment.
-Caption (small text below):
-国土調査法19条5項の指定を受けた実測図は、不適当とする特別の事情がある
-場合を除き、地図として登記所に備え付けることができる(規則10条5項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+地図として備付可
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-閉鎖された図面でも、証明書の交付を請求できる
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+閉鎖図面も証明書を請求できる
 Illustration: An isometric filing cabinet drawer holding an old map page
 stamped "閉鎖" in red, with a hand reaching in and pulling out a certified
 copy of that page bearing an official "認証" seal, handing it across a
 counter to a citizen character.
-Caption (small text below):
-新たに地図が備え付けられて地図に準ずる図面が閉鎖された場合でも、閉鎖
-された旨の認証文が入った写しの交付を請求することができる(規則136条1項
-8号・9号)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+閉鎖後も写し請求可
 
---- COLUMN B, CARD 3 ---
-Heading (bold):
-地積の差が公差の範囲内なら、地積更正を併せてする必要はない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+差が公差内なら地積更正は不要
 Illustration: An isometric land plot with a dotted correction line being
 redrawn on a map (地図訂正), beside a small balance-scale icon comparing
 two labels, "測量した地積" and "登記記録上の地積", balanced nearly level
 within a shaded "公差" band, with a checkmark and a crossed-out separate
 form labeled "地積更正登記" to show it is not required.
-Caption (small text below):
-地図訂正の申出の際に添付する地積測量図の地積と登記記録上の地積との差が
-公差の範囲内であれば、地積の更正の登記を併せてする必要はない(規則16条
-2項)。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+公差内なら更正不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-令和5年度 午後の部 第6問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (2
-cards under 地図の作成・記録事項, 3 cards under 地図の備付け・証明・
-訂正), with no duplicated or missing cards, and confirm every heading,
-illustration label, and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

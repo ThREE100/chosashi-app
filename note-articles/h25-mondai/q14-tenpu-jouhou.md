@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】代位申請の「原因」は、別の申請の書類だけでは足りない〜添付情報の考え方〜
+## 【土地家屋調査士受験生向け】平成25年度 第14問〜代位申請の原因は他の書類の援用だけでは不足〜
 
 **出題年度：平成25年度　午後の部　第14問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、新築した建物の表題登記を申請する際、住民票の写しを取得する代わりに、市区町村で取得した印鑑証明書を住所証明情報として提出することもできます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | 団地共用部分の登記には、規約設定を証する情報が必要 |
-| イ | 正 | 法定代理人の権限を証する戸籍謄本に、作成後3か月以内という期限はない |
-| ウ | 正 | 同一名義人の合体登記は、いずれか1個分の登記識別情報で足りる |
-| エ | 誤 | 代位原因を証する情報は、別の申請に添付した所有権証明情報の援用だけでは足りない |
-| オ | 正 | 住所証明情報として、印鑑証明書を用いることができる |
+- **ア（正）**　団地共用部分の登記には、規約設定を証する情報が必要
+- **イ（正）**　法定代理人の権限を証する戸籍謄本に、作成後3か月以内という期限はない
+- **ウ（正）**　同一名義人の合体登記は、いずれか1個分の登記識別情報で足りる
+- **エ（誤）**　代位原因を証する情報は、別の申請に添付した所有権証明情報の援用だけでは足りない
+- **オ（正）**　住所証明情報として、印鑑証明書を用いることができる
 
 誤っているのはエの1個です。代位申請では「代位できる法律上の理由」そのものを証明する情報が必要であり、単に自分が別の不動産の所有者であることを示すだけでは足りない、という点を押さえておきましょう。
 
@@ -68,7 +66,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（1番＝1個）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
-- 各肢の法的根拠は、不動産登記法58条（団地共用部分の規約証明情報）、不動産登記令等（法定代理権を証する情報の有効期限の扱い、合体登記における登記識別情報の特則、住所証明情報としての印鑑証明書の可否）に基づく一般的な理解です。エ（代位原因を証する情報として他の申請の添付情報の援用が認められるかどうか）については、代位原因証明情報の一般的な性質からの推論であり、この具体的な事例そのものを扱った先例までは確認できていません。
+- 各肢の法的根拠は、`note-articles/laws/`のローカル法令データベースで確認しました。ア（不動産登記令別表十九〔団地共用部分である旨の登記〕添付情報イ「団地共用部分である旨を定めた規約を設定したことを証する情報」）、ウ（不動産登記令8条2項2号「登記名義人が同一である所有権の登記がある建物の合体による登記等→当該合体に係る建物のうちいずれか一個の建物の所有権の登記名義人の登記識別情報」）は、条文の文言とほぼ完全に一致することを確認できました。イ（法定代理人の権限を証する戸籍全部事項証明書について作成後3か月以内を要しない点）は、令7条1項2号が代理人の権限を証する情報の提供を一般的に義務付けていることは確認できるものの、戸籍全部事項証明書について3か月の有効期限を要しないとする明文規定は、ローカル法令データベース（令・規則・準則）の条文上には見当たらず、実務上の理解にとどまります。オ（表題部所有者となる者の住所を証する情報として印鑑証明書を提供できる点）は、令別表の各項が住所証明情報を「市町村長、登記官その他の公務員が職務上作成した情報」と定めており、印鑑に関する証明書も市区町村長が職務上作成し住所が記載された情報である点で文言上はこの定義に含まれると考えられますが、印鑑証明書を名指しで許容する条文は確認できていません。エ（代位原因を証する情報として他の申請の添付情報の援用が認められるかどうか）は、令7条1項3号が代位申請の場合に「代位原因を証する情報」の提供を義務付けていることは確認できましたが、本問のように別の申請に添付した所有権証明情報の援用だけで足りるか否かを直接扱った条文は見当たらず、代位原因証明情報の一般的な性質からの推論にとどまり、この具体的な事例そのものを扱った先例までは確認できていません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。「代位原因を証する情報」というキーワードはR01年度第14問・H27年度第11問にも登場しますが、いずれも土地区画整理事業施行者・地役権者・処分禁止の仮処分債権者などによる分筆登記の代位申請を扱うもので、本問エの「区分建物の代位表題登記における代位原因証明情報の援用の可否」という具体的な論点とは異なります。表題登記の添付情報というテーマ自体はH26年度第8問・H30年度第4問・R05年度第14問などでも扱われていますが、本問の5つの具体的論点との一致は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**。
 
 ---
@@ -85,14 +83,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の表示登記の添付情報に関する5つの論点を、5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+建物の表示登記に必要な5種類の添付情報の正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric buildings, registry
+desks, document icons, family-register sheets, stamps, torn paper
+labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -100,9 +110,9 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to these
-easily-confused characters if they appear below: 号・録・権・地・番・建・物・登・記・所. Do not
-render any of them as a Simplified Chinese variant.
+summarize, or substitute any characters. Pay special attention to the
+kanji 建・物・登・記・地 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -110,57 +120,73 @@ Title (large, bold, 2行):
 別の書類の使い回しでは足りない
 
 Subtitle (smaller, centered, 1行):
-建物の表示登記の添付情報を整理(平成25年度 午後の部 第14問)
+建物の表示登記の添付情報を整理（平成25年度 午後の部 第14問）
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric registry counter with five small labeled document icons (規約, 戸籍謄本, 登記識別情報, 代位原因証明情報, 印鑑証明書) being checked off one by one against a checklist held by a registry officer character.
-添付情報は「その情報が何を証明するために必要なのか」という機能面から理解すると、細かい肢の正誤を見抜きやすくなります。5つの具体例で整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-団地共用部分の登記には、規約設定を証する情報が必要
-Illustration: An isometric shared clubhouse building icon (団地共用部分) with a regulation-document icon (規約を設定したことを証する情報) attached to the registration application, green checkmark.
-Caption (small text below):
-団地共用部分である旨の登記を申請する場合には、その旨を定めた規約を設定したことを証する情報を提供しなければならない。
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+団地共用部分には規約証明が必要
+Illustration: An isometric shared clubhouse building icon (団地共用部分)
+with a regulation-document icon labeled 規約を設定したことを証する情報
+attached to the registration application, green checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+規約の証明が必要
 
 --- CARD 2 ---
-Heading (bold):
-法定代理人の権限を証する戸籍謄本に、作成後3か月以内という期限はない
-Illustration: An isometric family-register document (戸籍の全部事項証明書) with a calendar showing it was issued many months ago, a red X over an expiration-stamp icon reading 作成後3月以内が必要, replaced with a green checkmark reading 期限なし.
-Caption (small text below):
-法定代理人によって建物の表題登記を申請する場合、権限を証する戸籍の全部事項証明書は作成後3か月以内のものである必要はない。
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+法定代理人の戸籍謄本に期限なし
+Illustration: An isometric family-register document (戸籍の全部事項
+証明書) with a calendar showing it was issued many months ago. A red X
+sits over an expiration stamp reading 作成後3月以内が必要, replaced by
+a green checkmark reading 期限なし.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+3か月の期限なし
 
 --- CARD 3 ---
-Heading (bold):
-同一名義人の合体登記は、いずれか1個分の登記識別情報で足りる
-Illustration: An isometric two buildings (甲建物, 乙建物) owned by the same person merging into one (合体), with only one of the two 登記識別情報 document icons required, the second greyed out as unnecessary.
-Caption (small text below):
-登記名義人が同一である所有権の登記がある2個の建物の合体による登記では、いずれか1個の建物の登記識別情報を提供すれば足りる。
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+合体登記は識別情報1個で足りる
+Illustration: An isometric two buildings (甲建物, 乙建物) owned by the
+same person merging into one (合体). Only one of the two 登記識別情報
+document icons is required; the second is greyed out as unnecessary.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+1個で足りる
 
 --- CARD 4 ---
-Heading (bold):
-代位原因を証する情報は、別の申請に添付した所有権証明情報の援用だけでは足りない
-Illustration: An isometric scene showing figure A holding a document proving ownership of 甲区分建物, trying to reuse it (dashed arrow) as proof for代位申請 on behalf of B's 乙区分建物, with a red X blocking the reuse and a separate 代位原因証明情報 document required instead.
-Caption (small text below):
-甲区分建物の所有者Aが乙区分建物の所有者Bに代わって代位申請する場合、代位原因を証する情報は別の申請の所有権証明情報の援用だけでは足りない。
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+代位の理由は書類の使い回し不可
+Illustration: An isometric scene showing figure A holding a document
+proving ownership of 甲区分建物, trying to reuse it (dashed arrow) as
+proof for a代位申請 on behalf of B's 乙区分建物. A red X blocks the
+reuse, requiring a separate 代位原因証明情報 document instead.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+援用だけでは不可
 
 --- CARD 5 ---
-Heading (bold):
-住所証明情報として、印鑑証明書を用いることができる
-Illustration: An isometric document icon labeled 印鑑証明書 with a highlighted address field, an arrow pointing to a 住所証明情報 slot in the application form, green checkmark.
-Caption (small text below):
-建物の表題登記を申請する場合、表題部所有者となる者の住所を証する情報として印鑑に関する証明書を提供することができる。
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+印鑑証明書は住所証明に使える
+Illustration: An isometric document icon labeled 印鑑証明書 with a
+highlighted address field, an arrow pointing into a 住所証明情報 slot
+on the application form, green checkmark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+住所証明に使える
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成25年度 午後の部 第14問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
-Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, and confirm every heading, illustration
-label, and caption text matches the Japanese text given above verbatim,
-with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly,
+with no duplicated or missing cards, that badge numbers run 1-5
+continuously down the single column, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

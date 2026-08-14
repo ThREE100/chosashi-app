@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】その工作物、建物になる？ならない？〜表題登記ができる建物の3要件を見極める〜
+## 【土地家屋調査士受験生向け】平成17年度 第14問〜電車も山門も建物、売店だけは違うんです〜
 
 **出題年度：平成17年度　午後の部　第14問**
 
@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定（建物と認定できるか） | ポイント |
-|---|---|---|
-| ア | できる | 電車の車体でも基礎工事による定着性があれば建物（規則111条） |
-| イ | できる | 山門の上部が宝物庫として用途性・外気分断性を備えれば建物 |
-| ウ | できる | ガラス張りでも強固な構造なら外気分断性を満たし建物 |
-| エ | できない | 売店単独の外気分断性がなく、ホームの上屋に依存するだけでは建物と認定できない |
-| オ | できる | 永久的な桟橋の上に基礎工事で定着していれば建物 |
+- **ア（できる）** 電車の車体でも基礎工事による定着性があれば建物
+- **イ（できる）** 山門の上部が宝物庫として用途性・外気分断性を備えれば建物
+- **ウ（できる）** ガラス張りでも強固な構造なら外気分断性を満たし建物
+- **エ（できない）** 売店単独の外気分断性がなく、ホームの上屋に依存するだけでは建物と認定できない
+- **オ（できる）** 永久的な桟橋の上に基礎工事で定着していれば建物
 
 ア・イ・ウ・オはいずれも「一見建物らしくない」姿をしていても、定着性・外気分断性・用途性の3要件を満たすため建物と認定できます。これに対しエだけは、売店自体に独立した外気分断性がないため、建物と認定することができません。この問題は「建物として認定できないもの」を選ぶ設問なので、正解はエです。
 
@@ -86,7 +84,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-電車の車体・寺院の山門・ガラス張り温室・駅ホームの売店・桟橋上の事務所という5つの工作物に、建物認定の3要件（定着性・外気分断性・用途性）をどう当てはめるかを、ア〜オそれぞれの結論（できる／できない）とともに1枚で俯瞰できる構成とした。
+建物認定の3要件（定着性・外気分断性・用途性）を満たすかどうかという1つの軸で、5つの工作物の結論（建物と認定できる／できない）を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -96,6 +94,17 @@ modern explainer-graphic aesthetic (icons: isometric train car, temple
 gate, glass greenhouse, train platform kiosk, pier office building, etc.
 — adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -103,9 +112,9 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-following kanji, which are especially prone to being drawn as Simplified
-Chinese variants: 建・物・登・記・地・気・着・強・固・途・断・根・庫。
-Do not draw any of these as Simplified Chinese forms.
+kanji 建・物・登・記・地・気・着・強・固・途・断・根・庫 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -113,57 +122,82 @@ Title (large, bold, 2行):
 表題登記ができる建物の3要件
 
 Subtitle (smaller, centered, 1行):
-平成17年度午後の部 第14問／定着性・外気分断性・用途性で判断する
+平成17年度 午後の部 第14問－定着性・外気分断性・用途性で判断する
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 3つのアイソメトリックアイコンを横に並べる。1つ目は土地にしっかり打ち込まれた杭と土台のアイコン、2つ目は屋根と周壁に囲まれた箱のアイコン、3つ目は箱の中で人が作業・生活している様子のアイコン。3つのアイコンの下に、それぞれ「定着性」「外気分断性」「用途性」という短いラベルを添える。
-建物として登記できるかどうかは、見た目の材質や場所の珍しさではなく、①土地への定着性、②屋根・周壁による外気分断性、③居住・作業・貯蔵等の用途性という3つの要件を満たすかどうかで判断される（不動産登記規則111条）。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1（ア） ---
-Heading (bold):
-電車の車体でも、基礎工事で土地に定着していれば建物と認定できる
-Illustration: 庭のような一角に置かれた電車の車体のアイソメトリックイラスト。車体の下にコンクリートの基礎が描かれ、地面にしっかり固定されている。車体の脇に「定着性」「外気分断性」「用途性」という3つの小さなラベルを添える。
-Caption (small text below):
-電車の車体はもともと移動する乗り物だが、これを土地の上に置いてコンクリートで基礎工事を施せば定着性が認められ、屋根と周壁による外気分断性、居室としての用途性もあわせて満たせば建物として認定できる。
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+建物と認定できる
 
---- CARD 2（イ） ---
-Heading (bold):
-寺院の山門でも、上部が宝物庫として使われていれば建物と認定できる
-Illustration: 寺院の山門のアイソメトリックイラスト。1階部分は人が通り抜ける門として描き、2階部分を宝物庫として描く。宝物庫部分には巻物や仏具のアイコンと「外気分断性」「用途性」のラベルを添える。
-Caption (small text below):
-山門の上部が屋根・周壁を備え、宝物を収蔵するという用途性を持ち、土地に定着した恒久的な建造物として建てられていれば、単なる門ではなく建物として認定できる。
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+電車の車体も基礎工事で定着すれば建物
+Illustration: An isometric train car body placed on a small plot of
+land, with a concrete foundation drawn beneath it firmly anchoring it
+to the ground. Three small labels beside the car read "定着性",
+"外気分断性", "用途性", each with a small green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+基礎工事で定着性あり
 
---- CARD 3（ウ） ---
-Heading (bold):
-ガラス張りの温室でも、強固な構造であれば建物と認定できる
-Illustration: 鉄骨の骨組みにガラス板がはめられた大型温室のアイソメトリックイラスト。内部にトマトなどの植物を描く。ガラスの壁面に「外気分断性」のラベルを添える。
-Caption (small text below):
-外気分断性は屋根・周壁「又はこれらに類するもの」による独立した外気の遮断を求めるものであり、鉄材の骨組みにガラス板がはめられた強固な構造であれば、素材がガラスであっても外気分断性を満たし建物として認定できる。
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+山門も上部が宝物庫なら建物
+Illustration: An isometric temple gate (山門). The ground floor is
+drawn as a simple pass-through gate, while the upper floor is drawn
+as a storeroom filled with scroll and ritual-implement icons, labeled
+"宝物庫". Small labels "外気分断性" and "用途性" sit beside the upper
+floor with green checkmarks.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+宝物庫で用途性あり
 
---- CARD 4（エ） ---
-Heading (bold):
-駅ホーム内の売店は、単独の外気分断性がなく建物と認定できない
-Illustration: 駅のホームのアイソメトリックイラスト。ホーム全体を覆う大きな上屋の下に、独自の壁や屋根を持たない小さな売店を描く。売店の周りに「独自の屋根・周壁なし」を示すバツ印のラベルを添える。
-Caption (small text below):
-上屋はホーム全体を覆うためのものであって売店自体が独自に備えている屋根・周壁ではなく、外気分断性はその工作物自体が独立して風雨をしのげる構造かどうかで判断されるため、ホームの上屋に間借りしているだけの売店は建物と認定できない。
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+ガラス張り温室も強固なら建物
+Illustration: An isometric large greenhouse with a steel frame and
+glass panels for walls and roof, tomato plants visible inside. A
+label "外気分断性" sits on the glass wall with a green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+ガラスでも外気分断性あり
 
---- CARD 5（オ） ---
-Heading (bold):
-桟橋の上の事務所でも、基礎工事で定着していれば建物と認定できる
-Illustration: 港の埠頭にある永久的な桟橋のアイソメトリックイラスト。桟橋の上にコンクリートの基礎で固定された小さな事務所を描く。事務所の脇に「定着性」「外気分断性」「用途性」という3つの小さなラベルを添える。
-Caption (small text below):
-桟橋自体が永久的な建造物として土地（水底等）に固定されている上に、事務所がコンクリートで基礎工事を施して構築されていれば、事務所は土地に定着していると評価され、屋根・周壁による外気分断性と事務作業という用途性もあわせて建物として認定できる。
+--- COLUMN A, CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+桟橋上の事務所も定着していれば建物
+Illustration: An isometric permanent pier extending over water, with
+a small office building fixed to it by a visible concrete foundation.
+Three small labels beside the office read "定着性", "外気分断性",
+"用途性", each with a small green checkmark.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+桟橋ごと定着している
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+建物と認定できない
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+駅ホームの売店は独自の壁がなく建物じゃない
+Illustration: An isometric train platform with a large roof (上屋)
+covering the whole platform. A small kiosk stands underneath it with
+no walls or roof of its own. A label "独自の屋根・周壁なし" sits
+beside the kiosk with a red cross mark.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+独立した壁・屋根なし
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-出典：土地家屋調査士試験　平成17年度午後の部　第14問（不動産登記規則111条）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Pay particular attention to 建・物・登・記・地・気・
-着・強・固・途・断・根・庫 and confirm none of them have been rendered as
-Simplified Chinese variants. Confirm the number of cards equals 5 exactly
-(ア・イ・ウ・エ・オの5枚)、with no duplicated or missing cards, and that
-each card's Japanese text matches the strings given above verbatim.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】区分建物になる・ならない、そのとき何を一括で申請する？〜平成29年度午後の部 第17問を解説〜
+## 【土地家屋調査士受験生向け】平成29年度 第17問〜敷地権の抹消、実は職権でやってくれるんです〜
 
 **出題年度：平成29年度　午後の部　第17問**
 
@@ -24,11 +24,11 @@
 
 **たとえば**、もともと独立した建物だったＡさん名義の甲建物に、Ｂさんが新しく乙区分建物を建て増して、全体が1つの区分建物になったとします。この場合、新たに登場するＢさんの住所を証する情報は必要ですが、もともと登記されていたＡさんについて改めて住所証明情報を出す必要はありません。
 
-### イ：土地の分筆による地番変更だけなら、建物図面・各階平面図は不要
+### イ：土地の分筆による地番変更だけなら、必要なのは建物図面だけで各階平面図は不要
 
-甲区分建物が属する一棟の建物の敷地が分筆されて地番が変更した場合の表題部変更登記では、建物の床面積などが変わるわけではないため、建物図面・各階平面図の提供は必要ありません。建物図面・各階平面図が必要になるのは、表題登記、所在・床面積の変更・更正登記、附属建物の新築の登記、建物の分割・区分・合併・合体による登記などの場面です。「変更後の建物図面及び各階平面図を提供しなければならない」とする本肢は誤りです。
+不動産登記令別表14項添付情報イは、「建物の所在する市、区、郡、町、村、字及び土地の地番を変更…するときは、変更後…の建物図面」を提供しなければならないと定めています。地番の変更は、建物図面のみが必要な場面であり、床面積の変更・更正のとき（同ロ）とは異なり、各階平面図までは要求されていません。本肢は「変更後の建物図面**及び各階平面図**を提供しなければならない」と、両方をまとめて必要としている点が誤りです（建物図面だけを提供すれば足り、各階平面図は不要）。
 
-**たとえば**、マンションの敷地となっている土地が分筆されて地番だけが変わったとします。建物そのものの形や面積は何も変わっていないので、新たに建物図面や各階平面図を作り直して提出する必要はなく、地番の変更だけを届け出れば足ります。
+**たとえば**、マンションの敷地となっている土地が分筆されて地番だけが変わったとします。建物そのものの形や面積は何も変わっていないので、各階平面図まで作り直して提出する必要はありませんが、地番が変わったことを反映した変更後の建物図面は提供しなければなりません。
 
 ### ウ：非区分建物同士が接続して区分建物になったら、一括申請しなければならない
 
@@ -42,21 +42,25 @@
 
 **たとえば**、敷地権付きの甲・乙区分建物を1つに合わせる区分合併をした結果、その建物が区分建物でなくなったとします。このとき、敷地権を抹消する処理は登記官が職権でしてくれるので、申請人がわざわざ別途「敷地権抹消のための変更登記」を一緒に出す必要はないのです。
 
+**実務ではこうなります**：敷地権は、区分建物の専有部分とその敷地利用権を分離して処分できないとする「分離処分禁止の原則」（区分所有法22条1項）を、登記記録の上でも実現するための仕組みです。建物（専有部分）の登記記録に「敷地権」として記録することで、その建物の権利変動（売買・抵当権設定など）が自動的に敷地の権利にも及ぶようにしてあり、土地側の登記記録には「敷地権である旨の登記」という、いわば建物側の記録を映し出す付記だけが置かれています。
+
+そのため、建物の側で区分合併のように「もうこの建物は敷地権付きの区分建物ではない」という表示登記がされると、土地側の記録もそれに合わせて訂正しないと、両方の登記記録が食い違ってしまいます。この食い違いを防ぐための後始末は、当事者の意思に委ねるべき実体的な権利変動ではなく、登記記録の整合性を保つための事務的な処理にすぎません。だからこそ、通常の権利に関する登記で必要となる登記権利者・登記義務者の共同申請（不動産登記法60条）を経ずに、登記官が職権で処理することが認められています。実際、抹消後は敷地権であった権利がそのまま同じ名義人の権利として土地の登記記録に記録し直されるため（不動産登記規則124条2項）、誰の実体的な権利も変わりません。
+
+ここで初学者が意識しておきたいのが、土地家屋調査士が担当するのはあくまで建物の表示に関する登記（区分合併の登記）のみだという点です。敷地権抹消にともなう土地側の登記記録の変更は、そもそも申請自体が不要な登記官の職権事項なので、依頼者に「土地について別途手続きは必要ですか」と聞かれても、「区分合併の登記さえ済めば、敷地権の抹消は登記官が自動的に処理してくれるので、追加の手続きも司法書士への依頼も不要です」と説明できます。これは、共有者の死亡にともなう表題部所有者の変更（第11問で扱った、権利部で保存登記＋相続による移転登記が別途必要になるケース）とは対照的です。「表示登記に伴って権利部の変更が自動的に処理されるか、それとも別途申請が必要か」を見極めることは、依頼者への説明や見積もりの精度に直結する実務上の視点です。
+
 ### オ：原始取得者が申請しない表題登記を、転得者が代位して申請できる
 
 区分建物の表題登記は、原則として原始取得者に申請義務があり、非区分建物と異なり、その転得者には申請義務も申請適格もありません。もっとも、甲区分建物の原始取得者が表題登記を申請しない場合には、その転得者が原始取得者に代位して、原始取得者を表題部所有者とする表題登記を申請することができます（民法423条）。本肢は正しい記述です。
 
 **たとえば**、マンションの部屋を最初に建てたデベロッパー（原始取得者）が表題登記をしないまま放置していて、その部屋を買ったＣさん（転得者）が困っているとします。この場合、Ｃさんは自分で表題登記の名義人になれるわけではありませんが、デベロッパーに代わって（代位して）、デベロッパー名義の表題登記を申請することができます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 既存の表題部所有者Ａには住所証明情報は不要（新たに登記される者のみ必要・法52条1項） |
-| イ | 誤 | 地番変更だけなら建物図面・各階平面図は不要 |
-| ウ | 正 | 非区分建物同士が接続して区分建物になったら一括申請（法52条3項） |
-| エ | 誤 | 区分合併による敷地権抹消は職権で行われ、変更登記を併せる必要はない（規則134条3項・124条） |
-| オ | 正 | 原始取得者が申請しない表題登記は、転得者が代位して申請できる（民法423条） |
+- **ア（誤）**　既存の表題部所有者Ａには住所証明情報は不要（新たに登記される者のみ必要）
+- **イ（誤）**　地番変更で必要なのは建物図面のみで、各階平面図までは不要
+- **ウ（正）**　非区分建物同士が接続して区分建物になったら一括申請
+- **エ（誤）**　区分合併による敷地権抹消は職権で行われ、変更登記を併せる必要はない
+- **オ（正）**　原始取得者が申請しない表題登記は、転得者が代位して申請できる
 
 「一括申請が必要な場面」と「職権で処理されるので併せ申請が不要な場面」を混同しないように整理するのがコツです。
 
@@ -68,7 +72,10 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
-- 各肢の根拠について、ア（不動産登記法52条1項）、ウ（不動産登記法52条3項）、エ（不動産登記規則134条3項・124条）、オ（民法423条、不動産登記法16条2項の準用）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。イ（地番変更のみでは建物図面・各階平面図が不要であること）は、建物図面・各階平面図が必要となる登記の類型（表題登記・所在や床面積の変更・更正・分割・区分・合併・合体等）に含まれないことからの説明です。
+- 各肢の根拠について、ア（不動産登記法52条1項）、ウ（不動産登記法52条3項）、エ（不動産登記規則134条3項・124条）、オ（民法423条、不動産登記法59条7号）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。
+- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、肢オの補足条文引用に誤りを発見し修正しました。「不動産登記法16条2項の準用」としていましたが、16条2項は「官庁又は公署の嘱託による登記の手続」への準用規定であり、代位申請とは無関係でした。代位者に関する規定は、権利に関する登記の登記事項として代位者の氏名・住所・代位原因を挙げる**法59条7号**です（条文原文で確認済み）。肢オ本文の結論・民法423条の引用自体は元々正しく、影響はありません。
+- **肢エの実務補足を追記（2026-08-08実施）**：ユーザーの依頼により、肢エの解説に「実務ではこうなります」の段落を追加しました。追加した内容の根拠は、(a)分離処分禁止の原則を定める区分所有法22条1項（条文原文で確認済み）、(b)権利に関する登記の共同申請原則を定める不動産登記法60条、(c)敷地権抹消後に権利をそのまま同一名義人の権利として土地の登記記録に記録し直す旨を定める不動産登記規則124条2項（いずれも条文原文で確認済み）です。「表示登記に伴って権利部の変更が自動的に処理されるか、別途申請が必要か」という実務上の視点は、第11問（表題部所有者の相続）との対比として述べたものであり、個別の先例・通達までは確認していません。
+- **2026-08-04追記（肢イの解説を訂正）**：肢イの解説を当初「地番変更のみでは建物図面・各階平面図が不要」としていましたが、個別テーマ記事「建物図面・各階平面図の提供要否 早見表」(`topics/tatemonozumen-teikyou-yohi.md`)執筆時に不動産登記令別表14項添付情報イ（`laws/fudousan-touki-rei-betsuhyou.md`）を条文原文で確認したところ、地番の変更・更正のときは「変更後の建物図面」の提供が必要と明記されており、「建物図面・各階平面図いずれも不要」という当初の解説は誤りでした。本肢は「建物図面**及び各階平面図**の両方が必要」と主張している点で誤り（正しくは建物図面のみ必要、各階平面図は不要）であり、肢イ自体の正誤判定（誤）・最終的な正解番号（4番＝ウオ）に変更はありません。同じ場面を非区分建物で扱う`h28-mondai/q17-tatemonozumen-kakukaiheimenzu.md`の肢イ（建物図面のみを求める記述を正しいとする）とも整合します。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**肢ウとほぼ同一の論点が令和4年度第17問で再出題されている、強い重複が見つかりました**。本問の肢ウ「いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事により相互に接続して区分建物になった場合には、甲建物及び乙建物についての表題部の変更の登記の申請は、一括してしなければならない」は、令和4年度第17問アとほぼ一言一句同じ記述・結論です。このほか、令和1年度第18問・令和6年度第18問も区分建物の登記に関する問題ですが、これらは「乙区分建物のみ滅失した場合の甲区分建物の非区分建物化」という別の論点を扱っており、本問との具体的な重複は確認できませんでした。noteで令和4年度第17問の解説記事を作成する際は、本記事の肢ウと内容がほぼ重複するため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
 
@@ -81,3 +88,123 @@
 - 非区分建物同士がつながったら、一括申請なんです
 - 敷地権の抹消、実は職権でやってくれるんです
 - 表題登記しない原始取得者、転得者が代位できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+区分建物の登記について「添付情報が不要なケース」（ア・イ＝列A・緑）と「一括申請・代位申請のルール」（ウ・エ・オ＝列B・青）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。誤りの肢（ア・イ・エ）は、いずれも正しいルールに直した内容だけを図解する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric building blocks,
+registry desks, document folders, name plates, land parcels with dotted
+boundary lines, official stamps, clip-bound document sets, etc. — adapt
+icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 証・図・権・職・請・積・建・区・分・番 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+区分建物になる・ならない、そのとき何が要る？
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第17問－区分建物の登記の添付情報と申請ルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+添付情報が不要なケース
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+既存所有者の住所証明は不要
+Illustration: 非区分建物（甲建物、既存の表題部所有者Aのネームプレート付き）
+の隣に、新築されたBの乙区分建物を描く。受付窓口でBが書類「住所証明情報」を
+提出し緑のチェックマーク。Aの横には同じ書類のアイコンに赤い✕マークと
+「不要」のラベルを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+新規のBのみ必要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+地番変更は建物図面のみ、各階平面図は不要
+Illustration: 分筆線で分かれた土地の上に建つ区分建物のアイコンを描き、
+地番プレートが「12番」から「12番1」に変わる矢印を添える。傍らに「変更後の
+建物図面」の書類アイコンに緑のチェックマークを、「各階平面図」の書類アイ
+コンには赤い✕マークを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+建物図面のみ必要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+一括申請・代位申請のルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+非区分建物同士の接続は一括申請
+Illustration: 別々に登記されていた甲建物・乙建物が増築工事でつながり
+1つの区分建物になる様子を描く。2つの申請書アイコンをクリップで1つに
+まとめ、緑のチェックマークと「一括申請」のラベルを添える。バラバラの
+2枚の申請書アイコンには赤い✕マークを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+まとめて一件
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権抹消は登記官の職権で処理
+Illustration: 敷地権付きの甲・乙区分建物が区分合併で1つの非区分建物に
+なる図を描く。登記官キャラクターがスタンプを押し「職権で抹消」のラベルを
+添える。傍らに「変更登記を併せて申請」という書類アイコンに赤い✕マークを
+添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+職権で抹消される
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+原始取得者に代位して転得者が申請
+Illustration: デベロッパー（原始取得者）が表題登記を放置している横で、
+買主C（転得者）が「代位」のラベルの付いた矢印でデベロッパー名義の申請書を
+提出する図を描き、緑のチェックマークを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+代位申請できる
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

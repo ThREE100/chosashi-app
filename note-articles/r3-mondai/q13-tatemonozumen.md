@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】その図面、出す？出さない？建物図面・各階平面図の提供要否〜えい行移転・仮換地・訂正申出・団地共用部分・合併で整理する〜
+## 【土地家屋調査士受験生向け】令和3年度 第13問〜その図面、出す？出さない？〜
 
 **出題年度：令和3年度　午後の部　第13問**
 
@@ -26,7 +26,7 @@
 
 ### イ：仮換地上の建物図面は、仮換地を「実線」で図示する
 
-仮換地として指定された土地上に建物を新築し、その建物表題登記を申請する場合、提供すべき建物図面には、仮換地の形状及び当該建物の位置を「実線」で図示しなければなりません（昭和40年4月10日民事甲第837号民事局長回答）。従前地の形状や位置のほうを点線で図示します。肢イは仮換地を「点線」で図示するとしており、実線と点線が逆になっているため誤りです。
+仮換地として指定された土地上に建物を新築し、その建物表題登記を申請する場合、提供すべき建物図面には、仮換地の形状及び当該建物の位置を「実線」で図示しなければなりません。従前地の形状や位置のほうを点線で図示します。肢イは仮換地を「点線」で図示するとしており、実線と点線が逆になっているため誤りです。
 
 **たとえば**、区画整理中の土地で「今この場所を使ってください」と割り当てられた仮換地に家を建てたとします。実際に建物が建っている「今の土地(仮換地)」がメインなのでハッキリした実線で描き、まだ手続き上残っている「元の土地(従前地)」は補助的な点線で描く、というイメージです。
 
@@ -38,7 +38,7 @@
 
 ### エ：団地共用部分の規約廃止による表題登記では、図面の提供は不要
 
-団地共用部分である旨の登記がある建物について、団地共用部分である旨を定めた規約を廃止したために当該建物の表題登記を申請する場合には、建物図面及び各階平面図を提供することを要しません。もともとその建物の建物図面・各階平面図はすでに登記記録に備えられているため、改めて提供する必要がないのです。
+団地共用部分である旨の登記がある建物について、団地共用部分である旨を定めた規約を廃止したために当該建物の表題登記を申請する場合には、建物図面及び各階平面図を提供することを要しません（不動産登記令別表21項の添付情報には建物図面・各階平面図が挙げられていません）。この場合、登記官は当該建物の登記記録の表題部に所有者の氏名又は名称・住所等を記録すれば足り（不動産登記規則143条）、建物の所在・構造・床面積等はもともとその建物の登記記録に備えられているため、改めて図面を提供させる必要がないのです。
 
 **たとえば**、団地の集会所として「みんなの共用部分」と登記されていた建物を、規約をやめて普通の1個の建物として登記し直す場面を思い浮かべてください。建物そのものの形や位置は前から分かっている(図面がもう役所にある)ので、また同じ図面を出させる必要はない、というわけです。
 
@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 正 | えい行移転による所在変更登記には変更後の建物図面が必要（令別表14項添付情報イ） |
-| イ | 誤 | 仮換地は実線・従前地は点線で図示する。実線と点線が逆（昭40.4.10民甲837号回答） |
-| ウ | 誤 | 各階平面図の訂正申出は各階平面図のみで足り、建物図面は不要（規則88条2項） |
-| エ | 正 | 団地共用部分の規約廃止による表題登記では図面の提供を要しない（既に登記記録にあるため） |
-| オ | 誤 | 附属建物とする合併登記は床面積不変でも合併後の各階平面図が必要（令別表16項添付情報イ） |
+- **ア（正）** えい行移転による所在変更登記には変更後の建物図面が必要
+- **イ（誤）** 仮換地は実線・従前地は点線で図示する。実線と点線が逆
+- **ウ（誤）** 各階平面図の訂正申出は各階平面図のみで足り、建物図面は不要
+- **エ（正）** 団地共用部分の規約廃止による表題登記では図面の提供を要しない
+- **オ（誤）** 附属建物とする合併登記は床面積不変でも合併後の各階平面図が必要
 
 「新しい状態を示す必要があるか」「その図面がもう登記記録に備わっているか」という2つの視点で切り分けると、図面の提供要否は迷わず判断できるようになります。
 
@@ -68,10 +66,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
-- 各肢の根拠のうち、条文・規則レベルまで確認できているのは、ア（不動産登記令別表14項添付情報イ）とウ（不動産登記規則88条2項）です。ウについては、WebSearchで確認したところ条文原文への直接アクセスはできなかったものの、複数の情報源で「訂正の申出は訂正後の図面のみ提供すれば足りる」という内容が一貫して確認できました（確度中）。
-- イについては、当初「不動産登記規則83条2項」を根拠として記載していましたが、e-Gov法令検索ベースの調査により、同条は各階平面図の縮尺（250分の1）を定める規定であり、仮換地の実線・従前地の点線表記とは無関係であることが判明しました。正しい根拠は、日本土地家屋調査士会連合会発行の公式基本書に掲載されている先例「昭和40年4月10日民事甲第837号民事局長回答（仮換地上の建物の所在の記載方法について）」であることを確認し、本文・まとめ表・本ブロックを訂正しました。イの正誤判定自体（誤り）は変更ありません。
-- オ（不動産登記令別表16項添付情報イ）については、WebSearchで検索するたびに「各階平面図が必要／不要」「別表16項／12項」等、回答が一貫せず、この条番号を裏付けることができませんでした。正誤判定（オ＝誤り、附属建物とする合併登記には合併後の各階平面図が必要）自体は検証済みデータベースの記載に基づくものですが、根拠条文の項番号は一般原則からの推論にとどまる点、正直にお伝えします。
-- エ（団地共用部分である旨の規約を廃止したことによる表題登記の申請では建物図面・各階平面図の提供を要しないこと）については、「すでに登記記録に図面が備えられているため改めての提供は不要」という一般原則・実務上の取扱いからの説明にとどまり、個別の条文番号までは特定できていません。
+- 各肢の根拠は、ローカル法令データベース（`note-articles/laws/`）の条文原文で照合済みです。ア（不動産登記令別表14項添付情報イ：建物の所在を変更・更正するときは変更後又は更正後の建物図面を要する旨）、ウ（不動産登記規則88条2項：訂正の申出は訂正後の土地所在図・地積測量図・建物図面又は各階平面図を提供してすれば足りる旨）、エ（不動産登記令別表21項の添付情報にはイ〜ホのみが挙げられ建物図面・各階平面図は含まれないこと、及び不動産登記規則143条：登記官は表題部に所有者の氏名等を記録すれば足りる旨）、オ（不動産登記令別表16項添付情報イ：建物の分割後・区分後又は合併後の建物図面及び各階平面図を要し、床面積の増減による除外規定はないこと）はいずれも`fudousan-touki-rei-betsuhyou.md`・`fudousan-touki-kisoku-1.md`の条文原文で確認できました。
+- イについては、当初「不動産登記規則83条2項」を根拠として記載していましたが、e-Gov法令検索ベースの調査により、同条は各階平面図の縮尺（250分の1）を定める規定であり、仮換地の実線・従前地の点線表記とは無関係であることが判明しました。正しい根拠は、日本土地家屋調査士会連合会発行の公式基本書に掲載されている先例「昭和40年4月10日民事甲第837号民事局長回答（仮換地上の建物の所在の記載方法について）」であることを確認し、本文・まとめ表・本ブロックを訂正しました。この先例はローカル法令データベースには収録されていないため実在確認までは行っていませんが、イの正誤判定自体（誤り）は変更ありません。
 - なお、アガルート等のローカル教材PDFは本執筆環境に存在せず、参照していません。
 
 ---
@@ -83,3 +79,108 @@
 - 各階平面図の訂正、建物図面まではいらないんです
 - 図面がもう役所にあるなら、出し直さなくていいんです
 - 床面積そのままの合併でも、合併後の図面は必要なんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+「図面を新しく示す必要があるか」「その図面がもう登記記録に備わっているか」という2つの視点を軸に、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列5枚のポスター型カードでア〜オ5肢すべての正しいルールを俯瞰できる構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・録・地・建・物・登・記 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その図面、出す？出さない？
+建物図面・各階平面図の提供要否
+
+Subtitle (smaller, centered, 1行):
+出題年度：令和3年度　午後の部　第13問
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+図面の提供・記載が必要なケース
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+えい行移転は変更後図面必要
+Illustration: 建物のアイソメトリックアイコンが矢印に沿って横方向にスライドする様子。移動前の位置には薄い点線のシルエット、移動後の位置には実線でくっきり描いた建物を配置し、そばに「建物図面」とラベルの付いた図面アイコンを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+変更後図面が必要
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+仮換地は実線で図示する
+Illustration: 区画整理中の土地を俯瞰したアイソメトリック構図。手前に太い実線の四角形と建物アイコンで「仮換地」を強調し、その奥に薄い点線の四角形で「従前地」を重ねて描く。実線の区画には「仮換地」、点線の区画には「従前地」のラベルを付す。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+従前地は点線
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+合併登記は床面積不変でも必要
+Illustration: 離れ（甲建物）と母屋（乙建物）のアイソメトリックアイコンが矢印でくっつき、1つの建物（主である建物＋附属建物）にまとまる様子。床面積の数字が変わらないことを示す吹き出しと、新しく作成された各階平面図のアイコンを強調して描く。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+床面積不変でも必要
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+図面の提供を省略できるケース
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+訂正申出は各階平面図のみ
+Illustration: 各階平面図のアイコンに赤ペンで訂正の書き込みが入り、提出トレイへ向かう様子。隣に建物図面のアイコンを描き、その上に大きなバツ印と「不要」の破れ紙ラベルを重ねる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+建物図面は不要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約廃止の表題登記は提供不要
+Illustration: 団地の集会所を表す建物アイコンから「団地共用部分」の判子（stamp）が外れて落ちる様子。奥に登記所の図面キャビネットのアイコンを描き、そこに既存の建物図面・各階平面図が保管されていることを示す。手前に新しい図面のアイコンとバツ印を重ねる。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+既に登記記録にある
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

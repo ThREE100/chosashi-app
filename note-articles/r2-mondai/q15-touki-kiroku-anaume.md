@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】令和2年度 第15問・登記記録を「読む」力を試す穴埋め問題〜敷地権付き区分建物の登記記録〜
+## 【土地家屋調査士受験生向け】令和2年度 第15問〜マンションの1階は「平家建」じゃないんです〜
 
 **出題年度：令和2年度　午後の部　第15問**
 
@@ -57,15 +57,13 @@
 
 **たとえば**、部屋を区分してもう一戸増やしたことで、それぞれの敷地権の取り分（割合）が変わったときは、「令和2年11月20日変更」というように「変更」を原因として記録します。
 
-### まとめ表
+### まとめ
 
-| 空欄 | 入る語句 | ポイント |
-|---|---|---|
-| ア | 1階建 | 区分建物の1階の階数は「平家建」でなく「1階建」 |
-| イ | 1階部分 | 階層区分の専有部分の床面積は「◯階部分」と記録 |
-| ウ | 地上権 | 敷地権になり得るのは登記された所有権・地上権・賃借権（使用貸借権は不可） |
-| エ | 敷地権 | 敷地権発生の原因は「年月日敷地権」 |
-| オ | 変更 | 区分に伴う割合変更の原因は「年月日変更」 |
+- **ア（1階建）**　区分建物の1階の階数は「平家建」でなく「1階建」
+- **イ（1階部分）**　階層区分の専有部分の床面積は「◯階部分」と記録
+- **ウ（地上権）**　敷地権になり得るのは登記された所有権・地上権・賃借権（使用貸借権は不可）
+- **エ（敷地権）**　敷地権発生の原因は「年月日敷地権」
+- **オ（変更）**　区分に伴う割合変更の原因は「年月日変更」
 
 空欄ア〜オに入る語句は「1階建・1階部分・地上権・敷地権・変更」の5つです。この5語をどれも含まない選択肢を探すと、選択肢2の「分割・新築・1階」は、いずれもア〜オの空欄には入らない語句だけで構成されています（「新築」は専有部分の原因欄にすでに印字済み、「1階」「分割」はどの空欄にも入りません）。
 
@@ -93,7 +91,9 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+登記記録の空欄ア〜オを、「専有部分の表示」（ア・イ＝列A・緑）と「敷地権の表示」（ウ・エ・オ＝列B・青）という登記記録そのものの2つの区分に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。導入イラスト・導入文のブロックは置かない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -103,27 +103,27 @@ modern explainer-graphic aesthetic (icons: isometric apartment buildings,
 registry record cards, dashed fillable fields, ownership-right icons, etc. —
 adapt icon set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Special attention: the kanji 地・番・建・物・登・記・権 appear repeatedly
-in the card text below. Render every one of them in its standard Japanese
-(Jōyō) form — do NOT render any of them as a Simplified Chinese variant.
-
-This infographic has exactly 5 cards, one per card heading listed below,
-one for each blank ア〜オ in the registry record. Reproduce all 5
-headings exactly as written, in this order, with no duplication, no
-omission, and no paraphrasing:
-1. マンションの1階の部屋は「平家建」じゃなく「1階建」なんです
-2. 専有部分の床面積は「◯階部分」と書くって知ってた？
-3. 使用貸借権は登記できないから、敷地権になれないんです
-4. 敷地権の発生原因は、そのまま「敷地権」なんです
-5. 区分で割合が変わったら、原因は「変更」なんです
+summarize, or substitute any characters. Pay special attention to the
+kanji 専・有・部・分・階・建・床・面・積・使・用・貸・借・権・登・記・地・上・敷・発・生・原・因・区・変・更 — these
+must be rendered in their standard Japanese (Jōyō) forms, never as
+Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -131,81 +131,83 @@ Title (large, bold, 2行):
 空欄ア〜オの5つの正解
 
 Subtitle (smaller, centered, 1行):
-令和2年度 土地家屋調査士試験 午後の部 第15問(敷地権付き区分建物の登記記録)より
+令和2年度　午後の部　第15問－敷地権付き区分建物の登記記録
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric 3-story apartment building cross-section
-beside a large floating registry-record document. The document shows
-five dashed, fillable blank boxes with question marks in them,
-corresponding to the five blanks ア〜オ that need to be filled in.
-実際の登記記録を読んで、空欄に入る正しい語句を判断する「穴埋め型」
-の問題です。専有部分の構造・床面積の書き方や、敷地権の種類・発生原
-因・変更原因の記録方法を、5つのカードで整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-マンションの1階の部屋は「平家建」じゃなく「1階建」なんです
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+専有部分の表示
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+1階の区分建物は「1階建」
 Illustration: Isometric 3-story apartment building with the 1st-floor
 unit highlighted in a pastel color. A label tag with a checkmark reads
 "1階建", next to a smaller crossed-out label reading "平家建" for
 comparison.
-Caption (small text below):
-一棟の建物を階層で区分した専有部分の階数は「平家建」ではなく「1階
-建」と表示する
+Conclusion tag (green banner below the illustration, 5-15 characters):
+「平家建」ではない
 
---- CARD 2 ---
-Heading (bold):
-専有部分の床面積は「◯階部分」と書くって知ってた？
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+床面積は「◯階部分」と記録
 Illustration: Isometric floor plan of the highlighted 1st-floor unit,
 with a floor-area label tag reading "1階部分　150.00㎡" and an arrow
 pointing from the room outline to the label.
-Caption (small text below):
-一棟の建物を階層で区分した専有部分の床面積は「1階部分」のように、
-階を添えて記録する
+Conclusion tag (green banner below the illustration, 5-15 characters):
+階を添えて記録
 
---- CARD 3 ---
-Heading (bold):
-使用貸借権は登記できないから、敷地権になれないんです
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+敷地権の表示
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+使用貸借権は敷地権になれない
 Illustration: Isometric land plot beneath the apartment building, with
 three right-icons floating above it labeled "所有権", "地上権", and
 "使用貸借権". The "所有権" and "地上権" icons are circled with a
 checkmark and connected by a chain down to the building, labeled
 "敷地権になり得る"; the "使用貸借権" icon has a crossed-out chain and
 a small "登記不可" stamp beside it.
-Caption (small text below):
-敷地権になり得るのは登記された所有権・地上権・賃借権であり、登記す
-ることができない使用貸借権は敷地権にならない
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記不可だから対象外
 
---- CARD 4 ---
-Heading (bold):
-敷地権の発生原因は、そのまま「敷地権」なんです
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+敷地権の発生原因は「敷地権」
 Illustration: Isometric registry record card for "敷地権の表示",
 showing a date tag "令和2年10月20日" connected by an arrow to a
 reason/label tag reading "敷地権" with a checkmark.
-Caption (small text below):
-敷地権の表示における最初の登記原因及びその日付は「年月日敷地権」と
-記録する
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+原因は「敷地権」
 
---- CARD 5 ---
-Heading (bold):
-区分で割合が変わったら、原因は「変更」なんです
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分で割合変更なら原因は「変更」
 Illustration: Isometric apartment unit being split into two smaller
 units by a dashed cut-line (区分), with two fraction labels showing
 "3分の1" changing to "6分の1". A date tag "令和2年11月20日" is
 connected by an arrow to a reason/label tag reading "変更" with a
 checkmark.
-Caption (small text below):
-専有部分の区分に伴って敷地権の割合が変わったときの登記原因及びその
-日付は「年月日変更」と記録する
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+原因は「変更」
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to 地・番・建・物・登・記・権. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, and that all 5 card headings listed above
-appear verbatim with no paraphrasing.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

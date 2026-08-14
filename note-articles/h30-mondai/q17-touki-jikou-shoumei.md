@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】その証明書、どこまで・どうやって取れる?〜平成30年度午後の部 第17問を解説〜
+## 【土地家屋調査士受験生向け】平成30年度 第17問〜「表題部のみ」の証明書は実は存在しないんです〜
 
 **出題年度：平成30年度　午後の部　第17問**
 
@@ -48,15 +48,13 @@
 
 **たとえば**、窓口まで取りに行く時間がないので証明書を自宅に郵送してほしいと申し出た場合には、証明書の手数料だけでなく、返送用の切手代など送付にかかる費用もあわせて納める必要があります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 図面は一部の写しの交付も請求できる（令21条1項、法121条1項） |
-| イ | 誤 | 「表題部のみ」を記載事項とする登記事項証明書は存在しない（規則196条1項) |
-| ウ | 正 | 共同担保目録の証明を求めるなら、その旨を請求情報に含める（規則193条1項5号) |
-| エ | 誤 | 地図に準ずる図面の写しは管轄を問わずどの登記所でも請求できる（法120条1項、3項) |
-| オ | 正 | 送付の方法で受け取るときは、手数料のほか送付費用も納付する（規則204条1項) |
+- **ア（誤）**　図面は一部の写しの交付も請求できる
+- **イ（誤）**　「表題部のみ」を記載事項とする登記事項証明書は存在しない
+- **ウ（正）**　共同担保目録の証明を求めるなら、その旨を請求情報に含める
+- **エ（誤）**　地図に準ずる図面の写しは管轄を問わずどの登記所でも請求できる
+- **オ（正）**　送付の方法で受け取るときは、手数料のほか送付費用も納付する
 
 交付手続は「請求できる範囲」「証明書の種類」「請求できる登記所」「手数料の負担」と論点が分かれており、条文の文言をそのまま押さえておくことが得点への近道です。
 
@@ -86,16 +84,27 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-登記事項証明書・図面の写しの交付請求について、「請求できる範囲」「証明書の種類」「請求できる登記所」「手数料の負担」という4つの論点にまたがる5つの正しいルールを、1列に並んだ5枚のカードで俯瞰できるよう構成した画像生成プロンプト。
+登記事項証明書・図面の写しの交付請求について、「請求できる範囲」「証明書の種類」「請求できる登記所」「手数料の負担」という4つの論点にまたがる5つの正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric survey maps, official
 certificate documents with a red stamp/seal, registry office (登記所)
 buildings, envelopes and postage stamps, coins, ledger books, checkmarks
 and prohibition marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -104,103 +113,88 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・証・図・費・請・郵, which have
-Simplified Chinese look-alike forms with visibly different stroke shapes —
-always draw the standard Japanese (Jōyō) form of these characters.
+kanji 証・図・請・登・記・所・費・録・郵 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 2行):
-登記事項証明書の交付請求
-細かいルールを一気に整理
+Title (large, bold, 1行):
+登記事項証明書の交付請求、細かいルールを一気に整理
 
 Subtitle (smaller, centered, 1行):
-請求できる範囲・証明書の種類・登記所・手数料(平成30年度 午後の部 第17問)
+平成30年度 午後の部 第17問－請求できる範囲・証明書の種類・登記所・手数料
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design icon on the left showing a person
-standing at a registry office (登記所) counter window handing over a
-request form, with four small labeled tag icons floating around the
-counter: a torn paper fragment tagged "範囲", a certificate document
-tagged "種類", a building icon tagged "登記所", and a coin icon tagged
-"手数料", showing that the request touches four different rules at once.
-登記事項証明書や各種図面の写しを「誰が」「どの範囲で」「どの登記所に」
-「どんな手数料で」請求できるのか、という交付手続の細かいルールを
-5つの正しいルールに整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- CARD 1 ---
-Heading (bold):
-図面は「一部の写し」も請求できる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+図面は一部の写しも請求可
 Illustration: An isometric survey map (地積測量図) laid flat, with a
 dashed selection box highlighting one section of the map and a small
 scissors/crop icon at its edge; an arrow leads from the selected section
 to a small copied paper labeled "一部の写し" with a green checkmark,
 while the full map beside it is labeled "全部の写し" also with a green
 checkmark, showing both are allowed.
-Caption (small text below):
-土地所在図・地積測量図・地役権図面・建物図面・各階平面図の写しは、全部の
-写しだけでなく一部の写しの交付も請求できる(不動産登記令21条1項、不動産
-登記法121条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+一部の写しも可
 
 --- CARD 2 ---
-Heading (bold):
-「表題部のみ」の証明書は存在しない
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+「表題部のみ」の証明書はない
 Illustration: Two official stamped certificate documents standing upright
 side by side, one labeled "全部事項証明書" and one labeled "現在事項
 証明書", each with a green checkmark; beside them a third document
 outlined in dashed red lines labeled "表題部のみの証明書" with a red "×"
 mark over it, showing this type does not exist.
-Caption (small text below):
-登記事項証明書には全部事項証明書や現在事項証明書などの種類はあるが、
-「表題部のみ」を記載事項とする証明書という類型は用意されていない
-(不動産登記規則196条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+存在しない類型
 
 --- CARD 3 ---
-Heading (bold):
-共同担保目録も欲しいなら、請求書にひと言
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+共同担保目録は請求書に明記
 Illustration: An isometric registry certificate request form with a
 checkbox being ticked by a pencil, the checkbox labeled "共同担保目録も
 含める"; a dotted line connects the checked box to a stack of ledger
 pages labeled "共同担保目録" being attached to the certificate, with a
 small speech-bubble icon reading "その旨を請求情報に記載".
-Caption (small text below):
-共同担保目録に記録された事項についても証明を求めるときは、その旨を
-請求情報の内容としなければならない(不動産登記規則193条1項5号)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+請求情報に記載
 
 --- CARD 4 ---
-Heading (bold):
-地図に準ずる図面は、どの登記所でも請求できる
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地図に準ずる図面はどこでも請求可
 Illustration: A simplified isometric map of Japan with several small
 registry office (登記所) building icons scattered across it; a person
 icon standing at one office holds up a document labeled "地図に準ずる
 図面", with green arrows and checkmarks radiating from that document to
 every other office icon on the map, and no prohibition marks anywhere.
-Caption (small text below):
-地図に準ずる図面(公図)の写しの交付は、その不動産の所在地を管轄する
-登記所に限らず、いずれの登記所に対しても請求することができる(不動産
-登記法120条1項、3項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+どの登記所でも可
 
 --- CARD 5 ---
-Heading (bold):
-郵送で受け取るなら、送付費用も自己負担
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+郵送なら送付費用も自己負担
 Illustration: An isometric envelope with a certificate document peeking
 out, addressed to a house icon, a postage stamp on the corner; beside the
 envelope two coin-stack icons labeled "手数料" and "送付費用", both
 connected by a plus sign to show they are paid together.
-Caption (small text below):
-請求書を登記所に提出する方法で登記事項証明書の交付を請求し、申出により
-送付の方法で交付を受けるときは、手数料のほか送付に要する費用も納付
-しなければならない(不動産登記規則204条1項)。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+送付費用も納付
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成30年度 午後の部 第17問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・証・図・費・請・郵.
-If any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the number of cards
-equals 5 exactly, with no duplicated or missing cards, and confirm every
-heading, illustration label, and caption text matches the Japanese text
-given above verbatim, with no paraphrasing and no substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
 ```

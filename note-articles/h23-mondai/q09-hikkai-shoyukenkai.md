@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】筆界は動かない、所有権界は動く〜合意・時効・処分で変わるのはどっち?〜
+## 【土地家屋調査士受験生向け】平成23年度 第9問〜合意や時効で動くのは所有権界だけ〜
 
 **出題年度：平成23年度　午後の部　第9問**
 
@@ -18,7 +18,7 @@
 
 ※ 問題の図では、甲土地・乙土地が隣接し、登記上の筆界がa-b、当事者が争う線がc-dとして描かれています。
 
-筆界（公法上の境界）は、国が定めた一筆の土地の範囲を区切る線で、当事者の合意・時効取得・処分では動きません。これに対して所有権界（私法上の境界）は、当事者が所有権をどこまで持っているかという私的な権利の範囲なので、合意・時効取得・処分によって動きます。両者は本来一致しているのが原則ですが、常に一致するとは限らないという対比が、この問題のすべてです。
+筆界（公法上の境界）は、一筆の土地が登記された時にその境を構成するものとされた点及びこれを結ぶ直線をいい（不動産登記法123条1号）、国が定めた一筆の土地の範囲を区切る線として固定されたものなので、当事者の合意・時効取得・処分では動きません。これに対して所有権界（私法上の境界）は、当事者が所有権をどこまで持っているかという私的な権利の範囲なので、合意・時効取得・処分によって動きます。両者は本来一致しているのが原則ですが、常に一致するとは限らないという対比が、この問題のすべてです。
 
 ### 肢ア：合意で動くのは所有権界だけで、筆界は動かない
 
@@ -50,15 +50,13 @@ Aがc-dまでの部分（abdcaで囲まれた土地）を時効取得すれば�
 
 **たとえば**、裁判で「登記上の境目はこの線」と決まった後でも、渡辺さんと伊藤さんが話し合って「実際の土地の使い分けはこっちの線でいこう」と所有権界を別に取り決めることはできます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 合意で動くのは所有権界だけで、筆界は動かない |
-| イ | 誤 | 時効取得で所有権界は動いても、筆界はa-bのまま |
-| ウ | 誤 | 信じて買っただけでは、所有権界も筆界も動かない |
-| エ | 正 | 官民境界確定協議で決まるのは所有権界、筆界とはズレうる |
-| オ | 正 | 筆界が判決で確定しても、所有権界は合意で別に決められる |
+- **ア（誤）**　合意で動くのは所有権界だけで、筆界は動かない
+- **イ（誤）**　時効取得で所有権界は動いても、筆界はa-bのまま
+- **ウ（誤）**　信じて買っただけでは、所有権界も筆界も動かない
+- **エ（正）**　官民境界確定協議で決まるのは所有権界、筆界とはズレうる
+- **オ（正）**　筆界が判決で確定しても、所有権界は合意で別に決められる
 
 正しいのは2個（肢エ・オ）です。合意・時効・処分で動くのは所有権界だけで、筆界は動かない——この一点を軸に切り分ければ、迷うことはありません。
 
@@ -70,9 +68,10 @@ Aがc-dまでの部分（abdcaで囲まれた土地）を時効取得すれば�
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第9問＝個数／2番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 各肢の法的根拠のうち、エ（国有財産法上の官民境界確定協議）は制度名まで問題文に明示されていますが、条文番号・判例番号までは明示していません。ア・イ・ウ・オは「筆界＝公法上の境界は合意・時効・処分で動かない／所有権界＝私法上の境界は動く」という一般原則からの整理にとどまり、個別の条文番号・判例番号までは特定していません。この点は正直にお伝えします。
+- **2026-08-13再検証**：筆界の定義そのもの（一筆の土地が登記された時にその境を構成するとされた点及びこれを結ぶ直線）は不動産登記法123条1号（`note-articles/laws/fudousan-touki-hou.md`）で確認済みであり、この定義から「筆界は登記時に固定され、当事者の合意・時効取得・処分では動かない」という各肢共通の前提を導いています。もっとも、この前提および「所有権界は合意・時効取得・処分で動く」という対比自体は判例により確立された法理であり、不動産登記法や民法にこれをそのまま定めた条文はありません。エ（国有財産法上の官民境界確定協議）も制度名は問題文に明示されていますが、国有財産法自体は土地家屋調査士試験の範囲外の法令であり、ローカル法令データベースにも収録がないため、条文レベルでの確認はできていません。ア・イ・ウ・オについても、判例法理からの整理にとどまり、個別の条文番号・判例番号までは特定していません。この点は正直にお伝えします。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、「筆界特定」を単独テーマとする問題が令和6年度第19問（note-articles/r6-mondai/q19-hikkai-tokutei.md執筆済み）・令和7年度第16問（note-articles/r7-mondai/q16-hikkaitokutei.md執筆済み）で出題されていますが、これらはいずれも筆界特定という行政手続そのもの（申請適格・除斥事由・訴訟係属中の取扱い等）を問う問題であり、本問（筆界と所有権界という2つの概念の理論的な関係、合意・時効取得・処分によってどちらが動くか）とはテーマが異なります。重複はありません。
+- **最新法令準拠チェック（2026-08-04実施）**：筆界・所有権界の理論的な区別（合意・時効取得・処分による変動の可否）は判例法理であり、直近の民法・不動産登記法改正による変更はありません。
 
 ---
 
@@ -83,3 +82,116 @@ Aがc-dまでの部分（abdcaで囲まれた土地）を時効取得すれば�
 - 信じて買っただけじゃ、境界は動かないって知ってた?
 - 官民境界の協議で決まるのは所有権界なんです
 - 筆界が判決で決まっても、所有権界は別に合意できるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+筆界（公法上の境界、動かない）と所有権界（私法上の境界、合意・時効・処分で動く）という一貫した対比軸を、5つの異なる場面（合意・時効取得・信頼・官民協議・判決）で確認する構成として、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots,
+boundary lines, padlocks, handshakes, courthouses, torn paper labels,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 筆・権・確・協 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 筆 not 笔, 権 not 权,
+確 not 确, 協 not 协).
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界は動かない、所有権界は動く
+
+Subtitle (smaller, centered, 1行):
+平成23年度 午後の部 第9問－筆界及び所有権界
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+合意で動くのは所有権界だけ
+Illustration: Two neighbor characters shaking hands over a 合意 icon,
+moving a dashed private boundary line (所有権界) to a new position,
+while a solid public boundary line (筆界) stays locked in place with a
+padlock icon.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+筆界は不動
+
+--- CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+時効取得でも筆界は動かない
+Illustration: A character occupying a strip of land for many years
+(calendar icon), causing the dashed private line to shift outward,
+while the solid public line remains locked and unchanged.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+筆界は不動
+
+--- CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+信じただけでは何も動かない
+Illustration: A seller character pointing confidently at a wrong
+boundary line while a buyer character nods and signs, but both the
+dashed and solid lines remain unchanged with a red X over the mistaken
+belief bubble.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+動く根拠なし
+
+--- CARD 4 ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+官民協議で動くのも所有権界
+Illustration: A landowner character and a government building icon
+shaking hands over an 官民境界確定協議 contract, shifting the dashed
+private line, while the solid public line stays put, creating a
+visible gap between the two lines.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+筆界とズレうる
+
+--- CARD 5 ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+判決後も所有権界は合意可能
+Illustration: A courthouse/gavel icon stamping the solid public
+boundary line firmly in place, while two neighbor characters separately
+shake hands to move the dashed private line to a different position,
+both coexisting on the same land plots.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+別に合意できる
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, with particular
+attention to 筆・権・確・協. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the number of cards equals 5 exactly, with no duplicated or
+missing cards, confirm there is no intro illustration or paragraph block
+between the header and the cards, and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as
+a short heading + a short conclusion tag, at a glance.
+```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】地役権図面、要役地の住所までは書かなくていいんです〜令和6年度午後の部 第10問を解説〜
+## 【土地家屋調査士受験生向け】令和6年度 第10問〜地役権図面、要役地の住所は不要〜
 
 **出題年度：令和6年度　午後の部　第10問**
 
@@ -20,7 +20,7 @@
 
 ### ア：書面提出の地役権図面には、地役権者の署名又は記名押印が必要
 
-書面を提出する方法により地役権図面を提供する場合には、当該地役権図面に地役権者（要役地の所有者、地上権者、賃借権者）が署名し、又は記名押印しなければなりません（不動産登記規則79条3項、4項）。なお、申請人の氏名又は名称は記名されていれば足ります。
+書面を提出する方法により地役権図面を提供する場合には、当該地役権図面に地役権者（要役地の所有者、地上権者、賃借権者）が署名し、又は記名押印しなければなりません（不動産登記規則79条4項）。なお、申請人の氏名又は名称は記名されていれば足ります。
 
 **たとえば**、地役権者であるＡさんが書面で地役権図面を提出する場合には、その図面に自分の署名か、記名と押印のいずれかを行っておく必要があります。
 
@@ -44,17 +44,17 @@
 
 ### オ：地役権図面に、要役地の所在地番を記録する義務はない
 
-地役権図面には、承役地の所在欄に申請に係る承役地の所在（隣地を含む地番）を記載するものとされていますが、要役地の所在地番は記録事項とされていません。
+地役権図面には、地役権設定の範囲、方位、縮尺、承役地の地番及び隣地の地番並びに申請人の氏名又は名称を記録するものとされていますが（不動産登記規則79条1項）、要役地の所在地番は記録事項とされていません。
 
 **たとえば**、地役権図面を作成する際、承役地側の地番はきちんと記載しますが、「この地役権はどこの土地（要役地）のためのものか」という要役地の所在地番までは、図面に書き込む義務はありません。
 
-### まとめ
+### まとめ表
 
-- **ア（正）**　書面提出の地役権図面には地役権者の署名又は記名押印が必要（規則79条3項、4項）
-- **イ（誤）**　地役権図面の縮尺は適宜でよく、地積測量図と同一にする必要はない（規則79条2項）
-- **ウ（誤）**　範囲が一部残る場合でも地役権図面の提供は必要（令別表8項添付情報ロ）
-- **エ（正）**　新たな地役権図面提供による分筆登記後、従前図面は閉鎖される（規則87条1項）
-- **オ（誤）**　地役権図面に要役地の所在地番を記録する義務はない
+- **ア（正）** 書面提出の地役権図面には地役権者の署名又は記名押印が必要
+- **イ（誤）** 地役権図面の縮尺は適宜でよく、地積測量図と同一にする必要はない
+- **ウ（誤）** 範囲が一部残る場合でも地役権図面の提供は必要
+- **エ（正）** 新たな地役権図面提供による分筆登記後、従前図面は閉鎖される
+- **オ（誤）** 地役権図面に要役地の所在地番を記録する義務はない
 
 地役権図面のルールは、「分筆後にどこまで地役権の範囲が残るか」という具体的な場面をイメージしながら覚えると整理しやすくなります。
 
@@ -66,7 +66,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典（令和6年度午後の部 第10問）・正解番号（アエ＝2番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）のexplanationフィールドに基づいており、確認済みです。
-- 各肢の根拠のうち、ア（規則79条3項、4項）・イ（規則79条2項）・ウ（令別表8項添付情報ロ）・エ（規則87条1項）は、データベースのexplanationフィールドに条文番号まで明記されているものです。一方、オ（要役地の所在地番は記録事項でない）については、明記された条文番号がなく、一般原則からの推論にとどまっている点にご留意ください。
+- 各肢の根拠のうち、イ（規則79条2項）・ウ（令別表8項添付情報ロ）・エ（規則87条1項）は、データベースのexplanationフィールドに条文番号まで明記されているものです。アについては、データベース記載は「規則79条3項、4項」でしたが、ローカル法令データベースで照合したところ、署名又は記名押印を定めるのは79条4項のみで、3項は「作成の年月日を記録しなければならない」という別内容の規定だったため、本文を79条4項のみの引用に訂正しました。オ（要役地の所在地番は記録事項でない）については、データベースには明記された条文番号がありませんでしたが、地役権図面の記録事項を列挙する規則79条1項（地役権設定の範囲、方位、縮尺、承役地の地番及び隣地の地番、申請人の氏名又は名称）に要役地の所在地番が含まれていないことをローカル法令データベースで確認できたため、本文に79条1項を根拠条文として補いました。
 - なお、念のためローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回はアガルート教材を参照することができませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題について、本問のテーマ（地役権図面）に関する記述（「地役権図面」というキーワード）を含む問題がないか確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -82,13 +82,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+地役権図面に関する5肢を、「図面の作成・記載に関するルール（署名・縮尺・要役地の記載事項）」と「分筆登記のときの取扱い（提供要否・従前図面の閉鎖）」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。導入イラストや説明文のブロックは置かない。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric surveyor's desks,
+land plots, diagram sheets, filing shelves, stamps, torn paper labels,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -96,64 +111,90 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Note on kanji accuracy: the characters 地・権（地役権）、記（記名押印）、
-登（登記）、番（所在地番）、所（所在）appear in this infographic. Do not
-render 権 as the Simplified Chinese variant（权）or 记 in place of 記
-— use the standard Japanese forms 地・権・記・登・番・所 exactly.
+summarize, or substitute any characters. Pay special attention to the
+kanji 役・地・権・図・面・縮・尺・積・測・量・閉・鎖 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-地役権図面、要役地の住所までは書かない
+地役権図面のルール、これで迷わない
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第10問／地役権図面
+令和6年度 午後の部 第10問－署名・縮尺・分筆時の取扱い
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 承役地と要役地の関係を示すisometricイラスト、地役権図面の書類アイコンが中央に描かれ、署名欄・縮尺の目盛り・要役地の欄などが強調される。
-地役権図面の作成・提供に関するルールを、「誰が署名するか」「縮尺は自由か」「分筆時の扱い」の場面ごとに整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-書面提出の地役権図面には、署名か記名押印が必要
-Illustration: 地役権者キャラクターが地役権図面の書類にペンで署名する様子、書類の隅に印鑑のアイコンも添え、緑の○マークと「署名または記名押印」のラベルを添える。
-Caption (small text below):
-書面提出の地役権図面には地役権者の署名又は記名押印が必要（規則79条3項、4項）
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+図面の作成・記載に関するルール
 
---- CARD 2 ---
-Heading (bold):
-地役権図面の縮尺は、地積測量図と揃えなくていい
-Illustration: 地積測量図(500分の1の目盛り)と地役権図面(別の目盛り)が並び、間に「≠」のアイコンと「縮尺は自由」のラベル、緑の○マークを添える。
-Caption (small text below):
-地役権図面の縮尺は適宜でよく、地積測量図と同一にする必要はない（規則79条2項）
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+署名か記名押印が必要
+Illustration: An isometric person at a desk signing a paper document by
+hand, with a hanko (name seal) stamp resting beside it. The word "署名"
+is written next to the hand, and "記名押印" is written next to the stamp.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+署名・記名押印必須
 
---- CARD 3 ---
-Heading (bold):
-範囲が一部残るなら、地役権図面はやっぱり必要
-Illustration: 承役地である甲土地が分筆され、一部にのみ地役権の範囲(斜線ハッチング)が残る様子。新しい地役権図面のアイコンに緑の○マークと「提供が必要」のラベルを添える。
-Caption (small text below):
-範囲が一部残る場合でも地役権図面の提供は必要（令別表8項添付情報ロ）
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+縮尺は地積測量図と別でよい
+Illustration: Two isometric drawing boards side by side, one labeled
+"地役権図面" with a small ruler icon, the other labeled "地積測量図" with
+a different-sized ruler icon, connected by a crossed-out equals sign to
+show the scales do not need to match.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+縮尺は自由
 
---- CARD 4 ---
-Heading (bold):
-新しい図面を出せば、古い地役権図面は閉鎖される
-Illustration: 古い地役権図面の書類アイコンに「閉鎖」の判子が押され、隣に新しい地役権図面の書類アイコンが並ぶ様子。矢印でつながれ「切り替え」のラベルを添える。
-Caption (small text below):
-新たな地役権図面提供による分筆登記後、従前図面は閉鎖される（規則87条1項）
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+要役地の地番は記載不要
+Illustration: An isometric diagram sheet with the 承役地 (servient land)
+section clearly filled in with a 地番 label, while the 要役地 (dominant
+land) section is shown as a faded, dashed placeholder box, with a small
+"記載不要" tag pointing at the dashed box.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+要役地は記載不要
 
---- CARD 5 ---
-Heading (bold):
-要役地の住所までは、地役権図面に書かない
-Illustration: 地役権図面の書類アイコン、承役地の地番欄には記入済みのチェックマーク、要役地の欄には空欄のまま「記録不要」のラベルを添える。
-Caption (small text below):
-地役権図面に要役地の所在地番を記録する義務はない
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+分筆登記のときの取扱い
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+範囲が一部残るなら提供必要
+Illustration: An isometric land plot being split by a dotted cut line
+into two smaller plots; one of the resulting plots still carries a
+shaded 地役権 overlay, with an arrow pointing from that plot to a new
+document icon labeled "地役権図面 提供必要".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+図面提供は必要
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+新図面提供で従前図面閉鎖
+Illustration: An isometric filing shelf showing an old document stamped
+in red with "閉鎖" being slid to the back, while a new document labeled
+"新たな地役権図面" is being placed in front of it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+従前図面は閉鎖
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】離れは、いつでも附属建物になれるわけじゃない〜附属建物の要件と手続を整理〜
+## 【土地家屋調査士受験生向け】令和6年度 第14問〜離れは、いつでも附属建物になれるわけじゃない〜
 
 **出題年度：令和6年度　午後の部　第14問**
 
@@ -20,7 +20,7 @@
 
 ### ア：効用上一体でない建物は、附属建物とする登記ができない
 
-附属建物とは、表題登記がある主である建物に附属し、これと一体のものとして1個の建物として登記される建物をいいます(法2条1項23号)。主である建物の利用を補うために建築されるのが附属建物であり、所有者が同一であることに加え、効用上一体をなしていることが必要です。したがって、近接して建てられただけで効用上一体として利用される状態にない建物同士は、附属建物とする表題登記を申請することができません。
+附属建物とは、表題登記がある主である建物に附属し、これと一体のものとして1個の建物として登記される建物をいいます(法2条1項23号)。主である建物の利用を補うために建築されるのが附属建物であり、所有者が同一であることに加え、効用上一体をなしていることが必要です(準則78条1項)。したがって、近接して建てられただけで効用上一体として利用される状態にない建物同士は、附属建物とする表題登記を申請することができません。
 
 **たとえば**、隣り合って建っているだけで用途上の関連がない甲建物(住宅)と乙建物(まったく無関係の倉庫)について、乙建物を甲建物の附属建物として登記することはできません。
 
@@ -48,13 +48,13 @@
 
 **たとえば**、既存の住宅に新しく物置(附属建物)を建てた場合の変更登記では、その物置の位置がわかる変更後の建物図面を提供する必要があります。
 
-### まとめ
+### まとめ表
 
-- **ア（正）**　効用上一体でない建物は附属建物とする登記ができない
-- **イ（誤）**　建物合併登記でも各階平面図の提供は省略できない
-- **ウ（正）**　先取特権保存登記後の附属建物完成は遅滞なく変更登記が必要
-- **エ（正）**　附属建物の新築日が主建物と同日なら日付の記載は不要
-- **オ（誤）**　附属建物新築による変更登記には建物図面の提供が必要
+- **ア（正）** 効用上一体でない建物は附属建物とする登記ができない
+- **イ（誤）** 建物合併登記でも各階平面図の提供は省略できない
+- **ウ（正）** 先取特権保存登記後の附属建物完成は遅滞なく変更登記が必要
+- **エ（正）** 附属建物の新築日が主建物と同日なら日付の記載は不要
+- **オ（誤）** 附属建物新築による変更登記には建物図面の提供が必要
 
 附属建物にまつわる登記は、「効用上の一体性という実体要件」と「合併・変更登記に必要な図面という手続要件」を分けて押さえることが大切です。
 
@@ -82,13 +82,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+附属建物にまつわるア〜オ5肢の正しいルールを、「効用上一体性という実体要件」と「合併・変更登記に必要な添付情報という手続要件」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成(導入イラスト・導入文のブロックは置かない)。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric houses, warehouses,
+annex buildings, floor-plan documents, torn paper labels, stamps, etc. —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -96,63 +111,90 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Note: this prompt contains kanji that are easily confused with Simplified
-Chinese variants, especially 登・記・建・物・権. Render these strictly in
-their standard Japanese (Jōyō) forms, never as simplified hanzi.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・権・建・物・登・記・所・図・積 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-附属建物の要件と手続を整理
+離れは、いつでも附属建物になれる?
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第14問｜附属建物
+令和6年度 午後の部 第14問－要件と手続を整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 主である建物(母屋)と附属建物(離れ・物置)のアイソメトリックイラスト。「効用上一体」のラベル付きの点線で結ばれる。
-附属建物として登記できるかどうかの核心は、「主である建物と効用上一体として利用される状態にあるか」という一点にあります。この要件を軸に、合併・変更登記の添付情報や申請義務の細目を確認していきましょう。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-効用上一体でない建物は、附属建物にできない
-Illustration: 近接して建つ甲建物(住宅)と乙建物(無関係の倉庫)のアイソメトリックイラスト。両者を結ぶ点線にバツ印。
-Caption (small text below):
-効用上一体でない建物は附属建物とする登記ができない
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+実体要件：効用上一体性
 
---- CARD 2 ---
-Heading (bold):
-建物合併登記でも、各階平面図は省略できない
-Illustration: 甲建物と乙建物を合併するアイソメトリックイラスト。各階平面図の書類アイコンにチェックマーク(必ず提供)。
-Caption (small text below):
-建物合併登記でも各階平面図の提供は省略できない
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+効用上一体でなければ附属不可
+Illustration: Two separate isometric buildings standing close together
+but not connected — a house labeled "甲建物(住宅)" and, right next to
+it, a warehouse labeled "乙建物(倉庫)" with no shared roof or walkway; a
+red "✕" mark and a red torn-paper label "効用上一体でない" placed between
+them.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+附属建物にできない
 
---- CARD 3 ---
-Heading (bold):
-先取特権登記後の附属建物完成は、遅滞なく変更登記が必要
-Illustration: 増築中の離れ(附属建物)のアイソメトリックイラスト。先取特権の書類アイコンと、時計アイコンに「遅滞なく」のラベル。
-Caption (small text below):
-先取特権保存登記後の附属建物完成は遅滞なく変更登記が必要
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+手続要件：添付情報と申請義務
 
---- CARD 4 ---
-Heading (bold):
-附属建物の新築日が主建物と同日なら、日付の記載は不要
-Illustration: 母屋と離れを同じ日に新築するアイソメトリックイラスト。カレンダーアイコンに同じ日付、附属建物の新築日欄にバツ印(記載省略)。
-Caption (small text below):
-附属建物の新築日が主建物と同日なら日付の記載は不要
+--- COLUMN B, CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+建物合併も各階平面図は必須
+Illustration: Two isometric buildings merging into one outlined building
+with an arrow labeled "合併登記", next to a stack of floor-plan documents
+labeled "各階平面図" stamped with a red circle reading "提供必須".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+省略できない
 
---- CARD 5 ---
-Heading (bold):
-附属建物新築による変更登記には、建物図面が必要
-Illustration: 既存の住宅に新しく物置(附属建物)を建てるアイソメトリックイラスト。変更後の建物図面の書類アイコンにチェックマーク。
-Caption (small text below):
-附属建物新築による変更登記には建物図面の提供が必要
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+先取特権後の完成は遅滞なく登記
+Illustration: An annex building under construction with scaffolding, next
+to a document icon labeled "先取特権 保存登記" already stamped, a clock
+icon, and a red torn-paper label "遅滞なく", with an arrow pointing to a
+document labeled "表題部変更登記".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+遅滞なく申請
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+同日新築なら新築日の記載不要
+Illustration: An isometric main house (母屋) and a small annex (離れ)
+being built side by side, both pointing to a single calendar with one
+circled date shared by both buildings; a document icon showing 申請情報
+with the 新築日 field for the annex marked with a small "記載不要" label.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+記載省略できる
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物新築には建物図面が必要
+Illustration: A house with a newly built annex (物置) beside it, and a
+hand placing a floor-plan document labeled "建物図面" onto a stamped
+folder, with a torn-paper label "提出必須".
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+提供必須
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

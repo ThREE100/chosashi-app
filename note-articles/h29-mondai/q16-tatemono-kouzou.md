@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】屋根裏部屋は「階」に入る？入らない？〜建物の構造の表示ルール〜平成29年度午後の部 第16問を解説〜
+## 【土地家屋調査士受験生向け】平成29年度 第16問〜屋根裏部屋は「階」に入る？入らない？〜
 
 **出題年度：平成29年度　午後の部　第16問**
 
@@ -16,17 +16,17 @@
 >
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
 
-建物の構造の表示は、「造り（材料）」「屋根の種類」「階数」を、細かなルールに沿って公示するものです。この分野では、①主要構造部と外壁材の違い、②屋根の種類が複数あるときの表示ルール（過半数ルール）、③屋根裏部屋や地階が階数に算入されるかどうかの基準を、数字（1.5メートル・1メートル）とセットで押さえられているかが問われます。
+建物の構造の表示は、「造り（材料）」「屋根の種類」「階数」を、細かなルールに沿って公示するものです。この分野では、①主要構造部と外壁材の違い、②屋根の種類が複数あるときの表示ルール（30％以上ルール）、③屋根裏部屋や地階が階数に算入されるかどうかの基準を、数字（屋根裏部屋・高床式の基準となる1.5メートル、地階の基準となる天井高の3分の1）とセットで押さえられているかが問われます。
 
 ### ア：外壁にALC板を使っても、主要構造部が鉄骨造なら「鉄骨造」と表示
 
-建物の構造欄の「造り」は、主要構造部が何かによって決まります。主要構造部が鉄骨造の場合、外壁に軽量気泡コンクリート（ALC板）を使用していても、それだけで「鉄骨・鉄筋コンクリート造」とは表示しません（昭63.3.24民三1826号）。主要構造部が壁構造としての鉄筋コンクリートで構成されている場合に初めて「鉄骨・鉄筋コンクリート造」と表示します。したがって本肢は誤りです。
+建物の構造欄の「造り」は、主要構造部が何かによって決まります。主要構造部が鉄骨造の場合、外壁に軽量気泡コンクリート（ALC板）を使用していても、それだけで「鉄骨・鉄筋コンクリート造」とは表示しません。主要構造部が壁構造としての鉄筋コンクリートで構成されている場合に初めて「鉄骨・鉄筋コンクリート造」と表示します。したがって本肢は誤りです。
 
 **たとえば**、骨組みが鉄骨でできている建物の外壁に、軽量な気泡コンクリートのパネルを使ったとします。外壁の見た目が鉄筋コンクリートっぽく見えても、建物の骨組み自体は鉄骨のままなので、構造欄には「鉄骨造」と表示するのです。
 
 ### イ：屋根の種類は、床面積の過半を占めるものだけを表示する
 
-屋根の種類が複数ある場合であっても、必ずしもすべてを表示する必要はありません。床面積に算入する部分の屋根面積のうち、30％未満の種類の屋根は表示しない扱いとされています（昭63.3.24民三1826号）。本肢では、床面積100.00平方メートルのうち65.00平方メートル（65％）がスレート、残り35.00平方メートル（35％）がかわらであり、いずれも30％以上を占めるため、「かわら・スレートぶき」のように両方を表示する対象になります。本肢は正しい記述です。
+屋根の種類が複数ある場合であっても、必ずしもすべてを表示する必要はありません。床面積に算入する部分の屋根面積のうち、30％未満の種類の屋根は表示しない扱いとされています。本肢では、床面積100.00平方メートルのうち65.00平方メートル（65％）がスレート、残り35.00平方メートル（35％）がかわらであり、いずれも30％以上を占めるため、「かわら・スレートぶき」のように両方を表示する対象になります。本肢は正しい記述です。
 
 **たとえば**、ある平家建の屋根が、6割強はスレート、4割弱はかわらでふかれていたとします。どちらも全体の3割以上を占めているので、「この屋根はスレートとかわらの2種類でできています」と両方を構造欄に書き込む必要があるのです。
 
@@ -38,25 +38,23 @@
 
 ### エ：地盤面下の階は、天井高の3分の1以上沈んでいれば地下階として扱う
 
-床面が地盤面より下にある階層については、床面から地盤面までの高さが、その階の天井までの高さの3分の1以上あるときに、地下階として取り扱います（昭63.3.24民三1826号）。本肢では、1階層部分の天井までの高さが2.7メートルなので、その3分の1は0.9メートルです。床面から地盤面までの高さが1.1メートルとなると、0.9メートル以上地盤面より下にあることになるため、この階層は地下階として扱われ、建物の構造欄には「地下1階付き2階建」と表示すべきことになります。「3階建」とする本肢は誤りです。
+床面が地盤面より下にある階層については、床面から地盤面までの高さが、その階の天井までの高さの3分の1以上あるときに、地下階として取り扱います。本肢では、1階層部分の天井までの高さが2.7メートルなので、その3分の1は0.9メートルです。床面から地盤面までの高さが1.1メートルとなると、0.9メートル以上地盤面より下にあることになるため、この階層は地下階として扱われ、建物の構造欄には「地下1階付き2階建」と表示すべきことになります。「3階建」とする本肢は誤りです。
 
 **たとえば**、3層構造の建物の一番下の階が、天井の高さ2.7メートルのうち1.1メートルぶん地面より低い位置にあるとします。2.7メートルの3分の1（0.9メートル）以上沈んでいるので、この階は「普通の1階」ではなく「地下1階」として扱われ、建物全体は「地下1階付き2階建」と表示することになります。
 
 ### オ：高床式で外気と遮断されていない床上げ部分は「高床式平家建」と表示
 
-床上げされた建物で、床上げされた部分の1階の床面が地盤面から1.5メートル以上ある平家建は、「高床式平家建」のように表示します（昭63.3.24民三1826号）。本肢では床上げの高さが地盤面から2.0メートルあり、外気と遮断する壁のない駐車場として使われているので、単なる「平家建」ではなく「高床式平家建」と表示すべきことになります。「平家建」とする本肢は誤りです。
+床上げされた建物で、床上げされた部分の1階の床面が地盤面から1.5メートル以上ある平家建は、「高床式平家建」のように表示します。本肢では床上げの高さが地盤面から2.0メートルあり、外気と遮断する壁のない駐車場として使われているので、単なる「平家建」ではなく「高床式平家建」と表示すべきことになります。「平家建」とする本肢は誤りです。
 
 **たとえば**、店舗の建物が鉄骨の柱で地面から2メートルも高く持ち上げられていて、その下は壁のない駐車スペースになっているとします。このように高く床上げされた建物は、単に「平家建」とだけ書くのではなく、「高床式平家建」という特別な表示をするのです。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 外壁にALC板を使っても、主要構造部が鉄骨造なら「鉄骨造」と表示（昭63.3.24民三1826号） |
-| イ | 正 | 屋根の種類は床面積の30％以上を占めるものを表示（昭63.3.24民三1826号） |
-| ウ | 正 | 屋根裏部屋は天井高1.5メートル以上なら階数に算入（準則81条4項） |
-| エ | 誤 | 床面から地盤面までの高さが天井高の3分の1以上なら地下階として扱う（昭63.3.24民三1826号） |
-| オ | 誤 | 床上げ高が地盤面から1.5メートル以上なら「高床式平家建」と表示（昭63.3.24民三1826号） |
+- **ア（誤）**　外壁にALC板を使っても、主要構造部が鉄骨造なら「鉄骨造」と表示
+- **イ（正）**　屋根の種類は床面積の30％以上を占めるものを表示
+- **ウ（正）**　屋根裏部屋は天井高1.5メートル以上なら階数に算入
+- **エ（誤）**　床面から地盤面までの高さが天井高の3分の1以上なら地下階として扱う
+- **オ（誤）**　床上げ高が地盤面から1.5メートル以上なら「高床式平家建」と表示
 
 「1.5メートル」（屋根裏部屋の階算入・高床式の基準）と「天井高の3分の1」（地階の基準）という2つの数字の使い分けが、この問題の急所です。
 
@@ -71,6 +69,7 @@
 - 各肢の根拠について、ア・イ・エ・オ（いずれも昭63.3.24民三1826号）、ウ（不動産登記事務取扱手続準則81条4項、昭37.12.15民甲3600号）は、いずれもデータベースのexplanationフィールドで先例番号・準則番号まで明記されているものです。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認しました。「建物の構造及び床面積」を扱う令和2年度第12問は、開閉式屋根の野球場・地下街の通路といった床面積算入の特殊ケースを問うもので、本問（造りの表示・屋根種類の表示ルール・屋根裏部屋の階数算入・地下階の基準・高床式の表示）とは具体的な論点が異なるため、**重複は見つかりませんでした**。
+- **導入文の誤りを修正（2026-08-08実施）**：ユーザーの依頼により、導入文の記述を再確認したところ、2箇所の誤りを発見し修正しました。(a)「屋根の種類が複数あるときの表示ルール（過半数ルール）」は誤りで、正しくは肢イの解説どおり「30％以上ルール」です（過半数＝50%超の意味だと、肢イで65%のスレートのみが表示対象になってしまい、実際には35%のかわらも表示対象になるという結論と矛盾します）。(b)「数字（1.5メートル・1メートル）」の「1メートル」も誤りで、地階の基準は固定の「1メートル」ではなく「天井高の3分の1」という比率であり、この点は記事末尾の結論文（「天井高の3分の1」（地階の基準）と明記）とも整合しない記述でした。両方とも、記事本文（肢イ・肢エの解説、結論文）に合わせて修正しています。
 
 ---
 
@@ -81,3 +80,168 @@
 - 屋根裏、天井高1.5メートル以上なら1つの階なんです
 - 地下階の基準は「天井高の3分の1」なんです
 - 高床式は2メートルの床上げで「平家建」と呼べないんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+建物の構造表示のルールを、「造り・屋根の材料による表示ルール」（ア・イ＝列A・緑）と「高さの基準による階数・表示ルール」（ウ・エ・オ＝列B・青、いずれも数字の基準がポイント）の2系統に分け、通し番号1〜5の5枚のカードで一枚に俯瞰できる構成にした。誤りの肢（ア・エ・オ）は、いずれも正しいルールに直した内容だけを図解する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric building frames,
+steel skeletons, wall panels, roof tile textures, measuring tapes, attic
+spaces, cross-section floor diagrams, elevated buildings on columns,
+etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 造・構・鉄・骨・壁・屋・根・階・建・地・下・床・高・車・駐 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+屋根裏部屋は「階」に入る？入らない？
+
+Subtitle (smaller, centered, 1行):
+平成29年度　午後の部　第16問－建物の構造の表示ルール
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+造り・屋根の材料による表示ルール
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+外壁がALC板でも主要構造部で判断
+Illustration: 鉄骨の骨組みだけを描いたアイソメ建物アイコンに「主要構造部：
+鉄骨」のラベルを付ける。その外側に薄いパネルを重ね「ALC板（外壁）」と
+ラベルする。骨組みから伸びる矢印の先に構造欄のラベルタグ「鉄骨造」と緑の
+チェックマーク、その下に紛らわしい「鉄骨・鉄筋コンクリート造」のラベルに
+赤い✕マークを添える。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+骨組みで判断
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+屋根は3割以上占める種類を表示
+Illustration: 屋根を上から見たアイソメ図を2色の瓦柄で分割し、「スレート
+65%」と「かわら35%」のラベルを付ける。両方に緑のチェックマークを添え、
+下に目盛りバー「30%ライン」を描いて、両方のブロックがそのラインを超えて
+いることを示す。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+3割ラインが基準
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+高さの基準による階数・表示ルール
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+屋根裏は天井高1.5m以上で1階算入
+Illustration: 2階建て建物の断面図。天井裏の収納式はしごのある屋根裏部屋に
+巻尺アイコンで「1.5m」の高さを示す。屋根裏部屋に緑のチェックマークと
+「3階建」のラベルタグを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+1.5m以上で算入
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+地下階の基準は天井高の3分の1
+Illustration: Draw exactly ONE diagram for this card — a single simple
+side-elevation of ONE room only (the bottom story), not a multi-floor
+building, not two side-by-side diagrams. This room is a plain rectangle,
+2.7m tall from its own floor (bottom edge) to its own ceiling (top edge).
+
+Draw exactly ONE continuous vertical ruler running alongside the full
+height of this rectangle, with tick marks at exactly three points on that
+SAME ruler, bottom to top: "0m（床）" at the very bottom, "1.1m（地盤面）"
+at a point roughly 41% of the way up from the bottom, and "2.7m（天井）"
+at the very top. Do NOT draw "1.1m" and "2.7m" as two separate rulers or
+two stacked boxes whose heights add together — 1.1m must sit strictly
+between the 0m and 2.7m ticks on one single ruler, never above the 2.7m
+tick and never as an additional segment below or beside it.
+
+At the height of the "1.1m" tick, draw a dashed horizontal "地盤面" line
+crossing straight through the rectangle's exterior wall, splitting that
+same 2.7m-tall wall into two visually different zones: below the dashed
+line (0m〜1.1m) is covered in soil/earth texture (underground); above the
+dashed line (1.1m〜2.7m) is exposed open air with a window, NOT covered in
+soil. The total height of the rectangle from top to bottom must visually
+equal 2.7m, not 3.8m (2.7m+1.1m) — the ground line is an internal marker
+inside the 2.7m span, never an extra height stacked on top of or below it.
+
+Below this single diagram, add a small calculation note box "2.7m÷3＝
+0.9m" with an arrow to a comparison box "1.1m＞0.9m✓". Then two result
+tags side by side: "地下1階付き2階建" with a green checkmark, and "3階建"
+with a red ✕ mark.
+
+Self-check before finalizing this card: the illustrated wall must be one
+continuous 2.7m-tall surface with the 1.1m mark nested inside it (not a
+separate lower box whose own height is 1.1m stacked underneath a full
+2.7m box).
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+3分の1超で地下階
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+床上げ1.5m以上は高床式
+Illustration: 鉄骨の柱で地面から持ち上げられた平家建の店舗を描き、柱の
+脇に巻尺を1本だけ添えて「2.0m」の高さを表示する。この図解内に描いてよい
+高さの数値は「2.0m」のみであり、見出し文中の「1.5m」（法令上の基準値
+であって、実測値ではない）を図解の巻尺やラベルに描いてはならない。実際
+の設例では床上げ高2.0mであり、これはすでに1.5mの基準を上回っている。
+床下は壁のない駐車スペースで、車のアイコンと外気を示す風の線を添える。
+建物の構造欄のラベルタグ「高床式平家建」に緑のチェックマーク、隣に
+「平家建」だけのラベルに赤い✕マークを添える。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+高床式平家建
+
+Self-check for this card: confirm the only height number drawn in the
+illustration is "2.0m" — if "1.5m" appears anywhere in the illustration
+itself (not just the heading text), redraw it as "2.0m".
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance. For Card 4, additionally confirm there is only ONE
+diagram (not two side-by-side diagrams), that it is a single 2.7m-tall
+wall with one continuous ruler, that the "1.1m" tick sits strictly
+between the "0m" and "2.7m" ticks on that same ruler (never drawn as a
+second box whose height is separately added to 2.7m, which would
+wrongly total 3.8m), and that only the lower 0m〜1.1m segment of that
+wall has soil texture while the upper 1.1m〜2.7m segment is exposed
+above ground.
+```

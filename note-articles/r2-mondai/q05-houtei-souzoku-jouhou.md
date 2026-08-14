@@ -1,8 +1,8 @@
-## 【土地家屋調査士受験生向け】令和2年度 第5問・出題当時は誤りだった選択肢が、今は正解になっている〜法定相続情報一覧図と「番号だけでOK」ルールの法改正〜
+## 【土地家屋調査士受験生向け】令和2年度 第5問（改）・法定相続情報一覧図、5つの使い方ルール〜番号だけで代替・原本還付・有効期間なし・廃除・地図訂正〜
 
-**出題年度：令和2年度　午後の部　第5問**
+**出題年度：令和2年度　午後の部　第5問（改）**
 
-> 法定相続情報一覧図に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
+> 法定相続情報一覧図に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
 >
 > ア　所有権の登記名義人の相続人が土地の分筆の登記を申請するに当たり，当該土地の所在地を管轄する登記所の法定相続情報一覧図つづり込み帳に，当該登記名義人の法定相続情報一覧図がつづり込まれている場合には，当該法定相続情報一覧図の写しに記載された法定相続情報番号の提供をもって，相続があったことを証する情報の提供に代えることができる。
 >
@@ -14,17 +14,21 @@
 >
 > オ　地図に表示された土地の表題部所有者の相続人が，地図の訂正の申出をする場合，法定相続情報一覧図の写しの提供をもって，相続があったことを証する情報の提供に代えることができる。
 >
-> 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
+> 1　アイ　　2　アウ　　3　イウ　　4　イエ　　5　エオ
 
-**最初にお伝えしたいこと**：本問は令和2年度（2020年）に出題された問題ですが、肢アが扱っている「法定相続情報番号のみの提供で代替できるか」という論点は、その後の不動産登記規則の改正によって、出題当時とは結論が変わっています。まずは出題当時の内容を順番に確認し、記事の後半で「法改正によって何がどう変わったのか」「今の正解はどうなるのか」を詳しく解説します。当時の正解はあくまで参考情報として、現在の実務では後半の解説を優先してください。
+**出典：法務省ウェブサイト（https://www.moj.go.jp/shikaku_saiyo_index5.html）**
 
 「法定相続情報一覧図」は、戸籍謄本一式を法務局に提出して確認してもらい、相続関係を一枚の図にまとめた公的な証明書です（法定相続情報証明制度）。相続がからむ表示登記や地図訂正の場面で、分厚い戸籍の束の代わりに使えるのが最大のメリットです。この制度が「どの場面で・どう使えるか」を問う問題です。
 
-### ア：【出題当時（令和2年）の結論】「番号だけ」の提供では戸籍の代わりにならなかった
+### ア：「法定相続情報番号だけ」の提供で相続があったことを証する情報（戸籍等）の代わりになります
 
-法定相続情報一覧図の写しを提供すれば、相続があったことを証する情報（戸籍等）の提供に代えることができます。もっとも、出題当時の令和2年度の時点では、写しに記載された「法定相続情報番号」を伝えるだけで一覧図の写しそのものの提供を省略する取扱いはまだ始まっておらず、番号の提供だけでは相続を証する情報の提供に代えることはできませんでした。したがって、本肢は出題当時のルールを前提とすれば誤りです。**ただし、この結論は後述する法改正によって、現在は逆になっています。**詳しくは記事後半の「法改正情報」をご覧ください。
+令和6年度改正後は、当該土地の所在地を管轄する登記所の法定相続情報一覧図つづり込み帳に、その登記名義人の法定相続情報一覧図が既につづり込まれている場合には、一覧図の写しを改めて添付しなくても、申請情報の添付情報欄に法定相続情報番号（例：「登記原因証明情報（法定相続情報番号）」）を記載するだけで、相続があったことを証する情報の提供に代えることができるようになりました。
 
-**たとえば**、令和2年当時にＣさんが分筆を申請する場合、たとえ一覧図が管轄登記所につづり込まれていても、「番号は○○です」と伝えるだけでは足りず、一覧図の写しそのものを提供する必要がありました。
+相続登記の申請義務化（同じく令和6年4月1日施行）にあわせて、複数の登記所に戸籍謄本一式や一覧図の写しを繰り返し提出する負担を軽減するための実務上の見直しと位置づけられます。
+
+**たとえば**、Ｃさんが分筆を申請する場合、管轄登記所に既につづり込まれている一覧図の法定相続情報番号を提供すれば、写しの改めての添付なしに相続を証する情報の提供に代えることができます。
+
+※「法定相続情報番号のみの提供による代替」というテーマは、令和2年度の出題後に不動産登記規則が改正され、出題当時と結論が変わっています。施行日は令和6年4月1日、根拠は令和6年3月21日付法務省民二第569号通達に基づく不動産登記規則の一部改正（同規則37条の3関係）
 
 ### イ：提供した一覧図の写しは、原本還付を請求できる
 
@@ -50,42 +54,31 @@
 
 **たとえば**、表題部所有者が亡くなり、その相続人Ｃさんが地図の訂正を申し出るとき、戸籍一式を集めなくても、法定相続情報一覧図の写しを添えれば相続関係を証明できます。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定（出題当時） | ポイント |
-|---|---|---|
-| ア | 誤 | 出題当時は「番号だけ」で写しの提供を省略することはできなかった（※現在は結論が変わっています。後述） |
-| イ | 誤 | 一覧図の写しは原本還付を請求できる |
-| ウ | 誤 | 一覧図の写しに「作成後3月以内」等の有効期間の制限はない |
-| エ | 正 | 廃除された者は一覧図に載らないため、廃除を証する戸籍の提供を省略できる |
-| オ | 正 | 地図訂正の申出でも一覧図の写しで相続を証する情報に代えられる |
+- **ア（正）**　「番号だけ」で一覧図の写しの提供を省略することができる
+- **イ（誤）**　一覧図の写しは原本還付を請求できる
+- **ウ（誤）**　一覧図の写しに「作成後3月以内」等の有効期間の制限はない
+- **エ（正）**　廃除された者は一覧図に載らないため、廃除を証する戸籍の提供を省略できる
+- **オ（正）**　地図訂正の申出でも一覧図の写しで相続を証する情報に代えられる
 
-肢アが扱う「法定相続情報番号のみの提供による代替」というテーマは、令和2年度の出題後に不動産登記規則が改正され、結論が変わっています。**施行日は令和6年4月1日、根拠は令和6年3月21日付法務省民二第569号通達に基づく不動産登記規則の一部改正（同規則37条の3関係）です。**
-
-この改正より前は、相続があったことを証する情報の提供に代えるためには、法定相続情報一覧図の写しそのものを添付する必要がありました。改正後は、当該土地の所在地を管轄する登記所の法定相続情報一覧図つづり込み帳に、その登記名義人の法定相続情報一覧図が既につづり込まれている場合には、一覧図の写しを改めて添付しなくても、申請情報の添付情報欄に法定相続情報番号（例：「登記原因証明情報（法定相続情報番号（○○○○－○○－○○○○○））」）を記載するだけで、相続があったことを証する情報の提供に代えることができるようになりました。相続登記の申請義務化（同じく令和6年4月1日施行）にあわせて、複数の登記所に戸籍謄本一式や一覧図の写しを繰り返し提出する負担を軽減するための実務上の見直しと位置づけられます。
-
-この法改正を踏まえると、肢アは現在では正しい内容になります。管轄登記所に既につづり込まれている一覧図の番号を提供すれば、写しの改めての添付なしに相続を証する情報の提供に代えることができるからです。そうすると、令和8年現在のルールでこの問題を検討した場合、正しい肢はア・エ・オの3つとなり、出題当時の「5肢のうち2つが正しい」という前提そのものが成り立たなくなります。つまり本問は、令和2年度受験当時のルールを問う歴史的な問題として理解するのが正確であり、実務で法定相続情報番号による代替を検討する際は、必ず現在の不動産登記規則や法務局の最新の案内（houmukyoku.moj.go.jp）を確認するようにしてください。
-
-以下に記載する正解は、あくまで令和2年度の出題当時のルールを前提とした参考情報です。上記のとおり、現在ではこの前提そのものが変わっている点にご注意ください。
-
-**正解：エオの組合せ（選択肢5番）**
+**正解：イウの組合せ（選択肢3番）**
 
 ---
 
 **このまま使える点／使う前に確認したい点**
 
-- 文章としてはこのままnoteに貼り付けて投稿できる内容です。ただし、本問は「出題当時の正解」と「現在の正解」が異なる特殊な回であるため、通常の記事より長めの構成になっています。
-- 出典（令和2年度午後の部 第5問）・出題当時の正解番号（エオ＝5番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。本問は令和2年度午後の部第5問をもとに、令和6年4月1日施行の不動産登記規則改正（法定相続情報番号のみの提供による代替）を反映して問題文・選択肢を改めた「第5問（改）」です。原題は「正しいものの組合せ」を問う形式でしたが、肢アの結論が現行法では逆転したことに伴い、「誤っているものの組合せ」を問う形式・選択肢の組合せに改めています。
+- 出典として法務省ウェブサイト（https://www.moj.go.jp/shikaku_saiyo_index5.html）を掲げていますが、これは土地家屋調査士試験の実施案内ページであり、本記事作成にあたって個別にアクセスして内容を検証したものではありません。原題（令和2年度午後の部第5問）の出題内容自体は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
 - 肢アに関する法改正の内容（施行日・根拠通達・改正前後の取扱いの違い）は、法務局公式サイト（houmukyoku.moj.go.jp）の案内、および複数の司法書士事務所の解説記事を突き合わせて確認しました。施行日（令和6年4月1日）と根拠通達（令和6年3月21日法務省民二第569号）は、いずれも法務局公式情報と符合していることを確認済みです。
 - 肢イ〜オ（原本還付・有効期間・廃除・地図訂正での利用）は、法定相続情報証明制度（平29.4.17民二292号通達に基づく制度）の一般的な取扱いから説明しています。個別の通達番号までの条文レベルの確定は本記事では行っていないため、詳細は各自の教材でも確認されることをおすすめします。
-- 本問の検証にあたり、市販の受験対策教材の解答・解説も参考にしましたが、当該教材には本問の出題当時の内容とは問い方・正解が異なる改訂版が掲載されていました（法改正を反映させたものと考えられます）。本記事はその改訂版の文章を転載・引用するものではなく、あくまで独自に法務局公式情報等を調査した内容に基づいて、出題当時の正解と法改正後の結論の両方を整理したものです。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。令和5年度第19問・令和7年度第18問も「法定相続情報一覧図」がテーマですが、令和5年度は一覧図の保管の申出手続そのもの（申出先・添付書類・再交付の申出人等）、令和7年度は保管の申出内容や、法定相続情報番号のみでの写し省略の可否（本問アで扱った論点の後継版）を問うものであり、本問（登記申請での一覧図写しの利用場面・還付・有効期間・廃除の記載省略）とは各肢の具体的な出題内容が異なるため、**本問と完全に重複する出題は見つかりませんでした**。なお、令和7年度第18問オは、本問アで検討した「法定相続情報番号のみでの提供省略」が実際に制度化された後の状態を示す問題であり、本問の解説と対比すると理解が深まる関係にあります。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
 ## 見出し画像用フレーズ
 
-- 当時は誤りだった答え、今は正解に変わってるんです
+- 「番号だけ」で戸籍の代わりになるって知ってた？
 - 「番号だけでOK」になったのは令和6年4月からなんです
 - 出した一覧図の写し、ちゃんと返してもらえるんです
 - 一覧図に「3ヶ月以内」の期限はないって知ってた？
@@ -93,14 +86,29 @@
 
 ---
 
-## 問題全体インフォグラフィック プロンプト
+## インフォグラフィック プロンプト（問題全体）
+
+「一覧図の写しの提出・返却に関するルール」（列A・緑、番号のみでの代替可否・還付・有効期間の3肢）と「記載内容・利用場面の広がり」（列B・青、廃除の記載省略・地図訂正での利用の2肢）という2つの軸に沿って、現行法令に基づく5肢の正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: family-tree register
+documents, koseki (family register) bundles, registry office counters,
+calendar, infinity mark, map with parcel lines, etc. — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -108,67 +116,76 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 図・証・還・戸・請 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
 法定相続情報一覧図、5つの使い方ルール
 
 Subtitle (smaller, centered, 1行):
-令和2年度 第5問／出題当時のルールを整理
+令和2年度 午後の部 第5問（改）－現行ルールを整理
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 家系図の形をした「法定相続情報一覧図」の書類アイコンを中央に描き、その周囲に戸籍謄本の束のアイコンと、地図・登記の書類アイコンを小さく配置する。
-「法定相続情報一覧図」は、戸籍謄本一式を法務局に提出して確認してもらい、相続関係を一枚の図にまとめた公的な証明書です（法定相続情報証明制度）。相続がからむ表示登記や地図訂正の場面で、分厚い戸籍の束の代わりに使えるのが最大のメリットです。この制度が「どの場面で・どう使えるか」を、出題当時（令和2年度）のルールに沿って整理します。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-「番号だけ」の提供では、相続を証する情報に代えられない
-Illustration: 法定相続情報一覧図の書類アイコン全体と、番号だけが書かれた小さなメモアイコンを並べて描く。メモアイコンには大きなバツ印を重ね、書類アイコン全体にはチェックマークを重ねて、番号だけでなく写しそのものの提出が必要であることを示す。
-Caption (small text below):
-出題当時は「番号だけ」で一覧図の写しの提供を省略することはできなかった
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+写しの提出・返却に関するルール
 
---- CARD 2 ---
-Heading (bold):
-提供した一覧図の写しは、原本還付を請求できる
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+番号だけで戸籍の代わりになる
+Illustration: 登記所の「法定相続情報一覧図つづり込み帳」アイコンに、既につづり込まれた一覧図の書類アイコンを描く。その隣に、番号だけが書かれた小さなメモアイコン（「法定相続情報番号」ラベル付き）を描き、そこから申請情報の書類アイコンへ矢印でつなげる。メモアイコンと申請情報アイコンの両方に大きなチェックマークを重ね、一覧図の写しそのものを改めて添付しなくても番号の提供だけで足りることを示す。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+番号だけで代替できる
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+一覧図の写しは還付請求できる
 Illustration: 一覧図の写しの書類アイコンが法務局の窓口アイコンに提出され、その後「還付」のラベルを付けた矢印で申請者のシルエットの手元に戻ってくる循環矢印を描く。
-Caption (small text below):
-一覧図の写しは原本還付を請求できる
+Conclusion tag (green banner below the illustration, 5-15 characters):
+還付請求できる
 
---- CARD 3 ---
-Heading (bold):
-一覧図の写しには「作成後3月以内」といった有効期間の制限はない
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+写しに有効期間の制限はない
 Illustration: 一覧図の写しの書類アイコンの隣にカレンダーのアイコンを描き、カレンダーに「3ヶ月」の期限マークと大きなバツ印を重ね、無期限であることを示す無限大マークを添える。
-Caption (small text below):
-一覧図の写しに「作成後3月以内」等の有効期間の制限はない
+Conclusion tag (green banner below the illustration, 5-15 characters):
+有効期間なし
 
---- CARD 4 ---
-Heading (bold):
-相続人の廃除が一覧図に表れていれば、廃除を証する戸籍は省略できる
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+記載内容と利用場面の広がり
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+廃除者の戸籍提出は省略できる
 Illustration: 家系図の形をした一覧図のアイコンを描き、廃除された人物のシルエットをグレーアウトさせて図から消えている様子を表現する。その脇に戸籍謄本の書類アイコンと大きなバツ印を重ね、省略できることを示す。
-Caption (small text below):
-廃除された者は一覧図に載らないため、廃除を証する戸籍の提供を省略できる
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+戸籍提出を省略
 
---- CARD 5 ---
-Heading (bold):
-地図訂正の申出でも、一覧図の写しで相続を証明できる
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+地図訂正でも一覧図で代用可
 Illustration: 区画線の入った地図のアイコンと、法定相続情報一覧図の写しの書類アイコンを並べて描き、両者の間に「相続を証する情報の提供に代える」のラベルを付けた矢印を描く。
-Caption (small text below):
-地図訂正の申出でも一覧図の写しで相続を証する情報に代えられる
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+地図訂正にも使える
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験対策｜令和2年度 午後の部 第5問
-
-Note on frequently miswritten kanji: This infographic's card text uses the
-kanji 番・地・登, which are often confused with visually similar
-Simplified Chinese characters. Render each strictly in standard Japanese
-(Jōyō) form — do not substitute any Simplified Chinese variant for 番, 地,
-or 登.
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```

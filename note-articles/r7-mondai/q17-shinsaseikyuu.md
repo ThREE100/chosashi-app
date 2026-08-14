@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】審査請求、期間と対象を正しく押さえる 令和7年度第17問を解説
+## 【土地家屋調査士受験生向け】令和7年度 第17問〜審査請求に期間制限は実は存在しない〜
 
 **出題年度：令和7年度　午後の部　第17問**
 
@@ -28,7 +28,7 @@
 
 ### イ：裁決したときは、裁決書の謄本を審査請求人・登記官双方に交付する
 
-不動産登記準則145条1項により、法務局又は地方法務局の長が審査請求について裁決したときは、その裁決書の謄本を審査請求人だけでなく、処分をした登記官にも交付します（裁決書の送達義務自体は行政不服審査法50条・51条によります）。
+不動産登記準則145条1項により、法務局又は地方法務局の長が審査請求について裁決したときは、その裁決書の謄本及び審理員意見書の写しを審査請求人だけでなく、処分をした登記官にも交付します（裁決書の送達義務自体は行政不服審査法50条・51条によります）。
 
 **たとえば**、審査請求の結果が出たときは、請求した本人だけでなく、その処分を行った登記官の側にも、正式に「こういう結論になりました」という書面が届きます。
 
@@ -52,11 +52,13 @@
 
 ### まとめ
 
-- **ア（誤）**　登記官の処分への審査請求には、そもそも期間制限がない（法158条により行審法18条を適用除外）
-- **イ（正）**　裁決書の謄本は審査請求人・登記官双方に交付される（不動産登記準則145条1項）
+- **ア（誤）**　登記官の処分への審査請求には、そもそも期間制限がない（行政不服審査法の期間制限規定が適用除外されているため）
+- **イ（正）**　裁決書の謄本は審査請求人・登記官双方に交付される
 - **ウ（誤）**　筆界特定は「処分」に当たらないため、審査請求の対象にならない
 - **エ（誤）**　隣接地所有者は他人の地積更正登記を筆界異議で争えない
-- **オ（正）**　登記官の処分への審査請求には、そもそも参加人制度がない（法158条により行審法13条を適用除外）
+- **オ（正）**　登記官の処分への審査請求には、そもそも参加人制度がない（行政不服審査法の参加人制度に関する規定が適用除外されているため）
+
+登記官の処分についての審査請求は、不動産登記法158条による一般法の適用除外を踏まえて、一般的な行政不服審査のイメージだけで判断しないことが重要です。
 
 **正解：イ・オの組合せ（選択肢3番）**
 
@@ -84,13 +86,28 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+登記官の処分についての審査請求を「審査請求ができないケース」と「審査請求の基本ルール」という2つの軸に沿って、5肢すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric buildings, land
-plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric government office
+buildings, courthouse, calendar pages, official document stamps, torn
+paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -98,64 +115,86 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
-
-Special caution: kanji such as 審・査・請・求・登・記・権・所 are especially
-prone to being rendered as Simplified Chinese variants. Draw every
-instance of these characters in their correct standard Japanese (Jōyō) form.
+summarize, or substitute any characters. Pay special attention to the
+kanji 地・登・記・筆・界・積・請・裁・決・謄 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-審査請求、期間と対象のルール
+審査請求、その主張は通る？
 
 Subtitle (smaller, centered, 1行):
-令和7年度　午後の部　第17問／登記官の処分又は不作為についての審査請求
+令和7年度 午後の部 第17問－対象・期間・参加人のルールを検証
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: 法務局のアイコンと、審査請求書を提出する人物のアイコン。時計とカレンダーのアイコンが横にある。
-登記官の処分に対する審査請求には、期間の制限や、そもそも対象になるかどうかの見極めが必要です。数字の間違いや対象外の主張を見抜くのがポイントです。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CARD 1 ---
-Heading (bold):
-登記官の処分についての審査請求には、そもそも期間制限がない
-Illustration: カレンダーのアイコンに「1か月」「3か月」の文字が✕印で消され、代わりに「制限なし」の丸ラベルが付く。
-Caption (small text below):
-「1か月」どころか、実は期間制限そのものがないんです
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+審査請求ができないケース
 
---- CARD 2 ---
-Heading (bold):
-裁決したときは、裁決書の謄本を審査請求人・登記官双方に交付する
-Illustration: 裁決書の謄本アイコンが二つに枝分かれし、一方は審査請求人のアイコンへ、もう一方は登記官のアイコンへ届く。
-Caption (small text below):
-裁決の結果は、登記官にも届くんです
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+筆界特定の結果は対象外
+Illustration: 筆界特定登記官が示した判定結果の書類に「処分ではない」と
+書かれた札が付いている。書類から裁判所の建物へ向かう矢印があり、矢印
+の途中に「境界確定訴訟」というラベルが添えられている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+境界確定訴訟で争う
 
---- CARD 3 ---
-Heading (bold):
-筆界特定の結果は「処分」に当たらず、審査請求の対象にならない
-Illustration: 筆界特定の結果の書類アイコンから審査請求の窓口への矢印に✕印。代わりに裁判所への「境界確定訴訟」の矢印が示される。
-Caption (small text below):
-筆界特定の結果、審査請求では争えません
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+隣接地は筆界異議で争えない
+Illustration: 隣り合う甲土地と乙土地のイソメトリックイラスト。乙土地の
+所有者が甲土地の地積更正登記に向かって「筆界異議」という吹き出しを出し
+ているが、その吹き出しには赤い×印が重ねられている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+筆界異議では不可
 
---- CARD 4 ---
-Heading (bold):
-隣接地の所有者は、他人の地積更正登記を筆界異議で争えない
-Illustration: 甲土地の地積更正登記の書類アイコンに、隣の乙土地の所有者アイコンが「筆界に異議あり」と主張しているが、審査請求の矢印に✕印。代わりに「筆界特定の申請」への矢印が示される。
-Caption (small text below):
-隣の更正登記、筆界異議じゃ取り消せません
+--- COLUMN A, CARD 3 ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+参加人という制度自体がない
+Illustration: 審査請求の手続きを表す机のイラスト。机には審査請求人(本人)
+だけが着席し、抵当権者を表す人物には「参加人」と書かれた札に赤い×印が
+かかっている。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+参加人制度なし
 
---- CARD 5 ---
-Heading (bold):
-登記官の処分についての審査請求には、そもそも参加人という制度がない
-Illustration: 分筆登記却下の審査請求書類の横に、抵当権者のアイコンが「参加人」として加わろうとしているが、✕印で参加人の椅子（制度）自体が用意されていないことを示す。
-Caption (small text below):
-抵当権者どころか、誰も参加人にはなれないんです
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+審査請求の基本ルール
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+審査請求に期間制限はない
+Illustration: 破れたカレンダーのイラストに大きく「期間制限なし」と書かれた
+判子が押されている。背景に「1か月」「3か月」という数字ラベルがあり、
+それぞれに赤い×印が重ねられている。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+期間制限そのものなし
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+裁決書謄本は双方に交付
+Illustration: 法務局の建物から2通の書類が飛び出し、一方は審査請求人の
+もとへ、もう一方は登記官のもとへ届くイラスト。それぞれの書類に
+「裁決書謄本」というラベルが付いている。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+請求人と登記官へ
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-土地家屋調査士試験　令和7年度　午後の部
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards.
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```

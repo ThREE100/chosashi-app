@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】その修正、地図訂正でいいの？土地の分筆登記の落とし穴〜共有物分割禁止・契印・精度区分・敷地権のルール〜
+## 【土地家屋調査士受験生向け】平成28年度 第9問〜分筆登記、直せるもの・直せないもの〜
 
 **出題年度：平成28年度　午後の部　第9問**
 
@@ -20,7 +20,7 @@
 
 ### ア：地積測量図の分筆線の誤りは、地図訂正の申出では直せない
 
-分筆線の抹消や訂正が必要な場合、地図の訂正の申出や地積測量図の訂正の申出によってこれを行うことはできず、分筆の錯誤を原因とする登記(分筆錯誤の登記)を申請すべき取扱いとされています(昭和43年6月8日民事甲第1653号)。地図の訂正の申出は地図そのものの誤りを是正するための制度であり、分筆線の誤りという登記の内容自体の誤りを直す手段ではありません。
+分筆線の抹消や訂正が必要な場合、地図の訂正の申出や地積測量図の訂正の申出によってこれを行うことはできず、分筆の錯誤を原因とする登記(分筆錯誤の登記)を申請すべき取扱いとされています。地図の訂正の申出は地図そのものの誤りを是正するための制度であり、分筆線の誤りという登記の内容自体の誤りを直す手段ではありません。
 
 **たとえば**、AさんとBさんの土地を分筆した際に使った地積測量図の分筆線が実際の境界とずれていたことが、所有権移転登記が完了した後になって発覚したとします。この場合、「地図の訂正の申出をすれば直せるはず」と考えるのは誤りで、実際には分筆の錯誤を原因とする登記という別の手続を経る必要があります。
 
@@ -52,15 +52,13 @@
 
 **たとえば**、あるマンションの敷地(土地)がオーナー所有のもので、区分建物の所有者たちが賃借権を敷地権として登記しているケースで、そのマンションの管理組合の理事長が「管理者だから」といって単独でその土地の分筆登記を申請することはできず、あくまで土地の所有権登記名義人(オーナー側)が申請人となります。
 
-### まとめ表
+### まとめ
 
-| 肢 | 判定 | ポイント |
-|---|---|---|
-| ア | 誤 | 地積測量図の分筆線の誤りは地図訂正の申出では直せず、分筆錯誤の登記による(昭43.6.8民甲1653号) |
-| イ | 正 | 共有物分割禁止の定めがあっても、分筆の登記自体は申請できる |
-| ウ | 正 | 申請書が2枚以上でも、共有者のうち1人が契印すれば足りる(不登規則46条2項) |
-| エ | 誤 | 更正登記の要否は土地の所在地域(市街地地域→甲二)の精度区分で判断し、地図の区分(乙1)の限度内かどうかでは判断できない(不登規則10条4項・77条4項、準則72条2項) |
-| オ | 誤 | 賃借権が敷地権の場合の申請人は土地の所有権登記名義人(賃貸人)であり、理事長ではない |
+- **ア（誤）**　地積測量図の分筆線の誤りは地図訂正の申出では直せず、分筆錯誤の登記による
+- **イ（正）**　共有物分割禁止の定めがあっても、分筆の登記自体は申請できる
+- **ウ（正）**　申請書が2枚以上でも、共有者のうち1人が契印すれば足りる
+- **エ（誤）**　更正登記の要否は土地の所在地域(市街地地域→甲二)の精度区分で判断し、地図の区分(乙1)の限度内かどうかでは判断できない(不登規則10条4項・77条4項、準則72条2項)
+- **オ（誤）**　賃借権が敷地権の場合の申請人は土地の所有権登記名義人(賃貸人)であり、理事長ではない
 
 分筆の登記は「誰が申請できるか」「どの手続で誤りを直すか」という視点で細部の先例知識まで押さえておくと得点源になります。
 
@@ -74,7 +72,7 @@
 - 出題番号・正解番号は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の内容と、法務省公式の正答PDF（ユーザー提供、平成28年度午後の部第9問＝3）を突き合わせて確認しました。なお、データベース内では本問が誤って「第2問」として登録されていましたが、問題文・選択肢の内容を法務省公式の試験問題原本（ユーザー提供PDF）と照合した結果、実際には第9問であることが判明したため、正しい番号（第9問）で掲載しています。
 - 各肢の条文根拠（不動産登記規則46条・77条等、及び先例）は、データベースのexplanationフィールドに基づくものです。ア・エ・オの先例（昭43.6.8民甲1653号等）に基づく部分は、条文そのものというより実務上の取扱い・先例によるものである点は留意してください。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（土地の分筆の登記）と同一・類似の問題が再出題されていないかを確認しました。「土地の分筆の登記」は頻出テーマで、R02年度第9問・R04年度第8問・R05年度第9問・R06年度第8問・R07年度第11問と、同一・類似のタイトルで毎年のように出題されていますが、いずれも具体的な肢の内容（職権分筆、抵当権消滅承諾の印鑑証明書、買戻し特約の転写、代位申請、共有物分割訴訟、遺産分割後の申請権限、地役権消滅証明、法定相続情報一覧図の利用、地上権・仮登記の転写等）は、本問の各肢（地積測量図の分筆線誤りと地図訂正、共有物分割禁止の定めと分筆可否、契印、精度区分と更正登記の要否、賃借権が敷地権の場合の申請人）とは異なっており、**具体的な論点レベルでの重複は見つかりませんでした**（同じ大テーマが繰り返し出題されているだけです）。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **再確認・修正（2026-08-12実施）**：エの解説文に内部矛盾があったため（1文目で「市街地地域の上限精度区分は甲2」としながら、2文目で「特例の前提は甲1」としており、精度区分の記載が一致していませんでした）、リサーチエージェントによる再調査を実施し、記述を修正しました。正しい理解は次のとおりです。①不動産登記規則10条4項（77条4項で地積測量図に準用）により、地積の誤差の限度の基準となる精度区分は、市街地地域は甲二・村落農耕地域は乙一・山林原野地域は乙三までであり、市街地地域の基準は「甲1」ではなく「甲2」です。②分筆前後の地積差が精度区分の限度内であれば地積の更正登記を要しないという特例（不動産登記事務取扱手続準則72条2項）は市街地地域に限らずすべての地域に適用されますが、どの精度区分を基準にするかは登記所備え付けの地図の実際の作成区分ではなく、その土地が所在する地域区分によって決まります。③本問の土地は市街地地域内にあるため基準は甲2であり、備え付けの地図が乙1で作成されていても乙1基準で更正登記の要否を判断することはできない、という点が本肢の誤りです。この調査は法務省公表の不動産登記事務取扱手続準則PDF・Wikibooksの条文引用・複数の司法書士/土地家屋調査士事務所の実務解説サイト・自治体資料が一致することを確認したうえで反映しています。まとめ表・インフォグラフィックCard 4も合わせて修正しました。
+- **再確認・修正（2026-08-12実施）**：エの解説文に内部矛盾があったため（1文目で「市街地地域の上限精度区分は甲2」としながら、2文目で「特例の前提は甲1」としており、精度区分の記載が一致していませんでした）、リサーチエージェントによる再調査を実施し、記述を修正しました。正しい理解は次のとおりです。①不動産登記規則10条4項（77条4項で地積測量図に準用）により、地積の誤差の限度の基準となる精度区分は、市街地地域は甲二・村落農耕地域は乙一・山林原野地域は乙三までであり、市街地地域の基準は「甲1」ではなく「甲2」です。②分筆前後の地積差が精度区分の限度内であれば地積の更正登記を要しないという特例（不動産登記事務取扱手続準則72条2項）は市街地地域に限らずすべての地域に適用されますが、どの精度区分を基準にするかは登記所備え付けの地図の実際の作成区分ではなく、その土地が所在する地域区分によって決まります。③本問の土地は市街地地域内にあるため基準は甲2であり、備え付けの地図が乙1で作成されていても乙1基準で更正登記の要否を判断することはできない、という点が本肢の誤りです。この調査は法務省公表の不動産登記事務取扱手続準則PDF・Wikibooksの条文引用・複数の司法書士/土地家屋調査士事務所の実務解説サイト・自治体資料が一致することを確認したうえで反映しています。まとめ・インフォグラフィックColumn B, Card 5も合わせて修正しました。
 
 ---
 
@@ -90,13 +88,26 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-土地の分筆の登記をめぐる5つの原則を、単一列のカードで俯瞰できるよう構成した画像生成プロンプト。
+土地の分筆の登記について「誰が申請できるか」と「書面・地図・地積の取り扱い」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric land plots being split, dotted dividing lines, magnifying glasses, stamps, precision gauges — adapt icon set to the topic).
+modern explainer-graphic aesthetic (icons: isometric land plots being
+split, dotted dividing lines, magnifying glasses, stamps, precision
+gauges — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -105,19 +116,9 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・準・則, which have Simplified
-Chinese look-alike forms with visibly different stroke shapes — always draw
-the standard Japanese (Jōyō) form of these characters.
-
---- MANDATORY HEADING CHECKLIST ---
-Every card heading below must be reproduced VERBATIM, character-for-character,
-with no shortening, no paraphrasing, and no rewording into punchier or more
-casual phrasing. Copy exactly:
-1. 分筆線の誤りは、地図訂正では直せない
-2. 共有物分割禁止でも、分筆はできる
-3. 契印は、共有者のうち1人でいい
-4. 精度区分は、地図の区分ではなく土地の場所で決まる
-5. 賃借権が敷地権のとき、理事長は申請できない
+kanji 権・地・登・記・図・積, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -127,55 +128,95 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 地図訂正・共有物分割禁止・契印・精度区分・敷地権を整理(平成28年度 午後の部 第9問)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric land plot being split into two by a dotted line (分筆), with a magnifying glass hovering over the dividing line revealing a small error mark on it.
-地積測量図の誤りの直し方、共有物分割禁止の定め、書面申請の契印、精度区分による更正登記の要否、賃借権が敷地権の場合の申請人という5つの場面を整理します。
---- CARD 1 ---
-Heading (bold):
-分筆線の誤りは、地図訂正では直せない
-Illustration: An isometric land plot with a crooked dividing line (誤った分筆線) and a 地図訂正の申出 stamp crossed out with a prohibition mark, replaced by a glowing 分筆錯誤の登記 stamp.
-Caption (small text below):
-地積測量図の分筆線の誤りは、地図訂正の申出では直せず、分筆錯誤の登記による(昭和43年6月8日民事甲第1653号)。
---- CARD 2 ---
-Heading (bold):
-共有物分割禁止でも、分筆はできる
-Illustration: An isometric shared land plot with a 共有物分割禁止 lock icon on top, but a separate dotted 分筆 split-line passing straight through it unaffected, with a checkmark.
-Caption (small text below):
-共有物分割禁止の定めがある土地でも、表示に関する登記である分筆の登記は申請できる。
---- CARD 3 ---
-Heading (bold):
-契印は、共有者のうち1人でいい
-Illustration: An isometric multi-page application document with a single stamp (契印) pressed at the binding, only one of two co-owner figures holding the seal while the other stands by empty-handed.
-Caption (small text below):
-申請書が2枚以上でも、共有者のうち1人が各用紙のつづり目に契印すれば足りる(不動産登記規則46条2項)。
---- CARD 4 ---
-Heading (bold):
-精度区分は、地図の区分ではなく土地の場所で決まる
-Illustration: A single isometric scene, not a two-panel or before/after layout. One isometric land plot in the center, clearly labeled 市街地地域. Directly above the plot, there is exactly ONE circular precision-gauge dial icon in this entire card, labeled 甲2, glowing with a checkmark and the words 判定基準はこちら. Beside the plot (not above it, and not shaped like a dial or clock), there is a separate flat rectangular map-document icon labeled 備え付けの地図（乙1で作成）, connected to the plot by a thin dotted line, with a small prohibition mark and the words 判定基準にはならない next to it. Do not draw a second gauge, dial, clock face, or any other circular meter-style icon anywhere in this card — the 乙1 element must be a flat document/map shape only, so it cannot be mistaken for a second gauge.
-Caption (small text below):
-更正登記の要否は、備え付けの地図の区分（乙1）ではなく、その土地が所在する地域（市街地地域）の基準である甲2の誤差の限度で判断する（不動産登記規則10条4項・77条4項、準則72条2項）。
---- CARD 5 ---
-Heading (bold):
-賃借権が敷地権のとき、理事長は申請できない
-Illustration: An isometric apartment building with a 管理組合理事長 figure crossed out as 申請人ではない, while the land owner (賃貸人) figure below the building is marked with a glowing 申請人 badge.
-Caption (small text below):
-賃借権を敷地権とする土地の分筆登記の申請人は土地の所有権登記名義人(賃貸人)であり、理事長ではない。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+誰が分筆登記を申請できるか
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+共有物分割禁止でも分筆可
+Illustration: An isometric shared land plot with a 共有物分割禁止 lock
+icon on top, but a separate dotted 分筆 split-line passing straight
+through it unaffected, with a checkmark.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+分筆は制限されない
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+賃借権敷地権では理事長不可
+Illustration: An isometric apartment building with a 管理組合理事長
+figure crossed out as 申請人ではない, while the land owner (賃貸人)
+figure below the building is marked with a glowing 申請人 badge.
+Conclusion tag (green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+申請人は賃貸人
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+書面・地図・地積の取り扱い
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+分筆線の誤りは地図訂正で直せない
+Illustration: An isometric land plot with a crooked dividing line
+(誤った分筆線) and a 地図訂正の申出 stamp crossed out with a prohibition
+mark, replaced by a glowing 分筆錯誤の登記 stamp.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+分筆錯誤の登記で訂正
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+契印は共有者の1人で足りる
+Illustration: An isometric multi-page application document with a single
+stamp (契印) pressed at the binding, only one of two co-owner figures
+holding the seal while the other stands by empty-handed.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+契印は1人でよい
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+市街地地域なら甲2基準で判定
+Illustration: A single isometric scene, not a two-panel or before/after
+layout. One isometric land plot labeled 市街地地域. Directly above it,
+there is exactly ONE circular precision-gauge dial icon in this entire
+card, labeled 甲2, glowing with a checkmark. Beside the plot (not shaped
+like a dial or clock), a separate flat rectangular map-document icon
+labeled 地図(乙1)with a prohibition mark next to it, connected to the
+plot by a thin dotted line. Do not draw a second gauge, dial, or
+clock-like icon anywhere in this card — the 乙1 element must be a flat
+document/map shape only.
+Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+基準は土地の場所で決まる
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第9問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・準・則. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards. Re-check each of the 5 card headings against the
-MANDATORY HEADING CHECKLIST above, character-for-character — if any heading
-has been shortened, reworded, or paraphrased, redraw it to match the
-checklist exactly. Confirm Card 4 contains exactly ONE circular gauge/dial
+attention to 権・地・登・記・図・積. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly (Column A: cards 1-2
+in green, Column B: cards 3-5 in blue, numbers continuous, not restarted
+in column B), with no duplicated or missing cards, confirm there is no
+intro illustration or paragraph block between the header and the cards,
+and confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance. Confirm the 5 card headings are exactly: (1) 共有物
+分割禁止でも分筆可／(2) 賃借権敷地権では理事長不可／(3) 分筆線の誤りは
+地図訂正で直せない／(4) 契印は共有者の1人で足りる／(5) 市街地地域なら
+甲2基準で判定 — do not merge, omit, duplicate, or reword any of these
+five headings. Confirm Card 5 contains exactly ONE circular gauge/dial
 icon (labeled 甲2) and that the 乙1 element is a flat map/document shape,
-not a second gauge. Confirm every illustration label and caption text
-matches the Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+not a second gauge.
 ```

@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】書面をスキャンして電子署名、どの添付情報ならOK？〜平成22年度午後の部 第16問・電子申請の添付情報を解説〜
+## 【土地家屋調査士受験生向け】平成22年度 第16問〜書面をスキャンして電子署名、どの添付情報ならOK？〜
 
 **出題年度：平成22年度　午後の部　第16問**
 
@@ -50,13 +50,11 @@
 
 ### まとめ表
 
-| 肢 | 代替できる？ | ポイント |
-|---|---|---|
-| ア | × できない | 所有者作成の代理権限証書（委任状）はこの方式の対象外 |
-| イ | ○ できる | 工事完了引渡証明情報は、施工者の電子署名で提供できる |
-| ウ | ○ できる | 地役権者作成の範囲証明情報は、地役権者の電子署名で提供できる |
-| エ | × できない | 調査士作成の調査報告情報（規則93条）はこの方式の対象外 |
-| オ | × できない | 建物図面・各階平面図は図面専用のルールによる |
+- **ア（誤）**　所有者作成の代理権限証書（委任状）はこの方式の対象外
+- **イ（正）**　工事完了引渡証明情報は、施工者の電子署名で提供できる
+- **ウ（正）**　地役権者作成の範囲証明情報は、地役権者の電子署名で提供できる
+- **エ（誤）**　調査士作成の調査報告情報（規則93条）はこの方式の対象外
+- **オ（誤）**　建物図面・各階平面図は図面専用のルールによる
 
 「第三者や作成者が電子署名を付せる証明情報（イ・ウ）」は代替でき、「委任状・調査報告情報・図面（ア・エ・オ）」は対象外、という切り分けになります。
 
@@ -69,7 +67,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成22年度午後の部 第16問）・正解番号（3番＝イウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の判定（代替できるのはイ・ウ）は、公式の正解の組合せ「イウ」から確定できるものです。
-- 本問は電子申請における添付情報の提供方式（書面を電磁的記録化し作成者の電子署名を付す方法の可否）という細かな手続に関するものです。ア・エが対象外である理由（申請人本人・代理人自身が作成した情報には認められない）、イ・ウが対象となる理由（施工者・地役権者という第三者が作成した情報であること）は、この方式の基本的な考え方から導いたものですが、条文・先例の番号レベルまでは個別に照合しきれていません。オ（建物図面・各階平面図が対象外であること）についても、図面の電子提供に関する別ルールがあるという一般的な理解にとどまります。イ・ウが代替可、ア・エ・オが対象外という結論は公式正解に沿ったものです。学習の際は不動産登記令12条・不動産登記規則の該当条文を各自でも確認することをおすすめします。
+- 本問の方式は、不動産登記令13条（表示に関する登記の添付情報の特則）に規定されています。「申請人又はその代表者若しくは代理人が作成したもの並びに土地所在図、地積測量図、地役権図面、建物図面及び各階平面図を除く」と明記されており、ア・エ（申請人・代理人自身が作成した情報）とオ（図面）が対象外、イ・ウ（施工者・地役権者という第三者が作成した情報）が対象という本問の切り分けと完全に一致します（`note-articles/laws/fudousan-touki-rei.md`で条文原文を確認済み）。不動産登記規則93条（調査報告情報）の引用もあわせて確認済みです。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、公式正解との整合を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（電子申請における添付情報の電子署名による代替）と同一テーマの問題が再出題されていないかを確認しました。本問と同一テーマ（書面の電磁的記録化＋電子署名による代替の可否）を主題とする問題自体は見当たりませんでしたが、肢単位では、本問の肢ウ（地役権設定の範囲を証する地役権者作成情報）が、令和6年度第5問（分筆の登記の添付情報がテーマ）の肢アとほぼ同一の文言（類似度0.89）で使われています。ただし出題テーマ自体が異なる別問題であり、**重複ではありません**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -82,3 +80,136 @@
 - 地役権者の範囲証明は、電子署名で出せるんです
 - 調査報告情報は、この方式では出せないんです
 - 図面は、専用の電子データルールで出すんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+電子申請における添付情報の電子署名による代替可否に関する5肢を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, land
+plots, stamps, torn paper labels, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+
+--- HEADER ---
+
+Title (large, bold, 1行):
+電子申請 スキャン＋電子署名でOKな情報は？
+
+
+Subtitle (smaller, centered, 1行):
+平成22年度　午後の部　第16問　電子申請の添付情報
+
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+
+--- CARD 1 ---
+
+Badge: a filled circle containing the number 1 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+所有者作成の委任状はこの方式の対象外
+
+Illustration: A 委任状 document being scanned into a computer/PDF icon, with an 電子署名 stamp attempt blocked by a large ✕, labeled「申請人本人が作成」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+対象外(本人作成)
+
+
+--- CARD 2 ---
+
+Badge: a filled circle containing the number 2 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+工事完了引渡証明情報は施工業者の署名でOK
+
+Illustration: A 工事完了引渡証明情報 document being scanned into a PDF icon, with a 施工業者 character stamping an 電子署名 seal on it, checkmark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+施工業者の署名で提供可
+
+
+--- CARD 3 ---
+
+Badge: a filled circle containing the number 3 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+地役権者作成の範囲証明情報も署名でOK
+
+Illustration: A 地役権設定範囲証明情報 document (with a small map sketch) being scanned into a PDF icon, with a 地役権者 character stamping an 電子署名 seal, checkmark.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+地役権者の署名で提供可
+
+
+--- CARD 4 ---
+
+Badge: a filled circle containing the number 4 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+調査士作成の調査報告情報はこの方式の対象外
+
+Illustration: A 調査報告情報(規則93条) document being scanned into a PDF icon, with a 土地家屋調査士 character's 電子署名 attempt blocked by a large ✕, labeled「代理人自身が作成」.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+対象外(代理人作成)
+
+
+--- CARD 5 ---
+
+Badge: a filled circle containing the number 5 (numbers run continuously).
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+建物図面・各階平面図は別ルールで提供する
+
+Illustration: A 建物図面 and 各階平面図 icon set aside in a separate lane labeled 「図面専用のルール」, away from the scan-and-sign PDF icon lane, with a ✕ over them being placed in the scan-and-sign lane.
+
+Conclusion tag (a short colored banner/pill directly below the illustration,
+5-15 Japanese characters, a keyword phrase — NOT a sentence):
+図面専用ルールで提供
+
+
+--- FOOTER ---
+
+Small credit text in the corner (optional, keep minimal).
+
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```
