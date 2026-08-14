@@ -525,15 +525,18 @@ Subtitle (smaller, centered, 1行):
 outline to distinguish it visually from the 3 basis cards below) ---
 Badge: a small label reading 定義 (not a numbered badge).
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-個人だったら扱えない社員を数える
+その事件で、業務を行うことができない社員
 Illustration: A single isometric社員 figure standing alone, removed from
 the 調査士法人 office building, holding the same 事件 case file that the
 building is currently being asked to handle. A thought-bubble above the
-figure shows a small 第22条の2 tag and a red ✕, meaning「この社員が1人で
-受けたら第22条の2によりできない」.
+figure shows a small 第22条の2 tag and a red ✕ stamped over a small label
+reading「業務を行うことができない」, meaning「この社員が1人で受けたら
+第22条の2によりできない」. Beside the figure, place a small caption
+reading「個人だったら」to make clear this is a hypothetical (if this
+member alone handled the case, not the firm).
 Conclusion tag (a short gray banner/pill directly below the illustration,
 5-15 Japanese characters):
-1人だったらできない人
+個人なら扱えない人
 
 --- CARD 2 ---
 Badge: a filled circle in soft blue containing the number 1.
@@ -583,10 +586,11 @@ Final check, not near the header): This poster has exactly 1 definition
 card (labeled 定義, dashed outline, no number badge) followed by exactly 3
 numbered basis cards (1 through 3, blue, each showing a red ✕ over the
 same case file icon), plus one counting diagram at the bottom. Pay special
-attention to the kanji 制, 限, 社, 員, 個, 人, 調, 査, 士, 法, 事, 件,
-公, 務, 仲, 裁, 協, 議, 賛, 助, 信, 頼, 関, 係, 特, 定, 半, 数, 以, 上 —
-render every one of them in standard Japanese (Jōyō) form, never in
-Simplified Chinese form, even though some of these characters have
+attention to the kanji 業, 務, 行, 事, 件, 社, 員, 個, 人, 調, 査, 士,
+法, 誰, 指, 扱, 数, 第, 条, 公, 務, 仲, 裁, 関, 与, 筆, 界, 委, 利, 益,
+相, 反, 協, 議, 賛, 助, 信, 頼, 係, 号, 代, 理, 判, 定, 特, 半, 以, 上,
+不, 可 — render every one of them in standard Japanese (Jōyō) form, never
+in Simplified Chinese form, even though some of these characters have
 visually similar Simplified Chinese counterparts.
 
 Final check before rendering: scan every kanji glyph and confirm it is
