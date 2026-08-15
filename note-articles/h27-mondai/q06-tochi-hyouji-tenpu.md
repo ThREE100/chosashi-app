@@ -216,48 +216,80 @@ read as a short heading + a short conclusion tag, at a glance.
 
 ---
 
-## 見出し画像用プロンプト（エ肢・肢ごとの1シーン）
+## インフォグラフィック プロンプト（エ肢・図解）
 
-エ肢の結論（規約敷地を分筆しても、規約設定を証する情報の提供は不要）を1シーンで表現する、肢ごとの note見出し画像用プロンプト。モノクロ鉛筆画・女性キャラクター1人が資料を持つ構図・1280×670px横長固定という、①肢ごとの見出し画像のルールに従っている。
+エ肢の結論（規約敷地を分筆しても、規約設定を証する情報の提供は不要）を、単発の見出し画像ではなく、なぜそうなるのかという仕組みを2ステップの流れで見せる図解として構成した画像生成プロンプト。②問題全体のインフォグラフィックと同じ、カラー・フラットデザイン・アイソメトリックの画風を採用している。
 
 ```
-Create a note.com header image, landscape layout, 1280×670 pixels,
-monochrome pencil-sketch illustration style (soft graphite shading,
-hand-drawn line quality, black and white only, no color), featuring a
-single female character (a land and building surveyor professional) as
-the main subject, holding a document in her hands.
+Create a Japanese-language infographic, landscape layout, 1280×720 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, registry
+ledger books, official stamps, torn-paper document labels, arrows
+connecting panels — adapt icon set to the topic).
+
+GLANCEABLE-DIAGRAM REQUIREMENT (critical): This is a 2-step process
+diagram, NOT a text-heavy explainer document. There is NO paragraph of
+prose anywhere in the image. Each panel must communicate its point almost
+entirely through the illustration (icons, stamps, checkmarks, X marks,
+short embedded labels) plus one short heading and one short caption line.
+Do NOT render any full-sentence explanation or legal citation anywhere in
+the image. A bold arrow connects Panel 1 to Panel 2, showing the flow of
+time (規約設定時→分筆時).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
-Reproduce the exact text string given below verbatim — do not paraphrase,
+Reproduce the exact text strings given below verbatim — do not paraphrase,
 translate, summarize, or substitute any characters. Pay special attention
-to the kanji 規・約・敷・地・証・明・書, which have Simplified Chinese
-look-alike forms with visibly different stroke shapes — always draw the
-standard Japanese (Jōyō) form of these characters.
+to the kanji 規・約・敷・地・証・明・書・録・職・権, which have Simplified
+Chinese look-alike forms with visibly different stroke shapes — always
+draw the standard Japanese (Jōyō) form of these characters.
 
-Composition: The female surveyor character stands beside a land plot
-sketched lightly in the background, with a dotted line dividing it in two
-(representing 分筆). In one hand she holds a folder labeled 「登記記録」,
-on which a small stamp mark is already drawn to represent the existing
-「敷地権である旨の登記」. In her other hand, she holds up a separate sheet
-labeled 「規約設定証明書」 with a large pencil-drawn X mark over it, showing
-this document is not needed. Her expression is calm and reassuring, as if
-explaining that this step can be skipped. Keep the composition simple and
-uncluttered, with the two labeled items and the character as the only
-focal points.
-
-Caption text (large, bottom of the image, verbatim, 1 line):
+--- HEADER ---
+Title (large, bold, 1行):
 規約敷地を分けるとき、規約の証明はいらないんです
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第6問 エ－なぜ証明書が不要なのか
+
+--- PANEL 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約設定時に登記官が職権で記録
+Illustration: An isometric land plot with a small building icon
+representing 敷地権付き区分建物 above it. A registrar figure (登記官)
+stamps a ledger book labeled 「土地の登記記録」 with a badge reading
+「敷地権である旨の登記」, without any applicant figure handing over
+documents (示す：職権でされること).
+Caption (small text below):
+規約を設定して敷地権とすると、登記官が職権でその土地の登記記録に記録する
+
+--- PANEL 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆時は登記記録を見るだけで足りる
+Illustration: The same land plot, now split by a dotted line into two
+parcels (representing 分筆). A surveyor figure points at the already-
+stamped 「敷地権である旨の登記」 badge on the ledger book from Panel 1,
+while a separate document labeled 「規約設定証明書」 has a large red X
+mark over it, showing it is not submitted.
+Caption (small text below):
+登記官は登記記録を見れば確認できるので、規約設定証明書の提出は不要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第6問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 規・約・敷・地・証・明・書. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the caption text matches the Japanese text given above
-verbatim, with no paraphrasing and no substituted characters. Confirm the
-image is monochrome pencil-sketch style with no color, and features
-exactly one female character.
+attention to 規・約・敷・地・証・明・書・録・職・権. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly 2 panels connected by one
+arrow showing the time flow from Panel 1 to Panel 2, with no duplicated or
+missing panels, and confirm every heading and caption text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
 ```
