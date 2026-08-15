@@ -42,6 +42,8 @@
 
 **たとえば**、マンションの敷地とされている規約敷地の一部を切り離す（分筆する）とき、その分筆の申請そのものに「この土地を規約で敷地にしましたよ」という証明書を付け直す必要はありません。
 
+**実務の流れで見る理由**：規約を定めて敷地権とした場合、登記官は建物の登記記録に敷地権の記録をするのとあわせて、職権でその土地自体の登記記録にも「敷地権である旨の登記」を記録します（不動産登記法46条）。つまり、規約敷地であるという事実は、規約を設定した時点で既にその土地の登記記録そのものに反映されているのです。そのため、後になってこの土地を分筆する際には、登記官は土地の登記記録を見るだけで規約敷地であることを確認できるので、申請人が改めて規約の存在を証明する書類を提出する必要がありません。証明が必要になるのは、規約を設定して敷地権として最初に登記するときだけであり、その後の分筆のような手続きでは重ねて証明を求められることはない、という流れで理解すると整理しやすくなります。
+
 ### オ：承役地の合筆で地役権範囲が一部のときは、地役権者作成情報と地役権図面が必要
 
 地役権の登記がある承役地について合筆の登記を申請する場合において、地役権設定の範囲が登記後の土地の一部であるときは、その地役権設定の範囲を証する地役権者が作成した情報（地役権証明書）又は当該地役権者に対抗することができる裁判があったことを証する情報を、地役権図面と併せて提供する必要があります（不動産登記令別表9項添付情報）。
@@ -67,6 +69,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア（不動産登記規則37条1項）、ウ（不動産登記法17条／民法111条1項1号）、オ（不動産登記令別表9項添付情報）はデータベースのexplanation欄で条文番号まで明記されているものです。一方、イ（分筆の登記が形成的登記であり登記原因が存在しないこと）とエ（規約敷地の分筆で規約を証する情報が不要であること）については、条文番号は明示されておらず、一般原則からの説明にとどまっています。
+- **エの補足説明について**：エの結論（規約設定証明情報は不要）は変わりませんが、なぜ不要なのかが実感しにくいという声を踏まえ、実務の流れに沿った補足段落を追加しました。規約を設定して敷地権とする際、登記官が職権でその土地自体の登記記録に「敷地権である旨の登記」を記録する規定（不動産登記法46条）を根拠に、規約敷地であることが既にその土地の登記記録に反映されている、という流れを説明しています。
 - **現行法チェック（条文原文で確認）**：オの根拠として当初「不動産登記令別表8項添付情報ロ」としていましたが、法令原文（`note-articles/laws/fudousan-touki-rei-betsuhyou.md`）で確認したところ、別表8項は「地役権の登記がある承役地の**分筆**の登記」に関する項目でした。本肢オは承役地の**合筆**の登記の場面であり、正しい根拠は別表**9項**添付情報（イ・ロの区分のない単一項目で、内容は本肢と一致）です。本文・本項目とも修正しました。結論（地役権者作成情報・地役権図面が必要）自体は変わりません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（土地の表示登記の申請情報・添付情報）と同一・類似の問題が再出題されていないかを確認しました。**部分的な重複が見つかりました**：本問エ（規約敷地が区分建物と異なる登記所の管轄区域内にあるときの規約設定証明情報の要否＝不要）と同一の論点・同一の結論が、令和2年度第14問アにほぼそのままの文言で再出題されています。「土地の表示に関する登記の申請情報又は添付情報」という同一タイトルの問題は令和元年度第8問にもありますが、その具体的な論点（合筆時の登記識別情報提供不能理由の記載、官公署嘱託時の所有権証明情報の省略可否）は、本問ではなく別のH27の問題（第9問・第14問）と重なる内容でした。将来この年度についてnote記事を作成する際は、内容の重複に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -209,4 +212,52 @@ no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
+```
+
+---
+
+## 見出し画像用プロンプト（エ肢・肢ごとの1シーン）
+
+エ肢の結論（規約敷地を分筆しても、規約設定を証する情報の提供は不要）を1シーンで表現する、肢ごとの note見出し画像用プロンプト。モノクロ鉛筆画・女性キャラクター1人が資料を持つ構図・1280×670px横長固定という、①肢ごとの見出し画像のルールに従っている。
+
+```
+Create a note.com header image, landscape layout, 1280×670 pixels,
+monochrome pencil-sketch illustration style (soft graphite shading,
+hand-drawn line quality, black and white only, no color), featuring a
+single female character (a land and building surveyor professional) as
+the main subject, holding a document in her hands.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text string given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 規・約・敷・地・証・明・書, which have Simplified Chinese
+look-alike forms with visibly different stroke shapes — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+Composition: The female surveyor character stands beside a land plot
+sketched lightly in the background, with a dotted line dividing it in two
+(representing 分筆). In one hand she holds a folder labeled 「登記記録」,
+on which a small stamp mark is already drawn to represent the existing
+「敷地権である旨の登記」. In her other hand, she holds up a separate sheet
+labeled 「規約設定証明書」 with a large pencil-drawn X mark over it, showing
+this document is not needed. Her expression is calm and reassuring, as if
+explaining that this step can be skipped. Keep the composition simple and
+uncluttered, with the two labeled items and the character as the only
+focal points.
+
+Caption text (large, bottom of the image, verbatim, 1 line):
+規約敷地を分けるとき、規約の証明はいらないんです
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 規・約・敷・地・証・明・書. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the caption text matches the Japanese text given above
+verbatim, with no paraphrasing and no substituted characters. Confirm the
+image is monochrome pencil-sketch style with no color, and features
+exactly one female character.
 ```
