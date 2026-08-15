@@ -48,9 +48,13 @@
 
 **たとえば**、兄弟2人で共有名義にして新築した家の表題登記は、兄弟のどちらか一人だけで申請することができ、もう一人が申請の場に立ち会う必要はありません。
 
-**区分建物の場合はどうなるか**：1戸の専有部分（区分建物）を複数人が共有名義にしているケース自体は、本肢と同じ考え方でかまいません。共有物の保存行為として、その専有部分の共有者のうちの一人から単独で表題登記を申請することができます（民法252条5項）。ここまでは区分建物でも変わりません。区分建物で本肢と決定的に違ってくるのは、共有関係の話ではなく、「一棟の建物の中に他の区分建物（他の専有部分）がある場合」です。新築マンションのように、一棟の建物の中に複数の専有部分があり、それぞれ別々の所有者がいるときは、ある専有部分だけを先に単独で表題登記することはできず、同じ一棟に属する他の専有部分についての表題登記と、まとめて一つの申請でしなければなりません（不動産登記法48条1項）。そして、この一括申請をするときは、専有部分の所有者のうちの一人が、他の専有部分の所有者に代わって、その分もまとめて申請することができます（同条2項）。この「代わって申請できる」規定は、区分建物どうしの所有者間の話であり、本肢のような1戸の専有部分を複数人で共有する場合の話とは場面が異なるので、混同しないようにしましょう。
+**区分建物との違いを整理すると**：区分建物（マンションの1室など）についても、1つの専有部分を複数人が共有名義にしている場合は、本肢と同じ考え方で、保存行為として共有者の一人から単独で表題登記を申請できます（民法252条5項）。ここまでは共通のルールです。
 
-**たとえば**、新築マンションの1階と2階にそれぞれ専有部分を持つことになるＡさんとＢさんがいる場合、Ａさんが自分の専有部分だけ先に表題登記を済ませることはできません。Ａさんは、Ｂさんの専有部分についても、Ｂさんに代わって表題登記をまとめて申請することができます。
+区分建物で特に注意したいのは、共有とは別の場面です。一棟の建物の中に他の区分建物（他の専有部分）が存在するときは、話が変わります。新築マンションのように、一棟の中に複数の専有部分があり、それぞれ別々の所有者がいる場合には、ある専有部分だけを先に単独で表題登記することはできず、同じ一棟に属する他の専有部分についての表題登記と、まとめて一つの申請でしなければなりません（不動産登記法48条1項）。そして、この一括申請をするときは、専有部分の所有者のうちの一人が、他の専有部分の所有者に代わって、その分もまとめて申請することができます（同条2項）。
+
+この「代わって申請できる」という仕組みは、共有者どうしの関係ではなく、別々の専有部分をそれぞれ単独で所有する者どうしの関係で働く点に注意してください。本肢のような共有のケースと、区分建物の一括申請のケースは、似ているようで場面がまったく異なります。
+
+**たとえば**、兄弟2人で共有名義にして新築した一戸建ての表題登記は、区分建物でなければ兄弟のどちらか一人だけで申請できます。これに対して、新築マンションの1階と2階にそれぞれ専有部分を持つことになるＡさんとＢさんの場合は、Ａさんが自分の専有部分だけ先に表題登記を済ませることはできず、Ｂさんに代わってＢさんの専有部分の分もまとめて申請することができます。
 
 ### まとめ
 
@@ -211,4 +215,98 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・図解）
+
+オ肢の結論（区分建物でない建物の共有の表題登記は、共有者の一人から単独で申請できる）について、区分建物の場合との違いを対比する図解として構成した画像生成プロンプト。②問題全体のインフォグラフィックと同じ、縦長ポートレート・カラー・フラットデザイン・アイソメトリックの画風を採用している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (icons: an isometric single-family
+house, an isometric multi-unit condominium building, application
+documents, a registry office, a versus-style divider between panels —
+adapt icon set to the topic).
+
+GLANCEABLE-DIAGRAM REQUIREMENT (critical): This is a 2-panel comparison
+diagram (not a chronological flow), NOT a text-heavy document. There is
+NO paragraph of prose anywhere in the image. Each panel must communicate
+its point almost entirely through the illustration (icons, checkmarks, X
+marks, short embedded labels) plus one short heading and one short
+caption line. Do NOT render any full-sentence explanation or legal
+citation anywhere in the image. The two panels are stacked vertically,
+separated by a horizontal divider labeled 「対して」 (rather than a
+time-flow arrow, since this is a side-by-side comparison, not a sequence
+of steps). Leave generous empty space around the panels so the
+composition does not feel cramped in the tall portrait frame.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 区・分・建・共・有・者・単・独・棟・専・有・部・申・請・登・記・
+括 — these have Simplified Chinese look-alike forms with visibly different
+stroke shapes, or are easily confused in this context — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+共有名義でも一人で申請できるんです
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第14問 オ－区分建物との違い
+
+--- PANEL 1 (top panel, green) ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物でない建物は一人で申請できる
+Illustration: An isometric single-family house shared by two co-owner
+figures (兄・弟). One figure alone walks to the registry office counter
+holding a 表題登記申請書 with a green checkmark, while the other figure
+stays at home, not needing to be present. A small label reads 「保存行為
+だから単独で足りる」.
+Caption (small text below):
+共有物の保存行為として、共有者のうちの一人から単独で表題登記を申請できる
+
+--- DIVIDER ---
+A horizontal divider bar with the label 「対して」 in the center,
+separating Panel 1 from Panel 2 (this is a comparison, not a sequence —
+do not draw a directional arrow here).
+
+--- PANEL 2 (bottom panel, blue) ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物は他の専有部分とまとめて申請
+Illustration: An isometric multi-unit condominium building under
+construction, with two separate owner figures (Ａ・Ｂ) each assigned to a
+different floor's 専有部分 (1階・2階). Owner Ａ submits ONE combined
+表題登記申請書 covering both 専有部分 labels 「Ａの専有部分」and「Ｂの
+専有部分」at the registry counter, with a green checkmark, while Owner Ｂ
+is shown at a distance, not present. A small label reads 「Ｂに代わって
+まとめて申請」.
+Caption (small text below):
+一棟内の他の専有部分とまとめて一つの申請をし、所有者の一人が他の所有者に
+代わって申請できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第14問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 区・分・建・共・有・者・単・独・棟・専・有・部・申・請・登・記・括.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm there are exactly 2
+panels, stacked vertically and separated by one horizontal divider
+labeled 「対して」 (not a time-flow arrow), with no duplicated or missing
+panels, and confirm every heading and caption text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters.
 ```
