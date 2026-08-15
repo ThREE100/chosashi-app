@@ -281,6 +281,99 @@ tag, at a glance.
 
 ---
 
+## 補講インフォグラフィック プロンプト（0）法定共用部分と規約共用部分の違い
+
+補講の前提知識（廊下・階段室のように構造上当然に共用となる法定共用部分と、管理人室・集会室のように規約であえて共用部分とする規約共用部分の違い、そして共用部分である旨の登記が規約共用部分だけに関係すること）を2パネルの対比として図解した画像生成プロンプト。縦長ポートレート・カラー・フラットデザイン・アイソメトリックの画風。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (icons: an isometric condominium
+building cutaway showing a corridor and staircase, a separate manager's
+room / meeting hall, a regulation document, a registry stamp — adapt
+icon set to the topic).
+
+GLANCEABLE-DIAGRAM REQUIREMENT (critical): This is a 2-panel comparison
+diagram (not a chronological flow), NOT a text-heavy document. There is
+NO paragraph of prose anywhere in the image. Each panel must communicate
+its point almost entirely through the illustration (icons, checkmarks, X
+marks, short embedded labels) plus one short heading and one short
+caption line. Do NOT render any full-sentence explanation or legal
+citation anywhere in the image. The two panels are stacked vertically,
+separated by a horizontal divider labeled 「対して」 (a conceptual
+contrast, not a time-flow arrow). Leave generous empty space around the
+panels so the composition does not feel cramped in the tall portrait
+frame.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 法・定・共・用・部・分・規・約・専・有・権・登・記・対・抗・構・造 —
+these have Simplified Chinese look-alike forms with visibly different
+stroke shapes, or are easily confused in this context — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+法定共用部分と規約共用部分の違い
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第17問 補講－前提知識
+
+--- PANEL 1 (top panel, green) ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+法定共用部分は登記の場面が生じない
+Illustration: An isometric cutaway of a condominium building showing a
+corridor (廊下) and a staircase (階段室) connecting multiple units. A
+prohibition (no-entry) mark overlays an attempt to place a name-tag
+owner icon on the corridor, showing it can never become someone's
+専有部分.
+Caption (small text below):
+構造上当然に共用となり、区分所有権の対象にならないため、共用部分で
+ある旨の登記を申請する場面自体が生じない
+
+--- DIVIDER ---
+A horizontal divider bar with the label 「対して」 in the center,
+separating Panel 1 from Panel 2 (this is a conceptual contrast, not a
+sequence — do not draw a directional arrow here).
+
+--- PANEL 2 (bottom panel, blue) ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約共用部分は登記して初めて対抗できる
+Illustration: The same building, now showing a self-contained manager's
+room (管理人室) that could otherwise be an independent unit. A
+regulation document labeled 「規約」 is placed over it, and a registry
+stamp labeled 「共用部分である旨の登記」 is applied, with a small label
+「登記して初めて第三者に対抗できる」 beside it.
+Caption (small text below):
+本来は専有部分になり得る部屋を規約で共用部分とし、登記して初めて
+第三者に対抗できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第17問 補講
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 法・定・共・用・部・分・規・約・専・有・権・登・記・対・抗・構・造. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm there are exactly 2
+panels, stacked vertically and separated by one horizontal divider
+labeled 「対して」 (not a time-flow arrow), with no duplicated or missing
+panels, and confirm every heading and caption text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters.
+```
+
+---
+
 ## 補講インフォグラフィック プロンプト（1）義務があるとき・ないとき
 
 補講①②（共用部分にする登記に申請義務はないが、共用部分でなくなる＝規約廃止のときは1か月以内の申請義務がある、という最重要の非対称）を3パネルの図解にした画像生成プロンプト。②問題全体のインフォグラフィックと同じ、縦長ポートレート・カラー・フラットデザイン・アイソメトリックの画風を採用している。
