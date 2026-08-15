@@ -50,7 +50,7 @@
 
 **たとえば**、合筆の登記を書面で申請するときに添えた印鑑証明書は、手続が終わった後に「原本を返してください」と請求することができず、登記所に留め置かれます。
 
-**なぜこの仕組みが有効なのか**：合筆・合体・建物の合併は、複数の登記記録を一つにまとめてしまう、権利関係への影響が大きい手続きです。そのため、通常の表示に関する登記とは異なり、申請書には実印による記名押印と、その印鑑が実印であることを裏づける印鑑証明書の添付が求められます。この印鑑証明書は、「この申請書に押された印影が、確かに申請人本人の実印である」ということを、その1件の申請について証明するために提出されるものであり、他の手続きに転用できるものではありません。そのため登記所は、申請の真正性を確認した証拠として原本をそのまま保管し、申請人に返却しない扱いになっています。実務では、土地家屋調査士が合筆の登記を依頼者から受任するとき、依頼者から預かる印鑑証明書は原本が返ってこないことを前提に、依頼者が別の手続き（金融機関での手続きなど）でも印鑑証明書を必要とする予定があるかを確認し、必要であれば余分に取得しておいてもらうよう案内するのが実務上の一般的な対応です。
+**なぜこの仕組みが有効なのか**：合筆・合体・建物の合併は、複数の登記記録を一つにまとめてしまう、権利関係への影響が大きい手続きです。そのため、通常の表示に関する登記とは異なり、申請書には実印による記名押印と、その印鑑が実印であることを裏づける印鑑証明書の添付が求められます。この印鑑証明書は、「今回の申請書に押された印影が、確かに申請人本人の実印によるものである」ことを、その1件の申請について裏づける証拠として提出されるものです。登記所は、この証拠となる原本そのものを手元に残しておくことで、後になって申請の真正性が問題になったときにも、コピー（謄本）ではなく実際の証明書そのもので確認できるようにしています。この扱いは「他の手続きでは使えないから返す必要がない」という意味ではありません。むしろ逆で、印鑑証明書は市区町村役場に行けば原本を複数枚まとめて発行してもらえる書類なので、法はこの書類について「原本を返す代わりにコピーを登記所に残す」という一般的な原本還付の仕組みをあえて採用せず、複数の手続きで必要になるなら申請前にあらかじめ必要な枚数を取得しておいてもらう、という前提に立っています。実務では、土地家屋調査士が合筆の登記を依頼者から受任するとき、この印鑑証明書は原本が返ってこないことをあらかじめ説明したうえで、依頼者が別の手続き（金融機関での手続きなど）でも同時期に印鑑証明書を必要とする予定があるかを確認し、必要であれば登記所に提出する分とは別に、市区町村役場で多めに取得しておいてもらうよう案内するのが実務上の一般的な対応です。
 
 ### まとめ
 
@@ -73,6 +73,7 @@
 - 各肢の根拠（ア＝不動産登記法39条1項、イ＝不動産登記規則62条2項、ウ＝不動産登記令3条12号、エ＝不動産登記令4条ただし書、オ＝不動産登記規則55条1項ただし書）は、データベースのexplanation欄に明記されているものを用いています。印鑑証明書の還付制限の項番号は同欄の記載に基づきます。
 - **現行法チェック（条文原文で確認）**：オの根拠条文について、法令原文（`note-articles/laws/fudousan-touki-kisoku-1.md`）で確認したところ、規則55条1項ただし書は「令16条2項…の印鑑に関する証明書」を原本還付の対象外としており、規則47条3号イ(6)は「合筆の登記、合体による登記等又は建物の合併の登記」を、委任による代理人が申請書に署名する場合を除き申請人本人の記名押印（＝令16条2項の印鑑証明書添付）を要する場合として掲げています。この2条文により、合筆の登記で提供する印鑑証明書が原本還付できないことが条文上確認できました。結論は変わりません。
 - **エ・オの補足説明について**：エ（一の申請情報でまとめて申請できる理由）とオ（印鑑証明書が原本還付できない理由）について、なぜそのような仕組みになっているのかが実感しにくいという点を踏まえ、条文（不動産登記令4条本文・ただし書、不動産登記規則47条3号イ(6)・55条1項ただし書）の構造に基づく理由と、土地家屋調査士の実務での対応（複数筆をまとめて依頼された場合の申請書作成、依頼者への印鑑証明書の追加取得の案内）を補足しました。結論はいずれも変わりません。
+- **オの補足説明の訂正**：オの補足説明について、当初「印鑑証明書は他の手続きに転用できないから返却されない」という説明にしていましたが、これは筋が通っていない説明でした（他の手続きでも使えるからこそ原本を返してほしい、という申請人側の事情と矛盾します）。正しくは、印鑑証明書は「今回の申請書の押印が本人の実印によるものであることを裏づける証拠」として登記所に残される一方、印鑑証明書自体は市区町村役場で原本を複数枚まとめて発行してもらえる書類であるため、法は「原本を返す代わりにコピーを残す」という一般的な原本還付の仕組みをこの書類には採用せず、複数の用途で必要ならあらかじめ多めに取得しておくことを前提にしている、という説明に修正しました。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（合筆の登記の申請人・登記識別情報・印鑑証明書の還付）と同一・類似の問題が再出題されていないかを確認しました。**部分的な重複が見つかりました**：本問ウ（登記識別情報を提供できない理由は申請情報に記載すれば足り、証明情報は不要）と同じ論点が、令和元年度第8問エに近い形で出題されています。「合筆の登記」は平成28年度第10問・平成29年度第14問・令和2年度第10問・令和4年度第9問・令和6年度第9問など、ほぼ毎年出題される定番テーマですが、これらは主に合筆の要件・添付情報の細目を扱っており、本問が扱う申請人適格・登記識別情報の通知・印鑑証明書の還付制限とは論点が異なるものが大半でした。将来この年度についてnote記事を作成する際は、令和元年度第8問との重複に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -196,7 +197,7 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 Illustration: 合筆の登記申請書に添付された印鑑証明書アイコン。申請人が原本の
 返却を求める吹き出し「原本還付してください」を出すが、登記所窓口のスタンプに
 赤い✕マークと「還付不可」のラベルが付く。印鑑証明書アイコンのそばに小さく
-「この申請専用の証拠」というラベルを添える。
+「原本は複数枚取得できる書類」というラベルを添える。
 Conclusion tag (a short colored banner/pill directly below the illustration,
 blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
 legal citation):
@@ -355,10 +356,10 @@ even if a character looks similar. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not paraphrase,
 translate, summarize, or substitute any characters. Pay special attention
-to the kanji 合・筆・印・鑑・証・明・書・還・付・専・用・拠・依・頼・確・認 — these
-have Simplified Chinese look-alike forms with visibly different stroke
-shapes, or are easily confused in this context — always draw the standard
-Japanese (Jōyō) form of these characters.
+to the kanji 合・筆・印・鑑・証・明・書・還・付・専・用・拠・依・頼・確・認・発・行 —
+these have Simplified Chinese look-alike forms with visibly different
+stroke shapes, or are easily confused in this context — always draw the
+standard Japanese (Jōyō) form of these characters.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -370,7 +371,7 @@ Subtitle (smaller, centered, 1行):
 --- PANEL 1 (top panel, blue) ---
 Badge: a filled blue circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
-この申請専用の証拠だから返せない
+原本は登記所に証拠として残される
 Illustration: An isometric registry office desk. An applicant figure
 hands over a 印鑑証明書 document alongside an application form showing a
 実印 stamp mark. A magnifying glass icon over the stamp mark and the
@@ -378,23 +379,26 @@ hands over a 印鑑証明書 document alongside an application form showing a
 と確認する証拠」. The 印鑑証明書 is then placed into a filing cabinet
 labeled 「保管」, with a red X mark over a hand reaching to take it back.
 Caption (small text below):
-実印の押印が本人のものであることを、この1件のために証明する書類なので
-返却されない
+実印の押印が本人のものであることを裏づける証拠として、原本のまま
+登記所に残される
 
 --- DOWNWARD ARROW ---
-A bold vertical arrow pointing down, connecting Panel 1 to Panel 2.
+A bold vertical arrow pointing down, with a small label 「だから」 beside
+it, connecting Panel 1 to Panel 2.
 
 --- PANEL 2 (bottom panel, green, showing the practical response) ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-依頼者には多めの取得を案内する
+役場では原本を複数枚もらえる
 Illustration: A land and building surveyor figure (土地家屋調査士) talking
-with a client figure, pointing at a checklist with two items: 「合筆の
-登記用」と「他の手続き用」の2枚の印鑑証明書アイコンが描かれ、両方に緑の
-チェックマークが付く。
+with a client figure in front of a city hall (市区町村役場) counter. The
+counter clerk hands over two identical original 印鑑証明書 documents at
+once, one labeled 「合筆の登記用」, the other labeled 「他の手続き用」, both
+with green checkmarks, showing both are freshly issued originals rather
+than copies.
 Caption (small text below):
-他の手続きでも必要になりそうなら、あらかじめ多めに取得してもらうよう
-案内する
+印鑑証明書は役場で原本を何枚でも発行してもらえるので、必要な分だけ
+先に取得しておけばよい
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
@@ -402,8 +406,8 @@ Small credit text in the corner (optional, keep minimal):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 合・筆・印・鑑・証・明・書・還・付・専・用・拠・依・頼・確・認. If
-any character renders as a Simplified Chinese variant, redraw that
+attention to 合・筆・印・鑑・証・明・書・還・付・専・用・拠・依・頼・確・認・発・行.
+If any character renders as a Simplified Chinese variant, redraw that
 character in the correct Japanese form. Confirm there are exactly 2
 panels, stacked vertically and connected by one downward arrow showing
 the flow from Panel 1 to Panel 2, with no duplicated or missing panels,
