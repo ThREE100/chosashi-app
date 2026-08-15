@@ -218,15 +218,15 @@ read as a short heading + a short conclusion tag, at a glance.
 
 ## インフォグラフィック プロンプト（エ肢・図解）
 
-エ肢の結論（規約敷地を分筆しても、規約設定を証する情報の提供は不要）を、単発の見出し画像ではなく、なぜそうなるのかという仕組みを2ステップの流れで見せる図解として構成した画像生成プロンプト。②問題全体のインフォグラフィックと同じ、カラー・フラットデザイン・アイソメトリックの画風を採用している。
+エ肢の結論（規約敷地を分筆しても、規約設定を証する情報の提供は不要）を、単発の見出し画像ではなく、なぜそうなるのかという仕組みを2ステップの流れで見せる図解として構成した画像生成プロンプト。②問題全体のインフォグラフィックと同じ、縦長ポートレート・カラー・フラットデザイン・アイソメトリックの画風を採用している。
 
 ```
-Create a Japanese-language infographic, landscape layout, 1280×720 pixels,
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric land plots, registry
-ledger books, official stamps, torn-paper document labels, arrows
-connecting panels — adapt icon set to the topic).
+ledger books, official stamps, torn-paper document labels, a downward
+arrow connecting panels — adapt icon set to the topic).
 
 GLANCEABLE-DIAGRAM REQUIREMENT (critical): This is a 2-step process
 diagram, NOT a text-heavy explainer document. There is NO paragraph of
@@ -234,8 +234,11 @@ prose anywhere in the image. Each panel must communicate its point almost
 entirely through the illustration (icons, stamps, checkmarks, X marks,
 short embedded labels) plus one short heading and one short caption line.
 Do NOT render any full-sentence explanation or legal citation anywhere in
-the image. A bold arrow connects Panel 1 to Panel 2, showing the flow of
-time (規約設定時→分筆時).
+the image. The two panels are stacked vertically, with a bold downward
+arrow connecting Panel 1 to Panel 2, showing the flow of time
+(規約設定時→分筆時). Leave generous empty space above and below the two
+panels so the composition does not feel cramped in the tall portrait
+frame.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -255,7 +258,7 @@ Title (large, bold, 1行):
 Subtitle (smaller, centered, 1行):
 平成27年度 午後の部 第6問 エ－なぜ証明書が不要なのか
 
---- PANEL 1 ---
+--- PANEL 1 (upper panel) ---
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 規約設定時に登記官が職権で記録
@@ -267,7 +270,11 @@ documents (示す：職権でされること).
 Caption (small text below):
 規約を設定して敷地権とすると、登記官が職権でその土地の登記記録に記録する
 
---- PANEL 2 ---
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, with a small time-flow label
+「後日」 beside it, connecting Panel 1 to Panel 2.
+
+--- PANEL 2 (lower panel) ---
 Badge: a filled blue circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 分筆時は登記記録を見るだけで足りる
@@ -287,9 +294,9 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
 attention to 規・約・敷・地・証・明・書・録・職・権. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm there are exactly 2 panels connected by one
-arrow showing the time flow from Panel 1 to Panel 2, with no duplicated or
-missing panels, and confirm every heading and caption text matches the
-Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+correct Japanese form. Confirm there are exactly 2 panels, stacked
+vertically and connected by one downward arrow showing the time flow from
+Panel 1 to Panel 2, with no duplicated or missing panels, and confirm
+every heading and caption text matches the Japanese text given above
+verbatim, with no paraphrasing and no substituted characters.
 ```
