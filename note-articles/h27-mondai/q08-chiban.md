@@ -220,3 +220,107 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・図解）
+
+エ肢の結論（不動産番号を提供すれば地番等の記載は省略できる）について、なぜこの仕組みが有効なのか・実務でどう使うのか・使えない場合は何かを3ステップの流れで見せる図解として構成した画像生成プロンプト。②問題全体のインフォグラフィックと同じ、縦長ポートレート・カラー・フラットデザイン・アイソメトリックの画風を採用している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric database server,
+registry ledger books, barcode-style number tags, application documents,
+a vacant land plot, downward arrows connecting panels — adapt icon set to
+the topic).
+
+GLANCEABLE-DIAGRAM REQUIREMENT (critical): This is a 3-step explainer
+diagram, NOT a text-heavy document. There is NO paragraph of prose
+anywhere in the image. Each panel must communicate its point almost
+entirely through the illustration (icons, stamps, checkmarks, X marks,
+short embedded labels) plus one short heading and one short caption line.
+Do NOT render any full-sentence explanation or legal citation anywhere in
+the image. The three panels are stacked vertically, each connected to the
+next by a bold downward arrow. Leave generous empty space around the
+panels so the composition does not feel cramped in the tall portrait
+frame.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 番・号・録・登・記・所・在・地・積・特・定・転・記・証・題・存 —
+these have Simplified Chinese look-alike forms with visibly different
+stroke shapes, or are easily confused in this context — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+不動産番号があれば、地番は省略できるんです
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第8問 エ－なぜ転記しなくていいのか
+
+--- PANEL 1 (top panel, green) ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+不動産番号は登記記録を一意に特定する
+Illustration: An isometric database server icon representing the registry
+office's system, containing one land plot's registration record labeled
+「所在・地番・地目・地積」. A barcode-style tag reading 「不動産番号」 is
+attached to the record, with a bold arrow pointing directly from the tag
+to the record to show the number pinpoints that exact record.
+Caption (small text below):
+不動産番号を伝えれば、その登記記録を直接指し示すことができる
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, connecting Panel 1 to Panel 2.
+
+--- PANEL 2 (middle panel, blue) ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+実務では転記ミスを避けられる
+Illustration: A land and building surveyor figure (土地家屋調査士) holding
+a registration certificate document (登記事項証明書) with a complex,
+branching 地番 label (e.g. 「◯番3-2」) on it. Beside the surveyor, an
+application form shows only the 「不動産番号」 filled in with a green
+checkmark, while the complicated 地番 field is greyed out with a small
+label 「転記しない」.
+Caption (small text below):
+複雑な地番を書き写す代わりに、不動産番号を記載するだけで済む
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, connecting Panel 2 to Panel 3.
+
+--- PANEL 3 (bottom panel, gray/orange, marked as an exception) ---
+Badge: a filled orange circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題登記にはこの省略は使えない
+Illustration: An isometric vacant, unregistered land plot with no
+registration record icon beside it, and a red X mark over an empty
+barcode-tag outline labeled 「不動産番号：まだ無い」. Beside it, a
+表題登記の申請書 shows the 「所在・地番・地目・地積」 fields fully filled
+in by hand with a green checkmark, showing they cannot be omitted here.
+Caption (small text below):
+登記記録がまだない土地には、参照すべき番号自体が存在しない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第8問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 番・号・録・登・記・所・在・地・積・特・定・転・記・証・題・存. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm there are exactly 3
+panels, stacked vertically and connected by two downward arrows showing
+the flow from Panel 1 to Panel 2 to Panel 3, with no duplicated or
+missing panels, and confirm every heading and caption text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
+```
