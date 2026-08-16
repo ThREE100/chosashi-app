@@ -42,7 +42,9 @@
 
 **たとえば**、地積の更正登記にともなって新しい土地所在図に差し替えられ、古い土地所在図が閉鎖された場合、その閉鎖された図面は閉鎖の日から30年間保存されます。
 
-**申請書類つづり込み帳自体の保管期間**：本肢は「申請書類つづり込み帳につづり込まれたものを除き」と述べていますが、では除かれた申請書類つづり込み帳の側はどうなるのでしょうか。申請書類つづり込み帳につづり込まれた書類（申請情報・添付情報等）は、受付の日から30年間保存されます（不動産登記規則28条9号）。同じ「30年間」でも、起算点が異なる別の規定である点に注意してください。本肢が対象とする土地図面つづり込み帳・建物図面つづり込み帳や閉鎖図面つづり込み帳に綴じられた図面は「閉鎖した日」から30年間なのに対し、申請書類つづり込み帳に綴じられた書類は「受付の日」から30年間です。なお、電子申請等で作成された土地所在図・地積測量図等が申請書類つづり込み帳に綴じ込まれた場合（不動産登記規則20条3項）は、本肢がいう「永久保存」の対象から外れ、この受付の日から30年間の扱いになります。
+**申請書類つづり込み帳自体の保管期間**：本肢は「申請書類つづり込み帳につづり込まれたものを除き」と述べていますが、では除かれた申請書類つづり込み帳の側はどうなるのでしょうか。申請書類つづり込み帳につづり込まれた書類（申請情報・添付情報等）は、受付の日から30年間保存されます（不動産登記規則28条9号）。本肢が対象とする土地図面つづり込み帳・建物図面つづり込み帳や閉鎖図面つづり込み帳に綴じられた図面は「閉鎖した日」から30年間なのに対し、申請書類つづり込み帳に綴じられた書類は「受付の日」から30年間という、起算点の違いがあります。
+
+ただし、この「受付の日から30年間」には例外があります。登記官は、書面で提出された土地所在図・地積測量図・建物図面・各階平面図を、あとから電磁的記録として保存することができ、その場合には、元になった紙の図面のほうを申請書類つづり込み帳に綴じ込む扱いになります（不動産登記規則20条2項・3項、22条2項）。このケースでは、申請書類つづり込み帳に綴じ込まれていても、保管期間の起算点は「受付の日」ではなく「電磁的記録に記録して保存した日」から30年間になります（不動産登記規則28条9号かっこ書）。「申請書類つづり込み帳＝受付の日起算」と単純に覚えてしまうと、この電磁的記録化のケースで足をすくわれるので注意してください。
 
 ### オ：筆界特定書は、10年ではなく永久に保存される
 
@@ -69,7 +71,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・オ、いずれも“誤っている”肢）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠（ア・イ・ウ・エ＝不動産登記規則28条各号、オ＝同規則235条1項1号）は、データベースのexplanation欄に条文番号まで明記されているものです。
-- **エの補足説明について**：「申請書類つづり込み帳につづり込まれたものを除き」という除外部分について、除かれた申請書類つづり込み帳自体の保管期間（受付の日から30年間、不動産登記規則28条9号）を法令原文（`note-articles/laws/fudousan-touki-kisoku-1.md`）で確認し、追記しました。同じ「30年間」でも起算点が「閉鎖した日」（本肢が対象とする図面つづり込み帳側）と「受付の日」（申請書類つづり込み帳側）で異なる点を整理しています。結論（本肢は正しい）自体は変わりません。
+- **エの補足説明について（訂正済み）**：「申請書類つづり込み帳につづり込まれたものを除き」という除外部分について、除かれた申請書類つづり込み帳自体の保管期間（受付の日から30年間、不動産登記規則28条9号）を追記しました。当初の版では、この30年間の例外（20条3項により電磁的記録化された図面が申請書類つづり込み帳に綴じ込まれるケース）について、「電子申請等で作成された図面が綴じ込まれる」という誤った原因の説明と、「受付の日から30年間」という誤った起算点を記載していました。法令原文（`note-articles/laws/fudousan-touki-kisoku-1.md`の規則20条2項・3項、22条2項、28条9号かっこ書）で再確認したところ、実際には「登記官が書面で提出された図面をあとから電磁的記録として保存し、元の紙図面を申請書類つづり込み帳に綴じ込む」という運用であり、この場合の起算点は「電磁的記録に記録して保存した日」から30年間であって「受付の日」ではないことが分かったため、本文を訂正しました。結論（本肢は正しい）自体は変わりません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（登記所に保存される情報の保存期間）と同一・類似の問題が再出題されていないかを確認しました。**強い重複が見つかりました**：令和7年度第5問は「保存期間が永久と定められているもの」を選ぶ問題で、本問イ（閉鎖した建物所在図は永久保存）・オ（筆界特定書は永久保存）と同じ知識ポイント（閉鎖建物所在図・筆界特定書はいずれも永久保存）を扱っています。令和4年度第4問も「登記記録等の保存期間」という同じテーマですが、扱う情報の種類（法定相続情報一覧図つづり込み帳、筆界特定手続記録等）が異なり、本問との直接の一致はありませんでした。将来この年度についてnote記事を作成する際は、令和7年度第5問との内容の重複に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -203,4 +205,113 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## 補足インフォグラフィック プロンプト（エ肢）申請書類つづり込み帳の起算点の例外
+
+エ肢が除外する「申請書類つづり込み帳につづり込まれたもの」の保管期間について、通常の起算点（受付の日）と、書面図面が電磁的記録化された場合の例外的な起算点（電磁的記録に記録して保存した日）を3パネルで図解した画像生成プロンプト。縦長ポートレート・カラー・フラットデザイン・アイソメトリックの画風。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray, orange for the exception panel), rounded
+panel sections, consistent with a modern explainer-graphic aesthetic
+(icons: isometric filing binder books, a paper document, a scanner /
+digitization icon, a calendar/date stamp, downward arrows connecting
+panels — adapt icon set to the topic).
+
+GLANCEABLE-DIAGRAM REQUIREMENT (critical): This is a 3-panel diagram
+(general rule → mechanism → exception), NOT a text-heavy document. There
+is NO paragraph of prose anywhere in the image. Each panel must
+communicate its point almost entirely through the illustration (icons,
+checkmarks, X marks, short embedded labels) plus one short heading and
+one short caption line. Do NOT render any full-sentence explanation or
+legal citation anywhere in the image. The three panels are stacked
+vertically, each connected to the next by a bold downward arrow. Panel 3
+should be visually marked as an exception (e.g. an orange border or
+"例外" ribbon), distinct from the blue/green tone of Panels 1-2. Leave
+generous empty space around the panels so the composition does not feel
+cramped in the tall portrait frame.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 申・請・書・類・込・帳・受・付・記・録・磁・的・保・存・図・例・外 —
+these have Simplified Chinese look-alike forms with visibly different
+stroke shapes, or are easily confused in this context — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+つづり込み帳の30年、起算点に例外あり
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第18問 エ－補足：申請書類つづり込み帳の起算点
+
+--- PANEL 1 (top panel, green) ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+通常は受付の日から30年間
+Illustration: An isometric filing binder book labeled 「申請書類つづり
+込み帳」 containing application documents. A calendar icon shows a date
+stamped 「受付」, with an arrow extending 30 years forward to a second
+calendar marked 「保存期間満了」.
+Caption (small text below):
+申請書類つづり込み帳につづり込まれた書類は、受付の日から30年間保存
+される
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, connecting Panel 1 to Panel 2.
+
+--- PANEL 2 (middle panel, blue) ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+書面図面は登記官が電子化することがある
+Illustration: A paper 土地所在図 document being scanned by a scanner
+icon operated by a registry officer figure, producing an electromagnetic
+record icon (電磁的記録). An arrow shows the original paper document
+being moved into the 「申請書類つづり込み帳」 binder instead of the
+usual 「土地図面つづり込み帳」.
+Caption (small text below):
+登記官が書面の図面を電磁的記録として保存すると、元の紙の図面は申請
+書類つづり込み帳に綴じ込まれる
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, connecting Panel 2 to Panel 3.
+
+--- PANEL 3 (bottom panel, orange, marked as an exception) ---
+Badge: a filled orange circle containing the number 3, with a small
+「例外」 ribbon banner across the corner of the panel.
+Heading (bold, ONE line, ~20 characters or fewer):
+この場合だけ起算点が変わる
+Illustration: The same filing binder book from Panel 1, but this time
+the calendar stamp reads 「電磁的記録に記録して保存した日」 instead of
+「受付」, with a red X mark over a small 「受付の日」 label to show it is
+NOT the starting point in this case. A 30-year arrow extends forward
+from the correct date.
+Caption (small text below):
+このケースだけは「受付の日」ではなく「電磁的記録に記録して保存した日」
+から30年間になる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第18問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 申・請・書・類・込・帳・受・付・記・録・磁・的・保・存・図・例・外. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm there are exactly 3
+panels, stacked vertically and connected by two downward arrows showing
+the flow from Panel 1 to Panel 2 to Panel 3, that Panel 3 is visually
+marked as an exception (orange tone, 「例外」 ribbon), with no duplicated
+or missing panels, and confirm every heading and caption text matches
+the Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
 ```
