@@ -11,3 +11,9 @@
 - 経緯: 当初(2026-08-12)は`main`への統一を合意→同日中に、より完成度の高い正本が別途存在することが判明し`claude/surveyor-exam-afternoon-q1-20-5lehv0`ブランチへ統一を改訂→2026-08-14、同ブランチ(全年度分のnote-articles、ローカル法令データベース`laws/`等を含む)の内容がmainへ統合され、年度別featureブランチも含め旧ブランチはすべて`archived/`配下にアーカイブされたため、最終的に`main`への統一に戻った。
 - 今後、新規の作業・修正はすべて`main`側で行う。旧ブランチ(`archived/claude/surveyor-exam-*`等)は参照専用のアーカイブであり、更新しない。
 - 別セッションが並行して`main`を更新している場合があるため、pushの前に`git pull origin main`で最新化してから作業・pushすること。
+
+## ルールの再確認(2026-08-16)
+
+- 2026-08-16のセッションで、アーカイブ済みのはずの`claude/surveyor-exam-heisei26-afternoon-lmt0j0`および`claude/surveyor-exam-afternoon-q1-20-5lehv0`(同名の`archived/`配下ブランチが既に存在するにもかかわらず、非アーカイブ名で生き残っていた)に誤って作業・pushしてしまう事例が発生した。これを受けて、上記ルールを改めて明文化する。
+- 土地家屋調査士試験のnote解説記事に関する更新・保存先は`main`のみとする。`claude/surveyor-exam-*`系のブランチ(archived配下・非archived配下を問わず)は今後一切使用しない。
+- 未反映の作業: `claude/surveyor-exam-afternoon-q1-20-5lehv0`ブランチ上に、平成26年度Q1〜20の肢別解説の法令再検証・修正(コミット`58f1c5f`)およびQ6の保管期間補足(コミット`34488e5`)が、`main`未反映のまま残っている。同ブランチのH27午後等の記事は`main`より古く後退するため、単純な上書き・マージは行わず、該当ファイル(主に`note-articles/h26-mondai/`配下)を個別に差分確認したうえで`main`に反映すること。
