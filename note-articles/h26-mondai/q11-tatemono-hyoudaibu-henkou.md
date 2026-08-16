@@ -161,14 +161,18 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 3 ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-所在の記録は床面積順ではない
+先頭の地番だけ床面積等で決まる
 Illustration: An isometric building spanning four adjoining land lots
 labeled 1番・2番・3番・4番 with different floor-area size tags (100㎡,
-200㎡, 120㎡, 150㎡) shown above each lot. A list sorted by floor-area
-size (200→150→120→100) has a red cross mark over it, while a separate
-tag reading "主たる部分などの基準" is highlighted with a green checkmark.
+200㎡, 120㎡, 150㎡) shown above each lot. A "所在の記録" list shows "2番地"
+placed first with a green checkmark and a small label "床面積最大" beside
+it, followed by "4番地・3番地・1番地" grouped together with a label
+"先頭以外は順不同（床面積順ではない）". Beside this, a separate rejected
+list reading "2番地→4番地→3番地→1番地（すべて床面積順）" has a red cross
+mark over it, making clear only the first entry follows the floor-area
+rule.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-床面積順に並べない
+先頭のみ床面積等基準
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
