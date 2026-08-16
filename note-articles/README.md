@@ -12,6 +12,7 @@ note-articles/
 ├── format-template.md              年度別1問1答記事の執筆フォーマット(固定テンプレート)
 ├── generate-prompt.md              新しい問題の記事を生成するためのプロンプトテンプレート
 ├── infographic-prompt-template.md  問題全体インフォグラフィック(画像生成プロンプト)の作成ルール
+├── qa-checklist.md                 年度別記事(Q1〜Q20)の再検証チェックリスト(固定テンプレート)
 ├── magazine-descriptions.md        note.comの年度別マガジン説明文(令和元〜7年度・平成20〜30年度)
 ├── {年度}-mondai/                  年度別・午後の部の1問1答解説記事(20フォルダ。一覧は下記「年度別フォルダ一覧」)
 ├── bunya-kaisetsu/                 分野別・総合解説記事(年度をまたいでテーマを横断的に扱う、詳細下記)
