@@ -42,6 +42,8 @@
 
 **たとえば**、分筆の登記を申請するときに、その土地の不動産番号を書いておけば、分筆前の地番などをあらためて書き込む手間を省くことができます。
 
+**なぜこの仕組みが有効なのか**：不動産番号は、登記されている一つ一つの不動産に対して個別に振られている番号で、登記所のコンピューターシステムでは、この番号だけでその不動産の登記記録（所在・地番・地目・地積など）を一意に特定できます。つまり不動産番号を伝えるということは、「この番号の記録を見てください」と登記記録そのものを直接指し示すのと同じことなので、申請人が改めて所在・地番等を手書きで書き写す必要がなくなるのです。実務では、枝番（支号）が何度も分かれている土地や、過去に地番の更正を経た土地など、地番の記載が複雑になりやすい土地ほど、この不動産番号を使った省略が役に立ちます。土地家屋調査士が分筆登記を申請する際は、あらかじめ取得しておいた登記事項証明書に記載されている不動産番号を確認し、地番を一字一句正確に転記する代わりにその番号を申請情報に記載することで、記載ミスによる不一致のリスクを避けられます。ただし、この省略が使えるのは、その不動産がすでに登記されていて不動産番号が付いている場合に限られます。表題登記のように、まだ登記記録自体が存在しない不動産を新たに登記する場合には、参照すべき番号がまだ存在しないため、所在・地番などを省略せずに記載しなければなりません（不動産登記規則34条4項）。
+
 ### オ：地番区域が異なる土地は、接続していても合筆できない
 
 合筆の登記は、複数の登記記録を1つにまとめるものなので、地目または地番区域が相互に異なる土地についてはすることができません（不動産登記法41条2号）。土地が物理的に接続していても、地番区域が違えば合筆できません。したがって本肢は誤りです。
@@ -67,6 +69,8 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠のうち、ア（準則67条2項）、ウ（不動産登記規則88条1項・2項）、エ（不動産登記法27条4号、令6条1項、規則34条2項）、オ（不動産登記法41条2号）はデータベースのexplanation欄で条文番号まで明記されているものです。イ（地番区域の誤りに対し所有権の登記名義人も更正を申請できること）は同欄の説明に基づきますが、根拠条文（不動産登記法38条）については確認事項として付記します。
+- **現行法チェック（条文原文で確認）**：イの根拠条文について、法令原文（`note-articles/laws/fudousan-touki-hou.md`）で確認したところ、不動産登記法38条は「第27条第1号・第2号・第4号又は第34条第1項第1号・第3号・第4号に掲げる登記事項に関する更正の登記は、表題部所有者又は所有権の登記名義人以外の者は、申請することができない」と規定しており、34条1項1号（土地の所在する市・区・郡・町・村及び字＝地番区域を構成する字）が含まれているため、地番区域（字）の誤りについても所有権の登記名義人が更正の登記を申請できることが条文上確認できました。結論は変わりません。
+- **エの補足説明について**：不動産番号による省略の仕組みが有効な理由（登記記録を一意に特定できるため、所在・地番等の転記が不要になること）と、土地家屋調査士の実務での使い方（登記事項証明書の不動産番号を確認して地番の転記ミスを避ける）を補足しました。あわせて、この省略が使えるのは既に不動産番号が付いている既登記の不動産に限られ、表題登記のように登記記録が存在しない不動産には使えないこと（不動産登記規則34条4項）も付記しています。結論（本肢は誤り＝地番の記載は省略できる）自体は変わりません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（地番・地番区域の取扱い）と同一・類似の問題が再出題されていないかを確認しました。「地番」を扱う問題は令和3年度第9問（地番又は家屋番号）・令和元年度第19問（合筆の履歴と地番）にもありますが、いずれも具体的な数字を用いた地番の変遷や家屋番号との関係を問う内容で、本問の5つの論点（符号を含む地番の申請時の記載、地番区域の誤りに対する更正の申請適格、地積測量図の地番訂正、不動産番号による記載省略、地番区域が異なる土地の合筆の可否）とは異なるものでした。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -148,8 +152,9 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 不動産番号があれば地番は省略できる
 Illustration: 分筆登記の申請書アイコンに「不動産番号：◯◯◯◯」のバーコード風
-ラベルが貼られている。その下にある「分筆前の地番」「地目」「地積」の記入欄には
-省略を示す緑の波線が引かれる。
+ラベルが貼られている。そのラベルから登記所のデータベースアイコンへ矢印が伸び、
+「登記記録を直接特定」という小さな注記が添えられる。その下にある「分筆前の地番」
+「地目」「地積」の記入欄には省略を示す緑の波線が引かれる。
 Conclusion tag (a short colored banner/pill directly below the illustration,
 green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
 legal citation):
@@ -214,4 +219,108 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・図解）
+
+エ肢の結論（不動産番号を提供すれば地番等の記載は省略できる）について、なぜこの仕組みが有効なのか・実務でどう使うのか・使えない場合は何かを3ステップの流れで見せる図解として構成した画像生成プロンプト。②問題全体のインフォグラフィックと同じ、縦長ポートレート・カラー・フラットデザイン・アイソメトリックの画風を採用している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric database server,
+registry ledger books, barcode-style number tags, application documents,
+a vacant land plot, downward arrows connecting panels — adapt icon set to
+the topic).
+
+GLANCEABLE-DIAGRAM REQUIREMENT (critical): This is a 3-step explainer
+diagram, NOT a text-heavy document. There is NO paragraph of prose
+anywhere in the image. Each panel must communicate its point almost
+entirely through the illustration (icons, stamps, checkmarks, X marks,
+short embedded labels) plus one short heading and one short caption line.
+Do NOT render any full-sentence explanation or legal citation anywhere in
+the image. The three panels are stacked vertically, each connected to the
+next by a bold downward arrow. Leave generous empty space around the
+panels so the composition does not feel cramped in the tall portrait
+frame.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 番・号・録・登・記・所・在・地・積・特・定・転・記・証・題・存 —
+these have Simplified Chinese look-alike forms with visibly different
+stroke shapes, or are easily confused in this context — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+不動産番号があれば、地番は省略できるんです
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第8問 エ－なぜ転記しなくていいのか
+
+--- PANEL 1 (top panel, green) ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+不動産番号は登記記録を一意に特定する
+Illustration: An isometric database server icon representing the registry
+office's system, containing one land plot's registration record labeled
+「所在・地番・地目・地積」. A barcode-style tag reading 「不動産番号」 is
+attached to the record, with a bold arrow pointing directly from the tag
+to the record to show the number pinpoints that exact record.
+Caption (small text below):
+不動産番号を伝えれば、その登記記録を直接指し示すことができる
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, connecting Panel 1 to Panel 2.
+
+--- PANEL 2 (middle panel, blue) ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+実務では転記ミスを避けられる
+Illustration: A land and building surveyor figure (土地家屋調査士) holding
+a registration certificate document (登記事項証明書) with a complex,
+branching 地番 label (e.g. 「◯番3-2」) on it. Beside the surveyor, an
+application form shows only the 「不動産番号」 filled in with a green
+checkmark, while the complicated 地番 field is greyed out with a small
+label 「転記しない」.
+Caption (small text below):
+複雑な地番を書き写す代わりに、不動産番号を記載するだけで済む
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, connecting Panel 2 to Panel 3.
+
+--- PANEL 3 (bottom panel, gray/orange, marked as an exception) ---
+Badge: a filled orange circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題登記にはこの省略は使えない
+Illustration: An isometric vacant, unregistered land plot with no
+registration record icon beside it, and a red X mark over an empty
+barcode-tag outline labeled 「不動産番号：まだ無い」. Beside it, a
+表題登記の申請書 shows the 「所在・地番・地目・地積」 fields fully filled
+in by hand with a green checkmark, showing they cannot be omitted here.
+Caption (small text below):
+登記記録がまだない土地には、参照すべき番号自体が存在しない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第8問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 番・号・録・登・記・所・在・地・積・特・定・転・記・証・題・存. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm there are exactly 3
+panels, stacked vertically and connected by two downward arrows showing
+the flow from Panel 1 to Panel 2 to Panel 3, with no duplicated or
+missing panels, and confirm every heading and caption text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
 ```

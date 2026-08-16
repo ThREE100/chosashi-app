@@ -207,3 +207,118 @@ tag, at a glance. Confirm the 5 card headings are exactly: (1) 線の太さは
 Confirm Card 3 shows the compass (方位) as present and required, NOT
 crossed out or omitted.
 ```
+
+---
+
+## インフォグラフィック プロンプト（肢別・記録事項一覧）
+
+オについて、地積測量図に記録すべき10の事項（不動産登記規則77条1項各号）を早見表形式で俯瞰する個別インフォグラフィック。方位（2号）と座標値（8号）がそれぞれ独立した必須事項であり、片方の記録がもう片方を代替しないことを強調する構成。portrait 1080×2200px、単一列の早見表型。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2200 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric survey map sheet,
+compass, ruler, coordinate grid, boundary markers — adapt icon set to
+each row's topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+checklist poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the checklist. Each row must communicate its
+point almost entirely through a small icon plus the item name itself (the
+item name is the required legal text, not something to compress further).
+Do NOT render any full-sentence explanation or paragraph of body text
+anywhere on the poster except the callout box specified below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 積・録・地・番・区・域・方・位・縮・尺・筆・界・標・座 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 2行):
+地積測量図に記録すべき
+10の事項
+
+Subtitle (smaller, centered, 1行):
+平成28年度 午後の部 第11問 肢オ－不動産登記規則77条1項各号を一覧で整理
+
+（タイトル・サブタイトルのすぐ下にCHECKLISTを続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CHECKLIST ---
+Render as a clean flat-design vertical list with alternating row
+background colors (light blue / white), Japanese sans-serif font, no
+monospace font. Each row has a small circular numbered badge (1〜10) on
+the left, a small isometric icon, and the item name in Japanese to its
+right. Reproduce all 10 rows exactly as written below, in this exact
+order — do not omit, duplicate, merge, reorder, renumber, or paraphrase
+any row.
+
+1. 地番区域の名称
+   Icon: an isometric name-plate label attached to a stylized land-area
+   outline.
+2. 方位
+   Icon: an isometric compass rose pointing north. This is the ONLY
+   compass icon anywhere on this poster.
+3. 縮尺
+   Icon: an isometric ruler with a scale-bar marking (例: 250分の1 style
+   tick marks, no specific number required).
+4. 地番
+   Icon: an isometric land plot with a small numbered address tag.
+5. 地積及びその求積方法
+   Icon: an isometric land plot with a calculator and area-formula
+   symbol beside it.
+6. 筆界点間の距離
+   Icon: an isometric dotted line connecting two boundary points (筆界点)
+   with a distance measurement arrow between them.
+7. 平面直角座標系の番号又は記号
+   Icon: an isometric coordinate grid with a small system-number tag
+   (e.g. a numbered/lettered zone label, no specific number required).
+8. 基本三角点等に基づく測量の成果による筆界点の座標値
+   Icon: an isometric survey grid showing coordinate values (X, Y style
+   numeric labels, no specific numbers required) plotted at boundary
+   points. This icon must NOT include a compass or direction arrow of
+   any kind — keep it visually distinct from item 2's icon.
+9. 境界標
+   Icon: an isometric boundary marker stake/monument planted in the
+   ground at a corner point.
+10. 測量の年月日
+    Icon: an isometric calendar page with a date stamp.
+
+--- CALLOUT BOX (below the checklist, visually distinct framed box) ---
+Heading (bold, ONE line):
+方位と座標値は、どちらも必須
+Content: A single isometric scene showing item 2 (方位/compass icon) and
+item 8 (座標値/coordinate-grid icon) side by side, both glowing with a
+green checkmark, connected by a label reading "どちらか一方では足りない".
+Do not cross out or fade either icon — both must appear equally required,
+with no arrow or link implying one replaces the other.
+Caption (small text below, one line, verbatim):
+基本三角点等に基づく座標値を記録しても、方位の記録を省略することはできない
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第11問 肢オ（不動産登記規則77条1項）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 積・録・地・番・区・域・方・位・縮・尺・筆・界・標・座. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the checklist has exactly 10 rows,
+numbered 1 through 10 in the exact order given above, with no row omitted,
+duplicated, merged, renumbered, or reworded. Confirm exactly ONE compass
+icon appears on the entire poster (row 2), and that row 8's icon contains
+no compass or direction arrow. Confirm the callout box shows both row 2
+and row 8 as equally required (both glowing, neither crossed out or
+faded), and confirm every row label and the callout caption match the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters.
+```

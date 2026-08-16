@@ -30,6 +30,8 @@
 
 **たとえば**、紙で作成した建物図面や各階平面図を電子申請でそのままスキャンして送るという方法は認められておらず、電子申請にふさわしい形式であらためて作成し直す必要があります。
 
+**最初から電子データとして作成した図面は提供できるのか**：ここで禁止されているのは、あくまで「紙で作られた図面をスキャナで読み取って電磁的記録にする」という方法だけです（不動産登記令13条1項は、添付情報が「書面に記載されているとき」に電磁的記録化を認める規定であり、対象がもともと紙の書面であることが前提になっています）。これに対して、最初から電子データとして作成された建物図面・各階平面図は話がまったく別で、電子申請で送信する場合、これらの図面はもともと法務大臣が定める方式（測量座標データ等）に従って電子的に作成しなければならないとされています（不動産登記規則73条1項）。つまり、電子申請であらためて紙をスキャンし直す必要はなく、最初から電子申請専用の方式で作成した図面データをそのまま送信するのが、電子申請における正しい提供方法です。本肢が扱っているのは、あくまで「紙の図面をスキャンして流用できるか」という限定された論点であり、電子データそのものとして作成した図面が使えないという話ではない点に注意してください。
+
 ### ウ：工事完了引渡証明書に添える代表者資格証明書には、3か月の期間制限がない
 
 表題部所有者となる者の所有権を証する情報として、施工会社が作成した工事完了引渡証明書とあわせてその会社の代表者の資格を証する書面（登記事項証明書など）を提供する場合、この資格証明書には作成後の期間制限は定められていません。「作成後3月以内のものでなければならない」とする本肢は誤りです。
@@ -47,6 +49,14 @@
 区分建物ではない建物について、二人以上の者を表題部所有者とする表題登記の申請は、保存行為として、共有者のうちの一人から単独ですることができます（民法252条5項、不動産登記令3条1項9号参照）。持分は申請情報に記録する必要がありますが、申請自体は一人で足ります。本肢は正しい記述です。
 
 **たとえば**、兄弟2人で共有名義にして新築した家の表題登記は、兄弟のどちらか一人だけで申請することができ、もう一人が申請の場に立ち会う必要はありません。
+
+**区分建物との違いを整理すると**：区分建物（マンションの1室など）についても、1つの専有部分を複数人が共有名義にしている場合は、本肢と同じ考え方で、保存行為として共有者の一人から単独で表題登記を申請できます（民法252条5項）。ここまでは共通のルールです。
+
+区分建物で特に注意したいのは、共有とは別の場面です。一棟の建物の中に他の区分建物（他の専有部分）が存在するときは、話が変わります。新築マンションのように、一棟の中に複数の専有部分があり、それぞれ別々の所有者がいる場合には、ある専有部分だけを先に単独で表題登記することはできず、同じ一棟に属する他の専有部分についての表題登記と、まとめて一つの申請でしなければなりません（不動産登記法48条1項）。そして、この一括申請をするときは、専有部分の所有者のうちの一人が、他の専有部分の所有者に代わって、その分もまとめて申請することができます（同条2項）。
+
+この「代わって申請できる」という仕組みは、共有者どうしの関係ではなく、別々の専有部分をそれぞれ単独で所有する者どうしの関係で働く点に注意してください。本肢のような共有のケースと、区分建物の一括申請のケースは、似ているようで場面がまったく異なります。
+
+**たとえば**、兄弟2人で共有名義にして新築した一戸建ての表題登記は、区分建物でなければ兄弟のどちらか一人だけで申請できます。これに対して、新築マンションの1階と2階にそれぞれ専有部分を持つことになるＡさんとＢさんの場合は、Ａさんが自分の専有部分だけ先に表題登記を済ませることはできず、Ｂさんに代わってＢさんの専有部分の分もまとめて申請することができます。
 
 ### まとめ
 
@@ -67,7 +77,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（5番＝エ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠のうち、イ（不動産登記令13条1項かっこ書）、オ（民法252条5項、不動産登記令3条1項9号）はデータベースのexplanation欄で条文番号まで明記されているものです。ア（借地権証明情報の提供不要）、ウ（代表者資格証明書に期間制限がないこと）、エ（地方公共団体の嘱託における所有権証明情報の省略）は、同欄の説明に基づく整理ですが、個別の条文番号までは明示されていません。
+- **イの補足説明について**：「最初から電子データとして作成した図面は提供できるのか」という点を法令原文（`note-articles/laws/fudousan-touki-rei.md`の令13条1項、`note-articles/laws/fudousan-touki-kisoku-1.md`の規則73条1項）で確認し、追記しました。令13条1項が禁止しているのは、あくまで紙で作られた図面をスキャンして電磁的記録化する方法に限られ、最初から法務大臣が定める方式で電子的に作成した図面（規則73条1項）は、この禁止の対象外であることを整理しました。結論（本肢は誤り）自体は変わりません。
 - **現行法チェック**：オの根拠条文について、データベースのexplanation欄には「民法252条ただし書」と記載されていましたが、令和3年民法改正（令和5年4月1日施行）により民法252条は大幅に改正され、「保存行為は各共有者が単独ですることができる」旨の規定は、旧法の「ただし書」ではなく、現行法では「252条5項」に位置づけられています（`note-articles/laws/minpou-1-soukyoku-bukken.md`で条文原文を確認）。本記事の条文引用は現行の項番号に修正済みです。結論（共有者の一人から単独で申請できること）自体は改正の前後で変わりません。
+- **オの補足説明について**：「区分建物の場合はどうなるか」を法令原文（`note-articles/laws/fudousan-touki-hou.md`の不動産登記法48条1項・2項）で確認し、追記しました。1戸の専有部分を複数人で共有するケース自体は本肢と同じ結論（共有者の一人から単独申請可）ですが、一棟の建物に他の区分建物（他の専有部分）があるときは、それらの表題登記をまとめて一つの申請でしなければならず（48条1項）、専有部分の所有者の一人が他の専有部分の所有者に代わって申請できる（同条2項）という、区分建物特有の一括申請の仕組みがあることを整理しました。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（建物の表題登記の添付情報）と同一・類似の問題が再出題されていないかを確認しました。**強い重複が見つかりました**：本問ア（土地の賃借人が建物の表題登記を申請する場合、借地権を有することを証する情報の提供は不要）と、令和7年度第14問エは、文言・結論がほぼ完全に一致しています（同エも「提供しなければならない」という誤った記述で出題され、不要という結論は共通）。また令和5年度第7問オ（地方公共団体の嘱託で所有権証明情報の提供を省略できる）は、本問エと同じ論点です。「建物の表題登記」は令和2年度第16問（合体）でも扱われていますが、そちらは合体登記固有の論点で本問との直接の重複はありません。将来この年度についてnote記事を作成する際は、令和7年度第14問との内容の重複に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -206,4 +218,98 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・図解）
+
+オ肢の結論（区分建物でない建物の共有の表題登記は、共有者の一人から単独で申請できる）について、区分建物の場合との違いを対比する図解として構成した画像生成プロンプト。②問題全体のインフォグラフィックと同じ、縦長ポートレート・カラー・フラットデザイン・アイソメトリックの画風を採用している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (icons: an isometric single-family
+house, an isometric multi-unit condominium building, application
+documents, a registry office, a versus-style divider between panels —
+adapt icon set to the topic).
+
+GLANCEABLE-DIAGRAM REQUIREMENT (critical): This is a 2-panel comparison
+diagram (not a chronological flow), NOT a text-heavy document. There is
+NO paragraph of prose anywhere in the image. Each panel must communicate
+its point almost entirely through the illustration (icons, checkmarks, X
+marks, short embedded labels) plus one short heading and one short
+caption line. Do NOT render any full-sentence explanation or legal
+citation anywhere in the image. The two panels are stacked vertically,
+separated by a horizontal divider labeled 「対して」 (rather than a
+time-flow arrow, since this is a side-by-side comparison, not a sequence
+of steps). Leave generous empty space around the panels so the
+composition does not feel cramped in the tall portrait frame.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 区・分・建・共・有・者・単・独・棟・専・有・部・申・請・登・記・
+括 — these have Simplified Chinese look-alike forms with visibly different
+stroke shapes, or are easily confused in this context — always draw the
+standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+共有名義でも一人で申請できるんです
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第14問 オ－区分建物との違い
+
+--- PANEL 1 (top panel, green) ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物でない建物は一人で申請できる
+Illustration: An isometric single-family house shared by two co-owner
+figures (兄・弟). One figure alone walks to the registry office counter
+holding a 表題登記申請書 with a green checkmark, while the other figure
+stays at home, not needing to be present. A small label reads 「保存行為
+だから単独で足りる」.
+Caption (small text below):
+共有物の保存行為として、共有者のうちの一人から単独で表題登記を申請できる
+
+--- DIVIDER ---
+A horizontal divider bar with the label 「対して」 in the center,
+separating Panel 1 from Panel 2 (this is a comparison, not a sequence —
+do not draw a directional arrow here).
+
+--- PANEL 2 (bottom panel, blue) ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+区分建物は他の専有部分とまとめて申請
+Illustration: An isometric multi-unit condominium building under
+construction, with two separate owner figures (Ａ・Ｂ) each assigned to a
+different floor's 専有部分 (1階・2階). Owner Ａ submits ONE combined
+表題登記申請書 covering both 専有部分 labels 「Ａの専有部分」and「Ｂの
+専有部分」at the registry counter, with a green checkmark, while Owner Ｂ
+is shown at a distance, not present. A small label reads 「Ｂに代わって
+まとめて申請」.
+Caption (small text below):
+一棟内の他の専有部分とまとめて一つの申請をし、所有者の一人が他の所有者に
+代わって申請できる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第14問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 区・分・建・共・有・者・単・独・棟・専・有・部・申・請・登・記・括.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm there are exactly 2
+panels, stacked vertically and separated by one horizontal divider
+labeled 「対して」 (not a time-flow arrow), with no duplicated or missing
+panels, and confirm every heading and caption text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters.
 ```

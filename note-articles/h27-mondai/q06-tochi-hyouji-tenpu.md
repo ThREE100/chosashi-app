@@ -42,6 +42,8 @@
 
 **たとえば**、マンションの敷地とされている規約敷地の一部を切り離す（分筆する）とき、その分筆の申請そのものに「この土地を規約で敷地にしましたよ」という証明書を付け直す必要はありません。
 
+**実務の流れで見る理由**：規約を定めて敷地権とした場合、登記官は建物の登記記録に敷地権の記録をするのとあわせて、職権でその土地自体の登記記録にも「敷地権である旨の登記」を記録します（不動産登記法46条）。つまり、規約敷地であるという事実は、規約を設定した時点で既にその土地の登記記録そのものに反映されているのです。そのため、後になってこの土地を分筆する際には、登記官は土地の登記記録を見るだけで規約敷地であることを確認できるので、申請人が改めて規約の存在を証明する書類を提出する必要がありません。証明が必要になるのは、規約を設定して敷地権として最初に登記するときだけであり、その後の分筆のような手続きでは重ねて証明を求められることはない、という流れで理解すると整理しやすくなります。
+
 ### オ：承役地の合筆で地役権範囲が一部のときは、地役権者作成情報と地役権図面が必要
 
 地役権の登記がある承役地について合筆の登記を申請する場合において、地役権設定の範囲が登記後の土地の一部であるときは、その地役権設定の範囲を証する地役権者が作成した情報（地役権証明書）又は当該地役権者に対抗することができる裁判があったことを証する情報を、地役権図面と併せて提供する必要があります（不動産登記令別表9項添付情報）。
@@ -67,6 +69,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア（不動産登記規則37条1項）、ウ（不動産登記法17条／民法111条1項1号）、オ（不動産登記令別表9項添付情報）はデータベースのexplanation欄で条文番号まで明記されているものです。一方、イ（分筆の登記が形成的登記であり登記原因が存在しないこと）とエ（規約敷地の分筆で規約を証する情報が不要であること）については、条文番号は明示されておらず、一般原則からの説明にとどまっています。
+- **エの補足説明について**：エの結論（規約設定証明情報は不要）は変わりませんが、なぜ不要なのかが実感しにくいという声を踏まえ、実務の流れに沿った補足段落を追加しました。規約を設定して敷地権とする際、登記官が職権でその土地自体の登記記録に「敷地権である旨の登記」を記録する規定（不動産登記法46条）を根拠に、規約敷地であることが既にその土地の登記記録に反映されている、という流れを説明しています。
 - **現行法チェック（条文原文で確認）**：オの根拠として当初「不動産登記令別表8項添付情報ロ」としていましたが、法令原文（`note-articles/laws/fudousan-touki-rei-betsuhyou.md`）で確認したところ、別表8項は「地役権の登記がある承役地の**分筆**の登記」に関する項目でした。本肢オは承役地の**合筆**の登記の場面であり、正しい根拠は別表**9項**添付情報（イ・ロの区分のない単一項目で、内容は本肢と一致）です。本文・本項目とも修正しました。結論（地役権者作成情報・地役権図面が必要）自体は変わりません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（土地の表示登記の申請情報・添付情報）と同一・類似の問題が再出題されていないかを確認しました。**部分的な重複が見つかりました**：本問エ（規約敷地が区分建物と異なる登記所の管轄区域内にあるときの規約設定証明情報の要否＝不要）と同一の論点・同一の結論が、令和2年度第14問アにほぼそのままの文言で再出題されています。「土地の表示に関する登記の申請情報又は添付情報」という同一タイトルの問題は令和元年度第8問にもありますが、その具体的な論点（合筆時の登記識別情報提供不能理由の記載、官公署嘱託時の所有権証明情報の省略可否）は、本問ではなく別のH27の問題（第9問・第14問）と重なる内容でした。将来この年度についてnote記事を作成する際は、内容の重複に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -209,4 +212,91 @@ no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・図解）
+
+エ肢の結論（規約敷地を分筆しても、規約設定を証する情報の提供は不要）を、単発の見出し画像ではなく、なぜそうなるのかという仕組みを2ステップの流れで見せる図解として構成した画像生成プロンプト。②問題全体のインフォグラフィックと同じ、縦長ポートレート・カラー・フラットデザイン・アイソメトリックの画風を採用している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, registry
+ledger books, official stamps, torn-paper document labels, a downward
+arrow connecting panels — adapt icon set to the topic).
+
+GLANCEABLE-DIAGRAM REQUIREMENT (critical): This is a 2-step process
+diagram, NOT a text-heavy explainer document. There is NO paragraph of
+prose anywhere in the image. Each panel must communicate its point almost
+entirely through the illustration (icons, stamps, checkmarks, X marks,
+short embedded labels) plus one short heading and one short caption line.
+Do NOT render any full-sentence explanation or legal citation anywhere in
+the image. The two panels are stacked vertically, with a bold downward
+arrow connecting Panel 1 to Panel 2, showing the flow of time
+(規約設定時→分筆時). Leave generous empty space above and below the two
+panels so the composition does not feel cramped in the tall portrait
+frame.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 規・約・敷・地・証・明・書・録・職・権, which have Simplified
+Chinese look-alike forms with visibly different stroke shapes — always
+draw the standard Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+規約敷地を分けるとき、規約の証明はいらないんです
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第6問 エ－なぜ証明書が不要なのか
+
+--- PANEL 1 (upper panel) ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+規約設定時に登記官が職権で記録
+Illustration: An isometric land plot with a small building icon
+representing 敷地権付き区分建物 above it. A registrar figure (登記官)
+stamps a ledger book labeled 「土地の登記記録」 with a badge reading
+「敷地権である旨の登記」, without any applicant figure handing over
+documents (示す：職権でされること).
+Caption (small text below):
+規約を設定して敷地権とすると、登記官が職権でその土地の登記記録に記録する
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, with a small time-flow label
+「後日」 beside it, connecting Panel 1 to Panel 2.
+
+--- PANEL 2 (lower panel) ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+分筆時は登記記録を見るだけで足りる
+Illustration: The same land plot, now split by a dotted line into two
+parcels (representing 分筆). A surveyor figure points at the already-
+stamped 「敷地権である旨の登記」 badge on the ledger book from Panel 1,
+while a separate document labeled 「規約設定証明書」 has a large red X
+mark over it, showing it is not submitted.
+Caption (small text below):
+登記官は登記記録を見れば確認できるので、規約設定証明書の提出は不要
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第6問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 規・約・敷・地・証・明・書・録・職・権. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly 2 panels, stacked
+vertically and connected by one downward arrow showing the time flow from
+Panel 1 to Panel 2, with no duplicated or missing panels, and confirm
+every heading and caption text matches the Japanese text given above
+verbatim, with no paraphrasing and no substituted characters.
 ```
