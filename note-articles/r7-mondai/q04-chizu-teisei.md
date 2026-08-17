@@ -44,6 +44,8 @@
 
 **たとえば**、自分の土地の境界線のズレを直そうとしたら、連動して隣の土地の境界線の位置もつられて動かさなければ地図の整合性が取れなくなる、というケースを考えてください。隣人が関与していない一方的な申出だけで、隣の土地の地図データまで書き換えることは認められません。
 
+**実際に地図の訂正を行うにはどうすればよいか**：却下されて終わりではなく、実務では次のような対応を取ります。まず、土地家屋調査士が影響を受ける両方の土地の現地に立ち会い、隣接地の所有者とともに正しい筆界の位置を確認します（筆界確認・境界立会）。双方が同じ筆界で合意できれば、その結果に基づいて地積測量図等の資料を整え、**影響を受ける両方の土地の所有者が申出人となって、まとめて地図訂正の申出をする**のが一般的な進め方です。もし境界の位置について所有者間で意見が食い違い、合意に至らない場合は、法務局の筆界特定制度を利用して筆界特定登記官に筆界を特定してもらう手続きに進むこともあります。なお、登記官が誤りに気づいた場合は申出を待たずに職権で訂正することもできますが（同条15項）、これはあくまで登記官の判断に委ねられているため、申出人の側から確実に訂正を実現するには、隣接地の所有者を含めた共同での申出が実務上の基本になります。
+
 ### オ：共有者が2人いても、1人だけで地図訂正の申出ができる
 
 土地の所有者が2人（共有）の場合でも、地図訂正の申出（不動産登記規則16条1項）は共有者のうちの1人だけで行うことができます。共有物の保存行為は各共有者が単独ですることができるとされており（民法252条5項）、地図訂正の申出は財産を処分したり減らしたりする行為ではなく、記録を正しい状態に保つための「**保存行為**」に近い性質を持つことが、単独での申出を認める根拠となっています。
@@ -69,6 +71,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（1番＝ア・ウ）は法務省公表の試験問題原本・正答資料で確認済みです。
 - 各肢の法的根拠として、不動産登記規則16条1項・2項・13項6号・15項、民法252条5項を確認のうえ記載しており、ア〜オいずれも一般論ではなく条文に基づく解説です。特に肢アは、規則16条1項が「することができる」という任意形の規定であることを踏まえ、地図訂正の申出に期限の定めが一切ない旨を条文に即して修正しています。
+- **エの補足説明について**：エ（他の土地まで巻き込む訂正は却下されること）について、実際に地図を訂正するための実務対応（土地家屋調査士による隣接地所有者との筆界確認・双方を申出人とする共同での地図訂正申出、合意に至らない場合の筆界特定制度の利用）を補足しました。この却下事由自体は不動産登記規則16条13項6号で条文上確認済みですが、その後の実務対応の部分は、同条1項・15項の条文構造と一般的な土地家屋調査士実務から導かれる内容であり、個別の先例・通達文言までは確認できていません。結論（エは正しい）自体は変わりません。
 
 ---
 
@@ -196,4 +199,100 @@ intro illustration or paragraph block between the header and the cards,
 and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・図解）
+
+エ肢の結論（他の土地まで巻き込む訂正は一方的な申出だけではできない）について、実際に地図の訂正を実現するための実務上の流れ（却下→筆界確認→共同申出）を3ステップの流れで見せる図解として構成した画像生成プロンプト。②問題全体のインフォグラフィックと同じ、縦長ポートレート・カラー・フラットデザイン・アイソメトリックの画風を採用している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, a
+registry office counter, survey stakes, two land-and-building surveyor
+figures, a joint application document, downward arrows connecting panels
+— adapt icon set to the topic).
+
+GLANCEABLE-DIAGRAM REQUIREMENT (critical): This is a 3-step explainer
+diagram, NOT a text-heavy document. There is NO paragraph of prose
+anywhere in the image. Each panel must communicate its point almost
+entirely through the illustration (icons, checkmarks, X marks, short
+embedded labels) plus one short heading and one short caption line. Do
+NOT render any full-sentence legal citation anywhere in the image. The
+three panels are stacked vertically, each connected to the next by a bold
+downward arrow. Leave generous empty space around the panels so the
+composition does not feel cramped in the tall portrait frame.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 却・下・隣・接・筆・界・確・認・申・出・調・査・士 — these have
+Simplified Chinese look-alike forms with visibly different stroke shapes,
+or are easily confused in this context — always draw the standard
+Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+隣の土地まで動かす訂正、どう進める？
+
+Subtitle (smaller, centered, 1行):
+令和7年度 午後の部 第4問 エ－実際に地図を直すまでの流れ
+
+--- PANEL 1 (top panel, red, showing the rejection) ---
+Badge: a filled red circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+自分の土地だけの申出は却下される
+Illustration: 一人の土地所有者が地図訂正の申出書を登記所の窓口に提出しよ
+うとしている。窓口に赤い「却下」のスタンプが押される。背景に、申出人の
+土地の境界線を直すと隣接地の境界線も連動して動いてしまう様子を薄く示す
+矢印を描く。
+Caption (small text below):
+隣の土地まで動かす内容だと、単独の申出だけでは通らない
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, connecting Panel 1 to Panel 2.
+
+--- PANEL 2 (middle panel, green, showing the boundary confirmation step) ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+隣接地の所有者と筆界を確認する
+Illustration: 測量機材を持った土地家屋調査士と、申出人・隣接地の所有者
+の3人が、現地で境界標を囲んで一緒に確認している場面（境界立会）。3人が
+同じ境界線を指さして合意しているうなずきのアイコンを添える。
+Caption (small text below):
+土地家屋調査士が立ち会い、双方が正しい境界の位置を確認する
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, connecting Panel 2 to Panel 3.
+
+--- PANEL 3 (bottom panel, blue, showing the joint submission and result) ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+両方の土地の所有者でまとめて申出する
+Illustration: 申出人と隣接地の所有者の2人が、1枚の地図訂正申出書に並ん
+で署名している。矢印で登記所の建物へ向かい、地図の境界線が正しく修正
+され、緑のチェックマークが表示される。
+Caption (small text below):
+隣接地の所有者も申出人に加われば、地図をまとめて直せる
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+令和7年度 午後の部 第4問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 却・下・隣・接・筆・界・確・認・申・出・調・査・士. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm there are exactly 3 panels, stacked
+vertically and connected by two downward arrows showing the flow from
+Panel 1 to Panel 2 to Panel 3, with no duplicated or missing panels, and
+confirm every heading and caption text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
 ```
