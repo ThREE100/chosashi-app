@@ -198,3 +198,87 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（肢エ補足）
+
+肢エ（附属建物と他の建物との合体）は、問題全体のインフォグラフィックのCard4では結論タグ1つに圧縮されているため、「通常の建物どうしの合体」と「附属建物が絡む合体」で手続がどう違うのかを対比して示す2枚組の補足インフォグラフィック。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings merging,
+small attached storehouse icons for 附属建物, application documents,
+bundling/paperclip icons, checkmarks, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 属・建・物・合・体・割・請 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+附属建物がからむ合体、手続はどう変わる？
+
+Subtitle (smaller, centered, 1行):
+平成26年度　午後の部　第17問　肢エ－分割の登記と合体による登記等の関係
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+通常の合体は1つの手続で足りる
+Illustration: Two independent isometric buildings, 甲building and
+乙building (neither has an附属建物), merging together via a large arrow
+into one combined building. A single application document below is
+labeled "合体による登記等" with a green checkmark, showing this one
+procedure is all that is needed.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+手続は1つだけ
+
+--- CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+附属建物の合体は2つの登記が必要
+Illustration: 甲building with a small attached storehouse icon labeled
+"附属建物" beside it. An arrow shows the附属建物 separating from 甲building
+first (labeled "分割の登記"), then merging into 乙building (labeled "合体
+による登記等"). Two separate application-document icons are shown side by
+side, each with a green checkmark, connected by a dashed bracket labeled
+"1つの申請情報にまとめることもできる（任意）" — NOT crossed out, showing
+bundling is allowed but optional, not forced into one filing.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+まとめるかは任意
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 2 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```
