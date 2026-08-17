@@ -172,12 +172,18 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 5 ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-2筆にまたがる建物は床面積順
+床面積の多い方/主たる部分が先
 Illustration: An isometric building spanning two land plots of unequal
-size. The larger-floor-area plot's number tag is placed first in a
-record list, followed by the smaller plot's number tag second.
+size, labeled 甲土地 and 乙土地. A small label box beside the building
+shows two alternative criteria for which plot's number goes first: 床面積
+の多い部分 (the plot where more of the building's floor area sits) と
+主である建物の所在する土地 (the plot where the main building is located)
+— in this scene 甲土地 satisfies both criteria. A record-list icon then
+shows 甲土地's number tag placed first, followed by 乙土地's number tag
+second, with a small "又は" (or) connector between the two criteria in
+the label box to show they are alternative, not cumulative, conditions.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-主たる部分が先
+多い方・主たる部分が先
 
 --- FOOTER ---
 
