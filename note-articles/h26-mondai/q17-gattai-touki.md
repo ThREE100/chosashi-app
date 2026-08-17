@@ -142,13 +142,17 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- CARD 2 ---
 Badge: a filled blue circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-税額は9万円ではなく7万2千円
-Illustration: A calculator/receipt icon displaying the calculation
-"6,000万円 ×10分の3 ×1,000分の4＝7万2,000円". A large "9万円" label is
-crossed out with a red X, while "7万2,000円" sits inside a green checked
-box.
+持分の価額だけに保存登記の税率を掛ける
+Illustration: An isometric building where only the "10分の3" portion is
+highlighted in a distinct color and labeled "新たに登記名義人となる持分
+（課税対象）", while the remaining "10分の7" portion (already registered)
+is shown grayed out with a label "対象外". A stamp icon beside it reads
+"所有権保存の登記と同じ税率 1,000分の4". An arrow leads to a calculator
+showing "6,000万円×10分の3×1,000分の4＝7万2,000円". A large "9万円" label
+(a miscalculation using the wrong base or rate) has a red X over it, while
+"7万2,000円" sits inside a green checked box.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-税額は7万2,000円
+持分×保存登記の税率
 
 --- CARD 3 ---
 Badge: a filled blue circle containing the number 3.
