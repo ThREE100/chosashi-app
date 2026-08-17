@@ -42,7 +42,7 @@
 
 **たとえば**、家賃の督促状を受け取りたくない賃借人が、正当な理由もなく郵便物の受け取りを拒否した場合、その督促状は、賃借人が発送した日ではなく、通常であれば届いていたはずの日に到達したものとして扱われます。
 
-### オ：相手方が悪意であっても、心裡留保の無効は善意(過失の有無を問わない)の第三者に対抗できない
+### オ：相手方が悪意であっても、心裡留保の無効は善意（過失の有無を問わない）の第三者に対抗できない
 
 心裡留保による意思表示は、相手方がその意思表示が表意者の真意ではないことを知っていた場合には無効となりますが、この無効は、善意の第三者に対抗することができません（民法93条2項）。ここでいう「善意の第三者」として保護されるために無過失であることまでは要求されていないため、善意でありさえすれば、たとえ過失があったとしても、無効を対抗することはできません。
 
@@ -54,9 +54,9 @@
 - **イ（誤）**　第三者強迫による意思表示は、相手方の善意・悪意にかかわらず取り消せる
 - **ウ（正）**　詐欺取消し前の善意無過失の転得者には、登記がなくても対抗できない
 - **エ（誤）**　到達妨害があった場合は「通常到達すべきであった時」に到達したとみなす
-- **オ（誤）**　心裡留保の無効は、善意(無過失は不要)の第三者に対抗できない
+- **オ（誤）**　心裡留保の無効は、善意（無過失は不要）の第三者に対抗できない
 
-「誰の主観(善意・悪意・過失の有無)が、どの場面で問題になるのか」を条文ごとに正確に切り分けることが、この分野を得点源にするコツです。
+「誰の主観（善意・悪意・過失の有無）が、どの場面で問題になるのか」を条文ごとに正確に切り分けることが、この分野を得点源にするコツです。
 
 **正解：アウの組合せ（選択肢1番）**
 
@@ -67,8 +67,8 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（1番＝ア・ウ）は、土地家屋調査士試験対策アプリのデータベース（takuitsu.json）のcorrectAnswerフィールドで確認済みです。
 - ただし、本問はデータベースのexplanationフィールドが未整備（空欄）だったため、各肢の法的根拠（民法93条2項、95条3項1号、96条2項・3項、97条2項）は、他の記事と異なりデータベースの検証済み解説に基づくものではなく、Web検索によりe-Gov法令検索・法律解説サイトで条文を直接確認した上で記載しています。断定的な表現にはしていますが、根拠の確認経路が他の記事と異なる点にご留意ください。
-- ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、本問より後に実施された試験（2026年7月時点では令和7年度が最新のためデータベース上での比較対象なし）を確認しましたが、令和7年度が現時点で最新年度のデータであるため、重複チェックの対象となる後続年度は存在しません。令和8年度以降の試験がデータベースに追加された際は、この確認を実施してください。
+- アガルートの過去問解説教材は、本作業を行ったクラウド上の実行環境（リポジトリのクローン）には含まれていなかったため、直接は参照できませんでした。
+- **重複出題チェック（2026-08-14実施）**：takuitsu.jsonの全年度を検索した結果、意思表示（錯誤・詐欺・強迫・心裡留保）は令和4年度第2問・平成27年度第1問・平成23年度第1問・平成17年度第2問で類似論点が繰り返し出題されています（具体的な事案・組合せは本問と異なります）。いずれの過去問とも、本問の各肢の結論・条文根拠に矛盾は見つかっていません。令和8年度以降の試験がデータベースに追加された際は、本問が他年度から重複出題されていないかも改めて確認してください。
 
 ---
 
@@ -94,6 +94,17 @@ modern explainer-graphic aesthetic (icons: isometric buildings, land
 plots, stamps, torn paper labels, scales, envelopes, clocks — adapt icon
 set to the topic).
 
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -113,87 +124,83 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 錯誤・強迫・詐欺・心裡留保、誰の主観がどこまで問題になるか
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric scale (天秤) with four sticky-note tags labeled
-「錯誤」「詐欺」「強迫」「心裡留保」balanced on it, with a small character
-holding a magnifying glass in the center.
-意思表示の分野は、錯誤・詐欺・強迫・心裡留保という4つの制度それぞれについて、
-「誰の同意・認識があれば取消し・無効を主張できるのか」「第三者にどこまで
-対抗できるのか」を正確に切り分けられるかが問われます。
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- COLUMN A HEADER (pill-shaped badge) ---
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
 意思表示の瑕疵と取消し
 
 --- COLUMN A, CARD 1 ---
-Heading (bold):
-相手方に重大な過失があれば、表意者の重過失があっても錯誤取消しができる
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+相手方も重過失なら錯誤取消し可
 Illustration: Two isometric characters signing a contract. The left
 character (表意者) has a red exclamation icon labeled「重過失」above their
 head. The right character (相手方) has a magnifying glass icon with closed
 eyes and a red label「重過失」next to a speech bubble. A torn contract with
 a stamp labeled「取消し可能」overlays the scene.
-Caption (small text below):
-相手方に重過失があれば、表意者の重過失があっても錯誤取消しができる
-（民法95条3項1号）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+お互い重過失なら取消し可
 
 --- COLUMN A, CARD 2 ---
-Heading (bold):
-第三者の強迫による意思表示は、相手方の善意・悪意にかかわらず取り消せる
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+第三者強迫は常に取消し可
 Illustration: A hooded isometric figure (第三者) with a raised-fist icon
 threatening a character (売主), who hands a house key to a buyer character
 (買主) with a small question-mark icon labeled「知らなかった」. A large stamp
 labeled「常に取消し可」overlays the scene.
-Caption (small text below):
-第三者の強迫による意思表示は、相手方の善意・悪意にかかわらず常に取り消
-すことができる。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+相手方の善意悪意 問わない
 
 --- COLUMN A, CARD 3 ---
-Heading (bold):
-詐欺取消し前の善意無過失の転得者には、登記がなくても対抗できない
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+善意無過失の転得者に登記なくても対抗不可
 Illustration: A three-panel isometric timeline. Panel 1: a buyer character
 (買主) deceiving a seller character (売主), labeled「詐欺」. Panel 2: the
 buyer selling the house to a third character labeled「善意無過失」, with a
 torn paper label「登記なし」near the house. Panel 3: a shield icon protecting
 the third character from an arrow labeled「取消し」, with a large ×(バツ)
 mark on the arrow to show it cannot reach the third character.
-Caption (small text below):
-詐欺による意思表示の取消しは、善意無過失の第三者に対抗できない。この
-保護に登記は要件とされていないため、登記がなくても対抗できない
-（民法96条3項）。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+登記なくても保護される
 
---- COLUMN B HEADER (pill-shaped badge) ---
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 意思表示の効力・第三者対抗
 
---- COLUMN B, CARD 1 ---
-Heading (bold):
-通知の到達妨害があった場合は、「通常到達すべきであった時」に到達したとみなされる
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+到達妨害は通常到達すべき時に到達
 Illustration: An isometric mail carrier holding an envelope toward a
 character whose door is closing, labeled「受取拒否」. A large clock icon
 shows「発信の時」crossed out and「通常到達すべき時」highlighted with a checkmark.
-Caption (small text below):
-相手方が正当な理由なく通知の到達を妨げたときは、発信の時ではなく、
-通常到達すべきであった時に到達したものとみなす（民法97条2項）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+発信時ではなく到達すべき時
 
---- COLUMN B, CARD 2 ---
-Heading (bold):
-相手方が悪意であっても、心裡留保の無効は善意(過失の有無を問わない)の第三者に対抗できない
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+心裡留保の無効は善意の第三者に対抗不可
 Illustration: An isometric character (表意者) handing a land deed to another
 character (相手方) with a winking icon labeled「冗談と知っていた」. A dashed
 arrow shows the deed passing to a third character with a shield icon and a
 small label「過失があってもよい」.
-Caption (small text below):
-心裡留保による意思表示の無効は、善意(無過失は不要)の第三者に対抗する
-ことができない（民法93条2項）。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+過失あっても善意なら保護
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
 錯・誤・迫・欺・裡・留・保・権・登・記・妨・害. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly (3 cards in
-Column A, 2 cards in Column B), with no duplicated or missing cards, and
-confirm every heading and caption string above matches verbatim with no
-paraphrasing.
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```
