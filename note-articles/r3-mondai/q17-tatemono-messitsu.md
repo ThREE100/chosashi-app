@@ -175,12 +175,12 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 Illustration: Isometric scene: a small room icon labeled "共用部分である
 旨の登記がされている建物" shown demolished as rubble. A person submits two
 document icons side by side, each with a green checkmark ✓: one labeled
-"申請情報" and one labeled "所有者を証する情報". Beside them, a registry
+"申請情報" and one labeled "所有権を証する情報". Beside them, a registry
 record card shows a blank field labeled "所有者" to indicate that no owner
 is publicly recorded for this building.
 Conclusion tag (a short colored banner/pill directly below the
 illustration, green, 5-15 Japanese characters):
-所有者証する情報 必要
+所有権を証する情報 必要
 
 --- CARD 5 ---
 Badge: a filled circle in green containing the number 5.
