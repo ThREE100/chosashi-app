@@ -34,7 +34,7 @@
 
 ### ウ：主たる建物と附属建物が増築で一体化した場合は、合体登記ではなく表題部の変更登記で処理する
 
-不動産登記法49条1項の「合体」は、もともと互いに独立した別個の建物であったものが1個の建物になる場合を対象とする規定です。これに対し、増築工事によって、もともと主従の関係にあった主たる建物と附属建物とが一体化した場合は、両者は登記記録上もともと「1個の建物」として扱われていた（附属建物は主たる建物と一体で1つの不動産として登記される）ため、新たに別個の建物同士が結合したわけではありません。この場合は合体の登記(表題登記+表題部の登記の抹消)ではなく、附属建物の記載を消して主たる建物の床面積が増加した旨を反映させる、建物の表題部の登記事項に関する変更の登記を申請すれば足ります。肢ウの記述はこの取扱いのとおりであり、正しい内容です。
+不動産登記法49条1項の「合体」は、もともと互いに独立した別個の建物であったものが1個の建物になる場合を対象とする規定です。これに対し、増築工事によって、もともと主従の関係にあった主たる建物と附属建物とが一体化した場合は、両者は登記記録上もともと「1個の建物」として扱われていた（附属建物は主たる建物と一体で1つの不動産として登記される）ため、新たに別個の建物同士が結合したわけではありません。この場合は合体の登記（表題登記+表題部の登記の抹消）ではなく、附属建物の記載を消して主たる建物の床面積が増加した旨を反映させる、建物の表題部の登記事項に関する変更の登記を申請すれば足ります。肢ウの記述はこの取扱いのとおりであり、正しい内容です。
 
 **たとえば**、母屋（主たる建物）と、渡り廊下でつながった離れの物置（附属建物として登記されている）を増築でひと続きの建物にしたとします。もともと登記簿上は母屋と物置は1つの建物の中の「主たる建物」「附属建物」という関係にすぎないので、合体の登記という大がかりな手続ではなく、附属建物の記載を消して主たる建物の床面積が増えた旨を届け出る変更登記で処理することになります。
 
@@ -70,6 +70,9 @@
 - 出題年度・問題番号・正解番号（平成19年度午前の部第6問、正解2番＝ア・エ）は、ユーザー提供の原本書き起こしに基づいています。なお、原本の表紙は「試験問題（午前の部）」であり、この年度の出典行は「午前の部」と表記しています。
 - 条文レベルで確認できた根拠：`note-articles/laws/fudousan-touki-hou.md`のローカル法令データベース原文で、不動産登記法49条1項本文（合体後の建物の表題登記及び合体前の建物の表題部の登記の抹消を合体の日から1月以内に申請する旨）、同項3号（合体前の建物がいずれも表題登記がある建物のみである場合は当該建物の表題部所有者が申請権者となる旨）、47条1項（新築した建物の所有権を取得した者は取得の日から1月以内に表題登記を申請する旨）を条文の文言そのままで突合しました。肢アの「隔壁除去による1個化が49条1項の合体に該当し、合体前建物は滅失の登記ではなく表題部の登記の抹消の対象となる」という判断、肢イの「合体前の建物がいずれも未登記の場合は49条2項により47条1項の新築の原則が準用される」という整理、肢オの「双方が表題登記のみの建物である場合は49条1項3号により表題部所有者が申請権者となる」という判断は、いずれも条文原文の文言で確認できています。肢エについても、50条（合体に伴う権利の消滅の登記）の原文を確認したところ、抵当権等の登記名義人の承諾を証する情報が提供されたときに当該権利を消滅させる登記をする旨が定められているのみで、抵当権の登記の有無が合体前の建物間で食い違うことを理由に合体による登記等の申請自体を禁止する規定は49条・50条のいずれにも見当たりませんでした。
 - 一般原則からの推論にとどまる部分：肢ウ（主たる建物と附属建物の増築による一体化は合体登記ではなく表題部の変更登記で処理する）については、不動産登記事務取扱手続準則の「附属合併」に関する規定（主たる建物と附属建物の関係にない建物同士の合併を却下事由とする規定等）から、主従関係にある建物同士の一体化が49条の「合体」（もともと別個の建物であったものが1個の建物になる場合）とは異なる規律に服することは裏付けられるものの、この結論を直接明記する条文の号までは、一次資料の条文原文で字面を突き合わせる確認はできていません。実務・調査士事務所の解説サイトでの一致した記載を根拠としている点は従前どおりです。
+- **重複出題チェック（2026年8月実施）**：`src/data/takuitsu.json`を検索したところ、「合体」を扱う問題は平成18年度第18問、平成20年度第15問、平成21年度第18問、平成23年度第18問、平成26年度第17問、平成28年度第15問、令和2年度第16問、令和4年度第15問、令和5年度第16問など非常に頻出の分野であることを確認しました。ただし、それぞれ登録免許税・持分の割合を証する情報・抵当証券の所持人の承諾・敷地権の登記の有無など、本問（隔壁除去と抹消の区別、未登記建物同士の新築原則、主従建物の増築一体化、抵当権の有無の食い違い、双方表題登記のみの場合の申請権者という5つの論点の組合せ）とは異なる添付情報・登録免許税の論点を中心に出題されており、本問と同一の5論点の組合せでの出題は見当たりませんでした。なお、平成23年度第18問の肢アは主従建物の増築一体化（本問の肢ウと同種の論点）を、平成21年度第18問の肢アは隔壁除去による区分建物の一体化（本問の肢アと同種の論点）を個別に扱っており、論点の一部は他年度でも繰り返し問われていますが、5論点の組合せとしては本問固有のものです。
+- **最新法令チェック（2026年8月実施）**：本文で引用している不動産登記法47条1項・49条1項本文及び同項3号・49条2項・50条について、`note-articles/laws/fudousan-touki-hou.md`（取得日2026-08-04、e-Govが現行としている最新版）の原文で内容を確認しました。合体による登記等に関する規律（滅失ではなく抹消として処理する点、未登記建物同士は新築の原則が準用される点、抵当権等の権利消滅は承諾情報の提供により処理し申請自体を禁止する規定がない点）は、本記事作成時点から条文上の変更は見当たりません。近時の相続登記義務化・住所変更登記義務化等の改正は、いずれも所有権の登記名義人の相続・住所変更に関する権利部の規律（不動産登記法76条の2等）を対象とするものであり、本問が扱う建物の表示に関する登記（表題登記・表題部の登記の抹消）の合体の規律には影響しません。
+- **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（不動産登記法47条・49条・50条を`note-articles/laws/fudousan-touki-hou.md`原文で直接突合し、判例・先例番号が本文にないことを確認）、B（正解番号2番＝アエと、まとめの判定（ア誤・イ正・ウ正・エ誤・オ正）との整合性を確認）、C（各肢の見出しが正しい結論を表していること、正解の先出しがないこと、敬体で統一されていること、条文解釈プロセスの解説がないことを確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックプロンプトが本文の内容と一致するよう新規作成）、F（テンプレート構造・タイトルのキャッチフレーズ19字＝25字以内・確認事項ブロックの記載を確認）、G（重複出題チェック・最新法令チェックは上記のとおり実施）を行い、全角括弧ルール違反（本文中の半角括弧の全角化）と確認事項ブロックの記述精緻化（ローカル法令データベースでの再確認）を修正しました。正解番号（2番＝ア・エ）と各肢の判定（ア誤・イ正・ウ正・エ誤・オ正）は変更していません。
 
 ---
 
@@ -80,3 +83,123 @@
 - 母屋と物置がくっついても、合体登記じゃないんです
 - 抵当権がついてても、合体登記はできるんです
 - 表題登記だけの建物なら、表題部所有者が申請するんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+合体による登記等の5つの論点（隔壁除去は滅失でなく抹消・未登記建物同士は新築原則・主従建物の増築一体化は変更登記・抵当権の有無が食い違っても合体は可能・双方表題登記のみなら表題部所有者が申請）を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する計5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric buildings, connected
+rooms, official stamps/seals, calendars, consent documents, prohibition
+marks — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 合・体・滅・失・抹・消・登・記・題・部・権・築・変・更・申・請 —
+these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+合体による登記等、5つの分かれ道
+
+Subtitle (smaller, centered, 1行):
+平成19年度 午前の部 第6問－滅失と抹消、合体になる場合とならない場合
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled blue circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+隔壁除去は滅失でなく抹消
+Illustration: An isometric view of two adjoining condominium unit rooms
+labeled 「甲」 and 「乙」 with a wall between them being removed by a
+worker with a hammer, becoming one larger room. A red stamp reading
+「滅失の登記」 has a large red X mark over it, while a green checkmark
+stamp reading 「表題部の登記の抹消」 is pressed onto the two original
+room outlines.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+表題部の登記の抹消
+
+--- CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+未登記建物同士は新築と同じ扱い
+Illustration: Two isometric unregistered warehouses, each with a small
+signboard reading 「未登記」, being joined by construction into one larger
+warehouse. An arrow points to a green checkmark stamp reading 「表題登記」
+next to a calendar with a 「1か月」 countdown circled from the join date.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+新築と同じ扱い
+
+--- CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+主従建物の増築一体化は変更登記
+Illustration: An isometric main house labeled 「主たる建物」 connected by
+a covered walkway to a smaller annex labeled 「附属建物」, being merged
+into one continuous shape by ongoing construction work. A green checkmark
+stamp reads 「表題部の変更登記」, while a separate red stamp reading
+「合体による登記等」 has a large red X mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+表題部の変更登記
+
+--- CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+抵当権の有無が違っても合体は可能
+Illustration: An isometric building with a red padlock icon labeled
+「抵当権あり」 being joined with another isometric building with no lock
+icon labeled 「抵当権なし」 into one combined building. A small consent
+document icon labeled 「承諾を証する情報」 sits beside a green checkmark
+stamp reading 「合体による登記等」. A separate red stamp reading
+「申請不可」 has a large red X mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+合体は申請できる
+
+--- CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+表題登記のみ双方なら表題部所有者
+Illustration: Two isometric buildings, each with a small signboard reading
+「表題登記のみ」, being merged into one building. A person icon labeled
+「表題部所有者」 stamps two documents at once, one reading 「表題登記」
+and the other reading 「表題部の登記の抹消」, beside a calendar with a
+「1か月」 countdown circled from the join date.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+表題部所有者が申請
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, badge numbers run 1-5 continuously,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence of
+explanatory prose — every card's takeaway must read as a short heading +
+a short conclusion tag, at a glance.
+```
