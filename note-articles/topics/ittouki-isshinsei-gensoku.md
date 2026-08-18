@@ -60,6 +60,20 @@
   - 9号：同一の不動産について、目的・原因・日付が同一の複数の権利に関する登記（8号の名義人表示変更等を除く）
   - 10号：同一の登記所の管轄区域内にある複数の不動産について、同一の債権を担保する担保権（先取特権・質権・抵当権）の登記で、登記の目的が同一のとき。いわゆる共同抵当権の設定登記等がこれにあたります。
 
+### 実務の流れでイメージする
+
+条文だけを読んでいると抽象的に感じられるかもしれませんが、実際の土地家屋調査士の仕事では、依頼を受けた時点でまず「この案件は規則35条のどれかに当てはまるか」を判断することになります。実務の流れに沿って、具体的な案件で確認してみましょう。
+
+**場面**：依頼者から「親から相続した甲土地のうち、道路に面した一部だけを売却したいので、その部分を分筆したうえで、隣接する自分名義の乙土地に合筆してほしい」という依頼を受けたとします。
+
+1. **現地調査・測量**：土地家屋調査士は、まず現地に赴いて分筆したい部分の範囲を測量し、地積測量図を作成します。ここまではどんな分筆の案件でも共通する作業です。
+2. **申請パターンの判断**：今回は「分筆した部分を、そのまま隣の乙土地に合筆する」という組み合わせなので、規則35条1号「土地の一部を分筆して、これを他の土地に合筆しようとする場合」に該当するかを確認します。事実関係が条文の要件にそのまま当てはまるため、1号の適用対象と判断できます。
+3. **申請書の作成**：1号に該当すると分かれば、分筆の登記と合筆の登記を、1件の申請情報にまとめて登記所に提出できます。別々の日に2回申請書を出す必要はありません。
+
+同じ依頼でも、もし「分筆した部分を、どこにも合筆せず、独立した新しい一筆の土地として登記したい」という内容であれば、合筆の相手方がいないため1号の対象にはなりません（この場合は単純な分筆の登記だけであり、そもそも「複数の登記を1件にまとめる」という論点自体が生じません）。
+
+一方、依頼の内容が「甲建物の附属建物を切り離して、別の場所にある乙建物と物理的に一体化した新しい建物にしたい」というものであった場合は、注意が必要です。切り離す工程（分割の登記）自体は1号〜5号のパターンと同じ発想ですが、その後の「物理的な一体化」は合体による登記等（不動産登記法49条1項）にあたり、規則35条のどこにも規定がありません。このケースでは、まず分割の登記を申請して完了させ、実際に建物が一体化する工事が終わった後で、あらためて合体による登記等を別の申請として提出する、という2段階の手続が必要になります。土地家屋調査士としては、依頼を受けた時点で「これは規則35条でまとめられる話か、それとも段階を分けて説明すべき話か」を見極め、依頼者にスケジュール（申請の回数・タイミング）を正確に伝えることが重要です。
+
 ### 狙われやすい勘違いポイント
 
 **① 規則35条にない組み合わせは、似ていても一括申請できない（限定列挙の重さ）**
@@ -208,23 +222,28 @@ contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
 
-### 画像2：規則35条 全10号 早見表（1/2、1号〜5号）（早見表型）
+### 画像2：規則35条でまとめられる場合(1/2、1号〜5号)（俯瞰カードポスター型）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
-(blue, green, beige, gray), a rounded panel containing a clean two-column
-table, consistent with a modern explainer-graphic aesthetic (small
-isometric document and building icons may decorate the header only; the
-body of the poster is a table, not illustrated cards).
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, buildings,
+small attached 附属建物 blocks, dotted split-lines, merge arrows, a
+dashed-border document icon representing "一の申請情報"; adapt each card's
+scene to its own specific fact pattern rather than reusing one generic
+icon for all cards).
 
-GLANCEABLE-TABLE REQUIREMENT (critical): This is a quick-reference table
-poster, NOT a text-heavy explainer document. There is NO intro illustration
-and NO paragraph of prose anywhere on this poster — go straight from the
-header to the table. Render the content strictly as a clean flat-design
-table with alternating row background colors, Japanese sans-serif font, no
-monospace font. Do NOT render any full-sentence explanation beyond the
-short phrases given below anywhere on the poster.
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, arrows, small embedded labels, a dashed
+box representing "one application") plus one short heading and one short
+conclusion tag. Do NOT render any full-sentence explanation, legal
+citation, or paragraph of body text anywhere on the poster. The reader
+should be able to grasp each pattern from the picture alone, without
+reading dense text.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -232,76 +251,119 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・分・筆・合・併・区・棟・建・附・属 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-規則35条 一の申請情報でまとめられる場合(1/2)
+規則35条でまとめられる場合(1/2)
 
 Subtitle (smaller, centered, 1行):
-不動産登記規則35条1号〜5号
+1号〜5号：分筆・合筆や分割・区分・合併の組み合わせ
 
-（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- TABLE (two columns: 号 / 内容の要約; 5 rows) ---
+--- CARD 1（一号） ---
+Badge: a filled green circle containing the kanji numeral 一.
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+分筆した部分を他の土地に合筆
+Illustration: An isometric 甲土地 land plot with a dotted line slicing off
+a small strip at one edge (labeled 分筆), and an arrow carrying that strip
+across to merge into an adjacent 乙土地 land plot (labeled 合筆). Both
+land plots and the arrow sit inside a single dashed-border document icon
+labeled 一の申請情報.
+Conclusion tag (5-15 Japanese characters):
+分筆＋合筆
 
-Row 1
-号: 一号
-内容の要約: 土地の一部を分筆して他の土地に合筆する場合(分筆＋合筆)
+--- CARD 2（二号） ---
+Badge: a filled green circle containing the kanji numeral 二.
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+附属建物を切り離し他の建物へ
+Illustration: An isometric 甲建物 (main house icon) with a small attached
+附属建物 block detaching from its side (labeled 分割), then an arrow
+carrying that small block over to attach onto the side of a separate 乙建物
+icon (labeled 合併). Both buildings and the arrow sit inside a single
+dashed-border document icon labeled 一の申請情報.
+Conclusion tag (5-15 Japanese characters):
+分割＋合併
 
-Row 2
-号: 二号
-内容の要約: 甲建物の附属建物を分割して乙建物の附属建物にする場合(分割＋合併)
+--- CARD 3（三号） ---
+Badge: a filled green circle containing the kanji numeral 三.
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+分割した区分建物を接続先へ合併
+Illustration: Two isometric 区分建物 (condominium-unit icons, drawn as
+adjoining boxes within one building outline) that physically touch each
+other along a shared wall labeled 接続. A small piece breaks off the 甲
+side (labeled 分割) and an arrow carries it across the shared wall into
+the 乙 side (labeled 合併). Both sit inside a single dashed-border
+document icon labeled 一の申請情報.
+Conclusion tag (5-15 Japanese characters):
+接続する区分建物どうし
 
-Row 3
-号: 三号
-内容の要約: 分割した区分建物を、接続する他の区分建物に合併する場合(分割＋合併)
+--- CARD 4（四号） ---
+Badge: a filled green circle containing the kanji numeral 四.
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+建物の一部を区分し附属建物へ
+Illustration: An isometric 甲建物 icon with a slice cut out of its main
+body (labeled 区分, distinct from card 2's small side-block to show this
+comes from the main building itself), and an arrow carrying that slice
+over to attach as a new 附属建物 on the side of a separate 乙建物 icon
+(labeled 合併). Both sit inside a single dashed-border document icon
+labeled 一の申請情報.
+Conclusion tag (5-15 Japanese characters):
+区分＋合併
 
-Row 4
-号: 四号
-内容の要約: 甲建物を区分して、その一部を乙建物の附属建物にする場合(区分＋合併)
-
-Row 5
-号: 五号
-内容の要約: 区分した部分を、接続する他の区分建物に合併する場合(区分＋合併)
-
-Render as a clean flat-design table with alternating row background colors
-(pastel green and white), a bold pastel-beige badge in the 号 column
-showing the kanji numeral (一号〜五号), a Japanese sans-serif font, and no
-monospace font.
+--- CARD 5（五号） ---
+Badge: a filled green circle containing the kanji numeral 五.
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+区分した部分を接続先へ合併
+Illustration: Similar to card 3's touching-wall composition (接続), but
+here the piece breaking off comes from the main body of 甲建物 (区分,
+matching card 4's slice style) and crosses the shared wall into a
+接続する区分建物 on the 乙 side (合併). Both sit inside a single
+dashed-border document icon labeled 一の申請情報.
+Conclusion tag (5-15 Japanese characters):
+接続する区分建物へ
 
 --- FOOTER ---
-
-特に誤りやすい漢字（号・分・筆・合・併・区・棟・建・附・属など）は、簡体字では
-なく標準的な日本語の常用漢字の字形で描画すること。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the table has exactly 5 rows with no
-duplicated or missing rows, confirm the row order is 一号→五号 top to
-bottom, and confirm there is no intro illustration or paragraph block
-between the header and the table.
+correct Japanese form. Confirm the number of cards equals 5 exactly, that
+badge numerals run 一→五 continuously, confirm each card's illustration is
+visually distinct from the others (card 3 and card 5 must clearly differ
+from card 2 and card 4 by showing the touching-wall 接続 detail), confirm
+there is no intro illustration or paragraph block between the header and
+the cards, and confirm that no card contains a full sentence of
+explanatory prose — every card's takeaway must read as a short heading + a
+short conclusion tag, at a glance.
 ```
 
-### 画像3：規則35条 全10号 早見表（2/2、6号〜10号）（早見表型）
+### 画像3：規則35条でまとめられる場合(2/2、6号〜10号)（俯瞰カードポスター型）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
-(blue, green, beige, gray), a rounded panel containing a clean two-column
-table, consistent with a modern explainer-graphic aesthetic (small
-isometric document and building icons may decorate the header only; the
-body of the poster is a table, not illustrated cards).
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, buildings,
+stamp icons for changes, a person figure for 登記名義人, calendar icons,
+a chain icon for shared mortgages, a dashed-border document icon
+representing "一の申請情報"; adapt each card's scene to its own specific
+fact pattern rather than reusing one generic icon for all cards).
 
-GLANCEABLE-TABLE REQUIREMENT (critical): This is a quick-reference table
-poster, NOT a text-heavy explainer document. There is NO intro illustration
-and NO paragraph of prose anywhere on this poster — go straight from the
-header to the table. Render the content strictly as a clean flat-design
-table with alternating row background colors, Japanese sans-serif font, no
-monospace font. Do NOT render any full-sentence explanation beyond the
-short phrases given below anywhere on the poster.
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, arrows, small embedded labels, a dashed
+box representing "one application") plus one short heading and one short
+conclusion tag. Do NOT render any full-sentence explanation, legal
+citation, or paragraph of body text anywhere on the poster. The reader
+should be able to grasp each pattern from the picture alone, without
+reading dense text.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -309,76 +371,112 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・題・更・正・義・務・抵・当・権・担・保 — these must be rendered
+in their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
-規則35条 一の申請情報でまとめられる場合(2/2)
+規則35条でまとめられる場合(2/2)
 
 Subtitle (smaller, centered, 1行):
-不動産登記規則35条6号〜10号
+6号〜10号：表題部変更・氏名変更・権利登記の組み合わせ
 
-（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- TABLE (two columns: 号 / 内容の要約; 5 rows) ---
+--- CARD 1（六号） ---
+Badge: a filled blue circle containing the kanji numeral 六.
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+同じ不動産の変更登記どうし
+Illustration: One isometric building icon receiving two different small
+stamp icons at the same time — one labeled 床面積変更, one labeled 種類変更
+— with both stamps and the building sitting inside a single dashed-border
+document icon labeled 一の申請情報.
+Conclusion tag (5-15 Japanese characters):
+表題部変更どうし
 
-Row 1
-号: 六号
-内容の要約: 同一不動産についての複数の表題部変更・更正登記どうし
+--- CARD 2（七号） ---
+Badge: a filled blue circle containing the kanji numeral 七.
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+変更登記と分筆等の組み合わせ
+Illustration: One isometric 土地 icon receiving a stamp labeled 地目変更
+while simultaneously being sliced by a dotted 分筆 line, both effects
+shown on the same land plot, sitting inside a single dashed-border
+document icon labeled 一の申請情報.
+Conclusion tag (5-15 Japanese characters):
+変更登記＋分筆等
 
-Row 2
-号: 七号
-内容の要約: 表題部変更・更正登記と、分筆・合筆・分割・区分・合併登記の組み合わせ
+--- CARD 3（八号） ---
+Badge: a filled blue circle containing the kanji numeral 八.
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+同じ人の複数不動産の氏名変更
+Illustration: One person figure (labeled 登記名義人) standing between two
+separate property icons (a building and a land plot), swapping an old
+name tag 旧姓 for a new name tag 新姓 on both properties at the same time.
+A dashed boundary line around both properties is labeled 同一登記所管轄.
+Both properties sit inside a single dashed-border document icon labeled
+一の申請情報.
+Conclusion tag (5-15 Japanese characters):
+複数不動産の名義変更
 
-Row 3
-号: 八号
-内容の要約: 同一登記所管轄内の、同一登記名義人の氏名・名称・住所の変更・更正登記
+--- CARD 4（九号） ---
+Badge: a filled blue circle containing the kanji numeral 九.
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+目的・原因・日付が同じ権利登記
+Illustration: One isometric land plot icon receiving two identical-looking
+権利 stamp icons (e.g., two matching 抵当権設定 icons) side by side, each
+next to an identical calendar-date icon to show they share the same date.
+Both stamps sit inside a single dashed-border document icon labeled
+一の申請情報.
+Conclusion tag (5-15 Japanese characters):
+同一条件の権利登記
 
-Row 4
-号: 九号
-内容の要約: 同一不動産について、目的・原因・日付が同一の複数の権利に関する登記
-
-Row 5
-号: 十号
-内容の要約: 同一登記所管轄内の、同一債権を担保する担保権(共同抵当権等)の登記
-
-Render as a clean flat-design table with alternating row background colors
-(pastel blue and white), a bold pastel-beige badge in the 号 column showing
-the kanji numeral (六号〜十号), a Japanese sans-serif font, and no
-monospace font.
+--- CARD 5（十号） ---
+Badge: a filled blue circle containing the kanji numeral 十.
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+共同抵当権の設定登記
+Illustration: Two separate isometric land plot icons connected by a single
+chain icon labeled 共同抵当権, with a dashed boundary line around both
+plots labeled 同一登記所管轄. Both plots and the chain sit inside a single
+dashed-border document icon labeled 一の申請情報.
+Conclusion tag (5-15 Japanese characters):
+複数不動産にまたがる担保権
 
 --- FOOTER ---
-
-特に誤りやすい漢字（号・題・更・正・義・務・抵・当・権・担・保など）は、簡体字
-ではなく標準的な日本語の常用漢字の字形で描画すること。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the table has exactly 5 rows with no
-duplicated or missing rows, confirm the row order is 六号→十号 top to
-bottom, and confirm there is no intro illustration or paragraph block
-between the header and the table.
+correct Japanese form. Confirm the number of cards equals 5 exactly, that
+badge numerals run 六→十 continuously, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
 ```
 
-### 画像4：「分割＋合併」はできて「分割＋合体」はできない理由（対比表型）
+### 画像4：「分割＋合併」はできて「分割＋合体」はできない理由（左右の工程比較型）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1350x1500 pixels,
+Create a Japanese-language infographic, portrait layout, 1350x1700 pixels,
 clean flat-design isometric illustration style with soft pastel colors
-(blue, green, beige, gray), a rounded panel containing a clean two-column
-comparison table, consistent with a modern explainer-graphic aesthetic
-(small isometric building icons may decorate the two column headers only;
-the body of the poster is a table, not illustrated cards).
+(blue, green, beige, gray), rounded card sections arranged as two parallel
+vertical process timelines side by side, consistent with a modern
+explainer-graphic aesthetic (icons: isometric buildings, small attached
+附属建物 blocks, construction/crane icons, document icons, a torn-paper
+"別の日" divider). This is a step-by-step visual story, NOT an abstract
+comparison table — every step must be a small illustrated scene, not a
+row of text.
 
-GLANCEABLE-TABLE REQUIREMENT (critical): This is a quick-reference
-comparison table poster, NOT a text-heavy explainer document. There is NO
-intro illustration and NO paragraph of prose anywhere on this poster — go
-straight from the header to the table. Render the content strictly as a
-clean flat-design table with alternating row background colors, Japanese
-sans-serif font, no monospace font. Do NOT render any full-sentence
-explanation beyond the short phrases given below anywhere on the poster.
+GLANCEABLE REQUIREMENT (critical): This is a quick-reference visual
+comparison, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the two process timelines. Every step box
+must communicate its point almost entirely through the illustration
+(icons, arrows, small embedded labels) plus one short heading. Do NOT
+render any full-sentence explanation or legal citation anywhere on the
+poster.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -386,65 +484,99 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 号・分・割・合・併・体・題・抹・消・附・属 — these must be rendered
+in their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
-Title (large, bold, 1行):
-「分割＋合併」はできて「分割＋合体」はできない
+Title (large, bold, 2行):
+同じ「分割」から始まっても、
+その先が違う
 
 Subtitle (smaller, centered, 1行):
-不動産登記法54条(合併) vs 49条1項(合体)、規則35条2号・3号との対応
+「分割＋合併」はまとめられる／「分割＋合体」はまとめられない
 
-（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+（タイトル・サブタイトルのすぐ下に2列の工程図を続ける。導入イラスト・導入文の
 ブロックは置かない。）
+
+--- SHARED START NODE (top, centered, gray, spans both columns) ---
+Heading: 甲建物から附属建物を切り離す(分割の登記)
+Illustration: An isometric 甲建物 with a small attached 附属建物 block
+detaching from its side, a dotted line showing the split. Below this
+shared node, an arrow forks into two separate columns (LEFT and RIGHT),
+showing that both paths start from the exact same 分割 step.
 
 --- LEFT COLUMN HEADER (pill-shaped badge, color: green) ---
-建物の分割＋合併(規則35条2号・3号)
+分割＋合併(規則35条2号・3号)
+
+--- LEFT COLUMN, STEP 1 ---
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+そのまま乙建物にくっつける
+Illustration: The same detached 附属建物 block from the start node,
+carried by an arrow directly onto the side of a separate 乙建物 icon,
+with a small label 登記記録の組み替えだけ (no construction icon here —
+emphasize that no crane or building work appears in this scene).
+Conclusion tag (5-15 Japanese characters):
+合併(法54条)
+
+--- LEFT COLUMN, STEP 2 (result) ---
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+1回の申請でまとめて完了
+Illustration: A single dashed-border document icon labeled 一の申請情報
+containing both the 分割 icon and the 合併 icon together, with a green
+checkmark.
+Conclusion tag (5-15 Japanese characters):
+一括申請できる
 
 --- RIGHT COLUMN HEADER (pill-shaped badge, color: red) ---
-建物の分割＋合体による登記等(規定なし)
+分割＋合体による登記等(規定なし)
 
---- TABLE (three columns: 観点 / LEFT: 分割＋合併 / RIGHT: 分割＋合体;
-each row's three cells are aligned at the same height) ---
+--- RIGHT COLUMN, STEP 1 ---
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+分割の登記がいったん完了する
+Illustration: The same detached 附属建物 block from the start node, now
+standing alone as its own independent building icon with its own 表題登記
+label, separated from the LEFT column's step 1 by a torn-paper divider
+labeled 別の申請・別の日.
+Conclusion tag (5-15 Japanese characters):
+分割の登記が先に確定
 
-Row 1
-観点: 規則35条の明文
-LEFT: あり（2号・3号）
-RIGHT: 該当なし（グレーアウト表示）
+--- RIGHT COLUMN, STEP 2 ---
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+後日、工事で他の建物と一体化
+Illustration: The now-independent building icon from step 1, next to a
+separate independent 乙建物 icon, with a construction crane icon between
+them and dashed lines showing them physically merging into a single new
+building silhouette labeled 合体後建物. A new 表題登記 stamp appears on
+the merged building while the two old registration record icons are
+crossed out with a small 抹消 label.
+Conclusion tag (5-15 Japanese characters):
+合体(法49条1項)
 
-Row 2
-観点: 登記の性質
-LEFT: 登記記録上の組替えのみ（法54条）
-RIGHT: 新たな表題登記＋既存表題部の抹消（法49条1項）
-
-Row 3
-観点: 対象となる建物
-LEFT: 附属建物のままでも対象にできる
-RIGHT: 独立した二以上の建物に限る（附属建物のままでは不可）
-
-Row 4
-観点: 一括申請の可否
-LEFT: 一の申請情報でまとめて申請できる
-RIGHT: 常に別々の申請（分割の登記が完了した後に合体の登記等を申請）
-
-Render as a clean flat-design table with alternating row background colors
-(pastel green for LEFT cells, pastel red for RIGHT cells, pastel beige for
-the 観点 label column), a Japanese sans-serif font, and no monospace font.
-Where a RIGHT cell says "該当なし（グレーアウト表示）", render that cell
-with a grayed-out background and gray text.
+--- RIGHT COLUMN, STEP 3 (result) ---
+Heading (bold, ONE line, ~18 Japanese characters or fewer):
+常に2回に分けて別々に申請
+Illustration: Two separate dashed-border document icons (instead of one),
+the first containing only the 分割 icon, the second containing only the
+合体 icon, connected by an arrow labeled 別の申請, with a red X mark over
+an attempt to merge them into a single document icon.
+Conclusion tag (5-15 Japanese characters):
+一括申請できない
 
 --- FOOTER ---
-
-特に誤りやすい漢字（号・分・割・合・併・体・題・抹・消・附・属など）は、簡体字
-ではなく標準的な日本語の常用漢字の字形で描画すること。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the table has exactly 4 rows, confirm every
-row's LEFT and RIGHT cells are aligned at the same height, confirm row 1's
-RIGHT cell is grayed out as 該当なし, and confirm there is no intro
-illustration or paragraph block between the header and the table.
+correct Japanese form. Confirm both columns visually branch from the same
+shared start node at the top, confirm the LEFT column has exactly 2 steps
+and the RIGHT column has exactly 3 steps, confirm the RIGHT column's step 1
+is visually separated from the LEFT column's step 1 by the torn-paper
+divider (to emphasize they are not simultaneous), confirm there is no
+intro illustration or paragraph block between the header and the shared
+start node, and confirm that no step contains a full sentence of
+explanatory prose — every step's takeaway must read as a short heading +
+a short illustration, at a glance.
 ```
 
 ### 覚えておくべきポイントのまとめ
@@ -464,6 +596,7 @@ illustration or paragraph block between the header and the table.
 - 「規則35条と規則37条は別制度」という説明の根拠となる不動産登記規則37条（添付情報の省略等、全2項）の条文本文も、同じく`laws/fudousan-touki-kisoku-1.md`から確認したものです。
 - 「過去問での出題例」に挙げた平成26年度午後の部第17問エ肢・第12問イ肢は、いずれも本リポジトリの`h26-mondai/`配下の既存記事で解説済みの肢です。ただし、第17問エ肢は「規則35条に分割＋合体の組み合わせが規定されていないこと」を理由とする肢であって規則35条2号・3号自体が直接問われたものではなく、第12問イ肢は規則37条（別制度）に関する肢です。規則35条1号〜10号そのものが具体的にどの年度で出題されているかは、本記事の範囲では網羅的に確認できておらず、断定的な記載はしていません。
 - 規則35条の限定列挙という性質上、本記事の「狙われやすい勘違いポイント①」は、規則35条・不動産登記法54条・49条1項の条文構造そのものから導かれる結論であり、先例・実務書等の記載には依拠していません。
+- 「実務の流れでイメージする」の場面設定（甲土地・乙土地の分筆＋合筆の依頼、附属建物の分割＋合体の依頼）は、初学者の理解を助けるために本記事で新たに作成した仮想の事例です。実在の依頼・事件を題材にしたものではなく、規則35条1号の条文要件、及び本記事で既に確認済みの「分割＋合体はまとめられない」という結論に、具体的な事実関係をそのまま当てはめたものです。現地調査・測量・申請書作成という実務の順序についても、一般的な業務の流れに沿った説明であり、特定の先例・実務書の記載を典拠とするものではありません。
 
 ### 見出し画像用フレーズ
 
