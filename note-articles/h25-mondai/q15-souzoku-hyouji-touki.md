@@ -176,17 +176,20 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
-遺産分割協議書で分筆も申請可
-Illustration: An isometric land plot being split by a dotted line
-（分筆）into two, one side labeled A, one side labeled B. A single heir
-figure (A) stamps the application alone, holding two documents together
-— 遺産分割協議書 stacked with 分筆後の地積測量図 — while a faint,
-greyed-out silhouette of another heir (B) stands to the side, not
-required to be present. A small crossed-out label reading 共有者全員 sits
-faded in the background, showing that this default requirement is being
-bypassed by the two documents in A's hand.
+全員が原則、書類があれば一人も可
+Illustration: A single card split into two side-by-side halves by a thin
+vertical divider, showing a before/after contrast. LEFT half (small,
+greyed/faded, labeled 原則 at the top): three heir figures (A・B・C)
+standing together at a registry counter, all needed to stamp the same
+application, with a small ✕ icon. RIGHT half (larger, full-color,
+labeled 書類があれば at the top): a single heir figure (A) stamping the
+application alone at the registry counter, holding two documents
+together — 遺産分割協議書 stacked with 分筆後の地積測量図 — while faint
+greyed-out silhouettes of B・C stand off to the side, not required to be
+present, with a green ✓ icon. A small arrow points from the LEFT half to
+the RIGHT half to show the exception overriding the default.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-一人からでも申請可
+書類があれば一人も可
 
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
