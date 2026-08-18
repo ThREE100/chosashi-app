@@ -70,6 +70,7 @@
 - 判例レベルで確認できた根拠：強迫と詐欺とで96条3項の適用範囲が異なる点（強迫には適用されない）、94条2項類推適用（不実登記を知りながら承認・放置した場合、意思外形対応型として類推適用を認めた最判昭和45年9月22日）、背信的悪意者からの転得者は転得者自身が背信的悪意者でない限り177条の第三者として保護されるとした最判平成8年10月29日、占有改定による占有取得は即時取得（192条）の要件を満たさないとした最判昭和35年2月11日について、いずれも判例の存在と判旨の要旨をウェブ検索により確認しました。ただし各判例の該当箇所（民集の巻号頁など）や判旨の一言一句までは一次資料（裁判所判例検索システム等）で直接確認したわけではなく、二次情報源（法律系サイト・判例解説サイト）の要約に基づいています。
 - ウの「事実上容認し、長期間放置」という表現が、判例が要求する「意思的関与」「明示・黙示の承認」の程度を満たすかどうかは事例ごとの評価の要素が大きく、一般論としての94条2項類推適用の可否を示すにとどまります。
 - エの「相対的構成」という判例の考え方自体は確認済みですが、本問の事実関係（Cが「専らAを害する目的」を持つ背信的悪意者に該当すること自体）は問題文の記述をそのまま前提としており、その認定基準（自由競争の範囲を逸脱するとの評価）についての精査は行っていません。
+- **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（民法96条3項・121条・94条1項2項・177条・178条・183条・192条の条文文言を`note-articles/laws/minpou-1-soukyoku-bukken.md`原文で直接突合し一致を確認、判例番号が本文に紛れ込んでいないことを確認、試験範囲外の一般法は本問に無関係のため対象外）、B（正解番号4＝イ・オを`src/data/takuitsu.json`の`chosashi_H19_q02`の`correctAnswer`と再照合し一致を確認。なお同レコードの選択肢1・2・3・5の組合せ文言（アイ／アウ／ウエ／エオ）は、本記事の問題文が引用する組合せ（アウ／アエ／イエ／ウオ）や外部の過去問解説サイトの検索結果と一致せず、データベース側の入力の揺れとみられますが、正解番号（4＝イオ）自体は一致しており本記事の結論に影響しません）、C（各肢の見出しが正しい結論を表していること、正解の先出しがないこと、全文が敬体で統一されていること、条文解釈プロセスの説明がないことを再確認したうえで、本文・確認事項ブロック中に残っていた半角括弧6か所を全角括弧に修正）、D（Markdown表の不使用を確認）、E（インフォグラフィックが未作成だったため、`infographic-prompt-template.md`の②のルールに従い新規作成し記事末尾に追記）、F（テンプレート構造の順守・タイトルのキャッチフレーズ19字＝25字以内・確認事項ブロックの記載充実度を確認）、G（重複出題チェック：`src/data/takuitsu.json`を検索し、詐欺・強迫・背信的悪意者に関する類似論点はR07問1・R05問1・R04問2・R04問3・H27問1・H23問1・H20問2・H18問1・H17問2に見られるものの、いずれも本問と異なる事実関係・出題形式であり、本問（詐欺取消し・強迫取消し・94条2項類推適用・背信的悪意者からの転得者・占有改定と即時取得の5論点を1問に組み合わせた構成）と同一の問題は見つかりませんでした。最新法令チェック：96条3項が令和2年施行の債権法改正で「善意でかつ過失がない」に変更された点は既存の確認事項ブロックに記載済みであり、本問のC・Dはいずれも単に「善意」とのみ記述されるにとどまるため結論への影響はないことを再確認しました）を実施し、正解番号・各肢の判定（結論）はいずれも変更していません。
 
 ---
 
@@ -80,3 +81,134 @@
 - 不実登記を放置すると、あとで取り返しがつかない
 - 悪意の人から買った善意の人は守られるんです
 - 先に占有改定した人が、実は一番強いんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+対抗できない3つのパターン（詐欺取消し前の善意者・不実登記の放置・背信的悪意者からの転得者）と、対抗できる2つのパターン（強迫による遡及効・占有改定の先後）を2列に分け、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する計5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, contracts,
+official stamps/seals, hourglasses, small figures, antique items on a
+shop shelf — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 詐・欺・強・迫・背・悪・登・記・対・抗・占・有・改 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+善意のＣ、守られる・守られない理由
+Subtitle (smaller, centered, 1行):
+平成19年度 午前の部 第2問－対抗できないは実は理由が全部違う
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: red) ---
+Ａが対抗できない3つの理由
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled red circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+詐欺取消し前の善意者には勝てない
+Illustration: An isometric scene showing person A handing over a land plot
+document to person B under a speech bubble labeled 「だまされて」. B then
+hands the same document to person C labeled 「善意」 while a torn-off
+calendar page shows time passing. A stamp reading 「取消し」 arrives too
+late, floating behind C with a red X mark over it, while C stands on the
+land plot with a green checkmark.
+Conclusion tag (red banner below the illustration, 5-15 characters):
+対抗できない
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled red circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+不実登記を放置すると保護されない
+Illustration: An isometric land plot with a wooden signboard reading
+「Ｂ名義」. A small figure of A stands at a distance with a thought bubble
+「知っていたが放置」, while calendar pages flip through several years. B
+then sells the plot to C (labeled 「善意」) using the signboard as proof.
+A red stamp reading 「対抗不可」 is pressed over A's outstretched hand,
+while C receives a green checkmark.
+Conclusion tag (red banner below the illustration, 5-15 characters):
+対抗できない
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled red circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+背信的悪意者からの転得者は保護
+Illustration: An isometric scene with three figures in a row: A (holding an
+unregistered land document), C (labeled 「背信的悪意者」 with a sneaky
+icon, holding a registration stamp), and D (labeled 「善意」, receiving the
+land plot from C with its own registration stamp). A red X mark sits
+between A and C (C is not protected against A), but a green checkmark sits
+between A and D (D is protected even though C was not).
+Conclusion tag (red banner below the illustration, 5-15 characters):
+Ｄには対抗できない
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+Ａが対抗できる2つの理由
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+強迫の取消しは善意者にも勝つ
+Illustration: An isometric scene showing a menacing figure B threatening
+person A (speech bubble with an exclamation mark and a small fist icon,
+labeled 「強迫」) into handing over a land document. B then sells the same
+document to C labeled 「善意」. A large rewind arrow labeled 「遡及効」
+sweeps back from A's later 「取消し」 stamp, knocking down C's claim with a
+red X mark, while A receives a green checkmark reclaiming the land.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+対抗できる
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+先に占有改定した方が優先する
+Illustration: An isometric antique shop scene. Person A buys an antique
+item from shopkeeper B and receives a small tag reading 「Ａのために保管
+（占有改定）」 while the item stays on B's shelf, with a green checkmark
+labeled 「対抗要件」 next to A. Later, B sells the same item to person C
+(labeled 「善意」), who receives a similar tag reading 「占有改定」, but a
+red X mark and a label 「即時取得の要件を満たさない」 appear next to C's
+tag, showing C is not protected.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+対抗できる
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```
