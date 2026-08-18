@@ -212,90 +212,26 @@ tag, at a glance.
 
 ---
 
-## インフォグラフィック プロンプト（肢ごとの見出し画像）
+## インフォグラフィック プロンプト（ウ：分筆登記の申請適格 判定フロー）
 
-各肢の正しい結論を1シーンで表現する、モノクロ鉛筆画・横長固定（1280×670px、比率1.91:1）の見出し画像用プロンプト。誤っている肢（イ・エ）についても、問題文の誤った記述をそのまま描かず、正しいルールを図解する。
-
-### 画像ア：相続人は被相続人名義のまま表題登記を申請できる
+ウは「原則は共有者全員→遺産分割協議書＋分筆図があれば例外的に相続人の一人からでも可」という条件分岐の構造を持つため、`infographic-prompt-template.md`の「③型別の雛形差分」に定めるフローチャート／判定フロー型を、②と同じ縦長ポートレート・カラー・アイソメトリックの画風で作成する。
 
 ```
-Create a monochrome pencil-sketch illustration, landscape layout,
-1280x670 pixels (aspect ratio 1.91:1). Style: soft graphite pencil
-shading, hand-drawn line art, single character composition, consistent
-with a note.com article header image.
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, document
+stacks, registry desks, diamond-shaped decision nodes, torn paper labels,
+etc.).
 
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
-Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
-below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 相・続・被・題・登・記
-— these must be rendered in their standard Japanese forms, never as
-Simplified Chinese variants.
-
-SCENE: A single young professional woman character (土地家屋調査士、
-スーツ姿), sitting at a desk, holding up a 表題登記の申請書 document with
-both hands so it faces the viewer. On the document, a name tag reads
-「表題部所有者：被相続人（故）〇〇」— the deceased owner's name stays
-unchanged. Next to her, a small family photo or a simple family-tree icon
-in the background subtly indicates she is the heir (相続人), submitting
-the application on the deceased's behalf. Her expression is calm and
-confident, one hand pointing to the unchanged name on the document. No
-other characters in the scene.
-
-CAPTION (small text at the bottom of the image):
-被相続人名義のまま、相続人が申請できます
-
-Final check before rendering: confirm only ONE character appears in the
-scene, confirm the image is landscape 1280x670px, confirm every kanji
-glyph is standard Japanese (Jōyō) form and not Simplified Chinese, and
-confirm the caption text matches the string above exactly, verbatim.
-```
-
-### 画像イ：申請人自身の相続証明で足り、全員分は不要
-
-```
-Create a monochrome pencil-sketch illustration, landscape layout,
-1280x670 pixels (aspect ratio 1.91:1). Style: soft graphite pencil
-shading, hand-drawn line art, single character composition, consistent
-with a note.com article header image.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
-Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
-below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 相・続・証・明・戸・籍
-— these must be rendered in their standard Japanese forms, never as
-Simplified Chinese variants.
-
-SCENE: A single young professional woman character (土地家屋調査士),
-standing at a registry-office counter, holding out a small, thin
-document folder labeled 「Aの戸籍関係書類のみ」in one hand toward the
-viewer. Behind her, faintly sketched and greyed out (as if crossed out
-or not needed), two additional folders labeled 「Bの戸籍関係書類」and
-「Cの戸籍関係書類」sit untouched on a side table with a small ✕ mark
-near them, showing they are not required. Her expression is
-matter-of-fact, as if saying "this is all I need." No other characters
-in the scene.
-
-CAPTION (small text at the bottom of the image):
-自分の相続証明だけで足ります。全員分は不要です
-
-Final check before rendering: confirm only ONE character appears in the
-scene (the greyed-out folders are props, not characters), confirm the
-image is landscape 1280x670px, confirm every kanji glyph is standard
-Japanese (Jōyō) form and not Simplified Chinese, and confirm the caption
-text matches the string above exactly, verbatim.
-```
-
-### 画像ウ：遺産分割協議書と分筆図があれば、相続人の一人からでも分筆登記を申請できる
-
-```
-Create a monochrome pencil-sketch illustration, landscape layout,
-1280x670 pixels (aspect ratio 1.91:1). Style: soft graphite pencil
-shading, hand-drawn line art, single character composition, consistent
-with a note.com article header image.
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+flowchart poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the flowchart. Every node must communicate
+its point almost entirely through the illustration (icons, X marks,
+checkmarks, small embedded labels) plus one short heading and one short
+result tag. Do NOT render any full-sentence explanation, legal citation,
+or paragraph of body text anywhere on the poster.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -303,103 +239,81 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 遺・産・分・割・協・議・
-持・分 — these must be rendered in their standard Japanese forms, never as
-Simplified Chinese variants.
+持・分・積・測・量 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
-SCENE: A single young professional woman character (土地家屋調査士),
-standing beside a simple hand-drawn land-plot diagram that is split into
-two by a dotted line labeled 「甲土地」and「乙土地」. She holds up two
-documents together in one hand — 「遺産分割協議書」stacked on top of
-「分筆後の地積測量図」— using them like a key or a pass to unlock the
-application. Faint sketched silhouettes of two other siblings stand off
-to the side, uninvolved, showing that she alone is enough to file. A
-small crossed-out label reading 「共有者全員」sits faded in the
-background (showing this default requirement is being bypassed by the
-two documents in her hand). Her expression is reassuring, as if
-explaining "these two documents are enough on their own." No other
-active characters in the scene besides the faint background silhouettes.
+--- HEADER ---
+Title (large, bold, 2行):
+分筆登記は誰から
+申請できる？
 
-CAPTION (small text at the bottom of the image):
-遺産分割協議書と分筆図があれば、一人からでも申請できます
+Subtitle (smaller, centered, 1行):
+平成25年度 午後の部 第15問 肢ウ－申請適格の判定フロー
 
-Final check before rendering: confirm only ONE active character appears
-in the scene (background silhouettes are non-participating), confirm the
-image is landscape 1280x670px, confirm every kanji glyph is standard
-Japanese (Jōyō) form and not Simplified Chinese, and confirm the caption
-text matches the string above exactly, verbatim.
-```
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
+導入文のブロックは置かない。）
 
-### 画像エ：相続関係説明図で省略できるのは戸籍関係書類だけ
+--- FLOWCHART ---
 
-```
-Create a monochrome pencil-sketch illustration, landscape layout,
-1280x670 pixels (aspect ratio 1.91:1). Style: soft graphite pencil
-shading, hand-drawn line art, single character composition, consistent
-with a note.com article header image.
+NODE 1（開始ノード、丸型、グレー）:
+土地の共有者に相続が発生し、
+分筆の登記を申請したい
+Illustration: An isometric land plot with a small family-tree icon
+above it, showing multiple heir figures (A・B・C) standing around the
+land plot.
 
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
-Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
-below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 相・続・関・係・説・明・
-謄・本 — these must be rendered in their standard Japanese forms, never as
-Simplified Chinese variants.
+NODE 2（分岐条件、ひし形アイコン、黄色）:
+遺産分割協議書と、分筆後の
+地積測量図又は分筆図を
+用意できるか？
+Illustration: A diamond-shaped decision icon with two documents inside
+it — 「遺産分割協議書」と「分筆後の地積測量図」.
 
-SCENE: A single young professional woman character (土地家屋調査士), at
-a desk with two documents side by side. On the left, a document labeled
-「戸籍全部事項証明書」has a small family-tree chart (相続関係説明図)
-clipped to it with a green checkmark, and the original document is being
-handed back toward the viewer (原本還付). On the right, a document
-labeled 「遺産分割協議書」sits separately, with a small hand-copied
-duplicate sheet (謄本) being placed on top of it and a red ✕ mark over
-an attempt to skip making that copy — she is actively writing or
-stamping the duplicate for this one. Her expression shows she is
-carefully treating the two documents differently. No other characters in
-the scene.
+BRANCH「いいえ」（矢印、ラベル「いいえ」）→ NODE 3:
+NODE 3（結果ノード、赤系、✕アイコンなし・原則を示す通常のボックス）:
+原則どおり、共有者
+（共同相続人）全員から
+申請する
+Illustration: An isometric registry counter where three heir figures
+（A・B・C）stand together, all stamping the same application document.
 
-CAPTION (small text at the bottom of the image):
-省略できるのは戸籍だけ。遺産分割協議書は謄本が必要です
+BRANCH「はい」（矢印、ラベル「はい」）→ NODE 4:
+NODE 4（結果ノード、緑系、✓アイコン）:
+土地を取得することになった
+相続人の一人からでも
+申請できる
+Illustration: An isometric registry counter where a single heir figure
+(A) stamps the application alone, holding the 遺産分割協議書 and 分筆後
+の地積測量図 together in one hand. Faint greyed-out silhouettes of B・C
+stand off to the side, uninvolved, showing they are not required.
 
-Final check before rendering: confirm only ONE character appears in the
-scene, confirm the image is landscape 1280x670px, confirm every kanji
-glyph is standard Japanese (Jōyō) form and not Simplified Chinese, and
-confirm the caption text matches the string above exactly, verbatim.
-```
+NODE 5（具体例ノード、NODE4から派生、青系の補足ボックス）:
+本問の例：Aが甲土地、Bが
+乙土地を取得する内容なら、
+A・Bが共同で申請しても良い
+Illustration: The same land plot split by a dotted line into 甲土地
+（A側）と乙土地（B側）, with both A and B stamping the application
+together as one of the valid methods branching from NODE 4.
 
-### 画像オ：死亡前に滅失した建物の滅失登記は、相続人の一人から申請できる
+NODE 6（除外の注記、NODE4から派生、グレー系の補足ボックス）:
+甲土地・乙土地のいずれも
+取得しないCは、この分筆の
+登記を申請できない
+Illustration: A third heir figure (C) standing apart from the land
+plot entirely, with a red ✕ mark over an attempt to touch the
+application document.
 
-```
-Create a monochrome pencil-sketch illustration, landscape layout,
-1280x670 pixels (aspect ratio 1.91:1). Style: soft graphite pencil
-shading, hand-drawn line art, single character composition, consistent
-with a note.com article header image.
+--- FOOTER ---
 
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
-Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
-below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 滅・失・保・存・行・為
-— these must be rendered in their standard Japanese forms, never as
-Simplified Chinese variants.
-
-SCENE: A single young professional woman character (土地家屋調査士),
-standing in front of a small hand-drawn empty lot where a building used
-to be (a faint outline of a now-gone shed, labeled 「滅失した建物」),
-submitting a 「滅失の登記」application alone at a registry counter. A
-small label near her reads 「保存行為」, and faint sketched silhouettes
-of two other siblings stand off to the side, uninvolved, showing that she
-alone is enough to file. Her expression is composed and independent. No
-other characters actively participate in the scene besides the faint
-background silhouettes.
-
-CAPTION (small text at the bottom of the image):
-保存行為だから、相続人の一人だけで申請できます
-
-Final check before rendering: confirm only ONE active character appears
-in the scene (background silhouettes are non-participating), confirm the
-image is landscape 1280x670px, confirm every kanji glyph is standard
-Japanese (Jōyō) form and not Simplified Chinese, and confirm the caption
-text matches the string above exactly, verbatim.
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the flowchart has exactly 6 nodes (1
+start, 1 decision diamond, 2 result nodes branching from the decision,
+and 2 supplementary notes branching from the "はい" result node), with
+arrows clearly connecting each node in the order described above,
+confirm there is no intro illustration or paragraph block between the
+header and the flowchart, and confirm that no node contains a full
+sentence of explanatory prose — every node's takeaway must read as a
+short heading + a short illustration, at a glance.
 ```
