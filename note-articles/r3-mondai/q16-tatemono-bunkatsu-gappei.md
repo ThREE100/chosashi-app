@@ -123,7 +123,7 @@ the Simplified Chinese equivalent.
 
 --- HEADER ---
 Title (large, bold, 2行):
-建物の分割・合併、その登記できる？できない?
+建物の分割・合併、その登記できる？できない？
 
 Subtitle (smaller, centered, 2行):
 附属建物の接続要件・記録事項・登記識別情報の落とし穴
