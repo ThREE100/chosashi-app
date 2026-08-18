@@ -174,10 +174,13 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 遺産分割協議書で分筆も申請可
 Illustration: An isometric land plot being split by a dotted line
-（分筆）into two, one side labeled A, one side labeled B, both matching
-a document icon labeled 遺産分割協議書 stacked with 分筆後の地積測量図,
-with A and B jointly stamping the application (representing the method
-this question asks about).
+（分筆）into two, one side labeled A, one side labeled B. A single heir
+figure (A) stamps the application alone, holding two documents together
+— 遺産分割協議書 stacked with 分筆後の地積測量図 — while a faint,
+greyed-out silhouette of another heir (B) stands to the side, not
+required to be present. A small crossed-out label reading 共有者全員 sits
+faded in the background, showing that this default requirement is being
+bypassed by the two documents in A's hand.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 一人からでも申請可
 
