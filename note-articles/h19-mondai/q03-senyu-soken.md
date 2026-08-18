@@ -69,6 +69,9 @@
 - ア（民法199条の「予防又は損害賠償の担保」という選択的な条文構造）、ウ（民法200条1項の「奪われたとき」の要件と、占有者が任意に引き渡した場合はその後の不返還が「奪う」に当たらないという解釈）、エ（民法200条2項の特定承継人制限の趣旨、および民法181条の占有代理の仕組み）、オ（民法201条3項の出訴期間の起算点）は、いずれも条文の文言またはそれに基づく確立した解釈として確認できました。
 - イ（無権原の占有者であっても占有保全の訴えの主体になれること、および自力救済が原則として許されないこと）は、条文（民法199条・180条）と一般に確立した法理としては確認できましたが、「重機の持込みによる解体の予防」という本問の具体的な事実関係そのものにぴったり対応する最高裁判例の番号までは特定できませんでした。一般原則からの推論であることをご了承ください。
 - エについても、「侵奪者が目的物を第三者に貸与した場合になお占有回収の訴えの相手方になる」という結論自体は占有代理（民法181条）の一般原則から導けるものであり、この事実関係に個別に対応する最高裁判例の番号までは確認が取れていません。断定的な判例引用は避け、条文と占有代理の法理を根拠として説明しています。
+- **重複出題チェック（2026年8月実施）**：`src/data/takuitsu.json`を検索し、「占有」を含む全問題を確認しました。見出しが「占有権に関する次のアからオまでの記述のうち」で始まる令和7年度第2問・令和3年度第2問・平成25年度第3問は、いずれも肢の一つに占有回収の訴え（相続による占有の承継、代理占有、悪意占有者の扱いなど）が登場しますが、本問（占有保全・占有回収の要件と相手方・出訴期間を横断的に問う構成）とは事実関係・論点構成が異なり、同一問題の再出題ではありませんでした。**重複は見つかりませんでした**。
+- **最新法令チェック（2026年8月実施）**：本文で引用している民法199条（占有保全の訴え）・200条（占有回収の訴え）・201条3項（出訴期間）・181条（代理占有）について、`note-articles/laws/minpou-1-soukyoku-bukken.md`の条文原文と突合したうえで、近年の民法改正（令和3年民法・不動産登記法等改正、相隣関係・共有関連、2023年4月施行等）の対象範囲を確認しました。占有権（民法180条〜205条）はこれらの改正の対象になっておらず、条文番号・文言に変更はありませんでした。**修正すべき点はなく、記事の記述に変更はありません。**
+- **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（民法199条・200条・201条を`note-articles/laws/minpou-1-soukyoku-bukken.md`原文で直接突合し文言の一致を確認、判例番号は本文になく確認事項ブロックのみに記載、試験範囲外の一般法の不使用を確認）、B（正解番号3＝イエを`src/data/takuitsu.json`の`chosashi_H19_q03`の`correctAnswer`と再照合し一致を確認）、C（各肢の見出しが正しい結論を表していること、正解の先出しがないこと、敬体で統一されていること、条文解釈プロセスの解説がないこと、全角括弧の使用を確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックプロンプトが未作成だったため本文・まとめの内容に基づき新規作成）、F（テンプレート構造・タイトルのキャッチフレーズ16字＝25字以内・確認事項ブロックの記載を確認）、G（重複出題チェック・最新法令チェックを上記のとおり実施）を実施し、本文の誤りは見つかりませんでした。
 
 ---
 
@@ -79,3 +82,130 @@
 - 居座られても「奪われた」にはならないんです
 - 貸しただけじゃ、占有は手放してないんです
 - 1年のカウントは「奪われた時」から始まるんです
+
+---
+
+## インフォグラフィック プロンプト（問題全体）
+
+占有保全の訴え（ア・イ）と占有回収の訴え（ウ・エ・オ）の2系統に分け、それぞれの要件・相手方・出訴期間という「誰が・何を・誰に」を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する計5枚のポスター型カードで俯瞰する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric houses, land plots,
+falling trees, bicycles, calendars, shields, prohibition marks — adapt
+icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 占・有・訴・権・奪・侵・貸・与・還・担・保 — these must be rendered
+in their standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+占有訴権、誰が誰に何を求める？
+
+Subtitle (smaller, centered, 1行):
+平成19年度 午前の部 第3問－占有保全と占有回収の使い分け
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: green) ---
+占有保全の訴え
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+予防か担保、どちらか一方
+Illustration: An isometric land plot with a leaning tree about to fall
+toward the neighboring plot. A person stands at the boundary pointing at
+two separate request bubbles connected by a label 「または」 — one bubble
+shows a wooden prop/support icon labeled 「予防」, the other shows a small
+shield-and-coin icon labeled 「担保」. A third bubble showing both icons
+combined together has a large red X mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+予防または担保
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+不法占拠者も占有保全できる
+Illustration: An isometric small shed built on someone else's empty land.
+The real land owner approaches from outside with a heavy construction
+machine (bulldozer icon) trying to demolish it. A translucent green shield
+icon labeled 「占有保全の訴え」 stands between the machine and the shed,
+stopping it. A separate icon of a gavel labeled 「自力救済」 has a large
+red X mark over it.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+自力救済は不可
+
+--- COLUMN B HEADER (pill-shaped badge, color: blue) ---
+占有回収の訴え
+
+--- COLUMN B, CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+居座りは「奪う」に当たらない
+Illustration: An isometric room inside a house; a tenant figure sits among
+moving boxes next to a calendar page marked 「契約終了」. The landlord
+stands at the open door holding a document labeled 「明渡請求」. A separate
+icon of a masked figure forcibly grabbing a key, labeled 「占有回収の訴え」,
+has a large red X mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+明渡請求で対応
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+貸しただけなら本人が相手方
+Illustration: An isometric house; a figure B forcibly pulls a key away from
+figure A (占有を奪う), then hands a spare key to figure C who moves into
+the house. A dotted line connects B to the house labeled 「間接占有」. A
+green arrow from A points directly at B labeled 「占有回収の訴えの相手方」,
+while a separate arrow from A pointing at C has a large red X mark over it.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+相手方はB(貸主)
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line, ~20 characters or fewer):
+起算点は「奪われた時」から1年
+Illustration: An isometric calendar; a bicycle being stolen from a house
+entrance is marked on one date, with a 「1年」 countdown arrow starting
+exactly from that date. A later calendar page labeled 「Cが乗り始めた日」
+has a magnifying glass and a large red X mark over it, showing this later
+date is NOT the starting point.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+奪われた時から1年
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, that badge numbers run 1-5 continuously
+across both columns without resetting, confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```
