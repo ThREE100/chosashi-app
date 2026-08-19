@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成18年度 第20問・総社員が同意しても越えられない一線〜調査士法人の設立・業務執行・届出・懲戒を整理〜
+## 【土地家屋調査士受験生向け】平成18年度 第20問〜総社員が同意しても越えられない一線〜
 
 **出題年度：平成18年度　午後の部　第20問**
 
@@ -63,12 +63,16 @@
 **このまま使える点／使う前に確認したい点**
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 出題年度・問題番号・正解番号（選択肢4番）は、本リポジトリの検証済みデータベース（`src/data/takuitsu.json`、id: `chosashi_H18_q20`、`correctAnswer: 4`）で確認済みです。ただし同エントリの`explanation`フィールドは空欄だったため、各肢の条文根拠は本記事のために別途Web検索（e-Gov法令検索を参照する各種法律解説サイトのスニペット）で確認しました。
-- 各肢の条文根拠（肢1：法32条＝設立の登記による成立、肢2：法35条1項＝全社員の業務執行権、肢3：法33条＝成立後2週間以内の届出・届出先は調査士会及び連合会、肢4：法37条1項＝競業避止義務、肢5：法43条1項＝調査士法人自体への懲戒＝戒告・業務の全部又は一部の停止・解散）は、いずれも現行の土地家屋調査士法の条文番号として複数のWeb検索結果で確認できたほか、本シリーズの同一分野の既存記事（`note-articles/h29-mondai/q20-chousashi-houjin.md`の法35条1項、`note-articles/r4-mondai/q20-chousashihou.md`の法37条1項、`note-articles/r5-mondai/q20-chousashihou.md`の法43条1項2号）が引用している条番号とも一致することを突合確認しています。
-- **法改正の確認について**：土地家屋調査士法は出題後（令和2年8月1日施行の改正で、懲戒権者が法務局又は地方法務局の長から法務大臣へ移管されたほか、清算結了後の法人に対する懲戒を可能にする改正等）を含め複数回改正されていますが、本問で問われた5つの論点（設立要件、業務執行権の分配、届出の期限・届出先、競業避止義務、法人自体への懲戒可否）については、条文番号の変動はあるものの、いずれの肢についても正誤の結論を左右するような改正は見当たりませんでした。したがって本問は出題当時から現行法まで正解が選択肢4番のまま変わらないと判断し、法改正対応ルール（改正前後を別立てで解説する手順）の適用は不要と判断しています。なお、懲戒処分を行う主体（現行法では法務大臣）など、正誤判定に直結しない周辺の手続主体については、本文では特定の名称を断定的に記載していません。
-- この環境ではe-Gov法令検索など外部サイトへのWebFetchが403エラーで失敗するため、条文原文への直接アクセスはできませんでした。WebSearchのスニペットと、本シリーズの既存記事（同一分野で条文照合済み）との突合により条文番号を確認していますが、条文の一字一句までを原文で目視確認できたわけではない点にご留意ください。
-- 参考として提示されたSTEP3の予備校教材相当の解説では、肢5の法人への懲戒根拠を「法75条」としていましたが、Web検索で確認した限り、現行の土地家屋調査士法において調査士法人への懲戒（戒告・業務停止・解散）を定めるのは第43条であり、75条という条番号は本法の条文構成上該当しないと判断したため、本記事では43条1項を採用しています。
-- **重複出題チェック**：本リポジトリ内の同一分野の既存記事（`h29-mondai/q20-chousashi-houjin.md`＝社員数・代表社員・常駐義務等、`r2-mondai/q20-chousashihou.md`＝清算人、`r3-mondai/q20-chousashihou.md`＝解散清算の監督機関・登録の経由先、`r4-mondai/q20-chousashihou.md`＝代表社員・競業避止・常駐義務、`r5-mondai/q20-chousashihou.md`＝登録取消し・懲戒の官報公告・業務の一部停止、`r6-mondai/q20-chousashihou-gyoumu-kitei.md`＝依頼拒否・秘密保持・一人法人、`r7-mondai/q20-chousashihou.md`＝定款変更届出・複数事務所・登録取消による脱退）と照らし合わせたところ、本問（法人の成立要件・業務執行権の分配・成立後の届出先・競業避止・法人自体への懲戒可否）と論点が完全に一致する記事は見当たりませんでした。特に肢4の競業避止義務（法37条1項）は`r4-mondai/q20-chousashihou.md`の肢エと同一論点ですが、出題年度・肢の構成が異なるため重複記事とはしていません。
+- 出題年度・問題番号・正解番号（選択肢4番）は、本リポジトリの検証済みデータベース（`src/data/takuitsu.json`、id: `chosashi_H18_q20`、`correctAnswer: 4`）で確認済みです。ただし同エントリの`explanation`フィールドは空欄だったため、各肢の条文根拠は本記事のために`note-articles/laws/chousashi-hou.md`のローカル法令データベースで確認しました。
+- 各肢の条文根拠は、`note-articles/laws/chousashi-hou.md`（土地家屋調査士法の現行全文、取得日2026-08-04、最新改正まで反映済み）の条文原文と突き合わせ、条文番号・文言レベルで完全一致を確認しました。
+  - 肢1（法32条「調査士法人は、その主たる事務所の所在地において設立の登記をすることによつて成立する。」）：完全一致。
+  - 肢2（法35条1項「調査士法人の社員は、すべて業務を執行する権利を有し、義務を負う。」）：完全一致。なお同条2項には、民間紛争解決手続代理関係業務についてのみ「特定社員」だけが業務執行権を有するとする例外があるが、これは法律自体が定める限定的な例外であって、「定款の定めにより」社員の一部だけに業務執行権を与えられるとする本肢の記述とは要件が異なるため、肢2の誤りという結論に影響しません。
+  - 肢3（法33条「調査士法人は、成立したときは、成立の日から二週間以内に、登記事項証明書及び定款の写しを添えて、その旨を、その主たる事務所の所在地を管轄する法務局又は地方法務局の管轄区域内に設立された調査士会…及び調査士会連合会に届け出なければならない。」）：完全一致。期限（2週間以内）は正しく、届出先が法務局ではなく調査士会・連合会である点も条文どおりです。
+  - 肢4（法37条1項「調査士法人の社員は、自己若しくは第三者のためにその調査士法人の業務の範囲に属する業務を行い、又は他の調査士法人の社員となつてはならない。」）：完全一致。同条には総社員の同意による解除を認める規定（ただし書等）は存在しないことも条文上確認済みです。
+  - 肢5（法43条1項「調査士法人がこの法律又はこの法律に基づく命令に違反したときは、法務大臣は、当該調査士法人に対し、次に掲げる処分をすることができる。一 戒告 二 二年以内の業務の全部又は一部の停止 三 解散」）：完全一致。
+- **法改正の確認について（STEP0の指示に基づく再検証）**：`chousashi-hou.md`の備考欄によれば、収録されている条文は取得日（2026-08-04）時点での最新改正（デジタル社会形成基本法等改正、施行日2026-05-21）まで反映済みの現行条文です。調査士法人に関する章（第26条〜第43条）は平成15年施行の改正で新設されて以来、その後の改正（民間紛争解決手続代理関係業務の追加に伴う35条の2〜36条の3等の「の2」「の3」枝番条文の挿入、令和元年法律第29号による社員1人法人の許容等）はいずれも新しい条を挿入する形（枝番号の付加）で行われており、本問が根拠とする32条・33条・35条1項・37条1項・43条1項という基本番号自体は挿入の影響を受けず、出題当時（平成18年度）から現行法まで同一の番号・内容で存続していると判断できます。したがって、本問で問われた5つの論点（設立要件、業務執行権の分配、届出の期限・届出先、競業避止義務、法人自体への懲戒可否）はいずれも条文番号・内容とも変動がなく、正誤の結論を左右する改正は見当たりませんでした。本問は出題当時から現行法まで正解が選択肢4番のまま変わらないと判断し、法改正対応ルール（改正前後を別立てで解説する手順）の適用は不要です。なお、懲戒処分を行う主体（現行法では法務大臣。令和2年8月1日施行の改正で法務局又は地方法務局の長から移管された経緯があります）など、正誤判定に直結しない周辺の手続主体については、本文では特定の名称を断定的に記載していません。
+- 参考として提示されたSTEP3の予備校教材相当の解説では、肢5の法人への懲戒根拠を「法75条」としていましたが、`laws/chousashi-hou.md`の条文原文で確認した限り、現行の土地家屋調査士法において調査士法人への懲戒（戒告・業務の全部又は一部の停止・解散）を定めるのは第43条であり、75条という条番号は本法の条文構成上該当しないため、本記事では43条1項を採用しています（75条は罰則章の両罰規定〈法人の代表者等が一定の違反行為をした場合にその法人にも罰金刑を科す規定〉であり、調査士法人に対する戒告・業務停止・解散という懲戒処分とは別の条文です）。
+- **重複出題チェック**：本リポジトリ内の同一分野の既存記事（`h29-mondai/q20-chousashi-houjin.md`＝社員数・代表社員・常駐義務等、`r2-mondai/q20-chousashihou.md`＝清算人、`r3-mondai/q20-chousashihou.md`＝解散清算の監督機関・登録の経由先、`r4-mondai/q20-chousashihou.md`＝代表社員・競業避止・常駐義務、`r5-mondai/q20-chousashihou.md`＝登録取消し・懲戒の官報公告・業務の一部停止、`r6-mondai/q20-chousashihou-gyoumu-kitei.md`＝依頼拒否・秘密保持・一人法人、`r7-mondai/q20-chousashihou.md`＝定款変更届出・複数事務所・登録取消による脱退）と照らし合わせたところ、本問（法人の成立要件・業務執行権の分配・成立後の届出先・競業避止・法人自体への懲戒可否）と5肢の構成が完全に一致する記事は見当たりませんでした。ただし個別の論点単位では、肢2の業務執行権（法35条1項＝社員は全て業務執行権を有し義務を負う）が`h29-mondai/q20-chousashi-houjin.md`の肢イと同一論点であり、肢4の競業避止義務（法37条1項）が`r4-mondai/q20-chousashihou.md`の肢エと同一論点です。いずれも出題年度・問題全体の肢構成（他の4肢の組合せ）が異なるため、重複記事の統合・削除は行わず、独立記事として維持するのが適切と判断しました。
 
 ---
 
@@ -147,36 +151,36 @@ Conclusion tag (soft blue, 5-15 Japanese characters):
 定款でも一部限定は不可
 
 --- CARD 3 ---
-Badge: a filled circle in soft green containing the number 3.
+Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 成立後2週間以内、届出先は調査士会と連合会
 Illustration: An isometric figure holding a document folder labeled
 「登記事項証明書・定款の写し」walking toward two building icons labeled
 「調査士会」and「連合会」, with a clock icon showing「2週間以内」. A
 crossed-out building icon labeled「法務局」with a red ✕ mark to its side.
-Conclusion tag (soft green, 5-15 Japanese characters):
+Conclusion tag (soft blue, 5-15 Japanese characters):
 届出先は法務局ではない
 
 --- CARD 4 ---
-Badge: a filled circle in soft green containing the number 4.
+Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 競業避止は、総社員の同意でも解除されない
 Illustration: An isometric figure (社員) attempting to sign a second
 contract labeled「他の業務」outside the office, with a large red stop-sign
 icon blocking them. A speech bubble from other figures saying「全員同意
 しても」with a red ✕ mark beside it.
-Conclusion tag (soft green, 5-15 Japanese characters):
+Conclusion tag (soft blue, 5-15 Japanese characters):
 全員一致でも越えられない
 
 --- CARD 5 ---
-Badge: a filled circle in soft beige containing the number 5.
+Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 調査士法人自体も懲戒処分の対象になる
 Illustration: An isometric office building icon receiving a stamp labeled
 「戒告・業務停止・解散」directly on the building itself, alongside a
 smaller individual figure also receiving a separate stamp labeled
 「懲戒処分」, showing both are targeted simultaneously.
-Conclusion tag (soft beige, 5-15 Japanese characters):
+Conclusion tag (soft blue, 5-15 Japanese characters):
 法人も処分の対象
 
 --- FOOTER ---
