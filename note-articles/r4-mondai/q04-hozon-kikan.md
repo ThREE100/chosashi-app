@@ -32,9 +32,9 @@
 
 ### ウ：閉鎖された各階平面図は、閉鎖した日から30年間
 
-閉鎖された土地所在図、地積測量図、建物図面および各階平面図は、閉鎖した日から30年間保存されます（不動産登記規則28条13号）。本肢はこのとおりで正しい記述です。
+土地所在図・地積測量図・建物図面・各階平面図は、現に効力を有するもの（閉鎖されていないもの）であれば永久保存ですが、閉鎖されたものは、閉鎖した日から30年間保存されます（不動産登記規則28条13号）。本肢は閉鎖後の30年間について正しく述べているため、正しい記述です。
 
-**たとえば**、建物が滅失して各階平面図が閉鎖された場合、その図面は閉鎖の日から30年間、登記所で保管されます。図面類の30年はセットで覚えておきましょう。
+**たとえば**、まだ閉鎖されていない現用の各階平面図は永久保存ですが、建物が滅失するなどして図面が閉鎖されると、そこから30年間の保存に切り替わります。「現用は永久、閉鎖後は30年」とセットで覚えておきましょう。
 
 ### エ：筆界特定書「以外」の手続記録は、翌年から30年間
 
@@ -68,6 +68,7 @@
 - 出題年度・問題番号・正解番号（1番＝ア・イ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の条文根拠（ア＝規則28条4号、イ＝規則28条の2第6号、ウ＝規則28条13号、エ＝規則235条1項1号・2号、オ＝規則28条9号）は、データベースのexplanationフィールドおよびkaisetsu_plus.jsonに条文番号まで明記されているものを転記しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
+- **ウ肢の解説を補足（2026-08-19実施）**：ウ肢の解説が閉鎖後30年の説明のみで、現用（閉鎖されていない）場合は永久保存であるという原則（規則28条13号）に触れていなかったため、他の肢（ア）と同様に原則・例外の両方を明記するよう修正しました。あわせてインフォグラフィックCARD3にも現用/閉鎖後の対比イラストを追加しています。
 
 ---
 
@@ -158,11 +159,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 各階平面図は閉鎖から30年
-Illustration: An isometric rolled blueprint/floor-plan drawing labeled
-"各階平面図" stamped with a red "閉鎖" seal, next to a calendar tag
-reading "30年".
+Illustration: An isometric split scene: on the left, a clean, actively-used
+rolled blueprint/floor-plan drawing labeled "各階平面図" with a small
+infinity symbol (∞) and a "永久" tag, representing the current (not yet
+closed) drawing; on the right, the same drawing now stamped with a red
+"閉鎖" seal and a calendar tag reading "30年".
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-閉鎖から30年間
+現用は永久、閉鎖から30年間
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
