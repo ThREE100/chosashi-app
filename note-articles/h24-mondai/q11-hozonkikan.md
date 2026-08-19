@@ -68,6 +68,7 @@
 - 出題年度・問題番号・肢の全文・正解番号（5番＝ウ・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - `note-articles/laws/`のローカル法令データベース（不動産登記規則、e-Gov現行法2026-08-04取得）で全肢の条文原文・号数を確認済みです。ア＝規則235条1項1号（筆界特定書は永久）、イ＝規則28条13号（土地所在図・地積測量図・建物図面・各階平面図は原則永久）、ウ＝規則28条9号（表示に関する登記の申請情報・添付情報は30年）、エ＝規則28条2号（地図及び地図に準ずる図面は閉鎖したものを含め永久）、オ＝規則28条4号（土地の閉鎖登記記録は50年、建物の閉鎖登記記録は5号により30年）は、いずれも条文の文言そのままの内容です。イについては、28条13号のかっこ書きが、規則20条3項の規定により申請書類つづり込み帳に綴り込まれた書面（電磁的記録化された地積測量図の紙原本など）を対象から除外しており、この紙原本自体は28条9号のかっこ書き（電磁的記録に記録して保存した日から30年間）が適用される可能性があります。もっとも、本肢が問う「地積測量図（電磁的記録の情報そのもの）」は13号の対象として永久保存であり、本文の結論（「10年間」は誤り）自体には影響しません。
 - **現用・閉鎖後の区別の明確化（2026-08-19実施）**：肢イについて、規則28条13号が「永久（閉鎖したものにあっては、閉鎖した日から三十年間）」と定めており、地積測量図の永久保存は現用（閉鎖されていない）ものに限られる点を本文に明記しました。本肢自体は閉鎖の場面を問うものではなく、正誤判定（誤＝10年間ではなく永久）に変更はありません。なお、規則28条13号のかっこ書きが規則20条3項の規定により申請書類つづり込み帳につづり込まれた書面を対象から除外している点（電磁的記録化された地積測量図の紙原本自体は規則28条9号のかっこ書きにより電磁的記録に記録して保存した日から30年間となる可能性がある点）は、上記の現用・閉鎖後の区別とは別の論点であり、直前の段落で引き続き整理しています。
+- **インフォグラフィックの補足（2026-08-19実施）**：オ肢のCARD5が「閉鎖後50年」の結論のみを描いており、現用の登記記録が規則28条1号により永久保存であるという前提に触れていなかったため、現用/閉鎖後の対比イラストに修正しました。あわせて、この「登記記録は現用なら永久、閉鎖後は土地50年・建物30年」という構造を単独で図解する補足インフォグラフィック（オ肢・図解）を新規に追加しました。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「保存期間」がテーマの問題を確認しました。**本問肢オ（甲土地を乙土地に合筆した場合、甲土地の登記記録は閉鎖された日から50年間保存される、という記述）と全く同じ論点（土地の閉鎖登記記録の保存期間＝50年）が、令和4年度第4問肢ア（同じ50年という数値を「30年」と誤って記述したもの）でも問われています。**両問とも「土地の閉鎖登記記録は50年保存」という同一の条文知識（不登規則28条4号）を土台としていますが、具体的な出題の切り口（本問は合筆による閉鎖、令和4年度は一般的な保存期間の数値問題）は異なります。noteでの発信時は、この論点が繰り返し出題される重要知識であることに触れつつ、令和4年度の記事（本シリーズには未収録）と混同されないよう注意してください。それ以外の肢については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -168,9 +169,12 @@ Conclusion tag: 30年で満了
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
 Heading: 合筆で消えた登記記録は50年
-Illustration: A closed/merged land registry record stamped "閉鎖登記記録"
-with a countdown timer badge reading "50年".
-Conclusion tag: 50年保存される
+Illustration: An isometric split scene: on the left, a clean, actively-used
+land registry record labeled "現用の登記記録" with a small infinity symbol
+(∞) badge; on the right, the same record now stamped "閉鎖登記記録（土地）"
+with a countdown timer badge reading "50年", connected by a small arrow
+labeled "合筆".
+Conclusion tag: 現用は永久、閉鎖後50年
 
 --- FOOTER ---
 
@@ -184,4 +188,70 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+## インフォグラフィック プロンプト（オ肢・図解）
+
+オ肢の論点（合筆で閉鎖された甲土地の登記記録は50年保存）の前提となる、「登記記録そのものも、現に使用されている間は永久保存だが、閉鎖されると期限付きの保存に切り替わる」という規則28条1号・4号・5号の構造を、現用と閉鎖後の2列対比で見せる補足図解。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+comparison poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere — go straight from the
+header to the two columns. Every column must communicate its point almost
+entirely through the illustration (icons, small embedded labels) plus one
+short heading and one short conclusion tag. Do NOT render any
+full-sentence explanation or legal citation anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 登・記・録・現・用・閉
+・鎖・永・久・合・筆 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+登記記録は現用なら永久、閉鎖後は土地50年・建物30年
+
+Subtitle (smaller, centered, 1行):
+平成24年度 午後の部 第11問 オ－規則28条1号・4号・5号の構造
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN (color: navy) ---
+Heading (bold, ONE line):
+現に使用されている登記記録
+Illustration: A clean, actively-referenced land/building registry document
+icon on an open desk, with an infinity symbol (∞) stamp beside it.
+Conclusion tag (navy banner, 5-15 Japanese characters):
+永久保存
+
+--- RIGHT COLUMN (color: gray) ---
+Heading (bold, ONE line):
+合筆・合併で閉鎖された登記記録
+Illustration: The same registry document icon, now stamped "閉鎖" and
+placed in an archive box, split into two small labeled sub-icons "甲土地
+（合筆）" with a countdown badge "50年" and "建物（合併）" with a countdown
+badge "30年".
+Conclusion tag (gray banner, 5-15 Japanese characters):
+閉鎖後は土地50年・建物30年
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm there are
+exactly two columns positioned at the same height, confirm there is no
+intro illustration or paragraph block between the header and the columns,
+and confirm that neither column contains a full sentence of explanatory
+prose — each column's takeaway must read as a short heading + a short
+conclusion tag, at a glance.
 ```
