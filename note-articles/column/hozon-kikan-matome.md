@@ -1,6 +1,6 @@
 ## 【土地家屋調査士受験生向け】登記所の書類、保存期間は「永久」「50年」「30年」「10年」「5年」の5段階〜不動産登記規則28条を総まとめ〜
 
-**関連：不動産登記規則28条・28条の2・235条／過去問(令和7年度午後の部第5問、令和4年度午後の部第4問、平成27年度午後の部第18問など)**
+**関連：不動産登記規則28条・28条の2・235条／過去問（令和7年度午後の部第5問、令和4年度午後の部第4問、平成27年度午後の部第18問など）**
 
 土地家屋調査士試験では、「登記所に保存されている情報の保存期間」がほぼ毎年のように出題されます。図面・登記記録・申請書類など、書類の種類ごとに保存期間がバラバラに定められており、「図面だから」「登記記録だから」と大きくくくって覚えると必ず引っかかります。今回は、不動産登記規則28条を中心に、保存期間を5段階に整理してまとめます。
 
@@ -10,30 +10,30 @@
 
 **永久保存**
 
-- 地図及び地図に準ずる図面(規則28条2号)
-- 建物所在図(規則28条3号)——**閉鎖されたものを含めて**永久
-- 土地所在図・地積測量図・建物図面及び各階平面図(規則28条13号)——**現に使用されている(閉鎖されていない)もの**は永久
-- 筆界特定書に記載され、又は記録された情報(規則235条1項1号)
+- 地図及び地図に準ずる図面（規則28条2号）
+- 建物所在図（規則28条3号）——**閉鎖されたものを含めて**永久
+- 土地所在図・地積測量図・建物図面及び各階平面図（規則28条13号）——**現に使用されている（閉鎖されていない）もの**は永久
+- 筆界特定書に記載され、又は記録された情報（規則235条1項1号）
 
 **50年保存**
 
-- 土地に関する閉鎖登記記録(閉鎖した日から)(規則28条4号)
+- 土地に関する閉鎖登記記録（閉鎖した日から）（規則28条4号）
 
 **30年保存**
 
-- 建物に関する閉鎖登記記録(閉鎖した日から)
-- 閉鎖した土地所在図・地積測量図・建物図面及び各階平面図(閉鎖した日から)(規則28条13号)
-- 表示に関する登記及び権利に関する登記の申請情報・添付情報(受付の日から)(規則28条9号)
-- 筆界特定書以外の筆界特定手続記録に記載・記録された情報(送付を受けた年の翌年から)(規則235条1項2号)
+- 建物に関する閉鎖登記記録（閉鎖した日から）
+- 閉鎖した土地所在図・地積測量図・建物図面及び各階平面図（閉鎖した日から）（規則28条13号）
+- 表示に関する登記及び権利に関する登記の申請情報・添付情報（受付の日から）（規則28条9号）
+- 筆界特定書以外の筆界特定手続記録に記載・記録された情報（送付を受けた年の翌年から）（規則235条1項2号）
 
 **10年保存**
 
-- 共同担保目録(記録されている全ての事項を抹消した日から)(規則28条6号)
+- 共同担保目録（記録されている全ての事項を抹消した日から）（規則28条6号）
 
 **5年保存**
 
-- 法定相続情報一覧図つづり込み帳(作成の年の翌年から)(規則28条の2第6号)
-- 職権表示登記等事件簿(立件の日から)(規則28条11号)
+- 法定相続情報一覧図つづり込み帳（作成の年の翌年から）（規則28条の2第6号）
+- 職権表示登記等事件簿（立件の日から）（規則28条11号）
 
 ### 紛らわしいポイントに注意
 
@@ -55,7 +55,7 @@
 
 **筆界特定書とそれ以外の筆界特定手続記録は別扱い**
 
-筆界特定の手続に関する記録のうち、「筆界特定書」そのものに記載・記録された情報は永久保存ですが、それ以外の筆界特定手続記録(申請書や資料など)は30年保存にとどまります。
+筆界特定の手続に関する記録のうち、「筆界特定書」そのものに記載・記録された情報は永久保存ですが、それ以外の筆界特定手続記録（申請書や資料など）は30年保存にとどまります。
 
 **たとえば**、筆界特定の結論を記載した筆界特定書自体は将来にわたって参照できるよう永久に保存されますが、その判断に至る過程で提出された資料等は30年で保存対象から外れます。
 
@@ -68,10 +68,10 @@
 **このまま使える点／使う前に確認したい点**
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 本記事は特定の1問の解説記事ではなく、令和7年度午後の部第5問・令和4年度午後の部第4問・平成27年度午後の部第18問など、複数年度の「保存期間」に関する過去問を、土地家屋調査士試験対策アプリの検証済みデータベース(takuitsu.json)から横断的に集約して作成した参照用のまとめ記事です。
-- 各保存期間(規則28条2号・3号・4号・6号・9号・11号・13号、規則28条の2第6号、規則235条1項1号・2号)は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものに加え、Web検索で条文の裏付けを確認しています。
+- 本記事は特定の1問の解説記事ではなく、令和7年度午後の部第5問・令和4年度午後の部第4問・平成27年度午後の部第18問など、複数年度の「保存期間」に関する過去問を、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）から横断的に集約して作成した参照用のまとめ記事です。
+- 各保存期間（規則28条2号・3号・4号・6号・9号・11号・13号、規則28条の2第6号、規則235条1項1号・2号）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものに加え、Web検索で条文の裏付けを確認しています。
 - 平成17年度の過去問にも本テーマに関連する出題がありましたが、「任意分筆案件記録」など現行の枠組みでは確認が難しい古い用語が含まれていたため、本記事には反映していません。より古い年度の情報を扱う際は、現行の規則と照合の上でご確認ください。
-- ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧(対照表PDF)のみで、テキスト解説は含まれていなかったため、今回は参照できませんでした。
+- ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみで、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 
 ---
 
@@ -87,9 +87,106 @@
 
 ## インフォグラフィック プロンプト
 
-本記事は「保存期間は5段階」（俯瞰）と「紛らわしいポイントに注意」（4つの対比）という2つのまとまりから成るため、①保存期間5段階の俯瞰カードポスター1枚、②紛らわしいポイントごとの対比表4枚の、合計5枚に分解する。
+本記事は「保存期間は5段階」（俯瞰）と「紛らわしいポイントに注意」（4つの対比）という2つのまとまりから成るため、①記事全体を1枚で俯瞰する総論、②保存期間5段階の俯瞰カードポスター1枚、③紛らわしいポイントごとの対比表4枚の、合計6枚に分解する。
 
-### 画像1：保存期間の5段階（永久・50年・30年・10年・5年）を俯瞰するポスター
+### 画像1：総論（記事全体を1枚で俯瞰）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2200 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: archive shelf with infinity
+symbol, closed land registry record, filing cabinet, bound ledger book,
+stopwatch/countdown badge, small warning/note tag icon — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a single all-in-one
+overview poster meant to work as the article's lead eyecatch image, NOT a
+text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the tier bands. Every element must communicate its point almost
+entirely through the illustration (icons, small embedded labels) plus one
+short heading and one short conclusion tag or note-tag. Do NOT render any
+full-sentence explanation or legal citation anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not
+paraphrase, translate, summarize, or substitute any characters. Pay
+special attention to the kanji 永・久・閉・鎖・登・記・録・筆・界・特・定・
+担・保・目・録 — these must be rendered in their standard Japanese forms,
+never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+保存期間は「永久」「50年」「30年」「10年」「5年」の5段階
+
+Subtitle (smaller, centered, 1行):
+不動産登記規則28条を中心とした保存期間の総まとめ
+
+（タイトル・サブタイトルのすぐ下に5段階の帯を続ける。導入イラスト・導入文
+のブロックは置かない。上から下へ「永久→50年→30年→10年→5年」の順に、色が
+徐々に淡くなる5本の横長バンドとして並べる。）
+
+--- TIER BAND 1 (color: dark navy) ---
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+永久保存
+Illustration: A row of four small labeled icons inside the band: "地図・
+公図"、"建物所在図（閉鎖後も）"、"現用の測量図等"、"筆界特定書"、each with
+a tiny infinity symbol (∞) badge.
+Note-tag (small amber warning-tag icon attached to the right edge of this
+band, 5-15 Japanese characters — a short callout, NOT a sentence):
+建物所在図は例外的に閉鎖後も永久
+
+--- TIER BAND 2 (color: blue) ---
+Heading: 50年保存
+Illustration: A closed/merged land registry document icon labeled "閉鎖登
+記記録（土地）" with a countdown badge "50年".
+Note-tag (small amber warning-tag icon attached to the right edge, 5-15
+Japanese characters):
+建物の閉鎖登記記録は30年で別
+
+--- TIER BAND 3 (color: teal) ---
+Heading: 30年保存
+Illustration: A row of four small labeled icons inside the band: "建物の
+閉鎖登記記録"、"閉鎖後の図面等"、"申請情報・添付情報"、"筆界特定書以外の
+記録"、each with a small countdown badge "30年".
+Note-tag (small amber warning-tag icon attached to the right edge, 5-15
+Japanese characters):
+図面は閉鎖後だけ30年
+
+--- TIER BAND 4 (color: amber) ---
+Heading: 10年保存
+Illustration: A bound ledger book icon labeled "共同担保目録" with a
+countdown badge "10年".
+(この帯には注意タグを付けない)
+
+--- TIER BAND 5 (color: gray) ---
+Heading: 5年保存
+Illustration: Two small stacked document icons labeled "法定相続情報一覧
+図つづり込み帳" and "職権表示登記等事件簿", each with a small countdown
+badge "5年".
+(この帯には注意タグを付けない)
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the poster has exactly 5 tier bands,
+top-to-bottom in order 永久・50年・30年・10年・5年, with no duplicated or
+missing bands, confirm there is no intro illustration or paragraph block
+between the header and the bands, confirm the note-tags appear only on
+tier bands 1・2・3 (not on 10年 or 5年), and confirm that no band contains
+a full sentence of explanatory prose — every band's takeaway must read as
+a short heading + short illustration labels + (where present) a short
+note-tag, at a glance.
+```
+
+### 画像2：保存期間の5段階（永久・50年・30年・10年・5年）を俯瞰するポスター
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -188,7 +285,7 @@ every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
 
-### 画像2：図面は「現用」か「閉鎖後」かで保存期間が変わる
+### 画像3：図面は「現用」か「閉鎖後」かで保存期間が変わる
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
@@ -251,7 +348,7 @@ prose — each column's takeaway must read as a short heading + a short
 conclusion tag, at a glance.
 ```
 
-### 画像3：建物所在図だけは、閉鎖後も永久保存という例外
+### 画像4：建物所在図だけは、閉鎖後も永久保存という例外
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
@@ -314,7 +411,7 @@ prose — each column's takeaway must read as a short heading + a short
 conclusion tag, at a glance.
 ```
 
-### 画像4：閉鎖登記記録は土地50年・建物30年
+### 画像5：閉鎖登記記録は土地50年・建物30年
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
@@ -378,7 +475,7 @@ prose — each column's takeaway must read as a short heading + a short
 conclusion tag, at a glance.
 ```
 
-### 画像5：筆界特定書だけが永久保存
+### 画像6：筆界特定書だけが永久保存
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
