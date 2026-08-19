@@ -198,7 +198,7 @@ tag, at a glance.
 
 肢ア〜オのそれぞれについて、登場人物（A・B・C等）の関係と結論を1シーンで図解した、単独で使える解説図のプロンプト。上記「問題全体」のポスター（1枚に5肢を圧縮したもの）とは別に、本文中のその肢の解説の直後に挿入して使うことを想定しており、圧縮ポスターのカードより人物の位置関係やラベルをやや詳しく見せてよい（ただしフルセンテンスの説明文は入れない）。
 
-### 肢ア：元の譲渡人には登記なしで対抗できる
+### ア：元の譲渡人には登記なしで対抗できる
 
 ```
 Create a Japanese-language explanatory illustration, landscape layout,
@@ -240,7 +240,7 @@ no full-sentence explanatory prose anywhere in the image — only the
 heading, the scene's embedded short labels, and the conclusion tag.
 ```
 
-### 肢イ：相続人にも登記なしで対抗できる
+### イ：相続人にも登記なしで対抗できる
 
 ```
 Create a Japanese-language explanatory illustration, landscape layout,
@@ -281,7 +281,7 @@ no full-sentence explanatory prose anywhere in the image — only the
 heading, the scene's embedded short labels, and the conclusion tag.
 ```
 
-### 肢ウ：中間省略登記の合意があっても、債権者の代位行使は妨げられない
+### ウ：中間省略登記の合意があっても、債権者の代位行使は妨げられない
 
 ```
 Create a Japanese-language explanatory illustration, landscape layout,
@@ -322,7 +322,7 @@ no full-sentence explanatory prose anywhere in the image — only the
 heading, the scene's embedded short labels, and the conclusion tag.
 ```
 
-### 肢エ：登記請求権を保全するための債権者代位は認められる
+### エ：登記請求権を保全するための債権者代位は認められる
 
 ```
 Create a Japanese-language explanatory illustration, landscape layout,
@@ -362,7 +362,7 @@ no full-sentence explanatory prose anywhere in the image — only the
 heading, the scene's embedded short labels, and the conclusion tag.
 ```
 
-### 肢オ：取消し後に現れた第三者との関係は、対抗問題として処理される
+### オ：取消し後に現れた第三者との関係は、対抗問題として処理される
 
 ```
 Create a Japanese-language explanatory illustration, landscape layout,
