@@ -10,6 +10,7 @@
 
 **永久保存**
 
+- 登記記録（規則28条1号）——**閉鎖登記記録を除く**、つまり**現に使用されている（閉鎖されていない）もの**は永久
 - 地図及び地図に準ずる図面（規則28条2号）
 - 建物所在図（規則28条3号）——**閉鎖されたものを含めて**永久
 - 土地所在図・地積測量図・建物図面及び各階平面図（規則28条13号）——**現に使用されている（閉鎖されていない）もの**は永久
@@ -56,6 +57,12 @@
 
 同じ「図面」の仲間でも、建物所在図だけは閉鎖された後も引き続き永久に保存されます。閉鎖後は30年になる地積測量図・建物図面・各階平面図とは扱いが異なるため、この違いが本試験で繰り返し狙われています。
 
+**登記記録そのものも、現用なら永久、閉鎖後は土地50年・建物30年**
+
+図面と同じ構造は、登記記録本体にも当てはまります。現に使用されている登記記録（閉鎖登記記録を除く）は規則28条1号により永久保存ですが、合筆・合併・滅失等によって閉鎖されると、そこから先は閉鎖登記記録として期間限定の保存に切り替わります（土地は50年、建物は30年）。
+
+**たとえば**、現に使用されている土地の登記記録は永久保存の対象ですが、合筆によってその登記記録が閉鎖されると、閉鎖した日から50年が経過した時点で保存期間が満了します。
+
 **土地の閉鎖登記記録は50年、建物の閉鎖登記記録は30年**
 
 同じ「閉鎖登記記録」でも、対象が土地か建物かで保存期間が異なります。土地の閉鎖登記記録は50年、建物の閉鎖登記記録は30年です。
@@ -70,7 +77,7 @@
 
 ### まとめ
 
-保存期間を覚えるときは、「その書類は今も使われているか、それとも役目を終えて閉鎖されたものか」「土地の話か建物の話か」「筆界特定書そのものか、それ以外の記録か」という切り口で整理すると、似たような選択肢が並んでいても迷わずに判断できます。
+保存期間を覚えるときは、「その登記記録・図面は今も使われているか、それとも役目を終えて閉鎖されたものか」「土地の話か建物の話か」「筆界特定書そのものか、それ以外の記録か」という切り口で整理すると、似たような選択肢が並んでいても迷わずに判断できます。
 
 ---
 
@@ -82,6 +89,7 @@
 - 平成17年度の過去問にも本テーマに関連する出題がありましたが、「任意分筆案件記録」など現行の枠組みでは確認が難しい古い用語が含まれていたため、本記事には反映していません。より古い年度の情報を扱う際は、現行の規則と照合の上でご確認ください。
 - ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみで、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **範囲の明確化（2026-08-19実施）**：ユーザーから提示された規則28条・28条の2の全文と、`note-articles/laws/fudousan-touki-kisoku-1.md`収録の条文を再照合し、完全に一致することを確認しました。あわせて、本記事の「5段階」が規則28条・28条の2に定められた全ての期間を網羅したものではなく、試験で問われやすい主要な期間に絞った整理であることを導入文で明記し、5段階に含まれない期間（20年間＝7号信託目録、1年間・3年間の各種帳簿、10年間だが起算点が異なる17号）を本文に追記しました。
+- **登記記録本体（規則28条1号）の追記（2026-08-19実施）**：全年度の記事を横断的に再検証する過程で、現に使用されている登記記録（閉鎖登記記録を除く）が規則28条1号により永久保存であることが、永久保存リストおよび紛らわしいポイントの解説から漏れていたことが判明しました。図面（現用は永久・閉鎖後は期間限定）と同じ「現用／閉鎖後」の構造が登記記録本体にも当てはまる、本テーマで最も基本的な適用例であるため、永久保存リストに1号を追加し、「紛らわしいポイントに注意」に新しい項目として解説を追加しました。
 
 ---
 
@@ -90,6 +98,7 @@
 - 保存期間、永久・50年・30年・10年・5年の5段階なんです
 - 図面は「現用」か「閉鎖後」かで、寿命が変わるんです
 - 建物所在図だけ、閉鎖されても一生モノなんです
+- 登記記録も、現用は永久、閉鎖後は期限つきなんです
 - 土地の閉鎖記録は50年、建物は30年、実は違うんです
 - 筆界特定書そのものだけ、ずっと保存されるんです
 
@@ -97,7 +106,7 @@
 
 ## インフォグラフィック プロンプト
 
-本記事は「保存期間は5段階」（俯瞰）と「紛らわしいポイントに注意」（4つの対比）という2つのまとまりから成るため、①記事全体を1枚で俯瞰する総論、②保存期間5段階の俯瞰カードポスター1枚、③紛らわしいポイントごとの対比表4枚の、合計6枚に分解する。
+本記事は「保存期間は5段階」（俯瞰）と「紛らわしいポイントに注意」（5つの対比）という2つのまとまりから成るため、①記事全体を1枚で俯瞰する総論、②保存期間5段階の俯瞰カードポスター1枚、③紛らわしいポイントごとの対比表5枚の、合計7枚に分解する。
 
 ### 画像1：総論（記事全体を1枚で俯瞰）
 
@@ -144,9 +153,9 @@ Subtitle (smaller, centered, 1行):
 --- TIER BAND 1 (color: dark navy) ---
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 永久保存
-Illustration: A row of four small labeled icons inside the band: "地図・
-公図"、"建物所在図（閉鎖後も）"、"現用の測量図等"、"筆界特定書"、each with
-a tiny infinity symbol (∞) badge.
+Illustration: A row of five small labeled icons inside the band: "現用の
+登記記録"、"地図・公図"、"建物所在図（閉鎖後も）"、"現用の測量図等"、"筆界
+特定書"、each with a tiny infinity symbol (∞) badge.
 Note-tag (small amber warning-tag icon attached to the right edge of this
 band, 5-15 Japanese characters — a short callout, NOT a sentence):
 建物所在図は例外的に閉鎖後も永久
@@ -243,9 +252,10 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled dark-navy circle containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 永久保存されるもの
-Illustration: An archive shelf holding four labeled document icons, each
-stamped with an infinity symbol (∞): "地図・地図に準ずる図面"、"建物所在
-図（閉鎖後も）"、"現用の土地所在図・地積測量図等"、"筆界特定書".
+Illustration: An archive shelf holding five labeled document icons, each
+stamped with an infinity symbol (∞): "現用の登記記録"、"地図・地図に準ずる
+図面"、"建物所在図（閉鎖後も）"、"現用の土地所在図・地積測量図等"、"筆界特
+定書".
 Conclusion tag (dark-navy banner below the illustration, 5-15 Japanese
 characters, a keyword phrase — NOT a sentence, NOT a legal citation):
 期限なし
@@ -421,7 +431,70 @@ prose — each column's takeaway must read as a short heading + a short
 conclusion tag, at a glance.
 ```
 
-### 画像5：閉鎖登記記録は土地50年・建物30年
+### 画像5：登記記録は現用なら永久、閉鎖後は土地50年・建物30年
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+comparison poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere — go straight from the
+header to the two columns. Every column must communicate its point almost
+entirely through the illustration (icons, small embedded labels) plus one
+short heading and one short conclusion tag. Do NOT render any
+full-sentence explanation or legal citation anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 登・記・録・現・用・閉
+・鎖・永・久 — these must be rendered in their standard Japanese forms,
+never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+登記記録は現用なら永久、閉鎖後は土地50年・建物30年
+
+Subtitle (smaller, centered, 1行):
+規則28条1号（現用の登記記録）と4号・5号（閉鎖登記記録）の違い
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN (color: navy) ---
+Heading (bold, ONE line):
+現に使用されている登記記録
+Illustration: A clean, actively-referenced land/building registry document
+icon on an open desk, with an infinity symbol (∞) stamp beside it.
+Conclusion tag (navy banner, 5-15 Japanese characters):
+永久保存
+
+--- RIGHT COLUMN (color: gray) ---
+Heading (bold, ONE line):
+閉鎖登記記録（土地50年・建物30年）
+Illustration: The same registry document icon, now stamped "閉鎖" and
+placed in an archive box, split into two small labeled sub-icons "土地"
+（countdown badge "50年"）and "建物"（countdown badge "30年"）.
+Conclusion tag (gray banner, 5-15 Japanese characters):
+閉鎖後は土地50年・建物30年
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm there are
+exactly two columns positioned at the same height, confirm there is no
+intro illustration or paragraph block between the header and the columns,
+and confirm that neither column contains a full sentence of explanatory
+prose — each column's takeaway must read as a short heading + a short
+conclusion tag, at a glance.
+```
+
+### 画像6：閉鎖登記記録は土地50年・建物30年
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
@@ -485,7 +558,7 @@ prose — each column's takeaway must read as a short heading + a short
 conclusion tag, at a glance.
 ```
 
-### 画像6：筆界特定書だけが永久保存
+### 画像7：筆界特定書だけが永久保存
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
