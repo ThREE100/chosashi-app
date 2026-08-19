@@ -189,3 +189,65 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（肢イ・初学者向け）
+
+肢イ（附属建物の主従入替えに二段階の手続は不要）について、「誤った二段階の手続」と「規則135条による簡便な手続」を対比で図解した、単独で使える解説図。本文の肢イの解説のすぐ下に挿入して使うことを想定しており、上記「問題全体」のポスターより人物・建物の位置関係やラベルをやや詳しく見せてよい（ただしフルセンテンスの説明文は入れない）。
+
+### 肢イ：附属建物の主従を入れ替えるのに、2棟とも分割してからやり直す必要はない
+
+```
+Create a Japanese-language explanatory illustration, landscape layout,
+1280x960 pixels, clean flat-design isometric illustration style with soft
+pastel colors (blue, green, beige, gray), rounded card frame, consistent
+with a modern explainer-graphic aesthetic. This is a single standalone
+diagram (not a multi-card poster), meant to be inserted directly below
+the 肢イ paragraph of article text, so it may show a little more label
+detail than a compressed poster card — but it must still avoid full
+sentences.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 分・割・合・併・附・属
+・従・登・記 — these must be rendered in their standard Japanese forms,
+never as Simplified Chinese variants.
+
+--- SCENE ---
+Split the frame into an upper row (labeled "誤った二段階の手続", crossed
+out with a large red ✕) and a lower row (labeled "規則135条による手続",
+marked with a large green checkmark ✓).
+
+Upper row (two-step, crossed out): Start with one isometric building icon
+labeled "甲建物" containing two small attached sub-icons labeled "物置
+（附属）" and "車庫（附属）". Step 1 arrow labeled "①分割登記" splits it
+into two separate independent building icons labeled "乙建物（元・物置）"
+and "丙建物（元・車庫）". Step 2 arrow labeled "②合併登記" merges "丙建
+物" back into "乙建物" as its attached sub-icon, now labeled "丙建物
+（附属）". A large red ✕ overlays this entire two-step sequence, with a
+small label "二段階は不要".
+
+Lower row (direct swap, checkmark): The same starting building icon
+labeled "甲建物" with sub-icons "物置（附属）" and "車庫（附属）". A single
+curved arrow labeled "規則135条の記録方法" swaps their roles directly
+within the same building record, resulting in "物置（主）" and "車庫（附
+属）" — the labels "主" and "附属" visibly exchange places on the two
+sub-icons without the building ever being split into separate registry
+records. A green checkmark ✓ appears next to this result, with a small
+label "1回の手続で入替え可能".
+
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+主従の入替えに二段階は不要
+
+Conclusion tag (a short colored banner/pill below the illustration,
+green, 5-15 Japanese characters, a keyword phrase — NOT a sentence):
+簡便な手続で入替え可能
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm the upper
+row is marked with a red ✕ and the lower row with a green ✓, confirm
+there is no full-sentence explanatory prose anywhere in the image — only
+the heading, the scene's embedded short labels, and the conclusion tag.
+```
