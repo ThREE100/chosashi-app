@@ -82,3 +82,361 @@
 - 建物所在図だけ、閉鎖されても一生モノなんです
 - 土地の閉鎖記録は50年、建物は30年、実は違うんです
 - 筆界特定書そのものだけ、ずっと保存されるんです
+
+---
+
+## インフォグラフィック プロンプト
+
+本記事は「保存期間は5段階」（俯瞰）と「紛らわしいポイントに注意」（4つの対比）という2つのまとまりから成るため、①保存期間5段階の俯瞰カードポスター1枚、②紛らわしいポイントごとの対比表4枚の、合計5枚に分解する。
+
+### 画像1：保存期間の5段階（永久・50年・30年・10年・5年）を俯瞰するポスター
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: archive shelf with infinity
+symbol, closed land registry record, filing cabinet, bound ledger book,
+stopwatch/countdown badge, etc. — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, small embedded labels) plus one short
+heading and one short conclusion tag. Do NOT render any full-sentence
+explanation, legal citation, or paragraph of body text anywhere on the
+poster. If a piece of information cannot be expressed as a short label (a
+few words) or drawn as an icon, leave it out rather than writing it as
+prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not
+paraphrase, translate, summarize, or substitute any characters. Pay
+special attention to the kanji 永・久・閉・鎖・登・記・録・筆・界・特・定・
+担・保・目・録・続 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+保存期間は「永久」「50年」「30年」「10年」「5年」の5段階
+
+Subtitle (smaller, centered, 1行):
+不動産登記規則28条を中心とした保存期間の総まとめ
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。単一列で、上から下へ「永久→50年→30年→10年→5年」の
+順に並べ、色は上から下に向かって徐々に淡くなるグラデーションにする。）
+
+--- CARD 1 ---
+Badge: a filled dark-navy circle containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+永久保存されるもの
+Illustration: An archive shelf holding four labeled document icons, each
+stamped with an infinity symbol (∞): "地図・地図に準ずる図面"、"建物所在
+図（閉鎖後も）"、"現用の土地所在図・地積測量図等"、"筆界特定書".
+Conclusion tag (dark-navy banner below the illustration, 5-15 Japanese
+characters, a keyword phrase — NOT a sentence, NOT a legal citation):
+期限なし
+
+--- CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading: 土地の閉鎖登記記録は50年
+Illustration: A closed/merged land registry document icon stamped "閉鎖登
+記記録（土地）" with a countdown timer badge reading "50年".
+Conclusion tag: 閉鎖後50年
+
+--- CARD 3 ---
+Badge: a filled teal circle containing the number 3.
+Heading: 申請書類・閉鎖後の図面等は30年
+Illustration: A filing cabinet holding four small labeled document icons:
+"建物の閉鎖登記記録"、"閉鎖後の土地所在図等"、"表示・権利の申請書類"、"筆
+界特定書以外の記録"、each with a small countdown badge reading "30年".
+Conclusion tag: 30年で満了
+
+--- CARD 4 ---
+Badge: a filled amber circle containing the number 4.
+Heading: 共同担保目録は10年
+Illustration: A bound ledger book icon labeled "共同担保目録" with a
+countdown timer badge reading "10年", and a small label "全て抹消した日か
+ら".
+Conclusion tag: 抹消後10年
+
+--- CARD 5 ---
+Badge: a filled gray circle containing the number 5.
+Heading: 一覧図つづり込み帳等は5年
+Illustration: Two small stacked document icons labeled "法定相続情報一覧
+図つづり込み帳" and "職権表示登記等事件簿", each with a small countdown
+badge reading "5年".
+Conclusion tag: 5年で満了
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, arranged top-to-bottom in a single
+column from card 1 (永久) to card 5 (5年), confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose —
+every card's takeaway must read as a short heading + a short conclusion
+tag, at a glance.
+```
+
+### 画像2：図面は「現用」か「閉鎖後」かで保存期間が変わる
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+comparison poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere — go straight from the
+header to the two columns. Every column must communicate its point almost
+entirely through the illustration (icons, small embedded labels) plus one
+short heading and one short conclusion tag. Do NOT render any
+full-sentence explanation or legal citation anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 現・用・閉・鎖・積・測
+・量・図 — these must be rendered in their standard Japanese forms, never
+as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+図面は「現用」か「閉鎖後」かで保存期間が変わる
+
+Subtitle (smaller, centered, 1行):
+土地所在図・地積測量図・建物図面・各階平面図（規則28条13号）
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN (color: green) ---
+Heading (bold, ONE line):
+現に使用されている図面
+Illustration: A clean, actively-referenced document icon labeled "土地所
+在図・地積測量図・建物図面・各階平面図" on an open desk, with an infinity
+symbol (∞) stamp beside it.
+Conclusion tag (green banner, 5-15 Japanese characters):
+永久保存
+
+--- RIGHT COLUMN (color: gray) ---
+Heading (bold, ONE line):
+閉鎖された図面
+Illustration: The same document icon, now stamped "閉鎖" and placed in an
+archive box, with a countdown timer badge reading "30年".
+Conclusion tag (gray banner, 5-15 Japanese characters):
+閉鎖後30年
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm there are
+exactly two columns positioned at the same height, confirm there is no
+intro illustration or paragraph block between the header and the columns,
+and confirm that neither column contains a full sentence of explanatory
+prose — each column's takeaway must read as a short heading + a short
+conclusion tag, at a glance.
+```
+
+### 画像3：建物所在図だけは、閉鎖後も永久保存という例外
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+comparison poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere — go straight from the
+header to the two columns. Every column must communicate its point almost
+entirely through the illustration (icons, small embedded labels) plus one
+short heading and one short conclusion tag. Do NOT render any
+full-sentence explanation or legal citation anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 建・物・所・在・図・閉
+・鎖・永・久 — these must be rendered in their standard Japanese forms,
+never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物所在図だけは、閉鎖後も永久保存という例外
+
+Subtitle (smaller, centered, 1行):
+規則28条3号（建物所在図）と規則28条13号（その他の図面）の違い
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN (color: gray) ---
+Heading (bold, ONE line):
+土地所在図・地積測量図等（閉鎖後）
+Illustration: A document icon labeled "土地所在図・地積測量図・建物図面・
+各階平面図" stamped "閉鎖" with a countdown timer badge reading "30年".
+Conclusion tag (gray banner, 5-15 Japanese characters):
+閉鎖後30年
+
+--- RIGHT COLUMN (color: green) ---
+Heading (bold, ONE line):
+建物所在図（閉鎖後）
+Illustration: A building-outline map icon labeled "建物所在図" stamped
+"閉鎖" but with an infinity symbol (∞) stamp beside it, showing it keeps
+being stored despite closure.
+Conclusion tag (green banner, 5-15 Japanese characters):
+閉鎖後も永久
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm there are
+exactly two columns positioned at the same height, confirm there is no
+intro illustration or paragraph block between the header and the columns,
+and confirm that neither column contains a full sentence of explanatory
+prose — each column's takeaway must read as a short heading + a short
+conclusion tag, at a glance.
+```
+
+### 画像4：閉鎖登記記録は土地50年・建物30年
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+comparison poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere — go straight from the
+header to the two columns. Every column must communicate its point almost
+entirely through the illustration (icons, small embedded labels) plus one
+short heading and one short conclusion tag. Do NOT render any
+full-sentence explanation or legal citation anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 閉・鎖・登・記・録・合
+・筆・併 — these must be rendered in their standard Japanese forms, never
+as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+閉鎖登記記録は土地50年・建物30年
+
+Subtitle (smaller, centered, 1行):
+規則28条4号（土地）・5号（建物）の違い
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN (color: blue) ---
+Heading (bold, ONE line):
+土地の閉鎖登記記録
+Illustration: An isometric land-plot icon merging into another plot
+(labeled "合筆"), with the original record stamped "閉鎖登記記録（土地）"
+and a countdown timer badge reading "50年".
+Conclusion tag (blue banner, 5-15 Japanese characters):
+閉鎖後50年
+
+--- RIGHT COLUMN (color: teal) ---
+Heading (bold, ONE line):
+建物の閉鎖登記記録
+Illustration: An isometric building icon merging into another building
+(labeled "合併"), with the original record stamped "閉鎖登記記録（建物）"
+and a countdown timer badge reading "30年".
+Conclusion tag (teal banner, 5-15 Japanese characters):
+閉鎖後30年
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm there are
+exactly two columns positioned at the same height, confirm there is no
+intro illustration or paragraph block between the header and the columns,
+and confirm that neither column contains a full sentence of explanatory
+prose — each column's takeaway must read as a short heading + a short
+conclusion tag, at a glance.
+```
+
+### 画像5：筆界特定書だけが永久保存
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+comparison poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere — go straight from the
+header to the two columns. Every column must communicate its point almost
+entirely through the illustration (icons, small embedded labels) plus one
+short heading and one short conclusion tag. Do NOT render any
+full-sentence explanation or legal citation anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 筆・界・特・定・書・続
+・永・久 — these must be rendered in their standard Japanese forms, never
+as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+筆界特定書だけが永久保存
+
+Subtitle (smaller, centered, 1行):
+規則235条1項1号（筆界特定書）・2号（それ以外の記録）の違い
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN (color: navy) ---
+Heading (bold, ONE line):
+筆界特定書
+Illustration: A sealed, bound final-decision document icon labeled "筆界
+特定書" with an infinity symbol (∞) stamp.
+Conclusion tag (navy banner, 5-15 Japanese characters):
+永久保存
+
+--- RIGHT COLUMN (color: gray) ---
+Heading (bold, ONE line):
+それ以外の筆界特定手続記録
+Illustration: A stack of supporting-document icons (申請書・資料等)
+labeled "筆界特定書以外の記録" with a countdown timer badge reading
+"30年".
+Conclusion tag (gray banner, 5-15 Japanese characters):
+送付の翌年から30年
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm there are
+exactly two columns positioned at the same height, confirm there is no
+intro illustration or paragraph block between the header and the columns,
+and confirm that neither column contains a full sentence of explanatory
+prose — each column's takeaway must read as a short heading + a short
+conclusion tag, at a glance.
+```
