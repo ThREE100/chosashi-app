@@ -87,7 +87,9 @@
 
 ---
 
-## インフォグラフィック プロンプト（問題全体）
+## インフォグラフィック プロンプト
+
+### 画像1：問題全体（俯瞰カードポスター型）
 
 所有権以外の権利のある土地の分筆・合筆について、「分筆のときのルール」と「合筆のときのルール」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
@@ -201,4 +203,102 @@ paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
+```
+
+### 画像2：肢エ・実際にやり直す場合の手続（結論カード型）
+
+肢エは「分筆錯誤を原因として分筆の登記の抹消を申請できる」という誤りの記述だが、本文ではその先まで踏み込み、「では実際にどうやり直すのか」を不動産登記法72条（抹消された登記の回復）に基づいて補足している。①なぜ単純な抹消では戻せないのか、②消えた抵当権をどう回復するのか、③回復には誰の承諾が要るのか、④回復した先に何が残るのか、という4段階の流れをカードで追える構成にする。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080×1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plot split into
+two, mortgage ribbon icon, registry ledger page, stamps, a restore/undo
+arrow icon, person figures — adapt icon set to the topic).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 権・登・記・録・復・誤・筆, which have Simplified Chinese look-alike
+forms with visibly different stroke shapes — always draw the standard
+Japanese (Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+抵当権を消した分筆、
+戻すには「登記の回復」が必要なんです
+
+Subtitle (smaller, centered, 1行):
+分筆錯誤による抹消の可否と実際の手続(平成23年度 午後の部 第8問 肢エ)
+
+--- INTRO BLOCK (left: illustration; right: paragraph text) ---
+Illustration: An isometric land plot already split into "甲土地" and
+"乙土地", with a mortgage ribbon icon on 乙土地 crossed out by a 消滅承諾
+stamp, and a 分筆錯誤 stamp attempting to reach back and undo everything
+but stopped by a red prohibition circle.
+分筆の登記と抵当権を消す登記は一体でされているため、
+分筆錯誤を理由に分筆の登記だけを抹消しても、
+抵当権は当然には戻りません。
+
+--- CARD 1 ---
+Heading (bold):
+権利変動を伴うから、単純な抹消では戻らない
+Illustration: An isometric registry ledger page for 乙土地 showing an
+already-erased mortgage ribbon icon, with a "分筆錯誤による抹消" stamp
+hovering above it blocked by a red X, and a small thought-bubble icon
+showing a question mark over the erased mortgage.
+Caption (small text below):
+抵当権の消滅という権利変動を伴うため、分筆の登記
+だけを抹消しても元には戻らない。
+
+--- CARD 2 ---
+Heading (bold):
+まず消えた抵当権を「回復」する
+Illustration: An isometric two-step flow — step①a 乙土地 registry page
+with a faded/dotted-outline mortgage ribbon icon labeled "抹消済み";
+step②an arrow to the same page with a "回復" stamp restoring the
+mortgage ribbon to solid/filled color.
+Caption (small text below):
+消滅した抵当権の登記そのものを元に戻す「登記の
+回復」の手続をとる(不動産登記法72条)。
+
+--- CARD 3 ---
+Heading (bold):
+新たな利害関係人がいれば、その承諾が要る
+Illustration: An isometric scene where a new third-person figure labeled
+"新たな担保権者" has appeared on 乙土地 after the mortgage was erased,
+standing in front of the 回復 stamp from Card 2 with a red stop-sign
+icon, which only turns green once the figure adds a 承諾 stamp.
+Caption (small text below):
+抵当権が消えた後に乙土地へ新たに利害関係を持った
+第三者がいれば、その承諾がない限り回復の登記は
+できない。
+
+--- CARD 4 ---
+Heading (bold):
+回復のあと、あらためて是正する
+Illustration: An isometric final-step scene showing the restored mortgage
+ribbon on 乙土地's registry page with a green checkmark, followed by an
+arrow to a separate document icon labeled "分筆当時の状態を是正".
+Caption (small text below):
+抵当権の登記を回復したうえで、あらためて分筆
+当時の状態を是正する手続に進む。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成23年度 午後の部 第8問 肢エ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・登・記・録・復・誤・筆. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 4 exactly, with no duplicated or
+missing cards, and confirm every heading, illustration label, and caption
+text matches the Japanese text given above verbatim, with no paraphrasing
+and no substituted characters.
 ```
