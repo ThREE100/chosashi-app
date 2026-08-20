@@ -53,7 +53,7 @@
 - **ア（誤）**　所有者作成の代理権限証書（委任状）はこの方式の対象外
 - **イ（正）**　工事完了引渡証明情報は、施工者の電子署名で提供できる
 - **ウ（正）**　地役権者作成の範囲証明情報は、地役権者の電子署名で提供できる
-- **エ（誤）**　調査士作成の調査報告情報（規則93条）はこの方式の対象外
+- **エ（誤）**　調査士作成の調査報告情報はこの方式の対象外
 - **オ（誤）**　建物図面・各階平面図は図面専用のルールによる
 
 「第三者や作成者が電子署名を付せる証明情報（イ・ウ）」は代替でき、「委任状・調査報告情報・図面（ア・エ・オ）」は対象外、という切り分けになります。
@@ -177,7 +177,7 @@ Badge: a filled circle containing the number 4 (numbers run continuously).
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 調査士作成の調査報告情報はこの方式の対象外
 
-Illustration: A 調査報告情報(規則93条) document being scanned into a PDF icon, with a 土地家屋調査士 character's 電子署名 attempt blocked by a large ✕, labeled「代理人自身が作成」.
+Illustration: A 調査報告情報 document being scanned into a PDF icon, with a 土地家屋調査士 character's 電子署名 attempt blocked by a large ✕, labeled「代理人自身が作成」.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
