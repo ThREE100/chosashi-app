@@ -113,12 +113,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-KANJI ACCURACY WARNING: this poster contains the characters 題・諾・権・
-記・変・続・証・号 . These differ noticeably from their Simplified Chinese
-counterparts (題 must NOT become 题, 諾 must NOT become 诺, 権 must NOT
-become 权, 記 must NOT become 记, 変 must NOT become 变, 続 must NOT become
-续, 証 must NOT become 证). Draw each one in the Japanese form.
-
 --- HEADER ---
 Title (large, bold, 1行):
 表題部所有者の登記
@@ -189,6 +183,12 @@ Conclusion tag (a short green banner/pill directly below the illustration):
 変更の登記は使えない
 
 --- FOOTER ---
+
+KANJI ACCURACY WARNING: this poster contains the characters 題・諾・権・
+記・変・続・証・号 . These differ noticeably from their Simplified Chinese
+counterparts (題 must NOT become 题, 諾 must NOT become 诺, 権 must NOT
+become 权, 記 must NOT become 记, 変 must NOT become 变, 続 must NOT become
+续, 証 must NOT become 证). Draw each one in the Japanese form.
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

@@ -113,13 +113,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-KANJI ACCURACY WARNING: this poster contains the characters 証・鑑・謄・
-権・記・戸・棄・職 . These differ noticeably from their Simplified Chinese
-counterparts (証 must NOT become 证, 鑑 must NOT become 鉴, 謄 must NOT
-become 誊, 権 must NOT become 权, 記 must NOT become 记, 戸 must NOT become
-户, 棄 must NOT become 弃, 職 must NOT become 职). Draw each one in the
-Japanese form.
-
 --- HEADER ---
 Title (large, bold, 1行):
 添付情報の「作成後3月以内」
@@ -193,6 +186,13 @@ Conclusion tag (a short blue banner/pill directly below the illustration):
 資格は現在のもの
 
 --- FOOTER ---
+
+KANJI ACCURACY WARNING: this poster contains the characters 証・鑑・謄・
+権・記・戸・棄・職 . These differ noticeably from their Simplified Chinese
+counterparts (証 must NOT become 证, 鑑 must NOT become 鉴, 謄 must NOT
+become 誊, 権 must NOT become 权, 記 must NOT become 记, 戸 must NOT become
+户, 棄 must NOT become 弃, 職 must NOT become 职). Draw each one in the
+Japanese form.
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

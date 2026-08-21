@@ -112,13 +112,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-KANJI ACCURACY WARNING: this poster contains the characters 廃・続・滅・
-譲・義・務・記・規・約 . These differ noticeably from their Simplified Chinese
-counterparts (廃 must NOT become 废, 続 must NOT become 续, 滅 must NOT
-become 灭, 譲 must NOT become 让, 義 must NOT become 义, 務 must NOT become
-务, 記 must NOT become 记, 規 must NOT become 规, 約 must NOT become 约).
-Draw each one in the Japanese form.
-
 --- HEADER ---
 Title (large, bold, 1行):
 建物の表示に関する登記
@@ -198,6 +191,13 @@ Conclusion tag (a short blue banner/pill directly below the illustration):
 義務ではない
 
 --- FOOTER ---
+
+KANJI ACCURACY WARNING: this poster contains the characters 廃・続・滅・
+譲・義・務・記・規・約 . These differ noticeably from their Simplified Chinese
+counterparts (廃 must NOT become 废, 続 must NOT become 续, 滅 must NOT
+become 灭, 譲 must NOT become 让, 義 must NOT become 义, 務 must NOT become
+务, 記 must NOT become 记, 規 must NOT become 规, 約 must NOT become 约).
+Draw each one in the Japanese form.
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

@@ -133,8 +133,8 @@ Badge: a filled blue circle containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 直前の住所変更だけでは調査不要
 Illustration: Two isometric land plots joined by a merge arrow labeled
-"合筆"; beside them a small desk calendar labeled "3か月以内 住所変更"; a
-registry clerk figure labeled "登記官" holds a magnifying glass, and a tag
+"合筆"; beside them a small desk calendar with a tag reading "直前の住所変更";
+a registry clerk figure labeled "登記官" holds a magnifying glass, and a tag
 reading "必ず調査" carries a large red ✕.
 Conclusion tag (a blue banner/pill directly below the illustration, 5-15
 Japanese characters, a keyword phrase — NOT a sentence, NOT a legal
@@ -146,10 +146,10 @@ Badge: a filled blue circle containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 まず資格者代理人に情報を求める
 Illustration: An isometric registry clerk figure labeled "登記官" at a
-counter; a bold green arrow marked with a small circled "1" points first to
-a professional figure labeled "資格者代理人", and a thinner faded arrow
-marked with a small circled "2" points afterwards to a client figure
-labeled "本人".
+counter; a bold solid green arrow points first to a professional figure
+labeled "資格者代理人", and a separate thinner faded/dashed arrow points
+afterwards to a client figure labeled "本人", showing the order of contact
+through arrow weight alone (no numerals on the arrows).
 Conclusion tag (blue banner below the illustration, 5-15 Japanese
 characters):
 代理人が先

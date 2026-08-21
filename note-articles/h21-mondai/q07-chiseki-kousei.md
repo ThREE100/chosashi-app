@@ -114,12 +114,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-KANJI ACCURACY WARNING: this poster contains the characters 積・筆・誤・
-権・登・記・錯・決 . These differ noticeably from their Simplified
-Chinese counterparts (積 must NOT become 积, 筆 must NOT become 笔, 誤 must
-NOT become 误, 権 must NOT become 权, 記 must NOT become 记, 錯 must NOT
-become 错, 決 must NOT become 决). Draw each one in the Japanese form.
-
 --- HEADER ---
 Title (large, bold, 1行):
 地積の更正の登記
@@ -190,6 +184,12 @@ Conclusion tag (a short green banner/pill directly below the illustration):
 差があれば申請可
 
 --- FOOTER ---
+
+KANJI ACCURACY WARNING: this poster contains the characters 積・筆・誤・
+権・登・記・錯・決 . These differ noticeably from their Simplified
+Chinese counterparts (積 must NOT become 积, 筆 must NOT become 笔, 誤 must
+NOT become 误, 権 must NOT become 权, 記 must NOT become 记, 錯 must NOT
+become 错, 決 must NOT become 决). Draw each one in the Japanese form.
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

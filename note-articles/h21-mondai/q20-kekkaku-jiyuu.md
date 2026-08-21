@@ -139,22 +139,20 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line):
 Ａは未成年で資格なし
 Illustration: an isometric young figure labeled「Ａ」holding a pass
-certificate, with a birthday cake tag「18歳6か月」beside them and a
-signboard tag「当時の成年は20歳」behind them; a large red ✕ stamp sits over a
-registration card next to the figure.
+certificate, with a birthday cake tag「未成年」beside them; a large red ✕
+stamp sits over a registration card next to the figure.
 Conclusion tag (green pill banner below the illustration):
 当時は未成年者
 
 --- CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
-Ｂは3年経過で資格あり
+Ｂは期間経過で資格あり
 Illustration: an isometric figure labeled「Ｂ」beside a notice sheet tagged
-「司法書士の業務禁止」dated「平成17年4月1日」; a calendar strip with an arrow
-tagged「3年経過」runs from that date to a second date「平成21年4月1日」, ending
-in a green ✓ over Ｂ's registration card.
+「司法書士の業務禁止」; a calendar strip with a forward-pointing arrow tagged
+「期間経過」leads to a green ✓ over Ｂ's registration card.
 Conclusion tag (green pill banner below the illustration):
-3年で欠格が外れる
+期間経過で欠格が外れる
 
 --- CARD 3 ---
 Badge: a filled green circle containing the number 3.
@@ -183,7 +181,7 @@ Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line):
 Ｅの減給は免職ではない
 Illustration: an isometric figure labeled「Ｅ」in a prefectural office, holding
-a notice tagged「減給6か月」; next to it a separate notice tagged「懲戒免職」is
+a notice tagged「減給処分」; next to it a separate notice tagged「懲戒免職」is
 crossed out with a red ✕ to show the two are different, and Ｅ's registration
 card carries a green ✓.
 Conclusion tag (green pill banner below the illustration):

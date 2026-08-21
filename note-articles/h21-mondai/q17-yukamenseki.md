@@ -163,9 +163,10 @@ Conclusion tag (blue pill banner below the illustration):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
 エレベータ室は各階で算入
-Illustration: an isometric cutaway of a five-story building with an elevator
-shaft; a green ✓ appears at every one of the five floors beside the shaft,
-and a small tag「1階だけ」sits at the bottom with a red ✕ over it.
+Illustration: an isometric cutaway of a multi-story building with an
+elevator shaft; a green ✓ appears beside the shaft at every floor from
+bottom to top, and a small tag「一部の階だけ」sits at the bottom with a red ✕
+over it.
 Conclusion tag (blue pill banner below the illustration):
 止まる各階で算入
 

@@ -148,7 +148,7 @@ Illustration: two isometric buildings side by side. The left building has a
 signboard「市町村役場」with a large red ✕ over it. The right building has a
 signboard「税務署」with a green ✓ and a bundle of maps labeled
 「土地台帳附属地図」inside it. A short arrow leads from the right building to
-a third small building labeled「登記所」with a tag「昭和25年」.
+a third small building labeled「登記所」.
 Conclusion tag (green pill banner below the illustration):
 保管先は税務署
 

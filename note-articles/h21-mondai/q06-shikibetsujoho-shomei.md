@@ -112,12 +112,6 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-KANJI ACCURACY WARNING: this poster contains the characters 識・別・証・
-権・登・記・調・査・失・効 . These differ noticeably from their Simplified
-Chinese counterparts (証 must NOT become 证, 権 must NOT become 权, 記 must
-NOT become 记, 調 must NOT become 调, 別 must NOT become 别, 識 must NOT
-become 识, 効 must NOT become 效). Draw each one in the Japanese form.
-
 --- HEADER ---
 Title (large, bold, 1行):
 登記識別情報に関する証明
@@ -185,6 +179,12 @@ Conclusion tag (a short blue banner/pill directly below the illustration):
 委任状は不要
 
 --- FOOTER ---
+
+KANJI ACCURACY WARNING: this poster contains the characters 識・別・証・
+権・登・記・調・査・失・効 . These differ noticeably from their Simplified
+Chinese counterparts (証 must NOT become 证, 権 must NOT become 权, 記 must
+NOT become 记, 調 must NOT become 调, 別 must NOT become 别, 識 must NOT
+become 识, 効 must NOT become 效). Draw each one in the Japanese form.
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
