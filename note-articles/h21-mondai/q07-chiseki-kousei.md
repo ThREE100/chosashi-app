@@ -205,3 +205,94 @@ paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（肢ウ補足）
+
+肢ウ（判決を得ての代位申請の可否）は、問題全体のインフォグラフィックのCard3では結論タグ1つに圧縮されているため、「なぜ判決による代位が使えないのか」と「名義人が協力しない場合に実務ではどうするのか（実測図を添えた情報提供→登記官の職権による調査・更正）」を示す3枚組の補足インフォグラフィック。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric land plots, court
+judgment scrolls and gavels, registry office counters, survey diagrams,
+magnifying glasses, official stamps, torn paper labels, etc. — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 積・登・記・権・職・実・測・図・決・代 — these must be rendered in
+their standard Japanese forms, never as Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+名義人が動かないとき、地積の誤りはどう直す？
+
+Subtitle (smaller, centered, 1行):
+平成21年度　午後の部　第7問　肢ウ－判決による代位ではなく登記官の職権に委ねる
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled green circle containing the number 1.
+Heading (bold, ONE line, ~20 characters or fewer):
+判決を得ての代位申請は不可
+Illustration: An isometric court judgment scroll and a gavel icon, labeled
+「判決」, connected by an arrow toward a land-plot document labeled「地積の
+更正」. The arrow is struck through with a large red ✕. A small tag beside
+the crossed arrow reads「表示に関する登記」.
+Conclusion tag (green banner below the illustration, 5-15 characters):
+表示登記にはなじまない
+
+--- CARD 2 ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line, ~20 characters or fewer):
+実測図を添えて登記所へ情報提供
+Illustration: An isometric character (利害関係人) walking toward a registry
+office counter, holding out a rolled survey diagram labeled「実測図」with
+both hands. A speech-bubble arrow from the character to the counter reads
+「地積の誤りを伝える」with a green ✓.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+情報提供で足りる
+
+--- CARD 3 ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+登記官が調査し職権で更正
+Illustration: An isometric registry counter with a magnifying glass icon
+hovering over a land-plot diagram, labeled「調査」. An arrow leads from the
+magnifying glass to an official stamp icon labeled「職権」landing on a
+registry record book, with a green ✓ next to the corrected「地積」entry.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+登記官の判断で更正
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 3 exactly, with
+no duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway must
+read as a short heading + a short conclusion tag, at a glance.
+```
