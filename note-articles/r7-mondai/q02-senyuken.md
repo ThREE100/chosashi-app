@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】令和7年度 第2問〜「指図」だけで、占有権は移るんです〜
+## 【土地家屋調査士受験生向け】令和7年度 第2問〜「奪われたのは自分じゃない」でも訴えられるんです〜
 
 **出題年度：令和7年度　午後の部　第2問**
 
@@ -52,6 +52,19 @@
 
 **たとえば**、賃借人A（大家から部屋を借りている）が、その部屋をBに又貸し（転貸）。Bが実際に住んでいたところ、不法侵入者Cが鍵を変えてBを追い出し、居座ったとします。この場合、直接住んでいたBはもちろん、間接占有者であるAも「占有を回復せよ」とCに対して訴えを起こすことができます。
 
+**ここが分かりにくいポイント**：
+
+「実際にその部屋に住んでいて、実際に追い出されたのはBであって、Aではない」と考えると、「訴えを起こせるのはBだけで、Aには関係ないのでは」と思ってしまいがちです。しかし、占有回収の訴えを起こせるかどうかは、「誰が物理的にその場にいたか」ではなく、「誰が法律上“占有者”としての地位を持っているか」で判断します。
+
+民法181条は、占有権は代理人によって取得することができると定めています。転貸人Aは、転借人Bを占有代理人として、この建物を代理占有しています。つまり、Aは自分の手で建物に住んでいなくても、Bを介して法律上の「占有者」としての地位を持っているのです。Bが実際に占有を奪われたことは、同時にAの代理占有（間接占有）が奪われたことでもあります。
+
+だからこそ民法197条は、Aのような「占有者」にも、Bのような「他人のために占有をする者」にも、同じように占有の訴えを認めています。つまり、直接占有者Bだけでなく、間接占有者Aも、それぞれ独立して占有回収の訴え（200条）を提起できるということです。
+
+- **直接占有者B**：実際に住んでいて、物理的に占有を奪われた本人として、占有回収の訴えを提起できる。
+- **間接占有者A**：Bを介した代理占有（181条）が同時に奪われたとみなされる「占有者」として、独立して占有回収の訴えを提起できる。
+
+「物理的に何をされたか」ではなく「誰が占有者という法的地位を持つか」で考える、というのがこの分野を得点源にするコツです。
+
 ### まとめ
 
 - **ア（誤）**　相続人は自己の占有のみの主張も自由に選べる
@@ -71,6 +84,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（5番＝エ・オ）は法務省公表の試験問題原本・正答資料で確認済みです。
 - ア（187条1項）・イ（189条1項・2項）・ウ（196条1項）・エ（184条）は条文の文言レベルで確認済みです。オ（間接占有者にも占有回収の訴えが認められること）は、197条・200条の条文構造と代理占有（181条）の趣旨から導かれる結論であり、判例による確立した解釈に基づいています。
+- **オの理解補助について**：読者から「オが正しい（間接占有者Aにも占有回収の訴えが認められる）という結論に自力でたどり着けなかった」というフィードバックを受け、「ここが分かりにくいポイント」として、物理的に占有を奪われたのは直接占有者Bなのに、なぜ間接占有者Aにも訴権が認められるのか（＝代理占有により、Aも独立した“占有者”としての地位を持つため）を整理する解説を追加しました。あわせて、タイトルのキャッチフレーズを、当初のエ（指図による占有移転）から、実際に読者がつまずいたオの論点に差し替えました。オの元の解説自体（正誤判定・条文根拠）は変更していません。あわせて、オについて理解を優先した個別の解説インフォグラフィック（間違いノート型）を新規作成しました。
 
 ---
 
@@ -201,4 +215,115 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・間違いノート）
+
+オ（物理的に占有を奪われたのは直接占有者Bなのに、間接占有者Aにも占有回収の訴えが認められる）について、「奪われたのはBであってAではない」という直感と、代理占有（民法181条）による法的な占有者の地位を混同してしまう、という典型的なつまずきを解消するための関係図解型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、説明文・条文引用を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(占有権 判例整理), but built as a single detailed explainer panel rather
+than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who could not work out on their own
+why the indirect possessor（間接占有者）Ａ, who was never physically
+dispossessed, still has standing to sue. Unlike a quick-reference poster,
+this image MAY include a relationship diagram with quoted article text
+and short explanatory sentences (1-3 sentences per callout box) labeled
+誤りやすいポイント. Prioritize clarity and completeness of the reasoning
+over brevity. Do not compress the callout text into a short tag — write
+it out as full sentences exactly as given below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+占・有・権・代・理・訴・奪・還・侵・害 — always draw the standard Japanese
+(Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「奪われたのは自分じゃない」
+それでも訴えられるんです
+
+Subtitle (smaller, centered, 2行):
+令和7年度 午後の部 第2問 オ
+代理占有（民法181条）が、間接占有者にも占有者の地位を与える
+
+--- RELATIONSHIP DIAGRAM (three-stage vertical scene) ---
+
+SCENE 1 (top, gray/neutral background, labeled「平常時」):
+Illustration: A rented building. Inside, isometric character Ｂ（転借人・
+直接占有者）physically lives in the building. A dashed line connects
+character Ａ（転貸人・間接占有者）, positioned outside the building, to Ｂ
+inside it, labeled「占有代理人」. A small badge near Ａ reads
+「代理占有（民法181条）」.
+Quoted article text (rendered exactly, in a bordered box):
+「占有権は、代理人によつて取得することができる。」（民法181条）
+Callout label beneath the scene:
+Ａは自分の手で住んでいなくても、Ｂを占有代理人として、法律上の
+「占有者」としての地位を持っている。
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, with a small label「Ｃが侵入」beside
+it, connecting SCENE 1 to SCENE 2.
+
+SCENE 2 (middle, red/warning background, labeled「Ｃによる占有侵奪」):
+Illustration: A hooded isometric figure Ｃ changes the lock and forces Ｂ
+out of the building. Two red arrows radiate from this act of dispossession
+— one pointing at Ｂ labeled「直接占有を奪われた」, and a second, dashed
+arrow pointing at Ａ (still shown outside the building) labeled「代理占有
+（間接占有）も同時に奪われた」, making clear that the single act of
+dispossessing Ｂ legally injures both Ｂ's and Ａ's possession at once.
+Callout label beneath the scene:
+Ｂが実際に占有を奪われたことは、同時にＡの代理占有（間接占有）が
+奪われたことでもある。
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, connecting SCENE 2 to SCENE 3.
+
+SCENE 3 (bottom, blue/green split background, labeled「占有回収の訴え」):
+Illustration: Both Ａ and Ｂ, drawn side by side, each independently
+holding a document labeled「占有回収の訴え」and pointing an arrow toward
+Ｃ. A checkmark icon appears above each of Ａ and Ｂ, showing that both
+have independent standing to sue.
+Quoted article text (rendered exactly, in a bordered box):
+「占有者は、次条以下の規定に従い、占有の訴えを提起することができる。
+他人のために占有をする者も、同様とする。」（民法197条）
+Callout label beneath the scene:
+直接占有者Ｂだけでなく、間接占有者Ａも、それぞれ独立して占有回収の
+訴え（200条）を提起できる。
+
+--- CALLOUT BOX: 誤りやすいポイント (below the three scenes, pastel
+yellow background, full width) ---
+「実際にその部屋に住んでいて、実際に追い出されたのはＢであって、Ａでは
+ない」と考えると、「訴えを起こせるのはＢだけで、Ａには関係ないのでは」
+と思ってしまいがちです。しかし、占有回収の訴えを起こせるかどうかは、
+「誰が物理的にその場にいたか」ではなく、「誰が法律上“占有者”としての
+地位を持っているか」で判断します。物理的に何をされたかではなく、誰が
+占有者という法的地位を持つかで考えるのが、この分野を得点源にするコツ
+です。
+
+--- FOOTER ---
+根拠条文：民法181条・197条・200条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+占・有・権・代・理・訴・奪・還・侵・害. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm there are exactly 3 vertically stacked scenes connected by
+two downward arrows, confirm both quoted article text boxes (181条・197条）
+match the Japanese text given above verbatim character-for-character,
+confirm SCENE 3 shows both Ａ and Ｂ independently holding a document
+labeled 占有回収の訴え, and confirm the callout box text matches verbatim
+with no paraphrasing and no substituted characters.
 ```
