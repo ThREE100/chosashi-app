@@ -13,6 +13,7 @@ note-articles/
 ├── generate-prompt.md              新しい問題の記事を生成するためのプロンプトテンプレート
 ├── infographic-prompt-template.md  問題全体インフォグラフィック(画像生成プロンプト)の作成ルール
 ├── qa-checklist.md                 年度別記事(Q1〜Q20)の再検証チェックリスト(固定テンプレート)
+├── mistake-note-prompt.md          既存記事の特定の肢に「間違いノート」補足解説・個別図解を追加するプロンプトテンプレート
 ├── magazine-descriptions.md        note.comの年度別マガジン説明文(令和元〜7年度・平成20〜30年度)
 ├── mistake-notebook-magazine.md    周回別「間違いノート」マガジンの見出し画像プロンプト・説明文テンプレート
 ├── {年度}-mondai/                  年度別・午後の部の1問1答解説記事(20フォルダ。一覧は下記「年度別フォルダ一覧」)
