@@ -48,7 +48,7 @@
 
 **たとえば**、すでに地役権図面が備え付けられている部分をそっくりそのまま別の一筆として分筆する場合、地役権の範囲はすでに図面で示されているので、分筆のたびに地役権図面を新しく作り直して提出する必要はありません。
 
-### まとめ表
+### まとめ
 
 - **ア（正）**　地積更正との一括申請は、分筆後の各筆の求積で足りる
 - **イ（誤）**　相続人からの申請でも、相続人全員の住所・氏名の記載は不要
@@ -116,7 +116,7 @@ Title (large, bold, 1行):
 分筆と一緒に申請するときの添付情報
 
 Subtitle (smaller, centered, 1行):
-平成20年度 午後の部 第13問／分筆の登記の申請情報・添付情報
+分筆の登記の申請情報・添付情報（平成20年度 午後の部 第13問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -177,7 +177,6 @@ legal citation):
 既存図面を流用
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

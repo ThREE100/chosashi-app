@@ -48,7 +48,7 @@
 
 **たとえば**、畑を宅地にするために造成工事をしている最中の土地を分けたとき、「もうすぐ宅地だから小数点第2位まで」ではなく、まだ地目は畑なので、地積は整数の「215平方メートル」で記録します。
 
-### まとめ表
+### まとめ
 
 - **ア（誤）**　宅地・620㎡台。宅地は小数第2位まで（620.57が正）
 - **イ（正）**　公衆用道路・9㎡台。10㎡以下は地目問わず小数第2位まで（9.00が正）
@@ -119,7 +119,7 @@ Title (large, bold, 1行):
 地積は小数点第何位まで？
 
 Subtitle (smaller, centered, 1行):
-平成20年度 午後の部 第6問／地積の記録単位
+地積の記録単位（平成20年度 午後の部 第6問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -180,7 +180,6 @@ legal citation):
 工事中は元の地目
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

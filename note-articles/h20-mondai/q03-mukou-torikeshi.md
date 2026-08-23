@@ -48,7 +48,7 @@
 
 **たとえば**、成年被後見人であるAさんが高額な絵画の売買契約を結んでしまった場合、成年後見人はその契約を取り消すことができます。これは「無効」なのではなく、後から取り消せる「取消しうる行為」に当たります。
 
-### まとめ表
+### まとめ
 
 - **ア（取消しのみ）**　期間経過や追認で確定的に有効となるのは取消しうる行為
 - **イ（無効も含む）**　だれでも主張できるのは無効の特徴
@@ -120,7 +120,7 @@ Title (large, bold, 1行):
 「無効」と「取消し」はどこが違う？
 
 Subtitle (smaller, centered, 1行):
-平成20年度 午後の部 第3問／無効な法律行為と取り消すことができる法律行為
+無効な法律行為と取り消すことができる法律行為（平成20年度 午後の部 第3問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -181,7 +181,6 @@ legal citation):
 取消しうる行為
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

@@ -50,7 +50,7 @@
 
 **たとえば**、敷地権付きの主たる建物と、敷地権のない付属的な建物があるとき、「敷地権の有無が違うから絶対に合併できない」というわけではなく、条件を満たせば合併登記を申請できることがあります。
 
-### まとめ表
+### まとめ
 
 - **ア（誤）**　所有権移転の仮登記は担保権の登記ではなく、同一内容でも合併の障害になる
 - **イ（正）**　抵当権の移転仮登記が同一内容なら、合併の障害にならない
@@ -119,7 +119,7 @@ Title (large, bold, 1行):
 建物の合併、できるのはどこまで？
 
 Subtitle (smaller, centered, 1行):
-平成20年度 午後の部 第18問／建物の合併登記
+建物の合併登記（平成20年度 午後の部 第18問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -180,7 +180,6 @@ legal citation):
 一律に不可ではない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

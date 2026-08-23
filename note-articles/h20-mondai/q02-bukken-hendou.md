@@ -48,7 +48,7 @@
 
 **たとえば**、Aさんが土地を買ったのに登記をしないうちに、売主が「Aを困らせてやろう」という悪質なBさん（背信的悪意者）に二重に売り、さらにBさんから普通の買主Cさんが買って登記を備えた場合、AさんはCさんには勝てません。Bさん自身は守られなくても、そこから買ったCさんは自分に落ち度がなければ保護されるのです。
 
-### まとめ表
+### まとめ
 
 - **ア（正）**　時効完成後の第三者には登記がなければ対抗できない（判例）
 - **イ（誤）**　贈与者の相続人からの買主とは対抗関係。受贈者も登記が必要
@@ -118,7 +118,7 @@ Title (large, bold, 1行):
 登記がないと負けるのは誰？
 
 Subtitle (smaller, centered, 1行):
-平成20年度 午後の部 第2問／不動産物権変動と対抗要件
+不動産物権変動と対抗要件（平成20年度 午後の部 第2問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -179,7 +179,6 @@ legal citation):
 転得者は保護対象
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

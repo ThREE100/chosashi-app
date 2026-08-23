@@ -50,7 +50,7 @@
 
 **たとえば**、ある建物に「勝手に売ったりするな」という処分禁止の仮処分がついていても、その建物が現実に取り壊されて存在しなくなったなら、仮処分をかけた債権者の承諾書がなくても滅失の登記はできます。実際に無くなった建物を登記簿から消すのに、承諾はいらないのです。
 
-### まとめ表
+### まとめ
 
 - **ア（誤）**　滅失登記は保存行為。相続人の一人が単独で申請でき、同意情報は不要
 - **イ（正）**　一棟の構造の変更の登記は他の区分建物に効力が及び、登記官が職権で登記する
@@ -119,7 +119,7 @@ Title (large, bold, 1行):
 壊れた建物、だれが登記を消す？
 
 Subtitle (smaller, centered, 1行):
-平成20年度 午後の部 第4問／建物の滅失の登記
+建物の滅失の登記（平成20年度 午後の部 第4問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -180,7 +180,6 @@ legal citation):
 承諾情報は不要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

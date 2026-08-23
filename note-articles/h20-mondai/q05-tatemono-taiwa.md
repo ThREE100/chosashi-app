@@ -48,7 +48,7 @@
 
 **たとえば**、老朽化した家を取り壊し、同じ間取り・同じ広さ・同じ場所に新しい家を建て替えたとしても、登記の世界では「古い家は滅失」「新しい家は新築」と扱われ、それぞれ滅失の登記と表題登記が必要になります。
 
-### まとめ表
+### まとめ
 
 - **ア（誤）**　外壁・屋根の改修のみで登記事項が変わらなければ変更登記は不要
 - **イ（誤）**　独立性のない増築部分は附合し既存所有者に帰属。当然にABの共有とはならない
@@ -117,7 +117,7 @@ Title (large, bold, 1行):
 その工事、登記は必要？
 
 Subtitle (smaller, centered, 1行):
-平成20年度 午後の部 第5問／建物の変更・表題・滅失の使い分け
+建物の変更・表題・滅失の使い分け（平成20年度 午後の部 第5問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -178,7 +178,6 @@ legal citation):
 登記は省略不可
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

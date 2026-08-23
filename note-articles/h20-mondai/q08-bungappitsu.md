@@ -50,7 +50,7 @@
 
 **たとえば**、甲土地に「30年間の地上権」が登記されていて、その30年がとっくに過ぎていても、登記簿から地上権の登記を消さない限り、合筆はできません。「期間が終わったんだからいいでしょう」ではなく、登記を抹消してから合筆する必要があるのです。
 
-### まとめ表
+### まとめ
 
 - **ア（正）**　要役地の地役権は、消滅を証する情報を添えれば分合筆できる
 - **イ（誤）**　敷地権付きの土地は、規約設定を添えても一の申請情報での分合筆はできない
@@ -119,7 +119,7 @@ Title (large, bold, 1行):
 分けてくっつける「分合筆」できる？
 
 Subtitle (smaller, centered, 1行):
-平成20年度 午後の部 第8問／分合筆の登記
+分合筆の登記（平成20年度 午後の部 第8問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -180,7 +180,6 @@ legal citation):
 抹消登記が必要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

@@ -48,7 +48,7 @@
 
 **たとえば**、「毎年、特定の銘柄の米を◯俵引き渡す」という約束（引渡請求権）を担保するために、相手の不動産に質権を設定することもできます。約束が守られなければ、その不履行による損害賠償を質権によって回収することになります。
 
-### まとめ表
+### まとめ
 
 - **ア（正）**　質権の不可分性。全部弁済まで目的物全部に権利が及ぶ
 - **イ（誤）**　不動産質でも転質は設定者の承諾不要（責任転質）
@@ -119,7 +119,7 @@ Title (large, bold, 1行):
 不動産質、使うも貸すも自由自在
 
 Subtitle (smaller, centered, 1行):
-平成20年度 午後の部 第1問／不動産質権
+不動産質権（平成20年度 午後の部 第1問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -180,7 +180,6 @@ legal citation):
 金銭債権に限らない
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character

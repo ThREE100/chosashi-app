@@ -48,7 +48,7 @@
 
 **たとえば**、Aさん所有の建物とBさん所有の建物を合体させ、A所有部分に付いていた抵当権をそのまま合体後の持分にも存続させたいときは、その抵当権者から「持分に対する形でも存続を認めます」という承諾をもらうか、それに代わる裁判の証明が必要です。
 
-### まとめ表
+### まとめ
 
 - **ア（誤）**　合体による登記等は登録免許税法別表第一の課税対象に掲げられておらず非課税
 - **イ（正）**　全員申請＋印鑑証明書があれば、持分割合を証する情報は別途不要
@@ -116,7 +116,7 @@ Title (large, bold, 1行):
 2棟が1棟になる「合体」の実務
 
 Subtitle (smaller, centered, 1行):
-平成20年度 午後の部 第15問／建物の合体による登記等
+建物の合体による登記等（平成20年度 午後の部 第15問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -177,7 +177,6 @@ legal citation):
 承諾情報が必要
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
