@@ -8,15 +8,16 @@
 
 ## 対象と非対象（他のルールとの切り分け）
 
-インフォグラフィック関連の成果物は3種類あり、混同しないこと。
+インフォグラフィック関連の成果物は4種類あり、混同しないこと。
 
 | 種類 | 対応するルール | 内容 | スタイル | サイズ |
 |---|---|---|---|---|
 | ①肢ごとの note見出し画像 | このドキュメントの対象外（都度チャットで個別に作成） | 1つの肢(ア〜オのうち1つ)の結論を1シーンで表現 | モノクロ鉛筆画、女性キャラクター1人が資料を持つ構図 | 1280×670px 横長固定 |
 | ②問題全体のインフォグラフィック | **このドキュメント** | その問題の5肢すべてを俯瞰する複数パネル構成 | カラー・フラットデザイン・アイソメトリック(斜め見下ろし)アイコン | 縦長ポートレート(下記「サイズ」参照) |
 | ③分野別・個別テーマ記事のインフォグラフィック | **このドキュメントの「③ 分野別・個別テーマ記事」章**（2026-08-06〜プロンプト化） | 記事1本につき**複数枚**のプロンプト（俯瞰ポスター・対比表・早見表・フローチャート等、必要な枚数だけ） | ②と同じ画風を基本とし、画像の種類に応じて表・フロー等のレイアウトも許容 | 画像ごとに内容量に応じて決定 |
+| ④間違いノート型（特定の肢の深掘り解説） | **このドキュメントの「④ 間違いノート型」章**（2026-08-24〜） | 読者が正誤を自力で導けなかった**特定の肢1つ**について、つまずきやすい思考の癖を可視化する解説図解 | ②③と同じ画風を基本としつつ、**文字量・説明文の制限を撤廃**（フローチャート・比較図・長めの注釈可） | 画像ごとに内容量に応じて決定 |
 
-このドキュメントは②・③の両方を対象とする。①の依頼が来た場合のみ、これまで通り個別にプロンプトを作る（このドキュメントの対象外）。
+このドキュメントは②・③・④を対象とする。①の依頼が来た場合のみ、これまで通り個別にプロンプトを作る（このドキュメントの対象外）。
 
 **2026-08-06付の変更**：従来、`bunya-kaisetsu/format-template.md` の「インフォグラフィック設計メモ」は文章のみで構成案を指定し、プロンプト化はしない運用だった。この運用を改め、③（`bunya-kaisetsu/` の分野別・総合記事、および `topics/` の個別テーマ記事）についても、②と同じ基本ルール（縦長ポートレート・フラットデザイン・アイソメトリック・カード構成・簡体字対策・verbatim厳守）を引き継いだうえで、実際に画像生成に使える**プロンプト文**として記事に記録する運用に統一する。具体的なルールは本ドキュメント末尾の「③ 分野別・個別テーマ記事のインフォグラフィック プロンプト作成ルール」を参照。
 
@@ -216,3 +217,90 @@ tag, at a glance.
 3. 型ごとの雛形にあてはめてプロンプト文を完成させる。
 4. 「文字化け・簡体字対策」を必ず適用する。
 5. 記事ファイル末尾に `## インフォグラフィック プロンプト` セクションとして追記し、保存する。
+
+---
+
+## ④ 間違いノート型（特定の肢の深掘り解説）
+
+### これは何か
+
+読者から「まとめの正誤判定（正／誤）や結論には納得したが、なぜそうなるのか自力ではたどり着けなかった」というフィードバックがあった特定の肢について、その肢1つに絞って、つまずきやすい思考の癖（見落としがちな条件、直感に反する条文の要件、混同しやすい別制度との違い等）を可視化する解説図解。②・③が「網羅的に俯瞰する」ことを目的にしているのに対し、④は「1つの理解のつまずきを解消する」ことに特化している点が異なる。
+
+### ②③との決定的な違い（重要・厳守）
+
+②・③の「GLANCEABLE-POSTER REQUIREMENT」（カード内は短い結論タグのみ、フルセンテンスの説明文・条文引用禁止）は、④には**適用しない**。④は読者の理解を最優先するため、以下を明示的に許可する。
+
+- フローチャート・decision tree形式で、分岐条件を文章で書いてよい。
+- 比較・対比のために、条文の文言を（要約せず）そのまま引用してよい（本文中の判例・先例番号記載禁止ルールは④にも適用されるため、条文番号は書いてよいが判例・先例の番号は書かない）。
+- 「誤りやすいポイント」「つまずきやすい理由」を、1〜3文程度の説明文として画像内に配置してよい。
+- 1つの肢につき何枚作ってもよく、記事1本・1肢あたりの上限は設けない（通常は1枚で足りるが、内容が複雑な場合は分割してよい）。
+
+ただし、④であっても以下は②③と共通して厳守する。
+
+- 文字化け・簡体字対策（CRITICAL TEXT REQUIREMENT・Final checkの二重明記）
+- verbatim厳守（指定した文字列をそのまま描画し、言い換えない）
+- 元記事の本文・まとめの内容と矛盾する独自解釈を書かない
+- 判例・先例・専門誌の具体的な番号は本文と同様に書かない（内容の言及は可）
+
+### 画像の「型」
+
+多くの場合、以下のいずれか（または組合せ）になる。
+
+- **2段階フローチャート型**：「原則→例外」のように、複数の条件を順番に確認しないと正しい結論に至れない肢に向く（例：表意者の重過失があるか→相手方にも落ち度があるか、の2段階判定）。
+- **対比型**：似た制度・条文と混同しやすい肢に向く（例：心裡留保の第三者保護要件と、詐欺の第三者保護要件の違い）。左右または上下に並べ、要求される要件の違いを明示する。
+
+### 手順
+
+1. 対象記事（`note-articles/{年度}-mondai/q{n}-*.md`）の該当する肢の解説を読む。
+2. 読者がどこで判断を誤りやすいか（見落としがちな条件、直感的な誤読、類似制度との混同）を特定する。
+3. 上記の型から最適なものを選び、分岐条件・比較項目を具体的に書き出す。
+4. 下記の雛形に流し込み、文字化け・簡体字対策を適用する。
+5. 記事ファイル末尾に `## インフォグラフィック プロンプト（{肢}肢・間違いノート）` として追記し、保存する。
+
+### プロンプト雛形（間違いノート型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji {列挙する漢字} — always
+draw the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold):
+{タイトル：肢の結論を一言で}
+
+Subtitle (smaller, centered):
+{年度・問題番号・肢}－{つまずきポイントを一言で}
+
+--- {FLOWCHART or COMPARISON} ---
+{型に応じて分岐ノード／左右パネルを具体的に記述}
+
+--- CALLOUT: 誤りやすいポイント ---
+{1〜3文程度の説明文をverbatimで指定}
+
+--- FOOTER ---
+{条文番号等の小さな注記}
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, node label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
