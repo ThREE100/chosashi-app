@@ -217,7 +217,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H23 第17問 附属建物](../h23-mondai/q17-fuzoku-tatemono.md) | 滅失・変更での図面要否 |
 | ★ | [H25 第10問 建物の所在](../h25-mondai/q10-tatemono-shozai.md) ／ [R2 第11問](../r2-mondai/q11-tatemono-shozai.md) ／ [R6 第13問](../r6-mondai/q13-tatemono-shozai.md) | 仮換地上の建物 |
 
-**個別テーマ記事**：**無し**（→ 新規作成推奨：「建物図面・各階平面図の提供要否 早見表」）
+**個別テーマ記事**：[建物図面・各階平面図の提供要否 早見表](../topics/tatemonozumen-teikyou-yohi.md) ★★★
 
 ---
 
@@ -259,7 +259,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [R6 第12問 建物認定](../r6-mondai/q12-tatemono-nintei.md) | 給油所・サイロなど具体例 |
 | ★ | [R3 第15問 建物表題部の変更・更正](../r3-mondai/q15-tatemono-henkou-kousei.md) | 種類変更の登記 |
 
-**個別テーマ記事**：**無し**（→ 新規作成推奨：**「建物の種類37種＋準則80条の当てはめ」**。地目23種の建物版で、需要が高い）
+**個別テーマ記事**：[建物の種類一覧（準則80条）](../topics/tatemono-shurui-ichiran.md) ★★★
 
 ---
 
@@ -351,7 +351,9 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H23 第9問 筆界と所有権界](../h23-mondai/q09-hikkai-shoyukenkai.md) ／ [H20 第7問](../h20-mondai/q07-hikkai-taiwa.md) ／ [H29 第19問](../h29-mondai/q19-hikkai-tokutei.md) ／ [H27 第19問](../h27-mondai/q19-chousashihou-kyoukai.md) | 筆界の性質 |
 | ★ | [H29 第9問 原本還付](../h29-mondai/q09-genpon-kanpu.md) ／ [H25 第5問](../h25-mondai/q05-genpon-kanpu.md) ／ [H21 第12問](../h21-mondai/q12-genpon-kanpu.md) | 原本還付の対象 |
 
-**個別テーマ記事**：**無し**（→ 新規作成推奨：**「筆界特定制度 完全整理」**、「原本還付できる書面・できない書面」）
+**個別テーマ記事**
+- [筆界特定制度 完全整理](../topics/hikkaitokutei-seido.md) ★★★
+- [原本還付できる書面・できない書面](../topics/genpon-kanpu.md) ★★
 
 ---
 
@@ -408,7 +410,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [R5 第9問 分筆](../r5-mondai/q09-bunpitsu.md) ／ [R6 第9問 合筆](../r6-mondai/q09-gappitsu-touki.md) | 税額の計算 |
 | ★ | [H26 第17問 合体](../h26-mondai/q17-gattai-touki.md) | 合体の税 |
 
-**個別テーマ記事**：**無し**（→ 新規作成推奨：**「表示に関する登記の登録免許税 早見表」**）
+**個別テーマ記事**：[表示に関する登記の登録免許税 早見表](../topics/touroku-menkyozei-hayamihyou.md) ★★★
 
 ---
 
@@ -431,12 +433,12 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H21 第20問 欠格事由](../h21-mondai/q20-kekkaku-jiyuu.md) ／ [H20 第20問 懲戒](../h20-mondai/q20-choukai.md) | 欠格・懲戒 |
 | ★ | [H27 第20問](../h27-mondai/q20-chousashihou-gyoumu.md) ／ [H28 第20問](../h28-mondai/q20-chousashihou-hikkai-dairi.md) ／ [H26 第20問](../h26-mondai/q20-chousashihou.md) ／ [H25 第20問](../h25-mondai/q20-chousashihou.md) ／ [H24 第20問](../h24-mondai/q20-chousashikai.md) ／ [H23 第20問](../h23-mondai/q20-chousashihou.md) ／ [R1 第20問](../r1-mondai/q20-chousashi-gimu.md) | 業務・義務・補助者 |
 
-**個別テーマ記事**：**無し**（→ 新規作成推奨：**「調査士の届出先マトリクス（調査士会／連合会／法務局）」**）
+**個別テーマ記事**：[調査士の届出先マトリクス（調査士会／連合会／法務局）](../topics/chousashi-todokede-matrix.md) ★★★
 
 ---
 
 ## 個別テーマ記事が「無し」だった問（＝作成すると効果が大きい）
 
-第2問・第3問・第4問・第7問・第9問・第10問・第11問・第12問・第13問・第15問・第16問・第17問・第18問・第19問・第20問
+第2問・第3問・第4問・第7問・第9問・第11問・第13問・第15問・第17問・第18問
 
 具体的な作成候補と優先順位は [topic-priority.md](./topic-priority.md) を参照。
