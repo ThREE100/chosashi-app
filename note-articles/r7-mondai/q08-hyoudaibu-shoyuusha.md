@@ -72,6 +72,19 @@
 
 **たとえば**、ＡさんとＢさんが共有している土地で、本当は半分ずつのはずが登記上6対4になっていた場合、Ｂさんが「正しくは半分ずつです」と認める書面さえ用意できれば、Ａさん一人だけでも訂正の申請をすることができます。
 
+**ここが分かりにくいポイント**：
+
+「共有者の持分に関わる訂正なのだから、共有者全員で一緒に申請しなければならないはず」と考えてしまいがちです。しかし、この場面で必要なのは「全員が申請人になること」ではなく、「申請するのは共有者のうちの一人でよいが、その申請には他の共有者の承諾（同意）を証する書面が必要」という仕組みです。
+
+不動産登記法33条3項は「不動産の表題部所有者である共有者の持分についての更正の登記は、当該共有者以外の者は、申請することができない」と定めていますが、これは「共有者でない人は申請できない」という申請人の資格を絞る規定にすぎず、「共有者全員で申請しなければならない」とまでは述べていません。同条4項が、その申請をする共有者に対して、更正によって持分が変わる他の共有者の承諾がなければ申請できない、という条件を追加しています。
+
+つまり、「誰が申請書に名前を連ねるか（申請人）」と「誰の同意を取り付ける必要があるか（承諾）」は別の話です。後者は書面（承諾を証する情報）を添付すれば足り、共有者全員が申請人として登記所に出向く必要はありません。
+
+- **申請人**：共有者のうちの一人（本肢ではＡ）だけで足りる（33条3項）
+- **承諾**：持分が変わる他の共有者（本肢ではＢ）の承諾を証する書面が必要（33条4項）
+
+「全員の同意が必要かどうか」と「全員が申請人にならなければならないかどうか」を分けて考える、というのがこの分野を得点源にするコツです。
+
 ### オ：住所が何度変わっていても、今の住所に一気に直せる
 
 表題部所有者の住所が登記記録上の住所から複数回変わっている場合でも、そのすべての履歴を経由することなく、直ちに現在の住所へと変更する登記を申請することができます。
@@ -97,6 +110,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（1番＝ア・ウ）は法務省公表の試験問題原本・正答資料で確認済みです。アについては、吸収合併存続会社が消滅会社の一般承継人であるという考え方（不動産登記法74条1項1号後段の一般承継人による所有権保存登記の規定と同様の発想）に基づいていますが、表題部所有者についての具体的な承継手続を直接定めた条文は確認できておらず、一般承継の原則からの推論です。イ（特例有限会社から株式会社への移行は同一法人格）は商業登記実務の解説で確認済みです。ウ（住所の更正と氏の変更を一の申請情報でまとめて申請できること）は不動産登記規則35条6号で条文上確認済みです。エ（持分の更正は他の共有者の承諾があれば単独申請できること）は不動産登記法33条3項・4項で条文上確認済みです。オ（住所が数次にわたり変更している場合でも中間を省略して現在の住所に直接変更登記できること）は、これを直接定めた条文を`laws/`内で確認できておらず、実務上の取扱いとしての記述です。
 - **ア・イの理解補助について**：読者から、ア・イそれぞれの結論に自力でたどり着けなかったというフィードバックを受け、両肢に「ここが分かりにくいポイント」を追加しました。両肢はいずれも「登記名義人という法人格が同一のまま続いているかどうか」という同じ判断基準で正反対の結論になる対になる場面（吸収合併＝法人格の同一性なし、特例有限会社の株式会社への移行＝法人格の同一性あり）であるため、互いを対比する形で整理しています。タイトルのキャッチフレーズは、当初からアの論点（合併は名前が変わったわけではない）を的確に捉えていたため変更していません（見出し中のASCII二重引用符はnote記事の表記統一のため日本語の鍵括弧に修正しました）。ア・イの元の解説自体（正誤判定・条文根拠）は変更していません。この2肢について、対比型の個別インフォグラフィック（間違いノート型）を1枚新規作成しました。
+- **エの理解補助について**：読者から、エ（持分の誤りは他の共有者の承諾があれば単独で更正できる）の結論に自力でたどり着けなかったというフィードバックを受け、「ここが分かりにくいポイント」を追加しました。「共有者全員で申請しなければならないはず」という直感に対し、不動産登記法33条3項（申請人の資格を共有者に限定する規定）と4項（他の共有者の承諾を要件とする規定）を分けて読み、「誰が申請人になるか」と「誰の承諾が必要か」は別の話であることを整理しています。タイトルのキャッチフレーズは既にア・イの対比を反映済みであり、エはそれとは独立した手続き面の論点のため、今回は変更を見送りました。エの元の解説自体（正誤判定・条文根拠）は変更していません。エについて、個別の解説インフォグラフィック（間違いノート型）を新規作成しました。
 
 ---
 
@@ -331,4 +345,99 @@ criterion box at the top, confirm the quoted article text box matches the
 Japanese text given above verbatim character-for-character, and confirm
 the callout box text matches verbatim with no paraphrasing and no
 substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+エ（持分の誤りは他の共有者の承諾があれば単独で更正できる）について、「共有者全員で申請しなければならないはず」という直感と、「申請人は共有者のうちの一人でよいが、他の共有者の承諾を証する書面が必要」という実際の仕組みを整理するための、対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、説明文・条文引用を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（表題部所有者の登記「名称変更」か「更正」か）, but built as a single
+detailed explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who could not work out on their own
+why a single co-owner can apply alone (with the other co-owner's written
+consent) rather than all co-owners needing to apply together. Unlike a
+quick-reference poster, this image MAY include a side-by-side comparison
+with quoted article text and short explanatory sentences (1-3 sentences
+per callout box) labeled 誤りやすいポイント. Prioritize clarity and
+completeness of the reasoning over brevity. Do not compress the callout
+text into a short tag — write it out as full sentences exactly as given
+below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+共・有・者・持・分・更・正・申・請・承・諾・単・独 — always draw the
+standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+全員そろわなくても
+一人と一通の書面で足りるんです
+
+Subtitle (smaller, centered, 2行):
+令和7年度 午後の部 第8問 エ
+「申請人になること」と「承諾すること」は別の話
+
+--- LEFT PANEL (red background, labeled 直感的にはこう考えがち) ---
+Panel heading (bold):
+共有者全員で申請しなければならない？
+Illustration: Two isometric characters Ａ and Ｂ standing together, both
+holding the same application document and walking together toward a
+registry counter. A large red X overlays the scene.
+Panel conclusion (bold, red banner):
+これは誤ったイメージ
+
+--- RIGHT PANEL (green background, labeled 実際の仕組み) ---
+Panel heading (bold):
+Ａ一人が申請し、Ｂの承諾書を添える
+Illustration: Character Ａ alone walking to the registry counter, holding
+an application document labeled 更正の登記申請書. Tucked inside the same
+folder is a smaller document labeled Ｂの承諾書, handed over by character
+Ｂ who stands to the side (not going to the counter). A green checkmark
+appears above Ａ.
+Panel conclusion (bold, green banner):
+申請人はＡだけでよい
+
+--- QUOTED ARTICLE TEXT (bordered box, below both panels) ---
+「不動産の表題部所有者である共有者の持分についての更正の登記は、当該
+共有者以外の者は、申請することができない。」（不動産登記法33条3項）
+「前項の更正の登記をする共有者は、当該更正の登記によってその持分を
+更正することとなる他の共有者の承諾があるときでなければ、申請すること
+ができない。」（同条4項）
+
+--- CALLOUT BOX: 誤りやすいポイント (pastel yellow background, full
+width) ---
+「共有者の持分に関わる訂正なのだから、共有者全員で一緒に申請しなけれ
+ばならないはず」と考えてしまいがちです。しかし必要なのは「全員が申請
+人になること」ではなく、「申請するのは共有者のうちの一人でよいが、そ
+の申請には他の共有者の承諾を証する書面が必要」という仕組みです。「誰
+が申請書に名前を連ねるか（申請人）」と「誰の同意を取り付ける必要があ
+るか（承諾）」は別の話であり、後者は書面を添付すれば足り、共有者全員
+が申請人として登記所に出向く必要はありません。
+
+--- FOOTER ---
+根拠条文：不動産登記法33条3項・4項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+共・有・者・持・分・更・正・申・請・承・諾・単・独. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly two side-by-side panels
+(red naive-reasoning panel on the left, green correct-reasoning panel on
+the right), confirm the quoted article text box below the panels matches
+the Japanese text given above verbatim character-for-character (both the
+33条3項 and 33条4項 quotes), and confirm the callout box text matches
+verbatim with no paraphrasing and no substituted characters.
 ```
