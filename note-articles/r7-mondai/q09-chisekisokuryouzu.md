@@ -44,6 +44,19 @@
 
 **たとえば**、広い畑の隅を少しだけ切り取って分筆する場合、その「残りの広い方」の土地について、改めて測量し直して細かい求積表や座標値・筆界点間の距離を記録し直す作業は省略してよいとされていますが、「その土地の面積が何㎡である」という数値そのものは、登記事項として必ず地積測量図に記載しなければなりません。
 
+**ここが分かりにくいポイント**：
+
+本肢は「分筆前の土地が広大であって、分筆後の土地の一方がわずかであるとき」という、準則72条2項が定める特別の事情の要件を正確になぞっているため、いかにも正しそうに読めてしまいます。しかし、この要件のもとで実際に何が省略できるのかを見誤ると、逆の結論を導いてしまいます。
+
+不動産登記規則77条1項5号は、「**地積**及び**その求積方法**」という2つの異なる情報を、1つの号の中にまとめて規定しています。準則72条2項は、5号から8号までに掲げる事項の記録を省略できるとしながら、括弧書きで「同項第5号の**地積**を除く」と定めており、5号の中身のうち「地積」の部分だけをピンポイントで除外しています。つまり、5号の中で実際に省略できるのは、地積の数値ではなく、その計算過程である「**求積方法**」の部分だけです。
+
+本肢は「地積の記録を便宜省略することができる」としていますが、実際には地積（面積の数値そのもの）はまさにこの除外の対象そのものであり、省略することはできません。「5号の記録を省略できる」という大枠だけを覚えて、その中に「地積は除く」という括弧書きの限定が付いていることを見落とすと、この肢に引っかかってしまいます。
+
+- **省略できる**：求積方法（5号のうち）、筆界点間の距離（6号）、平面直角座標系の番号又は記号（7号）、筆界点の座標値（8号）
+- **省略できない**：地積そのもの（5号のうち、括弧書きで明示的に除外）
+
+「1つの号にまとめられた複数の情報のうち、どの部分が除外されているか」を条文の括弧書きまで注意深く読む、というのがこの分野を得点源にするコツです。
+
 ### オ：縮尺が同じで所在を明確に表示できれば、地積測量図は土地所在図を兼ねられる
 
 地積測量図の縮尺が、その土地について作成すべき土地所在図の縮尺と同一で、地積測量図によって土地の所在を明確に表示できるときは、便宜、当該地積測量図をもって土地所在図を兼ねることができます（不動産登記事務取扱準則51条4項）。この場合、図面の標記は「土地所在図兼地積測量図」となります。なお、準則51条4項は、規則74条3項の用紙を用いて余白がある場合に作成するという準則51条3項の前提を踏まえた規定であり、常に自由に兼用できるというものではありません。
@@ -67,7 +80,8 @@
 **このまま使える点／使う前に確認したい点**
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 出題番号・正解番号（5番＝エ・オ）は法務省公表の試験問題原本・正答資料で確認済みです。イ・ウ・オの根拠条文（規則74条2項、規則77条、準則51条4項）は公共嘱託登記実務の解説書で確認済みです。エ（省略できるのは求積方法であり地積自体は省略不可）は実務解説サイトで確認済みです。
+- 出題番号・正解番号（5番＝エ・オ）は法務省公表の試験問題原本・正答資料で確認済みです。イ・ウ・オの根拠条文（規則74条2項、規則77条、準則51条4項）は公共嘱託登記実務の解説書で確認済みです。エ（省略できるのは求積方法であり地積自体は省略不可）は実務解説サイトで確認済みです。あわせて、規則77条1項5号「地積及びその求積方法」・準則72条2項「規則第七十七条第一項第五号から第八号までに掲げる事項（同項第五号の地積を除く。）」の文言を`laws/`のローカル法令データベースで直接確認し、地積測量図の記載事項として条文レベルで裏付けました。
+- **エの理解補助について**：読者から、エ（省略できるのは求積方法であり地積自体は省略できない）の結論に自力でたどり着けなかったというフィードバックを受け、「ここが分かりにくいポイント」を追加しました。本肢が準則72条2項の要件（広大な土地・わずかな分筆後の土地）を正確になぞっているため正しそうに見える点と、規則77条1項5号が「地積」と「その求積方法」という2つの情報を1つの号にまとめて規定しており、準則72条2項の括弧書き「同項第5号の地積を除く」が5号の中の「地積」の部分だけを除外している、という条文構造を整理しています。タイトルのキャッチフレーズは、既にエの論点（省略できるのは面積ではなく計算過程）を的確に捉えていたため変更していません。エの元の解説自体（正誤判定・条文根拠）は変更していません。エについて、個別の解説インフォグラフィック（間違いノート型）を新規作成しました。
 
 ---
 
@@ -196,4 +210,97 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+エ（省略できるのは求積方法であり、地積の数値自体は省略できない）について、本肢が準則72条2項の要件を正確になぞっているため正しそうに見えてしまう点と、規則77条1項5号が「地積」と「その求積方法」という2つの情報を1つの号にまとめて規定しているため、括弧書きの除外がどちらに掛かるかを見誤りやすい、という典型的なつまずきを解消するための条文分解型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、説明文・条文引用を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（地積測量図の基本ルール）, but built as a single detailed explainer panel
+rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who read this alternative as
+correct because it accurately quotes the special-circumstances condition
+from 準則72条2項, without noticing that the parenthetical exclusion only
+removes one of the two pieces of information bundled inside 規則77条1項
+5号. Unlike a quick-reference poster, this image MAY include quoted
+article text, a box-splitting diagram, and short explanatory sentences
+(1-3 sentences per callout box) labeled 誤りやすいポイント. Prioritize
+clarity and completeness of the reasoning over brevity. Do not compress
+the callout text into a short tag — write it out as full sentences
+exactly as given below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+地・積・求・省・略・分・筆・広・大・除・座・標・値 — always draw the
+standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+条文どおりの言葉なのに
+逆の結論なんです
+
+Subtitle (smaller, centered, 2行):
+令和7年度 午後の部 第9問 エ
+1つの号にまとまった「地積」と「求積方法」、除外されるのはどちらか
+
+--- QUOTED ARTICLE TEXT (bordered box, top) ---
+「地積及びその求積方法」（不動産登記規則77条1項5号）
+「…規則第七十七条第一項第五号から第八号までに掲げる事項（同項第五号
+の地積を除く。）を記録することを便宜省略して差し支えない。」（不動産
+登記事務取扱手続準則72条2項）
+
+--- BOX-SPLITTING DIAGRAM (central illustration) ---
+Illustration: A single large isometric box labeled「規則77条1項5号」is
+drawn split into two adjacent compartments. The left compartment is
+labeled「地積（面積の数値）」and is stamped with a large red seal reading
+「除外＝省略不可」. The right compartment is labeled「その求積方法（計算
+過程）」and is stamped with a large green seal reading「省略可」. A
+magnifying glass icon hovers over the boundary between the two
+compartments, emphasizing that the exclusion applies to only one half of
+the box.
+
+--- SIDE COLUMN (three smaller boxes beside the main diagram, all green,
+labeled 6号〜8号も省略可) ---
+筆界点間の距離（6号）／平面直角座標系の番号又は記号（7号）／筆界点の
+座標値（8号）
+
+--- CALLOUT BOX: 誤りやすいポイント (pastel yellow background, full
+width) ---
+本肢は「分筆前の土地が広大であって、分筆後の土地の一方がわずかである
+とき」という準則72条2項の要件を正確になぞっているため、いかにも正しそ
+うに読めてしまいます。しかし、規則77条1項5号は「地積」と「その求積方
+法」という2つの異なる情報を1つの号にまとめて規定しており、準則72条2項
+の括弧書き「同項第5号の地積を除く」は、5号の中の「地積」の部分だけを
+ピンポイントで除外しています。省略できるのは地積の数値ではなく、その
+計算過程である「求積方法」の部分だけです。「5号の記録を省略できる」
+という大枠だけを覚えて、括弧書きの限定を見落とすと、この肢に引っかか
+ってしまいます。
+
+--- FOOTER ---
+根拠条文：不動産登記規則77条1項5号〜8号・不動産登記事務取扱手続準則
+72条2項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+地・積・求・省・略・分・筆・広・大・除・座・標・値. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm both quoted article text boxes at the top
+match the Japanese text given above verbatim character-for-character,
+confirm the box-splitting diagram clearly shows the left half (地積)
+stamped red/除外 and the right half（求積方法）stamped green/省略可, and
+confirm the callout box text matches verbatim with no paraphrasing and no
+substituted characters.
 ```
