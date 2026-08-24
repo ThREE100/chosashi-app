@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第2問〜単純悪意者にも登記なしでは対抗不可〜
+TITLE: 【土地家屋調査士受験生向け】令和6年度 第2問〜登記なしで対抗できる5つの除外類型〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
