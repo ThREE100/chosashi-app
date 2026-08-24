@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】令和7年度 第8問〜合併は"名前が変わった"わけじゃないんです〜
+## 【土地家屋調査士受験生向け】令和7年度 第8問〜合併は「名前が変わった」わけじゃないんです〜
 
 **出題年度：令和7年度　午後の部　第8問**
 
@@ -28,11 +28,37 @@
 
 **たとえば**、甲社と乙社が合併して、甲社が消滅し乙社が存続したとします。これは「甲社の名前が乙社に変わった」のではなく、「甲社が消滅し、乙社という別の会社がその土地を引き継いだ」という扱いです。同じ会社が名前を変えただけの商号変更とは根本的に違う場面なので、単なる名称変更の登記の申請では済みません。
 
+**ここが分かりにくいポイント**：
+
+「合併後もＢが同じ土地を使い続けるのだから、単に名義の表示を書き換えるだけの話では」と考えてしまいがちです。しかし、名称の変更の登記が使えるかどうかを決める基準は、「登記されている土地が同じかどうか」ではなく、「登記名義人としての法人格が同一のまま続いているかどうか」です。
+
+吸収合併では、消滅する会社Ａ自身の法人格が消滅し、もともと別の法人格として存在していたＢがＡの権利義務を丸ごと引き継ぎます（包括承継）。つまり、登記簿の名義欄に表示される「主体」そのものが、Ａという法人格からＢという別の法人格へと切り替わるのです。これは、Ａという同じ人物が名前だけを変えた（改名）という話ではなく、Ａが退場してＢという別人が後を引き継いだ、という話に近いといえます。
+
+このため、単純な「名称の変更の登記」（＝同じ登記名義人の呼び方が変わっただけ、という手続き）では対応できません。次のイで扱う特例有限会社から株式会社への商号変更のように、法人格そのものは同一のまま続いている場合とは、根本的に扱いが異なります。
+
+- **吸収合併（本肢ア）**：Ａの法人格が消滅し、別の法人格Ｂが引き継ぐ → 法人格の同一性なし → 名称変更の登記では対応不可
+- **商号変更・組織変更（次のイ）**：同一の法人格のまま名称・組織形態だけが変わる → 法人格の同一性あり → 名称変更の登記で対応可
+
+「土地がどうなるか」ではなく「登記名義人という法人格が同一のまま続いているか」で判断する、というのがこの分野を得点源にするコツです。
+
 ### イ：特例有限会社から株式会社への移行は、同じ会社の「名称変更」
 
 特例有限会社が株式会社に商号変更する場合は、会社法上の経過措置により、同一の法人格が存続したまま名称と組織形態だけが変わるものとされています。したがって、表題部所有者についても、通常の商号変更と同じく「名称の変更の登記」で対応できます。
 
 **たとえば**、昔からある有限会社が「株式会社」に生まれ変わる手続きをしても、それは会社が一度消滅して新しい会社ができたわけではなく、同じ会社が名前と形を変えただけです。したがって、不動産の表題部所有者欄も、普通の商号変更と同じように名称変更の登記で対応できます。
+
+**ここが分かりにくいポイント**：
+
+アで「吸収合併は法人格が別のものに変わる」ことを確認したばかりだと、「特例有限会社が株式会社になるのも、会社の種類（有限会社→株式会社）が変わるのだから、同じように法人格が変わるのでは」と、逆方向に誤解してしまうことがあります。
+
+しかし、特例有限会社は、会社法制定時の経過措置により、実質的には「商号中に『有限会社』の文字を用いる株式会社」として位置づけられています。株式会社への移行は、新しい法人を設立して古い法人が消滅するのではなく、定款を変更して商号を「株式会社」に改めるだけの手続きであり、法人格そのものは移行の前後で同一のまま続きます。
+
+つまり、アの吸収合併とは異なり、法人格の同一性が保たれているため、通常の商号変更と同じように「名称の変更の登記」で対応できるのです。
+
+- **吸収合併（前のア）**：Ａの法人格が消滅し、別の法人格Ｂが引き継ぐ → 法人格の同一性なし → 名称変更の登記では対応不可
+- **特例有限会社から株式会社へ（本肢イ）**：同一の法人格のまま、名称と組織形態だけが変わる → 法人格の同一性あり → 名称変更の登記で対応可
+
+「会社の呼び方・種類が変わったかどうか」ではなく、「登記名義人という法人格そのものが同一のまま続いているかどうか」で判断する、というのがこの分野を得点源にするコツです。
 
 ### ウ：住所の更正と氏の変更は、まとめて一つの申請でできる
 
@@ -70,12 +96,13 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（1番＝ア・ウ）は法務省公表の試験問題原本・正答資料で確認済みです。アについては、吸収合併存続会社が消滅会社の一般承継人であるという考え方（不動産登記法74条1項1号後段の一般承継人による所有権保存登記の規定と同様の発想）に基づいていますが、表題部所有者についての具体的な承継手続を直接定めた条文は確認できておらず、一般承継の原則からの推論です。イ（特例有限会社から株式会社への移行は同一法人格）は商業登記実務の解説で確認済みです。ウ（住所の更正と氏の変更を一の申請情報でまとめて申請できること）は不動産登記規則35条6号で条文上確認済みです。エ（持分の更正は他の共有者の承諾があれば単独申請できること）は不動産登記法33条3項・4項で条文上確認済みです。オ（住所が数次にわたり変更している場合でも中間を省略して現在の住所に直接変更登記できること）は、これを直接定めた条文を`laws/`内で確認できておらず、実務上の取扱いとしての記述です。
+- **ア・イの理解補助について**：読者から、ア・イそれぞれの結論に自力でたどり着けなかったというフィードバックを受け、両肢に「ここが分かりにくいポイント」を追加しました。両肢はいずれも「登記名義人という法人格が同一のまま続いているかどうか」という同じ判断基準で正反対の結論になる対になる場面（吸収合併＝法人格の同一性なし、特例有限会社の株式会社への移行＝法人格の同一性あり）であるため、互いを対比する形で整理しています。タイトルのキャッチフレーズは、当初からアの論点（合併は名前が変わったわけではない）を的確に捉えていたため変更していません（見出し中のASCII二重引用符はnote記事の表記統一のため日本語の鍵括弧に修正しました）。ア・イの元の解説自体（正誤判定・条文根拠）は変更していません。この2肢について、対比型の個別インフォグラフィック（間違いノート型）を1枚新規作成しました。
 
 ---
 
 ## 見出し画像用フレーズ
 
-- 合併は"名前が変わった"わけじゃないんです
+- 合併は「名前が変わった」わけじゃないんです
 - 有限会社→株式会社は、実は同じ会社です
 - 住所も氏も、まとめて1通で直せます
 - 相手の一言があれば、一人でも直せます
@@ -203,4 +230,105 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア・イ肢・間違いノート）
+
+ア（吸収合併は名称変更ではなく一般承継人による名義取得の問題）とイ（特例有限会社から株式会社への移行は同一法人の名称変更）は、「登記名義人という法人格が同一のまま続いているか」という同じ判断基準で正反対の結論になる対の場面です。土地が同じかどうかではなく法人格の同一性で判断する、という混同しやすいポイントを一度に整理するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、説明文・条文引用を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（表題部所有者の登記「名称変更」か「更正」か）, but built as a single
+detailed explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion shared by two alternatives (ア and イ) —
+readers who could not work out on their own why these two superficially
+similar corporate changes (a merger, and a special limited company
+converting to a stock company) receive opposite treatment. Unlike a
+quick-reference poster, this image MAY include a side-by-side comparison
+with quoted article text and short explanatory sentences (1-3 sentences
+per callout box) labeled 誤りやすいポイント. Prioritize clarity and
+completeness of the reasoning over brevity. Do not compress the callout
+text into a short tag — write it out as full sentences exactly as given
+below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+法・人・格・合・併・消・滅・承・継・商・号・変・更・同 — always draw the
+standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+似ているようで正反対
+どこで見分けるか
+
+Subtitle (smaller, centered, 2行):
+令和7年度 午後の部 第8問 ア・イ
+判断基準は「土地」ではなく「法人格が同一かどうか」
+
+--- SHARED CRITERION BOX (top, centered, pastel gray background) ---
+判断基準：登記名義人としての法人格が、変化の前後で同一のまま続いている
+か。土地が同じかどうか、事業が引き継がれているかどうかは関係ない。
+
+--- LEFT PANEL (red background, ア＝吸収合併) ---
+Panel heading (bold):
+ア：吸収合併 → 法人格の同一性なし
+Illustration: An isometric scene showing 株式会社Ａ's building being
+absorbed into 株式会社Ｂ's building. Ａ's signboard falls and is stamped
+with a red 消滅 seal. Ｂ, drawn as a clearly separate, pre-existing
+character standing beside its own building, holds a document labeled
+一般承継人 and walks alone toward the registry counter. A large red X
+overlays a small icon labeled 名称の変更の登記, showing this procedure
+cannot be used.
+Quoted article text (rendered exactly, in a bordered box):
+「表題部所有者の相続人その他の一般承継人」（不動産登記法74条1項1号後段
+の考え方を参照）
+Panel conclusion (bold, red banner):
+Ａが消滅し、別人格のＢが引き継ぐ → 名称変更では不可
+
+--- RIGHT PANEL (green background, イ＝特例有限会社→株式会社) ---
+Panel heading (bold):
+イ：特例有限会社から株式会社へ → 法人格の同一性あり
+Illustration: An isometric building that stays in exactly the same place
+with exactly the same character standing in front of it throughout. Only
+the signboard changes, sliding from 特例有限会社Ａ to 株式会社Ａ, with a
+curved arrow connecting the two signboards to emphasize continuity. A
+large green checkmark overlays a small icon labeled 名称の変更の登記,
+showing this procedure can be used.
+Panel conclusion (bold, green banner):
+同一の法人格のまま名称だけが変わる → 名称変更で対応可
+
+--- CALLOUT BOX: 誤りやすいポイント (below both panels, pastel yellow
+background, full width) ---
+「合併後もＢが同じ土地を使い続けるのだから、単に名義の表示を書き換える
+だけの話では」「特例有限会社が株式会社になるのも、会社の種類が変わる
+のだから法人格も変わるのでは」と、アとイを逆方向にそれぞれ誤解してし
+まいがちです。しかし判断基準はどちらも同じで、「登記名義人という法人
+格そのものが同一のまま続いているかどうか」です。アは別の法人格Ｂへの
+引き継ぎなので名称変更の登記では対応できず、イは同一の法人格のままな
+ので通常の商号変更と同じく名称変更の登記で対応できます。
+
+--- FOOTER ---
+根拠条文：不動産登記法74条1項1号後段（アの考え方の参照条文）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+法・人・格・合・併・消・滅・承・継・商・号・変・更. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly two side-by-side panels
+(red ア on the left, green イ on the right) beneath a single shared
+criterion box at the top, confirm the quoted article text box matches the
+Japanese text given above verbatim character-for-character, and confirm
+the callout box text matches verbatim with no paraphrasing and no
+substituted characters.
 ```
