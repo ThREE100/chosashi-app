@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】令和7年度 第11問〜期限切れの地上権、登記からは消えない〜
+## 【土地家屋調査士受験生向け】令和7年度 第11問〜「これで足りる」と思うと、実は足りないんです〜
 
 **出題年度：令和7年度　午後の部　第11問**
 
@@ -26,11 +26,31 @@
 
 **たとえば**、兄弟で共有していた土地を、裁判所の判決で「甲土地は兄のもの、乙土地は弟のもの」と決めたとします。しかし、分筆登記だけを申請しても、法務局が自動的に「甲は兄の単独所有、乙は弟の単独所有」と書き換えてくれるわけではありません。判決に基づく持分の移転登記を別途行って、初めて単独所有として登記されます。
 
+**ここが分かりにくいポイント**：
+
+「共有物分割の判決があったことを証する情報が提供されたとき」という記述を読むと、裁判所のお墨付きがある以上、その通りに単独所有として登記されるはずだと考えてしまいがちです。しかし、ここで問われているのは「分筆の登記」であり、分筆登記は不動産登記法上の「表示に関する登記」（土地の物理的な区画を記録する登記で、表題部に記録される）であって、「権利に関する登記」（誰が所有者かを記録する登記で、権利部に記録される）ではありません。判決正本は、あくまで権利に関する登記（持分移転登記）を申請する際の登記原因証明情報として使われるものであり、分筆登記の申請書に添付しただけで自動的に権利部の記載が書き換わるわけではありません。
+
+1. 問われているのは「表示に関する登記」（分筆）か「権利に関する登記」（所有権・持分の移転）かを確認する。
+2. 分筆登記は土地の区画を分けるだけであり、それ自体に持分を変動させる効力はない。
+3. 持分の帰属を変えるには、分筆登記とは別に、判決を登記原因証明情報とする持分移転登記の申請が必要になる。
+
+この手順で考えると、本肢が「分筆登記だけで単独所有者として登記される」としている点で誤りだと分かります。
+
 ### イ：地上権に抵当権が付いているときは、両方の承諾が必要
 
 地上権を目的とする抵当権が設定されている場合、その地上権を消滅させることは、抵当権の目的物そのものを消してしまうことになります。したがって、地上権者の承諾だけでなく、その地上権に抵当権を持つ者の承諾も必要になります。不動産登記法40条は括弧書で「当該権利を目的とする第三者の権利に関する登記がある場合にあっては、当該第三者が承諾したことを証する情報が併せて提供されたときに限る。」と定めており、この点を裏付けています。
 
 **たとえば**、Ａさんが土地に地上権を持っていて、さらにその地上権を担保にＢさんから借金をして抵当権を設定していたとします。分筆後の土地についてこの地上権を消す場合、Ａさんの承諾だけでは足りません。抵当権者であるＢさんも「それでいいですよ」と認めなければ、地上権を消滅させる登記はできません。
+
+**ここが分かりにくいポイント**：
+
+本肢は「地上権の登記名義人が承諾すれば足りるのではないか」という直感で読み進めると、抵当権者の承諾までは不要だと誤って判断してしまいがちです。不動産登記法40条の本文だけを見ると、「権利に関する登記に係る権利の登記名義人（＝地上権者）が承諾したことを証する情報が提供されたとき」に権利消滅の登記ができる、という一段階の要件のように見えます。しかし、同条にはこれに続けて括弧書きがあり、「当該権利を目的とする第三者の権利に関する登記がある場合にあっては、当該第三者が承諾したことを証する情報が併せて提供されたときに限る」という追加の要件が定められています。
+
+1. 消滅させようとする権利（地上権）そのものの登記名義人の承諾があるかを確認する（本文の要件）。
+2. その権利（地上権）を目的とする、さらに別の権利の登記（抵当権など）があるかを確認する。
+3. ２に該当する登記がある場合は、１の承諾に加えて、その第三者（抵当権者）の承諾も必要になる。
+
+本肢のケースでは、地上権を目的とする抵当権の登記があるため２に該当し、地上権者の承諾だけでなく抵当権者の承諾も必要という結論になります。
 
 ### ウ：仮登記の権利者が承諾すれば、分筆後の土地にその仮登記は引き継がれない
 
@@ -68,6 +88,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（3番＝イ・ウ）は法務省公表の試験問題原本・正答資料で確認済みです。エ（第三者の承諾書の印鑑証明書には3か月の期限がない）は実務解説記事で確認済みです。ア・イ・ウ・オは分筆登記・権利の転写に関する一般原則から導いており、個別の先例文言までは確認できていませんので、実務で使う際は念のため再確認をおすすめします。
+- 読者からア・イの結論に自力でたどり着けなかったというフィードバックを受け、「ここが分かりにくいポイント」の解説を追加しました。アは「表示に関する登記」（分筆）と「権利に関する登記」（持分移転）の違いを、イは不動産登記法40条の本文の要件に加えて括弧書きの追加要件（第三者の承諾）があることを、それぞれ整理しています。ア・イの正誤判定・条文根拠（結論）自体は変更していません。あわせて、実際に読者がつまずいたア・イの論点を反映し、タイトルのキャッチフレーズを「期限切れの地上権、登記からは消えない」から「「これで足りる」と思うと、実は足りないんです」に変更しました。
 
 ---
 
@@ -200,4 +221,157 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア肢・間違いノート）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」. Prioritize clarity and completeness of the
+reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 分・筆・登・記・表・題・
+権・利・部・持・移・転・判・決・証・共・有・単・独 — always draw the
+standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold):
+分筆登記と、持分の移転登記は別物
+
+Subtitle (smaller, centered):
+令和7年度 午後の部 第11問 ア－判決があっても自動では変わらない
+
+--- COMPARISON ---
+LEFT PANEL, heading (bold):
+分筆の登記（表示に関する登記）
+Illustration: An isometric land plot being split into two plots labeled
+甲土地・乙土地 by a dotted boundary line, next to a registry-book icon
+with a highlighted tab labeled 表題部.
+Panel takeaway (short line below the illustration):
+土地の物理的な区画を記録するだけ
+
+RIGHT PANEL, heading (bold):
+持分の移転登記（権利に関する登記）
+Illustration: A registry-book icon with a highlighted tab labeled 権利部,
+next to a court document labeled 判決正本 being handed toward the book. Two
+overlapping figure icons labeled 共有 transform into two separate single
+figure icons, one labeled 兄（単独）and one labeled 弟（単独）.
+Panel takeaway (short line below the illustration):
+判決を登記原因証明情報として別途申請
+
+--- FLOWCHART: 共有物分割の判決を添付したら ---
+Node 1 (start): 共有物分割の判決正本を分筆登記の申請情報と併せて提供
+Arrow down to Node 2: 分筆の登記（表示に関する登記）が完了
+Node 2 result (red X icon): 甲土地・乙土地とも登記記録上はまだ共有のまま
+Separate arrow from Node 1 to Node 3: 判決を登記原因証明情報として、持分
+移転登記（権利に関する登記）を別途申請
+Node 3 result (green checkmark icon): 甲土地は兄の単独所有、乙土地は弟の
+単独所有として登記される
+
+--- CALLOUT: 誤りやすいポイント ---
+「判決があったことを証する情報が提供されたとき」という記述から、分筆登記
+そのもので単独所有に切り替わると考えてしまいがちです。しかし分筆登記は
+表示に関する登記であり、所有者や持分を記録する権利に関する登記とは別の
+手続きです。単独所有として登記するには、判決を登記原因証明情報とする
+持分移転登記を別途申請する必要があります。
+
+--- FOOTER ---
+不動産登記法2条3号・4号、不動産登記規則102条1項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, node label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（イ肢・間違いノート）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」. Prioritize clarity and completeness of the
+reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 地・上・権・抵・当・消・
+滅・登・記・名・義・人・承・諾・第・三・者 — always draw the standard
+Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold):
+地上権を消すには、承諾が二段階
+
+Subtitle (smaller, centered):
+令和7年度 午後の部 第11問 イ－抵当権が付いていたらどうなるか
+
+--- FLOWCHART ---
+Node 1 (start, isometric land plot with a pillar icon labeled 地上権):
+甲土地の地上権を、分筆後の甲土地について消滅させたい
+
+Arrow down to Decision Diamond 1:
+地上権の登記名義人（地上権者）の承諾はあるか？
+
+Decision Diamond 1, branch「いいえ」(red X icon):
+消滅の登記はできない
+
+Decision Diamond 1, branch「はい」→ Decision Diamond 2:
+その地上権を目的とする第三者の権利の登記（抵当権など）があるか？
+
+Decision Diamond 2, branch「いいえ」(green checkmark icon):
+地上権者の承諾のみで消滅の登記が可能
+
+Decision Diamond 2, branch「はい」→ Node 2:
+その第三者（抵当権者）の承諾も併せて必要
+
+Node 2 → Final result (green checkmark icon):
+地上権者・抵当権者、双方の承諾がそろって初めて消滅の登記ができる
+
+--- CALLOUT: 誤りやすいポイント ---
+不動産登記法40条の本文だけを読むと、地上権者の承諾さえあれば足りるように
+見えます。しかし同条には括弧書きがあり、地上権を目的とする第三者の権利の
+登記（抵当権など）がある場合は、その第三者が承諾したことを証する情報も
+併せて必要だと定められています。本文の要件だけで判断を止めず、括弧書きの
+追加要件まで確認することが必要です。
+
+--- FOOTER ---
+不動産登記法40条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, node label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
 ```
