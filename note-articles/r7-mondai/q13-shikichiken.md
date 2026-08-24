@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】令和7年度 第13問〜敷地権がちぐはぐでも登記はできる〜
+## 【土地家屋調査士受験生向け】令和7年度 第13問〜同じ「ちぐはぐ」でも、結論はバラバラなんです〜
 
 **出題年度：令和7年度　午後の部　第13問**
 
@@ -32,17 +32,51 @@
 
 **たとえば**、マンションの持ち主が引っ越しをしていて、建物側の登記簿の住所と、敷地側の登記簿の住所が違っている場合、「同じ人です」という証明書を添えるだけでは済まず、まずどちらかの住所を正しく直す登記をしてから、敷地権の登記手続きに進む必要があります。
 
+**ここが分かりにくいポイント**：
+
+「各登記名義人の同一性を証する情報を添付すれば、住所が一致していなくても手続きを進められる」という発想は、一見合理的に思えます。同一性証明の情報があれば、確かに「この2つの登記名義は同じ人物のものだ」ということは証明できるからです。しかし、これは「申請人が誰であるか」を確認するための情報にすぎず、登記記録に記録されている住所という表示そのものを書き換える効力はありません。区分建物とその敷地の登記記録の間で住所の記載が食い違ったままでは、敷地権の発生を登記原因とする表題部の変更の登記を申請しても、両方の登記記録の記載を正しく突き合わせることができません。
+
+1. 住所が一致していない、という事実そのものを確認する。
+2. 同一性証明の情報は「同じ人物である」ことの証明にはなるが、登記記録上の住所の表示を書き換える効力はないと理解する。
+3. 登記記録上の住所を実体に合わせるには、住所の変更又は更正の登記を別途申請する必要がある。
+
+この手順で考えると、本肢が「住所の変更又は更正の登記をすることなく…申請することができる」としている点で誤りだと分かります。
+
 ### ウ：敷地権の登記がある土地同士は、合筆できない
 
 不動産登記法41条6号は「所有権の登記以外の権利に関する登記がある土地」についての合筆を禁止しています。敷地権である旨の登記は、この「所有権以外の権利に関する登記」にあたるため、隣接する2筆の土地がどちらも敷地権の登記がされている場合、その2筆を合筆することはできません。
 
 **たとえば**、隣り合う2つの土地が、どちらも同じマンション（または別々のマンション）の敷地権として登記されている場合、この2筆をまとめて1つの土地にする合筆登記は認められません。
 
+**ここが分かりにくいポイント**：
+
+本肢を読むと、「敷地権である旨の登記」は抵当権や地上権のように他人の権利が乗っている登記ではなく、単に「この土地はマンションの敷地です」という案内的な登記に見えるため、実質的な権利負担を意味する「所有権以外の権利に関する登記」には当たらず、合筆できるのではないか、と考えてしまいがちです。
+
+しかし、敷地権である旨の登記は、土地の登記記録のうち権利部（所有権以外の権利を記録する部分）に記録される登記であり、不動産登記法41条6号が禁止する「所有権の登記以外の権利に関する登記がある土地」に該当します。同号には括弧書きの例外があり、合筆後の土地の登記記録にそのまま登記できるものとして法務省令（不動産登記規則）で定める一部の権利（承役地についてする地役権の登記、登記の目的・受付年月日・受付番号・登記原因及びその日付が同一の担保権の登記等）に限り合筆が認められますが、敷地権である旨の登記はこの例外に列挙されていません。
+
+1. 敷地権である旨の登記が、土地の登記記録のどの部分（表題部か権利部か）に記録される登記かを確認する（→権利部）。
+2. 不動産登記法41条6号は、所有権以外の権利に関する登記がある土地の合筆を、原則として禁止している。
+3. 例外として合筆が認められるのは、法務省令で個別に列挙された一部の権利（承役地地役権等）に限られ、敷地権である旨の登記はこれに含まれない。
+
+この手順で考えると、本肢が「合筆の登記の申請をすることができる」としている点で誤りだと分かります。
+
 ### エ：敷地権登記の有無が食い違っていても、建物の合併はできる
 
 甲建物にだけ敷地権の登記があり、乙建物には敷地権の登記がない場合であっても、この2つの区分建物を1つに合併する登記の申請をすることができます。不動産登記規則134条3項は「第百二十四条の規定は、区分合併に係る建物の合併の登記をする場合において、区分合併後の建物が敷地権のない建物となるときについて準用する。」と定めており、区分合併の結果、敷地権のない建物となる場合を明示的に想定しています。また、同規則133条は区分合併について「接続する区分建物」であることを要件としており、本問の甲建物・乙建物の関係もこれを前提としています。
 
 **たとえば**、同じマンション内で、甲部屋には敷地権の登記があり、隣接する乙部屋にはまだ敷地権の登記がされていない、というちぐはぐな状態であっても、この2部屋を1つの部屋として合併登記することは可能です。
+
+**ここが分かりにくいポイント**：
+
+甲建物には敷地権の登記があり、乙建物にはない、という食い違った状態を見ると、権利関係がまったく異なる建物同士に見えるため、合併登記もできないのではないか、と考えてしまいがちです。
+
+しかし、不動産登記規則134条3項は「第百二十四条の規定は、区分合併に係る建物の合併の登記をする場合において、区分合併後の建物が敷地権のない建物となるときについて準用する。」と定めており、区分合併の結果、合併後の建物が「敷地権のない建物」になるという場面そのものを条文上正面から想定しています。つまり、合併前に敷地権登記の有無が食い違っていても、合併後は敷地権のない1個の建物として扱えばよいという処理が、あらかじめ制度として用意されています。
+
+1. 合併前の甲建物・乙建物それぞれの敷地権登記の有無を確認する。
+2. 食い違いがあるからといって合併できないと決めつけず、合併「後」の建物がどう扱われるかを規定する条文（規則134条3項）があるかを確認する。
+3. 規則134条3項により、区分合併後に敷地権のない建物となる扱いが認められているため、合併の登記は申請できる。
+
+この手順で考えると、本肢は正しい記述だと分かります。
 
 ### オ：一部の部屋だけ分離処分可能でも、まとめて表題登記できる
 
@@ -68,6 +102,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（5番＝エ・オ）は法務省公表の試験問題原本・正答資料で確認済みです。エ（区分合併の結果、敷地権のない建物となる場合の建物の合併）は不動産登記規則134条3項・133条で確認済みです。オ（一部の区分建物のみ分離処分可能規約がある場合の一括表題登記）は不動産登記令別表12項添付情報欄ホ・区分所有法22条1項ただし書で確認済みです。ウ（敷地権登記のある土地同士の合筆禁止、法41条6号）は、条文の存在自体は確認できるものの、この具体的な場面へのあてはめまでを裏付ける先例・通達等の一次資料は確認できておらず、実務解説記事の説明に依っている点にご留意ください。ア・イについては、敷地権登記の一般原則から導いており、個別の先例文言までは確認できていませんので、実務で使う際は念のため再確認をおすすめします。
+- 読者からイ・ウ・エの結論に自力でたどり着けなかったというフィードバックを受け、「ここが分かりにくいポイント」の解説を追加しました。イは同一性証明の情報と登記記録の表示変更の効力の違いを、ウは敷地権である旨の登記が権利部に記録される「権利に関する登記」に該当し合筆の例外に含まれないことを、エは規則134条3項が区分合併後に敷地権のない建物となる場面を正面から想定していることを、それぞれ整理しています。イ・ウ・エの正誤判定・条文根拠（結論）自体は変更していません。あわせて、実際に読者がつまずいたイ・ウ・エの論点（いずれも敷地権・住所の「食い違い」がテーマだが結論が肢ごとに異なる点）を反映し、タイトルのキャッチフレーズを「敷地権がちぐはぐでも登記はできる」から「同じ「ちぐはぐ」でも、結論はバラバラなんです」に変更しました。
 
 ## 補足：敷地権とは
 
@@ -205,4 +240,223 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（イ肢・間違いノート）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with quoted article text, and short explanatory sentences (1-3 sentences
+per callout box) labeled 「誤りやすいポイント」. Prioritize clarity and
+completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 住・所・登・記・名・義・
+人・同・一・性・証・変・更・更・正・敷・地・権・表・題・部 — always draw
+the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold):
+同一性の証明は、住所表示を書き換えない
+
+Subtitle (smaller, centered):
+令和7年度 午後の部 第13問 イ－まず必要なのは住所の変更登記
+
+--- COMPARISON ---
+LEFT PANEL, heading (bold):
+誤った理解
+Illustration: Two isometric registry-book icons side by side, one labeled
+建物 with an address tag reading 住所Ａ, one labeled 土地 with an address
+tag reading 住所Ｂ. A document labeled 同一性証明情報 is placed directly
+between them with a straight arrow leading immediately to a green stamp
+reading 敷地権発生の登記 完了.
+Panel takeaway (short line below the illustration):
+同一性証明だけで手続きが進むと誤解
+
+RIGHT PANEL, heading (bold):
+正しい理解
+Illustration: The same two isometric registry-book icons with mismatched
+address tags (住所Ａ・住所Ｂ), but now a document labeled 住所の変更又は
+更正の登記 sits on a numbered step "1" arrow, and only after that a second
+numbered step "2" arrow leads to a document labeled 敷地権発生の登記.
+Panel takeaway (short line below the illustration):
+変更登記を経てから敷地権の登記へ
+
+--- CALLOUT: 誤りやすいポイント ---
+同一性証明の情報は、「この2つの登記名義は同じ人物のものだ」という事実を
+証明できますが、これは申請人が誰であるかを確認するための情報にすぎません。
+登記記録に記録されている住所という表示そのものを書き換える効力はなく、
+住所の記載を実体に合わせて直すには、住所の変更又は更正の登記という正式な
+手続きが別途必要です。
+
+--- FOOTER ---
+登記記録の表示は、正式な変更・更正の登記によってのみ書き換えられるという
+一般原則
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, node label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（ウ肢・間違いノート）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with quoted article text, and short explanatory sentences (1-3 sentences
+per callout box) labeled 「誤りやすいポイント」. Prioritize clarity and
+completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 敷・地・権・登・記・権・
+利・部・合・筆・地・役・権・担・保・除 — always draw the standard Japanese
+(Jōyō) form.
+
+--- HEADER ---
+Title (large, bold):
+「案内板」に見えても、権利に関する登記です
+
+Subtitle (smaller, centered):
+令和7年度 午後の部 第13問 ウ－合筆を妨げる登記にあたるか
+
+--- COMPARISON ---
+LEFT PANEL, heading (bold):
+敷地権である旨の登記の見た目
+Illustration: An isometric land plot with a simple signboard reading
+敷地権である旨の登記 standing on it like an information plaque, drawn
+without any lock, chain, or burden-style icon attached.
+Panel takeaway (short line below the illustration):
+一見、案内的な登記に見える
+
+RIGHT PANEL, heading (bold):
+実際の法的な位置づけ
+Illustration: The same land plot's registry-book icon opened to show its
+権利部（所有権以外の権利を記録する部分）tab, with the 敷地権である旨の
+登記 signboard now shown recorded inside that tab with a small padlock
+icon overlaid. Beside it, two adjacent land plots (both bearing this
+signboard) are joined by a chain-link icon crossed out with a large red X,
+representing a blocked 合筆 registration.
+Panel takeaway (short line below the illustration):
+権利部に記録される「権利に関する登記」に該当し合筆不可
+
+--- CALLOUT: 誤りやすいポイント ---
+敷地権である旨の登記は、抵当権や地上権のように他人の権利が乗っている登記
+ではなく、単に「この土地はマンションの敷地です」という案内的な登記に見え
+るため、合筆を妨げないのではないかと考えてしまいがちです。しかしこの登記
+は土地の登記記録の権利部に記録される「所有権以外の権利に関する登記」に
+あたり、不動産登記法41条6号により合筆が禁止されます。合筆後の登記記録に
+そのまま引き継げるものとして法務省令で個別に列挙された一部の権利（承役地
+についてする地役権の登記等）に限り例外的に合筆できますが、敷地権である旨
+の登記はこの例外には含まれません。
+
+--- FOOTER ---
+不動産登記法41条6号、不動産登記規則(合筆後の土地の登記記録に登記できる権
+利に関する登記を定める条文)
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, node label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」. Prioritize clarity and completeness of the
+reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 敷・地・権・区・分・合・
+併・建・物・登・記・規・則・条・項・準・用 — always draw the standard
+Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold):
+敷地権の有無が食い違っても、合併後を見る
+
+Subtitle (smaller, centered):
+令和7年度 午後の部 第13問 エ－規則134条3項が想定する場面
+
+--- FLOWCHART ---
+Node 1 (start, two isometric区分建物 room icons side by side, one labeled
+甲建物・敷地権登記あり, one labeled 乙建物・敷地権登記なし):
+甲建物と乙建物を合併したい
+
+Arrow down to Decision Diamond:
+合併前の敷地権登記の有無は一致しているか？
+
+Decision Diamond, branch「いいえ（食い違いあり）」:
+食い違いがあるから合併できない、と考えたくなる
+
+Arrow from that branch to Node 2:
+規則134条3項を確認する－「区分合併後の建物が敷地権のない建物となるとき」
+を想定した規定があるか？
+
+Node 2 → Final result (green checkmark icon, single merged two-room
+building icon labeled 敷地権のない1個の建物):
+合併後は敷地権のない1個の建物として扱われ、合併の登記の申請ができる
+
+--- CALLOUT: 誤りやすいポイント ---
+甲建物には敷地権の登記があり、乙建物にはない、という食い違った状態を見る
+と、権利関係がまったく異なる建物同士に見えるため、合併登記もできないので
+はないかと考えてしまいがちです。しかし不動産登記規則134条3項は、区分合併
+の結果、合併後の建物が「敷地権のない建物」になるという場面そのものを条文
+上正面から想定しており、合併前の食い違いは、合併後の扱いを妨げるものでは
+ありません。
+
+--- FOOTER ---
+不動産登記規則134条3項・133条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, node label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
 ```
