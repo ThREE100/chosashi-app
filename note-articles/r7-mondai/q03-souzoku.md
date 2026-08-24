@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】令和7年度 第3問〜相続放棄の申述先、実は家庭裁判所なんです〜
+## 【土地家屋調査士受験生向け】令和7年度 第3問〜期間が過ぎても、全員となら間に合うんです〜
 
 **出題年度：令和7年度　午後の部　第3問**
 
@@ -44,11 +44,32 @@
 
 **たとえば**、相続するかどうかまだ決めていない実家について、雨漏りを応急処置したり、空き巣対策に鍵を交換したりする程度の行為（保存行為）をしても、それだけで「単純承認した」とはみなされません。家財を売り払う、預金を引き出して使ってしまうといった「処分行為」をすると単純承認とみなされます。
 
+**ここが分かりにくいポイント**：
+
+本肢「相続財産の全部又は一部について保存行為をしたときは、単純承認をしたものとみなされる」は、民法921条1号の文言をそのまま引用しているかのように見え、正しそうに感じてしまいます。しかし、実際の条文は次のような構造になっています。
+
+- 原則（本文）：相続財産の全部又は一部を「**処分**」したとき → 単純承認とみなす
+- 例外（ただし書き）：その行為が「**保存行為**」（および602条以内の短期賃貸）であるとき → 単純承認と**みなさない**
+
+つまり、条文が単純承認の引き金として定めているのは「処分」であり、「保存行為」はむしろ、その引き金から明文で除外されている行為です。本肢は、この「原則（処分）」と「例外（保存行為）」を入れ替えて、本来は除外されているはずの保存行為があたかも単純承認の引き金であるかのように述べており、この点で誤りです。
+
+「相続財産に何らかの行為をしたかどうか」だけに注目せず、その行為が財産の価値を維持するもの（保存行為）か、財産を減らす・処分するもの（処分行為）かを見分けることが、この分野を得点源にするコツです。
+
 ### オ：期間切れの相続人がいても、全員での限定承認は可能
 
 限定承認は共同相続人**全員が共同**でなければできません（民法923条）。各相続人の熟慮期間（3か月）は、それぞれが相続開始を知った時から別々に進行するため、開始を知った時期がずれていると、誰かの期間が先に切れてしまうことがあります。しかし、通説・実務上、**他の相続人にまだ期間内の人がいる限り、期間が切れた相続人も含めて全員で限定承認をすることができる**と解されています。
 
 **たとえば**、兄が先に親の死亡を知って3か月が過ぎてしまったが、遠方に住む弟が後から死亡を知ったため弟の3か月はまだ残っている、というケースでも、兄と弟が力を合わせて限定承認の申述をすることができます。
+
+**ここが分かりにくいポイント**：
+
+「兄の熟慮期間（3か月）はもう過ぎている→民法921条2号により、期間内に限定承認・放棄をしなかった相続人は単純承認をしたものとみなされる→兄はもう単純承認したことになっているのだから、今さら限定承認に参加することはできないのでは」と考えてしまいがちです。
+
+しかし、限定承認は共同相続人**全員が共同して**でなければすることができません（民法923条）。各相続人の熟慮期間を杓子定規に個別に適用してしまうと、相続の開始を知った時期が相続人ごとにずれているだけで、「共同して」行うべき限定承認そのものが事実上不可能になってしまう場面が出てきます。
+
+この不都合を避けるため、通説・実務上、共同相続人のうち一人でも熟慮期間内の者がいる限り、期間が先に尽きてしまった相続人も含めて全員で限定承認をすることができる、と解されています。つまり、921条2号の「期間内にしなければ単純承認とみなす」というルールは、限定承認を共同で行う場面では、他の相続人にまだ期間内の者がいる限り、そのまま単純には適用されません。
+
+一方で、注意が必要な場面もあります。もし共同相続人の一人が、単なる期間徒過ではなく、財産の処分行為（921条1号、上記エ参照）のような法定単純承認の事由に該当する行為をしてしまっていた場合は話が別です。その相続人はそもそも限定承認をすることができない状態になっているため、他の相続人も含めて全員での限定承認ができなくなります。本肢はあくまで「期間が経過しただけ」の場面であり、処分行為等の事由がある場面とは区別してください。
 
 ### まとめ
 
@@ -68,7 +89,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・エ）は法務省公表の試験問題原本・正答資料で確認済みです。
-- ア（938条）・イ（918条）・ウ（931条）・エ（921条1号）は条文の文言レベルで確認済みです。オ（期間が切れた相続人がいても全員で限定承認できること）は923条の条文文言そのものからは直接読み取れず、通説・実務上の解釈に基づく結論です。
+- ア（938条）・イ（918条）・ウ（931条）・エ（921条1号）は条文の文言レベルで確認済みです。オ（期間が切れた相続人がいても全員で限定承認できること）は923条の条文文言そのものからは直接読み取れず、通説・実務上の解釈に基づく結論です。WebSearchで確認したところ、この結論を支持する裁判例（東京地裁昭和30年5月6日判決）の存在が複数の実務解説サイトで言及されており、独立に裏付けられています。
+- **エ・オの理解補助について**：読者から、エ・オそれぞれの結論に自力でたどり着けなかったというフィードバックを受け、両肢に「ここが分かりにくいポイント」を追加しました。エは、921条1号の「原則（処分→単純承認）」と「例外（保存行為→対象外）」を本肢が入れ替えている点を整理しています。オは、921条2号（期間内に限定承認・放棄をしなければ単純承認とみなす）を個別に適用すると矛盾するように見える点について、923条が限定承認に「全員共同」を求める制度趣旨から、一部の相続人の期間徒過だけでは他の相続人との共同限定承認を妨げないこと、および処分行為等による法定単純承認とは区別すべきことを整理しています。あわせて、タイトルのキャッチフレーズを、当初のア（相続放棄の申述先）から、実際に読者がつまずいたオの論点に差し替えました。エ・オの元の解説自体（正誤判定・条文根拠）は変更していません。この2肢について、理解を優先した個別の解説インフォグラフィック（間違いノート型）を新規作成しました。
 
 ---
 
@@ -198,4 +220,205 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+エ（保存行為は単純承認とみなされる行為から除外される）について、本肢が民法921条1号の「原則（処分→単純承認）」と「例外（保存行為→対象外）」を入れ替えている、という典型的なつまずきを解消するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、説明文・条文引用を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(相続の承認及び放棄 重要ポイント整理), but built as a single detailed
+explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who read this alternative as
+correct because its wording closely mimics the actual statute. Unlike a
+quick-reference poster, this image MAY include quoted article text, a
+side-by-side comparison, and short explanatory sentences (1-3 sentences
+per callout box) labeled 誤りやすいポイント. Prioritize clarity and
+completeness of the reasoning over brevity. Do not compress the callout
+text into a short tag — write it out as full sentences exactly as given
+below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+処・分・保・存・単・純・承・認・除・外 — always draw the standard Japanese
+(Jōyō) form of these characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+条文そっくりの文章ほど
+要注意なんです
+
+Subtitle (smaller, centered, 2行):
+令和7年度 午後の部 第3問 エ
+「処分」と「保存」が入れ替わっている落とし穴
+
+--- QUOTED ARTICLE TEXT (bordered box, top) ---
+「相続人が相続財産の全部又は一部を処分したとき。ただし、保存行為（及び
+第六百二条に定める期間を超えない賃貸をすること）は、この限りでない。」
+（民法921条1号）
+
+--- LEFT PANEL (red background, 処分行為＝原則) ---
+Panel heading (bold):
+処分行為（原則）
+Illustration: An isometric character selling furniture from the house and
+withdrawing cash from a bank icon, with arrows showing money/items leaving
+the estate. A large red stamp reading「単純承認とみなす」overlays the scene.
+Panel conclusion (bold, red banner):
+財産を減らす行為 → 単純承認とみなされる
+
+--- RIGHT PANEL (green background, 保存行為＝例外) ---
+Panel heading (bold):
+保存行為（ただし書きの例外）
+Illustration: An isometric character repairing a leaking roof and changing
+a door lock, with icons showing the house's condition being maintained,
+not reduced. A large green stamp reading「単純承認とみなさない」overlays
+the scene.
+Panel conclusion (bold, green banner):
+財産を維持する行為 → 単純承認とみなされない
+
+--- THE TRICK (below both panels, showing how the choice is worded) ---
+Illustration: The text of the exam choice「保存行為をしたときは、単純承認
+をしたものとみなされる」is shown with the word「保存」circled in red and an
+arrow pointing to the word「処分」with a label「本当はここが“処分”のはず」,
+visually showing the word-swap.
+
+--- CALLOUT BOX: 誤りやすいポイント (pastel yellow background, full
+width) ---
+本肢「相続財産の全部又は一部について保存行為をしたときは、単純承認をし
+たものとみなされる」は、条文の文言をそのまま引用しているかのように見え、
+正しそうに感じてしまいます。しかし条文が単純承認の引き金として定めてい
+るのは「処分」であり、「保存行為」はむしろその引き金から明文で除外され
+ている行為です。本肢は「原則（処分）」と「例外（保存行為）」を入れ替え
+ており、この点で誤りです。「相続財産に何らかの行為をしたか」ではなく、
+その行為が財産を維持するもの（保存）か減らすもの（処分）かを見分ける
+ことが、この分野を得点源にするコツです。
+
+--- FOOTER ---
+根拠条文：民法921条1号
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+処・分・保・存・単・純・承・認・除・外. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the quoted article text box at the top matches the Japanese
+text given above verbatim character-for-character, confirm there are
+exactly two side-by-side panels (red 処分行為 on the left, green 保存行為
+on the right), confirm the word-swap illustration clearly shows「保存」
+circled with an arrow to「処分」, and confirm the callout box text matches
+verbatim with no paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・間違いノート）
+
+オ（一部の相続人の熟慮期間が経過していても、他の相続人が期間内であれば全員で限定承認ができる）について、「期間が過ぎた相続人はもう単純承認したことになっているはず」という直感と、限定承認の「全員共同」という制度趣旨から導かれる例外的な扱いを整理するための、時系列型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、説明文・条文引用を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(相続の承認及び放棄 重要ポイント整理), but built as a single detailed
+explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who could not work out on their own
+why a co-heir whose own deliberation period（熟慮期間）already expired can
+still join a joint 限定承認. Unlike a quick-reference poster, this image
+MAY include a timeline diagram with quoted article text and short
+explanatory sentences (1-3 sentences per callout box) labeled 誤りやすい
+ポイント. Prioritize clarity and completeness of the reasoning over
+brevity. Do not compress the callout text into a short tag — write it out
+as full sentences exactly as given below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+限・定・承・認・熟・慮・期・間・共・同・徒・過 — always draw the standard
+Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+期間が過ぎても、
+全員となら間に合うんです
+
+Subtitle (smaller, centered, 2行):
+令和7年度 午後の部 第3問 オ
+熟慮期間がバラバラでも、限定承認は「全員共同」だから成立する
+
+--- TIMELINE DIAGRAM (top section) ---
+Illustration: A horizontal timeline showing two parallel tracks, one
+labeled 兄, one labeled 弟. On 兄's track, a 3-month bar starts earlier
+and ends with a red flag labeled「期間満了（もう過ぎた）」. On 弟's track,
+a 3-month bar starts later (offset to the right) and is still within its
+active range, shown with a green highlighted zone labeled「まだ期間内」.
+A vertical dashed line marks "今" (now), falling after 兄's bar ends but
+before 弟's bar ends.
+
+--- NAIVE (WRONG) REASONING BOX (red, labeled 直感的にはこう考えがち) ---
+兄の熟慮期間はもう過ぎている
+→ 民法921条2号により単純承認をしたものとみなされる
+→ 兄はもう限定承認に参加できないはず
+（矢印の先に大きな赤い×マーク）
+
+--- DOWNWARD ARROW labeled「しかし」---
+
+--- CORRECT REASONING BOX (green, labeled 実際の結論) ---
+Illustration: 兄 and 弟, drawn side by side, jointly holding a single
+document labeled「限定承認（共同）」, submitting it together to a
+courthouse icon. A green checkmark appears above both.
+Quoted article text (rendered exactly, in a bordered box):
+「相続人が数人あるときは、限定承認は、共同相続人の全員が共同してのみ
+これをすることができる。」（民法923条）
+限定承認は全員共同でなければできない制度のため、共同相続人のうち一人
+でも熟慮期間内の者がいる限り、期間が先に尽きた相続人も含めて全員で
+限定承認をすることができる、と解されている。
+
+--- SIDE NOTE (smaller box, bottom, distinct from the main flow) ---
+ただし、期間徒過ではなく、相続財産の処分行為（921条1号）のような法定
+単純承認の事由に該当する行為をしてしまった相続人がいる場合は話が別。
+その場合はその相続人がそもそも限定承認をできない状態になるため、他の
+相続人も含めて全員での限定承認ができなくなる。
+
+--- CALLOUT BOX: 誤りやすいポイント (pastel yellow background, full
+width) ---
+「兄の熟慮期間はもう過ぎているのだから、921条2号によりもう単純承認した
+ことになっているはず」と考えてしまいがちです。しかし限定承認は共同相続
+人全員が共同してでなければすることができません（923条）。各相続人の
+熟慮期間を杓子定規に個別に適用すると、相続の開始を知った時期が相続人
+ごとにずれているだけで、「共同して」行うべき限定承認そのものが事実上
+不可能になってしまいます。この不都合を避けるため、共同相続人のうち
+一人でも熟慮期間内の者がいる限り、全員で限定承認をすることができると
+解されています。
+
+--- FOOTER ---
+根拠条文：民法921条2号・923条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+限・定・承・認・熟・慮・期・間・共・同・徒・過. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the timeline diagram clearly shows 兄's period
+ending before 弟's period, confirm the naive-reasoning box and the
+correct-reasoning box are visually distinct (red vs green) and connected
+by a labeled「しかし」arrow, confirm the quoted 923条 text matches the
+Japanese text given above verbatim character-for-character, and confirm
+the callout box text matches verbatim with no paraphrasing and no
+substituted characters.
 ```
