@@ -418,15 +418,41 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 敷・地・権・区・分・合・
-併・建・物・登・記・規・則・条・項・準・用 — always draw the standard
-Japanese (Jōyō) form.
+併・建・物・登・記・規・則・条・項・準・用・専・有・割・合・利・用 —
+always draw the standard Japanese (Jōyō) form.
 
 --- HEADER ---
 Title (large, bold):
-敷地権の有無が食い違っても、合併後を見る
+甲の敷地権は、乙には及ばない
 
 Subtitle (smaller, centered):
-令和7年度 午後の部 第13問 エ－規則134条3項が想定する場面
+令和7年度 午後の部 第13問 エ－なぜ敷地権のない建物になるのか
+
+--- COMPARISON: なぜ甲の敷地権をそのまま引き継げないのか ---
+LEFT PANEL, heading (bold):
+誤った理解
+Illustration: A single isometric two-story building (already merged),
+drawn entirely in green with a large green checkmark, labeled 敷地権付き
+の建物として存在, with a caption 甲の敷地権が建物全体に及ぶ.
+
+RIGHT PANEL, heading (bold):
+正しい理解
+Illustration: The same isometric two-story merged building, split by a
+horizontal dividing line into a lower floor labeled 甲部分（敷地権の
+裏付けあり、小さな％タグ「専有部分割合に応じた敷地権」付き）and an
+upper floor labeled 乙部分（敷地権の裏付けなし、taggedクエスチョンマーク
+アイコン）. An arrow points from the whole building to a document labeled
+敷地権のない建物として登記, with a green checkmark.
+Panel takeaway (short line below the illustration):
+一部にしか裏付けがない → 建物全体としては敷地権のある建物にできない
+
+--- CALLOUT: 誤りやすいポイント ---
+甲に敷地権があるなら、それを乙にも及ぼして、合併後の建物全体が敷地権付き
+になるのではないかと考えてしまいがちです。しかし敷地権は建物1棟に一律に
+かかるものではなく、区分建物ごとの専有部分の割合に応じて個別に結びついた
+登記です。合併により専有部分の範囲が甲＋乙に広がっても、乙の分の敷地利用
+権は敷地権として登記されていないため、新しい建物全体を敷地権のある建物と
+して登記することはできません。
 
 --- FLOWCHART ---
 Node 1 (start, two isometric区分建物 room icons side by side, one labeled
@@ -447,16 +473,8 @@ Node 2 → Final result (green checkmark icon, single merged two-room
 building icon labeled 敷地権のない1個の建物):
 合併後は敷地権のない1個の建物として扱われ、合併の登記の申請ができる
 
---- CALLOUT: 誤りやすいポイント ---
-甲建物には敷地権の登記があり、乙建物にはない、という食い違った状態を見る
-と、権利関係がまったく異なる建物同士に見えるため、合併登記もできないので
-はないかと考えてしまいがちです。しかし不動産登記規則134条3項は、区分合併
-の結果、合併後の建物が「敷地権のない建物」になるという場面そのものを条文
-上正面から想定しており、合併前の食い違いは、合併後の扱いを妨げるものでは
-ありません。
-
 --- FOOTER ---
-不動産登記規則134条3項・133条
+不動産登記規則134条3項（124条を準用）・133条
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
