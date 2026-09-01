@@ -17,11 +17,9 @@
 
 添付情報そのものの文言は土地と建物でほぼ同じですが、**「誰が申請できるか」が土地・通常建物・区分建物で異なる**点が繰り返し出題されます。
 
-| 対象 | 表題登記を申請できる人 | 根拠 |
-|---|---|---|
-| 土地 | その時点の所有者（転得者も可） | 不動産登記法36条 |
-| 通常の建物（区分建物以外） | その時点の所有者（転得者も可） | 不動産登記法47条1項 |
-| 区分建物 | 原始取得者（新築者）のみ。転得者に申請資格自体がない | 不動産登記法47条2項 |
+- **土地**：その時点の所有者が申請できます（転得者も可、不動産登記法36条）。
+- **通常の建物（区分建物以外）**：土地と同様、その時点の所有者が申請できます（転得者も可、不動産登記法47条1項）。
+- **区分建物**：原始取得者（新築者）のみが申請できます。転得者には申請資格自体がありません（不動産登記法47条2項）。
 
 区分建物では、原始取得者が申請しないまま放置している場合、転得者は**原始取得者に代位して**申請することはできますが、その場合も表題部所有者として記録されるのはあくまで原始取得者です（令和6年度午後の部第4問など複数年度で出題）。
 
@@ -41,12 +39,10 @@
 
 印鑑証明書は、**どの書面に添付されるものか**によって3か月ルールの有無が変わります。ここが本テーマ最大のひっかけどころです。
 
-| 添付される書面 | 根拠 | 「作成後3か月以内」制限 |
-|---|---|---|
-| 申請書（記名押印した者の印鑑証明書） | 不動産登記令16条2項 | **あり**（令16条3項） |
-| 委任状（代理人の権限を証する情報を記載した書面） | 不動産登記令18条2項 | **あり**（令18条3項） |
-| 承諾書等（同意又は承諾を証する情報を記載した書面） | 不動産登記令19条1項2項 | **なし**（令19条には3か月の定めを置く項がない） |
-| 法人の代表者の資格を証する登記事項証明書 | 不動産登記令7条1項1号ロ・17条1項 | **あり**（令17条1項） |
+- **申請書**（記名押印した者の印鑑証明書、不動産登記令16条2項）：作成後3か月以内という制限が**あります**（令16条3項）。
+- **委任状**（代理人の権限を証する情報を記載した書面、不動産登記令18条2項）：作成後3か月以内という制限が**あります**（令18条3項）。
+- **承諾書等**（同意又は承諾を証する情報を記載した書面、不動産登記令19条1項2項）：作成後3か月以内という制限は**ありません**（令19条には16条3項・18条3項に相当する期間制限の項がないため）。
+- **法人の代表者の資格を証する登記事項証明書**（不動産登記令7条1項1号ロ・17条1項）：作成後3か月以内という制限が**あります**（令17条1項）。
 
 **たとえば**、工事完了引渡証明書（所有権を証する情報）に施工会社の代表者印を押し、その印鑑証明書を添付する場合や、抵当権の登記名義人が分筆後の一方の土地について抵当権を消滅させることを承諾する書面（承諾書）に添付する印鑑証明書には、作成後3か月以内という制限は課されません。これは、令19条が令16条3項・18条3項のような期間制限の項を持たないためです（令和5年度午後の部第14問、令和4年度午後の部第8問で確認済み）。
 
@@ -60,14 +56,12 @@
 
 書面申請をした申請人は、申請書の添付書面（磁気ディスクを除く）について原本の還付を請求できるのが原則です（不動産登記規則55条1項本文）。ただし、次のものは原本還付の対象外です。
 
-| 原本還付できないもの | 根拠 |
-|---|---|
-| 申請書・委任状・承諾書に添付する印鑑証明書（令16条2項・18条2項・19条2項の印鑑証明書） | 不動産登記規則55条1項ただし書 |
-| 裁判所書記官が作成した印鑑証明書（規則48条3号等） | 同上 |
-| 当該申請のためにのみ作成された委任状その他の書面 | 同上 |
-| 偽造された書面その他の不正な登記の申請のために用いられた疑いがある書面 | 規則55条5項 |
-| 登記識別情報を記載した書面（申請書に添付して提出したもの） | 登記完了後、登記官が速やかに廃棄するものとされており、還付の対象書面ではない（不動産登記規則66条2項・69条1項） |
-| 資格者代理人が作成した本人確認情報 | 資格者代理人自身が作成した書面のため |
+- **申請書・委任状・承諾書に添付する印鑑証明書**（令16条2項・18条2項・19条2項の印鑑証明書）：原本還付できません（不動産登記規則55条1項ただし書）。
+- **裁判所書記官が作成した印鑑証明書**（規則48条3号等）：原本還付できません（不動産登記規則55条1項ただし書）。
+- **当該申請のためにのみ作成された委任状その他の書面**：原本還付できません（不動産登記規則55条1項ただし書）。
+- **偽造された書面その他の不正な登記の申請のために用いられた疑いがある書面**：原本還付できません（規則55条5項）。
+- **登記識別情報を記載した書面**（申請書に添付して提出したもの）：登記完了後、登記官が速やかに廃棄するものとされており、そもそも還付の対象書面ではありません（不動産登記規則66条2項・69条1項）。
+- **資格者代理人が作成した本人確認情報**：資格者代理人自身が作成した書面であるため、原本還付できません。
 
 一方で、次のものは還付**できます**。
 
@@ -99,12 +93,10 @@
 
 土地家屋調査士又は土地家屋調査士法人が代理人として電子申請の方法により表示に関する登記を申請する場合において、令13条1項に基づき添付情報が提供されたときは、**原則として、添付情報の基となった書面の提示を求めない取扱い**があります。これを「調査士報告方式」と呼びます（令和6年度午後の部第5問の設問文より）。ただし、対象となる書面は限定されており、次のように整理できます。
 
-| 書面の性質 | 調査士報告方式の対象になるか |
-|---|---|
-| 申請人（委任者）が作成した委任状 | ○ 対象になる |
-| 工事施工会社作成の工事完了引渡証明書（所有権証明情報） | ○ 対象になる |
-| 地役権設定の範囲を証する地役権者作成の書面 | × 対象外（原本提示が必要） |
-| 表題部所有者の承諾書、抵当権者の承諾書など第三者の意思を証する書面 | × 対象外（原本提示が必要） |
+- **申請人（委任者）が作成した委任状**：対象になります。
+- **工事施工会社作成の工事完了引渡証明書**（所有権証明情報）：対象になります。
+- **地役権設定の範囲を証する地役権者作成の書面**：対象外です（原本提示が必要）。
+- **表題部所有者の承諾書、抵当権者の承諾書など第三者の意思を証する書面**：対象外です（原本提示が必要）。
 
 この区別は、「調査士が内容を確認・責任を持てる書面か、それとも第三者の意思の真正を担保すべき書面か」という判断軸で説明されています（令和6年度午後の部第5問）。ただし、この対象書面の切り分けは条文そのものの文言というより実務上の取扱い・出題解説に基づくものであるため、実際の申請にあたっては最新の通達等を確認してください。
 
@@ -121,12 +113,10 @@
 
 ### まとめ
 
-| テーマ | 最重要ポイント |
-|---|---|
-| ①住所・所有権証明情報 | 土地・通常建物は転得者も申請可、区分建物は原始取得者のみ（法36条・47条）。会社法人等番号・住民票コード・法定相続情報一覧図の写しで各種証明情報を省略できる |
-| ②印鑑証明書と3か月ルール | 申請書・委任状（令16条・18条）の印鑑証明書は3か月以内。承諾書（令19条）の印鑑証明書には期間制限がない。表題部所有者の申請では印鑑証明書自体が原則不要 |
-| ③原本還付 | 申請書・委任状・承諾書に添付した印鑑証明書は原則還付不可。所有権証明情報に添付した第三者の印鑑証明書（例：工事完了引渡証明書の印鑑証明書）は還付可能。還付は調査完了後、送付によることもできる |
-| ④電子申請・特例方式・調査士報告方式 | 令13条のスキャンデータには作成者（スキャンした人）の電子署名が必要。調査士報告方式は原則原本提示を省略できるが対象書面は限定的。特例方式は添付情報を書面のまま提出できる制度で、原本還付も可能 |
+- **①住所・所有権証明情報**：土地・通常建物は転得者も申請できますが、区分建物は原始取得者のみです（法36条・47条）。会社法人等番号・住民票コード・法定相続情報一覧図の写しがあれば、各種証明情報を省略できます。
+- **②印鑑証明書と3か月ルール**：申請書・委任状（令16条・18条）に添付する印鑑証明書は3か月以内という制限がありますが、承諾書（令19条）の印鑑証明書には期間制限がありません。表題部所有者の申請では、印鑑証明書自体が原則不要です。
+- **③原本還付**：申請書・委任状・承諾書に添付した印鑑証明書は原則として還付できません。一方、所有権証明情報に添付した第三者の印鑑証明書（例：工事完了引渡証明書の印鑑証明書）は還付できます。還付は調査完了後、送付による方法もできます。
+- **④電子申請・特例方式・調査士報告方式**：令13条のスキャンデータには、作成した者（スキャンした人）の電子署名が必要です。調査士報告方式は原則として原本提示を省略できますが、対象書面は限定的です。特例方式は添付情報を書面のまま提出できる制度で、原本還付もできます。
 
 添付情報の問題は、条文の文言そのものを丸暗記するというより、「**どの場面のどの書面か**」を正確に特定できるかどうかで正誤が決まります。申請書・委任状・承諾書のどれに付いている印鑑証明書か、表題部所有者の申請か所有権登記名義人の申請か、といった場面の切り分けを意識して過去問に当たると、初見の組合せ問題にも対応しやすくなります。
 
@@ -333,10 +323,10 @@ illustration or paragraph block between the header and the table, and
 confirm no cell contains a full sentence of explanatory prose.
 ```
 
-### 画像3：原本還付、できないもの・できるもの早見表
+### 画像3(1/2)：原本還付、できないもの早見表
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1300 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: document icon, seal icon,
@@ -359,7 +349,7 @@ summarize, or substitute any characters.
 
 --- HEADER ---
 Title (large, bold, 1行):
-原本還付、できないもの・できるもの
+原本還付、できないもの早見表（1/2）
 
 Subtitle (smaller, centered, 1行):
 書面ごとに扱いが異なる
@@ -370,7 +360,7 @@ Subtitle (smaller, centered, 1行):
 --- TABLE ---
 Render as a clean flat-design table with alternating row background
 colors, Japanese sans-serif font, no monospace font. 3 columns: 「書面」
-「判定」「根拠」。Reproduce the header row and all 9 data rows exactly as
+「判定」「根拠」。Reproduce the header row and all 6 data rows exactly as
 written below, verbatim, in this exact order, with no duplicated or
 missing rows:
 
@@ -382,29 +372,92 @@ missing rows:
 行4: 偽造の疑いがある書面 | ×できない | 規則55条5項
 行5: 登記識別情報を記載した書面 | ×できない | 規則66条2項・69条1項
 行6: 資格者代理人が作成した本人確認情報 | ×できない | 資格者代理人自身が作成のため
-行7: 工事完了引渡証明書に添付する印鑑証明書 | ○できる | 令16条・18条・19条に非該当
-行8: 戸籍謄本・抄本等の相続証明書類 | ○できる | 相続関係説明図の添付で還付可
-行9: 筆界特定の申請添付書面 | ○できる | 不動産登記規則213条
 
-「×できない」のセルは薄い赤の背景に赤い✕アイコンを添え、「○できる」の
-セルは薄い緑の背景に緑のチェックアイコンを添える。行1〜6と行7〜9の間に
-薄い区切り線を入れ、上段が「できないもの」・下段が「できるもの」であること
-が一目でわかるようにする。
+全6行とも「×できない」のセルは薄い赤の背景に赤い✕アイコンを添える。各行の
+左端に書面の種類を示す小さな書類アイコンを置く。
 
 --- FOOTER ---
 
-これは記事内で挙げられている全9項目であり、重複禁止・欠落禁止・言い換え
-禁止で全9行を正確に描画すること。特に「還」「付」「証」「明」「登」「記」
-の各漢字は、簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。
+この表は「できないもの」6項目のみを扱う（1/2）。続きの「できるもの」3項目
+は別画像（2/2）に掲載する。重複禁止・欠落禁止・言い換え禁止で全6行を正確に
+描画すること。特に「還」「付」「証」「明」「登」「記」の各漢字は、簡体字
+ではなく標準的な日本語の常用漢字の字形で描画すること。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Count the data rows and confirm there are exactly
-9, with no duplicates and no gaps, and confirm the first 6 are marked
-「×できない」and the last 3 are marked「○できる」. Confirm there is no
-intro illustration or paragraph block between the header and the table,
-and confirm no cell contains a full sentence of explanatory prose.
+6, with no duplicates and no gaps, and confirm all 6 rows are marked
+「×できない」. Confirm there is no intro illustration or paragraph block
+between the header and the table, and confirm no cell contains a full
+sentence of explanatory prose.
+```
+
+### 画像3(2/2)：原本還付、できるもの早見表
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x900 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: document icon, seal icon,
+courthouse/registry icon — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the table. Do NOT render any full-sentence explanation or paragraph of
+body text anywhere on the poster; every row must read as a short phrase
+plus an icon.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+原本還付、できるもの早見表（2/2）
+
+Subtitle (smaller, centered, 1行):
+書面ごとに扱いが異なる
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background
+colors, Japanese sans-serif font, no monospace font. 3 columns: 「書面」
+「判定」「根拠」。Reproduce the header row and all 3 data rows exactly as
+written below, verbatim, in this exact order, with no duplicated or
+missing rows:
+
+ヘッダー行: 書面 | 判定 | 根拠
+
+行1: 工事完了引渡証明書に添付する印鑑証明書 | ○できる | 令16条・18条・19条に非該当
+行2: 戸籍謄本・抄本等の相続証明書類 | ○できる | 相続関係説明図の添付で還付可
+行3: 筆界特定の申請添付書面 | ○できる | 不動産登記規則213条
+
+全3行とも「○できる」のセルは薄い緑の背景に緑のチェックアイコンを添える。
+各行の左端に書面の種類を示す小さな書類アイコンを置く。
+
+--- FOOTER ---
+
+この表は「できるもの」3項目のみを扱う（2/2）。前の画像（1/2）で「できない
+もの」6項目を扱った続きである。重複禁止・欠落禁止・言い換え禁止で全3行を
+正確に描画すること。特に「還」「付」「証」「明」「登」「記」の各漢字は、
+簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Count the data rows and confirm there are exactly
+3, with no duplicates and no gaps, and confirm all 3 rows are marked
+「○できる」. Confirm there is no intro illustration or paragraph block
+between the header and the table, and confirm no cell contains a full
+sentence of explanatory prose.
 ```
 
 ### 画像4：特例方式と調査士報告方式は別の制度（対比表）
