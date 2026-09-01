@@ -24,6 +24,25 @@
 
 **たとえば**、山間部の集落で近くに基本三角点が見当たらないからといって、近所の古いお地蔵さんやコンクリート杭を勝手に基準にして地図作成のための測量を行うことは認められません。
 
+**ここが分かりにくいポイント**：
+
+「近傍に基本三角点等が存しない場合」というフレーズに、なんとなく見覚えがある方もいるかもしれません。実はこれ、思い違いではなく、似た言い回しを使った例外規定が**別の場面**に本当に存在するために起こる混同です。
+
+土地家屋調査士が実務でよく作成する**地積測量図**（1筆の土地について、筆界点の座標値などを記録する図面）には、次のような規定があります。
+
+- 「近傍に基本三角点等が存しない場合その他の基本三角点等に基づく測量ができない特別の事情がある場合には、近傍の恒久的な地物（道路の中心線、コンクリート杭、建物の外壁など）に基づく測量の成果によって、筆界点の座標値を記録しなければならない」（不動産登記規則77条2項）
+
+問題文の肢アは、この地積測量図についての規定（77条2項）の内容を、まったく別の話である「**地図**を作成するための測量」（不動産登記規則10条3項）に、そのまま持ち込んでしまった記述です。ここが最大のひっかけです。
+
+なぜ2つの規定は分かれているのでしょうか。地図は、法務局に備え付けられる、その地域全体の土地の位置関係を表す公的な基礎データです。地域全体の基準となるものだからこそ、常に国レベルの基準点（基本三角点等）を基礎とすることが求められ、代替手段は一切認められていません（規則10条3項には、77条2項のような例外規定はありません）。一方、地積測量図は、個々の土地の筆界点の位置を特定するための実務書類なので、やむを得ない事情があるときにまで測量そのものを止めてしまうわけにはいかず、近傍の恒久的な地物という代替手段が用意されているのです。
+
+整理すると、次のようになります。
+
+1. **地図を作成するための測量（規則10条3項）**：常に基本三角点等（またはこれと同等以上の精度の基準点）が必要。代替手段の規定はない。
+2. **地積測量図の筆界点の座標値の記録（規則77条2項）**：近傍に基本三角点等がない等の特別の事情があれば、近傍の恒久的な地物で代替できる。
+
+「近傍に基本三角点等が存しない場合」という、同じような言い回しが似て非なる2つの制度に登場する点が、この肢の最大のひっかけどころです。読んでいるのが「地図」の話なのか「地積測量図」の話なのかを、まず確認するくせをつけると、混同を防げます。
+
 ### イ：隣接2筆の区画訂正でも、1筆ごとに申出情報が必要
 
 地図訂正の申出は、通常の登記申請と異なり、同一の登記所の管轄区域内にある土地であっても、複数の土地の訂正をまとめて一の申出情報で行うことはできません。1筆の土地についてする区画の訂正の申出と地番の訂正の申出のように、異なる訂正の申出を一の申出情報でまとめることもできません。
@@ -68,6 +87,7 @@
 - 出典（令和6年度午後の部 第6問）・正解番号（ウエ＝4番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）のexplanationフィールドに基づいており、確認済みです。
 - 各肢の根拠のうち、ア（規則10条1項、3項）・ウ（規則28条2号、3号）・エ（規則16条5項＋平17.2.25民二457号）は、データベースのexplanationフィールドに条文番号まで明記されているものです。なお、エの条文番号は検証の過程でローカル法令データベースと照合したところ、誤りの証明情報・土地所在図又は地積測量図の提供を定めるのは規則16条5項（1号・2号）であり、データベース記載の「6項〜9項」（電子情報処理組織による提供方法や電子署名に関する規定）ではなかったため、本文・確認事項とも5項に訂正しました。一方、イ（登記研究696号158頁）・オ（昭43.6.8民甲1653号）は、条文番号そのものではなく実務誌・先例通達の引用にとどまっており、条文の明文というよりは実務上の取り扱いに基づく判断である点にご留意ください。
 - なお、念のためローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回はアガルート教材を参照することができませんでした。
+- **アの理解補助について**：肢アの「近傍に基本三角点等が存しない場合には、近傍の恒久的な地物を基礎として測量してよい」という記述が、なぜもっともらしく感じられるのかというフィードバックを受け、「ここが分かりにくいポイント」を追加しました。実は、地積測量図の筆界点座標値の記録（不動産登記規則77条2項）には、まさにこの内容の代替規定が実在します。肢アはこの77条2項の内容を、規定のない地図作成のための測量（規則10条3項）に誤って持ち込んだ記述であり、この2つの制度を条文原文で突き合わせて区別する解説を追加しました。あわせて、対比型の個別インフォグラフィック（間違いノート型）を新規作成しました。なお、他の4肢（イ〜オ）は「地図訂正」という別の切り口の論点であり、タイトルのキャッチフレーズはこれらとの整合を優先し、変更していません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題を確認しました。令和7年度第4問も「地図の訂正」がテーマですが、本問（近傍基本三角点等の測量方法、地図に準ずる図面の保存期間、分筆線の誤りの是正手続など）とは各肢の具体的な出題内容が異なっており、**内容の重複は見つかりませんでした**（同じ大分野からの出題ではありますが、問われている個別の論点は別物です）。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-16実施）**：本問の論点（地図の訂正・地図に準ずる図面の保存期間・分筆線の是正手続）について、相続登記義務化・所有権登記名義人の氏名住所変更登記義務化等の直近の主要改正による影響を確認しましたが、これらは地図・地積測量図の記録手続そのものとは直接関係せず、内容に修正を要する変更は見つかりませんでした。
 
@@ -202,4 +222,107 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア肢・間違いノート）
+
+ア（地図を作成するための測量は、近傍に基本三角点等が存しない場合でも近傍の恒久的な地物を基礎として行うことはできない＝本肢は誤り）について、「近傍に基本三角点等が存しない場合」という似た言い回しが登場する2つの異なる制度（地図の測量＝規則10条3項、地積測量図の筆界点座標値の記録＝規則77条2項）を混同してしまう、という典型的なつまずきを解消するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、条文の引用・説明文を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(地図の"訂正"、実はどこでもできるわけじゃない), but built as a single
+detailed explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who mistakenly believed a
+nearby-permanent-landmark substitute rule applies to 地図 surveying.
+Unlike a quick-reference poster, this image MAY include side-by-side
+comparisons with quoted article text, and short explanatory sentences
+(1-3 sentences per callout box) labeled 誤りやすいポイント. Prioritize
+clarity and completeness of the reasoning over brevity. Do not compress
+the callout text or the quoted article text into short tags — write them
+out exactly as given below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+基・準・点・恒・久・的・地・物・筆・界・混・同 — always draw the standard
+Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「近傍に基本三角点等が存しない場合」
+その規定、話が別の場面のものです
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第6問 ア
+地図の測量と、地積測量図の測量は別の制度
+
+--- LEFT PANEL (red background, 地図の測量 — 本肢のケース) ---
+Panel heading (bold):
+地図を作成するための測量（本肢）
+
+Illustration (isometric scene inside the panel):
+An isometric surveyor using a total station aimed at an official
+triangulation point marker（基本三角点）, with a wide map of an entire
+region unrolled behind them labeled「地図（地域全体の公的な基礎データ）」。
+Beside the surveyor, a small crossed-out icon of a roadside stone Jizo
+statue and a concrete stake labeled「恒久的な地物」, with a large red ✕
+mark over them.
+
+Quoted article text (rendered exactly, in a bordered box):
+「地図を作成するための測量は…基本三角点等…を基礎として行うものとす
+る。」（不動産登記規則10条3項、代替規定なし）
+
+Panel conclusion (bold, red banner):
+基本三角点等が必須。代替手段の規定はない。
+
+--- RIGHT PANEL (green background, 地積測量図の測量 — 比較のための参考) ---
+Panel heading (bold):
+地積測量図の筆界点座標値の記録（比較対象）
+
+Illustration (isometric scene inside the panel):
+An isometric land surveyor kneeling at a single small land plot boundary
+point（筆界点）, with a small measuring tape stretching from the boundary
+point to a nearby permanent concrete stake and a building wall, both
+labeled「近傍の恒久的な地物」, with a green checkmark stamp.
+
+Quoted article text (rendered exactly, in a bordered box):
+「近傍に基本三角点等が存しない場合…近傍の恒久的な地物に基づく測量の
+成果による筆界点の座標値を記録しなければならない。」（不動産登記規則
+77条2項）
+
+Panel conclusion (bold, green banner):
+特別の事情があれば、恒久的な地物で代替できる。
+
+--- CALLOUT BOX: 誤りやすいポイント (below both panels, pastel yellow
+background, full width) ---
+「近傍に基本三角点等が存しない場合」という言い回しは、地積測量図の筆界
+点座標値の記録（不動産登記規則77条2項）には確かに存在する例外規定で
+す。しかし本肢が扱っているのは、地域全体の位置関係を表す公的な基礎デー
+タである「地図」を作成するための測量（同規則10条3項）であり、こちらに
+は代替手段を認める規定がありません。似た言い回しにつられて、片方の制度
+の例外規定をもう片方に持ち込んでしまわないよう、「今読んでいるのは地図
+の話か、地積測量図の話か」を必ず確認してください。
+
+--- FOOTER ---
+根拠：不動産登記規則10条3項（本肢）・77条2項（比較対象）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+基・準・点・恒・久・的・地・物・筆・界・混・同. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm there are exactly two side-by-side panels (red 地図
+の測量 on the left, green 地積測量図の測量 on the right), confirm both
+quoted text boxes match the Japanese text given above verbatim character-
+for-character, and confirm the callout box text matches verbatim with no
+paraphrasing and no substituted characters.
 ```
