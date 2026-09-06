@@ -46,6 +46,14 @@ traverse_tool.py — 座標データから地積測量図・建物図面を「�
   ],
   "reference_lines": [
     {"from": "T1", "to": "A"}
+  ],
+  "characters": [
+    {"id": "akiko", "anchor": "K", "dx": 40, "dy": -90, "size": 72,
+     "image": null, "label": "秋子", "color": "#F5B942"}
+  ],
+  "speech_bubbles": [
+    {"text": "差は公差の範囲を\n超えています", "character": "akiko",
+     "dx": 0, "dy": -70, "width": 200}
   ]
 }
 
@@ -58,6 +66,15 @@ traverse_tool.py — 座標データから地積測量図・建物図面を「�
 - parcels[].chimoku は当該筆の地目（省略時は meta.chimoku、それも省略時は"宅地"）。
   1つの図面に地目の異なる筆（畑・宅地等）が混在する場合に、規則100条の端数処理を
   筆ごとに正しく適用するために使う。
+- characters[] は学習漫画のコマに乗せる小さいキャラクター。anchor（points内の
+  点名）を基準に dx/dy（px）だけずらした位置に配置する。image（PNG等のファイル
+  パス）を指定すればそれをそのまま埋め込み、省略すればプレースホルダー（丸顔
+  アイコン）を描く。座標・図形の正確さはこのツールが担保する部分であり、
+  キャラクターの絵そのもの（image未指定時のプレースホルダーを含む）は対象外。
+- speech_bubbles[] は吹き出し。character（characters[].id）を指定すればそのキャラの
+  上に、anchor（points内の点名）を指定すればその点を基準に配置する。text内の
+  "\n"で改行、それ以外は width から自動で折り返す。文字はこのツール自身が組版
+  するため、AIが生成した画像内の文字化け・誤字のリスクを避けられる。
 
 ## 法的根拠（このツールが機械的に担保する内容）
 
@@ -78,8 +95,10 @@ meta.scale_label で表示だけ上書きし、実際の描画スケールは常
 from __future__ import annotations
 
 import argparse
+import base64
 import json
 import math
+import mimetypes
 import sys
 from dataclasses import dataclass, field
 from typing import Optional
@@ -129,11 +148,44 @@ class RefLine:
 
 
 @dataclass
+class Character:
+    """学習漫画のコマに合成する小さいキャラクター。
+
+    座標・図形の正確さはこのツールが担保するが、キャラクターの絵そのものは
+    このツールの担当外。image を指定しなければ簡易プレースホルダー（顔アイコン）
+    を描画するので、位置決め・吹き出しとの組版だけを先に固められる。
+    image に画像生成AI（Gemini/ChatGPT等）が作成したPNG等のパスを指定すれば、
+    そのまま座標位置に埋め込まれる。
+    """
+
+    id: str
+    anchor: str  # points内の点名。この点を基準に配置する
+    dx: float = 0.0
+    dy: float = -90.0
+    size: float = 72.0
+    image: Optional[str] = None
+    label: str = "？"
+    color: str = "#F5B942"
+
+
+@dataclass
+class SpeechBubble:
+    text: str
+    character: Optional[str] = None  # characters[].id。指定した場合はそのキャラの上に表示
+    anchor: Optional[str] = None  # character未指定時、points内の点を直接指定
+    dx: float = 0.0
+    dy: float = -60.0
+    width: float = 220.0
+
+
+@dataclass
 class Spec:
     meta: dict
     points: dict[str, Point]
     parcels: list[Parcel]
     ref_lines: list[RefLine] = field(default_factory=list)
+    characters: list[Character] = field(default_factory=list)
+    speech_bubbles: list[SpeechBubble] = field(default_factory=list)
 
 
 # ---------------------------------------------------------------------------
@@ -157,7 +209,34 @@ def load_spec(path: str) -> Spec:
     ref_lines = []
     for rl in raw.get("reference_lines", []):
         ref_lines.append(RefLine(rl["from"], rl["to"], rl.get("label", "")))
-    return Spec(meta=raw.get("meta", {}), points=points, parcels=parcels, ref_lines=ref_lines)
+    characters = []
+    for c in raw.get("characters", []):
+        if c["anchor"] not in points:
+            raise ValueError(f"characters[].anchor が points に見つかりません: {c['anchor']!r}")
+        characters.append(Character(
+            id=c["id"], anchor=c["anchor"], dx=c.get("dx", 0.0), dy=c.get("dy", -90.0),
+            size=c.get("size", 72.0), image=c.get("image"), label=c.get("label", "？"),
+            color=c.get("color", "#F5B942"),
+        ))
+    char_ids = {c.id for c in characters}
+    speech_bubbles = []
+    for sb in raw.get("speech_bubbles", []):
+        character = sb.get("character")
+        anchor = sb.get("anchor")
+        if character is None and anchor is None:
+            raise ValueError("speech_bubbles[] には character または anchor のいずれかが必要です")
+        if character is not None and character not in char_ids:
+            raise ValueError(f"speech_bubbles[].character が characters に見つかりません: {character!r}")
+        if anchor is not None and anchor not in points:
+            raise ValueError(f"speech_bubbles[].anchor が points に見つかりません: {anchor!r}")
+        speech_bubbles.append(SpeechBubble(
+            text=sb["text"], character=character, anchor=anchor,
+            dx=sb.get("dx", 0.0), dy=sb.get("dy", -60.0), width=sb.get("width", 220.0),
+        ))
+    return Spec(
+        meta=raw.get("meta", {}), points=points, parcels=parcels, ref_lines=ref_lines,
+        characters=characters, speech_bubbles=speech_bubbles,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -305,6 +384,91 @@ def draw_scale_bar(svg: SvgBuilder, x: float, y: float, scale_px_per_unit: float
     svg.text(x, y + 22, f"表示縮尺（自動フィット・目安）／記載縮尺: {label}", size=10, anchor="start", fill="#5B6470")
 
 
+def _image_data_uri(path: str) -> str:
+    mime, _ = mimetypes.guess_type(path)
+    mime = mime or "image/png"
+    with open(path, "rb") as f:
+        encoded = base64.b64encode(f.read()).decode("ascii")
+    return f"data:{mime};base64,{encoded}"
+
+
+def draw_character(svg: SvgBuilder, cx: float, cy: float, size: float,
+                    image: Optional[str], label: str, color: str):
+    """小さいキャラクターを描画する。
+
+    image が指定されていればそれ（画像生成AIが作成したPNG等）をそのまま
+    座標位置に埋め込む。指定がなければ、位置決めと組版だけを先に確認できる
+    ための簡易プレースホルダー（丸顔アイコン）を描画する。プレースホルダーは
+    最終的な学習漫画の見た目ではなく、あくまで「ここにキャラクターが乗る」
+    ことを示す仮表示。
+    """
+    r = size / 2
+    if image:
+        data_uri = _image_data_uri(image)
+        svg.add(
+            f'<image x="{cx - r:.2f}" y="{cy - r:.2f}" width="{size:.2f}" '
+            f'height="{size:.2f}" href="{data_uri}" preserveAspectRatio="xMidYMid meet"/>'
+        )
+        return
+    svg.circle(cx, cy, r, fill=color, stroke="#1E2530")
+    eye_dx, eye_dy, eye_r = r * 0.32, r * 0.15, r * 0.1
+    svg.circle(cx - eye_dx, cy - eye_dy, eye_r, fill="#1E2530")
+    svg.circle(cx + eye_dx, cy - eye_dy, eye_r, fill="#1E2530")
+    svg.add(
+        f'<path d="M {cx - r * 0.32:.2f} {cy + r * 0.2:.2f} '
+        f'Q {cx:.2f} {cy + r * 0.5:.2f} {cx + r * 0.32:.2f} {cy + r * 0.2:.2f}" '
+        f'stroke="#1E2530" stroke-width="2" fill="none"/>'
+    )
+    svg.text(cx, cy + r + 15, label, size=11, anchor="middle", fill="#5B6470")
+
+
+def wrap_text_for_bubble(text: str, max_chars: int) -> list[str]:
+    """日本語は分かち書きされないため、改行指定（\\n）を尊重しつつ文字数で折り返す。"""
+    max_chars = max(4, max_chars)
+    lines: list[str] = []
+    for para in text.split("\n"):
+        if not para:
+            lines.append("")
+            continue
+        cur = ""
+        for ch in para:
+            cur += ch
+            if len(cur) >= max_chars:
+                lines.append(cur)
+                cur = ""
+        if cur:
+            lines.append(cur)
+    return lines or [""]
+
+
+def draw_speech_bubble(svg: SvgBuilder, cx: float, cy: float, width: float,
+                        text: str, tail_to: Optional[tuple[float, float]] = None):
+    """吹き出しを描画する（角丸の枠＋折り返しテキスト＋任意の尻尾）。
+
+    テキストはこのツール自身が組版する（AIに文字入りの画像を生成させない）。
+    こうすることで、吹き出しの中の文言は常にJSON仕様書に書いた文字列と
+    一致し、生成AI特有の文字化け・誤字のリスクを避けられる。
+    """
+    pad = 12
+    line_h = 18
+    lines = wrap_text_for_bubble(text, max_chars=max(6, int(width / 13)))
+    h = pad * 2 + line_h * len(lines)
+    x0, y0 = cx - width / 2, cy - h
+    svg.add(
+        f'<rect x="{x0:.2f}" y="{y0:.2f}" width="{width:.2f}" height="{h:.2f}" '
+        f'rx="10" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.6"/>'
+    )
+    if tail_to:
+        tx, ty = tail_to
+        bx, by = cx, y0 + h
+        svg.add(
+            f'<path d="M {bx - 10:.2f} {by:.2f} L {bx + 10:.2f} {by:.2f} '
+            f'L {tx:.2f} {ty:.2f} Z" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.6"/>'
+        )
+    for i, line in enumerate(lines):
+        svg.text(cx, y0 + pad + line_h * (i + 1) - 5, line, size=12.5, anchor="middle")
+
+
 def edge_label_position(x1, y1, x2, y2, offset=14):
     mx, my = (x1 + x2) / 2, (y1 + y2) / 2
     dx, dy = x2 - x1, y2 - y1
@@ -392,6 +556,29 @@ def render_spec(spec: Spec) -> str:
         for p, (x, y) in ((p1, (x1, y1)), (p2, (x2, y2))):
             if p.name not in drawn_points:
                 draw_point_marker(p, x, y)
+
+    # --- キャラクター・吹き出し（学習漫画のコマへの組版） ---
+    # 図形・座標・面積の正確さはここまでの描画がすべて担保する。ここから先は
+    # 「その正確な図に、小さいキャラクターと吹き出しをどう乗せるか」という
+    # レイアウトの話であり、キャラクターの絵自体（image未指定時はプレース
+    # ホルダー）が最終品質かどうかとは別の話である。
+    char_pos: dict[str, tuple[float, float, float]] = {}
+    for ch in spec.characters:
+        ax, ay = to_xy(spec.points[ch.anchor])
+        cx, cy = ax + ch.dx, ay + ch.dy
+        char_pos[ch.id] = (cx, cy, ch.size)
+        draw_character(svg, cx, cy, ch.size, ch.image, ch.label, ch.color)
+
+    for sb in spec.speech_bubbles:
+        if sb.character:
+            base_x, base_y, csize = char_pos[sb.character]
+            bx, by = base_x + sb.dx, base_y + sb.dy
+            tail_to = (base_x, base_y - csize / 2)
+        else:
+            ax, ay = to_xy(spec.points[sb.anchor])
+            bx, by = ax + sb.dx, ay + sb.dy
+            tail_to = (ax, ay)
+        draw_speech_bubble(svg, bx, by, sb.width, sb.text, tail_to=tail_to)
 
     svg.add("</g>")
 
