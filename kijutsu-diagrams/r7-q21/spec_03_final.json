@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "chiban_ward": "S市N町三丁目／S市T町一丁目",
+    "surveyor": "民事秋子",
+    "scale_label": "1:250",
+    "coord_system_no": "（問題文に明記なし）",
+    "title": "丙土地：分筆登記（令和7年10月30日申請）",
+    "case": "分筆登記",
+    "chiban": "10番1 → 10番1（残地）・10番3"
+  },
+  "points": [
+    {
+      "name": "D",
+      "x": 201.71,
+      "y": 114.41,
+      "mark": "concrete"
+    },
+    {
+      "name": "C",
+      "x": 219.57,
+      "y": 117.56,
+      "mark": "concrete"
+    },
+    {
+      "name": "H",
+      "x": 217.0,
+      "y": 131.88,
+      "mark": "concrete"
+    },
+    {
+      "name": "K",
+      "x": 199.98,
+      "y": 131.88,
+      "mark": "kinzoku"
+    },
+    {
+      "name": "M",
+      "x": 205.3,
+      "y": 115.04,
+      "mark": "concrete"
+    },
+    {
+      "name": "L",
+      "x": 203.64,
+      "y": 131.88,
+      "mark": "kinzoku"
+    }
+  ],
+  "parcels": [
+    {
+      "label": "10番1（残地・二郎交換分）",
+      "boundary": [
+        "C",
+        "H",
+        "L",
+        "M"
+      ],
+      "kind": "land",
+      "fill": "existing",
+      "chimoku": "宅地"
+    },
+    {
+      "label": "10番3（新設・花子へ譲渡予定）",
+      "boundary": [
+        "M",
+        "L",
+        "K",
+        "D"
+      ],
+      "kind": "land",
+      "fill": "new",
+      "chimoku": "宅地"
+    }
+  ],
+  "reference_lines": []
+}

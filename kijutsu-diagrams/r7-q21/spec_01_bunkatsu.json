@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "chiban_ward": "S市N町三丁目／S市T町一丁目",
+    "surveyor": "民事秋子",
+    "scale_label": "1:250",
+    "coord_system_no": "（問題文に明記なし）",
+    "title": "乙土地：地積更正・分筆（令和7年8月15日申請）",
+    "case": "地積更正登記＋分筆登記",
+    "chiban": "10番 → 10番1・10番2"
+  },
+  "points": [
+    {
+      "name": "A",
+      "x": 184.31,
+      "y": 99.33,
+      "mark": "concrete"
+    },
+    {
+      "name": "B",
+      "x": 219.57,
+      "y": 99.33,
+      "mark": "concrete"
+    },
+    {
+      "name": "C",
+      "x": 219.57,
+      "y": 117.56,
+      "mark": "concrete"
+    },
+    {
+      "name": "D",
+      "x": 201.71,
+      "y": 114.41,
+      "mark": "concrete"
+    },
+    {
+      "name": "E",
+      "x": 184.31,
+      "y": 114.41,
+      "mark": "concrete"
+    },
+    {
+      "name": "F",
+      "x": 184.31,
+      "y": 130.08,
+      "mark": "concrete"
+    },
+    {
+      "name": "G",
+      "x": 193.5,
+      "y": 131.88,
+      "mark": "kinzoku"
+    },
+    {
+      "name": "H",
+      "x": 217.0,
+      "y": 131.88,
+      "mark": "concrete"
+    },
+    {
+      "name": "K",
+      "x": 199.98,
+      "y": 131.88,
+      "mark": "kinzoku"
+    }
+  ],
+  "parcels": [
+    {
+      "label": "206番（甲土地・参考）",
+      "boundary": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "kind": "land",
+      "fill": "#EEEEEE",
+      "chimoku": "畑"
+    },
+    {
+      "label": "10番1（北側・一郎取得）",
+      "boundary": [
+        "D",
+        "C",
+        "H",
+        "K"
+      ],
+      "kind": "land",
+      "fill": "existing",
+      "chimoku": "宅地"
+    },
+    {
+      "label": "10番2（南側・二郎取得）",
+      "boundary": [
+        "D",
+        "K",
+        "G",
+        "F",
+        "E"
+      ],
+      "kind": "land",
+      "fill": "new",
+      "chimoku": "宅地"
+    }
+  ],
+  "reference_lines": []
+}

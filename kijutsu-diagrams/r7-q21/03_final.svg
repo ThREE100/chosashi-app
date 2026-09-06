@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="846" viewBox="0 0 1000 846" font-family="'Noto Sans JP','Hiragino Sans',sans-serif">
+<rect x="0" y="0" width="1000" height="846" fill="#FFFFFF"/>
+<text x="40.00" y="30.00" font-size="20" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#1E2530">丙土地：分筆登記（令和7年10月30日申請）</text>
+<text x="40.00" y="50.00" font-size="11.5" font-family="sans-serif" text-anchor="start" font-weight="normal" fill="#5B6470">地番区域: S市N町三丁目／S市T町一丁目</text>
+<text x="40.00" y="66.00" font-size="11.5" font-family="sans-serif" text-anchor="start" font-weight="normal" fill="#5B6470">地番: 10番1 → 10番1（残地）・10番3</text>
+<text x="40.00" y="82.00" font-size="11.5" font-family="sans-serif" text-anchor="start" font-weight="normal" fill="#5B6470">事件: 分筆登記</text>
+<text x="40.00" y="98.00" font-size="11.5" font-family="sans-serif" text-anchor="start" font-weight="normal" fill="#5B6470">求積方法: 座標法</text>
+<text x="40.00" y="114.00" font-size="11.5" font-family="sans-serif" text-anchor="start" font-weight="normal" fill="#5B6470">平面直角座標系: （問題文に明記なし）</text>
+<text x="40.00" y="130.00" font-size="11.5" font-family="sans-serif" text-anchor="start" font-weight="normal" fill="#5B6470">作成者: 民事秋子　作成年月日: (未設定)</text>
+<g transform="translate(0,166)">
+<polygon points="130.05,40.00 539.40,113.47 539.40,495.38 58.01,447.92" fill="#F1EEE3" fill-opacity="0.55" stroke="#2B5C86" stroke-width="1.8"/>
+<line x1="130.05" y1="40.00" x2="539.40" y2="113.47" stroke="#2B5C86" stroke-width="1.8"/>
+<text x="332.25" y="90.51" font-size="10.5" font-family="sans-serif" text-anchor="middle" font-weight="normal" fill="#C9711F" transform="rotate(10.17 332.25 90.51)">14.55m</text>
+<line x1="539.40" y1="113.47" x2="539.40" y2="495.38" stroke="#2B5C86" stroke-width="1.8"/>
+<text x="525.40" y="304.42" font-size="10.5" font-family="sans-serif" text-anchor="middle" font-weight="normal" fill="#C9711F" transform="rotate(90.00 525.40 304.42)">13.36m</text>
+<line x1="539.40" y1="495.38" x2="58.01" y2="447.92" stroke="#2B5C86" stroke-width="1.8"/>
+<text x="300.08" y="457.72" font-size="10.5" font-family="sans-serif" text-anchor="middle" font-weight="normal" fill="#C9711F" transform="rotate(5.63 300.08 457.72)">16.92m</text>
+<line x1="58.01" y1="447.92" x2="130.05" y2="40.00" stroke="#2B5C86" stroke-width="1.8"/>
+<text x="107.81" y="246.40" font-size="10.5" font-family="sans-serif" text-anchor="middle" font-weight="normal" fill="#C9711F" transform="rotate(-79.99 107.81 246.40)">14.49m</text>
+<circle cx="130.05" cy="40.00" r="3.00" fill="#1E2530" stroke="none"/>
+<text x="138.05" y="32.00" font-size="12" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#1E2530">□C</text>
+<circle cx="539.40" cy="113.47" r="3.00" fill="#1E2530" stroke="none"/>
+<text x="547.40" y="105.47" font-size="12" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#1E2530">□H</text>
+<circle cx="539.40" cy="495.38" r="3.00" fill="#1E2530" stroke="none"/>
+<text x="547.40" y="487.38" font-size="12" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#1E2530">●L</text>
+<circle cx="58.01" cy="447.92" r="3.00" fill="#1E2530" stroke="none"/>
+<text x="66.01" y="439.92" font-size="12" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#1E2530">□M</text>
+<text x="130.05" y="20.00" font-size="13" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#2B5C86">10番1（残地・二郎交換分）</text>
+<polygon points="58.01,447.92 539.40,495.38 539.40,600.00 40.00,550.55" fill="#E4ECF3" fill-opacity="0.55" stroke="#2B5C86" stroke-width="1.8"/>
+<line x1="58.01" y1="447.92" x2="539.40" y2="495.38" stroke="#2B5C86" stroke-width="1.8"/>
+<text x="297.33" y="485.58" font-size="10.5" font-family="sans-serif" text-anchor="middle" font-weight="normal" fill="#C9711F" transform="rotate(5.63 297.33 485.58)">16.92m</text>
+<line x1="539.40" y1="495.38" x2="539.40" y2="600.00" stroke="#2B5C86" stroke-width="1.8"/>
+<text x="525.40" y="547.69" font-size="10.5" font-family="sans-serif" text-anchor="middle" font-weight="normal" fill="#C9711F" transform="rotate(90.00 525.40 547.69)">3.66m</text>
+<line x1="539.40" y1="600.00" x2="40.00" y2="550.55" stroke="#2B5C86" stroke-width="1.8"/>
+<text x="291.08" y="561.34" font-size="10.5" font-family="sans-serif" text-anchor="middle" font-weight="normal" fill="#C9711F" transform="rotate(5.66 291.08 561.34)">17.56m</text>
+<line x1="40.00" y1="550.55" x2="58.01" y2="447.92" stroke="#2B5C86" stroke-width="1.8"/>
+<text x="62.79" y="501.65" font-size="10.5" font-family="sans-serif" text-anchor="middle" font-weight="normal" fill="#C9711F" transform="rotate(-80.05 62.79 501.65)">3.64m</text>
+<circle cx="58.01" cy="447.92" r="3.00" fill="#1E2530" stroke="none"/>
+<text x="66.01" y="439.92" font-size="12" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#1E2530">□M</text>
+<circle cx="539.40" cy="495.38" r="3.00" fill="#1E2530" stroke="none"/>
+<text x="547.40" y="487.38" font-size="12" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#1E2530">●L</text>
+<circle cx="539.40" cy="600.00" r="3.00" fill="#1E2530" stroke="none"/>
+<text x="547.40" y="592.00" font-size="12" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#1E2530">●K</text>
+<circle cx="40.00" cy="550.55" r="3.00" fill="#1E2530" stroke="none"/>
+<text x="48.00" y="542.55" font-size="12" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#1E2530">□D</text>
+<text x="58.01" y="427.92" font-size="13" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#2B5C86">10番3（新設・花子へ譲渡予定）</text>
+</g>
+<g stroke="#1E2530" stroke-width="1.6" fill="#1E2530">
+<line x1="590" y1="212" x2="590" y2="172"/>
+<polygon points="583,180 597,180 590,166"/>
+</g>
+<text x="590.00" y="226.00" font-size="14" font-family="sans-serif" text-anchor="middle" font-weight="bold" fill="#1E2530">N</text>
+<line x1="40.00" y1="786.00" x2="68.59" y2="786.00" stroke="#1E2530" stroke-width="2"/>
+<line x1="40.00" y1="781.00" x2="40.00" y2="791.00" stroke="#1E2530" stroke-width="2"/>
+<line x1="68.59" y1="781.00" x2="68.59" y2="791.00" stroke="#1E2530" stroke-width="2"/>
+<text x="54.29" y="776.00" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="normal" fill="#1E2530">1m</text>
+<text x="40.00" y="808.00" font-size="10" font-family="sans-serif" text-anchor="start" font-weight="normal" fill="#5B6470">表示縮尺（自動フィット・目安）／記載縮尺: 1:250</text>
+<text x="40.00" y="821.00" font-size="10.5" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#5B6470">境界標の種類:</text>
+<text x="150.00" y="821.00" font-size="10.5" font-family="sans-serif" text-anchor="start" font-weight="normal" fill="#5B6470">● 金属標</text>
+<text x="213.00" y="821.00" font-size="10.5" font-family="sans-serif" text-anchor="start" font-weight="normal" fill="#5B6470">□ コンクリート杭</text>
+<text x="660.00" y="30.00" font-size="15" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#1E2530">求積表（座標法・機械計算）</text>
+<text x="660.00" y="54.00" font-size="12.5" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#2B5C86">■ 10番1（残地・二郎交換分）</text>
+<text x="660.00" y="72.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#5B6470">符号     X(北)      Y(東)</text>
+<text x="660.00" y="86.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#1E2530">C        219.57     117.56</text>
+<text x="660.00" y="100.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#1E2530">H        217.00     131.88</text>
+<text x="660.00" y="114.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#1E2530">L        203.64     131.88</text>
+<text x="660.00" y="128.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#1E2530">M        205.30     115.04</text>
+<text x="660.00" y="146.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#1E2530">倍面積 2A = 435.81  →  面積 = 217.90㎡</text>
+<text x="660.00" y="162.00" font-size="11.5" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#C9711F">地積（規則100条により丸め）: 217.90㎡</text>
+<text x="660.00" y="177.00" font-size="9.5" font-family="sans-serif" text-anchor="start" font-weight="normal" fill="#5B6470">（0.01㎡未満切り捨て）</text>
+<text x="660.00" y="204.00" font-size="12.5" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#2B5C86">■ 10番3（新設・花子へ譲渡予定）</text>
+<text x="660.00" y="222.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#5B6470">符号     X(北)      Y(東)</text>
+<text x="660.00" y="236.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#1E2530">M        205.30     115.04</text>
+<text x="660.00" y="250.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#1E2530">L        203.64     131.88</text>
+<text x="660.00" y="264.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#1E2530">K        199.98     131.88</text>
+<text x="660.00" y="278.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#1E2530">D        201.71     114.41</text>
+<text x="660.00" y="296.00" font-size="10.5" font-family="monospace" text-anchor="start" font-weight="normal" fill="#1E2530">倍面積 2A = 125.44  →  面積 = 62.72㎡</text>
+<text x="660.00" y="312.00" font-size="11.5" font-family="sans-serif" text-anchor="start" font-weight="bold" fill="#C9711F">地積（規則100条により丸め）: 62.72㎡</text>
+<text x="660.00" y="327.00" font-size="9.5" font-family="sans-serif" text-anchor="start" font-weight="normal" fill="#5B6470">（0.01㎡未満切り捨て）</text>
+</svg>

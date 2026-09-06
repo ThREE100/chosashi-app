@@ -55,6 +55,9 @@ traverse_tool.py — 座標データから地積測量図・建物図面を「�
 - parcels[].kind は "land"（土地・座標法で求積）または "building"（建物・床面積は
   丸め規則が別のため参考値として面積のみ表示し、登記用丸めは行わない）。
 - parcels[].fill は "existing"（分筆前・現況）/ "new"（分筆後・新設）/ 任意の色名。
+- parcels[].chimoku は当該筆の地目（省略時は meta.chimoku、それも省略時は"宅地"）。
+  1つの図面に地目の異なる筆（畑・宅地等）が混在する場合に、規則100条の端数処理を
+  筆ごとに正しく適用するために使う。
 
 ## 法的根拠（このツールが機械的に担保する内容）
 
@@ -115,6 +118,7 @@ class Parcel:
     boundary: list[str]
     kind: str = "land"
     fill: str = "existing"
+    chimoku: Optional[str] = None  # 未指定時は meta.chimoku（既定"宅地"）を使う
 
 
 @dataclass
@@ -149,7 +153,7 @@ def load_spec(path: str) -> Spec:
         for name in pc["boundary"]:
             if name not in points:
                 raise ValueError(f"筆界点 {name!r} が points に定義されていません（parcel {pc['label']!r}）")
-        parcels.append(Parcel(pc["label"], pc["boundary"], pc.get("kind", "land"), pc.get("fill", "existing")))
+        parcels.append(Parcel(pc["label"], pc["boundary"], pc.get("kind", "land"), pc.get("fill", "existing"), pc.get("chimoku")))
     ref_lines = []
     for rl in raw.get("reference_lines", []):
         ref_lines.append(RefLine(rl["from"], rl["to"], rl.get("label", "")))
@@ -395,13 +399,13 @@ def render_spec(spec: Spec) -> str:
     draw_scale_bar(svg, PAD, plot_origin_y + PLOT_H - PAD + 20, scale, meta.get("scale_label", "1:250"))
 
     # --- 境界標の種類 凡例（規則77条1項9号） ---
-    legend_y = plot_origin_y + PLOT_H - PAD + 45
+    legend_y = plot_origin_y + PLOT_H - PAD + 55
     svg.text(PAD, legend_y, "境界標の種類:", size=10.5, weight="bold", fill="#5B6470")
-    lx = PAD + 90
+    lx = PAD + 110
     for mark in used_marks:
         symbol, name = MARK_SYMBOLS[mark]
         svg.text(lx, legend_y, f"{symbol} {name}", size=10.5, fill="#5B6470")
-        lx += 16 + 8 * len(name)
+        lx += 30 + 11 * len(name)
 
     # --- 求積表（右カラム） ---
     tx = PLOT_W + 20
@@ -423,7 +427,8 @@ def render_spec(spec: Spec) -> str:
         svg.text(tx, ty, f"倍面積 2A = {double_area:.2f}  →  面積 = {area:.2f}㎡", size=10.5, family="monospace")
         ty += 16
         if parcel.kind == "land":
-            rounded, rule = round_chiseki(area, meta.get("chimoku", "宅地"))
+            chimoku = parcel.chimoku or meta.get("chimoku", "宅地")
+            rounded, rule = round_chiseki(area, chimoku)
             svg.text(tx, ty, f"地積（規則100条により丸め）: {rounded:.2f}㎡", size=11.5, weight="bold", fill="#C9711F")
             ty += 15
             svg.text(tx, ty, f"（{rule}）", size=9.5, fill="#5B6470")

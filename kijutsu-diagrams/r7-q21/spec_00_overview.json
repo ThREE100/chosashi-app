@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "chiban_ward": "S市N町三丁目／S市T町一丁目",
+    "surveyor": "民事秋子",
+    "scale_label": "1:250",
+    "coord_system_no": "（問題文に明記なし）",
+    "title": "調査図素図（令和7年度 第21問・土地）",
+    "case": "現況（登記申請前）",
+    "chiban": "206番／10番"
+  },
+  "points": [
+    {
+      "name": "A",
+      "x": 184.31,
+      "y": 99.33,
+      "mark": "concrete"
+    },
+    {
+      "name": "B",
+      "x": 219.57,
+      "y": 99.33,
+      "mark": "concrete"
+    },
+    {
+      "name": "C",
+      "x": 219.57,
+      "y": 117.56,
+      "mark": "concrete"
+    },
+    {
+      "name": "D",
+      "x": 201.71,
+      "y": 114.41,
+      "mark": "concrete"
+    },
+    {
+      "name": "E",
+      "x": 184.31,
+      "y": 114.41,
+      "mark": "concrete"
+    },
+    {
+      "name": "F",
+      "x": 184.31,
+      "y": 130.08,
+      "mark": "concrete"
+    },
+    {
+      "name": "G",
+      "x": 193.5,
+      "y": 131.88,
+      "mark": "kinzoku"
+    },
+    {
+      "name": "H",
+      "x": 217.0,
+      "y": 131.88,
+      "mark": "concrete"
+    },
+    {
+      "name": "K",
+      "x": 199.98,
+      "y": 131.88,
+      "mark": "kinzoku"
+    },
+    {
+      "name": "I",
+      "x": 216.07,
+      "y": 99.33,
+      "mark": "none"
+    },
+    {
+      "name": "J",
+      "x": 216.07,
+      "y": 116.94,
+      "mark": "none"
+    },
+    {
+      "name": "M",
+      "x": 205.3,
+      "y": 115.04,
+      "mark": "concrete"
+    },
+    {
+      "name": "L",
+      "x": 203.64,
+      "y": 131.88,
+      "mark": "kinzoku"
+    },
+    {
+      "name": "T1",
+      "x": 185.31,
+      "y": 135.37,
+      "mark": "takakuten"
+    },
+    {
+      "name": "T2",
+      "x": 188.6,
+      "y": 92.18,
+      "mark": "takakuten"
+    }
+  ],
+  "parcels": [
+    {
+      "label": "206番（甲土地・畑）",
+      "boundary": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "kind": "land",
+      "fill": "existing",
+      "chimoku": "畑"
+    },
+    {
+      "label": "10番（乙土地・宅地・全体）",
+      "boundary": [
+        "D",
+        "C",
+        "H",
+        "G",
+        "F",
+        "E"
+      ],
+      "kind": "land",
+      "fill": "new",
+      "chimoku": "宅地"
+    }
+  ],
+  "reference_lines": [
+    {
+      "from": "T2",
+      "to": "T1",
+      "label": "基準点間"
+    },
+    {
+      "from": "T2",
+      "to": "D",
+      "label": "観測"
+    }
+  ]
+}

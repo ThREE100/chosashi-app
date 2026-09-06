@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "chiban_ward": "S市N町三丁目／S市T町一丁目",
+    "surveyor": "民事秋子",
+    "scale_label": "1:250",
+    "coord_system_no": "（問題文に明記なし）",
+    "title": "甲土地・丙土地の交換（等積分割の応用）",
+    "case": "交換合意に基づく分合筆（登記自体は206番・10番1それぞれ別途）",
+    "chiban": "206番 ⇔ 10番1"
+  },
+  "points": [
+    {
+      "name": "A",
+      "x": 184.31,
+      "y": 99.33,
+      "mark": "concrete"
+    },
+    {
+      "name": "B",
+      "x": 219.57,
+      "y": 99.33,
+      "mark": "concrete"
+    },
+    {
+      "name": "C",
+      "x": 219.57,
+      "y": 117.56,
+      "mark": "concrete"
+    },
+    {
+      "name": "D",
+      "x": 201.71,
+      "y": 114.41,
+      "mark": "concrete"
+    },
+    {
+      "name": "E",
+      "x": 184.31,
+      "y": 114.41,
+      "mark": "concrete"
+    },
+    {
+      "name": "H",
+      "x": 217.0,
+      "y": 131.88,
+      "mark": "concrete"
+    },
+    {
+      "name": "K",
+      "x": 199.98,
+      "y": 131.88,
+      "mark": "kinzoku"
+    },
+    {
+      "name": "I",
+      "x": 216.07,
+      "y": 99.33,
+      "mark": "none"
+    },
+    {
+      "name": "J",
+      "x": 216.07,
+      "y": 116.94,
+      "mark": "none"
+    },
+    {
+      "name": "M",
+      "x": 205.3,
+      "y": 115.04,
+      "mark": "concrete"
+    },
+    {
+      "name": "L",
+      "x": 203.64,
+      "y": 131.88,
+      "mark": "kinzoku"
+    }
+  ],
+  "parcels": [
+    {
+      "label": "206番（甲土地・畑）",
+      "boundary": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "kind": "land",
+      "fill": "#EEEEEE",
+      "chimoku": "畑"
+    },
+    {
+      "label": "10番1（丙土地・分割直後）",
+      "boundary": [
+        "D",
+        "C",
+        "H",
+        "K"
+      ],
+      "kind": "land",
+      "fill": "#EAF3EA",
+      "chimoku": "宅地"
+    },
+    {
+      "label": "甲→丙 交換分（B-C-J-I）",
+      "boundary": [
+        "B",
+        "C",
+        "J",
+        "I"
+      ],
+      "kind": "land",
+      "fill": "new",
+      "chimoku": "宅地"
+    },
+    {
+      "label": "丙→甲 交換分（M-L-K-D）",
+      "boundary": [
+        "M",
+        "L",
+        "K",
+        "D"
+      ],
+      "kind": "land",
+      "fill": "existing",
+      "chimoku": "宅地"
+    }
+  ],
+  "reference_lines": []
+}
