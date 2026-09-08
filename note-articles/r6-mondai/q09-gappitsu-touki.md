@@ -133,13 +133,21 @@ Subtitle (smaller, centered, 1行):
 --- COLUMN A, CARD 1 ---
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
-持分不一致は合筆不可
-Illustration: Two isometric land plots side by side. Left plot labeled
-"甲土地" with a rounded label tag reading "A:5分の3 B:5分の2". Right plot
-labeled "乙土地" with a rounded label tag reading "A:5分の2 B:5分の3". A
-red X mark placed between the two plots to show they cannot be joined.
+名義人は同じでも比率が逆転
+Illustration: Two isometric land plots side by side, each topped with a
+flat circular donut-chart overlay showing the ownership split, using the
+SAME two colors on both plots (blue = Ａ, orange = Ｂ) so the reversal is
+immediately visible by comparing the colored areas. Left plot labeled
+"甲土地": donut chart divided into a large blue segment (labeled "Ａ:5分の
+3") and a smaller orange segment (labeled "Ｂ:5分の2"). Right plot labeled
+"乙土地": donut chart with the SAME two colors but the areas flipped — a
+smaller blue segment (labeled "Ａ:5分の2") and a larger orange segment
+(labeled "Ｂ:5分の3"). A small torn-paper callout above the two plots
+reading "名義人は同じＡ・Ｂ、でも比率が逆" to flag the trap. A red X mark
+placed between the two plots to show they cannot be joined despite
+sharing the same two registered names.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-持分一致が必須
+比率も一致が必須
 
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
