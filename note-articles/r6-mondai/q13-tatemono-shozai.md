@@ -69,6 +69,7 @@
 - 各肢の根拠のうち、ア（不動産登記規則92条）、ウ（昭43.2.14民甲170号）、エ・オ（不動産登記事務取扱準則88条4項、不動産登記法44条1項1号）は、データベースのexplanationフィールドで条文・先例番号まで明記されています。イ（規約敷地の地番が所在欄に記録されないこと）については、データベース上で明確な条文番号までは示されておらず、一棟の建物の表示に関する規則の一般的な取扱いからの推論にとどまる点は留意してください。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみで、テキスト解説は含まれていなかったため、今回はアガルート教材を参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題について、本問のテーマ（建物の所在）に関する記述がないか確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **2026-09-08追記（総論インフォグラフィックの修正）**：問題全体インフォグラフィックの肢ウ（カード3）で、建物が現に立っている仮換地の区画にそのまま「地番」を表示する構成になっており、実際には所在に用いる地番は別の場所にある従前地のものであって、仮換地の予定地番はあくまで括弧書きの併記にすぎないという、本肢の核心である「所在の記載のねじれ」を正しく表現できていませんでした。従前地・仮換地の2区画を分けて描き、house（建物）は仮換地に立つが地番は従前地から借りてくる、という構造が伝わるよう描き直しました。あわせて、このテーマを深掘りした個別記事（`note-articles/column/karikanchi-tatemono-shozai-nejire.md`）もご参照ください。
 
 ---
 
@@ -158,13 +159,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 3 ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-仮換地上の建物は現地地番
-Illustration: An isometric land-readjustment site divided into grid
-parcels, with a newly built house standing on one parcel labeled with
-its 地番(the plot the building currently stands on), and a small
-parenthetical label beside it reading「(換地予定地番を併記)」。
+仮換地上の建物は従前地番
+Illustration: Two isometric land plots side by side, connected by a
+dashed arrow labeled「仮換地の指定」。Left plot labeled「従前地(甲土地)」
+with a small registry-book icon on it showing a solid unbroken line
+(地番はここに残る) — this plot itself has no house on it. Right plot
+labeled「仮換地(乙区画)」with a newly built house standing on it, but
+with NO 地番 label of its own; instead, a curved arrow runs from the
+house back to the 従前地 plot's registry-book icon, and a small
+parenthetical torn-paper tag next to the house reads「(仮換地の予定地番
+も併記)」。
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-現に存する地番
+建つ場所と地番はズレる
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
