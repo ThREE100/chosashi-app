@@ -71,6 +71,7 @@
 - 各肢の条文根拠のうち、イ（不動産登記法56条5号）、ウ（不動産登記法58条4項・56条1号）、オ（不動産登記法40条・54条3項）は、データベースのexplanationフィールドで条文番号まで明記されています。ア・エについては、当初explanationフィールドに条文番号の明記がなく実務上の取扱いとして記載していましたが、ローカル法令データベースで条文原文を確認したところ、いずれも明確な根拠条文が存在することが判明したため補いました。アは、印鑑証明書の要否を分けるのは「本人申請か代理人申請か」ではなく「申請人が所有権の登記名義人（所有権に関する仮登記の登記名義人を含む）として合筆・合体・建物合併の登記を申請するか」である点を、不動産登記規則47条3号イ(6)・48条5号の条文原文で確認し、本文をその基準に沿って訂正しました。エは、不動産登記規則35条1項7号（「不動産の表題部の登記事項に関する変更の登記…及び…建物の分割の登記…であるとき」に一の申請情報による申請を認める規定）が直接の根拠です。
 - ローカルのアガルート教材フォルダも確認しましたが、択一式の過去問解説講座については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキストによる解説は含まれていなかったため、今回はそちらを参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題について、本問のテーマ（建物の分割又は合併の登記）に関する記述がないか確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **2026-09-08追記（エ肢・間違いノート型インフォグラフィックの追加）**：肢エについて、「登記の目的が異なる登記は一の申請情報でまとめられないのが原則」という一般原則だけで判断を止め、不動産登記規則35条1項7号が定める例外（分棟による表題部変更登記と分割登記の組み合わせは一括申請できる）を見落として本肢を正しいと誤読しやすい点を解消するための、個別インフォグラフィック（間違いノート型・対比型）を追加しました。本文・正誤判定・確認事項ブロックの他の記述は変更していません。
 
 ---
 
@@ -209,4 +210,110 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+エ（区分建物でない一棟の建物の中間部分を取り壊して相互に接続しない2棟とした場合、分棟による表題部変更登記と分割登記は一の申請情報により申請することができる＝本肢は誤り）について、「登記の目的が異なる登記は一の申請情報でまとめられないのが原則」という一般原則だけで判断を止めてしまい、不動産登記規則35条1項7号が定める例外を見落とすというひっかけを解消するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、条文の引用・説明文を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(建物の分割又は合併の登記 押さえるべき5つのルール), but built as a single
+detailed explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who assumed that a 表題部変更登記
+and a 分割登記, being registrations with different purposes, could never
+be filed together in a single application. Unlike a quick-reference
+poster, this image MAY include side-by-side comparisons with quoted
+article text, and short explanatory sentences (1-3 sentences per callout
+box) labeled 誤りやすいポイント. Prioritize clarity and completeness of
+the reasoning over brevity. Do not compress the callout text or the
+quoted article text into short tags — write them out exactly as given
+below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+分・棟・題・変・更・割・申・請・情・報・規・則 — always draw the standard
+Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+目的が違う登記でも、
+まとめられるんです
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第16問 エ
+規則35条1項7号が認める特別な組み合わせ
+
+--- LEFT PANEL (red background, 直感的な誤解) ---
+Panel heading (bold):
+原則だけで判断すると（誤った思考）
+
+Illustration (isometric scene inside the panel):
+An isometric long rowhouse-style building（長屋）split into two separate
+buildings after its middle section was demolished. From the left building,
+an arrow points to a document icon labeled「表題部変更登記」。From the
+right building, a separate arrow points to a different document icon
+labeled「分割登記」。Between the two document icons, a large red ✕ mark
+and two separate application-form icons, symbolizing the (incorrect)
+assumption that registrations with different purposes must always be
+filed separately.
+
+Panel conclusion (bold, red banner):
+目的が違うから、別々の申請のはず
+
+--- RIGHT PANEL (green background, 条文が定める本当の条件) ---
+Panel heading (bold):
+条文が認める特別な例外（正しい思考）
+
+Illustration (isometric scene inside the panel):
+The same two resulting buildings（分棟後の2棟）, this time both document
+icons（「表題部変更登記」「分割登記」）merging via a single green
+checkmark arrow into one shared application document icon labeled「一の
+申請情報」。A small label reads「分棟によって生じた組み合わせに限る」。
+
+Quoted article text (rendered exactly, in a bordered box):
+「同一の不動産について申請する二以上の登記が、不動産の表題部の登記事項
+に関する変更の登記又は更正の登記及び土地の分筆の登記若しくは合筆の登記
+又は建物の分割の登記、建物の区分の登記若しくは建物の合併の登記であると
+き。」
+（不動産登記規則35条1項7号）
+
+Panel conclusion (bold, green banner):
+規則35条1項7号が一括申請を認める
+
+--- CALLOUT BOX: 誤りやすいポイント (below both panels, pastel yellow
+background, full width) ---
+「登記の目的が異なる登記は、一の申請情報でまとめて申請することができな
+い」という原則だけを覚えていると、表題部変更登記と分割登記は目的が違う
+から本肢は正しい（一括申請できない）と早合点してしまいがちです。しかし、
+不動産登記規則35条1項7号は、同一の不動産について申請する不動産の表題
+部の登記事項に関する変更の登記又は更正の登記と、土地の分筆若しくは合筆
+の登記又は建物の分割、区分若しくは合併の登記との組み合わせを、一の申請
+情報で申請できる場合として明示的に定めています。本肢の分棟による表題部
+変更登記と分割登記の組み合わせはまさにこれに該当するため、一の申請情報
+で申請することができ、本肢（できないとする記述）は誤りです。
+
+--- FOOTER ---
+根拠：不動産登記規則35条1項7号
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+分・棟・題・変・更・割・申・請・情・報・規・則. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm there are exactly two side-by-side panels (red 直
+感的な誤解 on the left, green 条文が定める本当の条件 on the right),
+confirm the quoted text box matches the Japanese text given above verbatim
+character-for-character, and confirm the callout box text matches
+verbatim with no paraphrasing and no substituted characters.
 ```
