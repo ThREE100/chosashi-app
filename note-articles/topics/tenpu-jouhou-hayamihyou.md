@@ -710,6 +710,246 @@ contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
 
+### 画像7：印鑑証明書、なぜ書面によって「3か月ルール」が違うのか（②の解説用）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1700 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: seal/hanko icon, calendar icon,
+document with a seal, handshake icon, isometric building icon — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+印鑑証明書、なぜ書面によって
+「3か月ルール」が違うのか
+
+Subtitle (smaller, centered, 1行):
+「今の本人・資格を確認する書類か」で分かれる
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: red) ---
+3か月以内の新しさが必要（今の状態を確認する書類）
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in red containing the number 1 (numbers run
+continuously across all columns — do not restart at 1 in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+申請書：今まさに本人の意思を確認
+Illustration: 申請書のアイコンに朱肉付きの印鑑（はんこ）が押される様子、
+横にカレンダーアイコンと「3か月」のラベル。
+Conclusion tag (red banner, 5-15 Japanese characters):
+令16条3項
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in red containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+委任状：今まさに代理権の授与を確認
+Illustration: 委任状のアイコンから代理人のアイコンへ矢印、カレンダー
+アイコンと「3か月」のラベル。
+Conclusion tag (red banner, 5-15 Japanese characters):
+令18条3項
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled circle in red containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+資格証明情報：今の法人の状態を確認
+Illustration: 会社の建物のアイソメアイコンと登記事項証明書のアイコン、
+カレンダーアイコンと「3か月」のラベル。
+Conclusion tag (red banner, 5-15 Japanese characters):
+令17条1項
+
+--- COLUMN B HEADER (pill-shaped badge, color: green) ---
+期間制限なし（特定の登記のための意思表示）
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled circle in green containing the number 4 (continuing the
+numbering from column A).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+承諾書：特定の登記のためだけの書類
+Illustration: 承諾書のアイコンと握手のアイコン、無限マーク（∞）の
+ラベル。令16条3項・18条3項に相当する条文がないことを示す、点線で
+描かれた空欄のカレンダーアイコン。
+Conclusion tag (green banner, 5-15 Japanese characters):
+令19条に定めなし
+
+--- FOOTER (たとえば カード) ---
+Heading (bold, ONE line):
+たとえば、こんな書面には制限なし
+Illustration: 2つの小さな書類アイコンを横に並べる。1つ目は「工事完了
+引渡証明書」のラベル付き書類アイコン（施工会社の代表者印）。2つ目は
+「抵当権抹消の承諾書」のラベル付き書類アイコン（抵当権者の印）。両方の
+アイコンに緑のチェックマークと「3か月ルールなし」の小さなラベル。
+
+注意：特に「印」「鑑」「証」「明」「請」「委」「任」「諾」の各漢字は、
+簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of main cards equals 4 exactly
+(3 in column A, 1 in column B), with no duplicated or missing cards, that
+badge numbers run 1-4 continuously across both columns without resetting,
+confirm the separate「たとえば」footer card is visually distinct from the
+numbered cards (no badge number on it), confirm there is no intro
+illustration or paragraph block between the header and the cards, and
+confirm that no card contains a full sentence of explanatory prose — every
+card's takeaway must read as a short heading + a short conclusion tag, at
+a glance.
+```
+
+### 画像8：②印鑑証明書、試験対策 暗記カード（まとめ）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1900 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: seal/hanko icon, calendar icon,
+document icon, apartment building icon, company building icon, government
+building icon — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+印鑑証明書、暗記カード7枚
+
+Subtitle (smaller, centered, 1行):
+3か月ルールの有無＋添付自体が不要になる場合
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- COLUMN A HEADER (pill-shaped badge, color: blue) ---
+3か月ルールの有無
+
+--- COLUMN A, CARD 1 ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously across all columns — do not restart in column B).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+申請書の印鑑証明書
+Illustration: 申請書のアイコンに印鑑、カレンダーアイコンと「3か月」の
+ラベル（薄い赤の背景）。
+Conclusion tag (blue banner, 5-15 Japanese characters):
+ある（令16条3項）
+
+--- COLUMN A, CARD 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+委任状の印鑑証明書
+Illustration: 委任状のアイコンに印鑑、カレンダーアイコンと「3か月」の
+ラベル（薄い赤の背景）。
+Conclusion tag (blue banner, 5-15 Japanese characters):
+ある（令18条3項）
+
+--- COLUMN A, CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+承諾書等の印鑑証明書
+Illustration: 承諾書のアイコンに印鑑、無限マーク（∞）のラベル
+（薄い緑の背景）。
+Conclusion tag (blue banner, 5-15 Japanese characters):
+ない（令19条）
+
+--- COLUMN A, CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+法人代表者の資格証明情報
+Illustration: 登記事項証明書のアイコンと会社の建物、カレンダーアイコンと
+「3か月」のラベル（薄い赤の背景）。
+Conclusion tag (blue banner, 5-15 Japanese characters):
+ある（令17条1項）
+
+--- COLUMN B HEADER (pill-shaped badge, color: green) ---
+印鑑証明書の添付自体が不要になる場合
+
+--- COLUMN B, CARD 5 ---
+Badge: a filled circle in green containing the number 5 (continuing the
+numbering from column A).
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+表題部所有者が申請するとき
+Illustration: まだ所有権登記のない土地・建物のアイソメアイコンと
+表題部所有者の人物アイコン、印鑑証明書のアイコンに赤い✕マーク
+（提供不要を示す）。
+Conclusion tag (green banner, 5-15 Japanese characters):
+規則47条3号・48条5号
+
+--- COLUMN B, CARD 6 ---
+Badge: a filled circle in green containing the number 6.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+会社法人等番号を提供するとき
+Illustration: 会社の建物のアイソメアイコンと番号札、印鑑証明書の
+アイコンに赤い✕マーク（提供不要を示す）。委任状・承諾書にも準用される
+ことを示す小さな2枚の書類アイコンを添える。
+Conclusion tag (green banner, 5-15 Japanese characters):
+規則48条1号
+
+--- COLUMN B, CARD 7 ---
+Badge: a filled circle in green containing the number 7.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+官公署が嘱託するとき
+Illustration: 官公署の建物のアイソメアイコンと嘱託書のアイコン、印鑑
+証明書の添付規定そのものに赤い✕マーク（規定自体が適用されないことを
+示す）。
+Conclusion tag (green banner, 5-15 Japanese characters):
+令16条4項・18条4項
+
+--- FOOTER ---
+
+注意：特に「印」「鑑」「証」「明」「請」「託」の各漢字は、簡体字ではなく
+標準的な日本語の常用漢字の字形で描画すること。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 7 exactly (4 in
+column A, 3 in column B), with no duplicated or missing cards, that badge
+numbers run 1-7 continuously across both columns without resetting,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence of
+explanatory prose — every card's takeaway must read as a short heading + a
+short conclusion tag, at a glance.
+```
+
 ---
 
 ## 参照した過去問
