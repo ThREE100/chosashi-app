@@ -17,7 +17,7 @@
 | ③分野別・個別テーマ記事のインフォグラフィック | **このドキュメントの「③ 分野別・個別テーマ記事」章**（2026-08-06〜プロンプト化） | 記事1本につき**複数枚**のプロンプト（俯瞰ポスター・対比表・早見表・フローチャート等、必要な枚数だけ） | ②と同じ画風を基本とし、画像の種類に応じて表・フロー等のレイアウトも許容 | 画像ごとに内容量に応じて決定 |
 | ④間違いノート型（特定の肢の深掘り解説） | **このドキュメントの「④ 間違いノート型」章**（2026-08-24〜） | 読者が正誤を自力で導けなかった**特定の肢1つ**について、つまずきやすい思考の癖を可視化する解説図解 | ②③と同じ画風を基本としつつ、**文字量・説明文の制限を撤廃**（フローチャート・比較図・長めの注釈可） | 画像ごとに内容量に応じて決定 |
 
-このドキュメントは②・③・④を対象とする。①の依頼が来た場合のみ、これまで通り個別にプロンプトを作る（このドキュメントの対象外）。
+このドキュメントは②・③・④を対象とする。①の依頼が来た場合のみ、これまで通り個別にプロンプトを作る（このドキュメントの対象外）。ただし、下記「背景の不透明化（必須・厳守）」は①を含む4種類すべてに例外なく適用する（①は固定雛形を使わないため、プロンプト作成時に手動で文言を追記すること）。
 
 **2026-08-06付の変更**：従来、`bunya-kaisetsu/format-template.md` の「インフォグラフィック設計メモ」は文章のみで構成案を指定し、プロンプト化はしない運用だった。この運用を改め、③（`bunya-kaisetsu/` の分野別・総合記事、および `topics/` の個別テーマ記事）についても、②と同じ基本ルール（縦長ポートレート・フラットデザイン・アイソメトリック・カード構成・簡体字対策・verbatim厳守）を引き継いだうえで、実際に画像生成に使える**プロンプト文**として記事に記録する運用に統一する。具体的なルールは本ドキュメント末尾の「③ 分野別・個別テーマ記事のインフォグラフィック プロンプト作成ルール」を参照。
 
@@ -78,6 +78,16 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, {N}行):
 {TITLE}
@@ -124,10 +134,11 @@ standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals {CARD_COUNT}
 exactly, with no duplicated or missing cards, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
-every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+illustration or paragraph block between the header and the cards, confirm
+that no card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance — and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 **イントロブロック禁止（重要・厳守）**：かつてこの雛形には「--- INTRO BLOCK (left: illustration; right: paragraph text) ---」として、タイトル直下に導入イラストと数行の解説文を置くセクションが存在したが、廃止した。タイトル・サブタイトルのすぐ下は必ずカード群（`--- CARD 1 ---` またはコラムがある場合は `--- COLUMN A HEADER ---`）から始めること。導入イラスト・導入文のブロック、及びそれに類する説明段落（分野紹介・全体像の要約文など）は、HEADERとカード群の間は言うまでもなく、CRITICAL TEXT REQUIREMENTの直後からHEADERまでの間にも置かない。カードの通し番号列挙リストや簡体字注意文などの補足情報は、HEADERより前ではなく、FOOTER直前（Final checkの前）に短い1文としてまとめる。
@@ -141,6 +152,15 @@ tag, at a glance.
 3. 列挙型の要素（種類の一覧など、項目数が決まっているもの）がある場合は、番号付きリストで全項目を一字一句明記し、「重複禁止・欠落禁止・言い換え禁止」を明記したうえで、生成後に個数と内容を自己検証させる一文を末尾に追加する。この列挙リストも、HEADERより前ではなくFOOTER直前に置く（上記「イントロブロック禁止」参照）。
 4. 特に誤りやすい漢字（号・録・権・地・番・建・物・登・記・所など、簡体字との字形差が大きい字）がプロンプトに含まれる場合は、名指しで「簡体字にしない」よう注意喚起する一文を添える。この注意文自体に本物の簡体字（权・记など）を書かないよう特に注意する。
 5. 生成後にユーザーが目視確認する前提だが、事前にこちらでも文字列の突き合わせ（記事本文とプロンプト中の文字列が一致しているか）を行ってから提示する。
+
+## 背景の不透明化（必須・厳守）
+
+画像生成ツール（ChatGPTのGPT Image等）は、背景を一部透過（アルファチャンネルあり）の状態で出力することがある。透過部分はnoteの記事本文やダークモード表示など、背景色が異なる環境に貼り付けた際に意図しない見え方になるため、**このドキュメントが対象とする②・③・④のすべての画像、および①（肢ごとの見出し画像、都度チャットで個別作成）についても例外なく**、以下を必ず守る。
+
+1. プロンプトの中盤（CRITICAL TEXT REQUIREMENTの直後）と末尾（Final check）の二重で「背景は完全に不透明・透過禁止」を明記する（雛形の BACKGROUND REQUIREMENT と Final check の両方を必ず含める。②・③・④の各雛形にあらかじめ組み込み済み）。
+2. 「transparent」「alpha channel」「透過」といった語を、禁止する対象として明示的にプロンプトへ書き込む（生成モデルに対して、格子模様（チェッカーボード）やアルファ抜きのキャンバスが許容されると誤解させないため）。
+3. ①（個別の肢の見出し画像）のように固定雛形を使わず都度プロンプトを作成する場合も、このBACKGROUND REQUIREMENTの文言を必ず手動で追記する。
+4. 生成後にユーザーが目視確認する前提だが、透過PNGとして出力されていないか（画像を異なる背景色の上に置いて確認する等）を生成物側でも確認するよう依頼文に添える。
 
 ## サイズ・アスペクト比
 
@@ -174,7 +194,7 @@ tag, at a glance.
 
 1. 対象記事（`note-articles/{年度}-mondai/q{n}-*.md`）を読み込む。
 2. 上記「手順」1〜4に従い、カード内容を組み立てる。
-3. 「プロンプト雛形」に流し込み、「文字化け・簡体字対策」を必ず適用する（イントロブロックは置かない）。
+3. 「プロンプト雛形」に流し込み、「文字化け・簡体字対策」「背景の不透明化」を必ず適用する（イントロブロックは置かない）。
 4. 画像は生成せず、完成したプロンプト文だけをチャットに提示する。
 5. ユーザーから求められない限り、記事ファイル自体（`.md`）は変更しない（このプロンプトはあくまで別途手動生成する画像の設計図であり、記事本文の一部ではない）。
 
@@ -204,7 +224,7 @@ tag, at a glance.
 2. 記事の構成（大見出し・markdown表・早見表・対比構造）を洗い出し、画像に分解する単位を決める。目安：大見出し1つにつき1枚、markdown表1つにつき1枚。記事全体を俯瞰する扉絵的な1枚（俯瞰カードポスター型）を先頭に追加してもよい。
 3. 各単位について、上記4つの「型」から最適なものを選ぶ。
 4. 型に応じて②の雛形を流用・改変してプロンプト文を完成させる（下記「型別の雛形差分」を参照）。
-5. 「文字化け・簡体字対策」（②の章を参照）を必ず適用する。特に条文の号数・専門用語（地目23種類の名称、建物の種類の名称など列挙型の要素）を含む画像は、②のルール3（番号付きリストで一字一句明記し、重複禁止・欠落禁止・言い換え禁止を明記）を厳守する。
+5. 「文字化け・簡体字対策」「背景の不透明化」（いずれも②の章を参照）を必ず適用する。特に条文の号数・専門用語（地目23種類の名称、建物の種類の名称など列挙型の要素）を含む画像は、②のルール3（番号付きリストで一字一句明記し、重複禁止・欠落禁止・言い換え禁止を明記）を厳守する。
 6. 記事本体の末尾（「見出し画像用フレーズ」ブロックの後、「対象とした過去問記事」リンク一覧の前）に、`## インフォグラフィック プロンプト` という見出しを立てる。画像ごとに `### 画像{n}：{内容が一目でわかる短い説明}` の小見出しを付け、コードブロック（\`\`\`）でプロンプト文を記録する。
 7. 画像は生成しない。記事ファイルにプロンプト文を追記して保存するところまでが成果物（③は②と異なり、記事ファイルへの追記が成果物そのものである点に注意）。
 
@@ -222,7 +242,7 @@ tag, at a glance.
 1. 対象記事を読み込む。
 2. 上記「手順」1〜4に従い、画像単位・型を決める。
 3. 型ごとの雛形にあてはめてプロンプト文を完成させる。
-4. 「文字化け・簡体字対策」を必ず適用する。
+4. 「文字化け・簡体字対策」「背景の不透明化」を必ず適用する。
 5. 記事ファイル末尾に `## インフォグラフィック プロンプト` セクションとして追記し、保存する。
 
 ---
@@ -245,6 +265,7 @@ tag, at a glance.
 ただし、④であっても以下は②③と共通して厳守する。
 
 - 文字化け・簡体字対策（CRITICAL TEXT REQUIREMENT・Final checkの二重明記）
+- 背景の不透明化（BACKGROUND REQUIREMENT・Final checkの二重明記。透過・アルファチャンネル禁止）
 - verbatim厳守（指定した文字列をそのまま描画し、言い換えない）
 - 元記事の本文・まとめの内容と矛盾する独自解釈を書かない
 - 判例・先例・専門誌の具体的な番号は本文と同様に書かない（内容の言及は可）
@@ -261,7 +282,7 @@ tag, at a glance.
 1. 対象記事（`note-articles/{年度}-mondai/q{n}-*.md`）の該当する肢の解説を読む。
 2. 読者がどこで判断を誤りやすいか（見落としがちな条件、直感的な誤読、類似制度との混同）を特定する。
 3. 上記の型から最適なものを選び、分岐条件・比較項目を具体的に書き出す。
-4. 下記の雛形に流し込み、文字化け・簡体字対策を適用する。
+4. 下記の雛形に流し込み、文字化け・簡体字対策・背景の不透明化を適用する。
 5. 記事ファイル末尾に `## インフォグラフィック プロンプト（{肢}肢・間違いノート）` として追記し、保存する。
 
 ### プロンプト雛形（間違いノート型）
@@ -290,6 +311,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji {列挙する漢字} — always
 draw the standard Japanese (Jōyō) form.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart/comparison — with a solid or
+illustrated opaque background. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere in the
+final image.
+
 --- HEADER ---
 Title (large, bold):
 {タイトル：肢の結論を一言で}
@@ -309,5 +339,7 @@ Subtitle (smaller, centered):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
 heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+above verbatim, with no paraphrasing and no substituted characters, and
+confirm the entire canvas, edge to edge, is filled with a fully opaque
+background with no transparency or alpha channel anywhere.
 ```

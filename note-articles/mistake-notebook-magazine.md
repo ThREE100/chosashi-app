@@ -51,6 +51,13 @@ stroke-for-stroke, not as Simplified Chinese variants. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 or substitute any characters.
 
+BACKGROUND REQUIREMENT (critical): The entire 1280×670 canvas must be
+fully opaque from edge to edge, including the decorative top ~150px and
+bottom ~150px outside the safe zone. Do NOT generate a transparent or
+alpha-channel background under any circumstances, even if the output file
+format supports transparency. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere.
+
 --- COMPOSITION ---
 Background (spans the full 1280×670 canvas): a soft isometric desk scene
 in beige/white/gray tones — a stack of past-exam notebooks, a red
@@ -86,7 +93,9 @@ left-to-right. Confirm no other text appears anywhere on the canvas.
 Confirm the accent color used for the badge, border, and background
 loop-arrow is {COLOR}, and that the area above y=227px and below
 y=443px contains only soft, low-detail background illustration with no
-essential content.
+essential content. Confirm the entire 1280×670 canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
 
 ### 使用例（2周目）
