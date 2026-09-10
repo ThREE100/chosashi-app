@@ -4,46 +4,61 @@
 
 **関連記事：**[「表題登記のない建物」はなぜ存在するのか](hyoudai-touki-gimu-to-genjitsu.md)（義務があっても現実には登記されないケースがある、という切り口の姉妹編です）
 
-土地家屋調査士試験の午後の部では、「この登記は申請義務があるか」「義務があるとして、いつから1か月を数えるか(起算点)」というテーマがほぼ毎年のように出題されます。表示に関する登記は、権利に関する登記と違って多くの場面で申請義務が課されており、しかも違反すると10万円以下の過料の対象にもなり得ます(不動産登記法164条1項)。本稿では、この「1か月以内」ルールを一覧化し、義務がある登記・ない登記・起算点が特殊なケースを整理します。
+土地家屋調査士試験の午後の部では、「この登記は申請義務があるか」「義務があるとして、いつから1か月を数えるか(起算点)」というテーマがほぼ毎年のように出題されます。表示に関する登記は、権利に関する登記と違って多くの場面で申請義務が課されており、しかも正当な理由なく違反すると10万円以下の過料の対象にもなり得ます(不動産登記法164条1項)。本稿では、この「1か月以内」ルールを一覧化し、義務がある登記・ない登記・起算点が特殊なケースを整理します。
 
 ### そもそも、なぜ表示に関する登記だけ「義務」があるのか
 
 権利に関する登記(所有権移転登記など)は、原則として当事者の任意です(相続登記など一部の例外を除く)。これに対して表示に関する登記は、その不動産が「どこに」「どのくらいの広さ・種類・構造で」存在するかという、公示の土台となる事実を扱います。この土台が現実と食い違ったままでは、地図や台帳全体の信頼性が損なわれてしまうため、不動産登記法は表示に関する登記の多くに申請義務を課し、義務違反には過料という制裁まで用意しています。
 
-不動産登記法164条1項は、過料の対象となる申請義務の規定を条文番号で列挙しています。表示に関する登記に関する部分を抜き出すと、**36条、37条1項・2項、42条、47条1項、49条1項・3項・4項、51条1項から4項まで、57条、58条6項・7項**です(このほか、権利に関する登記である相続登記の申請義務(76条の2・76条の3)も164条1項に含まれますが、本稿の対象外です)。この列挙こそが、「表示に関する登記のうち、1か月以内の申請義務があるものの正式なリスト」にほかなりません。
+不動産登記法164条1項は、過料の対象となる申請義務の規定を条文番号で列挙しています。表示に関する登記に関する部分を抜き出すと、**36条、37条1項・2項、42条、47条1項、49条1項・3項・4項、51条1項から4項まで、57条、58条6項・7項**です(このほか、権利に関する登記である相続登記の申請義務(76条の2・76条の3)も164条1項に含まれますが、本稿の対象外です)。この列挙こそが、「表示に関する登記のうち、1か月以内の申請義務があるものの正式なリスト」にほかなりません。なお、164条1項は「**正当な理由がないのに**その申請を怠ったとき」に限り過料に処すると定めており、単に期限を過ぎただけで機械的に過料が科されるわけではない点にも注意が必要です。
 
 ### 早見表①：申請義務が「ある」登記と起算点
 
-| 登記 | 起算点 | 義務者 | 根拠条文 |
-|---|---|---|---|
-| 土地の表題登記 | 所有権を取得した日 | 新たに生じた土地・表題登記がない土地の所有権を取得した者 | 不登法36条 |
-| 地目又は地積の変更登記 | 地目・地積に変更があった日 | 表題部所有者又は所有権の登記名義人 | 不登法37条1項 |
-| 地目又は地積の変更登記(変更後に所有者となった場合) | 表題部所有者についての更正登記又は所有権の登記があった日 | 変更後に表題部所有者・所有権の登記名義人となった者 | 不登法37条2項 |
-| 土地の滅失登記 | 滅失の日 | 表題部所有者又は所有権の登記名義人 | 不登法42条 |
-| 建物の表題登記 | 所有権を取得した日 | 新築した建物・区分建物以外の表題登記がない建物の所有権を取得した者 | 不登法47条1項 |
-| 合体による登記等 | 合体の日 | 合体前の建物の組合せに応じ49条1項各号が定める者 | 不登法49条1項 |
-| 合体による登記等(合体後に持分を取得した場合) | 持分を取得した日 | 合体前の表題登記がない建物の所有者から持分を取得した者 | 不登法49条3項 |
-| 合体による登記等(合体後に更正・所有権登記があった場合) | 表題部所有者についての更正登記又は所有権の登記があった日 | 合体前の表題登記がある建物の表題部所有者・所有権登記名義人となった者 | 不登法49条4項 |
-| 建物の表題部の変更登記(所在・種類・構造・床面積・附属建物・敷地権など) | 登記事項に変更があった日 | 表題部所有者又は所有権の登記名義人(共用部分等は所有者) | 不登法51条1項 |
-| 建物の表題部の変更登記(変更後に所有者となった場合) | 表題部所有者についての更正登記又は所有権の登記があった日 | 変更後に表題部所有者・所有権の登記名義人となった者 | 不登法51条2項 |
-| 建物の表題部の変更登記(変更後に共用部分の登記がされた場合) | 共用部分・団地共用部分である旨の登記がされた日 | 所有者 | 不登法51条3項 |
-| 建物の表題部の変更登記(共用部分の登記後に所有権を取得した場合) | 所有権を取得した日 | 所有者 | 不登法51条4項 |
-| 建物の滅失登記 | 滅失の日 | 表題部所有者又は所有権の登記名義人(共用部分等は所有者) | 不登法57条 |
-| 表題登記(共用部分・団地共用部分の規約を廃止した場合) | 規約の廃止の日 | 建物の所有者 | 不登法58条6項 |
-| 表題登記(規約廃止後に所有権を取得した場合) | 所有権を取得した日 | 規約廃止後に所有権を取得した者 | 不登法58条7項 |
+義務がある登記は、条文の並び順ではなく**「表題登記」「地目又は地積の変更登記」「滅失登記」「合体による登記等」「建物の表題部の変更登記」「規約廃止後の表題登記」の6系統**にまとめて整理すると覚えやすくなります。
+
+**表題登記(36条・47条)**
+
+- **土地の表題登記**(不登法36条)：起算点は所有権を取得した日。義務者は、新たに生じた土地・表題登記がない土地の所有権を取得した者
+- **建物の表題登記**(不登法47条1項)：起算点は所有権を取得した日。義務者は、新築した建物・区分建物以外の表題登記がない建物の所有権を取得した者
+
+**地目又は地積の変更登記(37条)**
+
+- **地目又は地積の変更登記**(不登法37条1項)：起算点は地目・地積に変更があった日。義務者は表題部所有者又は所有権の登記名義人
+- **地目又は地積の変更登記(変更後に所有者となった場合)**(不登法37条2項)：起算点は表題部所有者についての更正登記又は所有権の登記があった日。義務者は変更後に表題部所有者・所有権の登記名義人となった者
+
+**滅失登記(42条・57条)**
+
+- **土地の滅失登記**(不登法42条)：起算点は滅失の日。義務者は表題部所有者又は所有権の登記名義人
+- **建物の滅失登記**(不登法57条)：起算点は滅失の日。義務者は表題部所有者又は所有権の登記名義人(共用部分等は所有者)
+
+**合体による登記等(49条)**
+
+- **合体による登記等**(不登法49条1項)：起算点は合体の日。義務者は合体前の建物の組合せに応じ49条1項各号が定める者
+- **合体による登記等(合体後に持分を取得した場合)**(不登法49条3項)：起算点は持分を取得した日。義務者は合体前の表題登記がない建物の所有者から持分を取得した者
+- **合体による登記等(合体後に更正・所有権登記があった場合)**(不登法49条4項)：起算点は表題部所有者についての更正登記又は所有権の登記があった日。義務者は合体前の表題登記がある建物の表題部所有者・所有権登記名義人となった者
+
+**建物の表題部の変更登記(51条)**
+
+- **建物の表題部の変更登記**(所在・種類・構造・床面積・附属建物・敷地権など、不登法51条1項)：起算点は登記事項に変更があった日。義務者は表題部所有者又は所有権の登記名義人(共用部分等は所有者)
+- **建物の表題部の変更登記(変更後に所有者となった場合)**(不登法51条2項)：起算点は表題部所有者についての更正登記又は所有権の登記があった日。義務者は変更後に表題部所有者・所有権の登記名義人となった者
+- **建物の表題部の変更登記(変更後に共用部分の登記がされた場合)**(不登法51条3項)：起算点は共用部分・団地共用部分である旨の登記がされた日。義務者は所有者
+- **建物の表題部の変更登記(共用部分の登記後に所有権を取得した場合)**(不登法51条4項)：起算点は所有権を取得した日。義務者は所有者
+
+**規約廃止後の表題登記(58条6項・7項)**
+
+- **表題登記(共用部分・団地共用部分の規約を廃止した場合)**(不登法58条6項)：起算点は規約の廃止の日。義務者は建物の所有者
+- **表題登記(規約廃止後に所有権を取得した場合)**(不登法58条7項)：起算点は所有権を取得した日。義務者は規約廃止後に所有権を取得した者
 
 **たとえば**、新築した一戸建てを完成と同時に買い取った人は、その所有権を取得した日から1か月以内に、表題登記を申請しなければなりません(不動産登記法47条1項、平成29年度午後の部第15問アで出題)。また、マンションの表題登記が終わった後になって新たに規約敷地が生じた場合も、その変更を1か月以内に登記に反映させる申請義務が生じます(不動産登記法51条1項、同問イ)。
 
 ### 早見表②：申請義務が「ない」登記
 
-| 登記 | ポイント | 根拠条文 |
-|---|---|---|
-| 土地の表題部の更正登記 | 申請できる人(表題部所有者・所有権登記名義人)は限定されるが、期限の定めはない | 不登法38条 |
-| 建物の表題部の更正登記 | 同上 | 不登法53条 |
-| 土地の分筆・合筆の登記 | 申請人は限定されるが、期限の定めはない(地目相違等は登記官が職権で分筆することがある) | 不登法39条 |
-| 表題部所有者の氏名・名称又は住所の変更・更正登記 | 表題部所有者以外は申請できないが、期限の定めはない | 不登法31条 |
-| 共用部分・団地共用部分である旨の登記(規約設定時) | 表題部所有者又は所有権の登記名義人の任意の申請。全員で申請しても規約設定を証する情報の省略はできない | 不登法58条1項〜5項 |
-| 行政区画・字の名称の変更による所在等の変更 | 登記官が「変更の登記があったものとみなし」職権で表題部を書き換える。申請不要 | 不動産登記規則92条 |
+- **土地の表題部の更正登記**(不登法38条)：申請できる人(表題部所有者・所有権登記名義人)は限定されるが、期限の定めはない
+- **建物の表題部の更正登記**(不登法53条)：同上
+- **土地の分筆・合筆の登記**(不登法39条)：申請人は限定されるが、期限の定めはない(地目相違等は登記官が職権で分筆することがある)
+- **表題部所有者の氏名・名称又は住所の変更・更正登記**(不登法31条)：表題部所有者以外は申請できないが、期限の定めはない
+- **共用部分・団地共用部分である旨の登記(規約設定時)**(不登法58条1項〜5項)：表題部所有者又は所有権の登記名義人の任意の申請。全員で申請しても規約設定を証する情報の省略はできない
+- **行政区画・字の名称の変更による所在等の変更**(不動産登記規則92条)：登記官が「変更の登記があったものとみなし」職権で表題部を書き換える。申請不要
 
 **たとえば**、自分の土地の地積が実際より広く登記されていることに気づいても、「気づいた日から1か月以内に直さなければ過料」ということはありません。地積更正は義務ではなく、必要に応じて申請するものです(不動産登記法38条、令和4年度午後の部第7問アで出題)。同様に、マンションの一室を管理組合の共用部分とする規約を設定しても、その旨の登記を1か月以内に申請する義務は生じません(不動産登記法58条、平成26年度午後の部第7問アで出題)。
 
@@ -60,22 +75,20 @@
 
 「1か月以内」という期限そのものは単純ですが、**起算点をどこに置くか**は年度をまたいで繰り返し問われる、この分野最大のひっかけどころです。
 
-| 特殊なケース | 起算点 | 根拠 |
-|---|---|---|
-| 相続を重ねて表題登記が未了のまま最終相続人に移った場合 | 相続開始の日ではなく、最終相続人が所有者となった経緯そのものから義務を承継する(義務そのものが承継される) | 不登法47条1項 |
-| 地目変更を放置したまま所有権が移転した場合 | 地目が変わった日ではなく、新所有者が登記名義を取得した日 | 不登法37条2項 |
-| 増築後に共用部分である旨の登記がされた場合 | 共用部分の登記がされた日ではなく、増築工事が完了した日 | 不登法51条1項の一般原則 |
-| 分筆で建物の所在地番が変わった場合 | 地番変更の日(所有権の登記名義人に申請義務あり) | 不登法51条1項 |
-| 行政区画・字の名称の変更で建物の所在が変わった場合 | 起算点なし(登記官がみなし規定により職権で処理し、申請義務自体が生じない) | 不動産登記規則92条 |
-| 表題登記がない建物どうしが合体した場合 | 合体の日(合体後に持分を取得した者・更正登記等で表題部所有者等となった者は、それぞれの取得・登記の日) | 不登法49条2項・3項・4項 |
-| 規約敷地が追加された場合 | 敷地となった日(規約設定の日) | 不登法51条1項 |
-| 共用部分・団地共用部分の規約を廃止した場合 | 規約の廃止の日(廃止後の取得者は所有権取得の日) | 不登法58条6項・7項 |
+- **相続を重ねて表題登記が未了のまま最終相続人に移った場合**(不登法47条1項)：起算点は相続開始の日ではなく、最終相続人が所有者となった経緯そのものから義務を承継する(義務そのものが承継される)
+- **地目変更を放置したまま所有権が移転した場合**(不登法37条2項)：起算点は地目が変わった日ではなく、新所有者が登記名義を取得した日
+- **増築後に共用部分である旨の登記がされた場合**(不登法51条1項の一般原則)：起算点は共用部分の登記がされた日ではなく、増築工事が完了した日
+- **分筆で建物の所在地番が変わった場合**(不登法51条1項)：起算点は地番変更の日(所有権の登記名義人に申請義務あり)
+- **行政区画・字の名称の変更で建物の所在が変わった場合**(不動産登記規則92条)：起算点なし(登記官がみなし規定により職権で処理し、申請義務自体が生じない)
+- **表題登記がない建物どうしが合体した場合**(不登法49条2項・3項・4項)：起算点は合体の日(合体後に持分を取得した者・更正登記等で表題部所有者等となった者は、それぞれの取得・登記の日)
+- **規約敷地が追加された場合**(不登法51条1項)：起算点は敷地となった日(規約設定の日)
+- **共用部分・団地共用部分の規約を廃止した場合**(不登法58条6項・7項)：起算点は規約の廃止の日(廃止後の取得者は所有権取得の日)
 
 **たとえば**、表題登記もされていない古い建物を持っていた祖父が亡くなり、その子が相続したものの登記をしないうちに亡くなり、さらに孫が相続した場合、最終的に相続した孫が所有者として建物の表題登記を申請する義務を負います(不動産登記法47条1項、令和元年度午後の部第16問ウ)。また、市町村合併などで町名が変わり、多くの建物の所在の表示が一斉に変わる場合は、いちいち所有者に申請させるのは現実的でないため、変更の登記があったものとみなして登記官が職権で処理する扱いになっており、所有者に申請義務は生じません(不動産登記規則92条、同問オ)。これに対して、同じ「建物の所在の変更」でも、土地の分筆によって地番が変わった場合は、登記官の職権処理の対象ではなく、所有権の登記名義人に1か月以内の申請義務が生じる点が対比のポイントです(不動産登記法51条1項、同問エ)。
 
 ### まとめ
 
-- 表示に関する登記の多くには「変更があった日(または取得の日)から1か月以内」という申請義務があり、違反すれば10万円以下の過料の対象にもなり得ます(不動産登記法164条1項)。
+- 表示に関する登記の多くには「変更があった日(または取得の日)から1か月以内」という申請義務があり、正当な理由なく違反すれば10万円以下の過料の対象にもなり得ます(不動産登記法164条1項)。
 - 義務がある登記は、**表題登記(36条・47条)、地目又は地積の変更登記(37条)、土地・建物の滅失登記(42条・57条)、合体による登記等(49条)、建物の表題部の変更登記(51条)、規約廃止後の表題登記(58条6項・7項)**の6系統に整理できます。
 - 義務がない登記は、**更正の登記(38条・53条)、分筆・合筆の登記(39条)、表題部所有者の氏名・住所の変更/更正登記(31条)、共用部分である旨の登記(規約設定時、58条)、行政区画変更による所在等の変更(規則92条・職権)**です。「変更」は義務あり、「更正」は義務なし、という対比を軸にすると覚えやすくなります。
 - 起算点は「事実が変わった日」が原則ですが、承継・共用部分の登記・行政区画変更などが絡むと、「取得した日」「登記された日」「職権処理でそもそも申請不要」というように枝分かれします。ここを一つひとつ丁寧に切り分けられるかどうかが、この分野の得点力を左右します。
@@ -90,6 +103,9 @@
 - 51条1項の対象登記事項(44条1項各号のうち2号・6号を除くもの)に敷地権(44条1項9号)が含まれることは条文を確認済みですが、「規約敷地の追加」という事実が具体的にどの号の変更として扱われるかの当てはめは、過去問(平成29年度第15問イ、令和4年度第18問イ)の解説に沿った整理です。
 - 増築後に共用部分である旨の登記がされた場合の起算点(工事完了日)は、平成23年度第16問の解説記事の記述を踏まえたものであり、51条1項の一般原則(「変更があった日」)からの当てはめとして妥当と判断していますが、この具体的な場面を名指しした条文・先例番号までは確認できていません。
 - 表題部所有者の更正登記の単独申請可否(不登法33条)は、本稿執筆時にあらためて条文を確認しました。33条1項は「不動産の所有者と当該不動産の表題部所有者とが異なる場合においてする当該表題部所有者についての更正の登記は、当該不動産の所有者以外の者は、申請することができない」と定めており、真の所有者以外(誤って記録された表題部所有者)からの申請ができないこと、および真の所有者が単独で申請できることの条文上の根拠として確認できました。
+- **表形式の見直し(2026-09-10実施)**：本稿は当初、早見表①・②および「起算点が特殊なケース」の3か所でMarkdownの表組みを使用していましたが、noteはMarkdownの表組みを描画できないため、note投稿用の記事としては使えない状態でした。3表すべてを、`topics/gappitsu-gappei-seigen.md`等の既存記事にならって箇条書きブロックに変換しました。早見表①(15行)は、まとめ節で既に使っていた「表題登記(36・47条)」「地目又は地積の変更登記(37条)」「滅失登記(42・57条)」「合体による登記等(49条)」「建物の表題部の変更登記(51条)」「規約廃止後の表題登記(58条6項・7項)」の6系統の見出しでグルーピングし直しており、内容(登記・起算点・義務者・根拠条文の4項目)はすべて元の表と一致することを確認済みです。
+- **再検証で追記した点(2026-09-10実施)**：164条1項の過料は、条文上「**正当な理由がないのに**その申請を怠ったとき」に限り科されると定められています。本文は当初この限定要件に触れていなかったため、冒頭・164条1項の説明・まとめの3か所に追記しました(義務があっても現実には履行されないケースがある、という本稿の趣旨を補強する内容であり、結論は変わりません)。それ以外の条文引用(31条・36条・37条1項2項・38条・39条・42条・47条1項・49条1項3項4項・51条1項〜4項・53条・57条・58条・92条(規則))は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-kisoku-1.md`の条文本文と改めて突き合わせ、いずれも記載どおりであることを再確認しました。
+- インフォグラフィックプロンプトのうち画像1〜4は、上記の表組みの見直し後も記載内容(登記・起算点・根拠条文等)が本文と一致していることを再確認済みです。ただし画像1(俯瞰カードポスター型)・画像2(6行の早見表)はいずれも「義務者」の列を含まない簡略版だったため、早見表①がMarkdown表として本文中に存在しなくなったことに伴い、15行すべてを「登記・起算点・義務者・根拠条文」の4列でフル表示する早見表型の画像を画像5・画像6(1/2・2/2、各8行・7行)として新規に追加しました。
 
 ---
 
@@ -534,6 +550,164 @@ correct Japanese form. Confirm the table has exactly 8 data rows, with no
 duplicated or missing rows, confirm there is no intro illustration or
 paragraph block between the header and the table, and confirm that no
 table cell contains a full sentence of explanatory prose.
+```
+
+### 画像5：義務がある登記15件のフル早見表(1/2)〜義務者まで含む詳細版
+
+```
+Create a Japanese-language infographic, landscape-leaning portrait layout,
+1600x2000 pixels, clean flat-design isometric illustration style with soft
+pastel colors (blue, green, beige, gray), a rounded panel containing a
+clean four-column comparison table, consistent with a modern
+explainer-graphic aesthetic (small isometric land-plot and building icons
+may decorate the header only; the body of the poster is a table, not
+illustrated cards).
+
+GLANCEABLE-TABLE REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere — go straight from the header to the
+table. Every table cell must be a short label (a few words to one short
+phrase), never a full sentence or a paragraph. If a piece of information
+cannot be expressed as a short label, leave it out rather than writing it
+as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. This table contains many instances of
+kanji that are easily confused with Simplified Chinese variants — 号・録・
+権・地・番・建・物・登・記・所 in particular — draw each of these in its
+correct standard Japanese (Jōyō) form, not the simplified Chinese form.
+Every kanji must match standard Japanese orthography exactly as written
+below, stroke-for-stroke. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+義務がある登記、15件のフル早見表（1/2）
+
+Subtitle (smaller, centered, 1行):
+起算点・義務者まで含む詳細版
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文のブロ
+ックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(pale green / pale beige), Japanese sans-serif font, no monospace font.
+Header row background: solid green with white text.
+
+Header row (4 columns, verbatim):
+登記 | 起算点 | 義務者 | 根拠条文
+
+Data rows (exactly 8 rows, verbatim, do not paraphrase, do not reorder,
+do not omit, do not duplicate):
+1. 土地の表題登記 | 所有権を取得した日 | 新たに生じた土地・表題登記がない土地の所有権を取得した者 | 不登法36条
+2. 地目又は地積の変更登記 | 地目・地積に変更があった日 | 表題部所有者又は所有権の登記名義人 | 不登法37条1項
+3. 地目又は地積の変更登記（変更後に所有者となった場合） | 表題部所有者についての更正登記又は所有権の登記があった日 | 変更後に表題部所有者・所有権の登記名義人となった者 | 不登法37条2項
+4. 土地の滅失登記 | 滅失の日 | 表題部所有者又は所有権の登記名義人 | 不登法42条
+5. 建物の表題登記 | 所有権を取得した日 | 新築した建物・区分建物以外の表題登記がない建物の所有権を取得した者 | 不登法47条1項
+6. 合体による登記等 | 合体の日 | 合体前の建物の組合せに応じ49条1項各号が定める者 | 不登法49条1項
+7. 合体による登記等（合体後に持分を取得した場合） | 持分を取得した日 | 合体前の表題登記がない建物の所有者から持分を取得した者 | 不登法49条3項
+8. 合体による登記等（合体後に更正・所有権登記があった場合） | 表題部所有者についての更正登記又は所有権の登記があった日 | 合体前の表題登記がある建物の表題部所有者・所有権登記名義人となった者 | 不登法49条4項
+
+--- FOOTER ---
+
+Enumeration check (place this short sentence just before the final check,
+not before the header): this is table (1/2) of a 15-row series continued
+in a separate image (2/2); this image has exactly 8 data rows plus 1
+header row — do not duplicate, omit, or reorder any row, and reproduce
+each cell string verbatim without paraphrasing.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 8 data rows across 4
+columns (登記・起算点・義務者・根拠条文), with no duplicated or missing
+rows, confirm there is no intro illustration or paragraph block between
+the header and the table, and confirm that no table cell contains a full
+sentence of explanatory prose.
+```
+
+### 画像6：義務がある登記15件のフル早見表(2/2)〜義務者まで含む詳細版
+
+```
+Create a Japanese-language infographic, landscape-leaning portrait layout,
+1600x1900 pixels, clean flat-design isometric illustration style with soft
+pastel colors (blue, green, beige, gray), a rounded panel containing a
+clean four-column comparison table, consistent with the same visual
+language as 画像5 above (small isometric land-plot and building icons may
+decorate the header only; the body of the poster is a table, not
+illustrated cards).
+
+GLANCEABLE-TABLE REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere — go straight from the header to the
+table. Every table cell must be a short label (a few words to one short
+phrase), never a full sentence or a paragraph. If a piece of information
+cannot be expressed as a short label, leave it out rather than writing it
+as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. This table contains many instances of
+kanji that are easily confused with Simplified Chinese variants — 号・録・
+権・地・番・建・物・登・記・所 in particular — draw each of these in its
+correct standard Japanese (Jōyō) form, not the simplified Chinese form.
+Every kanji must match standard Japanese orthography exactly as written
+below, stroke-for-stroke. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+義務がある登記、15件のフル早見表（2/2）
+
+Subtitle (smaller, centered, 1行):
+起算点・義務者まで含む詳細版
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文のブロ
+ックは置かない。）
+
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors
+(pale green / pale beige), Japanese sans-serif font, no monospace font.
+Header row background: solid green with white text.
+
+Header row (4 columns, verbatim):
+登記 | 起算点 | 義務者 | 根拠条文
+
+Data rows (exactly 7 rows, verbatim, do not paraphrase, do not reorder,
+do not omit, do not duplicate; row numbering continues from 9, following
+on from image 画像5's rows 1-8):
+9. 建物の表題部の変更登記（所在・種類・構造・床面積・附属建物・敷地権など） | 登記事項に変更があった日 | 表題部所有者又は所有権の登記名義人（共用部分等は所有者） | 不登法51条1項
+10. 建物の表題部の変更登記（変更後に所有者となった場合） | 表題部所有者についての更正登記又は所有権の登記があった日 | 変更後に表題部所有者・所有権の登記名義人となった者 | 不登法51条2項
+11. 建物の表題部の変更登記（変更後に共用部分の登記がされた場合） | 共用部分・団地共用部分である旨の登記がされた日 | 所有者 | 不登法51条3項
+12. 建物の表題部の変更登記（共用部分の登記後に所有権を取得した場合） | 所有権を取得した日 | 所有者 | 不登法51条4項
+13. 建物の滅失登記 | 滅失の日 | 表題部所有者又は所有権の登記名義人（共用部分等は所有者） | 不登法57条
+14. 表題登記（共用部分・団地共用部分の規約を廃止した場合） | 規約の廃止の日 | 建物の所有者 | 不登法58条6項
+15. 表題登記（規約廃止後に所有権を取得した場合） | 所有権を取得した日 | 規約廃止後に所有権を取得した者 | 不登法58条7項
+
+--- FOOTER ---
+
+Enumeration check (place this short sentence just before the final check,
+not before the header): this is table (2/2) of a 15-row series continued
+from a separate image (1/2); this image has exactly 7 data rows numbered
+9-15 plus 1 header row — do not duplicate, omit, or reorder any row, and
+reproduce each cell string verbatim without paraphrasing.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 7 data rows numbered
+9-15 across 4 columns (登記・起算点・義務者・根拠条文), with no duplicated
+or missing rows, confirm there is no intro illustration or paragraph block
+between the header and the table, and confirm that no table cell contains
+a full sentence of explanatory prose.
 ```
 
 ---
