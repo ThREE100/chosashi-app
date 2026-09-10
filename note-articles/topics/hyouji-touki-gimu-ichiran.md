@@ -710,6 +710,114 @@ between the header and the table, and confirm that no table cell contains
 a full sentence of explanatory prose.
 ```
 
+### 画像7：申請義務の有無と起算点を判定するフローチャート（まとめの総整理）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as 画像1〜6 above (icons: isometric registry
+documents, a branching signpost/road-fork icon, a coin/yen icon for a
+fine, a "stamp with a cross mark" icon for "申請不要", a calendar icon;
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+decision-flow poster, NOT a text-heavy explainer document. There is NO
+intro illustration and NO paragraph of prose anywhere on this poster —
+go straight from the header to the flowchart. Each flowchart node must
+communicate its point through a short condition/result label (one short
+line, not a full paragraph) plus a small icon. Do NOT render any
+full-sentence explanation or legal citation as body text inside a node —
+short labels are the only text allowed inside nodes themselves.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke. Pay
+special attention to the kanji 義・務・題・登・記・更・正・承・継・職・
+権・過・料・算 — do not render these as Simplified Chinese variants.
+Reproduce the exact text strings given below verbatim — do not
+paraphrase, translate, summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その登記、申請義務はある？
+起算点はどこから数える？
+
+Subtitle (smaller, centered, 1行):
+表示に関する登記・判定フローチャート
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+
+ノード1（開始ノード、角丸の四角）:
+その登記は、事実の「変更」を登記に反映するものか？
+
+ノード2（分岐ノード、ひし形アイコン、ノード1から分岐）:
+「いいえ」の場合の具体例：
+更正の登記／分筆・合筆の登記／表題部所有者の氏名・住所の変更・更正登記／
+共用部分である旨の登記（規約設定時）／行政区画・字の名称の変更
+
+ノード3（結果ノード、ノード2の「いいえ」の先、グレーの帯＋✕マークの
+スタンプアイコン）:
+義務なし
+（期限の定めなし。行政区画・字の名称の変更は、登記官が職権で処理するため
+申請自体が不要）
+
+ノード4（分岐ノード、ひし形アイコン、ノード1の「はい」の先）:
+「はい」の場合の6系統：
+表題登記／地目又は地積の変更登記／土地・建物の滅失登記／合体による登記等
+／建物の表題部の変更登記／規約廃止後の表題登記
+
+ノード5（結果ノード、ノード4の先、緑の帯＋チェックマークのスタンプ
+アイコン）:
+1か月以内の申請義務あり
+
+ノード6（分岐ノード、ひし形アイコン、ノード5の先、道が3方向に分かれる
+標識アイコン）:
+起算点はどこから数える？（原則と3つの枝分かれ）
+
+ノード7（結果ノード、ノード6の「原則」の枝、カレンダーアイコン）:
+原則：事実が変わった日
+
+ノード8（結果ノード、ノード6の「承継が絡む場合」の枝）:
+承継が絡む場合：所有者となった日（取得した日）
+
+ノード9（結果ノード、ノード6の「共用部分の登記が絡む場合」の枝）:
+共用部分の登記が絡む場合：登記がされた日
+
+ノード10（結果ノード、ノード6の「行政区画変更が絡む場合」の枝、ノード3
+へ点線で合流）:
+行政区画変更が絡む場合：職権処理でそもそも申請不要（ノード3と同じ結論）
+
+ノード11（結論・強調枠、ノード5から伸びる最終結論ボックス、コイン/十万円
+ラベルのアイコン）:
+正当な理由なくこの義務を怠ると、10万円以下の過料（不動産登記法164条1項）
+
+--- FOOTER ---
+出典表記: 不動産登記法31条・36条・37条・38条・39条・42条・47条・49条・
+51条・53条・57条・58条・164条1項、不動産登記規則92条
+
+Enumeration check (place this short sentence just before the final check,
+not before the header): confirm the flowchart has exactly 11 numbered
+nodes (1 start node, 3 decision/branch nodes marked with a diamond icon,
+7 result/conclusion nodes), confirm node 10 visually connects back to
+node 3 with a dashed line to show they share the same conclusion (義務
+なし), and reproduce every node label verbatim without paraphrasing.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 義・務・題・登・記・更・正・承・継・職・権・過・料・算. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm there is no intro
+illustration or paragraph block between the header and the flowchart, and
+confirm that no node contains more than one short line of condition or
+result text (no full paragraphs of explanatory prose).
+```
+
 ---
 
 ## 参照した過去問
