@@ -206,3 +206,154 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（区分建物の登記の申請の判定フローチャート）
+
+上のポスター（問題全体）とは別に、この問題を解くときの**思考の手順そのもの**を判定フローチャートとして図解するプロンプト。「区分建物の登記の申請」というテーマで問われやすい4つの論点（①一括申請が必要な場面、②代位申請権があるか、③変更登記が職権で他の区分建物にも及ぶか、④相続人は申請義務を負うか）を、それぞれ独立したレーンとして分岐させており、本問（令和4年度午後第17問）の甲・乙建物という具体的な設定やA・Bという人物名には依存しない構成にしている。そのため、区分建物の表題登記・表題部変更登記の申請（不動産登記法47条・48条・51条・52条）が問われる他の年度・他の問題でも、同じ図をそのまま解法の道しるべとして使い回せる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2200 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, orange, purple, beige, gray), rounded panel sections,
+consistent with the same visual language as the whole-problem poster for
+this article, but built as a branching decision flowchart with 4 parallel
+lanes rather than a multi-card summary poster.
+
+FLOWCHART EXPLAINER REQUIREMENT: This image is a reusable judgment
+procedure for the topic "区分建物の登記の申請" (applications for
+title/change registration of sectioned condominium-style buildings), not
+a summary of this one exam question's five options. It must NOT reference
+"甲建物" "乙建物" "Ａ" "Ｂ" or any other question-specific label anywhere —
+describe building states only in general category terms such as
+"非区分建物" (non-sectioned building), "区分建物" (sectioned/condominium
+unit), "表題登記がある建物" (building with title registration), and
+"原始取得者"/"相続人" (original builder / heir) as role labels, not
+personal names. Diamond-shaped nodes are yes/no decision questions or
+pattern-matching questions; rectangular nodes are outcome/conclusion
+boxes with a short rule statement; arrows connect them in a top-to-bottom
+flow within each lane. Written condition text inside nodes is allowed and
+expected (this is a flowchart, not a glanceable poster) — but keep each
+node to one short sentence, not a paragraph.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not
+paraphrase, translate, summarize, or substitute any characters. Pay
+special attention to the kanji 建・物・登・記・権・地・所・続・併・職・
+継・築, which have Simplified Chinese look-alike forms with visibly
+different stroke shapes — always draw the standard Japanese (Jōyō) form
+of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart lanes — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+区分建物の登記の申請
+判定フローチャート
+
+Subtitle (smaller, centered, 2行):
+一括申請の要否・代位申請・職権変更・相続人の義務を整理する解き方
+（令和4年度 午後の部 第17問 ほか共通）
+
+--- LANE A HEADER (pill badge, green) ---
+①一括申請が必要な場面
+
+--- LANE A, NODE 1 (diamond, green) ---
+次のどの場面にあたるか？
+
+--- LANE A, NODE 1a (rectangle outcome, green) ---
+表題登記がある非区分建物どうしが、増築等の工事で
+相互に接続して区分建物になった → 表題部の変更登記を
+一括して申請（法52条3項）
+
+--- LANE A, NODE 1b (rectangle outcome, green) ---
+区分建物が属する一棟の建物が新築された、または
+表題登記がない建物に接続して区分建物が新築され
+一棟の建物になった → その区分建物の表題登記は、他の
+区分建物の表題登記と一括して申請（法48条1項）
+
+--- LANE A, NODE 1c (rectangle outcome, green) ---
+表題登記がある非区分建物に接続して区分建物が新築
+された → その区分建物の表題登記は、非区分建物側の
+表題部の変更登記と一括して申請（法48条3項・52条1項）
+
+--- LANE B HEADER (pill badge, blue) ---
+②代位申請権があるか
+
+--- LANE B, NODE 1 (diamond, blue) ---
+①のいずれかの一括申請が必要な場面にあたるか？
+
+--- LANE B, NODE 1a (rectangle outcome, blue) ---
+あたる → 一方の当事者は、他方の建物の所有者に
+代わって、その登記を申請できる（代位的申請権、
+法48条2項・4項、52条2項・4項）
+
+--- LANE B, NODE 1b (rectangle outcome, blue) ---
+あたらない → 通常どおりそれぞれの所有者本人が
+申請する
+
+--- LANE C HEADER (pill badge, orange) ---
+③変更登記は職権で他の区分建物にも及ぶか
+
+--- LANE C, NODE 1 (diamond, orange) ---
+一棟の建物に共通する構造・床面積等の登記事項
+（法44条1項1号・7号〜9号）についての変更または
+更正の登記か？
+
+--- LANE C, NODE 1a (rectangle outcome, orange) ---
+該当する → 区分建物の所有者の一人が申請すれば、
+登記官が職権で他の区分建物についても同じ変更登記を
+する（法51条5項・6項、更正登記は53条2項で準用）
+
+--- LANE C, NODE 1b (rectangle outcome, orange) ---
+該当しない（専有部分固有の事項など） → 各区分建物の
+所有者がそれぞれ自分の分を申請する
+
+--- LANE D HEADER (pill badge, purple) ---
+④相続人は申請義務を負うか
+
+--- LANE D, NODE 1 (diamond, purple) ---
+区分建物を新築した原始取得者について、相続その他の
+一般承継があったか？
+
+--- LANE D, NODE 1a (rectangle outcome, purple) ---
+あった → 相続人その他の一般承継人は、被承継人（原始
+取得者）を表題部所有者とする表題登記を申請すること
+ができる（任意、義務ではない。法47条2項）
+
+--- LANE D, NODE 1b (rectangle outcome, purple) ---
+ない → 原始取得者本人が、所有権取得の日から1か月
+以内に表題登記を申請しなければならない（法47条1項）
+
+--- FOOTER ---
+Small credit text (2行):
+4つのレーンは独立して判定できる。1つの肢が複数の
+レーンにまたがることもある
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 建・物・登・記・権・地・所・続・併・職・継・築. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm every node label matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters, confirm that no node mentions "甲建物" "乙建物"
+"Ａ" "Ｂ" or any other question-specific label (this flowchart must read
+as a general-purpose procedure), confirm the four lanes (①〜④) are
+clearly color-coded and visually separated with their pill-badge headers
+at the top of each lane, and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
