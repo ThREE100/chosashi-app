@@ -204,3 +204,182 @@ card headings are exactly: (1) 共通添付情報は援用で省略可／(2) 合
 reword any of these five headings, and confirm every card reads as a
 short heading + illustration + short conclusion tag at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+肢エ「表題登記がある建物については、そもそも所有権を証する情報の提供を要しない」について、「検査済証を所有権を証する情報にできるか」という問いの立て方に引きずられ、何らかの書類が使えるはずだと考えてしまう誤りを、所有権の登記がある建物（甲建物）と表題登記のみの建物（乙建物）の対比で整理した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 号・録・権・地・番・建・
+物・登・記・所, which have visibly different Simplified Chinese forms —
+always draw the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+表題登記だけなら
+証明書は不要なんです
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後の部 第5問 肢エ
+検査済証は関係ない
+
+--- COMPARISON (左右2パネルの対比型) ---
+
+Left panel (green background):
+Panel label (small, top of panel):
+甲建物
+Illustration: An isometric building icon labeled「甲建物」with a green
+badge reading「所有権の登記あり」above it. A document icon labeled「所有権
+を証する情報」sits beside the building with a green checkmark ✓ and an
+arrow pointing into the building icon.
+Panel short text (below illustration, one line):
+所有権の登記がある建物には必要になる場合がある
+
+Right panel (blue background):
+Panel label (small, top of panel):
+乙建物
+Illustration: An isometric building icon labeled「乙建物」with a blue
+badge reading「表題登記のみ（所有権の登記なし）」above it. A document icon
+labeled「検査済証」sits beside the building crossed out with a large red
+✕ mark, drawn with NO arrow connecting it to the building (to show it is
+irrelevant to this building).
+Panel short text (below illustration, one line):
+表題登記のみの建物には、そもそも不要
+
+--- CALLOUT: 誤りやすいポイント ---
+Callout box (rounded rectangle, soft yellow background, positioned below
+the two panels):
+Heading (bold, one line):
+誤りやすいポイント
+Body text (verbatim, 2-3 sentences):
+「検査済証を所有権を証する情報にできるか」と問われると、何らかの書類が使え
+るはずだと考えてしまいがちです。しかし乙建物はすでに表題部に所有者が記録さ
+れているため、この場面ではそもそも所有権を証する情報の提供自体が不要とされ
+ています（平成5年の質疑応答）。「使える書類は何か」ではなく「そもそも提供が
+要るのか」を先に確認しましょう。
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font):
+平成5年質疑応答（合体の登記等における所有権を証する情報の要否）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. Confirm every heading,
+panel label, and callout text matches the Japanese text given above
+verbatim, with no paraphrasing and no substituted characters. Confirm the
+layout shows exactly two side-by-side panels (甲建物=green/left, 乙建物=
+blue/right), and confirm the ✕-marked document icon on the right panel has
+no arrow connecting it to the building, to visually show it is unused.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・間違いノート）
+
+肢オ「登記事項証明書に代わり送信するのは『照会番号等』であって、不動産番号ではない」について、「不動産番号」という語を見て早合点しがちな誤りを、不動産登記令11条（登記事項証明書の代替＝照会番号等）と令6条（不動産番号＝申請情報の記載省略）の対比で整理した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 号・録・権・地・番・建・
+物・登・記・所, which have visibly different Simplified Chinese forms —
+always draw the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+送るのは「照会番号」
+「不動産番号」ではないんです
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後の部 第5問 肢オ
+令11条と令6条を混同しない
+
+--- COMPARISON (左右2パネルの対比型) ---
+
+Left panel (green background):
+Panel label (small, top of panel):
+不動産登記令11条
+Illustration: An isometric document icon labeled「登記事項証明書」crossed
+out with a red ✕ mark, with an arrow flowing from it to a small computer
+screen icon displaying two stacked labels「照会番号」「発行年月日」, both
+with a green checkmark ✓ beside them.
+Panel short text (below illustration, one line):
+登記事項証明書の提供に代えて送るのは照会番号等
+
+Right panel (blue background):
+Panel label (small, top of panel):
+不動産登記令6条
+Illustration: An isometric application form icon labeled「申請情報」with
+several form fields shown greyed-out/omitted, each labeled「所在」「地番」
+「地目」「地積」, with a small tag icon labeled「不動産番号」pointing at the
+greyed-out fields and a green checkmark ✓ beside the tag. Draw NO arrow
+connecting this tag to the「登記事項証明書」icon on the left panel, to show
+the two are unrelated.
+Panel short text (below illustration, one line):
+不動産番号は申請情報の記載省略に使うだけ
+
+--- CALLOUT: 誤りやすいポイント ---
+Callout box (rounded rectangle, soft yellow background, positioned below
+the two panels):
+Heading (bold, one line):
+誤りやすいポイント
+Body text (verbatim, 2-3 sentences):
+「不動産番号」という言葉を見ると、それが登記事項証明書の代わりに送信する情
+報だと早合点しがちです。しかし登記事項証明書の提供に代えて送信するのは、不
+動産登記令11条に基づく照会番号及び発行年月日であり、不動産番号は令6条に基
+づき申請情報の一部（所在・地番・地目・地積等）の記載を省略するための別の制
+度です。「何を送信するのか」を条文ごとに区別しましょう。
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font):
+不動産登記令11条／不動産登記令6条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 号・録・権・地・番・建・物・登・記・所. Confirm every heading,
+panel label, and callout text matches the Japanese text given above
+verbatim, with no paraphrasing and no substituted characters. Confirm the
+layout shows exactly two side-by-side panels (不動産登記令11条=green/left,
+不動産登記令6条=blue/right), and confirm no arrow connects the two panels,
+to visually show the two provisions govern unrelated information.
+```
