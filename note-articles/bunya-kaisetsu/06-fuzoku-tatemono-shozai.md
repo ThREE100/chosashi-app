@@ -20,7 +20,7 @@
 
 ここで注意したいのは、今回のテーマはあくまで「附属建物が区分建物でない場合」の話だという点です。附属建物自体が区分建物である場合（別の一棟の建物に属する区分建物を、附属建物として合併するような場合）は、単に所在を記録するだけでは足りません。
 
-附属建物が区分建物である場合、その附属建物が属する一棟の建物の物理的状況や敷地に対する権利関係を明らかにするため、①一棟の建物の所在する市区郡町村字・地番、②一棟の建物の構造・床面積、③一棟の建物の名称（あるときは）、④敷地権（分離処分できないものがあるとき）を、附属建物の構造欄に加えて記録することになります（不動産登記法44条1項5号・7号・8号・9号）。
+附属建物が区分建物である場合、その附属建物が属する一棟の建物の物理的状況や敷地に対する権利関係を明らかにするため、①一棟の建物の所在する市区郡町村字・地番、②一棟の建物の構造・床面積、③一棟の建物の名称（あるときは）、④敷地権（専有部分と分離して処分できない敷地利用権があるとき）を、附属建物の構造欄に加えて記録することになります（不動産登記法44条1項5号・7号・8号・9号）。
 
 つまり、「附属建物の所在は構造欄に記録される」という結論自体は共通していますが、附属建物が非区分建物か区分建物かによって、構造欄に記録する情報の量がまったく違います。
 
@@ -50,21 +50,178 @@
 - 区分建物に区分建物でない附属建物があるとき：その附属建物の所在は、構造欄に記録される（規則4条3項別表3）。
 - 附属建物が区分建物である場合：構造欄に、所在だけでなく、その附属建物が属する一棟の建物の所在地番・構造・床面積・名称・敷地権も加えて記録する（法44条1項5号・7号・8号・9号）。
 
-### インフォグラフィック設計メモ
+## インフォグラフィック プロンプト
 
-- **形式**：左右2列の対比レイアウト。左列「非区分建物」、右列「区分建物（専有部分）」。
-- **左列**：家のイラストの中に「所在欄」というボックスを表示し、そこに矢印で附属建物（物置のイラスト）の地番が書き込まれる様子を示す。
-- **右列**：マンションの一室のイラストの表題部に「所在欄」を赤い×マークで消し、代わりに「構造欄」というボックスに矢印で附属建物（物置のイラスト）の所在が書き込まれる様子を示す。
-- **下部**：発展として、附属建物が区分建物である場合の追加情報（一棟の建物の所在地番・構造・床面積・名称・敷地権）を、構造欄からさらに枝分かれさせて表示する小さな補足ボックスを添える。
+以下は画像生成AI（GPT Image等）に投入するためのプロンプト文です。画像そのものはここでは生成しません。すべて縦長（ポートレート）レイアウトで作成しています。
+
+### 画像1：非区分建物と区分建物、附属建物の所在はどこに書くか（対比表型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded two-column comparison layout,
+consistent with a modern explainer-graphic aesthetic (icons: an isometric
+single-family house, an isometric apartment/condominium cross-section, a
+small storage-shed icon representing an 附属建物, a document field icon
+labeled 所在欄, a document field icon labeled 構造欄 — adapt icon set to
+the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the two columns. Every item must communicate its point almost entirely
+through a short label plus a small icon. Do NOT render any full-sentence
+explanation or paragraph of body text anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 1行):
+専有部分には「所在欄」がないんです
+
+Subtitle (smaller, centered, 1行):
+附属建物の所在はどこに書くか
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN HEADER (pill-shaped badge, color: green) ---
+非区分建物（一戸建てなど）
+
+Left illustration: An isometric single-family house with a document field
+labeled 所在欄 clearly visible on its 表題部, and a small storage-shed icon
+(附属建物) beside the house, connected by an arrow pointing into the same
+所在欄 field — showing the 附属建物 の地番 is added there.
+Left conclusion tag: 附属建物の所在も所在欄に記録
+
+--- RIGHT COLUMN HEADER (pill-shaped badge, color: blue) ---
+区分建物（マンションの一室）
+
+Right illustration: An isometric condominium unit cross-section (専有部分)
+with a document field labeled 所在欄 crossed out by a red ✕ mark (does not
+exist), and a small storage-shed icon (区分建物でない附属建物) beside it,
+connected by an arrow pointing instead into a separate document field
+labeled 構造欄.
+Right conclusion tag: 附属建物の所在は構造欄に記録
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 属・欄・造・棟・専・有, and confirm each is standard Japanese
+(Jōyō) form, not Simplified Chinese. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm there are exactly 2 columns (LEFT and RIGHT), each with
+exactly one illustration and one conclusion tag, with no duplicated or
+missing elements, confirm there is no intro illustration or paragraph
+block between the header and the columns, and confirm that no item
+contains a full sentence of explanatory prose.
+```
+
+### 画像2：附属建物が区分建物である場合、構造欄に追加で記録する4つの事項（俯瞰カードポスター型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1700 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric apartment buildings,
+a document field icon labeled 構造欄, a ruler/floor-plan icon, a
+name-plate icon, a land-rights document icon — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+--- HEADER ---
+Title (large, bold, 2行):
+附属建物が「区分建物」だと
+構造欄の記録がもっと増える
+
+Subtitle (smaller, centered, 1行):
+一棟の建物の情報を4つ追加する
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列を分けないため、バッジ色は1色に統一する。）
+
+--- CARD 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+一棟の建物の所在地番
+Illustration: 別の一棟の建物のアイソメアイコンに地番タグが付き、矢印で
+主である建物の構造欄へつながる様子。
+Conclusion tag (blue banner, 5-15 Japanese characters):
+法44条1項5号
+
+--- CARD 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+一棟の建物の構造・床面積
+Illustration: 別の一棟の建物のアイソメアイコンに、定規と床面積を示す
+アイコンが添えられている様子。
+Conclusion tag (blue banner, 5-15 Japanese characters):
+法44条1項7号
+
+--- CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+一棟の建物の名称（あるとき）
+Illustration: 別の一棟の建物のアイソメアイコンにネームプレートが
+付いている様子。
+Conclusion tag (blue banner, 5-15 Japanese characters):
+法44条1項8号
+
+--- CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+敷地権（分離処分できないとき）
+Illustration: 別の一棟の建物の下に敷地の土地アイコンがあり、両者が
+鎖のアイコンでつながれている様子。
+Conclusion tag (blue banner, 5-15 Japanese characters):
+法44条1項9号
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 棟・造・番・敷・地・権・離・処, and confirm each is standard
+Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 4 exactly, with no
+duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance.
+```
 
 ---
 
 **このまま使える点／使う前に確認したい点**
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 不動産登記規則4条3項別表3、不動産登記法44条1項5号・7号・8号・9号の各条文番号は、条文原文（複数の法律情報サイトに掲載された条文の引用を相互に照合）で確認済みです。
-- 令和4年度の出題内容・正誤判定は、土地家屋調査士試験対策アプリの検証済みデータベース（`src/data/takuitsu.json`）に基づいています（`note-articles/r4-mondai/q11-tatemono-shozai.md`・`note-articles/r4-mondai/q14-fuzoku-tatemono.md` の個別解説記事と対応しています）。
-- 「専有部分に所在欄がない理由」（一棟の建物の表示欄にすでに記録されているため情報が重複しないようにしている、という説明）は、一般的な理解に基づく記述であり、この理由づけ自体を明記した条文・先例を個別には確認していません。学習上の理解を助けるための説明としてご留意ください。
+- 不動産登記規則4条3項別表3、不動産登記法44条1項5号・7号・8号・9号の各条文番号は、`laws/fudousan-touki-kisoku-3.md`（別表三「区分建物である建物の登記記録」）・`laws/fudousan-touki-hou.md`（第44条）の条文原文をGrep・Readして確認済みです。別表三の「附属建物の表示欄」には符号欄・種類欄・構造欄・床面積欄のみが定められており、「所在欄」に相当する欄自体が存在しないこと、附属建物の所在（法44条1項5号）は構造欄の記録事項として扱われていること、附属建物が区分建物である場合はこれに加えて、その附属建物が属する一棟の建物の所在（同項5号）・構造及び床面積（同項7号）・名称（同項8号）・敷地権（同項9号）も同じく構造欄に記録される旨が別表三に明記されていることを確認しました。
+- 令和4年度の出題内容・正誤判定は、土地家屋調査士試験対策アプリの検証済みデータベース（`src/data/takuitsu.json`）に基づいています（`note-articles/r4-mondai/q11-tatemono-shozai.md`・`note-articles/r4-mondai/q14-fuzoku-tatemono.md` の個別解説記事と対応しています）。`q11-tatemono-shozai.md`は2026-08-16に条文原文との再照合が実施済みで本記事の内容と整合していることを確認済みです。`q14-fuzoku-tatemono.md`には同様の再照合の記録がありませんが、本記事の作成にあたり内容を直接読み比べ、44条1項5号・7号・8号・9号の分析と矛盾しないことを確認しました。
+- 「専有部分に所在欄がない理由」（一棟の建物の表示欄にすでに記録されているため情報が重複しないようにしている、という説明）について、別表三の表構造自体（一棟の建物の表示欄にのみ所在欄があり、区分建物の表題部・附属建物の表示欄のいずれにも所在欄が存在しないこと）は条文原文で確認済みです。もっとも、「情報の重複を避けるため」という理由づけそのものを明記した条文・先例までは確認しておらず、学習上の理解を助けるための説明である点はご留意ください。
 
 ---
 
