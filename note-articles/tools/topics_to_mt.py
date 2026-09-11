@@ -302,7 +302,11 @@ def main():
     base_date = datetime.datetime(2026, 1, 1, 10, 0, 0)
 
     md_files = sorted(glob.glob(os.path.join(folder, "*.md")))
-    md_files = [p for p in md_files if os.path.basename(p) != "README.md"]
+    md_files = [
+        p
+        for p in md_files
+        if os.path.basename(p) not in ("README.md", "format-template.md")
+    ]
     if not md_files:
         print(f"警告: {folder} に .md ファイルが見つかりませんでした。")
         sys.exit(1)
