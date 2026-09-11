@@ -206,3 +206,161 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（合体による登記等の判定フローチャート）
+
+上のポスター（問題全体）とは別に、この問題を解くときの**思考の手順そのもの**を判定フローチャートとして図解するプロンプト。「合体による登記等」というテーマで問われやすい5つの論点（①申請義務の起算点、②誰が申請できるか、③何が「合体」に含まれるか、④所有権登記も併せて必要か、⑤登記原因の記録方法）を、それぞれ独立したレーンとして分岐させており、本問（令和4年度午後第15問）の甲・乙建物という具体的な設定には依存しない構成にしている。そのため、「合体による登記等」（不動産登記法49条）が問われる他の年度・他の問題でも、同じ図をそのまま解法の道しるべとして使い回せる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2400 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, orange, purple, beige, gray), rounded panel sections,
+consistent with the same visual language as the whole-problem poster for
+this article, but built as a branching decision flowchart with 5 parallel
+lanes rather than a multi-card summary poster.
+
+FLOWCHART EXPLAINER REQUIREMENT: This image is a reusable judgment
+procedure for the topic "合体による登記等" (registration upon merger of
+buildings), not a summary of this one exam question's five options. It
+must NOT reference "甲建物" "乙建物" or any other question-specific
+building labels anywhere — describe building states only in general
+category terms such as "表題登記がない建物" (building with no title
+registration), "表題登記がある建物" (building with title registration
+only), and "所有権の登記がある建物" (building with an ownership
+registration). Diamond-shaped nodes are yes/no decision questions;
+rectangular nodes are outcome/conclusion boxes with a short rule
+statement; arrows connect them in a top-to-bottom flow within each lane.
+Written condition text inside nodes is allowed and expected (this is a
+flowchart, not a glanceable poster) — but keep each node to one short
+sentence, not a paragraph.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not
+paraphrase, translate, summarize, or substitute any characters. Pay
+special attention to the kanji 合・体・登・記・請・義・務・単・独・権・
+更・正・併・隔・壁・築, which have Simplified Chinese look-alike forms
+with visibly different stroke shapes — always draw the standard Japanese
+(Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart lanes — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+合体による登記等
+判定フローチャート
+
+Subtitle (smaller, centered, 2行):
+申請義務・申請人・登記の内容を一度に整理する解き方
+（令和4年度 午後の部 第15問 ほか共通）
+
+--- LANE A HEADER (pill badge, green) ---
+①いつまでに申請するか
+
+--- LANE A, NODE 1 (diamond, green) ---
+合体後に、表題部所有者・所有権登記名義人が
+更正登記や新たな持分の取得によって変わったか？
+
+--- LANE A, NODE 1a (rectangle outcome, green) ---
+変わっていない → 合体の日から1か月以内に申請
+（原則、法49条1項柱書）
+
+--- LANE A, NODE 1b (rectangle outcome, green) ---
+変わった → その更正登記・持分取得の日から
+1か月以内に申請（法49条3項・4項）
+
+--- LANE B HEADER (pill badge, blue) ---
+②誰が申請できるか
+
+--- LANE B, NODE 1 (diamond, blue) ---
+表題登記がない建物が合体前の建物に含まれており、
+その所有者が複数人（共有）か？
+
+--- LANE B, NODE 1a (rectangle outcome, blue) ---
+共有あり → 保存行為として共有者の一人から
+単独で申請できる（民法252条5項）
+
+--- LANE B, NODE 1b (rectangle outcome, blue) ---
+共有でない、または表題登記がある建物のみ →
+表題部所有者・所有権登記名義人が申請する
+
+--- LANE C HEADER (pill badge, orange) ---
+③何が「合体」にあたるか
+
+--- LANE C, NODE 1 (diamond, orange) ---
+一棟の建物に属する区分建物どうしの隔壁を除去して、
+1個の区分建物でない建物にしたか？
+
+--- LANE C, NODE 1a (rectangle outcome, orange) ---
+該当する → これも「合体」にあたる。合体後建物の
+表題登記＋合体前区分建物の表題部登記抹消を申請
+（法49条1項5号）
+
+--- LANE C, NODE 1b (rectangle outcome, orange) ---
+該当しない → 通常の合体（非区分建物どうし等）
+として①②の判定に進む
+
+--- LANE D HEADER (pill badge, purple) ---
+④所有権登記も併せて必要か
+
+--- LANE D, NODE 1 (diamond, purple) ---
+合体前の建物の組み合わせに、表題登記がない建物と
+所有権の登記がある建物の両方が含まれているか？
+
+--- LANE D, NODE 1a (rectangle outcome, purple) ---
+含まれる → 表題登記がない建物側の所有者を
+登記名義人とする所有権の登記も、合体による登記等と
+併せて申請する（法49条1項柱書後段）
+
+--- LANE D, NODE 1b (rectangle outcome, purple) ---
+含まれない（表題登記のみの建物どうし等） →
+所有権の登記を併せて申請する必要はない
+
+--- LANE E HEADER (pill badge, gray) ---
+⑤登記原因はどう記録するか
+
+--- LANE E, NODE 1 (diamond, gray) ---
+合体前の建物がいずれも表題登記がない建物か？
+
+--- LANE E, NODE 1a (rectangle outcome, gray) ---
+該当する → 各建物の新築年月日と合体の年月日を
+並べて「年月日新築、年月日新築、年月日合体」と記録
+（「年月日合体」のみでは足りない）
+
+--- LANE E, NODE 1b (rectangle outcome, gray) ---
+該当しない（表題登記がある建物を含む） →
+既存の登記記録を踏まえた個別の記録方法になるため、
+本フローチャートの対象外として条文・先例で別途確認する
+
+--- FOOTER ---
+Small credit text (2行):
+5つのレーンは独立して判定できる。1つの肢が複数の
+レーンにまたがることもある
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 合・体・登・記・請・義・務・単・独・権・更・正・併・隔・壁・
+築. If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm every node label matches
+the Japanese text given above verbatim, with no paraphrasing and no
+substituted characters, confirm that no node mentions "甲建物" "乙建物" or
+any other question-specific label (this flowchart must read as a
+general-purpose procedure), confirm the five lanes (①〜⑤) are clearly
+color-coded and visually separated with their pill-badge headers at the
+top of each lane, and confirm the entire canvas, edge to edge, is filled
+with a fully opaque background with no transparency or alpha channel
+anywhere.
+```
