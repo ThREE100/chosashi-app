@@ -211,3 +211,137 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（敷地権の判定フローチャート）
+
+上のポスター（問題全体）とは別に、この問題を解くときの**思考の手順そのもの**を判定フローチャートとして図解するプロンプト。「敷地権」というテーマで問われやすい3つの論点（①敷地権として一体化するか、②敷地権に変更が生じたときの手続、③分離処分するための手続）を、それぞれ独立したレーンとして分岐させており、本問（令和4年度午後第18問）の甲・乙・丙土地、丁・戊区分建物、A・Bという具体的な設定には依存しない構成にしている。そのため、敷地権・分離処分可能規約（区分所有法22条・31条、不動産登記法51条・73条）が問われる他の年度・他の問題でも、同じ図をそのまま解法の道しるべとして使い回せる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, orange, beige, gray), rounded panel sections, consistent
+with the same visual language as the whole-problem poster for this
+article, but built as a branching decision flowchart with 3 parallel
+lanes rather than a multi-card summary poster.
+
+FLOWCHART EXPLAINER REQUIREMENT: This image is a reusable judgment
+procedure for the topic "敷地権" (site-use rights registered as part of
+a sectioned/condominium unit), not a summary of this one exam question's
+five options. It must NOT reference "甲土地" "乙土地" "丙土地" "丁区分
+建物" "戊区分建物" "Ａ" "Ｂ" or any other question-specific label
+anywhere — describe roles and objects only in general category terms
+such as "区分所有者" (unit owner), "敷地利用権" (site-use right), "専有
+部分" (exclusively-owned unit), and "敷地権" (site right registered on
+the unit). Diamond-shaped nodes are yes/no decision questions;
+rectangular nodes are outcome/conclusion boxes with a short rule
+statement; arrows connect them in a top-to-bottom flow within each lane.
+Written condition text inside nodes is allowed and expected (this is a
+flowchart, not a glanceable poster) — but keep each node to one or two
+short sentences, not a paragraph.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not
+paraphrase, translate, summarize, or substitute any characters. Pay
+special attention to the kanji 権・地・建・物・登・記・処・約・議・決・
+抹・消, which have Simplified Chinese look-alike forms with visibly
+different stroke shapes — always draw the standard Japanese (Jōyō) form
+of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart lanes — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+敷地権
+判定フローチャート
+
+Subtitle (smaller, centered, 2行):
+一体化・変更登記・分離処分の3段階で整理する解き方
+（令和4年度 午後の部 第18問 ほか共通）
+
+--- LANE A HEADER (pill badge, green) ---
+①敷地権として一体化するか
+
+--- LANE A, NODE 1 (diamond, green) ---
+区分所有者が有する敷地利用権（登記された所有権・
+地上権・賃借権等）は、その者の専有部分と分離して
+処分できない権利にあたるか？
+
+--- LANE A, NODE 1a (rectangle outcome, green) ---
+あたる（原則） → 共有持分であっても単独所有で
+あっても一体化し、その権利（共有持分を含む）が、
+その専有部分の敷地権として登記される
+（区分所有法22条1項本文・3項）
+
+--- LANE B HEADER (pill badge, blue) ---
+②敷地権に変更が生じたときの手続
+
+--- LANE B, NODE 1 (diamond, blue) ---
+区分建物の登記後に、新たに規約で敷地とされる等、
+敷地権の内容に変更が生じたか？
+
+--- LANE B, NODE 1a (rectangle outcome, blue) ---
+生じた → その変更があった日から1か月以内に、
+区分建物の表題部変更登記を申請しなければならない
+（不動産登記法51条1項）
+
+--- LANE B, NODE 1b (rectangle outcome, blue) ---
+生じていない → 変更登記は不要
+
+--- LANE C HEADER (pill badge, orange) ---
+③分離処分するための手続
+
+--- LANE C, NODE 1 (diamond, orange) ---
+敷地権付き区分建物の専有部分と敷地利用権を、
+分離して処分したいか？
+
+--- LANE C, NODE 1a (rectangle outcome, orange) ---
+分離したくない → 敷地権付きのまま、専有部分と
+セットでのみ処分できる
+
+--- LANE C, NODE 1b (rectangle outcome, orange) ---
+分離したい → まず分離処分可能規約が必要（区分所有
+法22条1項ただし書）。規約の設定には、集会に区分
+所有者及び議決権の各過半数が出席したうえで、出席
+した区分所有者及び議決権の各4分の3以上の賛成が
+必要（区分所有法31条1項）。一部の区分建物について
+のみ設定することもできる
+
+--- LANE C, NODE 2 (rectangle outcome, orange, follows 1b) ---
+規約設定後 → 敷地権の登記があるままでは土地だけの
+権利移転はできないため、区分建物の表題部変更登記
+により敷地権の登記を抹消しておく必要がある
+（不動産登記法73条2項）
+
+--- FOOTER ---
+Small credit text (2行):
+3つのレーンは独立して判定できる。1つの肢が複数の
+レーンにまたがることもある
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・地・建・物・登・記・処・約・議・決・抹・消. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm every node label matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters, confirm that no node mentions "甲土地" "乙土地"
+"丙土地" "丁区分建物" "戊区分建物" "Ａ" "Ｂ" or any other
+question-specific label (this flowchart must read as a general-purpose
+procedure), confirm the three lanes (①〜③) are clearly color-coded and
+visually separated with their pill-badge headers at the top of each
+lane, and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
