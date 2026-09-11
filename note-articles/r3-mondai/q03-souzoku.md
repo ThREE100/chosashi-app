@@ -226,3 +226,104 @@ the header and the cards, and confirm that no card contains a full
 sentence of explanatory prose or legal citation — every card's takeaway
 must read as a short heading + a short conclusion tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ウ肢・間違いノート）
+
+肢ウ「遺産共有の解消は、共有物分割請求ではなく遺産分割で行う」について、「法定相続分に相当する共有持分がある」という事実と「どの手続で解消するか」を混同しやすい点を、原則（家庭裁判所の遺産分割）→例外（民法258条の2、令和5年4月1日施行、10年経過＋異議なし）の2段階フローチャートで整理した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 権・地・所・続・産・
+議・割・廷, which have visibly different Simplified Chinese forms —
+always draw the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+遺産共有の解消は
+「遺産分割」でするんです
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後の部 第3問 肢ウ
+共有物分割請求ではなく家庭裁判所へ
+
+--- FLOWCHART (2段階フローチャート、縦方向に上から下へ) ---
+
+Top node (rounded rectangle, beige background):
+複数の相続人が不動産を共有している
+（遺産共有の状態）
+
+Arrow down, labeled with a small question mark icon, to a decision
+diamond:
+Decision diamond text:
+相続開始から10年経過し、かつ
+相続人が異議を申し出ていないか？
+
+Left branch (arrow labeled "いいえ／原則", pointing to a green panel):
+Green panel icon: a courthouse building icon labeled "家庭裁判所", with
+a document icon labeled "遺産分割の請求" and a green checkmark ✓ beside
+it. A small torn-paper label beside the courthouse reads "民法906条以下"。
+Green panel short text (below icon, one line):
+原則：家庭裁判所で遺産分割
+
+Right branch (arrow labeled "はい／例外", pointing to a blue panel):
+Blue panel icon: a different courthouse building icon labeled "地方
+裁判所", with a document icon labeled "共有物分割請求（民法256条1項）"
+and a green checkmark ✓ beside it. A small torn-paper label reads
+"民法258条の2（令和5年4月1日施行）"。
+Blue panel short text (below icon, one line):
+例外：地方裁判所でも可
+
+Small icon between the decision diamond and the right branch: a
+crossed-out red ✕ mark over a document icon labeled "共有物分割請求
+（民法256条1項）", positioned near the left/beige side, to visually
+show that using ordinary co-ownership division BEFORE the 10-year mark
+(or without satisfying the no-objection condition) is NOT allowed.
+
+--- CALLOUT: 誤りやすいポイント ---
+Callout box (rounded rectangle, soft yellow background, positioned
+below the flowchart):
+Heading (bold, one line):
+誤りやすいポイント
+Body text (verbatim, 2-3 sentences):
+「法定相続分に相当する共有持分がある」ことは事実でも、それだけでは民法256条
+1項の共有物分割請求をすぐに使えるわけではありません。遺産共有の解消は、原則
+として家庭裁判所への遺産分割の請求によるべきとされています（判例）。「持分が
+ある」ことと「どの手続で解消するか」は別問題という点を混同しないよう注意し
+ましょう。
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font):
+民法256条1項／民法258条の2（令和5年4月1日施行）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay special
+attention to 権・地・所・続・産・議・割・廷. Confirm every heading, node
+label, and callout text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters. Confirm the flowchart
+reads top-to-bottom with exactly one decision diamond and two labeled
+branches (原則=green/家庭裁判所, 例外=blue/地方裁判所), and confirm the
+crossed-out ✕ icon appears only near the left (原則) side to show that
+ordinary co-ownership division is barred unless the exception condition
+is met.
+```
