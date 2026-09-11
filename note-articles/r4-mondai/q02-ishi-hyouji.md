@@ -206,3 +206,147 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（意思表示・第三者保護の判定フローチャート）
+
+上のポスター（問題全体）とは別に、この問題を解くときの**思考の手順そのもの**を判定フローチャートとして図解するプロンプト。虚偽表示・詐欺・強迫のいずれについても、①どの制度が問われているか→②第三者の保護要件（善意で足りるか・無過失まで必要か）→③善意者が途中に介在していないか、という3段階の判定手順に沿って分岐させており、本問（令和4年度午後第2問）の具体的な人物名（A・B・C・D）や事実関係には依存しない構成にしている。そのため、虚偽表示（民法94条2項）・詐欺（民法96条3項）・強迫（民法96条、第三者保護規定なし）の第三者保護が問われる他の年度・他の問題でも、同じ図をそのまま解法の道しるべとして使い回せる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, orange, beige, gray), rounded panel sections, consistent
+with the same visual language as the whole-problem poster for this
+article, but built as a branching decision flowchart rather than a
+multi-card summary poster.
+
+FLOWCHART EXPLAINER REQUIREMENT: This image is a reusable judgment
+procedure, not a summary of this one exam question's five options. It
+must NOT reference figures "A" "B" "C" "D" or the specific facts of this
+problem (甲土地 etc.) anywhere. Every node must be phrased as a general
+rule that applies to any exam question about 虚偽表示・詐欺・強迫 and
+third-party protection. Diamond-shaped nodes are yes/no decision
+questions; rectangular nodes are outcome/conclusion boxes with a ○ or ×
+badge; arrows connect them in a top-to-bottom flow. Written condition
+text inside nodes is allowed and expected (this is a flowchart, not a
+glanceable poster) — but keep each node to one short sentence or phrase,
+not a paragraph.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not
+paraphrase, translate, summarize, or substitute any characters. Pay
+special attention to the kanji 偽・欺・迫・対・転・継・悪・過・失・権・
+善・意・護, which have Simplified Chinese look-alike forms with visibly
+different stroke shapes — always draw the standard Japanese (Jōyō) form
+of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+意思表示×第三者保護
+判定フローチャート
+
+Subtitle (smaller, centered, 2行):
+虚偽表示・詐欺・強迫のどれが問われても使える解き方
+（令和4年度 午後の部 第2問 ほか共通）
+
+--- START NODE (top, rounded rectangle, gray) ---
+肢の中の「あとから登場した人」は、虚偽表示・詐欺・強迫の
+どれを前提にしているか？
+
+（START NODEから3方向に矢印が分岐し、下に色分けされた3本のレーンが
+並ぶ。レーンA＝緑「虚偽表示」、レーンB＝青「詐欺」、レーンC＝オレンジ
+「強迫」。各レーンの最上部にそのレーン名のピル型バッジを置く。）
+
+--- LANE A HEADER (pill badge, green) ---
+虚偽表示（民法94条2項）
+
+--- LANE A, NODE 1 (diamond, green) ---
+その人は、虚偽表示を基礎に新しく取引に入った人か？
+それとも単なる相続人（包括承継人）か？
+
+--- LANE A, NODE 1a (rectangle outcome, green, ✕ badge) ---
+包括承継人 → 「第三者」にあたらない
+→ 保護されない
+
+--- LANE A, NODE 2 (diamond, green) ---
+（新しく取引に入った人の場合）
+その人は善意か？（虚偽表示だと知らなかったか）
+
+--- LANE A, NODE 2a (rectangle outcome, green, ✕ badge) ---
+悪意 → 保護されない
+
+--- LANE A, NODE 3 (diamond, green) ---
+（悪意だった場合でも）
+その人より前に、善意の第三者が一度でも介在したか？
+（絶対的構成）
+
+--- LANE A, NODE 3a (rectangle outcome, green, ○ badge) ---
+介在あり → 善意者から確定的に権利取得
+→ 登記なしで保護される
+
+--- LANE A, NODE 3b (rectangle outcome, green, ✕ badge) ---
+介在なし → 保護されない
+
+--- LANE A, NODE 2b (rectangle outcome, green, ○ badge) ---
+善意 → 登記なしで保護される
+
+--- LANE B HEADER (pill badge, blue) ---
+詐欺（民法96条3項）
+
+--- LANE B, NODE 1 (diamond, blue) ---
+その人は善意、かつ無過失か？
+（善意でも過失があれば足りない）
+
+--- LANE B, NODE 1a (rectangle outcome, blue, ○ badge) ---
+善意かつ無過失 → 保護される
+（取消しを対抗されない）
+
+--- LANE B, NODE 1b (rectangle outcome, blue, ✕ badge) ---
+悪意、または善意でも過失あり → 保護されない
+（取消しを対抗される）
+
+--- LANE C HEADER (pill badge, orange) ---
+強迫（第三者保護規定なし）
+
+--- LANE C, NODE 1 (rectangle, orange, no diamond — this is a fact, not
+a yes/no question) ---
+強迫には、詐欺のような第三者保護規定（96条3項）が
+存在しない
+
+--- LANE C, NODE 1a (rectangle outcome, orange, ✕ badge) ---
+善意・無過失であっても → 常に保護されない
+（取消しを対抗される）
+
+--- FOOTER ---
+Small credit text (2行):
+「虚偽表示＝善意で足り登記不要」「詐欺＝善意無過失が必要」
+「強迫＝第三者保護なし」という保護の強さの序列がカギ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 偽・欺・迫・対・転・継・悪・過・失・権・善・意・護. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm every node label matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters, confirm that no node mentions the specific
+figures "A" "B" "C" "D" or the facts of this particular exam question
+(this flowchart must read as a general-purpose procedure), confirm the
+three lanes (虚偽表示・詐欺・強迫) are clearly color-coded and visually
+separated, and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
