@@ -165,13 +165,11 @@ Conclusion tag (green banner, 5-15 Japanese characters):
 
 --- FOOTER ---
 
-注意：特に「識」「別」「証」「明」「効」「継」の各漢字は、簡体字ではなく
-標準的な日本語の常用漢字の字形で描画すること。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly (3 in
+Final check before rendering: scan every kanji glyph, paying special
+attention to 識・別・証・明・効・継, and confirm each is standard Japanese
+(Jōyō) form, not Simplified Chinese. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 5 exactly (3 in
 column A, 2 in column B), with no duplicated or missing cards, that badge
 numbers run 1-5 continuously across both columns without resetting,
 confirm there is no intro illustration or paragraph block between the
@@ -239,13 +237,11 @@ more items than the LEFT column — do not force artificial row-pairing).
 
 --- FOOTER ---
 
-注意：特に「資」「格」「証」「明」「委」「任」「継」の各漢字は、簡体字では
-なく標準的な日本語の常用漢字の字形で描画すること。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the LEFT column has exactly 2 items and the
+Final check before rendering: scan every kanji glyph, paying special
+attention to 資・格・証・明・委・任・継, and confirm each is standard
+Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the LEFT column has exactly 2 items and the
 RIGHT column has exactly 4 items, with no duplicated or missing items,
 confirm there is no intro illustration or paragraph block between the
 header and the columns, and confirm that no item contains a full sentence
@@ -317,13 +313,11 @@ RIGHT conclusion tag: 本人確認の代替手段
 
 --- FOOTER ---
 
-注意：特に「委」「任」「識」「別」「証」「確」「認」の各漢字は、簡体字では
-なく標準的な日本語の常用漢字の字形で描画すること。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm there are exactly 2 comparison blocks
+Final check before rendering: scan every kanji glyph, paying special
+attention to 委・任・識・別・証・確・認, and confirm each is standard
+Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm there are exactly 2 comparison blocks
 stacked vertically, each with a LEFT and RIGHT side, with no duplicated or
 missing blocks, confirm there is no intro illustration or paragraph block
 between the header and the comparison blocks, and confirm that no item

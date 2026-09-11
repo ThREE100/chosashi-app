@@ -108,11 +108,55 @@ def table_block_to_bullets_html(table_block):
     return "<ul>\n" + "\n".join(items) + "\n</ul>"
 
 
+_HEADING_RE = re.compile(r"^(#{1,6})\s*(.*?)\s*$")
+_IMAGE_SUBHEADING_RE = re.compile(r"^画像\s*\d")
+
+
+def strip_infographic_section(md_text):
+    """
+    「インフォグラフィック プロンプト」セクションを、記事内での出現位置に関わらず
+    (確認事項ブロックや見出し画像用フレーズより前に置かれている記事――
+    bunya-kaisetsu配下の記事や一部のtopics記事に実在する構成――でも)本文から
+    切り落とす。
+
+    このセクション配下の「### 画像N：...」小見出しは、記事によっては
+    セクション本体の見出し(`## インフォグラフィック プロンプト`)と同じ見出し
+    レベル(`###`)で書かれていることがあり(例:topics/ittouki-isshinsei-gensoku.md)、
+    単純な「次の見出しで区切る」正規表現だけでは1枚目の画像の手前で止まってしまい
+    2枚目以降が除外されずに残ってしまう。そのため見出し行を1行ずつ走査し、
+    「画像」で始まる見出しはセクション本体の一部とみなして読み飛ばし、それ以外の
+    見出しが現れた時点をセクションの終端とする。
+
+    (2026-09-11判明: 確認事項ブロックより前にインフォグラフィックの節がある
+    記事で、GPT Imageプロンプトの英文がそのままnote本文として出力される事故が
+    発生したための対策)
+    """
+    lines = md_text.split("\n")
+    out = []
+    i = 0
+    n = len(lines)
+    while i < n:
+        m = _HEADING_RE.match(lines[i])
+        if m and m.group(2) == "インフォグラフィック プロンプト":
+            i += 1
+            while i < n:
+                m2 = _HEADING_RE.match(lines[i])
+                if m2 and not _IMAGE_SUBHEADING_RE.match(m2.group(2)):
+                    break
+                i += 1
+            continue
+        out.append(lines[i])
+        i += 1
+    return "\n".join(out)
+
+
 def strip_excluded_sections(md_text):
     """
     確認事項ブロックと、その後の「参照した過去問記事一覧」等の出典メモ見出し
     以降を本文から除外する。
     """
+    md_text = strip_infographic_section(md_text)
+
     # 確認事項ブロックの開始位置(直前の "---" ごと切り落とす)。
     # 「## 見出し画像用フレーズ」の手前で止める(非貪欲マッチ)ことで、
     # 確認事項ブロックの後ろに続く見出し画像用フレーズ節を巻き込まないようにする。

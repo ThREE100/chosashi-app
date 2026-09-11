@@ -244,13 +244,11 @@ Conclusion tag (green):
 
 --- FOOTER ---
 
-注意：特に「登」「記」「建」「物」「所」の各漢字は、簡体字ではなく
-標準的な日本語の常用漢字の字形で描画すること。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 6 exactly, with
+Final check before rendering: scan every kanji glyph, paying special
+attention to 登・記・建・物・所, and confirm each is standard Japanese
+(Jōyō) form, not Simplified Chinese. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the number of cards equals 6 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
@@ -311,12 +309,10 @@ duplicated or missing rows:
 
 --- FOOTER ---
 
-注意：特に「証」「明」「登」「記」の各漢字は、簡体字ではなく標準的な
-日本語の常用漢字の字形で描画すること。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+Final check before rendering: scan every kanji glyph, paying special
+attention to 証・明・登・記, and confirm each is standard Japanese (Jōyō)
+form, not Simplified Chinese. If any character renders as a Simplified
+Chinese variant, redraw that character in the
 correct Japanese form. Confirm the table has exactly 4 data rows plus the
 header row, with no duplicated or missing rows, confirm there is no intro
 illustration or paragraph block between the header and the table, and
@@ -541,12 +537,10 @@ Right illustration: 承諾書のアイコンに赤い✕マークと「原本提
 
 --- FOOTER ---
 
-注意：特に「例」「調」「査」「報」「告」「登」「記」の各漢字は、簡体字
-ではなく標準的な日本語の常用漢字の字形で描画すること。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+Final check before rendering: scan every kanji glyph, paying special
+attention to 例・調・査・報・告・登・記, and confirm each is standard
+Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
+a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm there are exactly 4 rows, with no
 duplicated or missing rows, confirm there is no intro illustration or
 paragraph block between the header and the comparison rows, and confirm
@@ -607,12 +601,10 @@ duplicated or missing rows:
 
 --- FOOTER ---
 
-注意：特に「調」「査」「報」「告」「証」「明」の各漢字は、簡体字ではなく
-標準的な日本語の常用漢字の字形で描画すること。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+Final check before rendering: scan every kanji glyph, paying special
+attention to 調・査・報・告・証・明, and confirm each is standard Japanese
+(Jōyō) form, not Simplified Chinese. If any character renders as a
+Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the table has exactly 4 data rows plus the
 header row, with no duplicated or missing rows, confirm there is no intro
 illustration or paragraph block between the header and the table, and
@@ -803,12 +795,10 @@ Illustration: 2つの小さな書類アイコンを横に並べる。1つ目は�
 「抵当権抹消の承諾書」のラベル付き書類アイコン（抵当権者の印）。両方の
 アイコンに緑のチェックマークと「3か月ルールなし」の小さなラベル。
 
-注意：特に「印」「鑑」「証」「明」「請」「委」「任」「諾」の各漢字は、
-簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+Final check before rendering: scan every kanji glyph, paying special
+attention to 印・鑑・証・明・請・委・任・諾, and confirm each is standard
+Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
+a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of main cards equals 4 exactly
 (3 in column A, 1 in column B), with no duplicated or missing cards, that
 badge numbers run 1-4 continuously across both columns without resetting,
@@ -935,12 +925,10 @@ Conclusion tag (green banner, 5-15 Japanese characters):
 
 --- FOOTER ---
 
-注意：特に「印」「鑑」「証」「明」「請」「託」の各漢字は、簡体字ではなく
-標準的な日本語の常用漢字の字形で描画すること。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+Final check before rendering: scan every kanji glyph, paying special
+attention to 印・鑑・証・明・請・託, and confirm each is standard Japanese
+(Jōyō) form, not Simplified Chinese. If any character renders as a
+Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 7 exactly (4 in
 column A, 3 in column B), with no duplicated or missing cards, that badge
 numbers run 1-7 continuously across both columns without resetting,

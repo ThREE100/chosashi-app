@@ -139,13 +139,11 @@ Conclusion tag (blue banner, 5-15 Japanese characters):
 
 --- FOOTER ---
 
-注意：特に「共」「担」「保」「録」「登」「記」「筆」の各漢字は、簡体字では
-なく標準的な日本語の常用漢字の字形で描画すること。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 4 exactly, with
+Final check before rendering: scan every kanji glyph, paying special
+attention to 共・担・保・録・登・記・筆, and confirm each is standard
+Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 4 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
@@ -207,13 +205,11 @@ Right conclusion tag: 作成されない
 
 --- FOOTER ---
 
-注意：特に「共」「担」「保」「録」「登」「記」「筆」「仮」の各漢字は、
-簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm there are exactly 2 columns (LEFT and
+Final check before rendering: scan every kanji glyph, paying special
+attention to 共・担・保・録・登・記・筆・仮, and confirm each is standard
+Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm there are exactly 2 columns (LEFT and
 RIGHT), each with exactly one illustration and one conclusion tag, with no
 duplicated or missing elements, confirm there is no intro illustration or
 paragraph block between the header and the columns, and confirm that no

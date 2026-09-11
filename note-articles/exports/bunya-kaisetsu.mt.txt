@@ -445,56 +445,7 @@ BODY:
 <li>この委任状不要の特例は「登記識別情報に関する証明の請求」に限られ、通常の登記申請の代理には適用されない。</li>
 <li>「本人確認情報の提供」（登記識別情報を提供できない場合に事前通知を省略する制度）とは別の制度である。</li>
 </ul>
-<p>## インフォグラフィック プロンプト</p>
-<p>以下は画像生成AI（GPT Image等）に投入するためのプロンプト文です。画像そのものはここでは生成しません。すべて縦長（ポートレート）レイアウトで作成しています。</p>
-<h3>画像1：登記識別情報に関する証明、3種類の証明と請求できる人（俯瞰カードポスター型）</h3>
-<p>``` Create a Japanese-language infographic, portrait layout, 1080x1700 pixels, clean flat-design isometric illustration style with soft pastel colors (blue, green, beige, gray), rounded card sections, consistent with a modern explainer-graphic aesthetic (icons: a 12-digit code/password icon, a document with a seal, a calendar icon, a person icon, an envelope with an X mark — adapt icon set to the topic).</p>
-<p>GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster, NOT a text-heavy explainer document. There is NO intro illustration and NO paragraph of prose anywhere on this poster — go straight from the header to the cards. Every card must communicate its point almost entirely through the illustration (icons, X marks, checkmarks, small embedded labels) plus one short heading and one short conclusion tag. Do NOT render any full-sentence explanation, legal citation, or paragraph of body text anywhere on the poster. If a piece of information cannot be expressed as a short label (a few words) or drawn as an icon, leave it out rather than writing it as prose.</p>
-<p>CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use Simplified Chinese characters (simplified hanzi) under any circumstances, even if a character looks similar. Every kanji must match standard Japanese orthography exactly as written below, stroke-for-stroke. Reproduce the exact text strings given below verbatim — do not paraphrase, translate, summarize, or substitute any characters.</p>
-<p>--- HEADER --- Title (large, bold, 1行): 登記識別情報に関する証明とは</p>
-<p>Subtitle (smaller, centered, 1行): 3種類の証明と、請求できる人</p>
-<p>（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の ブロックは置かない。）</p>
-<p>--- COLUMN A HEADER (pill-shaped badge, color: blue) --- 証明できる3つの内容</p>
-<p>--- COLUMN A, CARD 1 --- Badge: a filled circle in blue containing the number 1 (numbers run continuously across all columns — do not restart at 1 in column B). Heading (bold, ONE line, ~20 Japanese characters or fewer): 有効証明 Illustration: 12桁の符号アイコンに緑のチェックマーク、「今も有効」の 小さなラベル。 Conclusion tag (blue banner, 5-15 Japanese characters): 今も有効</p>
-<p>--- COLUMN A, CARD 2 --- Badge: a filled circle in blue containing the number 2. Heading (bold, ONE line, ~20 Japanese characters or fewer): 失効証明 Illustration: 12桁の符号アイコンに赤い✕マーク、「失効済み」の小さな ラベル。 Conclusion tag (blue banner, 5-15 Japanese characters): すでに失効</p>
-<p>--- COLUMN A, CARD 3 --- Badge: a filled circle in blue containing the number 3. Heading (bold, ONE line, ~20 Japanese characters or fewer): 不通知証明 Illustration: 空の封筒アイコンに「通知なし」の小さなラベル。 Conclusion tag (blue banner, 5-15 Japanese characters): そもそも通知なし</p>
-<p>--- COLUMN B HEADER (pill-shaped badge, color: green) --- 請求できる人・できない人</p>
-<p>--- COLUMN B, CARD 4 --- Badge: a filled circle in green containing the number 4 (continuing the numbering from column A). Heading (bold, ONE line, ~20 Japanese characters or fewer): 登記名義人・相続人等は請求できる Illustration: 登記名義人の人物アイコンと、その相続人を示す人物アイコン、 両方に緑のチェックマーク。 Conclusion tag (green banner, 5-15 Japanese characters): 令22条1項</p>
-<p>--- COLUMN B, CARD 5 --- Badge: a filled circle in green containing the number 5. Heading (bold, ONE line, ~20 Japanese characters or fewer): 利害関係人は請求できない Illustration: 不動産を買おうとしている第三者の人物アイコンに赤い✕ マーク。 Conclusion tag (green banner, 5-15 Japanese characters): 自分の名では不可</p>
-<p>--- FOOTER ---</p>
-<p>注意：特に「識」「別」「証」「明」「効」「継」の各漢字は、簡体字ではなく 標準的な日本語の常用漢字の字形で描画すること。</p>
-<p>Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese. If any character renders as a Simplified Chinese variant, redraw that character in the correct Japanese form. Confirm the number of cards equals 5 exactly (3 in column A, 2 in column B), with no duplicated or missing cards, that badge numbers run 1-5 continuously across both columns without resetting, confirm there is no intro illustration or paragraph block between the header and the cards, and confirm that no card contains a full sentence of explanatory prose — every card's takeaway must read as a short heading + a short conclusion tag, at a glance. ```</p>
-<h3>画像2：資格者代理人が代理請求するとき、必要な情報・不要な情報（対比表型）</h3>
-<p>``` Create a Japanese-language infographic, portrait layout, 1080x1500 pixels, clean flat-design isometric illustration style with soft pastel colors (blue, green, beige, gray), rounded two-column comparison layout, consistent with a modern explainer-graphic aesthetic (icons: a seal/hanko certificate icon, an electronic certificate icon, a power-of-attorney document icon with a strike-through, a company building icon — adapt icon set to the topic).</p>
-<p>GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster, NOT a text-heavy explainer document. There is NO intro illustration and NO paragraph of prose anywhere on this poster — go straight from the header to the two columns. Every item must communicate its point almost entirely through a short label plus a small icon. Do NOT render any full-sentence explanation or paragraph of body text anywhere on the poster.</p>
-<p>CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use Simplified Chinese characters (simplified hanzi) under any circumstances, even if a character looks similar. Every kanji must match standard Japanese orthography exactly as written below, stroke-for-stroke. Reproduce the exact text strings given below verbatim — do not paraphrase, translate, summarize, or substitute any characters.</p>
-<p>--- HEADER --- Title (large, bold, 2行): 資格者代理人が代理請求するとき 必要な情報・不要な情報</p>
-<p>Subtitle (smaller, centered, 1行): 土地家屋調査士・司法書士・弁護士が代理する場合</p>
-<p>（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の ブロックは置かない。）</p>
-<p>--- LEFT COLUMN HEADER (pill-shaped badge, color: green) --- 必要な情報</p>
-<p>Item 1: 書面請求　所属団体発行の職印に関する証明書（3か月以内） Item 2: オンライン請求　連合会発行の電子証明書</p>
-<p>--- RIGHT COLUMN HEADER (pill-shaped badge, color: red) --- 不要な情報</p>
-<p>Item 3: 代理人の権限を証する情報（委任状） Item 4: 法人代表者の資格を証する情報 Item 5: 住所変更を証する情報 Item 6: 相続その他の一般承継を証する情報</p>
-<p>Layout: LEFT column items use a green checkmark icon before each label. RIGHT column items use a red strike-through document icon before each label. Place LEFT COLUMN item pairs and RIGHT COLUMN item pairs so that the two columns read as clearly separated blocks (the RIGHT column has more items than the LEFT column — do not force artificial row-pairing).</p>
-<p>--- FOOTER ---</p>
-<p>注意：特に「資」「格」「証」「明」「委」「任」「継」の各漢字は、簡体字では なく標準的な日本語の常用漢字の字形で描画すること。</p>
-<p>Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese. If any character renders as a Simplified Chinese variant, redraw that character in the correct Japanese form. Confirm the LEFT column has exactly 2 items and the RIGHT column has exactly 4 items, with no duplicated or missing items, confirm there is no intro illustration or paragraph block between the header and the columns, and confirm that no item contains a full sentence of explanatory prose. ```</p>
-<h3>画像3：委任状不要の特例は「証明請求」だけ、他の制度と混同しない（対比表型）</h3>
-<p>``` Create a Japanese-language infographic, portrait layout, 1080x1600 pixels, clean flat-design isometric illustration style with soft pastel colors (blue, green, beige, gray), rounded two-column comparison layout with two stacked comparison blocks, consistent with a modern explainer-graphic aesthetic (icons: a power-of-attorney document icon, a registration application document icon, a face-to-face interview icon, an ID verification icon — adapt icon set to the topic).</p>
-<p>GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster, NOT a text-heavy explainer document. There is NO intro illustration and NO paragraph of prose anywhere on this poster — go straight from the header to the comparison blocks. Every item must communicate its point almost entirely through a short label plus a small icon. Do NOT render any full-sentence explanation or paragraph of body text anywhere on the poster.</p>
-<p>CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use Simplified Chinese characters (simplified hanzi) under any circumstances, even if a character looks similar. Every kanji must match standard Japanese orthography exactly as written below, stroke-for-stroke. Reproduce the exact text strings given below verbatim — do not paraphrase, translate, summarize, or substitute any characters.</p>
-<p>--- HEADER --- Title (large, bold, 2行): 委任状が不要になるのは 「証明請求」のときだけ</p>
-<p>Subtitle (smaller, centered, 1行): 2つの勘違いポイントを整理する</p>
-<p>（タイトル・サブタイトルのすぐ下に比較ブロックを続ける。導入イラスト・ 導入文のブロックは置かない。）</p>
-<p>--- COMPARISON BLOCK 1 (headed by a small label: 委任状の要否) --- LEFT (pill badge, color: green): 登記識別情報に関する証明の請求 LEFT illustration: 証明請求の書類アイコンの横に、委任状の書類アイコンに 赤い✕マーク。 LEFT conclusion tag: 委任状は不要</p>
-<p>RIGHT (pill badge, color: red): 合筆の登記など、通常の登記の申請 RIGHT illustration: 登記申請の書類アイコンの横に、委任状の書類アイコン に緑のチェックマーク。 RIGHT conclusion tag: 委任状が必要</p>
-<p>--- COMPARISON BLOCK 2 (headed by a small label: 名前が似ている別の制度) --- LEFT (pill badge, color: green): 登記識別情報に関する証明 LEFT illustration: 12桁の符号アイコンに虫眼鏡アイコン、「有効・失効・ 不通知を確認」の小さなラベル。 LEFT conclusion tag: 符号の有効性を確認</p>
-<p>RIGHT (pill badge, color: blue): 本人確認情報の提供 RIGHT illustration: 資格者代理人の人物アイコンと申請人の人物アイコンが 面談している様子、「事前通知を省略」の小さなラベル。 RIGHT conclusion tag: 本人確認の代替手段</p>
-<p>（各ブロックは左右で同じ高さに揃えて配置する。2つのブロックは縦に 積み重ねて配置する。）</p>
-<p>--- FOOTER ---</p>
-<p>注意：特に「委」「任」「識」「別」「証」「確」「認」の各漢字は、簡体字では なく標準的な日本語の常用漢字の字形で描画すること。</p>
-<p>Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese. If any character renders as a Simplified Chinese variant, redraw that character in the correct Japanese form. Confirm there are exactly 2 comparison blocks stacked vertically, each with a LEFT and RIGHT side, with no duplicated or missing blocks, confirm there is no intro illustration or paragraph block between the header and the comparison blocks, and confirm that no item contains a full sentence of explanatory prose. ```</p>
-<h3>見出し画像用フレーズ</h3>
+<p>## 見出し画像用フレーズ</p>
 <ul>
 <li>調査士の代理請求、委任状はいらないんです</li>
 <li>証明できるのは「有効」だけじゃないんです</li>
@@ -502,6 +453,8 @@ BODY:
 <li>委任状不要なのは「証明請求」だけなんです</li>
 <li>本人確認情報とは、実は別の制度なんです</li>
 </ul>
+<p>## アイキャッチ用ワンフレーズ（候補5案）</p>
+<p>1. 代理請求、委任状は不要 2. 委任状いらずの特例です 3. 証明請求、3種類あるんです 4. 利害関係人は請求できない 5. 「証明」と「本人確認」は別物</p>
 -----
 --------
 
