@@ -69,6 +69,7 @@
 - 各肢の条文根拠（ア＝規則28条4号、イ＝規則28条の2第6号、ウ＝規則28条13号、エ＝規則235条1項1号・2号、オ＝規則28条9号）は、データベースのexplanationフィールドおよびkaisetsu_plus.jsonに条文番号まで明記されているものを転記しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
 - **ウ肢の解説を補足（2026-08-19実施）**：ウ肢の解説が閉鎖後30年の説明のみで、現用（閉鎖されていない）場合は永久保存であるという原則（規則28条13号）に触れていなかったため、他の肢（ア）と同様に原則・例外の両方を明記するよう修正しました。あわせてインフォグラフィックCARD3にも現用/閉鎖後の対比イラストを追加しています。
+- **ユーザー提示の図解案を検証・修正して画像2として追加（2026-09-11実施）**：ユーザーから提示された「永久保存と、閉鎖後の保存期間の切替え」という図解案（この問題の5肢そのものではなく、規則28条の関連知識全体を俯瞰する内容）を`note-articles/laws/fudousan-touki-kisoku-1.md`の条文本文と突き合わせたところ、2点の不正確な記載を発見しました。(1) 地役権図面の保存期間を単に「有限保存」とだけ表示していましたが、規則28条14号は「閉鎖した日から三十年間」と具体的な年数を定めているため、他の項目と同じ粒度で「30年」と明記するよう修正しました。(2) 永久保存の対象を並べたカードの注記が「まずは現に有効な状態が前提」と4項目一律に述べていましたが、地図及び地図に準ずる図面（規則28条2号）・建物所在図（同3号）は条文上「閉鎖したものを含む」と明記されており閉鎖後も永久のままであるため（現用が前提なのは登記記録＝1号と土地所在図等＝13号のみ）、この2点のみに限定する表現に修正しました。修正済みのプロンプトを画像2として追加しています。
 
 ---
 
@@ -83,6 +84,8 @@
 ---
 
 ## インフォグラフィック プロンプト（問題全体）
+
+### 画像1：問題の5肢を俯瞰するポスター
 
 登記記録等の保存期間について、「30年組」と紛らわしい特別な年数の2枚と、30年保存のグループの3枚を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
@@ -202,4 +205,134 @@ is no intro illustration or paragraph block between the header and the
 cards, and confirm that no card contains a full sentence of explanatory
 prose — every card's takeaway must read as a short heading + a short
 conclusion tag, at a glance.
+```
+
+### 画像2：永久保存と、閉鎖後の保存期間の切替え（規則28条の関連知識まとめ）
+
+この問題の5肢そのものではなく、関連する背景知識として、規則28条が定める「永久保存の対象」「閉鎖後も永久のまま残るもの」「閉鎖後は有限の保存期間になるもの」の全体像を整理する図解。ユーザーから提示された図解案を条文（規則28条・235条1項)と照合したところ、「閉鎖後は有限の保存期間になるもの」のカードで地役権図面を単に「有限保存」とだけ表示していた点が不正確だった（規則28条14号は地役権図面の保存期間を「閉鎖した日から三十年間」と具体的に定めており、他のカードと同じ粒度で「30年」を明記すべき）。あわせて、永久保存の対象を並べたカードの注記が「まずは現に有効な状態が前提」と一律に述べていた点も、地図及び地図に準ずる図面（規則28条2号）・建物所在図（同3号）は条文上「閉鎖したものを含む」と明記されており閉鎖後も永久のままである（現用が前提なのは登記記録＝1号と土地所在図等＝13号だけ）ため、誤解を避ける表現に修正した。以下のプロンプトはこの2点を修正済みの正しい内容になっている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2000 pixels,
+clean flat-design icon illustration style (not isometric — simple flat
+vector icons and rounded panels), warm cream/pale-yellow background,
+green and gold accent panels, consistent with a modern explainer-graphic
+aesthetic (icons: document/ledger sheet, building outline, land plot
+outline, infinity symbol, clock/countdown badge, star badge, warning
+triangle, handshake, lightbulb — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the numbered sections. Every icon-card must
+communicate its point almost entirely through the illustration plus one
+short label. Do NOT render any full-sentence explanation or legal
+citation as body text — short labels and the specific short callouts
+listed below are the only text allowed.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not
+paraphrase, translate, summarize, or substitute any characters. Pay
+special attention to the kanji 永・久・閉・鎖・登・記・録・図・準・築・
+役・権・担・保・託・筆・界・特・定 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with the solid cream/pale-yellow background
+described above. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+永久保存と、閉鎖後の保存期間の切替え
+
+Subtitle (smaller, centered, 1行):
+「永久」のまま残るものと、有限に変わるものを分けて覚える
+
+（タイトル・サブタイトルのすぐ下に、下記の要素をこの順番で続ける。導入
+イラスト・導入文のブロックは置かない。）
+
+--- TOP ROW (two boxes side by side) ---
+LEFT box (pale-yellow background, star badge icon, green text):
+核心：閉鎖後も永久のままなのは限られる
+
+RIGHT box (solid red background, warning-triangle icon, white text):
+ここがひっかけ
+
+--- SECTION 1 (green header bar with a filled circular badge "1") ---
+Heading: 永久保存の対象（規則28条）
+Four icon-cards in a row, each with a small numbered circle (①〜④) and a
+document/building/land icon:
+① 登記記録（閉鎖登記記録を除く）
+② 地図・地図に準ずる図面
+③ 建物所在図
+④ 土地所在図・地積測量図・建物図面・各階平面図
+Footer note inside this section (a short callout box, verbatim):
+①・④は「現に有効な状態」が前提。②・③は閉鎖後も変わらない（次のセクション参照）
+
+--- SECTION 2 (gold/amber header bar with a filled circular badge "2") ---
+Heading: 閉鎖後も「永久」のまま残るもの
+Three icon-cards in a row, each with a land-map icon or building-outline
+icon and a large infinity symbol (∞) badge:
+地図
+地図に準ずる図面
+建物所在図
+Footer notes inside this section (two short pill-shaped tags, verbatim):
+条文上「閉鎖したものを含む」と明記
+規則28条2号・3号
+
+--- SECTION 3 (green header bar with a filled circular badge "3") ---
+Heading: 閉鎖後は有限の保存期間になるもの
+Four icon-cards in a row, each with a document/land/building icon and a
+clock/countdown badge showing the exact period (do not omit or vague any
+of these four periods — each must show a specific number of years, not a
+generic label like "有限保存"):
+土地の閉鎖登記記録 → 50年
+建物の閉鎖登記記録 → 30年
+土地所在図・地積測量図・建物図面・各階平面図 → 30年
+地役権図面 → 30年（閉鎖した日から）
+Footer note inside this section (a short callout box, verbatim):
+閉鎖・滅失すると、永久のままではないものが多い
+
+--- BOTTOM ROW (two boxes side by side) ---
+LEFT box (white/cream background, headed "参考", two lines with a small
+handshake or people icon):
+共同担保目録　→　全事項抹消日から10年
+信託目録　→　信託登記抹消日から20年
+
+RIGHT box (blue-bordered background, headed "補足：筆界特定書", a sealed
+document icon with an infinity symbol):
+筆界特定書は最初から永久保存
+「閉鎖後も永久」の話ではなく、そもそも規則28条の閉鎖の対象ではない
+
+--- FINAL CONCLUSION BAR (full-width, dark green background, lightbulb
+icon, white/pale-yellow bold text) ---
+閉鎖後も永久　＝　地図・地図に準ずる図面・建物所在図
+
+--- FOOTER ---
+出典表記: 不動産登記規則28条1号・2号・3号・4号・5号・6号・7号・13号・
+14号、不動産登記規則235条1項1号
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 永・久・閉・鎖・登・記・録・図・準・築・役・権・担・保・託・
+筆・界・特・定. If any character renders as a Simplified Chinese variant,
+redraw that character in the correct Japanese form. Confirm Section 3
+shows a specific number of years for all four items (50年・30年・30年・
+30年) with no item left as a vague label such as "有限保存". Confirm
+Section 1's footer note states that only items ①・④ require a currently-
+active (non-closed) status for permanent retention, and that items ②・③
+remain permanently retained even after closure — do not render a single
+blanket statement implying all four items require an active status.
+Confirm there is no intro illustration or paragraph block between the
+header and the top row, and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
