@@ -215,3 +215,153 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（甲建物・乙建物・附属建物の位置関係、接続の有無、登記識別情報の流れ、敷地権割合など）を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、④間違いノート型と同じ運用（文章での説明・着眼点の記述を許容）に倣い、各パネルに「着眼点」の短い説明文を添えている。こうした分割・合併の登記の問題を解くとき、まず何を図に落とし込めば正誤判定にたどり着けるかの練習素材として使う。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem — the spatial/structural layout of 甲建物・
+乙建物・附属建物・敷地, arrows showing what moves where, and small ✓/✕
+marks showing which condition is satisfied. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences of guidance on what to check first. Do not include legal case
+or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 号, 録, 権, 地, 番, 建,
+物, 登, 記, 所, 続, 敷, which have visibly different Simplified Chinese
+forms — always draw the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後の部 第16問 ア〜オ
+作図ガイド（建物の分割・合併）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+附属建物どうしの「接続」を図にする
+Diagram: Draw 甲建物 as a rectangle box on the left with a smaller box
+labeled「附属建物（区分建物）」attached to its right edge, and 乙建物 as a
+rectangle box on the right with its own smaller box labeled「附属建物
+（区分建物）」attached to its left edge. Draw a dashed arrow from 甲の
+附属建物 to 乙の附属建物 labeled「分割→合併」. Add a zoomed-in detail
+circle between the two small 附属建物 boxes showing two side-by-side
+mini-versions: one where the boxes share a wall (touching, labeled
+「接続」, green checkmark ✓) and one with a visible gap between them
+(labeled「接続していない」, red ✕).
+着眼点 callout (1-2 sentences, verbatim):
+附属建物どうしが「区分建物」であることに加えて、実際に「接続」している
+かどうかをまず図に描き込みます。接続していなければ、その時点で分割・
+合併はできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+接続していなければ不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+乙建物の登記記録に何と書かれるかを図にする
+Diagram: Draw the same 甲建物→乙建物 の附属建物 の分割・合併の矢印
+（パネル1より簡略化してよい）。乙建物側に開いた登記記録の帳簿アイコンを
+描き、そこに「何番から合併」というスタンプが押される様子を描く。帳簿の
+すぐ横に「分割した旨」という別のラベルを描き、それを赤い✕で消す。
+着眼点 callout (1-2 sentences, verbatim):
+記録が入るのは「合併される側」の乙建物の帳簿です。そこに書かれる内容が
+「合併」なのか「分割」なのかを図の中で区別して描きます。
+Conclusion tag (blue, 5-15 Japanese characters):
+乙側は「合併」と記録
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+地番変更と分割申請の関係を図にする
+Diagram: 甲建物を長方形で描き、そこから附属建物の小さな箱が切り離されて
+独立した乙建物になる矢印を描く。甲建物の上に「地番」のラベルを描き、
+古い地番を線で消して新しい地番を矢印で示す（甲建物の所在地番の変更を
+表す）。その横に書類アイコンを2つ描く：1つは「分割の登記の申請」で緑の
+チェックマーク、もう1つは「建物表題部の変更登記の申請」で赤い✕と「別途
+申請は不要」という小さなラベルを添える。
+着眼点 callout (1-2 sentences, verbatim):
+「地番が変わる」という事実と「別の変更登記の申請が必要か」という手続の
+問題を、図の中で分けて考えます。登記官が分割登記の際にまとめて処理して
+くれる点がポイントです。
+Conclusion tag (blue, 5-15 Japanese characters):
+変更登記は別途不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+どちらの登記識別情報を使うかを図にする
+Diagram: 左から右へ流れるタイムライン矢印を描き、3つの地点を示す。
+(1)甲建物のアイコンに「所有権の保存登記」のラベルと、その上に鍵アイコン
+「登記識別情報A」。(2)甲建物にくっついた小さな箱「新築した附属建物
+（表題部の変更登記）」。(3)その附属建物が分かれて乙建物へ向かう矢印
+「分割・合併」、乙建物の上に鍵アイコン「登記識別情報B（乙建物のもの）」。
+乙建物のそばに「登記識別情報A」を赤い✕で消したアイコンを描き、使えない
+ことを示す。
+着眼点 callout (1-2 sentences, verbatim):
+附属建物を作った経緯（甲建物のカギ）と、実際に分割・合併の申請で提出す
+るカギ（乙建物のカギ）は別物だと図で区別します。
+Conclusion tag (blue, 5-15 Japanese characters):
+使うのは乙建物のカギ
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+敷地権の割合の違いを図にする
+Diagram: 甲建物と乙建物という2つのアイソメトリック建物を、共通の敷地
+「丙土地」の上に隣接させて描く。それぞれの建物の上に円グラフ（敷地権の
+割合）のアイコンを描き、片方は大きく塗りつぶされ、もう片方は小さく塗り
+つぶされた状態にして割合の違いを示す。それぞれの円グラフに「敷地権
+（丙土地の所有権）」のラベルを付ける。2つの建物の間に緑のチェックマーク
+付きの合併の矢印を描き、割合が異なっていても合併できることを示す。
+着眼点 callout (1-2 sentences, verbatim):
+敷地権の「種類」が同じ（丙土地の所有権）であることと、その「割合」が
+同じかどうかは別の話です。割合が違うという事実だけを合併不可の理由に
+してはいけません。
+Conclusion tag (blue, 5-15 Japanese characters):
+割合の違いは無関係
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記法54条1項3号・規則35条3号（ア）／準則100条2項
+（イ）／規則127条3項（ウ）／規則139条が準用する規則107条1項・令8条2項
+3号（エ）／不動産登記法56条（オ）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay particular
+attention to 号, 録, 権, 地, 番, 建, 物, 登, 記, 所, 続, 敷. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the number of panels equals 5
+exactly (肢ア／肢イ／肢ウ／肢エ／肢オ), with no duplicated or missing
+panels, confirm there is no intro illustration or paragraph block between
+the header and the panels, and confirm every heading, callout sentence,
+and conclusion tag matches the Japanese text given above verbatim, with
+no paraphrasing or substituted characters.
+```
