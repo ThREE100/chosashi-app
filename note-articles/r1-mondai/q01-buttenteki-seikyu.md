@@ -201,3 +201,173 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（「今の所有者」と「登記記録上の名義人」のずれ、登記の有無と占有者の種類の切り分け、持ち主と実際に動かした人の区別、時効援用の前後、地役権の通り道を塞ぐ相手）を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに「着眼点」の短い説明文を添えている。こうした物権的請求権の問題を解くとき、まず何を図に落とし込めば「誰に対して請求できるか」の正誤判定にたどり着けるかの練習素材として使う。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem — the parties (Ａ・Ｂ・Ｃ) as human figures,
+the land/building/movable-object icons, arrows for each legal claim, and
+small ✓/✕ marks showing which respondent is the correct target. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences of guidance on what to check first. Do not include
+case or precedent numbers (article numbers are fine); keep the callout
+text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 権・地・建・物・登・
+記・所・請・求・占・拠・援・用・撤・去・妨・害・駐, which have visibly
+different Simplified Chinese forms — always draw the standard Japanese
+(Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度 午後の部 第1問 ア〜オ
+作図ガイド（物権的請求権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+「今の所有者」と「登記の名義人」を分けて描く
+Diagram: 甲土地の上に乙建物を描く。乙建物のわきに開いた登記記録カード
+を描き、「所有権登記名義人：Ｂ」というラベルをそのまま残す（名義が変わ
+っていないことを示す）。Ｂの人物アイコンから点線の矢印を伸ばし、「売却
+→所有権移転（登記は未了）」というラベルとともにＣの人物アイコンへ向け
+る。登記記録カードのラベルが「Ｂ」のまま変わらないことを、点線の丸で
+囲んで強調する。最後に、土地の所有者Ａの人物アイコンから、実線の矢印
+を2本引き、それぞれ「収去請求」とラベルを付けてＢとＣの両方へ向け、
+両方の矢印の先に緑のチェックマークを描く。
+着眼点 callout (1-2 sentences, verbatim):
+「今の所有者」と「登記記録に書いてある名義人」がずれる場面では、両方
+に印を付けて、請求の矢印がどちらにも届くかを確認します。名義人だから、
+所有者だからと一方だけに絞り込まないことが大切です。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+名義人にも所有者にも請求可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+「登記の有無」と「占有者の種類」を分けて描く
+Diagram: 甲土地を描き、その上に登記記録カードを重ねて「所有権登記名義
+人：Ａ」というラベルがそのまま残っていることを示す。Ａの人物アイコン
+から矢印を伸ばし、「売買→所有権移転（登記は未了）」というラベルととも
+にＢの人物アイコンへ向ける。甲土地の別の隅に、Ｃの人物アイコンを
+「違法占拠」というラベル付きで描く。Ｂの人物アイコンから実線の矢印を
+引き、Ｃへ向けて「明渡請求」とラベルを付け、その矢印の途中に、登記
+記録カードへ赤い✕を重ねた小さなアイコン（登記が不要であることを示す）
+を配置し、矢印の先に緑のチェックマークを描く。
+着眼点 callout (1-2 sentences, verbatim):
+登記の有無が問題になるのは、相手が「登記の欠缺を主張できる正当な利益
+を持つ人」のときだけです。不法に占拠しているだけの人には、登記がなく
+ても対抗できることを、登記記録カードに重ねた✕として描き込みます。
+Conclusion tag (blue, 5-15 Japanese characters):
+不法占拠者に登記は不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+「誰の持ち物か」と「誰が動かしたか」を分けて描く
+Diagram: 甲土地（Ａ所有）の上に、木箱のアイコン（乙動産）を描き、「所有
+者：Ｂ」というラベルを付ける。離れた場所にＣの人物アイコンを描き、Ｃ
+が乙動産をこっそり運んで甲土地の上に置く経路を点線の矢印で描き、
+「無断で持ち出し・放置」とラベルを付ける。Ｂの人物アイコンの吹き出し
+に「運んだのは私じゃない」という発言を描き、その吹き出し全体に大きな
+赤い✕を重ねる。Ａの人物アイコンから実線の矢印を引き、乙動産の所有者
+Ｂへ向けて「撤去請求」とラベルを付け、矢印の先に緑のチェックマークを
+描く。
+着眼点 callout (1-2 sentences, verbatim):
+物を「今どこに置かれているか」ではなく「誰の持ち物か」に注目します。
+持ち主である以上、実際に運んだのが別人でも、撤去を求められたら拒めな
+いことを、吹き出しの✕として描き込みます。
+Conclusion tag (blue, 5-15 Japanese characters):
+持ち主なら拒否できない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+「時計の針」で20年の経過と援用の前後を描く
+Diagram: 甲土地の上にＢの人物アイコンを描き、その周りに砂時計のアイコ
+ンと「20年間、所有の意思・平穏・公然と占有」というラベルを添える。Ｂ
+の手元に「時効援用」というスタンプ書類を描き、押印される瞬間を矢印で
+示す。元の所有者Ａの人物アイコンを薄く半透明に描き、Ａの吹き出しに
+「返して」という発言を描くが、その吹き出し全体と、ＡからＢへ向かう
+矢印（「所有権に基づく物権的請求権」とラベル）の両方に、大きな赤い✕
+を重ねる。
+着眼点 callout (1-2 sentences, verbatim):
+時効の主張（援用）が「された後」なのか「される前」なのかで結論が変わ
+ります。援用のスタンプが押された後の場面だと分かったら、元の所有者か
+らの矢印はすべて消えると考えて図に描き込みます。
+Conclusion tag (blue, 5-15 Japanese characters):
+援用後は請求権消滅
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+「地役権の通り道」を塞ぐ相手を直接描く
+Diagram: 甲土地（承役地、Ａ所有）の上に、点線で通路を描き「地役権
+（通行）」というラベルを付ける。その通路の上に自動車のアイコンを置き、
+「Ｃによる違法・恒常的な駐車」とラベルを付ける。地役権者Ｂの人物アイ
+コンを描き、Ｂから車（Ｃ）へ向けて実線の矢印を引き「禁止請求」とラベ
+ルを付け、矢印の先に緑のチェックマークを描く。承役地所有者Ａの人物
+アイコンを土地の脇に描き、Ａだけに矢印を向けて満足しそうになる点線の
+矢印には、大きな赤い✕を重ねて、Ｃ本人へも直接請求できることを強調
+する。
+着眼点 callout (1-2 sentences, verbatim):
+妨害しているのが承役地の所有者自身でなくても、地役権に基づく請求は
+「実際に妨害している人」に直接向けられます。矢印を土地の持ち主だけで
+なく、駐車している本人にも引けるかを確認します。
+Conclusion tag (blue, 5-15 Japanese characters):
+妨害者本人にも直接請求可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：イは民法177条、オは民法280条を参考に構成。ア・ウ・エは判例
+の趣旨に基づく一般原則であり、個別の条文番号までは本記事では確定して
+いません。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese — pay particular
+attention to 権・地・建・物・登・記・所・請・求・占・拠・援・用・撤・
+去・妨・害・駐. If any character renders as a Simplified Chinese variant,
+redraw that character in the correct Japanese form. Confirm the panel
+count equals 5 exactly, badge numbers run 1-5 continuously, there is no
+intro illustration or paragraph block between the header and the panels,
+each panel's takeaway is legible as heading + diagram + a short 着眼点
+callout + conclusion tag without turning into a wall of text, and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
