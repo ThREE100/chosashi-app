@@ -209,119 +209,158 @@ tag, at a glance.
 
 ---
 
-## インフォグラフィック プロンプト（各肢の相続関係図・解き方ガイド）
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
 
-上記の「問題全体のインフォグラフィック」は結論を短いタグで俯瞰する圧縮型のポスターですが、こちらは「代襲相続の問題文を読んだときに、実際にどんな相続関係図（家系図）を手描きすればよいか」を、凡例1枚＋各肢5枚の家系図で示す解き方ガイドです（④間違いノート型の技術ルールを、特定の1肢ではなく問題全体に適用したもの）。②のカードと異なり、各パネルには矢印の可否（○×）と一言の理由ラベルを直接書き込み、圧縮しすぎず「なぜそう判定するのか」の思考過程まで見えるようにしています。
+上記②の「結論カード」ポスターとは別に、代襲相続の問題文を読んだときに実際に手を動かして描くべき家系図（誰に死亡・廃除・欠格・放棄のタグを付けるか、矢印をどこで止めるか）を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに「着眼点」の短い説明文を添えている。こうした代襲相続の問題を解くとき、まず何を図に落とし込めば正誤判定にたどり着けるかの練習素材として使う。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
-same visual language as the whole-problem poster for this article
-(family-tree diagrams, person-circle icons labeled Ａ・Ｂ・Ｃ・Ｄ, tombstone
-icon for death, a court-gavel icon for family-court disinheritance, a red
-prohibition (no-entry) circle for "not allowed"), but built as a
-legend-plus-five-panel explainer sheet rather than a short-tag poster.
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern" study reference) rather than a quick-reference conclusion poster.
 
-EXPLAINER-SHEET REQUIREMENT (critical): This image exists to teach the
-reader how to hand-draw a family-tree diagram when solving this type of
-inheritance-by-representation (代襲相続) problem, not to be a glanceable
-summary. Unlike a quick-reference poster, each panel MUST show a small
-circle or triangle mark (○ or ✕) directly on the dotted succession arrow,
-plus a short reason label (a few words, not a full sentence) explaining
-why the arrow does or does not connect. Prioritize clarity of the
-reasoning over brevity.
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what family-tree diagram they should draw on scratch paper
+while reading this type of inheritance-by-representation (代襲相続)
+problem — person-circle icons labeled Ａ・Ｂ・Ｃ・Ｄ, a tombstone icon for
+death, a torn-paper tag for renunciation (放棄), a court-gavel icon for
+disinheritance (廃除), a red prohibition (no-entry) circle for
+disqualification (欠格), and a dotted succession arrow marked with a
+green ○ or red ✕ showing whether it connects. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences of guidance on what to check first. Do not include case or
+precedent numbers (article numbers are fine); keep the callout text as
+written below verbatim.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters.
+any characters. Pay special attention to the kanji 続・属・尊・廃・欠・
+格・襲・棄・卑, which have visibly different Simplified Chinese forms —
+always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
 supports transparency. Fill the full canvas — including every corner and
-margin outside the panels — with a solid or illustrated opaque background.
-There must be no checkerboard pattern, no partially transparent area, and
-no unpainted canvas edge anywhere in the final image.
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-代襲相続の問題は
-家系図を描いて考える
+問題文を読んだら
+どんな図を描けばいいか
 
-Subtitle (smaller, centered, 1行):
-5つの肢を相続関係図で読み解く（平成30年度 午後の部 第3問）
+Subtitle (smaller, centered, 2行):
+平成30年度 午後の部 第3問 ア〜オ
+作図ガイド（代襲相続）
 
---- PANEL 0（凡例） ---
-Heading (bold):
-図の読み方（凡例）
-Illustration: A small reference key showing five isolated icons side by
-side with a short label under each: (1) a plain circle labeled "相続人
-候補", (2) a double-outlined circle labeled "被相続人Ａ", (3) a circle
-with a tombstone icon labeled "死亡", (4) a circle with a small
-court-gavel icon and torn-paper tag labeled "廃除・欠格・放棄", (5) a
-dotted arrow with a green ○ mark labeled "代襲できる" next to a dotted
-arrow with a red ✕ mark labeled "代襲できない".
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- PANEL 1（肢ア） ---
-Heading (bold):
-ア：祖母Ｃは「代襲」しない
-Illustration: An isometric family tree, top to bottom: Ａ（被相続人、
-直系卑属なし）— Ａの父Ｂ（tombstone icon, "死亡"）— Ｂの母Ｃ（Ａの祖母、
-label "直系尊属"）. A dotted arrow from Ｃ up to Ａ is marked with a red
-✕, with a short reason label beside it: "直系尊属は"代襲"という構成を
-とらない".
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+上の世代へ「代襲」の矢印を引かない
+Diagram: 縦の家系図を描く。上からＡ（被相続人、二重丸、"直系卑属なし"の
+吹き出し）— Ａの父Ｂ（tombstone icon, "死亡"）— Ｂの母Ｃ（Ａの祖母、
+label "直系尊属"）の順に並べる。ＣからＡへ向けて点線の矢印を引きかけて
+いる途中に、大きな赤い✕を重ねて矢印を断ち切る。矢印のわきに「上の
+世代には"代襲"という発想自体がない」という短いラベルを添える。
+着眼点 callout (1-2 sentences, verbatim):
+死亡マークを付けた相手（Ｂ）のさらに上の世代（Ｃ）に矢印を引こうとして
+いないか確認します。代襲相続はいつも下の世代（子・孫、または甥・姪）
+に向かって引く矢印であり、上向きの矢印はこの時点で誤りだと分かります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+上向きの矢印は誤り
 
 --- PANEL 2（肢イ） ---
-Heading (bold):
-イ：放棄した Ｂ の子Ｃは代襲しない
-Illustration: An isometric family tree: Ａ（被相続人、tombstone icon,
-"死亡"）— Ａの子Ｂ（生存、torn-paper tag "相続放棄"）— Ｂの子Ｃ. A dotted
-arrow from Ｃ up to Ｂ up to Ａ is marked with a red ✕ at the Ｂ-Ａ
-segment, with a short reason label: "放棄は代襲原因でない".
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+「放棄」タグは矢印をその場で断ち切る
+Diagram: Ａ（被相続人、tombstone icon, "死亡"）— Ａの子Ｂ（生存、
+torn-paper tag "相続放棄"）— Ｂの子Ｃの順に縦の家系図を描く。ＣからＢを
+経てＡへ向かう点線矢印のうち、Ｂのタグに重なる部分に赤い✕を描き、
+矢印がそこで途切れることを示す。
+着眼点 callout (1-2 sentences, verbatim):
+死亡マーク（墓石）と、放棄・廃除・欠格の3つのタグを描き分けます。放棄の
+タグには必ず✕を重ね、廃除・欠格のタグとは違う扱いになることを、この
+時点で図に書き込んでおきます。
+Conclusion tag (blue, 5-15 Japanese characters):
+放棄タグには✕
 
 --- PANEL 3（肢ウ） ---
-Heading (bold):
-ウ：廃除後に生まれたＣも代襲する
-Illustration: An isometric family tree: Ａ（被相続人）— Ａの子Ｂ（生存中に
-court-gavel icon, torn-paper tag "廃除"）— Ｂの子Ｃ（a small calendar
-icon beside Ｃ labeled "廃除後に出生"）. A dotted arrow from Ｃ up through
-Ｂ to Ａ is marked with a green ○, with a short reason label: "出生時期は
-不問".
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+「廃除」タグの横に出生日も描く
+Diagram: Ａ（被相続人）— Ａの子Ｂ（生存中に court-gavel icon,
+torn-paper tag "廃除"）— Ｂの子Ｃ（a small calendar icon beside Ｃ
+labeled "廃除後に出生"）の順に縦の家系図を描く。ＣからＢを経てＡへ
+向かう点線矢印全体に緑の○を重ね、切れ目なくつながっていることを示す。
+カレンダーアイコンの横に「出生時期は無関係」という短いラベルを添える。
+着眼点 callout (1-2 sentences, verbatim):
+廃除・欠格のタグを描いたら、その子がいつ生まれたかを示す時計や
+カレンダーのアイコンも併記します。タグが付いた後に生まれた子でも、
+矢印を先に○にしてから確認する順番にすると迷いません。
+Conclusion tag (blue, 5-15 Japanese characters):
+出生時期は無関係
 
 --- PANEL 4（肢エ） ---
-Heading (bold):
-エ：甥の子Ｄへの再代襲はできない
-Illustration: An isometric family tree, four generations top to bottom:
-Ａ（被相続人、tombstone icon, "死亡"）— 兄Ｂ（label "兄弟姉妹", tombstone
-icon, "死亡"）— Ｂの子Ｃ（甥、tombstone icon, "死亡"）— Ｃの子Ｄ（甥の子）.
-A dotted arrow from Ｃ up to Ａ is marked with a green ○ (1代目の代襲は
-成立), but the arrow from Ｄ up to Ｃ is marked with a red ✕ and a small
-"STOP" tag, with a short reason label: "兄弟姉妹系の代襲は一代限り".
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+矢印は甥の代でいったん止める
+Diagram: 4世代の縦の家系図を描く。上からＡ（被相続人、tombstone icon,
+"死亡"）— 兄Ｂ（label "兄弟姉妹", tombstone icon, "死亡"）— Ｂの子Ｃ
+（甥、tombstone icon, "死亡"）— Ｃの子Ｄ（甥の子）の順に並べる。ＣからＡ
+へ向かう点線矢印には緑の○を重ねるが、ＤからＣへ向かう点線矢印には
+赤い✕と小さな「STOP」の標識アイコンを重ね、そこで図が止まっていること
+を強調する。
+着眼点 callout (1-2 sentences, verbatim):
+兄弟姉妹が起点の家系図では、矢印を1本引いたところでいったん手を止め、
+さらにもう1本延ばしてよいか必ず確認します。子・孫の系統（直系卑属）と
+違い、矢印を何本でも延ばせるわけではない点が最大の落とし穴です。
+Conclusion tag (blue, 5-15 Japanese characters):
+甥の子には届かない
 
 --- PANEL 5（肢オ） ---
-Heading (bold):
-オ：欠格したＢの子Ｃは代襲する
-Illustration: An isometric family tree: Ａ（被相続人、tombstone icon,
-"死亡"）— Ａの子Ｂ（a red prohibition (no-entry) circle icon labeled
-"欠格"）— Ｂの子Ｃ. A dotted arrow from Ｃ up through Ｂ to Ａ is marked
-with a green ○, with a short reason label: "欠格の効果はＢ個人に限られる".
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+「欠格」の赤丸は本人だけに描く
+Diagram: Ａ（被相続人、tombstone icon, "死亡"）— Ａの子Ｂ（a red
+prohibition (no-entry) circle icon labeled "欠格"）— Ｂの子Ｃの順に
+縦の家系図を描く。赤い禁止マークはＢの人物アイコンの上だけに重ね、
+ＣからＢを経てＡへ向かう点線矢印そのものには何も重ねず、緑の○を
+矢印の先に添えて切れ目なくつながっていることを示す。
+着眼点 callout (1-2 sentences, verbatim):
+欠格・廃除の「不名誉なマーク」は、その本人（Ｂ）の人物アイコンにだけ
+描き、矢印の線そのものには重ねません。マークが人物に付くのか矢印に
+付くのかを描き分けると、子Ｃまで悪影響が及ばないことが一目で分かります。
+Conclusion tag (blue, 5-15 Japanese characters):
+欠格の効果は本人限り
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成30年度 午後の部 第3問
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：イ（民法939条）、エ（民法889条2項が887条3項を準用しない
+こと）、オ（民法887条2項・889条2項）。ア・ウは代襲相続制度の一般原則
+によるもので、個別の条文番号までは本記事では確定していません。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 続・属・尊・廃・欠・格・襲・棄・卑, and confirm each is
-rendered in its standard Japanese form rather than a Simplified Chinese
-look-alike. Confirm the image contains exactly six panels (the legend
-plus five case panels for 肢ア〜オ) with no duplicated or missing panels,
-confirm every succession arrow carries an explicit ○ or ✕ mark plus a
-short reason label as specified above (not a bare arrow with no
-mark), and confirm the entire canvas, edge to edge, is filled with a
-fully opaque background with no transparency or alpha channel anywhere.
+standard Japanese (Jōyō) form, not Simplified Chinese — pay particular
+attention to 続・属・尊・廃・欠・格・襲・棄・卑. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that each panel's takeaway is legible
+as heading + diagram + a short 着眼点 callout + conclusion tag without
+turning into a wall of text, and confirm the entire canvas, edge to edge,
+is filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
