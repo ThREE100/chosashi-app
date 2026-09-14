@@ -134,10 +134,10 @@ Japanese forms, never as Simplified Chinese variants.
 --- HEADER ---
 Title (large, bold, 2行):
 占有権 判例整理
-令和7年度 午後の部 第2問
+相続と時効取得・善意占有者の使用利益・指図による占有移転
 
 Subtitle (smaller, centered, 1行):
-相続と時効取得・善意占有者の使用利益・指図による占有移転
+令和7年度 午後の部 第2問
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
