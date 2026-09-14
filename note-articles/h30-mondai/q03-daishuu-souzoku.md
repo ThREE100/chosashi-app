@@ -234,6 +234,24 @@ sentences of guidance on what to check first. Do not include case or
 precedent numbers (article numbers are fine); keep the callout text as
 written below verbatim.
 
+FAMILY-TREE LAYOUT REQUIREMENT (critical): Do NOT force every panel into
+a single uniform vertical chain. Vertical position must represent
+generation (older generation above, younger generation below); people of
+the SAME generation (siblings such as Ａ and his brother Ｂ in panel 4)
+must be drawn SIDE BY SIDE at the same height, joined by a short
+horizontal "sibling" bracket line to a shared-parent point above them —
+never stacked as if one were the other's parent or child. The succession
+arrow must run along the actual parent-child link in the direction
+inheritance passes (from the person who lost the right, down to that
+person's own child), not uniformly "upward" or "toward Ａ" regardless of
+the real relationship. Panel 1 (肢ア) is an ascendant-line case, so its
+column is deliberately the reverse of panels 2-3-5 (the ancestor Ｃ sits
+at the TOP, and Ａ — the youngest person in that panel — sits at the
+BOTTOM); panel 4 (肢エ) is a sibling case and must branch instead of
+stacking. Follow each panel's Diagram instructions below exactly for
+layout and arrow direction — do not default back to a single straight
+line.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -268,32 +286,37 @@ Subtitle (smaller, centered, 2行):
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
-上の世代へ「代襲」の矢印を引かない
-Diagram: 縦の家系図を描く。上からＡ（被相続人、二重丸、"直系卑属なし"の
-吹き出し）— Ａの父Ｂ（tombstone icon, "死亡"）— Ｂの母Ｃ（Ａの祖母、
-label "直系尊属"）の順に並べる。ＣからＡへ向けて点線の矢印を引きかけて
-いる途中に、大きな赤い✕を重ねて矢印を断ち切る。矢印のわきに「上の
-世代には"代襲"という発想自体がない」という短いラベルを添える。
+この肢だけ「祖先が上」に描く
+Diagram: このパネルだけ縦の並び順が逆になる点に注意。一番上にＢの母Ｃ
+（Ａの祖母、label "直系尊属"）、真ん中にＣの子Ｂ（Ａの父、tombstone
+icon, "死亡"）、一番下にＡ（被相続人、二重丸、"直系卑属なし"の吹き出し）
+を配置する（Ｃが最も年上の世代なので最上段、Ａが最も若い世代なので
+最下段）。ＣからＢの位置を飛び越えてＡへ向かう、下向きの点線の「代襲」
+矢印を描き、その途中に大きな赤い✕を重ねる。矢印のわきに「上の世代
+（直系尊属）には"代襲"という発想自体がない」という短いラベルを添える。
+パネルの隅に小さく「※この肢だけ祖先が上、Ａが下」という向き注記アイコン
+を置く。
 着眼点 callout (1-2 sentences, verbatim):
-死亡マークを付けた相手（Ｂ）のさらに上の世代（Ｃ）に矢印を引こうとして
-いないか確認します。代襲相続はいつも下の世代（子・孫、または甥・姪）
-に向かって引く矢印であり、上向きの矢印はこの時点で誤りだと分かります。
+死亡マークを付けた相手（Ｂ）の、さらに上の世代（Ｃ）へ矢印を引こうとして
+いないか確認します。代襲相続はいつも「死亡・廃除・欠格した人」からその
+人の子へ向かって引く矢印であり、祖先の系統をさかのぼる矢印はこの時点
+で誤りだと分かります。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-上向きの矢印は誤り
+祖先へは代襲なし
 
 --- PANEL 2（肢イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 「放棄」タグは矢印をその場で断ち切る
-Diagram: Ａ（被相続人、tombstone icon, "死亡"）— Ａの子Ｂ（生存、
-torn-paper tag "相続放棄"）— Ｂの子Ｃの順に縦の家系図を描く。ＣからＢを
-経てＡへ向かう点線矢印のうち、Ｂのタグに重なる部分に赤い✕を描き、
-矢印がそこで途切れることを示す。
+Diagram: 縦にＡ（被相続人、tombstone icon, "死亡"、一番上）— Ａの子Ｂ
+（生存、torn-paper tag "相続放棄"、真ん中）— Ｂの子Ｃ（一番下）の順に
+親子関係の家系図を描く。ＢからＣへ向かう下向きの点線矢印（Ｂの相続分が
+Ｃに代襲するかを示す矢印）に、赤い✕を重ねて断ち切る。
 着眼点 callout (1-2 sentences, verbatim):
 死亡マーク（墓石）と、放棄・廃除・欠格の3つのタグを描き分けます。放棄の
-タグには必ず✕を重ね、廃除・欠格のタグとは違う扱いになることを、この
-時点で図に書き込んでおきます。
+タグからその子へ引く矢印には必ず✕を重ね、廃除・欠格のタグとは違う扱い
+になることを、この時点で図に書き込んでおきます。
 Conclusion tag (blue, 5-15 Japanese characters):
 放棄タグには✕
 
@@ -301,32 +324,37 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 「廃除」タグの横に出生日も描く
-Diagram: Ａ（被相続人）— Ａの子Ｂ（生存中に court-gavel icon,
-torn-paper tag "廃除"）— Ｂの子Ｃ（a small calendar icon beside Ｃ
-labeled "廃除後に出生"）の順に縦の家系図を描く。ＣからＢを経てＡへ
-向かう点線矢印全体に緑の○を重ね、切れ目なくつながっていることを示す。
-カレンダーアイコンの横に「出生時期は無関係」という短いラベルを添える。
+Diagram: 縦にＡ（被相続人、一番上）— Ａの子Ｂ（生存中に court-gavel
+icon, torn-paper tag "廃除"、真ん中）— Ｂの子Ｃ（a small calendar icon
+beside Ｃ labeled "廃除後に出生"、一番下）の順に親子関係の家系図を描く。
+ＢからＣへ向かう下向きの点線矢印に緑の○を重ね、切れ目なくつながって
+いることを示す。カレンダーアイコンの横に「出生時期は無関係」という短い
+ラベルを添える。
 着眼点 callout (1-2 sentences, verbatim):
 廃除・欠格のタグを描いたら、その子がいつ生まれたかを示す時計や
 カレンダーのアイコンも併記します。タグが付いた後に生まれた子でも、
-矢印を先に○にしてから確認する順番にすると迷いません。
+親から子へ向かう矢印を先に○にしてから確認する順番にすると迷いません。
 Conclusion tag (blue, 5-15 Japanese characters):
 出生時期は無関係
 
 --- PANEL 4（肢エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
-矢印は甥の代でいったん止める
-Diagram: 4世代の縦の家系図を描く。上からＡ（被相続人、tombstone icon,
-"死亡"）— 兄Ｂ（label "兄弟姉妹", tombstone icon, "死亡"）— Ｂの子Ｃ
-（甥、tombstone icon, "死亡"）— Ｃの子Ｄ（甥の子）の順に並べる。ＣからＡ
-へ向かう点線矢印には緑の○を重ねるが、ＤからＣへ向かう点線矢印には
+兄弟は縦に重ねず、横に並べる
+Diagram: 最上段に、Ａ（被相続人、tombstone icon, "死亡"）と兄Ｂ
+（label "兄弟姉妹", tombstone icon, "死亡"）を左右に並べて同じ高さに
+描き、2人の少し上に小さな∩字型のブラケット線で結んで「共通の親」を
+示す点を描く（Ａ・Ｂを縦に積み重ねない）。Ｂの真下（Ａの真下ではない）
+に、Ｂの子Ｃ（甥、tombstone icon, "死亡"）を配置する。さらにＣの真下に、
+Ｃの子Ｄ（甥の子）を配置する。ＢからＣへ向かう下向きの点線矢印には緑の
+○を重ねる（1代目の代襲は成立）。ＣからＤへ向かう下向きの点線矢印には
 赤い✕と小さな「STOP」の標識アイコンを重ね、そこで図が止まっていること
 を強調する。
 着眼点 callout (1-2 sentences, verbatim):
-兄弟姉妹が起点の家系図では、矢印を1本引いたところでいったん手を止め、
-さらにもう1本延ばしてよいか必ず確認します。子・孫の系統（直系卑属）と
-違い、矢印を何本でも延ばせるわけではない点が最大の落とし穴です。
+ＡとＢは親子ではなく兄弟なので、まず2人を横に並べて描きます。そこから
+下へ矢印を1本引いたところ（Ｃ）でいったん手を止め、さらにもう1本
+（Ｄへ）延ばしてよいか必ず確認します。子・孫の系統（直系卑属）と違い、
+矢印を何本でも延ばせるわけではない点が最大の落とし穴です。
 Conclusion tag (blue, 5-15 Japanese characters):
 甥の子には届かない
 
@@ -334,15 +362,17 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 「欠格」の赤丸は本人だけに描く
-Diagram: Ａ（被相続人、tombstone icon, "死亡"）— Ａの子Ｂ（a red
-prohibition (no-entry) circle icon labeled "欠格"）— Ｂの子Ｃの順に
-縦の家系図を描く。赤い禁止マークはＢの人物アイコンの上だけに重ね、
-ＣからＢを経てＡへ向かう点線矢印そのものには何も重ねず、緑の○を
-矢印の先に添えて切れ目なくつながっていることを示す。
+Diagram: 縦にＡ（被相続人、tombstone icon, "死亡"、一番上）— Ａの子Ｂ
+（a red prohibition (no-entry) circle icon labeled "欠格"、真ん中）—
+Ｂの子Ｃ（一番下）の順に親子関係の家系図を描く。赤い禁止マークはＢの
+人物アイコンの上だけに重ね、ＢからＣへ向かう下向きの点線矢印そのもの
+には何も重ねず、矢印の先に緑の○を添えて切れ目なくつながっていること
+を示す。
 着眼点 callout (1-2 sentences, verbatim):
 欠格・廃除の「不名誉なマーク」は、その本人（Ｂ）の人物アイコンにだけ
-描き、矢印の線そのものには重ねません。マークが人物に付くのか矢印に
-付くのかを描き分けると、子Ｃまで悪影響が及ばないことが一目で分かります。
+描き、その子へ向かう矢印の線そのものには重ねません。マークが人物に
+付くのか矢印に付くのかを描き分けると、子Ｃまで悪影響が及ばないことが
+一目で分かります。
 Conclusion tag (blue, 5-15 Japanese characters):
 欠格の効果は本人限り
 
@@ -358,9 +388,13 @@ attention to 続・属・尊・廃・欠・格・襲・棄・卑. If any charact
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that each panel's takeaway is legible
-as heading + diagram + a short 着眼点 callout + conclusion tag without
-turning into a wall of text, and confirm the entire canvas, edge to edge,
-is filled with a fully opaque background with no transparency or alpha
-channel anywhere.
+between the header and the panels, that panel 1 is drawn with the
+ancestor Ｃ on top and Ａ at the bottom (the reverse of panels 2/3/5),
+that panel 4 draws Ａ and Ｂ side by side as siblings rather than stacked
+as parent and child, that no panel uses a bare uniform "everything points
+upward" arrow that ignores the actual parent-child direction, that each
+panel's takeaway is legible as heading + diagram + a short 着眼点 callout
++ conclusion tag without turning into a wall of text, and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
