@@ -8,7 +8,7 @@
 
 **たとえば**、祖父Ａさんの子Ｂさんが、Ａさんより先に亡くなっていたとします。この場合、Ｂさんの子Ｃさん（Ａさんの孫）が、Ｂさんに代わってＡさんの相続人になります。これが代襲相続の基本形です。
 
-代襲相続を正確に処理するには、「①何が代襲原因になるのか」「②誰が代襲人になれるのか」「③どこまで代襲が続くのか」という3つの軸を押さえる必要があります。
+代襲相続を正確に処理するには、「①何が代襲原因になるのか」「②誰が代襲者になれるのか」「③どこまで代襲が続くのか」という3つの軸を押さえる必要があります。
 
 ### ①代襲原因は「死亡・欠格・廃除」の3つだけ
 
@@ -16,7 +16,7 @@
 
 - **相続開始以前の死亡**：被相続人より先に、相続人となるべき者が死亡した場合です。
 - **相続欠格（民法891条）**：故意に被相続人などを死亡させて刑に処せられた場合など、5つの事由のいずれかに該当し、法律上当然に相続権を失う場合です。
-- **廃除（民法892条・893条）**：被相続人への虐待・重大な侮辱・著しい非行を理由に、被相続人が家庭裁判所に請求して相続権を失わせる場合です。
+- **廃除**：被相続人への虐待・重大な侮辱・著しい非行を理由に、相続権を失わせる場合です。被相続人が生前に家庭裁判所に請求する方法（民法892条）と、被相続人が遺言で廃除の意思を示し、遺言が効力を生じた後に遺言執行者が家庭裁判所に請求する方法（民法893条、この場合の廃除は被相続人の死亡の時にさかのぼって効力が生じます）の2通りがあります。
 
 一方で、**相続放棄は代襲原因になりません**。相続の放棄をした者は、その相続に関しては初めから相続人とならなかったものとみなされるため（民法939条）、そもそも「相続権を失った」という代襲の前提自体が生じないからです。
 
@@ -24,19 +24,19 @@
 
 なお、廃除・欠格による代襲では、代襲者がいつ生まれたかは問題になりません。廃除の後に生まれた子であっても、被相続人の死亡時に生存していれば代襲相続人となります。
 
-### ②代襲人になれるのは「被代襲者の直系卑属」だけ
+### ②代襲者になれるのは「被代襲者の直系卑属」だけ
 
-代襲相続人になれるのは、被代襲者の直系卑属に限られます（民法887条2項ただし書）。この「直系卑属」であるかどうかが、次の3つの場面でよく問われます。
+代襲相続人になれるのは、被代襲者の直系卑属（子・孫・ひ孫など、その人より下の世代にあたる血族）に限られます（民法887条2項ただし書）。この「直系卑属にあたるかどうか」が、次の3つの場面でよく問われます。
 
 - **養子は代襲できる**：養子と養親及びその血族との間には、養子縁組の日から血族間と同一の親族関係が生じます（民法727条）。したがって、被相続人の子の養子は、その養子縁組が被相続人の死亡以前に成立していれば、被相続人の直系卑属として代襲相続人になれます。
 - **胎児も代襲できる**：胎児は、相続については既に生まれたものとみなされます（民法886条）。被相続人の死亡時にまだ胎児であっても、その後生きて生まれれば代襲相続人になれます。
 - **配偶者の連れ子は代襲できない**：配偶者が先に死亡していても、配偶者はそもそも被代襲者にはなりません。配偶者の連れ子（配偶者が前の配偶者との間にもうけ、被相続人と養子縁組していない子）は、被相続人の直系卑属ではないため、代襲相続人にはなりません。
 
-**たとえば**、Ａさんの奥さんＢさんが先に亡くなっていて、Ｂさんには前の夫との間の子Ｄさんがいたとします。ＤさんはＢさんの連れ子であって、Ａさんとの間に血縁も養子縁組もないため、Ａさんの代襲相続人にはなりません。
+**たとえば**、Ａさんの奥さんＢさんが先に亡くなっていて、Ｂさんには前の夫との間の子Ｅさんがいたとします。ＥさんはＢさんの連れ子であって、Ａさんとの間に血縁も養子縁組もないため、Ａさんの代襲相続人にはなりません。
 
 ### ③直系尊属は代襲ではなく「固有の権利」で相続人になる
 
-被相続人に子がなく、直系尊属（父母・祖父母など）が相続人となる場面でも、「代襲」という言葉を使いたくなりますが、これは誤りです。直系尊属は、被相続人の子・兄弟姉妹が相続人となるべき者がいない場合に、親等の近い者から順に、自分自身の固有の権利で相続人となります（民法889条1項1号）。
+被相続人に子がなく、直系尊属（父母・祖父母など）が相続人となる場面でも、「代襲」という言葉を使いたくなりますが、これは誤りです。直系尊属は、被相続人の子（またはその代襲者）が相続人となるべき者がいない場合に、親等の近い者から順に、自分自身の固有の権利で相続人となります（民法889条1項1号）。なお、直系尊属は兄弟姉妹よりも優先順位が高く（同項1号・2号）、兄弟姉妹が相続人となるのは、子も直系尊属もいない場合に限られます。
 
 **たとえば**、Ａさんに子がなく、両親も既に亡くなっているものの、祖父のＤさんが元気に生存していたとします。この場合、ＤさんはＡさんの代襲相続人としてではなく、Ａさんの直系尊属としての自分自身の相続権に基づいて相続人になります。
 
@@ -58,7 +58,7 @@
 
 ### 狙われやすい勘違いポイント
 
-**「代襲原因」と「代襲人の要件」を混同する**：「死亡・欠格・廃除のどれかに当てはまるか」（代襲原因の話）と、「代襲する者が被代襲者の直系卑属といえるか」（代襲人の要件の話）は、まったく別の判定軸です。この2つを混同すると、たとえば「養子だから代襲原因があるはず」のように、論点がずれた判断をしてしまいます。
+**「代襲原因」と「代襲者の要件」を混同する**：「死亡・欠格・廃除のどれかに当てはまるか」（代襲原因の話）と、「代襲する者が被代襲者の直系卑属といえるか」（代襲者の要件の話）は、まったく別の判定軸です。この2つを混同すると、たとえば「養子だから代襲原因があるはず」のように、論点がずれた判断をしてしまいます。
 
 **放棄と欠格・廃除を同じ扱いにしてしまう**：欠格・廃除は「相続権を失う」という点で結果が似ているため、放棄も同じように代襲原因になると思い込みやすいポイントです。しかし、放棄は初めから相続人でなかったものとみなされる（民法939条）という別の効果を持つため、代襲の前提自体が生まれません。
 
@@ -77,7 +77,7 @@
 ### 暗記すべき事項のまとめ
 
 - 代襲原因は死亡・欠格（民法891条）・廃除（民法892条・893条）の3つだけ。相続放棄は代襲原因にならない（民法939条）。
-- 代襲人になれるのは被代襲者の直系卑属に限られる（民法887条2項ただし書）。被相続人の死亡以前に縁組が成立した養子（民法727条）、生きて生まれた胎児（民法886条）は直系卑属にあたる。配偶者の連れ子は直系卑属にあたらず、代襲できない。
+- 代襲者になれるのは被代襲者の直系卑属に限られる（民法887条2項ただし書）。被相続人の死亡以前に縁組が成立した養子（民法727条）、生きて生まれた胎児（民法886条）は直系卑属にあたる。配偶者の連れ子は直系卑属にあたらず、代襲できない。
 - 直系尊属は代襲ではなく、固有の権利で相続人となる（民法889条1項1号）。
 - 子の系統の代襲は再代襲まで続く（民法887条3項）。兄弟姉妹の系統の代襲は、その者の子（甥・姪）までで打ち止めとなる（民法889条2項が887条3項を準用していないため）。
 
@@ -105,7 +105,9 @@
 
 ## インフォグラフィック プロンプト
 
-以下は画像生成AI（GPT Image等）に投入するためのプロンプト文です。画像そのものはここでは生成しません。すべて縦長（ポートレート）レイアウトで作成しています。家系図の各人物には必ず記事本文と対応する記号（Ａ・Ｂ・Ｃ・Ｄ）を明記し、実線・点線・記号の意味を取り違えないよう正確に描画することを重視しています。
+以下は画像生成AI（GPT Image等）に投入するためのプロンプト文です。画像そのものはここでは生成しません。すべて縦長（ポートレート）レイアウトで作成しています。家系図の各人物には必ず記事本文と対応する記号（Ａ・Ｂ・Ｃ・Ｄ・Ｅ）を明記し、実線・点線・記号の意味を取り違えないよう正確に描画することを重視しています。
+
+**家系図の描き方の共通ルール（重要）**：世代が違う人物（親子・祖父母と孫など）は上下方向（縦位置）で世代差を表し、同じ世代の人物（配偶者どうし・兄弟姉妹どうし）は左右方向（横並び）に同じ高さで配置します。「上下＝世代の違い」「横並び＝同世代」という系図の作法を各画像で厳守し、兄弟姉妹や配偶者を誤って親子関係のように縦に積み重ねて描かないよう、各画像のレイアウト指定でも明示しています。
 
 ### 画像1：代襲相続の基本形（俯瞰・導入型）
 
@@ -132,6 +134,25 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the diagram — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+FAMILY-TREE GENEALOGY CONVENTION (critical): Vertical position encodes
+generation — a person drawn directly above/below another means one
+generation apart (parent–child). People of the SAME generation (spouses,
+siblings) must be drawn at the SAME vertical height, side by side, never
+stacked. In this specific diagram, Ａ and Ｂ are parent and child (one
+generation apart, vertical), and Ｂ and Ｃ are also parent and child (one
+generation apart, vertical) — no same-generation pairs appear in this
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -180,8 +201,10 @@ exactly 3 rows, confirm the solid lines (実線) and the dashed
 succession arrow (点線) are visually distinguishable from each other and
 correctly connect the pairs described above (Ａ–Ｂ solid, Ｂ–Ｃ solid,
 Ｃ–Ａ dashed), confirm every person icon carries exactly the text tags
-specified above with no omissions or extra labels, and confirm the small
-legend is present and matches the text given above verbatim.
+specified above with no omissions or extra labels, confirm the small
+legend is present and matches the text given above verbatim, and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
 
 ### 画像2：代襲原因は3つだけ、放棄は仲間外れ（俯瞰カードポスター型）
@@ -213,6 +236,22 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+FAMILY-TREE GENEALOGY CONVENTION (critical): Vertical position encodes
+generation — Ａ, Ｂ, Ｃ in each card's 3-row layout are 3 consecutive
+generations (grandparent–parent–child direction, Ａ at top), so they are
+correctly stacked vertically. No same-generation pairs (spouses,
+siblings) appear in this image, so no horizontal side-by-side placement
+is needed here.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -260,9 +299,15 @@ Conclusion tag (blue banner, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 放棄は代襲原因にならない
-Illustration: The same 3-row layout, Ｂ labeled with a torn-paper tag
-reading 放棄, and a red prohibition circle placed directly on the line
-between Ｂ and Ｃ, cutting it so no arrow reaches from Ｃ up to Ａ.
+Illustration: The same 3-row layout. Ｂ labeled with a torn-paper tag
+reading 放棄, and the solid line between Ｂ and Ｃ is drawn normally
+(放棄 does not break the biological parent-child line). Ｃ has NO dashed
+succession arrow drawn toward Ａ at all — instead, a red prohibition
+circle is placed in the empty space between Ｃ and Ａ where the dashed
+arrow would otherwise be, showing that the succession arrow itself never
+forms (this is visually different from Card 2's 欠格, where the
+prohibition mark sits ON Ｂ while the dashed arrow from Ｃ to Ａ is still
+drawn and succeeds).
 Conclusion tag (blue banner, 5-15 Japanese characters):
 Ｃは代襲相続人にならない
 
@@ -275,19 +320,25 @@ Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the number of cards equals 4 exactly, with no duplicated or
 missing cards, that badge numbers run 1-4 continuously, confirm every
 card uses the same Ａ top / Ｂ middle / Ｃ bottom family-tree layout so
-the 4 cards are visually comparable at a glance, confirm there is no
-intro illustration or paragraph block between the header and the cards,
-and confirm that no card contains a full sentence of explanatory prose.
+the 4 cards are visually comparable at a glance, confirm Card 4 shows the
+Ｂ–Ｃ solid line intact and unblocked while the would-be Ｃ–Ａ dashed
+succession arrow is entirely absent with only a prohibition circle in its
+place (Card 4 must look different from Cards 1-3, where the dashed
+Ｃ–Ａ arrow is present and reaches Ａ), confirm there is no intro
+illustration or paragraph block between the header and the cards, confirm
+that no card contains a full sentence of explanatory prose, and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
 
-### 画像3：代襲人になれるのは「直系卑属」だけ（俯瞰カードポスター型）
+### 画像3：代襲者になれるのは「直系卑属」だけ（俯瞰カードポスター型）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1900 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections each containing a small
 family-tree diagram, consistent with a modern explainer-graphic aesthetic
-(icons: isometric person figures labeled Ａ・Ｂ・Ｃ・Ｄ, a document/seal
+(icons: isometric person figures labeled Ａ・Ｂ・Ｃ・Ｄ・Ｅ, a document/seal
 icon representing formal adoption, a small baby icon representing an
 unborn child, a wedding-ring icon representing a spouse, an elder person
 icon representing a direct ascendant — adapt icon set to the topic).
@@ -309,24 +360,44 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+FAMILY-TREE GENEALOGY CONVENTION (critical): Vertical position encodes
+generation; people of the SAME generation must be drawn at the SAME
+height, side by side, never stacked. Most cards in this image are pure
+parent-to-child vertical chains, but Card 3 contains a married couple
+(same generation) that must be drawn side by side, not stacked — see
+Card 3's own instructions below for the exact layout.
+
 --- HEADER ---
 Title (large, bold, 1行):
-代襲人になれるのは「直系卑属」だけ
+代襲者になれるのは「直系卑属」だけ
 
 Subtitle (smaller, centered, 1行):
 養子・胎児はOK、配偶者の連れ子・直系尊属はNG
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
-ブロックは置かない。列を分けないため、バッジ色は1色に統一する。）
+ブロックは置かない。列を分けないため1列でカードを並べるが、直系卑属に
+あたるカード〈1・2〉は緑バッジ、あたらないカード〈3・4〉は赤バッジと、
+結論の可否に応じて2色を使い分ける。）
 
 --- CARD 1 ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 養子は代襲できる（縁組がＡの死亡以前）
-Illustration: A 3-row family tree, Ａ at top labeled 被相続人, Ｂ in the
-middle with a tombstone icon labeled 死亡, Ｃ at the bottom labeled
-Ｂの養子 with a small adoption-document icon and a checkmark, connected
-to Ｂ by a solid line and to Ａ by a dashed succession arrow.
+Illustration: A 3-row family tree. Ａ (top) labeled 被相続人, and Ｂ
+(middle, one generation below Ａ, connected to Ａ by a solid vertical
+line) with a tombstone icon labeled 死亡. Ｃ (bottom, one generation
+below Ｂ, connected to Ｂ by a solid vertical line) labeled Ｂの養子 with
+a small adoption-document icon and a checkmark. A separate dashed
+succession arrow runs from Ｃ up to Ａ, bypassing Ｂ.
 Conclusion tag (green banner, 5-15 Japanese characters):
 直系卑属にあたる
 
@@ -334,11 +405,13 @@ Conclusion tag (green banner, 5-15 Japanese characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 胎児も生きて生まれれば代襲できる
-Illustration: The same 3-row layout, Ｂ in the middle with a tombstone
-icon labeled 死亡, Ｃ at the bottom drawn as a small baby icon inside a
+Illustration: The same 3-row vertical layout as Card 1 (Ａ top, Ｂ
+middle one generation below Ａ, Ｃ bottom one generation below Ｂ). Ｂ has
+a tombstone icon labeled 死亡. Ｃ is drawn as a small baby icon inside a
 dashed outline labeled 胎児（死亡時）with an arrow to a second small
-icon of a born baby labeled 出生, and a dashed succession arrow from Ｃ
-to Ａ.
+icon of a born baby labeled 出生, still connected to Ｂ by a solid
+vertical line. A dashed succession arrow runs from Ｃ up to Ａ, bypassing
+Ｂ.
 Conclusion tag (green banner, 5-15 Japanese characters):
 直系卑属にあたる
 
@@ -346,11 +419,16 @@ Conclusion tag (green banner, 5-15 Japanese characters):
 Badge: a filled circle in red containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 配偶者の連れ子は代襲できない
-Illustration: A 3-row family tree, Ａ at top labeled 被相続人, Ｂ in the
-middle labeled Ａの配偶者 with a wedding-ring icon and a tombstone icon
-labeled 死亡, Ｄ at the bottom labeled Ｂの連れ子（Ａと養子縁組なし）,
-connected to Ｂ by a solid line, with a red prohibition circle placed on
-the line between Ｂ and Ｄ's arrow toward Ａ so it cannot reach Ａ.
+Illustration: Ａ and Ｂ are drawn SIDE BY SIDE at the SAME height (same
+generation, a married couple), connected to each other by a horizontal
+line with a small wedding-ring icon at its midpoint labeled 配偶者。Ａ is
+labeled 被相続人; Ｂ has a tombstone icon labeled 死亡. One generation
+below Ｂ (vertically beneath Ｂ specifically, not beneath the midpoint
+between Ａ and Ｂ), Ｅ is labeled Ｂの連れ子（Ａと養子縁組なし）, connected
+upward to Ｂ only by a solid vertical line (there is no line connecting Ｅ
+directly to Ａ, since Ｅ is not Ａ's descendant). Attempt to draw a dashed
+succession arrow from Ｅ up toward Ａ, but interrupt it partway with a red
+prohibition circle so the arrow never reaches Ａ.
 Conclusion tag (red banner, 5-15 Japanese characters):
 直系卑属にあたらない
 
@@ -358,12 +436,16 @@ Conclusion tag (red banner, 5-15 Japanese characters):
 Badge: a filled circle in red containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 直系尊属は「代襲」ではなく固有の権利
-Illustration: A 3-row family tree, Ａ at the bottom labeled 被相続人（子
-なし）, Ｂ above labeled Ａの父 with a tombstone icon labeled 死亡, Ｄ at
-the top labeled Ｂの母（Ａの祖母）drawn as an elder person icon, with a
-red prohibition circle on a dashed line from Ｄ to Ａ, and instead a
-separate solid green arrow drawn directly from Ｄ to Ａ labeled 固有の
-権利で相続.
+Illustration: A 3-row vertical family tree showing ASCENDING generations
+from bottom to top. Ａ (bottom) labeled 被相続人（子なし）. Ｂ (middle, one
+generation ABOVE Ａ, connected to Ａ by a solid vertical line) labeled
+Ａの父 with a tombstone icon labeled 死亡. Ｄ (top, one generation ABOVE
+Ｂ, connected to Ｂ by a solid vertical line) labeled Ｂの父（Ａの祖父）
+drawn as an elder person icon, still alive (no tombstone). Do NOT draw
+any dashed succession arrow from Ｄ to Ａ at all (there is no 代襲 here);
+instead draw a separate solid green arrow directly from Ｄ down to Ａ,
+visually distinct in color and style from the dashed succession arrows
+used in Cards 1-3, labeled 固有の権利で相続.
 Conclusion tag (red banner, 5-15 Japanese characters):
 代襲ではない
 
@@ -374,12 +456,19 @@ attention to 属・卑・縁・組・胎・児・偶・尊, and confirm each is 
 Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the number of cards equals 4 exactly, with no
-duplicated or missing cards, that badge numbers run 1-4 continuously,
-confirm cards 1-2 use a green badge/conclusion tag (直系卑属にあたる)
-and cards 3-4 use a red badge/conclusion tag (直系卑属にあたらない／
-代襲ではない), confirm there is no intro illustration or paragraph block
-between the header and the cards, and confirm that no card contains a
-full sentence of explanatory prose.
+duplicated or missing cards, confirm cards 1-2 use a green badge/
+conclusion tag (直系卑属にあたる) and cards 3-4 use a red badge/
+conclusion tag (直系卑属にあたらない／代襲ではない), confirm Card 3 is
+the only card in this image where two people (Ａ and Ｂ) are drawn at the
+same height side by side rather than stacked vertically (since they are
+spouses, same generation), confirm Card 4's three people run bottom-to-
+top as Ａ then Ｂ then Ｄ (ascending generations) rather than top-to-
+bottom, confirm no person symbol is reused with a different role within
+this image, confirm there is no intro illustration or paragraph block
+between the header and the cards, confirm that no card contains a full
+sentence of explanatory prose, and confirm the entire canvas, edge to
+edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
 ```
 
 ### 画像4：兄弟姉妹の代襲は一代限り、子の系統は再代襲あり（対比表型）
@@ -409,6 +498,25 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the two columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+FAMILY-TREE GENEALOGY CONVENTION (critical): Vertical position encodes
+generation; people of the SAME generation (such as siblings) must be
+drawn at the SAME height, side by side, never stacked as if one were the
+other's parent or child. The LEFT column is a pure vertical parent-to-
+child chain (no same-generation pairs). The RIGHT column contains a
+sibling pair (Ａ and Ｂ) that MUST be drawn side by side at the same
+height — see the RIGHT column's own instructions below for the exact
+layout; do not default to stacking Ｂ underneath Ａ.
+
 --- HEADER ---
 Title (large, bold, 2行):
 代襲が続く範囲は
@@ -423,27 +531,37 @@ Subtitle (smaller, centered, 1行):
 --- LEFT COLUMN HEADER (pill-shaped badge, color: green) ---
 子の系統（再代襲あり）
 
-Left illustration: A 4-row family tree. Ａ at top labeled 被相続人. Ｂ
-below labeled Ａの子 with a tombstone icon labeled 死亡. Ｃ below Ｂ
-labeled Ｂの子 with a tombstone icon labeled 死亡. Ｄ at the bottom
-labeled Ｃの子, connected upward to Ｃ by a solid line. A dashed
-succession arrow runs from Ｃ up to Ａ (labeled 代襲) and a second dashed
-succession arrow runs from Ｄ up to Ａ, passing through the same route
-(labeled 再代襲), both arrows shown reaching Ａ successfully with a
-checkmark.
+Left illustration: A 4-row vertical family tree (a straight line of
+descent, no siblings involved). Ａ at top labeled 被相続人. Ｂ one
+generation below Ａ (connected by a solid vertical line) labeled Ａの子
+with a tombstone icon labeled 死亡. Ｃ one generation below Ｂ (connected
+to Ｂ by a solid vertical line) labeled Ｂの子 with a tombstone icon
+labeled 死亡. Ｄ one generation below Ｃ (connected to Ｃ by a solid
+vertical line) labeled Ｃの子. Two dashed succession arrows are drawn as
+visually distinct nested curves so they do not overlap: an inner dashed
+arrow from Ｃ up to Ａ labeled 代襲, and an outer, more widely-curved
+dashed arrow from Ｄ up to Ａ labeled 再代襲 (drawn with a visibly larger
+curve/offset than the 代襲 arrow so the two are clearly two separate
+arrows, not one). Both arrows end at Ａ with a checkmark.
 Left conclusion tag: 孫・ひ孫へ再代襲
 
 --- RIGHT COLUMN HEADER (pill-shaped badge, color: red) ---
 兄弟姉妹の系統（一代限り）
 
-Right illustration: A 4-row family tree. Ａ at top labeled 被相続人（子も
-親もなし）. Ｂ below labeled Ａの兄 with a tombstone icon labeled 死亡.
-Ｃ below Ｂ labeled Ｂの子（Ａの甥）with a tombstone icon labeled 死亡. Ｄ
-at the bottom labeled Ｃの子（甥の子）, connected upward to Ｃ by a solid
-line. A dashed succession arrow runs from Ｃ up to Ａ (labeled 代襲) and
-reaches Ａ with a checkmark, but a second dashed arrow attempted from Ｄ
-up toward Ａ is blocked partway by a red circular "STOP" prohibition
-mark placed directly above Ｄ.
+Right illustration: Ａ and Ｂ are drawn SIDE BY SIDE at the SAME height
+(same generation, siblings), connected to each other by a horizontal
+line labeled 兄弟姉妹. Ａ is labeled 被相続人（子も親もなし）; Ｂ is
+labeled Ａの兄 with a tombstone icon labeled 死亡. One generation below
+Ｂ specifically (vertically beneath Ｂ, not beneath Ａ and not beneath the
+midpoint between them), Ｃ is labeled Ｂの子（Ａの甥）with a tombstone
+icon labeled 死亡, connected upward to Ｂ only by a solid vertical line.
+One generation below Ｃ, Ｄ is labeled Ｃの子（甥の子）, connected upward
+to Ｃ by a solid vertical line. A curved dashed succession arrow runs
+from Ｃ up and sideways to Ａ (labeled 代襲) and reaches Ａ with a
+checkmark. A second dashed arrow is attempted from Ｄ up toward Ａ,
+following a wider curve alongside the first arrow, but is blocked partway
+(near Ｃ's position) by a red circular "STOP" prohibition mark, so it
+never reaches Ａ.
 Right conclusion tag: 甥・姪で打ち止め
 
 --- FOOTER ---
@@ -453,13 +571,18 @@ attention to 襲・甥・姪・続・限, and confirm each is standard Japanese
 (Jōyō) form, not Simplified Chinese. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly 2 columns (LEFT and RIGHT), each
-containing exactly 4 person icons (Ａ・Ｂ・Ｃ・Ｄ) arranged top to bottom,
-confirm the LEFT column shows both dashed arrows (Ｃ→Ａ and Ｄ→Ａ)
-succeeding with checkmarks while the RIGHT column shows only the Ｃ→Ａ
-arrow succeeding and the Ｄ→Ａ arrow blocked by a STOP mark, confirm
-there is no intro illustration or paragraph block between the header and
-the columns, and confirm that no column contains a full sentence of
-explanatory prose.
+containing exactly 4 person icons (Ａ・Ｂ・Ｃ・Ｄ), confirm the LEFT
+column arranges all 4 people in a single vertical descending line (no
+side-by-side pairs) while the RIGHT column draws Ａ and Ｂ side by side
+at the same height (siblings) with Ｃ positioned below Ｂ specifically and
+Ｄ below Ｃ, confirm the LEFT column shows both dashed arrows (Ｃ→Ａ and
+Ｄ→Ａ) succeeding with checkmarks and drawn as two visibly distinct
+curves, while the RIGHT column shows only the Ｃ→Ａ arrow succeeding and
+the Ｄ→Ａ arrow blocked by a STOP mark, confirm there is no intro
+illustration or paragraph block between the header and the columns,
+confirm that no column contains a full sentence of explanatory prose, and
+confirm the entire canvas, edge to edge, is filled with a fully opaque
+background with no transparency or alpha channel anywhere.
 ```
 
 ### 画像5：代襲相続を判定する3ステップ（フローチャート型）
@@ -489,6 +612,16 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 代襲相続を判定する3ステップ
@@ -508,7 +641,8 @@ Node 1 (diamond, decision node, top):
 Branch 1-No (arrow labeled いいえ、leading to a rounded rectangle result
 node, styled gray/neutral):
 代襲の問題ではない
-（生存、または放棄しただけ）
+（生存・放棄・配偶者や直系尊属など
+　子・兄弟姉妹以外が欠けたケース）
 
 Branch 1-Yes (arrow labeled はい、leading down to Node 2):
 
@@ -549,8 +683,10 @@ decision nodes in top-to-bottom order and exactly 4 result nodes total
 Node 3's two branches), confirm every arrow is labeled with はい／いいえ
 or 子の系統／兄弟姉妹の系統 exactly as specified, confirm there is no
 intro illustration or paragraph block between the header and the
-flowchart, and confirm that no node contains more than the short text
-given above verbatim.
+flowchart, confirm that no node contains more than the short text given
+above verbatim, and confirm the entire canvas, edge to edge, is filled
+with a fully opaque background with no transparency or alpha channel
+anywhere.
 ```
 
 ---
