@@ -8,7 +8,7 @@
 
 ## 対象と非対象（他のルールとの切り分け）
 
-インフォグラフィック関連の成果物は4種類あり、混同しないこと。
+インフォグラフィック関連の成果物は5種類あり、混同しないこと。
 
 | 種類 | 対応するルール | 内容 | スタイル | サイズ |
 |---|---|---|---|---|
@@ -16,8 +16,11 @@
 | ②問題全体のインフォグラフィック | **このドキュメント** | その問題の5肢すべてを俯瞰する複数パネル構成 | カラー・フラットデザイン・アイソメトリック(斜め見下ろし)アイコン | 縦長ポートレート(下記「サイズ」参照) |
 | ③分野別・個別テーマ記事のインフォグラフィック | **このドキュメントの「③ 分野別・個別テーマ記事」章**（2026-08-06〜プロンプト化） | 記事1本につき**複数枚**のプロンプト（俯瞰ポスター・対比表・早見表・フローチャート等、必要な枚数だけ） | ②と同じ画風を基本とし、画像の種類に応じて表・フロー等のレイアウトも許容 | 画像ごとに内容量に応じて決定 |
 | ④間違いノート型（特定の肢の深掘り解説） | **このドキュメントの「④ 間違いノート型」章**（2026-08-24〜） | 読者が正誤を自力で導けなかった**特定の肢1つ**について、つまずきやすい思考の癖を可視化する解説図解 | ②③と同じ画風を基本としつつ、**文字量・説明文の制限を撤廃**（フローチャート・比較図・長めの注釈可） | 画像ごとに内容量に応じて決定 |
+| ⑤作図ガイド型（問題全体の思考順序） | **このドキュメントの「⑤ 作図ガイド型」章**（2026-09-14〜） | 問題文を読んだときに**5肢すべてについて**実際に手を動かして描くべき図と、その図にたどり着くための判定順序（フローチャート的な思考手順）を示す解き方ガイド | ②③と同じ画風を基本としつつ、④と同様に**文字量・説明文の制限を撤廃**（着眼点の説明文・条件分岐を明記可） | 画像ごとに内容量に応じて決定（目安1080×2600px） |
 
-このドキュメントは②・③・④を対象とする。①の依頼が来た場合のみ、これまで通り個別にプロンプトを作る（このドキュメントの対象外）。ただし、下記「背景の不透明化（必須・厳守）」は①を含む4種類すべてに例外なく適用する（①は固定雛形を使わないため、プロンプト作成時に手動で文言を追記すること）。
+このドキュメントは②・③・④・⑤を対象とする。①の依頼が来た場合のみ、これまで通り個別にプロンプトを作る（このドキュメントの対象外）。ただし、下記「背景の不透明化（必須・厳守）」は①を含む5種類すべてに例外なく適用する（①は固定雛形を使わないため、プロンプト作成時に手動で文言を追記すること）。
+
+**④と⑤の違い（重要）**：④は読者から「特定の1肢の結論に自力でたどり着けなかった」というフィードバックがあった場合に、その1肢だけを深掘りする**事後対応**。⑤は読者からのフィードバックの有無にかかわらず、**問題全体（通常5肢）**について「そもそも読んだ瞬間にどう図を描き、どの順番で条件を確認すればよいか」を示す**予防・練習素材**であり、②のカードポスターを作成する際に併せて（または後から）用意することを基本とする。
 
 **2026-08-06付の変更**：従来、`bunya-kaisetsu/format-template.md` の「インフォグラフィック設計メモ」は文章のみで構成案を指定し、プロンプト化はしない運用だった。この運用を改め、③（`bunya-kaisetsu/` の分野別・総合記事、および `topics/` の個別テーマ記事）についても、②と同じ基本ルール（縦長ポートレート・フラットデザイン・アイソメトリック・カード構成・簡体字対策・verbatim厳守）を引き継いだうえで、実際に画像生成に使える**プロンプト文**として記事に記録する運用に統一する。具体的なルールは本ドキュメント末尾の「③ 分野別・個別テーマ記事のインフォグラフィック プロンプト作成ルール」を参照。
 
@@ -344,4 +347,137 @@ heading, node label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters, and
 confirm the entire canvas, edge to edge, is filled with a fully opaque
 background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## ⑤ 作図ガイド型（問題全体の思考順序をフローチャートで示す）
+
+### これは何か
+
+問題文（ア〜オ5肢）を読んだときに、実際に手を動かして描くべき図（家系図・登記記録・建物の位置関係など）と、その図にたどり着くまでに**どの順番で何を確認すればよいか**を、肢ごとに示す解き方ガイド。②の「結論カードポスター」が正誤の結論を俯瞰することに主眼を置くのに対し、⑤は「初見の問題文をどう思考順序に沿って図解し、正誤にたどり着くか」という**プロセスそのもの**を可視化する点が異なる。
+
+R3午後第16問・R2午後第14問・R1午後第1問・H30午後第3問で確立した「作図ガイド」の運用を、正式な固定ルールとして整備したもの。
+
+### ②③④との違い
+
+- ②：5肢の**結論**を、文字数を絞ったカード（見出し＋短い結論タグ）で俯瞰する。GLANCEABLE-POSTER REQUIREMENTにより長文・条文引用は禁止。
+- ③：1記事（複数の見出し・複数の表）を、内容量に応じて複数枚に分解する。②のスタイルを流用する「俯瞰カードポスター型」を含む4つの型から選ぶ。
+- ④：読者から「特定の1肢の結論に自力でたどり着けなかった」というフィードバックがあった場合に、**その1肢だけ**を深掘りする事後対応。文字量制限はない。
+- ⑤：フィードバックの有無にかかわらず、**5肢すべて**について「問題文を読んだ瞬間に何を図に描き、どの順番で条件を確認すればよいか」を示す予防・練習素材。④と同様に文字量制限はないが、④が「1肢の深掘り」であるのに対し⑤は「問題全体の解き方の型」を示す点で異なる。②のカードポスターとは別物として作成し、②の内容を書き換えない。
+
+### 「フローチャート式」の考え方（重要・厳守）
+
+⑤の核心は、単に完成した図（家系図・配置図など）を1枚見せることではなく、**その図に至るまでの判定順序**を読者に追体験させることにある。したがって、以下を必ず満たすこと。
+
+1. **各肢の Diagram は、単なる完成図の説明ではなく、「まず何を確認し、次に何を確認し、最後にどう判定するか」という順序が読み取れる構図にする。** 具体的には、条件を1つずつ確認するステップを、上から下（または左から右）へ並べる、番号付きの確認ポイントを図の中に配置する、分岐が生じる場合は分岐点に○×の小さな判定マークを置く、といった手法を使う。
+2. **複数の条件を順に満たさないと結論に至れない肢（原則→例外、多段階の要件判定など）では、Diagram を実際の決定木（フローチャート）として描く。** ひし形の分岐ノード、条件を書いたラベル、Yes/No（またはある/なし、○/✕）に応じた分岐矢印、最終的な結論ノードという構成要素を明示的に指定する。1段階の確認だけで完結する肢では、無理にフローチャート化せず、通常の図解（着眼点を絵で示す構図）でよい。
+3. **着眼点コールアウトは、判定の「順番」を言葉でも明示する。** 「まず〜を確認します。次に〜を確認し、〜であれば…」のように、思考の手順が読み取れる文にする。結論だけを述べる文（②の結論タグのような一言）にしない。
+4. **同じ記事内の5肢を通して見たときに、共通する確認順序のパターン（例：「死亡年月日→相続開始時点での生存確認→代襲原因の該当性」）があれば、パネルの構図・着眼点の書き方をそろえ、読者がパターンとして覚えられるようにする。**
+
+### 画像の「型」
+
+多くの場合、以下のいずれか（または組合せ）になる。①〜④は`note-articles/topics/`等で使われる語彙と共通するため、③の「型別の雛形差分」もあわせて参照してよい。
+
+- **系統図・関係図型**：家系図・登記記録の名義人相互の関係など、当事者・要素の関係性を線でつなぐ図（例：代襲相続の家系図、区分建物と敷地権の対応関係）。
+- **配置図型**：土地・建物・附属建物など、物理的な位置関係を描く図（例：甲建物と乙建物の接続の有無、管轄区域の境界）。
+- **決定木（フローチャート）型**：複数の条件を順に判定して結論に至る肢に使う。ひし形の分岐ノードを用いる。
+- **タイムライン型**：時系列で生じる出来事（死亡・登記・処分等の先後関係）を左右または上下の矢印で示す図。
+
+### 手順
+
+1. 対象記事（`note-articles/{年度}-mondai/q{n}-*.md`）の②のインフォグラフィックプロンプト（既に作成済みであることが多い）と、各肢の本文解説・まとめを読む。
+2. 各肢について、「読者が問題文からどんな図を描けば正誤にたどり着けるか」「その図にたどり着くまでに、どの条件をどの順番で確認するか」を書き出す。原則→例外のような多段階の判定がある肢は、確認する条件を番号付きで列挙する。
+3. 上記「画像の型」から各肢に最適なものを選ぶ（肢ごとに型が異なってよい）。
+4. 下記「プロンプト雛形（作図ガイド型）」に流し込み、各パネルに Badge・Heading・Diagram・着眼点コールアウト・結論タグの4要素を用意する。多段階の条件判定がある肢では、Diagram を決定木として具体的に記述する（上記「フローチャート式の考え方」1〜2を参照）。
+5. 文字化け・簡体字対策・背景の不透明化（②の章を参照。CRITICAL TEXT REQUIREMENT・BACKGROUND REQUIREMENT・Final checkの三点を必ず含める。簡体字注意文は独立した日本語の一文にせず、必ずFinal checkの英文段落に埋め込む）を適用する。
+6. 記事ファイルの末尾（既存の②インフォグラフィックプロンプトの後）に `## インフォグラフィック プロンプト（ア〜オ 作図ガイド）` の見出しを立てて追記する。既存の②のセクションは変更しない。
+7. 画像は生成しない。記事ファイルにプロンプト文を追記して保存するところまでが成果物。
+
+### プロンプト雛形（作図ガイド型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of {N} diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — {対象分野に応じたアイコン・要素を具体的に列挙}.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+{年度・問題番号} ア〜オ
+作図ガイド（{分野の一言}）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL {N}（肢{ア/イ/ウ/エ/オ}） ---
+Badge: a filled circle in {COLOR} containing the number {N} (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+{その肢で最初に何をすべきかを表す短い見出し}
+Diagram: {図の構図を具体的に記述。多段階判定の肢は決定木として、分岐
+ノード・条件ラベル・Yes/No矢印・結論ノードを明記する}
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+{「まず〜を確認し、次に〜を確認します」のように順序を明示した1〜2文}
+Conclusion tag (a short colored banner/pill, {COLOR}, 5-15 Japanese
+characters):
+{短い結論の一言}
+
+（…肢の数だけ繰り返し。バッジ番号は1から通しで振る。）
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+{条文根拠の小さな注記。判例・先例番号は書かない}
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to {列挙する漢字}. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the panel count equals {N} exactly, badge numbers run 1-{N}
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that each 着眼点 callout states a checking
+order rather than only a conclusion, and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
 ```
