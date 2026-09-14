@@ -206,3 +206,122 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（各肢の相続関係図・解き方ガイド）
+
+上記の「問題全体のインフォグラフィック」は結論を短いタグで俯瞰する圧縮型のポスターですが、こちらは「代襲相続の問題文を読んだときに、実際にどんな相続関係図（家系図）を手描きすればよいか」を、凡例1枚＋各肢5枚の家系図で示す解き方ガイドです（④間違いノート型の技術ルールを、特定の1肢ではなく問題全体に適用したもの）。②のカードと異なり、各パネルには矢印の可否（○×）と一言の理由ラベルを直接書き込み、圧縮しすぎず「なぜそう判定するのか」の思考過程まで見えるようにしています。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(family-tree diagrams, person-circle icons labeled Ａ・Ｂ・Ｃ・Ｄ, tombstone
+icon for death, a court-gavel icon for family-court disinheritance, a red
+prohibition (no-entry) circle for "not allowed"), but built as a
+legend-plus-five-panel explainer sheet rather than a short-tag poster.
+
+EXPLAINER-SHEET REQUIREMENT (critical): This image exists to teach the
+reader how to hand-draw a family-tree diagram when solving this type of
+inheritance-by-representation (代襲相続) problem, not to be a glanceable
+summary. Unlike a quick-reference poster, each panel MUST show a small
+circle or triangle mark (○ or ✕) directly on the dotted succession arrow,
+plus a short reason label (a few words, not a full sentence) explaining
+why the arrow does or does not connect. Prioritize clarity of the
+reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background.
+There must be no checkerboard pattern, no partially transparent area, and
+no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+代襲相続の問題は
+家系図を描いて考える
+
+Subtitle (smaller, centered, 1行):
+5つの肢を相続関係図で読み解く（平成30年度 午後の部 第3問）
+
+--- PANEL 0（凡例） ---
+Heading (bold):
+図の読み方（凡例）
+Illustration: A small reference key showing five isolated icons side by
+side with a short label under each: (1) a plain circle labeled "相続人
+候補", (2) a double-outlined circle labeled "被相続人Ａ", (3) a circle
+with a tombstone icon labeled "死亡", (4) a circle with a small
+court-gavel icon and torn-paper tag labeled "廃除・欠格・放棄", (5) a
+dotted arrow with a green ○ mark labeled "代襲できる" next to a dotted
+arrow with a red ✕ mark labeled "代襲できない".
+
+--- PANEL 1（肢ア） ---
+Heading (bold):
+ア：祖母Ｃは「代襲」しない
+Illustration: An isometric family tree, top to bottom: Ａ（被相続人、
+直系卑属なし）— Ａの父Ｂ（tombstone icon, "死亡"）— Ｂの母Ｃ（Ａの祖母、
+label "直系尊属"）. A dotted arrow from Ｃ up to Ａ is marked with a red
+✕, with a short reason label beside it: "直系尊属は"代襲"という構成を
+とらない".
+
+--- PANEL 2（肢イ） ---
+Heading (bold):
+イ：放棄した Ｂ の子Ｃは代襲しない
+Illustration: An isometric family tree: Ａ（被相続人、tombstone icon,
+"死亡"）— Ａの子Ｂ（生存、torn-paper tag "相続放棄"）— Ｂの子Ｃ. A dotted
+arrow from Ｃ up to Ｂ up to Ａ is marked with a red ✕ at the Ｂ-Ａ
+segment, with a short reason label: "放棄は代襲原因でない".
+
+--- PANEL 3（肢ウ） ---
+Heading (bold):
+ウ：廃除後に生まれたＣも代襲する
+Illustration: An isometric family tree: Ａ（被相続人）— Ａの子Ｂ（生存中に
+court-gavel icon, torn-paper tag "廃除"）— Ｂの子Ｃ（a small calendar
+icon beside Ｃ labeled "廃除後に出生"）. A dotted arrow from Ｃ up through
+Ｂ to Ａ is marked with a green ○, with a short reason label: "出生時期は
+不問".
+
+--- PANEL 4（肢エ） ---
+Heading (bold):
+エ：甥の子Ｄへの再代襲はできない
+Illustration: An isometric family tree, four generations top to bottom:
+Ａ（被相続人、tombstone icon, "死亡"）— 兄Ｂ（label "兄弟姉妹", tombstone
+icon, "死亡"）— Ｂの子Ｃ（甥、tombstone icon, "死亡"）— Ｃの子Ｄ（甥の子）.
+A dotted arrow from Ｃ up to Ａ is marked with a green ○ (1代目の代襲は
+成立), but the arrow from Ｄ up to Ｃ is marked with a red ✕ and a small
+"STOP" tag, with a short reason label: "兄弟姉妹系の代襲は一代限り".
+
+--- PANEL 5（肢オ） ---
+Heading (bold):
+オ：欠格したＢの子Ｃは代襲する
+Illustration: An isometric family tree: Ａ（被相続人、tombstone icon,
+"死亡"）— Ａの子Ｂ（a red prohibition (no-entry) circle icon labeled
+"欠格"）— Ｂの子Ｃ. A dotted arrow from Ｃ up through Ｂ to Ａ is marked
+with a green ○, with a short reason label: "欠格の効果はＢ個人に限られる".
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成30年度 午後の部 第3問
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 続・属・尊・廃・欠・格・襲・棄・卑, and confirm each is
+rendered in its standard Japanese form rather than a Simplified Chinese
+look-alike. Confirm the image contains exactly six panels (the legend
+plus five case panels for 肢ア〜オ) with no duplicated or missing panels,
+confirm every succession arrow carries an explicit ○ or ✕ mark plus a
+short reason label as specified above (not a bare arrow with no
+mark), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
