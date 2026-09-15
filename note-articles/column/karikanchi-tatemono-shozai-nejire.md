@@ -10,7 +10,7 @@
 
 ### なぜ「所在」の記載がねじれるのか
 
-登記簿は、換地処分が完了するまで、従前地（元々の甲土地）の地番のままです。仮換地（乙区画）は「使ってよい場所」として指定されているだけで、まだ正式な地番を持つ登記された土地ではありません。
+登記簿は、換地処分が完了するまで、底地（仮換地の場所にもとから登記記録が存在する土地。この設例ではＡさん自身の従前地である甲土地です）の地番のままです。仮換地（乙区画）は「使ってよい場所」として指定されているだけで、まだ正式な地番を持つ登記された土地ではありません。
 
 そのため、Ａさんが仮換地（乙区画）に新築した家の表題登記を申請するとき、その家が実際に建っている場所を登記簿上で特定するには、その場所に登記記録上いまも存在している土地（この設例ではＡさん自身の従前地である甲土地とします）の地番を使うことになります。もっとも、それだけでは「実際にはどこに建っているのか（仮換地の場所）」が分かりにくくなるため、括弧書きで仮換地の予定地番（区画整理事業地区内の街区・画地番号）を併記する取り扱いになっています。
 
@@ -18,22 +18,22 @@
 
 - 所在　Ａ市Ｂ町一丁目３番地（仮換地　○○土地区画整理事業地区内　５街区３画地）
 
-前半の「Ａ市Ｂ町一丁目３番地」が従前地（甲土地）の地番、括弧内の「５街区３画地」が仮換地（乙区画）を示す予定地番です。
+前半の「Ａ市Ｂ町一丁目３番地」が底地（この設例ではＡさん自身の従前地である甲土地）の地番、括弧内の「５街区３画地」が仮換地（乙区画）を示す予定地番です。
 
 ### 気をつけるポイント
 
-- **従前地番＋仮換地番号を単純に並べればよいわけではないこと**：従前地の表示や「換地である旨」自体は記録しない扱いになっているため、書式は実務上の取扱いに沿って整える必要があります。
-- **土地と建物で場所の表記が食い違って見えること**：土地の地番（従前地）と建物の所在（従前地＋仮換地の併記）の表記が一見食い違って見えるため、抵当権を設定する場面などでは、金融機関側が「土地と建物で場所が違うのでは」と混乱しやすいポイントです。調査士としては、依頼者や関係者に「この土地区画整理事業特有の記載ルールだから問題ない」ときちんと説明できるようにしておく必要があります。
+- **底地番＋仮換地番号を単純に並べればよいわけではないこと**：従前地の表示や「換地である旨」自体は記録しない扱いになっているため、書式は実務上の取扱いに沿って整える必要があります。
+- **土地と建物で場所の表記が食い違って見えること**：土地の地番（底地）と建物の所在（底地＋仮換地の併記）の表記が一見食い違って見えるため、抵当権を設定する場面などでは、金融機関側が「土地と建物で場所が違うのでは」と混乱しやすいポイントです。調査士としては、依頼者や関係者に「この土地区画整理事業特有の記載ルールだから問題ない」ときちんと説明できるようにしておく必要があります。
 - **換地処分後は自動的に書き換わること**：換地処分が公告された後は、施行者（区画整理組合や自治体など）による申請または嘱託によって、建物の登記簿の所在地番が正式な換地の地番へ書き換えられます（土地区画整理法107条2項）。この変更は建物所有者自身が申請する必要はありません。
 
 ### まとめ
 
 - 仮換地は「使ってよい場所」の指定にすぎず、まだ独自の地番を持つ登記された土地ではない
-- 仮換地上に建てた建物の所在は、従前地の地番＋括弧書きの仮換地予定地番（街区・画地番号）で記載する
+- 仮換地上に建てた建物の所在は、底地（仮換地の場所にもとから登記記録が存在する土地。権利者自身の従前地とは限らない）の地番＋括弧書きの仮換地予定地番（街区・画地番号）で記載する
 - 土地の地番と建物の所在の表記が食い違って見えるのは、この特有の記載ルールによるもので誤りではない
 - 換地処分の公告後は、施行者による申請または嘱託によって所在地番が正式な換地の地番へ書き換わり（土地区画整理法107条2項）、建物所有者自身が申請する必要はない
 
-仮換地上に建物を建てるという場面は、土地区画整理事業が進行中の地域では珍しくなく、その間ずっと「登記簿上の地番（従前地）」と「実際に使っている場所（仮換地）」がズレたまま登記が進んでいく、という特殊な状態が続きます。調査士としては、このズレを正しい書式（従前地番＋括弧書きの仮換地予定地番）で登記に反映させることが求められます。
+仮換地上に建物を建てるという場面は、土地区画整理事業が進行中の地域では珍しくなく、その間ずっと「登記簿上の地番（底地）」と「実際に使っている場所（仮換地）」がズレたまま登記が進んでいく、という特殊な状態が続きます。調査士としては、このズレを正しい書式（底地の地番＋括弧書きの仮換地予定地番）で登記に反映させることが求められます。
 
 ---
 
@@ -51,7 +51,7 @@
 ## 見出し画像用フレーズ
 
 - 仮換地の家、所在の書き方がねじれて見えるんです
-- 登記簿はまだ従前地のまま、実は独自の地番がないんです
+- 登記簿はまだ底地のまま、仮換地には実は独自の地番がないんです
 - 括弧書きで仮換地の街区・画地番号を書き添えるんです
 - 土地と建物で場所が違って見えても、実は間違いじゃないんです
 - 換地処分のあとは、施行者の申請で勝手に書き換わるんです
@@ -88,7 +88,11 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 底・従・前・仮・換・地・番 — 底地 and 従前地 are two DIFFERENT terms
+in this diagram (底地 is the land whose registered lot number is used;
+従前地 refers only to the specific example's own original land) — do not
+merge or substitute one label for the other.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -103,14 +107,14 @@ Subtitle (smaller, centered, 1行):
 
 --- STAGE 1 (upper half) ---
 Heading (bold, ONE line):
-登記簿はまだ従前地のまま
+登記簿はまだ底地のまま
 
 Illustration: An isometric land-readjustment grid. On the left, a
-highlighted land plot labeled 従前地（甲土地）with a small registry-book
+highlighted land plot labeled 底地（甲土地）with a small registry-book
 icon next to it showing an unbroken green connection line (登記記録は
 ここに残る). On the right, a separate highlighted plot labeled
 仮換地（乙区画）with a small house icon standing on it, connected to the
-従前地 plot by a dashed dotted line labeled 使ってよい場所（地番なし）。
+底地 plot by a dashed dotted line labeled 使ってよい場所（地番なし）。
 
 --- STAGE 2 (lower half, registry-entry mockup) ---
 Heading (bold, ONE line):
@@ -127,7 +131,7 @@ the two parts of the text.
 Arrow A points from the part before the bracket up to a small tag. The
 tag contains this exact text and nothing else, with no trailing comma or
 punctuation of any kind:
-従前地の地番
+底地の地番
 
 Arrow B points from the bracketed part up to a separate small tag. That
 tag contains this exact text and nothing else, with no trailing comma or
@@ -138,17 +142,18 @@ punctuation of any kind:
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to the kanji 従・前・仮・換・地・番・街・区・画・登・記・録・題,
-which appear repeatedly above — render each in its standard Japanese
+attention to the kanji 底・従・前・仮・換・地・番・街・区・画・登・記・録・
+題, which appear repeatedly above — render each in its standard Japanese
 (Jōyō) form, never the Simplified Chinese variant. Confirm the
 registry-entry mockup text matches the Japanese text given above verbatim,
 character for character, with no paraphrasing or omission. Confirm the two
-arrow tags read exactly 従前地の地番 and 仮換地の予定地番（街区・画地番号）
+arrow tags read exactly 底地の地番 and 仮換地の予定地番（街区・画地番号）
 with no extra trailing comma, punctuation, or "and"/other stray characters
-appended to either tag. Confirm there is no intro illustration or
-paragraph block between the header and the diagram, and confirm the
-two-stage vertical layout is preserved with no duplicated or missing
-stages.
+appended to either tag. Confirm STAGE 1's left-hand plot is labeled 底地
+（甲土地）, not 従前地（甲土地）— these are different terms in this
+diagram. Confirm there is no intro illustration or paragraph block
+between the header and the diagram, and confirm the two-stage vertical
+layout is preserved with no duplicated or missing stages.
 ```
 
 ### 画像2：気をつけるポイント3つ
@@ -194,7 +199,7 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 単純に番号を並べればよいわけではない
 Illustration: A document icon labeled 所在欄 showing the correct
 bracket-style entry format, next to a crossed-out (red ✕) incorrect
-version that simply lists 従前地番と仮換地番号を並べただけ の表記.
+version that simply lists 底地番と仮換地番号を並べただけ の表記.
 Conclusion tag (blue banner below the illustration, 5-15 Japanese
 characters):
 書式のルールに沿う
@@ -204,8 +209,8 @@ Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 土地と建物で表記が食い違って見える
 Illustration: A confused bank-clerk character figure looking back and
-forth between two documents: one labeled 土地の地番（従前地）and one
-labeled 建物の所在（従前地＋仮換地併記）, with a small speech-bubble
+forth between two documents: one labeled 土地の地番（底地）and one
+labeled 建物の所在（底地＋仮換地併記）, with a small speech-bubble
 icon containing a question mark.
 Conclusion tag (blue banner below the illustration, 5-15 Japanese
 characters):
@@ -228,10 +233,11 @@ characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to the kanji 従・前・仮・換・地・番・所・在・登・記・録・施・行・
-者・申・請・嘱・託, which appear repeatedly above — render each in its
+attention to the kanji 底・従・前・仮・換・地・番・所・在・登・記・録・施・
+行・者・申・請・嘱・託, which appear repeatedly above — render each in its
 standard Japanese (Jōyō) form, never the Simplified Chinese variant.
-Confirm Card 3's illustration label reads exactly 申請・嘱託 (both words),
+Confirm Card 1 and Card 2 both use the label 底地, not 従前地. Confirm
+Card 3's illustration label reads exactly 申請・嘱託 (both words),
 not 申請 alone. Confirm the number of cards equals 3 exactly, with no
 duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
@@ -313,8 +319,8 @@ beside it:
 Explanatory callout box below (1-2 sentences, plain Japanese, no
 citation numbers):
 「所在」は現に登記記録が存在する土地を基準に書く必要があるため、底地
-（従前地）の地番を主に記載し、仮換地の予定地番は参考情報として括弧書き
-で併記します。
+の地番を主に記載し、仮換地の予定地番は参考情報として括弧書きで併記し
+ます（底地は権利者自身の従前地とは限りません）。
 
 --- FOOTER CALLOUT (full width, spans both columns) ---
 Heading (bold, ONE line):
