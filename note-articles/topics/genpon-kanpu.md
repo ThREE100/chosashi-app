@@ -621,7 +621,7 @@ side-outcome nodes, one branching from each diamond's「はい」branch. Each
 diamond has exactly one「はい」branch and one「いいえ」branch, and only
 the last diamond's「いいえ」branch leads to the green outcome. Pay special
 attention to the kanji 還, 付, 印, 鑑, 証, 明, 書, 申, 請, 委, 任, 状,
-承, 諾, 識, 別, 情, 報, 廃, 棄, 偽, 造, 疑, 却 — render every one of them
+承, 諾, 識, 別, 情, 報, 廃, 棄, 偽, 造, 疑 — render every one of them
 in standard Japanese (Jōyō) form, never in Simplified Chinese form, even
 though some of these characters have visually similar Simplified Chinese
 counterparts.
