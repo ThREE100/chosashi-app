@@ -30,11 +30,38 @@
 
 **たとえば**、Ａさんが「建物を買っておいて」と友人のＢさんに頼み、Ｂさんが売主Ｃさんから中古の一戸建てを買ったとします。このときＢさんが「実は雨漏りがあるな」と気づいていたのなら、その事情はＡさんも知っていたものとして扱われます。しかし「知っていたから泣き寝入り」にはなりません。雨漏りに気づいてから1年以内にＣさんへ通知さえすれば、Ａさんは修理を求めたり、代金を減額してもらったり、契約を解除したりすることができるのです。
 
+**ここが分かりにくいポイント**：
+「代理人Ｂが悪いところを知っていた→本人Ａも知っていたことになる→知っていて買ったのだから文句は言えないはず」と、ここまで一気に結論を急いでしまう人が少なくありません。「知っていて買ったなら仕方ない」というのは日常の感覚にもよく合っていて、とても自然な考え方に思えるからです。ところが、この直感は現行の民法では通用しません。
+
+なぜ通用しないのかを、2つのステップに分けて整理してみましょう。
+
+1. **代理人の知・不知は、誰を基準に判断するか**：ここは直感どおりで大丈夫です。代理人Ｂが知っていた（悪意だった）以上、本人Ａも知っていたものとして扱われます（民法101条1項）。この部分の判断は変わりません。
+2. **「知っていた」ことが、契約不適合責任を追及できない理由になるか**：ここが分かれ道です。実はこの問題を「知っていたら請求できない」と感じてしまう人は、2020年の民法改正より前にあった「瑕疵担保責任」という制度のイメージを、無意識のうちに引きずっています。かつての瑕疵担保責任は、「隠れた瑕疵」――つまり買主が知らなかった欠陥――についてしか成立しない制度でした。だから当時は「知っていた＝隠れていない＝請求できない」という結論で正しかったのです。ところが現行の契約不適合責任（民法562条以下）には、この「知らなかったこと」という条件がそもそもありません。買主が最初から不適合を知っていたとしても、それを知った時から1年以内に売主へ通知しさえすれば、修理や代金の減額、契約解除を求めることができます（566条）。
+
+つまりこの肢が本当に試しているのは「代理人の知・不知の判断基準」ではなく、「瑕疵担保責任という古い制度と、契約不適合責任という今の制度とで、要件がどう変わったか」なのです。両者を並べて比べてみましょう。
+
+- **旧・瑕疵担保責任（改正前）**：買主が瑕疵を知らなかったこと（＝隠れた瑕疵であること）が必要。知っていたら請求できない。
+- **新・契約不適合責任（現行法）**：買主が不適合を知っていたかどうかは関係ない。知った時から1年以内に通知すれば請求できる。
+
+したがって、代理人Ｂが悪意だった（＝本人Ａも悪意扱いになる）という事実は、契約不適合責任の成否そのものには影響しません。「Ａは、Ｃに対し、売主の契約不適合責任を問うことができない」とする本肢は、この点で誤りです。
+
 ### イ：まったく代理権のない者に、権限外行為の表見代理は成立しない
 
 権限外の行為の表見代理（民法110条）が成立するためには、その前提として何らかの「基本代理権」が存在していることが必要です。本肢のＢは、Ａから何らの代理権も与えられていないため、基本代理権がまったく存在しません。この場合は、Ｃが「Ｂに代理権がある」と信じ、そう信じたことに正当な理由があったとしても、表見代理は成立しません。よってこの肢は誤りです。
 
 **たとえば**、Ａさんの土地を、まったく頼まれてもいないＢさんが勝手にＣさんへ売ってしまったとします。Ｃさんが「Ｂさんには売る権限があるはずだ」と真剣に信じ込んでいたとしても、そもそもＢさんに何の代理権も与えられていなかったのなら、その信頼だけを理由にＡさんが契約に縛られることはありません。表見代理でＡさんを守る（＝Ｃさんを保護する）には、少なくとも土台となる代理権が必要なのです。
+
+**ここが分かりにくいポイント**：
+問題文の「Ｃが、Ｂに売買契約を締結する代理権があると信じ、そのように信じたことに正当な理由があるとき」という部分だけを読むと、「相手方に正当な理由がある→保護されるべきだ→表見代理は成立する」と、そのまま結論に飛びついてしまいがちです。「正当な理由」という言葉が目立つので、そこにばかり気を取られてしまうのです。
+
+しかし、権限外の行為の表見代理（民法110条）が成立するには、判定の入り口にもう1つ、見落としやすい関門があります。それは「そもそも代理人に、何かしらの代理権（基本代理権）が本当にあったのか」という点です。正しい判断の手順は、次の2段階に分けて考えます。
+
+1. **まず、基本代理権の有無を確認する**：Ｂに、たとえ今回の売買契約とは違う内容であっても、何らかの代理権がＡから与えられていたか。
+   - 何も与えられていない（ゼロ）場合 → この時点で表見代理は成立しません。相手方の正当理由は、判断するまでもありません。
+   - 何らかの代理権が与えられていた場合 → 次のステップに進みます。
+2. **基本代理権があった場合にかぎり、相手方の正当理由の有無を確認する**：相手方Ｃが、Ｂに今回の契約を結ぶ権限があると信じ、そう信じたことに正当な理由があったか。
+
+本肢のＢは、Ａから「何らの代理権も与えられていない」――つまりステップ1の時点で基本代理権がゼロです。したがって、Ｃがどれほど強く、正当な理由をもって信じていたとしても、ステップ2に進むまでもなく表見代理は成立しません。「正当な理由があるかどうか」という問いにばかり気を取られると見落としがちですが、表見代理はいつも「土台となる代理権があること」が大前提になっている、という点を押さえておきましょう。
 
 ### ウ：未成年者の代理行為を、法定代理人が取り消すことはできない
 
@@ -84,6 +111,7 @@
 - **表形式の修正（2026-07-22実施・追記）**：noteの本文エディタはMarkdownの表組みを描画できないため、直接貼り付けると「まとめ表」が崩れて表示される問題がありました。これを受けて、「### まとめ表」（表形式）を「### まとめ」（箇条書き「- **肢（判定）** ポイント」形式）に書き換えました。判定・ポイントの内容自体に変更はありません。この形式は、note.comインポート用のMT変換ツール（`tools/md_to_mt.py`）が箇条書きをそのまま`<li>`に変換するフォールバック処理に対応しているため、変換後の出力にも影響しません。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和3年度第1問（民法上の代理又は無権代理）が、本問と同じ条文群（民法102条・104条・110条・115条）を異なる具体的事例で問う、中程度の重複が見つかりました**。ただし各肢の具体的な事案・結論は本問とは異なっており（例：復代理人選任は本問がAの許諾ありのケース、令和3年度第1問がやむを得ない事由のケース）、一言一句同じ論点の再出題ではありません。noteで令和3年度第1問の解説記事を作成する際は、代理・無権代理の基本原則の説明が本記事と重なりやすい点に留意してください。
+- **肢ア・イに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、肢ア・肢イの結論に自力でたどり着けなかったというフィードバックを受け、それぞれの「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。肢アは、旧・瑕疵担保責任（隠れた瑕疵が要件）と現行・契約不適合責任（知・不知を問わない）の要件の違いを混同しやすい点、肢イは、相手方の「正当な理由」にばかり気を取られ、その前提となる「基本代理権の存在」という判定の入り口を見落としやすい点を、それぞれ掘り下げています。あわせて、両肢を深掘りする個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズは、既に肢ア（現行法改正で結論が反転する最も誤答を誘いやすい論点）を捉えた内容になっており、肢イのテーマ（前提条件の見落とし）とは性質が異なるため、両方を1つの言い回しに無理にまとめず、現行のキャッチフレーズを維持しています。
 
 ---
 
@@ -219,4 +247,173 @@ number of cards equals 5 exactly (3 cards under 代理権の限界を見極め�
 cards, and confirm every heading, illustration label, and caption text
 matches the Japanese text given above verbatim, with no paraphrasing and
 no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア肢・間違いノート）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with quoted article text and short explanatory sentences (1-3 sentences
+per callout box) labeled「誤りやすいポイント」or similar. Prioritize
+clarity and completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 契・約・不・適・合・
+責・任・瑕・疵・担・保・代・理・悪・知 — always draw the standard
+Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/comparison — with a solid or illustrated opaque
+background. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold):
+「知っていた」は言い訳にならない？
+
+Subtitle (smaller, centered):
+第1問 肢ア－旧・瑕疵担保責任と新・契約不適合責任の違い
+
+--- COMPARISON ---
+Layout: two panels side by side, connected by a small arrow icon labeled
+"2020年 民法改正" pointing from the left panel to the right panel, with an
+isometric person figure holding a document glowing above both panels
+showing a "知" (knowing) icon to represent the buyer/principal who knew
+about the defect.
+
+Left panel (labeled "旧・瑕疵担保責任(改正前)"):
+- 要件：瑕疵が「隠れた」ものであること(買主が知らなかったこと)
+- 買主が瑕疵を知っていた場合 → 請求できない
+Illustration: a person figure with a crossed-out speech bubble reading
+"請求できません" next to a document labeled "瑕疵担保責任"、with a small
+"知" icon on the person to show they knew about the defect.
+
+Right panel (labeled "新・契約不適合責任(現行法・562条以下)"):
+- 要件：「隠れた」瑕疵であることは不要。知っていたかどうかは問わない
+- 買主が不適合を知っていた場合でも → 知った時から1年以内に通知すれば
+  請求できる
+Illustration: a person figure with a "知" icon still glowing above their
+head, but this time holding up a checkmarked document labeled "契約不適合
+責任" and a small calendar icon reading "1年以内に通知"、showing the
+claim is still possible.
+
+--- CALLOUT: 誤りやすいポイント ---
+「代理人が知っていた＝本人も知っていた扱い(民法101条1項)」というルール
+は今も昔も変わりません。しかし「知っていたから請求できない」という結論
+は、旧法の瑕疵担保責任だけに存在した限定であり、現行法の契約不適合責任
+には引き継がれていません。この肢は、代理の知・不知の判定ではなく、法
+改正による要件の変化を試しています。
+
+--- FOOTER ---
+平成29年度 午後の部 第1問 肢ア(現行法アレンジ版) / 民法101条1項・562条・
+566条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 契・約・不・適・合・責・任・瑕・疵・担・保・代・理・悪・知.
+Confirm every heading, panel label, and callout text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters, and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（イ肢・間違いノート）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include a flowchart with written
+branch conditions and short explanatory sentences (1-3 sentences per
+callout box) labeled「誤りやすいポイント」or similar. Prioritize clarity
+and completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 代・理・権・限・外・
+表・見・成・立・基・本・正・当 — always draw the standard Japanese
+(Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart — with a solid or illustrated opaque
+background. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold):
+「正当な理由」より先に見るもの
+
+Subtitle (smaller, centered):
+第1問 肢イ－表見代理に隠れた前提条件
+
+--- FLOWCHART ---
+A vertical flowchart with two diamond-shaped decision nodes connected top
+to bottom by arrows.
+
+Step 1 (diamond node):
+代理人に何らかの基本代理権はあったか？
+- 「ない(ゼロ)」の矢印 → 赤い終着ボックス「表見代理は成立しない
+  (相手方の正当理由は判断するまでもない)」
+- 「ある」の矢印 → Step 2へ進む
+
+Step 2 (diamond node, only reached if Step 1 is "ある"):
+相手方が代理権があると信じ、そう信じたことに正当な理由があるか？
+- 「ない」の矢印 → 赤い終着ボックス「表見代理は成立しない」
+- 「ある」の矢印 → 緑の終着ボックス「表見代理が成立する(民法110条)」
+
+Illustration: place a highlighted marker/flag icon labeled "本肢はここ"
+pointing at the Step 1 "ない(ゼロ)" branch and its red end-box, to show
+this problem's scenario is resolved at the very first decision node,
+without ever reaching Step 2.
+
+--- CALLOUT: 誤りやすいポイント ---
+「正当な理由があるかどうか」という言葉に気を取られると、そこだけで判断
+してしまいがちです。しかし民法110条の権限外の行為の表見代理が成立する
+には、まず土台となる基本代理権が存在していることが大前提です。基本代理
+権がゼロであれば、相手方の信頼がどれほど強くても表見代理は成立しません。
+
+--- FOOTER ---
+平成29年度 午後の部 第1問 肢イ(現行法アレンジ版) / 民法110条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 代・理・権・限・外・表・見・成・立・基・本・正・当. Confirm
+every heading, node label, and callout text matches the Japanese text
+given above verbatim, with no paraphrasing and no substituted characters,
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
 ```
