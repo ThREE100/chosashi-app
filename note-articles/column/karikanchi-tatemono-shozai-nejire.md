@@ -6,19 +6,19 @@
 
 ### たとえば
 
-**たとえば**、Ａさんが元々持っていた甲土地（従前地）について、区画整理事業によって道路の位置が変わることになり、事業完了後は乙区画が最終的にＡさんの土地（換地）になる予定だとします。工事完了（換地処分）までの間、Ａさんは「乙区画を仮換地として使ってよい」という指定を受け、実際にその乙区画に家を建てることができます（なお、区画整理事業では、この乙区画の場所に事業前から登記記録上存在していた土地が、Ａさん自身の甲土地とは限らない、別の人の土地であることも珍しくありません。この点は下記の関連テーマ記事で詳しく整理しています）。
+**たとえば**、Ａさんが元々持っていた甲土地（Ａさんの従前地）について、区画整理事業によって道路の位置が変わることになり、事業完了後は乙区画が最終的にＡさんの土地（換地）になる予定だとします。ところが、この乙区画の場所には、区画整理事業前からＢさんが持っていた乙土地（Ｂさんの従前地）が登記記録上存在しています。工事完了（換地処分）までの間、Ａさんは「乙区画をＡさんの仮換地として使ってよい」という指定を受け、実際にその乙区画に家を建てることができます。つまり、Ａさんが仮換地として使う場所には、Ａさん自身の甲土地ではなく、Ｂさんの乙土地が登記記録上存在している、という状態になります（この「底地は仮換地の指定を受けた本人の従前地とは限らない」という点は、下記の関連テーマ記事で詳しく整理しています）。
 
 ### なぜ「所在」の記載がねじれるのか
 
-登記簿は、換地処分が完了するまで、底地（仮換地の場所にもとから登記記録が存在する土地。この設例ではＡさん自身の従前地である甲土地です）の地番のままです。仮換地（乙区画）は「使ってよい場所」として指定されているだけで、まだ正式な地番を持つ登記された土地ではありません。
+登記簿は、換地処分が完了するまで、底地（仮換地の場所にもとから登記記録が存在する土地。この設例ではＢさんの乙土地です）の地番のままです。仮換地（乙区画）は「使ってよい場所」として指定されているだけで、まだ正式な地番を持つ登記された土地ではありません。
 
-そのため、Ａさんが仮換地（乙区画）に新築した家の表題登記を申請するとき、その家が実際に建っている場所を登記簿上で特定するには、その場所に登記記録上いまも存在している土地（この設例ではＡさん自身の従前地である甲土地とします）の地番を使うことになります。もっとも、それだけでは「実際にはどこに建っているのか（仮換地の場所）」が分かりにくくなるため、括弧書きで仮換地の予定地番（区画整理事業地区内の街区・画地番号）を併記する取り扱いになっています。
+そのため、Ａさんが仮換地（乙区画）に新築した家の表題登記を申請するとき、その家が実際に建っている場所を登記簿上で特定するには、その場所に登記記録上いまも存在している土地（この設例ではＢさんの乙土地です）の地番を使うことになります。もっとも、それだけでは「実際にはどこに建っているのか（仮換地の場所）」が分かりにくくなるため、括弧書きで仮換地の予定地番（区画整理事業地区内の街区・画地番号）を併記する取り扱いになっています。
 
 **たとえば**、実際の登記記載はこのようなイメージになります。
 
 - 所在　Ａ市Ｂ町一丁目３番地（仮換地　○○土地区画整理事業地区内　５街区３画地）
 
-前半の「Ａ市Ｂ町一丁目３番地」が底地（この設例ではＡさん自身の従前地である甲土地）の地番、括弧内の「５街区３画地」が仮換地（乙区画）を示す予定地番です。
+前半の「Ａ市Ｂ町一丁目３番地」が底地（この設例ではＢさんの乙土地）の地番、括弧内の「５街区３画地」が仮換地（乙区画）を示す予定地番です。Ａさん自身の甲土地（従前地）の地番は、この所在欄のどこにも登場しない点に注意してください。
 
 ### 気をつけるポイント
 
@@ -44,7 +44,7 @@
 - **検証で判明した先例番号（2026-09-16実施）**：括弧書きによる仮換地予定地番（街区・画地番号）の併記という書式、および「従前地の表示や『換地である旨』自体は記録されない」という点は、いずれも不動産登記法・不動産登記規則・不動産登記事務取扱手続準則には明文規定がなく、以下の2つの先例・通達に基づく実務上の取扱いであることが、複数の先例集サイトの引用要旨により確認できました。①**昭和34年7月10日建設計発374号建設省計画局長通達**（法務省と協議済み）：所在地番は原則として底地（仮換地の場所に現に登記記録が存在する土地。権利者自身の従前地とは限らない）の地番を記録し、これに加えて換地の予定地番（街区・画地など）を括弧書きで併記する、という枠組みそのものの出発点となる通達。②**昭和43年2月14日民事甲第170号民事局長回答**：仮換地上に建物が新築された場合の所在は、原則として底地の現在の地番を記載し、予定地番が定められている場合は括弧書きにより併記することができる（義務ではなく任意）、という内容。この2点は既存記事`note-articles/r6-mondai/q13-tatemono-shozai.md`・`note-articles/h17-mondai/q11-kukakuseiri.md`の確認事項欄とも整合します。なお、いずれも独自に編纂・公開されている先例集サイト・実務解説ブログ経由での要旨確認であり、法務省の公式先例集原本や官報そのものへの到達ではない点は留保します。
 - **検証で修正した点（換地処分後の書き換えの根拠・主体）**：初稿では「換地処分後に施行者の申請で建物の所在地番が自動的に書き換わる」とだけ記載し、WebSearchの実務解説サイトのみを根拠としていましたが、`laws/tochi-kukaku-seiri-hou.md`（土地区画整理法全文、2026-09-16収録）の条文原文で再検証した結果、同法107条2項に「施行者は、…施行地区内の土地及び建物について土地区画整理事業の施行に因り変動があつたときは、政令で定めるところにより、遅滞なく、その変動に係る登記を申請し、又は嘱託しなければならない」という規定があることを確認しました。この規定は「申請」だけでなく「嘱託」も併記しているため、本文・まとめの表記を「施行者による申請または嘱託によって」に修正し、107条2項の条文番号を追記しました。なお、未登記の従前地について施行者が所有者に代位して表題登記を申請できる根拠は、これとは異なる場面・条文（**107条4項の委任に基づく土地区画整理登記令2条1項1号**）であり、混同しないよう注意してください（この点は既存記事`note-articles/bunya-kaisetsu/07-jyuzenchi-sokochi-karikanchi.md`でも同様に条文原文で確認・修正済みです）。
 - 金融機関側が土地・建物の所在表記の食い違いに混乱しやすいという点は、一般的な実務上の留意点として記載したものであり、特定の過去問の設例に基づくものではありません。
-- 従前地・底地・仮換地という3つの用語の関係そのものについては、既存の個別テーマ記事`note-articles/bunya-kaisetsu/07-jyuzenchi-sokochi-karikanchi.md`で詳しく整理していますので、あわせてご参照ください。厳密には、仮換地上に建てた建物の所在に使う地番は、その場所に登記記録上いまも存在している土地（底地）の地番であり、これは必ずしも仮換地の指定を受けた本人自身の従前地とは限りません。本記事の設例では、話を簡単にするため、底地＝Ａさん自身の従前地（甲土地）であるケースを念頭に説明しています。
+- 従前地・底地・仮換地という3つの用語の関係そのものについては、既存の個別テーマ記事`note-articles/bunya-kaisetsu/07-jyuzenchi-sokochi-karikanchi.md`で詳しく整理していますので、あわせてご参照ください。厳密には、仮換地上に建てた建物の所在に使う地番は、その場所に登記記録上いまも存在している土地（底地）の地番であり、これは必ずしも仮換地の指定を受けた本人自身の従前地とは限りません。**（2026-09-16改訂）**本記事の設例は、当初「底地＝Ａさん自身の従前地（甲土地）」という単純化した設定で説明していましたが、この設定は「甲土地（Ａさんの従前地）」と「乙区画（Ａさんの仮換地）」を別の場所として紹介しておきながら、乙区画の場所にある底地を甲土地と同一視するという内部矛盾（乙区画の場所にあるはずの土地が、別の場所にある甲土地と同じであるはずがない）を含んでいたため、修正しました。現在の設例では、乙区画の場所には別人であるＢさんの乙土地（Ｂさんの従前地）が登記記録上存在しているという設定にしており、底地が仮換地の指定を受けた本人（Ａさん）自身の従前地ではないケースを最初から示す内容になっています。
 
 ---
 
@@ -110,11 +110,16 @@ Heading (bold, ONE line):
 登記簿はまだ底地のまま
 
 Illustration: An isometric land-readjustment grid. On the left, a
-highlighted land plot labeled 底地（甲土地）with a small registry-book
-icon next to it showing an unbroken green connection line (登記記録は
-ここに残る). On the right, a separate highlighted plot labeled
-仮換地（乙区画）with a small house icon standing on it, connected to the
-底地 plot by a dashed dotted line labeled 使ってよい場所（地番なし）。
+highlighted land plot labeled 底地（乙土地）with a small character
+figure labeled Ｂさん standing on it, and a small registry-book icon
+next to it showing an unbroken green connection line (登記記録はここに
+残る). On the right, that SAME physical plot is overlaid with a
+semi-transparent highlight labeled 仮換地（乙区画）, with a small house
+icon and a character figure labeled Ａさん standing on it, connected to
+the 底地 label by a dashed dotted line labeled 使ってよい場所（地番なし）。
+Include a small separate land plot elsewhere in the grid labeled
+甲土地（Ａさんの従前地）with a padlock icon, to make clear this is a
+different, unrelated plot that is NOT the same as 底地.
 
 --- STAGE 2 (lower half, registry-entry mockup) ---
 Heading (bold, ONE line):
@@ -149,9 +154,12 @@ registry-entry mockup text matches the Japanese text given above verbatim,
 character for character, with no paraphrasing or omission. Confirm the two
 arrow tags read exactly 底地の地番 and 仮換地の予定地番（街区・画地番号）
 with no extra trailing comma, punctuation, or "and"/other stray characters
-appended to either tag. Confirm STAGE 1's left-hand plot is labeled 底地
-（甲土地）, not 従前地（甲土地）— these are different terms in this
-diagram. Confirm there is no intro illustration or paragraph block
+appended to either tag. Confirm STAGE 1 shows 底地（乙土地・Ｂさん）and
+仮換地（乙区画・Ａさん）as the SAME physical plot (overlaid, not two
+separate plots side by side), and shows 甲土地（Ａさんの従前地）as a
+clearly SEPARATE, different plot elsewhere in the grid — do not merge
+甲土地 and 底地 into one plot, and do not label the 底地 plot as 甲土地.
+Confirm there is no intro illustration or paragraph block
 between the header and the diagram, and confirm the two-stage vertical
 layout is preserved with no duplicated or missing stages.
 ```
