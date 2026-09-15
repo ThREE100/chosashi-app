@@ -182,16 +182,25 @@ paraphrasing.
 
 ## インフォグラフィック プロンプト②（仮換地指定から換地処分までの時系列）
 
-「いつ」「何が」起きるのかを時系列で追えるように、横向きタイムライン形式にした。
+「いつ」「何が」起きるのかを時系列で追えるように、縦向きタイムライン形式にした。
 
 ```
-Create a Japanese-language infographic, landscape layout, 1920x1080
+Create a Japanese-language infographic, portrait layout, 1080x2600
 pixels, clean flat-design isometric illustration style with soft
-pastel colors (blue, green, beige, gray), a single horizontal timeline
-with rounded milestone markers, consistent with a modern
-explainer-graphic aesthetic (icons: land plot icons, official stamps,
-padlock icons, registry-book icons, calendar/clock icons — adapt icon
-set to the topic).
+pastel colors (blue, green, beige, gray), a single vertical top-to-bottom
+timeline with rounded milestone markers connected by a vertical line
+down the center or left side, consistent with a modern explainer-graphic
+aesthetic (icons: land plot icons, official stamps, padlock icons,
+registry-book icons, calendar/clock icons — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+timeline poster, NOT a text-heavy explainer document. Each stage's
+caption must be short (2-3 short sentences at most) and set in a
+comfortably readable font size — never shrink caption text to fit;
+instead give each stage its own full-width horizontal band stacked
+vertically, with the illustration and caption side by side or stacked
+within that band, so no text is cramped.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -274,9 +283,10 @@ attention to 従・前・底・仮・換・地・番・権・利・登・記・�
 words such as 従前地, 仮換地, 換地処分, 保留地, 登記記録, 使用収益権,
 公告 — if any character renders as a Simplified Chinese variant, redraw
 that character in the correct Japanese form. Confirm the timeline has
-exactly 5 stages in left-to-right order, with no duplicated or missing
-stages, and confirm every caption matches the Japanese text given above
-verbatim with no paraphrasing.
+exactly 5 stages stacked in top-to-bottom order, with no duplicated or
+missing stages, confirm every caption matches the Japanese text given
+above verbatim with no paraphrasing, and confirm no caption text is
+shrunk to a size smaller than the rest of the poster's body text.
 ```
 
 ---
