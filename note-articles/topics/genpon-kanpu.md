@@ -498,6 +498,150 @@ paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose.
 ```
 
+### 画像5：4つの除外類型をまとめて判定する全体フローチャート
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray, red), rounded flowchart nodes connected by
+arrows, consistent with a modern explainer-graphic aesthetic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+flowchart poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the flowchart. Every node must be a short
+label or a short question, never a full paragraph. Do NOT render any
+full-sentence explanation of body text anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire 1080×2000 canvas must be
+fully opaque from edge to edge. Do NOT generate a transparent or
+alpha-channel background under any circumstances, even if the output file
+format supports transparency. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere.
+
+--- HEADER ---
+Title (large, bold, 2行):
+原本還付、4つの除外を
+上から順に判定する
+
+Subtitle (smaller, centered, 1行):
+どれにも当たらなければ、必ず還付できる
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+Render as a single vertical flowchart, top to bottom. Rectangular nodes
+for start/outcome states, diamond nodes for yes/no questions. Each diamond
+question is numbered ①〜④ in a small badge (soft beige) at its top-left
+corner, so the four checks read as an ordered sequence.
+
+Node START (rectangle, soft blue):
+書面申請の添付書面
+（磁気ディスクを除く）を確認する
+
+Node ①（diamond, question, soft beige, badge "①"）:
+規則55条1項ただし書が限定列挙する
+印鑑証明書か
+（令16条2項・18条2項・19条2項等）
+
+Node ① branch「はい」→ Node OUTCOME-NG1
+Node ① branch「いいえ」→ Node ②
+
+Node ②（diamond, question, soft beige, badge "②"）:
+当該申請のためにのみ
+作成された書面か
+（委任状／専用の承諾書／本人確認情報）
+
+Node ② branch「はい」→ Node OUTCOME-NG2
+Node ② branch「いいえ」→ Node ③
+
+Node ③（diamond, question, soft beige, badge "③"）:
+登記識別情報を記載した書面か
+（規則66条1項2号・69条1項）
+
+Node ③ branch「はい」→ Node OUTCOME-NG3
+Node ③ branch「いいえ」→ Node ④
+
+Node ④（diamond, question, soft beige, badge "④"）:
+偽造・不正利用の疑いがあると
+登記官が判断した書面か
+（規則55条5項）
+
+Node ④ branch「はい」→ Node OUTCOME-NG4
+Node ④ branch「いいえ」→ Node OUTCOME-OK
+
+Node OUTCOME-NG1 (rounded outcome, soft red, with a ✕ icon, placed to the
+right of Node ①):
+還付できない
+（限定列挙の印鑑証明書）
+
+Node OUTCOME-NG2 (rounded outcome, soft red, with a ✕ icon, placed to the
+right of Node ②):
+還付できない
+（その申請専用の書面）
+
+Node OUTCOME-NG3 (rounded outcome, soft red, with a ✕ icon, placed to the
+right of Node ③):
+還付の対象外
+（廃棄済みで手元に残らない）
+
+Node OUTCOME-NG4 (rounded outcome, soft red, with a ✕ icon, placed to the
+right of Node ④):
+登記官が還付を拒否
+（請求の有無を問わない）
+
+Node OUTCOME-OK (rounded outcome, soft green, with a large ○ icon, at the
+bottom of the main vertical flow, larger than the four red outcome nodes):
+還付できる
+（例：工事完了引渡証明書に
+添える印鑑証明書）
+
+Layout: the four diamond nodes ①②③④ and the START/OUTCOME-OK nodes form
+one straight vertical spine down the center of the poster. Each of the
+four red outcome nodes branches off to the side from its own diamond,
+so the poster reads as "一本の縦の流れから、はいの場合だけ横に逃げる"
+structure, ending in the single green outcome at the bottom of the spine.
+
+--- FOOTER ---
+
+Supplementary note (place this short paragraph here, directly above the
+Final check, not near the header): This flowchart has exactly 6 nodes on
+the main vertical spine (1 start rectangle, 4 diamond question nodes
+numbered ①②③④ in sequence, 1 final green outcome), plus exactly 4 red
+side-outcome nodes, one branching from each diamond's「はい」branch. Each
+diamond has exactly one「はい」branch and one「いいえ」branch, and only
+the last diamond's「いいえ」branch leads to the green outcome. Pay special
+attention to the kanji 還, 付, 印, 鑑, 証, 明, 書, 申, 請, 委, 任, 状,
+承, 諾, 識, 別, 情, 報, 廃, 棄, 偽, 造, 疑, 却 — render every one of them
+in standard Japanese (Jōyō) form, never in Simplified Chinese form, even
+though some of these characters have visually similar Simplified Chinese
+counterparts.
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly 4 diamond question nodes,
+numbered ①②③④ in order from top to bottom, confirm each diamond has both
+a「はい」and an「いいえ」branch label, confirm each diamond's「はい」
+branch leads to its own distinct red outcome node (4 red outcome nodes in
+total, none shared or merged), confirm the「いいえ」chain runs straight
+down through all four diamonds and ends in the single green outcome node,
+confirm there is no intro illustration or paragraph block between the
+header and the flowchart, and confirm that no node contains a full
+sentence of explanatory prose. Confirm the entire 1080×2000 canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
+
 ---
 
 ## 参照した過去問記事一覧
