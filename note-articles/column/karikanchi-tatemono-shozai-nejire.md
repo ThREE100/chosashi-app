@@ -240,6 +240,200 @@ card contains a full sentence of explanatory prose.
 
 ---
 
+## インフォグラフィック プロンプト（読者質問への回答・間違いノート）
+
+読者から「仮換地は実際に使っている土地なのだから、所在は仮換地を主に書き、換地処分後の正式な地番を括弧書きにするのでは」という質問があり、実際にはその逆（底地の地番が主、仮換地の予定地番が括弧書き）であることを解説する2枚。②③と異なり、この2枚は1つの誤解を解消することに特化しているため、短い結論タグだけでなく1〜3文程度の説明文を画像内に含めてよい。
+
+### 画像1：よくある誤解と、実際の正しい記載の対比
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), a left/right comparison layout, consistent
+with the same visual language as this article's other infographics
+(isometric land plots, a registry-entry mockup card, checkmark/✕ icons).
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include short explanatory
+sentences (1-3 sentences per callout box). Prioritize clarity of the
+reasoning over brevity. Do NOT write any specific precedent, case, or
+notice numbers (e.g. dates or "号" numbers) anywhere in the image — the
+content of the rule may be described, but not cited by number.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not
+paraphrase, translate, summarize, or substitute any characters. Pay
+special attention to the kanji 従・前・底・仮・換・地・番・所・在・登・記・
+録, which appear repeatedly below (従前地, 底地, 仮換地, 地番, 所在,
+登記記録 など) — render each in its standard Japanese (Jōyō) form, never
+the Simplified Chinese variant.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the two columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+仮換地の建物の所在、
+それ実は逆かもしれません
+
+Subtitle (smaller, centered, 1行):
+「今使っている場所」ではなく「登記記録がある場所」を書くんです
+
+--- LEFT COLUMN (color: gray/red, header pill reads よくある誤解) ---
+Heading (bold, ONE line):
+仮換地を主役に書いてしまう
+Illustration: A registry-entry mockup card (white card, thin border)
+containing exactly this text on one line, with a large red ✕ stamped
+across it:
+所在　○○土地区画整理事業地区内　５街区３画地（換地後　Ａ市Ｂ町一丁目３番地）
+Explanatory callout box below (1-2 sentences, plain Japanese, no
+citation numbers):
+仮換地は今まさに使っている場所なので、そこを主に書きたくなりますが、
+仮換地はまだ登記記録が存在する土地ではないため、これは誤りです。
+
+--- RIGHT COLUMN (color: green, header pill reads 正しい記載) ---
+Heading (bold, ONE line):
+底地（登記記録がある土地）を主役に書く
+Illustration: A registry-entry mockup card (white card, thin border)
+containing exactly this text on one line, with a green checkmark stamped
+beside it:
+所在　Ａ市Ｂ町一丁目３番地（仮換地　○○土地区画整理事業地区内　５街区３画地）
+Explanatory callout box below (1-2 sentences, plain Japanese, no
+citation numbers):
+「所在」は現に登記記録が存在する土地を基準に書く必要があるため、底地
+（従前地）の地番を主に記載し、仮換地の予定地番は参考情報として括弧書き
+で併記します。
+
+--- FOOTER CALLOUT (full width, spans both columns) ---
+Heading (bold, ONE line):
+なぜ逆になるのか
+Text (2-3 sentences, plain Japanese, no citation numbers):
+仮換地の予定地番（街区・画地番号）は、区画整理事業の中だけで使われる
+整理番号であって、法務局の登記記録に対応する正式な地番ではありません。
+登記の「所在」は、現に登記記録がある土地を基準にしか書けないため、
+底地の地番が主、仮換地の予定地番が補足の括弧書きになります。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 従・前・底・仮・換・地・番・所・在・登・記・録 in words such
+as 従前地, 底地, 仮換地, 地番, 所在, 登記記録 — if any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the canvas has no transparent or alpha-channel
+area anywhere. Confirm both registry-entry mockup texts match the
+Japanese text given above verbatim, character for character, with no
+paraphrasing or omission. Confirm no precedent/notice/case number of any
+kind appears anywhere in the image. Confirm there are exactly 2 columns
+plus 1 full-width footer callout, with no duplicated or missing
+sections.
+```
+
+### 画像2：換地処分が終わると、所在はどう書き換わるのか
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), a top-to-bottom 3-stage timeline, consistent
+with the same visual language as this article's other infographics
+(isometric registry-book icons, an official stamp icon, a construction-
+helmet character labeled 施行者, a prohibition mark).
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion (whether the interim bracket-style entry
+stays like that forever, or the owner must fix it themselves later), not
+to be a glanceable summary. Short explanatory sentences (1-2 sentences
+per stage) are allowed. Do NOT write any specific precedent, case, or
+notice numbers anywhere in the image — article/statute numbers such as
+「107条2項」may be written, but precedent/notice numbers may not.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not
+paraphrase, translate, summarize, or substitute any characters. Pay
+special attention to the kanji 従・前・底・仮・換・地・番・所・在・登・記・
+録・施・行・者・申・請・嘱・託, which appear repeatedly below — render
+each in its standard Japanese (Jōyō) form, never the Simplified Chinese
+variant.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the timeline — with a solid or illustrated opaque
+background. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+換地処分が終わると、所在はどう変わるのか
+
+Subtitle (smaller, centered, 1行):
+所有者の申請なしで、施行者が書き換えるんです
+
+--- STAGE 1 ---
+Milestone marker (circle icon: registry book):
+仮換地を使用中（換地処分前）
+Illustration: A registry-entry mockup card showing:
+所在　Ａ市Ｂ町一丁目３番地（仮換地　○○土地区画整理事業地区内　５街区３画地）
+Caption (1-2 sentences):
+底地の地番を主に、仮換地の予定地番を括弧書きで併記した状態がしばらく
+続きます。
+
+--- STAGE 2 ---
+Milestone marker (circle icon: official stamp):
+換地処分の公告
+Illustration: An official stamp icon reading 公告 pressed onto a
+document, with a 施行者 character (construction helmet) standing beside
+it holding a folder labeled 申請・嘱託.
+Caption (1-2 sentences):
+換地処分の公告があると、施行者が変動に係る登記を申請または嘱託します
+（土地区画整理法107条2項）。
+
+--- STAGE 3 ---
+Milestone marker (circle icon: registry book with a checkmark):
+所在が正式な地番に書き換わる
+Illustration: A registry-entry mockup card showing the same building's
+所在 now written as a single, non-bracketed entry:
+所在　Ａ市Ｂ町一丁目３番地
+with a green checkmark. Beside it, the building-owner character stands
+with a red prohibition mark over a label reading 申請不要.
+Caption (1-2 sentences):
+括弧書きだった仮換地の予定地番は、正式な換地の地番に統合されます。
+所有者自身がこの書き換えを申請する必要はありません。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal).
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+attention to 従・前・底・仮・換・地・番・所・在・登・記・録・施・行・者・
+申・請・嘱・託 — if any character renders as a Simplified Chinese
+variant, redraw that character in the correct Japanese form. Confirm the
+canvas has no transparent or alpha-channel area anywhere. Confirm both
+registry-entry mockup texts match the Japanese text given above verbatim,
+character for character. Confirm no precedent/notice/case number of any
+kind appears anywhere in the image (the statute citation 107条2項 is
+allowed). Confirm the timeline has exactly 3 stages stacked top-to-bottom,
+with no duplicated or missing stages.
+```
+
+---
+
 ## 参照した過去問記事一覧
 
 - [令和6年度午後の部第13問（建物の所在）](../r6-mondai/q13-tatemono-shozai.md)
