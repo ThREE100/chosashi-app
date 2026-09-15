@@ -36,6 +36,18 @@
 
 **たとえば**、もともと別々に登記されていた甲建物と乙建物が、増築工事でつながって1つの区分建物になったとします。この場合、甲建物と乙建物の変更登記をバラバラに申請するのではなく、まとめて1つの手続として一括で申請しなければなりません。
 
+**ここが分かりにくいポイント**：
+甲建物・乙建物は、この肢の時点でどちらも既に別々に表題登記が済んでいる、独立した不動産です。そのため、「登記の申請は、原則として不動産ごとに1件」という一登記一申請の原則（不動産登記令4条）を知っている人ほど、「まとめて申請できる例外は、不動産登記規則35条が号数で限定列挙している。甲・乙建物の変更登記はそのどの号にも当てはまらなさそうだから、この場合はまとめて申請できず、それぞれ別々に申請すべきなのでは」と考えてしまいがちです。
+
+しかし、この肢が問うているのは、規則35条の「まとめて申請してもよい」という任意の例外の話ではありません。区分建物になったことにともなう建物の表題部の変更の登記については、不動産登記法52条という別の条文が、規則35条の枠組みとはまったく独立に、一括申請そのものを義務づけています。
+
+- **規則35条（一の申請情報による任意的な併合）**：まとめて申請してもよい場合を号数で限定列挙。当てはまらなければ、それぞれ別々に申請する。
+- **法52条3項（区分建物化にともなう義務的な一括申請）**：いずれも表題登記がある2つ以上の建物が、増築その他の工事により相互に接続して区分建物になった場合には、それらの表題部変更登記を一括して申請「しなければならない」。規則35条の号に当てはまるかどうかとは無関係に、52条3項が直接そう命じている。
+
+つまり、「規則35条のリストに載っていないから、まとめて申請できない」と即断するのは誤りです。区分建物になる場面には、規則35条とは別の専用の条文（52条）が用意されており、そちらが一括申請を義務づけています。したがって本肢のとおり、甲建物・乙建物の表題部変更登記は一括して申請しなければならず、本肢は正しい記述です。
+
+一の申請情報でまとめられる場合の原則と、規則35条が限定列挙する例外については、個別テーマ記事「申請は不動産ごとに1件が原則、規則35条の例外10パターンを整理」（`note-articles/topics/ittouki-isshinsei-gensoku.md`）もあわせてご参照ください。ただし、本肢の一括申請義務は、同記事が扱う規則35条の枠組みとは別に、不動産登記法52条が区分建物化の場面に限って特別に定めているものである点に注意してください。
+
 ### エ：区分合併による敷地権抹消は、変更登記を併せて申請する必要はない
 
 敷地権が登記されている甲・乙区分建物を区分合併して、その一棟の建物が区分建物でなくなった場合、区分合併の登記を申請すると、登記官の職権によって、敷地権の目的であった土地の登記記録に敷地権が抹消された旨とその年月日が記録されます（不動産登記規則134条3項・124条）。そのため、敷地権の表示を抹消するための区分建物の表題部変更登記を、区分合併の登記と併せて申請する必要はありません。「併せてしなければならない」とする本肢は誤りです。
@@ -78,6 +90,7 @@
 - **2026-08-04追記（肢イの解説を訂正）**：肢イの解説を当初「地番変更のみでは建物図面・各階平面図が不要」としていましたが、個別テーマ記事「建物図面・各階平面図の提供要否 早見表」(`topics/tatemonozumen-teikyou-yohi.md`)執筆時に不動産登記令別表14項添付情報イ（`laws/fudousan-touki-rei-betsuhyou.md`）を条文原文で確認したところ、地番の変更・更正のときは「変更後の建物図面」の提供が必要と明記されており、「建物図面・各階平面図いずれも不要」という当初の解説は誤りでした。本肢は「建物図面**及び各階平面図**の両方が必要」と主張している点で誤り（正しくは建物図面のみ必要、各階平面図は不要）であり、肢イ自体の正誤判定（誤）・最終的な正解番号（4番＝ウオ）に変更はありません。同じ場面を非区分建物で扱う`h28-mondai/q17-tatemonozumen-kakukaiheimenzu.md`の肢イ（建物図面のみを求める記述を正しいとする）とも整合します。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**肢ウとほぼ同一の論点が令和4年度第17問で再出題されている、強い重複が見つかりました**。本問の肢ウ「いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事により相互に接続して区分建物になった場合には、甲建物及び乙建物についての表題部の変更の登記の申請は、一括してしなければならない」は、令和4年度第17問アとほぼ一言一句同じ記述・結論です。このほか、令和1年度第18問・令和6年度第18問も区分建物の登記に関する問題ですが、これらは「乙区分建物のみ滅失した場合の甲区分建物の非区分建物化」という別の論点を扱っており、本問との具体的な重複は確認できませんでした。noteで令和4年度第17問の解説記事を作成する際は、本記事の肢ウと内容がほぼ重複するため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
+- **肢ウに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、肢ウの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。甲・乙建物がいずれも既に別々に表題登記済みであることから、「まとめて申請できる例外は規則35条が限定列挙しており、当てはまらなければ別々に申請すべき」という一登記一申請の原則の知識をそのまま当てはめてしまい、規則35条とは別に不動産登記法52条3項が区分建物化の場面専用の義務的一括申請を定めていることを見落としやすい点を掘り下げています。個別テーマ記事「申請は不動産ごとに1件が原則、規則35条の例外10パターンを整理」（`note-articles/topics/ittouki-isshinsei-gensoku.md`）へのリンクを本文に追加し、同記事の枠組み（規則35条の任意的併合）と本肢の根拠（法52条3項の義務的一括申請）が別物であることを明記しました。あわせて、この対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズは肢エ（敷地権抹消の職権処理）を捉えた内容のままとし、変更していません。肢ウのつまずきどころ（規則35条と法52条3項という別条文の混同）は肢エのテーマ（職権処理の範囲）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。
 
 ---
 
@@ -207,4 +220,107 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（ウ肢・間違いノート）
+
+「規則35条（任意的併合）」と「法52条3項（区分建物化にともなう義務的一括申請）」を左右に対比させ、なぜ規則35条のリストに載っていなくても一括申請が義務になるのかを可視化する対比型の間違いノート。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+登・記・申・請・規・則・限・定・列・挙・義・務・括・接・続・建・物・条・
+文・原・則 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart/comparison — with a solid or
+illustrated opaque background. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere in the
+final image.
+
+--- HEADER ---
+Title (large, bold):
+リストに載っていないのに、なぜ一括申請？
+
+Subtitle (smaller, centered):
+平成29年度　午後の部　第17問ウ－規則35条と法52条3項の違い
+
+--- COMPARISON ---
+Two side-by-side panels, both showing two separate, already-registered
+buildings (甲建物・乙建物, each with its own "表題登記済み" green stamp),
+to emphasize that both buildings start out as independently registered.
+
+LEFT PANEL header (pill badge, blue):
+規則35条：任意的な併合
+
+LEFT PANEL content: An isometric scene of a checklist scroll with 10
+numbered slots (1号〜10号), a magnifying glass hovering over it. Two
+unrelated document icons for 甲建物・乙建物 sit outside the checklist
+with a red prohibition mark, labeled 「どの号にも当てはまらない」. A
+small quoted rule text card:
+「令4条ただし書の法務省令で定めるときは、
+次に掲げるときとする(不動産登記規則35条)」
+Conclusion tag (blue pill, short phrase):
+当てはまらなければ別々に申請
+
+RIGHT PANEL header (pill badge, orange):
+法52条3項：義務的な一括申請
+
+RIGHT PANEL content: An isometric scene of 甲建物・乙建物 physically
+merging together via a construction/増築 icon (scaffolding, connecting
+beam) into one connected building outline. A single combined application
+document icon is stamped with a large green checkmark and
+「一括して申請」. A small quoted rule text card:
+「いずれも表題登記がある二以上の建物が
+増築その他の工事により相互に接続して
+区分建物になった場合における…表題部の
+変更の登記の申請は、一括してしなければ
+ならない(不動産登記法52条3項)」
+Conclusion tag (orange pill, short phrase):
+規則35条とは別ルートで義務化
+
+Between the two panels, a small connecting label:
+規則35条のリストにないからといって「まとめられない」とは限らない
+
+--- CALLOUT: 誤りやすいポイント ---
+甲建物・乙建物はどちらも既に別々に表題登記されているため、「まとめて申請
+できる例外は規則35条が号数で限定列挙している」という知識だけで判断すると、
+「どの号にも当てはまらないから別々に申請すべき」と誤解しがちです。しかし
+区分建物になる場面には、規則35条とは独立した専用の条文(不動産登記法52条
+3項)があり、そちらが一括申請そのものを直接義務づけています。
+
+--- FOOTER ---
+根拠条文：不動産登記令4条／不動産登記規則35条／不動産登記法52条3項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, panel label, quoted rule text, and callout text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters, and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
