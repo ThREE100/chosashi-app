@@ -36,6 +36,20 @@
 
 **たとえば**、マンション団地の集会所（団地共用部分）が取り壊されて滅失登記をする場合、それを申請するのが本当にその共用部分の実質的な所有者であることを証明する情報を添える必要があります。
 
+**ここが分かりにくいポイント**：
+この問題は、肢ア・イ・オがそろって「印鑑証明書は不要」「建物図面は不要」「抵当権者の承諾は不要」と、滅失登記には意思確認書類がほとんど要らないという結論が続きます。そのため「この問題は、滅失登記はどうせ添付書類が要らないパターンだ」という思い込みにつられて、肢ウも「所有者証明なんて不要では」と判断してしまう人が少なくありません。
+
+しかし、肢ウの「団地共用部分である旨の登記がある建物」は、他の4肢が前提とする通常の建物とは、登記記録の作られ方そのものが違います。
+
+1. **通常の建物の場合**：登記記録に「表題部所有者」または「所有権の登記名義人」として、具体的な個人（法人）の氏名・住所が記録されています。誰が申請できる立場にあるかは、登記記録を見ればすぐに分かります。
+2. **団地共用部分（共用部分）の場合**：共用部分である旨の登記または団地共用部分である旨の登記をするときは、登記官が職権で、その建物についての表題部所有者の登記または権利に関する登記を抹消しなければなりません（不動産登記法58条4項）。つまり団地共用部分の登記記録には、そもそも「誰が所有者か」という名義自体が載っていないのです。
+
+登記記録だけを見ても「申請人が本当に所有者かどうか」を確認できないからこそ、団地共用部分の滅失登記を申請する際には、別途「当該建物の所有者を証する情報」の提供が求められています（不動産登記令別表17項）。
+
+つまり肢ア・イ・オの「不要」は、「登記記録から申請人が明らかな通常の建物について、追加の意思確認書類までは要らない」という話です。これに対して肢ウは、そもそも登記記録に所有者名が載っていない団地共用部分特有の事情にもとづく、まったく別の理由からの要求です。他の4肢の「不要」パターンに引きずられて同じように判断しないよう注意しましょう。したがって本肢は正しい記述です。
+
+共用部分の登記記録に所有者名が載らない仕組みについては、平成20年度第4問肢エ（`note-articles/h20-mondai/q04-tatemono-messhitsu.md`）で扱った、共用部分である旨の登記をする際に登記官が職権で表題部所有者の登記を抹消する規定（不動産登記法58条4項）の解説もあわせてご参照ください。
+
 ### エ：借地上の建物の取壊しは、賃借権登記の有無にかかわらず滅失登記義務がある
 
 建物が滅失したときは、表題部所有者または所有権の登記名義人は、1月以内に建物の滅失登記を申請しなければなりません（不動産登記法57条）。この申請義務は、その建物が借地上に存する場合であっても変わらず、借地に賃借権の設定の登記がされているかどうかにかかわらず生じます。本肢は正しい記述です。
@@ -69,6 +83,7 @@
 - 各肢の根拠について、ウ（不動産登記令別表17項）、エ（不動産登記法57条：滅失登記の申請義務）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。ア・イ・オ（滅失登記に印鑑証明書・建物図面・抵当権者の承諾がいずれも不要であること）は、滅失登記の添付情報に関する一般的な取扱いからの説明です。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**建物の滅失の登記は毎年出題されるテーマで、本問の肢オ・ウとほぼ同一の論点が令和6年度第17問・令和3年度第17問で再出題されている、強い重複が見つかりました**。具体的には、①肢オ（抵当権の設定の登記がある建物が焼失しても抵当権者の承諾を証する情報は不要）は令和6年度第17問アとほぼ同一の論点・結論（表現は逆向きですが同じ規律）、②肢ウ（団地共用部分である旨の登記がある建物の滅失登記には所有者を証する情報が必要）は令和3年度第17問エ（共用部分である旨の登記がある建物の滅失登記に所有権を証する情報が必要）とほぼ同一の論点です。noteで令和3年度第17問・令和6年度第17問の解説記事を作成する際は、本記事の肢ウ・オと内容が重なるため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
+- **肢ウに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、肢ウの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。肢ア・イ・オがそろって添付書類「不要」の結論であるため、その流れにつられて肢ウも「所有者証明は不要では」と誤って判断してしまいやすい点を、団地共用部分の登記をする際は登記官が職権で表題部所有者の登記を抹消するため（不動産登記法58条4項）、通常の建物と異なりそもそも登記記録に所有者名が載っていないという理由と対比して整理しています。関連する平成20年度第4問肢エ（58条4項の解説）へのリンクも本文に追加しています。あわせて、この対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズは「印鑑証明書も承諾書もいらないんです」のまま変更していません。この表現自体が肢ウの「不要ではない」という結論と一見ぶつかるようにも見えますが、キャッチフレーズはあくまで肢ア・イ・オが代表する「意思確認書類は原則不要」という本問全体の骨格を捉えたもので、肢ウはその骨格に対する重要な例外として本文中で明確に区別して説明しているため、無理にタイトルへ例外まで織り込むことはしていません。
 
 ---
 
@@ -194,4 +209,106 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（ウ肢・間違いノート）
+
+「通常の建物（登記記録に所有者名がある）」と「団地共用部分（職権で表題部所有者の登記が抹消され、所有者名が登記記録にない）」を左右に対比させ、なぜ団地共用部分だけ所有者を証する情報が必要になるのかを可視化する対比型の間違いノート。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+登・記・録・名・義・団・地・共・用・部・分・職・権・抹・消・表・題・証・
+明・所・有 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart/comparison — with a solid or
+illustrated opaque background. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere in the
+final image.
+
+--- HEADER ---
+Title (large, bold):
+なぜ団地共用部分だけ所有者証明が必要？
+
+Subtitle (smaller, centered):
+平成29年度　午後の部　第18問ウ－登記記録に名義があるかないかの違い
+
+--- COMPARISON ---
+Two side-by-side panels, both showing a building being demolished with a
+「滅失の登記を申請」document icon, to emphasize that both scenarios are
+the same procedure (滅失登記) applied to different registration setups.
+
+LEFT PANEL header (pill badge, blue):
+通常の建物（ア・イ・オ）
+
+LEFT PANEL content: An isometric registry-record card clearly showing a
+"表題部所有者：Ａ" or "所有権の登記名義人：Ａ" name label printed on it.
+A magnifying glass hovers over the name label with a green checkmark,
+labeled 「登記記録を見れば申請人が分かる」. Below, small icons for
+印鑑証明書・建物図面・抵当権者の承諾, each crossed out with a red
+prohibition mark and labeled 「追加の書類は不要」.
+Conclusion tag (blue pill, short phrase):
+名義があるので書類は最小限
+
+RIGHT PANEL header (pill badge, orange):
+団地共用部分（ウ）
+
+RIGHT PANEL content: An isometric registry-record card for a 団地共用部分
+building, but the "表題部所有者" name field is shown blank/erased, with a
+登記官 character stamping "職権抹消" over it. A small quoted rule text
+card:
+「登記官は、共用部分である旨の登記又は団地
+共用部分である旨の登記をするときは、職権で、
+当該建物について表題部所有者の登記又は権利
+に関する登記を抹消しなければならない
+(不動産登記法58条4項)」
+Below, an icon for 「当該建物の所有者を証する情報」with a green checkmark,
+labeled 「登記記録だけでは所有者が分からないから必要」.
+Conclusion tag (orange pill, short phrase):
+名義がないので所有者証明が必要
+
+Between the two panels, a small connecting label:
+「不要」のパターンに引きずられて、ウも不要と判断しないよう注意
+
+--- CALLOUT: 誤りやすいポイント ---
+肢ア・イ・オがそろって添付書類「不要」という結論のため、その流れで肢ウも
+「所有者証明は不要では」と誤解しがちです。しかし団地共用部分の登記記録は、
+登記官の職権抹消(不動産登記法58条4項)によりそもそも所有者名が載っておらず、
+通常の建物とは前提条件が異なります。
+
+--- FOOTER ---
+根拠条文：不動産登記法58条4項／不動産登記令別表17項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, panel label, quoted rule text, and callout text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters, and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
