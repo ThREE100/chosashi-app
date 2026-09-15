@@ -58,6 +58,21 @@
 
 **たとえば**、Ｂさんが「Ａさんから買った土地の登記手続をお願いします」とＣさんに頼んでいたのに、そのＣさんが手続を進めるどころか、自分でＡさんからその土地を買い取って自分名義にしてしまったとします。これはあまりに信義に反する行為なので、Ｃさんは「Ｂさんは登記していない」と主張する資格がなく、Ｂさんは登記なしでもＣさんに勝てるのです。
 
+**ここが分かりにくいポイント**：
+1つ前の肢ウでは「解除後の第三者とは対抗関係に立ち、先に登記を備えた方が勝つ」という、対抗関係のいちばん基本的なルールを確認したばかりです。そのため、この肢オも同じ枠組みでそのまま考えてしまい、「Ｃは実際にＡから土地を買って、きちんと登記まで済ませている。ならば肢ウと同じで、先に登記を備えたＣの勝ちなのでは」と判断してしまう人が少なくありません。「ちゃんと取引をして登記も備えた人」が負けるという結論は、直感的にかなり違和感があるはずです。
+
+実はこの肢は、肢ウとは判断のルートがそもそも違います。順を追って整理しましょう。
+
+1. **民法177条の原則（肢ウで使ったルート）**：177条の「第三者」にあたるのは、当事者・包括承継人以外の者で、登記がないことを主張するについて正当な利益を有する者に限られます（判例）。肢ウのＣは、単に先に買い受けて登記を備えただけの通常の買主なので、この意味での「第三者」にあたり、先に登記を備えた側が勝ちます。
+2. **不動産登記法5条2項の除外ルート（肢オで使うべきルート）**：ところが肢オのＣは、単なる買主ではありません。もともとＢから「Ａ→Ｂの移転登記を申請してほしい」と頼まれ、その申請を引き受けていた（受任していた）という特別な立場にあります。他人のために登記を申請する義務を負う者は、たとえ自分名義の登記を備えていても、その登記がないことを主張することができません（不動産登記法5条2項）。
+
+つまり、「Ｃがちゃんと登記を備えたかどうか」を考える前の段階で、Ｃは受任者としての立場ゆえに「第三者」としての保護そのものを法律によって奪われています。先に登記した者が勝つという肢ウの発想を持ち込む必要は、そもそもありません。
+
+- **肢ウのＣ（通常の対抗関係）**：単に先に買い受けて登記を備えた第三者。177条の一般原則どおり、先に登記を備えた方が勝つ。
+- **肢オのＣ（法定の除外類型）**：他人のために登記を申請する義務を負っていた者。登記を備えていても、不動産登記法5条2項により「第三者」として保護されない。
+
+したがって、Ｂから登記申請を受任していたＣは、自分名義の登記を備えていても、Ｂに対して登記がないことを主張できません。Ｂは登記なくしてＣに所有権を主張することができ、この肢は正しい記述です。
+
 ### まとめ
 
 - **ア（誤）**　他人物売買では売主が所有権を取得した時点で買主に移転（登記時点に限られない）
@@ -80,6 +95,7 @@
 - **問題文の改行整理と内容再チェック（2026-09-15実施）**：問題文の引用ブロックで、教授の質問と学生の解答が改行なく隣接しており読みにくいという指摘を受け、教授・学生それぞれの発言の間に空行を挿入して読みやすく整えました（`tools/md_to_mt.py`の引用ブロック変換は空行を無視して各発言を`<br><br>`で連結する仕様のため、note側の見た目に変化はなく、GitHub上でのMarkdown表示のみが改善されます。実際に`md_to_mt.py`で再書き出しし、`exports/h29-mondai.mt.txt`に差分がないことを確認済みです）。あわせて、`format-template.md`の執筆ルール（判例番号を本文に書かない・全角括弧・敬体・まとめは箇条書きのみ等）への準拠と、各肢の内容（ア：他人物売買の所有権移転時期、イ：時効完成後の登記具備者との関係、ウ：解除後の第三者との対抗関係、エ：不法占拠者は177条の第三者にあたらない、オ：登記申請受任者は不動産登記法5条2項により第三者にあたらない）を`laws/minpou-1-soukyoku-bukken.md`（177条）・`laws/fudousan-touki-hou.md`（5条2項）の条文と照合し、正解（アウの組合せ・選択肢2番）を含め誤りは見つかりませんでした。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、本問の肢エ「不法占拠者は登記なくして対抗できる」という論点が、令和6年度第2問オ（「Bは登記なくして、無権原で占有するCに対し明渡しを請求できない」→誤り、すなわち登記なくして請求できる）と同じ規律を問うており、**軽度の重複が見つかりました**。ただし対話形式・他の4肢の事案（他人物売買、取得時効、解除、背信的悪意者類似の登記申請受任者）は令和6年度第2問と異なり、記事全体としての重複は限定的です。noteで令和6年度第2問の解説記事を作成する際は、不法占拠者と177条の第三者に関する部分の説明が本記事と重なりやすい点に留意してください。
+- **肢オに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、肢オの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。直前の肢ウで確認した「対抗関係では先に登記を備えた方が勝つ」という一般原則をそのまま持ち込み、「Ｃもきちんと登記を備えているのだから勝つはず」と誤って結論づけてしまいやすい点を掘り下げ、肢オのＣは通常の対抗関係（民法177条の一般原則）ではなく、登記申請の受任者に対する法定の除外規定（不動産登記法5条2項）によって、そもそも「第三者」として保護されないという別ルートで判断すべきことを整理しています。あわせて、肢ウとの対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズは肢ア（所有権移転時期の論点）を捉えた内容のままとし、変更していません。肢オのつまずきどころ（対抗関係の一般原則と法定除外類型の混同）は肢アのテーマ（所有権移転時期）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。個別テーマ記事については、`link-map/h29-related-articles.md`で「対抗要件（177条）が必要な場面・不要な場面 総整理」の新規作成が推奨されていますが、現時点ではまだ作成されていないため、今回はリンクを追加していません。
 
 ---
 
@@ -207,4 +223,104 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・間違いノート）
+
+肢ウ（通常の対抗関係・先に登記した方が勝つ）と肢オ（登記申請の受任者に対する法定除外類型）を左右に対比させ、「なぜ同じ『登記を備えた第三者』なのに結論が逆になるのか」を可視化する対比型の間違いノート。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+登・記・申・請・受・任・義・務・第・三・者・欠・除・外・対・抗・譲・渡・
+益・権 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart/comparison — with a solid or
+illustrated opaque background. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere in the
+final image.
+
+--- HEADER ---
+Title (large, bold):
+登記を備えたのに、なぜＣは負ける？
+
+Subtitle (smaller, centered):
+平成29年度　午後の部　第2問オ－通常の対抗関係と法定の除外類型の違い
+
+--- COMPARISON ---
+Two side-by-side panels, both showing a person figure C who bought land
+from A and completed registration in their own name (identical-looking
+"登記済み" green stamp icon in both panels, to emphasize that C's
+registration itself is equally valid in both cases).
+
+LEFT PANEL header (pill badge, blue):
+肢ウ：通常の対抗関係
+
+LEFT PANEL content: An isometric scene of A selling land to C after
+rescinding the contract with B, C receiving a registration stamp. A large
+green checkmark badge over C, with the quoted rule displayed as a small
+text card:
+「登記の欠缺を主張する正当な利益があれば、
+先に登記を備えた方が勝つ(民法177条)」
+Conclusion tag (blue pill, short phrase):
+先に登記した方が勝つ
+
+RIGHT PANEL header (pill badge, orange):
+肢オ：登記申請の受任者
+
+RIGHT PANEL content: An isometric scene showing C first receiving a
+document from B labeled "登記申請を受任" (a speech bubble or handoff
+icon), then secretly buying the land from A and stamping "登記済み" on
+it himself. A large red prohibition (no-entry) mark over C's registration
+stamp, with the quoted rule displayed as a small text card:
+「他人のために登記を申請する義務を負う者は、
+登記がないことを主張できない(不動産登記法5条2項)」
+Conclusion tag (orange pill, short phrase):
+登記があっても保護されない
+
+Between the two panels, a small connecting label:
+どちらも「Ｃは登記を備えている」のに結論が逆になる
+
+--- CALLOUT: 誤りやすいポイント ---
+直前の肢ウで「先に登記した方が勝つ」という対抗関係の原則を確認したばかりだと、
+肢オも同じ枠組みで「Ｃは登記を備えているから勝つ」と考えてしまいがちです。
+しかし肢オのＣは、Ｂから登記の申請を頼まれていた（受任していた）という特別な
+立場にあり、不動産登記法5条2項により、登記を備えていても「登記がないこと」
+を主張する資格そのものを法律で奪われています。
+
+--- FOOTER ---
+根拠条文：民法177条／不動産登記法5条2項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, panel label, quoted rule text, and callout text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters, and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
