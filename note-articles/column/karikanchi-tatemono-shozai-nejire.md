@@ -122,10 +122,18 @@ border, styled like a document field), containing exactly this text on
 one line:
 所在　Ａ市Ｂ町一丁目３番地（仮換地　○○土地区画整理事業地区内　５街区３画地）
 
-Below the mockup card, two short labeled arrows point to the two parts of
-the text: an arrow from the part before the bracket pointing to a small
-tag reading 従前地の地番、and an arrow from the bracketed part pointing to
-a small tag reading 仮換地の予定地番（街区・画地番号）。
+Below the mockup card, draw exactly two short labeled arrows pointing to
+the two parts of the text.
+
+Arrow A points from the part before the bracket up to a small tag. The
+tag contains this exact text and nothing else, with no trailing comma or
+punctuation of any kind:
+従前地の地番
+
+Arrow B points from the bracketed part up to a separate small tag. That
+tag contains this exact text and nothing else, with no trailing comma or
+punctuation of any kind:
+仮換地の予定地番（街区・画地番号）
 
 --- FOOTER ---
 
@@ -135,10 +143,13 @@ attention to the kanji 従・前・仮・換・地・番・街・区・画・登
 which appear repeatedly above — render each in its standard Japanese
 (Jōyō) form, never the Simplified Chinese variant. Confirm the
 registry-entry mockup text matches the Japanese text given above verbatim,
-character for character, with no paraphrasing or omission, confirm there
-is no intro illustration or paragraph block between the header and the
-diagram, and confirm the two-stage vertical layout is preserved with no
-duplicated or missing stages.
+character for character, with no paraphrasing or omission. Confirm the two
+arrow tags read exactly 従前地の地番 and 仮換地の予定地番（街区・画地番号）
+with no extra trailing comma, punctuation, or "and"/other stray characters
+appended to either tag. Confirm there is no intro illustration or
+paragraph block between the header and the diagram, and confirm the
+two-stage vertical layout is preserved with no duplicated or missing
+stages.
 ```
 
 ### 画像2：気をつけるポイント3つ
@@ -207,7 +218,7 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 換地処分後は自動的に書き換わる
 Illustration: A registry-book icon with an official 公告 stamp being
 pressed onto it, and an arrow from a 施行者 character（construction
-helmet）labeled 申請 pointing into the registry book, rewriting the
+helmet）labeled 申請・嘱託 pointing into the registry book, rewriting the
 所在 field. The building-owner character stands apart with a red
 prohibition mark over a label reading 申請不要.
 Conclusion tag (blue banner below the illustration, 5-15 Japanese
@@ -219,12 +230,13 @@ characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
 attention to the kanji 従・前・仮・換・地・番・所・在・登・記・録・施・行・
-者・申・請, which appear repeatedly above — render each in its standard
-Japanese (Jōyō) form, never the Simplified Chinese variant. Confirm the
-number of cards equals 3 exactly, with no duplicated or missing cards,
-confirm there is no intro illustration or paragraph block between the
-header and the cards, and confirm that no card contains a full sentence
-of explanatory prose.
+者・申・請・嘱・託, which appear repeatedly above — render each in its
+standard Japanese (Jōyō) form, never the Simplified Chinese variant.
+Confirm Card 3's illustration label reads exactly 申請・嘱託 (both words),
+not 申請 alone. Confirm the number of cards equals 3 exactly, with no
+duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, and confirm that no
+card contains a full sentence of explanatory prose.
 ```
 
 ---
