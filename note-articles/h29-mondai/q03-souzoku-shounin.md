@@ -48,6 +48,20 @@
 
 **たとえば**、Ａさんが相続を放棄し、Ｂさんだけが相続したとします。ところがＡさんにお金を貸していた債権者が「Ａさんにも法定相続分があるはずだ」と勝手に代位で保存登記をし、Ａの持分を仮差押えしたとします。しかしＡさんは放棄によって初めから相続人でなかった扱いなので、その持分自体が存在せず、仮差押えの登記は効力を持たないのです。
 
+**ここが分かりにくいポイント**：
+この肢を読むと、「Ａの債権者は、代位による保存登記までしたうえで、さらに仮差押えの登記も備えている。それだけきちんと手続きを踏んでいるのに、なぜ無効になるのか」と疑問に思う人が少なくありません。特に、「相続に関する権利変動は、法定相続分を超える部分について登記等の対抗要件を備えなければ第三者に対抗できない」という民法899条の2のルールを学んだことがある人ほど、「相続がらみの権利は、結局は登記があるかどうかで決まるはずだ」と考えて、この仮差押えの登記も有効になるのではと思ってしまいがちです。
+
+しかし、899条の2が問題にしているのは、遺産分割や「相続させる」旨の遺言などによって、法定相続分を超える権利を取得した場合の話です。これは、実体として存在する権利について「誰が先に登記を備えたか」で決着をつける、通常の対抗問題（対抗要件を備えた方が勝つ場面）です。
+
+これに対して、相続の放棄はまったく別の話です。相続の放棄をした者は、その相続に関しては初めから相続人とならなかったものとみなされます（民法939条）。これは登記の有無にかかわらず、誰に対しても主張できる絶対的な効果であり、対抗要件を云々する場面ですらありません。
+
+- **遺産分割・「相続させる」旨の遺言による取得（対抗問題）**：法定相続分を超える部分は、登記等の対抗要件を備えなければ第三者に対抗できない（民法899条の2）。「誰が先に登記したか」で決着がつく。
+- **相続の放棄（絶対効・そもそも対抗問題ではない）**：放棄をした者は初めから相続人でなかったものとみなされる（民法939条）。登記の有無に関係なく、誰に対しても主張できる。
+
+つまり、Ａが放棄した時点で、Ａの法定相続分という権利そのものが最初から存在しなかったことになります。存在しない権利には、対抗要件を備えるという発想自体が成り立ちません。Ａの債権者がどれだけ丁寧に登記手続を踏んでいても、もともと存在しない権利を差し押さえることはできず、その登記は当然に無効です。したがって本肢は正しい記述です。
+
+法定相続分を超える権利の取得と対抗要件の要否については、令和3年度第3問肢エ（`note-articles/r3-mondai/q03-souzoku.md`）で扱った民法899条の2の解説もあわせてご参照ください。ただし同肢は遺産分割による取得の場面であり、本肢の相続放棄とは適用される場面が異なりますので、混同しないよう注意してください。
+
 ### まとめ
 
 - **ア（誤）**　いったんした承認・放棄は、熟慮期間中でも撤回できない
@@ -69,6 +83,7 @@
 - 各肢の条文根拠について、ア（民法919条1項）、イ（民法923条）、ウ（民法938条）、エ（民法926条1項）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。オ（放棄者は初めから相続人でなかったとみなされ、その持分への代位登記・仮差押えが無効となること）は、民法939条の効果からの説明で、DBのexplanationにも同条が根拠として挙げられています。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和7年度第3問が本問と全く同じ「相続の承認及び放棄」というタイトルで出題されており、中程度の重複が見つかりました**。具体的には、本問の肢エ（限定承認をした場合、自己の財産と同一の注意で相続財産を管理すればよい＝民法926条1項）と、令和7年度第3問イ（相続の承認又は放棄をするまでの期間中、固有財産と同一の注意で管理しなければならない＝民法918条）は、適用される条文・場面（限定承認"後"か、承認・放棄をする"前"の熟慮期間中か）は異なるものの、同じ「自己の財産におけるのと同一の注意」という基準を扱っている点で関連しています。また本問の肢イ（1人が単純承認すると他の相続人は限定承認できない）と、令和7年度第3問オ（1人の熟慮期間が経過しても他の相続人がまだ期間内なら共同で限定承認できる）は、共同相続人による限定承認の要件という同じテーマの裏表の関係にあります。一言一句同じ論点の再出題ではありませんが、noteで令和7年度第3問の解説記事を作成する際は、これらの点で説明が重なりやすいことに留意してください。
+- **肢オに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、肢オの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。民法899条の2（遺産分割等で法定相続分を超える権利を取得した場合の対抗要件）を学んだことがある読者ほど、「相続がらみの権利変動は結局登記の有無で決まるのでは」と考え、Ａの債権者の代位保存登記・仮差押えの登記を有効と誤解しやすい点を、相続放棄の絶対効（民法939条、対抗要件を問題にする場面ですらない）との対比で整理しています。あわせて、この対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。関連する令和3年度第3問肢エ（899条の2の解説）へのリンクも本文に追加しています。タイトルのキャッチフレーズは肢ア（承認の撤回不可）を捉えた内容のままとし、変更していません。肢オのつまずきどころ（相続放棄の絶対効と899条の2の対抗要件主義の混同）は肢アのテーマ（撤回の可否）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。個別テーマ記事については、`link-map/h29-related-articles.md`で「単純承認・限定承認・放棄の3類型比較表」の新規作成が推奨されていますが、この論点（相続放棄の絶対効と対抗要件）とは主題が異なるため、今回は新規作成せず、既存の令和3年度第3問記事へのリンクにとどめています。
 
 ---
 
@@ -196,4 +211,106 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・間違いノート）
+
+「遺産分割等による取得（対抗問題・899条の2）」と「相続放棄（絶対効・939条）」を左右に対比させ、なぜ登記までした差押えが無効になるのかを可視化する対比型の間違いノート。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+相・続・放・棄・遺・産・分・割・対・抗・登・記・差・押・存・在・効・力・
+超・過 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart/comparison — with a solid or
+illustrated opaque background. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere in the
+final image.
+
+--- HEADER ---
+Title (large, bold):
+登記までしたのに、なぜ差押えが無効？
+
+Subtitle (smaller, centered):
+平成29年度　午後の部　第3問オ－対抗問題と絶対効の違い
+
+--- COMPARISON ---
+Two side-by-side panels, both showing a registration document with a
+"登記済み" green stamp, to emphasize that registration itself is equally
+present in both cases.
+
+LEFT PANEL header (pill badge, blue):
+遺産分割・相続させる旨の遺言
+
+LEFT PANEL content: An isometric scene of two heir figures splitting an
+inheritance pie chart, one heir taking more than their original half. A
+third-party figure appears with a document, and an arrow labeled
+「先に登記した方が勝つ」pointing between the heir and the third party,
+with a small quoted rule text card:
+「法定相続分を超える部分は、登記等の対抗要件
+を備えなければ第三者に対抗できない(民法899条の2)」
+Conclusion tag (blue pill, short phrase):
+対抗問題(登記の早い者勝ち)
+
+RIGHT PANEL header (pill badge, orange):
+相続の放棄
+
+RIGHT PANEL content: An isometric scene of heir figure A stamping
+「放棄」on a family court document, and A's figure then fading into a
+dotted, semi-transparent outline (never-existed as an heir). A's
+creditor tries to place a registration stamp and a red seizure
+(仮差押え) stamp onto A's now-empty, dotted outline, but a large red
+prohibition (no-entry) mark covers both stamps because there is nothing
+there to seize. A small quoted rule text card:
+「相続の放棄をした者は、初めから相続人と
+ならなかったものとみなす(民法939条)」
+Conclusion tag (orange pill, short phrase):
+そもそも対抗問題ではない
+
+Between the two panels, a small connecting label:
+「登記があるかどうか」で決まるとは限らない
+
+--- CALLOUT: 誤りやすいポイント ---
+民法899条の2（法定相続分を超える取得は登記がなければ対抗できない）を知っている
+人ほど、「相続の話は結局、登記があるかどうかで決まる」と考えて、Ａの債権者の
+登記も有効になると誤解しがちです。しかし相続放棄には、はじめから相続人で
+なかったものとみなす絶対的な効果(民法939条)があり、Ａの持分自体が存在しない
+ため、対抗要件を云々する場面にすらなりません。
+
+--- FOOTER ---
+根拠条文：民法899条の2／民法939条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, panel label, quoted rule text, and callout text matches the
+Japanese text given above verbatim, with no paraphrasing and no
+substituted characters, and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
