@@ -122,6 +122,16 @@ kanji 権・地・登・記・図・積, which have Simplified Chinese look-alik
 forms with visibly different stroke shapes — always draw the standard
 Japanese (Jōyō) form of these characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 2行):
 分筆登記、
@@ -214,11 +224,17 @@ in column B), with no duplicated or missing cards, confirm there is no
 intro illustration or paragraph block between the header and the cards,
 and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm the 5 card headings are exactly: (1) 共有物
+tag, at a glance — and confirm nothing is rendered below the last card
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid
+of all 肢, and no additional text block of any kind — the poster ends
+immediately after the last card). Confirm the 5 card headings are
+exactly: (1) 共有物
 分割禁止でも分筆可／(2) 賃借権敷地権では理事長不可／(3) 分筆線の誤りは
 地図訂正で直せない／(4) 契印は共有者の1人で足りる／(5) 市街地地域なら
 甲2基準で判定 — do not merge, omit, duplicate, or reword any of these
 five headings. Confirm Card 5 contains exactly ONE circular gauge/dial
 icon (labeled 甲2) and that the 乙1 element is a flat map/document shape,
-not a second gauge.
+not a second gauge. Finally, confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
