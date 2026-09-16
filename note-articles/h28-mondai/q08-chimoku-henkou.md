@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成28年度 第8問〜地目変更登記、申請するのは誰？〜
+## 【土地家屋調査士受験生向け】平成28年度 第8問〜地目変更登記は「知ってるルール」ほど危ない〜
 
 **出題年度：平成28年度　午後の部　第8問**
 
@@ -24,11 +24,39 @@
 
 **たとえば**、Aさんが所有する土地をBさんに売却する契約を結んだものの、まだ所有権移転登記を済ませていない間に、その土地が造成されて地目が変わってしまったとします。この場合、登記簿上の名義人はまだAさんのままなので、地目変更の登記を申請する義務を負うのはAさんであり、まだ登記名義を得ていないBさんではありません。
 
+**ここが分かりにくいポイント**：
+
+民法を先に学んでいると、「売買契約が成立すれば、その時点で所有権は買主に移転する」（民法176条、意思主義）という原則を強く刷り込まれます。そのため、「契約はもう成立しているのだから、実質的な所有者はもうBさんのはず」「だったら申請義務もBさんにあるのでは」と、そのまま話を進めてしまう方が少なくありません。「Bさんはもう所有者だから」という理解自体は、民法の世界では正しいのです。
+
+しかし、不動産登記法が地目変更登記の申請義務者として定めているのは、「表題部所有者又は所有権の登記名義人」（不動産登記法37条1項）という、あくまで登記記録に名前が載っている人を基準にした、形式的なルールです。「実体法上、本当は誰が所有者か」という民法の世界の話と、「登記記録上、誰の名前が名義人として載っているか」という不動産登記法の世界の話は、別の物差しで考える必要があります。
+
+判断の手順にすると、次のようになります。
+
+1. 地目または地積に変更が生じた時点で、登記記録上の名義人が誰かを確認します。
+2. 実体法上すでに買主に所有権が移転していたとしても、登記記録上の名義人が売主のままであれば、申請義務を負うのは登記記録上の名義人（売主）です。
+3. その後、買主への所有権移転の登記がされれば、そこから改めて買主が地目変更登記の申請義務を負います（不動産登記法37条2項）。
+
+本肢は、この登記記録上の名義人という形式的な基準どおりに、移転登記が完了するまではAが申請義務を負うとしており、正しい記述です。「表題部所有者」と「所有権の登記名義人」という2つの立場の違いをもう少し詳しく知りたい場合は、関連記事「『表題部所有者』と『所有権の登記名義人』、何がどう違う？」もあわせてご覧ください。
+
 ### イ：別々の地目の甲乙土地でも、地目変更登記と合筆登記は一の申請情報でできる
 
 同一の不動産について申請する2以上の登記が、不動産の表題部の登記事項に関する変更の登記または更正の登記および土地の分筆の登記もしくは合筆の登記であるときは、一の申請情報によってすることができます（不動産登記規則35条7号）。地目が相互に異なる土地をそのまま合筆することはできませんが（不動産登記法41条2号）、地目の変更の登記によって地目をそろえたうえで合筆すればよく、この2つの登記は一の申請情報であわせて申請することが認められています。「することができない」とする本肢の内容は誤りです。
 
 **たとえば**、甲土地が「畑」、乙土地が「宅地」として登記されている場合に、まず甲土地を宅地へ地目変更したうえで乙土地と合筆したいというケースでも、地目変更の登記と合筆の登記を別々に2回申請する必要はなく、まとめて一の申請情報で申請することができます。
+
+**ここが分かりにくいポイント**：
+
+「地目が異なる土地は合筆できない」というルール（不動産登記法41条2号）は、多くの方が早い段階でしっかり覚えます。そのぶん、「地目変更登記と合筆登記を一緒に申請する」という文章を見た瞬間に、「地目が違う→合筆はダメ→だからこの組み合わせもダメなはず」と、覚えたてのルールをそのまま当てはめて結論を急いでしまいがちです。
+
+しかし、41条2号が禁止しているのは、あくまで「地目が異なったままの状態で合筆すること」です。地目変更登記と合筆登記を同時に、1件の申請情報で申請すること自体を禁止しているわけではありません。同じ1件の申請の中で、まず地目変更登記によって甲土地の地目をそろえたうえで合筆する、という組み合わせであれば話はまったく別です。不動産登記規則35条7号は、表題部の変更・更正の登記と、分筆または合筆の登記を、一の申請情報でまとめて申請できると定めており、地目変更登記（表題部の変更登記）と合筆登記の組み合わせは、まさにこれに当てはまります。
+
+判断の手順にすると、次のようになります。
+
+1. まず、41条2号が禁止しているのが何かを確認します。禁止されているのは「地目が異なるままの土地を合筆すること」であり、地目変更登記そのものを禁止する規定ではありません。
+2. 次に、規則35条7号を確認します。表題部の変更・更正の登記と、分筆・合筆の登記は、一の申請情報でまとめて申請できると定められています。
+3. したがって、甲土地の地目変更登記（表題部の変更登記）と、甲乙両土地の合筆登記を、一の申請情報でまとめて申請することができます。申請が受け付けられた時点で地目がそろうため、41条2号の禁止に触れることもありません。
+
+本肢は「することができない」としていますが、実際には一の申請情報でできるため、誤りです。「手続き上まとめられるかどうか」と「登記そのものが成立するかどうか」は別次元の話だという整理は、関連記事「『まとめて申請できるか』と『そもそも合筆できるか』は別次元」でも詳しく扱っていますので、あわせてご覧ください。
 
 ### ウ：敷地権付き土地の地目変更登記は、土地の所有権登記名義人が申請する
 
@@ -70,6 +98,7 @@
 - **条文では確認できず、先例・実務上の解釈によっている根拠**：ウの「敷地権が地上権である場合、土地の所有権の登記名義人は地上権設定者であって区分建物の所有権の登記名義人ではない」という当てはめ、エの「原因日付は農地法の許可があった日ではなく現況（主たる用途）が変更した日」という取扱い（農地法・不動産登記法のいずれにも明文はなく、先例・実務上の取扱いによります）、オの「登記記録上の地目から直接現在の地目へ変更登記できる」という取扱い（登記研究429号120頁）。これらは条文に明文の定めがないため、断定的な条文根拠としては示していません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（地目の変更の登記）と同一・類似の問題が再出題されていないかを確認しました。**R02年度第7問が同一タイトルで出題されており、その肢オ（農地転用の原因日付は許可日ではなく主たる用途変更日であること）は本問エとほぼ同じ論点、肢ウ（数次の地目変更があった土地の各変更の原因日付をすべて申請情報とする必要があるか）は本問オ（登記記録上の地目から直接現在の地目へ変更登記できること）と表裏の関係にある同一の先例（登記研究429号120頁）を扱っており、内容がかなり近い出題**です。ノートに執筆・公開する際は、この重複に留意し、R02年度分の記事を作成する際には本記事と内容が重複しないよう工夫するか、両記事に相互参照を付けることを検討してください。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。なお、平成28年度より前にも平成24年度第6問が「地目の変更の登記」を主題としていますが、データベース上の同問の肢の本文が要約表記にとどまるため、肢単位の重複の有無までは確認できていません。
 - **最新法令チェック（2026-08-18実施）**：不動産登記法37条・41条、不動産登記規則35条の各条文について、ローカル法令データベース収録の現行条文と本記事の説明を照合し、相違がないことを確認しました。相続登記の申請義務化（不動産登記法76条の2）・住所等の変更登記の申請義務化（同76条の5）は、いずれも権利に関する登記の義務であり、表示に関する登記である地目の変更の登記を扱う本問の結論には影響しません。
+- **「間違いノート」補足解説（2026-09-16追加）**：読者から、肢ア（移転登記前は登記名義人Aが地目変更登記の申請義務を負うこと）と肢イ（地目が異なる甲乙土地でも、地目変更登記と合筆登記は一の申請情報でできること）の結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「ここが分かりにくいポイント」を追加しました。肢アは、民法176条（意思主義）による実体法上の所有権移転と、不動産登記法37条1項が定める形式的な申請義務者（登記記録上の名義人）の基準を混同しやすい点を整理しています。肢イは、不動産登記法41条2号（地目が異なる土地の合筆制限）という「登記そのものが成立するか」という実体的な話と、不動産登記規則35条7号（一の申請情報でまとめられるか）という「手続き上まとめられるか」という話が別次元であることを見落としやすい点を整理しています。あわせて、記事タイトルのキャッチフレーズが従来「地目変更登記、申請するのは誰？」（肢ア・ウが持つ「申請義務者は誰か」という切り口）となっており、肢イの「一の申請情報でできるか」という切り口を反映していなかったため、両肢に共通する「知っている別のルールを早合点して当てはめてしまう」という論点を捉えたキャッチフレーズに差し替えました。**関連記事へのリンク**：肢アの説明には`column/hyoudaibu-shoyuusha-vs-toukimeigijin.md`（「表題部所有者」と「所有権の登記名義人」、何がどう違う？）、肢イの説明には`column/bunpitsu-ikkatsu-gappitsu-chimoku.md`（「まとめて申請できるか」と「そもそも合筆できるか」は別次元）を、それぞれ記事タイトルを明記する形で本文中に埋め込みました。両記事ともnote.com未公開のためURLでのリンクにはしておらず、双方が公開された時点で実際のリンクに置き換えることをおすすめします。
 
 ---
 
@@ -224,4 +253,195 @@ all 肢, and no additional text block of any kind — the poster ends
 immediately after card 5), and confirm the entire canvas, edge to edge,
 is filled with a fully opaque background with no transparency or alpha
 channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア肢・間違いノート）
+
+肢アで読者がつまずいたポイント（「契約が成立していればもう買主が所有者、だから買主が申請義務者のはず」という思い込み）を、民法上の実体的な所有権移転と、不動産登記法が定める形式的な申請義務者の基準を左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with quoted article text and short explanatory sentences (1-3 sentences
+per callout box) labeled「誤りやすいポイント」or similar. Prioritize
+clarity and completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 実・体・移・転・意・思・
+登・記・義・務・者・名, which have Simplified Chinese look-alike forms with
+visibly different stroke shapes — always draw the standard Japanese
+(Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the comparison panels and the callout box — with a solid
+or illustrated opaque background. There must be no checkerboard pattern,
+no partially transparent area, and no unpainted canvas edge anywhere in
+the final image.
+
+--- HEADER ---
+Title (large, bold):
+「もう買主のはず」が誤解のもと
+
+Subtitle (smaller, centered):
+平成28年度 午後の部 第8問 肢ア－実体法上の所有権と登記名義人を混同しやすい
+ポイント
+
+--- COMPARISON ---
+Two side-by-side isometric panels, same height, divided by a vertical
+line down the center of the poster.
+
+LEFT PANEL (labeled 民法の世界（実体法上の所有権）, muted gray-beige tone):
+Heading: 契約成立で所有権はすぐ移転
+Illustration: An isometric handshake between A(売主) and B(買主) over a
+contract document, with a glowing arrow immediately transferring a
+「所有権」badge from A to B at the moment of the handshake.
+Small caption below: 民法176条（意思主義）。契約の時点でBが実体上の所有者に
+
+RIGHT PANEL (labeled 不動産登記法の世界（形式的な基準）, blue accent):
+Heading: 申請義務者は登記記録上の名義人
+Illustration: An isometric land registry book (登記記録) still showing A's
+name plate glowing as 登記名義人, with A wearing a 申請義務 badge, while B
+stands nearby holding the 所有権 badge from the left panel but with no
+登記名義人 plate and no 申請義務 badge yet. A dotted arrow labeled 移転登記
+points from A's name plate to a future B name plate, not yet completed.
+Small caption below: 不動産登記法37条1項。移転登記が完了するまではAに申請
+義務がある
+
+--- CALLOUT: 誤りやすいポイント ---
+売買契約が成立すれば、民法上は契約の時点で所有権が買主に移転します（民法
+176条）。しかし、不動産登記法が定める地目変更登記の申請義務者は、実体法
+上の所有者ではなく、登記記録上の名義人です。移転登記が完了するまでは、
+登記記録上の名義人である売主が申請義務を負います。
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+平成28年度 午後の部 第8問 肢ア（不動産登記法37条1項・2項）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 実・体・移・転・意・思・登・記・義・務・者・名. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm every heading, panel label, and
+callout text matches the Japanese text given above verbatim, with no
+paraphrasing and no substituted characters, confirm the left panel shows
+the 所有権 badge transferring immediately at the handshake while the right
+panel shows the 登記名義人 plate and 申請義務 badge remaining with A until
+the dotted 移転登記 arrow completes, confirm nothing is rendered below the
+FOOTER's small footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（イ肢・間違いノート）
+
+肢イで読者がつまずいたポイント（「地目が違う土地は合筆できない、だから地目変更と合筆をまとめて申請するのも無理なはず」という思い込み）を、「登記そのものが成立するか」という実体的な要件と、「手続き上まとめられるか」という別次元の話を左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with quoted article text and short explanatory sentences (1-3 sentences
+per callout box) labeled「誤りやすいポイント」or similar. Prioritize
+clarity and completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 合・筆・異・制・限・続・
+申・請・情・報, which have Simplified Chinese look-alike forms with
+visibly different stroke shapes — always draw the standard Japanese
+(Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the comparison panels and the callout box — with a solid
+or illustrated opaque background. There must be no checkerboard pattern,
+no partially transparent area, and no unpainted canvas edge anywhere in
+the final image.
+
+--- HEADER ---
+Title (large, bold):
+「合筆できない」と「一緒に申請できない」は別の話
+
+Subtitle (smaller, centered):
+平成28年度 午後の部 第8問 肢イ－41条2号の合筆制限を拡大解釈しやすい
+ポイント
+
+--- COMPARISON ---
+Two side-by-side isometric panels, same height, divided by a vertical
+line down the center of the poster.
+
+LEFT PANEL (labeled 41条2号が禁止していること（実体要件）, orange accent):
+Heading: 地目が異なったまま合筆すること
+Illustration: Two isometric land plots labeled 畑 and 宅地 with a red
+prohibition (no-entry) mark over an arrow attempting to merge them
+directly into one plot while their 地目 tags still differ.
+Small caption below: 地目が違う状態のまま合筆することは禁止（41条2号）
+
+RIGHT PANEL (labeled 規則35条7号が認めていること（手続き）, blue accent):
+Heading: 地目変更＋合筆を一の申請情報で
+Illustration: The same 畑 land plot first passing through a glowing
+地目変更登記 stamp that changes its tag from 畑 to 宅地 (matching the 乙
+land plot's tag), and only after both tags match, a checkmark-glowing
+arrow merges the two plots, all packaged inside a single application
+folder labeled 一の申請情報.
+Small caption below: 地目をそろえてから合筆する組み合わせは一の申請情報で
+できる（規則35条7号）
+
+--- CALLOUT: 誤りやすいポイント ---
+不動産登記法41条2号が禁止しているのは「地目が異なったままの状態で合筆す
+ること」です。地目変更登記によって地目をそろえたうえで合筆する、という
+組み合わせを1件の申請情報でまとめて申請すること自体は禁止されておらず、
+不動産登記規則35条7号によって認められています。
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+平成28年度 午後の部 第8問 肢イ（不動産登記規則35条7号・不動産登記法41条
+2号）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 合・筆・異・制・限・続・申・請・情・報. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm every heading, panel label, and callout
+text matches the Japanese text given above verbatim, with no paraphrasing
+and no substituted characters, confirm the left panel shows the merge
+attempt blocked by a prohibition mark while the tags still differ, and
+the right panel shows the 地目変更 stamp completing BEFORE the merge
+checkmark appears (in that order), confirm nothing is rendered below the
+FOOTER's small footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
 ```
