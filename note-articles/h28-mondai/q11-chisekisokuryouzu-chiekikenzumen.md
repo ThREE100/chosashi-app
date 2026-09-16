@@ -120,12 +120,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・番・登・記・所・録 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 地積測量図は、時々「一人二役」
 
 Subtitle (smaller, centered, 1行):
-平成28年度 午後の部 第11問－地積測量図と地役権図面、5つのルール
+地積測量図と地役権図面、5つのルール(平成28年度 午後の部 第11問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -206,7 +216,12 @@ tag, at a glance. Confirm the 5 card headings are exactly: (1) 線の太さは
 省略不可／(4) 地役権図面の縮尺は自由／(5) 地役権図面は閉鎖後30年で保存終了
 — do not merge, omit, duplicate, or reword any of these five headings.
 Confirm Card 3 shows the compass (方位) as present and required, NOT
-crossed out or omitted.
+crossed out or omitted. Confirm nothing is rendered below the last card
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid
+of all 肢, and no additional text block of any kind — the poster ends
+immediately after the last card), and confirm the entire canvas, edge to
+edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
 ```
 
 ---
@@ -243,13 +258,23 @@ to the kanji 積・録・地・番・区・域・方・位・縮・尺・筆・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the checklist rows and the callout box — with a solid or
+illustrated opaque background (the pale beige/gray tone used elsewhere in
+this style is a good default). There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere in the
+final image.
+
 --- HEADER ---
 Title (large, bold, 2行):
 地積測量図に記録すべき
 10の事項
 
 Subtitle (smaller, centered, 1行):
-平成28年度 午後の部 第11問 肢オ－不動産登記規則77条1項各号を一覧で整理
+不動産登記規則77条1項各号を一覧で整理(平成28年度 午後の部 第11問 肢オ)
 
 （タイトル・サブタイトルのすぐ下にCHECKLISTを続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -321,5 +346,10 @@ no compass or direction arrow. Confirm the callout box shows both row 2
 and row 8 as equally required (both glowing, neither crossed out or
 faded), and confirm every row label and the callout caption match the
 Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+substituted characters. Confirm nothing is rendered below the FOOTER's
+small credit text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind —
+the poster ends immediately after the footer credit line), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
