@@ -121,6 +121,16 @@ kanji 号・地・番・記・所・証・還, which have Simplified Chinese loo
 forms with visibly different stroke shapes — always draw the standard
 Japanese (Jōyō) form of these characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 2行):
 「3か月以内」は
@@ -196,9 +206,14 @@ attention to 号・地・番・記・所・証・還. If any character renders a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
-between the header and the cards, and confirm that no card contains a
+between the header and the cards, confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as a
-short heading + a short conclusion tag, at a glance. Confirm the 5 card
+short heading + a short conclusion tag, at a glance — confirm nothing is
+rendered below the last card (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind — the poster ends immediately after the last card), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere. Confirm the 5 card
 headings are exactly: (1) 住所証明書に3か月の期限なし／(2) 所在・地目・
 地積は必須記載／(3) 本人確認情報にも期限なし／(4) 専用委任状は原本還付
 不可／(5) 地目変更でも法人番号必要 — do not merge, omit, duplicate, or
