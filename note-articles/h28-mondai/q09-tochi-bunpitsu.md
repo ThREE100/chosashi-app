@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成28年度 第9問〜分筆登記、直せるもの・直せないもの〜
+## 【土地家屋調査士受験生向け】平成28年度 第9問〜分筆登記は「目の前の数字」に釣られると危ない〜
 
 **出題年度：平成28年度　午後の部　第9問**
 
@@ -36,6 +36,20 @@
 
 **たとえば**、AさんとBさんが共有する土地の分筆登記を書面で申請する際、申請書が3枚に及んだとします。この場合、AさんとBさんの両方が各ページのつづり目に契印する必要はなく、どちらか一方が契印すれば手続として足ります。
 
+**ここが分かりにくいポイント**：
+
+「申請人がAさんとBさんの2人いるのだから、書類のあちこちに押す印鑑も2人分そろえないといけないのでは」と考えてしまう方が少なくありません。実際、申請書そのものへの記名押印は、原則として申請人それぞれが行うものなので、「押印は全員分必要」というイメージが先に定着しやすいのです。
+
+しかし、契印（つづり目への押印、不動産登記規則46条1項）は、記名押印とは目的がまったく違います。契印は「複数枚にわたる書類の途中でページが差し替えられたり、抜き取られたりしていないか」を確認するための押印であって、「誰がこの申請に同意しているか」を示すものではありません。ページの連続性さえ確認できればよいので、申請人が何人いても、そのうちの1人が契印すれば足ります（規則46条2項）。
+
+判断の手順にすると、次のようになります。
+
+1. まず、「記名押印」の話なのか「契印」の話なのかを区別します。
+2. 記名押印（申請書そのものへの押印）は、原則として申請人ごとに必要です（不動産登記令16条1項・2項）。
+3. 契印（複数枚にわたる書類のつづり目への押印）は、ページの連続性を確認するためのものにすぎないため、申請人が2人以上いても、そのうちの1人がすれば足ります（不動産登記規則46条2項）。
+
+本肢は、この契印について「Ａ又はＢのいずれかがすれば足りる」としており、正しい記述です。「申請人が複数＝押印もすべて複数必要」と一律に考えず、押印の種類ごとに趣旨を確認することが大切です。
+
 ### エ：更正登記の要否は、備え付けの地図の区分ではなく「土地の所在地域」の精度区分で判断する
 
 分筆の登記を申請する場合において、分筆前後の地積の差が、分筆前の地積を基準にして地積測量図の誤差の限度内であるときは、地積に関する更正の登記の申請を要しないという取扱いがあります（不動産登記事務取扱手続準則72条1項）。この特例自体は市街地地域に限られたものではなく、村落・農耕地域や山林・原野地域の土地についても適用されます。
@@ -45,6 +59,20 @@
 本肢の土地は市街地地域内にあるため、更正登記の要否を判断する基準となるのは精度区分**甲2**の誤差の限度であり、登記所に備え付けられている地図が乙1の精度区分で作成されていたとしても、その乙1の限度内かどうかで判断することはできません。乙1は甲2よりも緩い（誤差として許容される範囲が広い）基準であるため、乙1の限度内に収まっていても甲2の限度を超えていることがあり、その場合は地積の更正の登記の申請を要します。
 
 **たとえば**、市街地地域にある土地で、分筆前後の地積の差が、村落・農耕地域向けの基準である乙1の限度内には収まっていたとします。しかし、その土地は市街地地域にある以上、判定基準はより厳しい甲2の限度であり、甲2の限度を超えていれば地積の更正の登記の申請が必要です。「乙1の限度内だから更正登記は不要」と単純に判断することはできません。
+
+**ここが分かりにくいポイント**：
+
+「登記所にある地図に『精度区分：乙1』と書いてあるのだから、その地図の精度区分をそのまま基準にすればいいのでは」と考えてしまう方が少なくありません。目の前の地図に書かれている数字（乙1）が、そのまま使える基準に見えてしまうのは、とても自然な発想です。
+
+しかし、更正登記の要否を判断する基準となる精度区分は、その地図が実際にどの精度区分で作られているかではなく、その**土地が所在する地域**（市街地地域・村落農耕地域・山林原野地域）によって決まります（不動産登記規則10条4項、77条5項による地積測量図への準用）。市街地地域なら甲2、村落農耕地域なら乙1、山林原野地域なら乙3が基準です。つまり、「地図が実際にどの精度区分で作られているか」と「その土地の所在地域から決まる、本来あるべき基準の精度区分」は、別のものです。古い地図がその土地の本来の区分よりも粗い精度（乙1など）で作られたままになっている、というケースは実務上少なくありませんが、それによって判断基準そのものが緩くなるわけではありません。
+
+判断の手順にすると、次のようになります。
+
+1. まず、対象の土地がどの地域区分（市街地地域・村落農耕地域・山林原野地域）に属するかを確認します。
+2. その地域区分に対応する精度区分（市街地地域なら甲2、村落農耕地域なら乙1、山林原野地域なら乙3）を確認します。
+3. 分筆前後の地積の差が、その精度区分の誤差の限度内かどうかで、更正登記の要否を判断します。登記所に備え付けられている地図が実際にどの精度区分で作られているかは、この判断には関係ありません。
+
+本肢の土地は市街地地域内にあるため、基準となるのは甲2の誤差の限度です。登記所に備え付けられている地図が乙1の精度区分で作成されていて、その乙1の限度内に地積の差が収まっていたとしても、それだけでは更正登記が不要とは言えません。乙1は甲2よりゆるい基準のため、乙1の限度内でも甲2の限度を超えている可能性があるからです。本肢は「乙1の限度内であるときは更正登記の申請を要しない」としており、誤りです。
 
 ### オ：賃借権を敷地権とする土地の分筆登記は、理事長が単独で申請することはできない
 
@@ -75,6 +103,7 @@
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（土地の分筆の登記）と同一・類似の問題が再出題されていないかを確認しました。「土地の分筆の登記」は頻出テーマで、R02年度第9問・R04年度第8問・R05年度第9問・R06年度第8問・R07年度第11問と、同一・類似のタイトルで毎年のように出題されていますが、いずれも具体的な肢の内容（職権分筆、抵当権消滅承諾の印鑑証明書、買戻し特約の転写、代位申請、共有物分割訴訟、遺産分割後の申請権限、地役権消滅証明、法定相続情報一覧図の利用、地上権・仮登記の転写等）は、本問の各肢（地積測量図の分筆線誤りと地図訂正、共有物分割禁止の定めと分筆可否、契印、精度区分と更正登記の要否、賃借権が敷地権の場合の申請人）とは異なっており、**具体的な論点レベルでの重複は見つかりませんでした**（同じ大テーマが繰り返し出題されているだけです）。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **再確認・修正（2026-08-12実施）**：エの解説文に内部矛盾があったため（1文目で「市街地地域の上限精度区分は甲2」としながら、2文目で「特例の前提は甲1」としており、精度区分の記載が一致していませんでした）、リサーチエージェントによる再調査を実施し、記述を修正しました。正しい理解は次のとおりです。①不動産登記規則10条4項（77条5項で地積測量図に準用）により、地積の誤差の限度の基準となる精度区分は、市街地地域は甲二・村落農耕地域は乙一・山林原野地域は乙三までであり、市街地地域の基準は「甲1」ではなく「甲2」です。②分筆前後の地積差が精度区分の限度内であれば地積の更正登記を要しないという特例（不動産登記事務取扱手続準則72条1項）は市街地地域に限らずすべての地域に適用されますが、どの精度区分を基準にするかは登記所備え付けの地図の実際の作成区分ではなく、その土地が所在する地域区分によって決まります。③本問の土地は市街地地域内にあるため基準は甲2であり、備え付けの地図が乙1で作成されていても乙1基準で更正登記の要否を判断することはできない、という点が本肢の誤りです。この調査は法務省公表の不動産登記事務取扱手続準則PDF・Wikibooksの条文引用・複数の司法書士/土地家屋調査士事務所の実務解説サイト・自治体資料が一致することを確認したうえで反映しています。まとめ・インフォグラフィックColumn B, Card 5も合わせて修正しました。
 - **条文番号の訂正・最新法令チェック（2026-08-18実施）**：ローカル法令データベースで原文を確認したところ、地積測量図の誤差の限度について規則10条4項を準用するのは規則**77条5項**であり（本文・上記の記載にあった「77条4項」は誤りでしたので訂正しました。なお77条4項は地積測量図の縮尺を250分の1と定める規定です）、分筆前後の地積の差が誤差の限度内であれば地積の更正の登記の申請を要しないと定めるのは準則**72条1項**でした（同72条2項は分筆後の土地の地積測量図の記録の便宜省略に関する規定です）。あわせて、令和3年改正不動産登記法による相続登記・住所等変更登記の申請義務化はいずれも権利に関する登記の制度であり、本問の5肢（表示に関する登記の手続・図面の精度区分・書面申請の作法）の結論に影響しないことを確認しました。**5肢の正誤・正解番号に変更はありません。**
+- **「間違いノート」補足解説（2026-09-16追加）**：読者から、肢ウ（申請書が2枚以上のときは共有者のうち1人が契印すれば足りること）と肢エ（更正登記の要否は土地の所在地域の精度区分で判断し、備付け地図の区分では判断できないこと）の結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「ここが分かりにくいポイント」を追加しました。肢ウは、申請書そのものへの記名押印（原則として申請人ごとに必要、不動産登記令16条1項・2項）と、複数枚の書類のつづり目への契印（ページの連続性の確認にすぎず1人で足りる、不動産登記規則46条1項・2項）という、目的の異なる2つの押印を同一視しやすい点を整理しています。肢エは、地図に実際に記載されている精度区分（乙1）と、土地の所在地域から決まる本来の基準となる精度区分（市街地地域なら甲2）を混同しやすい点を整理しています。あわせて、記事タイトルのキャッチフレーズが従来「分筆登記、直せるもの・直せないもの」（肢アの「地図の訂正申出では直せない」という切り口）となっており、肢ウ・エのどちらの切り口も反映していなかったため、両肢に共通する「目の前にある数字・情報をそのまま基準として使ってしまう」という論点を捉えたキャッチフレーズに差し替えました。**関連記事へのリンクについて**：`note-articles/topics/`・`bunya-kaisetsu/`・`column/`配下を検索しましたが、契印と記名押印の違い、または地積測量図の精度区分（甲二・乙一・乙三）を直接扱う個別テーマ記事は現時点では見当たらず、今回は既存記事へのリンクを埋め込んでいません。今後これらの論点を扱う個別テーマ記事を作成した際は、本記事から参照リンクを追加することをおすすめします。
 
 ---
 
@@ -237,4 +266,195 @@ icon (labeled 甲2) and that the 乙1 element is a flat map/document shape,
 not a second gauge. Finally, confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（ウ肢・間違いノート）
+
+肢ウで読者がつまずいたポイント（「申請人が2人＝押印もすべて2人分必要」という思い込み）を、記名押印（原則各自必要）と契印（1人で足りる）という目的の異なる2つの押印を左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with quoted article text and short explanatory sentences (1-3 sentences
+per callout box) labeled「誤りやすいポイント」or similar. Prioritize
+clarity and completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 記・名・押・印・契・
+続・申・請・書, which have Simplified Chinese look-alike forms with
+visibly different stroke shapes — always draw the standard Japanese
+(Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the comparison panels and the callout box — with a solid
+or illustrated opaque background. There must be no checkerboard pattern,
+no partially transparent area, and no unpainted canvas edge anywhere in
+the final image.
+
+--- HEADER ---
+Title (large, bold):
+押印は「全部2人分」とは限らない
+
+Subtitle (smaller, centered):
+平成28年度 午後の部 第9問 肢ウ－記名押印と契印を同一視しやすいポイント
+
+--- COMPARISON ---
+Two side-by-side isometric panels, same height, divided by a vertical
+line down the center of the poster.
+
+LEFT PANEL (labeled 記名押印（申請書そのもの）, orange accent):
+Heading: 原則、申請人ごとに必要
+Illustration: An isometric application document with two separate name
+stamps, one from A and one from B, both pressed onto their own signature
+line on the front page of the document.
+Small caption below: 令16条1項・2項。原則として申請人それぞれが押す
+
+RIGHT PANEL (labeled 契印（つづり目の押印）, blue accent):
+Heading: ページの連続性の確認、1人で足りる
+Illustration: A multi-page isometric document bound together, with a
+single seal stamped across the binding/spine where the pages meet
+(つづり目), only figure A's hand pressing it while figure B stands beside
+watching, no second seal needed.
+Small caption below: 規則46条1項・2項。ページが差し替えられていないかの
+確認にすぎない
+
+--- CALLOUT: 誤りやすいポイント ---
+申請書そのものへの記名押印は、原則として申請人ごとに必要です（不動産登記
+令16条1項・2項）。しかし、複数枚にわたる書類のつづり目に押す契印は、
+ページの連続性を確認するための押印にすぎず、目的が異なります。申請人が
+2人以上いても、そのうちの1人が契印すれば足ります（不動産登記規則46条2
+項）。
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+平成28年度 午後の部 第9問 肢ウ（不動産登記規則46条1項・2項）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 記・名・押・印・契・続・申・請・書. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm every heading, panel label, and callout text
+matches the Japanese text given above verbatim, with no paraphrasing and
+no substituted characters, confirm the left panel shows two separate
+seals (one from A, one from B) on the document's signature lines while
+the right panel shows only ONE seal at the page binding, confirm nothing
+is rendered below the FOOTER's small footnote text (no summary recap
+panel, no trophy or medal icon, no re-listed ○/✕ grid, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+肢エで読者がつまずいたポイント（「地図に書いてある精度区分（乙1）をそのまま基準にすればよい」という思い込み）を、地図が実際に作られた精度区分と、土地の所在地域から決まる本来の基準を左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with quoted article text and short explanatory sentences (1-3 sentences
+per callout box) labeled「誤りやすいポイント」or similar. Prioritize
+clarity and completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 精・度・区・分・街・
+村・農・耕・林・野・基・準, which have Simplified Chinese look-alike forms
+with visibly different stroke shapes — always draw the standard Japanese
+(Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the comparison panels and the callout box — with a solid
+or illustrated opaque background. There must be no checkerboard pattern,
+no partially transparent area, and no unpainted canvas edge anywhere in
+the final image.
+
+--- HEADER ---
+Title (large, bold):
+その精度区分、地図の話？土地の話？
+
+Subtitle (smaller, centered):
+平成28年度 午後の部 第9問 肢エ－地図の区分と土地の所在地域の基準を混同
+しやすいポイント
+
+--- COMPARISON ---
+Two side-by-side isometric panels, same height, divided by a vertical
+line down the center of the poster.
+
+LEFT PANEL (labeled 目に見えている情報, muted gray-beige tone):
+Heading: 地図が実際に作られた精度区分
+Illustration: An isometric old map document icon labeled 地図(乙1) sitting
+on a registry shelf, with a magnifying glass highlighting the printed
+label 乙1 on its corner.
+Small caption below: この数字は「地図がどう作られたか」を示すだけ
+
+RIGHT PANEL (labeled 本来の判断基準, blue accent):
+Heading: 土地の所在地域で決まる基準
+Illustration: An isometric map of Japan-like terrain divided into three
+zones — 市街地地域 (city buildings icon, labeled 甲2), 村落農耕地域
+(farmland icon, labeled 乙1), 山林原野地域 (mountain/forest icon, labeled
+乙3) — with the target land plot glowing inside the 市街地地域 zone and a
+bright arrow pointing from that zone to a precision-gauge dial labeled
+甲2.
+Small caption below: 規則10条4項・77条5項。市街地地域なら甲2が基準
+
+--- CALLOUT: 誤りやすいポイント ---
+更正登記の要否を判断する基準となる精度区分は、地図が実際にどの精度区分
+で作られているかではなく、その土地が所在する地域（市街地地域・村落農耕
+地域・山林原野地域）によって決まります。市街地地域の土地であれば、備え
+付けの地図が乙1で作られていても、基準はより厳しい甲2です。
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+平成28年度 午後の部 第9問 肢エ（不動産登記規則10条4項・77条5項）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 精・度・区・分・街・村・農・耕・林・野・基・準. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm every heading, panel label, and
+callout text matches the Japanese text given above verbatim, with no
+paraphrasing and no substituted characters, confirm the left panel shows
+only the map document with its printed 乙1 label (no zone map), confirm
+the right panel shows exactly three zones (市街地地域・村落農耕地域・
+山林原野地域) each with its own precision label (甲2・乙1・乙3
+respectively) and the target plot glowing inside the 市街地地域 zone only,
+confirm nothing is rendered below the FOOTER's small footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
