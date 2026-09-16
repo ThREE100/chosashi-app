@@ -117,6 +117,16 @@ kanji 権・地・登・記・許・現, which have Simplified Chinese look-alik
 forms with visibly different stroke shapes — always draw the standard
 Japanese (Jōyō) form of these characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 2行):
 地目変更登記、
@@ -208,5 +218,10 @@ tag, at a glance. Confirm the 5 card headings are exactly: (1) 移転登記前
 は売主が申請義務者／(2) 敷地権土地は地上権設定者が申請／(3) 地目が違う
 土地でも一括申請可／(4) 原因日付は現況が変わった日／(5) 数次の地目変更
 も直接今の地目へ — do not merge, omit, duplicate, or reword any of these
-five headings.
+five headings. Confirm nothing is rendered below the last card (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind — the poster ends
+immediately after card 5), and confirm the entire canvas, edge to edge,
+is filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
