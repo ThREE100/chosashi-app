@@ -74,6 +74,7 @@
 - 関連する分野別解説記事`note-articles/bunya-kaisetsu/tenpu-jouhou-yuukoukigen.md`（添付書類の有効期限の横断整理）とも内容を突き合わせ、「表題登記の住所証明情報」「資格者代理人の本人確認情報」がいずれも3か月ルールの対象外である点で記述が一致していることを確認しました。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（土地の表示に関する登記の申請情報又は添付情報）と同一・類似の問題が再出題されていないかを確認しました。R01年度第8問が完全に同一のタイトルで出題されていますが、具体的な肢の内容（支配人の権限証明情報、住民票コード提供時の住所証明省略、地番の記載義務、合筆登記での登記識別情報失念時の理由記載、官庁の土地についての所有権証明省略の可否）は、本問の各肢（印鑑証明書の有効期間、分筆登記の申請情報、資格者代理人の本人確認情報の有効期間、委任状の原本還付、会社法人等番号の提供）とは異なり、直接の重複はありません。H30年度第4問も類似タイトルですが内容は別です。全体として明確な重複は見つかりませんでした。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-18実施）**：本問に関係する不動産登記令7条1項1号イ・別表4項・別表8項、不動産登記規則55条1項・72条について、ローカル法令データベース（2026年8月時点の現行版）と照合し、条文の内容に変更がないことを確認しました。相続登記の申請義務化・住所変更登記の申請義務化は、いずれも所有権の登記名義人に関する規律であり、本問（土地の表示に関する登記の申請情報・添付情報）の結論には影響しません。なお、会社法人等番号に代えて提供する代表者の資格を証する登記事項証明書の有効期限は、令和2年施行の改正により「作成後1か月以内」から「作成後3か月以内」に変更されているため、古い教材の記述には注意してください。
+- **補足インフォグラフィック（2026-09-16追加）**：肢ア・ウで扱った「3か月以内」の期間制限の有無を、対象書類ごとに一覧できる補足インフォグラフィックを追加しました。作成にあたりローカル法令データベース（`note-articles/laws/fudousan-touki-rei.md`）の第16条〜第19条を条文原文で確認したところ、依頼時にいただいた項目リストのうち「代理権限証明情報のうち官公署作成のもの」の根拠条文が令**17条2項**とされていましたが、条文を確認した結果、17条2項は「官庁又は公署が登記の嘱託をする場合には適用しない」という除外規定にすぎず、正しくは**17条1項**（同項は、7条1項1号ロの代表者資格証明情報と2号の代理権限証明情報のうち、市町村長・登記官その他の公務員が職務上作成したものを、まとめて「作成後3か月以内」と定めている）でした。インフォグラフィック内の該当項目はこの訂正を反映しています。「第三者の承諾書に添付する印鑑証明書に期間制限がないこと」（令19条には16条3項・18条3項のような期間制限の定めがない）、「相続を証する情報に期間制限がないこと」（7条1項4号は17条1項の対象条文（1号ロ・2号）に含まれない）も条文原文で確認済みです。
 
 ---
 
@@ -218,4 +219,144 @@ headings are exactly: (1) 住所証明書に3か月の期限なし／(2) 所在�
 地積は必須記載／(3) 本人確認情報にも期限なし／(4) 専用委任状は原本還付
 不可／(5) 地目変更でも法人番号必要 — do not merge, omit, duplicate, or
 reword any of these five headings.
+```
+
+---
+
+## インフォグラフィック プロンプト（補足：3か月以内の書類・制限のない書類）
+
+肢ア・ウの論点を掘り下げ、「作成後3か月以内でなければならない書類」と「期間制限のない書類」を左右2列で対比する早見表型の補足インフォグラフィック。不動産登記令16条3項・17条1項・18条3項（3か月以内）と、そのいずれにも該当しない書類群（期限の制限なし）を、それぞれ4項目ずつ列挙する構成。portrait 1080×2000px。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric certificate stamps,
+calendars, seals, corporate buildings, family register books — adapt icon
+set to each row's topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+comparison checklist poster, NOT a text-heavy explainer document. There is
+NO intro illustration and NO paragraph of prose anywhere on this poster —
+go straight from the header to the two columns. Each row must communicate
+its point almost entirely through a small icon plus the item name itself
+(the item name and its citation are the required text, not something to
+compress further). Do NOT render any full-sentence explanation or
+paragraph of body text anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 証・印・鑑・委・任・状・代・表・者・格・限・戸・籍・還, which
+have Simplified Chinese look-alike forms with visibly different stroke
+shapes — always draw the standard Japanese (Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the two columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+その証明書、
+3か月以内が必要？不要？
+
+Subtitle (smaller, centered, 1行):
+土地の表示に関する登記の添付書類を整理(平成28年度 午後の部 第6問・補足)
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN HEADER (pill-shaped badge, color: orange) ---
+3か月以内でなければならない
+
+--- LEFT COLUMN (orange accent, 4 rows) ---
+Render as a clean flat-design vertical list with a light-orange row
+background, Japanese sans-serif font, no monospace font. Each row has a
+small circular numbered badge (1〜4, orange) on the left, a small
+isometric icon, and the item name plus its small citation label to its
+right. Reproduce all 4 rows exactly as written below, in this exact
+order — do not omit, duplicate, merge, reorder, renumber, or paraphrase
+any row.
+
+1. 申請書に押印した印鑑証明書（令16条3項）
+   Icon: an isometric application form with a red hanko seal stamped on
+   it, and a small certificate-of-seal-registration icon beside it,
+   overlaid with a calendar showing a ticking 3か月 gauge.
+2. 委任状に押印した印鑑証明書（令18条3項）
+   Icon: an isometric power-of-attorney document (委任状) with a red hanko
+   seal stamped on it, next to the same certificate-of-seal-registration
+   icon and 3か月 gauge as row 1.
+3. 会社法人等番号のない法人の代表者資格証明情報（官公署作成のもの、令17条1項）
+   Icon: an isometric corporate building icon with a certificate labeled
+   代表者資格証明情報 being issued by a small courthouse/government-office
+   icon, with the same 3か月 gauge attached.
+4. 代理権限証明情報のうち官公署作成のもの（令17条1項）
+   Icon: an isometric power-of-attorney-style document being issued by a
+   small courthouse/government-office icon (distinct from row 2's
+   privately-signed 委任状), with the same 3か月 gauge attached.
+
+Each of the 4 rows in this column ends with a small red badge reading
+期限あり.
+
+--- RIGHT COLUMN HEADER (pill-shaped badge, color: green) ---
+期限の制限がない
+
+--- RIGHT COLUMN (green accent, 4 rows) ---
+Render as a clean flat-design vertical list with a light-green row
+background, Japanese sans-serif font, no monospace font, visually
+matching the left column's row height and style. Each row has a small
+circular numbered badge (1〜4, green) on the left, a small isometric
+icon, and the item name to its right. Reproduce all 4 rows exactly as
+written below, in this exact order — do not omit, duplicate, merge,
+reorder, renumber, or paraphrase any row.
+
+1. 第三者（抵当権者等）の承諾書に添付する印鑑証明書
+   Icon: an isometric consent letter (承諾書) held by a third-party figure
+   (labeled 抵当権者等), with a certificate-of-seal-registration icon
+   beside it and a calendar icon with no ticking gauge (static, no
+   countdown).
+2. 表題登記の住所証明情報
+   Icon: an isometric house/land-plot icon with a住民票 or 印鑑証明書-style
+   document labeled 住所証明情報 beside it, and the same static calendar
+   icon as row 1.
+3. 資格者代理人の本人確認情報
+   Icon: an isometric professional figure (資格者代理人) holding a document
+   labeled 本人確認情報, with the same static calendar icon as row 1.
+4. 相続を証する情報（戸籍謄本等）
+   Icon: an isometric family register book (戸籍謄本) icon with a family
+   tree symbol, and the same static calendar icon as row 1.
+
+Each of the 4 rows in this column ends with a small green badge reading
+期限なし.
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成28年度 午後の部 第6問 補足（不動産登記令16条3項・17条1項・18条3項）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 証・印・鑑・委・任・状・代・表・者・格・限・戸・籍・還. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the left column has exactly 4 rows
+and the right column has exactly 4 rows, each numbered 1 through 4 in the
+exact order given above, with no row omitted, duplicated, merged,
+renumbered, or reworded, and confirm every row's item name, citation
+label, and end badge (期限あり／期限なし) match the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters.
+Confirm nothing is rendered below the FOOTER's small credit text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind — the poster ends
+immediately after the footer credit line), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
