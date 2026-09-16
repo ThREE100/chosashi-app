@@ -118,6 +118,16 @@ kanji 権・継・状・産, which have Simplified Chinese look-alike forms with
 visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 2行):
 代理権が消える瞬間、
@@ -198,7 +208,12 @@ Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as a
-short heading + a short conclusion tag, at a glance. Confirm the 5 card
+short heading + a short conclusion tag, at a glance — confirm nothing is
+rendered below the last card (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind — the poster ends immediately after the last card), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere. Confirm the 5 card
 headings are exactly: (1) 複数代理人は各自で代理可／(2) 代理人の死亡で
 委任は終了／(3) 取下げには別の委任状が必要／(4) 親権者の破産は委任に
 影響なし／(5) 本人死亡でも代理権は消えない — do not merge, omit,
