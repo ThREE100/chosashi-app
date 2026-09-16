@@ -105,6 +105,7 @@ Dは、抵当権者Cとは別に、競売によって新たに甲土地の所有
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題について、本問のテーマ（対抗要件・民法177条の「第三者」）に関する記述（「177条」「対抗要件」等のキーワード）を含む問題がないか確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **2026-09-16追記（肢ア〜オ・間違いノート型補足の追加）**：読者から各肢の結論に自力でたどり着けなかったというフィードバックを受け、肢ア〜オすべてに「ここが分かりにくいポイント」を追加しました。ア（単純悪意者と背信的悪意者の混同）、イ（抵当権者Cと買受人Dの取り違え）、ウ（別人だから対抗関係になるはずという誤解）、エ（別人格だから第三者にあたるはずという誤解）、オ（登記さえあれば安全という漠然とした不安）と、5肢それぞれで異なるつまずきの構造を整理しています。あわせて、まとめの末尾に177条の「第三者」の判例上の定義（当事者及びその包括承継人以外の者で、登記の欠缺を主張するにつき正当な利益を有する者）と、①当事者本人・②包括承継人・③前主後主・④不法占拠者・⑤背信的悪意者という除外パターンを明示し、この枠組みを深掘りした個別テーマ記事（`topics/taikouyouken-daisansha-5ruikei.md`）を新設して各肢・まとめから相互リンクしました。①〜⑤の分類・背信的悪意者の除外根拠については、`note-articles/h19-mondai/q02-daisansha-hogo.md`の既存の解説（最判平成8年10月29日、相対的構成）と整合していることを確認済みです。5肢を機械的に俯瞰できる間違いノート型インフォグラフィック（①〜⑤への当てはめ一覧）も記事末尾に新規追加しました。本文中の各肢の正誤判定・まとめの表・正解番号はいずれも変更していません。
+- **2026-09-16追記（肢ア〜オ・個別インフォグラフィックの追加）**：上記の「ここが分かりにくいポイント」5件それぞれについて、対比型（直感的な誤解／正しい思考の2パネル構成）の個別インフォグラフィックを1枚ずつ、計5枚新規作成しました。5肢共通の一覧インフォグラフィックとは別に、各肢固有のつまずき（ア＝単純悪意と背信的悪意の混同、イ＝抵当権者Cと買受人Dの取り違え、ウ＝別人か同一人かではなく取り合う関係かどうかで判断する視点、エ＝民法896条本文の引用を交えた包括承継の図解、オ＝「正当な利益」の有無で判断する視点）を、それぞれ条文引用・説明文を制限なく配置した`infographic-prompt-template.md`の「④ 間違いノート型」に基づいて図解しています。
 
 ---
 
@@ -317,4 +318,455 @@ no duplicated or missing rows, confirm the quoted definition text matches
 the Japanese text given above verbatim character-for-character, and
 confirm the callout box text matches verbatim with no paraphrasing and no
 substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア肢・間違いノート）
+
+ア（単純悪意者Cも177条の「第三者」に含まれ、Bは登記なしでは対抗できない＝本肢は誤り）について、「Cは事情を知っていて買ったずるい人だから保護されないはずだ」という直感と、実際には「悪意」の程度で結論が分かれる（単純悪意者と背信的悪意者は別物）という条文・判例の枠組みとのズレを解消するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、条文の引用・説明文を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（登記なしで対抗できる相手・できない相手）, but built as a single detailed
+explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who assumed that any buyer who knew
+about the prior unregistered sale (a simple bad-faith buyer) must be
+undeserving of protection, and confuse this with the separate legal
+category of a 背信的悪意者 (a malicious bad-faith buyer). Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with quoted definition text, and short explanatory sentences (1-3
+sentences per callout box) labeled 誤りやすいポイント. Prioritize clarity
+and completeness of the reasoning over brevity. Do not compress the
+callout text or the quoted text into short tags — write them out exactly
+as given below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+悪・意・背・信・登・記・欠・缺・者 — always draw the standard Japanese
+(Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「知っていただけ」なら、
+第三者に含まれるんです
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第2問 ア
+単純悪意者と背信的悪意者は別物
+
+--- LEFT PANEL (red background, 直感的な誤解) ---
+Panel heading (bold):
+道徳的な感覚で判断すると（誤った思考）
+
+Illustration (isometric scene inside the panel):
+An isometric figure Ｃ with a small speech-bubble icon reading「知ってて
+買った」, standing next to figure Ｂ who holds a shield icon with a red ✕
+mark on it (representing the incorrect assumption that Ｂ can win without
+registration because Ｃ acted unfairly).
+
+Panel conclusion (bold, red banner):
+ずるいから保護されないはず
+
+--- RIGHT PANEL (green background, 条文・判例が見ている条件) ---
+Panel heading (bold):
+判例が実際に見ている条件（正しい思考）
+
+Illustration (isometric scene inside the panel):
+The same figure Ｃ, now with a labeled scale icon comparing two levels:
+「単純悪意（知っていただけ）」on one side (within a green circle labeled
+「自由競争の範囲内」) and「背信的悪意（もっぱら害する目的等）」on the
+other side (within a red circle labeled「信義則違反」). An arrow points
+from the「単純悪意」side to figure Ｂ holding a shield icon with a red ✕
+mark (対抗不可), and from the「背信的悪意」side to a shield icon with a
+green checkmark (対抗可能、除外される)。
+
+Quoted article text (rendered exactly, in a bordered box):
+「第三者」とは、当事者及びその包括承継人以外の者で、登記の欠缺を主張す
+るにつき正当な利益を有する者をいう（判例上の定義）。単に事情を知って
+いただけの単純悪意者は、この定義にあてはまる限り「第三者」に含まれる。
+
+Panel conclusion (bold, green banner):
+単純悪意者は第三者に含まれる
+
+--- CALLOUT BOX: 誤りやすいポイント (below both panels, pastel yellow
+background, full width) ---
+「Ｃは事情を知っていて買ったずるい人だから保護されないはずだ」と感じて
+しまいがちですが、この直感は「背信的悪意者」の話と混同しています。自由
+競争の範囲を逸脱してもっぱら相手を害する目的で買い受けるような悪質性が
+なければ、単に知っていただけの単純悪意者は原則どおり「第三者」に含まれ
+ます。結果として、Ｂは登記をしていなければＣに対抗することができません。
+
+--- FOOTER ---
+根拠：民法177条（判例上の「第三者」の定義）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+悪・意・背・信・登・記・欠・缺・者. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
+on the left, green 条文・判例が見ている条件 on the right), confirm the
+quoted text box matches the Japanese text given above verbatim
+character-for-character, and confirm the callout box text matches
+verbatim with no paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（イ肢・間違いノート）
+
+イ（抵当権が実行されて買受人となったDにも、Bは登記なしでは対抗できない＝本肢は誤り）について、「Cは抵当権者（お金を貸しているだけの人）だから対抗関係とは無関係」という誤解と、実際に対抗関係が問題になるのは競売で新たに所有権を取得したDだという条文・判例の構造とのズレを解消するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、条文の引用・説明文を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（登記なしで対抗できる相手・できない相手）, but built as a single detailed
+explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who focus on the mortgagee C (a
+mere creditor) and conclude that the antagonistic-interest question is
+irrelevant, overlooking that the actual person to consider is D, the
+purchaser at the foreclosure auction who newly acquired ownership. Unlike
+a quick-reference poster, this image MAY include side-by-side comparisons
+with quoted definition text, and short explanatory sentences (1-3
+sentences per callout box) labeled 誤りやすいポイント. Prioritize clarity
+and completeness of the reasoning over brevity. Do not compress the
+callout text into short tags — write it out exactly as given below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+抵・当・権・買・受・競・売・登・記 — always draw the standard Japanese
+(Jōyō) form.
+
+--- LEFT PANEL (red background, 直感的な誤解) ---
+Panel heading (bold):
+Cだけを見て判断すると（誤った思考）
+
+Illustration (isometric scene inside the panel):
+An isometric figure Ｃ labeled「抵当権者（お金を貸しているだけ）」standing
+next to a chain-link icon representing the mortgage, with a speech-bubble
+「単なる債権者だから関係ない」and a red question-mark icon.
+
+Panel conclusion (bold, red banner):
+対抗関係の話とは無関係のはず
+
+--- RIGHT PANEL (green background, 実際に登場する人物) ---
+Panel heading (bold):
+実際に問題になる人物（正しい思考）
+
+Illustration (isometric scene inside the panel):
+The mortgage chain-link icon breaking apart (抵当権の実行) with a gavel
+（競売）icon above it, and an arrow leading to a NEW figure Ｄ labeled
+「買受人（競売で新たに所有権を取得）」holding a land-plot key icon. Figure
+Ｂ stands opposite Ｄ holding a shield icon with a red ✕ mark (登記なしで
+は対抗不可)。
+
+Quoted article text (rendered exactly, in a bordered box):
+「第三者」とは、当事者及びその包括承継人以外の者で、登記の欠缺を主張す
+るにつき正当な利益を有する者をいう（判例上の定義）。競売による買受人
+Ｄは、新たに所有権を取得した者としてこの定義にあてはまり、「第三者」
+に含まれる。
+
+Panel conclusion (bold, green banner):
+買受人Dが第三者に含まれる
+
+--- CALLOUT BOX: 誤りやすいポイント (below both panels, pastel yellow
+background, full width) ---
+「Ｃは抵当権者（お金を貸しているだけの人）にすぎず、Ｂと同じ土地を取り
+合う関係ではないから、対抗関係の話は関係ないのでは」と考えてしまいが
+ちです。しかし、この肢で実際に登場するのはＣではなく、抵当権が実行され
+た結果として競売で土地を買い受けたＤです。①〜⑤のどれにも当てはまらな
+い以上、Ｄは原則どおり「第三者」に含まれ、Ｂは登記をしなければＤに対抗
+することができません。
+
+--- FOOTER ---
+根拠：民法177条（判例上の「第三者」の定義）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+抵・当・権・買・受・競・売・登・記. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
+on the left, green 実際に登場する人物 on the right), confirm the quoted
+text box matches the Japanese text given above verbatim
+character-for-character, and confirm the callout box text matches
+verbatim with no paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（ウ肢・間違いノート）
+
+ウ（前主・後主の関係にあるCは、登記なしで元の所有者Aに対抗できる＝本肢は正しい）について、「Cは直接契約していない別人だから対抗関係になるはずだ」という誤解と、A→B→Cが一直線につながる承継関係にすぎず取り合う関係ではないという構造とのズレを解消するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、条文の引用・説明文を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（登記なしで対抗できる相手・できない相手）, but built as a single detailed
+explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who assume that because C never
+contracted directly with A, the two must be in an antagonistic
+(対抗) relationship. Unlike a quick-reference poster, this image MAY
+include side-by-side comparisons with quoted definition text, and short
+explanatory sentences (1-3 sentences per callout box) labeled 誤りやすい
+ポイント. Prioritize clarity and completeness of the reasoning over
+brevity. Do not compress the callout text into short tags — write it out
+exactly as given below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+前・主・後・主・承・継・登・記・者 — always draw the standard Japanese
+(Jōyō) form.
+
+--- LEFT PANEL (red background, 直感的な誤解) ---
+Panel heading (bold):
+別人かどうかで判断すると（誤った思考）
+
+Illustration (isometric scene inside the panel):
+An isometric figure Ａ and figure Ｃ standing on opposite sides of a land
+plot, facing each other with a red ✕ mark between them and a speech-bubble
+「直接契約してない別人どうしだから対抗関係のはず」。Figure Ｂ is drawn
+faded in the background, easy to overlook.
+
+Panel conclusion (bold, red banner):
+対抗関係になるはず
+
+--- RIGHT PANEL (green background, 実際の関係) ---
+Panel heading (bold):
+実際の関係を図にすると（正しい思考）
+
+Illustration (isometric scene inside the panel):
+Three isometric figures Ａ→Ｂ→Ｃ connected by a single straight chain of
+solid arrows over the same land plot, labeled「一直線につながる承継」。
+A green checkmark badge sits over the whole chain, with a label「取り合
+う関係ではない」。
+
+Quoted article text (rendered exactly, in a bordered box):
+「第三者」とは、当事者及びその包括承継人以外の者で、登記の欠缺を主張す
+るにつき正当な利益を有する者をいう（判例上の定義）。所有権が転々移転し
+た場合の前主・後主の関係にある者は、この「第三者」にあたらない。
+
+Panel conclusion (bold, green banner):
+前主・後主は第三者に当たらない
+
+--- CALLOUT BOX: 誤りやすいポイント (below both panels, pastel yellow
+background, full width) ---
+「Ｃは、Ａと直接契約したわけではない、Ｂとは別の人だからＡＣ間は対抗関
+係になるはずだ」と考えてしまいがちです。しかし、Ａ→Ｂ→Ｃという所有権の
+流れは、単に1本の線がＡからＣまでつながっているだけであり、ＡとＣが同
+じ土地を取り合っている（二重譲渡のような）対抗関係にはなっていません。
+「別人だから第三者」ではなく、「取り合う関係にあるかどうか」で考えるの
+がコツです。
+
+--- FOOTER ---
+根拠：民法177条（判例上の「第三者」の定義）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+前・主・後・主・承・継・登・記・者. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
+on the left, green 実際の関係 on the right), confirm the quoted text box
+matches the Japanese text given above verbatim character-for-character,
+and confirm the callout box text matches verbatim with no paraphrasing
+and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+エ（相続人Cは、登記なしで元の買主Bに対抗されてしまう＝本肢は正しい）について、「Cは別人格だから第三者にあたるはずだ」という誤解と、相続が被相続人の地位をそのまま引き継ぐ包括承継であるという条文の構造とのズレを解消するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、条文の引用・説明文を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（登記なしで対抗できる相手・できない相手）, but built as a single detailed
+explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who assume that because the heir C
+is a different legal person from the deceased A, C must be a 第三者.
+Unlike a quick-reference poster, this image MAY include side-by-side
+comparisons with quoted article text, and short explanatory sentences
+(1-3 sentences per callout box) labeled 誤りやすいポイント. Prioritize
+clarity and completeness of the reasoning over brevity. Do not compress
+the callout text or the quoted article text into short tags — write them
+out exactly as given below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+相・続・人・被・相・続・人・承・継・登・記 — always draw the standard
+Japanese (Jōyō) form.
+
+--- LEFT PANEL (red background, 直感的な誤解) ---
+Panel heading (bold):
+別人格かどうかで判断すると（誤った思考）
+
+Illustration (isometric scene inside the panel):
+An isometric figure Ａ and a separate figure Ｃ（子）standing apart, with
+a speech-bubble「Ａとは別の人格だから第三者のはず」and a red question-mark
+icon between figure Ｂ and figure Ｃ.
+
+Panel conclusion (bold, red banner):
+第三者にあたるはず
+
+--- RIGHT PANEL (green background, 包括承継の実際) ---
+Panel heading (bold):
+包括承継の実際（正しい思考）
+
+Illustration (isometric scene inside the panel):
+Figure Ａ with a small memorial star icon（死亡を示す）, and a large green
+arrow labeled「地位をそのまま引き継ぐ（包括承継）」pointing from Ａ into
+figure Ｃ, merging their outlines into one silhouette to show they are
+treated as legally identical. A green checkmark badge sits between figure
+Ｂ and the merged Ａ・Ｃ silhouette.
+
+Quoted article text (rendered exactly, in a bordered box):
+「相続人は、相続開始の時から、被相続人の財産に属した一切の権利義務を承
+継する。ただし、被相続人の一身に専属したものは、この限りでない。」
+（民法896条）
+
+Panel conclusion (bold, green banner):
+相続人は当事者と同視される
+
+--- CALLOUT BOX: 誤りやすいポイント (below both panels, pastel yellow
+background, full width) ---
+「Ｃは、Ａとは別の人格（別人）なのだから、Ｂとの関係では第三者にあたる
+はずだ」と考えてしまいがちです。しかし、相続は単なる「別人への財産の受
+け渡し」ではなく、被相続人の法律上の地位をそのまま引き継ぐ包括承継（民
+法896条本文）です。Ｃは「Ａとは別の新しい買主」ではなく「Ａそのものの
+立場を引き継いだ人」と考えると、Ｂが登記なしで対抗できる理由がつかみや
+すくなります。
+
+--- FOOTER ---
+根拠：民法177条（判例上の「第三者」の定義）、民法896条本文
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+相・続・人・被・相・続・人・承・継・登・記. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
+on the left, green 包括承継の実際 on the right), confirm the quoted text
+box matches the Japanese text given above verbatim character-for-character,
+and confirm the callout box text matches verbatim with no paraphrasing and
+no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・間違いノート）
+
+オ（不法占拠者Cには、登記なしで明渡しを請求できる＝本肢は誤り）について、「登記さえしっかり備えておかないとどんな相手にも対抗できなくなるのでは」という漠然とした不安と、不法占拠者はそもそも「正当な利益」を持たないため第三者にすら当たらないという条文の構造とのズレを解消するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、条文の引用・説明文を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（登記なしで対抗できる相手・できない相手）, but built as a single detailed
+explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who have a vague anxiety that
+without registration, they cannot prevail against ANY opposing party,
+including a trespasser with no rights at all. Unlike a quick-reference
+poster, this image MAY include side-by-side comparisons with quoted
+definition text, and short explanatory sentences (1-3 sentences per
+callout box) labeled 誤りやすいポイント. Prioritize clarity and
+completeness of the reasoning over brevity. Do not compress the callout
+text or the quoted text into short tags — write them out exactly as given
+below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+占・拠・権・原・登・記・者・欠・缺 — always draw the standard Japanese
+(Jōyō) form.
+
+--- LEFT PANEL (red background, 直感的な誤解) ---
+Panel heading (bold):
+漠然とした不安で判断すると（誤った思考）
+
+Illustration (isometric scene inside the panel):
+An isometric figure Ｂ looking worried, with a thought-bubble containing a
+small unregistered-document icon crossed out in red, and a tent icon
+（不法占拠者Ｃ）standing on the land plot, with a red question-mark
+between them.
+
+Panel conclusion (bold, red banner):
+登記がないとどんな相手にも負けそう
+
+--- RIGHT PANEL (green background, 正当な利益の有無で判断) ---
+Panel heading (bold):
+「正当な利益」の有無で判断する（正しい思考）
+
+Illustration (isometric scene inside the panel):
+The same tent icon（不法占拠者Ｃ）now labeled「無権原」with a red ✕ mark
+over a small scale icon（正当な利益なし）, next to figure Ｂ holding a
+shield icon with a green checkmark and an arrow labeled「明渡し請求」
+pointing at the tent.
+
+Quoted article text (rendered exactly, in a bordered box):
+「第三者」とは、当事者及びその包括承継人以外の者で、登記の欠缺を主張す
+るにつき正当な利益を有する者をいう（判例上の定義）。何の権原も持たない
+不法占拠者は、この「正当な利益」を欠くため「第三者」にあたらない。
+
+Panel conclusion (bold, green banner):
+不法占拠者は第三者に当たらない
+
+--- CALLOUT BOX: 誤りやすいポイント (below both panels, pastel yellow
+background, full width) ---
+「登記さえしっかり備えておかないと、どんな相手にも対抗できなくなってし
+まうのでは」という漠然とした不安から、不法占拠者に対しても登記が必要
+だと考えてしまいがちです。しかし、177条の「第三者」として保護されるの
+は、あくまで「登記の欠缺を主張するにつき正当な利益を有する者」に限られ
+ます。不法占拠者は、そもそも土地に対する何の権原も持たない以上、「登記
+がないなら自分を優先しろ」と文句を言える立場自体がありません。
+
+--- FOOTER ---
+根拠：民法177条（判例上の「第三者」の定義）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+占・拠・権・原・登・記・者・欠・缺. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
+on the left, green 「正当な利益」の有無で判断する on the right), confirm
+the quoted text box matches the Japanese text given above verbatim
+character-for-character, and confirm the callout box text matches
+verbatim with no paraphrasing and no substituted characters.
 ```
