@@ -118,6 +118,16 @@ kanji 権・地・質・託・積, which have Simplified Chinese look-alike form
 with visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 2行):
 保安林でも合筆できる、
@@ -208,5 +218,10 @@ tag, at a glance. Confirm the 5 card headings are exactly: (1) 保安林の
 ままでも合筆できる／(2) 質権の内容が同一なら合筆可／(3) 信託の内容が
 同一なら合筆可／(4) 承役地の合筆は範囲を記載／(5) 10㎡超は1㎡未満を
 切り捨て — do not merge, omit, duplicate, or reword any of these five
-headings.
+headings. Confirm nothing is rendered below the last card (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
+and no additional text block of any kind — the poster ends immediately
+after the last card), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
