@@ -24,11 +24,25 @@
 
 **たとえば**、地主のAさんが甲土地をBさんに売ったのに登記をしないまま放置していたところ、Aさんが同じ土地を知人のCさんにも売却したとします。Cさんが「実はAB間の売買があったことを知っていた」という単なる悪意者にすぎない場合でも、Bさんが登記をしていなければ、Cさんに所有権の取得を対抗することはできません。
 
+**ここが分かりにくいポイント**：
+
+「Cは事情を知っていて買ったのだから、いわば"横取り"をしたずるい人だ。ずるい人が保護されるのはおかしい」と感じて、Bが登記なしでもCに勝てるはずだと考えてしまいがちです。しかし、この直感は「背信的悪意者」の話と混同しています。
+
+判例上、177条の「第三者」から除外されるのは、①当事者本人、②包括承継人（相続人等）、③前主・後主の関係にある者、④不法占拠者、⑤自由競争の範囲を逸脱してもっぱら相手を害する目的で買い受けるような「背信的悪意者」に限られます。単に「AB間の売買があったことを知っていただけ」の単純悪意者は、この①〜⑤のどれにも当てはまりません。
+
+「知っていた」というだけでは、まだ自由な取引の範囲内にとどまり、信義則に反するとまではいえないため、単純悪意者は原則どおり「第三者」に含まれます。結果として、Bは登記をしていなければCに対抗することができません。①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
+
 ### イ：抵当権が実行されて買受人となった者にも、登記がなければ対抗できない
 
 Aが甲土地をBに売却した後、登記未了の間にCのために抵当権が設定され、その抵当権が実行されて買受人となったDは、新たに所有権を取得する者です。Bは登記をしなければ、このDに対抗することができません。
 
 **たとえば**、Bさんが土地を買ったのに登記をしないでいたところ、元の所有者Aさんがその土地に銀行Cのための抵当権を設定してしまい、後日その抵当権が実行されて競売にかけられ、Dさんがその土地を競落したとします。この場合、Bさんは登記をしていなければ、Dさんに対して所有権の取得を対抗することができません。
+
+**ここが分かりにくいポイント**：
+
+「Cは抵当権者（お金を貸しているだけの人）にすぎず、Bと同じ土地を取り合う関係ではないから、対抗関係の話は関係ないのでは」と考えてしまいがちです。しかし、この肢で実際に登場するのはCではなく、抵当権が実行された結果として競売で土地を買い受けたDです。
+
+Dは、抵当権者Cとは別に、競売によって新たに甲土地の所有権を取得した人です。①当事者本人、②包括承継人、③前主・後主、④不法占拠者、⑤背信的悪意者のいずれにも当てはまらない以上、Dは原則どおり「第三者」に含まれます。抵当権の設定・実行という一見遠回りな経路をたどっていても、最終的に「新たに所有権を取得した人」が現れた時点で、Bはその人に対して登記なしでは対抗できないと考えると整理しやすくなります。
 
 ### ウ：前主・後主の関係にある者には、登記なしで対抗できる
 
@@ -36,17 +50,35 @@ Aが甲土地をBに売却した後、登記未了の間にCのために抵当�
 
 **たとえば**、Aさんから土地を買ったBさんが、その土地をさらにCさんに転売したとします。この場合、CさんはAさんとの関係では「前主・後主」の連続する当事者の関係にあるにすぎないため、登記をしていなくても、元のAさんに対して所有権を主張することができます。
 
+**ここが分かりにくいポイント**：
+
+「Cは、Aと直接契約したわけではない、Bとは別の人だから、AC間は対抗関係になるはずだ」と考えてしまいがちです。しかし、A→B→Cという所有権の流れを図にすると、これは単に1本の線がAからCまでつながっているだけであり、AとCが同じ土地を取り合っている（二重譲渡のような）対抗関係にはなっていません。
+
+③前主・後主の関係にある者は、177条の「第三者」から明確に除外されます。「別人だから第三者」ではなく、「取り合う関係にあるかどうか」で考えるのがコツです。①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
+
 ### エ：売主の相続人には、登記なしで対抗できる
 
 被相続人からの譲受人は、相続人に対しては登記なくして不動産の所有権を主張することができます。これは、相続人が被相続人を包括承継する（民法896条本文）ため、相続人と被相続人を同一人とみなすことができ、譲受人との関係は当事者の関係となり、対抗関係にはならないと考えられるからです。
 
 **たとえば**、Aさんが土地をBさんに売った後、登記をしないうちにAさんが亡くなり、Aさんの唯一の相続人である子Cさんがその土地を相続したとします。この場合、Cさんは亡きAさんの立場をそのまま引き継ぐ者にすぎないため、Bさんは登記をしていなくても、Cさんに対して所有権の取得を対抗することができます。
 
+**ここが分かりにくいポイント**：
+
+「Cは、Aとは別の人格（別人）なのだから、Bとの関係では第三者にあたるはずだ」と考えてしまいがちです。しかし、相続は単なる「別人への財産の受け渡し」ではなく、被相続人の法律上の地位をそのまま引き継ぐ包括承継（民法896条本文）です。
+
+②包括承継人は、被相続人と法的に同一視され、当事者本人と同じ立場に立つため、177条の「第三者」からは除外されます。Cは「Aとは別の新しい買主」ではなく「Aそのものの立場を引き継いだ人」と考えると、Bが登記なしで対抗できる理由がつかみやすくなります。①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
+
 ### オ：不法占拠者には、登記なしで明渡しを請求できる
 
 不法占拠者は177条の「第三者」にあたらないため、Bは登記をしなくてもCに対抗することができ、明渡しを請求することができるというのが判例の立場です。
 
 **たとえば**、Bさんが買った土地に、何の権原もないCさんが勝手に住み着いてしまったとします。この場合、Cさんは登記の有無を主張できる正当な利益を持つ「第三者」ではないため、Bさんは登記をしていなくても、Cさんに対して土地の明渡しを求めることができます。
+
+**ここが分かりにくいポイント**：
+
+「登記さえしっかり備えておかないと、どんな相手にも対抗できなくなってしまうのでは」という漠然とした不安から、不法占拠者に対しても登記が必要だと考えてしまいがちです。しかし、177条の「第三者」として保護されるのは、あくまで「登記の欠缺を主張するにつき正当な利益を有する者」に限られます。
+
+④不法占拠者は、そもそも土地に対する何の権原も持たない以上、「登記がないなら自分を優先しろ」と文句を言える立場自体がありません。文句を言う資格のない相手に対しては、登記の有無にかかわらず所有権を主張できると考えると整理しやすくなります。①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
 
 ### まとめ
 
@@ -56,7 +88,9 @@ Aが甲土地をBに売却した後、登記未了の間にCのために抵当�
 - **エ（正）** 相続人は被相続人を包括承継するため、登記なしで対抗できる
 - **オ（誤）** 不法占拠者は「第三者」にあたらず、登記なしで対抗できる
 
-各肢を検討するときは、「Bが登記をしていないことにつけこんで、"登記がないなら自分を優先しろ"と文句を言える、まっとうな理由のある相手かどうか」という一点に立ち返って考えると、判断がぶれません。逆に、単なる当事者本人や、権利のない不法占拠者のように、そもそも文句を言える立場にない相手には、登記がなくても対抗できます。
+各肢の判断に迷ったときは、177条の「第三者」の定義――当事者及びその包括承継人以外の者で、登記の欠缺を主張するにつき正当な利益を有する者――に立ち返るのが最も確実です。単純悪意者はこの「第三者」に含まれますが、①当事者本人、②包括承継人（相続人等）、③前主・後主の関係にある者、④不法占拠者、⑤背信的悪意者は、いずれも「第三者」から除外されます。各肢がこの①〜⑤のどれに該当するかを機械的に当てはめれば、登記の要否は一義的に判定できます。
+
+平易な表現に直すと、各肢を検討するときは、「Bが登記をしていないこと（登記の欠缺）につけこんで、"登記がないなら自分を優先しろ"と文句を言える、まっとうな理由のある相手かどうか」という一点に立ち返って考えると、判断がぶれません。逆に、単なる当事者本人や、権利のない不法占拠者のように、そもそも文句を言える立場にない相手には、登記がなくても対抗できます。①〜⑤の除外パターンをさらに詳しく整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
 
 **正解：ウエの組合せ（選択肢5番）**
 
@@ -70,6 +104,7 @@ Aが甲土地をBに売却した後、登記未了の間にCのために抵当�
 - **判例citationの再検証（2026-08-14実施）**：ウ（前主・後主の関係）についてデータベースは「最判昭43.11.19」としていましたが、Web検索では該当日付の判例を確認できず、誤citationの疑いが強いと判断しました。前主・後主の関係にある者が177条の「第三者」にあたらないとした判例は、複数の情報源（裁判所判例検索の該当ページの検索結果概要を含む）で最判昭39.2.13（集民72号145頁）であることを確認できたため、これに訂正しています。ア（単純悪意者も「第三者」にあたる）の根拠としてデータベースが挙げていた「最判昭32.9.19」については、この作業環境からのアクセス制限（courts.go.jp・note.com等への直接アクセスがブロックされている）により、日付レベルでの実在確認が完了していません。結論（単純悪意者は177条の「第三者」に含まれるという通説・判例の立場）自体は複数の実務解説サイトと整合しており誤りではありませんが、この具体的な判決日は未確認である旨をご留意ください。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題について、本問のテーマ（対抗要件・民法177条の「第三者」）に関する記述（「177条」「対抗要件」等のキーワード）を含む問題がないか確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **2026-09-16追記（肢ア〜オ・間違いノート型補足の追加）**：読者から各肢の結論に自力でたどり着けなかったというフィードバックを受け、肢ア〜オすべてに「ここが分かりにくいポイント」を追加しました。ア（単純悪意者と背信的悪意者の混同）、イ（抵当権者Cと買受人Dの取り違え）、ウ（別人だから対抗関係になるはずという誤解）、エ（別人格だから第三者にあたるはずという誤解）、オ（登記さえあれば安全という漠然とした不安）と、5肢それぞれで異なるつまずきの構造を整理しています。あわせて、まとめの末尾に177条の「第三者」の判例上の定義（当事者及びその包括承継人以外の者で、登記の欠缺を主張するにつき正当な利益を有する者）と、①当事者本人・②包括承継人・③前主後主・④不法占拠者・⑤背信的悪意者という除外パターンを明示し、この枠組みを深掘りした個別テーマ記事（`topics/taikouyouken-daisansha-5ruikei.md`）を新設して各肢・まとめから相互リンクしました。①〜⑤の分類・背信的悪意者の除外根拠については、`note-articles/h19-mondai/q02-daisansha-hogo.md`の既存の解説（最判平成8年10月29日、相対的構成）と整合していることを確認済みです。5肢を機械的に俯瞰できる間違いノート型インフォグラフィック（①〜⑤への当てはめ一覧）も記事末尾に新規追加しました。本文中の各肢の正誤判定・まとめの表・正解番号はいずれも変更していません。
 
 ---
 
@@ -194,4 +229,92 @@ without resetting, confirm there is no intro illustration or paragraph
 block between the header and the cards, and confirm that no card contains
 a full sentence of explanatory prose — every card's takeaway must read
 as a short heading + a short conclusion tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ共通・間違いノート）
+
+177条の「第三者」の判例上の定義と、そこから除外される①〜⑤のパターン（当事者本人・包括承継人・前主後主・不法占拠者・背信的悪意者）に、本問の5肢（ア〜オ）それぞれがどう当てはまるかを1枚で機械的に一覧できる補足図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、条文の引用・説明文を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, red, beige, gray), rounded panel sections, consistent with
+the same visual language as the whole-problem poster for this article
+（登記なしで対抗できる相手・できない相手）, but built as a single detailed
+explainer table rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve the
+shared point of confusion across all 5 clauses — readers who judge each
+clause purely on gut feeling (悪意だから／別人だから) instead of mechanically
+checking it against the five defined exclusion categories. Unlike a
+quick-reference poster, this image MAY include quoted definition text and
+short explanatory sentences (1-3 sentences per callout box) labeled
+誤りやすいポイント. Prioritize clarity and completeness of the reasoning
+over brevity. Do not compress the quoted text into short tags — write it
+out exactly as given below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+権・登・記・者・承・継・占・拠・背・信・欠・缺 — always draw the standard
+Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+①〜⑤に当てはめれば、
+迷わず判定できるんです
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第2問 ア〜オ
+177条の「第三者」除外パターン一覧
+
+--- QUOTED DEFINITION BOX (top, bordered, full width) ---
+Quoted text (rendered exactly):
+「当事者及びその包括承継人以外の者で、登記の欠缺を主張するにつき正当な
+利益を有する者」（判例上の「第三者」の定義）
+
+--- TABLE: 5つの肢を①〜⑤に当てはめる (5 rows, 2 columns: 肢の内容 / 該当
+する除外パターン) ---
+Row ア: 「単純悪意者C」→ 該当なし（①〜⑤のどれにも当てはまらない）→ 第三
+者に含まれる（赤い✕アイコン、対抗不可）
+Row イ: 「抵当権実行の買受人D」→ 該当なし（①〜⑤のどれにも当てはまらな
+い）→ 第三者に含まれる（赤い✕アイコン、対抗不可）
+Row ウ: 「転得者C（前主・後主）」→ ③前主・後主の関係 → 第三者に当たら
+ない（緑のチェックアイコン、対抗可）
+Row エ: 「相続人C」→ ②包括承継人 → 第三者に当たらない（緑のチェック
+アイコン、対抗可）
+Row オ: 「不法占拠者C」→ ④不法占拠者 → 第三者に当たらない（緑のチェッ
+クアイコン、対抗可）
+
+Each row should be an isometric mini-scene with a small figure labeled
+with the clause letter（ア/イ/ウ/エ/オ）and a short label naming the person
+in question, an arrow pointing to a small badge showing either the
+matching exclusion number（①〜⑤）or「該当なし」, and a final icon（緑
+チェック＝対抗できる、赤✕＝対抗できない）.
+
+--- CALLOUT BOX: 誤りやすいポイント (below the table, pastel yellow
+background, full width) ---
+「悪意だから保護されないはず」「当事者ではない別人だから第三者のはず」
+という直感だけで判断すると、単純悪意者と背信的悪意者の違いや、包括承継
+人と単なる別人の違いを取り違えてしまいます。①〜⑤という具体的な除外パ
+ターンに機械的に当てはめれば、5肢すべてを同じ手順で判定でき、判断がぶ
+れません。
+
+--- FOOTER ---
+根拠：民法177条、民法896条本文
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+権・登・記・者・承・継・占・拠・背・信・欠・缺. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm there are exactly 5 rows (ア・イ・ウ・エ・オ) with
+no duplicated or missing rows, confirm the quoted definition text matches
+the Japanese text given above verbatim character-for-character, and
+confirm the callout box text matches verbatim with no paraphrasing and no
+substituted characters.
 ```
