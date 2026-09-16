@@ -120,12 +120,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・建・物・登・記・録・所 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 建物を分けても、抵当権は消えない
 
 Subtitle (smaller, centered, 1行):
-平成28年度 午後の部 第13問－申請要件と登記記録の扱いを整理
+申請要件と登記記録の扱いを整理(平成28年度 午後の部 第13問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -195,10 +205,15 @@ renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
-every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+illustration or paragraph block between the header and the cards, confirm
+that no card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance — confirm nothing is rendered below the last card (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
+and no additional text block of any kind — the poster ends immediately
+after the last card), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
 
 ---
@@ -234,6 +249,16 @@ exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・録・所・番・地・分・割 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the steps/cards — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -298,9 +323,14 @@ attention to 建・物・登・記・録・所・番・地・分・割. If any c
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of steps equals 4 exactly, with
 no duplicated or missing steps, confirm there is no intro illustration or
-paragraph block between the header and STEP 1, and confirm every heading
+paragraph block between the header and STEP 1, confirm every heading
 and caption text matches the Japanese text given above verbatim, with no
-paraphrasing and no substituted characters.
+paraphrasing and no substituted characters, confirm nothing is rendered
+below the last step and its small credit text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind — the poster ends immediately after the last
+step), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ### 画像2：オ－「転写」ではなく「分割による所有権の登記」
@@ -330,6 +360,16 @@ exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・録・権・転・写・割 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the steps/cards — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -399,7 +439,12 @@ Japanese form. Confirm the number of steps equals 4 exactly, with no
 duplicated or missing steps, confirm there is no intro illustration or
 paragraph block between the header and STEP 1, confirm STEP 4 shows the
 glowing "分割による所有権の登記" stamp and the crossed-out "転写" arrow as
-two distinct, unambiguous icons, and confirm every heading and caption
+two distinct, unambiguous icons, confirm every heading and caption
 text matches the Japanese text given above verbatim, with no paraphrasing
-and no substituted characters.
+and no substituted characters, confirm nothing is rendered below the last
+step and its small credit text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind — the poster ends immediately after the last step), and
+confirm the entire canvas, edge to edge, is filled with a fully opaque
+background with no transparency or alpha channel anywhere.
 ```
