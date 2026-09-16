@@ -140,11 +140,17 @@ exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, confirm
 that no card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance — and confirm the entire canvas, edge to edge, is filled with a
-fully opaque background with no transparency or alpha channel anywhere.
+glance — confirm nothing is rendered below the last card (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
+and no additional text block of any kind — the poster ends immediately
+after the last card), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
 
 **イントロブロック禁止（重要・厳守）**：かつてこの雛形には「--- INTRO BLOCK (left: illustration; right: paragraph text) ---」として、タイトル直下に導入イラストと数行の解説文を置くセクションが存在したが、廃止した。タイトル・サブタイトルのすぐ下は必ずカード群（`--- CARD 1 ---` またはコラムがある場合は `--- COLUMN A HEADER ---`）から始めること。導入イラスト・導入文のブロック、及びそれに類する説明段落（分野紹介・全体像の要約文など）は、HEADERとカード群の間は言うまでもなく、CRITICAL TEXT REQUIREMENTの直後からHEADERまでの間にも置かない。カードの通し番号列挙リストや簡体字注意文などの補足情報は、HEADERより前ではなく、FOOTER直前（Final checkの前）にまとめる。**このとき、独立した日本語の一文（「注意：〜」等）としてFOOTERに置いてはならない（重要・厳守、下記「簡体字注意文の画像内描画事故（2026-09-11判明）」参照）。** 必ず英語で書き、`Final check before rendering:` の英文パラグラフの一部として一体化させること。
+
+**アウトロブロック禁止（重要・厳守、2026-09-16追加）**：カード群（②③の「俯瞰カードポスター型」「対比表型」「早見表型」「フローチャート／判定フロー型」、④のパネル、⑤のパネル）の最後の要素（最後のカード／最後のパネル／表の最終行）のあとは、必ずFOOTERの`Final check before rendering:`パラグラフだけを置く。画像生成AIが指示していないにもかかわらず、最後のカードの下に「正解のまとめ」「トロフィー・メダルのアイコン付きの正誤一覧」「肢ごとの○×を再掲するグリッド」といった**独自の追加サマリーパネル**を描き足してしまう事故が実際に発生した（ユーザー提示のスクリーンショットで確認）。これを防ぐため、`Final check before rendering:`パラグラフに、「最後のカード／パネルの後には、追加のサマリーパネル・トロフィーやメダルのアイコン・正誤を再掲する○×グリッド・その他いかなる文字ブロックも描画しない（confirm nothing is rendered below the last card/panel — no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind）」という趣旨の一文を必ず含める。過去に作成したプロンプトにこの一文がない場合は、発見しだい追記する。
 
 **簡体字注意文の画像内描画事故（2026-09-11判明・再発防止）**：FOOTER直前に「注意：特に「共」「担」「保」…の各漢字は、簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。」のような、独立した日本語の注意喚起文を1文だけ置く運用を一部の記事で行っていたところ、画像生成AIがこの文自体を**指示ではなくポスター上の可視テキストとして描画してしまう**事故が実際に発生した（ユーザー提示のスクリーンショットで確認）。原因は、この注意文が日本語であるため、プロンプト中の他の「そのまま描画すべき日本語ラベル」と区別がつかず、画像生成AIに指示ではなく描画対象の文字列として解釈されたことにある。英語で書かれた`Final check before rendering:`以降の段落は指示文として認識され描画されない一方、独立した日本語の一文はその保護を受けられない。**再発防止策**：漢字個別の注意喚起は、独立した日本語の文としてプロンプトのどこにも置かず、必ず英語の`Final check`パラグラフに埋め込む（例：`Final check before rendering: scan every kanji glyph, paying special attention to 共・担・保・録・登・記・筆・仮, and confirm each is in standard Japanese (Jōyō) form, not Simplified Chinese.`のように、漢字リストを英文の一部として文中に挿入する）。過去に作成した記事のプロンプトでこのパターン（FOOTER直前の独立した日本語「注意：」文）が見つかった場合は、発見ししだいこの形式に修正する。
 
@@ -352,9 +358,12 @@ Subtitle (smaller, centered):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
 heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters, and
-confirm the entire canvas, edge to edge, is filled with a fully opaque
-background with no transparency or alpha channel anywhere.
+above verbatim, with no paraphrasing and no substituted characters,
+confirm nothing is rendered below the FOOTER's small footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
 
 ---
@@ -492,7 +501,9 @@ continuously, there is no intro illustration or paragraph block between
 the header and the panels, that every multi-condition 肢 is drawn as an
 actual flowchart with branch nodes (not a bare illustration with no
 visible decision structure), that each 着眼点 callout states a checking
-order rather than only a conclusion, and confirm the entire canvas, edge
-to edge, is filled with a fully opaque background with no transparency or
-alpha channel anywhere.
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with
+a fully opaque background with no transparency or alpha channel anywhere.
 ```
