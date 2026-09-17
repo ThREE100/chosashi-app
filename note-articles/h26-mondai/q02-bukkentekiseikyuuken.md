@@ -48,6 +48,18 @@
 
 **たとえば**、Aさんの所有する建物を、権原のないBさんが、さらに第三者Cさんに賃貸して占有させていたとします。この場合、Aさんは実際に建物を使っているCさんだけでなく、それを貸し出したBさんに対しても、所有権に基づく返還請求権を行使することができます。
 
+**ここが分かりにくいポイント**：
+「返還請求は、今実際にその物を持っている人にするもの」と読んだ時点で、Cさんが現に建物に住んでいるのだから、返還請求の相手はCさんだけのはずだ、と考えて、そこで思考を止めてしまいがちです。しかし、民法が定める「占有」には、自分の手元に物を置いて支配する場合だけでなく、人に貸すなどして間接的に物を支配する場合も含まれます（民法181条）。
+
+次の手順で考えると、迷わず結論にたどり着けます。
+
+1. まず、「占有」には2種類あることを思い出します。自分が実際に物を持っている**直接の占有**と、他人（賃借人など）に物を使わせることで間接的に物を支配している**代理占有**（民法181条。一般には「間接占有」とも呼ばれます）です。
+2. 無権原の賃貸人Bは、Cに建物を使わせているという形で、この代理占有を有していると考えられます。物を直接手にしていなくても、法律上は「占有者」として扱われるのです。
+3. 所有権に基づく返還請求権は「占有者」に対して行使できる権利であり、この「占有者」には直接占有している人だけでなく、代理占有している人も含まれます。
+4. したがって、Aさんは実際に建物を使っているCさんだけでなく、それを貸し出したBさん自身に対しても、返還請求権を行使することができます。Bへの請求が認められれば、BがCとの賃貸借契約を解消するなどして、最終的に建物の明渡しが実現されるという仕組みです。
+
+同じ問題の肢イでは、無権原で直接住み着いている不法占有者（直接占有者）1人だけが登場する単純な場面でした。肢オはそこに「直接は持っていないが、占有者として扱われる人（代理占有者）」という発想を1段階加えた応用パターンだと考えると、整理しやすくなります。
+
 ### まとめ
 
 - **ア（誤）**　所有権に基づく物権的請求権は消滅時効にかからない
@@ -69,6 +81,7 @@
 - 各肢の法的根拠のうち、ア（物権的請求権は所有権の存続する限り時効消滅しないという確立した判例・通説）とウ（妨害排除請求権の行使に故意・過失を要しないという物権的請求権の性質）は判例・学説上確立した原則です。エ（占有の訴えに対する本権に基づく反訴の可否、民法202条2項の解釈に関する判例）とオ（賃貸人に対する返還請求の可否）についても判例の立場に沿った内容ですが、条文の直接的な文言というより判例の趣旨からの整理となっている点にご留意ください。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。物権的請求権（消滅時効・故意過失の要否・反訴・賃貸人への返還請求）がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-06再実施）**：物権的請求権に関する判例法理（消滅時効にかからないこと、故意過失を要しないこと等）を対象に、`note-articles/laws/minpou-1-soukyoku-bukken.md`に保存した民法の現行条文（2026-08-04取得）とあわせて再確認しましたが、これらの判例・学説上確立した原則を変更する法改正は見当たらず、各肢の結論に変更はありません。
+- **分かりにくいポイントの追加（2026-09-17）**：オ肢について、正誤の結論には納得できても、なぜ無権原の賃貸人Bまで返還請求の相手方になるのか自力でたどり着けなかった、というフィードバックを受け、直接占有と代理占有（民法181条）の区別に焦点を当てた補足解説を本文に追加しました。民法181条（代理占有）の条文本文は`laws/minpou-1-soukyoku-bukken.md`（「### 第181条」の項）から実際にGrep・Readして確認済みです。あわせて、この理解の助けとなる「間違いノート型」インフォグラフィックのプロンプトを追記しました。正誤判定・正解の組合せ自体（アウの組合せ、選択肢2番）は変更していません。
 
 ---
 
@@ -133,12 +146,17 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 所有権がある限り時効で消えない
 Illustration: An isometric land plot with a storage shed placed on the
-corner by a neighbor character B. A timeline arrow beneath shows "10年"
-with a red X crossing out a clock icon, meaning time does not run out.
-Owner character A stands pointing at the shed with an arrow labeled
-"撤去請求" that continues indefinitely along the timeline.
+corner by a neighbor character B. Owner character A stands pointing at the
+shed with an arrow labeled "撤去請求". Directly beside the arrow, draw a
+large infinity symbol "∞" together with a clock/hourglass icon that has a
+thick red X drawn across its entire face (crossing out the whole clock,
+not just a portion of it), with a small label "所有権があるかぎり" next to
+the infinity symbol. Do NOT include any specific number of years (such as
+"10年") anywhere in this card's illustration or labels — the point is that
+no amount of elapsed time ever extinguishes this right, and showing a
+numeric year count risks being misread as a time limit.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-時効消滅なし
+何年でも消えない
 
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
@@ -202,4 +220,110 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・間違いノート）
+
+肢オで読者がつまずきやすいのは、「返還請求は、今実際にその物を持っている人にするもの」という思い込みで思考が止まり、貸し出しただけで直接は物を持っていないBさんへの請求を見落としてしまう点です。占有には直接占有と代理占有（民法181条）の2種類があり、代理占有者も「占有者」として返還請求の相手方になるという2段階の判定過程を、決定木の形で示します。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 占・有・代・理・請・求・
+権・貸・賃・借 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart/comparison — with a solid or
+illustrated opaque background. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere in the
+final image.
+
+--- HEADER ---
+Title (large, bold):
+「貸しただけの人」にも返還請求できる理由
+
+Subtitle (smaller, centered):
+平成26年度 午後の部 第2問 オ－代理占有者への返還請求
+
+--- FLOWCHART ---
+Start node (rectangle, isometric building icon):
+Aさんの建物を、無権原のBさんがCさんに賃貸して住まわせている
+
+Down arrow to Decision node 1 (diamond icon):
+Cさんに返還請求できるか？
+
+Branch (green checkmark, short side note):
+Cは実際に建物を使っている「直接占有者」→ 請求できる（○）
+
+Down arrow to Decision node 2 (diamond icon, larger, the main point of
+this panel):
+では、貸し出しただけで実際には住んでいないBさんにも返還請求できるか？
+
+Branch left (labeled「ありがちな誤答」, red X icon, muted gray-red panel):
+Bは物を直接持っていないから、請求の相手にはならないはず（✕）
+
+Branch right (labeled「正しい判定ステップ」, green checkmark icon, green
+panel), listing the following 2 steps in order, each as its own line with
+a small numbered badge (1, 2):
+1. Bは、Cに建物を使わせることで占有をコントロールしている（代理占有、民法
+181条）
+2. 代理占有をしている人も「占有者」にあたる → Bも請求の相手方になる（○）
+
+Down arrow from the right branch to Result node (rounded rectangle,
+highlighted in green):
+結論：Aさんは、Cさんだけでなく、Bさんにも返還請求できる
+
+--- CALLOUT: 誤りやすいポイント ---
+「占有者＝実際に物を持っている人」という思い込みで止まると、貸し出した
+だけのBさんへの請求を見落とします。占有には、自分の手元に物を置いて
+支配する「直接占有」と、他人に使わせることで間接的に物を支配する
+「代理占有」（民法181条）があり、代理占有をしている人も「占有者」として
+返還請求の相手方になります。
+
+--- COMPARISON: 同じ問題の肢イとの違い ---
+Left panel (heading「肢イ：直接占有者だけが登場する場面」):
+不法占有者C本人が土地に住み着いているだけの単純な場面。Cへの直接請求のみ
+が問題になる。
+
+Right panel (heading「肢オ：代理占有者Bも登場する応用パターン」):
+Cに加えて、Cに使わせているだけのBも登場する。Cへの直接請求だけでなく、
+Bへの請求（代理占有者への請求）まで問われる。
+
+--- FOOTER ---
+
+根拠条文：民法181条（代理占有）。判例・先例の具体的な番号はここには書か
+ない。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, node label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters,
+confirm nothing is rendered below the FOOTER's small footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
