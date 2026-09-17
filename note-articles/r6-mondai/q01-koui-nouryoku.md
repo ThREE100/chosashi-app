@@ -48,6 +48,17 @@
 
 **たとえば**、被保佐人であるAさんが保佐人の同意なしに高額な売買契約を結んでしまった場合、契約の相手方は「この契約を追認するのかしないのか、はっきりしてください」と保佐人に催告することができ、保佐人が期間内に返事をしなければ、その契約は追認されたものとして扱われます。
 
+**ここが分かりにくいポイント**：
+
+「催告しても返事がないなら、何もしなかったのと同じだから、契約は無効になる（取り消したことになる）はずだ」と考えてしまいがちです。無視・放置に対してペナルティを与えるなら、契約をなかったことにする方が自然に感じられるためです。
+
+しかし民法20条は、催告の相手が誰かによって、無回答の効果が正反対になるという少しトリッキーな作りになっています。
+
+1. 行為能力者となった本人、または法定代理人・保佐人・補助人に対して「追認するかどうか」を催告した場合（20条1項・2項）：期間内に確答がなければ、追認したものとみなされます。
+2. まだ制限行為能力者のままの本人に対して「保佐人等の追認を得るべき旨」を催告した場合（20条4項）：期間内に追認を得た旨の通知がなければ、取り消したものとみなされます。
+
+本肢の催告先は「保佐人」であるため、まだ制限行為能力者のままの本人に対する催告（20条4項）ではなく、保佐人に対する催告（20条2項）が適用され、無回答は追認とみなされます。「相手が誰かによって結論が逆転する」という点を機械的に整理した記事（`note-articles/column/saikokuken-4pattern.md`）もあわせてご参照ください。
+
 ### まとめ
 
 - **ア（誤）** 後見開始の審判の効力は遡及しないため、審判前の契約は取り消せない
@@ -70,6 +81,7 @@
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - 肢オ（被保佐人への催告、民法20条2項）が扱う「催告」は、20条1項〜4項の4パターンで「誰に催告したか」により無回答の効果が正反対になる、この分野で最も狙われやすい論点です。4パターンをまとめて整理した記事を `note-articles/column/saikokuken-4pattern.md` に追加しましたので、あわせてご参照ください。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）で、本問（行為能力・制限行為能力者の取消し）と同一・類似の問題が再出題されていないかを確認しました。令和7年度第1問は「意思表示」（心裡留保・虚偽表示等）がテーマで、本問とは異なる論点であり、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **2026-09-17追記（肢オ・間違いノート型補足の追加）**：読者から肢オの結論に自力でたどり着けなかったというフィードバックを受け、「ここが分かりにくいポイント」を追加しました。「催告して返事がなければ契約は無効（取消し）になるはずだ」という直感と、実際には催告の相手（行為能力者となった本人・法定代理人・保佐人・補助人か、まだ制限行為能力者のままの本人か）によって無回答の効果が正反対になるという民法20条の構造とのズレを、条文原文（1項・2項・4項）を引用しつつ整理し、既存の`column/saikokuken-4pattern.md`（4パターン整理記事）への参照を本文中にも追加しました。あわせて対比型の個別インフォグラフィック（間違いノート型）を1枚新規作成しました。タイトルのキャッチフレーズは、既存の「日用品の買い物は悪意でも取消し不可」が肢エを指すものですが、今回分かりにくいと判明したのは1肢（オ）のみであり、他の4肢を的確に表す既存タイトルを差し替える必要性は乏しいと判断し、変更していません。本文中の各肢の正誤判定・まとめの表・正解番号はいずれも変更していません。
 
 ---
 
@@ -209,4 +221,113 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・間違いノート）
+
+オ（相手方が保佐人に催告し、無回答なら追認とみなされる＝本肢は正しい）について、「催告して返事がなければ契約は無効（取消し）になるはずだ」という直感と、催告の相手が誰かによって無回答の効果が正反対になるという民法20条の構造とのズレを解消するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、条文の引用・説明文を制限なく配置している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, red, beige, gray), rounded panel sections, consistent with
+the same visual language as the whole-problem poster for this article
+（制限行為能力者の取消しルール「誰が」「いつ」「どこまで」）, but built as
+a single detailed explainer panel rather than a multi-card poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who assume that no reply to a
+催告 (formal demand for a response) always results in the contract being
+treated as cancelled. Unlike a quick-reference poster, this image MAY
+include side-by-side comparisons with quoted article text, and short
+explanatory sentences (1-3 sentences per callout box) labeled 誤りやすい
+ポイント. Prioritize clarity and completeness of the reasoning over
+brevity. Do not compress the callout text or the quoted article text into
+short tags — write them out exactly as given below.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+催・告・追・認・保・佐・補・助・法・定・代・理 — always draw the standard
+Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 2行):
+返事がなければ、
+いつも取消しとは限らないんです
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第1問 オ
+催告の相手で無回答の効果が逆転する
+
+--- LEFT PANEL (red background, 直感的な誤解) ---
+Panel heading (bold):
+無視されたら不利になるはず（誤った思考）
+
+Illustration (isometric scene inside the panel):
+An isometric figure（契約の相手方）holding a letter icon labeled「催告書」，
+sending it toward a 保佐人 figure who stands silently with no response
+icon (a faded speech bubble with a question mark). An arrow points from
+the silence to a document stamped「契約は無効（取消し）」with a red ✕ mark
+on a checkmark icon, symbolizing the incorrect assumption that silence
+always favors cancellation.
+
+Panel conclusion (bold, red banner):
+無回答なら取消しのはず
+
+--- RIGHT PANEL (green background, 条文が定める本当のルール) ---
+Panel heading (bold):
+催告の相手で結論が変わる（正しい思考）
+
+Illustration (isometric scene inside the panel):
+Two side-by-side mini-scenes. Left mini-scene: the same letter icon
+「催告書」sent to a 保佐人 figure (labeled「法定代理人・保佐人・補助人へ
+の催告」), with a clock icon counting down to zero and an arrow pointing
+to a document stamped「追認」with a green checkmark. Right mini-scene: the
+same letter icon sent directly to a 被保佐人 figure who has not yet become
+an 行為能力者 (labeled「制限行為能力者本人への催告（保佐人等の追認を得
+るべき旨）」), with the same clock counting down to zero and an arrow
+pointing to a document stamped「取消し」with a red ✕ mark.
+
+Quoted article text (rendered exactly, in a bordered box):
+「制限行為能力者の相手方が、制限行為能力者が行為能力者とならない間に、
+その法定代理人、保佐人又は補助人に対し…催告をした場合において、これら
+の者が…期間内に確答を発しないときも、同項後段と同様とする。」（民法20
+条2項）
+「制限行為能力者の相手方は、被保佐人又は…被補助人に対しては、…その保
+佐人又は補助人の追認を得るべき旨の催告をすることができる。この場合に
+おいて、その被保佐人又は被補助人が…その追認を得た旨の通知を発しない
+ときは、その行為を取り消したものとみなす。」（民法20条4項）
+
+Panel conclusion (bold, green banner):
+保佐人への催告は無回答＝追認
+
+--- CALLOUT BOX: 誤りやすいポイント (below both panels, pastel yellow
+background, full width) ---
+「催告しても返事がないなら、何もしなかったのと同じだから、契約は無効
+になる（取り消したことになる）はずだ」と考えてしまいがちです。しかし
+民法20条は、催告の相手が誰かによって無回答の効果が正反対になります。
+行為能力者となった本人、または法定代理人・保佐人・補助人に催告した場
+合（20条1項・2項）は無回答なら追認とみなされ、まだ制限行為能力者のま
+まの本人に「保佐人等の追認を得るべき旨」を催告した場合（20条4項）だ
+け、無回答なら取消しとみなされます。本肢の催告先は「保佐人」なので20
+条2項が適用され、無回答は追認とみなされます。
+
+--- FOOTER ---
+根拠：民法20条2項・4項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, especially
+催・告・追・認・保・佐・補・助・法・定・代・理. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm there are exactly two side-by-side panels (red 直
+感的な誤解 on the left, green 条文が定める本当のルール on the right),
+confirm the quoted text boxes match the Japanese text given above verbatim
+character-for-character, and confirm the callout box text matches
+verbatim with no paraphrasing and no substituted characters.
 ```
