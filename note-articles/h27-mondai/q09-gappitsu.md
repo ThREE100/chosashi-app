@@ -52,6 +52,23 @@
 
 **なぜこの仕組みが有効なのか**：合筆・合体・建物の合併は、複数の登記記録を一つにまとめてしまう、権利関係への影響が大きい手続きです。そのため、通常の表示に関する登記とは異なり、申請書には実印による記名押印と、その印鑑が実印であることを裏づける印鑑証明書の添付が求められます。この印鑑証明書は、「今回の申請書に押された印影が、確かに申請人本人の実印によるものである」ことを、その1件の申請について裏づける証拠として提出されるものです。登記所は、この証拠となる原本そのものを手元に残しておくことで、後になって申請の真正性が問題になったときにも、コピー（謄本）ではなく実際の証明書そのもので確認できるようにしています。実務では、土地家屋調査士が合筆の登記を依頼者から受任するとき、この印鑑証明書は原本が返ってこないことをあらかじめ説明したうえで、依頼者が別の手続き（金融機関での手続きなど）でも同時期に印鑑証明書を必要とする予定があるかを確認し、必要であれば登記所に提出する分とは別に、市区町村役場で多めに取得しておいてもらうよう案内するのが実務上の一般的な対応です。
 
+**ここが分かりにくいポイント**：
+
+これまでの解説を読んで、「合筆の登記だから、印鑑証明書は特別に還付できないルールになっているのだ」と、合筆という手続き固有の特別ルールとして丸暗記しようとしていませんか。それでは、合体や建物の合併など似た場面が出てきたときに、また一から覚え直すことになってしまいます。実は、この結論はもっと汎用的な原則と例外の枠組みから導けます。
+
+添付書面の原本還付は、まず「原則としてできる」というところから出発します（不動産登記規則55条1項本文）。書面申請をした申請人は、添付した戸籍謄本や証明書などの原本を、基本的にはすべて返してもらえるのです。
+
+この原則には、例外が2つだけあります（同項ただし書）。
+
+1. 記名押印が必要とされる場面で、その記名押印を裏づけるために添付された印鑑証明書（不動産登記令16条2項・18条2項・19条2項等）
+2. その1件の申請のためだけに作成された委任状その他の書面
+
+本肢の印鑑証明書は「委任状に押印した申請人の印鑑に関する証明書」ですから、この2つの例外のうち①（委任状に記名押印した本人の印鑑証明書、不動産登記令18条2項）に当てはまります。
+
+では、なぜ合筆の登記で委任状に記名押印（署名だけでは足りない）が必要になるのでしょうか。所有権の登記名義人は、原則として委任状に署名するだけで足りますが、合筆の登記、合体による登記等、建物の合併の登記を申請するときだけは、記名押印が必要とされています（不動産登記規則47条3号イ（6））。つまり、合筆等は、記名押印が必要とされる6つの場面（同号イ（１）から（６）まで）のうちの1つにすぎません。「合筆だから特別」なのではなく、「記名押印が必要な場面に、たまたま合筆・合体・建物の合併が含まれている」という順番で理解すると、他の場面にも応用できる知識になります。
+
+原本還付のルール全体を、原則から4つの例外まで整理して知りたい方は、個別テーマ記事「原本還付、できる書面とできない書面を全部整理」（`note-articles/topics/genpon-kanpu.md`）もあわせてご参照ください。
+
 ### まとめ
 
 - **ア（正）**　合筆を申請できるのは登記名義人。移転登記を受けてからでないと申請不可
@@ -71,10 +88,12 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（5番＝ウ・オ、いずれも“誤っている”肢）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠（ア＝不動産登記法39条1項、イ＝不動産登記規則62条2項、ウ＝不動産登記令3条12号、エ＝不動産登記令4条ただし書、オ＝不動産登記規則55条1項ただし書）は、データベースのexplanation欄に明記されているものを用いています。印鑑証明書の還付制限の項番号は同欄の記載に基づきます。
-- **現行法チェック（条文原文で確認）**：オの根拠条文について、法令原文（`note-articles/laws/fudousan-touki-kisoku-1.md`）で確認したところ、規則55条1項ただし書は「令16条2項…の印鑑に関する証明書」を原本還付の対象外としており、規則47条3号イ（6）は「合筆の登記、合体による登記等又は建物の合併の登記」を、委任による代理人が申請書に署名する場合を除き申請人本人の記名押印（＝令16条2項の印鑑証明書添付）を要する場合として掲げています。この2条文により、合筆の登記で提供する印鑑証明書が原本還付できないことが条文上確認できました。結論は変わりません。
+- **現行法チェック（条文原文で確認）**：オの根拠条文について、法令原文（`note-articles/laws/fudousan-touki-kisoku-1.md`）で確認したところ、規則55条1項ただし書は「令16条2項、第18条第2項若しくは第19条第2項…の印鑑に関する証明書」を原本還付の対象外としており、規則47条3号イ（6）は「合筆の登記、合体による登記等又は建物の合併の登記」を、委任による代理人が申請書に署名する場合を除き記名押印を要する場合として掲げています。この2条文により、合筆の登記で提供する印鑑証明書が原本還付できないことが条文上確認できました。結論は変わりません。
+- **オの根拠条文の精緻化（間違いノート追加時に判明）**：上記の当初の記載は「令16条2項の印鑑証明書」とのみ述べていましたが、令16条2項は「申請書」自体に記名押印した者の印鑑証明書に関する規定であるのに対し、本肢の印鑑証明書は「委任状に押印した申請人の印鑑に関する証明書」であり、委任状（代理人の権限を証する情報を記載した書面）への記名押印を定める不動産登記令18条2項がより直接の根拠です（委任による代理人が申請書自体に署名する場合、申請書について16条2項の印鑑証明書が問題になる場面はそもそも生じません）。合筆の登記の申請人は、規則47条3号イ（6）に該当することから、規則49条1項2号の「署名で足りる」という除外に当てはまらず、委任状にも記名押印（＝令18条2項の印鑑証明書添付）が必要になります。個別テーマ記事「原本還付、できる書面とできない書面を全部整理」（`note-articles/topics/genpon-kanpu.md`）でも、この2つの印鑑証明書（令16条2項＝申請書、令18条2項＝委任状）が別の場面として整理されており、同記事とも整合します。結論（オは誤り＝原本還付を請求できない）自体は変わりません。
 - **エ・オの補足説明について**：エ（一の申請情報でまとめて申請できる理由）とオ（印鑑証明書が原本還付できない理由）について、なぜそのような仕組みになっているのかが実感しにくいという点を踏まえ、条文（不動産登記令4条本文・ただし書、不動産登記規則47条3号イ（6）・55条1項ただし書）の構造に基づく理由と、土地家屋調査士の実務での対応（複数筆をまとめて依頼された場合の申請書作成、依頼者への印鑑証明書の追加取得の案内）を補足しました。結論はいずれも変わりません。
 - **オの補足説明の訂正**：オの補足説明について、当初「印鑑証明書は他の手続きに転用できないから返却されない」という説明にしていましたが、これは筋が通っていない説明でした（他の手続きでも使えるからこそ原本を返してほしい、という申請人側の事情と矛盾します）。正しくは、印鑑証明書は「今回の申請書の押印が本人の実印によるものであることを裏づける証拠」として登記所に残される一方、印鑑証明書自体は市区町村役場で原本を複数枚まとめて発行してもらえる書類であるため、法は「原本を返す代わりにコピーを残す」という一般的な原本還付の仕組みをこの書類には採用せず、複数の用途で必要ならあらかじめ多めに取得しておくことを前提にしている、という説明に修正しました。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（合筆の登記の申請人・登記識別情報・印鑑証明書の還付）と同一・類似の問題が再出題されていないかを確認しました。**部分的な重複が見つかりました**：本問ウ（登記識別情報を提供できない理由は申請情報に記載すれば足り、証明情報は不要）と同じ論点が、令和元年度第8問エに近い形で出題されています。「合筆の登記」は平成28年度第10問・平成29年度第14問・令和2年度第10問・令和4年度第9問・令和6年度第9問など、ほぼ毎年出題される定番テーマですが、これらは主に合筆の要件・添付情報の細目を扱っており、本問が扱う申請人適格・登記識別情報の通知・印鑑証明書の還付制限とは論点が異なるものが大半でした。将来この年度についてnote記事を作成する際は、令和元年度第8問との重複に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **肢オに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：肢オの結論に自力でたどり着けなかったというフィードバックを受け、「なぜこの仕組みが有効なのか」段落の直後に「ここが分かりにくいポイント」を追加しました。「合筆の登記だから印鑑証明書が特別に還付できない」という手続きの種類に原因を求める丸暗記ではなく、原本還付の一般原則（不動産登記規則55条1項本文）とその2つの例外（記名押印を要する場面の印鑑証明書、その申請のためだけに作成された書面。同項ただし書）という枠組みの中で、合筆・合体・建物の合併が「記名押印が必要な6つの場面（規則47条3号イ（1）〜（6））のうちの1つ」にすぎないことを整理しています。個別テーマ記事「原本還付、できる書面とできない書面を全部整理」（`note-articles/topics/genpon-kanpu.md`）へのリンクを本文中に追加しています（`note-articles/link-map/h27-related-articles.md`の第9問の「個別テーマ記事」欄も更新済み）。この過程で、既存の「現行法チェック」注記が引用していた根拠条文（令16条2項）が、本肢の印鑑証明書（委任状に押印したもの）の直接の根拠としては不正確であったことも判明し、正確な根拠（令18条2項）に訂正しました（詳細は上記のオの根拠条文の精緻化を参照）。個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズ（合筆の印鑑証明、返してもらえない）は、もともと肢オの結論を捉えたものであったため、変更していません。なお、正誤判定・正解の組合せ（5番＝ウ・オ）自体は変更していません。
 
 ---
 
@@ -413,4 +432,114 @@ panels, stacked vertically and connected by one downward arrow showing
 the flow from Panel 1 to Panel 2, with no duplicated or missing panels,
 and confirm every heading and caption text matches the Japanese text
 given above verbatim, with no paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・間違いノート）
+
+肢オの結論（合筆等で提供する印鑑証明書は原本還付を請求できない）に自力でたどり着けなかった読者向けに、「合筆だから特別」という誤解を、原則と例外の枠組みで解きほぐす間違いノート型の解説図解。②の俯瞰ポスターやオ肢・図解（原本が証拠として残る理由の説明）とは別物で、文字量・条文引用の制限を設けていない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include a flowchart with written
+conditions and short explanatory sentences (1-3 sentences per callout box)
+labeled 「誤りやすいポイント」or similar. Prioritize clarity and
+completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+原・則・例・外・還・付・印・鑑・証・明・書・記・名・押・委・任・状・合・筆・体・併 —
+always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background.
+There must be no checkerboard pattern, no partially transparent area, and
+no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold):
+合筆だから特別、ではないんです
+
+Subtitle (smaller, centered):
+平成27年度 午後の部 第9問 オ－原本還付の原則と例外
+
+--- FLOWCHART (three panels stacked vertically, connected by downward arrows) ---
+
+PANEL 1 (top, green, labeled 原則):
+Heading: 添付書面は原本を返してもらえる
+Illustration: An isometric applicant figure receiving a stack of original
+documents back from a registry clerk with a green checkmark stamp.
+Quoted text box: 書面申請をした申請人は、添付書面の原本の還付を請求する
+ことができる
+Small citation tag: 不動産登記規則55条1項本文
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, with a small label 「ただし、2つだけ
+例外がある」 beside it.
+
+PANEL 2 (middle, blue, labeled 例外):
+Heading: 2つの例外に当てはまると還付できない
+Illustration: Two labeled boxes side by side: Box A shows a document
+stamped 「記名押印」 with a 印鑑証明書 clipped to it; Box B shows a
+document labeled 「この申請専用」 with a torn-off, one-time-use visual
+motif (e.g. a ticket stub).
+Quoted text box:
+①記名押印を裏づける印鑑証明書（令16条2項・18条2項・19条2項）
+②その申請のためだけに作成された委任状その他の書面
+Small citation tag: 不動産登記規則55条1項ただし書
+
+--- DOWNWARD ARROW ---
+A bold vertical arrow pointing down, with a small label 「本肢は」 beside
+it.
+
+PANEL 3 (bottom, orange, marked as the applicable case):
+Heading: 合筆は記名押印が必要な6類型の1つ
+Illustration: A row of six small icons representing six listed scenarios
+(regulation 47-3-i (1) through (6)), with the sixth icon — labeled
+「合筆・合体・建物の合併」 — highlighted with an orange ring, showing it is
+just one of six, not a unique rule. An arrow from the highlighted icon
+points to a 委任状 document with a 印鑑証明書 clipped to it, both stamped
+with a red X over a hand trying to take the certificate back.
+Quoted text box: 委任状にも記名押印が必要になり、その印鑑証明書
+（令18条2項）は還付できない
+Small citation tag: 不動産登記規則47条3号イ（6）
+
+--- CALLOUT: 誤りやすいポイント ---
+「合筆だから印鑑証明書が特別に還付できない」と手続きの種類で丸暗記する
+のではなく、「記名押印を要する6つの場面のどれかに当てはまるかどうか」
+という一般的な物差しで判断すると、合体・建物の合併など似た場面にも
+そのまま応用できます。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第9問　オ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 原・則・例・外・還・付・印・鑑・証・明・書・記・名・押・委・任・状・合・筆・体・併.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm there are exactly 3
+panels, stacked vertically and connected by two downward arrows showing
+the flow from Panel 1 to Panel 2 to Panel 3, with no duplicated or
+missing panels, confirm nothing is rendered below the FOOTER's small
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid, and no additional text block of any kind), and
+confirm the entire canvas, edge to edge, is filled with a fully opaque
+background with no transparency or alpha channel anywhere.
 ```
