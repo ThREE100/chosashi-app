@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成27年度 第8問〜地番区域が違えば隣でも合筆不可〜
+## 【土地家屋調査士受験生向け】平成27年度 第8問〜字の誤りと図面の誤り、直し方が違うんです〜
 
 **出題年度：平成27年度　午後の部　第8問**
 
@@ -30,11 +30,40 @@
 
 **たとえば**、本当は「東町」なのに登記記録に「西町」と誤って字（あざ）が記録されていた場合、その土地の所有権の登記名義人は、正しい字に直すための表題部の更正の登記を申請できます。
 
+**ここが分かりにくいポイント**：
+
+「表題部の更正登記」と聞くと、「表題部」という言葉につられて、「表題部に関する登記の申請人は表題部所有者に決まっている」と思い込んでしまいがちです。そのうえで、本肢に出てくるのは「所有権の登記名義人」であって「表題部所有者」ではないため、「この人は申請人にあたらないから、更正登記は申請できないはずだ」と考えて、そこで思考を止めてしまうのが典型的なつまずき方です。
+
+しかし、「表題部所有者」と「所有権の登記名義人」は、まったく別の2種類の人を指しているわけではありません。次の順番で考えると整理しやすくなります。
+
+1. 表題部所有者とは、その不動産についてまだ所有権の登記（保存登記）がされていない段階で、表題部に「所有者らしい」と記録されている人のことです（不動産登記法2条10号）。
+2. その後、所有権保存登記がされると、その人は権利部甲区に「所有権の登記名義人」として記録されるようになります。つまり、同じ人物が、所有権登記の有無によって「表題部所有者」と呼ばれたり「所有権の登記名義人」と呼ばれたりしているだけで、別人に交代しているわけではありません。
+3. 不動産登記法38条は、地番区域である字を含む一定の登記事項の更正登記について、「表題部所有者又は所有権の登記名義人以外の者は、申請することができない」と定めています。この書き方は、所有権登記の有無にかかわらず、どちらの立場の人でもこの更正登記を申請できることを前提にしたものです。
+
+つまり、本肢の「所有権の登記名義人」は、38条がまさに申請人として想定している立場そのものであり、「表題部所有者でなければ申請できない」という理由づけは成り立ちません。「表題部」という名前に引っ張られず、「その不動産の所有者としての地位にある人」というくくりで考えると、迷わず判断できます。
+
+「表題部所有者」と「所有権の登記名義人」の違いをより詳しく知りたい方は、個別テーマ記事「『表題部所有者』と『所有権の登記名義人』、何がどう違う？」（`note-articles/column/hyoudaibu-shoyuusha-vs-toukimeigijin.md`）もあわせてご参照ください。
+
 ### ウ：地積測量図の地番の誤りを直す申出では、訂正後の図面を提供する
 
 土地所在図や地積測量図に誤りがあるときは、表題部所有者もしくは所有権の登記名義人またはその相続人その他の一般承継人が、そのうちの1人から訂正の申出をすることができます（不動産登記規則88条1項）。そして、この訂正の申出をする際には、訂正後の図面を提供しなければなりません（同条2項）。本肢は正しい記述です。
 
 **たとえば**、備え付けられている地積測量図の地番が間違っていたときは、「ここが誤りです」と指摘するだけでなく、正しく直した地積測量図を作って添えて申し出ます。
+
+**ここが分かりにくいポイント**：
+
+イの解説を読んだ直後だと、「地番の誤り」と聞いて「これも同じように更正の登記をするのだろう」と考えてしまいがちです。しかし、本肢が扱っているのは、登記記録（表題部）そのものの記載ではなく、登記所に備え付けられている「地積測量図」という図面上の記載の誤りです。この違いに気づかないまま読み進めると、「訂正の申出」という別の手続きがあることに気づけず、判断に迷ってしまいます。
+
+さらに、「訂正の申出」という言葉から、「誤りを指摘すれば、あとは登記所側が直してくれる」というイメージを持ってしまうのも、もう一つのつまずきどころです。実際には逆で、訂正の申出をする側が「訂正後の正しい図面」自体を作成して提供しなければなりません（不動産登記規則88条2項）。「誤りを指摘するだけの手続き」ではなく、「正しい図面を用意して置き換えてもらうための手続き」だとイメージすると理解しやすくなります。
+
+この2つの手続きの関係を整理すると、次のようになります。
+
+- 登記記録（表題部の登記事項）そのものに誤りがある場合：更正の登記で正します（イで見たとおり、申請できるのは表題部所有者または所有権の登記名義人です）。
+- 添付されている図面（土地所在図・地積測量図・建物図面・各階平面図）だけに誤りがあり、登記記録自体は誤っていない場合：訂正の申出で正します。しかも、その誤りについて更正の登記をすることができるときは、訂正の申出を使うことはできません（不動産登記規則88条1項ただし書）。
+
+つまり、「登記記録の誤りか、添付図面だけの誤りか」をまず切り分けることが、更正の登記と訂正の申出のどちらを選ぶべきかを判断する第一歩になります。また、訂正の申出をすることができる人には、表題部所有者・所有権の登記名義人に加えて、これらの相続人その他の一般承継人も含まれており（同条1項）、更正の登記の申請人よりもやや範囲が広いことも押さえておきましょう。
+
+図面の訂正の申出のルールについては、個別テーマ記事「建物図面・各階平面図の提供要否 早見表」（`note-articles/topics/tatemonozumen-teikyou-yohi.md`）でも扱っていますので、あわせてご参照ください。
 
 ### エ：不動産番号を提供すれば、分筆前の土地の地番の記載は省略できる
 
@@ -72,6 +101,7 @@
 - **現行法チェック（条文原文で確認）**：イの根拠条文について、法令原文（`note-articles/laws/fudousan-touki-hou.md`）で確認したところ、不動産登記法38条は「第27条第1号・第2号・第4号又は第34条第1項第1号・第3号・第4号に掲げる登記事項に関する更正の登記は、表題部所有者又は所有権の登記名義人以外の者は、申請することができない」と規定しており、34条1項1号（土地の所在する市・区・郡・町・村及び字＝地番区域を構成する字）が含まれているため、地番区域（字）の誤りについても所有権の登記名義人が更正の登記を申請できることが条文上確認できました。結論は変わりません。
 - **エの補足説明について**：不動産番号による省略の仕組みが有効な理由（登記記録を一意に特定できるため、所在・地番等の転記が不要になること）と、土地家屋調査士の実務での使い方（登記事項証明書の不動産番号を確認して地番の転記ミスを避ける）を補足しました。あわせて、この省略が使えるのは既に不動産番号が付いている既登記の不動産に限られ、表題登記のように登記記録が存在しない不動産には使えないこと（不動産登記規則34条4項）も付記しています。結論（本肢は誤り＝地番の記載は省略できる）自体は変わりません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（地番・地番区域の取扱い）と同一・類似の問題が再出題されていないかを確認しました。「地番」を扱う問題は令和3年度第9問（地番又は家屋番号）・令和元年度第19問（合筆の履歴と地番）にもありますが、いずれも具体的な数字を用いた地番の変遷や家屋番号との関係を問う内容で、本問の5つの論点（符号を含む地番の申請時の記載、地番区域の誤りに対する更正の申請適格、地積測量図の地番訂正、不動産番号による記載省略、地番区域が異なる土地の合筆の可否）とは異なるものでした。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **肢イ・ウに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：肢イ・ウの結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。肢イは、「表題部」という言葉に引きずられて「表題部の更正登記は表題部所有者にしかできない」と思い込みやすい点を、表題部所有者と所有権の登記名義人が同一人物の所有権登記前後の呼び方に過ぎないという説明（不動産登記法2条10号・38条）で整理しています。肢ウは、イの「更正の登記」との混同、および「訂正の申出をすれば登記所側が直してくれる」という誤ったイメージを、更正の登記（登記記録自体の誤り）と訂正の申出（添付図面だけの誤り、かつ申出人が訂正後の図面を自ら用意する必要があること）の違い（不動産登記規則88条1項ただし書・2項）として整理し、イとの対比も盛り込んでいます。あわせて、肢イには個別テーマ記事「『表題部所有者』と『所有権の登記名義人』、何がどう違う？」（`note-articles/column/hyoudaibu-shoyuusha-vs-toukimeigijin.md`）へ、肢ウには個別テーマ記事「建物図面・各階平面図の提供要否 早見表」（`note-articles/topics/tatemonozumen-teikyou-yohi.md`）へのリンクを本文中に追加しています（`note-articles/link-map/h27-related-articles.md`の第8問の「個別テーマ記事」欄も更新済み）。それぞれの肢に対応する個別インフォグラフィック（間違いノート型）も記事末尾に追加しました。タイトルのキャッチフレーズは、従来オ肢（地番区域が違えば隣でも合筆不可）の論点を捉えたものでしたが、実際に読者がつまずいたのはイ・ウであり、両肢に共通する論点（登記記録自体の誤りと、添付図面だけの誤りとで、直し方＝更正の登記／訂正の申出が異なること）を捉えたキャッチフレーズに差し替えました。なお、正誤判定・正解の組合せ（2番＝ア・ウ）自体は変更していません。
 
 ---
 
@@ -323,4 +353,184 @@ the flow from Panel 1 to Panel 2 to Panel 3, with no duplicated or
 missing panels, and confirm every heading and caption text matches the
 Japanese text given above verbatim, with no paraphrasing and no
 substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（イ肢・間違いノート）
+
+肢イの結論（地番区域である字の誤りは、所有権の登記名義人も表題部の更正登記を申請できる）に自力でたどり着けなかった読者向けに、「表題部所有者」と「所有権の登記名義人」が同一人物の呼び方の違いに過ぎないことを、所有権保存登記の前後というタイムラインで示す間違いノート型の解説図解。②の俯瞰ポスターとは別物で、文字量・条文引用の制限を設けていない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include a timeline with written
+labels, side-by-side comparisons with quoted article text, and short
+explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+表・題・部・所・有・者・権・登・記・名・義・人・地・番・域・字・誤・更・正・申・請 —
+always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/timeline — with a solid or illustrated opaque
+background. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold):
+同じ人でも、呼び方が変わるだけなんです
+
+Subtitle (smaller, centered):
+平成27年度 午後の部 第8問 イ－表題部所有者と所有権の登記名義人
+
+--- TIMELINE ---
+A horizontal timeline with two stages, connected by a bold rightward
+arrow, both stages depicting the SAME person icon (identical clothing and
+face, to visually emphasize it is one person, not two).
+
+Stage 1 (left, green panel):
+Label above the person icon: 表題登記のとき
+Name tag on the person icon: 表題部所有者
+Small caption below: 所有権の登記（保存登記）がまだされていない段階
+Small citation tag: 不動産登記法2条10号
+
+Stage 2 (right, blue panel):
+Label above the person icon: 所有権保存登記のあと
+Name tag on the person icon: 所有権の登記名義人
+Small caption below: 権利部甲区に正式に記録された段階
+An icon showing the 表題部所有者 name tag being crossed out with a thin
+line (抹消される) as the person "graduates" to the new name tag, to show
+continuity rather than replacement by a different person.
+
+--- CALLOUT: 誤りやすいポイント ---
+「表題部」という言葉につられて、更正登記の申請人は表題部所有者に限られると
+思い込みがちですが、不動産登記法38条は「表題部所有者又は所有権の登記名義人
+以外の者は、申請することができない」と定めており、どちらの立場でも申請でき
+ます。同じ人物が、所有権登記の有無で呼び方を変えているだけです。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第8問　イ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 表・題・部・所・有・者・権・登・記・名・義・人・地・番・域・字・誤・更・正・申・請.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm both timeline stages show
+the identical person icon (not two different-looking people), confirm
+nothing is rendered below the FOOTER's small footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（ウ肢・間違いノート）
+
+肢ウの結論（地積測量図の地番訂正の申出には訂正後の図面の提供が必要）に自力でたどり着けなかった読者向けに、イ肢の「更正の登記」との違いを対比型で示す間違いノート型の解説図解。②の俯瞰ポスターとは別物で、文字量・条文引用の制限を設けていない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with quoted article text and short explanatory sentences (1-3 sentences
+per callout box) labeled 「誤りやすいポイント」or similar. Prioritize
+clarity and completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji
+登・記・録・更・正・訂・図・面・積・測・量・申・出・提・供・誤・続・題・存 —
+always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the comparison panels — with a solid or illustrated opaque
+background. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold):
+登記記録の誤りと、図面だけの誤りは別物なんです
+
+Subtitle (smaller, centered):
+平成27年度 午後の部 第8問 ウ－更正の登記と訂正の申出の違い
+
+--- COMPARISON (side by side, divided by a vertical line labeled 対して) ---
+
+LEFT PANEL (green, labeled 更正の登記):
+Heading: 登記記録そのものに誤りがあるとき
+Illustration: An isometric registry record (表題部) icon with a visibly
+wrong character crossed out and corrected with a red pen mark directly on
+the record itself.
+Quoted text box: 表題部所有者又は所有権の登記名義人が申請する
+Small citation tag: 不動産登記法38条
+
+RIGHT PANEL (blue, labeled 訂正の申出):
+Heading: 添付図面だけに誤りがあるとき
+Illustration: An isometric 地積測量図 document with a wrong number on it,
+placed beside a brand-new corrected version of the same document that the
+land/building surveyor figure is handing over to the registry clerk — the
+registry clerk is NOT shown redrawing anything, to emphasize the applicant
+prepares the corrected drawing.
+Quoted text box: 表題部所有者・所有権の登記名義人・その相続人その他の一般承継人
+が申出人となり、訂正後の図面を自分で提供する
+Small citation tag: 不動産登記規則88条1項・2項
+
+--- CALLOUT: 誤りやすいポイント ---
+「地番の誤り」と聞くとどちらも同じ更正登記で直すものだと思いがちですが、登記
+記録自体の誤りか、添付図面だけの誤りかで手続きが分かれます。しかも、更正の
+登記をすることができる場合には、訂正の申出を使うことはできません（不動産登
+記規則88条1項ただし書）。訂正の申出は、登記所が直してくれる手続きではなく、
+申出人が訂正後の図面を自分で用意して提出する手続きです。
+
+--- FOOTER ---
+Small credit text in the corner (optional, keep minimal):
+平成27年度 午後の部 第8問　ウ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 登・記・録・更・正・訂・図・面・積・測・量・申・出・提・供・誤・続・題・存.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm there are exactly two
+comparison panels divided by a vertical line labeled 対して, with no
+duplicated or missing panels, confirm nothing is rendered below the
+FOOTER's small footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
 ```
