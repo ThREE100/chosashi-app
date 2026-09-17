@@ -68,6 +68,7 @@ Aの死亡前にCとGがいずれも死亡していた場合、第1順位の相�
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。相続人の範囲（同時死亡推定・相続欠格・代襲相続・相続放棄・離婚）がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-16再実施）**：平成30年民法（相続法）改正（自筆証書遺言の方式緩和、配偶者居住権の新設、特別の寄与制度等、令和元年7月1日施行）の影響を確認しましたが、この改正は遺言・遺産分割・遺留分等の規定が中心であり、本問で問われている同時死亡の推定（32条の2）、相続欠格（891条）、代襲相続（887条2項）、相続放棄（939条）、離婚と親子関係の帰趨といった相続人の範囲に関する基本規定には変更がなく、各肢の結論に影響しません。あわせて`note-articles/laws/`に保存した条文原文との逐語照合を行い、肢2本文中の891条1号の引用文言に誤り（「死亡させ」→正しくは「死亡するに至らせ」）を発見して修正しました。
 - **誤りの訂正（2026-09-17）**：肢3の「たとえば」の具体例で、「Aさんの父Dさんが存命であれば、Dさんだけが相続人となり」と記載していましたが、配偶者である妻Bは血族相続人の順位に関わらず常に相続人となる（民法890条）ため、「Dさんだけ」という記述は誤りでした。実際にこの場面で相続人となるのは妻Bと父Dの2人であるため、本文・たとえばとも修正しました。肢3自体の正誤判定（誤り）および全体の正解（選択肢5番）に変更はありません（肢3が問うているのは「祖母FがEに代わって相続人になるか」という点であり、Bの相続人資格の有無とは別の論点のため）。民法890条（配偶者の相続権）の条文本文は`laws/minpou-3-shinzoku-souzoku.md`から実際にGrep・Readして確認済みです。
+- **インフォグラフィックの家系図レイアウト修正（2026-09-17）**：問題全体インフォグラフィックの家系図が、親を子より下に描く・配偶者を親子関係のように縦に並べるなど、実際の家系図の描き方（親は子より上、同世代は横並び）に沿っていない構成になっていたため、全カード共通の「FAMILY-TREE LAYOUT REQUIREMENT」を追加し、各カードのIllustration指定を、世代の積み重ね（F→D・E→A・B→C→G、上から下）に沿って描くよう修正しました。内容（誰が相続人になるか）自体に変更はありません。
 
 ---
 
@@ -115,6 +116,25 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 続・襲・尊・属・棄・欠・格・離・婚 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+FAMILY-TREE LAYOUT REQUIREMENT (critical): Every card's family-tree diagram
+must follow real genealogical conventions consistently, across all 5 cards.
+Vertical position represents generation: a parent is always drawn ABOVE
+their child, a grandparent above a parent, and so on — never the reverse,
+and never side by side as if they were peers. People of the same
+generation (a married couple, or siblings) are drawn side by side at the
+same height, connected by a short horizontal line, never stacked
+vertically as if one were the other's parent or child. The common
+generational stack shared by every card in this poster, top to bottom, is:
+F（祖母）above D（父）and E（母）(D and E drawn side by side as a married
+couple) above A（被相続人）and B（妻）(A and B drawn side by side as a
+married couple) above C（子）above G（孫）. A card that omits some of these
+people must still keep the people it does show at their correct relative
+height (for example, a card showing only D and A must still draw D above
+A). Arrows that indicate an inheritance/succession relationship run along
+the vertical parent-child line and point from the person who died or lost
+the right to the person taking their place, not diagonally across
+generations.
+
 --- HEADER ---
 Title (large, bold, 1行):
 相続人になれる人、なれない人はここで決まる
@@ -132,12 +152,16 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 同時死亡でも孫が代襲相続する
-Illustration: An isometric family-tree diagram. A (被相続人) and C (子)
-are both marked with a "同時死亡・先後不明" label and a "?" icon. An
-arrow from A toward D（父）is crossed out with a red X. A second arrow
-from C down to G（孫）is shown with a green checkmark and the label
-"代襲", with G standing at a registry desk receiving the inheritance
-documents.
+Illustration: An isometric family-tree diagram following the poster's
+standard generational stack. At the top, D（父）is drawn crossed out with
+a red X and a small label "相続人にならず" (第1順位の代襲者がいるため).
+Directly below D, A（被相続人）is drawn side by side with B（妻）as a
+married couple connected by a short horizontal line; A is marked with a
+"同時死亡・先後不明" label and a "?" icon. Directly below A, connected by
+a vertical parent-child line, C（子）is drawn with the same "同時死亡・
+先後不明" label and "?" icon. Directly below C, connected by a vertical
+line, G（孫）is drawn with a green checkmark and the label "代襲", standing
+at a registry desk receiving the inheritance documents.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 孫Gが相続人
 
@@ -145,12 +169,19 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 直系尊属に代襲相続はない
-Illustration: The same family-tree diagram with C（子）and G（孫）both
-marked deceased with a small tombstone icon. B（妻）and D（父、1親等）are
-both highlighted with green checkmarks as the actual heirs (a small label
-"配偶者は常に相続人" near B). F（祖母、2親等）is marked with a red X and a
-label "代襲なし", with a broken arrow from E（死亡した母）to F showing
-there is no such substitution among direct ascendants.
+Illustration: An isometric family-tree diagram following the poster's
+standard generational stack. At the top, F（祖母、2親等）is drawn with a
+red X and the label "代襲なし・対象外". Directly below F, connected to her
+by a vertical parent-child line, D（父、1親等）and E（死亡した母）are drawn
+side by side as a married couple connected by a short horizontal line (E
+is drawn as F's daughter, positioned below F, never beside or above her);
+E is marked deceased with a small tombstone icon, and D is highlighted
+with a green checkmark. Directly below the D－E couple, connected by a
+vertical line, A（被相続人）is drawn side by side with B（妻）as a married
+couple; B is highlighted with a green checkmark and the label "配偶者は常
+に相続人". Directly below A, connected by a vertical line, C（子）is drawn
+marked deceased with a small tombstone icon, and directly below C, G（孫）
+is drawn also marked deceased with a small tombstone icon.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 親等の近い人が優先
 
@@ -158,10 +189,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 相続放棄は代襲の原因にならない
-Illustration: C（子）holds a document labeled "相続放棄" in one hand. A
-downward arrow from C toward G（孫）is blocked by a large red X. G is
-shown standing apart with a small "対象外" label, receiving nothing from
-A's estate.
+Illustration: An isometric family-tree diagram following the poster's
+standard generational stack. A（被相続人）is drawn at the top. Directly
+below A, connected by a vertical parent-child line, C（子）holds a document
+labeled "相続放棄" in one hand. Directly below C, a downward arrow toward
+G（孫）is blocked by a large red X. G is shown standing apart, one level
+below C, with a small "対象外" label, receiving nothing from A's estate.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 放棄は代襲原因外
 
@@ -172,10 +205,14 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 同順位者殺害未遂も相続欠格になる
-Illustration: C（子）character stands near B（母）with a small icon
-showing an attempted-harm gesture and a label "殺人未遂で刑に処せられた".
-A large red "相続欠格" stamp is placed over C, blocking C's path toward
-the inheritance documents on the registry desk.
+Illustration: An isometric family-tree diagram following the poster's
+standard generational stack. A（被相続人）and B（母）are drawn side by side
+as a married couple, connected by a short horizontal line. Directly below
+them, connected by a vertical parent-child line, C（子）is drawn, with a
+small icon above C showing an attempted-harm gesture directed upward
+toward B and a label "殺人未遂で刑に処せられた". A large red "相続欠格"
+stamp is placed over C, blocking C's path toward the inheritance documents
+on the registry desk.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 未遂でも欠格
 
@@ -183,10 +220,14 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 離婚しても親子の相続権は残る
-Illustration: A and B are separated by a broken-heart "離婚" icon, with a
-small label "親権者はB" near B. Despite the separation, a solid
-connecting line remains between A and C labeled "血族関係は継続". C
-receives the inheritance document from A's estate with a green checkmark.
+Illustration: An isometric family-tree diagram following the poster's
+standard generational stack. A（父）and B（母）are drawn side by side at
+the same height, separated by a broken-heart "離婚" icon between them,
+with a small label "親権者はB" near B. Directly below A, connected by a
+vertical parent-child line, C（子）is drawn one level down. Despite the
+separation between A and B, the solid vertical line between A and C
+remains intact and is labeled "血族関係は継続". C receives the inheritance
+document from A's estate with a green checkmark.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 血族関係は継続
 
@@ -201,5 +242,9 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Finally, confirm every family-tree diagram across all 5
+cards follows the FAMILY-TREE LAYOUT REQUIREMENT above: parents drawn
+above children, spouses drawn side by side at the same height (never one
+above or below the other), and no card showing a parent below a child or
+a spouse stacked as if a child.
 ```
