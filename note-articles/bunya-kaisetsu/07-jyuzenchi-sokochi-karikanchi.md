@@ -115,6 +115,15 @@ below (従前地, 底地, 仮換地, 地番, 使用収益権, 所有権, 登記�
 render each in its standard Japanese (Jōyō) form, never the Simplified
 Chinese variant.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 従前地・底地・仮換地は同じ土地じゃない
@@ -172,9 +181,10 @@ standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
 attention to 従・前・底・仮・換・地・番・権・利・登・記 in words such as
 従前地, 底地, 仮換地, 地番, 使用収益権, 所有権, 登記記録 — if any
 character renders as a Simplified Chinese variant, redraw that character
-in the correct Japanese form. Confirm the number of cards equals 3
-exactly, with no duplicated or missing cards, and confirm every card
-caption matches the Japanese text given above verbatim with no
+in the correct Japanese form. Confirm the canvas has no transparent or
+alpha-channel area anywhere, edge to edge. Confirm the number of cards
+equals 3 exactly, with no duplicated or missing cards, and confirm every
+card caption matches the Japanese text given above verbatim with no
 paraphrasing.
 ```
 
@@ -213,6 +223,15 @@ special attention to the kanji 従・前・底・仮・換・地・番・権・�
 処・分・留, which appear repeatedly below (従前地, 仮換地, 換地処分,
 保留地, 登記記録, 使用収益権, 公告 など) — render each in its standard
 Japanese (Jōyō) form, never the Simplified Chinese variant.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the timeline — with a solid or illustrated opaque
+background. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -282,11 +301,12 @@ standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
 attention to 従・前・底・仮・換・地・番・権・利・登・記・処・分・留 in
 words such as 従前地, 仮換地, 換地処分, 保留地, 登記記録, 使用収益権,
 公告 — if any character renders as a Simplified Chinese variant, redraw
-that character in the correct Japanese form. Confirm the timeline has
-exactly 5 stages stacked in top-to-bottom order, with no duplicated or
-missing stages, confirm every caption matches the Japanese text given
-above verbatim with no paraphrasing, and confirm no caption text is
-shrunk to a size smaller than the rest of the poster's body text.
+that character in the correct Japanese form. Confirm the canvas has no
+transparent or alpha-channel area anywhere, edge to edge. Confirm the
+timeline has exactly 5 stages stacked in top-to-bottom order, with no
+duplicated or missing stages, confirm every caption matches the Japanese
+text given above verbatim with no paraphrasing, and confirm no caption
+text is shrunk to a size smaller than the rest of the poster's body text.
 ```
 
 ---
@@ -315,6 +335,15 @@ special attention to the kanji 施・行・者・代・位・嘱・託・職・�
 義・務, which appear repeatedly below (施行者, 代位申請, 嘱託, 職権,
 申請義務, 所有者 など) — render each in its standard Japanese (Jōyō)
 form, never the Simplified Chinese variant.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the columns — with a solid or illustrated opaque
+background. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -381,8 +410,10 @@ standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
 attention to 施・行・者・代・位・嘱・託・職・権・申・請・義・務 in words
 such as 施行者, 代位申請, 嘱託, 職権, 申請義務, 所有者 — if any
 character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the number of cards
-equals 4 exactly (2 in the left column, 2 in the right column), with
-no duplicated or missing cards, and confirm every card caption matches
-the Japanese text given above verbatim with no paraphrasing.
+character in the correct Japanese form. Confirm the canvas has no
+transparent or alpha-channel area anywhere, edge to edge. Confirm the
+number of cards equals 4 exactly (2 in the left column, 2 in the right
+column), with no duplicated or missing cards, and confirm every card
+caption matches the Japanese text given above verbatim with no
+paraphrasing.
 ```

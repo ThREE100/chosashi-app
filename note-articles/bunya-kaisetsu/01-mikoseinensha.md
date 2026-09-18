@@ -49,14 +49,6 @@
 
 **催告は本人にしても意味がなく、法定代理人にしなければならない**：未成年者と契約した相手方は、「追認するかどうか確答してください」という催告をすることができますが、未成年者本人に対して催告しても、法律上の効力は生じません（未成年者には意思表示を受け取る能力＝受領能力がないため、98条の2）。相手方は、必ず法定代理人に対して催告する必要があります。
 
-### インフォグラフィック設計メモ
-
-- **形式**：1枚縦型の「フローチャート＋対比ボックス」。
-- **上部**：「未成年者＝18歳未満（審判不要・年齢で自動的に該当）」を大きく見出しにする。
-- **中央**：「原則：法定代理人の同意が必要 → 同意なし契約は取消し可」を軸に、例外3つ（①単に得する・免れるだけの行為 ②処分を許された財産の範囲内 ③許可された営業の範囲内）を吹き出しで並べる。
-- **下部**：法定代理人が持つ4つの権限（同意権・取消権・代理権・追認権）をアイコン付きで横並びにし、「この4つをすべて法律上当然に持つ」という点を強調する。
-- **色分け**：「できる（緑）／できない（赤）」の2色で本人の行為を色分けすると視覚的にわかりやすい。
-
 ### 覚えておくべきポイントのまとめ
 
 - 未成年者＝18歳未満（4条）。2022年4月1日施行の改正で20歳から引き下げ。
@@ -94,3 +86,221 @@
 3. 未成年者、単独取消しOK
 4. 18歳未満、これが核心
 5. 未成年者の落とし穴
+
+---
+
+## インフォグラフィック プロンプト
+
+以下は画像生成AI（GPT Image等）に投入するためのプロンプト文です。画像そのものはここでは生成しません。すべて縦長（ポートレート）レイアウトで作成しています。
+
+### 画像1：未成年者ができること・できないこと（俯瞰カードポスター型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections each containing a small
+illustration, consistent with a modern explainer-graphic aesthetic (icons:
+an isometric young-person figure labeled 未成年者, a contract/document
+icon, a red rewind/undo arrow representing a legal act being cancelled, a
+gift box, a coin purse, a small market-stall icon — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, arrows, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+未成年者ができること・できないこと
+
+Subtitle (smaller, centered, 1行):
+同意なしの契約は原則取消し可、例外は3つだけ
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。原則を表すカード1は赤バッジ・赤い結論タグ、例外を表す
+カード2〜4は緑バッジ・緑の結論タグと、可否に応じて2色を使い分ける。）
+
+--- CARD 1 ---
+Badge: a filled circle in red containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+同意なしの契約は原則取消し可
+Illustration: An isometric young-person figure labeled 未成年者 signing a
+contract document alone at a desk, with a red rewind/undo arrow icon and a
+small red 取消 stamp overlaid on the document.
+Conclusion tag (red banner, 5-15 Japanese characters):
+原則：取消しできる
+
+--- CARD 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+もらうだけ・免れるだけならOK
+Illustration: The same young-person figure happily receiving a wrapped
+gift box with both hands, a green checkmark icon beside them, no pen or
+contract document present.
+Conclusion tag (green banner, 5-15 Japanese characters):
+取消しできない
+
+--- CARD 3 ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+渡されたお小遣いの範囲内はOK
+Illustration: The young-person figure holding a small coin purse and a
+price tag showing a book, a green checkmark, with a dashed boundary box
+around the purse labeled 範囲内 to show the spending stays inside the
+allowed amount.
+Conclusion tag (green banner, 5-15 Japanese characters):
+取消しできない
+
+--- CARD 4 ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+許可された商売の範囲内はOK
+Illustration: The young-person figure standing behind a small market-stall
+icon with a document/hanko labeled 許可, selling goods to a customer
+figure, a green checkmark.
+Conclusion tag (green banner, 5-15 Japanese characters):
+取消しできない
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 未・成・許・可・営・業・処・分・範・囲, and confirm each is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 4 exactly, with
+no duplicated or missing cards, confirm Card 1 uses a red badge and red
+conclusion tag while Cards 2-4 use a green badge and green conclusion tag,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, confirm that no card contains a full sentence of
+explanatory prose, confirm nothing is rendered below Card 4 (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and no
+additional text block of any kind), and confirm the entire canvas, edge to
+edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
+
+### 画像2：法定代理人が持つ4つの権限（俯瞰カードポスター型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections each containing a small
+illustration, consistent with a modern explainer-graphic aesthetic (icons:
+an isometric guardian/parent figure labeled 法定代理人, an isometric
+young-person figure labeled 未成年者, a hanko stamp icon, a contract
+document icon, a red rewind/undo arrow — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, arrows, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+法定代理人が持つ4つの権限
+
+Subtitle (smaller, centered, 1行):
+同意権・取消権・代理権・追認権を、審判なしで当然に持つ
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列を分けないため、バッジ色は1色〈青〉に統一する。）
+
+--- CARD 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+契約前に同意を与える権限（同意権）
+Illustration: An isometric guardian figure labeled 法定代理人 stamping a
+green 同意 hanko onto a blank contract held by the young-person figure
+labeled 未成年者, before any signature line is filled in.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+契約前に発動
+
+--- CARD 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+同意のない契約を取り消す権限（取消権）
+Illustration: The guardian figure pressing a red rewind/undo arrow stamp
+labeled 取消 onto an already-signed contract document held by the
+young-person figure.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+契約後に発動
+
+--- CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+未成年者に代わって契約する権限（代理権）
+Illustration: The guardian figure seated at a table signing a contract on
+behalf of the young-person figure, who stands beside watching, with an
+arrow from the guardian's pen to the signature line.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+財産行為を代わりに
+
+--- CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+取り消せる契約を後から認める権限（追認権）
+Illustration: The guardian figure stamping a green 追認 hanko onto the
+same contract document, with a checkmark icon replacing the earlier red
+undo arrow, showing the document becoming final.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+事後に有効化
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 法・定・代・理・権・同・意・追・認, and confirm each is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 4 exactly, with
+no duplicated or missing cards, confirm all 4 badges and conclusion tags
+use the same blue color, confirm there is no intro illustration or
+paragraph block between the header and the cards, confirm that no card
+contains a full sentence of explanatory prose, confirm nothing is
+rendered below Card 4 (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid, and no additional text block of any kind), and
+confirm the entire canvas, edge to edge, is filled with a fully opaque
+background with no transparency or alpha channel anywhere.
+```
