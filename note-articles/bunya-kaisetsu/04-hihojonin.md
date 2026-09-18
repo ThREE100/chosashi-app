@@ -77,3 +77,195 @@
 3. 本人の意思、最優先の制度
 4. 4類型で唯一、同意が要る
 5. 一番軽い、でも要注意
+
+---
+
+## インフォグラフィック プロンプト
+
+以下は画像生成AI（GPT Image等）に投入するためのプロンプト文です。画像そのものはここでは生成しません。すべて縦長（ポートレート）レイアウトで作成しています。
+
+### 画像1：本人の同意が必要なのは「補助」だけ（対比表型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1400 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded two-column comparison layout,
+consistent with a modern explainer-graphic aesthetic (icons: a courthouse
+icon, a person icon with a checkmark representing consent, a person icon
+with an X mark representing no consent needed — adapt icon set to the
+topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the two columns. Each column must communicate its point almost
+entirely through icons, checkmarks/X marks, and short embedded labels
+plus one short heading and one short conclusion tag. Do NOT render any
+full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 補・佐・後・見・請・求・審・判・同・意.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the two columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+「本人の同意」が必要なのは補助だけなんです
+
+Subtitle (smaller, centered, 1行):
+本人以外の者の請求による開始審判の場合
+
+（タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- LEFT COLUMN HEADER (pill-shaped badge, color: gray) ---
+後見開始・保佐開始
+
+Left illustration: A courthouse icon with an arrow pointing to a person
+icon that has a large green checkmark directly on it (representing the
+審判 proceeding without needing the person's consent). A small
+「本人以外の請求でもOK」name-tag label sits beside the checkmark icon.
+Left conclusion tag (gray banner, 5-15 Japanese characters):
+本人の同意は不要
+
+--- RIGHT COLUMN HEADER (pill-shaped badge, color: blue) ---
+補助開始
+
+Right illustration: A courthouse icon with an arrow pointing to a person
+icon, but the arrow is interrupted partway by a large blue speech-bubble
+icon containing a handshake/checkmark symbol, labeled 本人の同意, before
+it can reach the person icon (representing that the 本人の同意 step must
+happen first when the request comes from someone other than the person).
+Right conclusion tag (blue banner, 5-15 Japanese characters):
+本人の同意が必要（15条2項）
+
+--- FOOTER ---
+Small footnote text (bottom of poster, small font, verbatim):
+本人自身が請求する場合は、いずれの審判も本人の同意の問題は生じません
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 補・佐・後・見・請・求・審・判・同・意, and confirm each is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly 2 columns (LEFT and
+RIGHT), confirm the LEFT column's checkmark icon and the RIGHT column's
+interrupted-arrow icon are visually distinct from each other, confirm
+there is no intro illustration or paragraph block between the header and
+the columns, confirm that no column contains a full sentence of
+explanatory prose, and confirm the entire canvas, edge to edge, is filled
+with a fully opaque background with no transparency or alpha channel
+anywhere.
+```
+
+### 画像2：補助開始の審判は必ず3点セットの一部とセットで行う（俯瞰カードポスター型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1900 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: a courthouse/gavel icon, a
+document-with-checkmark icon representing consent, a document-with-key
+icon representing a power of representation, a chain-link icon connecting
+the cards together — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 補・佐・審・判・与・権・代・理.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+補助開始の審判は、単独ではできないんです
+
+Subtitle (smaller, centered, 1行):
+必ずこの3点セットの一部とセットで行います
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。3枚のカードを、両端に小さな鎖アイコンでつなぎ、
+「必ずセットで行う」という一体性を表現する。列は分けず、バッジ色は1色
+（青）に統一する。）
+
+--- CARD 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+補助開始の審判
+Illustration: A courthouse/gavel icon with a person icon beside it
+labeled 被補助人となる人.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+これだけでは成立しない
+
+--- CARD 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+同意権付与の審判（17条1項）
+Illustration: A document icon with a large checkmark and a small
+「特定の法律行為だけ」name-tag label beside it.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+本人以外の請求は本人同意必要
+
+--- CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+代理権付与の審判（876条の9第1項）
+Illustration: A document icon with a small key symbol overlaid,
+representing a granted power of representation.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+本人以外の請求は本人同意必要
+
+--- FOOTER ---
+Small footnote text (bottom of poster, small font, verbatim):
+カード1は、カード2または3の少なくとも一方と必ずセットで行います
+（民法15条3項）
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 補・佐・審・判・与・権・代・理, and confirm each is standard
+Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 3 exactly, with no
+duplicated or missing cards, that badge numbers run 1-3 continuously,
+confirm a small chain-link icon visually connects all 3 cards to convey
+that they form one set, confirm there is no intro illustration or
+paragraph block between the header and the cards, confirm that no card
+contains a full sentence of explanatory prose, and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

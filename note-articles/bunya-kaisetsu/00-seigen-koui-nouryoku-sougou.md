@@ -421,7 +421,7 @@ even if a character looks similar. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not paraphrase,
 translate, summarize, or substitute any characters. Pay special attention
-to the kanji 補・佐・助・催・促・詐・術・審・判・回・復・証・履・歴。
+to the kanji 補・佐・助・催・促・詐・術・審・判・回・復・証・履・歴.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
