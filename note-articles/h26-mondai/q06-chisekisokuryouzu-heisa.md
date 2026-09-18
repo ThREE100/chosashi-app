@@ -113,6 +113,7 @@ Q6の肢エは、このうち2号「地目又は地番区域が相互に異な�
 - **最新法令チェック（2026-08-16再実施）**：保存済みの法令データ（不動産登記規則85条2項、不動産登記法41条2号、同法21条、同規則28条13号）を通じて、ア・イ・ウ・エ・オすべての結論と、閉鎖されなかった地積測量図の保存期間（規則28条13号「永久（閉鎖したものにあっては、閉鎖した日から三十年間）」）を条文上確認しました。直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。
 - **補足（2026-08-16追記）**：肢エの根拠である不動産登記法41条（合筆の登記の制限）について、6号までの条文原文を引用し、初学者向けに各号を噛み砕いた補足解説を本文に追加しました。
 - **書式の修正（2026-09-18）**：既存の2つの補足（地積測量図の保存期間、合筆の登記ができない6つのケース）が、まとめ・結論文と正解の明記の間に配置されており、`format-template.md`の「正解の明記は先出し厳禁・必ず本文の最後」というルールから外れた並びになっていたため、正解の明記をまとめ・結論文の直後に移動し、2つの補足はその下（正解の明記より後）に並べる構成に修正しました。あわせて、この2つの補足を図解する「インフォグラフィック プロンプト（補足）」（保存期間の判定フロー、合筆の制限6号の早見表）を新規に作成・追加しました。内容自体（各肢の正誤・正解・補足の説明文）に変更はありません。
+- **作図ガイドの追加（2026-09-18）**：`infographic-prompt-template.md`「⑤ 作図ガイド型」に従い、「インフォグラフィック プロンプト（ア〜オ 作図ガイド）」を新規に作成・追加しました。ア・イ・ウは「あとにされた登記が規則85条2項の3類型（変更後・更正後の図面を伴う変更・更正登記／滅失登記・表題部抹消／換地処分の登記）に当たるか」という共通の判定フローを、それぞれ異なる事実関係にあてはめる構成にそろえています。エは接続・地番区域・登記名義人・地目の4条件を順に確認する決定木、オは権利の登記か表示の登記かを見分ける2段階の決定木としました。既存の②俯瞰カードポスター（問題全体）・③補足の各インフォグラフィックは変更していません。
 
 ---
 
@@ -400,4 +401,190 @@ correct Japanese form. Confirm the table has exactly 6 rows with no
 duplicated or missing rows, confirm the row order is 一号→六号 top to
 bottom, and confirm there is no intro illustration or paragraph block
 between the header and the table.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「どの図面の話をしているか」「閉鎖の3類型に当たるか」「合筆・登記識別情報の各要件を満たすか」を、どの順番で確認すればよいかを示す解き方ガイド。ア・イ・ウは同じ判定フロー（あとにされた登記は規則85条2項の3類型に当たるか）を、それぞれ異なる事実関係に当てはめる構成にそろえてある。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x3200 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land-plot icons, registry folder
+icons for 地積測量図, diamond-shaped decision nodes, ○/✕ branch marks,
+timeline arrows for registration dates. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No（あり/なし、該当する/
+該当しない）branch arrows, and a final conclusion node. Where a肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers (article/
+regulation numbers are fine); keep the callout text as written below
+verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 図・閉・鎖・登・記・筆・
+合・更・正・識・別・情・報・目・番・地・権 — always draw the standard
+Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成26年度 午後の部 第6問　ア〜オ
+作図ガイド（地積測量図の閉鎖・合筆・登記識別情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+まず「どの登記のあとの話か」を書き出す
+Diagram: A small timeline strip showing two events in order: 「H18.3.15
+分筆の登記（地積測量図あり）」→「H21.6.3 錯誤による地積の更正の登記」.
+Below the timeline, a diamond-shaped decision node labeled「更正の登記は、
+新しい地積測量図（更正後の図面）の提出を伴うものか？」with two branch
+arrows: a "はい" branch (green) leading to a small grayed-out conclusion
+node「（該当すれば）先行する図面は閉鎖される」labeled「今回は該当せず」、
+and a "いいえ"（今回のケース）branch (highlighted, bold) leading to the
+main conclusion node「85条2項1号の要件を満たさない → 先行する図面は
+閉鎖されない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、あとにされた登記が「新しい図面の提出を伴う」変更・更正登記かどうかを
+確認します。次に、実際に新しい図面の提出があったかを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+図面は閉鎖されない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+「3類型」に当たるかどうかをまず確認する
+Diagram: A small timeline strip showing「H21.6.3 錯誤による地積の更正の
+登記（地積測量図あり）」→「H24.11.9 分筆の登記」. Below the timeline, a
+diamond-shaped decision node labeled「あとにされた分筆の登記は、規則85条
+2項の3類型（①変更後・更正後の図面を伴う変更・更正登記／②滅失登記・表題部
+抹消／③換地処分の登記）のいずれかに当たるか？」with two branch arrows: a
+"あたる" branch (grayed out, not applicable here) leading to a small node
+「先行する図面は閉鎖される」、and a "あたらない"（今回のケース、分筆の登記は
+3類型のどれにも含まれない）branch (highlighted, bold) leading to the main
+conclusion node「対象外 → 先行する更正の登記の図面は閉鎖されない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、あとにされた登記の種類（分筆・合筆・変更・更正・滅失・換地処分の
+どれか）を確認します。次に、その種類が規則85条2項の3類型に含まれるかを
+確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+分筆だけでは閉鎖されない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+「誰の・いつの図面か」を取り違えない
+Diagram: A small timeline strip for 乙土地 showing「H18.3.15 分筆の登記
+（地積測量図あり）」→「H26.8.19 合筆の登記（157番7を合筆）」. Below the
+timeline, a diamond-shaped decision node labeled「あとにされた合筆の登記
+は、規則85条2項の3類型のいずれかに当たるか？」with two branch arrows: a
+"あたる" branch (grayed out, not applicable here) leading to a small node
+「先行する図面は閉鎖される」、and a "あたらない"（今回のケース、合筆の登記
+も3類型のどれにも含まれない）branch (highlighted, bold) leading to the
+main conclusion node「対象外 → 先行する分筆の登記の図面は閉鎖されない」.
+A small side note icon clarifies「甲土地ではなく乙土地自身の図面の話でも、
+結論は同じ」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、どの土地の・いつの地積測量図の話かを整理します。次に、あとにされた
+合筆の登記が規則85条2項の3類型に含まれるかを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+合筆だけでは閉鎖されない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+接続していても4つの条件を順に確認する
+Diagram: A decision flowchart with 4 sequential diamond-shaped nodes,
+stacked top to bottom, each with a Yes arrow continuing down to the next
+node and a No arrow branching off to a red "✕ 合筆できない" end node: (1)
+「甲土地と乙土地は相互に接続しているか？」→はい, (2)「地番区域は同一か？」
+→はい, (3)「所有権登記名義人は同一か？」→はい, (4)「地目は同一か？」→
+いいえ（甲＝宅地、乙＝山林）. The No branch from node (4) leads to the
+final conclusion node「不動産登記法41条2号に該当 → 合筆の登記を申請する
+ことはできない」, highlighted in red.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず接続の有無を確認し、次に地番区域・所有権登記名義人・地目の同一性を
+順に確認します。1つでも欠ければ、そこで合筆できないという結論になります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+地目が違えば合筆不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+権利の登記か表示の登記かをまず見分ける
+Diagram: A decision flowchart with 2 sequential diamond-shaped nodes: (1)
+「今回の地目の変更の登記は、権利に関する登記か、表示に関する登記か？」→
+「表示に関する登記」の分岐へ進む, (2)「登記識別情報が通知されるのは、
+申請人自らが登記名義人となる場合（権利に関する登記）に限られるか？」→
+「はい」. The two branches converge into the final conclusion node「表示に
+関する登記であるこの地目変更登記は、この要件に当たらない → 登記識別情報
+は通知されない」, highlighted in blue, with a small envelope icon crossed
+out by a red X beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、今回された登記が権利に関する登記か表示に関する登記かを見分けます。
+次に、登記識別情報の通知は権利に関する登記に限られるという原則にあてはめ
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+表示の登記には通知なし
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠条文：不動産登記規則85条2項、不動産登記法41条2号、同法21条。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 図・閉・鎖・登・記・筆・合・更・正・識・別・情・報・目・番・
+地・権. If any character renders as a Simplified Chinese variant, redraw
+that character in the correct Japanese form. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+panel 4 is drawn as an actual flowchart with 4 sequential branch nodes and
+panel 5 is drawn as an actual flowchart with 2 sequential branch nodes
+(not a bare illustration with no visible decision structure), that each
+着眼点 callout states a checking order rather than only a conclusion,
+confirm nothing is rendered below panel 5's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
