@@ -160,3 +160,374 @@
 3. 4つの制度、一枚で比較
 4. 制限行為能力、総整理
 5. 迷わない、4類型攻略
+
+---
+
+## インフォグラフィック プロンプト
+
+以下は画像生成AI（GPT Image等）に投入するためのプロンプト文です。画像そのものはここでは生成しません。すべて縦長（ポートレート）レイアウトで作成しています。画像1は4類型を俯瞰するカードポスター型、画像2は過去の出題実績を年度別にまとめた早見表型、画像3は狙われやすい勘違いポイントを整理したカードポスター型です。
+
+### 画像1：制限行為能力者4類型の比較（俯瞰カードポスター型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric person figures of
+different ages, a court-gavel/hanko stamp icon for family-court judgments,
+a document-with-seal icon for automatically-granted representation power,
+a checkmark/X icon pair, a small star icon to highlight the one unique
+case — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 未・成・年・後・見・補・佐・助・代・理・審・判・催・告.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+制限行為能力者
+4類型の比較
+
+Subtitle (smaller, centered, 1行):
+本人同意・代理権・行為の原則で見る違い
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。4枚のカードはそれぞれ異なる色のバッジ・結論タグを使う
+（カード1＝青、カード2＝オレンジ、カード3＝緑、カード4＝紫）。）
+
+--- CARD 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+未成年者は同意が必要
+Illustration: an isometric child/teenager figure icon labeled 未成年者,
+surrounded by three small embedded label tags: a tag reading「審判 不要
+（18歳未満）」next to a small calendar icon, a tag reading「法定代理人の
+同意 必要」next to a checkmark-over-handshake icon, and a tag reading
+「代理権 当然に包括的」next to a document-with-seal icon glowing to show
+it is automatic.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+同意必要・代理権は自動
+
+--- CARD 2 ---
+Badge: a filled circle in orange containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+成年被後見人は原則取消し可
+Illustration: an isometric elderly/adult figure icon labeled 成年被後見人,
+surrounded by three small embedded label tags: a tag reading「後見開始の
+審判」next to a court-gavel icon, a tag reading「本人同意 不要」next to an
+X-mark-over-handshake icon, and a tag reading「日用品の購入だけ取消し
+不可」next to a small shopping-bag icon with a checkmark, and a fourth tag
+reading「代理権 当然に包括的」next to a document-with-seal icon glowing
+to show it is automatic.
+Conclusion tag (orange banner, 5-15 Japanese characters):
+原則すべて取消し可
+
+--- CARD 3 ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+被保佐人は重要行為だけ同意必要
+Illustration: an isometric adult figure icon labeled 被保佐人, surrounded
+by three small embedded label tags: a tag reading「保佐開始の審判」next to
+a court-gavel icon, a tag reading「本人同意 不要」next to an X-mark-over-
+handshake icon, and a tag reading「重要な財産行為だけ同意必要」next to an
+icon of a house/money bag with a small checkmark, and a fourth tag reading
+「代理権 審判で個別付与」next to a document icon being stamped by a
+court-gavel (showing it is NOT automatic, unlike Cards 1-2).
+Conclusion tag (green banner, 5-15 Japanese characters):
+重要行為だけ同意必要
+
+--- CARD 4 ---
+Badge: a filled circle in purple containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+被補助人だけ本人同意が必要
+Illustration: an isometric adult figure icon labeled 被補助人, surrounded
+by four small embedded label tags: a tag reading「補助開始の審判」next to
+a court-gavel icon, a tag reading「本人同意 必要」next to a checkmark-
+over-handshake icon that is highlighted with a small gold star (to mark
+this as the one case among the 4 cards where the answer differs from the
+other three), a tag reading「指定された特定の行為だけ同意必要」next to an
+icon of a single highlighted document among several plain documents, and a
+tag reading「代理権 審判で個別付与」next to a document icon being stamped
+by a court-gavel.
+Conclusion tag (purple banner, 5-15 Japanese characters):
+本人同意が必要な唯一の類型
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 未・成・年・後・見・補・佐・助・代・理・審・判・催・告, and
+confirm each is standard Japanese (Jōyō) form, not Simplified Chinese. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 4 exactly, with no duplicated or missing cards, confirm each card
+uses its own distinct badge/conclusion-tag color (blue, orange, green,
+purple in that order), confirm Card 4 is the only card whose「本人同意」
+tag shows a checkmark/gold star (Cards 1-3 must show an X mark for 本人
+同意 unless the card is specifically about 未成年者's required consent
+from a legal representative, which is a different kind of consent from
+the「審判の請求に対する本人の同意」shown as X/✓ in Cards 2-4), confirm
+Cards 3-4 show the representation-power tag as a court-gavel stamping a
+document (審判で個別付与) while Cards 1-2 show it as an already-glowing
+sealed document (当然に包括的) so the visual contrast is unmistakable,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, confirm that no card contains a full sentence of
+explanatory prose or a legal article number, and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+### 画像2：過去の出題実績（年度別・早見表型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), a clean flat-design table with alternating
+row background colors, Japanese sans-serif font, no monospace font,
+consistent with a modern explainer-graphic aesthetic (icons: a small
+calendar/scroll icon next to each year label, a magnifying-glass icon in
+the header — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference table,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster other than the short table
+cell text specified below — go straight from the header to the table. Do
+NOT render any full-sentence explanation beyond the short phrases given
+for each table cell.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 令・和・成・詐・術・催・
+促・佐・履・歴.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the table — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+この分野が中心的に
+問われた年度
+
+Subtitle (smaller, centered, 1行):
+過去の出題実績（年度別）
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE ---
+Header row (bold, colored background):
+年度・問題番号 ｜ 出題テーマ
+
+Row 1:
+令和6年度 午後第1問 ｜ 行為能力全体を横断（後見開始の効力・日用品取引 等）
+
+Row 2:
+令和4年度 午後第1問 ｜ 制限行為能力者全体を横断（詐術・被保佐人の保証 等）
+
+Row 3:
+平成30年度 午後第1問 ｜ 行為能力全体を横断（保佐開始の取消し・補助の本人
+同意 等）
+
+Row 4:
+平成26年度 午後第1問 ｜ 後見・保佐・補助の3類型を横断（日用品取引・詐術
+等）
+
+Row 5:
+平成25年度 午後第1問 ｜ 未成年者Aの売買契約という単一事例（詐術・追認・
+催告 等）
+
+Render as a clean flat-design table with 5 data rows plus 1 header row,
+alternating row background colors (e.g. white and pale beige), each row
+separated by a thin line, text left-aligned within each cell, Japanese
+sans-serif font throughout, no monospace font.
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 令・和・成・詐・術・催・促・佐・履・歴, and confirm each is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 1 header row and
+exactly 5 data rows (for 令和6年度・令和4年度・平成30年度・平成26年度・
+平成25年度, in that order, top to bottom), with no duplicated or missing
+rows, confirm every cell's text matches the Japanese text given above
+verbatim, with no paraphrasing and no substituted characters, confirm
+there is no intro illustration or paragraph block between the header and
+the table, confirm nothing is rendered below the table (no summary recap
+panel, no trophy or medal icon, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
+
+### 画像3：狙われやすい勘違いポイント6選（俯瞰カードポスター型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with a
+modern explainer-graphic aesthetic (icons: isometric person figures,
+shopping-bag icon, mail/letter icon, court-gavel icon, document-with-seal
+icon, thumbs-up/thumbs-down icon, X marks and checkmarks — adapt icon set
+to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+poster, NOT a text-heavy explainer document. There is NO intro
+illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the cards. Every card must communicate its
+point almost entirely through the illustration (icons, X marks,
+checkmarks, small embedded labels) plus one short heading and one short
+conclusion tag. Do NOT render any full-sentence explanation, legal
+citation, or paragraph of body text anywhere on the poster. If a piece of
+information cannot be expressed as a short label (a few words) or drawn
+as an icon, leave it out rather than writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke.
+Reproduce the exact text strings given below verbatim — do not paraphrase,
+translate, summarize, or substitute any characters. Pay special attention
+to the kanji 補・佐・助・催・促・詐・術・審・判・回・復・証・履・歴。
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+狙われやすい
+勘違いポイント6選
+
+Subtitle (smaller, centered, 1行):
+制限行為能力者・過去問のひっかけパターン
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列を分けないため、バッジ色は1色（青）に統一する。）
+
+--- CARD 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+本人同意が必要なのは「補助」だけ
+Illustration: three court-gavel icons in a row labeled 後見開始・保佐開始・
+補助開始, with a handshake icon beneath each; the first two handshake
+icons have a red X mark (本人同意 不要), the third handshake icon has a
+gold checkmark with a small star (本人同意 必要).
+Conclusion tag (blue banner, 5-15 Japanese characters):
+補助だけ本人同意 必要
+
+--- CARD 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+日用品購入は相手の善意悪意と無関係
+Illustration: a person icon labeled 成年被後見人 handing a shopping bag
+icon (labeled 日用品) to a shopkeeper icon; a crossed-out eye icon is
+placed over the shopkeeper to show that whether the shopkeeper knew or
+did not know is irrelevant, with a checkmark on the shopping-bag
+transaction itself (取消しできない).
+Conclusion tag (blue banner, 5-15 Japanese characters):
+行為の内容だけで判断
+
+--- CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+判断能力が戻っても地位は自動で変わらない
+Illustration: a person icon labeled 成年被後見人 with a bright lightbulb/
+thought-bubble icon above the head (labeled 判断能力が回復), an arrow
+attempting to point toward a「地位が変わる」label is blocked by a red
+prohibition circle, and a separate court-gavel icon labeled 審判の取消し
+points to a second arrow that successfully reaches a「地位が変わる」label
+with a checkmark.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+審判の取消しが必要
+
+--- CARD 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+催告の結果は正反対になる
+Illustration: two side-by-side mini-scenes. Left scene: a person icon
+labeled 未成年者・成年被後見人 with a mail/letter icon crossed out by a
+red X (本人への催告は無効), leading to a thumbs-up icon labeled 追認と
+みなす. Right scene: a person icon labeled 被保佐人・被補助人 receiving an
+open mail/letter icon with a checkmark (本人への催告は有効), leading to a
+thumbs-down icon labeled 取消しとみなす.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+無回答の結果が正反対
+
+--- CARD 5 ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+保証人になるのは同意が必要な行為
+Illustration: a person icon labeled 被保佐人 signing a document icon
+labeled 保証, with a second person icon labeled 保佐人 stamping a hanko
+seal of approval next to it, and a checkmark showing the seal is
+required before the signature is valid.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+保佐人の同意が必要
+
+--- CARD 6 ---
+Badge: a filled circle in blue containing the number 6.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+保佐人・補助人の代理権は自動発生しない
+Illustration: two side-by-side mini-scenes. Left scene: a person icon
+labeled 成年後見人 holding a document-with-seal icon that is already
+glowing (labeled 当然に発生). Right scene: two person icons labeled 保佐人・
+補助人 holding a plain blank document icon, with a court-gavel icon
+stamping it to make it glow (labeled 審判で個別に付与).
+Conclusion tag (blue banner, 5-15 Japanese characters):
+審判がなければ発生しない
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 補・佐・助・催・促・詐・術・審・判・回・復・証・履・歴, and
+confirm each is standard Japanese (Jōyō) form, not Simplified Chinese. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the number of cards
+equals 6 exactly, with no duplicated or missing cards, confirm all 6
+badges and conclusion tags use the same blue color, confirm Card 4 and
+Card 6 each show two clearly separated side-by-side mini-scenes (not
+merged into one scene), confirm there is no intro illustration or
+paragraph block between the header and the cards, confirm that no card
+contains a full sentence of explanatory prose or a legal article number,
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```
