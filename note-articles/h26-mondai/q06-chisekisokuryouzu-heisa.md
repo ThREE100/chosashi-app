@@ -64,6 +64,8 @@
 
 地積測量図の閉鎖は「その土地自体について新たな分筆・更正等がされたとき」に問題になるものであり、他の土地の登記手続によって連鎖的に閉鎖されるものではない、という位置づけで整理しておくとよいでしょう。
 
+**正解：アエの組合せ（選択肢2番）**
+
 ### 補足：閉鎖されなかった地積測量図は、いつまで保管されるのか
 
 ア・イ・ウで「閉鎖されない」と説明した地積測量図は、その後いつまで登記所に保管され続けるのでしょうか。ここも実務の取扱いとあわせて押さえておきたいポイントです。
@@ -100,8 +102,6 @@
 
 Q6の肢エは、このうち2号「地目又は地番区域が相互に異なる土地の合筆の登記」にあたる場面（地目が異なる場合）を問うものです。地番区域・所有権登記名義人が同一で、しかも物理的に接続していても、「地目」という別の要素で制限に引っかかることがある、という点が本問のポイントです。
 
-**正解：アエの組合せ（選択肢2番）**
-
 ---
 
 **このまま使える点／使う前に確認したい点**
@@ -112,6 +112,7 @@ Q6の肢エは、このうち2号「地目又は地番区域が相互に異な�
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。登記事項の記録の変遷（地積測量図の閉鎖・合筆の制限・登記識別情報の通知）がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-16再実施）**：保存済みの法令データ（不動産登記規則85条2項、不動産登記法41条2号、同法21条、同規則28条13号）を通じて、ア・イ・ウ・エ・オすべての結論と、閉鎖されなかった地積測量図の保存期間（規則28条13号「永久（閉鎖したものにあっては、閉鎖した日から三十年間）」）を条文上確認しました。直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。
 - **補足（2026-08-16追記）**：肢エの根拠である不動産登記法41条（合筆の登記の制限）について、6号までの条文原文を引用し、初学者向けに各号を噛み砕いた補足解説を本文に追加しました。
+- **書式の修正（2026-09-18）**：既存の2つの補足（地積測量図の保存期間、合筆の登記ができない6つのケース）が、まとめ・結論文と正解の明記の間に配置されており、`format-template.md`の「正解の明記は先出し厳禁・必ず本文の最後」というルールから外れた並びになっていたため、正解の明記をまとめ・結論文の直後に移動し、2つの補足はその下（正解の明記より後）に並べる構成に修正しました。あわせて、この2つの補足を図解する「インフォグラフィック プロンプト（補足）」（保存期間の判定フロー、合筆の制限6号の早見表）を新規に作成・追加しました。内容自体（各肢の正誤・正解・補足の説明文）に変更はありません。
 
 ---
 
@@ -247,4 +248,156 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（補足）
+
+本文末尾の2つの補足（地積測量図の保存期間、合筆の登記ができない6つのケース）を図解する2枚。①は「閉鎖されているかどうか」で保存期間が分かれる判定フロー、②は不動産登記法41条の6つの号を1枚で一覧できる早見表。
+
+### 画像1：地積測量図の保存期間は「閉鎖されているか」で決まる（フローチャート／判定フロー型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, built
+as a single decision-flow panel.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+decision-flow poster, NOT a text-heavy explainer document. There is NO
+intro illustration and NO paragraph of prose anywhere on this poster — go
+straight from the header to the flowchart. Every node must communicate its
+point almost entirely through the illustration (icons, X marks,
+checkmarks, small embedded labels) plus a short label. Do NOT render any
+full-sentence explanation or legal citation anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 図・閉・鎖・保・存・期・
+間・久 — always draw the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+地積測量図、保存期間はここで決まる
+
+Subtitle (smaller, centered, 1行):
+不動産登記規則28条13号
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+Start node (rounded rectangle, isometric folder icon labeled "地積測量図"):
+この図面は、その後の分筆・更正等で閉鎖されているか？
+
+Down arrow to Decision node (diamond icon):
+閉鎖されているか？
+
+Branch left (red path, small tombstone/closed-folder icon, label
+「閉鎖されている」):
+Result node: 閉鎖した日から30年間保存
+
+Branch right (green path, small open-folder icon with a sparkle/infinity
+mark, label「閉鎖されていない」):
+Result node: 永久保存（現に効力を持つ図面として保存され続ける）
+
+--- FOOTER ---
+
+根拠条文：不動産登記規則28条13号。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm the
+flowchart has exactly one decision node with two branches (閉鎖されている
+／閉鎖されていない), confirm each branch's result node matches the
+Japanese text given above verbatim, confirm nothing is rendered below the
+FOOTER's small footnote text (no summary recap panel, no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is filled
+with a fully opaque background with no transparency or alpha channel
+anywhere.
+```
+
+### 画像2：合筆の登記ができない6つのケース（不動産登記法41条）（早見表型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), a rounded panel containing a clean two-column
+table, consistent with a modern explainer-graphic aesthetic (small
+isometric land-plot icons may decorate the header only; the body of the
+poster is a table, not illustrated cards).
+
+GLANCEABLE-TABLE REQUIREMENT (critical): This is a quick-reference table
+poster, NOT a text-heavy explainer document. There is NO intro illustration
+and NO paragraph of prose anywhere on this poster — go straight from the
+header to the table. Render the content strictly as a clean flat-design
+table with alternating row background colors, Japanese sans-serif font, no
+monospace font. Do NOT render any full-sentence explanation beyond the
+short phrases given below anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 号・筆・地・目・番・区・
+域・持・分・権 — always draw the standard Japanese (Jōyō) form.
+
+--- HEADER ---
+Title (large, bold, 1行):
+合筆の登記ができない6つのケース
+
+Subtitle (smaller, centered, 1行):
+不動産登記法41条
+
+（タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- TABLE (two columns: 号 / 内容の要約; 6 rows) ---
+
+Row 1
+号: 一号
+内容の要約: 相互に接続していない土地どうしの合筆
+
+Row 2
+号: 二号
+内容の要約: 地目又は地番区域が相互に異なる土地どうしの合筆
+
+Row 3
+号: 三号
+内容の要約: 表題部所有者又は所有権の登記名義人が相互に異なる土地どうしの合筆
+
+Row 4
+号: 四号
+内容の要約: 表題部所有者又は所有権の登記名義人の持分が相互に異なる土地どうしの合筆
+
+Row 5
+号: 五号
+内容の要約: 所有権の登記がない土地と所有権の登記がある土地との合筆
+
+Row 6
+号: 六号
+内容の要約: 所有権以外の権利に関する登記がある土地の合筆（内容が同一なら例外あり）
+
+Render as a clean flat-design table with alternating row background colors
+(pastel beige and white), a bold pastel-green badge in the 号 column
+showing the kanji numeral (一号〜六号), a Japanese sans-serif font, and no
+monospace font.
+
+--- FOOTER ---
+
+Q6の肢エは、このうち二号（地目が異なる場合）にあたる。根拠条文：不動産
+登記法41条。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the table has exactly 6 rows with no
+duplicated or missing rows, confirm the row order is 一号→六号 top to
+bottom, and confirm there is no intro illustration or paragraph block
+between the header and the table.
 ```
