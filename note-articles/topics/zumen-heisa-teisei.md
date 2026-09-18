@@ -28,6 +28,16 @@
 
 この3つのうち、特に見落とされやすいのが一号の限定です。「変更後又は更正後の図面がある場合に限る」とされているため、単純な錯誤の訂正などで新しい図面の提出を伴わない更正登記では、この一号にあたらず、古い図面は閉鎖されません。また、この3類型には分筆の登記・合筆の登記が含まれていない点も重要です。分筆や合筆の登記がされたというだけでは、他の図面（その登記自体に伴わない、別の過去の図面）は閉鎖されません。
 
+### 具体例で確認する：「閉鎖されない」3つのパターン
+
+限定列挙のルールだけでは実感が湧きにくいので、平成26年度午後の部第6問で実際に問われた3つのパターンにあてはめて確認しておきます。いずれも「閉鎖されない」が結論ですが、あてはめる3類型のどこにも該当しない理由がそれぞれ少しずつ異なります。
+
+- **パターン1：更正の登記があっても、それより前の分筆の登記の地積測量図は閉鎖されない**　→　あとにされた登記は「錯誤による地積の更正の登記」です。一号の「変更後又は更正後の図面がある場合」にあてはまるのは、あくまでその更正登記自体に伴って新しい地積測量図が提出された場合に限られます。単純な錯誤の訂正で新しい図面の提出を伴わないのであれば、一号の要件を満たさず、更正登記より前（先行する分筆の登記）の図面は閉鎖されません。
+- **パターン2：後の分筆の登記があっても、更正の登記の地積測量図は閉鎖されない**　→　あとにされた登記は「分筆の登記」です。分筆の登記は、規則85条2項の一号〜三号のどれにも該当しない登記類型であるため、それより前（先行する更正の登記）の図面は閉鎖されません。
+- **パターン3：合筆の登記があっても、別の土地の分筆の登記の地積測量図は閉鎖されない**　→　あとにされた登記は「合筆の登記」です。合筆の登記も、分筆の登記と同じく規則85条2項のどの号にも該当しません。しかも、この合筆の登記と、閉鎖されるかどうかが問われている分筆の登記の図面は、別の土地（あるいは同じ土地でも別の時点）の話であり、対象がそもそも噛み合っていません。合筆の登記自体が3類型に含まれない以上、他の図面にまで影響が及ぶことはありません。
+
+3つのパターンに共通するのは、「あとにされた登記が何であるか」を最初に特定し、それが規則85条2項の3類型（変更後・更正後の図面を伴う変更・更正登記／滅失登記・表題部抹消／換地処分の登記）のどれかに該当するかどうかだけで結論が決まる、という点です。分筆・合筆の登記は、そもそもこの3類型の入り口にすら立てないため、どのようなケースでも他の図面を閉鎖する効果を持ちません。
+
 ### 「訂正」とは何か、閉鎖とどう違うのか
 
 これに対して、規則16条（地図等の訂正）・88条（土地所在図等の訂正等）が定める「訂正」は、閉鎖とはまったく別の制度です。
@@ -342,6 +352,108 @@ kind), and confirm the entire canvas, edge to edge, is filled with a fully
 opaque background with no transparency or alpha channel anywhere.
 ```
 
+### 画像4：地積測量図等の閉鎖問題、考え方はこの順番（作図ガイド型）
+
+「〜の登記があったことで、〜の図面は閉鎖されるか」という形式の問題文を読んだときに、どの順番で何を確認すれば結論にたどり着けるかを示す、汎用の考え方フローチャート。特定の年度の事実関係に限定せず、地積測量図・土地所在図・建物図面・各階平面図の閉鎖が問われる問題全般に使える構成にしてある。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the other images in this set, built as a single
+general-purpose decision-flow panel (a reusable "how to think through this
+type of problem" study reference, not tied to one specific year's facts).
+
+DIAGRAM-GUIDE REQUIREMENT (critical): This panel's purpose is to show the
+reader exactly what order to check things in when they encounter ANY exam
+question of the form "〜の登記があったことで、〜の図面は閉鎖されるか"
+(land-plot/building icons, registry folder icons for 地積測量図・土地
+所在図・建物図面・各階平面図, diamond-shaped decision nodes, ○/✕ branch
+marks). Draw the diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No（あり/なし、
+該当する/該当しない）branch arrows, and final conclusion nodes. Unlike a
+glanceable summary poster, this panel MAY include short callout boxes with
+1-2 sentences that state the checking order in words, not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep all text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 図・閉・鎖・登・記・筆・
+合・更・正・滅・失・抹・消・換・地・処・分 — always draw the standard
+Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel — with a solid or illustrated opaque background.
+There must be no checkerboard pattern, no partially transparent area, and
+no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+図面は閉鎖されるか
+考え方はこの順番
+
+Subtitle (smaller, centered, 1行):
+不動産登記規則85条2項にあてはめる4ステップ
+
+（タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- FLOWCHART ---
+Step 1 node (rounded rectangle, isometric registry folder icon):
+まず、閉鎖されるかどうかが問われている「対象の図面」は、いつの・どの
+登記のときに提出されたものかを書き出す
+
+Down arrow to Step 2 node (rounded rectangle, document icon with a
+calendar):
+次に、問題文で原因とされている「あとにされた登記」が何かを書き出す
+（分筆／合筆／変更／更正／滅失／表題部抹消／換地処分のいずれか）
+
+Down arrow to Decision node 1（diamond icon、この図の中心）:
+その「あとにされた登記」は、規則85条2項の3類型（①変更後・更正後の図面を
+伴う変更・更正登記／②滅失登記・表題部抹消／③換地処分の登記）のいずれかに
+当たるか？
+
+Branch left（red path、label「あたらない」、小さな例として"分筆の登記
+だけ""合筆の登記だけ""新しい図面の提出を伴わない更正登記"のラベル）:
+Result node: 対象の図面は閉鎖されない
+
+Branch right（green path、label「あたる」）leading to Decision node 2
+（diamond icon）:
+閉鎖されるのは、その登記に対応する図面（変更前・更正前の図面／滅失前・
+抹消前の図面／従前の土地の図面）に限られる。対象の図面は、まさにその
+登記に対応する図面か？
+
+From Decision node 2, Branch left（red path、label「別の登記のときの
+図面（対象外）」）:
+Result node: 対象の図面は閉鎖されない
+
+From Decision node 2, Branch right（green path、label「まさにその図面」）:
+Result node: 対象の図面は閉鎖される
+
+--- FOOTER ---
+
+根拠条文：不動産登記規則85条2項。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the flowchart has exactly 2 diamond-shaped
+decision nodes in sequence (not merged into one), confirm each of the 3
+result nodes (2 saying「対象の図面は閉鎖されない」and 1 saying「対象の
+図面は閉鎖される」) matches the Japanese text given above verbatim,
+confirm nothing is rendered below the FOOTER's small footnote text (no
+summary recap panel, no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
+
 ---
 
 **このまま使える点／使う前に確認したい点**
@@ -351,6 +463,7 @@ opaque background with no transparency or alpha channel anywhere.
 - 不動産登記規則28条13号（保存期間）の条文本文は、`laws/fudousan-touki-kisoku-1.md`（「##### 第二十八条」の項）から実際にGrep・Readして確認したものです。
 - 「訂正と更正登記の優先関係」（88条1項ただし書の解釈）は、条文の文言そのものから導かれる結論であり、先例・実務書等の記載には依拠していません。
 - 「過去問での出題例」に挙げた平成26年度午後の部第6問は、本リポジトリの`h26-mondai/q06-chisekisokuryouzu-heisa.md`で解説済みの内容と整合させています。地図の訂正（規則16条）を直接のテーマとする過去問は他の年度にも複数回出題が確認できていますが（例：平成21年度・平成23年度・平成27年度・平成29年度・令和元年度・令和6年度・令和7年度の各午後の部）、本記事ではそれらの個別の肢内容までは再検証しておらず、具体的な年度・問題番号を挙げての断定的な引用はしていません。
+- **追記（2026-09-18）**：「具体例で確認する：『閉鎖されない』3つのパターン」を新規に追加し、平成26年度午後の部第6問のア・イ・ウそれぞれについて、規則85条2項のどの点で3類型にあたらないのかを個別に説明しました。あわせて、図面の閉鎖問題全般に使える汎用の考え方フローチャート（画像4）を追加しました。内容は本文の説明と整合しており、既存の画像1〜3・確認済みの条文根拠に変更はありません。
 
 ## 見出し画像用フレーズ
 
