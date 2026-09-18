@@ -198,3 +198,198 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a signpost icon splitting into 所有権 and
+賃借権などの財産権 for the single-check panel, and land-plot occupation
+timelines with diamond-shaped decision nodes, checkmarks (○) and cross
+marks (✕) at each branch, and a small baton-relay figure pair for the
+succession panels. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No（はい／いいえ）branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Panels 2
+and 3 (肢イ・肢ウ) share the same underlying decision-tree shape (占有開始
+時の善意無過失の確認 → その後の要件の変化の確認）; draw both with the same
+two-diamond tree layout, but highlight（太い縁取り・色を変える等で強調）the
+branch relevant to that panel's 肢. Panels 4 and 5 (肢エ・肢オ) likewise
+share the same decision-tree shape (占有の承継の有無の確認 → 最初の占有者
+の善意無過失の確認）; draw both with the same two-diamond tree layout,
+highlighting the branch relevant to that panel's 肢. Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成25年度午後第2問 ア〜オ
+作図ガイド（取得時効）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+時効取得の対象は所有権だけじゃない
+Diagram: An isometric signpost standing on 甲土地, splitting into two
+paths. The left path is labeled 所有権 and leads to a small article-tag
+162条. The right path is labeled 賃借権などの所有権以外の財産権 and leads
+to a small article-tag 163条. Both paths converge at the same green
+checkmark icon captioned 時効取得の対象になる。Beside the signpost, show
+Bが無権利者Cから借りた甲土地を継続して使用している isometric scene
+(a figure using the land, with a small dashed arrow from a distant
+figure labeled C showing C has no true right).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、時効取得の対象になっている権利が「所有権」なのか、それ以外の「賃借
+権のような財産権」なのかを確認します。所有権以外の財産権であっても、163
+条により時効取得の対象になります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+賃借権も時効取得できる
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+平穏・公然は期間中ずっと必要
+Diagram: A decision-tree flowchart on an isometric timeline of 甲土地の
+占有. Start node: 占有開始. First diamond node: 開始時、善意無過失か？
+with a はい arrow proceeding downward (いいえ側は薄いグレーで小さく描き、
+今回は関係しないことを示す程度でよい). Second diamond node (drawn with a
+thicker highlighted border since this is the branch this panel is about):
+占有期間中、平穏・公然のままか（隠匿に転じていないか）？with two branch
+arrows: いいえ（隠匿に転じた）leading to a red cross mark and a conclusion
+node reading 10年の時効は不成立; はい leading to a small grayed-out box
+captioned 次のパネルへ (indicating the shared tree continues in Panel 3).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず占有開始時に善意無過失だったかを確認し、次に、占有している期間中
+ずっと「平穏・公然」の状態が保たれていたかを確認します。途中で隠匿に転じ
+ると、この要件が途中で破れるため、10年の時効は成立しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+隠匿に転じたら不成立
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+善意無過失は「開始時」だけで足りる
+Diagram: The same decision-tree flowchart shape as Panel 2, on the same
+isometric timeline of 占有. Start node: 占有開始. First diamond node:
+開始時、善意無過失か？with a はい arrow proceeding downward. Second
+diamond node (drawn with a thicker highlighted border since this is the
+branch this panel is about, distinct from Panel 2's highlighted diamond):
+占有期間中に悪意に転じたか（真実に気づいてしまったか）？with the はい
+（悪意に転じた）branch leading NOT to a cross mark but to a green
+checkmark and a conclusion node reading 10年の時効は成立する, visually
+contrasting with Panel 2's red-cross outcome to show the two requirements
+behave differently.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず占有開始時に善意無過失だったかを確認します。次に、占有期間中に悪意に
+転じたとしても、善意無過失は「占有開始時点」だけで判断するため、時効の
+成立には影響しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+悪意に転じても成立する
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+承継したら最初の占有者で判断
+Diagram: A decision-tree flowchart combined with a relay-race isometric
+illustration. Start node: 占有を承継したか（前の占有者からのバトンタッチ）？
+with a はい arrow proceeding downward to a second diamond node (drawn
+with a thicker highlighted border): 最初の占有者（バトンを渡した人）は、
+占有開始時に善意無過失だったか？with the はい branch highlighted, leading
+to a conclusion node reading 10年の短期時効のルールを適用。Show the relay
+baton being passed from a first runner figure labeled 善意無過失 to a
+second runner figure labeled 悪意, with a green checkmark at a finish
+line marked 合計10年.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有を前の占有者から引き継いでいるかを確認します。引き継いでいる
+場合は、最初の占有者が占有を開始した時点で善意無過失だったかどうかを
+基準に、10年か20年かを判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+最初が善意なら10年で合算OK
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+最初の占有者が悪意なら20年必要
+Diagram: The same decision-tree flowchart shape as Panel 4, combined with
+a mirrored relay-race isometric illustration. Start node: 占有を承継した
+か（前の占有者からのバトンタッチ）？with a はい arrow proceeding downward
+to a second diamond node (drawn with a thicker highlighted border,
+distinct from Panel 4's highlighted branch): 最初の占有者（バトンを渡した
+人）は、占有開始時に善意無過失だったか？with the いいえ（悪意）branch
+highlighted, leading to a conclusion node reading 20年の長期時効のルール
+が必要。Show the relay baton being passed from a first runner figure
+labeled 悪意 to a second runner figure labeled 善意無過失, with a red
+cross mark at a finish line marked 合計10年では不足.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+承継した占有でも、基準になるのは常に最初の占有者が占有を開始した時点の
+状態です。最初の占有者が悪意であれば、10年の短期時効は使えず、20年の
+長期時効が必要になります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+最初が悪意なら20年必要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法162条2項（10年の取得時効の要件）・163条（所有権以外の財産権の時効
+取得）・187条2項（占有を承継した場合の善意悪意の判断基準）に基づく整理
+です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 占, 隠, 匿, 継, 悪, 償 and any character that has a visually
+similar Simplified Chinese variant. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 (肢イ・肢ウ・肢
+エ・肢オ) is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
