@@ -26,6 +26,18 @@
 
 **たとえば**、未成年のAさんが年齢を偽る身分証を提示してCさんに土地を売ったとしても、Cさんが実は近所に住んでいてAさんが高校生であることを前から知っていたという場合、Aさんの偽装工作はCさんの誤信を生んでいないので、Aさんはあとから契約を取り消すことができます。
 
+**ここが分かりにくいポイント**：
+条文（民法21条）は「詐術を用いたときは、取り消すことができない」とだけ定めているため、多くの受験生は「詐術があった→即・取消し不可」という一直線のルールとして覚えてしまいがちです。この理解のまま本肢を読むと、「Aは詐術を用いた」という事実だけで思考が止まり、「だから取り消すことができない（＝本肢は正しい）」と即断してしまいます。
+
+しかし、21条が未成年者の取消権を封じるのは、あくまで「詐術によって相手方が実際に成年者だと信じ込んだ」場合に限られます。詐術と、相手方の誤信との間に因果関係が必要というのが判例・通説の立場です。言い換えると、21条が働くには次の2つの要件がそろわなければなりません。
+
+1. 制限行為能力者が詐術を用いたこと
+2. その詐術によって、相手方が実際に「行為能力者だ」と誤信したこと
+
+本肢は、あえてこの2番目の要件を崩す事実（「Aが未成年であることをCが知っていた」＝Cは誤信していない）を付け加えることで、正誤判定を逆転させる作りになっています。相手方Cは、Aの詐術がどれだけ巧妙であっても、そもそも「Aは未成年だ」と知っている以上、誤信のしようがありません。誤信が生じていない以上、詐術と結果との間の因果関係が欠け、21条は適用されず、Aは契約を取り消すことができます。21条は「詐術という行為そのもの」にペナルティを科す規定ではなく、「相手方が実際に騙されたかどうか」を問う規定である、という視点を持っておくと、本肢のようなひねりにも対応できます。
+
+制限行為能力者制度そのものの基礎（未成年者の保護のしくみ）を先に整理しておきたい方は、[未成年者の基礎知識まとめ](../bunya-kaisetsu/01-mikoseinensha.md)もあわせてご覧ください。
+
 ### イ：未成年者は、成年に達する前でも法定代理人の同意があれば追認できる
 
 追認は、取消しの原因となっていた状況が消滅した後にしなければ効力を生じないのが原則ですが、制限行為能力者が法定代理人の同意を得て追認する場合は、この限りではありません。未成年者Aは、成年に達する前であっても、法定代理人Bの同意を得れば、単独で本件売買契約を追認することができます。
@@ -43,6 +55,18 @@
 取消権は、取消しの原因となっている契約の相手方（本件ではC）に対する意思表示によって行使します。契約の目的物がその後Cから転得者Dに転売されていたとしても、Aは転得者Dに対して個別に取消しの意思表示をする必要はなく、あくまで契約の相手方であるCに対して意思表示をすれば、取消しの効果は生じます。
 
 **たとえば**、AさんがCさんに売った土地を、Cさんがさらに知らない人であるDさんに転売してしまったとしても、Aさんが契約を取り消したいときは、直接の契約相手であるCさんに「契約を取り消します」と伝えれば足り、Dさんを探し出して意思表示をする必要はありません。
+
+**ここが分かりにくいポイント**：
+本肢には転得者D（Cから土地をさらに買った人）が登場するため、「Dは無関係な第三者なのだから、Dにも何らかの形で意思表示をするか、対抗要件を備えないと、取消しの効果をDに主張できないのではないか」と直感的に考えてしまいがちです。不動産登記法や民法の別の場面（民法177条の対抗要件、詐欺取消しにおける96条3項の善意の第三者保護など）で「第三者との関係」を繰り返し学ぶため、その感覚を本肢にもそのまま持ち込んでしまうのが、間違いの典型的なパターンです。
+
+しかし、「誰に対して取消しの意思表示をすべきか」という問題と、「取消しの効果を第三者にどう対抗するか」という問題は、まったく別のレイヤーの話です。
+
+1. **意思表示の相手方（民法123条）**：取消しは、常に契約の直接の相手方（本肢ではC）に対する意思表示によって行います。目的物がその後どれだけ転々と譲渡されていても、この「相手方」は変わりません。転得者Dに対して別途意思表示をする必要はありません。
+2. **第三者との対抗関係**：取消しの効果を、その後に登場した第三者（D）にどこまで主張できるかは、民法177条（対抗要件）や、詐欺取消しの場合の96条3項のような、意思表示の相手方の話とはまったく別の条文が定める論点です。
+
+本肢は、この2つのレイヤーを混同させることで、「Dが絡む以上、Dへの意思表示が必要」という誤った結論に誘導する作りになっています。意思表示の相手方は常にC（契約の直接の相手方）であり、Dとの関係は取消し後の対抗問題として別途処理される、という順序で理解しておくと、混同を防げます。
+
+第三者が絡む場面での「誰が保護されるか」の判定パターンを土地の権利変動の場面で整理しておきたい方は、[177条の「第三者」の判定パターン](../topics/taikouyouken-daisansha-5ruikei.md)もあわせてご覧ください。
 
 ### オ：成年に達した後、異議なく代金を受け取れば、取消しはできなくなる
 
@@ -71,6 +95,7 @@
 - 各肢の法的根拠は、`note-articles/laws/`のローカル法令データベース（`minpou-1-soukyoku-bukken.md`）で条文原文を確認しました。ア（民法21条「制限行為能力者が行為能力者であることを信じさせるため詐術を用いたときは、その行為を取り消すことができない」）は条文の文言そのもので確認できましたが、「相手方が最初から未成年であることを知っていた場合は詐術の効果が生じない（誤信との因果関係が必要）」という部分は条文に直接の明文はなく、判例・通説の理解によるものです。イ（民法124条2項2号「制限行為能力者（成年被後見人を除く。）が法定代理人…の同意を得て追認をするとき」は、同条1項の「取消しの原因となっていた状況が消滅し…た後」という要件の例外として明記されており、条文の文言そのもので確認できました）。ウ（民法20条2項。同項は1項後段「その期間内に確答を発しないときは、その行為を追認したものとみなす」の規律を法定代理人への催告に及ぼすものであり、条文の文言そのもので確認できました）。エ（民法123条「取り消すことができる行為の相手方が確定している場合には、その取消し…は、相手方に対する意思表示によってする」により、取消しの意思表示は契約の相手方Cにすれば足り、転得者Dへの意思表示は不要であることが条文の文言そのもので確認できました）。オ（民法125条1号「全部又は一部の履行」。この「履行」には取消権者が履行を受ける行為も含まれるとするのが判例・通説の解釈であり、条文の文言自体は履行を受ける側・する側を区別していません）。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。民法21条の詐術（行為能力者であることを信じさせる詐術）という一般論点自体は、H26年度第1問（被保佐人版）やR04年度第1問（詐術一般）でも繰り返し出題されていますが、本問アの「相手方が未成年者であることを知っていた場合でも詐術による取消制限が及ぶか」という具体的なひねりそのものの再出題は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**が、詐術という論点自体は頻出のため、note投稿時は他年度の解説と論旨が似すぎないよう注意してください。
 - **最新法令チェック（2026-08-16実施）**：相続登記義務化（不動産登記法76条の2、令和6年4月1日施行）・住所変更登記義務化（同法76条の5、令和8年4月1日施行、既に施行済み）は、いずれも不動産の表示・権利に関する登記の申請義務についての改正であり、本問が扱う未成年者の契約の取消し・追認（民法総則の行為能力の規律）とは論点が異なるため、影響はありません。
+- **間違いノート補足（2026-09-18追加）**：読者からア・エの結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「ここが分かりにくいポイント」の解説を追加しました。アは「詐術＝即取消し不可」という一直線の理解ではなく、詐術と相手方の誤信との因果関係が要件であること（相手方が悪意なら21条は適用されない）を、エは「意思表示の相手方（123条、常に契約の直接の相手方）」と「第三者との対抗関係（177条等の別問題）」という2つのレイヤーの混同が誤りの原因であることを、それぞれ説明しています。正誤判定・正解（アエの組合せ、選択肢2番）自体に変更はありません。あわせて、アの解説を関連付ける過程で`bunya-kaisetsu/01-mikoseinensha.md`の詐術（21条）に関する記述に、相手方の善意・悪意を問わないとする誤りを発見したため、別途訂正しました（本問の解説とは矛盾しない内容に統一済みです）。タイトルのキャッチフレーズ（「知っていたのに騙された」は通用しない）は、既にアの論点を的確に捉えているため変更していません。
 
 ---
 
@@ -200,4 +225,195 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア肢・間違いノート）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions and short explanatory sentences (1-3 sentences per
+callout box) labeled 「誤りやすいポイント」. Prioritize clarity and
+completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 詐・術・誤・信・果 —
+always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart — with a solid or illustrated opaque
+background. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold):
+詐術＝即・取消し不可、ではない
+
+Subtitle (smaller, centered):
+平成25年度 午後の部 第1問 肢ア－「相手が誤信したか」がカギ
+
+--- FLOWCHART ---
+
+NODE 1（開始ノード、丸型、グレー）:
+未成年者Aが「自分は成年だ」と
+信じさせるため詐術を用いた
+Illustration: An isometric young character (未成年者A) holding a small
+theatrical mask icon labeled 詐術（うそ・偽装）in front of their face,
+facing an adult character C.
+
+NODE 2（分岐条件、ひし形アイコン、黄色）:
+その詐術によって、相手方Cは
+実際に「Aは成年だ」と
+誤信したか？
+Illustration: A diamond-shaped decision icon showing character C's face
+with a large question mark, one side labeled 誤信した、もう一方 labeled
+誤信していない（最初から未成年と知っていた）.
+
+BRANCH「誤信した」（矢印、ラベル「誤信した」）→ NODE 3:
+NODE 3（結果ノード、赤系、✕アイコン）:
+21条が適用され、
+Aは取り消すことができない
+Illustration: An isometric padlock icon closing over a document labeled
+本件売買契約, with a red X mark next to a label 取消し.
+
+BRANCH「誤信していない」（矢印、ラベル「誤信していない」）→ NODE 4:
+NODE 4（結果ノード、緑系、✓アイコン）:
+21条は適用されず、
+Aは取り消すことができる
+Illustration: An isometric character A stamping a document labeled
+取消します with a green checkmark, while character C's face shows an
+icon 最初から知っていた next to them (no surprise expression).
+
+--- CALLOUT: 誤りやすいポイント ---
+条文の文言だけを見ると「詐術を用いた＝取消し不可」という一直線の
+ルールに見えますが、21条が働くのは「詐術によって相手方が実際に誤信
+した」場合に限られます。相手方が最初から未成年であることを知って
+いた場合は、詐術があっても誤信していないため、詐術と結果との因果
+関係が欠け、21条は適用されません。「詐術を使ったかどうか」ではなく
+「相手方が実際に騙されたかどうか」が判断の分かれ目です。
+
+--- FOOTER ---
+根拠条文：民法21条（制限行為能力者の詐術）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, node label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters,
+confirm nothing is rendered below the FOOTER's small footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with written explanations and short explanatory sentences (1-3 sentences
+per callout box) labeled 「誤りやすいポイント」. Prioritize clarity and
+completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 転・得・対・抗・条 —
+always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the comparison panel — with a solid or illustrated opaque
+background. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold):
+取消しの相手は、いつでもC
+
+Subtitle (smaller, centered):
+平成25年度 午後の部 第1問 肢エ－「意思表示の相手方」と「対抗要件」は別問題
+
+--- COMPARISON ---
+
+--- LEFT PANEL HEADER (pill-shaped badge, color: green) ---
+①意思表示の相手方（民法123条）
+
+--- LEFT PANEL ---
+Heading:
+取消しはCに言えば足りる
+Illustration: An isometric young character A sending a speech-bubble
+arrow labeled 取消します directly to the original contract-partner
+character C. A third character further away, labeled 転得者D, has a
+crossed-out arrow pointing toward them, showing no notice is needed.
+Quoted text box (render the article text exactly, verbatim):
+「取り消すことができる行為の相手方が確定している場合には、その取消
+し…は、相手方に対する意思表示によってする」（民法123条）
+
+--- RIGHT PANEL HEADER (pill-shaped badge, color: blue) ---
+②第三者との対抗関係（別の条文の話）
+
+--- RIGHT PANEL ---
+Heading:
+Dとの関係は、また別の問題
+Illustration: An isometric land plot changing hands from A to C to D
+with dotted arrows, next to a separate signpost icon labeled 177条・
+96条3項など（対抗要件・善意の第三者保護）, visually detached from the
+speech-bubble arrow in the LEFT panel to show it is a different topic.
+Quoted text box (render the article text exactly, verbatim):
+意思表示の相手方の話ではなく、取消し後にDにどこまで対抗できるかという
+別の論点
+
+--- CALLOUT: 誤りやすいポイント ---
+Dが登場すると「Dにも意思表示か対抗要件が必要では」と直感的に考えて
+しまいますが、これは間違いです。取消しの意思表示は常に契約の直接の
+相手方Cに対して行えば足り、目的物がその後どれだけ転々譲渡されても
+この相手方は変わりません。Dとの関係は、取消し後の対抗問題として別途
+処理される、まったく別のレイヤーの話です。
+
+--- FOOTER ---
+根拠条文：民法123条（取消し及び追認の方法）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, panel label, quoted text, and callout text matches the Japanese
+text given above verbatim, with no paraphrasing and no substituted
+characters, confirm nothing is rendered below the FOOTER's small footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
