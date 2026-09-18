@@ -8,7 +8,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 - ★★★ … ほぼ同一論点。最優先で相互リンクすべき
 - ★★ … 同じ制度・条文の別角度。リンク効果が高い
 - ★ … 隣接論点。余力があればリンク
-- 個別テーマ記事 … `topics/` `column/` `bunya-kaisetsu/` にある論点解説記事
+- 個別テーマ記事 … `topics/` `column/` にある論点解説記事
 
 ## 収録済み年度について
 
@@ -30,10 +30,10 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H25 第1問 未成年者の詐術](../h25-mondai/q01-miseinensha-sajutsu.md) | 詐術による取消し制限の考え方 |
 
 **個別テーマ記事**
-- [4類型の「同意・取消し・代理」を1枚で整理する（制限行為能力者総整理）](../bunya-kaisetsu/00-seigen-koui-nouryoku-sougou.md) ★★★
-- [成年被後見人を解説](../bunya-kaisetsu/02-seinen-hikouken-nin.md) ★★
-- [被保佐人を解説](../bunya-kaisetsu/03-hihosanin.md) ★★
-- [被補助人を解説](../bunya-kaisetsu/04-hihojonin.md) ★★
+- [4類型の「同意・取消し・代理」を1枚で整理する（制限行為能力者総整理）](../topics/seigen-koui-nouryoku-sougou.md) ★★★
+- [成年被後見人を解説](../topics/seinen-hikouken-nin.md) ★★
+- [被保佐人を解説](../topics/hihosanin.md) ★★
+- [被補助人を解説](../topics/hihojonin.md) ★★
 
 ---
 

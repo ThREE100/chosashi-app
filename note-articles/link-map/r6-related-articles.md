@@ -8,7 +8,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 - ★★★ … ほぼ同一論点。最優先で相互リンクすべき
 - ★★ … 同じ制度・条文の別角度。リンク効果が高い
 - ★ … 隣接論点。余力があればリンク
-- 個別テーマ記事 … `topics/` `column/` `bunya-kaisetsu/` にある論点解説記事
+- 個別テーマ記事 … `topics/` `column/` にある論点解説記事
 
 ## 収録済み年度について
 
@@ -31,9 +31,9 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H25 第1問 未成年者の詐術](../h25-mondai/q01-miseinensha-sajutsu.md) | 未成年者の追認・催告・取消しの相手方 |
 
 **個別テーマ記事**
-- [制限行為能力者を総整理（4類型の同意・取消し・代理を1枚で）](../bunya-kaisetsu/00-seigen-koui-nouryoku-sougou.md) ★★★
-- [制限行為能力者シリーズ：成年被後見人を解説（日用品以外は原則取消し可）](../bunya-kaisetsu/02-seinen-hikouken-nin.md) ★★★
-- [制限行為能力者シリーズ：被保佐人を解説](../bunya-kaisetsu/03-hihosanin.md) ★★
+- [制限行為能力者を総整理（4類型の同意・取消し・代理を1枚で）](../topics/seigen-koui-nouryoku-sougou.md) ★★★
+- [制限行為能力者シリーズ：成年被後見人を解説（日用品以外は原則取消し可）](../topics/seinen-hikouken-nin.md) ★★★
+- [制限行為能力者シリーズ：被保佐人を解説](../topics/hihosanin.md) ★★
 
 ---
 
@@ -257,7 +257,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [R2 第11問 建物の所在](../r2-mondai/q11-tatemono-shozai.md) | 仮換地の建物の所在記録・分割による所在変更 |
 | ★★ | [R4 第11問 建物の所在又は家屋番号](../r4-mondai/q11-tatemono-shozai.md) | 附属建物の所在記録・一棟の所在欄 |
 
-**個別テーマ記事**：[専有部分には「所在欄」がない（区分建物の附属建物の所在）](../bunya-kaisetsu/06-fuzoku-tatemono-shozai.md) ★★★
+**個別テーマ記事**：[専有部分には「所在欄」がない（区分建物の附属建物の所在）](../topics/fuzoku-tatemono-shozai.md) ★★★
 
 ---
 

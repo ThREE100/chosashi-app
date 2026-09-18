@@ -8,7 +8,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 - ★★★ … ほぼ同一論点。最優先で相互リンクすべき
 - ★★ … 同じ制度の別角度。リンク効果が高い
 - ★ … 隣接論点。余力があればリンク
-- 個別テーマ記事 … `topics/` `column/` `bunya-kaisetsu/` にある論点解説記事
+- 個別テーマ記事 … `topics/` `column/` にある論点解説記事
 
 ## 収録済み年度について
 
@@ -31,8 +31,8 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H25 第1問 未成年者の詐術](../h25-mondai/q01-miseinensha-sajutsu.md) | 詐術による取消し制限 |
 
 **個別テーマ記事**
-- [制限行為能力者を総整理（4類型の同意・取消し・代理を1枚で）](../bunya-kaisetsu/00-seigen-koui-nouryoku-sougou.md) ★★★
-- [制限行為能力者シリーズ：被保佐人を解説](../bunya-kaisetsu/03-hihosanin.md) ★★★
+- [制限行為能力者を総整理（4類型の同意・取消し・代理を1枚で）](../topics/seigen-koui-nouryoku-sougou.md) ★★★
+- [制限行為能力者シリーズ：被保佐人を解説](../topics/hihosanin.md) ★★★
 
 ---
 
@@ -106,7 +106,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H21 第6問 登記識別情報に関する証明](../h21-mondai/q06-shikibetsujoho-shomei.md) | 証明の請求権者・電子申請の可否 |
 | ★★ | [H28 第4問 登記識別情報](../h28-mondai/q04-toukishikibetsujouhou.md) | 提供できない場合の手続 |
 
-**個別テーマ記事**：[登記識別情報に関する証明の請求（代理請求に委任状は不要）](../bunya-kaisetsu/05-touki-shikibetsu-shoumei.md) ★★★
+**個別テーマ記事**：[登記識別情報に関する証明の請求（代理請求に委任状は不要）](../topics/touki-shikibetsu-shoumei.md) ★★★
 
 ---
 
@@ -220,7 +220,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H23 第14問 管轄](../h23-mondai/q14-kankatsu.md) | 管轄の決め手は主である建物 |
 | ★ | [R1 第4問 建物の管轄](../r1-mondai/q04-kankatsu-touki.md) | 管轄区域をまたぐ建物の変更登記 |
 
-**個別テーマ記事**：[専有部分には「所在欄」がない（区分建物の附属建物の所在）](../bunya-kaisetsu/06-fuzoku-tatemono-shozai.md) ★★★
+**個別テーマ記事**：[専有部分には「所在欄」がない（区分建物の附属建物の所在）](../topics/fuzoku-tatemono-shozai.md) ★★★
 
 ---
 

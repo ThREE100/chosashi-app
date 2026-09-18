@@ -8,7 +8,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 - ★★★ … ほぼ同一論点。最優先で相互リンクすべき
 - ★★ … 同じ制度・条文の別角度。リンク効果が高い
 - ★ … 隣接論点。余力があればリンク
-- 個別テーマ記事 … `topics/` `column/` `bunya-kaisetsu/` にある論点解説記事
+- 個別テーマ記事 … `topics/` `column/` にある論点解説記事
 
 ## 収録済み年度について
 
@@ -30,11 +30,11 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H26 第1問 成年後見・保佐・補助](../h26-mondai/q01-seinenkouken.md) | 3制度の審判要件・取消し・代理権の違い |
 
 **個別テーマ記事**
-- [4類型の「同意・取消し・代理」を1枚で整理する（制限行為能力者総整理）](../bunya-kaisetsu/00-seigen-koui-nouryoku-sougou.md) ★★★
-- [制限行為能力者シリーズ：未成年者](../bunya-kaisetsu/01-mikoseinensha.md) ★★
-- [制限行為能力者シリーズ：成年被後見人](../bunya-kaisetsu/02-seinen-hikouken-nin.md) ★★★
-- [制限行為能力者シリーズ：被保佐人](../bunya-kaisetsu/03-hihosanin.md) ★★★
-- [制限行為能力者シリーズ：被補助人](../bunya-kaisetsu/04-hihojonin.md) ★★★
+- [4類型の「同意・取消し・代理」を1枚で整理する（制限行為能力者総整理）](../topics/seigen-koui-nouryoku-sougou.md) ★★★
+- [制限行為能力者シリーズ：未成年者](../topics/mikoseinensha.md) ★★
+- [制限行為能力者シリーズ：成年被後見人](../topics/seinen-hikouken-nin.md) ★★★
+- [制限行為能力者シリーズ：被保佐人](../topics/hihosanin.md) ★★★
+- [制限行為能力者シリーズ：被補助人](../topics/hihojonin.md) ★★★
 
 ---
 
@@ -273,7 +273,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H23 第17問 附属建物](../h23-mondai/q17-fuzoku-tatemono.md) | 基礎を残した建替えでの図面要否 |
 | ★★★ | [H17 第8問 附属建物](../h17-mondai/q08-fuzoku-tatemono.md) | 管轄が異なる場合の附属建物 |
 
-**個別テーマ記事**：[専有部分には「所在欄」がないんです（区分建物の附属建物の所在の記録）](../bunya-kaisetsu/06-fuzoku-tatemono-shozai.md) ★★
+**個別テーマ記事**：[専有部分には「所在欄」がないんです（区分建物の附属建物の所在の記録）](../topics/fuzoku-tatemono-shozai.md) ★★
 
 ---
 
