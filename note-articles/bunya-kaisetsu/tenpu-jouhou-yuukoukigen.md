@@ -80,3 +80,264 @@
 - 「誰のため」で期限が変わる
 - 承諾書だけ、実は無期限
 - 年度基準を混ぜないで
+
+---
+
+## インフォグラフィック プロンプト
+
+以下は画像生成AI（GPT Image等）に投入するためのプロンプト文です。画像そのものはここでは生成しません。すべて縦長（ポートレート）レイアウトで作成しています。
+
+### 画像1：3か月ルールの分かれ目は「何のための書類か」（対比カードポスター型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, orange, beige, gray), a two-column comparison layout with
+rounded card sections in each column, consistent with a modern
+explainer-graphic aesthetic (icons: a document with a red hanko/seal
+stamp representing a personal seal certificate, a document with a
+building icon representing a corporate qualification certificate, a
+document with a small government-building icon representing a
+public-office-issued document, a document with a handshake icon
+representing a third party's consent, a document with a house icon
+representing a residence-proof document, a document with a badge/ID icon
+representing an identity-verification document, a document with a small
+family-tree icon representing a proof-of-inheritance document, a clock
+icon for the 3-month limit, an infinity icon for no limit — adapt icon
+set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+poster, NOT a text-heavy explainer document. There is NO paragraph of
+prose anywhere on this poster other than the short labels specified
+below. Every card must communicate its point almost entirely through its
+icon plus one short heading and one short sub-label. Do NOT render any
+full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke, paying
+particular attention to 証・証明・鑑・証・登・記・録・続・限・証拠 and
+similar-looking characters. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the two columns — with a solid or illustrated opaque
+background (a pale beige/gray tone is a good default). There must be no
+checkerboard pattern, no partially transparent area, and no unpainted
+canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+3か月ルールの分かれ目は
+「何のための書類か」
+
+Subtitle (smaller, centered, 1行):
+印鑑証明書かどうかでは決まらないんです
+
+（タイトル・サブタイトルのすぐ下に左右2列のカード群を続ける。導入イラスト・
+導入文のブロックは置かない。）
+
+--- LEFT COLUMN HEADER (pill-shaped badge, color: orange, with a small
+clock icon) ---
+3か月以内が必要
+
+--- LEFT CARD 1 ---
+Icon: a document with a red hanko/seal stamp icon.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+申請書に押印した印鑑証明書
+Sub-label (short, 1 line):
+記名押印の真正性を担保
+
+--- LEFT CARD 2 ---
+Icon: a document with a red hanko/seal stamp icon, next to a small
+signature-line icon representing a power-of-attorney document.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+委任状に押印した印鑑証明書
+Sub-label (short, 1 line):
+記名押印の真正性を担保
+
+--- LEFT CARD 3 ---
+Icon: a document with a small building icon.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+法人代表者の資格証明情報
+Sub-label (short, 1 line):
+番号を提供しない法人の場合
+
+--- LEFT CARD 4 ---
+Icon: a document with a small government-building icon.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+代理権限証明情報の官公署作成書面
+Sub-label (short, 1 line):
+成年後見登記事項証明書など
+
+--- RIGHT COLUMN HEADER (pill-shaped badge, color: green, with a small
+infinity icon) ---
+期限なし
+
+--- RIGHT CARD 1 ---
+Icon: a document with a handshake icon.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+第三者の承諾書に添付する印鑑証明書
+Sub-label (short, 1 line):
+押印の真正性の話ではない
+
+--- RIGHT CARD 2 ---
+Icon: a document with a small house icon.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+表題登記の住所を証する情報
+Sub-label (short, 1 line):
+住民票の写し・印鑑証明書等
+
+--- RIGHT CARD 3 ---
+Icon: a document with a badge/ID icon.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+資格者代理人の本人確認情報
+Sub-label (short, 1 line):
+登記識別情報を提供できない場合
+
+--- RIGHT CARD 4 ---
+Icon: a document with a small family-tree icon.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+相続を証する情報
+Sub-label (short, 1 line):
+戸籍謄本等
+
+--- FOOTER ---
+Footer banner (centered, 1行):
+決め手は「押印の真正性を担保するか」
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 証・鑑・録・続・限・拠・委・任・状・籍, and confirm each is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm there are exactly 2 columns, each
+containing exactly 4 cards (8 cards total), confirm the LEFT column's
+pill badge is orange with a clock icon and the RIGHT column's pill badge
+is green with an infinity icon, confirm no card contains a full sentence
+of explanatory prose or a legal citation, confirm every heading and
+sub-label matches the Japanese text given above verbatim with no
+omissions or extra labels, confirm the footer banner text is present
+exactly as given, and confirm the entire canvas, edge to edge, is filled
+with a fully opaque background with no transparency or alpha channel
+anywhere.
+```
+
+### 画像2：固定資産評価証明書だけは「日数」ではなく「年度」（タイムライン対比型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, orange, beige, gray), a horizontal calendar-timeline
+diagram with three stacked example rows, each row showing a document
+icon moving along a timeline toward a submission point, consistent with
+a modern explainer-graphic aesthetic (icons: a document with a small
+building/tax icon representing a fixed-asset valuation certificate, a
+calendar icon with April 1 marked as a boundary line, a checkmark icon,
+a red X icon — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
+poster, NOT a text-heavy explainer document. There is NO paragraph of
+prose anywhere on this poster other than the short labels specified
+below. Every timeline row must communicate its point almost entirely
+through the icons and the position of the document relative to the April
+1 boundary line, plus one short heading and one short conclusion tag. Do
+NOT render any full-sentence explanation or paragraph of body text
+anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard
+Japanese orthography exactly as written below, stroke-for-stroke, paying
+particular attention to 評・価・証・明・書・年・度・切・替. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the timeline rows — with a solid or illustrated opaque
+background (a pale beige/gray tone is a good default). There must be no
+checkerboard pattern, no partially transparent area, and no unpainted
+canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+固定資産評価証明書だけは
+「日数」ではなく「年度」
+
+Subtitle (smaller, centered, 1行):
+3か月以内でも、年度が変わればアウト
+
+（タイトル・サブタイトルのすぐ下に3本のタイムライン行を縦に並べる。導入
+イラスト・導入文のブロックは置かない。3本の行すべてに共通の横軸として、
+中央付近に縦の破線で「4月1日」の年度切り替わり線を描き、3行とも同じ
+横位置にこの線を揃える。）
+
+--- TIMELINE ROW 1 ---
+Row label (badge, color: red, small icon: red X):
+ケース1：3月に取得 → 4月以降に申請
+Illustration: A document icon labeled 評価証明書（3月取得）positioned to
+the LEFT of the April 1 dashed boundary line, with a short arrow moving
+it to a submission-point icon positioned to the RIGHT of the boundary
+line (labeled 申請日：4月以降). A small day-count tag near the document
+reads 発行から3か月以内 to make clear the document is still within 3
+months by day-count.
+Conclusion tag (red banner, 5-15 Japanese characters):
+年度が変わったため使えない
+
+--- TIMELINE ROW 2 ---
+Row label (badge, color: green, small icon: checkmark):
+ケース2：3月に取得 → 3月中に申請
+Illustration: The same document icon labeled 評価証明書（3月取得）
+positioned to the LEFT of the April 1 dashed boundary line, with a short
+arrow moving it to a submission-point icon that is ALSO positioned to
+the LEFT of the boundary line, in the same fiscal year (labeled
+申請日：3月中).
+Conclusion tag (green banner, 5-15 Japanese characters):
+同じ年度なので使える
+
+--- TIMELINE ROW 3 ---
+Row label (badge, color: green, small icon: checkmark):
+ケース3：前年6月に取得 → 同年度内に申請
+Illustration: A document icon labeled 評価証明書（前年6月取得）positioned
+well to the LEFT of the April 1 dashed boundary line (visually further
+left than Rows 1-2, to suggest a longer elapsed time), with a small
+day-count tag reading 発行から3か月超 near the document, moving via an
+arrow to a submission-point icon that is also positioned to the LEFT of
+the SAME April 1 boundary line, still within the same fiscal year
+(labeled 申請日：同年度内).
+Conclusion tag (green banner, 5-15 Japanese characters):
+発行から3か月超でも使える
+
+--- FOOTER ---
+Footer banner (centered, 1行):
+基準は「発行日からの日数」ではなく「年度」
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 評・価・証・明・書・年・度・切・替・発・行, and confirm each
+is standard Japanese (Jōyō) form, not Simplified Chinese. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm there are exactly 3 timeline rows,
+each crossing the same vertically-aligned April 1 dashed boundary line at
+the same horizontal position, confirm Row 1 is the only row where the
+document crosses from the left side to the right side of the boundary
+line (and is styled red with a X icon and the conclusion 年度が変わった
+ため使えない), confirm Rows 2 and 3 both keep the document and its
+submission point on the LEFT side of the boundary line throughout (styled
+green with checkmark icons), confirm Row 3's document is drawn starting
+further to the left than Rows 1-2 to indicate a longer elapsed time while
+still reaching a green conclusion, confirm no row contains a full
+sentence of explanatory prose, confirm the footer banner text is present
+exactly as given, and confirm the entire canvas, edge to edge, is filled
+with a fully opaque background with no transparency or alpha channel
+anywhere.
+```
