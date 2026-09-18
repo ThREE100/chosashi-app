@@ -34,10 +34,11 @@
 
 委任状に添付する印鑑証明書は、不動産登記令18条2項により原則として必要ですが、不動産登記規則49条2項は、この印鑑証明書の添付を省略できる場合を次のとおり限定的に列挙しています。土地家屋調査士会発行の職印証明書は、このいずれにも当たらないため、単独では省略事由になりません。
 
-・法人の代表者や代理人が委任状に記名押印した場合で、その法人の会社法人等番号を申請情報に記載したとき（登記官がその会社法人等番号から印鑑証明書を作成できる場合に限ります）
-・委任状について、公証人（またはこれに準ずる者）の認証を受けた場合（Q8の肢ウはこのケースです）
-・成年後見人など裁判所が選任した人が、その職務として申請する際、裁判所書記官が作成した印鑑証明書が添付されている場合
-・復代理人によって申請する場合に、代理人が復代理人の権限を証する書面に記名押印したとき　など
+・1号　法人の代表者や代理人が委任状に記名押印した場合で、その法人の会社法人等番号を申請情報に記載したとき（登記官がその会社法人等番号から印鑑証明書を作成できる場合に限ります）
+・2号　委任状について、公証人（またはこれに準ずる者）の認証を受けた場合（Q8の肢ウはこのケースです）
+・3号　成年後見人など裁判所が選任した人が、その職務として申請する際、裁判所書記官が作成した印鑑証明書が添付されている場合
+・4号　規則48条1項4号・5号が準用される場合（登記識別情報の提供・通知に関する一定の類型に該当する申請人についての技術的な例外規定で、通常はここまで踏み込んで覚える必要はありません）
+・5号　復代理人によって申請する場合に、代理人が復代理人の権限を証する書面に記名押印したとき
 
 つまり、印鑑証明書の省略が認められるのは、「公的な機関（法務局・公証人・裁判所）が別の方法で本人性を確認できる仕組みが用意されている場合」に限られており、調査士会という業界団体が発行する証明書だけでは、この仕組みの代わりにはならない、と整理しておくと覚えやすいでしょう。
 
@@ -81,6 +82,7 @@ Aが署名して公証人の認証を受けた委任状を提供するときは�
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。表示に関する登記の申請における添付情報の省略可否がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-16再実施）**：保存済みの法令データ（不動産登記規則36条4項、不動産登記令18条2項、不動産登記規則49条2項）により肢イ・ウ・オを新たに条文上確認しました。表示に関する登記の申請における添付情報（不動産登記令・不動産登記規則関連）について他の肢もあわせて確認しましたが、直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。
 - **補足（2026-08-16追記）**：肢イについて、印鑑証明書の省略が認められる具体的なケース（不動産登記規則49条2項1号〜5号）を本文に補足しました。
+- **補足の訂正・図解の追加（2026-09-18）**：上記補足の5つの箇条書きが、規則49条2項の実際の号立て（1号〜5号）のうち4号（規則48条1項4号・5号の準用、登記識別情報の提供・通知に関する一定の類型に該当する申請人についての技術的な例外）を欠落させたまま4項目しか列挙していなかったため、`laws/fudousan-touki-kisoku-1.md`（「###### 第四十九条」の項）を改めてGrep・Readし、5号立てすべてを号番号付きで本文に反映しました。あわせて、この補足を図解する「インフォグラフィック プロンプト（肢イ補足）」を新規に作成・追加しました。肢イ自体の正誤判定・正解（イエの組合せ、選択肢3番）に変更はありません。
 
 ---
 
@@ -215,4 +217,118 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（肢イ補足）
+
+本文の補足「印鑑証明書の省略が認められる場合とは（不動産登記規則49条2項）」を図解する1枚。5つの号すべてに共通する「公的な機関が別の方法で本人性を確認できる仕組みが用意されている場合に限られる」という軸を、号ごとにどの機関が確認するかで色分けして示す。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections, consistent with the
+same visual language as the whole-problem poster for this article.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, X marks, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster. If a piece of information cannot be expressed as a
+short label (a few words) or drawn as an icon, leave it out rather than
+writing it as prose.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters. Pay special attention to the
+kanji 印・鑑・証・明・委・任・状・公・証・人・裁・判・所・復・代・理 —
+these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+--- HEADER ---
+Title (large, bold, 1行):
+印鑑証明書、省略できるのはこの5つだけ
+
+Subtitle (smaller, centered, 1行):
+不動産登記規則49条2項（限定列挙）
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- CARD 1 ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+会社法人等番号を記載したとき
+Illustration: An isometric company representative stamping a 委任状 with
+a name seal, beside a small card labeled "会社法人等番号". An arrow points
+to a registry desk (法務局) where a registry officer icon checks the
+number against a database screen, with a green checkmark.
+Conclusion tag (a short colored banner/pill directly below the
+illustration, green, 5-15 Japanese characters, a keyword phrase — NOT a
+sentence, NOT a legal citation):
+法務局が番号で確認
+
+--- CARD 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+公証人の認証を受けた委任状
+Illustration: An isometric notary office (公証役場) where a person signs
+a 委任状 and receives a stamp labeled "公証人の認証", with a green
+checkmark.
+Conclusion tag:
+公証人が確認
+
+--- CARD 3 ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+裁判所書記官作成の印鑑証明書
+Illustration: An isometric courthouse icon where a 裁判所書記官 stamps a
+document labeled "印鑑に関する証明書" for a court-appointed person (成年
+後見人等), with a green checkmark.
+Conclusion tag:
+裁判所が確認
+
+--- CARD 4 ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+登記識別情報関連の特殊な類型
+Illustration: A small, visually de-emphasized isometric registry desk
+icon with a document stamped "登記識別情報" and a small label "技術的な
+例外類型". Render this card slightly smaller and more muted in color than
+the other 4 cards to signal it is a minor technical exception.
+Conclusion tag:
+覚える優先度は低い
+
+--- CARD 5 ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+復代理人の権限証書に代理人が記名押印
+Illustration: An isometric 代理人 stamping a name seal on a document
+labeled "復代理人の権限を証する書面", handing it to a 復代理人 character
+who proceeds toward the registry desk, with a green checkmark.
+Conclusion tag:
+代理人の押印で足りる
+
+--- FOOTER ---
+
+いずれも「公的な機関が別の方法で本人性を確認できる仕組みがある場合」に
+限られる。調査士会発行の職印証明書はこの5つのいずれにも当たらない。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 5 exactly, with
+no duplicated or missing cards, badge numbers run 1-5 continuously,
+confirm there is no intro illustration or paragraph block between the
+header and the cards, and confirm that no card contains a full sentence of
+explanatory prose — every card's takeaway must read as a short heading + a
+short conclusion tag, at a glance.
 ```
