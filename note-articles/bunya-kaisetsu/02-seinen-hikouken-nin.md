@@ -38,13 +38,6 @@
 
 **成年被後見人自身は代理権を持たない。持つのは成年後見人の方**：条文の主語を読み違えやすい点として、「財産に関する法律行為一般について包括的な代理権を持つ」のは、保護される側の成年被後見人ではなく、保護する側の成年後見人です（859条1項）。試験問題でも、主語（後見人か被後見人か）を入れ替えるひっかけには注意が必要です。
 
-### インフォグラフィック設計メモ
-
-- **形式**：中央に大きく「原則：全部取消し可」というボックスを置き、そこから唯一の例外（日用品の購入等）を矢印で分岐させる、「原則・例外」型の1枚図。
-- **左側**：成年被後見人本人の行為（原則✕・例外の日用品だけ○）を色分け表示。
-- **右側**：成年後見人の権限として「財産管理権＋包括的代理権（859条1項）」を大きく表示し、「居住用不動産の処分だけは家庭裁判所の許可が必要（859条の3）」という注記を添える。
-- **下部**：「相手方の善意・悪意は関係ない」という吹き出しを目立つ色で配置し、頻出のひっかけであることを強調する。
-
 ### 覚えておくべきポイントのまとめ
 
 - 成年被後見人＝精神上の障害により事理を弁識する能力を欠く常況にある者で、家庭裁判所の後見開始の審判を受けた者（7条、8条）。
@@ -79,3 +72,211 @@
 3. 代理権、持つのは後見人
 4. 成年被後見人の核心はコレ
 5. 善意でも取り消されます
+
+---
+
+## インフォグラフィック プロンプト
+
+以下は画像生成AI（GPT Image等）に投入するためのプロンプト文です。画像そのものはここでは生成しません。すべて縦長（ポートレート）レイアウトで作成しています。
+
+### 画像1：成年被後見人ができること・できないこと（俯瞰カードポスター型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1300 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections each containing a small
+illustration, consistent with a modern explainer-graphic aesthetic (icons:
+an isometric adult figure labeled 成年被後見人, contract/document icons, a
+red rewind/undo arrow representing a legal act being cancelled, a small
+grocery-store shelf icon, a shopkeeper figure with a thought bubble —
+adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, arrows, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+成年被後見人ができること・できないこと
+
+Subtitle (smaller, centered, 1行):
+原則すべて取消し可、例外は日用品の購入だけ
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。原則を表すカード1は赤バッジ・赤い結論タグ、例外を表す
+カード2は緑バッジ・緑の結論タグ、例外の補足であるカード3は青バッジ・青の
+結論タグとする。）
+
+--- CARD 1 ---
+Badge: a filled circle in red containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+原則：すべて取消し可
+Illustration: An isometric adult figure labeled 成年被後見人 signing
+several documents at a desk (a real-estate contract, a loan agreement),
+each overlaid with a red rewind/undo arrow icon and a small red 取消
+stamp.
+Conclusion tag (red banner, 5-15 Japanese characters):
+原則：取消しできる
+
+--- CARD 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+日用品の購入だけは取消せない
+Illustration: The same adult figure at a small grocery-store shelf,
+picking up food items and daily goods, a green checkmark icon, no undo
+arrow present.
+Conclusion tag (green banner, 5-15 Japanese characters):
+取消しできない
+
+--- CARD 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+相手が知っていても結論は同じ
+Illustration: A shopkeeper figure with two side-by-side thought bubbles —
+one showing a question mark labeled 知らない, the other showing a
+checkmark and the label 知っている — both bubbles connect via arrows
+down to the SAME single green checkmark result icon at the bottom, making
+clear the outcome does not change either way.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+善意・悪意は無関係
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 後・見・購・入・棄・却・善・悪, and confirm each is standard
+Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 3 exactly, with no
+duplicated or missing cards, confirm Card 1 uses a red badge/tag, Card 2 a
+green badge/tag, and Card 3 a blue badge/tag, confirm Card 3's two thought
+bubbles both lead to the same single result icon rather than two different
+results, confirm there is no intro illustration or paragraph block
+between the header and the cards, confirm that no card contains a full
+sentence of explanatory prose, confirm nothing is rendered below Card 3
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid,
+and no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+### 画像2：成年後見人が持つ権限（俯瞰カードポスター型）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1300 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded card sections each containing a small
+illustration, consistent with a modern explainer-graphic aesthetic (icons:
+an isometric guardian figure labeled 成年後見人, an isometric adult figure
+labeled 成年被後見人, a key/document icon, a house icon, a courthouse or
+gavel icon, a hanko stamp — adapt icon set to the topic).
+
+GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
+NOT a text-heavy explainer document. There is NO intro illustration and NO
+paragraph of prose anywhere on this poster — go straight from the header
+to the cards. Every card must communicate its point almost entirely
+through the illustration (icons, arrows, checkmarks, small embedded
+labels) plus one short heading and one short conclusion tag. Do NOT render
+any full-sentence explanation, legal citation, or paragraph of body text
+anywhere on the poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Every kanji must match standard Japanese
+orthography exactly as written below, stroke-for-stroke. Reproduce the
+exact text strings given below verbatim — do not paraphrase, translate,
+summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+成年後見人が持つ権限
+
+Subtitle (smaller, centered, 1行):
+財産管理と代理権を包括的に、住む家の処分だけは許可制
+
+（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
+ブロックは置かない。列を分けないため、カード1・2は青バッジ・青の結論タグ、
+注意点であるカード3はオレンジバッジ・オレンジの結論タグとする。）
+
+--- CARD 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+代理権を持つのは「後見人」の方
+Illustration: Two isometric person figures drawn side by side at the same
+height — on the left, a figure labeled 成年被後見人 with a red prohibition
+circle over a small 代理 label; on the right, a figure labeled 成年後見人
+holding a large key/document icon labeled 代理, with a green checkmark
+next to the guardian's figure only.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+被後見人には権限なし
+
+--- CARD 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+財産に関する行為を包括的に代理
+Illustration: The 成年後見人 figure standing beside a cluster of icons
+representing 財産 (a bank passbook, a contract document, a stack of
+coins), with a single large green checkmark spanning all of them, and no
+individual court-seal stamp attached to any one item.
+Conclusion tag (blue banner, 5-15 Japanese characters):
+審判で個別指定 不要
+
+--- CARD 3 ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line, ~20 Japanese characters or fewer):
+住む家の処分だけは許可が必要
+Illustration: The 成年後見人 figure holding a house icon (labeled 居住用
+不動産) in one hand while reaching toward a small courthouse/gavel icon
+with the other hand, with a hanko stamp labeled 許可 placed between them.
+Conclusion tag (orange banner, 5-15 Japanese characters):
+家庭裁判所の許可必須
+
+--- FOOTER ---
+
+Final check before rendering: scan every kanji glyph, paying special
+attention to 後・見・許・可・居・住・処・分・裁・判, and confirm each is
+standard Japanese (Jōyō) form, not Simplified Chinese. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the number of cards equals 3 exactly, with
+no duplicated or missing cards, confirm Cards 1-2 use a blue badge/tag and
+Card 3 uses an orange badge/tag, confirm Card 1 shows the prohibition
+circle only on the 成年被後見人 side and the checkmark only on the
+成年後見人 side, confirm there is no intro illustration or paragraph
+block between the header and the cards, confirm that no card contains a
+full sentence of explanatory prose, confirm nothing is rendered below
+Card 3 (no summary recap panel, no trophy or medal icon, no re-listed
+○/✕ grid, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

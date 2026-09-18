@@ -101,6 +101,15 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 登記識別情報に関する証明とは
@@ -173,9 +182,11 @@ form. Confirm the number of cards equals 5 exactly (3 in
 column A, 2 in column B), with no duplicated or missing cards, that badge
 numbers run 1-5 continuously across both columns without resetting,
 confirm there is no intro illustration or paragraph block between the
-header and the cards, and confirm that no card contains a full sentence of
+header and the cards, confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading + a
-short conclusion tag, at a glance.
+short conclusion tag, at a glance — and confirm the entire canvas, edge to
+edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
 ```
 
 ### 画像2：資格者代理人が代理請求するとき、必要な情報・不要な情報（対比表型）
@@ -203,6 +214,16 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the two columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -244,8 +265,10 @@ a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the LEFT column has exactly 2 items and the
 RIGHT column has exactly 4 items, with no duplicated or missing items,
 confirm there is no intro illustration or paragraph block between the
-header and the columns, and confirm that no item contains a full sentence
-of explanatory prose.
+header and the columns, confirm that no item contains a full sentence
+of explanatory prose, and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
 
 ### 画像3：委任状不要の特例は「証明請求」だけ、他の制度と混同しない（対比表型）
@@ -274,6 +297,16 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the comparison blocks — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -320,8 +353,10 @@ a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm there are exactly 2 comparison blocks
 stacked vertically, each with a LEFT and RIGHT side, with no duplicated or
 missing blocks, confirm there is no intro illustration or paragraph block
-between the header and the comparison blocks, and confirm that no item
-contains a full sentence of explanatory prose.
+between the header and the comparison blocks, confirm that no item
+contains a full sentence of explanatory prose, and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
 
 ---
