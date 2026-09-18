@@ -42,6 +42,17 @@
 
 **たとえば**、甲建物の附属建物である倉庫が、隣接する乙建物と一体化して合体したとします。この場合、甲建物からその附属建物を切り離す分割の登記と、合体による登記等とは、1つの申請情報にまとめて申請することはできず、それぞれ別の申請情報によって個別に申請しなければなりません。
 
+**ここが分かりにくいポイント**：
+本肢の文章は「一の申請情報によって申請しなければならない」という、いかにも「義務があるかどうか」を問うているように読めます。この読み方のまま考えると、「一括申請が義務でないなら、この肢は誤り」「一括申請できる場合もあるはずだから、この肢は誤り」というように、あくまで「義務・任意」の軸で正誤を判断してしまいがちです。実はこの記事も、以前の版では同じ理由でこの肢の法的根拠を誤って説明していました。
+
+しかし、この肢の急所は「義務かどうか」ではなく、そもそも「一の申請情報によって申請することができるかどうか」という一段階手前の問題にあります。次の順序で確認してください。
+
+1. まず、複数の登記を1つの申請情報にまとめてよいのは、不動産登記規則35条が号数で限定的に認めた場合に限られます（不動産登記令4条の「一の不動産ごとに申請する」という原則の例外）。
+2. 規則35条を確認すると、建物の分割の登記と建物の合併の登記を一の申請情報で申請できる場合（2号・3号）はありますが、建物の分割の登記と合体による登記等の組合せは、10号のどこにも規定されていません。
+3. 規定がない以上、この組合せはそもそも「一の申請情報で申請すること」自体ができません。「義務ではないが、やろうと思えばできる」という選択肢は存在せず、「常にできない」というのが正しい結論です。
+
+つまり本肢は、「義務ではない」から誤りなのではなく、「そもそもできない」ことを「しなければならない」と述べている点が誤りです。一登記一申請の原則とその例外について基礎から確認したい場合は、[一登記一申請の原則とその例外を解説した記事](../topics/ittouki-isshinsei-gensoku.md)もあわせて参照してください。
+
 ### 補足：「分割＋合併」はできるのに、「分割＋合体」はできないのはなぜか
 
 不動産登記法54条は、建物の合併の登記を「表題登記がある建物を登記記録上他の表題登記がある建物の附属建物とする登記」と定義しています。つまり合併の登記は、すでに完成している建物の表題登記どうしを、登記記録の上で組み替えるだけの手続であり、新たに表題登記を作成することも、既存の表題登記を抹消することもありません。建物の分割の登記も同様に、附属建物を登記記録上切り分けて独立した一個の建物にするだけの手続です（54条1号）。分割と合併は、どちらも「すでにある登記記録を組み替えるだけ」という共通の性質を持つ手続どうしなので、一の申請情報にまとめることが認められています。
@@ -57,6 +68,13 @@
 合体前の建物の所有権の登記名義人の住所に変更があった場合でも、その変更があったことを証する情報を添付情報として提供すれば、あらためて所有権の登記名義人の住所の変更の登記をすることなく、合体による登記等を申請することができます。表示に関する登記に共通する、前提登記省略の取扱いです。
 
 **たとえば**、合体前の建物の所有者であるAさんが引っ越しをして住所が変わっていたとします。この場合でも、Aさんの住民票の写しなど住所変更を証する書類を提出すれば、あらためて住所変更の登記を経ることなく、そのまま合体による登記等を申請することができます。
+
+**ここが分かりにくいポイント**：
+「登記記録上の情報が古いまま（住所が変わっている）では、次の登記を申請できないはずだ」という感覚から、「まず住所変更の登記を済ませてからでないと、合体による登記等は申請できないのでは」と考えて、本肢の「住所の変更の登記をすることなく…申請することができる」という記述を誤りだと判断してしまいがちです。「前の登記記録を最新の状態にしてから、次の登記に進む」という順序を思い浮かべる感覚は自然なものです。
+
+しかし、表示に関する登記の実務では、登記名義人の氏名・住所が変わっていること自体は、あらためて変更登記を経なくても、その変更があったことを証する情報（住民票の写しなど）を添付情報として提供すれば足りる、という扱いが広く採られています。これは、表示に関する登記が「不動産の現況を公示する」ことを主眼としており、登記名義人本人の氏名・住所の同一性さえ書類で確認できれば足り、あらためて別個の変更登記という手続を経由させる必要性が乏しいためです。
+
+「変更があった事実」と「変更の登記を経ること」は別物であり、前者を証明できれば後者を省略できる場面があるという点を意識すると、同じ発想が問われる他の登記の場面でも迷わず判断できるようになります。
 
 ### まとめ
 
@@ -80,6 +98,7 @@
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。合体による登記等がテーマ。R05第16問も同じ「合体による登記等」がテーマですが、問われている肢の内容（表題登記の申請義務・相続人による単独申請・登録免許税等）は完全に異なり、同一問題ではありません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-06再実施）**：保存済みの法令データ（登録免許税法別表第一・一（一）、不動産登記法49条）で肢イの税率と合体による登記等の手続の根拠を条文上確認しました。通常の建物に対するこの税率自体は長期間変更されておらず（住宅用家屋の軽減税率の特例は本問の対象外）、計算結果（7万2,000円）に影響する法改正は見当たりません。他の肢についても、合体による登記等に関する規定に変更された事実は見当たりませんでした。
 - **重要な訂正（2026-08-17）**：肢エについて、以前の版では「分割登記との一括申請が常に必要というわけではない（一括申請できる場合もある）」という趣旨で解説していましたが、これはユーザーからのご指摘を受けて不動産登記令4条・不動産登記規則35条を精査した結果、誤りであったことが判明しました。同規則35条は、複数の登記を一の申請情報で申請できる場合を限定列挙しており、建物の分割の登記と建物の合併の登記の組合せ（2号・3号）は含まれていますが、建物の分割の登記と合体による登記等の組合せは含まれていません。したがって、分割の登記と合体による登記等は、常に別々の申請情報によって個別に申請しなければならず、一括申請という選択肢自体が存在しません（「必須ではないが、できないわけでもない」という以前の解説は誤りで、正しくは「常にできない」です）。肢エ自体の正誤判定（誤り＝選択肢4番に変更なし）と結論の方向性は変わりませんが、その法的根拠と説明が変わりましたので、本文・まとめ・見出し画像用フレーズ・インフォグラフィックを訂正しました。
+- **分かりにくいポイントの追加（2026-09-18）**：エ・オ両肢について、正誤の結論には納得できても、なぜそうなるのか自力でたどり着けなかった、というフィードバックを受け、「ここが分かりにくいポイント」を本文に追加しました。エは、上記「重要な訂正」で実際にこの記事自身が陥った「義務・任意」の軸で読んでしまう誤読パターンを取り上げ、「そもそも一の申請情報で申請できるかどうか」という一段階手前の問題であることを整理しました。あわせて、一登記一申請の原則を基礎から解説する個別テーマ記事へのリンクを追加しました。オは、「前の登記記録を最新化してから次の登記に進むはず」という順序の思い込みに焦点を当て、表示に関する登記では変更の事実を証する情報の提供によって前提の変更登記を省略できる場面があることを説明しました。オの根拠条文については、本文中の既存の確認事項に記載のとおり、逐条的な引用元までは特定できていません。あわせて、この2肢を図解する「インフォグラフィック プロンプト（エ肢・間違いノート）」「インフォグラフィック プロンプト（オ肢・間違いノート）」を追加しました。正誤判定・正解の組合せ自体（ウオの組合せ、選択肢4番）は変更していません。
 
 ---
 
@@ -317,4 +336,159 @@ paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+肢エでつまずきやすいのは、「一の申請情報によって申請しなければならない」という文言を「義務があるかどうか」の問題だと誤読してしまう点です。「義務・任意」の軸ではなく「そもそもできるかどうか」の軸で判断すべきことを対比で示します。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), a rounded panel containing a clean two-column
+comparison, consistent with the same visual language as the whole-problem
+poster for this article, built as a single detailed explainer panel.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with quoted article text and short explanatory sentences (1-3 sentences
+per callout box) labeled「誤りやすいポイント」or similar. Prioritize
+clarity and completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 義・務・任・意・申・請・
+情・報・限・定・列・挙 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the comparison panel — with a solid or illustrated opaque
+background. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold):
+「義務かどうか」ではなく「できるかどうか」
+
+Subtitle (smaller, centered):
+平成26年度 午後の部 第17問 エ－一の申請情報で申請できる場合の限定列挙
+
+--- COMPARISON ---
+LEFT PANEL (beige, heading「ありがちな誤読」):
+肢の文言「一の申請情報によって申請しなければならない」を、
+「一括申請が義務かどうか」という軸で読んでしまう
+→「義務ではないはず」「できる場合もあるはず」と考えて判断に迷う
+
+RIGHT PANEL (green, heading「正しい読み方」):
+そもそも「一の申請情報によって申請することができるか」を確認する
+規則35条の限定列挙に、分割の登記＋合体による登記等の組合せは
+含まれていない
+→ できる／できないの話であり、常に別々に申請するほかない
+
+--- CALLOUT: 誤りやすいポイント ---
+この記事自身も、以前の版で「一括申請は必須ではないが、できないわけでも
+ない」と誤って解説していました。「義務・任意」の軸で読むと、規則35条の
+限定列挙という一段階手前の確認を見落としてしまいます。まず「できるか
+どうか」を確認し、できない以上は義務・任意を論じる余地もない、という
+順序で考えてください。
+
+--- FOOTER ---
+根拠条文：不動産登記令4条、不動産登記規則35条（1号〜10号の限定列挙）。
+判例・先例の具体的な番号はここには書かない。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, panel label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters,
+confirm the LEFT and RIGHT panels are aligned at the same height item by
+item, confirm nothing is rendered below the FOOTER's small footnote text
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid,
+and no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・間違いノート）
+
+肢オでつまずきやすいのは、「前の登記記録を最新の状態にしてから、次の登記に進むはず」という手続の順序に関する思い込みです。権利に関する登記の感覚と、表示に関する登記における前提登記省略の扱いとの違いを対比で示します。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), a rounded panel containing a clean two-column
+comparison, consistent with the same visual language as the whole-problem
+poster for this article, built as a single detailed explainer panel.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with quoted article text and short explanatory sentences (1-3 sentences
+per callout box) labeled「誤りやすいポイント」or similar. Prioritize
+clarity and completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 住・所・変・更・証・
+明・前・提・省・略 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the comparison panel — with a solid or illustrated opaque
+background. There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold):
+「事実の証明」で足りる場面がある
+
+Subtitle (smaller, centered):
+平成26年度 午後の部 第17問 オ－前提の住所変更登記を省略できる理由
+
+--- COMPARISON ---
+LEFT PANEL (beige, heading「ありがちな思い込み」):
+登記記録上の住所が古いままでは、次の登記を申請できないはず
+→ まず住所変更の登記を済ませてから、合体による登記等を申請するはず
+
+RIGHT PANEL (green, heading「正しい理解」):
+住所の変更があったことを証する情報（住民票の写し等）を提供すれば足りる
+→ あらためて住所変更の登記を経ることなく、合体による登記等を申請できる
+
+--- CALLOUT: 誤りやすいポイント ---
+「前の登記記録を最新化してから次に進む」という順序は、直感的には自然な
+感覚です。しかし表示に関する登記の実務では、「変更があった事実」と
+「変更の登記を経ること」は別物として扱われ、前者を書類で証明できれば
+後者の手続を省略できる場面があります。
+
+--- FOOTER ---
+本肢の結論は、表示に関する登記における前提登記省略の一般的な取扱いに
+基づく整理であり、条文上の逐条的な根拠までは確認できていません。判例・
+先例の具体的な番号はここには書かない。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+heading, panel label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters,
+confirm the LEFT and RIGHT panels are aligned at the same height item by
+item, confirm nothing is rendered below the FOOTER's small footnote text
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid,
+and no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
