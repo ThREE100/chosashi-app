@@ -81,6 +81,16 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the two columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 専有部分には「所在欄」がないんです
@@ -119,8 +129,10 @@ Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly 2 columns (LEFT and RIGHT), each with
 exactly one illustration and one conclusion tag, with no duplicated or
 missing elements, confirm there is no intro illustration or paragraph
-block between the header and the columns, and confirm that no item
-contains a full sentence of explanatory prose.
+block between the header and the columns, confirm that no item
+contains a full sentence of explanatory prose, and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
 
 ### 画像2：附属建物が区分建物である場合、構造欄に追加で記録する4つの事項（俯瞰カードポスター型）
@@ -152,6 +164,15 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -208,10 +229,11 @@ Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the number of cards equals 4 exactly, with no
 duplicated or missing cards, confirm there is no intro illustration or
-paragraph block between the header and the cards, and confirm that no
+paragraph block between the header and the cards, confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance — and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
