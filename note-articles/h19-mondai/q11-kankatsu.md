@@ -118,15 +118,25 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 轄・録・属・確・埋・証・権・所・登・記 — these must be rendered in
-their standard Japanese forms, never as Simplified Chinese variants.
+kanji 轄・録・属・確・埋・証・権・所・登・記・請・変 — these must be
+rendered in their standard Japanese forms, never as Simplified Chinese
+variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 登記所の管轄、5つの基本ルール
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第11問－登記所の管轄
+登記所の管轄（平成19年度 午前の部 第11問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -192,11 +202,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 轄・録・属・確・埋・証・権. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, confirm there is no intro illustration or paragraph block
-between the header and the cards, and confirm that no card contains a
-full sentence of explanatory prose — every card's takeaway must read as
-a short heading + a short conclusion tag, at a glance.
+attention to 轄・録・属・確・埋・証・権・請・変. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, confirm there is no intro illustration or
+paragraph block between the header and the cards, confirm that no card
+contains a full sentence of explanatory prose — every card's takeaway
+must read as a short heading + a short conclusion tag, at a glance — and
+confirm the entire canvas, edge to edge, is filled with a fully opaque
+background with no transparency or alpha channel anywhere.
 ```
