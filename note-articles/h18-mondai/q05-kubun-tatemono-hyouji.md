@@ -120,12 +120,22 @@ summarize, or substitute any characters. Characters such as「登」「記」
 confused with Simplified Chinese variants — render them only in standard
 Japanese (Jōyō) form.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 区分建物の表題登記、合併・一括申請の落とし穴
 
 Subtitle (smaller, centered, 1行):
-平成18年度　午後の部　第5問　不動産登記法(区分建物の表示登記)
+不動産登記法(区分建物の表示登記) (平成18年度 午後の部 第5問)
 
 --- CARD 1 ---
 Badge: a filled circle in blue containing the number 1.
@@ -201,5 +211,5 @@ with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```

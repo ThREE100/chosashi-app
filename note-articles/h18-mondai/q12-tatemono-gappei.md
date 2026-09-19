@@ -118,13 +118,23 @@ kanji 号・録・権・地・番・建・物・登・記・所・併・続・�
 have Simplified Chinese look-alike forms with visibly different stroke
 shapes — always draw the standard Japanese (Jōyō) form of these characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 2行):
 抵当権者の承諾書があっても
 合併できないんです
 
 Subtitle (smaller, centered, 1行):
-建物合併の登記、5つの制限事由を整理する（平成18年度 午後の部 第12問）
+建物合併の登記、5つの制限事由を整理する (平成18年度 午後の部 第12問)
 
 --- CARD 1 ---
 Badge: a filled circle in blue containing the number 1.
@@ -194,5 +204,5 @@ character in the correct Japanese form. Confirm the number of cards equals
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
