@@ -112,10 +112,10 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. In particular, the kanji 権 and
-認 appear repeatedly (代理権・表見代理・追認 など) and must be drawn in
-their standard Japanese forms — never as the Simplified Chinese variants
-权 and 认.
+summarize, or substitute any characters. In particular, the kanji 権, 過,
+失, and 認 appear repeatedly (代理権・表見代理・追認・本人に過失なし など)
+and must be drawn in their standard Japanese forms — never as the
+Simplified Chinese variants of these characters.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -202,7 +202,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay special
-attention to 権 and 認. If any character renders as a Simplified Chinese
+attention to 権, 過, 失, and 認. If any character renders as a Simplified Chinese
 variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly, with no duplicated or missing cards,
 confirm there is no intro illustration or paragraph block between the

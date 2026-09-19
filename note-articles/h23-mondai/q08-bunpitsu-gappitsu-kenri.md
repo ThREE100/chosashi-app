@@ -119,9 +119,9 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・証・録・筆 — these must be rendered in their standard Japanese
+kanji 権・証・録・筆・錯・誤 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants (e.g. 権 not 权, 証 not 证,
-録 not 录, 筆 not 笔).
+録 not 录, 筆 not 笔, 錯 not 错, 誤 not 误).
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -194,7 +194,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 権・証・録・筆. If any character renders as a Simplified
+attention to 権・証・録・筆・錯・誤. If any character renders as a Simplified
 Chinese variant, redraw that character in the correct Japanese form.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm badge numbers run 1-5 continuously across both
@@ -224,7 +224,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・登・記・録・復・誤・筆, which have Simplified Chinese look-alike
+kanji 権・登・記・録・復・錯・誤・筆, which have Simplified Chinese look-alike
 forms with visibly different stroke shapes — always draw the standard
 Japanese (Jōyō) form of these characters.
 
@@ -295,7 +295,7 @@ Small credit text in the corner (optional, keep minimal):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・登・記・録・復・誤・筆. If any character renders as a
+attention to 権・登・記・録・復・錯・誤・筆. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the number of cards equals 4 exactly, with no duplicated or
 missing cards, and confirm every heading, illustration label, and caption
