@@ -38,7 +38,7 @@
 
 ### エ：「正当な理由」は不通知・失効の場合に限られない
 
-不動産登記法22条ただし書は、登記識別情報を提供することができないことにつき正当な理由がある場合には、登記識別情報の提供を要しないと定めています。不動産登記事務取扱手続準則42条1項は、この「正当な理由がある場合」として、登記識別情報が通知されなかった場合、登記識別情報の失効の申出に基づいて登記識別情報が失効した場合のほか、登記識別情報を失念した場合、登記識別情報を提供することにより登記識別情報の管理上の支障が生ずることとなる場合の四つを挙げています。学生エの「…の場合に限り」という限定は、失念の場合や管理上の支障が生ずる場合など他の正当な理由を排除してしまっており、誤りです。
+不動産登記法22条ただし書は、登記識別情報を提供することができないことにつき正当な理由がある場合には、登記識別情報の提供を要しないと定めています。不動産登記事務取扱手続準則42条1項は、この「正当な理由がある場合」として、登記識別情報が通知されなかった場合、登記識別情報の失効の申出に基づいて登記識別情報が失効した場合のほか、登記識別情報を失念した場合、登記識別情報を提供することにより登記識別情報の管理上の支障が生ずることとなる場合、登記識別情報を提供したとすれば申請に係る不動産の取引を円滑に行うことができないおそれがある場合の五つを挙げています。学生エの「…の場合に限り」という限定は、失念の場合や管理上の支障が生ずる場合など他の正当な理由を排除してしまっており、誤りです。
 
 **たとえば**、権利証代わりに受け取っていた登記識別情報の通知書を、引っ越しのどさくさで誤って処分してしまったケースは、「通知されなかった」わけでも「失効の申出をした」わけでもありませんが、それでも「正当な理由」に当たるものとして、登記識別情報を提供せずに登記の申請をすることができます。
 
@@ -173,11 +173,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
-「正当な理由」は4パターン
-Illustration: Four small isometric cards laid out in a row, each labeled
-respectively 「通知されなかった」「失効の申出」「失念」「管理上の支障」,
-all four topped with the same green checkmark stamp reading 「正当な理由」
-to show they are treated equally.
+「正当な理由」は5パターン
+Illustration: Five small isometric cards laid out in a row, each labeled
+respectively 「通知されなかった」「失効の申出」「失念」「管理上の支障」
+「取引に支障」, all five topped with the same green checkmark stamp reading
+「正当な理由」 to show they are treated equally.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 失念も含まれる
 

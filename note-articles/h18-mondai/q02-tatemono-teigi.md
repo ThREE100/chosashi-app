@@ -93,6 +93,7 @@
 
 ## インフォグラフィック生成プロンプト（問題全体）
 
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -217,6 +218,7 @@ no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
+```
 
 ## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
 
