@@ -254,7 +254,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-基・準・点・恒・久・的・地・物・筆・界・混・同 — always draw the standard
+基・準・点・恒・久・的・地・物・筆・界・混・同・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -318,7 +318,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-基・準・点・恒・久・的・地・物・筆・界・混・同. If any character renders
+基・準・点・恒・久・的・地・物・筆・界・混・同・誤. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm there are exactly two side-by-side panels (red 地図
 の測量 on the left, green 地積測量図の測量 on the right), confirm both

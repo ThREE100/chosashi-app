@@ -278,7 +278,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-法・人・格・合・併・消・滅・承・継・商・号・変・更・同 — always draw the
+法・人・格・合・併・消・滅・承・継・商・号・変・更・同・相・続・誤 — always draw the
 standard Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -337,7 +337,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-法・人・格・合・併・消・滅・承・継・商・号・変・更. If any character
+法・人・格・合・併・消・滅・承・継・商・号・変・更・相・続・誤. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm there are exactly two side-by-side panels
 (red ア on the left, green イ on the right) beneath a single shared
@@ -378,7 +378,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-共・有・者・持・分・更・正・申・請・承・諾・単・独 — always draw the
+共・有・者・持・分・更・正・申・請・承・諾・単・独・誤 — always draw the
 standard Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -432,7 +432,7 @@ width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-共・有・者・持・分・更・正・申・請・承・諾・単・独. If any character
+共・有・者・持・分・更・正・申・請・承・諾・単・独・誤. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm there are exactly two side-by-side panels
 (red naive-reasoning panel on the left, green correct-reasoning panel on

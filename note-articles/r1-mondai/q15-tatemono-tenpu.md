@@ -115,7 +115,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・権・証・明・情・報・登・記・識・別・電・子・署・名・印・鑑・会・社・法・人・番・住・所・続・覧・図
+kanji 地・権・証・明・情・報・登・記・識・別・電・子・署・名・印・鑑・会・社・法・人・番・住・所・続・覧・図・相
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
 

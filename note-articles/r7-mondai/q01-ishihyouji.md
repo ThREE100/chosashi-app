@@ -547,7 +547,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-心・裡・留・保・詐・欺・善・悪・過・失・混・同 — always draw the standard
+心・裡・留・保・詐・欺・善・悪・過・失・混・同・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -615,7 +615,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-心・裡・留・保・詐・欺・善・悪・過・失・混・同. If any character renders
+心・裡・留・保・詐・欺・善・悪・過・失・混・同・誤. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm there are exactly two side-by-side panels (green
 心裡留保 on the left, blue 詐欺 on the right), confirm both quoted article

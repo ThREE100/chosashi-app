@@ -113,7 +113,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-characters 号・録・権・建・物・登・記・所・更・変, which appear repeatedly
+characters 号・録・権・建・物・登・記・所・更・変・誤, which appear repeatedly
 below and have forms that differ significantly from their Simplified
 Chinese counterparts — render them in their standard Japanese (Jōyō) form
 only.
@@ -199,7 +199,7 @@ legal citation):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Pay especially
-close attention to 号・録・権・建・物・登・記・所・更・変 and confirm none
+close attention to 号・録・権・建・物・登・記・所・更・変・誤 and confirm none
 of them has drifted into a Simplified Chinese variant; if any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly

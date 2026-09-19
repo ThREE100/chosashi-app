@@ -279,7 +279,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 契・約・不・適・合・
-責・任・瑕・疵・担・保・代・理・悪・知 — always draw the standard
+責・任・瑕・疵・担・保・代・理・悪・知・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -334,7 +334,7 @@ claim is still possible.
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 契・約・不・適・合・責・任・瑕・疵・担・保・代・理・悪・知.
+attention to 契・約・不・適・合・責・任・瑕・疵・担・保・代・理・悪・知・誤.
 Confirm every heading, panel label, and callout text matches the Japanese
 text given above verbatim, with no paraphrasing and no substituted
 characters, and confirm the entire canvas, edge to edge, is filled with a
@@ -366,7 +366,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 代・理・権・限・外・
-表・見・成・立・基・本・正・当 — always draw the standard Japanese
+表・見・成・立・基・本・正・当・誤 — always draw the standard Japanese
 (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -416,7 +416,7 @@ without ever reaching Step 2.
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 代・理・権・限・外・表・見・成・立・基・本・正・当. Confirm
+attention to 代・理・権・限・外・表・見・成・立・基・本・正・当・誤. Confirm
 every heading, node label, and callout text matches the Japanese text
 given above verbatim, with no paraphrasing and no substituted characters,
 and confirm the entire canvas, edge to edge, is filled with a fully

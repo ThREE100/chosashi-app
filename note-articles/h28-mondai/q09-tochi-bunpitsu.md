@@ -295,7 +295,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 記・名・押・印・契・
-続・申・請・書, which have Simplified Chinese look-alike forms with
+続・申・請・書・誤, which have Simplified Chinese look-alike forms with
 visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
@@ -348,7 +348,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 記・名・押・印・契・続・申・請・書. If any character renders
+attention to 記・名・押・印・契・続・申・請・書・誤. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm every heading, panel label, and callout text
 matches the Japanese text given above verbatim, with no paraphrasing and
@@ -389,7 +389,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 精・度・区・分・街・
-村・農・耕・林・野・基・準, which have Simplified Chinese look-alike forms
+村・農・耕・林・野・基・準・誤, which have Simplified Chinese look-alike forms
 with visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
@@ -443,7 +443,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 精・度・区・分・街・村・農・耕・林・野・基・準. If any
+attention to 精・度・区・分・街・村・農・耕・林・野・基・準・誤. If any
 character renders as a Simplified Chinese variant, redraw that character
 in the correct Japanese form. Confirm every heading, panel label, and
 callout text matches the Japanese text given above verbatim, with no

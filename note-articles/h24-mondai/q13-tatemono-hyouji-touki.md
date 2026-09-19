@@ -112,7 +112,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 床・面・積・更・正・改・築・共・用・規・約・廃・止・行・政・区・画・合・体
+kanji 床・面・積・誤・更・正・改・築・共・用・規・約・廃・止・行・政・区・画・合・体
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
 

@@ -265,7 +265,7 @@ Conclusion tag (orange banner, 5-15 Japanese characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph, paying special
-attention to 後・見・許・可・居・住・処・分・裁・判, and confirm each is
+attention to 後・見・許・可・居・住・処・分・裁・判・家・庭・所, and confirm each is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 3 exactly, with

@@ -254,7 +254,7 @@ even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 登・記・申・請・受・任・義・務・第・三・者・欠・除・外・対・抗・譲・渡・
-益・権 — always draw the standard Japanese (Jōyō) form.
+益・権・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

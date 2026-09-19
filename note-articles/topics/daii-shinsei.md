@@ -261,7 +261,7 @@ only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. This table contains many instances of
 kanji that are easily confused with Simplified Chinese variants — 号・録・
-権・地・番・建・物・登・記・所 in particular — draw each of these in its
+権・地・番・建・物・登・記・所・相・続 in particular — draw each of these in its
 correct standard Japanese (Jōyō) form, not the simplified Chinese form.
 Every kanji must match standard Japanese orthography exactly as written
 below, stroke-for-stroke. Reproduce the exact text strings given below
@@ -307,7 +307,7 @@ and reproduce each cell string verbatim without paraphrasing.
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
+attention to 号・録・権・地・番・建・物・登・記・所・相・続. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the table has exactly 7 data rows, with no
 duplicated or missing rows, confirm the title displays "(1/2)", confirm

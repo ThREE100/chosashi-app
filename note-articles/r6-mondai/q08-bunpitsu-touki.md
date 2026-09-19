@@ -140,7 +140,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・番・地・登・記・所 — these must be rendered in their standard
+kanji 号・番・地・登・記・所・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -261,7 +261,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-表・題・部・所・有・権・名・義・管・轄・原・因 — always draw the standard
+表・題・部・所・有・権・名・義・管・轄・原・因・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -322,7 +322,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-表・題・部・所・有・権・名・義・管・轄・原・因. If any character renders
+表・題・部・所・有・権・名・義・管・轄・原・因・誤. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm there are exactly two side-by-side panels (red 直
 感的な誤解 on the left, green 条文が定める本当の条件 on the right),
@@ -362,7 +362,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-添・付・情・報・申・請・相・続・一・覧・図・略 — always draw the standard
+添・付・情・報・申・請・相・続・一・覧・図・略・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -423,7 +423,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-添・付・情・報・申・請・相・続・一・覧・図・略. If any character renders
+添・付・情・報・申・請・相・続・一・覧・図・略・誤. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm there are exactly two side-by-side panels (green 添
 付情報のレベル on the left, red 申請情報のレベル on the right), confirm

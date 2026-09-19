@@ -199,7 +199,7 @@ Final check, not near the header): This table has exactly 6 data rows plus
 missing rows. This is part (1/2) of a two-part table; part (2/2) continues
 with the remaining rows covering 調査士法人の届出 in a separate image. Pay
 special attention to the kanji 調, 査, 登, 録, 号, 届, 出, 経, 由, 連, 合,
-会, 務, 局 — render every one of them in standard Japanese (Jōyō) form,
+会, 務, 局, 相, 続 — render every one of them in standard Japanese (Jōyō) form,
 never in Simplified Chinese form, even though some of these characters
 have visually similar Simplified Chinese counterparts.
 

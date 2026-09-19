@@ -314,7 +314,7 @@ Conclusion tag (blue banner, 5-15 Japanese characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph, paying special
-attention to 襲・欠・格・廃・除・棄・続, and confirm each is standard Japanese
+attention to 襲・欠・格・廃・除・棄・続・相, and confirm each is standard Japanese
 (Jōyō) form, not Simplified Chinese. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the number of cards equals 4 exactly, with no duplicated or
@@ -452,7 +452,7 @@ Conclusion tag (red banner, 5-15 Japanese characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph, paying special
-attention to 属・卑・縁・組・胎・児・偶・尊, and confirm each is standard
+attention to 属・卑・縁・組・胎・児・偶・尊・相・続, and confirm each is standard
 Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the number of cards equals 4 exactly, with no
@@ -567,7 +567,7 @@ Right conclusion tag: 甥・姪で打ち止め
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph, paying special
-attention to 襲・甥・姪・続・限, and confirm each is standard Japanese
+attention to 襲・甥・姪・続・限・相, and confirm each is standard Japanese
 (Jōyō) form, not Simplified Chinese. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly 2 columns (LEFT and RIGHT), each
@@ -674,7 +674,7 @@ rounded rectangle result node, styled green with a checkmark icon):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph, paying special
-attention to 続・襲・卑・属・縁・組・胎・児・偶・甥, and confirm each is
+attention to 続・襲・卑・属・縁・組・胎・児・偶・甥・相, and confirm each is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the flowchart has exactly 3 diamond

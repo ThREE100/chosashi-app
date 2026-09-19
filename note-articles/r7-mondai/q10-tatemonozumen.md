@@ -250,7 +250,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 建・物・図・面・敷・地・
-位・置・形・状・階・床・積・登・記・規・則・条・項 — always draw the
+位・置・形・状・階・床・積・登・記・規・則・条・項・誤 — always draw the
 standard Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -327,7 +327,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 建・物・図・面・階・合・
-併・単・位・規・約・共・用・部・分・廃・止・登・記 — always draw the
+併・単・位・規・約・共・用・部・分・廃・止・登・記・誤 — always draw the
 standard Japanese (Jōyō) form.
 
 --- HEADER ---

@@ -119,7 +119,7 @@ only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke, paying
-particular attention to 証・証明・鑑・証・登・記・録・続・限・証拠 and
+particular attention to 証・証明・鑑・証・登・記・録・続・限・証拠・相 and
 similar-looking characters. Reproduce the exact text strings given below
 verbatim — do not paraphrase, translate, summarize, or substitute any
 characters.
@@ -214,7 +214,7 @@ Footer banner (centered, 1行):
 決め手は「押印の真正性を担保するか」
 
 Final check before rendering: scan every kanji glyph, paying special
-attention to 証・鑑・録・続・限・拠・委・任・状・籍, and confirm each is
+attention to 証・鑑・録・続・限・拠・委・任・状・籍・相, and confirm each is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm there are exactly 2 columns, each

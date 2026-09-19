@@ -249,7 +249,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 分・筆・登・記・表・題・
-権・利・部・持・移・転・判・決・証・共・有・単・独 — always draw the
+権・利・部・持・移・転・判・決・証・共・有・単・独・誤 — always draw the
 standard Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -328,7 +328,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 地・上・権・抵・当・消・
-滅・登・記・名・義・人・承・諾・第・三・者 — always draw the standard
+滅・登・記・名・義・人・承・諾・第・三・者・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---

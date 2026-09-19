@@ -114,7 +114,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・建・物・登・記・所, which appear repeatedly below and have
+kanji 権・建・物・登・記・所・相・続, which appear repeatedly below and have
 Simplified Chinese variants with visibly different stroke shapes — always
 draw the standard Japanese (Jōyō) form.
 
@@ -191,7 +191,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially for
-権・建・物・登・記・所. If any character renders as a Simplified Chinese
+権・建・物・登・記・所・相・続. If any character renders as a Simplified Chinese
 variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly, with badge numbers running 1-5
 continuously across both columns without resetting (3 cards in column A:

@@ -120,7 +120,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 住・所・変・更・登・記・共・有・者・保・存・移・転・株・式・名・称・持・分・正・承・諾・単・独・申・請・証・明
+kanji 住・所・変・更・登・記・共・有・者・保・存・移・転・株・式・名・称・持・分・正・承・諾・単・独・申・請・証・明・相・続
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
 
@@ -322,7 +322,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 調・査・司・書・士・権・利・表・示・登・記・業・際・続・保・存,
+kanji 調・査・司・書・士・権・利・表・示・登・記・業・際・続・保・存・相,
 which have Simplified Chinese look-alike forms with visibly different
 stroke shapes — always draw the standard Japanese (Jōyō) form of these
 characters.
@@ -381,7 +381,7 @@ Small credit text in the corner (optional, keep minimal):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 調・査・司・書・士・権・利・表・示・登・記・業・際・続・保・存.
+attention to 調・査・司・書・士・権・利・表・示・登・記・業・際・続・保・存・相.
 If any character renders as a Simplified Chinese variant, redraw that
 character in the correct Japanese form. Confirm the number of cards
 equals 3 exactly, with no duplicated or missing cards, and confirm every

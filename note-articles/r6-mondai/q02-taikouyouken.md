@@ -149,7 +149,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・登・記・所 — these must be rendered in their standard
+kanji 権・地・登・記・所・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -393,7 +393,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権, 登, 記, 承, 継, 占, 拠, 背, 信, 欠, 缺 and any character
+attention to 権, 登, 記, 承, 継, 占, 拠, 背, 信, 欠, 缺, 相, 続 and any character
 that has a visually similar Simplified Chinese variant. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
@@ -439,7 +439,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-権・登・記・者・承・継・占・拠・背・信・欠・缺 — always draw the standard
+権・登・記・者・承・継・占・拠・背・信・欠・缺・誤・相・続 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -488,7 +488,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-権・登・記・者・承・継・占・拠・背・信・欠・缺. If any character renders
+権・登・記・者・承・継・占・拠・背・信・欠・缺・誤・相・続. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm there are exactly 5 rows (ア・イ・ウ・エ・オ) with
 no duplicated or missing rows, confirm the quoted definition text matches
@@ -529,7 +529,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-悪・意・背・信・登・記・欠・缺・者 — always draw the standard Japanese
+悪・意・背・信・登・記・欠・缺・者・誤 — always draw the standard Japanese
 (Jōyō) form.
 
 --- HEADER ---
@@ -588,7 +588,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-悪・意・背・信・登・記・欠・缺・者. If any character renders as a
+悪・意・背・信・登・記・欠・缺・者・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
 on the left, green 条文・判例が見ている条件 on the right), confirm the
@@ -628,7 +628,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-抵・当・権・買・受・競・売・登・記 — always draw the standard Japanese
+抵・当・権・買・受・競・売・登・記・誤 — always draw the standard Japanese
 (Jōyō) form.
 
 --- LEFT PANEL (red background, 直感的な誤解) ---
@@ -677,7 +677,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-抵・当・権・買・受・競・売・登・記. If any character renders as a
+抵・当・権・買・受・競・売・登・記・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
 on the left, green 実際に登場する人物 on the right), confirm the quoted
@@ -716,7 +716,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-前・主・後・主・承・継・登・記・者 — always draw the standard Japanese
+前・主・後・主・承・継・登・記・者・誤 — always draw the standard Japanese
 (Jōyō) form.
 
 --- LEFT PANEL (red background, 直感的な誤解) ---
@@ -764,7 +764,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-前・主・後・主・承・継・登・記・者. If any character renders as a
+前・主・後・主・承・継・登・記・者・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
 on the left, green 実際の関係 on the right), confirm the quoted text box
@@ -803,7 +803,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-相・続・人・被・相・続・人・承・継・登・記 — always draw the standard
+相・続・人・被・相・続・人・承・継・登・記・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- LEFT PANEL (red background, 直感的な誤解) ---
@@ -851,7 +851,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-相・続・人・被・相・続・人・承・継・登・記. If any character renders as a
+相・続・人・被・相・続・人・承・継・登・記・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
 on the left, green 包括承継の実際 on the right), confirm the quoted text
@@ -891,7 +891,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-占・拠・権・原・登・記・者・欠・缺 — always draw the standard Japanese
+占・拠・権・原・登・記・者・欠・缺・誤 — always draw the standard Japanese
 (Jōyō) form.
 
 --- LEFT PANEL (red background, 直感的な誤解) ---
@@ -939,7 +939,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-占・拠・権・原・登・記・者・欠・缺. If any character renders as a
+占・拠・権・原・登・記・者・欠・缺・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
 on the left, green 「正当な利益」の有無で判断する on the right), confirm

@@ -136,8 +136,8 @@ Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not
 paraphrase, translate, summarize, or substitute any characters. Pay
 special attention to the kanji 永・久・閉・鎖・登・記・録・筆・界・特・定・
-担・保・目・録 — these must be rendered in their standard Japanese forms,
-never as Simplified Chinese variants.
+担・保・目・録・相・続 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -234,7 +234,7 @@ Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not
 paraphrase, translate, summarize, or substitute any characters. Pay
 special attention to the kanji 永・久・閉・鎖・登・記・録・筆・界・特・定・
-担・保・目・録・続 — these must be rendered in their standard Japanese
+担・保・目・録・相・続 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
 
 --- HEADER ---

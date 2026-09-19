@@ -175,7 +175,7 @@ Conclusion tag (green banner, 5-15 Japanese characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph, paying special
-attention to 識・別・証・明・効・継, and confirm each is standard Japanese
+attention to 識・別・証・明・効・継・相・続, and confirm each is standard Japanese
 (Jōyō) form, not Simplified Chinese. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the number of cards equals 5 exactly (3 in
@@ -259,7 +259,7 @@ more items than the LEFT column — do not force artificial row-pairing).
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph, paying special
-attention to 資・格・証・明・委・任・継, and confirm each is standard
+attention to 資・格・証・明・委・任・継・相・続, and confirm each is standard
 Japanese (Jōyō) form, not Simplified Chinese. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the LEFT column has exactly 2 items and the

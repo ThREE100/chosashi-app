@@ -116,7 +116,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 識・別・登・記・所・住・続・申・認・証・通 — these must be rendered in
+kanji 識・別・登・記・所・住・相・続・申・認・証・通 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque

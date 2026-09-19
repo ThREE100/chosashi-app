@@ -283,9 +283,9 @@ Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not
 paraphrase, translate, summarize, or substitute any characters. Pay
 special attention to the kanji 従・前・底・仮・換・地・番・所・在・登・記・
-録, which appear repeatedly below (従前地, 底地, 仮換地, 地番, 所在,
-登記記録 など) — render each in its standard Japanese (Jōyō) form, never
-the Simplified Chinese variant.
+録・誤, which appear repeatedly below (従前地, 底地, 仮換地, 地番, 所在,
+登記記録, 誤解, 誤り など) — render each in its standard Japanese (Jōyō)
+form, never the Simplified Chinese variant.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -341,8 +341,9 @@ Text (2-3 sentences, plain Japanese, no citation numbers):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
-attention to 従・前・底・仮・換・地・番・所・在・登・記・録 in words such
-as 従前地, 底地, 仮換地, 地番, 所在, 登記記録 — if any character renders
+attention to 従・前・底・仮・換・地・番・所・在・登・記・録・誤 in words
+such as 従前地, 底地, 仮換地, 地番, 所在, 登記記録, 誤解, 誤り — if any
+character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the canvas has no transparent or alpha-channel
 area anywhere. Confirm both registry-entry mockup texts match the

@@ -233,7 +233,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 号・録・権・地・番・建・
-物・登・記・所, which have visibly different Simplified Chinese forms —
+物・登・記・所・誤, which have visibly different Simplified Chinese forms —
 always draw the standard Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -286,7 +286,7 @@ Small footnote text (bottom of panel, small font):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay special
-attention to 号・録・権・地・番・建・物・登・記・所. Confirm every heading,
+attention to 号・録・権・地・番・建・物・登・記・所・誤. Confirm every heading,
 panel label, and callout text matches the Japanese text given above
 verbatim, with no paraphrasing and no substituted characters. Confirm the
 layout shows exactly two side-by-side panels (甲建物=green/left, 乙建物=
@@ -322,7 +322,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 号・録・権・地・番・建・
-物・登・記・所, which have visibly different Simplified Chinese forms —
+物・登・記・所・誤, which have visibly different Simplified Chinese forms —
 always draw the standard Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -376,7 +376,7 @@ Small footnote text (bottom of panel, small font):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay special
-attention to 号・録・権・地・番・建・物・登・記・所. Confirm every heading,
+attention to 号・録・権・地・番・建・物・登・記・所・誤. Confirm every heading,
 panel label, and callout text matches the Japanese text given above
 verbatim, with no paraphrasing and no substituted characters. Confirm the
 layout shows exactly two side-by-side panels (不動産登記令11条=green/left,

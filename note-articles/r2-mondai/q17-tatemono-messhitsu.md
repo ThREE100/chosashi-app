@@ -113,7 +113,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 登・記・権・建・物・所・続 — these must be rendered in their standard
+kanji 登・記・権・建・物・所・続・相 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants (権 must not become
 权; 記 must not become 记).
 

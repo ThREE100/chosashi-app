@@ -114,7 +114,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 続・認・棄・欠・強・迫・単・裁 — these must be rendered in their
+kanji 続・認・棄・欠・強・迫・単・裁・相・家・庭・判・所 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -198,7 +198,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 続・認・棄・欠・強・迫・単・裁. If any character renders as a
+attention to 続・認・棄・欠・強・迫・単・裁・相・家・庭・判・所. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, that badge numbers run 1-5 continuously across both
@@ -367,7 +367,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 続・認・棄・欠・強・迫・単・裁・撤. If any character renders
+attention to 続・認・棄・欠・強・迫・単・裁・撤・相・家・庭・判・所. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block

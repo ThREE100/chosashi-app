@@ -159,7 +159,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所 — these must be rendered in
+kanji 号・録・権・地・番・建・物・登・記・所・相・続 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -275,7 +275,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 確・認・済・証・電・子・
-署・名・申・請・人・作・成・者・登・記 — always draw the standard Japanese
+署・名・申・請・人・作・成・者・登・記・誤 — always draw the standard Japanese
 (Jōyō) form.
 
 --- HEADER ---
@@ -345,7 +345,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 表・題・登・記・被・相・
-続・人・名・義・自・動・的 — always draw the standard Japanese (Jōyō) form.
+続・人・名・義・自・動・的・誤 — always draw the standard Japanese (Jōyō) form.
 
 --- HEADER ---
 Title (large, bold):
@@ -417,7 +417,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 表・題・登・記・建・物・
-借・地・権・証・存・在 — always draw the standard Japanese (Jōyō) form.
+借・地・権・証・存・在・誤 — always draw the standard Japanese (Jōyō) form.
 
 --- HEADER ---
 Title (large, bold):

@@ -114,7 +114,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記・所・続・単・証 — these must be rendered in their
+kanji 建・物・登・記・所・続・単・証・相 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---

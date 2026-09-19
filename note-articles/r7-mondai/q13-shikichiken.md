@@ -270,7 +270,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 住・所・登・記・名・義・
-人・同・一・性・証・変・更・更・正・敷・地・権・表・題・部 — always draw
+人・同・一・性・証・変・更・更・正・敷・地・権・表・題・部・誤 — always draw
 the standard Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -342,7 +342,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 敷・地・権・登・記・権・
-利・部・合・筆・地・役・権・担・保・除 — always draw the standard Japanese
+利・部・合・筆・地・役・権・担・保・除・誤 — always draw the standard Japanese
 (Jōyō) form.
 
 --- HEADER ---
@@ -418,7 +418,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 敷・地・権・区・分・合・
-併・建・物・登・記・規・則・条・項・準・用・専・有・割・合・利・用 —
+併・建・物・登・記・規・則・条・項・準・用・専・有・割・合・利・用・誤 —
 always draw the standard Japanese (Jōyō) form.
 
 --- HEADER ---

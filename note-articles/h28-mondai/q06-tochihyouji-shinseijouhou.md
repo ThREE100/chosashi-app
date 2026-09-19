@@ -251,7 +251,7 @@ even if a character looks similar. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not paraphrase,
 translate, summarize, or substitute any characters. Pay special attention
-to the kanji 証・印・鑑・委・任・状・代・表・者・格・限・戸・籍・還, which
+to the kanji 証・印・鑑・委・任・状・代・表・者・格・限・戸・籍・還・相・続, which
 have Simplified Chinese look-alike forms with visibly different stroke
 shapes — always draw the standard Japanese (Jōyō) form of these characters.
 
@@ -345,7 +345,7 @@ Small credit text in the corner (optional, keep minimal):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 証・印・鑑・委・任・状・代・表・者・格・限・戸・籍・還. If any
+attention to 証・印・鑑・委・任・状・代・表・者・格・限・戸・籍・還・相・続. If any
 character renders as a Simplified Chinese variant, redraw that character
 in the correct Japanese form. Confirm the left column has exactly 4 rows
 and the right column has exactly 4 rows, each numbered 1 through 4 in the

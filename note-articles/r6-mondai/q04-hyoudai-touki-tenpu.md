@@ -140,7 +140,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所 — these must be rendered in
+kanji 号・録・権・地・番・建・物・登・記・所・相・続 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -259,7 +259,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-共・有・持・分・過・半・数・証・明・決・議 — always draw the standard
+共・有・持・分・過・半・数・証・明・決・議・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -321,7 +321,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-共・有・持・分・過・半・数・証・明・決・議. If any character renders as a
+共・有・持・分・過・半・数・証・明・決・議・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly two side-by-side panels (blue 意思決定の
 場面 on the left, green 事実証明の場面 on the right), confirm both quoted
@@ -360,7 +360,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-敷・地・権・規・約・名・義・逆・順・証 — always draw the standard Japanese
+敷・地・権・規・約・名・義・逆・順・証・誤 — always draw the standard Japanese
 (Jōyō) form.
 
 --- HEADER ---
@@ -422,7 +422,7 @@ arrows) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-敷・地・権・規・約・名・義・逆・順・証. If any character renders as a
+敷・地・権・規・約・名・義・逆・順・証・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the flowchart has exactly 5 numbered nodes in a single main
 path (no branching, since the conclusion is the same regardless of prior

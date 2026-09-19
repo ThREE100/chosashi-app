@@ -111,7 +111,7 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-KANJI ACCURACY WARNING: the characters 産・割・議・遺・続・登・記・棄 appear
+KANJI ACCURACY WARNING: the characters 産・割・議・遺・相・続・登・記・棄 appear
 repeatedly in this poster. These are especially easy to render as
 Simplified Chinese variants. Draw every one of them in the standard
 Japanese (Jōyō) form only.
@@ -355,7 +355,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 産・割・議・遺・続・棄・登・記 and any character that has a
+attention to 産・割・議・遺・相・続・棄・登・記 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the panel count equals 5 exactly, badge numbers

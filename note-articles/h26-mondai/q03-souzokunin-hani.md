@@ -113,7 +113,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 続・襲・尊・属・棄・欠・格・離・婚 — these must be rendered in their
+kanji 相・続・襲・尊・属・棄・欠・格・離・婚 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
 FAMILY-TREE LAYOUT REQUIREMENT (critical): Every card's family-tree diagram
@@ -433,7 +433,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 続, 襲, 尊, 属, 棄, 欠, 格, 離, 婚, 妻. If any character
+attention to 相, 続, 襲, 尊, 属, 棄, 欠, 格, 離, 婚, 妻. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph

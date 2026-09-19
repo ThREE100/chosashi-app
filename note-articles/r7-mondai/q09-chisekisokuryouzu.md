@@ -244,7 +244,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-地・積・求・省・略・分・筆・広・大・除・座・標・値 — always draw the
+地・積・求・省・略・分・筆・広・大・除・座・標・値・誤 — always draw the
 standard Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -295,7 +295,7 @@ width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-地・積・求・省・略・分・筆・広・大・除・座・標・値. If any character
+地・積・求・省・略・分・筆・広・大・除・座・標・値・誤. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm both quoted article text boxes at the top
 match the Japanese text given above verbatim character-for-character,

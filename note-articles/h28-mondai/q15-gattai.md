@@ -388,7 +388,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
 attention to 合・体・登・記・録・権・抵・当・賃・借・属・続・単・独・専・
-持・分. If any character renders as a Simplified Chinese variant, redraw
+持・分・相. If any character renders as a Simplified Chinese variant, redraw
 that character in the correct Japanese form. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

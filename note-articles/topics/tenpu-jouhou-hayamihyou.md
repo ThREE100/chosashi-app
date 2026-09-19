@@ -245,7 +245,7 @@ Conclusion tag (green):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph, paying special
-attention to 登・記・建・物・所, and confirm each is standard Japanese
+attention to 登・記・建・物・所・相・続, and confirm each is standard Japanese
 (Jōyō) form, not Simplified Chinese. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the number of cards equals 6 exactly, with
@@ -443,7 +443,7 @@ missing rows:
 
 この表は「できるもの」3項目のみを扱う（2/2）。前の画像（1/2）で「できない
 もの」6項目を扱った続きである。重複禁止・欠落禁止・言い換え禁止で全3行を
-正確に描画すること。特に「還」「付」「証」「明」「登」「記」の各漢字は、
+正確に描画すること。特に「還」「付」「証」「明」「登」「記」「相」「続」の各漢字は、
 簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。
 
 Final check before rendering: scan every kanji glyph and confirm it is
@@ -689,7 +689,7 @@ Conclusion tag (navy blue):
 
 --- FOOTER ---
 
-特に「登」「記」「建」「物」「証」「明」の各漢字は、簡体字ではなく標準的な
+特に「登」「記」「建」「物」「証」「明」「相」「続」の各漢字は、簡体字ではなく標準的な
 日本語の常用漢字の字形で描画すること。
 
 Final check before rendering: scan every kanji glyph and confirm it is

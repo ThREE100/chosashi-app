@@ -240,7 +240,7 @@ even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 登・記・録・名・義・団・地・共・用・部・分・職・権・抹・消・表・題・証・
-明・所・有 — always draw the standard Japanese (Jōyō) form.
+明・所・有・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

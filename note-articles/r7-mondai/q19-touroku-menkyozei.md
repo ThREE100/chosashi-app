@@ -237,7 +237,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 建・物・分・割・合・併・
-登・記・個・数・附・属・登録・免・許・税 — always draw the standard
+登・記・個・数・附・属・登録・免・許・税・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---

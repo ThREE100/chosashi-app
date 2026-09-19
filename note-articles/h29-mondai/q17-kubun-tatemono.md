@@ -251,7 +251,7 @@ even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 登・記・申・請・規・則・限・定・列・挙・義・務・括・接・続・建・物・条・
-文・原・則 — always draw the standard Japanese (Jōyō) form.
+文・原・則・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

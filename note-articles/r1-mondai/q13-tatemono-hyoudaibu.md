@@ -115,7 +115,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記・保・存・錯・誤・抹・消・閉・鎖・復・活・先・取・権・題・属・滞・合・体・分・割
+kanji 建・物・登・記・保・存・錯・誤・抹・消・閉・鎖・復・活・先・取・権・題・属・滞・合・体・分・割・相・続
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
 
