@@ -119,12 +119,22 @@ summarize, or substitute any characters. Characters such as 「登」「記」
 being rendered as Simplified Chinese variants — double-check each of these
 and redraw in standard Japanese Jōyō form if needed.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 「1個の建物」の数え方から共有申請まで
 
 Subtitle (smaller, centered, 1行):
-平成18年度　午後の部　第4問　不動産登記法(建物の表題登記)
+不動産登記法(建物の表題登記) (平成18年度 午後の部 第4問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -217,5 +227,5 @@ correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
