@@ -16,8 +16,6 @@
 >
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
----
-
 「合体」は、土地家屋調査士試験の不動産登記法の中でも独立した1章として出題される、実務でも頻度の高い分野です。数個の建物が工事によって物理的に1個の建物になったとき、登記記録をどう整理するかがテーマになります。用語の使い分け（「滅失」と「抹消」）や、合体扱いにならない例外パターンを正確に押さえているかが問われる問題です。
 
 ### ア：隔壁除去による1個化は「合体」に当たるが、合体前建物には「滅失の登記」ではなく「表題部の登記の抹消」を申請する
@@ -56,7 +54,7 @@
 - **イ（正）**　合体前の建物がいずれも未登記なら、新築と同様に47条1項の原則どおり、合体時の所有者が1月以内に表題登記を申請する
 - **ウ（正）**　主たる建物と附属建物が増築で一体化した場合は、合体登記ではなく表題部の変更登記で処理する
 - **エ（誤）**　抵当権の登記の有無が食い違う建物同士でも、合体による登記等の申請自体はできる（「申請することはできない」は誤り）
-- **オ（正）**　双方が表題登記のみの建物である場合（49条1項3号）、表題部所有者が1月以内に表題登記及び表題部の登記の抹消を申請する
+- **オ（正）**　双方が表題登記のみの建物である場合は、表題部所有者が1月以内に表題登記及び表題部の登記の抹消を申請する
 
 用語の細部（滅失か抹消か）と、合体の例外パターン（未登記同士・主従建物・権利登記の不一致）を押さえられているかがこの問題の分かれ目になっています。
 
@@ -121,12 +119,22 @@ kanji 合・体・滅・失・抹・消・登・記・題・部・権・築・�
 these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 合体による登記等、5つの分かれ道
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第6問－滅失と抹消、合体になる場合とならない場合
+滅失と抹消、合体になる場合とならない場合(平成19年度 午前の部 第6問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -200,7 +208,12 @@ renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, badge numbers run 1-5 continuously,
 confirm there is no intro illustration or paragraph block between the
-header and the cards, and confirm that no card contains a full sentence of
+header and the cards, confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading +
-a short conclusion tag, at a glance.
+a short conclusion tag, at a glance — confirm nothing is rendered below
+the last card (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind —
+the poster ends immediately after the last card), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
