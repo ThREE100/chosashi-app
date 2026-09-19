@@ -16,8 +16,6 @@
 >
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
 
----
-
 不動産登記の申請は、原則として「一つの申請情報で一つの不動産についての一つの登記」を申請するのが基本です（不動産登記令4条本文）。ただし、分筆・合筆や建物の分割・合併のように、複数の登記が実質的に一体の手続として結びついている場合には、不動産登記令4条ただし書と不動産登記規則35条が、例外的に一の申請情報でまとめて申請することを認めています。今回は、ア〜オの5つの場面がこの例外に当たるかどうかを、条文に沿って確認していきます。
 
 ### ア：分筆してすぐ合筆、これはまとめて申請できる
@@ -121,16 +119,26 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・地・番・建・物・登・記・所・権・分・併・題 — these must be
-rendered in their standard Japanese forms, never as Simplified Chinese
-variants.
+kanji 号・地・番・建・物・登・記・所・権・分・併・題・申・請・情・報・筆
+— these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 一の申請情報、まとめられる？
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第16問－表示に関する登記の同時申請の可否
+表示に関する登記の同時申請の可否(平成19年度 午前の部 第16問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -210,8 +218,13 @@ renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
-every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+illustration or paragraph block between the header and the cards, confirm
+that no card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance — confirm nothing is rendered below the last card (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
+and no additional text block of any kind — the poster ends immediately
+after the last card), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
