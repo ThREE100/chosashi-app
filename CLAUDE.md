@@ -14,6 +14,16 @@ R7〜H20の問1〜問3（民法、全54記事）に埋め込まれている「�
 プロンプト抽出には`note-articles/tools/list_gozu_guide_targets.py`を、生成後のZIP検品には
 `note-articles/tools/verify_infographic_zip.py`を使う。
 
+## ローカル環境でのClaude Code + Chrome拡張セットアップ手順について(2026-09-19追加)
+
+「ローカルPCにClaude Code + Chrome拡張(Claude in Chrome)を用意し、実ブラウザでWEB版ツール
+(ChatGPT等)を操作して大量のプロンプトを一括生成する」という仕組み自体は、上記2つの案件
+(記述式学習漫画、択一式⑤作図ガイド型インフォグラフィック)に共通する汎用パターンである。
+この環境構築・運用パターン（Windows特有の落とし穴を含む）は案件に依存しない内容として
+`LOCAL_CLAUDE_CHROME_SETUP_GUIDE.md`にまとめてある。新しい案件で同じ仕組みを再現する場合は、
+まずこのファイルを読む。案件固有の手順(何を・どんなプロンプトで生成するか)は、このファイルの
+手順で立ち上げたローカルのClaude Codeに、案件ごとの`CHATGPT_*_WORKFLOW.md`を読み込ませて使う。
+
 ## 運用ルール(2026-07-15合意)
 
 - 作業セッションごとにコミットする(まとめて1コミットにしない)
