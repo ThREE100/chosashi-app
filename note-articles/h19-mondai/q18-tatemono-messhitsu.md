@@ -44,7 +44,7 @@
 
 ### オ：区分建物が一つだけ残っても、当然に複数の変更登記が義務付けられるとは言えない
 
-敷地権の登記は、専有部分が「区分建物」であることを前提として置かれる制度です（不動産登記法44条1項9号等）。したがって、一棟の建物を構成する区分建物の一部が滅失し、区分建物としての実体が失われた場合には、残された建物の登記や敷地権の登記のあり方を見直す必要が生じうる、という方向性自体は不動産登記法の基本的な考え方と整合します。しかし、設問は、甲・乙2個の区分建物のうち甲のみが滅失した場合に、乙について「敷地権であった権利が敷地権でない権利となったことによる変更登記」と「乙建物を非区分建物とする変更登記」の2つを、Aが必ず申請しなければならないと断定しています。不動産登記規則140条4項は、区分合併以外の原因で区分建物が区分建物でない建物となったときの登記記録の記録方法（登記官の事務）を定めていますが、これはあくまで登記記録の処理手順についての規定であり、設問がいうような2つの変更登記を申請人の義務として課す規定ではありません。一棟の中に区分建物が1個だけ残った場合に、残存建物を非区分建物とする変更登記や敷地権に関する変更登記を、申請人が必ず申請しなければならないとする規定を条文レベルで確認することはできませんでした。ア・イが条文上明確に正しいと判断できるのに対し、オをここまで断定的に「正しい」と言い切れる根拠は薄く、誤りと判断します。
+敷地権の登記は、専有部分が「区分建物」であることを前提として置かれる制度です（不動産登記法44条1項9号等）。したがって、一棟の建物を構成する区分建物の一部が滅失し、区分建物としての実体が失われた場合には、残された建物の登記や敷地権の登記のあり方を見直す必要が生じうる、という方向性自体は不動産登記法の基本的な考え方と整合します。しかし、設問は、甲・乙2個の区分建物のうち甲のみが滅失した場合に、乙について「敷地権であった権利が敷地権でない権利となったことによる変更登記」と「乙建物を非区分建物とする変更登記」の2つを、Aが必ず申請しなければならないと断定しています。不動産登記規則140条4項は、区分合併以外の原因で区分建物が区分建物でない建物となったときの登記記録の記録方法（登記官の事務）を定めていますが、これはあくまで登記記録の処理手順についての規定であり、設問がいうような2つの変更登記を申請人の義務として課す規定ではありません。一棟の中に区分建物が1個だけ残った場合に、残存建物を非区分建物とする変更登記や敷地権に関する変更登記を、申請人が必ず申請しなければならないとする規定を条文レベルで確認することはできませんでした。したがって、設問がいうように2つの変更登記を一律の義務として断定する記述は条文上の裏付けを欠いており、本肢は誤りです。
 
 **たとえば**、マンションの1棟の中にA所有の甲・乙2部屋（専有部分）しかなく、甲側だけが火災で全焼したとします。残った乙だけの建物を、これからも「区分建物」として登記し続けてよいのか、それとも「ふつうの一戸建てと同じ扱い」に変更する登記を必ずしなければならないのか——ここは事案ごとの検討を要する、実は簡単には言い切れない論点なのです。
 
@@ -77,6 +77,7 @@
 - **最新法令チェック（2026年8月実施）**：本文で引用している不動産登記法2条3号・30条・44条1項9号・47条・57条、不動産登記令18条2項・3項、不動産登記規則47条3号・48条・49条2項4号・140条4項、不動産登記事務取扱手続準則85条1項について、いずれも`note-articles/laws/`（2026-08-04取得の現行条文）で内容を確認しました。相続登記の申請義務化（令和6年4月施行、不動産登記法76条の2）は所有権の移転の登記（権利に関する登記）に関する規律であり、表示に関する登記である建物の滅失の登記の取扱い（ア）には影響しません。その他、本問の論点に影響する法改正は確認されませんでした。
 - **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（`note-articles/laws/`の該当条文と本文の条文引用を直接突合し、2条の号数ズレと委任状の根拠条文の誤りを発見・修正）、B（正解番号1番＝アイを`takuitsu.json`の`chosashi_H19_q18`と再照合し一致を確認）、C（見出しが正しい結論を表していること・敬体で統一されていること・条文解釈プロセスの解説がないことを確認し、オの解説文中で正解の組合せを先出ししていた箇所を削除、本文全体の半角括弧を全角括弧に修正）、D（Markdown表の不使用を確認）、E（インフォグラフィックプロンプトが未作成だったため本記事末尾に新規作成）、F（テンプレート構造・タイトルのキャッチフレーズ23字＝25字以内・確認事項ブロックの記載を確認）、G（重複出題チェック・最新法令チェックを実施）を行いました。正解番号（1番＝アイ）及び各肢の正誤判定（ア正・イ正・ウ誤・エ誤・オ誤）は変更していません。
 - **QAチェックリスト再検証（2026-09-19実施）**：全19項目に基づき再度フルスキャンしました。不動産登記法2条3号・30条・44条1項9号・47条・57条（`fudousan-touki-hou.md`）、不動産登記令18条2項・3項及び令別表十七号（`fudousan-touki-rei.md`・`fudousan-touki-rei-betsuhyou.md`、共用部分である旨の登記がある建物の滅失登記の添付情報は「所有者を証する情報」のみで抵当権者の承諾は求められていないことを再確認）、不動産登記規則47条3号・48条・49条2項4号・140条4項（`fudousan-touki-kisoku-1.md`）、不動産登記事務取扱手続準則85条（`fudousan-touki-jimu-junsoku.md`）の原文をすべて再度Grep・Readで突合し、いずれも本文の引用・要約と一致することを確認しました。正解番号（1番＝アイ）を`src/data/takuitsu.json`の`chosashi_H19_q18`の`correctAnswer`と再照合し一致を確認しました（同エントリのstem表記の揺れ・explanation空欄は前回同様、未解消のまま申し添えます）。判例・先例番号なし、全角括弧統一、敬体統一、見出しの正誤判定語なし、正解の先出しなし、Markdown表不使用、コードフェンス数の偶数性も確認しました。オの論点（区分建物の一部滅失時の変更登記義務）は条文上直接の裏付けが取れない旨の開示も引き続き妥当と判断し、修正の必要はありませんでした。
+- **執筆ルール・インフォグラフィックプロンプトルール準拠チェック（2026-09-19実施、法令内容は対象外）**：`format-template.md`と`infographic-prompt-template.md`（②章）に照らして再点検し、以下を修正しました。（1）オの解説本文末尾で「ア・イが条文上明確に正しいと判断できる」と、本問の正解の組合せ（アイ）を他の肢の正誤と併せて先出ししていた箇所を、オ単独の判定理由のみを述べる記述に修正（正解の先出し禁止ルール違反の再発）。（2）インフォグラフィックプロンプトのSubtitleが「平成19年度 午前の部 第18問－申請人・添付情報のポイント」と年度・問題番号を先頭に置く形式になっていたため、雛形どおり「テーマの要約フレーズ（年度 午前の部 第n問）」の順に修正。（3）現行の雛形で必須のBACKGROUND REQUIREMENT段落が丸ごと欠落していたため追加。（4）CRITICAL TEXT REQUIREMENT内に置かれていた簡体字注意の漢字列挙を、現行雛形どおりFinal check段落内に移設した上で、プロンプト本文に実際に登場しない「号」「地」を削除し、実際に複数回登場する「継」「請」を追加（grep突合済み）。（5）Final checkに、2026-09-16追加のアウトロブロック禁止確認文（カード群の後に追加のサマリーパネル等を描画しない旨）と、背景の不透明化の二重確認文が欠落していたため追加。正解番号・各肢の正誤判定は変更していません。
 
 ---
 
@@ -120,17 +121,24 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to the
-kanji 滅・失・登・記・権・号・地・建・物・証・書・続 — these must be
-rendered in their standard Japanese forms, never as Simplified Chinese
-variants.
+summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 建物の滅失登記、落とし穴はどこ？
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第18問－申請人・添付情報のポイント
+申請人・添付情報のポイント（平成19年度 午前の部 第18問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -201,13 +209,19 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 滅・失・登・記・権・建・物・証・書・続・継・請. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the number of cards equals 5
+exactly, with no duplicated or missing cards, that badge numbers run 1-5
+continuously across both columns without resetting, confirm there is no
+intro illustration or paragraph block between the header and the cards,
+and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind — the poster ends
+immediately after the last card), and confirm the entire canvas, edge to
+edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
 ```
