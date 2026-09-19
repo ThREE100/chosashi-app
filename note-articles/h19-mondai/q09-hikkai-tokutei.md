@@ -26,8 +26,6 @@
 >
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
----
-
 「筆界特定制度」は、隣接地との境界（筆界）がどこにあるかを、裁判ではなく法務局の手続で明らかにしてもらう制度です。試験では「誰が申請できるか」「一度特定された筆界に再度申請できるか」「結果に不服があるときの手段」の3点セットで問われることが多く、この問題もまさにその典型です。教授と学生の対話形式ですが、学生ア〜オの発言をそれぞれ通常の記述問題の肢として検討していきます。
 
 ### ア：筆界特定は、所有権登記名義人等の申請に基づき筆界特定登記官が現地の筆界を特定する制度
@@ -138,12 +136,22 @@ kanji 筆・界・登・記・号・却・審・査・訴・仮・代・位・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 筆界特定、申請できるのは誰？
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第9問－申請適格・却下事由・不服申立ての整理
+申請適格・却下事由・不服申立ての整理(平成19年度 午前の部 第9問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -220,8 +228,13 @@ renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
-every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+illustration or paragraph block between the header and the cards, confirm
+that no card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance — confirm nothing is rendered below the last card (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
+and no additional text block of any kind — the poster ends immediately
+after the last card), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
