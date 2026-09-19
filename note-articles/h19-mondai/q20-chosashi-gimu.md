@@ -14,8 +14,6 @@
 >
 > 5　調査士法人は、その事務所に、当該事務所の所在地を管轄する法務局又は地方法務局の管轄区域内に設立された調査士会の会員である社員を常駐させなければならない。
 
----
-
 土地家屋調査士法は、調査士・調査士法人が守るべき義務をいくつも定めています。受任義務、除斥事由、補助者の届出、ADR系業務の受任拒否の際の通知、法人の社員常駐など、似たようで役割の異なる規定が並ぶため、条文レベルで正確に区別できるかが問われる分野です。今回は1〜5の記述を一つずつ検討していきます。
 
 ### 1：正当な事由がなければ、調査士は依頼を拒めない
@@ -30,7 +28,7 @@
 
 **たとえば**、かつて法務局の職員として担当した土地の境界確定案件について、退職後に調査士として同じ土地の所有者から表示登記の代理を依頼されても、その業務を行うことはできません。かつて中立の立場で関わった事件に、後から利害関係者側の代理人として関与することを防ぐ規定です。
 
-### 3：補助者を置いたときの届出先は「所属の調査士会」であり、法務局長等への直接届出ではない
+### 3：補助者を置いたときの届出先は所属の調査士会
 
 調査士が業務の補助をさせるために補助者を置いたとき（置かなくなったときも同様）は、遅滞なく、その旨を**所属する土地家屋調査士会**に届け出なければならないとされています（土地家屋調査士法施行規則23条2項）。届出を受けた調査士会は、その旨を、その調査士会の事務所の所在地を管轄する法務局又は地方法務局の長に通知しなければならないとされており（同条3項）、調査士（法人）自身が法務局又は地方法務局の長に直接届け出る制度にはなっていません。したがって、届出先を「事務所の所在地を管轄する法務局又は地方法務局の長」とする本肢の記述は誤りです。
 
@@ -115,16 +113,25 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 調・査・士・補・助・届・出・会・務・局・常・駐・拒・依・頼 — these
-must be rendered in their standard Japanese forms, never as Simplified
-Chinese variants.
+kanji 調・査・士・補・助・届・出・会・務・局・常・駐・拒・依・頼・員・諾 —
+these must be rendered in their standard Japanese forms, never as
+Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 調査士の義務、宛先はどこ？
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第20問－調査士・調査士法人が守るべき5つの規定
+調査士・調査士法人が守るべき5つの規定 (平成19年度 午前の部 第20問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -198,5 +205,10 @@ no duplicated or missing cards, that badge numbers run 1-5 continuously,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading + a
-short conclusion tag, at a glance.
+short conclusion tag, at a glance. Confirm nothing is rendered below the
+last card (no summary recap panel, no trophy or medal icon, no re-listed
+○/✕ grid of all 肢, and no additional text block of any kind — the poster
+ends immediately after the last card), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
