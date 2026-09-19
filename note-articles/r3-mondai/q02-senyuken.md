@@ -216,3 +216,179 @@ this list verbatim with no omissions or substitutions:
 4. 承継人は自己の占有のみも主張可 ／ 選択は承継人の自由
 5. 占有改定で本人が占有権取得 ／ 占有改定で取得
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric courthouse/scroll icons for 占有の
+訴え, a balance scale separating 占有の訴え from 本権の訴え, a timeline
+ribbon with a fading gap for the period占有を奪われていた期間, relay-baton
+figures for 占有の承継, and a two-panel desk scene for 占有改定. Where a
+肢 requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+（はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. This article's five 肢 do not
+share a single common decision-tree shape, so design each panel's diagram
+independently around its own fact pattern; only Panel 3（肢ウ）needs an
+actual multi-step flowchart, since it is the only 肢 that depends on more
+than one sequential condition. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認
+します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度午後第2問 ア〜オ
+作図ガイド（占有権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+占有代理人も訴えを起こせる
+Diagram: An isometric scene of a parking-lot management office worker
+(占有代理人) holding a clipboard, standing beside a parked car that a
+stranger is trying to drive off with. A label tag near the worker reads
+「他人のために占有」and is left unmarked (not crossed out). A small
+courthouse/scroll icon floats above labeled「占有回収の訴え」with a green
+checkmark badge.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、訴えを起こそうとしている人が、自分のためではなく他人のために占有
+している「占有代理人」であるかどうかを確認します。占有代理人であっても、
+占有を奪われた以上、占有回収の訴えを提起することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+占有代理人も提起可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+占有の訴えに所有権は使えない
+Diagram: An isometric balance scale with two separate courtroom icons,
+left side labeled「占有の訴え」and right side labeled「所有権（本権）」,
+connected by a broken chain link and a red「✕」mark showing they cannot be
+combined in the same lawsuit.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、争われているのが「占有の訴え」なのか「本権（所有権など）の訴え」
+なのかを確認します。占有の訴えの中では、所有権があるという主張を防御
+方法として使うことはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+本権の主張は不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+勝訴回復で空白期間も継続扱い
+Diagram: A decision-tree flowchart along an isometric timeline ribbon.
+Start node:「占有者が占有物の所持を失った」leading down to a diamond node:
+「占有回収の訴えを提起して勝訴したか？」An いいえ branch leads to a small
+grayed-out conclusion box reading「占有は原則消滅（この肢の射程外）」. A
+はい branch proceeds to a second diamond node:「現実にその占有物の占有を
+回復したか？」An いいえ branch leads to a grayed-out box reading「結論は
+保留」; a はい branch leads to a conclusion node with a trophy/gavel icon
+and a green checkmark reading「所持を失っていた間も占有の継続とみなす」,
+shown reconnecting a dashed, faded gap segment of the timeline back into a
+solid unbroken line.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有者が占有回収の訴えを提起して勝訴したかどうかを確認します。
+次に、実際にその占有物の占有を回復したかどうかを確認し、両方満たせば、
+占有を失っていた間も占有が継続していたものとみなされます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+空白期間も継続扱い
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+承継人は自己の占有だけでも主張可
+Diagram: Two isometric figures side by side; the left figure（前主）hands
+a small land-plot icon to the right figure（承継人）. Two branching arrows
+extend from the right figure — one arrow loops back to include the left
+figure's plot labeled「合算」, the other points only to the right figure's
+own plot labeled「自己のみ」— both arrows drawn as equally valid options
+with green checkmarks and no cross-out marks.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有を承継した人であるかどうかを確認します。承継人は、前の占有者
+の占有を併せて主張することも、自己の占有のみを主張することもでき、
+どちらを選ぶかは自由です。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+選択は承継人の自由
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+占有改定は意思表示だけで足りる
+Diagram: An isometric desk/table shown in two side-by-side panels without
+moving position; in the left panel a small tag on the desk reads「代理人
+のために」, in the right panel the same desk now has a tag reading「本人
+のために」, with a small speech-bubble icon showing the representative's
+declaration and no arrows of physical movement between the panels.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有している代理人が、以後は本人のために占有する意思を表示したか
+どうかを確認します。意思を表示すれば、物を現実に動かさなくても、その
+時点で本人が占有権を取得します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+占有改定で本人取得
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法197条・200条（占有代理人による占有回収の訴え）・202条2項（占有の
+訴えと本権の訴えの分離）・203条ただし書（占有回収の訴えによる占有の
+継続）・187条1項（占有の承継における選択）・181条・183条（占有改定）に
+基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・物・所・訴・承・継・改. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that the multi-condition 肢（肢ウ）is drawn as
+an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that each 着眼点 callout states a checking
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with
+a fully opaque background with no transparency or alpha channel anywhere.
+```

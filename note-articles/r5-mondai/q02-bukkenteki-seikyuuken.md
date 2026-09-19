@@ -204,3 +204,168 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+物権的請求権の問題文を読んだときに、「誰に」「何を根拠に」請求できるかを見分ける5パネル構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（物権的請求権は誰に主張できる？), but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land-plot and building scenes with a
+handshake icon for 所有権移転の時期, a registration badge for 登記の要否,
+a two-figure（占有補助者・占有本人）icon for 明渡し請求の相手方, a
+shared-ownership icon for 共有者の単独請求, and a shield/hourglass icon
+for 消滅時効の有無. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No（はい／いいえ）branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和5年度午後第2問 ア〜オ
+作図ガイド（物権的請求権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+特約の有無を先に確認する
+Diagram: An isometric handshake scene between buyer Ａ and seller Ｂ over
+a land-plot icon; at the exact moment of the handshake, the land plot's
+ownership name-tag instantly flips from「Ｂ」to「Ａ」with no delay/timer
+icon beside it, and an immediate arrow labeled「引渡し請求」points from
+Ａ to Ｂ.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず所有権の移転時期について特約があるかを確認します。特約がなければ、
+契約と同時に所有権が移転するため、Ａは直ちに引渡しを請求できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+契約と同時に移転
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+相手が無権利者かを先に見分ける
+Diagram: An isometric land plot with buyer figure Ａ standing on it
+without any registration certificate（crossed-out 登記バッジ）, next to an
+unauthorized occupier figure Ｃ labeled「無権利者」being pointed at by an
+arrow labeled「明渡し請求」— no barrier is shown between Ａ and Ｃ despite
+Ａ lacking registration。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず相手方Ｃが登記の欠缺を主張できる正当な利益を持つ「第三者」なのか、
+それとも何の権利もない「無権利者」なのかを確認します。無権利者であれ
+ば、Ａは登記がなくても明渡しを請求できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+登記なくても可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+請求先は補助者でなく本人と確認
+Diagram: An isometric house icon on a land plot, with a main occupier
+figure Ｂ（labeled「無権利者・建物所有者」）and a smaller family figure
+Ｃ beside him labeled「占有補助者」; an arrow labeled「明渡し請求」points
+only to figure Ｂ, while a dotted arrow shows Ｃ also being escorted out
+automatically once Ｂ is removed。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず退去させたい相手が、実際に建物を占有する本人Ｂなのか、同居する家族
+にすぎない占有補助者Ｃなのかを確認します。本人Ｂに請求すれば足り、Ｃに
+別途請求する必要はありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+本人請求で足りる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+保存行為かどうかを確認する
+Diagram: An isometric shared land plot with two owner figures Ａ and Ｂ
+standing together labeled「共有」; a pile of industrial-waste icons
+dumped by a separate unauthorized figure Ｃ; figure Ａ alone raises a
+hand with a「撤去請求」speech bubble while figure Ｂ remains passive in
+the background。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず妨害排除の請求が共有物の「保存行為」にあたるかを確認します。保存
+行為にあたれば、各共有者は他の共有者の同意を待たずに単独で請求できま
+す。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+単独で請求可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+所有権が消えるかを先に確認する
+Diagram: An isometric land plot icon owned by figure Ａ, protected by a
+shield icon that a「時効」hourglass icon bounces off without effect; a
+small speech bubble from Ａ reading「返してください」stays bright and
+active (not fading)。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず所有権そのものが消滅時効にかかるかを確認します（かかりません）。
+所有権が消えない以上、それに基づく返還請求権も独立して時効消滅するこ
+とはありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+時効消滅なし
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法162条・166条・177条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 地, 建, 物, 登, 記, 償 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

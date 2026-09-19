@@ -199,3 +199,163 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric desks, calendar pages, a hand
+pressing a fingertip in red ink, a notary office scene with witnesses,
+and a single sheet of paper split down the middle. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No（はい／いいえ）
+branch arrows, and a final conclusion node. Where a 肢 is resolved by a
+single check, a labeled illustrative diagram is sufficient — do not force
+a flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度午後第3問 ア〜オ
+作図ガイド（遺言の方式）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+15歳なら単独で有効な遺言ができる
+Diagram: An isometric scene of a young human figure in a school uniform
+writing a document alone at a desk, with a crossed-out speech bubble from
+a parent figure in the background reading "同意が必要", and a small age
+tag icon reading "満15歳" pinned to the desk.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、遺言をしようとする人の年齢が満15歳に達しているかを確認します。達し
+ていれば、行為能力の有無にかかわらず、法定代理人の同意を得ずに単独で有効
+な遺言をすることができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+同意不要で有効
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+「吉日」の日付は特定できず無効
+Diagram: An isometric calendar page showing "令和元年5月吉日" with a
+large red question mark over the date, and the whole will document
+stamped with a red "無効" seal.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、自筆証書遺言に書かれた日付が、暦上の特定の日を指しているかを確認し
+ます。「吉日」のように特定の日を指し示さない記載は、日付の記載を欠くもの
+として遺言全体を無効にします。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+日付不特定で無効
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+指印(朱肉)でも押印要件を満たす
+Diagram: An isometric close-up of a hand pressing a fingertip covered in
+red ink(朱肉)onto a will document, with a crossed-out seal/stamp(印鑑)
+icon beside it to show a formal seal is not required.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、押印の方法が実印・認印に限られるかを確認します。指頭に朱肉を付けて
+押す指印であっても押印の要件を満たすため、実印や認印がなくても自筆証書遺
+言は有効です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+指印でも有効
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+口授できなくても代替手段があれば足りる
+Diagram: A decision-tree flowchart at a notary office. Start node: 遺言者
+は公証人に対して口授(言葉で伝えること)ができるか？ First diamond node
+with a いいえ arrow proceeding downward to a second diamond node: 通訳人
+の通訳による申述や自書といった代替手続が用意されているか？ with a はい
+arrow leading to a green conclusion node reading 公正証書遺言を利用でき
+る。Illustration around the flowchart: a human figure communicating by
+sign language or writing on paper toward a notary figure seated at a
+desk, with two witness figures standing beside them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、遺言者が言葉で口授できるかどうかを確認します。口授できない場合で
+も、次に、通訳人の通訳による申述や自書といった代替手続が用意されているか
+を確認すれば、口がきけない者でも公正証書遺言を利用できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+通訳・自書で利用可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+一枚の紙の共同遺言は単独遺言にならない
+Diagram: An isometric single sheet of paper split down the middle showing
+two different handwriting styles: one side labeled "A" with a seal stamp,
+the other side labeled "B" without any stamp, and a red prohibition icon
+over the whole sheet labeled "共同遺言禁止".
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、同一の証書に2人以上の遺言が記載されているかを確認します。共同遺言
+にあたる場合は、一方に署名押印がなくても、その紙面がＡ単独の有効な遺言と
+して当然に扱われるわけではないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+単独遺言にならない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法961条(遺言能力)・968条1項(自筆証書遺言の方式)・969条の2(口がきけな
+い者の公正証書遺言)・975条(共同遺言の禁止)に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 遺, 証, 押, 訳, 吉, 朱 and any character that has a visually
+similar Simplified Chinese variant. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that the multi-condition 肢(肢エ) is drawn as
+an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that each 着眼点 callout states a checking
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with
+a fully opaque background with no transparency or alpha channel anywhere.
+```

@@ -199,3 +199,172 @@ and the cards, and confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading + a
 short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land-plot scenes with a small
+warehouse icon (工作物), a magnifying glass and checkbox icons (時効取得
+の要件), a contract scroll icon (譲渡・地代の定め), and a calendar/coin
+icon (地代の滞納). Panel 2（肢イ）is the only 肢 in this set that requires
+checking two conditions together (both must be satisfied at once, not a
+sequence of either/or branches), so draw it as an actual flowchart with
+two diamond nodes in series joined by an AND relationship and a single
+final conclusion node. The other 4 panels（肢ア・肢ウ・肢エ・肢オ）are each
+resolved by a single check, so draw a labeled illustrative diagram for
+them instead of forcing a flowchart. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成21年度午後第2問 ア〜オ
+作図ガイド（地上権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+工作物が滅失しても地上権は消えない
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+land plot tile with a small warehouse drawn in faded grey with a red ✕
+over it and a label「工作物」above it; the land tile itself is drawn in
+solid color with a green ✓ and a label「地上権」, and a dashed outline of a
+new warehouse being rebuilt on the same tile sits beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+地上権の目的である工作物が滅失した場合に、地上権そのものも消滅するのかを
+確認します。地上権はあくまで土地を利用する権利であるため、工作物がなくな
+っても消滅しません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+土地利用権は残る
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+時効取得には2つの要件がそろって必要
+Diagram: An actual decision flowchart with two diamond nodes joined by an
+AND relationship (both must be satisfied to reach the conclusion): first
+diamond node 土地の継続的な使用という外形的事実があるか、with a はい arrow
+leading to a second diamond node その使用が地上権行使の意思に基づくものだ
+と客観的に表現されているか、with a はい arrow leading to a single final
+conclusion node 地上権の時効取得の要件を満たす. A dashed side-branch from
+either diamond's いいえ leads to a small red ✕ box labeled「時効取得でき
+ない（単なる占有・賃借と区別できない）」. Illustration: an isometric land
+plot with a house on it, a magnifying glass hovering over the scene, two
+checkboxes beside the magnifier both ticked green（継続的な使用／意思の表
+れ）, and a third greyed box labeled「通り道だけ」carrying a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地を継続的に使用しているという外形的事実があるかを確認し、次に、
+その使用が地上権を行使する意思に基づくものだと客観的に表現されているかを
+確認します。どちらか一方が欠けても地上権の時効取得は認められません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+両方そろって時効取得
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+地主の承諾なく譲渡・抵当権設定できる
+Diagram: A labeled illustrative diagram (not a flowchart): a scroll icon
+labeled「地上権」being passed from one figure to another, with a green
+checkmark on the handover arrow; a third figure labeled「土地所有者」stands
+behind a small grey barrier, with a speech bubble containing「承諾」
+crossed out with a red ✕; a small mortgage-stamp icon labeled「抵当権」with
+a green ✓ sits in the corner.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+地上権を譲渡したり地上権に抵当権を設定したりする際に、土地所有者の承諾が
+必要かどうかを確認します。地上権は物権であるため、承諾なく自由に処分でき
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾なしで処分自由
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+定めがなければ地代は発生しない
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+contract scroll labeled「設定契約」with an empty blank line where an
+amount would be, marked「定めなし」; a stack of coins beside it is crossed
+out with a large red ✕ and labeled「地代」; a small courthouse icon
+labeled「裁判所」is also crossed out with a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、設定契約に地代の定めがあるかどうかを確認します。定めがなければ地上
+権者は地代の支払義務を負わず、また、地代の額を裁判所が定めるという制度も
+ないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+定めなければ地代不要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+2年以上の滞納で消滅請求できる
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+calendar block showing two stacked year sheets labeled「1年」と「2年」,
+each stamped with a red「未払」mark, with an arrow leading from the
+calendar to a land plot where a scroll labeled「地上権」is being torn, and
+a green checkmark next to a figure labeled「土地所有者」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地代を支払うべき地上権かどうかを確認し、次に、地代の不払いが引き続
+き2年以上に達しているかを確認します。2年以上の滞納があれば、土地所有者は
+地上権の消滅を請求できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+2年滞納で消滅請求可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法265条・266条・267条・269条・369条2項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・地・物・滅・譲・渡・承・諾 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panel 2 alone is drawn as an
+actual two-diamond AND flowchart while Panels 1・3・4・5 are simple
+labeled diagrams without a forced flowchart, that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

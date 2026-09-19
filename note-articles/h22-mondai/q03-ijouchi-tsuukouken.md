@@ -216,3 +216,175 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric aerial layout of the three land
+plots 甲（袋地）・乙・丙 with a dashed footpath arrow showing the direction
+of travel to the public road, a checkmark/cross mark at the plot the
+reader must judge, small figure icons for the owners, and a registry-
+stamp icon where relevant. Panels 1（肢ア）・3（肢ウ）・5（肢オ）share the same
+underlying two-diamond decision tree, rooted in a first diamond ("袋地は
+どうやって生じたか：分割・一部譲渡か、競売か、それとも無関係の売買か") and a
+second diamond ("通行できるのはどの土地か：分けた相手の残余地か、第三者の
+土地か"), with the branch relevant to that panel's 肢 highlighted (thicker
+border, distinct color) and the other branches drawn smaller/greyed out.
+Panels 2（肢イ）・4（肢エ）are each resolved by a single check, so draw a
+labeled illustrative diagram for them instead of forcing a flowchart. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成22年度午後第3問 ア〜オ
+作図ガイド（囲繞地通行権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+分割で生じた袋地は残余地の転売後も通行可
+Diagram: A first diamond node (highlighted) 袋地はどうやって生じたか、with
+分割・一部譲渡 selected, leading to a second diamond node (highlighted)
+通行できるのはどの土地か、with 分けた相手の残余地（乙）selected, leading to
+a conclusion node 残余地が転売されても通行権は存続する. Illustration: an
+isometric aerial view of one original plot split into 甲(landlocked,
+owner B)と乙(owner A→転売でCへ), with a dashed footpath arrow from 甲
+across 乙 to the road, a green checkmark labeled「乙を通行できる」, while a
+separate 丙 plot(D所有)nearby carries a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、袋地がどうやって生じたか（一筆の土地を分割・一部譲渡したことによる
+ものか）を確認し、次に、通行できるのは第三者の土地ではなく分けた相手の残
+余地（乙）であることを確認します。この通行権は残余地が転売されても消え
+ず、新しい所有者にも主張できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+転売後も乙を通行可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+通行権の主体は所有者に限られない
+Diagram: A labeled illustrative diagram (not a flowchart, since this 肢 is
+resolved by a single check): two figures standing on landlocked plot 甲,
+one labeled 所有者A、one labeled 地上権者C, both holding shovel icons
+digging a footpath toward the road through a neighboring plot, both
+figures marked with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+通行権を持つのは土地の所有者だけでなく、地上権者にも認められることを確認
+します（民法267条による準用）。「所有者しか通路を開設できない」という思い
+込みに注意します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地上権者も通路OK
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+袋地を残した側も分けた相手の土地を通行できる
+Diagram: The same two-diamond tree shape as Panel 1: first diamond 袋地は
+どうやって生じたか、with 分割・一部譲渡 highlighted; second diamond 通行で
+きるのはどの土地か、with 分けた相手の残余地（乙）highlighted again, leading
+to a conclusion node 袋地を残した側でも通行権が認められる. Illustration:
+the original plot split into 甲(kept by original owner A, now landlocked)
+と乙(sold to B), with a dashed footpath arrow from 甲 through 乙 to the
+road, a green checkmark labeled「乙を通行できる」, while a separate 丙 plot
+(C所有)carries a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、袋地が分割・一部譲渡によって生じたことを確認し、次に通行できるのは
+分けた相手の土地（乙）であることを確認します。袋地を残した側であっても、
+この通行権は認められます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+残した側も通行できる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+通行権の主張に登記はいらない
+Diagram: A labeled illustrative diagram (not a flowchart): a landlocked-
+plot owner figure B, holding an unstamped/blank registration certificate
+icon labeled 未登記, walking confidently across a dashed footpath toward
+the road, with a green checkmark icon labeled「登記なしでOK」beside him.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+通行権の主張に所有権の移転登記が必要かどうかを確認します。囲繞地通行権は
+法律上当然に発生する権利であるため、登記がなくても主張できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+登記なしで主張可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+競売で生じた袋地も分割に準じて扱う
+Diagram: The same two-diamond tree shape as Panels 1・3, but this time the
+first diamond 袋地はどうやって生じたか is highlighted with 競売（抵当権の実
+行）selected; the second diamond 通行できるのはどの土地か is highlighted
+with 分割に準じた元の一体地（乙）selected, leading to a conclusion node
+競売で生じた袋地も乙を通行できる. Illustration: the original plot split
+into 甲(A, landlocked)と乙(競売の槌アイコンでBが競落), with a dashed
+footpath arrow from 甲 through 乙 to the road, a green checkmark labeled
+「競売でも同じ扱い」, while 丙(C所有)carries a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、袋地が競売によって生じたことを確認し、次に、これは分割・一部譲渡に
+準じて扱われることを確認します。したがって、通行できるのは元は一体だった
+乙であり、第三者の丙ではありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+競売でも乙を通行
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法210条・211条・213条・267条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 囲・繞・乙・丙・譲・渡 and any character that has a visually
+similar Simplified Chinese variant. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that Panels 1・3・5 visibly share the same
+two-diamond tree shape with different branches highlighted while Panels
+2・4 are simple labeled diagrams without a forced flowchart, that each 着
+眼点 callout states a checking order rather than only a conclusion,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

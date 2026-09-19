@@ -228,6 +228,195 @@ tag, at a glance.
 
 ---
 
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、どの制度（錯誤・強迫・詐欺・心裡留保）が問題になっているかを見抜き、それぞれ「誰の主観を、どの順番で確認すべきか」をたどれるようにする5パネル構成。ウ（詐欺の第三者保護）とオ（心裡留保の第三者保護）は、同じ「意思表示の瑕疵→第三者への転得→第三者の主観の程度」という決定木の形を共有しつつ、要求される主観の程度（無過失まで必要か、善意だけで足りるか）が異なる点を、同じ木の形で対比させる構成にする。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(意思表示の落とし穴), but built as a set of 5 diagram-drawing panels (a
+"how to sketch this fact pattern, in the right order" study reference)
+rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — two isometric figures (表意者・相手方) with
+thought-bubble icons showing 善意/悪意/過失, a signpost splitting into
+「本人による意思表示」and「第三者の関与」, a torn-contract stamp for
+無効/取消し, and a shield icon for third-party protection. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+（はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Panels 3 and 5 (肢ウ・肢オ) share the same
+underlying decision-tree shape (意思表示に瑕疵があるか確認 → 目的物・
+権利が第三者に渡ったか確認 → 第三者に要求される主観の程度を確認）;
+draw both with the same tree layout, but highlight（太い縁取り・色を変
+える等で強調）the branch relevant to that panel's 肢 and change only the
+final diamond's label to reflect the different requirement（詐欺は善意
+かつ無過失、心裡留保は善意のみ）. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を
+確認します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第1問 ア〜オ
+作図ガイド（意思表示）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+表意者の重過失で思考を止めない
+Diagram: A decision-tree flowchart on an isometric scene of two figures
+（表意者Ａ・相手方Ｂ）signing a contract. Start node: 表意者に重大な過失
+があるか？with a はい arrow proceeding downward to a second diamond node
+(drawn with a thicker highlighted border): 相手方は、錯誤があることを
+知っていた（悪意）、または重大な過失によって気づかなかったか？with the
+はい branch leading to a green checkmark conclusion node reading 取消し
+ができる, and the いいえ branch (drawn smaller, grayed out) leading to a
+red cross conclusion node reading 取消しはできない。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず表意者に重大な過失があるかを確認し、次に相手方にも悪意または重過失
+という落ち度があるかを確認します。相手方にも落ち度があれば、表意者の
+重過失があっても取消しができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+相手方の落ち度も確認
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+強迫は相手方の主観を確認しなくてよい
+Diagram: An isometric scene of a hooded third-party figure threatening a
+seller figure（売主）, who then hands a house key to a buyer figure
+（買主）with a large question-mark icon labeled「知っていたか？」crossed
+out with a dashed line, showing that this question does not need to be
+answered. A single arrow leads directly to a green checkmark conclusion
+node reading 常に取消し可能。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+第三者による強迫だと確認できれば、それだけで足ります。詐欺の場合と違い、
+相手方が強迫の事実を知っていたかどうかを確認する必要はありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+相手方の主観は不問
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+詐欺は転得者の無過失まで確認する
+Diagram: A decision-tree flowchart (drawn with a thicker highlighted
+border on its final diamond node, since this is the branch this panel is
+about) on an isometric 3-scene timeline. Start node: 意思表示に詐欺と
+いう瑕疵があるか？with a はい arrow down to a second diamond node: 取消
+し前に、目的物が第三者に渡ったか？with a はい arrow down to a third
+diamond node（強調表示）: その第三者は、詐欺の事実について善意かつ
+無過失か？with a green checkmark branch (はい) leading to a conclusion
+node reading 取消しを対抗できない（登記の有無は問わない）, and a red
+cross branch (いいえ) leading to a conclusion node reading 取消しを対抗
+できる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず詐欺による意思表示かを確認し、次に取消し前に第三者へ渡っているかを
+確認し、最後にその第三者が善意かつ無過失かを確認します。登記の有無は
+関係ありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+善意無過失なら対抗不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+到達妨害は「発信時」で判断しない
+Diagram: An isometric mail carrier holding an envelope toward a figure
+whose door is closing (受取拒否). A single diamond node: 相手方が正当な
+理由なく到達を妨げたか？with a はい arrow leading to a clock icon showing
+「発信の時」crossed out and「通常到達すべき時」highlighted with a
+checkmark, ending at a conclusion node reading その時に到達したとみなす。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず相手方が正当な理由なく通知の到達を妨げたかを確認します。妨げたと
+確認できれば、発信した時点ではなく、通常なら到達していたはずの時点を
+到達時として扱います。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+通常到達すべき時に到達
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+心裡留保は転得者の善意だけで足りる
+Diagram: The same decision-tree flowchart shape as Panel 3, on the same
+isometric 3-scene timeline layout. Start node: 意思表示に心裡留保という
+瑕疵があるか（相手方が真意でないと知っていたか）？with a はい arrow down
+to a second diamond node: その後、目的物が第三者に渡ったか？with a はい
+arrow down to a third diamond node（強調表示、Panel 3とは異なるラベル）:
+その第三者は、真意でないことについて善意か（無過失は不要）？with a green
+checkmark branch (はい、過失があってもよい) leading to a conclusion node
+reading 無効を対抗できない, and a red cross branch (いいえ、悪意) leading
+to a conclusion node reading 無効を対抗できる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず心裡留保による無効かを確認し、次に第三者に渡っているかを確認し、
+最後にその第三者が善意かどうかだけを確認します。詐欺と違い、無過失で
+あることまでは求められません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+善意だけで保護される
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法93条2項・95条3項1号・96条2項・96条3項・97条2項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 錯, 誤, 迫, 欺, 裡, 留, 保, 妨, 害 and any character that has
+a visually similar Simplified Chinese variant. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢（肢ア・
+肢ウ・肢オ）is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that Panels 3 and 5
+visibly share the same tree layout with only the final diamond's label
+and highlighted branch differing, that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
+
+---
+
 ## インフォグラフィック プロンプト（ア肢・間違いノート）
 
 ア（表意者に重過失があっても、相手方にも落ち度があれば錯誤取消しができる）について、「表意者の重過失」だけで思考が止まり「相手方の落ち度」という2段階目の条件を見落とす、という典型的なつまずきを解消するための2段階フローチャート型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、説明文・条文引用を制限なく配置している。

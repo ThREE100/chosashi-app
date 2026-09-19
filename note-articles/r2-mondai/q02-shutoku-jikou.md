@@ -185,3 +185,180 @@ paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric house with a parent silhouette
+fading and a child silhouette standing firm for 相続と自主占有, a
+calendar/timeline with a big「20年」number for 悪意占有, a chronological
+row of icons (印鑑→鍵→木づち) for 抵当権と賃借権の対抗関係, a balance scale
+for 推定される要件と推定されない要件, and a calendar with a fixed pin for
+起算点. Where a 肢 requires checking multiple conditions in sequence
+before reaching a conclusion, draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No（はい／いいえ）branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. This
+article's five 肢 do not share a single common decision-tree shape, so
+design each panel's diagram independently around its own fact pattern;
+Panels 1 and 3（肢ア・肢ウ）each require an actual multi-step flowchart
+because they depend on more than one condition checked in sequence.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第2問 ア〜オ
+作図ガイド（不動産の取得時効）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+相続後に新たな自主占有と言えるか
+Diagram: A decision-tree flowchart on an isometric house scene. Start
+node:「相続人は、単に前主（被相続人）の占有を引き継いだだけでなく、新たに
+自分の意思でその不動産を事実上支配し始めたか？」An いいえ branch leads to
+a conclusion node reading「他主占有のまま、自己の占有のみでは主張しにくい」
+(shown small, since this is not this肢の結論). A はい branch proceeds to a
+second diamond node:「その新たな占有に『所有の意思』があると外形的に認め
+られるか？」A はい branch leads to a conclusion node with a green
+checkmark reading「自己の占有のみで時効取得の主張が可能」; an いいえ branch
+leads to a small conclusion box reading「認められない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相続人が単に前の占有者（被相続人）の占有を引き継いだだけなのか、
+それとも新たに自分の意思でその不動産を事実上支配し始めたのかを確認
+します。次に、その新たな占有に所有の意思があると外形的に認められるかを
+確認し、認められれば、相続人は自己の占有のみを主張して時効取得できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+新たな自主占有なら取得可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+悪意でも20年あれば時効取得
+Diagram: An isometric scene of a person figure standing on a land plot
+with a thought bubble reading「本当の所有者は別にいると知っていた（悪意）」.
+At the figure's feet, a calendar/timeline icon shows a large「20年」number
+counting up to completion with a final green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有を開始した時点で善意無過失だったか、悪意だったかを確認します。
+悪意であっても、20年間占有を継続すれば所有権を時効取得できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+悪意でも20年で取得
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+抵当権登記が先なら賃借権は対抗不可
+Diagram: A decision-tree flowchart along a left-to-right isometric
+timeline with three icons in chronological order: 印鑑（抵当権設定登記）→
+鍵（賃借権の対抗要件の具備、または時効取得）→木づち（競売・買受人）. Start
+diamond node:「賃借権の対抗要件（登記等）を備えたのは、抵当権の設定登記
+より前か、後か？」A 前 branch leads to a conclusion node with a green
+checkmark reading「賃借権を買受人に対抗できる」. A 後（未具備のまま抵当権が
+先に登記された）branch proceeds to a second diamond node:「その後、賃借権
+を時効取得したとしても、この先後関係は変わるか？」leading to a conclusion
+node with a red「✕」reading「変わらない → 買受人に対抗できない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、賃借権の対抗要件を備えた時点と、抵当権の設定登記の時点の先後関係を
+確認します。抵当権の登記が先であれば、その後に賃借権を時効取得したと
+しても、抵当権の実行による買受人に賃借権を対抗することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記の先後で決まる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+推定されるのは4要件、無過失は別
+Diagram: An isometric balance scale. Left pan holds four small tag icons
+labeled「所有の意思」「善意」「平穏」「公然」, each stamped with an automatic
+green checkmark (推定される). Right pan holds a single tag labeled「無過失」
+next to a magnifying-glass icon (自分で証明する必要がある), with a red
+「✕」placed over a small「推定」stamp on that side.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、民法186条1項が推定してくれるのは「所有の意思・善意・平穏・公然」の
+4つであることを確認します。10年の短期取得時効に必要な「無過失」は、この
+推定の対象に含まれておらず、時効を主張する側が自分で立証する必要が
+あります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+無過失だけ推定なし
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+起算点は占有開始時に固定
+Diagram: An isometric calendar icon with a pin fixed firmly on「占有開始
+日」. A hand icon tries to slide the pin left or right along the calendar,
+but a large red「✕」is placed over the hand, showing the pin cannot be
+moved.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有を実際に開始した時点を確認します。取得時効の起算点はその時点
+に固定され、時効を援用する側が自分に都合よく起算点をずらして時効完成の
+時期を早めたり遅らせたりすることはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+起算点はずらせない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法162条（取得時効の期間）・186条1項（占有の推定規定と推定されない
+事項）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・続・対・効・過・抵・当・推・定. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢（肢ア・
+肢ウ）is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

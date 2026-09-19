@@ -209,3 +209,173 @@ after the last card), and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — envelope icons on a timeline for 催告, a
+courthouse/gavel icon for 裁判上の請求, a coin-stack handover for 一部弁済,
+and a bowing figure beside a locked door for 時効完成後の承認. Each of the
+5 肢 in this article turns on a single legal event followed by a check of
+whether that event produces the special effect claimed in the 記述, so
+draw every panel's diagram as a short two-step decision flowchart: a
+first node showing the triggering event, one diamond-shaped branch node
+asking whether that event produces the claimed effect, and a final
+conclusion node. The 5 肢 use five different legal mechanisms (催告の再送・
+確定判決・訴えの取下げ・一部弁済・時効完成後の承認), so there is no shared
+tree shape to reuse across panels — design each panel's flowchart
+independently. Unlike a glanceable summary poster, each panel MAY include
+a short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成28年度午後第1問 ア〜オ
+作図ガイド（消滅時効）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+再度の催告では猶予は延びない
+Diagram: An isometric timeline. Start node: Aが催告状（封筒アイコン）を
+Bに送る（1回目の催告）、6か月のタイマーが動き出す。Diamond node: その6か月
+以内に再びＡが催告状を送ったか？with a はい arrow. Second diamond node
+(drawn with a thicker highlighted border, the main point of this panel):
+その2回目の催告を起点として新たな6か月の完成猶予が始まるか？with a red
+prohibition mark over the いいえ branch leading to a conclusion node
+reading 最初の催告から6か月で時効が完成する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、最初の催告によって6か月の完成猶予が始まっていることを確認します。
+次に、その期間内に重ねて催告をしても、そこを起点とする新たな6か月の完成
+猶予は生まれないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+猶予の延長なし
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+確定判決で時効はゼロから再進行
+Diagram: An isometric courthouse and gavel icon. Start node: Aが貸金返還
+請求の訴えを提起し（裁判上の請求）、時効の完成が猶予される。Diamond node
+(highlighted): その訴訟で勝訴判決が確定したか？with a はい arrow leading
+to a conclusion node showing a calendar/timeline resetting to zero and a
+fresh countdown arrow, labeled 判決確定時から時効が新たに進行を始める。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず裁判上の請求によって時効の完成が猶予されていることを確認します。次に、
+勝訴判決が確定した時点を確認し、そこから新たに時効期間がカウントされ直す
+ことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+判決確定でリセット
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+訴え取下げ後も催告としては有効
+Diagram: An isometric lawsuit document being crumpled/withdrawn by figure
+A. Diamond node: 訴えは取り下げられたか？with a はい arrow. Second diamond
+node (highlighted): その訴訟手続の中でされた権利行使の意思表示は、通常の
+催告と同じ効力を持つか？with a はい arrow leading to a glowing stamp
+「催告として有効」remaining attached to the withdrawn document, connected
+by a dotted line to a 6か月 timer, and a conclusion node reading 取下げ後
+6か月以内に改めて裁判上の請求等をすれば時効の完成を防げる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず訴えが取り下げられた事実を確認します。次に、その訴訟の中でされた権利
+行使の意思表示が、通常の催告と同じように扱われることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+催告としてなお有効
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+一部弁済で残額も承認扱い
+Diagram: An isometric hand handing over a small stack of coins labeled
+50万円 to creditor A, next to a ledger icon showing 100万円. Diamond node:
+Bが債務の一部（50万円）を弁済したか？with a はい arrow. Second diamond node
+(highlighted): その弁済は、残りの債務がなお存在することを前提とする行為
+（承認）にあたるか？with a はい arrow leading to a conclusion node where
+the remaining 50万円 portion of the ledger glows and is stamped 承認。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず一部弁済がされた事実を確認します。次に、その弁済が残りの債務の存在を
+前提とする行為、つまり「承認」にあたることを確認し、残部にも更新の効力が
+及ぶと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+残債務も承認扱い
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+時効完成後の承認は覆せない
+Diagram: An isometric figure B bowing apologetically toward creditor A,
+with a broken hourglass in the background showing time has already run
+out. Diamond node (highlighted): 時効が完成した後に、Ｂが承認をしたか？
+with a はい arrow leading to a locked-door icon labeled 時効の援用不可、
+and a conclusion node reading 信義則上、その後の時効の援用は許されない。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず時効が完成した後であることを確認します。次に、その時点で債務者が承認
+をした事実を確認できれば、その後にその債務者が時効を援用することは信義則
+上許されないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+時効の援用不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法150条1項・2項（催告による完成猶予とその1回性）・147条2項（裁判上の
+請求と確定判決による時効の新たな進行）・152条1項（承認による時効の更新）
+に基づく整理です。肢ウ・オの結論は判例の趣旨によるものです。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 催, 猶, 予, 訴, 認, 弁, 済, 援, 進, 抹. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every panel is drawn as an
+actual two-step flowchart with branch nodes (not a bare illustration with
+no visible decision structure), that each 着眼点 callout states a checking
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with
+a fully opaque background with no transparency or alpha channel anywhere.
+```

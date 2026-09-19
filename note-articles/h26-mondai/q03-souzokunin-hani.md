@@ -248,3 +248,204 @@ above children, spouses drawn side by side at the same height (never one
 above or below the other), and no card showing a parent below a child or
 a spouse stacked as if a child.
 ```
+
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster. This problem gives one family tree
+(A・B・C・D・F・G) covering all 5 記述, so every panel reuses the same
+genealogical scene rather than five unrelated illustrations.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what family-tree diagram they should draw on scratch paper
+for this fact pattern, AND the order in which they should check
+conditions to get there. Every panel's family tree must follow the same
+generational stack used elsewhere in this article: Ｆ（祖母）above Ｄ（父）
+and Ｅ（死亡した母、Ｄと夫婦として横並び）above Ａ（被相続人）and Ｂ（妻、
+Ａと夫婦として横並び）above Ｃ（子）above Ｇ（孫）, with parents always drawn
+above children and spouses/siblings drawn side by side at the same height,
+never stacked as parent-child. Panels 1 and 3（記述1・記述3）share the same
+underlying decision-tree shape（第1順位（子またはその代襲者）に当たる人が
+生存しているかを確認し、いない場合に初めて第2順位（直系尊属）の中で親等の
+近い者を確認するという判定）; draw both with the same two-diamond tree
+overlaid on the family tree, but highlight（太い縁取り・色を変える等で
+強調）the branch relevant to that panel's記述. Panels 2 and 4（記述2・記述
+4）likewise share the same underlying decision-tree shape（Ｃの身に生じた
+事情が、代襲原因である死亡・欠格・廃除のいずれかに当たるのか、それとも
+代襲原因ではない相続放棄なのかを見分ける判定）; draw both with the same
+single-diamond tree layout, highlighting the branch relevant to that
+panel's記述. Where a記述 requires checking multiple conditions in
+sequence（記述1・記述2・記述3・記述4）, draw the panel's diagram as an
+actual decision flowchart with diamond-shaped branch nodes, Yes/No（はい
+／いいえ）branch arrows, and a final conclusion node. Where a記述 is
+resolved by a single check（記述5）, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を
+確認します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成26年度午後第3問 1〜5
+作図ガイド（相続人の範囲）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（記述1） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+第1順位の代襲者がいれば第2順位は出番なし
+Diagram: A decision-tree flowchart overlaid on the standard family-tree
+stack. Ａ（被相続人）and Ｃ（子）are both marked with a small「?」icon and
+the label 死亡の先後不明（同時死亡と推定）。Diamond node (drawn with a
+thicker highlighted border): 第1順位（子またはその代襲者）に当たる人は
+生存しているか？Ｃの真下に、垂直の親子ラインでつながったＧ（孫）が green
+checkmark と「代襲」ラベルで示され、はい branch がここに続く。conclusion
+node: Ｇが相続人になる。上段のＤ（父）には red X と「相続人にならず（第1
+順位の代襲者がいるため）」ラベルが付き、いいえ branch（この記述では使わ
+れない）は小さくグレーアウトして「次のパネルへ」と添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、AとCの死亡の先後が明らかでないため同時死亡と推定されることを確認
+します。次に、Cの子Gが代襲相続人として存在するため、第1順位の代襲者が
+いる以上、第2順位の直系尊属Dは相続人にならないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+孫Gが相続人
+
+--- PANEL 2（記述2） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+同順位者への殺害未遂も欠格事由になる
+Diagram: A decision-tree flowchart overlaid on the standard family-tree
+stack. Ａ（被相続人）and Ｂ（妻）are drawn side by side as a married
+couple. Directly below them, Ｃ（子）is drawn with a small icon showing an
+attempted-harm gesture directed upward toward Ｂ, labeled 殺人未遂で刑に
+処せられた。Diamond node (highlighted): Ｃの行為は、死亡・欠格・廃除と
+いう代襲原因の3類型のうち「欠格」に当たるか？with a はい arrow leading to
+a conclusion node showing a large red 相続欠格 stamp placed over Ｃ,
+blocking Ｃ's path toward the inheritance documents on the registry desk.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、CがAと同順位の相続人であるBを殺害しようとして刑に処せられたという
+事情を確認します。次に、それが民法891条の相続欠格事由に当たることを
+確認し、Cは相続人になれないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+未遂でも欠格
+
+--- PANEL 3（記述3） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+直系尊属の中では親等の近い人が優先
+Diagram: The same two-diamond decision-tree flowchart shape as Panel 1,
+overlaid on the standard family-tree stack. Ｃ（子）and Ｇ（孫）are both
+marked deceased with small tombstone icons. First diamond node: 第1順位
+（子またはその代襲者）に当たる人は生存しているか？with the いいえ branch
+highlighted this time (unlike Panel 1's はい branch), proceeding to a
+second diamond node (also highlighted): 第2順位（直系尊属）の中で、Ｄ（父、
+1親等）とＦ（祖母、2親等）のどちらの親等が近いか？with Ｄ側の branch
+highlighted, leading to a conclusion node showing Ｄ with a green
+checkmark and Ｆ with a red X and the label 代襲なし・対象外, while Ｂ
+（妻）is separately highlighted with a green checkmark and the label
+配偶者は常に相続人.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、第1順位の子Cもその代襲者Gも既に死亡しており、第1順位の相続人が
+いないことを確認します。次に、第2順位の直系尊属の中では親等の近い者が
+優先するため、1親等の父Dが2親等の祖母Fより優先し、Fは相続人にならない
+と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+親等の近い人が優先
+
+--- PANEL 4（記述4） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+相続放棄は代襲の原因にならない
+Diagram: The same single-diamond decision-tree flowchart shape as Panel
+2, overlaid on the standard family-tree stack. Ａ（被相続人）is drawn at
+the top. Directly below Ａ, Ｃ（子）holds a document labeled 相続放棄.
+Diamond node (highlighted, distinct branch from Panel 2): Ｃの行為（相続
+放棄）は、死亡・欠格・廃除という代襲原因の3類型のいずれかに当たるか？
+with a いいえ arrow leading to a conclusion node showing a downward arrow
+toward Ｇ（孫）blocked by a large red X, with Ｇ standing apart, one level
+below Ｃ, receiving nothing from Ａ's estate.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Cが相続放棄をしたという事情を確認します。次に、代襲相続が生じる
+原因は死亡・欠格・廃除の3つに限られ、相続放棄はこれに含まれないことを
+確認し、Cの子Gは代襲相続しないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+放棄は代襲原因外
+
+--- PANEL 5（記述5） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+離婚しても親子の相続権は残る
+Diagram: An isometric family-tree diagram following the standard
+generational stack. Ａ（父）and Ｂ（母）are drawn side by side at the same
+height, separated by a broken-heart 離婚 icon between them, with a small
+label 親権者はＢ near Ｂ. Directly below Ａ, connected by a vertical
+parent-child line, Ｃ（子）is drawn one level down. Despite the separation
+between Ａ and Ｂ, the solid vertical line between Ａ and Ｃ remains intact
+and is labeled 血族関係は継続。Ｃ receives the inheritance document from
+Ａ's estate with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、AとBが離婚し、Bが子Cの親権者と定められたという事情を確認します。
+次に、離婚は夫婦間の婚姻関係を解消するだけで親子の血族関係には影響しない
+ことを確認し、Cは引き続きAの相続人であると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+血族関係は継続
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法32条の2（同時死亡の推定）・887条2項（代襲相続の原因）・889条1項1号
+（親等の近い直系尊属の優先）・890条（配偶者の相続権）・891条1号（相続
+欠格）・939条（相続放棄の効果）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 続, 襲, 尊, 属, 棄, 欠, 格, 離, 婚, 妻. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition記述
+（記述1・記述2・記述3・記述4）is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+each着眼点 callout states a checking order rather than only a conclusion,
+that every family-tree diagram across all 5 panels keeps parents drawn
+above children and spouses drawn side by side at the same height (never
+one above or below the other), confirm nothing is rendered below the
+last panel's footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all記述, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

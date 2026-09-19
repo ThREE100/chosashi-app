@@ -324,3 +324,190 @@ substituted characters, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots, sale/transfer arrows
+between figures A・B・C, registry stamps, horizontal timelines with flag
+icons, occupying figures with footprints, and prohibition marks. Where a
+肢 requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+（はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Panels 4 and 5 (肢エ・肢オ) share
+the same underlying decision-tree shape (Ｃは当事者・包括承継人以外の者
+か？ → Ｃは登記の欠缺を主張する正当な利益を有する者か？); draw both with
+the same two-diamond tree layout, but highlight（太い縁取り・色を変える
+等で強調）the different reason each panel's Ｃ lacks that正当な利益(肢エ
+は無権原の不法占拠者であること、肢オは登記申請の受任者であること)。
+Panels 2 and 3 (肢イ・肢ウ) both use a horizontal timeline illustrating
+which of two events happened first, in the same visual style, even though
+the underlying rule differs. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認し
+ます"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第2問 ア〜オ
+作図ガイド（物権変動と対抗要件）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+所有権が移るのは登記でなく取得の瞬間
+Diagram: An isometric scene showing A→B→C売買の矢印が連なる場面。Bが元
+の所有者Aから土地を買い取った瞬間にキラキラマークが光り、同時にBからCへ
+も所有権のキラキラが伝わる。横に置かれた「登記完了」のスタンプアイコンに
+は時計の針と赤い✕マーク(登記完了を待つ必要はないことを示す)。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、所有権が移転する基準時が「登記が完了した時点」なのか、それとも「売
+主が所有権を取得した時点」なのかを確認します。他人物売買では、売主Ｂが元
+の所有者Ａから所有権を取得したその瞬間に、買主Ｃへ所有権が移転します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+取得の瞬間に移転
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+登記後に時効完成なら登記なくして対抗可
+Diagram: A horizontal isometric timeline. Two flag icons in order: first
+a flag reading "ＡからＢへの登記" placed earlier, then a second flag
+reading "Ｃの取得時効が完成" placed later. From the second flag, an
+arrow labeled "対抗できる" with a green checkmark points toward Ｂ, and a
+small registration-wall icon between Ｃ and Ｂ is marked with a red ✕ to
+show登記が不要であることを示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、ＡからＢへの所有権移転登記がされたのが、Ｃの取得時効の完成より前か
+後かを確認します。登記が時効完成より前にされている場合は、次に、その後に
+Ｃの時効が完成したことを確認すれば、ＣはＢに対して登記なくして時効取得を
+主張できるという結論にたどり着けます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+時効完成者は対抗可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+解除後に現れた第三者とは対抗関係
+Diagram: A horizontal isometric timeline in the same visual style as
+Panel 2. Three flag icons in order: first "ＡからＢへの売買・登記"、次に
+赤い旗「Ａによる契約の解除」、その後に「ＢからＣへの転売・登記」。Ａと
+Ｃが土地を挟んで向き合い、Ａは登記していない書類(赤い✕マーク付き)を、
+Ｃは登記済みの書類(緑の✓マーク付き)を掲げている。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、第三者Ｃが登場したのが契約の解除の前か後かを確認します。解除より後
+に登場した第三者とは対抗関係に立つため、次に、ＡとＣのどちらが先に登記を
+備えたかを確認しなければ、Ａは所有権をＣに対抗できません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+解除者も登記が必要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+無権原の不法占拠者には登記不要
+Diagram: A decision-tree flowchart. First diamond node: Ｃは売買契約の当
+事者・包括承継人以外の者か？ with a はい arrow proceeding to a second
+diamond node (drawn with a thicker highlighted border): Ｃは登記の欠缺
+を主張する正当な利益を有する者か？ with a highlighted いいえ branch
+labeled 権原のない不法占拠者だから leading to a green conclusion node
+reading Ｂは登記なくしてＣに所有権を主張できる。Illustration: 土地アイ
+コンにA→Bの売買矢印(まだ登記前)。まったく無関係の人物C(腕組みで正当な理
+由なしを示す看板「正当な利益なし」を横に掲示)が勝手に土地に座り込んでい
+る。Bが指差して「出て行ってください」と主張する吹き出し。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Ｃが売買契約の当事者や包括承継人以外の者にあたるかを確認します。次
+に、Ｃが登記の欠缺を主張するについて正当な利益を有する者かどうかを確認し
+ます。何の権原もなく占有を始めた不法占拠者は、この正当な利益を持たないた
+め、Ｂは登記なくしてＣに所有権を主張できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+無権原者には登記不要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+登記申請の受任者にも登記不要
+Diagram: The same two-diamond decision-tree shape as Panel 4. First
+diamond node: Ｃは売買契約の当事者・包括承継人以外の者か？ with a はい
+arrow proceeding to a second diamond node (drawn with a thicker
+highlighted border, distinct from Panel 4's highlighted reason): Ｃは登
+記の欠缺を主張する正当な利益を有する者か？ with a highlighted いいえ
+branch labeled 登記申請を受任していた義務者だから(不動産登記法5条2項)
+leading to a green conclusion node reading Ｂは登記なくしてＣに所有権を
+主張できる。Illustration: BがCに「登記手続お願いします」と書類を渡す場
+面。その隣で、Cがこっそり自分でAから土地を買い取り、A→C登記の緑スタンプ
+を押している。Cの頭上に「信義に反する」という警告アイコン。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Ｃが売買契約の当事者や包括承継人以外の者にあたるかを確認します。次
+に、Ｃが登記の欠缺を主張するについて正当な利益を有する者かどうかを確認し
+ます。Ｃはもともと登記の申請を受任していた者であり、不動産登記法5条2項に
+よりこの正当な利益を持たないため、Ｂは登記なくしてＣに所有権を主張できま
+す。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+受任者にも登記不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法177条(対抗要件主義)・不動産登記法5条2項(登記を申請する義務を負う者
+は第三者にあたらない)に基づく整理です。所有権移転の時期・取得時効と登記
+の先後・解除後の対抗関係は、判例の趣旨に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 登, 記, 対, 抗, 占, 拠, 受, 任 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢(肢エ・
+肢オ) is drawn as an actual flowchart with branch nodes sharing the same
+two-diamond tree shape (not a bare illustration with no visible decision
+structure), that each 着眼点 callout states a checking order rather than
+only a conclusion, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

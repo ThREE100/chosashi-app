@@ -327,3 +327,192 @@ crossed-out ✕ icon appears only near the left (原則) side to show that
 ordinary co-ownership division is barred unless the exception condition
 is met.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric pie chart for 法定相続分, a family
+tree for 代襲相続・養子縁組, a shared house with two owner-figures for
+遺産共有, a split house with a registration stamp for 対抗要件, and a
+scroll/will document with a direct arrow for 相続させる遺言. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+（はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. This article's five 肢 do not
+share a single common decision-tree shape, so design each panel's diagram
+independently around its own fact pattern; Panels 2 and 4（肢イ・肢エ）
+each require an actual multi-step flowchart because they depend on more
+than one condition. When drawing the family tree in Panel 2, follow these
+rules strictly: vertical position represents generation (被相続人Ｙを
+最上段に置く), siblings of the same generation（ＤとＥ）are placed
+side-by-side and connected to Ｙ via a small ∩-shaped bracket rather than
+stacked vertically, and arrows follow the real parent-child direction
+(Ｄから、代襲相続によりＦへ) rather than one single arrow running through
+the whole diagram. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度午後第3問 ア〜オ
+作図ガイド（相続の対話問題）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+兄弟姉妹の相続分は4分の1
+Diagram: An isometric pie chart split into two unequal slices: a large
+slice with a spouse figure icon and a short label「配偶者」next to it, a
+small slice with a brother figure icon and a short label「兄弟姉妹」next
+to it, with a small house icon in the background.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相続人が配偶者と兄弟姉妹の組合せであることを確認します。この組合せ
+では、配偶者の相続分が4分の3、兄弟姉妹の相続分が4分の1と、条文で固定
+されています。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+兄弟姉妹は4分の1
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+Ｆの二重資格は合算して判定
+Diagram: A decision-tree flowchart combined with a family tree. Top row
+(generation 1): 被相続人Ｙ. Second row (generation 2, siblings placed
+side-by-side and connected to Ｙ by a small ∩-shaped bracket): Ｄ（実子、
+故人、grayed out with a small「死亡」tag）and Ｅ（実子、生存）. Third row
+(generation 3, directly below Ｄ): Ｆ（Ｄの子）, connected to Ｄ by a solid
+downward arrow labeled「代襲」. A separate dashed arrow runs directly from
+Ｙ down to Ｆ, labeled「養子縁組（Ｙの養子でもある）」, showing Ｆ's second
+status. Beside the tree, two small diamond check-icons in sequence read
+「Ｆは代襲者の資格を持つか？→はい」and「Ｆは養子（Ｙの子）の資格も持つ
+か？→はい」, both arrows converging on a conclusion node reading「両方の
+資格の相続分を合算し3分の2」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Ｆが被相続人Ｙとどのような続柄にあるかを家系図で確認します。Ｆは、
+亡くなった実親Ｄの代わりに相続する「代襲者」としての資格と、Ｙ自身の
+養子として直接の「子」である資格の、2つの資格を同時に持っていることを
+確認し、次にその両方の相続分を合算して判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+二重資格は合算する
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+遺産共有の解消は遺産分割で
+Diagram: An isometric house shared by two owner figure icons, an arrow
+with a red「✕」mark pointing toward a small courthouse building icon
+labeled「共有物分割」, and a second arrow with a green「✓」checkmark
+pointing toward another courthouse building icon labeled「遺産分割」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、複数の相続人が不動産を共有している状態が、通常の共有（共有物分割
+で解消するもの）なのか、遺産共有（遺産分割で解消すべきもの）なのかを
+確認します。遺産共有であれば、共有物分割請求ではなく家庭裁判所の遺産
+分割によって解消します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+遺産分割による解消
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+超える持分は登記の有無で決まる
+Diagram: A decision-tree flowchart on an isometric split house scene.
+Start node:「遺産分割等によって取得した持分は、自分の法定相続分を超えて
+いるか？」An いいえ branch leads to a grayed-out box reading「登記なくても
+対抗可（この肢の射程外）」. A はい branch proceeds to a second diamond
+node:「その超える部分について、登記を備えているか？」A はい branch leads
+to a conclusion node with a green checkmark reading「対抗できる」; an
+いいえ branch leads to a conclusion node with a red「✕」reading「対抗
+できない（先に登記を備えた第三者に負ける）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、遺産分割等によって取得した持分が、自分の法定相続分を超える部分を
+含むかどうかを確認します。超える部分がある場合は、次に、その部分に
+ついて登記を備えているかを確認し、備えていなければ、先に登記を備えた
+第三者にその部分の取得を対抗できません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+超過分は登記が必要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+相続させる遺言は死亡時に直ちに承継
+Diagram: An isometric scroll/will document icon labeled「相続させる」with
+a direct arrow flowing straight from a deceased figure to an heir figure,
+bypassing a small crossed-out courthouse icon (with a red「✕」mark)
+labeled「遺産分割」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、遺言が特定の遺産を特定の相続人に「相続させる」旨のもの（遺産分割
+方法の指定）であるかを確認します。そうであれば、遺産分割の協議や審判を
+経ることなく、被相続人の死亡と同時に直ちにその相続人に承継されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+死亡時に直ちに承継
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法900条3号（配偶者・兄弟姉妹の法定相続分）・899条の2第1項（相続分を
+超える部分の対抗要件）に基づく整理です（代襲者と養子の二重資格による
+相続分の合算、遺産共有の解消方法、「相続させる」旨の遺言の効力は、判例・
+実務先例に基づく整理であり、条文番号は上記のみ明記します）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 続・産・対・抗・登・記・議・養・資・格・継・承. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢（肢イ・肢エ）is drawn as an actual flowchart with
+branch nodes (not a bare illustration with no visible decision
+structure), that the family tree in Panel 2 places Ｙ at the top
+generation, Ｄ and Ｅ side-by-side at the same generation, and the arrow
+from Ｄ to Ｆ following the real parent-child direction, that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

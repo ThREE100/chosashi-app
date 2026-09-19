@@ -192,3 +192,183 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — this problem asks, for each 肢, whether the
+described feature belongs ONLY to 取消しうる行為, so every panel reuses the
+same underlying two-column comparison shape (LEFT column labeled 無効、
+RIGHT column labeled 取消し) with a two-diamond checking sequence overlaid
+on it: first diamond "この記述は無効な行為にも当てはまるか", then diamond
+"この記述は取消しうる行為にも当てはまるか", with a ✓ or ✕ placed in each
+column as the check proceeds, and the branch relevant to that panel's 肢
+highlighted (thicker border, distinct color). Only when 無効の列が✕で取消
+しの列が✓になったときに、初めて「取消しうる行為のみ」という結論に至るこ
+とを図の中で視覚的に示す。Where a 肢 requires checking multiple conditions
+in sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart with diamond-shaped branch nodes and Yes/No
+（はい／いいえ）branch arrows leading to a final conclusion node; where a
+肢 is resolved by a single check (e.g. 肢ウ), a labeled illustrative
+diagram is sufficient. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成20年度午後第3問 ア〜オ
+作図ガイド（無効と取消しの見分け方）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft beige containing the number 1.
+Heading (bold, ONE line):
+期間経過で確定的に有効になるのは取消しだけ
+Diagram: The two-column comparison (無効列／取消し列) with a first diamond
+node この記述は無効な行為にも当てはまるか（時間が経てば有効になるか）、
+with いいえ highlighted placing a ✕ in the 無効列; a second diamond node
+この記述は取消しうる行為にも当てはまるか（期間経過・追認で確定的に有効に
+なるか）、with はい highlighted placing a ✓ in the 取消し列, leading to a
+conclusion node 取消しうる行為のみに当てはまる. Illustration: 砂時計の
+isometricアイコンと契約書、時間経過とともに契約書の周りの点線が実線に変
+わり「確定」のスタンプが押される図（取消し列側）。左の無効列には、公序良
+俗違反の契約書が何年経っても点線のまま変わらない様子を添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この記述が無効な行為にも当てはまるかを確認します（無効は期間が経っ
+ても有効になりません）。次に、取消しうる行為に当てはまるかを確認します
+（取消権の期間経過や追認で確定的に有効となります）。両方を確認して初めて
+「取消しうる行為のみ」と判断できます。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+取消しうる行為のみの特徴
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft beige containing the number 2.
+Heading (bold, ONE line):
+誰でも主張できるのは無効の特徴
+Diagram: The same two-column comparison shape as Panel 1, with the first
+diamond node この記述は無効な行為にも当てはまるか（だれでも主張できる
+か）highlighted with はい, placing a ✓ in the 無効列, leading directly to
+a conclusion node 無効にも当てはまるため「取消しのみ」ではない（第二の
+ダイヤモンドに進むまでもなく判定が終わる）. Illustration: 大勢のisometric
+人物アイコンが1つの無効な契約書を指差す図（無効列）。取消し可能な契約書
+には1人のキャラクターだけが指を差す図（取消し列、対比用）。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この記述が無効な行為にも当てはまるかを確認します。「だれでも主張で
+きる」のは無効の特徴でもあるため、この記述は取消しうる行為のみを指してい
+るとはいえません。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+無効にも当てはまる
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft beige containing the number 3.
+Heading (bold, ONE line):
+取消しは遡及効であり将来効ではない
+Diagram: A labeled illustrative diagram (not a flowchart, since this 肢 is
+resolved by a single check about the timing of the effect rather than a
+two-column comparison): タイムラインのisometricイラスト。契約締結の時点
+まで矢印が巻き戻り、「最初からなかったこと」のラベルが付く図（遡及効）。
+「将来に向かってのみ効力を失う」という説明文の吹き出しに赤い✕。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、取消しの効力がいつから生じるかを確認します。取消しは主張した時から
+将来に向かってではなく、最初にさかのぼって無効になるため、この記述は取消
+しうる行為の説明として誤りです。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+遡及効であり将来効でない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft beige containing the number 4.
+Heading (bold, ONE line):
+返金請求は無効・取消しの両方に共通
+Diagram: The same two-column comparison shape as Panels 1-2, with the
+first diamond node この記述は無効な行為にも当てはまるか（返還請求できる
+か）highlighted with はい, placing a ✓ in the 無効列; the second diamond
+node この記述は取消しうる行為にも当てはまるか highlighted with はい,
+placing a ✓ in the 取消し列 too, leading to a conclusion node 両方に共通す
+る特徴、「取消しのみ」ではない. Illustration: お金の袋アイコンが行き来する
+図。無効な契約と取消し済みの契約、両方の吹き出しから同じ「返金請求OK」の
+ラベルが伸びる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、無効な行為でも既払金の返還請求ができるかを確認し、次に、取消しによ
+り無効とみなされた行為でも同様に返還請求ができるかを確認します。どちらで
+も生じる共通の効果なので、「取消しのみ」を指す記述ではありません。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+無効・取消し共通の効果
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft beige containing the number 5.
+Heading (bold, ONE line):
+成年被後見人の行為は原則取消しうる行為
+Diagram: The same two-column comparison shape as Panels 1・2・4, with the
+first diamond node この記述は無効な行為にも当てはまるか（成年被後見人の行
+為は原則無効か）highlighted with いいえ, placing a ✕ in the 無効列; the
+second diamond node この記述は取消しうる行為にも当てはまるか highlighted
+with はい, placing a ✓ in the 取消し列, leading to a conclusion node 取消
+しうる行為のみに当てはまる. Illustration: 成年被後見人のキャラクターが絵
+画を購入するisometricイラスト。成年後見人のキャラクターが「取消し」のス
+タンプを押す図。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、成年被後見人の行為が無効にも当てはまるかを確認します（無効ではあり
+ません）。次に、取消しうる行為に当てはまるかを確認すると、原則として取消
+しうる行為に当たることが分かります。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+原則取消しうる行為
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法9条・121条・121条の2・122条・126条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 効・取・消・追・認・遡 and any character that has a visually
+similar Simplified Chinese variant. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that Panels 1・2・4・5 visibly share the same
+two-column comparison shape with the two-diamond checking sequence
+overlaid while Panel 3 uses its own simple illustrative diagram, that
+each 着眼点 callout states a checking order rather than only a conclusion,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

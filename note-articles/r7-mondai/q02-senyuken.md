@@ -219,6 +219,177 @@ tag, at a glance.
 
 ---
 
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+占有権の問題文を読んだときに、「誰が」「どんな資格で」占有しているかを図に描き分け、承継・善意占有・必要費・占有移転・占有訴権のそれぞれで確認すべき条件の順番をたどれるようにする5パネル構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（占有権 判例整理), but built as a set of 5 diagram-drawing panels (a "how
+to sketch this fact pattern, in the right order" study reference) rather
+than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land-plot and house scenes with a
+relay-baton pair for occupation succession, a balance-scale/coin icon for
+使用利益・必要費の負担, and a two-figure (直接占有者・間接占有者) diagram
+for 占有代理・占有訴権. Where a 肢 requires checking multiple conditions
+in sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No（はい／いいえ）branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第2問 ア〜オ
+作図ガイド（占有権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+相続人は主張方法を選べると確認する
+Diagram: An isometric generational scene: a deceased figure Ａ's house
+（15年の占有期間ラベル）and heir Ｂ's house（5年の占有期間ラベル）,
+connected by a fork icon splitting into two arrows, one labeled「自己の
+占有のみ」, one labeled「Ａの占有と併せて20年」, both ending in a green
+checkmark to show both options are valid.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず占有者が死亡し相続が生じたことを確認し、次に相続人が「自己の占有の
+みを主張する」か「被相続人の占有と併せて主張する」かを自由に選べること
+を確認します。どちらを選んでも構いません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+どちらでも選べる
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+提訴の前後で使用利益の扱いが変わる
+Diagram: A decision-tree flowchart on an isometric building scene with a
+figure Ｃ living inside. Start node: 権原があると信じたか（善意）？with
+a はい arrow down to a second diamond node（強調表示）: 所有者Ａから本権
+の訴えを提起されて敗訴したか？with the いいえ branch leading to a green
+checkmark conclusion node reading 使用利益の返還は不要, and the はい
+branch leading to a conclusion node reading 訴え提起の時から返還義務
+（悪意の占有者とみなす）。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず占有者が権原があると善意で信じていたかを確認し、次に所有者から本権
+の訴えを提起されて敗訴したかを確認します。敗訴していなければ、それまで
+の使用利益は返還しなくてよいのです。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+提訴前なら返還不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+必要費は「通常」か「特別」かで分ける
+Diagram: An isometric house split by a dividing line. Left side shows a
+gutter-cleaning icon labeled「通常の必要費」with a small self-pay icon.
+Right side shows a lightning-bolt striking the roof, labeled「特別の必要
+費（落雷）」, with an invoice icon「修繕費50万円」and an arrow pointing to
+所有者Ａ labeled「償還請求」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず支出した費用が、日常的な維持費である「通常の必要費」なのか、落雷の
+ような偶発的な損傷を直す「特別の必要費」なのかを見分けます。特別の必要
+費であれば、果実を得ていても償還を請求できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+特別必要費は請求可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+指図と承諾の2条件をそろえて確認する
+Diagram: A decision-tree flowchart on an isometric building scene where
+占有代理人Ｂ stays inside the building unmoved. Start node: 本人Ａが第三
+者Ｃのために占有するようＢに指図したか？with a はい arrow down to a
+second diamond node: Ｃがこれを承諾したか？with a はい arrow leading to a
+green checkmark conclusion node reading Ｃが占有権を取得する（Ｂはその
+まま住み続ける）。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずＡからＢへの指図があったかを確認し、次にＣがその指図を承諾したかを
+確認します。この2つがそろえば、Ｂの引っ越しなしに占有権がＣへ移ります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+指図と承諾で移転
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+代理占有の地位を先に確認する
+Diagram: A three-figure isometric relationship diagram: Ａ（間接占有者・
+賃借人）connected by a dashed line labeled「代理占有」to Ｂ（直接占有者・
+転借人）, who is being forced out by a hooded figure Ｃ（侵奪者）changing
+the lock. Two arrows from both Ａ and Ｂ point toward Ｃ, each labeled
+「占有回収の訴え」, with a green checkmark above both Ａ and Ｂ.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずＡがＢを占有代理人として代理占有の地位を持っているかを確認し、次に
+Ｂが実際に占有を奪われた事実を確認します。この2つが確認できれば、直接
+占有者Ｂだけでなく間接占有者Ａも独立して訴えを提起できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+間接占有者も提訴可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法181条・184条・187条1項・189条1項・2項・196条1項・197条・200条に基づ
+く整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 継, 還, 償, 侵, 奪, 訴 and any character that has a visually
+similar Simplified Chinese variant. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢（肢イ・肢エ）is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
+
+---
+
 ## インフォグラフィック プロンプト（オ肢・間違いノート）
 
 オ（物理的に占有を奪われたのは直接占有者Bなのに、間接占有者Aにも占有回収の訴えが認められる）について、「奪われたのはBであってAではない」という直感と、代理占有（民法181条）による法的な占有者の地位を混同してしまう、という典型的なつまずきを解消するための関係図解型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、説明文・条文引用を制限なく配置している。
@@ -321,7 +492,7 @@ standard Japanese (Jōyō) form, not Simplified Chinese, especially
 占・有・権・代・理・訴・奪・還・侵・害. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly 3 vertically stacked scenes connected by
-two downward arrows, confirm both quoted article text boxes (181条・197条）
+two downward arrows, confirm both quoted article text boxes (181条・197条)
 match the Japanese text given above verbatim character-for-character,
 confirm SCENE 3 shows both Ａ and Ｂ independently holding a document
 labeled 占有回収の訴え, and confirm the callout box text matches verbatim

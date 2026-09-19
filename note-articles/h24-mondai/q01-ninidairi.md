@@ -195,3 +195,179 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a businessperson icon signing without a name
+tag for 顕名, a thought-bubble pair (agent vs principal) for the 知・不知
+の基準, a student-sash icon for 未成年者の代理人適格, a sub-agent
+警告アイコン for 復代理人の不適任, and a双方代理の three-figure scene for
+許諾. Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
+Where a 肢 is resolved by a single check, a labeled illustrative diagram
+is sufficient — do not force a flowchart. Panel 4（肢エ）is the only
+肢 in this problem that requires two sequential checks (知っていたか →
+通知・解任を怠ったか), so it alone is drawn as a true two-diamond
+flowchart; the other four panels use a single labeled comparison diagram
+(correct rule vs the crossed-out wrong assumption). Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成24年度午後第1問 ア〜オ
+作図ガイド（任意代理）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+相手方が知っていれば顕名不要
+Diagram: An isometric businessperson icon (代理人) signing a contract
+without any "本人のために" name-tag speech bubble (顕名なし). The
+counterpart character has a small checkmark icon above their head
+labeled 知っていた（または知ることができた）. An arrow shows the
+contract's legal effect flowing directly to a separate principal icon
+(本人) standing behind the businessperson, bypassing the businessperson
+themselves.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人が「本人のためにする」ことを示す顕名をしたかどうかを確認し
+ます。顕名がない場合は、次に、相手方がそのことを知っていたか、知ること
+ができたかを確認し、知っていれば本人に直接効力が生じます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+相手方が悪意なら有効
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+知・不知の基準は本人でなく代理人
+Diagram: An isometric scene with an agent icon (代理人) whose thought
+bubble contains a small crossed-out shield icon (「この土地には抵当権が
+付いている」と知っている状態を表す), while the principal icon（本人）
+behind them has a large question mark (知らない). A magnifying-glass
+judgment icon points at the agent, not at the principal, with a label
+判断基準はこちら.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、意思表示の効力が「知っていたかどうか」で影響を受ける場面かどうか
+を確認します。次に、その知・不知を本人ではなく代理人について判断すると
+確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代理人が基準
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+未成年者でも代理人になれる
+Diagram: An isometric young student-looking character (school bag) wearing
+a sash labeled 代理人, confidently signing a contract document with a
+green checkmark stamp confirming its validity. Beside the character, a
+separate small icon reading 行為能力が必要 is drawn crossed out with a
+red ✕, showing that this requirement does NOT apply to becoming an agent.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人になるために行為能力者であることが必要かどうかを確認しま
+す。民法102条により不要とされているため、次に、未成年者を代理人に選任
+すること自体は妨げられないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+未成年者でも可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+知りながら放置すれば債務不履行
+Diagram: A decision-tree flowchart. First diamond node: 代理人は、本人の
+指名に従って選任した復代理人が不適任又は不誠実であることを知っていた
+か？with a いいえ branch leading to a small conclusion node 責任を負わ
+ない (drawn faded, since it is not this肢の事実). はい branch proceeds
+down to a second diamond node (drawn with a thicker highlighted border):
+代理人は、本人への通知又は復代理人の解任をしたか？with the いいえ branch
+leading to a warning-triangle icon and a conclusion node 復代理人の選任
+及び監督について、本人に対し債務不履行の責任を負う.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人が復代理人の不適任・不誠実を知っていたかどうかを確認しま
+す。次に、知っていた場合に、本人への通知または復代理人の解任をしたかど
+うかを確認し、どちらも怠っていれば代理人は責任を負います。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+債務不履行の責任を負う
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+許諾があれば双方代理も有効
+Diagram: An isometric scene of one businessperson icon standing between a
+seller icon and a buyer icon, holding a single contract document stamped
+with checkmarks from both sides labeled 許諾. A separate faded icon
+beside them, crossed out with a red ✕, shows the mistaken assumption
+双方代理は常に不可, to contrast with the actual rule.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、本人があらかじめ双方代理を許諾していたかどうかを確認します。許諾
+があれば、次に、同一の代理人が売主・買主双方の代理人になっていること
+自体は契約を無効にしないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+許諾で双方代理も可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法100条（顕名のない意思表示）・101条1項（代理行為の瑕疵）・102条（制限
+行為能力者の代理行為）・108条（自己契約・双方代理）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 代, 理, 復, 任, 双, 許, 諾, 怠 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that 肢エ is drawn as an actual
+flowchart with two branch nodes (not a bare illustration with no visible
+decision structure) while the other panels use a single labeled
+comparison diagram, that each 着眼点 callout states a checking order
+rather than only a conclusion, confirm nothing is rendered below the
+last panel's footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

@@ -350,3 +350,195 @@ three lanes (虚偽表示・詐欺・強迫) are clearly color-coded and visuall
 separated, and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric human figures labeled with 善意／悪意
+badges, land-plot chains showing a transaction passing from person to
+person, torn "登記" document icons, and shield icons for third-party
+protection. Where a 肢 requires checking multiple conditions in sequence
+before reaching a conclusion, draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No（はい／いいえ）branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Panels 1,
+2 and 3 (肢ア・肢イ・肢ウ) share the same underlying decision-tree shape
+for 虚偽表示の第三者保護（あとから登場した人は包括承継人か、新たに取引に
+入った人か→善意か悪意か→悪意なら善意者の介在の有無）; draw all three with
+the same tree layout, but highlight（太い縁取り・色を変える等で強調）only
+the branch relevant to that panel's 肢 and keep the other branches small
+and grayed out. Panels 4 and 5 (肢エ・肢オ) likewise share the same
+decision-tree shape for 詐欺・強迫と第三者保護（意思表示の瑕疵が詐欺か強迫
+か→（詐欺の場合のみ）第三者は善意無過失か）; draw both with the same tree
+layout, highlighting the branch relevant to that panel's 肢. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g.
+"まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和4年度午後第2問 ア〜オ
+作図ガイド（虚偽表示・詐欺・強迫）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+善意なら登記なしで保護される
+Diagram: A decision-tree flowchart on an isometric scene with land plot
+「甲土地」and figures A・B・C. Start node:「あとから登場した人は、包括
+承継人（相続人）か、それとも新たに取引に入った人か？」with a はい（包括
+承継人）branch drawn small and grayed out (not this panel's focus) leading
+to「第三者にあたらない」, and a はい（新たに取引に入った人）branch drawn
+with a thicker highlighted border proceeding to a second diamond node:
+「その人は善意か（虚偽表示だと知らなかったか）？」with the 善意 branch
+highlighted, leading to a conclusion node with a green checkmark reading
+「登記がなくても保護される」; the 悪意 branch is drawn small and grayed out
+leading off-panel toward a third diamond (shown fully in Panel 3).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、あとから登場した人が、虚偽表示を基礎に新たに取引へ入った人なのか、
+それとも単なる相続人（包括承継人）なのかを確認します。新たに取引に入った
+人であれば、次にその人が善意（虚偽表示だと知らなかったか）を確認し、
+善意であれば登記がなくても保護されます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+善意なら登記不要で保護
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+相続人は「第三者」に当たらない
+Diagram: The same decision-tree shape as Panel 1, on the same isometric
+scene with land plot「甲土地」and figures A・B・C. Start node:「あとから
+登場した人は、包括承継人（相続人）か、それとも新たに取引に入った人か？」
+with the 包括承継人（相続人）branch drawn with a thicker highlighted border
+(distinct from Panel 1's highlight) leading directly to a conclusion node
+with a red「✕」reading「第三者にあたらない → 保護されない」; the 新たに
+取引に入った人 branch and its downstream diamond are drawn small and
+grayed out (not this panel's focus).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、あとから登場した人が、虚偽表示を基礎に新たに独立の利害関係に入った
+人なのか、それとも被相続人の地位をそのまま引き継いだ相続人（包括承継人）
+なのかを確認します。相続人は善意であっても「第三者」にあたらず、保護
+されません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+承継人は保護されない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+善意者を経れば悪意者も取得
+Diagram: The same decision-tree shape as Panels 1-2. Start node（grayed
+out, not the focus here）leads to「新たに取引に入った人」→ diamond「その人
+は善意か？」with the 悪意 branch highlighted (thicker border) leading to a
+third diamond node (also highlighted):「その人より前に、善意の第三者が
+一度でも介在したか（絶対的構成）？」with the 介在あり branch leading to a
+conclusion node with a green checkmark reading「善意者から確定的に権利
+取得 → 保護される」; the 介在なし branch is drawn small and grayed out
+leading to「保護されない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その人が悪意であることを確認し、次に、その人より前の段階で善意の
+第三者が一度でも取引に介在していたかを確認します。善意者が一度でも介在
+していれば、その後の悪意者も善意者から確定的に権利を取得でき、保護され
+ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+絶対的構成で取得
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+詐欺は過失ある善意者を保護しない
+Diagram: A decision-tree flowchart with two lanes branching from a start
+node:「意思表示の瑕疵は詐欺か強迫か？」The 詐欺 lane is drawn with a
+thicker highlighted border and leads to a diamond node:「第三者は善意
+かつ無過失か？」with the いいえ（善意だが過失あり）branch highlighted
+leading to a conclusion node with a red「✕」reading「保護されない →
+取消しを対抗される」; the 善意無過失 branch is drawn small showing a green
+checkmark reading「保護される」. The 強迫 lane is drawn small and grayed
+out (shown fully in Panel 5).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっている意思表示の瑕疵が詐欺であることを確認し、次に、
+第三者が善意かつ無過失かどうかを確認します。善意であっても過失があれば
+保護されず、取消しを対抗されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+過失ありなら対抗される
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+強迫には第三者保護規定がない
+Diagram: The same two-lane flowchart shape as Panel 4. The 強迫 lane is
+drawn with a thicker highlighted border, leading directly (no diamond
+branch, since there is no third-party protection provision) to a
+conclusion node with a red「✕」reading「第三者保護規定なし（96条3項の
+適用なし）→ 善意無過失でも保護されない」; the 詐欺 lane and its diamond
+are drawn small and grayed out (not this panel's focus).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっている意思表示の瑕疵が強迫であることを確認します。強迫
+には詐欺のような第三者保護規定がないため、第三者が善意無過失であっても、
+取消しを対抗されて保護されません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+善意無過失でも対抗される
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法94条2項（虚偽表示の第三者保護）・896条（相続の一般的効力）・96条3項
+（詐欺による意思表示の取消しと第三者保護）に基づく整理です（強迫には96条
+3項のような第三者保護規定がありません）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 偽・欺・迫・対・転・継・悪・過・失・権・善・意・護. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢（肢ア・肢イ・肢ウ・肢エ・肢オ）is drawn as an actual
+flowchart with branch nodes (not a bare illustration with no visible
+decision structure), that each 着眼点 callout states a checking order
+rather than only a conclusion, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

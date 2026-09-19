@@ -224,6 +224,171 @@ tag, at a glance.
 
 ---
 
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+相続の承認・放棄の問題文を読んだときに、「誰に」「いつまでに」「何を」確認すべきかをたどれるようにする5パネル構成。オ（期間徒過があっても全員で限定承認できるか）は、共同相続人の期間状況を順に確認する決定木として描く。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（相続の承認及び放棄 重要ポイント整理), but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric courthouse/government-office icons
+for 申述先, a balance scale for 管理義務の程度, a numbered coin-stack
+sequence for 弁済順序, a split-house icon for 保存行為/処分行為の区別,
+and a two-track timeline with clock icons for 共同相続人の熟慮期間.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
+Where a 肢 is resolved by a single check, a labeled illustrative diagram
+is sufficient — do not force a flowchart. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第3問 ア〜オ
+作図ガイド（相続の承認及び放棄）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+申述先を家庭裁判所か法務局かで確認
+Diagram: An isometric figure holding a document walking toward two
+buildings: a government-registry building labeled 法務局 with a red X
+mark, and a courthouse building labeled 家庭裁判所 with a green
+checkmark, an arrow pointing only toward the courthouse.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相続放棄の申述先として問題文に書かれている場所を確認します。それ
+が家庭裁判所でなければ、その時点で誤りと判断できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+家庭裁判所へ申述
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+決定前の管理基準を確認する
+Diagram: An isometric balance scale with a house icon labeled 固有財産 on
+one side and a house icon labeled 相続財産 on the other side, balanced
+evenly, with a small shield icon above each house.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、承認・放棄を決めるまでの期間であることを確認し、次に、その間の
+管理の程度が「固有財産におけるのと同一の注意」で足りることを確認しま
+す。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+固有財産と同一の注意
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+弁済の順序を1・2の番号で確認する
+Diagram: An isometric sequential flow with a coin-stack icon labeled 相続
+債権者 marked with a large number 1, an arrow pointing right, then a
+torn-paper label icon labeled 受遺者 marked with a large number 2.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず相続債権者への弁済を番号1として確認し、次にその弁済が終わった後で
+なければ受遺者への弁済（番号2）ができないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+債権者が先、遺贈は後
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+処分行為か保存行為かを見分ける
+Diagram: An isometric house split by a vertical dividing line. Left side
+shows maintenance icons（屋根の修理・鍵の交換）labeled 保存行為 with a
+green checkmark. Right side shows a cash icon and a person carrying
+furniture away labeled 処分行為 with a red stamp reading 単純承認。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず問題文の行為が、財産を維持する「保存行為」なのか、財産を減らす
+「処分行為」なのかを見分けます。保存行為は単純承認とみなされる行為から
+明文で除外されています。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保存行為は対象外
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+期間徒過者がいても他の相続人を確認
+Diagram: A decision-tree flowchart on an isometric timeline with two
+tracks labeled 兄 and 弟. Start node: 共同相続人の一人（兄）の熟慮期間が
+経過したか？with a はい arrow down to a second diamond node（強調表示）:
+他の相続人（弟）はまだ期間内か？with a はい branch leading to a third
+diamond node: 期間徒過者（兄）に処分行為等の法定単純承認の事由がある
+か？with the いいえ branch leading to a green checkmark conclusion node
+reading 全員で限定承認ができる, and the はい branch leading to a red cross
+conclusion node reading 全員での限定承認はできない。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず一部の相続人の熟慮期間が経過しているかを確認し、次に他の相続人が
+まだ期間内かを確認し、最後にその期間徒過者に処分行為のような単純承認
+事由がないかを確認します。この3つがそろえば、全員での限定承認ができ
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+全員での限定承認は可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法918条・921条1号・923条・931条・938条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 続, 権, 産, 処, 放, 棄, 認, 庭, 裁, 債, 遺 and any character
+that has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that the multi-condition 肢
+（肢オ）is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+---
+
 ## インフォグラフィック プロンプト（エ肢・間違いノート）
 
 エ（保存行為は単純承認とみなされる行為から除外される）について、本肢が民法921条1号の「原則（処分→単純承認）」と「例外（保存行為→対象外）」を入れ替えている、という典型的なつまずきを解消するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、説明文・条文引用を制限なく配置している。

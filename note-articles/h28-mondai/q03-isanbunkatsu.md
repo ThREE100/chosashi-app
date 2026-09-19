@@ -206,3 +206,184 @@ after the last card), and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric will document with an hourglass
+for 肢ア, a money-bag splitting diagram for 肢イ・肢ウ, a family table
+scene for 肢エ, and a signed agreement document for 肢オ. Panels 2 and 3
+(肢イ・肢ウ) share the same underlying decision-tree shape (相続財産の中に
+ある「お金」が、第三者に対する債権なのか、それとも現に存在する金銭なの
+かを見分ける判定); draw both with the same single-diamond tree layout, but
+highlight（太い縁取り・色を変える等で強調）the branch relevant to that
+panel's 肢. Where a 肢 requires checking multiple conditions in sequence
+(肢イ・肢ウ・肢エ), draw the panel's diagram as an actual decision
+flowchart with diamond-shaped branch nodes, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check (肢ア・肢オ), a labeled illustrative diagram is sufficient — do not
+force a flowchart. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成28年度午後第3問 ア〜オ
+作図ガイド（遺産分割）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+遺言による分割禁止は5年まで
+Diagram: An isometric will document (遺言) stamped 分割禁止 with a 5-year
+hourglass attached, showing the inheritance table locked and untouched
+while the sand still flows toward the 5年 mark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、被相続人が遺言で遺産の分割を禁じているかを確認します。次に、その
+禁止期間が相続開始の時から5年を超えていないかを確認し、5年以内であれば
+有効と判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+5年以内なら有効
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+可分債権は相続開始で自動分割
+Diagram: A decision-tree flowchart. Start node: 相続財産の中に「お金」に
+関するものがある。Diamond node (drawn with a thicker highlighted border,
+since this is the branch this panel is about): それは第三者に対する債権
+（可分債権）か、それとも相続財産として現に存在する金銭か？with the 可分
+債権 branch highlighted, showing a single money bag labeled 可分債権
+instantly splitting into several smaller bags each labeled with a
+fraction（相続分）, leading to a conclusion node reading 相続開始と同時に
+当然分割され、各相続人が単独で請求できる。The 現に存在する金銭 branch is
+drawn smaller and grayed out with a note 次のパネルへ.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっている「お金」が第三者に対する債権（可分債権）なのか、
+それとも現に相続財産として存在する金銭なのかを見分けます。可分債権で
+あれば、相続開始と同時に当然に分割され、各相続人が単独で請求できると
+判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+相続開始で自動分割
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+保管中の金銭は分割前に請求不可
+Diagram: The same decision-tree flowchart shape as Panel 2. Start node:
+相続財産の中に「お金」に関するものがある。Diamond node (drawn with a
+thicker highlighted border, distinct from Panel 2's highlighted branch):
+それは第三者に対する債権（可分債権）か、それとも相続財産として現に存在
+する金銭か？with the 現に存在する金銭 branch highlighted this time,
+showing a figure holding a locked cash box labeled 相続財産中の金銭, while
+another heir figure reaches out with an empty open hand and a small
+prohibition cross between them, leading to a conclusion node reading
+遺産分割の手続を経るまでは、当然には相続分に応じた支払を請求できない。The
+可分債権 branch is drawn smaller and grayed out this time, contrasting
+with Panel 2.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっている「お金」が現に相続財産として存在する金銭（保管中の
+現金）であることを確認します。第三者に対する債権（肢イ）とは異なり、
+遺産分割の手続を経るまでは当然には自己の相続分相当額を請求できないと
+判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+分割前は請求不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+認知後の相続人は価額のみ請求
+Diagram: A decision-tree flowchart. Start node: 相続開始後に認知によって
+相続人となった者が現れた。Diamond node (highlighted): 他の共同相続人が、
+その者が現れる前に既に遺産の分割その他の処分をしていたか？with a はい
+arrow leading to a conclusion node showing a child figure arriving late
+at an inheritance table already divided (house and land icons already
+distributed), being handed only a money bag icon labeled 価額のみ。A
+smaller いいえ arrow leads to a grayed-out note 通常の遺産分割に参加できる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相続開始後に認知によって相続人となった者が現れたことを確認します。
+次に、他の共同相続人が既に遺産の分割その他の処分を終えていたかを確認し、
+終えていた場合には価額のみによる支払の請求権にとどまると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+価額のみの請求権
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+分割協議は不履行でも解除不可
+Diagram: An isometric signed document (遺産分割協議書) with a handshake
+icon between two heirs, one side of the handshake broken/faded to
+represent a broken promise (代償金の不払い). A large 法定解除不可 stamp is
+sealed over the whole document, while a small separate note reads
+全員の合意による解除は可能.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、遺産分割協議で負担した債務（代償金の支払等）が履行されていない事実
+を確認します。次に、それを理由に協議自体を一方的に法定解除することは
+できず、全員の合意による解除だけが認められることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+法定解除はできない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法908条1項（遺言による分割禁止・5年以内）・910条（認知後の相続人の
+価額支払請求権）・541条（催告による解除）に基づく整理です。肢イ・ウ・オの
+結論のうち条文に直接の定めがない部分は、判例の趣旨によるものです。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 遺, 産, 割, 債, 権, 認, 協, 議, 解, 償. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢
+(肢イ・肢ウ・肢エ) is drawn as an actual flowchart with branch nodes (not a
+bare illustration with no visible decision structure), that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

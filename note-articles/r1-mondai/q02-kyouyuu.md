@@ -206,3 +206,185 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric signpost standing on 甲土地 that
+splits into three paths labeled 保存行為・管理行為・変更行為, human
+figures for A・B・C, official stamps, prohibition marks, pie-chart/coin
+share icons, and a balance scale for majority-consent requirements. Where
+a 肢 requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+（はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Panels 1, 2, 3, and 5 (肢ア・肢
+イ・肢ウ・肢オ) all reuse the same three-path signpost illustration
+（保存行為・管理行為・変更行為）; each panel highlights（太い縁取り・色を
+変える等で強調）only the one path that applies to that panel's 肢, so
+readers see the same classification tool applied four times. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度午後第2問 ア〜オ
+作図ガイド（共有者の権利行使）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+不実登記の抹消は保存行為で単独可
+Diagram: An isometric signpost standing on 甲土地, splitting into three
+paths labeled 保存行為（単独でできる）・管理行為（持分の過半数が必要）・
+変更行為（全員の同意が必要）, each path ending in a small result icon
+(a single green checkmark figure, a two-of-three-people majority icon, a
+three-people-together icon). The 保存行為 path is drawn with a thicker
+highlighted border and brighter color than the other two. Beside the
+signpost, show 甲土地 with a red official stamp reading "D単独所有(不実)"
+being crossed out by a large red X, and a single human figure labeled
+"A" (without figures B or C nearby) pointing at the stamp with an arrow
+labeled "抹消請求(単独)".
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Ａが行おうとしている行為が、共有物の保存行為・管理行為・変更行為の
+どれにあたるかを確認します。妨害を取り除いて元の状態に戻す行為は保存行為
+にあたるため、Ｂ・Ｃの同意を得なくても単独で行うことができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保存行為だから単独可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+不法占有者への明渡請求も保存行為
+Diagram: The same three-path signpost as Panel 1, with the 保存行為 path
+highlighted with a thicker border. Beside it, an isometric land plot with
+a small intruding figure labeled "D" sitting inside a makeshift tent icon
+labeled "違法占拠". A single human figure labeled "A" points an arrow
+labeled "明渡し請求(単独)" toward D, while small grayed-out figures
+labeled "B" and "C" stand inactive in the corner to emphasize consent is
+not needed.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この請求が共有物の保存行為にあたるかを確認します。第三者の不法占有
+を排除する請求は保存行為にあたるため、Ａは他の共有者の同意なく単独で明渡
+しを請求できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保存行為だから単独可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+無断変更への差止め・原状回復も保存行為
+Diagram: The same three-path signpost as Panels 1-2, with the 保存行為
+path highlighted with a thicker border (distinct visually from the
+変更行為 path, which is shown faded to emphasize it is NOT the path being
+used here even though the underlying act being stopped is a 変更行為).
+Beside it, an isometric land plot with a human figure labeled "A" digging
+into part of the land with a shovel icon, labeled "無断変更". A single
+human figure labeled "B" (not waiting for figure C) points an arrow
+labeled "禁止・原状回復請求(単独)" at A.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Ｂが求めている行為(禁止・原状回復請求)が何行為にあたるかを確認しま
+す。無断の変更行為自体は全員の同意が必要な行為ですが、それを求める請求は
+保存行為にあたるため、Ｂは単独で(Ｃの同意なしに)請求できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保存行為だから単独可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+損害賠償は持分の割合分のみ
+Diagram: An isometric land plot with a cracked-ground damage icon and a
+human figure labeled "D(加害者)" standing over it. A human figure labeled
+"A" holds only a small pie-chart coin icon marked "3分の1", while two
+identical grayed-out pie-chart icons labeled "B" and "C" remain untouched
+beside A, showing A cannot reach for their slices.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この請求が保存・管理・変更行為の分類とは別に、共有者それぞれが独立
+して持つ損害賠償請求権の話であることを確認します。次に、自分の持分の割合
+を確認し、その割合に対応する分だけを請求できることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+持分の範囲内のみ
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+賃貸借契約の解除は管理行為で過半数
+Diagram: The same three-path signpost as Panels 1-3, with the 管理行為
+path highlighted with a thicker border. Beside it, a document icon
+labeled "賃貸借契約" and a tenant figure labeled "D" beside a crossed-out
+tag reading "債務不履行". A human figure labeled "A" reaching for a
+"解除" stamp is blocked by a red prohibition icon, next to a balance-
+scale icon showing more than half of three figures (A, B, C) needed to
+tip it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この行為(賃貸借契約の解除)が保存・管理・変更のどれにあたるかを確認
+します。賃貸借契約の解除は共有物の管理に関する事項にあたるため、単独では
+できず、持分の過半数の同意が必要になります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+過半数の同意が必要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法251条1項(変更行為)・252条1項(管理行為)・252条5項(保存行為)に基づく
+整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 過, 半, 変, 更, 単, 独, 処 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panels 1・2・3・5(肢ア・イ・ウ・
+オ) all reuse the same three-path signpost diagram with only the relevant
+path highlighted (not a bare illustration with no visible decision
+structure), that each 着眼点 callout states a checking order rather than
+only a conclusion, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

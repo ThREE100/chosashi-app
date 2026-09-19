@@ -191,3 +191,156 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric villa/mansion icon (質物である別
+荘）surrounded by a dashed outline representing the scope of the 質権, a
+scroll icon for the 質権証書, a registry-stamp icon, and coin/rice-bale
+icons for the 被担保債権. Panel 4（肢エ）compares two related but distinct
+rules (不動産質権と動産質権の順位のルール), so draw it as a side-by-side
+LEFT/RIGHT comparison rather than a single scene. The other 4 panels（肢
+ア・肢イ・肢ウ・肢オ）are each resolved by a single check, so draw a labeled
+illustrative diagram for them instead of forcing a flowchart. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成20年度午後第1問 ア〜オ
+作図ガイド（不動産質権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft green containing the number 1.
+Heading (bold, ONE line):
+全部弁済されたかをまず確認する
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+villa surrounded by a dashed outline representing the scope of the 質権,
+with a label「借入300万円」above it; a speech bubble「返済100万円」appears
+below, but the dashed outline does not shrink and still covers the whole
+villa, with an arrow pointing to a label「残り200万円」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、被担保債権が全部弁済されたかどうかを確認します。一部だけ弁済されて
+も、全部の弁済を受けるまでは、質権者は目的物の全部について権利を行使し続
+けられます。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+全部弁済まで効力継続
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft green containing the number 2.
+Heading (bold, ONE line):
+転質に設定者の承諾はいらない
+Diagram: A labeled illustrative diagram (not a flowchart):質権者Bの
+isometricキャラクターが、Aの別荘の質権証書アイコンを持ち、それをCへ渡す図；
+Aのキャラクターの頭上に「承諾書」のアイコンと大きな赤い✕マーク。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+質権者が転質をするにあたり、設定者の承諾が必要かどうかを確認します。転質
+は質権者の責任で行う行為であり、設定者の承諾は不要です。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+転質に承諾不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft green containing the number 3.
+Heading (bold, ONE line):
+使用収益にも設定者の承諾はいらない
+Diagram: A labeled illustrative diagram (not a flowchart): 質権者Bのキャ
+ラクターが賃貸アパートのisometricイラストの前に立ち、入居者から家賃袋を受
+け取っている図；横にAのキャラクターと「承諾書」アイコンに赤い✕。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+質権者が目的不動産を使用・収益するにあたり、設定者の承諾が必要かどうかを
+確認します。不動産質権者は用法に従い使用収益ができ、承諾は不要です。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+使用収益も承諾不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft green containing the number 4.
+Heading (bold, ONE line):
+不動産質と動産質で順位の基準が違う
+Diagram: A LEFT/RIGHT comparison diagram: LEFT side labeled「不動産質」
+shows the same isometric land plot with two numbered badges（1番・2番）
+stacked on top of a registry-book icon, each with a date tag（登記の先
+後）; RIGHT side labeled「動産質」shows a movable-item icon with two
+numbered badges attached to a handshake icon（設定の先後）instead of a
+registry stamp. A small note between the two columns reads「基準が違う」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっているのが不動産質か動産質かを確認します。不動産質権の順
+位は登記の先後で決まりますが、動産質権の順位は設定の先後で決まる点が異な
+ります。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+不動産質は登記の先後
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft green containing the number 5.
+Heading (bold, ONE line):
+金銭以外の債権も担保にできる
+Diagram: A labeled illustrative diagram (not a flowchart): 米俵のisometric
+アイコンと契約書アイコンが、鎖で不動産のisometricイラストにつながってお
+り、金銭以外の引渡請求権も担保対象であることを示す緑の✓マークが添えられ
+ている。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+質権の被担保債権が金銭債権に限られるかどうかを確認します。金銭以外の物の
+引渡しを目的とする債権であっても、被担保債権として質権を設定できます。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+金銭債権に限らない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法296条・348条・350条・355条・356条・361条・373条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 質・権・転・譲・渡・承・諾・担 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panel 4 is drawn as a LEFT/RIGHT
+comparison rather than a single scene while Panels 1・2・3・5 are simple
+labeled diagrams without a forced flowchart, that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

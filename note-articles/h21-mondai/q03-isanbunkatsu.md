@@ -199,3 +199,174 @@ between the header and the cards, and confirm that no card contains a full
 sentence of explanatory prose — every card's takeaway must read as a short
 heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric family/meeting-table scenes with
+seated relative figures (placed side by side at the same generation level
+when they are co-heirs, per the family-tree rules used elsewhere in this
+series), a will scroll icon, a registry-stamp icon, and a coin/document
+icon for debts. Panels 2（肢イ）・4（肢エ）each require checking two
+conditions in sequence, so draw them as actual decision flowcharts with
+diamond nodes and Yes/No branch arrows. Panels 1（肢ア）・3（肢ウ）・5（肢オ）
+are each resolved by a single check, so draw a labeled illustrative
+diagram for them instead of forcing a flowchart. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成21年度午後第3問 ア〜オ
+作図ガイド（遺産分割）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+全員の合意があるかをまず確認する
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+round table with three seated sibling figures placed side by side at the
+same generation level (co-heirs), each with a small green ✓ above their
+head and a shared label「全員」; on the table an agreement sheet labeled
+「分割協議」is being torn, with a curved arrow looping back to a fresh
+blank sheet labeled「再協議」marked with a green ✓.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、共同相続人全員が「もう一度話し合おう」と合意しているかを確認しま
+す。全員の合意があれば、いったん成立した遺産分割協議を解除し、改めて分割
+協議をやり直すことができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+全員合意なら再協議可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+分割後の第三者には登記の先後で決まる
+Diagram: An actual decision flowchart: first diamond node 第三者が現れたの
+は遺産分割の前か後か、with 後 highlighted; second diamond node（highlighted）
+登記の先後はどちらが先か、with 未登記側 highlighted leading to a conclusion
+node 法定相続分を超える部分は対抗できない. Illustration: an isometric land
+plot split into a shaded base portion labeled「法定相続分」and a highlighted
+extra slice labeled「超過部分」, with an arrow from the extra slice toward
+a buyer figure labeled「第三者」blocked by a red ✕, and a registry-book
+icon on the arrow stamped「登記が必要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、第三者が現れたのが遺産分割の前か後かを確認し、分割後であれば、登記
+の先後によって法定相続分を超える部分の帰属が決まることを確認します。登記
+を怠ると、その部分は第三者に対抗できません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+超過部分は登記が必要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+不履行があっても法定解除はできない
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+scene with one figure handing over a house icon and the other figure
+holding an empty money bag stamped「未払」; a large scissors icon aimed at
+a sheet labeled「分割協議」is crossed out with a red ✕; beside it a
+separate small arrow labeled「支払請求」carries a green ✓.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+遺産分割協議で負担した債務が履行されない場合に、その債務不履行を理由に協
+議全体を解除できるかを確認します。判例上、法定解除は認められず、履行の請
+求ができるにとどまります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+不履行でも解除不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+放棄者は同意があっても当事者に戻れない
+Diagram: An actual decision flowchart: first diamond node 相続放棄をした
+か、with はい highlighted; second diamond node 他の共同相続人全員の同意は
+あるか、drawn with both the はい and いいえ branches converging into the
+same single conclusion node（この条件は結果を左右しないことを示す）遺産分
+割協議の当事者にはなれない. Illustration: an isometric meeting table with
+three seated figures at the same generation level and one faded
+translucent figure standing outside a dashed boundary, labeled「相続放棄
+者」and marked with a red ✕; three small speech bubbles from the seated
+figures reading「同意」are themselves crossed out with a smaller red ✕ to
+show consent does not help.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その人が相続放棄をしているかを確認します。相続放棄をした者は初めか
+ら相続人でなかったものとみなされるため、他の共同相続人全員が同意していた
+としても、遺産分割協議の当事者になることはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+同意があっても戻れない
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+相続させる遺言の対象財産は分割対象外
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+will scroll labeled「遺言」with an arrow running straight from it to a
+house icon held by a single figure labeled「C」, marked with a green ✓
+and a small tag「死亡と同時」; a separate arrow that would route the same
+house into a meeting table labeled「遺産分割」is crossed out with a red
+✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、遺言が「特定の財産を特定の相続人に相続させる」内容かを確認します。
+特段の事情がない限り、その財産は被相続人の死亡と同時に当然に承継され、遺
+産分割の対象から外れることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+死亡と同時に確定
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法541条・899条の2第1項・939条・1014条2項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 産・割・議・遺・続・棄・登・記 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panels 2・4 are drawn as actual
+flowcharts with branch nodes while Panels 1・3・5 are simple labeled
+diagrams without a forced flowchart, that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

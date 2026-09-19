@@ -327,3 +327,176 @@ no additional text block of any kind), and confirm the entire canvas,
 edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a land plot with a storage shed for 時効・故意
+過失 panels, an unregistered land-purchase document for 対抗要件, a
+courthouse icon for 反訴, and a building with two occupant figures
+（直接占有者・代理占有者）for the 賃貸人への請求 panel. Panel 5 (肢オ) turns
+on a two-step check（占有には直接占有と代理占有の2種類があること、代理
+占有者も「占有者」として返還請求の相手方になること）, so draw it as an
+actual decision flowchart with two diamond nodes; this same distinction is
+explored in much greater depth elsewhere in this article's「間違いノート」
+image, so keep this panel's flowchart compact and consistent with — but
+simpler than — that fuller version. This article's 5 肢 do not share a
+common fact pattern with each other, so there is no shared tree shape to
+reuse across panels; design each panel independently. Where a 肢 is
+resolved by a single check (肢ア・肢イ・肢ウ・肢エ), a labeled illustrative
+diagram is sufficient — do not force a flowchart. Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成26年度午後第2問 ア〜オ
+作図ガイド（物権的請求権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+所有権がある限り時効で消えない
+Diagram: An isometric land plot with a storage shed placed on the corner
+by a neighbor character Ｂ. Owner character Ａ stands pointing at the shed
+with an arrow labeled 撤去請求。Beside the arrow, a large infinity symbol
+∞ together with a clock/hourglass icon that has a thick red X drawn
+across its entire face, with a small label 所有権があるかぎり next to the
+infinity symbol. Do NOT include any specific number of years anywhere in
+this panel's illustration or labels.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その請求権が所有権に基づく物権的請求権であることを確認します。次
+に、所有権そのものが存続している限り、その物権的請求権は何年経過しても
+時効によって消滅しないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+何年でも消えない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+登記がなくても不法占有者に勝てる
+Diagram: Owner Ａ holds an unregistered land-purchase document labeled
+未登記。A red X is stamped over a sign reading 登記が必要。An arrow
+labeled 返還請求 points from Ａ to unlawful occupant Ｂ, who is standing on
+the land with no legal basis, shown with a small 無権原 label.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、返還請求の相手が正当な権原を主張できる第三者なのか、それとも無権原
+の不法占有者なのかを確認します。不法占有者であれば、所有者は対抗要件
+（登記）を備えていなくても返還請求ができると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+対抗要件不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+故意・過失がなくても妨害排除できる
+Diagram: An isometric fence mistakenly built by neighbor Ｂ on owner Ａ's
+land, with a small speech-bubble icon 過失なし near Ｂ. A red X is placed
+over a sign reading 故意・過失が必要。Owner Ａ points at the fence with a
+checkmarked arrow labeled 妨害排除請求。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、所有権が妨げられている状態が現に生じていることを確認します。次
+に、それを生じさせた相手方に故意や過失があったかどうかは問わず、妨害排除
+請求ができることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+主観要件は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+占有の訴えにも所有権で反訴できる
+Diagram: An isometric courthouse icon. Occupant Ｂ submits a document
+labeled 占有の訴え。Beside it, owner Ａ submits a separate document
+labeled 所有権に基づく反訴、both documents shown on the courthouse desk
+with green checkmarks, indicating both proceedings are valid side by
+side.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有者が所有者を相手に占有の訴えを提起していることを確認します。
+次に、所有者はその訴訟の中で防御方法として所有権を主張することはできない
+が、別途、所有権に基づく反訴を提起できることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+別訴訟で反撃
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+貸しただけの人にも返還請求できる
+Diagram: A decision-tree flowchart. Start node: 無権原のＢが、Ａの建物を
+Ｃに賃貸してＣが実際に住んでいる。Diamond node: 実際に建物を使っている
+Ｃに返還請求できるか？with a はい arrow（直接占有者）leading to a small
+green checkmark. Second diamond node (highlighted, the main point of this
+panel): 貸し出しただけで実際には住んでいないＢにも返還請求できるか？with
+a はい arrow (Ｂは代理占有者にあたるため) leading to a conclusion node
+showing two arrows labeled 返還請求 pointing from Ａ to both Ｂ and Ｃ, each
+with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、実際に建物を使っている直接占有者Ｃに返還請求できることを確認しま
+す。次に、貸し出しているだけで実際には住んでいないＢも、他人に使わせる
+ことで占有をコントロールする代理占有者として「占有者」にあたり、返還請求
+の相手方になることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+賃貸人も対象
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法181条（代理占有）に基づく整理です。肢ア・ウ・エ・オの結論のうち条文
+に直接の定めがない部分は、判例・学説上確立した原則によるものです。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 請, 求, 占, 有, 妨, 害, 排, 除, 訴, 貸, 賃. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that the
+multi-condition 肢 (肢オ) is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+each 着眼点 callout states a checking order rather than only a conclusion,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

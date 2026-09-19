@@ -205,3 +205,166 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+遺言の問題文を読んだときに、方式・証人・執行・撤回のどのルールが問われているかを見分ける5パネル構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（遺言はどこまで自由か？), but built as a set of 5 diagram-drawing panels
+(a "how to sketch this fact pattern, in the right order" study
+reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric scroll/document icons, a notary desk
+with witness chairs, a shared-scroll icon for 共同遺言, and a timeline of
+two scrolls for 前の遺言・後の遺言の抵触. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和5年度午後第3問 ア〜オ
+作図ガイド（遺言）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+自書の要件を満たすかを確認する
+Diagram: An isometric close-up of a hand writing on paper with a
+carbon-copy sheet layered underneath, showing the duplicated text
+appearing on both sheets simultaneously; a green checkmark badge labeled
+「自書として有効」hovers above the papers。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず全文・日付・氏名が遺言者自身の手で書かれているかを確認します。カー
+ボン紙による複写であっても、本人が自分の手で書いている以上、自書の要件
+は満たされ有効です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+自書として有効
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+証人になれない者の一覧に照らす
+Diagram: An isometric notary desk with a testator figure and two witness
+chairs; one witness chair has a figure labeled「推定相続人」with a red
+prohibition icon over them, being turned away; a neutral outside figure
+sits in the other witness chair with a green checkmark above。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず証人になろうとする人が、①未成年者、②推定相続人・受遺者及びその
+配偶者・直系血族、③公証人の親族等のいずれかに当てはまるかを確認しま
+す。推定相続人は②に当てはまるため、証人になれません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+証人になれない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+証書が同一かどうかを確認する
+Diagram: An isometric image of a husband and wife figure both reaching to
+sign the same single scroll/document, with a large red prohibition icon
+overlaid on the shared scroll; beside it, two separate scrolls each being
+signed individually by one figure, marked with a green checkmark to show
+the correct way。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず2人以上が「同一の証書」で遺言をしようとしていないかを確認します。
+夫婦であっても、同じ紙に一緒に遺言をすることは共同遺言として禁止され
+ています。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+共同遺言は禁止
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+委託できるかを条文で確認する
+Diagram: An isometric scene of a testator figure writing a will, with an
+arrow labeled「指定を委託」pointing from the testator toward a
+third-party figure labeled「第三者」（弁護士アイコン）, who then holds a
+separate name-tag icon showing they will choose the executor。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず遺言執行者の指定そのものを、遺言者自身が行うのか、第三者に任せよ
+うとしているのかを確認します。指定を第三者に委託することも認められて
+います。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+委託できる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+前後の遺言の抵触部分を見分ける
+Diagram: An isometric timeline with two scroll icons: an earlier scroll
+labeled「前の遺言」showing a clause icon「甲土地→長男」, and a later
+scroll labeled「後の遺言」showing a conflicting clause icon「甲土地→次
+男」; an arrow from the later scroll strikes through the conflicting
+clause on the earlier scroll with a「撤回」stamp, while the
+non-conflicting parts of the earlier scroll remain untouched。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず前の遺言と後の遺言の内容を見比べ、抵触する部分がどこかを確認しま
+す。抵触する部分だけが、後の遺言によって撤回されたものとみなされ、
+それ以外の部分はそのまま残ります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+抵触部分は撤回
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法968条1項・974条・975条・1006条1項・1023条1項・1026条に基づく整理で
+す。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 証, 続, 託, 執, 撤, 回 and any character that has a visually
+similar Simplified Chinese variant. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that each 着眼点 callout states a checking
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with
+a fully opaque background with no transparency or alpha channel anywhere.
+```

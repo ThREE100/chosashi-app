@@ -210,3 +210,179 @@ header and the cards, and confirm that no card contains a full sentence
 of explanatory prose — every card's takeaway must read as a short
 heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric people figures for 本人・代理人・
+復代理人・相手方, briefcases, a boundary line for 代理権限, and a
+timeline of doors (追認前／追認後) for 無権代理. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No（はい／いいえ）
+branch arrows, and a final conclusion node. Where a 肢 is resolved by a
+single check, a labeled illustrative diagram is sufficient — do not force
+a flowchart. This article's five 肢 do not share a single common
+decision-tree shape, so design each panel's diagram independently around
+its own fact pattern. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度午後第1問 ア〜オ
+作図ガイド（代理・無権代理）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+やむを得ない事由なら許諾不要
+Diagram: An isometric scene where 本人（Ａ）is shown lying in bed as a
+sick/unavailable icon with a small hospital-cross tag labeled「やむを
+得ない事由」. A speech bubble containing「許諾」is crossed out with a red
+「✕」above Ａ. 代理人（Ｂ）stands nearby holding a briefcase and hands a
+small key/badge to a second figure, 復代理人（Ｂ2）, who steps forward to
+continue the work.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、本人の許諾を得ているかどうかを確認します。得ていない場合でも、
+次に、やむを得ない事由（急病など）があるかどうかを確認し、それがあれば
+許諾なしに復代理人を選任できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+許諾なしで選任可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+代理人の未成年は取消理由にならない
+Diagram: An isometric scene of a young figure, 代理人（Ｂ）, wearing a
+ribbon/name tag labeled「未成年」, standing between 本人（Ａ）と 相手方
+（Ｃ）, holding a signed contract that passes intact from Ｂ to Ｃ. A
+torn-ticket icon labeled「取消」held by Ａ is crossed out with a red「✕」,
+showing the contract cannot be voided for this reason.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人が制限行為能力者（未成年者等）であるかどうかを確認します。
+代理人が制限行為能力者であっても、その行為の効果は本人に帰属するだけ
+なので、行為能力の制限を理由に取り消すことはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+行為能力は無関係
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+表見代理は正当理由だけで成立
+Diagram: An isometric scene showing 代理人（Ｂ）stepping past a dashed
+boundary line labeled「権限」while making a deal with 相手方（Ｃ）. Ｃ holds
+a checkmark icon labeled「正当な理由」. 本人（Ａ）stands to the side with a
+clean checkmark labeled「過失なし」, but that checkmark has a small red
+「関係なし」tag over it, while a solid arrow still connects Ａ to the
+contract, labeled「責任を負う」, showing Ａ remains responsible despite
+having no fault.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相手方に代理人の権限があると信じるべき正当な理由があるかどうかを
+確認します。正当な理由さえあれば、本人に過失があったかどうかにかかわら
+ず、本人は表見代理の責任を負います。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+過失は要件でない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+顕名がなければ代理人自身の行為
+Diagram: A decision-tree flowchart. Start node:「代理人が意思表示の際に
+『本人のためにすること』を示したか（顕名の有無）？」A はい branch leads to
+a conclusion node reading「効果は本人に帰属」. An いいえ branch proceeds to
+a second diamond node:「相手方は、代理人が本人のためにしていることを知って
+いたか、または知ることができたか？」with two further branches: 知っていた
+／知り得た（悪意・有過失）leading to a conclusion node reading「例外的に
+本人に帰属」; 知らなかった（善意無過失）leading to a conclusion node
+reading「代理人自身の行為とみなす」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人が意思表示の際に「本人のためにすること」を示したか（顕名の
+有無）を確認します。顕名がない場合は、次に、相手方がそれでも本人のため
+だと知っていたか、知ることができたかを確認し、それがなければ代理人自身
+の行為とみなされます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+原則は代理人自身の行為
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+追認の前後で取消しの可否が変わる
+Diagram: A decision-tree flowchart along an isometric timeline. Start
+node:「無権代理によって契約が結ばれた」leading down to a diamond node:
+「本人が追認したか？」Two branch arrows: いいえ（追認前）leading to a
+conclusion node with an open-door icon and a green「✓」reading「相手方は
+いつでも取り消せる」; はい（追認後）leading to a conclusion node with a
+closed door and padlock icon and a red「✕」over a「取消」ticket, reading
+「相手方はもう取り消せない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、無権代理によって契約が結ばれた後、本人が追認をしたかどうかを確認
+します。追認前であれば相手方は契約を取り消せますが、追認後は契約の効果
+が確定するため、相手方はもはや取り消すことができません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+追認後は取消し不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法104条（復代理人の選任）・102条本文（制限行為能力者を代理人にできる
+こと）・110条（権限外の行為の表見代理）・100条（顕名のない意思表示の
+効果）・115条本文（無権代理の相手方の取消権）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・認・復・顕・与. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢（肢エ・肢オ）is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

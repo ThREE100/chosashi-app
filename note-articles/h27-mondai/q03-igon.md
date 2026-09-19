@@ -198,3 +198,157 @@ paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a balance scale for 負担付遺贈, a family tree
+with a pie chart for 相続分の指定, a magnifying glass over a will document
+for 遺言の解釈, a testator handing a stamp to a lawyer for 遺言執行者, and
+a parent-and-child scene for 未成年後見人. This article's 5 肢 each test an
+independent rule of 遺言 with no shared factual thread, so there is no
+common decision-tree shape to reuse across panels; design each panel
+independently. Each 肢 is resolved by a single check, so a labeled
+illustrative diagram is sufficient for every panel — do not force a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成27年度午後第3問 ア〜オ
+作図ガイド（遺言）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+負担付遺贈はもらった価額まで
+Diagram: An isometric balance scale. One side holds a land-plot icon
+labeled 遺贈財産（500万円）with a green checkmark. The other side holds a
+dog-care icon labeled 負担（世話）。An overflow amount beyond the scale is
+labeled 300万円 with a red X mark, showing it is not owed.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、負担付遺贈でもらった財産の価額がいくらかを確認します。次に、負担
+した義務の履行に必要な費用がその価額を超えていないかを確認し、超える
+部分については責任を負わないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+遺贈の価額が上限
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+相続分は一部だけでも指定できる
+Diagram: A family tree with three child figures. One child（長男）is
+highlighted holding a document 相続分 2分の1指定 with a green checkmark.
+The other two children share a pie-chart slice labeled 法定相続分 with a
+checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、遺言で相続分を指定しているのが共同相続人の全員か一部かを確認しま
+す。一部の相続人だけの指定であっても有効であり、残りの相続人は法定相続分
+に従うと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一部指定も有効
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+遺言解釈は文言＋真意を探る
+Diagram: An isometric last-will document with a magnifying glass over it.
+One side shows literal text 家族に譲る；a connected thought-bubble shows
+the testator's true intention, joined by a green checkmark arrow. A
+separate sign reading 文言だけ has a red X mark over it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、遺言書に書かれた文言そのものを確認します。次に、その文言だけで
+形式的に判断するのではなく、遺言者が本当に意図した真意も探求すべきである
+ことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+真意も探求する
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+遺言執行者は指名しておける
+Diagram: A testator figure writing a will at a desk, pointing toward a
+lawyer figure labeled 遺言執行者。A stamp icon reading 指定 with a green
+checkmark sits between them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、遺言の内容を実現する役目を誰に託したいかを確認します。次に、遺言者
+自身がその人を遺言執行者として遺言の中で指定できることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+遺言で指定可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+未成年後見人も遺言で指定できる
+Diagram: A single parent figure with a child, writing a will at a desk.
+An arrow points to another family member figure（おば）labeled 未成年
+後見人、with a stamp icon reading 指定 and a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、遺言をする人が未成年者に対して最後に親権を行う者であり、財産の管理
+権を有しているかを確認します。次に、その人が遺言で未成年後見人をあらかじ
+め指定できることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+遺言で指定可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法1002条1項（負担付遺贈の責任の限度）・902条（相続分の指定）・1006条1項
+（遺言執行者の指定）・839条1項（未成年後見人の指定）に基づく整理です。
+肢ウ（遺言の解釈の方法）は判例の趣旨によるものです。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 遺, 贈, 負, 担, 相, 続, 分, 執, 行, 後, 見, 親, 権. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

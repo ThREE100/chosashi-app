@@ -417,3 +417,191 @@ grid, and no additional text block of any kind), and confirm the entire
 canvas, edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a theatrical mask icon for 詐術, a two-branch
+signpost for the 誤信の有無 decision, a mailbox-and-clock icon for the
+催告手続, a seal/stamp icon for 追認, and a money-bag icon for 代金の
+受領. Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Panels 3（肢ウ）and 5（肢オ）share
+a common underlying pattern: 一定の行為（催告への無回答・異議なき履行の
+受領）があれば追認が自動的に擬制されるという構造なので、両パネルとも
+「時間が経過する時計アイコン」から「自動的に追認スタンプが押される」と
+いう同じビジュアルの流れを使い、時計に添える条件ラベルだけを肢ごとに
+変える。Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成25年度午後第1問 ア〜オ
+作図ガイド（未成年者の契約）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+詐術があっても相手が悪意なら別
+Diagram: A decision-tree flowchart. Start node: 未成年者Aが成年だと
+信じさせるため詐術を用いた（本肢の事実）. First diamond node: Aは詐術を
+用いたか？with a はい arrow proceeding downward (this condition is
+already satisfied in this fact pattern, so draw it small and pass
+through quickly). Second diamond node (drawn with a thicker highlighted
+border, since this is the branch the whole 肢 turns on): その詐術に
+よって、相手方Cは実際に「Aは成年だ」と誤信したか？with two branch
+arrows: いいえ（Cは最初からAが未成年だと知っていた）leading to a green
+checkmark and a conclusion node reading 21条は適用されず、Aは取消せる;
+はい leading to a red cross mark and a conclusion node reading 21条が
+適用され、Aは取消せない. Beside the flowchart, show a small isometric
+scene of a young character A holding a theatrical mask icon labeled
+詐術 in front of their face, facing an adult character C whose eyes are
+drawn as magnifying glasses (見抜いている).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、未成年者が詐術を用いたという事実を確認します。次に、その詐術に
+よって相手方が実際に「成年だ」と誤信したかどうかを確認します。相手方が
+最初から未成年だと知っていた場合は誤信していないため、21条は適用され
+ません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+知ってた相手には詐術無効
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+同意の有無だけを見ればいい
+Diagram: A simple isometric scene (single-check, no flowchart needed): a
+young character A standing next to a parent-figure character B. A speech
+bubble from B reads 同意します, and A alone stamps a document labeled
+本件売買契約 with a seal reading 追認. A small calendar icon in the
+background shows 成年に達する前 to emphasize that this happens before
+adulthood.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+確認することは1つだけです。法定代理人Bの同意があるかどうかを確認しま
+す。同意さえあれば、Aが成年に達する前であっても追認することができま
+す。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+同意があれば追認可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+無回答は自動的に追認とみなす
+Diagram: An isometric scene showing a mailbox sending an envelope
+labeled 催告（1か月以上の期間）toward a parent-figure character B. A
+large clock icon next to B shows the hands moving forward with no reply
+speech bubble (crossed out), and then a stamp reading 追認とみなす
+appears automatically on the contract, without B doing anything. (この
+時計→自動スタンプの流れは、パネル5と同じビジュアルパターンを使う。)
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Cが1か月以上の期間を定めて催告したという要件を満たしているかを
+確認します。次に、その期間内にBが確答を発したかどうかを確認します。
+無回答のまま期間が過ぎれば、自動的に追認したものとみなされます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+無回答→追認みなし
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+取消しの相手は常にC、Dは別問題
+Diagram: A simple isometric scene distinguishing two separate layers
+(single-check per layer, no flowchart needed): on the left, character A
+sends a speech-bubble arrow labeled 取消します directly to the original
+contract-partner character C. On the right, a separate, visually
+detached signpost icon shows a transferred land plot moving from C to a
+third character D, labeled 別の問題（対抗関係）, with a dashed line
+(not a solid arrow) connecting it to the left scene to show it is
+unrelated to where the取消し意思表示 must be sent.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+確認するのは「誰に取消しの意思表示をすべきか」という1点だけです。答え
+は常に契約の直接の相手方Cであり、土地がその後Dに渡っているかどうかは
+別のレイヤーの話なので、この判断には影響しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+転得者への通知不要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+成年後に黙って受け取れば追認扱い
+Diagram: A decision-tree flowchart combined with the same clock-to-stamp
+visual motif as Panel 3. First diamond node: Aは成年に達した後か（追認
+をすることができる時期か）？with a はい arrow proceeding downward.
+Second diamond node (drawn with a thicker highlighted border): Aは異議
+をとどめずに代金（履行）を受領したか？with the はい branch leading to a
+money-bag icon being received without any protest speech bubble, followed
+automatically by a padlock icon closing over a tag reading 取消し, and a
+conclusion node reading 法定追認が成立し、取消しできなくなる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずAが成年に達した後かどうかを確認します。次に、その後に異議をとどめ
+ずに代金を受け取ったかどうかを確認します。両方に当てはまれば、法定追認
+が成立し、以後は取消しができなくなります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+取消しできなくなる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法21条（制限行為能力者の詐術）・124条2項2号（法定代理人の同意を得た
+追認）・20条2項（法定代理人への催告）・123条（取消し及び追認の方法）・
+125条1号（法定追認）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 詐, 術, 催, 告, 履, 認, 転 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢（肢ア・
+肢オ）is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

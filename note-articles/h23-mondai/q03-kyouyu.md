@@ -193,3 +193,177 @@ between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
 a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — three co-owner figures around a shared land
+plot, a three-branch signpost splitting into 保存行為・管理行為・処分行
+為 for the classification肢, a shield icon labeled 使用権 for the
+occupying共有者, a scaled-down damages arrow for 持分割合による按分, and
+a gavel/auction-hammer icon for 競売による代金分割. Panels 1（肢ア）and
+3（肢ウ）share the same underlying decision-tree shape: both start from
+the same three-branch signpost（この行為は保存行為・管理行為・処分行為
+のどれに当たるか）, but Panel 1 highlights（太い縁取り・色を変える等で
+強調）the 管理行為 branch (leading to 過半数の同意が必要) while Panel 3
+highlights the 保存行為 branch (leading to 単独で請求できる) — draw both
+signposts identically in shape and layout so the reader recognizes it as
+the same classification tree used twice. Where a 肢 is resolved by a
+single check rather than this three-way classification (肢イ・エ・オ), a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成23年度午後第3問 ア〜オ
+作図ガイド（共有）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+賃貸解除の分類は「管理行為」
+Diagram: A decision-tree-style three-branch signpost standing on the
+shared land plot, splitting into 保存行為・管理行為・処分行為. The
+管理行為 branch (drawn with a thicker highlighted border, since this is
+the branch this肢 turns on) leads to a majority-vote icon (2/3の同意)
+and a conclusion node reading 持分3分の1のAは単独でできない, while a
+tenant character (D) stands beside a lease-contract icon that one
+co-owner alone reaches for with a 解除 stamp, blocked by a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、共有物の賃貸借契約を解除するという行為が、保存・管理・処分のどれ
+に当たるかを確認します。管理行為に当たるため、次に、持分価格の過半数
+の同意が必要であり、持分3分の1のAだけでは単独で解除できないと判断しま
+す。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+管理行為・過半数
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+占有者本人にも使用権がある
+Diagram: One character occupies an entire land plot alone, while two
+other co-owner characters (labeled 2/3の持分) point at them demanding
+明渡し, but a shield icon around the occupying character labeled 使用権
+blocks the demand with a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、単独で占有しているAにも、共有持分に基づく使用権があるかどうかを
+確認します。使用権がある以上、次に、持分が過半数を超えていても当然には
+明渡しを請求できないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+使用権あり
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+不実登記の抹消は「保存行為」
+Diagram: The same three-branch signpost shape as Panel 1, on the same
+shared land plot. This time the 保存行為 branch (drawn with a thicker
+highlighted border, distinct from Panel 1's highlighted branch) leads to
+a green checkmark and a conclusion node reading 各共有者が単独で請求で
+きる. Beside the signpost, a registration-document icon shows Bの持分の
+みが第三者Dに不実に移転されている様子, and another co-owner (A又はC)
+alone stamps a 抹消請求 seal onto the document without waiting for the
+others.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、不実の持分移転登記の抹消を求めるという行為が、保存・管理・処分の
+どれに当たるかを確認します。保存行為に当たるため、次に、A又はCは他の共
+有者の同意を得ることなく単独で抹消登記手続を請求できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保存行為・単独可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+損害賠償請求権も持分で分割
+Diagram: An outsider character (E) unlawfully occupying a shared land
+plot. One co-owner (A) points a 損害賠償請求 arrow at the outsider, but
+the arrow is scaled down to exactly 1/3 size, with a red ✕ drawn over a
+full-size arrow beside it to show the full-amount claim is not allowed.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、第三者Eに対する損害賠償請求権が、共有者全員に一体として帰属する
+のか、それとも持分に応じて分割されて帰属するのかを確認します。持分に
+応じて分割されるため、次に、Aは自己の持分割合を超えて請求することはで
+きないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+持分割合の範囲
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+分けられなければ競売で分配
+Diagram: A land plot with a red ✕ over an attempted cut into pieces
+(現物分割は不可能か、価格を著しく減少させる), transitioning to a
+gavel/auction-hammer icon selling the whole plot, with the resulting coin
+pile split into three equal stacks labeled 各持分割合に応じて.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地を現物で分割することが可能かどうかを確認します。不可能であ
+る、または分割によって価格を著しく減少させるおそれがある場合は、次に、
+裁判所が競売による代金分割を命じることができると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+競売で代金分割
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法252条本文（共有物の管理行為）・258条（裁判上の共有物分割・競売によ
+る代金分割）に基づく整理です。イ・ウ・エの各判断は、判例上確立した理解
+によります。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 保, 存, 処, 分, 賠, 償, 抹, 売, 過 and any character that
+has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panels 1 and 3
+use the same three-branch signpost shape with a different branch
+highlighted in each, that each 着眼点 callout states a checking order
+rather than only a conclusion, confirm nothing is rendered below the
+last panel's footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

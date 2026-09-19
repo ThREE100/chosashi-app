@@ -199,3 +199,178 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a guarantor-and-debtor pair for 連帯保証人, a
+stacked two-mortgage icon for 後順位抵当権者, a house-on-land icon for
+建物賃借人, a three-way pie-sliced land plot for 共同相続人の持分, and a
+承認する document with a clock for 時効完成後の承認. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No（はい／いいえ）
+branch arrows, and a final conclusion node. Panels 1（肢ア）and 5（肢オ）
+each hide a timing-based trap behind an initial fact, so they are drawn
+as two-diamond flowcharts; Panels 2・3・4（肢イ・ウ・エ）are each resolved
+by a single check（直接利益か反射的・間接的利益か、または援用の範囲），so
+a labeled illustrative diagram is sufficient for them — do not force a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成23年度午後第2問 ア〜オ
+作図ガイド（時効の援用）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+保証債務の承認は主債務と別問題
+Diagram: A decision-tree flowchart. First diamond node: Cが時効完成前に
+承認していたのは、Aの主債務そのものか、それとも自分自身の連帯保証債務
+か？with the 保証債務自体 branch (drawn with a thicker highlighted
+border, since this is本肢の事実) proceeding downward to a second diamond
+node: 保証人は、145条かっこ書の「正当な利益を有する者」に当たるか？with
+a はい arrow leading to a green checkmark and a conclusion node reading
+Cは主債務の消滅時効を援用してBの請求を拒める. Beside the flowchart, show
+a guarantor character (C) standing behind a debtor character (A), both
+connected to a torn-up loan-contract icon with a 時効 stamp on it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Cが時効完成前に承認していたのは主債務そのものではなく、自分自身
+の保証債務にすぎないことを確認します。次に、保証人は145条かっこ書の
+「正当な利益を有する者」に当たるため、主債務の消滅時効を援用できると
+判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保証債務の承認は無関係
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+順位上昇の期待は反射的利益
+Diagram: An isometric scene of two stacked mortgage-stamp icons on one
+land plot, labeled 1番抵当権 and 2番抵当権. The 1番抵当権 stamp fades
+away (時効消滅), and the 2番抵当権 holder (B) reaches up hopefully
+toward the vacated slot but is blocked by a padlock icon labeled 反射的
+利益にすぎない.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Bが得る利益が、時効による直接の利益なのか、それとも順位が上がる
+かもしれないという間接的・反射的な利益にすぎないのかを確認します。反射
+的利益にとどまるため、次に、Bは先順位の被担保債権の消滅時効を援用でき
+ないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+反射的利益のみ
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+時効の利益を受けるのは占有者本人
+Diagram: An isometric house icon on a land plot, with a renter character
+(B) inside holding a 賃借 tag, disconnected by a dashed line and a red ✕
+from a 時効取得 stamp on the land, while the building-owner character
+(A) below — who is the one actually occupying the land — holds the stamp
+directly with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地を実際に占有して時効取得の要件を満たしているのは誰か（建物
+所有者A）を確認します。建物賃借人Bの利益はAが土地を取得すれば住み続け
+られるという間接的なものにとどまるため、次に、Bは自分で敷地の取得時効
+を援用できないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+間接的利益
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+援用できるのは自分の相続分だけ
+Diagram: A land plot divided into three equal wedge slices, each with a
+small heir character standing only on their own slice and planting a
+small flag, with a red ✕ drawn over one heir (B) reaching across into
+another slice labeled 甲土地の全部.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Bが援用しようとしているのが「甲土地の全部」なのか、「自分の相続
+分の範囲」なのかを確認します。時効の利益は各相続人に相続分に応じて帰属
+するため、次に、Bは自己の相続分の範囲でしか援用できないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+持分の範囲内
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+承認後は知らなくても援用不可
+Diagram: A decision-tree flowchart. First diamond node: Bが「返します」
+と承認したのは、時効完成の前か、後か？with the 完成後 branch (drawn with
+a thicker highlighted border) proceeding downward to a second diamond
+node: 承認の際、Bはその時効が完成していることを知らなかったか？with the
+はい（知らなかった）branch leading to a padlock icon over a 援用 stamp
+and a conclusion node reading 知らなくても、信義則上もう援用できない.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Bが承認したのが時効完成の前か後かを確認します。完成後の承認であ
+れば、次に、その際に時効完成を知らなかったとしても、信義則上もはや援用
+できないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+信義則で不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法145条（時効の援用権者の範囲）に基づく整理です。イ・ウ・エ・オの各
+判断は、判例上確立した理解によります。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 援, 承, 認, 抵, 当, 続 and any character that has a visually
+similar Simplified Chinese variant. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that 肢ア・肢オ are each drawn as an actual
+flowchart with two branch nodes (not a bare illustration with no visible
+decision structure) while the other three panels use a single labeled
+illustrative diagram, that each 着眼点 callout states a checking order
+rather than only a conclusion, confirm nothing is rendered below the
+last panel's footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

@@ -185,3 +185,187 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+代襲相続の問題文を読んだときに、「誰が被代襲者になれるか」「代襲者に血縁関係が必要か」を見分ける5パネル構成。ア（養子）とエ（配偶者の連れ子）は、「被代襲者の子と被相続人の間に法律上の親族関係があるか」という同じ決定木の形を共有しつつ、結論が正反対になる点を対比させる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（代襲相続の基本ルール 誰が代襲相続人になれるのか), but built as a set of
+5 diagram-drawing panels (a "how to sketch this fact pattern, in the
+right order" study reference) rather than a quick-reference conclusion
+poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric family-tree diagrams where vertical
+position represents generation (parents above children, or the reverse
+for 直系尊属 cases, noted explicitly in each such panel) and same-generation
+people are placed side by side connected through a small bracket
+representing their common parent, with arrows drawn along the actual
+line of kinship (not one uniform arrow down a single column). Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+（はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Panels 1 and 4 (肢ア・肢エ) share the same
+underlying decision-tree shape (被代襲者の子と被相続人との間に法律上の
+親族関係（血族関係）があるか確認）; draw both with the same one-diamond
+tree layout, but highlight（太い縁取り・色を変える等で強調）the branch
+relevant to that panel's 肢 — Panel 1 highlights the はい branch（養子
+縁組による法定血族関係が生じている）, Panel 4 highlights the いいえ
+branch（配偶者の連れ子で血縁がない）。Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を
+確認します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和6年度午後第3問 ア〜オ
+作図ガイド（代襲相続）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+養子は血族関係の有無で確認する
+Diagram: An isometric family tree. 被相続人Ａ at the top. Below Ａ, Ａの
+実子Ｂ（死亡アイコンと×マーク）. Below Ｂ, Ｂの養子Ｃ, connected to Ｂ by
+an arrow drawn along the actual parent-child line, with a small clock/
+timeline icon beside the arrow showing「縁組→Ｂの死亡」の順序. The shared
+one-diamond decision tree（強調表示、はい branch highlighted）: 被代襲者
+の子と被相続人との間に法律上の親族関係（血族関係）があるか？with the
+はい branch (highlighted) leading to a green checkmark conclusion node
+reading 代襲相続人になり得る。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず養子縁組がＡの死亡以前に成立しているかを確認します。成立していれ
+ば、養子Ｃと被相続人Ａとの間に法定血族関係が生じているため、Ｃは代襲
+相続人になり得ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+血族関係があれば代襲
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+胎児は「生きて生まれたか」を確認
+Diagram: An isometric family tree. 被相続人Ａ（死亡アイコン）at the top,
+Ａの実子Ｂ（死亡アイコン）below, Ｂの配偶者（妊娠中を示すアイコン）beside
+Ｂ, and a dashed speech-bubble from the pregnant figure showing a fetus
+icon, connected by an arrow to a newborn baby icon Ｃ born after Ａ's
+death, with a label「死体で生まれた場合を除き、既に生まれたものとみな
+す」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずＡの死亡時に胎児であったことを確認し、次にその子が死体でなく生き
+て生まれたことを確認します。この2つが確認できれば、代襲相続人になり
+ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+出生で代襲成立
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+廃除が代襲原因かをまず確認する
+Diagram: An isometric family tree. 被相続人Ａ at the top, Ａの実子Ｂ
+below labeled with a courthouse-document icon and a「廃除」stamp, Ｂの子
+Ｃ below Ｂ, connected by an arrow along the parent-child line with a
+label「代襲」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずＢが相続権を失った理由が「廃除」であることを確認します。廃除は
+代襲原因の一つなので、Ｂの子Ｃはそのまま代襲相続人となります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+廃除は代襲原因
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+配偶者の連れ子は血縁関係を確認
+Diagram: An isometric family tree. 被相続人Ａ at the top, Ａの配偶者Ｂ
+（死亡アイコン）below (positioned beside Ａ, not below, since a spouse is
+not a blood descendant), and Ｂと元配偶者Ｃとの間の実子Ｄ drawn to the
+side, connected to Ｂ only, with NO line connecting Ｄ to Ａ. The shared
+one-diamond decision tree（強調表示、いいえ branch highlighted）: 被代襲
+者の子と被相続人との間に法律上の親族関係（血族関係）があるか？with the
+いいえ branch (highlighted, 血縁なし) leading to a red cross conclusion
+node reading 代襲相続人にならない。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずＤが被相続人Ａとの間に血縁関係を持つかを確認します。Ｄは配偶者Ｂの
+連れ子であってＡとは血縁関係がないため、代襲相続人にはなりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+血縁なしは対象外
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+直系尊属は代襲でなく固有の権利
+Diagram: An isometric family tree drawn upside down from the usual
+direction, since this panel deals with 直系尊属（先祖）: 被相続人Ａ（子
+なしを示すアイコン）at the BOTTOM this time, Ａの父Ｂ・母Ｃ（いずれも死亡
+アイコン）above Ａ, and Ｂの父Ｄ（生存を示すアイコン）above Ｂ, connected
+to Ａ by a direct arrow labeled「代襲ではなく固有の権利」、with a small
+note「直系卑属を問う肢とは上下が逆」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずＡに子がいないことを確認し、次にＤより親等の近い直系尊属（父母Ｂ・
+Ｃ）が死亡していることを確認します。この場合、Ｄは代襲相続人としてで
+はなく、直系尊属としての自分自身の権利で相続人になります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代襲ではない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法727条・886条・887条2項・889条1項1号に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 続, 権, 縁, 廃, 除, 尊, 属 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panels 1 and 4 visibly share the
+same one-diamond tree shape with only the highlighted branch differing,
+that Panel 5's family tree is clearly drawn with the generation order
+reversed compared to Panels 1 and 4 (直系尊属 above, not below), that
+each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

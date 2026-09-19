@@ -209,3 +209,175 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric people figures, a calendar/hourglass
+for the 熟慮期間, a family-court building for 限定承認, a family tree for
+相続放棄の遡及効, and a torn "撤回" ticket beside a valid "取消し" arrow.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
+Where a 肢 is resolved by a single check, a labeled illustrative diagram
+is sufficient — do not force a flowchart. This article's five 肢 do not
+share a single common decision-tree shape, so design each panel's diagram
+independently around its own fact pattern. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和4年度午後第3問 ア〜オ
+作図ガイド（相続の承認及び放棄）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+強迫で遺言させた者は欠格
+Diagram: An isometric scene of a woman figure labeled「Ｂ」menacingly
+holding a scroll toward a man figure labeled「Ａ」who is being forced to
+write on a document stamped「遺言」. A checklist icon beside the scene
+reads「詐欺又は強迫による遺言の強制の有無」with a checkmark placed on it,
+and a torn「相続人」name-tag falls away from Ｂ with a large red「✕」mark
+to show she loses her heir status.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相続人になろうとする者が、被相続人に対して詐欺または強迫によって
+遺言をさせる・変更させるなどの不正な行為をしていないかを確認します。
+行為があれば、その者は相続欠格者となり相続人になれません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+相続欠格者になる
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+3か月放置で単純承認とみなす
+Diagram: An isometric calendar/timeline showing「相続の開始を知った時」as
+the starting pin, counting down「3か月（熟慮期間）」toward a closing gate.
+Along the timeline, two small icon slots labeled「限定承認」「相続放棄」are
+both shown empty and grayed out (未選択). At the end of the timeline, a
+stamp reading「単純承認」appears automatically over the empty slots.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相続人が自己のために相続の開始があったことを知った時点を確認し、
+次に、そこから3か月（熟慮期間）以内に限定承認または相続放棄の手続をとった
+かどうかを確認します。どちらもしなければ、単純承認をしたものとみなされ
+ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+単純承認とみなす
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+限定承認は全員共同でのみ
+Diagram: An isometric 家庭裁判所 building in front of which two figure
+icons labeled「Ｂ」「Ｃ」stand together holding a single joint document
+stamped「限定承認」. Beside them, a separate small scene shows a single
+figure holding the same document alone, overlaid with a large red「✕」
+mark to show it cannot be done individually.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相続人が複数いるかどうかを確認します。複数いる場合は、限定承認を
+するには相続人全員が共同して申述する必要があり、一人だけで単独ですること
+はできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+全員共同が必要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+放棄者は遡って相続人でない
+Diagram: An isometric family tree diagram where a figure icon labeled
+「Ｂ」fades into a dotted outline and is erased from the family tree
+branch. A clock icon beside the tree shows an arrow curving backward all
+the way to the very start (相続開始時点), showing Ｂ is treated as never
+having been an heir from the beginning.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その人が有効に相続放棄をしたかどうかを確認します。有効な放棄で
+あれば、その人は相続に関して初めから相続人でなかったものとみなされ、
+他の相続人の相続分の計算もその前提で行われます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+初めから相続人でない
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+撤回は不可でも取消しはできる
+Diagram: A decision-tree flowchart. Start node:「承認・放棄をした後、その
+扱いを覆したいと考えている」leading down to a diamond node:「単に気が
+変わっただけの『撤回』か、それとも詐欺・強迫など瑕疵ある意思表示に基づく
+『取消し』の主張か？」Two branch arrows: one labeled「撤回（単なる翻意）」
+leading to a conclusion node with a red「✕」reading「認められない」; the
+other labeled「取消し（詐欺・強迫等の瑕疵）」leading to a conclusion node
+with a green「✓」reading「認められる」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、承認・放棄を覆そうとする理由が、単に気が変わっただけの「撤回」なの
+か、それとも強迫のような瑕疵ある意思表示を理由とする「取消し」なのかを
+区別します。単なる撤回はできませんが、瑕疵を理由とする取消しは認められ
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+取消しは可能
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法891条4号（相続欠格）・921条2号（法定単純承認）・923条（限定承認の
+共同性）・939条（相続放棄の効力）・919条1項・2項（承認・放棄の撤回禁止と
+取消しの可否）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 続・認・棄・欠・強・迫・単・裁・撤. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that the multi-condition 肢（肢オ）is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

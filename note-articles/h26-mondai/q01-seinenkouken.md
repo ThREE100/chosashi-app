@@ -207,3 +207,183 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a convenience-store scene for 日常生活行為, three
+small family-court buildings side by side labeled 後見開始・保佐開始・
+補助開始 for the type-classification panel, a fake certificate for 詐術,
+and a split scene contrasting 成年後見人 and 保佐人・補助人 for the
+代理権の範囲 panel. Panel 2 (肢イ) requires checking which of the three
+proceedings (後見・保佐・補助) is at issue, so draw it as an actual
+decision flowchart with a three-way branch diamond. Panel 4 (肢エ)
+requires checking two conditions in sequence (判断能力の回復の有無、家庭
+裁判所の取消審判の有無), so draw it as an actual two-diamond decision
+flowchart. This article's 5 肢 do not share a common fact pattern with
+each other, so there is no shared tree shape to reuse across panels;
+design each panel independently. Where a 肢 is resolved by a single check
+(肢ア・肢ウ・肢オ), a labeled illustrative diagram is sufficient — do not
+force a flowchart. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成26年度午後第1問 ア〜オ
+作図ガイド（成年後見・保佐・補助）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+日用品の購入は意思能力に関係なく取消し不可
+Diagram: An isometric convenience-store aisle. An elderly woman character
+（成年被後見人）holds a small bag labeled 日用品。A red cancel/X stamp
+labeled 取消し hovers near the bag but is crossed out with a large red X,
+showing it cannot be used here. A small torn-paper label beside her reads
+意思能力の有無は関係ない.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その法律行為が日用品の購入その他日常生活に関する行為かどうかを
+確認します。日常生活に関する行為であれば、行為時の意思能力の有無にかか
+わらず、取り消すことができないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+取消しの対象外
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+本人の同意が必須なのは補助開始だけ
+Diagram: A decision-tree flowchart. Start node: 本人以外の者（親族等）の
+請求により審判をしようとしている。Diamond node (highlighted, three-way
+branch): それは後見開始・保佐開始・補助開始のどの審判か？後見開始と保佐
+開始の2つの branch にはそれぞれ本人の同意ラベルに red X、補助開始の
+branch だけに本人の同意ラベルに green checkmark、leading to a conclusion
+node showing three small family-court building icons side by side with
+the 補助開始 one glowing.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっているのが後見開始・保佐開始・補助開始のどの審判かを確認
+します。補助開始の審判だけは本人の同意が必須であり、後見・保佐の開始には
+本人の同意は不要であることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+補助だけ同意必要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+だましたら取消権を失う
+Diagram: An isometric scene of a person（被保佐人）handing a fake
+certificate labeled 行為能力者だと偽る証明書 to a real-estate agent
+character across a desk with a land-sale document. A red X is stamped
+over a 取消し document near the person, showing the right to rescind has
+been lost.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、制限行為能力者が相手方に対して自分が行為能力者であると信じさせる
+ための詐術を用いたかを確認します。詐術を用いていた場合には、その行為を
+あとから取り消すことができなくなると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+詐術で取消不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+後見終了は裁判所の取消審判だけ
+Diagram: A decision-tree flowchart. Start node: 成年被後見人の判断能力が
+実際に回復した（事理を弁識する能力を欠く常況ではなくなった）。Diamond
+node: 判断能力が回復しただけで後見開始の審判は当然に失効するか？with a
+いいえ arrow leading to a second diamond node (highlighted): 家庭裁判所が
+後見開始の審判を取り消す審判をしたか？with a いいえ arrow leading to a
+conclusion node showing an elderly man character whose head icon shows
+判断能力が回復 crossed out with a red X over 行為能力の自動回復、while a
+family-court building icon holds a document labeled 後見開始の審判の取消
+with a checkmark showing this formal step is the only way to end the
+guardianship.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、成年被後見人の判断能力が実際に回復したかを確認します。次に、それ
+だけでは足りず、家庭裁判所が後見開始の審判を取り消す審判をしたかどうかを
+確認し、取消審判がなければなお成年被後見人のままであると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+自動回復はしない
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+後見人は包括代理、保佐等は個別代理
+Diagram: An isometric scene split in two. On the left, a 成年後見人
+character holds one large stamp labeled 財産全般 covering icons of a
+house, a bank passbook, and a contract. On the right, a 保佐人・補助人
+character holds a small stamp labeled 審判で定めた行為のみ covering only
+one icon（a house-sale document）, with the other icons（bank passbook,
+contract）shown outside the stamp's reach.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理権を持つのが成年後見人か、それとも保佐人・補助人かを確認しま
+す。成年後見人であれば財産に関する行為全般について包括的な代理権を持ち、
+保佐人・補助人であれば家庭裁判所の審判で個別に定められた行為だけに代理権
+が及ぶと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+範囲が全然違う
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法9条ただし書（日常生活行為の取消し除外）・15条2項（補助開始の審判に
+おける本人の同意）・21条（制限行為能力者の詐術）・10条（後見開始の審判の
+取消し）・859条1項（成年後見人の代理権）・876条の4・876条の9（保佐人・
+補助人の代理権）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 後, 見, 佐, 補, 助, 権, 審, 判, 欠, 詐, 術. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢
+(肢イ・肢エ) is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

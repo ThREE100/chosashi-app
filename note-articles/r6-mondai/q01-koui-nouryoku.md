@@ -225,6 +225,174 @@ tag, at a glance.
 
 ---
 
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+行為能力の問題文を読んだときに、「誰が」「いつ」取消しできるかを見分け、催告（肢オ）については相手が誰かによって無回答の効果が逆転するという条件を順に確認する決定木としてたどれるようにする5パネル構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（制限行為能力者の取消しルール「誰が」「いつ」「どこまで」), but built as
+a set of 5 diagram-drawing panels (a "how to sketch this fact pattern, in
+the right order" study reference) rather than a quick-reference
+conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric contract and stamp icons for 取消し
+の可否, a timeline arrow for 審判前後の遡及, a shop-counter scene for
+日用品の購入, and a letter/clock icon pair for 催告と確答の期限. Where a
+肢 requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+（はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認し
+ます"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和6年度午後第1問 ア〜オ
+作図ガイド（行為能力）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+審判の前後で線を引いて確認する
+Diagram: An isometric two-scene timeline. Left scene: an elderly figure
+signs a futon sales contract, labeled「後見開始の審判前」. Right scene:
+the same figure now holds a document stamped「後見開始の審判」, labeled
+「審判後」. A dashed backward arrow from the right scene to the left scene
+is crossed out with a large red ×, showing the effect cannot reach back.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず契約をした時点が、後見開始の審判の前か後かを確認します。審判前で
+あれば、契約時に判断能力が低下していたことを証明できても、取り消すこ
+とはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+審判前は取消し不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+取消権の行使に同意はいらない
+Diagram: An isometric teenage figure alone, raising one hand with a
+document stamped「取消し」, with a small crossed-out icon of two
+overlapping figures beside them, representing「法定代理人の同意は不
+要」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず未成年者が単独でした契約であることを確認し、次にその契約を「取り
+消す」場面であることを確認します。取消しは本人に不利益を与えないため、
+法定代理人の同意は不要です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+単独で取消し可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+知っていたかどうかは結論を変えない
+Diagram: An isometric young figure（未成年者）with a speech bubble
+containing a small document icon and a checkmark, representing「後で
+取り消せると知っていた」. Next to them, a green circle icon labeled
+「取消し可能」with a checkmark, unaffected by the speech bubble.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず契約が同意なしにされたものであることを確認します。その契約の時点
+で取消しの可能性を知っていたかどうかは、取消しの可否に影響しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+知っても取消し可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+日用品かどうかを先に見分ける
+Diagram: An isometric scene of a 成年被後見人 figure buying groceries at
+a small shop counter. Two thought bubbles above the shopkeeper show both
+a checkmark and a question mark（「知っていた」と「知らなかった」）、both
+crossed out by a single red×over a「取消し」icon, showing the outcome is
+the same regardless of the shopkeeper's knowledge.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず購入したものが日用品その他日常生活に関する行為かどうかを確認しま
+す。日用品の購入であれば、相手方がその事情を知っていたかどうかは確認
+するまでもなく、取り消すことができません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+善意悪意問わず不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+催告の相手が誰かを最初に確認する
+Diagram: A decision-tree flowchart. Start node: 相手方は誰に催告した
+か？with two branches. Branch 1（強調表示、本肢に該当）labeled「保佐人
+（法定代理人・保佐人・補助人）」leading down to a clock icon counting
+down to zero, then a green checkmark conclusion node reading 無回答なら
+追認とみなす。Branch 2 labeled「まだ制限行為能力者のままの本人」leading
+down to the same clock icon shape but ending at a red cross conclusion
+node reading 無回答なら取消しとみなす。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず催告の相手が「保佐人」なのか「まだ制限行為能力者のままの本人」なの
+かを確認します。保佐人への催告であれば、期間内に確答がない場合は追認
+したものとみなされます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+保佐人への催告は追認擬制
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法5条2項・9条ただし書・20条2項・120条1項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 悪, 催, 告, 追, 認, 保, 佐, 補, 助 and any character that has
+a visually similar Simplified Chinese variant. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that the multi-condition 肢（肢オ）is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
+
+---
+
 ## インフォグラフィック プロンプト（オ肢・間違いノート）
 
 オ（相手方が保佐人に催告し、無回答なら追認とみなされる＝本肢は正しい）について、「催告して返事がなければ契約は無効（取消し）になるはずだ」という直感と、催告の相手が誰かによって無回答の効果が正反対になるという民法20条の構造とのズレを解消するための対比型の解説図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、条文の引用・説明文を制限なく配置している。

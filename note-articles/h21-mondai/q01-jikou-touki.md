@@ -202,3 +202,178 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric horizontal timeline with a small
+flag marking 時効完成, figure icons for the occupier and any third party
+placed to the left or right of the flag, and a registry-book icon marking
+登記済み／未登記. Panels 1（肢ア）・2（肢イ）・3（肢ウ）share the same
+underlying two-diamond decision tree, rooted in a first diamond ("相手は
+元の所有者か、第三者か") and, when the answer is 第三者, a second diamond
+("その第三者が権利を取得したのは時効完成の前か後か"), with the branch
+relevant to that panel's 肢 highlighted (thicker border, distinct color)
+and the other branches drawn smaller/greyed out. Panels 4（肢エ）・5（肢オ）
+are each resolved by a single check unrelated to that tree (起算点の固定と
+二重の時効主張の可否), so draw a labeled illustrative diagram for them
+instead of forcing a flowchart. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成21年度午後第1問 ア〜オ
+作図ガイド（取得時効と登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+完成前の第三者になら登記なしで勝てる
+Diagram: A first diamond node (highlighted) 相手は元の所有者か、第三者か、
+with 第三者 selected, leading to a second diamond node (highlighted) その
+第三者が権利を取得したのは時効完成の前か後か、with 前 selected, leading to
+a conclusion node 当事者類似の関係、登記なしで対抗できる. Illustration: an
+isometric horizontal timeline with a flag labeled「完成」in the middle; to
+the LEFT of the flag a buyer figure C receives the land from B before the
+flag, with a green checkmark on the arrow from occupier A to C, and a
+greyed-out registry-book icon marked「不要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相手が元の所有者なのか第三者なのかを確認し、第三者であれば、その第
+三者が権利を取得したのが時効完成の前か後かを確認します。完成前であれば当
+事者類似の関係となり、登記がなくても対抗できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+完成前なら登記不要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+完成後の第三者には登記が必要
+Diagram: The same two-diamond tree as Panel 1: first diamond 相手は元の所
+有者か、第三者か、with 第三者 selected; second diamond その第三者が権利を
+取得したのは時効完成の前か後か、this time with 後 highlighted, leading to
+a conclusion node 対抗関係に入る、登記の先後で決まる. Illustration: the
+same isometric timeline with the「完成」flag, but now buyer figure C
+stands to the RIGHT of the flag, with a registry-book icon glowing green
+next to C（登記済み）and a red ✕ over an empty registry slot on occupier
+A's side（未登記）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相手が第三者であることを確認し、次に、その第三者が権利を取得したの
+が時効完成の前か後かを確認します。完成後であれば対抗関係に立ち、登記を備
+えた方が勝ちます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+完成後は登記の先後
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+元所有者には登記なしで主張できる
+Diagram: The same root diamond as Panels 1-2, 相手は元の所有者か、第三者
+か、but this time with 元の所有者 highlighted (the 第三者 branch and its
+second diamond are drawn smaller/greyed out since they are not relevant
+here), leading directly to a conclusion node 当事者の関係、登記不要で主張
+できる. Illustration: two figures standing face to face on a single
+isometric land plot — left figure labeled 時効取得者、right figure labeled
+元所有者B, with a green checkmark speech bubble from the left figure, and
+a registry-book icon crossed out with a red ✕ labeled「不要」between them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相手が元の所有者なのか第三者なのかを確認します。元の所有者は時効の
+効果をめぐる直接の当事者であるため、登記がなくても時効取得を主張できま
+す。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+元所有者には登記不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+起算点は占有開始時に固定される
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+running track with a start block bolted to the ground with a chain,
+labeled「占有開始」and marked with a green checkmark, while a second start
+block floating further along the lane is crossed out with a red ✕ and
+labeled「途中から」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、実際に占有を開始した時点がいつかを確認します。時効の起算点はその現
+実の占有開始時に固定され、後から都合の良い時点に任意でずらすことはできな
+いことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+起算点はずらせない
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+善意無過失でも20年時効を選べる
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+station platform with two trains side by side, the near train with a
+headboard reading「10年」and a green checkmark, the far train with a
+headboard reading「20年」also with a green checkmark, and a passenger
+figure standing between them holding a ticket with a small tag「どちらも
+選べる」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有者が善意無過失で10年の時効を主張できる状態にあるかを確認しま
+す。次に、10年時効を主張できるとしても、あえて20年の時効を選んで主張する
+ことも妨げられないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+20年も選んで主張可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法162条（取得時効）・177条（対抗要件）に基づく整理です（起算点固定・重
+畳的主張の判例法理を含む）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 登・記・効・占・者・完・成 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panels 1・2・3 visibly share the
+same root diamond shape with different branches highlighted while Panels
+4・5 are simple labeled diagrams without a forced flowchart, that each 着
+眼点 callout states a checking order rather than only a conclusion,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

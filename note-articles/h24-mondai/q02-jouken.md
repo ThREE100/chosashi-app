@@ -192,3 +192,178 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a farmland plot with an official stamp icon
+for 農地法の許可, a notice-letter-and-calendar icon for 催告一体型の解
+除, a provisional-registration stamp on a contract for 停止条件付きの
+仮登記, a burning-building icon for 期待権の侵害, and a blindfolded
+figure for 解除条件の知・不知. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes
+with the condition written on them, Yes/No（はい／いいえ）branch arrows,
+and a final conclusion node. Only Panel 1（肢ア）needs this treatment,
+because it hides a second condition (行政処分の要否) behind a first
+condition (妨害の有無) that at first glance looks like it alone decides
+the肢; the other four panels are each resolved by a single check, so a
+labeled illustrative diagram is sufficient for them — do not force a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成24年度午後第2問 ア〜オ
+作図ガイド（条件付き法律行為）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+妨害があっても行政処分は作れない
+Diagram: A decision-tree flowchart on a farmland-plot isometric scene.
+First diamond node: 条件成就によって不利益を受ける当事者（売主）が、故意
+にその成就を妨げたか？with a はい arrow proceeding downward (this
+condition is satisfied in this fact pattern). Second diamond node (drawn
+with a thicker highlighted border, since this is the branch the whole
+肢 turns on): その条件は、行政庁の許可（行政処分）を要する内容か？with
+the はい branch leading to a crossed-out government-stamp icon and a
+conclusion node reading 許可を受けたとみなすことはできない; the いいえ
+branch (drawn small and faded, not this肢の事実) leading to a conclusion
+node 130条により成就したとみなされる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、条件成就によって不利益を受ける当事者が故意に成就を妨げたかを確認
+します。次に、その条件が行政庁の許可のような行政処分を要する内容かどう
+かを確認し、行政処分を要する場合は、私人間の合意だけで許可を受けたとみ
+なすことはできないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+許可の擬制はできない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+催告と一体なら条件付き解除も有効
+Diagram: An isometric scene of a seller icon handing a notice letter to a
+buyer icon. The letter contains a small calendar showing 2週間 and the
+words 支払わなければ解除します written on the same letter as the
+payment demand (催告と条件付き解除が同じ通知の中で一体化している様子)、
+with a green checkmark stamp confirming validity.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この意思表示が催告（支払ってください）と条件付き解除（支払わなけ
+れば解除します）を一体として行うものかどうかを確認します。一体化してい
+れば、相手方を不当に不安定にしないため、有効な意思表示と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+催告一体なら有効
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+停止条件付きでも仮登記はできる
+Diagram: An isometric contract paper labeled 結婚したら贈与 resting on a
+land-plot icon, with a provisional-registration stamp icon (仮登記)
+being placed on the land plot even though a small hourglass icon beside
+it shows 結婚（条件）はまだ成就していない, and a green checkmark
+confirms this is possible before the condition is met.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この契約が始期付きまたは停止条件付きの権利を生じさせるものかどう
+かを確認します。停止条件付き契約であれば、次に、条件成就前の現時点でも
+仮登記（不登法105条2号）ができると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+仮登記で保全できる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+条件成就前は期待権にとどまる
+Diagram: An isometric burning-building icon (destroyed by a third party's
+arson), next to a person icon labeled 条件成就前（大学合格前）with a
+crossed-out coin/compensation icon, showing that no confirmed damages
+claim exists yet at this stage.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、条件（大学合格）がすでに成就しているかどうかを確認します。まだ成
+就していない場合は、次に、その時点での地位は期待的な地位（期待権）に
+とどまり、確定的な損害賠償請求権までは生じていないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+確定請求権はまだない
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+知らなくても解除条件は効力発生
+Diagram: An isometric blindfolded person icon (representing 事実を知らな
+い状態) standing next to a scholarship coin icon that automatically
+stops flowing the moment a checkmark stamp reading 進級できなかった
+appears, showing the obligation ends regardless of the person's
+awareness.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、解除条件（進級できなかったこと）が客観的に成就したかどうかだけを
+確認します。次に、その事実を当事者が知っていたかどうかは効力の発生に
+関係しないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+知らなくても効力発生
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法130条・農地法3条1項・6項（許可の擬制の限界）・民法541条（催告による
+解除）・不動産登記法105条2号（条件付権利の仮登記）・民法128条（期待権の
+侵害）・民法127条2項（解除条件の効力）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 条, 件, 許, 仮, 贈, 与, 期, 待, 償 and any character that has
+a visually similar Simplified Chinese variant. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that 肢ア is drawn as an actual
+flowchart with two branch nodes (not a bare illustration with no visible
+decision structure) while the other four panels use a single labeled
+illustrative diagram, that each 着眼点 callout states a checking order
+rather than only a conclusion, confirm nothing is rendered below the
+last panel's footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

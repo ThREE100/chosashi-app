@@ -196,3 +196,178 @@ paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric community-hall building with four
+numbered checklist icons for 社団性の4要件, a piggy-bank icon for 社団の
+総有財産, a registry-desk document for 登記名義, a bylaw booklet being
+revised for 規約改正, and an ancient scroll placed in front of a law book
+for 入会権の慣習. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No（はい／いいえ）branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. This
+article's five 肢 do not share a single common decision-tree shape, so
+design each panel's diagram independently around its own fact pattern;
+only Panel 1（肢ア）needs an actual multi-step flowchart, since it is the
+only 肢 that depends on checking more than one condition in sequence (the
+four 社団性の要件, all of which must be satisfied). Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第1問 ア〜オ
+作図ガイド（権利能力なき社団）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+社団性は4要件を順に確認する
+Diagram: A decision-tree flowchart with four sequential diamond nodes
+arranged top-to-bottom in front of an isometric community-hall building
+icon. Diamond 1:「団体としての組織を備えているか？」with an いいえ branch
+leading to a small conclusion box reading「社団性なし」and a はい arrow
+proceeding down. Diamond 2:「多数決の原則が行われているか？」with the same
+いいえ→「社団性なし」pattern and a はい arrow proceeding down. Diamond 3:
+「構成員が変わっても団体そのものが存続するか？」with the same pattern.
+Diamond 4:「代表の方法・総会の運営・財産の管理など主要な点が確定して
+いるか？」with a はい branch leading to a final conclusion node with a
+green checkmark reading「権利能力なき社団と認められる」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+4つの要件を順番に確認していきます。まず団体としての組織を備えているか、
+次に多数決の原則が行われているか、次に構成員が変わっても団体そのものが
+存続するか、最後に代表の方法・総会の運営・財産の管理などの主要な点が
+確定しているかを確認し、すべて満たせば権利能力なき社団と認められます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+4要件すべて必要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+社団の債務は社団財産だけが負う
+Diagram: An isometric scene where an arrow from a lender figure points to
+a piggy-bank icon labeled「社団の総有財産」. Around the piggy bank, several
+member figures stand in a circle, each holding their own personal wallet
+icon marked with a large red「✕」, showing the arrow does not reach any
+individual wallet.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その債務が権利能力なき社団の取引上の債務であることを確認します。
+社団の債務は構成員全員に総有的に帰属し、責任財産となるのは社団の総有
+財産だけなので、構成員個人が直接の返済義務を負うことはありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+個人責任は負わない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+社団名義は不可、2つの代替手段
+Diagram: An isometric registry-desk document icon labeled「登記」in the
+center. Above it, a signboard labeled「Ａ（社団名義）」is crossed out with
+a large red「✕」. Below it, two arrows branch out with green checkmarks:
+one labeled「構成員全員の共有名義」pointing to a group of figures, the
+other labeled「代表者個人名義」pointing to a single figure.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記しようとしている名義が社団そのもの（法人格のない団体名）に
+なっていないかを確認します。社団名義では登記できませんが、構成員全員の
+共有名義にするか、代表者個人の名義にするかのどちらかを選べます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+共有名義か代表者名義
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+規約改正は反対者にも及ぶ
+Diagram: An isometric scene of a bylaw booklet with a pen icon overlaid,
+showing a revision mark（改正）. Around the booklet, several member figures
+stand in a circle; one figure holds a speech bubble reading「反対」, but a
+dotted circle representing「改正後の規約の適用範囲」is drawn around all the
+figures, including the one who said「反対」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、規約所定の手続に従って総会の多数決で規約が改正されたかどうかを
+確認します。適正な手続で改正されていれば、その決議に承諾しなかった
+構成員にも、原則として改正後の規約が適用されます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+反対者にも適用される
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+入会権は慣習が民法より優先
+Diagram: An isometric mountain/commons-land landscape icon. In front of
+the landscape, an ancient scroll icon labeled「地域の慣習」is drawn larger
+and closer to the viewer than a law-book icon labeled「民法の規定」placed
+behind it, visually showing the priority relationship.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっている権利が入会権であることを確認します。入会権の内容
+や処分方法は、まず各地方の慣習によって定まり、民法の共有・地役権の規定
+はその慣習を補う位置づけにとどまります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+慣習が民法に優先
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+判例（社団性の4要件、社団債務の総有的帰属、社団の登記方法、規約改正の
+効力）および民法263条・294条（入会権と慣習）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 社・団・権・登・記・続・総・慣・習. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that the multi-condition 肢（肢ア）is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

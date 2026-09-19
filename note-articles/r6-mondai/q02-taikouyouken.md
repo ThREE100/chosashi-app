@@ -234,6 +234,183 @@ as a short heading + a short conclusion tag, at a glance.
 
 ---
 
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+5肢すべてに共通する「177条の第三者にあたるか」という1つの決定木を土台に、各肢が①〜⑤のどの除外パターンに当てはまるか（またはどれにも当てはまらないか）だけが変わることを、5パネル通して同じ木の形で示す構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（登記なしで対抗できる相手・できない相手), but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric land plot with the person in
+question standing on it, and a single shared decision-tree shape used
+identically across all 5 panels: a start node asking who the person in
+the fact pattern is, leading to one diamond node reading 民法177条の
+「第三者」から除外される①〜⑤のいずれかに該当するか（①当事者本人・②
+包括承継人・③前主後主・④不法占拠者・⑤背信的悪意者）？, with a はい
+branch leading to a green checkmark conclusion node reading 登記なしで
+対抗できる, and a いいえ branch leading to a red cross conclusion node
+reading 登記がなければ対抗できない。All 5 panels MUST use this identical
+tree shape and layout; the only things that change between panels are
+(a) which exclusion number（①〜⑤、or「該当なし」）is written inside the
+diamond and highlighted with a thicker colored border, and (b) which
+branch (はい or いいえ) is highlighted as the outcome for that panel's
+肢. This is a decision flowchart in every panel (this problem has no
+single-check 肢); diamond-shaped branch node, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node must be visible in all 5 panels.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和6年度午後第2問 ア〜オ
+作図ガイド（民法177条の第三者）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+単純悪意者は①〜⑤に当てはまらない
+Diagram: The shared decision-tree shape described above. The land plot
+shows figure Ｂ（未登記の買主）and figure Ｃ（単純悪意者、AB間の売買を
+知っていただけ）. The diamond node is highlighted with the label「該当
+なし（①〜⑤のどれにも当てはまらない）」, and the いいえ branch（第三者に
+含まれる）is highlighted, leading to the red cross conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずＣが①〜⑤のどの除外パターンにも当てはまらないことを確認します。
+単に事情を知っていただけの単純悪意者は除外パターンに含まれないため、
+Ｂは登記がなければＣに対抗できません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+悪意でも対抗不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+問題になるのは抵当権者でなく買受人
+Diagram: The shared decision-tree shape described above. The land plot
+shows figure Ｂ（未登記の買主）and figure Ｄ（抵当権が実行された競売の
+買受人、新たに所有権を取得した者）; a small faded figure Ｃ（抵当権者）
+stands to the side, labeled「登場するのはＤ」to remind the reader not to
+stop at Ｃ. The diamond node is highlighted with the label「該当なし
+（①〜⑤のどれにも当てはまらない）」, and the いいえ branch is highlighted.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対抗関係で実際に登場するのは抵当権者Ｃではなく、競売で新たに
+所有権を取得した買受人Ｄであることを確認します。次にＤが①〜⑤のどれに
+も当てはまらないことを確認すると、Ｂは登記なしでＤに対抗できません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+買受人にも対抗不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+前主後主は③に当てはまる
+Diagram: The shared decision-tree shape described above. The land plot
+shows Ａ→Ｂ→Ｃが一直線につながる矢印（一本の承継の線）. The diamond node
+is highlighted with the label「③前主・後主の関係」, and the はい branch
+（第三者にあたらない）is highlighted, leading to the green checkmark
+conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずＣがＡと直接向き合う別人かどうかではなく、Ａ→Ｂ→Ｃと一直線につな
+がる「前主・後主」の関係にあるかを確認します。③に当てはまるため、Ｃは
+登記なしでＡに対抗できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+前主後主は対抗可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+相続人は②に当てはまる
+Diagram: The shared decision-tree shape described above. The land plot
+shows figure Ａ with a small memorial star icon（死亡）and a green arrow
+labeled「包括承継」merging into figure Ｃ（唯一の相続人）. The diamond
+node is highlighted with the label「②包括承継人」, and the はい branch is
+highlighted, leading to the green checkmark conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずＣがＡとは別人格かどうかではなく、Ａの地位をそのまま引き継ぐ「包括
+承継人」にあたるかを確認します。②に当てはまるため、Ｂは登記なしでＣに
+対抗できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+包括承継だから対抗可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+不法占拠者は④に当てはまる
+Diagram: The shared decision-tree shape described above. The land plot
+shows figure Ｂ and a tent icon（不法占拠者Ｃ、無権原）標識に赤い✕。The
+diamond node is highlighted with the label「④不法占拠者」, and the はい
+branch is highlighted, leading to the green checkmark conclusion node
+labeled 明渡し請求できる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずＣが土地に対して何らかの権原を持つかを確認します。無権原の不法占拠
+者は④に当てはまるため「第三者」にあたらず、Ｂは登記なしで明渡しを請求
+できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+明渡し請求できる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法177条・896条本文に基づく整理です。①当事者本人・②包括承継人・③前主
+後主・④不法占拠者・⑤背信的悪意者はいずれも「第三者」から除外されます。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 登, 記, 承, 継, 占, 拠, 背, 信, 欠, 缺 and any character
+that has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that all 5 panels visibly share
+the identical decision-tree shape and layout described above with only
+the diamond's label and highlighted branch differing, that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+---
+
 ## インフォグラフィック プロンプト（ア〜オ共通・間違いノート）
 
 177条の「第三者」の判例上の定義と、そこから除外される①〜⑤のパターン（当事者本人・包括承継人・前主後主・不法占拠者・背信的悪意者）に、本問の5肢（ア〜オ）それぞれがどう当てはまるかを1枚で機械的に一覧できる補足図解。`infographic-prompt-template.md`の「④ 間違いノート型」に基づき、②の俯瞰ポスターとは異なり、条文の引用・説明文を制限なく配置している。

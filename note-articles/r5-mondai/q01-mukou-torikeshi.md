@@ -209,3 +209,183 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+「無効」と「取消し」の問題文を読んだときに、追認・遡及効・時効消滅のどれが問われているかを見分ける5パネル構成。イ（無効の追認）とウ（取消しの遡及効）は、同じタイムライン型の図の形を共有しつつ、矢印が過去に届くかどうかが正反対になる点を対比させ、オ（取消権の時効消滅）は2本の並行するタイマーのどちらが先に尽きるかを確認する決定木として描く。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+（「無効」と「取消し」はどう違う？), but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric contract-document icons stamped with
+無効/取消し, horizontal timelines with a marked event partway along, and
+hourglass/clock icons for the time-barring rules. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No（はい／いいえ）
+branch arrows, and a final conclusion node. Where a 肢 is resolved by a
+single check, a labeled illustrative diagram is sufficient — do not
+force a flowchart. Panels 2 and 3 (肢イ・肢ウ) share the same underlying
+horizontal-timeline shape (契約成立時点を起点とし、途中に追認または取消
+しの時点をマークする); draw both on the same timeline layout, but in
+Panel 2 draw NO arrow reaching back to the starting point (追認は将来に
+向けてのみ効力を持つ), while in Panel 3 draw a bold curved arrow sweeping
+backward from the 取消し point all the way to the starting point
+（強調表示、遡及効を示す）, so the two panels visually contrast despite
+sharing the same timeline shape. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認し
+ます"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和5年度午後第1問 ア〜オ
+作図ガイド（無効及び取消し）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+意思能力の有無を最初に確認する
+Diagram: An isometric elderly figure with a confused expression signing a
+document; the document instantly cracks into pieces with a red「無効」
+seal. A crossed-out arrow connects the land icon to a delivery-box icon,
+showing no obligation to hand it over.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず契約締結時に意思能力があったかを確認します。意思能力がなければ契
+約は無効となり、売主が負うはずだった引渡義務もそもそも発生しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+無効なら引渡義務なし
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+追認は過去にさかのぼらないと確認
+Diagram: The shared horizontal-timeline shape described above. At the
+left end, a contract document icon stamped with a red「無効」seal
+（虚偽表示）. Partway along the timeline, a「追認」stamp icon appears, and
+a brand-new intact contract document icon begins exactly at that point,
+with NO arrow connecting it back to the left-end starting point.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず契約が虚偽表示により無効であることを確認し、次に当事者が無効を
+知って追認したことを確認します。追認しても契約時にさかのぼって有効に
+なるのではなく、追認の時点から新たな行為をしたものとして扱われます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+追認時から新たな行為
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+取消しは過去にさかのぼると確認
+Diagram: The shared horizontal-timeline shape described above (same
+layout as Panel 2, drawn with a thicker highlighted arrow since this is
+the branch this panel is about). At the left end, an intact green
+contract document icon. Partway along, a「取消」stamp icon appears, and a
+bold curved arrow sweeps backward from that stamp all the way to the
+left-end starting point, turning the original document icon there into a
+crossed-out/void icon.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず強迫による意思表示であることを確認し、次に取消しがされたことを確
+認します。取消しは契約の成立時までさかのぼって効力を否定するため、
+契約は初めから無効だったものとして扱われます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+遡及して無効
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+法定代理人の追認の有無を確認
+Diagram: An isometric scene with a young figure（未成年者）beside a parent
+figure（法定代理人）; the parent stamps a contract document with
+「追認」, and the document is shown locked inside a glass case with a
+padlock icon; a small icon shows the young figure reaching toward the
+document with a「取消」stamp in hand, blocked by a barrier icon.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず同意なしにされた契約であることを確認し、次に法定代理人がその契約
+を追認したかを確認します。追認済みであれば契約は確定的に有効となり、
+本人があらためて取り消すことはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+確定的に有効
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+2本のタイマーのどちらが先か確認
+Diagram: A decision-tree flowchart with two parallel timer branches
+starting from a single start node（取消権の発生）. Branch 1: an hourglass
+icon on a timeline marked「追認できる時から5年」。Branch 2: a longer
+hourglass icon on a timeline marked「行為の時から20年」。Both branches
+converge into a single diamond node reading いずれかが先に経過したか？
+with the はい branch leading to a red-stamped conclusion node reading
+時効によって消滅する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず「追認できる時から5年」のタイマーを確認し、次に「行為の時から20
+年」のタイマーを確認します。まだ追認できる状況になっていなくても、
+行為の時から20年が経てば取消権は時効消滅します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+20年で時効消滅
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法3条の2・94条1項・96条1項・119条ただし書・120条1項・121条本文・122条
+・124条1項・126条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 効, 認, 消, 遡, 及 and any character that has a visually
+similar Simplified Chinese variant. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that Panels 2 and 3 visibly share the same
+timeline layout while differing only in whether the arrow reaches back to
+the starting point, that Panel 5 is drawn as an actual flowchart with two
+parallel timer branches converging at a diamond node (not a bare
+illustration with no visible decision structure), that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

@@ -422,3 +422,180 @@ given above verbatim, with no paraphrasing and no substituted characters,
 and confirm the entire canvas, edge to edge, is filled with a fully
 opaque background with no transparency or alpha channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric human figures for 本人・代理人・
+相手方, contract documents, stamps/seals, speech bubbles, chain links for
+復代理, prohibition marks, and a horizontal timeline with flag icons.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
+Where a 肢 is resolved by a single check, a labeled illustrative diagram
+is sufficient — do not force a flowchart. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第1問 ア〜オ
+作図ガイド（任意代理・現行法アレンジ版）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+代理人が悪意でも契約不適合責任は追及可
+Diagram: A decision-tree flowchart. First diamond node: 代理人Ｂはその事
+情(契約不適合)を知っていたか？ with a はい(悪意)arrow proceeding to a
+label box reading 本人Ａも知っていたものとして扱われる(101条1項), then
+to a second diamond node (drawn with a thicker highlighted border): 買主
+が不適合を知っていたことは、契約不適合責任の成否に影響するか？ with a
+影響しない branch leading to a green conclusion node reading 知った時か
+ら1年以内の通知で追及できる(566条)。Illustration: the 代理人Ｂ figure
+with a small "知" (knowing) icon glowing above their head, connected by a
+dotted arrow to the "本人Ａ" figure who also gains the same "知" icon, and
+then an arrow toward a document labeled "契約不適合責任" with a checkmark
+badge (NOT a prohibition mark).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人Ｂがその事情を知っていたか(善意・悪意)を、民法101条1項に従っ
+て本人Ａの基準として確認します。次に、その「知っていた」という事実が契約
+不適合責任の成否そのものに影響するかを確認します。現行法の契約不適合責任
+は知・不知を問わないため、知った時から1年以内に通知すれば追及できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+1年以内の通知で追及可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+代理権ゼロなら表見代理は不成立
+Diagram: A decision-tree flowchart. First diamond node (drawn with a
+thicker highlighted border since this is the branch this panel is
+about): 代理人に何らかの基本代理権はあったか？ with a ない(ゼロ)branch
+leading to a red conclusion node reading 表見代理は成立しない(相手方の
+正当理由は判断するまでもない), and a faded/grayed-out ある branch
+leading to a second diamond node shown small and dimmed: 相手方は代理権
+があると信じ、正当な理由があるか？ (indicating this step is never
+reached in this fact pattern). Illustration: a person figure with empty
+open hands (no document) standing next to a contract table, with a large
+red prohibition (no-entry) circle over a "表見代理" badge.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人に何らかの基本代理権があったかを確認します。基本代理権が全く
+ない場合は、その時点で表見代理は成立せず、相手方がどれほど強く信じていた
+としても、正当な理由の有無を確認するまでもありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+基本代理権ゼロで不成立
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+代理人に必要なのは意思能力で足りる
+Diagram: An isometric young person figure in a school-uniform style
+outfit signing a contract as an agent, with a parent-figure standing
+behind reaching toward the contract but blocked by a red prohibition
+(no-entry) icon between the parent's hand and the document.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人になるために必要なのが行為能力か、それとも意思能力で足りるか
+を確認します。代理人には行為能力は不要なので、未成年者も代理人になること
+ができ、その代理行為を法定代理人が行為能力の制限を理由に取り消すことはで
+きません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+法定代理人は取消不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+許諾があっても免責規定はもう無い
+Diagram: An isometric scene showing an old law-book icon labeled "旧105
+条" being crossed out and removed, while a "代理人" person figure selects
+a "復代理人" figure and a separate document labeled "委任契約(644条 善管
+注意義務)" glows beside them as the new source of responsibility, with a
+thin chain-link icon still connecting the 代理人 and 復代理人 figures.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、本人の許諾を得て復代理人を選任すれば選任・監督の責任が軽減されると
+いう規定(旧105条)が、現行法でもまだ存在するかを確認します。この規定はす
+でに削除されているため、選任・監督に落ち度があれば、委任契約上の善管注意
+義務(644条)に基づいて代理人は責任を負うことがあります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+善管注意義務で判断
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+相手方の取消しが先なら追認不可
+Diagram: An isometric horizontal timeline with two flag icons — a red
+flag reading "相手方の取消し" placed earlier on the timeline, and a
+second flag reading "本人の追認" placed later, crossed out with a
+prohibition mark to show it can no longer happen after the first flag.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、本人の追認と相手方の取消しの、どちらが時間的に先に行われたかを確認
+します。相手方の取消しが先であれば、その契約は確定的に効力を失うため、後
+から本人が追認しようとしてももはや追認することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+取消しが先なら追認不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法101条1項・566条(肢ア)、110条(肢イ)、102条本文(肢ウ)、644条・415条
+(肢エ)、115条本文(肢オ)に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 代, 理, 権, 任, 追, 認, 契, 約, 善, 管 and any character that
+has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition
+肢(肢ア・肢イ) is drawn as an actual flowchart with branch nodes (not a
+bare illustration with no visible decision structure), that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

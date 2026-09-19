@@ -216,3 +216,186 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots, wheat sprouts, an
+apartment building with an attached extension, a tree with a small wooden
+name tag, machine parts being welded together, and coin/money icons.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
+Where a 肢 is resolved by a single check, a labeled illustrative diagram
+is sufficient — do not force a flowchart. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成30年度午後第2問 ア〜オ
+作図ガイド（付合のルール）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+土地に生えた小麦は土地所有者のもの
+Diagram: An isometric bare land plot labeled "土地". A silhouette figure
+without any permit document sows seeds and the wheat grows tall, but a
+dotted arrow redirects the ownership arrow away from that figure toward a
+separate figure holding a "所有権" plaque standing beside a small "土地"
+signpost, showing the grown wheat belongs to the land owner, not the
+person who planted it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、成育した小麦が土地に対してどのような関係(付合)にあるかを確認しま
+す。土地を使用する権原のない者が種をまいて育てても、成育した小麦は土地に
+付合するため、その所有権は種をまいた者ではなく土地の所有者に帰属します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+土地所有者に帰属
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+独立性のない増築は建物のもの
+Diagram: An isometric apartment building with a small extension room
+attached seamlessly on one side, no separate door or outer wall,
+connected by solid merge lines (not a dotted separation line) to show it
+has become one structure with the main building. A crown/plaque icon
+labeled "建物所有者" sits above the whole combined structure, while a
+tenant figure stands outside without any ownership arrow pointing to the
+extension.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、増築部分が既存の建物と別個独立の存在(取引上の独立性)を有するかを確
+認します。独立性がなければ増築部分は建物に付合するため、賃貸人の承諾を得
+て増築していても、賃借人はその部分の所有権を取得しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+建物に付合する
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+立木は登記と明認方法の先後で決まる
+Diagram: A decision-tree flowchart on an isometric land scene. Start
+node: 立木と土地の二重譲渡。First diamond node: Ｂは立木について明認方法
+などの対抗要件を先に備えていたか？ with a いいえ arrow proceeding
+downward to a second diamond node (drawn with a thicker highlighted
+border): Ｃは先に所有権移転登記を備えたか？ with a はい branch leading to
+a red conclusion node reading Ｂは対抗要件がなくＣに立木の所有権を主張で
+きない。Illustration: a tree standing on land with no marking at all
+(representing missing 明認方法), beside it a ledger book stamped with a
+red "登記" seal being handed to a second figure labeled "譲受人", with a
+timeline arrow showing the registration completed before any name tag was
+placed on the tree.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Ｂが立木について明認方法などの対抗要件を先に備えていたかを確認しま
+す。備えていない場合は、次に、Ｃが先に所有権移転登記を備えたかを確認しま
+す。Ｃが先に登記を備えていれば、Ｂは対抗要件がない以上、Ｃに立木の所有権
+を主張することはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+登記した方が優先
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+主従の区別ができれば主の所有者へ
+Diagram: A decision-tree flowchart combined with an isometric welding
+illustration. First diamond node: 付合した動産どうしは分離が可能か？
+with a いいえ arrow proceeding downward to a second diamond node (drawn
+with a thicker highlighted border): 主従の区別ができるか？ with a はい
+（甲動産が主）branch leading to a conclusion node reading 甲動産の所有者
+Ａが全体の所有権を取得し、乙動産の所有者Ｂは乙動産の所有権を失う。
+Illustration: a large machine labeled "甲動産(主)" with a small part
+labeled "乙動産(従)" welded onto it, sparks and a solid weld line showing
+they cannot be separated, an arrow showing ownership of the whole
+combined machine flowing to the owner of 甲動産, while a separate figure
+labeled "乙動産の所有者" has a prohibition (no-entry) icon over an
+ownership arrow pointing back to the small part.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、付合した動産どうしが分離困難な状態になっているかを確認します。次
+に、主従の区別ができるかを確認し、区別できる場合は、主たる動産(甲動産)の
+所有者が全体の所有権を取得し、従たる動産(乙動産)の所有者はその所有権を失
+います。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+主の所有者に帰属
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+損した人は償金を請求できる
+Diagram: An isometric scene showing a figure who has lost an object to
+付合(a small tree or sprout fading into a merged unified object) standing
+beside an unhappy face icon, with a dotted arrow labeled "償金請求"
+pointing from that figure to a coin/money icon held by the figure who
+gained ownership of the combined object.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、付合によって物の所有権を失い、損失を受けた者がいるかを確認します。
+損失を受けた者がいる場合は、不当利得の規定に従い、所有権を取得した者に対
+してその償金を請求できることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+償金請求できる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法242条(不動産の付合)・243条(動産の付合)・248条(付合・混和・加工にお
+ける償金請求)に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 建, 登, 記, 対, 認, 償, 従 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢(肢ウ・
+肢エ) is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

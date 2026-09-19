@@ -405,3 +405,182 @@ standard Japanese (Jōyō) form, not Simplified Chinese. Confirm there is
 no full-sentence explanatory prose anywhere in the image — only the
 heading, the scene's embedded short labels, and the conclusion tag.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a three-person chain A→B→C with a registry tag
+for 譲渡当事者・登記名義, a family-tree icon for 相続人による地位の承継,
+a joint-agreement paper for 中間省略登記の合意, a shield icon labeled
+登記請求権 for 代位権の転用, and a rescinded-contract-with-回帰矢印 icon
+for 詐欺取消し後の第三者. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No（はい／いいえ）branch arrows, and a
+final conclusion node. Only Panel 5（肢オ）needs this treatment, because
+it requires first identifying WHEN the third者 appeared (before or after
+the取消し) and then whether that third者 has registered; the other four
+panels are each resolved by a single check（177条の「第三者」に当たるか
+どうか、または登記請求権そのものが消滅するかどうか）, so a labeled
+illustrative diagram is sufficient for them — do not force a flowchart.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成24年度午後第3問 ア〜オ
+作図ガイド（対抗要件）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+元の譲渡人は「第三者」に当たらない
+Diagram: Three isometric person icons in a row labeled A→B→C connected by
+譲渡 arrows. The land registry tag still reads 登記名義：A. C points
+directly at A with a speech bubble この土地は私のものです, and a green
+checkmark appears on the line between C and A, next to a label 登記なし
+でOK.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Aが177条にいう「第三者」に当たるかどうかを確認します。Aは最初の
+譲渡人であり譲渡の当事者そのものなので第三者には当たらず、次に、Cは登
+記がなくてもAに所有権を主張できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+元の譲渡人には対抗可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+相続人も「第三者」に当たらない
+Diagram: An isometric family-tree icon showing person icon B connected by
+a downward line labeled 相続 to person icon D (drawn slightly smaller, as
+the next generation), a faded ghost-outline of B fading into D to show
+the handover of position. C points at D with a speech bubble この土地は
+私のものです, and a green checkmark appears between C and D, next to a
+label 登記なしでOK.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Dが独立した第三者なのか、それともBの地位をそのまま引き継いだ承継
+人なのかを確認します。相続人として地位を承継しているため第三者には当た
+らず、次に、Cは登記がなくてもDに主張できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+相続人にも対抗可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+合意は登記請求権を消さない
+Diagram: Three isometric person icons A・B・C standing around a shared
+paper document labeled 中間省略登記の合意, all three with a hand resting
+on it. To the side, a fourth person icon E (Bの債権者) holds a coin-stack
+icon labeled Bへの貸金債権 and submits a separate request document toward
+A labeled Bへの移転登記を請求（Bに代位）, with a green checkmark next to
+E's document.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、中間省略登記の合意が、BのAに対する登記請求権そのものを消滅させる
+ものかどうかを確認します。単なる登記の経由方法の合意にすぎず消滅させな
+いため、次に、債権者Eは自分の債権を守るためBに代位して請求できると判断
+します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代位行使は妨げられない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+特定の権利を守るための代位も可能
+Diagram: Isometric person icon C holds up a small shield icon labeled 登
+記請求権 in one hand, and with the other hand submits a request document
+toward person icon A labeled Bへの移転登記手続を請求. Person icon B
+stands slightly behind and to the side with a small label Bに代わって
+pointing from B toward C. A green checkmark appears next to the document
+handed to A.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Cが保全しようとしているのが金銭債権ではなく「Bへの登記請求権」と
+いう特定の権利であることを確認します。次に、このような登記請求権を保全
+するための債権者代位（代位権の転用）は認められると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代位は認められる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+取消し後の第三者には登記が必要
+Diagram: A decision-tree flowchart. Start node: AB間の売買契約を、Aが詐
+欺を理由に取消し, with a curved arrow labeled 復帰 pointing back to A.
+First diamond node: Bへの登記を抹消する前に、BからCへの譲渡が行われた
+か（取消し後に第三者Cが登場したか）？with a はい arrow proceeding
+downward. Second diamond node (drawn with a thicker highlighted border):
+Cは自己への所有権移転登記を備えているか？with the いいえ branch leading
+to a red cross mark and a conclusion node reading Aに対し所有権を主張で
+きない; the はい branch leading to a green checkmark and a conclusion
+node reading Aに対し所有権を主張できる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、第三者Cが登場したのが契約取消しの前か後かを確認します。取消し後
+に登場した第三者は177条の対抗問題として扱われるため、次に、Cが自己への
+所有権移転登記を備えているかどうかを確認し、備えていなければAに対抗で
+きないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記なければ対抗不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法177条（対抗要件）・423条の7（登記請求権保全のための債権者代位権の転
+用）・96条3項（詐欺による取消しと第三者保護）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 譲, 渡, 登, 記, 詐, 欺, 抹 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that 肢オ is drawn as an actual
+flowchart with two branch nodes (not a bare illustration with no visible
+decision structure) while the other four panels use a single labeled
+illustrative diagram, that each 着眼点 callout states a checking order
+rather than only a conclusion, confirm nothing is rendered below the
+last panel's footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

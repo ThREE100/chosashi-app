@@ -214,3 +214,193 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric land-plot scene with the relevant
+figures (owner, occupier, creditor, buyer) placed on or beside it, a
+registry-stamp icon to mark 登記済み／未登記, and a small diamond-shaped
+decision node placed directly on the scene at the point where the reader
+must judge whether the other party counts as a 177条の「第三者」. Panels 1
+（肢ア）・2（肢イ）・4（肢エ）share the same underlying decision tree, rooted
+in a single starting diamond ("相手は登記の欠缺を主張する正当な利益を持つ
+第三者か"), with the branch relevant to that panel's 肢 highlighted
+(thicker border, distinct color) and the other branch drawn smaller/greyed
+out; Panel 3（肢ウ）uses the same root diamond but takes the opposite
+branch (前主は第三者に当たらない), so draw it as a mirror image of Panels
+1/2/4 with the いいえ side highlighted instead. Panel 5（肢オ）uses a
+different framework entirely (the 178条の物権変動の対抗要件ではなく、制限
+行為能力の取消しに関する善意の第三者保護規定の有無), so its diagram should
+NOT reuse the 177条の第三者 diamond — draw it as its own two-step
+flowchart instead. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No（はい／いいえ）branch arrows, and a final
+conclusion node. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成22年度午後第2問 ア〜オ
+作図ガイド（対抗要件・第三者の意義）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+相手が不法占拠者かをまず確認する
+Diagram: A root diamond node labeled 相手は登記の欠缺を主張する正当な利益
+を持つ第三者か, with the いいえ branch highlighted (thicker border) leading
+to a box labeled 第三者に当たらない, which leads to the final conclusion
+node. Illustration: an isometric land plot with a small tent icon
+labeled 不法占拠者 sitting on it without permission, and beside it owner
+figure A holding an unstamped document icon labeled 未登記, pointing at
+the squatter with a speech bubble「出ていってください」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相手が土地について正当な権原を持っているかを確認します。何の権原も
+なくただ居座っているだけの不法占拠者は、登記の欠缺を主張する正当な利益を
+持つ「第三者」に当たらないため、登記がなくても所有権を主張できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+不法占拠者には勝てる
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+仮差押えの債権者は第三者に当たる
+Diagram: The same root diamond node as Panel 1 (相手は登記の欠缺を主張する
+正当な利益を持つ第三者か), this time with the はい branch highlighted,
+leading directly to the conclusion node. Illustration: an isometric land
+plot with a red lock/seal stamp icon labeled 仮差押え placed by a creditor
+figure B, while owner figure A stands beside an unstamped document icon
+labeled 未登記 with an empty hand, a red ✕ between A and B.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相手が登記の欠缺を主張する正当な利益を持つ第三者に当たるかを確認し
+ます。仮差押えをした一般債権者はこれに当たるため、登記がなければ所有権を
+主張できません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記なければ負ける
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+前の持ち主(前主)は第三者に当たらない
+Diagram: The same root diamond node as Panels 1-2 (相手は登記の欠缺を主張
+する正当な利益を持つ第三者か), drawn as a mirror image with the いいえ
+branch highlighted this time for a different reason (前主だから), leading
+to a box labeled 承継関係にすぎず対抗関係に立たない, then to the conclusion
+node. Illustration: a chain of three isometric figures B→C→A connected by
+succession arrows, with A pointing back at B with a green checkmark, no ✕
+mark anywhere on the chain.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相手が自分と同じ土地を取り合う対抗関係にある人なのか、それとも自分
+が権利を引き継いだ前の持ち主（前主）にすぎないのかを確認します。前主は第
+三者に当たらないため、登記がなくても主張できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+前主には登記不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+解除後に買った人は登記を急がないと負ける
+Diagram: A decision flowchart distinct in shape from Panels 1-3's single
+diamond: first diamond node 契約は解除されたか、with a はい arrow leading
+to a second diamond node (highlighted) 第三者が現れたのは解除の前か後か、
+with the 後 branch highlighted leading to a conclusion node 登記の先後で
+決まる対抗関係、未登記なら負ける. Illustration: an isometric scene where B
+sells land to C with a registry stamp（登記済み）, then B tears the
+contract labeled 解除（代金未払）, while a new buyer A stands beside an
+unstamped document icon labeled 未登記.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、契約が解除されたかどうかを確認し、次に、第三者が現れたのが解除の前
+か後かを確認します。解除後に現れた第三者とは登記の先後で決まる対抗関係に
+立つため、登記がなければ主張できません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+解除後は登記が先
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+未成年者の取消しは、善意の相手にも通る
+Diagram: A separate two-step flowchart that does NOT reuse the 177条の
+第三者 diamond from Panels 1-4. First diamond node: 取消しの原因は制限行為
+能力か、それとも詐欺か、with 制限行為能力 highlighted. Second diamond node:
+善意の第三者を保護する規定はあるか（詐欺取消しの96条3項のような規定）、
+with なし highlighted, leading to a conclusion node 善意の買主にも取消しの
+効果を対抗できる. Illustration: a student-uniform figure labeled 未成年者A
+tearing a contract in half, with a chain of transfer arrows leading to a
+buyer figure D and then to buyer B, who has a speech bubble「知らなかっ
+た」but still receives the effect of A's取消し (a green checkmark on the
+arrow from A to B).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、取消しの原因が制限行為能力によるものか詐欺によるものかを確認しま
+す。制限行為能力を理由とする取消しには、詐欺取消しと異なり善意の第三者を
+保護する規定がないため、善意の買主にも取消しの効果を対抗できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+善意でも取消し勝つ
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法177条（対抗要件の第三者の意義）・545条1項ただし書（解除と第三者）との
+対比、制限行為能力の取消しに関する規律に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 抗・拠・占・譲・渡・継 and any character that has a visually
+similar Simplified Chinese variant. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢（肢エ・肢オ）is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that Panels 1・2・4 visibly share the
+same root diamond shape while Panel 3 mirrors it and Panel 5 uses its own
+distinct diamond shape, that each 着眼点 callout states a checking order
+rather than only a conclusion, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

@@ -199,3 +199,180 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an office building split into 機関 and 個人
+roles, a courthouse/gavel icon for 占有の訴え, a timeline with two
+candidate starting points for the 悪意とみなす起算点, a principal-and-
+agent pair for 代理占有の判断基準, and a three-figure chain (本人→代理人
+→第三者) for 指図による占有移転. This problem is not about multi-step
+conditions but about correctly identifying WHO or WHEN the rule refers to,
+so each panel's checking order is: first identify what the correct rule
+actually says the subject/starting point is, then compare that against
+the wording of the 肢 itself. Where a 肢 genuinely requires checking
+multiple conditions in sequence, draw the panel's diagram as an actual
+decision flowchart with diamond-shaped branch nodes; where, as in every
+肢 of this problem, a single point of confusion (a misattributed subject
+or starting point) resolves the 肢, a labeled comparison diagram showing
+the correct answer beside the crossed-out incorrect one is sufficient —
+do not force a flowchart. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state
+the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"),
+not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成25年度午後第3問 ア〜オ
+作図ガイド（占有権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+機関占有と個人占有は別腹で数える
+Diagram: An isometric office building icon with a representative
+character standing both behind a company desk (labeled 法人の機関) and,
+overlapping in a dashed outline, as an individual figure at the same
+building (labeled 個人としての占有). Two separate speech bubbles each
+read 占有回収の訴え可能, one attached to each role, showing the two
+occupations are counted separately rather than merged into one.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代表者が法人の機関として占有しているだけなのか、それとは別に個人
+としても占有していると認められる事情があるかを確認します。個人としての
+占有が別途認められる場合は、個人としての占有回収の訴えも提起できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+個人としても訴え可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+善意・悪意は提訴の条件ではない
+Diagram: An isometric figure with a small dark-cloud icon overhead
+(labeled 悪意の占有者) still successfully filing a document labeled
+占有回収の訴え into a courthouse icon. Beside the courthouse, a signboard
+lists the requirements for the訴え with 善意・悪意という項目自体が無い
+ことを示す（該当欄が空白のまま）, and a green checkmark confirms the
+訴えが受理される.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有回収の訴えの要件に善意・悪意という条件が含まれているかを確認
+します。含まれていないため、次に、占有者が悪意であっても、占有を奪われ
+たという事実さえあれば訴えを提起できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+悪意でも提訴可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+起算点は「占有開始」ではなく「提訴時」
+Diagram: An isometric timeline of a courtroom scene with two candidate
+starting points marked on it: an early point labeled 占有開始の時 (drawn
+crossed out with a red ✕, since this is the WRONG starting point), and a
+later point labeled 本権の訴えの提起の時 (drawn with a green checkmark,
+since this is the CORRECT starting point), where a courthouse gavel icon
+strikes and the figure's status tag flips from 善意 to 悪意 exactly at
+that later point, not at the earlier one.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、条文が悪意とみなす起算点として「占有開始の時」と「訴えの提起の
+時」のどちらを定めているかを確認します。正しいのは訴えの提起の時なの
+で、次に、本肢が「占有の開始の時」としている点が誤りだと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+起算点は提訴時
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+判断基準は本人ではなく占有代理人
+Diagram: An isometric scene with a principal character (本人) thinking a
+green checkmark thought bubble (善意), while the occupying agent
+character (占有代理人) standing on the land plot has a dark thought
+bubble (悪意). A large arrow labeled 判断基準はこちら points from a
+magnifying-glass icon toward the agent, not toward the principal, making
+clear which figure's mental state controls the outcome.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有の善意・悪意を判断する基準が「本人」なのか「占有代理人」なの
+かを確認します。正しいのは占有代理人なので、次に、本人がどう思っていた
+かにかかわらず、占有代理人の認識だけで善意・悪意が決まると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+判断基準は代理人
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+承諾するのは代理人ではなく第三者
+Diagram: An isometric three-figure chain: 本人 pointing an instruction
+arrow labeled 命じる toward 代理人, and a second arrow from 代理人
+toward 第三者. Only 第三者 stamps a document with 承諾 (green
+checkmark), while a separate, crossed-out (red ✕) illustration beside it
+shows the mistaken version where 代理人 stamps 承諾 instead, labeled
+本肢の誤り.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、条文上「承諾する」のは代理人と第三者のどちらかを確認します。正し
+いのは第三者なので、次に、本肢が承諾の主体を「代理人」としている点が
+条文の要件とずれていると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾するのは第三者
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法197条・200条（占有の訴え）・189条2項（本権の訴えにおける敗訴と悪意
+の擬制）・184条（指図による占有移転）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 悪, 諾, 併, 存, 図 and any character that has a visually
+similar Simplified Chinese variant. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that each panel's diagram clearly contrasts
+the correct rule against the crossed-out incorrect version rather than
+leaving the comparison implicit, that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

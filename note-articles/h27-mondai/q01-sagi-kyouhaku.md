@@ -211,3 +211,178 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a disguised figure whispering into an ear for
+だました側 icons, a signpost with two paths for the 詐欺/錯誤 choice, and a
+land plot with a registry board for the 取消しの対抗力 panels. Panels 4 and
+5 (肢エ・肢オ) share the same underlying decision-tree shape (取消しの理由
+が詐欺か強迫かを見分け、詐欺の場合はさらに第三者の善意・悪意を確認する
+判定); draw both with the same two-diamond tree layout, but highlight
+（太い縁取り・色を変える等で強調）the branch relevant to that panel's 肢.
+Where a 肢 requires checking multiple conditions in sequence (肢エ・肢オ),
+draw the panel's diagram as an actual decision flowchart with
+diamond-shaped branch nodes, Yes/No（はい／いいえ）branch arrows, and a
+final conclusion node. Where a 肢 is resolved by a single check (肢ア・肢
+イ・肢ウ), a labeled illustrative diagram is sufficient — do not force a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成27年度午後第1問 ア〜オ
+作図ガイド（詐欺・強迫）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+だましたのが代理人なら本人基準にしない
+Diagram: An isometric land-sale scene. A disguised figure labeled 代理人B
+whispers a lie into the ear of seller C, who holds a sales contract.
+Behind them, a separate figure labeled 本人A stands with a large question
+mark over his head, unaware. A torn-paper label reads 本人の善意 不問 next
+to C tearing up the contract with a checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、実際に相手方をだましたのは誰かを確認します。本人ではなく代理人が
+だました場合は、代理人自身を基準に判断するため、本人がその事実を知らな
+くても相手方は取消しができると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代理人基準で判断
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+詐欺と錯誤はどちらも選べる
+Diagram: A person stands at a fork holding two signposts, one labeled
+詐欺取消し and the other labeled 錯誤の主張, both marked with green
+checkmarks. An arrow shows the person freely choosing either path.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、だまされた結果、詐欺の要件と錯誤の要件のどちらも満たしているかを
+確認します。どちらも満たしている場合には、表意者はそのどちらを主張するか
+を自由に選べると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+選択的に主張可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+第三者の強迫は相手が善意でも取消し可
+Diagram: A masked figure labeled 第三者 threatens person A with a raised
+fist icon. A separate figure B receives a contract from A with a question
+mark over B's head (B is unaware of the threat). A tears the contract in
+half with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、意思表示をさせたのが相手方本人ではなく第三者であることを確認しま
+す。次に、それが詐欺ではなく強迫である場合には、相手方が善意であっても
+取消しができると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+相手方の善意 不問
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+強迫の取消しは登記抹消なしで対抗可
+Diagram: A decision-tree flowchart. Start node: Ａが意思表示を取り消し、
+第三者Ｃが登場した場面。Diamond node: その取消しの理由は詐欺か強迫か？
+with the 強迫 branch highlighted（太い縁取り）for this panel, leading
+directly to a conclusion node (skipping the 善意・悪意 diamond, since
+強迫には第三者保護規定がない) showing an isometric land plot with a
+registry board still showing 所有者：Ｂ、and Ａ pointing at buyer Ｃ with a
+green checkmark and a speech bubble 私のものだ、with a crossed-out eraser
+icon over a label Ｂ名義の抹消 to show erasing Ｂの登記 first is not
+required. The 詐欺 branch is drawn smaller and grayed out with a note
+次のパネルへ.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、取消しの理由が詐欺ではなく強迫であることを確認します。強迫には
+善意の第三者を保護する規定がないため、登記を戻す手続を経なくても第三者
+に所有権を主張できると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+抹消なしで対抗可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+詐欺取消しは可、善意の第三者に対抗不可なだけ
+Diagram: The same decision-tree flowchart shape as Panel 4. Start node:
+Ａが意思表示を取り消し、第三者Ｃが登場した場面。Diamond node: その取消し
+の理由は詐欺か強迫か？with the 詐欺 branch highlighted this time, leading
+to a second diamond node (also highlighted): 第三者Ｃはその抵当権の設定
+時に詐欺の事実について善意だったか？with a はい arrow leading to a
+conclusion node showing Ａが取消しの意思表示を stamp する（green
+checkmark, 取消し自体は有効）が、その効力を示す矢印がＣの抵当権を守る盾
+（labeled 善意）に阻まれ「対抗不可」と赤字で記されている。The 強迫 branch
+is drawn smaller and grayed out.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、取消しの理由が強迫ではなく詐欺であることを確認します。次に、その後
+に現れた第三者が善意であるかを確認し、善意であれば取消し自体はできても
+その第三者には対抗できないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+善意の第三者に対抗不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法96条2項（第三者詐欺の制限）・96条3項（詐欺取消しと善意の第三者）・
+101条（代理行為の瑕疵）に基づく整理です。強迫に第三者保護規定がないこと、
+詐欺取消しと錯誤の選択的主張が可能であることは、判例の趣旨によるもの
+です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 詐, 欺, 強, 迫, 取, 消, 代, 理, 善, 意, 抗, 抹, 錯, 誤. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢 (肢エ・肢オ) is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+each 着眼点 callout states a checking order rather than only a conclusion,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

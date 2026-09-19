@@ -186,3 +186,175 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric 袋地 surrounded by other land
+plots, blue wavy-line water channels, a car icon for 自動車通行, a shovel
+icon for 通路の開設, and a land-division diagram with an ownership-transfer
+arrow for 特定承継. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No（はい／いいえ）branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. This
+article's five 肢 do not share a single common decision-tree shape, so
+design each panel's diagram independently around its own fact pattern;
+only Panel 3（肢ウ）needs an actual multi-step flowchart, since it is the
+only 肢 whose conclusion rests on weighing more than one factor in
+sequence (総合考慮). Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第3問 ア〜オ
+作図ガイド（相隣関係・囲繞地通行権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+登記なくても通行権を主張できる
+Diagram: An isometric bird's-eye scene of a 袋地 surrounded by other land
+and buildings. A figure stands on the 袋地 next to a document icon
+labeled「所有権移転の登記」that is crossed out with a red「✕」(まだ登記
+していない). From the figure, a speech bubble reads「公道に出るため通らせ
+てください」, with an arrow of通行 extending toward the 囲繞地 owner and on
+to the public road.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、通行権を主張しているのが袋地の所有権を取得した人であることを確認
+します。囲繞地通行権は法律が当然に認める権利なので、袋地について所有権
+移転の登記を備えていなくても、囲繞地の所有者に通行権を主張できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+登記なしでも主張可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+水路に囲まれても通行できることがある
+Diagram: An isometric bird's-eye scene of a land plot surrounded by blue
+wavy-line water channels on one side and other land on another side. A
+broken-bridge icon is placed over the water channel to show the water is
+difficult to cross. An arrow of通行 extends from the land plot toward the
+adjacent land instead.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地が水路によって公道から隔てられているかどうかを確認します。
+水路を通れば理論上は公道に至れる場合でも、現実にその通行が困難であれば、
+隣の土地について囲繞地通行権が認められることがあります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+水路でも通行権あり
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+自動車通行は3要素の総合考慮で判断
+Diagram: A decision-tree-style checklist flowchart centered on an
+isometric car icon driving from a 袋地 toward the public road. Three
+sequential check nodes lead into the car icon: check 1（rounded box）
+「自動車で通行する必要性は高いか？」, check 2「周辺の土地の状況は自動車
+通行に適しているか？」, check 3「囲繞地所有者が被る不利益はどの程度か？」.
+All three arrows converge on a final conclusion node with a green
+checkmark reading「総合考慮の上、承諾がなくても成立し得る」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、自動車による通行の必要性がどの程度高いかを確認します。次に、周辺の
+土地の状況が自動車通行に適しているかを確認し、最後に、囲繞地所有者が
+被る不利益の程度を確認します。これらを総合考慮すれば、囲繞地所有者の
+承諾がなくても自動車通行を前提とする通行権が成立することがあります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾なしで成立し得る
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+通路開設に承諾は不要
+Diagram: An isometric scene showing a paved road running from a 袋地
+through 囲繞地 to the public road, with a shovel icon beside the road
+(開設工事). A speech bubble reading「承諾」floats nearby, crossed out with
+a red「✕」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、通行権者が実際に通行するために通路を開設する必要があるかどうかを
+確認します。必要があれば、囲繞地所有者の承諾を得ることなく、囲繞地に
+通路を開設することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾なしで開設可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+分割後の通行権は譲渡後も消えない
+Diagram: An isometric bird's-eye scene of a single land plot split by a
+dividing line into two: one side becomes a 袋地, the other side provides
+the 通行路. On the 通行路 side, an arrow shows an ownership-transfer from
+an old owner figure to a new owner figure (特定承継), but the通行の矢印
+from the 袋地 to the public road remains drawn unchanged and unbroken.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その通行権が、共有物の分割（または一部譲渡）によって袋地が生じた
+ことに伴う通行権であることを確認します。この通行権は、通行を提供する側
+の土地が第三者に譲渡される（特定承継が生じる）などしても消滅せず、その
+まま存続します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+譲渡後も消滅せず
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法210条2項（準袋地の通行権）・211条2項（通路の開設）・213条（分割に
+よる袋地の通行権）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・地・登・記・所・繞・囲. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that the multi-condition 肢（肢ウ）is drawn as
+an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that each 着眼点 callout states a checking
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with
+a fully opaque background with no transparency or alpha channel anywhere.
+```

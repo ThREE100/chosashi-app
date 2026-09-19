@@ -213,3 +213,186 @@ the last card), and confirm the entire canvas, edge to edge, is filled
 with a fully opaque background with no transparency or alpha channel
 anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — two isometric adjacent land plots with a
+boundary line running down the middle, a boundary-marker post, a small
+house under construction, a tree with a branch crossing the boundary, and
+a footpath arrow for the 袋地 panel. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion (肢ウ・肢オ), draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check (肢ア・肢イ・肢エ), a labeled illustrative diagram is sufficient — do
+not force a flowchart. There is no shared tree shape across panels in
+this article, since each 肢 concerns a different rule of 相隣関係; design
+each panel independently. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成28年度午後第2問 ア〜オ
+作図ガイド（相隣関係）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+設置費用は折半、測量費用だけ広狭に応じる
+Diagram: Two isometric neighbor figures standing on either side of a
+boundary marker post, each holding an identical small stack of coins
+labeled 設置費用（等しい割合）。Beside them, a separate smaller icon shows
+a 測量費用 stack split unevenly according to the size of each land plot,
+with a small label 広狭に応じて分担 attached only to that second stack.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっている費用が境界標そのものの「設置費用」なのか、境界を
+確定するための「測量費用」なのかを確認します。設置費用は原則として等しい
+割合で負担しますが、測量費用だけは広狭に応じて分担します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+設置費用は折半
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+着手から1年で中止請求は不可
+Diagram: An isometric building under construction close to a boundary
+line (50センチメートル未満), with a calendar counting up toward 1年
+labeled 建築に着手した時から. Once the mark is passed, a prohibition icon
+covers a 中止請求 stamp, while a small coin icon labeled 損害賠償のみ
+remains available beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の建築が境界線から50センチメートル未満の距離で行われていることを
+確認します。次に、建築に着手した時から1年が経過したか（または建物が完成
+したか）を確認し、経過後は中止請求ができず損害賠償請求のみになると判断
+します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+1年経過で中止不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+越境した枝は原則、持ち主に切らせる
+Diagram: A decision-tree flowchart on an isometric scene of a tree on one
+land plot with a branch crossing the boundary into the neighboring plot.
+Start node: 隣地の竹木の枝が境界線を越えている。Diamond node (highlighted):
+竹木の所有者に切除を催告して相当期間内に切除されない、所有者が不明・
+所在不明である、または急迫の事情がある、という3つの例外のいずれかに
+当てはまるか？with a いいえ arrow (drawn large and central, since the 肢
+itself asks about the unconditional case) leading to a conclusion node
+showing the neighboring landowner's hand blocked by a prohibition mark
+while the tree's own owner, holding scissors, is the one who cuts it,
+labeled 竹木の所有者に切除させる（自分では切れない）。A smaller はい arrow
+leads to a secondary, visually de-emphasized note labeled 例外的に自ら
+切除できる場合もある（現行法）。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、越境してきた枝を自分で勝手に切ってよいのは例外的な場合に限られる
+ことを確認します。次に、その例外（催告後の不履行・所在不明・急迫の事情）
+に当てはまらない限り、竹木の所有者に切除させるのが原則であることを確認
+します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+自分では切れない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+修繕でも住家には無断で入れない
+Diagram: An isometric figure holding repair tools standing just outside
+the door of a neighboring house, blocked by a small shield/lock icon
+labeled 承諾が必要。Near the boundary line, wall repair work（境界付近の
+修繕）is happening on the outside of the house only.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、境界付近の修繕のために隣地の使用が認められる場面であることを確認
+します。次に、そこからさらに隣人の「住家」の内部にまで立ち入るには、
+隣人本人の承諾が別途必要であることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾がなければ不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+袋地通行権は分割・譲渡の当事者限定
+Diagram: A decision-tree flowchart on an isometric plot split into 甲
+(landlocked 袋地, owned by B), 乙 (owned by A, later transferred to D), and
+a separate third-party 丙 plot (owned by C). Start node: Aが自分の土地を
+甲・乙に分筆し、甲をBに譲渡した結果、甲が袋地になった。Diamond node:
+Bが公道に出るために通行できるのは、分筆・譲渡の当事者関係にある乙か、
+それとも無関係の第三者Cの丙か？with a footpath arrow drawn only from 甲
+through 乙, and a red prohibition cross over any path toward 丙。Second
+diamond node (highlighted): その後Aが乙をDに譲渡した場合、Bの通行権は消える
+か？with a いいえ arrow leading to a conclusion node reading 通行権は消滅
+せず、Bは新所有者Dに対しても主張できる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、袋地の通行権が及ぶのは分割・譲渡の当事者関係にある土地（乙）だけで
+あり、無関係の第三者の土地（丙）には及ばないことを確認します。次に、その
+当事者の土地がさらに別の人（D）に譲渡されても、通行権は消滅しないことを
+確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+第三者地は対象外
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法224条（境界標の設置及び保存の費用）・234条2項（建築に着手した時から
+1年経過後は損害賠償のみ）・233条1項および現行233条2項3項（竹木の枝の
+切除）・209条1項（隣地使用と住家への立入り）・213条1項2項（袋地の通行権）
+に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 境, 界, 標, 越, 竹, 承, 諾, 袋, 譲, 渡. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢
+(肢ウ・肢オ) is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
