@@ -192,3 +192,218 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric co-owner figures A, B and C standing
+around a shared building, an unauthorized-occupant figure D outside the
+door, hanko stamps, torn-paper labels, a lease-contract document icon, a
+padlock icon for a mortgage on a co-owner's share, a balance-scale icon
+for classifying an act, and speech-bubble callouts for asserting a
+justification. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. Panels 1（肢ア）, 3（肢
+ウ）and 4（肢エ）share the same underlying decision tree (root diamond:
+共有物全体に対する行為か、自己の持分だけに対する行為か → 共有物全体に対
+する行為であれば、さらに保存行為か管理行為かを確認する); draw all three
+panels with the same tree shape, but render the branch and leaf relevant
+to THIS panel with a thick highlighted border and full color, and render
+the other, unrelated branches and leaves in a faded, greyed-out, or
+dotted-outline style rather than omitting them, so the reader can see at
+a glance which part of the shared tree each panel is about. Panel 2（肢
+イ）looks at first glance like a single check ("Aに占有権原があるか") but
+must be drawn as a genuine two-step flowchart, since having a right to
+occupy is not by itself enough — draw a second diamond node asking
+whether the other co-owners have actually asserted and shown a concrete
+reason for demanding removal, with the "no reason shown" branch
+highlighted (matching this 肢's "直ちに") and the "reason shown" branch
+rendered faded as an untested alternative. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成17年度午後第1問 ア〜オ
+作図ガイド（共有）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+保存行為は各共有者が単独でできる
+Diagram: A decision-tree flowchart. Root diamond node (drawn with a
+thicker highlighted border since this panel is about the root question
+itself): この行為は、共有物全体に対する行為か、自己の持分だけに対する
+行為か？The「共有物全体に対する行為」branch is highlighted in full color
+and leads down to a second diamond node, also highlighted: 現状を維持す
+る行為（保存行為）か、利用方法を決める行為（管理行為）か？The「保存行為」
+branch is highlighted and leads to a green conclusion node reading 各共
+有者が単独でできる, illustrated with 人物Aが無権原の侵入者Dを指さして玄
+関の外へ促すisometric scene. The「自己の持分だけ」branch (used by Panel
+4) and the「管理行為」branch (used by Panel 3) are rendered in a faded,
+greyed-out, dotted-outline style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この行為が共有物全体に対する行為なのか、Aさん自身の持分だけに対す
+る行為なのかを確認します。次に、共有物全体に対する行為であれば、現状を
+維持するだけの保存行為なのか、利用方法を決める管理行為なのかを確認しま
+す。無権原のDへの明渡し請求は保存行為にあたるため、Aは単独で行えます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保存行為は単独可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+権原があっても理由なしの請求は不可
+Diagram: A two-step decision-tree flowchart on an isometric scene of Aが
+建物に単独で住んでいる。First diamond node: 占有しているAは、共有者とし
+ての持分に基づく使用収益権原を持っているか？with a はい arrow proceeding
+downward. Second diamond node (drawn with a thicker highlighted border
+since this is the branch this panel is about): 他の共有者B・Cは、明渡し
+を求める具体的な理由を主張・立証しているか？with the いいえ（この肢のよ
+うに「直ちに」求めているだけ）branch highlighted, leading to a red-cross
+conclusion node reading 明渡し請求は認められない; the はい（理由を示した
+場合）branch is rendered faded and dotted, leading to a faded conclusion
+box reading 認められる余地がある, since this alternative is not what the
+肢 describes.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有しているAに共有者としての使用権原があるかを確認します。次に、
+他の共有者が「直ちに」ではなく明渡しを求める具体的な理由を主張・立証し
+ているかを確認します。理由を示さない請求は認められません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+理由なき請求は不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+独立性のない付属物は同意があってもB
+Diagram: The same decision-tree shape as Panel 1, on the same isometric
+scene. Root diamond: この行為は、共有物全体に対する行為か、自己の持分だ
+けに対する行為か？with the「共有物全体に対する行為」branch proceeding
+downward to a second diamond node (drawn with a thicker highlighted
+border, distinct from Panel 1's highlighted diamond): 現状を維持する行
+為（保存行為）か、利用方法を決める行為（管理行為）か？with the「管理行
+為」branch highlighted in full color, leading to a conclusion node
+reading 持分の過半数の同意が必要, illustrated with 破れた賃貸借契約書に
+大きな×印、Aが一人では引き裂けず、B・Cがそれぞれチェックマークを掲げる
+isometric scene。The「保存行為」branch (used by Panel 1) and the「自己
+の持分だけ」branch (used by Panel 4) are rendered faded and greyed-out.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、賃貸借契約の解除が共有物全体に対する行為であることを確認します。
+次に、それが保存行為ではなく管理行為にあたることを確認します。管理行為
+である以上、Aは単独で解除できず、持分の過半数の同意が必要です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+過半数の同意が必要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+自己の持分は同意なしで処分できる
+Diagram: The same decision-tree shape as Panels 1 and 3. Root diamond
+(drawn with a thicker highlighted border since this panel is about this
+branch): この行為は、共有物全体に対する行為か、自己の持分だけに対する
+行為か？with the「自己の持分だけに対する行為」branch highlighted in full
+color, leading directly to a conclusion node reading 自由に処分できる
+（同意不要）, illustrated with 人物Aが「持分3分の1」と書かれた書類に判子
+を押し、Aの区画だけに抵当権を示す錠前アイコンがつながるisometric scene。
+The「共有物全体に対する行為」branch and its 保存行為／管理行為 sub-
+branches (used by Panels 1 and 3) are rendered faded and greyed-out.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、抵当権の設定が共有物全体に対する行為なのか、A自身の持分だけに対す
+る行為なのかを確認します。自己の持分だけに対する処分行為であれば、保存
+・管理の区分とは関係なく、Aは単独で自由に設定できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+持分の処分は自由
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+賃借人の権原は無権原者と別扱い
+Diagram: An isometric scene showing 賃借人Gが賃貸借契約に基づいて建物を
+使用しており、傍らに契約書のアイコンと「占有権原あり」というラベル。A
+がB・Cに無断でFに貸し、FがさらにGに使わせている経緯を示す小さな矢印の
+図。画面の隅に、Panel 1の無権原の侵入者Dの小さく色あせたアイコンを配置
+し、「無権原者Dとは異なる」というラベルで対比させる。A自身の賃貸の適否
+自体は問わないことを示す小さな注記「賃貸の有効性はここでは問わない」を
+添える。結論の矢印は「直ちに明渡し請求はできない」という結論ノードにつ
+ながる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有している賃借人Gが、賃貸借契約に基づく正当な占有権原を持って
+いるかを確認します。契約上の権原がある以上、無権原の不法占有者と同じよ
+うには扱えないため、他の共有者は直ちに明渡しを請求できません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+賃借人には対抗不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法252条5項（保存行為）・252条1項（管理行為）・206条（持分の自由な処
+分）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 建, 物, 持, 占, 渡, 抵, 当, 契, 約, 解, 除. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every multi-
+condition 肢（肢イ）is drawn as an actual flowchart with branch nodes (not
+a bare illustration with no visible decision structure), that 肢イ's
+hidden second condition (whether a reason for removal has actually been
+asserted) has not been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion, that
+Panels 1, 3 and 4, which share one decision tree, each clearly
+distinguish their own highlighted branch from the other, faded branches,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

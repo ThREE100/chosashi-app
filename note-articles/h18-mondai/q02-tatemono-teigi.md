@@ -217,3 +217,222 @@ no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - an isometric house under construction, a
+horizontal life-cycle timeline of a building, a cutaway building showing
+two rooms of different independence, an apartment building with coin
+icons for rent, and a land plot connected to a house by a dashed line for
+a borrowed-land right. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram or a correct-rule-versus-common-mistake contrast panel is
+sufficient - do not force a flowchart. Panels 1 and 5 (肢ア・肢オ) share
+one horizontal life-cycle timeline of a building, marked with two
+threshold points - marker① labeled 屋根・周壁の完成 (the start of its life
+as an independent immovable) and marker② labeled 解体 (the end of its life
+as an immovable); each panel highlights (thick border, full color) only
+the marker relevant to that panel and renders the other marker in a
+faded, greyed-out, dotted-outline style rather than omitting it. In Panel
+2 (肢イ), because the "ownership" of a building part lacking structural
+and functional independence never really exists as a separate object,
+render that would-be ownership as a faded, dotted-outline ghost icon
+rather than a plain ✕ mark, so the visual communicates "this was never
+really there," not just "this is wrong." Panel 3 (肢ウ) must be drawn as a
+two-diamond flowchart, keeping "賃料債権も物上代位の対象になるか" and "被
+担保債権について債務不履行が生じた後か" as two separate diamond nodes,
+since the second condition is easy to overlook. Panel 4 (肢エ) uses a
+correct-rule-versus-common-mistake contrast layout instead of a
+flowchart, since this 肢 tests precise reading of the relationship between
+a building and its borrowed-land right rather than a multi-step
+condition. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成18年度午後第2問 ア〜オ
+作図ガイド（建物の意義・抵当権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+屋根・周壁の完成が独立不動産の始期
+Diagram: A shared horizontal isometric timeline of a house's life cycle,
+spanning from foundation to demolition, with two threshold markers placed
+on it. Marker① labeled「屋根・周壁の完成」is drawn with a thick highlighted
+border and full color: on its left, a foundation-only structure connected
+to the ground by a dashed line labeled「土地の一部」; on its right, the same
+structure now with a completed roof and surrounding walls, glowing
+softly, with a green checkmark stamp labeled「独立の不動産」. Marker②
+labeled「解体」(used in Panel 5) sits further along the same timeline,
+rendered in a faded, greyed-out, dotted-outline style to show it is not
+this panel's focus.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっている建物がどの完成段階にあるかを確認します。基礎工事
+だけの段階ではまだ土地の一部にすぎませんが、屋根と周壁ができた時点で、
+内装が未完成であっても土地とは別個の不動産になると判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+屋根・周壁で不動産に
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+独立性のない部分の所有権は観念できない
+Diagram: An isometric cutaway of a small building showing two rooms side
+by side. Above the rooms, a diamond decision node reads「構造上・利用上の
+独立性があるか」. The left room has full walls, ceiling, and its own
+door, labeled「区分建物としての独立性あり」, connected to a green はい
+arrow leading to a checkmark stamp labeled「時効取得の対象になりうる」. The
+right room has only a partial wall with no clear boundary, labeled「独立
+性なし」, connected to a いいえ arrow; because this room's would-be
+ownership was never really something that could exist as a separate
+object, render it as a faded, dotted-outline ghost icon of a small
+ownership certificate rather than a plain ✕ mark, captioned「そもそも
+所有権を観念できない部分」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、時効取得の対象とされている部分が、構造上・利用上の独立性を備えた
+区分建物といえるかを確認します。独立性がなければ、その部分だけを切り出
+した所有権自体を観念できないため、時効取得も成立しないと判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+独立性なければ観念不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in beige containing the number 3.
+Heading (bold, ONE line):
+賃料への物上代位は債務不履行後に限る
+Diagram: A two-diamond decision flowchart on an isometric apartment
+building scene. First diamond node:「賃料債権は物上代位の対象になるか」
+with a green はい arrow proceeding down to a second diamond node (drawn
+with a thicker highlighted border, since this is the condition most
+often overlooked):「被担保債権について債務不履行が生じた後か」with a
+green はい arrow leading to a conclusion node showing coin icons labeled
+「賃料」flowing from tenant figures on each floor away from the owner
+figure toward a creditor figure holding a document labeled「抵当権者」,
+stamped「優先弁済を受けられる」. A small faded, dotted-outline note
+captions「不履行前に差押えはできない（本問の事案ではない）」to show the
+unrelated timing without omitting it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、賃料債権が物上代位の対象になることを確認します。次に、抵当権者が
+実際に賃料から優先弁済を受けられるのは、被担保債権について債務不履行が
+生じた後であることを確認し、この2段階を満たして初めて優先弁済を受けら
+れると判定します。
+Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
+characters):
+不履行後に賃料へ代位
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+借地権は「別個の権利」ではなく従たる権利
+Diagram: Split into left and right panels. LEFT panel labeled「誤りやすい
+思い込み」shows an isometric house standing on a land plot, with the
+borrowed-land relationship drawn as a completely separate, disconnected
+dashed line labeled「借地権」floating off to the side, overlaid with a
+red ✕ and a caption「別個の権利だから移転しない」with a strikethrough line.
+RIGHT panel labeled「正しいルール」(drawn with a thick highlighted border
+and full color) shows the same house connected to the land plot by a
+dashed line labeled「借地権（建物の従たる権利）」, with an auction gavel
+icon striking the house, and an arrow showing both the house AND the
+dashed borrowed-land line moving together to a new owner figure, stamped
+「借地権も買受人に移転」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、借地権を建物の所有権とはまったく別個の権利だと考えていないかを
+確認します。借地権は建物の従たる権利として扱われるため、建物の抵当権が
+実行されれば、借地権も建物と一緒に買受人へ移転すると判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+従たる権利として移転
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+解体が独立不動産の終期
+Diagram: The same shared horizontal isometric timeline as Panel 1,
+showing the house's life cycle from foundation to demolition. Marker①
+labeled「屋根・周壁の完成」(used in Panel 1) is rendered in a faded,
+greyed-out, dotted-outline style earlier on the timeline. Marker② labeled
+「解体」is drawn with a thick highlighted border and full color: an
+isometric house being taken apart by a small crane/wrecking tool, with a
+red chain icon labeled「抵当権」wrapped around the house fading and
+breaking apart as the walls come down, and a torn-paper stamp labeled
+「消滅」next to the debris pile.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が解体されて土地の定着物としての不動産でなくなったことを確認
+します。抵当権は不動産の存在を前提とする権利であるため、目的物である
+建物が消滅すれば、その建物についていた抵当権も消滅すると判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+解体で抵当権も消滅
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法86条1項（不動産の定義）・372条による304条の準用（賃料債権への物上
+代位）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 登・記・号・権・建・物・地・番・所 and any character that has
+a visually similar Simplified Chinese variant. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panels 1 and 5 (肢ア・肢オ) clearly
+distinguish their own highlighted timeline marker from the other, faded
+marker, that Panel 3 (肢ウ) is drawn as an actual flowchart with two
+distinct diamond nodes rather than collapsing the debt-default timing
+condition into the first check, that Panel 2's faded ownership icon and
+Panel 4's correct-rule-versus-common-mistake contrast are not replaced
+with a bare ✕ mark or forced into a flowchart where they do not belong,
+that each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background with
+no transparency or alpha channel anywhere.
+```

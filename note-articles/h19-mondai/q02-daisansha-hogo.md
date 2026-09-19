@@ -212,3 +212,230 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric land plots, contracts, official
+stamps/seals, hourglasses, small figures, and antique items on a shop
+shelf, adapted per panel. Where a 肢 requires checking multiple conditions
+in sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient - do not force a flowchart. Panels 1 and 2 (肢ア・肢
+イ) are not sequential flowcharts but a shared side-by-side comparison of
+two different legal frameworks that are easy to confuse (詐欺による取消し
+と強迫による取消し); draw both panels with the same two-box layout (left
+box: 詐欺の場合, right box: 強迫の場合), but render the box relevant to
+that panel's 肢 in full color with a thick highlighted border, and render
+the other, unrelated box in a faded, greyed-out, or dotted-outline style
+rather than omitting it. Where a required element has multiple distinct
+parts (e.g. 善意 AND 無過失 in Panel 1, or 不実登記の認識 AND 明示・黙示の
+承認・放置 in Panel 3), draw each part as its own separate check or tag
+rather than merging them into one. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認しま
+す"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text - do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成19年度午前第2問 ア〜オ
+作図ガイド（善意の第三者保護）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in red containing the number 1.
+Heading (bold, ONE line):
+詐欺なら善意無過失の第三者に勝てない
+Diagram: A side-by-side comparison on an isometric background. The left
+box (drawn with a thick highlighted border and full color, since this is
+the framework relevant to this panel) is labeled 詐欺による取消し and
+shows person A handing a land document to person B under a speech bubble
+labeled「だまされて」, B then handing the same document to person C who
+carries two small tags reading 善意 and 無過失, while a「取消し」stamp
+arrives too late (a torn calendar page shows time passing) and bounces off
+C with a red X mark. The right box (drawn faded, greyed-out, and
+dotted-outline, since it is Panel 2's framework, not this panel's) is
+labeled 強迫による取消し and shows a small, muted version of a menacing
+figure and a rewind arrow, without further detail.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この取消しの原因が詐欺なのか強迫なのかを見分けます。詐欺による取消し
+の場合は、取消し前に現れた第三者が善意であり、かつ過失がなかったかを確認
+します。この2つの要素がそろって初めて、96条3項によりその第三者に対抗でき
+なくなります。
+Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
+characters):
+善意無過失なら対抗不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+強迫なら善意の第三者にも勝てる
+Diagram: The same side-by-side comparison layout as Panel 1. The left box
+(drawn faded, greyed-out, and dotted-outline, since it is Panel 1's
+framework, not this panel's) is labeled 詐欺による取消し and shows only a
+small, muted version of the timeline without further detail. The right
+box (drawn with a thick highlighted border and full color, since this is
+the framework relevant to this panel) is labeled 強迫による取消し and shows
+a menacing figure B threatening person A (a speech bubble with an
+exclamation mark and a small fist icon, labeled「強迫」) into handing over
+a land document, B then selling the same document to person C labeled
+善意, and a large rewind arrow labeled 遡及効 sweeping back from A's later
+「取消し」stamp, knocking down C's claim with a red X mark while A receives
+a green checkmark reclaiming the land.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この取消しの原因が詐欺なのか強迫なのかを見分けます。強迫による取消し
+には96条3項の第三者保護規定が適用されないため、第三者の善意・悪意を問わ
+ず、121条の原則どおり契約は最初から無効だったものとして扱われます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+強迫なら善意者にも勝つ
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in red containing the number 3.
+Heading (bold, ONE line):
+知っているだけでなく放置したか
+Diagram: A decision-tree flowchart on an isometric land plot scene with a
+wooden signboard reading「B名義」. First diamond node (drawn with a thick
+highlighted border and full color): 真の権利者Aは、自己名義であるべき登記
+が他人名義になっていることを知っていたか. A はい arrow proceeds downward to
+a second diamond node (also drawn with a thick highlighted border and full
+color, since both checks matter equally): それを明示的・黙示的に承認し、
+長期間放置していたか. The はい branch shows calendar pages flipping through
+several years above A's figure standing at a distance, then B selling the
+plot to C (labeled 善意) using the signboard as proof, leading to a red
+stamp conclusion node reading 94条2項類推適用により対抗できない. A separate
+faded, greyed-out, dotted-outline side branch shows what would happen if A
+merely knew but never acquiesced or left it unaddressed, leading to a
+small faded box reading この場合は類推適用の対象外.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、真の権利者が自己名義とすべき不動産の登記が他人名義になっていることを
+知っていたかを確認します。次に、それを単に知っていただけでなく、明示的・
+黙示的に承認して長期間放置していたかを確認します。この2つがそろって初め
+て、94条2項の類推適用により善意の第三者に対抗できなくなります。
+Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
+characters):
+知って放置なら対抗不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in red containing the number 4.
+Heading (bold, ONE line):
+Cの評価はDにそのまま連鎖しない
+Diagram: A decision-tree flowchart on an isometric scene with three
+figures in a row: A (holding an unregistered land document), C (holding a
+registration stamp), and D (receiving the land plot from C with its own
+registration stamp). First diamond node (drawn in full color with a
+normal, not thickened, border, since it is already established and is not
+this panel's focus): Cは自由競争の範囲を逸脱する背信的悪意者と評価される
+か. A はい arrow proceeds downward to a second diamond node (drawn with a
+thick highlighted border and full color, since this is the branch this
+panel is about): Cからの転得者Dについて、D自身が独自に背信的悪意者と評価
+されるか. The いいえ branch (highlighted) shows a green checkmark placed
+between C and D and leads to a conclusion node reading Dは177条の第三者と
+して保護される. A separate faded, greyed-out, dotted-outline side branch
+labeled はい(Dも独自に背信的悪意者)leads to a small faded box reading こ
+の場合はDも保護されない, to show this branch is not what happened here. A
+red X mark sits between A and C to show C itself is not protected against
+A.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Cが自由競争の範囲を逸脱する背信的悪意者と評価されるかを確認します。
+次に、Cからの転得者Dについて、D自身が独自に背信的悪意者と評価されるかを別
+途確認します。Cが背信的悪意者であっても、その評価はDへそのまま連鎖せず、D
+自身が背信的悪意者でない限りDは177条の第三者として保護されます。
+Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
+characters):
+Dは相対的構成で保護
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+先に占有改定した方が優先する
+Diagram: A decision-tree flowchart on an isometric antique shop scene.
+First diamond node (drawn with a thick highlighted border and full
+color): Aは占有改定によって、Cより先に対抗要件(178条の引渡し)を備えたか.
+A はい arrow shows A buying an antique item from shopkeeper B and
+receiving a small tag reading「Aのために保管(占有改定)」while the item stays
+on B's shelf, leading downward to a second diamond node (also drawn with a
+thick highlighted border and full color): 後から取引したCの占有取得は、即
+時取得(192条)の要件である「占有を始めた」に当たるか. The いいえ branch
+(highlighted) shows B later selling the same item to C (labeled 善意), who
+receives a similar tag reading「占有改定」, with a red X mark and a label
+「即時取得の要件を満たさない」next to C's tag, leading to a green checkmark
+conclusion node reading Aが対抗要件で優先する.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Aが占有改定によってCより先に対抗要件を備えていたかを確認します。次
+に、後から取引したCの占有取得が、即時取得の要件である「占有を始めた」に当
+たるかを確認します。占有改定による占有取得は外観に変化がないため即時取得
+の要件を満たさず、先に対抗要件を備えたAがCに対抗できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+占有改定は即時取得不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法96条3項(詐欺による取消しと第三者保護)・121条(取消しの遡及効)・94条2項
+類推適用(不実登記の放置)・177条(背信的悪意者と相対的構成)・178条・183条
+(占有改定)・192条(即時取得)に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 詐, 欺, 強, 迫, 背, 悪, 占, 改, 抗, 譲 and any character that
+has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢
+(肢ウ・肢エ・肢オ) is drawn as an actual flowchart with branch nodes (not a
+bare illustration with no visible decision structure), that no 肢 with a
+genuinely hidden second condition has been flattened into a single check
+(Panel 1 keeps 善意 and 無過失 distinct, Panel 3 keeps 認識 and 放置
+distinct, Panel 4 keeps Cの評価 and Dの独立評価 distinct), that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that Panels 1 and 2 clearly distinguish their own
+highlighted 詐欺／強迫 box from the other, faded box, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

@@ -212,3 +212,226 @@ between the header and the cards, and confirm that no card contains a full
 sentence of explanatory prose — every card's takeaway must read as a short
 heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（肢1〜5 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric characters for 本人B・代理人A・相手方
+C, signed-contract icons, a torn certificate icon for a lapsed power of
+attorney, a coin-bag icon for embezzlement, and a curtain icon for a
+concealed deception. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram, a left/right comparison panel, or a correct-rule-versus-common-
+mistake contrast panel is sufficient - do not force a flowchart. Panels 3
+and 4 (肢3・肢4) share the same underlying two-diamond decision-tree shape
+(相手方が善意か → 相手方に過失がなかったか); draw both with the same tree
+layout, keeping the two elements 善意 and 無過失 as two separate diamond
+nodes rather than merging them into one, and highlight (thick border, full
+color) the branch and scene relevant to that panel's 肢, while any
+unrelated outcome (e.g. the case where the other party is not protected)
+is drawn in a faded, greyed-out, or dotted-outline style rather than
+omitted. Panel 1 (肢1) uses a correct-rule-versus-common-mistake contrast
+layout instead of a flowchart, since this 肢 tests precise reading of a
+statute rather than a multi-step condition. Panel 5 (肢5) uses a left/right
+comparison layout contrasting two different legal frameworks (third-party
+fraud versus fraud by the principal) rather than a flowchart, since the
+real difficulty is telling the two frameworks apart, not checking
+sequential conditions. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers (article
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text - do not drop or merge a required element (e.g. keep 善意 and
+無過失 as two distinct checks in Panels 3 and 4).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成18年度午後第1問 肢1〜5
+作図ガイド（代理）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢1） ---
+Badge: a filled circle in orange containing the number 1.
+Heading (bold, ONE line):
+本人の知・不知は結論に無関係
+Diagram: Split into left and right panels. LEFT panel labeled「誤りやすい
+思い込み」shows an isometric school-backpack-wearing character labeled
+「未成年の代理人A」next to a thought bubble from character「本人B」reading
+「Aが未成年だと知らなかったから取り消せるはず」, with a strikethrough line
+across the thought bubble and a faded, dotted-outline document icon
+labeled「取消し」to show this outcome never really applies. RIGHT panel
+labeled「正しいルール」(drawn with a thick highlighted border and full
+color) shows the same young character「代理人A」signing a contract on
+behalf of「本人B」, with a caption「代理人に行為能力は不要」and a note
+「本人の知・不知は関係ない」, ending with a green checkmark stamp labeled
+「取消しできない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、争われているのが代理人の行為能力の問題であることを確認します。次に、
+本人が代理人の制限行為能力を知っていたかどうかという事情は結論に関係ない
+ことを確認し、取消しはできないと判定します。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+知・不知は無関係
+
+--- PANEL 2（肢2） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+名乗った名前ではなく意思を見る
+Diagram: An isometric character「代理人A」wearing a name tag reading「B」
+(covering their own name), shaking hands with character「相手方C」. A
+speech bubble from A reads「私がBです」. Above the handshake, a single
+diamond decision node reads「客観的に本人のためにする意思があったか」, with
+a green はい arrow leading down to a checkmark stamp labeled「有効な顕名」.
+A small faded, dotted-outline branch labeled いいえ leads to a
+greyed-out box captioned「顕名なし（本問の事案ではない）」to show the
+alternative outcome without omitting it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人が誰の名前を名乗ったかという表面的な事実ではなく、客観的に
+本人のためにする意思をもって行動していたかを確認します。その意思が認め
+られれば、本人の名前を名乗っていても有効な顕名として扱われます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+実質で顕名を判定
+
+--- PANEL 3（肢3） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+代理権消滅後は相手方の善意無過失で判定
+Diagram: A two-diamond decision flowchart on an isometric scene. A torn
+certificate icon labeled「代理権消滅」floats above character「代理人A」,
+who still wears a name tag「Bの代理人」and shakes hands with character
+「相手方C」. First diamond node (thick highlighted border, full color):
+「相手方は代理権消滅の事実を知らなかったか（善意）」with a green はい arrow
+proceeding to a second diamond node (also thick highlighted border):
+「知らなかったことに過失はなかったか（無過失）」with a green はい arrow
+leading to a conclusion node reading「表見代理が成立／本人は履行拒絶でき
+ない」. A small faded, dotted-outline note captions「悪意または有過失なら
+本人は対抗できる（本問の事案ではない）」to show the unrelated outcome
+without omitting it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相手方が代理権の消滅の事実を知らなかったか（善意）を確認します。
+次に、知らなかったことについて過失がなかったか（無過失）を確認し、善意
+かつ無過失であれば表見代理が成立し、本人は履行拒絶できないと判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+善意無過失で本人に効果
+
+--- PANEL 4（肢4） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+濫用でも相手方の善意無過失で判定
+Diagram: The same two-diamond decision-tree shape as Panel 3, drawn on a
+different isometric scene: character「代理人A」secretly pocketing a
+coin-bag icon labeled「着服の意図」behind their back while handing a
+signed contract to character「相手方C」. First diamond node (thick
+highlighted border, full color, distinct scene from Panel 3):「相手方は
+代理人の目的（着服の意図）を知らなかったか（善意）」with a green はい arrow
+proceeding to a second diamond node (also thick highlighted border):
+「知らなかったことに過失はなかったか（無過失）」with a green はい arrow
+leading to a conclusion node reading「代理権の濫用にあたらず契約は本人に
+帰属／本人は無効主張できない」. A small faded, dotted-outline note captions
+「知っていた・過失があれば無権代理とみなされる（本問の事案ではない）」to
+show the unrelated outcome without omitting it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人が自己の利益を図る目的で行為をしたことを前提に、相手方がその
+目的を知らなかったか（善意）を確認します。次に、知らなかったことについて
+過失がなかったか（無過失）を確認し、善意かつ無過失であれば代理権の濫用に
+はあたらず、契約の効果はそのまま本人に帰属すると判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+濫用でも善意無過失なら有効
+
+--- PANEL 5（肢5） ---
+Badge: a filled circle in purple containing the number 5.
+Heading (bold, ONE line):
+誰が欺いたかで適用条文が変わる
+Diagram: Split into left and right panels. LEFT panel labeled「第三者が
+欺いた場合」shows an isometric outsider figure labeled「第三者」whispering
+a false statement toward character「相手方C」, with character「代理人A」
+standing between「本人B」and C as an unrelated bystander; a caption reads
+「相手方Cが善意無過失なら取消し不可」. RIGHT panel labeled「本人自身が欺い
+た場合」(drawn with a thick highlighted border and full color, since this
+is the branch relevant to this panel) shows character「本人B」, partially
+hidden behind a curtain icon, whispering a false price tag「1億円」toward
+a land-plot icon that has a small correct-price label「実際は3,000万円
+足らず」next to it, with the whisper reaching character「相手方C」.
+Character「代理人A」stands to the side labeled「本人の機関にすぎない」with
+a neutral expression, uninvolved in the whisper. A stamp reads「無制限に
+取消し可」near character C.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、意思表示について嘘をついたのが契約の当事者以外の第三者なのか、それ
+とも契約の当事者である本人自身なのかを確認します。本人自身が欺いた場合
+は第三者による詐欺にはあたらないため、代理人が善意無過失であったかどうか
+にかかわらず、相手方は無制限に契約を取り消すことができると判定します。
+Conclusion tag (a short colored banner/pill, purple, 5-15 Japanese
+characters):
+本人自身の詐欺は無制限に取消可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法102条本文（代理人の行為能力）・99条1項（顕名）・112条1項（代理権消滅
+後の表見代理）・107条（代理権の濫用）・96条1項・2項（詐欺による意思表示の
+取消しと第三者詐欺の限定）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・代・理・欺・罔・拒・絶・善・過・失 and any character that
+has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that Panels 3 and 4 (肢3・肢4)
+are each drawn as an actual flowchart with two distinct diamond nodes for
+善意 and 無過失 (not merged into a single check and not a bare
+illustration with no visible decision structure), that Panel 1's
+correct-rule-versus-common-mistake contrast and Panel 5's left/right
+framework comparison are not flattened into a single flowchart where they
+do not belong, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), that Panels 3 and 4
+clearly distinguish their own highlighted branch and scene from each
+other's, confirm nothing is rendered below the last panel's footnote text
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

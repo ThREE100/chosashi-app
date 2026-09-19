@@ -209,3 +209,236 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric houses, land plots, falling trees,
+bicycles, calendars, and shield/prohibition icons, adapted per panel.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Panels
+3, 4, and 5 (肢ウ・肢エ・肢オ) all concern 占有回収の訴え and share the same
+underlying three-step decision tree: Node A asks 占有を意思に反して奪われ
+た(侵奪された)か, Node B asks 相手方は誰か(侵奪者本人か、それとも占有を完
+全に手放した先の特定承継人か), and Node C asks 出訴期間(1年)の起算点はどの
+時点か. Render all three panels with the same three-node tree layout, but
+in each panel highlight only the ONE node that panel is actually about
+with a thick highlighted border and full color, and render the other two
+nodes (including any nodes the claim never even reaches) in a faded,
+greyed-out, or dotted-outline style with a small「この肢では問題にならな
+い」or「到達しない」label, rather than omitting them - the reader should be
+able to see at a glance which single step of the shared checklist each
+panel is testing. Panel 1 (肢ア) is not a flowchart but a
+「正しいルール」vs「誤りやすい思い込み」contrast: draw the correct reading
+of the statute in full color on one side, and the mistaken reading crossed
+out with a red strikethrough on the other side. Panel 2 (肢イ) requires
+two distinct checks (占有の主体は本権を問わないこと, and 相手方の行為が自
+力救済に当たること) - draw both as separate steps, do not merge them into
+one. Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion.
+Do not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+- do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成19年度午前第3問 ア〜オ
+作図ガイド（占有訴権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+予防と担保は「又は」でどちらか一方
+Diagram: A「正しいルール」vs「誤りやすい思い込み」contrast on an isometric
+land plot scene with a leaning tree about to fall toward the neighboring
+plot. The top box (drawn with a thick highlighted border and full color,
+labeled 正しいルール) shows person A pointing at two separate request
+bubbles connected by a label「または」- one bubble shows a wooden
+prop/support icon labeled 予防, the other shows a small shield-and-coin
+icon labeled 担保. The bottom box (drawn with a faded background, labeled
+誤りやすい思い込み) shows both icons merged into a single bubble with a
+thick red strikethrough line drawn across it, representing the mistaken
+belief that both can be requested together.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+199条の条文は「予防又は損害賠償の担保」という選択的な書き方になっている点
+をまず確認します。「又は」なので、予防と担保の両方を同時にまとめて請求で
+きるわけではなく、どちらか一方を選んで請求することになります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+予防か担保の一方のみ
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+無権原でも自力救済はできない
+Diagram: A decision-tree flowchart on an isometric small shed built on
+someone else's empty land. First diamond node (drawn with a thick
+highlighted border and full color): 占有者Aは本権(所有権)を持たない無権原
+の占有者(不法占拠者)か. A はい arrow proceeds downward with a small label
+「本権は不要」to a second diamond node (also drawn with a thick highlighted
+border and full color, since both checks matter equally): 相手方(真の所有
+者B)が、裁判手続によらず実力で占有を排除しようとしている(自力救済)か. The
+real land owner is shown approaching from outside with a heavy
+construction machine (bulldozer icon) trying to demolish the shed. The
+はい branch leads to a green translucent shield icon labeled「占有保全の
+訴え」standing between the machine and the shed, with a gavel icon labeled
+「自力救済」carrying a large red X mark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有者が本権(所有権)を持たない無権原の占有者であっても、占有そのも
+のは保護され占有訴権の主体になれることを確認します。次に、相手方が裁判手
+続によらず実力で占有を排除しようとしていないか(自力救済)を確認します。自
+力救済に当たる場合は、占有保全の訴えでその予防を請求できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+無権原でも自力救済は不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+居座りは「奪う」に当たらない
+Diagram: The shared three-step decision-tree flowchart (see
+DIAGRAM-GUIDE REQUIREMENT) on an isometric room inside a house; a tenant
+figure sits among moving boxes next to a calendar page marked「契約終了」.
+Node A (drawn with a thick highlighted border and full color, since this
+is the branch this panel is about): 占有を意思に反して奪われた(侵奪され
+た)か. The いいえ branch is highlighted, since the tenant originally
+received the building through a voluntary handover and merely continues
+to stay after the lease ended, leading directly to a green conclusion node
+reading 占有回収の訴えは使えない、明渡請求で対応. Node B and Node C are
+drawn small, faded, greyed-out, and dotted-outline, visually disconnected
+from the main flow, each with a small label「到達しない」, showing the
+claim never reaches those checks.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+占有回収の訴えを使えるかどうかは、まず、占有者の意思に反して占有を強制的
+に奪われた(侵奪された)かどうかから確認します。賃借人は当初、賃貸人から任
+意に引渡しを受けて占有を始めており、契約終了後に居座っているだけでは意思
+に反した奪取(侵奪)には当たらないため、この時点で占有回収の訴えは使えない
+と判断できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+居座りは奪うに当たらず
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+貸しただけなら本人が相手方
+Diagram: The shared three-step decision-tree flowchart (see
+DIAGRAM-GUIDE REQUIREMENT) on an isometric house scene; figure B forcibly
+pulls a key away from figure A (占有を奪う), then hands a spare key to
+figure C who moves into the house. Node A (drawn in full color with a
+normal, not thickened, border, since it is already satisfied but is not
+this panel's focus): 占有を意思に反して奪われたか - shown はい. Node B
+(drawn with a thick highlighted border and full color, since this is the
+branch this panel is about): 相手方は誰か - 侵奪者本人(B)か、それとも占有
+を完全に手放した先の特定承継人か. A dotted line connects B to the house
+labeled「間接占有」, showing B merely lent (貸与) the house to C while
+retaining possession through 占有代理, leading to a green arrow from A
+pointing directly at B labeled「占有回収の訴えの相手方」, while a separate
+arrow from A pointing at C carries a large red X mark. Node C is drawn
+small, faded, greyed-out, and dotted-outline with a label
+「この肢では問題にならない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有が意思に反して奪われた(侵奪された)ことを確認します。次に、相手
+方は誰かを確認します。侵奪者Bが目的物をCに貸与しただけでは、占有代理の仕
+組みによりBはなお占有(間接占有)を保持し続けているため、Aは実際に住んでい
+るCではなく、なおBを相手方として占有回収の訴えを提起できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+貸与だけでは相手方はB
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+起算点は「奪われた時」から1年
+Diagram: The shared three-step decision-tree flowchart (see
+DIAGRAM-GUIDE REQUIREMENT) on an isometric calendar scene; a bicycle being
+stolen from a house entrance is marked on one date. Node A (drawn in full
+color with a normal, not thickened, border, since it is already satisfied
+but is not this panel's focus): 占有を意思に反して奪われたか - shown はい
+(Bが自転車を盗んだ). Node B is drawn small, faded, greyed-out, and
+dotted-outline with a label「この肢では言及なし」, since the source article
+does not discuss this point for this 肢. Node C (drawn with a thick
+highlighted border and full color, since this is the branch this panel is
+about): 出訴期間(1年)の起算点はどの時点か. A「1年」countdown arrow starts
+exactly from the theft date and is highlighted with a label 占有者(A)が奪
+われた時, while a later calendar page labeled 譲受人(C)が占有を始めた時 sits
+faded with a magnifying glass and a large red X mark, showing this later
+date is NOT the starting point.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+占有回収の訴えの出訴期間(1年)の起算点がどの時点かを確認します。起算点は占
+有者(A)が占有を奪われた時であって、譲受人(C)が占有を始めた時ではありませ
+ん。本問ではBが自転車を盗んだ時点でAは占有を奪われているため、その時点か
+ら1年以内かどうかで出訴期間の可否が決まります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+起算点は奪われた時
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法180条(占有権、本権を問わない)・181条(占有代理)・199条(占有保全の訴
+え)・200条1項・2項(占有回収の訴えの要件と相手方)・201条3項(出訴期間)に基
+づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 占, 有, 訴, 権, 奪, 侵, 貸, 与, 還, 担, 保 and any character
+that has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢
+(肢イ・肢ウ・肢エ・肢オ) is drawn as an actual flowchart with branch nodes
+(not a bare illustration with no visible decision structure), that no 肢
+with a genuinely hidden second condition has been flattened into a single
+check (Panel 2 keeps 本権を問わないこと and 自力救済に当たること distinct),
+that each 着眼点 callout states a checking order rather than only a
+conclusion and keeps every required element from the source article
+distinct (no merged or dropped requirements), that Panels 3, 4, and 5
+clearly distinguish their own highlighted node (A, B, or C respectively)
+from the other two, faded nodes of the shared tree, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

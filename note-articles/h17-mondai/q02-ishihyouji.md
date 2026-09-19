@@ -201,3 +201,208 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric speech-bubble figures for A, B and C,
+a contract document icon, a shield icon for third-party protection, a
+thought bubble revealing a hidden truth, a magnifying glass over a
+mistaken clause, and a stamp icon for「無効」or「取消」. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Panel 1（心裡留保）must show BOTH sufficient
+branches of the rule — 相手方の悪意 and 相手方の有過失 — as two separate
+arrows reaching the same「無効」conclusion node, highlighting only the
+悪意 branch that this 肢 actually tests and rendering the 有過失 branch in
+a lighter but still legible outline, rather than collapsing the rule into
+a single 悪意-only check. Panel 2（虚偽表示）and Panel 5（強迫）are not
+decision trees but comparison panels: Panel 2 is a 正誤対比型（思い込み
+チェック型）panel contrasting the correct rule with an easily-mistaken
+over-requirement, and Panel 5 is a 対比枠型（別の話への切り分け）panel
+contrasting the 詐欺 framework with the 強迫 framework side by side, with
+the framework relevant to that panel drawn with a thick highlighted
+border and full color and the other framework rendered faded and
+greyed-out as background context. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER (or the correct-vs-mistaken distinction) in
+words, not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element
+(e.g. do not turn「善意」into「善意無過失」as if both were required, when
+the source article treats 善意 alone as sufficient).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成17年度午後第2問 1〜5
+作図ガイド（意思表示）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢1） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+相手が悪意なら心裡留保は無効
+Diagram: A decision-tree flowchart. Start node: 意思表示（原則として有
+効）。Diamond node: 相手方Bは、Aの真意でないことを知っていたか（悪意）、
+または知ることができたか（有過失）か？The「悪意」branch is highlighted
+with a thick border and full color, since this is the case this 肢 tests,
+leading to a conclusion node reading 意思表示は無効。The「有過失」branch
+is drawn in a lighter but still legible colored outline, since it is an
+alternative sufficient condition reaching the same conclusion, and also
+leads to the「意思表示は無効」node. The「善意かつ無過失」branch is
+rendered faded and dotted, leading to a faded conclusion box reading
+有効のまま。Illustrate with 男性キャラクターAが「この土地、100万円で売
+るよ」という吹き出しを出しながら頭上に「本当は売る気がない」という思考
+の吹き出しを浮かべ、向かい合う女性キャラクターBの頭上に「知っていた」
+というラベルが付くisometric scene。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、意思表示は原則として有効であることを確認します。次に、相手方Bが
+Aの真意でないことを知っていたか（悪意）、または知ることができたか（有
+過失）かを確認します。本肢はBが真意を知っていた場合なので無効です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+相手が悪意なら無効
+
+--- PANEL 2（肢2） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+対抗できない要件は「善意」で足りる
+Diagram: A 正誤対比型（思い込みチェック型）split panel using the same
+isometric characters A, B and C throughout. LEFT side labeled 正しいルー
+ル: Cが虚偽表示について善意であればよい（過失の有無は問わない）,
+illustrated by 第三者Cを表す人物が盾を構え、盾には「善意」とだけ書かれ
+たラベル、盾の前でAからの「無効を主張」という吹き出しが跳ね返されてい
+るgreen checkmark stamp。RIGHT side labeled 誤りやすい思い込み: 「善意」
+だけでなく「無過失」まで必要だと思い込んでしまう, illustrated by 同じ盾
+のアイコンに「無過失も必要」という追加ラベルが赤い×印と取り消し線で消
+されているscene, showing this extra requirement is not actually
+necessary.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Cが虚偽表示について善意かどうかだけを確認します。94条2項が要求す
+るのは善意であることで足り、無過失まで必要だと思い込まないことがポイン
+トです。本肢のCは善意無過失ですが、無過失は必須の要件ではありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+善意だけで対抗不可
+
+--- PANEL 3（肢3） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+重過失の表意者は自ら主張できない
+Diagram: An isometric scene showing 男性キャラクターAが契約書にサイン
+しながら困惑した表情、契約書の上に虫眼鏡のアイコンで「重大な勘違い」と
+いうラベル。Diamond node: 表意者Aに重大な過失があったか？with a はい
+arrow leading to a鍵のかかったボタンのアイコン「無効(取消)を主張」and a
+conclusion node reading Aは自ら主張できない。Include a small footnote
+annotation box inside the panel (not a branch), labeled 用語の注記,
+reading 平成17年当時の条文（旧95条）上の効果は「無効」であり、「取消」
+という表現は本来の条文の文言とは異なりますが、正誤の結論には影響しませ
+ん。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、表意者Aの錯誤に重大な過失があったかどうかを確認します。重大な過
+失がある場合、Aは自らその意思表示の効果を主張することができません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+重過失なら主張不可
+
+--- PANEL 4（肢4） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+詐欺による意思表示は取り消せる
+Diagram: An isometric scene showing 女性キャラクターBが「この土地は近々
+開発される」という嘘の吹き出しを出しながら男性キャラクターAに契約書を
+差し出している。Diamond node: 意思表示はBの詐欺によるものか？with a
+はい arrow leading to a conclusion node reading Aは取り消すことができる,
+illustrated by Aが契約書に「取消」のスタンプを押す動作。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Aの意思表示がBの詐欺によるものかどうかを確認します。詐欺による意
+思表示であれば、Aはこれを取り消すことができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+詐欺は取消し可
+
+--- PANEL 5（肢5） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+強迫には第三者保護規定がない
+Diagram: A 対比枠型（別の話への切り分け）split panel. LEFT side labeled
+詐欺の場合（96条3項）, rendered faded and greyed-out since this panel is
+about the right side: Bに騙されたAが契約書にサインし、その後Cが土地を
+買い受ける場面、Cの盾に「善意無過失」のラベル、盾がAからの取消しの矢印
+をしっかり跳ね返している。RIGHT side labeled 強迫の場合（第三者保護規定
+なし）, highlighted with a thick colored border since this is the panel's
+focus: Bに拳で脅されたAが契約書にサインし、その後Cが土地を買い受ける場
+面、Cの盾に「善意」のラベルがあるが盾にひびが入っており、Aからの取消し
+の矢印がその盾を貫通してCまで届いている。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この意思表示の瑕疵が詐欺なのか強迫なのかを確認します。詐欺には善
+意無過失の第三者を保護する96条3項がありますが、強迫には同様の規定がな
+いため、強迫による取消しは善意の第三者にも対抗できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+強迫は第三者にも対抗可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法93条ただし書（心裡留保）・94条2項（虚偽表示）・96条1項及び3項（詐
+欺・強迫）に基づく整理です。肢3（錯誤）は出題当時（平成17年）の旧95条
+に基づきます。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 悪・強・対・錯・誤・詐・張・無・効・過. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that Panel 1's flowchart shows
+both the 悪意 and 有過失 branches without dropping either, that Panel 2's
+正誤対比型 layout does not merge「善意」and「無過失」into a single
+required element where the source article only requires 善意, that Panel
+5's 対比枠型 layout clearly distinguishes its highlighted 強迫 framework
+from the faded 詐欺 framework rather than blending the two, that each 着
+眼点 callout states a checking order or a correct-vs-mistaken distinction
+rather than only a conclusion, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
