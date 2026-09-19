@@ -26,8 +26,6 @@
 >
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
 
----
-
 不動産登記法上の「建物」に当たるかどうかは、条文の抽象的な定義（屋根及び周壁又はこれらに類するものを有し、土地に定着した建造物であって、その目的とする用途に供し得る状態にあるもの）だけでは判断がつきにくく、不動産登記事務取扱手続準則77条が挙げる具体的な例示を覚えているかどうかで解けるかが決まります。この問題は、ア〜コの10項目それぞれについて、その例示に照らして建物として登記できるかどうかを一つずつ確認していく形式です。
 
 ### ア：給水タンクは建物として扱えない
@@ -120,13 +118,14 @@
 - 準則の条文原文は、今回`note-articles/laws/fudousan-touki-jimu-junsoku.md`で直接確認できたため、以前の確認事項ブロックにあった「moj.go.jpへの接続がブロックされ確認できなかった」旨の記載は解消されています。
 - **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（準則77条の全例示を`note-articles/laws/fudousan-touki-jimu-junsoku.md`原文と一字一句突合し、判例・先例番号は本文になく確認事項ブロックのみに記載されていること、試験範囲外の一般法を根拠にしていないことを確認）、B（正解「ア・ク・コの3個（選択肢3番）」がまとめの判定と矛盾しないことを再確認）、C（各肢の見出しが正しい結論を表していること、正解の先出しがないこと、全文が敬体で統一されていること、条文の読み方自体を解説する記述がないこと、全角括弧で統一されていることを確認し、導入文中の不動産登記規則111条の引用に「これらに類するもの」とすべきところが「これに類するもの」となっていた誤りを修正）、D（Markdown表が使われていないことを確認）、E（インフォグラフィックプロンプトが未作成だったため、10肢を「建物として扱えるもの」「扱えないもの」の2列構成で新規作成し記事末尾に追加）、F（テンプレート構造・確認事項ブロックの記載を確認したうえで、タイトルのキャッチフレーズが誤答しやすさの観点で最適でなかったため、直感に反しやすい肢ケ（固定されている浮船）を選ぶよう変更）、G（重複出題チェック・最新法令チェックを実施し、上記の通り追記）を実施しました。正解・各肢の判定（扱える／扱えない）はいずれも変更していません。
 - **QAチェックリスト再検証（2026-09-19実施）**：全19項目に基づき再度フルスキャンしました。準則77条の「建物として取り扱うもの」「取り扱わないもの」の全10例示を`note-articles/laws/fudousan-touki-jimu-junsoku.md`原文と再度一字一句突合し、ア〜コの各記述・オ・ケのただし書要件の当てはめがいずれも正確であることを再確認しました。正解（ア・ク・コの3個＝選択肢3番）とまとめの判定に矛盾がないことを再確認しました（`src/data/takuitsu.json`の`chosashi_H19_q19`エントリは引き続き未取得のプレースホルダーのままであり、独立した裏付けは取れません）。判例・先例番号なし、全角括弧統一、敬体統一、見出しの正誤判定語なし、正解の先出しなし、Markdown表不使用、コードフェンス数の偶数性も確認しました。修正が必要な誤りは見つからず、変更はありません。
+- **執筆ルール・インフォグラフィックルール準拠チェック（2026-09-19実施、法令内容は対象外）**：`format-template.md`・`infographic-prompt-template.md`に照らして体裁のみ再点検しました。(a) 問題文の引用ブロックと導入文の間に余計な`---`区切り線が残っていたため削除、(b) 見出し画像用フレーズのうち肢イの1つが約25字とやや長かったため21字程度に短縮（内容は変更なし）、(c) インフォグラフィックプロンプトにBACKGROUND REQUIREMENT段落が欠落していたため追加、(d) Subtitleが「年度・問題番号－テーマ」の順になっており雛形の「テーマ（年度・問題番号）」の順と逆だったため修正、(e) FOOTER直前に独立した日本語の「簡体字混入に特に注意すること。」という一文が残っていたため削除し、Final check（英文）に注意喚起を統合、(f) Final checkの簡体字注意リストに、プロンプト本文に実際には登場しない「登・記・権・積・卸」が含まれていた一方、実際に頻出する「号・観・覧・席・搬」等が抜けていたため、実際にプロンプト本文へ登場する漢字だけに総入れ替えし、あわせてFinal checkにアウトロブロック禁止（最後のカードの後に何も描画しない）・背景不透明の確認文を追加（雛形通り二重明記化）しました。正解・各肢の判定（扱える／扱えない）はいずれも変更していません。
 
 ---
 
 ## 見出し画像用フレーズ
 
 - 給水タンクって、実は建物じゃないんです
-- ガード下の倉庫、ちゃんと建物として登記できるんです
+- ガード下の倉庫、建物として登記できるんです
 - 地下にあっても、建物として認められるんです
 - 屋根のあるホームは、建物なんですって
 - 基礎でしっかり固定してれば、建物扱いなんです
@@ -169,17 +168,24 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記・号・権・地・番・扱・給・積・卸・観・覧・席・浮・
-船・街・運・搬・売・場 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants.
+summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 その10個、建物として扱える？
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第19問－建物認定10肢の判定
+建物認定10肢の判定（平成19年度 午前の部 第19問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -296,19 +302,24 @@ red X mark drawn across it.
 Conclusion tag (red banner below the illustration, 5-15 characters):
 屋根だけは建物でない
 
-（列見出しの色・カード番号バッジの色・結論タグの色は、列Aは緑、列Bは赤で統一する。
-簡体字混入に特に注意すること。）
+（列見出しの色・カード番号バッジの色・結論タグの色は、列Aは緑、列Bは赤で統一する。）
 
 --- FOOTER ---
 
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 10 exactly, with
-no duplicated or missing cards, that badge numbers run 1-10 continuously
-across both columns without resetting, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
-every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+Final check before rendering: scan every kanji glyph, paying special
+attention to 建・物・場・地・扱・街・給・浮・船・運・売・号・番・観・覧・
+席・搬, and confirm each is in standard Japanese (Jōyō) form, not
+Simplified Chinese. If any character renders as a Simplified Chinese
+variant, redraw that character in the correct Japanese form. Confirm the
+number of cards equals 10 exactly, with no duplicated or missing cards,
+that badge numbers run 1-10 continuously across both columns without
+resetting, confirm there is no intro illustration or paragraph block
+between the header and the cards, confirm that no card contains a full
+sentence of explanatory prose — every card's takeaway must read as a
+short heading + a short conclusion tag, at a glance — confirm nothing is
+rendered below the last card (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind — the poster ends immediately after the last card), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
