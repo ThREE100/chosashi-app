@@ -28,31 +28,31 @@
 
 筆界特定制度は、土地の所有権登記名義人等の申請に基づいて、筆界特定登記官が筆界調査委員の意見を踏まえて筆界の位置を特定する制度です（不動産登記法123条以下）。この制度は「申請→審査→公告・通知→調査→意見聴取→特定→公告・通知」という一連の手続の流れそのものが出題対象になります。今回はフローチャートの5つの空欄（ア〜オ）に入る用語を、条文の規定順序に沿って順番に確認していきます。
 
-### ア：この枠に入るのは「筆界特定登記官による審査」です
+### ア　筆界特定登記官による審査：却下事由の有無を確かめる最初のステップ
 
 申請が受け付けられると、筆界特定登記官は、まずその申請が管轄違いでないか、申請人に申請権限があるか、申請情報に不備がないか、既に筆界特定や筆界確定訴訟の確定判決で筆界が定まっていないかなど、却下事由の有無を審査します（不動産登記法132条1項）。この審査の結果、却下事由がなければ手続が先へ進み、却下事由があれば（イ）へ枝分かれします。
 
 **たとえば**、Aさんが自分の土地について筆界特定を申請したとき、法務局の窓口担当者（筆界特定登記官）は、まず「そもそもこの法務局が担当する土地かどうか」「Aさんに申請する資格があるかどうか」「申請書に必要な事項がきちんと書かれているかどうか」をチェックします。これが「審査」の段階です。
 
-### イ：この枠に入るのは「却下」です
+### イ　却下：却下事由があれば、そこで手続はストップ
 
 審査の結果、管轄違いや申請権限の欠如、申請情報の不備（補正されないもの）、対象の筆界について既に筆界特定や確定判決がされていることなど、却下事由に該当する場合には、筆界特定登記官は理由を付した決定で申請を却下します（不動産登記法132条1項）。この却下は審査から枝分かれした別ルートであり、却下された申請はそのまま手続が終了し、以後の公告・通知や筆界調査委員の指定には進みません。
 
 **たとえば**、Bさんが隣の市の法務局に間違えて筆界特定を申請してしまった場合、その法務局にはその土地を扱う権限（管轄）がないため、審査の段階で「却下」という判断が下され、手続はそこで打ち切られます。
 
-### ウ：この枠に入るのは「筆界調査委員の指定」です
+### ウ　筆界調査委員の指定：公告・通知の後に専門家を選ぶ手続
 
 審査を通過した申請については、公告及び関係人に対する通知（不動産登記法133条）がされた後、法務局又は地方法務局の長が、弁護士・司法書士・土地家屋調査士など専門的知識・経験を有する者の中から、その事件について事実の調査を行う筆界調査委員を指定します（不動産登記法134条）。この指定があって初めて、次の「事実の調査の開始」に進むことができます。
 
 **たとえば**、公告と関係人への通知が済んだ後、法務局の長は「この土地の筆界特定には、測量に詳しい土地家屋調査士のCさんに担当してもらおう」というかたちで、担当者（筆界調査委員）を選び出します。これが「筆界調査委員の指定」です。
 
-### エ：この枠に入るのは「意見聴取等の期日」です
+### エ　意見聴取等の期日：事実の調査の後に意見を聴く機会
 
 筆界調査委員による事実の調査（測量・実地調査・関係者からの事情聴取等、不動産登記法135条・136条）が行われた後、筆界特定登記官は、申請人及び関係人に対し、期日と場所をあらかじめ通知した上で、筆界について意見を述べ、資料を提出する機会を与えます（不動産登記法140条）。これが「意見聴取等の期日」です。
 
 **たとえば**、筆界調査委員のCさんが現地を測量し、古い地図や関係者への聞き取りを一通り終えた後、法務局は申請人Aさんと隣地の関係人Dさんを呼び出し、「この日にお集まりください。ご意見や資料があればこの場で出してください」と案内します。これが意見聴取等の期日です。
 
-### オ：この枠に入るのは「筆界調査委員の意見提出」です
+### オ　筆界調査委員の意見提出：意見聴取の期日を経て提出される意見
 
 意見聴取等の期日を経た後、筆界調査委員は、必要な事実の調査を終えたときは、遅滞なく、筆界特定登記官に対して筆界特定についての意見を提出します（不動産登記法142条）。筆界特定登記官は、この意見が提出された後、登記記録・地図・土地の形状その他の事情を総合的に考慮して筆界特定を行います（不動産登記法143条1項）。
 
@@ -127,16 +127,25 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 筆・界・審・査・却・下・告・知・委・員・聴・意・提 — these must be
-rendered in their standard Japanese forms, never as Simplified Chinese
-variants.
+kanji 筆・界・審・査・却・下・告・知・委・員・聴・意・提・続・調 — these
+must be rendered in their standard Japanese forms, never as Simplified
+Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good default).
+There must be no checkerboard pattern, no partially transparent area, and
+no unpainted canvas edge anywhere in the final image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 筆界特定手続、流れをひと目で確認
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第14問－申請から筆界特定までの5ステップ
+申請から筆界特定までの5ステップ(平成19年度 午前の部 第14問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。カードは縦一列に並べ、上から下へ矢印でつなぐ。）
@@ -204,5 +213,10 @@ no duplicated or missing cards, that badge numbers run 1-5 continuously
 from top to bottom, confirm there is no intro illustration or paragraph
 block between the header and the cards, and confirm that no card contains
 a full sentence of explanatory prose — every card's takeaway must read as
-a short heading + a short conclusion tag, at a glance.
+a short heading + a short conclusion tag, at a glance — confirm nothing is
+rendered below the last card (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind — the poster ends immediately after the last card), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background with
+no transparency or alpha channel anywhere.
 ```
