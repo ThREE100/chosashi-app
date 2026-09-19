@@ -118,17 +118,27 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters.
+summarize, or substitute any characters. Pay special attention to the
+kanji 登・記・録・筆・積・境・標・訂, which have simplified-Chinese
+lookalikes with different stroke forms — always draw the standard
+Japanese (Jōyō) form.
 
-特に「登」「記」「録」「筆」「積」「境」「標」「訂」といった字は簡体字と
-混同されやすいため、必ず標準的な日本語の字体（Jōyō kanji）で描画すること。
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 地積測量図をめぐる5つのルール
 
 Subtitle (smaller, centered, 1行):
-平成18年度　午後の部　第9問　土地(地積測量図)
+土地(地積測量図) (平成18年度 午後の部 第9問)
 
 --- CARD 1 ---
 Badge: a filled circle in blue containing the number 1 (numbers run
@@ -201,4 +211,4 @@ with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.

@@ -124,9 +124,8 @@ lookalikes with different stroke forms — always draw the standard Japanese
 Title (large, bold, 1行):
 その契約、取り消せるのは誰？
 
-Subtitle (smaller, centered, 2行):
-平成18年度　午後の部　第1問　民法（代理）
-本人B・代理人A・相手方Cの契約をめぐる5つの急所
+Subtitle (smaller, centered, 1行):
+本人B・代理人A・相手方Cの契約をめぐる5つの急所（民法・代理）(平成18年度 午後の部 第1問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

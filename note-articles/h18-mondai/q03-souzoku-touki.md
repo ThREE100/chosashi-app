@@ -124,9 +124,8 @@ draw the standard Japanese (Jōyō) form.
 Title (large, bold, 1行):
 その持分、登記なしで守れるか？
 
-Subtitle (smaller, centered, 2行):
-平成18年度　午後の部　第3問　民法（相続と登記）
-A・B・C・Dが登場する5つの場面で対抗要件を見極める
+Subtitle (smaller, centered, 1行):
+A・B・C・Dが登場する5つの場面で対抗要件を見極める（民法・相続と登記）(平成18年度 午後の部 第3問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
