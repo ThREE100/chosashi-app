@@ -388,7 +388,7 @@ Final check, not near the header): This table has exactly 6 data rows plus
 missing rows. This is part (2/2) of a two-part table; part (1/2) covers
 the non-taxable (課税範囲外) rows in a separate image. Pay special
 attention to the kanji 課, 税, 免, 許, 録, 筆, 併, 区, 分, 号, 別, 表, 額,
-抹, 消 — render every one of them in standard Japanese (Jōyō) form, never
+抹, 消, 錯, 誤 — render every one of them in standard Japanese (Jōyō) form, never
 in Simplified Chinese form, even though some of these characters have
 visually similar Simplified Chinese counterparts.
 

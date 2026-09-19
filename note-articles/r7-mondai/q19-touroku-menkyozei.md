@@ -125,7 +125,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 録・地・建・物・登・記・所 — these must be rendered in their standard
+kanji 録・地・建・物・登・記・所・錯・誤 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
