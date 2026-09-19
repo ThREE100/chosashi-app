@@ -314,3 +314,170 @@ substituted characters, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric family-court building, official
+stamps, inheritance document folders, a balance scale, treasure/asset
+boxes, and an hourglass/calendar for the 3か月 deadline. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+（はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第3問 ア〜オ
+作図ガイド（相続の承認・放棄）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+一度した承認は撤回できない
+Diagram: 相続人Aが「承認」の緑スタンプを書類に押している。1か月後、Aの
+頭上に「借金発覚」という吹き出しが浮かび、Aが書類を破ろうとする手が描か
+れる。横に「3か月の熟慮期間」を示す砂時計アイコン(まだ残っている)と、A
+の手を止める赤い✕マーク。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Ａがすでに相続の承認をしているかを確認します。熟慮期間である3か月
+がまだ残っていたとしても、一度した承認は撤回することができません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+熟慮期間中でも撤回不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+一人が単純承認したら他は限定承認不可
+Diagram: 天秤アイコン。片方の皿に相続人Aの「単純承認」を示す重り、もう
+片方の皿に相続人Bの「限定承認したい」という吹き出し。天秤がAの単純承認
+の重みで傾き、「全員共同でなければ不可」という看板が現れ、Bの吹き出しに
+は赤い✕マーク。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、共同相続人のうち誰かがすでに単純承認をしているかを確認します。一人
+でも単純承認をしてしまうと、他の相続人は全員共同でしかできない限定承認を
+することができなくなります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+全員共同が原則
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+相続放棄に他の相続人の承諾は不要
+Diagram: 相続人Aが家庭裁判所の建物アイコンへ一人で「相続放棄申述書」を
+提出している。隣に立つ相続人Bへ向かって伸びる「承諾ください」の吹き出し
+に赤い✕マーク、Aと裁判所の間の矢印だけが緑の✓マークで有効。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相続放棄をするための手続が、家庭裁判所への申述だけで足りるのか、そ
+れとも他の相続人の承諾も必要なのかを確認します。相続放棄は単独でできる手
+続であり、他の相続人の承諾は不要です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+単独の申述で足りる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+限定承認者の管理は自己の財産と同一の注意
+Diagram: 相続人Aが相続財産の入った箱を、自分の私物が入った箱と同じ棚に
+並べ、同じ丁寧さで扱っているイラスト。棚の上に「善良な管理者の注意」と
+いうラベルと赤い✕マーク、「自己の財産と同一の注意」というラベルと緑の
+✓マーク。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、限定承認をした者に求められる管理の程度が、専門家並みの「善良な管理
+者の注意」なのか、それとも「自己の財産におけるのと同一の注意」で足りるの
+かを確認します。限定承認者に求められるのは後者であり、より軽い注意義務で
+足ります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+善管注意までは不要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+放棄者の持分は最初から存在しない
+Diagram: A decision-tree flowchart. First diamond node: Ａは相続の放棄を
+したか？ with a はい arrow proceeding to a label box reading Ａは初めか
+ら相続人でなかったものとみなされる(939条), then to a second diamond node
+(drawn with a thicker highlighted border): その(存在しない)持分に対する
+代位保存登記・仮差押えの登記は有効か？ with a いいえ branch leading to a
+red conclusion node reading 実体のない持分への登記であり無効。
+Illustration: 土地アイコンの上にA(点線・半透明の輪郭で「最初から相続人
+でなかった」ことを表現)とB(実線、相続人)が並ぶ。Aの債権者が「代位保存登
+記」から「仮差押え」の赤スタンプをAの点線部分に押そうとしているが、持分
+自体が存在しないため大きな✕マークが重なる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Ａが相続の放棄をしたかどうかを確認します。放棄をしている場合は、Ａ
+は初めから相続人でなかったものとみなされるため、次に、その存在しない持分
+に対して行われた代位保存登記や仮差押えの登記が有効かどうかを確認すると、
+実体のない持分への登記として無効だという結論にたどり着けます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+持分なし＝差押え無効
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法919条1項(承認・放棄の撤回禁止)・923条(共同相続人による限定承認)・
+938条(相続放棄の方式)・926条1項(限定承認者の管理義務)・939条(相続放棄
+の効力)に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 相, 続, 承, 認, 放, 棄, 撤, 差 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that the multi-condition 肢(肢オ) is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
