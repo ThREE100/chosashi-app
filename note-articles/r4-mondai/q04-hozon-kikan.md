@@ -195,7 +195,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 録・登・記・所・地・建・物・鎖・筆・界・存・期・間. If any
+attention to 録・登・記・所・地・建・物・鎖・筆・界・存・期・間・相・続. If any
 character renders as a Simplified Chinese variant, redraw that character
 in the correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, that badge numbers run 1-5

@@ -113,7 +113,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・続・証・約 — these must be rendered in their standard Japanese
+kanji 権・続・証・約・相 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants (e.g. 権 not 权, 続 not 续,
 証 not 证, 約 not 约).
 
@@ -189,7 +189,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 権・続・証・約. If any character renders as a Simplified
+attention to 権・続・証・約・相. If any character renders as a Simplified
 Chinese variant, redraw that character in the correct Japanese form.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm badge numbers run 1-5 continuously across both
@@ -359,7 +359,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 援, 承, 認, 抵, 当, 続 and any character that has a visually
+attention to 援, 承, 認, 抵, 当, 続, 相 and any character that has a visually
 similar Simplified Chinese variant. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the panel count equals 5 exactly, badge numbers run 1-5

@@ -123,7 +123,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記 — these must be rendered in their standard Japanese
+kanji 建・物・登・記・相・続 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -248,7 +248,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 遺・産・分・割・協・議・
-持・分・積・測・量 — these must be rendered in their standard Japanese
+持・分・積・測・量・相・続 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
 
 --- HEADER ---
