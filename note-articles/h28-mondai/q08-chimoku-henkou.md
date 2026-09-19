@@ -282,7 +282,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 実・体・移・転・意・思・
-登・記・義・務・者・名, which have Simplified Chinese look-alike forms with
+登・記・義・務・者・名・誤, which have Simplified Chinese look-alike forms with
 visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
