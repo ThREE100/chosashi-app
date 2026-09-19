@@ -116,9 +116,9 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割, which
-have simplified-Chinese lookalikes with different stroke forms — always
-draw the standard Japanese (Jōyō) form.
+kanji 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・家・庭・
+裁・判・所, which have simplified-Chinese lookalikes with different stroke
+forms — always draw the standard Japanese (Jōyō) form.
 
 --- HEADER ---
 Title (large, bold, 1行):

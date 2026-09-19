@@ -114,7 +114,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 続・証・録・築 — these must be rendered in their standard Japanese
+kanji 続・証・録・築・相 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants (e.g. 続 not 续, 証 not 证).
 
 --- HEADER ---
@@ -184,7 +184,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 続・証・録・築. If any character renders as a Simplified
+attention to 続・証・録・築・相. If any character renders as a Simplified
 Chinese variant, redraw that character in the correct Japanese form.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block

@@ -336,7 +336,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 実・体・移・転・意・思・登・記・義・務・者・名. If any
+attention to 実・体・移・転・意・思・登・記・義・務・者・名・誤. If any
 character renders as a Simplified Chinese variant, redraw that character
 in the correct Japanese form. Confirm every heading, panel label, and
 callout text matches the Japanese text given above verbatim, with no
@@ -377,7 +377,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 合・筆・異・制・限・続・
-申・請・情・報, which have Simplified Chinese look-alike forms with
+申・請・情・報・誤, which have Simplified Chinese look-alike forms with
 visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
@@ -432,7 +432,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 合・筆・異・制・限・続・申・請・情・報. If any character
+attention to 合・筆・異・制・限・続・申・請・情・報・誤. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm every heading, panel label, and callout
 text matches the Japanese text given above verbatim, with no paraphrasing

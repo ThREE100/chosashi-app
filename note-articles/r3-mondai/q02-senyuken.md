@@ -112,7 +112,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・物・所・訴・承・継・改, which appear multiple times below and
+kanji 権・物・所・訴・承・継・改・提・起, which appear multiple times below and
 have Simplified Chinese look-alike forms — render them only in standard
 Japanese Jōyō form.
 
