@@ -16,7 +16,7 @@
 >
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
-民法総則・物権の頻出テーマである「対抗要件」と「善意の第三者の保護」。似たような場面設定でも、根拠となる制度がまったく違うため、条文と判例をひとつずつ丁寧に切り分けて理解する必要があります。ア〜オの5つの事例を順番に検討していきましょう。
+民法総則・物権の頻出テーマである「対抗要件（自分の権利を、登記などの手段によって第三者にも主張できるようにするための要件）」と「善意の第三者の保護」。似たような場面設定でも、根拠となる制度がまったく違うため、条文と判例をひとつずつ丁寧に切り分けて理解する必要があります。ア〜オの5つの事例を順番に検討していきましょう。
 
 ### ア：詐欺による取消し前に登場した善意の第三者には対抗できない
 
@@ -50,11 +50,11 @@
 
 ### まとめ
 
-- **ア（主張できない）**　詐欺取消し前に現れた善意（無過失）の第三者Cには対抗できない（96条3項）
-- **イ（主張できる）**　強迫による取消しには96条3項の第三者保護規定が適用されず、遡及的無効（121条）によりCにも対抗できる
-- **ウ（主張できない）**　不実登記の放置は94条2項類推適用により善意の第三者Cに対抗できない
-- **エ（主張できない）**　背信的悪意者Cからの善意の転得者Dは177条の第三者として保護される（相対的構成）
-- **オ（主張できる）**　先に占有改定で対抗要件を備えたAは、後から占有改定を受けただけの善意のCに対抗できる（即時取得は成立しない）
+- **ア（誤）**　詐欺取消し前に現れた善意（無過失）の第三者Cには対抗できない（96条3項）
+- **イ（正）**　強迫による取消しには96条3項の第三者保護規定が適用されず、遡及的無効（121条）によりCにも対抗できる
+- **ウ（誤）**　不実登記の放置は94条2項類推適用により善意の第三者Cに対抗できない
+- **エ（誤）**　背信的悪意者Cからの善意の転得者Dは177条の第三者として保護される（相対的構成）
+- **オ（正）**　先に占有改定で対抗要件を備えたAは、後から占有改定を受けただけの善意のCに対抗できる（即時取得は成立しない）
 
 同じ「善意の第三者だから保護される／されない」という結論でも、その根拠条文が96条3項なのか、94条2項の類推適用なのか、177条の背信的悪意者論なのか、192条の即時取得なのかによって、要件も結論もまったく異なる点が、この問題の一番のポイントです。
 
@@ -118,6 +118,16 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 詐・欺・強・迫・背・悪・登・記・対・抗・占・有・改 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -211,7 +221,12 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance — confirm nothing is rendered below the last card (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind — the poster ends
+immediately after the last card), and confirm the entire canvas, edge to
+edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
@@ -419,8 +434,8 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 詐, 欺, 強, 迫, 背, 悪, 占, 改, 抗, 譲 and any character that
-has a visually similar Simplified Chinese variant. If any character
+attention to 詐, 欺, 強, 迫, 背, 悪, 占, 改, 抗, 対, 護 and any character
+that has a visually similar Simplified Chinese variant. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
