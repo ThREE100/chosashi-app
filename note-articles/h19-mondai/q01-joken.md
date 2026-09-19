@@ -269,6 +269,36 @@ to the article's own body text - do not drop or merge a required element
 ことand その妨害が故意によるものであることas two distinct checks in Panel
 5).
 
+ILLUSTRATION REQUIREMENT (critical): This is an ILLUSTRATED study
+poster, not a plain flowchart sheet. EVERY one of the 5 panels must
+contain a clearly visible isometric illustration made of characters
+and/or objects, drawn in friendly flat-design style. Give each panel a
+two-part layout: the illustrated scene on the left (about 40 percent of
+the panel width) and the decision flowchart or comparison boxes on the
+right (about 60 percent). A panel that contains only diamonds and boxes,
+with no illustrated scene, is a defect and must be redrawn. The
+illustrations are: Panel 1 = two people and a contract document beside a
+calendar with a backward arrow from the 優勝 page to the 4月 page; Panel
+2 = two people signing a contract while a small rain cloud already
+sprinkles above them; Panel 3 = a person secretly moving a boundary
+stake on a plot of land at night, with a large red 無効 stamp on the
+contract; Panel 4 = a person handing an antique clock as a gift to
+another person; Panel 5 = an isometric repair workshop where a person
+hides a repair tool behind his back while another person waits.
+
+HEADER REQUIREMENT (critical): The large 2-line title and the 2-line
+subtitle given under HEADER must be drawn at the very top of the image,
+in large bold type, above Panel 1. Do not omit or shrink them into a
+panel heading.
+
+CONTENT REQUIREMENT (critical): Panel 5 is about 条件成就の妨害 under
+130条1項 (a party who would be harmed by the condition being fulfilled
+intentionally obstructs it, so the other party may treat the condition as
+fulfilled). It is NOT about 不法条件 (132条), which belongs only to Panel
+3. Every panel must use exactly the heading, 着眼点 callout text,
+conclusion node text and conclusion tag written below; do not replace
+them with your own wording.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -425,7 +455,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 の妨害)・131条1項(既成条件)・132条(不法条件)・134条(随意条件)に基づく整理
 です。
 
-Final check before rendering: scan every kanji glyph and confirm it is
+Final check before rendering: first confirm that the large title and
+2-line subtitle are drawn at the very top, that EVERY panel contains an
+isometric illustration with characters or objects (no panel is a bare
+flowchart), and that Panel 5 is about 条件成就の妨害 (130条1項) and not
+不法条件. Then scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
 attention to 遡, 既, 随, 妨, 害, 効 and any character that has a visually
 similar Simplified Chinese variant. If any character renders as a
