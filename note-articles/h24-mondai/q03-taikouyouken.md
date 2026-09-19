@@ -569,7 +569,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 譲, 渡, 登, 記, 詐, 欺, 抹 and any character that has a
+attention to 譲, 渡, 登, 記, 詐, 欺, 抹, 相, 続 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the panel count equals 5 exactly, badge numbers

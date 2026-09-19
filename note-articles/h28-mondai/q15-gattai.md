@@ -251,7 +251,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 合・体・登・記・録・
-権・抵・当・賃・借・属・続・単・独・専・持・分, which have Simplified
+権・抵・当・賃・借・属・続・単・独・専・持・分・相, which have Simplified
 Chinese look-alike forms with visibly different stroke shapes — always
 draw the standard Japanese (Jōyō) form of these characters.
 

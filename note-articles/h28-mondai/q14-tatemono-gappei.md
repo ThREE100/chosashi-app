@@ -143,7 +143,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記・所 — these must be rendered in their standard
+kanji 建・物・登・記・所・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -268,7 +268,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 効・用・接・続・区・分・
-合・併・棟・数, which have Simplified Chinese look-alike forms with
+合・併・棟・数・誤, which have Simplified Chinese look-alike forms with
 visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
@@ -326,7 +326,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 効・用・接・続・区・分・合・併・棟・数. If any character
+attention to 効・用・接・続・区・分・合・併・棟・数・誤. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm every heading, panel label, and callout
 text matches the Japanese text given above verbatim, with no paraphrasing
@@ -367,7 +367,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 床・面・積・図・添・付・
-登・記・録・併, which have Simplified Chinese look-alike forms with
+登・記・録・併・誤, which have Simplified Chinese look-alike forms with
 visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
@@ -420,7 +420,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 床・面・積・図・添・付・登・記・録・併. If any character
+attention to 床・面・積・図・添・付・登・記・録・併・誤. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm every heading, panel label, and callout
 text matches the Japanese text given above verbatim, with no paraphrasing
