@@ -321,7 +321,7 @@ characters):
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
-知っていたかどうかは結論を変えない
+取消せると知っていても取消し可能
 Diagram: An isometric young figure（未成年者）with a speech bubble
 containing a small document icon and a checkmark, representing「後で
 取り消せると知っていた」. Next to them, a green circle icon labeled
