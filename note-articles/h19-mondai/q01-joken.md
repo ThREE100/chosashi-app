@@ -54,13 +54,13 @@
 
 ### オ：条件成就を故意に妨げたら、相手方は条件が成就したものとみなせる
 
-民法130条1項は「条件が成就することによって不利益を受ける当事者が故意にその条件の成就を妨げたときは、相手方は、その条件が成就したものとみなすことができる」と定めています。設問の事案では、条件（7日以内の修理完了）が成就すると割増料金の支払義務という不利益を負うＨが、Ｉの修理道具をわざと損壊し、本来なら5日で完了できたはずの修理を10日にまで遅延させています。まさに、条件成就によって不利益を受ける当事者であるＨが「故意に条件の成就を妨げた」場合にあたるため、130条1項により、相手方であるＩは条件（7日以内の完了）が成就したものとみなして、Ｈに対し割増分の修理代金の支払も請求できます。学生オの説明は条文の要件・効果に整合しており正しいです。
+民法130条1項は「条件が成就することによって不利益を受ける当事者が故意にその条件の成就を妨げたときは、相手方は、その条件が成就したものとみなすことができる」と定めています。設問の事案では、条件（７日以内の修理完了）が成就すると割増料金の支払義務という不利益を負うＨが、Ｉの修理道具をわざと損壊し、本来なら５日で完了できたはずの修理を10日にまで遅延させています。まさに、条件成就によって不利益を受ける当事者であるＨが「故意に条件の成就を妨げた」場合にあたるため、130条1項により、相手方であるＩは条件（７日以内の完了）が成就したものとみなして、Ｈに対し割増分の修理代金の支払も請求できます。学生オの説明は条文の要件・効果に整合しており正しいです。
 
 **たとえば**、業者Ｉが「7日以内に工事を終えたら祝儀を上乗せする」と発注者Ｈと約束したとします。Ｈが祝儀を払いたくないあまり、こっそりＩの工具を隠して作業を遅らせ、7日を過ぎさせてしまった場合、Ｉは「Ｈが故意に条件成就を妨害した」として、130条1項により7日以内に終えた場合と同様に祝儀込みの代金を請求できます。
 
 ### まとめ
 
-- **ア（誤）**　127条3項の遡及効の合意があるため、Ｂは4月分から請求できる（原則だけでは判断できない）
+- **ア（誤）**　127条3項の遡及効の合意があるため、Ｂは４月分から請求できる（原則だけでは判断できない）
 - **イ（正）**　既成の停止条件は131条1項により無条件・有効となる
 - **ウ（誤）**　不法条件は132条により契約全体が無効になる（条件だけ外して有効にはならない）
 - **エ（誤）**　134条は停止条件付法律行為のみを対象とし、解除条件付きの随意条件は無効にならない
@@ -124,16 +124,26 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 条・件・効・既・成・不・法・随・意・妨・害・贈 — these must be
+kanji 条・件・効・既・成・不・法・随・意・妨・害・遡 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 「条件」5つの分かれ道
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第1問－停止条件・既成条件・不法条件・随意条件・妨害
+条件の効力と妨害をめぐる5つの分かれ道(平成19年度 午前の部 第1問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -417,7 +427,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 遡, 既, 随, 妨, 贈, 効 and any character that has a visually
+attention to 遡, 既, 随, 妨, 害, 効 and any character that has a visually
 similar Simplified Chinese variant. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
