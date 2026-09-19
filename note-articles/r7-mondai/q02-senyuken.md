@@ -281,7 +281,7 @@ Subtitle (smaller, centered, 2行):
 --- PANEL 1（肢ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
-相続人は主張方法を選べると確認する
+相続人は主張方法を自由に選べる
 Diagram: An isometric generational scene: a deceased figure Ａ's house
 （15年の占有期間ラベル）and heir Ｂ's house（5年の占有期間ラベル）,
 connected by a fork icon splitting into two arrows, one labeled「自己の

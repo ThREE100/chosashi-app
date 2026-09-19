@@ -296,7 +296,7 @@ characters):
 --- PANEL 2（肢イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
-追認は過去にさかのぼらないと確認
+追認しても遡って有効化しない
 Diagram: The shared horizontal-timeline shape described above. At the
 left end, a contract document icon stamped with a red「無効」seal
 （虚偽表示）. Partway along the timeline, a「追認」stamp icon appears, and
@@ -313,7 +313,7 @@ characters):
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
-取消しは過去にさかのぼると確認
+取消しは遡って無効になる
 Diagram: The shared horizontal-timeline shape described above (same
 layout as Panel 2, drawn with a thicker highlighted arrow since this is
 the branch this panel is about). At the left end, an intact green
