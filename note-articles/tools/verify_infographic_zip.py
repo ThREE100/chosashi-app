@@ -18,6 +18,11 @@ import sys
 import zipfile
 from io import BytesIO
 
+# Windows既定のロケール(cp932)では、ファイル名やメッセージ中の記号を標準出力へ
+# 書き出せずUnicodeEncodeErrorになることがあるため、明示的にUTF-8へ切り替える。
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 try:
     from PIL import Image
 except ImportError:

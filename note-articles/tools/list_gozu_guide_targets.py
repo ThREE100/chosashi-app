@@ -16,6 +16,12 @@ import os
 import re
 import sys
 
+# Windows既定のロケール(cp932)ではプロンプト中の記号（emダッシュ「―」等）を
+# 標準出力へ書き出せずUnicodeEncodeErrorになるため、明示的にUTF-8へ切り替える。
+# `> file.json` のようなリダイレクト時にも影響するため、importの直後に行う。
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 YEARS = [
     "r7", "r6", "r5", "r4", "r3", "r2", "r1",
     "h30", "h29", "h28", "h27", "h26", "h25", "h24", "h23", "h22", "h21", "h20",
