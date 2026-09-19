@@ -133,7 +133,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 錯・誤・迫・欺・裡・留・保・権・登・記・妨・害, which have visually
+kanji 錯・誤・過・失・迫・欺・裡・留・保・権・登・記・妨・害, which have visually
 similar but structurally different Simplified Chinese counterparts —
 always draw the standard Japanese (Jōyō) form.
 
@@ -215,7 +215,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-錯・誤・迫・欺・裡・留・保・権・登・記・妨・害. If any character renders
+錯・誤・過・失・迫・欺・裡・留・保・権・登・記・妨・害. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the number of cards equals 5 exactly, with no
 duplicated or missing cards, that badge numbers run 1-5 continuously
