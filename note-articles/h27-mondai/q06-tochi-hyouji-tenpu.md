@@ -116,7 +116,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 添・付・援・筆・登・記・所・権・地・証・図・約・敷・代・任 — these must be
+kanji 添・付・援・筆・登・記・所・権・地・証・図・約・敷・代・任・錯・誤 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
 

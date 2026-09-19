@@ -111,8 +111,8 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
-KANJI ACCURACY WARNING: the characters 登・記・権・効・占・者・第・三 appear
-repeatedly in this poster. These are especially easy to render as
+KANJI ACCURACY WARNING: the characters 登・記・権・効・占・者・第・三・過・失
+appear repeatedly in this poster. These are especially easy to render as
 Simplified Chinese variants. Draw every one of them in the standard
 Japanese (Jōyō) form only.
 

@@ -147,7 +147,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・登・記・図・積, which have Simplified Chinese look-alike
+kanji 権・地・登・記・図・積・錯・誤, which have Simplified Chinese look-alike
 forms with visibly different stroke shapes — always draw the standard
 Japanese (Jōyō) form of these characters.
 
@@ -245,7 +245,7 @@ sentence, NOT a legal citation):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・地・登・記・図・積. If any character renders as a
+attention to 権・地・登・記・図・積・錯・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the number of cards equals 5 exactly (Column A: cards 1-2
 in green, Column B: cards 3-5 in blue, numbers continuous, not restarted

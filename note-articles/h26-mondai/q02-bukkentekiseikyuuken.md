@@ -125,7 +125,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・請・求・占・有・妨・害・排・除・訴・貸 — these must be rendered
+kanji 権・請・求・占・有・妨・害・排・除・訴・貸・過・失 — these must be rendered
 in their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---

@@ -442,7 +442,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 図・閉・鎖・登・記・筆・
-合・更・正・識・別・情・報・目・番・地・権 — always draw the standard
+合・更・正・識・別・情・報・目・番・地・権・錯・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -574,7 +574,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
 attention to 図・閉・鎖・登・記・筆・合・更・正・識・別・情・報・目・番・
-地・権. If any character renders as a Simplified Chinese variant, redraw
+地・権・錯・誤. If any character renders as a Simplified Chinese variant, redraw
 that character in the correct Japanese form. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
