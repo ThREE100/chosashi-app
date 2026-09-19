@@ -390,7 +390,16 @@ R3午後第16問・R2午後第14問・R1午後第1問・H30午後第3問で確�
 1. **各肢の Diagram は、単なる完成図の説明ではなく、「まず何を確認し、次に何を確認し、最後にどう判定するか」という順序が読み取れる構図にする。** 具体的には、条件を1つずつ確認するステップを、上から下（または左から右）へ並べる、番号付きの確認ポイントを図の中に配置する、分岐が生じる場合は分岐点に○×の小さな判定マークを置く、といった手法を使う。
 2. **複数の条件を順に満たさないと結論に至れない肢（原則→例外、多段階の要件判定など）では、Diagram を実際の決定木（フローチャート）として描く。** ひし形の分岐ノード、条件を書いたラベル、Yes/No（またはある/なし、○/✕）に応じた分岐矢印、最終的な結論ノードという構成要素を明示的に指定する。1段階の確認だけで完結する肢では、無理にフローチャート化せず、通常の図解（着眼点を絵で示す構図）でよい。
 3. **着眼点コールアウトは、判定の「順番」を言葉でも明示する。** 「まず〜を確認します。次に〜を確認し、〜であれば…」のように、思考の手順が読み取れる文にする。結論だけを述べる文（②の結論タグのような一言）にしない。
-4. **同じ記事内の5肢を通して見たときに、共通する確認順序のパターン（例：「死亡年月日→相続開始時点での生存確認→代襲原因の該当性」）があれば、パネルの構図・着眼点の書き方をそろえ、読者がパターンとして覚えられるようにする。**
+4. **同じ記事内の複数肢を通して見たときに、共通する決定木の形（判定順序・分岐構造）があれば、その形を1つの雛形として使い回す。2肢のペアに限らず、3肢以上、あるいは5肢すべてが同じ木を共有してもよい（例：「除外事由①〜⑤のいずれかに該当するか」という同一の判定木を5肢すべてが共有し、各肢は自分が該当する枝だけを強調する構成、あるいは「死亡年月日→相続開始時点での生存確認→代襲原因の該当性」のような共通パターン）。共有木を使う場合は、各パネルで自分の肢に関係する分岐だけを太い縁取り・強調色ではっきり目立たせ、関係しない分岐は薄いグレーで縮小表示する（○×だけで済ませず、「今回は関係ない」ことが一目でわかる見た目にする）。
+5. **一見1回のチェックで完結するように見える肢ほど、本文解説を読み直し、実際には2つ目の条件が隠れていないか疑う。** 隠れた条件がある場合は、それを無理に単純化せず、あえて2段階以上の決定木として可視化し、読者が見落としやすいポイントを図で示す（例：「妨害の有無」だけで足りるように見える肢が、実は「行政処分性」のような別条件も満たす必要がある場合）。逆に、本当に単一チェックで完結する肢を、無理に多段階のフローチャートへ仕立て上げてもならない。
+
+### 法的正確性の担保（重要・厳守）
+
+⑤は「わかりやすさ」を優先するあまり、対象記事の本文解説・まとめで既に確定している法的結論・要件を歪めてはならない。次を必ず守る。
+
+1. **各パネルの Diagram・着眼点・結論タグに書く内容は、対象記事の本文解説・まとめで実際に使われている条件・結論と一致させる。** 図解作成の過程で、新しい法的主張・独自の言い換えによる結論の変更・条文の拡張解釈を持ち込まない。
+2. **要件が複数の要素からなる場合（例：「善意」かつ「無過失」、「平穏」かつ「公然」）、図解の都合で1つの要素だけに圧縮しない。** 各要素を別々の確認ステップ（別のひし形ノードや別の着眼点の文）として描き分け、要素を落とすことで生じる誤解を防ぐ。
+3. **パネルを書き終えたら、その肢の本文解説・まとめの記述と照らし合わせ、「この Diagram と着眼点は、本文のどの一文に対応しているか」を自分で説明できるかを確認する。** 対応する記述が本文に見当たらない内容は書かない。
 
 ### 画像の「型」
 
@@ -407,6 +416,8 @@ R3午後第16問・R2午後第14問・R1午後第1問・H30午後第3問で確�
 - **配置図型**：土地・建物・附属建物など、物理的な位置関係を描く図（例：甲建物と乙建物の接続の有無、管轄区域の境界）。
 - **決定木（フローチャート）型**：複数の条件を順に判定して結論に至る肢に使う。ひし形の分岐ノードを用いる。
 - **タイムライン型**：時系列で生じる出来事（死亡・登記・処分等の先後関係）を左右または上下の矢印で示す図。
+- **対比枠型（別の話への切り分け）**：ある肢のわかりにくさが「条件を順に確認する」ことではなく、「そもそも異なる2つの制度・場面のどちらの話なのかを見分ける」ことにある場合に使う（例：意思表示の相手方に関するルールなのか、第三者との対抗関係に関するルールなのか）。左右または上下2枠に分け、それぞれの枠に該当する制度名・根拠条文・結論を対比させて描く。無理に1本の決定木に押し込めない。
+- **正誤対比型（思い込みチェック型）**：多段階の条件判定ではなく、条文・制度の正確な文言を正しく覚えているかを問う肢（うっかり思い込みで誤読しやすい肢）に使う。「正しいルール」と「誤りやすい思い込み」を左右または上下で対比させ、誤っている側には×印や取り消し線を重ねて描く。
 
 ### 手順
 
@@ -414,9 +425,10 @@ R3午後第16問・R2午後第14問・R1午後第1問・H30午後第3問で確�
 2. 各肢について、「読者が問題文からどんな図を描けば正誤にたどり着けるか」「その図にたどり着くまでに、どの条件をどの順番で確認するか」を書き出す。原則→例外のような多段階の判定がある肢は、確認する条件を番号付きで列挙する。
 3. 上記「画像の型」から各肢に最適なものを選ぶ（肢ごとに型が異なってよい）。
 4. 下記「プロンプト雛形（作図ガイド型）」に流し込み、各パネルに Badge・Heading・Diagram・着眼点コールアウト・結論タグの4要素を用意する。多段階の条件判定がある肢では、Diagram を決定木として具体的に記述する（上記「フローチャート式の考え方」1〜2を参照）。
-5. 文字化け・簡体字対策・背景の不透明化（②の章を参照。CRITICAL TEXT REQUIREMENT・BACKGROUND REQUIREMENT・Final checkの三点を必ず含める。簡体字注意文は独立した日本語の一文にせず、必ずFinal checkの英文段落に埋め込む）を適用する。
-6. 記事ファイルの末尾（既存の②インフォグラフィックプロンプトの後）に `## インフォグラフィック プロンプト（ア〜オ 作図ガイド）` の見出しを立てて追記する。既存の②のセクションは変更しない。
-7. 画像は生成しない。記事ファイルにプロンプト文を追記して保存するところまでが成果物。
+5. 各パネルを書き終えたら、「法的正確性の担保」の3項目（特に要件の圧縮・隠れた条件・本文との対応関係）を満たしているか、対象記事の本文解説・まとめを読み返して確認する。
+6. 文字化け・簡体字対策・背景の不透明化（②の章を参照。CRITICAL TEXT REQUIREMENT・BACKGROUND REQUIREMENT・Final checkの三点を必ず含める。簡体字注意文は独立した日本語の一文にせず、必ずFinal checkの英文段落に埋め込む）を適用する。英文プロンプト本文内の括弧は半角`()`で統一し、全角`（`で開いて半角`)`で閉じる、またはその逆のような開閉の不一致がないか確認する。
+7. 記事ファイルの末尾（既存の②インフォグラフィックプロンプトの後）に `## インフォグラフィック プロンプト（ア〜オ 作図ガイド）` の見出しを立てて追記する。既存の②のセクションは変更しない。
+8. 画像は生成しない。記事ファイルにプロンプト文を追記して保存するところまでが成果物。保存前に、コードフェンス数が偶数であること・フェンス外に不要な半角括弧が残っていないこと・Markdown表（`|`で始まる行）が紛れ込んでいないことを機械的に確認する。
 
 ### プロンプト雛形（作図ガイド型）
 
@@ -438,19 +450,34 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
 肢 is resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Unlike a glanceable summary
-poster, each panel MAY include a short「着眼点」callout box with 1-2
-sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
-次に〜を確認します"), not just the conclusion. Do not include case or
-precedent numbers (article/regulation numbers are fine); keep the callout
-text as written below verbatim.
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render the
+other, unrelated branches in a faded, greyed-out, or dotted-outline style
+rather than omitting them — the reader should be able to see at a glance
+which part of the shared tree this panel is about. Likewise, where a
+diagram must show an entity that conceptually never held the right or
+status in question (e.g. someone who was never an heir, or a claim that
+never existed), render that entity or claim in a faded or dotted-outline
+style rather than a plain ○/✕ mark, so the visual itself communicates
+"this was never really there," not just "this is wrong." Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep "善意" and "無過失" as two distinct
+checks if the source article treats them as two distinct requirements).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters.
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -500,10 +527,15 @@ Confirm the panel count equals {N} exactly, badge numbers run 1-{N}
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that every multi-condition 肢 is drawn as an
 actual flowchart with branch nodes (not a bare illustration with no
-visible decision structure), that each 着眼点 callout states a checking
-order rather than only a conclusion, confirm nothing is rendered below
-the last panel's footnote text (no summary recap panel, no trophy or
-medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
-of any kind), and confirm the entire canvas, edge to edge, is filled with
-a fully opaque background with no transparency or alpha channel anywhere.
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
