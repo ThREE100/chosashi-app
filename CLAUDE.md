@@ -5,6 +5,15 @@
 `note-articles/`（択一式）とは別に、記述式の学習漫画をChatGPTで生成・検品・ZIP化する
 手順は`CHATGPT_MANGA_WORKFLOW.md`にまとめてある。記述式の作業に入るときはまずそちらを読む。
 
+## 択一式・⑤作図ガイド型インフォグラフィックのChatGPT一括生成手順について(2026-09-19追加)
+
+R7〜H20の問1〜問3（民法、全54記事）に埋め込まれている「⑤作図ガイド型」インフォグラフィック
+プロンプトをChatGPTで一括生成・検品・リネーム・ZIP化する手順は`CHATGPT_INFOGRAPHIC_BATCH_WORKFLOW.md`
+にまとめてある。ローカル環境（Chrome拡張「Claude in Chrome」が使える`claude --chrome`起動）でのみ
+実行できる（クラウド上のリモートセッションでは実ブラウザ操作ができないため不可）。対象記事一覧・
+プロンプト抽出には`note-articles/tools/list_gozu_guide_targets.py`を、生成後のZIP検品には
+`note-articles/tools/verify_infographic_zip.py`を使う。
+
 ## 運用ルール(2026-07-15合意)
 
 - 作業セッションごとにコミットする(まとめて1コミットにしない)
