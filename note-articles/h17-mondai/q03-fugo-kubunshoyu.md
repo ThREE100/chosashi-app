@@ -395,7 +395,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権, 建, 物, 所, 独, 築, 償, 益. If any character renders as
+attention to 権, 建, 物, 所, 独, 築, 請, 還. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
