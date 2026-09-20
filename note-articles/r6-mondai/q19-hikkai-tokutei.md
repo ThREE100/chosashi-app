@@ -328,9 +328,9 @@ Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 時効取得部分は筆界に接していなくても申請可
 Diagram: A contrast panel split left and right. LEFT (red-tinted,
-誤りやすい思い込み): 乙土地のうち时効取得した部分と甲土地とが離れて
+誤りやすい思い込み): 乙土地のうち時効取得した部分と甲土地とが離れて
 描かれ、間に大きな赤い✕マークと吹き出し「接していないから申請できない
-はず」。RIGHT (green-tinted, 正しいルール): 同じ乙土地の时効取得部分の
+はず」。RIGHT (green-tinted, 正しいルール): 同じ乙土地の時効取得部分の
 所有者(thick highlighted border, full color)が、乙土地の別の場所で甲
 土地と接する筆界について申請書を提出している図、吹き出し「乙土地の一
 部の所有者という地位があれば足り、取得部分自体が接している必要はな
