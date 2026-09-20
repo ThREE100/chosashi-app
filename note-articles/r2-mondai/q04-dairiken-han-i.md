@@ -185,3 +185,205 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「一切の権限」という包括的な委任状だけでは、取下げ・金銭の受領・登記識別情報の暗号化復号・審査請求といった重要な行為までは代理できないことを見抜けるようにする5パネル構成。全パネルが同じ決定木（Ａから当該行為について特別の委任を受けているか）を共有し、本問の前提（Ｂは特別の委任を受けていない）に当たる「いいえ」側の枝を毎回強調し、「はい」側（特別の委任があればその行為ができる）は薄いグレーで示す。②の色分け（金銭・手続系＝緑、登記識別情報の暗号化復号＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a power-of-attorney scroll labeled 一切の権限, a
+withdrawal-notice document, coins for a tax refund (還付金), a computer
+screen with a padlock/key icon for 登記識別情報の暗号化・復号, and an
+official appeal document (審査請求書) — adapt icon set to the topic of
+委任状に基づく代理権の範囲. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. All 5
+panels in this set reuse the SAME decision tree (a single diamond node
+asking whether Ａ has granted a specific special commission for that
+action); render the いいえ branch relevant to THIS panel with a thick
+highlighted border and full color, and render the はい branch, which is
+never actually reached in this problem, in a faded, greyed-out,
+dotted-outline style rather than omitting it. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第4問 ア〜オ
+作図ガイド（委任状の権限範囲）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+取下げの特別委任の有無を確認する
+Diagram: A power-of-attorney scroll labeled 「土地の合筆の登記申請に関する
+一切の権限」 held by Ｂ, with Ａ's silhouette and a speech bubble reading
+「やっぱりやめたい」, and a withdrawal-notice document icon (取下書) below.
+This flows into the decision tree shared by all 5 panels: a diamond
+branch node labeled 「Ａから、取下げについて特別の委任を受けているか？」.
+The はい branch (faded, greyed-out, dotted outline) leads to a conclusion
+node reading 「Ｂはその行為をすることができる」. The いいえ branch
+(highlighted with a thick colored border, full color) leads to a
+conclusion node reading 「Ｂは取下げをすることができない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Ｂが持つ委任状が「一切の権限」とだけ記載された包括的なものであること
+を確認します。次に、Ａから取下げについて改めて特別の委任を受けているかを
+確認し、受けていなければ、Ａの申請意思の撤回による取下げをすることは
+できません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+取下げ不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+還付金受領の特別委任の有無を確認する
+Diagram: The same 「一切の権限」 scroll held by Ｂ, beside coin and revenue
+stamp icons labeled 「還付金」. This flows into the same shared decision
+tree: a diamond branch node labeled 「Ａから、還付金の受領について特別の
+委任を受けているか？」. The はい branch (faded, greyed-out, dotted
+outline) leads to a conclusion node reading 「Ｂはその行為をすることが
+できる」. The いいえ branch (highlighted with a thick colored border, full
+color) leads to a conclusion node reading 「Ｂは還付金を受領することが
+できない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、委任状が「一切の権限」とだけ記載されていることを確認します。次に、
+Ａから過誤納の登録免許税の還付金を受領することについて特別の委任を受けて
+いるかを確認し、受けていなければ、Ｂはその還付金を受領することができません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+受領には特別委任
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+識別情報提供の特別委任の有無を確認する
+Diagram: The same 「一切の権限」 scroll held by Ｂ, beside a computer
+screen showing a key icon (登記識別情報) wrapped by a padlock and gear
+icon (暗号化). This flows into the same shared decision tree: a diamond
+branch node labeled 「Ａから、登記識別情報の暗号化について特別の委任を
+受けているか？」. The はい branch (faded, greyed-out, dotted outline)
+leads to a conclusion node reading 「Ｂはその行為をすることができる」. The
+いいえ branch (highlighted with a thick colored border, full color) leads
+to a conclusion node reading 「Ｂは電子申請で登記識別情報を提供すること
+ができない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、委任状が「一切の権限」とだけ記載されていることを確認します。次に、
+Ａから登記識別情報の暗号化に関する特別の委任を受けているかを確認し、受けて
+いなければ、Ｂは電子申請で登記識別情報を提供することができません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+暗号化に特別委任
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+識別情報受領の特別委任の有無を確認する
+Diagram: The same 「一切の権限」 scroll held by Ｂ, beside a computer
+screen with a file being saved and a key icon returning to its original
+shape via a curved arrow (復号). This flows into the same shared decision
+tree: a diamond branch node labeled 「Ａから、登記識別情報の復号について
+特別の委任を受けているか？」. The はい branch (faded, greyed-out, dotted
+outline) leads to a conclusion node reading 「Ｂはその行為をすることが
+できる」. The いいえ branch (highlighted with a thick colored border, full
+color) leads to a conclusion node reading 「Ｂは自分の使用に係る電子計算機
+のファイルに記録する方法で通知を受けることができない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、委任状が「一切の権限」とだけ記載されていることを確認します。次に、
+Ａから登記識別情報の復号に関する特別の委任を受けているかを確認し、受けて
+いなければ、Ｂは自分のパソコンのファイルに記録する方法で通知を受けること
+ができません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+復号に特別委任
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+審査請求の特別委任の有無を確認する
+Diagram: The same 「一切の権限」 scroll held by Ｂ, beside a document icon
+stamped with a red 却下 mark, with an arrow leading to a separate document
+icon labeled 「審査請求書」. This flows into the same shared decision
+tree: a diamond branch node labeled 「Ａから、審査請求について特別の授権を
+受けているか？」. The はい branch (faded, greyed-out, dotted outline)
+leads to a conclusion node reading 「Ｂはその行為をすることができる」. The
+いいえ branch (highlighted with a thick colored border, full color) leads
+to a conclusion node reading 「Ｂは却下処分に対しＡの代理人として審査請求
+をすることができない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、委任状が「一切の権限」とだけ記載されていることを確認します。次に、
+Ａから審査請求について特別の授権を受けているかを確認し、受けていなければ、
+Ｂは却下処分に対しＡの代理人として審査請求をすることができません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+審査請求は別手続
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+各種先例により、「一切の権限」の委任状だけでは、取下げ・金銭の受領・登記
+識別情報の暗号化復号・審査請求といった重要な行為までは代理できないとされ
+ています（審査請求につき行政不服審査法12条1項参照）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 限, 委, 任, 撤, 回, 還, 付, 識, 別, 暗, 号, 復, 審, 査 and
+any character that has a visually similar Simplified Chinese variant. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+all 5 panels visibly share the same decision-tree layout with only the
+top action icon differing, that every panel's highlighted いいえ branch is
+clearly distinguished from the faded はい branch, that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

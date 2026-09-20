@@ -209,3 +209,185 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、地目変更登記の手続ルールを思考順序に沿って確認できるようにする5パネル構成。ア・オは受験生が引っかかりやすい思い込みと正しいルールを対比させる正誤対比型、イ・ウ・エは単一チェックの図解にする。5肢とも独立した論点のため、決定木を複数肢で共有する構成は取っていない。②の色分け（申請人・前提条件のルール＝緑、申請情報の書き方・添付の要否＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric mansion buildings with a 敷地権 stamp,
+a person clearing a forested plot, a land-use history timeline, two
+separate registration documents, and a calendar with marked dates — adapt
+icon set to the topic of 地目変更登記の手続. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panels 1 and 5 (肢ア・肢オ) test a common misconception, so draw them as a
+side-by-side comparison between the mistaken assumption and the correct
+rule, marking the mistaken side with a red X or strikethrough rather than
+a bare ✕ icon. Unlike a glanceable summary poster, each panel MAY include
+a short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第7問 ア〜オ
+作図ガイド（地目変更登記の手続）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+抹消しなくても地目変更登記はできる
+Diagram: A side-by-side comparison frame. LEFT box (faded, greyed-out,
+dotted outline, labeled 「誤りやすい思い込み」): a mansion building with
+a 敷地権 stamp (敷地権である旨の登記), an arrow toward a 地目変更登記
+document blocked by a large red X, with a speech bubble reading 「まず
+抹消しないと」. RIGHT box (highlighted with a thick colored border, full
+color, labeled 「正しいルール」): the same mansion building with the same
+敷地権 stamp still intact (no cancellation mark), a direct arrow straight
+to the 地目変更登記 document with a checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地に敷地権である旨の登記があるかを確認します。次に、地目は
+その登記の有無にかかわらず現況で認定されることを確認し、その登記を抹消
+する登記を経なくても地目変更登記を申請できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+抹消不要で申請可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+地上権者が変えても申請義務者は所有者
+Diagram: An isometric scene with two people: person A (地上権者, holding
+a pickaxe, clearing a forested plot labeled 山林→宅地) and person B (所有
+権の登記名義人, in business attire, standing beside a registration
+document). An arrow labeled 「申請義務」 points from the document to
+person B only; a second arrow from the document toward person A is shown
+faded, greyed-out, and crossed out, to show that the duty does not fall
+on the person who actually changed the land.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、実際に土地の現況を変えたのが誰か（地上権者か所有者か）を確認します。
+次に、地目変更登記の申請義務を負うのは現況を変えた人ではなく、常に所有権
+の登記名義人であることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+義務者は所有者
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+過去の変更は省き最終だけ登記する
+Diagram: An isometric timeline showing a land plot's history as 田→畑→
+宅地, with the first two transitions (田→畑) rendered faded, greyed-out,
+and crossed through with a strikethrough line, and only the final
+transition to 宅地 highlighted with a bold arrow leading to a single
+registration document icon.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地についてこれまで地目が何度変わったかを確認します。次に、
+その全ての変更を遡って登記する必要はなく、現在の現況に一致する最後の
+変更だけを登記すれば足りることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+現況だけ登記
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+地積変更登記との併合申請は不要
+Diagram: Two separate isometric document icons side by side: one labeled
+「地目変更登記」 with a checkmark, standing alone and independent, the
+other labeled 「地積変更登記」 shown faded and optional, with a broken
+chain icon labeled 「併合不要」 between the two documents (no connecting
+link).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目の変更によって地積欄の記録の書き方が変わるかどうかを確認します。
+次に、それは地目変更登記に伴う記録上の処理であって、地積の変更の登記を
+別途併せて申請する必要はないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+併せて申請不要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+登記原因の日付は許可日でなく現況変更日
+Diagram: A side-by-side comparison frame. LEFT box (faded, greyed-out,
+dotted outline, labeled 「誤りやすい思い込み」): a calendar marked
+「3月1日」 labeled 「農地法所定の許可があった日」, with an arrow toward
+the registration-cause date field blocked by a large red X. RIGHT box
+(highlighted with a thick colored border, full color, labeled 「正しい
+ルール」): a calendar marked 「6月1日」 labeled 「現況が宅地に変わった日」,
+with an arrow to the registration-cause date field and a checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その変更が農地法所定の許可を要する変更かどうかを確認します。次に、
+登記原因の日付として記載すべきは許可があった日ではなく、実際に土地の
+主たる用途が変わった日であることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+現況変更日が基準
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法37条1項ほか、地目変更登記の一般的な取扱いに基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 敷, 地, 権, 抹, 消, 義, 務, 積, 併, 合, 農, 許, 況, 変 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panels 1 and 5
+each clearly distinguish the mistaken assumption from the correct rule
+with a visible X or strikethrough on the mistaken side, that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

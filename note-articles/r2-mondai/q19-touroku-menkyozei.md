@@ -216,3 +216,231 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+本問のア〜オはいずれも、第1欄・第2欄という2つの登記の税額をそれぞれ判定し、その合計額が第3欄の記載と一致するかどうかを確認するという、同じ3段階の判定手順（第1欄を判定する→第2欄を判定する→合計額と第3欄を比較する）を踏む。この共通の決定木の「形」を5パネルすべてで雛形として使い回し、各パネルでは自分の肢に固有の登記の種類・税額・根拠だけを差し替える（②の色分け〈第3欄と一致＝緑、不一致＝青〉を引き継いでいる）。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（区分
+建物の合併は課税、でも合体は非課税なんです）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots and buildings, coin/
+price-tag icons, torn「非課税」paper labels, and a balance-scale comparison
+icon — adapt icon set to the topic of registration tax amounts. Every
+panel in this set requires checking multiple conditions in sequence
+before reaching a conclusion, so draw every panel's diagram as an actual
+decision flowchart using the SAME three-step template shape across all 5
+panels: (1) a labeled box for 第1欄's registration, feeding into a
+diamond node asking whether it is taxed at the flat 1,000円-per-item rate
+(登録免許税法別表第一1(13)) or exempt, with the resulting amount; (2) a
+parallel labeled box for 第2欄's registration, feeding into the same kind
+of diamond node, with its resulting amount; (3) a final comparison
+diamond asking whether the combined result from steps 1 and 2 matches
+第3欄's stated figure, with two labeled conclusion nodes — 「第3欄と一致
+（正しい組合せ）」on one side and「第3欄と不一致（誤った組合せ）」on the
+other — never a bare Yes/No with no destination, and never an arrow that
+loops back to an earlier node. In each panel, render the conclusion node
+that matches that 肢's actual outcome with a thick highlighted border and
+full color, and render the other, inapplicable conclusion node in a
+faded, greyed-out, dotted-outline style rather than omitting it. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第19問 ア〜オ
+作図ガイド（登録免許税）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+第1欄の合筆も第2欄の分筆も1,000円
+Diagram: The shared three-step flowchart. Box 1: 第1欄「いずれも所有権の
+登記のある2筆の土地の合筆の登記」→ diamond「不動産1個につき1,000円の定
+額課税（登録免許税法別表第一1(13)ロ）に該当するか」→ はい →「合筆後の
+土地1筆で1,000円」. Box 2: 第2欄「一部地目変更（墓地）及び分筆の登記」→
+diamond「同様の定額課税に該当するか」→ 墓地になった部分は非課税、残る
+分筆後の土地1筆は1,000円で、合計「1,000円」. Final comparison diamond
+「第1欄・第2欄の税額はいずれも第3欄『1,000円』と一致するか」with the
+はい branch（highlighted with a thick colored border, full color）leading
+to a conclusion node「第3欄と一致（正しい組合せ）」, and the いいえ branch
+（faded, greyed-out, dotted-outline）leading to a conclusion node「第3欄
+と不一致（誤った組合せ）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、第1欄の合筆の登記の税額を確認します。合筆後の土地1筆につき1,000
+円です。次に、第2欄の一部地目変更・分筆の登記の税額を確認すると、墓地
+になった部分は非課税、残る分筆後の土地には1,000円が課され、合計1,000
+円になります。両方とも第3欄の「1,000円」と一致するため、この組合せは
+正しい記述です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+第3欄と一致（正）
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+第1欄の再区分も第2欄の分筆も2,000円
+Diagram: The same shared three-step flowchart shape. Box 1: 第1欄「2筆の
+土地の所有権を敷地権とする所有権の登記のある1個の区分建物を2個の区分
+建物とする再区分の登記」→ diamond「区分後の建物1個につき1,000円の定額
+課税に該当するか」→ はい →「2個で合計2,000円」. Box 2: 第2欄「国と私人
+が共有する所有権の登記のある土地を2筆にする分筆の登記」→ diamond「分筆
+後の土地1筆につき1,000円の定額課税に該当するか（国の持分があっても通常
+どおり課税）」→ はい →「2筆で合計2,000円」. Final comparison diamond
+「第1欄・第2欄の税額はいずれも第3欄『2,000円』と一致するか」with the
+はい branch（highlighted with a thick colored border, full color）leading
+to a conclusion node「第3欄と一致（正しい組合せ）」, and the いいえ branch
+（faded, greyed-out, dotted-outline）leading to a conclusion node「第3欄
+と不一致（誤った組合せ）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、第1欄の再区分の登記の税額を確認します。区分後の建物1個につき
+1,000円なので、2個で2,000円です。次に、第2欄の共有地の分筆の税額を確
+認すると、国の持分があっても通常どおり課税され、分筆後の土地1筆につき
+1,000円で2筆分の2,000円になります。両方とも第3欄の「2,000円」と一致す
+るため、この組合せは正しい記述です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+第3欄と一致（正）
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+第1欄の区分建物の合併は1,000円で課税
+Diagram: The same shared three-step flowchart shape. Box 1: 第1欄「一棟の
+建物に属する2個の区分建物を1個の区分建物でない建物とする区分建物の合併
+の登記」→ diamond「不動産1個につき1,000円の定額課税（登録免許税法別表
+第一1(13)ロ）に該当するか」→ はい →「合併後の建物1個で1,000円（課税）」.
+Box 2: 第2欄「2個の建物が合体して1個の建物となったためにする合体による
+登記等」→ diamond「同様の定額課税に該当するか」→ いいえ、同項に列挙され
+ていないため →「非課税」. Final comparison diamond「第1欄・第2欄の税額は
+いずれも第3欄『非課税』と一致するか」with the いいえ branch（highlighted
+with a thick colored border, full color, red accent）leading to a
+conclusion node「第3欄と不一致（誤った組合せ、第1欄は1,000円で課税）」,
+and the はい branch（faded, greyed-out, dotted-outline）leading to a
+conclusion node「第3欄と一致（正しい組合せ）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、第1欄の区分建物の合併の登記の税額を確認します。合併後の建物1個
+につき1,000円が課され、非課税ではありません。次に、第2欄の合体による
+登記等の税額を確認すると、こちらは非課税です。第1欄が1,000円である以
+上、第3欄の「非課税」とは一致しないため、この組合せは誤りです。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+第3欄と不一致（誤）
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+第1欄の合筆抹消も第2欄の代位分筆も非課税
+Diagram: The same shared three-step flowchart shape. Box 1: 第1欄「いず
+れも所有権の登記のある2筆の土地の合筆の登記を、錯誤を原因として抹消す
+る登記」→ diamond「不動産1個につき1,000円の定額課税に該当するか」→
+いいえ、錯誤による抹消のため →「非課税」. Box 2: 第2欄「私人を所有権の
+登記名義人とする土地の一部を取得した地方公共団体が、私人に代位して行
+う当該土地を2筆にする分筆の嘱託」→ diamond「国又は地方公共団体等がこれ
+ら以外の者に代わってする登記（登録免許税法5条1号）に該当するか」→ はい
+→「非課税」. Final comparison diamond「第1欄・第2欄の税額はいずれも第3
+欄『非課税』と一致するか」with the はい branch（highlighted with a thick
+colored border, full color）leading to a conclusion node「第3欄と一致
+（正しい組合せ）」, and the いいえ branch（faded, greyed-out,
+dotted-outline）leading to a conclusion node「第3欄と不一致（誤った組合
+せ）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、第1欄の錯誤を原因とする合筆の抹消の登記の税額を確認すると、非課
+税です。次に、第2欄の地方公共団体が私人に代位して行う分筆の嘱託の税額
+を確認すると、国又は地方公共団体等がこれら以外の者に代わってする登記
+として非課税です。両方とも第3欄の「非課税」と一致するため、この組合せ
+は正しい記述です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+第3欄と一致（正）
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+第2欄の宗教法人の土地分筆は2,000円で課税
+Diagram: The same shared three-step flowchart shape. Box 1: 第1欄「1個の
+建物の表題部所有者の住所の変更の登記」→ diamond「不動産1個につき
+1,000円の定額課税に該当するか」→ いいえ、住所の変更登記のため →「非課
+税」. Box 2: 第2欄「宗教法人が所有権の登記名義人である土地を2筆にする分
+筆の登記」→ diamond「分筆後の土地1筆につき1,000円の定額課税に該当する
+か（宗教法人であっても通常どおり課税）」→ はい →「2筆で合計2,000円」.
+Final comparison diamond「第1欄・第2欄の税額はいずれも第3欄『非課税』と
+一致するか」with the いいえ branch（highlighted with a thick colored
+border, full color, red accent）leading to a conclusion node「第3欄と不
+一致（誤った組合せ、第2欄は2,000円で課税）」, and the はい branch
+（faded, greyed-out, dotted-outline）leading to a conclusion node「第3欄
+と一致（正しい組合せ）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、第1欄の表題部所有者の住所の変更の登記の税額を確認すると、非課税
+です。次に、第2欄の宗教法人名義の土地の分筆の税額を確認すると、宗教法
+人であっても通常の分筆と同じく分筆後の土地1筆につき1,000円、2筆分で
+2,000円が課されます。第2欄が2,000円である以上、第3欄の「非課税」とは
+一致しないため、この組合せは誤りです。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+第3欄と不一致（誤）
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+登録免許税法別表第一1(13)・5条1号に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 録, 権, 登, 記, 筆, 分, 併, 錯, 誤, 墓, 宗, 教, 私, 団, 体,
+致 and any character that has a visually similar Simplified Chinese
+variant. If any character renders as a Simplified Chinese variant, redraw
+that character in the correct Japanese form. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every panel is drawn as the same three-step decision-flowchart shape
+(第1欄判定, 第2欄判定, 第3欄との比較) with both outcomes of the final
+comparison diamond given their own labeled conclusion node and the
+applicable one highlighted while the other is faded, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct, confirm nothing
+is rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```

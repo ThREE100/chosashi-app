@@ -208,3 +208,200 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+附属建物の登記で誤りやすい思い込みを、ア・イ・エの3肢は正誤対比型で、
+ウ・オの2肢は配置図型で示す5パネル構成。②の色分け（登記の扱い方＝緑、
+申請・添付の要件＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a main house (母屋) being demolished beside a
+surviving shed (附属建物), a group of co-owner figures signing an
+application together, a cross-section apartment building with a main
+区分建物 and a storage 区分建物 each linked to their own 敷地権, an old
+shed torn down to its 基礎 with an identical new shed built on it, and a
+newly built garage beside a main house with a 所有権証明情報 document —
+adapt icon set to the topic of 附属建物の登記. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Panels 1, 2, and 4（肢ア・肢イ・肢エ）must each be drawn as a
+正誤対比型 side-by-side comparison, because each of these 肢 corrects a
+specific intuitive-but-wrong assumption: draw a red-background 誤りやすい
+イメージ side with a large ✕ next to a green-background 正しい仕組み side
+with a large checkmark. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state
+the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"),
+not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第13問 ア〜オ
+作図ガイド（附属建物の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+母屋滅失後は抹消か変更かを見分ける
+Diagram: A 正誤対比型 side-by-side comparison. LEFT box（誤りやすいイメー
+ジ、red background）: a main house (母屋) being demolished, and beside it
+a small shed (附属建物) that is also shown being erased, with a stamp
+icon labeled 建物の表題部の登記の抹消 and a large red ✕. RIGHT box（正し
+い仕組み、green background）: the main house being demolished while the
+small shed beside it remains standing untouched, an arrow pointing from
+the shed to a label tag reading 新しい主である建物, and a stamp icon
+labeled 建物の表題部の変更登記 with a large green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、主である建物だけが取壊しにより滅失し、附属建物が残っているかどう
+かを確認します。附属建物が残っている場合は、登記記録ごと抹消するのでは
+なく、残った附属建物を新たな主である建物とする「建物の表題部の変更の登
+記」を申請することを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+抹消でなく変更
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+附属建物の分割は申請人が誰かを確認する
+Diagram: A 正誤対比型 side-by-side comparison. LEFT box（誤りやすいイメー
+ジ、red background）: one co-owner figure alone holding a document
+labeled 他の共有者の承諾を証する情報 and a form labeled 建物の分割の登
+記, walking to a registry counter alone, with a large red ✕. RIGHT box
+（正しい仕組み、green background）: all co-owner figures standing
+together, each holding a pen and signing the same form labeled 建物の分
+割の登記 together, with a large green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分割の対象となる附属建物が共有名義であるかどうかを確認します。共
+有名義である場合は、他の共有者の承諾を証する情報を提供すれば共有者の一
+人から申請できるわけではなく、共有者全員の意思に基づいて申請する必要が
+あることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+共有者全員で申請
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+主と附属、それぞれの敷地権の記載を確認する
+Diagram: An isometric cross-section of an apartment building showing a
+main unit (主である建物、区分建物) and a small storage/trunk-room unit
+(附属建物、区分建物) stacked together. Two separate dashed lines run down
+from each unit to the land plot below, ending in two distinct labeled
+tags placed side by side: 主である建物に係る敷地権 and 附属建物に係る敷
+地権, clearly kept apart from each other.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、主である建物と附属建物がいずれも同一の一棟の建物を区分した敷地権
+のある区分建物であるかどうかを確認します。その場合は、表題登記を申請す
+るときに、主である建物に係る敷地権と附属建物に係る敷地権とを区別して表
+示することを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+敷地権は区別表示
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+基礎を残した再築が新築扱いかを確認する
+Diagram: A 正誤対比型 side-by-side comparison. LEFT box（誤りやすいイメー
+ジ、red background）: an old shed torn down to its 基礎 with an identical
+new shed built on it, a label tag reading 種類・構造・床面積が同一だから
+同一性あり and a crossed-out building-plan document icon labeled 建物図
+面は不要, with a large red ✕. RIGHT box（正しいルール、green
+background）: the same scene, but the label tag instead reads 再築は新築
+扱い and the building-plan document icon labeled 建物図面が必要 carries a
+large green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、既存の附属建物を取り壊して（基礎部分を残す場合を含む）新たな建物
+を建築したかどうかを確認します。種類・構造・床面積が同一であっても、そ
+れは再築として新たな建物を新築したものと扱われるため、添付情報として建
+物図面が必要であることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+新築として扱う
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+附属建物新築時の添付情報を確認する
+Diagram: An isometric main house with a newly built garage/shed (車庫)
+being added beside it, construction icons around it. A document icon
+labeled 所有権証明情報 is being handed toward a form icon labeled 建物の
+表題部の変更登記, with a checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、附属建物を新築したことによる建物の表題部の変更の登記を申請するか
+どうかを確認します。その場合は、添付情報として、その附属建物について表
+題部所有者又は所有権の登記名義人が所有権を有することを証する情報（所有
+権証明情報）を提供する必要があることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+所有権証明が必要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則83条・102条、不動産登記令別表14項添付情報ハ
+に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 滅, 失, 抹, 消, 敷, 礎, 築, 証, 附, 属 and any character that
+has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢 is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that no 肢 with a genuinely hidden
+second condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion, that
+Panels 1, 2, and 4 each clearly distinguish their red 誤りやすいイメージ
+side from their green 正しい仕組み side, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

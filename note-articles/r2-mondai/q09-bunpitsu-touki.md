@@ -206,3 +206,196 @@ between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as a
 short heading + a short conclusion tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+分筆の登記を「誰が・どんな順序で確認して」申請・嘱託・代位できるかを、肢ごとに最適な図の型（決定木・配置図・対比枠）で示す5パネル構成。5肢はそれぞれ別々の主体・場面を扱うため、②と同様に複数肢で1つの決定木を共有する構成にはしていない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a registrar (登記官) holding a 地図, a
+landowner reacting with 異議の有無, a single application document showing
+both 地目変更 and 分筆, a river (河川) crossing a land plot with a
+河川管理者 figure, a land plot shared by two co-owner figures with 持分,
+and a courthouse holding a 判決確定 document — adapt icon set to the
+topic of 分筆の登記における職権・嘱託・代位. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第9問 ア〜オ
+作図ガイド（分筆の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+職権分筆は異議の有無を確認する
+Diagram: A single diamond decision node. Above it, a registrar (登記官)
+holding a 地図 icon, with a label 地図作成のため必要があると認めるとき.
+The diamond node reads 所有権の登記名義人に異議があるか. A green いいえ
+（異議なし）branch arrow leads down to a conclusion node reading 登記官
+が職権で分筆の登記をすることができる. A red はい（異議あり）branch arrow
+leads to a separate conclusion node reading 登記官は職権で分筆の登記をす
+ることができない. Do not draw any arrow that loops back to an earlier
+node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記官が地図を作成するために分筆が必要だと認めたかどうかを確認しま
+す。次に、所有権の登記名義人に異議があるかどうかを確認し、異議がない場合
+に限り、登記官は職権で分筆の登記をすることができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+異議なしが条件
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+地目変更との一括申請は登記原因・日付を記載する
+Diagram: A single application document icon labeled 一の申請情報, split
+into two labeled sections placed side by side inside it: one section
+shows a land plot with a portion shaded and labeled 地目変更、その脇に
+年月日地目変更と書かれたカレンダーアイコン; the other section shows the
+same land plot with a dividing line labeled 分筆. An arrow points from
+the 地目変更 section to a small note box reading 登記原因及びその日付を
+記載.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目に関する変更の登記と分筆の登記を一の申請情報でまとめて申請する
+かどうかを確認します。次に、その場合は地目変更についての登記原因（年月日
+地目変更）及びその日付を申請情報の内容として記載する必要があることを確認
+します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+登記原因・日付を記載
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+土地の一部が河川区域内になったかを確認する
+Diagram: An isometric land plot with a blue winding river (河川) covering
+part of it, labeled 河川区域内の土地となった部分. A river-administrator
+figure (河川管理者) holds a document labeled 嘱託 and walks directly
+toward a registry-office icon (登記所), while a landowner figure stands
+passively to the side with a label 所有権の登記名義人に代わって（代位し
+て）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地の一部が河川法の定める河川区域内の土地となったかどうかを確認し
+ます。次に、その旨の登記を登記所に嘱託するときは、河川管理者が土地の所有
+権の登記名義人に代わって、その土地の分筆の登記を登記所に嘱託できることを
+確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代位して嘱託できる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+買収されたのは土地の一部か持分かを見分ける
+Diagram: A side-by-side comparison frame. LEFT box（faded, greyed-out,
+dotted outline, since this panel is not about this branch）labeled
+物理的な一部分の取得（本肢の場面ではない）: a land plot with a clearly
+separated portion being handed to a government figure (国), a bold arrow
+labeled 代位して分筆を申請できる. RIGHT box（highlighted with a thick
+colored border, full color, since this panel is about this branch）
+labeled 持分の取得（本肢の場面）: a single undivided land plot shared by
+two co-owner figures Ａ and Ｂ, with only Ａの持分 being transferred to
+国 via a small arrow labeled 持分譲渡, the land plot itself remaining a
+single unsplit shape.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、国が買収によって取得したのが土地の物理的な一部分なのか、それとも共
+有者の持分なのかを確認します。持分の取得にとどまる場合は、土地が共有にな
+るだけで物理的に土地を分ける前提とは異なるため、国が当然に代位して分筆の
+登記を申請できるとする根拠はないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代位分筆の根拠なし
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+判決確定後に共有者が協力するかを確認する
+Diagram: A sequence starting with a courthouse icon holding a document
+labeled 共有物分割の判決（または和解）が確定, leading down into a diamond
+decision node reading 他方の共有者（Ｂ）が分筆の登記の申請に協力するか. A
+green はい（協力する）矢印 leads to a conclusion node reading 共有者全員
+で通常どおり分筆の登記を申請する. A red いいえ（協力しない）矢印 leads to
+a separate conclusion node reading 他方の共有者（Ａ）がＢに代位して分筆の
+登記を申請できる. Do not draw any arrow that loops back to an earlier
+node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、共有物分割請求訴訟の判決（または訴訟上の和解）が確定しているかどう
+かを確認します。次に、一方の共有者が分筆の登記の申請に協力するかどうかを
+確認し、協力しない場合は、他方の共有者がその者に代位して分筆の登記を申請
+できることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+非協力なら代位可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法39条3項・43条4項、民法423条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 職, 異, 議, 権, 図, 筆, 嘱, 託, 買, 収, 譲, 渡, 協, 確, 認,
+続, 訴, 訟, 決 and any character that has a visually similar Simplified
+Chinese variant. If any character renders as a Simplified Chinese
+variant, redraw that character in the correct Japanese form. Confirm the
+panel count equals 5 exactly, badge numbers run 1-5 continuously, there
+is no intro illustration or paragraph block between the header and the
+panels, that every multi-condition 肢 is drawn as an actual flowchart
+with branch nodes (not a bare illustration with no visible decision
+structure), that no 肢 with a genuinely hidden second condition has been
+flattened into a single check, that each 着眼点 callout states a checking
+order rather than only a conclusion, that Panel 4's comparison frame
+clearly distinguishes its own highlighted box from the faded, unrelated
+box, confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

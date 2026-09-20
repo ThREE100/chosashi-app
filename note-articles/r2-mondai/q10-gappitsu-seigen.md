@@ -210,3 +210,200 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+合筆の登記の制限を「どの要件をどんな順序で確認すれば合筆できるか・できな
+いか」まで踏み込んで示す5パネル構成。エは「承役地の地役権」と「要役地の
+地役権」を見分ける対比枠を使い、それ以外の4肢はそれぞれ独立した確認手順
+として描く。②の列分け（合筆できる例外＝緑、合筆できない事由＝青）の色分
+けを引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — 甲土地と乙土地 drawn side by side, mortgage
+stamp icons (抵当権) with matching 受付年月日・受付番号 labels, a street
+sign showing 地番区域, a trust document icon (信託目録), an easement path
+connecting a 承役地 and its 要役地, and a dashed-outline 仮登記 stamp —
+adapt icon set to the topic of 合筆の登記の制限. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Panel 4（肢エ）must be drawn as a side-by-side comparison
+frame distinguishing 承役地についてする地役権の登記 from 要役地について
+する地役権の登記, because the whole point of this 肢 is telling the two
+apart; highlight（太い縁取り・フルカラーで強調）the box relevant to this
+肢（要役地）and render the other box in a faded, greyed-out style. Unlike
+a glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第10問 ア〜オ
+作図ガイド（合筆の登記の制限）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+担保権登記の内容が完全に同一かを確認する
+Diagram: A two-step decision flowchart. Diamond node 1: 甲土地と乙土地の
+抵当権の登記の目的・受付年月日・受付番号・登記原因及びその日付がすべて
+同一か. A red いいえ branch leads to a conclusion node reading 合筆の登
+記を申請することはできない. A green はい branch leads down to diamond
+node 2: その後にされた抵当権の変更の登記の内容も同一か. A green はい
+branch leads to a conclusion node reading 合筆の登記を申請することがで
+きる. A red いいえ branch leads to a separate conclusion node reading
+合筆の登記を申請することはできない. Do not draw any arrow that loops
+back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地と乙土地の抵当権の登記の目的・受付年月日・受付番号・登記原因
+及びその日付がすべて同一かどうかを確認します。次に、その後にされた抵当
+権の変更の登記の内容も同一かどうかを確認し、両方が同一である場合に限り
+合筆の登記を申請することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+内容同一なら合筆可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+地番区域が同じかを確認する
+Diagram: A single diamond decision node reading 甲土地と乙土地の地番区域
+が相互に異なるか. A red はい（区域が異なる）branch arrow leads to a
+conclusion node reading 合筆の登記を申請することはできない. A green
+いいえ（区域が同じ）branch arrow leads to a separate conclusion node
+reading 他の制限事由がなければ合筆の登記を申請できる. Do not draw any
+arrow that loops back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地と乙土地の地番区域が相互に異なるかどうかを確認します。地番
+区域が異なる場合は、その時点で合筆の登記を申請することができません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+区域相違は合筆不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+信託目録の記録事項が同一かを確認する
+Diagram: A single diamond decision node reading 甲乙両土地の信託目録に
+記録された登記事項が同一か, positioned below an illustration of 甲土地
+と乙土地 each carrying a trust registration icon (信託の登記). A green
+はい branch arrow leads to a conclusion node reading 信託の登記があって
+も合筆の登記を申請することができる. A red いいえ branch arrow leads to
+a separate conclusion node reading 原則どおり合筆の登記を申請すること
+はできない. Do not draw any arrow that loops back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲乙両土地にいずれも信託の登記がされていることを確認します。次に、
+双方の信託目録に記録された登記事項が同一かどうかを確認し、同一である場
+合に限り、信託の登記があっても合筆の登記を申請することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+信託目録が同一なら可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+承役地の地役権か要役地の地役権かを見分ける
+Diagram: A side-by-side comparison frame. LEFT box（highlighted with a
+thick colored border, full color, since this panel is about this
+branch）labeled 要役地についてする地役権の登記（本肢の場面）: 甲土地と
+乙土地が、丙土地を承役地とする地役権の利益を受ける要役地として描かれ、
+地役権設定の目的・範囲・登記の年月日が同一であっても、甲乙を結ぶ合筆の
+矢印に赤い✕が重なる. RIGHT box（faded, greyed-out, dotted outline）
+labeled 承役地についてする地役権の登記（合筆の例外に当たる場面）: 丙土
+地（承役地）側に地役権の登記がある図が薄く描かれ、要件を満たせば合筆○
+となることを小さく示す.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地役権の登記が「承役地についてする登記」なのか、それとも「要役地
+についてする登記」なのかを見分けます。合筆の制限の例外として認められて
+いるのは承役地についてする地役権の登記だけなので、本肢のように要役地と
+しての地役権の登記しかない場合は、目的・範囲・登記の年月日が同一であっ
+ても合筆の登記を申請することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+要役地は例外外
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+所有権移転の仮登記の有無を確認する
+Diagram: A single diamond decision node reading 甲土地と乙土地に所有権
+移転の仮登記がされているか. A red はい branch arrow leads to a
+conclusion node reading 内容が同一であっても合筆の登記を申請することは
+できない. A green いいえ branch arrow leads to a separate conclusion
+node reading 他の制限事由がなければ合筆の登記を申請できる. Do not draw
+any arrow that loops back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地と乙土地に所有権移転の仮登記がされているかどうかを確認しま
+す。仮登記がある場合は、その内容が両土地で同一であっても、合筆の登記を
+申請することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+仮登記があれば不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法41条2号、不動産登記規則105条1号・2号・3号に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 抵, 当, 更, 番, 域, 信, 託, 録, 役, 承, 仮 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢 is drawn as an actual flowchart with branch nodes (not
+a bare illustration with no visible decision structure), that no 肢 with
+a genuinely hidden second condition has been flattened into a single
+check, that each 着眼点 callout states a checking order rather than only
+a conclusion, that Panel 4's comparison frame clearly distinguishes its
+own highlighted box from the faded, unrelated box, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

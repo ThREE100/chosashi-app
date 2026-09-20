@@ -216,7 +216,7 @@ tag, at a glance.
 
 ## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
 
-上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（マンション本体と規約敷地の位置関係、登記所の管轄、登記記録のどこに何を書くか、名義表示の食い違い、敷地権割合の計算など）を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに「着眼点」の短い説明文を添えている。こうした敷地権の問題を解くとき、まず何を図に落とし込めば正誤判定にたどり着けるかの練習素材として使う。
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの確認順序を肢ごとに示す作図ガイド。ア・イ・オは単一のチェックで完結する肢のため通常の図解で示し、ウは「土地側と専有部分側の名義表示が一致しているか」を起点とする決定木、エは「敷地の所有権登記名義人と区分建物所有者の同一性」「分離処分を可能とする規約の有無」という2条件をANDで満たす必要がある決定木として描く。②の色分け（規約証明情報の要否＝緑、敷地権の表示・前提ルール＝青）を引き継いでいる。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -224,28 +224,56 @@ clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article, but
 built as a set of 5 diagram-drawing panels (a "how to sketch this fact
-pattern" study reference) rather than a quick-reference conclusion poster.
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
 
 DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
-reading this type of problem — the spatial layout of マンション本体・
-規約敷地・登記所の管轄区域, the fields on a registry record card, the
-name/address tags being compared, and small ✓/✕ marks showing which
-condition is satisfied. Unlike a glanceable summary poster, each panel MAY
-include a short「着眼点」callout box with 1-2 sentences of guidance on
-what to check first. Do not include case or precedent numbers (article/
+reading this type of problem, AND the order in which they should check
+conditions to get there — two registry-office icons marking different
+jurisdictions, a registry record card with blank or filled fields, two
+name-and-address tags being compared side by side, a broken-chain icon
+for 分離処分, and fraction/calculator icons for 敷地権割合の合算 — adapt
+icon set to the topic of 敷地権. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No（はい／いいえ）branch arrows, and a
+final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panel 3（肢ウ）must be drawn as a decision flowchart starting from a
+diamond node asking whether the land-side and unit-side name/address
+displays match; highlight the いいえ branch（太い縁取り・フルカラー）
+because that is the fact pattern this 肢 tests, and give the はい branch
+its own faded conclusion node rather than leaving it blank. Panel 4
+（肢エ）must be drawn as a two-step flowchart with two separate diamond
+nodes — 敷地の所有権登記名義人は区分建物の所有者と同一か, and 規約で
+分離処分を可能とする旨を定めているか — because these are two distinct
+conditions that must both be satisfied, and neither may be compressed
+into a single check. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers (article/
 regulation numbers are fine); keep the callout text as written below
-verbatim.
+verbatim, and keep every condition each callout describes faithful to
+the article's own body text.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 規・約・敷・地・権・
-証・明・登・記・原・因・変・更・分・離・処・合・体・割, which have
-visibly different Simplified Chinese forms — always draw the standard
-Japanese (Jōyō) form.
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -260,83 +288,94 @@ Subtitle (smaller, centered, 2行):
 ブロックは置かない。）
 
 --- PANEL 1（肢ア） ---
-Badge: a filled circle in blue containing the number 1 (numbers run
+Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
-「管轄が同じか別か」を地図に描く
+規約敷地の管轄が区分建物と異なるかを確認する
 Diagram: 2つの登記所アイコンを離して描き、それぞれが担当する地域を
 点線の境界線で囲む。片方の地域にマンション（区分建物）のアイソメトリック
 建物を描き、その脇に「敷地権」のラベルを付ける。もう片方の、離れた
 地域に別の土地（規約敷地）を描き、その土地を点線で2つに分ける「分筆」
 の矢印を描き込む。規約敷地のそばに「規約を設定したことを証する情報」
 という書類アイコンを描き、大きな赤い✕を重ねる。
-着眼点 callout (1-2 sentences, verbatim):
-規約敷地とマンション本体が「同じ登記所の管轄内か、別の管轄か」を、まず
-地図の境界線として描き分けます。管轄が別なら、その土地を扱う登記所は
-規約の中身まで確認する必要がないと考えます。
-Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、規約敷地とマンション本体が同じ登記所の管轄内か、別の管轄かを
+地図の境界線として確認します。管轄が別であることを確認できれば、その
+土地を扱う登記所は規約の中身まで確認する必要がないため、規約証明情報
+の添付は不要と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 別管轄なら証明不要
 
 --- PANEL 2（肢イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
-登記記録の「空欄」に何を足すかを図にする
+更正登記でも敷地権の原因・日付を記録する
 Diagram: マンション（区分建物）のアイソメトリック建物の横に、開いた
 登記記録の帳簿アイコンを描く。帳簿の「敷地権の表示」欄を点線の空欄
 （未記入）として描き、「敷地権はあったのに登記されていなかった」ことを
 示す小さな吹き出しを添える。矢印の先に、更正後の帳簿を描き、そこに
 「登記原因」と「その日付」という2つのラベル付きマスを緑のチェックマーク
 とともに描き込む。
-着眼点 callout (1-2 sentences, verbatim):
-「敷地権が本来あったのに登記されていない」という前提を図に描いたら、
-更正登記で埋める欄が「敷地権の種類・割合」だけでなく「登記原因・その
-日付」まで含むことを、帳簿のマスとして具体的に描き込みます。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、敷地権が本来あったのに登記されていなかったという前提を図に
+描きます。次に、更正登記で埋める欄が「敷地権の種類・割合」だけでなく
+「登記原因・その日付」も含むことを、帳簿のマスとして具体的に確認します。
 Conclusion tag (blue, 5-15 Japanese characters):
-原因・日付も書き込む
+原因・日付も記録
 
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
-2枚の登記記録を並べて「表示」を見比べる
-Diagram: 左右に2枚の登記記録カードを並べて描く。左のカードは「土地
-（敷地）」の所有権登記名義人の欄で、名前と住所タグを描く。右のカードは
-「専有部分（区分建物）」の所有権登記名義人の欄で、同じ人物アイコンだが
-住所タグの表記が少しだけ違う（例：番地の書き方が違う）ものを描く。
-2枚のカードの間に「同一性証明情報」の書類アイコンを描き、それだけで
-直接「敷地権発生の変更登記」へ向かおうとする近道の矢印を赤い✕で消す。
-代わりに、まず「住所変更・更正登記」のスタンプへ向かう矢印を緑の
-チェックマーク付きで描き、そこから改めて「敷地権発生の変更登記」へ
-続く矢印を描く。
-着眼点 callout (1-2 sentences, verbatim):
-2枚の登記記録の「表示（住所等）」を並べて見比べ、食い違いがあれば、
-証明書を足すだけで済ませようとせず、先に表示を直す登記が要ると図に
-描き込みます。
+名義表示が一致しているかをまず確認する
+Diagram: A decision flowchart. 土地側（敷地権となる土地）の所有権登記
+名義人の表示と、専有部分側の所有権登記名義人の表示を、2枚の登記記録
+カードとして左右に並べて描く。両方のカードの氏名タグ・住所タグを見比べる
+矢印の先に、ひし形の分岐ノード「表示は一致しているか」を配置する。はい
+側（faded, greyed-out, dotted outline）は、そのまま敷地権発生を原因と
+する区分建物の表題部の変更の登記を申請できるという結論ノードにつなげる。
+いいえ側（highlighted, thick colored border, full color, since this is
+the article's fact pattern）は、「同一性を証する情報」だけを添えて直接
+「敷地権発生の変更の登記」へ向かおうとする近道の矢印を赤い✕で消し、
+代わりに「まず住所・氏名の変更・更正登記をする」という結論ノードへ進み、
+そこから改めて「敷地権発生の変更の登記を申請する」という最終結論ノードへ
+矢印を続ける。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地側と専有部分側、2枚の登記記録の名義表示を並べて見比べ、一致
+しているかを確認します。一致していない場合は、同一性を証する情報を
+添えるだけで済ませようとせず、まず住所・氏名の変更・更正登記を申請して
+表示を一致させ、そのうえで敷地権発生の変更の登記を申請する必要がある
+と判断します。
 Conclusion tag (blue, 5-15 Japanese characters):
-証明書だけでは近道できない
+証明書だけでは不可
 
 --- PANEL 4（肢エ） ---
-Badge: a filled circle in blue containing the number 4.
+Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
-「鎖が切れている」規約を図にする
-Diagram: 区分建物（専有部分）のアイソメトリック建物と、その真下の
-敷地（土地）を描き、通常なら両者をつなぐはずの鎖アイコンを、あえて
-「切れた」状態で描く。切れた鎖の脇に「分離処分を可能とする規約」の
-ラベルを付ける。敷地の所有権登記名義人と専有部分の所有者が同一人物
-であることを示す矢印も描き添える。申請書類の束に、「規約の定めを証する
-情報」という書類アイコンが緑のチェックマーク付きで添付される様子を
-描く。
-着眼点 callout (1-2 sentences, verbatim):
-土地の権利は原則として自動的に敷地権になりますが、規約で「分離して
-処分してよい」と定めた場合は例外です。鎖が切れている図を描いたら、
-その例外を裏付ける規約の証明書が要ることも一緒に描き込みます。
-Conclusion tag (blue, 5-15 Japanese characters):
-例外には証明書が必要
+名義人の同一性と分離処分規約を順に確認する
+Diagram: A two-step decision flowchart. 区分建物（専有部分）のアイソ
+メトリック建物とその真下の敷地（土地）を描く。最初のひし形ノード
+（highlighted, thick border）「敷地の所有権登記名義人は区分建物の
+所有者と同一か」。はい側（highlighted）の矢印は2つ目のひし形ノードへ
+進む。いいえ側（faded）の矢印は結論ノード「本肢の場面ではない」へ進む。
+2つ目のひし形ノード（highlighted）「規約で専有部分と敷地利用権との
+分離処分を可能とする旨を定めているか」。両者をつなぐ鎖アイコンを、この
+場面では「切れた」状態で描く。はい側（highlighted）は結論ノード「規約
+の定めを証する情報が必要」へ、緑のチェックマーク付きの書類アイコンが
+申請書類の束に添付される様子とともに描く。いいえ側（faded）は結論
+ノード「規約がなければ通常どおり自動的に敷地権となる」へ進む。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、敷地の所有権登記名義人が区分建物の所有者と同一であるかを確認
+します。次に、規約で専有部分と敷地利用権との分離処分を可能とする旨を
+定めているかを確認し、両方を満たす場合に初めて、その規約の定めを証する
+情報の提供が必要になると判断します。
+Conclusion tag (green, 5-15 Japanese characters):
+規約の証明書が必要
 
 --- PANEL 5（肢オ） ---
-Badge: a filled circle in blue containing the number 5.
+Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
-割合の足し算が合うかを図にする
+合算で割合が出るかを計算式で確認する
 Diagram: 甲区分建物と乙区分建物という2つのアイソメトリック建物を、
 共通の敷地の上に隣接させて描く。甲建物の上に「3分の1」という分数
 ラベル、乙建物の上に「6分の1」という分数ラベルを描く。2つの建物が
@@ -344,11 +383,12 @@ Diagram: 甲区分建物と乙区分建物という2つのアイソメトリッ�
 1」という計算式を電卓アイコンとともに描く。その脇に「敷地権の割合に
 係る規約を設定したことを証する情報」という書類アイコンを描き、大きな
 赤い✕を重ねる。
-着眼点 callout (1-2 sentences, verbatim):
-合体前の割合を単純に足し算した値と、合体後の割合が一致するかを、
-計算式として図に描き込みます。一致していれば、新たに割合を定めた
-規約とは扱われず、証明情報も不要になります。
-Conclusion tag (blue, 5-15 Japanese characters):
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体前の各敷地権の割合を単純に足し算した値を計算式として図に
+描きます。次に、その合算値が合体後の敷地権の割合と一致するかを確認し、
+一致していれば新たに割合を定めた規約とは扱われないため、規約証明情報
+の提供は不要と判断します。
+Conclusion tag (green, 5-15 Japanese characters):
 足し算が合えば証明不要
 
 --- FOOTER ---
@@ -358,13 +398,21 @@ Small footnote text (bottom of panel, small font, verbatim):
 個別の条文番号までは本記事では確定していません。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — pay particular
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
 attention to 規・約・敷・地・権・証・明・登・記・原・因・変・更・分・
-離・処・合・体・割. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
-panel count equals 5 exactly, badge numbers run 1-5 continuously, there
-is no intro illustration or paragraph block between the header and the
-panels, and that each panel's takeaway is legible as heading + diagram +
-a short 着眼点 callout + conclusion tag, without turning into a wall of
-text.
+離・処・合・体・割・致・住・所・氏 and any character that has a visually
+similar Simplified Chinese variant. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that Panel 3 and Panel 4 are each drawn as
+actual flowcharts with branch nodes (not bare illustrations with no
+visible decision structure) and that Panel 4's two diamond nodes remain
+distinct rather than merged into one, that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
 ```
