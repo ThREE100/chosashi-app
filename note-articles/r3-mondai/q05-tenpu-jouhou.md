@@ -383,3 +383,203 @@ layout shows exactly two side-by-side panels (不動産登記令11条=green/left
 不動産登記令6条=blue/right), and confirm no arrow connects the two panels,
 to visually show the two provisions govern unrelated information.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア〜オ5肢それぞれについて、「問題文を読んだ瞬間にどんな図を描けばよいか」「その図にたどり着くまでにどの順番で何を確認するか」を示す解き方ガイド。アは同時申請・共通添付情報・援用旨の記載という3段階の手続要件を、ウは代理人が法人であることと会社法人等番号の提供という2段階の要件を、それぞれ決定木として可視化した。イは合体前の所有者の異同という1段階の確認に絞りつつ、「単独申請でも結論は変わらない」という見落としやすい点を系統図の中に明記した。エは「検査済証が使えるか」という問いの立て方に隠れている「そもそも所有権を証する情報の提供が不要」という前提を決定木の分岐として可視化し、オは不動産登記令11条（登記事項証明書の代替）と令6条（不動産番号による記載省略）という別々の制度の対比枠として整理した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry-office application forms,
+building icons showing two buildings merging into one (合体), a corporate
+seal and building icon for a judicial scrivener corporation acting as
+agent, an electronic-filing tablet screen, and diamond-shaped decision
+nodes for the sequential procedural checks. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Unlike a glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine,
+except that the 平成5年の質疑応答 referenced in panel 4 may be named as
+"先例" without a specific case number); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 号・録・権・地・番・建・
+物・登・記・所・援・証, which have visibly different Simplified Chinese
+forms — always draw the standard Japanese (Jōyō) form. Within this
+English prompt text, use half-width parentheses ( ) consistently — never
+open a parenthetical with a full-width （ and close it with a half-width
+), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後第5問 ア〜オ
+作図ガイド（添付情報の要否）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+同時申請の共通添付情報は援用で足りる
+Diagram: 上から下へ3段のひし形分岐ノードを配置した決定木。ノード1「同一の
+登記所への複数の申請を同時にしているか」→いいえ側:結論ノード「援用は使えず、
+各申請に個別に提供が必要」(グレー・縮小表示)／はい側:ノード2へ。ノード2「両
+申請に共通する添付情報があるか」→いいえ側:結論ノード「援用の対象がなく、個別
+に提供が必要」(グレー・縮小表示)／はい側:ノード3へ。ノード3「一の申請に当該
+添付情報を添付し、他の申請情報にその旨(援用する旨)を記載したか」→いいえ側:
+結論ノード「援用の効果は生じず、提供が必要」(グレー・縮小表示)／はい側:結論
+ノード「他の申請での提供は不要(援用が成立)」(緑・太い縁取りで強調)。決定木の
+脇に、同じ登記所の窓口へ向かう2件の申請書アイコンを描き、1件目の申請書に委任状
+等の添付情報アイコンをクリップで留め、「援用」ラベル付きの矢印を2件目の申請書
+へ伸ばす。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、同一の登記所に対する複数の申請を同時にしているかを確認します。次に、
+各申請に共通する添付情報があるかを確認し、一の申請に添付したうえで他の申請
+情報にその旨(援用する旨)を記載していれば、他の申請では重ねて提供する必要は
+ありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+援用で提供不要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+所有者が違えば持分証明が必要になる
+Diagram: 隔壁を挟んで左右に甲建物(水色、所有者A)と乙建物(緑色、所有者B)を
+アイソメトリックで配置し、隔壁除去を示す×印から1個の丙建物(水色と緑色の
+グラデーション)へ合体する矢印を描く。丙建物の上に「A:持分○ B:持分○」の
+円グラフバッジと、持分割合を証する情報の書類アイコンに緑のチェックマークを
+重ねる。丙の脇に小さな人物アイコン1体(申請人A)を置き、「単独申請」のラベル
+を付け、そこから持分割合を証する情報の書類アイコンへ短い矢印を引いて「単独
+でも省略されない」という注記ラベルを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体前の甲建物と乙建物の所有者が同じか異なるかを確認します。所有者が
+異なる場合は、申請人がAだけの単独申請であっても、丙建物についてA・Bが有す
+ることとなる持分割合を証する情報の提供が必要です。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+持分証明が必要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+会社法人等番号があれば資格証明は不要
+Diagram: 上から下へ2段のひし形分岐ノードを配置した決定木。ノード1「代理人は
+法人か」→いいえ側:結論ノード「会社法人等番号による代替の話ではない」(グレー
+・縮小表示)／はい側:ノード2へ。ノード2「その法人の会社法人等番号を申請情報に
+提供したか」→いいえ側:結論ノード「代表者の資格を証する情報を別途提供する必要
+がある」(グレー・縮小表示)／はい側:結論ノード「代表者の資格を証する情報の提供
+に代えることができる」(緑・太い縁取りで強調)。決定木の脇に、土地家屋調査士
+法人を表す建物アイコンと社印アイコンを配置し、「会社法人等番号」と書かれた
+バッジから緑の矢印を強調結論ノードへ伸ばす。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人が法人かどうかを確認します。次に、その法人の会社法人等番号を
+申請情報に提供しているかを確認すると、提供していれば代表者の資格を証する
+情報の提供に代えることができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+資格証明は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+表題登記のみの建物に検査済証は関係ない
+Diagram: 1段のひし形分岐ノードを配置した決定木。ノード「合体前の建物に所有権
+の登記があるか」→はい側(甲建物、青):結論ノード「所有権を証する情報の提供が
+必要な場面であり、要件を満たせば検査済証等を使える場合がある」／いいえ側(乙
+建物、緑・太い縁取りで強調、本肢の対象)：結論ノード「そもそも所有権を証する
+情報の提供自体が不要」。いいえ側の結論ノードの下に検査済証の書類アイコンを
+描き、乙建物アイコンへ向かう矢印は描かずに大きな赤い×印を重ね、「使う場面
+ではない」という注記ラベルを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体前の建物に所有権の登記があるかを確認します。所有権の登記がなく
+表題登記のみである建物については、そもそも所有権を証する情報の提供自体が
+不要なので、検査済証を使えるかどうかを検討する場面にはなりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+証明書提供は不要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+送信すべきは不動産番号でなく照会番号
+Diagram: 左右2枠の対比図。左枠(青、不動産登記令11条)には、タブレット端末
+アイコンに「電子申請」のラベルを付け、登記事項証明書の書類アイコンに赤い×
+印を重ね、そこから矢印を伸ばして画面アイコンの中に「照会番号」「発行年月日」
+の帯ラベルを並べ、緑のチェックマークを付ける。右枠(緑、不動産登記令6条)には、
+申請情報の書類アイコンの中に「所在」「地番」「地目」「地積」の項目をグレー
+アウトで示し、「不動産番号」と書かれたタグアイコンがその項目群を指す矢印を
+描く。左右の枠の間には矢印を引かず、両枠の中央上部に「別の制度」という短い
+注記ラベルを添えて、送信すべき情報は左枠側であることを示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、電子申請で登記事項証明書の提供が求められている場面かを確認します。
+次に、その代わりに送信すべき情報が不動産登記令11条の照会番号等なのか、令
+6条の不動産番号なのかを区別すると、送信すべきは照会番号等であって不動産
+番号ではないとわかります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+不動産番号ではない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則37条1項／不動産登記令別表13項の添付情報ハ／不動産登記規則
+37条の2／平成5年の質疑応答／不動産登記令11条・6条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・援・証. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢
+(panels 1 and 3) is drawn as an actual flowchart with branch nodes (not a
+bare illustration with no visible decision structure), that panel 4's
+decision node clearly shows both the 甲建物(所有権の登記あり) and 乙建物
+(表題登記のみ) branches so the reader sees why the 検査済証 is irrelevant
+to the 乙建物 branch, that each 着眼点 callout states a checking order
+rather than only a conclusion and keeps every required element from the
+source article distinct (no merged or dropped requirements), confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
+and no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
