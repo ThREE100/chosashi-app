@@ -210,3 +210,220 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア・ウ・オは「合併できるかどうかのチェックリスト」という共通の決定木を共有し、アは本当の制限（共用部分である旨の登記の有無）の枝を、ウ・オはそれぞれ「種類の同一性」「敷地権の有無」という要件でない思い込みを打ち消す枝を強調する構成にした。イは1回の確認で完結する図解、エは「回り道の変更登記が必要という思い込み」と「実際には直接分割登記でよい」を対比する対比枠型（思い込みチェック型）を採用した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（建物
+の分割・合併、その申請できる？）, but built as a set of 5 diagram-drawing
+panels (a "how to sketch this fact pattern, in the right order" study
+reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric apartment/house buildings, small
+附属建物 icons, registry desks, application document folders, split/merge
+arrows, small plot-with-key badges for 敷地権 — adapt icon set to the
+topic of 建物の分割・合併. Panels 1, 3, and 5（肢ア・肢ウ・肢オ）share
+the same "合併できるかどうかのチェックリスト" decision chain, drawn top to
+bottom: Diamond D1 labeled「共用部分である旨の登記があるか」, whose はい
+branch leads to a conclusion node「合併の登記を申請できない」; the いいえ
+branch continues down to a struck-through "myth check" node M1 labeled
+「合併前の種類は同一でなければならないか」with a small「実は要件でない」
+annotation and a strikethrough mark over the question, which continues
+down to a second struck-through myth-check node M2 labeled「敷地権の登
+記があると合併できないか」with a small「実は制限されない」annotation and
+a strikethrough mark, next to a small side-by-side comparison box（LEFT:
+敷地権付きの土地の合筆に赤い✕、RIGHT: 敷地権付き区分建物の合併に緑の
+✓）, which finally leads to a conclusion node「合併の登記を申請できる」.
+Render the full chain（D1・M1・M2・both final conclusion nodes）in every
+one of Panels 1, 3, and 5, and never draw a looping arrow back into an
+earlier node. Panel 1 highlights（太い縁取り・フルカラーで強調）D1's はい
+branch and its conclusion node, rendering M1, M2, the small comparison
+box, and the いいえ path in a faded, greyed-out style. Panel 3 highlights
+M1 and the いいえ path leading to it（with D1 shown small and already
+passed, in a lightly dimmed style）, rendering D1's はい branch/conclusion
+and M2 in a faded, greyed-out style, while still showing the final
+conclusion node in full color as the chain's outcome. Panel 5 highlights
+M2 and its small comparison box（with D1 and M1 shown small and already
+passed, in a lightly dimmed style）, rendering D1's はい branch/conclusion
+in a faded, greyed-out style, while still showing the final conclusion
+node in full color. Panel 2（肢イ）is resolved by a single check, so a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panel 4（肢エ）uses a side-by-side "myth vs. correct rule" comparison
+frame（LEFT: 誤りやすい思い込み, with a strikethrough mark over it, RIGHT:
+正しいルール, with a green checkmark）rather than a flowchart, because
+the point of that 肢 is correcting a procedural misconception, not a
+multi-step condition check. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認し
+ます"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度午後第12問 ア〜オ
+作図ガイド（建物の分割・合併）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+共用部分の登記がある建物は合併不可
+Diagram: The shared "合併できるかどうかのチェックリスト" chain. Diamond
+D1「共用部分である旨の登記があるか」（highlighted, full color）with the
+はい branch（highlighted, full color）leading to a conclusion node
+showing a マンションの集会室アイコンに「共用部分である旨の登記」の
+スタンプが押され、隣の乙建物アイコンにくっつこうとする矢印に大きな赤い
+✕マークが重なる様子; render M1, M2, the small comparison box, and the
+いいえ path in a faded, greyed-out style beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対象となる建物に共用部分である旨の登記があるかを確認します。共用
+部分である旨の登記があると、その建物については権利に関する登記が既に
+職権で抹消されており、他の建物との合併の登記を申請することはできませ
+ん。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+共用部分の登記で合併不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+附属建物の分割と合併は一括申請OK
+Diagram: An isometric building（甲建物）から附属建物（小さな建物アイコ
+ン）が切り離される「分割」の矢印と、それが隣の乙建物にくっつく「合併」
+の矢印が、一つの申請書フォルダにまとまる様子。フォルダに緑の✓マーク。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分割する附属建物と、それを組み入れる先の建物が決まっているかを確
+認します。甲建物の附属建物を分割する登記と、それを乙建物の附属建物とす
+る合併の登記は、一の申請情報によってまとめて申請することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+分割と合併は一括可能
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+区分建物、種類が違っても合併できる
+Diagram: The same shared chain as Panel 1, continued one step further.
+D1 shown small and dimmed（already passed, いいえ）leading down to
+struck-through myth-check node M1「合併前の種類は同一でなければならな
+いか」（highlighted, full color, with a strikethrough mark and a
+「実は要件でない」annotation）showing「居宅」ラベルの区分建物アイコンと
+「事務所」ラベルの区分建物アイコンが、共通の壁を挟んで隣り合い、一つの
+区分建物へと合体する矢印, leading to the final conclusion node
+（highlighted）「合併の登記を申請できる」; render D1's はい branch/
+conclusion and M2 with its comparison box in a faded, greyed-out style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対象建物に共用部分である旨の登記がないかを確認します（なければ次
+へ進みます）。次に、合併前の甲区分建物と乙区分建物の種類（居宅・事務所
+等）が同一かどうかを確認する必要はないか考えますが、区分建物の合併に種
+類の同一性は要件とされていないため、種類が異なっていても申請することが
+できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+種類の同一性は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+主従関係なければ直接、分割登記でOK
+Diagram: A side-by-side "myth vs. correct rule" comparison frame. LEFT
+box（faded, with a strikethrough mark over the whole box）labeled「誤り
+やすい思い込み」: 一棟の建物が中間で取り壊され接続しない二棟に分かれた
+図に、まず一方を附属建物とする「表題部の変更登記」の書類アイコンへ矢印
+が伸び、その後にようやく「建物の分割の登記」へ進む回り道の矢印。RIGHT
+box（highlighted with a thick colored border, full color）labeled「正し
+いルール」: 同じ二棟の図から、「表題部の変更登記」の書類アイコンに赤い
+✕マークが重なり、代わりに直接「建物の分割の登記」の申請書フォルダへ矢
+印が伸び、緑の✓マークが付く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、取り壊し後の二棟について、いずれも主である建物とする意思かどうか
+を確認します。いずれも主である建物とするのであれば、一方を附属建物とす
+る表題部の変更の登記を経る必要はなく、そのまま直接、建物の分割の登記を
+申請することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+回り道の変更登記は不要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+敷地権付き区分建物どうしも合併できる
+Diagram: The same shared chain as Panels 1 and 3, continued to its final
+step. D1 and M1 shown small and dimmed（already passed）leading down to
+struck-through myth-check node M2「敷地権の登記があると合併できないか」
+（highlighted, full color, with a strikethrough mark and a「実は制限さ
+れない」annotation）next to a small side-by-side comparison box
+（highlighted: LEFT 敷地権付きの土地の合筆に赤い✕、RIGHT 敷地権付き区分
+建物の合併に緑の✓）, leading to the final conclusion node（highlighted）
+「合併の登記を申請できる」; render D1's はい branch/conclusion and M1 in
+a faded, greyed-out style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対象の区分建物にそれぞれ共用部分である旨の登記がないかを確認しま
+す（なければ次へ）。次に、敷地権の登記があると合併できないのではないか
+と考えたくなりますが、敷地権の登記がある区分建物どうしの合併は、土地の
+合筆（敷地権のある土地は不可）とは扱いが異なり、申請することができま
+す。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+土地の合筆とは扱いが違う
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法56条1号・58条4項、不動産登記規則35条2号に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 部, 分, 登, 記, 合, 併, 種, 類, 敷, 属, 割, 従 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panels 1, 3, and
+5 each render the complete shared chain (D1・M1・M2・both final
+conclusion nodes) with only that panel's own node highlighted in full
+color while every other node and path is faded and greyed-out rather
+than omitted, that no panel renders a looping arrow back into an earlier
+node, that Panel 4's two comparison boxes are visibly distinguished by
+the strikethrough mark on the myth side and the checkmark on the correct
+side, that each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
