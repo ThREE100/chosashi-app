@@ -203,3 +203,215 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア〜オの5肢について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば
+正誤にたどり着けるかを示す作図ガイド。肢アは配置図型、肢イは正誤対比型（全員での共同
+申請が必要という思い込みチェック）、肢ウはタイムライン型（滅失登記と変更登記が別々の
+手続きであること）、肢エは対比枠型（敷地権消滅と非敷地権で登記原因の書き方が違う場面
+を切り分け）、肢オは決定木型（区分建物ごとに分離処分可能規約の有無で敷地権の要否が
+分岐）で構成した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric apartment buildings, land plots, a
+ground-lease stake icon representing 地上権, official registration
+documents, parallel independent timelines, diamond-shaped decision-tree
+branch nodes, and a two-panel comparison frame. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Where a panel reuses a decision tree shared with other panels
+in this set, render the branch relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated
+branches in a faded, greyed-out, or dotted-outline style rather than
+omitting them — the reader should be able to see at a glance which part
+of the shared tree this panel is about. Likewise, where a diagram must
+show an entity that conceptually never held the right or status in
+question (e.g. someone who was never an heir, or a claim that never
+existed), render that entity or claim in a faded or dotted-outline style
+rather than a plain ○/✕ mark, so the visual itself communicates "this
+was never really there," not just "this is wrong." Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度 午後の部 第18問 ア〜オ
+作図ガイド（区分建物の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+分筆後もみなし規約敷地のまま
+Diagram: Draw an isometric land plot that is the site of an apartment
+building(一棟の建物), split by a dotted line into two sections(分筆).
+The section without the building carries a tag reading「みなし規約敷地」.
+A single encircling outline representing「敷地権」continues to wrap
+around both sections, showing the split-off section is still part of the
+land the building's 敷地権 covers. A prohibition(no-entry)icon is
+overlaid on the words「変更登記」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず分筆によって一棟の建物が所在しない土地が生じたことを確認し、次にその
+土地がみなし規約敷地としてそのまま敷地権の目的である土地であり続けること
+を確認します。したがって変更登記の申請は不要です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+変更登記は不要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+更正登記は一人の申請で足りる
+Diagram: Draw a two-panel comparison frame labeled「思い込みチェック」.
+LEFT panel labeled「誤った思い込み」: ten apartment unit icons, each with
+its own person figure, all reaching toward one shared application
+document labeled「一棟の表題部の更正登記」, captioned「全員が併せて申請」
+with a large red ✕ overlaid. RIGHT panel labeled「正しいルール」: only one
+person figure submits a single application document labeled「一棟の表題
+部の更正登記」, with dotted arrows radiating out to the other nine unit
+icons, each receiving a small ⇒ icon captioned「他の記録も職権で更正」,
+and a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず一棟の建物の表題部の更正登記は誰が申請すべきものかを確認し、次にその
+申請人が一人であっても他の区分建物の登記記録が併せて更正されることを確認
+します。全員がそろって申請する必要はありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+共同申請は不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+滅失登記と変更登記は別々でよい
+Diagram: Draw two parallel horizontal timelines stacked one above the
+other, each running independently with no synchronization arrow between
+them. TOP timeline labeled「乙区分建物」: a single event marker reading
+「滅失の登記」, with a building icon crumbling into rubble at that point.
+BOTTOM timeline labeled「甲区分建物」: a separate event marker reading
+「区分建物でない建物への変更登記」positioned at a different point along
+the timeline. Between the two timelines, draw a broken, dashed link
+captioned「併せてする義務はない」to show the two timelines are not
+required to align.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず乙区分建物の滅失の登記と、甲区分建物を区分建物でない建物に変更する
+登記が、それぞれ別の手続であることを確認します。次にこの2つの申請を同時
+に行うことを義務付ける規定がないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一括申請は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+敷地権消滅と非敷地権は書き方が違う
+Diagram: Draw a two-panel comparison frame, divided by a vertical line,
+with a small header above the divider reading「なぜ敷地権でなくなったの
+か、原因ごとに登記原因の書き方を見分ける」. LEFT panel labeled「地上権の
+存続期間満了(本肢のケース)」: a ground-lease stake icon(地上権を表す杭)
+toppling over and fading out, next to a registration document stamped
+「◯年◯月◯日敷地権消滅」. RIGHT panel labeled「分離処分可能規約の設定
+(別のケース)」: a document icon showing a規約 being newly created, next
+to a registration document stamped「◯年◯月◯日非敷地権」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず敷地権がなくなった原因が、地上権の存続期間の満了なのか、それとも分離
+処分可能規約の設定なのかを見分けます。地上権の満了であれば「年月日敷地権
+消滅」、規約の設定であれば「年月日非敷地権」と登記原因を書き分けます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+年月日敷地権消滅と記録
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+規約のない2戸だけ敷地権を申請
+Diagram: Draw three apartment unit icons in a row, each connected down to
+its own diamond-shaped branch node labeled「その専有部分に分離処分可能
+規約があるか」. For unit①(with規約): the「はい」arrow leads to a
+conclusion node reading「敷地権に関する事項を申請情報に含めない」, and
+the connecting line from unit① down to the shared land plot(敷地)below
+is drawn cut or dashed. For units②and③(no規約): the「いいえ」arrow from
+each leads to a conclusion node reading「敷地権に関する事項を申請情報に
+含める」, with a solid connecting line from each unit down to the shared
+land plot representing敷地権.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず三個の区分建物のそれぞれについて、分離処分可能規約が設定されているか
+どうかを確認します。規約がある一個は敷地権に関する事項を申請情報に含めず、
+規約のない残り二個についてのみ敷地権に関する事項を申請情報の内容とします。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+残り2戸に敷地権
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+区分所有法5条2項、不登法53条2項が準用する同法51条5項・6項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 地・権・登・記・録・棟・滅・失・規・約・敷. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that panel 5's
+decision node is applied consistently across all three units with unit
+①'s branch and connecting line clearly distinguished(cut/dashed) from
+units②and③'s branches(solid), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct(no merged or
+dropped requirements), confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
