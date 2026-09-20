@@ -202,3 +202,188 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（石油タンクの敷地・温泉のわき出し口と宿の敷地・堤防の断面・村落間の通水路・公園とテニスコートの位置関係）を肢ごとに示す作図ガイドを追加した。地目の認定は多くの場合1回の当てはめで判定できるが、イ（鉱泉地と宅地の見分け）だけは「どちらの土地の話をしているか」を先に切り分ける必要があるため決定木として描き、他の4肢は「見た目の施設に惑わされず本来の用途で判定する」着眼点を添えた図解にしている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — the physical land-use scene for each 肢 (a bare
+land plot with an oil tank, a hot spring wellspring plot next to a
+separate inn building plot, a cross-section of a levee with a road along
+its top, a water channel between rice paddies and a village, and a park
+plot containing a tennis court), a wooden tag label showing the correct
+地目 category attached to the land plot, and small ✓/✕ marks showing
+which assumption is correct or wrong. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 地・宅・鉱・泉・堤・
+溝・園・建・物・設・記・準・則・続・実, which have visibly different
+Simplified Chinese forms — always draw the standard Japanese (Jōyō) form.
+Within this English prompt text, use half-width parentheses ( )
+consistently — never open a parenthetical with a full-width （ and close
+it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和4年度 午後の部 第6問 ア〜オ
+作図ガイド（地目の認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+石油タンクの敷地は建物なしで宅地
+Diagram: Draw an isometric bare land plot with a large cylindrical oil
+tank standing alone on it and no building anywhere on the plot. Above the
+tank, draw a small thought-bubble icon reading "建物がない→宅地ではな
+い?" with a red ✕ mark crossing it out. Below the crossed-out bubble,
+draw an arrow pointing to the land plot, which is tagged with a wooden
+label reading "宅地", with a small caption "石油タンク・ガスタンクの敷
+地" pinned beside the tag.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地に登記できる建物があるかどうかを確認したくなりますが、
+それは判断の決め手ではありません。次に、その土地が石油タンク・ガスタ
+ンクの敷地として使われているかどうかを確認し、該当すれば建物がなくて
+も宅地と判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+建物なしでも宅地
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+わき出し口か建物の敷地かを見分ける
+Diagram: Draw an actual decision flowchart. A diamond-shaped branch node
+reads「その土地は温泉のわき出し口そのものと、その維持に必要な土地
+か?」. The Yes branch (green arrow, labeled ○) leads to a conclusion node
+showing an isometric bubbling-spring plot tagged with a wooden label
+reading "鉱泉地". The No branch (labeled ✕, meaning it is a separate
+building's site) leads to a different conclusion node showing an
+isometric traditional hot spring inn building on its own land plot
+tagged "宅地". Connect the two conclusion-node plots with a dotted pipe
+line to show that the wellspring and the inn sit on two physically
+separate plots.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっている土地が温泉のわき出し口そのものとその維持に必要
+な土地なのか、それとも別の場所から湯を引き込んだだけの宿泊施設の敷地
+なのかを見分けます。わき出し口自身の土地であれば鉱泉地、引き込んだ先
+の建物の敷地であれば宅地と判定します。
+Conclusion tag (blue, 5-15 Japanese characters):
+引き込み先は宅地
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+道路利用されても堤防の地目は堤のまま
+Diagram: Draw an isometric cross-section of a levee (dike) built for
+flood prevention, with a small paved road and pedestrians walking along
+its flat top (天端). The whole levee land plot is tagged with a wooden
+label reading "堤". Beside the tag, draw a small thought-bubble icon
+reading "天端が道路→地目は道路?" with a red ✕ mark crossing it out, and
+an arrow pointing back to the "堤" tag.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が防水のために築造された堤防かどうかを確認します。次
+に、天端の部分が一般交通の用に供する道路として利用されているという付
+随的な事実に惑わされず、堤防としての本来の用途を基準に地目を判定しま
+す。
+Conclusion tag (blue, 5-15 Japanese characters):
+地目は堤のまま
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+村落間の通水路の地目は井溝
+Diagram: Draw an isometric narrow water channel running between small
+rice paddies (田畝) on one side and a small cluster of village houses
+(村落) on the other side. The channel's land plot is tagged with a
+wooden label reading "井溝".
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が田畝または村落の間にある通水路かどうかを確認します。
+該当すれば、水路や用悪水路ではなく井溝という地目に分類されると判定し
+ます。
+Conclusion tag (blue, 5-15 Japanese characters):
+地目は井溝
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+テニスコートも一体で地目は公園のまま
+Diagram: Draw a single isometric park land plot containing trees,
+benches, and a tennis court, with no dividing line separating the tennis
+court from the rest of the park. The whole plot is tagged with a wooden
+label reading "公園". Beside the tag, draw a small icon reading「コート
+部分だけ分筆」with a red ✕ mark crossing it out.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地が公衆の遊楽のために供されている公園かどうかを確認しま
+す。次に、テニスコートのような運動施設が公園施設として一体的に利用さ
+れているかを確認し、該当すれば分筆せずに土地全体を公園と判定します。
+Conclusion tag (blue, 5-15 Japanese characters):
+分筆せず一体で公園
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：準則69条10号（ア）／準則68条7号・3号（イ）／準則68条18号
+（ウ）／準則68条19号（エ）／準則68条22号（オ）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 地・宅・鉱・泉・堤・溝・園・建・物・設・記・準・則・続・実.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢 is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that no 肢 with a genuinely hidden
+second condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

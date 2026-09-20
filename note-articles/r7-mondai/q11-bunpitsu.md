@@ -375,3 +375,188 @@ standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
 heading, node label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「表示に関する登記か権利に関する登記か」「本文の要件に加えて括弧書きの追加要件がないか」「誰の印鑑証明書か」を見抜けるようにする5パネル構成。②の色分け（権利の転写・消滅ルール＝緑、登記手続きルール＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（分筆
+登記、「消える権利」「残る権利」）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots split by a dotted
+boundary line, registry documents, seal/inkan certificates, consent
+documents, a calendar for 存続期間 — adapt icon set to the topic of
+分筆登記に伴う権利の扱い. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes
+with the condition written on them, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Panel 1（肢ア）uses a side-by-side comparison frame（LEFT:
+分筆の登記＝表示に関する登記、RIGHT: 持分移転登記＝権利に関する登記）
+instead of a flowchart. Panel 4（肢エ）also uses a side-by-side
+comparison frame（LEFT: 申請人本人の印鑑証明書＝3か月以内の期限あり、
+RIGHT: 第三者の承諾書に添付する印鑑証明書＝期限なし). Panel 2（肢イ）
+must be drawn as a two-step flowchart, because 不動産登記法40条の本文の
+要件に加えて括弧書きの追加要件があることを示す必要がある. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion.
+Do not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第11問 ア〜オ
+作図ガイド（分筆登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+分筆登記だけでは持分は動かない
+Diagram: A side-by-side comparison frame. LEFT box（highlighted with a
+thick colored border）labeled「分筆の登記＝表示に関する登記」: an
+isometric land plot split by a dotted boundary line into 甲土地・乙土地,
+a registry-book icon with a tab labeled 表題部. RIGHT box（faded,
+greyed-out）labeled「持分移転登記＝権利に関する登記」: a registry-book
+icon with a tab labeled 権利部, a court document labeled 判決正本 held
+apart from it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問われているのが「表示に関する登記」（分筆）か「権利に関する登記」
+（持分移転）かを確認します。分筆登記は土地の区画を分けるだけの表示に
+関する登記であり、それ自体に持分を変動させる効力はないため、判決を
+登記原因証明情報とする持分移転登記を別途申請する必要があります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+別途持分移転登記が必要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+第三者の権利があれば追加の承諾が必要
+Diagram: A two-step decision flowchart. Start node: 地上権者本人の承諾は
+あるか？with a はい arrow down to a diamond node（highlighted with a
+thick border): その地上権を目的とする第三者の権利の登記（抵当権など）は
+あるか？with a green はい branch leading to a conclusion node reading
+地上権者の承諾に加え、その第三者（抵当権者）の承諾も必要, and a faded
+いいえ branch leading to a separate conclusion node reading 地上権者の
+承諾のみで消滅の登記が可能.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、消滅させようとする地上権そのものの登記名義人の承諾があるかを確認
+します。次に、その地上権を目的とする第三者の権利の登記（抵当権など）が
+あるかを確認します。ある場合は、地上権者の承諾に加えて、その第三者の
+承諾も必要になります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+第三者の権利があれば追加承諾
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+承諾があれば仮登記は転写されない
+Diagram: The 甲土地 plot has a torn-paper label reading 仮登記 on it. An
+arrow points from 甲土地 to the smaller 乙土地 plot; on the arrow a
+consent document labeled 承諾 appears, and on 乙土地 the 仮登記 label is
+shown crossed out with a large red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆後の土地について、仮登記の登記名義人が権利消滅の承諾をした
+ことを証する情報が提供されているかを確認します。提供されていれば、
+その土地の登記記録には仮登記は転写されません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+承諾があれば転写されない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+第三者の印鑑証明書には期限がない
+Diagram: A side-by-side comparison frame. LEFT box（faded, greyed-out）
+labeled「申請人本人・委任状本人の印鑑証明書」: a document stamped
+「作成後3か月以内」with a calendar icon. RIGHT box（highlighted with a
+thick colored border）labeled「第三者（抵当権者等）の承諾書に添付する
+印鑑証明書」: a document with a calendar icon crossed out with a red ✕
+and a label「期限なし」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この印鑑証明書が「申請人本人」のものか「第三者（抵当権者等）の
+承諾書」に添付するものかを確認します。第三者の承諾を証する情報に添付
+する印鑑証明書には、作成後3か月以内という期限の要件はありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+第三者の分は期限なし
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+抹消登記がなければ地上権は転写される
+Diagram: A calendar icon showing 存続期間満了 with an ✕ mark over the
+dates, next to a 地上権 pillar icon that is still standing (not removed).
+An arrow labeled 転写 points from 甲土地 to 乙土地, showing the same
+地上権 pillar icon appearing again on 乙土地.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、存続期間が満了しているという事実だけで登記記録上の地上権が消える
+わけではないことを確認します。次に、抹消登記がされているかを確認します。
+されていない限り、存続期間満了の地上権もそのまま分筆後の土地に転写され
+ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+抹消登記がなければ転写
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法40条、不動産登記規則102条1項、不動産登記令16条3項・18条
+3項・19条2項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 分, 筆, 持, 権, 登, 記, 録, 転, 写, 仮, 鑑, 証, 抹, 消, 承, 諾
+and any character that has a visually similar Simplified Chinese variant.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+Panels 1 and 4 are drawn as side-by-side comparison frames rather than
+flowcharts, that Panel 2 is drawn as a two-step flowchart with both
+branches of its second diamond node leading to distinct conclusion
+nodes, that each 着眼点 callout states a checking order rather than only
+a conclusion, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

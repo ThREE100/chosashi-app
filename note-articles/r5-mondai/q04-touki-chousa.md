@@ -204,3 +204,187 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+「調査してよい範囲はどこまでか」「調査を省略・代行してよい条件は何か」を、問題文を読んだ瞬間に切り分けられるようにする5パネル構成。イ（本人確認調査の要否）とエ（職員への代行）は、いずれも「まず要件Aを確認し、次に要件Bを確認する」という2段階の決定木として描き、要件を1つに圧縮しないことを徹底する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(登記官はどこまで調べられる?), but built as a set of 5 diagram-drawing
+panels (a "how to sketch this fact pattern, in the right order" study
+reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - an isometric registry official figure with a
+magnifying glass, a sunrise-to-sunset arc for the time-of-day rule, a
+clipboard/instruction icon for delegation to staff, and a document-folder
+icon for the document-request rule - adapt icon set to the topic of
+登記官の調査権限. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (はい/いいえ) branch arrows, and a final
+conclusion node for every branch (no branch may be left without its own
+conclusion node, and no arrow may loop back to an earlier node). Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認
+します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text - do not drop or merge a required
+element (e.g. keep "必要があると認めること" and "職員に細部の具体的な指示
+を与えること" as two distinct checks in Panel 4).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently throughout, including inside Japanese asides.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和5年度午後第4問 ア〜オ
+作図ガイド(登記官の調査権限)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+所有者に関する事項も調査対象に含む
+Diagram: An isometric building-registration document icon lying open,
+showing several labeled fields inside it ("構造", "床面積", "所有者") side
+by side; a large magnifying glass held by a registry official figure
+hovers over the entire document, covering all the fields equally, with no
+field left outside the magnifying glass's coverage.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず建物の表題登記の申請情報にどんな事項が記載されているかを確認します。
+所有者に関する事項もその一部である以上、登記官の調査対象から外れること
+はありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+所有者も調査対象
+
+--- PANEL 2(肢イ) ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+却下すべきときは本人確認調査を省略
+Diagram: A decision flowchart. Start node: 申請人以外の者が申請している
+と疑う相当な理由があるか?. A いいえ arrow leads to its own conclusion
+node reading そもそも本人確認調査は不要. A はい arrow leads to a second
+diamond node: その申請には、いずれにせよ却下すべき事由があるか?. From
+this second diamond, a はい arrow leads to a conclusion node reading
+却下するため本人確認調査は不要, and a separate いいえ arrow leads to its
+own conclusion node reading 本人確認調査を行う. No arrow loops back to an
+earlier node anywhere in the diagram.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず申請人以外の者が申請していると疑う理由があるかを確認し、次にその
+申請をいずれにせよ却下すべきかを確認します。却下すべき申請であれば、
+あらためて申請権限を調査する意味がないため、本人確認調査は不要です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+本人確認調査は不要
+
+--- PANEL 3(肢ウ) ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+実地調査は日出から日没までの間
+Diagram: A horizontal timeline drawn as a sunrise-to-sunset arc in the
+sky. A registry official figure with a measuring tool stands on a land
+plot directly beneath the bright middle portion of the arc. At both ends
+of the arc, outside the sunrise and sunset points, a faded/greyed-out
+official figure with a red ✕ mark and a crossed-out moon icon shows the
+official cannot be there before sunrise or after sunset.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず現在の時刻が日出から日没までの間にあるかを確認します。その時間帯の
+外であれば、登記官は実地調査を行うことができません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+日出~日没のみ可
+
+--- PANEL 4(肢エ) ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+具体的指示があれば職員に代行可
+Diagram: A decision flowchart. Start node: 登記官が実地調査を行わせる
+必要があると認めているか?. A いいえ arrow leads to its own conclusion
+node reading 登記官自身が実地調査を行う. A はい arrow leads to a second
+diamond node: 職員に細部の具体的な指示を与えているか?. From this second
+diamond, a はい arrow leads to a conclusion node showing a registry
+official handing a clipboard labeled 指示 to a junior staff figure
+labeled 登記所の職員 who walks toward a land plot, reading 職員が代行
+できる, and a separate いいえ arrow leads to its own conclusion node
+reading 指示なしに代行させることはできない. No arrow loops back to an
+earlier node anywhere in the diagram.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず登記官が実地調査を職員に行わせる必要があると認めているかを確認し、
+次にその職員に細部の具体的な指示を与えているかを確認します。この2つを
+満たせば、登記官自身が現地に行かなくても職員が代わりに実地調査を行うこ
+とができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+指示があれば代行可
+
+--- PANEL 5(肢オ) ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+関係者に文書提示を求められる
+Diagram: An isometric registry official figure extending a hand toward a
+property owner figure, requesting a document; the owner figure holds out
+a folder icon labeled 文書. In a small corner of the panel, a separate
+warning icon shows a crossed-out fake document with a 罰金 tag beside it,
+kept visually secondary to the main handover scene.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず登記官が実地調査において、所有者その他の関係者に文書の提示を求めら
+れることを確認します。虚偽の文書を提示すれば罰則の対象になるため、関係
+者は正しい文書を示す必要があります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+文書提示を要求可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法24条1項・25条11号・29条2項・162条2号、不動産登記事務取扱
+手続準則64条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 調, 査, 却, 認, 職, 員, 示, 罰 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢 (Panels
+2 and 4) is drawn as an actual flowchart with branch nodes each leading to
+its own distinct conclusion node and no looping arrows, that no 肢 with a
+genuinely single check has been forced into an unnecessary flowchart, that
+each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background with
+no transparency or alpha channel anywhere.
+```

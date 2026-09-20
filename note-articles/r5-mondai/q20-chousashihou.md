@@ -202,3 +202,195 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+土地家屋調査士・調査士法人のルールについて、①登録取消事由の性質と届出義務者、②代表社員の定め方、③懲戒処分の公告範囲、④法人への業務停止の範囲という4つの判定を、「まず何を確認するか」から順に描けるよう5パネルに整理した。ア・イ（登録取消しの必要的・裁量的の区別）は同じ決定木の形を共有し、パネルごとに自分の肢に関係する枝だけを太い縁取りで強調し、関係しない枝は色を薄くして描く。ウ・エ・オは「よくある思い込み」と「正しいルール」を左右で対比させる構成にする。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(登録の取消しは「しなければならない」か「できる」か), but built as a set
+of 5 diagram-drawing panels (a "how to sketch this fact pattern, in the
+right order" study reference) rather than a quick-reference conclusion
+poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry association buildings, a
+土地家屋調査士 character, an official stamp/seal, a newspaper icon for
+官報, and an office building icon divided into department blocks for the
+土地家屋調査士法人. Panels 1 and 2 (肢ア・肢イ) share the same underlying
+decision tree (登録取消事由の種類が必要的取消事由か裁量的取消事由かを
+分ける diamond node): in Panel 1, render the 死亡等の事由 (必要的取消
+事由) branch with a thick highlighted border and full color, and render
+the 2年以上業務不執行 (裁量的取消事由) branch in a faded, greyed-out
+style; in Panel 2, reverse this — render the 2年以上業務不執行 (裁量的
+取消事由) branch highlighted and the 死亡等の事由 (必要的取消事由) branch
+faded — so the reader can see at a glance which branch each panel is
+about, while both branches remain visible in both panels. Where a 肢 is
+resolved by a single check rather than a multi-step decision, a left/right
+comparison of a common misconception against the correct rule is
+sufficient — do not force a flowchart. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和5年度午後第20問 ア〜オ
+作図ガイド（土地家屋調査士・調査士法人）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+死亡時は相続人が遅滞なく届出する
+Diagram: A shared decision frame with Panel 2. Diamond node: 登録取消事
+由の種類は？ A green branch with a thick highlighted border for「死亡等
+の事由（必要的取消事由）」leads to a conclusion node「連合会は登録を取り
+消さなければならない」, next to a small inset showing a 相続人 character
+handing a document labeled「死亡の届出」to a 調査士会 building icon, with
+an arrow continuing to a larger 日本土地家屋調査士会連合会 building icon
+and a clock icon labeled「遅滞なく」. A faded, greyed-out branch for
+「2年以上業務不執行（裁量的取消事由）」leads to its own faded conclusion
+node「取り消すことができる」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登録の取消事由が必要的なものか裁量的なものかを確認します。死亡は
+必要的取消事由にあたるため連合会は登録を取り消さなければならず、本人は
+もう届け出られないので相続人が遅滞なく届け出ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+相続人が遅滞なく届出
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+2年不執行の取消しは裁量にとどまる
+Diagram: The same shared decision frame as Panel 1 (same diamond node
+登録取消事由の種類は？), but now the「2年以上業務不執行（裁量的取消
+事由）」branch is drawn with the thick highlighted border and full color,
+leading to a conclusion node showing an isometric 調査士 character
+sitting idle at an empty desk beside a calendar showing「2年以上」, with
+a「登録取消し？」question-mark badge above a 連合会 building icon and the
+label「取り消すことができる（取り消さないこともある）」. The「死亡等の
+事由（必要的取消事由）」branch is rendered faded and greyed-out, leading
+to its own faded conclusion node「取り消さなければならない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、2年以上業務を行わないことが必要的取消事由なのか裁量的取消事由な
+のかを確認します。これは裁量的取消事由にあたるため、連合会は登録を取り
+消すこともできますが、必ず取り消さなければならないわけではありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+義務ではなく裁量
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+定款以外でも代表社員を定められる
+Diagram: A left/right comparison frame. Left side (よくある思い込み): a
+「定款」document icon with a single arrow leading to a badge labeled
+「代表社員」, while a separate path from a group of 社員 character icons
+with a speech bubble labeled「総社員の同意」is blocked by a red ✕. Right
+side (正しいルール): both the「定款」path and the「総社員の同意」path
+have solid, unblocked arrows converging on the same「代表社員」badge.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代表社員を定める方法が定款に限られるのかを確認します。定款の定め
+による方法だけでなく、総社員の同意によっても、特に法人を代表すべき社員
+を定めることができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+総社員の同意でも可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+戒告でも遅滞なく官報で公告する
+Diagram: A left/right comparison frame. Left side (よくある思い込み): a
+newspaper icon representing「官報」with a red ✕ overlaid, next to a small
+「戒告」stamp icon placed far away and disconnected from the newspaper.
+Right side (正しいルール): the newspaper icon「官報」showing a visible
+headline stamped「戒告」, connected by an arrow from a 法務大臣 desk
+icon, with a clock icon labeled「遅滞なく」placed near the arrow.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、処分の重さによって公告されるかどうかが変わるのかを確認します。懲
+戒処分は業務停止や業務禁止だけでなく、最も軽い戒告の処分をした場合でも、
+遅滞なく官報で公告しなければなりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+処分の軽重問わず公告
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+法人は業務の一部だけ停止も可能
+Diagram: A left/right comparison frame. Left side (よくある思い込み): an
+isometric 調査士法人 office building with a red ✕ stamped across the
+entire building labeled「業務停止」, showing an all-or-nothing image.
+Right side (正しいルール): the same office building divided into several
+department blocks; only one block is highlighted and stamped「業務停止」
+in red, while the other blocks remain bright and active.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、懲戒処分としての業務停止が法人の全業務についてしかできないのかを
+確認します。調査士法人は業務が多岐にわたるため、業務の全部ではなく一部
+に限った業務の停止を命ずることも認められています。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一部停止も可能
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+土地家屋調査士法15条1項・2項・16条1項1号・35条の2第1項・43条1項2号・46
+条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 登, 録, 相, 続, 義, 務, 裁, 量, 懲, 戒, 官, 報, 停, 止 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panels 1 and 2
+visibly share the same decision-tree layout with only the
+highlighted/faded branches reversed between them, that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

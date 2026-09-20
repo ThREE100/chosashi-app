@@ -238,3 +238,232 @@ contains exactly those three terms in that order with no duplication or
 omission, and that the label 野球場 (correct) is not confused with the
 crossed-out 野球場・店舗・駐車場 (incorrect) label.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+対話形式の問題文を読んだときに、各肢でどんな図を描き、どの順番で条件を確認すれば正誤に
+たどり着けるかを示す作図ガイド。肢ア・エは「よくある思い込み」と「正しい判断基準」を
+左右で対比させる型、肢イ・ウ・オは条件を順に確認する決定木型で構成する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric condominium/building cutaways with
+small unit or floor icons, ledger/rulebook icons for 不動産登記規則・
+準則, ribbon/pill labels for the resulting 建物の種類 string, magnifying-
+glass icons for "look closely at this one unit/part," and diamond-shaped
+decision nodes with checkmark/X-mark branch outcomes. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node for BOTH outcomes — never leave one
+branch's destination blank, and never draw an arrow looping back to an
+earlier node. Where a 肢 is resolved by a single check, use a left/right
+contrast layout instead: one side showing the common mistaken assumption
+(crossed out with an X), the other side showing the correct judgment
+(with a checkmark), rather than forcing a flowchart. Where a panel reuses
+a decision-tree shape with other panels in this set, render the branch
+relevant to THIS panel with a thick highlighted border and full color,
+and render the other, unrelated branches in a faded, greyed-out, or
+dotted-outline style rather than omitting them. Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後の部 第14問　ア〜オ
+作図ガイド（建物の種類の定め方）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+甲の用途は周りでなく専有部分自体で決める
+Diagram: Left/right contrast layout. LEFT side (誤った思い込み, labeled
+「誤」in a small red-outlined tag): an isometric cutaway of one
+100-unit condominium building with 99 units marked with a house/roof
+icon labeled 居宅, and a large curved arrow sweeping from the
+surrounding 99 units toward the one 甲 unit, forcing it to also show a
+house/roof icon labeled 居宅; this arrow is crossed out with a large X
+mark. RIGHT side (正しい考え方, labeled「正」in a small green-outlined
+tag): the same 甲 unit shown isolated and enlarged with a
+magnifying-glass icon over it alone, showing a desk-and-briefcase icon
+labeled 事務所, with a checkmark. No human characters in this
+illustration.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず甲区分建物1戸だけの現実の使われ方を確認します。次に、周囲の99戸が
+居宅であることは判断材料にしないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+甲は事務所と定める
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+主な用途がいくつあるか数えてから種類を決める
+Diagram: An isometric cutaway of a 6-story building (floors 1-3 with a
+pachinko-ball icon labeled 遊技場, floors 4-5 with a film-reel icon
+labeled 映画館, floor 6 with a house/roof icon labeled 居宅) positioned
+above an actual decision flowchart: a diamond-shaped branch node reading
+「主な用途は2つ以上あるか」with two labeled arrows — a Yes (○) arrow
+leading to a conclusion node reading「二以上の用途を連記して定める」with
+the example ribbon 遊技場・映画館・居宅 shown beneath it, and a No (✕)
+arrow leading to a separate conclusion node reading「単独の用途のみで
+定める」. Both conclusion nodes must be fully drawn with no blank or
+missing destination, and no arrow may loop back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず各階がどの用途に使われているかを一つずつ確認します。次に、面積的に
+無視できない主な用途がいくつあるかを数え、2つ以上あれば連記すると判定
+します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+遊技場・映画館・居宅
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+店舗の連記可否は面積でなく実質で決まる
+Diagram: An isometric single-family house with a small bakery-shop icon
+attached near the entrance, drawn visibly smaller than the house
+portion, positioned above an actual decision flowchart. Before the
+diamond node, show a small note tag reading「面積が小さい、という事実
+だけでは即断しない」with a shortcut arrow that would jump straight from
+「面積が小さい」to「居宅のみ」crossed out with an X, to show this
+shortcut is WRONG. Then the real diamond-shaped branch node reads
+「実質的に当該建物の主な用途と認められるか」with a Yes (○) arrow
+leading to a conclusion node reading「居宅・店舗と連記できる」with the
+ribbon label 居宅・店舗 beneath it, and a No (✕) arrow leading to a
+separate conclusion node reading「居宅のみで定める」. Both conclusion
+nodes must be fully drawn with no blank destination, and no arrow may
+loop back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず店舗部分の面積の大小だけで即断しないことを確認します。次に、その
+店舗が営業実態として主な用途と認められるかどうかを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+実態次第で連記可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+建物全体の主な用途だけを種類とする
+Diagram: Left/right contrast layout. LEFT side (誤った思い込み, labeled
+「誤」in a small red-outlined tag): an isometric domed baseball stadium
+with a retractable round roof, with clearly visible shop and
+parking-lot icons inside, and a ribbon label reading 野球場・店舗・
+駐車場 shown with a large X mark over it. RIGHT side (正しい考え方,
+labeled「正」in a small green-outlined tag): the same domed stadium,
+but the shop and parking-lot icons inside are drawn faded/greyed-out
+(to show they are 付随的な用途 and not part of the recorded 種類), with
+a ribbon label reading only 野球場 and a checkmark. Both label strings
+(野球場・店舗・駐車場 and 野球場) must be reproduced exactly as given,
+with no extra or missing terms.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず建物全体として何のための建物かという主な用途を確認します。次に、
+店舗や駐車場のような付随的な用途は種類の記載に含めないことを確認しま
+す。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+野球場のみでよい
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in beige containing the number 5.
+Heading (bold, ONE line):
+規則にない用途も準じて種類を定められる
+Diagram: A ledger/rulebook icon representing 不動産登記規則・準則,
+positioned above an actual decision flowchart. A diamond-shaped branch
+node reads「その用途は規則・準則に列挙された区分にあるか」with a Yes
+(○) arrow leading to a conclusion node reading「その区分の名称で定め
+る」, and a No (✕) arrow leading to a separate conclusion node reading
+「準じて適当な種類を定めることができる」with two small isometric
+building icons beneath it, one with a sign reading 保育所 and the other
+with a sign reading 教習所. The No-side conclusion node must clearly
+read as "can still be determined by analogy," never as "cannot be
+registered" — do not draw a rejection/X outcome on the No branch. Both
+conclusion nodes must be fully drawn with no blank destination, and no
+arrow may loop back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず保育所や教習所という言葉が規則・準則の列挙区分にそのまま載ってい
+るかを確認します。次に、載っていなくても、その実態に準じて適当な種類
+を定められることを確認します。
+Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
+characters):
+保育所も登記できる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則113条1項・2項、不動産登記事務取扱手続準則80条2項（建物
+の種類の定め方）
+
+Pay special attention to the following kanji, which have visually similar
+but distinct Simplified Chinese forms — do NOT render the simplified
+variants: 種（种ではない）・類（类ではない）・準（准ではない）・則（则で
+はない）・専（专ではない）・遊（游ではない）・駐（驻ではない）・習（习で
+はない）・建・物・登・記・所。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to the kanji listed above. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that panels 2, 3, and 5 are drawn as actual
+flowcharts with diamond branch nodes and fully drawn Yes/No conclusion
+nodes on both sides (no blank destination, no loop-back arrow), that
+panel 3's diagram makes clear the deciding factor is 実質的な主な用途性
+and not 面積の大小 alone, that panel 5's No-side conclusion reads as
+"can be determined by analogy" and never as "cannot be registered," that
+panels 1 and 4 clearly separate a crossed-out「誤」side from a
+checkmarked「正」side rather than being drawn as flowcharts, that each
+着眼点 callout states a checking order rather than only a conclusion,
+that the enumerated label 遊技場・映画館・居宅 in panel 2 contains
+exactly those three terms in that order with no duplication or omission,
+that the label 野球場 (correct) in panel 4 is not confused with the
+crossed-out 野球場・店舗・駐車場 (incorrect) label, confirm nothing is
+rendered below the footer's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

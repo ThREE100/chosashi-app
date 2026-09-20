@@ -198,3 +198,167 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「一般の行政不服審査法の規定が適用除外されていないか」「そもそも『処分』に当たるか」を見抜けるようにする5パネル構成。②の色分け（審査請求ができないケース＝緑、審査請求の基本ルール＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（審査
+請求、その主張は通る？）, but built as a set of 5 diagram-drawing panels
+(a "how to sketch this fact pattern, in the right order" study
+reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a torn calendar page, a government-office
+building sending two document copies, a surveyor's boundary判定 document
+crossed with「処分ではない」, an isometric land plot with a speech
+bubble, a desk with only the applicant seated — adapt icon set to the
+topic of 審査請求. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the
+condition written on them, Yes/No（はい／いいえ）branch arrows, and a
+final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER
+in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第17問 ア〜オ
+作図ガイド（審査請求）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+そもそも期間制限が存在しない
+Diagram: A torn calendar page with a large stamp reading「期間制限なし」
+overlaid. In the background, number labels「1か月」「3か月」each have a
+red ✕ over them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、一般の行政処分に適用される行政不服審査法18条の期間制限規定が、
+不動産登記法158条によって登記官の処分についての審査請求には適用除外
+されていることを確認します。したがって「1か月」でも「3か月」でもなく、
+そもそも期間制限という考え方自体が存在しません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+期間制限そのものなし
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+裁決書謄本は請求人と登記官の双方へ
+Diagram: A government-office building icon sending two document copies
+outward: one labeled「裁決書謄本」flying toward an applicant figure, the
+other flying toward a registrar-officer figure.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、法務局又は地方法務局の長が審査請求について裁決したことを確認
+します。裁決書の謄本及び審理員意見書の写しは、審査請求人だけでなく、
+処分をした登記官にも交付されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+請求人と登記官へ
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+筆界特定は「処分」に当たらない
+Diagram: A 筆界特定登記官's boundary-determination document with a torn-
+paper label reading「処分ではない」attached. An arrow leads from the
+document toward a courthouse building icon, with a label「境界確定訴訟」
+along the arrow.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界特定が不動産登記法156条1項の「登記官の処分」に当たるかを確認
+します。筆界特定は実体的な権利関係を確定させる行政処分としての効力
+（公定力）を持たないため、審査請求の対象にはならず、不服がある場合は
+境界確定訴訟によって争うことになります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+境界確定訴訟で争う
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+筆界異議では他人の更正登記を争えない
+Diagram: Two adjacent isometric land plots（甲土地・乙土地）. The 乙土地
+owner figure points at 甲土地's 地積更正登記 document with a speech
+bubble labeled「筆界異議」, but a red ✕ is overlaid on the speech bubble.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、隣接地の所有者が更正登記を争う理由が「筆界に異議がある」ことか
+を確認します。筆界に関する不服を審査請求で争うことはできず、対抗手段
+は筆界特定の申請によることになります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+筆界異議では不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+参加人という制度自体が存在しない
+Diagram: A desk representing the 審査請求 procedure, where only the
+applicant figure sits, while a figure representing the 抵当権者（Ｂ）
+stands beside a torn-paper label reading「参加人」with a red ✕ over it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Ｂが抵当権者として利害関係を持つかどうかを検討する前に、行政
+不服審査法13条の「参加人」制度自体が、不動産登記法158条により156条1項
+の審査請求には適用除外されていることを確認します。したがって、この
+審査請求の手続には参加人という地位そのものが用意されていません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+参加人制度なし
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法156条1項・158条、不動産登記準則145条1項、行政不服審査法
+13条・18条1項・50条・51条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 審, 査, 請, 求, 処, 分, 適, 用, 除, 外, 筆, 界, 積, 裁, 決,
+謄 and any character that has a visually similar Simplified Chinese
+variant. If any character renders as a Simplified Chinese variant,
+redraw that character in the correct Japanese form. Confirm the panel
+count equals 5 exactly, badge numbers run 1-5 continuously, there is no
+intro illustration or paragraph block between the header and the panels,
+that each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque
+background with no transparency or alpha channel anywhere.
+```

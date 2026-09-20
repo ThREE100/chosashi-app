@@ -203,3 +203,197 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+法定相続情報一覧図の保管・写しの交付の申出について、①資格者代理人の添付書類、②申出先の登記所、③一覧図の記載事項、④被相続人が名義人であることの要否、⑤再交付を受けられる者という5つの判定を、「まず何を確認するか」から順に描けるよう5パネルに整理した。ウは一覧図そのものを家系図の形で描き、被相続人を上の世代、同順位の相続人（申出人と他の相続人）を下段に横並びで配置する。オ（再交付）は、はい/いいえの両方の行き先が実際の結論として意味を持つ決定木として描く。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(法定相続情報一覧図 どこに申出て誰が再交付を受けられる？), but built as
+a set of 5 diagram-drawing panels (a "how to sketch this fact pattern, in
+the right order" study reference) rather than a quick-reference
+conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry office buildings, a map
+with location pins, a family-tree-style 一覧図 document, a 土地家屋調査士
+character with documents, and a registry counter window for 写しの交付・
+再交付. When drawing Panel 3's family-tree-style 一覧図, vertical position
+must represent generation (被相続人 above, the same-generation 相続人
+below, never mixed on the same row), people of the same generation
+(同順位の相続人) must be placed side by side rather than stacked
+vertically, and any connecting line must run in the actual parent-to-child
+direction (被相続人 downward toward the 相続人 row), never the reverse.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node,
+with both exits leading to their own separate conclusion node and no
+arrow looping back to an earlier node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和5年度午後第19問 ア〜オ
+作図ガイド（法定相続情報一覧図の保管・交付の申出）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+資格者代理人は委任状だけでは足りない
+Diagram: A left/right comparison frame. Left side (よくある思い込み): a
+土地家屋調査士 character holding only a document labeled「委任状」and
+approaching a 登記所 counter, with a red ✕ overlaid. Right side (正しい
+ルール): the same character now holding two documents together —「委任
+状」and「身分証明書の写し」— with a plus (＋) icon between them, both
+being handed to the counter.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人が土地家屋調査士のような資格者代理人であるかを確認します。
+資格者代理人が申出をする場合は、委任状だけでなく、資格者代理人団体所定
+の身分証明書の写し等もあわせて提供しなければなりません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+身分証明書も必要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+申出人の住所地の登記所でも申出できる
+Diagram: An isometric map showing four location pins labeled「被相続人の
+本籍地」「被相続人の最後の住所地」「申出人の住所地」「不動産の所在地」,
+each connected by a dotted line converging on a single 登記所 building
+icon, with the「申出人の住所地」pin highlighted in a brighter color and a
+thicker line.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申出ができる登記所が1か所に限られていないかを確認します。被相続
+人の本籍地・最後の住所地・申出人の住所地・不動産の所在地のいずれかを管
+轄する登記所であれば申出をすることができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+4つのいずれかでOK
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+他の相続人の住所は任意記載事項
+Diagram: A family-tree-style illustration of the 法定相続情報一覧図
+itself. At the top row (older generation), a single figure labeled
+「被相続人」. A single line descends from 被相続人 down to a horizontal
+bracket, which then branches into three separate lines leading to three
+same-generation figures placed side by side in a lower row：「申出人Ａ」
+「Ｂ」「Ｃ」(同順位の相続人). Beside Ａ's name, the text「住所：必須」is
+written in solid, bold ink; beside Ｂ and Ｃ's names, the text「住所：任
+意」is written in a lighter, dotted style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、一覧図に住所を書く相続人が申出人自身なのか、それ以外の同順位の相
+続人なのかを確認します。申出人の住所は必ず記載しますが、他の相続人の住
+所は任意的記載事項であり、書かなければならないわけではありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+他の相続人は任意記載
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+被相続人が名義人でなくても申出できる
+Diagram: A left/right comparison frame. Left side (よくある思い込み): a
+被相続人 character beside a house/land icon with a red ✕ overlaid on it
+(不動産を持たない), and a red prohibition mark over an arrow toward a
+登記所 building icon. Right side (正しいルール): the same 被相続人
+character, still with no registered real estate, but now with a normal
+arrow connecting a document labeled「法定相続情報一覧図」to the 登記所
+building icon.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、法定相続情報一覧図の保管の申出に、被相続人が不動産の名義人である
+ことが要件になっているかを確認します。被相続人が表題部所有者や所有権登
+記名義人でなくても、相続に起因する手続のために必要があれば申出をするこ
+とができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+名義人要件はない
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+再交付を頼めるのは申出人本人のみ
+Diagram: A decision flowchart. Start node: 写しの再交付を求める人が現れ
+る. Diamond node: 保管の申出をした申出人本人か？ A green branch with a
+thick highlighted border (本肢オの対象) for はい leads to a conclusion
+node showing 申出人Ａ receiving a duplicate copy of the 一覧図 from a
+登記所 counter window. A plain blue いいえ branch leads to its own
+conclusion node showing another character labeled「Ｂ」standing behind
+the same counter with a red prohibition mark over them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、再交付を求めているのが、もともと保管の申出をした申出人本人なのか
+を確認します。申出人本人であれば再交付を受けられますが、同じ相続人であ
+っても申出をしていない人が代わりに再交付を受けることはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+本人以外は不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則247条1項・7項、戸籍法10条の2第3項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 相, 続, 登, 記, 権, 証, 義, 務, 籍, 轄, 資, 格 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panel 3's
+family-tree diagram places 被相続人 above the same-generation 相続人 row
+with same-generation figures arranged side by side (never stacked
+vertically as if they were different generations) and connecting lines
+running from 被相続人 downward to the 相続人 row, that Panel 5 shows both
+the はい and いいえ exit of its diamond node leading to their own
+separate conclusion node with no arrow looping back to an earlier node,
+that each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

@@ -199,3 +199,203 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文（ア〜オ5肢）を読んだ瞬間に、どんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。「登記当初からの誤り（更正）なのか、登記後に生じた事情による変化（変更）なのか」という本問の切り口に沿って、直感的な思い込みと正しいルールを対比させる型、更正登記と変更登記の場面を見分ける対比枠型を肢ごとに使い分けて構成する。`infographic-prompt-template.md`の「⑤ 作図ガイド型」に基づく。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - an isometric surveyor with a tape measure
+around a land plot, a magnifying glass showing a 公差 tolerance range, a
+coastal land plot sinking below wave icons, a land plot with a mortgage
+stamp shrinking, two adjacent land plots with one growing larger, and a
+calendar icon. Where a 肢's difficulty is really an intuitive but wrong
+assumption rather than a multi-step condition, draw the panel as a
+right/wrong comparison (a 誤りやすい思い込み side struck through with a
+diagonal line, versus a 正しいルール side with a checkmark) rather than a
+flowchart. Where a 肢's difficulty is really about telling apart two
+different procedures (更正登記 versus 変更登記) rather than checking
+conditions in sequence, draw the panel as a left/right comparison frame
+instead. Where a 肢 genuinely requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text - do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第7問 ア〜オ
+作図ガイド(地積の更正登記)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled circle in blue containing the number 1(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+公差は更正登記の可否を左右しない
+Diagram: パネルの中を上下に分割した正誤対比図。上側(誤りやすい思い込
+み、斜線の打ち消し線を重ねる)には、測量士が虫眼鏡で「公差の範囲内」と
+書かれたラベルを見せながら、「公差内だから更正登記はできない」と書か
+れた吹き出しを添えるイラスト。下側(正しいルール、緑のチェックマーク)
+には、同じ測量士がテープメジャーで「地積」を測り直し、「実際の地積が
+違っていた」というラベルの横に「更正登記できる」と書かれたチェック付
+きの書類を示すイラスト。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、登記簿の地積と申請する地積との差が公差の範囲内かどうかは、更正
+登記の可否に関係ないことを確認します。次に、地積が当初から誤っていた
+という事実があるかを確認し、事実があれば更正登記を申請できると判断し
+ます。
+Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
+characters):
+更正登記できる
+
+--- PANEL 2(肢イ) ---
+Badge: a filled circle in green containing the number 2(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+原因が当初の誤りか後発的事情かを見分ける
+Diagram: パネルの中を縦の点線で左右に分割した対比図。左側(グレー寄り
+の背景、faded)には、測量士が最初から間違った数値を記録している「登記
+当初からの誤り」のイラストに「更正登記」のラベル。右側(強調された背
+景、本肢)には、海岸沿いの土地の一部が波のアイコンの下に沈んでいく
+「地殻変動による海没(登記後に生じた事情)」のイラストに、「更正登記」
+と書かれた書類への赤い✕印、そこから矢印で「変更登記」と書かれた書類
+へ導く構図。中央の点線の上に「登記の時から誤っていたのか、登記の後に
+事情が生じたのか」という問いかけのラベルを配置する。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、地積が変わった原因が登記の当初からの誤りなのか、登記の後に生じ
+た事情によるものなのかを確認します。地殻変動による海没は登記後に生じ
+た事情なので、更正登記ではなく変更の登記によると判断します。
+Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
+characters):
+更正でなく変更
+
+--- PANEL 3(肢ウ) ---
+Badge: a filled circle in blue containing the number 3(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+抵当権者の承諾の要否を確認する
+Diagram: パネルの中を上下に分割した正誤対比図。上側(誤りやすい思い込
+み、斜線の打ち消し線を重ねる)には、抵当権のスタンプが押された土地が
+縮んでいく様子の横に、抵当権者が「担保価値が減るから承諾が必要」と書
+かれた吹き出しを出しているイラスト。下側(正しいルール、緑のチェック
+マーク)には、同じ土地の更正登記の書類に緑のチェックが付き、抵当権者
+の人物アイコンの前に置かれた「承諾書」に赤い✕印が重なっているイラス
+ト。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、その更正登記が地積を減少させるものであることを確認します。次
+に、その土地に抵当権の登記があっても、抵当権者の承諾を証する情報の提
+供は要しないと判断します。
+Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾情報は不要
+
+--- PANEL 4(肢エ) ---
+Badge: a filled circle in green containing the number 4(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+隣接地所有者の承諾の要否を確認する
+Diagram: パネルの中を上下に分割した正誤対比図。上側(誤りやすい思い込
+み、斜線の打ち消し線を重ねる)には、隣り合う2つの土地のうち一方が大き
+くなっていく様子の横に、隣接地の所有者が「境界に関わるから承諾が必
+要」と書かれた吹き出しを出しているイラスト。下側(正しいルール、緑の
+チェックマーク)には、同じ土地の更正登記の書類に緑のチェックが付き、
+隣接地所有者の人物アイコンの前に置かれた「承諾書」に赤い✕印が重なっ
+ているイラスト。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、その更正登記が地積を増加させるものであることを確認します。次
+に、隣接する土地の所有権の登記名義人の承諾を証する情報の提供を要する
+との規定はないと判断します。
+Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
+characters):
+隣地承諾も不要
+
+--- PANEL 5(肢オ) ---
+Badge: a filled circle in blue containing the number 5(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+更正登記と変更登記の申請義務を比べる
+Diagram: パネルの中を縦の点線で左右に分割した対比図。左側(グレー寄り
+の背景、faded)には、地目又は地積の「変更登記」の書類の横にカレンダー
+のアイコンがあり、「変更があった日から1か月以内」というラベルが付い
+ている構図。右側(強調された背景、本肢)には、「地積の更正登記」の書類
+の横に大きな赤い✕印の付いたカレンダーのアイコンがあり、「申請義務・
+期間制限なし」というラベルが付いている構図。中央の点線の上に「変更登
+記の話か、更正登記の話か」という問いかけのラベルを配置する。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、問題文が地目又は地積の変更登記の話なのか、地積の更正登記の話な
+のかを確認します。地積の更正登記であれば、変更登記のような1か月以内
+の申請義務の規定はないと判断します。
+Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
+characters):
+申請義務なし
+
+(…肢の数だけ繰り返し。バッジ番号は1から通しで振る。)
+
+--- FOOTER ---
+Small footnote text(bottom of panel, small font, verbatim):
+根拠：不動産登記法37条1項・38条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese(Jōyō) form, not Simplified Chinese, paying special
+attention to 更・正・変・承・諾・抵・当・誤・差. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢 is
+drawn as an actual flowchart with branch nodes(not a bare illustration
+with no visible decision structure), that no 肢 with a genuinely hidden
+second condition has been flattened into a single check, that each 着眼
+点 callout states a checking order rather than only a conclusion and
+keeps every required element from the source article distinct(no merged
+or dropped requirements), that any panel sharing a decision or comparison
+structure with another panel clearly distinguishes its own highlighted
+branch from the other, faded branches, confirm nothing is rendered below
+the last panel's footnote text(no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

@@ -204,3 +204,217 @@ do not merge, omit, duplicate, or reword any of these five headings, and
 confirm every card reads as a short heading + illustration + short
 conclusion tag at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（承諾書と印鑑証明書の関係、買戻特約の転写の分岐、敷地権のある土地と区分建物の関係、根抵当権の仮登記と共同担保目録、相続人の関係図）を肢ごとに示す作図ガイドを追加した。肢ア・ウは「分筆する土地に登記された他人の権利者の承諾書は必要か」という共通の分岐から始まる決定木を共有し、それぞれ自分の肢に関係する枝だけを強調して描く構成にしている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots being split into two,
+seal/certificate cards and 印鑑証明書 icons, registration ledger books,
+condominium buildings with 敷地権 chain-link icons, calendar icons marking
+expiration periods, and family/heir character icons for co-owners and
+heirs. Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render the
+other, unrelated branches in a faded, greyed-out, or dotted-outline style
+rather than omitting them — the reader should be able to see at a glance
+which part of the shared tree this panel is about. Likewise, where a
+diagram must show an entity that conceptually never held the right or
+status in question, render that entity or claim in a faded or
+dotted-outline style rather than a plain ○/✕ mark, so the visual itself
+communicates "this was never really there," not just "this is wrong."
+Unlike a glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body
+text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和4年度 午後の部 第8問 ア〜オ
+作図ガイド（土地の分筆と先例）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+抵当権の承諾書の印鑑証明に期限なし
+Diagram: Draw a decision tree shared with PANEL 3, starting from a
+diamond-shaped root node labeled「分筆する土地に登記された他人の権利者の
+承諾書は必要か」. Render the branch labeled「抵当権を分筆後の一方の土地から
+消滅させる場合」with a thick highlighted border and full color: a document
+icon labeled「承諾書」next to a seal-certificate card labeled「印鑑証明書」,
+leading down to a second diamond-shaped node labeled「印鑑証明書に作成後
+3か月以内の期限があるか」, with a calendar icon crossed out by a red ✕ next
+to the text「3か月」, leading to a highlighted conclusion node labeled
+「期限の定めなし」. Render the other branch labeled「敷地権(区分建物所有者)
+の場合」in a faded, greyed-out, dotted-outline style (this branch is the
+subject of PANEL 3), leading to a faded conclusion node labeled「承諾書は
+不要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆後の一方の土地から抵当権を消滅させる承諾書と、その印鑑証明書が
+添付されているかを確認します。次に、その印鑑証明書に「作成後3か月以内」
+という期限が付いているかを確認すると、期限の定めはありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+印鑑証明に期限なし
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+買戻特約は期間経過後も転写される
+Diagram: Draw an isometric land plot labeled「甲土地」tagged with a
+torn-paper label「買戻特約」and a faded calendar icon. Below it, draw a
+diamond-shaped branch node labeled「買戻期間は経過しているか」with two
+branch arrows leading to two separate, explicit conclusion nodes: an
+「はい」branch arrow leading to a conclusion node labeled「経過していても
+そのまま転写する」, and an「いいえ」branch arrow leading to a separate
+conclusion node labeled「経過していなくても通常どおり転写する」. Do not
+loop either branch arrow back into the diagram. From both conclusion
+nodes, draw converging arrows into a single illustration below showing
+「甲土地」splitting into「甲土地」and「乙土地」, with the「買戻特約」label
+copied onto 乙土地's registry-ledger icon labeled「登記記録」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆前の甲土地に買戻特約の登記があるかを確認します。次に、その買戻
+期間が経過しているかどうかを確認しますが、経過していても、していなくても、
+登記官は実質審査をせずにそのまま乙土地へ転写します。
+Conclusion tag (blue, 5-15 Japanese characters):
+経過の有無を問わず転写
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+敷地権者の承諾書は分筆に不要
+Diagram: Draw the same shared decision tree as PANEL 1, from the
+diamond-shaped root node labeled「分筆する土地に登記された他人の権利者の
+承諾書は必要か」. Render the branch labeled「抵当権を分筆後の一方の土地から
+消滅させる場合」(including its 承諾書・印鑑証明書アイコンと3か月の分岐
+ノード) in a faded, greyed-out, dotted-outline style (this branch is the
+subject of PANEL 1). Render the branch labeled「敷地権(区分建物所有者)の
+場合」with a thick highlighted border and full color: an isometric
+two-unit condominium building labeled「甲建物」and「乙建物」standing on a
+land plot labeled「丙土地」marked with a chain-link icon for「敷地権」, the
+land plot splitting into two, with a document icon labeled「承諾書」crossed
+out by a red ✕, leading to a highlighted conclusion node labeled「承諾書は
+不要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆する土地にどのような権利（抵当権か、敷地権か）が登記されている
+かを確認します。次に、敷地権（賃借権）を有する区分建物の所有権の登記名義
+人からの承諾書が添付情報とされているかを確認すると、必要とされていません。
+Conclusion tag (blue, 5-15 Japanese characters):
+承諾書は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+根抵当権の仮登記に共同担保目録なし
+Diagram: Draw an isometric land plot with a stamp icon labeled「根抵当権
+設定」. Below it, draw a diamond-shaped branch node labeled「仮登記か、本
+登記か」with two branches. Render the「本登記」branch in a faded,
+greyed-out, dotted-outline style (not this panel's case), leading to a
+faded conclusion node labeled「共同根抵当権となり得る」. Render the「仮
+登記」branch with a thick highlighted border and full color, leading down
+to the land plot splitting into two plots, with a ledger-book icon
+labeled「共同担保目録」crossed out by a red ✕, leading to a highlighted
+conclusion node labeled「共同根抵当権の関係は生じない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地に登記されている根抵当権の設定が仮登記か本登記かを確認します。
+次に、仮登記のまま分筆によって複数の土地に登記が及んだ場合に共同根抵当権
+の関係が生じるかを確認すると、生じないため、登記官は共同担保目録を作成し
+ません。
+Conclusion tag (blue, 5-15 Japanese characters):
+目録は作成せず
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+相続人の一人Dが単独で申請できる
+Diagram: Draw a two-generation relationship diagram. Top row (same
+generation, side by side): two co-owner character icons labeled「A」and
+「B」, connected by a horizontal bracket labeled「共有」, standing on a
+land plot labeled「土地」. Draw a downward arrow from「A」only (B remains
+unaffected) to a lower row showing two heir character icons labeled「C」
+and「D」, side by side, connected by a small ∩-shaped bracket indicating
+siblings, with a label「相続人」next to the arrow. On the land plot, show
+one portion changing icon from a house-shaped「宅地」symbol to a
+tree-shaped「山林」symbol, labeled「地目変更」. Only「D」steps forward
+alone holding an application document labeled「一部地目変更分筆登記」,
+while「C」and「B」stand back without any document in hand.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目が変わったのは土地の一部だけであり、その登記が地目変更という
+事実を登記記録に反映させる報告的登記であることを確認します。次に、相続人
+その他の一般承継人であれば、その一人から単独で申請できるかを確認すると、
+Dが単独で申請できます。
+Conclusion tag (blue, 5-15 Japanese characters):
+一人で単独申請可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記令19条1項・2項（肢ア）。肢イ・ウ・エ・オは先例・実務
+上の取扱いによる（番号は省略）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・地・登・記・担・保・転・写・仮・録・証・建・物・続. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 (PANEL 2 and PANEL 4) is drawn as an actual
+flowchart with branch nodes (not a bare illustration with no visible
+decision structure), that no 肢 with a genuinely hidden second condition
+has been flattened into a single check, that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct (no merged or dropped
+requirements), that PANEL 1 and PANEL 3 (which share one decision tree)
+each clearly distinguish their own highlighted branch from the other,
+faded branch, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

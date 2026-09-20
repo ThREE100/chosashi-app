@@ -205,3 +205,209 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（建物の名称欄、所有権を証する情報の中身、規約廃止から取得までのタイムライン、共有者の持分と申請人数の区別、原始取得者と転得者・相続人の分岐）を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに判定の「順番」を明示する「着眼点」の短い説明文を添えている。建物の表題登記の問題を解くとき、まず何を図に落とし込めば正誤判定にたどり着けるかの練習素材として使う。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric partitioned (区分建物) and
+non-partitioned (非区分建物) building icons, a nameplate icon, a registry
+ledger/application-document icon, owner character tags for 原始取得者・
+転得者・相続人, a calendar/timeline icon for the one-month deadline, and
+small ○/✕ marks showing which condition is satisfied. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Where a panel reuses a decision tree shared with other panels
+in this set, render the branch relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated
+branches in a faded, greyed-out, or dotted-outline style rather than
+omitting them — the reader should be able to see at a glance which part
+of the shared tree this panel is about. Likewise, where a diagram must
+show an entity that conceptually never held the right or status in
+question (e.g. a transferee who never had applicant standing), render
+that entity or claim in a faded or dotted-outline style rather than a
+plain ○/✕ mark, so the visual itself communicates "this was never really
+there," not just "this is wrong." Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を
+確認します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text — do not drop or merge a
+required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和4年度 午後の部 第13問 ア〜オ
+作図ガイド（建物の表題登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+名称の有無をまず図に描き込む
+Diagram: Draw an isometric non-partitioned single-story office building
+icon with a wooden nameplate reading "◯◯ビル" attached above the
+entrance. Above the building, draw a small neutral label box reading
+「区分建物でない」with no crossed-out mark, to show that this fact by
+itself does not block anything. Draw an arrow from the nameplate to a
+registration document icon labeled「申請情報」where the same characters
+「◯◯ビル」are being written into a field labeled「建物の名称欄」, with a
+green checkmark next to that field.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず建物が区分建物かどうかではなく、名称が付いているかどうかを確認しま
+す。名称があれば、区分建物でなくても申請情報の内容として記載します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+名称も登記対象
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+借地権証明でなく所有権証明を先に見る
+Diagram: Draw a land plot icon labeled「土地（所有者A）」with a building on
+it labeled「所有者B」. Beside the building, draw two document icons
+stacked vertically: the upper document reads「所有権を証する情報」with a
+green checkmark showing it is what is actually required, and the lower
+document reads「借地権を証する情報」with a small tag reading「任意提出
+可」instead of a mandatory red stamp, connected to the upper document by
+a thin dashed line to show it is only one optional way of proving
+ownership, not a separate mandatory requirement.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず表題部所有者となる者の所有権を証する情報として何を提供するかを確認
+します。次に、借地権を証する情報は数ある証明方法の一つにすぎず、必ず提
+供しなければならないものではないことを確認します。
+Conclusion tag (blue, 5-15 Japanese characters):
+所有権証明で足りる
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+規約廃止と取得の先後関係を図にする
+Diagram: Draw a horizontal timeline arrow with three markers from left to
+right. Marker (1): a torn-paper icon labeled「共用部分である旨の規約を
+廃止」. Marker (2): a house-key handover icon labeled「所有権を取得」.
+Marker (3): a calendar icon with a countdown ring reading「1か月以内」
+pointing to a document stamped「表題登記の申請義務」. Draw a small
+bracketed arrow connecting marker (2) and marker (3) to emphasize that
+the one-month countdown starts at the moment of acquisition, not at the
+moment the regulation was abolished.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず共用部分である旨の登記がある建物について、規約が廃止されたかを確認
+します。次に、その廃止後に所有権を取得した者を特定し、取得の日から1か
+月以内かどうかを確認します。
+Conclusion tag (blue, 5-15 Japanese characters):
+取得日から1か月以内
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+持分の記載と申請人数は別と見る
+Diagram: Draw a non-partitioned single-family house icon with two owner
+character tags labeled「A」「B」standing beside it. Draw an open registry
+ledger icon showing both「A」「B」recorded together as 表題部所有者 with
+their 持分, labeled「登記記録には両名を記載」. Next to it, draw only
+character「A」stepping forward alone to hand a document to a registry
+counter icon, with a small badge reading「保存行為」above A. Beside that,
+draw a small icon of「A」and「B」walking together toward the counter with
+a red cross overlay, labeled「共同でなくてよい」, to show that recording
+both owners' names in the registry is a different question from whether
+both owners must jointly apply.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずこの表題登記の申請が保存行為にあたるかを確認します。次に、登記記録
+には共有者全員の持分を記載する必要があっても、申請自体は共有者の一人か
+ら単独でできることを確認します。
+Conclusion tag (blue, 5-15 Japanese characters):
+単独申請でよい
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+取得の経緯で申請適格の有無が変わる
+Diagram: At the top, draw a character icon labeled「原始取得者A」who
+built 甲建物 as a 区分建物. Below A, draw a diamond-shaped branch node
+labeled「区分建物を取得した経緯は」with two branch arrows. The left
+branch, labeled「売買等（特定承継）」, leads to a character icon labeled
+「転得者B」holding a document rendered in a faded, dotted-outline style
+(rather than a plain crossed-out icon) to show that B's status as an
+applicant never existed, with a final conclusion node reading「申請適格
+なし（Aが単独で申請）」. The right branch, labeled「相続その他の一般承継」,
+leads to a different character icon labeled「相続人」holding a document
+with a solid green checkmark, with a final conclusion node reading「申請
+適格あり（被承継人Aを表題部所有者として申請できる）」. Both conclusion
+nodes are separate end points with no arrow looping back into the diamond
+node or into any other part of the diagram.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず区分建物を取得した経緯が、売買等の特定承継か、相続その他の一般承継
+かを確認します。特定承継による転得者には申請適格がなく、一般承継人であ
+る相続人には申請適格があることを確認します。
+Conclusion tag (blue, 5-15 Japanese characters):
+転得者不可・相続人は可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記法44条1項4号（ア）／所有権を証する情報は任意提供
+（イ）／不動産登記法58条7項（ウ）／民法252条5項・不動産登記令3条9号
+（エ）／不動産登記法47条1項・2項（オ）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号, 権, 地, 建, 物, 登, 記, 所, 請, 共, 続, 転, 産, 継, 単,
+適, 廃, 経, 緯, 約. If any character renders as a Simplified Chinese
+variant, redraw that character in the correct Japanese form. Confirm the
+panel count equals 5 exactly, badge numbers run 1-5 continuously, there
+is no intro illustration or paragraph block between the header and the
+panels, that every multi-condition 肢 is drawn as an actual flowchart
+with branch nodes (not a bare illustration with no visible decision
+structure), that no 肢 with a genuinely hidden second condition has been
+flattened into a single check, that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element
+from the source article distinct (no merged or dropped requirements),
+that any panel sharing a decision tree with another panel clearly
+distinguishes its own highlighted branch from the other, faded branches,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

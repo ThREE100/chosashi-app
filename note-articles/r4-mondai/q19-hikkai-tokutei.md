@@ -204,3 +204,199 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（誰が通知するか、既に筆界特定がされた土地への再申請の可否、予納義務を負うのは誰か、申請の趣旨の書き方、対象土地を共通にする複数申請の一体化）を肢ごとに示す作図ガイドを追加した。特にイは「原則は却下事由に該当するが、明白かつ重大な誤りなど特段の事情があれば改めて申請できる」という2段階の判定が必要な肢のため、実際の決定木（フローチャート）として描き分けている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry-official and applicant
+character icons, envelopes, land-plot icons with dotted boundary lines,
+document/application-form icons, a coin tray for 予納, diamond-shaped
+decision nodes, and small ✓/✕ marks showing which condition is satisfied.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和4年度 午後の部 第19問 ア〜オ
+作図ガイド（筆界特定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+通知するのは登記官であり申請人でない
+Diagram: Draw two numbered check points, top to bottom. ①An open law-book
+icon with the sentence's subject highlighted: an isometric character
+labeled「筆界特定登記官」stands next to the highlighted word, holding an
+official stamp, with a small label「①まず主語を確認」above it. ②Below,
+draw the same 筆界特定登記官 character sending an envelope labeled「通知」
+toward two separate receiving character icons labeled「対象土地の所有者」
+and「関係土地の所有者」, with a small label「②通知の相手を確認」. Beside
+this, draw a third character icon labeled「申請人」holding an envelope
+with a red prohibition mark (✕) over it and a crossed-out label reading
+「申請人自らの通知」, showing the applicant does not perform the
+notification.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、条文の主語が「筆界特定登記官」であることを確認します。次に、申請人
+自身が関係人へ通知するわけではないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+通知の主体は登記官
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+明白かつ重大な誤りがあれば再申請できる
+Diagram: Draw an actual decision flowchart, top to bottom. Start node
+(rectangle): 「対象土地の筆界について既に筆界特定がされている」. An arrow
+leads down to a diamond-shaped branch node labeled「①明白かつ重大な誤りが
+あるなど特段の事情があるか（例：偽造された資料に基づく筆界特定）」. From
+the diamond, a green arrow labeled「はい」leads to a distinct rounded
+rectangle conclusion node in green:「改めて筆界特定の申請ができる（却下
+されない）」. A separate red arrow labeled「いいえ」leads to a distinct
+rounded rectangle conclusion node in grey/red:「却下事由に該当し却下され
+る（原則どおり）」. Both conclusion nodes must be fully drawn as endpoints
+with no arrow looping back into the flowchart.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対象土地の筆界について既に筆界特定がされているという前提を確認し
+ます。次に、その筆界特定の内容に明白かつ重大な誤りがあるなど特段の事情
+があるかを確認し、特段の事情があれば却下されず改めて申請できると判断し
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+特段の事情があれば再申請可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+予納義務を負うのは申請人だけ
+Diagram: Draw two numbered check points, top to bottom. ①A sorting frame
+with two character icons side by side, one labeled「申請人」and one
+labeled「対象土地の所有権の登記名義人（申請人ではない）」, with a small
+label「①まず「申請人」かどうかを見分ける」above the frame. ②Below, draw
+the「申請人」character placing coins into a tray labeled「手続費用の予納」
+with a green checkmark, while the「対象土地の所有権の登記名義人（申請人
+ではない）」character stands beside an empty tray with a red prohibition
+mark (✕). Add a torn paper label reading「所有者だから払うと思い込みが
+ち」crossed out with a red diagonal line, next to a corrected label
+reading「申請人だけが予納」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、費用の負担が問題になっている人物が「筆界特定の申請人」かどうかを
+確認します。次に、対象土地の所有権の登記名義人であっても、申請人でなけ
+れば予納義務は生じないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+予納義務は申請人のみ
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+申請は申請の趣旨を明示して行う
+Diagram: Draw two numbered check points, top to bottom. ①A document form
+icon labeled「筆界特定申請情報」with a small label「①記載事項を思い出
+す」above it. ②Below, draw a magnifying glass hovering over a highlighted
+line on the document reading「申請の趣旨」, revealing a speech bubble
+containing the words「筆界特定を求める旨の明確な意思表示」with a green
+checkmark, and a small label「②趣旨が明確に書かれているか確認」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界特定申請情報に記載すべき事項を思い出します。次に、「申請の趣
+旨」として、筆界特定を求める旨の明確な意思表示が書かれているかを確認し
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+趣旨の明示が必須
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+対象土地の一が共通なら一の申請情報で可
+Diagram: Draw two numbered check points, left to right. ①Three isometric
+land-plot icons with dotted boundary lines:「甲土地」in the center, with
+「乙土地」connected to its left edge and「丙土地」connected to its right
+edge, each connection labeled「対象土地」, and a small label「①それぞれ
+の申請の対象土地を書き出す」above the plots. ②Below, draw two separate
+document form icons labeled「申請1（甲土地・乙土地）」and「申請2（甲土地・
+丙土地）」merging via converging arrows into a single document form icon
+labeled「一の筆界特定申請情報」with a green checkmark, and a small label
+「②「甲土地」が共通していることを確認」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、それぞれの申請の対象土地を書き出します。次に、対象土地の「一」が
+共通しているかを確認し、共通していれば一の筆界特定申請情報にまとめられ
+ると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+対象共通なら一括申請可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記法133条1項（ア）／同法132条1項7号（イ）／同法146条1項・
+5項（ウ）／同法131条3項1号（エ）／不動産登記規則208条（オ）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 筆・請・費・誤・権・記・納・偽・資・続・対. If any character
+renders as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that the multi-condition 肢（イ）is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that the hidden second condition in
+肢イ（明白かつ重大な誤りなど特段の事情の有無）has not been flattened into
+a single check, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

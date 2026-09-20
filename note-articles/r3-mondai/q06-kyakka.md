@@ -202,3 +202,210 @@ paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア・ウ・エは複数の条件を順に確認しないと結論に至れないため決定木として描き、イは単一チェックで完結するため配置図（境界線を確認する場面）として描いた。オは「電子申請だから却下も電子データで届く」という思い込みを正しいルールと対比させる正誤対比型にした。バッジ色は②のインフォグラフィックと揃え、却下の範囲・方式に関するア・オを青、却下事由の有無を判断するイ・ウ・エを緑とした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric icons of a registry office building,
+application-form documents, land-parcel blocks with boundary lines,
+a registrar character with a magnifying glass, survey-point (基本三角点)
+markers, a calendar, a rejection stamp reading 却下, envelopes, and a
+computer/tablet for online filing. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Where a
+branch of a decision tree is not the branch this panel is actually about
+(a reference/contrast outcome rather than this 肢's own conclusion), render
+that branch in a faded, greyed-out, or dotted-outline style and render the
+branch that leads to this panel's actual conclusion with a thick
+highlighted border and full color, so the reader can see at a glance which
+outcome this panel is about. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers (article/
+regulation numbers are fine); keep the callout text as written below
+verbatim, and keep every condition each callout describes faithful to the
+article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度　午後の部　第6問　ア〜オ
+作図ガイド（却下の判断）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+目的ごとに却下事由の有無を分けて見る
+Diagram: 一枚の申請書アイコンに「所有権移転」タグと「抵当権設定」タグが
+並ぶ場面から開始する決定木。ひし形ノード1「一の申請情報に二以上の登記目的
+が含まれるか」→「いいえ」の矢印は左へ伸び、薄いグレーの参考結論ノード
+「通常どおり却下事由の有無だけを見る（本肢の対象外）」につながる。「はい」
+の矢印は下へ伸び、ひし形ノード2「却下事由があるのは全部の目的か一部の目的
+だけか」につながる。「全部」の矢印は薄いグレーの参考結論ノード「申請の全部
+を却下」につながる。「一部」の矢印（太い縁取り・強調色）は、強調された
+結論ノード「却下事由がある部分だけを却下（他の部分はそのまま登記される）」
+につながり、そのノードの脇に「抵当権設定」タグに赤い却下スタンプ、
+「所有権移転」タグに緑のチェックマークを重ねた小さな申請書アイコンを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず一つの申請情報に二以上の登記目的が含まれているかを確認し、含まれて
+いれば次に却下事由があるのは全部の目的か一部の目的だけかを確認します。
+一部の目的だけに却下事由があるときは、却下されるのはその部分だけです。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一部だけ却下
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+筆界が確認できるかをまず見る
+Diagram: 隣接する二つの土地区画アイコンを並べ、その間の境界線を
+ギザギザの点線（筆界が不明瞭であることを表す）で描く。登記官キャラクター
+が境界線に虫眼鏡を向け、境界線の上に赤い「？」マークを配置する。脇に
+「地積に関する更正の登記申請書」アイコンを置き、調査結果を示す矢印を
+申請書アイコンへつなぎ、申請書アイコンに赤い却下スタンプ（「却下」の
+文字入り）を重ねる。対比として、薄いグレーで縮小表示した参考カットを
+右下に添える：境界線が実線ではっきり描かれ「？」マークがなく、申請書
+アイコンに緑のチェックマークが付いた「筆界が確認できた場合」の小さな絵。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず登記官が調査を行い、その土地の筆界を確認できるかどうかを見ます。
+確認できなければ、その地積更正の登記申請は却下されます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+筆界不明は却下
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+基準点を使えたのに使ったかを見る
+Diagram: 画面上部に「地積測量図」アイコンと「基本三角点」アイコンを配置
+した決定木。ひし形ノード1「近傍に基本三角点等があり、その成果を利用でき
+たか」→「いいえ（特別の事情がある場合）」の矢印は薄いグレーの参考結論
+ノード「近傍の恒久的な地物に基づく座標値の記録でもよい（却下されない）」
+につながる。「はい」の矢印はひし形ノード2「実際にその基本三角点等の成果
+を利用して地積測量図を作成したか」につながる。「はい」の矢印は薄いグレー
+の参考結論ノード「要件を満たす（却下されない）」につながる。「いいえ
+（利用できたのに利用しなかった）」の矢印（太い縁取り・強調色）は、強調
+された結論ノード「却下」につながり、そのノードの脇で「地積測量図」
+アイコンに赤い却下スタンプを重ねる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず近くに基本三角点等があり、その成果を利用できたかを確認します。
+利用できた場合は、次に実際にその成果を使って地積測量図を作成したかを
+確認し、利用できたのに使わなかったときは却下されます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+使えるのに不使用は却下
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+補正可能かと期限内かを順に見る
+Diagram: 「不備あり」の付箋が貼られた申請書アイコンから始まる決定木。
+ひし形ノード1「申請に不備があるか」→「いいえ」の矢印は薄いグレーの
+参考結論ノード「そのまま受理」につながる。「はい」の矢印はひし形ノード2
+「その不備は補正することができるものか」につながる。「いいえ（補正不能
+な不備）」の矢印は薄いグレーの参考結論ノード「却下」につながる。「はい」
+の矢印はひし形ノード3「登記官が定めた相当の期間内に申請人がこれを補正
+したか」につながる。「いいえ」の矢印は薄いグレーの参考結論ノード「却下」
+につながる。「はい」の矢印（太い縁取り・強調色）は、カレンダーアイコン
+（「相当の期間」ラベル付き）を経て緑のチェックマーク付きの修正済み申請書
+アイコンに変わり、強調された結論ノード「却下されない」につながる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず申請に不備があるかを確認し、次にその不備が補正することができる
+ものかを確認します。補正できる不備であれば、最後に登記官が定めた相当の
+期間内に申請人が補正したかを確認し、期間内に補正されていれば却下され
+ません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+期間内補正で却下回避
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+電子申請でも却下決定書は書面で来る
+Diagram: 画面を左右2枠に分ける対比構成。左枠（誤った思い込み、枠全体に
+薄い赤の取り消し線を重ねる）：パソコン画面から電子データのアイコンが
+登記所の建物アイコンを経て、そのまま画面や端末に「却下決定書（電磁的
+記録）」の電子データアイコンとして表示される場面。右枠（正しいルール、
+太い縁取り・強調色）：パソコン画面から「電子申請」の送信アイコンが登記所
+の建物アイコンへ送られるが、建物から出てくるのは印刷された紙の
+「却下決定書」アイコンと封筒アイコンで、申請人キャラクターの元へ配達
+される場面。両枠の下に小さなラベルで「不動産登記規則38条1項・2項」を
+添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+電子申請だから却下決定書も電磁的記録で届くと思い込みやすいところですが、
+却下は申請人に不利益を与える処分であり到達を確実にする必要があるため、
+実際には書面で作成され、申請人ごとに交付または送付されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+却下決定書は書面
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+ア：不動産登記事務取扱準則28条4項／イ：不動産登記法25条11号／
+ウ：不動産登記規則77条1項7号・8号、同条2項／エ：不動産登記法25条ただし書／
+オ：不動産登記規則38条1項・2項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to the characters 却・下・申・請・登・記・地・積・筆・界・測・量・
+図・補・正・決・三・角・点・書・面・電・磁. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel showing a reference/contrast branch clearly
+distinguishes it (faded) from the panel's own highlighted conclusion
+branch, confirm nothing is rendered below the last panel's footnote text
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

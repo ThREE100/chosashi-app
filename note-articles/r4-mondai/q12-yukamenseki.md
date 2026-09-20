@@ -206,3 +206,213 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（出窓の断面、階段室・塔屋の外観、屋外階段、ダストシュートの断面、停車場の乗降場の断面など）と、その図にたどり着くまでの判定順序を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、④間違いノート型と同じ運用（着眼点の説明文を許容）に倣い、各パネルに判定順序を示す「着眼点」の短い説明文を添えている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric building cross-sections showing 出窓
+(bay windows), 階段室・塔屋 (rooftop stairwell towers), 屋外階段 (outdoor
+staircases), ダストシュート (dust chute shafts), and 停車場の乗降場 (train
+platforms with canopies), together with ruler/height-marker icons,
+roof-coverage shading, and small ✓/✕ marks showing which condition is
+satisfied. Where a 肢 requires checking multiple conditions in sequence
+before reaching a conclusion, draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a separate final
+conclusion node for every branch — never leave a branch's destination
+unlabeled, and never draw an arrow looping back into an earlier node.
+Where a 肢 is resolved by a single check, a labeled illustrative diagram
+is sufficient — do not force a flowchart. However, where the article's
+own wording introduces a factor that looks decisive but is in fact
+irrelevant to the conclusion (e.g. 外気分断性 for a stairwell that is
+excluded purely because of its limited purpose, or 屋根・手すり for an
+outdoor staircase that is excluded purely because it lacks 外気分断性),
+draw that irrelevant factor with a crossed-out (✕) callout so the reader
+visually sees it does not change the conclusion, rather than omitting it
+or silently treating it as decisive. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を
+確認します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text — do not drop or merge a
+required element (keep 「高さ1.5メートル以上」and「下部が床面と同一の
+高さ」as two distinct checks for 出窓, since the source article treats
+them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和4年度 午後の部 第12問 ア〜オ
+作図ガイド（床面積の算入基準）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+出窓は「高さ1.5m以上」と「下部同高」の両方を確認する
+Diagram: Draw an isometric cutaway of a window bay (出窓) projecting from
+a wall. Draw the panel as an actual decision flowchart with two
+diamond-shaped branch nodes stacked vertically. Diamond node 1 reads
+「高さは1.5m以上か」with a vertical ruler icon beside the bay showing the
+height measurement; a ✕ branch arrow leads sideways to a conclusion node
+reading「算入しない（高さ不足）」, and a ✓ branch arrow leads down to
+diamond node 2. Diamond node 2 reads「下部は床面と同一の高さか」with a
+highlighted horizontal line where the bay's bottom edge meets the floor
+level; a ✓ branch arrow leads to a conclusion node reading「算入する」,
+and a ✕ branch arrow leads to a separate conclusion node reading「算入
+しない（下部が浮いている）」. Do not draw any arrow looping back into an
+earlier node — every branch ends at one of the three conclusion nodes.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず出窓の高さが1.5メートル以上あるかを確認します。次に、高さの条件を
+満たした場合に限り、出窓の下部が床面と同一の高さにあるかを確認します。
+両方そろって初めて算入します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+両条件がそろって算入
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+階段室・塔屋は外気分断性の有無に関係なく不算入
+Diagram: Draw an isometric rooftop of a building with a small tower-like
+structure labeled「階段室」used only as a stairwell exit, next to similar
+small tower icons labeled「エレベーターの機械」「高置水槽」「冷却装置」.
+Draw the towers fully enclosed by walls with a dotted outline labeled
+「外気分断性あり」and a ✓ mark on that label, then draw a large ✕ overlay
+across that ✓ mark with a callout arrow pointing to a small stamp reading
+「外気分断性の有無は無関係」. Beside the towers, draw a single
+prohibition (no-entry) stamp reading「算入しない」applied to all four
+towers regardless of the ✓/✕ on the 外気分断性 label.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず階段室や塔屋の用途が、出入口専用またはエレベーターの機械・高置水槽・
+冷却装置の収容に該当するかを確認します。該当すれば、外気分断性の有無を
+確認するまでもなく算入しません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+外気分断性は無関係
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+屋根・手すりがあっても外気分断性なければ不算入
+Diagram: Draw an isometric outdoor steel staircase attached to a
+building, with a small roof icon labeled「屋根」and a handrail icon
+labeled「手すり」both highlighted with ✓ marks. Draw dotted airflow lines
+passing freely through the open sides of the staircase (no surrounding
+walls) labeled「外気分断性なし」with a ✕ mark. Draw an arrow from the
+「屋根」「手すり」✓ marks toward a small stamp reading「屋根・手すりは
+無関係」, and a separate arrow from the「外気分断性なし」✕ mark toward a
+final conclusion stamp reading「算入しない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず屋外階段に外気分断性があるかどうかを確認します。屋根や手すりが
+付いていても、外気を分断していなければその時点で床面積に算入しません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+外気分断性なければ算入外
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+ダストシュートの起点が内部か外部かを確認する
+Diagram: Draw the panel as an actual decision flowchart with a single
+diamond-shaped branch node. Draw an isometric cutaway of a building
+showing a vertical shaft labeled「ダストシュート」. The diamond node
+reads「シャフトの主要な起点は建物内部にあるか」. A ✓ branch arrow leads
+to a conclusion node reading「全体を算入（外側にはみ出た部分も含む）」,
+illustrated by shading the entire shaft — including a small section
+protruding outside the exterior wall on one floor — in the same
+highlight color. A ✕ branch arrow leads to a separate conclusion node
+reading「算入しない」, illustrated by a shaft drawn entirely outside the
+building outline with no shading. Do not draw any arrow looping back into
+the diamond node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずダストシュートの主要な部分がどこにあるかを確認します。建物内部を
+起点としている場合は、外側にはみ出た部分も切り離さず全体を算入します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+内部起点なら全体算入
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+乗降場の床面積は上屋がかかる範囲だけで測る
+Diagram: Draw an isometric train station platform labeled「乗降場」with a
+canopy roof labeled「上屋」covering part of it. Shade the area directly
+under the roof in a highlight color labeled「上屋の範囲＝床面積」, and
+leave the open, uncovered section of the platform beyond the roof's edge
+unshaded, labeled「上屋の外＝計算に含めない」. Draw a ruler/measuring-tape
+icon along the shaded area only, showing that the measurement stops
+exactly at the roof's edge.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず乗降場のどの範囲に上屋（屋根）がかかっているかを確認します。上屋の
+外側にある吹きさらしの部分は、床面積の計算に含めません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+上屋の範囲だけで算入
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記事務取扱手続準則82条11号（肢ア）／同条7号（肢ウ）／
+同条10号（肢エ）／同条2号（肢オ）。肢イは先例による（本文参照）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 窓・段・塔・乗・降・積・号・建・物・確・認・断・気・関・続・
+登・記. If any character renders as a Simplified Chinese variant, redraw
+that character in the correct Japanese form. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 (肢ア and 肢エ) is drawn as an actual flowchart
+with branch nodes (not a bare illustration with no visible decision
+structure), that no 肢 with a genuinely hidden second condition has been
+flattened into a single check, that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element
+from the source article distinct (no merged or dropped requirements),
+that a factor the article treats as irrelevant (外気分断性 in 肢イ,
+屋根・手すり in 肢ウ) is shown crossed out rather than silently omitted,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

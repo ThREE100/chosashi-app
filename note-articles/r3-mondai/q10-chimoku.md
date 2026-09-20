@@ -204,3 +204,219 @@ appear once and verbatim as written above:
 4. 一体でため池
 5. 境内地に認定
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア・ウは「対象がその地目の定義（防水目的の堤防／人の遺骸・遺骨）に厳密に当てはまるか」を確認したうえで、当てはまらない場合は「他のどの地目の定義にも当てはまらないため雑種地」という残余区分の確認へ進む、同じ2段階の決定木構造を共有する。オは「建物の建築工事が完了しているか」「例外的に宅地化が確実に見込まれる要件を満たすか」を順に確認し、仮設事務所は建物として扱えないため要件を満たさないことを示す3要素構成の決定木とした。イは「えん堤だけを切り離して堤とする誤った考え方」と「ため池全体を一体として認定する正しい考え方」を対比させる正誤対比型、エは1回の確認で完結するため配置図型（決定木を無理に作らない）とした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric retaining walls on a steep mountain
+slope, an irrigation pond with its embankment (えん堤) drawn as one unified
+body, small pet-cemetery grave markers, a temple hall (聖堂/本堂), a
+cleared mountain plot with a prefab site office (仮設事務所), and
+decision-flowchart diamond nodes with Yes/No branch arrows and rounded
+conclusion nodes. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. Panels 1 (肢ア) and 3
+(肢ウ) share the same second decision-tree stage — a diamond node labeled
+「他のいずれかの地目の定義に当てはまるか？」that leads to a 「雑種地」
+conclusion on its No branch — draw this second diamond with the same
+wording, shape, and position in both panels so the shared residual-category
+structure is visually recognizable, while the first diamond in each panel
+keeps its own 肢-specific condition; render the branch relevant to THIS
+panel with a thick highlighted border and full color, and render the
+other, unrelated branch endpoints (e.g. the hypothetical 「堤」or 「墓地」
+conclusion that does not apply to this fact pattern) in a faded,
+greyed-out, or dotted-outline style rather than omitting them, so the
+reader can see at a glance which path actually applies. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後の部 第10問 ア〜オ
+作図ガイド（地目認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in beige containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+堤の定義は防水目的の堤防に限られる
+Diagram: A vertical decision flowchart with two diamond-shaped branch
+nodes. Above the flowchart, a small isometric icon of a concrete
+retaining wall (擁壁) built into a steep mountain slope, with an arrow
+pointing from the icon into Diamond 1. Diamond 1: label「防水のために
+築造した堤防か？」, Yes arrow → a rounded conclusion node labeled「堤」
+drawn in a faded/dotted style (this branch does not apply to this fact
+pattern), No arrow ↓ to Diamond 2 (drawn with a thick highlighted
+border). Diamond 2: label「他のいずれかの地目の定義に当てはまるか？」,
+Yes arrow → a faded conclusion node labeled「該当するその地目」, No arrow
+(highlighted) ↓ to a bold, fully colored conclusion node labeled
+「雑種地」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず擁壁の設置目的が防水（堤防としての機能）かどうかを確認します。土砂崩れ・
+地滑り防止が目的の場合は「堤」にあたらず、他のどの地目の定義にも当てはまら
+ないため、雑種地と判定します。
+Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
+characters):
+堤ではなく雑種地
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+えん堤は独立した堤でなくため池の一部
+Diagram: A left/right two-panel contrast frame (対比枠). Left panel
+(labeled「誤った考え方」with a small red ✕ mark): an isometric icon of an
+agricultural irrigation pond, with the embankment (えん堤) circled and
+pulled out separately, labeled「堤」and overlaid with a red X. Right panel
+(labeled「正しい認定」with a ✓ mark): the same pond and embankment drawn
+as one unified illustration inside a single dashed boundary line around
+both, labeled「ため池（一体）」. An arrow from the right panel leads down
+to a single bold conclusion node labeled「ため池」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずこの土地が耕地かんがい用の用水を貯留する池全体の一部かどうかを確認しま
+す。えん堤は池を機能させるための一体的な設備なので、堤として切り離さず、
+ため池全体を1つの地目として認定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一体でため池
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in beige containing the number 3.
+Heading (bold, ONE line):
+墓地の定義は人の遺骸・遺骨に限られる
+Diagram: A vertical decision flowchart with two diamond-shaped branch
+nodes, matching the layout of Panel 1's flowchart. Above the flowchart, a
+small isometric icon of pet-cemetery grave markers (犬・猫の墓標) lined
+up in a row, with an arrow pointing from the icon into Diamond 1.
+Diamond 1: label「埋葬されているのは人の遺骸・遺骨か？」, Yes arrow → a
+faded conclusion node labeled「墓地」(this branch does not apply to this
+fact pattern), No arrow ↓ to Diamond 2 (drawn with a thick highlighted
+border, using the same wording and position as Panel 1's Diamond 2).
+Diamond 2: label「他のいずれかの地目の定義に当てはまるか？」, Yes arrow →
+a faded conclusion node labeled「該当するその地目」, No arrow
+(highlighted) ↓ to a bold, fully colored conclusion node labeled
+「雑種地」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず埋葬の対象が人の遺骸・遺骨かどうかを確認します。動物の遺骸・遺骨である
+場合は「墓地」にあたらず、他のどの地目の定義にも当てはまらないため、雑種地
+と判定します。
+Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
+characters):
+動物埋葬は雑種地
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+宗教儀式に使う聖堂の敷地は境内地
+Diagram: A single illustrative diagram (no flowchart needed, since this
+肢 is resolved by one check): an isometric temple hall (聖堂/本堂)
+standing on a plot of land, with a small label tag on the building
+reading「宗教上の儀式・行事に利用」and a ✓ mark, and an arrow leading
+from the building down to a conclusion node labeled「境内地」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずこの土地上の建物が、宗教法人の宗教上の儀式や行事に利用されているかどう
+かを確認します。儀式・行事に利用される聖堂の敷地であれば、宅地ではなく境内
+地と認定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+境内地に認定
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in beige containing the number 5.
+Heading (bold, ONE line):
+着工前は例外要件がなければ宅地にできない
+Diagram: A vertical decision flowchart with two diamond-shaped branch
+nodes plus a small annotation box. Above the flowchart, a small isometric
+icon of a cleared mountain plot (整地された山林) with a prefab site office
+(プレハブの仮設事務所) on it, with an arrow pointing from the icon into
+Diamond 1. Diamond 1: label「建物の建築工事は完了しているか？」, Yes
+arrow → a faded conclusion node labeled「宅地」(this branch does not apply
+to this fact pattern), No arrow ↓ to Diamond 2 (drawn with a thick
+highlighted border). Diamond 2: label「基礎工事完了・建築確認や開発許可の
+取得など、宅地化が確実に見込まれる例外要件を満たすか？」, Yes arrow → a
+faded conclusion node labeled「宅地」, No arrow (highlighted) ↓ to a bold,
+fully colored conclusion node labeled「宅地にできない（現況の地目のま
+ま）」. Attach a small annotation box beside Diamond 2's No branch reading
+「現場の仮設事務所は建物として扱えない」, connected to the No arrow by a
+thin dashed line.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず建物の建築工事が完了しているかを確認し、未完了なら次に、基礎工事の完了
+や建築確認・開発許可などの取得により宅地化が確実に見込まれるといえるかを確
+認します。現場の仮設事務所は建物として扱えないため、これらの要件を満たす材
+料にはなりません。
+Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
+characters):
+宅地変更はまだ不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：不動産登記事務取扱準則68条12号（墓地）・13号（境内地）・17号（ため池）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・地・建・物・登・記・墓・境・聖・堤. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢
+(panels 1, 3, 5) is drawn as an actual flowchart with branch nodes (not a
+bare illustration with no visible decision structure), that panel 4 is
+drawn as a single labeled illustration without a forced flowchart, that
+each 着眼点 callout states a checking order rather than only a conclusion
+and keeps every required element from the source article distinct (no
+merged or dropped requirements), that panels 1 and 3 clearly show their
+shared second-diamond structure with the same wording and layout while
+each highlights only its own applicable branch, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

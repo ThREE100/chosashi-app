@@ -210,3 +210,207 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+5肢すべてが「登記の目的・原因・日付・申請人はすべて同一か（不登令4条）」→いいえの場合「不登規則35条の例外に該当するか」という共通の決定木を共有する構成にした。ア・イは例外に該当してOKになる枝、ウは例外にも該当せず不可になる枝、エ・オは原則そのものを満たして直接OKになる枝を、それぞれ強調表示で切り替える。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（一の
+申請情報、まとめられるのはどこまで？）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots, house/building icons,
+registry desks, application document folders, merge arrows, calendar
+icons — adapt icon set to the topic of 一の申請情報による申請の可否. All
+5 panels share the same two-diamond decision flowchart: Diamond D1
+labeled「登記の目的・原因・日付・申請人はすべて同一か」(不登令4条), whose
+はい branch leads to a conclusion node「原則どおり一の申請情報でOK」, and
+whose いいえ branch leads to Diamond D2 labeled「不登規則35条の例外に該
+当するか」, whose 該当する branch leads to a conclusion node「例外によ
+り一の申請情報でOK（該当する号を明記）」and whose 該当しない branch leads
+to a conclusion node「一の申請情報では申請できない」. Render this
+complete tree with all four conclusion nodes in every panel, and never
+draw a looping arrow back into an earlier node. In each panel, highlight
+（太い縁取り・フルカラーで強調）only the path this 肢 actually takes
+through the tree (the specific branch at D1, and — where relevant — the
+specific branch at D2 and its conclusion node), and render every other
+branch, diamond restated, and conclusion node in a faded, greyed-out
+style rather than omitting them. Where a 肢's path never reaches D2 (i.e.
+D1 already resolves it), render the entire D2 subtree in the faded style.
+Unlike a glanceable summary poster, each panel MAY include a short「着眼
+点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度午後第11問 ア〜オ
+作図ガイド（一の申請情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+氏名変更と合筆は例外規定でまとめて申請
+Diagram: The shared decision flowchart. Diamond D1「登記の目的・原因・日
+付・申請人はすべて同一か」with the いいえ branch（highlighted, full
+color）leading to Diamond D2「不登規則35条の例外に該当するか」（highlighted）,
+whose 該当する branch（highlighted, full color）leads to a conclusion node
+showing two document icons（「氏名変更」ラベル付き書類と「合筆」ラベル
+付き書類）merging into one green-stamped 申請書フォルダ labeled「規則35
+条7号でOK」; render D1's はい branch and its conclusion node, and D2's
+該当しない branch and its conclusion node, in a faded, greyed-out style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、氏名変更の登記と合筆の登記とで、登記の目的・原因・日付・申請人が
+すべて同一かを確認します。目的が異なるため原則のルートでは一括できませ
+んが、次に不登規則35条の例外（表題部の変更・更正の登記と分筆・合筆の登
+記の組み合わせ、7号）に当たるかを確認すると、この組み合わせはまさに7号
+に該当するため、一の申請情報で申請することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+規則35条7号でOK
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+地目変更と地積更正も例外規定でOK
+Diagram: The same shared decision flowchart as Panel 1. Diamond D1 with
+the いいえ branch（highlighted, full color）leading to Diamond D2
+（highlighted）, whose 該当する branch（highlighted, full color）leads to
+a conclusion node showing two stamps（「地目変更」と「地積更正」）
+overlapping on one土地アイコン and merging into one green-stamped 申請
+書フォルダ labeled「規則35条6号でOK」; render D1's はい branch and its
+conclusion node, and D2's 該当しない branch and its conclusion node, in a
+faded, greyed-out style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目の変更の登記と地積の更正の登記とで、目的・原因・日付・申請人
+が同一かを確認します。目的（変更と更正）が異なるため原則のルートでは一
+括できませんが、次に不登規則35条の例外（同一不動産についての表題部の
+変更・更正の登記同士、6号）に当たるかを確認すると、この組み合わせは6号
+に該当するため、一の申請情報で申請することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+規則35条6号でOK
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3 (numbers run
+continuously through all panels — do not restart at 1).
+Heading (bold, ONE line):
+別建物どうしの滅失と表題登記は不可
+Diagram: The same shared decision flowchart. Diamond D1 with the いいえ
+branch（highlighted, full color）leading to Diamond D2（highlighted）,
+whose 該当しない branch（highlighted, full color）leads to a conclusion
+node showing a demolished 甲建物アイコン（崩れるイメージ、赤い✕）and a
+newly built 乙建物アイコン（＋マーク）in two separate 申請書フォルダ,
+connected by a line with a red ✕ mark and a small label「別々に申請」;
+render D1's はい branch and its conclusion node, and D2's 該当する branch
+and its conclusion node, in a faded, greyed-out style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲建物の滅失の登記と乙建物の表題登記とで、目的・原因・日付・申請
+人、さらに対象となる不動産自体が同一かを確認します。いずれも異なるため
+原則のルートでは一括できず、次に不登規則35条の例外に当たるかを確認して
+も、別の建物についての滅失登記と表題登記という組み合わせはどの号にも当
+てはまりません。したがって、一の申請情報で申請することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+例外にも該当せず不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+同一日の2筆地目変更は原則どおりOK
+Diagram: The same shared decision flowchart. Diamond D1（highlighted,
+full color）with the はい branch（highlighted, full color）leading
+directly to a conclusion node showing two adjacent land plot icons（甲
+土地・乙土地）both flipping from「雑種地」to「宅地」with a shared
+calendar icon（同一日）above them and a green-stamped 申請書フォルダ
+labeled「原則どおりOK」; render the いいえ branch and the entire D2
+subtree（該当する・該当しない branches and their conclusion nodes）in a
+faded, greyed-out style, since this 肢 never needs to reach D2.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地・乙土地の地目の変更の登記について、登記の目的・原因・日
+付・申請人がすべて同一かを確認します。いずれも「地目変更」「宅地造成の
+完了」「同一の日」「A」で一致するため、例外規定を確認するまでもなく、
+原則どおり一の申請情報で申請することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+原則どおり一括申請可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+所有者が同じ2筆の分筆も原則どおりOK
+Diagram: The same shared decision flowchart. Diamond D1（highlighted,
+full color）with the はい branch（highlighted, full color）leading
+directly to a conclusion node showing 甲土地（表題部所有者Aのラベル）と
+乙土地（登記名義人Aのラベル）が、それぞれ点線で二つに分かれる分筆の
+矢印を持ち、一つの緑の✓マーク付き申請書フォルダにまとまる様子; render
+the いいえ branch and the entire D2 subtree in a faded, greyed-out style,
+since this 肢 never needs to reach D2.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地（表題部所有者A）・乙土地（登記名義人A）の分筆の登記につい
+て、登記の目的・申請人が同一かを確認します。いずれも「分筆」「A」で一
+致するため、原則どおり一の申請情報で申請することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+原則どおり一括申請可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令4条(本文・ただし書)、不動産登記規則35条6号・7号に基づく整
+理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 申, 請, 原, 因, 更, 正, 変, 合, 筆, 滅, 失, 登 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every panel
+renders the complete shared decision tree with all four conclusion nodes
+present, that each panel's own path (and only that path) is highlighted
+in full color while every other branch is faded and greyed-out rather
+than omitted, that no panel renders a looping arrow back into an earlier
+node, that each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

@@ -199,3 +199,192 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+地役権図面に関する5肢（ア〜オ）について、問題文を読んだ瞬間にどんな図を描き、どの順序で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。②の俯瞰カードポスターが5肢の結論を一覧化するのに対し、こちらは肢ごとの思考プロセス（提供方法から署名者を絞り込む順序、縮尺規定の対比、地役権図面の記載事項の絞り込み、分筆後に地役権が及ぶ範囲による提供要否の分岐、新図面提供から従前図面の閉鎖までの流れ）を可視化する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric person figure signing a paper
+document, a hanko (name seal) stamp icon, isometric drawing-board icons
+with ruler icons for 縮尺, a diagram-sheet icon with labeled fields for
+地役権図面の記載事項, isometric land plot icons being split by a dotted
+cut line for 分筆, a shaded overlay for 地役権が及ぶ範囲, and a filing-
+shelf icon with a red 閉鎖 stamp for 従前の地役権図面. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第10問 ア〜オ
+作図ガイド(地役権図面の作成と分筆時の取扱い)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+書面提出なら地役権者本人の署名等が必要
+Diagram: A diamond-shaped branch node labeled「提供方法は書面か」。The
+"Yes"(this case) arrow leads to an isometric scene of a person figure
+labeled「地役権者(要役地の所有者・地上権者・賃借権者)」signing a paper
+diagram document by hand, with a hanko(name seal) stamp resting beside
+it — the word「署名」is written next to the hand, and「記名押印」is
+written next to the stamp — leading to a highlighted conclusion node
+reading「署名又は記名押印が必要」。The faded "No"branch(電子申請等) leads
+to a faded, greyed-out conclusion node reading「この署名ルールの対象外」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず地役権図面を提供する方法が書面によるものかを確認し、次にその図面に
+地役権者自身が署名するか、記名押印するかを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+署名・記名押印必須
+
+--- PANEL 2(肢イ) ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+縮尺は地積測量図と揃える必要なし
+Diagram: A two-panel side-by-side comparison frame. LEFT half: an
+isometric drawing-board icon labeled「地役権図面」with a ruler icon and a
+label「縮尺は適宜でよい」。RIGHT half: an isometric drawing-board icon
+labeled「地積測量図」with a different-sized ruler icon and a label
+「精度に関する規定あり」。Between the two halves, a crossed-out equals
+sign(=with a red ✕ over it) shows the two scales do not need to match.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず地役権図面の縮尺の決め方(適宜でよいこと)を確認し、次に地積測量図の
+縮尺の決め方(精度に関する規定があること)と比べます。両者は別のルールな
+ので、縮尺を同一にしなければならないという決まりはありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+縮尺は自由
+
+--- PANEL 3(肢オ) ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+要役地の所在地番は記載事項でない
+Diagram: An isometric diagram sheet labeled「地役権図面」with a list of
+labeled fields, each with a small ○ mark showing it is a required
+記載事項:「地役権設定の範囲」「方位」「縮尺」「承役地の地番」「隣地の地番」
+「申請人の氏名又は名称」。A separate field at the bottom, labeled「要役地
+の所在地番」, is drawn as a faded, dashed placeholder box with a red ✕
+mark, showing it is NOT a required 記載事項.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず地役権図面に記録すべき事項(範囲・方位・縮尺・承役地の地番・隣地の地
+番・申請人の氏名又は名称)を確認し、次にその一覧に要役地の所在地番が含ま
+れているかを確認します。含まれていないため、記載する義務はありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+要役地は記載不要
+
+--- PANEL 4(肢ウ) ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+範囲が一部残るときだけ図面提供必要
+Diagram: An isometric land plot labeled「甲土地(承役地・地役権図面が備え
+付け済み)」being split by a dotted cut line into「甲土地」と「乙土地」。
+An arrow leads to a diamond-shaped branch node labeled「分筆後、地役権が
+及ぶ範囲は分筆後の土地の全部のままか、一部にとどまるか」。The "全部の
+まま"branch is drawn faded and greyed-out, leading to a faded conclusion
+node reading「新たな地役権図面の提供は不要」。The "一部にとどまる"
+branch(this case) is drawn with a thick highlighted border and full
+color, showing a shaded 地役権 overlay covering only part of 甲土地,
+leading to a highlighted conclusion node reading「新たな地役権図面の提供
+が必要」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず甲土地に地役権図面が既に備え付けられているかを確認し、次に分筆後も
+地役権が及ぶ範囲が土地の全部のままか、一部にとどまるかを確認します。一
+部にとどまる場合は、既に図面があっても新たな地役権図面の提供が必要です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+図面提供は必要
+
+--- PANEL 5(肢エ) ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+新図面提供で分筆登記なら従前図面閉鎖
+Diagram: A sequential chain of three isometric scenes connected by
+arrows. Scene 1: 甲土地 with an existing 地役権図面 already on file(labeled
+「従前の地役権図面」)。Scene 2: a new diagram document labeled「新たな地
+役権図面」being submitted as 添付情報 alongside an application for the
+分筆の登記(甲土地から乙土地を分筆), with a small ○ mark confirming the
+登記がされたこと(登記完了)。Scene 3: an isometric filing shelf showing
+「従前の地役権図面」being stamped in red with「閉鎖」and slid to the back,
+while「新たな地役権図面」is placed in front of it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず甲土地に従前の地役権図面が備え付けられているかを確認し、次に新たな
+地役権図面を提供して分筆の登記を申請し、その登記がされたかを確認します。
+登記がされると、従前の地役権図面は閉鎖されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+従前図面は閉鎖
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠:不動産登記規則79条1項・2項・4項/不動産登記規則87条1項/不動産登記令
+別表8項添付情報ロ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 役・地・権・図・面・縮・尺・積・測・量・閉・鎖・署・名・押・印.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 is drawn as an actual flowchart with branch nodes
+(not a bare illustration with no visible decision structure), that no 肢
+with a genuinely hidden second condition has been flattened into a single
+check, that each 着眼点 callout states a checking order rather than only
+a conclusion and keeps every required element from the source article
+distinct (no merged or dropped requirements), confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

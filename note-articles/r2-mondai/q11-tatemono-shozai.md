@@ -206,3 +206,193 @@ paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+建物の「所在」をどう書くかが問題になる5つの場面を、肢ごとに最適な図の型
+（系統図・決定木・配置図・対比枠）で示す5パネル構成。エは「土地の合筆」
+と「建物の合併」を見分ける対比枠を使う。それ以外の4肢はそれぞれ独立した
+確認手順として描く。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — 甲建物とその附属建物が分割線で分かれる図、
+地番に支号があるかどうかを示す地番プレート、仮換地と従前地の2つの土地区
+画、地番区域が異なる2つの建物が合併でつながる図、そして海に突き出た桟橋
+の上に建つ建物 — adapt icon set to the topic of 建物の所在の書き方. Where
+a 肢 requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Panel 4（肢エ）must be drawn as a side-by-side
+comparison frame distinguishing 土地の合筆 from 建物の合併, because the
+whole point of this 肢 is telling the two apart; highlight（太い縁取り・
+フルカラーで強調）the box relevant to this 肢（建物の合併）and render the
+other box in a faded, greyed-out style. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第11問 ア〜オ
+作図ガイド（建物の所在の書き方）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+分割で所在が変わったら変更した旨を記録する
+Diagram: A sequential (non-branching) diagram showing 甲建物 with a
+smaller attached 附属建物 being split off by a dotted cut-line into a
+separate 乙建物, followed by three numbered record-card steps arranged
+top to bottom: ①変更後の不動産所在事項, ②分割により変更した旨のラベル,
+③変更前の不動産所在事項に重ねられた抹消の記号. Number each step clearly
+so the reader can see the order in which the three items appear on the
+registry record.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の分割の登記によってその建物の不動産所在事項に変更が生じたか
+どうかを確認します。次に、変更が生じた場合は、変更後の不動産所在事項・
+分割により変更した旨・変更前の不動産所在事項を抹消する記号の3つが登記
+記録に記録されることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+変更した旨を記録
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+地番に支号があるかを確認する
+Diagram: A single diamond decision node reading 建物がまたがる土地の地
+番に支号があるか, positioned above an aerial view of three adjacent land
+plots with a single building footprint overlapping them. A red はい
+（支号あり）branch arrow leads to a conclusion node reading 「番地ないし
+番地」の略記はできず、すべての地番を列記する. A green いいえ（支号な
+し）branch arrow leads to a separate conclusion node reading 「番地ないし
+番地」と略記することも、すべて列記することもできる. Do not draw any
+arrow that loops back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が数筆の土地にまたがって所在する場合、それらの土地の地番に支
+号があるかどうかを確認します。支号のない連続した地番であれば「1番地な
+いし3番地」と略記することも、すべて列記することもできますが、支号があ
+る地番はこの略記ができず、すべての地番を列記しなければなりません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+支号なしのみ略記可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+建物が仮換地上にあるかを確認する
+Diagram: An isometric land-readjustment scene. A building stands on a
+plot labeled 仮換地. A faded, semi-transparent ghost outline of the
+original plot labeled 従前地 sits to the side with a small 使用不可 tag.
+A bold arrow points from the building down to the 仮換地 plot, labeled
+所在は仮換地の地番で表示.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が仮換地の指定された土地の上に新築されたかどうかを確認しま
+す。仮換地上の建物であれば、建物の所在は従前の土地の地番ではなく、現に
+建物が存する仮換地の位置・地番で表示することを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+仮換地の地番で表示
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+土地の合筆か建物の合併かを見分ける
+Diagram: A side-by-side comparison frame. LEFT box（highlighted with a
+thick colored border, full color, since this panel is about this
+branch）labeled 建物の合併（本肢の場面）: two separate buildings, one
+labeled 一丁目 and one labeled 二丁目（different 地番区域）, joined by a
+merge arrow into a single combined building icon with a checkmark. RIGHT
+box（faded, greyed-out, dotted outline）labeled 土地の合筆（本肢の場面
+ではない）: two land plots with different 地番区域 signs, a merge arrow
+between them crossed out with a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっているのが「土地の合筆」なのか「建物の合併」なのかを見
+分けます。土地の合筆は地番区域が相互に異なる土地どうしではできません
+が、建物の合併はこれと異なり、地番区域が異なる建物どうしであっても合併
+することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+地番区域が違っても可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+建物が桟橋上にあるかを確認する
+Diagram: An isometric ocean pier (桟橋) extending from the shoreline with
+a small building standing on the end of the pier over the water. A
+dotted line runs from the building back to the nearest land plot,
+labeled 3番地. A label tag reads 3番地先 with a checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が永久的な施設としての海上のさん橋の上に存するかどうかを確認
+します。桟橋上の建物であれば、その建物から最も近い土地の地番を用いて
+「何番地先」のように所在を記録することを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+最寄りの地番で「先」
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則88条3項・4項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 抹, 消, 略, 換, 併, 桟, 橋, 支, 号, 域, 筆 and any character
+that has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢 is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that no 肢 with a genuinely hidden
+second condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion, that Panel
+4's comparison frame clearly distinguishes its own highlighted box from
+the faded, unrelated box, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

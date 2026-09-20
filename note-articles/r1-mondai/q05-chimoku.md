@@ -204,3 +204,203 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「その現況は何の目的の施設か」「宅地に接続しているか」「生えているのは竹木か雑草か」という地目認定の分かれ道をどの順番で確認するかを、肢ごとに配置図・系統図・決定木で示す構成。②の結論ポスターとは別に、5肢それぞれの思考の手順を1枚ずつのパネルで追体験できるようにする。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric gas station forecourts with a small
+office icon, a house with an attached versus a detached swimming pool, a
+water-intake-to-treatment-plant channel, a terraced wasabi paddy, and a
+tree-covered hillside next to a grassy/shrub wasteland. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render the
+other, unrelated branches in a faded, greyed-out, or dotted-outline style
+rather than omitting them — the reader should be able to see at a glance
+which part of the shared tree this panel is about. Likewise, where a
+diagram must show an entity that conceptually never held the right or
+status in question (e.g. someone who was never an heir, or a claim that
+never existed), render that entity or claim in a faded or dotted-outline
+style rather than a plain ○/✕ mark, so the visual itself communicates
+"this was never really there," not just "this is wrong." Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep "善意" and "無過失" as two distinct
+checks if the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度 午後の部 第5問 ア〜オ
+作図ガイド(地目の認定)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+小さな事務所だけを宅地に区分しない
+Diagram: An isometric gas station forecourt with fuel pump icons, car
+icons, and a small office building icon standing right beside the pumps.
+Draw a single dotted boundary enclosing the entire forecourt including
+the office. Number two callout balloons: ①「事務所は給油業務に附随的
+か」pointing at the office icon with a checkmark, ②「附随的なら事務所
+部分だけ切り分けない」with an arrow sweeping around the whole enclosed
+area to show it stays one parcel.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず敷地内の事務所が給油という主目的に対して附随的なものかどうかを
+確認します。附随的であれば、事務所部分だけを宅地として切り分けず、
+敷地全体を一団の雑種地として扱います。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一団として雑種地
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+プールは宅地に接続しているかで分かれる
+Diagram: A decision flowchart with a single diamond-shaped branch node
+labeled「屋外プールは宅地に接続しているか」. YES branch (thick arrow):
+an isometric house icon labeled「宅地」with a swimming pool directly
+attached to it with no gap, leading to a conclusion node labeled「宅地」.
+NO branch (thick arrow): a swimming pool icon standing alone, detached
+from any house, leading to a separate conclusion node labeled「雑種地」.
+Both conclusion nodes are drawn with equal visual weight, no looping
+arrow back into the diamond node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず屋外プールが宅地に接続しているかどうかだけを確認します。接続して
+いれば宅地、接続していなければ雑種地となり、プールというだけで一律に
+雑種地と思い込んではいけません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+接続すれば宅地
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+取水口から浄水場までを一続きでたどる
+Diagram: An isometric water-infrastructure system diagram drawn left to
+right as a connected chain: a取水口(intake structure)icon on the left,
+connected by a highlighted waterway/canal icon in the middle, leading to
+a浄水場(water treatment plant)icon on the right. Number two callout
+balloons along the chain: ①「専ら給水の目的の水路かを確認」pointing at
+the canal icon, ②「取水口から浄水場までの一続きの水路と確認」pointing
+along the whole connected chain. Label the highlighted canal segment
+「水道用地」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその水路が専ら給水の目的で敷設されたものかを確認し、次に取水口
+から浄水場まで一続きの給水施設の一部であることを確認します。この
+水路の用に供する土地の地目は水道用地です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+取水口から水道用地
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+用水と耕作、二つの要件を順に確かめる
+Diagram: An isometric terraced わさび田(wasabi paddy)icon with flowing
+water channels and green わさび plants growing in shallow water. Number
+two callout balloons with checkmarks, stacked vertically: ①「用水を
+利用しているか」pointing at the flowing water channel, ②「肥培管理する
+農耕地か」pointing at the cultivated わさび plants. An arrow from both
+checkmarks converges on a conclusion node labeled「田」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず用水を利用しているかを確認し、次にその用水で肥培管理する農耕地
+かどうかを確認します。両方を満たすわさび田は、田として登記されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+用水+耕作で田
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+生えているのが竹木か雑草かで見分ける
+Diagram: A decision flowchart with a single diamond-shaped branch node
+labeled「耕作の方法によらず生育しているのは竹木か、雑草・かん木類か」.
+竹木 branch (thick arrow): an isometric hillside covered with tall trees
+labeled「竹木」, leading to a conclusion node labeled「山林」. 雑草・
+かん木類 branch (thick arrow): a smaller contrasting patch showing only
+grass and low shrubs labeled「雑草・かん木類」, leading to a separate
+conclusion node labeled「原野」. Both conclusion nodes are drawn with
+equal visual weight, no looping arrow back into the diamond node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず耕作の方法によらずに生育しているのが竹木か、それとも雑草・かん木
+類かだけを見分けます。竹木であれば山林、雑草・かん木類であれば原野
+となり、木が生えていても原野と早合点してはいけません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+竹木なら山林
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則68条1号(田)・68条9号(山林)・68条15号
+(水道用地)・69条9号(宅地に接続するプール)を参照。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 雑・給・浄・培・号・地・建. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that any panel sharing a decision tree with
+another panel clearly distinguishes its own highlighted branch from the
+other, faded branches, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
