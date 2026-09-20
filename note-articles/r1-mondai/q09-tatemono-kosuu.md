@@ -201,3 +201,192 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+建物の個数認定に関する5肢について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。屋外階段の共用関係を示す配置図（ア）、効用上の一体性と主従関係を2段階で判定する決定木（イ）、抵当権があっても附属建物にできることを示す系統図（ウ）、共用に供される部分は独立登記できないという思い込みを正す対比図（エ）、共用部分である旨の登記後も一個の建物のままであることを示すタイムライン（オ）の5パネル構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric houses and small apartment buildings,
+external staircases, tenant figures with different-colored keys, a red
+「抵当権」seal, dotted outlines for grouping or de-emphasizing, apartment
+corridors and a small meeting room（集会室）, and official registration
+stamps — adapt these to each panel. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Where a
+branch point's both outcomes are real, meaningful conclusions found in
+the source article's own text, give BOTH the Yes side and the No side
+their own distinct, fully drawn conclusion node — never leave one side's
+destination blank, and never draw an arrow that loops back into an
+earlier node. Unlike a glanceable summary poster, each panel MAY include
+a short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度 午後の部 第9問 ア〜オ
+作図ガイド（建物の個数認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+屋外階段共用の二棟は一個の建物
+Diagram: An isometric view of two closely built houses, neither of which
+has any way up to its own 2nd floor other than a single external
+staircase shared between them. A dotted line encircles both buildings
+together, and a green checkmark stamp labeled「一個の建物」is placed over
+the shared staircase to show the mutual dependency.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずそれぞれの2階に上がる手段が、共通の屋外階段以外にないかを確認しま
+す。他に手段がなければ、次に両棟を一個の建物として取り扱います。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一個の建物として扱う
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+効用上一体でも主従なければ別個の建物
+Diagram: A two-stage decision flowchart. First diamond node labeled「複数
+棟が効用上一体として利用されているか」. The No branch leads to a fully
+drawn conclusion node labeled「別個の建物」. The Yes branch leads to a
+second diamond node labeled「棟の間に主従の関係があるか」. Its No branch
+(labeled「同一目的で集団的に建築され、それぞれ別の借主の居宅として独立に
+利用」) leads to its own conclusion node: three small houses, each with a
+different tenant figure holding a different-colored key, three separate
+dotted outlines (not merged) labeled「別個の建物」. Its Yes branch leads
+to a separate conclusion node labeled「一個の建物(主従関係あり)」. No
+arrow loops back into either diamond.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず複数の棟が効用上一体として利用されているかを確認します。一体であると
+きは、次に棟の間に主従の関係があるかを確認し、主従の関係がなければ別個の
+建物として扱います。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+主従なければ別個扱い
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in beige/amber containing the number 3.
+Heading (bold, ONE line):
+抵当権があっても附属建物にできる
+Diagram: An isometric main house（甲建物）with a red「抵当権」seal stamped
+on its wall, next to a newly built small shed（乙建物）beside it. An
+arrow labeled「効用上一体」connects the two, leading to a combined
+outline labeled「主である建物(甲)・附属建物(乙)」with a checkmark, showing
+the mortgage seal does not block the combination. A small side note shows
+the same red「抵当権」seal now also covering the combined outline, labeled
+「効力は附属建物にも及ぶ」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず甲建物と乙建物が効用上一体として利用されているかを確認します。次に、
+甲建物に抵当権の登記があることが附属建物とする取扱いの妨げにならないこと
+を確認します。
+Conclusion tag (a short colored banner/pill, beige/amber, 5-15 Japanese
+characters):
+附属建物にできる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+共用に供される部分は独立登記できない
+Diagram: A two-panel contrast. Left panel labeled「誤りやすい思い込み」
+shows an apartment building corridor labeled「共用に供される廊下」with an
+attempted registration stamp「一個の建物として登記」carrying a large red
+X mark. Right panel labeled「正しいルール」shows the same corridor labeled
+「法定共用部分」connected by a dotted line to the surrounding apartment
+units, labeled「専有部分ではない」with a checkmark confirming it stays
+part of the whole building rather than becoming an independent building.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその部分が構造上・利用上の独立性を持つ専有部分かを確認します。区分所
+有者の一部の共用に供される部分であるときは、次に独立した一個の建物として
+登記できないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+独立登記は不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+共用部分の登記後も一個の建物のまま
+Diagram: A left-to-right timeline of three stages connected by arrows.
+Stage 1: an isometric apartment building with a small room（集会室）
+already carrying an ordinary registration stamp labeled「表題登記済み」.
+Stage 2 (arrow from Stage 1): the same room now additionally stamped
+「共用部分である旨の登記」. Stage 3 (arrow from Stage 2): the room still
+enclosed in its own dotted outline labeled「一個の建物」with a checkmark,
+showing the registration record continues to exist independently.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその部屋がすでに表題登記された建物であることを確認します。次に、共用
+部分である旨の登記がされた後も引き続き一個の建物として取り扱われることを
+確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一個の建物のまま
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+準則78条1項・区分所有法4条1項（ア・ウ・オは登記実務上の一般原則によるも
+ので、個別の先例番号は特定していない）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 建・物・登・記・棟・附・属・権・専・従. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that panel 2's two-stage 肢 is
+drawn as an actual flowchart with two diamond nodes and both a Yes-side
+and a No-side conclusion at each stage (not a bare illustration with no
+visible decision structure, and no looping arrow back into a diamond),
+that each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
