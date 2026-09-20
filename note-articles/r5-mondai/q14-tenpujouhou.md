@@ -213,3 +213,194 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+補助者の対話形式の問題文を読んだ瞬間に、「この登記は権利に関する登記か、表示に関する登記か」をまず見分ければ、期間制限の有無や添付情報の要否に迷わなくなる5パネル構成。ア・オは「思い込みがちな誤り」と「正しいルール」を対比する正誤対比型、イ・エは同じ「表示登記だから3か月ルールが及ばない」という対比枠を共有し、ウは会社法人等番号1つで足りる流れを示す。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(建物表示登記の添付情報、補助者の解答どこが誤り？), but built as a set of
+5 diagram-drawing panels (a "how to sketch this fact pattern, in the
+right order" study reference) rather than a quick-reference conclusion
+poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric document icons (工事完了引渡証明書・
+印鑑証明書・住民票), company/person figures, calendar icons, seal
+(はんこ) icons, a glowing 会社法人等番号 badge, and prohibition marks —
+adapt icon set to the topic of 建物の表示登記の添付情報. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or はい/いいえ) branch arrows, and a final conclusion node. Where a 肢
+is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Panels 2 and 4 (肢イ・肢エ) share
+the same underlying left/right contrast frame (左：権利に関する登記、
+3か月以内が必要／右：表示に関する登記、期間制限なし); draw both panels
+with the same two-frame layout, changing only the document icon on the
+right side from 印鑑証明書 (Panel 2) to 住民票 (Panel 4), so the reader
+sees at a glance that the same underlying rule applies to both. Where a
+肢 is resolved by contrasting a mistaken assumption with the correct
+rule, split the panel into a top/bottom layout labeled「思い込みがちな
+誤り」and「正しいルール」, with the mistaken-assumption frame rendered
+crossed out with a red ✕. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state
+the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"),
+not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和5年度午後第14問 ア〜オ
+作図ガイド（建物表示登記の添付情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+敷地の権原証明は必須ではない
+Diagram: A top/bottom contrast layout. Top frame labeled「思い込みがちな
+誤り」: 補助者 figure with a speech bubble reading「はい、必要です」
+crossed with a red ✕. Bottom frame labeled「正しいルール」: an isometric
+building on a land plot, with a document icon labeled「所有権を証する
+情報」stamped with a confident checkmark, and beside it a separate
+dashed-outline document icon labeled「敷地利用の正当な権原を証する情報」
+with a small「必須ではない」tag attached.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず表題登記で証明すべきことが建物の所有権が申請人にあることだと確認
+します。次に敷地を利用する権原の証明が別途必要かを確認すると、建物の
+所有権を証明できれば足り、敷地利用の権原を証する情報は必須ではないと
+わかります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+所有権証明で足りる
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+表示登記の印鑑証明に期間制限なし
+Diagram: A left/right contrast frame described above. Left frame labeled
+「権利に関する登記」: an印鑑証明書 icon beside a calendar showing a
+recent date, with a「3か月」ruler icon and a checkmark (この場合は適用
+される)。Right frame labeled「表示に関する登記（今回のケース）」: an
+isometric 工事完了引渡証明書 document with a company印鑑(はんこ)stamp
+and an attached印鑑証明書, beside a calendar icon showing an old date
+with a checkmark, and a「3か月」ruler icon crossed out to show the rule
+does not apply here.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずこの登記が権利に関する登記か、表示に関する登記かを確認します。
+表示に関する登記であれば、添付する印鑑証明書に作成後3か月以内という
+期間制限はかかりません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+期間制限なし
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+会社法人等番号で支配人証明は不要
+Diagram: An isometric company building labeled「Ａ株式会社支店」with a
+person figure labeled 支配人 beside it, a glowing number badge labeled
+「会社法人等番号」with a checkmark, connected by an arrow directly to a
+crossed-out document icon labeled「支配人の権限を証する情報」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず申請人が支配人として登記されているかを確認します。次に、会社法人
+等番号を提供すればその資格を確認できるため、支配人の権限を証する情報
+を別途提供する必要がないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+番号確認で足りる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+住所証明書にも期間制限は及ばない
+Diagram: The same left/right contrast frame as Panel 2 (権利に関する
+登記／表示に関する登記), but the right frame shows an isometric住民票
+(住所を証する情報)document icon instead of印鑑証明書, with an old
+calendar date and a checkmark, and a「3か月」ruler icon crossed out,
+drawn in the same visual style as Panel 2 to show the parallel rule.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずこの登記が権利に関する登記か、表示に関する登記かを確認します。
+表示に関する登記であれば、住所を証する情報についても作成後3か月以内
+という期間制限は及びません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+期間制限なし
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+合体時は住所証明を省略できない
+Diagram: A top/bottom contrast layout. Top frame labeled「思い込みがちな
+誤り」: a speech bubble reading「登記記録から明らか」crossed with a red
+✕. Bottom frame labeled「正しいルール」: two building icons labeled
+「合体前の甲建物」・「合体前の乙建物」merging into one building labeled
+「合体後の建物」, with two person figures (登記名義人) each holding a
+「住所を証する情報」document, connected by an arrow directly into a
+「合体による登記等」申請document。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず合体前の各建物に所有権の登記があるかを確認します。登記があるとき
+は、登記記録上の住所が現在の住所と一致しているように見えても、架空
+名義人による申請を防ぐため、住所を証する情報の提供を省略することは
+できません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+省略は認められない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令16条3項・不動産登記規則36条1項・3項・48条等の添付情報に
+関する定めに基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 地, 番, 号, 建, 物, 登, 記, 所, 証, 誤 and any character
+that has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that Panels 2 and 4 visibly
+share the same left/right contrast layout while differing only in which
+document icon appears on the right side, that Panels 1 and 5 each show a
+clearly separated top/bottom contrast between the mistaken assumption and
+the correct rule, that each 着眼点 callout states a checking order rather
+than only a conclusion, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
