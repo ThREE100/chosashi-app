@@ -211,3 +211,204 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、登記記録の空欄ア〜オを埋めるときに実際に手を動かして描くべき図と、その図にたどり着くまでの確認順序を空欄ごとに示す作図ガイド。本問は肢の正誤判定ではなく空欄補充問題のため、各パネルは「その空欄に何を書き込むかをどう判断するか」というプロセスを示す。ア・イは「専有部分がメゾネット（縦割り）か階層区分（横割り）か」という同じ対比枠を共有し、強調する側だけを切り替える。エ・オは「この行は敷地権が最初に発生した行か、その後の変更の行か」という同じ決定木を共有する。②の色分け（専有部分の表示＝緑、敷地権の表示＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of registry-record fill-in-the-blank problem, AND the
+order in which they should check conditions to fill each blank — cross-
+section floor diagrams of the apartment building, an open registry
+record card (登記記録) with dashed blank fields, right-icons for 所有権・
+地上権・使用貸借権 connected by chains, and date tags on a timeline for
+登記原因 — adapt icon set to the topic of 敷地権付き区分建物の登記記録.
+Where a blank requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
+Where a blank is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. Panels 1 and 2（空欄
+ア・イ）share the same side-by-side comparison frame（LEFT: 縦割り
+（メゾネット）区分建物、RIGHT: 横割り（階層区分）の区分建物、highlighted
+because this is the article's fact pattern）, highlighting the box
+relevant to that panel while rendering the other box faded and greyed
+out. Panels 4 and 5（空欄エ・オ）share the same decision tree, rooted at
+a diamond node asking whether the registry-record row in question is the
+row where 敷地権 first arose or a later row recording a change; each
+panel highlights only the branch relevant to its own blank and renders
+the other branch faded. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers (article/
+regulation numbers are fine); keep the callout text as written below
+verbatim, and keep every condition each callout describes faithful to
+the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度 午後の部 第15問 空欄ア〜オ
+作図ガイド（敷地権付き区分建物の登記記録）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（空欄ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+専有部分がメゾネットか階層区分かを確認する
+Diagram: A side-by-side comparison frame shared with Panel 2. LEFT box
+（faded, greyed-out, dotted outline）labeled「縦割り（メゾネット）区分
+建物」: 上下2フロアにまたがる専有部分の断面図。RIGHT box（highlighted
+with a thick colored border, full color, since this is the article's
+fact pattern）labeled「横割り（階層区分）の区分建物」: 3階建の一棟の
+建物のうち1階だけを専有部分として色分けし、床面積150.00㎡という一つの
+階層分だけの範囲を示す。専有部分の下に「表題部（専有部分の建物の表示）」
+の帳簿アイコンを描き、「構造」欄の空欄（点線）の横に「1階建」という
+ラベルを緑のチェックマーク付きで書き込み、比較のため薄く「平家建」に
+赤い✕を重ねて表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この専有部分が上下階にまたがるメゾネット型か、一棟の建物を水平に
+区切った階層区分型かを見分けます。階層区分型であることを確認できたら、
+一戸建てで使う「平家建」ではなく、区分建物特有の「1階建」という階数
+表示を選びます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+「1階建」が入る
+
+--- PANEL 2（空欄イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+階層区分では床面積に階名を添える
+Diagram: The same side-by-side comparison frame as Panel 1. RIGHT box
+（highlighted with a thick colored border, full color, since this panel
+is about this branch）labeled「横割り（階層区分）の区分建物」: 1階専有
+部分の床面積150.00㎡の横に、開いた登記記録帳簿の「床面積」欄を描き、
+点線の空欄に矢印で「1階部分」というラベルを緑のチェックマーク付きで
+書き込む。LEFT box（faded, greyed-out, dotted outline）labeled「縦割り
+（メゾネット）区分建物」: 縦割りの場合の床面積欄を薄く示す（この問題
+では関係ないことを示す）。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、パネル1と同じく、この専有部分が階層区分型であることを踏まえます。
+次に、床面積欄には単に「150.00㎡」と書くのではなく、「1階部分」のように
+どの階の部分かを示す語句を添えて記録することを確認します。
+Conclusion tag (green, 5-15 Japanese characters):
+「1階部分」が入る
+
+--- PANEL 3（空欄ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+候補の権利が登記できるかを確認する
+Diagram: 敷地（土地）の上に浮かぶ2つの権利アイコン「地上権」「使用
+貸借権」を描く。それぞれから敷地・専有部分へ鎖の矢印を伸ばす。「地上権」
+の鎖には登記済みであることを示す登記記録カードのアイコンを添えて緑の
+チェックマークを重ね、「敷地権になり得る」ラベルを付ける。「使用貸借権」
+の鎖は途中で切れており、「登記不可」という小さなスタンプとともに赤い
+✕を重ねる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、語句群にある権利のうち、敷地権になり得るのは登記された所有権・
+地上権・賃借権に限られることを確認します。次に、使用貸借権は登記する
+ことができない権利であるため候補から外し、残った地上権を選びます。
+Conclusion tag (blue, 5-15 Japanese characters):
+「地上権」が入る
+
+--- PANEL 4（空欄エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+登記原因が最初の発生か後の変更かを見分ける
+Diagram: A decision flowchart shared with Panel 5. 敷地権の表示欄に
+ある2行の記録（令和2年10月20日の行と令和2年11月20日の行）を並べて
+描く。ひし形の分岐ノード（highlighted for this panel, thick border,
+full color）「この行は敷地権が最初に発生した行か、その後の区分等に
+よる変更の行か」。はい（最初の発生、highlighted）側の矢印は、結論
+ノード「登記原因は年月日敷地権」につながる。いいえ（その後の変更、
+faded, greyed-out）側の矢印は、Panel 5で強調する結論ノード「登記原因
+は年月日変更」につながるが、このパネルでは薄く縮小表示する。日付タグ
+「令和2年10月20日」を強調矢印の起点に配置する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この行（令和2年10月20日）が敷地権の最初の発生を示す行である
+ことを確認します。次に、敷地権の登記原因及びその日付は「年月日敷地権」
+と記録することを確認し、この日付をそのまま原因欄に当てはめます。
+Conclusion tag (blue, 5-15 Japanese characters):
+「敷地権」が入る
+
+--- PANEL 5（空欄オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+区分による割合変更の登記原因を確認する
+Diagram: The same decision tree as Panel 4. 分岐ノード「この行は敷地権
+が最初に発生した行か、その後の区分等による変更の行か」の、いいえ
+（その後の変更、highlighted for this panel, thick border, full color）
+側の矢印を強調し、結論ノード「登記原因は年月日変更」につなげる。はい
+（最初の発生）側は、Panel 4で使った結論ノード「登記原因は年月日敷地権」
+を薄く縮小表示する。日付タグ「令和2年11月20日」と、専有部分が「1番1
+の4を区分」されたことを示す分割線のアイコン、割合が「3分の1」から
+「6分の1」に変わる矢印を強調枝に添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この行（令和2年11月20日）が、専有部分の区分によって敷地権の
+割合が変わった、最初の発生ではない行であることを確認します。次に、
+このような割合変更の登記原因は「年月日変更」と記録することを確認し、
+この日付をそのまま原因欄に当てはめます。
+Conclusion tag (blue, 5-15 Japanese characters):
+「変更」が入る
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：ウのみ不動産登記法44条1項9号（敷地権の意義）。ア・イ・エ・オは
+敷地権付き区分建物の登記記録の記録方法に関する一般的な取扱いによるもので、
+個別の条文番号までは本記事では確定していません。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 専・有・部・分・階・建・床・面・積・使・用・貸・借・権・
+登・記・地・上・敷・発・生・原・因・区・変・更 and any character that
+has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panels 1 and 2
+visibly share the same comparison-frame layout with only the highlighted
+box differing, that Panels 4 and 5 visibly share the same decision tree
+with only the highlighted branch differing and no looping arrow back to
+any earlier node, that each 着眼点 callout states a checking order rather
+than only a conclusion, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid, and no additional text block of any kind), and
+confirm the entire canvas, edge to edge, is filled with a fully opaque
+background with no transparency or alpha channel anywhere.
+```

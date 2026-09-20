@@ -211,3 +211,218 @@ takeaway must read as a short heading + a short conclusion tag, at a
 glance. Confirm every heading and conclusion tag string matches the
 Japanese text given above verbatim, with no paraphrasing or substitution.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+建物の滅失の登記のア〜オを、「問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるか」という思考順序で示す作図ガイド。ア・ウは「誤った思い込み」と「正しいルール」を左右で対比する正誤対比型、イは主である建物と附属建物の取壊し日を比較する配置図型、エ・オは複数の条件判定を順にたどる決定木（フローチャート）型で構成する。エの所有者を証する情報については、出題当時の「所有権を証する情報」ではなく、本文解説と統一した「所有者を証する情報」の表記のみを用いる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — registry record cards showing the name holder,
+demolished building rubble icons, calendar icons for takedown dates, a
+main-building-and-attached-building pair, mortgage registration document
+icons, shared-portion room icons, and paired application-document icons
+for a divided building's remaining and demolished units. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Where a panel reuses a decision tree shared
+with other panels in this set, render the branch relevant to THIS panel
+with a thick highlighted border and full color, and render the other,
+unrelated branches in a faded, greyed-out, or dotted-outline style rather
+than omitting them — the reader should be able to see at a glance which
+part of the shared tree this panel is about. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. In particular, render "所有者を証する情報" exactly as
+written — never "所有権を証する情報". Within this English prompt text,
+use half-width parentheses ( ) consistently — never open a parenthetical
+with a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度　午後の部　第17問　ア〜オ
+作図ガイド（建物の滅失の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+移転登記が未了なら登記名義人が申請できる
+Diagram: Split-panel comparison. Left half, labeled "誤った思い込み" with a
+red ✕ background tint: a person labeled "Ｂ" (the buyer) stands next to a
+collapsed house, holding a document stamped "滅失登記の申請書" — but a
+large red ✕ crosses out this document, with a small label reading "実体上
+の所有者だが登記記録の名義人ではない". Right half, labeled "正しいルール"
+with a green ✓ background tint: a person labeled "Ａ" stands next to the
+same collapsed house, holding the same document stamped "滅失登記の申請
+書" with a green checkmark ✓ beside it; a registry record card next to Ａ
+reads "登記記録：Ａ名義". A torn paper label straddling the two halves
+reads "所有権の移転登記　未了".
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、所有権の移転登記が完了しているかどうかを確認します。次に、未了で
+あれば実体上の買主Ｂではなく、登記記録上の名義人Ａに滅失登記を申請する
+資格と義務があることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+登記記録上の名義人が申請
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+取壊し日が同じなら附属建物欄は記録不要
+Diagram: Isometric scene with two registry record cards side by side: a
+larger one labeled "主である建物" and a smaller one labeled "附属建物",
+both connected by a thin line to a single rubble pile showing both
+structures demolished. A numbered marker "①" points from a calendar icon
+labeled "取壊し年月日" to both buildings. A numbered marker "②" sits
+between the two record cards with a comparison symbol "＝" showing the
+dates match. The "主である建物" card has the date filled in; the "附属
+建物" card shows a large green checkmark ✓ stamp reading "記録不要" over
+a blank date field.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、主である建物と附属建物それぞれの取壊し年月日を確認します。次に、
+両者の日付が同一かどうかを比較し、同一であれば附属建物の表示欄の原因
+及びその日付欄には記録を要しないと確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+附属建物欄は記録不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+抵当権が残っていても滅失登記は申請できる
+Diagram: Split-panel comparison. Left half, labeled "誤った思い込み" with a
+red ✕ background tint: rubble of a demolished house with a document icon
+labeled "抵当権の設定の登記" floating above it, blocked by a closed gate
+icon labeled "抵当権の抹消" that a broken arrow toward "滅失登記" cannot
+pass through. Right half, labeled "正しいルール" with a green ✓
+background tint: the same rubble, the same "抵当権の設定の登記" document
+icon still floating above it (not crossed out, still present), with an
+arrow leading directly and unobstructed from the rubble to a registry
+stamp labeled "滅失登記", and a small label reading "承諾書も添付情報と
+ならない".
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、滅失の登記は建物という物理的な客体が消滅した事実をそのまま反映
+する表示に関する登記であることを確認します。次に、抵当権者からの承諾
+書は添付情報とならず、抵当権の設定の登記を抹消しなくても滅失登記を申請
+できることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+抹消も承諾も不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+共用部分の登記がある建物は所有者証明が必要
+Diagram: A diamond-shaped branch node reads "共用部分である旨の登記が
+あるか". A faded, greyed-out "いいえ" arrow leads to a small dimmed label
+reading "通常の建物（所有者は登記記録に公示済み）－今回は対象外". A bold,
+highlighted "はい" arrow leads through an isometric scene of a small
+demolished room labeled "共用部分である旨の登記がされている建物" (shown
+as rubble) into a second diamond-shaped branch node reading "登記記録に
+所有者は公示されているか". From this second node, a bold "いいえ" arrow
+leads to a final conclusion node showing a person submitting two document
+icons side by side, each with a green checkmark ✓: one labeled "申請情報"
+and one labeled "所有者を証する情報", beside a registry record card with
+a blank field labeled "所有者".
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、滅失した建物が共用部分である旨の登記がされているかを確認します。
+次に、その建物は登記記録に所有者が公示されていないことを踏まえ、申請
+情報と併せて当該建物の所有者を証する情報を提供しなければならないと
+確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+所有者を証する情報が必要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+滅失登記と表題部変更登記は別々に申請できる
+Diagram: An isometric scene shows one building block divided into two
+units labeled "甲区分建物" and "乙区分建物"; a first diamond-shaped branch
+node reads "乙区分建物が滅失した後、甲区分建物はなお区分建物か". A bold
+"いいえ" arrow leads to the "甲区分建物" side carrying a floating tag
+reading "区分建物でない建物", beside a document icon labeled "甲建物の
+表題部変更登記"; the "乙区分建物" side is shown as rubble beside a
+document icon labeled "乙区分建物の滅失登記". A second diamond-shaped
+branch node reads "2つの登記を一括して申請しなければならない義務が
+あるか". A bold "いいえ" arrow leads from this node to a final conclusion
+showing the two document icons connected only by a loose dashed line,
+with a staple icon crossed out by a red ✕ mark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、乙区分建物の滅失によって残った甲区分建物が区分建物でなくなり、乙
+の滅失登記と甲の表題部の変更登記の両方が必要になることを確認します。
+次に、これら2つの登記を一括して申請しなければならないという義務的な
+規定は存在せず、別々に申請することもできると確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一括申請の義務なし
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+ア：不動産登記法57条／イ：不動産登記事務取扱準則101条／ウ：表示に関する
+登記の性質上、権利者の承諾書は添付情報とならない／エ：不動産登記令別表
+17項／オ：一括申請を義務付ける規定なし（一般原則）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・者. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢 is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that no 肢 with a genuinely hidden
+second condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that any panel sharing a decision tree with
+another panel clearly distinguishes its own highlighted branch from the
+other, faded branches, that "所有者を証する情報" is never rendered as
+"所有権を証する情報", confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

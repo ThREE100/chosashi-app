@@ -204,3 +204,194 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア〜オは、利益相反の禁止・法人の清算人の資格・登録取消しへの不服申立て・法人の鑑定業務・補助者の扱いという5つの独立した規律であり、②と同様に2軸に分ける自然な構造がないため、パネルごとに最も適した型（単一チェック型の図解・タイムライン型・正誤対比型）を個別に選ぶ。共有する決定木はないが、②の単一アクセントカラーの構成を引き継ぎ、全パネルを同じ色（teal）で統一する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（測量
+業務は、補助者に任せられないんです）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a professional surveyor figure with a badge, a
+law-book icon, a corporate/法人 building icon, surveying equipment, and
+government-office icons — adapt icon set to the topic of professional
+regulation for land and house surveyors. These 5 肢 cover five
+independent rules with no shared decision tree between them, so each
+panel uses whichever diagram type best fits its own 肢: a numbered-step
+illustrative diagram for a single check, a left-to-right timeline for a
+sequence of events, or — where a 肢's wording contains a condition that
+looks decisive but is actually a trap that does not change the real
+conclusion (Panel 5) — a side-by-side「正しいルール」対「誤りやすい思い
+込み」comparison, with the mistaken side crossed out by a large red X.
+Where a 肢 genuinely requires checking multiple conditions in sequence,
+draw the diagram as an actual decision flowchart with diamond-shaped
+branch nodes; where it is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第20問 ア〜オ
+作図ガイド（土地家屋調査士法）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in teal containing the number 1.
+Heading (bold, ONE line):
+土地家屋調査士は公務員時代の事件を扱えない
+Diagram: A single illustrative scene showing one figure in two numbered
+roles. Step 1（丸数字１）: the figure wearing a 公務員(government
+official) uniform, handling a case file labeled 事件Ｘ. Step 2（丸数字
+２）: the same figure, now wearing a 土地家屋調査士バッジ, reaching toward
+the same file 事件Ｘ but blocked by a red「×」barrier.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その事件をかつて公務員として職務上取り扱ったことがあるかを確認
+します。該当する場合は、その後に土地家屋調査士になっても、同じ事件に
+ついて業務を行うことはできません。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+業務を行えない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in teal containing the number 2.
+Heading (bold, ONE line):
+調査士法人の清算人は調査士でなければならない
+Diagram: A corporate/法人 building icon labeled 土地家屋調査士法人
+undergoing 解散・清算(dissolution). Step 1（丸数字１）: a person icon
+wearing a 土地家屋調査士バッジ, labeled 原則：調査士である社員, stepping
+in as 清算人 with a green checkmark. Step 2（丸数字２、小さめの補足）: a
+second badge-wearing figure labeled 例外：社員の過半数の同意があれば選任
+される別の調査士, also with a green checkmark. Beside both, a generic
+office-staff person icon with no badge is blocked by a red「×」from
+becoming 清算人.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、清算人になれるのは原則として調査士である社員であることを確認し
+ます。次に、社員の過半数の同意があれば別の調査士を清算人として選任す
+ることもできますが、いずれの場合も清算人は調査士でなければならず、調
+査士でない者を清算人とすることはできません。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+調査士でなければならない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in teal containing the number 3.
+Heading (bold, ONE line):
+登録取消しへの不服は法務大臣に審査請求
+Diagram: A left-to-right timeline with three numbered stages. Stage
+1（丸数字１）: a clock icon labeled 引き続き2年以上業務を行わない. Stage
+2（丸数字２）: an arrow leads to 日本土地家屋調査士会連合会 building icon
+issuing a torn-paper notice labeled 登録取消し to a 土地家屋調査士 figure.
+Stage 3（丸数字３）: a further arrow leads to the figure submitting a
+document labeled 審査請求 to a government-building icon labeled 法務大臣.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、引き続き2年以上業務を行わないという事実があるかを確認します。次
+に、それを理由に日本土地家屋調査士会連合会が登録を取り消した場合、そ
+の取消しに不服があるときは、法務大臣に対して審査請求をすることができ
+ます。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+法務大臣へ審査請求
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in teal containing the number 4.
+Heading (bold, ONE line):
+定款で定めれば調査士法人も鑑定業務が可能
+Diagram: A single illustrative scene. Step 1（丸数字１）: a 土地家屋調査士
+法人 building icon beside a document icon labeled 定款、鑑定業務を行う旨
+を規定. Step 2（丸数字２）: an arrow leads to a person icon（鑑定人）
+holding a magnifying glass over a land-boundary line（筆界）, receiving a
+依頼 document from 当事者その他関係人, and producing a document labeled
+鑑定書 with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、調査士法人の定款に、当事者その他関係人の依頼を受けて鑑定人に就
+任し、土地の筆界に関する鑑定を行う業務をする旨が定められているかを確
+認します。定められていれば、通常の業務に加えてこの鑑定業務を行うこと
+ができます。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+鑑定業務ができる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in teal containing the number 5.
+Heading (bold, ONE line):
+正当な事由があっても補助者に業務は任せられない
+Diagram: A 正誤対比型(correct-rule-versus-mistaken-belief) comparison,
+two panels side by side. LEFT panel（red background, labeled 誤りやすい
+思い込み）: a 土地家屋調査士 figure unable to go to the field（正当な事由
+のイメージ）hands 測量機器 to a 補助者(assistant) figure, who proceeds to
+carry out the survey alone; a large red「×」overlays the scene. RIGHT
+panel（green background, labeled 正しいルール）: the same 土地家屋調査士
+figure, whether or not a 正当な事由 exists, keeps 測量機器 in hand while
+the 補助者 figure instead performs only 補助的な事務（デスクワークの書類
+整理）labeled 補助的な事務のみ可, with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、「自ら業務を行うことができない正当な事由がある」という記述だけ
+を見て結論が変わるように思い込まないよう注意します。正当な事由の有無
+にかかわらず、測量業務そのものを補助者に取り扱わせることはできず、補
+助者はあくまで補助的な事務にとどまります。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+補助者には不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+土地家屋調査士法22条の2第1項・39条3項・16条1項1号・17条、同法施行規則
+22条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 調, 査, 士, 登, 録, 清, 算, 務, 鑑, 補, 助 and any character
+that has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that Panel 5 is drawn as a
+side-by-side correct-rule-versus-mistaken-belief comparison with the
+mistaken side clearly crossed out, that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

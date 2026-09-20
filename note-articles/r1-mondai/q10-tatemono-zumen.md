@@ -202,3 +202,193 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア・オは「図面の誤りの原因は、建物自体の物理的現況が変わったことか」を分岐点とする決定木を共有し、ア（いいえ側＝任意にできる）とオ（はい側＝訂正ではなく変更登記による）で強調する枝を切り替える構成にした。イ・ウは1回の確認で完結するため通常の図解、エは法14条地図と建物図面の縮尺を対比する対比枠型を採用した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（建物
+図面、義務？それとも任意？）, but built as a set of 5 diagram-drawing
+panels (a "how to sketch this fact pattern, in the right order" study
+reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric drafting tables, building floor
+plans, digital tablets with electronic seals, stacked paper sheets with
+margin notes, a small scale ruler icon — adapt icon set to the topic of
+建物図面・各階平面図の作成・訂正ルール. Panels 1（肢ア）and 5（肢オ）
+share the same decision flowchart: a diamond branch node labeled「図面の
+誤りの原因は、建物自体の物理的現況が変わったことか」with two Yes/No
+branches, each leading to its own conclusion node（いいえ→「訂正の申出
+をすることができる（任意、義務ではない）」、はい→「訂正の申出はできな
+い→変更の登記による」）; render both conclusion nodes every time this
+shared tree appears, and never draw a looping arrow back into an earlier
+node. Panel 1 highlights（太い縁取り・フルカラーで強調）the いいえ branch
+and its conclusion node while rendering the はい branch and its conclusion
+node in a faded, greyed-out style; Panel 5 does the reverse. Panels 2 and
+3（肢イ・肢ウ）are resolved by a single check, so a labeled illustrative
+diagram is sufficient — do not force a flowchart. Panel 4（肢エ）uses a
+side-by-side comparison frame（LEFT: 法14条地図の縮尺、RIGHT: 建物図面
+500分の1）with a large ✕ over an equals-sign icon between them, because
+the point of that 肢 is that the two scales need not match. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度午後第10問 ア〜オ
+作図ガイド（建物図面・各階平面図）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+図面訂正の申出は任意で義務ではない
+Diagram: A decision flowchart shared with Panel 5. A diamond branch node
+（highlighted with a thick colored border）labeled「図面の誤りの原因は、
+建物自体の物理的現況が変わったことか」, with the いいえ branch
+（highlighted, full color）leading down to a person standing beside a
+filed building図面 folder next to a newly-備え付けられた 地積測量図, with
+a speech bubble showing「できる」and a crossed-out label reading「しなけ
+ればならない」; the はい branch and its conclusion node（隔壁が除去され
+た2部屋のアイコン）rendered in a faded, greyed-out style beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、図面の誤りの原因が建物自体の物理的現況の変化によるものか、それと
+も敷地の測量など別の事情によるものかを確認します。今回のように建物自体
+が変わっていない場合、訂正の申出をするかどうかは任意であり、しなければ
+ならない義務ではありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+訂正は任意で義務でない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+用紙複数枚は総枚数と何枚目を記載
+Diagram: An isometric view of three sheets of building floor plan
+drawings fanned out, each with a small margin note reading「全3枚のうち
+1枚目」「同2枚目」「同3枚目」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、書面で提出する建物図面・各階平面図の用紙が1枚で足りるか、数枚に
+わたるかを確認します。数枚にわたるときは、余白に総枚数と何枚目かを記載
+します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+総枚数・何枚目を記載
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+電子署名でも作成日等を記録する
+Diagram: An isometric tablet/computer screen showing a digital building
+floor plan with an electronic seal icon（電子署名）, and a data label box
+displaying「作成年月日」「申請人氏名」「作成者氏名」all filled in with
+green checkmarks, not left blank.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、提供方法が書面か、電子署名による電子申請かを確認します。電子署名
+で提供する場合も、作成年月日・申請人氏名・作成者氏名の3点は必ず記録し
+ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+作成日等を記録
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+建物図面は500分の1で地図と別
+Diagram: A side-by-side comparison frame. LEFT box labeled「法14条地図」
+showing a small-scale area map, RIGHT box labeled「建物図面 500分の1」
+showing a building floor plan, connected by an equals-sign icon with a
+large red ✕ mark over it to show the two scales need not match.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、敷地に不動産登記法14条1項の地図が備え付けられているかを確認し、
+次にその地図の縮尺と建物図面の縮尺を一致させる必要があるかを確認しま
+す。建物図面は原則500分の1で作成すればよく、地図の縮尺に合わせる必要
+はありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+縮尺は独立して決まる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+隔壁除去は訂正でなく変更登記
+Diagram: The same shared decision flowchart as Panel 1. The diamond
+branch node labeled「図面の誤りの原因は、建物自体の物理的現況が変わっ
+たことか」, with the はい branch（highlighted, full color）leading down
+to two adjacent rooms with a dividing wall（隔壁）being removed and
+merging into one larger room, an arrow pointing to a「変更の登記」stamp
+with a checkmark and a crossed-out「訂正の申出」stamp; the いいえ branch
+and its conclusion node（人物と地積測量図のアイコン）rendered in a
+faded, greyed-out style beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、図面の誤りの原因が建物自体の物理的現況の変化によるものかを確認
+します。隔壁を除去して物理的に1部屋にした今回のケースでは、訂正の申出
+をすることはできず、建物の表題部の変更に対応する登記の手続によります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+変更の登記による
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則88条1項(本文・ただし書)・73条・82条、不動産登記事務取扱
+手続準則51条5項(54条3項による準用)に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 訂, 正, 義, 務, 隔, 壁, 縮, 尺, 署, 名, 録, 敷 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢 is drawn as an actual flowchart with branch nodes (not
+a bare illustration with no visible decision structure), that no 肢 with
+a genuinely hidden second condition has been flattened into a single
+check, that each 着眼点 callout states a checking order rather than only
+a conclusion and keeps every required element from the source article
+distinct (no merged or dropped requirements), that Panels 1 and 5 clearly
+distinguish their own highlighted branch and conclusion node from the
+other, faded branch and conclusion node, and that neither panel renders a
+looping arrow back into an earlier node, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

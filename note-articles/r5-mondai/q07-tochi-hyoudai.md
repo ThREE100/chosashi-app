@@ -201,3 +201,180 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+「誰が申請人になるか」「登記原因はどう書くか」を問題文から見抜けるようにする5パネル構成。イ（登記原因の思い込み）は正しいルールと誤りやすい思い込みを対比させる正誤対比型、ウ（登記前に売却した場合の申請義務者）は「表題登記の前に売却したか」を分岐条件とする決定木として、はい・いいえ両方の行き先を明記する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(土地が生まれたとき、誰が登記する?), but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - a reclaimed land plot rising out of water, an
+official certificate icon, a calendar icon, a handover-of-keys gesture
+between two figures, and a government-building icon for 嘱託 - adapt icon
+set to the topic of 土地の表題登記の申請人・登記原因・添付情報. Where a
+肢 requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(はい/いいえ) branch arrows, and a final conclusion node for every branch
+(no branch may be left without its own conclusion node, and no arrow may
+loop back to an earlier node). Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient - do not force a flowchart.
+Where a 肢 is really about telling apart two similar-looking rules
+(something the reader mistakenly assumes vs the actual rule), draw it as
+a left/right comparison panel instead of a flowchart. Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently throughout, including inside Japanese asides.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和5年度午後第7問 ア〜オ
+作図ガイド(土地の表題登記)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+竣功認可書は所有権証明に使える
+Diagram: An isometric reclaimed land plot (公有水面埋立) rising out of
+blue water with small construction cranes nearby. An official certificate
+icon labeled 竣功認可書 is being placed into an open folder labeled 所有
+権を証する情報.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその土地がどのように生じたか(公有水面の埋立て)を確認します。埋立
+工事が竣工したことを公的に認めた竣功認可書は、所有権を証する情報として
+提供することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+竣功認可書で足りる
+
+--- PANEL 2(肢イ) ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+登記原因日付は土地が生じた日
+Diagram: A left/right comparison panel. Left side, labeled 実際の登記原
+因(highlighted in full color with a checkmark): a calendar icon with a
+circled date labeled 土地が生じた日(多くは不詳). Right side, labeled う
+っかり思い込みやすい登記原因(rendered faded/greyed-out with a red ✕
+overlay): a document icon labeled 国有財産売払 with a calendar date
+labeled 売払を受けた日.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず登記原因の日付として書くべきなのが「土地が生じた日」なのか「売払を
+受けた日」なのかを確認します。国から売払いを受けた場合でも、登記原因を
+「国有財産売払」として申請しなければならないわけではありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+売払の日ではない
+
+--- PANEL 3(肢ウ) ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+登記前に売却したら申請人は新所有者
+Diagram: A decision flowchart. Start node: 表題登記を申請する前に、原始
+取得者Aがその土地をBに売却したか?. A いいえ arrow leads to its own
+conclusion node showing 原始取得者A holding a document labeled 表題登記
+の申請, reading Aが申請人のまま. A はい arrow leads to its own separate
+conclusion node showing an isometric scene of person A handing a land-plot
+key to person B (a house-key handover gesture), with a crossed-out icon
+over A holding the 表題登記の申請 document, reading 新所有者Bが申請人に
+なる. No arrow loops back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず表題登記を申請する前に土地が売却されているかを確認します。売却さ
+れていれば、申請義務を負うのはもはや原始取得者ではなく新所有者であり、
+原始取得者が自分の名前で表題登記を進めることはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+新所有者Bが申請
+
+--- PANEL 4(肢エ) ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+施行者は所有者に代位して申請できる
+Diagram: An isometric construction-project character (施行者) holding a
+document labeled 表題登記 standing beside a dotted-outline silhouette
+representing an absent landowner, with an arrow labeled 代位 connecting
+the施行者 directly to the land plot's ledger book.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず土地区画整理事業の施行のために必要があるかを確認します。必要があ
+れば、施行者は従前の土地の所有者に代位して、土地の表題登記を申請するこ
+とができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代位で申請できる
+
+--- PANEL 5(肢オ) ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+嘱託なら所有権証明は省略できる
+Diagram: An isometric government building icon (地方公共団体) sending a
+document labeled 嘱託 directly to a登記所 building icon, with a
+crossed-out folder labeled 所有権を証する情報 beside the document to show
+it is omitted.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその表題登記が地方公共団体自身による嘱託であることを確認します。
+嘱託であれば、所有権を証する情報の提供を省略することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+所有権証明は不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法36条、公有水面埋立法22条、土地区画整理法82条1項、土地区画
+整理登記令2条、不動産登記事務取扱手続準則71条2項、登録免許税法4条1項
+に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 地, 登, 記, 所, 証, 却, 嘱, 託 and any character that
+has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that Panel 2 is drawn as a
+left/right comparison with the faded/×'d side clearly distinguished from
+the highlighted correct side, that Panel 3 is drawn as an actual
+flowchart whose diamond node has exactly two distinct exit arrows (はい
+and いいえ) each leading to its own separate conclusion node with no
+looping arrows, that each 着眼点 callout states a checking order rather
+than only a conclusion, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

@@ -202,3 +202,176 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「必須事項か任意的記載事項か」「保存期間内か」「誰の名義の不動産か」「番号か写しか」を見抜けるようにする5パネル構成。②の色分け（一覧図を作る・保管するとき＝緑、一覧図を使うとき＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（法定
+相続情報一覧図の書くべきこと・戻ってくるもの）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric 一覧図 document card with entry
+fields, a registry-office building with land plots, a returning stack of
+戸籍 documents, a 5-year calendar timeline, an ID number tag — adapt icon
+set to the topic of 法定相続情報一覧図. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Panel 4（肢エ）uses a side-by-side comparison frame（LEFT: 被
+相続人名義の不動産＝申出先にできる、RIGHT: 申出人自身の不動産＝申出先
+にできない）instead of a flowchart. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を
+確認します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第18問 ア〜オ
+作図ガイド（法定相続情報一覧図）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+本籍地は任意的記載事項
+Diagram: An isometric 法定相続情報一覧図 document card showing checked
+entry fields labeled 氏名・生年月日・死亡年月日・最後の住所 with green
+checkmarks, and one field labeled 本籍地 shown with a dashed outline and
+a small badge reading「任意的記載事項」（no red ✕, just a dashed border）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、法定相続情報一覧図に記載すべき必須事項（氏名・生年月日・死亡年
+月日・最後の住所等）に本籍地が含まれているかを確認します。本籍地は
+任意的記載事項であり、必ず記載しなければならないものではありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+本籍地は任意
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+保存期間内なら写しの再交付ができる
+Diagram: An isometric calendar/timeline bar spanning 5 years labeled
+「保存期間（5年間）」, with a marker showing「作成の年の翌年」as the
+start point. A hand icon reaches for a document labeled「法定相続情報
+一覧図の写し」at a point along the bar before it ends.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、今がその一覧図の保存期間（作成の年の翌年から5年間）内であること
+を確認します。保存期間が満了するまでの間は、写しの再交付を申し出ること
+ができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+5年間は再交付可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+戸籍の証明書は返却される
+Diagram: An isometric registry-office clerk counter. A stack of documents
+labeled「戸籍の全部事項証明書」is handed over by an applicant figure,
+then the same stack is handed back to the applicant together with a
+document labeled「法定相続情報一覧図の写し」, illustrated with a return
+arrow.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、保管の申出の際に添付書面として提出したのが戸籍の全部事項証明書
+であることを確認します。この書面は、一覧図の写しを交付する際に併せて
+返却されます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+戸籍は返却される
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+申出先は被相続人名義の不動産で決まる
+Diagram: A side-by-side comparison frame. LEFT box（highlighted with a
+thick colored border）labeled「被相続人名義の不動産」: a solid arrow
+flows from a land-plot icon into a registry-office building icon with a
+green checkmark. RIGHT box（faded, greyed-out）labeled「申出人自身の
+不動産」: a land-plot icon with a crossed-out（✕）arrow toward a
+different registry-office building icon.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申出先として考えている登記所が、管轄する不動産が「被相続人」名義
+のものか、それとも「申出人自身」の名義のものかを確認します。被相続人
+名義の不動産の所在地であれば申出先にできますが、申出人自身が別に所有
+している無関係な不動産の所在地ではできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+被相続人名義が基準
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+番号を提供すれば写しは不要
+Diagram: An isometric registration application document labeled「土地の
+表示に関する登記の申請書」next to a small ID tag/card labeled「法定相続
+情報番号」. A large stack of paper labeled「法定相続情報一覧図の写し」
+is shown fading away with a red ✕, indicating it does not need to be
+attached when the number is provided.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相続があったことを証する情報として、法定相続情報一覧図の写しで
+はなく法定相続情報番号を提供しようとしているかを確認します。番号を
+提供すれば、一覧図の写し自体を改めて提供する必要はありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+番号だけでOK
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則247条1項・3項1号・7項、規則28条の2第6号、規則37条の3
+第1項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 籍, 相, 続, 覧, 図, 戸, 証, 明, 号, 登, 記, 所, 返, 却 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panel 4 is drawn
+as a comparison frame rather than a flowchart, that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing
+is rendered below the last panel's footnote text (no summary recap
+panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

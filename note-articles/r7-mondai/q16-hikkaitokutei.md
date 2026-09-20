@@ -200,3 +200,183 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「関係人に当たるか」「所有権確認訴訟か筆界確定訴訟か」「除斥事由・特段の必要に当たるか」を見抜けるようにする5パネル構成。イは所有権確認訴訟と筆界確定訴訟を対比する枠、オは除斥事由の確認から特段の必要の確認へ進む2段階の決定木にしている。②の色分け（訴訟とは別次元＝緑、関係人の権利保障＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（筆界
+特定、訴訟とは違うからこそのルール）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a courthouse building, a surveyor with a
+measuring pole and boundary stake, a balance scale, a document folder
+being examined, a family-tree icon linking a registrar and an applicant
+— adapt icon set to the topic of 筆界特定. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Panel 2（肢イ）uses a side-by-side comparison frame（LEFT: 所有
+権確認訴訟の判決（本肢）＝却下事由に当たらない、RIGHT: 筆界確定訴訟の
+判決＝却下事由に当たる）instead of a flowchart. Panel 5（肢オ）must be
+drawn as a two-step flowchart, checking the 除斥事由 first and then the
+「特段の必要」exception. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state
+the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"),
+not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第16問 ア〜オ
+作図ガイド（筆界特定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+申請人でない共有者も意見を提出できる
+Diagram: A shared piece of land with two boundary stakes; two sibling
+figures stand side by side. One has already submitted an application
+document to a registrar-officer figure. The other hands over a folder
+labeled「資料」to the same registrar-officer, with a speech-bubble icon
+above them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この人が対象土地の共有者でありながら、申請人にはなっていないこと
+を確認します。申請人でない共有者も「関係人」に当たるため、筆界特定登記
+官に対して意見や資料を提出することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+意見・資料を提出可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+所有権確認訴訟は筆界と別次元
+Diagram: A side-by-side comparison frame. LEFT box（highlighted with a
+thick colored border）labeled「所有権確認訴訟の判決（本肢）」: a
+courthouse building icon with a green checkmark and a label「却下事由に
+当たらない」. RIGHT box（faded, greyed-out）labeled「筆界確定訴訟の
+判決」: a courthouse building icon with a red ✕ and a label「却下事由に
+当たる」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、確定した判決が「所有権確認訴訟」のものか、それとも「筆界確定
+訴訟」のものかを確認します。却下事由となるのは筆界確定訴訟の判決が確定
+している場合に限られ、所有権確認訴訟の判決があっても筆界特定の申請は
+妨げられません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+筆界は別次元
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+手続の途中でも調書を閲覧できる
+Diagram: A progress gauge icon showing「手続中」（partially filled, not
+complete）, next to a person figure holding a magnifying glass over an
+open document folder labeled「調書・提出資料」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、今が「公告があった時から通知がされるまでの間」に当たるかを確認
+します。筆界が特定される前の手続の途中段階であっても、申請人及び関係人
+は作成された調書及び提出された資料の閲覧を請求することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+閲覧できる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+売買契約書の原本は還付を請求できる
+Diagram: A document labeled「売買契約書（原本）」with a stamp icon on it,
+being handed back from a registrar-officer figure to an applicant figure,
+shown with a return arrow between them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、添付した書面が「この筆界特定の申請のためにのみ作成された委任状
+その他の書面」に当たるかを確認します。売買契約書はこれに当たらない
+ため、原本の還付を請求することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+還付請求できる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+除斥事由があれば改めて申請できる
+Diagram: A two-step decision flowchart. Start node: 原筆界特定を行った
+登記官は、対象土地の所有権登記名義人等の四親等内の親族（除斥事由）に
+当たるか？with a はい arrow down to a diamond node（highlighted with a
+thick border): 既に筆界特定がされていることは通常却下事由だが、この
+事情は「特段の必要」の例外に当たるか？with a green はい branch leading
+to a conclusion node reading 改めて筆界特定の申請をすることができる, and
+a faded いいえ branch leading to a separate conclusion node reading
+既にされた筆界特定を理由に却下される. A small family-tree icon links the
+registrar figure and the applicant figure with a label「叔父」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、原筆界特定を行った登記官が、対象土地の所有権の登記名義人等の四
+親等内の親族（除斥事由）に当たるかを確認します。次に、除斥事由のある
+登記官が判断していたという事情が「特段の必要」の例外に当たるかを確認
+します。当たる以上、改めて筆界特定の申請をすることができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+改めて申請可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法126条2号・132条1項6号・7号・133条1項1号・139条1項・141条、
+不動産登記規則213条1項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 筆, 界, 権, 訴, 訟, 却, 閲, 覧, 還, 付, 除, 斥, 親, 族 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panel 2 is drawn
+as a comparison frame rather than a flowchart, that Panel 5 is drawn as
+a two-step flowchart with both branches of its second diamond node
+leading to distinct conclusion nodes, that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

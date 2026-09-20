@@ -326,3 +326,208 @@ quoted text boxes match the Japanese text given above verbatim character-
 for-character, and confirm the callout box text matches verbatim with no
 paraphrasing and no substituted characters.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文（ア〜オ5肢）を読んだ瞬間に、どんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。「地図」と「地積測量図」、「地図の誤り」と「分筆手続の誤り」といった、似た言葉で異なる制度を見分ける肢が多いため、対比枠型と決定木型を肢ごとに使い分けて構成する。`infographic-prompt-template.md`の「⑤ 作図ガイド型」に基づく。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - an isometric surveyor with a total station
+aimed at a triangulation point marker, a crossed-out roadside landmark, a
+registry archive vault holding both a new map and a closed old map, two
+adjacent land plots each with their own 地図訂正申出情報 document, a
+closed map document being pointed at, and a land plot with an incorrect
+dividing line. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient - do not force a flowchart. Where a 肢's difficulty
+is really about telling apart two different systems or procedures rather
+than checking conditions in sequence, draw the panel as a left/right (or
+top/bottom) comparison frame instead of forcing a single decision tree.
+Where a panel reuses a decision or comparison structure shared with other
+panels in this set, render the branch relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated
+branches in a faded, greyed-out, or dotted-outline style rather than
+omitting them - the reader should be able to see at a glance which part
+of the shared structure this panel is about. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text - do not drop or merge
+a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第6問 ア〜オ
+作図ガイド(地図・地図訂正の申出)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled circle in blue containing the number 1(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+対象が地図か地積測量図かを見分ける
+Diagram: パネルの中を縦の点線で左右に分割した対比図。左側(強調された背
+景)には、測量士が基本三角点にトータルステーションを向けている「地図
+を作成するための測量(本肢)」のイラストに「代替手段の規定なし」のラベ
+ル、その脇に恒久的な地物(コンクリート杭)へ大きな赤い✕印。右側(グレー
+寄りの背景、faded)には、同じ測量士が筆界点のそばの恒久的な地物を計測
+している「地積測量図の測量(比較対象)」のイラストに「特別の事情があれ
+ば代替可」のラベル。中央の点線の上に「今読んでいるのは地図か、地積測
+量図か」という問いかけのラベルを配置する。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、問題文が「地図」の測量の話なのか「地積測量図」の測量の話なのか
+を確認します。地図の測量であれば、近傍に基本三角点等がなくても恒久的
+な地物で代替できる規定はないと判断します。
+Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
+characters):
+基本三角点等が必須
+
+--- PANEL 2(肢イ) ---
+Badge: a filled circle in green containing the number 2(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+訂正対象の土地が何筆あるかを確認する
+Diagram: 隣接する2つの土地(甲土地・乙土地)のイラスト。それぞれの土地
+から別々の矢印が伸び、それぞれに「地図訂正申出情報」と書かれた別々の
+書類が対応し、2本の矢印がともに登記所の窓口へ届く構図。中央に、2筆分
+をまとめた1通の書類の上に大きな赤い✕印を重ねて、まとめての申出はでき
+ないことを示す。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、区画に誤りがある土地が何筆あるかを確認します。同一の登記所の管
+轄区域内であっても、土地ごとに別々の地図訂正申出情報を用意しなければ
+ならないと判断します。
+Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
+characters):
+申出は土地ごとに
+
+--- PANEL 3(肢ウ) ---
+Badge: a filled circle in blue containing the number 3(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+閉鎖後も地図に準ずる図面は永久保存
+Diagram: 登記所の書庫を表す金庫アイコンの中に、新しく備え付けられた
+「地図」の書類と、赤い「閉鎖」のスタンプが押された古い「地図に準ずる
+図面」の書類が並んで保管されている構図。両方の書類の上に共通の「永久
+保存」の帯状バッジを配置し、閉鎖の有無で保存期間が変わらないことを示
+す。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、その図面が新しい地図の備え付けによって閉鎖されたかどうかを確認
+します。閉鎖されていたとしても、地図に準ずる図面である以上、保存期間
+は永久のままだと判断します。
+Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
+characters):
+保存期間は永久
+
+--- PANEL 4(肢エ) ---
+Badge: a filled circle in green containing the number 4(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+閉鎖図面だけで誤りが分かるかを確認する
+Diagram: 縦方向の決定木。開始点はグレーの四角ノード「地図の区画に誤り
+があることが判明」。そこから下向きの矢印でひし形の分岐ノード「登記所
+に備え付けられている図面(閉鎖された地図に準ずる図面等)で、その誤りを
+確認できるか」につながる。Yes(緑・太い強調の矢印)は結論ノード(緑)「そ
+の図面を特定する情報の提供で足りる(土地所在図・地積測量図の提供は不
+要)」へ、No(グレー・細い矢印)はfadedなグレーの結論ボックス「原則どお
+り、誤りを証する情報と併せて土地所在図または地積測量図の提供が必要」
+へ導く。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、地図の区画の誤りを、登記所に備え付けられている図面で確認できる
+かを確認します。確認できる場合は、その図面を特定する情報の提供だけで
+足り、土地所在図や地積測量図をあらためて用意する必要はないと判断しま
+す。
+Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
+characters):
+特定情報で足りる
+
+--- PANEL 5(肢オ) ---
+Badge: a filled circle in blue containing the number 5(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+誤りの原因が地図か分筆手続かを見分ける
+Diagram: パネルの中を縦の点線で左右に分割した対比図。左側(グレー寄り
+の背景、faded)には、地図そのものの区画に誤りがある場面のイラストに
+「地図訂正の申出で直す」のラベル。右側(強調された背景、本肢)には、分
+筆の登記の申請時に提供した地積測量図の分筆線自体に誤りがあり、その誤
+った線のまま分筆の登記がされてしまった土地のイラスト(誤った分筆線を
+赤色の点線で強調)に、「地図訂正の申出」と書かれた書類への赤い✕印、
+そこから矢印で「分筆錯誤による更正の登記」と書かれた書類へ導く構図。
+中央の点線の上に「誤りの原因は地図の記載か、分筆の手続自体か」という
+問いかけのラベルを配置する。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、誤りの原因が地図の記載そのものにあるのか、それとも分筆の登記の
+際に提供した地積測量図の分筆線自体にあるのかを確認します。分筆線自体
+の誤りであれば、地図訂正の申出ではなく、分筆錯誤による更正の登記で直
+すと判断します。
+Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
+characters):
+更正登記で直す
+
+(…肢の数だけ繰り返し。バッジ番号は1から通しで振る。)
+
+--- FOOTER ---
+Small footnote text(bottom of panel, small font, verbatim):
+根拠：不動産登記規則10条3項・77条2項・28条2号・3号・16条5項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese(Jōyō) form, not Simplified Chinese, paying special
+attention to 筆・界・登・記・錯・誤・恒・久・地・図. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢 is
+drawn as an actual flowchart with branch nodes(not a bare illustration
+with no visible decision structure), that no 肢 with a genuinely hidden
+second condition has been flattened into a single check, that each 着眼
+点 callout states a checking order rather than only a conclusion and
+keeps every required element from the source article distinct(no merged
+or dropped requirements), that any panel sharing a decision or comparison
+structure with another panel clearly distinguishes its own highlighted
+branch from the other, faded branches, confirm nothing is rendered below
+the last panel's footnote text(no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

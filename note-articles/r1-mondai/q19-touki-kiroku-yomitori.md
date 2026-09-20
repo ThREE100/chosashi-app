@@ -221,3 +221,214 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「合筆で取り込んだ土地が、その後の分筆で抜け落ちていないか」「合筆できた事実から接続関係を逆算できるか」「筆界は変動がなければ存続するか」「地積の増減から旧筆の面積を逆算できるか」を見抜けるようにする5パネル構成。ア・イは「合筆後に分筆はされたか」という同じ決定木を共有し、アは「いいえ」側（全部残存）、イは「はい」側（含むとは限らない）を強調する。ウは合筆の要件（相互接続）から隣接関係を導く配置図、エは筆界の存続を示す単一チェックのタイムライン、オは地積の増減を逐次たどる計算逆算図とした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（登記
+記録から「土地の履歴」を読み解く）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric ledger books, land plots merging
+(合筆) and splitting (分筆), dashed split-lines, connecting lines showing
+adjacency, a stopped-clock icon for "no change over time," and a
+calculator with ledger cards for the area calculation — adapt icon set to
+the topic of 登記記録の履歴. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No（はい／いいえ）branch arrows, and a
+final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panels 1 and 2（肢ア・肢イ）share the same decision tree（diamond:
+「合筆後に、取り込んだ土地から分筆はされたか？」／いいえ→「取り込んだ
+土地の全部が今の土地に含まれる」／はい→「取り込んだ土地の全部が含まれ
+るとは限らない」); draw both panels with the same diamond-and-two-branch
+layout, but render the branch relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated branch
+in a faded, greyed-out, or dotted-outline style rather than omitting it.
+Panel 3（肢ウ）is a sequence of 4 numbered layout steps (not a Yes/No
+decision, since the underlying facts of this 肢 are fixed) rather than a
+diamond flowchart. Panel 4（肢エ）is a single-check timeline illustration,
+not a flowchart. Panel 5（肢オ）is a sequence of 4 numbered calculation
+steps ending in a balance-scale comparison, not a Yes/No decision.
+Unlike a glanceable summary poster, each panel MAY include a short「着眼
+点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度午後第19問 ア〜オ
+作図ガイド（登記記録の読み取り）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+合筆後に分筆がなければ6番は全部残る
+Diagram: A decision flowchart shared with Panel 2. Start node: an
+isometric land plot labeled 甲土地（6番を合筆で取り込み済み）. Diamond
+node: 「その後、分筆はされたか？」— rendered with a thick highlighted
+border and full color for the いいえ branch. いいえ branch arrow leads to
+a highlighted conclusion node:「6番の全部が今の甲土地に含まれる」. はい
+branch arrow leads to a faded, greyed-out conclusion node:「含むとは限ら
+ない」(not relevant to this panel). Beside the diamond, add a small
+grayed-out aside box:「3番3の合筆（分筆ではない）は、この判定に影響しな
+い」to show that a later merger, unlike a split, does not change the
+answer.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合筆で取り込んだ6番について、その後に分筆(切り分け)がされていない
+かを確認します。平成27年に3番3を合筆した事実は分筆ではないため判定に
+影響せず、6番の全部が甲土地にそのまま残っていると分かります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+6番は全部含まれる
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in orange containing the number 2.
+Heading (bold, ONE line):
+合筆後に分筆すれば全部残るとは限らない
+Diagram: The same decision flowchart as Panel 1, sharing the diamond
+「その後、分筆はされたか？」. Start node: an isometric land plot labeled
+乙土地（5番を合筆で取り込み済み）. This time the はい branch is rendered
+with a thick highlighted border and full color, leading to a highlighted
+conclusion node:「5番の全部が含まれるとは限らない」, illustrated by a
+dotted split-line cutting off a portion labeled 3番3 with a large "?"
+mark straddling the boundary between the remaining 乙土地 and the
+cut-off 3番3. The いいえ branch and its conclusion node（「全部含まれ
+る」）are rendered in a faded, greyed-out style (not relevant to this
+panel).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合筆で取り込んだ5番について、その後に分筆がされていないかを確認
+します。乙土地は平成27年9月2日に3番3を分筆しているため、取り込んだ5番
+の部分がどちらの土地に入ったか確定できず、全部が含まれるとは言えませ
+ん。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+含むとは限らない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+合筆できた事実が接続の証拠になる
+Diagram: A 4-step numbered layout diagram (not a Yes/No decision).
+Step 1 box:「合筆の要件（不登法41条1号）＝相互に接続している土地でなけ
+れば合筆できない」as a rule-reminder box. Step 2: an isometric land plot
+labeled 乙土地（3番1）with a dotted split-line cutting off a piece
+labeled 3番3, arrow labeled 平成27年9月2日 分筆. Step 3: the 3番3 piece
+carried by an arrow toward 甲土地 and merged into it via a solid
+connecting line, labeled 平成27年9月9日 合筆, with a green checkmark
+reading「合筆できた＝接続していた証拠」. Step 4: a conclusion node
+showing 甲土地 and 乙土地 connected by a solid line through the former
+3番3 position, labeled「3番3はもと乙土地の一部→甲土地と乙土地は隣接」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合筆は相互に接続している土地でなければできないという要件を確認
+します。次に、乙から分筆された3番3が甲土地に合筆できたという事実か
+ら、3番3はもと乙土地の一部なので、甲土地と乙土地も隣接していると導け
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+甲乙は隣接している
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in teal containing the number 4.
+Heading (bold, ONE line):
+分筆で生まれた筆界は変動なければ存続
+Diagram: A single-check timeline illustration (not a flowchart). Left
+end: an icon of a land plot split by a dotted line into two, labeled
+平成19年3月22日 分筆（甲土地2番1と2番2）, the resulting boundary line
+becoming a solid line labeled 筆界. A timeline arrow extends to the
+right, with a single stopped-clock/frozen icon at its midpoint labeled
+「分筆・合筆の変動なし」. Right end: a conclusion node at 令和元年10月
+18日 labeled「その筆界は現在も存在している」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、平成19年の分筆でできた甲土地と2番2との筆界を確認します。次に、
+2番2についてその後分筆・合筆がされていないかを確認すると、変動がなけ
+れば筆界はそのまま令和元年10月18日時点でも存在していると分かります。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+筆界は存在している
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+地積の増減を逆算すれば6番と5番を比較できる
+Diagram: A 4-step numbered calculation diagram (calculator and ledger
+card icons), not a Yes/No decision. Step 1 ledger card:「乙の合筆前後の
+地積差 305.05－125.00＝5番の地積180.05㎡」. Step 2 ledger card:「乙の
+分筆前後の地積差 170.01－125.00＝3番2の地積45.01㎡」. Step 3 ledger
+card:「甲の合筆前後の地積差 301.06－66.11＝234.95㎡（3番2＋6番）→
+234.95－45.01＝6番の地積189.94㎡」. Step 4: a balance-scale icon
+comparing 6番189.94㎡（左皿、下がる）と5番180.05㎡（右皿、上がる）,
+labeled「6番の方が大きい」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、乙土地の合筆前後の地積差から5番の地積を求めます。次に、乙土地の
+分筆前後の地積差から3番2の地積を求め、甲土地の合筆前後の地積差から
+3番2を差し引いて6番の地積を求めます。最後に、求めた6番と5番の地積を
+比較します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+6番の方が大きい
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法41条1号（合筆の制限＝相互接続要件）、不動産登記法123条1号
+（筆界の定義）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 合, 筆, 分, 登, 記, 録, 隣, 接, 界, 積 and any character
+that has a visually similar Simplified Chinese variant. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panels 1 and 2
+visibly share the same diamond-and-two-branch layout with only the
+highlighted branch differing, that every multi-condition 肢 is drawn as
+an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that each 着眼点 callout states a checking
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

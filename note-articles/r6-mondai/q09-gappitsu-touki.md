@@ -212,3 +212,209 @@ glance — and confirm no card reproduces a statement that was judged 誤 in
 the original article; every card must show the corrected, correct legal
 rule.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+合筆の登記の5肢（ア〜オ）について、問題文を読んだ瞬間にどんな図を描き、どの順序で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。②の俯瞰カードポスターが5肢の結論を一覧化するのに対し、こちらは肢ごとの思考プロセスを決定木や対比図で可視化する。ア・イ・エは不動産登記法41条が定める複数の合筆の制限（号2の地目・号4の持分・号5の所有権登記の有無）のうちどれに触れているかを見分ける共通の決定木を使い回し、各パネルは自分に関係する号だけを強調表示する。ウ・オは41条の制限とは別の話（嘱託登記の特則、地役権がある場合の記載事項）であるため、それぞれ単独の図解にする。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plot icons for 甲土地/乙土地,
+donut-chart overlays for 持分割合, small registry tags for 地目, a
+crop-field icon and a house icon for 現況の使用状況, a torn-paper label
+for 表題部所有者 versus a stamped-document icon for 所有権登記名義人, an
+isometric government-building icon for 地方公共団体, a document icon for
+嘱託書 and 登記識別情報, and a ribbon icon for 地役権(承役地). Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Panels 1, 2 and 4 additionally show a small
+shared checklist aside labeled「法41条の合筆の制限」listing three items
+(地目・地番区域の一致/号2, 持分割合の一致/号4, 所有権登記の有無の一致/号5)
+— in each of these three panels, render the ONE item this panel is about
+with a thick highlighted border and full color, and render the other two
+items in a faded, greyed-out, dotted-outline style, so the reader can see
+at a glance which of the several 41条の制限 this panel is checking, without
+omitting the other items. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第9問 ア〜オ
+作図ガイド(合筆の登記の制限と記載事項)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+名義人が同じでも持分一致まで確認
+Diagram: Two isometric land plots side by side, each topped with a donut-
+chart overlay using the SAME two colors on both plots(blue = A, orange =
+B). Left plot labeled「甲土地」: donut chart with a larger blue segment
+labeled「A:5分の3」and a smaller orange segment labeled「B:5分の2」。Right
+plot labeled「乙土地」: donut chart with the SAME two colors but the areas
+flipped — a smaller blue segment labeled「A:5分の2」and a larger orange
+segment labeled「B:5分の3」。An arrow leads from the two plots to a
+diamond-shaped branch node labeled「名義人(A・Bの組合せ)は同一か」。Its
+"Yes" arrow leads to a second diamond-shaped branch node labeled「各土地
+の持分割合まで一致しているか」。Its "No" arrow(this case) leads to a
+highlighted conclusion node reading「合筆できない」。A small shared
+checklist box beside the diagram, labeled「法41条の合筆の制限」, lists
+three items:「地目・地番区域の一致」「持分割合の一致」「所有権登記の有無の
+一致」。The「持分割合の一致」item is drawn with a thick highlighted border
+and full color; the other two items are drawn faded and greyed-out.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず甲土地と乙土地の所有権の登記名義人(A・B)が同一かを確認し、次に各土地
+での持分割合まで一致しているかを確認します。持分が逆転していれば、合筆
+の登記を申請することはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+比率も一致が必須
+
+--- PANEL 2(肢イ) ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+登記記録の地目でなく現況地目で判断
+Diagram: Two adjacent isometric land plots, each with a registry tag
+reading「地目:畑」。An arrow leads to a diamond-shaped branch node labeled
+「登記記録上の地目は同一か」。Its "Yes" arrow leads to a second diamond-
+shaped branch node labeled「現況の地目も同一か」。Overlaid real-world
+icons show the actual use differs: the left plot has an isometric
+crop-field icon(現況も畑), the right plot has an isometric small house
+icon on land labeled「宅地」。The "No" arrow(this case) from the second
+diamond leads to a highlighted conclusion node reading「合筆できない」;
+the faded "Yes" arrow leads to a faded conclusion node reading「合筆でき
+る」。A small shared checklist box beside the diagram, labeled「法41条の
+合筆の制限」, lists the same three items as Panel 1, with「地目・地番区域
+の一致」drawn with a thick highlighted border and full color, and the
+other two items faded and greyed-out.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず登記記録上の地目が同一かを確認し、それだけで満足せず、次に現況の地目
+も同一かを確認します。登記記録の地目が同じでも、現況の地目が異なれば合
+筆の登記を申請することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+現況地目で判断
+
+--- PANEL 3(肢ウ) ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+地方公共団体の嘱託に識別情報は不要
+Diagram: An isometric government-building icon labeled「地方公共団体」
+connects via an arrow to a stamped document icon labeled「嘱託書(合筆の
+登記)」, which connects to a document icon labeled「登記識別情報」with a
+large red ✕ mark over it, showing it is not required for this
+government-office-initiated 嘱託.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず登記を申請するのが地方公共団体による嘱託かを確認します。嘱託による
+ものであれば、登記識別情報の提供は不要です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+登記識別情報不要
+
+--- PANEL 4(肢エ) ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+所有権登記の有無が食い違えば合筆不可
+Diagram: Left isometric land plot labeled「甲土地」with a torn-paper label
+reading「表題部所有者 A・B(所有権登記なし)」。Right isometric land plot
+labeled「乙土地」with a stamped document icon reading「所有権登記名義人
+A・B」。An arrow leads to a diamond-shaped branch node labeled「両土地の
+所有権登記の有無は一致しているか」。The "No"(this case) arrow leads to a
+highlighted conclusion node reading「合筆できない」。A small shared
+checklist box beside the diagram, labeled「法41条の合筆の制限」, lists the
+same three items as Panels 1 and 2, with「所有権登記の有無の一致」drawn
+with a thick highlighted border and full color, and the other two items
+faded and greyed-out.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず甲土地に所有権の登記があるかを確認し、次に乙土地にも所有権の登記が
+あるかを確認します。一方だけが表題部所有者にとどまる場合、合筆の登記を
+申請することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記状態は要一致
+
+--- PANEL 5(肢オ) ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+地役権設定の範囲を申請情報に記載
+Diagram: Left isometric land plot labeled「甲土地(承役地)」with a ribbon
+icon reading「地役権あり」。Right isometric land plot labeled「乙土地」
+with no ribbon icon(地役権なし)。An arrow merges the two plots into one
+combined plot, with a document icon pinned to it reading「申請情報:地役
+権設定の範囲」and a small ○ mark confirming this item must be written in.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず合筆しようとする土地の一方に地役権の登記があるかを確認し、次に合筆
+後の土地のどの範囲に地役権が及ぶのかを申請情報に記載する必要があるかを
+確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+設定範囲を記載
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠:不動産登記法41条2号・4号・5号/不動産登記令別表9の項申請情報欄ロ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・地・目・登・記・所・有・権・持・分・筆・嘱・託・識・別・情・
+報・役. If any character renders as a Simplified Chinese variant, redraw
+that character in the correct Japanese form. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 is drawn as an actual flowchart with branch nodes
+(not a bare illustration with no visible decision structure), that no 肢
+with a genuinely hidden second condition has been flattened into a single
+check, that each 着眼点 callout states a checking order rather than only
+a conclusion and keeps every required element from the source article
+distinct (no merged or dropped requirements), that Panels 1, 2 and 4
+clearly distinguish their own highlighted checklist item from the other,
+faded items, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

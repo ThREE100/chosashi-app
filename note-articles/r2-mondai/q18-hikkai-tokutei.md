@@ -210,3 +210,202 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+「意見・資料を提出できるのは誰か」（イ・ウ）は、対象土地に利害関係を持つ者が筆界特定制度上の「関係人」に該当するかという同じ判定基準を共有しているため、2パネルで同じ決定木の形を使い回し、自分の肢に関係する枝だけを強調する。ア・エ・オはそれぞれ独立した単一チェック型の図解とする。②の色分け（意見・資料の提出者＝緑、手続の進め方・制度の性質＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（筆界
+特定は境界を「明らかにする」ものなんです）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots with dotted boundary
+lines, a 筆界特定登記官 figure, speech-bubble icons, document icons, and
+a registry desk — adapt icon set to the topic of clarifying who may
+submit opinions on a land boundary and what the boundary-specification
+procedure itself does. Where a 肢 requires checking multiple conditions
+in sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the
+condition written on them, Yes/No（はい／いいえ）branch arrows, and a
+final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panels 2 and 3（肢イ・肢ウ）share the same decision-tree shape, because
+both ask whether the person in question is a「関係人」（対象土地に類型的
+に大きな利害関係を有する者）: draw both panels with the same diamond node
+labeled「意見・資料を提出しようとする者は、類型的に大きな利害関係を有す
+る関係人（所有権の登記名義人等）にあたるか」, but highlight（太い縁取
+り・フルカラーで強調）the branch and entity relevant to that panel's 肢
+and render the other panel's branch and entity in a faded, greyed-out, or
+dotted-outline style rather than omitting it. Because both the「はい」
+side and the「いいえ」side of this diamond are real, meaningful outcomes
+that the reader must know (some visitors to the 筆界特定 procedure may
+submit opinions, others may not), give both branches their own clearly
+labeled conclusion node and do not draw any arrow that loops back to an
+earlier node. Unlike a glanceable summary poster, each panel MAY include
+a short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第18問 ア〜オ
+作図ガイド（筆界特定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+意見・資料の提出に書面は不要
+Diagram: A single illustrative scene, numbered in two steps. Step
+1（丸数字１）: a 申請人 figure standing before 筆界特定登記官 with a
+speech-bubble icon (口頭で意見を述べる場面). Step 2（丸数字２）: beside
+them, a blank paper icon stamped「必須」is crossed out with a red「×」,
+showing that a written document is not a required format.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、意見や資料をどのような形で提出すべきかを確認します。書面によら
+なければならないという決まりはなく、口頭で意見を述べることも認められ
+ています。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+口頭でも可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+非申請人の共有者は関係人として提出可
+Diagram: The shared decision-tree frame described above. Top node: 対象
+土地の共有者の一人Ａが申請人、もう一人のＢは非申請人。Diamond node
+（highlighted with a thick colored border, full color, since this panel
+is about this branch）labeled「Ｂは、類型的に大きな利害関係を有する関係
+人（所有権の登記名義人等）にあたるか」with a はい branch leading to a
+conclusion node reading「Ｂは関係人として意見・資料を提出できる」. The
+いいえ branch and its conclusion node「関係人にあたらず提出できない」are
+rendered in a faded, greyed-out, dotted-outline style, since this panel
+is about the はい side.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、意見・資料を提出しようとしているのが申請人本人か、それとも他の
+共有者かを確認します。次に、その共有者が対象土地について類型的に大き
+な利害関係を有する関係人にあたるかを確認すると、非申請人の共有者も関
+係人として意見・資料を提出することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+関係人として提出可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+抵当権者は関係人にあたらず提出不可
+Diagram: The same decision-tree frame as Panel 2. Top node: 対象土地に抵
+当権の登記名義人（担保権者）が存在する。Diamond node（highlighted with a
+thick colored border, full color, since this panel is about this
+branch）labeled「抵当権者は、類型的に大きな利害関係を有する関係人（所有
+権の登記名義人等）にあたるか」with a いいえ branch leading to a
+conclusion node reading「抵当権者は関係人にあたらず、意見・資料を提出で
+きない」. The はい branch and its conclusion node「関係人として提出でき
+る」are rendered in a faded, greyed-out, dotted-outline style, since this
+panel is about the いいえ side.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、意見・資料を提出しようとしているのが対象土地にどのような権利を
+持つ者かを確認します。次に、その者が類型的に大きな利害関係を有する関
+係人（所有権の登記名義人等）にあたるかを確認すると、抵当権の登記名義
+人（担保権者）は関係人に含まれないため、意見・資料を提出することはで
+きません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+関係人にあたらない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+申請人が不提出でも筆界特定は実施可
+Diagram: A single illustrative scene. Step 1（丸数字１）: a 申請人 figure
+standing with empty hands (no document icon), showing 意見・資料の不提出.
+Step 2（丸数字２）: beside them, 筆界特定登記官 independently produces a
+completed 筆界特定 result document with a green checkmark, surrounded by
+survey icons（測量機器・巻尺）used on their own.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、意見・資料の提出が申請人の義務ではなく権利であることを確認しま
+す。申請人が意見や資料を提出しなくても、筆界特定登記官は現地調査や測
+量などの結果に基づいて筆界特定をすることができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+不提出でも実施可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+筆界特定は新たな筆界を形成しない
+Diagram: A single illustrative scene. Step 1（丸数字１）: a land plot with
+a faint pre-existing dotted boundary line, being traced and highlighted
+by a spotlight from 筆界特定登記官, turning solid (既存の筆界を明らかに
+する場面). Step 2（丸数字２）: beside it, a separate crossed-out icon
+shows a brand-new line being drawn from scratch on blank ground, labeled
+「新たな筆界の形成」with a red「×」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界特定が「既にある筆界を明らかにする」手続なのか、それとも
+「新しい筆界を作り出す」手続なのかを確認します。筆界特定はあくまで既
+存の筆界の位置を明らかにするものであり、新たな筆界を形成する作用は持
+ちません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+明らかにするだけ
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法131条以下（筆界特定制度）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 筆, 界, 提, 書, 関, 係, 権, 登, 記, 続, 測, 現
+and any character that has a visually similar Simplified Chinese variant.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+Panels 2 and 3 visibly share the same decision-tree layout with only the
+highlighted branch and entity differing, that both branches of that
+shared diamond node carry their own labeled conclusion node with no loop
+back to an earlier node, that each 着眼点 callout states a checking order
+rather than only a conclusion, confirm nothing is rendered below the
+last panel's footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

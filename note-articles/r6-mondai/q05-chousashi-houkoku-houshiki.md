@@ -186,3 +186,210 @@ block between the header and the cards, and confirm that no card contains
 a full sentence of explanatory prose — every card's takeaway must read
 as a short heading + a short conclusion tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文（ア〜オ5肢）を読んだ瞬間に、どんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。5肢はいずれも「作成者は誰か」「第三者の意思確認を担保すべき書面か」という同じ決定木で仕分けられるため、5枚のパネルで1つの共有フローチャートを使い回し、各パネルは自分の肢に関係する分岐だけを強調する構成にする。`infographic-prompt-template.md`の「⑤ 作図ガイド型」に基づく。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric documents such as a 委任状, a 工事完
+了引渡証明書, a 地役権設定の範囲を証する書面, a 表題部所有者の承諾書, and
+an 抵当権者作成の承諾書, each accompanied by a small figure representing
+who created it (申請人, 工事施工会社, 地役権者, 表題部所有者, 抵当権登記
+名義人). All 5 panels share the SAME three-question decision tree
+(who created the document, then whether it is a routinely-verifiable
+document like a completion certificate, then whether it certifies a third
+party's own act of intent or consent); render this same tree in every
+panel, but in each panel render ONLY the branch that panel's 肢 actually
+follows with a thick highlighted border and full color, and render the
+other, unrelated branches in a faded, greyed-out, or dotted-outline style
+rather than omitting them - the reader should be able to see at a glance
+which part of the shared tree this panel is about. Where a panel is
+resolved by reaching a leaf of this shared tree, the final leaf node is
+the panel's conclusion node. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認しま
+す"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text - do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第5問 ア〜オ
+作図ガイド(調査士報告方式の対象書面)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled circle in blue containing the number 1(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+地役権設定範囲の証明書は地役権者作成
+Diagram: 縦方向の共有決定木を描く。ひし形ノード1「申請人自身が作成した
+書類か」、そこからNo(グレー・細い矢印)でひし形ノード2「工事完了引渡証
+明書のように、調査士が現地確認できる定型書類か」、そこからNo(この肢で
+は太い強調の矢印)でひし形ノード3「第三者本人の意思確認を担保すべき書
+類か」、そこからYes(太い強調の矢印)で結論ノード(青)「調査士報告方式の
+対象外(原本提示が必要)」に至る。この肢に関係する経路(ノード1のNo→ノー
+ド2のNo→ノード3のYes)だけを太い縁取り・色付きで強調し、ノード1の
+Yes側の枝はグレーの点線で縮小表示する。ノード3の脇に、地役権者が「地
+役権設定の範囲を証する書面」にサインしている小さなイラストを添える。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、この書面を申請人自身が作成したものかを確認します。申請人以外が
+作成した書面であれば、次に、地役権者本人の意思確認を担保する書面かど
+うかを確認し、該当する場合は原本の提示が必要と判断します。
+Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
+characters):
+原本提示が必要
+
+--- PANEL 2(肢イ) ---
+Badge: a filled circle in green containing the number 2(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+委任状の作成者は申請人自身
+Diagram: パネル1と同じ共有決定木を描く。ひし形ノード1「申請人自身が作
+成した書類か」からYes(この肢では太い強調の矢印)で結論ノード(緑)「調査
+士報告方式の対象(原本提示は不要)」に至る経路だけを太い縁取り・色付きで
+強調し、ノード1のNo以降(ノード2・ノード3とその先)はグレーの点線で縮
+小表示する。ノード1の脇に、依頼者(申請人)が「委任状」と書かれた書類に
+サインし、土地家屋調査士に手渡している小さなイラストを添える。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、この書面を誰が作成したかを確認します。委任状は委任者である申請
+人自身が作成した書面なので、それだけで調査士報告方式の対象になると判
+断できます。
+Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
+characters):
+原本提示は不要
+
+--- PANEL 3(肢ウ) ---
+Badge: a filled circle in green containing the number 3(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+工事完了引渡証明書は定型書類に該当
+Diagram: パネル1と同じ共有決定木を描く。ひし形ノード1「申請人自身が作
+成した書類か」からNo(グレー・細い矢印)でひし形ノード2「工事完了引渡証
+明書のように、調査士が現地確認できる定型書類か」、そこからYes(この肢
+では太い強調の矢印)で結論ノード(緑)「調査士報告方式の対象(原本提示は
+不要)」に至る経路だけを太い縁取り・色付きで強調し、ノード1のYes側の枝
+とノード2のNo以降(ノード3とその先)はグレーの点線で縮小表示する。ノー
+ド2の脇に、工務店の作業員が「工事完了引渡証明書」と書かれた書類を新築
+の建物の前で施主に手渡している小さなイラストを添える。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、この書面を申請人自身が作成したものかを確認します。工事施工会社
+が作成した書面ですが、次に、調査士が現地調査で内容を確認できる定型書
+類かどうかを確認し、該当するため調査士報告方式の対象になると判断しま
+す。
+Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
+characters):
+原本提示は不要
+
+--- PANEL 4(肢エ) ---
+Badge: a filled circle in blue containing the number 4(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+承諾書の作成者は表題部所有者本人
+Diagram: パネル1と同じ共有決定木を描く。ひし形ノード1「申請人自身が作
+成した書類か」からNo(グレー・細い矢印)でひし形ノード2「工事完了引渡証
+明書のように、調査士が現地確認できる定型書類か」、そこからNo(この肢で
+は太い強調の矢印)でひし形ノード3「第三者本人の意思確認を担保すべき書
+類か」、そこからYes(太い強調の矢印)で結論ノード(青)「調査士報告方式の
+対象外(原本提示が必要)」に至る経路だけを太い縁取り・色付きで強調し、
+ノード1のYes側の枝はグレーの点線で縮小表示する。ノード3の脇に、表題部
+所有者本人が「承諾書」と書かれた書類にサインしている小さなイラストを
+添える。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、この承諾書を申請人自身が作成したものかを確認します。表題部所有
+者本人が作成した書面であれば、次に、本人の意思確認を担保する書面かど
+うかを確認し、該当する場合は原本の提示が必要と判断します。
+Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
+characters):
+原本提示が必要
+
+--- PANEL 5(肢オ) ---
+Badge: a filled circle in blue containing the number 5(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+承諾書の作成者は抵当権登記名義人
+Diagram: パネル1と同じ共有決定木を描く。ひし形ノード1「申請人自身が作
+成した書類か」からNo(グレー・細い矢印)でひし形ノード2「工事完了引渡証
+明書のように、調査士が現地確認できる定型書類か」、そこからNo(この肢で
+は太い強調の矢印)でひし形ノード3「第三者本人の意思確認を担保すべき書
+類か」、そこからYes(太い強調の矢印)で結論ノード(青)「調査士報告方式の
+対象外(原本提示が必要)」に至る経路だけを太い縁取り・色付きで強調し、
+ノード1のYes側の枝はグレーの点線で縮小表示する。ノード3の脇に、抵当権
+の登記名義人が「承諾書」と書かれた書類にサインしている前で、抵当権付
+きの甲建物と抵当権のない乙建物が矢印で合体する様子を示す小さなイラス
+トを添える。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、この承諾書を申請人自身が作成したものかを確認します。抵当権の登
+記名義人本人が作成した書面であれば、次に、本人の権利処分についての意
+思確認を担保する書面かどうかを確認し、該当する場合は原本の提示が必要
+と判断します。
+Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
+characters):
+原本提示が必要
+
+(…肢の数だけ繰り返し。バッジ番号は1から通しで振る。)
+
+--- FOOTER ---
+Small footnote text(bottom of panel, small font, verbatim):
+根拠：不動産登記令13条1項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese(Jōyō) form, not Simplified Chinese, paying special
+attention to 委・任・状・地・役・権・証・明・提・示・略・諾. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢 is drawn as an actual flowchart with branch nodes(not
+a bare illustration with no visible decision structure), that no 肢 with
+a genuinely hidden second condition has been flattened into a single
+check, that each 着眼点 callout states a checking order rather than only
+a conclusion and keeps every required element from the source article
+distinct(no merged or dropped requirements), that every panel renders the
+SAME shared three-question decision tree and clearly distinguishes its
+own highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text(no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

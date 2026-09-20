@@ -201,3 +201,226 @@ read as a short heading + a short conclusion tag, at a glance.
 - 補助者の届出、法務局には出さなくていいんです
 - 依頼を断るなら、速やかにひと言伝えるのがルール
 - 「正当な事由」がなきゃ、法人でも依頼は断れない
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文（ア〜オ5肢）を読んだときに、実際に手を動かして描くべき図と、その図にたどり着くまでにどの順番で何を確認すればよいかを、肢ごとに示す解き方ガイド。アは「監督機関は法務局か裁判所か」という思い込みを正誤対比で示す正誤対比型、イは登録申請書の経由先を左から右へ追う系統図型、ウは「調査士本人の届出先」と「調査士会から法務局への通知」という隠れた2段階を示す系統図型として構成した。エ・オは「依頼された業務が筆界特定の手続についての代理・相談に関する業務か」という共通の分岐点を持つため1つの決定木を共有し、エは「はい」側（応諾義務なし・断るなら速やかに通知）を、オは「いいえ」側（正当事由なければ拒めない・調査士法人にも準用）をそれぞれ強調表示する決定木型として構成した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric building icons for 法務局又は地方
+法務局、土地家屋調査士会、日本土地家屋調査士会連合会、裁判所, numbered
+flow arrows with small order badges, a diamond-shaped decision node
+shared across two panels, a clock icon for 速やか、a speech bubble for
+通知, and red ✕ marks with strike-through overlays on incorrect
+destinations. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node for EACH branch — every diamond node must send both its Yes branch
+and its No branch to its own distinct, clearly labeled conclusion node;
+never route a branch arrow back to an earlier node in the diagram (no
+looping arrows). Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Where a
+panel reuses a decision tree shared with other panels in this set, render
+the branch relevant to THIS panel with a thick highlighted border and
+full color, and render the other, unrelated branch in a faded,
+greyed-out, dotted-outline style rather than omitting it — the reader
+should be able to see at a glance which part of the shared tree this
+panel is about. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required
+element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後 第20問 ア〜オ
+作図ガイド（土地家屋調査士法の届出・監督・依頼）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+法人の解散・清算を監督するのは裁判所
+Diagram: A contrast-frame layout. A shared question label at the top
+reads「解散・清算を監督するのは？」. Left frame, labeled「誤りやすい
+思い込み」: an isometric 法務局又は地方法務局 building icon with a small
+scale (天秤) icon mistakenly overlaid on its roof and a「監督」signboard
+in front, with a confused 土地家屋調査士 character pointing at it; a red
+✕ mark and a strike-through line are drawn over this whole frame. Right
+frame, labeled「正しいルール」: an isometric 裁判所 building icon (with a
+scale/天秤 icon on its roof) facing a「土地家屋調査士法人」signboard and
+a bundle of documents being tied closed (representing 清算手続); an
+arrow from the courthouse to the signboard carries a ○ checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず「解散・清算を監督する機関はどこか」を問い、法務局又は地方法務局の
+長ではなく裁判所であることを確認します。会社の清算と同じく、裁判所が
+公正な手続を見張る仕組みだと押さえます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+監督は裁判所
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+登録申請書の経由先は法務局でなく調査士会
+Diagram: A left-to-right flow diagram with numbered order badges. Step
+①（leftmost）: a character holding a 合格証書, labeled「資格を有する
+者」. A solid arrow with a small「①経由」badge leads right to Step②: an
+isometric 土地家屋調査士会 building icon. A further solid arrow with a
+small「②提出」badge leads right to Step③: an isometric 日本土地家屋
+調査士会連合会 building icon (登録される調査士名簿を掲げている).
+Separately, below this main flow, draw a dotted arrow from the Step①
+character directly to a 法務局又は地方法務局 building icon, with a large
+red ✕ mark and the small note「経由先ではない」next to it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず「登録申請書はどこを経由して連合会に提出するか」を問い、事務所を
+設けようとする地を管轄する土地家屋調査士会を経由することを確認します。
+次に、法務局又は地方法務局はこの経由先ではないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+経由は調査士会
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+補助者の届出は調査士会のみで足りる
+Diagram: A two-step flow diagram stacked top to bottom, each step with a
+small order badge. Step①（上段）: an isometric 調査士事務所 icon (a new
+補助者 character joining) connects via a solid arrow labeled「届出」to a
+土地家屋調査士会 building icon. Step②（下段、Step①の続き）: from the
+same 土地家屋調査士会 building icon, a dotted arrow labeled「調査士会
+からの通知」leads to a 法務局又は地方法務局 building icon. Separately,
+draw a faint direct arrow from the 調査士事務所 icon straight to the
+法務局又は地方法務局 building icon, with a large red ✕ mark and the
+small note「調査士本人はここへは届け出ない」overlaid on it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず「調査士本人が直接届け出る先はどこか」を問うと所属の調査士会だけで
+足りることを確認し、次に「なぜ法務局又は地方法務局への届出が不要なの
+か」を確認すると、届出を受けた調査士会が管轄の法務局又は地方法務局の
+長へ通知する仕組みがあるためだとわかります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+法務局届出は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+筆界特定関係業務は断るなら速やかに通知
+Diagram: A decision flowchart shared with Panel 5（肢オ）in this set. A
+single diamond-shaped branch node reads「依頼された業務は、筆界特定の
+手続についての代理・相談に関する業務か？」. In THIS panel, render the
+Yes branch（labeled ○／はい）with a thick highlighted border and full
+color: it leads to a distinct conclusion node labeled「応諾義務はない」,
+and a further arrow leads to a second distinct conclusion node showing a
+土地家屋調査士 character speaking into a speech bubble「お断りします」
+next to a fast-ticking clock icon, labeled「承諾しないなら速やかに
+依頼者へ通知」. Render the No branch（labeled ✕／いいえ）in a faded,
+greyed-out, dotted-outline style leading to its own distinct conclusion
+node labeled「正当事由なければ拒めない（オ肢を参照）」— do not omit this
+node, but keep it visually de-emphasized. Do not route any arrow back to
+an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず「依頼された業務が筆界特定の手続についての代理・相談に関する業務か
+どうか」を確認し、該当する場合は応諾義務がないことを確認します。次に、
+それでも承諾しないと決めたときは、速やかにその旨を依頼者へ通知しなけ
+ればならないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+断るなら速やかに通知
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+登記代理業務は正当事由なしに拒めない
+Diagram: The same decision flowchart shared with Panel 4（肢エ）, with
+the same diamond-shaped branch node reading「依頼された業務は、筆界特定
+の手続についての代理・相談に関する業務か？」. In THIS panel, render the
+No branch（labeled ✕／いいえ）with a thick highlighted border and full
+color: it leads to a distinct conclusion node labeled「正当な事由が
+なければ依頼を拒めない（法22条）」, and a further arrow leads to a
+second distinct conclusion node showing an isometric「土地家屋調査士
+法人」building icon receiving a 登記申請 document from a client without
+refusing it, labeled「土地家屋調査士法人にも準用される（法41条1項）」.
+Render the Yes branch（labeled ○／はい）in a faded, greyed-out,
+dotted-outline style leading to its own distinct conclusion node labeled
+「応諾義務はない（エ肢を参照）」— do not omit this node, but keep it
+visually de-emphasized. Do not route any arrow back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず「依頼された業務が筆界特定の手続についての代理・相談に関する業務か
+どうか」を確認し、該当しない通常の登記代理業務等の場合は、正当な事由が
+なければ依頼を拒めないことを確認します。次に、この応諾義務の規定が
+土地家屋調査士法人にも準用されることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+正当事由なければ拒否不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：土地家屋調査士法39条の3第1項・9条・22条・41条1項、同法施行規則
+23条2項・3項・25条2項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 監・督・裁・判・所・録・調・査・届・筆・界・拒・準・経・由.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+Panels 4 and 5 clearly share one decision tree whose diamond node text is
+identical in both panels, with each panel's own branch rendered in full
+color with a thick border and the other panel's branch rendered faded and
+grayed out (never omitted), that every diamond node in Panels 4 and 5
+sends both its Yes branch and its No branch to its own distinct labeled
+conclusion node with no arrow looping back to an earlier node, that each
+着眼点 callout states a checking order rather than only a conclusion and
+keeps every required element from the source article distinct, that Panel
+1's contrast frames clearly separate「誤りやすい思い込み」from「正しい
+ルール」with the incorrect frame struck through, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

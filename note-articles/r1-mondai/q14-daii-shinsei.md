@@ -208,3 +208,218 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+アは代位の一般原則（保全の必要性）と区画整理事業の特則を左右に対比させる対比枠型にした
+（紫）。イ・ウ・エ・オの4肢は「自分ひとりで登記を申請できるか」→「その登記をしないと
+自分の権利を実現できないか（保全の必要性）」という共通の決定木を共有し、それぞれ自分の
+枝だけを強調・他の枝を淡色表示する構成にした（イ＝緑、ウ・エ＝青、オ＝橙）。一見「保全の
+必要性の有無」だけで完結しそうなイ・ウ・エも、実は「そもそも単独で申請できないか」という
+先行チェックが隠れていることを、共有する決定木の形で可視化した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots, character figures
+representing 施行者・債権者・相続人・共有者, application document
+folders, a small court/mediation document icon for 調停調書, a road/path
+icon for 地役権, diamond-shaped decision nodes, checkmarks and cross
+marks. Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Panels
+2, 3, 4 and 5 (肢イ・ウ・エ・オ) share one decision tree asking first
+"自分ひとりで(単独で)登記を申請できるか" and then, on the "できない"
+branch, "その登記をしないと自分の権利を実現できないか(保全の必要性が
+あるか)": render the branch and leaf relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated
+branches and leaves in a faded, greyed-out, or dotted-outline style
+rather than omitting them — the reader should be able to see at a glance
+which part of the shared tree this panel is about. Panel 1 (肢ア) instead
+uses a side-by-side comparison frame contrasting the general rule with a
+special-law exception; do not force it into the shared tree of the other
+four panels. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度　午後の部　第14問　ア〜オ
+作図ガイド（登記の代位申請）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in purple containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+区画整理事業の施行者は特則で代位できる
+Diagram: 対比枠型。左枠に「代位の一般原則（民法423条）」の見出しと、
+要件「自己の権利を保全するためどうしても必要か（保全の必要性）」を書いた
+カードを描く。右枠を太い縁取り・フルカラーで強調し、「区画整理事業の
+特則（土地区画整理法82条1項）」の見出しと、要件「土地区画整理事業の
+施行のために必要があるとき」を書いたカードを描く。右枠の下に、施行者の
+キャラクターが地権者に代わって「分筆」「合筆」の申請書フォルダを差し出し、
+緑の✓マークが付く図を配置する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代位の一般原則は「自己の権利を保全するためにどうしても必要か」と
+いう保全の必要性で判断することを確認します。次に、区画整理事業の施行者
+は一般原則ではなく、事業の施行のために必要があるという特則の要件で
+判断される点を確認すると、所有権の登記名義人に代位して分筆又は合筆の
+登記を申請できるとわかります。
+Conclusion tag (a short colored banner/pill, purple, 5-15 Japanese
+characters):
+事業の特則で代位可能
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+地役権は分筆なしで設定でき代位できない
+Diagram: 決定木。上部にひし形の分岐ノード「自分ひとりで(単独で)登記を
+申請できるか」を描く。地役権者は土地の所有者ではないため「できない」側
+の枝を太い縁取り・フルカラーで強調し、その先に2つ目のひし形の分岐ノード
+「その登記をしないと自分の権利を実現できないか(保全の必要性があるか)」を
+描く。地役権は土地の一部にも設定できるため「ない」側の枝を太い縁取りで
+強調し、結論ノード「代位により分筆の登記を申請できない」を強調表示する。
+「できる」側の枝(オにつながる「代位不要」の結論ノード)と、「ある」側の
+枝(ウ・エにつながる「代位できる」の結論ノード)は、いずれも薄いグレー・
+破線の縁取りで淡色表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地役権者が自分ひとりで分筆の登記を申請できるかを確認すると、
+地役権者は土地の所有者ではないため単独ではできません。次に、分筆を
+しないと自分の権利を実現できないかという保全の必要性を確認すると、
+地役権は土地の一部にも設定できるため分筆を経なくても地役権設定登記
+請求権を保全でき、保全の必要性がないとわかります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保全の必要性がなく不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+仮処分の実現に分筆が要れば代位できる
+Diagram: パネル2と同じ決定木を再掲する。1つ目のひし形「自分ひとりで
+(単独で)登記を申請できるか」は、仮処分の債権者が土地の所有者ではない
+ため「できない」側の枝を太い縁取りで強調する。2つ目のひし形「保全の
+必要性があるか」は、土地の一部について処分禁止の仮処分の登記をする
+前提として分筆が不可欠であるため「ある」側の枝を太い縁取り・フルカラー
+で強調し、結論ノード「代位により分筆の登記を申請できる」を強調表示する。
+強調したノードのそばに小さな注記「本肢：仮処分命令正本を代位原因を証する
+情報として提供」を添える。「できる」側の枝(オ)と「ない」側の枝(イ)は
+薄いグレー・破線で淡色表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、仮処分命令を得た債権者が自分ひとりで分筆の登記を申請できるかを
+確認すると、債権者は土地の所有者ではないため単独ではできません。次に、
+分筆をしないと自分の権利を実現できないかを確認すると、土地の一部に
+ついて処分禁止の仮処分の登記をするには、その前提として分筆が不可欠で
+あるため保全の必要性が認められ、仮処分命令の正本を代位原因を証する
+情報として代位による分筆の登記を申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+仮処分命令正本で代位可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+調停調書があれば単独で代位し分筆できる
+Diagram: パネル2・3と同じ決定木を再掲する。1つ目のひし形「自分ひとりで
+(単独で)登記を申請できるか」は、Aが単独ではBの持分にも及ぶ分筆を進め
+られないため「できない」側の枝を太い縁取りで強調する。2つ目のひし形
+「保全の必要性があるか」は、遺産分割調停で定めた単有部分を取得するには
+分筆登記が必要であるため「ある」側の枝を太い縁取り・フルカラーで強調し、
+結論ノード「代位により分筆の登記を申請できる」を強調表示する。強調した
+ノードのそばに小さな注記「本肢：遺産分割調停の調停調書正本を代位原因を
+証する情報として提供」を添える。「できる」側の枝(オ)と「ない」側の枝
+(イ)は薄いグレー・破線で淡色表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相続人Aが単独で分筆の登記を申請できるかを確認すると、Bの持分にも
+及ぶ分筆であるため単独ではできません。次に、分筆をしないと自分の権利を
+実現できないかを確認すると、遺産分割調停で定めた単有部分を取得するには
+分筆登記が必要であるため保全の必要性が認められ、調停調書の正本を代位
+原因を証する情報としてAは単独でBに代位して分筆の登記を申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+調停調書正本で単独代位
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in orange containing the number 5.
+Heading (bold, ONE line):
+共有地の地目変更は単独ででき代位不要
+Diagram: パネル2〜4と同じ決定木を再掲する。1つ目のひし形「自分ひとりで
+(単独で)登記を申請できるか」は、地目の変更の登記が保存行為として共有者
+の一人から申請できるため「できる」側の枝を太い縁取り・フルカラーで
+強調し、結論ノード「代位という構成をとる必要はない」を強調表示する。
+2つ目のひし形「保全の必要性があるか」につながる枝(イ・ウ・エ)はすべて
+薄いグレー・破線で淡色表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、共有地の地目の変更の登記をAが単独で申請できるかを確認すると、
+地目の変更の登記は保存行為として共有者の一人から申請できるため、単独
+ででき、Bの代位に踏み込む必要はありません。したがって保全の必要性を
+確認するまでもなく、代位という構成をとらずに済みます。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+保存行為だから代位不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：民法423条(代位の一般原則)、民法252条5項(共有物の保存行為)、
+土地区画整理法82条1項(区画整理事業の施行者による代位の特則)。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 区・画・整・理・施・行・者・分・筆・合・権・処・仮・調・停・
+産・単・独・代・位・相・続・全・原・因・持・確・認・実・業・現. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that panels 2, 3, 4 and 5 sharing the same decision tree
+clearly distinguish their own highlighted branch and leaf from the other,
+faded branches and leaves, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

@@ -214,3 +214,212 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの確認順序を肢ごとに示す作図ガイド。ア・ウ・エは「合体前の建物にどの権利が登記されていたか」という同じ決定木を共有し（抵当権＝ア、所有権＝ウ、賃借権＝エ）、各パネルは自分の肢に関係する枝だけを強調する。イは持分割合の定め・書面申請・印鑑証明書の提供という3条件を順に確認する決定木、オは登記名義人の同一性を確認する単一チェックとして描く。②の色分け（添付情報として何が必要か＝緑、合体でどう登記されるか＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — two isometric buildings merging into one, a
+mortgage tag icon, hanko seal icons on a shared application document, a
+registration-identifier token, and a gear/stamp icon for 職権 — adapt
+icon set to the topic of 合体による登記等. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Panels 1, 3, and 4（肢ア・ウ・エ）share the same three-way
+decision tree rooted at a diamond node asking what right was registered
+on the pre-merger buildings（抵当権／所有権／賃借権）; each panel
+highlights（太い縁取り・フルカラー）only the branch relevant to its own
+肢 and renders the other two branches in a faded, greyed-out, dotted-
+outline style. Panel 2（肢イ）must be drawn as a three-step flowchart
+with three separate diamond nodes — 持分割合を定める必要があるか, 所有者
+全員が書面申請の方法により申請するか, and 申請情報とあわせて全員の印鑑
+に関する証明書を提供するか — because all three conditions must be
+satisfied together, and none may be compressed into a single check.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度 午後の部 第16問 ア〜オ
+作図ガイド（合体による登記等）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+存続する抵当権があるかを確認する
+Diagram: A decision flowchart shared with Panels 3 and 4 (a three-way
+tree branching by the type of right registered before the merger). 3
+方向に分岐する共有決定木の起点「合体前の建物に登記されていた権利は
+何か」を描く。抵当権への枝（highlighted, thick border, full color,
+since this panel is about this branch）を辿ると、次のひし形ノード
+「合体後の建物にその抵当権が存続することとなるものがあるか」があり、
+はい側（highlighted）は、抵当権者（人物アイコン）が「承諾したことを
+証する情報」または「対抗することができる裁判があったことを証する情報」
+の書類を差し出す結論ノードへつながる。所有権への枝と賃借権への枝は、
+他のパネル（3・4）で扱うため、薄いグレーの点線で縮小表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体前の一部の建物に抵当権の登記があり、それが合体後の建物にも
+存続することとなるものかどうかを確認します。存続する抵当権がある場合
+は、その抵当権者の承諾情報、または対抗することができる裁判があった
+ことを証する情報のいずれかを提供する必要があると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+承諾情報等が必要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+持分割合の定め・書面申請・印鑑証明を順に確認する
+Diagram: A three-step decision flowchart. 合体前の建物の所有者を複数人
+のアイソメトリック人物アイコンで描く。1つ目のひし形ノード「合体後の
+持分の割合を定める必要があるか」、はい側の矢印は2つ目のひし形ノードへ。
+2つ目のひし形ノード「所有者全員が書面申請の方法により申請するか」、
+はい側の矢印は3つ目のひし形ノードへ。3つ目のひし形ノード「申請情報と
+あわせて全員の印鑑に関する証明書を提供するか」、はい側の矢印は結論
+ノード「その申請情報が持分割合を証する情報を兼ねる」へ、緑のチェック
+マーク付きの書類アイコン（ハンコの押された申請情報と持分割合の証明が
+重なるイラスト）とともに描く。3つのいずれかのいいえ側は、いずれも
+薄いグレーの点線矢印で「この特則は使えない」という控えめな結論ノード
+へ分岐させる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体後の持分の割合を定める必要がある場面かを確認します。次に、
+所有者全員が書面申請の方法で申請しているかを確認し、最後に、申請情報
+とあわせて全員の印鑑に関する証明書を提供しているかを確認します。この
+3つをすべて満たせば、その申請情報が持分割合を証する情報を兼ねると
+判断します。
+Conclusion tag (green, 5-15 Japanese characters):
+印鑑証明で証明を兼ねる
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+所有権の登記は職権でされるかを確認する
+Diagram: The same three-way decision tree as Panel 1. 共有決定木の起点
+「合体前の建物に登記されていた権利は何か」を再掲し、所有権への枝
+（highlighted, thick border, full color, since this panel is about this
+branch）を辿ると、結論ノード「登記官が表題登記の際に職権で所有権の
+登記を記録する（甲区に記録）」につながる様子を、申請人が提出する書類
+（表題登記・表題部の登記の抹消）と、歯車・スタンプのアイコンが人の手を
+介さず所有権の登記を作り出す様子で描く。抵当権への枝と賃借権への枝は、
+他のパネル（1・4）で扱うため、薄いグレーの点線で縮小表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この肢がどの権利について尋ねているかを、共有の決定木の「所有権」
+の枝として確認します。次に、所有権の登記そのものは申請人が申請する
+ものではなく、登記官が表題登記をする際に職権で記録するものであること
+を確認します。
+Conclusion tag (blue, 5-15 Japanese characters):
+職権でされる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+賃借権が持分に登記できる権利かを確認する
+Diagram: The same three-way decision tree as Panels 1 and 3. 共有決定木
+の起点を再掲し、賃借権への枝（highlighted, thick border, full color,
+since this panel is about this branch）を辿ると、ひし形ノード「賃借権
+は建物の持分の上に登記できる権利か」があり、いいえ側（highlighted）は
+結論ノード「合体後の建物に存続させることはできない」につながる。比較
+のため、抵当権・所有権の枝には緑のチェックマークを付けて「持分の上に
+登記できる」ことを薄く示し、賃借権の枝にだけ赤い✕を重ねる。抵当権へ
+の枝と所有権への枝は、他のパネル（1・3）で扱うため、薄いグレーの点線
+で縮小表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この肢がどの権利について尋ねているかを、共有の決定木の「賃借権」
+の枝として確認します。次に、賃借権が建物の持分の上に登記できる権利
+かどうかを確認し、登記できない権利であるため、合体前の各建物に同一の
+賃借権があっても合体後の建物に存続させることはできないと判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+存続させられない
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+登記名義人が同一かをまず確認する
+Diagram: ひし形の分岐ノード「合体に係る建物の登記名義人は全て同一か」
+を描く。はい側（highlighted）は、同じ人物アイコンが2つの建物の前に
+立つ様子を描き、片方の建物の登記識別情報トークンだけを緑のチェック
+マーク付きで提供し、もう一方のトークンは不要として薄く消す結論ノード
+「いずれか1個の登記識別情報で足りる」につながる。いいえ側（faded）は、
+「この特則は使えない」という控えめな結論ノードを薄く示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体に係る建物の登記名義人が全て同一であるかを確認します。同一
+であることを確認できれば、そのうちいずれか1個の建物の登記識別情報を
+提供すれば足りると判断します。
+Conclusion tag (green, 5-15 Japanese characters):
+1個で足りる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：アは不動産登記令別表13項添付情報ト、オは不動産登記令8条2項
+2号、ウは不動産登記規則120条1項・2項（職権記録）及び不動産登記法49条
+1項（申請義務の範囲）。イ・エは先例による取扱いのため、個別の条文番号
+までは本記事では確定していません。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 登・記・権・建・物・職・抵・当・持・分・賃・借・識・別と
+any character that has a visually similar Simplified Chinese variant
+(権 must not become 权; 記 must not become 记). If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panels 1, 3, and 4 visibly share
+the same three-way decision tree with only the highlighted branch
+differing and the other two branches rendered faded rather than omitted,
+that Panel 2 is drawn as an actual three-step flowchart with all three
+diamond nodes distinct (no merged or dropped conditions), that each
+着眼点 callout states a checking order rather than only a conclusion,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

@@ -197,3 +197,213 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+登記の代位申請に関する5肢（ア〜オ）について、問題文を読んだ瞬間にどんな図を描き、どの順序で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。②の俯瞰カードポスターが5肢の結論を一覧化するのに対し、こちらは肢ごとの思考プロセスを可視化する。本問は「代位しなければ自分の権利（登記請求権）が保全されないか」という1本の判定軸で5肢すべてが貫かれているため、この1つの決定木を5パネル共通の雛形として使い回し、各パネルは自分の肢に当てはまる枝（はい側・いいえ側のどちらか）だけを強調表示し、もう一方の枝は薄いグレーで残す。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric building icons(a main building with
+a small attached 附属建物), land plot icons for 甲土地/乙土地, person
+figures for 買主/売主/転得者/地役権者/共有者, a purchase-contract document
+icon, a 分割登記 stamp icon, a dashed merge line for 合筆, a condominium
+building icon for 区分建物, a shaded strip across part of a land plot for
+地役権, an extension icon for 増築, and a 保存行為 stamp icon. ALL FIVE
+panels in this set share the SAME single decision-tree shape: one
+diamond-shaped branch node labeled「代位しなければ、自分の権利(登記請求
+権)は保全されないか」, with a "はい" branch leading to a conclusion node
+reading「代位による登記ができる」and a "いいえ" branch leading to a
+conclusion node reading「代位による登記はできない(又は不要)」— NEITHER
+branch's destination may be left blank, and no arrow may loop back to any
+earlier node. In each panel, render the ONE branch(and its conclusion
+node) that applies to THIS 肢 with a thick highlighted border and full
+color, and render the OTHER branch(and its conclusion node) in a faded,
+greyed-out, dotted-outline style, so the reader can see at a glance both
+what the shared decision axis is and which side this panel's 肢 falls on.
+Around the shared diamond, each panel additionally draws its own small
+isometric fact-pattern scene(the people, building, or land specific to
+that 肢) feeding into the diamond. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words(e.g. "まず〜を確認し、次に〜を確
+認します"), not just the conclusion. Do not include case or precedent
+numbers(article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text — do not drop or merge a
+required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第11問 ア〜オ
+作図ガイド(代位による登記の可否)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+附属建物のみの買主は代位で分割登記可
+Diagram: An isometric main building labeled「甲建物」with a small attached
+outbuilding(附属建物) drawn as a separate connected box. A buyer figure
+labeled「B」holds a purchase-contract document labeled「附属建物のみ売買」,
+while the seller figure labeled「A」stands with arms crossed, not
+cooperating with a「分割登記」stamp/document icon. This scene feeds into
+the shared diamond node labeled「代位しなければ、自分の権利(登記請求権)
+は保全されないか」。The"はい"branch(this case) is drawn with a thick
+highlighted border and full color, leading to the highlighted conclusion
+node「代位による登記ができる」。The"いいえ"branch is drawn faded and
+greyed-out, leading to the faded conclusion node「代位による登記はできな
+い(又は不要)」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず「代位しなければBの権利は保全されないか」を確認します。Aが分割登記
+をしない限りBは自分の所有権移転登記を実現できないため、Bは代位により分
+割登記を申請することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代位で分割登記OK
+
+--- PANEL 2(肢イ) ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+合筆しなくても移転登記請求権は保全済み
+Diagram: Two adjacent isometric land plots labeled「甲土地」「乙土地」with
+a dashed merge line between them labeled「合筆」。A buyer figure labeled
+「B」holds a purchase-contract document, with a speech bubble reading
+「合筆してほしい」。This scene feeds into the SAME shared diamond node
+labeled「代位しなければ、自分の権利(登記請求権)は保全されないか」。This
+time the"いいえ"branch(this case) is drawn with a thick highlighted
+border and full color, leading to the highlighted conclusion node「代位
+による登記はできない(又は不要)」。The"はい"branch is drawn faded and
+greyed-out, leading to the faded conclusion node「代位による登記ができ
+る」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず「代位しなければBの権利は保全されないか」を確認します。合筆をしな
+くてもA・B間の所有権移転登記自体は申請できるため、Bの債権はすでに保全
+されており、Bが代位して合筆登記を申請することはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代位申請は不可
+
+--- PANEL 3(肢ウ) ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+転得者も代位で原始取得者の表題登記可
+Diagram: An isometric condominium(区分建物) building with a chain of three
+connected person figures and arrows labeled「原始取得者A → 買主B → 転得
+者C」showing successive sales, with no表題登記 document yet attached to
+the building. This scene feeds into the SAME shared diamond node labeled
+「代位しなければ、自分の権利(登記請求権)は保全されないか」。The"はい"
+branch(this case) is drawn with a thick highlighted border and full
+color, leading to the highlighted conclusion node「代位による登記ができ
+る」。The"いいえ"branch is drawn faded and greyed-out, leading to the
+faded conclusion node「代位による登記はできない(又は不要)」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず「代位しなければCの権利は保全されないか」を確認します。Aが表題登記
+を申請しない限り、その後の所有権の登記を経てC名義にたどり着けないため、
+Cは原始取得者Aに代位して表題登記を申請することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+表題登記できる
+
+--- PANEL 4(肢エ) ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+地役権者は分筆なしでも権利は保全済み
+Diagram: An isometric land plot labeled「甲土地」with a shaded strip
+across one portion labeled「地役権」。The地役権者figure labeled「B」holds
+a speech bubble reading「分筆してほしい」pointed at the land owner labeled
+「A」。This scene feeds into the SAME shared diamond node labeled「代位し
+なければ、自分の権利(登記請求権)は保全されないか」。The"いいえ"
+branch(this case) is drawn with a thick highlighted border and full
+color, leading to the highlighted conclusion node「代位による登記はでき
+ない(又は不要)」。The"はい"branch is drawn faded and greyed-out, leading
+to the faded conclusion node「代位による登記ができる」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず「代位しなければ地役権者Bの権利は保全されないか」を確認します。地
+役権は土地の一部について設定できるため、甲土地が分筆されなくてもBの地
+役権設定登記請求権は保全されており、Bが代位して分筆登記を申請すること
+はできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代位申請は不可
+
+--- PANEL 5(肢オ) ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+共有建物の変更登記は共有者1人で申請可
+Diagram: An isometric building shown before and after an extension
+(増築), with two owner figures labeled「A」「B」standing beside it, B with
+arms crossed(申請に応じない)。This scene feeds into the SAME shared
+diamond node labeled「代位しなければ、自分の権利(登記請求権)は保全され
+ないか」。The"いいえ"branch(this case) is drawn with a thick highlighted
+border and full color, leading to the highlighted conclusion node「代位
+による登記はできない(又は不要)」, with a small「保存行為」stamp icon shown
+beside it and A submitting the application document alone. The"はい"
+branch is drawn faded and greyed-out, leading to the faded conclusion
+node「代位による登記ができる」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず「代位しなければAの権利は保全されないか」を確認します。共有建物の
+変更登記は保存行為として共有者の1人から申請できるため、Aは代位という制
+度を使わずに自ら単独で申請すればよく、そもそも代位の必要がありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代位不要・保存行為
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠:民法423条(債権者代位権)・民法252条5項(共有物の保存行為)
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 建・物・登・記・権・地・位・転・得・筆・存・行・為・附・属. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+all 5 panels share the identical decision-tree shape described above with
+neither the「はい」nor the「いいえ」destination left blank and no looping
+arrow anywhere, that each panel clearly distinguishes its own highlighted
+branch from the other, faded branch, that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct(no merged or dropped
+requirements), confirm nothing is rendered below the last panel's
+footnote text(no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```
