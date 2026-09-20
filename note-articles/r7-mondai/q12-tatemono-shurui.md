@@ -204,3 +204,185 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「一棟の表題部か専有部分の表題部か」「職権抹消の対象は何か」「列挙された種類に該当するか」を見抜けるようにする5パネル構成。エ・オは「規則113条・準則80条の列挙（37種類）に該当するか」という同じチェックリストを共有し、該当する場合としない場合の分岐先を対比する。②の色分け（どこに記録されるか＝緑、何と表記できるか＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（建物
+の「種類」、正しい決め方・記録のされ方）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a cutaway isometric condominium with per-unit
+name plates, an eraser icon over 所有者・権利 tags, a multi-story
+building with floor-by-floor use icons, a checklist card of enumerated
+建物の種類, a gas-station canopy — adapt icon set to the topic of 建物
+の種類. Where a 肢 requires checking multiple conditions in sequence
+before reaching a conclusion, draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No（はい／いいえ）branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Panel 3
+（肢ウ）uses a 正誤対比型（left/right contrast frame）instead of a
+flowchart, contrasting the correct listed-uses label against the
+rejected「多目的ビル」label. Panels 4 and 5（肢エ・肢オ）share the same
+checklist card titled「規則113条・準則80条の列挙（37種類）」; Panel 4
+highlights that 学習塾 is NOT on the list（faded ✕）and routes to a
+residual-clause box, while Panel 5 highlights that 給油所 IS on the list
+（thick highlighted border, green checkmark）and routes directly to a
+conclusion. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第12問 ア〜オ
+作図ガイド（建物の種類）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+種類は専有部分ごとに記録される
+Diagram: A cutaway isometric view of a multi-story condominium（区分
+建物). Each floor's individual unit（専有部分）has its own small name
+plate showing its own 種類 label（例：店舗・居宅）. The building's overall
+header block at the top（一棟の建物の表題部）has an empty slot where
+「種類」would go, with a small red ✕, showing the whole-building register
+does NOT carry a 種類 entry.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この建物が区分建物であることを確認します。「種類」は各専有部分
+ごとの用途を示す情報であるため、一棟の建物全体の表題部には記録されず、
+各専有部分の表題部に個別に記録されます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一棟には記録なし
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+職権抹消の対象は所有者・権利の登記
+Diagram: An isometric building room labeled「共用部分」. Two name tags
+next to it――「所有者」と「権利」――are shown being erased with an eraser
+icon and a red ✕. A third name tag showing「種類：管理人室」remains
+untouched and clearly intact.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、共用部分である旨の登記をする際に、登記官が職権で抹消するのは何か
+を確認します。抹消されるのは表題部所有者の登記又は権利に関する登記であ
+り、建物の種類に関する登記事項ではありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+種類は消えない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+複数用途なら実際の用途を列記する
+Diagram: A 正誤対比型（left/right contrast frame, NOT a flowchart)。An
+isometric 5-story building shows each floor's actual use with a small
+icon（1F食品売り場・2〜3F衣料品売り場・4Fゲームセンター・5F映画館）.
+Below it, LEFT box（highlighted, green checkmark）reads「店舗・遊技場・
+映画館」（実際の用途を列記）. RIGHT box（faded, red ✕）reads「多目的
+ビル」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この建物が複数の用途に使われているかを確認します。複数の用途が
+ある場合は、それぞれの用途を組み合わせて実際の用途を列記する必要があ
+り、「多目的ビル」のような抽象的な呼び方は種類として認められません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+用途を列記する
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+列挙にない用途は残余規定で定める
+Diagram: A checklist card shared with Panel 5, titled「規則113条・準則
+80条の列挙（37種類）」, listing example items with green checkmarks
+（居宅・店舗・給油所等）. Below the list, a separate box shows「学習塾」
+with a red ✕（faded、列挙にない）, connected by an arrow to a
+residual-clause box labeled「準則80条1項後段の残余規定→教習所」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この建物の用途が、規則113条・準則80条に列挙された種類のいずれか
+に当てはまるかを確認します。当てはまらない場合は、準則80条1項後段の
+残余規定により、実際の用途に応じて適当な名称（教習所等）を定めること
+ができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+残余規定で認められる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+列挙にある用途はそのまま使える
+Diagram: The same checklist card as Panel 4, titled「規則113条・準則80条
+の列挙（37種類）」, but this time「給油所」itself is highlighted within
+the list with a thick colored border and a large green checkmark, showing
+it IS one of the enumerated 37 types, with an arrow leading directly to a
+conclusion node（residual-clause box is faded／not needed）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この建物の用途が、あらかじめ列挙された種類のいずれかに該当するか
+を確認します。ガソリンスタンドは「給油所」として正式に列挙されている
+ため、そのまま種類として定めることができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+正式な種類の一つ
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法44条1項・58条4項、不動産登記規則113条、不動産登記事務取扱
+準則80条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 種, 類, 録, 権, 建, 物, 登, 記, 所, 場, 給, 準, 則, 抹, 消 and
+any character that has a visually similar Simplified Chinese variant. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+Panel 3 is drawn as a left/right contrast frame rather than a flowchart,
+that Panels 4 and 5 visibly share the same checklist-card layout with
+only the highlighted item and routing differing, that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```
