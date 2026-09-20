@@ -372,3 +372,192 @@ standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
 heading, node label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「建物図面と各階平面図のどちらの内容に関わる変更か」「建物としての単位が変わるかどうか」を見抜けるようにする5パネル構成。アは建物図面（敷地・位置）と各階平面図（各階の形状）を対比する枠、エ・オは「単位が変わるか」という同じ対比枠を共有し、強調する側を切り替える。②の色分け（不要グループ＝緑、必要グループ＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（建物
+図面・各階平面図、いつ出す？）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric buildings, land plots, a torn-paper
+規約 label, a dashed 従前地 outline versus a solid 仮換地 outline, and
+two stacked one-story buildings merging into a two-story building —
+adapt icon set to the topic of 建物図面・各階平面図. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No（はい／いいえ）
+branch arrows, and a final conclusion node. Where a 肢 is resolved by a
+single check, a labeled illustrative diagram is sufficient — do not
+force a flowchart. Panel 1（肢ア）uses a side-by-side comparison frame
+（LEFT: 建物図面＝敷地と位置、RIGHT: 各階平面図＝各階の形状）instead of a
+flowchart, because the point of that 肢 is distinguishing which of two
+different drawings is at issue. Panels 4 and 5（肢エ・肢オ）share the
+same side-by-side comparison frame（LEFT: 単位はそのまま・規約上の扱い
+だけ変わる、RIGHT: 単位そのものが新しく生まれ変わる); draw both panels
+with the same two-box layout, but highlight（太い縁取り・フルカラーで
+強調）the box relevant to that panel's 肢 and render the other box in a
+faded, greyed-out style. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state
+the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"),
+not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第10問 ア〜オ
+作図ガイド（建物図面・各階平面図）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+所在の変更は建物図面のみ必要
+Diagram: A side-by-side comparison frame. LEFT box（highlighted with a
+thick colored border）labeled「建物図面＝敷地と位置」: an isometric
+building whose address-plate icon flips from one label to another, a
+dashed line showing its position on the plot. RIGHT box（faded,
+greyed-out）labeled「各階平面図＝各階の形状」: the same building's
+internal floor outline, unchanged, with a red ✕ over it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、所在の変更が「敷地上の位置」の変更なのか「各階の内部形状」の変更
+なのかを確認します。建物図面は敷地との位置関係を示す図面なので必要です
+が、各階平面図は各階の形状を示す図面であり、所在の変更では内部の形は
+変わらないため不要です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+位置の変更→建物図面のみ
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+敷地関係の追加のみなら建物図面不要
+Diagram: An isometric building on one land plot, connected by a dashed
+line to a separate, distant plot of land with no building on it, labeled
+規約敷地. A document icon labeled 建物図面 has a red ✕ stamp overlaid on
+it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この変更が建物自体の物理的な位置・形状に関わるものか、それとも
+規約上の敷地関係を追加するだけのものかを確認します。建物が物理的に存在
+しない土地を規約敷地として追加するだけなら、建物図面を新たに提出する
+必要はありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+敷地関係の追加のみなら不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+仮換地の形を実線で図示する
+Diagram: Two overlapping land-plot outlines: a faint dashed outline
+labeled 従前地, and a bold solid outline labeled 仮換地, with an
+isometric building standing on the solid-outline plot.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この建物が仮換地上に建築されたものかを確認します。仮換地上の建物
+の表題登記に添付する建物図面には、実際に使用されている仮換地の形状を
+実線で図示します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+仮換地の形を実線で
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+単位が変わる合併は各階平面図が必要
+Diagram: A side-by-side comparison frame shared with Panel 5. RIGHT box
+（highlighted with a thick colored border, full color）labeled「単位その
+ものが新しく生まれ変わる」: two stacked one-story buildings（甲区分建物・
+乙区分建物）merging via an arrow into a single new two-story building
+labeled 1個の区分建物, with two 各階平面図 document icons each stamped
+green. LEFT box（faded, greyed-out）labeled「単位はそのまま・規約上の
+扱いだけ変わる」: a single room icon whose 共用部分 label peels off,
+shape unchanged.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この変更が「建物としての単位（区分建物としての範囲）」自体を
+変えるものか、それとも規約上の扱いだけを変えるものかを確認します。合併
+は、別々だった甲・乙が1個の新しい区分建物という単位に生まれ変わるため、
+新しい単位を前提とした各階平面図が必要です。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+単位が変わるので必要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+単位がそのままなら図面は不要
+Diagram: The same side-by-side comparison frame as Panel 4. LEFT box
+（highlighted with a thick colored border, full color, since this panel is
+about this branch）labeled「単位はそのまま・規約上の扱いだけ変わる」: a
+single room icon inside a building where a 共用部分 label peels off like
+torn paper, the room's shape and size staying exactly the same, with a
+document icon labeled 建物図面・各階平面図 stamped with a red ✕. RIGHT
+box（faded, greyed-out）labeled「単位そのものが新しく生まれ変わる」:
+the merged-building icon from Panel 4, shown dimly.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この変更が「建物としての単位」自体を変えるものか、それとも規約上
+の扱いだけを変えるものかを確認します。共用部分の規約を廃止するだけなら、
+建物としての単位はそのままなので、建物図面・各階平面図を改めて提出する
+必要はありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+単位はそのまま→不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令別表14の項添付情報欄イ・15の項・16の項添付情報欄イ・21の項、
+不動産登記規則82条1項・83条1項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 建, 物, 図, 面, 敷, 地, 各, 階, 平, 仮, 換, 併, 規, 約, 共 and
+any character that has a visually similar Simplified Chinese variant. If
+any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+Panel 1 is drawn as a comparison frame rather than a flowchart, that
+Panels 4 and 5 visibly share the same comparison-frame layout with only
+the highlighted box differing, that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```
