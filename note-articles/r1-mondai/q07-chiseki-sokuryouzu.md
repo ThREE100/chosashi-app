@@ -207,3 +207,198 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+地積測量図の作成・提供・保存に関する5肢について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。基準点の有無を判定する決定木（ア）、分筆前の筆ごとに図面を作り分ける配置図（イ）、縮尺の一致は不要という思い込みを正す対比図（ウ）、判決による保存登記でも図面添付が必要というタイムライン（エ）、現に効力を有するかどうかで保存期間が変わる決定木（オ）の5パネル構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots, triangulation-point
+icons, fixed stone monuments (恒久的な地物), surveyor figures taking
+measurements, land-plot division sheets, land-registry filing shelves and
+ledger books, courthouse/gavel icons, hourglass icons for storage periods
+— adapt these to each panel. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Where a
+branch point's both outcomes are real, meaningful conclusions found in
+the source article's own text, give BOTH the Yes side and the No side
+their own distinct, fully drawn conclusion node — never leave one side's
+destination blank, and never draw an arrow that loops back into an
+earlier node. Unlike a glanceable summary poster, each panel MAY include
+a short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度 午後の部 第7問 ア〜オ
+作図ガイド（地積測量図）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+基本三角点等の有無をまず確認する
+Diagram: A diamond-shaped decision node labeled「近傍に基本三角点等があり、
+これに基づく測量ができるか」. The Yes branch (green arrow) leads to a
+fully drawn conclusion node: an isometric land plot with a nearby
+triangulation-point icon and a surveyor figure recording a coordinate,
+labeled「基本三角点等に基づく成果を記録」with a checkmark. The No branch
+(labeled「特別の事情でできない」) leads to a separate, equally prominent
+conclusion node: the same land plot but with the triangulation-point icon
+crossed out in the distance, instead measured from a large fixed stone
+monument labeled「恒久的な地物」, with the recorded coordinate labeled
+「近傍の恒久的な地物に基づく成果(任意座標)を記録」with a checkmark. No
+arrow loops back into the diamond.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず近傍に基本三角点等があり、これに基づく測量ができるかを確認します。でき
+ない特別の事情があるときは、次に近傍の恒久的な地物に基づく測量の成果を記録
+します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+恒久的地物でも記録可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+分筆前の土地ごとに図面を作成する
+Diagram: An isometric view of three adjacent land plots labeled「甲番」
+「乙番」「丙番」bundled together under a single application document
+labeled「一の申請情報」. An arrow splits the bundle into three separate
+sheets of paper fanned out below, each sheet stamped with only one of the
+three original plot numbers（甲番のみ／乙番のみ／丙番のみ）, showing that
+one 地積測量図 is drawn per original plot rather than one combined sheet
+for all three.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず一の申請情報で隣接する何筆をまとめて分筆申請するかを確認し、次に地積測
+量図を分筆前の土地ごとに1枚ずつ作り分けます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+分筆前の筆ごとに作成
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in beige/amber containing the number 3.
+Heading (bold, ONE line):
+縮尺は地役権図面と揃えなくてよい
+Diagram: A two-panel contrast. Left panel labeled「誤りやすい思い込み」
+shows an equals-sign icon between icons of「地積測量図」and「地役権図面」
+with a large red X mark drawn over the equals sign, and a struck-through
+caption「縮尺を同一にしなければならない」. Right panel labeled「正しい
+ルール」shows the same two documents side by side with no equals-sign
+between them, one labeled「地積測量図 原則250分の1」and the other labeled
+「地役権図面 適宜の縮尺」, each with its own independent green checkmark,
+showing the two scales may differ freely.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず地積測量図の縮尺の原則(250分の1)を確認し、次に地役権図面の縮尺(適宜で
+よい)を確認します。両方の縮尺を一致させる規定は存在しません。
+Conclusion tag (a short colored banner/pill, beige/amber, 5-15 Japanese
+characters):
+縮尺の一致は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+判決による保存登記でも図面は必要
+Diagram: A left-to-right timeline of three stages connected by arrows.
+Stage 1: an isometric courthouse/gavel icon and a document labeled「確定
+判決で所有権を確認」. Stage 2 (arrow from Stage 1): a document labeled
+「所有権の保存の登記を申請」. Stage 3 (arrow from Stage 2): two attached
+documents labeled「土地所在図」「地積測量図」each stamped with a
+checkmark and the label「添付必須」, showing the requirement is not
+skipped even though the ordinary 表題登記 step itself was bypassed.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず表題登記を経ずに確定判決によって所有権が確認された場面であることを確認
+し、次に保存登記の申請でも通常どおり土地所在図・地積測量図の添付が必要かを
+確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+図面の提供は省略不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+効力の有無で保存期間が変わる
+Diagram: A diamond-shaped decision node labeled「その地積測量図は現に効力
+を有するか」. The Yes branch leads to a fully drawn conclusion node: an
+isometric filing shelf with a ledger book labeled「現に効力を有する図面」
+stamped「永久保存」. The No branch (labeled「変更・更正等により閉鎖され
+た」) leads to a separate, equally prominent conclusion node: another
+ledger book labeled「閉鎖された図面」with an hourglass icon, the label
+「閉鎖した日から30年間保存」, and a large red X mark drawn over the word
+「永久」to show it is explicitly not permanent storage. No arrow loops
+back into the diamond.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその地積測量図が現に効力を有するかを確認します。変更・更正等により閉鎖
+されている場合は、次に保存期間が閉鎖した日から30年間に変わることを確認しま
+す。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+閉鎖後は30年保存
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不登規77条・不登規77条4項・不登規79条2項・不登法74条2項・不登規28条13号
+（準則50条2項）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・物・登・記・所・縮・尺・恒・久・閉・鎖・効.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 (panels 1 and 5) is drawn as an actual flowchart
+with branch nodes showing both a Yes-side and a No-side conclusion node
+(not a bare illustration with no visible decision structure, and no
+looping arrow back into a diamond), that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
