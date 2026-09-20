@@ -215,3 +215,217 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「起算点はいつか」「水面下に没した原因は人工的か自然的か」「一筆の全部が没したのか一部だけか」という分かれ道をどの順番で確認するかを、タイムラインと1本の共有決定木で示す構成。イ・ウ・エ・オの4肢は同じ決定木を共有し、各パネルは自分の肢に関係する枝だけを強調表示する。②の結論ポスターとは別に、5肢それぞれの思考の手順を1枚ずつのパネルで追体験できるようにする。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a horizontal timeline with flag markers, a
+land plot partially or fully submerged under ocean waves, a shovel
+digging an artificial pond, a small boat passing through an artificial
+canal, and diamond-shaped decision nodes distinguishing an artificial
+cause from a natural cause. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes
+with the condition written on them, Yes/No (or ○/✕) branch arrows, and a
+final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Where a panel reuses a decision tree shared with other panels in this
+set, render the branch relevant to THIS panel with a thick highlighted
+border and full color, and render the other, unrelated branches in a
+faded, greyed-out, or dotted-outline style rather than omitting them —
+the reader should be able to see at a glance which part of the shared
+tree this panel is about. Likewise, where a diagram must show an entity
+that conceptually never held the right or status in question (e.g.
+someone who was never an heir, or a claim that never existed), render
+that entity or claim in a faded or dotted-outline style rather than a
+plain ○/✕ mark, so the visual itself communicates "this was never really
+there," not just "this is wrong." Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を
+確認します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text — do not drop or merge a
+required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度 午後の部 第6問 ア〜オ
+作図ガイド(土地の滅失の登記)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+起算日は滅失日、知った日ではない
+Diagram: A horizontal timeline. At the left end, plant a flag icon
+labeled「土地が滅失した日」with a checkmark, and from that flag draw a
+highlighted「1か月」band extending right to a checkmark-marked deadline
+point. Further to the right on the same timeline (several months later),
+plant a second flag icon with a magnifying-glass symbol labeled「本人が
+滅失の事実を知った日」, and draw a large red ✕ over an arrow that would
+start counting「1か月」from that later flag, with a small label「起算点
+ではない」next to the ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず土地が実際に滅失した日そのものがいつかを確認し、次にそこから1
+か月の期限を数えます。所有者が事実を知った日を起点にしてはいけません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+滅失の日から1か月
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+人工的な原因なら地目変更で足りる
+Diagram: A shared decision flowchart, drawn identically in panels 2-5.
+Root diamond node:「一筆の土地が水面下に没した原因は?」splits into two
+branches: 「人工的原因(掘削・水路敷設等)」and「自然的原因(海面上昇・
+浸食・崖崩れ等)」. The人工的原因 branch leads to a small intermediate
+node「土地区画・所有権は消滅しない」, then to a conclusion node labeled
+「地目変更」containing two leaf labels side by side:「池沼」and「運河
+用地」. The自然的原因 branch leads to a second diamond node「一筆の全部
+が没したか、一部だけか」, splitting into「全部」→conclusion node「滅失
+の登記」and「一部」→conclusion node「地積の変更の登記」. In THIS panel,
+render the root node, the人工的原因 branch, the intermediate node, and
+the「池沼」leaf inside the「地目変更」conclusion node with a thick
+highlighted border and full color (draw a small pond-digging icon next
+to「池沼」). Render the「運河用地」leaf in the same conclusion node, and
+the entire自然的原因 branch with its diamond node and both「滅失の登記」
+「地積の変更の登記」conclusion nodes, in a faded, greyed-out,
+dotted-outline style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず水面下に没した原因が人工的か自然的かを確認します。人工的に掘削
+した池のように土地区画や所有権が消滅していない場合は、滅失ではなく
+地目変更(この肢では池沼)にとどまります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+地目変更(池沼)
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+運河も人工なら地目変更にとどまる
+Diagram: The same shared decision flowchart as panel 2. In THIS panel,
+render the root node, the人工的原因 branch, the intermediate node
+「土地区画・所有権は消滅しない」, and the「運河用地」leaf inside the
+「地目変更」conclusion node with a thick highlighted border and full
+color (draw a small boat-in-canal icon next to「運河用地」). Render the
+「池沼」leaf in the same conclusion node, and the entire自然的原因 branch
+with its diamond node and both「滅失の登記」「地積の変更の登記」
+conclusion nodes, in a faded, greyed-out, dotted-outline style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず水面下に没した原因が人工的か自然的かを確認します。国土交通大臣の
+免許を受けて人工的に設けた運河用の水路も土地区画自体は消滅していない
+ため、地目変更(この肢では運河用地)にとどまります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+地目変更(運河用地)
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+自然の力で全部沈めば滅失登記
+Diagram: The same shared decision flowchart as panel 2. In THIS panel,
+render the root node, the自然的原因 branch, the second diamond node
+「一筆の全部が没したか、一部だけか」, the「全部」branch arrow, and the
+「滅失の登記」conclusion node with a thick highlighted border and full
+color (draw a land plot fully submerged under ocean waves next to
+「滅失の登記」). Render the「一部」branch arrow and「地積の変更の登記」
+conclusion node, and the entire人工的原因 branch with its intermediate
+node and「地目変更」conclusion node (both「池沼」「運河用地」leaves), in
+a faded, greyed-out, dotted-outline style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず水没の原因が自然的かを確認し、次に一筆の全部が没したか一部だけか
+を確認します。自然の作用で全部が水面下に没していれば、滅失の登記を
+申請します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+自然原因の全部滅失
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+一部だけ自然に沈めば地積変更
+Diagram: The same shared decision flowchart as panel 2. In THIS panel,
+render the root node, the自然的原因 branch, the second diamond node
+「一筆の全部が没したか、一部だけか」, the「一部」branch arrow, and the
+「地積の変更の登記」conclusion node with a thick highlighted border and
+full color (draw a land plot with only a corner edge crumbling into the
+sea from a cliff collapse, most of the plot remaining solid land, next
+to「地積の変更の登記」). Render the「全部」branch arrow and「滅失の登記」
+conclusion node, and the entire人工的原因 branch with its intermediate
+node and「地目変更」conclusion node (both「池沼」「運河用地」leaves), in
+a faded, greyed-out, dotted-outline style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず水没の原因が自然的かを確認し、次に一筆の全部が没したか一部だけか
+を確認します。一部だけが水面下に没している場合は、滅失ではなく地積の
+変更の登記を申請します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+自然原因の一部→地積変更
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法42条(滅失の日から1か月)・不動産登記事務取扱手続準則68条
+8号(池沼)・68条14号(運河用地)を参照。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 滅・積・没・権・号. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that panels 2-5 sharing the decision tree each
+clearly distinguish their own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
