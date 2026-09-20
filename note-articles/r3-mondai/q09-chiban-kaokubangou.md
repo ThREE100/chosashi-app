@@ -218,3 +218,209 @@ every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance, and matches the Japanese text given above verbatim with
 no paraphrasing and no substituted characters.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文（ア〜オ5肢）を読んだときに、実際に手を動かして描くべき図と、その図にたどり着くまでにどの順番で何を確認すればよいかを、肢ごとに示す解き方ガイド。ア・ウは「特別の事情」という例外の有無を確認する単一分岐の決定木、イは「著しい錯雑」と「必要性」という2段階の条件を順に確認する決定木、エは登記の先後関係で支号が決まるタイムライン、オは「床面積の多寡」という思い込みと「指定登記所の地番による」という正しいルールを対比させる正誤対比型として構成した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land-plot ledgers stamped with a
+closure seal, registry official characters holding stamps, numbered
+branch tags on building icons, a dotted municipal boundary line between
+two registry-office icons, and left-to-right timeline arrows for
+registration order. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node for EACH branch — every diamond node must send both its Yes branch
+and its No branch to its own distinct, clearly labeled conclusion node;
+never route a branch arrow back to an earlier node in the diagram (no
+looping arrows). Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後 第9問 ア〜オ
+作図ガイド（地番・家屋番号の付番ルール）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+閉鎖地番は特別事情なければ再使用不可
+Diagram: A decision flowchart. Start node: an isometric ledger page
+showing a land plot stamped with a red "閉鎖" seal (closed by
+合筆・滅失等). Arrow down to a diamond-shaped branch node labeled
+「特別の事情があるか？」. No branch (arrow labeled ✕／なし) leads to a
+distinct conclusion node showing the closed plot's number sealed shut
+with a padlock icon and a crossed-out arrow toward a separate empty new
+land plot, labeled「再使用しない（原則）」. Yes branch (arrow labeled
+○／あり) leads to a separate distinct conclusion node showing the same
+number tag being reassigned to the new plot with a checkmark, labeled
+「例外的に再使用できる」. Both conclusion nodes must be drawn; do not
+omit the Yes-side node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず土地の登記記録が合筆・滅失などで閉鎖されているかを確認し、次に
+特別の事情の有無を確認します。特別の事情がなければ、その地番は新しい
+土地には使えません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+特別事情なければ再使用不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+地番の著しい錯雑と必要性の両方を確認
+Diagram: A decision flowchart with two diamond nodes in sequence. First
+diamond node labeled「地番が著しく錯雑しているか？」: No branch leads to
+a distinct conclusion node「変更の話にならない（現状維持）」. Yes branch
+leads down to a second diamond node labeled「登記官が必要があると
+認めるか？」: No branch leads to a distinct conclusion node「変更しない
+（据え置き）」; Yes branch leads to a distinct conclusion node showing a
+registry official character stamping a rearranged, neatly ordered row of
+land-plot number tags, labeled「職権で地番を変更できる」. Every branch
+of both diamonds must end at its own labeled conclusion node; no arrow
+loops back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず地番が著しく錯雑しているかを確認し、次に登記官が必要があると
+認めるかを確認します。両方を満たしたときにはじめて、登記官は職権で
+地番を変更できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+両方満たせば職権変更可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+合筆後は特別事情なければ若番に統一
+Diagram: A decision flowchart. Start: an isometric diagram showing two
+adjacent land plots labeled「10番1」と「10番2」being merged into one
+plot. Arrow down to a diamond-shaped branch node labeled「特別の事情が
+あるか？」. No branch (✕／なし) leads to a distinct conclusion node
+showing the merged plot labeled only「10番1」with a ✓ checkmark and a
+small crossed-out「10番2」tag beside it, labeled「若番（10番1）が原則」.
+Yes branch (○／あり) leads to a separate distinct conclusion node showing
+the merged plot labeled「10番2」with a ✓ checkmark, labeled「例外的に
+10番2等も可」. Both conclusion nodes must be drawn.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず合筆する2つの土地の地番を並べて確認し、次に特別の事情の有無を
+確認します。特別の事情がなければ、合筆後の地番は自動的に若い方の
+番号になります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+特別事情なければ若番に統一
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+先に登記した建物から順に支号を付す
+Diagram: A left-to-right timeline. Leftmost icon: a single land plot
+labeled「10番1」with two house icons standing on it, both currently
+unlabeled. Timeline step 1 (leftward position, with a small "1" order
+badge): the first house icon is registered — an arrow points from this
+house to a number tag reading「10番1の1」. Timeline step 2 (to the
+right of step 1, with a small "2" order badge): the second house icon is
+registered later — an arrow points from this house to a number tag
+reading「10番1の2」. A small callout near the timeline notes that the
+order is the order of 登記（登記された先後）, not the order the
+buildings were physically built.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず2棟の建物が同じ地番の土地の上にあることを確認し、次にどちらが
+先に登記されたかという登記の先後関係を確認します。先に登記された
+建物から順に支号「の1」「の2」が付されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記の先後順に支号を付与
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+家屋番号は床面積でなく指定登記所の地番で決まる
+Diagram: A contrast-frame layout with a shared illustration on top and
+two frames below. Top: an isometric building straddling a dotted
+municipal boundary line between two land plots,「5番1」（Ａ登記所側、
+床面積の多い部分を強調表示）と「6番1」（Ｂ登記所側）. Left frame,
+labeled「誤りやすい思い込み」: an arrow from the「5番1」（Ａ登記所）plot
+toward a number tag「5番1」, with a red ✕ mark and a strike-through over
+this tag. Right frame, labeled「正しいルール」: a small「指定」badge
+attached to the「6番1」（Ｂ登記所）plot, with an arrow from this plot
+toward a number tag「6番1」marked with a ✓ checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず建物がまたがる各土地の地番と管轄登記所を確認し、次にどちらの
+登記所が登記事務の指定を受けたかを確認します。家屋番号は床面積が
+多い方ではなく、指定を受けた登記所が管轄する土地の地番によります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+指定登記所の地番で決定
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：不動産登記事務取扱手続準則67条1項2号・4項・6号・7号、79条2号・3号
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・錯・雑・筆・管・轄.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 (Panel 2) is drawn as an actual flowchart with
+two sequential diamond branch nodes (not a bare illustration with no
+visible decision structure), that every diamond node in Panels 1, 2 and 3
+sends both its Yes branch and its No branch to its own distinct labeled
+conclusion node with no arrow looping back to an earlier node, that each
+着眼点 callout states a checking order rather than only a conclusion and
+keeps every required element from the source article distinct, that
+Panel 5's contrast frames clearly separate「誤りやすい思い込み」from
+「正しいルール」with the incorrect tag struck through, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
