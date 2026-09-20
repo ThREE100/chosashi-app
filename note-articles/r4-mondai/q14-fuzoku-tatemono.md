@@ -210,3 +210,208 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図(土地の合筆と区分建物の合併の見分け方、登記記録の敷地権の記載イメージ、附属建物が別の一棟の区分建物である場合の申請情報、取り壊し・新築の手続の切り分けなど)を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに判定の順序を明示する「着眼点」の短い説明文を添えている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric condominium and single-family
+building icons, land plot icons, a registry ledger book icon (登記記録の
+表題部), an application-form document icon (申請情報), diamond-shaped
+checkpoint nodes, prohibition (no-entry) marks, and demolition/
+new-construction stamp icons. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, arrows showing the order of checks, and a
+final conclusion node. Where a 肢 is resolved by a single check or by
+contrasting two systems side by side, a labeled illustrative diagram or a
+two-panel comparison is sufficient — do not force a flowchart. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep 所在地番・構造・床面積・名称・敷地権
+as distinct items where the source article lists them as distinct items).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和4年度 午後の部 第14問 ア〜オ
+作図ガイド（附属建物）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+非区分建物も区分建物の附属建物にできる
+Diagram: 画面を左右2枠に分けた対比図を描く。左枠には、敷地権である旨の
+赤い印章スタンプが押された土地のアイソメトリックアイコンを描き、その土地
+を別の土地と合筆しようとする矢印に禁止(進入禁止)マークを重ね、矢印の
+先に赤い✕を添える。枠の上に「土地の合筆」というラベルを付ける。右枠には
+敷地権付きの区分建物(集合住宅、甲建物)のアイソメトリックアイコンを描き、
+そこへ区分建物でない乙建物を表す小さな一戸建てアイコンが緑のチェック
+マーク付きの矢印で合流していく様子を描く。合流後、乙建物にも「敷地権」の
+タグが小さく付くことを描き、枠の上に「区分建物の合併」というラベルを
+付ける。左右の枠の間には仕切り線を描き、「土地の合筆と混同しない」という
+短いラベルを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対象が「土地」の合筆なのか「区分建物」の合併なのかを見分けます。
+区分建物の合併であれば、附属建物側にも敷地権を登記できるため公示が複雑
+になることはなく、合併することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+合併は可能
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+主・附属が同一棟の区分建物なら敷地権を区別
+Diagram: 登記記録の表題部を表す帳簿アイコンを画面の下部に描き、その上に
+上から下へ流れる3つのひし形の確認ポイントを縦に並べて描く。1つ目のひし
+形には「主も附属も区分建物か」というラベルを入れ、緑のチェックマークを
+添えて矢印で2つ目のひし形へつなぐ。2つ目のひし形には「同一の一棟の建物
+に属するか」というラベルを入れ、緑のチェックマークを添えて矢印で3つ目の
+ひし形へつなぐ。3つ目のひし形には「主・附属のいずれにも敷地権があるか」
+というラベルを入れ、緑のチェックマークを添えて、最後に帳簿アイコンの中の
+結論ボックスへ矢印でつなぐ。結論ボックスは細い罫線で上下2段に区切り、
+上段に「主である建物に係る敷地権」、下段に「附属建物に係る敷地権」と、
+それぞれ別々に記録されている様子を描く。3つのひし形は一本道の矢印だけで
+つながり、途中で分岐したり元のひし形へ戻る矢印は描かない。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、主である建物と附属建物のどちらも区分建物であるかを確認します。次に
+両方が同一の一棟の建物に属しているかを確認し、最後にいずれにも敷地権が
+あるかを確認します。すべて満たす場合は、登記記録の表題部に主である建物の
+敷地権と附属建物の敷地権を区別して記録します。
+Conclusion tag (green, 5-15 Japanese characters):
+敷地権は区別記録
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+附属建物が別一棟の区分建物なら地番も書く
+Diagram: 上から下へ流れる決定木を描く。1つ目のひし形ノードに「附属建物
+(乙建物)は区分建物か」と書き、緑のチェックマークとともに矢印で2つ目の
+ひし形ノードへつなぐ。2つ目のひし形ノードに「乙建物が属する一棟は、甲
+建物と同じ一棟か、別の一棟か」と書き、「別の一棟」の側に緑の矢印を引いて
+結論ノードへつなぐ。結論ノードは申請情報の書類アイコンとして描き、その
+中にチェックリスト形式で「1.一棟の建物の所在地番」「2.一棟の建物の構造・
+床面積」「3.一棟の建物の名称(あるとき)」「4.敷地権(あるとき)」の4項目を
+番号付きで、いずれも省略せずに列挙する。ひし形ノードから元の位置へ戻る
+矢印は描かない。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、附属建物が区分建物であるかを確認します。次に、その附属建物が主で
+ある建物と同じ一棟の建物に属するのか、別の一棟の建物に属するのかを確認
+します。別の一棟に属する場合は、その一棟の建物の所在地番・構造・床面積・
+名称・敷地権を申請情報の内容として記載する必要があります。
+Conclusion tag (green, 5-15 Japanese characters):
+一棟の情報も記載
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+同じ床面積でも取り壊せば別の建物
+Diagram: 画面を上下2段に分けた対比図を描く。上段には「誤りやすい思い
+込み」というラベルの下に、古い母屋(甲建物)のアイソメトリックアイコンが
+崩れて土埃とともに取り壊され、同じ床面積の新しい母屋(丙建物)のアイコン
+が同じ土地の上に新しく建つ様子を描く。その間に「床面積が同じだから」と
+いう小さなラベルを添え、甲建物の名称表示を丙建物の名称表示へ直接書き
+換える矢印(表題部の変更の登記)を描き、その矢印全体に赤い✕の取り消し線
+を重ねる。下段には「正しい処理」というラベルの下に、同じ甲建物・丙建物の
+組み合わせを描くが、直接の書き換え矢印は描かず、代わりに「取壊し(滅失の
+登記)」というスタンプアイコンと「新築(建物の表題登記)」というスタンプ
+アイコンを横に並べ、緑のチェックマーク付きの短い矢印でつなぎ、2つの別々
+の手続として処理される様子を描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+「床面積が同じだから同一の建物として扱ってよい」という思い込みをまず
+疑います。取り壊して新築した以上、床面積が同じであっても甲建物と丙建物
+に同一性はなく、表示変更の登記ではなく、滅失の登記と新築の建物の表題
+登記を別々に申請することになります。
+Conclusion tag (blue, 5-15 Japanese characters):
+滅失と新築の別手続
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+同時取壊しでも附属建物の日付は書かない
+Diagram: 画面を上下2段に分けた対比図を描く。上段には「誤りやすい思い
+込み」というラベルの下に、滅失の登記の登記原因欄を表す帳簿アイコンを
+描き、そこに「年月日主である建物取壊し」「年月日附属建物取壊し」という
+2行に分かれた日付の記録が書かれている様子を描き、その2行全体に赤い✕の
+取り消し線を重ねる。下段には「正しい記録」というラベルの下に、同じ登記
+原因欄の帳簿アイコンを描くが、今度は「年月日主である建物取壊し」という
+1行だけが記録され、そのすぐ横に附属建物を表す小さな物置アイコンを添え、
+附属建物側には別の日付欄が存在しない(空欄のまま)ことを示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+「主と附属で取り壊した日が違うから、登記原因の日付も分けて書くはずだ」
+という思い込みをまず疑います。滅失の登記では、附属建物の取り壊した日が
+主である建物と異なっていても、附属建物側の登記原因・日付を分けて記録
+する必要はありません。
+Conclusion tag (blue, 5-15 Japanese characters):
+二段書きは不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記法44条1項5号ほか（ウ）／不動産登記事務取扱手続準則
+101条（オ）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・敷・棟・造・積・処・
+壊・築・滅・段・続・確・認. If any character renders as a Simplified
+Chinese variant, redraw that character in the correct Japanese form.
+Confirm the panel
+count equals 5 exactly, badge numbers run 1-5 continuously (green for
+panels 1-3, blue for panels 4-5), there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢 (panels 2 and 3) is drawn as an actual decision
+flowchart with diamond branch nodes showing the checking order (not a
+bare illustration with no visible decision structure), that panels 4 and
+5 clearly separate the "誤りやすい思い込み" row from the "正しい処理/正しい
+記録" row with no ambiguity about which is correct, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements, especially the 4 items listed in panel 3), confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

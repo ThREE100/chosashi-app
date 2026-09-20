@@ -345,3 +345,226 @@ visually separated with their pill-badge headers at the top of each
 lane, and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスター、③の一般的な判定フローチャートとは別に、本問固有の配置（甲・乙土地の上の一棟の建物に属する丁・戊区分建物、駐車場として使われる丙土地）を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの条件確認の順序を、ア〜オの5肢それぞれについて示す作図ガイドを追加した。②のような結論を一言で見せるポスターと異なり、④間違いノート型と同じ運用（文章での説明・着眼点の記述を許容）に倣い、各パネルに「着眼点」の短い説明文を添えている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — the 甲土地・乙土地・丙土地 land-plot layout, the
+building split into 丁区分建物・戊区分建物 sections, shaded slices
+representing A・Bの共有持分, chain-link icons for 敷地権としての一体化,
+assembly-room icons for 集会, padlock icons for 分離処分の可否, and
+document/stamp icons for 登記・抹消・移転. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node for each branch. Where a 肢 is resolved by a
+single check, a labeled illustrative diagram with numbered checkpoint
+tags is sufficient — do not force a flowchart. Where a panel's diagram
+shows a branch, node, or entity that is not reached or does not apply in
+that panel's own fact pattern, render it in a faded, greyed-out, or
+dotted-outline style rather than a plain ○/✕ mark, so the reader can see
+at a glance which part of the diagram matters for this panel, and never
+draw an arrow that loops back into an earlier part of the diagram — every
+branch must end in its own conclusion node. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep the quorum requirement and the
+4分の3以上の賛成要件 in Panel 3 as two distinct checks, not one).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和4年度 午後の部 第18問 ア〜オ
+作図ガイド（区分建物の敷地権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+共有持分でも登記すれば敷地権になる
+Diagram: Draw 甲土地 and 乙土地 as two adjacent isometric land-plot tiles
+sharing a boundary, with one building spanning across both, its left
+portion highlighted and labeled「丁区分建物」. Place a numbered checkpoint
+tag "①" next to a two-person silhouette icon (labeled「A」and「B」side by
+side) with the words「数人で有する（共有）」and a green checkmark. Place a
+second checkpoint tag "②" next to a small registry-book icon labeled
+「登記された所有権」with a green checkmark. Draw arrows from both
+checkpoint tags converging into a single chain-link icon that connects a
+shaded slice of 甲・乙土地 labeled「Aの共有持分権」to the「丁区分建物」
+section, next to a document icon labeled「表題登記」stamped with a green
+✓.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、敷地利用権を数人(A・B)で有しているかを確認し、次に、その権利が
+登記された所有権・地上権・賃借権のいずれかであるかを確認します。両方を
+満たせば、その共有持分もそのまま専有部分の敷地権になります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+共有持分でも敷地権
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+規約敷地になったら1か月以内に申請
+Diagram: Draw 丙土地 as a separate isometric plot with small car icons on
+it labeled「駐車場」, positioned apart from the 甲・乙土地と建物のグループ.
+Place a numbered checkpoint tag "①" next to an arrow that transforms 丙土地
+from the parking-lot label into a plot tagged「規約敷地」, connected by a
+dashed line to the「戊区分建物」section of the building. Next to this
+transformation, draw a calendar icon with the first day circled and an
+arrow spanning toward a date marked「1か月以内」. Place a second checkpoint
+tag "②" next to a small figure labeled「B」holding a document stamped
+「表題部変更登記」with the words「申請義務あり」and a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、丙土地が規約によって新たに敷地とされたかを確認します。生じていれば、
+その日から1か月以内に、敷地権を表示する表題部変更登記を申請しなければ
+なりません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+1か月以内に申請義務
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+Aだけの賛成では規約は成立しない
+Diagram: Draw a decision flowchart with two diamond-shaped nodes stacked
+vertically above an assembly-room icon (集会) containing two resident
+silhouette seats labeled「A」and「B」. In this fact pattern only the「A」
+figure sits at the table with a document icon labeled「議事録」; draw the
+「B」figure in a faded, dotted-outline style, absent from the meeting.
+Diamond node 1 is labeled「出席したのは区分所有者及び議決権の各過半数か」;
+draw a bold red ✕ arrow from node 1 directly to a rectangular conclusion
+box labeled「規約は成立しない」(highlighted, since this is the fact
+pattern's actual path), and a separate green「はい」arrow from node 1 down
+to diamond node 2. Draw diamond node 2, labeled「出席した区分所有者及び
+議決権の各4分の3以上が賛成したか」, in a faded, greyed-out style (since
+this fact pattern never reaches it because node 1 already failed), with
+its own Yes arrow to a rectangular conclusion box labeled「規約成立、丁の
+敷地権登記が可能」and its No arrow to the same「規約は成立しない」
+conclusion box used by node 1's ✕ path. Add a small label near the「A」
+figure reading「Aのみでは定足数から満たさない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、集会に区分所有者及び議決権の各過半数が出席したかを確認し、次に、
+出席した区分所有者及び議決権の各4分の3以上が賛成したかを確認します。
+Aしか出席していない本肢では、最初の定足数の時点で満たしません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+Aのみでは規約不成立
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+丁だけに分離処分規約も設定できる
+Diagram: Draw the building split into its two sections, as in the
+whole-problem poster:「丁区分建物」and「戊区分建物」, both shown at the
+start with a closed padlock icon and a small tag「甲土地・乙土地の敷地権
+登記済み」on each. Place a numbered checkpoint tag "①" next to a small
+rulebook icon labeled「分離処分可能規約は一部の区分建物についてのみ設定
+できる」with a green checkmark. Draw an arrow from this checkpoint into
+the「丁区分建物」section only, opening its padlock icon and attaching a
+badge labeled「分離処分可能規約」with a green ✓. Place a second checkpoint
+tag "②" next to a document icon labeled「丁のみ敷地権登記抹消の表題部
+変更登記」with a green checkmark, leading into the now-open padlock. Draw
+the「戊区分建物」section in a faded, greyed-out style with its padlock
+still closed and its「敷地権登記済み」tag unchanged, to show it is
+unaffected by 丁だけの規約設定.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分離処分可能規約は区分建物の一部についてのみ設定できることを確認
+します。次に、丁区分建物についてのみ規約を設定した場合、丁についてのみ
+敷地権の登記を抹消する表題部変更登記を申請できることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+丁だけの規約設定も可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+抹消登記を先に済ませてから移転する
+Diagram: Draw 甲土地 as an isometric plot with a shaded slice labeled
+「Aの共有持分権」carrying a stamp「敷地権である旨の登記」. Place a numbered
+checkpoint tag "①" beside this stamp confirming「敷地権登記あり」. From
+here, draw a bold red ✕ arrow directly toward a document icon labeled
+「持分だけの移転登記」to show this path is blocked, with a small label
+「そのままでは不可」. Below this, draw the correct sequence as a
+left-to-right timeline: checkpoint "②" a document icon labeled「分離処分
+可能規約の設定」with a green checkmark, an arrow to checkpoint "③" a
+document icon labeled「敷地権登記抹消の表題部変更登記」with a green
+checkmark, an arrow to checkpoint "④" the same「持分だけの移転登記」
+document icon, now stamped with a green ✓, showing that the transfer
+registration becomes possible only after the regulation and cancellation
+steps are completed first.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地のAの持分に敷地権である旨の登記があるかを確認します。登記が
+あるままでは持分だけの移転登記はできないため、先に分離処分可能規約の
+設定と敷地権登記の抹消登記を済ませる必要があります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+抹消が先、移転は後
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：区分所有法22条1項（ア）／不動産登記法51条1項（イ）／区分所有法
+31条1項（ウ）／エは規約の定め方に関する取り扱いに基づく（本文参照）／
+不動産登記法73条2項（オ）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権・地・建・物・登・記・処・約・議・決・抹・消・所・共・敷・
+録・続. If any character renders as a Simplified Chinese variant, redraw
+that character in the correct Japanese form. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 (Panel 3) is drawn as an actual flowchart with
+branch nodes (not a bare illustration with no visible decision
+structure), that no 肢 with a genuinely hidden second condition has been
+flattened into a single check, that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element from
+the source article distinct (no merged or dropped requirements), that
+Panel 3's faded diamond node and Panel 4's faded 戊区分建物 section clearly
+distinguish the highlighted path from the faded, unreached or unaffected
+one, confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all
+肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
