@@ -202,3 +202,179 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+土地の表示登記の申請情報・添付情報に関する5肢について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。会社法人等番号による省略の系統図（ア）、住民票コードによる省略の配置図（イ）、地番は登記官が定めるという思い込みを正す対比図（ウ）、識別情報を紛失した場合の対応をたどるタイムライン（エ）、私人申請と官公署嘱託を左右で対比する枠（オ）の5パネル構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric company and government-office
+buildings, glowing ID/number-tag icons, documents and official stamps,
+a registrar figure (登記官), land plots, a person with a puzzled
+expression for lost information, and prohibition (red X) marks — adapt
+these to each panel. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度 午後の部 第8問 ア〜オ
+作図ガイド（表示登記の添付情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+番号提供で権限証明書は原則不要
+Diagram: An isometric company building icon connected by an arrow to a
+glowing ID tag labeled「会社法人等番号」, which is connected by a further
+arrow to a document labeled「支配人の権限を証する登記事項証明書」carrying
+a large red X mark, showing the certificate becomes unnecessary once the
+number is supplied. A small registrar figure beside it holds a checkmark
+labeled「番号から確認可能」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず申請人が会社法人等番号を提供しているかを確認します。提供しているとき
+は、次に支配人の権限を証する登記事項証明書の提供を原則として省略できるこ
+とを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+権限証明書は原則不要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+住民票コード提供で住所証明は不要
+Diagram: An isometric person (申請人) standing beside a land plot labeled
+「表題登記」, holding a glowing card labeled「住民票コード」. An arrow
+points from the card to a document labeled「住所を証する情報(住民票の写
+し等)」carrying a large red X mark, showing it need not be attached once
+the code is supplied.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず申請人が住民票コードを申請情報と併せて提供しているかを確認します。提
+供しているときは、次に住所を証する情報を別途提供する必要がないことを確認
+します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+住所証明は不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in beige/amber containing the number 3.
+Heading (bold, ONE line):
+地番は登記官が定め申請人は書かない
+Diagram: A two-panel contrast. Left panel labeled「誤りやすい思い込み」
+shows an applicant figure writing a number tag onto a blank land plot
+with a pencil, with a large red X mark over the pencil. Right panel
+labeled「正しいルール」shows the same blank land plot with a registrar
+figure（登記官）stamping a new number tag onto it after the 表題登記 is
+filed, labeled「登記官が地番を定める」with a checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその土地がまだ登記されていない表題登記の段階であることを確認します。
+次に、地番を定めるのは申請人ではなく登記官であることを確認します。
+Conclusion tag (a short colored banner/pill, beige/amber, 5-15 Japanese
+characters):
+申請人の記載は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+識別情報を紛失したら理由を記載する
+Diagram: A left-to-right timeline of three stages connected by arrows.
+Stage 1: an isometric person with a puzzled expression next to an empty
+document holder labeled「登記識別情報」and the label「失念」. Stage 2
+(arrow from Stage 1): a 合筆の登記の申請情報 form. Stage 3 (arrow from
+Stage 2): a note being written onto that form reading「提供できない理由
+(失念)」with a checkmark, next to two land plots being merged（合筆）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず登記識別情報を提供できない正当な理由(失念など)があるかを確認します。
+理由があるときは、次にその理由を申請情報の内容として記載しているかを確認
+します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+理由を申請情報に記載
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+官公署の嘱託なら所有権証明を省略できる
+Diagram: Two side-by-side panels. Left panel labeled「私人が申請する場
+合」shows a person handing a document labeled「所有権を証する情報」with a
+checkmark to the registrar. Right panel labeled「官公署が嘱託する場合」
+shows an isometric government building（官公署）with an official stamp
+sending a document labeled「嘱託書」toward a land plot, with the「所有権
+を証する情報」document carrying a large red X mark beside it, showing it
+is omitted.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその土地の表題登記が私人の申請か官公署の嘱託かを確認します。官公署の
+嘱託であるときは、次に所有権を証する情報の提供を省略できることを確認しま
+す。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+所有権証明は省略可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不登令7条1項1号・不登令9条・不登法35条・不登令3条12号（準則42条1項）・
+不登法16条2項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・権・地・番・登・記・所・証・識・別・嘱・託. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
