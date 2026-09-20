@@ -204,3 +204,208 @@ between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
 a short heading + a short conclusion tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+土地家屋調査士法について、ア〜オの5肢それぞれで「問題文を読んだ瞬間に何を確認し、どの順番で図を描けば正誤にたどり着けるか」を示す作図ガイド。②の俯瞰カードポスターが5肢の結論を一覧することに主眼を置くのに対し、こちらは結論に至るまでの思考の手順そのものを可視化する目的で作成している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric 調査士 figures, survey equipment,
+official document folders, office/registry buildings, torn-paper labels,
+locked-document icons, and diamond-shaped decision nodes with yes/no
+branch arrows. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. Where a panel reuses a
+decision tree shared with other panels in this set, render the branch
+relevant to THIS panel with a thick highlighted border and full color,
+and render the other, unrelated branches in a faded, greyed-out, or
+dotted-outline style rather than omitting them — the reader should be
+able to see at a glance which part of the shared tree this panel is
+about. Likewise, where a diagram must show an entity that conceptually
+never held the right or status in question, render that entity or claim
+in a faded or dotted-outline style rather than a plain ○/✕ mark, so the
+visual itself communicates "this was never really there," not just "this
+is wrong." Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後第20問 ア〜オ
+作図ガイド(土地家屋調査士法)
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+筆界特定の代理業務は正当事由なく拒否できる
+Diagram: Draw an actual decision flowchart. A diamond node reads「依頼の
+内容は、通常の業務応諾義務の対象となる業務か、それとも筆界特定の手続に
+ついての代理業務・相談業務か」。A No arrow(通常の業務、faded,
+dotted-outline style) leads to a faded conclusion node labeled「原則、
+正当な事由がなければ拒めない」。A Yes arrow(筆界特定の代理業務・相談業
+務、thick highlighted border, full color, 本肢のケース) leads to an
+isometric 調査士 figure holding a document labeled「筆界特定の代理業務」
+who calmly shows an open palm toward a client handing over an envelope,
+with a small round badge nearby labeled「正当な事由 不要」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、依頼の内容が、通常の業務応諾義務の対象となる業務か、それとも筆界
+特定の手続についての代理業務・相談業務かを確認します。次に、後者に当た
+る場合は依頼に応ずる義務の対象から外れていることを確認すると、正当な
+事由がなくても依頼を拒めるとわかります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+正当事由不要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+登録申請書は調査士会経由で連合会へ提出
+Diagram: An isometric figure (登録申請者) holds a document labeled「登録
+申請書」at a fork in the road. One path leads directly to a 法務局・地方
+法務局の建物アイコン, drawn faded and greyed-out with a large red X over
+it. The other path(thick highlighted border, full color) leads to a 土
+地家屋調査士会の建物アイコン(事務所を設けようとする地を管轄する区域内)
+、and continues with a further arrow to a 日本土地家屋調査士会連合会の
+建物アイコン, where the document is finally received.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登録申請書をどこに提出するのかを確認します。次に、提出先が事務所
+を設けようとする地を管轄する法務局又は地方法務局ではなく、その管轄区
+域内に設立された土地家屋調査士会であることを確認すると、調査士会を経
+由して日本土地家屋調査士会連合会に提出することになるとわかります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+調査士会経由
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+秘密保持義務にも正当な事由による例外がある
+Diagram: Draw an actual decision flowchart. An isometric 調査士 figure
+holds a locked document labeled「秘密」with both arms. A diamond node
+above reads「業務上取り扱った事件について知ることのできた秘密を漏らす
+ことに、正当な事由があるか」。A Yes arrow(thick highlighted border, full
+color, 本肢が検討するケース) leads to a half-open door labeled「正当な
+事由」with light coming through, and a conclusion label「例外として秘密
+を漏らすことが許される」。A No arrow(faded, dotted-outline style) leads
+to a fully closed door, faded, labeled「原則:漏らしてはならない」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、業務上取り扱った事件について知り得た秘密を漏らそうとする場面で、
+正当な事由があるかどうかを確認します。次に、正当な事由がある場合には、
+原則である秘密保持義務の例外として、秘密を漏らすことが許されるとわか
+ります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+正当事由で例外
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+やむを得ない事由があっても補助者には任せられない
+Diagram: A contrast panel split left and right. LEFT (red-tinted,
+誤りやすい思い込み): 土地家屋調査士のキャラクターが測量機器(トータルス
+テーション)を補助者のキャラクターに手渡そうとしている構図、吹き出し
+「やむを得ない事由があるから任せていいはず」、大きな赤い✕マークが手渡
+しの動作に重なる。RIGHT (green-tinted, 正しいルール): 調査士本人(thick
+highlighted border, full color)が自ら測量機器を構えて使用しており、補
+助者のキャラクターはその場から離れて見ているだけの構図、吹き出し「事
+由の有無にかかわらず、他人に業務を取り扱わせることは一律禁止」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、繁忙期や人手不足など、やむを得ない事由があるかどうかを確認しよ
+うとする発想を疑います。次に、他人にその業務を取り扱わせてはならない
+という規定には、やむを得ない事由による例外が定められていないことを確
+認すると、事由の有無にかかわらず測量業務を補助者に取り扱わせることは
+できないとわかります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+補助者は不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+調査士法人は社員1人でも設立できる
+Diagram: An isometric lone 土地家屋調査士 figure stands in front of a
+building with a sign reading「土地家屋調査士法人」, holding a 定款 document
+overhead, with a small label「社員1人」next to a green checkmark. No
+other figures are needed beside him.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地家屋調査士法人の社員となろうとする土地家屋調査士が何人いる
+かを確認します。次に、その人数が1人であっても定款を定めて設立するこ
+とが認められていることを確認すると、一人法人としての設立が可能とわか
+ります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一人でも設立可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：ア 土地家屋調査士法22条かっこ書・同法施行規則25条2項／
+イ 土地家屋調査士法9条1項／ウ 土地家屋調査士法24条の2／
+エ 土地家屋調査士法施行規則22条／オ 土地家屋調査士法26条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 調・査・録・義・務・筆・界・補・助・秘・密・測・法・人. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢 is drawn as an actual flowchart with branch nodes (not
+a bare illustration with no visible decision structure), that no 肢 with
+a genuinely hidden second condition has been flattened into a single
+check, that each 着眼点 callout states a checking order rather than only
+a conclusion and keeps every required element from the source article
+distinct (no merged or dropped requirements), that any panel sharing a
+decision tree with another panel clearly distinguishes its own
+highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed O/X grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
