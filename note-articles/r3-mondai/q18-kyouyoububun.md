@@ -233,7 +233,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — isometric apartment buildings with individual
 room labels (e.g. 101号室・202号室), person icons holding a stamp or
 signing a document, folded-paper document icons for 規約 and 登記事項,
-a bank building icon for 抵当権者, a red ribbon/seal icon for 抵当権,
+a bank building icon for ていとう権者, a red ribbon/seal icon for ていとう権,
 calendar and hourglass icons for time limits, and construction-scaffolding
 icons for a not-yet-completed building. Where a 肢 requires checking
 multiple conditions in sequence before reaching a conclusion, draw the
@@ -381,28 +381,28 @@ characters):
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
-抵当権登記の有無と承諾情報の要否を確認する
+ていとう権登記の有無と承諾情報の要否を確認する
 Diagram: A relationship diagram (系統図). In the center, an isometric
-building with a red ribbon/seal icon attached, labeled「抵当権の設定
+building with a red ribbon/seal icon attached, labeled「ていとう権の設定
 登記」. A small diamond-shaped decision node above the building reads
-「対象建物に抵当権の設定登記があるか」. A green「はい」line leads left to
-a bank-building icon labeled「抵当権の登記名義人」, from which a document
+「対象建物にていとう権の設定登記があるか」. A green「はい」line leads left to
+a bank-building icon labeled「ていとう権の登記名義人」, from which a document
 icon (stamped with a hanko, or an icon of a court gavel as an alternative)
 labeled「承諾を証する情報／対抗できる裁判があったことを証する情報」moves
 toward the right, joining the building's registration application icon
 labeled「共用部分である旨の登記の申請情報」, ending at a green conclusion
 node reading「承諾情報等を併せて提供する」. A separate, faded/dotted-
-outline branch labeled「いいえ（抵当権登記がない場合、今回は対象外）」
+outline branch labeled「いいえ（ていとう権登記がない場合、今回は対象外）」
 sits off to the side in grey, without a fabricated conclusion attached to
 it, only the label「今回の論点ではない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、共用部分である旨の登記をしようとする建物に抵当権の設定登記がある
-かを確認します。次に、抵当権がある場合は、抵当権者の承諾を証する情報、
+まず、共用部分である旨の登記をしようとする建物にていとう権の設定登記がある
+かを確認します。次に、ていとう権がある場合は、ていとう権者の承諾を証する情報、
 またはこれに対抗することができる裁判があったことを証する情報を、申請
 情報と併せて提供しなければならないと判定します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-抵当権者の承諾等が必要
+ていとう権者の承諾等が必要
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):

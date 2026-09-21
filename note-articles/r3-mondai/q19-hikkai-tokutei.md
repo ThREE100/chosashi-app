@@ -239,7 +239,7 @@ representing the different forms of 所有権登記名義人等（登記名義�
 相続人などの一般承継人・売買による特定承継人・表題部所有者）, a counter
 with a red barrier for a blocked request, a filing cabinet for 提出資料, a
 meeting-room door for 意見聴取等の期日, a relay baton for 地位承継, and a
-red-barred figure for 抵当権者. Where a 肢 requires checking multiple
+red-barred figure for ていとう権者. Where a 肢 requires checking multiple
 conditions in sequence before reaching a conclusion, draw the panel's
 diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
@@ -380,7 +380,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 --- PANEL 4（肢エ） ---
 Badge: a filled circle in orange containing the number 4.
 Heading (bold, ONE line):
-抵当権者は「関係人」に含まれない
+ていとう権者は「関係人」に含まれない
 Diagram: A decision-tree flowchart with one root diamond labeled 提出資
 料の閲覧を求めているのは誰か, branching into four labeled paths (not a
 simple yes/no pair). Path 1: 申請人本人 → a conclusion node with a green
@@ -389,20 +389,20 @@ simple yes/no pair). Path 1: 申請人本人 → a conclusion node with a green
 reading 閲覧できる. Path 3: 関係土地の所有権登記名義人等 → labeled 関係
 人に該当 → a conclusion node with a green ✓ reading 閲覧できる. Path 4,
 drawn with a thick highlighted border and full color (this panel's
-focus): 抵当権の登記名義人 → labeled どの区分にも該当しない → a
+focus): ていとう権の登記名義人 → labeled どの区分にも該当しない → a
 conclusion node with a red ✕ reading 閲覧できない. Illustrate this with
 a filing cabinet labeled 提出資料; isometric figures for 申請人 and 関
 係人 stand beside it with green ✓ marks, allowed to look inside; a
-separate isometric figure labeled 抵当権者 stands outside a red barrier
+separate isometric figure labeled ていとう権者 stands outside a red barrier
 with a ✕ mark, unable to approach.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、閲覧を求めているのが申請人本人かを確認し、次に、申請人でなければ
 「関係人」（対象土地の所有権登記名義人等のうち申請人以外の者、または関
-係土地の所有権登記名義人等）のどちらかに当たるかを確認します。抵当権の
+係土地の所有権登記名義人等）のどちらかに当たるかを確認します。ていとう権の
 登記名義人は、このどちらにも当たらないため、提出資料を閲覧することはで
 きません。
 Conclusion tag (orange, 5-15 Japanese characters):
-抵当権者は閲覧不可
+ていとう権者は閲覧不可
 
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in green containing the number 5.
