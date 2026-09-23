@@ -226,3 +226,248 @@ immediately after the last card), and confirm the entire canvas, edge to
 edge, is filled with a fully opaque background with no transparency or
 alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に何を確認し、どの順番で結論にたどり着くかを、肢ごとに示す作図ガイド。ア・イは決定木（フローチャート）型、ウ・エは対比枠型・正誤対比型で「別の話」「思い込み」を切り分け、オは配置図型で内側線と中心線の違いを示す構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric buildings with exterior roofed
+staircases, room cross-sections showing sloped low ceilings, multi-story
+floor plans with individual floor icons, floor plans split by partition
+walls into 甲/乙 rooms, measuring tapes tracing wall centerlines and inner
+wall edges, government registration document and stamp icons, and
+calendar icons marking filing deadlines. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Where a panel reuses a decision tree shared with other panels in this
+set, render the branch relevant to THIS panel with a thick highlighted
+border and full color, and render the other, unrelated branches in a
+faded, greyed-out, or dotted-outline style rather than omitting them —
+the reader should be able to see at a glance which part of the shared
+tree this panel is about. Likewise, where a diagram must show an entity
+that conceptually never held the right or status in question (e.g.
+someone who was never an heir, or a claim that never existed), render
+that entity or claim in a faded or dotted-outline style rather than a
+plain ○/✕ mark, so the visual itself communicates "this was never really
+there," not just "this is wrong." Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認
+します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text — do not drop or merge a
+required element (e.g. keep "善意" and "無過失" as two distinct checks if
+the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成19年度 午前の部 第4問 ア〜オ
+作図ガイド（床面積の算入・登記手続）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+屋外階段は屋根の有無を問わず不算入
+Diagram: A decision-flowchart diagram. Diamond node 1 labeled 「階段は
+建物の外側にあるか」. If ○ (Yes): arrow down to diamond node 2 labeled
+「屋根があるか」, with both its ○ branch arrow and its ✕ branch arrow
+converging into a single conclusion node reading 「床面積に算入しない」,
+and a small red X stamped over a separate icon labeled 「屋根の有無」next
+to that conclusion node to visually show this condition does not change
+the outcome. If ✕ (No) from node 1 (the staircase is indoor, e.g. a
+stairwell or elevator shaft): arrow down to a separate conclusion node
+reading 「床面積に算入する」, with a small footnote tag 「準則82条6号」next
+to it. Render node 1 near the top of the panel and both conclusion nodes
+side by side near the bottom, so the reader sees the outdoor-staircase
+and indoor-staircase outcomes as two distinct branches from the same
+first question. Include a small isometric house icon with a roofed
+exterior staircase attached to the outside wall near node 1 for visual
+context.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、階段が建物の外側にあるか屋内にあるかを確認します。屋外の階段であれば、
+屋根の有無にかかわらず床面積には算入しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+屋根の有無は無関係
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+各階ごとの増減で変更登記が必要になる
+Diagram: A decision-flowchart diagram. Diamond node 1 labeled 「建物全体
+の総床面積は変わったか」. Its ✕ (No, total unchanged) branch arrow
+continues down to diamond node 2 labeled 「各階ごとの床面積は変わったか」.
+From node 2, the ○ (Yes) branch arrow leads to a conclusion node reading
+「表題部の変更登記が必要」with a small calendar icon tagged 「1か月以内」
+next to it; the ✕ (No) branch from node 2 leads to a separate conclusion
+node reading 「変更登記は不要」. Also render a small isometric 5-story
+building icon near node 1, with the top floor's icon crossed out and
+removed while the ground floor's icon grows larger by the same amount,
+and a balance scale between the two floor icons staying level, to show
+visually that the building's total floor area is unchanged even though
+this alone does not end the check.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物全体の総床面積が変わったかを確認します。次に、変わっていなくても
+各階ごとの床面積が変わっていないかを確認し、変わっていれば表題部の変更登記
+が必要です。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+各階ごとに登記事項
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+低い天井部分も含めて室の面積とする
+Diagram: A two-panel side-by-side comparison layout (not a flowchart).
+LEFT panel labeled 「一室の一部が1.5m未満・通常の階」: an isometric
+cross-section of a room with a sloped ceiling; a shaded low corner is
+marked with a ruler icon reading 「1.5m未満」; an arrow points from the
+shaded corner into the room's total floor-area icon with a green
+checkmark next to a small tag reading 「含める」, while a separate icon
+labeled 「除外」has a large red X mark over it. RIGHT panel labeled
+「階全体が1.5m未満・特殊階」: an isometric attic-like floor where the
+entire ceiling is low and shaded throughout; an arrow points from the
+whole floor into a document icon labeled 「床面積」carrying a tag reading
+「階自体を算入しない場合がある」. Place a bold vertical divider between the
+two panels so the reader clearly sees these are two different fact
+patterns, not two steps of the same check.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、天井が低い部分が「一室の一部」なのか「階全体」なのかを確認します。
+一室の一部であれば、その部分を除外せず含めて床面積を算出します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一室の一部は含める
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+更正登記は変更登記と違い義務がない
+Diagram: A two-panel side-by-side comparison layout (not a flowchart).
+Above the RIGHT panel, place a small isometric reference icon labeled
+「変更登記・51条1項」: a document icon with a calendar tag reading 「1か月
+以内」and a green checkmark, connected by a faint dotted arrow down to
+the RIGHT panel, to show where the mistaken assumption below comes from.
+LEFT panel labeled 「正しいルール・53条1項」: an isometric building common
+room labeled 「共用部分」with a small stamp reading 「所有者」next to a
+document icon labeled 「更正登記」carrying a green checkmark, and a
+calendar icon labeled 「期限の定めなし」. RIGHT panel labeled 「誤りやすい
+思い込み」: the same document icon labeled 「更正登記」, but this time
+paired with a calendar icon reading 「1か月以内に申請・義務」that has a
+large red X mark and a strikethrough line drawn across it, showing this
+assumption is wrong. Place a bold vertical divider between the two
+panels.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっているのが変更登記なのか更正登記なのかを確認します。更正
+登記は申請できる者を限定する規定にとどまり、期限内の申請義務を課す文言は
+ありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+申請義務なし
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+区分後の床面積は内側線で実測する
+Diagram: An isometric floor-plan diagram. A single building floor
+originally labeled 「普通建物・中心線基準」with a dashed centerline running
+through the surrounding walls and a total-area tag reading 「100m2」. An
+arrow shows the floor being split by a partition wall into two room
+icons labeled 「甲」and 「乙」. Below, show two candidate calculation
+methods side by side: one icon showing a calculator with a simple
+proportional split (percentage marks) and a tag reading 「案分計算」, with
+a large red X mark over it; the other icon showing a measuring tape
+tracing the inside edge of each wall and a tag reading 「実測」with a
+green checkmark next to it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、区分前の建物が中心線基準で登記されていることを確認します。次に、
+区分後の甲・乙の床面積は内側線基準で改めて実測する必要があり、案分計算
+では済みません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+内側線で実測
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則82条1号・6号・7号、不動産登記法51条1項・53条1項、
+不動産登記規則115条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 積・階・段・登・記・線・実・測・義・務・
+変・図. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢 is drawn
+as an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
