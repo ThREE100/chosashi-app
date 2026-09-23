@@ -191,3 +191,211 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — two isometric buildings with a merge arrow
+between them, registry stamp icons for the various registrations (所有権
+移転仮登記, 抵当権の登記, 移転の仮登記, 変更の登記), a dashed frame
+representing a 工場財団, and buildings with or without a 敷地権 label.
+Panels 1・2・3（肢ア・イ・ウ）all turn on the same three-diamond decision
+tree used to judge whether a registered right blocks the merger under
+不動産登記規則131条: diamond 1「所有権に関する登記か」, diamond 2「担保権
+(抵当権等)または信託の登記か」, diamond 3「目的・受付年月日・受付番号・登
+記原因及びその日付(信託は登記事項)が同一か」, leading to two conclusion
+nodes「合併の登記を申請できない」and「合併の登記を申請できる」. Each of
+Panels 1・2・3 must render this same three-diamond tree in full, with the
+diamond(s) and branch(es) relevant to THIS panel's 肢 drawn with a thick
+highlighted border and full color, and the other diamonds and branches
+rendered in a faded, greyed-out, dotted-outline style rather than omitted
+— the reader should see at a glance which part of the shared tree this
+panel is about. Panel 4（肢エ）concerns an entirely separate rule (工場
+財団の登記) that does not go through this 131条 decision tree, so draw it
+as a standalone labeled illustrative diagram instead of the shared tree.
+Panel 5（肢オ）is a case where a reader might mistakenly assume the
+question is about the same 131条 decision tree, when it is actually a
+different issue (whether a 敷地権 building and a non-敷地権 building can
+combine as main and attached buildings), so draw it as a LEFT/RIGHT
+contrast panel that visually separates the two issues rather than forcing
+it into the shared tree. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成20年度午後第18問 ア〜オ
+作図ガイド（建物の合併登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft beige containing the number 1.
+Heading (bold, ONE line):
+所有権の登記は131条の例外に当たらない
+Diagram: Render the full shared three-diamond decision tree described
+above. Diamond 1「所有権に関する登記か」is highlighted with a thick
+colored border and full color, with its「はい」arrow leading to the
+highlighted conclusion node「合併の登記を申請できない」；diamond 2, diamond
+3, their branches, and the「合併の登記を申請できる」conclusion node are all
+rendered in a faded, greyed-out, dotted-outline style. Add small icons of
+two isometric buildings, each bearing an identical 所有権移転仮登記のス
+タンプアイコン, positioned above diamond 1.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、両建物にある登記が所有権に関する登記か、担保権や信託の登記かを確認
+します。所有権に関する仮登記は規則131条の例外に当たらないため、内容が同
+一であっても合併の障害になります。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+所有権登記は障害
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft beige containing the number 2.
+Heading (bold, ONE line):
+抵当権の移転仮登記は内容が同一なら合併できる
+Diagram: Render the full shared three-diamond decision tree described
+above. Diamond 1「所有権に関する登記か」is faded/greyed with its「いい
+え」branch shown; diamond 2「担保権(抵当権等)または信託の登記か」and
+diamond 3「目的・受付年月日・受付番号・登記原因及びその日付が同一か」are
+highlighted with thick colored borders and full color, with both「はい」
+arrows leading to the highlighted conclusion node「合併の登記を申請でき
+る」；the「合併の登記を申請できない」conclusion node and its branches are
+faded. Add small icons of two isometric buildings, each bearing an
+identical 抵当権の登記スタンプ and an identical 移転の仮登記スタンプ.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、両建物にある抵当権とその移転仮登記が担保権の登記であるかどうかを確
+認します。次に、目的・受付年月日・受付番号・登記原因及びその日付が同一か
+どうかを確認し、同一であれば合併の登記を申請できます。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+担保権なら合併可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft beige containing the number 3.
+Heading (bold, ONE line):
+抵当権の変更登記も内容が同一なら合併できる
+Diagram: Render the full shared three-diamond decision tree described
+above. Diamond 1「所有権に関する登記か」is faded/greyed with its「いい
+え」branch shown; diamond 2「担保権(抵当権等)または信託の登記か」and
+diamond 3「目的・受付年月日・受付番号・登記原因及びその日付が同一か」are
+highlighted with thick colored borders and full color, with both「はい」
+arrows leading to the highlighted conclusion node「合併の登記を申請でき
+る」；the「合併の登記を申請できない」conclusion node and its branches are
+faded. Add small icons of two isometric buildings, each bearing an
+identical 抵当権の登記スタンプ and an identical 変更の登記スタンプ.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、変更登記も担保権の登記に含まれるかどうかを確認します。次に、目的・
+受付年月日・受付番号・登記原因及びその日付が同一かどうかを確認し、同一で
+あれば合併の登記を申請できます。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+変更登記も合併可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft beige containing the number 4.
+Heading (bold, ONE line):
+工場財団に属する建物は合併できない
+Diagram: A labeled illustrative diagram (not a flowchart): two isometric
+buildings enclosed together within a dashed frame labeled「工場財団」,
+alongside a small factory/machine icon representing the rest of the
+財団; a merge arrow drawn between the two buildings is crossed out with a
+large red ✕, with the label「財団の一体性を崩す処分」next to it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、両建物が同じ工場財団に組み入れられているかどうかを確認します。財団
+に属する建物は財団という一つの担保のかたまりの一部であるため、同じ財団で
+あっても通常の合併登記の手続では一つにまとめられません。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+財団は合併不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft beige containing the number 5.
+Heading (bold, ONE line):
+敷地権登記の有無は131条とは別の論点
+Diagram: A LEFT/RIGHT contrast diagram: LEFT side labeled「131条の例外の
+話ではない」shows a 担保権の登記スタンプアイコン crossed out with a red ✕,
+indicating this 肢 is not about the 131条 decision tree used in Panels 1・
+2・3; RIGHT side labeled「主・附属の組み合わせの話」shows an isometric
+building labeled「敷地権の登記がある主である建物」next to another isometric
+building labeled「敷地権の登記がない附属建物」, connected by a merge arrow
+with a「？」mark and the note「要件を満たせば合併可」underneath.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この肢が131条の担保権・信託の例外の話ではなく、敷地権のある建物と
+ない建物を主・附属として組み合わせる話であることを確認します。敷地権登記
+の有無が違うというだけで一律に申請できないと決まっているわけではなく、要
+件を満たせば合併の登記を申請できる場合があります。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+一律に不可ではない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法56条、不動産登記規則131条に基づく整理です。オの根拠となる条
+文・先例は記事本文でも特定できていません。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・登・財・団・担・仮・変. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that Panels 1・2・3 each render the full shared
+three-diamond decision tree with their own relevant branch highlighted
+and the other branches faded rather than omitted, that Panel 4 is a
+standalone illustrative diagram (not the shared tree), that Panel 5 is a
+LEFT/RIGHT contrast panel rather than a flowchart, that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
