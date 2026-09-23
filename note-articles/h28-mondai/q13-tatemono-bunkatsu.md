@@ -448,3 +448,239 @@ of any kind — the poster ends immediately after the last step), and
 confirm the entire canvas, edge to edge, is filled with a fully opaque
 background with no transparency or alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだときに、5肢それぞれについて「どの順番で何を確認し、どんな図を描けば正誤にたどり着けるか」を示す作図ガイド。ア・イは承諾情報の有無／共用部分の登記の有無で結論が分かれる決定木、ウは売主と買主の関係図、エは登記記録の正誤対比、オは所有権の登記と附属建物の新築の先後を追うタイムラインで構成する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric icons of a main building (甲建物)
+with an attached warehouse annex (附属建物) being split off into a new
+building (乙建物), a mortgage tag (抵当権), consent and application
+document icons, registry record cards, a registry office counter, and
+simple buyer/seller figures. Panel 1 (肢ア) and Panel 2 (肢イ) each
+require checking conditions in sequence, so draw them as actual decision
+flowcharts: diamond-shaped branch nodes with the condition written on
+them, はい/いいえ branch arrows, and a final conclusion node for EACH
+branch. In both of these flowcharts, both the はい side and the いいえ side
+lead to their own separate conclusion node, and no arrow may loop back to
+an earlier node anywhere in the diagram — every branch arrow must end at a
+new conclusion node. Panel 3 (肢ウ) is a relationship diagram between the
+seller and the buyer with numbered checkpoints, Panel 4 (肢エ) is a
+side-by-side correct-vs-mistaken comparison of registry record cards, and
+Panel 5 (肢オ) is a left-to-right timeline — do not force a flowchart on
+Panels 3-5. No two panels in this set share the same decision tree, so
+each panel stands on its own. Where a diagram must show something that
+does not remain (e.g. a mortgage tag that is extinguished on one
+building, or a 転写 arrow that never happens), render that item in a
+faded or dotted-outline style, not just a plain ✕ mark, so the visual
+itself communicates "this is not there." Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成28年度 午後の部 第13問 ア〜オ
+作図ガイド（建物の分割の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line):
+消滅承諾情報があれば抵当権は甲建物だけに残る
+Diagram: A top-to-bottom decision flowchart.
+- Start box (rectangle, not a diamond): an isometric 甲建物 with a small
+  附属建物 about to be split off into 乙建物, with a 抵当権 tag attached,
+  labeled「①甲建物に抵当権の登記がある」.
+- Arrow down to a diamond branch node labeled「②抵当権者の消滅承諾情報を
+  申請情報と併せて提供したか」.
+- はい branch (thick highlighted border, full color, since this is the
+  situation described in this 肢) → conclusion node showing 甲建物 still
+  carrying the 抵当権 tag and 乙建物 whose 抵当権 tag is drawn faded and
+  dotted-outline, labeled「抵当権は甲建物のみに存続」with a small ✓.
+- いいえ branch (normal color, clearly drawn) → a separate conclusion node
+  showing both 甲建物 and 乙建物 each carrying a 抵当権 tag, labeled
+  「分割後の両方の建物に存続」.
+- Do not draw any arrow that loops back from either conclusion node to
+  the diamond or the start box.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲建物に抵当権など所有権以外の権利の登記があるかを確認します。次に、抵当権の登記名義人が乙建物について抵当権を消滅させることを承諾したことを証する情報が申請情報と併せて提供されたかを確認し、提供されていれば甲建物のみに存続、提供されていなければ分割後の両方の建物に及びます。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+甲建物のみに存続
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft green containing the number 2.
+Heading (bold, ONE line):
+共用部分の登記があると所有者証明が必要になる
+Diagram: A top-to-bottom decision flowchart.
+- Start box (rectangle): an application document icon labeled
+  「建物の分割の登記を申請」.
+- Arrow down to a diamond branch node labeled「甲建物に共用部分である旨の
+  登記があるか」.
+- いいえ branch (normal color, clearly drawn) → a separate conclusion node
+  showing a registry record card with a visible owner name field and a
+  magnifying glass, labeled「登記記録から所有者が分かる」and below it
+  「所有者を証する情報は不要」.
+- はい branch (thick highlighted border, full color, since this is the
+  situation described in this 肢) → an intermediate box showing a
+  registry record card whose owner field and rights section are struck
+  through, labeled「表題部所有者の記録・権利に関する登記が抹消」→ arrow
+  down to a conclusion node showing a document icon labeled「所有者を証す
+  る情報」with a green ✓, labeled「所有者を証する情報が必要」.
+- Beside the はい branch, a small faded speech bubble reading「共用部分だか
+  ら証明不要」with a large ✕ over it, to mark the tempting misreading.
+- Do not draw any arrow that loops back from either conclusion node to
+  the diamond or the start box.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、通常の分割登記では登記記録から申請人が所有者だと分かるため、所有者を証する情報は不要であることを確認します。次に、甲建物に共用部分である旨の登記があるかを確認し、あれば表題部所有者の記録と権利に関する登記が抹消されているため、所有者を証する情報の提供が必要になります。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+所有者証明が必要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft green containing the number 3.
+Heading (bold, ONE line):
+附属建物の買主は代位して分割登記を申請できる
+Diagram: A labeled relationship diagram (not a flowchart), with three
+numbered checkpoints placed along the arrows in order.
+- Left: an isometric seller figure standing beside 甲建物, labeled「売主
+  （甲建物の所有権の登記名義人）」.
+- Right: an isometric buyer figure standing beside the warehouse annex
+  (highlighted in a bright color), labeled「買主（附属建物だけを取得）」.
+- An arrow from the buyer to the seller labeled「①所有権移転登記請求権」.
+- The seller figure with folded arms and a small label「②分割登記に協力
+  しない」.
+- An arrow from the buyer to an isometric registry office counter
+  labeled「③売主に代位して分割登記を申請」with a green ✓.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、附属建物だけを買い受けた人が、売主である甲建物の所有権の登記名義人に対して所有権移転登記請求権を持っていることを確認します。次に、売主が分割登記に協力しない場合は、その請求権を保全するため、買主が売主に代位して分割登記を申請できると判断します。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+代位申請できる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line):
+所在が変わったら変更前の事項も抹消記号付きで残る
+Diagram: A side-by-side LEFT/RIGHT comparison (not a flowchart), with a
+small step label above both sides reading「①分割で不動産所在事項が変わる
+か → 変わる」.
+- LEFT box, headed「正しい記録」with a green ✓: an isometric registry
+  record card showing three fields filled in together:「変更後の不動産所
+  在事項」,「分割により変更した旨」, and「変更前の不動産所在事項」with a
+  strike-through line drawn over its text (the old text stays visible
+  under the line), plus a small label「抹消する記号」pointing to the line.
+- RIGHT box, headed「誤りやすい思い込み」with a large ✕: a registry
+  record card where the old address field has been erased to a blank,
+  dotted-outline gap and only「変更後の不動産所在事項」remains, labeled
+  「変更前をそのまま消す」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分割によって不動産所在事項に変更が生じるかを確認します。次に、生じる場合は、変更後の不動産所在事項・分割により変更した旨・変更前の不動産所在事項を抹消する記号の3点が記録され、変更前の記載がただ消されるわけではないことを確認します。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+変更前後を記録
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line):
+所有権の登記が先なら乙建物には転写されない
+Diagram: A left-to-right timeline (not a flowchart).
+- On a horizontal arrow, three event markers in order:「①甲建物の所有権
+  の登記」(first),「②附属建物の新築による表題部の変更の登記」(second),
+  and「③分割して乙建物に」(third).
+- Between markers ① and ②, a small checkpoint flag labeled「先後を確認：
+  所有権の登記が先」.
+- Below marker ③: an isometric registry record card for 乙建物 with a
+  glowing stamp reading「分割による所有権の登記をする旨」and a green ✓.
+  Next to it, a separate arrow icon labeled「転写」coming from 甲建物's
+  所有権 record, drawn faded and dotted-outline with a prohibition mark —
+  keep it clearly distinct from the glowing stamp so the two cannot be
+  confused.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲建物の所有権の登記と、分割する附属建物の新築による表題部の変更の登記の、どちらが先かを時系列で確認します。次に、所有権の登記が先であれば、その所有権の登記は甲建物に対してされたものなので、乙建物には転写せず、分割による所有権の登記をする旨を記録します。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+転写でなく新規記録
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：不動産登記法54条2項・3項、40条、58条4項、不動産登記令別表16項、不動産登記規則127条3項・128条2項、民法423条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・登・記・録・建・物・属・所・請・
+証・諾・続・割・転・写・抹・消・変・義・申・位. If any character renders
+as a Simplified or Traditional Chinese variant, redraw that character in
+the correct Japanese form. Also scan the entire canvas for any character
+that is not standard Japanese hiragana, katakana, or Jōyō kanji —
+including any Chinese-only character, Korean Hangul, other non-Japanese
+script, or stray decorative glyph — and remove or redraw it so that only
+standard Japanese text appears anywhere in the image. Confirm the panel
+count equals 5 exactly, badge numbers run 1-5 continuously, there is no
+intro illustration or paragraph block between the header and the panels,
+that Panels 1 and 2 are each drawn as an actual flowchart with a visible
+diamond branch node and a separate conclusion node on both the はい and
+いいえ sides (with no loop arrow returning to any earlier node), that no
+肢 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), that Panel 4 shows
+the old address with a strike-through line rather than erased, that
+Panel 5 shows the glowing「分割による所有権の登記をする旨」stamp and the
+faded「転写」arrow as two distinct icons, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with
+a fully opaque background with no transparency or alpha channel anywhere.
+```
