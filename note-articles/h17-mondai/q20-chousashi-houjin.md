@@ -196,3 +196,200 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+各記述を読んだ瞬間に「まず何を確認し、次に何を確認して、どんな図にたどり
+着くか」を追体験できるよう、肢1〜5の5つの記述分の作図ガイドパネルを1枚に
+まとめた。②の結論カードポスターとは別物として作成し、②の内容は変更して
+いない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric office buildings for 調査士会 and
+調査士法人, a person figure walking a path between buildings, a document
+icon labeled 報酬の算定方法, a closed file-folder icon for 事件簿, a
+calendar/timeline for time limits, and two office buildings side by side
+representing 主たる事務所 and 従たる事務所. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Where a diagram must show an outcome that does not apply in the source
+article's scenario, render that branch in a faded, greyed-out, or
+dotted-outline style rather than omitting it. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成17年度 午後の部 第20問 肢1〜5
+作図ガイド（調査士・調査士法人）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢1） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+移転先の調査士会を経由するかを確認する
+Diagram: An isometric figure carrying a document labeled「変更登録」
+walking from a building icon labeled「旧事務所（東京）」through a smaller
+waypoint building icon labeled「経由する調査士会（移転先の管轄区域）」
+toward a large building icon labeled「調査士会連合会」, with an arrow
+showing the path passing through the waypoint before reaching the final
+building.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、事務所を移転する際に、移転先の管轄区域内に設立された調査士会を経由
+するかを確認します。次に、経由したうえで、連合会に対し所属する調査士会の
+変更の登録を申請することを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+経由して連合会へ
+
+--- PANEL 2（肢2） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+受任前か受任後かを先に確認する
+Diagram: A horizontal timeline. At the left end, an isometric surveyor
+figure meeting a client figure, labeled「受任前」. An arrow points right
+to a document icon labeled「報酬の算定方法その他の報酬の基準」being handed
+to the client, positioned before a contract-signing icon labeled「受任」
+further along the timeline, showing the order of these two events.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、報酬の基準を示す時点が受任の前か後かを確認します。事務を受任しよう
+とする前の段階で、あらかじめ依頼者に示す必要があります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+受任前に提示必須
+
+--- PANEL 3（肢3） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+事件簿の閉鎖日から保存期間を数える
+Diagram: A closed file-folder icon labeled「事件簿」with a small lock
+icon, sitting on a shelf beside a marker labeled「閉鎖日」. A timeline
+arrow extends from the 閉鎖日 marker, with a calendar icon showing pages
+flipping forward, ending at a label reading「5年間（出題当時の規定。現行
+は7年間）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、事件簿を閉鎖した日がいつであるかを確認します。次に、その日を起点
+として、保存すべき期間が経過しているかを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+閉鎖後も保存が必要
+
+--- PANEL 4（肢4） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+定款に業務追加の定めがあるかを確認する
+Diagram: An isometric office building icon labeled「調査士法人」with a
+document labeled「定款」in front of it. An arrow connects the定款 document
+to a separate icon labeled「法務省令で定める業務」, ending at a green
+checkmark and a conclusion label reading「業務の全部又は一部を行える」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、調査士法人の定款に、法令等に基づきすべての調査士が行うことができる
+業務を行う旨の定めがあるかを確認します。定めがあれば、その業務の全部又は
+一部を行うことができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+定款の定めで追加可
+
+--- PANEL 5（肢5） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+常駐する社員はどの事務所基準かを確認する
+Diagram: A diamond-shaped decision node labeled「常駐させる社員は、その
+従たる事務所自体の所在地を管轄する調査士会の会員か」sits above two
+isometric office buildings side by side, one labeled「主たる事務所
+（東京）」and one labeled「従たる事務所（大阪）」. A green「はい」arrow
+leads to a badge-wearing figure standing inside the従たる事務所 matching
+the local region, ending at a green conclusion node reading「常駐の要件を
+満たす」. A red, thick-bordered「いいえ（今回はこちら）」arrow leads to a
+crossed-out figure wearing a「東京」badge standing inside the従たる事務所,
+ending at a red conclusion node reading「常駐の要件を満たさない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、常駐させる社員が主たる事務所の所在地を基準とする会員か、それとも
+その従たる事務所自体の所在地を基準とする会員かを確認します。従たる事務所
+自体の所在地を管轄する調査士会の会員でなければ、要件を満たしません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+その事務所の管轄会員
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+土地家屋調査士法13条1項・29条1号・36条／同法施行規則21条・28条2項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 登・記・調・査・士・務・所・報・酬・
+閉・鎖・定・款・常・駐・轄・従・業・員・経. If any character renders
+as a Simplified or Traditional Chinese variant, redraw that character in
+the correct Japanese form. Also scan the entire canvas for any character
+that is not standard Japanese hiragana, katakana, or Jōyō kanji —
+including any Chinese-only character, Korean Hangul, other non-Japanese
+script, or stray decorative glyph — and remove or redraw it so that only
+standard Japanese text appears anywhere in the image. Confirm the panel
+count equals 5 exactly, badge numbers run 1-5 continuously, there is no
+intro illustration or paragraph block between the header and the panels,
+that the multi-condition 肢 (panel 5) is drawn as an actual flowchart
+with branch nodes (not a bare illustration with no visible decision
+structure), that no 肢 with a genuinely hidden second condition has been
+flattened into a single check, that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element from
+the source article distinct (no merged or dropped requirements), confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
