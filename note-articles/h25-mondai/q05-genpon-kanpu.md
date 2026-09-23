@@ -201,3 +201,183 @@ tag, at a glance.
 > オ　（没問）
 >
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
+
+## インフォグラフィック プロンプト（ア〜エ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 4 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry counters, document stacks,
+filing cabinets, mail trucks, magnifying glasses, and stamps. Panel 1
+（肢ア）is a simple before/after timeline check and does not need a
+diamond-shaped flowchart. Panel 2（肢イ）uses a side-by-side comparison
+frame（対比枠型）rather than a flowchart, since the point of this 肢 is
+distinguishing between two equally valid return methods, not a sequential
+condition. Panel 3（肢ウ）must be drawn as a genuine two-diamond decision
+flowchart: this 肢 looks at first glance like a single check ("この印鑑
+証明書は原本還付の対象か"), but the article's own body text makes clear a
+second, hidden condition is doing the real work — WHICH document the 印鑑
+証明書 is attached to. Do not flatten this into one check; draw two
+diamond nodes in sequence as specified in the panel below, and render the
+branch that does not apply to 承諾書 in a faded, greyed-out style rather
+than omitting it. Panel 4（肢エ）is resolved by a single check and should
+use a labeled illustrative diagram rather than a forced flowchart. Unlike
+a glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成25年度午後第5問 ア〜エ
+作図ガイド（原本還付）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+還付は調査完了を待ってから請求
+Diagram: An isometric timeline showing a registry officer character
+stamping a 調査中 badge on a document, with a crossed-out return arrow
+during that phase. A single diamond node partway along the timeline:
+登記官の調査は完了したか？with a はい arrow leading to a conclusion node
+reading 原本の還付を請求できる, and a いいえ arrow leading to a separate
+conclusion node reading まだ原本の還付は請求できない（調査完了を待つ）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記官による調査が完了しているかどうかを確認します。調査完了前の
+段階では、まだ添付書面の内容確認が終わっていないため、原本の還付を請求
+することはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+調査完了後に請求
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+窓口でも郵送でも受け取れる
+Diagram: A side-by-side comparison frame（対比枠型）on an isometric
+registry-office counter scene. Left frame: the applicant character
+receiving the returned document directly at the counter window, labeled
+窓口で受け取り, with a green checkmark. Right frame: a small mail-truck
+icon delivering the same document to a house icon, labeled 申出により
+郵送で受け取り, also with a green checkmark. Both frames point to the same
+document icon labeled 原本, showing both methods lead to the same result.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+原本還付を受ける方法は、登記所の窓口で受け取る方法だけではないことを確認
+します。申出をすれば、原本を郵送で送付してもらう方法によっても受け取る
+ことができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+郵送での還付も可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+承諾書添付の印鑑証明書は対象外
+Diagram: An isometric mortgagee character（抵当権者B）signing and sealing a
+document labeled 抵当権消滅の承諾書 with a small 印鑑証明書 tag clipped to
+it. First diamond node (thick highlighted border): この印鑑証明書は、通常
+の添付書面に付けたものか、それとも同意・承諾を証する書面（令19条2項等）
+に付けたものか？Render the いいえ（通常の添付書面）branch in a faded,
+greyed-out style leading to a faded conclusion node reading 原則どおり
+還付可能（この肢では関係ない）, and highlight the はい（同意・承諾を証する
+書面）branch with a thick border, leading to a second diamond node (thick
+highlighted border): 規則55条1項ただし書が定める除外事由（令19条2項等の
+印鑑証明書）に当たるか？with a はい arrow leading to a conclusion node
+reading 原本の還付を請求できない, shown as the bundle being placed into a
+locked filing-cabinet icon labeled 登記所保管.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この印鑑証明書がどんな書面に添付されたものかを確認します。通常の
+添付書面ではなく、抵当権者の承諾を証する書面に添付されたものである場合
+は、次に規則55条1項ただし書が定める除外事由に当たるかを確認し、当たる
+場合は原本の還付を請求することができません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾書添付分は対象外
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+偽造・不正利用の疑いは対象外
+Diagram: An isometric document with a magnifying glass revealing a
+mismatched seal icon labeled 偽造の疑い. A single diamond node: 偽造された
+書面や不正な登記の申請に用いられた疑いがある書面か？with a はい arrow
+leading to the document being placed into the same locked filing-cabinet
+icon labeled 登記所保管 with a conclusion node reading 原本の還付を請求
+できない.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その添付書面が偽造されたものである疑いや、不正な登記の申請に利用
+された疑いがあるかどうかを確認します。疑いがあると認められる書面は、後日
+の調査や証拠保全のため、原本の還付を請求することができません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+不正疑いは対象外
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則55条（原本還付の要件・方法・除外事由）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 証・郵・還・偽・請・鑑 and any
+character with a visually similar Simplified or Traditional Chinese
+variant. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 4 exactly, badge numbers run
+1-4 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that 肢ウ is drawn as a genuine
+two-diamond flowchart rather than flattened into a single check, that
+each 着眼点 callout states a checking order rather than only a conclusion,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all
+肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
