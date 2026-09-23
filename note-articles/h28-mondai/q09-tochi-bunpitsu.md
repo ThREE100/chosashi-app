@@ -458,3 +458,274 @@ no additional text block of any kind), and confirm the entire canvas,
 edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、各肢で何をどの順番で確認すればよいかを示す作図ガイド。肢アは「地図そのものの誤りか、分筆線の誤りか」を切り分ける対比枠型、肢ウ・肢エは判定順序をたどる決定木型とし、申請人の適格（表題部所有者又は所有権の登記名義人か）を問う肢イ・肢オは同じ決定木を共有して、それぞれが関係する枝だけを強調する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x3000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots with dotted split lines,
+a flat registry map document, multi-page application documents with
+seals pressed at the page binding, circular precision-gauge dials
+labeled 甲2・乙1・乙3, an apartment building standing on land owned by a
+separate landowner figure, and a 管理組合理事長 figure.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, はい/いいえ (or ○/✕) branch arrows, and a final conclusion node.
+All branch labels must be written in Japanese (はい・いいえ), never in
+English. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Where a
+panel reuses a decision tree shared with other panels in this set, render
+the branch relevant to THIS panel with a thick highlighted border and full
+color, and render the other, unrelated branches in a faded, greyed-out, or
+dotted-outline style rather than omitting them — the reader should be
+able to see at a glance which part of the shared tree this panel is
+about. Likewise, where a diagram must show an element that is NOT used for
+the judgment in question (e.g. the precision class printed on an old map
+that is irrelevant to the decision), render that element in a faded or
+dotted-outline style rather than a plain ○/✕ mark, so the visual itself
+communicates "this is not part of the decision," not just "this is
+wrong." Every branch arrow must lead forward to a new node or a
+conclusion node — never draw a loop arrow that returns to an earlier node,
+and where a diamond node has two outcomes that are both real conclusions,
+draw BOTH destination nodes exactly as specified below. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep "表題部所有者" and "所有権の登記名義人"
+together as the two alternative qualifications named in the source
+article).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成28年度 午後の部 第9問 ア〜オ
+作図ガイド（土地の分筆の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled blue circle containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+分筆線の誤りは分筆錯誤の登記で直す
+Diagram: A two-frame comparison layout, not a flowchart. At the very top
+of the panel, a thin left-to-right timeline strip with three small
+steps connected by arrows: 分筆の登記 → 所有権の移転の登記 → 分筆線の誤りを発見.
+Below the strip, a small diamond-free question label: 何が誤っているか.
+Under it, two frames side by side, same height.
+LEFT frame (faded gray, dotted outline, because it is not this 肢's
+situation): labeled 地図そのものの誤り, showing a flat registry map
+document icon with an arrow to a small stamp labeled 地図訂正の申出.
+RIGHT frame (thick blue highlighted border, full color): labeled
+分筆線の誤り＝登記の内容自体の誤り, showing an isometric land plot with a
+crooked dotted dividing line. Inside this right frame, two small stamps
+labeled 地図訂正の申出 and 地積測量図の訂正の申出 are each crossed out with
+a ✕ mark, and a single glowing stamp labeled 分筆錯誤の登記 has a ○ mark,
+with an arrow from the crooked line to that glowing stamp.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、誤っているのが地図そのものなのか、分筆線という登記の内容自体なのかを確認します。分筆線の誤りであれば、地図訂正の申出や地積測量図の訂正の申出ではなく、分筆錯誤の登記を申請します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+分筆錯誤の登記で訂正
+
+--- PANEL 2（肢イ） ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line):
+共有物分割禁止の登記があっても共有者は分筆を申請できる
+Diagram: SHARED DECISION TREE (the same tree is reused in Panel 5 —
+draw it with the identical shape and node wording in both panels).
+Start node (rounded rectangle): 分筆の登記を申請しようとする人.
+Arrow down to Diamond node A: 表題部所有者又は所有権の登記名義人か.
+From Diamond A, two branches:
+- はい branch (THIS panel's branch — thick green highlighted border,
+  full color): arrow down to a rectangular check box B labeled
+  共有物分割禁止の定めは権利に関する登記の登記事項, with a small sub-label
+  権利の処分を制限するだけ. From box B, an arrow down to a green
+  conclusion node with a ○ mark: 分筆の登記を申請できる.
+- いいえ branch (faded gray, dotted outline, because it is not this
+  panel's branch): arrow sideways to a conclusion node with a ✕ mark:
+  分筆の登記を申請できない.
+Beside Diamond A, two small isometric co-owner figures labeled A and B,
+each holding a document labeled 所有権の登記名義人, and an isometric
+shared land plot with a small lock icon labeled 共有物分割禁止の定め next to
+box B. No loop arrows anywhere.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆の登記を申請しようとするＡ及びＢが所有権の登記名義人かを確認します。次に、共有物分割禁止の定めは権利に関する登記の登記事項で権利の処分を制限するにすぎないことを確認し、表示に関する登記である分筆の登記は申請できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+分筆の申請は可能
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line):
+つづり目の契印は申請人のうち1人が押せば足りる
+Diagram: A decision flowchart. At the top, a rectangular precondition
+box (not a diamond) labeled 書面申請で申請書が2枚以上, with an arrow
+down to a second box labeled 各用紙のつづり目に契印が必要. Beside it, a
+small isometric multi-page application document and two co-owner
+figures labeled A and B.
+Arrow down to Diamond node: 問われている押印はどちらか.
+From the diamond, two branches, both of which are real conclusions and
+must both be drawn with their own destination node:
+- Left branch labeled 申請書そのものへの記名押印 (normal color, thinner
+  border): arrow to a conclusion node 原則、申請人ごとに必要, illustrated
+  with two separate name seals, one from A and one from B, on the front
+  page signature lines.
+- Right branch labeled つづり目への契印 (THIS 肢's branch — thick blue
+  highlighted border, full color): arrow to a conclusion node with a ○
+  mark: 申請人のうち1人で足りる, illustrated with a single seal stamped
+  across the page binding, only figure A pressing it while figure B
+  stands beside empty-handed, and a small sub-label ページの連続性の確認.
+No loop arrows anywhere.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問われている押印が申請書そのものへの記名押印なのか、つづり目への契印なのかを区別します。契印はページの連続性を確認するための押印なので、申請人が2人以上いても、そのうちの1人がすれば足ります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+契印は1人でよい
+
+--- PANEL 4（肢エ） ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line):
+市街地地域の土地は甲2の限度で更正登記の要否を判断
+Diagram: A three-step decision flowchart, top to bottom, with a step
+number beside each step.
+Step 1 (rectangular box): 土地の地域区分を確認. From this box, three
+branch arrows fan out to three small zone icons:
+- 市街地地域 (city buildings icon) → gauge dial labeled 甲2 — THIS 肢's
+  branch, thick blue highlighted border, full color, and the target land
+  plot glowing inside this zone.
+- 村落農耕地域 (farmland icon) → gauge dial labeled 乙1 — faded gray,
+  dotted outline.
+- 山林原野地域 (mountain/forest icon) → gauge dial labeled 乙3 — faded
+  gray, dotted outline.
+Step 2 (rectangular box, reached only from the highlighted 甲2 dial):
+基準は甲2の誤差の限度.
+Step 3 (Diamond node): 分筆前後の地積の差は甲2の誤差の限度内か.
+From the diamond, two branches, both of which are real conclusions and
+must both be drawn with their own destination node:
+- はい → conclusion node: 地積の更正の登記の申請は不要
+- いいえ → conclusion node: 地積の更正の登記の申請が必要
+Off to the side of the flowchart, NOT connected to any node by an arrow,
+a flat rectangular map-document icon (not a dial) labeled 備付け地図の乙1,
+drawn faded with a dotted outline and a small label 判断に使わない.
+Draw exactly three gauge dials in this panel (甲2・乙1・乙3) and no
+other dial or clock-like icon. No loop arrows anywhere.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地がどの地域区分に属するかを確認し、次にその地域区分に対応する精度区分（市街地地域なら甲2）を確認します。最後に、分筆前後の地積の差がその精度区分の誤差の限度内かどうかで更正登記の要否を判断し、備え付けの地図が作られた精度区分（乙1）はこの判断に使いません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+基準は甲2の限度
+
+--- PANEL 5（肢オ） ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line):
+賃借権が敷地権の土地の分筆は理事長が単独で申請できない
+Diagram: The SAME SHARED DECISION TREE as Panel 2 (identical shape and
+node wording), preceded by one extra step at the top.
+Pre-step (rectangular box above the start node): 敷地権の種類＝賃借権,
+with an arrow down to a second box: 土地の所有権の登記名義人＝賃貸人.
+Beside these boxes, an isometric apartment building standing on a land
+plot, with a landowner figure labeled 賃貸人 below the plot.
+Then the shared tree: Start node 分筆の登記を申請しようとする人, with a
+管理組合理事長 figure placed at this node and a small label 管理者にすぎない.
+Arrow down to Diamond node A: 表題部所有者又は所有権の登記名義人か.
+From Diamond A, two branches:
+- いいえ branch (THIS panel's branch — thick green highlighted border,
+  full color): arrow sideways to a conclusion node with a ✕ mark:
+  分筆の登記を申請できない, with the 管理組合理事長 figure shown next to it.
+- はい branch (faded gray, dotted outline, because it is not this panel's
+  branch): arrow down to check box B 共有物分割禁止の定めは権利に関する登記の
+  登記事項 and then to the conclusion node 分筆の登記を申請できる, with the
+  faded 賃貸人 figure beside it.
+No loop arrows anywhere.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、敷地権の種類が賃借権であることから、敷地である土地の所有権の登記名義人は賃貸人である土地所有者だと確認します。次に、管理組合の理事長は管理者にすぎず土地の所有権の登記名義人ではないため、単独で分筆の登記を申請できないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+申請人は賃貸人
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法39条1項・59条6号、不動産登記令16条1項・2項、不動産登記規則10条4項・46条1項・2項・77条5項、不動産登記事務取扱手続準則72条1項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・地・登・記・図・積・錯・誤・契・
+印・請・区・街・賃・借・筆・訂・続・準. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character that
+is not standard Japanese hiragana, katakana, or Jōyō kanji — including
+any Chinese-only character, Korean Hangul, other non-Japanese script,
+English branch labels such as Yes/No, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously (panels 1, 3, 4 in blue; panels 2, 5 in green), there
+is no intro illustration or paragraph block between the header and the
+panels, that every multi-condition 肢 (panels 2, 3, 4, 5) is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check (in particular, Panel 5
+keeps the pre-step 敷地権の種類＝賃借権 → 土地の所有権の登記名義人＝賃貸人
+before Diamond A), that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), that Panels 2 and
+5 share the identical decision tree and each clearly distinguishes its
+own highlighted branch (Panel 2: はい branch; Panel 5: いいえ branch) from
+the other, faded branch, that the diamonds in Panels 3 and 4 each show
+both destination nodes with no loop arrow returning to an earlier node,
+that Panel 4 contains exactly three gauge dials and the 備付け地図の乙1
+element is a faded flat document shape not connected to the flowchart,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
