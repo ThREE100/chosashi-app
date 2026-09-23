@@ -294,3 +294,226 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（①〜⑦ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、`infographic-prompt-template.md`の
+「⑤ 作図ガイド型」ルールに基づき、問題文を読んだときに実際に手を動かして
+描くべき図と、その図にたどり着くまでに**どの順番で何を確認するか**を示す
+作図ガイド。本問は肢ア〜オではなく空欄①〜⑦の穴埋め形式のため、見出しと
+パネル構成は「ア〜オ」ではなく、②の区分建物（【Ａ】空欄①②③④⑤）・敷地
+権（【Ｂ】空欄⑥⑦）の定義を埋めるときに実際にたどる確認順序に沿って、
+5枚のパネルで構成した。パネル1（①構造上・⑤利用上）とパネル3（③専有
+部分・④規約共用部分）は複数の要件を順に確認する決定木型、パネル2（②
+用途の列挙）とパネル5（⑦職権で）は正しい語句と紛らわしい語句を対比させ
+る正誤対比型、パネル4（【Ｂ】敷地権・⑥土地）は敷地権と土地の登記記録の
+関係を示す配置図型とした。各パネルの着眼点コールアウトは「まず〜を確認
+し、次に〜を確認する」という確認の順序を明示する文にしている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric apartment building cross-section, a
+single spotlighted room, wall/floor/ceiling boundary lines, house/shop/
+office/warehouse use icons, a law book/scroll, a meeting room icon, a land
+plot, a registry ledger book, an official stamp/seal, prohibition marks,
+dotted connecting lines, blank-fill number tags, and diamond-shaped
+decision nodes with ✓/✕ marks where a requirement is checked. Where a
+panel requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No (or
+○/✕) branch arrows, and a final conclusion node. Where a panel is resolved
+by a single check, a labeled illustrative diagram is sufficient — do not
+force a flowchart. Where a panel reuses a decision tree shared with other
+panels in this set, render the branch relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated
+branches in a faded, greyed-out, or dotted-outline style rather than
+omitting them — the reader should be able to see at a glance which part of
+the shared tree this panel is about. Likewise, where a diagram must show
+an entity that conceptually never held the right or status in question
+(e.g. a 法定共用部分 that never counts as a 区分建物), render that entity
+in a faded or dotted-outline style rather than a plain ○/✕ mark, so the
+visual itself communicates "this was never really there," not just "this
+is wrong." Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成30年度 午後の部 第11問 ①〜⑦
+作図ガイド（区分建物・敷地権の定義）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+構造上と利用上、2つの独立性を順に確認する
+Diagram: Draw a decision flowchart starting from a single isometric room
+icon. Diamond 1 labeled「各部屋は壁・床・天井等で他と区別されているか
+（①構造上）」→「いいえ」branch to a dedicated result box「区分建物になら
+ない」;「はい」branch to Diamond 2 labeled「その部屋だけで住居・店舗等の
+用途に使えるか（⑤利用上）」→「いいえ」branch to its own dedicated result
+box「区分建物にならない」;「はい」branch to a final result box「区分建物
+として扱える」. Do not loop any branch back to an earlier node; every
+branch ends at its own dedicated result box.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、各部屋が壁・床・天井などで他の部屋とはっきり区別される「構造上」
+の独立性を確認します。次に、その部屋だけで用途に使える「利用上」の独
+立性を確認し、両方を満たして初めて区分建物として扱えると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+構造上と利用上の両方が必要
+
+--- PANEL 2 ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+用途の列挙は住居・店舗・事務所・倉庫
+Diagram: Split the panel into two side-by-side boxes. Left box labeled
+「語句群にある用途の列挙（正しい）」: four small icons in a row — a house/
+room icon labeled「住居」, circled and highlighted with a number tag
+「②」and a green checkmark, a shop icon labeled「店舗」, an office building
+icon labeled「事務所」, and a warehouse icon labeled「倉庫」. Right box
+labeled「紛らわしい語句（誤り）」: a parking-lot icon labeled「駐車場」
+with a large red X mark and a small note「条文の列挙にはない語句」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、条文が列挙する用途が「住居、店舗、事務所又は倉庫」の4つであるこ
+とを確認します。次に、語句群にある「駐車場」がこの列挙に含まれない紛
+らわしい選択肢であることを見分け、②には住居が入ると判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+②は住居
+
+--- PANEL 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+専有部分か規約共用部分かを順に見分ける
+Diagram: Draw a decision flowchart starting from a single isometric room
+icon. Diamond 1 labeled「区分所有権の対象そのものか」→「はい」branch to
+a dedicated result box「③専有部分」;「いいえ」branch to Diamond 2 labeled
+「本来は専有部分になり得る独立部分を規約で共用と定めたか」→「はい
+（規約共用部分）」branch to a dedicated result box「④規約共用部分（区分
+建物に含む）」with a green checkmark;「いいえ（廊下・階段のように構造上
+当然共用）」branch to a separate result box「法定共用部分（区分建物に含
+まない）」, rendered in a faded, greyed-out, dotted-outline style with a
+small prohibition mark to show it is excluded. Do not loop any branch back
+to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その部分が区分所有権の対象そのものである専有部分かどうかを確認
+します。次に、専有部分でない場合は、規約によって共用と定めた規約共用
+部分なのか、構造上当然に共用となる法定共用部分なのかを見分け、区分建
+物に含まれるのは規約共用部分の方だと判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+規約共用部分は含む
+
+--- PANEL 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+敷地権は専有部分と分離できない土地の権利
+Diagram: An isometric building sitting on top of a square land plot, with
+a dotted band wrapping around both the building and the land plot labeled
+「【Ｂ】敷地権」, and a prohibition (no-separation) icon placed between the
+building and the land plot. Beside the land plot, draw an open registry
+ledger book resting on the land, labeled「⑥土地の登記記録」, with a dotted
+arrow coming down from the building above pointing into the ledger.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、敷地権が専有部分と分離して処分できない土地の権利であることを確
+認します。次に、その敷地権がどちらの登記記録に登記されるかを確認し、
+⑥には土地が入ると判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+⑥は土地
+
+--- PANEL 5 ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+敷地権である旨の登記は職権でされる
+Diagram: Split the panel into two side-by-side boxes. Left box labeled
+「正しい取扱い」: a hand representing 登記官 pressing an official stamp
+onto a land ledger page, labeled「⑦職権で」, with a green checkmark.
+Right box labeled「誤りやすい思い込み」: a 申請書 (application document)
+icon with a person handing it in, crossed out with a large red X and a
+strike-through line, labeled「申請によりではない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、敷地権である旨の登記が当事者の申請を待たずに行われるものかどう
+かを確認します。次に、登記官が自らの判断で行う登記であることを確認
+し、⑦には職権でが入ると判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+⑦は職権で
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記法2条22号・区分所有法2条3項（①③）／区分所有法
+4条2項（④）／不動産登記法44条1項9号（⑥）／不動産登記法46条（⑦）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 号, 録, 権, 地, 番, 建, 物, 登, 記,
+所, 専, 棟, 職, 構, 敷. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition panel is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no panel with a genuinely hidden second condition has been flattened into
+a single check, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), that any panel
+sharing a decision tree with another panel clearly distinguishes its own
+highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all blanks, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
