@@ -320,8 +320,9 @@ Diagram: A horizontal timeline with an arrow moving left to right. Node
 1: "増築①（日付A）" with a calendar icon, labeled "未登記のまま". Node 2:
 "増築②（日付B、最終）" with a calendar icon, labeled "未登記のまま". At
 the end of the timeline, a node labeled "床面積の変更の登記を申請" shows
-only 日付B circled in green as the recorded 登記原因の日付, while 日付A
-has a red cross mark over it.
+only date B ("日付B") circled in green as the recorded registration-cause
+date (登記原因の日付), while date A ("日付A") has a red cross mark over
+it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、増築のたびに表題部の変更の登記がされていたかを確認します。いずれの
 増築のときも登記されていなければ、まとめて床面積の変更の登記を申請する
@@ -379,12 +380,14 @@ characters):
 Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 所在変更登記の申請義務の有無を確認する
-Diagram: An isometric land plot labeled "甲土地"（Aが所有、Bが賃借）split
-by a dotted 分筆線 into two parcels. A small house (乙建物、Bが所有権の登
-記名義人) sits on one of the new parcels, with an arrow showing its 所在
-地番 has changed. Person B holds a document labeled "乙建物所在の変更登
-記" and walks toward a registry desk, with a green checkmark banner
-reading "申請義務あり" beside a crossed-out label reading "申請不要".
+Diagram: An isometric land plot labeled "甲土地" (owned by A, leased by
+B), split by a dotted division line (分筆線) into two parcels. A small
+house (乙建物), owned by B as its registered holder (所有権の登記名義
+人), sits on one of the new parcels, with an arrow showing its lot
+address (所在地番) has changed. Person B holds a document labeled "乙建
+物所在の変更登記" and walks toward a registry desk, with a green
+checkmark banner reading "申請義務あり" beside a crossed-out label
+reading "申請不要".
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、甲土地の分筆によって、その土地上にあるBの乙建物の所在地番が実際に
 変わったかを確認します。変わっていれば、Bは乙建物の所在の変更の登記を申
