@@ -113,7 +113,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -216,10 +224,237 @@ Small credit text in the corner (optional, keep minimal).
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially for
 登・記・識・別・情・報・合・筆・権・通・提・供・号. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with
+renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「何を、どの順番で確認すればよいか」を肢ごとに示す作図ガイド。②の結論ポスターとは別に、ア〜オ5肢それぞれについて、確認の手順そのものを可視化する5パネル構成。本問は「正しいものは幾つあるか」という個数問題だが、パネル自体は肢ごとの確認順序を示すものであり、個数の数え方そのものは扱わない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric ID-card document icons (登記識別情報
+通知書), torn-document and crack icons, envelope icons for 事前通知,
+registry-office official（登記官）figures, land-plot merging and
+splitting icons, calendar/timeline icons, diamond-shaped decision nodes
+with condition labels, and left/right comparison frames. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Every branch point where both outcomes are
+legally meaningful must show BOTH destinations explicitly, each ending in
+its own conclusion node — never leave one side blank and never route an
+arrow back into an earlier node. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認しま
+す"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成18年度 午後の部 第15問 ア〜オ
+作図ガイド（登記識別情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+再通知の制度があるかを確認する
+Diagram: A left "誤りやすい思い込み" frame shows a character holding a
+torn ID-card document icon labeled "登記識別情報通知書" with a red crack
+running through it, and a speech bubble reading "もう一度発行して" overlaid
+with a red prohibition mark. A right "正しいルール"（本肢が示す実際の結
+論、with a thick highlighted border and full color）frame shows the same
+character now facing three alternative icons lined up with green
+checkmarks: an envelope labeled "事前通知", a certificate icon labeled
+"本人確認情報", and a seal icon labeled "公証人の認証".
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+登記識別情報を亡失した場合に、同じ登記識別情報を再度発行してもらう「再通
+知」の制度があるかをまず確認します。この制度はないため、次に、事前通知・
+資格者代理人による本人確認情報の提供・公証人による認証といった代替手段の
+いずれかで対応することになります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+再通知制度はなし
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+名義人が1人か2人以上かを見る
+Diagram: Draw an actual decision flowchart. A land plot icon labeled "乙
+土地" leads into a diamond-shaped branch node reading "その一筆の所有権登
+記名義人は何人か". A "1人" arrow leads to a conclusion node reading "その
+1人の登記識別情報でよい", illustrated with a single character holding an
+ID-card icon labeled "登記識別情報" with a green checkmark. A "2人以上（共
+有）"（本肢のケース、with a thick highlighted border and full color）arrow
+leads to a separate conclusion node reading "共有者全員の登記識別情報が必
+要", illustrated with two characters labeled "共有者A"「共有者B」each
+holding their own ID-card icon, with a red X overlaying a single lone
+ID-card icon to show that one card alone is not enough. No arrow loops
+back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合筆に係る一筆のうち提供する登記識別情報の対象となる土地の所有権登
+記名義人が1人か2人以上かを確認します。1人であればその1人の登記識別情報を
+提供すれば足りますが、2人以上（共有）であれば、共有者全員の登記識別情報
+を提供しなければなりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+共有なら全員分必要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+合筆対象のうち一筆を選べばよい
+Diagram: A labeled illustrative diagram (single check, no flowchart
+needed). Three isometric land-plot icons labeled "甲土地"「乙土地」「丙土
+地」merge with arrows into one larger combined land-plot icon labeled
+"合筆後の土地". Only the plot「甲土地」has a glowing green checkmarked
+ID-card icon next to it labeled "この一筆分でよい"; the other two plots
+（乙土地・丙土地）have small greyed-out ID-card icons with a dash mark and
+a small label "不要", showing they are not needed.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+合筆の対象となる数筆の土地のうち、いずれの筆の登記識別情報を提供すべきか
+を確認します。合筆に係る土地のうちいずれか一筆分の登記識別情報を提供すれ
+ば足り、他の筆の所有権登記名義人の登記識別情報まで提供する必要はありませ
+ん。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代表一筆の提供でよい
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in beige containing the number 4.
+Heading (bold, ONE line):
+提供できない理由の有無を確認する
+Diagram: A timeline diagram running left to right with four numbered
+steps connected by arrows. Step 1「合筆登記の申請」: a document icon.
+Step 2「正当な理由により登記識別情報を提供できない」: the same document
+icon now beside a crossed-out ID-card icon. Step 3「登記官が登記名義人へ
+通知」: a registry official（登記官）figure sending a flying envelope icon
+toward a 登記名義人 figure, the envelope carrying two small text labels
+「申請がありました」「一定期間内に申出を」. Step 4「名義人からの申出（期
+間内）」: the 登記名義人 figure holding up a reply-slip icon with a green
+checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記識別情報を提供できない正当な理由があるかを確認します。正当な理
+由があるときは、登記官から登記名義人に対し、申請があった旨、及び申請内容
+が真実であると思料するときは一定期間内にその旨の申出をすべき旨が通知され
+ます。
+Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
+characters):
+登記官が事前通知
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+合筆と分筆で通知の有無を見分ける
+Diagram: A contrast frame, split left/right, used to tell apart two
+different kinds of registration rather than a sequence of checks. Left
+frame「合筆」: two land-plot icons merge with arrows into one, and a new
+ID-card icon is issued with a green checkmark, labeled "新たな登記名義人
+になる→通知される". Right frame「分筆」: one land-plot icon splits with
+arrows into three smaller plots, and the same existing ID-card icon is
+copied unchanged onto all three, with three small crossed-out
+"新規発行なし" marks, labeled "同じ登記名義人のまま→通知されない". A thin
+vertical divider line separates the two frames.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その登記によって申請人自らが新たに登記名義人となるかどうかを確認し
+ます。合筆の登記（所有権の登記がある土地の合筆等）は新たな登記名義人とな
+るため登記識別情報が通知されますが、分筆の登記は分筆前と同じ登記名義人が
+そのまま引き継がれるだけで新たな登記名義人とはならないため、登記識別情報
+は通知されません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+分筆に通知なし
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記法21条本文・23条1項（肢ア）、不動産登記法22条本文・不
+動産登記令8条1項1号・2項1号（肢イ・肢ウ）、不動産登記法23条1項前段（肢
+エ）、不動産登記令8条1項1号〜3号（肢オ）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to
+登・記・識・別・情・報・合・筆・権・通・知・提・供・号・確・認・共・有・
+証・申. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢 is drawn
+as an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that every branch point where both outcomes are
+legally meaningful shows both destinations as explicit, separate
+conclusion nodes with no dangling or looping branch, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```

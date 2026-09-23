@@ -110,7 +110,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Characters such as「登」「記」
@@ -198,11 +206,219 @@ Conclusion tag (soft blue, 5-15 Japanese characters):
 Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
+standard Japanese (Jōyō) form, not Simplified Chinese and not
+Traditional Chinese. If any character
+renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals 5 exactly,
 with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+
+---
+
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
+
+問題文（選択肢1〜5）を読んだときに、実際に手を動かして描くべき図と、その図にたどり着くまでにどの順番で何を確認すればよいかを、肢ごとに示す解き方ガイド。多段階の条件判定を要する肢がなく、いずれも条文の正確な文言を正しく覚えているかを問う直接的なルール確認の肢であるため、1〜5のすべてを「誤りやすい思い込み」と「正しいルール」を左右に対比させる正誤対比型（思い込みチェック型）で統一して構成した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric office/registry building icons, a
+registration-stamp icon for 設立の登記, group-of-people icons for 社員, a
+document-folder icon for 登記事項証明書・定款の写し, a stop-sign icon for
+競業避止, and a disciplinary stamp icon for 懲戒処分. Each 選択肢 in this
+problem is resolved by comparing the statement against a single, directly
+recalled rule of the 土地家屋調査士法, with no multi-step sequential
+condition to chain together — so every panel uses a contrast frame with a
+LEFT half（誤りやすい思い込み）showing the incorrect idea crossed out with
+a red ✕, and a RIGHT half（正しいルール）showing the correct rule with a
+green checkmark, rather than a forced decision flowchart. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認します。次に〜と比べます"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text — do not
+drop or merge a required element (e.g. keep Panel 3's two distinct
+correct facts — the 2-week deadline and the 調査士会・連合会 destination —
+both shown, not merged into one label).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses consistently — never open a parenthetical with a full-width
+mark and close it with a half-width mark, or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成18年度午後第20問 選択肢1〜5
+作図ガイド（土地家屋調査士法人の急所）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（選択肢1） ---
+Badge: a filled circle in soft blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+調査士法人は設立の登記で成立する
+Diagram: A contrast frame split into two halves. LEFT half（誤りやすい
+思い込み）: an isometric character in a suit labeled「法務大臣」handing a
+stamped approval document to a調査士 figure, labeled「許可を得て成立」,
+crossed out with a large red ✕. RIGHT half（正しいルール）: an isometric
+office building receiving a registration stamp labeled「設立の登記」directly
+on its entrance, with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、調査士法人の成立要件が「法務大臣の許可」なのか「設立の登記」なのか
+を確認します。調査士法人は、その主たる事務所の所在地において設立の登記
+をすることによって成立し、法務大臣の許可を得る手続は必要ありません。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+許可ではなく登記で成立
+
+--- PANEL 2（選択肢2） ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line):
+社員は全員、業務執行の権利義務を持つ
+Diagram: A contrast frame split into two halves. LEFT half（誤りやすい
+思い込み）: a定款 document icon labeled「定款で一部の社員だけに限定」,
+with one of three isometric social figures highlighted and the other two
+greyed out, crossed out with a red ✕. RIGHT half（正しいルール）: the
+same three isometric figures（社員）standing in a row, each holding an
+identical document icon labeled「業務執行」with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、定款の定めによって、一部の社員だけに業務執行の権利を与えることが
+できるかを確認します。調査士法人の社員は、定款の定めにかかわらず、すべ
+ての社員が業務を執行する権利を有し、義務を負います。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+定款でも一部限定は不可
+
+--- PANEL 3（選択肢3） ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line):
+届出先は法務局でなく調査士会と連合会
+Diagram: A contrast frame split into two halves. LEFT half（誤りやすい
+思い込み）: an isometric figure holding a document folder labeled「登記
+事項証明書・定款の写し」walking toward a building icon labeled「法務局
+又は地方法務局」, crossed out with a red ✕, with a clock icon showing
+「2週間以内」kept unchanged beside it. RIGHT half（正しいルール）: the same
+figure and folder walking toward two building icons labeled「調査士会」
+and「連合会」, with a green checkmark and the same clock icon「2週間以内」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、成立後の届出の期限（成立の日から2週間以内）と、届出先の2つを別々
+に確認します。期限は2週間以内で正しいのですが、届出先は法務局又は地方
+法務局ではなく、その管轄区域内に設立された土地家屋調査士会及び日本土地
+家屋調査士会連合会です。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+届出先は法務局ではない
+
+--- PANEL 4（選択肢4） ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line):
+競業避止義務は総社員の同意でも解除されない
+Diagram: A contrast frame split into two halves. LEFT half（誤りやすい
+思い込み）: an isometric社員 figure attempting to sign a second contract
+labeled「他の業務」outside the office, with a speech bubble from the other
+社員 figures saying「全員同意しているから」, crossed out with a red ✕.
+RIGHT half（正しいルール）: the same社員 figure blocked by a large red
+stop-sign icon in front of the same contract, with a label「総社員の同意
+があっても不可」and a green checkmark on the stop sign itself.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、社員が自己又は第三者のために、その調査士法人の業務の範囲に属する
+業務を行おうとしていないかを確認します。たとえ総社員の同意があっても、
+この競業避止義務は解除されず、社員は当該業務を行うことができません。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+全員一致でも越えられない
+
+--- PANEL 5（選択肢5） ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line):
+調査士法人自体も懲戒処分の対象になる
+Diagram: A contrast frame split into two halves. LEFT half（誤りやすい
+思い込み）: a small isometric figure（社員個人）alone receiving a stamp
+labeled「懲戒処分」, with a separate office-building icon labeled「法人は
+対象外」crossed out with a red ✕. RIGHT half（正しいルール）: the same
+office building icon receiving a stamp labeled「戒告・業務停止・解散」
+directly on the building itself, alongside the small figure also
+receiving the「懲戒処分」stamp, both with a green checkmark, showing both
+are targeted simultaneously.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、調査士法人が土地家屋調査士法又は同法に基づく命令に違反した場合に、
+処分の対象となるのが社員である調査士個人だけなのかを確認します。社員個
+人が懲戒処分の対象となるのに加えて、調査士法人自体も戒告、2年以内の業務
+の全部又は一部の停止、解散という懲戒処分の対象となります。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+法人も処分の対象
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+土地家屋調査士法32条・33条・35条1項・37条1項・43条1項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 調・査・士・法・人・設・立・登・記・
+社・員・業・務・執・行・届・避・懲・戒. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character that
+is not standard Japanese hiragana, katakana, or Jōyō kanji — including
+any Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+each panel's contrast frame clearly separates the誤りやすい思い込み side
+from the正しいルール side with a visible ✕ and checkmark, that no 選択肢
+with a genuinely hidden second condition has been flattened into a single
+check (Panel 3 must keep the correct 期限 and the correct 届出先 as two
+distinct facts, not merged into one label), that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 選択肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
