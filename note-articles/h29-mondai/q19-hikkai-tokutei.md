@@ -199,3 +199,202 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+筆界特定の5肢のうち、イ（通知・機会付与の有無→当日の立会いの有無）とエ（占有者の承諾の有無を境にした原則・例外）は二段階の条件確認を要するため決定木のフローチャートで描き、ア・ウは「正しいルール」と「よくある誤解」を対比する枠組みで、オは公告から通知までの手続の時系列を示すタイムラインで、それぞれ描くように設計した。
+
+```markdown
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric adjoining land parcels with a
+boundary flag for 筆界, a magnifying glass, surveying/measurement
+equipment, a notice document for 通知, fenced private-land icons, a
+hearing-room desk for 意見聴取, an official approval stamp for 筆界特定
+登記官, and document/dossier file icons for 調書・資料. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No（はい／いいえ）
+branch arrows, and a final conclusion node. Where a 肢 is resolved by a
+single check, a labeled illustrative diagram is sufficient — do not force
+a flowchart. This article's five 肢 do not share a single common
+decision-tree shape (肢イ and 肢エ each have their own distinct two-step
+structure), so design each panel's diagram independently around its own
+fact pattern. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第19問 ア〜オ
+作図ガイド（筆界特定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+目的は所有権ではなく筆界
+Diagram: An isometric scene of two adjoining land parcels with a boundary
+line and a small flag labeled「筆界」, a magnifying glass hovering over the
+boundary. A speech bubble reading「所有権の境界」is crossed out with a red
+「✕」, with an arrow instead pointing from the bubble to a small courthouse
+icon labeled「別途、訴訟等で解決」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界特定という手続が何を対象とするものかを確認します。対象はあくまで
+公法上の境界である「筆界」であり、私法上の所有権の範囲まで特定するもので
+はないため、「所有権の境界の特定をも目的とする」という記述は誤りとわかり
+ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+所有権は対象外
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+通知していれば欠席でも調査続行
+Diagram: A decision-tree flowchart. Start node:「あらかじめ日時・場所を
+通知し、立会いの機会を与えたか？」leading down to a diamond node. An
+いいえ branch is not shown further (this article's fact pattern assumes
+notice was given). A はい branch proceeds to a second diamond node:
+「当日、申請人・関係人は実際に立ち会ったか？」with two branches: はい
+leading to a conclusion node reading「測量・実地調査を実施できる」;
+いいえ leading to a separate conclusion node, also reading「測量・実地
+調査を実施できる」, showing that actual attendance does not change the
+outcome once notice was given.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界調査委員が申請人・関係人に対し、あらかじめ日時・場所を通知して
+立ち会う機会を与えたかどうかを確認します。機会を与えていれば、次に、実際
+に立ち会ったかどうかにかかわらず、筆界調査委員は測量・実地調査を実施する
+ことができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+機会を与えれば実施可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+質問には登記官の許可が必要
+Diagram: A correct-vs-misconception contrast frame. Left box「正しい
+ルール」: 意見聴取等の期日で、筆界調査委員が質問しようとする吹き出しの
+手前に、筆界特定登記官のキャラクターが許可スタンプを押している図に緑の
+チェックマーク。Right box「よくある誤解」: 筆界調査委員が期日に立ち会って
+さえいれば、登記官の許可なしに勝手に質問できるという吹き出しに大きな赤い
+「✕」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界調査委員が意見聴取等の期日に立ち会っているという事実だけで判断
+せず、質問を発する前に筆界特定登記官の許可を得ているかどうかを確認します。
+立会いだけでは足りず、許可がなければ質問することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記官の許可が必須
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+承諾があれば日出前でも立入り可
+Diagram: A decision-tree flowchart. Start node:「柵で囲まれた他人の占有地
+を実地調査する」leading down to a diamond node:「その土地の占有者の承諾は
+あるか？」Two branch arrows: いいえ leading to a conclusion node reading
+「原則どおり、日出前・日没後は立ち入ることができない」; はい leading to a
+separate conclusion node with a crescent-moon icon reading「日出前でも
+立ち入ることができる」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、実地調査の対象が柵で囲まれた他人の占有地であることを確認し、次に、
+その占有者の承諾があるかどうかを確認します。承諾があれば、日出前・日没後
+は立ち入れないという原則の例外として、日出前であっても立ち入ることができ
+ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+承諾があれば立入り可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+関係人は特定前でも閲覧できる
+Diagram: An isometric timeline. Stage 1: a public announcement board
+icon labeled「筆界特定の申請があった旨の公告」. Stage 2 (a wide highlighted
+middle section with a green checkmark): a 関係人 character opening a
+調書・資料のファイル and reading it, labeled「この間は閲覧を請求できる」.
+Stage 3: an official notice document icon labeled「筆界特定をした旨の
+通知」. A signboard reading「筆界が特定されるまでは閲覧不可」is crossed out
+with a red「✕」next to Stage 2.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、閲覧が認められる期間が「筆界特定の申請があった旨の公告」から「筆界
+特定をした旨の通知」までであることを確認します。この期間内であれば、筆界
+が特定される前の段階でも、関係人は調書及び提出された資料の閲覧を請求する
+ことができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+手続中でも閲覧可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法135条2項（筆界特定の目的）・136条1項（測量・実地調査の通知）・
+140条3項（質問と筆界特定登記官の許可）・137条4項（占有者の承諾による立入
+り）・141条1項（調書及び資料の閲覧）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to 筆・界・許・覧・登・記・占. If
+any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also confirm that no
+character outside hiragana, katakana, Jōyō kanji, and the Arabic numerals
+explicitly used above appears anywhere in the image — no Latin letters, no
+other non-Japanese scripts. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢（肢イ・肢エ）is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 肢 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather than
+only a conclusion and keeps every required element from the source
+article distinct, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

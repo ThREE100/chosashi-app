@@ -186,3 +186,211 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+## インフォグラフィック プロンプト（①②③⑤⑦ 作図ガイド）
+
+本問は肢ア〜オの正誤判定ではなく、不動産登記法の基本用語を穴埋めで確認する問題のため、各パネルは「その空欄に入る語句をどう判断するか」という見分け方の手順を示す作図ガイドにした。空欄①・②は「表示に関する登記」と「権利に関する登記」という同じ対比枠を共有し、パネルごとに強調する側を切り替える。空欄③は紛らわしい別概念（登記情報）との対比、空欄⑤は区分の粒度（表題部と権利部／甲区と乙区）を見分ける決定木、空欄⑦は建物の認定要件を順に確認する決定木として、それぞれ独立に設計した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a registry record page icon split into 表題部
+(upper section) and 権利部 (lower section), a surveyor's measuring tape
+and boundary stakes to represent 物理的状況, an ownership deed icon and a
+mortgage ribbon icon to represent 権利関係, a pen writing rows of items
+onto a registry page to represent 登記事項, a small nested subdivision
+icon labeled 甲区・乙区 inside the 権利部 section, and a house-shaped box
+shown empty versus furnished to test 用途性. Where a 空欄 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 空欄 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panels 1 and 2（空欄①・②）share a common contrast frame rooted at the same
+distinction between 表示に関する登記 and 権利に関する登記: render the
+branch relevant to THIS panel（物理的状況 for panel 1, 権利関係 for panel
+2）with a thick highlighted border and full color, and render the other,
+unrelated branch in a faded, greyed-out style. Panels 3, 4, and 5（空欄③・
+⑤・⑦）are designed independently around their own fact pattern. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第4問 ①②③⑤⑦
+作図ガイド（不動産登記法の基本用語）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（空欄①） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+表示の登記は物理的状況を公示
+Diagram: A contrast frame split into two boxes. Left box (highlighted with
+a thick border and full color): 「表示に関する登記」というラベルの下に、
+測量士が巻尺と境界杭で一筆の土地を測っているイラストがあり、矢印の先に
+「物理的状況」という結論ラベル。Right box (faded, greyed-out, dotted
+outline): 「権利に関する登記」というラベルの下に、所有権証書と抵当権の
+リボンアイコンが薄く描かれ、矢印の先に「権利関係」という結論ラベルが
+グレーアウトで示される。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問われている（①）が「表示に関する登記」の話か「権利に関する登記」
+の話かを確認します。表示に関する登記が公示するのは、その不動産の形や
+広さといった物理的状況です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+物理的状況を公示
+
+--- PANEL 2（空欄②） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+権利の登記は権利関係を公示
+Diagram: The same contrast frame as panel 1, but with the highlighting
+reversed. Right box (highlighted with a thick border and full color):
+「権利に関する登記」というラベルの下に、所有権証書アイコンと抵当権の
+リボンアイコンが重なって浮かび、矢印の先に「権利関係」という結論ラベル。
+Left box (faded, greyed-out, dotted outline): 「表示に関する登記」という
+ラベルの下に、測量士のイラストが薄く描かれ、矢印の先に「物理的状況」と
+いう結論ラベルがグレーアウトで示される。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問われている（②）が「表示に関する登記」の話か「権利に関する登記」
+の話かを確認します。権利に関する登記が公示するのは、所有権や抵当権など
+その不動産をめぐる権利関係です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+権利関係を公示
+
+--- PANEL 3（空欄③） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+登記事項と登記情報を混同しない
+Diagram: A 正誤対比型 side-by-side comparison. Left box (highlighted,
+green checkmark): 開いた登記簿ページに所在・地番・地目・地積などの項目
+が一行ずつペンで書き込まれるイラストと「登記事項」というラベル。Right
+box (crossed out with a red ✕): 同じ登記簿ページのイラストの上に「登記
+情報」というラベルが重なり、「記録された情報の中身を指す別の言葉」と
+いう小さな注記が添えられる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問われている（③）が「登記記録に記録すべき事項そのもの」の話か、
+それとも「記録された情報の中身」の話かを確認します。一筆の土地・一個の
+建物ごとに記録すべき事項そのものを指す言葉は「登記事項」であり、似た
+言葉の「登記情報」とは区別します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+記録項目は登記事項
+
+--- PANEL 4（空欄⑤） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+表題部・権利部は登記記録の大区分
+Diagram: A decision-tree flowchart. Start node:「登記記録の区分は、登記
+記録全体を大きく分ける話か、それとも権利部の中をさらに細かく分ける話
+か？」はい（登記記録全体の大区分）branch leads to a conclusion node
+reading「表題部と権利部」（一筆の土地・一個の建物ごとの区分）with a green
+checkmark. いいえ（権利部内だけの細区分）branch leads to a conclusion
+node reading「甲区と乙区」（所有権の登記・所有権以外の権利の登記という
+権利部内の区分）with a small note that this is a finer subdivision, drawn
+in a lighter shade to show it is the confusable alternative rather than
+the correct answer here.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問われている（⑤）が登記記録全体を大きく2つに分ける区分の話か、
+それとも権利部の中をさらに細かく分ける区分の話かを確認します。一筆の
+土地・一個の建物ごとの大きな区分であれば「表題部と権利部」が正しく、
+権利部内の区分である「甲区と乙区」とは区別します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+表題部と権利部
+
+--- PANEL 5（空欄⑦） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+用途に供し得る状態が建物の要件
+Diagram: A decision-tree flowchart with three chained diamond nodes.
+Diamond 1:「屋根及び周壁又はこれらに類するものを有するか（外気分断性）」
+いいえ→結論ノード「建物と認められない」；はい→次のひし形へ。Diamond 2:
+「土地に定着した建造物か（定着性）」いいえ→同じ「建物と認められない」
+結論ノードへ；はい→次のひし形へ。Diamond 3:「その目的とする用途に供し
+得る状態か（用途性）」いいえ→結論ノード「建物と認められない（例：家具
+もない未完成の箱）」；はい→結論ノード「建物と認められる」。最後に小さな
+対比枠で、「種類」は登記記録に記載する項目であり、建物の認定要件その
+ものではないことを示す（「種類」のラベルに薄いグレーの✕）。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、屋根及び周壁又はこれらに類するものがあるか（外気分断性）を確認し、
+次に土地に定着した建造物か（定着性）を確認します。その上で、最後にその
+目的とする用途に供し得る状態か（用途性）を確認し、これを満たして初めて
+建物と認められます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+用途に供し得る状態
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法1条（登記の目的）・2条3号・4号（表示に関する登記・権利に
+関する登記）・2条6号（登記事項）・12条（登記記録の表題部と権利部）・
+不動産登記規則4条4項（権利部を甲区・乙区に区分）・不動産登記規則
+（建物の要件：外気分断性・定着性・用途性）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to 表・示・権・利・関・係・登・
+記・事・項・題・部・甲・乙・区・用・途・種・類・建・造・周・壁・着. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also confirm that no
+character outside hiragana, katakana, Jōyō kanji, and the Arabic numerals
+explicitly used above appears anywhere in the image — no Latin letters, no
+other non-Japanese scripts. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 空欄 is drawn as an actual flowchart with branch nodes
+(not a bare illustration with no visible decision structure), that no
+空欄 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed answer-word grid of all 空欄, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

@@ -209,3 +209,210 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+海没の範囲（一部／全部）と継続性（一時的／常時）の2条件を順に確認するイ・ウは、範囲→継続性の順に分岐する共通の決定木を使い回してどちらの結論に至るかを見比べられるようにし、分筆線の是正方法（ア）と河川区域内の一部滅失の登記（オ）は「よくある勘違い」と「正しい実務の流れ」を対比させ、河川区域内の土地になった場合の登記（エ）は単純な図解で示した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric coastal land plots, an ocean-wave
+icon for 海没, a small calendar/clock icon to distinguish 一時的 from
+常時（継続的）, a river icon and an isometric 河川管理者 figure, a
+dashed-boundary icon for 河川区域, and registry-document stamps. Where a
+肢 requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. This article's 肢イ and 肢ウ genuinely share
+one common two-step decision tree (範囲は一部か全部か、全部の場合はさらに
+一時的か常時かを分岐させる): the branch and conclusion node relevant to
+that panel are drawn in full color with a thick border, while the other
+branches and their conclusion nodes are faded to a lighter tint with thin
+borders and grayed labels; 肢ア・肢エ・肢オ are each designed
+independently around their own fact pattern. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第13問 ア〜オ
+作図ガイド（海没・河川区域の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+分筆線の誤りは抹消して再分筆
+Diagram: A 正誤対比型（左右2枠）diagram. Left box「よくある勘違い」:
+分筆線がズレたまま完了してしまった「分筆の登記」を、「地積に関する更正
+の登記」の申請書だけで直そうとしている様子、大きな赤い「✕」。Right box
+「正しいルール」: まず元の「分筆の登記」に「抹消」のスタンプが押され、
+その次に矢印でつながった正しい分筆線の図面とともに新しい「分筆の登記」
+が申請される、2段階の流れ、緑の「✓」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、直したいのが分筆線の位置そのものの誤りであることを確認します。
+この誤りは地積の更正の登記では直せないため、いったん分筆の登記を抹消
+し、正しい分筆線で改めて分筆の登記を申請する必要があります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+抹消して再分筆
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+一部の常時海没は地積変更登記
+Diagram: A decision-tree flowchart. Start node（isometric coastal land
+plot with a wave icon）:「天災等の自然現象により、土地が海面下に没した。
+没した範囲は一部か、全部か？」The「一部」branch is drawn in full color
+with a thick border, leading down to a conclusion node reading「地積に
+関する変更の登記」（面積の数字が大きい値から小さい値へ減る様子を添える）.
+The「全部」branch is faded to a lighter tint with a thin border, leading
+to a small grayed second diamond「一時的か、常時（継続的）か？」whose two
+further branches and conclusion nodes（「所有権は消滅せず、滅失の登記は
+しない」「所有権が消滅し、滅失の登記をする」）are also faded and shown in
+miniature, without full detail.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、海面下に没した範囲が土地の一部か全部かを確認します。一部が常時
+海面下に没した場合は、その分だけ地積が減少するため、地積に関する変更
+の登記をします。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地積の変更登記
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+全部でも一時的なら所有権は存続
+Diagram: The same decision-tree flowchart as Panel 2, reused with the
+highlight swapped. Start node:「天災等の自然現象により、土地が海面下に
+没した。没した範囲は一部か、全部か？」The「一部」branch is now faded to a
+lighter tint with a thin border, its conclusion node（「地積に関する変更
+の登記」）shown in miniature. The「全部」branch is drawn in full color
+with a thick border, leading to a second diamond, also full color:「その
+状態は一時的か、常時（継続的）か？」Two branches: 「一時的」leads to a
+conclusion node with a green「✓」and a wave receding back to normal land,
+reading「所有権は消滅せず、滅失の登記はしない」; 「常時（継続的）」leads
+to a separate conclusion node reading「所有権が消滅し、滅失の登記をする」
+（shown in the normal color tone, as a real alternative outcome rather
+than a wrong answer, with no red ✕）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、海面下に没した範囲が土地の全部であることを確認します。次に、その
+状態が天災等による一時的なものか、常時継続するものかを確認し、一時的な
+ものであれば所有権は消滅せず、滅失の登記をすることはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+滅失登記はしない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+全部が河川区域内になれば旨の登記
+Diagram: A single labeled illustration (no flowchart needed). 一筆の土地
+の全部が「河川区域」という点線の境界の中にすっぽり収まっている様子、
+そばに流れる川のアイコン。登記記録に「河川区域内の土地である旨」の
+スタンプが緑の「✓」とともに押される。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地の全部が河川法6条1項の河川区域内の土地になったことを確認しま
+す。その場合は、地積や区画の変更の登記ではなく、河川区域内の土地である
+旨の登記をします。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+河川区域である旨
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+河川区域内の一部滅失は地積変更を嘱託
+Diagram: A 正誤対比型（左右2枠）diagram. Left box「よくある勘違い」: 河川
+区域内の土地の一部が滅失した際、「分筆及び滅失の登記」の申請書を登記所
+窓口に提出しようとしている様子、大きな赤い「✕」。Right box「正しいルー
+ル」: isometric 河川管理者 figure が「地積の変更の登記（嘱託）」の書類を
+窓口に提出している様子、緑の「✓」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、滅失した土地が河川区域内の土地の一部であることを確認します。この
+場合は分筆及び滅失の登記ではなく、河川管理者が地積の変更の登記を嘱託す
+ることになります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+河川管理者が嘱託
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法43条2項（河川区域内の土地である旨の登記）・同条6項（河川管
+理者による地積の変更の登記の嘱託）に基づく整理です。海没・水流化した
+土地の取扱い（地積の変更の登記・滅失の登記、および一時的な水没では所有
+権が消滅しないこと）は、いずれも実務上の取扱いに基づくものです。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to
+分・筆・線・誤・抹・消・地・積・変・更・登・記・海・没・常・時・滅・失・
+河・川・区・域・旨・嘱・託・所・有・権. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also confirm that no character outside hiragana,
+katakana, Jōyō kanji, and the Arabic numerals explicitly used above
+appears anywhere in the image — no Latin letters, no other non-Japanese
+scripts. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that 肢イ・肢ウ are drawn from the same shared
+decision tree with only the relevant branch and its own conclusion node
+highlighted in each panel while the other branches remain visibly present
+but faded (never omitted or looped), that both「一時的」and「常時（継続
+的）」conclusion nodes in 肢ウ are shown as real, separately labeled
+outcomes rather than one being left blank, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

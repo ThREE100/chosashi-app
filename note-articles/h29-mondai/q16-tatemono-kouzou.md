@@ -246,3 +246,209 @@ wrongly total 3.8m), and that only the lower 0m〜1.1m segment of that
 wall has soil texture while the upper 1.1m〜2.7m segment is exposed
 above ground.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+単純に基準値と実測値を比べるだけで結論が出る肢（ア・ウ・オ）はラベル付きの図解1枚で示し、床面積の割合を2つの屋根材について順番に確認する肢（イ）は割合バーを使った2段階の順次チェックとして示し、天井高の3分の1を計算してから沈み込み高さと比較する肢（エ）だけを、計算ステップと分岐ノードを持つ決定木フローチャートとして描き分けた。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric building-frame icons, steel-skeleton
+icons, wall-panel icons, roof-tile texture icons, measuring-tape icons,
+attic cross-section icons, and elevated buildings on columns. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. This article's five 肢 do not share a single
+common decision-tree shape, so design each panel's diagram independently
+around its own fact pattern. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認しま
+す"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第16問 ア〜オ
+作図ガイド（建物の構造の表示）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+外壁材ではなく主要構造部で判断する
+Diagram: An isometric building frame showing only the 鉄骨の骨組み（steel
+skeleton）, labeled「主要構造部：鉄骨造」. A thin, semi-transparent outer
+panel labeled「外壁材：ALC板（軽量気泡コンクリート）」is drawn just outside
+the skeleton, separated from it by a dashed line. An arrow from the
+skeleton labeled「判断材料になるのは骨組みのみ」points to a conclusion tag
+reading「鉄骨造」with a green checkmark, while a second, separate label
+reading「鉄骨・鉄筋コンクリート造」has a red「✕」next to it, showing that
+the wall material alone does not change the structural classification.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の主要構造部が何でできているか（骨組みの種類）を確認します。
+次に、外壁に使われている材料（ALC板など）は主要構造部そのものではないの
+で、造りの判断材料にしないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+骨組みで判断
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+屋根材ごとに30%基準を順に確認する
+Diagram: A horizontal floor-area bar divided into two segments: a larger
+segment labeled「スレート 65.00平方メートル（65%）」and a smaller segment
+labeled「かわら 35.00平方メートル（35%）」. A dashed vertical threshold
+line labeled「30%ライン」crosses both segments. Two numbered check steps
+are placed in order above the bar: a badge「1」next to the スレート
+segment with a green checkmark confirming it exceeds the 30%ライン, and a
+badge「2」next to the かわら segment with a green checkmark confirming it
+also exceeds the 30%ライン.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、床面積のうちスレートでふかれている部分の割合（65%）を計算し、30%
+以上かどうかを確認します。次に、残りのかわら部分の割合（35%）も同じよ
+うに計算し、30%以上かどうかを確認します。両方が30%以上であれば、両方を
+表示の対象とします。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+両方とも表示対象
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+屋根裏部屋は天井高1.5m以上で階に算入
+Diagram: A side cross-section of a 2階建 building with a collapsible
+ladder leading up to a 屋根裏部屋（物置として使用）above the 2階の天井. A
+single vertical measuring-tape icon runs from the 屋根裏部屋の床 to its own
+天井, marked「1.5m」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、屋根裏部屋の床から天井までの高さを測ります。次に、その高さが1.5
+メートル未満かどうかを確認し、1.5メートル未満でなければ（本肢はちょうど
+1.5メートル）、独立した1つの階として建物の階数に算入します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+3階建と表示
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+沈み込みが天井高の3分の1以上なら地下階
+Diagram: A decision-tree flowchart built around a single side-elevation
+cross-section of the building's bottom story: one continuous rectangle,
+2.7m tall from its own floor (bottom edge) to its own ceiling (top edge),
+with a dashed horizontal「地盤面」line inside it at the 1.1m mark (roughly
+41% of the way up from the bottom), splitting the same 2.7m-tall wall
+into a soil-textured lower zone (0m〜1.1m, underground) below the line and
+an exposed open-air zone with a window (1.1m〜2.7m) above the line. Do
+NOT draw this as two stacked boxes whose heights add together; 1.1m must
+sit strictly between the 0m and 2.7m ticks on one single ruler running
+alongside the rectangle. Above this cross-section, a calculation step
+node reads「天井までの高さ2.7mの3分の1を計算する→0.9m」, leading down to a
+diamond branch node:「床面から地盤面までの高さ（1.1m）は、天井高の3分の1
+（0.9m）以上か？」Two branch arrows: はい（1.1m≧0.9m）leading to a
+conclusion node reading「地下階として算入→地下1階付き2階建」; いいえ
+leading to a separate conclusion node reading「地下階に算入しない→通常の
+階として数える」. Both branch arrows must lead to their own fresh
+conclusion node — never draw a loop arrow back into the diagram.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その階の天井までの高さの3分の1を計算します（2.7m÷3＝0.9m）。次に、
+床面から地盤面までの高さ（1.1m）がその3分の1以上かどうかを確認し、以上
+であれば地下階として建物の階数に算入します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+地下1階付き2階建
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+床上げ2.0mは1.5m基準を上回り高床式
+Diagram: An isometric elevated single-story (平家建) store building
+supported by steel columns, with a single measuring-tape icon along one
+column marked「2.0m」— this is the only height number drawn anywhere in
+the illustration; do not draw「1.5m」(the legal threshold value, not a
+measured value in this fact pattern) inside the illustration itself.
+Beneath the elevated floor, an open parking area with no walls is shown,
+with a car icon and wind-line icons indicating it is exposed to outside
+air.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、床上げされた部分の床面が地盤面から1.5メートル以上あるかどうかを
+確認します（本肢は2.0mで基準を上回ります）。次に、床上げされた部分が
+外気と遮断する壁のない開放的な空間であることを確認し、単なる「平家建」
+ではなく「高床式平家建」と表示します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+高床式平家建
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+昭63.3.24民三1826号（造り・屋根の表示、地階・高床式の基準）・不動産登記
+事務取扱手続準則81条4項（屋根裏部屋等の階算入基準）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to 造・構・鉄・骨・壁・屋・根・
+階・建・地・下・床・高・車・駐. If any character renders as a Simplified
+or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also confirm that no character outside hiragana, katakana,
+Jōyō kanji, and the Arabic numerals explicitly used above appears anywhere
+in the image — no Latin letters, no other non-Japanese scripts. Confirm
+the panel count equals 5 exactly, badge numbers run 1-5 continuously,
+there is no intro illustration or paragraph block between the header and
+the panels, that every multi-condition 肢（肢エ）is drawn as an actual
+flowchart with branch nodes (not a bare illustration with no visible
+decision structure), that no 肢 with a genuinely hidden second condition
+has been flattened into a single check, that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

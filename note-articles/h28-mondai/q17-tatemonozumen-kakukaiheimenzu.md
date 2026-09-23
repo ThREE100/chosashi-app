@@ -206,3 +206,265 @@ after the last card), and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに示す解き方ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。5肢は互いに独立した細目ルールのため共有の決定木は使わず、肢ごとに型を選んだ。アは「申請人と作成者で求められる方式が違う」ことを見抜く正誤対比型、イは「変更後の建物図面が必要」→「床面積の変更・更正を伴わなければ各階平面図までは不要」の2段階を示す決定木型、ウは原則の配置→余白の例外を示す配置図型、エは「地上部分もあるか」で朱書義務の有無が分かれる決定木型、オは共用部分の登記→規約廃止→表題登記の流れを示すタイムライン型とした。バッジ色は、図面の書き方に関する肢（ア・ウ・エ）を青、図面の提供の要否に関する肢（イ・オ）を緑で分けている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric drafting-sheet icons for 建物図面 and
+各階平面図, person icons for the applicant (申請人) and the drafter
+(作成者), a pen icon for writing a name, a round seal (印鑑) icon, a land
+plot being split with a changing lot-number tag, cross-section icons of
+buildings with underground and above-ground floors, a red ink brush icon
+for 朱書, a condominium building with a shared-room icon, a bylaw (規約)
+document icon, a calendar icon, and a registry office (登記所) filing
+cabinet icon. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. In this set, the five
+panels do NOT share a common decision tree; each panel stands on its own.
+Wherever a diamond node is specified below with two outcomes, draw BOTH
+outcome arrows, each ending in its own separate conclusion node exactly as
+written — never leave one side of a diamond without a destination, and
+never draw any loop arrow that returns to an earlier node in the same
+panel. Within a single panel, render the branch that matches this 肢's
+own fact pattern with a thick highlighted border and full color, and
+render the other branch in a lighter tone so the reader can see at a
+glance which path this 肢 follows. Where a diagram must show something
+that conceptually never needs to exist (e.g. a newly re-drawn set of
+drawings that is never actually required), render it in a faded or
+dotted-outline style rather than a plain ○/✕ mark, so the visual itself
+communicates "this is never really needed," not just "this is wrong."
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text — do not drop or merge a required element (e.g. keep
+"署名" and "記名押印" as two alternative methods for the drafter, and
+keep "申請人" and "作成者" as two distinct persons with different
+requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成28年度 午後の部 第17問 ア〜オ
+作図ガイド（建物図面・各階平面図）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled blue circle containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+申請人は記名だけで、押印が必要なのは作成者
+Diagram: Draw as a correct-rule vs. misconception comparison (正誤対比型),
+split into an upper box and a lower box. Upper box, labeled 「正しいルール」
+(blue border): one isometric drawing sheet labeled 「建物図面・各階平面図」
+with three numbered checkpoints stacked from top to bottom beside it.
+Checkpoint ① 「作成の年月日を記録」 with a small calendar icon and a
+green ✓. Checkpoint ② 「申請人：記名のみ」 with an applicant person icon
+holding only a pen (no seal anywhere near this person) and a green ✓.
+Checkpoint ③ 「作成者：署名 または 記名押印」 with a drafter person icon
+holding a pen and a round seal, and a green ✓; add a tiny sub-label
+under checkpoint ③: 「調査士なら職印を押印」. Lower box, labeled
+「誤りやすい思い込み」 (gray border): the same applicant person icon
+pressing a round seal onto the sheet, with the label 「申請人も押印が必要」
+struck through by a red line and a large red ✕ over the seal. Draw a
+downward arrow from checkpoint ② in the upper box to the lower box's ✕ so
+the reader sees that the mistake is in the applicant's part only.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず作成の年月日を記録することを確認し、次に図面に名前を記す人を申請人と
+作成者に分けて考えます。申請人は記名のみ、作成者は署名または記名押印が
+必要なので、申請人にまで押印を求める記述は誤りです。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+申請人は記名のみ
+
+--- PANEL 2（肢イ） ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line):
+地番が変わるだけでも変更後の建物図面が必要
+Diagram: Draw as an actual decision flowchart, top to bottom. Start node
+(rounded rectangle): an isometric land plot split in two, its lot-number
+tag changing from 「1番地」 to 「1番3」, with a building standing on it;
+label 「敷地の分筆で建物の所在する土地の地番が変わる」. Arrow down to
+step box 1: 「所在の表示が変わる表題部の変更登記」. Arrow down to step
+box 2 (green highlight, thick border): 「変更後の建物図面を提供する」 with a
+drafting-sheet icon labeled 「建物図面」 and a green ✓. Arrow down to
+diamond branch node: 「床面積の変更・更正も伴うか？」. The ✕ (伴わない・地番
+のみの変更) arrow goes to the right into conclusion node A (green
+highlight, thick border, this 肢's path): 「各階平面図までは不要」, with a
+faded dotted-outline sheet icon labeled 「各階平面図」 beside it. The ○
+(伴う) arrow goes to the left into conclusion node B (lighter tone, thin
+border): 「各階平面図も提供する」 with a small sub-label 「床面積の変更・
+更正のとき」. Both conclusion nodes are terminal — no arrow leaves either
+of them, and no arrow loops back to any earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず敷地の分筆で地番が変わり、所在の表示が変わる変更登記に当たるので、
+変更後の建物図面が必要だと確認します。次に床面積の変更・更正を伴うかを
+確認し、地番のみの変更であれば各階平面図までは要求されません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+変更後の建物図面が必要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line):
+各階平面図の余白に建物図面を作成してよい
+Diagram: Draw as a sheet-layout diagram (配置図型) with two isometric
+drawing sheets placed side by side, connected by a left-to-right arrow
+labeled 「次に余白を確認」. Left sheet, with a step badge ① and label
+「原則の配置」: one sheet divided into two halves, the right half labeled
+「建物図面」 and the left half labeled 「各階平面図」. Right sheet, with a
+step badge ② and label 「余白がある場合」: a sheet whose main area is
+filled with a small 「各階平面図」 drawing, leaving a clearly visible blank
+area labeled 「余白」; inside that blank area, a 「建物図面」 drawing is being
+added (drawn with a thick blue highlighted border), with a green ✓ and
+the label 「作成できる」. Next to the right sheet, show a separate second
+blank sheet icon labeled 「別の用紙」 in a faded dotted-outline style, to
+show that a separate sheet is not necessarily required.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず原則として1枚の用紙の右側に建物図面、左側に各階平面図を作成すること
+を確認します。次に、各階平面図の用紙に余白があれば、その余白を用いて
+建物図面を作成できることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+余白に建物図面を作成可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line):
+地下1階付き2階建の建物に朱書の義務はない
+Diagram: Draw as an actual decision flowchart, top to bottom. Start node
+(rounded rectangle): 「地下部分がある建物の建物図面」 with a small building
+cross-section icon showing a floor below ground level. Arrow down to
+diamond branch node: 「地上部分もあるか？」. The ✕ (ない) arrow goes to the
+left into conclusion node A (lighter tone, thin border): a cross-section
+icon of a building that exists only below ground, its outline drawn in
+red ink with a red brush icon, labeled 「地下のみで構成される建物→地下部分
+を朱書する」. The ○ (ある) arrow goes to the right into conclusion node B
+(blue highlight, thick border, this 肢's path, with a small tag
+「本肢の建物」): a cross-section icon of a building with one underground
+floor and two above-ground floors, all drawn in normal black ink, labeled
+「地下1階付き2階建→朱書義務の規定なし」; beside it, a stamp reading
+「地下1階部分を朱書しなければならない」 struck through with a red ✕. Both
+conclusion nodes are terminal — no arrow leaves either of them, and no
+arrow loops back to any earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず地下部分があるというだけで朱書が必要と決めつけず、その建物に地上部分
+もあるかを確認します。朱書が定められているのは地下のみで構成される建物
+なので、地上2階部分もある建物には朱書義務の規定がありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+朱書は地下のみの建物
+
+--- PANEL 5（肢オ） ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line):
+共用部分の規約廃止後の表題登記は図面の提供不要
+Diagram: Draw as a left-to-right timeline (タイムライン型) with four
+numbered stations connected by arrows. Station ①: an isometric
+condominium with a highlighted shared room, labeled 「共用部分である旨の
+登記」; below it, drawing-sheet icons labeled 「建物図面・各階平面図」
+being placed into a registry office filing cabinet labeled 「登記所に備付け
+済み」. Station ②: a bylaw document icon being torn, labeled 「規約の廃止」.
+Station ③: a calendar icon labeled 「1か月以内」 and an owner person icon
+submitting an application labeled 「所有者が表題登記を申請」. Station ④
+(green highlight, thick border): the same filing cabinet from station ①
+still holding the drawings, with a green ✓ and the label 「図面の提供は
+不要」; next to it, a faded dotted-outline drawing-sheet icon labeled
+「あらためて作る図面」, showing that newly re-drawn drawings are never
+needed. Draw a thin dotted arc from the drawings in station ① to the
+filing cabinet in station ④ to show that the same drawings already on
+file are what remain in use.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずこの建物について、共用部分の登記の際に建物図面・各階平面図がすでに
+登記所に備え付けられていることを確認します。次に、規約の廃止から1か月
+以内に申請する表題登記では、その図面をあらためて提供する必要がないことを
+確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+図面の提供は不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+平成28年度 午後の部 第17問（不動産登記規則74条、土地家屋調査士法施行規則
+21条1項、不動産登記令別表14項添付情報イ・ロ、不動産登記事務取扱手続準則
+52条1項・54条2項、不動産登記法58条6項）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 図・階・記・録・押・印・請・書・職・変・
+更・積・筆・規・約・廃・準・則・備・済・調・査・余・続・義・務・確・認. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 (イ and エ) is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that every diamond node has both of
+its outcome arrows ending in their own separate conclusion nodes with no
+loop arrow anywhere, that no 肢 with a genuinely hidden second condition
+has been flattened into a single check (in particular, panel 2 must show
+both the 建物図面 step and the separate 各階平面図 check), that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements — 申請人 and 作成者 stay separate, and 署名 and
+記名押印 stay as two alternatives for the 作成者), that within each panel
+the branch matching that 肢 is clearly highlighted while the other branch
+is shown in a lighter tone, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

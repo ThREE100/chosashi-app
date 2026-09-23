@@ -216,3 +216,190 @@ paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+調査士法人の5肢はいずれも単発の条件確認だけで結論に至るため、決定木のフローチャートは用いず、ア・イ・オは図解イラストで結論を示し、ウ・エは「正しいルール」と「誤解しやすい思い込み・誤った配置」を対比する枠組みで整理した。オの図解は令和2年改正等の沿革には触れず、現行法のルールのみを描いている。
+
+```markdown
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric professional-office characters in
+suits, a 法人 building icon, articles-of-incorporation (定款) documents, a
+crown-shaped representative badge, an official registration-revocation
+stamp, a regional 調査士会 membership badge, and a single founder
+character raising a company-founding signboard. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No（はい／いいえ）
+branch arrows, and a final conclusion node. Where a 肢 is resolved by a
+single check, a labeled illustrative diagram is sufficient — do not force
+a flowchart. None of this article's five 肢 require a multi-step
+decision-tree flowchart — each one resolves through a single check — so
+every panel is designed as an independent illustrative diagram or
+correct-vs-misconception/correct-vs-wrong-layout contrast rather than a
+shared branching tree. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第20問 ア〜オ
+作図ガイド（土地家屋調査士法人）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+代表社員は定款か同意で定められる
+Diagram: An isometric scene of a 法人 building icon with several 調査士
+characters standing beside it. Two arrows converge on a single figure who
+receives a crown-shaped「代表社員」badge: one arrow from a 定款 document
+icon labeled「定款で定める」, the other from a speech-bubble icon labeled
+「総社員の同意」. Both arrows lead to the same conclusion node reading
+「代表社員が定まる」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、法人の定款に代表社員を定める記載があるかどうかを確認します。定款に
+記載がなくても、次に、総社員の同意があるかどうかを確認し、そのいずれかが
+あれば代表社員を定めることができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+定款か同意で決定
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+社員全員に業務執行の権利義務
+Diagram: An isometric scene of three 調査士 characters standing in a row,
+each holding an identical「業務執行」document. An arrow pointing to one of
+the three characters, labeled「この社員だけ業務執行なし」, is crossed out
+with a red「✕」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、法人の定款に「一部の社員だけが業務執行を行う」といった定めがあるか
+どうかを確認します。土地家屋調査士法人ではそのような定めをすることはでき
+ず、社員である以上、全員が等しく業務執行の権利を有し義務を負います。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+全員に権利義務あり
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+登録取消しで同意なく当然脱退
+Diagram: A correct-vs-misconception contrast frame. Left box「正しい
+ルール」: 社員である調査士に「登録の取消し」スタンプが押され、法人の輪
+から自動的に外れていく矢印の図に、「総社員の同意」の欄に赤い「✕」を添えて
+不要であることを示す。Right box「よくある誤解」: 「総社員の同意がなければ
+脱退しない」という吹き出しに、大きな赤い「✕」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、社員である調査士について登録の取消しがあった事実を確認します。この
+場合、総社員の同意があるかどうかにかかわらず、その社員は当然に脱退するこ
+とになります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+同意不要で当然脱退
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+事務所には管轄区域内の会員を常駐
+Diagram: A correct-vs-wrong-layout contrast frame. Left box「正しい配置」:
+事務所アイコンの前に、その事務所の所在地を管轄する法務局又は地方法務局の
+管轄区域内に設立された土地家屋調査士会のバッジを付けた社員が常駐している
+図に緑のチェックマーク。Right box「誤った配置」: 同じ事務所の前に、よその
+管轄区域の調査士会バッジを付けた社員だけが常駐している図に赤い「✕」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、事務所の所在地を管轄する法務局又は地方法務局はどこかを確認します。
+次に、その管轄区域内に設立された土地家屋調査士会の会員である社員が、その
+事務所に常駐しているかどうかを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+管轄区域内の会員が必要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+調査士1人でも法人を設立できる
+Diagram: An isometric scene of a single 調査士 character holding a 定款
+document and cheerfully raising a signboard reading「設立」. At the
+character's feet, a 法人 building icon is shown rising up. No second
+founder character or crowd is present in the scene.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、法人を設立しようとする、社員となろうとする調査士が何人いるかを確認
+します。土地家屋調査士法人は、その人数が1人であっても、定款を定めること
+によって設立することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+1人でも設立可能
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+土地家屋調査士法35条の2第1項（代表社員の定め）・35条1項（社員の業務執行の
+権利義務）・38条1号（登録の取消しによる法定脱退）・36条1項（事務所への
+会員社員の常駐）・26条（社員1人での法人設立）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to 権・録・義・務・執・行・設・会・
+駐・脱. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also confirm
+that no character outside hiragana, katakana, Jōyō kanji, and the Arabic
+numerals explicitly used above appears anywhere in the image — no Latin
+letters, no other non-Japanese scripts. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 is drawn as an actual flowchart with branch nodes
+(not a bare illustration with no visible decision structure), that no 肢
+with a genuinely hidden second condition has been flattened into a single
+check, that each 着眼点 callout states a checking order rather than only a
+conclusion and keeps every required element from the source article
+distinct, confirm nothing is rendered below the last panel's footnote text
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
