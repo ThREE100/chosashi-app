@@ -199,3 +199,233 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a law-book/courthouse icon representing a
+法令上の特別の代位規定, a magnifying-glass/shield icon representing 保
+全の必要性, a mortgage-holder character with an 抵当権 ribbon, an
+urban-planning character overseeing a neighborhood grid of land plots
+for 区画整理事業の施行者, heir characters around a court-mediation
+document for 遺産分割調停, a buyer character holding a sales contract,
+and a character with an 地役権 ribbon standing on part of a neighboring
+land plot.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render the
+other, unrelated branches in a faded, greyed-out, or dotted-outline style
+rather than omitting them — the reader should be able to see at a glance
+which part of the shared tree this panel is about. Likewise, where a
+diagram must show an entity that conceptually never held the right or
+status in question (e.g. someone who was never an heir, or a claim that
+never existed), render that entity or claim in a faded or dotted-outline
+style rather than a plain ○/✕ mark, so the visual itself communicates
+"this was never really there," not just "this is wrong." Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep "善意" and "無過失" as two distinct
+checks if the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成23年度午後第11問 ア〜オ
+作図ガイド（登記の代位申請）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+抵当権者は担保目的物特定のため代位できる
+Diagram: A shared two-step decision flowchart used across this set of 5
+panels. First diamond node（thick highlighted border）: Cについて、法令
+が特別に代位を認める規定があるか？with the いいえ branch highlighted
+proceeding downward. Second diamond node（thick highlighted border）:
+代位しなければ、Cの権利（抵当権）が保全されないという関係があるか？with
+the はい branch highlighted (a mortgage-holder character with an 抵当
+権 ribbon over part of the land plot) leading to a highlighted
+conclusion node reading 代位できる, while the いいえ branch of this same
+node is rendered faded, leading to a faded conclusion node reading 代位
+できない.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、抵当権者Cについて、法令が特別に代位を認める規定があるかを確認し
+ます。特別規定はないため、次に、代位しなければCの抵当権の目的物が特定
+されず保全されないという関係があるかを確認し、あるため、A及びBに代位
+して分筆の登記を申請できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保全の必要ありで代位可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+買主の登記請求権は合筆なしでも保全される
+Diagram: The same shared flowchart shape as Panel 1. First diamond node
+（thick highlighted border）: Bについて、法令が特別に代位を認める規定
+があるか？with the いいえ branch highlighted proceeding downward.
+Second diamond node（thick highlighted border）: 代位しなければ、Bの所
+有権移転登記請求権が保全されないという関係があるか？with the いいえ
+branch highlighted (a buyer character holding a sales contract, but a
+red ✕ blocks the buyer from acting in the seller's place) leading to a
+highlighted conclusion node reading 代位できない, while the はい branch
+of this node is rendered faded, leading to a faded conclusion node
+reading 代位できる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、買主Bについて、法令が特別に代位を認める規定があるかを確認しま
+す。特別規定はないため、次に、代位しなければBの所有権移転登記請求権が
+保全されないという関係があるかを確認し、合筆をしなくてもその請求権は
+保全されるため、代位はできないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保全の必要なしで代位不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+区画整理の施行者には特別の代位規定がある
+Diagram: The same shared flowchart shape. First diamond node（thick
+highlighted border）: 土地区画整理事業を施行する者について、法令（土地
+区画整理法）が特別に代位を認める規定があるか？with the はい branch
+highlighted (an urban-planning character overseeing a neighborhood grid
+of land plots) leading directly to a highlighted conclusion node reading
+代位できる; the second diamond node and its branches are rendered faded
+and greyed-out in the background, since this panel's path never reaches
+them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地区画整理事業を施行する者について、法令（土地区画整理法）が特
+別に代位を認める規定があるかを確認します。あるため、この時点で、事業
+の施行のために必要な範囲で代位して分筆又は合筆の登記を申請できると判
+断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+法令上の特別規定あり
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+共有者の一人は遺産分割実現のため代位できる
+Diagram: The same shared flowchart shape. First diamond node（thick
+highlighted border）: 共有者Aについて、法令が特別に代位を認める規定が
+あるか？with the いいえ branch highlighted proceeding downward. Second
+diamond node（thick highlighted border）: 代位しなければ、遺産分割調停
+で決まったAの取得部分が実現・保全されないという関係があるか？with the
+はい branch highlighted (three heir characters around a court-mediation
+document dividing a land plot into three pieces) leading to a
+highlighted conclusion node reading 代位できる, while the いいえ branch
+of this node is rendered faded, leading to a faded conclusion node
+reading 代位できない.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、共有者Aについて、法令が特別に代位を認める規定があるかを確認しま
+す。特別規定はないため、次に、代位しなければ遺産分割調停で決まったAの
+取得部分が実現・保全されないという関係があるかを確認し、あるため、単
+独でB及びCに代位して分筆の登記を申請できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保全の必要ありで代位可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+地役権者は承役地の分筆なしでも保全される
+Diagram: The same shared flowchart shape. First diamond node（thick
+highlighted border）: 地役権者Aについて、法令が特別に代位を認める規定
+があるか？with the いいえ branch highlighted proceeding downward.
+Second diamond node（thick highlighted border）: 代位しなければ、Aの地
+役権設定登記請求権が保全されないという関係があるか？with the いいえ
+branch highlighted (a character with an 地役権 ribbon standing on part
+of a neighboring land plot, reaching toward a 代位分筆申請 stamp, but a
+red ✕ blocks them) leading to a highlighted conclusion node reading 代
+位できない, while the はい branch of this node is rendered faded,
+leading to a faded conclusion node reading 代位できる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地役権者Aについて、法令が特別に代位を認める規定があるかを確認し
+ます。特別規定はないため、次に、代位しなければAの地役権設定登記請求権
+が保全されないという関係があるかを確認し、地役権は土地の一部にそのま
+ま設定できるため分筆がなくてもその請求権は保全され、代位はできないと
+判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保全の必要なしで代位不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法423条（債権者代位権）の考え方と、土地区画整理法上の特別の代位規定
+に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・続・筆・強・拠・轄. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
