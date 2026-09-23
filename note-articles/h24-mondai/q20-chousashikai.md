@@ -198,3 +198,234 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an association (調査士会) building icon next to
+a ministry (法務大臣) building icon for the approval and reporting 肢
+(肢ア・オ), a member icon receiving a caution notice for the 注意・勧告 肢
+(肢ウ), several surveyor icons each setting their own fee tag for the 報酬
+肢 (肢イ), and a registration-ledger icon connected to an 入会 building
+icon for the 登録・入会 肢 (肢エ). Panel 1（肢ア）requires checking whether
+a 会則 provision falls inside a short list of exceptions before deciding
+whether approval is required, so it alone is drawn as an actual decision
+flowchart: a diamond-shaped branch node asking whether the provision is
+one of the specific items listed as exceptions in 49条ただし書, a faded
+「はい」branch leading to a small 認可不要 conclusion node, and a
+highlighted「いいえ」branch (this 肢's case, 入会金の規定) leading to a
+法務大臣の認可が必要 conclusion node. Panels 3 and 5（肢ウ・肢オ）share one
+underlying decision tree — how confident the 調査士会 is about a member's
+rule violation, ranging from「違反のおそれ」(not yet confirmed) to「違反
+すると思料する」(confirmed) — so each of those two panels is drawn as a
+two-tier「対比枠」diagram showing both tiers, with the tier relevant to
+THIS panel rendered with a thick highlighted border and full color, and
+the other, unrelated tier rendered in a faded, greyed-out, dotted-outline
+style rather than omitted, so the reader can see at a glance which part
+of the shared distinction this panel is about. Panels 2 and 4（肢イ・肢エ）
+are each resolved by a single check — whether a widely assumed rule
+actually exists in current law — so they are drawn as a side-by-side
+comparison between a labeled「誤った思い込み」box and a labeled「正しい
+理解」box rather than a flowchart. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認
+します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text — do not drop or merge a required
+element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成24年度午後第20問（改） ア〜オ
+作図ガイド（土地家屋調査士会）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+入会金の会則変更は認可が必要
+Diagram: A decision-tree flowchart. Diamond node labeled 入会金に関する
+会則の規定は、49条ただし書が個別に列挙する認可不要の事由（1号・7号から
+11号まで）に含まれるか？. 「はい」branch (drawn faded, since it is not
+this肢の事実) leads to a small conclusion node 認可は不要. 「いいえ」
+branch (drawn with a thick highlighted border, since 入会金＝6号はこの
+除外事由に含まれない) leads down to a conclusion node showing the
+association（調査士会）building icon submitting a document to a
+ministry（法務大臣）building icon and receiving an official approval
+stamp, labeled 法務大臣の認可が必要.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、入会金に関する会則の規定が、法務大臣の認可を要しない事項として49
+条ただし書に個別に列挙された号（1号・7号から11号まで）に含まれるかどう
+かを確認します。含まれない場合は、次に、原則どおり49条本文に戻り、法務
+大臣の認可を受けなければならないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+法務大臣の認可が必要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+報酬額の統一基準は今はない
+Diagram: A side-by-side comparison. Left box labeled「誤った思い込み」: an
+association（調査士会）building icon posting a signboard labeled 報酬基準
+表, with member icons bowing toward it as if obliged to follow it,
+labeled 会員は従う義務. Right box labeled「正しい理解」: several surveyor
+icons each independently setting a different fee tag for the same kind
+of service, with the「統一基準」signboard crossed out with a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、現行の土地家屋調査士法に、調査士会が会員の報酬額を一律に定める旨
+の規定があるかどうかを確認します。そのような規定は存在しないため、次
+に、各土地家屋調査士が案件ごとに個別に報酬額を定めることができ、会員が
+統一基準に従う義務はないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+統一基準に従う義務なし
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+違反のおそれ段階では注意・勧告
+Diagram: A two-tier「対比枠」diagram. Upper tier (drawn with a thick
+highlighted border and full color, since this is 肢ウ's case): labeled
+違反するおそれがあると認めるとき, showing the association（調査士会）
+building icon handing a small 注意 note and a 勧告書 to a member icon,
+with a caption 会則の定めるところにより. Lower tier (drawn in a faded,
+greyed-out, dotted-outline style, since this belongs to a different
+panel, 肢オ): labeled 違反すると思料するとき（肢オのケース）, showing the
+association building icon sending a report envelope toward a ministry
+building icon, rendered faint and dotted to show it is not this panel's
+case.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題となっている状況が、会員が法に違反する「おそれ」がある未確定
+の段階なのか、それとも「違反すると思料する」確定的な段階なのかを見分け
+ます。おそれの段階であれば、次に、調査士会は会則の定めるところにより、
+その会員に注意を促し、または必要な措置を講ずべきことを勧告できると判断
+します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+注意・勧告ができる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+入会手続の不備は登録拒否の理由になる
+Diagram: A side-by-side comparison. Left box labeled「誤った思い込み」: an
+applicant icon submitting a registration request directly into a
+registration-ledger icon（土地家屋調査士名簿）with a checkmark, while a
+separate 入会手続 building icon sits disconnected and unrelated to the
+side (the mistaken assumption that registration and joining an
+association are unrelated). Right box labeled「正しい理解」: the same
+applicant icon, but now an arrow explicitly connects the
+registration-ledger icon to the 入会手続 building icon; because the 入会
+手続 box is empty, a red ✕ registration-denied stamp appears on the
+ledger, labeled 入会手続なし→登録拒否.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地家屋調査士となる資格を持つ人が、登録の申請にあわせて土地家屋
+調査士会への入会の手続を執っているかどうかを確認します。入会の手続を執
+っていない場合は、次に、そのことを理由として日本土地家屋調査士会連合会
+は登録を拒否できると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+入会手続なしは登録拒否理由
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+違反の報告先は法務局長でなく法務大臣
+Diagram: A two-tier「対比枠」diagram, the same shared distinction as
+panel 3 but with the emphasis reversed. Upper tier (drawn in a faded,
+greyed-out, dotted-outline style, since this belongs to a different
+panel, 肢ウ): labeled 違反のおそれ段階（肢ウのケース）, showing the
+association building icon handing a caution note to a member icon,
+rendered faint and dotted. Lower tier (drawn with a thick highlighted
+border and full color, since this is 肢オ's case): labeled 違反すると
+思料する段階, showing the association（調査士会）building icon sending a
+report envelope, with two destination building icons side by side: on
+the left,「法務局又は地方法務局の長」with a red ✕ over it; on the right,
+「法務大臣」with a green checkmark and the report envelope's arrow
+pointing to it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、調査士会が所属の会員について法違反を確定的に思料している段階であ
+ることを確認します。次に、この報告義務の報告先が、令和2年8月1日施行の
+改正前の「法務局又は地方法務局の長」ではなく、現行法上の「法務大臣」で
+あることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+報告先は法務大臣
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+土地家屋調査士法48条6号・49条（会則の認可）、56条（注意・勧告）、10条1項
+1号（登録拒否）、55条（法務大臣への報告義務）に基づく整理です（報告先は
+令和2年8月1日施行の改正で法務大臣に変更されています）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 調・査・士・会・入・金・認・可・報・酬・
+勧・告・登・録・拒・否・違・反・思・料. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character
+that is not standard Japanese hiragana, katakana, or Jōyō kanji —
+including any Chinese-only character, Korean Hangul, other non-Japanese
+script, or stray decorative glyph — and remove or redraw it so that only
+standard Japanese text appears anywhere in the image. Confirm the panel
+count equals 5 exactly, badge numbers run 1-5 continuously, there is no
+intro illustration or paragraph block between the header and the panels,
+that panel 1（肢ア）is drawn as an actual flowchart with a diamond branch
+node（not a bare illustration with no visible decision structure）, that
+panels 3 and 5（肢ウ・肢オ）each clearly show their own highlighted tier
+distinguished from the other panel's faded tier of the shared distinction,
+that panels 2 and 4（肢イ・肢エ）each show a clear「誤った思い込み」versus
+「正しい理解」comparison, that each 着眼点 callout states a checking order
+rather than only a conclusion and keeps every required element from the
+source article distinct (no merged or dropped requirements), confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
+and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

@@ -190,3 +190,203 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a pier over the sea supporting a house for 桟橋
+の定着性, a radio tower with a base building connected by an elevator to
+an observation deck for 鉄塔と展望台の一体認定, a two-frame comparison
+(roof-material registration category vs the 3-requirement building test)
+for 屋根材の種類, the enclosed space under an elevated railway for ガード
+下の倉庫, and an open-sided arcade over a public road for アーケード付
+街路. Panel 1（肢ア）is the only 肢 in this problem where a naive,
+single-glance reading ("家屋自体が地面に直接付着していない") leads to the
+wrong conclusion, so it alone is drawn as a true two-diamond decision
+flowchart that first checks the house itself, then checks the supporting
+pier structure; the other four panels are resolved by a single check and
+use a labeled illustrative diagram (or, for 肢ウ, a two-frame comparison)
+rather than a forced flowchart. Where a 肢 is resolved by a single check,
+a labeled illustrative diagram is sufficient — do not force a flowchart.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion.
+Do not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+— do not drop or merge a required element (e.g. keep 外気分断性・定着性・
+用途性 as three distinct checks, not one merged check).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成24年度午後第16問 ア〜オ
+作図ガイド（建物の認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+海底に足を持つ桟橋なら定着性あり
+Diagram: A decision-tree flowchart with two diamond nodes. First diamond
+node: 家屋自体は土地に直接付着しているか？with a はい branch leading to a
+small faded conclusion node 定着性あり（本問の場面ではない）, drawn in a
+dotted, greyed-out style since this branch is not this肢の事実. いいえ
+branch proceeds down to a second diamond node (drawn with a thick
+highlighted border): 家屋を支える構築物（桟橋）は、海底から海面上まで
+足・支柱を設置し、永久的に定着しているか？with a はい branch leading to a
+solid conclusion node 支持構築物を介して定着性が認められる（建物と認定
+できる）, and a いいえ branch leading to a separate, clearly labeled
+conclusion node 定着性を欠き建物と認定できない. Draw an isometric house
+sitting atop a pier over open water, with visible pillars reaching the
+seabed, next to the flowchart.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、家屋自体が土地に直接付着しているかを確認します。直接付着していない
+場合でも、次に、その家屋を支える構築物が海底から足や支柱を持ち永久的に
+定着しているかを確認し、定着していれば建物と認定できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+桟橋の定着性で認定可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+連絡設備があれば鉄塔と一体認定
+Diagram: An isometric radio tower (鉄塔) with a small building at its base
+(下部の建物), connected by a clearly drawn elevator shaft and staircase
+icon (エレベーター・階段) running up to an observation deck (展望台) at
+the top. A dashed outline encloses both the base building and the
+observation deck together, labeled 一体として建物と認定, with a checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、鉄塔の下部に建物があるかを確認します。次に、その建物と鉄塔上部の
+展望台とがエレベーターや階段によって連絡しているかを確認し、連絡してい
+れば両者を一体として建物と認定できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+連絡設備で一体認定
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+屋根材の種類と建物認定は別の話
+Diagram: A two-frame comparison. Left frame, labeled 屋根材の分類の話:
+a corrugated vinyl-roof shed with a small registration tag reading
+屋根：ビニール板ぶき, showing this is merely a recognized roofing-material
+category. Right frame, labeled 建物認定3要件の話: the same shed with three
+separate checkmark icons labeled 外気分断性・定着性・用途性. Between the
+two frames, a crossed-out label reads 屋根材だけで一律に不可, showing the
+mistaken idea that connects the two frames is wrong.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題にしているのが屋根材の種類の分類の話なのか、建物認定の3要件の
+話なのかを見分けます。屋根材が特殊な素材であっても、次に、外気分断性・
+定着性・用途性の3要件を満たしているかを確認し、満たしていれば建物と認定
+できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+3要件充足なら認定可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+ガード下でも3要件満たせば建物
+Diagram: An isometric cross-section under an elevated railway (ガード下)
+enclosed with walls and a shutter, used as a warehouse (倉庫). Three small
+checkmark icons beside the structure are labeled 外気分断性・定着性・
+用途性, while a separate label 立地がガード下だから不可 is crossed out
+with a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、ガード下という立地であること自体は建物性を否定する理由にならないと
+確認します。次に、外気分断性・定着性・用途性の3要件を満たしているかを
+確認し、満たしていれば建物と認定できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+3要件満たせば認定可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+アーケードは側面開放で分断性なし
+Diagram: An isometric cross-section of a covered shopping arcade
+(アーケード付街路) over a public road: a roof is clearly drawn overhead,
+but both sides are open with no walls at all. A label 外気分断性 is
+crossed out with a red ✕ next to the open sides, while the roof itself is
+labeled 屋根はあるが側面が開放.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、アーケードに屋根があるかを確認します。次に、側面が壁などで囲まれ
+外気と分断されているかを確認し、側面が開放されている場合は建物と認定
+できません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+外気分断性を欠き不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則77条1号ウ・2号イ・2号エ、81条1項2号クに基づく
+整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 桟・橋・鉄・塔・展・望・屋・根・材・
+質・倉・庫・街・路. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+肢ア is drawn as an actual two-diamond flowchart (not a bare illustration
+with no visible decision structure) while the other panels use a single
+labeled diagram or two-frame comparison, that no 肢 with a genuinely
+hidden second condition has been flattened into a single check, that each
+着眼点 callout states a checking order rather than only a conclusion and
+keeps 外気分断性・定着性・用途性 as three distinct requirements rather
+than merging them, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```
