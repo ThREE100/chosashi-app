@@ -204,3 +204,210 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric houses with number-tag nameplates, a
+registry desk with an application document, a registrar's hand stamping a
+tag change, and a condominium tower with a master record list. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Panel 3（肢ウ）must be
+drawn as a genuine two-step decision flowchart rather than a single
+illustration, because this 肢 looks like a one-check rule ("地番の更正登記
+はできない") but actually hides a second condition: the family number DOES
+change when the land number is corrected, and only the identity of WHO
+carries out that change (the applicant vs. the registrar acting on their
+own authority) determines whether an application is possible. Where a 肢
+is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成25年度午後第11問 ア〜オ
+作図ガイド（家屋番号）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+分割登記は分割前の家屋番号が必要
+Diagram: An isometric building being split into two by a scissors icon
+（建物の分割）. A person submits an application form at a registry desk;
+the field for the original building's number tag（分割前の家屋番号）is
+highlighted as required, with a red X over an attempt to leave it blank.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請するのが建物の分割の登記であることを確認します。分割の登記を
+申請する場合は、どの建物を分割するのかを特定するため、分割前の建物の家屋
+番号を申請情報として提供しなければなりません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+分割前の番号が必要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+不動産番号があれば家屋番号は省略可
+Diagram: An isometric application document showing a single 不動産番号
+のバーコード付きタグ that glows as sufficient by itself, while separate
+地番 and 家屋番号 の記入欄 on the same form are greyed out and crossed
+through as unnecessary.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請情報として不動産番号を提供するかどうかを確認します。不動産番号
+を提供する場合は、団地共用部分である旨の登記であっても、あらためて家屋
+番号を申請情報として提供する必要はありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+家屋番号は省略可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+番号は変わるが申請人からは更正できない
+Diagram: Draw this panel as an actual two-diamond decision flowchart on
+an isometric scene of a house and its land plot. Start node: 敷地の地番
+が変更・更正された。First diamond node: それに応じて家屋番号も変わるか？
+with the はい branch (highlighted with a thick border, since this is the
+first hidden check most readers skip) leading down to a second diamond
+node: その変更は誰が行うか（申請人の申請か、登記官の職権か）？with two
+labeled branch arrows: 申請人の申請 leading to a red cross mark and a
+conclusion node reading 家屋番号の更正登記という申請はできない; 登記官の
+職権 leading to a green checkmark and a conclusion node reading 登記官が
+職権で書き換える. Show the house's number-tag nameplate changing from
+家屋番号10番 to 家屋番号10番1 by a stamp icon representing 登記官の職権,
+matching the land plot's own tag change from 10番 to 10番1, with a red X
+over an attempted application form stamped 家屋番号の更正登記申請書, held
+by the building owner.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地番の変更・更正に応じて家屋番号も変わることを確認します。次に、そ
+の変更を行うのが申請人なのか登記官なのかを確認すると、これは登記官が職権
+で行う処理であり、申請人が「家屋番号の更正登記」という手続を申請すること
+はできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+申請人からは更正できない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+区分建物は一棟にも二重記録
+Diagram: A left/right contrast panel. LEFT side (faded, red X, labeled
+思い込み): a condominium tower's own record（一棟の建物の表題部）with an
+empty 専有部分の家屋番号欄 list, and a separate unit（区分建物）record
+shown alone, implying the number is recorded only once. RIGHT side (full
+color, green checkmark, labeled 正しいルール): the same condominium tower
+record showing a filled master list of every unit's number tag, connected
+by a dotted line to the single unit's own separate record, which also
+carries its own matching number tag — both records show the number.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、区分建物自身の表題部に家屋番号が記録されることを確認します。次に、
+一棟の建物の表題部にも、その一棟に属する区分建物の家屋番号が記録されるこ
+とをあわせて確認します。どちらか一方だけではありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一棟にも記録される
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+別管轄の附属建物は独立した番号なし
+Diagram: A left/right contrast panel. LEFT side (faded, red X, labeled
+思い込み): a small attached shed（附属建物）inside a different 登記所B
+の管轄 boundary line, carrying its own independent number tag. RIGHT side
+(full color, green checkmark, labeled 正しいルール): the main
+building（主である建物）inside 登記所Aの管轄 carrying the family number,
+connected by a bridge to the same shed（附属建物）now shown without any
+independent number tag, treated as part of the main building's record.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、主である建物と附属建物の所在する土地の管轄登記所が異なるかどうかを
+確認します。管轄が異なっていても、附属建物はあくまで主である建物に附属す
+るものとして扱われ、独立した家屋番号は付されません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+独立した番号なし
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法44条1項2号・51条1項、不動産登記事務取扱手続準則、不動産登記
+規則の家屋番号・不動産番号・区分建物の登記記録に関する定めに基づく整理
+です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to
+号・録・地・番・建・物・登・記・所・棟・権・属・管・轄・請.
+If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire
+canvas for any character that is not standard Japanese hiragana,
+katakana, or Jōyō kanji — including any Chinese-only character, Korean
+Hangul, other non-Japanese script, or stray decorative glyph — and remove
+or redraw it so that only standard Japanese text appears anywhere in the
+image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢（肢ウ）is drawn
+as an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that the genuinely hidden second condition
+in 肢ウ (家屋番号は変わるが、変えるのは登記官であって申請人ではない) has
+not been flattened into a single check, that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

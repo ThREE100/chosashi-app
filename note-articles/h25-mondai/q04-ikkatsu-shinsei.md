@@ -196,3 +196,241 @@ header and the cards, and confirm that no card contains a full sentence
 of explanatory prose — every card's takeaway must read as a short
 heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots and buildings, document
+icons, funnel icons showing multiple items merging into one application,
+scissors icons for splitting, plus-sign icons for merging, and name-tag
+icons for applicants. All 5 panels share the same first decision node in
+their diagram (申請人は同一か。所有権登記名義人か表題部所有者かという
+資格の違いや、持分の割合の違いは問わない); render this node with a thick
+highlighted border in every panel to show it is common ground. From that
+shared node, Panels 2（肢イ）and 4（肢エ）branch into a second node asking
+whether the combination matches one of 不動産登記規則35条の個別列挙事由
+(a specific enumerated pairing such as 更正+分筆 or 分割+合併) — highlight
+this branch in those two panels and render the other branch (登記令4条
+ただし書のルート) in a faded, greyed-out style. Panels 1（肢ア）、3（肢ウ）
+and 5（肢オ）instead branch into a second node asking whether 登記の目的・
+登記原因・その日付がすべて同一か（不動産登記令4条ただし書）— highlight
+this branch in those three panels and render the 規則35条列挙のルート in a
+faded, greyed-out style in those panels. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認
+します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成25年度午後第4問 ア〜オ
+作図ガイド（一の申請情報による申請）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+資格違っても同じAなら申請人同一
+Diagram: A decision-tree flowchart on an isometric scene showing 甲土地
+(所有権の登記名義人A) and 乙土地(表題部所有者A) side by side, both with
+the same person icon labeled A drawn with a matching highlight color to
+show they are the same natural person despite the different肩書き. First
+diamond node (thick highlighted border, shared with all other panels):
+申請人は同一か（資格の違いや持分の違いは問わない）？with a はい arrow
+proceeding downward. Second diamond node (faded/greyed since not this
+panel's branch): 規則35条の個別列挙事由に該当するか？with its いいえ
+branch highlighted leading into a third diamond node (thick highlighted
+border): 登記の目的・原因・日付はすべて同一か（分筆の登記で共通）？with
+a はい arrow leading to a conclusion node reading 一の申請情報でまとめて
+申請できる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地と乙土地の申請人が同じ人物Aかどうかを確認します。所有権登記
+名義人か表題部所有者かという資格の違いがあっても、次に登記の目的・原因・
+日付が同一かどうかを確認し、いずれも分筆の登記で共通していれば、一の
+申請情報でまとめて申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+資格違っても同一人物
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+同じ土地の更正と分筆はまとめ可
+Diagram: A decision-tree flowchart on an isometric scene of a single 甲
+土地 carrying two small tags, one reading 分筆の登記 and one reading 住所
+の更正の登記, both funneling toward one document icon labeled 一の申請
+情報. First diamond node (thick highlighted border, shared with all other
+panels): 申請人は同一か（資格の違いや持分の違いは問わない）？with a はい
+arrow proceeding downward. Second diamond node (thick highlighted border,
+this is this panel's branch): 規則35条の個別列挙事由（同一不動産について
+の更正の登記及び分筆の登記の組み合わせ、規則35条7号）に該当するか？with
+a はい arrow leading to a conclusion node reading 規則35条の個別列挙事由
+により一の申請情報でまとめて申請できる。Render the alternative branch
+（登記令4条ただし書のルート）in a faded, greyed-out style since it is not
+needed here.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、2つの登記がいずれも甲土地という同一の不動産についてのものかを確認
+します。同一不動産についての更正の登記と分筆の登記の組み合わせは規則35条
+7号にそのまま定められているため、目的・原因・日付を個別に確認するまでも
+なく一括申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+規則35条7号でOK
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+持分違っても共有者同じなら一括可
+Diagram: A decision-tree flowchart on an isometric scene of adjacent 甲
+土地・乙土地, each showing the same two figures A and B but with
+different-sized pie-chart badges representing different持分割合, both
+plots changing color from green（山林）to beige（宅地）simultaneously.
+First diamond node (thick highlighted border, shared with all other
+panels): 申請人は同一か（持分の割合は問わない）？with a はい arrow
+proceeding downward, and a small callout beside it reading 持分の大きさは
+関係ない to flag the trap. Second diamond node (faded/greyed since not
+this panel's branch): 規則35条の個別列挙事由に該当するか？with its いいえ
+branch highlighted leading into a third diamond node (thick highlighted
+border): 登記の目的・原因・日付はすべて同一か（地目の変更・同時の宅地
+造成・同一の日付）？with a はい arrow leading to a conclusion node reading
+一の申請情報でまとめて申請できる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、持分の割合が違っていても、甲土地と乙土地の共有者がA及びBで同じか
+どうかを確認します。持分の大小は申請人の同一性に影響しません。次に、登記
+の目的・原因・日付がすべて同一かを確認し、地目変更・同時造成・同一の日付
+という3点が一致していれば一括申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+持分違っても同一人扱い
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+分割と合併も一連の手続でまとめ可
+Diagram: A decision-tree flowchart on an isometric scene of a building
+icon（甲建物）with a small attached shed（附属建物）being split off with a
+scissors icon（分割）, then immediately being attached with a plus icon to
+a second building（乙建物）labeled 合併. First diamond node (thick
+highlighted border, shared with all other panels): 申請人は同一か（資格
+の違いや持分の違いは問わない）？with a はい arrow proceeding downward.
+Second diamond node (thick highlighted border, this is this panel's
+branch): 規則35条の個別列挙事由（附属建物の分割の登記及び建物の合併の
+登記の組み合わせ、規則35条2号）に該当するか？with a はい arrow leading to
+a conclusion node reading 規則35条の個別列挙事由により一の申請情報で
+まとめて申請できる。Render the alternative branch（登記令4条ただし書の
+ルート）in a faded, greyed-out style since it is not needed here.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分割の登記と合併の登記のいずれも申請人がAで同一かを確認します。次
+に、附属建物を分割してから他の建物の附属建物とする組み合わせが規則35条
+2号にそのまま定められた事由に当たるかを確認し、当たれば一の申請情報で
+まとめて申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+規則35条2号でOK
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+建物と土地またいでも同一原因なら可
+Diagram: A decision-tree flowchart on an isometric scene of a person icon
+A changing a name tag（labeled 婚姻による氏名変更）reflected simultaneously
+on a small house icon（甲建物）and a land-plot icon（乙土地）. First diamond
+node (thick highlighted border, shared with all other panels): 申請人は
+同一か（不動産の種類、建物か土地かは問わない）？with a はい arrow
+proceeding downward. Second diamond node (faded/greyed since not this
+panel's branch): 規則35条の個別列挙事由に該当するか？with its いいえ
+branch highlighted leading into a third diamond node (thick highlighted
+border): 登記の目的・原因・日付はすべて同一か（氏名の変更の登記・婚姻・
+同一の日付）？with a はい arrow leading to a conclusion node reading 一の
+申請情報でまとめて申請できる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、氏名変更の登記の対象が甲建物と乙土地という種類の違う不動産であって
+も、申請人がAで同一であることを確認します。次に、登記の目的（氏名の変更
+の登記）・原因（婚姻）・日付がいずれも共通しているかを確認すれば、一の
+申請情報でまとめて申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+建物・土地またいでOK
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令4条ただし書（登記の目的・原因・日付が同一の場合の一括申請）
+及び不動産登記規則35条2号・7号（個別に列挙された組み合わせ）に基づく
+整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 併・筆・更・正・権・請・氏 and any
+character with a visually similar Simplified or Traditional Chinese
+variant. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢 is drawn
+as an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct, that all 5 panels
+clearly render the shared first diamond node（申請人は同一か）with a thick
+highlighted border and that each panel's own second-level branch is
+highlighted while the other, unused branch is rendered faded and greyed
+out, confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all
+肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

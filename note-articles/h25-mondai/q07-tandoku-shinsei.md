@@ -196,3 +196,212 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric buildings, land plots, registry
+desks, application documents, and official stamps. All 5 panels share the
+same root decision node in their diagram: 表示に関する登記の単独申請主義
+（不動産登記法16条）の例外に当たるか？Render this shared diamond with a
+thick highlighted border in every panel. In Panels 1（肢ア）、2（肢イ）and
+4（肢エ）, highlight the いいえ（例外に当たらない）branch and fade the はい
+branch, since these three 肢 all resolve to 単独で申請できる, but each
+panel's second-level diamond gives its OWN specific reason (a different
+sub-check per panel — do not reuse identical wording across these three
+panels). In Panels 3（肢ウ）and 5（肢オ）, highlight the はい（例外に当たる）
+branch and fade the いいえ branch instead, since these two 肢 resolve to
+単独で申請できない, again each with its own specific reason. Where a 肢's
+reasoning requires a second check after the shared root node, draw that
+second check as its own diamond-shaped node with the condition written on
+it, a branch arrow, and a final conclusion node. Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成25年度午後第7問 ア〜オ
+作図ガイド（表示登記の単独申請）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+持分の更正は原則どおり単独可
+Diagram: A decision-tree flowchart on an isometric land plot with two
+figures labeled A and B. Root diamond node (thick highlighted border,
+shared with all other panels): 単独申請主義（16条）の例外に当たるか？with
+the いいえ branch highlighted leading to a second diamond node (thick
+highlighted border): 持分の更正は、名義自体の入れ替えを伴うか？with a
+いいえ arrow leading to a conclusion node reading 表題部所有者が単独で
+申請できる, illustrated by A alone stamping a document labeled 持分の更正
+の登記 with a green checkmark while B stands by without objecting. Render
+the はい（例外に当たる）branch in a faded, greyed-out style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が単独申請主義の例外に当たらないかを確認します。持分の更正
+は名義自体の入れ替えを伴わないため、表題部所有者Aが単独で申請できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一人で申請可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+合体登記も保存行為で単独可
+Diagram: A decision-tree flowchart on an isometric scene showing two small
+buildings merging into one larger building labeled 合体. Root diamond node
+(thick highlighted border, shared with all other panels): 単独申請主義
+（16条）の例外に当たるか？with the いいえ branch highlighted leading to a
+second diamond node (thick highlighted border): 共同相続人の一人による
+保存行為として認められるか？with a はい arrow leading to a conclusion node
+reading 相続人の一人が単独で申請できる, illustrated by only one of two
+inheriting figures, labeled 相続人A, stamping the registration document
+alone with a green checkmark. Render the はい（例外に当たる）branch in a
+faded, greyed-out style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が単独申請主義の例外に当たらないかを確認します。建物の合体
+による登記は、共同相続人の一人が保存行為として行うことが認められている
+ため、Aは単独で申請できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保存行為で可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+別人への入れ替えは単独不可
+Diagram: A decision-tree flowchart on an isometric building with a name
+tag reading A being swapped entirely for a tag reading B. Root diamond
+node (thick highlighted border, shared with all other panels): 単独申請
+主義（16条）の例外に当たるか？with the はい branch highlighted leading to a
+second diamond node (thick highlighted border): 更正の前後で名義人の人格
+の同一性が失われるか（全くの別人に入れ替わるか）？with a はい arrow
+leading to a conclusion node reading 名義人単独では申請できない, shown as
+figure A alone trying to stamp the document, blocked by a red X. Render
+the いいえ（例外に当たらない）branch in a faded, greyed-out style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この更正登記が単独申請主義の例外に当たらないかを確認します。表題部
+所有者Aから真の所有者Bへと名義が入れ替わり、人格の同一性が失われる更正
+登記は、Aの単独申請ではすることができません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+同一性なし不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+地積減少の更正も保存行為で可
+Diagram: A decision-tree flowchart on an isometric land plot shrinking
+slightly, labeled 地積減少, with two co-owner figures labeled A and B.
+Root diamond node (thick highlighted border, shared with all other
+panels): 単独申請主義（16条）の例外に当たるか？with the いいえ branch
+highlighted leading to a second diamond node (thick highlighted border):
+共有者の一人による保存行為として認められるか？with a はい arrow leading
+to a conclusion node reading 共有者の一人が単独で申請できる, illustrated
+by A alone stamping the update document with a green checkmark. Render
+the はい（例外に当たる）branch in a faded, greyed-out style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が単独申請主義の例外に当たらないかを確認します。地積の更正
+登記は、更正後に地積が減少する内容であっても、共有者の一人が保存行為とし
+て単独で申請することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+共有者一人で可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+共用部分登記は名義人以外不可
+Diagram: A decision-tree flowchart on an isometric shared-room icon
+labeled 共用部分 inside a building. Root diamond node (thick highlighted
+border, shared with all other panels): 単独申請主義（16条）の例外に当たる
+か？with the はい branch highlighted leading to a second diamond node
+(thick highlighted border): 申請人は所有権の登記名義人か（共用部分である
+旨の登記の申請適格を持つか）？with a いいえ arrow leading to a conclusion
+node reading 申請適格がなく単独で申請できない, illustrated by figure B,
+labeled 所有権登記名義人, being able to stamp the document, while figure A
+standing nearby has a red X blocking their attempt to stamp it alone.
+Render the いいえ（例外に当たらない）branch in a faded, greyed-out style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が単独申請主義の例外に当たらないかを確認します。共用部分で
+ある旨の登記は所有権の登記名義人でなければ申請できず、この事例の所有権
+登記名義人はBであるため、Aにはそもそも申請適格がありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+名義人限定
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法16条（表示に関する登記の単独申請主義）・33条（表題部所有者の
+更正の登記）・58条2項（共用部分である旨の登記）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 単・独・請・権・続・存・義 and any
+character with a visually similar Simplified or Traditional Chinese
+variant. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that all 5 panels clearly render the
+shared root diamond node（単独申請主義の例外に当たるか）with a thick
+highlighted border, that each panel's own second-level diamond is
+highlighted while the unused root branch is rendered faded and greyed
+out, that each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
