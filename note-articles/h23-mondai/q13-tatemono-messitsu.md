@@ -189,3 +189,222 @@ between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
 a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a demolition/rubble icon with reused lumber for
+材料流用による再築, a collapsing building with an 抵当権 ribbon and a
+crossed-out consent document for 承諾書の要否, a collapsed apartment
+building with several distinct owner characters for 区分建物の一棟滅失
+登記, a building with no interior dividing wall for 実体のない区分建物,
+and a reinforced-concrete building with visible interior fire damage but
+an intact structural frame for 主要構造部の残存. Since the 5 肢 in this
+problem are five independent, unrelated rules about the building 滅失
+(extinction) registration rather than variations on one shared fact
+pattern, draw them as five separate diagrams rather than highlighting
+branches of one shared tree shape. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion (肢エ・肢オ), draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node for both the はい and いいえ sides
+wherever both results carry real meaning (肢オ: whether the main
+structural frame survives, and whether the building remains usable, both
+matter and must each show their own conclusion, with no looping arrow
+back into the flowchart). Where a 肢 is resolved by a single check
+(肢イ・肢ウ), a labeled illustrative diagram is sufficient — do not force
+a flowchart. Where a 肢 turns on a common misconception (肢ア: a reader
+may wrongly think that reusing the demolished material preserves the
+original building's identity), draw it as a two-side contrast panel: a
+faded/crossed-out「誤った思い込み」side and a highlighted「正しいルール」
+side, rather than a plain single illustration. Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element (e.g. keep 主要構造部の残存 and 使用目的に従った使用の
+可否 as two distinct checks in 肢オ).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成23年度午後第13問 ア〜オ
+作図ガイド（建物の滅失の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+材料を流用しても元の建物は滅失する
+Diagram: A two-side contrast panel. Left side, labeled「誤った思い込み」
+(faded background): an old building being demolished into a pile of
+reusable lumber icons, then reassembled into a new building on the same
+spot, with a green checkmark wrongly suggesting "同じ材料だから同一の建
+物" — this checkmark is crossed out with a large red ✕. Right side,
+labeled「正しいルール」(highlighted, full color): the same demolished
+lumber pile, but this time with a red 全部取壊し banner over the rubble
+and a 滅失登記 stamp applied to the original building's record,
+independent of what happens to the reused material.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、既存の建物を全部取り壊したかどうかを確認します。次に、その材料を
+新しい建物に使ったかどうかは、元の建物が滅失したという結論を左右しない
+と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+全部取壊しで滅失
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+滅失登記に他の権利者の承諾は不要
+Diagram: A building icon with an 抵当権 ribbon collapsing into a pile of
+rubble. A small side box splits the scene into「物理的な事実」(建物が無く
+なったこと、太い実線で強調)と「権利関係」(抵当権そのもの、変わらない
+ことを示す点線の別枠)。A document icon labeled 承諾書 that the
+mortgage-holder character was expected to sign is crossed out with a red
+✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、滅失登記が公示するのは建物という物理的な客体が無くなった事実であ
+ることを確認します。次に、その建物に抵当権などの権利登記があっても権利
+関係そのものは変わらないため、権利者の承諾書は不要と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+承諾書は不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+区分建物の所有者一人から一棟滅失登記可
+Diagram: A collapsed apartment-building icon with several distinct owner
+characters, one per unit. Only one of the owner characters, highlighted
+with a thick border, stamps a単独で一棟滅失登記 seal, while speech
+bubbles from the other owners showing「同意書」are crossed out with a
+red ✕ to show their agreement is not required.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、滅失したのが所有者の異なる区分建物からなる一棟の建物であることを
+確認します。次に、その一棟の滅失登記は、区分建物の所有者全員がそろわな
+くても、そのうちの一人から申請できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+所有者一人で申請可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+初めから区分実体がなければ錯誤の滅失登記
+Diagram: A decision-tree flowchart. First diamond node: 登記記録上、区分
+建物として登記されているか？with an はい arrow proceeding downward
+（この問題の前提）. Second diamond node (drawn with a thicker highlighted
+border, since this is the肢の核心): 初めから区分した状態になかったこと
+が明らかか？with the はい branch leading to a building icon with no
+interior dividing wall and a conclusion node reading 実体を欠く登記とし
+て、錯誤を原因とする滅失の登記で処理する, marked with a 錯誤 stamp
+erasing the mistaken registration.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記記録上は区分建物として登記されているかを確認します。次に、実
+際には初めから区分された状態になかったことが明らかかどうかを確認し、明
+らかであれば、その区分建物の登記は実体を欠くものとして錯誤を原因とする
+滅失の登記で処理すると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+錯誤の滅失登記で処理
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+主要構造部が残り使えるなら滅失でない
+Diagram: A decision-tree flowchart drawn over a reinforced-concrete
+building with fire and smoke damage confined to the interior walls.
+First diamond node: 主要構造部（柱・梁など）は残存しているか？with はい
+leading down to a second diamond node and いいえ leading sideways to a
+faded conclusion node reading 建物としての効用を失い、滅失に当たりうる.
+Second diamond node (drawn with a thicker highlighted border): 使用目的
+に従った使用が可能か？with はい leading to a green checkmark conclusion
+node reading 社会通念上まだ効用を失っておらず、滅失に当たらない（滅失登
+記は申請できない）, and いいえ leading to a separate faded conclusion
+node reading 効用を失ったとして滅失に当たりうる. No arrow loops back
+into the flowchart from any conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、火災などで主要構造部（柱や梁など）が残存しているかを確認します。
+次に、使用目的に従った使用が可能かを確認し、両方を満たせば社会通念上ま
+だ効用を失っておらず滅失に当たらないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+主要構造部残存で存続
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法57条（建物の滅失の登記）、不動産登記事務取扱手続準則83条
+（建物の再築）等に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 滅・証・権・構・錯・誤・棟・属. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢（肢エ・肢オ）is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that 肢オ's two conditions（主要構
+造部の残存・使用目的に従った使用の可否）each show a meaningful conclusion
+on both the はい and いいえ sides with no looping arrow back into the
+flowchart, that 肢ア is drawn as a two-side contrast between the mistaken
+assumption and the correct rule rather than a single plain illustration,
+that each 着眼点 callout states a checking order rather than only a
+conclusion and keeps every required element from the source article
+distinct (no merged or dropped requirements), confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
