@@ -313,3 +313,218 @@ panels, and confirm every heading and caption text matches the Japanese
 text given above verbatim, with no paraphrasing and no substituted
 characters.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+「本当に必要な証明は何か」を見分ける5肢のため、ア・イは「証明が必要なもの／不要なもの」を上下2段で対比する対比枠型、ウは一般的な3か月ルールという思い込みと実際のルールを対比する正誤対比型、エ・オは申請の主体や記載の有無で結論が分かれる決定木型にした。エ・オは分岐の両側（通常申請と嘱託、区分建物か否か）がいずれも意味のある結論を持つため、両方の行き先を明記している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — application-document folders, a stacked
+comparison of proof that IS required versus proof that is NOT required, a
+scanned-paper-versus-originally-electronic diagram for building plans, a
+calendar icon for an expiration-date misconception, a town-hall
+commission stamp, and co-owner figures at a registry counter. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Where a panel reuses a decision tree shared
+with other panels in this set, render the branch relevant to THIS panel
+with a thick highlighted border and full color, and render the other,
+unrelated branches in a faded, greyed-out, or dotted-outline style rather
+than omitting them — the reader should be able to see at a glance which
+part of the shared tree this panel is about. Likewise, where a diagram
+must show an entity that conceptually never held the right or status in
+question (e.g. someone who was never an heir, or a claim that never
+existed), render that entity or claim in a faded or dotted-outline style
+rather than a plain ○/✕ mark, so the visual itself communicates "this was
+never really there," not just "this is wrong." Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element (e.g. keep "善意" and "無過失" as two distinct checks if
+the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成27年度 午後の部 第14問 ア〜オ
+作図ガイド（表題登記の添付情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+必要なのは所有権の証明で借地権の証明でない
+Diagram: 上下2段の対比枠を描く。上段（必要）には、施工会社が作成した工事
+完了引渡証明書を差し出す新築建物の所有者アイコンを配置し、「所有権の証明」
+というラベルと緑のチェックマークを添える。下段（不要）には、土地の賃貸借
+契約書のアイコンに赤い✕マークを重ね、「土地を使う権原（借地権）の証明」と
+いうラベルを添える。中央の仕切りに「表題登記で問われるのは所有権のみ」と
+いう帯を配置する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず表題登記で証明すべきなのは建物の所有権か、土地を使う権原かを見分けま
+す。表題登記で必要とされるのは所有権の証明だけであり、借地権を有すること
+を証する情報の提供は求められていません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+借地権の証明は不要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+紙のスキャンは不可、最初から電子データなら可
+Diagram: 上下2段の対比枠を描く。上段（不可）には、紙の「建物図面」「各階
+平面図」を持つ手のアイコンと、その紙をスキャナーで読み取ろうとするコンピ
+ューターアイコンを描き、読み取り矢印の上に赤い✕マークを重ねて「紙をスキ
+ャンして電磁的記録化」というラベルを添える。下段（可）には、最初からコン
+ピューター画面上で測量座標データとして作図された図面のアイコンに緑のチェ
+ックマークを重ね、「最初から電子データとして作成」というラベルを添える。
+中央の仕切りに「同じ図面でも作成方法で扱いが変わる」という帯を配置する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその図面がもともと紙で作られたものか、最初から電子データとして作成さ
+れたものかを見分けます。紙の建物図面・各階平面図をスキャナーで電磁的記録
+に記録したものは添付情報にできませんが、最初から法務大臣が定める方式で電
+子的に作成した図面は電子申請でそのまま提供できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+紙のスキャンは不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+資格証明書に3か月の期限という制限はない
+Diagram: 左右2枠の正誤対比図を描く。左側「よくある思い込み」の枠には、カ
+レンダーアイコンと「作成後3か月以内」という帯に赤い取り消し線を重ねる。右
+側「正しいルール」の枠には、施工会社の代表者の資格を証する書面（登記事項
+証明書）のアイコンと「期間制限なし」という帯に緑のチェックマークを配置す
+る。両枠の間に、工事完了引渡証明書を持つ施工会社の担当者アイコンを描き、
+両方の書面をまとめて提出する様子を示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず一般の不動産登記で見かける「作成後3か月以内」という期間制限のイメージ
+に引きずられていないかを確認します。工事完了引渡証明書に添える代表者の資
+格を証する書面には、そのような期間制限は定められていません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+期間制限なし
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+地方公共団体の嘱託なら所有権証明を省略できる
+Diagram: ひし形の分岐ノード「申請の主体は通常の申請人か、地方公共団体に
+よる嘱託か」を描く。通常の申請人（薄いグレーの点線縁取りで縮小表示）から
+の矢印は「所有権証明情報が必要」という結論ノードへ進む。地方公共団体によ
+る嘱託（太い青の縁取り・フルカラーで強調、今回のケース）からの矢印は「所
+有権証明情報の提供を省略できる」という結論ノードへ進む。分岐の脇に、市役
+所アイコンが登記所の窓口に嘱託書類を提出する様子を描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその表題登記が通常の申請によるものか、地方公共団体による嘱託によるも
+のかを確認します。地方公共団体が嘱託する場合は、公的機関による嘱託である
+ことから、所有権を有することを証する情報の提供を省略できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+所有権証明は省略可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+区分建物でなければ共有者の一人で申請できる
+Diagram: ひし形の分岐ノード「対象の建物は区分建物か」を描く。区分建物で
+ない（太い緑の縁取り・フルカラーで強調、今回のケース）からの矢印は「共有
+者のうちの一人が保存行為として単独で申請できる」という結論ノードへ進み、
+兄弟2人が共有する一戸建てアイコンのうち片方の人物アイコンだけが登記所の
+窓口へ向かう様子を描く。区分建物である（薄いグレーの点線縁取りで縮小表
+示）からの矢印は「一棟内の他の専有部分とまとめて一つの申請をし、所有者の
+一人が他の所有者に代わって申請できる」という結論ノードへ進む。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず対象の建物が区分建物かどうかを確認します。区分建物でない建物であれ
+ば、二人以上を表題部所有者とする表題登記の申請は、保存行為として共有者の
+うちの一人から単独ですることができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+共有者の一人で申請可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令13条1項・不動産登記規則73条1項・民法252条5項・不動産登記令3
+条1項9号・不動産登記法48条1項・2項に基づく整理
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 借・地・権・証・明・不・要・建・図・面・
+各・階・平・磁・記・録・添・付・情・報・資・格・期・間・制・限・方・公・共・
+団・体・嘱・託・所・有・省・略・単・独・申・請・棟・専・分・兄・弟・代・見.
+If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢 is drawn
+as an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
