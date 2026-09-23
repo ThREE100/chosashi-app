@@ -196,3 +196,234 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+建物認定の3要件（定着性・用途性・外気分断性）を、5肢すべてが共有する1つの決定木にあてはめて判定する作図ガイド。各パネルは、この共有木のうち自分の肢に関係する枝だけを強調し、それ以外の枝はグレーアウトして示す。②の俯瞰カードポスターとは別物で、判定の手順そのものを可視化する構成。5パネル、portrait 1080×2600px。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric building-candidate icons (a sagging
+vinyl greenhouse, a shipping container on a concrete footing, a
+cylindrical oil tank, a factory machine with an operator hut on top, an
+outdoor stadium grandstand with a roofed section and an open-air
+section), diamond-shaped decision nodes labeled 定着性/用途性/外気分断性,
+and ○/✕ branch marks. All 5 panels in this set share the exact same
+three-step AND decision tree (定着性 → 用途性 → 外気分断性), since the
+source article evaluates every 肢 against these same three requirements
+in the same order; render the node(s) actually relevant to each panel's
+肢 with a thick highlighted border and full color, and render the tree's
+remaining, unreached node(s) in a faded, grey, dotted-outline style with
+dimmed labels rather than omitting them, so the reader can see at a
+glance which of the three requirements decided this 肢. Where a 肢 (panel
+2) satisfies all three requirements in sequence, highlight all three
+nodes in full color with no faded branch and a single final conclusion
+node. Where a 肢 (panel 5) splits into two outcomes at the same node
+because two physical sections of one structure are being compared, draw
+both outcomes as separate, fully highlighted conclusion nodes, and never
+draw any loop arrow that returns from a branch node back to an earlier
+node — every branch must end at its own new conclusion node. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep 定着性, 用途性, and 外気分断性 as
+three distinct checks in the shared decision tree, rather than merging
+them into a single step).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成21年度 午後の部 第4問 ア〜オ
+作図ガイド（建物認定の3要件判定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+耐用年数1年の温室は定着性を欠く
+Diagram: The shared three-step decision tree, drawn top to bottom. At the
+top, a sagging isometric vinyl greenhouse with a thin pipe frame, tagged
+耐用年数1年程度. An arrow leads to Diamond 1 (thick highlighted border)
+labeled 土地に永続的に定着しているか(定着性). Its ✕(いいえ) branch leads to
+a highlighted conclusion node labeled 建物として登記できない(定着性なし).
+Its ○(はい) branch is drawn as a short, faded, grey, dotted stub leading
+toward Diamond 2 and Diamond 3, both rendered in a faded dashed outline
+with dimmed labels 用途性 and 外気分断性, since this 肢 never reaches them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この温室が土地に永続的に固着しているか(定着性)を確認します。耐用年数
+がおおむね1年程度と短く永続性を欠くため、その時点で建物として登記できない
+と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+永続性を欠く
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+基礎工事で定着したコンテナは3要件をすべて満たす
+Diagram: The same shared three-step decision tree, this time drawn with
+all three diamonds highlighted and fully colored in sequence, with no
+faded branch. At the top, an isometric shipping container set squarely on
+a thick grey concrete footing, tagged 基礎工事. An arrow leads to Diamond
+1 labeled 土地に永続的に定着しているか(定着性): ○(はい、基礎工事で定着).
+An arrow leads down to Diamond 2 labeled 人や物が滞留する目的に供し得るか
+(用途性): ○(はい、貸倉庫として保管、内部に荷物). An arrow leads down to
+Diamond 3 labeled 屋根・周壁等で外気を分断しているか(外気分断性): ○(はい、
+四方を鋼板で囲まれている). A final arrow leads to a highlighted conclusion
+node labeled 建物として登記できる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず定着性を確認し、次に用途性、最後に外気分断性の順に3要件を一つずつ確認
+します。コンテナ倉庫はいずれも満たすため、建物として登記できると判断しま
+す。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+3要件を満たす
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+石油タンクは人が滞留する用途性を欠く
+Diagram: The shared decision tree. At the top, a large isometric
+cylindrical oil tank filled with a liquid level line, tagged 石油. An
+arrow leads to Diamond 1 labeled 土地に永続的に定着しているか(定着性):
+○(はい、地面に固定). An arrow leads down to Diamond 2 (thick highlighted
+border) labeled 人や物が滞留する目的に供し得るか(用途性), with a small
+crossed-out human figure at the tank's entrance tagged 人が入って活動・
+保管する空間ではない: ✕(いいえ). This leads to a highlighted conclusion
+node labeled 建物として登記できない(用途性なし). Diamond 3 (外気分断性)
+is drawn as a faded, grey, dotted stub below with a dimmed label, since
+this 肢 never reaches it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず定着性を確認すると満たしていますが、次に用途性を確認すると、石油タンク
+は人や物が中で活動・保管される空間ではないため、その時点で建物として登記
+できないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+用途性を欠く
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+機械の上に載るだけの建造物は定着性を欠く
+Diagram: The shared decision tree. At the top, an isometric factory
+machine with a small operator hut resting on top of it, tagged 機械上.
+Beneath the hut, dashed lines drop toward the ground where a support-
+column icon is crossed out with a red ✕, tagged 基脚・支柱なし. An arrow
+leads to Diamond 1 (thick highlighted border) labeled 土地に永続的に定着
+しているか(定着性): ✕(いいえ、地上への直接固着なし). This leads to a
+highlighted conclusion node labeled 建物として登記できない(定着性なし).
+Diamond 2 and Diamond 3 (用途性・外気分断性) are drawn as faded, grey,
+dotted stubs below with dimmed labels, since this 肢 never reaches them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず定着性を確認します。この建造物は機械の上に載っているだけで、地上に基脚
+や支柱がなく土地へ直接固着していないため、その時点で建物として登記できな
+いと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+土地に未固着
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+観覧席は屋根がある部分だけ建物になる
+Diagram: The shared decision tree, drawn with Diamond 1 and Diamond 2
+passed by both sections, and Diamond 3 split into two outcomes for two
+physical sections of the same grandstand. At the top, an isometric
+outdoor ballpark stand split into a roofed section (tagged 屋根あり, with
+spectator figures under it) and an adjacent open-air bleacher section
+(tagged 屋根なし). An arrow leads to Diamond 1 labeled 定着性: ○(はい、
+両方とも土地に固定) for both sections. An arrow leads down to Diamond 2
+labeled 用途性: ○(はい、どちらも観客が滞留して観戦) for both sections. An
+arrow leads down to Diamond 3 (thick highlighted border) labeled 屋根等で
+外気を分断しているか(外気分断性), splitting into two branches: from
+屋根あり, an arrow labeled ○(はい) leads to a highlighted conclusion node
+建物として登記できる; from 屋根なし, a separate arrow labeled ✕(いいえ)
+leads to its own conclusion node 建物として登記できない. Both conclusion
+nodes are distinct end points; draw no arrow returning upward from either
+of them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+定着性と用途性はどちらの区画も満たすため、最後に外気分断性だけを確認しま
+す。屋根のある部分は外気分断性を満たして建物になりますが、屋根のない部分は
+満たさず建物になりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+屋根の有無がカギ
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則111条、不動産登記事務取扱手続準則77条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 建・物・登・記・機・械・観・覧・倉・
+着・滞. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that the shared three-step decision
+tree (定着性→用途性→外気分断性) is drawn consistently across all 5
+panels with only the node(s) relevant to each panel's 肢 shown in full
+highlighted color and the remaining, unreached node(s) shown as a faded,
+grey, dotted stub rather than omitted, that panel 2 shows all three nodes
+fully highlighted with no faded branch, that panel 5's split outcome
+under 外気分断性 shows both the roofed and open-air conclusions as
+distinct end points with no loop arrow back to an earlier node, that each
+着眼点 callout states a checking order rather than only a conclusion and
+keeps 定着性・用途性・外気分断性 distinct (no merged or dropped
+requirements), confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```
