@@ -220,3 +220,261 @@ kind — the poster ends immediately after the last card), and confirm the
 entire canvas, edge to edge, is filled with a fully opaque background with
 no transparency or alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+この問題は「申請→審査→公告・通知→（ウ）→事実の調査→（エ）→（オ）→特定→公告・通知」という
+筆界特定手続の流れ図そのものの空欄ア〜オを埋める形式であり、問題文自体が既に手続の順序を問う
+構造になっている。そこで5枚のパネルは同じ手続の流れ図（共有ツリー）を土台とし、各パネルは
+自分が扱う空欄の直前・直後のノードだけを太い縁取り・フルカラーで強調表示し、それ以外の部分は
+淡色・破線表示にとどめることで、「その空欄の前後に何があるかという位置関係から、どの用語が
+入るかを判断する」という思考順序を追体験できる構成にした。ア・イは審査の結果によって却下
+ルートと通常ルートに枝分かれする関係にあるため決定木（ひし形の分岐ノード）で示し、ウ・エ・オは
+一本道の手続なので通常のタイムライン型の図解で示す。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — flowchart nodes drawn as rounded rectangle boxes
+connected by vertical arrows, one diamond-shaped decision node for the
+却下 branch, and isometric government-office icons such as a registrar's
+desk, a magnifying glass, a document stamp, a public notice board, a
+calendar, professional figures with name badges, and speech bubbles.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render the
+other, unrelated branches in a faded, greyed-out, or dotted-outline style
+rather than omitting them — the reader should be able to see at a glance
+which part of the shared tree this panel is about. Likewise, where a
+diagram must show an entity that conceptually never held the right or
+status in question (e.g. someone who was never an heir, or a claim that
+never existed), render that entity or claim in a faded or dotted-outline
+style rather than a plain ○/✕ mark, so the visual itself communicates
+"this was never really there," not just "this is wrong." Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep "善意" and "無過失" as two distinct
+checks if the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成19年度 午前の部 第14問 ア〜オ
+作図ガイド（筆界特定手続の流れ）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled blue circle containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+受理後、最初に却下事由の有無を審査
+Diagram: Draw the full shared vertical flowchart used across all 5 panels
+of this set, top to bottom: a start node reading 「筆界特定の申請」, then
+the blank node for 肢ア (drawn as an empty rounded rectangle with a bold
+question mark, thick highlighted blue border, since this panel is about
+肢ア), then immediately below it a diamond-shaped decision node reading
+「却下事由あり?」, with a Yes-branch arrow (labeled ○) leading right to a
+small node reading 「（イ）」 in faded grey dotted-outline style with a
+terminal mark (no further arrow), and a No-branch arrow (labeled ✕)
+continuing straight down to a chain of faded grey dotted-outline nodes
+reading in order 「公告及び関係人に対する通知」→「（ウ）」→「事実の調査の
+開始」→「（エ）」→「（オ）」→「筆界特定」→「公告及び関係人に対する通知」,
+drawn smaller than the highlighted node to show they exist further down
+without revealing their content yet. Embed an isometric registrar figure
+with a magnifying glass and a small checklist showing icons/labels for
+管轄・申請権限・記載事項 next to the 肢ア node to represent the act being
+performed there.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず空欄アの直前に「筆界特定の申請」があることを確認します。次に空欄アの
+直後で手続が却下ルートと通常ルートに枝分かれしていることを確認すると、
+直後に判断が分かれる行為である「審査」が空欄アに入るとわかります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+審査
+
+--- PANEL 2（肢イ） ---
+Badge: a filled red circle containing the number 2.
+Heading (bold, ONE line):
+却下されたらそこで手続が終わる
+Diagram: Draw the same shared flowchart. Fade the start node 「筆界特定の
+申請」 and the 肢ア node (now shown as a small solved node labeled 「審査」
+in faded grey text, since 肢ア was already solved in Panel 1) in grey
+dotted-outline style. Keep the diamond decision node 「却下事由あり?」
+visible but faded, except for its Yes-branch arrow (labeled ○), which is
+drawn in full color with a thick highlighted red border leading to the
+blank node for 肢イ (empty rounded rectangle, thick highlighted red
+border, question mark). Draw no arrow continuing out of the 肢イ node —
+instead draw a small 「手続終了」 stamp or end-cap icon directly below it
+to make clear this branch terminates here. Draw the No-branch arrow and
+the remaining chain (公告及び関係人に対する通知→（ウ）→事実の調査の開始→
+（エ）→（オ）→筆界特定→公告及び関係人に対する通知) in faded grey
+dotted-outline style continuing straight down, to show that route keeps
+going elsewhere. Embed a red hanko-style stamp icon reading 「却下」
+pressed onto a document inside the 肢イ node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず空欄イが、審査の分岐のうち却下事由がある側の枝の先にあることを確認
+します。次に、その枝の先に矢印が続かず手続がそこで終わっていることを
+確認すると、申請そのものを打ち切る「却下」が空欄イに入るとわかります。
+Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
+characters):
+却下で手続終了
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line):
+公告・通知の後、筆界調査委員を指定
+Diagram: Draw the same shared flowchart. Fade the top portion (申請→肢ア→
+diamond→肢イ branch) entirely in grey dotted-outline style, drawn smaller,
+to show it already happened. Highlight with a thick blue border the node
+「公告及び関係人に対する通知」 immediately above the blank node for 肢ウ,
+the blank 肢ウ node itself (empty rounded rectangle, question mark, thick
+blue border), and the node 「事実の調査の開始」 immediately below it.
+Embed an isometric public notice board with a document pinned to it
+labeled 「公告」 and an envelope icon labeled 「通知」 next to the upper
+highlighted node, and inside the 肢ウ node embed a hand reaching into a
+lineup of three professional figures labeled 弁護士・司法書士・
+土地家屋調査士 and placing a name badge on one of them. Fade the
+remaining lower chain (（エ）→（オ）→筆界特定→公告及び関係人に対する通知)
+in grey dotted-outline style below.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず空欄ウの直前に「公告及び関係人に対する通知」があることを確認します。
+次に空欄ウの直後が「事実の調査の開始」であることを確認すると、調査が
+始まる前に必要な準備である「筆界調査委員の指定」が空欄ウに入るとわかり
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+筆界調査委員の指定
+
+--- PANEL 4（肢エ） ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line):
+調査の後、意見を聴く期日を設ける
+Diagram: Draw the same shared flowchart. Fade the upper portion (申請から
+肢ウまで) entirely in grey dotted-outline style, drawn smaller. Highlight
+with a thick blue border the node 「事実の調査の開始」 immediately above
+the blank node for 肢エ, the blank 肢エ node itself, and the still-empty
+node for 肢オ immediately below it (drawn slightly smaller, in a lighter
+highlight, since this panel focuses on 肢エ but must show that 肢オ comes
+right after with no other step in between). Embed inside 事実の調査の
+開始 a small isometric surveyor figure measuring a land plot with a
+surveying tool, and inside the 肢エ node embed a calendar icon with one
+date circled, below which small figures representing 申請人 and 関係人
+sit at a table with speech bubble icons above them. Fade the remaining
+chain (筆界特定→公告及び関係人に対する通知) below in grey dotted-outline
+style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず空欄エの直前に「事実の調査の開始」があることを確認します。次に空欄
+エの直後に別の空欄オが続き、そのさらに先に「筆界特定」が来ることを確認
+すると、調査を終えた後に申請人・関係人の意見を聴く場である「意見聴取等
+の期日」が空欄エに入るとわかります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+意見聴取等の期日
+
+--- PANEL 5（肢オ） ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line):
+意見聴取の後、委員が意見を提出する
+Diagram: Draw the same shared flowchart. Fade the upper portion (申請から
+事実の調査の開始まで) entirely in grey dotted-outline style, drawn
+smaller. Highlight with a thick blue border the node for 肢エ (now shown
+as a small solved node labeled 「意見聴取等の期日」 in faded grey text,
+since 肢エ was already solved in Panel 4), the blank 肢オ node itself
+immediately below it (empty rounded rectangle, question mark, thick blue
+border), and the node 「筆界特定」 immediately below 肢オ. Embed inside
+the 肢オ node the professional figure from earlier panels handing a
+document stamped 「意見書」 to the registrar's desk, with an arrow
+pointing onward to a stamp reading 「筆界特定」 in the next node. Fade
+the final node 「公告及び関係人に対する通知」 below in grey dotted-outline
+style.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず空欄オの直前に空欄エ（意見聴取等の期日）があることを確認します。
+次に空欄オの直後が「筆界特定」であることを確認すると、意見聴取の場を
+経て専門家が最終的な意見をまとめて提出する「筆界調査委員の意見提出」が
+空欄オに入るとわかります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+筆界調査委員の意見提出
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：不動産登記法132条1項（審査・却下）、133条（公告・通知）、134条
+（筆界調査委員の指定）、140条（意見聴取等の期日）、142条（意見の提出）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 筆・界・審・査・却・下・告・知・委・
+員・聴・意・提・続・調・関・係. If any character renders as a Simplified
+or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 肢 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), that any panel
+sharing a decision tree with another panel clearly distinguishes its own
+highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
