@@ -209,3 +209,209 @@ continuously across both columns without resetting, confirm there is no
 intro illustration or paragraph block between the header and the cards,
 and confirm that no card contains a full sentence of explanatory prose.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric 仮換地 land-plot icon, a 従前の
+宅地 land-plot icon, a 保留地 land-plot icon, an isometric 施行者 figure
+wearing a construction helmet, an isometric 所有者 figure, a registry-
+office building icon (法務局), a calendar/stamp icon for 公告, a closed
+registry-book icon, a land plot split by a dashed line for 分筆, and a
+document icon with bracketed text for 予定地番. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Panel 2（肢イ）is a decision tree where BOTH outcomes carry
+real, distinct legal conclusions: draw a diamond node 換地計画で対応する
+換地が定められたか？with a「はい」branch leading to its own conclusion
+node (公告翌日から従前の宅地とみなされ権利が引き継がれる、通常の重みで
+描く) and a「いいえ」branch (このパネルの主眼のため太い縁取り・フルカラー
+で強調) leading to a separate, explicit conclusion node (公告があった日
+が終了した時に権利消滅、登記記録も閉鎖される); do not draw any arrow
+that loops back from either leaf to an earlier node. Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words, not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成17年度午後第11問 ア〜オ
+作図ガイド（土地区画整理事業の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+仮換地上の建物は現地番と予定地番を併記
+Diagram: A single labeled illustrative diagram (this 肢 is resolved by
+one check, so no flowchart is needed). An isometric house standing on a
+land plot labeled 仮換地. Beside the house, a document icon shows two
+stacked step callouts numbered ①② read top to bottom: ①「まず現在の地番
+（底地の地番）を記載」next to the text「所在：現在の地番」, ②「次に予定
+地番があれば括弧書きで併記」next to the text「（予定地番　○番）」, with
+the bracketed part enclosed in a dashed outline to show it is added
+afterward, not instead of the current lot number.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の所在には現在の地番（底地の地番）を記載することを確認しま
+す。次に、将来の換地の予定地番があれば、それを括弧書きで現地番の後ろ
+に併記できることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+現地番＋括弧書きでOK
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+換地なしの従前地は公告終了時に消滅
+Diagram: A decision-tree flowchart. Diamond node: 換地計画で、この従前
+の宅地に対応する換地が定められたか？The「はい」branch leads to a
+conclusion node (drawn with normal weight, not this panel's focus):
+公告の翌日から換地が従前の宅地とみなされ、権利が引き継がれる。The
+「いいえ」branch (highlighted with a thick colored border and full
+color, since this is the panel's focus) leads to a separate, clearly
+distinct conclusion node: 公告があった日が終了した時に権利消滅、登記
+記録も閉鎖される, illustrated with a land-plot icon labeled 従前の宅
+地 turning grayed-out beside a registry-book icon stamped in red with
+閉鎖. No arrow loops back from either conclusion node to the diamond.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この従前の宅地に対応する換地が定められたかどうかを確認します。
+定められなかった宅地は、公告があった日が終了した時に権利が消滅し、
+登記記録も閉鎖されることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+権利消滅・登記記録閉鎖
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+未登記の従前地は施行者が代位して申請
+Diagram: A 系統図・関係図型 diagram showing the relationship between
+three parties, drawn top to bottom as two numbered steps. ①最初の確認
+点として、従前の土地のアイコンに「表示登記なし」というラベルを添え
+る。②次に、ヘルメット姿の施行者のアイコンから、法務局（登記所）の建
+物アイコンへ向かって「代位して表題登記を申請」というラベル付きの矢
+印を伸ばす。所有者のアイコンは脇に立ち、書類を何も持たずにただ見て
+いる姿で描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この従前の土地に表示に関する登記があるかどうかを確認します。
+登記がない場合は、施行者が所有者に代わって（代位して）表題登記を申
+請できることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+施行者が代位申請可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+分筆の申請義務は所有者でなく施行者が代位
+Diagram: A 正誤対比型 split panel. LEFT side (誤りやすい思い込み):
+所有者のアイコンが分筆登記の申請書を法務局へ提出しようとしているイラ
+ストに「所有者に申請義務がある」というラベルを重ね、大きな赤い×印と
+取り消し線を描く。RIGHT side (正しいルール、太い縁取りで強調): ヘル
+メット姿の施行者のアイコンが代わりに分筆の手続書類を提出しているイラ
+ストに「施行者が代位して手続」というラベルと緑のチェックマークを付け
+る。所有者のアイコンは脇に立ち、何も持たずに見ているだけの姿で描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、従前の1筆の土地に数個の換地が定められたことを確認します。次
+に、その分筆の手続きは施行者が所有者に代わって行うことができ、所有
+者自身には申請義務が課されていないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+申請義務は所有者になし
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+保留地の登記は公告翌日以降にのみ可能
+Diagram: A タイムライン型 diagram with three points arranged left to
+right, connected by arrows. ①「換地処分前」の時点：保留地のアイコン
+に錠前のアイコンと「表題登記不可」という赤い禁止マーク付きラベル。②
+「換地処分の公告」の時点：カレンダーにスタンプが押されるイラスト。③
+「公告の翌日」の時点：施行者のアイコンが保留地の鍵アイコンを受け取
+り、「表題登記の申請が可能」という緑のチェックマーク付きラベルを添え
+る。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この保留地について換地処分の公告があったかどうかを確認しま
+す。公告があった日の翌日に施行者がその保留地を取得するため、その翌
+日以降でなければ表題登記の申請はできないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+公告翌日から申請可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+土地区画整理法104条1項・11項（肢イ・オ）、107条4項の委任に基づく土地
+区画整理登記令2条1項1号（肢ウ）、82条1項（肢エ）に基づく整理です。肢
+アの予定地番の括弧書き併記は、実務上の取扱いによるものです。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・地・番・登・記・所・施・換・筆・請・
+認・従. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panel 2's decision tree shows
+BOTH the「はい」and「いいえ」conclusion nodes explicitly with no arrow
+looping back to an earlier node, that every multi-condition 肢 is drawn
+as an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that each 着眼点 callout states a checking
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with
+a fully opaque background with no transparency or alpha channel anywhere.
+```
