@@ -192,3 +192,208 @@ between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
 a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there. Panels 1（肢ア）, 2（肢イ）, 3（肢ウ）and 4
+（肢エ）are all about WHEN the「1か月以内」period starts, so draw each of
+them as a left-to-right timeline with a calendar/stopwatch icon at the
+correct starting point (marked with a green flag) and a labeled duration
+bracket reading 1か月 stretching to the filing deadline; where the 肢's
+premise names a candidate starting date that is actually WRONG, also draw
+that wrong date on the same timeline, further along or at a different
+point, crossed out with a red ✕, so the reader sees both the correct
+starting point and the trap side by side rather than only the correct
+answer. Panel 4（肢エ）needs THREE points on its timeline, not two,
+because it hides a second condition many readers miss: the 地目変更 event
+itself, then the buyer's 所有権取得日（売買契約等）which is a false
+candidate for the starting point (crossed out with a red ✕), and finally
+the buyer's own 所有権移転登記の日, which is the true starting point
+(green flag) — render all three as distinct, separately labeled points on
+one timeline, not merged into two. Panel 5（肢オ）is not about a starting
+date at all but about WHICH TYPE of registration applies, so draw it as a
+two-side contrast panel instead of a timeline: a faded/crossed-out
+「誤り」side showing a building split physically by partial demolition
+with a 建物の分割の登記 stamp crossed out in red, next to a small
+callout defining that this registration only applies when an 附属建物 is
+separated from the main building, and a highlighted「正しい」side showing
+the same physically-split building with a 一部滅失による変更登記 stamp
+and a green checkmark. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element
+(e.g. keep 肢エ's true starting point as「所有権の登記があった日」, never
+simplify it to「取得日」or to「地目が変更した日」).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成23年度午後第16問 ア〜オ
+作図ガイド（表示登記の申請義務）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+増築登記の起算点は工事完了日
+Diagram: A left-to-right timeline. A building under construction with
+scaffolding marks 増築工事完了日 with a green flag as the true starting
+point. A 1か月 duration bracket stretches from that flag to a 申請期限
+marker. Further along the same timeline, a later 共用部分である旨の登記
+の日 marker is drawn and crossed out with a red ✕, labeled 誤った起点.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、増築登記の申請義務がいつから発生するかを確認します。次に、その起
+算点は工事が完了した日であって、その後にされる共用部分である旨の登記の
+日ではないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+工事完了日が起点
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+敷地権割合の変更日から1か月以内に申請
+Diagram: A left-to-right timeline. A condominium building's pie-chart
+敷地権割合 shifting to new fractions marks 変更の日 with a green flag as
+the starting point. A 1か月 duration bracket stretches from that flag to
+a 表題部変更登記 stamp at the deadline.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、敷地権の割合について変更が生じたことを確認します。次に、その変更
+の日から1か月以内に、表題部に関する変更の登記を申請しなければならない
+と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+変更日から1か月
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+分筆による地番変更日から1か月以内に申請
+Diagram: A left-to-right timeline. A land plot splitting causes the
+building's address tag to change number, marking 地番変更の日 with a
+green flag as the starting point. A 1か月 duration bracket stretches from
+that flag to a 所在変更登記 stamp at the deadline.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆によって建物の所在する土地の地番が変わったことを確認します。
+次に、その変更の日から1か月以内に建物の所在に関する変更の登記を申請し
+なければならないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+変更日から1か月
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+新所有者の起算点は取得日でなく登記日
+Diagram: A left-to-right timeline with THREE distinct labeled points.
+Point 1: a forest-labeled land plot（山林）already has a house built on
+it, marking 地目変更が問題となる状態. Point 2, further along: the new
+buyer character's 所有権取得日（売買契約等）, drawn with a red ✕ and
+labeled 誤った起点. Point 3, still further along: the same buyer's own
+所有権移転登記の日, drawn with a green flag and labeled 正しい起点, with
+a 1か月 duration bracket stretching from Point 3 to a 地目変更登記 stamp
+at the deadline.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目変更後に土地の所有権を取得した者であることを確認します。次
+に、その起算点は所有権を取得した日ではなく、自己について所有権の登記が
+あった日であると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+所有権登記日が起点
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+一部取壊しで複数棟は分割の登記でない
+Diagram: A two-side contrast panel. Left side, labeled「誤り」(faded
+background): one connected building being partially demolished in the
+middle, physically splitting into two separate buildings, with a
+建物の分割の登記 stamp crossed out with a red ✕, next to a small callout
+box reading 分割の登記は「附属建物」を分けて独立させる登記. Right side,
+labeled「正しい」(highlighted, full color): the same physically-split
+building, this time with a 一部滅失による変更登記 stamp and a green
+checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、1棟の建物が一部の取壊しによって物理的に2棟以上に分かれた場面であ
+ることを確認します。次に、建物の分割の登記は附属建物を分けて独立させる
+場合の登記であり、附属建物を伴わない物理的な分割には当てはまらないた
+め、一部滅失による変更登記等で対応すると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+変更登記等で対応
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法37条2項・51条1項・54条1項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 義・産・録・築・棟・属. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that PANEL 1・2・3 each show a single-point
+timeline with the correct starting date and a 1か月 duration bracket,
+that PANEL 4 shows all THREE distinct labeled points (地目変更, 誤った
+起点である取得日, 正しい起点である所有権登記日) rather than merging the
+取得日 and 登記日 into one point, that PANEL 5 is drawn as a two-side
+contrast between the mistaken registration type and the correct one
+rather than a single plain illustration, that each 着眼点 callout states
+a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```

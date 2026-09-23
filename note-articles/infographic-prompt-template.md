@@ -76,7 +76,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
@@ -133,9 +141,14 @@ sentence, NOT a legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals {CARD_COUNT}
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals {CARD_COUNT}
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, confirm
 that no card contains a full sentence of explanatory prose — every card's
@@ -158,7 +171,9 @@ channel anywhere.
 
 問9のインフォグラフィックで実際に発生した不具合（簡体字混入、用語の誤変換「公溜地（溜池）」「公園用地」、見出しの重複「墓地」、判読不能な文字列「/港口用用」）を再発させないため、以下を必ず守る。
 
-1. プロンプトの冒頭と末尾の二重で「日本語のみ・常用漢字のみ・簡体字禁止」を明記する（雛形の CRITICAL TEXT REQUIREMENT と Final check の両方を必ず含める）。
+**2026-09-23追加（対象を繁体字・非日本語文字全般に拡大）**：簡体字だけでなく繁体字（Traditional Chinese）の混入、および日本語（ひらがな・カタカナ・常用漢字・算用数字）以外の文字（英字・ハングル・判読不能な疑似文字列等）が背景・枠・装飾等のどこかに紛れ込む事故も同様に発生しうるため、以下1〜6の「簡体字」に関する記述は、雛形の CRITICAL TEXT REQUIREMENT・Final check の文言と同様に、繁体字・非日本語文字全般の禁止も必ず含めて運用する。
+
+1. プロンプトの冒頭と末尾の二重で「日本語のみ・常用漢字のみ・簡体字禁止・繁体字禁止・日本語以外の文字（英字・ハングル等）の混入禁止」を明記する（雛形の CRITICAL TEXT REQUIREMENT と Final check の両方を必ず含める）。
 2. カード見出し・結論タグ・ラベルに使う文字列は、圧縮後（上記「見出し・結論タグを『要約』する具体例」参照）に確定した文字列をプロンプト側でそれ以上言い換えない。プロンプト自体にも「verbatim（そのまま）・do not paraphrase」と明記する。
 3. 列挙型の要素（種類の一覧など、項目数が決まっているもの）がある場合は、番号付きリストで全項目を一字一句明記し、「重複禁止・欠落禁止・言い換え禁止」を明記したうえで、生成後に個数と内容を自己検証させる一文を末尾に追加する。この列挙リストも、HEADERより前ではなくFOOTER直前に置く（上記「イントロブロック禁止」参照）。
 4. 特に誤りやすい漢字（号・録・権・地・番・建・物・登・記・所・請・還など、簡体字との字形差が大きい字）がプロンプトに含まれる場合は、名指しで「簡体字にしない」よう注意喚起する一文を添える。**この注意喚起は、独立した日本語の一文としてFOOTERやプロンプト中に置いてはならず（重要・厳守）、必ず英語で書いて`Final check before rendering:`パラグラフの一部として一体化させること**（詳細・事故事例は上記「簡体字注意文の画像内描画事故（2026-09-11判明・再発防止）」参照）。この注意文自体に本物の簡体字（权・记など）を書かないよう特に注意する。
@@ -326,7 +341,15 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji {列挙する漢字} — always
 draw the standard Japanese (Jōyō) form.
@@ -357,7 +380,11 @@ Subtitle (smaller, centered):
 {条文番号等の小さな注記}
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it. Confirm every
 heading, node label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters,
 confirm nothing is rendered below the FOOTER's small footnote text (no
@@ -497,7 +524,15 @@ checks if the source article treats them as two distinct requirements).
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -547,9 +582,14 @@ Small footnote text (bottom of panel, small font, verbatim):
 {条文根拠の小さな注記。判例・先例番号は書かない}
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to {列挙する漢字}. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to {列挙する漢字}. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals {N} exactly, badge numbers run 1-{N}
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that every multi-condition 肢 is drawn as an

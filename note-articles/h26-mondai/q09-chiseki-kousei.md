@@ -202,3 +202,211 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、各肢についてどんな図を描き、どの順番で条件を確認すれば正しい結論にたどり着けるかを示す作図ガイド。アは「地積の更正の登記」と「地積の変更の登記」のどちらの話かをまず見分ける対比枠で示し、イは分筆前後の地積差が誤差の限度を超えるかどうかで代位申請の範囲が変わる決定木で示す。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots, measuring tapes, registry
+desks, bank/mortgage icons, comparison frames, decision-tree nodes, etc.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Panel 2's diamond node has two
+outcomes that both matter (whether the land-area gap does or does not
+exceed the tolerance), so give BOTH the Yes side and the No side their
+own labeled conclusion node — do not leave the No side blank and do not
+draw a looping arrow back into an earlier part of the diagram. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "ま
+ず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text — do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成26年度 午後の部 第9問 ア〜オ
+作図ガイド（地積の更正の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in teal containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+更正登記に申請期限があるかを確認する
+Diagram: A COMPARISON FRAME with two boxes side by side under a dividing
+question mark labeled "どちらの登記の話か". Left box, rendered with a
+thick highlighted border (this is the 肢 in question): labeled "地積の更
+正の登記", showing an isometric land plot with a "錯誤を訂正" icon and a
+calendar icon crossed out by a red cross mark next to the label "申請義
+務の規定なし". Right box, rendered in a muted/greyed tone for contrast
+only (not the subject of this 肢): labeled "地積の変更の登記", showing a
+land plot with a "現況の変化を反映" icon and a calendar icon with the
+label "錯誤判明日から1か月以内に申請義務あり" in green.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっているのが「地積の更正の登記」なのか、それとも「地積の変
+更の登記」なのかを見分けます。更正登記には錯誤を訂正するという性質から、
+1か月以内といった申請義務の規定はありません。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+更正登記に申請義務なし
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in teal containing the number 2.
+Heading (bold, ONE line):
+地積差が誤差限度を超えるかを確認する
+Diagram: An isometric land plot split by a dotted 分筆線 (分筆), with
+person B labeled "時効取得者" submitting an application at a registry
+desk bearing a "代位" stamp. A small ruler icon compares the land area
+before and after 分筆. This feeds into a decision flowchart: a diamond
+branch node labeled "分筆前後の地積差は不動産登記規則の誤差の限度を超え
+るか". The Yes branch (green, highlighted) leads to a conclusion node
+reading "分筆の登記とあわせて地積の更正の登記も代位して申請できる". The
+No branch leads to its own separate conclusion node reading "地積の更正
+の登記まで申請する必要はない（分筆の登記のみ代位で申請）" — do not merge
+this into the Yes branch and do not draw a looping arrow.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、時効取得者Bが所有権の登記名義人に代位して分筆の登記を申請できる場面
+であることを確認したうえで、分筆前後の地積の差が不動産登記規則に定める誤
+差の限度を超えるかを確認します。超えていれば、地積の更正の登記も代位して
+申請できます。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+誤差超過なら更正も代位可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in teal containing the number 3.
+Heading (bold, ONE line):
+権利関係への影響の有無を確認する
+Diagram: An isometric land plot shown with a before/after outline (before
+larger, dashed overlay showing the smaller after-shape) labeled "地積減
+少". A stamp icon labeled "抵当権" stays fixed and unchanged on the plot
+regardless of the size change. Beside the registry desk, a document
+folder labeled "抵当権者の承諾を証する情報" has a red cross mark over it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地積の更正登記によって土地の権利関係（抵当権の効力が及ぶ範囲）が変
+動するかを確認します。地積の更正は同一性のある土地の記録を実際の状況に合
+わせて訂正するだけなので、抵当権の登記名義人の承諾を証する情報は提供する
+必要がありません。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+抵当権者の承諾は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in teal containing the number 4.
+Heading (bold, ONE line):
+申請人は表題部所有者等に限られる
+Diagram: An isometric registry desk with two candidate applicants shown
+side by side. Left: a person labeled "表題部所有者・所有権登記名義人",
+with a green checkmark, reaching the counter with a document labeled
+"地積の更正の登記". Right: a bank building icon labeled "抵当権の登記名
+義人", with a red cross mark, its hand blocked before reaching the same
+counter.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地積の更正の登記を申請できるのは誰かを確認します。申請人になれるの
+は表題部所有者又は所有権の登記名義人に限られ、抵当権の登記名義人は権利に
+関する登記名義人であっても、表示に関する登記であるこの登記の申請人にはな
+れません。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+抵当権者は申請人になれない
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in teal containing the number 5.
+Heading (bold, ONE line):
+共有者の一人でも単独申請できる
+Diagram: An isometric land plot with two nameplates "A" and "B" side by
+side, labeled "共有". Person A alone submits a document labeled "地積の
+更正の登記" at a registry desk, with a small label "保存行為" beside the
+submission. Beside them, a document labeled "Bの承諾を証する情報" has a
+red cross mark over it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地積の更正の登記が共有物に対してどのような行為に当たるかを確認しま
+す。この登記は共有物の保存行為に類するものと位置づけられているため、共有
+者の一人であるAが単独で申請でき、他の共有者Bの承諾を証する情報は不要で
+す。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+他の共有者の承諾は不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：不動産登記法38条（更正の登記の申請人）、不動産登記令別表六項（地積
+に関する変更・更正の登記の添付情報欄）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 積・更・正・権・記・登・証・誤・抵・
+当・諾・限・度・認・確・請・義・筆・変. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢 is drawn
+as an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that Panel 2's flowchart shows a separate, clearly labeled
+conclusion node for both the Yes side and the No side with no looping
+arrow, confirm nothing is rendered below the last panel's footnote text
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid
+of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

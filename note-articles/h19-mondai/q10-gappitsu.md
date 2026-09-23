@@ -237,3 +237,260 @@ any kind — the poster ends immediately after the last card), and confirm
 the entire canvas, edge to edge, is filled with a fully opaque background
 with no transparency or alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+肢ア・イ・ウ・オは、「規則105条が定める4つの例外(承役地の地役権・担保権・信託・鉱害賠償登録)のどれかに当てはまるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢ウ・オはさらに、担保権の枝の中の「登記の目的・受付の年月日及び受付番号・登記原因及びその日付が甲乙ですべて同一か」という同じ第三段階の分岐も共有し、結果(はい/いいえ)だけが分かれる。肢エは規則105条の例外とは別の原則(41条3号、登記名義人の一致)を確認する決定木とし、実体上の所有者と登記簿上の名義を左右に対比する構成とする。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — land-plot icons (甲・乙・丙), a dashed easement
+path icon, document/stamp icons for each type of registered right
+(承役地の地役権, 鉱害賠償登録, 抵当権の仮登記, 消滅承諾書), nameplate icons for
+registered ownership names, a merge arrow between 甲 and 乙, and small
+document icons for 相続登記 and 抹消登記. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Where a panel reuses a decision tree shared with other panels in this
+set, render the branch relevant to THIS panel with a thick highlighted
+border and full color, and render the other, unrelated branches in a
+faded, greyed-out, or dotted-outline style rather than omitting them —
+the reader should be able to see at a glance which part of the shared
+tree this panel is about. Panels 1, 2, 3 and 5 share the same
+second-level diamond node listing the four regulation-105 exceptions
+(地役権・担保権・信託・鉱害賠償登録); each of those four panels highlights only
+its own branch and fades the other three. Panels 3 and 5 additionally
+share the same third-level diamond node asking whether 登記の目的・受付の
+年月日及び受付番号・登記原因及びその日付 are all identical between 甲 and 乙,
+diverging only in whether that condition is met (panel 3: はい, panel 5:
+いいえ). Where a diagram must show an entity that conceptually never
+qualifies for the branch in question (e.g. the servient-land-only
+exception applied to a dominant land plot), render that branch or
+conclusion node in a faded or dotted-outline style rather than a plain
+○/✕ mark, so the visual itself communicates "this path is not available
+here," not just "this is wrong." Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that state
+the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成19年度午前第10問 ア〜オ
+作図ガイド(合筆の制限)
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+要役地側は合筆の例外に当てはまらない
+Diagram: Three land-plot icons: 丙 labeled「承役地」linked by a dashed
+easement path icon to two plots 甲・乙 labeled「要役地」. Below them, a
+decision flowchart: a first diamond node labeled「所有権以外の権利に関する
+登記があるか」with a thick highlighted「はい」arrow leading down. A second
+diamond node labeled「規則105条の4つの例外(承役地の地役権／担保権／信託／
+鉱害賠償登録)のいずれかに該当するか」with four small labeled branch stubs
+(地役権, 担保権, 信託, 鉱害賠償登録); the「地役権」stub is rendered thick and
+highlighted while 担保権・信託・鉱害賠償登録 are faded, dotted-outline. From
+the highlighted 地役権 branch, a third diamond node labeled「承役地について
+する地役権の登記か(承役地側か要役地側か)」with a faded「はい(承役地側)」branch
+leading to a faded conclusion node「合筆できる」, and a thick highlighted
+「いいえ(要役地側)」branch leading to a highlighted final conclusion node
+「合筆できない」, with a large ✕ drawn over a merge arrow attempted between
+plots 甲・乙.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲地・乙地に所有権以外の権利に関する登記があるかを確認します。次に、
+その登記が規則105条の4つの例外(地役権・担保権・信託・鉱害賠償登録)のいずれ
+かに当てはまるかを確認し、地役権の例外は承役地についてする登記に限られる
+ため、要役地である甲地・乙地には当てはまらないと判定します。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+要役地は例外に非該当
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft green containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+鉱害賠償登録は番号同一なら合筆できる
+Diagram: Two land-plot icons 甲・乙, each holding a document icon labeled
+「鉱害賠償登録」with a tag reading「登録番号 同一」attached to both documents.
+The same first diamond node as Panel 1(肢ア)「所有権以外の権利に関する登記が
+あるか」with a thick highlighted「はい」arrow. The same second diamond node
+as Panel 1, this time with the「鉱害賠償登録」branch rendered thick and
+highlighted while 地役権・担保権・信託 are faded, dotted-outline. From the
+highlighted branch, a third diamond node labeled「登録番号が甲乙ですべて
+同一か」with a thick highlighted「はい」branch leading to a highlighted
+conclusion node「合筆できる」, and a faded「いいえ」branch leading to a faded
+conclusion node「合筆できない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲地・乙地に所有権以外の権利に関する登記があるかを確認します。次に、
+その登記が鉱害賠償登録に関する登記であり、登録番号が甲地・乙地で同一かを
+確認し、同一であれば合筆できると判定します。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+登録番号が同一なら可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft beige containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+担保権は4項目全部一致で合筆できる
+Diagram: Two land-plot icons 甲・乙, each holding a document icon labeled
+「抵当権 仮登記」with matching tags reading「受付番号 同一」and「登記原因日付
+同一」attached to both documents. The same first diamond node as Panel 1
+with a thick highlighted「はい」arrow. The same second diamond node as
+Panel 1, this time with the「担保権」branch rendered thick and highlighted
+while 地役権・信託・鉱害賠償登録 are faded, dotted-outline. From the highlighted
+branch, a third diamond node labeled「登記の目的・受付の年月日及び受付番号・
+登記原因及びその日付が甲乙ですべて同一か」with a thick highlighted「はい」
+branch leading to a highlighted conclusion node「合筆できる」, and a faded
+「いいえ」branch leading to a faded conclusion node「合筆できない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲地・乙地に所有権以外の権利に関する登記があるかを確認します。次に、
+その登記が担保権(抵当権の仮登記を含む)であり、登記の目的・受付の年月日及び
+受付番号・登記原因及びその日付のすべてが同一かを確認し、すべて同一であれば
+合筆できると判定します。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+4項目全部一致で合筆可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+登記簿上の名義が一致しないと合筆不可
+Diagram: A contrast-and-decision panel split into two side-by-side
+frames. Left frame labeled「実体上の権利関係」shows plot 甲 with a nameplate
+「Ａ」and plot 乙 with a nameplate「Ａ(相続により)」, connected by a small
+arrow labeled「相続」from a faded, crossed-out former nameplate「Ｂ」. Right
+frame labeled「登記簿上の名義」shows plot 甲 with a nameplate「Ａ」and plot 乙
+still holding an unchanged nameplate「Ｂ(父)」. Below the right frame, a
+diamond node labeled「甲地の登記名義人と乙地の登記名義人(登記簿上)は一致して
+いるか」with a faded「はい」branch leading to a faded conclusion node「合筆
+できる」, and a thick highlighted「いいえ」branch leading to a highlighted
+conclusion node「合筆できない(先に移転登記が必要)」, with a large ✕ drawn over
+a merge arrow attempted between plots 甲・乙. A small side panel shows a
+document icon labeled「相続登記(所有権の移転の登記)」changing the 乙 nameplate
+from「Ｂ」to「Ａ」, leading to a small green checkmark and a faded conclusion
+node「合筆できる」, showing the path once the registered names match.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲地・乙地の登記簿上の名義人(表題部所有者又は所有権の登記名義人)が
+一致しているかを確認します。相続などで実体上の所有者が一致していても、
+登記簿上の名義がまだ一致していなければ、先に所有権の移転の登記を済ませない
+限り合筆できないと判定します。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+登記名義の一致が先
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft green containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+抵当権が別々なら承諾書があっても不可
+Diagram: Two land-plot icons, 甲 holding a document labeled「Ｘ銀行 抵当権」,
+乙 holding a different document labeled「Ｙ銀行 抵当権」, each with a small
+「消滅承諾書」paper icon attached. The same first diamond node as Panel 1
+with a thick highlighted「はい」arrow. The same second diamond node as
+Panel 1, this time with the「担保権」branch rendered thick and highlighted
+while 地役権・信託・鉱害賠償登録 are faded, dotted-outline. From the highlighted
+branch, the same third diamond node as Panel 3(肢ウ)「登記の目的・受付の
+年月日及び受付番号・登記原因及びその日付が甲乙ですべて同一か」, this time with
+a thick highlighted「いいえ(抵当権者が別々で登記事項が異なる)」branch leading
+to a highlighted conclusion node「合筆できない」, and a faded「はい」branch
+leading to a faded conclusion node「合筆できる」. Beside the highlighted
+「いいえ」branch, a small side callout shows the two「消滅承諾書」icons crossed
+out with a label「承諾書は規則105条の例外事由ではない」. A separate smaller
+side panel shows the same two documents being stamped「抹消登記」and
+crossed out, leading to a small green checkmark, showing that the
+抵当権の抹消登記 must be completed first before 合筆できる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲地・乙地に所有権以外の権利に関する登記があるかを確認します。次に、
+その担保権の登記の目的・受付の年月日及び受付番号・登記原因及びその日付が
+甲地・乙地ですべて同一かを確認し、抵当権者が別々で登記事項が同一でなければ、
+消滅を承諾する書面を添付しても合筆できないと判定します。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+承諾書だけでは不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠:不動産登記法41条3号・6号・80条4項(エ・ア)、不動産登記規則105条
+1号・2号・4号・159条1項(ア・イ・ウ・オ)。判例・先例番号は省略。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 承・役・地・筆・鉱・害・賠・償・録・仮・抵・
+当・権・相・続・名・義・諾・抹・消・登・記・号・番・致・移・転・項・因・該・担・保・
+確・認・託・関. If any character renders as a Simplified or Traditional
+Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

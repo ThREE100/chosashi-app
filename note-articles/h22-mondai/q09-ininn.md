@@ -213,3 +213,229 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+肢ア・イ・オは、「代理権に影響する出来事は委任者（本人）側で起きたか、代理人側で起きたか」を出発点とし、委任者側の事情はさらに不動産登記法17条の消滅事由（または本人自体の変更）に当てはまるかを確認する同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢ウは委任状の作成者に着目した対比枠型、肢エは取下げの目的を確認する単一チェック型とする。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — 委任状 document icons, a tombstone icon for
+death, a company-building icon with a representative character being
+replaced, a government seal stamp for 市町村長, a calendar icon with a
+3-month countdown ring, and a correction-pen icon for 補正. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render the
+other, unrelated branches in a faded, greyed-out, or dotted-outline style
+rather than omitting them — the reader should be able to see at a glance
+which part of the shared tree this panel is about. Panels 1, 2 and 5
+share the same first-level diamond node asking whether the triggering
+event happened on the 委任者 side or the 代理人 side; each of those three
+panels highlights only its own branch and fades the other. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成22年度午後第9問 ア〜オ
+作図ガイド（登記申請手続の委任）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+委任者が死亡しても代理権は消滅しない
+Diagram: A first diamond node labeled「代理権に影響する出来事は、委任者
+（本人）側で起きたか、代理人側で起きたか」with a thick highlighted「委任者側」
+branch and a faded, greyed-out「代理人側」branch (labeled in small text
+「肢オへ」). From the highlighted「委任者側」branch, a second diamond node
+labeled「不動産登記法17条1号の除外事由（本人の死亡）に当てはまるか、または
+本人自体に変更のない事情か」with two branch stubs: 「本人の死亡」rendered
+thick and highlighted (an elderly 委任者 character fading into a tombstone
+icon) and「法人代表者の交代」rendered faded, greyed-out (labeled in small
+text「肢イへ」). From the highlighted「本人の死亡」branch, an arrow leads to
+a highlighted final conclusion node「代理権は消滅しない」, next to which a
+代理人 character keeps holding the 委任状 document unaffected and stamps a
+分筆登記 application with a checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理権に影響する出来事が委任者側で起きたか代理人側で起きたかを確認し
+ます。次に、委任者側の事情が不動産登記法17条1号の除外事由（本人の死亡）に
+当てはまるかを確認し、当てはまれば代理権は消滅せず、代理人は分筆の登記を
+申請できると判定します。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+死亡でも消滅しない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft green containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+法人代表者が交代しても本人自体は変わらない
+Diagram: The same first diamond node as Panel 1（「代理権に影響する出来事は、
+委任者（本人）側で起きたか、代理人側で起きたか」）with a thick highlighted
+「委任者側」branch and a faded「代理人側」branch. The same second diamond
+node as Panel 1, this time with the「法人代表者の交代」branch rendered thick
+and highlighted while「本人の死亡」is faded, greyed-out. The highlighted
+branch shows a company-building icon (法人) with an old representative
+character being replaced by a new one (交代の矢印), while a 委任状 document
+stays unaffected next to a label「本人は法人自体」. An arrow leads to a
+highlighted final conclusion node「代理権は消滅しない」, with a checkmark
+on the 委任状.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理権に影響する出来事が委任者側で起きたか代理人側で起きたかを確認し
+ます。次に、その事情によって本人（法人）自体に変更があったかを確認し、代表
+者が交代しただけで本人には変更がなければ、代理権は消滅せず代理人は登記を
+申請できると判定します。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+代表者交代でも有効
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft beige containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+官公署作成の委任状に3か月の期限はない
+Diagram: A contrast panel split into two side-by-side frames. Left frame
+labeled「私人が作成した委任状（原則）」contains a 委任状 document icon
+signed by an ordinary character, with a calendar icon showing an intact
+3か月 countdown ring, rendered in a faded, greyed-out style. Right frame
+labeled「市町村長が嘱託に際し職務上作成した委任状（例外）」contains a
+市町村長 character stamping an official 委任状 document with a government
+seal, and a calendar icon with the 3か月 countdown ring crossed out,
+label「期限なし」. A thick highlighted border surrounds the right frame.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この委任状を作成したのが私人か、市町村長など官公署かを確認します。
+次に、市町村長が嘱託に際し職務上作成したものであれば、作成後3か月以内で
+あることを要しないと判定します。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+官公署作成は期限なし
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+補正のための取下げに特別の委任は不要
+Diagram: A single diamond node labeled「取下げの理由は、申請の補正のため
+か」with a thick highlighted「はい」arrow. A代理人 character corrects a
+small error on a document (訂正ペン icon) and re-submits it, without
+needing an extra 特別委任状 stamp — that extra stamp icon is shown crossed
+out beside the代理人. The highlighted arrow leads to a final conclusion
+node「通常の代理権の範囲内・特別の委任は不要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人が申請を取り下げる理由が補正のためであるかを確認します。補正
+のための取下げであれば、通常の代理権の範囲内の行為として、委任者から特別
+の委任を受ける必要はないと判定します。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+特別の委任は不要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft green containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+代理人が死亡すると相続人は代理権を行使できない
+Diagram: The same first diamond node as Panel 1（「代理権に影響する出来事は、
+委任者（本人）側で起きたか、代理人側で起きたか」）, this time with a thick
+highlighted「代理人側」branch and a faded「委任者側」branch (labeled in
+small text「肢ア・イへ」). From the highlighted「代理人側」branch, a second
+diamond node labeled「民法111条1項2号の消滅事由（代理人の死亡）に当てはまる
+か」with a thick highlighted「はい」arrow leading to a highlighted final
+conclusion node「代理権は消滅する」. Beside it, a代理人 character fades into
+a tombstone icon, while a would-be heir (一般承継人) character reaches for
+the 委任状 document but is blocked by a large ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理権に影響する出来事が委任者側で起きたか代理人側で起きたかを確認し
+ます。次に、代理人自身が死亡した場合は民法111条1項2号の消滅事由に当たるか
+を確認し、当てはまれば代理権は消滅し、その一般承継人（相続人）は代理権を
+行使して登記を申請することはできないと判定します。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+相続人は行使できない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記法17条1号（ア）、不動産登記令17条（ウ）、民法111条1項2号
+（オ）。判例・先例番号は省略。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 委, 任, 権, 継, 続, 記, 署, 職, 補.
+If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire
+canvas for any character that is not standard Japanese hiragana,
+katakana, or Jōyō kanji — including any Chinese-only character, Korean
+Hangul, other non-Japanese script, or stray decorative glyph — and remove
+or redraw it so that only standard Japanese text appears anywhere in the
+image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

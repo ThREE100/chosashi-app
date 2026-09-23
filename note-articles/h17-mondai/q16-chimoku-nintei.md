@@ -255,3 +255,267 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+各記述を読んだ瞬間に「まず何を確認し、次に何を確認して、どんな地目にたどり
+着くか」を追体験できるよう、①②④⑤⑥⑦⑧⑨⑩の9つの記述分の作図ガイドパネル
+を1枚にまとめた。③（動物の遺骸・遺骨を埋める土地）は本文で根拠に不確実性
+が残ると明記しており、②のインフォグラフィックでもカード化の対象外として
+いるため、本ガイドでも同様に対象外とする。②の結論カードポスターとは別物
+として作成し、②の内容は変更していない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 9 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric oil tanks, farm sheds beside rice
+paddies, railway substations and bare transmission towers, crematorium
+buildings, water-treatment plant offices, roads with pedestrian figures,
+school campuses with playgrounds, tennis courts adjoining apartment
+buildings, and small checklists with checkmarks and cross marks. Where a
+肢 requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Where a panel reuses a decision shape similar
+to another panel in this set, render the branch relevant to THIS panel
+with a thick highlighted border and full color, and render the other,
+unrelated branch in a faded, greyed-out, or dotted-outline style rather
+than omitting it. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers (article/
+regulation numbers are fine); keep the callout text as written below
+verbatim, and keep every condition each callout describes faithful to the
+article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成17年度 午後の部 第16問 ①②④⑤⑥⑦⑧⑨⑩
+作図ガイド（地目認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢①） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+タンクを支える土地も宅地になる
+Diagram: An isometric factory plot with a large oil tank fixed on the
+ground, labeled「石油タンク」. A dashed arrow points from the tank's
+footing to the surrounding paved ground, labeled「建物の維持・効用のため
+に必要な土地」, leading to a green tag reading「宅地」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地が建物その他の工作物を支え、維持していくために必要な土地
+であるかを確認します。タンクの敷地も、建物の敷地に準じて宅地と判定
+します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+タンクの敷地も宅地
+
+--- PANEL 2（肢②） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+農具小屋が永久的な設備かを確認する
+Diagram: A diamond-shaped decision node labeled「農具小屋は永久的な設備
+か」sits above an isometric rice paddy. A red, thick-bordered「いいえ
+（今回はこちら）」arrow leads down to a small wood-and-tin-roof shed
+labeled「仮設」, ending at a red conclusion node reading「宅地にならない
+（周囲の畑と同じ地目）」. A faded, dotted-outline green「はい」arrow leads
+to a separate faded shed icon, ending at a faded conclusion node reading
+「宅地」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、耕作地の区域内にある農具小屋が永久的な設備と認められるものかを
+確認します。仮設にすぎない場合は、宅地にならず周囲の地目のままです。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+仮設なら宅地にならない
+
+--- PANEL 3（肢④） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+居住・執務用の建物かどうかを見分ける
+Diagram: An isometric small substation beside a railway track on the
+left, labeled「変電所」, and a transmission tower with only bare metal
+legs and no roof or walls on the right, labeled「鉄塔」. A dashed arrow
+from both icons points to a label reading「居住・執務用の建物ではない」,
+leading to a blue tag reading「雑種地」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その施設が居住や執務の用に供される建物かどうかを確認します。変電所
+や鉄塔のような電力設備であれば、宅地ではなく雑種地と判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+電力設備は雑種地
+
+--- PANEL 4（肢⑤） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+浄水場内の事務所部分だけを切り分ける
+Diagram: A large isometric water-treatment plant footprint, mostly left
+untagged, with a dashed boundary isolating a small office building inside
+it labeled「事務所」. Only this isolated office portion carries a green
+tag reading「宅地」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、浄水場全体のうち、事務所として使われている建物の敷地部分だけを
+切り分けて確認します。その部分は宅地と判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+事務所部分だけ宅地
+
+--- PANEL 5（肢⑥） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+所有者でなく利用実態を確認する
+Diagram: An isometric small road with a「私有地」sign, drawn with local
+resident figures walking along it daily, labeled「公衆用道路」above the
+road. Beside the sign, a small「公有地」icon is shown faded and crossed
+through with a dotted line, to show that whether the land is publicly or
+privately owned does not change the result.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地が公有か私有かを気にせず、実際に一般公衆の交通の用に供され
+ているかどうかを確認します。供されていれば公衆用道路と判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+所有者は問わない
+
+--- PANEL 6（肢⑦） ---
+Badge: a filled circle in blue containing the number 6.
+Heading (bold, ONE line):
+構内に建物の設備があるかを確認する
+Diagram: A diamond-shaped decision node labeled「構内に建物の設備がある
+か」sits above an isometric crematorium compound. A green, thick-bordered
+「はい（今回はこちら）」arrow leads to a real building where families wait
+and staff work, ending at a green conclusion node reading「構内全部が
+宅地」. A faded, dotted-outline red「いいえ」arrow leads to a faded outdoor
+furnace icon with no building, ending at a faded conclusion node reading
+「雑種地」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、火葬場の構内に建物の設備があるかどうかを確認します。設備がある
+場合は構内全部が宅地、設備がない場合は雑種地と判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+設備あれば宅地
+
+--- PANEL 7（肢⑧） ---
+Badge: a filled circle in green containing the number 7.
+Heading (bold, ONE line):
+校舎・附属施設・運動場をまとめて見る
+Diagram: A single unified isometric plot boundary encompassing a school
+building labeled「校舎」, a small attached facility labeled「附属施設」,
+and a playground labeled「運動場」, all inside one outline tagged「学校
+用地（まとめて1つの地目）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、校舎の敷地・附属施設の敷地・運動場を別々に見るのではなく、学校と
+しての一体的な利用に着目してまとめて確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+まとめて学校用地
+
+--- PANEL 8（肢⑨） ---
+Badge: a filled circle in blue containing the number 8.
+Heading (bold, ONE line):
+テニスコートが宅地に接続しているかを確認する
+Diagram: A diamond-shaped decision node labeled「テニスコートは宅地に
+接続しているか」sits above an isometric apartment building. A green,
+thick-bordered「はい（今回はこちら）」arrow leads to a tennis court drawn
+directly adjoining the apartment building's grounds, ending at a green
+conclusion node reading「宅地」. A faded, dotted-outline blue「いいえ」
+arrow leads to a faded, separated tennis court icon, ending at a faded
+conclusion node reading「雑種地」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、テニスコートやプールが宅地に接続しているかどうかを確認します。
+接続していれば宅地、接続していなければ雑種地と判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+接続していれば宅地
+
+--- PANEL 9（肢⑩） ---
+Badge: a filled circle in green containing the number 9.
+Heading (bold, ONE line):
+建物の3要件を備えているかを確認する
+Diagram: An isometric steel transmission tower with only bare legs, no
+roof and no walls. Beside it, a checklist of exactly these three items
+(do not duplicate, omit, or paraphrase any item): 1. 定着性　2. 外気
+分断性　3. 用途性, each marked with a red「✕」to show the tower lacks
+them, leading to a blue conclusion tag.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その工作物が定着性・外気分断性・用途性という建物の3要件を備えて
+いるかを確認します。備えていなければ、宅地をはじめいずれの地目にも
+当てはまらず雑種地と判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+3要件を欠けば雑種地
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則68条3号・4号・69条3号・9号・10号・12号・14号
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 宅・地・建・物・種・雑・維・持・設・
+備・登・記・準・則・号・確・認. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character that
+is not standard Japanese hiragana, katakana, or Jōyō kanji — including
+any Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 9 exactly, badge numbers run 1-9 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 (panels 2, 6, 8) is drawn as an actual flowchart
+with branch nodes (not a bare illustration with no visible decision
+structure), that no 肢 with a genuinely hidden second condition has been
+flattened into a single check, that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element from
+the source article distinct (no merged or dropped requirements), that any
+panel sharing a decision shape with another panel clearly distinguishes
+its own highlighted branch from the other, faded branch, confirm nothing
+is rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```

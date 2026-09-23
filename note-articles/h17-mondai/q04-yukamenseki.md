@@ -194,3 +194,221 @@ header and the cards, and confirm that no card contains a full sentence
 of explanatory prose — every card's takeaway must read as a short
 heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a subway-station cross-section, a retractable
+dome-stadium roof, a multi-story staircase shaft, a low-ceiling alcove
+inside a single room, an atrium void reaching an upper floor, and
+checkmark/✕ stamps for「算入」or「不算入」. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panel 1（肢ア）is a single diamond whose BOTH outcomes matter equally,
+since the 肢 itself asserts both an 算入 case and an 不算入 case: draw one
+diamond asking 壁や柱等で区画されているか（常時一般に開放されている通路
+・階段は除く）, with a はい branch reaching a dedicated conclusion node
+for the 事務室（算入）and a separate べつの いいえ branch reaching a
+dedicated conclusion node for the 通路・ホーム（不算入）— never loop either
+branch back into the diamond. Panels 2 and 3 are each a 正誤対比型（思い
+込みチェック型）panel contrasting an easily-mistaken「不算入だと思い込み
+やすい」assumption with the correct「実は算入する」rule, with the correct
+side drawn with a thick highlighted border and the mistaken assumption
+crossed out with a large ✕. Panel 4 is a single diamond distinguishing
+「独立した特殊階全体か」from「1室の一部にすぎないか」, with the「1室の一
+部」branch highlighted since that is what this 肢 tests. Panel 5 is a
+single diamond asking whether the upper floor actually has a floor
+surface at that location, with the「いいえ（吹抜けのため床がない）」branch
+highlighted. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER (or the correct-vs-mistaken distinction) in words, not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成17年度午後第4問 ア〜オ
+作図ガイド（床面積の算入）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+区画の有無で算入と不算入が決まる
+Diagram: A single-diamond decision flowchart, both outcomes drawn with
+equal weight since this 肢 asserts both of them. Diamond node: 地下鉄駅
+構内のその部分は、壁や柱等で区画されているか？（常時一般に開放されてい
+る通路・階段は除く）The「はい（区画あり）」branch leads to its own
+conclusion node reading 事務室のように床面積に算入する, illustrated with
+壁とドアで囲まれた事務室のisometric iconにチェックマーク。The「いいえ
+（常時開放）」branch leads to a separate conclusion node reading 通路・
+ホームは床面積に算入しない, illustrated with 壁のない開放的な通路・ホー
+ムのisometric iconにバツ印。Neither branch loops back into the diamond.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地下駅構内のその部分が壁や柱等で区画されているかを確認します。区
+画されている事務室のような部分は床面積に算入し、常時一般に開放されてい
+る通路やホームは算入しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+区画の有無で算入判定
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+屋根が開いても観覧席は算入される
+Diagram: A 正誤対比型（思い込みチェック型）split panel. LEFT side labeled
+誤りやすい思い込み: 屋根を開けている間はその下の部分は床面積に含まれな
+い, illustrated with 開閉式屋根を持つドーム球場が屋根を開けたisometric
+sceneに大きな×印。RIGHT side labeled 正しいルール (highlighted with a
+thick colored border): 屋根の設備がある部分は、開閉の状態にかかわらず床
+面積に算入する, illustrated with 同じドーム球場のフィールド・観覧席全体
+を明るい青色で塗りチェックマークを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この観覧席・フィールド部分に屋根の設備が備え付けられているかを確
+認します。屋根が開いている状態でも設備自体はそのままなので、開閉可能な
+部分の下も含めて床面積に算入します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+開閉に関わらず算入
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+階段室は各階の床面積に算入する
+Diagram: A 正誤対比型（思い込みチェック型）split panel. LEFT side labeled
+誤りやすい思い込み: 階段室・エレベーター室は吹抜け状の空間だから床面積
+に算入しない, illustrated with 5階建てビルの断面を貫く階段室のisometric
+sceneに大きな×印。RIGHT side labeled 正しいルール (highlighted with a
+thick colored border): 階段室・エレベーター室は床を有するものとみなし、
+各階の床面積にそれぞれ算入する, illustrated with 同じ階段室の断面に、各
+階ごとにチェックマークを配置。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、階段室・エレベーター室が上下階を貫通する吹抜け状の空間であること
+を確認します。次に、この空間は床を有するものとみなす扱いにより、各階の
+床面積にそれぞれ算入されることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+各階ごとに算入
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+1室の一部なら低い天井でも算入する
+Diagram: A single-diamond decision flowchart. Diamond node: 天井高1.5メ
+ートル未満の部分は、独立した地階・屋階（特殊階）の全体か、それとも1つ
+の居室の一部にすぎないか？The「1つの居室の一部」branch is highlighted
+with a thick border and full color, leading to a conclusion node reading
+当該室の面積として算入する, illustrated with 屋根の傾斜に沿って天井が低
+くなった部屋のisometric scene, 部屋全体を1つの点線の枠で囲んでチェック
+マークを添える。The「独立した特殊階の全体」branch is rendered faded and
+greyed-out, leading to a faded conclusion box reading 原則として不算入
+（この肢の対象外）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、天井高1.5メートル未満の部分が、独立した地階・屋階全体なのか、1つ
+の居室の一部にすぎないのかを確認します。1室の一部であれば、天井が低く
+てもその室全体の面積に算入します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+室の一部として算入
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+上階に床がない吹抜けは不算入
+Diagram: A single-diamond decision flowchart. Diamond node: この吹抜け
+部分の上階に、実際に床が存在するか？The「いいえ（吹抜けのため床がな
+い）」branch is highlighted with a thick border and full color, leading
+to a conclusion node reading 上階の床面積に算入しない, illustrated with
+1階の玄関ホールから2階まで続く吹抜けのある住宅のisometric scene, 2階部
+分の吹抜けの範囲をグレーの斜線パターンで塗りバツ印を添える。The「はい
+（通常どおり床がある場合）」branch is rendered faded and greyed-out,
+leading to a faded conclusion box reading 通常どおり算入する（この肢の
+対象外）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、吹抜け部分の上階に実際に床が存在するかを確認します。吹抜けの部分
+には床そのものが存在しないため、上階の床面積には算入しません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+上階は不算入
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則115条（床面積算定の原則）・不動産登記事務取扱手続準則82
+条1号・3号・4号・6号・8号に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 号, 地, 建, 物, 登, 記, 階, 屋, 根,
+算, 積. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panel 1's diamond shows both its
+算入 and 不算入 conclusion nodes without looping either branch back into
+the diamond, that Panels 2 and 3 each clearly cross out the mistaken
+「不算入」assumption while highlighting the correct「算入する」rule, that
+each 着眼点 callout states a checking order or a correct-vs-mistaken
+distinction rather than only a conclusion, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

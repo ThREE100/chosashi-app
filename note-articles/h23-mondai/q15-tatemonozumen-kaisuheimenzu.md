@@ -192,3 +192,216 @@ between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
 a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there. Panels 1（肢ア）, 2（肢イ）and 3（肢ウ）share the
+same underlying decision structure — a single diamond node asking「この
+登記によって建物の物理的な状態（位置・形状・床面積）に変化が生じるか」
+— because all three 肢 turn on the same 現況主義（図面は今の建物の姿を示
+すものであり、物理的な状態が変わる場面でのみ必要になる）. In each of
+those three panels, render the diamond node and the branch relevant to
+THAT panel with a thick highlighted border and full color, and render the
+other branch in a faded, greyed-out, dotted-outline style rather than
+omitting it, so the reader can see at a glance which part of the shared
+rule this panel is about. Where a 肢 turns on a common misconception
+(肢ア: a reader may wrongly think that an unchanged total floor area
+means no floor-plan drawing is needed; 肢ウ: a reader may wrongly think
+that a change to the one-building-as-a-whole registration record requires
+a floor plan of the ENTIRE building), add a second, smaller decision or a
+crossed-out misconception bubble inside that panel to make the trap
+explicit, rather than a single flat illustration. Where a 肢 is not about
+whether a drawing is required but about HOW to draw it (肢エ: the drawing
+convention for a building on temporarily-replotted land), a labeled
+illustrative diagram of the convention itself is sufficient — do not
+force a flowchart. Where a 肢 concerns a time duration rather than a
+yes/no condition (肢オ: how long a closed drawing is retained), draw the
+panel's diagram as a left-to-right or top-to-bottom timeline with labeled
+time points and a duration bracket, not a decision flowchart. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+— do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成23年度午後第15問 ア〜オ
+作図ガイド（建物図面・各階平面図）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+建物分割は床面積不変でも図面が必要
+Diagram: A shared decision-tree diamond node, drawn with a thick
+highlighted border and full color: この登記によって建物の物理的な状態
+（位置・形状・床面積）に変化が生じるか？with the はい branch highlighted,
+showing a building icon splitting into two separate registered buildings
+（甲建物・乙建物）with an identical total floor-area label before and
+after. Beside the はい branch, a small crossed-out misconception bubble
+reads「床面積が同じだから図面は不要」with a red ✕, next to a highlighted
+conclusion node reading 新しく生まれる乙建物の各階平面図が必要 with a
+checkmark. The いいえ branch (used by 肢イ) is rendered faded/greyed-out/
+dotted here (今回は関係ない).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記によって建物の物理的な状態に変化が生じるかを確認します。
+次に、分割後の建物の床面積の合計が変わらなくても、新しく生まれる乙建物
+の形状を示す各階平面図は必要と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+各階平面図は必要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+規約敷地の追加だけなら建物図面は不要
+Diagram: The same shared decision-tree diamond node as PANEL 1（この登記
+によって建物の物理的な状態（位置・形状・床面積）に変化が生じるか？),
+but this time the いいえ branch is drawn with a thick highlighted border
+and full color: a condominium building icon gaining an additional
+規約 document that designates 乙土地 as its規約敷地, while the building
+itself stays in exactly the same position and shape. The highlighted
+conclusion node reads 建物図面は不要, with a crossed-out blueprint icon.
+The はい branch (used by 肢ア・肢ウ) is rendered faded/greyed-out/dotted
+this time (今回は関係ない).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記によって建物の物理的な状態に変化が生じるかを確認します。
+次に、規約で乙土地を敷地として追加するだけでは建物の位置や形状は変わら
+ないため、建物図面の添付は不要と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+建物図面は不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+増築の変更図面は増築部分のみで足りる
+Diagram: The same shared decision-tree diamond node as PANEL 1・2, with
+the はい branch highlighted again this time for区分建物の増築（物理的な
+状態に変化あり）. A second diamond node, drawn with a thick highlighted
+border: 添付すべき範囲は増築に係る専有部分のみか、一棟の建物全体か？
+with the「専有部分のみ」branch highlighted leading to a conclusion node
+reading 増築に係る部分の各階平面図で足りる with a checkmark, and the
+「一棟全体」branch crossed out with a red ✕ and a misconception bubble
+reading「一棟にも変更があるから一棟全体の図面が必要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、区分建物の増築によって建物の物理的な状態に変化が生じることを確認
+します。次に、一棟の建物についても登記内容に変更があっても、添付すべき
+なのは増築に係る専有部分の変更箇所を示す図面だけで足り、一棟全体の図面
+までは不要と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+変更箇所のみで足りる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+仮換地は実線、将来地番は括弧書きで記載
+Diagram: A labeled illustrative diagram (not a decision tree) of a
+building on a temporary land-readjustment plot（仮換地）, drawn with a
+solid outline（実線）representing the shape of the replotted land, and a
+small parenthetical tag showing the future permanent plot number（換地
+後の予定地番）floating beside the plot's 所在欄 label.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、仮換地上に建築された建物であることを確認します。次に、建物図面に
+は仮換地の形状を実線で図示し、所在欄には将来の換地後の予定地番を括弧書
+きで記載すると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+実線＋括弧書きで記載
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+使われなくなった図面の保存期間は30年
+Diagram: A left-to-right timeline. Time point 1: a building icon being
+pulled by a rope from 甲土地 to 乙土地（えい行移転）. Time point 2: a
+所在変更登記 stamp is applied, and the 従前の建物図面 is placed into a
+filing-cabinet drawer labeled 閉鎖. A duration bracket labeled 30年
+extends from time point 2 to time point 3, ending at a 廃棄可能 label. A
+small side note contrasts this with建物図面は原則永久保存（通常はこの
+30年の矢印がない）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が曳行移転したことにより、従前の建物図面が閉鎖されたものに当
+たることを確認します。次に、建物図面は原則永久保存であることとの違いと
+して、閉鎖された図面の保存期間は閉鎖の日から30年であると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+閉鎖の日から30年保存
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令別表十五の項・十六の項、不動産登記規則28条13号に基づく整理
+です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 図・録・約・換・棟・築・存. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that PANEL 1（肢ア）, PANEL 2（肢イ）and PANEL
+3（肢ウ）each clearly distinguish their own highlighted branch of the
+shared 物理的状態の変化 decision node from the other, faded branch, that
+PANEL 1 and PANEL 3 each show their misconception bubble crossed out with
+a red ✕ rather than omitting the trap, that PANEL 5 is drawn as an actual
+timeline with labeled time points and a duration bracket rather than a
+decision flowchart, that each 着眼点 callout states a checking order
+rather than only a conclusion, confirm nothing is rendered below the
+last panel's footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

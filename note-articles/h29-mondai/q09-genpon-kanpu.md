@@ -195,3 +195,199 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+肢ア・イは、不動産登記規則55条1項ただし書が定める「原本還付の対象外となる書面」の判定枠組みを共有する2段階の決定木として描き、それぞれ自分に関係する分岐だけを強調する構成にした。肢ウは相続関係説明図という図解教材そのものを主役にした系統図型、肢エはタイムライン型、肢オは配置図型で、それぞれ独立に図解した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric document folder icons, a 印鑑証明書
+seal-certificate icon with a 還付 stamp, a stack of 戸籍謄本・除籍謄本
+documents, a 相続関係説明図 family-tree sheet, an envelope/shredder icon
+pair for 登記識別情報, and a mail-truck icon for 郵送 delivery. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Panel 1 (肢ア) and Panel 2 (肢イ) share one
+two-step decision tree built from 不動産登記規則55条1項ただし書: diamond 1
+「その申請のためだけに作成された書面か」, diamond 2「印鑑証明書のうち、
+申請人等自身の証明書、または第三者の同意・承諾を証する書面に添付された
+証明書か」— render the path and conclusion node relevant to THIS panel
+with a thick highlighted border and full color, and render the other,
+unrelated path, diamond, and conclusion node in a faded, greyed-out,
+dotted-outline style. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第9問 ア〜オ
+作図ガイド（添付書面の原本還付）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+第三者作成書面の印鑑証明書は還付できる
+Diagram: A decision diagram. Diamond 1「その申請のためだけに作成された書面
+か」から「いいえ」の分岐（このパネルでは太い縁取り・フルカラーで強調）が
+Diamond 2「印鑑証明書のうち、申請人等自身の証明書、または第三者の同意・
+承諾を証する書面に添付された証明書か」につながる。Diamond 2の「いいえ」の
+分岐（同じく強調）は、工事完了引渡証明書（工事施工会社作成）に添付された
+印鑑証明書のアイコンに還付スタンプ（✓マーク）が押される結論ノード「原本の
+還付を請求できる」につながる。Diamond 1の「はい」の分岐、Diamond 2の「はい」
+の分岐とそれぞれの結論ノードは、薄いグレーの破線で縮小表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その印鑑証明書がその申請のためだけに作成された書面かどうかを確認
+します。該当しない場合は、次に、申請人等自身の印鑑証明書や第三者の同意・
+承諾を証する書面に添付された印鑑証明書かどうかを確認し、いずれにも当た
+らなければ、原本の還付を請求することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+第三者の証明書は還付可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+本人確認情報は申請専用で還付できない
+Diagram: Panel 1と同じ二段階の決定木を再利用する。今度はDiamond 1「その
+申請のためだけに作成された書面か」の「はい」の分岐を太い縁取り・フル
+カラーで強調し、資格者代理人が作成した「本人確認情報」の書類アイコンに
+大きな赤い✕マークが重なる結論ノード「原本の還付を請求できない」へ直接
+つなげる（Diamond 2は判定に進む前に結論が確定するため、Diamond 2とその
+先の分岐は薄いグレーの破線で縮小表示し、到達しないことを示す）。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その書面がその申請のためだけに作成された書面かどうかを確認しま
+す。資格者代理人が作成する本人確認情報はまさにその登記申請のために作成
+されたものなので、この時点で原本の還付を請求することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+申請専用書類は還付不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+相続関係説明図を添えれば戸籍謄本は還付できる
+Diagram: An isometric two-checkpoint illustration stacked vertically.
+Checkpoint①（上段）: a stack of 戸籍謄本・除籍謄本 document icons labeled
+「相続を証する書面」。Checkpoint②（下段）: a hand-drawn 家系図のような
+「相続関係説明図」のシートが、その戸籍謄本の束にクリップで留められる様子。
+両方のチェックポイントがそろって初めて、還付スタンプ（✓マーク）が束の上
+に押される。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、提供した書面が相続を証する戸籍謄本・除籍謄本等であるかどうかを確認
+します。該当する場合は、次に、相続関係説明図を添付しているかどうかを確認
+し、添付していれば戸籍謄本等の原本の還付を請求することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+説明図添付で還付可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+登記識別情報の書面は廃棄され還付不可
+Diagram: An isometric timeline. Stage 1: a sealed envelope containing the
+登記識別情報を記載した書面 is submitted at the 登記所窓口. Stage 2: a
+「登記完了」スタンプが押される。Stage 3: その封筒がシュレッダー／ゴミ箱
+アイコン（廃棄）へ向かう矢印とともに描かれ、大きな赤い✕マークが「原本の
+還付」のラベルに重なる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、原本還付を求める書面が登記識別情報を記載した書面かどうかを確認し
+ます。該当する場合、その書面は登記完了時に廃棄される取扱いのため、原本
+の還付を請求することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+完了後に廃棄され還付不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+申出があれば郵送でも原本を還付できる
+Diagram: An isometric scene of a 登記所の窓口 counter, with a 申請人からの
+「送付（郵送）の申出」の吹き出しが窓口へ向かう矢印で示される。窓口から、
+封筒に入った原本書類が、小さな郵便ポストや配達トラックのアイコンを伴って
+矢印で遠方の申請人の自宅アイコンへ届けられる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請人が原本の送付（郵送）による還付を申し出ているかどうかを確認
+します。申出があれば、登記所の窓口に出向かなくても、原本を送付する方法
+によって還付を受けることができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+郵送での還付も可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則55条1項ただし書（原本還付の対象外となる書面）・55条6項
+（送付の方法による還付）・69条（登記識別情報を記載した書面の廃棄）に基づ
+く整理です。戸籍謄本等の相続関係説明図による還付は先例の取扱いによります。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to 原・本・還・付・証・明・書・相
+・続・謄・籍・確・認・識・別・廃・棄・郵・送・申. If any character renders
+as a Simplified or Traditional Chinese variant, redraw that character in
+the correct Japanese form. Also confirm that no character outside
+hiragana, katakana, Jōyō kanji, and the Arabic numerals explicitly used
+above appears anywhere in the image — no Latin letters, no other
+non-Japanese scripts. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢 is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that no 肢 with a genuinely hidden
+second condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct, confirm nothing
+is rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```

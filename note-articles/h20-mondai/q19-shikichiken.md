@@ -187,3 +187,202 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（選択肢1〜5 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — two isometric land plots (甲土地・乙土地) each
+bearing a building, registry stamp icons, a registry office icon for 他
+管轄の登記所, a calendar icon for 登記原因日付, an isometric 抵当権のリボ
+ンアイコン, and a regulation/rulebook icon representing a 規約. This
+problem's 5 選択肢 are five unrelated, independent points of law rather
+than variations on one shared scenario, so there is no shared decision
+tree across panels — design each panel's diagram on its own terms. Where
+a 選択肢 requires checking multiple conditions in sequence before reaching
+a conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node for each branch that
+has a genuine, distinct real-world conclusion. Where a 選択肢 is resolved
+by a single check, a labeled illustrative diagram is sufficient — do not
+force a flowchart. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成20年度午後第19問 選択肢1〜5
+作図ガイド（区分建物の敷地権）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（選択肢1） ---
+Badge: a filled circle in soft green containing the number 1.
+Heading (bold, ONE line):
+建物取壊し後も、みなし規約敷地として存続する
+Diagram: A left-to-right timeline diagram: LEFT panel labeled「取壊し前」
+shows two isometric land plots, 甲土地 and 乙土地, each with a building on
+it, both enclosed by a shared dashed outline labeled「敷地権」；an arrow
+points right to a MIDDLE panel labeled「甲土地上の建物を取壊し」showing 甲
+土地の建物 being demolished (crane/wrecking-ball icon); an arrow points
+right to a RIGHT panel labeled「取壊し後」showing 甲土地 now empty but
+still enclosed by the dashed「敷地権」outline with a small label「みなし
+規約敷地」, next to a separate box labeled「変更登記が必ず必要」crossed out
+with a red ✕ to show that a change registration is not automatically
+required.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地上の建物部分が取り壊されたことで、甲土地が「建物が所在する土
+地」でなくなったかどうかを確認します。次に、その土地がみなし規約敷地とし
+て引き続き敷地となるかどうかを確認し、直ちに変更登記が必要になるとは限ら
+ないと判断します。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+みなし規約敷地で存続
+
+--- PANEL 2（選択肢2） ---
+Badge: a filled circle in soft green containing the number 2.
+Heading (bold, ONE line):
+証明書の要否は発生原因か消滅原因かで決まる
+Diagram: Draw as an actual decision flowchart: a start box labeled「敷地
+権の変更登記を申請する」leading into a diamond node labeled「変更登記の原
+因は敷地権の発生か消滅か」；a「発生」arrow leads to a conclusion node
+labeled「他管轄の登記事項証明書が必要」；a「消滅」arrow leads to a separate
+conclusion node labeled「他管轄の登記事項証明書は不要」。Add a small
+isometric icon of a土地 straddling two 登記所 (registry office) buildings,
+with a registry-stamp icon near the diamond node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その変更登記が敷地権の発生を原因とするものか、消滅を原因とするもの
+かを確認します。発生を原因とする場合は他管轄の登記事項証明書が必要です
+が、消滅を原因とする場合には不要です。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+消滅なら証明書不要
+
+--- PANEL 3（選択肢3） ---
+Badge: a filled circle in soft green containing the number 3.
+Heading (bold, ONE line):
+先に権利を持っていたかで登記原因日付が変わる
+Diagram: Draw as an actual decision flowchart: a start box labeled「区分
+建物の所有者は敷地の権利をいつ取得したか」leading into a diamond node
+labeled「区分建物が生じた日より前から、登記した敷地の権利を有していた
+か」；a「はい」arrow leads to a conclusion node labeled「登記原因日付は区
+分建物が生じた日」；a「いいえ」arrow leads to a separate conclusion node
+labeled「登記原因日付は権利取得の登記がされた日」。Add small calendar icons
+at each conclusion node to emphasize that both are genuine, distinct
+dates.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、区分建物の所有者が、区分建物が生じた日より前からその敷地の権利を登
+記していたかどうかを確認します。前から有していた場合は区分建物が生じた
+日、後から取得した場合は権利取得の登記がされた日が、それぞれ登記原因日付
+になります。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+区分建物が生じた日
+
+--- PANEL 4（選択肢4） ---
+Badge: a filled circle in soft green containing the number 4.
+Heading (bold, ONE line):
+承諾情報があれば抵当権消滅の変更登記ができる
+Diagram: A relationship diagram (not a flowchart): an isometric 敷地権付
+き区分建物 with an 抵当権のリボンアイコン attached to it; a 抵当権者のキャ
+ラクター hands over a document icon labeled「消滅を承諾する情報」to a登記
+官のキャラクター；an arrow leads from the登記官のキャラクター to the 抵当
+権のリボンアイコン being removed from the building, with a label「抵当権
+消滅の変更登記」and a green ✓ mark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、抵当権者から、その抵当権を消滅させることを承諾する情報が提供されて
+いるかどうかを確認します。承諾を証する情報が提供されていれば、抵当権を消
+滅させる変更登記を申請することができます。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+承諾があれば可能
+
+--- PANEL 5（選択肢5） ---
+Badge: a filled circle in soft green containing the number 5.
+Heading (bold, ONE line):
+規約敷地喪失の証明は設定証明に限らない
+Diagram: A LEFT/RIGHT comparison diagram（誤りやすい思い込み vs 正しいルー
+ル）: LEFT side labeled「よくある思い込み」shows a single規約書アイコン
+labeled「分離処分を可能とする定めを設定した規約を証する情報」with a red
+circle around it and the note「これだけが必要」, the whole LEFT panel
+overlaid with a red strike-through line; RIGHT side labeled「正しいルー
+ル」shows three separate document icons side by side labeled「規約の廃止
+を証する情報」「その他の事由を証する情報」「規約の設定を証する情報」, each
+with a green ✓, and the note「原因に応じたいずれかで足りる」underneath.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、敷地権でなくなった原因が規約の廃止か、その他の事由か、規約の設定か
+を確認します。原因に応じた証明情報のいずれかを提供すれば足り、常に分離処
+分を可能とする規約の設定証明でなければならないわけではありません。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+原因に応じた証明で足りる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+建物の区分所有等に関する法律5条2項、不動産登記法55条1項、不動産登記令別
+表十五の項、不動産登記事務取扱手続準則に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 証・権・記・発・滅・規・約・壊. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 選択肢 is drawn as
+an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element from
+the source article distinct (no merged or dropped requirements), confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 選択
+肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

@@ -543,3 +543,248 @@ re-listed ○/✕ grid, and no additional text block of any kind), and
 confirm the entire canvas, edge to edge, is filled with a fully opaque
 background with no transparency or alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、`infographic-prompt-template.md`の
+「⑤ 作図ガイド型」ルールに基づき、問題文を読んだときに実際に手を動かして
+描くべき図と、その図にたどり着くまでにどの順番で何を確認するかを肢ごとに
+示す作図ガイド。②が5肢の結論を俯瞰するのに対し、⑤は思考順序そのものを
+可視化する。肢ア（合筆の申請人適格）・肢イ（登記識別情報の通知を受ける代
+理人の要件）・肢エ（一の申請情報でまとめられる3条件）・肢オ（印鑑証明書
+の原本還付の原則と例外）は分岐点をひし形で示す決定木型、肢ウ（提供でき
+ない理由の申請情報への記載と証明情報の要否）は「正しいルール」と「誤り
+やすい思い込み」を対比させる正誤対比型とした。肢エは管轄・所有者・目的
+原因という3つの条件を順に確認する3段階の決定木、肢オは原則から例外への
+当てはめを示す決定木とし、いずれも着眼点コールアウトで確認の順序を明示
+している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land-plot icons being merged (合筆),
+a registry-office desk, a power-of-attorney (委任状) scroll, a key-shaped
+登記識別情報 icon, an inkan/seal-certificate (印鑑証明書) document, a
+filing cabinet, application documents, and diamond-shaped decision nodes
+with checkmark/X branch arrows. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Where a
+panel reuses a decision tree shared with other panels in this set, render
+the branch relevant to THIS panel with a thick highlighted border and full
+color, and render the other, unrelated branches in a faded, greyed-out, or
+dotted-outline style rather than omitting them — the reader should be able
+to see at a glance which part of the shared tree this panel is about.
+Likewise, where a diagram must show an entity that conceptually never
+held the right or status in question, render that entity or claim in a
+faded or dotted-outline style rather than a plain ○/✕ mark, so the visual
+itself communicates "this was never really there," not just "this is
+wrong." Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element (e.g. keep the 3
+conditions of Panel 4 as 3 distinct checks, not compressed into one).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成27年度 午後の部 第9問 ア〜オ
+作図ガイド（合筆の登記の手続要件）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+移転登記を受けているかを確認する
+Diagram: Draw a diamond-shaped branch node labeled「合筆を申請しようとす
+る人は、登記記録上すでに所有権の登記名義人になっているか」. A green
+arrow labeled「はい」leads to a conclusion node「合筆の登記を申請でき
+る」. A separate red arrow labeled「いいえ」leads to its own distinct
+conclusion node「申請できない、先に所有権移転登記を受ける必要がある」,
+illustrated with a buyer figure (Ｂ) holding a 売買契約書 and standing in
+front of a red barricade blocking the合筆申請書窓口, with a floating label
+「所有権移転登記:未了」attached to Ｂ. Neither arrow loops back to the
+diamond.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合筆を申請しようとしている人が、登記記録上すでに所有権の登記名義
+人になっているかを確認します。次に、まだ売買契約をしただけで移転登記を
+受けていない場合は、先に移転登記を済ませてからでなければ合筆の登記を申
+請できないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+移転登記が先
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+委任状に特別の委任があるかを確認する
+Diagram: Draw a diamond-shaped branch node labeled「委任状に『登記識別情
+報の通知を受けることができる』旨の特別の委任が記載されているか」. A
+green arrow labeled「はい」leads to a conclusion node「代理人は登記識別
+情報の通知を受けることができる」, illustrated with a land and building
+surveyor figure receiving a key-shaped 登記識別情報 icon from a registry
+clerk with a green checkmark. A separate red arrow labeled「いいえ」leads
+to its own distinct conclusion node「代理人は登記識別情報の通知を受ける
+ことができない」, illustrated with the same surveyor figure reaching for
+the key-shaped icon while a red X blocks the hand. Neither arrow loops
+back to the diamond.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人への委任状に、登記識別情報の通知を受け取ってよいという特別
+の委任が書かれているかを確認します。次に、その記載がなければ、代理人は
+新しい登記識別情報の通知を受けられないと判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+特別の委任が必須
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+理由は申請情報に書けば足り証明書は不要
+Diagram: Split the panel into two side-by-side boxes. Left box labeled
+「誤りやすい思い込み」(faded, grey tones): draw an applicant figure
+writing「登記識別情報を提供できない理由:失念」on the 申請情報 form, and
+then also trying to attach an additional「理由を証する証明書」document,
+crossed out with a red X. Right box labeled「正しいルール」(full color,
+blue): draw the same 申請情報 form with only「登記識別情報を提供できない
+理由:失念」written on it and a green checkmark, with the 証明書 slot
+labeled「不要」in a small faded outline beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記識別情報を提供できない理由を申請情報にきちんと記載しているか
+を確認します。次に、その理由を裏づける証明書までは求められていないこと
+を確認し、余分な書類を用意しないようにします。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+証明書類は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+管轄・所有者・目的原因の同一性を順に確認する
+Diagram: Draw a 3-step decision flowchart, stacked vertically. Diamond 1
+labeled「同一の登記所の管轄区域内にあるか」— a faded grey「いいえ」arrow
+leads to a faded conclusion node「一の申請情報にはできない、別々に申請す
+る」; a highlighted「はい」arrow continues down to Diamond 2 labeled「所
+有者が同一か」— a faded grey「いいえ」arrow leads to the same faded
+conclusion node; a highlighted「はい」arrow continues down to Diamond 3
+labeled「登記の目的・登記原因等が同一か」— a faded grey「いいえ」arrow
+leads to the same faded conclusion node; a highlighted「はい」arrow leads
+to a final highlighted conclusion node (green)「一の申請情報でまとめて申
+請できる」, illustrated with four isometric land plots(甲・乙・丙・丁)with
+merge arrows「甲→丙」「乙→丁」converging into a single application
+document icon.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、複数の合筆が同一の登記所の管轄区域内にあるかを確認します。次に、
+所有者が同一であるかを確認し、最後に登記の目的・登記原因等が同一である
+かを確認します。この3つがすべて揃って初めて、一の申請情報でまとめて申
+請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一の申請情報でOK
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+記名押印を要する例外に当たるかを確認する
+Diagram: Draw a decision flowchart. Start with a conclusion node (grey,
+labeled 原則)「添付書面の原本は還付を請求できる」. Below it, a
+diamond-shaped branch node labeled「その書面は、記名押印を要する場面の印
+鑑証明書か、またはその申請のためだけに作成された書面か」. A red arrow
+labeled「はい(例外に該当)」leads to a highlighted conclusion node「原本
+還付を請求できない」, with a small supporting illustration below it: a
+row of six small icons representing六つの記名押印が必要な場面(規則47条3
+号イ(1)から(6))、その6番目の icon だけ「合筆・合体・建物の合併」labeled
+と共にオレンジの縁取りで強調され、委任状に印鑑証明書がクリップされた
+アイコンへ矢印が伸び、原本を取り戻そうとする手に赤い✕が重なる。A separate
+green arrow labeled「いいえ」leads to its own distinct conclusion node
+「原本還付を請求できる」. Neither arrow loops back to the diamond.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、原則として添付書面の原本は還付を請求できることを確認します。次
+に、その書面が記名押印を要する場面の印鑑証明書か、その申請のためだけに
+作成された書面という2つの例外のどちらかに当てはまるかを確認し、合筆の
+委任状に押印した印鑑証明書はこの例外に当てはまるため還付できないと判定
+します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+原本還付は不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：ア　不動産登記法39条1項／イ　不動産登記規則62条2項／ウ　不動
+産登記令3条12号／エ　不動産登記令4条ただし書／オ　不動産登記規則47条3
+号イ(6)・55条1項ただし書・不動産登記令18条2項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 移・転・権・委・任・識・押・印・鑑・
+証・還・付・請・轄・筆・合・体・併. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character that
+is not standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 is drawn as an actual flowchart with branch nodes
+(not a bare illustration with no visible decision structure), that no 肢
+with a genuinely hidden second condition has been flattened into a single
+check, that each 着眼点 callout states a checking order rather than only a
+conclusion and keeps every required element from the source article
+distinct (no merged or dropped requirements, and Panel 4's 3 conditions
+remain 3 distinct diamonds rather than being compressed into one), that
+any panel sharing a decision tree with another panel clearly distinguishes
+its own highlighted branch from the other, faded branches, confirm nothing
+is rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```

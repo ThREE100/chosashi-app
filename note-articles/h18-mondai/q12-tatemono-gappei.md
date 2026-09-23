@@ -110,7 +110,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -197,12 +205,247 @@ Small credit text in the corner (optional, keep minimal):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・併・続・属・共・用.
-If any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the number of cards equals
+attention to 号・録・権・地・番・建・物・登・記・所・併・続・属・共・用 (and not Traditional Chinese).
+If any character renders as a Simplified Chinese variant or a Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals
 5 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（肢ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric building icons for 甲建物・乙建物,
+registry document stamps, a red prohibition mark（✕）over a merge arrow, a
+green checkmark, condominium unit icons for 区分建物, a signed「承諾書」
+document icon, a red「抵当権」tag, person icons for 共有者, and room icons
+for 共用部分. Where a 肢 requires checking multiple conditions in sequence
+before reaching a conclusion (肢ウ), draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No branch arrows, and a final conclusion node for
+every branch reached - do not leave any branch's destination blank, and
+do not draw any arrow looping back to an earlier node; outcomes that do
+not match this 肢's own facts should be drawn in a faded, greyed-out, or
+dotted-outline style rather than omitted. Panel 2 (肢イ) uses a left/right
+contrast-frame layout instead of a flowchart, since the real difficulty
+is telling apart two different merger categories（附属合併 versus 区分
+合併）, not checking sequential conditions within one category. Panel 5
+(肢オ) uses a correct-rule-versus-common-mistake contrast layout, since
+the trap is assuming that being in the same one-棟 building changes the
+outcome when it does not. Panels 1 and 4 (肢ア・肢エ) use a single labeled
+illustrative diagram, since each is resolved by one check. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words,
+not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text - do not drop or merge a required element
+(e.g. keep the 所有権等の各権利 and 不動産登記規則131条 exception's own
+two conditions distinct in 肢ウ).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成18年度午後第12問 肢ア〜オ
+作図ガイド（建物の合併の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+所有権登記の有無が違うと合併できない
+Diagram: An isometric main building icon labeled「甲建物」carrying a green
+「所有権登記あり」stamp, next to a smaller unfinished-looking building icon
+labeled「乙建物」with a gray「表題登記のみ」tag, and a red ✕ mark over a
+merge arrow between them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲建物と乙建物とで、所有権の登記の有無が一致しているかを確認しま
+す。所有権の登記がある建物と所有権の登記がない建物との組み合わせでは、
+建物の合併の登記をすることができません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+所有権登記なし × 合併不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+接続の要否は合併の類型で分かれる
+Diagram: Split into left and right frames. LEFT frame labeled「附属合併
+（主従関係がある場合）」(drawn with a thick highlighted border and full
+color, since this is the type relevant to this肢's scenario) shows two
+isometric condominium unit icons（「101号室」主である建物、倉庫の区分建物
+「附属建物」）positioned apart with a dashed distance line between them, a
+small「主従関係あり」tag between the two icons, and a green checkmark over
+the merge arrow despite the distance, with a footnote「準則86条(1)：接続
+不要」. RIGHT frame labeled「区分合併（対等な区分建物同士の場合）」shows
+two equally-sized isometric区分建物 icons with no主従関係 tag, positioned
+apart with a dashed distance line, a red ✕ mark over the merge arrow, with
+a footnote「準則86条(2)：接続必要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲建物を乙建物の附属建物とする合併（主従関係を前提とする合併）な
+のか、対等な区分建物同士をまとめる区分合併なのかを見分けます。主従関係
+を前提とする合併では、両建物が接続していなくても合併の登記をすることが
+でき、接続要件が課されるのは区分合併の場合に限られます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+主従関係があれば接続不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+抵当権者の承諾だけでは例外にあたらない
+Diagram: An actual two-diamond decision flowchart. An isometric building
+icon labeled「甲建物」carries no additional tag; a building icon labeled
+「乙建物」carries a red「抵当権の登記あり」tag, with a signed document icon
+labeled「承諾書」beside it. First diamond node (thick highlighted border,
+full color): 「乙建物に所有権等以外の権利の登記があるか」. はい arrow
+（highlighted）proceeds to a second diamond node（also thick highlighted
+border）: 「その権利の登記が甲建物にも同一内容（登記の目的・受付年月日
+及び受付番号並びに登記原因及びその日付が同一）で存在するか（規則131条の
+例外）」. いいえ arrow（highlighted）leads to a conclusion node（full
+color）showing the「承諾書」document icon crossed out with a large red ✕:
+「合併の登記を申請できない（承諾証明情報を添付しても不可）」. A faded,
+dotted-outline branch from the first diamond's いいえ side is captioned
+「この号による制限はない（本問の事案ではない）」, and a faded, dotted-
+outline branch from the second diamond's はい side is captioned「例外的に
+合併の登記ができる（本問の事案ではない）」, to show the unrelated outcomes
+without omitting them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、乙建物に所有権等（所有権・地上権・永小作権・地役権及び採石権）以外
+の権利の登記があるかを確認します。次に、その権利の登記が甲建物にも登記
+の目的・受付年月日及び受付番号並びに登記原因及びその日付が同一の内容で
+存在するか（不動産登記規則131条の例外）を確認します。乙建物の抵当権に
+ついて甲建物に同一内容の登記がない場合は、抵当権の登記名義人の承諾を証
+する情報を添付しても、建物の合併の登記を申請することはできません。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+承諾書だけでは不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+共有者全員でなければ申請できない
+Diagram: Two isometric person icons labeled「共有者Ａ」「共有者Ｂ」stand
+side by side in front of a merge-application document. One vignette shows
+person A alone reaching for the document with a red ✕ mark. A second
+vignette shows both A and B together reaching for the document with a
+green checkmark. A small label above the scene reads「共有持分は同一でも
+申請人適格は別」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の合併の登記の申請人となるのが、表題部所有者又は所有権の登記
+名義人の全員であるかを確認します。共有者及び共有持分が同一であっても、
+共有者のうち1人だけでは申請人適格を満たさず、共有者全員でなければ合併
+の登記を申請することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+共有者全員で申請
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+同じ一棟でも共用部分の登記は合併不可
+Diagram: Split into left and right frames. LEFT frame labeled「誤りやすい
+思い込み」shows two isometric room icons inside the same building outline,
+one labeled「集会室（共用部分）」and one labeled「管理人室（共用部分）」,
+with a thought bubble reading「同じ一棟だから合併できるはず」struck
+through with a strikethrough line. RIGHT frame labeled「正しいルール」
+(drawn with a thick highlighted border and full color) shows the same two
+room icons, both carrying a「共用部分である旨の登記」tag, with a red ✕
+mark over the merge arrow between them despite being in the same building
+outline, and a footnote「56条1項1号・58条4項」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲建物又は乙建物のいずれかに共用部分である旨の登記（又は団地共用
+部分である旨の登記）があるかを確認します。共用部分である旨の登記がある
+と、その建物についての権利に関する登記は職権で抹消され、以後権利に関す
+る登記を一切することができなくなるため、両建物が同じ一棟の共用部分で
+あっても、合併の登記をすることはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+同じ一棟でも不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法56条1項1号・4号・5号（肢ア・オ・ウ）、不動産登記規則131条
+（肢ウ）、不動産登記事務取扱手続準則86条(1)(2)（肢イ）、不動産登記法54条
+1項3号（肢エ）、不動産登記法58条4項（肢オ）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 号・権・地・番・建・物・登・記・所・
+併・続・属・共・用. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+Panel 3 (肢ウ) is drawn as an actual flowchart with two distinct diamond
+nodes and a conclusion node for every branch reached (no blank branch and
+no arrow looping back to an earlier node), that Panel 2's left/right
+contrast-frame layout and Panel 5's correct-rule-versus-common-mistake
+contrast are not flattened into a flowchart where they do not belong,
+that Panels 1 and 4 remain simple labeled illustrative diagrams rather
+than being forced into a flowchart, that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct (no merged or dropped
+requirements), confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
 ```

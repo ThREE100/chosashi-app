@@ -479,3 +479,254 @@ and no additional text block of any kind), and confirm the entire canvas,
 edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに示す解き方ガイド。②の結論カードポスター、上記の④間違いノート（イ・エ・オ）とは別物で、それらの内容は書き換えない。アは正誤対比型、イ・エ・オは原則と例外・段階を持つ判定のため決定木（フローチャート）、ウは請求の経路を順に確認する配置図として構成した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry counter icons, a closed
+(閉鎖) map/公図 folder icon, an apartment building tower showing stacked
+区分建物 units, a cloud/server icon for 電磁的記録, a document icon for
+規約証明情報, a magnifying-glass icon for 閲覧, a simplified map with two
+city markers for 管轄登記所. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Where a
+panel reuses a decision tree shared with other panels in this set, render
+the branch relevant to THIS panel with a thick highlighted border and full
+color, and render the other, unrelated branches in a faded, greyed-out, or
+dotted-outline style rather than omitting them — the reader should be able
+to see at a glance which part of the shared tree this panel is about.
+Likewise, where a diagram must show an entity that conceptually never held
+the right or status in question, render that entity or claim in a faded or
+dotted-outline style rather than a plain ○/✕ mark, so the visual itself
+communicates "this was never really there," not just "this is wrong."
+Unlike a glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+— do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成26年度 午後の部 第18問 ア〜オ
+作図ガイド（登記事項の証明・閲覧）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled blue circle containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+閉鎖後も図面の写しに利害関係は不要
+Diagram: A two-panel comparison (正誤対比). LEFT panel, labeled「誤りやすい
+思い込み」("a common misconception"): a closed public-cadastral-map folder
+icon (閉鎖された公図、地図に準ずる図面) with a padlock icon on top; a
+person icon approaching it is blocked by a tag reading「利害関係が必要」
+("an interest is required") with a red X mark over it. RIGHT panel,
+labeled「正しいルール」("the correct rule"): the same closed folder, but
+an unmarked person icon (showing no special relationship) freely receives
+a copy at the registry counter, with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その図面が地図に準ずる図面（公図等）であるかを確認します。次に、
+閉鎖されたものかどうかにかかわらず、利害関係の有無を問わず写しの交付を
+請求できることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+利害関係は不要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line):
+一棟まとめの証明書の有無を確認する
+Diagram: Draw as an actual decision flowchart. Start node: an icon of a
+whole apartment building (マンション等の一棟の建物) containing multiple
+区分建物（専有部分）units. Diamond branch node 1, labeled「一棟の建物に
+属するすべての区分建物をまとめて証明する種類の証明書があるか？」("is
+there a type of certificate that certifies together all the 区分建物
+belonging to one whole building?"). From the ○ (yes) arrow, Diamond
+branch node 2, labeled「請求したいのは現に効力を有するもの（現在事項）
+か、過去の履歴も含む全部事項か？」("is the certificate being requested
+one showing only currently effective matters (現在事項), or one
+including the full past history (全部事項)?"). The「現に効力を有するもの
+（本肢）」("currently effective matters — this panel's case") arrow leads
+to a green-highlighted conclusion node reading「六号 一棟建物現在事項証明
+書として請求できる」("can be requested as a Type 6, 一棟建物現在事項証明
+書"). The「全部事項」arrow leads to a conclusion node reading「五号 一棟
+建物全部事項証明書として請求できる」("can be requested as a Type 5, 一棟
+建物全部事項証明書"). The ✕ (no — a mistaken assumption) arrow leads to a
+conclusion node reading「実際は存在する制度なので、この認識は誤り」
+("this type of certificate does in fact exist, so this assumption is
+wrong").
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、一棟の建物に属するすべての区分建物をまとめて証明する種類の証明書
+があるかを確認します。次に、請求したいのが現に効力を有するもの（現在
+事項）か、過去の履歴を含む全部事項かを確認すると、六号・五号のどちらに
+当たるかが分かります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一棟まとめも六号で可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line):
+地役権図面が電磁的記録かを確認する
+Diagram: A layout diagram (配置図). On the left, an icon of an easement
+drawing (地役権図面) overlaid with a small cloud/server icon, labeled
+「電磁的記録として保存」("stored as an electronic record"). An arrow
+extends right to a laptop icon labeled「電子情報処理組織を使用して請求
+情報を提供」("providing the request information using an electronic
+data processing system"). A further arrow extends to a registry-office
+building icon, ending at a conclusion speech-bubble with a green
+checkmark reading「交付の請求が完了」("the request for issuance is
+complete"). The conventional route of visiting the counter in person is
+drawn alongside in a faint gray dotted line, showing that this route is
+not needed here.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その地役権図面が電磁的記録として登記所に保存されているかを確認
+します。次に、その証明書の交付の請求が、電子情報処理組織を使用する
+オンラインの方法によることができるかを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+オンライン請求 可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line):
+写しの交付対象になる書類かを先に確認する
+Diagram: Draw as an actual decision flowchart. Start node: a document
+icon for「敷地権に関する規約を設定したことを証する情報を記載した書面」
+("the document stating information certifying that a 敷地権 covenant was
+established" — an attachment to the 区分建物 表題登記 application).
+Diamond branch node, labeled「その書類は、不動産登記令21条1項が定める
+5種類の図面（土地所在図・地積測量図・地役権図面・建物図面・各階平面図）
+のいずれかに当たるか？」("does this document fall under one of the five
+types of drawings listed in Article 21(1) of the Real Property
+Registration Order — 土地所在図, 地積測量図, 地役権図面, 建物図面,
+各階平面図?"). The ○ (yes) arrow leads to a conclusion node reading
+「利害関係の有無にかかわらず、誰でも写しの交付を請求できる」("anyone can
+request a copy, regardless of whether they have an interest"). The ✕
+(no — this panel's case, highlighted) arrow leads to a blue-highlighted
+conclusion node reading「写しの交付はそもそもできない。正当な理由がある
+部分に限り、閲覧を請求できるにとどまる」("a copy cannot be issued at
+all; only inspection of the part for which there is a legitimate reason
+can be requested").
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その書類が不動産登記令21条1項の定める5種類の図面のいずれかに当た
+るかを確認します。次に、当たらない場合は、利害関係の有無にかかわらず
+写しの交付自体ができず、正当な理由がある部分に限り閲覧できるにとどまる
+ことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+写しの交付は不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line):
+請求する証明書が1項か2項かを確認する
+Diagram: Draw as an actual decision flowchart. Start node: an icon of a
+person requesting the issuance of a certificate, alongside a simplified
+map of Japan with two city markers (Tokyo and Osaka). Diamond branch
+node, labeled「請求する証明書は、登記記録の全部又は一部を証明した登記
+事項証明書（119条1項）か、概要を記載した登記事項概要証明書（119条2項、
+本肢）か？」("is the certificate being requested a 登記事項証明書
+certifying all or part of the registration record (Article 119(1)), or
+a 登記事項概要証明書 stating only a summary (Article 119(2), this
+panel's case)?"). The「119条1項」arrow leads to a conclusion node
+reading「119条5項の特則により、所在地以外の登記所（大阪の登記所を含め
+全国どこでも）に対しても請求できる」("under the special rule of Article
+119(5), the request can be made at any registry office nationwide,
+including one other than where the property is located, such as the
+Osaka registry office"). The「119条2項（本肢）」arrow leads to a
+blue-highlighted conclusion node reading「119条5項の特則は及ばず、不動産
+の所在地を管轄する登記所に対してのみ請求できる」("the special rule of
+Article 119(5) does not apply, and the request can only be made at the
+registry office with jurisdiction over the property's location").
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、請求したいのが登記事項証明書（119条1項）か登記事項概要証明書
+（119条2項）かを確認します。次に、119条5項の特則が及ぶのは1項の請求
+だけであることを確認すると、請求先の登記所の範囲が分かります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+概要証明は所在地限定
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+平成26年度 午後の部 第18問（不動産登記法119条1項・2項・5項、120条、
+121条1項・3項、不動産登記令21条1項、不動産登記規則196条1項5号・6号）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 証・記・権・録・閉・鎖・棟・轄・閲・
+覧・写・交・付・概・要・磁・効・区・分・請・求. If any character renders
+as a Simplified or Traditional Chinese variant, redraw that character in
+the correct Japanese form. Also scan the entire canvas for any character
+that is not standard Japanese hiragana, katakana, or Jōyō kanji —
+including any Chinese-only character, Korean Hangul, other non-Japanese
+script, or stray decorative glyph — and remove or redraw it so that only
+standard Japanese text appears anywhere in the image. Confirm the panel
+count equals 5 exactly, badge numbers run 1-5 continuously, there is no
+intro illustration or paragraph block between the header and the panels,
+that every multi-condition 肢（イ・エ・オ）is drawn as an actual flowchart
+with branch nodes (not a bare illustration with no visible decision
+structure), that no 肢 with a genuinely hidden second condition has been
+flattened into a single check, that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element from
+the source article distinct (no merged or dropped requirements), that any
+panel sharing a decision tree with another panel clearly distinguishes its
+own highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

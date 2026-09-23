@@ -388,3 +388,202 @@ equals 3 exactly, with no duplicated or missing cards, and confirm every
 heading, illustration label, and caption text matches the Japanese text
 given above verbatim, with no paraphrasing and no substituted characters.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+肢イは「共有者か」「他の共有者の承諾を証する情報があるか」という2つの独立した要件を順に確認する決定木として図解した。肢ウは「変更登記」という誤った思い込みと「保存＋移転登記」という正しい2段階の流れを左右で対比する正誤対比型にした。肢ア・エ・オは、それぞれ住所変遷・持分更正・商号変更という単一の確認事項で結論に至るため、無理にフローチャート化せず、系統図・配置図型で独立に図解した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric address-signboard icons, a land-
+registry ledger page for 表題部所有者, a tombstone/ghost-outline icon pair
+for a deceased co-owner, sequential registry-stamp icons for 保存登記・
+移転登記, a company-signboard icon transforming from 有限会社 to 株式会社,
+and a document icon for 住所を証する情報. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+This article's five 肢 do not share a single common decision-tree shape,
+so design each panel's diagram independently around its own fact pattern.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion.
+Do not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+— do not drop or merge a required element (keep "共有者であること" and
+"他の共有者の承諾を証する情報があること" as two distinct checks, since the
+source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第11問 ア〜オ
+作図ガイド（表題部所有者の変更・更正）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+住所変更は経由なしで一気に登記
+Diagram: An isometric address signboard for person「Ａ」showing a crossed
+-out dotted path「Ｘ市→Ｙ市→Ｚ市」（each intermediate step marked with a
+red ✕）, replaced by a single bold arrow going straight from the
+originally-registered address to the current address「Ｚ市」. A registry
+desk stamps a single document labeled「住所の変更の登記」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、表題部所有者の住所が登記記録上の住所から変わっているかどうかを確認
+します。複数回変わっている場合でも、途中の住所を経由することなく、直ちに
+現在の住所に変更する登記を1回申請すれば足ります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一気に現住所へ変更
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+共有者の承諾があれば持分の更正は単独可
+Diagram: A decision flowchart. Start diamond「更正登記を申請しようとする
+者は共有者か」。「いいえ」の分岐は結論ノード「申請できない」につながる。
+「はい」の分岐は第2のひし形「更正によって持分に変更が生じる他の共有者の
+承諾を証する情報があるか」に進み、「はい」の分岐（太い縁取り・フルカラー
+で強調）は、共有者「Ｂ」が共有者「Ａ」に「Ｂの承諾を証する情報」の書類を
+手渡し、Ａが1人で窓口に「持分の更正の登記」を申請している結論ノード「そ
+の共有者が単独で申請できる」につながる。「いいえ」の分岐は結論ノード
+「その共有者は単独で申請できない」につながる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、更正登記を申請しようとする者が共有者であるかどうかを確認します。
+共有者であれば、次に、更正によって持分に変更が生じる他の共有者の承諾を
+証する情報を提供しているかどうかを確認し、提供していれば、その共有者は
+単独で更正登記を申請することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾があれば単独可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+共有者の死亡は保存＋移転登記で処理
+Diagram: A correct-vs-misconception contrast panel. Left side（誤った思い
+込み）: an isometric land-registry ledger page labeled「表題部所有者 Ａ・
+Ｂ」with a small tombstone icon marking Ｂ's death, and a document labeled
+「Ａのみを表題部所有者とする変更の登記」crossed out with a large red ✕.
+Right side（正しい流れ）: the same ledger page, with two sequential
+registry stamps shown in order: first「①所有権の保存の登記」, then
+「②相続による所有権移転登記」, moving Ｂ's share to Ａ via a dotted arrow
+from a faded ghost-outline figure of Ｂ to Ａ, ending in a green ✓
+checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、表題部所有者の一人が死亡し、その相続人が残る共有者のみであるかどう
+かを確認します。該当する場合、表題部所有者の変更の登記を申請するのでは
+なく、まず所有権の保存の登記をし、次に死亡した共有者の持分について相続
+による所有権移転登記を申請します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保存→移転の2段階
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+新登場の表題部所有者には住所証明が必要
+Diagram: An isometric registry record showing「表題部所有者：Ｂ」being
+corrected to「表題部所有者：Ａ（持分2分の1）・Ｂ（持分2分の1）」. Next to
+the newly added「Ａ」entry, a small document icon labeled「住所を証する
+情報」is attached with a green checkmark, clearly linked only to Ａ's
+entry (the pre-existing「Ｂ」entry has no such document attached).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、更正の登記によって新たに表題部所有者として記録される者がいるか
+どうかを確認します。新たに記録される者がいる場合は、その者の住所を証
+する情報を提供しなければなりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+新登場者の住所証明必須
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+有限会社→株式会社でも名称変更登記可
+Diagram: An isometric company signboard transforming from「○○有限会社」
+to「○○株式会社」via a small transformation arrow, with the same building
+icon underneath both signs (showing it is the same legal entity). A
+registry desk stamps a document labeled「表題部所有者の名称の変更の登記」
+with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、表題部所有者である法人が、法人格はそのままで商号のみを変更したか
+どうかを確認します。特例有限会社が商号中に株式会社という文字を用いる
+商号に変更した場合も法人格は同一なので、表題部所有者の名称についての
+変更の登記を申請することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+名称変更登記できる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法33条3項・4項（共有持分の更正登記の申請資格・承諾）・32条
+（表題部所有者の変更は保存登記後の移転登記による）・不動産登記令別表2項
+（更正登記における住所証明情報）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to 住・所・変・更・登・記・共・有
+・者・保・存・移・転・株・式・名・称・持・分・正・承・諾・単・独・申・請・証
+・明・相・続. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+confirm that no character outside hiragana, katakana, Jōyō kanji, and the
+Arabic numerals explicitly used above appears anywhere in the image — no
+Latin letters, no other non-Japanese scripts. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 肢 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather than
+only a conclusion and keeps every required element from the source
+article distinct, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

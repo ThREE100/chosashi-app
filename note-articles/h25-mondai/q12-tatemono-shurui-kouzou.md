@@ -206,3 +206,210 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric buildings, roofs split into
+percentage-labeled sections, floor-use signboards, and registry record
+sheets. Where a 肢 requires checking multiple conditions in sequence
+before reaching a conclusion, draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Panels 1 and 2（肢ア・肢イ）share the same underlying decision-tree
+shape for determining a roof's structure: 屋根の各部分について、まず床面積
+に算入される部分かどうかを確認し（いいえなら構造認定の対象外）、算入され
+る部分についてはさらに、全体面積のおおむね30％以上を占めるかどうかを確認
+する（30％未満ならその屋根の種類は表示の対象外）。Draw both panels with the
+same two-diamond tree layout, but highlight（太い縁取り・色を変える等で
+強調）the branch relevant to that panel's 肢: Panel 2（肢イ）highlights the
+first diamond (床面積算入の有無), rendering the second diamond faded and
+greyed out; Panel 1（肢ア）highlights the second diamond (30％基準),
+rendering the first diamond faded and greyed out. Where a 肢 is resolved
+by a single check, a labeled illustrative diagram is sufficient — do not
+force a flowchart. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成25年度午後第12問 ア〜オ
+作図ガイド（建物の種類・構造）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+屋根の基準は10%でなく30%
+Diagram: Draw the same two-diamond decision-tree shape used in Panel 2,
+on an isometric roof split into two side-by-side sections. Start node:
+屋根の種類ごとに面積の割合を確認する。First diamond node（faded/greyed
+out, since Panel 2 is about this check）: 床面積に算入される部分か？with
+a はい arrow proceeding down. Second diamond node（drawn with a thick
+highlighted border, since this is the branch this panel is about）: 全体
+面積のおおむね30％以上を占めるか？with two branch arrows: いいえ（10%の
+ような少ない割合）leading to a conclusion node reading 表示の対象外
+（記録しない）; はい leading to a conclusion node reading 表示の対象に
+含める（複数あれば組み合わせて表示）. Show a large tiled roof section
+labeled 90%と a small metal-sheet section labeled 10%, with a red X over
+a mistaken marker reading 10%のライン基準 and a green checkmark over the
+correct marker reading 30%のライン基準.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その屋根部分が床面積に算入される部分であることを確認したうえで、次
+に、その屋根の種類が全体面積のおおむね30%以上を占めるかを確認します。30%
+未満の種類は表示の対象になりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+30%未満は対象外
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+算入外の屋根は構造判断で除外
+Diagram: Draw the same two-diamond decision-tree shape used in Panel 1,
+on an isometric building with a ground-floor pilotis（ピロティ）not
+counted in floor area. Start node: 屋根の種類ごとに面積の割合を確認する。
+First diamond node（drawn with a thick highlighted border, since this is
+the branch this panel is about）: 床面積に算入される部分か？with the
+いいえ branch highlighted, leading to a conclusion node reading 構造認定
+の対象外（考慮しなくてよい）。The はい branch and the second diamond node
+（30%基準）are rendered in a faded, greyed-out style, since this panel is
+not about that check. Show the pilotis section's differently-textured
+roof/ceiling greyed out and excluded from the structure-determination
+panel above it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その屋根の部分が床面積に算入される部分かどうかを確認します。床面積
+に算入しない部分であれば、その屋根の種類が他の部分と異なっていても、建物
+全体の構造認定では考慮しなくてよいことになります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+考慮しなくてよい
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+屋根の種類は一棟の表題部のみに記録
+Diagram: A left/right contrast panel. LEFT side (faded, red X, labeled
+思い込み): an isometric condominium building with an arrow mistakenly
+pointing from the roof icon to the top-floor unit's own separate record
+（最上階の専有部分の表示欄）。RIGHT side (full color, green checkmark,
+labeled 正しいルール): the same roof icon connected by an arrow down to
+the building's own record sheet labeled 一棟の建物の表題部, with every
+専有部分の表示欄 shown without any屋根の種類の記載.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が階層的に区分された区分建物であることを確認します。区分建物で
+ある場合、屋根の種類は各専有部分の構造欄にではなく、一棟の建物の表題部の
+構造欄にのみ記録されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一棟の表題部のみ
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+用途2つなら両方あわせて種類に
+Diagram: An isometric two-story building, the first floor tagged 店舗
+and the second floor tagged 居宅, both tags merging into a single
+combined signboard reading 店舗兼居宅.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の主な用途が1つだけか、2つ以上あるかを確認します。2つ以上ある
+場合は、それらの用途をあわせて建物の種類を定めます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+両方あわせて種類に
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+多目的ビルという種類区分はない
+Diagram: An isometric multi-floor building with each floor showing a
+different-use icon（食品販売店、衣類販売店、ゲームセンター、映画館）。A red
+X sits over a signboard reading 多目的ビル, while a green checkmark sits
+over a signboard listing each actual use by name.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の各利用部分ごとに用途が異なっているかを確認します。用途が異な
+っていても「多目的ビル」という種類区分は存在しないため、実際の用途をその
+まま列記して種類を定めます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+実際の用途を列記
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則113条・不動産登記事務取扱手続準則80条・81条の建物の種類・
+構造の認定基準に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to
+建・物・記・録・登・屋・根・積・棟・専・欄・途・種・類.
+If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire
+canvas for any character that is not standard Japanese hiragana,
+katakana, or Jōyō kanji — including any Chinese-only character, Korean
+Hangul, other non-Japanese script, or stray decorative glyph — and remove
+or redraw it so that only standard Japanese text appears anywhere in the
+image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢（肢ア・肢イ）is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that the genuinely hidden second
+condition shared by 肢ア・肢イ（床面積算入の有無を先に確認しないと30%基準
+だけでは足りないこと）has not been flattened into a single check, that
+each 着眼点 callout states a checking order rather than only a conclusion
+and keeps every required element from the source article distinct (no
+merged or dropped requirements), that Panels 1 and 2, which share a
+decision tree, each clearly distinguish their own highlighted branch from
+the other, faded branch, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

@@ -190,3 +190,203 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a single blueprint sheet showing a main house
+and its attached shed for 附属建物の作成単位, a thick-vs-thin pen-line
+comparison for 線の太さ, a tiny building on the main sheet paired with an
+enlarged margin drawing for 極めて僅少な建物の拡大表示, a two-frame
+scale comparison for 各階平面図と建物図面の縮尺, and a two-frame
+record-scope comparison for 建物図面と各階平面図の記録範囲. None of the
+five 肢 in this problem turns on a multi-step branching judgment — each
+turns on a single numeric rule or a single distinction between two
+frames of reference — so every panel uses a labeled illustrative diagram
+or a two-frame comparison rather than a forced flowchart; do NOT invent
+diamond branch nodes where the source article states a single rule. Where
+a 肢's body text adds a supplementary detail beyond the bare rule in the
+exam statement (肢ウの「本図と拡大図の方位をそろえる」という注意点), show
+that detail as an integral, clearly labeled part of the illustrative
+diagram itself (e.g. matching compass/方位 marks on both drawings) rather
+than inventing a new pass/fail branch or a legal consequence that is not
+stated in the source article. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認しま
+す"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成24年度午後第17問 ア〜オ
+作図ガイド（建物図面・各階平面図）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+附属建物も合わせて1個で作成
+Diagram: A single blueprint sheet (建物図面・各階平面図) showing a main
+house (主である建物) and a small detached shed (附属建物) drawn together
+on the same sheet, joined by a small brace/bracket line labeled 合わせて
+1個の建物として作成, with a checkmark confirming both belong on one
+drawing rather than separate sheets.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対象に附属建物があるかどうかを確認します。次に、附属建物がある
+場合は、主である建物と合わせて1個の建物として建物図面・各階平面図を
+作成すると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+附属建物も含め1個で作成
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+線の太さは0.2ミリ以下が必要
+Diagram: A side-by-side comparison of two drawn pen lines at clearly
+different thicknesses. The upper, visibly thick line is labeled
+0.3ミリメートル以下 and crossed out with a large red ✕. The lower,
+clearly thinner line is labeled 0.2ミリメートル以下 with a green
+checkmark beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、書面で作成する場合の線の太さの基準値を思い出します。次に、
+「0.3ミリメートル以下」ではなく「0.2ミリメートル以下」が正しい基準で
+あることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+0.2ミリ以下が正しい基準
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+極小建物は方位そろえ余白に拡大
+Diagram: A main blueprint sheet with an extremely tiny dot representing a
+building too small to draw in detail (建物が極めて僅少), its exact
+position marked with a small pin icon. A separate margin box in the
+corner of the same sheet (用紙の余白) shows the same building redrawn at
+an enlarged scale (適宜の縮尺で拡大表示), labeled with 位置・形状・縮尺を
+明らかにする. Both the main drawing and the margin box display a small
+matching compass/north-arrow icon pointing the same direction, connected
+by a dotted line labeled 本図と拡大図で方位をそろえる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が図面上で極めて僅少となり、形状を図示し難いかどうかを確認
+します。次に、その位置のみを本図に記入し、余白に適宜の縮尺で拡大表示
+するとともに、本図と拡大図の方位をそろえているかを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+方位をそろえ余白に拡大
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+各階平面図の縮尺は建物図面と別枠
+Diagram: A two-frame comparison. Left frame, labeled 各階平面図の縮尺:
+a floor plan labeled 原則250分の1, with a branching arrow leading to
+several alternative scale labels (500分の1を含む複数の縮尺オプション)
+each with a checkmark, showing 状況により適宜の縮尺（500分の1に限定され
+ない）. Right frame, labeled 建物図面の縮尺（別の話）: a simple building
+outline drawing labeled 原則500分の1. Between the two frames, a crossed
+-out label reads 各階平面図も500分の1に固定, showing the mistaken idea
+that conflates the two frames.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、縮尺の話が各階平面図についてのものか、建物図面についてのものか
+を見分けます。次に、各階平面図は原則250分の1であり、それが適当でない
+場合でも500分の1に限定されず、状況に応じた適宜の縮尺によると確認しま
+す。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+500分の1に限定されない
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+建物図面は主建物も含め記録する
+Diagram: A two-frame comparison. Left frame, labeled 建物図面の記録範囲:
+a blueprint showing both the pre-existing main house (既存の主である
+建物) and the newly built shed (新築された附属建物) drawn together,
+labeled 主である建物も含めて記録. Right frame, labeled 各階平面図の
+記録範囲: a floor plan showing only the newly built shed, labeled
+新築に係る附属建物のみで足りる. A small connecting note between the
+frames reads 建物図面と各階平面図とで扱いが異なる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、附属建物の新築による変更登記で問題にしているのが建物図面の記録
+範囲か、各階平面図の記録範囲かを見分けます。次に、建物図面は主である
+建物も含めて記録し、各階平面図は新築に係る附属建物の分だけで足りると
+確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+主である建物も含め記録
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則74条1項・81条・82条3項・83条2項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 図・面・附・属・建・縮・尺・余・白・
+拡・大・表・示. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that no 肢 has been forced into an
+unnecessary flowchart with invented branch nodes, that 肢ウ's diagram
+shows matching compass/方位 marks on both the main drawing and the
+enlarged margin drawing rather than a fabricated pass/fail branch, that
+肢エ and 肢オ each clearly separate their two frames of reference (各階
+平面図 vs 建物図面) rather than blending them into one diagram, that each
+着眼点 callout states a checking order rather than only a conclusion,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

@@ -183,3 +183,198 @@ paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（①〜⑤ 作図ガイド）
+
+問題文を読んだ瞬間に「この空欄は何を確認すれば正誤にたどり着けるか」を、①〜⑤の空欄ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。空欄そのものが誤りである③④は、誤った語句(市町村役場・方位)を図に大きく描かず、正しい内容を主役として描く。5パネル、portrait 1080×2600px。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of fill-in-the-blank problem, AND the order in which
+they should check facts to get there — Meiji-era survey officials, old
+hand-drawn parcel maps, government buildings (town hall, tax office,
+registry office), parcel map sheets with small icon tags, a compass rose,
+a registry counter, diamond-shaped decision nodes, and ○/✕ marks. Where a
+空欄 requires checking multiple facts in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 空欄 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. For panels 3 and 4, whose blank in the
+original problem text names the WRONG word (市町村役場 in panel 3, 方位 in
+panel 4), do NOT render that wrong word large or prominent — draw the
+correct content (税務署 in panel 3; 位置・形状・地番 in panel 4) as the
+large, highlighted, correct-side element, and show the wrong word only as
+a small, muted, crossed-out element for contrast. Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every fact each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成21年度 午後の部 第16問 ①〜⑤
+作図ガイド（公図の沿革）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（空欄①） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+地租改正は明治政府の税制改革
+Diagram: A horizontal timeline diagram, left to right (single check, not
+a flowchart). Node 1: an Edo-era farmer figure beside a rice-bale icon
+labeled 年貢(江戸時代). An arrow labeled 明治政府による転換 leads to Node
+2, drawn with a thick highlighted border: a Meiji-era official measuring
+a rice field with a chain, beside a stack of paper deeds labeled 地券,
+with a signboard reading 地租改正 and a green ○.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この文章が説明しているのが江戸時代の年貢からどんな仕組みへの転換か
+を確認します。次に、その仕組みの名称が「地租改正」という語と一致するかを
+照らし合わせます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地租改正で正しい
+
+--- PANEL 2（空欄②） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+改租図は地租改正時に作られた図
+Diagram: A labeled relationship diagram (single check, not a flowchart).
+An isometric old hand-drawn village parcel map unrolled on a desk, tagged
+改租図, drawn with a thick highlighted border and a green ○. An arrow
+labeled 地租改正時に作成 points from the map toward a modern registry map
+icon labeled 公図(現在).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この図面がいつ作成されたもの(地租改正の際)かを確認します。次に、
+その呼称が「改租図」という語と対応しているかを照らし合わせます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+通用する呼称
+
+--- PANEL 3（空欄③・誤り） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+保管先は税務署、市町村役場ではない
+Diagram: A correct-vs-mistaken comparison diagram with two stacked
+frames. Top frame, drawn small and in a muted gray tone with a small red
+✕, labeled 誤りやすい思い込み: a small town-hall building icon labeled
+市町村役場. Bottom frame, drawn large with a thick highlighted border and
+a green ○, labeled 正しい保管先: a tax-office building icon labeled
+税務署, holding a bundle of maps labeled 土地台帳附属地図, with a short
+arrow leading to a small registry building icon labeled 登記所
+(昭和25年に移管).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地台帳附属地図の正本がどこに保管されていたかを確認します。次に、
+その保管先が「市町村役場」ではなく「税務署」であったことと照らし合わせ
+ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保管先は税務署
+
+--- PANEL 4（空欄④・誤り） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+表示事項は位置・形状・地番の3つ
+Diagram: A correct-vs-mistaken comparison diagram with two stacked
+frames. Top frame, drawn large with a thick highlighted border and a
+green ○, labeled 正しい表示事項: a parcel map sheet with three green ○
+tags reading 位置・形状・地番. Bottom frame, drawn small and in a muted
+gray tone, labeled 誤りやすい思い込み: a compass rose icon labeled 方位
+with a small red ✕ over it and a label 表示事項に含まれない.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図に準ずる図面の表示事項として条文が挙げているのは何かを確認し
+ます。次に、その3つ(位置・形状・地番)の中に「方位」が含まれていないこと
+と照らし合わせます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+方位は含まれない
+
+--- PANEL 5（空欄⑤） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+地図に準ずる図面は公図の現在の呼び名
+Diagram: A labeled relationship diagram (single check, not a flowchart).
+An isometric registry counter with two sheets held up side by side; the
+left sheet is tagged 地図(正確な測量に基づく), and the right sheet, drawn
+with a thick highlighted border and a green ○, is tagged 地図に準ずる
+図面(公図) with a small tag 平成5年改正で法律上の根拠.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この図面が「地図」そのものではなく、それに準ずるものとして扱われ
+ていることを確認します。次に、その呼称「地図に準ずる図面」が条文上の正
+式な名称と一致するかを照らし合わせます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+法律上の正式名称
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法14条4項・5項(地図に準ずる図面の根拠及び表示事項)。①〜③は
+史実に基づく整理。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 図・税・務・署・地・番・登・記・改・
+所・租・券・準・状. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+panels 3 and 4 render the correct word (税務署 / 位置・形状・地番) as the
+large, highlighted element and the wrong word (市町村役場 / 方位) only as
+a small, muted, crossed-out element, that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 空欄, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```

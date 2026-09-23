@@ -198,3 +198,216 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry desks, application
+documents, official stamps, calendar icons, office buildings, and speech
+bubbles. Panel 3（肢ウ）must be drawn as a genuine two-diamond decision
+flowchart, because the requirement it tests is really two separate
+elements joined by「かつ」in the source rule — do not compress them into
+one check: (1) 依頼を受ける以前から申請人の氏名及び住所を知っていること,
+and (2) 親族関係・1年以上の取引関係その他の安定した継続的な関係があること.
+Panel 5（肢オ）shares the same root branching point as Panel 3 — both
+answer the question「どんな事情があれば『面識があるとき』に当たるか」— but
+takes the OTHER route through that shared tree (過去に本人確認情報を提供
+した実績があること, a single check rather than two). In Panel 3, render
+the「過去の実績」route in a faded, greyed-out style since it is not this
+panel's branch; in Panel 5, render the「依頼前からの継続的関係」two-diamond
+route in a faded, greyed-out style instead, since it is not this panel's
+branch. Panel 4（肢エ）uses a side-by-side comparison frame（対比枠型）
+rather than a flowchart, since the point of this 肢 is that two different
+people can equally serve as the 面談 partner, not a sequential condition.
+Panels 1 and 2 are resolved by a single check each and should use a
+labeled illustrative diagram or a simple one-diamond flowchart rather
+than a forced multi-step tree. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認しま
+す"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not merge the two distinct elements
+of Panel 3's requirement into one check.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成25年度午後第6問 ア〜オ
+作図ガイド（本人確認情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+資格者証明も同時に提出する
+Diagram: An isometric registry counter. A 土地家屋調査士 character（資格者
+代理人）hands two documents together to a registry officer: one labeled
+本人確認情報 and one labeled 資格者代理人であることを証する情報, clipped
+together with a paperclip icon. A single diamond node: 資格者証明の情報も
+あわせて提出したか？with a はい arrow leading to a conclusion node reading
+本人確認情報として受理される.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、本人確認情報だけでなく、自分が登記の申請の代理を業とすることができ
+る資格者代理人であることを証する情報も、あわせて提出しているかを確認しま
+す。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+添付も必須
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+却下でなくまず事前通知に進む
+Diagram: An isometric 登記官 character holding a document labeled 本人
+確認情報 with a question-mark thought bubble above it. A single diamond
+node: 登記官は内容を相当と認めることができるか？with a いいえ arrow
+(highlighted, this is this panel's branch) leading NOT to a red 却下 stamp
+(shown crossed out) but to an envelope icon labeled 事前通知 and a
+conclusion node reading 却下されず事前通知の手続に進む; render the はい
+branch in a faded, greyed-out style leading to a faded conclusion node
+reading 通常どおり本人確認情報により手続が進む.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記官が本人確認情報の内容を相当と認めることができるかどうかを確認
+します。相当と認めることができない場合であっても、直ちに申請が却下される
+のではなく、次に事前通知など通常の本人確認の手続に進みます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+却下より通知
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+氏名住所を知り継続関係あれば面識あり
+Diagram: A decision-tree flowchart. Start node: どんな事情があれば「面識が
+あるとき」に当たるか（分岐点、共有 with Panel 5）with two branches: 過去の
+実績のルート rendered in a faded, greyed-out style (not this panel's
+branch, see Panel 5), and 依頼前からの継続的関係のルート rendered with a
+thick highlighted border (this panel's branch), leading to two sequential
+diamond nodes. First diamond node (thick highlighted border): 依頼を受け
+る以前から申請人の氏名及び住所を知っているか？with a はい arrow proceeding
+downward. Second diamond node (thick highlighted border): 親族関係・1年
+以上の取引関係その他の安定した継続的な関係があるか？with a はい arrow
+leading to a conclusion node reading 面識があるときに当たる, illustrated by
+a 資格者代理人 character and a client character standing together with a
+timeline behind them stretching back over a year labeled 1年以上の取引
+関係.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、依頼を受ける以前から申請人の氏名及び住所を知っているかを確認しま
+す。次に、親族関係や1年以上にわたる取引関係など、安定した継続的な関係が
+あるかを確認し、両方を満たせば「面識があるとき」に当たります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+二つそろって面識あり
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+代表者以外との面談でも要件を満たす
+Diagram: A side-by-side comparison frame（対比枠型）on an isometric office
+building icon labeled 法人B. Left frame: the 資格者代理人 meeting a 代表者
+character, with a green checkmark. Right frame: the 資格者代理人 instead
+meeting a 権限を与えられた担当者 character, also with a green checkmark.
+Both frames point to the same conclusion node reading 本人確認情報の要件
+を満たす.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、法人が申請人である場合、面談の相手が代表者本人に限られるわけではな
+いことを確認します。代表者から相応の権限を与えられた者との面談でも、本人
+確認情報の提供要件を満たすことができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代表者以外も可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+半年前の提供実績も面識あり扱い
+Diagram: A decision-tree flowchart. Start node: どんな事情があれば「面識が
+あるとき」に当たるか（分岐点、共有 with Panel 3）with two branches: 依頼前
+からの継続的関係のルート rendered in a faded, greyed-out style (not this
+panel's branch, see Panel 3), and 過去の実績のルート rendered with a thick
+highlighted border (this panel's branch). A single diamond node (thick
+highlighted border): 過去に同一人から依頼を受けて本人確認情報を提供した
+実績があるか？with a はい arrow leading to a conclusion node reading 面識
+があるときに当たる, illustrated by an isometric calendar icon showing a
+marked date labeled 半年前 with a small document icon labeled 本人確認
+情報, connected by a dashed line to today's date.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、今回の申請人について、過去に本人確認情報を提供して登記の申請をした
+実績があるかを確認します。半年前の合筆登記の依頼のように実績がある場合
+は、その実績をもって「面識があるとき」に当たります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+過去の実績も有効
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則72条（本人確認情報として明らかにすべき事項・面談の相手・
+面識の基準）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 資・格・続・継・権・談・却 and any
+character with a visually similar Simplified or Traditional Chinese
+variant. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that 肢ウ is drawn as a genuine
+two-diamond flowchart with its two distinct required elements kept
+separate rather than merged into one check, that Panels 3 and 5 clearly
+render their shared branching point with the relevant branch highlighted
+and the other branch faded and greyed out, that each 着眼点 callout states
+a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

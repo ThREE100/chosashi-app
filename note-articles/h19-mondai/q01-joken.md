@@ -225,6 +225,8 @@ tag, at a glance.
 
 ## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
 
+各肢について、問題文を読んだ瞬間に何を確認し、どんな図を描けば正誤にたどり着けるかを、通し番号バッジ・見出し・Diagram・着眼点コールアウト・結論タグの4要素で示す5枚組みの作図ガイドです。肢ア（遡及効の特約の有無という1段階の判定）はタイムライン型、肢イ・肢エ（既成条件／随意条件のいずれも最終的に「停止条件か解除条件か」を確認する2段階判定で、後段の分岐を共有する）は決定木型、肢ウ（既成条件の処理との混同を見分ける）は対比枠型、肢オ（妨害者の属性と故意という2つの要件を両方満たす必要がある）は2段階の決定木型で構成しています。
+
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
@@ -235,84 +237,71 @@ pattern, in the right order" study reference) rather than a
 quick-reference conclusion poster.
 
 DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
-reader exactly what diagram they should draw on scratch paper while
+reader exactly what diagram they should sketch on scratch paper while
 reading this type of problem, AND the order in which they should check
-conditions to get there - isometric contract documents, calendar pages,
-trophy podiums, boundary markers/fences, antique gift boxes, and repair
-tool icons, adapted per panel. Where a 肢 requires checking multiple
-conditions in sequence before reaching a conclusion, draw the panel's
-diagram as an actual decision flowchart: diamond-shaped branch nodes with
-the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
-conclusion node. Where a 肢 is resolved by a single check, a labeled
-illustrative diagram is sufficient - do not force a flowchart. Panels 2
-and 4 (肢イ・肢エ) share the same second-level branch-node shape: a
-diamond asking whether the condition at issue is a 停止条件 or a 解除条件,
-even though each panel reaches that diamond through a different
-first-level check (既成条件か否か for Panel 2, 随意条件か否か for Panel 4).
-Render each panel's own relevant branch (停止条件 for Panel 2, 解除条件 for
-Panel 4) with a thick highlighted border and full color, and render the
-other, unrelated branch in a faded, greyed-out, or dotted-outline style
-rather than omitting it. Panel 3 (肢ウ) is not a sequential flowchart but a
-side-by-side comparison of two different legal frameworks (既成条件の処理
-と不法条件の処理); draw it as two boxes, left and right, with the
-framework that actually applies to this fact pattern rendered in full
-color with a thick border, and the framework that does NOT apply rendered
-faded, greyed-out, or dotted-outline, so the reader can see at a glance
-which framework governs. Unlike a glanceable summary poster, each panel
-MAY include a short「着眼点」callout box with 1-2 sentences that state the
+conditions to get there - isometric calendar pages and a trophy podium
+for the timing question in Panel 1, contract documents with a small rain
+cloud for Panel 2, a boundary marker/fence stake at night for Panel 3, an
+antique clock offered as a gift for Panel 4, and a repair workshop with
+tools for Panel 5, adapted per panel. Panel 1 (肢ア) is resolved by a
+single check (whether the contract text contains a special rescission
+agreement), so render it as a two-tier timeline comparison rather than a
+diamond flowchart, with small numbered step markers (①②) placed beside
+each timeline bar so the checking order is still visible without forcing
+an artificial flowchart. Panels 2 and 4 (肢イ・肢エ) each require two
+sequential checks and share the same second-level diamond shape and
+position - a diamond asking whether the condition at issue is a 停止条件
+or a 解除条件 - even though each panel reaches that diamond through a
+different first-level check (既成条件か否か for Panel 2, 随意条件か否か for
+Panel 4). Render each panel's own relevant branch (停止条件 for Panel 2,
+解除条件 for Panel 4) with a thick highlighted border and full color, and
+render the other, unrelated branch in a faded, greyed-out, or
+dotted-outline style rather than omitting it. Panel 3 (肢ウ) is not a
+sequential flowchart but a side-by-side comparison of two different legal
+frameworks (不法条件の処理と既成条件の処理); draw it as two boxes, left
+and right, with the framework that actually applies to this fact pattern
+rendered in full color with a thick border, and the framework that does
+NOT apply (the one 学生ウ mistakenly assumed) rendered faded, greyed-out,
+or dotted-outline. Panel 5 (肢オ) requires two distinct conditions to both
+be true before the conclusion follows, so render it as two sequential
+diamonds, both drawn with a thick highlighted border and full color since
+both checks matter equally, and add a small faded side-branch off each
+diamond showing what would happen if that one condition were absent, so
+the reader sees that dropping either requirement changes the outcome. No
+branch arrow anywhere in this set should loop back to an earlier node -
+every branch must lead forward to its own conclusion node, whether
+highlighted or faded. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
 checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
 just the conclusion. Do not include case or precedent numbers
 (article/regulation numbers are fine); keep the callout text as written
 below verbatim, and keep every condition each callout describes faithful
 to the article's own body text - do not drop or merge a required element
-(keep the two elements 条件成就によって不利益を受ける当事者による妨害である
-ことand その妨害が故意によるものであることas two distinct checks in Panel
-5).
-
-ILLUSTRATION REQUIREMENT (critical): This is an ILLUSTRATED study
-poster, not a plain flowchart sheet. EVERY one of the 5 panels must
-contain a clearly visible isometric illustration made of characters
-and/or objects, drawn in friendly flat-design style. Give each panel a
-two-part layout: the illustrated scene on the left (about 40 percent of
-the panel width) and the decision flowchart or comparison boxes on the
-right (about 60 percent). A panel that contains only diamonds and boxes,
-with no illustrated scene, is a defect and must be redrawn. The
-illustrations are: Panel 1 = two people and a contract document beside a
-calendar with a backward arrow from the 優勝 page to the 4月 page; Panel
-2 = two people signing a contract while a small rain cloud already
-sprinkles above them; Panel 3 = a person secretly moving a boundary
-stake on a plot of land at night, with a large red 無効 stamp on the
-contract; Panel 4 = a person handing an antique clock as a gift to
-another person; Panel 5 = an isometric repair workshop where a person
-hides a repair tool behind his back while another person waits.
-
-HEADER REQUIREMENT (critical): The large 2-line title and the 2-line
-subtitle given under HEADER must be drawn at the very top of the image,
-in large bold type, above Panel 1. Do not omit or shrink them into a
-panel heading.
-
-CONTENT REQUIREMENT (critical): Panel 5 is about 条件成就の妨害 under
-130条1項 (a party who would be harmed by the condition being fulfilled
-intentionally obstructs it, so the other party may treat the condition as
-fulfilled). It is NOT about 不法条件 (132条), which belongs only to Panel
-3. Every panel must use exactly the heading, 着眼点 callout text,
-conclusion node text and conclusion tag written below; do not replace
-them with your own wording.
+(keep 不利益を受ける当事者(H)自身による妨害であること and その妨害が故意に
+よるものであること as two distinct checks in Panel 5).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
-below verbatim - do not paraphrase, translate, summarize, or substitute
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
-parentheses ( ) consistently - never open a parenthetical with a
+parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
-supports transparency. Fill the full canvas - including every corner and
-margin outside the panels - with a solid or illustrated opaque background
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
 (the pale beige/gray tone used elsewhere in this style is a good
 default). There must be no checkerboard pattern, no partially transparent
 area, and no unpainted canvas edge anywhere in the final image.
@@ -324,7 +313,7 @@ Title (large, bold, 2行):
 
 Subtitle (smaller, centered, 2行):
 平成19年度午前第1問 ア〜オ
-作図ガイド（法律行為の条件）
+作図ガイド(法律行為の条件)
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -332,45 +321,51 @@ Subtitle (smaller, centered, 2行):
 --- PANEL 1（肢ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
-原則だけでなく特約の有無を見る
-Diagram: An isometric scene with a small rectangular note card reading
-127条1項の原則：停止条件は成就時から効力発生 sitting beside a contract
-document. Below it, a diamond-shaped decision node asks 契約に遡及効の
-合意はあるか. The はい branch (drawn with a thick highlighted border and
-full color, since this fact pattern actually has such an agreement) shows
-a calendar with a bold arrow curving backward from a「優勝」page to an
-earlier「4月」page, ending at a green checkmark conclusion node reading
-127条3項により4月分から請求できる. The いいえ branch (drawn faded,
-greyed-out, and dotted-outline, since it is not this fact pattern) leads
-to a smaller faded conclusion node reading 成就した時からのみ請求できる.
+特約があれば4月分まで遡って請求できる
+Diagram: A vertical stack of two horizontal timeline bars, set on an
+isometric scene with a trophy podium and calendar pages, both bars
+running left-to-right from a 4月 calendar page to a 優勝 trophy-podium
+moment. A small numbered marker ① beside the top bar reads 127条1項の原則
+を確認; this top bar is drawn faded, greyed-out, and dotted-outline, with
+the effect-start point marked only at the 優勝 moment and a small ✕ mark
+over the 4月-to-優勝 stretch labeled 効力なし. A small numbered marker ②
+beside the bottom bar reads 特約の有無を確認; this bottom bar is drawn in
+full color with a thick highlighted border (since this fact pattern
+actually has such a special agreement), with a bold arrow curving
+backward from the 優勝 trophy podium all the way to the 4月 calendar page,
+coins/money icons flowing onto the 4月 page, and a conclusion label at
+the 4月 end reading 127条3項により4月分から請求できる. A small connecting
+label between the two bars reads 特約が原則に優先.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、学生の解答が127条1項の原則(停止条件は成就した時から効力を生ずる)だけ
-を述べていないかを確認します。次に、契約の文言に127条3項の遡及効の合意
-(条件成就前の時点まで遡らせる意思表示)があるかを確認し、合意があればその
-合意が原則に優先します。
+まず、127条1項の原則(停止条件は成就した時から効力を生ずる)だけで判断して
+いないかを確認します。次に、契約の文言に127条3項の遡及効の特約(条件成就
+前の時点まで遡らせる意思表示)があるかを確認し、特約があればその特約が原則
+に優先します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-合意があれば4月に遡る
+特約優先で4月から可能
 
 --- PANEL 2（肢イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
-既に起きていた条件は無条件で有効
+既に起きていた停止条件は無条件で有効
 Diagram: A decision-tree flowchart on an isometric scene of two people
 signing a contract while a small rain cloud already sprinkles light rain
-above them. First diamond node: 契約締結時に、条件とした事実は既に発生し
-ていたか(既成条件か). A はい arrow proceeds downward to a second diamond
-node (drawn with a thick highlighted border and full color, since this is
-the branch this panel is about): その条件は停止条件か、解除条件か. The
-停止条件 branch is highlighted in full color and leads to a green
-checkmark conclusion node reading 131条1項により無条件・有効. The 解除条件
-branch is drawn faded, greyed-out, and dotted-outline (it is Panel 4's
-branch, not this panel's) and leads to a small faded conclusion node
-reading 131条1項により無効.
+above them. First diamond node: 契約締結時に、条件とした事実はすでに発生
+していたか(既成条件か). A はい arrow (thick highlighted border, full
+color, since this is the fact pattern) proceeds downward to a second
+diamond node: その条件は停止条件か、解除条件か. A small faded いいえ arrow
+from the first diamond leads sideways to a small faded box reading 通常の
+停止条件のルール(127条)が適用される. At the second diamond, the 停止条件
+branch is highlighted in full color and leads to a green checkmark
+conclusion node reading 131条1項により無条件として最初から有効. The 解除
+条件 branch is drawn faded, greyed-out, and dotted-outline and leads to a
+small faded conclusion node reading 131条1項により無効(このケースではな
+い).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、契約を締結した時点で、条件とした事実がすでに発生していた既成条件の
-ケースかどうかを確認します。次に、その条件が停止条件か解除条件かを確認し
-ます。停止条件であれば131条1項により無条件・有効になります。
+まず、契約を結んだ時点で、条件とした事実がすでに発生していた既成条件の
+ケースかどうかを確認します。次に、その条件が停止条件か解除条件かを確認
+し、停止条件であれば131条1項により無条件・有効になります。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 既成の停止条件は有効
@@ -378,48 +373,50 @@ characters):
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
-既成条件の話と混同しない
+境界を偽装する条件は契約ごと無効になる
 Diagram: A side-by-side comparison of two framework boxes on an isometric
 background. The left box (drawn with a thick highlighted border and full
 color, since this is the framework that actually applies) is labeled
-132条：不法条件 and shows a nighttime scene of a person secretly moving a
+132条:不法条件 and shows a nighttime scene of a person secretly moving a
 boundary marker/fence stake on 甲土地 with a red prohibition icon nearby,
 and a large red 無効 stamp pressed across the ENTIRE contract document.
 The right box (drawn faded, greyed-out, and dotted-outline, since it does
-NOT apply here) is labeled 131条：既成条件 and shows a simplified icon of
+NOT apply here) is labeled 131条:既成条件 and shows a simplified icon of
 a contract where only the condition clause is crossed out while the rest
 of the document still carries a small 有効 stamp, representing the
-processing that 学生ウ's answer mistakenly assumed applies.
+processing that 学生ウ's answer mistakenly assumed applies. A small ✕
+label with an arrow points from the right box to the left box, reading
+この処理ではない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この契約に付いている条件が、既に成就していた条件(既成条件)なのか、
-それとも内容自体が違法な条件(不法条件)なのかを見分けます。境界標を無断で
-移設するという行為は他人の権利を害する不法な行為にあたるため、既成条件
-(131条)の話ではなく、不法条件(132条)の話として処理しなければなりません。
+まず、この条件が既に成就していた条件(既成条件)なのか、それとも内容自体が
+違法な条件(不法条件)なのかを見分けます。境界標を無断で移設する行為は他人
+の権利を害する不法行為にあたるため、既成条件(131条)の話ではなく、不法条件
+(132条)の話として処理しなければなりません。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-契約全体が無効(132条)
+契約全体が無効
 
 --- PANEL 4（肢エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
-随意条件でも解除条件なら無効にならない
+気まぐれの解除条件でも贈与契約は有効
 Diagram: A decision-tree flowchart on an isometric scene of a person
 handing an antique clock as a gift to another person. First diamond node:
-この条件は随意条件(債務者の意思のみに係る条件)か. A はい arrow proceeds
-downward to a second diamond node, drawn in the same shape as Panel 2's
-second diamond (drawn with a thick highlighted border and full color,
-since this is the branch this panel is about): その随意条件は停止条件か、
-解除条件か. The 解除条件 branch is highlighted in full color and leads to
-a green checkmark conclusion node reading 134条の対象外、契約は無効になら
-ない. The 停止条件 branch is drawn faded, greyed-out, and dotted-outline
-(it is Panel 2's branch, not this panel's, and is also the case where
-134条 WOULD invalidate the contract) and leads to a small faded conclusion
-node reading 134条により無効.
+この条件は随意条件(債務者の意思のみに係る条件)か. A はい arrow (thick
+highlighted border, full color) proceeds downward to a second diamond
+node, drawn in the same diamond shape and position as Panel 2's second
+diamond node: その随意条件は停止条件か、解除条件か. The 解除条件 branch is
+highlighted in full color and leads to a green checkmark conclusion node
+reading 134条の対象外、契約は無効にならない. The 停止条件 branch is drawn
+faded, greyed-out, and dotted-outline (this is Panel 2's own branch, and
+also the case where 134条 actually WOULD invalidate the contract) and
+leads to a small faded conclusion node reading 134条により無効(このケース
+ではない).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この条件が「Fの気が変わったら」という債務者の意思のみに係る随意条件
-であることを確認します。次に、その随意条件が停止条件か解除条件かを確認し
-ます。134条が無効とするのは停止条件付きの随意条件に限られるため、本問の
-ような解除条件であれば契約は無効になりません。
+まず、この条件が「Fの気が変わったら」という、債務者の意思のみに係る随意
+条件であることを確認します。次に、その随意条件が停止条件か解除条件かを
+確認し、134条が無効とするのは停止条件付きの随意条件に限られるため、解除
+条件であるこの契約は無効になりません。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 解除条件は無効にならない
@@ -427,59 +424,66 @@ characters):
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
-妨害者の属性と故意の両方を確認する
+不利益を受ける本人が故意に妨げれば成就
 Diagram: A decision-tree flowchart on an isometric repair workshop scene.
-First diamond node (drawn with a thick highlighted border and full
-color): 条件が成就すると不利益を受ける当事者(H)自身による妨害か. A はい
-arrow proceeds downward to a second diamond node (also drawn with a thick
-highlighted border and full color, since both checks matter equally):
-その妨害は故意によるものか. The はい branch shows H secretly hiding I's
-repair tool behind his back with a red X mark over the sabotage act, and
-leads to a green checkmark conclusion node reading 130条1項により成就した
-ものとみなす. A separate faded, greyed-out, dotted-outline side branch
-shows what would happen if the delay were merely accidental (labeled
-過失による遅延), leading to a small faded box reading この場合は130条1項
-の対象外, to show this branch is not what happened here.
+First diamond node (thick highlighted border, full color): 妨害したの
+は、条件が成就すると不利益を受ける当事者(H)自身か. A はい arrow proceeds
+downward to a second diamond node (also thick highlighted border, full
+color, since both checks matter equally): その妨害は故意によるものか. The
+はい branch shows H secretly hiding I's repair tool behind his back with a
+red ✕ mark over the sabotage act, and leads to a green checkmark
+conclusion node reading 130条1項により、条件は成就したものとみなされる. A
+faded, greyed-out, dotted-outline いいえ branch from the second diamond
+shows a calendar with a simple delay icon labeled 過失による遅延, leading
+to a small faded box reading 故意でなければ130条1項の対象外. A separate
+faded, greyed-out, dotted-outline いいえ branch from the first diamond
+shows a different person (not H) touching the tools, leading to a small
+faded box reading 妨害者が本人以外なら130条1項の対象外.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、条件の成就によって不利益を受ける当事者(H)自身が妨害をしたのかを確認
-します。次に、その妨害が故意によるものかを確認します。この2つがそろって
-初めて、130条1項により相手方(I)は条件が成就したものとみなすことができ
-ます。
+します。次に、その妨害が故意によるものかを確認します。この2つの要件が
+そろって初めて、130条1項により相手方(I)は条件が成就したものとみなすこと
+ができます。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-故意の妨害で成就とみなす
+故意の妨害は成就とみなす
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法127条1項・3項(停止条件の効力発生時期と遡及効の合意)・130条1項(条件成就
-の妨害)・131条1項(既成条件)・132条(不法条件)・134条(随意条件)に基づく整理
-です。
+この作図ガイドは、民法127条1項・3項(停止条件の効力発生時期と遡及効の特約)、
+130条1項(条件成就の妨害)、131条1項(既成条件)、132条(不法条件)、134条(随意
+条件)の各規定に基づいて整理しています。
 
-Final check before rendering: first confirm that the large title and
-2-line subtitle are drawn at the very top, that EVERY panel contains an
-isometric illustration with characters or objects (no panel is a bare
-flowchart), and that Panel 5 is about 条件成就の妨害 (130条1項) and not
-不法条件. Then scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 遡, 既, 随, 妨, 害, 効 and any character that has a visually
-similar Simplified Chinese variant. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 遡, 既, 随, 妨, 害, 効, and 請. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that every multi-condition 肢 (肢イ・肢エ・肢オ)
-is drawn as an actual flowchart with branch nodes (not a bare illustration
-with no visible decision structure), that no 肢 with a genuinely hidden
-second condition has been flattened into a single check (Panel 5 keeps
-妨害者の属性 and 故意 as two distinct checks), that each 着眼点 callout
-states a checking order rather than only a conclusion and keeps every
-required element from the source article distinct (no merged or dropped
-requirements), that Panels 2 and 4 clearly distinguish their own
-highlighted 停止条件／解除条件 branch from the other, faded branch, that
-Panel 3's two comparison boxes clearly distinguish the framework that
-applies (full color) from the one that does not (faded), confirm nothing
-is rendered below the last panel's footnote text (no summary recap panel,
-no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
-additional text block of any kind), and confirm the entire canvas, edge
-to edge, is filled with a fully opaque background with no transparency or
-alpha channel anywhere.
+is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that no 肢 with a
+genuinely hidden second condition has been flattened into a single check
+(Panel 5 keeps 不利益を受ける当事者(H)自身による妨害であること and その
+妨害が故意によるものであること as two distinct diamond checks), that each
+着眼点 callout states a checking order rather than only a conclusion and
+keeps every required element from the source article distinct (no merged
+or dropped requirements), that any panel sharing a decision tree with
+another panel clearly distinguishes its own highlighted branch from the
+other, faded branches (Panels 2 and 4 both use the same 停止条件/解除条件
+second-level diamond shape, each highlighting only its own branch), that
+Panel 1's two-tier timeline clearly distinguishes the faded 127条1項の
+原則 bar from the highlighted 127条3項の特約 bar, that Panel 3's two
+comparison boxes clearly distinguish the framework that applies (full
+color) from the one that does not (faded), confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
