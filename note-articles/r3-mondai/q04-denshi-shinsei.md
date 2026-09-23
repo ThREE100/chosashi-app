@@ -218,3 +218,215 @@ between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
 a short heading + a short conclusion tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric computer terminals labeled 電子情報
+処理組織, scanned paper document icons, a registry office (登記所)
+building icon, a walking figure carrying a briefcase alongside a mail
+delivery truck for 持参／送付, hanko/seal stamp icons for 電子署名, and a
+small report-paper icon labeled 調査士報告. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. This article's five 肢 do not share a single common
+decision-tree shape, so design each panel's diagram independently around
+its own fact pattern; where a branch of a decision tree represents a path
+that does not actually apply to this panel's fact pattern, render that
+branch and its conclusion node in a faded, greyed-out, dotted-outline
+style rather than omitting it, so the reader can see at a glance that it
+was considered and ruled out. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認し
+ます"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度午後第4問 ア〜オ
+作図ガイド（電子申請の手続ルール）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+登記識別情報はシステム入力に限られる
+Diagram: A two-tier contrast panel (正しい方法／誤った思い込み). Upper
+half labeled「正しい方法」: an isometric figure typing a password-like
+code labeled「登記識別情報」directly into a computer terminal tagged
+「電子情報処理組織」, with a green checkmark. Lower half labeled「誤った
+思い込み」: the same figure instead scanning a paper document labeled
+「登記識別情報通知書」with a scanner, then stamping the resulting
+electronic record with a hanko/seal icon labeled「調査士の電子署名」and
+trying to send it — a large red「✕」is overlaid on this entire lower
+scene.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記識別情報の提供方法が電子情報処理組織を使用した入力に限定され
+ているかを確認します。次に、書面をスキャンして調査士の電子署名を付す
+方法で代用できないかを確認し、それはできないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+スキャン提供は不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+特例書面は持参・送付どちらも可能
+Diagram: A layout-map scene. A registry office (登記所) building icon
+sits at the center, with a small tag nearby reading「特例方式(附則5条)の
+添付書面」. Two arrows converge on the same entrance: from the left, a
+walking figure carrying the document labeled「持参」; from the right, a
+mail delivery truck labeled「送付」. Both arrows reach the entrance
+cleanly with no red「✕」anywhere in the scene, showing both routes are
+open.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この書面が不動産登記令附則5条の特例(特例方式)による添付書面か
+どうかを確認します。次に、提出方法を持参に限定する規定があるかを確認
+し、そのような制限はないため、持参・送付のどちらでもよいと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+持参・送付 どちらも可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+委任状の電子署名は申請人本人のみ有効
+Diagram: A decision-tree flowchart. Start node:「電磁的記録にした添付
+情報(委任状)を作成したのは誰か？」leading to a label「申請人自身」. This
+leads to a diamond branch node:「その情報は、申請人・代表者・代理人が
+自ら作成した情報として、令13条1項の特例の対象から除外されているか？」
+Two branches: はい（本問はこちら）leads to a conclusion node showing 申請人
+自身がタブレット上の電磁的記録に電子印鑑(電子署名)を押すアイコンで、
+「原則どおり、作成者(申請人)本人の電子署名が必要」と記され、傍らに
+調査士が別の印鑑を押そうとして小さな赤い「✕」で止められているアイコン
+を添える。いいえ（本問には当てはまらない経路）leads to a conclusion
+node reading「スキャンした者の電子署名で足りる」— render this いいえ
+branch and its conclusion node in a faded, greyed-out, dotted-outline
+style to show it does not apply to this fact pattern.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、電磁的記録にした委任状を作成したのが誰かを確認します。次に、その
+情報が申請人自身の作成した情報として特例(令13条1項)の対象から除外され
+ていないかを確認し、除外されている本問では、原則どおり作成者本人の電子
+署名が必要と判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+本人の電子署名 必須
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+報告書を添えれば原本提示は省略できる
+Diagram: A decision-tree flowchart with three sequential diamond nodes
+that must all be satisfied together. Node 1:「調査士が委任状原本を確認
+したうえでスキャンして電磁的記録を作成したか？」いいえ branch leads to a
+conclusion node「原本提示が必要」; はい proceeds to Node 2:「その電磁的
+記録に調査士の電子署名を付したか？」いいえ branch leads to the same
+「原本提示が必要」conclusion node; はい proceeds to Node 3:「作成過程を
+記録した『調査士報告』を、申請情報と併せて提供したか(調査士報告方式)？」
+いいえ branch leads again to「原本提示が必要」; はい leads to a final
+conclusion node showing 調査士が原本の紙書類を持たずに登記所の窓口から
+離れて立つアイコンに緑のチェックマークを添え、「原本提示を省略できる」
+と記す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、調査士が委任状原本を確認してスキャンしたか、次に電子署名を付した
+か、最後に作成過程を記録した「調査士報告」を申請情報と併せて提供したか
+(調査士報告方式)を、この順番で確認します。三つすべてを満たして初めて、
+原本提示を省略できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+原本提示 省略可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+取下げの方法は申請の方法に合わせる
+Diagram: A decision-tree flowchart. Start node:「合筆登記の申請を取り
+下げたい。その申請は、電子申請と書面申請のどちらでされたか？」A diamond
+branch node splits into two paths, both drawn with equal visual weight.
+電子申請 branch leads to a conclusion node showing a figure clicking a
+「取下げ」button on a computer screen tagged「電子情報処理組織」with a
+green checkmark, labeled「取下げも電子情報処理組織を使用する方法による」
+— beside it, a second small figure trying to hand a paper labeled「取下げ
+旨の書面」to a 登記所 window counter is marked with a red「✕」. 書面申請
+branch leads to a separate conclusion node showing a figure handing a
+paper document to the 登記所 window counter with a green checkmark,
+labeled「取下げは書面を登記所に提出する方法による」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、もとの合筆登記の申請が電子申請と書面申請のどちらでされたかを確認
+します。電子申請であれば、取下げも電子情報処理組織を使用する方法による
+必要があり、取下げの旨を記載した書面を登記所に提出する方法によることは
+できません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+書面での取下げ不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則66条1項1号（登記識別情報の提供方法）・不動産登記規則附則
+21条4項（特例方式書面の提出方法）・不動産登記令12条2項（添付情報の電子
+署名）・不動産登記令13条1項（表示に関する登記の添付情報の電子署名の特
+例。申請人等が自ら作成した情報を除く）・不動産登記規則39条1項1号・2号
+（取下げの方法）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・登・記・所・署. If any character renders as a
+Simplified Chinese variant, redraw that character in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢（肢ウ・肢エ・肢
+オ）is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that no 肢 with a
+genuinely hidden second condition (肢ウ) has been flattened into a single
+check, that each 着眼点 callout states a checking order rather than only
+a conclusion and keeps every required element from the source article
+distinct (no merged or dropped requirements), that panel 3's inapplicable
+「いいえ」branch and panel 5's two applicable branches are each rendered
+exactly as specified above (faded/dotted for the inapplicable branch,
+full color and equal weight for both applicable branches), confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
+and no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

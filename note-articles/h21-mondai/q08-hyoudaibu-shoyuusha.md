@@ -185,7 +185,7 @@ Conclusion tag (a short green banner/pill directly below the illustration):
 --- FOOTER ---
 
 KANJI ACCURACY WARNING: this poster contains the characters 題・諾・権・
-記・変・続・証・号 . These differ noticeably from their Simplified Chinese
+記・変・相・続・証・号 . These differ noticeably from their Simplified Chinese
 counterparts (題 must NOT become 题, 諾 must NOT become 诺, 権 must NOT
 become 权, 記 must NOT become 记, 変 must NOT become 变, 続 must NOT become
 续, 証 must NOT become 证). Draw each one in the Japanese form.

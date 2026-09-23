@@ -303,7 +303,7 @@ characters):
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
-請求先は補助者でなく本人と確認
+占有補助者でなく本人に請求
 Diagram: An isometric house icon on a land plot, with a main occupier
 figure Ｂ（labeled「無権利者・建物所有者」）and a smaller family figure
 Ｃ beside him labeled「占有補助者」; an arrow labeled「明渡し請求」points

@@ -116,9 +116,9 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割, which
-have simplified-Chinese lookalikes with different stroke forms — always
-draw the standard Japanese (Jōyō) form.
+kanji 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・家・庭・
+裁・判・所, which have simplified-Chinese lookalikes with different stroke
+forms — always draw the standard Japanese (Jōyō) form.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -209,9 +209,10 @@ Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially for
-相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割. If any
-character renders as a Simplified Chinese variant, redraw that character
-in the correct Japanese form. Confirm the number of cards equals 5
+相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・家・庭・裁・
+判・所. If any character renders as a Simplified Chinese variant, redraw
+that character in the correct Japanese form. Confirm the number of cards
+equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
@@ -438,8 +439,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割
-and any character that has a visually similar Simplified Chinese variant.
+attention to 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・
+家・庭・裁・判・所 and any character that has a visually similar Simplified
+Chinese variant.
 If any character renders as a Simplified Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro

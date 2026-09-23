@@ -321,7 +321,7 @@ characters):
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
-知っていたかどうかは結論を変えない
+取消せると知っていても取消し可能
 Diagram: An isometric young figure（未成年者）with a speech bubble
 containing a small document icon and a checkmark, representing「後で
 取り消せると知っていた」. Next to them, a green circle icon labeled
@@ -421,7 +421,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-催・告・追・認・保・佐・補・助・法・定・代・理 — always draw the standard
+催・告・追・認・保・佐・補・助・法・定・代・理・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -491,7 +491,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-催・告・追・認・保・佐・補・助・法・定・代・理. If any character renders
+催・告・追・認・保・佐・補・助・法・定・代・理・誤. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm there are exactly two side-by-side panels (red 直
 感的な誤解 on the left, green 条文が定める本当のルール on the right),

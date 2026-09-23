@@ -203,6 +203,184 @@ tag, at a glance.
 
 ---
 
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「誰の行為か（申出人か登記官か）」「何を確認する話か（義務・期限／地積との違い／他地への影響／保存行為）」を見抜けるようにする5パネル構成。②の俯瞰ポスターと同じ色分け（申出者側の話＝緑、登記官の職権・範囲の話＝青）を引き継ぎつつ、各肢を「まず何を確認するか」という手順で示す。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（「地図の
+訂正」どこまで自由にできる？）, but built as a set of 5 diagram-drawing
+panels (a "how to sketch this fact pattern, in the right order" study
+reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric land plot with boundary lines, a
+calendar icon for deadlines, a registry-office desk with an official
+figure（登記官）, a torn-paper 却下 stamp, two co-owner figures, and a
+joint-application document — adapt icon set to the topic of 地図の訂正.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
+Where a 肢 is resolved by a single check, a labeled illustrative diagram
+is sufficient — do not force a flowchart. Panel 3（肢ウ）does not use a
+flowchart at all; instead it uses a side-by-side comparison frame（LEFT:
+地図の区画、RIGHT: 登記記録の地積）because the point of that 肢 is
+distinguishing which of two different things is being discussed, not
+checking conditions in sequence. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認し
+ます"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第4問 ア〜オ
+作図ガイド（地図の訂正）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+申出は義務でなく期限も存在しない
+Diagram: An isometric figure（土地の表題部所有者又は所有権の登記名義人）
+looking at a land-plot map whose boundary line clearly differs from the
+actual site, with a surprised expression. Beside the figure, a calendar
+icon has a large red ✕ mark over it, and a speech bubble reads「義務では
+ない」in bold letters. No number or phrase suggesting "1か月" or「遅滞
+なく」appears anywhere in the panel.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この申出が義務なのか任意なのかを確認します。任意である以上、
+「1か月以内」のような期限も、「遅滞なく」のような期限も一切定められて
+いません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+義務でも期限もない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+登記官は申出なしでも職権で直せる
+Diagram: An isometric desk scene where a 登記官 figure compares a survey
+map and the land-plot map. A tray labeled「申出書」sits empty on the desk.
+The 登記官's own hand holds a pen and is directly correcting a line on
+the map.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、訂正をするのが申出人なのか登記官なのかを確認します。登記官は、
+所有者からの申出を待たずに、自分の権限（職権）だけで地図を訂正するこ
+とができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+職権でも訂正できる
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+地図の区画と登記記録の地積は別問題
+Diagram: A side-by-side comparison frame, NOT a flowchart. LEFT half
+labeled「地図の区画（形・位置）」: a land-plot outline whose boundary line
+visibly zigzags away from a faint dotted outline of the actual site shape,
+with a magnifying-glass icon highlighting the mismatch. RIGHT half
+labeled「登記記録の地積（面積の数値）」: a document showing「100㎡」with a
+green checkmark, matching correctly. A large arrow between the two halves
+is labeled「別々に確認する」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっているのが「地図の区画（形・位置）」の話なのか「登記
+記録の地積（面積の数値）」の話なのかを見分けます。地積が合っていても、
+区画の形がずれていれば訂正の申出はできます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地積とは別問題
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+他地に影響する訂正は却下される
+Diagram: An isometric scene of a single land-plot owner submitting a
+地図訂正の申出書 at a registry-office counter. A large red「却下」stamp
+is pressed on the document. In the background, a faint arrow shows that
+correcting this owner's boundary line would also shift the boundary line
+of the neighboring plot, whose owner figure is drawn faded with an ✕ mark
+labeled「関与なし」next to it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この訂正が申出人の土地だけでなく他の土地の区画・位置・形にも影響
+するかを確認します。影響が及ぶ場合、登記官はその申出に基づいて訂正する
+ことができず、却下しなければなりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+他地に影響なら却下
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+共有でも保存行為なら1人で申出可
+Diagram: An isometric land plot shared by two co-owner figures standing
+side by side. Only one of the two figures holds a 地図訂正の申出書 and
+walks toward the registry-office counter; the other figure remains in
+place, not participating. A small torn-paper label reading「保存行為」is
+attached near the submitting figure.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この申出が財産を処分する行為なのか、記録を正しく保つための保存
+行為なのかを確認します。保存行為にあたるため、共有者のうち1人だけでも
+申出をすることができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保存行為で単独可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則16条1項・2項・13項6号・15項、民法252条5項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 図, 訂, 正, 申, 出, 義, 務, 限, 録, 積, 却, 隣, 接, 存 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panel 3 is drawn
+as a side-by-side comparison frame rather than a flowchart, that each
+着眼点 callout states a checking order rather than only a conclusion and
+keeps every required element from the source article distinct, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+---
+
 ## インフォグラフィック プロンプト（エ肢・図解）
 
 エ肢の結論（他の土地まで巻き込む訂正は一方的な申出だけではできない）について、実際に地図の訂正を実現するための実務上の流れ（却下→筆界確認→共同申出）を3ステップの流れで見せる図解として構成した画像生成プロンプト。②問題全体のインフォグラフィックと同じ、縦長ポートレート・カラー・フラットデザイン・アイソメトリックの画風を採用している。

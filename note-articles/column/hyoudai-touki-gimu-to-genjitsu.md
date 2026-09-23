@@ -195,7 +195,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 属・棟・附・題・登・記・
-併・義・務 — always draw the standard Japanese (Jōyō) form.
+併・義・務・誤 — always draw the standard Japanese (Jōyō) form.
 
 --- HEADER ---
 Title (large, bold, 2行):

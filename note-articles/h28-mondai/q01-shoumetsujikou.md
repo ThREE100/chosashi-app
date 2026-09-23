@@ -366,7 +366,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 催, 猶, 予, 訴, 認, 弁, 済, 援, 進, 抹. If any character
+attention to 催, 猶, 予, 訴, 提, 起, 認, 弁, 済, 援, 進, 抹. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph

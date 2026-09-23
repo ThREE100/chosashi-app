@@ -193,7 +193,7 @@ Conclusion tag (a short blue banner/pill directly below the illustration):
 --- FOOTER ---
 
 KANJI ACCURACY WARNING: this poster contains the characters 廃・続・滅・
-譲・義・務・記・規・約 . These differ noticeably from their Simplified Chinese
+譲・義・務・記・規・約・相 . These differ noticeably from their Simplified Chinese
 counterparts (廃 must NOT become 废, 続 must NOT become 续, 滅 must NOT
 become 灭, 譲 must NOT become 让, 義 must NOT become 义, 務 must NOT become
 务, 記 must NOT become 记, 規 must NOT become 规, 約 must NOT become 约).

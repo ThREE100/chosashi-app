@@ -128,7 +128,8 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 相・続・承・認・放・棄・限・定・撤・回・熟・慮・差・押・善
+kanji 相・続・承・認・放・棄・限・定・撤・回・熟・慮・差・押・善・
+家・庭・裁・判・所
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
 
@@ -242,7 +243,7 @@ even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 相・続・放・棄・遺・産・分・割・対・抗・登・記・差・押・存・在・効・力・
-超・過 — always draw the standard Japanese (Jōyō) form.
+超・過・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -466,7 +467,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 相, 続, 承, 認, 放, 棄, 撤, 差 and any character that has a
+attention to 相, 続, 承, 認, 放, 棄, 撤, 差, 家, 庭, 裁, 判, 所 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the panel count equals 5 exactly, badge numbers

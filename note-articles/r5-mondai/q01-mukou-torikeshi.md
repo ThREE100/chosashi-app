@@ -296,7 +296,7 @@ characters):
 --- PANEL 2（肢イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
-追認は過去にさかのぼらないと確認
+追認しても遡って有効化しない
 Diagram: The shared horizontal-timeline shape described above. At the
 left end, a contract document icon stamped with a red「無効」seal
 （虚偽表示）. Partway along the timeline, a「追認」stamp icon appears, and
@@ -313,7 +313,7 @@ characters):
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
-取消しは過去にさかのぼると確認
+取消しは遡って無効になる
 Diagram: The shared horizontal-timeline shape described above (same
 layout as Panel 2, drawn with a thicker highlighted arrow since this is
 the branch this panel is about). At the left end, an intact green
@@ -354,9 +354,12 @@ Diagram: A decision-tree flowchart with two parallel timer branches
 starting from a single start node（取消権の発生）. Branch 1: an hourglass
 icon on a timeline marked「追認できる時から5年」。Branch 2: a longer
 hourglass icon on a timeline marked「行為の時から20年」。Both branches
-converge into a single diamond node reading いずれかが先に経過したか？
-with the はい branch leading to a red-stamped conclusion node reading
-時効によって消滅する。
+lead independently down into a single diamond node reading いずれかが先
+に経過したか？, which has exactly two distinct exit arrows and no arrow
+curving back to any earlier node in the diagram: a はい arrow leading to
+a red-stamped conclusion node reading 時効によって消滅する, and a
+separate いいえ arrow leading to its own plainly-colored（灰色または青、
+赤色にしない）conclusion node reading まだ消滅していない（取消権は存続）。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず「追認できる時から5年」のタイマーを確認し、次に「行為の時から20
 年」のタイマーを確認します。まだ追認できる状況になっていなくても、
@@ -381,7 +384,10 @@ the header and the panels, that Panels 2 and 3 visibly share the same
 timeline layout while differing only in whether the arrow reaches back to
 the starting point, that Panel 5 is drawn as an actual flowchart with two
 parallel timer branches converging at a diamond node (not a bare
-illustration with no visible decision structure), that each 着眼点
+illustration with no visible decision structure), that the diamond node
+has exactly two distinct exit arrows (はい and いいえ) each leading to its
+own separate conclusion node, with no arrow looping back from the diamond
+to any earlier node in the diagram, that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and

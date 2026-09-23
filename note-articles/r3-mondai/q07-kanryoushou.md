@@ -195,3 +195,210 @@ description（電話番号が記録される／3か月で廃棄される、な�
 correct — every card's takeaway must read as a short heading + a short
 conclusion tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+登記完了証の5肢について、「問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるか」を示す作図ガイド。肢アは「連絡先も記録されると思い込みがちだが実は違う」という誤りやすい思い込みを対比枠で正す正誤対比型、肢イは申請人の中に登記権利者側・登記義務者側の両方が含まれるか（共同申請か）という隠れた条件を2段階の決定木で示す型、肢ウ・肢エは単一チェックの手順を番号付きで示す配置図型・系統図型、肢オは電子申請（送信方式・30日）と書面申請（送付・交付方式・3か月）のどちらの場面かを見分ける決定木型にした。②のカードポスターとは別物であり、②の内容は変更していない。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric completion-certificate document
+sheets with stamps, common-mortgage list cards with a "記号／目録番号"
+label, isometric buildings with a nameplate ("〇〇マンション"), a phone
+receiver icon with a cross mark, isometric multiple co-applicants with an
+arrow to one representative, a computer screen with a file icon paired
+with a large calendar showing a day count, and a paper envelope icon for
+postal delivery — adapt the icon set to this topic panel by panel. Where
+a 肢 requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render the
+other, unrelated branches in a faded, greyed-out, or dotted-outline style
+rather than omitting them — the reader should be able to see at a glance
+which part of the shared tree this panel is about. Likewise, where a
+diagram must show an entity that conceptually never held the right or
+status in question (e.g. someone who was never an heir, or a claim that
+never existed), render that entity or claim in a faded or dotted-outline
+style rather than a plain ○/✕ mark, so the visual itself communicates
+"this was never really there," not just "this is wrong." Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep "善意" and "無過失" as two distinct
+checks if the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後の部 第7問 ア〜オ
+作図ガイド（登記完了証）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in red-orange containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+連絡先は完了証の記録事項に含まれない
+Diagram: 対比枠（正誤対比型）で左右2枠に分ける。左枠（グレー枠、上に赤い
+「思い込み」ラベル）には、申請情報の用紙に電話番号を書き込む手のアイソメ
+トリック図を描き、そこから登記完了証の書面へ矢印を伸ばして電話番号が転記
+される様子を描くが、その転記矢印全体に大きな赤い×印を重ねる。右枠（緑枠、
+上に「正しいルール」ラベル）には、登記完了証の書面を描き、その中に不動産
+登記規則181条2項の列挙事項（「登記の目的」「不動産の表示」等のラベル付き
+リスト）だけを並べ、電話の受話器アイコンはリストの外側に小さく描いて、
+リストの枠内には入っていないことを示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず不動産登記規則181条2項に列挙された記録事項のリストを思い浮かべ、次に
+電話番号などの連絡先がそのリストに載っているかを確認します。載っていない
+以上、申請情報に書いた連絡先でも完了証には記録されません。
+Conclusion tag (a short colored banner/pill, red-orange, 5-15 Japanese
+characters):
+連絡先は記録事項外
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+同じ立場の複数申請人は一人への通知で足りる
+Diagram: 決定木（フローチャート）。ひし形の分岐ノード①「申請人は二人以上
+いるか」を最上部に置き、土地を共有する複数人のアイソメトリック図を添える。
+「いいえ」矢印（薄いグレー）は結論ノード「その1人に通知（通常のケース）」
+へ進む。「はい」矢印（太い強調枠）は次のひし形の分岐ノード②「申請人の中に
+登記権利者側と登記義務者側の両方が含まれるか（共同申請か）」へ進む。ノード
+②の「はい」矢印（薄いグレー）は結論ノード「登記権利者側・登記義務者側から
+各一人（計2名）に通知」へ進む。ノード②の「いいえ」矢印（太い強調枠、この
+パネルの本題）は結論ノード（太い強調枠）「そのうちの一人に通知すれば足りる
+（本肢はこのケース）」へ進む。共有者3人のうち代表者1人にだけ登記完了証が
+手渡される図をこの結論ノードに添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず申請人が二人以上いるかを確認し、次に登記権利者側と登記義務者側の両方が
+含まれる共同申請かどうかを確認します。表示に関する登記のように同じ立場の
+共有者が複数いるだけの場合は、そのうちの一人に通知すれば足ります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+同じ立場なら一人で足りる
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+共同担保目録を新設したら記号と番号を記録
+Diagram: 配置図型。担保権が設定された1筆の土地（既存の共同担保目録Aに
+記録済み）をアイソメトリックに描き、分筆線で2筆の土地に分かれる様子を示す。
+分かれた土地の脇に番号付きチェックポイント①「新たに共同担保目録が作成
+されたか（または既存目録の変更・更正・抹消の記号が記録されたか）」を置き、
+○印を添える。①から矢印を伸ばして新しく作られた共同担保目録のカードに
+つなげ、そのカードに大きく「記号」「目録番号」というラベルを表示する。
+さらに番号付きチェックポイント②として、そのラベルが登記完了証の書面へ
+転記される矢印を描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず分筆によって新たに共同担保目録が作成されたか（または既存目録の変更・
+更正・抹消の記号が記録されたか）を確認し、該当すれば次にその目録の記号・
+目録番号を完了証に書き写します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+記号・目録番号を記録
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+名称登記のある建物は完了証にも名称を記録
+Diagram: 系統図・関係図型。「〇〇マンション」という名称プレートが掲げられた
+アイソメトリックな建物を描き、番号付きチェックポイント①「建物に名称の登記
+があるか」を置き、○印を添える。次に番号付きチェックポイント②として、床
+面積変更などの書類アイコンで表した表題部変更登記が完了する様子を描く。最後
+に番号付きチェックポイント③として、登記完了証の書面へ同じ「〇〇マンション」
+という名称が書き写される矢印を描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその建物に名称の登記があるかを確認し、次に表題部変更登記が完了すれば、
+その名称がそのまま登記完了証に記録されることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+名称も記録される
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in red-orange containing the number 5.
+Heading (bold, ONE line):
+電子申請の放置期限は30日、書面は3か月
+Diagram: 決定木（フローチャート）。ひし形の分岐ノード「通知の方法はどちらか
+（電子情報処理組織を使用した送信か、書面の送付・交付か）」を最上部に置く。
+「電子申請（送信方式）」矢印（太い強調枠、青、パソコン画面とファイルアイコン
+を添える）は結論ノード（太い強調枠）「送信を受けることが可能になった時から
+30日を経過」へ進む。「書面申請（送付・交付方式）」矢印（薄いグレー、封筒
+アイコンを添える）は結論ノード（薄いグレー）「登記完了の時から3か月を経過」
+へ進む。両方の結論ノードから矢印を伸ばして1つの共通結論ノードに合流させ、
+そこに「登記官は通知をすることを要しない（廃棄はその結果として可能になる
+任意の扱いであり、必ず廃棄されると断定はできない）」と記す。合流先のノード
+へ戻るループ矢印は描かない。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず通知の方法が電子申請（送信方式）か書面申請（送付・交付方式）かを確認
+します。電子申請なら30日、書面申請なら3か月を経過してはじめて「通知を要
+しない」扱いになり、廃棄は可能になるだけで必ず廃棄されると断定はできません。
+Conclusion tag (a short colored banner/pill, red-orange, 5-15 Japanese
+characters):
+電子は30日、書面は3か月
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則181条1項・2項、182条の2第1項1号・2号、不動産登記法44条1項4号
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所. If any character
+renders as a Simplified Chinese variant, redraw that character in the
+correct Japanese form. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢 is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that no 肢 with a genuinely hidden
+second condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that any panel sharing a decision tree with
+another panel clearly distinguishes its own highlighted branch from the
+other, faded branches, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

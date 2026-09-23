@@ -122,7 +122,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 佐・訴・訟・仲・裁・遺・産・繕・賃・貸.
+kanji 佐・訴・訟・仲・裁・遺・産・繕・賃・貸・家・庭・判・所・相・続.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -223,7 +223,7 @@ Small footnote text (bottom of poster, small font, verbatim):
 個別に追加することもできます＝13条2項）
 
 Final check before rendering: scan every kanji glyph, paying special
-attention to 佐・訴・訟・仲・裁・遺・産・繕・賃・貸, and confirm each is
+attention to 佐・訴・訟・仲・裁・遺・産・繕・賃・貸・家・庭・判・所・相・続, and confirm each is
 standard Japanese (Jōyō) form, not Simplified Chinese. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 8 exactly, with

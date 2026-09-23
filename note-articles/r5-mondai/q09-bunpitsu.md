@@ -114,7 +114,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・登・記・錯・誤 — these must be rendered in their standard Japanese
+kanji 権・地・登・記・錯・誤・相・続 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -201,4 +201,213 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+抵当権が絡む肢ア・イは、「分筆にあわせて消滅承諾書が使われているか」を起点に「1筆を除くか全部か」まで枝分かれする同じ決定木を共有し、アはその手前の分岐（消滅承諾とは無関係な単純な分筆）を、イは先の分岐（全部消せるかどうか）を強調する構成にした。ウ・エも「協議書の有無」「申請人が誰か」を分岐点とする決定木として描き、オは分筆前後で筆界特定の記録がどう転写されるかを配置図で示す。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（分筆
+登記、権利関係が絡んだらどうなる？）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land-plot icons with a padlock icon
+(抵当権) attached before and after a dotted split line, family/相続人
+figures beside a 遺産分割協議書 document icon, a government-building icon
+paired with a person icon for the 登録免許税 question, and a
+boundary-marker stamp icon (筆界特定) copied across a dotted split line.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Panels 1 and 2 (肢ア・肢イ) share
+the same underlying decision tree, starting from a diamond node asking
+whether a 消滅承諾書 was used for this particular 分筆; Panel 1 highlights
+（太い縁取り・フルカラー）the「いいえ」branch (a simple split with no
+消滅承諾, undone by 錯誤抹消) while rendering the「はい」branch faded and
+greyed-out, and Panel 2 highlights the「はい」branch and its own
+second-level diamond node (「1筆を除いた他の土地」か「分筆後の全部の土
+地」か) while rendering Panel 1's「いいえ」branch faded and greyed-out.
+Panels 3 and 4 are each resolved by their own single decision node with
+two equally meaningful outcomes (原則と例外、または申請人による違い), so
+render both the「はい」and「いいえ」exit arrows with their own distinct
+conclusion nodes rather than omitting either side, and highlight the
+branch this problem's 肢 actually reaches. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和5年度午後第9問 ア〜オ
+作図ガイド（分筆の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+消滅承諾の有無を最初に確認する
+Diagram: A shared decision-tree frame with Panel 2. Start node: an
+isometric single land plot with a padlock icon（抵当権）already attached.
+From it, a diamond node reads「分筆にあわせて消滅承諾書が使われている
+か？」This panel highlights the「いいえ」branch with a thick border and
+full color: the padlock-attached plot is simply split by a dotted line
+and then the split is undone by an eraser icon, returning to one whole
+plot, leading to a conclusion node reading「錯誤による分筆登記の抹消は
+可能」. The「はい」branch is rendered faded and greyed-out, with a small
+label「→ パネル2へ」pointing off to the side.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この分筆に消滅承諾書が使われているかを確認します。消滅承諾とは無
+関係に、単に分筆前からあった抵当権をそのまま残した分筆であれば、錯誤を
+原因として分筆登記を抹消することができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+錯誤抹消は可能
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+全部消すか1筆残すかを見分ける
+Diagram: The same shared decision-tree frame as Panel 1, but here the
+「はい」branch（消滅承諾書が使われている）is highlighted with a thick
+border and full color, while the「いいえ」branch is rendered faded and
+greyed-out. From the highlighted「はい」node, a second diamond node
+continues:「消滅承諾は『1筆を除いた他の土地』についてか、それとも『分筆
+後の全部の土地』についてか？」This second diamond has two distinct exit
+arrows: a「1筆を除く」arrow leading to a faded conclusion node reading
+「その他の土地の抵当権は消滅できる」(not this panel's focus), and a
+highlighted「全部」arrow leading to a bold conclusion node reading「登記
+官は消滅の登記をすることはできない」, illustrated by a land plot split
+into 甲 and 乙, both still carrying a padlock icon（抵当権）, with a large
+prohibition (no-entry) mark over an arrow trying to remove both padlocks
+at once.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この分筆に消滅承諾書が使われていることを確認し、次に、その消滅承
+諾が「1筆を除いた他の土地」についてのものか、それとも「分筆後の全部の
+土地」についてのものかを確認します。全部の土地について抵当権を消そう
+としても、登記官はその登記をすることができません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+1筆には残す必要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+遺産分割協議書の有無で申請人が変わる
+Diagram: A decision-tree diagram. Start: an isometric land plot labeled
+「甲土地」with two person icons labeled「Ｂ」「Ｃ」standing on it
+（相続人）. A diamond node reads「遺産分割協議でＢが単独取得することが
+決まっているか？」with two distinct exit arrows: a highlighted（太い縁
+取り・フルカラー）「はい」arrow leading to a conclusion node reading
+「Ｂは協議書を添えて単独で申請できる」, illustrated by Ｂ alone
+submitting a document labeled「遺産分割協議書」to a registry-office icon
+without Ｃ; and a faded「いいえ」arrow leading to its own separate
+conclusion node reading「持分価格の過半数を持つ者からの申請が原則」,
+illustrated by Ｂ and Ｃ together submitting a document.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、遺産分割協議によってＢが甲土地の所有権を単独で取得することが決ま
+っているかを確認します。決まっていれば、Ｂはその協議書を添付して、Ｃの
+関与なしに単独で分筆の登記を申請することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+Ｂのみで申請可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+私人の申請なら登録免許税がかかる
+Diagram: A decision-tree diagram. Start: an isometric land plot shared by
+a government-building icon（地方公共団体）and a person icon（私人）. A
+diamond node reads「申請人は地方公共団体自身か、私人か？」with two
+distinct exit arrows: a faded「地方公共団体自身」arrow leading to a
+conclusion node reading「登録免許税は非課税」(not this panel's focus,
+since this問は私人申請のケースを扱う), illustrated by a crossed-out coin
+icon; and a highlighted（太い縁取り・フルカラー）「私人」arrow leading to
+a bold conclusion node reading「登録免許税が課される」, illustrated by
+the person icon submitting a document to a registry office with a coin/
+tax stamp icon attached only to their side.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この分筆の登記を申請するのが地方公共団体自身なのか、それとも私人
+なのかを確認します。私人が申請する場合には、相手方が地方公共団体であっ
+ても、通常どおり登録免許税が課されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+私人分は課税される
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+筆界特定の記録は乙地にも転写される
+Diagram: An isometric land plot labeled「甲土地」with a boundary-marker
+stamp icon labeled「筆界特定」already recorded on it. A dotted split line
+divides it into「甲土地」and「乙土地」, and a copying arrow duplicates the
+same筆界特定 stamp icon onto the「乙土地」side, showing the record
+carried over to the newly created parcel.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆の対象となる甲土地に筆界特定がされた旨の記録があるかを確認し
+ます。記録があれば、分筆によって新しく生まれる乙土地の登記記録にも、そ
+の記録がそのまま転写されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+乙地にも転写
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法40条・145条、不動産登記規則104条1項・234条、登録免許税法4条
+に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 権, 錯, 誤, 続, 筆, 界, 転, 写, 許, 税, 承, 諾 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panels 1 and 2
+visibly share the same decision-tree layout while highlighting different
+branches, that Panels 3 and 4 each show both exit arrows of their diamond
+node leading to their own separate conclusion node with no arrow looping
+back to any earlier node, that each 着眼点 callout states a checking
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with
+a fully opaque background with no transparency or alpha channel anywhere.
 ```

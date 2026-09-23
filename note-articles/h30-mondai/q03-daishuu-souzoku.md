@@ -116,7 +116,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 続・属・尊・廃・欠・格・襲・除・甥 — these must be rendered in
+kanji 続・属・尊・廃・欠・格・襲・除・甥・相 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -258,7 +258,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 続・属・尊・廃・欠・
-格・襲・棄・卑・除・甥, which have visibly different Simplified Chinese forms —
+格・襲・棄・卑・除・甥・相・誤, which have visibly different Simplified Chinese forms —
 always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -384,7 +384,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay particular
-attention to 続・属・尊・廃・欠・格・襲・棄・卑・除・甥. If any character renders
+attention to 続・属・尊・廃・欠・格・襲・棄・卑・除・甥・相・誤. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block

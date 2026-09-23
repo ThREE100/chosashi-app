@@ -214,3 +214,260 @@ immediately after the last card), and confirm the entire canvas, edge to
 edge, is filled with a fully opaque background with no transparency or
 alpha channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「この肢はどの手順で課税・非課税を判定し、税額をどう数えればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。肢ア・イ・エは「所有権の登記がある不動産か」という共通の決定木を共有し、各パネルで自分の枝だけを強調する。5パネル、portrait 1080×2600px。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots, apartment-building
+land, houses with small attached sheds, registry record cards, tax
+stamps, 1,000円 coins, calculators, and a local-government building
+icon, adapted per panel. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Panels 1,
+2, and 4 (肢ア・肢イ・肢エ) share the same decision tree: one diamond
+asking 所有権の登記がある不動産か, whose はい branch leads to a conclusion
+node for a per-item 1,000円 charge and whose いいえ branch leads to a
+conclusion node reading 登録免許税は課されない. Draw this shared diamond
+in the same shape, color, and position in all three panels. In each of
+those panels, render the branch relevant to THIS panel (はい for Panels 1
+and 4, いいえ for Panel 2) with a thick highlighted border and full color,
+and render the other, unrelated branch in a faded, greyed-out, or
+dotted-outline style rather than omitting it — the reader should be able
+to see at a glance which part of the shared tree this panel is about.
+Panels 3 and 5 (肢ウ・肢オ) use their own separate decision trees, not the
+shared one. In every panel, both the はい and the いいえ outcome of each
+diamond must lead forward to its own separate node; never draw a loop
+arrow that returns from a diamond or a conclusion node back to any
+earlier node. Unlike a glanceable summary poster, each panel MAY include
+a short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element (in Panel 5, keep the
+two elements 嘱託するのが国・地方公共団体その他の公共法人であること and
+これらの者以外の者に代位してする登記であること as two distinct checks,
+drawn as two separate diamonds).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成28年度 午後の部 第19問 ア〜オ
+作図ガイド（登録免許税の課税・非課税）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+敷地権付きの土地の分筆にも1筆1,000円かかる
+Diagram: A decision-tree flowchart. At the top, an isometric
+apartment building standing on a land plot labeled 敷地権である旨の登記が
+ある土地, with a dashed cutting line dividing the plot into two parcels
+(分筆). A first rectangular step box below it reads 実質的には所有権が登記
+された土地として扱う. An arrow leads down to the shared diamond node
+所有権の登記がある不動産か. The はい branch is drawn with a thick
+highlighted border and full color (this panel's branch) and leads to a
+blue conclusion node reading 分筆後の土地1筆につき1,000円（課税）, with a
+1,000円 coin placed on each of the two resulting parcels. The いいえ
+branch is drawn faded, greyed-out, and dotted-outline (not this fact
+pattern) and leads to a small faded conclusion node reading 登録免許税は
+課されない. Beside the flowchart, a crossed-out ✕ tag reading 敷地権付き
+だから非課税 shows the mistaken assumption.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、敷地権である旨の登記がある土地も、実質的には所有権が登記された土地
+であることを確認します。次に、所有権の登記がある土地の分筆なので、分筆
+後の土地1筆につき1,000円の登録免許税が課されると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+分筆にも課税
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+所有権登記のない土地同士の合筆は非課税
+Diagram: A decision-tree flowchart. At the top, two adjacent isometric
+land plots labeled 甲土地 and 乙土地, each carrying a small registry card
+with the 所有権の登記 line left blank and marked ✕ (所有権の登記なし),
+merging into one plot (合筆). An arrow leads down to the shared diamond
+node 所有権の登記がある不動産か. The いいえ branch is drawn with a thick
+highlighted border and full color (this panel's branch) and leads to a
+green conclusion node reading 1筆1,000円の規定は適用されず、登録免許税は
+課されない, with a glowing 非課税 stamp. The はい branch is drawn faded,
+greyed-out, and dotted-outline (not this fact pattern) and leads to a
+small faded conclusion node reading 合筆後の土地1筆につき1,000円. Beside
+the flowchart, a crossed-out 1,000円 coin shows that the amount in the
+problem statement does not apply.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合筆する甲土地と乙土地のどちらにも所有権の登記がないことを確認し
+ます。次に、1筆につき1,000円の規定は所有権の登記がある土地を対象とする
+ため、本肢には適用されず非課税と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+合筆は非課税
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+表題登記のない建物との合体は保存登記できず非課税
+Diagram: A two-step decision-tree flowchart, separate from the shared
+tree used in Panels 1, 2, and 4. At the top, two isometric buildings
+side by side joining into one: the left building is drawn with a faded,
+dotted outline and labeled 表題登記がない建物 (it has no registry record
+at all), and the right building is drawn solid and labeled 表題登記のみ
+がある建物. A first rectangular step box below them reads 合体による登記
+等で課税されるのは、それに伴ってする所有権の保存の登記. An arrow leads down
+to a diamond node reading 所有権の保存の登記を申請できるか. The いいえ
+branch is drawn with a thick highlighted border and full color (this
+panel's branch) and leads to a green conclusion node reading 課税の前提を
+欠き、登録免許税は課されない, with a glowing 非課税 stamp and a crossed-out
+1,000円 coin. The はい branch is drawn faded, greyed-out, and
+dotted-outline (not this fact pattern) and leads to a small faded
+conclusion node reading 合体後の建物の価額×持分の割合×1,000分の4.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体による登記等で登録免許税がかかるのは、それに伴ってする所有権の
+保存の登記であることを確認します。次に、表題登記がない建物と表題登記のみ
+がある建物の合体では所有権の保存の登記自体を申請できないため、課税の前提
+を欠き非課税と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+保存登記できず非課税
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+分割と合併を一度に申請しても税額は建物の個数で数える
+Diagram: A decision-tree flowchart with a counting step. At the top, an
+isometric layout diagram: a main house labeled 甲建物 with a small
+attached shed labeled 附属建物, and a curved arrow carrying that shed
+over to a second house labeled 乙建物, where it becomes 乙建物の附属建物.
+A single application form icon labeled 一の申請情報（分割の登記＋合併の
+登記） sits beside the arrow. An arrow leads down to the shared diamond
+node 所有権の登記がある不動産か. The はい branch is drawn with a thick
+highlighted border and full color (this panel's branch) and leads to a
+rectangular step box reading 分割・合併後の建物1個につき1,000円, then to
+a second step box reading 登記の結果できあがる建物を数える：甲建物・乙建物
+の2個, then to a blue conclusion node reading 1,000円×2個＝2,000円, with a
+calculator icon. Next to that conclusion node, a crossed-out ✕ stamp
+reading 3,000円. The いいえ branch is drawn faded, greyed-out, and
+dotted-outline (not this fact pattern) and leads to a small faded
+conclusion node reading 登録免許税は課されない.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、所有権の登記がある建物の分割・合併なので、分割・合併後の建物1個に
+つき1,000円が課されることを確認します。次に、分割の登記と合併の登記を一
+の申請情報でまとめても、登記の結果できあがる建物（甲建物・乙建物の2個）
+を数え、1,000円×2個＝2,000円と計算します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+2個で2,000円
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+地方公共団体が私人に代位してする分筆の嘱託は非課税
+Diagram: A two-diamond decision-tree flowchart, separate from the shared
+tree used in Panels 1, 2, and 4. At the top, an isometric scene: a land
+plot owned by a private-person figure labeled 私人（所有権の登記名義人）,
+with a part of the plot marked by a dashed line and a road-widening
+sign, and a local-government building labeled 地方公共団体 that has
+acquired that part. The first diamond node reads 嘱託するのは国・地方公共
+団体その他の公共法人か. Its はい branch (thick highlighted border, full
+color) leads down to the second diamond node reading これらの者以外の者
+（私人）に代位してする登記か. Its はい branch (thick highlighted border,
+full color) leads to a green conclusion node reading 登録免許税法5条1号に
+より登録免許税は課されない, with a glowing 非課税 stamp. The いいえ
+branch of each diamond is drawn only as a short faded, greyed-out,
+dotted-outline stub ending in a small faded node reading 5条1号の場面では
+ない; do not connect either stub back to any other node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、嘱託するのが国・地方公共団体その他の公共法人（本肢では地方公共団体）
+であることを確認します。次に、その登記がこれらの者以外の者（私人である
+登記名義人）に代位してするものかを確認し、両方に当たれば非課税と判断し
+ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代位嘱託は非課税
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+平成28年度 午後の部 第19問（登録免許税法別表第一1.（1）・1.（13）イ・ロ、
+登録免許税法5条1号・2号）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 登・録・税・課・権・敷・地・筆・
+合・体・建・物・記・所・保・存・題・属・割・併・団・代・位・嘱・託・
+額・価・持・請・号. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form.
+Also scan the entire canvas for any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only
+character, Korean Hangul, other non-Japanese script, or stray decorative
+glyph — and remove or redraw it so that only standard Japanese text
+appears anywhere in the image. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢 is drawn as an actual flowchart with branch nodes (not
+a bare illustration with no visible decision structure), that no 肢 with
+a genuinely hidden second condition has been flattened into a single
+check (Panel 1 keeps the 敷地権 step before the shared diamond, Panel 3
+keeps the 所有権の保存の登記 step before its diamond, Panel 4 keeps the
+building-count step after the はい branch, and Panel 5 keeps its two
+diamonds separate), that each 着眼点 callout states a checking order
+rather than only a conclusion and keeps every required element from the
+source article distinct (no merged or dropped requirements), that Panels
+1, 2, and 4 draw the shared diamond identically and each clearly
+distinguishes its own highlighted branch from the other, faded branch,
+that no loop arrow returns from any diamond or conclusion node to an
+earlier node, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

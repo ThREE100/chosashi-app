@@ -209,3 +209,202 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、地目認定の現況主義を思考順序に沿って確認できるようにする5パネル構成。ウ・エは「一団の土地の中にある建物が、主たる利用に対して付随的なものに過ぎないか、それとも永久的設備として独立の利用と認められるか」という同じ決定木を共有し、強調する枝だけを切り替える。アは2つのAND条件を順に確認する2段階の決定木、オは「地下の設備で判断してしまう」誤りやすい思い込みと正しいルールを対比させる。②の色分け（宅地と認定されるルール＝緑、宅地以外と認定されるルール＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots, houses, a building-permit
+stamp (確認済証), an outdoor parking lot, a golf course with a clubhouse,
+a seafood drying yard, a subway tunnel cross-section, and a hospital
+building — adapt icon set to the topic of 地目認定. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Panel 1 (肢ア) must be drawn as a two-step AND flowchart, since
+宅地造成工事の完了 and 建築確認済証の交付 are two distinct conditions that
+must both be satisfied — give each its own diamond node. Panels 3 and 4
+(肢ウ・肢エ) share the same decision tree (a diamond node asking whether
+a building within a larger tract is merely incidental to the tract's main
+use, or is instead a substantial, independent use such as a 永久的設備);
+render the branch relevant to THIS panel with a thick highlighted border
+and full color, and render the other, unrelated branch in a faded,
+greyed-out, dotted-outline style. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認
+します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第6問 ア〜オ
+作図ガイド（地目認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+造成完了と確認済証の有無を確認する
+Diagram: A two-step AND flowchart. Diamond node 1 labeled 「宅地にする
+ための造成工事は完了しているか？」; the はい branch (highlighted) leads
+down to diamond node 2 labeled 「建築基準法に基づく確認済証は交付されて
+いるか？」; the はい branch of node 2 (highlighted) leads to a conclusion
+node reading 「建物の建築工事が未着手でも宅地と認定できる」, illustrated
+with a graded land plot and a dashed outline of a future building
+foundation with no actual building yet. Both diamonds' いいえ branches
+(faded, greyed-out, dotted outline) converge on a single shared
+conclusion node reading 「宅地とは認定できない（従前の地目のまま）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、宅地にするための造成工事が完了しているかを確認します。次に、建築
+基準法に基づく確認済証が交付されているかを確認し、両方を満たしていれば、
+建物の建築工事が始まっていなくても宅地と認定できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+着工前でも宅地認定可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+公道で区分された駐車場は雑種地
+Diagram: An isometric mansion (集合住宅) building labeled 「宅地」 on one
+side of a paved public road (公道), and a separate outdoor parking lot
+labeled 「雑種地」 on the other side of the road, with a clear boundary
+line along the road separating the two.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、屋外駐車場が建物の敷地と公道によって判然と区分されているかを確認
+します。区分されている場合は、建物の効用を果たすための土地とはいえない
+ため、宅地ではなく雑種地と認定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+駐車場は雑種地
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+建物が付随的なら全体を雑種地とする
+Diagram: A diamond branch node shared with Panel 4, labeled 「一団の土地
+の中にある建物は、主たる利用に対して付随的なものに過ぎないか、それとも
+永久的設備として独立の利用と認められるか？」. The 付随的なものに過ぎない
+branch (highlighted with a thick colored border, full color — this is the
+branch relevant to this panel) leads to a conclusion node reading 「建物
+の敷地を含め全部を一団として雑種地とする」, illustrated with a golf course
+with green fairways and a small clubhouse building at the edge, a dashed
+boundary line encircling the entire course including the clubhouse. The
+永久的設備として独立の利用と認められる branch (faded, greyed-out, dotted
+outline) leads to a separate conclusion node reading 「建物の敷地の区域
+だけを宅地とする」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、一団の土地の中にある建物が、コース等の利用に対して付随的なものに
+過ぎないかを確認します。付随的なものに過ぎないと認められる場合は、建物の
+敷地も含めて全部を一団として雑種地と認定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+全体が雑種地のまま
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+永久的設備の建物は敷地部分だけ宅地
+Diagram: The same shared diamond branch node as Panel 3, labeled 「一団の
+土地の中にある建物は、主たる利用に対して付随的なものに過ぎないか、それとも
+永久的設備として独立の利用と認められるか？」. The 永久的設備として独立の
+利用と認められる branch (highlighted with a thick colored border, full
+color — this is the branch relevant to this panel) leads to a conclusion
+node reading 「建物の敷地の区域だけを宅地とする」, illustrated with an
+open-air drying yard with racks of dried seafood (海産物), one solid
+permanent processing building within the yard highlighted and labeled
+「宅地」. The 付随的なものに過ぎない branch (faded, greyed-out, dotted
+outline) leads to a separate conclusion node reading 「建物の敷地を含め
+全部を一団として雑種地とする」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、一団の土地の中にある建物が、永久的設備と認められる独立した利用で
+あるかを確認します。永久的設備と認められる場合は、その建物の敷地の区域
+だけを宅地として区分して認定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+建物部分だけ宅地
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+地表の用途は病院だから宅地と判断
+Diagram: A side-by-side comparison frame. LEFT box (faded, greyed-out,
+dotted outline, labeled 「誤りやすい思い込み」): an underground subway
+tunnel icon (地下鉄道設備) with an arrow pointing straight up to a 「鉄道
+用地」 label crossed out with a large red X. RIGHT box (highlighted with
+a thick colored border, full color, labeled 「正しいルール」): the same
+underground subway tunnel icon shown faded below ground level, with a
+hospital building bearing a red cross symbol highlighted above ground,
+labeled 「地表の利用状況で判断」 with an arrow to a conclusion node
+reading 「宅地」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目の認定は地中の設備ではなく地表の利用状況で行うことを確認します。
+次に、地表で何が利用されているかを確認し、病院として利用されていれば、
+地下に鉄道設備があっても地目は宅地です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地表の用途で宅地
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則68条5号・69条2号・3号・7号に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 造, 成, 確, 証, 駐, 雑, 種, 団, 属, 久, 設, 鉄, 表, 判 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panel 1 is drawn
+as a two-node AND flowchart with both diamonds clearly labeled, that
+Panels 3 and 4 visibly share the same diamond node with only the
+highlighted branch differing, that each 着眼点 callout states a checking
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with
+a fully opaque background with no transparency or alpha channel anywhere.
+```

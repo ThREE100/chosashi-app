@@ -201,3 +201,189 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+「その土地・施設が何のために使われているか」を先に見分けることが地目認定のコツであることを示す5パネル構成。エ・オは「畑だと思ったら牧場」「霊園だと思ったら墓地」という、うっかり思い込みやすい地目と正しい地目を左右で対比させる正誤対比型として描く。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(その土地、地目はどれ?), but built as a set of 5 diagram-drawing panels
+(a "how to sketch this fact pattern, in the right order" study reference)
+rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric buildings, land plots, wooden
+name-tag labels for 地目, power pylons, water channels, pastures, and
+gravestones - adapt icon set to the topic of 地目の認定. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(はい/いいえ) branch arrows, and a final conclusion node for every branch
+(no branch may be left without its own conclusion node, and no arrow may
+loop back to an earlier node). Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient - do not force a flowchart.
+Where a 肢 is really about telling apart two similar-looking rules
+(something the reader mistakenly assumes vs the actual rule), draw it as
+a left/right comparison panel instead of a flowchart, rendering the
+mistaken assumption faded/greyed-out with a red ✕ and the correct rule in
+full color with a checkmark. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認し
+ます"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently throughout, including inside Japanese asides.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和5年度午後第8問 ア〜オ
+作図ガイド(地目の認定)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+幼稚園も学校教育法上の学校に含まれる
+Diagram: An isometric kindergarten building with a small playground,
+drawn beside a neighboring elementary school building in a matching
+visual style, both sitting inside one large rounded frame labeled 学校
+教育法上の学校(幼稚園・小学校・中学校・高等学校・大学等). Both
+buildings' land plots bear the same wooden label reading 学校用地.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその施設が学校教育法上の「学校」にあたるかを確認します。幼稚園も
+学校教育法上の学校の一つである以上、その園舎の敷地の地目は学校用地に
+なります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+学校用地になる
+
+--- PANEL 2(肢イ) ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+建物の敷地として使われていれば宅地
+Diagram: A decision flowchart. Start node: 高圧線の下にある土地が、建物
+の敷地として利用されているか?. A はい arrow leads to its own conclusion
+node showing an isometric house with high-voltage power lines and pylons
+passing overhead, the land plot beneath the house bearing a wooden label
+reading 宅地. A separate いいえ arrow (他の目的に使用することができない
+区域) leads to its own conclusion node showing an empty land strip under
+the same pylons bearing a wooden label reading 雑種地. No arrow loops back
+to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず高圧線の下にある土地が、建物の敷地として利用されているかを確認しま
+す。建物の敷地になっている以上、高圧線が上を通っているという一点だけで
+雑種地になるわけではありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+宅地のまま変わらず
+
+--- PANEL 3(肢ウ) ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+発電専用の水路は用悪水路でなく雑種地
+Diagram: A left/right comparison panel. Left side, labeled かんがい・排
+水のための水路(highlighted in full color with a wooden label reading
+用悪水路): an isometric irrigation channel carrying water to a rice
+paddy. Right side, labeled 水力発電のためにのみ使用される水路
+(highlighted in its own full color with a wooden label reading 雑種
+地): an isometric water channel flowing from a hydroelectric dam
+facility, drawn with no irrigation destination.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその水路が何のために使われているかを確認します。かんがい用・排水
+用の水路は用悪水路ですが、水力発電のためにのみ使用される水路は雑種地
+になります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+雑種地になる
+
+--- PANEL 4(肢エ) ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+牧場内の牧草栽培地は畑でなく牧場
+Diagram: A left/right comparison panel. Left side, labeled 正しい地目
+(highlighted in full color with a checkmark): an isometric pasture
+landscape with grazing livestock and a fenced patch of growing grass
+(牧草栽培地) inside the same fenced boundary, the whole area sharing one
+wooden label reading 牧場. Right side, labeled うっかり思い込みやすい地
+目(rendered faded/greyed-out with a red ✕ overlay): the same grass patch
+shown isolated with its own separate wooden label reading 畑.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその牧草栽培地が牧場地域内にあるかを確認します。牧場のために使用
+する牧草栽培地は、農作物を育てる畑ではなく、牧場全体と一体の牧場として
+扱われます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+畑ではなく牧場
+
+--- PANEL 5(肢オ) ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+規模を問わず埋葬する土地は墓地
+Diagram: A left/right comparison panel. Left side, labeled 正しい地目
+(highlighted in full color with a checkmark): an isometric large
+landscaped cemetery with rows of gravestones, the land plot bearing a
+wooden label reading 墓地. Right side, labeled うっかり思い込みやすい地
+目(rendered faded/greyed-out with a red ✕ overlay): the same cemetery
+grounds with a wooden label reading 霊園.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその土地が人の遺体又は遺骨を埋葬するための土地かを確認します。規模
+が大きいかどうかにかかわらず、遺体・遺骨を埋葬する土地の地目は墓地であ
+り、霊園という地目は存在しません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+地目は墓地
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則68条10号・12号・16号・69条4号・5号・13号に
+基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 地, 電, 発, 学, 園, 埋, 葬, 牧, 墓 and any character that has
+a visually similar Simplified Chinese variant. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panel 2 is drawn as an actual
+flowchart whose diamond node has exactly two distinct exit arrows (はい
+and いいえ) each leading to its own separate conclusion node with no
+looping arrows, that Panels 3, 4 and 5 are each drawn as left/right
+comparison panels with the faded/×'d side clearly distinguished from the
+highlighted correct side, that each 着眼点 callout states a checking
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

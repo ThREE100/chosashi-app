@@ -208,3 +208,257 @@ the last card), and confirm the entire canvas, edge to edge, is filled
 with a fully opaque background with no transparency or alpha channel
 anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「申請情報に何を書くか」「書面をどう届けるか」「どの場面で書面が戻ってくるか」を順番に確認できるようにする5パネル構成。アは「特例方式による旨」と「書面提出の別」の二段構えを2段の決定木で示す。イとウは「書面の添付情報を登記所に届ける方法」という1本の決定木を共有し、イは持参・送付の分かれ道を、ウは送付の枝の先にある送付手段と封筒表面の在中明記の2段チェックを強調する。エは偽造等の疑いがある書面かどうかで還付・非還付の両方の行き先を明記した決定木、オは「特例方式だから原本還付できない」という思い込みとの正誤対比に、印鑑証明書等の例外チェックを添える。色分けは、申請情報＝青、提出方法＝緑、還付＝オレンジ。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric computer icons for online
+application data, application-form icons with per-document rows, paper
+document icons, a registry-office building icon, a walking figure
+carrying documents, a mailbox, a registered-mail envelope with a
+tracking receipt, a plain ordinary envelope, a registry official
+handing back a document stack, a forged-document icon, an original
+document and a certified-copy document side by side — adapt icon set to
+the topic of the special attachment method for electronic applications.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node.
+Where a 肢 is resolved by a single check, a labeled illustrative diagram
+is sufficient — do not force a flowchart. Panel 1 (肢ア) must be a
+two-step flowchart that keeps the two separate recording requirements
+distinct. Panel 2 (肢イ) and Panel 3 (肢ウ) share ONE identical decision
+tree about how the paper attachment reaches the registry office; draw
+the same tree shape in both panels. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant
+to THIS panel with a thick highlighted border and full color, and render
+the other, unrelated branches in a faded, greyed-out, or dotted-outline
+style rather than omitting them — the reader should be able to see at a
+glance which part of the shared tree this panel is about. Panel 4 (肢エ)
+must be a flowchart whose final diamond node shows BOTH outcomes, each
+leading to its own separate conclusion node. Panel 5 (肢オ) uses a
+correct-vs-mistaken contrast frame (left/right) plus one small follow-up
+check below it. In every flowchart, every branch arrow must lead forward
+to a new node — never draw a loop arrow that returns from a diamond node
+back to an earlier node. Likewise, where a diagram must show an entity
+that conceptually never held the right or status in question, render it
+in a faded or dotted-outline style rather than a plain ○/✕ mark. Unlike
+a glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body
+text — do not drop or merge a required element (e.g. in Panel 1 keep
+「特例方式による旨」and「書面を提出する方法によるか否かの別」as two
+distinct checks, and in Panel 3 keep the mailing method and the
+envelope marking as two distinct checks).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成28年度午後第5問 ア〜オ
+作図ガイド（特例方式の書面提出と還付）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+申請情報に特例方式の旨と書面提出の別を記載
+Diagram: A two-step decision flowchart drawn top to bottom. Start node
+(rounded rectangle, with a small isometric computer icon sending data
+and a paper document icon beside it): 特例方式で添付情報を提供する.
+Diamond node 1: 申請情報に「特例方式による旨」を記載したか？ Its いいえ
+arrow leads right to a separate conclusion node: 特例方式による旨の記載
+が必要. Its はい arrow leads down to Diamond node 2 (drawn with a thick
+highlighted blue border, because this is the point the 肢 tests):
+各添付情報ごとに「書面を提出する方法によるか否かの別」を記載したか？
+Its いいえ arrow leads right to a separate conclusion node with a red ✕
+mark: 別の記載を省略することはできない. Its はい arrow leads down to the
+final conclusion node with a green ✓ mark: 申請情報の内容がそろう.
+Beside Diamond node 2, draw a small isometric application-form icon with
+two rows: row 1 labeled 委任状 → 書面, row 2 labeled その他の添付情報 →
+電子データ, showing that the method can differ document by document.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請情報に「特例方式による旨」を記載することを確認し、次に、各添付情報ごとに「書面を提出する方法によるか否かの別」も記載することを確認します。この二段構えのため、別の記載は省略できません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+別の記載は省略不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+書面の添付情報は持参でも送付でも提出できる
+Diagram: The SHARED decision tree (identical shape in Panel 3), drawn top
+to bottom. Start node: 書面に記載された添付情報を登記所に提出する.
+Diamond node A: 提出の方法は？ It splits into two branches. LEFT branch
+labeled 持参 (a walking figure carrying documents to a registry-office
+building icon) leads to a conclusion node with a green ✓ mark: 窓口に
+持参して提出できる. RIGHT branch labeled 送付 (a mailbox icon) leads
+first to a conclusion node with a green ✓ mark: 送付して提出できる, and
+then continues down to Diamond node B: 書留郵便、または引受け及び配達の
+記録を行う信書便か？ Diamond node B's いいえ arrow leads to a separate
+conclusion node: 普通郵便などでは送付できない. Diamond node B's はい
+arrow leads to Diamond node C: 封筒の表面に特例方式により提出する書面が
+在中する旨を明記したか？ Diamond node C's いいえ arrow leads to a
+separate conclusion node: 在中する旨の明記が必要. Diamond node C's はい
+arrow leads to a final conclusion node: 送付の要件を満たす. In THIS
+panel, highlight with a thick green border and full color ONLY Diamond
+node A and its two first-level branches (持参 and 送付) with both ✓
+marks; render Diamond nodes B and C and everything below them in a
+faded, greyed-out, dotted-outline style, since this panel is only about
+the choice between 持参 and 送付.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、書面の添付情報を登記所へ届ける方法が「持参」か「送付」かを見分けます。どちらを選んでも特例方式としての効力に違いはなく、送付を選んだ場合だけ次の送付手段の確認に進みます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+持参・送付どちらも可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+送付は書留郵便か記録の残る信書便に限る
+Diagram: The SAME shared decision tree as Panel 2, with identical node
+texts: Start node 書面に記載された添付情報を登記所に提出する → Diamond
+node A 提出の方法は？ → LEFT branch 持参 → 窓口に持参して提出できる;
+RIGHT branch 送付 → 送付して提出できる → Diamond node B 書留郵便、または
+引受け及び配達の記録を行う信書便か？ (いいえ → 普通郵便などでは送付
+できない; はい → Diamond node C) → Diamond node C 封筒の表面に特例方式に
+より提出する書面が在中する旨を明記したか？ (いいえ → 在中する旨の明記
+が必要; はい → 送付の要件を満たす). In THIS panel, render the LEFT 持参
+branch in a faded, greyed-out, dotted-outline style, and highlight with a
+thick green border and full color the RIGHT 送付 branch together with
+Diamond nodes B and C and all four of their conclusion nodes. Next to
+Diamond node B, draw a registered-mail envelope with a tracking receipt
+stamp marked with a green ✓, and a plain ordinary envelope marked with a
+red ✕. Next to Diamond node C, draw an envelope whose front surface
+carries a small label: 特例方式による書面在中.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、送付の手段が書留郵便、または引受け及び配達の記録を行う信書便であるかを確認し、次に、封筒の表面に特例方式により提出する書面が在中する旨を明記したかを確認します。記録の残らない普通郵便などでは送付できません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+書留郵便等に限る
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in orange containing the number 4.
+Heading (bold, ONE line):
+却下・取下げ時の添付書面は原則として還付
+Diagram: A two-step decision flowchart drawn top to bottom. Start node
+(rounded rectangle, with a small isometric registry-office building
+icon): 申請が却下された、または取り下げられた. Arrow down to a diamond
+node: その添付書面は、偽造された書面その他の不正な登記の申請のために
+用いられた疑いがある書面か？ This diamond node shows BOTH outcomes, each
+leading forward to its own separate conclusion node (no loop arrow back
+to the start node). The いいえ arrow (drawn with a thick highlighted
+orange border, because this is the ordinary case) leads to a conclusion
+node with a green ✓ mark and a registry official handing a document
+stack back to an applicant figure: 申請人に還付される. The はい arrow
+leads to a separate conclusion node with a red ✕ mark and a small
+forged-document icon labeled 偽造書面: 還付の対象から除かれる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請が却下または取下げで終わったことを確認し、次に、その添付書面が偽造された書面その他の不正な登記の申請のために用いられた疑いがある書面かを確認します。そうした書面でなければ、添付書面は申請人に還付されます。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+疑わしい書面以外は還付
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in orange containing the number 5.
+Heading (bold, ONE line):
+特例方式の添付書面も原本還付を請求できる
+Diagram: A correct-vs-mistaken contrast frame (left/right, NOT a single
+flowchart) with one small follow-up check below the right box. LEFT box
+(faded, red border, with a large red ✕ and a strikethrough line over its
+text) labeled 誤った思い込み: 特例方式で提出した書面は原本還付を請求
+できない. RIGHT box (highlighted with a thick orange border, full color,
+green ✓) labeled 正しいルール: 特例方式でも通常の書面申請と同じく原本
+還付を請求できる, illustrated with an original-document icon labeled
+原本 being handed back to an applicant while a certified-copy icon
+labeled 謄本 stays in the registry's file. Below the RIGHT box, a small
+follow-up diamond node: 印鑑に関する証明書や、その申請のためにのみ作成
+された委任状などか？ Its はい arrow leads to a separate conclusion node
+with a red ✕ mark: 還付を請求できない（通常の書面申請と同じ）. Its いいえ
+arrow leads to a separate conclusion node with a green ✓ mark: 原本と
+相違ない旨を記載した謄本を提出して原本還付を請求. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、「特例方式だから原本還付はできない」という思い込みを捨て、通常の書面申請と同じく原本還付を請求できることを確認します。次に、印鑑に関する証明書や、その申請のためにのみ作成された委任状などでないかを確認し、該当しなければ原本と相違ない旨を記載した謄本を提出して還付を請求します。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+原本還付は請求可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令附則5条1項・2項、不動産登記規則附則21条1項・4項・5項、同規則附則24条1項（同規則38条3項・39条3項の準用）・2項（同規則55条の準用）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 特・例・添・付・書・郵・留・還・却・
+請・記・録・偽・造・謄・証・鑑・送・届. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character
+that is not standard Japanese hiragana, katakana, or Jōyō kanji —
+including any Chinese-only character, Korean Hangul, other non-Japanese
+script, or stray decorative glyph — and remove or redraw it so that only
+standard Japanese text appears anywhere in the image. Confirm the panel
+count equals 5 exactly, badge numbers run 1-5 continuously, there is no
+intro illustration or paragraph block between the header and the
+panels, that every multi-condition 肢 (Panels 1, 3, 4 and the follow-up
+check in Panel 5) is drawn as an actual flowchart with branch nodes (not
+a bare illustration with no visible decision structure), that no 肢 with
+a genuinely hidden second condition has been flattened into a single
+check, that no flowchart contains a loop arrow returning to an earlier
+node, that each 着眼点 callout states a checking order rather than only a
+conclusion and keeps every required element from the source article
+distinct (no merged or dropped requirements), that Panels 2 and 3 show
+the same shared decision tree and each clearly distinguishes its own
+highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

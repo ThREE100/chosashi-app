@@ -282,7 +282,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 実・体・移・転・意・思・
-登・記・義・務・者・名, which have Simplified Chinese look-alike forms with
+登・記・義・務・者・名・誤, which have Simplified Chinese look-alike forms with
 visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
@@ -336,7 +336,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 実・体・移・転・意・思・登・記・義・務・者・名. If any
+attention to 実・体・移・転・意・思・登・記・義・務・者・名・誤. If any
 character renders as a Simplified Chinese variant, redraw that character
 in the correct Japanese form. Confirm every heading, panel label, and
 callout text matches the Japanese text given above verbatim, with no
@@ -377,7 +377,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 合・筆・異・制・限・続・
-申・請・情・報, which have Simplified Chinese look-alike forms with
+申・請・情・報・誤, which have Simplified Chinese look-alike forms with
 visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
@@ -432,7 +432,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 合・筆・異・制・限・続・申・請・情・報. If any character
+attention to 合・筆・異・制・限・続・申・請・情・報・誤. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm every heading, panel label, and callout
 text matches the Japanese text given above verbatim, with no paraphrasing
@@ -444,4 +444,272 @@ FOOTER's small footnote text (no summary recap panel, no trophy or medal
 icon, no re-listed ○/✕ grid, and no additional text block of any kind),
 and confirm the entire canvas, edge to edge, is filled with a fully
 opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「申請義務者は登記記録上の誰か」「合筆の禁止と一の申請情報は別の話か」「原因日付は何が起きた日か」を順に確認できるようにする5パネル構成。②の色分け（申請義務者は誰か＝緑、原因日付・申請手続をどう書くか＝青）を引き継ぎ、肢アと肢ウは「申請義務者＝その土地の所有権の登記名義人」という共通の決定木を共有する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(地目変更登記、申請するのは誰？), but built as a set of 5 diagram-drawing
+panels (a "how to sketch this fact pattern, in the right order" study
+reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots with 地目 tags (畑, 宅地,
+田, 雑種地), a land registry book (登記記録) with name plates, seller and
+buyer figures, an isometric apartment building (区分建物) standing on a
+land plot, application-form folders, and calendar icons on a timeline —
+adapt the icon set to the topic of 地目の変更の登記. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (はい/いいえ)
+branch arrows, and a final conclusion node. Where a 肢 is resolved by a
+single check, a labeled illustrative diagram is sufficient — do not
+force a flowchart. Panels 1, 2 and 3 are flowcharts. Panel 4 is a
+left-to-right timeline. Panel 5 is a correct-rule vs. mistaken-belief
+comparison (top: correct rule, bottom: mistaken belief crossed out).
+Panels 1 and 3 share ONE decision tree: a common root node reading
+「申請義務者＝その土地の表題部所有者または所有権の登記名義人」 that splits
+into two sub-branches — 「売買の途中」 (used by panel 1) and 「敷地権付き
+土地」 (used by panel 3). In each of these two panels, render the
+sub-branch relevant to THIS panel with a thick highlighted border and
+full color, and render the other sub-branch in a faded, greyed-out,
+dotted-outline style rather than omitting it — the reader should be able
+to see at a glance which part of the shared tree this panel is about.
+Where a diagram must show a person who conceptually never held the status
+in question (the 区分建物の所有者 in panel 3, who is never the applicant),
+render that figure in a faded or dotted-outline style rather than a plain
+✕ mark, so the visual itself communicates "this was never really there."
+Where a diamond node has two outcomes that are both real conclusions (the
+diamond in panel 1 and the first diamond in panel 2), draw BOTH the はい
+arrow and the いいえ arrow to their own separate conclusion nodes, exactly
+as specified below. Never draw any loop arrow that returns from a diamond
+or a conclusion node back to an earlier node — every arrow must move
+forward to a new node. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element
+(e.g. keep 「表題部所有者」 and 「所有権の登記名義人」 as the two named
+holders of the duty, and keep the 37条1項 outcome and the 37条2項
+outcome in panel 1 as two distinct conclusion nodes).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成28年度午後第8問 ア〜オ
+作図ガイド（地目変更登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+移転登記が済むまでは売主Aが申請義務者
+Diagram: A decision flowchart drawn on the shared tree. Top: the shared
+root node reading 「申請義務者＝その土地の表題部所有者または所有権の登記
+名義人」, splitting into two sub-branches. The LEFT sub-branch, labeled
+「売買の途中」, is highlighted with a thick green border and full color.
+The RIGHT sub-branch, labeled 「敷地権付き土地」, is faded, greyed-out and
+drawn with a dotted outline. Below the highlighted left sub-branch: step
+node 1 (rectangle) reading 「地目の変更が生じた時点の登記記録上の名義人を
+見る」, with an isometric land registry book showing an A name plate
+labeled 所有権の登記名義人. Beside step node 1, a small faded,
+dotted-outline side box reading 「契約で民法上の所有権はBへ（申請義務の
+基準ではない）」, showing A and B shaking hands over a contract; this side
+box is NOT connected to the flow by any arrow. Below step node 1, a
+diamond node reading 「地目の変更後、買主Bへの所有権移転登記はされたか？」.
+From the diamond, a いいえ arrow goes down-left to conclusion node A
+(green, with A wearing a 申請義務 badge) reading 「売主Aが、地目の変更が
+生じた日から1か月以内に申請（37条1項）」. From the same diamond, a はい
+arrow goes down-right to a separate conclusion node B (light green, with B
+now holding the name plate and a 申請義務 badge) reading 「買主Bが、所有権
+の登記があった日から1か月以内に申請（37条2項）」. Mark the いいえ path
+with a small tag reading 「本肢はこちら」. Both arrows end at their own
+conclusion nodes; no arrow returns to the diamond or to step node 1.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目の変更が生じた時点で、登記記録上の所有権の登記名義人が誰かを
+確認します。次に、買主Bへの所有権移転登記がされたかを確認し、されてい
+なければ売主Aが申請義務を負い、地目の変更後に移転登記がされたときは、
+Bがその登記があった日から1か月以内に申請義務を負います。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+移転登記前は売主A
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+地目変更と合筆は一の申請情報で申請できる
+Diagram: A two-step decision flowchart. Start: two isometric land plots
+side by side, 甲土地 tagged 畑 and 乙土地 tagged 宅地. First diamond node
+reading 「地目が異なったままの状態で合筆しようとしているか？」. From this
+diamond, a はい arrow goes right to a faded conclusion node with a red
+prohibition mark reading 「合筆できない（41条2号）」. From the same
+diamond, a いいえ arrow (highlighted, thick blue) goes down to a step node
+showing 甲土地 passing through a 地目変更登記 stamp that changes its tag
+from 畑 to 宅地, labeled 「地目変更登記で地目をそろえてから合筆」. Below
+that, a second step node (rectangle, highlighted) reading 「表題部の変更
+登記＋合筆登記の組合せ（規則35条7号）」, leading down to the final
+conclusion node: a single application folder labeled 一の申請情報
+containing both a 地目変更 form and a 合筆 form, with a large green
+checkmark, reading 「一の申請情報でまとめて申請できる」. Every arrow moves
+forward to a new node; no loop arrow anywhere.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、不動産登記法41条2号が禁止しているのは「地目が異なったままの状態
+での合筆」であり、地目変更登記で地目をそろえれば合筆できることを確認
+します。次に、不動産登記規則35条7号により、表題部の変更登記（地目変更）
+と合筆登記は一の申請情報でまとめて申請できることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一の申請情報でできる
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+地上権が敷地権なら地上権設定者が申請する
+Diagram: The same shared tree as panel 1. Top: the shared root node
+reading 「申請義務者＝その土地の表題部所有者または所有権の登記名義人」,
+splitting into two sub-branches. This time the LEFT sub-branch, labeled
+「売買の途中」, is faded, greyed-out and drawn with a dotted outline, and
+the RIGHT sub-branch, labeled 「敷地権付き土地」, is highlighted with a
+thick green border and full color. Below the highlighted right
+sub-branch: an isometric apartment building (区分建物) standing on a land
+plot, with a tag on the land reading 地上権（敷地権）. A diamond node
+reading 「この土地の敷地権は地上権か？」, with a はい arrow down to a step
+node reading 「土地の所有権の登記名義人は地上権設定者（土地所有者）」,
+showing a landowner figure below the building holding the land registry
+name plate. That step node leads down to the conclusion node reading
+「地上権設定者が地目変更登記を申請」, with the landowner figure wearing a
+glowing 申請人 badge. Beside the building, the resident figures labeled
+区分建物の所有権登記名義人 are drawn in a faded, dotted-outline style
+with a small label reading 「申請人ではない」, not connected to the
+conclusion node. No loop arrow anywhere.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目変更登記の申請人は、その土地の表題部所有者または所有権の登記
+名義人であることを確認します。次に、敷地権が地上権であれば、土地の所有
+権の登記名義人は地上権を設定した土地所有者（地上権設定者）であり、区分
+建物の所有権登記名義人ではないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地上権設定者が申請
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+原因日付は許可日でなく現況が変わった日
+Diagram: A left-to-right timeline arrow. On the left, an isometric 畑 land
+plot. First point on the timeline: a calendar icon reading 4月1日 with a
+document icon labeled 農地法の許可, drawn in a faded style with a small
+label reading 「転用の前提条件」 and a red ✕ label reading 「原因日付では
+ない」. Second point on the timeline: a calendar icon reading 5月20日,
+highlighted with a thick blue border, above an isometric land plot that
+has been leveled into 宅地 shape, labeled 「現況が変更した日」 and a green
+checkmark label reading 「原因日付」. At the right end, a registry book
+with a line reading 畑→宅地.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記原因の日付は登記すべき事実が生じた日、つまり土地の現況に変更
+が生じた日であることを確認します。次に、農地法の許可は転用の前提条件に
+すぎず、原因日付には許可があった日ではなく現況が変更した日を書くことを
+確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+現況変更日が原因日付
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+数回の地目変更も今の地目へ一度で登記できる
+Diagram: A two-row comparison frame. TOP row (highlighted with a thick
+blue border), labeled 「正しいルール」: an isometric registry book showing
+田 on the left and an isometric land plot currently used as 宅地 on the
+right, connected by ONE direct thick arrow labeled 「田→宅地 一度で申請」,
+with a green checkmark. BOTTOM row (faded, greyed-out), labeled 「誤りやす
+い思い込み」: the sequence 田 → 雑種地 → 宅地 drawn as two separate
+application forms labeled 「田→雑種地」 and 「雑種地→宅地」, with the
+whole row overlaid by a large red ✕ and a strike-through line, and a small
+label reading 「途中の地目を経由する必要はない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記記録上の地目と現在の地目を確認します。次に、途中の地目（雑種
+地など）を経由して段階的に登記し直す必要はないことを確認し、登記記録上
+の地目から直接現在の地目への変更登記を一度に申請します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+途中の地目は経由不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+ア：不動産登記法37条1項・2項／イ：不動産登記法41条2号・不動産登記規則
+35条7号／ウ：不動産登記法37条1項／エ・オ：先例・実務上の取扱い
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 登・記・権・義・務・請・転・許・現・
+況・筆・設・区・経・変・地・敷. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously (panels 1 and 3 in
+green, panels 2, 4 and 5 in blue), there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢 (panels 1, 2 and 3) is drawn as an actual flowchart
+with branch nodes (not a bare illustration with no visible decision
+structure), that no 肢 with a genuinely hidden second condition has been
+flattened into a single check, that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element
+from the source article distinct (no merged or dropped requirements),
+that the diamond in panel 1 has both its はい and いいえ arrows ending at
+their own separate conclusion nodes (37条1項 for A and 37条2項 for B),
+that no loop arrow returns to any earlier node in any panel, that panels
+1 and 3 share the same tree and each clearly distinguishes its own
+highlighted sub-branch from the other, faded sub-branch, confirm nothing
+is rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
 ```

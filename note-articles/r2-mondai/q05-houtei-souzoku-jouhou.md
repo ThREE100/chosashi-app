@@ -120,7 +120,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 図・証・還・戸・請・廃・除 — these must be rendered in their standard
+kanji 図・証・還・戸・請・廃・除・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -191,4 +191,193 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、法定相続情報一覧図の写しを「どの場面で・どこまで使えるか」を思考順序に沿って確認できるようにする5パネル構成。肢アだけは「管轄登記所につづり込み済みか」という条件分岐で結論が変わるため決定木として描き、他の4肢は単一チェックの図解にする。②の色分け（写しの提出・返却に関するルール＝緑、記載内容・利用場面の広がり＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a registry pigeonhole file labeled 法定相続情報
+一覧図つづり込み帳, family-tree register documents (法定相続情報一覧図の
+写し), koseki (family register) bundles, a registry-office counter, a
+calendar, an infinity mark, and a parcel map — adapt icon set to the
+topic of 法定相続情報一覧図の利用場面. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panel 1 (肢ア) must be drawn as a decision flowchart, because whether the
+number alone suffices depends on a real precondition (has the register
+office already filed a copy of this person's 一覧図?); give the diamond
+node's two branches distinct, clearly labeled conclusion nodes and no
+looping arrow back into the flow. Panel 4 (肢エ) should render an excluded
+heir (a person who was disinherited and never appears in the 一覧図) in a
+faded, dotted-outline style within the family-tree diagram, rather than
+just an X mark, so the visual communicates that this person's share was
+never really there. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度午後第5問（改） ア〜オ
+作図ガイド（法定相続情報一覧図）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+つづり込み済みなら番号提供のみで足りる
+Diagram: An isometric registry pigeonhole file labeled 「法定相続情報一覧図
+つづり込み帳」 at the land's managing registry office. This leads into a
+diamond branch node labeled 「管轄登記所のつづり込み帳に、当該登記名義人の
+法定相続情報一覧図が既につづり込まれているか？」. The はい branch
+(highlighted with a thick colored border, full color) leads to a
+conclusion node reading 「法定相続情報番号の提供のみで足り、一覧図の写しの
+改めての添付は不要」, illustrated with a small memo icon labeled 「法定
+相続情報番号」 pointing an arrow into the application document. The
+いいえ branch (faded, greyed-out, dotted outline) leads to a conclusion
+node reading 「一覧図の写し（または戸籍一式）の提供が必要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請先の登記所の法定相続情報一覧図つづり込み帳に、その登記名義人の
+一覧図が既につづり込まれているかを確認します。つづり込まれていれば、法定
+相続情報番号を申請情報に記載するだけで、相続があったことを証する情報の
+提供に代えることができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+番号だけで代替できる
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+一覧図の写しは還付を請求できる
+Diagram: An isometric document icon (法定相続情報一覧図の写し) being
+submitted at a registry-office counter, then a curved return arrow
+labeled 「還付請求」 bringing the same document icon back into the
+applicant's hand.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、一覧図の写しを相続があったことを証する情報として提出したことを確認
+します。次に、他の添付書面と同様に原本還付の対象となることを確認し、還付
+を請求すれば写しの返却を受けることができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+還付請求できる
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+一覧図の写しに有効期間の制限はない
+Diagram: A side-by-side comparison frame. LEFT box (faded, greyed-out,
+dotted outline, labeled 「誤りやすい思い込み」): a calendar icon with a
+「作成後3ヶ月」 deadline mark and a large red X over it. RIGHT box
+(highlighted with a thick colored border, full color, labeled 「正しい
+ルール」): the same 一覧図の写し document icon beside an infinity-mark
+icon labeled 「有効期間の制限なし」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、一覧図の写しの提出について、戸籍の証明書のような「作成後◯ヶ月以内」
+という期限があるのではないかと疑って確認します。相続関係は時間が経っても
+変わらないため、一覧図の写しにはそのような有効期間の制限はありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+有効期間なし
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+廃除者不記載のため戸籍提出を省略できる
+Diagram: A family-tree diagram in the shape of the 一覧図: 被相続人Ａが
+最上段、妻Ｂと子Ｃが同じ世代として横に並ぶ。妻Ｂのシルエットだけを faded,
+dotted-outline style で描き、一覧図の枠からはみ出すように配置して「一覧図
+には記載されない」ことを示す。子Ｃのシルエットは実線・フルカラーで描く。
+その脇に戸籍全部事項証明書の書類アイコンに大きな赤い「省略可」のスタンプを
+重ねる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、廃除された推定相続人が法定相続情報一覧図に相続人として記載されて
+いるかを確認します。廃除された者は原則として一覧図に記載されないため、
+一覧図の写しを提出すれば、廃除された旨が記載された戸籍の全部事項証明書の
+提供を別途省略することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+戸籍提出を省略可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+地図訂正の申出でも一覧図で代用できる
+Diagram: An isometric map icon with parcel boundary lines (地図の訂正の
+申出) placed beside the 一覧図の写し document icon, connected by an arrow
+labeled 「相続があったことを証する情報の提供に代える」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この手続が登記の申請ではなく地図の訂正の申出であることを確認します。
+地図の訂正の申出で相続があったことを証する情報が必要な場面でも、法定相続
+情報一覧図の写しの提供をもってその提供に代えることができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+地図訂正にも使える
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則等に基づく法定相続情報証明制度の取扱いの整理です（法定相続
+情報番号のみでの代替は令和6年4月1日施行の改正によります）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 続, 図, 証, 還, 戸, 請, 廃, 除, 相, 号, 込, 帳, 訂 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panel 1 is drawn
+as an actual flowchart with a clearly labeled diamond node and two
+distinct conclusion nodes (no looping arrow), that Panel 4's excluded
+heir is rendered in a faded, dotted-outline style rather than a plain X
+mark, that each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```

@@ -251,7 +251,7 @@ even if a character looks similar. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not paraphrase,
 translate, summarize, or substitute any characters. Pay special attention
-to the kanji 証・印・鑑・委・任・状・代・表・者・格・限・戸・籍・還, which
+to the kanji 証・印・鑑・委・任・状・代・表・者・格・限・戸・籍・還・相・続, which
 have Simplified Chinese look-alike forms with visibly different stroke
 shapes — always draw the standard Japanese (Jōyō) form of these characters.
 
@@ -345,7 +345,7 @@ Small credit text in the corner (optional, keep minimal):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 証・印・鑑・委・任・状・代・表・者・格・限・戸・籍・還. If any
+attention to 証・印・鑑・委・任・状・代・表・者・格・限・戸・籍・還・相・続. If any
 character renders as a Simplified Chinese variant, redraw that character
 in the correct Japanese form. Confirm the left column has exactly 4 rows
 and the right column has exactly 4 rows, each numbered 1 through 4 in the
@@ -357,6 +357,254 @@ Confirm nothing is rendered below the FOOTER's small credit text (no
 summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
 all 肢, and no additional text block of any kind — the poster ends
 immediately after the footer credit line), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「その書類を何のために提供するのか」「3か月ルールの規定に当たるか」「原本還付の対象外の書類か」「例外の事情があるか」を、どの順番で確認すればよいかを示す解き方ガイド。ア・ウは同じ判定フロー（その書類は令16条3項・17条1項・18条3項のどれかに当たるか）を共有し、それぞれ自分の枝だけを強調する構成にそろえてある。オは、確認事項ブロックに記載した規則36条1項・2項の例外（登記事項証明書を提供する場合）を2つ目の分岐として可視化している。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2800 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric certificate-of-seal icons, application
+form icons, land-plot icons split into parcels, power-of-attorney
+documents, corporate building icons, calendar icons with or without a
+3-month countdown gauge, diamond-shaped decision nodes, and ○/✕ branch
+marks. Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or はい/いいえ) branch arrows, and a final conclusion node.
+Where a 肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set (panels 1 and 3 share the same
+tree), render the branch relevant to THIS panel with a thick highlighted
+border and full color, and render the other, unrelated branches in a
+faded, greyed-out, or dotted-outline style rather than omitting them —
+the reader should be able to see at a glance which part of the shared
+tree this panel is about. Every branch arrow must lead forward to its own
+new node; never draw a loop arrow that returns from a diamond node to an
+earlier node. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking ORDER
+in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element (e.g. keep 所在, 地目,
+and 地積 as three distinct items in panel 2).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成28年度 午後の部 第6問　ア〜オ
+作図ガイド（土地の表示に関する登記の申請情報・添付情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+住所証明として出す印鑑証明書に期限はない
+Diagram: A shared decision flowchart (the same tree is reused in panel 3).
+At the top, a start node showing an isometric 印鑑に関する証明書 icon
+labeled「表題登記で所有者の住所を証する情報として提供」. Below it, diamond
+node A labeled「申請書または委任状に押印した印鑑についての証明書か？」
+with two branch arrows: a "はい" arrow leading to its own conclusion node
+「作成後3か月以内が必要（令16条3項・18条3項）」with a calendar icon showing
+a ticking 3か月 gauge, and a "いいえ" arrow (THIS panel's path) leading
+down to diamond node B labeled「代表者資格証明情報・代理権限証明情報のうち、
+市町村長・登記官など公務員が職務上作成したものか？」. From node B, a
+"はい" arrow leads to its own conclusion node「作成後3か月以内が必要（令17条
+1項）」with the same ticking 3か月 gauge, and a "いいえ" arrow (THIS panel's
+path) leads to the final conclusion node「期間の制限なし（別表4項添付情報欄
+ニの住所証明情報）」with a static calendar icon and no countdown gauge.
+For THIS panel, render the path start node → node A「いいえ」→ node B
+「いいえ」→「期間の制限なし」with a thick green highlighted border and full
+color; render both "はい" branches and their 3か月 conclusion nodes in a
+faded, greyed-out, dotted-outline style. Beside node A, a small label tag
+reads「同じ印鑑証明書でも、何のために出すかで期限が変わる」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その印鑑証明書を押印の証明のために出すのか、住所の証明のために出す
+のかを確認します。次に、令16条3項・17条1項・18条3項のどれかに当たるかを
+確認し、どれにも当たらなければ期限はありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+住所証明なら期限なし
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+分筆後の各土地に所在・地目・地積を書く
+Diagram: A labeled layout diagram (not a flowchart). On the left, one wide
+isometric farm-field land plot labeled「分筆前の土地（1筆）」. A bold arrow
+labeled「分筆」points right to the same field now divided by a dashed
+boundary line into two plots labeled「分筆後の土地①」and「分筆後の土地②」.
+Beneath each of the two new plots, draw its own small application-form
+card listing exactly three separate lines, each with a bright green
+checkmark: 「所在（市、区、郡、町、村及び字）」「地目」「地積」. Keep the
+three lines as three distinct items on each card — do not merge them into
+one line. A small label beside the cards reads「別表8項申請情報欄イ」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆後にできる土地を1筆ずつ書き出します。次に、それぞれについて
+所在・地目・地積の3つを申請情報の内容としているかを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+所在・地目・地積を記載
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+資格者代理人の本人確認情報に期限はない
+Diagram: The same shared decision flowchart as panel 1, redrawn at the
+same size and in the same layout. The start node now shows an isometric
+資格者代理人 figure holding a document labeled「本人確認情報（登記識別情報を
+提供できないとき）」. Diamond node A「申請書または委任状に押印した印鑑に
+ついての証明書か？」: its "はい" arrow leads to the conclusion node「作成後
+3か月以内が必要（令16条3項・18条3項）」, and its "いいえ" arrow (THIS panel's
+path) leads down to diamond node B「代表者資格証明情報・代理権限証明情報の
+うち、市町村長・登記官など公務員が職務上作成したものか？」. Node B's "はい"
+arrow leads to the conclusion node「作成後3か月以内が必要（令17条1項）」, and
+its "いいえ" arrow (THIS panel's path) leads to the final conclusion node
+「期間の制限なし（規則72条の本人確認情報）」with a static calendar icon and
+no countdown gauge. For THIS panel, render the path start node → node A
+「いいえ」→ node B「いいえ」→「期間の制限なし」with a thick green highlighted
+border and full color; render both "はい" branches and their 3か月
+conclusion nodes in a faded, greyed-out, dotted-outline style. Off to the
+side of the final node, as a separate small box connected by a thin
+dotted line (not part of the decision path), draw an ID-card icon labeled
+「面談で提示を受ける本人確認書類は、提示日に有効なものが必要（別の話）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、本人確認情報が令16条3項・17条1項・18条3項のどれかに当たるかを確認
+し、どれにも当たらないので期限はないと判断します。次に、提示日に有効で
+あることが必要なのは、面談で見せる本人確認書類のほうだと区別します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+本人確認情報も期限なし
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+申請のためだけに作った委任状は還付されない
+Diagram: A two-frame comparison layout (not a flowchart). At the top, a
+small question strip reads「その書類は、この申請のためにのみ作成された
+ものか？」. Below it, two side-by-side frames. Left frame, red header
+「原本の還付を請求できない」, containing two items: (1) an isometric 委任状
+document stamped「この申請のためにのみ作成」, rendered with a thick red
+highlighted border as THIS panel's case and labeled「今回のケース」, shown
+being filed away with no return arrow; (2) a smaller certificate-of-seal
+icon labeled「申請書・委任状に押印した印鑑についての印鑑証明書」, also
+with no return arrow. Right frame, green header「原本の還付を請求できる」,
+containing one item: an isometric document labeled「住民票の写しなど、
+他の手続でも使える書類」with a curved arrow handing it back to its owner.
+A small label under the frames reads「規則55条1項ただし書」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、還付を求める書類が、この申請のためにのみ作成されたものかを確認
+します。委任状がこれに当たれば、書面申請でも原本の還付は請求できません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+専用委任状は還付不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+地目変更でも法人は会社法人等番号を提供する
+Diagram: A decision flowchart with 2 sequential diamond-shaped nodes,
+stacked top to bottom. Start node: an isometric corporate building icon
+labeled「申請人：法人」next to an application form labeled「地目の変更の
+登記」. Diamond node 1 labeled「申請人は会社法人等番号を有する法人か？」:
+its "はい" arrow (THIS panel's path, highlighted) leads down to diamond
+node 2; its "いいえ" arrow leads to a small faded, dotted-outline node
+「本問の対象外」. Diamond node 2 labeled「代表者の資格を証する登記事項
+証明書（作成後3か月以内のもの）を提供して申請するか？」: its "はい" arrow
+leads to its own conclusion node「例外：会社法人等番号の提供を要しない
+（規則36条1項・2項）」, drawn in a lighter style and labeled「本問にはこの
+事情が示されていない」; its "いいえ" arrow (THIS panel's path, thick blue
+highlighted border) leads to the final conclusion node「会社法人等番号を
+申請情報と併せて提供しなければならない（令7条1項1号イ）」with a number
+badge icon labeled 会社法人等番号 attached to the application form. A
+small label tag beside the start node reads「地目の変更の登記でも同じ」.
+Both conclusion nodes of diamond node 2 must be drawn as separate forward
+destinations — no loop arrow back to any earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請人が会社法人等番号を有する法人かを確認します。次に、登記事項
+証明書を提供する例外の事情が示されているかを確認し、なければ地目の変更
+の登記でも会社法人等番号の提供が必要です。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+番号の提供が必要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠条文：不動産登記令7条1項1号イ・16条3項・17条1項・18条3項・別表4項・別表8項、不動産登記法23条4項1号、不動産登記規則36条1項・2項・55条1項・72条。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 証・印・鑑・還・請・号・記・登・権・
+確・認・報・筆・委・任・状・職・資・格・番・地. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character that
+is not standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+panels 1, 3, and 5 are drawn as actual flowcharts with visible diamond
+branch nodes (not bare illustrations with no visible decision structure),
+that panels 1 and 3 show the same shared tree with their own highlighted
+path and the other branches faded, that panel 5 keeps its second
+condition (the 登記事項証明書 exception) as a separate branch node rather
+than flattening it into a single check, that panel 2 keeps 所在, 地目, and
+地積 as three distinct items, that no loop arrow returns from any diamond
+node to an earlier node, that each 着眼点 callout states a checking order
+rather than only a conclusion and keeps every required element from the
+source article distinct (no merged or dropped requirements), confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
 edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```

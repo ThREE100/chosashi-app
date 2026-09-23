@@ -211,3 +211,188 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+「地図に何が記録されるか」という思い込みを正すイ、「指定を受ければ地図になる」「地積差が公差内なら更正不要」という複数条件をどの順で確認するかがカギになるウ・オを中心とした5パネル構成。イは正しいルールと誤りやすい思い込みを左右で対比させる正誤対比型、ウ・オは2段階の決定木として描く。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article
+(地図、どうやって作られ証明される?), but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric survey/GNSS icons, a digital map
+screen with triangulation-point markers, a rolled-up survey-map scroll, a
+filing-cabinet drawer for closed maps, and a balance-scale icon for the
+公差 comparison - adapt icon set to the topic of 地図の作成・記録事項・
+備付け・訂正. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (はい/いいえ) branch arrows, and a final
+conclusion node for every branch (no branch may be left without its own
+conclusion node, and no arrow may loop back to an earlier node). Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Where a 肢 is really about telling
+apart two similar-looking rules (something the reader mistakenly assumes
+vs the actual rule), draw it as a left/right comparison panel instead of a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently throughout, including inside Japanese asides.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和5年度午後第6問 ア〜オ
+作図ガイド(地図)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+電子基準点を基礎に測量できる
+Diagram: An isometric surveyor character holding a GNSS receiver,
+connected by dotted measurement lines upward to a satellite icon labeled
+電子基準点 and downward to a ground survey point, with the measurement
+lines extending outward to define a land plot boundary on the ground.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず地図を作成するための測量が、どの基準点を基礎にしているかを確認しま
+す。基本測量の成果である電子基準点は、地図作成の測量の基礎として使うこ
+とができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+電子基準点が基礎
+
+--- PANEL 2(肢イ) ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+記録するのは位置だけで名称と座標値は対象外
+Diagram: A left/right comparison panel. Left side, labeled 実際に記録す
+る事項 (highlighted in full color with a checkmark): a digital map screen
+showing a 基本三角点 pillar icon with only a 位置 label pin attached.
+Right side, labeled うっかり思い込みやすい記録事項 (rendered faded/
+greyed-out with a red ✕ overlay): the same pillar icon but with 名称 and
+座標値 labels attached to it as if they were also recorded.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず地図に記録される事項が基本三角点等の「位置」なのか、それとも「名称
+及び座標値」まで含むのかを確認します。記録が義務付けられているのは位置
+だけで、名称・座標値は記録事項ではありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+名称・座標値は対象外
+
+--- PANEL 3(肢ウ) ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+指定を受け特別事情なければ地図になる
+Diagram: A decision flowchart. Start node: 国土調査法19条5項の指定を受
+けた実測図か?. A いいえ arrow leads to its own conclusion node reading
+地図として備え付けられない. A はい arrow leads to a second diamond node:
+これを地図として備え付けるのを不適当とする特別の事情があるか?. From
+this second diamond, a いいえ arrow leads to a conclusion node showing
+the 実測図 scroll being mounted onto a wall display labeled 地図, reading
+地図として備え付けられる, and a separate はい arrow leads to its own
+conclusion node reading 地図として備え付けられない. No arrow loops back
+to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその実測図が国土調査法19条5項の指定を受けているかを確認し、次にそ
+れを地図として備え付けるのを不適当とする特別の事情がないかを確認しま
+す。両方を満たせば、土地家屋調査士が作成した実測図も地図として備え付け
+られます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+地図として備付可
+
+--- PANEL 4(肢エ) ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+閉鎖後も認証文付きの写しを請求できる
+Diagram: An isometric filing-cabinet drawer holding an old map page
+stamped 閉鎖 in red. A hand reaches in and pulls out a certified copy of
+that page bearing an official 認証 seal, handing it across a counter to a
+citizen figure.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず新しい地図が備え付けられて古い地図に準ずる図面が閉鎖されたことを確
+認します。閉鎖された図面であっても、閉鎖されたものである旨の認証文が入
+った写しの交付を請求することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+閉鎖後も写し請求可
+
+--- PANEL 5(肢オ) ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+差が公差内なら地積更正は不要
+Diagram: A decision flowchart. Start node: 地図訂正の申出に係る土地の登
+記記録上の地積に錯誤があるか?. A いいえ arrow leads to its own
+conclusion node reading 地積更正登記は問題にならない. A はい arrow leads
+to a second diamond node showing a balance-scale icon comparing 測量した
+地積 and 登記記録上の地積: その差は公差の範囲内か?. From this second
+diamond, a はい arrow leads to a conclusion node with a crossed-out 地積
+更正登記 form, reading 地積更正登記は併せて不要, and a separate いいえ
+arrow leads to its own conclusion node reading 地積更正登記を併せて申請
+する必要がある. No arrow loops back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず登記記録上の地積に錯誤があるかを確認し、次にその差が公差の範囲内か
+を確認します。差が公差の範囲内であれば、地図訂正の申出だけで足り、地積
+の更正の登記を併せてする必要はありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+公差内なら更正不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則10条3項・5項・13条1項・2項・16条2項、国土調査法19条5項、
+不動産登記事務取扱手続準則136条1項9号・10号に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 録, 地, 登, 記, 所, 証, 図, 錯 and any character that has a
+visually similar Simplified Chinese variant. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panel 2 is drawn as a left/right
+comparison with the faded/×'d side clearly distinguished from the
+highlighted correct side, that Panels 3 and 5 are each drawn as actual
+flowcharts with two diamond nodes and every branch reaching its own
+distinct conclusion node with no looping arrows, that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

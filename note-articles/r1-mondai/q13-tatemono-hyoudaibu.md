@@ -115,7 +115,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記・保・存・錯・誤・抹・消・閉・鎖・復・活・先・取・権・題・属・滞・合・体・分・割
+kanji 建・物・登・記・保・存・錯・誤・抹・消・閉・鎖・復・活・先・取・権・題・属・滞・合・体・分・割・相・続
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
 
@@ -209,4 +209,206 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア・イは「抹消された保存登記の名義人は誰か」という同一の決定木を共有し、それぞれ自分の枝
+（本人名義／相続人等名義）を強調表示・もう一方を淡色表示する構成にした（緑）。ウ・エは
+「先取特権の保存登記（仮の登記事項）→建物・附属建物の完成→改めて表題登記／変更登記」と
+いう共通のタイムラインを、新築建物（ウ）と附属建物（エ）それぞれについて描き分けた（青）。
+オは「丙建物を乙建物から独立させる分割の登記」→「甲建物と丙建物の合体の登記等」という
+2段階の順序を明示するフローチャートにした（橙）。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry record folders/binders,
+house and small attached-building icons, cancellation/closure stamps,
+clock icons for timing, split/merge arrows, diamond-shaped decision
+nodes, checkmarks and cross marks. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Panels 1
+and 2 (肢ア and 肢イ) share one decision tree asking "抹消された所有権
+保存の登記の名義人は誰か": render the branch relevant to THIS panel with
+a thick highlighted border and full color, and render the other,
+unrelated branch in a faded, greyed-out, or dotted-outline style rather
+than omitting it — the reader should be able to see at a glance which
+part of the shared tree this panel is about. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度　午後の部　第13問　ア〜オ
+作図ガイド（建物の表題部の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+本人名義の保存登記なら記録ごと閉鎖
+Diagram: 決定木。ひし形の分岐ノード「抹消された所有権の保存の登記の
+名義人は誰か」を上部に描く。右側の枝「表題部所有者本人」を太い縁取り・
+フルカラーで強調し、その先に結論ノード「登記記録を閉鎖し、真の所有者Bが
+改めて表題登記を申請（または登記官が職権で表題登記）」を配置する。左側の
+枝「相続人・一般承継人・区分建物取得者等」は薄いグレー・破線の縁取りで
+淡色表示し、その先の結論ノード「表題部所有者の記録を復活、閉鎖されない」
+も同様に淡色表示する（このパネルでは参考として示すのみ）。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、抹消された保存登記の名義人が表題部所有者本人か、それとも相続人等か
+を確認します。本人名義であれば、いったん否定された表題部所有者をそのまま
+復活させるのは適切でないため、登記記録そのものを閉鎖し、真の所有者Bが
+改めて表題登記を申請する（または登記官が職権で表題登記をする）ことに
+なります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+改めて表題登記からやり直し
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+相続人名義の保存登記なら記録は復活
+Diagram: パネル1と同じ決定木を再掲する。今度は左側の枝「相続人・一般
+承継人・区分建物取得者等」を太い縁取り・フルカラーで強調し、その先の
+結論ノード「表題部所有者の記録を復活、閉鎖されない」を強調表示する。
+右側の枝「表題部所有者本人」とその結論ノード「登記記録を閉鎖」は薄い
+グレー・破線の縁取りで淡色表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、抹消された保存登記の名義人が本人か相続人等かを確認します。相続人
+その他の一般承継人や、区分建物の所有権を取得した者がした保存登記で
+あれば、表題部所有者が所有者であったこと自体は否定されないため、表題部
+所有者に関する登記事項を復活させ、登記記録は閉鎖しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+登記記録は閉鎖されない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+新築建物は完成後に表題登記が必要
+Diagram: 左から右へ3段階のタイムライン。①建設中の建物アイコンに
+「不動産工事の先取特権の保存の登記（種類・構造・床面積は設計書による）」
+のラベル。②矢印の先に「建物が完成」のアイコンと緑の✓マーク。③さらに
+矢印の先に「表題登記を改めて申請（設計書によるみなし事項を抹消し、現況
+どおりの登記事項・表題部所有者・新築年月日を記録）」の申請書フォルダ。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、不動産工事の先取特権の保存の登記は建物完成前の設計書による仮の
+登記事項にすぎないことを確認します。次に、建物が実際に完成したかを
+確認し、完成していれば現況どおりの内容で改めて表題登記を申請する必要が
+あります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+完成後は表題登記が必要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+附属建物完成後は遅滞なく変更登記
+Diagram: パネル3と同じ構図のタイムラインを、対象を附属建物に置き換えて
+描く。①所有権登記済みの母屋アイコンにくっついた小さな離れ（附属建物）
+アイコンに「不動産工事の先取特権の保存の登記（設計書による）」のラベル。
+②矢印の先に「附属建物が完成」のアイコンと緑の✓マーク。③さらに矢印の先に
+時計アイコン「遅滞なく」のラベルと、「建物の表題部の変更の登記を申請
+（設計書によるみなし事項を抹消し、附属建物の符号・新築年月日を記録）」の
+申請書フォルダ。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対象が単独の建物ではなく、既に所有権の登記がある建物の附属建物で
+あることを確認します。次に、附属建物が完成したかを確認し、完成していれば
+遅滞なく建物の表題部の変更の登記を申請しなければなりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+遅滞なく変更登記を申請
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in orange containing the number 5.
+Heading (bold, ONE line):
+附属建物の合体はまず分割登記が前提
+Diagram: フローチャート。上部に「甲建物と、乙建物の附属建物として登記
+されている丙建物とが増改築工事で一個の建物になった」という前提を示す
+配置図（乙建物にくっついた丙建物のアイコン）。矢印①に番号を振り「丙
+建物を乙建物から切り離す分割の登記を申請」の申請書フォルダへ進む。
+続けて矢印②に番号を振り、分割後に独立した丙建物と甲建物が合体する図へ
+進み、最後に「合体後の建物についての表題登記、及び合体前の甲建物・乙
+建物の表題部の登記の抹消を申請」の申請書フォルダに至る。①を飛ばして
+いきなり②から始める矢印には赤い✕マークを重ね、「順番を飛ばすと合体の
+登記等はできない」の注記を添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体させる丙建物が乙建物の附属建物として登記されたままであること
+を確認します。次に、丙建物を乙建物から独立させる分割の登記を先に申請
+しない限り、合体後の建物についての表題登記及び合体前の甲建物・乙建物の
+表題部の登記の抹消を申請することはできません。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+分割してから合体登記へ
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+保存登記の錯誤抹消後の取扱い、先取特権の保存登記後の表題登記・変更登記、
+合体前の分割登記の要否は、いずれも先例による取扱いを整理したもの（先例
+番号は本図中省略）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 建・物・登・記・保・存・錯・誤・抹・消・閉・鎖・復・活・先・
+取・権・題・属・滞・合・体・分・割・相・続・義・録・変・図・確・認. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese
+form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that panels 1 and 2 sharing the same decision tree clearly
+distinguish their own highlighted branch from the other, faded branch,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```

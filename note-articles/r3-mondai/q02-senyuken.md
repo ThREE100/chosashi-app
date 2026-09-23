@@ -112,7 +112,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・物・所・訴・承・継・改, which appear multiple times below and
+kanji 権・物・所・訴・承・継・改・提・起, which appear multiple times below and
 have Simplified Chinese look-alike forms — render them only in standard
 Japanese Jōyō form.
 
@@ -200,7 +200,7 @@ illustration, blue, 5-15 Japanese characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — especially 権・
-物・所・訴・承・継・改. If any character renders as a Simplified Chinese
+物・所・訴・承・継・改・提・起. If any character renders as a Simplified Chinese
 variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (Column A: cards 1-3 in green, Column B:
 cards 4-5 in blue, numbers continuous, not restarted in column B), with no
@@ -379,7 +379,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・物・所・訴・承・継・改. If any character renders as a
+attention to 権・物・所・訴・承・継・改・提・起. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between

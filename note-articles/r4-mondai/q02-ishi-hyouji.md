@@ -112,7 +112,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 偽・欺・迫・対・転・継・悪・過・失・権 — these must be rendered in
+kanji 偽・欺・迫・対・転・継・悪・過・失・権・相・続 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -195,7 +195,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 偽・欺・迫・対・転・継・悪・過・失・権. If any character
+attention to 偽・欺・迫・対・転・継・悪・過・失・権・相・続. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
@@ -241,7 +241,7 @@ Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not
 paraphrase, translate, summarize, or substitute any characters. Pay
 special attention to the kanji 偽・欺・迫・対・転・継・悪・過・失・権・
-善・意・護, which have Simplified Chinese look-alike forms with visibly
+善・意・護・相・続, which have Simplified Chinese look-alike forms with visibly
 different stroke shapes — always draw the standard Japanese (Jōyō) form
 of these characters.
 
@@ -339,7 +339,7 @@ Small credit text (2行):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 偽・欺・迫・対・転・継・悪・過・失・権・善・意・護. If any
+attention to 偽・欺・迫・対・転・継・悪・過・失・権・善・意・護・相・続. If any
 character renders as a Simplified Chinese variant, redraw that character
 in the correct Japanese form. Confirm every node label matches the
 Japanese text given above verbatim, with no paraphrasing and no
@@ -528,7 +528,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 偽・欺・迫・対・転・継・悪・過・失・権・善・意・護. If any
+attention to 偽・欺・迫・対・転・継・悪・過・失・権・善・意・護・相・続. If any
 character renders as a Simplified Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or

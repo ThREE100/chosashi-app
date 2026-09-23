@@ -115,7 +115,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・権・証・明・情・報・登・記・識・別・電・子・署・名・印・鑑・会・社・法・人・番・住・所・続・覧・図
+kanji 地・権・証・明・情・報・登・記・識・別・電・子・署・名・印・鑑・会・社・法・人・番・住・所・続・覧・図・相
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
 
@@ -205,4 +205,206 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア・ウ・エは「うっかりした思い込み」と「正しいルール」を左右に対比させる正誤対比型にした
+（ア＝緑、ウ・エ＝青）。イは「電子署名・電子証明書の提供により印鑑証明書が不要になる」
+「電子証明書には書面の印鑑証明書のような期間制限も観念できない」という2つの要素を、1つの
+チェックにまとめず2段階の順序で描く決定木型にした（緑）。オは「相続を証する情報として
+使えるか」→「住所が記載されているか」という2段階の確認を経て1枚の書類が2つの役割を
+兼ねる様子を示す配置図型にした（橙）。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric computer/tablet screens with
+electronic signature marks, digital certificate badges, paper seal/印鑑
+stamps, company registration badges, ID/certificate document folders, a
+scanner icon, diamond-shaped decision nodes, checkmarks and cross marks.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart or a two-step sequence with clearly separated steps: do not
+compress two distinct requirements (e.g. "印鑑証明書が不要であること" and
+"書面のような期間制限も当てはまらないこと") into a single check. Where a
+肢 is resolved by a single check that is really a matter of a common
+misconception vs. the correct rule, draw it as a side-by-side "誤りやすい
+思い込み" (with a cross mark and strike-through) vs. "正しいルール" (with a
+checkmark) comparison frame instead — do not force it into a flowchart.
+Unlike a glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+— do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度　午後の部　第15問　ア〜オ
+作図ガイド（電子申請の添付情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+敷地共有者の証明は一部でも足りる
+Diagram: 正誤対比型。左枠に「誤りやすい思い込み」の見出しと、敷地を
+共有するA・B・Cのキャラクター全員がそれぞれはんこを押す図を描き、赤い
+✕マークと取り消し線を重ねる（「共有者全員の証明が必要」というラベル）。
+右枠を太い縁取り・フルカラーで強調し、「正しいルール」の見出しと、Aだけ
+がはんこを押して「所有権を有することを証する情報」として表題登記の
+申請書フォルダに添付される図を描き、緑の✓マークを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の表題登記で表題部所有者となる者の所有権を証する情報として
+敷地所有者の証明情報を添付する場面であることを確認します。次に、敷地が
+共有であっても共有者全員の証明が必要だと思い込まずに、共有者の一部の
+者による証明で差し支えないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+共有者全員でなくてよい
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+電子証明書があれば印鑑証明書は不要
+Diagram: 2段階の決定木。1段目のひし形「委任状に適正な電子署名を行い、
+電子証明書を提供したか」から「した」側の矢印を太い縁取り・フルカラーで
+描き、結論ノード1「印鑑証明書(書面)の提供は不要」に至る。その下に2段目
+のひし形「電子証明書に、書面の印鑑証明書のような『作成後3か月以内』の
+期間制限があるか」を配置し、「ない」側の矢印（電子証明書の有効期間は
+発行後5年未満で随時発行するものではない、というラベル付き）を太い
+縁取りで描き、結論ノード2「3か月以内という期間制限も当てはまらない」に
+至る。結論ノード1・2を並べて1つの結論バナーにまとめる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、委任状に適正な電子署名を行い電子証明書を提供したかを確認すると、
+それによって印鑑証明書(書面)の提供は不要になります。次に、電子証明書に
+書面の印鑑証明書のような「作成後3か月以内」という期間制限があるかを
+確認すると、電子証明書の有効期間は発行後5年未満で随時発行するもので
+はないため、そのような期間制限も当てはまらないとわかります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+印鑑証明書も期間制限も不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+会社法人等番号は電子署名確認の情報でない
+Diagram: 正誤対比型。左枠に「誤りやすい思い込み」の見出しと、会社の
+代表者が電子署名を行った委任状の横に「電子証明書とともに会社法人等
+番号を必ず提供しなければならない」というラベルを描き、赤い✕マークと
+取り消し線を重ねる。右枠を太い縁取り・フルカラーで強調し、「正しい
+ルール」の見出しと、電子証明書バッジが電子署名の真正性を確認する矢印を
+描き、少し離れた場所に「会社法人等番号」のカードと「必須併記ではない」
+のラベルを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、電子署名の真正性を確認する情報は何かを確認すると、それは電子
+証明書であることがわかります。次に、会社法人等番号がその真正性確認の
+ためにセットで必ず必要な情報かを確認すると、会社法人等番号は法人を
+特定するための番号であって、電子署名の真正確認のために必ず併せて
+提供しなければならない情報ではないとわかります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+真正確認は電子証明書の役割
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+登記識別情報はスキャンでなく符号入力
+Diagram: 正誤対比型。左枠に「誤りやすい思い込み」の見出しと、書面の
+通知書をスキャナに通し、土地家屋調査士が電子署名を付して送信する図を
+描き、赤い✕マークと取り消し線を重ねる。右枠を太い縁取り・フルカラーで
+強調し、「正しいルール」の見出しと、タブレット画面に登記識別情報の符号を
+直接入力する図を描き、緑の✓マークを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、電子申請で登記識別情報を提供する方法はどのようなものかを確認
+すると、登記識別情報(符号)を入力する方法によることになっています。
+次に、書面で通知された登記識別情報をスキャナで読み取り土地家屋調査士が
+電子署名を付して送信するという方法が認められるかを確認すると、その
+ような方法は用意されておらず、認められません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+符号を入力して提供
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in orange containing the number 5.
+Heading (bold, ONE line):
+住所入り相続一覧図は二つの証明を兼ねる
+Diagram: 配置図＋順序。中央に「法定相続情報一覧図の写し」の書類アイコン
+を置く。①番の吹き出しで「相続を証する情報として使えるか」の問いを添え、
+「使える(常に)」の矢印を太い縁取りで「所有権証明情報」の箱に伸ばし、
+緑の✓マークを付ける。②番の吹き出しで「Aの住所が記載されているか」の
+問いを添え、住所欄を強調表示したうえで「記載されている(本肢)」の矢印を
+太い縁取りで「住所証明情報」の箱にも伸ばし、緑の✓マークを付ける。②の
+問いのそばに、薄いグレー・破線で「記載されていなければ住所証明情報とし
+ては使えず、別途住所を証する情報が必要」という淡色の注記を添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、法定相続情報一覧図の写しが相続を証する情報として使えるかを確認
+すると、常に所有権を有することを証する情報として使えます。次に、その
+写しにAの住所が記載されているかを確認すると、記載されていれば住所を
+証する情報の提供にも代えることができ、1枚で所有権証明情報と住所証明
+情報の両方を兼ねられます。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+所有権と住所の証明を兼ねる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：不動産登記令附則5条1項かっこ書(登記識別情報の提供方法)。その他は
+先例による取扱いを整理したもの(先例番号は本図中省略)。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 地・権・証・明・情・報・登・記・識・別・電・子・署・名・印・
+鑑・会・社・法・人・番・住・所・続・覧・図・相・効・期・限・兼・符・号・
+真・正・書・誤・確・認. If any character renders as a Simplified Chinese
+variant, redraw that character in the correct Japanese form. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 is drawn as an actual flowchart or clearly
+separated two-step sequence (not a bare illustration with no visible
+decision structure), that no 肢 with a genuinely hidden second condition
+has been flattened into a single check, that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct (no merged or dropped
+requirements), confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
 ```

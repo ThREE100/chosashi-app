@@ -278,7 +278,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-法・人・格・合・併・消・滅・承・継・商・号・変・更・同 — always draw the
+法・人・格・合・併・消・滅・承・継・商・号・変・更・同・相・続・誤 — always draw the
 standard Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -337,7 +337,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-法・人・格・合・併・消・滅・承・継・商・号・変・更. If any character
+法・人・格・合・併・消・滅・承・継・商・号・変・更・相・続・誤. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm there are exactly two side-by-side panels
 (red ア on the left, green イ on the right) beneath a single shared
@@ -378,7 +378,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-共・有・者・持・分・更・正・申・請・承・諾・単・独 — always draw the
+共・有・者・持・分・更・正・申・請・承・諾・単・独・誤 — always draw the
 standard Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -432,7 +432,7 @@ width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-共・有・者・持・分・更・正・申・請・承・諾・単・独. If any character
+共・有・者・持・分・更・正・申・請・承・諾・単・独・誤. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm there are exactly two side-by-side panels
 (red naive-reasoning panel on the left, green correct-reasoning panel on
@@ -440,4 +440,191 @@ the right), confirm the quoted article text box below the panels matches
 the Japanese text given above verbatim character-for-character (both the
 33条3項 and 33条4項 quotes), and confirm the callout box text matches
 verbatim with no paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「法人格が同一のまま続いているか」「誰が申請人で誰の承諾が必要か」を見抜けるようにする5パネル構成。ア・イは「法人格の同一性があるか」という同じ対比枠を共有し、強調する側だけを切り替える。②の色分け（法人格の変動＝緑、手続きルール＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（合併は
+「名前が変わった」わけじゃないんです）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric office buildings with signboards, a
+一般承継人 document, two co-owner figures, a joint-application document,
+and an address-history timeline — adapt icon set to the topic of 表題部
+所有者の登記. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the
+condition written on them, Yes/No（はい／いいえ）branch arrows, and a
+final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panels 1 and 2（肢ア・肢イ）share the same side-by-side comparison frame
+（LEFT: 法人格が別のものに変わる（吸収合併）、RIGHT: 同一の法人格のまま
+（特例有限会社→株式会社）), because this pair is the article's core
+contrast; draw both panels with the same two-box layout, but highlight
+（太い縁取り・フルカラーで強調）the box relevant to that panel's 肢 and
+render the other box in a faded, greyed-out style. Panel 4（肢エ）must be
+drawn as a two-step flowchart, because「誰が申請人か」と「誰の承諾が
+必要か」は別々に確認すべき2つの条件である; give both diamond nodes their
+own clearly labeled branch. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認し
+ます"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第8問 ア〜オ
+作図ガイド（表題部所有者）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+吸収合併は法人格が別物に変わる
+Diagram: A side-by-side comparison frame shared with Panel 2. LEFT box
+（highlighted with a thick colored border, full color）labeled「法人格が
+別のものに変わる（吸収合併）」: 株式会社Ａ building being absorbed into
+株式会社Ｂ building, Ａ's signboard falling with a red 消滅 stamp while
+Ｂ's signboard stands, Ｂ holding a document labeled 一般承継人. RIGHT box
+（faded, greyed-out, dotted outline）labeled「同一の法人格のまま（特例
+有限会社→株式会社）」: a single unchanged building with only its
+signboard swapping.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この変化が「同じ法人格が名前を変えただけ」なのか「別の法人格が
+引き継いだ」のかを確認します。吸収合併では、消滅する会社Ａの法人格自体
+が消滅し、別の法人格であるＢがその地位を引き継ぐため、単純な名称の
+変更の登記では対応できません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+法人格の同一性なし
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+株式会社への移行は同一法人の名称変更
+Diagram: The same side-by-side comparison frame as Panel 1. RIGHT box
+（highlighted with a thick colored border, full color, since this panel
+is about this branch）labeled「同一の法人格のまま（特例有限会社→株式
+会社）」: a single building that stays exactly the same shape and
+location, only its signboard changing from 特例有限会社Ａ to 株式会社Ａ
+via a small curved arrow, the same person standing in front throughout.
+LEFT box（faded, greyed-out, dotted outline）labeled「法人格が別のものに
+変わる（吸収合併）」: the absorbed-building icon from Panel 1, shown
+dimly.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、アの吸収合併と同じように法人格が変わるのではないかと疑ってみます。
+しかし特例有限会社から株式会社への移行は、新しい法人が設立され古い法人
+が消滅するのではなく、同一の法人格のまま名称と組織形態だけが変わる
+手続きです。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+同一法人のまま
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+住所更正と氏の変更はまとめて1回で申請可
+Diagram: Two separate document icons（labeled「住所の更正」と「氏の
+変更」）merging via an arrow into a single joint-application document
+folder, submitted together at a registry-office counter.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この2つの登記がどちらも「同一の不動産」についての表題部の変更・
+更正登記であることを確認します。内容が関連しているかどうかは問われず、
+この条件を満たせば一の申請情報でまとめて申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+まとめて1回で申請可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+承諾があれば持分の誤りは単独で直せる
+Diagram: A two-step decision flowchart. Start node: 申請人は共有者の
+うちの1人（Ａ）でよいか？with a はい arrow down to a diamond node
+（highlighted with a thick border): 持分が変わる他の共有者（Ｂ）の承諾を
+証する情報があるか？with a green はい branch leading to a conclusion
+node reading Ａが単独で更正の登記を申請できる, and a faded いいえ branch
+leading to a separate conclusion node reading Ａは単独で申請できない.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請人が共有者のうちの1人（Ａ）であればよいことを確認します。次に、
+持分が変わる他の共有者（Ｂ）の承諾を証する情報があるかを確認します。
+承諾があれば、Ａは単独で更正の登記を申請することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾があれば単独可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+中間の住所変更を省略して一気に直せる
+Diagram: An address-history timeline showing an old registered address,
+followed by two faded, crossed-out intermediate addresses（住所変更
+1回目・2回目）, with a single bold arrow skipping directly from the old
+registered address to the current address.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記記録上の住所と現在の住所の間に何度の変更があったかを数える
+必要はないことを確認します。中間の変更を一つずつ経由せず、直ちに現在の
+住所へ変更する登記を1回申請するだけで足ります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+中間を省略して一括
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法33条3項・4項、不動産登記規則35条6号に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 併, 承, 継, 更, 正, 誤, 持, 分, 諾, 単, 独, 住, 所, 変
+and any character that has a visually similar Simplified Chinese variant.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+Panels 1 and 2 visibly share the same comparison-frame layout with only
+the highlighted box differing, that Panel 4 is drawn as a two-step
+flowchart with both diamond nodes clearly labeled, that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
+and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```

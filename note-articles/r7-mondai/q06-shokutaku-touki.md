@@ -198,3 +198,183 @@ the cards, and confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading +
 a short conclusion tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「誰が嘱託しているか」「何が免除の条件になっているか」を見抜けるようにする5パネル構成。イ（委任状の期限）とオ（登記識別情報の通知）は、一見1回のチェックで終わりそうに見えるが、実は隠れた2段階目の条件があることを決定木で示す。②の色分け（免除される手続＝緑、免除されない手続・特例＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（市町村
+の登記嘱託、免除される手続と免除されない手続の境目とは）, but built as a
+set of 5 diagram-drawing panels (a "how to sketch this fact pattern, in
+the right order" study reference) rather than a quick-reference
+conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric city-hall and registry-office
+buildings, official documents and seals, a mailbox/envelope icon for
+登記識別情報, a river cutting across a land plot for 河川管理者 — adapt
+icon set to the topic of 官公署の嘱託登記. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Panels 2 and 5（肢イ・肢オ）must be drawn as two-step
+flowcharts, because each has a second condition that is easy to overlook
+at first glance; both the「はい」and「いいえ」branches of the second
+diamond node must lead to their own distinct conclusion node (no looping
+arrow back into the diagram). Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認し
+ます"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第6問 ア〜オ
+作図ガイド（嘱託登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+代位登記でも所有権証明は必要
+Diagram: An isometric land plot with two simplified figures on it: one
+labeled 被代位者（本当の所有者）handing a document labeled 所有権証明情報
+to another figure representing 市町村, connected by a dotted arrow labeled
+代位.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が代位によるものかを確認します。代位はあくまで「誰が申請
+するか」の話であり、本当の所有者であることの証明（所有権を証する情報）
+は、代位登記でも免除されません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+証明は省略不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+嘱託人自身の嘱託なら委任状に期限なし
+Diagram: A two-step decision flowchart. Start node: 委任状は市町村長（官公
+署）が作成したものか？with a はい arrow down to a diamond node（highlighted
+with a thick border): その嘱託は、委任状を作成した官公署自身が嘱託人と
+して行うものか？with a green はい branch leading to a conclusion node
+reading 作成後3か月以内という期限は適用されない, and a faded いいえ
+branch leading to a separate conclusion node reading 通常どおり作成後
+3か月以内の委任状が必要.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず委任状が官公署（市町村長）作成のものであることを確認し、次に、その
+嘱託を委任状の作成者である官公署自身が行っているかを確認します。官公署
+自身が嘱託人として行う場合に限り、作成後3か月以内という期限の縛りが
+外れます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+嘱託人自身なら期限なし
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+自己所有の建物なら証明不要
+Diagram: An isometric public building（公民館）with a green checkmark
+stamp on a 表題登記の申請書 placed on top of it, and beside it a small
+document icon labeled 所有権証明情報 with a red diagonal line through it
+to show it is not required.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この建物が市町村自身の所有物であることを確認します（Panel 1の
+代位のケースとは違う場面です）。市町村自身が所有する建物の表題登記を
+嘱託する場合は、所有権を証する情報の提供が省略できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+自己所有なら証明不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+河川区域化した土地は河川管理者が嘱託
+Diagram: An isometric river cutting diagonally across a land plot, with a
+dividing line labeled 分筆 splitting the plot in two, and a small official
+figure labeled 河川管理者 stamping a document beside the river while the
+original landowner figure stands aside, not acting.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が河川法上の河川区域内の土地となったかを確認します。河川
+区域内の土地となった場合は、河川管理者が、その土地の所有権の登記名義人
+に代わって分筆登記を嘱託することができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+河川管理者が嘱託可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+希望する旨があれば通知される
+Diagram: A two-step decision flowchart. Start node: 登記名義人になるのは
+官公署か？with a はい arrow down to a diamond node（highlighted with a
+thick border): 嘱託情報に、登記識別情報の通知を希望する旨の情報が含まれ
+ているか？with a green はい branch leading to a conclusion node reading
+登記識別情報が通知される（郵便アイコン）, and an equally clear いいえ
+branch leading to a separate conclusion node reading 登記識別情報は通知
+されない（原則どおり）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記名義人が官公署であることを確認し、次に、嘱託情報に通知を希望
+する旨の情報が含まれているかを確認します。希望する旨があれば通知され、
+なければ原則どおり通知されません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+希望すれば通知される
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令別表4の項添付情報欄ハ・17条1項・2項、不動産登記法43条4項、
+不動産登記規則64条1項4号・2項、不動産登記事務取扱手続準則87条3項に基づ
+く整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 嘱, 託, 証, 権, 識, 別, 河, 川, 委, 任, 状, 限, 希, 望, 通, 知
+and any character that has a visually similar Simplified Chinese variant.
+If any character renders as a Simplified Chinese variant, redraw that
+character in the correct Japanese form. Confirm the panel count equals 5
+exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+Panels 2 and 5 are drawn as two-step flowcharts with both branches of
+their second diamond node leading to distinct conclusion nodes (no
+looping arrow), that each 着眼点 callout states a checking order rather
+than only a conclusion, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

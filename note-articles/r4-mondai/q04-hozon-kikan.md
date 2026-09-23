@@ -115,7 +115,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 録・登・記・所・地・建・物・鎖・筆・界・存・期・間 — these must be
+kanji 録・登・記・所・地・建・物・鎖・筆・界・存・期・間・相・続 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
 
@@ -195,7 +195,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 録・登・記・所・地・建・物・鎖・筆・界・存・期・間. If any
+attention to 録・登・記・所・地・建・物・鎖・筆・界・存・期・間・相・続. If any
 character renders as a Simplified Chinese variant, redraw that character
 in the correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, that badge numbers run 1-5
@@ -335,4 +335,195 @@ Confirm there is no intro illustration or paragraph block between the
 header and the top row, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
+```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（登記記録の帳簿・カレンダー・閉鎖スタンプなど）を肢ごとに示す作図ガイドを追加した。保存期間の分野は暗記勝負に見えるが、実は「起算点はいつか」「対象は何のカテゴリーか」「そもそも閉鎖済みかどうか」という見分け方の順序があるため、②の「結論を一言で見せる」ポスターと異なり、④間違いノート型と同じ運用（文章での着眼点の記述を許容）に倣い、各パネルに判定の順序を示す「着眼点」の短い説明文を添えている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of 保存期間 (retention period) problem, AND the order in
+which they should check conditions to get there — isometric ledger books,
+filing cabinets, calendar tags, calendar-page-turning arrows marking a
+starting year, red 閉鎖 stamps, infinity (∞) symbols for permanent
+retention, sealed documents, stacked procedural-record folders, and a
+registry counter (登記所) with a 受付 stamp. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node for each branch. Where a 肢 is resolved by a
+single check, a labeled illustrative diagram or a side-by-side comparison
+of two categories is sufficient — do not force a flowchart. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和4年度 午後の部 第4問 ア〜オ
+作図ガイド（登記記録等の保存期間）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+土地は50年、建物は30年で保存期間が変わる
+Diagram: Draw two rounded boxes side by side, connected at the top by a
+small magnifying-glass icon labeled 「まず土地か建物かを見る」. The left
+box shows an isometric registry ledger book labeled 「登記記録（土地）」
+stamped with a red 「閉鎖」 seal, with a large calendar tag reading
+「50年」. The right box shows a similar isometric registry ledger book
+labeled 「登記記録（建物）」, also stamped with a red 「閉鎖」 seal, but
+with a calendar tag reading 「30年」. Add a thin dotted comparison line
+between the two boxes to emphasize that the same 閉鎖 event leads to two
+different numbers depending on the category.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず対象が土地の登記記録か建物の登記記録かを確認します。土地なら閉鎖した
+日から50年、建物なら30年です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+土地50年・建物30年
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+つづり込み帳は作成の翌年から5年で満了する
+Diagram: Draw a single horizontal timeline arrow moving left to right with
+three marker points. Point 1 (leftmost): an isometric bound ledger folder
+labeled 「法定相続情報一覧図つづり込み帳」 next to a small calendar page
+labeled 「作成」. Point 2 (middle): a calendar page turning over, labeled
+「翌年（起算点）」, with a small flag icon marking this as the start of the
+count. Point 3 (rightmost): an archive-box icon labeled 「5年後・保存期間
+満了」. In the background, faintly draw a smaller, greyed-out ledger book
+labeled 「他の30年組」 with a crossed-out 「30年」 tag, to visually
+contrast the short 5-year period against the more common 30-year periods
+in this topic.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず保存期間の起算点は作成の年の翌年であることを確認し、次にそこから
+何年分保存するかを数えます。他の30年組と違い、5年という短い期間である
+点に注意します。
+Conclusion tag (green, 5-15 Japanese characters):
+翌年起算で5年のみ
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+各階平面図は現用なら永久、閉鎖後は30年
+Diagram: Draw an isometric rolled blueprint labeled 「各階平面図」 at the
+top, with an arrow pointing down into a diamond-shaped branch node labeled
+「閉鎖されているか？」. From the diamond, draw a Yes branch arrow (labeled
+「閉鎖済み」) going down-right to its own conclusion node: a copy of the
+blueprint stamped with a red 「閉鎖」 seal next to a calendar tag reading
+「閉鎖した日から30年間保存」. Draw a No branch arrow (labeled 「現用」)
+going down-left to a separate conclusion node: the same blueprint drawing
+left clean and unstamped, next to a large infinity symbol (∞) and a tag
+reading 「永久保存」. Both conclusion nodes are final endpoints — do not
+draw any arrow looping back from either conclusion node into the diamond
+or any other part of the diagram.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその各階平面図が現に効力を有する現用のものか、閉鎖されたものかを
+確認します。現用なら永久保存、閉鎖済みなら閉鎖した日から30年間の有限
+保存に切り替わります。
+Conclusion tag (green, 5-15 Japanese characters):
+現用は永久、閉鎖後30年
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+筆界特定書は永久、それ以外は翌年から30年
+Diagram: Draw two rounded boxes side by side, connected at the top by a
+small magnifying-glass icon labeled 「まず筆界特定書そのものか、それ以外
+かを見る」. The left box shows a golden sealed document labeled 「筆界
+特定書」 with a large infinity symbol (∞) and a tag reading 「永久保存」.
+The right box shows a stack of related procedural folders labeled 「手続
+記録（筆界特定書以外）」 with a calendar tag reading 「30年」 and a curved
+arrow from a calendar page labeled 「送付を受けた年の翌年から」 pointing to
+the start of the count.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその記録が筆界特定書そのものか、それ以外の手続記録かを見分けます。
+筆界特定書自体は永久保存ですが、それ以外の記録は登記所が送付を受けた年の
+翌年から30年間の保存です。
+Conclusion tag (green, 5-15 Japanese characters):
+以外の記録は翌年30年
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+更正登記の申請書は受付の日から30年保存される
+Diagram: Draw an isometric registry counter (登記所) where a clerk stamps
+a paper application labeled 「表題部所有者の持分の更正の登記 申請書」 with
+a red 「受付」 stamp. From the stamp, draw a calendar arrow counting
+forward to a tag reading 「30年」. Add a small checklist icon beside the
+counter labeled 「申請情報・添付情報」 to show what category of document
+this rule covers.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその書類が表示・権利に関する登記の申請情報またはその添付情報である
+ことを確認し、次に起算点が受付の日であることを確認します。そこから30年間
+保存されます。
+Conclusion tag (green, 5-15 Japanese characters):
+受付日から30年間
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記規則28条4号（ア）／規則28条の2第6号（イ）／規則28条
+13号（ウ）／規則235条1項1号・2号（エ）／規則28条9号（オ）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 号・録・登・記・建・物・所・続・地・閉・鎖・筆・界・存・図・
+現・永・久・満・了・規・則・条・変・覧・帳・請・権・産. If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that panel 3 (肢ウ) is drawn as an
+actual flowchart with a diamond branch node and two distinct conclusion
+nodes (not a bare illustration with no visible decision structure), that
+no panel with a genuinely single-check 肢 (ア・イ・エ・オ) has been forced
+into an unnecessary flowchart, that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element from
+the source article distinct (no merged or dropped requirements), confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```

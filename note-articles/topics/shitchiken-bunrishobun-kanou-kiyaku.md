@@ -190,7 +190,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to 敷, 地,
-権, 規, 約, 名, 義 — do not draw these as Simplified Chinese variants.
+権, 規, 約, 名, 義, 誤 — do not draw these as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):

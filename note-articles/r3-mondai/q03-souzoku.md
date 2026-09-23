@@ -131,7 +131,7 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to kanji
 that are easily confused with Simplified Chinese variants and appear in
-this text, including 続, 産, 対, 抗, 登, 記, 議, 養, 資, 格, 継, 承 —
+this text, including 続, 産, 対, 抗, 登, 記, 議, 養, 資, 格, 継, 承, 相, 誤 —
 render each in standard Japanese (Jōyō) form, never in Simplified Chinese
 form.
 
@@ -255,7 +255,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 権・地・所・続・産・
-議・割・廷, which have visibly different Simplified Chinese forms —
+議・割・廷・相・家・庭・裁・判・誤, which have visibly different Simplified Chinese forms —
 always draw the standard Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -318,7 +318,7 @@ Small footnote text (bottom of panel, small font):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese — pay special
-attention to 権・地・所・続・産・議・割・廷. Confirm every heading, node
+attention to 権・地・所・続・産・議・割・廷・相・家・庭・裁・判・誤. Confirm every heading, node
 label, and callout text matches the Japanese text given above verbatim,
 with no paraphrasing and no substituted characters. Confirm the flowchart
 reads top-to-bottom with exactly one decision diamond and two labeled
@@ -499,7 +499,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 続・産・対・抗・登・記・議・養・資・格・継・承. If any
+attention to 続・産・対・抗・登・記・議・養・資・格・継・承・相・家・庭・裁・判・所. If any
 character renders as a Simplified Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or

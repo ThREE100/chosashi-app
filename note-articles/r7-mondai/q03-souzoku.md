@@ -134,7 +134,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 続・権・産・処・放・棄・認・庭・裁・債・遺 — these must be rendered
+kanji 続・権・産・処・放・棄・認・庭・裁・債・遺・家・判・所・相・受 — these must be rendered
 in their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -371,7 +371,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 続, 権, 産, 処, 放, 棄, 認, 庭, 裁, 債, 遺 and any character
+attention to 続, 権, 産, 処, 放, 棄, 認, 庭, 裁, 債, 遺, 家, 判, 所, 相, 受, 誤 and any character
 that has a visually similar Simplified Chinese variant. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
@@ -417,7 +417,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-処・分・保・存・単・純・承・認・除・外 — always draw the standard Japanese
+処・分・保・存・単・純・承・認・除・外・相・続・誤 — always draw the standard Japanese
 (Jōyō) form of these characters.
 
 --- HEADER ---
@@ -475,7 +475,7 @@ width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-処・分・保・存・単・純・承・認・除・外. If any character renders as a
+処・分・保・存・単・純・承・認・除・外・相・続・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the quoted article text box at the top matches the Japanese
 text given above verbatim character-for-character, confirm there are
@@ -515,7 +515,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-限・定・承・認・熟・慮・期・間・共・同・徒・過 — always draw the standard
+限・定・承・認・熟・慮・期・間・共・同・徒・過・相・続・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -577,7 +577,7 @@ width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-限・定・承・認・熟・慮・期・間・共・同・徒・過. If any character renders
+限・定・承・認・熟・慮・期・間・共・同・徒・過・相・続・誤. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the timeline diagram clearly shows 兄's period
 ending before 弟's period, confirm the naive-reasoning box and the

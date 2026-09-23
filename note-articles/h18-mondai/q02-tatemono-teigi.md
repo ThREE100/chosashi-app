@@ -420,8 +420,8 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 登・記・号・権・建・物・地・番・所 and any character that has
-a visually similar Simplified Chinese variant. If any character renders
+attention to 登・記・号・権・建・物・地・番・所・誤 and any character that
+has a visually similar Simplified Chinese variant. If any character renders
 as a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block

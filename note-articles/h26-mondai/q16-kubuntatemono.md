@@ -272,7 +272,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 敷・地・権・登・記・原・
-因・取・得 — always draw the standard Japanese (Jōyō) form.
+因・取・得・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -352,7 +352,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 附・属・建・物・区・分・
-敷・地・権・割・合 — always draw the standard Japanese (Jōyō) form.
+敷・地・権・割・合・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -429,7 +429,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 種・類・変・更・義・務・
-起・算・点 — always draw the standard Japanese (Jōyō) form.
+起・算・点・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -512,7 +512,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 法・定・敷・地・規・約・
-重・複・排・他 — always draw the standard Japanese (Jōyō) form.
+重・複・排・他・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -590,7 +590,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 特・定・登・記・抵・当・
-権・承・諾・消・滅 — always draw the standard Japanese (Jōyō) form.
+権・承・諾・消・滅・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

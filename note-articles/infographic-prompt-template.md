@@ -35,7 +35,7 @@
 3. **カードに落とし込む**：抽出した内容を、原則ごとに1枚の「カード」（番号バッジ＋見出し＋図解＋結論タグ）にする。1カード＝1肢が基本だが、テーマが近い肢は1カードにまとめてもよい。カード数の目安は4〜6枚（肢の数と一致させる必要はない）。カードの番号は列ごとにリセットせず、1枚目から通し番号（1・2・3・4・5…）を振る。
 4. **各カードに次の4要素を用意する**：
    - 番号バッジ（通し番号。列ごとに色を変える。例：列A＝緑の丸、列B＝青の丸。列見出しの色と揃える）
-   - 見出し（1行、太字、体言止めまたは短い文で結ぶ。**20字前後を上限とする要約フレーズにする**。まとめ表のポイント欄をそのまま使わず、主語や条文番号を落としてさらに削ぎ落とす）
+   - 見出し（1行、太字、体言止めまたは短い文で結ぶ。**20字前後を上限とする要約フレーズにする**。まとめ表のポイント欄をそのまま使わず、主語や条文番号を落としてさらに削ぎ落とす。「〜ないと確認」「〜ると確認」のように完結した1文にそのまま「と確認」を継ぎ足す書き方は不自然になるため避ける。詳細は「⑤ 作図ガイド型」章の「Headingの自然な日本語チェック」を参照）
    - 図解の説明（構図・アイコン・ラベルに使う文字列を具体的に指定する。誰が読んでも同じ絵になる粒度で書く。○×マーク・チェックマーク・短いラベル札は図解の中に直接埋め込む）
    - **結論タグ**（図解の下に置く、色付きの帯・バッジに入れる**5〜15字程度の一言**。文章ではなく単語・短フレーズにする。例：「移転登記が先」「家庭裁判所の許可 不要」「承諾だけでは不可」「表示登記」「転写されないだけ」。条文番号や「〜であり、〜とされていない」のような説明文はここに入れない）
 5. **下記「プロンプト雛形」に流し込み、プロンプト文を完成させる。**
@@ -76,7 +76,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
@@ -133,9 +141,14 @@ sentence, NOT a legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals {CARD_COUNT}
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals {CARD_COUNT}
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, confirm
 that no card contains a full sentence of explanatory prose — every card's
@@ -328,7 +341,15 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji {列挙する漢字} — always
 draw the standard Japanese (Jōyō) form.
@@ -359,7 +380,11 @@ Subtitle (smaller, centered):
 {条文番号等の小さな注記}
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it. Confirm every
 heading, node label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters,
 confirm nothing is rendered below the FOOTER's small footnote text (no
@@ -395,6 +420,10 @@ R3午後第16問・R2午後第14問・R1午後第1問・H30午後第3問で確�
 3. **着眼点コールアウトは、判定の「順番」を言葉でも明示する。** 「まず〜を確認します。次に〜を確認し、〜であれば…」のように、思考の手順が読み取れる文にする。結論だけを述べる文（②の結論タグのような一言）にしない。
 4. **同じ記事内の複数肢を通して見たときに、共通する決定木の形（判定順序・分岐構造）があれば、その形を1つの雛形として使い回す。2肢のペアに限らず、3肢以上、あるいは5肢すべてが同じ木を共有してもよい（例：「除外事由①〜⑤のいずれかに該当するか」という同一の判定木を5肢すべてが共有し、各肢は自分が該当する枝だけを強調する構成、あるいは「死亡年月日→相続開始時点での生存確認→代襲原因の該当性」のような共通パターン）。共有木を使う場合は、各パネルで自分の肢に関係する分岐だけを太い縁取り・強調色ではっきり目立たせ、関係しない分岐は薄いグレーで縮小表示する（○×だけで済ませず、「今回は関係ない」ことが一目でわかる見た目にする）。
 5. **一見1回のチェックで完結するように見える肢ほど、本文解説を読み直し、実際には2つ目の条件が隠れていないか疑う。** 隠れた条件がある場合は、それを無理に単純化せず、あえて2段階以上の決定木として可視化し、読者が見落としやすいポイントを図で示す（例：「妨害の有無」だけで足りるように見える肢が、実は「行政処分性」のような別条件も満たす必要がある場合）。逆に、本当に単一チェックで完結する肢を、無理に多段階のフローチャートへ仕立て上げてもならない。
+6. **分岐点（ひし形ノード）の両方の結果が、そのルールを理解するうえで等しく重要な意味を持つ場合（例：「いずれか早い方が経過すると時効消滅する」という2本のタイマーの競争のように、はい側・いいえ側のどちらも読者が知るべき現実の結論である場合）、はい・いいえの両方の行き先を必ずプロンプトに明記する。** 令和5年度午後第1問パネル5（肢オ、取消権の消滅時効）の作図ガイドで、Diagramの記述が「はい」側（時効によって消滅する）の行き先だけを指定し、「いいえ」側の行き先を書いていなかったため、画像生成の結果、ひし形ノードから図の途中に不自然に戻ってしまうループ矢印が生成され、2本のタイマーのうち1本だけが再チェックされるかのような誤った・分かりにくい図になった実例が見つかった。このため、両方の結果が意味を持つ分岐点では、次を必ず守る。
+   - 「いいえ」側にも、専用の結論ノード（「まだ消滅していない（取消権は存続）」等）を明記し、行き先を空白にしない。
+   - 図中のどのノードにも戻る「ループ」矢印を描かせない（分岐点からは必ず新しい結論ノードへ進む）ことを、プロンプト内で明示的に禁止する。
+   なお、その肢の問題文自体が「ある1つの事実（はい側）が成立している場面」を前提とする単一チェック型の肢（上記4項目目「無理にフローチャート化せず」の対象）では、いいえ側の結論が本文解説に存在しないことも多く、その場合まで無理にいいえ側を捏造する必要はない。上記の追記が必要なのは、あくまで両方の結果が本文解説上の実際の結論として存在する分岐点に限る。
 
 ### 法的正確性の担保（重要・厳守）
 
@@ -403,6 +432,25 @@ R3午後第16問・R2午後第14問・R1午後第1問・H30午後第3問で確�
 1. **各パネルの Diagram・着眼点・結論タグに書く内容は、対象記事の本文解説・まとめで実際に使われている条件・結論と一致させる。** 図解作成の過程で、新しい法的主張・独自の言い換えによる結論の変更・条文の拡張解釈を持ち込まない。
 2. **要件が複数の要素からなる場合（例：「善意」かつ「無過失」、「平穏」かつ「公然」）、図解の都合で1つの要素だけに圧縮しない。** 各要素を別々の確認ステップ（別のひし形ノードや別の着眼点の文）として描き分け、要素を落とすことで生じる誤解を防ぐ。
 3. **パネルを書き終えたら、その肢の本文解説・まとめの記述と照らし合わせ、「この Diagram と着眼点は、本文のどの一文に対応しているか」を自分で説明できるかを確認する。** 対応する記述が本文に見当たらない内容は書かない。
+
+### Headingの自然な日本語チェック（重要・厳守、2026-09-19判明・再発防止）
+
+令和5年度午後第1問・第2問の作図ガイドで、Heading（パネルの短い見出し）が次のような不自然な日本語になっていた実例が見つかった。
+
+- 「追認は過去にさかのぼらないと確認」
+- 「取消しは過去にさかのぼると確認」
+- 「請求先は補助者でなく本人と確認」
+
+いずれも、「〜ない」「〜る」で終わる完結した1文に、そのまま体言止めで「と確認」を継ぎ足した形になっている。「を確認する」は「を確認」のように体言止めにしても自然だが（「有無を確認する」→「有無を確認」）、「〜と確認する」は「と」が発言・思考をそのまま受ける引用の助詞であるため、述語の「する」を落として「と確認」で止めると、文が尻切れになったように読めて不自然になる。この不具合を再発させないため、Headingは必ず次のいずれかの形にする。
+
+1. **確認する対象を名詞句にして「〜の有無を確認する」「〜が〜かを確認する」の形にする**（例：「追認の遡及効の有無を確認する」「取消しに遡及効があるかを確認する」）。
+2. **「確認」を使わず、ステップの内容を体言止めまたは短い文でそのまま言い切る**（例：「追認しても遡って有効化しない」「取消しは遡って無効になる」「占有補助者でなく本人に請求」）。
+
+「完結した1文＋と確認」（「〜ないと確認」「〜ると確認」）という体言止めの継ぎ足しは書かない。また、「〜と確認する」を「する」まで書き切った場合でも、他のパネルが「〜の有無を確認する」「〜かを確認する」のような短い確認フレーズで統一されている記事内で、その1枚だけ「主語は〜できると確認する」のような一段長い完結文になっていないか（統一感を欠いていないか）もあわせて見る。Headingを書き終えたら、声に出して読んで不自然に感じないかを必ず確認する。
+
+**もう1つの不自然パターン（2026-09-20判明・再発防止）**：令和6年度午後第1問の作図ガイドで、Headingが「知っていたかどうかは結論を変えない」となっていた実例が見つかった。これは文法的には誤りではないが、「誰が」「何を」知っていたのかという主語・目的語を省いた「かどうかは結論を変えない／影響しない」という抽象的な言い回しになっており、そのパネル単体では何の話かわからない見出しになっていた（他のパネルの見出しが「取消権の行使に同意はいらない」「日用品かどうかを先に見分ける」のように、そのパネルだけで具体的な内容がわかる自己完結した文になっているのと対照的）。この不具合を再発させないため、次を守る。
+
+3. **Headingだけを読んで、その肢の主語・対象・結論が具体的にわかるようにする。** 「〜かどうかは結論を変えない／影響しない／関係ない」のように、判定対象（誰が・何を・どんな知識や状態を）を書かずに結果の抽象論だけを述べる書き方は避け、結論タグに書く具体的な結論（例：「知っても取消し可」）をHeadingにもそのまま組み込んだ短い文にする（例：「取消せると知っていても取消し可能」）。
 
 ### 画像の「型」
 
@@ -474,20 +522,21 @@ or merge a required element (e.g. keep "善意" and "無過失" as two distinct
 checks if the source article treats them as two distinct requirements).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, Jōyō (regular Japanese) kanji, and Arabic
-numerals where needed for labels or numbering. Do NOT use Simplified
-Chinese characters (simplified hanzi) or Traditional Chinese characters
-(traditional hanzi) under any circumstances, even if a character looks
-similar to the correct Japanese form. Do NOT render any text in a
-non-Japanese script or language anywhere on this image — no Latin/Roman
-alphabet words, no Korean Hangul, no Chinese-language text of any kind,
-and no garbled, invented, or illegible pseudo-characters — including in
-the background, borders, decorative filler text, or any icon label.
-Reproduce the exact text strings given below verbatim — do not paraphrase,
-translate, summarize, or substitute any characters. Within this English
-prompt text, use half-width parentheses ( ) consistently — never open a
-parenthetical with a full-width （ and close it with a half-width ), or
-vice versa.
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -514,7 +563,10 @@ Subtitle (smaller, centered, 2行):
 Badge: a filled circle in {COLOR} containing the number {N} (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
-{その肢で最初に何をすべきかを表す短い見出し}
+{その肢で最初に何をすべきかを表す短い見出し。「完結した1文＋と確認」の
+ような不自然な体言止めにしない。また、主語・対象を省いた「〜かどうかは
+結論を変えない」のような抽象的な言い回しにせず、その1行だけで具体的な
+内容がわかる文にする（上記「Headingの自然な日本語チェック」参照）}
 Diagram: {図の構図を具体的に記述。多段階判定の肢は決定木として、分岐
 ノード・条件ラベル・Yes/No矢印・結論ノードを明記する}
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -533,11 +585,11 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to {列挙する漢字}. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
-character in the correct Japanese form. Also scan the entire image —
-including the background, borders, and any decorative filler — for any
-text in a non-Japanese script or language (Latin/Roman alphabet words,
-Korean Hangul, any Chinese-language text, or garbled/invented
-pseudo-characters) and remove or redraw it in standard Japanese if found.
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals {N} exactly, badge numbers run 1-{N}
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that every multi-condition 肢 is drawn as an

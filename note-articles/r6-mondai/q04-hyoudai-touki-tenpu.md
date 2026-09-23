@@ -140,7 +140,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所 — these must be rendered in
+kanji 号・録・権・地・番・建・物・登・記・所・相・続 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -259,7 +259,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-共・有・持・分・過・半・数・証・明・決・議 — always draw the standard
+共・有・持・分・過・半・数・証・明・決・議・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -321,7 +321,7 @@ background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-共・有・持・分・過・半・数・証・明・決・議. If any character renders as a
+共・有・持・分・過・半・数・証・明・決・議・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly two side-by-side panels (blue 意思決定の
 場面 on the left, green 事実証明の場面 on the right), confirm both quoted
@@ -360,7 +360,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-敷・地・権・規・約・名・義・逆・順・証 — always draw the standard Japanese
+敷・地・権・規・約・名・義・逆・順・証・誤 — always draw the standard Japanese
 (Jōyō) form.
 
 --- HEADER ---
@@ -422,7 +422,7 @@ arrows) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-敷・地・権・規・約・名・義・逆・順・証. If any character renders as a
+敷・地・権・規・約・名・義・逆・順・証・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the flowchart has exactly 5 numbered nodes in a single main
 path (no branching, since the conclusion is the same regardless of prior
@@ -430,4 +430,207 @@ assumptions), confirm NODE 5 is visually highlighted in green as the
 answer to 本肢, and confirm every heading, node label, and callout
 sentence matches the Japanese text given above verbatim, with no
 paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文（ア〜オ5肢）を読んだ瞬間に、どんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。②の俯瞰ポスターが5肢の結論を一覧するのに対し、こちらは「省略できる制度が使える場面かどうか」を見極める思考プロセスそのものを、肢ごとに最適な図解（フローチャート・対比枠など）で可視化する。`infographic-prompt-template.md`の「⑤ 作図ガイド型」に基づく。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric registry documents (住民票コード
+card, 法定相続情報一覧図, 敷地所有者による証明情報, 会社法人等番号
+document, 分離処分可能規約 document), co-owner figures standing on a
+shared land plot, a laptop displaying an electronic seal, and a
+condominium building with its underlying land plot. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient - do not force a
+flowchart. Where a panel reuses a decision tree shared with other panels
+in this set, render the branch relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated
+branches in a faded, greyed-out, or dotted-outline style rather than
+omitting them - the reader should be able to see at a glance which part
+of the shared tree this panel is about. Likewise, where a diagram must
+show an entity that conceptually never held the right or status in
+question, render that entity or claim in a faded or dotted-outline style
+rather than a plain ○/✕ mark, so the visual itself communicates "this was
+never really there," not just "this is wrong." Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text - do not drop or merge
+a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和6年度 午後の部 第4問 ア〜オ
+作図ガイド(表題登記の添付情報)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled circle in blue containing the number 1(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+住民票コード提供の有無を確認する
+Diagram: 申請人が地方公共団体の窓口で「住民票コード」と書かれたカードを
+差し出している場面。中央にひし形の分岐ノード「住民票コードを提供した
+か」を置き、Yes(緑・太い矢印)は結論ノード(緑)「住所を証する情報の提供
+は不要」へ、No(グレー・細い矢印)はfadedなグレーの結論ボックス「原則ど
+おり住所を証する情報が必要(本肢とは別のケース)」へ導く。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、申請人が住民票コードを提供しているかを確認します。提供していれ
+ば、それだけで住所を証する情報の提出を省略できます。
+Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
+characters):
+住民票コードで省略可
+
+--- PANEL 2(肢イ) ---
+Badge: a filled circle in green containing the number 2(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+一覧図の住所記載の有無を確認する
+Diagram: 「法定相続情報一覧図」と書かれた家系図風の書類のイラスト。書類
+の中の「相続人Bの住所」欄を虫眼鏡で拡大して見せる構図。ひし形の分岐ノー
+ド「一覧図に相続人の住所が記載されているか」を置き、Yes(緑・太い矢印)
+は結論ノード(緑)「その写しの提供で住所証明に代えられる(別途の証明は不
+要)」へ、No(グレー・細い矢印)はfadedなグレーの結論ボックス「一覧図とは
+別に住所を証する情報が必要(本肢とは別のケース)」へ導く。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、提供する法定相続情報一覧図に相続人の住所が記載されているかを確認
+します。記載があれば、それだけで住所証明の提供に代えることができ、別
+の書面を重ねて用意する必要はありません。
+Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
+characters):
+一覧図で代用可
+
+--- PANEL 3(肢ウ) ---
+Badge: a filled circle in blue containing the number 3(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+意思決定でなく事実証明の場面と見分ける
+Diagram: パネルの中を縦の点線で左右に分割した対比図。左側(グレー寄りの
+背景、控えめな彩度)には、共有者3人(甲・乙・丙)が土地を囲んで挙手し話し
+合っている「意思決定の場面」のイラストに「持分の過半数が必要」のラベ
+ル。右側(緑を基調とした強調された背景)には、同じ3人のうち1人(甲)だけ
+が「敷地所有者による証明情報」と書かれた書類にサインし、既に建ってい
+る建物を指し示している「事実証明の場面(本肢)」のイラストに「1人の証明
+で足りる」のラベル。中央の点線の上に「これは意思決定か、事実証明か」
+という問いかけのラベルを配置する。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、その証明情報がこれから何かを決める場面なのか、すでにある事実を
+伝えるだけの場面なのかを見分けます。本肢は建物が敷地の上に建っている
+という事実を伝える証明なので、共有者のうち1人の証明で足ります。
+Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
+characters):
+1人の証明で足りる
+
+--- PANEL 4(肢エ) ---
+Badge: a filled circle in blue containing the number 4(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+電子署名は番号提供の代わりにならない
+Diagram: パネルの中を左右に分割した対比図。左側には、ノートパソコンに
+表示された電子印影のアイコンに「電子署名(代理権限が本物であることの証
+明)」というラベル。右側には、別の書類アイコンに「会社法人等番号(その
+法人が実在することの証明)」というラベル。中央に「＋」記号を配置し、両
+方から矢印が1つの書類フォルダ「代理権限証明情報として提供する添付情報
+一式」へ合流する構図にして、片方がもう片方の代わりにならないことを示
+す。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、電子署名付きの代理権限証明情報は「誰の意思による代理か」を証明
+するものであることを確認します。次に、会社法人等番号は「その法人が実
+在すること」を示す別の証明であることを確認し、電子署名があっても番号
+の提供は省略できないと判断します。
+Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
+characters):
+番号は別途必要
+
+--- PANEL 5(肢オ) ---
+Badge: a filled circle in green containing the number 5(numbers run
+continuously through all panels).
+Heading(bold, ONE line):
+名義一致から敷地権化の可否を順に確認する
+Diagram: 縦方向の決定木。開始点はグレーの四角ノード「地上権の登記名義
+人＝区分建物の所有者(名義が一致)」。そこから下向きの矢印でひし形の分岐
+ノード「分離処分可能規約により、この地上権を敷地権としない旨が定めら
+れているか」につながる。Yes(オレンジ・太い強調の矢印)は結論ノード(緑)
+「その理由を裏付ける規約の定めを証する情報の提供が必要(省略できない)」
+へ、No(グレー・細い矢印)はfadedなグレーの結論ボックス「原則どおり敷地
+権になる(規約を証する情報は不要、本肢とは別のケース)」へ導く。
+着眼点 callout(1-2 sentences, verbatim, must state the checking order):
+まず、地上権の登記名義人と区分建物の所有者が一致しているかを確認しま
+す。次に、その一致にもかかわらず分離処分可能規約によって敷地権になら
+ない扱いになっているかを確認し、なっている場合は、その理由を裏付ける
+規約の定めを証する情報の提供が必要になります。
+Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
+characters):
+規約証明は省略不可
+
+(…肢の数だけ繰り返し。バッジ番号は1から通しで振る。)
+
+--- FOOTER ---
+Small footnote text(bottom of panel, small font, verbatim):
+根拠：不動産登記令9条・7条1項1号イ・別表12項添付情報ホ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese(Jōyō) form, not Simplified Chinese, paying special
+attention to 略・証・番・号・約・敷・地・権・登・記・所・続. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢 is drawn as an actual flowchart with branch nodes(not
+a bare illustration with no visible decision structure), that no 肢 with
+a genuinely hidden second condition has been flattened into a single
+check, that each 着眼点 callout states a checking order rather than only
+a conclusion and keeps every required element from the source article
+distinct(no merged or dropped requirements), that any panel sharing a
+decision tree with another panel clearly distinguishes its own
+highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text(no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```

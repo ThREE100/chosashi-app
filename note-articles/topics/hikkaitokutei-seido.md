@@ -376,7 +376,7 @@ Conclusion tag (red):
 
 --- FOOTER ---
 
-注意：特に「登」「記」「権」「地」の各漢字は、簡体字ではなく標準的な
+注意：特に「登」「記」「権」「地」「相」「続」の各漢字は、簡体字ではなく標準的な
 日本語の常用漢字の字形で描画すること。
 
 Final check before rendering: scan every kanji glyph and confirm it is

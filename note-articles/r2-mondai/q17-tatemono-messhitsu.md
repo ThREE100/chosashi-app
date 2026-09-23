@@ -113,7 +113,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 登・記・権・建・物・所・続 — these must be rendered in their standard
+kanji 登・記・権・建・物・所・続・相 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants (権 must not become
 权; 記 must not become 记).
 
@@ -211,4 +211,209 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの確認順序を肢ごとに示す作図ガイド。ウ・エ・オは「滅失登記を申請しようとしているのは誰か」という同じ決定木を共有し（仮登記名義人＝ウ、相続人＝エ、区分所有者の一人＝オ）、各パネルは自分の肢に関係する枝だけを強調する。ア・イは単一のチェックで完結する肢のため通常の図解で示す。②の色分け（誰が申請人になれるか＝緑、登記記録・保存にどう扱われるか＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a demolished/burnt building icon, a registry-
+window counter icon, family/heir figures, archive box icons, and a
+condominium building with multiple owner figures — adapt icon set to the
+topic of 建物の滅失の登記. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes
+with the condition written on them, Yes/No（はい／いいえ）branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panels 3, 4, and 5（肢ウ・エ・オ）share the same three-way decision tree
+rooted at a diamond node asking who is trying to apply for the 滅失
+registration（所有権移転の仮登記名義人／相続人／区分所有者の一人）; each
+panel highlights（太い縁取り・フルカラー）only the branch relevant to its
+own肢 and renders the other two branches in a faded, greyed-out, dotted-
+outline style. Panel 4（肢エ）must additionally draw a second diamond
+node on its own highlighted branch — 相続による所有権移転の登記を経て
+いるか — with both the はい and いいえ outcomes given their own
+conclusion node (no looping arrow back to an earlier node), since this
+is the branch's own genuinely hidden second condition. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body
+text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和2年度 午後の部 第17問 ア〜オ
+作図ガイド（建物の滅失の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+抵当権消滅の承諾情報を提供したかを確認する
+Diagram: 敷地権付き区分建物のアイソメトリック建物と、点線でつながる
+敷地（土地）の敷地権アイコンを描く。建物に赤いタグ「抵当権」を付け、
+抵当権の登記名義人（人物アイコン）から「承諾したことを証する情報」の
+書類が土地アイコンへ手渡される矢印を描く。矢印の先で、土地側の
+「抵当権」タグに「消滅」というスタンプが重ねられ、フェードアウトする。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この抵当権が敷地権の登記がされた後に設定された抵当権であること
+を確認します。次に、その抵当権の登記名義人から、敷地権の目的である
+土地について抵当権を消滅させることを承諾したことを証する情報が提供
+されているかを確認し、提供されていれば建物の登記記録にその土地に
+ついて抵当権が消滅した旨が記録されると判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+消滅した旨を記録
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+申請情報等の保存期間を確認する
+Diagram: 滅失の登記の申請書類（申請情報・添付情報）のアイコンが、
+登記所のアーカイブ棚に収められる様子を描く。受付の日を起点とする
+カレンダー・タイムラインの矢印を右へ伸ばし、その先に「30年」という
+期間ラベルを付ける。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この保存期間のルールが表示に関する登記全般に共通するものであり、
+建物の滅失の登記もこれに含まれることを確認します。次に、起算点が受付
+の日であることを確認し、そこから30年間保存されると判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+30年間保存
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+申請人になろうとしているのは誰かを確認する
+Diagram: A decision flowchart shared with Panels 4 and 5. 共有決定木の
+起点「滅失登記を申請しようとしているのは誰か」を描き、3つの枝（仮登記
+名義人・相続人・区分所有者の一人）を並べる。仮登記名義人への枝
+（highlighted, thick border, full color, since this panel is about this
+branch）を辿ると、焼失した建物のアイソメトリック建物と、所有権移転の
+仮登記名義人（人物アイコン）が消防署の焼失証明書と所有権登記名義人の
+承諾書を持って登記所の窓口へ向かうが、赤い✕のバリアで止められる様子
+を描き、結論ノード「申請人になれない」につながる。相続人への枝と区分
+所有者の一人への枝は、他のパネル（4・5）で扱うため、薄いグレーの点線
+で縮小表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この肢が滅失登記を申請しようとしているのが誰かを、共有の決定木
+の「仮登記名義人」の枝として確認します。次に、滅失の登記を申請できる
+のは表題部所有者または所有権の登記名義人に限られることを確認し、消防
+署の焼失証明書や所有権登記名義人の承諾があっても、仮登記名義人自身は
+申請人になれないと判断します。
+Conclusion tag (green, 5-15 Japanese characters):
+申請人になれない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+相続登記を経ていなくても申請できるかを確認する
+Diagram: The same three-way decision tree as Panels 3 and 5. 共有決定木
+の起点を再掲し、相続人への枝（highlighted, thick border, full color,
+since this panel is about this branch）を辿ると、2つ目のひし形ノード
+「相続による所有権移転の登記を経ているか」がある。いいえ側
+（highlighted, thick border, full color, since this is the article's
+fact pattern）は、亡くなった所有権の登記名義人（グレーのシルエット）
+から矢印で相続人（人物アイコン）へつながり、相続人が滅失の登記の書類
+を直接登記所の窓口へ提出する様子を描き、結論ノード「相続登記なしで
+滅失の登記を申請できる」につながる。はい側（faded）は、通常どおり
+申請できるという薄い結論ノードを縮小表示する。仮登記名義人への枝と
+区分所有者の一人への枝は、他のパネル（3・5）で扱うため、薄いグレー
+の点線で縮小表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この肢が滅失登記を申請しようとしているのが誰かを、共有の決定木
+の「相続人」の枝として確認します。次に、相続による所有権移転の登記を
+経ているかを確認し、経ていなくても、相続人であることを証する情報を
+提供すれば滅失の登記を申請できると判断します。
+Conclusion tag (green, 5-15 Japanese characters):
+相続登記は不要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+区分所有者の一人から申請できるかを確認する
+Diagram: The same three-way decision tree as Panels 3 and 4. 共有決定木
+の起点を再掲し、区分所有者の一人への枝（highlighted, thick border,
+full color, since this panel is about this branch）を辿ると、所有者が
+異なる複数の区分建物が属する一棟の建物のアイソメトリック建物を描き、
+複数の区分所有者（人物アイコン）のうち1人だけが「一棟の建物の滅失の
+登記」の書類を持って進み出て登記所の窓口へ提出する様子を描き、結論
+ノード「区分所有者の一人から申請できる」につながる。他の区分所有者
+は後方に控えたまま描く。仮登記名義人への枝と相続人への枝は、他のパネル
+（3・4）で扱うため、薄いグレーの点線で縮小表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この肢が滅失登記を申請しようとしているのが誰かを、共有の決定木
+の「区分所有者の一人」の枝として確認します。次に、これは所有者が異なる
+数個の区分建物が属する一棟の建物の滅失の登記であることを確認し、区分
+所有者全員がそろわなくても、そのうちの一人から申請できると判断します。
+Conclusion tag (green, 5-15 Japanese characters):
+1人から申請可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：アは不動産登記法55条4項、イは不動産登記規則28条9号、ウは
+不動産登記法57条（申請人の範囲）、エは不動産登記法30条（一般承継人に
+よる申請）。オは区分建物の滅失登記に関する一般的な取扱いによるもので、
+個別の条文番号までは本記事では確定していません。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 登・記・権・建・物・所・続・相・仮・焼・失・区と any
+character that has a visually similar Simplified Chinese variant
+(権 must not become 权; 記 must not become 记). If any character renders as
+a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panels 3, 4, and 5 visibly share
+the same three-way decision tree with only the highlighted branch
+differing and the other two branches rendered faded rather than omitted,
+that Panel 4's second diamond node gives both the はい and いいえ
+outcomes their own conclusion node with no looping arrow back to an
+earlier node, that each 着眼点 callout states a checking order rather
+than only a conclusion, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
 ```

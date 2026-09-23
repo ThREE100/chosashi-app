@@ -87,7 +87,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to 登, 記,
-建, 物, 権, 所, 地 — do not draw these as Simplified Chinese variants.
+建, 物, 権, 所, 地, 相, 続 — do not draw these as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -256,7 +256,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to 登, 記,
-建, 物, 権, 所, 地 — do not draw these as Simplified Chinese variants.
+建, 物, 権, 所, 地, 相, 続 — do not draw these as Simplified Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 1行):

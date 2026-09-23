@@ -145,7 +145,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・継・状・産, which have Simplified Chinese look-alike forms with
+kanji 権・継・状・産・相・続, which have Simplified Chinese look-alike forms with
 visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
@@ -233,7 +233,7 @@ sentence, NOT a legal citation):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・継・状・産. If any character renders as a Simplified
+attention to 権・継・状・産・相・続. If any character renders as a Simplified
 Chinese variant, redraw that character in the correct Japanese form.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
@@ -439,4 +439,265 @@ FOOTER's small footnote text (no summary recap panel, no trophy or medal
 icon, no re-listed ○/✕ grid, and no additional text block of any kind),
 and confirm the entire canvas, edge to edge, is filled with a fully
 opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+代理に関する問題文を読んだときに、「誰に・何が起きたか」を順に確認して代理権の存続・消滅を判定する5パネル構成。ア（各自代理と共同代理）は共同代理の特約の有無という1つの分岐の両方の行き先を示す決定木、ウ（取下げ）は申請と取下げを別々の書類として並べるタイムラインで描く。イ・エ・オ（代理人の死亡・親権者の破産・本人の死亡）は、「死亡・破産したのは委任契約の当事者か」→「死亡したのは本人か」という同じ判定木を3パネルで共有し、各パネルは自分の枝だけを強調する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2900 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric principal figures (本人), agent
+figures (代理人), heir figures (相続人), parent figures (親権者), small
+child figures (未成年者), 委任状 document icons, chain links between the
+principal and the agent (intact or broken), a small bankruptcy icon, and
+a horizontal timeline with two separate document icons. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(はい/いいえ) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Every diamond node in every panel
+must have ALL of its exits drawn as described below, each exit leading
+forward to its own separate node; never draw an arrow that loops back
+from a diamond to any earlier node in the diagram.
+
+SHARED DECISION TREE for Panels 2, 4 and 5 (肢イ・肢エ・肢オ): these three
+panels reuse the same small decision tree, drawn with the same layout in
+each of the three panels:
+ - Start node (rounded rectangle): 代理権は消えるか
+ - Diamond node D1: 死亡・破産したのは委任契約の当事者（本人か代理人）か？
+   - いいえ exit → a rectangular step box reading
+     民法653条の終了事由に当たらない（不動産登記法17条4号も同じ結論）
+     → conclusion node C: 委任は終了しない（申請できる）
+   - はい exit → a rectangular step box reading
+     民法653条1号：死亡は原則として委任の終了事由
+     → Diamond node D2: 死亡したのは本人（委任者）か？
+       - はい exit → a rectangular step box reading
+         不動産登記法17条1号の特則
+         → conclusion node B: 代理権は消滅しない（申請できる）
+       - いいえ exit (the agent himself died) → a rectangular step box
+         reading 不動産登記法17条に代理人の死亡は含まれない
+         → conclusion node A: 委任は終了（相続人は承継しない）
+In each of these three panels, render the path relevant to THIS panel
+(from the start node down to its own conclusion node) with a thick
+highlighted border, bold arrows, and full color, and render the other,
+unrelated branches and conclusion nodes in a faded, greyed-out,
+dotted-outline style rather than omitting them — the reader should be
+able to see at a glance which part of the shared tree this panel is
+about. Panel 2 highlights the path D1 はい → D2 いいえ → conclusion A.
+Panel 4 highlights the path D1 いいえ → conclusion C. Panel 5 highlights
+the path D1 はい → D2 はい → conclusion B. Where a diagram must show an
+entity that never actually held the status in question (the heir who
+never became the agent), render that figure in a faded or dotted-outline
+style rather than a plain ✕ mark, so the visual itself communicates
+"this was never really there."
+
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 2-3 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成28年度 午後の部 第7問 ア〜オ
+作図ガイド（登記の申請の代理）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+共同代理の特約がなければ各自で代理できる
+Diagram: A decision flowchart. At the top, a 委任状 document icon listing
+three agent names「A」「B」「C」, with a small label 代理人が3人. An arrow
+leads down to a single diamond node reading 委任状に共同代理の特約の記載
+があるか？, which has exactly two exits, each leading to its own separate
+conclusion node and neither looping back:
+ - いいえ exit (thick highlighted arrow, full color, since this is the
+   situation in this 肢) → conclusion node reading 各自代理（1人だけでも
+   申請できる）, illustrated with agent A alone holding one key labeled
+   代理権 and submitting an application document, while B and C stand
+   aside unneeded.
+ - はい exit (thinner arrow, normal but muted color) → conclusion node
+   reading 共同代理（全員そろって申請）, illustrated with three keys that
+   must be inserted into one lock together.
+A small ✕ label near the top reads 名前が並ぶだけでは共同代理にならない.
+着眼点 callout (2-3 sentences, verbatim, must state the checking order):
+まず委任状に「共同で行うこと」といった共同代理の特約の記載があるかを確
+認します。記載がなければ各自代理が原則となり、A・B・Cのうち1人だけで
+も登記の申請手続を代理できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+特約なしなら各自代理
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+代理人が死亡すると委任は終了し相続人は引き継がない
+Diagram: The SHARED DECISION TREE described above, with the path D1 はい
+→ D2 いいえ → conclusion A highlighted and all other branches faded. To
+the side of conclusion A, a small relationship inset: an isometric
+principal figure A connected to agent figure B by a chain link that is
+visibly broken, B fading away with a small label 死亡, and B's heir
+figure C drawn in a faded dotted outline (C never became the agent)
+with a small label 一身専属のため相続されない（民法896条ただし書）. A
+small crossed-out document icon near C reads AからBへの委任状.
+着眼点 callout (2-3 sentences, verbatim, must state the checking order):
+まず死亡したのが代理人（受任者）自身であることを確認し、民法653条1号
+により委任が終了することを押さえます。次に不動産登記法17条を確認しま
+すが、代理権が消滅しない場合として挙げられているのは本人側の事由だけ
+で、代理人の死亡は含まれません。そのため、相続人Cが代理人の立場を承継
+することはなく、Aから改めて委任を受け直す必要があります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+相続人は承継しない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+取下げには申請とは別の委任状が必要
+Diagram: A horizontal timeline running left to right. At the left point,
+an isometric application document labeled 分筆の登記の申請 with its own
+委任状 folder labeled 申請の委任状 attached. Midway along the timeline, a
+small thought-bubble icon labeled 申請意思の撤回. At the right point, a
+separate withdrawal document labeled 取下げ with its own, clearly
+distinct 委任状 folder labeled 取下げの委任状 attached. Between the two
+folders, a small ✕ arrow shows that the 申請の委任状 cannot simply be
+carried over to the 取下げ side. Place two small numbered checkpoint
+badges on the timeline: ① beside the 取下げ document reading 申請とは別
+個の意思表示, and ② beside the 取下げの委任状 reading 当初の委任状に取下
+げの権限まで含まれる事情はない.
+着眼点 callout (2-3 sentences, verbatim, must state the checking order):
+まず問題となっている手続が申請そのものか取下げかを確認します。取下げは
+申請とは別個の意思表示なので、次に当初の委任状に取下げの権限まで含まれ
+ていると解される事情があるかを確認し、そうした事情がなければ取下げにつ
+いての委任状を別途添付します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+取下げの委任状が別途必要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+親権者個人の破産では未成年者の委任は終了しない
+Diagram: The SHARED DECISION TREE described above, with the path D1 いい
+え → conclusion C highlighted and all other branches faded. To the side
+of D1, a small relationship inset: an isometric child figure labeled
+未成年者（委任者本人） connected by an intact, solid chain link to an
+agent figure labeled 代理人; a parent figure labeled 親権者（法定代理人）
+stands slightly apart, with a thin arrow labeled 代わりに委任 pointing
+toward the chain (showing the parent only acted on the child's behalf),
+and a small bankruptcy icon labeled 破産 sits beside the parent without
+touching or breaking the chain between the child and the agent.
+着眼点 callout (2-3 sentences, verbatim, must state the checking order):
+まず委任契約の当事者（委任者）が誰かを確認します。親権者は法定代理人と
+して委任行為を代わりに行ったにすぎず、委任者は未成年者本人です。次に民
+法653条2号を確認すると、終了事由は委任者または受任者自身の破産なので、
+親権者個人の破産では委任は終了せず、不動産登記法17条4号も同じ結論を裏
+付けます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代理人は申請できる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+本人が死亡しても代理人は申請できる
+Diagram: The SHARED DECISION TREE described above, with the path D1 はい
+→ D2 はい → conclusion B highlighted and all other branches faded. To the
+side of conclusion B, a small relationship inset: an isometric principal
+figure labeled 所有権の登記名義人（本人） fading away with a small label
+死亡, while the chain link to the agent figure labeled 代理人 remains
+solid and glowing, and the agent continues to submit an application
+document labeled 地目の変更の登記.
+着眼点 callout (2-3 sentences, verbatim, must state the checking order):
+まず死亡したのが本人（所有権の登記名義人）であることを確認します。民法
+653条1号では委任者の死亡は原則として委任の終了事由ですが、次に不動産登
+記法17条1号を確認すると、本人の死亡によっては代理人の権限は消滅しない
+という特則があるため、代理人は地目の変更の登記を申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代理権は存続する
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法653条1号・2号、896条ただし書、不動産登記法17条1号・4号に基づく整理
+です。肢アは代理の一般原則、肢ウは登記実務上の取扱いに基づきます。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・継・続・産・状・終・滅・専・属・
+請・登・記・親・約・消 and any character that has a visually similar
+Simplified or Traditional Chinese variant. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character
+that is not standard Japanese hiragana, katakana, or Jōyō kanji —
+including any Chinese-only character, Korean Hangul, other non-Japanese
+script, or stray decorative glyph — and remove or redraw it so that only
+standard Japanese text appears anywhere in the image. Confirm the panel
+count equals 5 exactly, badge numbers run 1-5 continuously, there is no
+intro illustration or paragraph block between the header and the panels,
+that Panels 1, 2, 4 and 5 are drawn as actual flowcharts with diamond
+branch nodes (not bare illustrations with no visible decision structure),
+that every diamond node has all of its exits drawn, each leading forward
+to its own separate node, with no arrow looping back to any earlier node,
+that Panels 2, 4 and 5 visibly share the same decision-tree layout while
+each clearly distinguishes its own highlighted path from the other,
+faded branches, that the heir figure C in Panel 2 is drawn in a faded
+dotted outline, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
 ```

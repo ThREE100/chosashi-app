@@ -237,7 +237,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 建・物・分・割・合・併・
-登・記・個・数・附・属・登録・免・許・税 — always draw the standard
+登・記・個・数・附・属・登録・免・許・税・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 --- HEADER ---
@@ -283,4 +283,180 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
 heading, node label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「そもそも非課税の除外規定に当たるか」「登記の種類ではなく個数を数える」を見抜けるようにする5パネル構成。オは既存の間違いノート型と同じ「誤った数え方（3個）」対「正しい数え方（2個）」の正誤対比枠を使う。②の色分け（非課税になるケース＝緑、個数×1,000円で計算するケース＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（登録
+免許税、「非課税」と「個数×千円」の見分け方）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric building and land-plot icons, a
+「非課税」stamp, a municipal-building icon for 地方公共団体, a splitting
+building icon for 再区分, price tags — adapt icon set to the topic of
+登録免許税. Where a 肢 requires checking multiple conditions in sequence
+before reaching a conclusion, draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No（はい／いいえ）branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Panel 2
+（肢イ）must be drawn as a two-step flowchart, checking「本来課税対象か」
+first and then「代位する主体が別表第二に掲げる者か」. Panel 5（肢オ）
+uses a 正誤対比型（left/right contrast frame）instead of a flowchart:
+LEFT「誤った数え方（3個）」、RIGHT「正しい数え方（2個）」. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion.
+Do not include case or precedent numbers (article/regulation numbers
+are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第19問 ア〜オ
+作図ガイド（登録免許税）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+表題部所有者の住所更正は非課税
+Diagram: An isometric building icon with a small document tag labeled
+「表題部」「住所」attached, a red「非課税」stamp overlaid on top, with no
+yen coin icons anywhere near the panel.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この変更・更正の登記が「表題部所有者」に関するものか、それとも
+「権利部の登記名義人」に関するものかを確認します。表題部所有者の氏名・
+住所についての変更・更正の登記は非課税であり、1,000円という金額は
+当てはまりません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+住所更正は非課税
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+別表第二の者が代位すれば非課税
+Diagram: A two-step decision flowchart. Start node: この分筆登記は本来
+課税対象（個数×1,000円）か？with a はい arrow down to a diamond node
+（highlighted with a thick border): 代位する主体は登録免許税法別表第二
+に掲げる者（地方公共団体等）か？with a green はい branch leading to a
+conclusion node reading 登記の種類にかかわらず非課税, and a faded いいえ
+branch leading to a separate conclusion node reading 通常どおり個数×
+1,000円が課税される.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆登記のような表示に関する登記は本来課税対象であることを確認
+します。次に、代位する主体が登録免許税法別表第二に掲げる者（地方公共
+団体等）であるかを確認します。該当する場合は、登記の種類にかかわらず
+非課税となります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代位でも非課税
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+表題部の登記の抹消は非課税
+Diagram: An isometric view of three land parcels merged into one（合筆）,
+overlaid with a red cancellation line/✕ mark（抹消）and a「非課税」stamp
+badge beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、抹消の対象が「土地又は建物の表題部の登記」であることを確認しま
+す。表題部の登記の抹消は、登録免許税法別表第一（十五）の除外規定に
+当たるため非課税です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+表題部抹消は非課税
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+再区分後の個数×1,000円を数える
+Diagram: An isometric single building icon splitting via a dotted arrow
+into two identical smaller building icons（再区分）, each labeled
+「1,000円」, with a total-sum bubble beside them showing「2,000円」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記の結果、いくつの不動産（区分建物）が生じるかを数えます。
+1個の区分建物が2個になるため、2個×1,000円＝2,000円となります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+合計2,000円
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+数えるのは登記の種類でなく個数
+Diagram: A 正誤対比型（left/right contrast frame, NOT a flowchart)。LEFT
+box（faded, red border）labeled「誤った数え方（3個）」: 甲建物・切り離
+された附属建物・乙建物の3つの建物アイコンが並び、それぞれに「1,000円」
+のタグ、合計「3,000円」のsum bubble。RIGHT box（highlighted with a thick
+colored border, green）labeled「正しい数え方（2個）」: 甲建物・乙建物の
+2つの建物アイコンのみ、それぞれ「1,000円」のタグ、合計「2,000円」の
+sum bubble。切り離された附属建物は乙建物にそのまま吸収される矢印で
+示す（独立した価格タグを付けない）。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、数えるべきなのは「登記の種類の数」ではなく「登記の結果、登記事項
+が変わる不動産の個数」であることを確認します。切り離された附属建物は
+独立した建物として別途登記されることなく、そのまま乙建物に合体するた
+め、登記事項が変わるのは甲建物と乙建物の2個だけです。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+正しくは2,000円
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+登録免許税法5条1号、別表第一（十三）イ・ロ・（十五）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 課, 税, 免, 許, 抹, 消, 併, 建, 物, 登, 記, 個 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panel 2 is drawn
+as a two-step flowchart with both branches of its second diamond node
+leading to distinct conclusion nodes, that Panel 5 is drawn as a
+left/right contrast frame rather than a flowchart, that each 着眼点
+callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
+and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```

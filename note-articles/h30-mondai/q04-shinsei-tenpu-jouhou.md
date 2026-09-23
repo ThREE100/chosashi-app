@@ -114,7 +114,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 証・続・識・補・図・登・記 — these must be rendered in
+kanji 証・続・識・補・図・登・記・相 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -207,4 +207,225 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「何を、どの順番で確認すればよいか」を肢ごとに示す作図ガイド。②の結論ポスターとは別に、ア〜オ5肢それぞれについて、確認の手順そのものを可視化する5パネル構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — application document icons, diamond-shaped
+decision nodes with condition labels, paper-clip and sticky-tag icons for
+援用（前件添付）, calendar/clock icons for 3月以内 deadlines, computer
+monitor icons for electronic filing, official seal/stamp icons,
+prohibition marks, and left/right comparison frames. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Where a panel reuses a decision tree shared with other panels
+in this set, render the branch relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated
+branches in a faded, greyed-out, or dotted-outline style rather than
+omitting them — the reader should be able to see at a glance which part
+of the shared tree this panel is about. Likewise, where a diagram must
+show an entity that conceptually never held the right or status in
+question, render that entity or claim in a faded or dotted-outline style
+rather than a plain ○/✕ mark, so the visual itself communicates "this was
+never really there," not just "this is wrong." Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element (e.g. keep "善意" and "無過失" as two distinct checks
+if the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成30年度 午後の部 第4問 ア〜オ
+作図ガイド（申請情報・添付情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+共通添付情報は前件添付と明記する
+Diagram: Draw an actual decision flowchart with two diamond-shaped branch
+nodes stacked top to bottom. The first diamond reads "同一の登記所へ同時に
+2件以上申請するか". A "いいえ" arrow leads to a conclusion node reading
+"各申請にそれぞれ添付情報を用意する". A "はい" arrow leads down to the
+second diamond, which reads "各申請に共通する添付情報を一の申請にまとめて
+提供したか". A "いいえ" arrow from this second diamond leads to a separate
+conclusion node reading "それぞれの申請に個別に添付情報を用意する". A
+"はい" arrow leads to the final conclusion node reading "他の申請情報に
+「前件添付」等と記載する", illustrated with a paper-clip icon on the first
+application document and a dotted arrow to a sticky-tag icon reading
+"前件添付" on the second application document. No arrow loops back to an
+earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず同一の登記所に同時に2件以上の申請があるかを確認し、次にそのうち共通
+する添付情報を1件にまとめて提供しているかを確認します。両方に該当する
+場合だけ、他の申請情報に「前件添付」等と記載します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+他の申請情報に前件添付と記載
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+番号なし法人は3月以内の証明書が必要
+Diagram: A left "正しいルール" frame showing an isometric building icon
+labeled "法人"（会社法人等番号なし）connected by an arrow to a document
+icon labeled "資格証明書", with a calendar/clock icon reading "作成後
+3月以内" and a green checkmark. A right "誤りやすい思い込み" frame shows
+the same 資格証明書 document but with a dusty, faded appearance and a tag
+reading "作成後6か月" (past the deadline), overlaid with a red prohibition
+(no-entry) mark, showing that an outdated certificate cannot be used.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+会社法人等番号を有しない法人が申請人であることを確認したら、代表者の資格
+を証する情報として、作成後3月以内の登記事項証明書を用意しているかを確認
+します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+3月以内の証明書のみ有効
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+一覧図を添付しても相続人の旨は記載必須
+Diagram: A left "正しいルール" frame showing a person icon labeled
+"相続人" beside an application document where a pen icon is writing the
+text "相続人である旨" onto the form, plus a separate ledger-style paper
+icon labeled "法定相続情報一覧図の写し" connected with a "＋" mark to show
+both are required together, with a green checkmark. A right "誤りやすい
+思い込み" frame shows only the "法定相続情報一覧図の写し" document
+attached, while the "相続人である旨" field on the application form is left
+blank with a red strikethrough line through it, showing the mistaken
+belief that the 一覧図 alone makes the記載 unnecessary.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+申請人が相続人であることを確認したら、法定相続情報一覧図の写しを添付する
+かどうかにかかわらず、申請情報に「相続人である旨」を必ず記載しているかを
+確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一覧図があっても記載必要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+登記識別情報だけは書面で出せない
+Diagram: A left "正しいルール" frame showing other attachment documents
+being submitted on paper under the special paper-submission method with a
+green checkmark, placed beside a separate computer monitor icon labeled
+"電子情報処理組織" displaying a form field being typed with the text
+"登記識別情報", also with a green checkmark. A right "誤りやすい思い込み"
+frame shows a person trying to carry a paper document labeled "登記識別
+情報" into the registry office window, overlaid with a red prohibition
+(no-entry) mark, showing that this one item cannot be submitted on paper
+even under the special method.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+電子申請で合筆の登記を申請する場面であることを確認したら、他の添付情報を
+特例方式で書面提出できる場合でも、登記識別情報だけは電子情報処理組織を
+使用して入力する方法によるほかないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+識別情報は電子入力のみ
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+電子申請の補正は電子情報処理組織で行う
+Diagram: A left "書面申請の場合" frame showing a paper application form
+being carried to a registry-office counter icon for a paper-based
+correction. A right "電子申請の場合"（本問はこちら, with a thick
+highlighted border）frame showing a computer monitor icon displaying the
+application form with a red tag reading "補正", the correction happening
+entirely within the same on-screen system rather than at a paper counter.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+その申請がどの方法（書面か電子か）でされたものかをまず確認し、電子申請で
+されたものであれば、補正も電子情報処理組織を使用する方法で行うことを
+確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+補正も電子申請と同じ方法
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記規則37条2項（ア）、不動産登記令7条1項1号ロ（イ）、
+不動産登記令3条10号（ウ）、不動産登記規則66条1項1号・不動産登記令附則
+5条1項かっこ書（エ）、不動産登記規則60条2項1号（オ）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 証・続・識・補・図・登・記・前・件.
+If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire
+canvas for any character that is not standard Japanese hiragana,
+katakana, or Jōyō kanji — including any Chinese-only character, Korean
+Hangul, other non-Japanese script, or stray decorative glyph — and remove
+or redraw it so that only standard Japanese text appears anywhere in the
+image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```

@@ -262,7 +262,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 敷・地・権・番・号・
-管・轄・登・記・所・省・略 — always draw the standard Japanese (Jōyō)
+管・轄・登・記・所・省・略・誤 — always draw the standard Japanese (Jōyō)
 form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -358,7 +358,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 番・号・省・略・構・造・
-床・面・積・名・称・条 — always draw the standard Japanese (Jōyō) form.
+床・面・積・名・称・条・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

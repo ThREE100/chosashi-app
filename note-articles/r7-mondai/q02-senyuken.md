@@ -128,7 +128,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・続・産・還・転・訴・償 — these must be rendered in their standard
+kanji 権・続・産・還・転・訴・償・相 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -281,7 +281,7 @@ Subtitle (smaller, centered, 2行):
 --- PANEL 1（肢ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
-相続人は主張方法を選べると確認する
+相続人は主張方法を自由に選べる
 Diagram: An isometric generational scene: a deceased figure Ａ's house
 （15年の占有期間ラベル）and heir Ｂ's house（5年の占有期間ラベル）,
 connected by a fork icon splitting into two arrows, one labeled「自己の
@@ -372,7 +372,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 継, 還, 償, 侵, 奪, 訴 and any character that has a visually
+attention to 継, 還, 償, 侵, 奪, 訴, 提, 起, 相, 続 and any character that has a visually
 similar Simplified Chinese variant. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
@@ -418,7 +418,7 @@ Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-占・有・権・代・理・訴・奪・還・侵・害 — always draw the standard Japanese
+占・有・権・代・理・訴・奪・還・侵・害・提・起・誤 — always draw the standard Japanese
 (Jōyō) form.
 
 --- HEADER ---
@@ -489,7 +489,7 @@ yellow background, full width) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially
-占・有・権・代・理・訴・奪・還・侵・害. If any character renders as a
+占・有・権・代・理・訴・奪・還・侵・害・提・起・誤. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm there are exactly 3 vertically stacked scenes connected by
 two downward arrows, confirm both quoted article text boxes (181条・197条)

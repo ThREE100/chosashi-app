@@ -200,3 +200,195 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「その義務は例外なく守るべき絶対の義務か、それとも努力義務か」「例外（正当な事由）が認められる場面かどうか」を見抜けるようにする5パネル構成。ア・エは正当な事由の有無で結論が分かれる決定木、イは事務所の数だけを確認する単一チェック、ウ・オは「条文の文言が『守らなければならない』か『努めなければならない』か」という同じ対比枠を共有し、ウは法的義務側、オは努力義務側を強調する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（その
+義務、「努力」か「絶対」か？）, but built as a set of 5 diagram-drawing
+panels (a "how to sketch this fact pattern, in the right order" study
+reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric official figures (土地家屋調査士),
+document stamps, office-building icons, a locked document with a keyhole
+gap, a rulebook icon, and a light feather icon representing 努力義務 —
+adapt icon set to the topic of 調査士の義務. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No（はい／いいえ）branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Panels 3 and 5（肢ウ・肢オ）share the same side-by-side
+comparison frame（LEFT: 法的義務＝「守らなければならない」、RIGHT: 努力
+義務＝「努めなければならない」); draw both panels with the same two-box
+layout, but highlight（太い縁取り・フルカラーで強調）the box relevant to
+that panel's 肢 and render the other box in a faded, greyed-out style.
+Unlike a glanceable summary poster, each panel MAY include a short「着眼
+点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和元年度午後第20問 ア〜オ
+作図ガイド（土地家屋調査士の義務）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+特定業務でなければ正当事由なしに拒否不可
+Diagram: A 2-step decision flowchart. Start node: a client figure
+holding out a document to a 土地家屋調査士 figure（ある依頼）. Diamond 1:
+「その依頼は、筆界特定手続の代理・相談、またはADR代理関係業務か？」—
+はい branch arrow leads to a conclusion node:「応諾義務の適用除外（自由
+に判断できる）」. いいえ branch arrow leads to Diamond 2:「正当な事由が
+あるか？」— いいえ branch arrow leads to a conclusion node:「依頼を
+拒んではならない（応諾義務あり）」; はい branch arrow leads to a separate
+conclusion node:「依頼を拒める」. All three conclusion nodes are drawn
+with equal visual weight (no branch faded), since this single 肢 covers
+the full rule and its exception.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その依頼が筆界特定手続の代理・相談やADR代理関係業務にあたるかを
+確認します。あたらない場合は、次に正当な事由があるかを確認し、正当な
+事由がなければ依頼を拒んではならないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+原則拒否不可(除外業務は別)
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+事務所はただ一つに限られる
+Diagram: A single-check illustration (not a flowchart). A 土地家屋調査士
+figure standing beside one office-building icon with a green checkmark
+above it; beside it, a second office-building icon has a red prohibition
+(no-entry) mark overlaid on it, with a label「二以上の事務所を設けるこ
+とはできない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その調査士が事務所を複数構えようとしていないかを確認します。土地
+家屋調査士の事務所は必ず一つに限られるため、二か所目を設けることはでき
+ないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+事務所は一つのみ
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+会則遵守は「努力」でなく絶対の義務
+Diagram: A side-by-side comparison frame shared with Panel 5. LEFT box
+（highlighted with a thick colored border, full color）labeled「法的義務
+＝守らなければならない」: a rulebook icon labeled 会則 stamped with
+「遵守」の判子、a chain-link icon around it showing binding force. RIGHT
+box（faded, greyed-out）labeled「努力義務＝努めなければならない」: a
+light feather icon, shown dimly.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、条文の文言が「守らなければならない」なのか「努めなければならな
+い」なのかを確認します。会則の遵守は「守らなければならない」と規定さ
+れているため、努力義務ではなく法的義務です。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+会則は法的義務
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in teal containing the number 4.
+Heading (bold, ONE line):
+秘密保持は正当な事由があれば例外あり
+Diagram: A 1-step decision flowchart. Start node: a locked document icon
+labeled 秘密 held by a 土地家屋調査士 figure. Diamond:「業務上知った秘密
+を開示することについて、正当な事由があるか？」— いいえ branch arrow
+leads to a conclusion node:「秘密を他に漏らしてはならない」, drawn as
+the document remaining fully locked. はい branch arrow leads to a
+separate conclusion node:「秘密を開示することが許される」, drawn as a
+small keyhole gap through which a little information icon can pass. Both
+conclusion nodes are drawn with equal visual weight; do not loop either
+branch back into the diamond.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、業務上取り扱った事件について知った秘密を開示することに正当な事由
+があるかを確認します。正当な事由がなければ秘密を漏らしてはならず、正当
+な事由があれば例外的に開示することが許されます。
+Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
+characters):
+正当事由で開示可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+研修受講は努力義務にとどまる
+Diagram: The same side-by-side comparison frame as Panel 3. RIGHT box
+（highlighted with a thick colored border, full color, since this panel is
+about this branch）labeled「努力義務＝努めなければならない」: a 土地家屋
+調査士 figure walking toward a training-room icon (blackboard and
+screen), with a light feather icon floating above the figure's head.
+LEFT box（faded, greyed-out）labeled「法的義務＝守らなければならない」:
+the 会則 rulebook icon from Panel 3, shown dimly.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、条文の文言が「守らなければならない」なのか「努めなければならな
+い」なのかを確認します。研修の受講・資質向上は「努めなければならない」
+と規定されているため、法的義務ではなく努力義務です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+研修は努力義務
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+土地家屋調査士法22条（依頼応諾義務・適用除外）、同法20条・同法施行規則
+18条（事務所）、同法24条（会則遵守義務）、同法24条の2（秘密保持義務）、
+同法25条1項（研修の努力義務）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 拒, 秘, 密, 漏, 努, 遵, 守, 義, 務 and any character that has
+a visually similar Simplified Chinese variant. If any character renders
+as a Simplified Chinese variant, redraw that character in the correct
+Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+run 1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panels 3 and 5 visibly share the
+same comparison-frame layout with only the highlighted box differing,
+that Panels 1 and 4 are drawn as actual flowcharts with branch nodes and
+both branches' conclusion nodes shown (no loop arrow back into any
+diamond), that each 着眼点 callout states a checking order rather than
+only a conclusion, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

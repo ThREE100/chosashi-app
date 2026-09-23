@@ -184,3 +184,173 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、「届出先はどこか」「取消は義務か裁量か」を見抜けるようにする5パネル構成。オは「取り消さなければならない」と「取り消すことができる」を対比する枠にしている。②の色分け（届出のルール＝緑、登録取消のルール＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article（調査
+士・調査士法人のルール、届出先と脱退・取消）, but built as a set of 5
+diagram-drawing panels (a "how to sketch this fact pattern, in the right
+order" study reference) rather than a quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric government-bureau building, a 調査
+士会 hall, a 連合会 hall, an office chair for 補助者, two office buildings
+on a map, a balance scale — adapt icon set to the topic of 土地家屋調査士
+法. Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
+Where a 肢 is resolved by a single check, a labeled illustrative diagram
+is sufficient — do not force a flowchart. Panel 5（肢オ）uses a
+side-by-side comparison frame（LEFT: 取り消さなければならない（義務）、
+RIGHT: 取り消すことができる（裁量）) instead of a flowchart. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion.
+Do not include case or precedent numbers (article/regulation numbers
+are fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+令和7年度午後第20問 ア〜オ
+作図ガイド（土地家屋調査士法）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+定款変更は調査士会と連合会へ届出
+Diagram: A 調査士法人 staff figure holding a document labeled「定款変更
+届出書」. A government-bureau building icon has a large red ✕. Two
+arrows extend toward both the主たる事務所の所在地の土地家屋調査士会 hall
+and the日本土地家屋調査士会連合会 hall, with a small label「変更の日から
+2週間以内」beside the document.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、調査士法人が定款を変更した場合の届出先が「法務局」なのか、それ
+とも「調査士会・連合会」なのかを確認します。変更の日から2週間以内に、
+主たる事務所の所在地の土地家屋調査士会及び日本土地家屋調査士会連合会
+の両方に届け出る必要があります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+法務局ではない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+補助者廃止は所属の調査士会へ届出
+Diagram: An empty office chair beside a 調査士の事務所 desk（補助者が
+いなくなった様子）. A 調査士 figure holds a document labeled「補助者
+廃止届」and an arrow points toward the所属の土地家屋調査士会 hall.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、これまで置いていた補助者を置かなくなったことを確認します。この
+場合、遅滞なく、その旨を所属の土地家屋調査士会に届け出なければなりま
+せん。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+遅滞なく届出
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+事務所は届出があっても二以上不可
+Diagram: A first 調査士事務所 building icon with a green checkmark. A
+second office building icon on a different-prefecture map has a large
+red ✕. An arrow labeled「連合会への届出」points from a 連合会 hall
+toward the second building, but the red ✕ remains overlaid regardless.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、「連合会に届け出れば複数の事務所を持てるのではないか」という
+発想を確認します。届け出るかどうかにかかわらず、調査士はそもそも二
+以上の事務所を設けることができません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+二以上は不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+登録取消で法人を当然に脱退
+Diagram: Inside a 調査士法人 building, several 社員である調査士 figures
+stand in a row. One of them receives a「登録取消」stamp, and an arrow
+immediately pushes that figure outside the building. A separate
+document icon has a red ✕, showing no additional procedure is needed.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、調査士法人の社員である土地家屋調査士が、その登録を取り消された
+ことを確認します。登録を取り消された以上、特別な手続きを経るまでもな
+く、当然にその法人を脱退することになります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+当然に脱退
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+心身の故障による取消は裁量
+Diagram: A side-by-side comparison frame. LEFT box（faded, greyed-out）
+labeled「取り消さなければならない（義務）」: a red ✕ over the phrase.
+RIGHT box（highlighted with a thick colored border）labeled「取り消す
+ことができる（裁量）」: a balance-scale icon beside a 連合会 hall figure,
+with a 調査士 figure showing signs of illness（布団と体温計のアイコン）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、心身の故障による登録取消の規定が「取り消さなければならない」
+（義務）なのか、「取り消すことができる」（裁量）なのかを確認します。
+日本土地家屋調査士会連合会は取消の義務を負うわけではなく、状況に応じ
+て判断する余地が残されています。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+義務ではない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+土地家屋調査士法16条1項2号・34条2項・38条、土地家屋調査士法施行規則
+18条・23条2項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+attention to 款, 変, 更, 届, 補, 助, 脱, 退, 録, 登, 取, 消, 裁, 量 and any
+character that has a visually similar Simplified Chinese variant. If any
+character renders as a Simplified Chinese variant, redraw that character
+in the correct Japanese form. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panel 5 is drawn
+as a comparison frame rather than a flowchart, that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing
+is rendered below the last panel's footnote text (no summary recap
+panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

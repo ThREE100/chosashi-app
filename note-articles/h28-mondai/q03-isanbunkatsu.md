@@ -114,7 +114,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 遺・産・割・債・権・認・続・協・議・解 — these must be rendered in
+kanji 遺・産・割・債・権・認・相・続・協・議・解 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -373,7 +373,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 遺, 産, 割, 債, 権, 認, 協, 議, 解, 償. If any character
+attention to 遺, 産, 割, 債, 権, 認, 協, 議, 解, 償, 相, 続. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
