@@ -209,3 +209,264 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、`infographic-prompt-template.md`の
+「⑤ 作図ガイド型」ルールに基づき、問題文を読んだときに実際に手を動かして
+描くべき図と、その図にたどり着くまでにどの順番で何を確認するかを肢ごとに
+示す作図ガイド。②が5肢の結論を俯瞰するのに対し、⑤は思考順序そのものを
+可視化する。本問の5肢はいずれも「代位申請できるか」という同じ判定の枠組
+み（①その人に、そもそも登記を請求できる権利や保全すべき関係があるか、②
+その権利を実現するために分筆の登記がどうしても必要か、という2段階の決定
+木）を共有しているため、5パネルすべてで同一の決定木を土台にし、各パネル
+は自分の肢に関係する分岐だけを太い縁取り・実色で強調し、関係しない分岐は
+薄いグレーの点線で表示する構成にした。肢ア（転借人）は2段階とも「いいえ」
+側が関係し、肢イ（地役権者）は2段階目の「いいえ」側が関係し、肢ウ・エ・
+オ（共有物分割・処分禁止の仮処分・条件付仮登記）は2段階とも「はい」側が
+関係する。各パネルの着眼点コールアウトは「まず〜を確認し、次に〜を確認す
+る」という確認の順序を明示する文にしている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land-plot icons, a courthouse
+building icon, a farm-field icon, a padlock icon representing 処分禁止の
+仮処分, application documents, dashed boundary lines showing 分筆, and a
+SHARED two-step diamond decision tree (described below) reused across all
+5 panels with checkmark/X branch arrows. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. All 5 panels in this set share the SAME
+two-step decision tree — Diamond 1:「その人には、そもそも登記を請求でき
+る権利や保全すべき関係があるか」, Diamond 2 (reached only from Diamond
+1's はい branch):「その権利を実現するために、分筆の登記がどうしても必
+要か」— leading to a final conclusion node of either「代位申請できる」or
+「代位申請できない」. In each panel, render the branches relevant to THIS
+panel's 肢 with a thick highlighted border and full color, and render the
+other, unrelated branches (including the parts of the tree not reached by
+this 肢) in a faded, greyed-out, or dotted-outline style rather than
+omitting them — the reader should be able to see at a glance which part
+of the shared tree this panel is about. Do not loop any branch arrow back
+to an earlier diamond; every branch ends at its own distinct conclusion
+node. Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element (e.g. Panel 1 must
+keep both of its reasons — the unchanged scope of the lease and the lack
+of a registrable right — as two distinct checks).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成27年度 午後の部 第11問 ア〜オ
+作図ガイド（登記の代位申請の可否）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+賃借権の範囲は分筆しても変わらない
+Diagram: Draw the SHARED two-step diamond decision tree described above.
+Diamond 1「その人には、そもそも登記を請求できる権利や保全すべき関係が
+あるか」— highlight its「いいえ」branch with a thick red border(Ｂ・Ｃの
+賃借権・転借権そのものには、当然に登記を請求できる権利が備わっていない
+ため), leading to a highlighted conclusion node「代位申請できない」. Fade
+the「はい」branch and Diamond 2 in light grey dotted lines (他の肢で使う
+経路として残す). Beside the tree, illustrate ＡからＢが甲・乙の全部を借
+り、その一部をＣに転貸している isometric scene: Ｂの賃借権の範囲を示す
+点線が甲・乙の全部を覆っており、分筆線を仮に引いても点線の範囲が変わら
+ないことを示す矢印付きの注記「分筆してもＢの借りる範囲は変わらない」を
+添え、ＣがＡに代位して分筆登記の申請書を窓口に出そうとする手に赤い✕を重
+ねる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、ＣのもとになっているＢの賃借権が、そもそも登記を請求できる権利
+かどうかを確認します。次に、Ｂの賃借権はもともと土地の全部に及んでいる
+ため、分筆をしてもしなくても借りている範囲が変わらない、つまり分筆の
+必要がないことを確認します。この2つがどちらも当てはまるため、Ｃは代位
+して分筆の登記を申請できません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+転借人は代位不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+地役権は土地の一部にも設定できる
+Diagram: Draw the SHARED two-step diamond decision tree. Diamond 1「その
+人には、そもそも登記を請求できる権利や保全すべき関係があるか」— render
+its「はい」branch in a light, unhighlighted color (地役権者には地役権の
+設定登記を求める権利があるという前提部分、この肢の主眼ではないため強調
+しない). Continue to Diamond 2「その権利を実現するために、分筆の登記が
+どうしても必要か」— highlight its「いいえ」branch with a thick red
+border(地役権は一筆の土地の一部だけを対象にしても設定できるため), leading
+to a highlighted conclusion node「代位申請できない」. Fade Diamond 2's
+「はい」branch in light grey dotted lines. Beside the tree, illustrate a
+一筆の土地アイコンの一部に細い通路状の「地役権」帯を描き、分筆を示す点
+線は引かず、地役権の登記スタンプがすでに帯の上に押されている様子を描
+く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地役権者に地役権の設定登記を求める権利があることを確認します。
+次に、地役権は一筆の土地の一部だけを対象にしても設定できるため、わざ
+わざ分筆をしなくても地役権者の権利が守れることを確認し、分筆が不要で
+ある以上、代位して分筆の登記を申請することはできないと判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+分筆不要だから不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+分割の実現には分筆が必要になる
+Diagram: Draw the SHARED two-step diamond decision tree. Diamond 1「その
+人には、そもそも登記を請求できる権利や保全すべき関係があるか」— highlight
+its「はい」branch with a thick green border(Ａは共有物分割の訴えの確定判
+決によって、Ｂに分割を求める権利が確定している)。Continue to Diamond 2
+「その権利を実現するために、分筆の登記がどうしても必要か」— highlight
+its「はい」branch with a thick green border(確定判決の内容を実際の土地
+に反映させるには分筆が必要)、leading to a highlighted conclusion node
+「代位して分筆の登記を申請できる」. Fade both diamonds'「いいえ」branches
+in light grey dotted lines. Beside the tree, illustrate a courthouse
+building issuing a「確定判決正本」document, with Ａが正本を持って登記所
+窓口へ向かい、Ｂのアイコンには「非協力」という破れ紙ラベルを付ける。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Ａが共有物分割の訴えで確定判決を得ており、Ｂに対して分割を求める
+権利が確定していることを確認します。次に、その確定判決の内容を実現す
+るには、共有地を実際に分筆する必要があることを確認し、両方が揃うこと
+で、確定判決正本を代位原因を証する情報として、Ｂに代位して分筆の登記
+を申請できると判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+確定判決正本で代位可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+仮処分の登記には分筆が前提になる
+Diagram: Draw the SHARED two-step diamond decision tree. Diamond 1「その
+人には、そもそも登記を請求できる権利や保全すべき関係があるか」— highlight
+its「はい」branch with a thick green border(債権者は処分禁止の仮処分の
+決定によって保全された権利を持っている)。Continue to Diamond 2「その権
+利を実現するために、分筆の登記がどうしても必要か」— highlight its「は
+い」branch with a thick green border(仮処分の対象部分を独立の一筆にしな
+いと仮処分の登記自体ができない)、leading to a highlighted conclusion node
+「代位で分筆の登記を申請できる」. Fade both diamonds'「いいえ」branches
+in light grey dotted lines. Beside the tree, illustrate a土地アイコンの
+一部に「処分禁止の仮処分」を示す南京錠アイコンを重ね、債権者アイコンが
+裁判所発行の「決定正本」を持って登記所窓口へ提出し、所有者名義人アイコ
+ンに代わって申請している様子を描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、債権者が処分禁止の仮処分の決定によって保全された権利を持ってい
+ることを確認します。次に、その仮処分の登記をするには、対象部分を独立
+した一筆にする必要があり、分筆をしなければ仮処分の登記自体ができない
+ことを確認し、決定正本を代位原因を証する情報として代位で分筆の登記を
+申請できると判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+仮処分の前提で代位可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+条件付仮登記にも分筆が前提になる
+Diagram: Draw the SHARED two-step diamond decision tree. Diamond 1「その
+人には、そもそも登記を請求できる権利や保全すべき関係があるか」— highlight
+its「はい」branch with a thick green border(農地法5条の許可を得る前で
+も、買受人には条件付所有権移転の仮登記を求める権利がある)。Continue to
+Diamond 2「その権利を実現するために、分筆の登記がどうしても必要か」—
+highlight its「はい」branch with a thick green border(買い受けた部分を
+独立の一筆に分けないと、その部分についての仮登記ができない)、leading to
+a highlighted conclusion node「代位による分筆の登記を申請できる」. Fade
+both diamonds'「いいえ」branches in light grey dotted lines. Beside the
+tree, illustrate a農地アイコン(畑の区画)の一部を買い受けた買主アイコン
+が「農地法5条許可 申請中」という時計マーク付きの書類を持ち、その隣に
+「条件付仮登記」のスタンプが押された申請書アイコンを描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、農地法5条の許可を得る前でも、買受人には条件付所有権移転の仮登記
+を求める権利があることを確認します。次に、その仮登記をするには買い受
+けた部分を独立の一筆に分ける必要があることを確認し、許可がまだ下りて
+いないことは代位分筆の可否には影響しないと判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+許可前でも代位可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：代位申請の基本的な仕組み(民法423条)。ア〜オの各判断は代位申
+請に関する先例・一般原則によるものであり、個別の先例番号は本記事では
+断定していません。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 賃・権・転・貸・借・役・筆・分・割・
+確・判・決・処・禁・仮・農・許・可・代・位. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character that
+is not standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 is drawn as an actual flowchart with branch nodes
+(not a bare illustration with no visible decision structure), that no 肢
+with a genuinely hidden second condition has been flattened into a single
+check (Panel 1 keeps both of its reasons distinct), that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that all 5 panels clearly show they share the same
+two-step decision tree while each highlights only its own relevant branch
+in full color and renders every other branch faded, greyed-out, or
+dotted, confirm nothing is rendered below the last panel's footnote text
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid
+of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

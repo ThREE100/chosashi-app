@@ -192,3 +192,228 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric icons of two adjacent land plots (甲
+土地・乙土地), character icons for 地役権者・区分所有者・地上権者, document
+icons for「消滅証明書」「規約」「所有権を証する情報」「抹消登記」, and an
+apartment-building icon linked to two land plots by a labeled arrow for
+敷地権. Panels 1・3・5 (肢ア・肢ウ・肢オ) share the same two-step decision
+tree (合筆を妨げる事由〔不動産登記法41条各号〕に当たるか → 別の手当てで
+解消できるか), so render that shared tree in each of these panels and
+highlight only the branch relevant to that panel, fading the rest; Panels
+2・4 (肢イ・肢エ) do not use this tree and instead show a relationship
+diagram about the procedural limits on 敷地権付きの土地. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Where a panel reuses a decision tree shared
+with other panels in this set, render the branch relevant to THIS panel
+with a thick highlighted border and full color, and render the other,
+unrelated branches in a faded, greyed-out, or dotted-outline style rather
+than omitting them — the reader should be able to see at a glance which
+part of the shared tree this panel is about. Likewise, where a diagram
+must show an entity that conceptually never held the right or status in
+question (e.g. someone who was never an heir, or a claim that never
+existed), render that entity or claim in a faded or dotted-outline style
+rather than a plain ○/✕ mark, so the visual itself communicates "this was
+never really there," not just "this is wrong." Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep "善意" and "無過失" as two distinct
+checks if the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成20年度午後第8問 ア〜オ
+作図ガイド（分合筆の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line):
+地役権は消滅証明があれば分合筆できる
+Diagram: Render the shared decision tree: a diamond node「合筆を妨げる
+事由(不動産登記法41条各号)に当たるか」with a はい arrow(要役地の地役権
+の登記がある＝41条6号)rendered with a thick highlighted border and full
+color, leading to a diamond node「別の手当てで解消できるか」with a はい
+arrow(地役権者の消滅証明の提供)rendered with a thick highlighted border
+and full color, leading to a conclusion node「分合筆できる」; the いいえ
+arrow of the first diamond(当たらない場合)and the いいえ arrow of the
+second diamond(解消できない場合→分合筆できない)are rendered in a faded,
+greyed-out style without being omitted. 甲土地から一部を切り取り乙土地に
+くっつけるisometricイラストと、地役権者のキャラクターが「消滅証明書」を
+渡す図。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合筆を妨げる事由(不動産登記法41条各号)に当たるかを確認します。要
+役地の地役権の登記はこれに当たりますが、次に地役権者の消滅証明の提供と
+いう別の手当てで解消できるかを確認すると、解消できるので分合筆できます。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+消滅証明で分合筆可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line):
+敷地権の規約設定だけでは一括申請不可
+Diagram: A labeled relationship diagram (not the shared 41条 flowchart,
+since this is a separate procedural rule about敷地権): マンションの敷地
+権付き土地(甲土地)のisometricイラストの横に「分離処分可能規約」の書類ア
+イコンがあるが、それと「敷地権の変更登記」「分合筆の登記」の2つの書類ア
+イコンを1本の矢印でまとめようとする図に大きな赤い✕マーク。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地に敷地権である旨の登記があるかどうかを確認します。ある場合、
+分離処分できる規約を設定しても、敷地権の変更の登記と分合筆の登記を一の
+申請情報でまとめて申請することはできません。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+一括申請は不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line):
+地目変更と分合筆はまとめて申請できる
+Diagram: Render the shared decision tree: a diamond node「合筆を妨げる
+事由(不動産登記法41条各号)に当たるか」with a はい arrow(地目が相異＝41
+条2号)rendered with a thick highlighted border and full color, leading
+to a diamond node「別の手当てで解消できるか」with a はい arrow(地目に関
+する変更の登記を一の申請情報で同時申請できる)rendered with a thick
+highlighted border and full color, leading to a conclusion node「分合筆
+できる」; the いいえ arrow of the first diamond and the いいえ arrow of
+the second diamond are rendered in a faded, greyed-out style without
+being omitted. 雑種地から宅地に変わる部分が分筆され、宅地の乙土地にくっ
+つくisometricイラスト。「地目変更登記」と「分合筆登記」の2つの書類アイ
+コンが1つにまとまる図にチェックマーク。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目が異なるために合筆を妨げる事由に当たるかを確認します。当たる
+場合でも、次に地目に関する変更の登記を一の申請情報で同時に申請できるか
+を確認すると、できるので分合筆できます。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+一の申請情報でOK
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line):
+敷地権付き土地どうしも先に建物側整理
+Diagram: A labeled relationship diagram (not the shared 41条 flowchart):
+同じマンションの敷地権が付いた甲土地と乙土地のisometricイラストが並ぶ。
+その上にマンション建物のisometricイラストがあり、建物の登記記録アイコン
+から甲土地・乙土地それぞれへ「敷地権」のラベル付き矢印が伸びる。甲乙を
+直接くっつける矢印には大きな赤い✕マーク、代わりに建物側の「敷地権の変
+更登記」書類アイコンへ向かう矢印にチェックマークが付く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地・乙土地の敷地権が建物側の登記記録にどのように記録されてい
+るかを確認します。土地だけを先に合筆すると建物側の記録と食い違うため、
+建物側の敷地権の登記を整理してからでなければ合筆の登記を申請できません。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+そのままでは合筆不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line):
+期間切れの地上権も抹消しないと不可
+Diagram: Render the shared decision tree: a diamond node「合筆を妨げる
+事由(不動産登記法41条各号)に当たるか」with a はい arrow(地上権の設定の
+登記がある＝41条6号)rendered with a thick highlighted border and full
+color, leading to a diamond node「別の手当てで解消できるか」with a
+いいえ arrow(存続期間が経過していても登記を抹消しない限り解消できない)
+rendered with a thick highlighted border and full color, leading to a
+conclusion node「分合筆できない」; the いいえ arrow of the first diamond
+and the はい arrow of the second diamond(解消できる場合→分合筆できる)
+are rendered in a faded, greyed-out style without being omitted. 地上権
+のリボンが巻かれた甲土地のisometricイラストに「期間経過」のラベルがある
+が、抹消登記の書類なしでは合筆の矢印に✕マーク。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合筆を妨げる事由(不動産登記法41条各号)に当たるかを確認します。地
+上権の設定の登記はこれに当たり、次に別の手当てで解消できるかを確認する
+と、存続期間が経過していても登記を抹消しない限り解消できないため、分合
+筆できません。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+抹消登記が必要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法39条・40条・41条、不動産登記規則105条、44条1項9号・46条・
+73条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・抹・敷・号・規・滅. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that any panel sharing a decision tree with
+another panel clearly distinguishes its own highlighted branch from the
+other, faded branches, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

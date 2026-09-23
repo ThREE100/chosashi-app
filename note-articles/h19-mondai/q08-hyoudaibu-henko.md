@@ -218,3 +218,280 @@ after the last card), and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア〜オ5肢はいずれも「表題部の変更の登記」という同じ言葉を出発点にしながら、実際には①表題部所有者自身に関する事項（氏名・名称、持分）、②不動産の物理的な現況に関する事項（地目・地積、床面積）、③そもそも別の登記類型として扱われる事項（団地共用部分となったこと）の3系統に分かれ、系統によって1か月以内の申請義務の有無が異なる。この「まずどの系統に属する事項かを見分け、次にその系統の中でどちらの事項かを確認する」という同一の判定順序を5肢すべてが共有しているため、1本の決定木（フローチャート）を5肢で使い回し、各パネルでは自分の肢に関係する経路だけを強調表示する構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots, buildings, identity
+documents/certificates, calendars with a 「1か月」 countdown arrow,
+official stamps/seals, decision-tree diamond nodes with condition labels
+written on them, ○/✕ and checkmark/prohibition-mark icons, adapt the icon
+set to the topic of registration-deadline rules. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Where a panel reuses a decision tree shared with other panels
+in this set, render the branch relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated
+branches in a faded, greyed-out, or dotted-outline style rather than
+omitting them — the reader should be able to see at a glance which part
+of the shared tree this panel is about. Likewise, where a diagram must
+show an entity that conceptually never held the right or status in
+question (e.g. a change that was never subject to the 1か月ルール to begin
+with), render that entity or claim in a faded or dotted-outline style
+rather than a plain ○/✕ mark, so the visual itself communicates "this was
+never really there," not just "this is wrong." Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成19年度 午前の部 第8問 ア〜オ
+作図ガイド(表題部変更登記の1か月ルール)
+
+(タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。)
+
+--- PANEL 1(肢ア) ---
+Badge: a filled orange circle containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+氏名の変更に1か月の期限なし
+Diagram: Draw the shared 3-level decision tree flowchart that is reused
+identically across all 5 panels of this set. Root diamond node at the
+top labeled 「地目・地積・床面積など現況の変更か」, with two branch
+arrows labeled 「はい」(pointing right, rendered faded grey dotted-outline
+in this panel) and 「いいえ」(pointing left, rendered with a thick orange
+border and full color, since 肢ア is not a change to the physical
+condition of the property). The highlighted 「いいえ」branch leads down to
+a second diamond node labeled 「表題部所有者自身の氏名・名称または持分の
+変更か」, also highlighted with a thick orange border and full color,
+branching into 「はい」(highlighted orange, leading onward) and 「いいえ」
+(faded grey, leading off to a small greyed conclusion box labeled 「58条
+の別手続」representing 肢オ, not this panel's concern). The highlighted
+「はい」branch leads to a third diamond node labeled 「氏名・名称の変更
+か、持分の変更か」, highlighted in orange, branching into two conclusion
+boxes: a highlighted orange rounded conclusion box labeled 「期限の定め
+なし」— drawn with an isometric identity-document/certificate icon
+showing a person's name being crossed out and rewritten, next to a
+calendar page labeled 「1か月」with a large red X mark over it — and,
+beside it, a faded grey dotted-outline conclusion box labeled 「保存登記
+が先」representing 肢イ, not this panel's path.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず不動産の物理的な現況(地目・地積・床面積)の変更ではないことを確認し、
+次に表題部所有者自身の事項のうち氏名・名称の変更であることを確認します。
+氏名・名称の変更は、31条により申請できる者が表題部所有者本人に限定され
+るだけで、1か月以内に申請しなければならないという期間の定めはありませ
+ん。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+期限の定めなし
+
+--- PANEL 2(肢イ) ---
+Badge: a filled orange circle containing the number 2.
+Heading (bold, ONE line):
+持分の変更はまず保存登記から
+Diagram: Draw the same shared decision tree as in Panel 1. Root diamond
+node labeled 「地目・地積・床面積など現況の変更か」, with 「はい」branch
+(faded grey dotted-outline) and 「いいえ」branch (thick orange border,
+full color, since 肢イ is not a physical-condition change) leading down
+to the second diamond node labeled 「表題部所有者自身の氏名・名称または
+持分の変更か」, highlighted orange, branching into 「はい」(highlighted
+orange, leading onward) and 「いいえ」(faded grey, leading to the small
+greyed conclusion box labeled 「58条の別手続」, not this panel's concern).
+The highlighted 「はい」branch leads to the third diamond node labeled
+「氏名・名称の変更か、持分の変更か」, highlighted orange, branching into
+two conclusion boxes: a faded grey dotted-outline conclusion box labeled
+「期限の定めなし」representing 肢ア (not this panel's path), and, beside
+it, a highlighted orange rounded conclusion box labeled 「保存登記が先」
+— drawn with an isometric land plot split into two shaded shares
+labeled 「1/2」「1/2」changing to 「2/3」「1/3」, an arrow pointing first to
+a stamp reading 「所有権保存登記」then to a second stamp reading 「移転
+登記」, with a separate stamp reading 「表題部の変更登記」crossed out with
+a large red X.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず不動産の物理的な現況の変更ではないことを確認し、次に表題部所有者自
+身の事項のうち持分の変更であることを確認します。持分の変更は、32条によ
+り所有権の保存登記をした後に所有権の移転登記の手続で処理され、表題部の
+変更登記として1か月以内に申請する仕組みにはなっていません。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+保存登記が先
+
+--- PANEL 3(肢ウ) ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line):
+地目・地積の変更は1か月以内が原則
+Diagram: Draw the same shared decision tree as in Panel 1. Root diamond
+node labeled 「地目・地積・床面積など現況の変更か」, with the 「はい」
+branch highlighted with a thick green border and full color (since 肢ウ
+is a physical-condition change) and the 「いいえ」branch rendered faded
+grey dotted-outline. The highlighted 「はい」branch leads down to a
+second diamond node labeled 「地目・地積の変更か、床面積の変更か」,
+highlighted green, branching into two conclusion boxes: a highlighted
+green rounded conclusion box labeled 「37条・1か月以内」— drawn with an
+isometric land plot with a wooden signboard flipping from 「畑」to
+「宅地」, a calendar showing a 「1か月」countdown arrow starting exactly
+from the change date and ending at a green checkmark stamp reading
+「変更登記」— and, beside it, a faded grey dotted-outline conclusion box
+labeled 「51条・共用部分も対象」representing 肢エ, not this panel's path.
+The lower half of the shared tree (the 「いいえ」branch toward the
+「表題部所有者自身の氏名・名称または持分の変更か」diamond and its own
+sub-branches, and the 「58条の別手続」conclusion box) is rendered faded
+grey dotted-outline in full but reduced size, since none of it is this
+panel's concern.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず不動産の物理的な現況に関する変更であることを確認し、次にそれが地目
+又は地積の変更であることを確認します。地目又は地積の変更は、37条1項に
+より変更があった日から1か月以内に申請する義務が課されています。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+37条・1か月以内
+
+--- PANEL 4(肢エ) ---
+Badge: a filled green circle containing the number 4.
+Heading (bold, ONE line):
+床面積の変更は共用部分でも1か月以内
+Diagram: Draw the same shared decision tree as in Panel 1. Root diamond
+node labeled 「地目・地積・床面積など現況の変更か」, with the 「はい」
+branch highlighted with a thick green border and full color (since 肢エ
+is a physical-condition change) and the 「いいえ」branch rendered faded
+grey dotted-outline. The highlighted 「はい」branch leads down to the
+second diamond node labeled 「地目・地積の変更か、床面積の変更か」,
+highlighted green, branching into two conclusion boxes: a faded grey
+dotted-outline conclusion box labeled 「37条・1か月以内」representing 肢ウ
+(not this panel's path), and, beside it, a highlighted green rounded
+conclusion box labeled 「51条・共用部分も対象」— drawn with an isometric
+building interior showing a shared meeting room labeled 「共用部分」being
+enlarged, with a floor-area label changing size, and a calendar showing a
+「1か月」countdown arrow ending at a green checkmark stamp reading
+「変更登記」. The lower half of the shared tree (the 「いいえ」branch and
+its own sub-branches, and the 「58条の別手続」conclusion box) is rendered
+faded grey dotted-outline in full but reduced size, since none of it is
+this panel's concern.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず不動産の物理的な現況に関する変更であることを確認し、次にそれが床面
+積の変更であることを確認します。床面積の変更は、共用部分である旨の登記
+がある建物であっても51条1項・4項の規律が及び、変更があった日(または所
+有権取得の日)から1か月以内に申請する義務があります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+51条・共用部分も対象
+
+--- PANEL 5(肢オ) ---
+Badge: a filled orange circle containing the number 5.
+Heading (bold, ONE line):
+団地共用部分の追加は別の登記類型
+Diagram: Draw the same shared decision tree as in Panel 1, but note that
+肢オ's path ends one level earlier than 肢ア・肢イ's. Root diamond node
+labeled 「地目・地積・床面積など現況の変更か」, with the 「はい」branch
+rendered faded grey dotted-outline (leading to the faded, reduced-size
+copies of the 「地目・地積の変更か、床面積の変更か」diamond and its two
+conclusion boxes 「37条・1か月以内」「51条・共用部分も対象」) and the
+「いいえ」branch highlighted with a thick orange border and full color.
+The highlighted 「いいえ」branch leads down to the second diamond node
+labeled 「表題部所有者自身の氏名・名称または持分の変更か」, highlighted
+orange, branching into 「はい」(faded grey dotted-outline, leading to the
+faded, reduced-size copies of the 「氏名・名称の変更か、持分の変更か」
+diamond and its two conclusion boxes 「期限の定めなし」「保存登記が先」)
+and 「いいえ」(highlighted orange, leading directly to a highlighted
+orange rounded conclusion box labeled 「58条の別手続」without any further
+diamond node, since 肢オ's item is neither a physical-condition change
+nor an owner-related change) — drawn with an isometric row of
+townhouse-style buildings, one small shared building highlighted and
+glowing, a stamp reading 「団地共用部分である旨の登記」being pressed onto
+it, and a separate stamp reading 「1か月以内」crossed out with a large
+red X. Do not draw any looping arrow back to an earlier node anywhere in
+this diagram; every branch must proceed forward to a conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず不動産の物理的な現況の変更でも表題部所有者自身の事項でもないことを
+確認し、団地共用部分となったという法的な位置づけの変更であることを見き
+わめます。団地共用部分となったことは、58条が定める「団地共用部分である
+旨の登記」という別の登記類型で処理され、37条・51条のような1か月以内の
+申請義務を課す規定はありません。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+58条の別手続
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠条文:不動産登記法31条・32条・37条1項・44条1項・51条1項・4項・58条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 変・更・持・分・積・共・団・地・
+続・登・記・権・所・限・確・認・条. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character
+that is not standard Japanese hiragana, katakana, or Jōyō kanji —
+including any Chinese-only character, Korean Hangul, other non-Japanese
+script, or stray decorative glyph — and remove or redraw it so that only
+standard Japanese text appears anywhere in the image. Confirm the panel
+count equals 5 exactly, badge numbers run 1-5 continuously, there is no
+intro illustration or paragraph block between the header and the panels,
+that every multi-condition 肢 is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 肢 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather than
+only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), that any panel
+sharing a decision tree with another panel clearly distinguishes its own
+highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

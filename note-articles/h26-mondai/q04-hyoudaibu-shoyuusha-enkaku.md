@@ -205,3 +205,211 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、空欄ア〜オのどれが「物的状況」の話でどれが「権利関係」の話か、また候補となる語句をどの順番で絞り込めばよいかを示す解き方ガイド。空欄ア・ウは、同じ「物的状況を扱う公簿か、権利関係を扱う公簿か」という判定木を共有し、それぞれ自分に関係する枝だけを強調する構成にしてある。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x3000 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric archive shelf and old dusty ledger
+book icons for 土地台帳・家屋台帳, a modern registry panel icon split into
+表題部 and 権利部 sections, coin/tax icons for 固定資産税, a city-hall
+building icon for 市町村, a registry desk and document-stamp icon for
+申請適格者, diamond-shaped decision nodes for narrowing between candidate
+answer words, and ○/✕ branch marks. Where a 空欄 requires narrowing down
+among multiple candidate words in sequence before reaching the correct
+one, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node showing the correct
+word. Where a 空欄 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. Where a panel reuses a
+decision tree shared with other panels in this set, render the branch
+relevant to THIS panel with a thick highlighted border and full color,
+and render the other, unrelated branches in a faded, greyed-out, or
+dotted-outline style rather than omitting them — the reader should be
+able to see at a glance which part of the shared tree this panel is
+about. Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion.
+Do not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+— do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成26年度 午後の部 第4問　空欄ア〜オ
+作図ガイド（表題部所有者の沿革と機能）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（空欄ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+地目・地積を扱う公簿は土地台帳・家屋台帳
+Diagram: A diamond-shaped decision node labeled「改正前は、不動産の何を
+把握するための公簿の話か？」with two branch arrows: a「物理的状況（地目・
+地積など）」branch (highlighted, thick border, full color — this panel)
+leading to an isometric archive shelf holding an old dusty ledger book
+labeled「土地台帳・家屋台帳」with a conclusion node「表題部の前身」, and a
+「権利関係（所有権など）」branch (faded, greyed-out — not this panel)
+leading to a small grey conclusion node「不動産登記」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、空欄アの文脈が不動産の物理的状況を把握するための公簿の話であること
+を確認します。次に、語句群の中から物理的状況を扱う制度を選びます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+台帳が物的状況側
+
+--- PANEL 2（空欄イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+国税か地方税か、市町村か都道府県かを順に確認する
+Diagram: Two stacked diamond-shaped decision nodes. Node 1「地租・家屋税
+廃止後の固定資産税は、国税か地方税か？」with a「地方税」branch
+(highlighted) continuing down and a「国税」branch (faded) leading to a
+small grey conclusion「該当なし」. Node 2「地方税のうち、都道府県税か市町
+村税か？」with a「市町村税」branch (highlighted, bold) leading to an
+isometric city-hall building icon labeled「市町村」collecting a coin/tax
+icon labeled「固定資産税」, and a「都道府県税」branch (faded) leading to a
+small grey conclusion「該当なし」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、固定資産税が国税か地方税かを確認します。次に、地方税のうち都道府県
+税か市町村税かを確認し、市町村が徴収主体であるという結論にたどり着きます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+市町村が徴収
+
+--- PANEL 3（空欄ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+所有権など権利関係を扱う制度は不動産登記
+Diagram: The same diamond-shaped decision node as Panel 1, labeled「改正
+前は、不動産の何を把握するための公簿の話か？」, but this time the「権利
+関係（所有権など）」branch is highlighted with a thick border and full
+color, leading to two separate isometric ledger books labeled「土地台帳・
+家屋台帳」and「不動産登記」merging into a single registry record panel
+with a conclusion node「権利部の前身」, while the「物理的状況（地目・地積
+など）」branch is rendered faded and greyed-out with a small conclusion
+「土地台帳・家屋台帳」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、空欄ウの文脈が権利部にあたる従来の制度の話であることを確認します。
+次に、語句群の中から権利関係を公示する制度を選びます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+登記が権利側
+
+--- PANEL 4（空欄エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+表題部所有者が特定するのは申請できる人
+Diagram: A diamond-shaped decision node labeled「表題部所有者の記録が特定
+するのは、誰の・どんな立場か？」with three branch arrows: a「登記を申請す
+る資格がある人」branch (highlighted, bold) leading to an isometric
+registry desk where a 表題部所有者 character holds a stamp labeled「申請
+適格者」and a conclusion node「申請適格者」, a「申請を代理する人」branch
+(faded) leading to a small grey conclusion「申請代理人」, and a「税金を納
+める人」branch (faded) leading to a small grey conclusion「納税義務者」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、表題部所有者の記録が誰を特定する機能かを確認します。次に、申請する
+資格を持つ人・代理人・納税義務者という3つの候補から絞り込みます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+申請適格者を特定
+
+--- PANEL 5（空欄オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+表題部所有者が申請できるのは所有権の保存登記
+Diagram: A diamond-shaped decision node labeled「表題部所有者が申請適格者
+となるのは、どの登記の場面か？」with three branch arrows: a「初めての所有
+権の登記（保存）」branch (highlighted, bold) leading to an isometric
+registry desk showing a character for 表題部所有者A (with a small
+tombstone icon indicating they have died), connected by an arrow to a
+character for their heir, 相続人B, who submits a document labeled
+「所有権の保存の登記」with a conclusion node
+「所有権の保存」, a「既にある所有権の移転」branch (faded) leading to a
+small grey conclusion「所有権の移転」, and a「用益物権の設定」branch
+(faded) leading to a small grey conclusion「用益物権の設定」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その登記が初めての所有権の登記にあたるかを確認します。次に、所有権
+の保存・移転・用益物権の設定という3つの候補から絞り込みます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+保存登記の申請適格者
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：不動産登記法74条1項1号、地方税法（固定資産税の徴収主体）、土地台帳・
+家屋台帳制度と不動産登記制度の統合の沿革（昭和35年）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 台・帳・徴・収・登・記・権・申・請・
+適・格・納・義・務・保・存. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 空欄 is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 空欄 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather than
+only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), that panels 1 and 3
+share the same decision tree and each clearly distinguishes its own
+highlighted branch from the other, faded branches, confirm nothing is
+rendered below panel 5's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 空欄, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

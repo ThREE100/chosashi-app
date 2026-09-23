@@ -115,7 +115,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Characters such as 「登」「記」
@@ -212,9 +220,15 @@ FOOTER直前に置く。上記のとおり簡体字混入を防ぐため主要�
 Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with
+standard Japanese (Jōyō) form, not Simplified Chinese and not
+Traditional Chinese. If any character
+renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
@@ -271,12 +285,20 @@ fine); keep the callout text as written below verbatim, and keep every
 condition each callout describes faithful to the article's own body text.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
-below verbatim - do not paraphrase, translate, summarize, or substitute
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
-parentheses ( ) consistently - never open a parenthetical with a
+parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -419,11 +441,16 @@ Small footnote text (bottom of panel, small font, verbatim):
 代位）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 登・記・号・権・建・物・地・番・所・誤 and any character that
-has a visually similar Simplified Chinese variant. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 登・記・号・権・建・物・地・番・所・誤・
+産・独.
+If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire
+canvas for any character that is not standard Japanese hiragana, katakana,
+or Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image. Confirm
+the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panels 1 and 5 (肢ア・肢オ) clearly
 distinguish their own highlighted timeline marker from the other, faded

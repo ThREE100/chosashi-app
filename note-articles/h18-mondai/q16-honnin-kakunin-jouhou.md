@@ -120,7 +120,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -206,11 +214,253 @@ Conclusion tag (soft beige, 5-15 Japanese characters):
 Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
+standard Japanese (Jōyō) form, not Simplified Chinese and not
+Traditional Chinese. If any character
+renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals 5 exactly,
 with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「何を、どの順番で確認すればよいか」を肢ごとに示す作図ガイド。②の結論ポスターとは別に、ア〜オ5肢それぞれについて、確認の手順そのものを可視化する5パネル構成。本問は教授と学生の対話形式で出題されているが、各パネルは対話の枠組みではなく、その背後にある本人確認情報のルールそのものを図解する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric qualifying-agent figures（資格者代理
+人）, applicant figures（申請人）, driver's-license card icons, calendar
+and timeline icons, meeting-table scenes, certificate and seal-stamp
+icons（職印に関する証明書）, diamond-shaped decision nodes with condition
+labels, and left/right comparison frames. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Where a panel reuses a decision tree shared with other panels in this
+set, render the branch relevant to THIS panel with a thick highlighted
+border and full color, and render the other, unrelated branches in a
+faded, greyed-out, or dotted-outline style rather than omitting them —
+the reader should be able to see at a glance which part of the shared
+tree this panel is about. Every branch point where both outcomes are
+legally meaningful must show BOTH destinations explicitly, each ending in
+its own conclusion node — never leave one side blank and never route an
+arrow back into an earlier node; where a second panel needs to restate an
+earlier panel's conclusion, draw it as a fresh, separate conclusion node
+with the same wording rather than an arrow looping back into the first
+panel's diamond. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成18年度 午後の部 第16問 ア〜オ
+作図ガイド（資格者代理人の本人確認情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+面識の有無をまず見分ける
+Diagram: Draw an actual decision flowchart (this tree's root is shared
+with PANEL 2（肢イ）). A qualifying-agent figure（資格者代理人）facing an
+applicant figure（申請人）leads into a diamond-shaped branch node reading
+"申請人と面識があるか". A "いいえ"（本肢のケース、with a thick highlighted
+border and full color）arrow leads to a conclusion node reading "運転免
+許証等の提示を受け、書類の内容＋本人と認めた理由を明記する", illustrated
+with the qualifying-agent figure receiving a driver's-license icon from
+the applicant, a clipboard beside them showing two checked labels「書類
+の内容」「本人と認めた理由」. A "はい"（faded and greyed-out — this
+branch is the focus of PANEL 2）arrow leads to a small, faded diamond
+node reading "面識ありと認められる要件を満たすか（詳しくはパネル2）",
+itself leading to a faded conclusion node reading "氏名を知り面識がある
+旨＋その経緯を明記する（免許証提示は不要）".
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず資格者代理人が申請人と面識があるかを確認します。面識がなければ、運転
+免許証等の提示を受けて申請人が登記名義人本人であることを確認したうえで、
+その書類の内容と、本人であると認めた理由を本人確認情報に明らかにしなけれ
+ばなりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+面識なしは書類内容明記
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+1か月前の代理は面識の要件外
+Diagram: Draw an actual decision flowchart (continuing the tree shared
+with PANEL 1（肢ア）). A small, faded, dotted-outline version of PANEL 1's
+diamond node「申請人と面識があるか」is redrawn at the top, with its
+「いいえ」branch faded and greyed-out and its「はい」branch now rendered
+with a thick highlighted border and full color, leading into a second
+diamond-shaped branch node reading "（1）当該登記の申請の3か月以上前に、
+その申請人について本人確認情報を提供して代理したことがあるか、または
+（2）依頼を受ける以前から氏名・住所を知り、親族関係か1年以上の継続的な
+関係があるか". A "はい（該当）" arrow leads to a conclusion node reading
+"面識ありとして扱われる", illustrated faintly since it is not this 肢の
+ケース. A "いいえ（該当なし）"（本肢のケース：1か月前に代理しただけ、with
+a thick highlighted border and full color, calendar icon showing "1か月
+前" with a red X）arrow leads to a separate, fresh conclusion node reading
+"面識なしとして扱われ、運転免許証等の提示が必要". This conclusion node is
+drawn as its own box with the same wording as PANEL 1's「いいえ」
+conclusion — do NOT draw an arrow looping back into PANEL 1's diamond.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+面識があると扱われるのは、まず（1）当該登記の申請の3か月以上前に、その申
+請人について資格者代理人として本人確認情報を提供して登記の申請をしたこと
+があるか、それとも（2）依頼を受ける以前から氏名・住所を知り、親族関係や1
+年以上にわたる継続的な関係があるか、のいずれかを満たす場合に限られます。
+本肢のように1か月前に代理しただけでは、このいずれの要件も満たさず、面識
+があるとは扱われません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+1か月では面識該当せず
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+面談の日時・場所・状況を記録する
+Diagram: A labeled illustrative diagram (single check, no flowchart
+needed). A qualifying-agent figure（資格者代理人）and an applicant figure
+（申請人）meet face to face at a table. A notepad on the table shows three
+labeled lines, each with a small checkmark icon:「日時」「場所」「状況」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+本人確認情報には、資格者代理人が申請人と面談した日時、場所、及びその状況
+の3点を、それぞれ明らかにしなければなりません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+日時場所状況を明記
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+資格者であることを証する情報も添付
+Diagram: A relationship diagram. A central document icon labeled "本人確
+認情報" is connected by a line to a certificate icon labeled "職印に関す
+る証明書" beside it, with a paperclip icon binding the two together. The
+certificate icon carries a small label「調査士会発行」and a green
+checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず本人確認情報を提供するかを確認したら、次に、その資格者代理人が登記の
+申請の代理を業とすることができる者であることを証する情報（例えば所属する
+土地家屋調査士会が発行した職印に関する証明書）を、本人確認情報とあわせて
+提供しているかを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+職印証明書等を添付
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in beige containing the number 5.
+Heading (bold, ONE line):
+作成者が受任した代理人自身かを確認する
+Diagram: Draw an actual decision flowchart. A document icon labeled "本
+人確認情報" leads into a diamond-shaped branch node reading "作成したの
+は、当該登記の申請を受任した資格者代理人自身か、他の資格者代理人か". A
+"受任した代理人自身" arrow leads to a conclusion node reading "有効な本人
+確認情報として使える", illustrated with a green checkmark. A "他の資格者
+代理人"（本肢のケース、with a thick highlighted border and full color）
+arrow leads to a separate conclusion node reading "流用不可、申請に使えな
+い", illustrated with a second qualifying-agent figure handing over a
+document stamped with a large red X and a torn-paper label「流用不可」.
+No arrow loops back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その本人確認情報を作成したのが、当該登記の申請を受任した資格者代理
+人自身かを確認します。申請人と面識のある別の土地家屋調査士が作成したもの
+であっても、受任した代理人自身が作成したのでなければ、その本人確認情報を
+流用して申請することはできません。
+Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
+characters):
+他人作成の流用は不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記規則72条1項3号（肢ア）、不動産登記事務取扱手続準則49
+条1項1号・2号（肢イ）、不動産登記規則72条1項1号（肢ウ）、不動産登記規則
+72条3項・不動産登記事務取扱手続準則49条2項3号（肢エ）、不動産登記規則72
+条1項柱書（肢オ）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to
+確・認・職・証・免・許・談・録・状・況・調・査・士・登・記・流・用・受・
+任. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢 is drawn
+as an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that any panel sharing a decision tree with
+another panel clearly distinguishes its own highlighted branch from the
+other, faded branches, that every branch point where both outcomes are
+legally meaningful shows both destinations as explicit, separate
+conclusion nodes with no dangling or looping branch, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

@@ -205,3 +205,236 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに示す解き方ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。アは「位置か範囲か」の分岐が本質のため決定木、イ・オは手続の進行順序を示すタイムライン型、ウは相続関係を示す系統図・関係図型、エは持分の位置関係を示す配置図型として構成した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric adjacent land plot icons with dashed
+boundary lines, a courthouse icon, a registry desk icon, family/
+inheritance person icons (a faded ghost-outline figure for someone whose
+status has ended, a solid figure for the current holder), and a
+procedural timeline/conveyor icon showing documents moving forward. Where
+a 肢 requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Where a diagram must show an entity that
+conceptually never held the right or status in question (e.g. a person
+who is not actually a party to the requirement), render that entity in a
+faded or dotted-outline style rather than a plain ○/✕ mark, so the visual
+itself communicates "this was never really there," not just "this is
+wrong." Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成26年度 午後の部 第19問 ア〜オ
+作図ガイド（筆界特定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+筆界の位置を特定できるかを確認する
+Diagram: Draw as an actual decision flowchart. Start node: icons of two
+adjacent land parcels (甲土地 and the neighboring parcel) with a
+magnifying-glass icon illuminating the boundary line between them.
+Diamond branch node labeled「筆界の現地における位置を、資料と現地の状況
+から1本の線として特定できるか？」("can the on-the-ground location of the
+boundary be identified as a single line from the records and the site
+conditions?"). A ○ (yes) arrow leads to a conclusion node「その位置を特
+定する（1本の実線として図示）」(green highlight box). A ✕ (no) arrow
+leads to a conclusion node「位置を特定できないときは、その位置の範囲を
+特定する（帯状のゾーンとして図示）」(also a green highlight box, since
+both outcomes are valid results, not an error).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界の現地における位置を、1本の線として特定できるかを確認します。
+次に、特定できない場合は、位置ではなくその範囲を特定するという扱いに
+なることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+位置または範囲を特定
+
+--- PANEL 2（肢イ） ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line):
+訴訟と筆界特定は別の手続として進む
+Diagram: Draw as a timeline. At the left end of a horizontal timeline,
+plant a flag labeled「筆界確定訴訟の提起」("filing of the boundary
+determination lawsuit"). At the center of the timeline, place a flag
+labeled「判決確定前」("before the judgment becomes final") marking the
+current point in time. From there, branch into two parallel tracks: the
+upper track, with a courthouse icon, is labeled「民事訴訟の手続（進行
+中）」("the civil lawsuit proceeding, ongoing"); the lower track, with a
+registry-office desk icon, is labeled「筆界特定の申請（受理、緑のチェッ
+クマークで示す）」("the boundary-determination application, accepted,
+shown with a green checkmark"). An arrow from a person icon toward the
+upper track labeled「却下」("dismissed") has a large red ✕ over the
+entire arrow, showing that this outcome does not occur.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対象の筆界について筆界確定訴訟が提起されているかを確認します。
+次に、その訴えの判決がまだ確定していない段階であれば、筆界特定の申請
+は訴訟の存在だけを理由に却下されないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+却下されない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line):
+相続人は相続登記なしでも申請人になれる
+Diagram: Draw as a family-tree / relationship diagram. Above an icon of
+甲土地 (the land parcel), place a faded, dashed-outline person icon
+labeled「被相続人（甲土地の元の所有権登記名義人）」("the decedent, the
+former registered owner of 甲土地"). Directly below it (the position of
+the child's generation), place a solid-outline person icon labeled「相
+続人」("the heir"), connected by a vertical arrow from the decedent to
+the heir labeled「相続」("inheritance"). Extend an arrow from the heir's
+icon to the registry-office desk submitting a「筆界特定の申請書」
+("boundary determination application"), with a green checkmark.
+Separately, draw a document icon labeled「相続を原因とする所有権の移転
+の登記」("a registration of ownership transfer by reason of
+inheritance") with a red ✕ over it, showing that this registration
+being incomplete does not prevent the application.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請しようとしている人が甲土地の所有権登記名義人の相続人である
+かを確認します。次に、相続を原因とする所有権の移転の登記がまだされて
+いなくても、相続人としての地位に基づいて自ら筆界特定の申請ができる
+ことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+相続登記 不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line):
+Aが共有持分の登記名義人に当たるかを確認する
+Diagram: Draw as a land-plot diagram. Split the icon of 甲土地 (the land
+parcel) into two zones with a dashed line. Give the smaller zone the
+label「Aが取得した持分」("the share acquired by A") and give the
+remaining zone the label「所有権の登記名義人であるB」("B, the registered
+owner"). From A's icon, draw an arrow — passing through a small
+registration-certificate icon labeled「共有持分の所有権登記名義人等
+（123条5号）」("a registered co-owner under Article 123 item 5") —
+directly to the registry-office desk submitting a「筆界特定の申請書」
+("boundary determination application"), with a green checkmark.
+Separately, draw an arrow from A to B labeled「代位」("subrogation"),
+with a large red ✕ over the entire arrow, showing that this step is
+unnecessary.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Aが取得したのは甲土地の共有持分であり、その共有持分について
+所有権の登記名義人等（不動産登記法123条5号）に当たるかを確認します。
+次に、それに当たる以上、Bに代位する手続を経ずに、Aが自らの名前で筆界
+特定の申請をできることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代位せず直接申請可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line):
+死亡後は相続人が申請人の地位を継ぐ
+Diagram: Draw as a timeline. Draw a horizontal, conveyor-belt-style
+arrow showing the procedure's progress. At the left end, show a
+solid-outline person icon labeled「申請人」("the applicant") starting
+the procedure while holding a「筆界特定の申請書」("boundary
+determination application"). Partway along the timeline, place a small
+event marker labeled「申請人が死亡」("the applicant dies"), and
+immediately after it, show a baton-pass arrow from the now faded,
+dashed-outline original person icon to a solid-outline person icon
+labeled「相続人」("the heir"). The heir's icon continues rightward along
+the timeline holding the same procedural documents, showing that the
+procedure continues without interruption. Do not draw any ✕ mark
+indicating the procedure stops or ends midway.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界特定の手続の途中で申請人が死亡したという事実を確認します。
+次に、その相続人が申請人としての地位を引き継ぎ、手続がそのまま続けら
+れることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+相続人が地位を承継
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+平成26年度 午後の部 第19問（不動産登記法123条2号・5号、131条1項）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 筆・界・特・定・訴・訟・続・登・記・
+権・継・承・代・位・範・囲. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢（ア）is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 肢 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), that any panel
+sharing a decision tree with another panel clearly distinguishes its own
+highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

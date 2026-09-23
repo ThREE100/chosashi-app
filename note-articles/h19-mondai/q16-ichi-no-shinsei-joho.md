@@ -228,3 +228,290 @@ after the last card), and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア・イ・ウ・オ・エの5肢はすべて「①規則35条1項の号にそのまま当てはまる組み合わせか→②当てはまらなければ令4条ただし書の要件（同一登記所管轄・目的・原因・日付が同一）を満たすか」という共通の二段階の決定木で判定できる。5枚のパネルはこの同じ決定木を共有し、各パネルは自分の肢に関係する分岐だけを太い縁取り・フルカラーで強調し、関係しない枝は薄いグレーの点線で縮小表示する構成。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land-plot and building icons (with
+attached 附属建物 wings), a single sheet of paper labeled「申請情報」
+representing one combined filing versus two separate sheets of paper for
+two separate filings, dashed cutting lines for 分筆・区分・分割, arrows
+carrying a split-off piece of land or building into another plot or
+building for 合筆・合併, small name-plate icons that flip from an old
+label to a new one for 表題部所有者の氏名変更, a wrecking-ball icon for
+demolition versus a rising-scaffold icon for new construction, and
+diamond-shaped decision nodes with ○/✕ branch arrows for every check.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render the
+other, unrelated branches in a faded, greyed-out, or dotted-outline style
+rather than omitting them — the reader should be able to see at a glance
+which part of the shared tree this panel is about. Likewise, where a
+diagram must show an entity that conceptually never held the right or
+status in question (e.g. someone who was never an heir, or a claim that
+never existed), render that entity or claim in a faded or dotted-outline
+style rather than a plain ○/✕ mark, so the visual itself communicates
+"this was never really there," not just "this is wrong." Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep "善意" and "無過失" as two distinct
+checks if the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成19年度 午前の部 第16問 ア〜オ
+作図ガイド（一の申請情報の可否判定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+分筆した部分の合筆先を確認
+Diagram: Draw the shared two-level decision tree that all 5 panels in
+this set reuse. STEP1 is a diamond node labeled「規則35条1項の号に
+そのまま当てはまる組み合わせか」with two branch arrows labeled ○/✕.
+STEP2 is a second diamond node, reached only from STEP1's ✕ branch,
+labeled「令4条ただし書の要件を満たすか」also with ○/✕ branches. For THIS
+panel, render STEP1 and its ○ branch in
+full color with a thick highlighted border, and render STEP2 and both of
+its branches off to one side in a faded, greyed-out, dotted-outline style
+(not needed for this 肢). Draw STEP1's diamond as an isometric scene: 甲地
+(a green land-plot icon) with a dashed cutting line marking off a small
+corner piece, and an arrow carrying that piece across to merge into an
+adjacent 乙地(a blue land-plot icon), with a small caption inside the
+diamond reading「甲地の一部を分筆し、そのまま乙地に合筆する場面か
+（規則35条1項1号）」. From the ○ branch, draw an arrow to a final
+conclusion node: a single sheet of paper labeled「申請情報」lying under
+both 甲地・乙地 with a green checkmark stamp on top, labeled「一の申請
+情報でOK（規則35条1項1号）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆した部分をそのまま他の土地に合筆する場面かを確認します。規則35
+条1項1号がこの組み合わせをそのまま定めているため、令4条ただし書の要件を
+確認するまでもなく一の申請情報でまとめて申請できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+1号該当、まとめてOK
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+区分後の一部の合併先を確認
+Diagram: Reuse the same STEP1/STEP2 shared tree skeleton described in
+Panel 1. For THIS panel, render STEP1 and its ○ branch in full color with
+a thick highlighted border, and render STEP2 and both of its branches off
+to one side in a faded, greyed-out, dotted-outline style (not needed for
+this 肢). Draw STEP1's diamond as an isometric scene: 甲建物(a building
+icon made of two sections, a 店舗 section and a 倉庫 section) split by a
+dashed cutting line, with an arrow carrying the 倉庫 section across to
+attach onto the roof of an adjacent 乙建物 as its 附属建物, with a small
+caption inside the diamond reading「甲建物を区分し、その一部を乙建物の
+附属建物とする場面か（規則35条1項4号）」. From the ○ branch, draw an
+arrow to a final conclusion node: a single sheet of paper labeled
+「申請情報」lying under both buildings with a green checkmark stamp on
+top, labeled「一の申請情報でOK（規則35条1項4号）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲建物を区分してその一部を乙建物の附属建物とする場面かを確認しま
+す。規則35条1項4号がこの組み合わせをそのまま定めているため、区分の登記
+と合併の登記は一の申請情報でまとめて申請できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+4号該当、まとめてOK
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+同一建物内の変更と分割かを確認
+Diagram: Reuse the same STEP1/STEP2 shared tree skeleton described in
+Panel 1. For THIS panel, render STEP1 and its ○ branch in full color with
+a thick highlighted border, and render STEP2 and both of its branches off
+to one side in a faded, greyed-out, dotted-outline style (not needed for
+this 肢). Because this 肢 requires two distinct elements, split STEP1
+itself into two sequential sub-diamonds instead of merging them into one
+check: sub-diamond STEP1a labeled「対象は同一の甲建物についての登記か」
+illustrated by a single isometric 甲建物 icon (its main section and its
+attached 倉庫 wing both outlined in the same highlight color to show they
+are one and the same building), with a ○ branch arrow leading to
+sub-diamond STEP1b labeled「表題部の変更登記と建物の分割の登記の組合せか
+（規則35条1項7号）」illustrated by the main building's signboard flipping
+from「事務所」to「店舗」at the same moment its 倉庫 wing is cut off along a
+dashed line and carried by an arrow to become a separate small building
+labeled 乙建物. From STEP1b's ○ branch, draw an arrow to a final
+conclusion node: a single sheet of paper labeled「申請情報」with a green
+checkmark stamp on top, labeled「一の申請情報でOK（規則35条1項7号）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、変更登記と分割登記の対象が同一の甲建物であるかを確認し、次に、そ
+の組み合わせが表題部の変更登記と建物の分割の登記であるかを確認します。
+両方に該当するため、規則35条1項7号により一の申請情報でまとめて申請でき
+ます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+7号該当、まとめてOK
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in red containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+甲建物と乙建物は同一の不動産かを確認
+Diagram: Reuse the same STEP1/STEP2 shared tree skeleton described in
+Panel 1. For THIS panel, render STEP1's ✕ branch, the entire STEP2
+diamond, and STEP2's ✕ branch in full color with a thick highlighted
+border (this panel's fact pattern is the one that fails both checks), and
+render STEP1's ○ branch and STEP2's ○ branch (and the conclusion nodes
+they lead to) off to one side in a faded, greyed-out, dotted-outline
+style, not omitted. Draw STEP1's diamond captioned「規則35条1項の号にそ
+のまま当てはまる組み合わせか」with a small note beside it reading「滅失
+登記と表題登記の組合せはどの号にも定められていない」leading into a ✕
+mark. From STEP1's ✕ branch, draw an arrow into STEP2's diamond captioned
+「令4条ただし書の要件を満たすか」, and split STEP2 into two sequential
+sub-checks instead of merging them into one: first, an isometric scene of
+甲建物 being knocked down by a wrecking ball on the left and 乙建物 newly
+built with a rising scaffold on the right, both standing on the same lot
+inside a shared boundary outline captioned「同一の登記所管轄内か」with a
+○ mark; then an arrow to a second sub-diamond captioned「登記の目的は
+同一か」comparing two small labels side by side,「甲：滅失登記」and
+「乙：表題登記」, separated by a large ✕ mark to show that the two 登記の
+目的 differ. From this ✕, draw an arrow directly to the final conclusion
+node (no further sub-check needed): two separate sheets of paper, each
+labeled「申請情報」, one lying under 甲建物 and one under 乙建物, with a
+red ✕ mark drawn over a single faded, dotted-outline combined sheet
+positioned between them, labeled「別々の申請情報が必要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この2つの登記が規則35条1項の号にそのまま当てはまる組み合わせかを
+確認しますが、滅失登記と表題登記の組合せはどの号にも定められていませ
+ん。次に令4条ただし書の要件を確認しますが、甲建物の滅失登記と乙建物の
+表題登記は登記の目的そのものが異なるため、この要件も満たさず、別々の
+申請情報が必要です。
+Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
+characters):
+別個の不動産、別々に申請
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+管轄・目的・原因日付の一致を確認
+Diagram: Reuse the same STEP1/STEP2 shared tree skeleton described in
+Panel 1. For THIS panel, render STEP1's ✕ branch, the entire STEP2
+diamond, and STEP2's ○ branch in full color with a thick highlighted
+border, and render STEP1's ○ branch and the conclusion node it leads to
+off to one side in a faded, greyed-out, dotted-outline style, not
+omitted. Draw STEP1's diamond captioned「規則35条1項の号にそのまま当て
+はまる組み合わせか」with a small note beside it reading「表題部所有者の
+氏名変更の組合せを直接定める号はなく、8号は登記名義人の氏名変更に限ら
+れる」leading into a ✕ mark. From STEP1's ✕ branch, draw an arrow into
+STEP2's diamond captioned「令4条ただし書の要件を満たすか」, and split
+STEP2 into three sequential sub-diamonds instead of merging them into one
+(keep all three distinct — do not drop or merge any of them): sub-diamond
+STEP2a labeled「同一の登記所の管轄区域内か」illustrated by 甲土地・乙土地
+both drawn inside a single outline representing one 法務局's jurisdiction,
+with a ○ mark; an arrow to sub-diamond STEP2b labeled「登記の目的は同一
+か」illustrated by 甲土地・乙土地's name-plate icons for their 表題部所有者
+both carrying the same label「表題部所有者の氏名の変更の登記」, with a ○
+mark; an arrow to sub-diamond STEP2c labeled「登記原因及びその日付は
+同一か」illustrated by both name-plate icons flipping from the old family
+name to the same new family name on the same date (a small arrow connects
+the old name to the new one), with a small wedding-ring icon nearby
+showing the shared cause, and a ○ mark. From STEP2c's ○ branch, draw an
+arrow to a
+final conclusion node: a single sheet of paper labeled「申請情報」lying
+under both 甲土地・乙土地 with a green checkmark stamp on top, labeled
+「一の申請情報でOK（令4条ただし書）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず規則35条1項の号を確認しますが、表題部所有者の氏名変更の組合せを直
+接定める号はありません。次に令4条ただし書の3つの要件、同一の登記所の
+管轄区域内であること、登記の目的が同一であること、登記原因及びその日
+付が同一であることを順に確認し、いずれも満たすため一の申請情報でまと
+めて申請できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+3要件そろえばOK
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令4条、不動産登記規則35条1項1号・4号・7号に基づく。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 号・地・建・物・登・記・所・分・合・
+併・筆・区・題・変・更・築・滅・失・轄・管・規・則・項・令・条・原・因・
+氏・義. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢 is drawn
+as an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
