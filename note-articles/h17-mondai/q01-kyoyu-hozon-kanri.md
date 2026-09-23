@@ -212,7 +212,7 @@ conditions to get there — isometric co-owner figures A, B and C standing
 around a shared building, an unauthorized-occupant figure D outside the
 door, hanko stamps, torn-paper labels, a lease-contract document icon, a
 padlock icon for a mortgage on a co-owner's share, a balance-scale icon
-for classifying an act, and speech-bubble callouts for asserting a
+for classifying an act, and speech-bubble icons for asserting a
 justification. Where a 肢 requires checking multiple conditions in
 sequence before reaching a conclusion, draw the panel's diagram as an
 actual decision flowchart: diamond-shaped branch nodes with the condition
@@ -227,25 +227,32 @@ to THIS panel with a thick highlighted border and full color, and render
 the other, unrelated branches and leaves in a faded, greyed-out, or
 dotted-outline style rather than omitting them, so the reader can see at
 a glance which part of the shared tree each panel is about. Panel 2（肢
-イ）looks at first glance like a single check ("Aに占有権原があるか") but
+イ）looks at first glance like a single check（Aに占有権原があるか）but
 must be drawn as a genuine two-step flowchart, since having a right to
 occupy is not by itself enough — draw a second diamond node asking
 whether the other co-owners have actually asserted and shown a concrete
-reason for demanding removal, with the "no reason shown" branch
-highlighted (matching this 肢's "直ちに") and the "reason shown" branch
-rendered faded as an untested alternative. Unlike a glanceable summary
-poster, each panel MAY include a short「着眼点」callout box with 1-2
-sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
-次に〜を確認します"), not just the conclusion. Do not include case or
-precedent numbers (article/regulation numbers are fine); keep the
-callout text as written below verbatim, and keep every condition each
-callout describes faithful to the article's own body text — do not drop
-or merge a required element.
+reason for demanding removal, with the branch matching this 肢（理由を示
+していない）highlighted and the「理由を示した場合」branch rendered faded
+as an untested alternative. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認し
+ます"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -273,9 +280,10 @@ Subtitle (smaller, centered, 2行):
 ブロックは置かない。）
 
 --- PANEL 1（肢ア） ---
-Badge: a filled circle in green containing the number 1.
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
-保存行為は各共有者が単独でできる
+保存行為は共有者一人で行える
 Diagram: A decision-tree flowchart. Root diamond node (drawn with a
 thicker highlighted border since this panel is about the root question
 itself): この行為は、共有物全体に対する行為か、自己の持分だけに対する
@@ -283,7 +291,7 @@ itself): この行為は、共有物全体に対する行為か、自己の持�
 and leads down to a second diamond node, also highlighted: 現状を維持す
 る行為（保存行為）か、利用方法を決める行為（管理行為）か？The「保存行為」
 branch is highlighted and leads to a green conclusion node reading 各共
-有者が単独でできる, illustrated with 人物Aが無権原の侵入者Dを指さして玄
+有者が単独でできる, illustrated with 人物Aが無権原の占有者Dを指さして玄
 関の外へ促すisometric scene. The「自己の持分だけ」branch (used by Panel
 4) and the「管理行為」branch (used by Panel 3) are rendered in a faded,
 greyed-out, dotted-outline style.
@@ -297,22 +305,23 @@ characters):
 保存行為は単独可
 
 --- PANEL 2（肢イ） ---
-Badge: a filled circle in blue containing the number 2.
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
-権原があっても理由なしの請求は不可
+権原があっても理由なき請求は不可
 Diagram: A two-step decision-tree flowchart on an isometric scene of Aが
-建物に単独で住んでいる。First diamond node: 占有しているAは、共有者とし
-ての持分に基づく使用収益権原を持っているか？with a はい arrow proceeding
-downward. Second diamond node (drawn with a thicker highlighted border
-since this is the branch this panel is about): 他の共有者B・Cは、明渡し
-を求める具体的な理由を主張・立証しているか？with the いいえ（この肢のよ
-うに「直ちに」求めているだけ）branch highlighted, leading to a red-cross
-conclusion node reading 明渡し請求は認められない; the はい（理由を示した
-場合）branch is rendered faded and dotted, leading to a faded conclusion
-box reading 認められる余地がある, since this alternative is not what the
-肢 describes.
+建物に単独で住んでいる。First diamond node: 単独で占有するAは、共有者と
+しての持分に基づく使用収益権原を持っているか？with a はい arrow
+proceeding downward. Second diamond node (drawn with a thicker
+highlighted border since this is the branch this panel is about): 他の
+共有者B・Cは、明渡しを求める具体的な理由を主張・立証しているか？with
+the「いいえ（この肢のように「直ちに」求めているだけ）」branch highlighted,
+leading to a red-cross conclusion node reading 明渡し請求は認められない;
+the「はい（理由を示した場合）」branch is rendered faded and dotted,
+leading to a faded conclusion box reading 認められる余地がある, since
+this alternative is not what the 肢 describes.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、占有しているAに共有者としての使用権原があるかを確認します。次に、
+まず、単独で占有するAに共有者としての使用権原があるかを確認します。次に、
 他の共有者が「直ちに」ではなく明渡しを求める具体的な理由を主張・立証し
 ているかを確認します。理由を示さない請求は認められません。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
@@ -320,9 +329,10 @@ characters):
 理由なき請求は不可
 
 --- PANEL 3（肢ウ） ---
-Badge: a filled circle in green containing the number 3.
+Badge: a filled circle in green containing the number 3 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
-独立性のない付属物は同意があってもB
+賃貸借の解除は過半数の同意が必要
 Diagram: The same decision-tree shape as Panel 1, on the same isometric
 scene. Root diamond: この行為は、共有物全体に対する行為か、自己の持分だ
 けに対する行為か？with the「共有物全体に対する行為」branch proceeding
@@ -343,9 +353,10 @@ characters):
 過半数の同意が必要
 
 --- PANEL 4（肢エ） ---
-Badge: a filled circle in green containing the number 4.
+Badge: a filled circle in green containing the number 4 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
-自己の持分は同意なしで処分できる
+自己の持分の処分に同意は不要
 Diagram: The same decision-tree shape as Panels 1 and 3. Root diamond
 (drawn with a thicker highlighted border since this panel is about this
 branch): この行為は、共有物全体に対する行為か、自己の持分だけに対する
@@ -364,21 +375,25 @@ characters):
 持分の処分は自由
 
 --- PANEL 5（肢オ） ---
-Badge: a filled circle in blue containing the number 5.
+Badge: a filled circle in blue containing the number 5 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
 賃借人の権原は無権原者と別扱い
-Diagram: An isometric scene showing 賃借人Gが賃貸借契約に基づいて建物を
-使用しており、傍らに契約書のアイコンと「占有権原あり」というラベル。A
-がB・Cに無断でFに貸し、FがさらにGに使わせている経緯を示す小さな矢印の
-図。画面の隅に、Panel 1の無権原の侵入者Dの小さく色あせたアイコンを配置
-し、「無権原者Dとは異なる」というラベルで対比させる。A自身の賃貸の適否
-自体は問わないことを示す小さな注記「賃貸の有効性はここでは問わない」を
-添える。結論の矢印は「直ちに明渡し請求はできない」という結論ノードにつ
-ながる。
+Diagram: A 対比枠型（別の話への切り分け）split panel. LEFT side labeled
+無権原の占有者Dの場合（Panel 1と同じ人物、faded and greyed-out since this
+panel's focus is the right side）: Dの小さなアイコンに「権原なし」という
+ラベル。RIGHT side labeled 賃借人Gの場合（highlighted with a thick
+colored border）: 賃借人Gが賃貸借契約書を手に建物を使用しているisometric
+scene、契約書のアイコンに「占有権原あり」というラベル。AがB・Cに無断で
+Fに貸し、FがさらにGに使わせている経緯を示す小さな矢印の図を添え、「賃
+貸の有効性はここでは問わない」という小さな注記を置く。両側から伸びる矢
+印は、それぞれ「直ちに明渡し請求できる」と「直ちに明渡し請求はできない」
+という別々の結論ノードにつながり、Gの側の結論ノードだけを緑のチェック
+で強調する。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、占有している賃借人Gが、賃貸借契約に基づく正当な占有権原を持って
-いるかを確認します。契約上の権原がある以上、無権原の不法占有者と同じよ
-うには扱えないため、他の共有者は直ちに明渡しを請求できません。
+いるかを確認します。契約上の権原がある以上、無権原の占有者と同じように
+は扱えないため、他の共有者は直ちに明渡しを請求できません。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 賃借人には対抗不可
@@ -389,10 +404,15 @@ Small footnote text (bottom of panel, small font, verbatim):
 分）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権, 建, 物, 持, 占, 渡, 抵, 当, 契, 約, 解, 除. If any
-character renders as a Simplified Chinese variant, redraw that character
-in the correct Japanese form. Confirm the panel count equals 5 exactly,
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権, 建, 物, 単, 持, 占, 渡, 抵, 当, 契,
+約, 解, 除. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form.
+Also scan the entire canvas for any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only
+character, Korean Hangul, other non-Japanese script, or stray decorative
+glyph — and remove or redraw it so that only standard Japanese text
+appears anywhere in the image. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every multi-
 condition 肢（肢イ）is drawn as an actual flowchart with branch nodes (not

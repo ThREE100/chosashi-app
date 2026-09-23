@@ -232,7 +232,7 @@ branches of the rule — 相手方の悪意 and 相手方の有過失 — as two
 arrows reaching the same「無効」conclusion node, highlighting only the
 悪意 branch that this 肢 actually tests and rendering the 有過失 branch in
 a lighter but still legible outline, rather than collapsing the rule into
-a single 悪意-only check. Panel 2（虚偽表示）and Panel 5（強迫）are not
+a single 悪意のみの check. Panel 2（虚偽表示）and Panel 5（強迫）are not
 decision trees but comparison panels: Panel 2 is a 正誤対比型（思い込み
 チェック型）panel contrasting the correct rule with an easily-mistaken
 over-requirement, and Panel 5 is a 対比枠型（別の話への切り分け）panel
@@ -246,13 +246,21 @@ words, not just the conclusion. Do not include case or precedent numbers
 (article/regulation numbers are fine); keep the callout text as written
 below verbatim, and keep every condition each callout describes faithful
 to the article's own body text — do not drop or merge a required element
-(e.g. do not turn「善意」into「善意無過失」as if both were required, when
-the source article treats 善意 alone as sufficient).
+（例えば、原典の条文が「善意」のみを要件とする場面で、これを勝手に「善意
+無過失」のように要件を追加してはならない）。
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -280,9 +288,10 @@ Subtitle (smaller, centered, 2行):
 ブロックは置かない。）
 
 --- PANEL 1（肢1） ---
-Badge: a filled circle in green containing the number 1.
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
-相手が悪意なら心裡留保は無効
+相手が悪意なら心裡留保は無効になる
 Diagram: A decision-tree flowchart. Start node: 意思表示（原則として有
 効）。Diamond node: 相手方Bは、Aの真意でないことを知っていたか（悪意）、
 または知ることができたか（有過失）か？The「悪意」branch is highlighted
@@ -305,9 +314,10 @@ characters):
 相手が悪意なら無効
 
 --- PANEL 2（肢2） ---
-Badge: a filled circle in blue containing the number 2.
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
-対抗できない要件は「善意」で足りる
+対抗を防ぐ要件は善意だけで足りる
 Diagram: A 正誤対比型（思い込みチェック型）split panel using the same
 isometric characters A, B and C throughout. LEFT side labeled 正しいルー
 ル: Cが虚偽表示について善意であればよい（過失の有無は問わない）,
@@ -327,7 +337,8 @@ characters):
 善意だけで対抗不可
 
 --- PANEL 3（肢3） ---
-Badge: a filled circle in green containing the number 3.
+Badge: a filled circle in green containing the number 3 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
 重過失の表意者は自ら主張できない
 Diagram: An isometric scene showing 男性キャラクターAが契約書にサイン
@@ -347,7 +358,8 @@ characters):
 重過失なら主張不可
 
 --- PANEL 4（肢4） ---
-Badge: a filled circle in blue containing the number 4.
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
 詐欺による意思表示は取り消せる
 Diagram: An isometric scene showing 女性キャラクターBが「この土地は近々
@@ -363,7 +375,8 @@ characters):
 詐欺は取消し可
 
 --- PANEL 5（肢5） ---
-Badge: a filled circle in green containing the number 5.
+Badge: a filled circle in green containing the number 5 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
 強迫には第三者保護規定がない
 Diagram: A 対比枠型（別の話への切り分け）split panel. LEFT side labeled
@@ -390,18 +403,23 @@ Small footnote text (bottom of panel, small font, verbatim):
 に基づきます。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 悪・強・対・錯・誤・詐・張・無・効・過. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the panel count equals 5 exactly, badge
-numbers run 1-5 continuously, there is no intro illustration or paragraph
-block between the header and the panels, that Panel 1's flowchart shows
-both the 悪意 and 有過失 branches without dropping either, that Panel 2's
-正誤対比型 layout does not merge「善意」and「無過失」into a single
-required element where the source article only requires 善意, that Panel
-5's 対比枠型 layout clearly distinguishes its highlighted 強迫 framework
-from the faded 詐欺 framework rather than blending the two, that each 着
-眼点 callout states a checking order or a correct-vs-mistaken distinction
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 悪, 強, 対, 錯, 誤, 詐, 張, 無, 効,
+過, 失. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panel 1's flowchart shows both
+the 悪意 and 有過失 branches without dropping either, that Panel 2's 正誤
+対比型 layout does not merge「善意」and「無過失」into a single required
+element where the source article only requires 善意, that Panel 5's 対比
+枠型 layout clearly distinguishes its highlighted 強迫 framework from the
+faded 詐欺 framework rather than blending the two, that each 着眼点
+callout states a checking order or a correct-vs-mistaken distinction
 rather than only a conclusion, confirm nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any
