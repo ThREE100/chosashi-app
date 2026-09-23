@@ -199,3 +199,210 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+肢ウ・エは「資格者代理人Ｂが特別の委任を受けている場面で、電子申請か書面申請かで通知が失効するまでの期限が変わる」という同じ決定木を共有しているため、1つの分岐図を2パネルで使い回し、パネルごとに自分の申請方法の枝だけを強調する構成にした。肢ア・イ・オはそれぞれ独立した図解（申出の有無、合筆登記の当事者関係、官庁の例外）とした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric people figures for 申請人・資格者
+代理人・登記名義人・官庁, a registry office counter, a password/key-card
+icon representing 登記識別情報, two land plot icons merging into one for
+合筆, a mortgage ribbon icon for 抵当権者, a government-building icon for
+官庁, a laptop with a countdown calendar for the 30-day electronic
+deadline, and an envelope/paper handover with a 3-month calendar for the
+paper-application deadline. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Panels 3
+and 4（肢ウ・エ）share a common decision tree rooted at the same starting
+fact (資格者代理人Ｂが登記識別情報の通知を受けるための特別の委任を受け
+ている場面で、申請方法が電子申請か書面申請かを分ける分岐点): render the
+branch relevant to THIS panel（電子申請 for panel 3, 書面申請 for panel
+4）with a thick highlighted border and full color, and render the other,
+unrelated branch in a faded, greyed-out style. Panels 1, 2, and 5（肢ア・
+イ・オ）are designed independently around their own fact pattern. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第5問 ア〜オ
+作図ガイド（登記識別情報の通知）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+希望しない旨の申出で通知は不要
+Diagram: An isometric scene at the registry office counter. 申請人（Ａ）
+stands at the counter with a speech bubble reading「通知は希望しません」。
+奥のパスワードカード（登記識別情報）アイコンに赤い「✕」が重なり、発行・
+通知されないことを示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請人があらかじめ登記識別情報の通知を希望しない旨を申し出ている
+かどうかを確認します。申出があれば、その申請人には登記識別情報は通知
+されません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+申出で通知されない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+抵当権者Bには登記識別情報は通知されない
+Diagram: An isometric relationship diagram centered on the merged 甲土地・
+乙土地。所有権登記名義人（Ａ）から矢印が伸び、パスワードカード（登記
+識別情報）を受け取る様子に緑の「✓」。抵当権者（Ｂ）からも点線の矢印が
+同じパスワードカードへ伸びるが、その矢印には赤い「✕」が重なり、「申請人
+でも新たな登記名義人でもない」という小さなラベルが添えられる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記識別情報の通知を受けられるのは、その登記によって申請人自ら
+新たに登記名義人となる者に限られることを確認します。合筆の登記で新たに
+所有権の登記名義人となるのはＡだけであり、抵当権者Ｂはこれに当たらない
+ため通知されません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+名義人以外には届かない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+電子申請は30日以内の記録が必要
+Diagram: A decision-tree flowchart. Start node（common to panels 3 and
+4）:「資格者代理人Ｂが登記識別情報の通知を受けるための特別の委任を
+受けている」leading to a diamond node:「申請方法は電子申請か書面申請
+か？」電子申請 branch（highlighted with a thick border and full color）
+leads to a second diamond node:「送信が可能になった時から30日以内に、
+Ｂが自己の使用に係る電子計算機のファイルに記録したか？」はい→結論
+ノード「登記識別情報が通知される」；いいえ→結論ノード「登記識別情報は
+通知されない」。書面申請 branch（faded, greyed-out, dotted outline）leads
+to the same 3か月以内の受領を問うひし形（panel 4で強調）が薄く縮小表示
+される。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、資格者代理人Ｂが登記識別情報の通知を受けるための特別の委任を受け
+ていることを確認したうえで、申請方法が電子申請か書面申請かを見分けます。
+電子申請の場合は、送信が可能になった時から30日以内にＢがファイルに記録
+したかどうかを確認し、記録しなければ登記識別情報は通知されません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+30日超過で通知されず
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+書面申請は3月以内の受領が必要
+Diagram: The same decision-tree flowchart as panel 3, with the
+highlighting reversed. Start node:「資格者代理人Ｂが登記識別情報の通知を
+受けるための特別の委任を受けている」leading to the same diamond node:
+「申請方法は電子申請か書面申請か？」書面申請 branch（highlighted with a
+thick border and full color）leads to a second diamond node:「登記完了の
+時から3月以内に、Ｂが登記識別情報を記載した書面を受領したか？」はい→
+結論ノード「登記識別情報が通知される」；いいえ→結論ノード「登記識別情報
+は通知されない」。電子申請 branch（faded, greyed-out, dotted outline）
+leads to the same 30日以内のファイル記録を問うひし形（panel 3で強調）が
+薄く縮小表示される。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、資格者代理人Ｂが登記識別情報の通知を受けるための特別の委任を受け
+ていることを確認したうえで、申請方法が電子申請か書面申請かを見分けます。
+書面申請の場合は、登記完了の時から3月以内にＢが書面を受領したかどうか
+を確認し、受領しなければ登記識別情報は通知されません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+3月超過で通知されず
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+官庁も希望を申し出れば通知される
+Diagram: A decision-tree flowchart. Start node:「登記名義人が官庁・公署
+である（原則として通知されない）」leading to a diamond node:「あらかじめ
+登記識別情報の通知を希望する旨の申出があったか？」はい branch leads to a
+conclusion node with a government-building icon and a green「✓」reading
+「登記識別情報が通知される」；いいえ branch leads to a conclusion node
+reading「登記識別情報は通知されない（原則どおり）」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記名義人が官庁・公署であるかどうかを確認します（官庁の場合は
+原則として通知されません）。次に、その官庁からあらかじめ登記識別情報の
+通知を希望する旨の申出があったかどうかを確認し、申出があれば例外的に
+通知されます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+申出があれば通知される
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法21条本文・同条ただし書（登記識別情報の通知）・不動産登記
+規則64条1項2号（電子申請の場合の30日の期間制限）・同項3号（書面申請の
+場合の3月の期間制限）・同項4号かっこ書（官庁又は公署が通知を希望する旨
+の申出をした場合の取扱い）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to 登・記・識・別・情・報・通・
+知・合・筆・抵・当・権・官・庁・電・子・申・請・書・面・受・領. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also confirm that no
+character outside hiragana, katakana, Jōyō kanji, and the Arabic numerals
+explicitly used above appears anywhere in the image — no Latin letters, no
+other non-Japanese scripts. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢 is drawn as an actual flowchart with branch nodes (not
+a bare illustration with no visible decision structure), that no 肢 with a
+genuinely hidden second condition has been flattened into a single check,
+that each 着眼点 callout states a checking order rather than only a
+conclusion and keeps every required element from the source article
+distinct, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background with
+no transparency or alpha channel anywhere.
+```

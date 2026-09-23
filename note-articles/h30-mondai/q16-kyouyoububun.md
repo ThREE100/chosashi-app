@@ -207,3 +207,218 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、共用部分である旨の登記の設定・記録・変更・廃止の各場面で、実際にどの順番で何を確認すればよいかを、肢ごとに図解する作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに判定の順序を明示する「着眼点」の短い説明文を添えている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry ledger pages, official
+stamps/seals, prohibition (no-entry) circle-slash marks, mansion room
+icons, padlock icons for mortgages/権利, calendar icons, a person handing
+over a document, storage-room and meeting-hall icons, and small
+diamond-shaped decision markers with ○/✕ branch labels. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render
+the other, unrelated branches in a faded, greyed-out, or dotted-outline
+style rather than omitting them — the reader should be able to see at a
+glance which part of the shared tree this panel is about. Likewise,
+where a diagram must show an entity that conceptually never held the
+right or status in question (e.g. someone who was never an heir, or a
+claim that never existed), render that entity or claim in a faded or
+dotted-outline style rather than a plain ○/✕ mark, so the visual itself
+communicates "this was never really there," not just "this is wrong."
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER
+in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text — do not drop or merge a required element (e.g. keep
+"善意" and "無過失" as two distinct checks if the source article treats
+them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa. Pay
+special attention to the kanji 権・登・記・所・規・約・職・変・請・録・
+抹・閉・鎖 — these must be rendered in their standard Japanese forms,
+never as Simplified or Traditional Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成30年度 午後の部 第16問 ア〜オ
+作図ガイド（共用部分の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+所有権の有無で抹消される登記が変わる
+Diagram: 決定木として描く。ひし形の分岐ノードに「共用部分にする建物に
+所有権の登記があるか？」と書く。「ある（○）」方向の矢印を、
+chain-and-padlock icon（権利）に赤い✕が重なった結論ノード「所有権その
+他の権利に関する登記が職権で抹消される」につなぐ。「ない（✕）」方向の
+矢印を、name tag「所有者」に赤い✕が重なった結論ノード「表題部所有者に
+関する登記事項が職権で抹消される」につなぐ。ひし形の上には、赤い
+official stamp/seal「共用部分」が押される isometric ledger page を
+配置する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず共用部分にする建物に所有権の登記があるかどうかを確認し、所有権の
+登記があれば所有権その他の権利に関する登記が、なければ表題部所有者に
+関する登記事項が、それぞれ職権で抹消されると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+職権で抹消される
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+共用部分の登記は申請でのみされる
+Diagram: 正誤対比の構図で描く。上段（誤った思い込み）に、registrar
+（登記官）character icon が申請書を受け取らずにその場で「共用部分」の
+official stamp を自ら押そうとしている様子を描き、そこに赤い禁止（進入
+禁止）マークを重ねる。下段（正しいルール）に、owner（所有者）character
+icon が document「申請書」を registry office の窓口へ差し出している
+様子を描き、registrar character icon はそれを受け取るだけの姿勢で描き、
+緑のチェックマークを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずこの登記が誰の申請によって始まるのかを確認し、規約で共用部分と
+定めただけでは登記官が職権で入れてくれるわけではなく、所有者側からの
+申請が必要だと判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+職権ではできない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+原因欄に規約設定の日付を記録する
+Diagram: 配置図型で描く。isometric ledger page の表題部にある複数の
+欄のうち、「原因及びその日付」欄だけを大きく切り出して配置する。その欄
+の横に calendar icon を置き、吹き出しの中に「令和8年7月1日規約設定
+共用部分」という文字列を書き込む。小さな規約書（document）icon から
+その欄へ矢印を引き、日付の出どころが規約の成立日であることを示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず表題部の原因及びその日付欄に何を書くべきかを確認し、共用部分である
+旨の登記では、その規約が成立した年月日を「年月日規約設定 共用部分」の
+形で記録すると判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+規約設定の日付を記録
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+記録は抹消のみで閉鎖されない
+Diagram: 対比枠型で描く。左枠に見出し「誤り：閉鎖・新設」をつけ、古い
+isometric ledger page に「閉鎖」の official stamp が押され、その横に
+真っ白な新しい ledger page が新たに現れる様子を描き、シーン全体に赤い
+禁止（進入禁止）マークを重ねる。右枠に見出し「正しい：抹消のみ」を
+つけ、同じ1枚の ledger page の上で「共用部分」の stamp だけが赤い✕で
+消され、name tag「所有者」がその同じページに再び現れる様子を描き、緑の
+チェックマークを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず規約を廃止して表題登記を申請したときに、登記記録そのものがどう
+扱われるかを確認し、記録を閉鎖して新しい記録を作り直すのではなく、同じ
+登記記録の中で共用部分である旨の記録だけが抹消されると判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+記録はそのまま使う
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+種類変更は1か月以内に申請する
+Diagram: 決定木として描く。ひし形の分岐ノードに「登記事項（種類など）
+に変更が生じたか？」と書く。「生じた（○）」方向の矢印を、
+storage-room icon「物置」が meeting-hall icon「集会所」に変わる矢印
+と、calendar icon「1か月以内」、document icon「変更登記申請」が並んだ
+結論ノード「所有者は1か月以内に表題部の変更の登記を申請しなければなら
+ない」につなぐ。「生じていない（✕）」方向の矢印を、簡素な空白の状態を
+示す結論ノード「申請義務は生じない」につなぐ。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずその建物の登記事項（種類など）に変更が生じたかどうかを確認し、変更
+が生じていれば、所有者は変更があった日から1か月以内に表題部の変更の
+登記を申請しなければならないと判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+1か月以内に申請
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：ア・エ（不動産登記法58条4項・6項）、オ（不動産登記法51条1項
+かっこ書き）。イ・ウは登記の性格・準則からの説明にとどまり、元データ
+解説には条文番号の明記がありません（本文の確認事項欄に、法58条2項・
+不動産登記事務取扱手続準則103条1項・4項等の関連規定を補足として記載
+しています）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・登・記・所・規・約・職・変・請・
+録・抹・閉・鎖. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢 is drawn
+as an actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that any panel sharing a decision tree with
+another panel clearly distinguishes its own highlighted branch from the
+other, faded branches, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

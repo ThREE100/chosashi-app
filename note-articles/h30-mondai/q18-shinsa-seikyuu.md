@@ -215,3 +215,221 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+審査請求手続について、ア〜オの各肢を、問題文を読んだ瞬間にどの図を描き、どの順番で条件を確認すればよいかという「作図ガイド」の5パネルで示す構成（パネル1・4は「監督法務局長等は自ら処分せず登記官に命じる」という共通の関係構図を再利用し、パネル5は証拠書類の返還可否を決定木で示す）。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — senior supervisory official figures labeled
+監督法務局長等, registrar figures labeled 登記官 seated at a desk,
+appeal-claimant figures labeled 審査請求人, decision-letter and
+opinion-copy document icons labeled 裁決書謄本 and 審理員意見書写し,
+evidence-document folders labeled 証拠書類, a horizontal timeline with
+calendar tick marks, and command arrows paired with red prohibition marks
+over any action the senior official would take directly. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is resolved
+by a single check, a labeled illustrative diagram is sufficient — do not
+force a flowchart. Where a panel reuses a decision tree shared with other
+panels in this set, render the branch relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated
+branches in a faded, greyed-out, or dotted-outline style rather than
+omitting them — the reader should be able to see at a glance which part
+of the shared tree this panel is about. Likewise, where a diagram must
+show an entity that conceptually never held the right or status in
+question (e.g. someone who was never an heir, or a claim that never
+existed), render that entity or claim in a faded or dotted-outline style
+rather than a plain ○/✕ mark, so the visual itself communicates "this was
+never really there," not just "this is wrong." Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element (e.g. keep "善意" and "無過失" as two distinct checks
+if the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+審査請求は
+誰が・いつ・何をするか
+
+Subtitle (smaller, centered, 2行):
+平成30年度午後第18問 ア〜オ
+作図ガイド（審査請求手続）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+監督法務局長等は登記官に処分を命じる
+Diagram: An isometric relationship diagram. A speech bubble reading "審査
+請求に理由あり" sits at the top as the trigger. An arrow runs from a
+senior official figure labeled 監督法務局長等 to a registrar figure
+labeled 登記官 seated at a desk, with the arrow labeled "相当の処分を命じ
+る". A second, shorter arrow reaching directly from the senior official's
+hand toward the document is overlaid with a red prohibition (no-entry)
+mark, showing the senior official never processes it personally. A small
+citation label reading "不動産登記法157条3項" sits near the speech
+bubble.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、審査請求に理由があるかどうかという前提を確認し、次に、実際に処分を
+するのが監督法務局長等自身か登記官かを見分けます。監督法務局長等は自らは
+処分せず、登記官に命じる立場です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+自らはせず登記官に命令
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+審査請求の期間に制限はない
+Diagram: A horizontal timeline starting at a point labeled "処分があった
+ことを知った日" on the left. A dotted tick mark partway along the line is
+labeled "3ヶ月（行政不服審査法18条の原則）", overlaid with a large red
+prohibition (no-entry) mark to show this general deadline does not apply
+here. The solid timeline arrow continues unbroken past that tick mark,
+off the right edge of the panel, toward an infinity symbol labeled "いつ
+でも可能".
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、行政不服審査法18条が定める一般原則の「3か月」という期間制限を思い
+浮かべ、次に、登記官の処分についての審査請求にはこの期間制限の適用が除外
+されていることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+期限なくいつでも可能
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+裁決書謄本は審査請求人と登記官の双方へ
+Diagram: A symmetric isometric scene with a senior official figure
+labeled 監督法務局長等 in the center holding two identical document sets,
+each labeled "裁決書謄本" and "審理員意見書写し". One set flies via a
+dotted arrow to a person figure labeled 審査請求人 on the left, and an
+identical set flies via a dotted arrow to a registrar figure labeled 登記
+官 on the right, showing both receive the same documents.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、監督法務局長等が裁決をしたという事実を確認し、次に、その通知先が審
+査請求人だけでなく登記官にも及ぶことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+双方に交付
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+却下すべき申請も登記官に却下を命じる
+Diagram: The same relationship-diagram composition as Panel 1 (a senior
+official commanding a registrar, with a prohibition mark over any direct
+action by the official), but the trigger speech bubble now reads "不作為
+に係る処分についての申請を却下すべき" and the command arrow is labeled
+"却下する処分を命じる"; the registrar figure stamps an application folder
+labeled 申請 with a red "却下" torn-paper stamp.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、不作為についての審査請求で、その申請自体を却下すべきかどうかを確認
+し、次に、却下する処分を実際に行うのが監督法務局長等自身か登記官かを見分
+けます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+却下も登記官に命令
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+証拠書類は同意がなければ速やかに返還
+Diagram: A decision flowchart. The start node reads "監督法務局長等が裁決
+をした（審理員に提出された証拠書類がある）". A diamond-shaped branch node
+below it reads "提出者が返還を要しないことに同意しているか". The Yes-side
+arrow leads to a conclusion node reading "返還しない（提出者の同意により
+保管）". The No-side arrow leads to a separate conclusion node reading
+"速やかに証拠書類を提出者へ返還する". No arrow loops back to the diamond
+node from either conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、証拠書類があるかどうかを確認し、次に、提出者が返還を要しないと同意
+しているかどうかを確認します。同意がなければ速やかに返還するのが原則で
+す。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+原則として速やかに返還
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記法157条3項・5項、158条、不動産登記事務取扱準則145条
+1項、行政不服審査法53条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 監・督・審・査・請・却・下・謄・証・拠.
+If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire
+canvas for any character that is not standard Japanese hiragana,
+katakana, or Jōyō kanji — including any Chinese-only character, Korean
+Hangul, other non-Japanese script, or stray decorative glyph — and remove
+or redraw it so that only standard Japanese text appears anywhere in the
+image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

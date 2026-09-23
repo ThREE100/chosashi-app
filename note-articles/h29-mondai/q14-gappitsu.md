@@ -211,3 +211,211 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+抵当権の内容が一致しているか、その後に食い違いが生じていないかを2段階で確認するイ、資格や条件の有無を1つの分岐で見分ける決定図で示すウ・オ、「よくある勘違い」と「正しい実務の流れ」を対比させるア・エというように、5肢それぞれの確認プロセスに合わせて図解の型を個別に設計した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric adjacent land plots labeled 甲土地・
+乙土地, a mortgage/lien document stamp for 抵当権, a land-lease stake icon
+for 地上権, a small family/inheritance icon for 相続, an isometric 登記官
+figure, a speech-bubble「異議」icon, and registry application-form
+stamps. Where a 肢 requires checking multiple conditions in sequence
+before reaching a conclusion, draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. This article's five 肢
+each turn on a different, unrelated condition (抵当権の内容一致・相続に
+よる名義・地上権の抹消・職権合筆への異議), so design each panel's diagram
+independently around its own fact pattern rather than reusing a shared
+tree across panels. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required
+element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第14問 ア〜オ
+作図ガイド（合筆の制限）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+片方だけの抵当権は承諾でも合筆不可
+Diagram: A 正誤対比型（左右2枠）diagram. Left box「よくある勘違い」: 乙
+土地にのみ付いている抵当権について、抵当権者が「消滅を承諾する情報」の
+書類を差し出せば合筆できると考えている様子、大きな赤い「✕」。Right box
+「正しいルール」: 甲土地（権利表示なし）と乙土地（抵当権のスタンプ付き）
+が並び、抵当権者が同じ「消滅を承諾する情報」を差し出しても、「合筆の
+登記」の申請書にはやはり赤い「✕」が付いたままであることを示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地・乙土地のうち、どちらか一方にのみ所有権以外の権利（抵当権
+など）の登記があるかどうかを確認します。抵当権者の承諾があっても、この
+場合は合筆の登記を申請することはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+承諾があっても不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+同一抵当権でも後の食い違いで不可
+Diagram: A decision-tree flowchart. Diamond 1:「甲土地と乙土地に、登記の
+目的・受付の年月日及び受付番号・登記原因及びその日付が同一の抵当権の
+登記があるか？」The「いいえ」branch leads to a conclusion node reading
+「所有権以外の権利があるため、原則どおり合筆できない」. The「はい」
+branch proceeds to Diamond 2:「その後、一方の土地についてのみ、抵当権の
+順位の変更など内容に食い違いを生じさせる登記がされていないか？」Two
+further branches: 「されている（食い違いあり）」leads to a conclusion
+node reading「合筆できない」; 「されていない（食い違いなし）」leads to a
+separate conclusion node reading「合筆できる」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲乙両土地の抵当権の登記の目的・受付年月日及び受付番号・登記原因
+及びその日付がすべて同一かどうかを確認します。同一であっても、次に、
+その後どちらか一方の土地についてのみ順位の変更などの登記がされていない
+かを確認し、内容に食い違いが生じていれば合筆の登記を申請することは
+できません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+後の食い違いで不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+移転登記前は相続証明だけでは不可
+Diagram: A decision-tree flowchart with one diamond. Diamond:「甲土地の
+名義人Ａから、唯一の相続人であるＢへの相続による所有権の移転の登記を
+受けているか？」The「いいえ」branch leads to a conclusion node reading
+「相続を証する情報だけでは合筆の登記を申請できない」（脇に「Ｂの唯一の
+相続人であることを証する情報」の書類だけが握られている様子）. The「はい」
+branch leads to a separate conclusion node reading「甲乙とも名義がＢに
+そろい、合筆の登記を申請できる」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地の名義人Ａについて、唯一の相続人であるＢへの所有権の移転の
+登記が済んでいるかどうかを確認します。相続を証する情報を提供するだけ
+では足りず、移転登記を受けて甲乙の名義をそろえてからでなければ、合筆
+の登記を申請することはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+移転登記後に合筆可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+混同が生じても地上権は抹消が先
+Diagram: A 正誤対比型（左右2枠）diagram. Left box「よくある勘違い」: 甲
+土地の地上権者であったＡが、後に甲土地の所有権登記名義人にもなった
+（混同が生じた）ことで、地上権はもう消えているはずだから合筆できると
+考えている様子、大きな赤い「✕」。Right box「正しいルール」: 混同が生じ
+ても甲土地の登記記録に「地上権の設定登記」がそのまま残っている様子を
+示し、まず「地上権の抹消の登記」のスタンプが押され、その次に矢印で
+つながった「合筆の登記」の申請書に緑の「✓」が付く、2段階の流れ。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地に地上権など所有権以外の権利の登記が残っていないかを確認
+します。その後にＡが甲土地の所有権登記名義人になり実質的に混同が生じ
+ていても、地上権の抹消の登記をしない限り、合筆の登記を申請することは
+できません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+抹消登記が先
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+名義人の異議があれば職権合筆不可
+Diagram: A decision-tree flowchart with one diamond. Diamond:「地図を
+作成するために職権で合筆をしようとする土地について、所有権の登記名義
+人に異議があるか？」The「はい」branch leads to a conclusion node reading
+「登記官は職権で合筆の登記をすることができない」（isometric 登記官 figure
+の前に「異議」の吹き出しを掲げる名義人）. The「いいえ」branch leads to a
+separate conclusion node reading「登記官は職権で合筆の登記をすることが
+できる」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図を作成するために必要があるとして職権で合筆をしようとする土地
+について、所有権の登記名義人に異議があるかどうかを確認します。異議が
+あるときは、登記官は職権で合筆の登記をすることはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+異議があれば不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法41条3号（表題部所有者又は所有権の登記名義人が異なる土地の
+合筆制限）・同条6号（所有権以外の権利に関する登記がある土地の合筆制限）
+・同法39条3項（職権による合筆の登記）、不動産登記規則105条2号（同一
+内容の抵当権がある場合の例外）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to
+合・筆・抵・当・権・承・諾・順・位・変・更・名・義・相・続・移・転・地・
+上・抹・消・職・異・議. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also confirm that no character outside hiragana, katakana,
+Jōyō kanji, and the Arabic numerals explicitly used above appears
+anywhere in the image — no Latin letters, no other non-Japanese scripts.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that 肢イ is drawn as a genuine two-diamond
+flowchart (not flattened into a single check) since it requires checking
+both whether the two 抵当権 are identical AND whether a later registration
+has made them diverge, that 肢ウ・肢オ each show both branches of their
+single decision diamond with an explicit, separately labeled conclusion
+node (never a blank or looping branch), that each 着眼点 callout states
+a checking order rather than only a conclusion and keeps every required
+element from the source article distinct, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
