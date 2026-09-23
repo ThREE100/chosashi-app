@@ -189,3 +189,201 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots, pastures, farmland,
+tennis courts, and hot springs. Panels 1（肢ア）and 3（肢ウ）form a matched
+pair using a side-by-side comparison frame（対比枠型）rather than a
+flowchart, because the real point of both 肢 is distinguishing two
+different zone-based rules, not a sequential condition: in Panel 1,
+highlight the 牧場地域 side and show the 耕作地域 side in a faded,
+greyed-out style purely for contrast; in Panel 3, highlight the 耕作地域
+side and show the 牧場地域 side faded instead. Panel 2（肢イ）is a simple
+before/after timeline and does not need a diamond-shaped flowchart. Panel
+4（肢エ）must be drawn as an actual decision flowchart with a real
+two-outcome branch, because the source rule itself states both outcomes
+explicitly (準則69条9号「宅地に接続するものは宅地とし、その他は雑種地と
+する」): render both the はい side (宅地の一部として扱う) and the いいえ
+side (雑種地となる) with their own conclusion nodes, and do not draw a
+looping arrow back into an earlier node. Panel 5（肢オ）is a simple
+definitional check and should use a labeled illustrative diagram rather
+than a forced flowchart. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成25年度午後第8問 ア〜オ
+作図ガイド（地目の認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+牧場地域内の建物敷地は宅地外
+Diagram: A side-by-side comparison frame（対比枠型）. Left frame (thick
+highlighted border): an isometric pasture landscape with a barn building
+icon labeled 牧畜のための建物, with a red X over a 宅地 tag and a green
+checkmark over a 牧場 tag instead, labeled 牧場地域内. Right frame (faded,
+greyed-out, shown only for contrast): an isometric farmland landscape
+with a small tool-shed icon labeled 耕作地域内の農具小屋（次のパネルの
+話）, with a small green checkmark over a 宅地 tag.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その牧畜用建物が牧場地域内にあるかどうかを確認します。牧場地域内に
+ある場合は、永久的設備と認められる建物であっても宅地とはならず、牧場等
+として扱われます（耕作地域内の農具小屋とは扱いが異なります）。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+宅地にならない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+現況優先ですぐ地目変更
+Diagram: An isometric timeline of one land plot changing from a forest
+icon labeled 山林 to a parking-lot icon labeled 駐車場 to a house icon
+labeled 宅地. A single check point on the timeline: 現況（今の利用状況）は
+宅地か？with a はい arrow running straight from the current house icon to
+a stamp labeled 地目変更登記, skipping the middle stage without needing to
+retrace the history.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記記録上の地目ではなく、現在の実際の利用状況（現況）がどうなって
+いるかを確認します。過去にどんな用途で使われていたかにかかわらず、現況が
+宅地であれば直ちに地目を宅地とする変更登記をすることができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+現況で即変更
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+耕作地域の永久施設は宅地扱い
+Diagram: A side-by-side comparison frame（対比枠型）. Left frame (faded,
+greyed-out, shown only for contrast): an isometric pasture landscape with
+a barn icon labeled 牧場地域内の牧畜用建物（前のパネルの話）, with a red X
+over a 宅地 tag. Right frame (thick highlighted border): an isometric
+farmland landscape with a small permanent tool-shed building icon labeled
+耕作地域内の農具小屋, with a green checkmark over a 宅地 tag.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この建物が耕作地域内にある農具小屋であるかを確認します。牧場地域内
+の牧畜用建物とは異なり、耕作地域内にある永久的施設と認められる建物の敷地
+は、宅地として認定されます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+永久施設なら宅地
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+宅地接続のテニスコートは宅地扱い
+Diagram: A decision-tree flowchart. Start node: 山林であった甲土地がテニス
+コートに造成された（isometric tennis-court icon replacing a forest icon）.
+Diamond node: 隣接する乙土地が宅地であり、それに接続するか（効用上一体
+か）？with a はい arrow leading to a conclusion node reading 宅地の一部と
+して扱う（雑種地にならない）, illustrated by a dashed line labeled 効用上
+一体 connecting the tennis-court plot to a house icon on 乙土地・宅地; and
+a separate いいえ arrow leading to its own conclusion node reading 雑種地
+となる. Do not loop either arrow back into an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、山林であった土地がテニスコートやプールに造成されたことを確認しま
+す。次に、その土地が宅地である隣接地に接続しているかを確認し、接続して
+いれば雑種地ではなく宅地の一部として扱われます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+雑種地にならない
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+温泉の湧出口は鉱泉地と定める
+Diagram: An isometric hot-spring landscape with a small steaming
+water-source icon labeled 温泉の沸出口 and the surrounding maintenance
+area. A single check point: この土地は温泉の沸出口及びその維持に必要な
+範囲か？with a はい arrow leading to a green tag reading 鉱泉地 placed
+above the water source.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地が温泉（鉱泉）の湧出口及びその維持に必要な範囲の土地である
+かを確認します。該当すれば、地目区分の定義上、地目は「鉱泉地」となりま
+す。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地目は鉱泉地
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則68条（地目の認定基準）・69条3号・4号・9号
+（耕作地域内の農具小屋、牧場地域内の建物、宅地に接続するテニスコート・
+プールの取扱い）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 牧・畜・耕・農・具・鉱・泉・雑 and any
+character with a visually similar Simplified or Traditional Chinese
+variant. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panels 1 and 3 clearly show the
+matched comparison frame with the relevant zone highlighted and the other
+zone faded, that Panel 4's flowchart shows a genuine two-outcome branch
+with no looping arrow back into an earlier node, that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```
