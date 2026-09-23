@@ -216,3 +216,257 @@ after the last card), and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+肢ア・イ・エは、「記名か署名か」から始まり、署名であれば「申請書への代理人署名か、委任状への本人署名か」で分岐し、委任状側はさらに「公証人等の認証の有無」を確認する、という共通の決定木を共有する構成とする。肢ウ・オは、「申請人欄か作成者欄か」から始まり、作成者欄側はさらに「署名か記名押印か」を確認する、という別の共通の決定木を共有する構成とする。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric 委任状(delegation document)and 申請書
+(application document)icons, 建物図面(building floor plan)and 地積測量図
+(land survey diagram)icons, hanko-seal stamp icons, a pen icon for a
+handwritten 署名, a notary-public stamp icon for 公証人の認証, small
+nameplate labels for 申請人・代理人・作成者, and checkmark/red-X prohibition
+marks. Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No(はい/いいえ、or ○/✕)branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. Panels 1(肢ア), 2(肢イ)
+and 4(肢エ)share the same underlying decision tree for 委任状・申請書(root
+diamond:「記名か署名か」→ if 署名, a second diamond「申請書の代理人署名か、
+委任状の本人署名か」→ if 委任状の本人署名, a third diamond「公証人等の認証の
+有無」); render the branch and leaf relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated
+branches in a faded, greyed-out, or dotted-outline style rather than
+omitting them, so the reader can see at a glance which part of the shared
+tree each panel is about. In Panel 4, both outcomes(はい/いいえ)of the
+third diamond node(「公証人等の認証の有無」)must be drawn in full color,
+each ending in its own dedicated conclusion node, with no arrow looping
+back to an earlier node, since both outcomes matter for understanding why
+a bare signature alone is not enough for a 委任状. Panels 3(肢ウ)and 5(肢オ)
+share a separate decision tree for 添付図面(root diamond:「申請人欄か作成者
+欄か」→ if 作成者欄, a second diamond「署名か記名押印か」); again highlight
+only the branch relevant to each panel and render the rest faded,
+greyed-out, or dotted-outline. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that state
+the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成19年度午前第15問 ア〜オ
+作図ガイド(押印の要否)
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+記名だけの委任状は押印が必要
+Diagram: An isometric 委任状(delegation document)on a desk with a
+printed/typed name label「申請人　Ａ」(no handwritten mark). Below it, a
+decision flowchart: a root diamond node (drawn with a thick highlighted
+border since this panel is about this branch) labeled「記名か署名か」with
+a thick highlighted「記名」branch arrow leading to a highlighted
+conclusion node「押印が必要(原則どおり)」, illustrated with a red arrow
+pointing to an empty round hanko-seal impression outline and a red stamp
+reading「押印必要」pressed onto the document. The「署名」branch (used by
+Panels 2 and 4) proceeds to a faded, greyed-out, dotted-outline second
+diamond node labeled「申請書の代理人署名か、委任状の本人署名か」and, beneath
+its 委任状 branch, a further faded third diamond node labeled「公証人等の
+認証の有無」with two faded leaf conclusions — these are not expanded in
+this panel.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、委任状が「記名」なのか「署名」なのかを確認します。次に、署名と公証
+人の認証という押印不要の例外に当てはまるかを確認しますが、アは記名にと
+どまり例外にも当たらないため、原則どおり押印が必要です。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+記名なら押印必要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft blue containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+代理人が署名すれば申請書は足りる
+Diagram: An isometric 申請書(application document)where a land surveyor
+(土地家屋調査士、委任による代理人)signs the document by hand with a pen
+(署名). The same root diamond node as Panel 1 labeled「記名か署名か」, this
+time with the「署名」branch rendered thick and highlighted, leading down
+to a second diamond node (also thick and highlighted) labeled「申請書の
+代理人署名か、委任状の本人署名か」with the「申請書に代理人が署名」branch
+highlighted, leading to a highlighted conclusion node「押印不要(規則47条
+1号)」, illustrated with a green checkmark stamp reading「押印不要」and a
+small hanko-seal icon with a red X mark over it. The「記名」branch (used
+by Panel 1) and the「委任状に本人が署名」branch together with its 公証人認証
+の有無 sub-diamond (used by Panel 4) are rendered faded, greyed-out,
+dotted-outline.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、書面が申請書か委任状かを確認し、次に誰が署名しているかを確認しま
+す。委任による代理人が申請書に自ら署名していれば、不動産登記規則47条1
+号により押印は不要です。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+代理人の署名で足りる
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft green containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+図面の申請人欄はそもそも押印対象外
+Diagram: An isometric building floor plan (建物図面) with two labeled
+boxes: a small name-tag box reading「申請人　Ａ」printed (not signed), and
+a separate「作成者」signature box beside it. Below the illustration, a
+decision flowchart: a root diamond node (drawn with a thick highlighted
+border since this panel is about this branch) labeled「申請人欄か作成者
+欄か」with a thick highlighted「申請人欄」branch leading to a highlighted
+conclusion node「記名のみで足りる(押印を求める規定なし)」, illustrated with
+a green checkmark stamp and a small hanko-seal icon with a red X mark
+over it next to the name-tag box, plus a small label「押印の対象外」. The
+「作成者欄」branch (used by Panel 5) and its underlying second diamond node
+(「署名か記名押印か」with its two leaf conclusions) are rendered faded,
+greyed-out, dotted-outline.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その欄が申請人欄なのか作成者欄なのかを確認します。添付図面の申請
+人欄は、不動産登記規則74条2項により記名するだけで足り、押印そのものを
+求める規定がありません。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+申請人は記名のみ
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+委任状は署名と認証がそろえば足りる
+Diagram: An isometric 委任状(delegation document)signed by hand by the
+applicant(申請人本人), next to a notary public(公証人)stamping an
+official「認証」seal onto the document. The same root diamond node as
+Panels 1 and 2 labeled「記名か署名か」, with the「署名」branch highlighted,
+leading to the same second diamond node as Panel 2 labeled「申請書の代理
+人署名か、委任状の本人署名か」, this time with the「委任状に本人が署名」
+branch highlighted, leading to a third diamond node (drawn with a thick
+highlighted border since this panel is about this exact branch) labeled
+「公証人等の認証を受けているか」. Both outcomes of this diamond are drawn in
+full color, not faded, since both matter for this 肢: the「はい」branch
+leads to a highlighted conclusion node「押印不要(規則49条1項1号)」
+illustrated with a green checkmark stamp and a crossed-out hanko-seal
+icon, and the「いいえ」branch leads to a separate highlighted conclusion
+node「押印必要(原則に戻る)」illustrated with a red hanko-seal stamp,
+showing that a signature alone, without notary authentication, is not
+enough for a 委任状. Do not draw any arrow looping back to an earlier
+node — each branch of this diamond must end in its own conclusion node.
+The「記名」branch (used by Panel 1) and the「申請書に代理人が署名」branch
+(used by Panel 2) are rendered faded, greyed-out, dotted-outline.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、委任状が「署名」によるものかを確認し、次に公証人等の認証を受けて
+いるかを確認します。両方がそろって初めて、不動産登記規則49条1項1号に
+より押印は不要になります。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+認証があれば足りる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft green containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+作成者は署名を選べば押印不要
+Diagram: An isometric 地積測量図(land survey diagram)with a land surveyor
+(作成者)signing the 作成者 signature box by hand with a pen. The same
+root diamond node as Panel 3 labeled「申請人欄か作成者欄か」, this time
+with the「作成者欄」branch rendered thick and highlighted, leading to a
+second diamond node (also thick and highlighted) labeled「署名か記名押印
+か」with the「署名」branch highlighted, leading to a highlighted
+conclusion node「押印不要(署名で足りる)」, illustrated with a green
+checkmark stamp and a small hanko-seal icon with a red X mark over it.
+The faded「記名押印」branch leads to a faded conclusion node「押印あり
+(選択どおり)」, showing this is simply the other option the 作成者 could
+have chosen, not a wrong answer. The「申請人欄」branch (used by Panel 3)
+is rendered faded, greyed-out, dotted-outline.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その欄が申請人欄なのか作成者欄なのかを確認します。作成者欄は署名
+と記名押印のどちらかを選べるため、署名を選んでいれば重ねて押印する必要
+はありません。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+作成者は署名でも可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠:不動産登記令16条1項・18条1項(ア・イ・エ)、不動産登記規則47条
+1号(イ)・49条1項1号(エ)・74条2項(ウ・オ)。判例・先例番号は省略。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 押・印・委・任・状・署・名・証・認・図・
+面・作・成・者・請・登・記・規・則・項・号・原・択・動・産・確・書. If any
+character renders
+as a Simplified or Traditional Chinese variant, redraw that character in
+the correct Japanese form. Also scan the entire canvas for any character
+that is not standard Japanese hiragana, katakana, or Jōyō kanji —
+including any Chinese-only character, Korean Hangul, other non-Japanese
+script, or stray decorative glyph — and remove or redraw it so that only
+standard Japanese text appears anywhere in the image. Confirm the panel
+count equals 5 exactly, badge numbers run 1-5 continuously, there is no
+intro illustration or paragraph block between the header and the panels,
+that every multi-condition 肢 is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 肢 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), that any panel
+sharing a decision tree with another panel clearly distinguishes its own
+highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```
