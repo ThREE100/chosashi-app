@@ -312,3 +312,196 @@ substituted characters, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+添付情報が一律に不要となる肢（ア・イ・オ）はチェックリスト形式の図解1枚で示し、建物の種類によって所有者証明の要否が分かれる肢（ウ）は、既存の④間違いノートとは別に「まず建物の種類を確認する」という手順そのものを分岐ノードで示す決定木フローチャートとして描き、賃借権登記の有無にかかわらず同じ結論に至る肢（エ）は両方の場合を並べて同じ結論に収束させる対比図として描き分けた。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric demolished-building rubble icons,
+torn-down house-frame icons, document-folder icons, official stamp
+icons, apartment/団地 community-hall icons, leasehold land-plot icons, and
+fire-damaged building icons. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes
+with the condition written on them, Yes/No (or ○/✕) branch arrows, and a
+final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+This article's five 肢 do not share a single common decision-tree shape,
+so design each panel's diagram independently around its own fact
+pattern. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第18問 ア〜オ
+作図ガイド（建物の滅失の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+滅失登記の申請に印鑑証明書は不要
+Diagram: An isometric scene of Ａさんが自分の建物を自ら取り壊す様子を
+描く。取り壊された建物の瓦礫の横に、滅失登記の申請書類の束を置き、その
+中の「印鑑証明書」のアイコンだけに大きな赤い「✕」を付ける。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、滅失登記の申請一般に印鑑証明書が添付情報として必要かどうかを
+確認します。所有者が自ら取り壊した場合であっても、印鑑証明書の提供は
+不要であることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+印鑑証明書は不要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+建物図面が必要な登記の種類に滅失登記は含まれない
+Diagram: A checklist card labeled「建物図面が必要な登記」listing four
+items with green checkmarks:「表題登記」「所在・床面積の変更・更正登記」
+「附属建物の新築登記」「分割・区分・合併・合体の登記」. Below the
+checklist and outside its box, a separate item「滅失登記」sits with a red
+「✕」next to an isometric scene of an old building being demolished, with
+an empty file-folder icon labeled「建物図面：もともと備え付けなし」beside
+it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物図面の添付が必要とされる登記の種類（表題登記・変更/更正登記・
+附属建物の新築登記・分割等の登記）を確認します。次に、滅失登記がこの
+リストに含まれていないことを確認し、建物図面が備え付けられていなくても
+新たに添付する必要はないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+建物図面の添付不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+団地共用部分の滅失登記だけ所有者証明が必要
+Diagram: A decision-tree flowchart. Start node:「滅失登記の対象建物は、
+団地共用部分である旨の登記がある建物か？」Two branch arrows: いいえ（通常
+の建物）leading to a registry-record card clearly showing「表題部所有者：
+Ａ」or「所有権の登記名義人：Ａ」printed on it, with a conclusion node
+reading「登記記録から申請人が明らかなので、所有者を証する情報は不要」;
+はい（団地共用部分）leading to a registry-record card with the「表題部
+所有者」name field shown blank/erased and a 登記官 character stamping
+「職権抹消（不動産登記法58条4項）」over it, with a conclusion node reading
+「登記記録に所有者名がないため、所有者を証する情報が必要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、滅失登記の対象建物が団地共用部分である旨の登記がある建物かどうかを
+確認します。団地共用部分の登記記録は登記官の職権抹消によりそもそも所有
+者名が載っていないため、通常の建物とは異なり、別途「当該建物の所有者を
+証する情報」の提供が必要になることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+所有者証明が必要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+賃借権登記の有無を問わず滅失登記義務が生じる
+Diagram: Two side-by-side isometric scenes of the same 借地上の建物 being
+taken down for建替え. Left scene: a signboard reading「賃借権の設定登記：
+あり」next to the building owner. Right scene: an identical signboard
+reading「賃借権の設定登記：なし」. Both scenes converge with arrows
+pointing to the same single conclusion box showing a calendar icon
+marked「1か月以内」and a green checkmark labeled「滅失登記の申請義務あり」,
+showing that both situations lead to the identical outcome.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、借地に賃借権の設定登記があるかどうかを確認します。次に、その登記
+の有無にかかわらず、建物の滅失から1か月以内に滅失登記を申請する義務が
+生じることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記の有無を問わず義務あり
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+抵当権付き建物でも滅失登記に承諾は不要
+Diagram: An isometric scene of a fire-damaged（焼失した）building with a
+faded「抵当権」stamp still visible on its remains. Next to the demolished
+building, a submitted application document icon is shown, with a
+separate document icon labeled「抵当権者の承諾を証する情報」crossed out
+with a red「✕」beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、滅失した建物に抵当権の設定登記があるかどうかを確認します。次に、
+抵当権が設定されていても、滅失は客観的な事実にすぎないため、抵当権者の
+承諾を証する情報の提供は不要であることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+抵当権者の承諾は不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令別表17項（団地共用部分の滅失登記に必要な所有者証明情報）・
+不動産登記法57条（滅失登記の申請義務）・不動産登記法58条4項（団地共用
+部分の登記における職権抹消）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to 証・図・権・団・記・登・借・
+賃・共・滅・職. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+confirm that no character outside hiragana, katakana, Jōyō kanji, and the
+Arabic numerals explicitly used above appears anywhere in the image — no
+Latin letters, no other non-Japanese scripts. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢（肢ウ）is drawn as an actual flowchart with
+branch nodes (not a bare illustration with no visible decision
+structure), that no 肢 with a genuinely hidden second condition has been
+flattened into a single check, that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element
+from the source article distinct, confirm nothing is rendered below the
+last panel's footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

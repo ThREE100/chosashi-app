@@ -206,3 +206,206 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+肢ア・イは「提供する情報は申請情報か添付情報か」という共通の決定木を共有し、それぞれ自分に関係する分岐だけを強調する構成にした。肢エ・オも「紙の書面をスキャンして添付情報とする場面」という共通のタイムラインを共有し、電子署名の要否（エ）と原本提示の要否（オ）という別々のチェックポイントをそれぞれ強調する。肢ウは電子証明書の送信という単独の確認事項として独立に図解した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric tablet or computer screen icons
+displaying 申請情報 or 添付情報 documents, small electronic-signature stamp
+marks, IC-card-style 電子証明書 icons, a scanner turning a paper document
+into a data-file icon, a 登記所 server icon, and envelope icons for
+information being transmitted. Where a 肢 requires checking multiple
+conditions in sequence before reaching a conclusion, draw the panel's
+diagram as an actual decision flowchart: diamond-shaped branch nodes with
+the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
+conclusion node. Where a 肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Panel 1
+(肢ア) and Panel 2 (肢イ) share one decision diagram — a start node asking
+「提供する情報は申請情報か、添付情報か」branching into a 申請情報 outcome and
+a 添付情報 outcome — render the branch relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated branch
+and its conclusion node in a faded, greyed-out, dotted-outline style.
+Panel 4 (肢エ) and Panel 5 (肢オ) share one four-step timeline of the same
+fact pattern (紙の書面をスキャンして添付情報とする場面): 紙の書面（原本）→
+スキャンして電磁的記録を作成（作成者が電子署名）→ 添付情報として提出 →
+登記官が定める期間内に原本を提示 — each panel renders the one step it is
+about with a thick highlighted border and full color, and fades the other
+steps. Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion.
+Do not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+— do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 2行):
+平成29年度午後第8問 ア〜オ
+作図ガイド（電子申請の電子署名）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+申請情報の署名は申請人等が行う
+Diagram: A decision diagram. Start node（ひし形）:「提供する情報は申請情報
+か、添付情報か」。「申請情報」への分岐は太い縁取り・フルカラーで強調し、
+タブレット画面に表示された申請情報の書類に、申請人等の人物アイコンが電子
+署名マークを付けている結論ノード「申請人等が電子署名を行う」につなげる。
+「添付情報」への分岐と、その先の結論ノード「作成者が電子署名を行う」は、
+薄いグレーの破線で縮小表示し、このパネルでは関係が薄いことを示す。紙の
+印鑑を押すスタンプのアイコンには✕マークを添え、「紙の押印は不要」である
+ことを示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、電子申請で扱う情報が申請情報か添付情報かを確認します。申請情報で
+あれば、申請人又はその代表者若しくは代理人（申請人等）が電子署名を行う
+必要があります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+申請人等が署名
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+添付情報は作成者本人の電子署名が必要
+Diagram: Panel 1と同じ決定木を再利用する。今度は「添付情報」への分岐を
+太い縁取り・フルカラーで強調し、添付情報の書類アイコン（証明情報の紙）に、
+それを作成した人物アイコンが電子署名マークを付けている結論ノード「作成者
+が電子署名を行う」につなげる。「添付情報は電子署名が行われている必要は
+ない」という誤った思い込みの吹き出しに、大きな赤い✕マークを重ねて描く。
+「申請情報」への分岐と、その先の結論ノードは薄いグレーの破線で縮小表示
+する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、電子申請で扱う情報が申請情報か添付情報かを確認します。添付情報で
+あれば、申請人等ではなく、その添付情報を作成した者が電子署名を行う必要
+があり、「添付情報には署名が不要」という思い込みは誤りです。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+作成者の署名が必須
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+署名には電子証明書を添えて送信
+Diagram: An isometric scene showing an envelope icon containing a document
+with an 電子署名マーク, paired side by side with an IC-card-style 電子証明書
+アイコン, both connected by a single arrow flowing together into a 登記所
+のサーバーアイコン. Next to this pair, a smaller faded illustration shows
+the paper-world equivalent（実印のアイコンと印鑑証明書のアイコンのペア）
+for comparison, labeled 参考.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、送信する情報に電子署名が行われているかどうかを確認します。電子
+署名が行われている場合は、次に、その署名を行った者を確認するための電子
+証明書も併せて送信されているかどうかを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+証明書とセットで送信
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+スキャンデータには作成者本人の署名が必要
+Diagram: A shared four-step timeline（紙の書面をスキャンして添付情報とする
+場面）: ①紙の書面（原本）のアイコン → ②スキャナーで読み取り電磁的記録
+（データファイル）を作成する様子、その作成者の人物アイコンが電子署名マーク
+を付ける → ③添付情報として登記所へ提出 → ④登記官が定める期間内に原本を
+提示。このパネルでは②のステップを太い縁取り・フルカラーで強調し、①③④
+のステップは薄いグレーの破線で縮小表示する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、添付情報が紙の書面をスキャンした電磁的記録かどうかを確認します。
+該当する場合は、次に、その電磁的記録を作成した者による電子署名が行われ
+ているかどうかを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+作成者の署名が必要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+スキャンしても原本提示の義務は残る
+Diagram: Panel 4と同じ四段階のタイムラインを再利用する。今度は①紙の書面
+（原本）と④登記官が定める期間内の原本提示のステップを太い縁取り・フル
+カラーで強調し、両者を直接結ぶ矢印を描き加える。②③のスキャン・署名・
+提出のステップは薄いグレーの破線で縮小表示する。「電子データにしたので
+提示不要」という吹き出しに、大きな赤い✕マークを重ねて描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、添付情報が紙の書面をスキャンした電磁的記録であるかどうかを確認し
+ます。該当する場合は、次に、その元となった書面（原本）を登記官が定める
+期間内に提示する必要があるかどうかを確認し、電子データにしたことは原本
+提示の義務を免除しないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+原本提示は省略不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令12条1項（申請情報の電子署名）・12条2項（添付情報の電子署名）
+・14条（電子証明書の送信）・13条1項（電磁的記録作成者の電子署名）・
+13条2項（原本の提示）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to 電・子・署・名・情・報・添・付
+・証・明・書・作・成・者・記・録・原・本・示・提・送. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also confirm that no character
+outside hiragana, katakana, Jōyō kanji, and the Arabic numerals explicitly
+used above appears anywhere in the image — no Latin letters, no other
+non-Japanese scripts. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or paragraph
+block between the header and the panels, that every multi-condition 肢 is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that no 肢 with a genuinely hidden
+second condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct, confirm nothing
+is rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
