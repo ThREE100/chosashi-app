@@ -318,22 +318,31 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 関係土地の所有者が主張する線は記載しなくても申請できる
-Diagram: A correct-vs-mistaken comparison diagram with two stacked
-frames. Top frame, drawn with a large red ✕ and a strike-through line
-over its text, labeled 誤りやすい思い込み: an application-form icon with a
-label reading 関係土地の所有者が主張する線は必ず記載しなければならない.
-Bottom frame, drawn with a green ○ and a thick highlighted border,
-labeled 正しいルール: the same application-form icon, with two optional
-entry slots drawn in dotted outline, one labeled 申請人が主張する筆界線,
-and the other labeled 申請人以外の所有者等が主張する線; both slots carry a
-small tag reading 記載することができる（任意的記載事項）. Beside the
-bottom frame, a small ○ stamp reading 記載がなくても却下されない. Inside
-the top frame, circle the words しなければならない in red to show the
-exact phrase to look for in the problem text.
+Diagram: An actual decision flowchart, drawn top to bottom, not a static
+comparison layout. Start node (rounded rectangle): a small
+application-form icon labeled 問題文の主張：関係土地の所有者が主張する線
+を、その線を申請情報の内容としなければならない. An arrow leads straight
+down to a diamond-shaped branch node labeled 規則207条3項6号は、この線
+を義務的記載事項と定めているか、それとも任意的記載事項と定めているか？
+From this diamond, two branch arrows: (1) a LEFT branch labeled はい
+（義務的記載事項）leading to a small faded, grayed-out, dotted-outline
+box with a red ✕ stamped on it, labeled 規則の実際の文言とは異なる（誤っ
+た前提）— this branch represents the reader's likely wrong assumption,
+not a real legal outcome, so render it visually muted; (2) a RIGHT branch
+labeled いいえ、任意的記載事項である（規則207条3項柱書「記載することが
+できる」）drawn with a thick highlighted border and a green ○ stamp,
+leading down to a final conclusion node (rounded rectangle, glowing):
+関係土地の所有者が主張する線は、記載してもしなくても申請は却下されない
+。Both branch arrows must reach their own distinct terminal box — do not
+let either arrow loop back to an earlier node. Beside the flowchart, add
+a small separate reference note (visually set apart, not part of the
+main flow) reading 参考：申請人自身が主張する筆界線（同項5号）も同じく
+任意的記載事項.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、問題文の「しなければならない」という語尾に注目します。次に、関係
-土地の所有者等が主張する線は、申請情報の内容とすることができる任意的
-記載事項にとどまり、記載が義務ではないことと照らし合わせます。
+まず、規則207条3項6号が、関係土地の所有者等が主張する線をどのように
+定めているか（義務的記載事項か、任意的記載事項か）を確認します。次に、
+同項柱書の「記載することができる」という文言から、これが任意的記載事項
+にとどまり、記載がなくても申請は却下されないと判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 記載義務なし
@@ -427,11 +436,13 @@ Hangul, other non-Japanese script, or stray decorative glyph — and remove
 or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢 (panels 3 and 5)
-is drawn as an actual flowchart with branch nodes (not a bare
-illustration with no visible decision structure), that both the はい and
-いいえ outcomes of each branch node in panels 3 and 5 end at their own
-conclusion nodes with no loop arrow back to an earlier node, that no 肢
+the header and the panels, that every multi-condition 肢 (panels 2, 3,
+and 5) is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that both branch
+outcomes of each diamond node in panels 2, 3, and 5 end at their own
+conclusion nodes with no loop arrow back to an earlier node, and that
+panel 2's はい branch (the mistaken assumption) is rendered visually
+muted/faded with a ✕ rather than as an equally valid outcome, that no 肢
 with a genuinely hidden second condition has been flattened into a
 single check, that each 着眼点 callout states a checking order rather
 than only a conclusion and keeps every required element from the source
