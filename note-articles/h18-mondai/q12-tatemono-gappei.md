@@ -222,7 +222,7 @@ tag, at a glance — confirm nothing is rendered below the last card (no summary
 
 ---
 
-## インフォグラフィック プロンプト（1〜5 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -296,12 +296,12 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成18年度午後第12問 1〜5 作図ガイド（建物の合併の登記）
+平成18年度午後第12問 作図ガイド（建物の合併の登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢1） ---
+--- PANEL 1（肢ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -318,7 +318,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有権登記なし × 合併不可
 
---- PANEL 2（肢2） ---
+--- PANEL 2（肢イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 接続の要否は合併の類型で分かれる
@@ -342,7 +342,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 主従関係があれば接続不要
 
---- PANEL 3（肢3） ---
+--- PANEL 3（肢ウ） ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 抵当権者の承諾だけでは例外にあたらない
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 承諾書だけでは不可
 
---- PANEL 4（肢4） ---
+--- PANEL 4（肢エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 共有者全員でなければ申請できない
@@ -392,7 +392,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 共有者全員で申請
 
---- PANEL 5（肢5） ---
+--- PANEL 5（肢オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 同じ一棟でも共用部分の登記は合併不可

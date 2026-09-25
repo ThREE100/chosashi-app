@@ -221,7 +221,7 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 
-## インフォグラフィック プロンプト（1〜5 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 本問は「ア〜オ」ではなく「1〜5」の5つの記述そのものが選択肢になっている形式のため、パネルの表記も本文の見出し（### 1：〜、### 2：〜…）にあわせて「肢1」〜「肢5」とした。5つの記述すべてが「①法令が特別に代位を認める規定があるか→②なければ、代位しなければ自己の権利が保全されないという関係があるか」という同一の2段階の決定木を共有するため、この共有木を雛形として使い回し、各パネルは自分に関係する分岐だけを太い縁取り・実色で強調し、関係しない分岐は薄いグレーで縮小表示する構成にした。
 
@@ -303,7 +303,7 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成18年度午後第8問 1〜5 作図ガイド（代位による登記）
+平成18年度午後第8問 作図ガイド（代位による登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

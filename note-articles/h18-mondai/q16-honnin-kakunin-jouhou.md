@@ -231,7 +231,7 @@ tag, at a glance — confirm nothing is rendered below the last card (no summary
 
 ---
 
-## インフォグラフィック プロンプト（1〜5 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「何を、どの順番で確認すればよいか」を肢ごとに示す作図ガイド。②の結論ポスターとは別に、ア〜オ5肢それぞれについて、確認の手順そのものを可視化する5パネル構成。本問は教授と学生の対話形式で出題されているが、各パネルは対話の枠組みではなく、その背後にある本人確認情報のルールそのものを図解する。
 
@@ -308,12 +308,12 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成18年度 午後の部 第16問 1〜5 作図ガイド（資格者代理人の本人確認情報）
+平成18年度 午後の部 第16問 作図ガイド（資格者代理人の本人確認情報）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢1） ---
+--- PANEL 1（肢ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -340,7 +340,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 面識なしは書類内容明記
 
---- PANEL 2（肢2） ---
+--- PANEL 2（肢イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 1か月前の代理は面識の要件外
@@ -371,7 +371,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 1か月では面識該当せず
 
---- PANEL 3（肢3） ---
+--- PANEL 3（肢ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 面談の日時・場所・状況を記録する
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 日時場所状況を明記
 
---- PANEL 4（肢4） ---
+--- PANEL 4（肢エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 資格者であることを証する情報も添付
@@ -404,7 +404,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 職印証明書等を添付
 
---- PANEL 5（肢5） ---
+--- PANEL 5（肢オ） ---
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 作成者が受任した代理人自身かを確認する

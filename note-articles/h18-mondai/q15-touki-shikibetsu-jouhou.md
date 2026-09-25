@@ -239,7 +239,7 @@ read as a short heading + a short conclusion tag, at a glance — confirm nothin
 
 ---
 
-## インフォグラフィック プロンプト（1〜5 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「何を、どの順番で確認すればよいか」を肢ごとに示す作図ガイド。②の結論ポスターとは別に、ア〜オ5肢それぞれについて、確認の手順そのものを可視化する5パネル構成。本問は「正しいものは幾つあるか」という個数問題だが、パネル自体は肢ごとの確認順序を示すものであり、個数の数え方そのものは扱わない。
 
@@ -308,12 +308,12 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成18年度 午後の部 第15問 1〜5 作図ガイド（登記識別情報）
+平成18年度 午後の部 第15問 作図ガイド（登記識別情報）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢1） ---
+--- PANEL 1（肢ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -335,7 +335,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 再通知制度はなし
 
---- PANEL 2（肢2） ---
+--- PANEL 2（肢イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 名義人が1人か2人以上かを見る
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 共有なら全員分必要
 
---- PANEL 3（肢3） ---
+--- PANEL 3（肢ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 合筆対象のうち一筆を選べばよい
@@ -379,7 +379,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代表一筆の提供でよい
 
---- PANEL 4（肢4） ---
+--- PANEL 4（肢エ） ---
 Badge: a filled circle in beige containing the number 4.
 Heading (bold, ONE line):
 提供できない理由の有無を確認する
@@ -401,7 +401,7 @@ Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
 characters):
 登記官が事前通知
 
---- PANEL 5（肢5） ---
+--- PANEL 5（肢オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 合筆と分筆で通知の有無を見分ける

@@ -226,7 +226,7 @@ sentence of explanatory prose — every card's takeaway must read as a short
 heading + a short conclusion tag, at a glance.
 ```
 
-## インフォグラフィック プロンプト（1〜5 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -304,7 +304,7 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成18年度午後第1問 1〜5 作図ガイド（代理）
+平成18年度午後第1問 作図ガイド（代理）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

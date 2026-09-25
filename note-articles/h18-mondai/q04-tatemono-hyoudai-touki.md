@@ -244,7 +244,7 @@ contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（1〜5 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -331,12 +331,12 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成18年度午後第4問 1〜5 作図ガイド（建物の表題登記）
+平成18年度午後第4問 作図ガイド（建物の表題登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢1） ---
+--- PANEL 1（肢ア） ---
 Badge: a filled circle in orange containing the number 1.
 Heading (bold, ONE line):
 附属建物込みで図面は1組でよい
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 まとめて1個、図面は1組
 
---- PANEL 2（肢2） ---
+--- PANEL 2（肢イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 新築主も買主も自分の期限で申請義務
@@ -381,7 +381,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 2人とも独立して申請義務
 
---- PANEL 3（肢3） ---
+--- PANEL 3（肢ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 地目もさん橋の建物も登記を妨げない
@@ -400,7 +400,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地目も所在も問わない
 
---- PANEL 4（肢4） ---
+--- PANEL 4（肢エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 解体して別の敷地に建てれば別の建物
@@ -421,7 +421,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 滅失登記＋新規の表題登記
 
---- PANEL 5（肢5） ---
+--- PANEL 5（肢オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 持分は記録するが申請は1人でよい
