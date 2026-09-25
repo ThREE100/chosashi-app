@@ -348,15 +348,25 @@ labeled 原則は登記名義人が同一でないとみなした場合の持分
 one vertical chain, one diamond per element, and at each diamond the two
 抵当権 tags are shown side by side being compared: 確認1 登記の目的は
 同一か, then 確認2 申請の受付の年月日及び受付番号は同一か, then 確認3
-登記原因及びその日付は同一か, then 確認4 登記名義人は同一か. The はい
-arrow from each of 確認1 to 確認3 goes straight down to the next diamond,
-and the はい arrow from 確認4 ends at a highlighted conclusion node with a
-thick border labeled 持分の記載を省略できる. The いいえ arrow from every
-one of the four diamonds goes sideways to the right into one shared
-conclusion node labeled 原則どおり持分の記載が必要. Keep the four
-elements as four separate diamonds — never merge them into one node.
-Every arrow moves forward to the next diamond or to one of the two
-conclusion nodes; draw no loop arrow.
+登記原因及びその日付は同一か, then 確認4 登記名義人は同一か. Draw the
+はい and いいえ arrows explicitly at every one of the four diamonds, not
+only at some of them: at 確認1, the はい arrow goes straight down to
+確認2, and the いいえ arrow goes sideways to the right into a single
+shared conclusion node labeled 原則どおり持分の記載が必要; at 確認2, the
+はい arrow goes straight down to 確認3, and the いいえ arrow goes
+sideways to the right into that same shared conclusion node; at 確認3,
+the はい arrow goes straight down to 確認4, and the いいえ arrow goes
+sideways to the right into that same shared conclusion node; at 確認4,
+the はい arrow ends at its own highlighted conclusion node with a thick
+border labeled 持分の記載を省略できる, and the いいえ arrow ALSO goes
+sideways to the right into that same shared conclusion node labeled 原則
+どおり持分の記載が必要 — 確認4 must show its いいえ arrow explicitly,
+exactly like 確認1 through 確認3, and must not be drawn as if it only had
+a はい exit. All four いいえ arrows converge into the same single shared
+conclusion box; do not draw four separate 原則どおり持分の記載が必要
+boxes. Keep the four elements as four separate diamonds — never merge
+them into one node. Every arrow moves forward to the next diamond or to
+one of the two conclusion nodes; draw no loop arrow.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、所有権の登記名義人が同一の建物どうしの合体でも、原則として登記
 名義人が同一でないとみなした場合の持分を申請情報に記載することを確認
@@ -475,9 +485,14 @@ actual flowchart with branch nodes (not a bare illustration with no
 visible decision structure) — panels 2, 4, and 5 as decision flowcharts,
 panel 1 as a single left-to-right timeline, and panel 3 as a
 relationship diagram — that panel 2 shows the four 抵当権 elements as
-four separate diamonds rather than one merged node, that in panels 2, 4,
-and 5 both the はい side and the いいえ side end in their own conclusion
-nodes with no loop arrow back to any earlier node, that no 肢 with a
+four separate diamonds rather than one merged node, that panel 2's いいえ
+arrow is drawn explicitly at every one of the four diamonds (確認1 through
+確認4) converging into the single shared 原則どおり持分の記載が必要
+conclusion node, with none of the four いいえ arrows omitted or left
+implicit — 確認4 in particular must show its own いいえ arrow, not only
+its はい arrow — that in panels 2, 4, and 5 both the はい side and the
+いいえ side end in their own conclusion nodes with no loop arrow back to
+any earlier node, that no 肢 with a
 genuinely hidden second condition has been flattened into a single
 check, that each 着眼点 callout states a checking order rather than only
 a conclusion and keeps every required element from the source article
