@@ -115,7 +115,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -204,11 +212,231 @@ Small credit text in the corner (optional, keep minimal).
 本文カード内には記載しないこと。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
+standard Japanese (Jōyō) form, not Simplified Chinese and not
+Traditional Chinese. If any character
+renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals 5 exactly,
 with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric surveyor and registry-clerk
+characters, a rolled-up land-survey map icon (地積測量図), a triangulation-
+point icon (基本三角点等) on a hill, a utility-pole icon (近傍の恒久的な
+地物), a boundary-marker (コンクリート杭) icon with a small circled-number
+tag, an isometric land plot being split by a dashed line (分筆), and
+registry document stamps for 更正の登記 and 訂正の申出. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion
+(肢イ・肢エ・肢オ), draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No branch arrows, and a final conclusion node for BOTH
+outcomes - do not leave either branch's destination blank, and do not
+draw any arrow looping back to an earlier node. Where a 肢 is resolved by
+a single check (肢ア・肢ウ), a labeled illustrative diagram is sufficient
+- do not force a flowchart. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認しま
+す"), not just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text - do not drop or merge a required element
+(e.g. keep 地積・求積方法・筆界点間の距離・筆界点の座標値 as four distinct
+items in 肢エ, not compressed into one).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成18年度午後第9問 作図ガイド（地積測量図）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+地積測量図は3つの登記の添付情報
+Diagram: A hub-and-spoke diagram. Center: a rolled land-survey map icon
+labeled「地積測量図」held by an isometric surveyor character. Three spokes
+lead outward to three document icons labeled「表題登記」「地積の変更登記・
+更正登記」「分筆の登記」, each carrying a green checkmark stamp and
+connected to the center by a solid arrow.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、これから行う登記が土地の表題登記・地積に関する変更の登記若しくは
+更正の登記・分筆の登記のいずれかに当たるかを確認します。当てはまる場合
+は、地積測量図を添付情報として提供しなければなりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+3つの登記に添付
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+座標値は原則、基本三角点等の成果による
+Diagram: An actual decision flowchart. Diamond node (thick highlighted
+border, full color): 「近傍に基本三角点等が存しないなど、特別の事情が
+あるか」. いいえ arrow leads to a conclusion node showing an isometric
+triangulation-point icon on a hill: 「基本三角点等に基づく測量の成果によ
+る（原則）」. はい arrow leads to a second conclusion node showing a
+utility-pole icon labeled「近傍の恒久的な地物」: 「近傍の恒久的な地物に
+基づく測量の成果によることができる（例外）」, tagged「特別の事情がある
+場合のみ」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、近傍に基本三角点等が存しないなど、基本三角点等に基づく測量ができ
+ない特別の事情があるかを確認します。特別の事情がない限り、座標値は基本
+三角点等に基づく測量の成果によらなければなりません。特別の事情がある
+場合に限り、近傍の恒久的な地物に基づく測量の成果によることが認められ
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+例外は特別事情のみ
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+境界標は符号と種類をセットで記録
+Diagram: An isometric land plot corner with a boundary marker（コンクリー
+ト杭）icon at the 筆界点, a small circled-number tag「①」on that point,
+and a magnified note card beside it reading「①　コンクリート杭」, connected
+to the marker by a leader line.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界点に境界標があるかを確認します。境界標がある場合は、その境界
+標が存する筆界点に符号を付し、地積測量図の適宜の箇所にその符号及び境界
+標の種類を記録する方法（又はこれに準ずる方法）によります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+符号+種類を記録
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+広大な土地の分筆は求積方法等を省略できる
+Diagram: An actual decision flowchart. Diamond node (thick highlighted
+border, full color): 「分筆前の土地が広大な土地であって、分筆後の土地の
+一方がわずかであるなど特別の事情があるか」. いいえ arrow leads to a
+conclusion node showing an isometric large forest land plot split by a
+dashed line into two similarly-sized pieces, each with a checkmarked
+notepad listing all four items: 「分筆後のすべての土地について、地積・
+求積方法・筆界点間の距離・筆界点の座標値をすべて記録する（原則）」. はい
+arrow leads to a second conclusion node showing the same land plot split
+into a huge area and a tiny sliver: the huge area's notepad shows「地積」
+with a checkmark and「求積方法・距離・座標値」with a crossed-out mark, the
+tiny sliver's notepad shows all four items checked: 「地積は記録するが、
+求積方法・距離・座標値は省略できる（例外、地積そのものは省略不可）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆前の土地が広大な土地であって分筆後の土地の一方がわずかである
+など、特別の事情があるかを確認します。特別の事情がない限り、分筆後の
+すべての土地について地積及びその求積方法、筆界点間の距離並びに筆界点の
+座標値を記録します。特別の事情がある場合でも、地積そのものは省略でき
+ず、省略できるのは求積方法・筆界点間の距離・筆界点の座標値に限られます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地積のみ省略不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in beige containing the number 5.
+Heading (bold, ONE line):
+更正登記ができるなら訂正の申出はできない
+Diagram: An actual decision flowchart. An isometric error icon（誤りの
+ある地積測量図、赤い✕マーク）sits at the top. Diamond node (thick
+highlighted border, full color): 「その誤りについて、地積測量図を添付
+情報とする表題部の登記事項に関する更正の登記を申請できるか」. はい arrow
+leads to a document stamped「更正の登記」held by a registered-owner
+character, with a crossed-out simpler form nearby labeled「訂正の申出は
+できない」. いいえ arrow leads to a simpler form stamped「訂正の申出」held
+by the same registered-owner character, with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その誤りについて、地積測量図を添付情報とする表題部の登記事項に
+関する更正の登記を申請することができるかを確認します。更正の登記を
+申請できる場合は、その更正の登記によるべきであり、訂正の申出をすること
+はできません。更正の登記を申請できない場合に限り、表題部所有者又は
+所有権の登記名義人は、地積測量図の訂正の申出をすることができます。
+Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
+characters):
+更正登記が優先
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記令別表4項添付情報ロ・6項添付情報・8項添付情報イ（肢ア）、不動
+産登記規則77条1項8号・2項（肢イ）、同条3項・1項9号（肢ウ）、不動産登記
+事務取扱手続準則72条2項（肢エ）、不動産登記規則88条1項（肢オ）に基づく
+整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 登・記・録・筆・積・境・標・訂. If
+any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire
+canvas for any character that is not standard Japanese hiragana,
+katakana, or Jōyō kanji — including any Chinese-only character, Korean
+Hangul, other non-Japanese script, or stray decorative glyph — and remove
+or redraw it so that only standard Japanese text appears anywhere in the
+image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 (肢イ・肢エ・
+肢オ) is drawn as an actual flowchart with branch nodes for both outcomes
+(not a bare illustration with no visible decision structure and not a
+looping arrow back to an earlier node), that no 肢 with a genuinely
+hidden second condition has been flattened into a single check, that
+each 着眼点 callout states a checking order rather than only a conclusion
+and keeps every required element from the source article distinct (no
+merged or dropped requirements, e.g. 肢エ keeps 地積・求積方法・筆界点間
+の距離・筆界点の座標値 as four distinct items), confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```

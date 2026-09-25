@@ -195,3 +195,229 @@ between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
 a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a placement diagram of 甲土地・乙土地 with a
+solid a-b line labeled 筆界, locked in place with a padlock icon, and a
+dashed c-d line labeled 所有権界 that can slide, plus a handshake icon
+for 合意, a long-occupation calendar icon for 時効取得, a speech-bubble
+explanation icon for 信じた場合, a government-building icon for 官民境
+界確定協議, and a courthouse/gavel icon for 筆界確定判決.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render the
+other, unrelated branches in a faded, greyed-out, or dotted-outline style
+rather than omitting them — the reader should be able to see at a glance
+which part of the shared tree this panel is about. Likewise, where a
+diagram must show an entity that conceptually never held the right or
+status in question (e.g. someone who was never an heir, or a claim that
+never existed), render that entity or claim in a faded or dotted-outline
+style rather than a plain ○/✕ mark, so the visual itself communicates
+"this was never really there," not just "this is wrong." Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep "善意" and "無過失" as two distinct
+checks if the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成23年度午後第9問 作図ガイド（筆界と所有権界）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+合意で動くのは所有権界だけ
+Diagram: A placement diagram of 甲土地・乙土地 with a solid a-b line
+(筆界) and a dashed c-d line (所有権界), drawn as the first step of a
+shared two-step decision flowchart used across this set of 5 panels.
+First diamond node (thick highlighted border in this panel): この出来
+事（AとBの合意）は、私法上の所有権の範囲（所有権界）を動かす法的な原因
+にあたるか？with the はい branch highlighted (a handshake icon marks
+合意) proceeding downward. Second diamond node (thick highlighted
+border): その合意は、公法上の筆界まで動かす効力を持つか？with the
+いいえ branch highlighted leading to a highlighted conclusion node
+reading 所有権界だけ動き、筆界（a-b）は不動のまま, while the はい branch
+of this same node is rendered faded and dotted-outline, leading to a
+faded conclusion node reading 所有権界も筆界も動く, small-labeled 肢ア
+の主張はこちら（誤り）with a red ✕ mark next to it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、AとBの合意が、私法上の所有権の範囲（所有権界）を動かす法的な原因
+にあたるかを確認します。次に、その合意が登記時に固定された筆界まで動か
+す効力を持つかを確認し、持たないため筆界はa-bのまま残ると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+所有権界のみ動く
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+時効取得でも筆界は不動のまま
+Diagram: The same shared two-step decision flowchart shape as Panel 1,
+overlaid on the same 甲土地・乙土地 placement diagram with the solid a-b
+line and dashed c-d line. First diamond node (thick highlighted border):
+この出来事（Aの時効取得）は、所有権の範囲を動かす法的な原因にあたるか？
+with the はい branch highlighted (a long-occupation calendar icon marks
+時効取得) proceeding downward. Second diamond node (thick highlighted
+border): その時効取得は、公法上の筆界まで動かす効力を持つか？with the
+いいえ branch highlighted leading to a highlighted conclusion node
+reading 所有権界だけ動き、筆界（a-b）は不動のまま, while the faded はい
+branch leads to a faded conclusion node reading 所有権界も筆界も動く,
+labeled 肢イの主張はこちら（誤り）with a red ✕ mark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Aの時効取得が、所有権の範囲を動かす法的な原因にあたるかを確認し
+ます。次に、その時効取得が登記上の筆界まで動かす効力を持つかを確認し、
+持たないため筆界はa-bのまま残ると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+所有権界のみ動く
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+信じただけでは境界は動かない
+Diagram: The same shared decision flowchart shape, but in this panel the
+first diamond node is highlighted with its いいえ branch instead: この
+出来事（Aの説明を信じた第三者の購入）は、所有権の範囲を動かす法的な原
+因（合意や時効取得）にあたるか？with the いいえ branch highlighted
+leading directly to a highlighted conclusion node reading 所有権界も筆
+界も動かない; the second diamond node and its branches are rendered
+faded and greyed-out in the background, showing that this panel's path
+never reaches them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、境界はc-dだという説明を信じて第三者が土地を購入したという出来事
+が、所有権の範囲を動かす合意や時効取得のような法的な原因にあたるかを確
+認します。単に信じただけでは法的な原因にあたらないため、所有権界も筆界
+も動かないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+動く根拠なし
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+官民境界確定協議も所有権界だけ動く
+Diagram: The same shared two-step decision flowchart shape. First
+diamond node (thick highlighted border): この出来事（Aと国との官民境界
+確定協議）は、所有権の範囲を動かす法的な原因にあたるか？with the はい
+branch highlighted (a government-building icon marks 官民境界確定協議)
+proceeding to the second diamond node (thick highlighted border): その
+協議は、公法上の筆界まで動かす効力を持つか？with the いいえ branch
+highlighted leading to a highlighted conclusion node reading 所有権界
+（c-d）だけ動き、筆界（a-b）とのズレが残る.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、Aと国との官民境界確定協議が、所有権の範囲を動かす法的な原因にあ
+たるかを確認します。次に、その協議が公法上の筆界まで動かす効力を持つか
+を確認し、持たないため所有権界（c-d）と筆界（a-b）がズレたまま残ると判
+断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+筆界とズレうる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+判決後でも所有権界は別に合意できる
+Diagram: A courthouse/gavel icon first fixes the 筆界確定判決（筆界＝
+a-b）with a padlock icon locking the solid a-b line in place; then the
+same shared two-step decision flowchart continues. First diamond node
+(thick highlighted border): この出来事（判決後のAB間の新たな合意）は、
+所有権の範囲を動かす法的な原因にあたるか？with the はい branch
+highlighted (a handshake icon marks AとBの合意) proceeding to the second
+diamond node (thick highlighted border): その合意は、既に判決で確定し
+た筆界まで動かす効力を持つか？with the いいえ branch highlighted leading
+to a highlighted conclusion node reading 所有権界（c-d）だけ動き、筆界は
+判決どおりa-bのまま.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界をa-bとする確定判決があっても、その判決は公法上の筆界を確定
+させるだけであることを確認します。次に、AとBが所有権界をc-dとする合意
+をすることが、その判決によって妨げられないかを確認し、妨げられないため
+所有権界は判決後でも別に合意できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+別に合意できる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法123条1号（筆界の意義）に基づく整理です。国有財産法上の官民
+境界確定協議（肢エ）は、条文番号までは特定していません。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 筆・権・確・協・拠. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

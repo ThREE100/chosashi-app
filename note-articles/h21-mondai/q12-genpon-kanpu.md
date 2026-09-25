@@ -207,3 +207,253 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「この書面は還付できるか」をどの順番で確認すればよいかを、肢ごとに思考の手順として示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。5パネル、portrait 1080×2600px。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric paper documents, sealed envelopes,
+disposal/shred boxes, office in-trays, return arrows, diamond-shaped
+decision nodes, ○/✕ branch marks, and a land-plot icon for the 筆界特定
+panel. Where a 肢 requires checking multiple conditions in sequence
+before reaching a conclusion, draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. Panels 1, 2 and 4
+share a single decision tree (a two-step "この書面は還付できるか"
+判定ツリー: Step 1 asks whether the document is a 申請専用書面, and Step
+2 asks whether it is one of the specifically enumerated 印鑑証明書
+types) — in each of these three panels, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render
+the other, unrelated branches and nodes in a faded, greyed-out, or
+dotted-outline style rather than omitting them, so the reader can see at
+a glance which part of the shared tree this panel is about. Panel 3 does
+NOT use this shared tree at all — the 登記識別情報通知書 is governed by a
+separate discard rule, not the 55条1項ただし書 exception, so draw it as
+its own independent labeled diagram with no decision node. Panel 5 has
+its own independent single-node decision tree based on the parallel but
+textually distinct 213条1項 rule for 筆界特定 attachments; do not draw it
+as sharing the Panel 1/2/4 tree. Where a flowchart branch node has two
+outcomes that are both real conclusions, draw BOTH outcomes as separate
+conclusion nodes, and never draw any loop arrow that returns from a
+branch node back to an earlier node — every branch must end at its own
+new conclusion node. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element
+(e.g. keep "申請専用書面かどうか" and "個別に列挙された印鑑証明書かどうか"
+as two distinct checkpoints for panel 4, and do not blend panel 3's
+discard rule into the 55条1項ただし書 exception tree).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第12問 作図ガイド（添付書面の原本還付）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in orange containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+更正の承諾書は申請専用書面だから還付不可
+Diagram: A decision flowchart, drawn top to bottom, with a small
+illustrative sketch at the top: an isometric paper document labeled
+承諾書 with a corner stamp reading 更正, sitting in a registry office
+in-tray. Step 1 (diamond node), drawn with a thick highlighted border:
+当該申請のためにのみ作成された書面か. Its はい (○) branch, drawn in full
+color, leads to its own conclusion node: 還付できない（規則55条1項ただし
+書）, shown with a return arrow struck through by a large red ✕. Its
+いいえ (✕) branch, together with the entire Step 2 diamond node
+（印鑑証明書の限定列挙に当たるか）and both of its onward branches, is
+rendered as a faded, greyed-out, dotted-outline stub with no separate
+conclusion drawn, since this 肢 never reaches that question. Both drawn
+conclusion nodes are end points; draw no arrow returning upward from
+either of them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この承諾書が当該登記の申請のためにのみ作成された書面かを確認しま
+す。専用の書面にあたるため、それだけで原本の還付を請求することはできな
+いと判断します。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+還付できない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in orange containing the number 2.
+Heading (bold, ONE line):
+合体の承諾書も申請専用書面で還付不可
+Diagram: The same shared decision tree as panel 1, drawn top to bottom,
+with a different illustrative sketch at the top: two isometric buildings
+joined by a merge arrow labeled 合体, with a bank-like figure labeled
+抵当権者 holding a document labeled 承諾書. Step 1 (diamond node), drawn
+with a thick highlighted border: 当該申請のためにのみ作成された書面か.
+Its はい (○) branch, in full color, leads to its own conclusion node:
+還付できない（規則55条1項ただし書）, shown with a return arrow struck
+through by a large red ✕. Its いいえ (✕) branch and the entire Step 2
+diamond node（印鑑証明書の限定列挙に当たるか）and its onward branches are
+rendered as a faded, greyed-out, dotted-outline stub, since this 肢 never
+reaches that question. The drawn conclusion node is an end point; draw no
+arrow returning upward from it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この承諾書が合体の登記の申請のためにのみ作成された書面かを確認し
+ます。専用の書面にあたるため、原本の還付を請求することはできないと判断
+します。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+還付できない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+登記識別情報通知書は還付ではなく廃棄される
+Diagram: A labeled illustrative diagram (not a flowchart, since this is
+resolved by one check and does not use the shared 55条1項ただし書
+tree). An isometric sealed envelope labeled 登記識別情報通知書 is shown
+being provided as the method of providing 登記識別情報（規則66条1項2号）,
+then an arrow leads it into a disposal box labeled 登記完了後に廃棄
+（規則69条1項）. A return arrow from the disposal box back toward an
+applicant figure is struck through with a large red ✕, with a small tag
+reading 還付という制度の対象外.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記識別情報を提供する方法として通知書の原本を添付しているかを確
+認します。この書面は登記完了後に登記官が廃棄するものなので、そもそも還
+付を請求する対象にならないと判断します。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+還付ではなく廃棄
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+会社代表者の印鑑証明書は限定列挙に当たらず還付できる
+Diagram: The same shared decision tree as panels 1-2, drawn top to
+bottom, with a different illustrative sketch at the top: an isometric
+document labeled 工事完了引渡証明書 with a smaller certificate clipped to
+it labeled 印鑑証明書（工事施工会社の代表者）. Step 1 (diamond node):
+当該申請のためにのみ作成された書面か. Its はい (○) branch and the
+conclusion node it would lead to（還付できない）are rendered as a faded,
+greyed-out, dotted-outline stub, since this 肢 does not take that
+branch. Its いいえ (✕) branch, drawn with a thick highlighted border,
+leads to Step 2 (diamond node), also drawn with a thick highlighted
+border: 規則55条1項ただし書が個別に列挙する印鑑証明書（令16条2項・18条2
+項・19条2項、規則48条3号・49条2項3号・156条の6第2項）に当たるか. Its
+はい (○) branch and the conclusion node it would lead to（還付できない）
+are rendered as a faded, greyed-out, dotted-outline stub, since this 肢
+does not take that branch either. Its いいえ (✕) branch, in full color,
+leads to its own conclusion node: 還付できる（原則どおり）, shown with a
+green arrow carrying the 原本 back into an applicant figure's hands
+while a separate sheet labeled 写し stays on the counter. All drawn
+conclusion nodes are end points; draw no arrow returning upward from any
+of them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この印鑑証明書が申請のためにのみ作成された書面かを確認し、次に、
+規則55条1項ただし書が個別に列挙する印鑑証明書に当たるかを確認します。
+いずれにも当たらないため、原本の還付を請求できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+原則どおり還付できる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+筆界特定の添付書面も専用書面以外は還付できる
+Diagram: A decision flowchart, drawn top to bottom, independent from the
+tree used in panels 1, 2 and 4 (this panel is governed by 規則213条1項,
+a parallel but textually distinct rule for 筆界特定 attachments, not by
+55条1項). A small illustrative sketch at the top: an isometric counter
+with a sign labeled 筆界特定 and a bundle of documents labeled 添付書面
+（登記事項証明書・測量図の写し等）. Step 1 (diamond node), drawn with a
+thick highlighted border: 当該筆界特定の申請のためにのみ作成された委任状
+その他の書面か. Its はい (○) branch, in full color, leads to its own
+conclusion node: 還付できない, shown with a single sheet labeled 委任状
+carrying a small red ✕ left on the counter. Its いいえ (✕) branch, also
+in full color (since this 肢's 添付書面 is not such a専用書面), leads to
+its own separate conclusion node: 原則どおり還付できる, shown with the
+添付書面 bundle traveling back to an applicant figure along a green
+arrow with a ✓ mark. Both conclusion nodes are end points; draw no arrow
+returning upward from either of them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この添付書面が当該筆界特定の申請のためにのみ作成された委任状その
+他の書面かを確認します。それに当たらなければ、原則どおり原本の還付を請
+求できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+原則として還付できる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則55条1項・66条1項2号・69条1項・213条1項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 還・付・書・面・証・登・記・廃・棄・
+筆・界・特・定・請・委・任. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+panels 1, 2 and 4 clearly distinguish their own highlighted branch of the
+shared tree from the other, faded branches, that panel 3 is drawn as its
+own independent diagram with no decision node borrowed from the shared
+tree, that panel 5 is drawn as its own independent single-node tree and
+not merged with the panel 1/2/4 tree, that both outcomes of panel 5's
+branch node end at their own conclusion nodes with no loop arrow back to
+an earlier node, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

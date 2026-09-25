@@ -196,3 +196,197 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster. Every panel illustrates the CURRENT
+law only (懲戒権者は法務大臣に一元化された現行法); do not depict or
+reference the pre-reform rule under which 法務局又は地方法務局の長 held
+these powers.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric 法務大臣のキャラクター, a 調査士
+のキャラクター, an 官報(official gazette) icon, a 聴聞会場(hearing room)
+icon, a 調査士法人の本店・支店(main and branch office) building pair, and
+a 一般市民のキャラクター holding a 通知書. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node for each branch that has a genuine, distinct
+real-world conclusion. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Do not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body
+text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成20年度午後第20問 作図ガイド（土地家屋調査士に対する懲戒）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft blue containing the number 1.
+Heading (bold, ONE line):
+処分の軽重にかかわらず官報公告は必須
+Diagram: A relationship/convergence diagram: three isometric process-type
+icons in a row — a document icon labeled「戒告」, a stamp icon labeled
+「業務停止」, and a seal icon labeled「業務禁止」— each connected by an
+arrow to a single isometric 法務大臣のキャラクター, who then places an
+official 公告 stamp on an 官報(official gazette) icon; all three arrows
+converge on the same 官報 icon with a green ✓ next to it, showing that
+every severity level leads to the same public-notice outcome.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その処分が戒告・業務停止・業務禁止のどれであるかを確認します。次
+に、処分の軽重にかかわらず、官報公告を行うかどうかについて例外があるかを
+確認すると、どの処分でも公告は必ず行われます。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+軽重問わず公告必須
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft blue containing the number 2.
+Heading (bold, ONE line):
+公開の請求があれば聴聞は公開になる
+Diagram: Draw as an actual decision flowchart: a start box labeled「聴聞
+の期日における審理」leading into a diamond node labeled「対象者から公開
+の請求があったか」；a「はい」arrow leads to a conclusion node labeled
+「聴聞は公開で行う」；a「いいえ」arrow leads to a separate conclusion node
+labeled「聴聞は原則どおり非公開で行う」。Add a small isometric icon of a
+調査士のキャラクター raising a hand with a speech bubble「公開でお願いし
+ます」near the diamond node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、懲戒の対象となる調査士又は調査士法人から、公開による審理を求める請
+求があったかどうかを確認します。請求があれば聴聞は公開で行い、請求がなけ
+れば原則どおり非公開で行います。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+請求で公開に切替
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft blue containing the number 3.
+Heading (bold, ONE line):
+聴聞は停止期間の長短で省略できない
+Diagram: A LEFT/RIGHT comparison diagram（誤りやすい思い込み vs 正しいルー
+ル）: LEFT side labeled「よくある思い込み」shows a short calendar icon
+labeled「業務停止1か月以内」with an arrow pointing to a聴聞会場のアイコン
+crossed out with a red ✕ and the label「聴聞は不要」, the whole LEFT
+panel overlaid with a red strike-through line; RIGHT side labeled「正し
+いルール」shows both a short calendar icon「業務停止1か月以内」and a long
+calendar icon「業務停止1か月超」, each with an arrow pointing to the same
+聴聞会場のアイコン with a green ✓ and the label「聴聞は必要」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、業務停止の期間が1か月以内かどうかを確認します。期間の長短にかかわ
+らず、聴聞を行う必要があるかどうかという結論は変わらず、常に聴聞が必要で
+す。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+期間問わず聴聞必要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft blue containing the number 4.
+Heading (bold, ONE line):
+業務停止は違反に関係する事務所の範囲で行う
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+調査士法人の本店 building and a separate 従たる事務所(支店) building
+connected by a company-structure line; a red 違反マーク is placed only on
+the 支店 building; an arrow from 法務大臣のキャラクター points a 業務停止
+のスタンプ only at the 支店, while the 本店 is left unstamped, with a small
+label「全部又は一部の範囲で判断」above both buildings.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、法令違反が調査士法人のどの事務所に関するものかを確認します。業務停
+止の処分は、違反の内容・程度に応じて範囲が判断されるため、違反と無関係な
+事務所まで一律に処分する必要はありません。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+違反範囲で判断
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft blue containing the number 5.
+Heading (bold, ONE line):
+違反の通知先は法務局長ではなく法務大臣
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+一般市民のキャラクター holding a document labeled「通知」, standing between
+two buildings — one labeled「法務局又は地方法務局の長」with a red ✕ over
+the doorway, and another labeled「法務大臣」with the市民のキャラクター
+walking through its open doorway to hand over the 通知の書類, with a
+green ✓ next to it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、違反の事実があると思料する人が、その事実をどの機関に通知すべきかを
+確認します。通知先は法務大臣であり、管轄の法務局又は地方法務局の長に通知
+しても、条文どおりの手続にはなりません。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+通知先は法務大臣
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+土地家屋調査士法42条・43条1項・44条1項〜5項・46条(令和2年8月1日施行の懲
+戒権者一元化後の現行法)に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 務・聴・聞・請・違・関・範・囲. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that Panel 2 is drawn as an actual flowchart
+with a diamond node and two distinct conclusion nodes, that Panel 3 is
+drawn as a LEFT/RIGHT comparison of the mistaken intuition versus the
+correct rule rather than a flowchart, that Panels 1・4・5 are simple
+labeled diagrams without a forced flowchart, that each 着眼点 callout
+states a checking order rather than only a conclusion, that no panel
+depicts or labels 法務局又は地方法務局の長 as holding any of these powers
+(the pre-reform rule is out of scope for this poster), confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

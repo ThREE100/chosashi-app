@@ -225,3 +225,248 @@ immediately after the last card), and confirm the entire canvas, edge to
 edge, is filled with a fully opaque background with no transparency or
 alpha channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a memorial-tablet icon with two child figures
+labeled 「B」and「C」for 相続人の単独申請の可否, an isometric house with a
+bank/mortgage plaque icon being demolished for 抵当権者の承諾の要否, a
+hand pressing a personal seal onto a 委任状 document for 印鑑証明書の要否,
+a small warehouse being disassembled and rebuilt on the same plot
+contrasted with an intact house pulled on skids for 曳行移転と解体移転の
+違い, and a two-unit apartment building labeled「甲」「乙」with the 甲 unit
+collapsed for 区分建物の一部滅失時の変更登記義務の有無. Since the 5 肢 in
+this problem are five independent, unrelated rules about the building 滅失
+(extinction) registration's申請人・添付情報 rather than variations on one
+shared fact pattern, draw them as five separate diagrams rather than
+highlighting branches of one shared tree shape. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion
+(肢ア・肢イ・肢ウ), draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node for
+both the はい and いいえ sides wherever both results carry real meaning
+(肢イ: whether the building has a 共用部分である旨の登記, and 肢ウ: whether
+the applicant falls under the 規則47条3号 category, both matter and must
+each show their own conclusion, with no looping arrow back into the
+flowchart). Where a 肢 turns on distinguishing two different scenes that
+are easy to confuse (肢エ: 曳行移転 vs 解体移転), draw it as a two-side
+contrast panel with one side highlighted in full color (the scene this
+問題 actually asks about) and the other side shown only as a labeled
+reference. Where a 肢 turns on a common misconception about whether a
+provision imposes an obligation (肢オ), draw it as a two-side contrast
+panel: a faded/crossed-out「誤った思い込み」side and a highlighted
+「正しい理解」side, rather than a plain single illustration. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element (e.g. keep 相続登記の先後と相続人全員の同意の
+要否 as two distinct checks in 肢ア, and keep 抵当権の有無と共用部分登記の
+有無 as two distinct checks in 肢イ).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成19年度午前第18問 作図ガイド（建物の滅失の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+相続登記前でも一般承継人が単独申請
+Diagram: A decision-flowchart drawn beside an isometric scene: a small
+memorial-tablet icon (亡くなった所有権登記名義人) with two adult child
+figures labeled 「B」(建物を取り壊した相続人)と「C」(申請しようとする他の
+相続人). First diamond node: 相続登記(所有権移転登記)を経る前か？with はい
+leading down and a small side note 経ていなくても結論には影響しない, and
+いいえ also merging into the same downward path to show the answer to this
+question does not change the outcome. Second diamond node (drawn with a
+thicker highlighted border, since this is the肢の核心): Cが単独で申請する
+には相続人B・C全員の同意が必要か？with いいえ leading to a green checkmark
+conclusion node reading Cは一般承継人として単独で滅失登記を申請できる, and
+はい crossed out with a large red ✕ and labeled 誤った思い込み to show
+that full agreement is not actually required. No arrow loops back into
+the flowchart from either conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、相続登記(所有権移転登記)を経ているかどうかを確認しますが、この点は
+結論を左右しません。次に、相続人全員の同意が必要かを確認し、一般承継人で
+あれば単独で申請できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一般承継人が単独申請
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+抵当権者の承諾書は添付不要
+Diagram: A decision-flowchart drawn over an isometric house icon with a
+bank/mortgage plaque (抵当権) attached, being demolished by a wrecking
+ball. First diamond node: 建物に抵当権が設定されているか？with はい
+leading down (この問題の前提、この点自体は結論を左右しないと横に小さく
+注記). Second diamond node (drawn with a thicker highlighted border, since
+this is the肢の核心): 共用部分である旨の登記または団地共用部分である旨の
+登記がある建物か？with いいえ leading to a green checkmark conclusion node
+reading 通常の建物は抵当権者の承諾を証する情報の添付は不要, and はい
+leading to a separate faded conclusion node reading 共用部分登記がある
+建物は所有者を証する情報の添付が必要(この問題の建物には該当しない). No
+arrow loops back into the flowchart from either conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物に抵当権が設定されているかを確認しますが、この点自体は結論を
+左右しません。次に、共用部分である旨の登記がある特殊な建物かどうかを確認
+し、通常の建物であれば抵当権者の承諾を証する情報の添付は不要と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+承諾情報は添付不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+表示登記の申請人は印鑑証明書不要
+Diagram: A decision-flowchart drawn over a hand pressing a plain round
+personal seal (認印) onto a 委任状 (power of attorney) document. First
+diamond node: 代理人に書面で登記を委任するか？with はい leading down (この
+問題の前提). Second diamond node (drawn with a thicker highlighted
+border, since this is the肢の核心): 申請人が不動産登記規則47条3号に列挙
+された類型(登記義務者等)に該当するか？with はい leading to a separate
+conclusion node reading 委任状に押した印鑑につき作成後3か月以内の印鑑証明
+書の添付が必要, and いいえ leading to a green checkmark highlighted
+conclusion node reading 建物の滅失登記(表示に関する登記)の申請人は認印で
+よく証明書は不要. No arrow loops back into the flowchart from either
+conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人に書面で登記を委任するかを確認します。次に、申請人が不動産
+登記規則47条3号に列挙された登記義務者等の類型に該当するかを確認し、
+該当しない表示に関する登記の申請人であれば、委任状は認印でよく印鑑証明書
+は不要と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+印鑑証明書は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+同一敷地内でも解体すれば滅失登記が必要
+Diagram: A two-side contrast panel over the same plot of land. Left side,
+labeled「曳行移転」(shown faded, as a labeled reference scene only — not
+what this問題 asks about): an isometric small house pulled intact on
+rollers/skids to a new spot on the same plot, with a caption 解体せず建物
+の実体を維持. Right side, labeled「解体移転」(highlighted, full color,
+since this is the肢の核心): a small warehouse being disassembled at one
+corner of the plot, workers carrying the same building materials to a new
+position on the same plot, with two stamps applied: 滅失登記 on the
+original spot and 表題登記 on the new spot. A separate simple icon labeled
+「建物図面の変更届出のみ」has a large red ✕ over it, crossed out as the
+wrong assumption a reader might make from seeing the same materials reused
+on the same plot.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物を解体せずそのまま動かす曳行移転なのか、いったん取り壊してから
+同一敷地内で建て直す解体移転なのかを見分けます。次に、解体移転であれば
+建物の実体がいったん失われたとみて、滅失登記と新築の表題登記の両方が必要
+と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+滅失登記+表題登記
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+変更登記2件の義務化に条文上の根拠なし
+Diagram: A two-side contrast panel over an isometric two-unit apartment
+building labeled「甲」and「乙」, with the 甲 unit shown collapsed and
+marked with a red ✕ while the 乙 unit remains standing. Left side, labeled
+「誤った思い込み」(faded background): a document icon reading 敷地権の
+変更登記+非区分建物の変更登記(2件) stamped「義務」, with a large red ✕
+over the「義務」stamp. Right side, labeled「正しい理解」(highlighted, full
+color): a document icon reading 不動産登記規則140条4項 with a caption
+登記官による登記記録の記録方法を定めるのみ, and a speech-bubble icon
+reading 申請人に2件の変更登記を義務付ける規定は見当たらない with a green
+checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、不動産登記規則140条4項が登記官の事務(登記記録の記録方法)を定めた
+規定なのか、申請人の義務を定めた規定なのかを確認します。次に、申請人に
+変更登記を義務付ける規定かどうかを確認し、条文上の根拠が見当たらない以上、
+一律の義務とは断定できないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+義務付ける根拠なし
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法30条(一般承継人の申請)・57条(滅失登記)、不動産登記令別表
+(抵当権者の承諾情報の定めなし)、不動産登記規則47条3号・48条(印鑑証明書の
+適用除外)・140条4項(登記記録の記録方法)、不動産登記事務取扱手続準則85条
+1項(解体移転の取扱い)等に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 滅・失・登・記・権・証・続・継・請・
+建・物・義・務. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢（肢ア・
+肢イ・肢ウ）is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that 肢イ・肢ウ's two
+conditions each show a meaningful conclusion on both the はい and いいえ
+sides with no looping arrow back into the flowchart, that 肢エ is drawn as
+a two-side contrast between 曳行移転 and 解体移転 with only the 解体移転
+side highlighted, that 肢オ is drawn as a two-side contrast between the
+mistaken assumption and the correct understanding rather than a single
+plain illustration, that each 着眼点 callout states a checking order
+rather than only a conclusion and keeps every required element from the
+source article distinct (no merged or dropped requirements), confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

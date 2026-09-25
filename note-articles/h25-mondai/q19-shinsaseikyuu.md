@@ -205,3 +205,207 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a sealed door representing a general
+administrative-law rule, a stamp reading 適用除外 covering that rule when
+不動産登記法158条 blocks it, an applicant figure sending a document that
+must pass through the registry officer's desk before reaching the law
+bureau, and a law-bureau official stamping and mailing duplicate
+documents to two different recipients. Where a 肢 requires checking
+whether a general rule is excluded by 不動産登記法158条 before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart: a
+diamond-shaped branch node asking whether that specific 行政不服審査法の
+条文 is excluded, with Yes/No branch arrows and a final conclusion node
+for each branch. Panels 1 and 2 (肢ア・肢ウ) share the same underlying
+decision-tree shape (一般の行政不服審査法の規定が、不動産登記法158条に
+よって適用除外されているかどうかを確認する型); render both panels'
+diagrams with the same single-diamond tree layout, highlighting (thick
+border, full color) the はい branch relevant to that panel's specific
+条文, and rendering the いいえ／hypothetical branch (what would happen if
+it were NOT excluded) in a faded, greyed-out, dotted-outline style rather
+than omitting it. Where a 肢 involves more than one recipient of the same
+document or notice, draw both recipients as distinct, separately labeled
+arrows rather than merging them into a single generic "notified" icon.
+Where a 肢 is resolved by a single check, a labeled illustrative diagram
+is sufficient — do not force a flowchart. Unlike a glanceable summary
+poster, each panel MAY include a short「着眼点」callout box with 1-2
+sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成25年度午後第19問 作図ガイド（登記官への審査請求）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+参加人制度はそもそも存在しない
+Diagram: A decision-tree flowchart. Start node: 登記官の処分についての
+審査請求（不動産登記法156条1項）. Diamond node (drawn with a thick
+highlighted border): 行政不服審査法13条（参加人制度）は、不動産登記法158
+条により適用除外されているか？ with the はい branch highlighted, showing
+a mortgagee figure（抵当権者B）trying to join through a side door labeled
+参加人 that is sealed shut with a stamp reading 適用除外, leading to a
+conclusion node reading 参加人として参加する制度はそもそも存在しない. The
+いいえ branch is drawn in a faded, greyed-out, dotted-outline style,
+showing the same door left open, leading to a small box captioned 一般
+ルールどおり参加人制度が使える（今回は関係ない）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、参加人制度を定める行政不服審査法13条が、不動産登記法158条によって
+適用除外されているかを確認します。除外されているため、登記官の処分に
+ついての審査請求には、そもそも参加人という制度自体が存在しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+参加人制度なし
+
+--- PANEL 2（肢ウ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+審査請求に期間制限はない
+Diagram: The same decision-tree flowchart shape as Panel 1. Start node:
+登記官の処分についての審査請求（不動産登記法156条1項）. Diamond node
+(drawn with a thick highlighted border, distinct from Panel 1's
+highlighted diamond): 行政不服審査法18条（審査請求期間）は、不動産登記法
+158条により適用除外されているか？ with the はい branch highlighted,
+showing a calendar with a 60日 deadline stamp crossed out by a red ✕ and
+replaced with an infinity symbol icon labeled 期間制限なし, leading to a
+conclusion node reading 審査請求の期間制限はそもそも存在しない. The いいえ
+branch is drawn in a faded, greyed-out, dotted-outline style, showing the
+same calendar with the 60日 stamp intact, leading to a small box captioned
+一般ルールどおり期間制限がある（今回は関係ない）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、審査請求の期間制限を定める行政不服審査法18条が、不動産登記法158条
+によって適用除外されているかを確認します。除外されているため、60日は
+もちろん、一般法上の期間制限自体が登記官の処分についての審査請求には
+存在しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+期間制限なし
+
+--- PANEL 3（肢イ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+審査請求は登記官を経由して行う
+Diagram: An isometric applicant figure sending a 審査請求書 document that
+must first pass through the local registry officer's desk（登記官）
+before continuing upward to the 法務局長 office. A straight-line shortcut
+path bypassing the desk is crossed out with a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、審査請求を直接、監督機関である法務局又は地方法務局の長に対して
+行ってよいのかを確認します。実際には、登記官を経由して行わなければなり
+ません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記官を経由
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+裁決書謄本は登記官にも交付される
+Diagram: An isometric law-bureau official stamping two identical 裁決書の
+謄本 document copies. A tag ① with an arrow sends one copy to the
+applicant figure（審査請求人）, and a separate tag ② with an arrow sends
+another copy back to the original registry officer（登記官）, drawn with
+equal visual weight to show both recipients are required.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+裁決をしたときに、裁決書の謄本を交付する相手を確認します。審査請求人
+だけでなく、処分をした登記官にも交付されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記官にも交付
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+認容なら利害関係人にも通知される
+Diagram: An isometric law-bureau official commanding the registry officer
+with a 相当の処分を命じる stamp, then sending two separately labeled
+notification envelopes with equal visual weight: a tag ① to the applicant
+figure（審査請求人）and a tag ② to a separate interested-party figure
+（登記上の利害関係人）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+審査請求に理由があると認められた場合に、その旨が通知される相手を確認
+します。審査請求人だけでなく、登記上の利害関係人にも通知されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+利害関係人にも通知
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法156条から158条までの規定に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権, 登, 記, 審, 査, 請, 求, 裁, 決,
+謄, 通, 知, 除, 官, 庁. If any character renders as a Simplified
+or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+Panels 1 and 2 clearly distinguish their own highlighted branch from the
+other, faded branch of their shared tree, that 肢エ and 肢オ each show
+both required recipients as distinct labeled arrows rather than a single
+merged notification icon, that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element from
+the source article distinct (no merged or dropped requirements), confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

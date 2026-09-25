@@ -195,3 +195,215 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — two isometric buildings labeled 甲建物 and 乙
+建物 side by side with a merge arrow between them, small registration tags
+for 抵当権・賃借権・敷地権・仮登記 attached to each building, a checklist
+icon for the enumerated restriction grounds of 不動産登記法56条, and a
+red ✕ or green checkmark stamped over the merge arrow depending on the
+result. Where a 肢 requires checking multiple conditions in sequence
+before reaching a conclusion, draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is better understood as choosing between two different
+frameworks (a right that is a担保権 versus a right that is not) rather
+than a sequence of conditions, use a 対比枠型 side-by-side comparison
+frame instead of a flowchart. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panels 1 and 2 (肢ア・肢イ) share the same underlying decision tree about
+抵当権 and building merger: render both panels' diagrams as the same
+tree shape (a first diamond asking whether both buildings carry the
+registered right, then a second diamond asking whether its content is
+identical), and in each panel highlight (thick border, full color) only
+the branch relevant to that panel's 肢, rendering the other, unrelated
+branches in a faded, greyed-out, dotted-outline style rather than
+omitting them. Unlike a glanceable summary poster, each panel MAY include
+a short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成25年度午後第17問 作図ガイド（建物の合併の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+抵当権の内容が食い違うと合併不可
+Diagram: A decision-tree flowchart with two isometric buildings 甲建物 and
+乙建物 side by side. First diamond node: 甲建物・乙建物の両方に抵当権の
+設定の登記があるか？ with a はい arrow proceeding downward (the いいえ
+branch, where only 乙建物 has the registration, is drawn in a faded,
+greyed-out, dotted-outline style leading to a small box captioned 次の
+パネルへ, since that is Panel 2's topic). Second diamond node (drawn with
+a thick highlighted border since this is the branch this panel is about):
+その抵当権の内容（登記の目的・受付年月日及び受付番号並びに登記原因及び
+その日付）は同一か？ with a いいえ branch (highlighted, showing 乙建物側
+にだけ 債権額の変更の登記 stamped on its tag) leading to a conclusion node
+reading 建物の合併の登記をすることができない with a red ✕ over the merge
+arrow between the two buildings; the はい branch is drawn in a faded,
+greyed-out, dotted-outline style leading to a small box captioned 合併可
+能（本問の対象外）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲建物・乙建物の両方に抵当権の登記があるかを確認します。両方にある
+場合は、次に、その抵当権の内容（登記の目的・受付年月日及び受付番号並びに
+登記原因及びその日付）が同一かどうかを確認します。内容に食い違いがあれ
+ば、建物の合併の登記をすることはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+内容不一致で不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+乙のみの抵当権は承諾でも合併不可
+Diagram: The same decision-tree flowchart shape as Panel 1, with the same
+two isometric buildings 甲建物 and 乙建物. First diamond node (drawn with
+a thick highlighted border since this is the branch this panel is about):
+甲建物・乙建物の両方に抵当権の設定の登記があるか？ with the いいえ branch
+highlighted (only 乙建物 carries an 抵当権 tag, with a signed 承諾書
+document beside it), leading directly to a conclusion node reading 承諾が
+あっても建物の合併の登記をすることができない with a red ✕ over the merge
+arrow; the はい branch of this diamond, and the second diamond node about
+matching content, are drawn in a faded, greyed-out, dotted-outline style
+leading to a small box captioned 次のパネルの話（前のパネル参照）, since
+that shared content-matching check is Panel 1's topic.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、抵当権の登記が甲建物・乙建物の両方にあるか、それとも乙建物のみに
+あるかを確認します。乙建物のみにある場合は、抵当権者の承諾があっても、
+それだけで建物の合併の登記をすることはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+承諾だけでは不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+賃借権は担保権でないため合併不可
+Diagram: A 対比枠型 (contrast-frame) layout with two side-by-side panels.
+Left frame, labeled 担保権（抵当権など）: two isometric buildings 甲建物・
+乙建物 both carrying an identical 抵当権 tag, with a green checkmark over
+the merge arrow labeled 内容が同一なら合併可（例外）. Right frame, labeled
+賃借権（担保権ではない）: the same two buildings both carrying an
+identical 賃借権 tag, with a red ✕ over the merge arrow despite the
+matching content, labeled 内容が同一でも合併不可.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その権利が抵当権のような担保権にあたるかを確認します。担保権であ
+れば内容が同一な場合に限り合併できますが、賃借権は担保権にあたらないた
+め、たとえ内容が同一でも建物の合併の登記をすることはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+賃借権で合併不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+敷地権の有無の違いは合併の妨げにならない
+Diagram: Two isometric condominium units 甲建物（敷地権あり） and 乙建物
+（敷地権なし） side by side, next to a checklist icon labeled 不動産登記法
+56条の制限事由 whose listed items do not include 敷地権の有無の不一致
+（項目なしを示す空欄）. A green checkmark sits over the merge arrow
+between 甲建物 and 乙建物.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、不動産登記法56条が列挙する合併の制限事由の中に、敷地権の有無の不
+一致が含まれているかを確認します。含まれていないため、片方にのみ敷地権
+の登記がある場合でも、建物の合併の登記をすることができます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+敷地権違いは合併可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+所有権の仮登記があると合併不可
+Diagram: Two isometric buildings 甲建物・乙建物 both carrying an identical
+所有権の仮登記 tag. A red ✕ sits over the merge arrow between them despite
+the matching content.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲建物・乙建物の双方に所有権の仮登記があるかを確認します。仮登記が
+ある場合は、その内容が同一であっても、建物の合併の登記をすることはでき
+ません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+仮登記で合併不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法56条（建物の合併の登記の制限）・不動産登記規則131条（合併の
+登記をすることができる権利に関する登記）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 抵, 当, 権, 賃, 借, 敷, 仮, 登, 記,
+建, 物, 併, 諾. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢 (肢ア・
+肢イ) is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that Panels 1 and 2
+clearly distinguish their own highlighted branch from the other, faded
+branches of their shared tree, that 肢ウ is drawn as a 対比枠型 comparison
+rather than forced into a flowchart, that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct (no merged or dropped
+requirements), confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

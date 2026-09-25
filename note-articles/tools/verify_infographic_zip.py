@@ -11,7 +11,7 @@ Pillowが必要（pip install pillow）。
 
 使い方:
     python3 note-articles/tools/verify_infographic_zip.py path/to/chosashi_gozu_guide.zip
-    python3 note-articles/tools/verify_infographic_zip.py path/to/xxx.zip --expected 54
+    python3 note-articles/tools/verify_infographic_zip.py path/to/xxx.zip --expected 63
 """
 import argparse
 import sys
@@ -33,7 +33,7 @@ except ImportError:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("zip_path")
-    parser.add_argument("--expected", type=int, default=54, help="期待する画像枚数（既定54）")
+    parser.add_argument("--expected", type=int, default=63, help="期待する画像枚数（既定63）")
     args = parser.parse_args()
 
     problems = []

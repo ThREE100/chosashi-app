@@ -112,7 +112,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -210,8 +218,14 @@ Small credit text in the corner (optional, keep minimal).
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially for
 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・家・庭・裁・
-判・所. If any character renders as a Simplified Chinese variant, redraw
-that character in the correct Japanese form. Confirm the number of cards
+判・所 (and not Traditional Chinese). If any character renders as a
+Simplified Chinese variant or a Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the number of cards
 equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
@@ -220,7 +234,7 @@ every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -266,12 +280,20 @@ written below verbatim, and keep every condition each callout describes
 faithful to the article's own body text.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
-below verbatim - do not paraphrase, translate, summarize, or substitute
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
-parentheses ( ) consistently - never open a parenthetical with a
+parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -288,9 +310,8 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成18年度午後第3問 ア〜オ
-作図ガイド（相続と登記）
+Subtitle (smaller, centered, 1行):
+平成18年度午後第3問 作図ガイド（相続と登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -438,12 +459,15 @@ Small footnote text (bottom of panel, small font, verbatim):
 部分の対抗要件）・177条（不動産物権変動の対抗要件）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・
-家・庭・裁・判・所 and any character that has a visually similar Simplified
-Chinese variant.
-If any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the panel count equals 5
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 相・続・登・記・譲・渡・権・利・放・
+棄・遺・贈・産・分・割・家・庭・裁・判・所・対・抗・効. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character that
+is not standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or stray
+decorative glyph — and remove or redraw it so that only standard Japanese
+text appears anywhere in the image. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
 all 5 panels share the same three-branch tree shape and each clearly

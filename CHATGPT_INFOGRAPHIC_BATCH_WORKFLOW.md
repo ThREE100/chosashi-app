@@ -1,6 +1,6 @@
-# R7〜H20 問1〜問3 ⑤作図ガイド型インフォグラフィック ― ChatGPT一括生成ワークフロー
+# R7〜H17 問1〜問3 ⑤作図ガイド型インフォグラフィック ― ChatGPT一括生成ワークフロー
 
-`note-articles/{年度}-mondai/q01〜q03-*.md`（土地家屋調査士試験・民法の問1〜問3、全54記事）に
+`note-articles/{年度}-mondai/q01〜q03-*.md`（土地家屋調査士試験・民法の問1〜問3、全63記事）に
 既に埋め込まれている「⑤作図ガイド型」インフォグラフィックのプロンプト（`infographic-prompt-template.md`
 準拠）を、ChatGPT（WEB版）で順次自動生成し、透過チェック・リネーム・ZIP化までを行う手順書。
 
@@ -18,7 +18,7 @@ note記事（`note-articles/`配下）であり、リポジトリ内で完結す
 ## 1. 全体の流れ
 
 ```
-①note-articles/tools/list_gozu_guide_targets.py で、54件の対象一覧（通し番号・年度・
+①note-articles/tools/list_gozu_guide_targets.py で、63件の対象一覧（通し番号・年度・
   記事slug・出力ファイル名・プロンプト本文）を取得する
 ②ChatGPTで「Work」ワークスペースを開き、モデル設定を確認する
   （GPT-5.6、Luna、reasoning effort＝高い）
@@ -26,7 +26,7 @@ note記事（`note-articles/`配下）であり、リポジトリ内で完結す
   不透明か・パネル数が5枚そろっているかを目視確認する【最重要・§4】
 ④透過や欠落があれば、その場で再生成してから次に進む（1枚ずつ完了させる。
   ダウンロードは都度行わない）
-⑤54件すべて完了したら、ChatGPT自身にリネーム＋ZIP化させてダウンロードする【§6】
+⑤63件すべて完了したら、ChatGPT自身にリネーム＋ZIP化させてダウンロードする【§6】
 ⑥ダウンロード後、note-articles/tools/verify_infographic_zip.py で機械的に検品する
 ```
 
@@ -52,7 +52,7 @@ python3 note-articles/tools/list_gozu_guide_targets.py --prompt-only 1
 
 ## 3. チャットの作り方
 
-- 54件を1つの長いチャットで続けると、`CHATGPT_MANGA_WORKFLOW.md` §8で既知の問題として
+- 63件を1つの長いチャットで続けると、`CHATGPT_MANGA_WORKFLOW.md` §8で既知の問題として
   挙げられている「Workモードは長時間セッションで内部ワークスペースのファイルが整理・
   失効することがある」リスクが高まる。**年度ごと（3記事＝3枚）に新しいチャットを分ける**
   ことを推奨する（例：チャット「R7_問1-3」「R6_問1-3」…）。
@@ -102,7 +102,7 @@ python3 note-articles/tools/list_gozu_guide_targets.py --prompt-only 1
   01_r7-q01-ishihyouji.png
   02_r7-q02-senyuken.png
   ...
-  54_h20-q03-mukou-torikeshi.png
+  63_h17-q03-fugo-kubunshoyu.png
 ```
 
 年度をまたいで `q01`〜`q03` というslugが重複する（例：`q01-ishi-hyouji` はr4とh23の両方に
@@ -137,7 +137,7 @@ ChatGPTの同じ会話（年度ごとに分けた場合は、それぞれのチ�
 ## 7. 受け取り後の検品
 
 ```bash
-python3 note-articles/tools/verify_infographic_zip.py <ダウンロードしたzipのパス> --expected 54
+python3 note-articles/tools/verify_infographic_zip.py <ダウンロードしたzipのパス> --expected 63
 # 年度ごとに分けてダウンロードした場合は --expected 3
 ```
 
@@ -153,8 +153,21 @@ python3 note-articles/tools/verify_infographic_zip.py <ダウンロードしたz
 
 ## 8. 進め方の目安
 
-52記事（既に⑤プロンプトが作成済みの2記事＝R1問1・H30問3を除く）× 1枚＝52枚を
+63記事×1枚＝63枚を
 一度に生成しようとすると、§3の「長時間セッションでのワークスペース失効」リスクが
 大きくなる。**年度ごと（3枚）に区切り、各年度の完了時点でZIP化・検品まで済ませてから
 次の年度に進む**運用を基本とする（途中で中断しても、完了済みの年度分はそのまま成果物
 として確定できる）。
+
+### 運用上の注意（R7〜H17の63枚を実施して得た知見）
+
+- ブラウザ操作は**同時に1つだけ**にする。複数のサブエージェントやタブで並行操作すると、タブが
+  応答しなくなる（「page is busy」「Couldn't determine which page」）。1年度ずつ順番に進める。
+- PCの**画面ロック・スリープ中はブラウザが描画停止**して操作できない（LogonUIが動いている場合はロック中）。
+  長時間の自動生成中は画面ロック・スリープを避ける。
+- ChatGPTのチャット内のZIPリンク（「〜.zip をダウンロード」）をクリックすると直接ダウンロードされる。
+  同じファイルを2回落とすと`(1)`が付いて重複するので注意（重複は削除し、`(1)`を外した名前に整える）。
+- 再生成した年度は、ZIPに**最終表示版**を入れるようChatGPTに明示する。ダウンロード後は必ず
+  `verify_infographic_zip.py --expected 3`で検品し、再生成した画像（誤字修正分）が入っているか確認する。
+- 生成に使うプロンプトは、必ず`git pull origin main`で最新化した記事のものを使う（別セッションが
+  記事側のプロンプトを更新していることがある）。

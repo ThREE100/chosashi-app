@@ -214,3 +214,226 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+肢ア〜オのすべてが、「①この登記は更正の登記か」「②通知対象の表題部所有者は2人以上いるか」「③申請人は通知対象の表題部所有者以外の者か」という同じ3段階の判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成とする。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — three co-owner character icons (A・B・C), a
+mail envelope icon labeled 登記完了通知, a registrar character icon
+(登記官), and small labeled tags for 表題部所有者・更正前・更正後・持分.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient — do not force a flowchart. Where a panel reuses a decision
+tree shared with other panels in this set, render the branch relevant to
+THIS panel with a thick highlighted border and full color, and render the
+other, unrelated branches in a faded, greyed-out, or dotted-outline style
+rather than omitting them — the reader should be able to see at a glance
+which part of the shared tree this panel is about. All 5 panels in this
+set share the same 3-diamond decision tree (①更正の登記か／②通知対象が
+2人以上か／③申請人は通知対象の表題部所有者以外の者か); each panel
+highlights only the path relevant to its own 肢 and fades the other paths.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成22年度午後第7問 作図ガイド（登記完了の通知）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+共有者が2人以上なら1人への通知で足りる
+Diagram: Three co-owner character icons (A・B・C) around a land-plot icon.
+A decision flowchart: diamond 1「この登記は更正の登記か」with a thick
+highlighted「いいえ(地目の変更の登記)」branch, since this is the
+通常の登記のケース, leading down; diamond 2「通知対象の表題部所有者(A・B・
+C)は2人以上いるか」with a thick highlighted「はい」branch leading to a
+diamond 3「申請人は通知対象の表題部所有者以外の者か」with a thick
+highlighted「いいえ(申請人Aは表題部所有者に含まれる)」branch leading to a
+highlighted final conclusion node「表題部所有者のうち1人(A及びB)への通知で
+足りる」, illustrated with a mail envelope icon 登記完了通知 arriving and
+being handed to A and B only, with C shown without an envelope.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が更正の登記ではなく通常の地目変更の登記であることを確認しま
+す。次に、通知を受けるべき表題部所有者が2人以上いるかを確認し、2人以上いる
+ときはそのうちの1人に通知すれば足りると判定します。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+1人への通知で足りる
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft green containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+代位申請なら共有者1人と申請人に通知が届く
+Diagram: A creditor character (D) submitting an application on behalf of
+debtor A, next to the same three co-owner character icons (A・B・C). The
+same 3-diamond flowchart as Panel 1: diamond 1「いいえ(通常の登記)」
+highlighted; diamond 2「通知対象の表題部所有者は2人以上いるか」with a
+thick highlighted「はい」branch; diamond 3「申請人は通知対象の表題部所有者
+以外の者か」this time with a thick highlighted「はい(申請人Dは債権者で、
+表題部所有者ではない)」branch, leading to a highlighted final conclusion
+node「表題部所有者のうち1人(A)への通知に加えて、申請人Dにも通知が必要」,
+illustrated with two mail envelopes going out: one to D(申請人)、one to
+A(共有者の1人)、with B・C shown without envelopes.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が通常の登記であり、かつ申請人が表題部所有者ではない第三者
+(この場合は債権者D)であることを確認します。次に、表題部所有者のうち1人へ
+の通知に加えて、申請人であるDにも通知が必要になると判定します。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+共有者1人と申請人に通知
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft beige containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+職権登記でも共有者1人への通知で足りる
+Diagram: A registrar character (登記官) stamping a 職権 registration next
+to the same three co-owner character icons (A・B・C). The same 3-diamond
+flowchart as Panel 1: diamond 1「いいえ(通常の登記)」highlighted; diamond
+2「通知対象の表題部所有者は2人以上いるか」with a thick highlighted「はい」
+branch; diamond 3「申請人は通知対象の表題部所有者以外の者か」with a thick
+highlighted「いいえ(職権登記のため申請人がいない)」branch leading to a
+highlighted final conclusion node「表題部所有者のうち1人(A)への通知で足り
+る」, illustrated with a single mail envelope going to one co-owner
+character (A) out of three.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が職権によるものであり、申請人が存在しない登記であることを
+確認します。次に、表題部所有者が2人以上いるかを確認し、そのうちの1人に通
+知すれば足りると判定します。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+職権でも1人への通知で足りる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+更正登記は更正前の所有者に通知する
+Diagram: A document showing 表題部所有者の更正 changing from A・B・C to
+D・E・F. The same 3-diamond flowchart as Panel 1, this time diamond 1
+「この登記は更正の登記か」with a thick highlighted「はい」branch leading to
+a highlighted label「通知対象は更正前の表題部所有者(A・B・C)」. Below it, a
+faded「(この肢の申請は)通知対象をD・Eという更正後の所有者に向けている」box
+crossed out with a large ✕, since D・E は更正前の表題部所有者A・B・Cのいず
+れにも含まれない. A highlighted final conclusion node reads「更正前の
+A・B・Cの誰にも通知していないため、この通知の方法では足りない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が表題部所有者についての更正の登記であることを確認します。
+次に、通知すべき相手が更正前の表題部所有者(A・B・C)であることを確認し、
+更正後の新しい所有者(D・E)だけに通知しても足りないと判定します。
+Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
+characters):
+更正前の所有者に通知が必要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft green containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+持分の更正でも更正前の所有者1人と申請人に通知
+Diagram: A document showing 持分の更正 (A6分の1→6分の3, B6分の2→6分の1,
+C6分の3→6分の2). The same 3-diamond flowchart as Panel 1: diamond 1「この
+登記は更正の登記か」with a thick highlighted「はい(持分についての更正の
+登記)」branch leading to a highlighted label「通知対象は更正前の表題部所有
+者(A・B・C)」; diamond 2「通知対象の表題部所有者は2人以上いるか」with a
+thick highlighted「はい」branch; diamond 3「申請人は通知対象の表題部所有者
+以外の者か」with a thick highlighted「はい(申請人としてのCには別途通知が
+必要)」branch leading to a highlighted final conclusion node「更正前の
+所有者のうち1人(A)への通知に加えて、申請人Cにも通知が必要」, illustrated
+with mail envelopes going to A(更正前の所有者の1人) and C(申請人).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が持分についての更正の登記であり、通知すべき相手が更正前の
+表題部所有者(A・B・C)であることを確認します。次に、そのうちの1人への通知
+に加えて、申請人であるCにも通知が必要になると判定します。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+更正前の所有者と申請人に通知
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記規則183条（ア〜オ共通）。判例・先例番号は省略。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 更, 正, 前, 後, 通, 知, 所, 有, 者,
+共, 職, 権, 請, 認, 確, 持, 分, 登, 記. If any character renders as a Simplified
+or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 肢 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), that any panel
+sharing a decision tree with another panel clearly distinguishes its own
+highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

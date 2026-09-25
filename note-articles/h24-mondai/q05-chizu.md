@@ -189,3 +189,192 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a blueprint/map icon, a calculator or
+measuring-tool icon, a digital map on a server/database screen, three
+zone icons (dense urban buildings, farmland, forest) each paired with a
+ruler, a land-plot icon with an error mark connected to eligible-person
+icons, and an urban-zone icon with a precision-level signboard. None of
+this problem's 肢 requires checking more than one sequential condition,
+so every panel uses a single labeled comparison or relationship diagram
+rather than a multi-node flowchart — do not force any panel into an
+unnecessary flowchart. Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成24年度午後第5問 作図ガイド（地図の記録事項・精度区分）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+縮尺係数は地図の記録事項に含まれない
+Diagram: A side-by-side comparison. LEFT side（誤った思い込み）: a
+blueprint/map icon with a label "縮尺係数" being stamped onto the map's
+information panel, marked with a red ✕. RIGHT side（正しいルール）: the
+same map's information panel showing a short checklist of the items that
+actually are recorded — "地番区域の名称" "地図の番号" "縮尺" "座標系の番号"
+"図郭線の座標値" "区画及び地番" "基本三角点等の位置" "精度区分" "隣接図郭
+との関係" "作成年月日" — with "縮尺係数" drawn separately outside the
+checklist, next to a small calculator icon, labeled "測量計算に使う数値
+（記録事項ではない）".
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この項目が地図の記録事項として不動産登記規則が定める10項目に含まれ
+るかどうかを確認します。縮尺係数はこの列挙に含まれないため、次に、地図そ
+のものの記録事項ではなく、測量計算に使う数値にすぎないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+記録事項ではない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+電磁的記録の地図には座標値も記録
+Diagram: An isometric digital-map icon displayed on a server/database
+screen (電磁的記録). At each 筆界点 (boundary-point intersection) on the
+map, a small tag reading "X・Y座標値" is attached, showing that every
+筆界点 carries a recorded coordinate value.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この地図が電磁的記録として記録されているかどうかを確認します。電磁
+的記録の地図であれば、次に、各筆界点ごとにX・Y座標値が記録事項に含まれる
+と判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+座標値も記録される
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+地域区分ごとに地図の縮尺が決まる
+Diagram: Three zone icons connected by lines to their corresponding scale
+labels: a dense-urban-buildings icon (市街地地域) connects to a label
+"250分の1又は500分の1"; a farmland icon (村落・農耕地域) connects to a
+label "500分の1又は1000分の1"; a forest icon (山林・原野地域) connects to
+a label "1000分の1又は2500分の1". Each connection line ends in a small
+ruler icon sized to suggest the relative precision of that zone.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地が市街地地域・村落農耕地域・山林原野地域のどの地域区分にあ
+たるかを確認します。次に、その地域区分に応じてあらかじめ定められた縮尺
+（市街地は250分の1又は500分の1など）を地図の縮尺として用いると判断しま
+す。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地域で縮尺が違う
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+訂正申出は名義人とその相続人もできる
+Diagram: A relationship diagram. A land-plot icon with a small red ✕
+mark（区画又は地番の誤りを示す）is connected by lines to three
+eligible-person icons standing at the same level: 表題部所有者, 所有権の
+登記名義人, and その相続人その他の一般承継人. A short arrow runs from the
+登記名義人 icon to the 相続人 icon, representing 相続・一般承継 (the
+passing of eligibility to the next generation). Each of the three
+eligible-person icons holds a document labeled "訂正の申出書" stamped
+with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図の区画又は地番に誤りがあるかどうかを確認します。誤りがある場合
+は、次に、その土地の表題部所有者や所有権の登記名義人だけでなく、これらの
+相続人その他の一般承継人も訂正の申出をできると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+相続人も申出できる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+市街地地域の上限は甲二まで
+Diagram: A side-by-side comparison. LEFT side（誤った思い込み）: a
+dense-urban-zone icon with a signboard reading "精度区分 甲三まで" crossed
+out with a red ✕. RIGHT side（正しいルール）: the same urban-zone icon
+with a signboard reading "精度区分 甲二まで" stamped with a green
+checkmark, alongside two smaller faded reference labels "村落・農耕地域：
+乙一まで" and "山林・原野地域：乙三まで" to show that the same rule applies
+to all three regions at different levels.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地がどの地域区分（市街地・村落農耕・山林原野）にあたるかを確
+認します。市街地地域については、次に、精度区分の上限が「甲三まで」ではな
+く、より精度の高い「甲二まで」であると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+上限は甲二まで
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則10条2項・4項1号、13条1項・2項、16条1項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 縮, 尺, 係, 数, 座, 標, 値, 訂, 精, 度,
+街, 続. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that each panel uses a single labeled
+comparison or relationship diagram appropriate to a single-check 肢 (no
+panel has been forced into an unnecessary multi-node flowchart), that
+each 着眼点 callout states a checking order rather than only a conclusion
+and keeps every required element from the source article distinct (no
+merged or dropped requirements), confirm nothing is rendered below the
+last panel's footnote text (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
+any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

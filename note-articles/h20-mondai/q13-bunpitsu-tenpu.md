@@ -188,3 +188,203 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric land-plot icon split by a dashed
+分筆線 into 甲土地/乙土地, a small 求積結果 number label on each resulting
+parcel, an application-form (申請情報) icon, a family/heir character group
+for 相続人, an isometric condominium-building icon standing on its 法定敷地
+for the 規約 scenario, and a 地役権図面 scroll icon. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Where a panel reuses a decision tree shared with other panels
+in this set, render the branch relevant to THIS panel with a thick
+highlighted border and full color, and render the other, unrelated
+branches in a faded, greyed-out, or dotted-outline style rather than
+omitting them — the reader should be able to see at a glance which part
+of the shared tree this panel is about. Panel 2（肢イ）and Panel 3（肢ウ）
+each turn on telling apart two things that are easy to confuse (誰の記載
+が必要か／どの段階で規約証明が必要か), so draw them as LEFT/RIGHT
+(誤り／正しい、または分筆の登記／所有権移転登記) comparison panels. The
+other 3 panels（肢ア・肢エ・肢オ）are each resolved by a single check, so
+draw a labeled illustrative diagram for them instead of forcing a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成20年度午後第13問 作図ガイド（分筆の申請情報・添付情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft green containing the number 1.
+Heading (bold, ONE line):
+地積更正との一括申請は分筆後の求積で足りる
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+land plot labeled「甲土地」being split by a dashed 分筆線 into two parcels
+labeled「甲土地」「乙土地」, each parcel carrying its own 求積結果 number
+label（例：120.34平方メートル／80.56平方メートル）; a separate greyed-out
+icon of the original, un-split 甲土地 with a large ✕ mark and the label
+「分筆前全体の再求積」to show this is not required.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地積に関する更正の登記と分筆の登記を一の申請情報で申請しているかを
+確認し、次に添付する地積測量図が分筆後の各筆についてそれぞれ求積したもの
+であれば足りるかを確認します。分筆前の土地全体をあらためて求積し直す必要
+はありません。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+分筆後の求積で足りる
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft green containing the number 2.
+Heading (bold, ONE line):
+相続人全員の記載までは求められない
+Diagram: A LEFT/RIGHT comparison diagram: LEFT side labeled「よくある
+思い込み」shows a document icon listing every heir's name and address one
+by one（相続人A・相続人B・相続人C…）with a large red ✕; RIGHT side
+labeled「正しいルール」shows a single heir character submitting the
+application with a document icon reading「申請人の氏名・住所」and a tag
+「相続人その他の一般承継人である旨」, marked with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請人が相続人であるかどうかを確認し、次に申請情報に書くべき事項が
+「相続人全員の氏名・住所」なのか「申請人自身の氏名・住所と一般承継人であ
+る旨」なのかを確認します。相続人全員分を書き並べる必要はありません。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+申請人本人の記載で足りる
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft green containing the number 3.
+Heading (bold, ONE line):
+規約証明が要るのは分離処分の段階
+Diagram: A LEFT/RIGHT comparison diagram: LEFT side labeled「分筆の登記」
+shows an isometric condominium building on its 法定敷地 being split by a
+分筆線, with a 規約証明書 icon marked with a red ✕; RIGHT side labeled
+「所有権移転登記（分離処分）」shows the same building with a separate
+parcel being handed to a buyer character, with the same 規約証明書 icon
+marked with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問題になっている申請が「分筆の登記」なのか「分離処分としての所有権
+移転登記」なのかを確認し、次に分離処分を可能とする規約を証する情報が必要
+になるのはどちらの段階かを確認します。分筆の登記自体にはこの証明は不要で
+す。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+分筆自体には不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft green containing the number 4.
+Heading (bold, ONE line):
+地目変更との一括申請は原因日付の記載が必要
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+land plot with one half labeled「畑」and the other half labeled「宅地」
+being split by a 分筆線; an application-form icon next to it reading
+「登記原因：年月日」with a green checkmark, contrasted with a second,
+greyed-out application-form icon with the 登記原因・日付 fields left blank
+and a red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請が地目に関する変更の登記と分筆の登記の一括申請であるかを確認
+し、次に申請情報に登記原因及びその日付を記載しているかを確認します。原因
+・日付の記載を欠くと足りません。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+登記原因・日付が必須
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft green containing the number 5.
+Heading (bold, ONE line):
+地役権部分の分筆に新たな図面は不要
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+land plot labeled「甲土地」with a shaded area marked「地役権が存する部
+分」being split off by a 分筆線 into a new parcel labeled「乙土地」; an
+existing 地役権図面 scroll icon is shown carrying straight over to 乙土
+地 with a green checkmark, while a second, newly-drawn 地役権図面 icon is
+marked with a red ✕ and the label「新規作成は不要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆によって切り出す乙土地の範囲が、既に地役権図面で示されている地
+役権の存する部分と一致するかを確認します。一致する場合、あらためて地役権
+図面を作成・提供する必要はありません。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+既存図面を流用
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法39条・30条、不動産登記令3条1号・10号・4条ただし書、不動産登記規則
+35条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 筆・積・権・続・証・約・図・産・転・関・変. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that Panel 2 and Panel 3 are each drawn as
+LEFT/RIGHT comparison panels while Panels 1・4・5 are simple labeled
+diagrams without a forced flowchart, that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct (no merged or dropped
+requirements), confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

@@ -190,3 +190,214 @@ between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
 a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a layout-map style diagram with two registry
+offices'管轄区域 separated by a dotted jurisdiction line, isometric
+buildings positioned inside or straddling that line, and ropes pulling
+buildings across it for えい行移転. Panels 2（肢イ）and 4（肢エ）share the
+same underlying decision structure — a single diamond node asking
+「主である建物はどちらの登記所の管轄区域にあるか」— because both 肢 turn
+on the same rule that jurisdiction follows the MAIN building's location
+regardless of the annex building's floor area. In each of those two
+panels, render the diamond node and the branch relevant to THAT panel
+(甲 for 肢イ, 乙 for 肢エ) with a thick highlighted border and full color,
+and render the other branch in a faded, greyed-out, dotted-outline style
+rather than omitting it, so the reader can see at a glance which part of
+the shared rule this panel is about; also render a small scale icon
+labeled 附属建物の大小は無関係 crossed out or greyed near the highlighted
+conclusion node in both panels, to make explicit that the annex
+building's size never changes the outcome. Where a 肢 turns on a common
+misconception about whether one must wait for something before acting
+(肢ウ: a reader may wrongly think an applicant must wait for the 指定
+before applying at all), draw it as a two-side contrast panel: a
+faded/crossed-out「誤った思い込み」side and a highlighted「正しいルール」
+side, rather than a plain single illustration. Where a 肢 is resolved by
+a single check without a shared tree or a misconception trap (肢ア・肢オ),
+a labeled illustrative layout diagram is sufficient — do not force a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成23年度午後第14問 作図ガイド（登記所の管轄）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+行政区画未定の埋立地は表題登記不可
+Diagram: A newly reclaimed landfill icon with a building on it, drawn
+with a dotted, undefined boundary line where the administrative zone
+（行政区画）should be, and a large 行政区画未定 question mark hovering
+over the boundary. A red ✕ blocks the registry office's 表題登記申請
+window.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地が編入されるべき行政区画が定められているかを確認します。
+定められていなければ、建物の所在を特定できないため、表題登記を申請する
+ことはできないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+行政区画未定なら登記不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+附属建物が乙にはみ出しても管轄は甲
+Diagram: A layout map with two registry offices' 管轄区域 separated by a
+dotted jurisdiction line. A small main-house icon（主である建物）sits
+inside 甲登記所's territory, connected to a much larger warehouse icon
+（附属建物）that crosses into 乙登記所's territory. A single diamond
+decision node, drawn with a thick highlighted border and full color:
+主である建物はどちらの登記所の管轄区域にあるか？with the 甲 branch
+highlighted leading to a conclusion node reading 甲登記所に所在変更登記
+を申請, and the 乙 branch rendered faded/greyed-out/dotted (今回は関係
+ない、肢エで使う). A small scale icon labeled 附属建物の大小は無関係 is
+crossed out near the highlighted conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、主である建物がどちらの登記所の管轄区域にあるかを確認します。附属
+建物だけが乙登記所の管轄区域にまたがっていても、次に、主である建物が甲
+にある以上、附属建物と主である建物の床面積の大小にかかわらず管轄は甲登
+記所のままと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+主建物基準で甲のまま
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+指定前でも一の登記所へ申請できる
+Diagram: A two-side contrast panel. Left side, labeled「誤った思い込み」
+(faded background): a large factory building straddling the dotted line
+between 甲登記所 and 乙登記所, with a character anxiously waiting beside
+an hourglass labeled 指定待ち, and a 表題登記申請 document crossed out
+with a red ✕. Right side, labeled「正しいルール」(highlighted, full
+color): the same factory, with the character submitting the 表題登記申請
+document directly at one of the two offices' windows, a green checkmark,
+and a small note いずれ指定があれば従う beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が二以上の登記所の管轄区域にまたがっているかを確認します。次
+に、法務大臣等による登記事務を行う登記所の指定を待たなくても、そのうち
+一の登記所に表題登記を申請できると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+指定前でも一の登記所へ申請可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+主建物が乙に移れば管轄も乙になる
+Diagram: The same layout map and the same diamond decision node as PANEL
+2（主である建物はどちらの登記所の管轄区域にあるか？）, but this time the
+乙 branch is drawn with a thick highlighted border and full color: a
+main-house icon（主である建物）being pulled by a rope from 甲登記所's
+territory into 乙登記所's territory, while a larger attached shed icon
+（附属建物）stays behind inside 甲登記所's territory. The 甲 branch is
+rendered faded/greyed-out/dotted this time (今回は関係ない、肢イで使う).
+The highlighted conclusion node reads 管轄登記所は乙登記所となる, with a
+scale icon labeled 附属建物の大小は無関係 crossed out beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、主である建物のみが乙登記所の管轄区域へえい行移転したことを確認し
+ます。次に、附属建物が甲登記所の管轄区域に残り、床面積が主である建物よ
+り大きくても、主である建物の所在地を基準に管轄登記所は乙登記所になると
+判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+主建物基準で乙に移る
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+曳行移転後の申請先は移転先の乙登記所
+Diagram: A layout map with the same two registry offices. A whole
+building icon（附属建物のない単純な一棟）being pulled by a rope from 甲
+登記所's territory all the way into 乙登記所's territory. A 所在変更登記
+stamp is applied at 乙登記所's window (the destination), while 甲登記所's
+window shows a red ✕ crossing out a document labeled 所在変更登記.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物全体がえい行移転によって甲登記所の管轄区域から乙登記所の管轄
+区域へ移動したことを確認します。次に、建物そのものが乙登記所の管轄区域
+にある以上、所在の変更の登記は移転先の乙登記所に申請すると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+移転先の乙登記所へ申請
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法6条2項・3項、不動産登記事務取扱手続準則4条1項・5条に基づく
+整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 轄・録・属・築・移. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that PANEL 2（肢イ）and PANEL 4（肢エ）each
+clearly distinguish their own highlighted branch of the shared 主である
+建物の所在地 decision node from the other, faded branch, that both
+panels show the 附属建物の大小は無関係 note near their highlighted
+conclusion, that PANEL 3（肢ウ）is drawn as a two-side contrast between
+the mistaken assumption and the correct rule rather than a single plain
+illustration, that each 着眼点 callout states a checking order rather
+than only a conclusion, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

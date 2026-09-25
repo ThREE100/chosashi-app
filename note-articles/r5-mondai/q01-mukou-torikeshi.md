@@ -271,9 +271,8 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-令和5年度午後第1問 ア〜オ
-作図ガイド（無効及び取消し）
+Subtitle (smaller, centered, 1行):
+令和5年度午後第1問 作図ガイド（無効及び取消し）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -350,16 +349,30 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 2本のタイマーのどちらが先か確認
-Diagram: A decision-tree flowchart with two parallel timer branches
-starting from a single start node（取消権の発生）. Branch 1: an hourglass
-icon on a timeline marked「追認できる時から5年」。Branch 2: a longer
-hourglass icon on a timeline marked「行為の時から20年」。Both branches
-lead independently down into a single diamond node reading いずれかが先
-に経過したか？, which has exactly two distinct exit arrows and no arrow
-curving back to any earlier node in the diagram: a はい arrow leading to
-a red-stamped conclusion node reading 時効によって消滅する, and a
-separate いいえ arrow leading to its own plainly-colored（灰色または青、
-赤色にしない）conclusion node reading まだ消滅していない（取消権は存続）。
+Diagram: A strict top-to-bottom decision-tree flowchart laid out in
+exactly four horizontal levels stacked vertically. Every arrow in this
+diagram must point straight downward or diagonally downward — no arrow
+may ever point upward, sideways-and-back, or toward any node located
+above it; there must be no loop, no curve that returns toward an earlier
+node, and no arrowhead touching the 取消権の発生 node or either timer box
+once the diagram has moved past them. Level 1 (top, single node): a
+start node reading 取消権の発生, with two separate downward arrows
+leaving its bottom edge. Level 2 (two boxes side by side, left and
+right): left box — an hourglass icon on a short timeline labeled「追認で
+きる時から5年」；right box — a longer hourglass icon on a longer timeline
+labeled「行為の時から20年」。Level 3 (a single diamond node, centered
+below and between the two Level 2 boxes): both Level 2 boxes' downward
+arrows converge into one diamond node reading いずれかが先に経過したか？。
+Level 4 (two brand-new boxes side by side, directly below the diamond —
+these are NEW boxes that do not exist anywhere else in the panel, and
+neither one may reuse, touch, or point back to the Level 2 timer boxes):
+from the diamond's bottom-left, a はい arrow points straight down to a
+new red-stamped conclusion box reading 時効によって消滅する；from the
+diamond's bottom-right, a separate いいえ arrow points straight down to a
+new, differently-colored（灰色または青、赤色にしない）conclusion box
+reading まだ消滅していない（取消権は存続）。Both Level 4 boxes are the
+lowest elements in the panel; nothing in this diagram sits below them or
+loops back above them.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず「追認できる時から5年」のタイマーを確認し、次に「行為の時から20
 年」のタイマーを確認します。まだ追認できる状況になっていなくても、
@@ -382,12 +395,17 @@ form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that Panels 2 and 3 visibly share the same
 timeline layout while differing only in whether the arrow reaches back to
-the starting point, that Panel 5 is drawn as an actual flowchart with two
-parallel timer branches converging at a diamond node (not a bare
-illustration with no visible decision structure), that the diamond node
-has exactly two distinct exit arrows (はい and いいえ) each leading to its
-own separate conclusion node, with no arrow looping back from the diamond
-to any earlier node in the diagram, that each 着眼点
+the starting point, that Panel 5 is drawn as a strict four-level
+top-to-bottom flowchart (start node, then the two timer boxes side by
+side, then one diamond node, then two brand-new conclusion boxes side by
+side at the very bottom) with every arrow pointing straight or diagonally
+downward only, that the diamond node has exactly two distinct exit arrows
+(はい and いいえ) each leading to its own separate, newly-drawn conclusion
+box at the bottom of the panel, that neither exit arrow curves, loops, or
+points back upward toward the diamond, the two timer boxes, or the
+start node, that the はい and いいえ conclusion boxes are visually distinct
+from the two timer boxes above them (not the same boxes reused), that
+each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and

@@ -196,3 +196,242 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+本問は「筆界の原則→例外」のような1本の思考の流れをたどる問題ではなく、届出の経由先・執行権限・秘密保持・外観責任・研修という5つの独立した論点を問う個数問題です。そのため、問題全体を貫く共有の決定木は使わず、肢ごとに「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を個別に示す構成にした。アは経路を順に確認する配置図型、イ・ウ・エは原則と例外・複数条件の判定があるため決定木型、オは研修の実施主体を示す系統図・関係図型として構成した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric office/registry association building
+icons, an ID badge icon, a locked speech-bubble icon, a handshake icon,
+and a seminar/training icon (a podium with a small audience). Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Where a diagram must show an entity that
+conceptually never held the right or status in question (e.g. a person
+who is not actually a 社員), render that entity in a faded or
+dotted-outline style rather than a plain ○/✕ mark, so the visual itself
+communicates "this was never really there," not just "this is wrong."
+Unlike a glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+— do not drop or merge a required element (e.g. keep the two distinct
+conditions of 肢エ — the deceiving act and the counterparty's reliance on
+it — as two separate checks).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第20問 作図ガイド（土地家屋調査士法の業務ルール）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled blue circle containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+調査士会を経由してから連合会に届け出る
+Diagram: A layout diagram (配置図). On the left, a person icon
+representing a 土地家屋調査士 who has discontinued practice (業務を廃止
+した土地家屋調査士). Arrow 1 leads first to a nearby building icon
+labeled「所属する土地家屋調査士会」("the 土地家屋調査士会 the person
+belongs to"), where it receives a pass stamp (a green checkmark).
+Arrow 2 then continues on from there to a larger building icon labeled
+「日本土地家屋調査士会連合会」("the national federation of 土地家屋調査
+士会"). A separate, faint gray dotted arrow goes directly from the person
+icon to the federation, with a large red X mark over the whole arrow,
+showing that「直接の届出は不可」("a direct filing is not allowed").
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、業務を廃止した土地家屋調査士が届出をする際、最初に向かうべき先は
+所属する土地家屋調査士会であることを確認します。次に、そこを経由して
+はじめて日本土地家屋調査士会連合会に届出が到達するという経路であり、
+連合会に直接届け出ることはできないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+調査士会経由が必須
+
+--- PANEL 2（肢イ） ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line):
+認定調査士かどうかを社員ごとに確認する
+Diagram: Draw as an actual decision flowchart. Start node: an office icon
+of a 土地家屋調査士法人 whose purpose includes 民間紛争解決手続代理関係業
+務, with icons for 2 of its 社員 inside. Diamond branch node, labeled
+「その社員は、土地家屋調査士法3条2項に規定する土地家屋調査士（認定調査
+士）か？」("is this 社員 a 土地家屋調査士 as defined in Article 3(2) of
+the Land and House Investigator Act — i.e. a 認定調査士?"). The ○ (yes,
+a 認定調査士) arrow leads to a green-highlighted conclusion node (with a
+certification-badge icon) reading「その社員は民間紛争解決手続代理関係業務
+を執行する権利を有する」("this 社員 has the right to perform 民間紛争解決
+手続代理関係業務"). The ✕ (no, not a 認定調査士) arrow leads to a
+conclusion node reading「その社員は同業務を執行する権利を有しない」
+("this 社員 does not have the right to perform that business").
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その社員が土地家屋調査士法3条2項に規定する土地家屋調査士（認定
+調査士）であるかを、社員一人ひとりについて確認します。次に、認定調査
+士である社員だけが民間紛争解決手続代理関係業務を執行する権利を持つ
+ことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+認定調査士のみ執行
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled blue circle containing the number 3.
+Heading (bold, ONE line):
+正当な事由の有無をまず確認する
+Diagram: Draw as an actual decision flowchart. Start node: a person icon
+of a 土地家屋調査士, alongside a locked speech-bubble icon representing a
+client's secret information learned through their work. Diamond branch
+node, labeled「秘密を第三者に漏らすことについて、正当な事由があるか？」
+("is there a legitimate reason for disclosing the secret to a third
+party?"). The ✕ (no legitimate reason — the general rule, and the
+scenario this panel assumes) arrow leads to a blue-highlighted conclusion
+node reading「秘密を漏らしてはならない（秘密保持義務）」("the secret must
+not be disclosed — the duty of confidentiality"). The ○ (a legitimate
+reason exists — the exception) arrow leads to a conclusion node reading
+「その部分に限り、秘密を漏らすことも許される」("disclosure is permitted,
+but only to that extent").
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、業務上知った秘密を第三者に伝えようとする場面で、正当な事由がある
+かを確認します。次に、正当な事由がなければ漏らしてはならず、正当な事由
+がある場合に限って例外的に許されることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+正当事由なければ厳守
+
+--- PANEL 4（肢エ） ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line):
+誤認行為と誤認に基づく取引の両方を確認する
+Diagram: Draw as an actual decision flowchart. Start node: an icon of a
+person who is not actually a 社員 of a 土地家屋調査士法人 (rendered in a
+faded/dotted-outline style, since they never actually held that status).
+Diamond branch node 1, labeled「その者は、自己を社員であると誤認させる
+行為をしたか？」("did this person act in a way that caused others to
+mistakenly believe they were a 社員?"). The ✕ (did not) arrow leads to a
+conclusion node reading「本肢の対象外（通常の第三者としての扱い）」("outside
+the scope of this panel — treated as an ordinary third party"). From the
+○ (did — this panel's case) arrow, Diamond branch node 2, labeled「取引の
+相手方は、その誤認に基づいて土地家屋調査士法人と取引をしたか？」("did the
+counterparty transact with the 土地家屋調査士法人 in reliance on that
+mistaken belief?"). The ○ (transacted in reliance on the mistaken belief)
+arrow leads to a blue-highlighted conclusion node reading「その者は、
+相手方に対し社員と同一の責任を負う」("this person bears the same
+liability toward the counterparty as a 社員 would"). The ✕ (transacted
+without relying on the mistaken belief) arrow leads to a conclusion node
+reading「社員と同一の責任は生じない（誤認との結び付きがないため）」
+("no liability equivalent to a 社員's arises, since there is no link to
+the mistaken belief").
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、社員でない者が自己を社員であると誤認させる行為をしたかを確認し
+ます。次に、取引の相手方がその誤認に基づいて土地家屋調査士法人と取引
+をしたかを確認すると、社員と同一の責任を負うかどうかが分かります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+誤認+取引で同一責任
+
+--- PANEL 5（肢オ） ---
+Badge: a filled green circle containing the number 5.
+Heading (bold, ONE line):
+研修は調査士会と連合会の両方から受ける
+Diagram: A relationship/organization diagram (系統図・関係図). A person
+icon of a 土地家屋調査士 sits at the center. Two lines extend out from it,
+connecting respectively to a building icon labeled「所属する土地家屋調査士
+会」("the 土地家屋調査士会 the person belongs to") and a building icon
+labeled「日本土地家屋調査士会連合会」("the national federation of
+土地家屋調査士会"). From both buildings, a small seminar icon (a podium
+with audience seating) representing「研修」("training") flows toward the
+person icon, with the branching lines making clear that training comes
+from two separate providers. Above the person icon, overlay an upward-
+pointing arrow icon representing improved competence, together with a
+soft「努力義務」("a duty of effort," not a hard "義務" stamp) badge rather
+than a rigid mandatory-duty stamp.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、研修の実施主体が所属する土地家屋調査士会と日本土地家屋調査士会
+連合会の両方であることを確認します。次に、これらの研修を受けて資質の
+向上を図ることが、義務ではなく努力義務として定められていることを確認
+します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+研修受講は努力義務
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+平成26年度 午後の部 第20問（土地家屋調査士法15条2項、3条2項・35条2項、
+24条の2、35条の4、25条1項）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 業・廃・連・経・由・認・執・行・秘・
+密・漏・誤・責・資・質・努・研・修・員・社. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character that
+is not standard Japanese hiragana, katakana, or Jōyō kanji — including
+any Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢（イ・ウ・エ）is drawn as an actual flowchart with
+branch nodes (not a bare illustration with no visible decision
+structure), that no 肢 with a genuinely hidden second condition has been
+flattened into a single check, that each 着眼点 callout states a checking
+order rather than only a conclusion and keeps every required element from
+the source article distinct (no merged or dropped requirements, and in
+particular that 肢エ's two conditions — the deceiving act and the
+counterparty's reliance on it — remain two separate nodes), confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

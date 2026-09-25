@@ -30,6 +30,7 @@ if hasattr(sys.stdout, "reconfigure"):
 ALL_YEARS = [
     "r7", "r6", "r5", "r4", "r3", "r2", "r1",
     "h30", "h29", "h28", "h27", "h26", "h25", "h24", "h23", "h22", "h21", "h20",
+    "h19", "h18", "h17",
 ]
 BASE = os.path.join(os.path.dirname(__file__), "..")
 HEADING_RE = re.compile(r"^## インフォグラフィック プロンプト（.*作図ガイド）\s*$", re.M)

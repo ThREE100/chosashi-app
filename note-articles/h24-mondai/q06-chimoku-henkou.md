@@ -189,3 +189,205 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a calendar icon showing two dates, a farmland
+icon transforming into a house-lot icon, an underground subway-tunnel
+icon beneath a surface lot, a river/河川 icon, a collapsed and overgrown
+forest-hillside icon, and a condominium building on stilts. Panel 4
+（肢エ）is the only 肢 in this problem that requires two sequential checks
+（現況が変わったか → 保安林の指定が解除されたか）, so it alone is drawn as
+a two-diamond flowchart; Panel 1（肢ア）is drawn as a timeline comparing
+two dates rather than a flowchart; Panels 2, 3 and 5（肢イ・ウ・オ）are
+drawn as a side-by-side comparison rather than a flowchart, since each
+turns on distinguishing which of two things is legally relevant (surface
+use vs. underground use, two independent registrations, or the presence
+vs. absence of a real restriction), not on checking sequential
+conditions. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成24年度午後第6問 作図ガイド（地目変更登記の考え方）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+登記原因日は現況が変わった日
+Diagram: A horizontal timeline with two labeled points. The earlier point
+is labeled "許可日（6月1日）" and is crossed out with a red ✕ to show it is
+NOT the登記原因日. The later point is labeled "現況が変わった日（造成完了
+・8月1日）" and is circled with a green checkmark labeled "登記原因日はこ
+ちら". Below the timeline, a small farmland icon transforms into a
+house-lot icon at the later point, visualizing the actual change in現況.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、農地法所定の許可があった日と、実際に現況が変わった日（造成工事が完
+了した日など）を時系列に並べます。次に、登記原因の日付として使うのは許可
+日ではなく、現況が変わった日の方であると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+現況変化日が基準
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+地目は地表の現況だけで決まる
+Diagram: A side-by-side comparison split into two boxes. LEFT box labeled
+"地表（地目認定の基準はここ）": a surface land-plot icon shown as an
+unused, empty lot, with a green checkmark confirming its current 地目は
+そのまま変わらない. RIGHT box labeled "地下（地目認定とは無関係）": an
+underground subway-tunnel icon running beneath the same lot, with a label
+"鉄道用地" crossed out with a red ✕, showing that underground railway use
+alone does not change the surface 地目.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目の認定は地表の現況で決まるのか、地下の利用状況でも決まるのかを
+見分けます。次に、地表が特定の用途に供されていない土地であれば、地下に鉄
+道の線路が敷設されていても、地目を鉄道用地に変更する登記の申請義務は生じ
+ないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地下利用だけでは不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+河川区域の登記は抹消不要で変更可
+Diagram: A side-by-side comparison. LEFT side（誤った思い込み）: a
+land-plot icon with a "河川区域内" registration tag, and a地目変更登記の
+申請書 crossed out with a red ✕ labeled "抹消が先". RIGHT side（正しいル
+ール）: the same land-plot icon with the "河川区域内" tag still attached
+(not erased), while the地目変更登記の申請書 is submitted successfully
+with a green checkmark, showing the two procedures are independent of
+each other.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、河川区域内の土地である旨の登記と、地目の変更の登記が、同じ手続なの
+か別々の手続なのかを見分けます。次に、この二つは別の制度であるため、河川
+区域内である旨の登記を抹消しなくても、地目の変更の登記を申請できると判断
+します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+抹消は前提要件でない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+保安林は指定解除まで地目変更不可
+Diagram: A decision-tree flowchart with two diamond nodes. The first
+diamond node reads "現況は変わったか（崩壊してかん木類が生える荒地になっ
+たか）？" with the はい branch proceeding downward (this 肢 presupposes
+this has happened). The second diamond node, drawn with a thicker
+highlighted border, reads "保安林としての指定は解除されたか？" Its いいえ
+branch leads to a conclusion node reading "原野への地目変更登記はできない"
+with a red ✕ over a変更申請の書類アイコン; its はい branch (drawn faded,
+since it is not this肢の事実) leads to a faded conclusion node reading
+"原野への地目変更登記ができる（本問では未解除）".
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、保安林の現況が崩壊してかん木類が生える荒地のようになったかどうかを
+確認します。次に、保安林としての指定が解除されたかどうかを確認し、指定が
+解除されていなければ、現況が変わっていても原野への地目の変更の登記は申請
+できないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+指定解除が先決
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+敷地権登記があっても地目変更は可能
+Diagram: A side-by-side comparison. LEFT side（誤った思い込み）: a
+condominium building's shared land-plot icon with a "敷地権" registration
+tag, and a地目変更登記（宅地以外への変更）の申請書 crossed out with a red
+✕ labeled "敷地権があるから不可". RIGHT side（正しいルール）: the same
+land-plot icon with the "敷地権" tag still attached, while the地目変更登
+記の申請書 is stamped with a green checkmark, showing that the existence
+of the敷地権である旨の登記 has no bearing on whether the地目 can be
+changed.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この記載が敷地権の登記の話なのか、地目の変更の可否の話なのかを見分
+けます。次に、敷地権である旨の登記があることは地目の認定とは無関係である
+ため、宅地以外の地目への変更の登記も禁止されないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+変更禁止ではない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法37条1項・43条・46条、不動産登記規則119条、不動産登記事務取扱
+手続準則68条・69条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 現, 況, 許, 河, 川, 区, 域, 抹, 消, 保,
+敷, 権. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that 肢エ is drawn as an actual
+two-diamond decision flowchart with both the はい and いいえ outcomes of
+its second diamond given a real conclusion node rather than a bare
+illustration or a looping arrow, that panels 1, 2, 3 and 5 are drawn as a
+timeline or a side-by-side comparison rather than an unnecessary
+flowchart, that each 着眼点 callout states a checking order rather than
+only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

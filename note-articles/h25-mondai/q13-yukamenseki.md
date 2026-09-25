@@ -199,3 +199,207 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric atriums, underground corridors,
+chutes crossing a wall, slanted walls, and bay windows with a measuring
+tape. Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Panel 3
+（肢ウ）must show both outcomes of its single decisive check (連続してい
+るか、独立しているか), since both are real conclusions described in the
+article, not a hypothetical: never draw a looping arrow back into an
+earlier node — each branch must end at its own distinct conclusion node.
+Panel 5（肢オ）must be drawn as an actual two-diamond AND-flowchart rather
+than a single illustration, because this 肢 looks like a one-check rule
+("高さ1.5メートル以上") but the article's own text requires two separate
+conditions to both be true before the 出窓 is counted — do not compress
+them into a single check. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion.
+Do not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+— do not drop or merge a required element (keep "高さ1.5メートル以上" and
+"下部が床面と同一の高さ" as two distinct checks, since the source article
+treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成25年度午後第13問 作図ガイド（建物の床面積）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+吹抜けはどの階にも算入しない
+Diagram: An isometric cutaway building with an open two-story atrium
+（吹抜け）shown as empty space with no floor slab at any level. A red X
+sits over a floor-area calculation attached to that empty column at both
+the 1階 and 2階 levels.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の一部が上階まで吹抜になっているかを確認します。吹抜になってい
+る部分にはそもそも床が存在しないため、上階を含めどの階の床面積にも算入し
+ません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+どの階にも算入しない
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+地下街は通路・階段を除いた区画で算定
+Diagram: An isometric underground mall corridor. An open public walkway
+（通路及び階段）is greyed out as excluded, while individual shop units
+enclosed by walls and pillars（壁又は柱等により区画された部分）are
+highlighted as counted.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対象が地下街のような建物であることを確認します。地下街の場合は、常
+時一般に開放されている通路及び階段の部分を除き、壁又は柱等により区画され
+た部分の面積で床面積を定めます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+通路・階段は除く
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+連続するシュートは外の分も算入
+Diagram: Draw this panel as a decision flowchart with one diamond node
+that has two equally important outcomes, both ending at their own
+conclusion node (no looping arrow back into an earlier node). Start node:
+建物にダストシュート（煙突等を含む）がある。Diamond node: そのシュートは
+建物の内部から連続して外側にはみ出しているか、それとも独立して屋外に設置
+されているか？Branch「内部から連続」leading to a conclusion node reading
+外側の部分も含めて床面積に算入する; branch「独立して屋外に設置」leading to
+a separate conclusion node reading 床面積に算入しない. Show an isometric
+building cross-section with a vertical chute that starts inside the wall
+and continuously protrudes outside the wall, both the inside portion and
+the protruding outside portion highlighted together with a single green
+checkmark, and a separate, small isometric chimney standing alone outside
+the building shown greyed out with a red X.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、そのダストシュートが建物の内部から連続してはみ出しているのか、それ
+とも建物とつながっていない独立した設備なのかを確認します。内部から連続し
+ている場合は、外にはみ出した部分も含めて床面積に算入します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+はみ出た部分も算入
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+傾斜壁は床が接する中心線で算定
+Diagram: An isometric room with a slanted wall（傾斜壁）. A highlighted
+dashed line is drawn exactly where the wall meets the floor（床面が接着
+する部分の中心線）, rather than at the wall's upper, wider point.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、柱又は壁が傾斜している建物であることを確認します。その場合の床面積
+は、天井側の広がりではなく、各階の床面が接着する壁その他の区画の中心線で
+囲まれた部分によって定めます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+床に接する中心線
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+出窓は高さと床位置の両方を確認
+Diagram: Draw this panel as an actual two-diamond AND-flowchart on an
+isometric bay window（出窓）protruding from a wall. First diamond node:
+出窓の高さは1.5メートル以上か？with a measuring tape icon; はい branch
+proceeding to a second diamond node（いいえ branch leading to a
+conclusion node reading 床面積に算入しない）。Second diamond node: 出窓の
+下部は床面と同一の高さにあるか？with はい branch leading to a conclusion
+node reading 床面積に算入する（いいえ branch also leading to a conclusion
+node reading 床面積に算入しない）。Show both checks passing together with
+green checkmarks on the illustrated bay window.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、出窓の高さが1.5メートル以上あるかを確認します。次に、その出窓の下部
+が床面と同一の高さにあるかを確認し、この2つの条件を両方とも満たす場合に
+限り床面積に算入します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+1.5m以上かつ床と同高
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則115条・不動産登記事務取扱手続準則82条（4号：地下街、8号：
+吹抜け、9号：傾斜壁、10号：煙突・ダストシュート、11号：出窓）に基づく整理
+です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to
+積・階・棟・柱・壁・傾・斜・窓・区・画・街・建・物・地・号.
+If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire
+canvas for any character that is not standard Japanese hiragana,
+katakana, or Jōyō kanji — including any Chinese-only character, Korean
+Hangul, other non-Japanese script, or stray decorative glyph — and remove
+or redraw it so that only standard Japanese text appears anywhere in the
+image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢（肢ウ・肢オ）is
+drawn as an actual flowchart with branch nodes (not a bare illustration
+with no visible decision structure), that the genuinely hidden second
+condition in 肢オ（高さ1.5メートル以上「かつ」下部が床面と同一の高さ、の
+2条件）has not been flattened into a single check, and that 肢ウ's two
+outcomes (内部から連続／独立して屋外) both end at their own conclusion
+node with no looping arrow back into an earlier node, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

@@ -109,7 +109,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Characters such as「登」「記」
@@ -199,11 +207,220 @@ Small credit text in the corner (optional, keep minimal).
 すべて常用漢字(Jōyō kanji)の字体で描画し、簡体字は一切使用しないこと。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly,
+standard Japanese (Jōyō) form, not Simplified Chinese and not
+Traditional Chinese. If any character
+renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals 5 exactly,
 with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文（選択肢1〜5）を読んだときに、実際に手を動かして描くべき図と、その図にたどり着くまでにどの順番で何を確認すればよいかを、肢ごとに示す解き方ガイド。1は「地図に準ずる図面が要件を満たすか」を単純な決定木型で、2は電磁的記録化と従前地図の閉鎖をタイムライン型で、3は「地図＋建物図面」と「地図に準ずる図面＋建物図面」を対比する正誤対比型（思い込みチェック型）で、4は訂正申出ができる人の範囲を系統図・関係図型で、5は区分建物の建物所在図に記録する範囲を配置図型で、それぞれ構成した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric document icons for 地図, 地図に準ずる
+図面, and 建物図面, a folder icon for 建物所在図, small registry-stamp
+icons, a glowing digital screen icon for 電磁的記録, isometric person
+icons for 表題部所有者・所有権の登記名義人・相続人その他の一般承継人, and
+a multi-story condominium building icon with one unit highlighted for
+区分建物. Where a 選択肢 requires checking multiple conditions in sequence
+before reaching a conclusion, draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node for EACH branch — every diamond node must send both its Yes branch
+and its No branch to its own distinct, clearly labeled conclusion node;
+never route a branch arrow back to an earlier node in the diagram (no
+looping arrows). Where a 選択肢 is resolved by a single check, a labeled
+illustrative diagram is sufficient — do not force a flowchart. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
+〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
+case or precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成18年度午後第17問 作図ガイド（地図・地図に準ずる図面・建物所在図の区別）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（選択肢1） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+地図としての要件を満たすかを確認する
+Diagram: A single diamond-shaped decision node labeled 地図に準ずる図面が、
+修正等により地図としての要件（精度・内容）を満たすか. The Yes branch arrow
+leads to its own conclusion node showing the same provisional-looking
+sketched map document, now stamped「地図」with a green checkmark and a
+small label「作り直し不要・そのまま備え付け」. The No branch arrow leads to
+a separate, distinct conclusion node showing the same document unchanged,
+labeled「地図に準ずる図面のまま」. Both branch arrows point forward only —
+no looping arrow back to the diamond node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図に準ずる図面が、修正などによって地図としての要件（精度・内容）
+を満たすに至ったかを確認します。満たしていれば、新たに別の図面を作り直す
+のではなく、その図面自体をそのまま地図として備え付けます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+そのまま地図に格上げ
+
+--- PANEL 2（選択肢2） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+電磁的記録への記録時点で従前地図が閉鎖
+Diagram: A left-to-right timeline with two stages. Stage 1: an isometric
+paper map labeled「従前の地図」sitting on a registry shelf. An arrow
+labeled「登記官が地図を電磁的記録に記録」points to Stage 2: a glowing
+digital screen/tablet icon displaying the new map labeled「電磁的記録」
+with a green checkmark, while the Stage 1 paper map is stamped with a red
+「閉鎖」seal.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図が電磁的記録に記録されたという事実があるかを確認します。記録
+されていれば、従前の地図の全部または一部が閉鎖され、以後は電磁的記録の
+地図が正式な地図として扱われます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+従前の地図は閉鎖
+
+--- PANEL 3（選択肢3） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+建物所在図は地図と建物図面からのみ作成できる
+Diagram: A contrast frame split into two halves. LEFT half（正しいルール）:
+two isometric documents labeled「地図」and「建物図面」merging with a green
+checkmark into a folder labeled「建物所在図」. RIGHT half（誤りやすい思い
+込み）: a sketched provisional document labeled「地図に準ずる図面」and a
+document labeled「建物図面」attempting to merge into the same folder
+labeled「建物所在図」, blocked by a large red ✕ mark and a strike-through
+arrow.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、作成材料が「地図」なのか「地図に準ずる図面」なのかを確認します。
+地図に準ずる図面はあくまで地図が備え付けられるまでの仮の図面であるため、
+建物所在図の作成材料にはできません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+準ずる図面では作成不可
+
+--- PANEL 4（選択肢4） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+地番誤りを訂正申出できる人を確認する
+Diagram: A central land-plot icon labeled「地図上の地番に誤りがある土地」
+with a red circled error mark, connected by three branch lines to three
+isometric person icons labeled「表題部所有者」「所有権の登記名義人」
+「相続人その他の一般承継人」, each with a green checkmark and a small
+label「訂正の申出ができる」. All three lines converge into a document icon
+labeled「訂正の申出」being handed to a registry-office building icon.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図の訂正を申し出ようとする人が、その土地の表題部所有者、所有権の
+登記名義人、またはこれらの相続人その他の一般承継人のいずれかに当たるかを
+確認します。当たる場合には、その人が単独で地図の訂正の申出をすることが
+できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+名義人・相続人等が申出可
+
+--- PANEL 5（選択肢5） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+区分建物では一棟全体の位置を記録する
+Diagram: A side-by-side layout diagram. LEFT（誤りやすい思い込み）: a
+multi-story apartment building with only one unit highlighted and outlined
+in isolation, labeled「専有部分だけの位置」, crossed out with a red ✕.
+RIGHT（正しいルール）: the same multi-story apartment building with a
+dashed outline around the ENTIRE building labeled「一棟の建物」, a green
+checkmark, and an arrow pointing to a building-location map folder labeled
+「建物所在図」showing the whole building's position on the land plot.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、記録の対象が区分建物であるかを確認します。区分建物であれば、その
+専有部分ごとの位置ではなく、それが属する一棟の建物全体の位置を建物所在図
+に記録しなければなりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一棟全体の位置を記録
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則13条2項・不動産登記規則11条1項・12条1項・14条
+4号・16条1項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 地・図・準・建・物・登・記・規・則・
+訂・正・閉・鎖・電・磁・棟・専・有. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character that
+is not standard Japanese hiragana, katakana, or Jōyō kanji — including
+any Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 選択肢 is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 選択肢 with a genuinely hidden second condition has been flattened into
+a single check, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 選択肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```

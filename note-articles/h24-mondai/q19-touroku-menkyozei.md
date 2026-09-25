@@ -185,3 +185,212 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a tax-exempt (非課税) seal versus a coin/yen tax
+stamp for 抹消登記・敷地権付き土地の分筆・代位嘱託 (肢ア・イ・オ), a
+two-building merger scene with an extra 甲区（権利部）registration sheet
+appearing for the合体登記 (肢ウ), and a land-plot arrangement diagram
+connecting 甲土地 and 乙土地 with an arrow for the combined 分筆＋合筆
+application (肢エ). Most 肢 in this problem turn on a single check —
+whether the fact pattern falls inside or outside a taxable category, or
+whether a factor readers assume matters actually does not — so panels 1,
+2, 3, and 5 (肢ア・イ・ウ・オ) are drawn as a side-by-side comparison
+between a labeled「誤った思い込み」box and a labeled「正しい理解」box, each
+with its own icon and outcome, rather than a flowchart with diamond
+nodes. Panel 4 (肢エ) is instead drawn as a left-to-right land-plot
+process diagram with three stages connected by arrows: 甲土地の一部が
+分筆される場面、その部分が乙土地に合筆される場面、そして一の申請情報として
+まとめられ2つの税額が合算される場面. Where a 肢 is resolved by a single
+check, a labeled comparison or illustrative diagram is sufficient — do
+not force a flowchart with diamond nodes onto it. Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成24年度午後第19問 作図ガイド（登録免許税）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+分筆抹消は表題部登記で非課税
+Diagram: A side-by-side comparison. Left box labeled「誤った思い込み」: a
+subdivision-registration document stamped 抹消登記, with a coin icon
+labeled 1,000円 and a red ✕ mark over the whole scene (the mistaken
+assumption that every cancellation of a registration costs money). Right
+box labeled「正しい理解」: the same document, but now stamped 錯誤による
+分筆登記の抹消 with a tax-exempt (非課税) seal in place of the coin, and a
+green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、抹消しようとしている登記が、土地や建物の表題部の登記の抹消にあたる
+かどうかを確認します。表題部の登記の抹消であれば、次に、登録免許税法別表
+第一の課税対象からこの抹消登記は除外されると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+表題部抹消は非課税
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+敷地権の有無は課税に関係ない
+Diagram: A side-by-side comparison. Left box labeled「誤った思い込み」: a
+condominium's land plot icon labeled 敷地権 being subdivided, with a
+非課税 seal on the application and a red ✕ over it (the mistaken belief
+that having a 敷地権 registration makes the subdivision tax-exempt).
+Right box labeled「正しい理解」: the same land plot being subdivided, with
+a normal coin/yen tax stamp labeled 1,000円 on the application, and a
+label 所有権登記のある土地の分筆 beside it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆しようとする土地が所有権の登記のある不動産かどうかを確認しま
+す。所有権の登記があれば、次に、その土地に敷地権が設定されているかどう
+かにかかわらず、通常どおり分筆1筆につき1,000円が課税されると判断しま
+す。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+敷地権は課税に無関係
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+名義人が違う合体は権利登記も必要
+Diagram: A side-by-side comparison. Left box labeled「誤った思い込み」: two
+buildings with different owner-name tags（A・B）merging into one building
+icon, with only a single coin labeled 1,000円 and a red ✕ over an empty
+registration-sheet icon (the mistaken assumption that a 表示の登記だけで
+完結する). Right box labeled「正しい理解」: the same merging buildings,
+but now with an additional 甲区（権利部）の登記記録シート being stamped
+合体による所有権の登記, and the original 1,000円 coin joined by extra
+coins labeled 1,000円超, with a green checkmark on the 甲区の登記記録.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体前の建物について、所有権の登記名義人がAさんとBさんのように異
+なるかどうかを確認します。名義人が異なる場合は、次に、合体後の建物の登
+記記録の甲区に「合体による所有権の登記をする旨」を記録する権利の登記も
+必要になり、定額の1,000円だけでは済まないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+1,000円では済まない
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+分筆と合筆の一括申請は合算2,000円
+Diagram: A left-to-right land-plot process diagram in three connected
+stages. Stage 1: 甲土地（所有権の登記あり）の一部が点線で切り出され、矢印
+の先に分筆1,000円のコインが置かれる（分筆による登記事項の変更の登記）。
+Stage 2: 切り出された部分が矢印でとなりの乙土地（所有権の登記あり）に
+向かい、そこに合筆1,000円のコインが置かれる（合筆による登記事項の変更の
+登記）。Stage 3: 単一の申請書アイコン（一の申請情報）が2つの1,000円コイ
+ンを囲み、合計2,000円のコインへとまとめられる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地の一部を分筆する登記事項の変更（1,000円）が必要かどうかを確
+認します。次に、その部分を乙土地に合筆する登記事項の変更（1,000円）も
+一の申請情報でまとめて申請する場合、両方の税額を合算して2,000円になる
+と判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+合計2,000円
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+代位者が公共団体なら分筆は非課税
+Diagram: A side-by-side comparison. Left box labeled「誤った思い込み」: a
+private landowner icon（私人）with a coin tag labeled 1,000円 and a red
+✕ over a 非課税 seal (the mistaken belief that, since the registered
+owner is a private individual, the registration must be taxed). Right
+box labeled「正しい理解」: a local-government building icon（地方公共団体）
+handing a 代位嘱託書 to a registry-office icon on behalf of the private
+landowner, with a 非課税 seal stamped on the document and a green
+checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この分筆の登記を実際に嘱託している代位者が誰であるかを確認しま
+す。代位者が地方公共団体のように登録免許税法5条1号の非課税の扱いを受け
+る者であれば、次に、登記名義人が私人であっても、この代位嘱託による登記
+には登録免許税が課されないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代位者が公共団体なら非課税
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+登録免許税法別表第一「一 不動産の登記」（十三）イ・ロ・（十五）、同法5条
+1号、不動産登記規則120条2項1号に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 登・録・免・許・税・錯・誤・抹・消・
+敷・権・合・体・嘱・託・名・義. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+panels 1, 2, 3, and 5（肢ア・イ・ウ・オ）each show a clear「誤った思い込み」
+versus「正しい理解」comparison rather than a bare unlabeled illustration,
+that panel 4（肢エ）clearly shows the three-stage 分筆→合筆→合算 process
+connected by arrows, that no 肢 with a genuinely hidden second condition
+（肢ウの名義人の異同、肢イの敷地権の有無が無関係であること）has been
+flattened away, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

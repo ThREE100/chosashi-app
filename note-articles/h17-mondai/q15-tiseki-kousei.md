@@ -198,3 +198,195 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land-plot icons, a measuring-tape
+icon, a bank icon for 抵当権者, person icons for 所有者・共有者・買主・
+売主, a registry office desk icon (法務局), a document icon for 地積更
+正登記の申請書, a ✕ mark over unnecessary requirements, and a green
+checkmark for satisfied ones. Each 肢 here is resolved by confirming a
+single point against a common misconception, so a labeled illustrative
+diagram (正誤対比型 or 系統図・関係図型) is sufficient — do not force a
+branching flowchart where the source article does not require checking
+multiple sequential conditions. Unlike a glanceable summary poster, each
+panel MAY include a short「着眼点」callout box with 1-2 sentences that
+state the checking ORDER in words, not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body
+text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成17年度午後第15問 作図ガイド（地積更正登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+地積の更正登記に申請義務はない
+Diagram: A 正誤対比型 split panel. LEFT side (誤りやすい思い込み): 新
+たな所有者のアイコンが「更正登記をしなければならない」というラベル
+の付いた申請書を無理やり持たされているイラストに、大きな赤い×印と
+取り消し線を描く。RIGHT side (正しいルール、太い縁取りで強調): 同じ
+新たな所有者のアイコンが書類を持たずに自由に立ち、「申請するかどう
+かは任意」というラベルと緑のチェックマークを添える。対比として、薄
+いグレーで縮小表示した「変更登記」のアイコンに「1か月以内に申請義
+務あり」というラベルを付け、更正登記とは別の話であることを示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が地積の「変更」の登記ではなく「更正」の登記であるこ
+とを確認します。次に、更正の登記には変更の登記のような申請義務を課
+す規定がなく、新たな所有者にも申請義務は生じないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+申請義務なし
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+抵当権者の承諾なしで更正登記を申請可
+Diagram: A 正誤対比型 split panel. LEFT side (誤りやすい思い込み): 銀
+行のアイコン（抵当権者）の前で、所有者が承諾書を差し出しているイラ
+ストに「承諾書が必要」というラベルを重ね、大きな赤い×印と取り消し
+線を描く。RIGHT side (正しいルール、太い縁取りで強調): 所有者が銀行
+を素通りして、法務局の建物アイコンへ直接「地積更正登記の申請書」を
+提出しているイラストに「承諾は不要」というラベルと緑のチェックマー
+クを添える。銀行のアイコンは脇に立ち、何もしていない姿で描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が抵当権のような権利に関する登記ではなく、表示に関す
+る登記であることを確認します。次に、表示に関する登記である地積更正
+登記では、抵当権者の承諾を証する情報の提供は必要とされていないこと
+を確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾は不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+共有者は1人だけで単独申請できる
+Diagram: A 系統図・関係図型 diagram. Three isometric person icons
+representing 共有者 standing side by side. Only one of them steps
+forward to submit an「地積更正登記の申請書」at a registry office desk
+icon (法務局); the other two stand back, unobtrusive, with no
+documents in hand. A label「共有者全員のための保存行為」sits beside
+the stepping-forward figure with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記が権利そのものを動かす登記ではなく、現況を正しく公示
+するだけの表示に関する登記であることを確認します。次に、共有者全員
+の利益になる保存行為として、共有者のうちの1人から単独で申請できる
+ことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+単独申請できる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+地積増加分の証明情報は不要
+Diagram: A 正誤対比型 diagram. An isometric small land plot growing
+into a larger one via an arrow, labeled「実測により地積が増加」。LEFT
+side (誤りやすい思い込み): the newly added area carries a「所有権証
+明情報」document icon with a large red X and a strike-through line.
+RIGHT side (正しいルール、太い縁取りで強調): the same newly added area
+carries only a measuring-tape icon and a green checkmark labeled「地
+積測量図のみで足りる」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地積が増加する場合でも、新たに所有権を取得するわけではないこ
+とを確認します。次に、増加部分について改めて所有権を証する情報を提
+供する必要はないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+証明情報は不要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+買主は売主に代位して更正登記を申請
+Diagram: A 系統図・関係図型 diagram drawn as two numbered steps, left
+to right. ①買主のアイコンが売主のアイコンの背後から手を伸ばし、「地
+積更正登記」というラベル付きの矢印（「代位」という小さなラベルを添
+える）で法務局の建物アイコンへ申請書を提出する。②その先に続く矢印
+で「分筆登記の申請へ」という次のステップを示す小さなアイコンを配置
+し、更正登記が分筆登記の前提であることを示す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地積に錯誤があるままでは分筆登記を申請できないことを確認しま
+す。次に、買主が自分の権利を保全するために、売主に代位して地積更正
+登記を申請し、それから分筆登記へ進むことができることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代位申請できる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法37条（変更登記の申請義務、対比）・38条（更正登記の申請
+人資格）、不動産登記令別表六の項（添付情報）、民法423条（代位、肢
+オ）に基づく整理です。肢ウの共有者単独申請は、登記実務上の取扱いに
+よるものです。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・地・登・記・所・証・単・独・
+買・抵・当・承・諾・更・代. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+each 正誤対比 panel clearly crosses out the mistaken requirement while
+highlighting the correct rule, that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

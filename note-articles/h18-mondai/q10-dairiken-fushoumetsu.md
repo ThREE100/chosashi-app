@@ -114,7 +114,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -206,9 +214,14 @@ Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially for
-権・代・理・消・滅・復・任・監・督・登・記・号・誤. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
+権・代・理・消・滅・復・任・監・督・登・記・号・誤 (and not Traditional Chinese). If any character renders
+as a Simplified Chinese variant or a Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the number of cards equals 5 exactly, with no
 duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
@@ -219,4 +232,226 @@ and no additional text block of any kind — the poster ends immediately
 after the last card), and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric characters for 本人・代理人・復代理人
+・法定代理人, a court-gavel icon for 後見開始の審判, a tombstone icon for
+本人死亡, a torn-certificate icon for 代理権消滅, a shield icon for 選任
+・監督の責任, and two agent characters stamping the same registration
+document for 複数代理人. Where a 肢 requires checking multiple conditions
+in sequence before reaching a conclusion (肢ア・肢イ・肢エ・肢オ), draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No branch arrows, and a
+final conclusion node for BOTH outcomes - do not leave either branch's
+destination blank, and do not draw any arrow looping back to an earlier
+node. Panel 3 (肢ウ) uses a correct-rule-versus-common-mistake contrast
+layout instead of a flowchart, since the difficulty there is recognizing
+that a special rule (不動産登記法17条) overrides the general civil-law
+rule (民法111条1項1号), not checking sequential conditions. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」
+callout box with 1-2 sentences that state the checking ORDER in words
+(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
+not include case or precedent numbers (article numbers are fine; for
+肢オ do not name the specific 先例 number). Keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text - do not drop or merge a
+required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成18年度午後第10問 作図ガイド（申請代理人）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+本人の後見開始は代理権の消滅事由でない
+Diagram: An actual decision flowchart. An isometric elderly character
+（本人）with a court-gavel icon labeled「後見開始の審判」above their head
+stands next to an unaffected agent character（代理人）holding a document
+with a green checkmark. Diamond node (thick highlighted border, full
+color): 「生じた事情は民法111条1項各号の消滅事由（本人の死亡、代理人の
+死亡・破産手続開始の決定・代理人の後見開始の審判）のいずれかに当たるか」.
+はい arrow leads to a conclusion node showing a crossed-out agent icon:
+「代理権は消滅する」. いいえ arrow leads to a conclusion node（highlighted
+as this panel's own outcome）: 「代理権は消滅しない」with a green
+checkmark, beside a crossed-out speech bubble reading「後見人の承諾」with
+a red ✕ mark, labeled「後見人の承諾は不要」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、生じた事情が代理権の消滅事由（民法111条1項各号：本人の死亡、代理人
+の死亡・破産手続開始の決定・代理人の後見開始の審判）のいずれかに当たるか
+を確認します。本人が後見開始の審判を受けたことはこの消滅事由に含まれない
+ため、代理権は消滅せず、後見人の承諾を得る必要もありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+後見人の承諾は不要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+当時は選任・監督の過失の有無で判定
+Diagram: An actual decision flowchart. An isometric agent character
+（代理人）hands a task to a sub-agent character（復代理人）, with a small
+「本人の許諾」tag nearby. Diamond node (thick highlighted border, full
+color): 「復代理人の選任又は監督について過失があったか」. いいえ arrow
+leads to a conclusion node with a shield icon: 「選任・監督にミスなし→
+責任は選任・監督の範囲にとどまる」. はい arrow leads to a conclusion node
+with a warning icon: 「選任・監督にミスあり→復代理人の行為について責任を
+負う」. A small corner tag near the whole diagram reads「出題当時の規定
+（現在は削除）」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、代理人が復代理人の選任又は監督について過失があったかを確認します。
+出題当時（平成18年）の民法105条の下では、過失がなければ代理人は復代理人
+の行為について責任を負わず、過失があった場合に限り本人に対して責任を
+負いました（現在この規定は削除されています）。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+当時は限定責任
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+本人死亡でも登記の代理権は消滅しない
+Diagram: Split into left and right panels. LEFT panel labeled「誤りやすい
+思い込み」shows a tombstone-style icon labeled「本人死亡」with a thought
+bubble reading「民法の原則どおり代理権は消滅するはず（民法111条1項1号）」
+struck through with a strikethrough line, next to a faded, dotted-outline
+agent character holding a crossed-out document. RIGHT panel labeled
+「正しいルール」(drawn with a thick highlighted border and full color)
+shows the same tombstone icon「本人死亡」next to an agent character
+（代理人）who continues holding an unaffected registration document, with
+a green checkmark stamp reading「不動産登記法17条の特則」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、民法の原則（111条1項1号）では本人の死亡によって代理権が消滅する
+ことを確認します。次に、これが登記の申請代理権であることに着目し、不動
+産登記法17条の特則が適用されるかを確認します。表示登記の申請代理権には
+17条の特則が適用されるため、本人が死亡しても代理権は消滅しません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+登記申請は継続できる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in beige containing the number 4.
+Heading (bold, ONE line):
+法定代理人の責任は原則と例外が逆転しやすい
+Diagram: An actual decision flowchart. An isometric guardian character
+（法定代理人）selects a sub-agent character（復代理人）without any nearby
+consent icon from a small child character（本人）, labeled「本人の同意は
+不要」. Diamond node (thick highlighted border, full color): 「やむを
+得ない事由があったか」. いいえ arrow leads to a conclusion node with a
+large bold checkmark: 「原則：復代理人の行為について全面的な責任を負う」.
+はい arrow leads to a conclusion node on a narrower path: 「例外：選任及び
+監督についての責任のみを負う」. A red warning icon marked「原則と例外が
+逆だと誤り」sits between the two paths.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、法定代理人が本人の同意なく復代理人を選任できることを確認します。
+次に、やむを得ない事由があったかを確認します。やむを得ない事由がある
+場合に限り、責任は復代理人の選任及び監督についてのみに限定され、やむを
+得ない事由がない場合は、法定代理人は復代理人の行為について全面的な責任
+を負います。
+Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
+characters):
+原則は全責任、例外だけ限定
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in beige containing the number 5.
+Heading (bold, ONE line):
+共同代理の定めがなければ単独で申請できる
+Diagram: An actual decision flowchart. Two isometric agent characters
+（代理人Ａ・代理人Ｂ）stand beside the same registration document. Diamond
+node (thick highlighted border, full color): 「共同で申請することを要す
+る旨の定め（共同代理の定め）があるか」. いいえ arrow leads to a
+conclusion node（highlighted as this panel's own outcome）showing both A
+and B independently stamping their own copy of the document, with no
+linking chain between them: 「各代理人がそれぞれ単独で申請できる」. はい
+arrow leads to a conclusion node showing A and B stamping the same
+document together, linked by a chain icon: 「その定めに従い共同で申請する
+必要がある」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、複数の代理人の間に、共同で申請することを要する旨の定め（共同代理
+の定め）があるかを確認します。そのような定めがない限り、各代理人はそれ
+ぞれ単独で申請を代理することができます。
+Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
+characters):
+単独代理が原則
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法111条1項各号・653条各号（肢ア）、出題当時（平成18年）の民法105条
+（肢イ、現在は削除）、不動産登記法17条（肢ウ）、民法105条（肢エ）、先例
+（肢オ、本文では番号を伏せています）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・代・理・消・滅・復・任・監・督・
+登・記・号・誤. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every multi-condition 肢（肢ア・
+肢イ・肢エ・肢オ）is drawn as an actual flowchart with branch nodes for
+both outcomes (not a bare illustration with no visible decision structure
+and not a looping arrow back to an earlier node), that Panel 3's
+correct-rule-versus-common-mistake contrast is not flattened into a
+flowchart where it does not belong, that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct (no merged or dropped
+requirements), confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
 ```

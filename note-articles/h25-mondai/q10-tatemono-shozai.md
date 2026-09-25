@@ -197,3 +197,192 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric buildings straddling dashed
+prefectural border lines, a pier (さん橋) extending over water, a
+land-readjustment scene with a 仮換地 marker, and a building spanning two
+land plots with number-tag nameplates. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion.
+Do not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+— do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成25年度午後第10問 作図ガイド（建物の所在）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+都道府県境をまたぐ建物は他県名を冠記
+Diagram: An isometric building straddling a dashed prefectural border
+line between 甲県 and 乙県. The address record tag on the building
+updates to add "乙県〇〇" next to the base address, with a small green
+checkmark stamped beside the added prefecture name.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が複数の都道府県にまたがって存在しているかを確認します。またが
+っている場合は、不動産所在事項にその他の都道府県の名称を冠記します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+他県名を追加記録
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+別一棟の附属建物も所在地番が必要
+Diagram: An isometric main condominium unit labeled 甲区分建物（主である
+建物）standing in one 一棟の建物, connected by a dashed line across the
+same land plot to a separate one-story building labeled 乙区分建物（附属
+建物）belonging to a different 一棟の建物. The application document shows
+a required field labeled 乙区分建物が属する一棟の建物の所在地番, with a
+green checkmark confirming it must be filled in, and a faded red X over
+an attempt to leave that field blank.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、附属建物とする乙区分建物が、主である建物と同じ一棟の建物に属してい
+るのか、別の一棟の建物に属しているのかを確認します。本問のように別の一棟
+の建物に属する場合は、その一棟の建物が所在する土地の地番を申請情報として
+提供しなければなりません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地番の提供が必要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+さん橋上の建物は最寄りの地番で表記
+Diagram: An isometric pier (さん橋) extending permanently over water,
+with a small warehouse building standing on it. A dashed line runs from
+the building down to the nearest land plot's number tag on shore, and a
+label box reads 何番地先, showing the format used in the登記記録.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が永久的な施設としてのさん橋の上に存在しているかを確認します。
+さん橋の上にある場合は、そのさん橋がある位置ではなく、最も近い土地の地番
+を用いて「何番地先」の形式で所在を記録します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+「何番地先」で記録
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+仮換地上の建物は仮換地の地番で登記
+Diagram: A split panel contrasting two number tags for the same new
+house built on a temporarily replotted parcel. LEFT side (faded, red X):
+a tag reading 従前の土地の地番, crossed out. RIGHT side (full color,
+green checkmark): a tag reading 仮換地の地番, attached to the house's
+registration document.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が新築された土地が、土地区画整理事業によって仮換地の指定を受け
+ている土地かどうかを確認します。仮換地に新築した場合は、従前の土地の地番
+ではなく、現在の仮換地の地番を用いて表題登記を申請します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+従前地番は使わない
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+多い方・主建物の土地を先に記録
+Diagram: An isometric building spanning two land plots of unequal size,
+labeled 甲土地（大きい）and 乙土地（小さい）. Two separate arrows point to
+甲土地: one labeled 床面積の多い部分, another labeled 主である建物の所在
+する土地, connected by a small "又は" label showing they are alternative,
+not cumulative, criteria. A record-list icon then shows 甲土地の地番
+placed first, followed by 乙土地の地番 second.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の床面積が多い部分がどちらの土地かを確認します。次に、主である
+建物が所在する土地がどちらかも確認しますが、この2つは両方を満たす必要が
+ある条件ではなく、どちらか一方を満たす土地の地番を先に記録するという基準
+です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+どちらか一方で先後決定
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則の建物の所在に関する定め（都道府県名の冠記、
+さん橋上の建物の記録方法、2筆以上にまたがる建物の記録順序）及び区分建物
+の附属建物に関する取扱いに基づく整理です。仮換地上の建物の取扱いは、土地
+区画整理法との関係を踏まえた実務上の理解によります。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to
+県・冠・橋・換・筆・番・地・建・物・記・登・録・所・請.
+If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire
+canvas for any character that is not standard Japanese hiragana,
+katakana, or Jōyō kanji — including any Chinese-only character, Korean
+Hangul, other non-Japanese script, or stray decorative glyph — and remove
+or redraw it so that only standard Japanese text appears anywhere in the
+image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that any panel sharing a decision tree with
+another panel clearly distinguishes its own highlighted branch from the
+other, faded branches, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

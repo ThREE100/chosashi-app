@@ -232,3 +232,243 @@ after the last card), and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+分筆登記の申請人適格をめぐる5つの場面（ア：理事長の代理権の範囲、イ：財産管理人の許可要否、ウ：協力しない相続人への代位、エ：仮登記名義人の承諾の要否、オ：未成年者の除外可否）について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。ア・ウ・オは「共有地の分筆登記は共有者全員が申請人になる」という同じ出発点から始まる決定木として、イは保存行為（民法103条）の該当性判定、エは承諾情報（不動産登記法40条）の要否を2段階で確認する決定木として、それぞれ組み立てた。オだけは、正誤対比型（誤りやすい思い込み「未成年者は除外できる」と、正しいルール「未成年者も申請人」を左右で対比する構図）を採用し、決定木一辺倒にならないよう型を変えている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plots, apartment buildings,
+official stamps and seals, courthouse icons, human and family figures,
+document icons, chain-link icons for easement rights (地役権), dotted
+parcel-boundary lines, and diamond-shaped decision nodes. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient —
+do not force a flowchart. Where a panel reuses a decision tree shared with
+other panels in this set, render the branch relevant to THIS panel with a
+thick highlighted border and full color, and render the other, unrelated
+branches in a faded, greyed-out, or dotted-outline style rather than
+omitting them — the reader should be able to see at a glance which part
+of the shared tree this panel is about. Likewise, where a diagram must
+show an entity that conceptually never held the right or status in
+question (e.g. someone who was never an heir, or a claim that never
+existed), render that entity or claim in a faded or dotted-outline style
+rather than a plain ○/✕ mark, so the visual itself communicates "this was
+never really there," not just "this is wrong." Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
+次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element (e.g. keep "善意" and "無過失" as two distinct checks if
+the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成19年度 午前の部 第12問 作図ガイド（分筆登記の申請人適格）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+理事長は敷地分筆を単独申請できない
+Diagram: Vertical decision flowchart with three diamond-shaped nodes
+stacked top to bottom, connected by downward arrows, drawn above an
+isometric illustration. Diamond 1: 「敷地は共有地か」→ arrow labeled
+「はい」→ box 「原則:共有者全員が申請人(不動産登記法39条1項)」. Diamond 2:
+「管理者の代理権の範囲は(区分所有法26条2項)」→ arrow labeled「職務の範囲内
+のみ」→ box「共用部分の保存・集会決議の実行・規約で定めた行為に限る」.
+Diamond 3: 「敷地の分筆はその職務に含まれるか」→ arrow labeled「いいえ」→
+final conclusion node (red-outlined box) 「理事長単独では申請不可」. Below
+the flowchart, an isometric apartment building standing on a shared
+rectangular land plot, surrounded by ten small isometric human figure
+icons representing the unit owners. One figure wearing a necktie labeled
+「理事長」presses a single stamp onto an application document with a large
+red ✕ mark over it, while all ten figures together hold one large stamp
+reading 「共有者全員」with a green checkmark, visually echoing the
+flowchart's conclusion.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず敷地の共有者全員に申請人適格があるかを確認し、次に管理者(理事長)の代理
+権がその職務の範囲に限られていないかを確認します。敷地の分筆のように共有者
+全員の利害に関わる行為は、通常その職務には含まれません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+理事長単独は不可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+財産管理人は許可なしで分筆申請できる
+Diagram: Vertical decision flowchart with two diamond-shaped nodes.
+Diamond 1: 「分筆登記は土地の権利関係(所有権の範囲)を変動させるか」→ arrow
+labeled「いいえ、現状を公示するだけ」. Diamond 2: 「民法103条の保存行為・
+利用改良行為の範囲内か」→ arrow labeled「はい」→ final conclusion node
+(green-outlined box) 「家庭裁判所の許可は不要」. Below the flowchart, an
+isometric land plot with a faded, semi-transparent silhouette figure
+labeled 「不在者」standing in the background, and a person labeled
+「財産管理人」measuring the plot with surveying tools to mark a dividing
+line. A small courthouse icon nearby has a permission-document icon
+labeled 「許可証」crossed out with a large red ✕ mark, showing no court
+permission is required.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず分筆登記が土地の権利関係を変動させる処分行為か、現状を公示するだけの行
+為かを確認し、次に民法103条の保存行為の範囲内といえるかを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+許可は不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+非協力の相続人がいても代位で進める
+Diagram: Vertical decision flowchart with two diamond-shaped nodes.
+Diamond 1: 「名義人(相続人)全員が分筆登記の申請に協力しているか」→ arrow
+labeled「協力しない者がいる」. Diamond 2: 「その者に対して登記を求める権利
+(代位原因)を証する情報があるか」→ arrow labeled「ある(調停調書)」→ final
+conclusion node (green-outlined box) 「代位により単独で申請できる」. Below
+the flowchart, an isometric land plot split into two lots by a dotted
+line, with two human figures labeled Ａ and Ｂ. Ｂ crosses his arms with a
+small red label 「非協力」, while Ａ holds up a document labeled 「調停調
+書」and presses the application stamp for both lots, with a curved arrow
+labeled 「代位」pointing from Ａ toward Ｂ's portion.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず共有者(相続人)全員が分筆登記の申請に協力しているかを確認し、協力しない
+者がいる場合は、その者に対して登記を求める権利(代位原因)を証する情報がある
+かを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+代位で単独申請可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+仮登記名義人の承諾も別途必要
+Diagram: Vertical decision flowchart with two diamond-shaped nodes,
+illustrating a hidden second condition that is easy to overlook. Diamond
+1: 「分筆に伴い地役権を消滅させるか」→ arrow labeled「はい」→ box「地役権
+者の承諾を証する情報が必要(不動産登記法40条)」. Diamond 2 (drawn slightly
+larger and with a highlighted outline, to signal it is the easily-missed
+step): 「要役地について所有権移転の仮登記名義人がいるか」→ arrow labeled
+「いる」→ final conclusion node (red-outlined box) 「仮登記名義人の承諾を
+証する情報も併せて必要」. Below the flowchart, an isometric land plot
+(甲地)with a dotted line splitting off a small parcel labeled 丙地,
+connected by a chain-link icon (representing the 地役権) to a neighboring
+plot labeled 乙地. Two signature-stamp icons are shown side by side above
+the chain link: one solid stamp from the current 地役権者, and a second,
+visually distinct translucent ghost-like stamp labeled 「仮登記名義人」,
+both required before the chain link on 丙地 can be shown broken.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず分筆に伴い地役権を消滅させる場合に地役権者の承諾を証する情報が必要かを
+確認し、次に要役地について所有権移転の仮登記名義人がいないかを確認します。
+仮登記名義人がいる場合は、その承諾を証する情報も別途必要になります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+両方の承諾が必要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+未成年者も外せない申請人の一人
+Diagram: A 正誤対比 (right/wrong comparison) layout: two side-by-side
+panels below the heading, left panel labeled 「誤りやすい思い込み」and
+right panel labeled 「正しいルール」. Left panel: an isometric land plot
+with two adult figures labeled Ｂ（父）and Ｃ（母）pressing an application
+stamp together, while a small child figure labeled Ａ is pushed outside
+the frame with a large red ✕ mark, next to a caption label 「未成年者だか
+ら対象外」struck through with a diagonal red line. Right panel: the same
+isometric land plot with three figures — a small child figure labeled Ａ
+standing in the middle, flanked by Ｂ（父）and Ｃ（母）with a protective
+hand on the child's shoulders — with all three names 「Ａ・Ｂ・Ｃ」appearing
+together on the application document, next to a small label 「Ｂ・Ｃが法定
+代理人としてＡの分も代理」beside a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず甲地の共有者に未成年者が含まれていないかを確認し、含まれている場合は
+その未成年者を申請人から除外できるかを確認します。未成年者も共有者(登記名
+義人)である以上、除外することはできません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+未成年者も申請人
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠:不動産登記法39条1項・40条、不動産登記令3条4号・7条1項3号、民法103条・
+28条・251条1項・824条、区分所有法26条1項・2項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 筆・権・者・登・記・地・許・可・証・代・
+位・産・管・請・諾・仮・承・役・協・親・除・未・処・分・確・認・義. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

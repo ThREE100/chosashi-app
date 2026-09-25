@@ -214,3 +214,199 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に、その登記に申請義務があるかどうか、誰が義務を負うか、いつから数えるかを、どの順番で確認すればよいかを示す解き方ガイド。肢エは、表題部所有者と所有権の登記名義人という異なる2つの立場を対比させる構成にしてある。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x3200 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric land plot and building icons, a
+registry desk icon, application document icons, clock/deadline icons,
+diamond-shaped decision nodes, and ○/✕ branch marks. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Where a 肢 is resolved by a single
+check, a labeled illustrative diagram is sufficient — do not force a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成26年度 午後の部 第7問 作図ガイド（表示登記の申請義務の有無を見分ける）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+共用部分である旨の登記に申請義務の定めはない
+Diagram: An isometric apartment building with a small room labeled
+「集会室」highlighted as the shared area. A person holds a document
+labeled「共用部分である旨の登記」at a registry desk, with a clock icon
+showing「1か月」crossed out by a red X mark, and a「任意」tag beside the
+document.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、共用部分である旨の登記について1か月以内に申請しなければならないと
+いう規定があるかを確認します。次に、条文上そのような義務規定がないことを
+確認し、任意の登記であると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+任意の登記
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+滅失登記の義務を負うのは建物の所有者
+Diagram: A diamond-shaped decision node labeled「建物が取り壊されて滅失し
+た場合、滅失の登記の申請義務はあるか？」with an「ある」branch (highlighted)
+continuing down to a second diamond-shaped decision node labeled「その義
+務を負うのは、土地の所有者か、建物の表題部所有者又は所有権登記名義人か？」
+with two branch arrows: a「建物の表題部所有者又は所有権登記名義人」branch
+(highlighted, bold) leading to an isometric land plot labeled「A（土地所
+有者）」with a collapsed pile of rubble on it labeled「取り壊された建物」,
+beside which person「B（建物の所有権登記名義人）」holds a document labeled
+「滅失の登記」with a clock icon showing「1か月以内」and a conclusion node
+「Bが滅失の日から1か月以内に申請する義務を負う」, and a「土地の所有者」
+branch (faded, greyed-out) leading to a small grey conclusion「義務なし」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の滅失について申請義務があるかを確認します。次に、その義務を負
+うのが土地の所有者か建物の表題部所有者又は所有権登記名義人かを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+建物所有者Bに義務
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+未登記の土地を取得した者にも表題登記の義務
+Diagram: An isometric land plot labeled「表題登記なし」being handed from
+person A to person B via a money icon（売買）. B holds an application
+document labeled「表題登記」with a clock icon showing「1か月以内」beside a
+green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地に表題登記がまだされていないかを確認します。次に、所有権を
+取得した者にもこの登記の申請義務が及ぶかを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+取得者Bにも義務
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+住所変更の義務は所有権登記名義人が対象
+Diagram: A two-box contrast layout. Left box (highlighted, thick border —
+this panel's subject): an isometric person moving house with a moving
+truck, a document labeled「表題部所有者の住所変更登記」with a clock icon
+showing「1か月」crossed out by a red X mark, and a tag「義務なし」. Right
+box (faded, greyed-out — shown only for contrast): a document labeled
+「所有権の登記名義人の住所変更登記（76条の5）」with a clock icon showing
+「2年以内」, a tag「義務あり」, and a small stamp icon labeled「5万円以下の
+過料」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、住所が変わったのが表題部所有者か所有権の登記名義人かを確認します。
+次に、表題部所有者は76条の5の義務化の対象に含まれないことを確認し、申請
+義務がないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+表題部所有者は対象外
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+利用状況の変化と所有権取得を順に確認する
+Diagram: A decision flowchart with 3 sequential diamond-shaped nodes: (1)
+「土地の利用状況は、登記された地目（雑種地）と実質的に異なるようになった
+か？」→はい（駐車場から、建物を建てて宅地として利用）, (2)「その後、利用
+を始めた者が所有権を取得したか？」→はい, (3)「申請義務の起算点は、地目が
+変わった日か、所有権の登記があった日か？」→所有権の登記があった日. The
+final conclusion node, highlighted in blue, reads「Bは、自己の所有権の登
+記があった日から1か月以内に地目の変更の登記を申請しなければならない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、利用状況が登記された地目と実質的に異なっているかを確認します。次に、
+その後に所有権を取得したかを確認し、最後に申請義務の起算点が所有権の登記
+があった日になることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+取得日から1か月以内
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠条文：不動産登記法36条、37条1項・2項、57条、58条、76条の5、164条2項。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 登・記・権・務・変・滅・住・過・料・
+目. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only
+character, Korean Hangul, other non-Japanese script, or stray decorative
+glyph — and remove or redraw it so that only standard Japanese text
+appears anywhere in the image. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that panel 2 is drawn
+as an actual flowchart with 2 sequential branch nodes and panel 5 is
+drawn as an actual flowchart with 3 sequential branch nodes (not a bare
+illustration with no visible decision structure), that no 肢 with a
+genuinely hidden second condition has been flattened into a single check
+(especially panel 2's obligor check and panel 4's distinction between
+表題部所有者 and 所有権の登記名義人), that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct (no merged or dropped
+requirements), that panel 4's two boxes are clearly distinguished from
+one another, confirm nothing is rendered below panel 5's footnote text
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid
+of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

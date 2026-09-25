@@ -271,9 +271,8 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-令和5年度午後第19問 ア〜オ
-作図ガイド（法定相続情報一覧図の保管・交付の申出）
+Subtitle (smaller, centered, 1行):
+令和5年度午後第19問 作図ガイド（法定相続情報一覧図の保管・交付の申出）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -347,7 +346,7 @@ building icon.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、法定相続情報一覧図の保管の申出に、被相続人が不動産の名義人である
 ことが要件になっているかを確認します。被相続人が表題部所有者や所有権登
-記名義人でなくても、相続に起因する手続のために必要があれば申出をするこ
+記名義人でなくても、相続に関する手続のために必要があれば申出をするこ
 とができます。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):

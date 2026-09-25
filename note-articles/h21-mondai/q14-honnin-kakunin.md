@@ -201,3 +201,235 @@ paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「この記述は正しいか」をどの順番で確認すればよいかを、肢ごとに思考の手順として示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。特に肢ア・肢ウは、法24条1項が「相当な理由があると認めるとき」という条件を満たした場合にのみ調査・出頭を義務づける条件付きの規定であることを、決定木で示す。5パネル、portrait 1080×2600px。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry office counters, clerk
+figures, magnifying glasses, calendars, telephones, envelopes,
+identification cards, diamond-shaped decision nodes, ○/✕ branch marks,
+and comparison frames. Where a 肢 requires checking multiple conditions
+in sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. No decision tree is
+shared between panels in this set; each panel has its own independent
+diagram. Where a flowchart branch node has two outcomes that are both
+real conclusions, draw BOTH outcomes as separate conclusion nodes, and
+never draw any loop arrow that returns from a branch node back to an
+earlier node — every branch must end at its own new conclusion node.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element (e.g. panel 1 must
+keep 法24条1項が「相当な理由があると認めるとき」という条件を満たした場合
+にのみ調査を義務づける条件付きの義務規定であることを保ち、単純な裁量規
+定であるかのように描かない。同様に panel 3 must keep both the 出頭でき
+る場合 and 出頭できないやむを得ない事情がある場合 as two distinct
+outcomes, each still requiring 出頭 in some form, rather than suggesting
+either outcome allows 送付).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第14問 作図ガイド（登記官の本人確認調査）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in orange containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+直前の住所変更だけでは調査義務は生じない
+Diagram: A decision flowchart, drawn top to bottom, with a small
+illustrative sketch at the top: two isometric land plots joined by a
+merge arrow labeled 合筆, beside a small desk calendar tagged
+申請前3月以内の住所変更登記. Step 1 (diamond node): 準則33条1項が列挙す
+る「相当な理由があると認めるとき」の事由（捜査機関等からの通報、不正登
+記防止申出後3月以内の申請、他の不正事件の発覚、前住所地への通知に対す
+る異議など）に当たるか. Its はい (○) branch leads to its own conclusion
+node: 本人確認調査をしなければならない（法24条1項）, shown with a
+registry clerk figure labeled 登記官 holding a magnifying glass. Its
+いいえ (✕) branch leads to its own separate conclusion node: 調査義務は
+生じない, shown with the same calendar tag but with a large red ✕ drawn
+over an arrow pointing to the 登記官 figure. Both conclusion nodes are
+end points; draw no arrow returning upward from either of them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請前3月以内に住所変更の登記がされているという事情が、準則33条
+1項が列挙する「相当な理由があると認めるとき」に当たるかを確認します。
+列挙にない以上、それだけで本人確認調査の義務は生じないと判断します。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+相当な理由が前提
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+本人確認は代理人への照会から始める
+Diagram: A horizontal timeline diagram, left to right. Node 1 labeled
+資格者代理人による登記の申請. Node 2 labeled 本人確認調査をすべきとき.
+Checkpoint A (drawn with a thick highlighted border and a numbered flag
+reading 1回目): a registry clerk figure labeled 登記官 sending a bold
+solid green arrow to a professional figure labeled 資格者代理人, with a
+tag reading まず情報の提供を求める（準則33条2項）. Checkpoint B (drawn in
+a lighter, secondary tone with a flag reading 2回目以降・必要な場合): a
+thinner arrow from 登記官 reaching a separate client figure labeled 本人,
+with a tag reading なお必要であれば本人にも確認. The timeline runs only
+forward from Checkpoint A to Checkpoint B; draw no arrow returning
+backward.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この申請が資格者代理人によってされているかを確認します。本人確認
+調査をすべきときは、原則としてまず資格者代理人に必要な情報の提供を求め
+ると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代理人が先
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+不正登記防止の申出はいずれにせよ出頭が必要
+Diagram: A decision flowchart, drawn top to bottom, with a small
+illustrative sketch at the top: an isometric envelope labeled 郵送 with a
+large red ✕ over it, off to one side as a rejected option outside the
+branch structure. Step 1 (diamond node): 本人が出頭できないやむを得ない
+事情があるか（準則35条1項ただし書）. Its いいえ (✕) branch（本人が出頭
+できる場合、原則）leads to its own conclusion node: 本人が登記所に出頭し
+て申出をする. Its はい (○) branch（出頭できないやむを得ない事情がある
+場合、例外）leads to its own separate conclusion node: 委任による代理人
+が登記所に出頭して申出をする. Both conclusion nodes are end points, and
+both carry a shared banner below them, spanning both nodes, reading
+いずれも「出頭」が必要（送付ではできない）, connected down to the crossed-
+out 郵送 envelope icon. Draw no arrow returning upward from either
+conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、本人が出頭できないやむを得ない事情があるかを確認します。原則は本
+人が出頭し、その事情がある場合に限り委任による代理人が出頭できますが、
+いずれの場合も送付では申出をすることができないと判断します。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+郵送では不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+調べるのは申請意思ではなく申請の権限
+Diagram: A correct-vs-mistaken comparison diagram with two stacked
+frames. Top frame, drawn with a large red ✕ and a strike-through line
+over its text, labeled 誤りやすい思い込み: an identification card and an
+application document with a label reading 申請意思の有無も調査の対象で
+ある. Bottom frame, drawn with a green ○ and a thick highlighted border,
+labeled 正しいルール: the same identification card and application
+document, with a magnifying glass over a label reading 申請の権限の有無
+（法24条1項）, and a separate face-mask icon labeled なりすまし carrying
+a green ✓ mark showing this is what the check targets.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、法24条1項が調査の対象として掲げているのが「申請の権限の有無」で
+あることを確認します。申請意思の有無は、この条文が調査の対象として挙げ
+ているものではないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+対象は権限の有無
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+電話等で確認できれば出頭を求めなくてよい
+Diagram: A decision flowchart, drawn top to bottom, with a small
+illustrative sketch at the top: an isometric telephone handset linking a
+registry clerk figure at a desk and a distant applicant figure standing
+at home. Step 1 (diamond node): 電話等による事情の聴取又は資料の提出等
+により本人であることを確認することができるか. Its はい (○) branch leads
+to its own conclusion node: 本人に出頭を求める必要はない, shown with a
+service counter icon labeled 出頭 carrying a large red ✕. Its いいえ
+(✕) branch leads to its own separate conclusion node: 出頭を求めて確認
+する. Both conclusion nodes are end points; draw no arrow returning
+upward from either of them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、電話等による事情の聴取や資料の提出等で本人であることを確認できる
+かを確認します。確認できる場合は、本人に出頭を求める必要はないと判断し
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+方法は出頭に限らない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法24条1項、不動産登記事務取扱手続準則33条1項・2項、35条1項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 認・調・査・登・記・権・防・頭・意・
+思・郵・送・資・格・者・代・理. If any character renders as a Simplified
+or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+panels 1, 3 and 5 (the multi-condition or two-outcome 肢) are drawn as
+actual flowcharts with branch nodes (not bare illustrations with no
+visible decision structure), that panel 1 shows 法24条1項 as a
+条件付きの義務規定 rather than a plain discretionary or unconditional
+rule, that panel 3 shows both the 本人が出頭できる場合 and 出頭できない
+やむを得ない事情がある場合 as two distinct outcomes that both still
+require 出頭, that both outcomes of each branch node in panels 1, 3 and 5
+end at their own conclusion nodes with no loop arrow back to an earlier
+node, that each 着眼点 callout states a checking order rather than only a
+conclusion and keeps every required element from the source article
+distinct (no merged or dropped requirements), confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

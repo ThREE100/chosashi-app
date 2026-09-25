@@ -199,3 +199,224 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+地目に関する各肢を、読者が問題文を読んだ瞬間にどう図解し、どの順番で条件を確認すれば正誤に辿り着けるかを示す作図ガイド。特に肢イ・肢ウは「前半は正しい説明、後半に誤った例外が続く」という複文構造を持つため、決定木で2段階に分けて可視化する。②の俯瞰カードポスターとは別物で、判定の手順そのものを可視化する構成。5パネル、portrait 1080×2600px。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric registry book with 表題部 tag
+chips, a registrar figure with a magnifying glass over a cultivated
+field, an owner figure's thought bubble, a land-tile path diagram for the
+中間地目, two separate land plots for 従前地/仮換地, diamond-shaped
+decision nodes for the two-part compound claims in panels 2 and 3, and
+○/✕ branch marks. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check (panels 1, 4, 5), a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Panels 2 and 3 each contain their own independent two-step decision tree
+(not shared with any other panel), used to separate the accurate first
+half of the 肢's compound claim from its incorrect second half; where a
+branch node has two outcomes that are both real conclusions, draw BOTH
+outcomes as separate conclusion nodes, and never draw any loop arrow that
+returns from a branch node back to an earlier node — every branch must
+end at its own new conclusion node. Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認
+します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text — do not drop or merge a
+required element (e.g. keep the compound claim in 肢イ and 肢ウ split into
+its accurate first half and its incorrect second half, rather than
+merging them into a single verdict).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第5問 作図ガイド（地目の認定基準）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+地目は用途による分類として表題部に記録される
+Diagram: A labeled layout diagram (not a flowchart, since this is
+resolved by one check). An isometric open registry book. Its upper
+section is tinted and labeled 表題部, listing four small tag chips in a
+row, in this exact order: 所在, 地番, 地目, 地積, with the 地目 chip drawn
+with a thick highlighted border and a green ✓. An arrow points from the
+地目 chip to a small house-on-land icon labeled 用途による分類.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目が土地の用途による分類であることを確認します。次に、それが所在・
+地番・地積と並んで登記記録の表題部に記録される登記事項であることを確認しま
+す。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+表題部の登記事項
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+利用目的は所有者の主観でなく客観的な現況で決まる
+Diagram: A decision flowchart, drawn top to bottom, showing the two parts
+of this 肢's claim as sequential checks. Step 1 (a rectangular node, not
+a branch, since this part of the claim is accurate): an isometric
+cultivated field icon tagged 現況, with a label 地目は23種類の中から現況
+と利用目的で登記官が認定する, marked with a small green ✓ and a tag
+ここは正しい. A registrar figure with a magnifying glass stands over the
+field, stamping a chip 畑. An arrow leads down to Diamond 2 (thick
+highlighted border) labeled その利用目的は所有者が主観的に考える意図で
+定まるか. Its はい branch (the claim actually made by this 肢) leads to a
+conclusion node labeled 誤り：主観では決まらない, marked with a red ✕ over
+an owner figure's thought bubble reading 宅地にしたい. Its いいえ branch
+leads to a separate conclusion node labeled 正しい：登記官が客観的な現況で
+認定する, marked with a green ✓, drawn with a thick highlighted border
+since this reflects the real rule.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目が23種類の中から現況と利用目的により登記官が認定される、という
+前半部分は正しいと確認します。次に、その利用目的が所有者の主観的な意図で
+決まるとする後半部分を確認すると、実際には客観的な現況で決まるため誤りと
+判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+主観では決まらない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+複合的用途でも「畑・雑種地」の複合地目は認められない
+Diagram: A decision flowchart, drawn top to bottom, showing the two parts
+of this 肢's claim as sequential checks. Step 1 (a rectangular node, not
+a branch, since this part of the claim is accurate): a single isometric
+land tile with a small differently-shaded corner, tagged 部分的でわずかな
+差異, with a label 土地全体の状況を見て主たる用途で一つの地目を定める,
+marked with a green ✓ and a tag ここは正しい. An arrow leads down to
+Diamond 2 (thick highlighted border) labeled 土地全体が複合的用途なら
+「畑・雑種地」のような複合地目にしてよいか. Its はい branch (the claim
+actually made by this 肢) leads to a conclusion node labeled 誤り：複合
+地目は認められない, marked with a red ✕ over a doubled chip reading
+畑・雑種地. Its いいえ branch leads to a separate conclusion node labeled
+正しい：一筆一地目が原則, marked with a green ✓ over a single chip reading
+雑種地, drawn with a thick highlighted border since this reflects the
+real rule.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、部分的でわずかな差異なら土地全体を見て一つの地目に決める、という
+前半部分は正しいと確認します。次に、複合的用途なら複合地目にしてよいと
+する後半部分を確認すると、一筆一地目が原則であるため誤りと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+複合地目は不可
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+現況主義により中間の地目を経ず直接変更登記できる
+Diagram: A horizontal timeline diagram, left to right, of isometric land
+tiles: 山林 → 雑種地 → 宅地. The middle 雑種地 tile is faded and crossed
+out with a red ✕, tagged 中間の地目. A bold curved arrow skips over it,
+running directly from 山林 to 宅地, labeled 現況主義により直接変更, with a
+green ✓ on the arrow.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、表示に関する登記が不動産の物理的現況を公示するものであること
+(現況主義)を確認します。次に、現況が変化した以上、中間の地目を経る必要は
+なく、現在の現況へ直接変更登記すればよいと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+直接変更できる
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+仮換地に建物を建てても従前地の地目は変わらない
+Diagram: A two-frame comparison diagram, side by side. Left frame labeled
+従前地: a bare isometric land tile with a registry chip reading 宅地
+crossed out by a large red ✕ and tagged 変更不可, since the physical
+現況 here has not changed. Right frame labeled 仮換地: an isometric land
+tile with a newly built house on it and a green ✓, tagged 利用権はここに
+移っている. A dashed arrow connects the two frames, labeled 利用権の移転
+(現況は不変).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、利用権が仮換地に移っていても、従前地そのものの物理的現況は変わって
+いないことを確認します。次に、建物が建っているのは仮換地であって従前地で
+はないため、従前地の地目を宅地に変更することはできないと判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地目変更はできない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法34条1項3号、不動産登記規則99条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 地・目・登・記・官・畑・宅・換・認・
+観. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that panels 2 and 3 (肢イ・肢ウ) are
+each drawn as an actual flowchart with branch nodes separating the
+accurate first half of the claim from its incorrect second half (not a
+bare illustration with no visible decision structure), that both outcomes
+of each branch node in panels 2 and 3 end at their own conclusion nodes
+with no loop arrow back to an earlier node, that panels 1, 4, and 5 remain
+single labeled illustrative diagrams without a forced flowchart, that
+each 着眼点 callout states a checking order rather than only a conclusion,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
