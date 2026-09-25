@@ -238,7 +238,7 @@ full sentence of explanatory prose — every card's takeaway must read as a
 short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、附属建物の問題文を読んだときに実際に手を動かして描くべき図（合併の3条件、図面ごとの記載範囲、取壊し時の添付情報、建築時期の前後、えい行移転後の管轄）を肢ごとに示す作図ガイドを追加した。アは「名義同一→効用上一体→制限事由なし」の3条件を順に確認する決定木、イは各階平面図と建物図面の記載範囲を左右で対比する対比枠型、ウ・エは「誤りやすい思い込み」と「正しいルール」を対比する正誤対比型、オはえい行移転前後の管轄区域を示す配置図型とした。
 
@@ -316,14 +316,13 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成18年度午後第6問 ア〜オ
-作図ガイド（附属建物の実務ルール）
+Subtitle (smaller, centered, 1行):
+平成18年度午後第6問 1〜5 作図ガイド（附属建物の実務ルール）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（肢1） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -350,7 +349,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 3条件そろえば合併可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（肢2） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 各階平面図は新設分、建物図面は全体
@@ -370,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 図面ごとに範囲が違う
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（肢3） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 附属建物の取壊しに抵当権者の承諾は不要
@@ -391,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾書は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（肢4） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 建築の前後は附属建物の要件ではない
@@ -412,7 +411,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 建築時期は無関係
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（肢5） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 主である建物が移った先が管轄になる

@@ -236,7 +236,7 @@ channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（肢ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -304,14 +304,13 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成18年度午後第10問 肢ア〜オ
-作図ガイド（申請代理人）
+Subtitle (smaller, centered, 1行):
+平成18年度午後第10問 1〜5 作図ガイド（申請代理人）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（肢1） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -336,7 +335,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 後見人の承諾は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（肢2） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 当時は選任・監督の過失の有無で判定
@@ -358,7 +357,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 当時は限定責任
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（肢3） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 本人死亡でも登記の代理権は消滅しない
@@ -380,7 +379,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記申請は継続できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（肢4） ---
 Badge: a filled circle in beige containing the number 4.
 Heading (bold, ONE line):
 法定代理人の責任は原則と例外が逆転しやすい
@@ -403,7 +402,7 @@ Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
 characters):
 原則は全責任、例外だけ限定
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（肢5） ---
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 共同代理の定めがなければ単独で申請できる

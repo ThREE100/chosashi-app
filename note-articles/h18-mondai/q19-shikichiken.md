@@ -235,7 +235,7 @@ short heading + a short conclusion tag, at a glance — confirm nothing is rende
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
 
 問題文（ア〜オ5肢）を読んだときに、実際に手を動かして描くべき図と、その図にたどり着くまでにどの順番で何を確認すればよいかを、肢ごとに示す解き方ガイド。アは「敷地権の登記原因・日付は省略できる」という思い込みを正誤対比型で、イは分離処分可能規約などの事由の有無で添付情報が変わることを決定木型で、ウは表題登記後に敷地権が生じる時系列をタイムライン型で、エは原始取得者の規約設定に公正証書が必要という思い込みを正誤対比型で、オは法定敷地と規約敷地が重複できることを配置図型で、それぞれ構成した。
 
@@ -303,14 +303,13 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成18年度午後第19問 ア〜オ
-作図ガイド（区分建物の敷地権の急所）
+Subtitle (smaller, centered, 1行):
+平成18年度午後第19問 1〜5 作図ガイド（区分建物の敷地権の急所）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（肢1） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -330,7 +329,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原因・日付も必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（肢2） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 敷地権とならない事由は証する情報が必要
@@ -351,7 +350,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規約を証する情報が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（肢3） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 表題登記後に敷地権が生じたら変更登記が必要
@@ -370,7 +369,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 変更登記の申請義務
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（肢4） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 原始取得者の規約設定は公正証書が必要
@@ -390,7 +389,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 公正証書によること
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（肢5） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 法定敷地でも他の建物の規約敷地にできる

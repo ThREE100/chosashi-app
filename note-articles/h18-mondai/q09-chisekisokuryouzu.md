@@ -229,7 +229,7 @@ tag, at a glance — confirm nothing is rendered below the last card (no summary
 
 ---
 
-## インフォグラフィック プロンプト（肢ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -297,14 +297,13 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成18年度午後第9問 肢ア〜オ
-作図ガイド（地積測量図）
+Subtitle (smaller, centered, 1行):
+平成18年度午後第9問 1〜5 作図ガイド（地積測量図）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（肢1） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -322,7 +321,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 3つの登記に添付
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（肢2） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 座標値は原則、基本三角点等の成果による
@@ -344,7 +343,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 例外は特別事情のみ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（肢3） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 境界標は符号と種類をセットで記録
@@ -360,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 符号+種類を記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（肢4） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 広大な土地の分筆は求積方法等を省略できる
@@ -386,7 +385,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地積のみ省略不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（肢5） ---
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 更正登記ができるなら訂正の申出はできない

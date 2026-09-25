@@ -234,7 +234,7 @@ every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -310,14 +310,13 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成18年度午後第3問 ア〜オ
-作図ガイド（相続と登記）
+Subtitle (smaller, centered, 1行):
+平成18年度午後第3問 1〜5 作図ガイド（相続と登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（肢1） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 生前の譲受人と転得者は対抗関係
@@ -344,7 +343,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記なければ対抗不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（肢2） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 無断登記された持分は無権利
@@ -371,7 +370,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 無権利ゆえ登記不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（肢3） ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 相続放棄は絶対効で対抗要件の外
@@ -396,7 +395,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 絶対効・登記不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（肢4） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 特定遺贈は登記なければ対抗不可
@@ -424,7 +423,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記なければ対抗不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（肢5） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 超過分だけは登記なければ対抗不可

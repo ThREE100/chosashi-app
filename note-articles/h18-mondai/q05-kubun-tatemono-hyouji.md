@@ -228,7 +228,7 @@ every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、区分建物の表示登記の問題文を読んだときに実際に手を動かして描くべき図（添付情報の要否、会社名義の扱い、一括申請の範囲、管轄をまたぐ添付書類）を肢ごとに示す作図ガイドを追加した。イ・エは「誤っている記述」をそのまま図解せず、正しいルール（B会社名義にはできない／敷地権の有無を問わず一括申請）を「誤りやすい思い込み」との対比で示す正誤対比型とし、ウ・オは条件の有無で結論が分かれる決定木として描く。
 
@@ -304,14 +304,13 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成18年度午後第5問 ア〜オ
-作図ガイド（区分建物の表示登記）
+Subtitle (smaller, centered, 1行):
+平成18年度午後第5問 1〜5 作図ガイド（区分建物の表示登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（肢1） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -330,7 +329,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有者証明情報が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（肢2） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 合併で消滅した会社の名義のまま申請する
@@ -350,7 +349,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 消滅会社の名義のまま
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（肢3） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 抵当権付き建物には承諾等の情報が必要
@@ -372,7 +371,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 抵当権者の承諾等が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（肢4） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 敷地権の有無に関係なく一棟まとめて申請
@@ -393,7 +392,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 敷地権の有無は無関係
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（肢5） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 他管轄の土地には登記事項証明書を添付

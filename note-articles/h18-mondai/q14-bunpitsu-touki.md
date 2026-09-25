@@ -241,7 +241,7 @@ read as a short heading + a short conclusion tag, at a glance — confirm nothin
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
 
 問題文を読んだ瞬間に「何を、どの順番で確認すればよいか」を肢ごとに示す作図ガイド。②の結論ポスターとは別に、ア〜オ5肢それぞれについて、確認の手順そのものを可視化する5パネル構成。
 
@@ -310,14 +310,13 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成18年度 午後の部 第14問 ア〜オ
-作図ガイド（分筆の登記）
+Subtitle (smaller, centered, 1行):
+平成18年度 午後の部 第14問 1〜5 作図ガイド（分筆の登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（肢1） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -342,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 分割協議書で申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（肢2） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地役権の範囲が一部かを確認する
@@ -366,7 +365,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地役権図面+証明情報
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（肢3） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 地積差は誤差の限度内かを確認する
@@ -389,7 +388,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 限度内なら更正不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（肢4） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 分筆は表示登記、移転は権利登記
@@ -412,7 +411,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 分筆は禁止期間中も可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（肢5） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 全部購入なら代位申請できない

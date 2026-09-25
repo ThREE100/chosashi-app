@@ -340,7 +340,7 @@ contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜コ 作図ガイド）
+## インフォグラフィック プロンプト（1〜10 作図ガイド）
 
 本問は10肢すべてが「地目認定」という同一の判定枠組みを使うため、10枚のパネルすべてに共通する2段階の決定木（第1段階：宅地・雑種地のどちらでもない独立した地目に該当するか／第2段階：該当しない場合、その肢固有の個別基準で宅地か雑種地かを判定する）を共有木として使い回す構成にした。この判定順序は本文冒頭の「そもそも宅地・雑種地の勝負に入れる土地なのか」という一文そのものであり、まとめ・各肢解説と完全に対応している。各パネルは自分に関係する分岐だけを太い縁取り・実色で強調し、関係しない分岐は薄いグレーで縮小表示する。
 
@@ -422,14 +422,13 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成18年度午後第7問 ア〜コ
-作図ガイド（地目認定）
+Subtitle (smaller, centered, 1行):
+平成18年度午後第7問 1〜10 作図ガイド（地目認定）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（肢1） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 10 panels).
 Heading (bold, ONE line):
@@ -452,7 +451,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 建物敷地のみ宅地
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（肢2） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 寺院境内の庫裏は境内地に区分される
@@ -472,7 +471,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 境内地(独立の地目)
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（肢3） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 建物でなくてもガスタンク敷地は宅地
@@ -493,7 +492,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 建物でなくても宅地
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（肢4） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 発電用ダムの貯水池は池沼に区分される
@@ -512,7 +511,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 池沼(独立の地目)
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（肢5） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 宅地に接続するプールは宅地に含まれる
@@ -534,7 +533,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 接続していれば宅地
 
---- PANEL 6（肢カ） ---
+--- PANEL 6（肢6） ---
 Badge: a filled circle in blue containing the number 6.
 Heading (bold, ONE line):
 ガード下の店舗も鉄道用地に区分される
@@ -554,7 +553,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 鉄道用地(独立の地目)
 
---- PANEL 7（肢キ） ---
+--- PANEL 7（肢7） ---
 Badge: a filled circle in blue containing the number 7.
 Heading (bold, ONE line):
 道路で切れた日干場は雑種地になる
@@ -576,7 +575,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 接続なしで雑種地
 
---- PANEL 8（肢ク） ---
+--- PANEL 8（肢8） ---
 Badge: a filled circle in blue containing the number 8.
 Heading (bold, ONE line):
 校舎も運動場も学校用地にまとめる
@@ -596,7 +595,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 学校用地(独立の地目)
 
---- PANEL 9（肢ケ） ---
+--- PANEL 9（肢9） ---
 Badge: a filled circle in blue containing the number 9.
 Heading (bold, ONE line):
 高圧線下でも建物があれば宅地
@@ -617,7 +616,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 高圧線下でも宅地
 
---- PANEL 10（肢コ） ---
+--- PANEL 10（肢10） ---
 Badge: a filled circle in blue containing the number 10.
 Heading (bold, ONE line):
 木場でも建物があれば宅地になる

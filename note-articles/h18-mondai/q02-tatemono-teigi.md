@@ -235,7 +235,7 @@ contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -315,14 +315,13 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成18年度午後第2問 ア〜オ
-作図ガイド（建物の意義・抵当権）
+Subtitle (smaller, centered, 1行):
+平成18年度午後第2問 1〜5 作図ガイド（建物の意義・抵当権）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（肢1） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 屋根・周壁の完成が独立不動産の始期
@@ -344,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 屋根・周壁で不動産に
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（肢2） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 独立性のない部分の所有権は観念できない
@@ -367,7 +366,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 独立性なければ観念不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（肢3） ---
 Badge: a filled circle in beige containing the number 3.
 Heading (bold, ONE line):
 賃料への物上代位は債務不履行後に限る
@@ -391,7 +390,7 @@ Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
 characters):
 不履行後に賃料へ代位
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（肢4） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 借地権は「別個の権利」ではなく従たる権利
@@ -414,7 +413,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 従たる権利として移転
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（肢5） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 解体が独立不動産の終期
