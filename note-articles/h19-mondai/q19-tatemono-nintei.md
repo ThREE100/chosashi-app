@@ -328,19 +328,20 @@ with no transparency or alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（ア〜コ 作図ガイド）
 
-問題文を読んだ瞬間に「準則77条の例示リストのどちらに載っているか → ただし書き
-の条件があるか → その条件を満たすか」という共通の決定木をたどれば、ア〜コの
-10肢すべてを判定できることを示す作図ガイド。10肢すべてが同一の決定木を共有
-できるため、「フローチャート式の考え方」4（共有木の使い回し）を全面的に採用
-し、各パネルでは自分の肢に関係する分岐だけを太い縁取り・色付きで強調し、関係
-しない分岐は薄いグレーの点線で縮小表示する構成にした。また、上屋・半永久的・
-基脚・固定といったただし書きの条件を満たさない側（分岐の「いいえ」側）も、
-本文解説に実在する結論（例：屋根のないホームは対象外）である肢（エ・オ・カ・
-キ・ケ）については、完全に薄消しにせず小さく残すことで「隠れた条件」を可視化
-した。
+準則77条の個別列挙をそのまま10通りの分類木として描くと、パネルごとに枝分かれ
+が深くなりすぎて「読んだ瞬間に描ける図」から遠ざかってしまう。そこで、建物認
+定の判断はどの肢も最終的に**定着性・外気分断性・用途性**という3要件（不動産
+登記規則111条、昭24.2.22民事甲240号）のどれか1つ（またはそのうち決め手にな
+る1〜2要件）を確認する作業に還元できる、という考え方に立ち返り、10肢すべて
+をこの3要件の物差しで判定するシンプルな図解に統一した（令和4年度・令和5年
+度・令和6年度・平成27年度・平成30年度の「建物認定」を扱う⑤作図ガイドと同じ
+設計方針）。イ・ウ（3要件をすべて満たして建物になる典型例）だけは3要件を順
+に確認する決定木とし、残る8肢は「その肢の結論を左右する1つの要件」だけを確
+認すれば足りる単純な図解にとどめ、無理に多段階のフローチャートへ仕立てていな
+い。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x4800 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x3600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article, but
@@ -356,57 +357,33 @@ underground platforms, train station roofs, machinery bases, greenhouses,
 stadium stands, ticket booths on wheels, houseboats, and arcade streets,
 with green checkmark stamps and red prohibition-X stamps.
 
-All 10 panels in this set share the exact same decision-tree shape,
-because all 10 肢 of this problem are judged by the same reasoning
-process under 不動産登記事務取扱手続準則77条. Establish this shared tree
-clearly in Panel 1 and reuse its exact shape in every other panel. The
-tree has 11 nodes, referred to below by the internal reference codes R,
-P, Q, C, D, G1, G2, G3, N1, N2, N3 — these codes are for this prompt
-text only and must NEVER be rendered as visible English letters or codes
-anywhere on the image; only the Japanese text shown in 「」 for each node
-is the node's actual visible label:
-
-- Diamond node R (top): 「取り扱うもの／取り扱わないもの、どちらの例示か」
-  branching left to 「取り扱うもの」(leading to node P) and right to
-  「取り扱わないもの」(leading to node Q).
-- Diamond node P: 「ただし書きの条件が付いているか」branching 「いいえ」to a
-  green conclusion node G1「建物として扱える」, and 「はい」to diamond node C.
-- Diamond node C: 「ただし書きの条件を満たすか」(the specific condition text
-  is written inside node C on each panel where it is the highlighted
-  node), branching 「はい」to a green conclusion node G2「建物として扱える
-  (ただし書き充足)」, and 「いいえ」to a conclusion node G3 with a
-  panel-specific negative label.
-- Diamond node Q: 「除外するただし書きの条件が付いているか」branching
-  「いいえ」to a red conclusion node N1「建物として扱えない」, and 「はい」to
-  diamond node D.
-- Diamond node D: 「除外条件を満たすか」(the specific condition text is
-  written inside node D on each panel where it is the highlighted node),
-  branching 「はい」to a green conclusion node N2「建物として扱える
-  (除外規定)」, and 「いいえ」to a conclusion node N3 with a panel-specific
-  negative label.
-
-On every panel, draw the full 11-node tree (R, P, Q, C, D, G1, G2, G3,
-N1, N2, N3) every time, but render ONLY the branch that leads to THIS
-panel's own 肢 with a thick highlighted border and full color (including
-its own conclusion node), and render every other node and arrow in a
-faded, greyed-out, dotted-outline style — do not omit any node. Where a
-panel's own path stops at G1 or N1 (a single check with no ただし書き),
-still draw nodes C, D and their four children (G2, G3, N2, N3) in the
-faded style below/beside the tree so the reader can see that other 肢 in
-this set use those paths. Where a panel's own path goes through C or D,
-also render that node's OTHER branch (the negative conclusion, G3 or N3)
-in a smaller but legible, muted style right next to the highlighted
-branch — not fully greyed out like the unrelated half of the tree —
-because that negative outcome is a real conclusion described in the
-article's own text, not merely "unrelated." Do not draw any arrow that
-loops back to an earlier node; every branch must end at a conclusion
-node.
+Every panel in this set judges its 肢 against the same three-requirement
+test for 不動産登記法上の「建物」: 定着性 (fixed to the land), 外気分断性
+(enclosed from the outside air by a roof and walls or their equivalent),
+and 用途性 (usable as a space for its intended purpose). Where a 肢 is
+resolved by confirming all three requirements in sequence (Panels 2 and
+3), draw an actual decision flowchart: three diamond-shaped branch nodes
+stacked top to bottom, each labeled with one requirement's name and its
+check question, connected by Yes arrows in thick full color down to a
+final green conclusion node; also draw each diamond's No arrow branching
+off in a faded, dotted-outline style to a shared faded red conclusion
+node, so the reader can see what would happen if that requirement failed,
+without it dominating the panel. Where a 肢 turns on a single decisive
+requirement (all other panels), draw ONE diamond-shaped branch node for
+that requirement only, with both its Yes and No arrows leading to their
+own real conclusion nodes drawn in full color (this problem's facts
+always land on one specific side, so highlight that side with a thick
+border and full color, and draw the other, not-applicable side in a
+smaller, faded, dotted-outline style rather than omitting it) — do not
+force these single-requirement 肢 into a three-diamond tree. Do not draw
+any arrow that loops back to an earlier node; every branch must end at a
+conclusion node.
 
 Where a panel must show an entity or state that does not apply to this
-肢's own fact pattern (e.g. the same structure without its support legs,
-or the same houseboat not anchored), render it as a faded or
-dotted-outline icon rather than a plain ○/✕ mark, so the visual itself
-communicates the contrast.
+肢's own fact pattern (e.g. the same platform half with no roof, or the
+same houseboat not anchored), render it as a faded or dotted-outline icon
+rather than a plain ○/✕ mark, so the visual itself communicates the
+contrast.
 
 Unlike a glanceable summary poster, each panel MAY include a short「着眼点」
 callout box with 1-2 sentences that state the checking ORDER in words
@@ -446,7 +423,7 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第19問 作図ガイド（建物認定10肢の判定）
+平成19年度 午前の部 第19問 ア〜コ作図ガイド（建物認定）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -455,277 +432,234 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled red circle containing the number 1 (numbers run
 continuously through all 10 panels).
 Heading (bold, ONE line):
-給水タンクは対象外の例示に直接該当
-Diagram: Draw the full shared 11-node decision tree described above.
-Bold-highlight, in full color with a thick border: node R → the right
-arrow labeled 「取り扱わないもの」→ node Q → the 「いいえ」arrow → a red
-conclusion node N1 labeled 「建物として扱えない」. Render node P and its
-entire left-hand subtree (including C, G1, G2, G3), plus node D and its
-two children (N2, N3) under Q's 「はい」branch, in small, faded, grey
-dotted-outline style beside the highlighted path. Beside node R, place a
-small isometric icon of a standalone cylindrical water tank (給水タンク)
-on a bare concrete pad with no surrounding walls or roof, labeled
-「給水タンク」, with a red prohibition-X stamp at the highlighted
-conclusion node.
+給水タンクは用途性を欠き建物でない
+Diagram: An isometric cutaway of a cylindrical water tank (給水タンク),
+its interior shown as completely sealed and empty, with no person or
+object icon inside. One diamond-shaped branch node labeled 「用途性:人が
+出入りしてとどまることができる空間か」, its 「いいえ」arrow drawn thick and
+in full red, leading to a red conclusion node 「建物として扱えない」. Beside
+the diamond, add a small faded, dotted-outline label 「外気分断性:外壁は
+あるが決め手ではない」 to show that this requirement is satisfied but not
+the reason for the answer, without drawing it as a separate branch.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この記述が準則77条の「建物として取り扱わないもの」の例示に載っている
-かを確認します。給水タンクはこの例示に名指しで挙げられており、ただし書きの
-例外もないため、そのまま建物として扱えないと判定します。
+まず外気分断性は満たしているように見えることを確認しますが、次に人が使え
+る空間かという用途性を確認すると、これを欠くため建物として扱えません。
 Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
-対象外リストに直接該当
+用途性欠き扱えない
 
 --- PANEL 2（肢イ） ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
-ガード下は高架が屋根の代わりになる
-Diagram: Draw the full shared 11-node decision tree. Bold-highlight, in
-full color with a thick border: node R → the left arrow labeled
-「取り扱うもの」→ node P → the 「いいえ」arrow → a green conclusion node G1
-labeled 「建物として扱える」. Render node Q and its entire right-hand
-subtree (including D, N1, N2, N3), plus node C and its two children (G2,
-G3) under P's 「はい」branch, in small, faded, grey dotted-outline style
-beside the highlighted path. Beside node R, place a small isometric icon
-of an elevated railway viaduct (ガード) with a shuttered shop/warehouse
-space built underneath it, the viaduct's underside serving as a roof and
-the shutters serving as walls, labeled 「ガード下倉庫」, with a green
-checkmark stamp at the highlighted conclusion node.
+ガード下倉庫は3要件を満たし建物
+Diagram: An isometric elevated railway viaduct (ガード) with a shuttered
+shop/warehouse space built underneath it, the viaduct's underside serving
+as a roof and the shutters serving as walls. Three diamond-shaped branch
+nodes stacked top to bottom, each with a thick green 「はい」arrow leading
+down to the next: (1) 「定着性:土地に築造され固定されているか」, (2)
+「外気分断性:高架を屋根、シャッター等を周壁として外気と分断されているか」,
+(3) 「用途性:倉庫として使用できる空間か」. All three 「はい」arrows lead to
+a final green conclusion node 「建物として扱える」. Each diamond's 「いいえ」
+arrow branches off in a faded, dotted-outline style to a single shared
+faded red conclusion node 「建物として扱えない」off to the side.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この記述が準則77条の「建物として取り扱うもの」の例示に載っているかを
-確認します。ガード下を利用した店舗・倉庫はこの例示に名指しで挙げられており、
-ただし書きの条件もないため、そのまま建物として扱えると判定します。
+まず土地への定着性を確認し、次に高架を屋根とする外気分断性、最後に倉庫と
+しての用途性を確認すると、3要件をすべて満たすため建物として扱えます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-屋根も周壁もあり建物
+3要件満たし建物
 
 --- PANEL 3（肢ウ） ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line):
-地下でも屋根と周壁があれば建物
-Diagram: Draw the full shared 11-node decision tree. Bold-highlight, in
-full color with a thick border: node R → the left arrow labeled
-「取り扱うもの」→ node P → the 「いいえ」arrow → a green conclusion node G1
-labeled 「建物として扱える」. Render node Q and its entire right-hand
-subtree, plus node C and its two children (G2, G3) under P's 「はい」
-branch, in small, faded, grey dotted-outline style beside the highlighted
-path. Beside node R, place a small isometric cutaway icon of an
-underground train station platform beneath street level, with a ceiling
-and surrounding walls enclosing the space, labeled 「地下停車場」, with a
-green checkmark stamp at the highlighted conclusion node.
+地下でも3要件満たせば建物
+Diagram: An isometric cutaway of an underground train station platform
+beneath street level, with a ceiling and surrounding walls enclosing the
+space, a faint dashed line marking the ground surface above it. Three
+diamond-shaped branch nodes stacked top to bottom, each with a thick
+green 「はい」arrow leading down to the next: (1) 「定着性:地中に築造され
+固定されているか」, (2) 「外気分断性:周壁・天井で外気と分断されているか」,
+(3) 「用途性:乗降場として使用できる空間か」. All three 「はい」arrows lead
+to a final green conclusion node 「建物として扱える」. Each diamond's
+「いいえ」arrow branches off in a faded, dotted-outline style to a single
+shared faded red conclusion node 「建物として扱えない」off to the side.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この記述が準則77条の「建物として取り扱うもの」の例示に載っているかを
-確認します。地下停車場・地下駐車場・地下街はこの例示に名指しで挙げられて
-おり、地上に姿がないことは判定に影響しません。
+まず地中でも土地への定着性は問題なく満たされることを確認し、次に周壁・天
+井による外気分断性、最後に乗降場としての用途性を確認すると、3要件をすべ
+て満たすため建物として扱えます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-地下でも建物になり得る
+地下でも3要件満たす
 
 --- PANEL 4（肢エ） ---
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line):
-乗降場は上屋の有無で建物か分かれる
-Diagram: Draw the full shared 11-node decision tree. Bold-highlight, in
-full color with a thick border: node R → the left arrow labeled
-「取り扱うもの」→ node P → the 「はい」arrow → node C, its label reading
-「ただし書きの条件(上屋の有無)を満たすか」→ the 「はい」arrow → a green
-conclusion node G2 labeled 「建物として扱える(ただし書き充足)」. Render node
-Q and its entire right-hand subtree in small, faded, grey dotted-outline
-style. Also render node C's 「いいえ」arrow and its conclusion node G3,
-labeled 「建物として扱えない(上屋なし部分)」, in a smaller but legible,
-muted (not fully greyed) style directly beside the highlighted 「はい」
-branch. Beside node R, place a small isometric icon of a train station
-platform where one half is covered by a roof (上屋), drawn in full color
-with a green checkmark stamp, and the other half is open with no roof,
-drawn in muted grey with a small label 「屋根なし部分は対象外」.
+上屋があれば外気分断性を満たす
+Diagram: An isometric train station platform where one half is covered by
+a roof (上屋), drawn in full color, and the other half is open with no
+roof, drawn in muted grey. One diamond-shaped branch node labeled
+「外気分断性:上屋(屋根に相当する構造)を有する部分か」, positioned between
+the two halves. Its 「はい」arrow, drawn thick and in full green, points to
+the roofed half and down to a green conclusion node 「建物として扱える」.
+Its 「いいえ」arrow, drawn as a faded dotted line, points to the open half
+and down to a small faded conclusion node 「対象外」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、乗降場又は荷物積卸場が準則77条の「建物として取り扱うもの」の例示に
-載っているかを確認します。次に、ただし書きの「上屋を有する部分に限る」と
-いう条件を満たすかを確認し、上屋のある部分だけを建物と判定します。
+まず定着性・用途性はプラットホームとして当然に満たされていることを確認
+し、次に上屋の有無による外気分断性を確認すると、上屋のある部分は建物と
+して扱えます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-上屋があれば建物
+上屋で外気分断性あり
 
 --- PANEL 5（肢オ） ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line):
-機械上でも基脚があれば建物になる
-Diagram: Draw the full shared 11-node decision tree. Bold-highlight, in
-full color with a thick border: node R → the right arrow labeled
-「取り扱わないもの」→ node Q → the 「はい」arrow → node D, its label reading
-「除外条件(基脚・支柱の有無)を満たすか」→ the 「はい」arrow → a green
-conclusion node N2 labeled 「建物として扱える(除外規定)」. Render node P and
-its entire left-hand subtree in small, faded, grey dotted-outline style.
-Also render node D's 「いいえ」arrow and its conclusion node N3, labeled
-「建物として扱えない(基脚も支柱もない場合)」, in a smaller but legible,
-muted style directly beside the highlighted 「はい」branch. Beside node R,
-place a small isometric icon of a machine base with a small structure
-built on top of it, thick support legs (基脚) visibly anchoring the
-structure into the ground, drawn in full color with a green checkmark
-stamp, beside a smaller, faded, dotted-outline icon of the same
-machine-top structure with no support legs at all, labeled 「基脚も支柱も
-なければ対象外」.
+基脚があれば定着性を満たす
+Diagram: An isometric machine base with a small structure built on top of
+it, thick support legs (基脚) visibly anchoring the structure into the
+ground, drawn in full color. Beside it, a smaller, faded, dotted-outline
+icon of the same machine-top structure with no support legs at all. One
+diamond-shaped branch node labeled 「定着性:地上に基脚を有し、又は支柱を
+施しているか」. Its 「はい」arrow, drawn thick and in full green, points to
+the structure with legs and down to a green conclusion node 「建物として
+扱える」. Its 「いいえ」arrow, drawn as a faded dotted line, points to the
+legless structure and down to a small faded conclusion node 「対象外」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、機械上に建設した建造物が準則77条の「建物として取り扱わないもの」の
-例示に載っているかを確認します。次に、ただし書きの「地上に基脚を有し、
-又は支柱を施したものを除く」という除外条件を満たすかを確認し、基脚が
-あれば建物と判定します。
+まず機械の上に建てられている点だけで判断せず、次に地上に基脚があるかど
+うかによる定着性を確認すると、基脚があるため建物として扱えます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-基脚があれば建物
+基脚で定着性あり
 
 --- PANEL 6（肢カ） ---
 Badge: a filled green circle containing the number 6.
 Heading (bold, ONE line):
-温床施設は半永久的かどうかで判断
-Diagram: Draw the full shared 11-node decision tree. Bold-highlight, in
-full color with a thick border: node R → the left arrow labeled
-「取り扱うもの」→ node P → the 「はい」arrow → node C, its label reading
-「ただし書きの条件(半永久的かどうか)を満たすか」→ the 「はい」arrow → a green
-conclusion node G2 labeled 「建物として扱える(ただし書き充足)」. Render node
-Q and its entire right-hand subtree in small, faded, grey dotted-outline
-style. Also render node C's 「いいえ」arrow and its conclusion node G3,
-labeled 「建物として扱えない(仮設のビニールハウス等)」, in a smaller but
-legible, muted style directly beside the highlighted 「はい」branch. Beside
-node R, place a small isometric icon of a greenhouse with a solid
-concrete foundation and glass panel walls and roof, labeled 「半永久的」,
-drawn in full color with a green checkmark stamp, beside a smaller,
-faded, dotted-outline icon of a simple temporary vinyl-sheet greenhouse
-with no foundation, labeled 「仮設のビニールハウスは対象外」.
+半永久的なら定着性を満たす
+Diagram: An isometric greenhouse (温床施設) with a solid concrete
+foundation and glass panel walls and roof, drawn in full color. Beside
+it, a smaller, faded, dotted-outline icon of a simple temporary
+vinyl-sheet greenhouse with no foundation. One diamond-shaped branch node
+labeled 「定着性:半永久的な構造と認められるか」. Its 「はい」arrow, drawn
+thick and in full green, points to the glass greenhouse and down to a
+green conclusion node 「建物として扱える」. Its 「いいえ」arrow, drawn as a
+faded dotted line, points to the vinyl-sheet greenhouse and down to a
+small faded conclusion node 「対象外」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、園芸又は農耕用の温床施設が準則77条の「建物として取り扱うもの」の
-例示に載っているかを確認します。次に、ただし書きの「半永久的な建造物と
-認められるものに限る」という条件を満たすかを確認し、恒常的な設備であれば
-建物と判定します。
+まず外気分断性・用途性は温室として当然に満たされていることを確認し、次
+に半永久的な構造かどうかによる定着性を確認すると、恒常的な設備であれば
+建物として扱えます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-半永久的なら建物
+半永久性で定着性あり
 
 --- PANEL 7（肢キ） ---
 Badge: a filled green circle containing the number 7.
 Heading (bold, ONE line):
-観覧席は屋根の有無で建物か分かれる
-Diagram: Draw the full shared 11-node decision tree. Bold-highlight, in
-full color with a thick border: node R → the left arrow labeled
-「取り扱うもの」→ node P → the 「はい」arrow → node C, its label reading
-「ただし書きの条件(屋根の有無)を満たすか」→ the 「はい」arrow → a green
-conclusion node G2 labeled 「建物として扱える(ただし書き充足)」. Render node
-Q and its entire right-hand subtree in small, faded, grey dotted-outline
-style. Also render node C's 「いいえ」arrow and its conclusion node G3,
-labeled 「建物として扱えない(屋根なし部分)」, in a smaller but legible,
-muted style directly beside the highlighted 「はい」branch. Beside node R,
-place a small isometric icon of a baseball stadium spectator stand where
-one section has a roof overhead, drawn in full color with a green
-checkmark stamp, and an adjacent section is open-air with no roof, drawn
-in muted grey with a small label 「屋根なし部分は対象外」.
+屋根があれば外気分断性を満たす
+Diagram: An isometric baseball stadium spectator stand where one section
+has a roof overhead, drawn in full color, and an adjacent section is
+open-air with no roof, drawn in muted grey. One diamond-shaped branch
+node labeled 「外気分断性:屋根を有する部分か」, positioned between the two
+sections. Its 「はい」arrow, drawn thick and in full green, points to the
+roofed section and down to a green conclusion node 「建物として扱える」.
+Its 「いいえ」arrow, drawn as a faded dotted line, points to the open
+section and down to a small faded conclusion node 「対象外」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、野球場又は競馬場の観覧席が準則77条の「建物として取り扱うもの」の
-例示に載っているかを確認します。次に、ただし書きの「屋根を有する部分に
-限る」という条件を満たすかを確認し、屋根のある部分だけを建物と判定します。
+まず定着性・用途性は観覧席として当然に満たされていることを確認し、次に
+屋根の有無による外気分断性を確認すると、屋根のある部分は建物として扱え
+ます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-屋根があれば建物
+屋根で外気分断性あり
 
 --- PANEL 8（肢ク） ---
 Badge: a filled red circle containing the number 8.
 Heading (bold, ONE line):
-運べる売場は定着性を欠き対象外
-Diagram: Draw the full shared 11-node decision tree. Bold-highlight, in
-full color with a thick border: node R → the right arrow labeled
-「取り扱わないもの」→ node Q → the 「いいえ」arrow → a red conclusion node N1
-labeled 「建物として扱えない」. Render node P and its entire left-hand
-subtree, plus node D and its two children (N2, N3) under Q's 「はい」
-branch, in small, faded, grey dotted-outline style beside the highlighted
-path. Beside node R, place a small isometric icon of a small ticket booth
-(入場券売場) mounted on caster wheels, being pushed and rolled away by a
-person, labeled 「入場券売場」, with a red prohibition-X stamp at the
-highlighted conclusion node.
+容易に運搬できれば定着性を欠く
+Diagram: An isometric small ticket booth (入場券売場) mounted on caster
+wheels, being pushed and rolled away by a person. One diamond-shaped
+branch node labeled 「定着性:土地に固定され容易に移動できない状態か」, its
+「いいえ」arrow drawn thick and in full red, leading to a red conclusion
+node 「建物として扱えない」. Beside the diamond, add a small faded,
+dotted-outline label 「外気分断性・用途性:壁と屋根はあるが決め手ではない」
+to show that these requirements look satisfied but are not the reason
+for the answer, without drawing them as separate branches.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この記述が準則77条の「建物として取り扱わないもの」の例示に載っている
-かを確認します。容易に運搬することができる切符売場・入場券売場はこの例示
-に名指しで挙げられており、ただし書きの例外もないため、そのまま建物として
-扱えないと判定します。
+まず外気分断性・用途性は満たしているように見えることを確認しますが、次
+に容易に運搬できるかによる定着性を確認すると、これを欠くため建物として
+扱えません。
 Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
-定着性なく対象外
+運搬容易で定着性なし
 
 --- PANEL 9（肢ケ） ---
 Badge: a filled green circle containing the number 9.
 Heading (bold, ONE line):
-浮船は固定されていれば建物になる
-Diagram: Draw the full shared 11-node decision tree. Bold-highlight, in
-full color with a thick border: node R → the right arrow labeled
-「取り扱わないもの」→ node Q → the 「はい」arrow → node D, its label reading
-「除外条件(固定の有無)を満たすか」→ the 「はい」arrow → a green conclusion
-node N2 labeled 「建物として扱える(除外規定)」. Render node P and its entire
-left-hand subtree in small, faded, grey dotted-outline style. Also render
-node D's 「いいえ」arrow and its conclusion node N3, labeled 「建物として
-扱えない(固定されていない場合)」, in a smaller but legible, muted style
-directly beside the highlighted 「はい」branch. Beside node R, place a
-small isometric icon of a houseboat (浮船) anchored down to the riverbed
-with a visible anchor chain and mooring post, labeled 「固定」, drawn in
-full color with a green checkmark stamp, beside a smaller, faded,
-dotted-outline icon of the same houseboat freely floating with no anchor
-chain, labeled 「固定されていなければ対象外」.
+固定されていれば定着性を満たす
+Diagram: An isometric houseboat (浮船) anchored down to the riverbed with
+a visible anchor chain and mooring post, drawn in full color. Beside it,
+a smaller, faded, dotted-outline icon of the same houseboat freely
+floating with no anchor chain. One diamond-shaped branch node labeled
+「定着性:係留・固定されて水底(土地)に定着していると認められるか」. Its
+「はい」arrow, drawn thick and in full green, points to the anchored
+houseboat and down to a green conclusion node 「建物として扱える」. Its
+「いいえ」arrow, drawn as a faded dotted line, points to the floating
+houseboat and down to a small faded conclusion node 「対象外」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、浮船を利用したものが準則77条の「建物として取り扱わないもの」の例示
-に載っているかを確認します。次に、ただし書きの「固定しているものを除く」
-という除外条件を満たすかを確認し、固定されていれば建物と判定します。
+まず外気分断性・用途性は浮船を利用した建造物として当然に満たされている
+ことを確認し、次に固定されているかどうかによる定着性を確認すると、固定
+されていれば建物として扱えます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-固定すれば建物
+固定で定着性あり
 
 --- PANEL 10（肢コ） ---
 Badge: a filled red circle containing the number 10 (numbers run
 continuously through all 10 panels; do not restart at 1).
 Heading (bold, ONE line):
-アーケードは道路上の屋根に過ぎない
-Diagram: Draw the full shared 11-node decision tree. Bold-highlight, in
-full color with a thick border: node R → the right arrow labeled
-「取り扱わないもの」→ node Q → the 「いいえ」arrow → a red conclusion node N1
-labeled 「建物として扱えない」. Render node P and its entire left-hand
-subtree, plus node D and its two children (N2, N3) under Q's 「はい」
-branch, in small, faded, grey dotted-outline style beside the highlighted
-path. Beside node R, place a small isometric icon of a shopping arcade
-street (アーケード付街路) — a public road covered only by a roof overhead,
-with no side walls, and pedestrians walking underneath — labeled
-「アーケード付街路」, with a red prohibition-X stamp at the highlighted
-conclusion node.
+屋根覆いだけでは用途性を欠く
+Diagram: An isometric shopping arcade street (アーケード付街路) — a public
+road covered only by a roof overhead, with no side walls, and pedestrians
+walking underneath. One diamond-shaped branch node labeled 「用途性:特定
+の者が独立してその用途に供し得る空間か」, its 「いいえ」arrow drawn thick
+and in full red, leading to a red conclusion node 「建物として扱えない」.
+Beside the diamond, add a small faded, dotted-outline label 「外気分断性:
+屋根はあるが決め手ではない」 to show that this requirement is partially
+satisfied but is not the reason for the answer, without drawing it as a
+separate branch.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この記述が準則77条の「建物として取り扱わないもの」の例示に載っている
-かを確認します。アーケード付街路はこの例示に名指しで挙げられており、ただし
-書きの例外もないため、そのまま建物として扱えないと判定します。
+まず屋根覆いがあり外気分断性を満たすように見えることを確認しますが、次
+に独立した用途に供し得る空間かという用途性を確認すると、これを欠くため
+建物として扱えません。
 Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
-屋根だけでは建物でない
+屋根のみで用途性なし
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記事務取扱手続準則77条(建物として取り扱うもの・取り扱わないものの
-例示)
+建物認定の3要件(定着性・外気分断性・用途性、昭24.2.22民事甲240号)、
+不動産登記事務取扱手続準則77条(各肢の具体例)
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 準・則・条・建・物・場・扱・給・船・浮・
-運・搬・売・街・観・覧・席・脚・支・柱・仮・設・施・恒・常・固・定・除・
-件・例・示・認・芸・荷・積・卸. If any character renders as a Simplified or
-Traditional Chinese variant, redraw that character in the correct
-Japanese form. Also scan the entire canvas for any character that is not
-standard Japanese hiragana, katakana, or Jōyō kanji — including any
-Chinese-only character, Korean Hangul, other non-Japanese script, or
-stray decorative glyph — and remove or redraw it so that only standard
-Japanese text appears anywhere in the image, and confirm that none of the
-internal reference codes R, P, Q, C, D, G1, G2, G3, N1, N2, N3 used in
-this prompt text appear as rendered English letters anywhere on the
-image. Confirm the panel count equals 10 exactly, badge numbers run 1-10
+Chinese, paying special attention to 建・物・扱・定・着・気・分・断・用・
+途・給・浮・船・運・搬・街・観・覧・席・築・基・脚・固. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 10 exactly, badge numbers run 1-10
 continuously with no resetting, there is no intro illustration or
-paragraph block between the header and the panels, that every panel
-renders the full 11-node shared decision tree with its own path
-highlighted and every other node present but faded rather than omitted,
-that no arrow loops back to an earlier node, that each 着眼点 callout
-states a checking order rather than only a conclusion, confirm nothing is
-rendered below the last panel's footnote text (no summary recap panel, no
-trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
-text block of any kind), and confirm the entire canvas, edge to edge, is
-filled with a fully opaque background with no transparency or alpha
-channel anywhere.
+paragraph block between the header and the panels, that Panels 2 and 3
+are drawn as an actual three-diamond flowchart while the remaining 8
+panels use a single decisive diamond node rather than being forced into
+a multi-step tree, that no arrow loops back to an earlier node, that
+each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
