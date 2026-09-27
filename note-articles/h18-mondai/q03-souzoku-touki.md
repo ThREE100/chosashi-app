@@ -88,43 +88,41 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-**2026-09-27再改訂**：前2版はいずれもA・B・C・Dの事実関係を順を追って描く「物語の再現」だったが、ユーザーから「問題文に沿った流れの図解よりも、このパターンはなぜこの結論になるのか・どこがひっかけポイントなのかが一目でわかることの方が重要」という指摘を受けた。そこで構成方針を根本から変更し、各カードを「誤りやすい思い込み（左・薄いグレーアウト）」対「正しい理由（右・強調）」の対比と、両者を分ける一言の「決め手」ラベルだけで組み立てる、④間違いノート型に近い"ひっかけ診断"ポスターに作り直した。A・B・C・Dの事実関係の再現イラストは廃止し、5肢が実は「二重譲渡と同じ扱い（肢ア・エ・オ）」「そもそも無権利（肢イ）」「絶対効で対抗要件の外（肢ウ）」という3つの異なる法的構造に分かれていることを示す色分け（⑤作図ガイド型と同じ3色）は維持する。
+**2026-09-27三訂**：前版はA・B・C・Dの物語を捨てて「ひっかけポイント」重視に転換したこと自体は正しかったが、各カードを「LEFT box: 短い文」「RIGHT box: 短い文」という独立フィールドとして指定してしまい、結果として絵ではなく色分けされた文字ラベルの羅列になってしまった（インフォグラフィックとして描く意味がないとの指摘）。この版では、`infographic-prompt-template.md`が定める正規の骨格（Badge／Heading／**Illustration（1つの具体的な絵の描写段落）**／Conclusion tag）に戻し、この記事自身の⑤作図ガイド型セクションのPANEL 3（正誤対比型）と同じ書き方で、「誤りやすい思い込み」と「正しい理由」の両方を、具体的なアイソメトリックのモノ・記号・比喩で描き分ける。抽象的な「箱に短文」ではなく、各肢ごとに異なる具体的な視覚比喩（登記レースの旗、中身の空っぽな箱、そっくりな2枚の書類、分裂する傘、鍵のかかった土地の半分など）を用いる。5肢が3つの法的構造（二重譲渡型・無権利型・絶対効型）に分かれることを示す色分け・LEGENDは維持する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2000 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray, orange), rounded card sections, consistent with
-a modern explainer-graphic aesthetic (icons: magnifying glass, thought
-bubble, shield, scale/balance icon, lightbulb — adapt icon set to the
-topic).
-
-MISTAKE-VS-RULE POSTER REQUIREMENT (critical, this is the whole point of
-this poster): Each card is NOT a retelling of the fact pattern. Each card
-exists to answer exactly one question: "why does this pattern lead to
-this conclusion, and where would a reader trip up?" Every card MUST be
-built from exactly 3 elements, and nothing else:
-(1) a LEFT box labeled「誤りやすい思い込み」, faded/greyed-out/dotted-
-    outline, showing the plausible-but-wrong intuition as a short phrase
-    with a small crossed-out icon (thought bubble + a red strikethrough);
-(2) a RIGHT box labeled「正しい理由」, drawn with a thick highlighted
-    border and full color, showing the actual legal reason as a short
-    phrase with a supporting icon (shield, checkmark, or balance icon);
-(3) directly below both boxes, one「決め手」callout banner containing a
-    SHORT DECIDING QUESTION (a few words, not a sentence) that names the
-    exact fact a reader must check to tell the trap from the rule.
-Do NOT illustrate the underlying A/B/C/D transaction as a multi-step
-story, do NOT draw land plots being physically handed between isometric
-characters, and do NOT add a timeline. The left/right contrast and the
-決め手 callout ARE the entire content of the card.
+a modern explainer-graphic aesthetic (icons: registration-race flags, empty
+gift boxes, twin documents, splitting umbrellas, padlocks, shield icons —
+adapt icon set to the topic).
 
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
 NOT a text-heavy explainer document. There is NO intro illustration and NO
 paragraph of prose anywhere on this poster — go straight from the header
 to the cards. Every card must communicate its point almost entirely
-through the LEFT/RIGHT contrast icons and the three short labels described
-above (heading, type tag, 決め手). Do NOT render any full-sentence
-explanation or legal citation anywhere on the poster — every label must be
-a short phrase (a few words), never a complete sentence.
+through the illustration (concrete isometric objects, icons, X marks,
+checkmarks, small embedded labels) plus one short heading, one short "type
+tag" pill, and one short conclusion tag. Do NOT render any full-sentence
+explanation or legal citation anywhere on the poster. A card that consists
+only of colored text boxes with no actual pictorial scene is a FAILURE of
+this requirement — every card's illustration must be something a reader
+could describe as "a drawing of X", not "a box that says X".
+
+TRAP-VS-RULE VISUAL METAPHOR REQUIREMENT (critical, this is the whole
+point of this poster): Each card's illustration must visually stage ONE
+concrete visual metaphor that a reader would naturally (and wrongly)
+apply to this fact pattern, then show why that metaphor breaks down here.
+Render this as a single scene split into a faded left half and a
+highlighted right half of the SAME visual metaphor (not two separate text
+boxes): the left half shows the metaphor rendered normally but greyed-out/
+dotted-outline/struck-through (because it does not actually apply), and
+the right half shows the metaphor's twist — the specific concrete detail
+that changes the outcome — rendered in full color with a thick highlighted
+border. The exact object/icon used for each card is specified in that
+card's Illustration field below; use those objects, not generic characters
+handing over a land plot.
 
 CATEGORY-COLOR REQUIREMENT (critical): The 5 cards are NOT interchangeable
 — they represent exactly 3 different legal structures, and part of the
@@ -193,15 +191,19 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 Type tag (a small pill directly under the heading, blue, 5-8 Japanese
 characters):
 型：二重譲渡型
-LEFT box「誤りやすい思い込み」(faded, dotted outline, thought-bubble icon
-with red strikethrough):
-相続人が代わりに処分しただけ
-RIGHT box「正しい理由」(thick highlighted border, full color, shield/
-checkmark icon):
-相続登記後の処分は別人への二重譲渡と同じ
-決め手 callout (short deciding question, a few words, verbatim):
-相続人は「登記済み」で処分したか？
-Conclusion tag (a short colored banner/pill directly below the callout,
+Illustration: A single "登記レース"（race to the registry window）scene
+split left/right. LEFT half (faded, dotted outline): a baton-relay icon
+showing character「A」handing a baton directly to character「C」to「B」
+in one unbroken faded arrow, as if it were a single uninterrupted runner
+—captioned「同じ人が引き継いだだけ」with a red strikethrough over the
+unbroken arrow. RIGHT half (thick highlighted border, full color): the
+relay arrow is visibly CUT at the point where C stamped「相続登記」(drawn
+as a solid registry stamp), and from that stamp, two SEPARATE racers now
+sprint toward an isometric registry-office gate icon: character「D」
+reaching the gate first with a checkered flag and a green「登記あり」
+stamp, while character「B」arrives after the gate closes, with a red ✕
+over B's flag captioned「登記なし」.
+Conclusion tag (a short colored banner/pill directly below the illustration,
 blue, 5-15 Japanese characters):
 登記なければ対抗不可
 
@@ -212,15 +214,18 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 Type tag (a small pill directly under the heading, green, 5-8 Japanese
 characters):
 型：無権利型
-LEFT box「誤りやすい思い込み」(faded, dotted outline, thought-bubble icon
-with red strikethrough):
-先に登記した方が勝つはず
-RIGHT box「正しい理由」(thick highlighted border, full color, shield/
-checkmark icon):
-処分権限のない持分は登記を争う土俵にすら乗らない
-決め手 callout (short deciding question, a few words, verbatim):
-処分した人に、その部分を処分する権限はあったか？
-Conclusion tag (a short colored banner/pill directly below the callout,
+Illustration: The SAME registry-race gate icon from Card 1, reused
+deliberately so the viewer recognizes "this looks like the same race."
+LEFT half (faded, dotted outline): character「C」running toward the gate
+holding what looks like a solid land-plot icon labeled「Bの持分」, racing
+against character「D」— captioned「早いもの勝ちのはず」with a red
+strikethrough over the race itself. RIGHT half (thick highlighted border,
+full color): the land-plot icon in C's hands is revealed to be a hollow,
+transparent OUTLINE only (an empty box shape with no fill), captioned
+「Cはそもそも中身を持っていない」; a shield icon appears around a separate,
+solid, full-color land-plot icon held safely by character「B」off to the
+side, away from the race entirely, captioned「レースの外側にある」.
+Conclusion tag (a short colored banner/pill directly below the illustration,
 green, 5-15 Japanese characters):
 登記なしで対抗できる
 
@@ -231,15 +236,20 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 Type tag (a small pill directly under the heading, orange, 5-8 Japanese
 characters):
 型：絶対効型
-LEFT box「誤りやすい思い込み」(faded, dotted outline, thought-bubble icon
-with red strikethrough):
-遺産分割と同じく登記が必要なはず
-RIGHT box「正しい理由」(thick highlighted border, full color, shield/
-checkmark icon):
-相続放棄は初めから相続人でなかったとみなす絶対効
-決め手 callout (short deciding question, a few words, verbatim):
-遺産分割ではなく相続放棄そのものではないか？
-Conclusion tag (a short colored banner/pill directly below the callout,
+Illustration: Two nearly-identical isometric document icons side by side
+at the top, one labeled「相続放棄」and one labeled「遺産分割協議」, with a
+large「＝？」confusion mark floating between them. LEFT half (faded,
+dotted outline, below the confusion mark): both documents shown wrapped in
+the SAME small, thin protective ring reaching only character「B」,
+captioned「どちらも同じ効力のはず」with a red strikethrough over the
+shared thin ring. RIGHT half (thick highlighted border, full color): only
+the「相続放棄」document now glows inside a large dome-shaped force-field
+(絶対効) that expands outward far enough to also cover a distant creditor
+character「D」holding a coin-bag icon and a red「差押え」stamp — the dome
+blocks D's stamp with a green shield checkmark; the「遺産分割協議」
+document sits separately OUTSIDE the dome with a small note「登記が必要
+（本問の対象外）」.
+Conclusion tag (a short colored banner/pill directly below the illustration,
 orange, 5-15 Japanese characters):
 絶対効・登記不要
 
@@ -250,15 +260,19 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 Type tag (a small pill directly under the heading, blue, 5-8 Japanese
 characters):
 型：二重譲渡型
-LEFT box「誤りやすい思い込み」(faded, dotted outline, thought-bubble icon
-with red strikethrough):
-遺贈も相続だから登記不要のはず
-RIGHT box「正しい理由」(thick highlighted border, full color, shield/
-checkmark icon):
-特定遺贈は意思表示による個別の権利移転
-決め手 callout (short deciding question, a few words, verbatim):
-包括承継（相続）か、個別の権利移転（遺贈）か？
-Conclusion tag (a short colored banner/pill directly below the callout,
+Illustration: A single large umbrella icon labeled「相続」. LEFT half
+(faded, dotted outline): the umbrella covers BOTH a family-tree icon
+(相続人) AND a scroll icon labeled「遺言：Bに遺贈」standing together
+underneath it, captioned「遺贈も相続の傘の中のはず」with a red
+strikethrough over the shared umbrella. RIGHT half (thick highlighted
+border, full color): the umbrella visibly SPLITS into two separate
+umbrellas — a small blue umbrella over just the family-tree icon labeled
+「包括承継・登記不要」, and a second, separate umbrella over the scroll
+icon labeled「個別の権利移転・登記が必要」, with the scroll icon standing
+alone in the open (no umbrella covering it from the registry-race gate
+icon from Card 1, which reappears small in the background with character
+「D」stamping「代位相続登記」and「差押え」).
+Conclusion tag (a short colored banner/pill directly below the illustration,
 blue, 5-15 Japanese characters):
 登記なければ対抗不可
 
@@ -269,22 +283,26 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 Type tag (a small pill directly under the heading, blue, 5-8 Japanese
 characters):
 型：二重譲渡型（超過分のみ）
-LEFT box「誤りやすい思い込み」(faded, dotted outline, thought-bubble icon
-with red strikethrough):
-相続人間の内部の話だから登記不要のはず
-RIGHT box「正しい理由」(thick highlighted border, full color, shield/
-checkmark icon):
-法定相続分を超える部分は第三者への処分と同視される
-決め手 callout (short deciding question, a few words, verbatim):
-取得分は法定相続分の範囲内か、超過分か？
-Conclusion tag (a short colored banner/pill directly below the callout,
+Illustration: One isometric land plot split by a single dashed line into
+two equal halves. LEFT half of the WHOLE SCENE (faded, dotted outline):
+the entire plot shaded in one uniform「家族内部」tone with a small house/
+family icon floating over the whole thing, captioned「身内の話だから
+登記不要のはず」with a red strikethrough over the uniform shading. RIGHT
+half of the WHOLE SCENE (thick highlighted border, full color): the SAME
+plot now clearly rendered as two DIFFERENT zones — B's original statutory
+half glows calm blue with a small「範囲内・登記不要」tag and no lock, while
+C's excess portion (the half beyond C's own statutory share, now held by
+D) is drawn with a padlock icon and a small law-book icon labeled「899条の
+2」, captioned「超過分は第三者への処分と同視」.
+Conclusion tag (a short colored banner/pill directly below the illustration,
 blue, 5-15 Japanese characters):
 超過分は登記なければ対抗不可
 
 （HEADERより前ではなく、この位置に短い1文で補足：全5枚のカードは同じ
-LEFT／RIGHT／決め手の3要素構成で統一し、番号は1から5まで連番、重複・
-欠落・言い換えは禁止。3色の型タグ（青／緑／橙）とLEGENDの対応が全カード
-で一致していること。簡体字混入と誤変換に特に注意すること。）
+「1つの視覚比喩をLEFT〔グレーアウト〕とRIGHT〔強調〕に割って描く」構成
+で統一し、番号は1から5まで連番、重複・欠落・言い換えは禁止。3色の型タグ
+（青／緑／橙）とLEGENDの対応が全カードで一致していること。簡体字混入と
+誤変換に特に注意すること。）
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -300,21 +318,22 @@ kanji — including any Chinese-only character, Korean Hangul, other
 non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image.
 Confirm the LEGEND's 3 colors exactly match each card's badge/border/type-
-tag color (Card 1・4・5＝青、Card 2＝緑、Card 3＝橙), confirm every card
-consists of exactly the LEFT box／RIGHT box／決め手 callout structure with
-NO retelling of the A/B/C/D transaction as a multi-step story and NO land
-plots being handed between characters, confirm every LEFT box is visibly
-faded/dotted/struck-through and every RIGHT box is visibly highlighted
-with a thick full-color border so the contrast reads instantly, confirm
-the number of cards equals 5 exactly, with no duplicated or missing
-cards, confirm there is no intro illustration or paragraph block between
-the header/legend and the cards, confirm that no card contains a full
-sentence of explanatory prose — every label must read as a short phrase
-at a glance — confirm nothing is rendered below the last card (no summary
-recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
-no additional text block of any kind), and confirm the entire canvas,
-edge to edge, is filled with a fully opaque background with no
-transparency or alpha channel anywhere.
+tag color (Card 1・4・5＝青、Card 2＝緑、Card 3＝橙), confirm every card's
+illustration is a genuine drawn scene built from the specific concrete
+objects named in that card (registry-race flags/gate, hollow outline-only
+land icon, twin documents with a force-field dome, splitting umbrella,
+padlocked land half) with a clearly faded/dotted LEFT portion and a
+clearly highlighted full-color RIGHT portion of the SAME scene — and that
+NO card is just a colored rectangle containing only text with no drawn
+objects, confirm the number of cards equals 5 exactly, with no duplicated
+or missing cards, confirm there is no intro illustration or paragraph
+block between the header/legend and the cards, confirm that no card
+contains a full sentence of explanatory prose — every label must read as
+a short phrase at a glance — confirm nothing is rendered below the last
+card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
