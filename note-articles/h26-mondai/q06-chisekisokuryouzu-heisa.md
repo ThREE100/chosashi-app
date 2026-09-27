@@ -114,6 +114,7 @@ Q6の肢エは、このうち2号「地目又は地番区域が相互に異な�
 - **補足（2026-08-16追記）**：肢エの根拠である不動産登記法41条（合筆の登記の制限）について、6号までの条文原文を引用し、初学者向けに各号を噛み砕いた補足解説を本文に追加しました。
 - **書式の修正（2026-09-18）**：既存の2つの補足（地積測量図の保存期間、合筆の登記ができない6つのケース）が、まとめ・結論文と正解の明記の間に配置されており、`format-template.md`の「正解の明記は先出し厳禁・必ず本文の最後」というルールから外れた並びになっていたため、正解の明記をまとめ・結論文の直後に移動し、2つの補足はその下（正解の明記より後）に並べる構成に修正しました。あわせて、この2つの補足を図解する「インフォグラフィック プロンプト（補足）」（保存期間の判定フロー、合筆の制限6号の早見表）を新規に作成・追加しました。内容自体（各肢の正誤・正解・補足の説明文）に変更はありません。
 - **作図ガイドの追加（2026-09-18）**：`infographic-prompt-template.md`「⑤ 作図ガイド型」に従い、「インフォグラフィック プロンプト（ア〜オ 作図ガイド）」を新規に作成・追加しました。ア・イ・ウは「あとにされた登記が規則85条2項の3類型（変更後・更正後の図面を伴う変更・更正登記／滅失登記・表題部抹消／換地処分の登記）に当たるか」という共通の判定フローを、それぞれ異なる事実関係にあてはめる構成にそろえています。エは接続・地番区域・登記名義人・地目の4条件を順に確認する決定木、オは権利の登記か表示の登記かを見分ける2段階の決定木としました。既存の②俯瞰カードポスター（問題全体）・③補足の各インフォグラフィックは変更していません。
+- **パネル4・5の分岐の訂正（2026-09-27）**：生成された画像で、パネル4（地目が同一の場合、＝「はい」側の分岐）とパネル5（権利に関する登記の場合、＝もう一方の分岐）の行き先が指定されておらず、矢印が宙に浮いた状態になってしまう不具合が見つかりました。パネル4は、4つの判定ノードそれぞれの「いいえ」分岐に個別の結論ノード（不動産登記法41条の号数付き）を用意したうえで、最後のノード（地目の同一性）の「はい」分岐にも「ここまでの4条件はすべて満たされる（他の要件次第であり、これだけで合筆できるとは断定できない）」という結論ノードを追加しました。パネル5は、「権利に関する登記」側の分岐にも、薄いグレーで示す第2の判定ノード（21条の「申請人自ら登記名義人となるか」）とその両方の結論を明記し、実際にはこの肢では通らない経路であることが視覚的にわかるようにしました。あわせてFOOTERのFinal checkに、すべての分岐ノードの両方の矢印が明示的な結論ノードに到達していることを確認する一文を追加しました。内容（各肢の正誤・条文根拠）自体に変更はありません。
 
 ---
 
@@ -548,13 +549,28 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 接続していても4条件を順に確認する
 Diagram: A decision flowchart with 4 sequential diamond-shaped nodes,
-stacked top to bottom, each with a「はい」arrow continuing down to the
-next node and a「いいえ」arrow branching off to a red「✕ 合筆できない」end
-node: (1)「甲土地と乙土地は相互に接続しているか？」→はい, (2)「地番区域は
-同一か？」→はい, (3)「所有権登記名義人は同一か？」→はい, (4)「地目は同一
-か？」→いいえ（甲＝宅地、乙＝山林）. The「いいえ」branch from node (4)
-leads to the final conclusion node「不動産登記法41条2号に該当 → 合筆の登
-記を申請することはできない」, highlighted in red.
+stacked top to bottom (do not draw any arrow that loops back to an
+earlier node; every branch below must end at its own explicit
+conclusion node). Node (1)「甲土地と乙土地は相互に接続しているか？」: the
+「はい」arrow continues down to node (2); the「いいえ」arrow branches off
+to a red conclusion node「✕ 合筆できない（不動産登記法41条1号）」. Node
+(2)「地番区域は同一か？」: the「はい」arrow continues down to node (3);
+the「いいえ」arrow branches off to a red conclusion node「✕ 合筆できない
+（不動産登記法41条2号）」. Node (3)「所有権登記名義人は同一か？」: the
+「はい」arrow continues down to node (4); the「いいえ」arrow branches off
+to a red conclusion node「✕ 合筆できない（不動産登記法41条3号）」. Node
+(4)「地目は同一か？」(the case actually tested by this 肢, so render this
+node with a thick highlighted border): the「いいえ」arrow (甲＝宅地、乙＝
+山林、highlighted as the case in 肢エ) leads to a red conclusion node
+「✕ 合筆できない（不動産登記法41条2号に該当）→ 合筆の登記を申請すること
+はできない」; the「はい」arrow leads to a separate green conclusion node
+「ここまでの4条件はすべて満たされる（41条にはこの他にも持分・所有権登記
+の有無等の条件があるため、地目まで同一というだけで合筆できると断定はで
+きない）」. Each of the four「いいえ」branches must point to its own
+distinct end node (do not merge them into one shared end node), and node
+(4)'s「はい」branch must point to a distinct conclusion node that is
+visually different from the four「いいえ」end nodes (different color,
+not marked with ✕).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず接続の有無を確認し、次に地番区域・所有権登記名義人・地目の同一性を順
 に確認します。1つでも要件を欠けば、その時点で合筆できないという結論にな
@@ -567,14 +583,26 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 地目変更登記は表示登記か権利登記かをまず見分ける
-Diagram: A decision flowchart with 2 sequential diamond-shaped nodes: (1)
-「今回の地目の変更の登記は、権利に関する登記か、表示に関する登記か？」→
-「表示に関する登記」, (2)「登記識別情報が通知されるのは、申請人自らが登記
-名義人となる権利に関する登記の場合に限られるか？」→「はい」.
-The two branches converge into the final conclusion node「表示に関する登
-記であるこの地目変更登記はこの要件に当たらない → 登記識別情報は通知され
-ない」, highlighted in blue, with a small envelope icon labeled「登記識別
-情報」crossed out by a red X beside it.
+Diagram: A decision flowchart with a first diamond-shaped node branching
+into two separate paths (do not draw any arrow that loops back to an
+earlier node; every branch below must end at its own explicit conclusion
+node). Node (1)「今回の地目の変更の登記は、権利に関する登記か、表示に関
+する登記か？」: the「表示に関する登記」arrow (highlighted, thick border,
+full color — the case actually tested by this 肢) leads directly to a
+blue conclusion node「表示に関する登記であるこの地目変更登記には、不動産
+登記法21条（権利に関する登記の場合に限る）は適用されない → 登記識別情報
+は通知されない」, with a small envelope icon labeled「登記識別情報」
+crossed out by a red X beside it; the「権利に関する登記」arrow (faded,
+greyed-out — not this 肢's case) leads down to a second diamond-shaped
+node (2)「その登記によって、申請人自ら登記名義人となるか？（不動産登記法
+21条）」, drawn in the same faded, greyed-out style. Node (2) itself
+branches into two faded end nodes:「はい」leads to a faded conclusion
+「登記識別情報が通知される」, and「いいえ」leads to a faded conclusion
+「登記識別情報は通知されない」. All of node (2) and its two branches are
+shown only as light-grey/dotted context (since this 肢's registration is
+a「表示に関する登記」and never actually reaches node (2)), to make clear
+that the「権利に関する登記」path is a different scenario, not part of this
+肢's own reasoning.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、今回された登記が権利に関する登記か表示に関する登記かを見分けます。
 次に、登記識別情報の通知は権利に関する登記の場合に限られるという原則にあ
@@ -600,10 +628,16 @@ standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly, badge numbers run 1-5 continuously, there is no
 intro illustration or paragraph block between the header and the panels,
 that panel 4 is drawn as an actual flowchart with 4 sequential branch
-nodes and panel 5 is drawn as an actual flowchart with 2 sequential
-branch nodes (not a bare illustration with no visible decision
-structure), that no 肢 with a genuinely hidden second condition has been
-flattened into a single check, that each 着眼点 callout states a checking
+nodes and panel 5 is drawn as an actual flowchart with 2 diamond nodes
+(not a bare illustration with no visible decision structure), that every
+single diamond-shaped branch node in panels 4 and 5 has BOTH of its
+arrows (「はい」and「いいえ」, or 表示に関する登記 and 権利に関する登記)
+ending at its own explicit, distinct conclusion node with visible text —
+no arrow may be left dangling with no destination, and no two different
+branches may be merged into one shared end node unless the prompt text
+above explicitly says so, that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点
+callout states a checking
 order rather than only a conclusion and keeps every required element
 from the source article distinct (no merged or dropped requirements),
 that panels 1-3 share the same decision tree and each clearly
