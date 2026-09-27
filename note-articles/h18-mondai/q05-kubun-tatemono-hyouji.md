@@ -454,3 +454,122 @@ grid of all 肢, and no additional text block of any kind), and confirm the
 entire canvas, edge to edge, is filled with a fully opaque background
 with no transparency or alpha channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（イ肢・間違いノート）
+
+上記②・⑤とは別に、「補足説明（イ）」で説明した実務手順（B会社が自己名義で登記を得るための2段階の申請）の理解を助けるための、肢イ1枚に絞った間違いノート型の解説図解を追加した。読者が「表題登記をA会社名義でしか申請できない＝B会社は永久に自社名義の登記を持てない」と誤解しやすい点を、2段階フローチャートと「誤りやすいポイント」コールアウトで解消する構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion — readers who conclude from 肢イ that 「B会社
+は合併で承継した権利を永久に自社名義で登記できない」, when in fact a
+two-step procedure lets B会社 obtain its own registration — not to be a
+glanceable summary. Unlike a quick-reference poster, this image MAY
+include flowchart branches with written conditions, and short explanatory
+sentences (1-3 sentences per callout box) labeled「誤りやすいポイント」.
+Prioritize clarity and completeness of the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 区・分・建・物・登・
+記・権・会・社・継・合・併・存・証, which have visually similar but
+different Simplified or Traditional Chinese forms — always draw the
+standard Japanese (Jōyō) form. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+表題登記はA会社名義でも
+自社名義の登記はあきらめなくていい
+
+Subtitle (smaller, centered, 1行):
+平成18年度午後第5問 イ－会社合併と登記名義の実務手順
+
+--- FLOWCHART ---
+A vertical two-stage flowchart with a downward arrow connecting the two
+stages, labeled 表題登記が完了した後 on the arrow itself.
+
+STAGE 1 box (rounded rectangle, blue): 
+見出し：①表題登記の申請
+登記名義：Ａ会社（消滅した原始取得者）
+申請人：Ｂ会社（Ａ会社の一般承継人）
+根拠：不動産登記法47条2項
+添付：吸収合併を証する書面（登記事項証明書等）
+Illustration inside the box: an isometric fading company-building icon
+labeled Ａ会社 with an arrow labeled 吸収合併 pointing into a solid
+building labeled Ｂ会社, next to a document icon labeled 表題登記 that
+still shows the name Ａ会社 written on it.
+
+STAGE 2 box (rounded rectangle, green), positioned below STAGE 1 and
+connected by the downward arrow: 
+見出し：②所有権保存登記の申請
+登記名義：Ｂ会社
+申請人：Ｂ会社（表題部所有者Ａ会社の一般承継人）
+根拠：不動産登記法74条1項1号
+添付：吸収合併を証する書面（登記事項証明書等）
+Illustration inside the box: the same solid Ｂ会社 building icon now
+holding a second document icon labeled 所有権保存登記 with Ｂ会社の名前
+written on it and a green checkmark.
+
+Below both boxes, a small results summary row with two labeled tags side
+by side: 表題部所有者欄：Ａ会社のまま（変わらない） / 権利部（甲区）：
+Ｂ会社名義の所有権
+
+--- CALLOUT: 誤りやすいポイント ---
+「表題登記をＢ会社名義にできない」は「Ｂ会社が永久に自社名義の登記を
+持てない」という意味ではありません。表題登記が完了した後、Ｂ会社自身が
+所有権保存登記を申請すれば、権利部（甲区）にはＢ会社名義の所有権を登記
+できます。表題部所有者欄をＢ会社に書き換える更正登記のような制度はない
+点にも注意してください。
+
+--- FOOTER ---
+条文根拠：不動産登記法47条2項・74条1項1号
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 区・分・建・物・登・記・権・会・社・
+継・合・併・存・証. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm every heading, node
+label, and callout text matches the Japanese text given above verbatim,
+with no paraphrasing and no substituted characters, confirm the two
+stages are connected by a single downward arrow with no looping or
+branching arrows, confirm nothing is rendered below the FOOTER's small
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid, and no additional text block of any kind), and
+confirm the entire canvas, edge to edge, is filled with a fully opaque
+background with no transparency or alpha channel anywhere.
+```
