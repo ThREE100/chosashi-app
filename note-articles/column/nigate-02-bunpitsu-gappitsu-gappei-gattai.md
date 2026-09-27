@@ -12,7 +12,7 @@
 - **実体的な成立要件**：分筆には特有の成立要件はありません。合筆には不動産登記法41条1〜6号という厳格な成立要件があります。合併にも不動産登記法56条1〜5号の成立要件があり、41条と骨格は共通しつつ要件は非対称です。合体は、現況をそのまま反映する登記です。
 - **単独申請**：分筆は、共有地であれば保存行為として共有者の一人から申請できます。合筆は、表題部所有者または所有権の登記名義人でなければ申請できません。合併は、表示に関する登記であるため相続登記なしに相続人から申請できます（ただし住所の一致が前提です）。合体は、保存行為として共有者・相続人の一人から申請できます。
 - **既存の他の権利の扱い**：分筆は原則として各土地に転写されますが、消滅承諾があれば一部の土地だけ権利を消滅させられます（分筆後の全部から消すことはできません）。合筆は消滅承諾書があっても認められず、内容が同一の担保権・信託登記等（不動産登記規則105条）と承役地側の地役権登記だけが例外的に存続を認められて合筆できます。合併も内容が同一の担保権・信託登記等（同規則131条）は例外的に存続を認められますが、共用部分である旨の登記があると合併できません（建物特有の制限です）。合体は、合体前の所有権以外の権利が持分上に移記されて存続します（同規則120条4項）。ただし賃借権のように持分になじまない権利は当然には移記されません。
-- **登記原因及びその日付**：分筆は、一括申請の要件（同一管轄・同一目的・同一原因日付）はあるものの、分筆自体に特有の原因日付の問題は薄い登記です。合筆も同様に特有の原因日付の問題は薄い登記です。合併は、建物の種類変更等の表題部変更登記と一の申請情報で申請できます（同規則35条7号）。合体は「年月日新築、年月日新築、年月日合体」のように、各建物の新築日と合体日を並べて記録します。
+- **登記原因及びその日付**：分筆の登記そのものには、登記原因及びその日付の記載を要しません。分筆は一筆の土地を人為的に区切って複数の土地に分ける形成的な登記であり、記録すべき「原因となる過去の事実」自体が存在しないためです。合筆の登記も同様に、記載を要しません。ただし、地目変更など登記原因及びその日付が存在する登記と一の申請情報で合わせて申請する場合は、その登記の登記原因及びその日付が同一であることが一括申請の要件となります（不動産登記令4条ただし書）。合併は、建物の種類変更等の表題部変更登記と一の申請情報で申請できます（同規則35条7号）。合体は「年月日新築、年月日新築、年月日合体」のように、各建物の新築日と合体日を並べて記録します。
 
 ### 分筆と抵当権の帰趨（繰り返し出題される最重要ポイント）
 
@@ -43,7 +43,7 @@
 **確認事項**
 
 - 分筆・合筆・合併・合体の対比は、`note-articles/h19-mondai/q12`、`note-articles/r3-mondai/q11`、`note-articles/r5-mondai/q09`、`note-articles/r7-mondai/q11`（分筆）、`note-articles/h27-mondai/q09`、`note-articles/r2-mondai/q10`、`note-articles/r4-mondai/q09`（合筆）、`note-articles/h28-mondai/q14`、`note-articles/r3-mondai/q16`（合併）、`note-articles/h28-mondai/q15`、`note-articles/r4-mondai/q15`、`note-articles/r5-mondai/q16`（合体）、`note-articles/column/bunpitsu-ikkatsu-gappitsu-chimoku.md`、`note-articles/topics/gappitsu-gappei-seigen.md`の内容に基づいています。
-- 分筆・合筆・合併について「形成的登記」「報告的登記」という対概念そのものを明記した記述は、確認できた既存記事の範囲では見当たりませんでした。合体についてのみ「報告的登記」という明示的な記述が既存記事（`r5-mondai/q16`）にあったため、本記事でもその区別に沿って合体だけを「現況をそのまま記録する登記」と表現しています。
+- 「分筆の登記そのものには登記原因及びその日付の記載を要しない」という記述は、`note-articles/h27-mondai/q06-tochi-hyouji-tenpu.md`（分筆の登記は形成的登記であり、記録すべき原因となる過去の事実自体が存在しないと明記）に基づく確認済みの内容です。合筆についても同様に記載を要しないとしていますが、これは分筆と同じ性質の登記であることからの類推であり、合筆単体をこの点について明記した既存記事は確認できていません。合体についてのみ「報告的登記」という明示的な記述が既存記事（`r5-mondai/q16`）にあったため、本記事でもその区別に沿って合体だけを「現況をそのまま記録する登記」と表現しています。
 - `gappitsu-gappei-seigen.md`は当初「41条2号の地目は登記記録上の地目を基準とする」という誤った記述でしたが、令和6年度第9問イの公式正答と照合し、現況の地目を基準とする内容に訂正済みです。本記事の記述はこの訂正後の内容と整合しています。
 
 ---
@@ -321,14 +321,14 @@ row):
    column.
 
 2. 項目: 登記原因及びその日付
-   分筆: 一括申請時は同一原因日付が要件(規則の話)
-   合筆: 特有の原因日付の問題は薄い
+   分筆: 記載不要(形成的登記のため原因日付が存在しない)
+   合筆: 記載不要(分筆と同様)
    合併: 表題部変更登記と一の申請情報で可
    合体: 「年月日新築、年月日新築、年月日合体」と並記
-   Icon: a calendar/date-stamp icon with two identical dates linked by an
-   "=" symbol for 分筆 column, a single blank calendar icon for 合筆
-   column, two documents merging into one for 合併 column, and a timeline
-   icon with three sequential date labels for 合体 column.
+   Icon: a calendar/date-stamp icon crossed out by a red ✕ for both the
+   分筆 column and the 合筆 column (showing no origin-date field exists),
+   two documents merging into one for 合併 column, and a timeline icon
+   with three sequential date labels for 合体 column.
 
 Self-check instruction to embed in the image generation reasoning (not
 rendered as visible text): confirm the table has exactly 2 data rows and 4
@@ -358,6 +358,7 @@ that cell.
 - [平成19年度午後の部第12問(分筆は保存行為)](../h19-mondai/q12-bunpitsu.md)
 - [平成19年度午後の部第10問(承役地の合筆の例外)](../h19-mondai/q10-gappitsu.md)
 - [平成26年度午後の部第10問(分筆と抵当権)](../h26-mondai/q10-bunpitsu.md)
+- [平成27年度午後の部第6問(分筆は形成的登記のため登記原因不要)](../h27-mondai/q06-tochi-hyouji-tenpu.md)
 - [平成27年度午後の部第9問(合筆の申請人)](../h27-mondai/q09-gappitsu.md)
 - [平成28年度午後の部第10問(合筆の制限)](../h28-mondai/q10-gappitsu.md)
 - [平成28年度午後の部第14問(建物の合併)](../h28-mondai/q14-tatemono-gappei.md)
