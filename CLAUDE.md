@@ -36,7 +36,8 @@ R7〜H17の問1〜問3（民法、全63記事）に埋め込まれている「�
 第21問（土地）とは別に、第22問（建物）の記述式は「トリ先生（毒舌だが愛のある教師役）」と「藍子（まじめだが罠にはまる生徒役）」の
 会話形式（学習コミック風）でnote記事を作る。保存先・ダブルチェックの運用は土地と同じ`note-articles-Kijyutsu/`配下（例：`R5/Q22/`）だが、
 文体は解説プロースではなく会話形式で、計算も要所（敷地の辺長、床面積の求積）だけを示す軽めのスタイルになる点が異なる。
-執筆は`note-articles-Kijyutsu/prompt_note-kijutsu_tatemono_kyoutsu.md`に従う。解説図（インフォグラフィック）は
+執筆は`note-articles-Kijyutsu/prompt_note-kijutsu_tatemono_kyoutsu.md`に従う。新しい年度を別チャットで作らせるときの依頼文（年度の1行だけ書き換えて貼る）は
+`note-articles-Kijyutsu/irai-bun_tatemono_shinki-nendo.md`にある。執筆プロンプト・チェックリストに依頼文にも関わるルールが加わったら、この依頼文も更新すること。解説図（インフォグラフィック）は
 `note-articles-Kijyutsu/prompt_kaisetsuzu-gazou_kihon-form_tatemono.md`、登記申請書の画像は
 `note-articles-Kijyutsu/prompt_toukishinseisho-gazou_kihon-form_tatemono.md`を使う。ダブルチェックは土地と共通の
 `qa-checklist-kijutsu.md`だが、3章に建物固有の判断ポイント（合併/合体の別、床面積不算入部分、壁心/内法の切替など）を分けて記載してある。
