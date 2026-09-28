@@ -25,9 +25,11 @@ note-articles-Kijyutsu/
 │   └── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
 ├── R5/
 │   └── Q22/
-│       ├── note_R5_dai22mon_tatemono_kaisetsu.md        note記事本文（会話形式。アガルート解答例と照合済み）
-│       ├── prompt_R5_dai22mon_kaisetsuzu.md             解説図（2階リビング拡張部分の求積図）作成プロンプト
-│       └── verify_R5_dai22mon.py                        記事の数値・求積の照合スクリプト
+│       ├── note_R5_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
+│       ├── prompt_R5_dai22mon_kaisetsuzu.md                   解説図4枚（敷地辺長図・1階/2階求積図・誤り比較図）作成プロンプト
+│       ├── prompt_R5_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形。R5第22問の記入データ済み）
+│       ├── prompt_R5_dai22mon_toukishinseisho_machigai.md     登記申請書「よくある間違い」の誤答→添削→正解の3コマ画像プロンプト
+│       └── verify_R5_dai22mon.py                              記事の数値・求積の照合スクリプト
 ├── R6/
 │   └── Q21/
 │       ├── note_R6_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文

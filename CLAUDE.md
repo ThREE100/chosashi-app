@@ -41,7 +41,10 @@ R7〜H17の問1〜問3（民法、全63記事）に埋め込まれている「�
 `note-articles-Kijyutsu/prompt_toukishinseisho-gazou_kihon-form_tatemono.md`を使う。ダブルチェックは土地と共通の
 `qa-checklist-kijutsu.md`だが、3章に建物固有の判断ポイント（合併/合体の別、床面積不算入部分、壁心/内法の切替など）を分けて記載してある。
 令和5年度分（`R5/Q22/`）はアガルートの解答例・試験問題本文と照合済み（2026-09-28）。`verify_R5_dai22mon.py`で
-表示値の一致を確認しており、会話形式ワークフローの完成した参考例として使える。
+表示値の一致を確認しており、挿入すべき画像（解説図4枚、登記申請書の完成形・誤り添削の計6枚）のプロンプトも
+`R5/Q22/prompt_R5_dai22mon_kaisetsuzu.md`・`prompt_R5_dai22mon_toukishinseisho_gazou.md`・
+`prompt_R5_dai22mon_toukishinseisho_machigai.md`に揃っており、会話形式ワークフローの完成した参考例として使える
+（実際の画像生成・検品はまだ行っていない）。
 令和7年度分（`R7/Q22/`）は未着手（問題PDFの画像は`public/kijutsu/R07-tatemono/`にあるが、答案用紙・予備校解答例は
 このリポジトリにはないため、着手時にユーザーから添付を受ける）。
 
