@@ -32,11 +32,18 @@ note-articles-Kijyutsu/
 │       ├── prompt_R5_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       └── verify_R5_dai22mon.py                              記事の数値・求積の照合スクリプト
 ├── R6/
-│   └── Q21/
-│       ├── note_R6_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文
-│       ├── prompt_R6_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（R6第21問の記入データ済み）
-│       ├── prompt_R6_dai21mon_kaisetsuzu.md             解説図（筆界のずれ・B点D点・P点・地積測量図）作成プロンプト
-│       └── verify_R6_dai21mon.py                        記事の数値・電卓表示の照合スクリプト
+│   ├── Q21/
+│   │   ├── note_R6_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文
+│   │   ├── prompt_R6_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（R6第21問の記入データ済み）
+│   │   ├── prompt_R6_dai21mon_kaisetsuzu.md             解説図（筆界のずれ・B点D点・P点・地積測量図）作成プロンプト
+│   │   └── verify_R6_dai21mon.py                        記事の数値・電卓表示の照合スクリプト
+│   └── Q22/
+│       ├── note_R6_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
+│       ├── prompt_R6_dai22mon_kaisetsuzu.md                   解説図6枚（出入り経路図・敷地辺長図・建物図面・1階誤り比較図・1階/2階求積図）作成プロンプト
+│       ├── prompt_R6_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形）
+│       ├── prompt_R6_dai22mon_toukishinseisho_machigai.md     登記申請書「共有者」欄の誤答→添削→正解の画像プロンプト
+│       ├── prompt_R6_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
+│       └── verify_R6_dai22mon.py                              記事・付属プロンプトの数値・求積の照合スクリプト
 └── R7/
     ├── Q21/
     │   ├── note_R7_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文
