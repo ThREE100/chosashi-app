@@ -25,8 +25,9 @@ note-articles-Kijyutsu/
 │   └── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
 ├── R5/
 │   └── Q22/
-│       ├── note_R5_dai22mon_tatemono_kaisetsu.md        note記事本文（会話形式、参考例。解答例との照合は未実施）
-│       └── prompt_R5_dai22mon_kaisetsuzu.md             解説図（2階リビング拡張部分の求積図）作成プロンプト
+│       ├── note_R5_dai22mon_tatemono_kaisetsu.md        note記事本文（会話形式。アガルート解答例と照合済み）
+│       ├── prompt_R5_dai22mon_kaisetsuzu.md             解説図（2階リビング拡張部分の求積図）作成プロンプト
+│       └── verify_R5_dai22mon.py                        記事の数値・求積の照合スクリプト
 ├── R6/
 │   └── Q21/
 │       ├── note_R6_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文
