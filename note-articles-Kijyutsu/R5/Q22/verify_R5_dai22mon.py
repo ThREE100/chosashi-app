@@ -66,4 +66,41 @@ check('藍子の1階（欠けの寸法）', '欠けている部分（0.90かけ�
 # 原因及びその日付（解答例 第2欄の2行目）
 check('原因及びその日付', '『②③令和5年10月6日構造変更、増築、3番9の2を合併』')
 
+
+def poly_area(pts):
+    n = len(pts)
+    return abs(sum(pts[i][0] * pts[(i + 1) % n][1] - pts[(i + 1) % n][0] * pts[i][1] for i in range(n))) / 2
+
+
+# 解説図プロンプト（図3・図4・図6）の頂点座標（Y＝東、X＝南、上が北）が求積表と一致すること
+FIG = os.path.join(os.path.dirname(__file__), 'prompt_R5_dai22mon_kaisetsuzu.md')
+fig = open(FIG, encoding='utf-8').read()
+for label, pts, area in [
+    ('図3 1階', [(0, 0), (6.4, 0), (6.4, 2.8), (7.3, 2.8), (7.3, 11.8), (0, 11.8)], 83.62),
+    ('図4 2階', [(0, 0), (7.3, 0), (7.3, 12.7), (4.6, 12.7), (4.6, 11.8), (0, 11.8)], 88.57),
+    ('図6 2階(工事前)', [(0, 0), (7.3, 0), (7.3, 7.3), (4.6, 7.3), (4.6, 11.8), (0, 11.8)], 73.99),
+]:
+    assert round(poly_area(pts), 2) == area, label
+    s = ' → '.join(f'({y:g}, {x:g})' for y, x in pts + [pts[0]])
+    ok = s in fig
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + label + ' 頂点座標（面積' + f'{area}） : ' + s)
+# 増築で増えた部分（2.70×5.40）＝88.57−73.99
+assert round(2.70 * (12.70 - 7.30), 2) == round(88.57 - 73.99, 2) == 14.58
+
+# 形状は東西南北で説明する（図面の上＝北。問題の図1・解答例の建物図面の方位記号で確認）
+check('1階の欠けの位置', '1階は北東の角（玄関前）が少し欠けている')
+check('2階の張り出しの向き', '1階の11.80メートルより南へ0.90メートル張り出している')
+for bad in ['右上の玄関前', '下に長くなってる', '南東の0.90', '2.00』『2.00']:
+    ok = bad not in text
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '禁止語なし : ' + bad)
+
+# タイトルの基本形：【土地家屋調査士受験生向け】{年度}問題22（建物）〜見出し（25文字以内）〜
+title = text.splitlines()[0]
+prefix = '# 【土地家屋調査士受験生向け】令和5年度問題22（建物）〜'
+ok = title.startswith(prefix) and title.endswith('〜') and len(title[len(prefix):-1]) <= 25
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + 'タイトル形式 : ' + title)
+
 print('NG件数:', ng)

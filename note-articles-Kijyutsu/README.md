@@ -38,14 +38,19 @@ note-articles-Kijyutsu/
 │       ├── prompt_R6_dai21mon_kaisetsuzu.md             解説図（筆界のずれ・B点D点・P点・地積測量図）作成プロンプト
 │       └── verify_R6_dai21mon.py                        記事の数値・電卓表示の照合スクリプト
 └── R7/
-    └── Q21/
-        ├── note_R7_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文
-        ├── prompt_R7_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（R7第21問の記入データ済み）
-        ├── prompt_R7_dai21mon_kaisetsuzu.md             解説図（K点・地積測量図・J点L点）作成プロンプト（R7第21問の座標入り）
-        └── verify_R7_dai21mon.py                        記事の数値・電卓表示の照合スクリプト
+    ├── Q21/
+    │   ├── note_R7_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文
+    │   ├── prompt_R7_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（R7第21問の記入データ済み）
+    │   ├── prompt_R7_dai21mon_kaisetsuzu.md             解説図（K点・地積測量図・J点L点）作成プロンプト（R7第21問の座標入り）
+    │   └── verify_R7_dai21mon.py                        記事の数値・電卓表示の照合スクリプト
+    └── Q22/
+        ├── note_R7_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
+        ├── prompt_R7_dai22mon_kaisetsuzu.md                   解説図作成プロンプト
+        ├── prompt_R7_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形）
+        ├── prompt_R7_dai22mon_toukishinseisho_machigai.md     登記申請書「よくある間違い」の誤答→添削→正解の画像プロンプト
+        ├── prompt_R7_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
+        └── verify_R7_dai22mon.py                              記事の数値・求積の照合スクリプト
 ```
-
-`R7/Q22/`（令和7年度・建物）は本ワークフロー確立時点ではまだ未着手。問題PDFの画像は `public/kijutsu/R07-tatemono/q1.png`〜`q3.png` にあるが、答案用紙・予備校解答例はこのリポジトリに含まれていないため、着手時にユーザーから添付を受ける。
 
 ## 使い方
 
