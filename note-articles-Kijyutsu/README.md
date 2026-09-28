@@ -29,6 +29,7 @@ note-articles-Kijyutsu/
 │       ├── prompt_R5_dai22mon_kaisetsuzu.md                   解説図4枚（敷地辺長図・1階/2階求積図・誤り比較図）作成プロンプト
 │       ├── prompt_R5_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形。R5第22問の記入データ済み）
 │       ├── prompt_R5_dai22mon_toukishinseisho_machigai.md     登記申請書「よくある間違い」の誤答→添削→正解の3コマ画像プロンプト
+│       ├── prompt_R5_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       └── verify_R5_dai22mon.py                              記事の数値・求積の照合スクリプト
 ├── R6/
 │   └── Q21/

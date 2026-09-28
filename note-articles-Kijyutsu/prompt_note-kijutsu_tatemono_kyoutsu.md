@@ -123,5 +123,6 @@ ChatGPT等のチャットUIでこの記事本文を書かせると、出力に�
 - note記事本文（Markdown、会話形式）
 - 解説図（図解）の画像生成プロンプト。共通フォームは `prompt_kaisetsuzu-gazou_kihon-form_tatemono.md`
 - 登記申請書の画像生成プロンプト。共通フォームは `prompt_toukishinseisho-gazou_kihon-form_tatemono.md`
+- note見出し画像（サムネイル）の画像生成プロンプト。サイズ・スタイルは択一式で確立済みの house style（`note-articles/infographic-prompt-template.md`の「サイズ・アスペクト比」「スタイル」章。`1280×670px`、パステルカラーのアイソメトリック・フラットデザイン、CRITICAL TEXT REQUIREMENT・BACKGROUND REQUIREMENT・Final checkの三点セット）をそのまま踏襲する。記入済みの例は `R5/Q22/prompt_R5_dai22mon_miidashi_gazou.md`
 - 照合スクリプト（`verify_{年度}_dai22mon.py`）
 - 作業報告（解答例と一致した項目、照合できなかった項目、食い違った項目とどちらを採用したか）
