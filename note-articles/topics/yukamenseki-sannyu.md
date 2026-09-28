@@ -12,10 +12,8 @@
 
 つまり基準線は建物の種類によって2通りに分かれます。
 
-| 建物の種類 | 計測の基準線 | 呼び方 |
-|---|---|---|
-| 区分建物でない建物（一戸建てなど） | 壁その他の区画の**中心線** | 壁芯（かべしん）計算 |
-| 区分建物（マンション等の専有部分） | 壁その他の区画の**内側線** | 内法（うちのり）計算 |
+- **区分建物でない建物（一戸建てなど）**：壁その他の区画の中心線で計測します。これを壁芯（かべしん）計算と呼びます。
+- **区分建物（マンション等の専有部分）**：壁その他の区画の内側線で計測します。これを内法（うちのり）計算と呼びます。
 
 区分建物の専有部分だけが内法計算になり、壁芯より数値が小さくなる点がポイントです（内法計算のほうが実際に使える室内の広さに近い数値になります）。なお、区分建物が属する「一棟の建物」全体の床面積は、専有部分とは異なり壁芯計算によります（不動産登記規則115条は「区分建物にあっては」内側線とするのみで、一棟の建物全体をこの例外に含めていません）。
 
@@ -23,30 +21,26 @@
 
 不動産登記事務取扱手続準則82条は、規則115条の原則を補う個別ルールを号ごとに列挙しています。「算入する」側をまとめると次のとおりです。
 
-| 部位・ケース | 算入のルール | 根拠 |
-|---|---|---|
-| 階段室・エレベーター室（またはこれに準ずるもの） | 床を有するものとみなして各階の床面積に算入する | 準則82条6号 |
-| 出窓 | 高さ**1.5メートル以上**で、かつ下部が床面と**同一の高さ**にあるものに限り算入する（2条件を両方満たす必要あり） | 準則82条11号 |
-| 内部にある煙突・ダストシュート（一部が外側に及んでいるものを含む） | その部分は各階の床面積に算入する | 準則82条10号 |
-| 地下停車場・地下駐車場・地下街の建物 | 壁又は柱等により区画された部分の面積で定める（常時一般に開放されている通路・階段を除く） | 準則82条4号 |
-| 天井の高さ1.5メートル未満の部分でも、1室の一部にすぎない場合 | その部分を含めて当該1室の面積に算入する | 準則82条1号ただし書 |
-| 停車場の上屋を有する乗降場・荷物積卸場 | その上屋の占める部分の面積により計算する | 準則82条2号 |
-| 野球場・競馬場又はこれらに類する施設の観覧席 | 屋根の設備のある部分の面積を床面積として計算する | 準則82条3号 |
-| 柱又は壁が傾斜している場合 | 各階の床面の接着する壁その他の区画の中心線で囲まれた部分による（不算入というより計算方法の特則） | 準則82条9号 |
+- **階段室・エレベーター室（またはこれに準ずるもの）**：床を有するものとみなして各階の床面積に算入します（準則82条6号）。
+- **出窓**：高さ1.5メートル以上で、かつ下部が床面と同一の高さにあるものに限り算入します（2条件を両方満たす必要があります、準則82条11号）。
+- **内部にある煙突・ダストシュート（一部が外側に及んでいるものを含む）**：その部分は各階の床面積に算入します（準則82条10号）。
+- **地下停車場・地下駐車場・地下街の建物**：壁又は柱等により区画された部分の面積で定めます（常時一般に開放されている通路・階段を除く、準則82条4号）。
+- **天井の高さ1.5メートル未満の部分でも、1室の一部にすぎない場合**：その部分を含めて当該1室の面積に算入します（準則82条1号ただし書）。
+- **停車場の上屋を有する乗降場・荷物積卸場**：その上屋の占める部分の面積により計算します（準則82条2号）。
+- **野球場・競馬場又はこれらに類する施設の観覧席**：屋根の設備のある部分の面積を床面積として計算します（準則82条3号）。
+- **柱又は壁が傾斜している場合**：各階の床面の接着する壁その他の区画の中心線で囲まれた部分によります（不算入というより計算方法の特則です、準則82条9号）。
 
 ### 算入しないもの一覧
 
 反対に「算入しない」側は次のとおりです。
 
-| 部位・ケース | 不算入のルール | 根拠 |
-|---|---|---|
-| 天井の高さ1.5メートル未満の地階・屋階（特殊階）全体 | 床面積に算入しない（空間全体が対象。1室の一部にとどまる場合は上表のとおり算入） | 準則82条1号本文 |
-| 建物に附属する屋外の階段 | 床面積に算入しない | 準則82条7号 |
-| 上階まで続く吹抜けの部分 | 上階の床面積に算入しない（吹抜けの起点となる床のある階には算入する） | 準則82条8号 |
-| 外側にある煙突・ダストシュート | 算入しない | 準則82条10号 |
-| 出窓のうち、高さ1.5メートル未満のもの、または下部が床面と同一の高さにないもの | 算入しない（11号の要件を満たさないもの） | 準則82条11号（反対解釈） |
-| 地下停車場・地下駐車場・地下街のうち、常時一般に開放されている通路及び階段の部分 | 算入しない | 準則82条4号ただし書 |
-| 停車場の地下道設備（地下停車場のものを含む） | 床面積に算入しない | 準則82条5号 |
+- **天井の高さ1.5メートル未満の地階・屋階（特殊階）全体**：床面積に算入しません（空間全体が対象です。1室の一部にとどまる場合は上記のとおり算入します、準則82条1号本文）。
+- **建物に附属する屋外の階段**：床面積に算入しません（準則82条7号）。
+- **上階まで続く吹抜けの部分**：上階の床面積に算入しません（吹抜けの起点となる床のある階には算入します、準則82条8号）。
+- **外側にある煙突・ダストシュート**：算入しません（準則82条10号）。
+- **出窓のうち、高さ1.5メートル未満のもの、または下部が床面と同一の高さにないもの**：算入しません（11号の要件を満たさないためです、準則82条11号の反対解釈）。
+- **地下停車場・地下駐車場・地下街のうち、常時一般に開放されている通路及び階段の部分**：算入しません（準則82条4号ただし書）。
+- **停車場の地下道設備（地下停車場のものを含む）**：床面積に算入しません（準則82条5号）。
 
 **たとえば**、玄関ホールが1階から2階の天井までつながった吹抜けになっている住宅を考えてみましょう。床のある1階部分は床面積に算入されますが、床が存在しない2階の吹抜け部分は、2階の床面積には算入されません。「吹抜けだから丸ごと不算入」ではなく、床の有無で階ごとに判断する点が引っかけになりやすいところです。
 
@@ -88,11 +82,12 @@
 
 **このまま使える点／使う前に確認したい点**
 
+- **2026-09-28改修**：note.comはMarkdownの表組み（`| ... |`）を描画できないため（`format-template.md`のルール）、本文中にあった3つの表組み（計測の基準線の対比、算入するもの一覧、算入しないもの一覧）を箇条書きに書き換えました。内容（各項目のルール・根拠条文）自体は変更していません。あわせて、確認事項ブロック内にあった半角括弧の表記を全角括弧に統一しました。インフォグラフィックのプロンプト4枚についても、`infographic-prompt-template.md`の最新のCRITICAL TEXT REQUIREMENT・BACKGROUND REQUIREMENT・Final checkの雛形（繁体字・非日本語文字混入の禁止、背景の完全不透明化）に合わせて更新しています。
 - 冒頭で引用した不動産登記規則115条の条文全文、不動産登記事務取扱手続準則82条（1号〜11号）の条文全文、および準則91条2項（地階の記録順序）は、いずれも`note-articles/laws/fudousan-touki-kisoku-1.md`および`note-articles/laws/fudousan-touki-jimu-junsoku.md`を実際にGrep・Readして一字一句確認したものです。「1.5メートル」という数値についても、①出窓の高さ基準（準則82条11号）、②特殊階の天井高基準（準則82条1号）という2つの異なる文脈での用例をそれぞれ条文本文で確認しています。
 - 「算入するもの一覧」「算入しないもの一覧」の各項目は、上記2条文と、対象とした10件の過去問記事（下記リンク参照）の内容を突き合わせて作成しています。
 - **出窓の1.5メートル基準について**：kaisetsu_plus.jsonのmetaに記載された検証メモ（2026-06-06実施）に「明白な誤り約15件（…床面積1.5m…）を修正」とある点を踏まえ、この数値は特に慎重に確認しました。結論として、準則82条11号の条文原文は「出窓は、その高さ１．５メートル以上のものでその下部が床面と同一の高さにあるものに限り、床面積に算入する。」であり、本記事の記載（高さ1.5m以上かつ下部が床面と同一高さ、の2条件）は条文と一致しています。なお、対象とした過去問のうち平成25年度第13問の既存記事は、この1.5メートル基準を「実際の基準とは異なる」「誤り」とする解説になっていますが、条文原文と直接照合した結果、この基準自体は準則82条11号と一致しており、本記事はこの点で平成25年度の既存記事とは異なる（条文原文に基づく）結論を採用しています。平成25年度第13問の既存記事そのものは、指示に従い編集していません。
 - 同じく平成25年度第13問の肢ウ（ダストシュートが内部・外部にまたがる場合に外部部分を不算入とする内容）についても、準則82条10号の条文原文（内部にある場合は一部が外側に及ぶものを含めてその部分を算入し、外側にあるときは算入しない）と、令和4年度第12問・平成30年度第13問の各記事の解説（内外にまたがる場合は外側部分も含めて全体を算入する）を照合すると、条文上は算入する扱いになると考えられます。この点も平成25年度の既存記事の記載とは異なりますが、同記事自体は編集していません。
-- 塔屋（エレベーター機械室・階段室のみで構成される屋上部分）が天井高1.5m以上でも床面積・階数に算入されないという扱い、および一部が事務所・倉庫として使用されると塔屋全体が算入対象に転じるという扱いは、参照した過去問記事(令和4年度第12問、令和5年度第12問、平成26年度第15問)では先例(昭和38年10月22日民甲2933号)を根拠として紹介されていますが、不動産登記規則115条・準則82条の条文本体には該当箇所が見当たらず、条文レベルでの直接確認はできていません。【2026-08-16調査】先例番号の表記が参照記事によって「1933号」と「2933号」で割れていた点は、国立国会図書館リサーチ・ナビの『詳細登記六法(平成24年版) 別冊(登記関係先例編)』索引に「昭和38・10・22民事甲2933号回答」の記載が確認できた一方「1933号」を裏付ける情報源はどこにも見当たらなかったため、「2933号」が正しく「1933号」はOCR誤読（1と2の読み違い）と判断し、参照した過去問記事側（令和4年度第12問・令和5年度第12問）も「2933号」に修正しました。
+- 塔屋（エレベーター機械室・階段室のみで構成される屋上部分）が天井高1.5m以上でも床面積・階数に算入されないという扱い、および一部が事務所・倉庫として使用されると塔屋全体が算入対象に転じるという扱いは、参照した過去問記事（令和4年度第12問、令和5年度第12問、平成26年度第15問）では先例（昭和38年10月22日民甲2933号）を根拠として紹介されていますが、不動産登記規則115条・準則82条の条文本体には該当箇所が見当たらず、条文レベルでの直接確認はできていません。【2026-08-16調査】先例番号の表記が参照記事によって「1933号」と「2933号」で割れていた点は、国立国会図書館リサーチ・ナビの『詳細登記六法（平成24年版） 別冊（登記関係先例編）』索引に「昭和38・10・22民事甲2933号回答」の記載が確認できた一方「1933号」を裏付ける情報源はどこにも見当たらなかったため、「2933号」が正しく「1933号」はOCR誤読（1と2の読み違い）と判断し、参照した過去問記事側（令和4年度第12問・令和5年度第12問）も「2933号」に修正しました。
 - 野球場・競馬場等の開閉式屋根について、準則82条3号の文言は「観覧席」の扱いを定めるのみで、フィールド・競技場部分も含めて算入するという令和2年度第12問・平成17年度第4問記事の解説は、条文本体ではなく先例（平成5年12月3日民三第7499号等として参照記事で紹介されているもの）に基づく拡張であり、この先例の原文までは確認できていません。
 - 壁の厚みが階ごとに異なる場合の計算方法や、区分建物専有部分の内壁の凹凸（柱の出っ張り）を無視して算入する扱いは、令和5年度第12問記事で先例（昭和46年4月16日民甲第238号）を根拠に解説されていますが、床面積の「算入・不算入」というより計算方法の細則にあたるため、本記事では詳述を割愛しました。
 
@@ -133,12 +128,31 @@ rather than writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to 芯, 建,
-物, 積, 区, 画, 側, 線, 権 — do not render these as Simplified Chinese
+summarize, or substitute any characters. Pay special attention to the
+kanji 芯, 建, 物, 積, 区, 画, 側, 線, 権 — these must be rendered in their
+standard Japanese forms, never as Simplified or Traditional Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -199,14 +213,21 @@ the Final check paragraph) ---
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm there are exactly 3 rows in the left column
-and exactly 3 rows in the right column, with no duplicated or missing
-rows, confirm there is no intro illustration or paragraph block between
-the header and the columns, and confirm that no row contains a full
-sentence of explanatory prose beyond the short label/content text and the
-one footer note specified above.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm there are exactly 3 rows in the left column and
+exactly 3 rows in the right column, with no duplicated or missing rows,
+confirm there is no intro illustration or paragraph block between the
+header and the columns, confirm that no row contains a full sentence of
+explanatory prose beyond the short label/content text and the one footer
+note specified above, and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
 
 ### 画像2：床面積に算入するもの一覧（早見表）
@@ -228,12 +249,30 @@ explanation, illustration, or text beyond what is explicitly listed below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to 段, 準,
-則, 号, 積, 建, 物, 権, 録, 地, 番, 記, 所 — do not render these as
-Simplified Chinese variants.
+summarize, or substitute any characters. Pay special attention to the
+kanji 段, 準, 則, 号, 積, 建, 物, 権, 録, 地, 番, 記, 所 — these must be
+rendered in their standard Japanese forms, never as Simplified or
+Traditional Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the table — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -322,13 +361,20 @@ omitted, duplicated, merged, or reworded.
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the table has exactly 8 data rows exactly
-matching the list above, with no duplicated or missing rows, confirm there
-is no intro illustration or paragraph block between the header and the
-table, and confirm that no row contains any text beyond the 部位・ケース /
-算入のルール / 根拠 text specified for that row.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the table has exactly 8 data rows exactly matching
+the list above, with no duplicated or missing rows, confirm there is no
+intro illustration or paragraph block between the header and the table,
+confirm that no row contains any text beyond the 部位・ケース / 算入の
+ルール / 根拠 text specified for that row, and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
 
 ### 画像3：床面積に算入しないもの一覧（早見表）
@@ -350,12 +396,30 @@ explanation, illustration, or text beyond what is explicitly listed below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to 段, 準,
-則, 号, 積, 建, 物, 階, 地, 通, 路, 設, 備 — do not render these as
-Simplified Chinese variants.
+summarize, or substitute any characters. Pay special attention to the
+kanji 段, 準, 則, 号, 積, 建, 物, 階, 地, 通, 路, 設, 備 — these must be
+rendered in their standard Japanese forms, never as Simplified or
+Traditional Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the table — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -439,13 +503,20 @@ omitted, duplicated, merged, or reworded.
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the table has exactly 7 data rows exactly
-matching the list above, with no duplicated or missing rows, confirm there
-is no intro illustration or paragraph block between the header and the
-table, and confirm that no row contains any text beyond the 部位・ケース /
-不算入のルール / 根拠 text specified for that row.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the table has exactly 7 data rows exactly matching
+the list above, with no duplicated or missing rows, confirm there is no
+intro illustration or paragraph block between the header and the table,
+confirm that no row contains any text beyond the 部位・ケース / 不算入の
+ルール / 根拠 text specified for that row, and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
 
 ### 画像4：同じ「1.5メートル」でも意味が違う三つの基準
@@ -472,13 +543,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to 窓, 階,
-数, 積, 準, 則, 号 — do not render these as Simplified Chinese variants.
-Note: this instruction itself must not be rendered as visible text on the
-poster.
+summarize, or substitute any characters. Pay special attention to the
+kanji 窓, 階, 数, 積, 準, 則, 号 — these must be rendered in their
+standard Japanese forms, never as Simplified or Traditional Chinese
+variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -537,15 +625,22 @@ orange, 5-15 Japanese characters, a keyword phrase — NOT a sentence):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 3 exactly, with
-no duplicated or missing cards, confirm that each card's small context tag
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals 3 exactly, with no
+duplicated or missing cards, confirm that each card's small context tag
 (出窓の高さ基準 / 特殊階の床面積基準 / 特殊階の階数基準) is not confused
 with another card's context, confirm there is no intro illustration or
-paragraph block between the header and the cards, and confirm that no card
+paragraph block between the header and the cards, confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a context tag + short heading + short conclusion tag, at a glance.
+read as a context tag + short heading + short conclusion tag, at a glance
+— and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
