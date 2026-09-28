@@ -2,17 +2,31 @@
 
 土地家屋調査士試験の**記述式**解説をnote記事にするための素材置き場です。択一式の `note-articles/` とは別体系にしています。
 
+第21問（土地）と第22問（建物）で記事のスタイルが異なります。
+
+- **第21問（土地）**：講師が語りかける解説プロース形式。計算は「式（点名）・電卓操作・表示」の3点セットで厳密に示す
+- **第22問（建物）**：キャラクター「トリ先生」と「藍子」の会話形式（学習コミック風note記事）。計算は要所だけを対話の中で示す軽めのスタイル
+
+保存先の階層構造、`qa-checklist-kijutsu.md` によるダブルチェック、`main` へのコミットという運用は両方共通です。
+
 ## フォルダ構成
 
 ```
 note-articles-Kijyutsu/
-├── README.md                                  このファイル
-├── prompt_note-kijutsu_tochi_kyoutsu.md        共通：土地の記述式 note記事執筆プロンプト
-├── prompt_toukishinseisho-gazou_kihon-form.md  共通：登記申請書 画像作成プロンプト（基本フォーム）
-├── qa-checklist-kijutsu.md                    共通：記事作成後のダブルチェック指示書（PDCAの改善記録つき）
+├── README.md                                          このファイル
+├── prompt_note-kijutsu_tochi_kyoutsu.md                共通：土地(第21問)の記述式 note記事執筆プロンプト（プロース形式）
+├── prompt_note-kijutsu_tatemono_kyoutsu.md             共通：建物(第22問)の記述式 note記事執筆プロンプト（会話形式）
+├── prompt_toukishinseisho-gazou_kihon-form.md          共通：登記申請書 画像作成プロンプト（土地・基本フォーム）
+├── prompt_toukishinseisho-gazou_kihon-form_tatemono.md 共通：登記申請書 画像作成プロンプト（建物・基本フォーム）
+├── prompt_kaisetsuzu-gazou_kihon-form_tatemono.md       共通：建物の解説用インフォグラフィック 画像作成プロンプト（基本フォーム）
+├── qa-checklist-kijutsu.md                             共通：記事作成後のダブルチェック指示書（土地・建物共通＋固有、PDCAの改善記録つき）
 ├── tools/
-│   ├── calc_helpers.py                        F-789SGの計算を再現し、記事の表示値を生成・照合するヘルパー
-│   └── lint_note_article.py                   note表記ルールの機械チェックと「表示：」行の一覧
+│   ├── calc_helpers.py                                 F-789SGの計算を再現し、記事の表示値を生成・照合するヘルパー
+│   └── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
+├── R5/
+│   └── Q22/
+│       ├── note_R5_dai22mon_tatemono_kaisetsu.md        note記事本文（会話形式、参考例。解答例との照合は未実施）
+│       └── prompt_R5_dai22mon_kaisetsuzu.md             解説図（2階リビング拡張部分の求積図）作成プロンプト
 ├── R6/
 │   └── Q21/
 │       ├── note_R6_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文
@@ -27,9 +41,11 @@ note-articles-Kijyutsu/
         └── verify_R7_dai21mon.py                        記事の数値・電卓表示の照合スクリプト
 ```
 
+`R7/Q22/`（令和7年度・建物）は本ワークフロー確立時点ではまだ未着手。問題PDFの画像は `public/kijutsu/R07-tatemono/q1.png`〜`q3.png` にあるが、答案用紙・予備校解答例はこのリポジトリに含まれていないため、着手時にユーザーから添付を受ける。
+
 ## 使い方
 
-- **新しい年度・問題を追加するとき**は、直下の2本の共通プロンプトをコピーし、【令和○年度】や「記入データ」の部分だけをその年の問題に差し替えます。
+- **新しい年度・問題を追加するとき**は、直下の共通プロンプト（土地なら `..._tochi_kyoutsu.md` 系、建物なら `..._tatemono_...` 系）をコピーし、【令和○年度】や「記入データ」の部分だけをその年の問題に差し替えます。
 - 直下の共通プロンプトそのものは、問題固有の数値を書き込まずに汎用のまま保つこと。
 - 年度・問題ごとのフォルダ（`R7/Q21/` のように）には、その回の記事と、実際に埋めた値入りのプロンプト、照合スクリプトを保存します。
 - 記事を書き終えたら、`qa-checklist-kijutsu.md` に従ってダブルチェックします。新しい種類の誤りが見つかったら、指示書末尾の改善記録に残し、指示書と執筆プロンプトの両方を更新します。
@@ -37,3 +53,7 @@ note-articles-Kijyutsu/
 ## 計算方法の前提
 
 記述式の座標計算は、キヤノン F-789SG の複素数モードを前提に統一しています（詳細は共通プロンプト内）。
+
+## 学習漫画（画像パネル形式）との違い
+
+`CHATGPT_MANGA_WORKFLOW.md`（リポジトリ直下）は、キャラクターの立ち絵入り漫画**画像**をChatGPTの画像生成機能で1ページずつ作る別のワークフローで、素材・成果物はこのリポジトリの外（OneDrive）で管理している。本フォルダ（`note-articles-Kijyutsu/`）の記事は、画像パネルではなく**テキストのnote記事**（会話形式でも文章主体）であり、挿絵は本文中に生成箇所を明示するだけで、記事自体はこのリポジトリにそのままコミットする。
