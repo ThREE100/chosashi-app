@@ -1,6 +1,6 @@
 # 画像作成プロンプト：令和7年度 第22問（建物）note見出し画像
 
-note記事「令和7年度のわなを見抜け！〜「主」が消えても滅失登記じゃない〜」の**見出し画像（サムネイル）**用プロンプト。サイズ・スタイルの前提は、択一式（`note-articles/infographic-prompt-template.md`）で確立済みの house style をそのまま踏襲している（詳細はそちらの「サイズ・アスペクト比」「スタイル」の章を参照）。R5/Q22の見出し画像プロンプトと同じ構成。
+note記事「【土地家屋調査士受験生向け】令和7年度問題22（建物）〜「主」が消えても滅失登記じゃない〜」の**見出し画像（サムネイル）**用プロンプト。サイズ・スタイルの前提は、択一式（`note-articles/infographic-prompt-template.md`）で確立済みの house style をそのまま踏襲している（詳細はそちらの「サイズ・アスペクト比」「スタイル」の章を参照）。R5/Q22の見出し画像プロンプトと同じ構成。
 
 - **サイズ**：`1280×670px`（アスペクト比1.91:1）。より高精細にしたい場合は同じ比率のまま`1920×1006px`でもよい
 - 根拠：note公式ヘルプ「登録画像の推奨サイズ一覧」（https://www.help-note.com/hc/ja/articles/360000231642 ）。この比率からずれると note側で中央部分だけ自動トリミングされるため、必ずこの比率で生成すること
@@ -53,12 +53,15 @@ and no stray or decorative glyphs of any kind. Reproduce the exact text
 strings given below verbatim — do not paraphrase, translate, summarize,
 or substitute any characters.
 
+Label text (small, placed directly above the title, 1 line):
+土地家屋調査士受験生向け
+
 Title text (large, bold, centered near the top-center of the image, 1
 line):
-令和7年度のわなを見抜け！
+令和7年度問題22（建物）
 
 Subtitle text (smaller, centered directly below the title, 1 line):
-「主」が消えても滅失登記じゃない（令和7年度 午後の部 第22問）
+〜「主」が消えても滅失登記じゃない〜
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -71,12 +74,13 @@ canvas edge anywhere in the final image.
 
 COMPOSITION REQUIREMENT: Because note.com's article list view only shows
 the central 1280x454px band of this 1280x670px image, keep both
-characters, the title text, and the subtitle text within the vertical
+characters, the label text, the title text, and the subtitle text within the vertical
 center of the canvas (roughly the middle 454px band), with only
 background decoration allowed to extend into the top/bottom margins.
 
-Final check before rendering: scan every kanji glyph — including 令・和・
-年・度・見・抜・主・消・滅・失・登・記・午・後・部・問 — and confirm each
+Final check before rendering: scan every kanji glyph — including 土・地・
+家・屋・調・査・士・受・験・生・向・令・和・年・度・問・題・建・物・主・消・
+滅・失・登・記 — and confirm each
 is in standard Japanese (Jōyō) form, not Simplified Chinese and not
 Traditional Chinese. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct
@@ -86,7 +90,7 @@ Chinese-only character, Korean Hangul, other non-Japanese script, or
 stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the building icon
 contains no legible numbers or sentences (icon only). Confirm both
-characters, the title, and the subtitle are positioned within the
+characters, the label, the title, and the subtitle are positioned within the
 central 1280x454px safe area. Confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
@@ -95,8 +99,8 @@ channel anywhere.
 ## 生成後の確認項目
 
 - サイズが1280×670px（またはその倍率で同比率）になっているか
-- タイトル「令和7年度のわなを見抜け！」、サブタイトル「「主」が消えても滅失登記じゃない（令和7年度 午後の部 第22問）」の文字が一字一句正しいか（簡体字・繁体字・日本語以外の文字が混ざっていないか）
-- トリ先生・藍子の2キャラクターと、タイトル・サブタイトルの文字が、画像中央の1280×454pxの範囲内に収まっているか（note一覧ページでの見切れ防止）
+- ラベル「土地家屋調査士受験生向け」、タイトル「令和7年度問題22（建物）」、サブタイトル「〜「主」が消えても滅失登記じゃない〜」の文字が一字一句正しいか（note記事のタイトル「【土地家屋調査士受験生向け】令和7年度問題22（建物）〜「主」が消えても滅失登記じゃない〜」と同じ文言を3行に分けたもの）（簡体字・繁体字・日本語以外の文字が混ざっていないか）
+- トリ先生・藍子の2キャラクターと、ラベル・タイトル・サブタイトルの文字が、画像中央の1280×454pxの範囲内に収まっているか（note一覧ページでの見切れ防止）
 - 背景が完全に不透明か（透過・アルファチャンネルがないか、別の背景色の上に置いて確認する）
 - 建物アイコンの中に、読めてしまう数値・文章が入っていないか（アイコンとしてのみ使う）
 
