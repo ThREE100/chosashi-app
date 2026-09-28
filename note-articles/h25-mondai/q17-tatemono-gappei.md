@@ -85,7 +85,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-建物の合併の登記の制限事由について、「担保権（抵当権）の例外パターン」と「それ以外の権利の原則パターン」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+建物の合併の登記の制限事由について、「担保権（抵当権）の例外パターン」と「それ以外の権利の原則パターン」という2つの軸に沿って、5肢すべての正しいルールを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。カード3（賃借権）・カード4（敷地権）は、建物の表題部と権利部・乙区を帯状に分けて描き分け、賃借権が権利部の登記であるのに対し敷地権が表題部の情報であることを一目で対比できるようにしている。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -109,12 +109,21 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
-orthography exactly as written below, stroke-for-stroke. Reproduce the
-exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・建・物・登・記・所 — these must be rendered in their standard
-Japanese forms, never as Simplified Chinese variants.
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image — no
+Chinese-only characters, no Korean Hangul, no other non-Japanese script,
+and no stray or decorative glyphs of any kind, even as small background or
+texture elements. Every kanji must match standard Japanese orthography
+exactly as written below, stroke-for-stroke. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Pay special attention to the kanji 権・地・建・
+物・登・記・所・賃・借・敷・仮・併・諾・表・題・部・区 — these must be
+rendered in their standard Japanese forms, never as Simplified or
+Traditional Chinese variants.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -157,22 +166,27 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 3 ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-賃借権があると合併不可
-Illustration: An isometric two buildings (甲建物, 乙建物) both carrying
-an identical 賃借権 tag. A red X sits over the merge arrow between them
-despite the matching content.
+賃借権（乙区の登記）で合併不可
+Illustration: An isometric two buildings (甲建物, 乙建物), each drawn with
+a visible horizontal split into an upper 表題部 band (left empty/plain in
+this card) and a lower 権利部・乙区 band. Both buildings' 権利部・乙区 band
+carries an identical 賃借権 tag. A red X sits over the merge arrow between
+them despite the matching content.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-賃借権で合併不可
+乙区の登記で不可
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
-敷地権の有無違いはOK
-Illustration: An isometric two condominium units (甲建物, 乙建物). 甲建物
-alone carries a 敷地権 tag and 乙建物 has none. A green checkmark sits
-over the merge arrow between them.
+敷地権（表題部）はOK
+Illustration: An isometric two condominium units (甲建物, 乙建物), each
+drawn with the same horizontal split as CARD 3: an upper 表題部 band and a
+lower 権利部・乙区 band. In this card, both buildings' 権利部・乙区 band is
+empty, while 甲建物's 表題部 band alone carries a 敷地権 tag (乙建物's
+表題部 band has none). A green checkmark sits over the merge arrow between
+them.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-敷地権違いは合併可
+表題部の情報はOK
 
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
@@ -186,15 +200,24 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals 5 exactly, with no
+duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
-every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+illustration or paragraph block between the header and the cards, confirm
+that CARD 3 and CARD 4 both clearly show the 表題部／権利部・乙区 band
+split on each building and that CARD 3's tag sits in 権利部・乙区 while
+CARD 4's tag sits in 表題部 (do not collapse the two bands into one
+undivided building icon, since this split is the entire point of the
+contrast between these two cards), and confirm that no card contains a
+full sentence of explanatory prose — every card's takeaway must read as a
+short heading + a short conclusion tag, at a glance.
 ```
 
 ## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
