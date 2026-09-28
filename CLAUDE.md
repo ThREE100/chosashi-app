@@ -49,8 +49,13 @@ R7〜H17の問1〜問3（民法、全63記事）に埋め込まれている「�
 `prompt_note-kijutsu_tatemono_kyoutsu.md`の「note向けの体裁ルール」に理由つきで明記してある。
 `qa-checklist-kijutsu.md`冒頭の「自動PDCA運用ルール」のとおり、内容の誤りだけでなく体裁修正も改善記録の対象とし、
 年度ごとの記事が完成するたびに指示書・執筆プロンプト・図面プロンプトの改善余地を必ずレビューすること。
-令和7年度分（`R7/Q22/`）は未着手（問題PDFの画像は`public/kijutsu/R07-tatemono/`にあるが、答案用紙・予備校解答例は
-このリポジトリにはないため、着手時にユーザーから添付を受ける）。
+令和7年度分（`R7/Q22/`）はアガルートの解答例・答案用紙・試験問題本文と照合済み（2026-09-28）。`verify_R7_dai22mon.py`で
+表示値の一致を確認しており、挿入すべき画像（解説図3枚、登記申請書の完成形・誤り添削の計3枚＋note見出し画像）のプロンプトも
+`R7/Q22/prompt_R7_dai22mon_kaisetsuzu.md`・`prompt_R7_dai22mon_toukishinseisho_gazou.md`・
+`prompt_R7_dai22mon_toukishinseisho_machigai.md`・`prompt_R7_dai22mon_miidashi_gazou.md`に揃っている
+（実際の画像生成・検品はまだ行っていない）。本問は区分建物が関係せず、主である建物の全部取壊し＋附属建物の格上げ
+（滅失登記ではなく表題部変更登記1本になる）と、附属建物の取壊し・再築による符号の付け替えが主な論点。
+問題PDFの画像は`public/kijutsu/R07-tatemono/`にある（問題本文はユーザーから追加添付を受けた）。
 
 ## 運用ルール(2026-07-15合意)
 
