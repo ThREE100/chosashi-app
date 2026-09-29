@@ -195,15 +195,15 @@ check('添削の挿入位置の文言', '申請人も、手続をする土地の
 # ---- 生成済みの申請書・添削画像（縦長、記入データがプロンプトどおりか） ----
 import struct  # noqa: E402
 for name in ['R6_dai21mon_toukishinseisho_kansei', 'R6_dai21mon_toukishinseisho_machigai']:
-    png = os.path.join(HERE, 'gazou', name + '.png')
+    png = os.path.join(HERE, 'zu', name + '.png')
     ok = os.path.exists(png)
     if ok:
         w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
         judge(f'{name}.png が縦長（{w}×{h}px）', h > w)
     else:
         judge(f'{name}.png がある', False)
-html_k = open(os.path.join(HERE, 'gazou', 'R6_dai21mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
-html_m = open(os.path.join(HERE, 'gazou', 'R6_dai21mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
+html_k = open(os.path.join(HERE, 'zu', 'R6_dai21mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
+html_m = open(os.path.join(HERE, 'zu', 'R6_dai21mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
 for s in ['令和６年10月18日　申請　Ａ地方法務局', '土地分筆登記', '地積測量図　代理権限証書', 'Ａ市Ｂ町一丁目３番地１　野原花子',
           '金2,000円', 'Ａ市Ｂ町一丁目', '3番１', '（ロ）3番３', '③3番１、3番３に分筆', '3番１から分筆', '>45<', '>88<', '>37<',
           '>53<', '>8<', '>34<', '（略）', '令和6年度 土地家屋調査士試験 第21問 登記申請書 解答例']:

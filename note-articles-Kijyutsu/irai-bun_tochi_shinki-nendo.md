@@ -8,7 +8,7 @@
 - 書き換えるのは冒頭の【対象年度】の1行だけ（年度と、フォルダ名）
 - 問題PDF・答案用紙PDF・予備校の解答例PDFの3つを一緒に添付する
 - フォルダ名は、令和は `R1`〜`R7`、平成は `H30` のように書く（第21問で使用済み：`R2`〈会話形式〉、`R3`〈会話形式〉、`R4`〈会話形式〉、`R5`〈会話形式〉、`R6`〈プロース形式・会話形式〉、`R7`〈プロース形式・会話形式〉）
-- 解説図をリポジトリの中で実際に作図させる場合は、Python と matplotlib が使える環境（Claude Code のセッション）で依頼する
+- 解説図・登記申請書の完成形・添削画像をリポジトリの中で実際に書き出させるので、Python（matplotlib・playwright）と Chromium が使える環境（Claude Code のセッション）で依頼する
 
 ## 保守のルール
 
@@ -46,6 +46,7 @@ PDFが画像でテキストを読み取れない場合や pdftoppm がない場�
 6. note-articles-Kijyutsu/prompt_kaisetsuzu-gazou_kihon-form_tochi.md
    解説図の共通・基本フォーム（座標から作図、解答ごとに1枚、文字の重なりの自動検査）
 7. 完成した参考例：note-articles-Kijyutsu/R7/Q21/ と R6/Q21/（会話形式の記事・図のプロンプト・zu/ の作図スクリプトとPNG・添削と見出し画像のプロンプト・照合スクリプト一式）
+   登記申請書の完成形と添削画像の生成まで済んでいる見本は R6/Q21/zu/（make_R6_dai21mon_shinseisho_gazou.py と PNG・HTML）
    同じ年度にプロース形式の記事（note_{フォルダ名}_dai21mon_tochi_kijutsu_kaisetsu.md）があれば、答えの照合にも使う
    問題の型の参考
    - 放射で筆界点を出す・面積2等分・地積更正と分筆（一の申請情報）・平行線による等積交換・支号付きの分筆：R7
@@ -66,6 +67,8 @@ PDFが画像でテキストを読み取れない場合や pdftoppm がない場�
 - zu/draw_{フォルダ名}_dai21mon_kaisetsuzu.py と PNG（実際に作図し、重なりの自動検査0件と目視を確認）
 - prompt_{フォルダ名}_dai21mon_toukishinseisho_gazou.md（登記申請書の完成形。既にあれば共用）
 - prompt_{フォルダ名}_dai21mon_toukishinseisho_machigai.md（誤答→添削→正解の3コマ。3コマは縦に積んだ縦長の画像にする）
+- zu/make_{フォルダ名}_dai21mon_shinseisho_gazou.py と、登記申請書の完成形・添削画像の PNG と HTML（zu/{フォルダ名}_dai21mon_toukishinseisho_kansei.png・.html、zu/{フォルダ名}_dai21mon_toukishinseisho_machigai.png・.html）
+  プロンプトを作るだけで終わらせず、上の2つのプロンプトどおりに HTML を組み、Playwright（Chromium は /opt/pw-browsers）で PNG に書き出して、解説図と同じ zu/ フォルダに保存する。どちらも縦長（横1200px）にし、PNG を目で見て文字の重なり・はみ出し・文字化け・縦書きの折れ返しがないことを確かめる。明朝体のフォントがなければ IPA明朝（fonts-ipafont-mincho）を入れる
 - prompt_{フォルダ名}_dai21mon_miidashi_gazou.md（note見出し画像）
 - verify_{フォルダ名}_dai21mon_kaiwa.py（照合スクリプト）
 
@@ -87,7 +90,7 @@ PDFが画像でテキストを読み取れない場合や pdftoppm がない場�
 - 条文を示すときは原典で確認したものだけにする。確認していない先例は書かない
 
 ■ 完了前に行うこと
-1. verify_{フォルダ名}_dai21mon_kaiwa.py で NG 0件を確認する（記事の全表示値と答え、誤答の数値、解説図プロンプトの本文と図の数・数値、申請書・添削・見出し画像の文言、note向けの体裁、禁止語）
+1. verify_{フォルダ名}_dai21mon_kaiwa.py で NG 0件を確認する（記事の全表示値と答え、誤答の数値、解説図プロンプトの本文と図の数・数値、申請書・添削・見出し画像の文言、zu/ の登記申請書の完成形・添削画像の PNG が縦長であることと HTML の記入データ、note向けの体裁、禁止語）
 2. lint_note_article.py で表記ルール違反がないことを確認する
 3. qa-checklist-kijutsu.md に従ってダブルチェックする
    - 改善記録の先頭に、今回の年度の記録（照合結果・自分で解いたときの誤り・新しい気づき）を追加する

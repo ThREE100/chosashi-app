@@ -4,7 +4,7 @@
 
 ※画像生成AI（Midjourney、DALL·E など）は日本語の文字が崩れやすく、申請書のような文字中心の画像には向きません。このプロンプトは「HTMLで申請書を組み立て、PNG画像に書き出す」方式で作っています。Claude（ファイル作成とコード実行ができる環境）で使ってください。
 
-※2026-09-29、このプロンプトどおりに生成済み：`gazou/R6_dai21mon_toukishinseisho_kansei.png`（1200×1650px、縦長）と元のHTML。生成スクリプトは `gazou/make_R6_dai21mon_shinseisho_gazou.py`（印刷文字はIPA明朝、記入はIPAゴシック。Noto CJKがあればそちらを優先）。
+※2026-09-29、このプロンプトどおりに生成済み：`zu/R6_dai21mon_toukishinseisho_kansei.png`（1200×1650px、縦長）と元のHTML。生成スクリプトは `zu/make_R6_dai21mon_shinseisho_gazou.py`（印刷文字はIPA明朝、記入はIPAゴシック。Noto CJKがあればそちらを優先）。
 
 ---
 

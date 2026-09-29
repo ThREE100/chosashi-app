@@ -311,7 +311,7 @@
 - `zu/`：作図スクリプト（`draw_{年度}_dai21mon_kaisetsuzu.py`）と書き出したPNG（リポジトリの中で作図した場合）
 - `prompt_{年度}_dai21mon_toukishinseisho_gazou.md`：登記申請書の完成形（共通フォーム `prompt_toukishinseisho-gazou_kihon-form.md` から。欄の名前・順序・「（略）」は試験の答案用紙に合わせる）。プロース版で作成済みなら共用してよい
 - `prompt_{年度}_dai21mon_toukishinseisho_machigai.md`：申請書の誤答→添削→正解の3コマ。**3コマは縦に積んだ縦長の画像にする**（2026-09-29、ユーザー指示。横に並べるとnoteのスマートフォン表示で文字が小さくなる。見本は `R6/Q21/`。`R7/Q21/` のプロンプトは横並びの旧版）
-- 申請書の完成形・添削画像は、HTML＋ヘッドレスブラウザ（Playwright・Chromium）で実際にPNGに書き出せる。書き出した場合は `{年度}/Q21/gazou/` に生成スクリプト・HTML・PNGを置き、照合スクリプトで縦長であることと記入データの文言を確かめる（見本は `R6/Q21/gazou/make_R6_dai21mon_shinseisho_gazou.py`。印刷文字の明朝体はIPA明朝〈`apt-get install fonts-ipafont-mincho`〉でよい）
+- 申請書の完成形・添削画像は、プロンプトを作るだけでなく、HTML＋ヘッドレスブラウザ（Playwright・Chromium）で実際にPNGに書き出す（2026-09-29、ユーザー指示）。生成スクリプト（`make_{年度}_dai21mon_shinseisho_gazou.py`）・HTML・PNGは解説図と同じ `{年度}/Q21/zu/` に置き、PNGを目で確かめ、照合スクリプトで縦長であることと記入データの文言を確かめる（見本は `R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`。印刷文字の明朝体はIPA明朝〈`apt-get install fonts-ipafont-mincho`〉でよい）
 - `prompt_{年度}_dai21mon_miidashi_gazou.md`：note見出し画像（1280×670px。構成は `R7/Q21/prompt_R7_dai21mon_miidashi_gazou.md` を踏襲。タイトルに点名などの半角英字が入る場合は、文字の制限の例外として明記する）
 - `verify_{年度}_dai21mon_kaiwa.py`：照合スクリプト（見本は `R7/Q21/verify_R7_dai21mon_kaiwa.py`）。次をすべて確かめ、NG 0件にする
   - 記事の全「表示：」の値と答え（座標・穴埋め・辺長・申請書の欄）

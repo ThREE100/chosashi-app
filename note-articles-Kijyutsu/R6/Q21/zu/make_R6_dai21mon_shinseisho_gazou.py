@@ -4,7 +4,7 @@
 - 添削　：`../prompt_R6_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
-実行: python3 note-articles-Kijyutsu/R6/Q21/gazou/make_R6_dai21mon_shinseisho_gazou.py [出力フォルダ]
+実行: python3 note-articles-Kijyutsu/R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py [出力フォルダ]
 """
 import glob
 import os
