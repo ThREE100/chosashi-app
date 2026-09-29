@@ -127,10 +127,16 @@ note-articles-Kijyutsu/
 │       └── verify_R5_dai22mon.py                              記事の数値・求積の照合スクリプト
 ├── R6/
 │   ├── Q21/
-│   │   ├── note_R6_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文
-│   │   ├── prompt_R6_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（R6第21問の記入データ済み）
-│   │   ├── prompt_R6_dai21mon_kaisetsuzu.md             解説図（筆界のずれ・B点D点・P点・地積測量図）作成プロンプト
-│   │   └── verify_R6_dai21mon.py                        記事の数値・電卓表示の照合スクリプト
+│   │   ├── note_R6_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文（プロース形式。アガルート解答例と照合済み）
+│   │   ├── note_R6_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み。筆界の判断・P点・乙土地の分筆・地図に準ずる図面の訂正）
+│   │   ├── prompt_R6_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（R6第21問の記入データ済み。プロース版・会話形式で共用）
+│   │   ├── prompt_R6_dai21mon_toukishinseisho_machigai.md  登記申請書「申請人」欄と「土地の表示」1行目の誤答→添削→正解の画像プロンプト（会話形式用）
+│   │   ├── prompt_R6_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（会話形式用、1280×670px）
+│   │   ├── prompt_R6_dai21mon_kaisetsuzu.md             解説図（筆界のずれ・B点D点・P点・地積測量図）作成プロンプト（プロース版用）
+│   │   ├── prompt_R6_dai21mon_kaiwa_kaisetsuzu.md       解説図9枚（全体図・B点・D点・筆界の判断・P点・必要な登記・分筆の地番・地積測量図・地図訂正の申出）作成プロンプト（会話形式用。土地の基本フォームの記入済み）
+│   │   ├── verify_R6_dai21mon.py                        記事の数値・電卓表示の照合スクリプト（プロース版）
+│   │   ├── verify_R6_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト（会話形式）
+│   │   └── zu/                                          解説図9枚のPNGと、作図スクリプト draw_R6_dai21mon_kaisetsuzu.py
 │   └── Q22/
 │       ├── note_R6_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
 │       ├── prompt_R6_dai22mon_kaisetsuzu.md                   解説図6枚（出入り経路図・敷地辺長図・建物図面・1階誤り比較図・1階/2階求積図）作成プロンプト
