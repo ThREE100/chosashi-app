@@ -1,0 +1,54 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 60px 60px 40px; display: flex; flex-direction: column; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 40px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 24px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.dateline { font-size: 22px; margin: 2px 0 10px 0; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 20px; }
+.plainrow .ryaku { flex: 1; text-align: center; }
+.sec { font-size: 24px; margin: 34px 0 0; }
+table.t { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; margin-top: 18px; }
+table.t td { border: 1.5px solid #111; font-size: 19px; padding: 8px 8px; vertical-align: middle; line-height: 1.5; }
+table.t td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.35em; padding: 0; font-size: 21px; }
+table.t td.lab2 { text-align: center; font-size: 18px; }
+table.t td.head { text-align: center; font-size: 17px; height: 76px; }
+table.t td.val { height: 56px; }
+table.t td.entry { height: 128px; }
+table.t td.center { text-align: center; }
+table.t td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.t td.genin { font-size: 17px; }
+table.t td .ink { font-size: 19px; }
+table.t td.genin .ink { font-size: 18px; }
+table.r2 td { height: 78px; font-size: 21px; }
+table.r2 td .ink { font-size: 22px; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 34px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.dstrike { position: relative; }
+.dstrike::before, .dstrike::after { content: ""; position: absolute; left: -3px; right: -3px; border-top: 2.5px solid #d0021b; }
+.dstrike::before { top: 42%; } .dstrike::after { top: 60%; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; right: 120px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0; text-align: right; }
+.bubrow .bubble { text-align: left; }
+.note { margin-top: 12px; font-size: 19px; color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body>
+<div class="panel"><div class="ptitle ng">①誤答</div><div class="okwrap"><table class="t"><colgroup><col style="width:5%"><col style="width:13%"><col style="width:8%"><col style="width:9%"><col style="width:10%"><col style="width:14%"><col style="width:12%"><col style="width:5%"><col style="width:24%"></colgroup><tr><td class="vert" rowspan="3" style="font-size:17px;letter-spacing:0.05em">区分した<br>建物の表示</td><td class="head">家屋<br>番号</td><td class="head">建物の<br>名　称</td><td class="head" style="font-size:15px">主である<br>建物又は<br>附属建物</td><td class="head">①種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床　面　積<br>m²</td><td class="head">原因及び<br>その日付</td></tr><tr><td class="entry"><span class="ink">５番２</span></td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">共同住宅</span></td><td class="entry center"><span class="ink">鉄骨造スレー<br>トぶき２階建</span></td><td class="entry int"><span class="ink">1階　173</span><br><span class="ink">2階　176</span></td><td class="entry dec"><span class="ink">00</span><br><span class="ink">00</span></td><td class="entry genin"><span class="ink">令和３年10月17日５番２の１、<br>５番２の２に区分</span></td></tr><tr><td class="entry"><span class="ink">（イ）<br>Ｂ町三丁目<br>５番２の１</span></td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">居宅</span></td><td class="entry center"><span class="ink">鉄骨造スレー<br>トぶき２階建</span></td><td class="entry int"><span class="ink">1階　82</span><br><span class="ink">2階　84</span></td><td class="entry dec"><span class="ink">74</span><br><span class="ink">24</span></td><td class="entry genin"><span class="ink">令和３年10月17日５番２から区分</span></td></tr></table></div></div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><div class="okwrap"><table class="t"><colgroup><col style="width:5%"><col style="width:13%"><col style="width:8%"><col style="width:9%"><col style="width:10%"><col style="width:14%"><col style="width:12%"><col style="width:5%"><col style="width:24%"></colgroup><tr><td class="vert" rowspan="3" style="font-size:17px;letter-spacing:0.05em">区分した<br>建物の表示</td><td class="head">家屋<br>番号</td><td class="head">建物の<br>名　称</td><td class="head" style="font-size:15px">主である<br>建物又は<br>附属建物</td><td class="head">①種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床　面　積<br>m²</td><td class="head">原因及び<br>その日付</td></tr><tr><td class="entry"><span class="ink">５番２</span></td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">共同住宅</span></td><td class="entry center"><span class="ink">鉄骨造スレー<br>トぶき２階建</span></td><td class="entry int"><span class="ink">1階　173</span><br><span class="ink">2階　176</span></td><td class="entry dec"><span class="ink">00</span><br><span class="ink">00</span></td><td class="entry genin"><span class="ink dstrike">令和３年10月17日</span><span class="ink">５番２の１、<br>５番２の２に区分</span></td></tr><tr><td class="entry"><span class="ink">（イ）<br>Ｂ町三丁目<br>５番２の１</span></td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">居宅</span></td><td class="entry center"><span class="ink">鉄骨造スレー<br>トぶき２階建</span></td><td class="entry int"><span class="ink">1階　82</span><br><span class="ink">2階　84</span></td><td class="entry dec"><span class="ink">74</span><br><span class="ink">24</span></td><td class="entry genin"><span class="ink dstrike">令和３年10月17日</span><span class="ink">５番２から区分</span></td></tr></table></div><div class="bubrow"><span class="bubble">区分は、登記によって初めて効果が生じる形成的登記。<br>登記より前に「区分した日」はない → 日付は書かない</span></div><div class="note">（参考）敷地権の表示の原因は「令和３年10月17日敷地権」と日付を書く</div></div>
+<div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div><div class="okwrap"><table class="t good"><colgroup><col style="width:5%"><col style="width:13%"><col style="width:8%"><col style="width:9%"><col style="width:10%"><col style="width:14%"><col style="width:12%"><col style="width:5%"><col style="width:24%"></colgroup><tr><td class="vert" rowspan="3" style="font-size:17px;letter-spacing:0.05em">区分した<br>建物の表示</td><td class="head">家屋<br>番号</td><td class="head">建物の<br>名　称</td><td class="head" style="font-size:15px">主である<br>建物又は<br>附属建物</td><td class="head">①種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床　面　積<br>m²</td><td class="head">原因及び<br>その日付</td></tr><tr><td class="entry"><span class="ink">５番２</span></td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">共同住宅</span></td><td class="entry center"><span class="ink">鉄骨造スレー<br>トぶき２階建</span></td><td class="entry int"><span class="ink">1階　173</span><br><span class="ink">2階　176</span></td><td class="entry dec"><span class="ink">00</span><br><span class="ink">00</span></td><td class="entry genin"><span class="ink">５番２の１、<br>５番２の２に区分</span></td></tr><tr><td class="entry"><span class="ink">（イ）<br>Ｂ町三丁目<br>５番２の１</span></td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">居宅</span></td><td class="entry center"><span class="ink">鉄骨造スレー<br>トぶき２階建</span></td><td class="entry int"><span class="ink">1階　82</span><br><span class="ink">2階　84</span></td><td class="entry dec"><span class="ink">74</span><br><span class="ink">24</span></td><td class="entry genin"><span class="ink">５番２から区分</span></td></tr></table><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+<div class="caption" style="margin:10px 0 30px">令和3年度 第22問｜区分の原因に日付は書かない</div></body></html>
