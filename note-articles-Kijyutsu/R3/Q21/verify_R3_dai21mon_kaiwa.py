@@ -198,9 +198,9 @@ b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋め
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（10枚）', n_fig == 10)
+judge(f'解説図プロンプトの図の数 {n_fig}枚（11枚）', n_fig == 11)
 pngs = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
-for i in range(1, 11):
+for i in range(1, 12):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'R3_dai21mon_zu{i:02d}_') for f in pngs))
 for s in ['（505.93, 495.62）', '(499.79, 526.75)', '(504.61, 500.55)', '(514.27, 521.83)', '(495.08, 494.51)',
           '(500.64, 526.98)', '(514.41, 521.87)', '135.8455', '126.8422', '123.2128', '385.8952', '446.791 ÷ 446.1384',
@@ -235,7 +235,10 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
                if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
 judge(f'話者名の行（ハードブレーク）: 不備 {bad_speaker}', not bad_speaker)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図10＋添削1＋完成形1＝計12か所の想定）', n_marker == 12)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図11＋添削1＋完成形1＝計13か所の想定）', n_marker == 13)
+spk = [(i, l.strip()) for i, l in enumerate(lines) if l.rstrip() in ('**トリ先生**', '**藍子**')]
+same = [i1 + 1 for (i1, n1), (i2, n2) in zip(spk, spk[1:]) if n1 == n2 and not any(x.strip() for x in lines[i1 + 2:i2])]
+judge(f'同じ話者のセリフが間に何も挟まずに続いていない: {same}', not same)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】令和3年度問題21（土地）〜'
@@ -249,5 +252,52 @@ absent('見出し画像に別年度の文言', '令和7', thumb, '見出し画�
 used = set(re.findall(r'\[ALPHA\] \[([A-FXY])\]', text)) | set(re.findall(r'\[STO\] \[([A-FXY])\]', text))
 judge(f'電卓操作で使う変数 {sorted(used)} は、第1章の割り当て表にすべてある',
       all(f'- **{v}**：' in text for v in used))
+
+# ---- 注の書き分け（問題文の注・調査図素図の注・観測値の注） ----
+for s_ in ['問題文の注3', '問題文の注4', '問題文の注5', '問題文の注6', '調査図素図の注3', '調査図素図の注2',
+           '〔測量によって得られた観測値〕の表の下の注1']:
+    check('注の出どころを書き分け', s_)
+for bad in ['（注5）', '（注6）', 'は注4で', 'は注3で']:
+    absent('出どころのない注の番号', bad)
+    absent('出どころのない注の番号', bad, fig, '解説図')
+check('相続を証する情報の時系列', 'まだ太郎さんの名義のまま')
+check('解く順番（時間配分）', '- **5番目**：L点 → 3区画の面積 → 公差の判定 → 申請書の地積の欄')
+check('作図の範囲', '約126mm×約89mm')
+
+# ---- 登記申請書の完成形・添削画像（zu/ の PNG と HTML） ----
+import struct
+
+
+def png_size(path):
+    with open(path, 'rb') as f:
+        head = f.read(24)
+    return struct.unpack('>II', head[16:24])
+
+
+ZU = os.path.join(HERE, 'zu')
+for name in ['R3_dai21mon_toukishinseisho_kansei', 'R3_dai21mon_toukishinseisho_machigai']:
+    pp, hp = os.path.join(ZU, name + '.png'), os.path.join(ZU, name + '.html')
+    judge(f'{name}.png と .html がある', os.path.exists(pp) and os.path.exists(hp))
+    if os.path.exists(pp):
+        w, h = png_size(pp)
+        judge(f'{name}.png は縦長で横1200px（{w}×{h}）', w == 1200 and h > w)
+html_k = open(os.path.join(ZU, 'R3_dai21mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
+for s_ in ['土地分筆登記', '地積測量図　相続証明書', '代位原因証書　代理権限証書', '金3,000円', '（被相続人　山田太郎）',
+           'Ｍ市Ｄ町五丁目２番２号　山田一郎', 'Ｓ市Ｄ町一丁目３番５号　山田三郎', 'Ｋ市Ｄ町二丁目10番１号　山田二郎',
+           '代位原因　令和３年８月１日遺産分割の所有権移転登記請求権', '令和３年10月17日　申請　Ａ地方法務局', 'Ｋ市Ｄ町二丁目',
+           '>386<', '>30<', '>126<', '>84<', '>123<', '>21<', '>135<', '③10番１、10番８、10番９に分筆', '（ロ）10番８',
+           '（ハ）10番９', '10番１から分筆', '申請人兼代位者', '被代位者']:
+    check('完成形のHTML', s_, html_k, '完成形HTML')
+    check('完成形プロンプトと同じ文言', s_.strip('><'), form, '登記申請書')
+judge('完成形HTMLの順序（登録免許税 → 申請人の枠 → 代理人 → 申請の日付 → 土地の表示）',
+      html_k.index('金3,000円') < html_k.index('（被相続人') < html_k.index('（略）') < html_k.index('令和３年10月17日')
+      < html_k.index('所　在'))
+html_m = open(os.path.join(ZU, 'R3_dai21mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
+for s_ in ['①誤答', '②添削', '③正解', '地積測量図　相続証明書　代理権限証書', '代位原因証書', '申請人兼代位者',
+           '二郎1人なら一郎・三郎の分は代位']:
+    check('添削のHTML', s_, html_m, '添削HTML')
+judge('添削のHTMLは①②③の順に縦に積む', html_m.index('①誤答') < html_m.index('②添削') < html_m.index('③正解'))
+check('添削プロンプトは縦に積む', '3コマを縦に積む', fix, '添削')
+absent('添削プロンプトに横並びの旧版の文言', '横に3コマ並べる', fix, '添削')
 
 print('NG件数:', ng)
