@@ -396,13 +396,33 @@ def new_figure(title, caption, w=16, h=12, dpi=100, ncols=1, width_ratios=None):
     return fig, (axes if ncols > 1 else [axes])
 
 
-def fit(ax, pts, margin=0.12, extra=None):
-    """表示範囲を点の集合に合わせる（縦横同じ縮尺のまま、余白 margin の割合）。"""
+def fit(ax, pts, margin=0.12, extra=None, keep_all=False):
+    """表示範囲を点の集合に合わせる（縦横同じ縮尺のまま、余白 margin の割合）。
+    keep_all=True なら、パネルの縦横比に合わせて、足りない方向だけを中央から広げる（2026-09-29、R4/Q21で追加）。
+    広げずに set_aspect('equal', adjustable='datalim') に任せると、matplotlib が片方の範囲を
+    勝手に詰めることがあり、R4/Q21の図8では東の端（C点・D点）が切れた。新しい年度は keep_all=True を使う
+    （既定値を変えると、作図済みの年度〈R7〉の文字の配置が変わるため、既定は従来どおり）。"""
     v = [xy(p) for p in pts] + (extra or [])
     xs, ys = [a for a, _ in v], [b for _, b in v]
     w, h = max(xs) - min(xs), max(ys) - min(ys)
-    ax.set_xlim(min(xs) - w * margin, max(xs) + w * margin)
-    ax.set_ylim(min(ys) - h * margin, max(ys) + h * margin)
+    x0, x1 = min(xs) - w * margin, max(xs) + w * margin
+    y0, y1 = min(ys) - h * margin, max(ys) + h * margin
+    if not keep_all:
+        ax.set_xlim(x0, x1)
+        ax.set_ylim(y0, y1)
+        return
+    fig = ax.figure
+    bb = ax.get_position()
+    box = (bb.width * fig.get_figwidth()) / (bb.height * fig.get_figheight())
+    dw, dh = x1 - x0, y1 - y0
+    if dw / dh < box:          # 横が足りない → 横を広げる
+        pad = (dh * box - dw) / 2
+        x0, x1 = x0 - pad, x1 + pad
+    else:                      # 縦が足りない → 縦を広げる
+        pad = (dw / box - dh) / 2
+        y0, y1 = y0 - pad, y1 + pad
+    ax.set_xlim(x0, x1)
+    ax.set_ylim(y0, y1)
 
 
 def centroid(pts):
