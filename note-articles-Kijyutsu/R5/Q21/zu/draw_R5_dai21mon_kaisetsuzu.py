@@ -74,7 +74,7 @@ fig, (ax,) = new_figure('図1　北を上にして描き直した全体像（令
                         'C・F・G は Y＝703.62、A・I・J は Y＝692.76、D・E は Y＝717.76 で、どれも真北向きの直線の上にある。\n'
                         '本件借地（A・C・G・I）の南の線より、乙土地の筆界（J・F）は少し南にある。B・Hは問2で求める分割点。')
 z = Zu(ax, fontsize=14)
-fit(ax, [A, C, D, E, F, J, T1, T2], margin=0.10)
+fit(ax, [A, C, D, E, F, J, T1, T2], margin=0.10, pad_aspect=True)
 z.poly(KOU, fill=GREEN)
 z.poly(OTSU, fill=BLUE)
 z.poly([A, C, G, I], color=GRAY, lw=1.4, ls='--', check=True)
@@ -121,7 +121,7 @@ for ax, pts, lab_c, lab_a, head, col, ok in [
     (ax2, [A, C, F, J], ('C→F ＝ 22.65', F), ('A→J ＝ 20.99', J), 'F・J を通すと', RED, True),
 ]:
     z = Zu(ax, fontsize=14)
-    fit(ax, [A, C, F, J], margin=0.30)
+    fit(ax, [A, C, F, J], margin=0.30, pad_aspect=True)
     z.poly(OTSU, color=GRAY, lw=1.0, check=True)
     z.poly(pts, color=col, lw=2.4, fill=BLUE if ok else None, alpha=0.18)
     z.north_arrow(length=0.07)
@@ -150,7 +150,7 @@ fig, (ax1, ax2) = new_figure('図3　問2　B点の求め方（CGから西へ1.0
                              '右の拡大図：ACに沿って1.00m測った点（702.67, 702.63）は、CGから0.99m（0.9928…）しか離れない。ACが斜めのため。BC は 1.01 になる。',
                              ncols=2, width_ratios=[1.15, 1])
 za = Zu(ax1, fontsize=14)
-fit(ax1, OTSU, margin=0.20)
+fit(ax1, OTSU, margin=0.20, pad_aspect=True)
 za.poly(OTSU, lw=2.0)
 za.line(C, G, lw=2.0, check=False)
 za.line(B, H, color=RED, lw=2.0, ls='--')
@@ -169,7 +169,7 @@ za.free_text(P(697.5, 697.7), 'A→B のY座標の差\n702.62 − 692.76 ＝ 9.8
 za.callout(P(686.0, Y_BH), 'BHの線（Y＝702.62）', dirs=(180, 170, 190), color=RED, dists=(60, 80, 100))
 zb = Zu(ax2, fontsize=14)
 ax2.set_title('Bの付近の拡大（約0.07m四方）', fontsize=17, pad=6)
-fit(ax2, [P(702.64, 702.585), P(702.70, 702.655)], margin=0.02)
+fit(ax2, [P(702.64, 702.585), P(702.70, 702.655)], margin=0.02, pad_aspect=True)
 zb.line(Braw + (A - C) / abs(A - C) * 0.03, Braw + (C - A) / abs(A - C) * 0.045, lw=2.2)
 zb.line(P(702.695, Y_BH), P(702.645, Y_BH), color=RED, lw=1.8, ls='--')
 zb.line(P(702.695, Bw_raw.imag), P(702.645, Bw_raw.imag), color=GRAY, lw=1.4, ls=':')
@@ -191,7 +191,7 @@ fig, (ax,) = new_figure('図4　問2　H点の求め方（GIとBHの交点）',
                         'G・I はどちらも X＝680.64 なので、GI は真東向きの直線。BH は Y＝702.62 の南北の線なので、H は（680.64, 702.62）。\n'
                         'I・H・G は一直線。その南に、乙土地の細長い部分（I・H・G・F・J。IJ 0.15、GF 0.50 の台形）が残る。')
 z = Zu(ax, fontsize=14)
-fit(ax, [P(678.8, 689.6), P(682.6, 706.8)], margin=0.02)
+fit(ax, [P(678.8, 689.6), P(682.6, 706.8)], margin=0.02, pad_aspect=True)
 z.line(J, F, lw=2.2)
 z.line(J, P(682.2, 692.76), lw=2.2)
 z.line(F, P(682.2, 703.62), lw=2.2)
@@ -228,7 +228,7 @@ for ax, p2, p4, head, col, t2, t4 in [
     (ax2, N2, N4, '1番2＝西側部分、1番4＝残り（正しい）', RED, '（イ）1番2\n211.34㎡', '（ロ）1番4\n25.61㎡'),
 ]:
     z = Zu(ax, fontsize=14)
-    fit(ax, OTSU, margin=0.28)
+    fit(ax, OTSU, margin=0.28, pad_aspect=True)
     z.poly(p2, fill=BLUE)
     z.poly(p4, fill=ORANGE, alpha=0.4)
     z.north_arrow(length=0.07)
@@ -255,7 +255,7 @@ fig, (ax,) = new_figure('図6　問3　地積測量図（1番2・1番4）の完�
                         '縮尺1/250で答案用紙に描くと 1m ＝ 4mm（JI 0.15 は 0.6mm）。辺長は小数第3位を四捨五入（FJ は 10.8656 なので 10.87）。\n'
                         '座標値・地積・求積方法・測量年月日は書かない（注5）。A市基準点T1・T2は位置と点名だけ（注6）。G は8月の時点では筆界点ではない。')
 z = Zu(ax, fontsize=15)
-fit(ax, OTSU + [T1, T2], margin=0.12)
+fit(ax, OTSU + [T1, T2], margin=0.12, pad_aspect=True)
 z.poly(OTSU, lw=2.0)
 z.poly([B, H, I], lw=2.0, closed=False)
 z.north_arrow()
@@ -299,7 +299,7 @@ fig, (ax,) = new_figure('図7　問4　10月16日の地目変更・分合筆（1
                         '細長い部分（イ）3.52㎡が1番4として残る（3.52 ＋ 22.09 ＝ 25.61）。1番1の地積は注9で端数を援用：335.5096500 ＋ 22.09 ＝ 357.59965 → 357.59㎡\n'
                         '登録免許税は分合筆後の2個（1番1・1番4）× 1,000円 ＝ 2,000円。地目変更には登録免許税はかからない。')
 z = Zu(ax, fontsize=14)
-fit(ax, OTSU + KOU, margin=0.08)
+fit(ax, OTSU + KOU, margin=0.08, pad_aspect=True)
 z.poly(N2, color=GRAY, lw=1.2)
 z.poly(KOU, fill=GREEN)
 z.poly(SHA, fill=PURPLE, alpha=0.35)
