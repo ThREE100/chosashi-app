@@ -331,13 +331,22 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 委任状の押印に印鑑証明書は不要
-Diagram: A correct-rule-vs-misconception comparison. LEFT side, labeled
-「誤りやすい思い込み」: a power-of-attorney document（代理人の権限を証す
-る情報）next to a seal-certificate icon（印鑑証明書）with a checkmark,
-the whole scene crossed out with a red ✕ to show this reasoning is wrong.
-RIGHT side, labeled「正しいルール」: the same power-of-attorney document
-with only 記名押印 shown, and the seal-certificate icon crossed out with
-a red ✕ labeled 印鑑証明書は不要。
+Diagram: A correct-rule-vs-misconception comparison. IMPORTANT: the two
+sides must show OPPOSITE marks, not the same mark — this is a case where
+the mistaken belief thinks an extra document is required (✓) but the
+actual rule says it is unnecessary (✕); do not draw a ✕ on both sides.
+LEFT side, labeled「誤りやすい思い込み」(gray header pill): a
+power-of-attorney document（代理人の権限を証する情報）next to a
+seal-certificate icon（印鑑証明書）, with a small caption above them
+reading "印鑑証明書も添付しなければならないはず", and ONLY a single large
+green checkmark stamped on the seal-certificate icon (no red ✕ anywhere
+in this box — the checkmark itself represents the mistaken belief that
+providing it is required, and the gray「誤りやすい思い込み」header is
+what tells the reader this belief is wrong, not a second contradicting
+mark). RIGHT side, labeled「正しいルール」(green header pill): the same
+power-of-attorney document with only 記名押印 shown, and the
+seal-certificate icon stamped with ONLY a single large red ✕ (no
+checkmark anywhere in this box), labeled 印鑑証明書は不要。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、書面で地積測量図の訂正の申出をする際、代理人の権限を証する情報に
 どの本人確認資料が必要かを確認します。権利に関する登記の委任状とは異な
@@ -386,7 +395,13 @@ illustration or paragraph block between the header and the panels, that
 いいえ side conclusion node (not a bare illustration with no visible
 decision structure) while the other panels use a family-tree illustration
 or a correct-rule-vs-misconception layout, that each 着眼点 callout states
-a checking order rather than only a conclusion, confirm nothing is
+a checking order rather than only a conclusion. Pay special attention to
+Panel 4: confirm the LEFT box（誤りやすい思い込み）shows only a green
+checkmark on its seal-certificate icon and the RIGHT box（正しいルール）
+shows only a red ✕ on its seal-certificate icon — these two marks must be
+opposite, not the same; if both boxes currently show the same mark (for
+example both showing a red ✕), that is an error and the left box must be
+corrected to show a green checkmark instead. Confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no
 trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
 text block of any kind), and confirm the entire canvas, edge to edge, is
