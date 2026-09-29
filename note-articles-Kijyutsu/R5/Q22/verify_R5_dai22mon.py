@@ -103,4 +103,111 @@ ok = title.startswith(prefix) and title.endswith('〜') and len(title[len(prefix
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + 'タイトル形式 : ' + title)
 
+# ---- 2026-09-29 追加作業：最新の執筆プロンプト・アガルートの解説と照らし合わせて追記した内容 ----
+check('解く順番', 'まず問1から問4までをざっと読んで')
+check('一の申請の根拠', '不動産登記規則第35条第7号')
+check('注3（両側被覆）', '注3で、鉄骨は両側が被覆されているから')
+# 建物の位置：外壁までの距離と壁の中心線（壁厚0.15の半分）から、建物が3番9の中に収まることを確かめる
+n_ext = 68 - 2.0
+s_ext = round(n_ext - 11.80 - 0.15, 2)
+y_cd = 88 + (s_ext - 52) * 1.5 / 16
+e_ext = y_cd - 2.9
+w_ext = e_ext - 7.30 - 0.15
+assert s_ext == 54.05 and round(y_cd, 2) == 88.19 and round(e_ext, 2) == 85.29 and round(w_ext, 2) == 77.84
+assert round(w_ext - 75, 1) == 2.8 and round(s_ext - (50 + 2 * (e_ext - 75) / 13), 1) == 2.5   # 辺ABまで約2.8、辺ADまで南東の角で約2.5（最小）
+check('辺ADまでの最小', 'いちばん狭い南東の角で約2.5')
+check('所在の確認', '建物は全部3番9の中。所在は3番地9だけ')
+check('建物の位置（南の外壁）', 'X＝54.05')
+check('各階平面図の1階の位置', '1階の位置を点線で重ねる')
+check('家屋番号の欄', '家屋番号の欄は空けておく')
+check('添付書類の根拠', '不動産登記令別表14の項添付情報欄ロ、16の項添付情報欄イ')
+check('登記識別情報は1個で足りる', '不動産登記令第8条第2項第3号')
+check('印鑑証明書の根拠', '同令第16条第2項、不動産登記規則第47条第3号イ（6）')
+check('登録免許税の根拠', '登録免許税法別表第一の一（十三）ロ')
+check('登録免許税「不要」のわな', '問2のただし書きどおり『不要』ですか？')
+check('種類：居宅と共同住宅', '「二世帯住宅で、ふた家族が住んでいるから……『共同住宅』ですか？」')
+check('3番9の1の4.61', '1階の北寄りにある階段室と、北側の玄関だけが3番9の1の部分')
+check('問4の穴埋め', '①規約証明書、②敷地権、③敷地利用権、④分離、⑤処分')
+check('問4の根拠', '不動産登記令別表12の項添付情報欄ホ')
+for bad in ['非課税ですか', '階層に入れたり', '✕', '✓', '名変']:
+    ok = bad not in text
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '禁止語なし : ' + bad)
+
+# ---- note向けの体裁 ----
+lines = text.splitlines()
+bad_speaker = [i + 1 for i, l in enumerate(lines)
+               if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
+ng += bool(bad_speaker)
+print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
+ok = lines[-1] == '---'
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
+prev = None
+for i, line in enumerate(lines):
+    if line.startswith('## '):
+        prev = None
+    elif line in ('**トリ先生**  ', '**藍子**  '):
+        ok = line != prev
+        ng += (not ok)
+        if not ok:
+            print('NG 同じ話者の連続 :', i + 1)
+        prev = line
+
+# ---- 画像（2026-09-29生成）：記事の画像挿入マーカー8か所に対応するPNGがそろっているか ----
+from PIL import Image
+ZU = os.path.join(os.path.dirname(__file__), 'zu')
+markers = [l for l in lines if l.startswith('> 【画像挿入】')]
+ok = len(markers) == 8
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数 : {len(markers)}（解説図6・添削1・申請書の完成形1）')
+PNGS = ['R5_dai22mon_zu01_shikichi_henchou', 'R5_dai22mon_zu02_tatemono_zumen', 'R5_dai22mon_zu03_ayamari_hikaku',
+        'R5_dai22mon_zu04_1kai_kyuuseki', 'R5_dai22mon_zu05_2kai_kyuuseki', 'R5_dai22mon_zu06_2kai_kouji_zengo',
+        'R5_dai22mon_toukishinseisho_machigai', 'R5_dai22mon_toukishinseisho_kansei']
+for name in PNGS:
+    path = os.path.join(ZU, name + '.png')
+    ok = os.path.exists(path)
+    if ok and 'toukishinseisho' in name:
+        w, h = Image.open(path).size
+        ok = w == 1200 and h > w    # 申請書・添削は横1200pxの縦長
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + 'PNG : ' + name)
+
+
+def html_has(name, *needles):
+    global ng
+    h = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()
+    for n in needles:
+        ok = n in h
+        ng += (not ok)
+        print(('OK ' if ok else 'NG ') + f'{name}.html : {n}')
+
+
+html_has('R5_dai22mon_toukishinseisho_kansei', '区分建物表題部変更・合併登記', '建物図面　各階平面図　登記識別情報　印鑑証明書',
+         '所有権証明書　代理権限証書', '令和５年10月12日　申請　　Ａ地方法務局', 'Ａ市Ｂ町一丁目３番地９　甲田栄一', '金1,000円',
+         '軽量鉄骨造陸屋<br>根２階建', '73</span>', '>99<', '②③令和5年10月6日構造変更、増築、3番9の2を合併',
+         '3番9の1に合併', '所在　　（省略）', '記載不要', '1階部分', '>74<', '>72<', '>4<', '>61<', '>70<', '>21<',
+         '2階　88', '>57<', '居宅')
+html_has('R5_dai22mon_toukishinseisho_machigai', '令和5年10月6日増築、3番9の2を合併', '∨②③', '∨構造変更、',
+         '②③令和5年10月6日構造変更、増築、3番9の2を合併')
+h = open(os.path.join(ZU, 'R5_dai22mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
+ok = h.count('記載不要') == 2
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '「記載不要」は敷地権の目的である土地の表示と敷地権の表示の2か所')
+
+# ---- 見出し画像のプロンプトの文字がタイトルと同じか ----
+thumb = open(os.path.join(os.path.dirname(__file__), 'prompt_R5_dai22mon_miidashi_gazou.md'), encoding='utf-8').read()
+sub = title[len(prefix):-1]
+for n in ['令和5年度問題22（建物）', '〜' + sub + '〜', '土地家屋調査士受験生向け']:
+    ok = n in thumb
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '見出し画像の文字 : ' + n)
+
+# ---- 解説図プロンプトの頂点座標とファイル名 ----
+for n in ['R5_dai22mon_zu01_shikichi_henchou', 'R5_dai22mon_zu06_2kai_kouji_zengo', '1階の位置を点線で重ねる',
+          'X＝54.05の高さで辺CDはY＝88＋（54.05−52）×1.5÷16＝88.1921…']:
+    ok = n in fig
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '解説図プロンプト : ' + n)
+
 print('NG件数:', ng)

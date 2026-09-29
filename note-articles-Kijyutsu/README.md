@@ -200,11 +200,12 @@ note-articles-Kijyutsu/
 │   │   └── zu/                                          解説図8枚のPNGと作図スクリプト draw_R5_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像（縦3コマ）のPNG・HTMLと生成スクリプト make_R5_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_R5_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
-│       ├── prompt_R5_dai22mon_kaisetsuzu.md                   解説図6枚（敷地辺長図・建物図面・1階/2階求積図・誤り比較図・工事前後比較図）作成プロンプト
-│       ├── prompt_R5_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形。R5第22問の記入データ済み）
-│       ├── prompt_R5_dai22mon_toukishinseisho_machigai.md     登記申請書「よくある間違い」の誤答→添削→正解の3コマ画像プロンプト
+│       ├── prompt_R5_dai22mon_kaisetsuzu.md                   解説図6枚（敷地辺長図・建物図面・誤り比較図・1階/2階求積図・工事前後比較図）作成プロンプト
+│       ├── prompt_R5_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形。一棟の建物の表示・敷地権の目的である土地の表示・区分した建物の表示・敷地権の表示まで答案用紙の形どおり）
+│       ├── prompt_R5_dai22mon_toukishinseisho_machigai.md     登記申請書「原因及びその日付」の誤答→添削→正解の画像プロンプト（3コマを縦に積む）
 │       ├── prompt_R5_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
-│       └── verify_R5_dai22mon.py                              記事の数値・求積の照合スクリプト
+│       ├── verify_R5_dai22mon.py                              記事・付属プロンプト・画像の数値・求積・体裁の照合スクリプト
+│       └── zu/                                                解説図6枚のPNGと作図スクリプト draw_R5_dai22mon_kaisetsuzu.py、登記申請書の完成形・添削画像（縦3コマ）のPNG・HTMLと生成スクリプト make_R5_dai22mon_shinseisho_gazou.py
 ├── R6/
 │   ├── Q21/
 │   │   ├── note_R6_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文（プロース形式。アガルート解答例と照合済み）
