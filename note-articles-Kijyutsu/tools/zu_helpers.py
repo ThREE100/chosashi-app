@@ -247,6 +247,19 @@ class Zu:
         self.ax.annotate(s, (mx, my), ha='center', va='center', rotation=ang, rotation_mode='anchor',
                          fontsize=size, color=color, weight='bold', zorder=7)
 
+    def parallel_chevron(self, p, q, color=BLACK, size=0.45, lw=2.0):
+        """平行の記号を線で描く（辺の中央に「＞」の形の折れ線を、pからqの向きで。size はデータ座標の長さ）。
+        文字の「>」を45°前後に回転させると字形が崩れて「⊥」のように見えるので（2026-09-29、R2/Q21）、
+        斜めの辺ではこちらを使う。"""
+        (x1, y1), (x2, y2) = xy(p), xy(q)
+        u = complex(x2 - x1, y2 - y1)
+        u = u / abs(u)
+        m = complex((x1 + x2) / 2, (y1 + y2) / 2)
+        tip = m + u * size / 2
+        for s in (1, -1):
+            tail = tip - u * size + u * 1j * s * size * 0.6
+            self.ax.plot([tail.real, tip.real], [tail.imag, tip.imag], color=color, lw=lw, zorder=7)
+
     def north_arrow(self, pos=None, length=0.10):
         """方位記号（真上＝X軸の正の方向＝北）。図形の線に重ならず区画の外にある位置を自動で選ぶ（右上→左上→右下→左下の隅、なければ余白を上から探す）。
         他の文字より先に描き、「N」の文字と矢印を重なり検査の対象に登録する。表示範囲を決めた（fit）直後に呼ぶこと。"""
@@ -403,13 +416,35 @@ def new_figure(title, caption, w=16, h=12, dpi=100, ncols=1, width_ratios=None):
     return fig, (axes if ncols > 1 else [axes])
 
 
-def fit(ax, pts, margin=0.12, extra=None):
-    """表示範囲を点の集合に合わせる（縦横同じ縮尺のまま、余白 margin の割合）。"""
+def fit(ax, pts, margin=0.12, extra=None, pad_aspect=False):
+    """表示範囲を点の集合に合わせる（縦横同じ縮尺のまま、余白 margin の割合）。
+    pad_aspect=True なら、パネルの縦横比に合わせて範囲を広げてから設定する（図形の端が切れるのを防ぐ）。"""
     v = [xy(p) for p in pts] + (extra or [])
     xs, ys = [a for a, _ in v], [b for _, b in v]
     w, h = max(xs) - min(xs), max(ys) - min(ys)
-    ax.set_xlim(min(xs) - w * margin, max(xs) + w * margin)
-    ax.set_ylim(min(ys) - h * margin, max(ys) + h * margin)
+    x0, x1 = min(xs) - w * margin, max(xs) + w * margin
+    y0, y1 = min(ys) - h * margin, max(ys) + h * margin
+    # パネルの縦横比に合わせて、足りない方向の範囲を中央から広げる（2026-09-29追加、R2/Q21）。
+    # 広げないと、adjustable='datalim' が縦横比を合わせるときに範囲を縮めることがあり、
+    # 図形の端（R2/Q21の図7ではB点と基準点1）がパネルの外に切れてしまう。
+    # 既存の年度（R7/Q21）の図の配置を変えないよう、新しい年度から pad_aspect=True で使う。
+    if not pad_aspect:
+        ax.set_xlim(x0, x1)
+        ax.set_ylim(y0, y1)
+        return
+    fig = ax.figure
+    pos = ax.get_position()
+    fw, fh = fig.get_size_inches()
+    ratio = (pos.height * fh) / (pos.width * fw)   # パネルの 縦 ÷ 横
+    dw, dh = x1 - x0, y1 - y0
+    if dh / dw < ratio:
+        pad = (dw * ratio - dh) / 2
+        y0, y1 = y0 - pad, y1 + pad
+    else:
+        pad = (dh / ratio - dw) / 2
+        x0, x1 = x0 - pad, x1 + pad
+    ax.set_xlim(x0, x1)
+    ax.set_ylim(y0, y1)
 
 
 def centroid(pts):
