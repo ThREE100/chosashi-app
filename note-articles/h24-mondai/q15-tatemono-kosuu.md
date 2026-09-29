@@ -206,16 +206,20 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a jurisdiction-style map of nearby detached
 buildings for 肢ア, a crossed-out mistaken-assumption icon paired with a
-checkmarked correct-rule icon for 肢イ and 肢エ, a before/after timeline
-of registry-record counts for 肢ウ, and a two-diamond decision flowchart
-for 肢オ (are the owners the same? then does combining them go against
-the owner's intent?). 肢オ is the only 肢 in this problem that requires
-checking two conditions in sequence (所有者の同一性 and 所有者の意思),
-so it alone is drawn as a true two-diamond flowchart with a distinct
-conclusion node at the end of every branch; the other four panels use a
-single labeled diagram, a mistaken-assumption-vs-correct-rule comparison,
-or a timeline instead — do not force them into a flowchart. Do not merge
-肢オ's two conditions into one diamond; keep 所有者の同一性 and 所有者の
+checkmarked correct-rule icon for 肢イ, a three-part 区分建物 vs 非区分建物
+comparison for 肢エ (see Panel 4 below — this 肢 is specifically about the
+rule being DIFFERENT for the two building types, so the diagram must show
+both types' correct rules side by side, not just one), a before/after
+timeline of registry-record counts for 肢ウ, and a two-diamond decision
+flowchart for 肢オ (are the owners the same? then does combining them go
+against the owner's intent?). 肢オ is the only 肢 in this problem that
+requires checking two conditions in sequence (所有者の同一性 and 所有者の
+意思), so it alone is drawn as a true two-diamond flowchart with a
+distinct conclusion node at the end of every branch; the other four
+panels use a single labeled diagram, a mistaken-assumption-vs-correct-rule
+comparison, a three-part building-type comparison, or a timeline instead
+— do not force them into a flowchart. Do not merge 肢オ's two conditions
+into one diamond; keep 所有者の同一性 and 所有者の
 意思に反しないかどうか as two visually separate checks. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」callout
 box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
@@ -322,21 +326,34 @@ characters):
 --- PANEL 4（肢エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
-登記記録は専有部分ごとに作成される
-Diagram: A comparison diagram. Left side (labeled 誤った思い込み, marked
-with a large red ✕): a whole condominium building icon with just ONE
-registry-record card attached, labeled 1棟ごとに1つの登記記録. Right side
-(labeled 正しいルール, marked with a large green checkmark): the same
-condominium building, but now each individual unit (専有部分) has its
-own separate registry-record card attached.
+区分建物と非区分建物でルールが違う
+Diagram: A three-part comparison that shows BOTH building types' correct
+rules side by side, plus the specific error this 肢 makes. LEFT part,
+labeled 区分建物でない建物: an ordinary, undivided building icon with a
+single registry-record card attached, labeled 1個の建物ごとに1つの登記
+記録, stamped with ONLY a green checkmark (this rule is correct and is
+not what is in dispute in this 肢). RIGHT part, labeled 区分建物（マン
+ション等）: a condominium building icon divided into visibly separate
+units, with each unit（専有部分）having its own separate registry-record
+card attached, labeled 専有部分ごとに登記記録, stamped with ONLY a green
+checkmark (this is the correct rule for 区分建物). Directly below or
+beside the right part, add a third, visually distinct box labeled 本肢の
+誤り showing the SAME condominium building but with only ONE
+registry-record card attached to the whole building (labeled 1棟ごとに
+1つの登記記録), stamped with ONLY a large red ✕ (no checkmark in this
+box) — this box represents the 肢's mistaken claim, which wrongly applies
+the 区分建物でない建物 rule (1個の建物ごと) to a 区分建物. Draw a small
+arrow or dashed line connecting this crossed-out box back to the LEFT
+part's rule, visually showing that the 肢's error is borrowing the wrong
+building type's rule.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、区分建物が不動産登記法上の一個の建物にあたるかどうかを確認します。
-次に、登記記録は一個の建物ごとに作成されるため、区分建物については1棟
-ごとではなく、各区分建物（専有部分）ごとに登記記録が作成されると確認
-します。
+まず、対象が区分建物か、区分建物でない建物かを確認します。次に、区分建
+物でない建物は1個の建物ごとに、区分建物は各専有部分ごとに登記記録が作
+成されると判断し、本肢のように区分建物にも「1棟ごと」という区分建物で
+ない建物の扱いを当てはめるのは誤りだと確認します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-専有部分ごとに作成
+非区分は1個、区分は専有ごと
 
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in blue containing the number 5.
@@ -380,8 +397,13 @@ intro illustration or paragraph block between the header and the panels,
 that 肢オ is drawn as an actual flowchart with two branch nodes each
 ending in its own conclusion node (not a bare illustration with no
 visible decision structure) while the other panels use a single labeled
-diagram, a mistaken-assumption-vs-correct-rule comparison, or a timeline,
-that each 着眼点 callout states a checking order rather than only a
+diagram, a mistaken-assumption-vs-correct-rule comparison, a three-part
+building-type comparison, or a timeline, that Panel 4 clearly shows three
+distinct boxes (区分建物でない建物 with a checkmark, 区分建物 with a
+checkmark, and 本肢の誤り with a red ✕) rather than collapsing them into
+a single two-box comparison, and that the LEFT and RIGHT correct-rule
+boxes in Panel 4 each carry only a checkmark with no ✕ anywhere inside
+them, that each 着眼点 callout states a checking order rather than only a
 conclusion and keeps 肢オ's two conditions (所有者の同一性・所有者の意思)
 visually distinct rather than merged, confirm nothing is rendered below
 the last panel's footnote text (no summary recap panel, no trophy or
