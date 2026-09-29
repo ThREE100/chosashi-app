@@ -169,10 +169,11 @@ note-articles-Kijyutsu/
 │   └── Q22/
 │       ├── note_R3_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
 │       ├── prompt_R3_dai22mon_kaisetsuzu.md                   解説図7枚（区分の全体像・敷地辺長図・建物図面・壁心/内法の誤り比較図・1階/2階求積図・問2の求積図）作成プロンプト
-│       ├── prompt_R3_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形）
-│       ├── prompt_R3_dai22mon_toukishinseisho_machigai.md     登記申請書「区分した建物の表示」の原因欄の誤答→添削→正解の画像プロンプト
+│       ├── prompt_R3_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形。第1欄をA3横の答案用紙の左の列→右の列の順に縦に積む。第2欄の完成形も）
+│       ├── prompt_R3_dai22mon_toukishinseisho_machigai.md     登記申請書「区分した建物の表示」の原因欄の誤答→添削→正解の画像プロンプト（3コマを縦に積む）
 │       ├── prompt_R3_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
-│       └── verify_R3_dai22mon.py                              記事・付属プロンプトの数値・求積・体裁の照合スクリプト
+│       ├── verify_R3_dai22mon.py                              記事・付属プロンプト・画像・HTMLの数値・求積・体裁の照合スクリプト
+│       └── zu/                                                解説図7枚のPNGと作図スクリプト draw_R3_dai22mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。登記申請書の完成形（第1欄、縦長1200px）・第2欄の完成形・添削画像（縦3コマ）のPNG・HTMLと生成スクリプト make_R3_dai22mon_shinseisho_gazou.py
 ├── R4/
 │   ├── Q21/
 │   │   ├── note_R4_dai21mon_tochi_kaiwa_kaisetsu.md      note記事本文（会話形式。アガルート解答例と照合済み）
