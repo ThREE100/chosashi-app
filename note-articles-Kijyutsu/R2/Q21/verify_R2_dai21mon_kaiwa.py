@@ -4,6 +4,7 @@
 import math
 import os
 import re
+import struct
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -157,9 +158,9 @@ a = base.index('あなたは土地家屋調査士試験の教材デザイナー�
 b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-n_fig = len(re.findall(r'^- \*\*図\d：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（7枚）', n_fig == 7)
-for i in range(1, 8):
+n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
+judge(f'解説図プロンプトの図の数 {n_fig}枚（9枚）', n_fig == 9)
+for i in range(1, 10):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'R2_dai21mon_zu0{i}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
 for q in re.findall(r'\*\*記事の挿入位置\*\*：[^「\n]*「([^」]+)」', fig):
@@ -175,6 +176,64 @@ for s in ['土地分合筆登記', '地積測量図　登記済証　印鑑証�
 for s in ['「107｜68」', '「156｜53」', '「107｜73」', '「156｜12」', '「③32番４に一部合併」', '「③32番５から一部合併」']:
     check('添削', s, fix, '添削')
 
+
+# ---- 2026-09-29 追加作業：アガルートの解説と照らして足した別解・作図範囲・解く順番 ----
+dz = (B - D).conjugate() * (C - E)
+check('対角線の別解（32番4） 表示', '表示：' + disp(dz))
+judge('対角線の別解のiの係数 ÷ 2 ＝ 32番4の面積', abs(abs(dz.imag) / 2 - S4) < 1e-9)
+dz2 = (H - F).conjugate() * (G - A)
+check('対角線の別解（（イ）） 表示', '表示：' + disp(dz2))
+judge('対角線の別解のiの係数 ÷ 2 ＝ （イ）の面積', abs(abs(dz2.imag) / 2 - 107.73) < 1e-9)
+K1_, K2_ = P(3.24, 2.76), P(19.39, 24.16)
+xs, ys = [p.real for p in [A, B, E, F, G, H, K1_, K2_]], [p.imag for p in [A, B, E, F, G, H, K1_, K2_]]
+judge('作図範囲 X 3.24〜25.18・Y −2.92〜24.16（約88mm × 108mm）', (min(xs), max(xs), min(ys), max(ys)) == (3.24, 25.18, -2.92, 24.16)
+      and round((max(xs) - min(xs)) * 4) == 88 and round((max(ys) - min(ys)) * 4) == 108)
+for s in ['Xが3.24（A市基準点1）から25.18（B点）まで、Yが−2.92（A点）から24.16（A市基準点2）まで', '約88mm', '約108mm',
+          '「（単位：ｍ）」', 'まず問3です。登記識別情報の穴埋めは、別紙を読まなくても答えられます',
+          '問3 → 問1のB点 → 申請書の書ける欄 → G点・H点 → 申請書の地積3つ → 地積測量図']:
+    check('足した観点', s)
+for s in ['70.9112 ＋ 246.8215i', '123.41075㎡', '約88mm × 108mm', '（イ）107.73・（ロ）33.12・合筆後156.12']:
+    check('図8・図9の数値', s, fig, '解説図')
+
+# ---- 生成済みの申請書・添削画像（縦長、記入データがプロンプトどおりか） ----
+for name in ['R2_dai21mon_toukishinseisho_kansei', 'R2_dai21mon_toukishinseisho_machigai']:
+    png = os.path.join(HERE, 'zu', name + '.png')
+    if os.path.exists(png):
+        w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
+        judge(f'{name}.png が縦長・横1200px（{w}×{h}px）', h > w and w == 1200)
+    else:
+        judge(f'{name}.png がある', False)
+html_k = open(os.path.join(HERE, 'zu', 'R2_dai21mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
+html_m = open(os.path.join(HERE, 'zu', 'R2_dai21mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
+for s in ['土地分合筆登記', '地積測量図　登記済証　印鑑証明書　相続証明書', '代理権限証書', '金2,000円', '（被相続人　山川一郎）',
+          'Ａ市Ｂ町一丁目32番地４　山川小太郎', 'Ａ市Ｂ町一丁目32番地５　香川浪子', '令和２年10月18日　申請　Ａ地方法務局',
+          'Ａ市Ｂ町一丁目', '（イ）32番５', '③32番４に一部合併', '32番５から分割して32番４に合併する部分', '③32番５から一部合併']:
+    check('完成形の画像（HTML）', s, html_k, '完成形画像')
+k_order = [html_k.index(s) for s in ['登記の目的', '添　付　書　類', '登録免許税', '申　　請　　人', '代　　理　　人', '令和２年10月18日']]
+judge('完成形の画像の欄の順序が答案用紙どおり（目的→添付→登録免許税→申請人→代理人→申請日）', k_order == sorted(k_order))
+for a_, b_ in [('107', '73'), ('33', '12'), ('123', '00'), ('156', '12'), ('140', '80')]:
+    check('完成形の画像の地積', f'{a_}</span></td><td class="dec"><span class="ink">{b_}', html_k, '完成形画像')
+for s in ['①誤答', '②添削（赤ペン）', '③正解', '>68<', '>53<', '>73<', '>12<', '（イ）は分筆後の土地。座標で求めた地積（A・H・G・F）を書く',
+          '32番4は地積更正をしていない！登記記録の123.00 ＋ 33.12']:
+    check('添削の画像（HTML）', s, html_m, '添削画像')
+check('添削のプロンプトは縦に積む', '3コマを縦に積んだ縦長', fix, '添削')
+absent('添削のプロンプトに横並びの旧版の指示がない', '左から「①誤答」', fix, '添削')
+draw = open(os.path.join(HERE, 'zu', 'draw_R2_dai21mon_kaisetsuzu.py'), encoding='utf-8').read()
+fits = re.findall(r'^\s*fit\(.*$', draw, re.M)
+judge(f'作図スクリプトの表示範囲はすべて fit(..., pad_aspect=True)（{len(fits)}か所）', fits and all('pad_aspect=True' in f for f in fits))
+
+# ---- 注の番号の書き分け（問題文の注） ----
+bare = [m.group(0) for m in re.finditer(r'(?<!問題文の)注[0-9]', text)]
+judge(f'注の番号はすべて「問題文の注N」と書き分けている（書き分けていないもの: {bare}）', not bare)
+
+# ---- アガルートの解答例（第1欄〜第4欄）と空欄ごとに全部照らす ----
+for s in ['**▶ B点（25.18, 5.48）**', '**▶ G点（14.34, 12.64）**', '**▶ H点（23.34, 3.64）**',
+          '- **ア**：不動産', '- **イ**：登記名義人', '- **ウ**：書面', '- **エ**：合筆', '- **オ**：合併',
+          '- **登記の目的**：土地分合筆登記', '- **添付書類**：地積測量図　登記済証　印鑑証明書　相続証明書　代理権限証書',
+          '- **登録免許税**：金2,000円', '- **所在**：A市B町一丁目',
+          '- **AH**：9.28', '- **HB**：2.60', '- **BE**：12.73', '- **EG**：2.60', '- **GF**：7.65', '- **FA**：12.83',
+          '- **HG（分筆線）**：12.73']:
+    check('アガルートの解答例と空欄ごとに同じ答え', s)
 # ---- 表記 ----
 for bad in ['PDF', '名変', '右上', '左下', '✓', '✕', 'コンクリートくい', 'くいが', '令和7']:
     absent('誤記・混入・専門用語のひらがな書き', bad)
@@ -186,8 +245,12 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
                if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
 judge(f'話者名の行（ハードブレーク）: 不備 {bad_speaker}', not bad_speaker)
 spk = [l.rstrip() for l in lines if l.rstrip() in ('**トリ先生**', '**藍子**')]
+seq = [(i, l.rstrip()) for i, l in enumerate(lines) if l.strip()]
+dup = [seq[k][0] + 1 for k in range(2, len(seq)) if seq[k][1] in ('**トリ先生**', '**藍子**')
+       and seq[k - 2][1] == seq[k][1] and seq[k - 1][1].startswith('「')]
+judge(f'同じ話者のセリフが間に何も挟まずに続いていない: {dup}', not dup)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図7＋添削1＋完成形1＝計9か所の想定）', n_marker == 9)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図9＋添削1＋完成形1＝計11か所の想定）', n_marker == 11)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】令和2年度問題21（土地）〜'
