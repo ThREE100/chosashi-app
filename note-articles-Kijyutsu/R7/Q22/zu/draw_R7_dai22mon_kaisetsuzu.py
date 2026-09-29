@@ -1,6 +1,6 @@
-"""令和7年度 第22問（建物）の解説図5枚を、辺長・頂点座標から作図してPNGに書き出す。
+"""令和7年度 第22問（建物）の解説図6枚を、辺長・頂点座標から作図してPNGに書き出す。
 
-`../prompt_R7_dai22mon_kaisetsuzu.md` の図1〜図5どおり。作図の共通部品は `tools/zu_helpers.py`。
+`../prompt_R7_dai22mon_kaisetsuzu.md` の図1〜図6どおり。作図の共通部品は `tools/zu_helpers.py`。
 建物の座標は (東, 南) で持ち、zu_helpers の (北, 東) には P() で変換する（北 ＝ −南）。
 実行: python3 note-articles-Kijyutsu/R7/Q22/zu/draw_R7_dai22mon_kaisetsuzu.py [出力フォルダ]
 """
@@ -170,7 +170,7 @@ assert round(area(VOID_SW) + area(VOID_SE), 2) == 34.00
 
 def zu03():
     fig, axes = new_figure('新築倉庫1階：柱の中心の寸法だけで測る誤り',
-                           '注3：数値は柱の中心間の距離と壁の中心間の距離。A部分拡大図のとおり柱の中心と壁の中心は0.30ずれているので、両端に0.30を足して壁の中心線で測る',
+                           '〔調査・測量〕の（注）3：数値は柱の中心間の距離と壁の中心間の距離。\nA部分拡大図のとおり柱の中心と壁の中心は0.30ずれるので、両端に0.30を足して壁の中心線で測る',
                            w=16, h=7, ncols=2)
     fig.subplots_adjust(top=0.84)
     z = Zu(axes[0], fontsize=13)
@@ -245,10 +245,53 @@ def zu05():
     save(fig, [z], 'R7_dai22mon_zu05_souko_2kai_kyuuseki')
 
 
+def zu06():
+    """本番で解く順番（どこまで倉庫の求積なしで書けるか）。固定配置の図なので重なり検査の対象外。"""
+    fig = plt.figure(figsize=(16, 8), dpi=100)
+    fig.patch.set_facecolor('white')
+    fig.suptitle('本番で解く順番　倉庫の求積と作図は後に回す', fontsize=24, weight='bold', y=0.965)
+    ax = fig.add_axes([0.03, 0.20, 0.94, 0.70])
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 100)
+    ax.axis('off')
+    steps = [
+        ('①', '問4の穴埋め', '第4欄 ア〜エ', BLUE),
+        ('②', '建物ごとの\n時系列メモ', '事実関係を整理', BLUE),
+        ('③', '問1の申請書', '第1欄\n（符号2は\n138.50−15.00）', BLUE),
+        ('④', '問2の申請書', '第2欄\n（符号5の床面積\nだけ空ける）', GREEN),
+        ('⑤', '倉庫の\n1階・2階の求積', '第2欄 符号5の\n床面積', RED),
+        ('⑥', '問3の\n各階平面図', '第3欄\n符号5・符号6', RED),
+        ('⑦', '見直し', '所在の順序・\n欄番号・符号', GRAY),
+    ]
+    w, h, gap = 12.2, 42, 1.8
+    for i, (no, t, ran, col) in enumerate(steps):
+        x = 1 + i * (w + gap)
+        ax.add_patch(plt.Rectangle((x, 22), w, h, facecolor=col, alpha=0.16, edgecolor=col, lw=2))
+        ax.text(x + w / 2, 22 + h - 4, no, ha='center', va='top', fontsize=26, color=col, weight='bold')
+        ax.text(x + w / 2, 22 + h / 2 - 3, t, ha='center', va='center', fontsize=17)
+        ax.text(x + w / 2, 18, ran, ha='center', va='top', fontsize=14, color=col)
+        if i < len(steps) - 1:
+            ax.annotate('', xy=(x + w + gap - 0.2, 43), xytext=(x + w + 0.2, 43),
+                        arrowprops=dict(arrowstyle='-|>', lw=1.6, color=GRAY))
+    ax.text(1 + 2 * (w + gap) - gap / 2, 76, '倉庫の求積をしなくても書ける', ha='center', fontsize=15, color=BLUE, weight='bold')
+    ax.annotate('', xy=(1 + 4 * (w + gap) - gap, 72), xytext=(1, 72), arrowprops=dict(arrowstyle='<->', lw=1.5, color=BLUE))
+    ax.text(1 + 5 * (w + gap) - gap / 2, 76, 'いちばん時間を食う', ha='center', fontsize=15, color=RED, weight='bold')
+    ax.annotate('', xy=(1 + 6 * (w + gap) - gap, 72), xytext=(1 + 4 * (w + gap), 72),
+                arrowprops=dict(arrowstyle='<->', lw=1.5, color=RED))
+    fig.text(0.5, 0.09, '倉庫の2階は、吹き抜け・腰高壁・格子手すりの階段を図面で1つずつ確かめるので時間がかかる。\n'
+             '先に第1欄・第2欄の大部分と第4欄を書いておけば、倉庫で時間が足りなくなっても申請書の点は取れている。',
+             ha='center', va='center', fontsize=15)
+    path = os.path.join(OUT, 'R7_dai22mon_zu06_toku_junban.png')
+    fig.savefig(path, dpi=100, facecolor='white')
+    plt.close(fig)
+    print('[重なり検査] 図6: 解く順番（固定配置）\n  →', path)
+
+
 if __name__ == '__main__':
     zu01()
     zu02()
     zu03()
     zu04()
     zu05()
+    zu06()
     print('重なり合計:', len(PROBLEMS))

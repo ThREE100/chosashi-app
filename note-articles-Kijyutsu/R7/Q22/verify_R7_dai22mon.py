@@ -121,11 +121,11 @@ check('各階平面図の所在欄', '建物の所在の欄には『Y市K区A町
 from PIL import Image
 ZU = os.path.join(os.path.dirname(__file__), 'zu')
 markers = [l for l in text.splitlines() if l.startswith('> 【画像挿入】')]
-ok = len(markers) == 8
+ok = len(markers) == 9
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数 : {len(markers)}（解説図5・申請書の完成形2・添削1）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数 : {len(markers)}（解説図6・申請書の完成形2・添削1）')
 PNGS = ['R7_dai22mon_zu01_hensen', 'R7_dai22mon_zu02_fugou2_ichibu_torikowashi', 'R7_dai22mon_zu03_hashirashin_ayamari',
-        'R7_dai22mon_zu04_souko_1kai_kyuuseki', 'R7_dai22mon_zu05_souko_2kai_kyuuseki',
+        'R7_dai22mon_zu04_souko_1kai_kyuuseki', 'R7_dai22mon_zu05_souko_2kai_kyuuseki', 'R7_dai22mon_zu06_toku_junban',
         'R7_dai22mon_toukishinseisho_kansei_toi1', 'R7_dai22mon_toukishinseisho_kansei_toi2',
         'R7_dai22mon_toukishinseisho_machigai']
 for name in PNGS:
@@ -161,6 +161,99 @@ for bad in ['所有権証明書']:   # 問1には所有権証明書を付けな�
     ok = bad not in h
     ng += (not ok)
     print(('OK ' if ok else 'NG ') + '問1に所有権証明書がない')
+
+
+# ---- 付属プロンプトとの整合（2026-09-29追加。最新の年度〈H25等〉と同じ確認）----
+import re
+HERE = os.path.dirname(__file__)
+fig = open(os.path.join(HERE, 'prompt_R7_dai22mon_kaisetsuzu.md'), encoding='utf-8').read()
+form = open(os.path.join(HERE, 'prompt_R7_dai22mon_toukishinseisho_gazou.md'), encoding='utf-8').read()
+fix = open(os.path.join(HERE, 'prompt_R7_dai22mon_toukishinseisho_machigai.md'), encoding='utf-8').read()
+thumb = open(os.path.join(HERE, 'prompt_R7_dai22mon_miidashi_gazou.md'), encoding='utf-8').read()
+draw = open(os.path.join(ZU, 'draw_R7_dai22mon_kaisetsuzu.py'), encoding='utf-8').read()
+
+
+def check_in(label, s_, src, name):
+    global ng
+    ok = s_ in src
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'[{name}] {label} : {s_}')
+
+
+def absent(label, s_, src=None, name='記事'):
+    global ng
+    ok = s_ not in (text if src is None else src)
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'[{name}] {label}（含まない） : {s_}')
+
+
+for s_ in ['**登記の目的**：建物表題部変更登記', '**添付書類**：建物図面　各階平面図　会社法人等番号　代理権限証書',
+           '**添付書類**：建物図面　各階平面図　所有権証明書　会社法人等番号　代理権限証書',
+           'Ｙ市Ｋ区Ａ町三丁目５番６号　株式会社甲一物流（会社法人等番号　Ｚ）　代表取締役　甲山一郎',
+           '変更後：Ｙ市Ｋ区Ａ町三丁目425番地６、425番地５　（原因：令和7年1月21日主である建物取壊しにより変更）',
+           '「令和7年1月21日符号2の附属建物を主である建物に変更」「令和7年1月31日種類変更、一部取壊し」',
+           '登記原因及びその日付「令和7年1月21日主である建物に変更」', '登記原因及びその日付「令和7年9月25日取壊し」',
+           '③床面積「1階　190｜75」「2階　156｜75」', '登記原因及びその日付「令和7年10月7日新築」',
+           '登記原因及びその日付「令和7年10月17日新築」', '年・月・日の数字だけを記入（青）',
+           '`zu/R7_dai22mon_toukishinseisho_kansei_toi1.png`', '`zu/R7_dai22mon_toukishinseisho_kansei_toi2.png`']:
+    check_in('申請書の記入', s_, form, '申請書プロンプト')
+absent('登録免許税の記入', '**登録免許税**：', form, '申請書プロンプト')
+for s_ in ['## 全体のレイアウト（縦に3コマ積む）', '「令和7年10月17日新築」を赤の取り消し線で消し', '「令和7年9月25日取壊し」',
+           '「取り壊した時点で符号4は終わり！」「建て直した守衛所は、新しい符号6の新築として別の行に書く」',
+           '`zu/R7_dai22mon_toukishinseisho_machigai.png`']:
+    check_in('添削', s_, fix, '添削プロンプト')
+for bad in ['✓', '✕', '横に3コマ', '横1800px']:
+    absent('添削の旧版・記号', bad, fix, '添削プロンプト')
+
+# 解説図プロンプトの頂点座標：面積を計算して求積表と一致させる
+want = {138.50, 123.50, 190.75, 156.75}
+got = []
+for line in fig.splitlines():
+    if '(Y, X) =' in line:
+        pts = [tuple(map(float, m)) for m in re.findall(r'\(([\d.]+), ([\d.]+)\)', line.split('=', 1)[1])][:-1]
+        got.append(round(poly_area(pts), 2))
+ok = set(got) == want and len(got) == 4
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'[解説図プロンプト] 頂点座標の面積 : {got}')
+check_in('図3 柱の中心の形', '(0.3, 0.3) → (25.2, 0.3) → (25.2, 8.7) → (15.8, 8.7) → (15.8, 6.2) → (0.3, 6.2)', fig, '解説図プロンプト')
+assert round(poly_area([(0.3, 0.3), (25.2, 0.3), (25.2, 8.7), (15.8, 8.7), (15.8, 6.2), (0.3, 6.2)]), 2) == 170.41
+check_in('図3 柱の中心の面積', '170.41㎡', fig, '解説図プロンプト')
+check_in('図5 除く部分', '南東の吹き抜け＋階段：Y：15.50〜23.50、X：6.50〜9.00（横8.00m×縦2.50m、面積20.00）', fig, '解説図プロンプト')
+check_in('標準セットで作らない図の理由', '敷地の辺長確認図と建物図面の完成形は作らない', fig, '解説図プロンプト')
+for i in range(1, 7):
+    check_in(f'図{i}の見出し', f'## 図{i}：', fig, '解説図プロンプト')
+check_in('図3の注の書き分け', '〔調査・測量〕の（注）3', draw, '作図スクリプト')
+fits = re.findall(r'\bfit\((.*)\)', draw)
+ok = bool(fits) and all('pad_aspect=True' in f for f in fits)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'[作図スクリプト] fit はすべて pad_aspect=True（{len(fits)}か所）')
+
+# 記事：禁止語・向き・注の書き分け
+for bad in ['PDF', '創設的登記', '名変', '✕', '✓', '右上', '左下', '右側', '左側', '奥側', '手前側', '注3を読み', 'は注4の']:
+    absent('禁止語・向き・注', bad)
+check('注の書き分け（調査・測量）', '〔調査・測量〕の図の（注）3')
+check('注の書き分け（問題文）', '問題文の注4のとおり')
+check('向き（符号2の張り出しは南西）', '南西の角から南へ横5.00m×縦3.00mの張り出し部分')
+check('時間配分（具体的）', '問4 → 時系列メモ → 問1 → 問2（符号5の床面積だけ空けておく）→ 倉庫の1階・2階の求積 → 問3の作図')
+check('建物図面を描かない理由', '問3に『記載することを要しない』とあるから答案には描かない')
+
+# note向けの体裁：話者名の行末に半角スペース2つ・名前の次の行がセリフ、記事の最後は区切り線
+lines = text.splitlines()
+bad_speaker = [i + 1 for i, l in enumerate(lines)
+               if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
+ng += bool(bad_speaker)
+print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
+ok = lines[-1] == '---'
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
+
+# タイトルが付属プロンプトにも引用され、見出し画像の文字とそろっているか
+title_body = lines[0][2:]
+for src, name in [(fig, '解説図プロンプト'), (form, '申請書プロンプト'), (fix, '添削プロンプト'), (thumb, '見出し画像プロンプト')]:
+    check_in('記事タイトルの引用', title_body, src, name)
+check_in('見出し画像のタイトル', '令和7年度問題22（建物）', thumb, '見出し画像プロンプト')
+check_in('見出し画像のサブタイトル', '〜「主」が消えても滅失登記じゃない〜', thumb, '見出し画像プロンプト')
+check_in('見出し画像のラベル', '土地家屋調査士受験生向け', thumb, '見出し画像プロンプト')
 
 # 同じ話者のセリフが続いていないか（章の頭は除く）
 prev = None
