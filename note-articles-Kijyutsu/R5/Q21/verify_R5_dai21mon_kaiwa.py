@@ -172,6 +172,57 @@ for s in ['地積測量図　登記識別情報　代理権限証書', '地積�
           '335.5096500＋22.09＝357.59965', '②令和５年９月20日地目変更', '②③令和５年９月20日地目変更']:
     check('添削', s, fix, '添削')
 
+# ---- 追加作業（最新の指示書との照らし合わせ） ----
+# 誤った筆界（G・I）の面積が合わないこと、甲土地の裏付け
+check('G・Iを通した乙土地', f'(20.84 ＋ 22.15) ÷ 2 × 10.86 ＝ {area([A, C, G, I]):.4f}（差 {236.81 - area([A, C, G, I]):.4f}）')
+judge('G・Iだと差が公差を超え、F・Jだと範囲内',
+      236.81 - area([A, C, G, I]) > kousa_kou2(236.81) > area(OTSU) - 236.81)
+check('甲土地（F点を角に）', f'(22.65 ＋ 24.82) ÷ 2 × 14.14 ＝ {area([C, D, E, F]):.4f}')
+judge('甲土地と地積測量図の差 0.10', f'{area([C, D, E, F]) - 335.5096500:.2f}' == '0.10')
+check('甲土地の差', '335.5096500 との差 0.10')
+# 分筆後の地積の合計と公差
+s_after = chiseki(area(N2)) + chiseki(area(N4))
+check('分筆後の合計', f'211.34 ＋ 25.61 ＝ {s_after:.2f}（登記記録 236.81 との差 {s_after - 236.81:.2f}）')
+# 別解（CGから1.00m西の点と交点）
+M = C - 1j
+check('別解の点', f'C − 1i ＝（{M.real:.2f}, {M.imag:.2f}）')
+judge('別解の交点がBと同じ', r2(A + (C - A) * (M.imag - A.imag) / (C.imag - A.imag)) == B)
+# 作図の範囲（1/250で何mmか）
+check('作図の範囲', '93mm × 51mm')
+judge('作図の範囲 93mm × 51mm', round((703.30 - 680.04) * 4) == 93 and round((703.62 - 690.97) * 4) == 51)
+check('単位の表示', '辺長の単位の表示（単位：m）')
+# 時間配分（具体的に）
+for s in ['いちばん時間を食うのは問3の地積測量図の作図', '地積測量図が描けていなくても全部書ける', '最後に問3の作図']:
+    check('時間配分', s)
+# 注の番号の書き分け（問題文の注と調査図素図の注）
+bare = [m.group(0) for m in re.finditer(r'(.{0,6})注[0-9]', text) if not re.search(r'(問題文の|調査図素図の|、)$', m.group(1))]
+judge(f'注の番号に「問題文の」「調査図素図の」が付いている（例外：直前の注に続く「、注3」）: {bare}', not bare)
+check('調査図素図の注', '調査図素図の注2でHはGとIを結ぶ直線上')
+# 作図の表示範囲は pad_aspect
+draw = open(os.path.join(HERE, 'zu', 'draw_R5_dai21mon_kaisetsuzu.py'), encoding='utf-8').read()
+fits = re.findall(r'^\s*fit\(.*$', draw, re.M)
+judge(f'作図の fit はすべて pad_aspect=True（{len(fits)}か所）', fits and all('pad_aspect=True' in f for f in fits))
+# 申請書の完成形・添削画像（PNGが縦長・横1200px、HTMLの記入データ）
+import struct
+def png_size(path):
+    with open(path, 'rb') as f:
+        f.read(16)
+        return struct.unpack('>II', f.read(8))
+for name in ['R5_dai21mon_toukishinseisho_kansei', 'R5_dai21mon_toukishinseisho_machigai']:
+    w, h = png_size(os.path.join(HERE, 'zu', name + '.png'))
+    judge(f'{name}.png が縦長・横1200px（{w}×{h}）', w == 1200 and h > w)
+kh = open(os.path.join(HERE, 'zu', 'R5_dai21mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
+for s in ['土地地目変更・分合筆登記', '地積測量図　登記識別情報　印鑑証明書　代理権限証書', 'Ａ市Ｂ町二丁目２番地１　河野桂子', '金2,000円',
+          '令和５年10月16日　申請　Ａ地方法務局', '（イ）１番４', '③１番１に一部合併', '１番４から分筆して１番１に合併する部分',
+          '雑種地', '>335<', '>357<', '>59<', '②③令和５年９月20日地目変更<br>③１番４から一部合併']:
+    check('完成形のHTML', s, kh, '完成形HTML')
+mh = open(os.path.join(HERE, 'zu', 'R5_dai21mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
+for s in ['①誤答', '②添削（赤ペン）', '③正解', '地積測量図　登記識別情報　代理権限証書', '>09<', '>59<', '印鑑証明書',
+          '335.5096500＋22.09＝357.59965', '②令和５年９月20日地目変更']:
+    check('添削のHTML', s, mh, '添削HTML')
+check('添削プロンプトは縦に積む版', '縦に3コマ積む', fix, '添削')
+absent('添削プロンプトに横並びの旧指示', '横1800px', fix, '添削')
+
 # ---- 表記 ----
 for bad in ['PDF', '名変', '右上', '左下', '✓', '✕', 'コンクリートくい', 'くいを', 'くいが', '合筆登記」です！」']:
     absent('誤記・混入・専門用語のひらがな書き', bad)

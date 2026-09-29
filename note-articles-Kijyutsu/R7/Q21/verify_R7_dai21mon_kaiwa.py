@@ -146,10 +146,10 @@ a = base.index('あなたは土地家屋調査士試験の教材デザイナー�
 b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-n_fig = len(re.findall(r'^- \*\*図\d：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（9枚）', n_fig == 9)
-for i in range(1, 10):
-    judge(f'作図済みPNG 図{i}', any(f.startswith(f'R7_dai21mon_zu0{i}_') and f.endswith('.png')
+n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
+judge(f'解説図プロンプトの図の数 {n_fig}枚（12枚）', n_fig == 12)
+for i in range(1, 13):
+    judge(f'作図済みPNG 図{i}', any(f.startswith(f'R7_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
 for s in ['Ｓ市Ｔ町一丁目10番１号　甲野一郎', '地積測量図　代理権限証書', '金2,000円', '③10番１、10番３に分筆']:
     check('登記申請書', s, form, '登記申請書')
@@ -216,7 +216,7 @@ dup = [seq[k][0] + 1 for k in range(1, len(seq)) if seq[k][1] in ('**トリ先�
        and k >= 2 and seq[k - 2][1] == seq[k][1] and seq[k - 1][1].startswith('「')]
 judge(f'同じ話者のセリフが間に何も挟まずに続いていない: {dup}', not dup)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図9＋添削1＋完成形1＝計11か所の想定）', n_marker == 11)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図12＋添削1＋完成形1＝計14か所の想定）', n_marker == 14)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】令和7年度問題21（土地）〜'
@@ -238,5 +238,11 @@ check('10月は相続を証する情報が要らない', '相続を証する情�
 check('所有権に関する登記の完了日', '9月20日に完了')
 check('地積測量図の町界', '町界（C点の北とE点の南へ一点鎖線で延ばす）')
 check('L点は最後に', '**L点は最後に回す**')
+
+# ---- 図10〜12（2026-09-29追加）の数値・文言が記事・図のプロンプトと合うか ----
+for s_ in ['223.99265㎡', '56.6026㎡', 'KG＝6.48', '9月20日に10番1が一郎の名義に', '最後にL点']:
+    check('図10〜12のマーカー・本文', s_)
+for s_ in ['四角形DGFE 223.99265㎡', '△DKG 56.6026㎡', '10番1が一郎の名義に', '第5欄〈地積は「（略）」〉']:
+    check('図10〜12のプロンプト', s_, fig, '解説図')
 
 print('NG件数:', ng)

@@ -79,7 +79,7 @@ fig, (ax,) = new_figure('図1　北を上にして描き直した全体像（令
                         'ブロック塀（A→B→C）と金属標Cは、測量によらず二人が合意した位置に設置したもの。\n'
                         '地図に準ずる図面では、甲土地と乙土地の境はAのあたりからDまで1本の直線（A→B→D）に描かれている。')
 z = Zu(ax)
-fit(ax, [A, G, F, E, D, J, K, T1, T2], margin=0.10)
+fit(ax, [A, G, F, E, D, J, K, T1, T2], margin=0.10, pad_aspect=True)
 z.poly(KOU, fill=GREEN)
 z.poly(OTSU, fill=BLUE)
 z.poly(N32, fill=ORANGE, alpha=0.15)
@@ -121,8 +121,8 @@ fig, (ax,) = new_figure('図2　問2　B点の求め方（T2から放射）',
                         '検算：BH＝5.56、AB＝6.26（昭和50年の地積測量図の辺長と一致）。')
 z = Zu(ax)
 Bw = r2(radial(T2, T1, 10.03, -dms(78, 58, 8)))    # 反時計回りに測った誤答
-fit(ax, [T1, T2, B, Bw, H, A, D, T2 + P(3.5, 0)], margin=0.08)
-z.poly(KOU, color=GRAY, lw=1.1)
+fit(ax, [T1, T2, B, Bw, H, A, D, T2 + P(3.5, 0)], margin=0.08, pad_aspect=True)
+z.poly([A, B, D], color=GRAY, lw=1.1, closed=False)   # 甲土地は乙土地との境だけ（北側まで描くと端が切れる）
 z.poly(OTSU, color=GRAY, lw=1.1)
 z.poly(N32, color=GRAY, lw=1.1)
 z.line(T2, T2 + 3.5, color=GRAY, lw=1.2, ls='--')
@@ -159,8 +159,8 @@ fig, (ax,) = new_figure('図3　問2　D点の求め方（T2から放射）',
                         'B点と同じ器械点T2・同じ後視T1。T2→T1の方向角 193°46′25.18″ に、時計回りの観測角 118°24′27″ を足し、4.60m 進む。\n'
                         '検算：DJ＝10.17（道路境界確認図のK1K2の10.17と一致。D＝K1、J＝K2）。')
 z = Zu(ax)
-fit(ax, [T1, T2, D, J, B, T2 + P(3.5, 0)], margin=0.08)
-z.poly(KOU, color=GRAY, lw=1.1)
+fit(ax, [T1, T2, D, J, B, T2 + P(3.5, 0)], margin=0.08, pad_aspect=True)
+z.poly([A, B, D], color=GRAY, lw=1.1, closed=False)   # 甲土地は乙土地との境だけ（北側まで描くと端が切れる）
 z.poly(OTSU, color=GRAY, lw=1.1)
 z.poly(N32, color=GRAY, lw=1.1)
 z.line(T2, T2 + 3.5, color=GRAY, lw=1.2, ls='--')
@@ -200,7 +200,7 @@ for ax, pk, po, sk, so, head, col in [
     (ax2, KOU, OTSU, '96.29㎡', '45.86㎡', '地図に準ずる図面の形（A→B→D）', RED),
 ]:
     z = Zu(ax, fontsize=14)
-    fit(ax, [A, G, F, E, D, J, K], margin=0.20)
+    fit(ax, [A, G, F, E, D, J, K], margin=0.20, pad_aspect=True)
     z.poly(pk, fill=GREEN)
     z.poly(po, fill=BLUE)
     z.poly(N32, color=GRAY, lw=1.0)
@@ -216,9 +216,9 @@ for ax, pk, po, sk, so, head, col in [
         z.point_label(C, 'C', away=centroid(pk))
     zs.append(z)
 zs[0].free_text(centroid(KOU_USE), '→ 登記記録の\n97.00㎡・45.88㎡と合わない', color=GRAY, fs=14,
-                offsets=((0, -70), (0, -85)))
+                offsets=((0, 60), (0, 75), (0, -70), (0, -85), (-20, 60), (20, 60)))
 zs[1].free_text(centroid(KOU), '→ 登記記録の\n97.00㎡・45.88㎡と合う', color=RED, fs=14,
-                offsets=((0, -70), (0, -85)))
+                offsets=((0, 60), (0, 75), (0, -70), (0, -85), (-20, 60), (20, 60)))
 ALL_PROBLEMS += save(fig, zs, 'R6_dai21mon_zu04_hikkai_handan.png')
 
 # =====================================================================
@@ -229,7 +229,7 @@ fig, (ax1, ax2) = new_figure('図5　問2　P点の求め方（ブロック塀�
                              'C点の金属標は道路境界D→Jから道路側に0.10mはみ出していた。Cのまま分けると2筆の合計が46.28㎡になり、元の45.88㎡より増える。',
                              ncols=2, width_ratios=[1.3, 1])
 za = Zu(ax1)
-fit(ax1, [B, D, I, H, J, C, C + P(0, 3.5)], margin=0.12)
+fit(ax1, [B, D, I, H, J, C, C + P(0, 3.5)], margin=0.12, pad_aspect=True)
 za.poly(OTSU, fill=BLUE)
 za.line(I, J, color=BLACK, lw=2.0)
 za.line(B, C, color=RED, lw=4.0)
@@ -268,7 +268,7 @@ fig, (ax,) = new_figure('図6　問1（イ）〜（エ）　野原花子が乙�
                         '①野原花子が乙土地を分筆（今回の申請。イ＝9、ウ＝5、エ＝6）→ ②三角形の土地を山田太郎へ所有権移転 → ③2番1と合筆。\n'
                         '地図に準ずる図面は筆界どおりなので地図訂正は不要。地積も公差の範囲内なので地積更正も不要（選択肢7は誤り）。')
 z = Zu(ax)
-fit(ax, [A, G, F, E, D, I, H], margin=0.14)
+fit(ax, [A, G, F, E, D, I, H], margin=0.14, pad_aspect=True)
 z.poly(KOU, fill=GREEN)
 z.poly(OTSU, fill=BLUE)
 z.poly(RO_33, color=RED, lw=0, fill=RED, alpha=0.35, check=False)
@@ -291,10 +291,10 @@ ALL_PROBLEMS += save(fig, [z], 'R6_dai21mon_zu06_hitsuyou_touki.png')
 # 図7：問3 分筆後の区画と地番
 # =====================================================================
 fig, (ax,) = new_figure('図7　問3　分筆後の区画と地番（3番1 → （イ）3番1 ＋ （ロ）3番3）',
-                        '注8により、面積の小さい三角形B・D・P（8.34㎡）が（ロ）3番3、残る四角形B・P・I・H（37.53㎡）が（イ）3番1のまま。\n'
+                        '問題文の注8により、面積の小さい三角形B・D・P（8.34㎡）が（ロ）3番3、残る四角形B・P・I・H（37.53㎡）が（イ）3番1のまま。\n'
                         '切り捨て前の合計 8.34775 ＋ 37.5329 ＝ 45.88065 で登記記録の45.88㎡と一致。申請書の1行目の地積は登記記録の45.88（計算値の45.86ではない）。')
 z = Zu(ax)
-fit(ax, OTSU + [H + P(0, -2.5), D + P(1.6, 0)], margin=0.16)
+fit(ax, OTSU + [H + P(0, -2.5), D + P(1.6, 0)], margin=0.16, pad_aspect=True)
 z.poly(I_31, fill=BLUE)
 z.poly(RO_33, fill=PURPLE, alpha=0.30)
 z.north_arrow()
@@ -317,9 +317,10 @@ ALL_PROBLEMS += save(fig, [z], 'R6_dai21mon_zu07_bunpitsu_chiban.png')
 # =====================================================================
 fig, (ax,) = new_figure('図8　問4　地積測量図（3番1・3番3）の完成見本',
                         '縮尺1/250で答案用紙に描くと 1m ＝ 4mm（図は横約27mm・縦約33mmと小さい）。辺長は小数第3位を四捨五入（DB は 7.1066 なので 7.11）。\n'
-                        '座標値・地積・求積方法・測量年月日は書かない（注5）。基準点T1・T2は位置と点名だけ（注6）。C点は描かない（金属標はPに移設）。')
+                        '座標値・地積・求積方法・測量年月日は書かない（問題文の注5）。基準点T1・T2は位置と点名だけ（問題文の注6）。C点は描かない（金属標はPに移設）。\n'
+                        'T1・T2まで入れても、南北13.37m（約53mm）・東西10.02m（約40mm）で答案用紙の枠に収まる。')
 z = Zu(ax)
-fit(ax, OTSU + [T1, T2], margin=0.12)
+fit(ax, OTSU + [T1, T2], margin=0.12, pad_aspect=True)
 z.poly([B, D, PP, I, H], lw=2.0)
 z.line(B, PP, lw=2.0)
 z.north_arrow()

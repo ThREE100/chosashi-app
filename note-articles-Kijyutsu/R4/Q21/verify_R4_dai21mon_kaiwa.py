@@ -5,6 +5,7 @@ import cmath
 import math
 import os
 import re
+import struct
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -207,5 +208,55 @@ judge(f'タイトル形式（見出し{len(sub)}文字） : ' + title, title.sta
 check('見出し画像のサブタイトル', '〜' + sub + '〜', thumb, '見出し画像')
 check('見出し画像のタイトル', '令和4年度問題21（土地）', thumb, '見出し画像')
 check('添削画像の記事タイトル', title[2:], fix, '添削')
+
+# ---- 追加作業（2026-09-29）：予備校の解説と見比べて足した観点 ----
+check('（イ）を対角線どうしで（別解）', '（イ）の倍面積 ＝ Conjg(I − C) × (D − J)')
+check('（イ）の対角線の式の表示', '表示：' + disp((I - C).conjugate() * (D - J)))
+judge('対角線の式と4点の式のiの係数が同じ', abs(((I - C).conjugate() * (D - J)).imag - s1.imag) < 1e-9)
+check('問2・問5を先に埋める', '本番では問題を開いたら、先にこの2つを埋めておくのよ')
+for s_ in ['306.89 − 279.30 ＝ 27.59m', '305.35 − 272.19 ＝ 33.16m', '縦約11cm、横約13cm']:
+    check('地積測量図の大きさ', s_)
+judge('T1〜南の筆界 27.59m・T2〜T1 33.16m', abs(T1.real - C.real - 27.59) < 1e-9 and abs(T1.imag - T2.imag - 33.16) < 1e-9)
+for s_ in ['- **1番目（計算なし）**', '- **2番目（読解）**', '- **3番目（計算）**', '- **4番目（作図）**',
+           'いちばん時間を食うのは、（ロ）の5点の面積と、11本の辺長と、筆界の裏付け']:
+    check('時間配分と解く順番', s_)
+
+# ---- 生成済みの申請書・添削画像（縦長、記入データがプロンプトどおりか） ----
+for name in ['R4_dai21mon_toukishinseisho_kansei', 'R4_dai21mon_toukishinseisho_machigai']:
+    png = os.path.join(HERE, 'zu', name + '.png')
+    if os.path.exists(png):
+        w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
+        judge(f'{name}.png が縦長・横1200px（{w}×{h}px）', h > w and w == 1200)
+    else:
+        judge(f'{name}.png がある', False)
+html_k = open(os.path.join(HERE, 'zu', 'R4_dai21mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
+html_m = open(os.path.join(HERE, 'zu', 'R4_dai21mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
+for s_ in ['土地一部地目変更・分筆登記', '地積測量図　代理権限証書', '令和４年10月14日　申請　Ａ地方法務局', 'Ａ市Ｃ台206番地３　春野朝子',
+           '金3,000円', 'Ａ市Ｂ字八幡', '184番１', '584', '75', '（イ）', '212', '23', '令和４年10月５日一部地目変更',
+           '③184番１、184番３、184番４に分筆', '（ロ）184番３', '雑種地', '357', '（ハ）184番４', '15', '06', '184番１から分筆']:
+    check('完成形の画像（HTML）', s_, html_k, '完成形画像')
+    check('完成形の画像の記入データがプロンプトにある', s_, form, '登記申請書')
+absent('完成形の画像に「（略）」の結合セルがない（R4の答案用紙は5行とも地積を書く）', 'class="ryaku" colspan', html_k, '完成形画像')
+for s_ in ['①誤答', '②添削（赤ペン）', '③正解', '土地分筆登記', '土地一部地目変更・分筆登記', '令和４年10月５日一部地目変更',
+           '中央部分は10月5日から月極駐車場＝雑種地。一部地目変更も一緒に申請', '一部地目変更は（イ）の行に日付付きで。雑種地は1㎡未満切捨て']:
+    check('添削の画像（HTML）', s_, html_m, '添削画像')
+    check('添削の画像の文言がプロンプトにある', s_, fix, '添削')
+check('添削のプロンプトは縦に積む', '3コマを縦に積んだ縦長', fix, '添削')
+absent('添削のプロンプトに横並びの旧版の指示がない', '横に3コマ並べる', fix, '添削')
+absent('添削のプロンプトに記号「✓」がない', '✓', fix, '添削')
+n_fit = len(re.findall(r'^\s*fit\(', draw, re.M))
+judge(f'作図スクリプトの表示範囲はすべて fit(..., pad_aspect=True)（{n_fit}か所）',
+      n_fit > 0 and n_fit == len(re.findall(r'^\s*fit\(.*pad_aspect=True\)', draw, re.M)))
+for s_ in ['拡幅前の道路の線（位置は模式）', '側溝（位置は模式）']:
+    check('座標のないものは模式と書く', s_, draw, '作図')
+    check('座標のないものは模式と書く', s_, fig, '解説図')
+
+# ---- 注の番号の書き分け（問題文の注・調査図素図の注・観測値の表の注） ----
+bare = [text[max(0, m.start() - 6):m.end()] for m in re.finditer(r'注[0-9]', text)
+        if not re.search(r'(問題文の|調査図素図の|観測値〕の)$', text[max(0, m.start() - 8):m.start()])]
+judge(f'注の番号はすべて書き分けている（書き分けていないもの: {bare}）', not bare)
+bare_fig = [m.group(0) for m in re.finditer(r'(?<!問題文の)注[57]', draw)]
+judge(f'作図の説明文の注も「問題文の注N」（{bare_fig}）', not bare_fig)
+
 
 print('NG件数:', ng)

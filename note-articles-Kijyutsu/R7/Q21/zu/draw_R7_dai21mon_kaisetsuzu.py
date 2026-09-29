@@ -386,4 +386,126 @@ for p, n in [(C, 'C'), (H, 'H'), (L, 'L'), (K, 'K'), (D, 'D'), (M, 'M')]:
     z.point_label(p, n, away=centroid(N1))
 ALL_PROBLEMS += save(fig, [z], 'R7_dai21mon_zu09_bunpitsu_chiban.png')
 
+# =====================================================================
+# 図10：問1 K点の別解（2つの三角形の面積の比でHGを分ける）
+# =====================================================================
+Q_DGFE = area([D, G, F, E])
+T_DHK, T_DKG = S_otsu / 2 - area([D, C, H]), S_otsu / 2 - Q_DGFE
+assert abs(Q_DGFE - 223.99265) < 1e-6 and abs(T_DKG - 56.6026) < 1e-6 and abs(T_DHK - 148.6699) < 1e-6
+KG_alt = abs(H - G) * T_DKG / (T_DHK + T_DKG)
+assert r2(G + (H - G) / abs(H - G) * KG_alt) == K
+fig, (ax,) = new_figure('図10　問1　K点の別解（△DHKと△DKGの面積の比でHGを分ける）',
+                        '北から△DCH、南から四角形DGFEを、それぞれ半分の280.59525㎡から引くと、△DHK 148.6699㎡と△DKG 56.6026㎡。\n'
+                        '2つの三角形は頂点Dが共通で、底辺がどちらも直線HGの上にあるので高さが等しい。面積の比 ＝ HK：KG。\n'
+                        'KG ＝ 23.50 × 56.6026 ÷ (148.6699 ＋ 56.6026) ＝ 6.4799…　→　K ＝ G ＋ 6.48（北へ）')
+z = Zu(ax)
+fit(ax, OTSU + [H + 3, G - 3], margin=0.16, pad_aspect=True)
+z.poly([D, C, H], color=BLACK, lw=0, fill=GRAY, alpha=0.18, check=False)
+z.poly([D, G, F, E], color=BLACK, lw=0, fill=GRAY, alpha=0.18, check=False)
+z.poly([D, H, K], color=BLACK, lw=0, fill=ORANGE, check=False)
+z.poly([D, K, G], color=BLACK, lw=0, fill=GREEN, check=False)
+z.poly(OTSU)
+z.line(D, K, color=RED, lw=2.6)
+z.line(D, H, color=GRAY, lw=1.2, ls='--')
+z.line(D, G, color=GRAY, lw=1.2, ls='--')
+z.north_arrow()
+z.free_text(centroid([D, C, H]), '△DCH\n131.92535㎡', fs=14, color=GRAY)
+z.free_text(centroid([D, G, F, E]), '四角形DGFE\n223.99265㎡', fs=14, color=GRAY)
+z.free_text(centroid([D, H, K]), '△DHK\n148.6699㎡', fs=14, offsets=((0, 10), (0, 20), (-20, 10)))
+z.callout(centroid([D, K, G]), '△DKG 56.6026㎡', dirs=(-100, -120, -80, -140), color=GREEN, dists=(60, 80, 100))
+for p, n in [(C, 'C'), (H, 'H'), (G, 'G'), (F, 'F'), (E, 'E'), (D, 'D')]:
+    z.point(p, 'dot')
+    z.point_label(p, n, away=centroid(OTSU))
+z.point(K, 'dot', color=RED)
+z.edge_label(H, K, 'HK ＝ 17.02', centroid(OTSU), color=ORANGE, fs=15)
+z.edge_label(K, G, 'KG ＝ 6.48', centroid(OTSU), color=GREEN, fs=15)
+z.callout(K, 'K（199.98, 131.88）', dirs=(-20, 0, 20, -45), color=RED)
+z.free_text(C + P(4.5, -2), 'HK：KG ＝ △DHK：△DKG\n＝ 148.6699：56.6026（HG ＝ 23.50）', fs=14,
+            offsets=((0, 0), (40, 0), (-40, 0)))
+ALL_PROBLEMS += save(fig, [z], 'R7_dai21mon_zu10_K_menseki_hi.png')
+
+# =====================================================================
+# 図11：問5 10月30日の申請までの時系列（名義・住所と、要る添付情報）
+# =====================================================================
+fig = plt.figure(figsize=(16, 10), dpi=100)
+fig.patch.set_facecolor('white')
+fig.suptitle('図11　問5　10月30日の申請の日に、10番1は「誰の名義で、どの住所」か', fontsize=24, weight='bold', y=0.965)
+ax = fig.add_axes([0.03, 0.20, 0.94, 0.66])
+ax.set_xlim(0, 100)
+ax.set_ylim(0, 100)
+ax.axis('off')
+EV = [  # (x, 日付, 出来事, 色, 上下)
+    (4, '4月1日', '甲野太郎が死亡', GRAY, 1),
+    (15, '8月10日', '遺産分割協議', GRAY, -1),
+    (27, '8月15日', '地積更正・分筆を申請\n（相続人が申請）', BLUE, 1),
+    (39, '8月31日', '相続による所有権の\n登記を申請', GRAY, -1),
+    (51, '9月20日', '同上 完了\n10番1が一郎の名義に', GREEN, 1),
+    (63, '10月1日', '一郎がT町一丁目\n10番1号へ転居', GRAY, -1),
+    (75, '10月20日', '住所変更登記 完了\n登記記録も新住所に', GREEN, 1),
+    (91, '10月30日', '分筆を申請（問5）', RED, 1),
+]
+ax.annotate('', xy=(98, 50), xytext=(1, 50), arrowprops=dict(arrowstyle='-|>', lw=2.4, color=BLACK))
+for x, d, t, col, ud in EV:
+    ax.plot([x], [50], 'o', ms=13, color=col, zorder=5)
+    ax.plot([x, x], [50, 50 + ud * 12], color=col, lw=1.4)
+    ax.text(x, 50 + ud * 14, d, ha='center', va='bottom' if ud > 0 else 'top', fontsize=15, color=col, weight='bold')
+    ax.text(x, 50 + ud * 22, t, ha='center', va='bottom' if ud > 0 else 'top', fontsize=13, color=BLACK)
+# 10番1の登記記録の名義・住所の帯
+for x0, x1, t, col, tx in [(1, 51, '登記名義人：甲野太郎（亡）', GRAY, 26), (51, 75, '甲野一郎　S市M町二丁目3番5号', ORANGE, 63),
+                           (75, 98, '甲野一郎　S市T町一丁目\n10番1号', GREEN, 83)]:
+    ax.add_patch(plt.Rectangle((x0, 4), x1 - x0, 9, color=col, alpha=0.22, lw=0))
+    ax.text(tx, 8.5, t, ha='center', va='center', fontsize=13)
+ax.text(1, 15, '10番1の登記記録', fontsize=13, color=GRAY, va='bottom')
+ax.plot([91, 91], [13.5, 50], color=RED, lw=1.5, ls='--')
+fig.text(0.5, 0.115, '10月30日の時点で、10番1は相続による所有権の登記が済み（9月20日）、住所変更登記も済んでいる（10月20日）。', ha='center',
+         fontsize=16)
+fig.text(0.5, 0.06, '→ 申請人は「S市T町一丁目10番1号　甲野一郎」。相続を証する情報も、住所のつながりを証する情報も付けない\n'
+         '（法定相続情報一覧図の写しの住所「S市M町二丁目3番5号」は、一覧図を作ったときの住所）', ha='center', va='center',
+         fontsize=15, color=RED)
+path = os.path.join(OUT, 'R7_dai21mon_zu11_jikeiretsu.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図11: 時系列（固定配置）\n  →', path)
+
+# =====================================================================
+# 図12：本番で解く順番（どの点が出れば、どの欄が書けるか）
+# =====================================================================
+fig = plt.figure(figsize=(16, 8), dpi=100)
+fig.patch.set_facecolor('white')
+fig.suptitle('図12　本番で解く順番　L点は最後に回す', fontsize=24, weight='bold', y=0.965)
+ax = fig.add_axes([0.03, 0.20, 0.94, 0.70])
+ax.set_xlim(0, 100)
+ax.set_ylim(0, 100)
+ax.axis('off')
+STEPS = [
+    ('①', 'D点（放射）', '第1欄 D', BLUE),
+    ('②', 'K点（面積2等分）', '第1欄 K', BLUE),
+    ('③', '問2の穴埋め', '第2欄 ア〜カ', BLUE),
+    ('④', '地積測量図', '第3欄', BLUE),
+    ('⑤', 'J点（平行線）', '第4欄 J', GREEN),
+    ('⑥', '問5の申請書', '第5欄（地積は「（略）」）', GREEN),
+    ('⑦', 'L点（相似・台形）', '第4欄 L（X座標だけ）', RED),
+]
+w, h, gap = 12.2, 42, 1.8
+for i, (no, t, ran, col) in enumerate(STEPS):
+    x = 1 + i * (w + gap)
+    ax.add_patch(plt.Rectangle((x, 22), w, h, facecolor=col, alpha=0.16, edgecolor=col, lw=2))
+    ax.text(x + w / 2, 22 + h - 4, no, ha='center', va='top', fontsize=26, color=col, weight='bold')
+    ax.text(x + w / 2, 22 + h / 2 - 3, t.replace('（', '\n（', 1), ha='center', va='center', fontsize=17)
+    ax.text(x + w / 2, 18, ran.replace('（', '\n（', 1), ha='center', va='top', fontsize=14, color=col)
+    if i < len(STEPS) - 1:
+        ax.annotate('', xy=(x + w + gap - 0.2, 43), xytext=(x + w + 0.2, 43),
+                    arrowprops=dict(arrowstyle='-|>', lw=1.6, color=GRAY))
+ax.text(1 + 1.5 * (w + gap), 76, '8月の分（D点とK点だけで全部書ける）', ha='center', fontsize=15, color=BLUE, weight='bold')
+ax.annotate('', xy=(1 + 4 * (w + gap) - gap, 72), xytext=(1, 72), arrowprops=dict(arrowstyle='<->', lw=1.5, color=BLUE))
+ax.text(1 + 5 * (w + gap) - gap / 2, 76, '10月の分（Lがなくても書ける）', ha='center', fontsize=15, color=GREEN, weight='bold')
+ax.annotate('', xy=(1 + 6 * (w + gap) - gap, 72), xytext=(1 + 4 * (w + gap), 72),
+            arrowprops=dict(arrowstyle='<->', lw=1.5, color=GREEN))
+ax.text(1 + 6 * (w + gap) + w / 2, 76, 'いちばん重い', ha='center', fontsize=15, color=RED, weight='bold')
+fig.text(0.5, 0.09, 'L点のY座標はHGと同じ131.88なので、残るのはX座標だけ（O点・△ODK 880.3318…・相似比 k ＝ 0.9637…）。\n'
+         '問5の申請書は分筆後の地積の欄が「（略）」なので、L点・M点が出ていなくても完成できる。L点で時間切れになっても、ほかの欄は埋まっているようにする。',
+         ha='center', va='center', fontsize=15)
+path = os.path.join(OUT, 'R7_dai21mon_zu12_kaku_junban.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図12: 解く順番（固定配置）\n  →', path)
+
 print('重なりの合計:', len(ALL_PROBLEMS))
