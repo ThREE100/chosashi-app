@@ -6,7 +6,7 @@
 
 - **第21問（土地）**：講師が語りかける解説プロース形式。計算は「式（点名）・電卓操作・表示」の3点セットで厳密に示す
 - **第22問（建物）**：キャラクター「トリ先生」と「藍子」の会話形式（学習コミック風note記事）。計算は要所だけを対話の中で示す軽めのスタイル
-- **第21問（土地）の会話形式（2026-09-29、R7/Q21から）**：第22問と同じキャラクター・体裁で、計算は土地の3点セット（式・電卓操作・表示）を会話の間に置いて省略しない。解説図は解答ごとに1枚、`prompt_kaisetsuzu-gazou_kihon-form_tochi.md` から作る
+- **第21問（土地）の会話形式（2026-09-29、R7/Q21から）**：第22問と同じキャラクター・体裁で、計算は土地の3点セット（式・電卓操作・表示）を会話の間に置いて省略しない。執筆は `prompt_note-kijutsu_tochi_kaiwa_kyoutsu.md`、別チャットへの依頼文は `irai-bun_tochi_shinki-nendo.md`。解説図は解答ごとに1枚、`prompt_kaisetsuzu-gazou_kihon-form_tochi.md` から作る
 
 保存先の階層構造、`qa-checklist-kijutsu.md` によるダブルチェック、`main` へのコミットという運用は両方共通です。
 
@@ -16,6 +16,7 @@
 note-articles-Kijyutsu/
 ├── README.md                                          このファイル
 ├── prompt_note-kijutsu_tochi_kyoutsu.md                共通：土地(第21問)の記述式 note記事執筆プロンプト（プロース形式）
+├── prompt_note-kijutsu_tochi_kaiwa_kyoutsu.md          共通：土地(第21問)の記述式 note記事執筆プロンプト（会話形式・各年度共通）
 ├── prompt_note-kijutsu_tatemono_kyoutsu.md             共通：建物(第22問)の記述式 note記事執筆プロンプト（会話形式）
 ├── prompt_toukishinseisho-gazou_kihon-form.md          共通：登記申請書 画像作成プロンプト（土地・基本フォーム）
 ├── prompt_toukishinseisho-gazou_kihon-form_tatemono.md 共通：登記申請書 画像作成プロンプト（建物・基本フォーム）
@@ -23,6 +24,7 @@ note-articles-Kijyutsu/
 ├── prompt_kaisetsuzu-gazou_kihon-form_tochi.md          共通：土地の解説用インフォグラフィック 作図プロンプト（基本フォーム。座標から作図、解答ごとに1枚、文字の重なり検査つき）
 ├── qa-checklist-kijutsu.md                             共通：記事作成後のダブルチェック指示書（土地・建物共通＋固有、PDCAの改善記録つき）
 ├── irai-bun_tatemono_shinki-nendo.md                  共通：新しい年度の第22問（建物）記事を別チャットで作らせるときに貼る依頼文（年度の1行だけ書き換えて使う）
+├── irai-bun_tochi_shinki-nendo.md                     共通：新しい年度の第21問（土地）会話形式記事を別チャットで作らせるときに貼る依頼文（年度の1行だけ書き換えて使う）
 ├── tools/
 │   ├── calc_helpers.py                                 F-789SGの計算を再現し、記事の表示値を生成・照合するヘルパー
 │   ├── zu_helpers.py                                   土地の解説図の作図ヘルパー（座標どおりの作図、辺長・点名・座標の吹き出しの自動配置、重なりの自動検査）
@@ -153,6 +155,7 @@ note-articles-Kijyutsu/
 
 - **新しい年度・問題を追加するとき**は、直下の共通プロンプト（土地なら `..._tochi_kyoutsu.md` 系、建物なら `..._tatemono_...` 系）をコピーし、【令和○年度】や「記入データ」の部分だけをその年の問題に差し替えます。
 - **第22問（建物）の新しい年度を別チャットで作らせるとき**は、`irai-bun_tatemono_shinki-nendo.md` の依頼文を、冒頭の【対象年度】の1行だけ書き換えて貼り付けます。
+- **第21問（土地）の会話形式の新しい年度を別チャットで作らせるとき**は、`irai-bun_tochi_shinki-nendo.md` の依頼文を、同じく【対象年度】の1行だけ書き換えて貼り付けます。
 - 直下の共通プロンプトそのものは、問題固有の数値を書き込まずに汎用のまま保つこと。
 - 年度・問題ごとのフォルダ（`R7/Q21/` のように）には、その回の記事と、実際に埋めた値入りのプロンプト、照合スクリプトを保存します。
 - 記事を書き終えたら、`qa-checklist-kijutsu.md` に従ってダブルチェックします。新しい種類の誤りが見つかったら、指示書末尾の改善記録に残し、指示書と執筆プロンプトの両方を更新します。

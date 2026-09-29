@@ -180,8 +180,9 @@ R7〜H17の問1〜問3（民法、全63記事）に埋め込まれている「�
 
 ## 記述式（第21問・土地）会話形式note記事と解説図の基本フォームについて(2026-09-29追加)
 
-第21問（土地）も、第22問と同じ「トリ先生・藍子」の会話形式で書けるようにした。手順は`note-articles-Kijyutsu/prompt_note-kijutsu_tochi_kyoutsu.md`
-末尾の「会話形式（トリ先生・藍子）で書く場合」の節（体裁は建物の`prompt_note-kijutsu_tatemono_kyoutsu.md`に従い、計算は土地の3点セットを省略しない）。
+第21問（土地）も、第22問と同じ「トリ先生・藍子」の会話形式で書けるようにした。執筆は第21問専用の各年度共通の指示書
+`note-articles-Kijyutsu/prompt_note-kijutsu_tochi_kaiwa_kyoutsu.md`に従う（体裁は建物と同じ、計算は土地の3点セットを省略しない。まず自分で解き、迷った点を藍子の誤答とダブルチェック事項に使う）。
+新しい年度を別チャットで作らせるときの依頼文（年度の1行だけ書き換えて貼る）は`note-articles-Kijyutsu/irai-bun_tochi_shinki-nendo.md`。指示書・チェックリスト・解説図の基本フォームに依頼文にも関わるルールが加わったら、この依頼文も更新すること。
 解説図は、出題で求められる解答ごとに必ず1枚用意し、共通・基本フォーム`note-articles-Kijyutsu/prompt_kaisetsuzu-gazou_kihon-form_tochi.md`
 （画像生成AIに描かせず座標からPython・matplotlibで作図する方式。座標値・辺長を図形に重ねない配置ルールと重なりの自動検査つき）から作る。
 作図の共通部品は`note-articles-Kijyutsu/tools/zu_helpers.py`。令和7年度分（`R7/Q21/`）が完成した見本で、会話形式の記事
