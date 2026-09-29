@@ -440,7 +440,7 @@
 - `zu/`：作図スクリプト（`draw_{年度}_dai21mon_kaisetsuzu.py`）と書き出したPNG（リポジトリの中で作図した場合）
 - `prompt_{年度}_dai21mon_toukishinseisho_gazou.md`：登記申請書の完成形（共通フォーム `prompt_toukishinseisho-gazou_kihon-form.md` から。欄の名前・順序・「（略）」は試験の答案用紙に合わせる）。プロース版で作成済みなら共用してよい
 - `prompt_{年度}_dai21mon_toukishinseisho_machigai.md`：申請書の誤答→添削→正解の3コマ。**3コマは縦に積んだ縦長の画像にする**（2026-09-29、ユーザー指示。横に並べるとnoteのスマートフォン表示で文字が小さくなる。見本は `R6/Q21/`・`R7/Q21/`。`R7/Q21/` のプロンプトは最初は横並びの旧版だったが、2026-09-29に縦に積む形へ直して画像も生成した）
-- 申請書の完成形・添削画像は、プロンプトを作るだけでなく、HTML＋ヘッドレスブラウザ（Playwright・Chromium）で実際にPNGに書き出す（2026-09-29、ユーザー指示）。生成スクリプト（`make_{年度}_dai21mon_shinseisho_gazou.py`）・HTML・PNGは解説図と同じ `{年度}/Q21/zu/` に置き、PNGを目で確かめ、照合スクリプトで縦長であることと記入データの文言を確かめる（見本は `R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`。印刷文字の明朝体はIPA明朝〈`apt-get install fonts-ipafont-mincho`〉でよい）
+- 申請書の完成形・添削画像は、プロンプトを作るだけでなく、HTML＋ヘッドレスブラウザ（Playwright・Chromium）で実際にPNGに書き出す（2026-09-29、ユーザー指示）。生成スクリプト（`make_{年度}_dai21mon_shinseisho_gazou.py`）・HTML・PNGは解説図と同じ `{年度}/Q21/zu/` に置き、PNGを目で確かめ、照合スクリプトで縦長であることと記入データの文言を確かめる（見本は `R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`。印刷文字の明朝体はIPA明朝〈`apt-get install fonts-ipafont-mincho`〉でよい）。表の形はその年度の答案用紙に合わせる（R7は記入行2〜5の地積が「（略）」の結合セル、R4は5行とも地積を点線で整数部・小数部に分ける）。登記原因の欄は、2つの原因を並べる行（R4/Q21の（イ）「令和4年10月5日一部地目変更」「③184番1、184番3、184番4に分筆」）がはみ出さないように、その列だけ折り返しを許す（`white-space: normal`。縦書きの「土地の表示」の列は折り返さない）
 - `prompt_{年度}_dai21mon_miidashi_gazou.md`：note見出し画像（1280×670px。構成は `R7/Q21/prompt_R7_dai21mon_miidashi_gazou.md` を踏襲。タイトルに点名などの半角英字が入る場合は、文字の制限の例外として明記する）
 - `verify_{年度}_dai21mon_kaiwa.py`：照合スクリプト（見本は `R7/Q21/verify_R7_dai21mon_kaiwa.py`）。次をすべて確かめ、NG 0件にする
   - 記事の全「表示：」の値と答え（座標・穴埋め・辺長・申請書の欄）。穴埋め・欄の答えは、同じ年度の照合済みの版（プロース版など）・解答例と空欄ごとに全部照らす（一部だけにしない。R7/Q21で、プロース版と共通の答えを一部しか照らしていなかったため、オの「地積更正」と「土地の地積の更正」の違いを見落とした）

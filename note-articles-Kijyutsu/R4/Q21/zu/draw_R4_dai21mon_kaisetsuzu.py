@@ -139,7 +139,8 @@ ALL_PROBLEMS += save(fig, zs, 'R4_dai21mon_zu02_hikkai_hikaku.png')
 # =====================================================================
 fig, (ax,) = new_figure('図3　合成図の33.19・33.41で筆界E→F→Gを裏付ける',
                         '合成図の対角線は、拡幅前の道路の線の上の点D′（D点から真北へ1.49）から引かれている。\n'
-                        'D′からF点まで33.19、G点まで33.41で合成図と一致。AB線の端のB点までは36.57で、合成図のどこにもない。')
+                        'D′からF点まで33.19、G点まで33.41で合成図と一致。AB線の端のB点までは36.57で、合成図のどこにもない。\n'
+                        '拡幅前の道路の線は、E点から北へ1.37の点とD′を結んだ模式（問題文に座標はない）。')
 z = Zu(ax)
 fit(ax, [E, Dp, C, B], margin=0.14, pad_aspect=True)
 z.poly(HON, fill=BLUE)
@@ -159,7 +160,7 @@ z.edge_label(Dp, F, '33.19', C, color=RED, fs=17, ts=(0.5, 0.38, 0.62))
 z.edge_label(Dp, G, '33.41', F, color=RED, fs=17, ts=(0.5, 0.62, 0.38))
 z.edge_label(Dp, B, '36.57（合成図にない）', C, color=GRAY, fs=13, ts=(0.62, 0.72, 0.5))
 z.free_text(D + 0.745, '1.49', fs=14, ha='left', offsets=((10, 0), (16, -6), (16, 6), (24, 0)))
-z.callout(E + 1.37 + (Dp - E - 1.37) * 0.3, '拡幅前の道路の線', dirs=(90, 120, 60), color=GRAY, dists=(40, 60))
+z.callout(E + 1.37 + (Dp - E - 1.37) * 0.3, '拡幅前の道路の線（位置は模式）', dirs=(90, 120, 60), color=GRAY, dists=(40, 60))
 ALL_PROBLEMS += save(fig, [z], 'R4_dai21mon_zu03_gouseizu.png')
 
 # =====================================================================
@@ -233,7 +234,7 @@ zb.point(I, 'concrete', color=RED)
 zb.callout(Pp, 'P（300.63, 293.12）', dirs=(150, 180, 120), color=RED, dists=(60, 80))
 zb.callout(I, 'I（300.13, 293.12）', dirs=(-30, -60, 0), color=RED, dists=(60, 80))
 zb.free_text(I + (Pp - I) * 0.5, 'IP ＝ 0.50', color=RED, fs=15, ha='left', offsets=((20, 22), (30, 30), (20, 38), (40, 40)))
-zb.free_text(Z1 + (Z2 - Z1) * 0.2 + 0.2, '側溝', color=GRAY, fs=13, offsets=((0, 22), (0, 30)))
+zb.free_text(Z1 + (Z2 - Z1) * 0.2 + 0.2, '側溝（位置は模式）', color=GRAY, fs=13, offsets=((0, 22), (0, 30)))
 zb.edge_label(Z1, Z2, '直線ED（道路境界）', Pp, fs=13, ts=(0.25, 0.35, 0.75))
 ALL_PROBLEMS += save(fig, [za, zb], 'R4_dai21mon_zu05_I_J.png')
 
@@ -303,7 +304,7 @@ print('[重なり検査] 図7: 数直線（固定配置）\n  →', path)
 # 図8：問3 分筆後の区画と地番・地目
 # =====================================================================
 fig, (ax,) = new_figure('図8　問3　分筆後の区画と地番・地目（土地一部地目変更・分筆登記）',
-                        '注7：最も東の土地を184番1、その余は184番3から東側から順に（184番2は道路で使用済み）。\n'
+                        '問題文の注7：最も東の土地を184番1、その余は184番3から東側から順に（184番2は道路で使用済み）。\n'
                         '中央部分は令和4年10月5日から月極駐車場なので雑種地（1㎡未満切捨てで357㎡）。△HBGは185番3の土地で、この申請の対象外。')
 z = Zu(ax)
 fit(ax, [E, D, C, B, P(290.0, 262.0), P(290.0, 306.0)], margin=0.08, pad_aspect=True)
@@ -327,9 +328,9 @@ ALL_PROBLEMS += save(fig, [z], 'R4_dai21mon_zu08_bunpitsu_chiban.png')
 # =====================================================================
 fig, (ax,) = new_figure('図9　問4　地積測量図（184番1・184番3・184番4）の完成見本',
                         '縮尺1/250で答案用紙に描くと 1m ＝ 4mm。辺長は小数第3位を四捨五入（AI は 19.3256 なので 19.33）。\n'
-                        '座標値・地積・求積方法は書かない（注5）。基準点T1・T2は位置と点名だけ（注6）。H点には境界標がない。B点は描かない。')
+                        '座標値・地積・求積方法は書かない（問題文の注5）。基準点T1・T2は位置と点名だけ（問題文の注6）。H点には境界標がない。B点は描かない。')
 z = Zu(ax)
-fit(ax, HON + [T1, T2, P(275.5, 259.0)], margin=0.07)
+fit(ax, HON + [T1, T2, P(275.5, 259.0)], margin=0.07, pad_aspect=True)
 z.poly(HON, lw=2.0)
 z.line(I, J, lw=2.0)
 z.line(A, H, lw=2.0)
@@ -340,7 +341,7 @@ z.line(C, C + (C - G) * 0.10, lw=1.0)
 z.line(D, D + 1.8, lw=1.0)
 z.line(C, C - 2.0, lw=1.0)
 z.line(E, E + 1.8, lw=1.0)
-z.north_arrow()
+z.north_arrow(pos=(0.07, 0.78))
 co = centroid(HON)
 for n, (p, q, s) in SIDES.items():
     if n == 'EA':
@@ -366,7 +367,7 @@ z.edge_label(D, C, '１８３－１', co, fs=15, dists=(45, 55), rotate=False)
 z.edge_label(G, C, '１９６', co, fs=15, dists=(40, 50), rotate=False)
 z.edge_label(F, E, '１８５－３', co, fs=15, dists=(50, 60), rotate=False)
 z.edge_label(E, D, '道路　１８４－２', co, fs=15, dists=(40, 50), rotate=False, ts=(0.4, 0.3))
-z.free_text(D, '１８３－２', fs=15, offsets=((50, 22), (60, 30), (60, 10)))
+z.free_text(D, '１８３－２', fs=15, offsets=((50, 22), (60, 30), (60, 10), (70, 45), (80, 55), (90, 20)))
 z.free_text(E, '１８５－６', fs=15, offsets=((-70, 30), (-80, 40), (-80, 20)))
 z.free_text(P(276.0, 259.5), '（単位：ｍ）\n● 金属標：A・C・J\n◎ コンクリート杭：D・E・F・G・I\n△ 基準点：T1・T2', fs=13,
             ha='left', va='bottom', offsets=((0, 0), (0, 30), (0, -30)))
