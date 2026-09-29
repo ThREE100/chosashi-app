@@ -225,4 +225,18 @@ judge(f'タイトル形式（見出し{len(sub)}文字） : ' + title, title.sta
 check('見出し画像のサブタイトル', '〜' + sub + '〜', thumb, '見出し画像')
 check('見出し画像のタイトル', '令和7年度問題21（土地）', thumb, '見出し画像')
 
+# ---- K点の別解（面積の比）と、アガルートの解説と照らして足した要点（2026-09-29） ----
+q_dgfe = area([D, G, F, E])
+t_dhk, t_dkg = S / 2 - area([D, C, H]), S / 2 - q_dgfe
+check('四角形DGFE', f'{q_dgfe:.5f}㎡')
+check('△DKG', f'{t_dkg:.4f}㎡')
+check('面積の比', f'{t_dhk:.4f}：{t_dkg:.4f}')
+kg = abs(H - G) * t_dkg / (t_dhk + t_dkg)
+check('KG（面積の比）', f'KGは{fmt_num(kg)}')
+judge('面積の比でも K（199.98, 131.88）', r2(G + (H - G) / abs(H - G) * kg) == K)
+check('10月は相続を証する情報が要らない', '相続を証する情報は要りません')
+check('所有権に関する登記の完了日', '9月20日に完了')
+check('地積測量図の町界', '町界（C点の北とE点の南へ一点鎖線で延ばす）')
+check('L点は最後に', '**L点は最後に回す**')
+
 print('NG件数:', ng)
