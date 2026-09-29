@@ -87,7 +87,7 @@ note-articles-Kijyutsu/
 │       └── verify_H29_dai22mon.py                             記事・付属プロンプトの数値・求積・体裁の照合スクリプト
 ├── H30/
 │   ├── Q21/
-│   │   ├── note_H30_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み〈問2（エ）は「合意」を採用〉。放射のD点・延長線の交点のI点・筆界の定義・土地一部地目変更・分筆登記）
+│   │   ├── note_H30_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み〈問2（エ）は「意思」〉。放射のD点・延長線の交点のI点・筆界の定義・土地一部地目変更・分筆登記）
 │   │   ├── prompt_H30_dai21mon_kaiwa_kaisetsuzu.md       解説図9枚（全体図・D点・I点・甲土地の面積の裏付け・筆界の定義・必要な登記の判断・公差・分筆後の区画と地番・地積測量図）作成プロンプト（土地の基本フォームの記入済み）
 │   │   ├── prompt_H30_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（完成形。答案用紙どおり登録免許税が申請人より前、記入行4行）
 │   │   ├── prompt_H30_dai21mon_toukishinseisho_machigai.md  登記申請書「登記の目的」と（イ）（ロ）の行の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
