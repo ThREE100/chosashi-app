@@ -108,7 +108,7 @@ assert a2 == 78.4996 == round(poly_area(F2), 4) and trunc2(a2) == 78.49 and roun
 assert round(19.86 - 8.86, 2) == 11.00  # 2階の西の端は1階の北西の角から東へ11.00
 check('2階 求積表', '- 8.86 × 8.86 ＝ 78.4996\n- 合計：78.4996 （床面積：78.49平方メートル）')
 check('2階 切り捨て', '78.4996は、四捨五入すると78.50、切り捨てると78.49')
-check('1階の位置の点線', '1階の外形を点線で重ねて1階の位置を示すこと（不動産登記規則第83条第1項）')
+check('1階の位置の点線', '1階の外形を点線で重ねて1階の位置を示すこと。')
 
 # ---- 合体前の建物の床面積（登記記録で省略→計算）----
 aP = round(round(12 - 2 * t, 2) * round(5 - 2 * t, 2), 4)
@@ -182,6 +182,9 @@ check('誤答（目的となる権利）', '「甲山太郎の持分」', fix, '
 check('正解（目的となる権利）', '「甲山太郎（あ）持分」', fix, '添削')
 
 # ---- 解説図プロンプトの頂点座標（面積を計算して求積表と一致させる）----
+BLDG_SITE = [(-7.93, 19.93), (11.93, 19.93), (11.93, 11.07), (-3.07, 11.07), (-3.07, 8.07), (-7.93, 8.07)]
+assert round(poly_area(BLDG_SITE), 4) == 190.5396
+check('図3 床面積の線 頂点座標', ' → '.join(f'({y:g}, {x:g})' for y, x in BLDG_SITE + [BLDG_SITE[0]]), fig, '解説図')
 SITE301 = [(-15, 0), (-15, 29), (0, 29), (0, 0)]
 SITE302 = [(0, 0), (0, 29), (15, 29), (15, 0)]
 OUTER = [(c.imag, c.real) for c in outer]                       # 敷地の座標系 (Y, X)
@@ -196,7 +199,7 @@ for label, pts, want in [('図2 301番', SITE301, 435.00), ('図2 302番', SITE3
     s = ' → '.join(f'({y:g}, {x:g})' for y, x in pts + [pts[0]])
     check(label + ' 頂点座標', s, fig, '解説図')
 for s in ['「7.00」「9.00」「8.00」', '「29.00m」', '「15.00m」', '301番　435.00㎡', '1階 床面積：190.53㎡',
-          '2階 床面積：78.49㎡', '19.86×8.86＋4.86×2.86＝189.85㎡', '19.86×8.86＋4.86×3.00＝190.53㎡',
+          '2階 床面積：78.49㎡', '19.86×8.86＋4.86×2.86＝189.85ではなく', '19.86×8.86＋4.86×3.00＝190.53㎡',
           '12.00×9.00＝108.00㎡', '8.00×9.00＋5.00×3.00＝87.00㎡', '建物の所在　A市B町一丁目302番地、301番地']:
     check('図の数値', s, fig, '解説図')
 
@@ -214,10 +217,95 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
                if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
 ng += bool(bad_speaker)
 print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
-n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-ok = n_marker == 8
+markers = re.findall(r'^> 【画像挿入】(.*)$', text, re.M)
+# 記事の順に、マーカーの文言の手がかりと zu/ のPNGを対応させる（解説図7＋第1欄（その2）＋添削＋完成形＋第2欄＝11）
+ZU = os.path.join(HERE, 'zu')
+PAIRS = [('第1欄（その2）の完成形', 'H30_dai22mon_dai1ran_sono2_kansei.png'),
+         ('工事前', 'H30_dai22mon_zu01_kouji_zengo.png'),
+         ('座標どおりに301番', 'H30_dai22mon_zu02_shikichi_henchou.png'),
+         ('建物図面の完成形', 'H30_dai22mon_zu03_tatemono_zumen.png'),
+         ('1階の誤り比較図', 'H30_dai22mon_zu04_1kai_ayamari_hikaku.png'),
+         ('1階の床面積求積図', 'H30_dai22mon_zu05_1kai_kyuuseki.png'),
+         ('2階の床面積求積図', 'H30_dai22mon_zu06_2kai_kyuuseki.png'),
+         ('3コマ添削画像', 'H30_dai22mon_toukishinseisho_machigai.png'),
+         ('登記申請書（問1）の完成形', 'H30_dai22mon_toukishinseisho_kansei.png'),
+         ('第2欄の完成形', 'H30_dai22mon_dai2ran_kansei.png'),
+         ('本番で解く順番', 'H30_dai22mon_zu07_toku_junban.png')]
+ok = len(markers) == len(PAIRS) == 11
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図6＋添削1＋完成形1＝計8か所の想定）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {len(markers)}個（想定11）')
+from PIL import Image
+pngs = sorted(f for f in os.listdir(ZU) if f.endswith('.png'))
+ok = sorted(f for _, f in PAIRS) == pngs
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'zu/ のPNG {len(pngs)}枚とマーカーの対応先が一致')
+for m, (key, f) in zip(markers, PAIRS):
+    w, h = Image.open(os.path.join(ZU, f)).size
+    ok = key in m and (h > w if 'toukishinseisho' in f else True)
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'マーカー→{f}（{w}×{h}px） : {m[:30]}…')
+# 同じ話者のセリフが続いていないか（章の見出しで区切る）
+prev, dup = None, []
+for i, l in enumerate(lines):
+    t = l.rstrip()
+    if t in ('**トリ先生**', '**藍子**'):
+        if t == prev:
+            dup.append(i + 1)
+        prev = t
+    elif l.startswith('## '):
+        prev = None
+ng += bool(dup)
+print(('OK ' if not dup else 'NG ') + f'同じ話者の連続: {dup}')
+# 注の書き分け（問題文の注・〔見取図〕の（注））
+bare = [m.start() for m in re.finditer(r'(?<!問題文の)(?<!（)注\d', text)]
+ng += bool(bare)
+print(('OK ' if not bare else 'NG ') + f'書き分けのない「注N」: {len(bare)}か所')
+check('注の書き分け（見取図）', '〔見取図〕の（注）4で、北はX軸の正方向')
+check('注の書き分け（桁）', '問題文の注にも〔見取図〕の（注）にも桁の指定はない')
+# 最新の執筆ルールで足した会話
+check('第3欄の家屋番号・所在', '建物図面の上の「家屋番号」の欄は（略）と印刷済みだから何も書かないで、「建物の所在」の欄に『A市B町一丁目302番地、301番地』と書くの')
+check('求積方法', 'その求積方法（求積表）も書くのよ（どちらも不動産登記規則第83条第1項）')
+check('解く順番（問を先に）', 'まず前文と問を先に読むの')
+check('時系列メモ', '昭和60年3月12日に302番の所有権の登記、平成29年1月20日に301番の所有権の登記と抵当権の設定、平成30年10月1日に工事完了（合体の日）、10月10日に登記記録の調査、10月19日に申請')
+check('累計メモ', '東へ0・4.86・19.86、南へ0・8.86・11.86。2階は東へ11.00から19.86')
+check('第2欄の答え', '第2欄は、登記の目的『建物表題部変更登記』と、主である建物の原因『③平成30年10月1日増築、符号1の附属建物合体』の2つですね')
+# 申請書・添削・欄の画像のHTML（記入内容）
+H = {n: open(os.path.join(ZU, n + '.html'), encoding='utf-8').read() for n in
+     ['H30_dai22mon_toukishinseisho_kansei', 'H30_dai22mon_toukishinseisho_machigai',
+      'H30_dai22mon_dai1ran_sono2_kansei', 'H30_dai22mon_dai2ran_kansei']}
+k = H['H30_dai22mon_toukishinseisho_kansei']
+for s_ in ['合体後の建物の表題登記及び合体前の建物の表題部の登記の抹消', '住所証明書', '登記識別情報', '印鑑証明書', '承諾書',
+           '持分　10分の２　甲山太郎（あ）', '10分の８　甲山太郎（い）', '平成30年10月19日　申請　　Ｄ地方法務局Ｅ出張所',
+           '>57</span>', '>63</span>', '1階　190', '>53</span>', '302番地<br>301番地', '平成30年10月１日301番、<br>302番を合体',
+           '平成29年１月20日第567号', '昭和60年３月12日第1234号', '甲山太郎（あ）<br>持分', '木造スレート<br>ぶき平家建']:
+    check('完成形HTML', s_, k, '申請書HTML')
+for bad in ['登録免許税', '78</span></td><td class="entry dec"><span class="ink">50', '>54</span>', '>64</span>', '③平成30年10月１日301番']:
+    absent('完成形HTML', bad, k, '申請書HTML')
+assert k.index('代　　理　　人') < k.index('平成30年10月19日')   # 答案用紙どおり、代理人の行が申請日の行より上
+m_ = H['H30_dai22mon_toukishinseisho_machigai']
+for s_ in ['Ａ市Ｂ町一丁目１番１号　甲山太郎</span>', '甲山太郎の持分', '令別表13の項ニ', '①誤答', '②添削', '③正解']:
+    check('添削HTML', s_, m_, '添削HTML')
+for s_ in ['主従', '増築工事', '隔壁を除去', '構造上1個']:
+    check('第1欄（その2）HTML', s_, H['H30_dai22mon_dai1ran_sono2_kansei'], '第1欄その2')
+for s_ in ['建物表題部変更登記', '③平成30年10月１日増築、符号１の附属建物合体']:
+    check('第2欄HTML', s_, H['H30_dai22mon_dai2ran_kansei'], '第2欄')
+# 作図スクリプト：fit はすべて pad_aspect=True、面積の assert がある
+draw = open(os.path.join(ZU, 'draw_H30_dai22mon_kaisetsuzu.py'), encoding='utf-8').read()
+n_fit = len(re.findall(r'\bfit\(ax', draw))
+n_pad = draw.count('pad_aspect=True')
+ok = n_fit == n_pad and n_fit > 0
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'作図の fit {n_fit}か所がすべて pad_aspect=True（{n_pad}）')
+for s_ in ['== 190.5396', '== 189.8592', '== 78.4996', '== 195.00', '105.6998']:
+    check('作図スクリプトの検算', s_, draw, '作図')
+for f in ['prompt_H30_dai22mon_kaisetsuzu.md', 'prompt_H30_dai22mon_toukishinseisho_gazou.md',
+          'prompt_H30_dai22mon_toukishinseisho_machigai.md']:
+    src = open(os.path.join(HERE, f), encoding='utf-8').read()
+    absent('記号', '✕', src, f)
+    absent('記号', '✓', src, f)
+check('生成済みのファイル名', 'zu/H30_dai22mon_zu07_toku_junban.png', fig, '解説図')
+check('生成済みのファイル名', 'zu/H30_dai22mon_dai2ran_kansei.png', form, '申請書')
+check('生成済みのファイル名', 'zu/H30_dai22mon_toukishinseisho_machigai.png', fix, '添削')
 ok = lines[-1] == '---'
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')

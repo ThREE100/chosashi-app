@@ -120,11 +120,12 @@ note-articles-Kijyutsu/
 │   │   └── zu/                                          解説図9枚のPNGと作図スクリプト draw_H30_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H30_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_H30_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み）
-│       ├── prompt_H30_dai22mon_kaisetsuzu.md                  解説図6枚（工事前後比較図・敷地辺長図・建物図面・1階の誤り比較図・1階/2階求積図）作成プロンプト
-│       ├── prompt_H30_dai22mon_toukishinseisho_gazou.md       登記申請書画像プロンプト（完成形。所有権登記の表示・存続登記の表を含む）
-│       ├── prompt_H30_dai22mon_toukishinseisho_machigai.md    登記申請書「申請人」欄・存続登記「目的となる権利」欄の誤答→添削→正解の画像プロンプト
+│       ├── prompt_H30_dai22mon_kaisetsuzu.md                  解説図7枚（工事前後比較図・敷地辺長図・建物図面・1階の誤り比較図・1階/2階求積図・本番で解く順番）作成プロンプト
+│       ├── prompt_H30_dai22mon_toukishinseisho_gazou.md       登記申請書画像プロンプト（完成形。所有権登記の表示・存続登記の表を含む。第1欄（その2）・第2欄は別の画像）
+│       ├── prompt_H30_dai22mon_toukishinseisho_machigai.md    登記申請書「申請人」欄・存続登記「目的となる権利」欄の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
 │       ├── prompt_H30_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
-│       └── verify_H30_dai22mon.py                             記事・付属プロンプトの数値・求積・体裁の照合スクリプト
+│       ├── verify_H30_dai22mon.py                             記事・付属プロンプト・生成画像の数値・求積・体裁の照合スクリプト
+│       └── zu/                                                解説図7枚のPNGと作図スクリプト draw_H30_dai22mon_kaisetsuzu.py、登記申請書の完成形・第1欄（その2）・第2欄・添削（縦長）のPNG・HTMLと生成スクリプト make_H30_dai22mon_shinseisho_gazou.py
 ├── R1/
 │   ├── Q21/
 │   │   ├── note_R1_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み。地積更正・分筆、家庭菜園は宅地、筆界特定の対象土地・関係土地・関係人）
