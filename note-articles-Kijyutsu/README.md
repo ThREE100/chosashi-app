@@ -194,10 +194,10 @@ note-articles-Kijyutsu/
 │   │   ├── note_R5_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み）
 │   │   ├── prompt_R5_dai21mon_kaiwa_kaisetsuzu.md       解説図8枚（全体図・筆界点F/Jの比較・B点・H点・分筆の区画の比較・地積測量図・分合筆・職権の分合筆）作成プロンプト（土地の基本フォームの記入済み）
 │   │   ├── prompt_R5_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（完成形。地目変更・分合筆）
-│   │   ├── prompt_R5_dai21mon_toukishinseisho_machigai.md  登記申請書「添付書類」欄と分合筆後の1番1の行の誤答→添削→正解の画像プロンプト
+│   │   ├── prompt_R5_dai21mon_toukishinseisho_machigai.md  登記申請書「添付書類」欄と分合筆後の1番1の行の誤答→添削→正解の画像プロンプト（3コマを縦に積む）
 │   │   ├── prompt_R5_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │   │   ├── verify_R5_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト
-│   │   └── zu/                                          解説図8枚のPNGと、作図スクリプト draw_R5_dai21mon_kaisetsuzu.py
+│   │   └── zu/                                          解説図8枚のPNGと作図スクリプト draw_R5_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像（縦3コマ）のPNG・HTMLと生成スクリプト make_R5_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_R5_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
 │       ├── prompt_R5_dai22mon_kaisetsuzu.md                   解説図6枚（敷地辺長図・建物図面・1階/2階求積図・誤り比較図・工事前後比較図）作成プロンプト
@@ -232,10 +232,10 @@ note-articles-Kijyutsu/
     │   ├── prompt_R7_dai21mon_toukishinseisho_machigai.md  登記申請書「申請人」「添付書類」欄の誤答→添削→正解の画像プロンプト（会話形式用。3コマを縦に積んだ縦長）
     │   ├── prompt_R7_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（会話形式用、1280×670px）
     │   ├── prompt_R7_dai21mon_kaisetsuzu.md             解説図（K点・地積測量図・J点L点）作成プロンプト（プロース版用、R7第21問の座標入り）
-    │   ├── prompt_R7_dai21mon_kaiwa_kaisetsuzu.md       解説図9枚（全体図・D点・筆界の比較・K点・公差・地積測量図・J点・L点・分筆の地番）作成プロンプト（会話形式用。土地の基本フォームの記入済み見本）
+    │   ├── prompt_R7_dai21mon_kaiwa_kaisetsuzu.md       解説図12枚（全体図・D点・筆界の比較・K点・公差・地積測量図・J点・L点・分筆の地番・K点の別解・10月の申請までの時系列・解く順番）作成プロンプト（会話形式用。土地の基本フォームの記入済み見本）
     │   ├── verify_R7_dai21mon.py                        記事の数値・電卓表示の照合スクリプト（プロース版）
     │   ├── verify_R7_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト（会話形式）
-    │   └── zu/                                          解説図9枚のPNGと、作図の参照実装 draw_R7_dai21mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。登記申請書の完成形・添削画像のPNGとHTML（R7_dai21mon_toukishinseisho_kansei／_machigai）と生成スクリプト make_R7_dai21mon_shinseisho_gazou.py
+    │   └── zu/                                          解説図12枚のPNGと、作図の参照実装 draw_R7_dai21mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。登記申請書の完成形・添削画像のPNGとHTML（R7_dai21mon_toukishinseisho_kansei／_machigai）と生成スクリプト make_R7_dai21mon_shinseisho_gazou.py
     └── Q22/
         ├── note_R7_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
         ├── prompt_R7_dai22mon_kaisetsuzu.md                   解説図作成プロンプト

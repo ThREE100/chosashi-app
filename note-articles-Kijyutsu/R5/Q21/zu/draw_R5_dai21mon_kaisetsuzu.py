@@ -47,7 +47,7 @@ N4 = [B, C, F, J, I, H]              # 分筆後の1番4
 SHA = [B, C, G, H]                   # 斜線部分
 HOSO = [I, H, G, F, J]               # 細長い部分
 AREAS = {'乙土地': (area(OTSU), 236.9652), '1番2': (area(N2), 211.3491), '1番4': (area(N4), 25.6195),
-         '斜線部分': (area(SHA), 22.09), '細長い部分': (area(HOSO), 3.5295), '甲土地': (area(KOU), 335.6129)}
+         'G・Iを通した乙土地': (area([A, C, G, I]), 233.4357), '斜線部分': (area(SHA), 22.09), '細長い部分': (area(HOSO), 3.5295), '甲土地': (area(KOU), 335.6129)}
 for n, (got, want) in AREAS.items():
     assert abs(got - want) < 5e-5, (n, got, want)
 assert chiseki(area(N2)) == 211.34 and chiseki(area(N4)) == 25.61 and chiseki(area(HOSO)) == 3.52
@@ -83,8 +83,8 @@ z.north_arrow()
 z.free_text(centroid(KOU), '甲土地\n1番1　雑種地\n335㎡', fs=17)
 z.free_text(centroid(N2), '乙土地\n1番2　宅地\n236.81㎡', fs=17)
 z.callout(centroid(SHA), '斜線部分（B・C・G・H）', dirs=(0, 20, -20), color=RED, dists=(160, 190, 220))
-z.callout(A + (I - A) * 0.30 + P(0, 1.5), '本件借地（A・C・G・I）の線', dirs=(0, 15, -15), color=GRAY,
-          dists=(40, 60, 80))
+z.callout(I + (G - I) * 0.20, '本件借地（A・C・G・I）の線', dirs=(60, 75, 45, 90), color=GRAY,
+          dists=(90, 120, 150, 180))
 for p, n, kind in [(A, 'A', 'concrete'), (C, 'C', 'metal'), (D, 'D', 'concrete'), (E, 'E', 'concrete')]:
     z.point(p, kind)
     z.point_label(p, n, away=centroid(OTSU + KOU))
@@ -137,8 +137,8 @@ for ax, pts, lab_c, lab_a, head, col, ok in [
     if ok:
         z.edge_label(F, J, 'FJ ＝ 10.87', centroid(pts), color=col, fs=14, dists=(14, 22))
     zs.append(z)
-zs[0].free_text(centroid(OTSU), '地積測量図の\n22.65・20.99と\n合わない', color=GRAY, fs=16)
-zs[1].free_text(centroid(OTSU), '地積測量図の\n22.65・20.99と\n一致', color=RED, fs=16)
+zs[0].free_text(centroid(OTSU), '地積測量図の\n22.65・20.99と\n合わない\n\n面積 233.43㎡\n（登記記録236.81と\n3.37㎡違う）', color=GRAY, fs=16)
+zs[1].free_text(centroid(OTSU), '地積測量図の\n22.65・20.99と\n一致\n\n面積 236.96㎡\n（登記記録236.81と\n0.16㎡の差）', color=RED, fs=16)
 ALL_PROBLEMS += save(fig, zs, 'R5_dai21mon_zu02_hikkaiten_FJ.png')
 
 # =====================================================================
@@ -253,7 +253,7 @@ ALL_PROBLEMS += save(fig, zs, 'R5_dai21mon_zu05_bunpitsu_kukaku.png')
 # =====================================================================
 fig, (ax,) = new_figure('図6　問3　地積測量図（1番2・1番4）の完成見本',
                         '縮尺1/250で答案用紙に描くと 1m ＝ 4mm（JI 0.15 は 0.6mm）。辺長は小数第3位を四捨五入（FJ は 10.8656 なので 10.87）。\n'
-                        '座標値・地積・求積方法・測量年月日は書かない（注5）。A市基準点T1・T2は位置と点名だけ（注6）。G は8月の時点では筆界点ではない。')
+                        '座標値・地積・求積方法・測量年月日は書かない（問題文の注5）。A市基準点T1・T2は位置と点名だけ（問題文の注6）。G は8月の時点では筆界点ではない。')
 z = Zu(ax, fontsize=15)
 fit(ax, OTSU + [T1, T2], margin=0.12, pad_aspect=True)
 z.poly(OTSU, lw=2.0)
@@ -296,7 +296,7 @@ ALL_PROBLEMS += save(fig, [z], 'R5_dai21mon_zu06_chiseki_sokuryouzu.png')
 # =====================================================================
 fig, (ax,) = new_figure('図7　問4　10月16日の地目変更・分合筆（1番4の一部を1番1へ）',
                         '1番1は令和5年9月20日に雑種地から宅地へ（新店舗と一体の駐車場・展示販売所）。1番4のうち斜線部分（ロ）22.09㎡を1番1に合筆し、\n'
-                        '細長い部分（イ）3.52㎡が1番4として残る（3.52 ＋ 22.09 ＝ 25.61）。1番1の地積は注9で端数を援用：335.5096500 ＋ 22.09 ＝ 357.59965 → 357.59㎡\n'
+                        '細長い部分（イ）3.52㎡が1番4として残る（3.52 ＋ 22.09 ＝ 25.61）。1番1の地積は問題文の注9で端数を援用：335.5096500 ＋ 22.09 ＝ 357.59965 → 357.59㎡\n'
                         '登録免許税は分合筆後の2個（1番1・1番4）× 1,000円 ＝ 2,000円。地目変更には登録免許税はかからない。')
 z = Zu(ax, fontsize=14)
 fit(ax, OTSU + KOU, margin=0.08, pad_aspect=True)
