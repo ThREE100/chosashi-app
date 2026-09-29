@@ -315,13 +315,20 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 名称変更はみなし変更で申請不要
-Diagram: A comparison diagram. Left side (labeled 誤った思い込み, marked
-with a large red ✕): a 表題部所有者 icon holding a 変更登記の申請書 next
-to a calendar with a circled 1か月 deadline. Right side (labeled 正しい
-ルール, marked with a large green checkmark): a city-hall icon with an
-行政区画の名称変更 sign, and a みなし変更 stamp automatically appearing on
-the registry record with no application form present (the application
-form icon is crossed out with a red ✕).
+Diagram: A comparison diagram. IMPORTANT: the two sides must show
+OPPOSITE marks, not the same mark — this is a case where the mistaken
+belief predicts that an application is required (✓) but the actual rule
+says no application is needed (✕); do not draw the same mark on both
+sides. Left side (labeled 誤った思い込み, gray header pill): a 表題部
+所有者 icon holding a 変更登記の申請書 next to a calendar with a circled
+1か月 deadline, stamped with ONLY a single large green checkmark (no red
+✕ anywhere in this box — the checkmark itself represents the mistaken
+belief that an application within the deadline is required, not a second
+contradicting mark). Right side (labeled 正しいルール, green header pill):
+a city-hall icon with an 行政区画の名称変更 sign, and a みなし変更 stamp
+automatically appearing on the registry record; the 変更登記の申請書 icon
+is crossed out with ONLY a single large red ✕ (no checkmark anywhere in
+this box), showing that no application is actually required.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、行政区画の名称に変更があった原因が、表題部所有者自身の行為による
 ものかどうかを確認します。次に、この名称変更は登記記録上変更があった
@@ -375,7 +382,12 @@ that 肢イ・肢ウ・肢オ are each drawn as a timeline with clearly labeled
 dated events rather than an undated illustration, that 肢オ shows BOTH
 required filings as separate checkmarked icons rather than merging them
 into one, that each 着眼点 callout states a checking order rather than
-only a conclusion, confirm nothing is rendered below the last panel's
+only a conclusion. Pay special attention to Panel 4 (肢エ): confirm the
+LEFT box (誤った思い込み) shows ONLY a green checkmark with no red ✕
+anywhere inside it, and the RIGHT box (正しいルール) shows ONLY a red ✕
+(on the crossed-out application-form icon) with no green checkmark
+anywhere inside it — the two boxes must never end up with the same mark
+or with both marks mixed into one box. Confirm nothing is rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no
 re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
 and confirm the entire canvas, edge to edge, is filled with a fully
