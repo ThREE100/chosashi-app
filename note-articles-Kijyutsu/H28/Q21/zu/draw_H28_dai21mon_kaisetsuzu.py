@@ -269,13 +269,13 @@ ALL_PROBLEMS += save(fig, [z], 'H28_dai21mon_zu04_menseki.png')
 # 図5：問2 戊土地は地目の違う2筆
 # =====================================================================
 fig, (ax,) = new_figure('図5　問2　戊土地は地目が違う2筆の土地（土地表題登記）',
-                        '（ハ）部分は31番1の居宅の附属建物（物置）の敷地で宅地。（ニ）部分は永続性のない小屋（建物ではない）で、丙土地と一体の受付所・農具置場。\n'
-                        '（ニ）部分は丙土地と同じ雑種地と見るのが素直（畑と見る解説もあるが、どちらでも（ハ）の宅地とは違う）。一筆の土地に地目は一つなので2筆。\n'
+                        '（ハ）部分は31番1の居宅の附属建物（物置）の敷地で宅地。（ニ）部分は農園の受付所・農具置場で、主な目的は農園なので畑。\n'
+                        '小屋は永続性がなく建物ではない。丙土地の登記記録は雑種地だが、地目は現況と利用目的で決める。一筆の土地に地目は一つなので2筆。\n'
                         'C点は問題文に座標がないため、B→C・C→D・C→Fの線は模式（破線）。')
 z = Zu(ax)
 fit(ax, [B, C_MOSHIKI + P(2, 0), D, E, H, G, A102], margin=0.08, pad_aspect=True)
 z.poly(N40_1, fill=ORANGE, alpha=0.18, color=BLACK)
-z.poly(NI, fill=ORANGE, alpha=0.30, color=BLACK, lw=2.0)
+z.poly(NI, fill=GREEN, alpha=0.30, color=BLACK, lw=2.0)
 z.poly(HA, fill=PURPLE, alpha=0.28, color=BLACK, lw=2.0)
 for p, q in [(B, C_MOSHIKI), (C_MOSHIKI, D), (C_MOSHIKI, F)]:
     z.line(p, q, color='white', lw=2.4, check=False)
@@ -286,11 +286,11 @@ for p, n in [(B, 'B'), (G, 'G'), (F, 'F'), (E, 'E'), (D, 'D'), (H, 'H')]:
     z.point_label(p, n, away=centroid(NI) if n in 'BG' else centroid(HA) if n in 'DE' else centroid(N40_1))
 z.point(C_MOSHIKI, 'dot', size=6, color=GRAY)
 z.callout(C_MOSHIKI, 'C（位置は模式）', dirs=(60, 30, 90), color=GRAY, dists=(45, 65))
-z.callout(centroid(NI), '（ニ）部分：雑種地\n丙土地と一体の受付所・農具置場\n取得原因：時効取得', dirs=(150, 165, 135), color=ORANGE,
+z.callout(centroid(NI), '（ニ）部分：畑\n農園の受付所・農具置場\n取得原因：時効取得', dirs=(150, 165, 135), color=GREEN,
           dists=(90, 120, 150))
 z.callout(centroid(HA), '（ハ）部分：宅地\n31番1の居宅の附属建物（物置）\n取得原因：売払い', dirs=(-20, 0, -40), color=PURPLE,
           dists=(110, 140, 170))
-z.free_text(centroid(N40_1), '丙土地（40番1）\n雑種地', fs=15, offsets=((0, 0), (0, 20), (0, -20)))
+z.free_text(centroid(N40_1), '丙土地（40番1）\n登記記録は雑種地', fs=15, offsets=((0, 0), (0, 20), (0, -20)))
 z.free_text(P(349.5, 306.5), '31番1（宅地）\n居宅', fs=14, color=GRAY, offsets=((0, 0), (15, 15), (15, -15)))
 z.free_text(P(358.5, 292.0), '31番2（甲土地）', fs=14, color=GRAY, offsets=((0, 0), (0, 15), (-20, 15), (20, 15)))
 z.free_text(P(346.5, 280.5), '40番2（丁土地）', fs=14, color=GRAY, offsets=((0, 0), (-15, 0), (0, -15)))
@@ -307,7 +307,7 @@ ax = fig.add_axes([0.03, 0.10, 0.94, 0.80])
 ax.set_xlim(0, 100)
 ax.set_ylim(0, 100)
 ax.axis('off')
-COLS = [(4, '（ニ）部分', ORANGE, ['地目：雑種地', '取得原因：時効取得', '登記原因及びその日付：不詳']),
+COLS = [(4, '（ニ）部分', GREEN, ['地目：畑', '取得原因：時効取得', '登記原因及びその日付：不詳']),
         (52, '（ハ）部分', PURPLE, ['地目：宅地', '取得原因：売払い', '登記原因及びその日付：不詳'])]
 for x, head, col, lines in COLS:
     ax.add_patch(FancyBboxPatch((x, 58), 44, 30, boxstyle='round,pad=0.6', fc='#f7f7f7', ec=col, lw=2.2))
