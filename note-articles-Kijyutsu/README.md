@@ -24,6 +24,14 @@ note-articles-Kijyutsu/
 ├── tools/
 │   ├── calc_helpers.py                                 F-789SGの計算を再現し、記事の表示値を生成・照合するヘルパー
 │   └── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
+├── H26/
+│   └── Q22/
+│       ├── note_H26_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例〈改題版〉と照合済み）
+│       ├── prompt_H26_dai22mon_kaisetsuzu.md                  解説図7枚（時系列図・主従比較図・敷地辺長図・建物図面・1階と附属の求積図・2階の誤り比較図・2階求積図）作成プロンプト
+│       ├── prompt_H26_dai22mon_toukishinseisho_gazou.md       登記申請書等の画像プロンプト（完成形3枚。第1欄・第2欄、第4欄、第3欄）
+│       ├── prompt_H26_dai22mon_toukishinseisho_machigai.md    第2欄「登記の目的」「登記原因及びその日付」の誤答→添削→正解の画像プロンプト
+│       ├── prompt_H26_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
+│       └── verify_H26_dai22mon.py                             記事・付属プロンプトの数値・求積・体裁の照合スクリプト
 ├── H27/
 │   └── Q22/
 │       ├── note_H27_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み）
