@@ -10,6 +10,8 @@
 
 画像生成AIは寸法の数字や矢印の位置を指示どおりに描けないことがある。生成後、記事に書いた数値（例：4.60m、11.80m）と画像内の表示が一字一句一致しているか必ず目視で確認する。一致していなければ、プロンプトの数値を再確認したうえで作り直す。数値がどうしても安定して描画されない場合は、画像生成後に別途テキストラベルを重ねる（Pillow等での後処理）方式に切り替える。
 
+**「誤りやすい思い込み」と「正しいルール」を対比させる図（○×を左右または上下に並べる構成）を今後この求積図に追加する場合**は、`note-articles/infographic-prompt-template.md`の「正誤対比カードの○×指示の統一ルール」を必ず確認すること。1つの箱に○と×を両方指示する矛盾（画像生成モデルが混乱し左右が同じマークになる不具合）や、1〜2文字しか違わない数値・文字列を左右に並べたときに複製されてしまう不具合が、note-articles配下の同種プロンプトで実際に発生している。
+
 ---
 
 **Subject:** An educational infographic showing a 2D architectural floor plan diagram for calculating floor area, designed for a Japanese real estate exam study guide.
