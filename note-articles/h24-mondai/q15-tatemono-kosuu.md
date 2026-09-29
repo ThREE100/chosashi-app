@@ -91,8 +91,9 @@ clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric building splitting
 into multiple registry cards, two separate detached buildings, staircase
-and elevator shaft, condominium units, house and warehouse connected by
-an ownership line, etc. — adapt icon set to the topic).
+and elevator shaft, condominium units next to an ordinary undivided
+building for the registry-unit comparison, house and warehouse connected
+by an ownership line, etc. — adapt icon set to the topic).
 
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
 NOT a text-heavy explainer document. There is NO intro illustration and NO
@@ -168,11 +169,16 @@ Conclusion tag: 独立登記はできない
 
 --- COLUMN B, CARD 5 ---
 Badge: a filled green circle containing the number 5.
-Heading: 登記記録は専有部分ごとに作成
-Illustration: A condominium building icon with each individual unit
-(専有部分) having its own separate registry-card icon, instead of one
-card for the whole building (crossed out with an "✕").
-Conclusion tag: 専有部分ごとに記録
+Heading: 登記記録の単位は建物種類で違う
+Illustration: Two mini-scenes side by side within the same card. LEFT
+mini-scene: an ordinary, undivided house icon labeled 区分建物でない建物
+with a single registry-card icon attached, labeled 1個ごと. RIGHT
+mini-scene: a condominium building icon divided into visible units,
+labeled 区分建物, with each unit（専有部分）having its own separate
+registry-card icon, labeled 専有部分ごと; next to it, a small
+"1棟ごと（誤り）" label crossed out with a red "✕" to flag that applying
+the non-区分建物 rule to a 区分建物 is the mistake this 肢 makes.
+Conclusion tag: 非区分は1個、区分は専有ごと
 
 --- FOOTER ---
 
