@@ -1,6 +1,6 @@
-"""令和2年度 第22問（建物）の解説図6枚を、座標値・頂点座標から作図してPNGに書き出す。
+"""令和2年度 第22問（建物）の解説図7枚を、座標値・頂点座標から作図してPNGに書き出す。
 
-`../prompt_R2_dai22mon_kaisetsuzu.md` の図1〜図6どおり。作図の共通部品は `tools/zu_helpers.py`。
+`../prompt_R2_dai22mon_kaisetsuzu.md` の図1〜図7どおり。作図の共通部品は `tools/zu_helpers.py`。
 敷地は〔調査図〕の〔座標一覧表〕の (X, Y)＝(北, 東) をそのまま使う。
 本件新建物の各階は (東, 南) で持ち（原点は壁の中心線で囲んだ建物の北西の角）、zu_helpers の (北, 東) には B() で変換する。
 図1の旧建物3棟の形・位置だけは、〔調査図〕と【建物図面】の図から読み取った模式（寸法は目安）。
@@ -325,6 +325,71 @@ def zu06():
     save(fig, [z], 'R2_dai22mon_zu06_3kai_kyuuseki')
 
 
+# ---- 図7：本番で解く順番（固定配置の図なので重なり検査の対象外） ----
+def zu07():
+    """上に事実関係の日付の時系列メモ、下に解く順番。計算のいらない問1・問2を先に書き、求積と位置は後に回す。"""
+    fig = plt.figure(figsize=(16, 10), dpi=100)
+    fig.patch.set_facecolor('white')
+    fig.suptitle('本番で解く順番　計算のいらない問1・問2を先に、求積と位置は後に', fontsize=24, weight='bold', y=0.965)
+
+    # 上段：事実関係の日付の時系列メモ
+    at = fig.add_axes([0.03, 0.66, 0.94, 0.24])
+    at.set_xlim(0, 100)
+    at.set_ylim(0, 100)
+    at.axis('off')
+    at.text(0, 92, '別紙の時系列メモ（令和2年）', fontsize=16, weight='bold', va='top')
+    at.annotate('', xy=(99, 50), xytext=(3, 50), arrowprops=dict(arrowstyle='-|>', lw=2.0, color=GRAY))
+    events = [
+        (12, '9月18日', '本件新建物を新築\n引渡し（1階66.15㎡）', GREEN),
+        (38, '10月3日', '松子さんが42番地2へ転居\n（今の住所・変更証明書）', BLUE),
+        (64, '10月12日', 'エントランス完成（増築）\n本件旧建物を取壊し', RED),
+        (89, '10月16日', '申請（2件）\n滅失・表題とも1か月以内', BLACK),
+    ]
+    for x, d, t, col in events:
+        at.plot([x], [50], marker='o', ms=14, color=col, zorder=3)
+        at.text(x, 64, d, ha='center', va='bottom', fontsize=17, weight='bold', color=col)
+        at.text(x, 36, t, ha='center', va='top', fontsize=13.5, color=col)
+
+    # 下段：解く順番
+    ax = fig.add_axes([0.03, 0.14, 0.94, 0.48])
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 100)
+    ax.axis('off')
+    steps = [
+        ('①', '前文・注・\n問1〜問4を\n読む', '何を答えるか\n（注4：距離は\n小数第1位）', BLUE),
+        ('②', '日付の\n時系列メモ', '上の4つの日付', BLUE),
+        ('③', '建物図面\n3枚で家屋\n番号を特定', '39番3の4', BLUE),
+        ('④', '問1の\n申請書', '第1欄\n（今の住所・\n下線の行は\n写さない）', BLUE),
+        ('⑤', '問2の\n記述', '第2欄\n（解体移転と\nえい行移転）', BLUE),
+        ('⑥', '壁の中心線で\n床面積', '第3欄 床面積\n（3階は入り隅\nに注意64.02）', RED),
+        ('⑦', '座標で\n建物の位置', '第3欄 所在\n（42番地2が先）\n第4欄の距離', RED),
+        ('⑧', '問4の作図\n・見直し', '第4欄\n原因の併記\n「葺」「ぶき」', GRAY),
+    ]
+    w, h, gap = 10.6, 44, 1.8
+    y0 = 36
+    for i, (no, t, ran, col) in enumerate(steps):
+        x = 1 + i * (w + gap)
+        ax.add_patch(plt.Rectangle((x, y0), w, h, facecolor=col, alpha=0.16, edgecolor=col, lw=2))
+        ax.text(x + w / 2, y0 + h - 3, no, ha='center', va='top', fontsize=24, color=col, weight='bold')
+        ax.text(x + w / 2, y0 + h / 2 - 5, t, ha='center', va='center', fontsize=15)
+        ax.text(x + w / 2, y0 - 3, ran, ha='center', va='top', fontsize=12.5, color=col)
+        if i < len(steps) - 1:
+            ax.annotate('', xy=(x + w + gap - 0.2, y0 + h / 2), xytext=(x + w + 0.2, y0 + h / 2),
+                        arrowprops=dict(arrowstyle='-|>', lw=1.6, color=GRAY))
+    ax.text(1 + 2.5 * (w + gap) - gap / 2, 91, '計算なしで書ける（問1・問2は一気に）', ha='center', fontsize=15, color=BLUE, weight='bold')
+    ax.annotate('', xy=(1 + 5 * (w + gap) - gap, 87), xytext=(1, 87), arrowprops=dict(arrowstyle='<->', lw=1.5, color=BLUE))
+    ax.text(1 + 6 * (w + gap) - gap / 2, 91, 'いちばん時間を食う', ha='center', fontsize=15, color=RED, weight='bold')
+    ax.annotate('', xy=(1 + 7 * (w + gap) - gap, 87), xytext=(1 + 5 * (w + gap), 87),
+                arrowprops=dict(arrowstyle='<->', lw=1.5, color=RED))
+    fig.text(0.5, 0.065, '所在の順序（42番地2、42番地1）は、座標で建物の位置を出して床面積の多い土地を決めてから書く。\n'
+             '問1・問2を先に書いておけば、求積と作図で時間が足りなくなっても、2件の申請書の多くの欄の点は取れている。',
+             ha='center', va='center', fontsize=15)
+    path = os.path.join(OUT, 'R2_dai22mon_zu07_toku_junban.png')
+    fig.savefig(path, dpi=100, facecolor='white')
+    plt.close(fig)
+    print('[重なり検査] 図7: 解く順番（固定配置）\n  →', path)
+
+
 if __name__ == '__main__':
     zu01()
     zu02()
@@ -332,4 +397,5 @@ if __name__ == '__main__':
     zu04()
     zu05()
     zu06()
+    zu07()
     print('重なり合計:', len(PROBLEMS))
