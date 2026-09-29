@@ -65,7 +65,7 @@ PDFが画像でテキストを読み取れない場合や pdftoppm がない場�
 - prompt_{フォルダ名}_dai21mon_kaiwa_kaisetsuzu.md（解説図。基本フォームの本文＋差し替えデータ。出題で求められる解答ごとに1枚以上）
 - zu/draw_{フォルダ名}_dai21mon_kaisetsuzu.py と PNG（実際に作図し、重なりの自動検査0件と目視を確認）
 - prompt_{フォルダ名}_dai21mon_toukishinseisho_gazou.md（登記申請書の完成形。既にあれば共用）
-- prompt_{フォルダ名}_dai21mon_toukishinseisho_machigai.md（誤答→添削→正解の3コマ）
+- prompt_{フォルダ名}_dai21mon_toukishinseisho_machigai.md（誤答→添削→正解の3コマ。3コマは縦に積んだ縦長の画像にする）
 - prompt_{フォルダ名}_dai21mon_miidashi_gazou.md（note見出し画像）
 - verify_{フォルダ名}_dai21mon_kaiwa.py（照合スクリプト）
 

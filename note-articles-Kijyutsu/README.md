@@ -160,6 +160,7 @@ note-articles-Kijyutsu/
 │   │   ├── prompt_R6_dai21mon_kaiwa_kaisetsuzu.md       解説図9枚（全体図・B点・D点・筆界の判断・P点・必要な登記・分筆の地番・地積測量図・地図訂正の申出）作成プロンプト（会話形式用。土地の基本フォームの記入済み）
 │   │   ├── verify_R6_dai21mon.py                        記事の数値・電卓表示の照合スクリプト（プロース版）
 │   │   ├── verify_R6_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト（会話形式）
+│   │   ├── gazou/                                       登記申請書の完成形・添削（3コマを縦に積んだ縦長）のPNGとHTML、生成スクリプト make_R6_dai21mon_shinseisho_gazou.py
 │   │   └── zu/                                          解説図9枚のPNGと、作図スクリプト draw_R6_dai21mon_kaisetsuzu.py
 │   └── Q22/
 │       ├── note_R6_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）

@@ -192,6 +192,29 @@ for s in ['Ａ市Ｂ町一丁目２番地１　山田太郎', 'Ａ市Ｂ町一�
     check('添削', s, fix, '添削')
 check('添削の挿入位置の文言', '申請人も、手続をする土地の所有者です')
 
+# ---- 生成済みの申請書・添削画像（縦長、記入データがプロンプトどおりか） ----
+import struct  # noqa: E402
+for name in ['R6_dai21mon_toukishinseisho_kansei', 'R6_dai21mon_toukishinseisho_machigai']:
+    png = os.path.join(HERE, 'gazou', name + '.png')
+    ok = os.path.exists(png)
+    if ok:
+        w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
+        judge(f'{name}.png が縦長（{w}×{h}px）', h > w)
+    else:
+        judge(f'{name}.png がある', False)
+html_k = open(os.path.join(HERE, 'gazou', 'R6_dai21mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
+html_m = open(os.path.join(HERE, 'gazou', 'R6_dai21mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
+for s in ['令和６年10月18日　申請　Ａ地方法務局', '土地分筆登記', '地積測量図　代理権限証書', 'Ａ市Ｂ町一丁目３番地１　野原花子',
+          '金2,000円', 'Ａ市Ｂ町一丁目', '3番１', '（ロ）3番３', '③3番１、3番３に分筆', '3番１から分筆', '>45<', '>88<', '>37<',
+          '>53<', '>8<', '>34<', '（略）', '令和6年度 土地家屋調査士試験 第21問 登記申請書 解答例']:
+    check('完成形の画像（HTML）', s, html_k, '完成形画像')
+for s in ['①誤答', '②添削（赤ペン）', '③正解', 'Ａ市Ｂ町一丁目２番地１　山田太郎', 'Ａ市Ｂ町一丁目３番地１　野原花子', '>86<',
+          '>88<', '分筆するのは乙土地。申請人は分筆の時点の所有者！', '分筆前の行は登記記録の地積。計算値は書かない',
+          '令和6年度 第21問｜申請人は分筆する土地の所有者、分筆前の地積は登記記録どおり']:
+    check('添削の画像（HTML）', s, html_m, '添削画像')
+    if s.startswith('分筆') or s.startswith('令和6年度 第21問'):
+        check('添削の画像とプロンプトの文言', s, fix, '添削')
+
 # ---- 表記 ----
 for bad in ['PDF', '名変', '右上', '左下', '✓', '✕', 'コンクリートくい', 'くいが', '生けがき', 'へい（']:
     absent('誤記・混入・専門用語のひらがな書き', bad)
