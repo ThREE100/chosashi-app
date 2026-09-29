@@ -24,6 +24,14 @@ note-articles-Kijyutsu/
 ├── tools/
 │   ├── calc_helpers.py                                 F-789SGの計算を再現し、記事の表示値を生成・照合するヘルパー
 │   └── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
+├── H29/
+│   └── Q22/
+│       ├── note_H29_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み）
+│       ├── prompt_H29_dai22mon_kaisetsuzu.md                  解説図6枚（分割の前後比較図・敷地辺長図・建物図面・甲建物の求積図・丙建物の誤り比較図・丙建物の求積図）作成プロンプト
+│       ├── prompt_H29_dai22mon_toukishinseisho_gazou.md       答案用紙の第1欄（問1）と登記申請書（第2欄）の画像プロンプト（完成形2枚）
+│       ├── prompt_H29_dai22mon_toukishinseisho_machigai.md    登記申請書「所在」欄と附属建物の符号の誤答→添削→正解の画像プロンプト
+│       ├── prompt_H29_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
+│       └── verify_H29_dai22mon.py                             記事・付属プロンプトの数値・求積・体裁の照合スクリプト
 ├── H30/
 │   └── Q22/
 │       ├── note_H30_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み）
