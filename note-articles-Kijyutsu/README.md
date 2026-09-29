@@ -6,6 +6,7 @@
 
 - **第21問（土地）**：講師が語りかける解説プロース形式。計算は「式（点名）・電卓操作・表示」の3点セットで厳密に示す
 - **第22問（建物）**：キャラクター「トリ先生」と「藍子」の会話形式（学習コミック風note記事）。計算は要所だけを対話の中で示す軽めのスタイル
+- **第21問（土地）の会話形式（2026-09-29、R7/Q21から）**：第22問と同じキャラクター・体裁で、計算は土地の3点セット（式・電卓操作・表示）を会話の間に置いて省略しない。解説図は解答ごとに1枚、`prompt_kaisetsuzu-gazou_kihon-form_tochi.md` から作る
 
 保存先の階層構造、`qa-checklist-kijutsu.md` によるダブルチェック、`main` へのコミットという運用は両方共通です。
 
@@ -19,10 +20,12 @@ note-articles-Kijyutsu/
 ├── prompt_toukishinseisho-gazou_kihon-form.md          共通：登記申請書 画像作成プロンプト（土地・基本フォーム）
 ├── prompt_toukishinseisho-gazou_kihon-form_tatemono.md 共通：登記申請書 画像作成プロンプト（建物・基本フォーム）
 ├── prompt_kaisetsuzu-gazou_kihon-form_tatemono.md       共通：建物の解説用インフォグラフィック 画像作成プロンプト（基本フォーム）
+├── prompt_kaisetsuzu-gazou_kihon-form_tochi.md          共通：土地の解説用インフォグラフィック 作図プロンプト（基本フォーム。座標から作図、解答ごとに1枚、文字の重なり検査つき）
 ├── qa-checklist-kijutsu.md                             共通：記事作成後のダブルチェック指示書（土地・建物共通＋固有、PDCAの改善記録つき）
 ├── irai-bun_tatemono_shinki-nendo.md                  共通：新しい年度の第22問（建物）記事を別チャットで作らせるときに貼る依頼文（年度の1行だけ書き換えて使う）
 ├── tools/
 │   ├── calc_helpers.py                                 F-789SGの計算を再現し、記事の表示値を生成・照合するヘルパー
+│   ├── zu_helpers.py                                   土地の解説図の作図ヘルパー（座標どおりの作図、辺長・点名・座標の吹き出しの自動配置、重なりの自動検査）
 │   └── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
 ├── H28/
 │   └── Q22/
@@ -103,10 +106,16 @@ note-articles-Kijyutsu/
 │       └── verify_R6_dai22mon.py                              記事・付属プロンプトの数値・求積の照合スクリプト
 └── R7/
     ├── Q21/
-    │   ├── note_R7_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文
+    │   ├── note_R7_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文（プロース形式。アガルート解答例と照合済み）
+    │   ├── note_R7_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。答えはプロース版と同じ。L点は延長線の交点の相似で解く）
     │   ├── prompt_R7_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（R7第21問の記入データ済み）
-    │   ├── prompt_R7_dai21mon_kaisetsuzu.md             解説図（K点・地積測量図・J点L点）作成プロンプト（R7第21問の座標入り）
-    │   └── verify_R7_dai21mon.py                        記事の数値・電卓表示の照合スクリプト
+    │   ├── prompt_R7_dai21mon_toukishinseisho_machigai.md  登記申請書「申請人」「添付書類」欄の誤答→添削→正解の画像プロンプト（会話形式用）
+    │   ├── prompt_R7_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（会話形式用、1280×670px）
+    │   ├── prompt_R7_dai21mon_kaisetsuzu.md             解説図（K点・地積測量図・J点L点）作成プロンプト（プロース版用、R7第21問の座標入り）
+    │   ├── prompt_R7_dai21mon_kaiwa_kaisetsuzu.md       解説図9枚（全体図・D点・筆界の比較・K点・公差・地積測量図・J点・L点・分筆の地番）作成プロンプト（会話形式用。土地の基本フォームの記入済み見本）
+    │   ├── verify_R7_dai21mon.py                        記事の数値・電卓表示の照合スクリプト（プロース版）
+    │   ├── verify_R7_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト（会話形式）
+    │   └── zu/                                          解説図9枚のPNGと、作図の参照実装 draw_R7_dai21mon_kaisetsuzu.py
     └── Q22/
         ├── note_R7_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
         ├── prompt_R7_dai22mon_kaisetsuzu.md                   解説図作成プロンプト
