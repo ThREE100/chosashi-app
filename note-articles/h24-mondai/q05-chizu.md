@@ -337,13 +337,26 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 市街地地域の上限は甲二まで
-Diagram: A side-by-side comparison. LEFT side（誤った思い込み）: a
-dense-urban-zone icon with a signboard reading "精度区分 甲三まで" crossed
-out with a red ✕. RIGHT side（正しいルール）: the same urban-zone icon
-with a signboard reading "精度区分 甲二まで" stamped with a green
-checkmark, alongside two smaller faded reference labels "村落・農耕地域：
-乙一まで" and "山林・原野地域：乙三まで" to show that the same rule applies
-to all three regions at different levels.
+Diagram: A side-by-side comparison. LEFT side（誤った思い込み, labeled
+with a gray "誤った思い込み" header pill）: a dense-urban-zone icon with a
+signboard reading "精度区分　甲三まで" (three characters: 甲, 三, まで)
+crossed out with a large red ✕. RIGHT side（正しいルール, labeled with a
+green "正しいルール" header pill）: the same urban-zone icon with a
+signboard reading "精度区分　甲二まで" (three characters: 甲, 二, まで)
+stamped with a green checkmark. IMPORTANT: these two signboards are NOT
+the same text — the left one is 甲三まで and the right one is 甲二まで,
+differing in the single middle character (三 vs 二). Render 三 (the
+kanji for "three", three horizontal strokes) and 二 (the kanji for "two",
+two horizontal strokes) as visibly distinct glyphs with the correct
+stroke count each; do NOT copy, autocomplete, or default one signboard's
+text to match the other — a common rendering error is to draw both
+signboards with identical text (e.g. both reading 甲二まで), which is
+wrong and must be avoided. To make the two signboards easier to tell
+apart at a glance, render the differing character (三 or 二) larger and
+in a different accent color on each signboard than the surrounding text.
+Below the right side, add two smaller faded reference labels "村落・農耕
+地域：乙一まで" and "山林・原野地域：乙三まで" to show that the same rule
+applies to all three regions at different levels.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、その土地がどの地域区分（市街地・村落農耕・山林原野）にあたるかを確
 認します。市街地地域については、次に、精度区分の上限が「甲三まで」ではな
@@ -372,9 +385,14 @@ comparison or relationship diagram appropriate to a single-check 肢 (no
 panel has been forced into an unnecessary multi-node flowchart), that
 each 着眼点 callout states a checking order rather than only a conclusion
 and keeps every required element from the source article distinct (no
-merged or dropped requirements), confirm nothing is rendered below the
-last panel's footnote text (no summary recap panel, no trophy or medal
-icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
-any kind), and confirm the entire canvas, edge to edge, is filled with a
-fully opaque background with no transparency or alpha channel anywhere.
+merged or dropped requirements). Pay special attention to Panel 5: read
+the two signboard texts side by side and confirm the LEFT signboard reads
+甲三まで and the RIGHT signboard reads 甲二まで — these must NOT be
+identical; if both signboards currently show the same text, that is an
+error and the left signboard must be corrected to read 甲三まで before
+finalizing. Confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
