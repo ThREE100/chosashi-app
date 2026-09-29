@@ -54,6 +54,14 @@ note-articles-Kijyutsu/
 │       ├── prompt_H27_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       └── verify_H27_dai22mon.py                             記事・付属プロンプトの数値・求積・体裁の照合スクリプト
 ├── H28/
+│   ├── Q21/
+│   │   ├── note_H28_dai21mon_tochi_kaiwa_kaisetsu.md    note記事本文（会話形式。アガルート解答例と照合済み）
+│   │   ├── prompt_H28_dai21mon_kaiwa_kaisetsuzu.md      解説図8枚（全体図・D点の放射・J点の交点・筆界点の裏付けと（イ）（ロ）の面積・戊土地の2筆・取得原因と登記原因の整理図・分合筆の前後・地積測量図）作成プロンプト（土地の基本フォームの記入済み）
+│   │   ├── prompt_H28_dai21mon_toukishinseisho_gazou.md 登記申請書画像プロンプト（完成形。土地分合筆登記。項目の順序は平成28年度の答案用紙どおり）
+│   │   ├── prompt_H28_dai21mon_toukishinseisho_machigai.md  登記申請書「登録免許税」欄と合筆後の32番1の行の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
+│   │   ├── prompt_H28_dai21mon_miidashi_gazou.md         note見出し画像（サムネイル）作成プロンプト（1280×670px）
+│   │   ├── verify_H28_dai21mon_kaiwa.py                 記事・付属プロンプト・生成画像の数値・体裁の照合スクリプト
+│   │   └── zu/                                         解説図8枚のPNGと作図スクリプト draw_H28_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像のPNG・HTMLと生成スクリプト make_H28_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_H28_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み）
 │       ├── prompt_H28_dai22mon_kaisetsuzu.md                  解説図7枚（出入り経路図・階の数え方の誤り比較図・敷地辺長図・建物図面・1階/2階/3階求積図）作成プロンプト
