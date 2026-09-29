@@ -96,12 +96,12 @@ note-articles-Kijyutsu/
 ├── H29/
 │   ├── Q21/
 │   │   ├── note_H29_dai21mon_tochi_kaiwa_kaisetsu.md    note記事本文（会話形式。アガルート解答例と照合済み）
-│   │   ├── prompt_H29_dai21mon_kaiwa_kaisetsuzu.md      解説図7枚（全体図・C点の放射・H点・I点〈直角に1.00m離れた平行線、拡大図つき〉・公差の判定・合筆後の分筆の区画・地積測量図）作成プロンプト（土地の基本フォームの記入済み）
+│   │   ├── prompt_H29_dai21mon_kaiwa_kaisetsuzu.md      解説図11枚（全体図・C点の放射・H点・I点〈直角に1.00m離れた平行線、拡大図つき〉・公差の判定・合筆後の分筆の区画・地積測量図・注の仕分け・H点とI点の別解〈FGからの離れの比例〉・（ロ）の対角線・本番で解く順番）作成プロンプト（土地の基本フォームの記入済み）
 │   │   ├── prompt_H29_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（完成形。土地地積更正・分筆登記、相続人2人による申請）
 │   │   ├── prompt_H29_dai21mon_toukishinseisho_machigai.md  登記申請書「申請人」欄と分筆前の行の地積の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
 │   │   ├── prompt_H29_dai21mon_miidashi_gazou.md         note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │   │   ├── verify_H29_dai21mon_kaiwa.py                  記事・付属プロンプト・生成済みの申請書画像の数値・体裁の照合スクリプト
-│   │   └── zu/                                           解説図7枚のPNGと作図スクリプト draw_H29_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像のPNG・HTMLと生成スクリプト make_H29_dai21mon_shinseisho_gazou.py
+│   │   └── zu/                                           解説図11枚のPNGと作図スクリプト draw_H29_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像のPNG・HTMLと生成スクリプト make_H29_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_H29_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み）
 │       ├── prompt_H29_dai22mon_kaisetsuzu.md                  解説図6枚（分割の前後比較図・敷地辺長図・建物図面・甲建物の求積図・丙建物の誤り比較図・丙建物の求積図）作成プロンプト
