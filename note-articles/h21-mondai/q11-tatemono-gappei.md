@@ -196,3 +196,229 @@ paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（記述1〜5 作図ガイド）
+
+建物の合併の登記について、「合併できる／できない」の分かれ目と申請手続の添付書面を、記述ごとに思考の手順として示す作図ガイド。本問は「アからオまで」ではなく「1から5までの記述のうち誤っているものはどれか」という単一選択式のため、パネルは記述1〜5の番号にそろえている。②の俯瞰カードポスターとは別物で、判定の手続そのものを可視化する構成。5パネル、portrait 1080×2600px。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric houses and buildings, condominium
+units, land plots, sealed envelopes, official seal stamps, certificate
+documents, merge arrows, and diamond-shaped decision nodes with ○/✕
+branch marks. Where a 記述 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 記述 is resolved by a single check, a labeled illustrative
+diagram (including a two-frame comparison diagram for a 記述 that turns on
+telling two systems or two applicant types apart) is sufficient — do not
+force a flowchart. No decision tree is shared between panels in this set;
+each panel has its own independent diagram. Where panel 4's flowchart
+requires several conditions to ALL be satisfied together, draw them as a
+chain of separate diamond nodes in sequence rather than compressing them
+into one node, and where any node's ✕ branch is not the outcome this
+記述 actually describes, draw that ✕ branch and its conclusion node in a
+short, faded, dotted-outline style rather than omitting it — never draw a
+loop arrow that returns from any branch node back to an earlier node.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element (e.g. keep 登記の目的
+・受付の年月日・受付番号・登記原因及びその日付 as four distinct checks in
+panel 4, not one merged check).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成21年度 午後の部 第11問 作図ガイド（建物の合併の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。本問は記述1から5までの単一選択式であり、肢ア〜オでは
+ないため、バッジ番号と記述番号を一致させる。バッジ・結論タグの色はすべて
+青で統一する。）
+
+--- PANEL 1（記述1） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+通知を希望しないときは、あらかじめ申出が必要
+Diagram: A horizontal timeline diagram, left to right (not a flowchart,
+since this is resolved by one check). Node 1, drawn with a thick
+highlighted border, labeled 通知を希望しない旨の申出 , an applicant figure
+handing a small slip across a registry counter with a green ✓ on the
+slip. An arrow leads to Node 2 labeled 建物の合併の登記の書面申請 . A
+conclusion node shows a sealed envelope icon labeled 登記識別情報 crossed
+out with a large red ✕, labeled 通知されない .
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、書面により合併の登記を申請する場合に、登記識別情報の通知を希望し
+ないのかを確認します。次に、希望しないときは、申請前にあらかじめその旨
+を申し出る必要があると判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+事前の申出が必要
+
+--- PANEL 2（記述2） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+接続していない区分建物は区分合併できない
+Diagram: An isometric layout diagram (not a flowchart, since this is
+resolved by one check). A cutaway of one condominium floor showing two
+separate units labeled 区分建物 standing apart with a corridor between
+them. A dotted merge arrow between the two units, labeled 区分合併 , is
+struck through with a large red ✕.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、区分合併をしようとする区分建物どうしが、構造上互いに接続している
+かを確認します。次に、接続していなければ区分合併の登記をすることができ
+ないと判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+接続が要件
+
+--- PANEL 3（記述3） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+地番区域が異なっても建物の合併はできる
+Diagram: A two-frame comparison diagram, side by side (this 記述's
+difficulty is telling two different systems apart, not checking several
+conditions in sequence). Left frame labeled 土地の合筆: two land plots in
+different 地番区域 , a merge arrow between them crossed out with a large
+red ✕, a small tag reading 法41条2号 地番区域が異なる合筆は禁止 . Right
+frame, drawn with a thick highlighted border, labeled 建物の合併: two
+isometric houses standing on plots labeled 一丁目 and 二丁目 with a road
+between them, both plots enclosed inside one large outlined area labeled
+同一の登記所 , a green merge arrow with a ✓ mark joining the two houses,
+a small tag reading 法56条に地番区域の制限規定なし .
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地の合筆には地目や地番区域が異なる場合を禁止する明文の規定があ
+ることを確認します。次に、建物の合併にはこれに対応する制限が置かれてい
+ないため、地番区域が異なっても同一の登記所の管轄内であれば合併できると
+判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+建物には地番区域の制限なし
+
+--- PANEL 4（記述4） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+質権の内容が全て一致すれば合併できる
+Diagram: A decision flowchart, drawn top to bottom, as a chain of four
+separate diamond-shaped AND-condition nodes (do not compress them into
+one node). Start: two isometric buildings, each carrying an identical
+hanging tag labeled 質権 . Node 1 labeled 登記の目的は同一か — its ○
+branch leads down to Node 2; its ✕ branch is drawn as a short, faded,
+dotted stub ending in its own small conclusion node labeled 合併できない
+. Node 2 labeled 受付の年月日は同一か — same ○/✕ pattern, ○ leads to
+Node 3. Node 3 labeled 受付番号は同一か — same pattern, ○ leads to Node
+4. Node 4 labeled 登記原因及びその日付は同一か — its ○ branch leads to
+the main conclusion node, drawn with a thick highlighted border and a
+green ✓, labeled 合併の登記をすることができる ; its ✕ branch is a short
+faded dotted stub labeled 合併できない . Draw no arrow returning upward
+from any conclusion node to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、双方の建物にある質権の登記について、目的・受付の年月日・受付番号
+・登記原因及びその日付のすべてが一致しているかを、一つずつ順番に確認し
+ます。次に、そのすべてが一致して初めて、合併の登記をすることができると
+判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+4要素すべてが一致
+
+--- PANEL 5（記述5） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+表題部所有者は印鑑証明書の添付を要しない
+Diagram: A two-frame comparison diagram, side by side (this 記述's
+difficulty is telling two different applicant types apart, not checking
+several conditions in sequence). Above the frames, a crossed-out label
+reads 表題部所有者も添付しなければならない with a large red ✕ (the
+mistaken statement in this 記述). Left frame, drawn with a thick
+highlighted border, labeled 表題部所有者: a person figure with a name tag
+表題部所有者 , beside a certificate document icon labeled 印鑑証明書
+struck through with a large red ✕, a small tag reading 添付不要（規則48条
+5号）. Right frame labeled 所有権の登記名義人: a person figure with a
+name tag 所有権の登記名義人 , the same certificate icon marked with a
+green ✓, a small tag reading 添付必要（規則47条3号イ(6)）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の合併の登記を申請するのが、所有権の登記名義人なのか、表題部
+所有者なのかを確認します。次に、印鑑証明書の添付が必要なのは所有権の登
+記名義人の場合に限られ、表題部所有者にはその添付は不要であると判断しま
+す。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+表題部所有者は添付不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法41条2号・56条5号、不動産登記令16条2項、不動産登記規則47条3号
+イ(6)・48条5号・64条1項1号・131条1号・133条1項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 建・合・併・識・権・記・質・証・鑑・
+接・続・区・番・筆. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously and match the
+記述1〜5 numbering of this problem (not 肢ア〜オ), there is no intro
+illustration or paragraph block between the header and the panels, that
+panel 4 is drawn as an actual chain of four separate AND-condition
+diamond nodes (not one merged node) with every ✕ branch ending at its own
+short faded conclusion node and no loop arrow back to an earlier node,
+that panel 5 correctly shows 記述5 as the ERROR in this problem (表題部
+所有者に印鑑証明書の添付は不要, not required) rather than depicting it as
+if it were a correct statement, that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct (no merged or dropped
+requirements), confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 記述, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

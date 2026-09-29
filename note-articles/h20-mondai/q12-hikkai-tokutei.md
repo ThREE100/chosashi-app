@@ -193,3 +193,192 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — icons such as an application-form icon with a
+countdown-clock badge for the 補正期間, isometric fence/boundary-stake
+icons for 工作物・囲障・境界標, a speech-bubble icon for the 隣接地所有
+者との意見の対立, a rejection-stamp icon on an application form, a
+courthouse/government-building icon for the 審査請求先, and a
+courthouse/gavel icon for the 筆界確定訴訟. Panel 5（肢オ）turns on a
+single yes/no condition whose both outcomes matter, so draw it as a
+small decision flowchart（筆界確定訴訟が係属しているか）with both the
+Yes and the No branch ending in their own labeled conclusion node — do
+not draw a looping arrow back into the diagram. Panel 2（肢イ）and
+Panel 4（肢エ）each contrast a mistaken belief with the correct rule, so
+draw them as LEFT/RIGHT true/false comparisons with the mistaken side
+crossed out with a large ✕. Panels 1 and 3（肢ア・肢ウ）are each
+resolved by a single check, so draw a labeled illustrative diagram for
+them instead of forcing a flowchart. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text — do not drop or merge a
+required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成20年度午後第12問 作図ガイド（筆界特定制度）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft beige containing the number 1.
+Heading (bold, ONE line):
+補正期間内なら不備を直せる
+Diagram: A labeled illustrative diagram (not a flowchart): 筆界特定の申
+請書のisometricイラストに、不備箇所を示す赤い波線と「補正期間◯日以内」
+の時計アイコンが添えられ、期間内に赤ペンで不備が直される場面。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請に補正することができる不備があり、筆界特定登記官が相当な期間を
+定めたかどうかを確認します。その期間内であれば、不備を補正して却下を免れ
+ることができます。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+期間内に補正可
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft beige containing the number 2.
+Heading (bold, ONE line):
+工作物の状況は図面以外でも示せる
+Diagram: A LEFT/RIGHT true/false comparison diagram: LEFT side labeled
+「誤った思い込み」shows 工作物・囲障・境界標のisometricアイコンの横に、
+図面アイコンにのみ緑のチェックマークが付き、写真アイコン・文章アイコンに
+は大きな赤い✕マークが重ねられる。RIGHT side labeled「正しいルール」
+shows 同じ工作物・囲障・境界標のアイコンの横に、図面アイコン・写真アイコ
+ン・文章アイコンのすべてに緑のチェックマークが付き、ラベル「図面を利用す
+る等の方法」が添えられる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、工作物・囲障・境界標等の対象土地の状況を明らかにする方法が図面に限
+られるかどうかを確認します。図面を利用する等の方法により具体的に明示すれ
+ばよく、図面に限定されていません。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+図面に限られない
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft beige containing the number 3.
+Heading (bold, ONE line):
+申請理由は具体的な事情が必要
+Diagram: A labeled illustrative diagram (not a flowchart): 隣接地の所有
+者どうしが工作物の設置をめぐって意見の対立を示す吹き出しアイコン（「境界
+はここではない」）が、筆界特定の申請書に添付される場面。離れた場所に置か
+れた「境界不明」とだけ書かれた抽象的なラベルには大きな赤い✕マークが重ね
+られる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請理由として記載する内容が抽象的な説明で足りるかどうかを確認しま
+す。工作物の設置の際に隣接地所有者と筆界の位置について意見の対立が生じた
+等、具体的な事情を明らかにする必要があります。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+具体的事情が必要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft beige containing the number 4.
+Heading (bold, ONE line):
+却下処分には審査請求ができる
+Diagram: A LEFT/RIGHT true/false comparison diagram: LEFT side labeled
+「誤った思い込み」shows 却下スタンプが押された申請書のisometricイラスト
+から、法務局へ向かう矢印に大きな赤い✕マーク、ラベル「審査請求できない」。
+RIGHT side labeled「正しいルール」shows 同じ却下スタンプ付きの申請書か
+ら、法務局へ向かう矢印に緑のチェックマーク、ラベル「審査請求できる」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界特定の申請の却下処分に対して不服を申し立てる手段があるかどうか
+を確認します。却下は登記官の処分とみなされ、その処分に不服がある申請人は
+審査請求をすることができます。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+却下処分に審査請求可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft beige containing the number 5.
+Heading (bold, ONE line):
+訴訟係属中は事件を特定する記載が必要
+Diagram: A decision flowchart: a diamond-shaped branch node labeled「筆
+界確定訴訟が係属しているか」。Yes（○）の矢印は結論ノード「事件を特定す
+るに足りる事項を申請情報に含める」（裁判所アイコンと「事件番号」ラベル付
+き）へ。No（✕）の矢印は結論ノード「訴訟係属の記載は不要（通常の申請でよ
+い）」へ。どちらの矢印も図の途中へ戻らず、それぞれ専用の結論ノードで終わ
+る。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対象土地の筆界について筆界確定訴訟が係属しているかどうかを確認しま
+す。係属している場合は、その事件を特定するに足りる事項を申請情報の内容と
+しなければなりません。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+係属中は事件を明記
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法131条3項4号・132条1項ただし書・132条1項6号・132条2項・156
+条1項、不動産登記規則207条1項・2項7号・3項7号・4項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 請・査・囲・処・属・訴・訟・対・図.
+If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the
+entire canvas for any character that is not standard Japanese hiragana,
+katakana, or Jōyō kanji — including any Chinese-only character, Korean
+Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears
+anywhere in the image. Confirm the panel count equals 5 exactly, badge
+numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that every
+multi-condition 肢 is drawn as an actual flowchart with branch nodes
+(not a bare illustration with no visible decision structure), that no
+肢 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the
+source article distinct (no merged or dropped requirements), that any
+panel sharing a decision tree with another panel clearly distinguishes
+its own highlighted branch from the other, faded branches, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
+and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

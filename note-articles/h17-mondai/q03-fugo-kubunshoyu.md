@@ -210,7 +210,7 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — an isometric apartment-building cross-section,
 a tenant figure (A) with tools, a landlord figure (B), a bay window
-(出窓), a staircase leading to an independent second-floor room, a hanko
+（出窓）, a staircase leading to an independent second-floor room, a hanko
 stamp for「同意済み」, and a speech-bubble arrow for a money claim. Where
 a 肢 requires checking multiple conditions in sequence before reaching a
 conclusion, draw the panel's diagram as an actual decision flowchart:
@@ -227,8 +227,8 @@ diamonds, branches, and leaves in a faded, greyed-out, or dotted-outline
 style rather than omitting them. Panels 1 and 2 are both about the root
 diamond itself rather than a specific leaf — draw each with a large ✕
 mark crossing out a different irrelevant factor beside the root diamond
-(Panel 1: a crossed-out 同意書 icon labeled 同意の有無は関係ない; Panel 2:
-a crossed-out rising-value graph icon labeled 価値の増減は関係ない) to
+（Panel 1: a crossed-out 同意書 icon labeled 同意の有無は関係ない; Panel 2:
+a crossed-out rising-value graph icon labeled 価値の増減は関係ない）to
 show that neither 同意 nor 価値 is what the tree actually checks. Panel 4
 （肢エ）looks at first glance like a single independence check, but the
 source article requires BOTH 構造上の独立性 AND 利用上の独立性 as two
@@ -246,14 +246,21 @@ the conclusion. Do not include case or precedent numbers
 (article/regulation numbers are fine); keep the callout text as written
 below verbatim, and keep every condition each callout describes faithful
 to the article's own body text — do not drop or merge a required element
-(e.g. keep 構造上の独立性 and 利用上の独立性 as two distinct checks for
-Panel 4, since the source article treats them as two distinct
-requirements).
+（例えば、パネル4の構造上の独立性と利用上の独立性は、原典が2つの別個の要
+件として扱っている以上、必ず別々の確認ステップとして描く）。
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -273,15 +280,15 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成17年度午後第3問 ア〜オ
-作図ガイド（付合・区分所有）
+Subtitle (smaller, centered, 1行):
+平成17年度午後第3問 作図ガイド（付合・区分所有）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
 --- PANEL 1（肢ア） ---
-Badge: a filled circle in green containing the number 1.
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
 判断の入り口は独立性であって同意ではない
 Diagram: A decision-tree flowchart. Root diamond node (drawn with a
@@ -290,10 +297,10 @@ itself): 増改築部分に構造上の独立性（他の部分と壁等で明�
 いること）は認められるか？Beside the diamond, draw a同意書のアイコンに
 大きな×印labeled 同意の有無はここでは関係ない, showing that consent is
 not what this diamond checks. The「いいえ」branch leads to a conclusion
-node reading 強い付合として同意の有無にかかわらずBに帰属 (used
-concretely by Panel 3, rendered here in a lighter weight), and the「は
-い」branch leads to a second diamond node (rendered faded and greyed-
-out, since Panel 4 owns that branch): 利用上の独立性も認められるか？
+node reading 強い付合として同意の有無にかかわらずBに帰属（Panel 3で具体
+的に使用、ここでは軽い重みで表示）, and the「はい」branch leads to a
+second diamond node (rendered faded and greyed-out, since Panel 4 owns
+that branch): 利用上の独立性も認められるか？
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この判断が「賃貸人Bの同意があったかどうか」ではなく「増改築部分
 に独立性が認められるかどうか」から始まることを確認します。同意の有無
@@ -303,7 +310,8 @@ characters):
 独立性の有無で判断
 
 --- PANEL 2（肢イ） ---
-Badge: a filled circle in green containing the number 2.
+Badge: a filled circle in green containing the number 2 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
 価値が増えても判断枠組みは変わらない
 Diagram: The same decision-tree shape as Panel 1, with the same root
@@ -323,9 +331,10 @@ characters):
 価値増加は無関係
 
 --- PANEL 3（肢ウ） ---
-Badge: a filled circle in green containing the number 3.
+Badge: a filled circle in green containing the number 3 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
-独立性のない出窓は同意があってもB
+独立性のない出窓は同意があってもB帰属
 Diagram: The same decision-tree shape as Panels 1 and 2. Root diamond:
 増改築部分に構造上の独立性は認められるか？with the「いいえ」branch
 highlighted with a thick border and full color, leading to a conclusion
@@ -344,7 +353,8 @@ characters):
 独立性なしはB帰属
 
 --- PANEL 4（肢エ） ---
-Badge: a filled circle in green containing the number 4.
+Badge: a filled circle in green containing the number 4 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
 構造上と利用上の独立性が両方必要
 Diagram: The same decision-tree shape as Panels 1-3. First diamond
@@ -366,7 +376,8 @@ characters):
 独立性ありはA取得
 
 --- PANEL 5（肢オ） ---
-Badge: a filled circle in blue containing the number 5.
+Badge: a filled circle in blue containing the number 5 (numbers run
+continuously through all panels).
 Heading (bold, ONE line):
 使用継続と金銭請求は別の話
 Diagram: A 対比枠型（別の話への切り分け）split panel. LEFT side labeled
@@ -394,20 +405,25 @@ Small footnote text (bottom of panel, small font, verbatim):
 づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権, 建, 物, 所, 独, 築, 請, 還. If any character renders as
-a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
-run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that Panels 1, 2, 3 and 4, which
-share one decision tree, each clearly distinguish their own highlighted
-diamond, branch, or leaf from the other, faded parts of the tree, that
-Panel 4's two independence requirements (構造上の独立性 and 利用上の独
-立性) are drawn as two distinct diamonds rather than merged into one
-check, that Panel 5's 対比枠型 layout clearly separates the 使用継続 side
-from the highlighted 金銭の精算 side rather than implying one determines
-the other, that each 着眼点 callout states a checking order rather than
-only a conclusion, confirm nothing is rendered below the last panel's
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権, 建, 物, 所, 独, 築, 請, 還. If
+any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire
+canvas for any character that is not standard Japanese hiragana,
+katakana, or Jōyō kanji — including any Chinese-only character, Korean
+Hangul, other non-Japanese script, or stray decorative glyph — and remove
+or redraw it so that only standard Japanese text appears anywhere in the
+image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that Panels 1, 2, 3 and 4, which share one
+decision tree, each clearly distinguish their own highlighted diamond,
+branch, or leaf from the other, faded parts of the tree, that Panel 4's
+two independence requirements (構造上の独立性 and 利用上の独立性) are
+drawn as two distinct diamonds rather than merged into one check, that
+Panel 5's 対比枠型 layout clearly separates the 使用継続 side from the
+highlighted 金銭の精算 side rather than implying one determines the
+other, that each 着眼点 callout states a checking order rather than only
+a conclusion, confirm nothing is rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no re-
 listed ○/✕ grid of all 肢, and no additional text block of any kind), and
 confirm the entire canvas, edge to edge, is filled with a fully opaque

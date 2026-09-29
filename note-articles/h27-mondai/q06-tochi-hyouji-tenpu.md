@@ -28,6 +28,8 @@
 
 地積の変更の登記と分筆の登記とを一の申請情報により申請する場合、登記原因及びその日付を申請情報の内容とするのは地積の変更の登記についてのみです。分筆の登記は、一筆の土地を人為的に区切って複数の土地に分ける形成的な登記であり、そもそも登記原因（過去の事実）が存在しないため、登記原因及びその日付を記載しません。
 
+実際に、登記記録の表題部「原因及びその日付」欄には、分筆をした場合であっても実際の年月日は記録されず、「何番何、何番何に分筆」「何番から分筆」のように、分割の相手方の地番を示す記載がされるだけです（不動産登記事務取扱手続準則74条）。これに対し、地目・地積の変更や更正の登記では、「令和何年何月何日地目変更」のように実際の年月日を伴う記載がされます（同準則73条）。この記録方法の違いからも、分筆には記録すべき年月日そのものが存在しないことが裏付けられます。
+
 **たとえば**、一筆の土地を測り直して地積を正しい面積に変更しつつ、その土地を2つに分ける登記を同時にする場合、「地積を変更した原因（例：錯誤）とその日付」は書きますが、「土地を分けた原因の日付」は存在しないので書きようがなく、記載しません。
 
 ### ウ：登記申請の代理権は本人の死亡では消滅しないので、相続人からの再委任は不要
@@ -68,7 +70,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
-- 各肢の根拠について、ア（不動産登記規則37条1項）、ウ（不動産登記法17条／民法111条1項1号）、オ（不動産登記令別表9項添付情報）はデータベースのexplanation欄で条文番号まで明記されているものです。一方、イ（分筆の登記が形成的登記であり登記原因が存在しないこと）とエ（規約敷地の分筆で規約を証する情報が不要であること）については、条文番号は明示されておらず、一般原則からの説明にとどまっています。
+- 各肢の根拠について、ア（不動産登記規則37条1項）、ウ（不動産登記法17条／民法111条1項1号）、オ（不動産登記令別表9項添付情報）はデータベースのexplanation欄で条文番号まで明記されているものです。エ（規約敷地の分筆で規約を証する情報が不要であること）については、条文番号は明示されておらず、一般原則からの説明にとどまっています。
+- **イの再検証（2026-09-27実施）**：イ（分筆の登記が形成的登記であり登記原因が存在しないこと）は、当初はデータベースに条文番号の明記がなく一般原則からの説明にとどまっていましたが、他の記事（苦手分析シリーズ②）の執筆過程でユーザーから条文原文でのダブルチェックを依頼されたことを機に、`note-articles/laws/fudousan-touki-jimu-junsoku.md`（不動産登記事務取扱手続準則）の条文原文を確認しました。準則74条（分筆の登記の記録方法）は、登記記録の原因及びその日付欄への記録例を「何番何、何番何に分筆」「何番から分筆」と定めており、実際の年月日を含みません。これに対し準則73条（地目・地積の変更又は更正の登記の記録方法）は「令和何年何月何日地目変更」のように実際の年月日を含む記録例を定めています。この対比により、イの結論は一般原則からの推論にとどまらず、準則の条文原文で直接裏付けられることが確定しました。本文にこの条文根拠を追記しています。
 - **エの補足説明について**：エの結論（規約設定証明情報は不要）は変わりませんが、なぜ不要なのかが実感しにくいという声を踏まえ、実務の流れに沿った補足段落を追加しました。規約を設定して敷地権とする際、登記官が職権でその土地自体の登記記録に「敷地権である旨の登記」を記録する規定（不動産登記法46条）を根拠に、規約敷地であることが既にその土地の登記記録に反映されている、という流れを説明しています。
 - **現行法チェック（条文原文で確認）**：オの根拠として当初「不動産登記令別表8項添付情報ロ」としていましたが、法令原文（`note-articles/laws/fudousan-touki-rei-betsuhyou.md`）で確認したところ、別表8項は「地役権の登記がある承役地の**分筆**の登記」に関する項目でした。本肢オは承役地の**合筆**の登記の場面であり、正しい根拠は別表**9項**添付情報（イ・ロの区分のない単一項目で、内容は本肢と一致）です。本文・本項目とも修正しました。結論（地役権者作成情報・地役権図面が必要）自体は変わりません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（土地の表示登記の申請情報・添付情報）と同一・類似の問題が再出題されていないかを確認しました。**部分的な重複が見つかりました**：本問エ（規約敷地が区分建物と異なる登記所の管轄区域内にあるときの規約設定証明情報の要否＝不要）と同一の論点・同一の結論が、令和2年度第14問アにほぼそのままの文言で再出題されています。「土地の表示に関する登記の申請情報又は添付情報」という同一タイトルの問題は令和元年度第8問にもありますが、その具体的な論点（合筆時の登記識別情報提供不能理由の記載、官公署嘱託時の所有権証明情報の省略可否）は、本問ではなく別のH27の問題（第9問・第14問）と重なる内容でした。将来この年度についてnote記事を作成する際は、内容の重複に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
@@ -299,4 +302,238 @@ vertically and connected by one downward arrow showing the time flow from
 Panel 1 to Panel 2, with no duplicated or missing panels, and confirm
 every heading and caption text matches the Japanese text given above
 verbatim, with no paraphrasing and no substituted characters.
+```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+5肢はそれぞれ別の場面（共通添付情報の援用、分筆と地積変更の登記原因の書き分け、代理権の存続、規約敷地の証明省略、地役権証明の要否）を扱うため、共有木は使わず肢ごとに最適な型を選んだ。ア・エは正しいルールと誤解を対比する構図、イは「事実に基づく登記か形成的登記か」を分ける決定木、ウは「原則（代理権は死亡で消滅）→特則（登記申請の代理権は不消滅）」という隠れた2段階の判定を可視化する決定木、オは地役権者作成の範囲証明情報と地役権図面という2つの必要書類を別々の確認ステップとして並べた構成にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry desks, application
+documents, shared-attachment folders, land plots being divided or merged,
+power-of-attorney scrolls, condominium/regulation-site buildings,
+easement-marked parcels, and sequential checklist boxes for cumulative
+attachment requirements. Where a 肢 requires checking multiple conditions
+in sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. Where a panel reuses a
+decision tree shared with other panels in this set, render the branch
+relevant to THIS panel with a thick highlighted border and full color,
+and render the other, unrelated branches in a faded, greyed-out, or
+dotted-outline style rather than omitting them — the reader should be
+able to see at a glance which part of the shared tree this panel is
+about. Likewise, where a diagram must show an entity that conceptually
+never held the right or status in question (e.g. someone who was never
+an heir, or a claim that never existed), render that entity or claim in a
+faded or dotted-outline style rather than a plain ○/✕ mark, so the visual
+itself communicates "this was never really there," not just "this is
+wrong." Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element (e.g. keep "善意" and
+"無過失" as two distinct checks if the source article treats them as two
+distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第6問 作図ガイド（土地の表示登記の申請情報・添付情報）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+共通添付情報は援用で1回のみ提供
+Diagram: A side-by-side comparison at a registry desk. Left box, faded
+and dotted-outline, labeled「思い込み」, shows two application folders
+「申請情報A」「申請情報B」each with its own copy of the shared attachment
+folder, suggesting the mistaken idea that both need their own copy. Right
+box, highlighted with a thick full-color border, shows「申請情報A」with
+the shared attachment folder attached (green checkmark), and an arrow
+labeled「援用」pointing from it to「申請情報B」, whose own copy of the
+folder is crossed out with a red X and a torn-paper label「重複提供」with
+a diagonal line through it.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず同一の登記所に同時に2件以上の申請をし、かつ共通する添付情報があるか
+を確認します。共通する添付情報があるときは、1件の申請にだけ添付し、他の
+申請では援用する旨を示せば足ります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+援用でコピー不要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+地積変更にのみ登記原因と日付を記載
+Diagram: A decision flowchart with a root diamond node reading「その登記
+は事実に基づくか、形成的登記か」. One branch,「地積変更（事実に基づく）」,
+leads to a box「登記原因：錯誤／日付：令和◯年」filled in with a green
+checkmark. The other branch,「分筆（人為的に区切るだけの形成的登記）」,
+leads to a box showing the registry's actual recording format「何番何に
+分筆」with no calendar date anywhere in it, crossed out by a small red ✕
+placed specifically over a blank date field beside it, labeled「年月日
+なし」. Both branches are drawn as equally real outcomes within the same
+one申請書, since this single application contains both registrations at
+once.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず一の申請情報に含まれる登記が、事実に基づく登記（地積変更）か、人為的
+に区切るだけの形成的登記（分筆）かを見分けます。地積変更については登記原
+因及びその日付を書きますが、分筆の登記記録には「何番何に分筆」のように
+記載されるだけで、実際の年月日は記録されません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+分筆に原因なし
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+登記申請の代理権は死亡でも消滅しない
+Diagram: A decision flowchart with a root diamond node reading「代理権の
+種類は？」. One branch,「一般の代理権（民法の原則）」, is rendered faded
+and dotted-outline, leading to a small greyed-out box「本人の死亡で消滅す
+る」shown only for comparison. The other branch,「登記申請の代理権（不動
+産登記法17条の特則）」, is rendered with a thick highlighted border, and
+leads to a second diamond node「本人が死亡したら？」whose「消滅しない（特
+則）」outcome is marked with a green checkmark and connects to a final
+conclusion box「代理人は最初の委任状のまま申請できる」. Beside it, a
+crossed-out box lists「相続を証する情報」「相続人からの委任状」both with
+red X marks. Show a surveyor figure（土地家屋調査士）holding the original
+委任状 with a green checkmark, while a deceased-owner figure lies in the
+background with a small speech bubble「死亡」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず代理権は本人の死亡によって消滅するのが民法の原則であることを確認しま
+す。次に、登記の申請をする代理人の権限には本人の死亡等によっても消滅しな
+いという不動産登記法の特則があることを確認します。したがって、相続を証す
+る情報や相続人からの委任状を改めて添付する必要はありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+再委任は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+規約設定時の職権記録で分筆時は証明不要
+Diagram: A timeline of two nodes connected by a bold rightward (or
+downward) arrow labeled「後日」. Node 1「規約設定時」shows a registrar
+figure（登記官）stamping a ledger book labeled「土地の登記記録」with a
+badge reading「敷地権である旨の登記」, done without any applicant handing
+over documents (示す：職権でされること). Node 2「分筆時」shows a surveyor
+figure pointing at the already-stamped badge on the same ledger book,
+while a separate document labeled「規約設定証明情報」has a large red X
+mark over it, showing it is not submitted.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず規約を設定して敷地権とした時点で、登記官が職権でその土地の登記記録に
+「敷地権である旨の登記」を記録していることを確認します。次に、後から分筆
+する際は、登記官が登記記録を見れば足りるため、規約を設定したことを証する
+情報を改めて提出する必要はないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+証明書の提出は不要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+地役権の範囲証明と図面を両方確認
+Diagram: Two separate, sequential confirmation boxes (not merged into
+one), connected by a downward arrow, each with its own green checkmark:
+Box 1「地役権者作成の範囲証明情報（または対抗裁判の情報）」, Box 2「地役
+権図面」, leading to a final conclusion node「両方とも必要」. Show an
+isometric land plot 乙（地役権あり、一部に斜線パターン）being merged
+（合筆）with land plot 丙（地役権なし）into one combined parcel, where only
+the former-乙 portion still carries the diagonal easement pattern.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず合筆後の土地に地役権の効力が及ぶ範囲が一部だけかどうかを確認します。
+範囲が一部であるときは、地役権設定の範囲を証する地役権者作成の情報（また
+は地役権者に対抗できる裁判があったことを証する情報）と、地役権図面の両方
+を、別々に添付する必要があります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+証明情報と図面が必要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：不動産登記規則37条1項（ア）、不動産登記事務取扱手続準則74条（イ）、
+不動産登記法17条（ウ）、不動産登記法46条（エ）、不動産登記令別表9項（オ）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 添・付・援・用・筆・登・記・所・権・地・
+証・図・約・敷・代・任・錯・誤・相・続・原・因・職・範・囲・情・報・申・請・準・
+則・何・番・欄・録. If
+any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```

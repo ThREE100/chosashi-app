@@ -191,3 +191,228 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric icons of 宅地・畑・保安林・公衆用道路
+の各土地, a ruler/tape-measure icon, numeric labels showing a raw
+measured value being rounded to its recorded value, a shovel-car icon for
+宅地造成工事中, and a hot-spring gushing-water icon for 温泉の湧出口. All
+5 panels share the same two-step decision tree (地目は宅地または鉱泉地か
+→ 面積は10平方メートルを超えるか), so render that shared tree in every
+panel and highlight only the branch relevant to that panel, fading the
+rest; Panel 4 (肢エ) additionally prepends one extra diamond node (地目
+変更の登記を伴うか)before entering the shared tree, to show why a 温泉の
+湧出口 does not automatically become 鉱泉地. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Where a panel reuses a decision tree shared with other panels in this
+set, render the branch relevant to THIS panel with a thick highlighted
+border and full color, and render the other, unrelated branches in a
+faded, greyed-out, or dotted-outline style rather than omitting them —
+the reader should be able to see at a glance which part of the shared
+tree this panel is about. Likewise, where a diagram must show an entity
+that conceptually never held the right or status in question (e.g.
+someone who was never an heir, or a claim that never existed), render
+that entity or claim in a faded or dotted-outline style rather than a
+plain ○/✕ mark, so the visual itself communicates "this was never really
+there," not just "this is wrong." Unlike a glanceable summary poster,
+each panel MAY include a short「着眼点」callout box with 1-2 sentences
+that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確
+認します"), not just the conclusion. Do not include case or precedent
+numbers (article/regulation numbers are fine); keep the callout text as
+written below verbatim, and keep every condition each callout describes
+faithful to the article's own body text — do not drop or merge a
+required element (e.g. keep "善意" and "無過失" as two distinct checks if
+the source article treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成20年度午後第6問 作図ガイド（地積の記録単位）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft beige containing the number 1.
+Heading (bold, ONE line):
+宅地は面積によらず常に細かく記録
+Diagram: Render the shared decision tree: a diamond node「地目は宅地また
+は鉱泉地か」with a はい arrow rendered with a thick highlighted border
+and full color, leading to a conclusion node「小数点第2位まで記録」; the
+いいえ branch and its downstream diamond node「面積は10平方メートルを超
+えるか」with its two conclusion nodes(「1平方メートル単位で記録」「小数
+点第2位まで記録」)are all rendered in a faded, greyed-out style without
+being omitted. An isometric邸宅とテニスコートのイラストの横に「620.5782
+→620.57㎡」のラベル、誤った「620㎡」の表示には大きな✕マーク。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地の地目が宅地または鉱泉地かどうかを確認します。宅地であれ
+ば面積の大小にかかわらず、常に小数点第2位まで記録します。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+宅地は常に細かく
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft beige containing the number 2.
+Heading (bold, ONE line):
+10平方メートル以下は地目問わず細かく
+Diagram: Render the shared decision tree: the first diamond node「地目は
+宅地または鉱泉地か」with the いいえ branch in normal color leading to the
+second diamond node「面積は10平方メートルを超えるか」whose いいえ arrow
+is rendered with a thick highlighted border and full color, leading to a
+conclusion node「小数点第2位まで記録」; the はい arrow of the first
+diamond, and the はい arrow of the second diamond(整数で記録)are both
+rendered in a faded, greyed-out style without being omitted. An isometric
+公衆用道路のイラストの横に「9.0025→9.00㎡」のラベルとチェックマーク。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目が宅地・鉱泉地でないことを確認し、次に面積が10平方メートルを
+超えるかどうかを確認します。10平方メートル以下であれば、地目を問わず小
+数点第2位まで記録します。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+10㎡以下は例外
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft beige containing the number 3.
+Heading (bold, ONE line):
+宅地・鉱泉地以外は10㎡超で整数
+Diagram: Render the shared decision tree: the first diamond node「地目は
+宅地または鉱泉地か」with the いいえ branch in normal color leading to the
+second diamond node「面積は10平方メートルを超えるか」whose はい arrow is
+rendered with a thick highlighted border and full color, leading to a
+conclusion node「1平方メートル単位(整数)で記録」; the はい arrow of the
+first diamond, and the いいえ arrow of the second diamond(小数点第2位ま
+で記録)are both rendered in a faded, greyed-out style without being
+omitted. An isometric畑のイラストの横に「34.9471→34㎡」のラベル、誤った
+「34.94㎡」の表示には大きな✕マーク。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目が宅地・鉱泉地でないことを確認し、次に面積が10平方メートルを
+超えるかどうかを確認します。10平方メートルを超えていれば、1平方メート
+ル未満を切り捨てて整数で記録します。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+超えたら切り捨て
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft beige containing the number 4.
+Heading (bold, ONE line):
+温泉の湧出口でも地目変更なければ保安林
+Diagram: Before the shared decision tree, prepend one extra diamond node
+「地目変更の登記を伴うか(温泉の湧出口があるだけで鉱泉地になるわけではな
+い)」with its いいえ arrow rendered with a thick highlighted border and
+full color, leading to a label「地目は保安林のまま」, which then feeds
+into the shared decision tree's first diamond node「地目は宅地または鉱
+泉地か」with its いいえ arrow highlighted in the same way, leading to the
+second diamond node「面積は10平方メートルを超えるか」with its はい arrow
+highlighted, leading to a conclusion node「1平方メートル単位(整数)で記
+録」; the はい arrow of the extra diamond(地目が鉱泉地に変わる場合)and
+all other unrelated branches of the shared tree are rendered in a faded,
+greyed-out style without being omitted. An isometric保安林のイラストに
+温泉の湧出口アイコンを添え、「鉱泉地?」の吹き出しに✕マーク、「保安林の
+まま」のラベルにチェックマーク、「56.8703→56㎡」のラベル。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目変更の登記を伴うかどうかを確認します。伴わなければ地目は保安
+林のままなので、次に宅地・鉱泉地でないことと、面積が10平方メートルを超
+えることを確認し、整数で記録します。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+現況だけでは変わらず
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft beige containing the number 5.
+Heading (bold, ONE line):
+造成中の土地はまだ元の地目のまま
+Diagram: Render the shared decision tree: the first diamond node「地目は
+宅地または鉱泉地か」with the いいえ branch in normal color leading to the
+second diamond node「面積は10平方メートルを超えるか」whose はい arrow is
+rendered with a thick highlighted border and full color, leading to a
+conclusion node「1平方メートル単位(整数)で記録」; the はい arrow of the
+first diamond, and the いいえ arrow of the second diamond are both
+rendered in a faded, greyed-out style without being omitted. An isometric
+宅地造成工事中の畑のイラスト(ショベルカーのアイコン)に「まだ宅地ではな
+い」のラベルと「215.4766→215㎡」のラベル。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目が宅地・鉱泉地でないことを確認します。造成工事が完了していな
+ければ地目はまだ元の畑のままなので、次に面積が10平方メートルを超えるこ
+とを確認し、整数で記録します。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+工事中は元の地目
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則99条・100条、不動産登記事務取扱手続準則68条(7)・69条(9)
+(13)に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 鉱・泉・積・録・準・則・湧・捨. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点
+callout states a checking order rather than only a conclusion and keeps
+every required element from the source article distinct (no merged or
+dropped requirements), that any panel sharing a decision tree with
+another panel clearly distinguishes its own highlighted branch from the
+other, faded branches, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```

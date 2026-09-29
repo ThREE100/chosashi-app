@@ -208,3 +208,220 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+ア・ウ・オは分岐の両側がいずれも意味のある結論を持つ決定木型（附属合併か区分合併か、割合を合算しただけか新たな割合を定めたか、名称を記載したか否か）にし、イは一棟全体の滅失と各専有部分の滅失登記の関係を示す系統図型、エは「敷地利用権だから敷地権になれるはず」という思い込みと実際のルールを対比する正誤対比型にした。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — condominium unit icons, a merger arrow between
+adjacent units, a wrecking-ball demolition of a whole building, a
+site-right-ratio addition diagram for a merger of two condominium units,
+a crossed-out unregisterable-right badge, and an application form with a
+building-name field. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. Where a panel reuses a
+decision tree shared with other panels in this set, render the branch
+relevant to THIS panel with a thick highlighted border and full color,
+and render the other, unrelated branches in a faded, greyed-out, or
+dotted-outline style rather than omitting them — the reader should be
+able to see at a glance which part of the shared tree this panel is
+about. Likewise, where a diagram must show an entity that conceptually
+never held the right or status in question (e.g. someone who was never
+an heir, or a claim that never existed), render that entity or claim in a
+faded or dotted-outline style rather than a plain ○/✕ mark, so the visual
+itself communicates "this was never really there," not just "this is
+wrong." Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element (e.g. keep "善意" and
+"無過失" as two distinct checks if the source article treats them as two
+distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第15問 作図ガイド（区分建物の表示登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+附属合併と違い区分合併は接続のみで足りる
+Diagram: ひし形の分岐ノード「合併の種類は附属合併か区分合併か」を描く。附
+属合併（薄いグレーの点線縁取りで縮小表示）からの矢印は「主従の関係が必
+要」という結論ノードへ進む。区分合併（太い緑の縁取り・フルカラーで強調、
+今回のケース）からの矢印は「接続していれば足り主従の関係は不要」という結
+論ノードへ進む。分岐の脇に、同じ所有者が持つ隣り合う2つの専有部分（マンシ
+ョンの部屋）アイコンを壁でつなげ、「合併」という矢印で1つにまとめる図を添
+える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まずこの合併が附属建物との合併（附属合併）か、区分建物どうしの合併（区分
+合併）かを確認します。区分合併の場合は、区分された建物が互いに接続してい
+れば足り、主従の関係にあることは要求されていません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+接続のみで足りる
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+一棟全部の滅失は一棟の滅失登記だけでよい
+Diagram: 一棟のマンション全体アイコン（内部に複数の専有部分を透視図で示
+す）を描き、解体用クレームアイコンで取り壊す様子を示す系統図にする。矢印
+の先に、各専有部分の所有者のうちの一人が「一棟の滅失登記」の申請書1枚だけ
+を窓口に提出する様子を配置し、緑のチェックマークを添える。各専有部分ごと
+の「滅失登記」申請書のアイコンには赤い✕マークを重ね、「別途不要」という破
+れ紙ラベルを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず取り壊されたのが一棟の建物全部か、一部の専有部分だけかを確認します。
+一棟の建物の全部が取り壊された場合は、一棟の建物の滅失登記のみを申請すれ
+ばよく、各専有部分ごとの滅失登記をあわせて申請する必要はありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+各専有部分の登記は不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+敷地権割合を単純合算するだけなら証明不要
+Diagram: ひし形の分岐ノード「合体後の敷地権の割合は、合体前のそれぞれの割
+合を単純に合算したものか、新たな割合を定めたものか」を描く。単純に合算し
+たもの（太い緑の縁取り・フルカラーで強調、今回のケース）からの矢印は「規
+約を設定したことを証する情報は不要」という結論ノードへ進む。新たな割合を
+定めたもの（薄いグレーの点線縁取りで縮小表示）からの矢印は「規約を設定し
+たことを証する情報が必要」という結論ノードへ進む。分岐の脇に、敷地権割合
+「10分の1」を持つ甲部屋アイコンと「10分の1」を持つ乙部屋アイコンが矢印で
+合体し、「10分の2」の敷地権割合を持つ1つの部屋になる様子を描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず合体後の敷地権の割合が、合体前のそれぞれの割合を単純に合算したものか
+どうかを確認します。単純に合算したものが合体後の割合になるときは、あらた
+めて規約を設定したものとはいえないため、規約を設定したことを証する情報を
+提供する必要はありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+単純合算なら証明不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+使用借権は登記できないため敷地権になれない
+Diagram: 左右2枠の正誤対比図を描く。左側「よくある思い込み」の枠には、無
+償で借りた土地（使用貸借）の上に区分建物を新築する人物アイコンを描き、
+「敷地利用権だから敷地権になれるはず」という吹き出しに赤い取り消し線を重
+ねる。右側「正しいルール」の枠には、登記できる権利（所有権・地上権・賃借
+権）を示す3つの小さなバッジを並べて緑のチェックマークを添え、その下に使
+用借権のバッジに赤い✕マークを重ねて「登記できない権利は敷地権になれな
+い」というラベルを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず敷地利用権が「登記できる権利」かどうかを確認します。敷地権になれるの
+は、登記された所有権・地上権・賃借権に限られ、そもそも登記することができ
+ない使用貸借による使用借権は、敷地権にはなり得ません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記できない権利は不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+一棟の名称を書けば構造・床面積の記載は省略できる
+Diagram: ひし形の分岐ノード「申請情報に一棟の建物の名称を記載したか」を描
+く。記載した（太い緑の縁取り・フルカラーで強調、今回のケース）からの矢印
+は「一棟の建物の構造及び床面積の記載は省略できる」という結論ノードへ進
+む。記載していない（薄いグレーの点線縁取りで縮小表示）からの矢印は「構造
+及び床面積の記載が必要」という結論ノードへ進む。分岐の脇に、申請情報の書
+式アイコンに「一棟の建物の名称：〇〇マンション」という記入欄を描き、その
+下の「構造」「床面積」の欄をグレーアウトして「省略可」のスタンプを重ねる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず申請情報に一棟の建物の名称を記載したかどうかを確認します。名称を記載
+したときは、その一棟の建物の構造及び床面積を申請情報の内容としないことが
+できます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+名称記載で省略可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則86条・不動産登記法44条1項9号・不動産登記令3条8
+号へに基づく整理
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 接・続・合・併・主・従・滅・失・棟・専・
+有・部・分・敷・地・権・割・算・体・規・約・証・明・借・貸・賃・名・称・構・
+造・床・面・積・省・略. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+every multi-condition 肢 is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 肢 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather
+than only a conclusion and keeps every required element from the source
+article distinct (no merged or dropped requirements), that any panel
+sharing a decision tree with another panel clearly distinguishes its own
+highlighted branch from the other, faded branches, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

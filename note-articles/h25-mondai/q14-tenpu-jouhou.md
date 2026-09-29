@@ -258,9 +258,8 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成25年度午後第14問 ア〜オ
-作図ガイド（建物の表示登記の添付情報）
+Subtitle (smaller, centered, 1行):
+平成25年度午後第14問 作図ガイド（建物の表示登記の添付情報）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -362,7 +361,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-規・約・証・戸・籍・識・別・援・用・鑑.
+規・約・証・戸・籍・識・別・援・用・鑑・建・物・登・記・所.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,

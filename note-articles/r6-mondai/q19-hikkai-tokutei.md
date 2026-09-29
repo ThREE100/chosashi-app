@@ -274,9 +274,8 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-令和6年度 午後第19問 ア〜オ
-作図ガイド(筆界特定)
+Subtitle (smaller, centered, 1行):
+令和6年度 午後第19問 作図ガイド（筆界特定）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -328,9 +327,9 @@ Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 時効取得部分は筆界に接していなくても申請可
 Diagram: A contrast panel split left and right. LEFT (red-tinted,
-誤りやすい思い込み): 乙土地のうち时効取得した部分と甲土地とが離れて
+誤りやすい思い込み): 乙土地のうち時効取得した部分と甲土地とが離れて
 描かれ、間に大きな赤い✕マークと吹き出し「接していないから申請できない
-はず」。RIGHT (green-tinted, 正しいルール): 同じ乙土地の时効取得部分の
+はず」。RIGHT (green-tinted, 正しいルール): 同じ乙土地の時効取得部分の
 所有者(thick highlighted border, full color)が、乙土地の別の場所で甲
 土地と接する筆界について申請書を提出している図、吹き出し「乙土地の一
 部の所有者という地位があれば足り、取得部分自体が接している必要はな

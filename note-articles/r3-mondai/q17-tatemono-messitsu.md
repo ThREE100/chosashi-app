@@ -278,9 +278,8 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-令和3年度　午後の部　第17問　ア〜オ
-作図ガイド（建物の滅失の登記）
+Subtitle (smaller, centered, 1行):
+令和3年度　午後の部　第17問 作図ガイド（建物の滅失の登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -331,21 +330,21 @@ characters):
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
-抵当権が残っていても滅失登記は申請できる
+ていとう権が残っていても滅失登記は申請できる
 Diagram: Split-panel comparison. Left half, labeled "誤った思い込み" with a
 red ✕ background tint: rubble of a demolished house with a document icon
-labeled "抵当権の設定の登記" floating above it, blocked by a closed gate
-icon labeled "抵当権の抹消" that a broken arrow toward "滅失登記" cannot
+labeled "ていとう権の設定の登記" floating above it, blocked by a closed gate
+icon labeled "ていとう権の抹消" that a broken arrow toward "滅失登記" cannot
 pass through. Right half, labeled "正しいルール" with a green ✓
-background tint: the same rubble, the same "抵当権の設定の登記" document
+background tint: the same rubble, the same "ていとう権の設定の登記" document
 icon still floating above it (not crossed out, still present), with an
 arrow leading directly and unobstructed from the rubble to a registry
 stamp labeled "滅失登記", and a small label reading "承諾書も添付情報と
 ならない".
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、滅失の登記は建物という物理的な客体が消滅した事実をそのまま反映
-する表示に関する登記であることを確認します。次に、抵当権者からの承諾
-書は添付情報とならず、抵当権の設定の登記を抹消しなくても滅失登記を申請
+する表示に関する登記であることを確認します。次に、ていとう権者からの承諾
+書は添付情報とならず、ていとう権の設定の登記を抹消しなくても滅失登記を申請
 できることを確認します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):

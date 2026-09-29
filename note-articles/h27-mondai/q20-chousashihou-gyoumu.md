@@ -208,3 +208,194 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに示す解き方ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。この問題の5肢はいずれも1回の確認で結論に至る肢のため、無理にフローチャート化せず、タイムライン図・系統図・正誤対比図を肢ごとに使い分けて構成した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric surveyor's office icons, a
+disciplinary-action stamp, a corporate (法人) building, an appraiser badge,
+a fee-schedule document, surveying equipment, an assistant (補助者)
+character, a surveyor-association building. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Where a panel reuses a decision tree shared with other panels in this
+set, render the branch relevant to THIS panel with a thick highlighted
+border and full color, and render the other, unrelated branches in a
+faded, greyed-out, or dotted-outline style rather than omitting them —
+the reader should be able to see at a glance which part of the shared
+tree this panel is about. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第20問 作図ガイド（土地家屋調査士又は調査士法人の業務）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+業務禁止処分後3年間は資格を失う
+Diagram: タイムライン型として描く。左端に「業務禁止の処分を受けた日」を
+示す日付アイコン（懲戒処分の赤いスタンプ）を置き、右へ矢印を伸ばし、
+右端に「再登録が可能になる日」を示す扉のアイコンを置く。矢印の途中に
+「3年」という大きなラベルを配置する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、業務の禁止の処分を受けたことを確認します。次に、その処分の日を
+起算点として3年というタイムリミットを確認すると、その期間は調査士と
+なる資格を失うことが分かります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+処分日から3年間資格喪失
+
+--- PANEL 2（肢イ） ---
+Badge: a filled green circle containing the number 2.
+Heading (bold, ONE line):
+調査士法人の鑑定業務の根拠を確認する
+Diagram: 系統図・関係図型として描く。土地家屋調査士法人の事務所の建物
+アイコンから、「定款」の書類アイコンへ矢印を伸ばし、その定款に「法務省令
+で定める業務」というラベルを付ける。さらにその定款から「鑑定人として
+筆界の鑑定を行う業務」というラベルの付いた鑑定人バッジのアイコンへ矢印
+を伸ばす、という3段階のつながりを描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、調査士法人が定款で定めれば、法令等に基づきすべての調査士が行う
+ことができるものとして法務省令で定める業務を行えることを確認します。
+次に、鑑定人に就任し筆界の鑑定を行う業務が、この法務省令で定める業務に
+含まれることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+定款規定で鑑定業務可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line):
+報酬基準は受任前に示す義務がある
+Diagram: タイムライン型として描く。左端に「依頼を受けようとする時点」を
+示す人物アイコン（依頼者と向き合う調査士）を置き、右へ矢印を伸ばし、
+右端に「業務を受任する時点」を示す契約書アイコンを置く。矢印の途中に
+「あらかじめ報酬基準を示す」というラベルを配置する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、業務を受任しようとする場面であることを確認します。次に、契約を
+結ぶより前の時点で、依頼をしようとする者に報酬の基準を示す義務がある
+ことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+受任前に基準を提示
+
+--- PANEL 4（肢エ） ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line):
+正当な事由でも補助者に業務は任せられない
+Diagram: 正誤対比型として描く。左枠（誤りやすい思い込み）：体調不良で
+寝込んでいる土地家屋調査士キャラクターのベッドアイコンの横に「正当な
+事由があるので補助者に任せられる」というラベルを付け、補助者キャラクター
+が測量機材を持って業務に向かおうとしている様子を描き、誤って緑のチェック
+マークを重ねる。右枠（正しいルール）：同じ場面で補助者キャラクターの前に
+大きな赤い✕マークを配置し、「正当な事由があっても業務そのものは取り
+扱わせられない」というラベルを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、調査士本人が自ら業務を行うことができない正当な事由があるかを確認
+します。次に、その正当な事由があっても、補助者に業務そのものを取り
+扱わせることは認められていないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+正当事由でも不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line):
+補助者設置の届出先は調査士会
+Diagram: 正誤対比型として描く。左枠（誤りやすい思い込み）：調査士事務所
+に補助者キャラクターが新しく加わる場面で、届出書類が法務局・地方法務局
+の建物アイコンに向かっている様子に赤い✕マークを重ねる。右枠（正しい
+ルール）：同じ届出書類が土地家屋調査士会の建物アイコンに向かい、緑の
+チェックマークが付く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、補助者を置いたときに届出をする義務があることを確認します。次に、
+その届出先が事務所の所在地を管轄する法務局や地方法務局の長ではなく、
+所属する土地家屋調査士会であることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+法務局でなく調査士会
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+平成27年度 午後の部 第20問（土地家屋調査士法5条5号・29条1項1号・42条
+3号、同法施行規則21条・22条・23条1項・2項）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 業・務・禁・止・処・分・調・査・士・法・人・
+格・鑑・定・依・頼・報・酬・基・準・示・義・補・助・者・届・出・地・方. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
+text block of any kind), and confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
+```

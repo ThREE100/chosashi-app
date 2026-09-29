@@ -271,9 +271,8 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-令和3年度 午後 第20問 ア〜オ
-作図ガイド（土地家屋調査士法の届出・監督・依頼）
+Subtitle (smaller, centered, 1行):
+令和3年度 午後 第20問 作図ガイド（土地家屋調査士法の届出・監督・依頼）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -358,7 +357,7 @@ and a further arrow leads to a second distinct conclusion node showing a
 next to a fast-ticking clock icon, labeled「承諾しないなら速やかに
 依頼者へ通知」. Render the No branch（labeled ✕／いいえ）in a faded,
 greyed-out, dotted-outline style leading to its own distinct conclusion
-node labeled「正当事由なければ拒めない（オ肢を参照）」— do not omit this
+node labeled「正当事由なければ拒めない（肢オを参照）」— do not omit this
 node, but keep it visually de-emphasized. Do not route any arrow back to
 an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -385,7 +384,7 @@ second distinct conclusion node showing an isometric「土地家屋調査士
 refusing it, labeled「土地家屋調査士法人にも準用される（法41条1項）」.
 Render the Yes branch（labeled ○／はい）in a faded, greyed-out,
 dotted-outline style leading to its own distinct conclusion node labeled
-「応諾義務はない（エ肢を参照）」— do not omit this node, but keep it
+「応諾義務はない（肢エを参照）」— do not omit this node, but keep it
 visually de-emphasized. Do not route any arrow back to an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず「依頼された業務が筆界特定の手続についての代理・相談に関する業務か

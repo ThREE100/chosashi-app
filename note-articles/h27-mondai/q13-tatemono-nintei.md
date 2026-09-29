@@ -205,3 +205,223 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+5肢すべてが「①外気分断性→②定着性→③用途性・独立性」という同一の3段階チェックを共有しているため、5枚のパネルで同じ決定木を使い回し、各パネルは自分の肢が実際にたどる枝（多くは③用途性・独立性の判定）だけを太い縁取り・フルカラーで強調し、それ以外の枝は薄いグレーで縮小表示する構成にした。オ肢のみ、③を満たした先にさらに「半永久的な構造か（耐用年数）」という追加の分岐があることを示す。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — a roofed-and-walled structure for 外気分断性, a
+foundation anchoring it to the ground for 定着性, and an independent-use
+check for 用途性・独立性, illustrated with the statue interior, train-
+platform kiosk, rotating tower parking, roadway arcade, and glass
+greenhouse frame appropriate to each panel. Where a 肢 requires checking
+multiple conditions in sequence before reaching a conclusion, draw the
+panel's diagram as an actual decision flowchart: diamond-shaped branch
+nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
+and a final conclusion node. Where a 肢 is resolved by a single check, a
+labeled illustrative diagram is sufficient — do not force a flowchart.
+Where a panel reuses a decision tree shared with other panels in this set,
+render the branch relevant to THIS panel with a thick highlighted border
+and full color, and render the other, unrelated branches in a faded,
+greyed-out, or dotted-outline style rather than omitting them — the
+reader should be able to see at a glance which part of the shared tree
+this panel is about. Likewise, where a diagram must show an entity that
+conceptually never held the right or status in question (e.g. someone who
+was never an heir, or a claim that never existed), render that entity or
+claim in a faded or dotted-outline style rather than a plain ○/✕ mark, so
+the visual itself communicates "this was never really there," not just
+"this is wrong." Unlike a glanceable summary poster, each panel MAY
+include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers
+(article/regulation numbers are fine); keep the callout text as written
+below verbatim, and keep every condition each callout describes faithful
+to the article's own body text — do not drop or merge a required element
+(e.g. keep "善意" and "無過失" as two distinct checks if the source article
+treats them as two distinct requirements).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第13問 作図ガイド（建物の認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+観音像も独立した用途があれば建物
+Diagram: すべてのパネルで共通の3段のひし形決定木（①「屋根・周壁があるか
+（外気分断性）」→②「土地に固定されているか（定着性）」→③「独立した用途に
+使える状態か（用途性・独立性）」）を描く。①と②は薄いグレーの点線縁取りで
+小さく表示し、○の矢印で下へ流す。③のひし形だけを太い緑の縁取り・フルカラ
+ーで強調し、Yesの矢印（強調）が「建物として登記できる」という結論ノードへ
+進む。Noの矢印は薄いグレーで「建物として登記できない」という結論ノードへ
+進める（今回はたどらない側として縮小表示）。決定木の脇に、内部が空洞になっ
+た観音像のイソメトリック断面図を描き、内部に祭壇と座って拝む参拝者アイコン
+を配置する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず屋根・周壁があるか、次に土地に固定されているかを確認し、最後に独立し
+た用途に使える状態かを確認します。観音像内部に祭壇や参拝者の設備があるた
+め、独立した用途性も満たし、建物として扱われます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+独立用途あり→建物
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+駅ホームの売店は独立した用途性を欠く
+Diagram: パネル1と同じ3段の決定木を再掲する。①「屋根・周壁があるか」②
+「土地に固定されているか」は薄いグレーの点線縁取りで小さく表示し、○の矢印
+で下へ流す。③「独立した用途に使える状態か」のひし形だけを太い青の縁取り・
+フルカラーで強調し、Noの矢印（強調）が「建物として登記できない」という結
+論ノードへ進む。Yesの矢印は薄いグレーで「建物として登記できる」という結論
+ノードへ進める（今回はたどらない側として縮小表示）。決定木の脇に、屋根のあ
+る駅のホームアイコンを描き、その中にコンクリート基礎の売店アイコンを配置
+する。売店の上に赤い✕マークと「独立性なし」という破れ紙ラベルを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず屋根・周壁があるか、次に土地に固定されているかを確認します。最後に独
+立した用途に使えるかを確認すると、駅のホーム内にある売店は停車場の一部に
+すぎず独立性を欠くため、建物として扱われません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+独立用途なし→不可
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+立体駐車場のタワーは用途性を満たし建物
+Diagram: パネル1・2と同じ3段の決定木を再掲する。①②は薄いグレーの点線縁
+取りで小さく表示する。③「独立した用途に使える状態か」のひし形を太い緑の
+縁取り・フルカラーで強調し、Yesの矢印（強調）が「建物として登記できる」と
+いう結論ノードへ進む。Noの矢印は薄いグレーで縮小表示する。決定木の脇に、
+屋根と外壁で囲われたタワー状の構造物を描き、内部に車を格納する回転式パー
+キング機械のアイコンと小さな車のアイコンを配置する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず屋根・外壁があるか、次に土地に固定されているかを確認します。最後に独
+立した用途に使えるかを確認すると、回転式パーキング機械を備えたタワー状の
+立体駐車場は独立した用途性を満たし、建物として扱われます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+独立用途あり→建物
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+アーケードは道路の附属物で用途性を欠く
+Diagram: パネル1〜3と同じ3段の決定木を再掲する。①②は薄いグレーの点線縁
+取りで小さく表示する。③「独立した用途に使える状態か」のひし形を太い青の
+縁取り・フルカラーで強調し、Noの矢印（強調）が「建物として登記できない」
+という結論ノードへ進む。Yesの矢印は薄いグレーで縮小表示する。決定木の脇
+に、公衆用道路の上に屋根覆い（アーケード）が架かる商店街の通りを描き、歩
+行者アイコンがその下を歩く。屋根構造の上に赤い✕マークと「道路の一部」と
+いう破れ紙ラベルを添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず屋根があるか、次に土地に固定されているかを確認します。最後に独立した
+用途に使えるかを確認すると、道路上のアーケードは不特定多数が通行する道路
+の附属物にすぎず独立性を欠くため、建物として扱われません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+独立用途なし→不可
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+半永久的な温床施設は用途性を満たし建物
+Diagram: パネル1〜4と同じ3段の決定木を再掲する。①②は薄いグレーの点線縁
+取りで小さく表示する。③「独立した用途に使える状態か」のひし形を太い緑の
+縁取り・フルカラーで強調し、Yesの矢印（強調）は、他のパネルにはない追加
+のひし形「半永久的な構造か（耐用年数）」へ進む。この追加ノードも太い緑の
+縁取りで強調し、Yesの矢印が「建物として登記できる」という結論ノードへ進
+む。Noの矢印（薄いグレー）は「簡易なビニールハウス（建物として扱われな
+い）」という結論ノードへ進める。決定木の脇に、屋根と周壁がガラスパネルで
+できた温室アイコンを描き、内部に植物と頑丈な基礎を配置する。その横に簡易
+なビニールハウスのアイコンを小さく薄いグレーで描き、対比させる。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず屋根・周壁があるか、次に土地に固定されているかを確認し、独立した用途
+に使えるかを確認します。さらに半永久的な構造かどうかを確認すると、ガラス
+張りで長期間使える温床施設は建物として扱われますが、耐用年数がおおむね1
+年程度の簡易なビニールハウスはこの扱いから除かれます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+半永久的なら建物
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+登記実務上の建物認定基準（外気分断性・定着性・用途性の3要件）に基づく整理
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 観・音・像・祭・壇・拝・独・立・用・途・
+性・欠・外・気・分・断・定・着・駅・売・店・基・礎・駐・車・場・回・転・機・
+械・街・路・道・附・属・半・永・久・温・床・施・設・耐. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

@@ -206,3 +206,191 @@ tag, at a glance. Confirm no card depicts an incorrect statement (アの
 「事業完了の時」「50年」やイの「永久」やエの「10年」を正しい結論として
 描かない) — all five cards must show the correct legal rule only.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+three things in order for every 肢 — ①何の保存期間か（対象物）, ②いつ
+から数えるか（基準時）, ③何年間か（年数）— using icons for closed
+registry books, land-plot diagrams (地積測量図), application documents,
+calendar/stamp icons for 基準時, and a large year-count badge for the
+final number. Where a 肢 asserts an incorrect object, start date, or
+year count, contrast it against the correct rule with a crossed-out
+（赤い×印・取り消し線付き）incorrect label beside the correct one, in a
+正誤対比型 layout. Where a 肢 is a straightforward positive rule, draw a
+タイムライン型 diagram running left to right from the 基準時 to the
+expiry point labeled with the correct year count. A labeled illustrative
+diagram is sufficient for every 肢 here since each is resolved by
+confirming the same three items in the same order, not by a branching
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (対象物→基準時→年数 の順), not just the conclusion. Do
+not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body
+text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成17年度午後第13問 作図ガイド（登記記録・図面・申請書類の保存期間）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+区画整理図面は完了時でなく閉鎖日から30年
+Diagram: A 正誤対比型 diagram. An isometric 地積測量図 icon on a filing
+shelf. LEFT side (誤りやすい思い込み): a torn-paper label reading
+「事業完了の時から」connected to a badge reading「50年」, both crossed
+out with a large red X and a strike-through line. RIGHT side (正しい
+ルール、太い縁取りで強調): a calendar icon labeled「閉鎖の日」with an
+arrow pointing to a badge reading「30年」in full color.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この図面が土地区画整理事業に伴い閉鎖された地積測量図等である
+ことを確認します。次に、基準時が事業完了の時ではなく閉鎖の日である
+こと、年数が50年ではなく30年であることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+閉鎖の日から30年
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+合筆で閉鎖の登記記録は永久でなく50年
+Diagram: A 正誤対比型 diagram. 土地Aと土地Bが合筆されるイソメトリック
+シーン。土地Bの登記記録アイコンには「閉鎖登記記録」というラベルを付
+ける。LEFT side (誤りやすい思い込み): 「永久に保存される」というラベ
+ルに大きな赤い×印と取り消し線。RIGHT side (正しいルール、太い縁取り
+で強調): カレンダーアイコン「閉鎖の日」から矢印を伸ばし、「50年」と
+いうバッジへつなげる。存続する土地Aの登記記録は別枠で「永久保存」と
+対比的に描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この登記記録が合筆によって閉鎖された登記記録であることを確認
+します。次に、閉鎖登記記録は永久保存ではなく、閉鎖の日から50年間で
+保存期間が満了することを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+閉鎖の日から50年
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+表示登記の申請書類は当時5年保存だった
+Diagram: A タイムライン型 diagram running left to right. 左端に「申請
+日」のカレンダーアイコン、右端に「5年後」のマーカー、その間を矢印で
+つなぐ。書類アイコンには「分筆登記の申請情報」というラベルを付け、
+タイムラインの上に小さな注記「平成17年当時の規律」を添える。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この申請書類が表示に関する登記の申請情報であることを確認しま
+す。次に、平成17年当時（現行の30年に伸長される前）の保存期間は申請
+から5年間であったことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+当時は申請から5年
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+持分登記の申請書類は10年でなく30年
+Diagram: A 正誤対比型 diagram. An isometric「建物所有権持分登記の申請
+書」icon. LEFT side (誤りやすい思い込み): a torn-paper label reading
+「受け取った日から」connected to a badge reading「10年」, both crossed
+out with a large red X and a strike-through line. RIGHT side (正しい
+ルール、太い縁取りで強調): a calendar icon labeled「受付の日」with an
+arrow pointing to a badge reading「30年」in full color.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この書類が権利に関する登記の申請情報及びその添付情報であるこ
+とを確認します。次に、その保存期間が10年ではなく、受付の日から30年
+間であることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+受付日から30年
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+農地改良図面も閉鎖時から30年保存
+Diagram: A タイムライン型 diagram running left to right, drawn in the
+same shape as Panel 1 to show the same rule applies. 左端に「事業完
+了・閉鎖の日」のカレンダーアイコン、右端に「30年後」のマーカー、その
+間を矢印でつなぐ。図面アイコンには「旧農地改良事業地に係る図面」とい
+うラベルを付ける。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この図面が旧農地改良事業（土地改良事業）に係る図面であり、事
+業の完了によって閉鎖されたものであることを確認します。次に、区画整
+理の図面と同じく、閉鎖の日から30年間保存されることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+閉鎖時から30年
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則28条1項1号（現に効力を有する登記記録は永久保存）・4号
+（土地の閉鎖登記記録は50年、肢イ）・9号（表示に関する登記の申請情報
+等、肢ウ）・10号（権利に関する登記の申請情報等は30年、肢エ）・13号
+（土地所在図等は閉鎖後30年、肢ア・オ）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 登・記・録・地・積・図・所・閉・鎖・
+存・号・項. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form.
+Also scan the entire canvas for any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only
+character, Korean Hangul, other non-Japanese script, or stray decorative
+glyph — and remove or redraw it so that only standard Japanese text
+appears anywhere in the image. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that each 正誤対比
+panel clearly crosses out the incorrect object/basis-date/year-count
+combination while highlighting the correct one, that each 着眼点 callout
+states a checking order（対象物→基準時→年数）rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

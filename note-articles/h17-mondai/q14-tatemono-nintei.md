@@ -202,3 +202,254 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric train car body, a temple gate
+(山門), a steel-and-glass greenhouse, a train-platform kiosk, a pier
+office building, a concrete-foundation icon, a roof-and-wall icon, and a
+green checkmark or red ✕ mark for each requirement. Where a 肢 requires
+checking multiple conditions in sequence before reaching a conclusion,
+draw the panel's diagram as an actual decision flowchart: diamond-shaped
+branch nodes with the condition written on them, Yes/No (or ○/✕) branch
+arrows, and a final conclusion node. Panels 1（肢ア）, 2（肢イ）, 3（肢
+ウ）, 4（肢オ）and 5（肢エ）all share the same underlying three-diamond
+AND decision tree (first diamond: 土地への定着性はあるか → reached only
+on はい, second diamond: 独立した屋根・周壁による外気分断性はあるか →
+reached only on はい, third diamond: 居住・作業・貯蔵等の用途性はある
+か); every diamond's「いいえ」branch leads to the same conclusion node
+建物と認定できない, and the third diamond's「はい」branch leads to the
+conclusion node 建物と認定できる. Draw all five panels with the same
+three-diamond tree shape, but render the diamond(s), branch(es), and
+leaf relevant to THIS panel with a thick highlighted border and full
+color, and render the other, unrelated diamonds, branches, and leaves in
+a faded, greyed-out, or dotted-outline style rather than omitting them.
+Panels 1, 2, 3, and 4 all reach 建物と認定できる by answering「はい」at
+all three diamonds, but each panel highlights the ONE diamond that is
+genuinely the distinctive point for its own 肢 (Panel 1: 定着性, since a
+moving train car body becomes 建物 only once fixed by a concrete
+foundation; Panel 2: 用途性, since only the upper 宝物庫 portion of the
+山門 is what supplies the use-purpose; Panel 3: 外気分断性, since a glass
+wall still counts if the structure is sturdy; Panel 4: 定着性, since the
+office is fixed to the land only indirectly, through the permanent
+pier), while still showing all three diamonds and leaving the other two
+in a normal (not faded) weight, since this 肢 truly does satisfy all
+three. Panel 5（肢エ）looks at first glance like it might be resolved by
+定着性 alone (the kiosk does have a concrete foundation), but the source
+article treats it as failing at the SECOND diamond (外気分断性): the
+kiosk itself has no independent roof or walls of its own, only borrowing
+the platform's overall roof (上屋) — highlight the first diamond
+（定着性、はい、通常の重みで描く）and the second diamond （外気分断
+性、いいえ、太い縁取りで強調） leading directly to 建物と認定できない,
+and render the third diamond (用途性) in a faded, greyed-out style since
+the chain never reaches it — do not compress this into a single 定着性
+check. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words, not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the
+callout text as written below verbatim, and keep every condition each
+callout describes faithful to the article's own body text — do not drop
+or merge 定着性・外気分断性・用途性 into fewer than three distinct
+checks.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成17年度午後第14問 作図ガイド（建物認定の3要件）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+電車の車体も基礎工事で定着性を満たす
+Diagram: The shared three-diamond AND decision-tree flowchart. Diamond 1
+(highlighted with a thick colored border, since this is the panel's
+distinctive point): 土地への定着性はあるか？Illustrated beside it: an
+isometric train car body placed on a small plot of land, with a concrete
+foundation drawn beneath it firmly anchoring it to the ground. 「はい」
+矢印はDiamond 2へ。Diamond 2 (normal weight, satisfied but not the
+distinctive point): 独立した屋根・周壁による外気分断性はあるか？車体自
+体の屋根・周壁のアイコンに緑のチェックマーク。「はい」矢印はDiamond 3
+へ。Diamond 3 (normal weight): 居住・作業・貯蔵等の用途性はあるか？車
+内で人が暮らす居室のアイコンに緑のチェックマーク。「はい」矢印は結論
+ノード「建物と認定できる」へ。各ダイアモンドの「いいえ」矢印は、共通
+の結論ノード「建物と認定できない」（薄いグレーで縮小表示、今回は使わ
+ない結論）へ。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、電車の車体が土地にコンクリートの基礎工事で定着しているかを確
+認します。次に、屋根・周壁による外気分断性、そして居室としての用途
+性もあわせて備えていることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+基礎工事で定着性あり
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+山門は宝物庫部分が用途性を満たす
+Diagram: The same shared three-diamond tree shape. Diamond 1 (normal
+weight): 土地への定着性はあるか？山門全体が土地に固定された恒久的な建
+造物であることを示すイラストに緑のチェックマーク。「はい」矢印はDia
+mond 2へ。Diamond 2 (normal weight): 独立した屋根・周壁による外気分断
+性はあるか？山門の上部が屋根・周壁で囲われている様子に緑のチェックマ
+ーク。「はい」矢印はDiamond 3へ。Diamond 3 (highlighted with a thick
+colored border, since this is the panel's distinctive point): 居住・
+作業・貯蔵等の用途性はあるか？山門の1階部分は人が通り抜けるだけの門
+として薄く描き、上部だけを宝物庫として仏具や経典のアイコンで満たし、
+「宝物庫」というラベルと緑のチェックマークを付ける。「はい」矢印は結
+論ノード「建物と認定できる」へ。各ダイアモンドの「いいえ」矢印は共通
+の結論ノード「建物と認定できない」（faded）へ。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、山門全体が土地に定着し、屋根・周壁による外気分断性を備えてい
+ることを確認します。次に、上部が宝物庫として利用されているという用
+途性を満たすことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+宝物庫で用途性あり
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+ガラス張り温室も外気分断性を満たす
+Diagram: The same shared three-diamond tree shape. Diamond 1 (normal
+weight): 土地への定着性はあるか？温室が土地に固定されている様子に緑
+のチェックマーク。「はい」矢印はDiamond 2へ。Diamond 2 (highlighted
+with a thick colored border, since this is the panel's distinctive
+point): 独立した屋根・周壁による外気分断性はあるか？鉄骨の骨組みにガ
+ラス板がはめられた強固な温室のイラストに、ガラスの壁を指す「外気分
+断性」というラベルと緑のチェックマークを添える。「はい」矢印はDia
+mond 3へ。Diamond 3 (normal weight): 居住・作業・貯蔵等の用途性はあ
+るか？温室内でトマトなどの植物を育てている様子に緑のチェックマー
+ク。「はい」矢印は結論ノード「建物と認定できる」へ。各ダイアモンドの
+「いいえ」矢印は共通の結論ノード「建物と認定できない」（faded）へ。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、温室が土地に定着していることを確認します。次に、素材がガラス
+であっても、鉄骨で強固に組まれ風雨をしのげる外気分断性を備えている
+ことを確認し、最後に植物を育てるという用途性を確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+ガラスでも外気分断性あり
+
+--- PANEL 4（肢オ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+桟橋上の事務所も桟橋経由で定着性あり
+Diagram: The same shared three-diamond tree shape. Diamond 1
+(highlighted with a thick colored border, since this is the panel's
+distinctive point): 土地への定着性はあるか？永久的な建造物である桟橋
+の上に、コンクリートの基礎工事で固定された事務所のイラストを描き、
+桟橋自体が土地（水底等）に固定されていることを示す矢印を添えて緑の
+チェックマークを付ける。「はい」矢印はDiamond 2へ。Diamond 2 (normal
+weight): 独立した屋根・周壁による外気分断性はあるか？事務所の屋根・
+周壁のアイコンに緑のチェックマーク。「はい」矢印はDiamond 3へ。
+Diamond 3 (normal weight): 居住・作業・貯蔵等の用途性はあるか？事務作
+業を行う人物のアイコンに緑のチェックマーク。「はい」矢印は結論ノード
+「建物と認定できる」へ。各ダイアモンドの「いいえ」矢印は共通の結論
+ノード「建物と認定できない」（faded）へ。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、桟橋自体が永久的な建造物として土地に固定されているため、その
+上の事務所も桟橋を介して定着性を満たすことを確認します。次に、屋
+根・周壁による外気分断性、事務作業という用途性もあわせて備えている
+ことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+桟橋ごと定着している
+
+--- PANEL 5（肢エ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+売店は独自の屋根・周壁がなく認定できない
+Diagram: The same shared three-diamond tree shape, but the chain stops
+at the second diamond. Diamond 1 (normal weight, satisfied): 土地への
+定着性はあるか？コンクリートの基礎工事で固定された売店のイラストに
+緑のチェックマーク。「はい」矢印はDiamond 2へ。Diamond 2 (highlighted
+with a thick colored border, since this is where the chain fails):
+独立した屋根・周壁による外気分断性はあるか？駅のホーム全体を覆う大き
+な上屋のイラストの下に、独自の屋根も壁も持たない小さな売店を描き、
+「独自の屋根・周壁なし」というラベルと大きな赤い×印を添える。「いい
+え」矢印は結論ノード「建物と認定できない」（強調、太い縁取り）へ直接
+つながる。Diamond 3（用途性）は、この肢では判断に到達しないため薄い
+グレーで縮小表示（faded）にする。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、売店がコンクリートの基礎工事で定着していることを確認します。
+次に、その定着性だけで判断を終えず、売店自体が独立した屋根・周壁を
+備えているかを確認します。ホーム全体の上屋に依存しているだけでは、
+外気分断性の要件を満たしません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+独立した壁・屋根なし
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則111条（建物の定着性・外気分断性・用途性の3要件）に基
+づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 建・物・登・記・地・着・強・固・
+断・庫・鉄・認・独. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form.
+Also scan the entire canvas for any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only
+character, Korean Hangul, other non-Japanese script, or stray decorative
+glyph — and remove or redraw it so that only standard Japanese text
+appears anywhere in the image. Confirm the panel count equals 5 exactly,
+badge numbers run 1-5 continuously, there is no intro illustration or
+paragraph block between the header and the panels, that Panels 1-5, which
+share one three-diamond decision tree, each clearly distinguish their own
+highlighted diamond(s), branch(es), or leaf from the other, faded parts
+of the tree, that Panel 5's second diamond (外気分断性) is drawn as the
+point where the chain fails rather than compressing the whole 肢 into a
+single 定着性 check, that the third diamond (用途性) in Panel 5 is
+rendered faded since the chain never reaches it, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps 定着
+性・外気分断性・用途性 as three distinct checks, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel,
+no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency
+or alpha channel anywhere.
+```

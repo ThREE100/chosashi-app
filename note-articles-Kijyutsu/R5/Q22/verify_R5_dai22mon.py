@@ -1,0 +1,106 @@
+"""令和5年度 第22問（建物）：記事の数値・計算の照合スクリプト。
+アガルートの解答例（第22問 解答例、第3欄 各階平面図・求積表）と一致することを確認済み。
+実行: python3 note-articles-Kijyutsu/R5/Q22/verify_R5_dai22mon.py"""
+import math, os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'tools'))
+from calc_helpers import P
+
+ART = os.path.join(os.path.dirname(__file__), 'note_R5_dai22mon_tatemono_kaisetsu.md')
+text = open(ART, encoding='utf-8').read()
+ng = 0
+
+
+def check(label, s):
+    global ng
+    ok = s in text
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + label + ' : ' + s)
+
+
+# 敷地（本件土地）の辺長：〔座標値一覧表〕A〜D（複素数モードでの検算）
+A, B, C, D = P(50.00, 75.00), P(68.00, 75.00), P(68.00, 89.50), P(52.00, 88.00)
+assert abs(B - A) == 18.0 and abs(C - B) == 14.5 and round(abs(A - D), 1) == 13.2
+cd = abs(D - C)
+assert round(cd, 1) == 16.1
+cd_trunc = math.floor(cd * 1e4) / 1e4  # 表示値の「…」は切り捨て（qa-checklist-kijutsu.md 5章）
+check('AB・BC・DA', 'ABは18.0メートル、BCは14.5メートル、DAは13.2メートル')
+check('CD（丸め前）', f'{cd_trunc:.4f}… なので、四捨五入して 16.1メートル')
+
+# 敷地は長方形ではない（A・DのX座標、C・DのY座標が異なる。アガルート解答例の注意点）
+assert A.real != D.real and C.imag != D.imag
+check('敷地の斜辺（A・D）', 'A点のXは50.00、D点は52.00')
+check('敷地の斜辺（C・D）', 'C点のYは89.50、D点は88.00')
+# 縮尺1/500：18.0m → 3.6cm
+assert round(18.0 * 100 / 500, 1) == 3.6
+check('縮尺換算', '18.0メートルなら図面上は3.6センチ')
+# 建物図面の距離は小数点第1位（注4）。解答例の建物図面は 2.0・2.0・2.9
+check('建物図面の距離', '『2.0』『2.0』『2.9』')
+
+# 1階の求積（壁心）：東側0.90×9.00 ＋ 西側6.40×11.80（アガルート解答例・求積表と同じ分割）
+a1, a2 = 0.90 * 9.00, 6.40 * 11.80
+assert round(a1 + a2, 2) == 83.62
+check('1階 東側', '0.90 × 9.00 ＝ 8.1000')
+check('1階 西側', '6.40 × 11.80 ＝ 75.5200')
+check('1階 合計', '合計：83.6200 （床面積：83.62平方メートル）')
+
+# 2階の求積（壁心）：東側2.70×12.70 ＋ 西側4.60×11.80
+b1, b2 = 2.70 * 12.70, 4.60 * 11.80
+assert round(b1 + b2, 2) == 88.57
+check('2階 東側', '2.70 × 12.70 ＝ 34.2900')
+check('2階 西側', '4.60 × 11.80 ＝ 54.2800')
+check('2階 合計', '合計：88.5700 （床面積：88.57平方メートル）')
+
+# 一棟の建物の表示（工事前）の床面積：2階＝7.30×7.30＋4.60×4.50＝73.99（アガルート解答例と一致）
+c1, c2 = 7.30 * 7.30, 4.60 * 4.50
+assert round(c1 + c2, 2) == 73.99
+check('一棟(工事前)2階 上側', '7.30かける7.30が53.29')
+check('一棟(工事前)2階 下側', '4.60かける4.50が20.70')
+check('一棟(工事前)2階 合計', '合計73.99平方メートルです')
+check('一棟(工事前) 1階・2階', '1階83.62、2階73.99')
+
+# 藍子の「全体から引く」計算：1階は欠け0.90×2.80（解答例 第3欄）なら結果は合う、2階は工事前の形の面積になる
+assert round(7.30 * 11.80 - 0.90 * 2.80, 2) == 83.62
+assert round(7.30 * 11.80 - 2.70 * 4.50, 2) == 73.99
+check('藍子の1階（欠けの寸法）', '欠けている部分（0.90かける2.80）')
+
+# 原因及びその日付（解答例 第2欄の2行目）
+check('原因及びその日付', '『②③令和5年10月6日構造変更、増築、3番9の2を合併』')
+
+
+def poly_area(pts):
+    n = len(pts)
+    return abs(sum(pts[i][0] * pts[(i + 1) % n][1] - pts[(i + 1) % n][0] * pts[i][1] for i in range(n))) / 2
+
+
+# 解説図プロンプト（図3・図4・図6）の頂点座標（Y＝東、X＝南、上が北）が求積表と一致すること
+FIG = os.path.join(os.path.dirname(__file__), 'prompt_R5_dai22mon_kaisetsuzu.md')
+fig = open(FIG, encoding='utf-8').read()
+for label, pts, area in [
+    ('図3 1階', [(0, 0), (6.4, 0), (6.4, 2.8), (7.3, 2.8), (7.3, 11.8), (0, 11.8)], 83.62),
+    ('図4 2階', [(0, 0), (7.3, 0), (7.3, 12.7), (4.6, 12.7), (4.6, 11.8), (0, 11.8)], 88.57),
+    ('図6 2階(工事前)', [(0, 0), (7.3, 0), (7.3, 7.3), (4.6, 7.3), (4.6, 11.8), (0, 11.8)], 73.99),
+]:
+    assert round(poly_area(pts), 2) == area, label
+    s = ' → '.join(f'({y:g}, {x:g})' for y, x in pts + [pts[0]])
+    ok = s in fig
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + label + ' 頂点座標（面積' + f'{area}） : ' + s)
+# 増築で増えた部分（2.70×5.40）＝88.57−73.99
+assert round(2.70 * (12.70 - 7.30), 2) == round(88.57 - 73.99, 2) == 14.58
+
+# 形状は東西南北で説明する（図面の上＝北。問題の図1・解答例の建物図面の方位記号で確認）
+check('1階の欠けの位置', '1階は北東の角（玄関前）が少し欠けている')
+check('2階の張り出しの向き', '1階の11.80メートルより南へ0.90メートル張り出している')
+for bad in ['右上の玄関前', '下に長くなってる', '南東の0.90', '2.00』『2.00']:
+    ok = bad not in text
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '禁止語なし : ' + bad)
+
+# タイトルの基本形：【土地家屋調査士受験生向け】{年度}問題22（建物）〜見出し（25文字以内）〜
+title = text.splitlines()[0]
+prefix = '# 【土地家屋調査士受験生向け】令和5年度問題22（建物）〜'
+ok = title.startswith(prefix) and title.endswith('〜') and len(title[len(prefix):-1]) <= 25
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + 'タイトル形式 : ' + title)
+
+print('NG件数:', ng)

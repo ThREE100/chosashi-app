@@ -188,3 +188,197 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（選択肢1〜5 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — an isometric tower-style rotary parking
+structure, two adjoining isometric buildings with independent columns and
+walls, a pier (桟橋) fixed into the water with a shop on top, a
+Kannon-statue-shaped temple hall (本堂) with an altar inside, and a
+below-elevated-railway (高架下・ガード下) shop or warehouse with a visible
+foundation. Since each 選択肢 in this problem describes an unrelated,
+self-contained real-world building example rather than a shared multi-
+step fact pattern, there is no single decision tree shared across the 5
+panels — each panel stands on its own. Where a 選択肢 turns on correcting
+a common misconception, draw it as a LEFT/RIGHT (誤り／正しい) comparison
+panel; where a 選択肢 is resolved by checking a building's defining
+features against the three requirements for a registrable building
+(土地への定着性、屋根・周壁等による外気分断性、その目的とする用途に供し
+得る状態にあること), a labeled illustrative diagram is sufficient — do
+not force a flowchart. Panel 3（選択肢3）turns on correcting a common
+misconception about water-based structures, so draw it as a LEFT/RIGHT
+(誤り／正しい) comparison panel. The other 4 panels（選択肢1・選択肢2・選
+択肢4・選択肢5）each present an independent, self-contained real-world
+example resolved by checking the building's defining features, so draw a
+labeled illustrative diagram for each instead of forcing a shared
+decision tree. Unlike a glanceable summary poster, each panel MAY include
+a short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成20年度午後第16問 作図ガイド（登記できる建物の認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。それぞれの選択肢は互いに無関係な別々の建物の実例であ
+り、「肢」ではなく「選択肢」という語を使う。）
+
+--- PANEL 1（選択肢1） ---
+Badge: a filled circle in soft green containing the number 1.
+Heading (bold, ONE line):
+屋根と壁があれば立体駐車場も建物になる
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+tower-style rotary-parking structure with a clearly drawn roof and outer
+walls, each marked with a green checkmark; inside, a small cutaway shows
+the rotary parking machinery with the note「機械の方式は建物性に影響しな
+い」; below the structure, three small icon tags read「定着性」「外気分断
+性」「用途性」, each with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、屋根及び外壁があり土地に定着しているかを確認し、次に駐車場としての
+用途に供しうる状態にあるかを確認します。内部の機械の方式は建物性の判断に
+影響しません。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+3要件を満たせば建物
+
+--- PANEL 2（選択肢2） ---
+Badge: a filled circle in soft green containing the number 2.
+Heading (bold, ONE line):
+屋根がくっついても柱と壁が別なら別の建物
+Diagram: A labeled illustrative diagram (not a flowchart): two isometric
+buildings labeled「A所有」「B所有」with their roofs touching and drawn as
+a single continuous roofline (a dotted note reads「外観は一棟に見える」);
+below the roofline, each building's columns and walls are outlined
+separately in a different highlight color with the label「柱・壁は独
+立」and a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、外観上、屋根が密着して一棟の建物のように見えるかどうかを確認し、次
+に柱・壁がそれぞれ独立しているかどうかを確認します。柱・壁が別々であれ
+ば、A・Bの部分をそれぞれ別個の建物として登記できます。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+構造上の独立性で判断
+
+--- PANEL 3（選択肢3） ---
+Badge: a filled circle in soft green containing the number 3.
+Heading (bold, ONE line):
+桟橋の上の店舗も定着性があれば建物になる
+Diagram: A LEFT/RIGHT comparison diagram: a central isometric vignette of
+a pier (桟橋) firmly fixed into the seabed with a shop built on top; LEFT
+side labeled「よくある思い込み」shows a label「水上にあるから建物ではな
+い」with a large red ✕; RIGHT side labeled「正しい」shows a label「桟橋に
+定着性があれば建物」with a green checkmark, and a close-up of the pier's
+支柱 anchored into the seabed.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建造物が建てられている場所が水上かどうかではなく、その土台となる桟
+橋自体に土地への定着性が認められるかどうかを確認します。定着性が認められ
+れば、水上にあることは建物性を否定する理由になりません。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+定着性があれば建物
+
+--- PANEL 4（選択肢4） ---
+Badge: a filled circle in soft green containing the number 4.
+Heading (bold, ONE line):
+観音像の姿でも本堂として使えば建物になる
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+temple hall whose outer wall is shaped like a giant Kannon statue, with
+the note「外観の特殊さは建物性に影響しない」next to it; a cutaway shows
+the interior with an altar (祭壇) and seating for worshippers, each marked
+with a green checkmark and the label「用途に供されている」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、外壁の形態がどれほど特殊であっても、内部が実際にその目的の用途に供
+しうる状態にあるかを確認します。祭壇が設けられ参拝者が着席できる本堂とし
+て使われていれば、外観の特殊さは建物性の判断を左右しません。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+用途性があれば建物
+
+--- PANEL 5（選択肢5） ---
+Badge: a filled circle in soft green containing the number 5.
+Heading (bold, ONE line):
+ガード下の店舗・倉庫も基礎があれば建物
+Diagram: A labeled illustrative diagram (not a flowchart): an isometric
+elevated railway structure (高架) with a small shop and warehouse built
+underneath it; the foundation and walls of the shop/warehouse are
+highlighted with a green checkmark and the label「定着する基礎・壁」; a
+small footnote tag reads「準則77条(1)ウ」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建造物が高架線の下（ガード下）にあるという立地の特殊さを確認し、次
+に定着する基礎・壁を備えているかどうかを確認します。定着する基礎・壁があ
+れば、ガード下という立地は建物性の妨げになりません。
+Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
+characters):
+準則が建物と明示
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則111条、不動産登記事務取扱手続準則77条に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 準・観・橋・構・独・築・壇. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that Panel 3 is drawn as a LEFT/RIGHT
+comparison panel while Panels 1・2・4・5 are simple labeled diagrams
+without a forced shared decision tree, that each 着眼点 callout states a
+checking order rather than only a conclusion, confirm nothing is
+rendered below the last panel's footnote text (no summary recap panel, no
+trophy or medal icon, no re-listed ○/✕ grid of all 選択肢, and no
+additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```

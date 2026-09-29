@@ -188,3 +188,205 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — two isometric buildings merging into one (合体)
+with a 登録免許税 stamp/receipt icon, character icons for A and B holding
+印鑑証明書 and 登記識別情報通知書 icons, a 抵当権 ribbon icon attached to a
+building, and diamond-shaped branch nodes for the flowchart panel. Where a
+肢 requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+(or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient
+— do not force a flowchart. Panel 1（肢ア）, Panel 3（肢ウ）, and Panel 5
+（肢オ）each turn on correcting a common misconception, so draw them as
+LEFT/RIGHT (誤り／正しい) comparison panels. Panel 2（肢イ）requires BOTH
+of two conditions to be satisfied together before the shortcut applies
+(全員が申請人であること、かつ印鑑証明書を提供すること), so draw it as an
+actual decision flowchart with two diamond branch nodes in sequence, each
+with its own Yes/No arrows, and a distinct conclusion node reached when
+either condition fails as well as the conclusion node reached only when
+both conditions are satisfied — do not merge the two conditions into a
+single check, and do not draw any arrow that loops back to an earlier
+node. Panel 4（肢エ）is resolved by a single check, so draw a labeled
+illustrative diagram for it instead of forcing a flowchart. Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "ま
+ず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text — do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成20年度午後第15問 作図ガイド（建物の合体による登記等）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in soft beige containing the number 1.
+Heading (bold, ONE line):
+合体の登記に登録免許税はかからない
+Diagram: A LEFT/RIGHT comparison diagram: a central isometric vignette of
+two buildings merging into one (合体); LEFT side labeled「よくある思い込
+み」shows a 登録免許税 invoice icon with a large red ✕; RIGHT side labeled
+「正しい」shows a 非課税 stamp icon with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体による登記等が登録免許税法別表第一に課税対象として掲げられてい
+るかを確認します。表示に関する登記として掲げられているのは分筆・分割若し
+くは区分・合筆・合併の4種類のみで、合体は含まれないため非課税です。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+表示登記は非課税
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in soft beige containing the number 2.
+Heading (bold, ONE line):
+全員申請かつ印鑑証明書があれば持分証明は省ける
+Diagram: An actual decision flowchart: a first diamond-shaped branch node
+labeled「合体前の各建物の所有権登記名義人全員が申請人か？」; its No arrow
+leads to a conclusion node labeled「持分の割合を証する情報の提供が必要」;
+its Yes arrow leads to a second diamond-shaped branch node labeled「申請
+情報とあわせて印鑑証明書を提供しているか？」; that node's No arrow leads
+to the same conclusion node「持分の割合を証する情報の提供が必要」, and its
+Yes arrow leads to a separate conclusion node labeled「持分の割合を証する
+情報の提供は不要」. Characters A and B stand at the start of the flowchart
+each holding an 印鑑証明書 icon. No arrow loops back to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体前の各建物の所有権登記名義人の全員が申請人となっているかを確認
+し、次に申請情報とあわせて印鑑証明書を提供しているかを確認します。両方を
+満たせば、別途の持分割合証明書は不要です。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+別途の証明は不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in soft beige containing the number 3.
+Heading (bold, ONE line):
+同一名義人なら登記識別情報は一個で足りる
+Diagram: A LEFT/RIGHT comparison diagram: LEFT side labeled「よくある思
+い込み」shows a label「名義人の異同にかかわらずすべて提供」with two
+登記識別情報通知書 icons and a large red ✕; RIGHT side labeled「正しい」
+shows character A owning two buildings, submitting only one 登記識別情報
+通知書 icon with a green checkmark and the label「同一名義人ならいずれか
+一個」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体前の建物の登記名義人が同一かどうかを確認します。同一であれば、
+合体前のいずれか一個の建物についての登記識別情報を提供すれば足り、すべて
+の建物の分をそろえる必要はありません。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+一個の提供で足りる
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in soft beige containing the number 4.
+Heading (bold, ONE line):
+抵当権を消すには承諾情報等が必要
+Diagram: A labeled illustrative diagram (not a flowchart): a 抵当権 ribbon
+icon attached to one of the合体前の建物 is shown detaching, with a large
+label「合体後の建物には存続しない」; next to it, a 抵当権者 character
+hands over a document icon labeled「消滅を承諾したことを証する情報」（また
+は「対抗できる裁判があったことを証する情報」）with a green checkmark.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体前の建物に登記されている抵当権が合体後の建物に存続する記載のな
+いものかどうかを確認します。存続させない抵当権がある場合、その抵当権者が
+消滅を承諾したことを証する情報、または対抗できる裁判があったことを証する
+情報の提供が必要です。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+承諾情報等が必要
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in soft beige containing the number 5.
+Heading (bold, ONE line):
+名義人が違っても抵当権存続に承諾情報が必要
+Diagram: A LEFT/RIGHT comparison diagram: a central isometric vignette of
+A所有の建物とB所有の建物が合体し, A側に付いていた 抵当権 ribbon icon が
+合体後の持分にそのまま存続する様子; LEFT side labeled「よくある思い込
+み」shows a label「名義人が違うから承諾情報は不要」with a large red ✕;
+RIGHT side labeled「正しい」shows a label「名義人が異なっても承諾情報が
+必要」with a green checkmark, alongside a 抵当権者 character handing over
+a document icon labeled「承諾情報又は対抗できる裁判の情報」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合体前の建物の所有権登記名義人が異なる場合でも、抵当権を合体後の持
+分について存続させる場面かどうかを確認します。名義人が異なっていても、存
+続登記と同一の登記をするときは、その抵当権者の承諾情報又は対抗できる裁判
+の情報の提供が必要です。
+Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
+characters):
+名義人が違っても必要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法49条・50条、不動産登記令8条2項2号・別表十三の項添付情報欄
+ト、登録免許税法2条・別表第一(十三)に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・証・識・諾・許・録・異・存・続・対. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that Panels 1・3・5 are each drawn as LEFT/
+RIGHT comparison panels, that Panel 2 is drawn as an actual flowchart with
+two diamond branch nodes in sequence and a distinct conclusion node for
+every failing path (no merged conditions, no looping arrow), while Panel
+4 is a simple labeled diagram without a forced flowchart, that each 着眼
+点 callout states a checking order rather than only a conclusion, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```

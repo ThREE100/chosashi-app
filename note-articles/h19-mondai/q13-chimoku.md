@@ -220,3 +220,247 @@ all 肢, and no additional text block of any kind), and confirm the entire
 canvas, edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric apartment buildings, parking lots,
+regulation/contract document icons, magnifying glasses, agricultural
+fields, farm-transfer permit documents, factory buildings, amusement park
+shop stalls, fences, school campus buildings with playgrounds, vegetable
+garden patches, pastures with grazing horses, storage sheds with visible
+concrete foundations, and prohibition/X-mark icons, adapted per panel.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a distinct final conclusion
+node for EACH branch that matters (Panel 3). Where a 肢 is resolved by a
+single check but the reader must first confirm which of two DIFFERENT
+legal frameworks actually governs the situation, draw it instead as a
+side-by-side comparison of two boxes: the framework that actually governs
+this fact pattern rendered with a thick highlighted border and full
+color, and the framework that does NOT govern it rendered faded,
+greyed-out, and dotted-outline (Panel 1 and Panel 5 — these are two
+separate, unrelated comparisons about different topics, not a tree shared
+between the two panels). Where a 肢 turns on observing a physical area as
+a single whole rather than branching conditions, draw it as a labeled
+top-down layout diagram (配置図) with a numbered checking-order sequence
+(①→②) shown directly on the illustration (Panel 4). Where a 肢 turns on a
+sequence of real-world events over time, draw it as a left-to-right
+timeline with ordered nodes and a clearly labeled skipped step (Panel 2).
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion.
+Do not include case or precedent numbers (article/regulation numbers are
+fine); keep the callout text as written below verbatim, and keep every
+condition each callout describes faithful to the article's own body text
+— do not drop or merge a required element (keep 付随的な利用にとどまるか
+and フェンス等で判然区分できるかas two distinct checks in Panel 3).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成19年度午前第13問 作図ガイド（地目の認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+規約敷地でも地目は現況で決まる
+Diagram: A side-by-side comparison of two framework boxes on an isometric
+background. The LEFT box (drawn faded, greyed-out, and dotted-outline,
+since it does NOT determine the 地目) is labeled 区分所有法上の規約敷地の
+位置づけ(5条) and shows a small isometric apartment building connected by
+a dashed line to a separate rectangular plot of land, with a small
+規約書類 (regulation-document) icon resting on the plot. The RIGHT box
+(drawn with a thick highlighted border and full color, since this is the
+framework that actually determines the 地目) is labeled 登記の地目認定
+(準則68条・現況主義) and shows the SAME plot of land, now filled with
+parked cars and inspected by a large magnifying glass icon hovering above
+it, with a small wooden signboard on the plot flipping from 「宅地」to
+「雑種地」. A short connecting arrow runs from the LEFT box to the RIGHT
+box, labeled 地目の認定には影響しない, leading down to a green checkmark
+conclusion node below the RIGHT box reading 雑種地への変更登記が必要.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その土地が区分所有法上どう位置づけられているか(規約敷地かどうか)を
+確認します。次に、その位置づけとは別に、土地が実際にどう使われているか
+(現況)を確認し、現況に応じて地目を判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+現況が最優先
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+工場新築時点の現況で宅地になる
+Diagram: A horizontal timeline on an isometric background with three
+nodes left to right. Node 1 shows a field icon labeled 畑. An arrow to
+Node 2 carries a small 農地法の許可証 (permit document) icon above it.
+Node 2 shows a parking lot filled with parked cars, labeled 駐車場. An
+arrow to Node 3 carries a small 工場新築 icon. Node 3 shows an isometric
+factory building, labeled 工場. Below the timeline, a separate bold arrow
+curves directly from Node 1 to Node 3, labeled 地目の変更登記はこの2地点
+だけでよい, passing OVER a small stamp reading 雑種地登記 that has a large
+red X mark over it (representing the skipped intermediate registration).
+A green checkmark conclusion node sits below Node 3, reading 直ちに宅地
+への変更登記ができる.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、土地の利用状況が畑→駐車場→工場へとどう変化したかを時系列で確認し
+ます。次に、地目に関する変更の登記が必要になるのはどの時点かを確認し、
+申請時点の現況(工場=宅地)に直接対応させれば足りると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+中間登記は不要
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+建物利用が付随的かを確認する
+Diagram: A decision-tree flowchart on an isometric scene of an amusement
+park. First diamond node (drawn with a thick highlighted border and full
+color, since this fact pattern satisfies it): 建物(売店)の利用は遊園地
+の利用に対して付随的なものにとどまるか. A single はい arrow (highlighted)
+proceeds downward to a second diamond node (also highlighted): フェンス
+等で他の敷地と判然区分できるか. The はい branch shows an isometric
+amusement park labeled 雑種地, with a small shop building enclosed by a
+clearly visible fence separating it from the rest of the park, leading
+to a green checkmark conclusion node reading 分筆して宅地への変更登記が
+できる. The いいえ branch off the second diamond is drawn faded,
+greyed-out, and dotted-outline, leading to a small faded conclusion node
+reading 一団として雑種地のまま(区分不可).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、売店という建物の利用が遊園地全体の利用に対して付随的なものにとど
+まるかを確認します。次に、フェンス等の物理的な仕切りによって他の敷地と
+判然区分できるかを確認し、両方を満たせば分筆して宅地への変更登記ができ
+ると判断します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+判然区分で宅地
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+学校用地はひとまとまりで見る
+Diagram: An isometric top-down layout diagram (配置図) of a school
+campus, showing a classroom building (校舎), a playground/athletic field
+(運動場), and a small vegetable garden patch (実習用の畑), all enclosed
+within a single dashed boundary line labeled 一区画(一団). A large
+magnifying glass icon hovers over the ENTIRE dashed boundary (not just
+the garden patch), labeled ①学校用地全体の範囲を確認. A second, smaller
+pin/marker icon sits on the garden patch alone, labeled ②畑が付随的利用
+かを確認, connected to the magnifying glass by a small numbered arrow
+showing the checking order (①→②). Near the garden patch, a pair of
+scissors icon (representing 分筆) has a large red X mark over it, with a
+small label 分筆は義務ではない.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、学校用地の範囲が校舎・附属施設・運動場を含む一区画全体であること
+を確認します。次に、実習用の畑がその一区画内の付随的な利用にとどまるか
+を確認し、付随的利用であれば分筆して地目を変更する登記は義務ではないと
+判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+分筆の義務なし
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+永久的設備ルールは耕作地限定
+Diagram: A side-by-side comparison of two framework boxes on an isometric
+background. The LEFT box (drawn faded, greyed-out, and dotted-outline,
+since it does NOT govern this fact pattern) is labeled 耕作地の区域内
+(準則69条3号) and shows a field with a small農具小屋(storage shed) with
+a visible concrete-foundation icon, next to a faded diamond node reading
+永久的設備か with faded はい/いいえ arrows leading to faded conclusion
+nodes reading 宅地 and 畑のまま. The RIGHT box (drawn with a thick
+highlighted border and full color, since this is the framework that
+governs this fact pattern) is labeled 牧場地域内(準則69条4号) and shows
+an isometric pasture landscape with grazing horses and a similar
+concrete-foundation storage shed inside the pasture boundary. A red
+diagonal slash mark crosses out a small label reading 永久的設備か within
+this box (representing that this condition does NOT apply here), with a
+single bold arrow leading straight down to a conclusion node reading
+建物の敷地は牧場のまま(宅地にならない).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その建物が耕作地の区域内にあるか、牧場地域内にあるかを確認しま
+す。耕作地内であれば永久的設備かどうかで宅地になるか畑のままかが分か
+れますが、牧場地域内であれば永久的設備であるかどうかにかかわらず、建
+物の敷地はそのまま牧場として扱われます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+永久設備でも牧場
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記事務取扱手続準則68条(本文・4号)・69条3号・4号・7号に基づく
+整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 地・敷・現・況・団・登・記・筆・雑・
+種・牧・場・随・認・確・変. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+the multi-condition 肢 (肢ウ) is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 肢 with a genuinely hidden second condition has been flattened into a
+single check (Panel 3 keeps 付随的な利用にとどまるか and フェンス等で判然
+区分できるか as two distinct checks), that each 着眼点 callout states a
+checking order rather than only a conclusion and keeps every required
+element from the source article distinct (no merged or dropped
+requirements), that Panel 1's and Panel 5's comparison boxes each clearly
+distinguish the framework that actually governs this fact pattern (full
+color, thick border) from the one that does not (faded, greyed-out,
+dotted-outline), confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

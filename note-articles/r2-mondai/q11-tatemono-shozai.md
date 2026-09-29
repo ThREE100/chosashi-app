@@ -230,7 +230,7 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — 甲建物とその附属建物が分割線で分かれる図、
 地番に支号があるかどうかを示す地番プレート、仮換地と従前地の2つの土地区
-画、地番区域が異なる2つの建物が合併でつながる図、そして海に突き出た桟橋
+画、地番区域が異なる2つの建物が合併でつながる図、そして海に突き出たさん橋
 の上に建つ建物 — adapt icon set to the topic of 建物の所在の書き方. Where
 a 肢 requires checking multiple conditions in sequence before reaching a
 conclusion, draw the panel's diagram as an actual decision flowchart:
@@ -271,9 +271,8 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-令和2年度午後第11問 ア〜オ
-作図ガイド（建物の所在の書き方）
+Subtitle (smaller, centered, 1行):
+令和2年度午後第11問 作図ガイド（建物の所在の書き方）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -360,14 +359,14 @@ characters):
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
-建物が桟橋上にあるかを確認する
-Diagram: An isometric ocean pier (桟橋) extending from the shoreline with
+建物がさん橋上にあるかを確認する
+Diagram: An isometric ocean pier (さん橋) extending from the shoreline with
 a small building standing on the end of the pier over the water. A
 dotted line runs from the building back to the nearest land plot,
 labeled 3番地. A label tag reads 3番地先 with a checkmark.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、建物が永久的な施設としての海上のさん橋の上に存するかどうかを確認
-します。桟橋上の建物であれば、その建物から最も近い土地の地番を用いて
+します。さん橋上の建物であれば、その建物から最も近い土地の地番を用いて
 「何番地先」のように所在を記録することを確認します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
@@ -379,7 +378,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 抹, 消, 略, 換, 併, 桟, 橋, 支, 号, 域, 筆 and any character
+attention to 抹, 消, 略, 換, 併, 橋, 支, 号, 域, 筆 and any character
 that has a visually similar Simplified Chinese variant. If any character
 renders as a Simplified Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge

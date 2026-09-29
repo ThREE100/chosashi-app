@@ -88,31 +88,72 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-相続をめぐる5つの場面（生前譲渡後の二重譲渡類似関係・共同相続人の無断登記・相続放棄・特定遺贈・遺産分割）を、いずれもA・B・C・D共通の登場人物を使い、1列5枚のカードで俯瞰する構成。誤りの肢（ア・エ・オ）についても、設問文の誤った内容ではなく、正しいルールを図解する。
+**2026-09-27三訂**：前版はA・B・C・Dの物語を捨てて「ひっかけポイント」重視に転換したこと自体は正しかったが、各カードを「LEFT box: 短い文」「RIGHT box: 短い文」という独立フィールドとして指定してしまい、結果として絵ではなく色分けされた文字ラベルの羅列になってしまった（インフォグラフィックとして描く意味がないとの指摘）。この版では、`infographic-prompt-template.md`が定める正規の骨格（Badge／Heading／**Illustration（1つの具体的な絵の描写段落）**／Conclusion tag）に戻し、この記事自身の⑤作図ガイド型セクションのPANEL 3（正誤対比型）と同じ書き方で、「誤りやすい思い込み」と「正しい理由」の両方を、具体的なアイソメトリックのモノ・記号・比喩で描き分ける。抽象的な「箱に短文」ではなく、各肢ごとに異なる具体的な視覚比喩（登記レースの旗、中身の空っぽな箱、そっくりな2枚の書類、分裂する傘、鍵のかかった土地の半分など）を用いる。5肢が3つの法的構造（二重譲渡型・無権利型・絶対効型）に分かれることを示す色分け・LEGENDは維持する。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x2000 pixels,
 clean flat-design isometric illustration style with soft pastel colors
-(blue, green, beige, gray), rounded card sections, consistent with a
-modern explainer-graphic aesthetic (icons: isometric land plots, houses,
-family-tree figures, stamps, torn certificates, shield icons — adapt icon
-set to the topic).
+(blue, green, beige, gray, orange), rounded card sections, consistent with
+a modern explainer-graphic aesthetic (icons: registration-race flags, empty
+gift boxes, twin documents, splitting umbrellas, padlocks, shield icons —
+adapt icon set to the topic).
 
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
 NOT a text-heavy explainer document. There is NO intro illustration and NO
 paragraph of prose anywhere on this poster — go straight from the header
 to the cards. Every card must communicate its point almost entirely
-through the illustration (icons, X marks, checkmarks, small embedded
-labels) plus one short heading and one short conclusion tag. Do NOT render
-any full-sentence explanation, legal citation, or paragraph of body text
-anywhere on the poster. If a piece of information cannot be expressed as a
-short label (a few words) or drawn as an icon, leave it out rather than
-writing it as prose.
+through the illustration (concrete isometric objects, icons, X marks,
+checkmarks, small embedded labels) plus one short heading, one short "type
+tag" pill, and one short conclusion tag. Do NOT render any full-sentence
+explanation or legal citation anywhere on the poster. A card that consists
+only of colored text boxes with no actual pictorial scene is a FAILURE of
+this requirement — every card's illustration must be something a reader
+could describe as "a drawing of X", not "a box that says X".
+
+TRAP-VS-RULE VISUAL METAPHOR REQUIREMENT (critical, this is the whole
+point of this poster): Each card's illustration must visually stage ONE
+concrete visual metaphor that a reader would naturally (and wrongly)
+apply to this fact pattern, then show why that metaphor breaks down here.
+Render this as a single scene split into a faded left half and a
+highlighted right half of the SAME visual metaphor (not two separate text
+boxes): the left half shows the metaphor rendered normally but greyed-out/
+dotted-outline/struck-through (because it does not actually apply), and
+the right half shows the metaphor's twist — the specific concrete detail
+that changes the outcome — rendered in full color with a thick highlighted
+border. The exact object/icon used for each card is specified in that
+card's Illustration field below; use those objects, not generic characters
+handing over a land plot.
+
+CATEGORY-COLOR REQUIREMENT (critical): The 5 cards are NOT interchangeable
+— they represent exactly 3 different legal structures, and part of the
+poster's point is to make that grouping visible at a glance. Color-code
+every card's badge circle, card-section border accent, and "type tag"
+pill consistently by category:
+- BLUE (二重譲渡型): Card 1, Card 4, Card 5 — a case that behaves like a
+  double-sale between two people with a competing claim to the same
+  right, so it is resolved by 登記の先後 (who registered first).
+- GREEN (無権利型): Card 2 — the person making the competing claim never
+  had the right to convey in the first place, so there is no real
+  competition to resolve by registration at all.
+- ORANGE (絶対効型): Card 3 — the underlying event (相続放棄) has an
+  absolute effect that reaches everyone regardless of registration.
+Render a small LEGEND strip directly under the Subtitle, before Card 1,
+showing all three colored dots with their one-word labels side by side:
+青＝二重譲渡型、緑＝無権利型、橙＝絶対効型. This legend is the ONLY text
+allowed between the header and Card 1.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -120,89 +161,148 @@ kanji 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・�
 裁・判・所, which have simplified-Chinese lookalikes with different stroke
 forms — always draw the standard Japanese (Jōyō) form.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 1行):
-その持分、登記なしで守れるか？
+その思い込み、どこが間違い？
 
 Subtitle (smaller, centered, 1行):
-A・B・C・Dが登場する5つの場面で対抗要件を見極める（民法・相続と登記）(平成18年度 午後の部 第3問)
+5つの場面の「ひっかけポイント」を見極める（民法・相続と登記）(平成18年度 午後の部 第3問)
 
-（タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
-ブロックは置かない。）
+--- LEGEND ---
+青＝二重譲渡型　　緑＝無権利型　　橙＝絶対効型
+
+（タイトル・サブタイトル・LEGENDのすぐ下にカード群を続ける。導入イラスト・
+導入文のブロックは置かない。）
 
 --- CARD 1 ---
-Badge: a filled circle in soft blue containing the number 1.
+Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-相続人からの転得者とは対抗関係
-Illustration: An isometric character labeled「A」handing a land-plot icon
-to character「B」with a torn paper label「登記なし」nearby. A tombstone
-icon marks A's death, then a family-tree arrow leads to character「C」who
-stands on the same land plot with a registration stamp labeled「相続登記」,
-then hands the land plot to character「D」with a checkmark registration
-stamp. A large red X overlays character B with a label「登記なければ負け」.
+相続人がいったん登記した後の処分
+Type tag (a small pill directly under the heading, blue, 5-8 Japanese
+characters):
+型：二重譲渡型
+Illustration: A single "登記レース"（race to the registry window）scene
+split left/right. LEFT half (faded, dotted outline): a baton-relay icon
+showing character「A」handing a baton directly to character「C」to「B」
+in one unbroken faded arrow, as if it were a single uninterrupted runner
+—captioned「同じ人が引き継いだだけ」with a red strikethrough over the
+unbroken arrow. RIGHT half (thick highlighted border, full color): the
+relay arrow is visibly CUT at the point where C stamped「相続登記」(drawn
+as a solid registry stamp), and from that stamp, two SEPARATE racers now
+sprint toward an isometric registry-office gate icon: character「D」
+reaching the gate first with a checkered flag and a green「登記あり」
+stamp, while character「B」arrives after the gate closes, with a red ✕
+over B's flag captioned「登記なし」.
 Conclusion tag (a short colored banner/pill directly below the illustration,
-soft blue, 5-15 Japanese characters):
+blue, 5-15 Japanese characters):
 登記なければ対抗不可
 
 --- CARD 2 ---
-Badge: a filled circle in soft blue containing the number 2.
+Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-無断登記の持分は無権利
-Illustration: A family-tree icon splitting from character「A」(with a
-tombstone) into two equal-sized characters「B」and「C」, each labeled with
-a small「1/2」persimmon-shaped icon. Character C stamps a fraudulent
-registration reading「C単独名義」over the whole land plot (crossing out B's
-half), then hands the land plot to character「D」. A shield icon protects
-character B's half with a label「無権利」and a green checkmark.
+無断の単独登記は他人の持分に無力
+Type tag (a small pill directly under the heading, green, 5-8 Japanese
+characters):
+型：無権利型
+Illustration: The SAME registry-race gate icon from Card 1, reused
+deliberately so the viewer recognizes "this looks like the same race."
+LEFT half (faded, dotted outline): character「C」running toward the gate
+holding what looks like a solid land-plot icon labeled「Bの持分」, racing
+against character「D」— captioned「早いもの勝ちのはず」with a red
+strikethrough over the race itself. RIGHT half (thick highlighted border,
+full color): the land-plot icon in C's hands is revealed to be a hollow,
+transparent OUTLINE only (an empty box shape with no fill), captioned
+「Cはそもそも中身を持っていない」; a shield icon appears around a separate,
+solid, full-color land-plot icon held safely by character「B」off to the
+side, away from the race entirely, captioned「レースの外側にある」.
 Conclusion tag (a short colored banner/pill directly below the illustration,
-soft blue, 5-15 Japanese characters):
+green, 5-15 Japanese characters):
 登記なしで対抗できる
 
 --- CARD 3 ---
-Badge: a filled circle in soft blue containing the number 3.
+Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-相続放棄は登記なしで誰にでも対抗可
-Illustration: Character「C」standing at a courthouse-like building icon
-(家庭裁判所) with a document labeled「相続放棄」, walking away from the
-land plot. Character「D」(a creditor, holding a coin-bag icon) tries to
-seize a portion of the land plot labeled「C名義持分」with a red stamp
-「差押え」, but a shield icon around character「B」reads「対抗できる」.
+相続放棄と遺産分割は扱いが違う
+Type tag (a small pill directly under the heading, orange, 5-8 Japanese
+characters):
+型：絶対効型
+Illustration: Two nearly-identical isometric document icons side by side
+at the top, one labeled「相続放棄」and one labeled「遺産分割協議」, with a
+large「＝？」confusion mark floating between them. LEFT half (faded,
+dotted outline, below the confusion mark): both documents shown wrapped in
+the SAME small, thin protective ring reaching only character「B」,
+captioned「どちらも同じ効力のはず」with a red strikethrough over the
+shared thin ring. RIGHT half (thick highlighted border, full color): only
+the「相続放棄」document now glows inside a large dome-shaped force-field
+(絶対効) that expands outward far enough to also cover a distant creditor
+character「D」holding a coin-bag icon and a red「差押え」stamp — the dome
+blocks D's stamp with a green shield checkmark; the「遺産分割協議」
+document sits separately OUTSIDE the dome with a small note「登記が必要
+（本問の対象外）」.
 Conclusion tag (a short colored banner/pill directly below the illustration,
-soft blue, 5-15 Japanese characters):
+orange, 5-15 Japanese characters):
 絶対効・登記不要
 
 --- CARD 4 ---
-Badge: a filled circle in soft blue containing the number 4.
+Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-特定遺贈は登記なしでは対抗不可
-Illustration: Character「A」(with a tombstone) holding a scroll icon
-labeled「遺言：Bに遺贈」pointing toward character「B」, who stands next to
-the land plot without any registration stamp (a torn paper label「登記なし」
-floats nearby). Meanwhile character「C」(the heir) and creditor「D」stamp
-a competing registration labeled「代位による相続登記」and a red「差押え」
-stamp over the land plot. A large red X overlays character B.
+遺贈は相続の包括承継とは別扱い
+Type tag (a small pill directly under the heading, blue, 5-8 Japanese
+characters):
+型：二重譲渡型
+Illustration: A single large umbrella icon labeled「相続」. LEFT half
+(faded, dotted outline): the umbrella covers BOTH a family-tree icon
+(相続人) AND a scroll icon labeled「遺言：Bに遺贈」standing together
+underneath it, captioned「遺贈も相続の傘の中のはず」with a red
+strikethrough over the shared umbrella. RIGHT half (thick highlighted
+border, full color): the umbrella visibly SPLITS into two separate
+umbrellas — a small blue umbrella over just the family-tree icon labeled
+「包括承継・登記不要」, and a second, separate umbrella over the scroll
+icon labeled「個別の権利移転・登記が必要」, with the scroll icon standing
+alone in the open (no umbrella covering it from the registry-race gate
+icon from Card 1, which reappears small in the background with character
+「D」stamping「代位相続登記」and「差押え」).
 Conclusion tag (a short colored banner/pill directly below the illustration,
-soft blue, 5-15 Japanese characters):
+blue, 5-15 Japanese characters):
 登記なければ対抗不可
 
 --- CARD 5 ---
-Badge: a filled circle in soft blue containing the number 5.
+Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-遺産分割の超過分も登記なしでは対抗不可
-Illustration: Characters「B」and「C」sit at a table with a document
-labeled「遺産分割協議：Bが単独取得」between them. Before B registers, C
-stamps a competing registration labeled「B・C共同相続登記」over the land
-plot, then hands a portion labeled「C持分」to character「D」with a
-registration checkmark. A red X overlays the boundary between B's original
-half and C's portion, with a small law-book icon labeled「899条の2」in the
-corner.
+遺産分割は超過分だけ登記が必要
+Type tag (a small pill directly under the heading, blue, 5-8 Japanese
+characters):
+型：二重譲渡型（超過分のみ）
+Illustration: One isometric land plot split by a single dashed line into
+two equal halves. LEFT half of the WHOLE SCENE (faded, dotted outline):
+the entire plot shaded in one uniform「家族内部」tone with a small house/
+family icon floating over the whole thing, captioned「身内の話だから
+登記不要のはず」with a red strikethrough over the uniform shading. RIGHT
+half of the WHOLE SCENE (thick highlighted border, full color): the SAME
+plot now clearly rendered as two DIFFERENT zones — B's original statutory
+half glows calm blue with a small「範囲内・登記不要」tag and no lock, while
+C's excess portion (the half beyond C's own statutory share, now held by
+D) is drawn with a padlock icon and a small law-book icon labeled「899条の
+2」, captioned「超過分は第三者への処分と同視」.
 Conclusion tag (a short colored banner/pill directly below the illustration,
-soft blue, 5-15 Japanese characters):
+blue, 5-15 Japanese characters):
 超過分は登記なければ対抗不可
 
-（HEADERより前ではなく、この位置に短い1文で補足：全5枚のカードはA・B・C・D
-共通の同一登場人物を使い、番号は1から5まで連番、重複・欠落・言い換えは
-禁止。簡体字混入と誤変換に特に注意すること。）
+（HEADERより前ではなく、この位置に短い1文で補足：全5枚のカードは同じ
+「1つの視覚比喩をLEFT〔グレーアウト〕とRIGHT〔強調〕に割って描く」構成
+で統一し、番号は1から5まで連番、重複・欠落・言い換えは禁止。3色の型タグ
+（青／緑／橙）とLEGENDの対応が全カードで一致していること。簡体字混入と
+誤変換に特に注意すること。）
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal).
@@ -210,17 +310,33 @@ Small credit text in the corner (optional, keep minimal).
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially for
 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・家・庭・裁・
-判・所. If any character renders as a Simplified Chinese variant, redraw
-that character in the correct Japanese form. Confirm the number of cards
-equals 5
-exactly, with no duplicated or missing cards, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
-every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+判・所 (and not Traditional Chinese). If any character renders as a
+Simplified Chinese variant or a Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the LEGEND's 3 colors exactly match each card's badge/border/type-
+tag color (Card 1・4・5＝青、Card 2＝緑、Card 3＝橙), confirm every card's
+illustration is a genuine drawn scene built from the specific concrete
+objects named in that card (registry-race flags/gate, hollow outline-only
+land icon, twin documents with a force-field dome, splitting umbrella,
+padlocked land half) with a clearly faded/dotted LEFT portion and a
+clearly highlighted full-color RIGHT portion of the SAME scene — and that
+NO card is just a colored rectangle containing only text with no drawn
+objects, confirm the number of cards equals 5 exactly, with no duplicated
+or missing cards, confirm there is no intro illustration or paragraph
+block between the header/legend and the cards, confirm that no card
+contains a full sentence of explanatory prose — every label must read as
+a short phrase at a glance — confirm nothing is rendered below the last
+card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -266,12 +382,20 @@ written below verbatim, and keep every condition each callout describes
 faithful to the article's own body text.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
-below verbatim - do not paraphrase, translate, summarize, or substitute
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
-parentheses ( ) consistently - never open a parenthetical with a
+parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -288,9 +412,8 @@ Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
 
-Subtitle (smaller, centered, 2行):
-平成18年度午後第3問 ア〜オ
-作図ガイド（相続と登記）
+Subtitle (smaller, centered, 1行):
+平成18年度午後第3問 作図ガイド（相続と登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -438,12 +561,15 @@ Small footnote text (bottom of panel, small font, verbatim):
 部分の対抗要件）・177条（不動産物権変動の対抗要件）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・
-家・庭・裁・判・所 and any character that has a visually similar Simplified
-Chinese variant.
-If any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the panel count equals 5
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 相・続・登・記・譲・渡・権・利・放・
+棄・遺・贈・産・分・割・家・庭・裁・判・所・対・抗・効. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character that
+is not standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or stray
+decorative glyph — and remove or redraw it so that only standard Japanese
+text appears anywhere in the image. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
 all 5 panels share the same three-branch tree shape and each clearly

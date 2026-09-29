@@ -161,7 +161,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Characters such as 「宅」「雑」
@@ -317,11 +325,346 @@ FOOTER直前に置く。上記のとおり簡体字混入を防ぐため主要�
 Small credit text in the corner (optional, keep minimal).
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 10 exactly, with
+standard Japanese (Jōyō) form, not Simplified Chinese and not
+Traditional Chinese. If any character
+renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the number of cards equals 10 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+本問は10肢すべてが「地目認定」という同一の判定枠組みを使うため、10枚のパネルすべてに共通する2段階の決定木（第1段階：宅地・雑種地のどちらでもない独立した地目に該当するか／第2段階：該当しない場合、その肢固有の個別基準で宅地か雑種地かを判定する）を共有木として使い回す構成にした。この判定順序は本文冒頭の「そもそも宅地・雑種地の勝負に入れる土地なのか」という一文そのものであり、まとめ・各肢解説と完全に対応している。各パネルは自分に関係する分岐だけを太い縁取り・実色で強調し、関係しない分岐は薄いグレーで縮小表示する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 10 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of 地目認定 (land-category classification) problem, AND
+the order in which they should check conditions to get there — isometric
+icons for a racetrack grandstand, a temple compound with a 庫裏, a
+cylindrical gas tank, a mountain dam reservoir, a backyard swimming pool
+attached to a house, shops built under an elevated railway, a seafood
+drying yard across a road from a factory, a school campus with a
+schoolyard, a high-voltage transmission tower over a house, and a lumber
+yard with a small shop. All 10 panels share the SAME two-step decision
+tree shape: Step 1 (a diamond node): この土地は、宅地・雑種地のどちらで
+もない独立した地目（境内地・池沼・鉄道用地・学校用地など）に該当する
+か？ Step 2 (a second diamond node, reached only when Step 1 is いいえ):
+その肢固有の個別の認定基準（建物の敷地か、接続しているかなど）を確認し、
+宅地または雑種地のいずれかの結論ノードに至る. Where a panel's own 肢 is
+resolved at Step 1 (境内地・池沼・鉄道用地・学校用地), render Step 1's
+はい branch with a thick highlighted border leading directly to a
+highlighted conclusion node for that specific independent category, and
+render Step 2 and its branches faded, greyed-out, and shrunk in the
+background (the reader should see at a glance that this panel's path
+never reaches Step 2). Where a panel's own 肢 is resolved at Step 2
+(宅地 or 雑種地), render Step 1's いいえ branch with a thick highlighted
+border leading to a highlighted Step 2 diamond node with its own
+highlighted branch and highlighted conclusion node (宅地 or 雑種地), while
+rendering the OTHER outcome of Step 2 faded rather than omitting it, and
+render the はい branch of Step 1 (leading to the four independent
+categories) faded and greyed-out in the background. Unlike a glanceable
+summary poster, each panel MAY include a short「着眼点」callout box with
+1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
+し、次に〜を確認します"), not just the conclusion. Do not include case or
+precedent numbers (article/regulation numbers are fine); keep the callout
+text as written below verbatim, and keep every condition each callout
+describes faithful to the article's own body text — do not drop or merge
+a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 宅・雑・種・地・境・
+鉄・敷・接・続・該・認・号, which have visually similar but different
+Simplified or Traditional Chinese forms — always draw the standard
+Japanese (Jōyō) form. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成18年度午後第7問 作図ガイド（地目認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 10 panels).
+Heading (bold, ONE line):
+競馬場は建物部分だけが宅地になる
+Diagram: The shared two-step tree. Step 1 diamond（highlighted, いいえ
+branch highlighted leading down since 競馬場は独立地目ではない）: 独立し
+た地目に該当するか？ Step 2 diamond（highlighted）: 事務所・観覧席・
+きゅう舎等、永久的設備と認められる建物の敷地か？ with the はい branch
+highlighted (an isometric racetrack oval with a grandstand building inside
+it glowing with a green checkmark and a tag 宅地) leading to a highlighted
+conclusion node reading 宅地. The いいえ branch is faded, leading to a
+faded conclusion node reading 雑種地（馬場部分）, with a small greyed-out
+label 馬場そのものは対象外 near the empty racing track.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が宅地・雑種地のどちらでもない独立した地目に該当しないか
+を確認します。該当しないため、次に、事務所・観覧席・きゅう舎等、永久的
+設備と認められる建物の敷地として利用されているかを確認し、利用されて
+いるため宅地と判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+建物敷地のみ宅地
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+寺院境内の庫裏は境内地に区分される
+Diagram: The shared two-step tree. Step 1 diamond（highlighted）: 独立し
+た地目に該当するか？ with the はい branch highlighted (an isometric
+temple compound with a main hall 本堂 and an attached residential building
+庫裏 behind it, both inside a single fenced compound, with a blue tag
+labeled 境内地 covering the whole compound including the庫裏) leading
+directly to a highlighted conclusion node reading 境内地. Step 2 and its
+branches are rendered faded, greyed-out, and shrunk in the background,
+since this panel's path never reaches them.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が宗教法人法3条2号・3号に掲げる土地（本殿・拝殿・本堂・
+庫裏・社務所など）に該当しないかを確認します。庫裏の敷地はこれに該当
+するため、この時点で、宅地・雑種地のどちらでもない境内地と判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+境内地(独立の地目)
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+建物でなくてもガスタンク敷地は宅地
+Diagram: The shared two-step tree. Step 1 diamond（highlighted、いいえ
+branch highlighted）: 独立した地目に該当するか？ Step 2 diamond
+（highlighted）: ガスタンク敷地又は石油タンク敷地に該当するか？ with the
+はい branch highlighted (an isometric cylindrical gas tank, drawn with a
+dashed outline showing it is NOT counted as a 建物, sitting on a plot of
+land with a green stamp labeled 宅地 on the ground beneath it) leading to
+a highlighted conclusion node reading 宅地. The いいえ branch is faded,
+leading to a faded conclusion node reading 雑種地.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が独立した地目に該当しないかを確認します。該当しないた
+め、次に、ガスタンク敷地又は石油タンク敷地に該当するかを確認します。
+ガスタンクは建物として認定されなくても、その敷地は宅地として取り扱う
+と判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+建物でなくても宅地
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+発電用ダムの貯水池は池沼に区分される
+Diagram: The shared two-step tree. Step 1 diamond（highlighted）: 独立し
+た地目に該当するか？ with the はい branch highlighted (an isometric dam
+with a reservoir of water behind it in a mountain valley, with a blue tag
+labeled 池沼 floating above the water surface, and a small crossed-out
+icon of a rice paddy labeled かんがい用水ではない nearby) leading directly
+to a highlighted conclusion node reading 池沼. Step 2 and its branches are
+rendered faded, greyed-out, and shrunk in the background.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地がかんがい用水でない水の貯留池に該当しないかを確認しま
+す。水力発電専用のダムの貯水池はこれに該当するため、この時点で、宅地・
+雑種地のどちらでもない池沼と判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+池沼(独立の地目)
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+宅地に接続するプールは宅地に含まれる
+Diagram: The shared two-step tree. Step 1 diamond（highlighted、いいえ
+branch highlighted）: 独立した地目に該当するか？ Step 2 diamond
+（highlighted）: テニスコート又はプールが宅地に接続しているか？ with the
+はい branch highlighted (an isometric house with a garden, and a small
+outdoor swimming pool directly attached to the backyard with no gap or
+fence between them, a green checkmark and a label 接続 sitting between the
+house and the pool) leading to a highlighted conclusion node reading 宅地.
+The いいえ branch is faded, leading to a faded conclusion node reading
+雑種地.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が独立した地目に該当しないかを確認します。該当しないた
+め、次に、このプールが宅地に接続しているかを確認します。住居として使用
+されている建物の敷地内に設けられ、宅地に接続しているため、宅地と判断
+します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+接続していれば宅地
+
+--- PANEL 6（肢カ） ---
+Badge: a filled circle in blue containing the number 6.
+Heading (bold, ONE line):
+ガード下の店舗も鉄道用地に区分される
+Diagram: The shared two-step tree. Step 1 diamond（highlighted）: 独立し
+た地目に該当するか？ with the はい branch highlighted (an isometric
+elevated railway line with a train running on top, and small shop
+storefronts built into the space underneath the tracks, a blue tag
+labeled 鉄道用地 covering the entire structure including the shops below)
+leading directly to a highlighted conclusion node reading 鉄道用地. Step 2
+and its branches are rendered faded, greyed-out, and shrunk in the
+background.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が鉄道の駅舎、附属施設及び路線の敷地に該当しないかを確認
+します。鉄道のガード下を利用して築造された店舗の敷地はこれに該当する
+ため、この時点で、宅地・雑種地のどちらでもない鉄道用地と判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+鉄道用地(独立の地目)
+
+--- PANEL 7（肢キ） ---
+Badge: a filled circle in blue containing the number 7.
+Heading (bold, ONE line):
+道路で切れた日干場は雑種地になる
+Diagram: The shared two-step tree. Step 1 diamond（highlighted、いいえ
+branch highlighted）: 独立した地目に該当するか？ Step 2 diamond
+（highlighted）: 工場又は営業場に接続する物干場又はさらし場か？ with the
+いいえ branch highlighted (an isometric road running between two plots —
+on the left a seafood processing plant 海産物加工場 building, on the
+right across the road an open drying area with fish laid out labeled
+日干場 and a gray tag 雑種地, a dashed line marking the road labeled 接続
+していない) leading to a highlighted conclusion node reading 雑種地. The
+はい branch is faded, leading to a faded conclusion node reading 宅地.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が独立した地目に該当しないかを確認します。該当しないた
+め、次に、この日干場が工場又は営業場に接続しているかを確認します。海産
+物加工場と道を隔てた向かい側にあり接続していないため、雑種地と判断し
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+接続なしで雑種地
+
+--- PANEL 8（肢ク） ---
+Badge: a filled circle in blue containing the number 8.
+Heading (bold, ONE line):
+校舎も運動場も学校用地にまとめる
+Diagram: The shared two-step tree. Step 1 diamond（highlighted）: 独立し
+た地目に該当するか？ with the はい branch highlighted (an isometric
+school campus with a school building and an adjacent running
+track/schoolyard, both enclosed by the same fence line, a single blue tag
+labeled 学校用地 spanning across both the building and the schoolyard)
+leading directly to a highlighted conclusion node reading 学校用地. Step 2
+and its branches are rendered faded, greyed-out, and shrunk in the
+background.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が校舎、附属施設の敷地及び運動場に該当しないかを確認しま
+す。中学校の校舎の敷地はこれに該当するため、この時点で、宅地・雑種地の
+どちらでもない学校用地と判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+学校用地(独立の地目)
+
+--- PANEL 9（肢ケ） ---
+Badge: a filled circle in blue containing the number 9.
+Heading (bold, ONE line):
+高圧線下でも建物があれば宅地
+Diagram: The shared two-step tree. Step 1 diamond（highlighted、いいえ
+branch highlighted）: 独立した地目に該当するか？ Step 2 diamond
+（highlighted）: 高圧線の下の土地が、建物の敷地として利用されているか？
+with the はい branch highlighted (an isometric high-voltage transmission
+tower and power lines crossing above a small house below, the house has a
+green checkmark and a label 建物の敷地 under the wires) leading to a
+highlighted conclusion node reading 宅地. The いいえ branch is faded,
+leading to a faded conclusion node reading 雑種地（他用途に使用できない
+区域）.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が独立した地目に該当しないかを確認します。該当しないた
+め、次に、高圧線の下の土地が建物の敷地として利用されているかを確認し
+ます。建物の敷地として利用されているため、宅地と判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+高圧線下でも宅地
+
+--- PANEL 10（肢コ） ---
+Badge: a filled circle in blue containing the number 10.
+Heading (bold, ONE line):
+木場でも建物があれば宅地になる
+Diagram: The shared two-step tree. Step 1 diamond（highlighted、いいえ
+branch highlighted）: 独立した地目に該当するか？ Step 2 diamond
+（highlighted）: 木場の区域内の土地に、建物があるか？ with the はい
+branch highlighted (an isometric lumber yard with stacks of logs, and in
+one corner a small shop building with a wooden signboard labeled 材木問屋,
+the shop building has a green checkmark and a label 材木問屋の建物) leading
+to a highlighted conclusion node reading 宅地. The いいえ branch is faded,
+leading to a faded conclusion node reading 雑種地（原則）, with a small
+greyed-out label 木場＝原則雑種地 near the open log-stacking area.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この土地が独立した地目に該当しないかを確認します。該当しないた
+め、次に、木場の区域内の土地に建物があるかを確認します。材木問屋の建物
+の敷地として利用されているため、宅地と判断します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+木場でも宅地
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：不動産登記事務取扱手続準則68条4号（学校用地）・5号（鉄道用
+地）・8号（池沼）・13号（境内地）、同準則69条8号（競馬場）・9号（テニス
+コート又はプール）・10号（ガスタンク敷地）・11号（物干場又はさらし場）・
+13号（高圧線下の土地）・18号（木場）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 宅・雑・種・地・境・鉄・敷・接・続・
+該・認・号. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 10 exactly, badge numbers
+run 1-10 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that every panel is drawn using the
+same shared two-step decision tree shape with its own relevant branch
+highlighted and the other branches faded rather than omitted, that panels
+resolved at Step 1 (2, 4, 6, 8) clearly show Step 2 faded and unreached in
+the background rather than removed entirely, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
 ```

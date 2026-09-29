@@ -316,3 +316,200 @@ or missing panels, and confirm every heading and caption text matches
 the Japanese text given above verbatim, with no paraphrasing and no
 substituted characters.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+問題文を読んだ瞬間に「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに示す解き方ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。エは「申請書類つづり込み帳につづり込まれたものか」という条件で起算点が変わる決定木として構成し、ア・イ・ウ・オは1回の確認で完結する肢のため、タイムライン図・正誤対比図として構成した。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric registry storage room / bookshelf
+icons, file folders, calendar icons, an infinity symbol (∞), a co-owned
+mortgage list ledger, land/building diagram scrolls, a boundary
+determination file. Where a 肢 requires checking multiple conditions in
+sequence before reaching a conclusion, draw the panel's diagram as an
+actual decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
+node. Where a 肢 is resolved by a single check, a labeled illustrative
+diagram is sufficient — do not force a flowchart. Where a panel reuses a
+decision tree shared with other panels in this set, render the branch
+relevant to THIS panel with a thick highlighted border and full color,
+and render the other, unrelated branches in a faded, greyed-out, or
+dotted-outline style rather than omitting them — the reader should be
+able to see at a glance which part of the shared tree this panel is
+about. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article/regulation
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's
+own body text — do not drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成27年度 午後の部 第18問 作図ガイド（登記所に保存される情報の保存期間）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled green circle containing the number 1 (numbers run
+continuously through all panels).
+Heading (bold, ONE line):
+事件簿の保存期間は立件日から5年
+Diagram: タイムライン型として描く。左端に「立件の日」を示す日付アイコン
+（職権表示登記等事件簿のファイル）を置き、右へ矢印を伸ばし、右端に
+「保存期間満了」を示すカレンダーアイコンを置く。矢印の途中に「5年」と
+いう大きなラベルを配置する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この情報が職権表示登記等事件簿に記録された情報であることを確認
+します。次に、その起算点が立件の日であることを確認すると、保存期間が
+5年間であることが分かります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+立件日から5年
+
+--- PANEL 2（肢イ） ---
+Badge: a filled blue circle containing the number 2.
+Heading (bold, ONE line):
+閉鎖建物所在図は50年でなく永久保存
+Diagram: 正誤対比型として描く。左枠（誤りやすい思い込み）：巻物状の
+「建物所在図」に「閉鎖」の赤いスタンプが押され、横のカレンダーに「50年」
+というラベルを付け、赤い✕マークを重ねる。右枠（正しいルール）：同じ
+建物所在図が書庫の棚に収まり、無限マーク「∞」の光が差し込み、ずっと
+保管され続けている様子を描く。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この図面が閉鎖された建物所在図であることを確認します。次に、
+建物所在図が期限を区切らず永久に保存される基礎図面に当たることを確認
+すると、50年という数字が誤りであることが分かります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+期限なく永久保存
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled green circle containing the number 3.
+Heading (bold, ONE line):
+共同担保目録は全部抹消日から10年
+Diagram: タイムライン型として描く。左端に「共同担保目録に記録されている
+全ての事項を抹消した日」を示す日付アイコン（抵当権抹消の赤いスタンプ付き
+共同担保目録ファイル）を置き、右へ矢印を伸ばし、右端に「保存期間満了」を
+示すカレンダーアイコンを置く。矢印の途中に「10年」という大きなラベルを
+配置する。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、共同担保目録に記録されている全ての事項が抹消されたかを確認
+します。次に、その全部抹消の日を起算点として10年というタイムリミットを
+確認すると、保存期間が分かります。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+全部抹消から10年
+
+--- PANEL 4（肢エ） ---
+Badge: a filled orange circle containing the number 4.
+Heading (bold, ONE line):
+つづり込み帳の図面かどうかで起算点が変わる
+Diagram: Draw as an actual decision flowchart. Start node: 表題部の変更
+または更正の登記がされ、閉鎖された土地所在図がある場面。Diamond branch
+node 1:「その閉鎖された土地所在図は、申請書類つづり込み帳につづり込まれ
+たものか」。✕（いいえ、通常の土地図面つづり込み帳等に閉鎖保存された）の
+矢印で conclusion node「閉鎖した日から30年間保存」（green highlight box）。
+○（はい、申請書類つづり込み帳に綴じ込まれた）の矢印で conclusion node
+「この30年間のルールの対象外。原則は受付の日から30年間、書面図面が電磁的
+記録として保存された場合はその保存した日から30年間」（orange highlight
+box）。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、対象になっている閉鎖した土地所在図が、申請書類つづり込み帳に
+つづり込まれたものかどうかを確認します。つづり込まれたものでなければ
+閉鎖した日から30年間保存され、つづり込まれたものであれば、原則は受付の
+日から30年間、電磁的記録として保存された場合はその保存した日から30年間
+という別の起算点で数えることを確認します。
+Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
+characters):
+閉鎖日から30年（例外あり）
+
+--- PANEL 5（肢オ） ---
+Badge: a filled blue circle containing the number 5.
+Heading (bold, ONE line):
+筆界特定書は10年でなく永久保存
+Diagram: 正誤対比型として描く。左枠（誤りやすい思い込み）：「筆界特定書」
+のファイルアイコンに「10年」というラベルを付け、赤い✕マークを重ねる。
+右枠（正しいルール）：同じファイルアイコンの上に無限マーク「∞」を大きく
+描き、書庫にずっと保管され続けている様子を表す。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、この情報が筆界特定書に記載または記録された情報であることを確認
+します。次に、筆界特定書が境界を確定させる基礎資料として期限を区切らず
+永久に保存されることを確認すると、10年という数字が誤りであることが
+分かります。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+10年でなく永久保存
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+平成27年度 午後の部 第18問（不動産登記規則28条2号・3号・6号・9号・11号・
+13号、235条1項1号）
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 保・存・期・間・職・権・表・示・登・記・事・
+件・簿・立・閉・鎖・建・物・所・図・共・同・担・目・録・抹・消・土・地・筆・界・特・定・
+書・久・込・帳・受・付・磁. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+the multi-condition 肢（エ）is drawn as an actual flowchart with branch
+nodes (not a bare illustration with no visible decision structure), that
+no 肢 with a genuinely hidden second condition has been flattened into a
+single check, that each 着眼点 callout states a checking order rather than
+only a conclusion, confirm nothing is rendered below the last panel's
+footnote text (no summary recap panel, no trophy or medal icon, no
+re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
+and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
+```

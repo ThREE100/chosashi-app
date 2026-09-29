@@ -205,3 +205,192 @@ confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance.
 ```
+
+---
+
+## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+
+上記②の「結論カード」ポスターとは別に、この問題文を読んだときに実際に手を動かして確認すべき順序（第三者の承諾は要るか、共有者自身が申請人になる場面はどう扱うか）を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに「着眼点」の短い説明文を添え、判定の手順を追体験できるようにしている。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this land-subdivision (分筆) problem, AND the order in which they
+should check conditions to get there — isometric land plots split by a
+dashed line, application-document icons, a red tag for a registered
+right such as 仮差押 or 敷地権, a scroll icon for a settlement record
+(和解調書), a wooden nameplate for a trust (信託), a condominium
+building, hanko seal stamps, and green ○ / red ✕ marks. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+branch arrows, and a final conclusion node. Where a 肢 is resolved by a
+single check, a labeled illustrative diagram is sufficient — do not force
+a flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+conclusion. Do not include case or precedent numbers (article numbers are
+fine); keep the callout text as written below verbatim.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+平成17年度 午後の部 第6問 作図ガイド（分筆登記の申請人・承諾）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（肢ア） ---
+Badge: a filled circle in blue containing the number 1 (numbers run
+continuously through all 5 panels).
+Heading (bold, ONE line):
+仮差押の効力は分筆後もそのまま続く
+Diagram: 一筆の土地に赤い「仮差押」タグが付いた状態を左に描く。中央に
+その土地を点線で2筆に分ける矢印を描き、右側に分筆後の2筆の土地を並べ、
+両方の土地に同じ赤い「仮差押」タグをそのまま複製して描く。分筆後の土地の
+上に「承諾書」の書類アイコンを置き、大きな赤い✕を重ねる。
+着眼点 callout (1-2 sentences, verbatim):
+まず、分筆によって土地の物理的な区分が変わるだけか、それとも仮差押の
+権利内容そのものが変わるかを確認します。物理的な区分にすぎないと分かれば、
+仮差押の効力は分筆後の両方の土地にそのまま引き継がれ、承諾は不要だと
+判断できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾は不要
+
+--- PANEL 2（肢イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+和解調書があれば代位して申請できる
+Diagram: 決定木として描く。開始ノード「共有物分割の訴えで裁判上の和解が
+成立したか」（ひし形）→ Yes矢印（緑）→ 次のひし形ノード「その和解の
+内容を実現するには分筆登記が必要か」→ Yes矢印（緑）→ 結論ノード「和解
+調書を代位原因証明情報として、他の共有者に代位して単独で分筆登記を
+申請できる」（緑の○付き）。それぞれのひし形の横に、共有者Ａ・Ｂが土地を
+挟んで立つイラストと、Ａが持つ巻物アイコン「和解調書」を添える。
+着眼点 callout (1-2 sentences, verbatim):
+まず、共有物分割の訴えで裁判上の和解が成立しているかを確認します。
+成立していれば、次にその和解による持分移転登記請求権を保全するために
+分筆登記が必要かを確認し、必要であれば和解調書を代位原因証明情報として
+単独で代位申請できると判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+代位で単独申請
+
+--- PANEL 3（肢ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+敷地権の分筆に区分所有者の承諾は不要
+Diagram: 上段にアイソメトリックの区分建物（マンション）を描き、下段に
+その敷地となる土地を描き、両者を縦の線でつなぎ土地に「敷地権」のタグを
+付ける。土地の部分だけを点線で2筆に分ける矢印を描き、建物部分は分割
+せずそのまま残す。マンションの各住戸を表す複数の人物アイコンが、それぞれ
+「承諾書」を持って並んでいる様子に、大きな赤い✕を重ねる。
+着眼点 callout (1-2 sentences, verbatim):
+まず、分筆が敷地の物理的な区分にとどまるか、それとも専有部分と敷地
+利用権が分離して処分されないという敷地権の規律自体を変えるかを確認
+します。物理的な区分にとどまると分かれば、区分建物の所有者全員の承諾は
+不要だと判断できます。
+Conclusion tag (blue, 5-15 Japanese characters):
+承諾は不要
+
+--- PANEL 4（肢エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+承諾書だけでは共有者の単独申請不可
+Diagram: 正誤対比の2枠構成にする。左枠に「よくある思い込み」の見出しを
+付け、共有者Ａ・Ｂ・Ｃが共有する土地の前で、ＡだけがＢ・Ｃの「承諾書」を
+2通持って単独で申請書を提出している場面を描き、大きな赤い✕を重ねる。
+右枠に「正しいルール」の見出しを付け、Ａ・Ｂ・Ｃの3人が同じ申請書に
+それぞれ自分のハンコを押しながら共同で提出している場面を描き、緑の
+○を添える。
+着眼点 callout (1-2 sentences, verbatim):
+まず、申請人が共有者の1人だけかを確認し、次にその1人が他の共有者
+全員の承諾書を持っているかを確認します。承諾書があっても、それだけで
+単独申請に切り替わるわけではなく、共有者全員が共同で申請しなければ
+ならないと判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+全員共同申請
+
+--- PANEL 5（肢オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+受託者は管理処分権で単独申請できる
+Diagram: 決定木として描く。開始ノード「受託者は信託財産の管理・処分の
+権限を持つか」（ひし形）→ Yes矢印（緑）→ 次のひし形ノード「分筆はその
+管理・処分に必要な行為の範囲内か」→ Yes矢印（緑）→ 結論ノード「受託者は
+単独で分筆登記を申請できる」（緑の○付き）。土地に木製の「信託」の
+表札を立て、スーツ姿の人物（label「受託者」）が1人で申請書を提出する
+イラストを添える。
+着眼点 callout (1-2 sentences, verbatim):
+まず、受託者が信託財産の管理・処分の権限を持つかを確認し、次に分筆が
+その権限の範囲内の行為かを確認します。どちらも満たすため、委託者や
+受益者の同意を別途得ることなく、受託者が単独で申請できると判断します。
+Conclusion tag (blue, 5-15 Japanese characters):
+単独で申請可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+条文根拠：ア（不動産登記法39条1項・40条）、イ（民事訴訟法267条・民法
+423条）、ウ（不動産登記法39条1項）、エ（不動産登記法39条1項）、オ
+（信託法26条本文）。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・地・登・記・所・単・独・証・筆・
+託・押・敷・請. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that panels 2 and 5 are each drawn as
+an actual 2-step decision flowchart with diamond branch nodes and a
+labeled conclusion node (not a bare illustration with no visible decision
+structure), that panel 4 is drawn as a genuine left/right 正誤対比
+comparison with a red ✕ on the mistaken side and a green ○ on the correct
+side, that each 着眼点 callout states a checking order rather than only a
+conclusion, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
