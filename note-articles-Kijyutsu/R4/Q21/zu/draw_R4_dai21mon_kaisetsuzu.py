@@ -82,7 +82,7 @@ fig, (ax,) = new_figure('図1　北を上にして描き直した全体像（令
                         '問題の調査図素図は傾いている。座標どおりに北を上にすると、B・G・C は真東向き（X＝279.30）、C・D は真北向き（Y＝303.07）の直線。\n'
                         '春野朝子と夏野悠人が境だと思っていたAB線（灰色の破線）と、杭が見つかった筆界E→F→G（黒）の違いに注意。')
 z = Zu(ax)
-fit(ax, [L, K, B, C, T1, T2], margin=0.08, keep_all=True)
+fit(ax, [L, K, B, C, T1, T2], margin=0.08, pad_aspect=True)
 z.poly(HON, fill=BLUE)
 z.line(L, K, color=BLACK, lw=1.4)
 z.line(A, B, color=GRAY, lw=1.8, ls='--')
@@ -115,7 +115,7 @@ zs = []
 for ax, pts, head, s, col in [(ax1, ABQ, 'AB線で囲む（2人の認識）', '584.84㎡', GRAY),
                               (ax2, HON, 'E→F→Gで囲む（杭の位置）', '584.82㎡', RED)]:
     z = Zu(ax, fontsize=14)
-    fit(ax, [E, D, C, B], margin=0.22, keep_all=True)
+    fit(ax, [E, D, C, B], margin=0.22, pad_aspect=True)
     z.poly(pts, fill=BLUE)
     if pts is HON:
         z.poly(HA, color=ORANGE, lw=0, fill=ORANGE, alpha=0.45, check=False)
@@ -141,7 +141,7 @@ fig, (ax,) = new_figure('図3　合成図の33.19・33.41で筆界E→F→Gを�
                         '合成図の対角線は、拡幅前の道路の線の上の点D′（D点から真北へ1.49）から引かれている。\n'
                         'D′からF点まで33.19、G点まで33.41で合成図と一致。AB線の端のB点までは36.57で、合成図のどこにもない。')
 z = Zu(ax)
-fit(ax, [E, Dp, C, B], margin=0.14, keep_all=True)
+fit(ax, [E, Dp, C, B], margin=0.14, pad_aspect=True)
 z.poly(HON, fill=BLUE)
 z.line(D, Dp, color=BLACK, lw=1.4)
 z.line(E + 1.37, Dp, color=GRAY, lw=1.2, ls='-.')
@@ -169,7 +169,7 @@ fig, (ax,) = new_figure('図4　問1　P点の求め方（T1から放射）',
                         'T1→T2の方向角は −95°35′51.58″（360°を足して 264°24′08.42″）。これに時計回りの観測角 338°29′30″ を足すと 242°53′38.42″。\n'
                         'その方向へ 13.74m 進んだ点がP。反時計回りに測ると、道路の北の向こう側に出てしまう。')
 z = Zu(ax)
-fit(ax, [T1 + P(1, 9), T2 + P(0, -2), Pp + P(-3, 0), Pw + P(1.5, 0)], margin=0.06, keep_all=True)
+fit(ax, [T1 + P(1, 9), T2 + P(0, -2), Pp + P(-3, 0), Pw + P(1.5, 0)], margin=0.06, pad_aspect=True)
 z.poly(HON, color=GRAY, lw=1.2)
 z.line(L, K, color=GRAY, lw=1.2)
 z.line(T1, T1 + 6, color=GRAY, lw=1.2, ls='--')
@@ -203,7 +203,7 @@ fig, (ax1, ax2) = new_figure('図5　問1　I点とJ点の求め方',
                              '右（拡大）：I は直線ED上で Y＝293.12 の点。I ＝ E ＋ (D − E) × 20.44 ÷ 30.39。P（側溝の北の目印）はIの0.50m北。',
                              ncols=2, width_ratios=[1.35, 1])
 za = Zu(ax1, fontsize=14)
-fit(ax1, [E, D, C, B, Pp], margin=0.14, keep_all=True)
+fit(ax1, [E, D, C, B, Pp], margin=0.14, pad_aspect=True)
 za.poly(HON, color=BLACK, lw=1.6)
 za.poly(I1, color=RED, lw=0, fill=GREEN, alpha=0.25, check=False)
 za.line(Pp, J, color=RED, lw=2.2)
@@ -222,7 +222,7 @@ za.edge_label(Pp, J, 'Y＝293.12', co, color=RED, fs=13, ts=(0.3, 0.4, 0.2))
 
 zb = Zu(ax2, fontsize=14)
 Z1, Z2 = E + (D - E) * 0.60, E + (D - E) * 0.76
-fit(ax2, [Z1, Z2, Pp + 0.9, I - 1.2], margin=0.05, keep_all=True)
+fit(ax2, [Z1, Z2, Pp + 0.9, I - 1.2], margin=0.05, pad_aspect=True)
 zb.line(Z1, Z2, color=BLACK, lw=2.0)
 zb.line(Z1 + 0.35, Z2 + 0.35, color=GRAY, lw=1.0)
 zb.line(Z1 + 0.05, Z2 + 0.05, color=GRAY, lw=1.0)
@@ -244,7 +244,7 @@ fig, (ax,) = new_figure('図6　問2　筆界特定の定義（不動産登記�
                         '筆界特定 ＝（ア：表題登記）がある一筆の土地及びこれに（イ：隣接）する他の土地について、筆界の現地における（ウ：位置）を特定すること\n'
                         '（その位置を特定することができないときは、その位置の（エ：範囲）を特定すること）。所有権界のAB線は、筆界特定で決めるものではない。')
 z = Zu(ax)
-fit(ax, [E, D, C, B, P(279.3, 262.0)], margin=0.10, keep_all=True)
+fit(ax, [E, D, C, B, P(279.3, 262.0)], margin=0.10, pad_aspect=True)
 z.poly(HON, color=GRAY, lw=1.2, check=False)
 for s in [(E, D), (D, C), (C, G)]:
     z.segments.append((xy(s[0]), xy(s[1])))
@@ -306,7 +306,7 @@ fig, (ax,) = new_figure('図8　問3　分筆後の区画と地番・地目（�
                         '注7：最も東の土地を184番1、その余は184番3から東側から順に（184番2は道路で使用済み）。\n'
                         '中央部分は令和4年10月5日から月極駐車場なので雑種地（1㎡未満切捨てで357㎡）。△HBGは185番3の土地で、この申請の対象外。')
 z = Zu(ax)
-fit(ax, [E, D, C, B, P(290.0, 262.0), P(290.0, 306.0)], margin=0.08, keep_all=True)
+fit(ax, [E, D, C, B, P(290.0, 262.0), P(290.0, 306.0)], margin=0.08, pad_aspect=True)
 z.poly(I1, fill=GREEN)
 z.poly(RO, fill=ORANGE)
 z.poly(HA, fill=BLUE, alpha=0.4)
