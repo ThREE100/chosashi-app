@@ -243,15 +243,15 @@ note-articles-Kijyutsu/
     │   └── zu/                                          解説図12枚のPNGと、作図の参照実装 draw_R7_dai21mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。登記申請書の完成形・添削画像のPNGとHTML（R7_dai21mon_toukishinseisho_kansei／_machigai）と生成スクリプト make_R7_dai21mon_shinseisho_gazou.py
     └── Q22/
         ├── note_R7_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
-        ├── prompt_R7_dai22mon_kaisetsuzu.md                   解説図5枚（変遷図・符号2の一部取壊し・柱芯の誤り比較図・1階/2階求積図）作成プロンプト
+        ├── prompt_R7_dai22mon_kaisetsuzu.md                   解説図6枚（変遷図・符号2の一部取壊し・柱芯の誤り比較図・1階/2階求積図・本番で解く順番）作成プロンプト
         ├── prompt_R7_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（問1・問2の完成形）
         ├── prompt_R7_dai22mon_toukishinseisho_machigai.md     登記申請書「符号」の誤答→添削→正解の画像プロンプト（3コマを縦に積む）
         ├── prompt_R7_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
         ├── verify_R7_dai22mon.py                              記事・生成画像（PNG・HTML）の数値・体裁の照合スクリプト
         └── zu/                                                生成済みの画像（第22問で初めて実際に生成）
-            ├── draw_R7_dai22mon_kaisetsuzu.py                 解説図5枚の作図スクリプト（tools/zu_helpers.py を使用）
+            ├── draw_R7_dai22mon_kaisetsuzu.py                 解説図6枚の作図スクリプト（tools/zu_helpers.py を使用）
             ├── make_R7_dai22mon_shinseisho_gazou.py           申請書の完成形2枚・添削1枚の生成スクリプト（HTML＋Playwright）
-            ├── R7_dai22mon_zu01〜zu05_*.png                   解説図5枚
+            ├── R7_dai22mon_zu01〜zu06_*.png                   解説図6枚
             └── R7_dai22mon_toukishinseisho_*.png / .html      申請書の完成形（問1・問2）と添削
 ```
 
