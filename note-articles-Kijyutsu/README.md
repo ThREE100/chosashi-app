@@ -111,10 +111,10 @@ note-articles-Kijyutsu/
 │       └── verify_H29_dai22mon.py                             記事・付属プロンプトの数値・求積・体裁の照合スクリプト
 ├── H30/
 │   ├── Q21/
-│   │   ├── note_H30_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み〈問2（エ）は「意思」〉。放射のD点・延長線の交点のI点・筆界の定義・土地一部地目変更・分筆登記）
+│   │   ├── note_H30_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。2026-09-29に出題当初の試験問題の本文から作り直し。予備校の解答例の添付はなく未照合〈前の版に転記されたアガルートの答えとは一致〉。原点をずらした座標・放射のD点・延長線の交点のI点・筆界の定義〈エ＝意思〉・土地一部地目変更・分筆登記）
 │   │   ├── prompt_H30_dai21mon_kaiwa_kaisetsuzu.md       解説図9枚（全体図・D点・I点・甲土地の面積の裏付け・筆界の定義・必要な登記の判断・公差・分筆後の区画と地番・地積測量図）作成プロンプト（土地の基本フォームの記入済み）
 │   │   ├── prompt_H30_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（完成形。答案用紙どおり登録免許税が申請人より前、記入行4行）
-│   │   ├── prompt_H30_dai21mon_toukishinseisho_machigai.md  登記申請書「登記の目的」と（イ）（ロ）の行の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
+│   │   ├── prompt_H30_dai21mon_toukishinseisho_machigai.md  登記申請書「申請人」欄と（イ）（ロ）の行の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
 │   │   ├── prompt_H30_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │   │   ├── verify_H30_dai21mon_kaiwa.py                  記事・付属プロンプト・生成画像の数値・体裁の照合スクリプト
 │   │   └── zu/                                          解説図9枚のPNGと作図スクリプト draw_H30_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H30_dai21mon_shinseisho_gazou.py
@@ -229,13 +229,13 @@ note-articles-Kijyutsu/
     │   ├── note_R7_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文（プロース形式。アガルート解答例と照合済み）
     │   ├── note_R7_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。答えはプロース版と同じ。L点は延長線の交点の相似で解く）
     │   ├── prompt_R7_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（R7第21問の記入データ済み）
-    │   ├── prompt_R7_dai21mon_toukishinseisho_machigai.md  登記申請書「申請人」「添付書類」欄の誤答→添削→正解の画像プロンプト（会話形式用）
+    │   ├── prompt_R7_dai21mon_toukishinseisho_machigai.md  登記申請書「申請人」「添付書類」欄の誤答→添削→正解の画像プロンプト（会話形式用。3コマを縦に積んだ縦長）
     │   ├── prompt_R7_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（会話形式用、1280×670px）
     │   ├── prompt_R7_dai21mon_kaisetsuzu.md             解説図（K点・地積測量図・J点L点）作成プロンプト（プロース版用、R7第21問の座標入り）
     │   ├── prompt_R7_dai21mon_kaiwa_kaisetsuzu.md       解説図9枚（全体図・D点・筆界の比較・K点・公差・地積測量図・J点・L点・分筆の地番）作成プロンプト（会話形式用。土地の基本フォームの記入済み見本）
     │   ├── verify_R7_dai21mon.py                        記事の数値・電卓表示の照合スクリプト（プロース版）
     │   ├── verify_R7_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト（会話形式）
-    │   └── zu/                                          解説図9枚のPNGと、作図の参照実装 draw_R7_dai21mon_kaisetsuzu.py
+    │   └── zu/                                          解説図9枚のPNGと、作図の参照実装 draw_R7_dai21mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。登記申請書の完成形・添削画像のPNGとHTML（R7_dai21mon_toukishinseisho_kansei／_machigai）と生成スクリプト make_R7_dai21mon_shinseisho_gazou.py
     └── Q22/
         ├── note_R7_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
         ├── prompt_R7_dai22mon_kaisetsuzu.md                   解説図作成プロンプト

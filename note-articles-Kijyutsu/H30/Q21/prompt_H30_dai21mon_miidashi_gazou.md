@@ -1,6 +1,6 @@
 # 画像作成プロンプト：平成30年度 第21問（土地）note見出し画像
 
-note記事「【土地家屋調査士受験生向け】平成30年度問題21（土地）〜売った細い帯は宅地に変わっていた〜」の**見出し画像（サムネイル）**用プロンプト。サイズ・スタイルの前提は、択一式（`note-articles/infographic-prompt-template.md`）で確立済みの house style をそのまま踏襲している（詳細はそちらの「サイズ・アスペクト比」「スタイル」の章を参照）。R7/Q22（建物）の見出し画像プロンプトと同じ構成で、場面の小物だけを土地（駐車場から切り分けた細い帯が、ブロック塀で家の庭になった様子）に差し替えた。R7/Q21（土地）の見出し画像プロンプトと同じ構成。
+note記事「【土地家屋調査士受験生向け】平成30年度問題21（土地）〜真南に見えるI点は延長線の交点〜」の**見出し画像（サムネイル）**用プロンプト。サイズ・スタイルの前提は、択一式（`note-articles/infographic-prompt-template.md`）で確立済みの house style をそのまま踏襲している（詳細はそちらの「サイズ・アスペクト比」「スタイル」の章を参照）。R7/Q22（建物）の見出し画像プロンプトと同じ構成で、場面の小物だけを土地（ほぼ真北に伸びる筆界の線と、それを延長した先の交点）に差し替えた。R7/Q21（土地）の見出し画像プロンプトと同じ構成。
 
 - **サイズ**：`1280×670px`（アスペクト比1.91:1）。より高精細にしたい場合は同じ比率のまま`1920×1006px`でもよい
 - 根拠：note公式ヘルプ「登録画像の推奨サイズ一覧」（https://www.help-note.com/hc/ja/articles/360000231642 ）。この比率からずれると note側で中央部分だけ自動トリミングされるため、必ずこの比率で生成すること
@@ -31,15 +31,16 @@ land-and-house surveyor (土地家屋調査士) exam prep series.
   flustered expression (eyes wide, a small sweat-drop icon near her
   head), holding a pencil or clipboard.
 - Between or around them: a small isometric icon of two adjacent lots
-  seen from above — on the left a pale green lot with a small house on it,
-  and on the right a larger pale gray asphalt parking lot with two tiny
-  parked cars. A very thin strip runs along the left edge of the parking
-  lot, right next to the house; a short gray concrete-block wall separates
-  this thin strip from the parking lot. The thin strip is being repainted
-  from gray asphalt to fresh pale green lawn, as if it has just become part
-  of the house's yard, with a small golden sparkle on it (representing
-  "the sold thin strip turned into residential land"). A small dashed
-  cutting line along the block wall suggests the strip is being split off.
+  seen from above — a pale green house lot on the left and a larger pale
+  blue parking lot on the right, with a narrow strip between them fenced
+  off by a short gray block wall. A thin boundary line runs from the top
+  of the icon down toward the road at the bottom; it is very slightly
+  tilted, and its dotted extension continues past the lot corner to meet
+  the road edge at a point that glows with a soft golden highlight
+  (representing "the correct point is where the extended line meets the
+  road edge"). A second, perfectly vertical dashed line dropped straight
+  down lands on a slightly different spot and is crossed out with a small
+  red X mark (representing "dropping it straight south is wrong").
   Keep the icon purely graphical/iconic — no legible numbers, letters, or
   Japanese sentences inside the icon itself.
 - Background: a soft pastel beige/gray gradient, flat and clean, no
@@ -55,8 +56,9 @@ Chinese-only characters, no Korean Hangul, no other non-Japanese script,
 and no stray or decorative glyphs of any kind. Reproduce the exact text
 strings given below verbatim — do not paraphrase, translate, summarize,
 or substitute any characters.
-Exception: the Arabic digits that appear in the strings below are
-intentional — render them exactly as given, as half-width characters.
+Exception: the Arabic digits and the Latin capital letter "I" that
+appear in the strings below are intentional — render them exactly as
+given, as half-width characters (the "I" is the name of a survey point).
 
 Label text (small, placed directly above the title, 1 line):
 土地家屋調査士受験生向け
@@ -66,7 +68,7 @@ line):
 平成30年度問題21（土地）
 
 Subtitle text (smaller, centered directly below the title, 1 line):
-〜売った細い帯は宅地に変わっていた〜
+〜真南に見えるI点は延長線の交点〜
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -84,12 +86,13 @@ center of the canvas (roughly the middle 454px band), with only
 background decoration allowed to extend into the top/bottom margins.
 
 Final check before rendering: scan every kanji glyph — including 土・地・
-家・屋・調・査・士・受・験・生・向・平・成・年・度・問・題・売・細・帯・宅・地・変 — and confirm each
+家・屋・調・査・士・受・験・生・向・平・成・年・度・問・題・真・南・見・
+点・延・長・線・交 — and confirm each
 is in standard Japanese (Jōyō) form, not Simplified Chinese and not
 Traditional Chinese. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct
-Japanese form. Confirm that 帯 and 変 are rendered in their standard Japanese Jōyō
-forms, not Chinese variants. Also scan the entire canvas for any character that is not
+Japanese form. Confirm that 延, 長 and 線 are rendered in the standard
+Japanese Jōyō form, not a Chinese variant. Also scan the entire canvas for any character that is not
 standard Japanese hiragana, katakana, or Jōyō kanji — including any
 Chinese-only character, Korean Hangul, other non-Japanese script, or
 stray decorative glyph — and remove or redraw it so that only standard
@@ -104,7 +107,7 @@ channel anywhere.
 ## 生成後の確認項目
 
 - サイズが1280×670px（またはその倍率で同比率）になっているか
-- ラベル「土地家屋調査士受験生向け」、タイトル「平成30年度問題21（土地）」、サブタイトル「〜売った細い帯は宅地に変わっていた〜」の文字が一字一句正しいか（note記事のタイトル「【土地家屋調査士受験生向け】平成30年度問題21（土地）〜売った細い帯は宅地に変わっていた〜」と同じ文言を3行に分けたもの）（簡体字・繁体字・日本語以外の文字が混ざっていないか）
+- ラベル「土地家屋調査士受験生向け」、タイトル「平成30年度問題21（土地）」、サブタイトル「〜真南に見えるI点は延長線の交点〜」の文字が一字一句正しいか（note記事のタイトル「【土地家屋調査士受験生向け】平成30年度問題21（土地）〜真南に見えるI点は延長線の交点〜」と同じ文言を3行に分けたもの）（簡体字・繁体字・日本語以外の文字が混ざっていないか）
 - トリ先生・藍子の2キャラクターと、ラベル・タイトル・サブタイトルの文字が、画像中央の1280×454pxの範囲内に収まっているか（note一覧ページでの見切れ防止）
 - 背景が完全に不透明か（透過・アルファチャンネルがないか、別の背景色の上に置いて確認する）
 - 土地のアイコンの中に、読めてしまう数値・文字・文章が入っていないか（アイコンとしてのみ使う）
