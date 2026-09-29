@@ -91,10 +91,11 @@ class Zu:
 
     def point(self, p, kind='dot', size=7, color=BLACK):
         """点の記号。kind: dot（黒丸）/ concrete（白抜き丸に中黒＝コンクリート杭）/ metal（黒丸＝金属標）
-        / kijun（三角＝基準点）/ stone（白抜きの四角＝石杭。2026-09-29、H25/Q21で追加）"""
+        / kijun（三角＝基準点）/ stone（白抜きの四角に中黒＝石杭。2026-09-29、R1/Q21で追加）"""
         a, b = xy(p)
         if kind == 'stone':
             self.ax.plot(a, b, 's', ms=size + 3, mfc='white', mec=color, mew=1.6, zorder=5)
+            self.ax.plot(a, b, 'o', ms=2.6, color=color, zorder=6)
         elif kind == 'concrete':
             self.ax.plot(a, b, 'o', ms=size + 4, mfc='white', mec=color, mew=1.6, zorder=5)
             self.ax.plot(a, b, 'o', ms=2.6, color=color, zorder=6)
