@@ -363,7 +363,7 @@ for ax, after in [(ax1, False), (ax2, True)]:
     zs.append(z)
 zs[0].free_text(centroid(N32_1), '32番1　畑\n351㎡\n（351.67100）', fs=16)
 zs[0].free_text(centroid(I_40_2), '40番2　畑\n276㎡', fs=16, offsets=((0, 25), (0, 45), (0, 0)))
-zs[0].callout(centroid(RO), '（ロ）部分 46.4342', dirs=(170, 180, 160), color=RED, dists=(130, 150, 170))
+zs[0].callout(centroid(RO), '（ロ）部分 46.4342', dirs=(75, 60, 90, 105), color=RED, dists=(55, 75, 95))
 zs[1].free_text(centroid(N32_1), '32番1　畑\n398㎡\n（398.1052）', fs=16, color=RED)
 zs[1].free_text(centroid(I_40_2), '（イ）40番2　畑\n230㎡\n（230.2059）', fs=16, offsets=((0, 25), (0, 45), (0, 0)))
 ALL_PROBLEMS += save(fig, zs, 'H28_dai21mon_zu07_bungouhitsu.png')
