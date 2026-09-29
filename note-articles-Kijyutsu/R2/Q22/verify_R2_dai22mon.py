@@ -229,9 +229,9 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
 ng += bool(bad_speaker)
 print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-ok = n_marker == 10
+ok = n_marker == 11
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図6＋添削1＋申請書の完成形2＋第2欄1＝計10か所の想定）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図7＋添削1＋申請書の完成形2＋第2欄1＝計11か所の想定）')
 ok = lines[-1] == '---'
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
@@ -281,7 +281,7 @@ check('解く順番', 'まず前文と問題文の注、問1〜問4を先に読�
 check('問2は後回し', '問2は、一番北の建物をどこへ動かすのかが〔調査図〕と建物図面を読まないと決まらないから、後回し')
 check('所在は作図のあと', '問3の所在の欄は作図のあとで書くこと')
 
-# ---- 画像（2026-09-29生成）：記事の画像挿入マーカー10か所と zu/ のPNGの対応 ----
+# ---- 画像（2026-09-29生成）：記事の画像挿入マーカー11か所と zu/ のPNGの対応 ----
 from PIL import Image
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
@@ -294,7 +294,8 @@ PNGS = [('R2_dai22mon_zu01_kaoku_bangou', '建物図面3枚と〔調査図〕を
         ('R2_dai22mon_zu05_3kai_ayamari_hikaku', '左に「誤り＝全部の寸法から0.10を引いた'),
         ('R2_dai22mon_zu06_3kai_kyuuseki', '3階の床面積求積図'),
         ('R2_dai22mon_toukishinseisho_machigai', '「原因及びその日付」欄の①誤答'),
-        ('R2_dai22mon_toukishinseisho_kansei_toi3', '問3（第3欄）の建物表題登記の申請書の完成形')]
+        ('R2_dai22mon_toukishinseisho_kansei_toi3', '問3（第3欄）の建物表題登記の申請書の完成形'),
+        ('R2_dai22mon_zu07_toku_junban', '本番で解く順番の図')]
 ok = len(markers) == len(PNGS)
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'画像挿入マーカーとPNGの数 : {len(markers)}／{len(PNGS)}')
