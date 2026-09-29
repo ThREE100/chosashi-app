@@ -46,6 +46,8 @@ Cは、Bに対する所有権移転登記請求権を保全するために、B�
 
 AB間の売買契約をAが詐欺を理由に取り消した後、Bへの移転登記を抹消する前にBからCへの譲渡が行われた場合、Cは「取消し後の第三者」に当たります。契約を取り消すと、その契約は最初からなかったことになり、いったんBに移っていた甲土地の所有権はAのもとに戻ったものとして扱われます。このように、契約の効力が失われたことで権利が元の持ち主のところへ戻ることを、法律用語で「復帰的物権変動」といいます。その後のBからCへの譲渡と、Aに戻ったこの権利とは、177条の対抗問題として処理されます。したがって、Cは自己への所有権移転登記をしなければ、Aに対し所有権を主張することができません。
 
+これは、第三者Cが取消しの「後」に登場した場合の処理です。これに対し、Cが取消しの「前」に登場していた場合（Aが契約を取り消す前に、Bが既にCへ譲渡してしまっていた場合）は、177条の対抗問題ではなく、民法96条3項によって処理されます。同項は、詐欺による意思表示の取消しは善意でかつ過失がない第三者に対抗することができないと定めており、Cが善意無過失であれば、登記の有無にかかわらずAは取消しをCに対抗できず、反対にCが悪意または過失があれば、Aは取消しをCに対抗することができます。取消しの前後で、判断基準が「Cの善意無過失（96条3項）」から「登記の先後（177条）」に切り替わる点が、この分野の重要なポイントです。
+
 **たとえば**、Aさんが、Bさんに騙されて土地を売り、登記も移してしまった後、詐欺に気づいて契約を取り消したとします。ところが、まだ登記を戻す前に、Bさんがその土地をCさんに転売してしまいました。この場合、Cさんは自分名義への登記を済ませていなければ、Aさんに対して「この土地は私のものだ」と主張することはできません。
 
 ### まとめ
@@ -70,6 +72,7 @@ AB間の売買契約をAが詐欺を理由に取り消した後、Bへの移転�
 - **最新法令チェック（2026-08-06実施）**：エの根拠とした「登記請求権保全のための債権者代位権の転用」は、出題当時（平成24年）は判例上確立した法理として説明されるのが一般的でしたが、令和2年4月1日施行の民法（債権関係）改正により民法423条の7として明文化されていることをWeb検索で確認しました。出題当時の正誤判定・正解番号（2番＝ア・オ）自体は変わりませんが、本文の解説はこの明文化を反映するように修正しています。ア（177条の第三者非該当）・イ（相続人による地位承継）・オ（詐欺取消し後の第三者と対抗問題）については、177条および取消後の第三者に関する判例法理に影響する改正は見当たりませんでした。
 - **最新法令チェック追記（2026-08-08実施）**：`note-articles/laws/`のローカル法令データベース（e-Gov現行法、2026-08-04取得）で民法423条の7の条文原文を確認しました。「登記又は登録をしなければ権利の得喪及び変更を第三者に対抗することができない財産を譲り受けた者は、その譲渡人が第三者に対して有する登記手続又は登録手続をすべきことを請求する権利を行使しないときは、その権利を行使することができる。」とあり、本文で説明した肢エの内容と完全に一致します。あわせて民法177条・96条3項の条文原文も確認しました。96条3項（詐欺による取消しは善意無過失の第三者に対抗できない旨）は、その文言上、取消し前に登場した第三者を保護する規定であり、肢オのように取消し後に登場した第三者Cには及ばないため、肢オを177条の対抗問題として処理する本文の説明は条文上も整合しています。
 - **初学者向け説明の追記（2026-08-18実施）**：本問は民法（問1〜問3）に該当するため、更新済みの執筆ルールに沿って、初学者に馴染みのない法律用語（「対抗要件」「第三者」「代位」「復帰的物権変動」）が初出する箇所に、平易な言葉での言い換え・補足説明を追記しました。結論・正解番号に変更はありません。
+- **肢オの対比説明の追記（2026-09-29実施）**：⑤作図ガイド型インフォグラフィックのダブルチェックを受け、肢オの本文に、第三者Cが「取消し前」に登場した場合（民法96条3項により、Cの善意無過失の有無で判断され、登記の有無は無関係）との対比を追記しました。96条3項の条文原文（「前二項の規定による詐欺による意思表示の取消しは、善意でかつ過失がない第三者に対抗することができない。」、`note-articles/laws/minpou-1-soukyoku-bukken.md`収録）を確認済みです。肢オ自体が問うているのは「取消し後」の場面であり、正誤判定・正解（アオ＝選択肢2番）に変更はありません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「対抗要件」「177条」等がテーマの問題を確認しました。対抗要件（民法177条）は不動産登記法分野の基本論点として毎年のように出題されていますが、本問の具体的事実関係（甲土地がA→B→Cと順次譲渡され、かつAB間の詐欺取消し後にB→Cの譲渡があった場合の対抗問題）と一致する出題は見つかりませんでした。**重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -422,30 +425,48 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a three-person chain A→B→C with a registry tag
 for 譲渡当事者・登記名義, a family-tree icon for 相続人による地位の承継,
-a joint-agreement paper for 中間省略登記の合意, a shield icon labeled
-登記請求権 for 代位権の転用, and a rescinded-contract-with-回帰矢印 icon
-for 詐欺取消し後の第三者. Where a 肢 requires checking multiple
-conditions in sequence before reaching a conclusion, draw the panel's
-diagram as an actual decision flowchart: diamond-shaped branch nodes with
-the condition written on them, Yes/No（はい／いいえ）branch arrows, and a
-final conclusion node. Only Panel 5（肢オ）needs this treatment, because
-it requires first identifying WHEN the third者 appeared (before or after
-the取消し) and then whether that third者 has registered; the other four
-panels are each resolved by a single check（177条の「第三者」に当たるか
-どうか、または登記請求権そのものが消滅するかどうか）, so a labeled
-illustrative diagram is sufficient for them — do not force a flowchart.
-Unlike a glanceable summary poster, each panel MAY include a short
-「着眼点」callout box with 1-2 sentences that state the checking ORDER in
-words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
+a joint-agreement paper for 中間省略登記の合意 (labeled with a small
+subtitle explaining it as skipping B's registration and transferring
+directly from A to C, plus a bypass arrow drawn from A straight to C
+underneath the document), a shield icon labeled 登記請求権 for 代位権の
+転用, and a two-branch scene contrasting a third者 who appeared before
+the詐欺取消し (governed by 96条3項の善意無過失) against one who appeared
+after it (a rescinded-contract-with-回帰矢印 icon, governed by 177条の
+対抗問題). Where a 肢 requires checking multiple conditions in sequence
+before reaching a conclusion, draw the panel's diagram as an actual
+decision flowchart: diamond-shaped branch nodes with the condition
+written on them, Yes/No（はい／いいえ）branch arrows, and a final
+conclusion node. Only Panel 5（肢オ）needs this treatment: it first
+branches on WHEN the third者 appeared (before or after the取消し), and
+each of those two branches then has its own separate follow-up check (善
+意無過失の有無 for the "before" branch, 登記の有無 for the "after"
+branch) — both branches of the first diamond must lead to their own
+complete follow-up check and conclusion node, not just the "after" side;
+the other four panels are each resolved by a single check（177条の「第三
+者」に当たるかどうか、または登記請求権そのものが消滅するかどうか）, so a
+labeled illustrative diagram is sufficient for them — do not force a
+flowchart. Unlike a glanceable summary poster, each panel MAY include a
+short「着眼点」callout box with 1-2 sentences that state the checking
+ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
 conclusion. Do not include case or precedent numbers (article/regulation
 numbers are fine); keep the callout text as written below verbatim.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters.
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -508,16 +529,20 @@ Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 合意は登記請求権を消さない
 Diagram: Three isometric person icons A・B・C standing around a shared
-paper document labeled 中間省略登記の合意, all three with a hand resting
-on it. To the side, a fourth person icon E (Bの債権者) holds a coin-stack
-icon labeled Bへの貸金債権 and submits a separate request document toward
-A labeled Bへの移転登記を請求（Bに代位）, with a green checkmark next to
+paper document labeled 中間省略登記の合意, with a smaller subtitle label
+directly beneath the document reading 登記をBを飛ばしてAから直接Cへ移す
+合意, and a small curved bypass arrow drawn from A straight to C
+underneath the document (visibly skipping over B) to reinforce the
+「Bを飛ばす」concept. All three person icons rest a hand on the document.
+To the side, a fourth person icon E (Bの債権者) holds a coin-stack icon
+labeled Bへの貸金債権 and submits a separate request document toward A
+labeled Bへの移転登記を請求（Bに代位）, with a green checkmark next to
 E's document.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、中間省略登記の合意が、BのAに対する登記請求権そのものを消滅させる
-ものかどうかを確認します。単なる登記の経由方法の合意にすぎず消滅させな
-いため、次に、債権者Eは自分の債権を守るためBに代位して請求できると判断
-します。
+まず、中間省略登記の合意（登記をBを飛ばしてAから直接Cへ移す合意）が、B
+のAに対する登記請求権そのものを消滅させるものかどうかを確認します。単
+なる登記の経由方法の合意にすぎず消滅させないため、次に、債権者Eは自分
+の債権を守るためBに代位して請求できると判断します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代位行使は妨げられない
@@ -543,21 +568,30 @@ characters):
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
-取消し後の第三者には登記が必要
+登場が取消しの前か後かを確認
 Diagram: A decision-tree flowchart. Start node: AB間の売買契約を、Aが詐
 欺を理由に取消し, with a curved arrow labeled 復帰 pointing back to A.
-First diamond node: Bへの登記を抹消する前に、BからCへの譲渡が行われた
-か（取消し後に第三者Cが登場したか）？with a はい arrow proceeding
-downward. Second diamond node (drawn with a thicker highlighted border):
-Cは自己への所有権移転登記を備えているか？with the いいえ branch leading
-to a red cross mark and a conclusion node reading Aに対し所有権を主張で
-きない; the はい branch leading to a green checkmark and a conclusion
-node reading Aに対し所有権を主張できる.
+First diamond node (drawn with a thick highlighted border, since both
+outcomes matter equally): 第三者Cが登場したのは、取消しの前か後か？with
+two branches. The 前 branch (drawn in a slightly muted but still fully
+legible color, since this is contrast context rather than the fact
+pattern 肢オ itself tests) leads to a small heading label 取消し前の第三
+者（96条3項の場面）and a second diamond node: Cは善意無過失か？with the
+はい branch leading to a green checkmark and a conclusion node reading A
+は取消しをCに対抗できない（Cが確定的に所有権を取得、登記の有無は無関
+係）; the いいえ branch leading to a red cross mark and a conclusion node
+reading Aは取消しをCに対抗できる. The 後 branch (drawn with a thick
+highlighted border and full, saturated color, since this is the fact
+pattern 肢オ actually tests) leads to a small heading label 取消し後の第
+三者（177条の場面）and a third diamond node: Cは自己への所有権移転登記
+を備えているか？with the いいえ branch leading to a red cross mark and a
+conclusion node reading Aに対し所有権を主張できない; the はい branch
+leading to a green checkmark and a conclusion node reading Aに対し所有
+権を主張できる.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、第三者Cが登場したのが契約取消しの前か後かを確認します。取消し後
-に登場した第三者は177条の対抗問題として扱われるため、次に、Cが自己への
-所有権移転登記を備えているかどうかを確認し、備えていなければAに対抗で
-きないと判断します。
+まず、第三者Cが登場したのが契約取消しの前か後かを確認します。取消し前
+であれば民法96条3項によりCの善意無過失の有無で、取消し後であれば177条
+によりCの登記の有無で、それぞれ結論が決まります。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記なければ対抗不可
@@ -568,19 +602,26 @@ Small footnote text (bottom of panel, small font, verbatim):
 用）・96条3項（詐欺による取消しと第三者保護）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 譲, 渡, 登, 記, 詐, 欺, 抹, 相, 続 and any character that has a
-visually similar Simplified Chinese variant. If any character renders as
-a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
-run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢オ is drawn as an actual
-flowchart with two branch nodes (not a bare illustration with no visible
-decision structure) while the other four panels use a single labeled
-illustrative diagram, that each 着眼点 callout states a checking order
-rather than only a conclusion, confirm nothing is rendered below the
-last panel's footnote text (no summary recap panel, no trophy or medal
-icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
-any kind), and confirm the entire canvas, edge to edge, is filled with a
-fully opaque background with no transparency or alpha channel anywhere.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 譲, 渡, 登, 記, 詐, 欺, 抹, 相, 続 and
+any character that has a visually similar Simplified or Traditional
+Chinese variant. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 5 exactly, badge numbers run
+1-5 continuously, there is no intro illustration or paragraph block
+between the header and the panels, that Panel 5（肢オ）is drawn as an
+actual flowchart with three branch nodes total (the first diamond
+branching on 取消し前後, each of its two branches leading to its own
+second diamond and complete conclusion node — the 前 branch must NOT be
+left as a dead end or omitted) while the other four panels use a single
+labeled illustrative diagram, that each 着眼点 callout states a checking
+order rather than only a conclusion, confirm nothing is rendered below
+the last panel's footnote text (no summary recap panel, no trophy or
+medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with
+a fully opaque background with no transparency or alpha channel anywhere.
 ```
