@@ -132,3 +132,5 @@ PNGを渡す前に、次の点を自分で確認してください。
 
 - PNG画像（1枚）
 - 画像の元になったHTMLファイル（後で修正できるように）
+
+**生成済み（2026-09-29）**：`zu/make_R4_dai22mon_shinseisho_gazou.py`（HTML＋Playwright）で `zu/R4_dai22mon_toukishinseisho_kansei.png`（1200×1573px、縦長）と `zu/R4_dai22mon_toukishinseisho_kansei.html` を書き出してある。欄の形は試験の答案用紙（第1欄）で確認した（申請の日付・提出先と代理人の「（略）」は印刷、申請人は記入枠、所在は1段、見出しの最後の列は「原因及びその日付」、記入行5行、登録免許税の欄なし）
