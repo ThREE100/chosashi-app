@@ -1,4 +1,4 @@
-"""平成30年度 第21問（土地）会話形式note記事の解説図9枚を、座標値から作図する。
+"""平成30年度 第21問（土地）会話形式note記事の解説図11枚を、座標値から作図する。
 
 `../prompt_H30_dai21mon_kaiwa_kaisetsuzu.md`（基本フォーム `../../../prompt_kaisetsuzu-gazou_kihon-form_tochi.md` から作成）
 の指示を、そのままPythonにしたもの。図に書く数値はすべて座標から計算し直し、記事の数値と一致しなければ止まる。
@@ -127,7 +127,7 @@ fig, (ax,) = new_figure('図2　問1　D点の求め方（T2に据えてT1を後
                         '反時計回りに測ると、T2より11.93m南の道路の向こう（−50744.12, −14869.40）に出てしまう。\n'
                         '検算：K点がE・Dを結ぶ直線の上（△EDKの倍面積のiの係数 0.0316、ED線から約0.003m）。')
 z = Zu(ax, fontsize=14)
-fit(ax, [T1, T2, D, Dw, E, C, T2 + P(4, 0)], margin=0.06, pad_aspect=True)
+fit(ax, [T1, T2, D, Dw, T2 + P(4, 0)] + KOU + OTSU, margin=0.06, pad_aspect=True)   # 背景の区画の頂点も全部入れる
 z.poly(KOU, color=GRAY, lw=1.1)
 z.poly(OTSU, color=GRAY, lw=1.1)
 z.line(T2, T2 + 4, color=GRAY, lw=1.2, ls='--')
@@ -166,7 +166,7 @@ fig, (ax1, ax2) = new_figure('図3　問1　I点の求め方（H→Eの延長線
                              'Eの真南にとると（−50731.33, −14879.67）で、J点とわずか0.01mしか離れず、正しいIより0.79m東。',
                              ncols=2, width_ratios=[1, 1])
 za = Zu(ax1, fontsize=14)
-fit(ax1, [H, A, B, J, E, G], margin=0.06, pad_aspect=True)
+fit(ax1, [H] + KOU + OTSU, margin=0.06, pad_aspect=True)   # 背景の区画の頂点も全部入れる
 za.poly(KOU, color=GRAY, lw=1.1)
 za.poly(OTSU, color=GRAY, lw=1.1)
 za.line(H, E, color=BLACK, lw=2.4)
@@ -354,7 +354,7 @@ ALL_PROBLEMS += save(fig, [z], 'H30_dai21mon_zu08_bunpitsu_chiban.png')
 # =====================================================================
 fig, (ax,) = new_figure('図9　問4　地積測量図（11番1・11番2）の完成見本',
                         '縮尺1/250で答案用紙に描くと 1m ＝ 4mm（乙土地は東西約90mm・南北約54mm、T4まで入れて東西約94mm・南北約67mm）。\n'
-                        'JIは0.8050…で四捨五入の境目なので0.81。座標値・地積・求積方法・測量年月日は書かない（注5）。T2・T4は位置と点名だけ（注6）。\n'
+                        'JIは0.8050…で四捨五入の境目なので0.81。座標値・地積・求積方法・測量年月日は書かない（問題文の注5）。T2・T4は位置と点名だけ（問題文の注6）。\n'
                         '地番欄は「11番1、11番2」、土地の所在は「A市B町三丁目」。T1・T3と、乙土地の筆界点でないA・F・G・Hは描かない。')
 z = Zu(ax, fontsize=15)
 fit(ax, [E, C, B, I, T2, T4, E + P(4, 0)], margin=0.08, pad_aspect=True)
@@ -391,5 +391,75 @@ z.edge_label(B, J, '道路', co, fs=15, dists=(46, 56), rotate=False, ts=(0.3, 0
 z.free_text(P(-18.6, 9.0), '（単位：ｍ）\n◎ コンクリート杭：B・D・J・K\n● 金属標：C・E・I\n△ 基準点：T2・T4', fs=13,
             ha='left', va='bottom', offsets=((0, 0), (0, 30), (-40, 0)))
 ALL_PROBLEMS += save(fig, [z], 'H30_dai21mon_zu09_chiseki_sokuryouzu.png')
+
+# =====================================================================
+# 図10：問3 別解 帯（四角形）の面積を対角線2本で出す
+# =====================================================================
+dg = (E - J).conjugate() * (K - I)
+assert f'{dg.real:.4f}' == '126.2051' and f'{dg.imag:.4f}' == '18.0787' and f'{abs(dg.imag) / 2:.5f}' == '9.03935'
+fig, (ax1, ax2) = new_figure('図10　問3　別解　帯（四角形E・I・J・K）の面積を対角線2本で出す',
+                             '四角形の倍面積は、対角線2本の Conjg(E′ − J′) × (K′ − I′) のiの係数だけで出る（4点を順にたどる式と同じ18.0787）。\n'
+                             '18.0787 ÷ 2 ＝ 9.03935 → 宅地なので9.03㎡。点を4つたどる式の検算に使う。',
+                             ncols=2, width_ratios=[1, 1.4])
+za = Zu(ax1, fontsize=14)
+fit(ax1, RO + [E + P(0, 3), I + P(0, -3)], margin=0.06, pad_aspect=True)
+za.poly(RO, fill=PURPLE)
+za.line(E, J, color=RED, lw=2.4, ls='--')
+za.line(I, K, color=BLUE, lw=2.4, ls='--')
+za.north_arrow(length=0.07)
+for p, n in [(E, 'E'), (I, 'I'), (J, 'J'), (K, 'K')]:
+    za.point(p, 'metal' if n in 'EI' else 'concrete')
+    za.point_label(p, n, away=centroid(RO))
+za.callout(E + (J - E) * 0.3, '対角線 E→J', dirs=(180, 160, -160), color=RED, dists=(60, 80, 100))
+za.callout(I + (K - I) * 0.3, '対角線 I→K', dirs=(0, 20, -20), color=BLUE, dists=(60, 80, 100))
+ax1.set_title('帯E・I・J・K（幅約0.8m）', fontsize=17, weight='bold', pad=6)
+ax2.axis('off')
+ax2.set_xlim(0, 100)
+ax2.set_ylim(0, 100)
+for y, txt, col, fs in [(86, '4点を順にたどる式', BLACK, 18),
+                        (77, 'E′・Conjg(I′) ＋ I′・Conjg(J′) ＋ J′・Conjg(K′) ＋ K′・Conjg(E′)', BLACK, 14),
+                        (69, '表示：128.9305 ＋ 18.0787i', BLACK, 15),
+                        (52, '対角線2本の式（別解）', RED, 18),
+                        (43, 'Conjg(E′ − J′) × (K′ − I′)', RED, 16),
+                        (35, '表示：126.2051 ＋ 18.0787i', RED, 15),
+                        (18, 'どちらもiの係数は18.0787（実部は使わない）', BLACK, 15),
+                        (9, '18.0787 ÷ 2 ＝ 9.03935 → （ロ）11番2は9.03㎡', BLACK, 15)]:
+    ax2.text(4, y, txt, fontsize=fs, color=col, va='center', weight='bold' if fs >= 18 else 'normal')
+ALL_PROBLEMS += save(fig, [za], 'H30_dai21mon_zu10_obi_taikakusen.png')
+
+# =====================================================================
+# 図11：本番の解く順番（流れ図。固定配置）
+# =====================================================================
+setup_font()
+fig = plt.figure(figsize=(16, 12), dpi=100)
+fig.patch.set_facecolor('white')
+fig.suptitle('図11　本番の解く順番（D点・I点がなくても書ける欄を先に）', fontsize=24, weight='bold', y=0.965)
+ax = fig.add_axes([0.03, 0.10, 0.94, 0.80])
+ax.set_xlim(0, 100)
+ax.set_ylim(0, 100)
+ax.axis('off')
+STEPS = [
+    ('①', '問2の穴埋め（ア 表題登記・イ 隣接する・ウ 登記された・エ 意思）', '計算なし', GREEN),
+    ('②', '申請書の計算の要らない欄（登記の目的・添付書類・登録免許税・申請人・所在・1行目・地番と原因・（ロ）の地目）', '計算なし', GREEN),
+    ('③', '原点を（−50720.00, −14880.00）にずらす', '約1分', BLUE),
+    ('④', 'D点（T2から放射。K点がE・D線に乗るかで検算）', 'D・Iと裏付けで約10分', BLUE),
+    ('⑤', 'I点（H→Eの延長線とA→Bの交点）と甲土地187.18㎡の裏付け', '', BLUE),
+    ('⑥', '乙土地・帯・残りの面積と公差の判定（いちばん時間を食う。D・Iがないと始められない）', '約10分', RED),
+    ('⑦', '地積測量図の辺長8本と作図', '約15分', PURPLE),
+]
+for k, (no, txt, tm, col) in enumerate(STEPS):
+    y = 88 - k * 13
+    ax.add_patch(FancyBboxPatch((3, y - 4.5), 94, 9, boxstyle='round,pad=0.5', fc='#f7f7f7', ec=col, lw=1.8))
+    ax.text(5, y, no, fontsize=20, weight='bold', color=col, va='center')
+    ax.text(10, y, txt, fontsize=15, va='center')
+    if tm:
+        ax.text(95, y, tm, fontsize=15, va='center', ha='right', color=col, weight='bold')
+    if k < len(STEPS) - 1:
+        ax.annotate('', (50, y - 8.3), xytext=(50, y - 5.2), arrowprops=dict(arrowstyle='-|>', color=GRAY, lw=1.6))
+fig.text(0.5, 0.045, '①②は座標がなくても書ける。面積の計算で時間が足りなくなっても、問2と申請書の大部分は先に取れている。',
+         ha='center', va='center', fontsize=15)
+path = os.path.join(OUT, 'H30_dai21mon_zu11_toku_junban.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図11: 流れ図（固定配置）\n  →', path)
 
 print('重なりの合計:', len(ALL_PROBLEMS))

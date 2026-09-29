@@ -176,20 +176,24 @@ a = base.index('あなたは土地家屋調査士試験の教材デザイナー�
 b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-n_fig = len(re.findall(r'^- \*\*図\d：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（8枚）', n_fig == 8)
-for i in range(1, 9):
-    judge(f'作図済みPNG 図{i}', any(f.startswith(f'H28_dai21mon_zu0{i}_') and f.endswith('.png')
+N_FIG = 11
+n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))   # 2桁の図番号も数える
+judge(f'解説図プロンプトの図の数 {n_fig}枚（{N_FIG}枚）', n_fig == N_FIG)
+for i in range(1, N_FIG + 1):
+    judge(f'作図済みPNG 図{i}', any(f.startswith(f'H28_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
-nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\()'図(\d)　", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, 9)))
+nums = [int(m) for m in re.findall(r"(?:new_figure\(|fixed_figure\(|suptitle\()'図(\d+)　", draw)]
+judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, N_FIG + 1)))
+fits = re.findall(r'^\s*fit\((.*)\)$', draw, re.M)
+judge(f'作図スクリプトのfitはすべて pad_aspect=True（{len(fits)}か所）', fits and all('pad_aspect=True' in f for f in fits))
 for s in ['（335.61, 306.61）', '（346.15, 265.61）', '（346.06, 265.22）', '255°00′00.34″', '−104°59′59.66″', '168°08′00″',
           '46.9127 ÷ 323.6789', '276.62015', '230.2059', '46.4342', '351.67100', '398.1052', '351 ＋ 46 ＝ 397',
           '19m60', '17m11', '横約77mm・縦約82mm', '横約147mm', '19.6025', '2.3945…', '約0.4m西']:
     check('解説図プロンプトの数値', s, fig, '解説図')
     check('作図スクリプトの数値', s, draw, '作図')
 for s in ['北を上にして描き直すと、こうなるわ', '位置も合っています', '台形だからよ', 'ここが問3の山場につながるのよ',
-          '2筆の土地表題登記になるんですね', '実務ならここで使うの', '書き足すものはないわ', 'JGはABと平行に描くのよ']:
+          '2筆の土地表題登記になるんですね', '実務ならここで使うの', '書き足すものはないわ', 'JGはABと平行に描くのよ',
+          'どの辺の方向角なのかは確かめておくといいわ', '点の条件が書いてある調査素図の（注）よ', '次の年度も、この調子でいくわよ！']:
     check('図の挿入位置の文言', s)
     check('図の挿入位置の文言（プロンプト側）', s, fig, '解説図')
 for s in ['平成28年○月○日　申請　Ａ地方法務局', '土地分合筆登記', '地積測量図　登記識別情報　印鑑証明書　代理権限証書',
@@ -233,6 +237,36 @@ for src, name in [(fig, '解説図'), (draw, '作図')]:
         absent('（ニ）部分の古い判断', bad, src, name)
     check('（ニ）部分は畑', '（ニ）部分：畑' if name == '解説図' else '（ニ）部分：畑\\n', src, name)
 
+# ---- 追加作業（2026-09-29）：J点の別解・注の書き分け・理由の組み立て・解く順番 ----
+h = ((B - A).conjugate() * (G - A)).imag / abs(B - A)
+sin_baj = 0.1931 * 0.2250 + 0.9812 * 0.9744
+aj = h / sin_baj
+jb = A + (I - A) / abs(I - A) * round(aj, 4)
+judge(f'別解の幅 h ＝ {h:.4f}（2.3931…）・sin ＝ {sin_baj:.8f}・AJ ＝ {aj:.4f}',
+      f'{math.floor(h * 1e4) / 1e4:.4f}' == '2.3931' and f'{sin_baj:.8f}' == '0.99952878'
+      and f'{math.floor(aj * 1e4) / 1e4:.4f}' == '2.3943' and r2(jb) == J)
+judge('幅をBGの2.44とした誤りは（346.11, 265.62）', r2(A + (I - A) / abs(I - A) * 2.44) == P(346.11, 265.62))
+for s in ['374.8347 ＋ 46.9127i', '2.3931…', '0.1931 × 0.2250 ＋ 0.9812 × 0.9744 ＝ 0.99952878', '2.3943…',
+          '346.1507… ＋ 265.6123…i', '（346.11, 265.62）']:
+    check('J点の別解', s)
+for s in ['46.9127 ÷ 19.6025… ＝ 2.3931…', '0.99952878', '2.3943…', '（346.11, 265.62）']:
+    check('図9（J点の別解）', s, fig, '解説図')
+    check('図9（J点の別解）', s, draw, '作図')
+# 注は「問題文の注N」「観測値の表の注N」「調査素図の（注）」と書き分ける（裸の「注N」を残さない）
+# 図10（注の仕分け）の「描くもの」は、枠の見出し（問題文の注・観測値の表の注）の下に注N を並べる図なので除く
+fig_data = '\n'.join(l for l in fig[fig.index('## 差し替えデータ'):].splitlines() if '左上「問題文の注（毎年ほぼ同じ）」' not in l)
+for src, name in [(text, '記事'), (fig_data, '解説図（差し替えデータ）')]:
+    bare = [m.group(0) for m in re.finditer(r'(.{0,6})注([1-9])', src)
+            if not re.search(r'(問題文の|表の|表の下の|問題文の注[1-9]〜|・|、)$', m.group(1))]
+    judge(f'{name}の注の書き分け（裸の「注N」: {bare[:5]}）', not bare)
+for s in ['問題文の注5', '問題文の注6', '調査素図の（注）', '観測値の表の注1', '観測値の表の注2']:
+    check('注の書き分け', s)
+for s in ['①問2を先に書き切る', '②問3の申請書のJ点が要らない欄を埋める', '③D点', '④J点', '⑤面積3つと3つの地積',
+          '⑥辺長7本と地積測量図']:
+    check('本番で解く順番', s)
+for s in ['違うもの', '同じもの']:
+    check('問2の理由の組み立て', s)
+
 # ---- 表記 ----
 for bad in ['PDF', '名変', '右上', '左下', '✓', '✕', 'コンクリートくい', 'くいが', '令和', '丙土地と同じ雑種地', '（ニ）部分：雑種地',
             '畑と見る解説']:
@@ -256,7 +290,7 @@ for i, l in enumerate(lines):
             same.append(i + 1)
 judge(f'同じ話者のセリフの連続: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図8＋添削1＋完成形1＝計10か所の想定）', n_marker == 10)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＝計{N_FIG + 2}か所の想定）', n_marker == N_FIG + 2)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成28年度問題21（土地）〜'
