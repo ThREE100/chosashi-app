@@ -328,15 +328,22 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 所有権登記の有無が異なれば合筆不可
-Diagram: A correct-rule-vs-misconception comparison. LEFT side, labeled
-「誤りやすい思い込み」: two land plots both labeled with the same owner
-name "A" (甲=表題登記のみ、乙=所有権登記あり), a merge arrow between them
-with a green checkmark (implying "同じ名義人だから合筆できる"), the whole
-scene crossed out with a red ✕ to show this reasoning is wrong. RIGHT
-side, labeled「正しいルール」: the same two plots, with the merge arrow
-crossed out with a red ✕ because one plot has no 所有権登記 stamp while
-the other does, and a small green checkmark badge in the corner of this
-side confirming that "合筆不可" is the legally correct conclusion.
+Diagram: A correct-rule-vs-misconception comparison. IMPORTANT: the two
+sides must show OPPOSITE marks, not the same mark — this is a case where
+the mistaken belief predicts success (✓) but the actual rule says it
+fails (✕); do not draw a ✕ on both sides. LEFT side, labeled「誤りやすい
+思い込み」(gray header pill): two land plots both labeled with the same
+owner name "A" (甲=表題登記のみ、乙=所有権登記あり), with a small caption
+above them reading "名義人が同じだから合筆できるはず", and a merge arrow
+between them stamped with ONLY a single large green checkmark (no red ✕
+anywhere in this box — the checkmark itself represents the mistaken
+belief, and the gray「誤りやすい思い込み」header is what tells the reader
+this belief is wrong, not a second contradicting mark). RIGHT side,
+labeled「正しいルール」(green header pill): the same two plots, with a
+small caption above them reading "所有権登記の有無が違うから合筆できな
+い", and the merge arrow stamped with ONLY a single large red ✕ (no
+checkmark anywhere in this box) because one plot has no 所有権登記 stamp
+while the other does.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、甲土地と乙土地でそれぞれ所有権の登記があるかどうかを確認します。
 次に、名義人が同じであっても、所有権登記の有無という状態の違いがあれば
@@ -387,7 +394,13 @@ illustration or paragraph block between the header and the panels, that
 other panels use a correct-rule-vs-misconception or matching-illustration
 diagram, that each 着眼点 callout states a checking order rather than
 only a conclusion and keeps every required element from the source
-article distinct (no merged or dropped requirements), confirm nothing is
+article distinct (no merged or dropped requirements). Pay special
+attention to Panel 4: confirm the LEFT box（誤りやすい思い込み）shows only
+a green checkmark on its merge arrow and the RIGHT box（正しいルール）
+shows only a red ✕ on its merge arrow — these two marks must be
+opposite, not the same; if both boxes currently show the same mark (for
+example both showing a red ✕), that is an error and the left box must be
+corrected to show a green checkmark instead. Confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no
 trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
 text block of any kind), and confirm the entire canvas, edge to edge, is
