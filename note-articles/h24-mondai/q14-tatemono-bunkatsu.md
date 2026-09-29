@@ -32,9 +32,9 @@
 
 ### ウ：分割登記の申請だけで、抵当権の消滅登記まで一体として行うことはできない
 
-抵当権の登記がある建物について建物の分割の登記を申請する場合、不動産登記法54条3項は40条（分筆に伴う権利の消滅の登記）を準用しており、分割後のいずれかの建物について抵当権者が抵当権消滅を承諾したことを証する情報を提供したときは、その承諾に係る建物について抵当権が消滅した旨を登記することができます。ただし、この肢のように「分割後の全ての建物について」抵当権を消滅させる場合にまで、分割登記の申請だけで一体的に処理できることを明文で認めた規定は見当たりません。分割後の一部の建物についてのみ抵当権を消滅させる場合と、全ての建物について消滅させる場合とでは扱いが異なると考えられるため、この肢は誤りと判断します。
+抵当権の登記がある建物について建物の分割の登記を申請する場合、不動産登記法54条3項は40条（分筆に伴う権利の消滅の登記）を準用しており、抵当権者が分割後の「いずれかの」建物について抵当権を消滅させることを承諾したことを証する情報を提供したときは、その承諾に係る建物について抵当権が消滅した旨を登記することができます。この「いずれかの」という文言は、分割後の複数の建物のうち一部の建物についてのみ抵当権を消滅させる場合を想定したものであり、分割後のすべての建物について抵当権を消滅させることまでは認めていません。この肢は「分割後の全ての建物について」抵当権を消滅させる場合を問うていますが、これは40条が想定する「いずれかの建物についての一部消滅」とは異なる場面であるため、分割登記の申請だけで一体的に処理することはできず、この肢は誤りです。
 
-**たとえば**、抵当権が設定されている建物を分割登記する際、抵当権者から「分割後の建物については抵当権を消滅させて構わない」という承諾書をもらっていたとしても、それだけで自動的に抵当権抹消の登記までされるわけではなく、別途、抵当権抹消登記の申請が必要になります。
+**たとえば**、抵当権が設定されている建物を2棟に分割登記する際、抵当権者から「分割後のどちらの建物についても抵当権を消滅させて構わない」という承諾書をもらっていたとしても、それだけで両方の建物から自動的に抵当権が消え去るわけではありません。40条が認めているのは、分割後のどちらか一方の建物についてだけ抵当権を消滅させることであり、両方から消滅させたい場合は、別途、抵当権抹消登記の申請が必要になります。
 
 ### エ：建物の分割登記は、主である建物を管轄する登記所に申請する
 
@@ -52,7 +52,7 @@
 
 - **ア（正）**　所有権移転の前提として、買主が売主に代位して分割登記を申請できる
 - **イ（誤）**　附属建物の主従を入れ替えるのに、2棟とも分割してからやり直す必要はない
-- **ウ（誤）**　分割登記の申請だけで、抵当権の消滅登記まで一体として行うことはできない（要再確認）
+- **ウ（誤）**　分割登記の申請だけで、抵当権の消滅登記まで一体として行うことはできない
 - **エ（誤）**　建物の分割登記は、主である建物を管轄する登記所に申請する
 - **オ（正）**　分割によって生じた乙建物には、分割前の所有権登記がそのまま引き継がれる
 
@@ -67,7 +67,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・正解番号（2番＝ア・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - `note-articles/laws/`のローカル法令データベース（不動産登記法・規則・準則、民法、e-Gov現行法2026-08-04取得）で、ア＝民法423条の7、イ＝不動産登記規則135条、エ＝準則第5条（他の登記所の管轄区域にまたがる場合の管轄登記所を定める規定の類推適用）、オ＝不動産登記規則128条2項（設問文とほぼ逐語一致）の条文原文を確認済みです。
-- **ウについては、条文構造にやや緊張関係があり、断定を避けています。** 不動産登記法54条3項は40条（分筆に伴う権利の消滅の登記）を準用しており、40条本文は分割後の「いずれかの建物」について抵当権消滅の承諾証明情報が提供されたときはその建物について抵当権消滅の登記をしなければならないと定めています。この文言だけを見ると、分割登記の申請と同時に抵当権消滅登記までできるようにも読めます。もっとも、この肢は「分割後の全ての建物について」抵当権を消滅させる場合を問うており、条文が想定する「いずれかの建物」（部分消滅）とは前提が異なる可能性があります。本文の解説は正解番号（2番＝ア・オ）から求められる結論（誤り）を採用していますが、この「全部消滅」のケースが40条の準用範囲に含まれないと明示した条文までは確認できていないため、noteに掲載する前に実務書・先例（登記研究等）での再確認を推奨します。
+- **ウの根拠を再検証し、断定できる結論に修正しました（2026-09-29実施）。** 不動産登記法54条3項が準用する40条は、抵当権者が分割後の「いずれかの」建物について抵当権を消滅させることを承諾したことを証する情報が提供されたときに、その承諾に係る建物について抵当権消滅の登記をしなければならないと定めています。「いずれかの」という条文の文言は、分割後の複数の建物のうち一部の建物についてのみ抵当権を消滅させる場面を指すものであり、分割後のすべての建物について抵当権を消滅させる場面までは含んでいないと読むのが自然です。この肢が問うのはまさに「分割後の全ての建物について」抵当権を消滅させる場面であり、40条が想定する「いずれかの建物についての一部消滅」とは異なるため、この規定によって一体的に処理することはできないと判断できます。ユーザーから提供された実務教材でも、同一の論点（所有権以外の権利の登記がある不動産を分割する場合、承諾により消滅させられるのは一部の不動産についてのみで、全部を消滅させることはできない）が同じ結論で説明されていることを確認し、上記の結論と整合することを確認しました。正誤判定・正解番号（2番＝ア・オ）に変更はありません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「建物の分割」「附属建物」がテーマの問題を確認しました。建物の分割の登記は令和7年度第15問、令和6年度第16問、令和5年度第15問、平成30年度第15問、平成28年度第13問など毎年のように出題される定番テーマですが、本問の具体的な肢の組み合わせ（買主による代位申請、附属建物の主従入れ替え、抵当権消滅登記との関係、管轄登記所、分割後の所有権登記の引き継ぎ）と完全に一致する出題は見つかりませんでした。**内容の重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -254,7 +254,7 @@ the heading, the scene's embedded short labels, and the conclusion tag.
 
 ## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
 
-建物の分割の登記等に関する5肢について、「代位申請」（ア）、「二段階不要という思い込み」（イ）、「一部消滅は明文だが全部消滅は条文上明確でない、慎重な整理」（ウ）、「管轄は主である建物基準」（エ）、「分割前の所有権登記の承継」（オ）を、それぞれ最適な図の型で示す作図ガイド。肢ウについては、本文解説・確認事項ブロックが「条文構造にやや緊張関係があり、断定を避けています」と明記している慎重な書きぶりを、そのままパネルの見出し・着眼点・結論タグに引き継ぐ（誤りだと断定する赤い✕は使わない）。
+建物の分割の登記等に関する5肢について、「代位申請」（ア）、「二段階不要という思い込み」（イ）、「一部消滅は明文にあり、全部消滅は認められない」（ウ）、「管轄は主である建物基準」（エ）、「分割前の所有権登記の承継」（オ）を、それぞれ最適な図の型で示す作図ガイド。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -274,23 +274,18 @@ a two-scenario side-by-side frame (partial vs full mortgage discharge)
 for 肢ウ, a jurisdiction-boundary map for 肢エ, and a left-to-right
 timeline of registration events for 肢オ. None of the five 肢 requires
 checking more than one legal condition in sequence, so none is forced
-into a multi-diamond flowchart. For 肢ウ specifically (critical, handle
-with care): this panel must NOT present a confident "correct rule vs
-wrong assumption" contrast with a red ✕, because the source article
-itself is not certain that the statute's silence means this cannot be
-done — instead, draw a two-frame side-by-side comparison labeled 条文が
-明確に定める場面（一部の建物についてのみ消滅） on one side (checkmarked,
-this part is settled) and 本肢が問う場面（全ての建物について消滅） on the
-other side, marked with a dotted-outline "？" question-mark icon rather
-than a red ✕ or a green checkmark, signaling genuine unresolved
-uncertainty rather than a definite error. Unlike a glanceable summary
-poster, each panel MAY include a short「着眼点」callout box with 1-2
-sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
-次に〜を確認します"), not just the conclusion. Do not include case or
-precedent numbers (article/regulation numbers are fine); keep the callout
-text as written below verbatim, and for 肢ウ keep the callout's cautious,
-non-definitive wording exactly as written — do not sharpen it into a flat
-"できない" statement.
+into a multi-diamond flowchart. For 肢ウ specifically: draw a two-frame
+side-by-side comparison labeled 条文が明確に定める場面（一部の建物につ
+いてのみ消滅） on one side (checkmarked, this is the settled rule) and
+本肢が問う場面（全ての建物について消滅） on the other side, marked with a
+red ✕ (the statute's「いずれかの」a wording covers only partial discharge,
+so discharging all of the resulting buildings this way is not allowed —
+this is a definite, settled conclusion, not an open question). Unlike a
+glanceable summary poster, each panel MAY include a short「着眼点」callout
+box with 1-2 sentences that state the checking ORDER in words (e.g. "ま
+ず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -371,30 +366,30 @@ characters):
 二段階の手続は不要
 
 --- PANEL 3（肢ウ） ---
-Badge: a filled circle in green containing the number 3.
+Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
-全部消滅の一体処理は条文上明確でない
-Diagram: A two-frame side-by-side comparison (NOT a ✕/✓ contrast). Left
-frame, labeled 条文が明確に定める場面 and marked with a green checkmark:
-a 抵当権登記のある建物 splitting into two buildings, with the mortgage
-holder's 承諾を証する情報 attached to only ONE of the resulting buildings,
-and that one building's 抵当権抹消 recorded. Right frame, labeled 本肢が
-問う場面（分割後の全ての建物について抵当権を消滅） and marked with a
-dotted-outline "？" icon (not a red ✕, not a green checkmark): the same
-split building, but with 承諾を証する情報 attached to BOTH resulting
-buildings, and a dotted-outline question mark over the 抵当権抹消
-recording for both, signaling that whether this can be done through the
-division registration alone is not clearly settled by the text of the
-statute.
+全部消滅は「いずれかの」に含まれない
+Diagram: A two-frame side-by-side comparison. Left frame, labeled 条文が
+明確に定める場面 and marked with a green checkmark: a 抵当権登記のある
+建物 splitting into two buildings, with the mortgage holder's 承諾を証
+する情報 attached to only ONE of the resulting buildings, and that one
+building's 抵当権抹消 recorded (labeled いずれかの建物について消滅). Right
+frame, labeled 本肢が問う場面（分割後の全ての建物について抵当権を消滅）
+and marked with ONLY a single large red ✕ (no checkmark anywhere in this
+frame): the same split building, but with 承諾を証する情報 attached to
+BOTH resulting buildings, both stamped with a red ✕ over the attempted
+抵当権抹消 recording, because「いずれかの」という条文の文言は一部の建物
+についてのみ消滅させる場面を指し、全ての建物について消滅させる場面を含
+まない。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、分割後の建物のうち一部についてのみ抵当権消滅の承諾証明を提供する
 場合は、その建物について抵当権消滅の登記ができると確認します。次に、
-本肢のように分割後の全ての建物について一体的に抵当権を消滅させる場面に
-ついては、これを明示する条文までは見当たらず、慎重な判断が必要である
-と確認します。
-Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+本肢のように分割後の全ての建物について一体的に抵当権を消滅させる場面
+は、条文の「いずれかの」に含まれないため、この登記はできないと判断し
+ます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-全部消滅は要確認
+全部消滅はできない
 
 --- PANEL 4（肢エ） ---
 Badge: a filled circle in blue containing the number 4.
@@ -438,9 +433,8 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法423条の7（代位行使）・不動産登記規則135条（分割・合併の登記における
 表題部の記録方法）・不動産登記法54条3項（40条の準用）・不動産登記事務
 取扱手続準則第5条（管轄登記所）・不動産登記規則128条2項（分割による所有
-権の登記）に基づく整理です。肢ウ（分割後の全ての建物について抵当権を
-消滅させる場面）は、40条準用の範囲を明示する条文までは確認できておらず、
-慎重な整理です。
+権の登記）に基づく整理です。肢ウは、40条の「いずれかの」という文言が
+一部消滅の場面を指すものであることに基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
@@ -455,9 +449,10 @@ script, or stray decorative glyph — and remove or redraw it so that only
 standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly, badge numbers run 1-5 continuously, there is no
 intro illustration or paragraph block between the header and the panels,
-that 肢ウ's panel uses the two-frame comparison with a dotted-outline "？"
-icon on the uncertain side and NOT a red ✕ or a confident correct/wrong
-contrast, that each 着眼点 callout states a checking order rather than
+that 肢ウ's panel uses the two-frame comparison with the left frame
+showing ONLY a green checkmark and the right frame showing ONLY a red ✕
+(no dotted-outline question mark, and no box containing both a checkmark
+and a ✕), that each 着眼点 callout states a checking order rather than
 only a conclusion, confirm nothing is rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no
 re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
