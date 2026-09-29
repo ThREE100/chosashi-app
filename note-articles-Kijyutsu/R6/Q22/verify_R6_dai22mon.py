@@ -175,4 +175,91 @@ print(('OK ' if ok else 'NG ') + f'タイトル形式（見出し{len(sub)}文�
 check('見出し画像のサブタイトル', '〜' + sub + '〜', thumb, '見出し画像')
 check('見出し画像のタイトル', '令和6年度問題22（建物）', thumb, '見出し画像')
 
+# ---- note向けの体裁（2026-09-29追加）：話者名の行末に半角スペース2つ、名前の次の行がセリフ、最後が区切り線 ----
+import re
+lines = text.splitlines()
+bad_speaker = [i + 1 for i, l in enumerate(lines)
+               if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
+ng += bool(bad_speaker)
+print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
+ok = lines[-1] == '---'
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
+# 同じ話者のセリフが続いていないか（章の頭で区切る。画像挿入マーカーをはさんでも続きとみなす）
+prev = None
+for i, line in enumerate(lines):
+    if line.startswith('## '):
+        prev = None
+    elif line in ('**トリ先生**  ', '**藍子**  '):
+        ok = line != prev
+        ng += (not ok)
+        if not ok:
+            print('NG 同じ話者の連続 :', i + 1)
+        prev = line
+# 注の書き分け：問題文の注（1〜5）と、図面（図1〜図3）についての注（1〜6）を区別して書く
+bare = [m.start() for m in re.finditer(r'注[0-9]', text) if not text[:m.start()].endswith(('問題文の', '図面の'))]
+ok = not bare
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'注の書き分け（「問題文の注N」「図面の注N」） : 書き分けていない箇所 {len(bare)}')
+for bad in ['✕', '✓', '名変']:
+    absent('記号・略語', bad)
+check('解く順番', '問1は、別紙を読まなくても準則の知識だけで埋められるから、問題を開いたら真っ先に片付けなさい')
+check('寸法線の累計メモ', '足した累計を図の上下と左右にメモしておけば')
+
+# ---- 画像（2026-09-29生成）：記事の画像挿入マーカー8か所と zu/ のPNGの対応 ----
+from PIL import Image
+ZU = os.path.join(HERE, 'zu')
+markers = [l for l in lines if l.startswith('> 【画像挿入】')]
+PNGS = [('R6_dai22mon_zu01_a_bubun_keiro', '（あ）部分の2階へ入るための唯一の経路'),
+        ('R6_dai22mon_zu02_shikichi_henchou', '作図チェック用の辺長'),
+        ('R6_dai22mon_zu03_tatemono_zumen', '建物図面の完成形'),
+        ('R6_dai22mon_zu04_1kai_ayamari_hikaku', '左に「誤り＝母屋に（あ）部分の車庫と出窓まで加えた'),
+        ('R6_dai22mon_zu05_1kai_kyuuseki', '1階の床面積求積図'),
+        ('R6_dai22mon_zu06_2kai_kyuuseki', '2階の床面積求積図'),
+        ('R6_dai22mon_toukishinseisho_machigai', '「共有者」欄の①誤答'),
+        ('R6_dai22mon_toukishinseisho_kansei', '登記申請書（問2）の完成形')]
+ok = len(markers) == len(PNGS)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数 : {len(markers)}（解説図6・添削1・申請書の完成形1）')
+for (name, key), m in zip(PNGS, markers):
+    path = os.path.join(ZU, name + '.png')
+    ok = os.path.exists(path) and key in m
+    if ok:
+        w, h = Image.open(path).size
+        ok = (w == 1200 and h > w) if 'toukishinseisho' in name else (w >= 1600 and h >= 800)
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'PNG（マーカー順） : {name}')
+
+
+def html_has(name, *needles, bad=()):
+    global ng
+    h = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()
+    for n in needles:
+        ok = n in h
+        ng += (not ok)
+        print(('OK ' if ok else 'NG ') + f'{name}.html : {n}')
+    for n in bad:
+        ok = n not in h
+        ng += (not ok)
+        print(('OK ' if ok else 'NG ') + f'{name}.html に無い : {n}')
+
+
+html_has('R6_dai22mon_toukishinseisho_kansei', '建物表題登記', '建物図面　各階平面図　所有権証明書　住所証明書', '代理権限証書',
+         '令和６年10月18日　申請　Ａ地方法務局', 'Ａ市Ｂ町三丁目16番地13　　甲　野　桜　子', 'Ａ市Ｂ町三丁目16番地13',
+         '居宅', '木造合金メッキ', '鋼板ぶき２階建', '1階68', '>85<', '2階71', '>68<', '令和６年９月30日新築',
+         '持分', '５分の３', '甲野松雄', '５分の２', '甲野桜子', '（略）',
+         bad=('登録免許税', '登記識別情報', '印鑑証明書', '71.69'))
+html_has('R6_dai22mon_toukishinseisho_machigai', '所有者', '共有者', '甲野松雄', '５分の３', '５分の２', '申請人（手続をする人）')
+check('添削：縦に積む', '3コマを縦に積む', fix, '添削')
+absent('横1800px', '1800px', fix, '添削')
+absent('記号', '✓', fix, '添削')
+absent('記号（図の見出し）', '✕ 藍子', fig, '解説図')
+drw = open(os.path.join(ZU, 'draw_R6_dai22mon_kaisetsuzu.py'), encoding='utf-8').read()
+fits = re.findall(r'\bfit\(ax[^\n]*', drw) + re.findall(r'\bfit\(axes\[[01]\][^\n]*', drw)
+ok = fits and all('pad_aspect=True' in f for f in fits)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'作図の fit はすべて pad_aspect=True（{len(fits)}か所）')
+for s in ['== 68.85', '== 57.51', '== 14.175', '== 71.685', '== 0.81', '== 260.0']:
+    check('作図スクリプトの面積の assert', s, drw, '作図')
+
 print('NG件数:', ng)

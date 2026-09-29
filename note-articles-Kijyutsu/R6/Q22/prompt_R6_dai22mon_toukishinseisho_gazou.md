@@ -108,3 +108,5 @@ PNGを渡す前に、次の点を自分で確認してください。
 
 - PNG画像（1枚）
 - 画像の元になったHTMLファイル（後で修正できるように）
+
+**このリポジトリで生成済み（2026-09-29）**：`zu/make_R6_dai22mon_shinseisho_gazou.py`（HTML＋Playwright・Chromium）で `zu/R6_dai22mon_toukishinseisho_kansei.png`（1200×1650px、縦長）とHTMLを書き出した。答案用紙では記入行が2行で、続きの1行と「共有者」欄が次の段にあるが、画像では1つの表に続けて描いている
