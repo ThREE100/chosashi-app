@@ -86,6 +86,14 @@ note-articles-Kijyutsu/
 │       ├── prompt_R1_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       └── verify_R1_dai22mon.py                              記事・付属プロンプトの数値・求積・体裁の照合スクリプト
 ├── R2/
+│   ├── Q21/
+│   │   ├── note_R2_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み）
+│   │   ├── prompt_R2_dai21mon_kaiwa_kaisetsuzu.md       解説図7枚（全体図・B点の座標変換・G点H点の長方形・公差の判定・分合筆の流れ・登記識別情報の整理・地積測量図）作成プロンプト（土地の基本フォームの記入済み）
+│   │   ├── prompt_R2_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（完成形。土地分合筆登記）
+│   │   ├── prompt_R2_dai21mon_toukishinseisho_machigai.md  登記申請書「土地の表示」欄（（イ）107.68→107.73、合筆後156.53→156.12）の誤答→添削→正解の画像プロンプト
+│   │   ├── prompt_R2_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（1280×670px）
+│   │   ├── verify_R2_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト
+│   │   └── zu/                                          解説図7枚のPNGと作図スクリプト draw_R2_dai21mon_kaisetsuzu.py
 │   └── Q22/
 │       ├── note_R2_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
 │       ├── prompt_R2_dai22mon_kaisetsuzu.md                   解説図6枚作成プロンプト
