@@ -111,7 +111,7 @@ fig, (ax,) = new_figure('図1　北を上にして描き直した全体像',
                         'T1からは筆界点が見えないので観測点Pを置き、T3からPを、PからDとEを放射で求める。VはAE上、WはBC上の点。\n'
                         '100番5の北の角G・Fは問題文に座標がないため、地積測量図の辺長から描いた模式（灰色の破線）。')
 z = Zu(ax)
-fit(ax, [T1, T2, T3, A, B, C, G_M, F_M], margin=0.07, pad_aspect=True)
+fit(ax, [T1, T2, T3, PP] + HONKEN + N5_M + [V, W], margin=0.07, pad_aspect=True)
 z.poly(N5_M, color=GRAY, lw=1.4, ls='--', fill=BLUE, alpha=0.10)
 z.poly(I_, fill=GREEN)
 z.poly(RO, fill=RED, alpha=0.20)
@@ -151,7 +151,7 @@ fig, (ax,) = new_figure('図2　問1　P点の求め方（T3から放射）',
                         '観測角は右回り（時計回り）なので45°36′12″を足して35.36m進み、P（246.09, 183.49）。\n'
                         '反時計回りに引くと（195.56, 183.27）で、T2とT3を結ぶ線より約25m南（道路の向こう）に出る。')
 z = Zu(ax)
-fit(ax, [T1, T2, T3, PP, PW, C, T3 + P(0, 12)], margin=0.07, pad_aspect=True)
+fit(ax, [T1, T2, T3, PP, PW, T3 + P(0, 12), T3 + 7] + HONKEN, margin=0.07, pad_aspect=True)
 z.poly(HONKEN, color=GRAY, lw=1.2, fill=GREEN, alpha=0.10)
 z.line(T3, T2, color=BLUE, lw=2.0)
 z.line(T3, PP, color=RED, lw=2.6)
@@ -188,7 +188,7 @@ def housha_fig(num, name, Q, QW, dist, ang, ang_txt, brg_q_txt, q_label, qw_labe
                ang_at=-60, ang_dirs=(160, 145, 175, 130), p_dirs=(-160, -145, -175, 180), q_dirs=(-90, -110, -70, -130)):
     fig, (ax1, ax2) = new_figure(f'図{num}　問2　{name}点の求め方（Pから放射）', caption, ncols=2, width_ratios=[0.9, 1.1])
     za = Zu(ax1, fontsize=14)
-    fit(ax1, [T3, PP, Q, QW, A, B, G_M, F_M, QW + P(6, 0), A + P(-4, 0)], margin=0.08, pad_aspect=True)
+    fit(ax1, [T3, PP, Q, QW, QW + P(6, 0), A + P(-4, 0)] + HONKEN + N5_M, margin=0.08, pad_aspect=True)
     za.poly(N5_M, color=GRAY, lw=1.1, ls='--')
     za.poly(HONKEN, color=GRAY, lw=1.2, fill=GREEN, alpha=0.10)
     za.line(PP, T3, color=BLUE, lw=2.0)
@@ -209,8 +209,8 @@ def housha_fig(num, name, Q, QW, dist, ang, ang_txt, brg_q_txt, q_label, qw_labe
 
     zb = Zu(ax2, fontsize=14)
     lo, hi = PP + P(-10.0, -12.0), PP + P(6.0, 16.0)
-    fit(ax2, [lo, hi], margin=0.0, pad_aspect=True)
-    zb.poly(HONKEN, color=GRAY, lw=1.2, fill=GREEN, alpha=0.10)
+    fit(ax2, [lo, hi, V, E, D, C], margin=0.0, pad_aspect=True)
+    zb.poly([V, E, D, C], color=GRAY, lw=1.2, closed=False)          # 拡大の範囲に入る筆界だけ（区画は塗らない。端が切れないように）
     zb.line(PP, PP + 5.2, color=GRAY, lw=1.2, ls='--')
     zb.free_text(PP + 5.2, '北', color=GRAY, fs=14, offsets=((14, 0), (-14, 0), (0, 12)))
     tk = PP + (T3 - PP) / abs(T3 - PP) * 5.6
@@ -265,8 +265,9 @@ fig, (ax,) = new_figure('図5　問2　V点の求め方（直線AEの上で、E�
                         'V（236.35, 178.39）。「点Aと点Eを結ぶ直線上」につられてAから3.30m測ると（226.38, 173.48）で、\n'
                         'Aのすぐ北（正しいVより約10m南）に出る。VからAまでは14.41。')
 z = Zu(ax)
-fit(ax, [A, E, D, V, B + P(0, -8), A + P(0, -9)], margin=0.08, pad_aspect=True)
-z.poly(HONKEN, color=GRAY, lw=1.2, fill=GREEN, alpha=0.10)
+A_B8 = A + (B - A) / abs(B - A) * 8        # ABのうちAから8mまで（図に要る部分だけ描く）
+fit(ax, [A, E, D, V, VW_, A_B8, A + P(0, -9)], margin=0.08, pad_aspect=True)
+z.poly([A_B8, A, E, D], color=GRAY, lw=1.2, closed=False)
 z.line(A, E, color=BLACK, lw=2.4)
 z.line(E, V, color=RED, lw=4.0)
 z.line(A, VW_, color=GRAY, lw=4.0, ls='--')
@@ -281,7 +282,7 @@ z.edge_label(V, A, '14.41', CT, fs=16, dists=(14, 20, 26), ts=(0.5, 0.62, 0.38))
 z.callout((A + VW_) / 2, 'Aから3.30（誤り）', dirs=(180, 160, 200), color=GRAY, dists=(60, 80, 100))
 z.callout(V, 'V（236.35, 178.39）', dirs=(-10, 10, -30, 20), color=RED, dists=(80, 105, 130))
 z.callout(VW_, '誤りのV（226.38, 173.48）', dirs=(10, 30, -10), color=GRAY, dists=(70, 95, 120))
-z.free_text(centroid(HONKEN), '本件土地', fs=15, color=GRAY, offsets=((0, 0), (0, -20)))
+z.free_text(V + P(-4.0, 5.0), '本件土地', fs=15, color=GRAY, offsets=((0, 0), (0, -20), (20, 0)))
 z.edge_label(A, E, '道路', CT, fs=15, color=GRAY, dists=(40, 50), rotate=False, ts=(0.35, 0.45))
 ALL_PROBLEMS += save(fig, [z], 'H26_dai21mon_zu05_V.png')
 
@@ -292,8 +293,10 @@ fig, (ax,) = new_figure('図6　問2　W点の求め方（直線BCの上で、C�
                         'W ＝ C ＋ (B − C) ÷ Abs(B − C) × 3.22。出発点はC、向きはCからB。W（236.44, 198.85）。\n'
                         'Cの東は102、Wの東は101。VとWのX座標は236.35と236.44で、分筆線VWは本件土地を北の（ロ）と南の（イ）に分ける。')
 z = Zu(ax)
-fit(ax, [B, C, D, W, B + P(0, 8), C + P(2, 8)], margin=0.08, pad_aspect=True)
-z.poly(HONKEN, color=GRAY, lw=1.2, fill=GREEN, alpha=0.10)
+B_A8 = B + (A - B) / abs(A - B) * 8        # BAのうちBから8mまで
+D_E6 = D + (E - D) / abs(E - D) * 6        # DEのうちDから6mまで
+fit(ax, [B, C, D, W, B_A8, D_E6, B + P(0, 8), C + P(2, 8)], margin=0.08, pad_aspect=True)
+z.poly([D_E6, D, C, B, B_A8], color=GRAY, lw=1.2, closed=False)
 z.line(B, C, color=BLACK, lw=2.4)
 z.line(C, W, color=RED, lw=4.0)
 z.north_arrow()
@@ -306,7 +309,7 @@ z.edge_label(W, B, '13.24', CT, fs=16, dists=(14, 20, 26), ts=(0.5, 0.62, 0.38))
 z.callout(W, 'W（236.44, 198.85）', dirs=(-170, 170, -150), color=RED, dists=(90, 115, 140))
 z.free_text(C + P(1.2, 4.0), '102', fs=16, color=GRAY, offsets=((0, 0), (0, -15), (10, 0)))
 z.free_text(B + P(6.0, 4.5), '101', fs=16, color=GRAY, offsets=((0, 0), (0, 15), (10, 0)))
-z.free_text(centroid(HONKEN), '本件土地', fs=15, color=GRAY, offsets=((0, 0), (0, -20)))
+z.free_text(W + P(-4.0, -5.0), '本件土地', fs=15, color=GRAY, offsets=((0, 0), (0, -20), (-20, 0)))
 ALL_PROBLEMS += save(fig, [z], 'H26_dai21mon_zu06_W.png')
 
 # =====================================================================
@@ -450,8 +453,9 @@ print('[重なり検査] 図10: 整理図（固定配置）\n  →', path)
 # =====================================================================
 fig, (ax,) = new_figure('図11　問5　地積測量図（100番1）の完成見本',
                         '縮尺1/250で答案用紙に描くと 1m ＝ 4mm（本件土地は横約110mm・縦約69mm、基準点まで入れると横約159mm・縦約142mm）。\n'
+                        '試験の答案用紙の第5欄の枠は横約30cm・縦約20cmなので、T1〜T3まで縮尺どおりに入る（波線で距離を省かなくてよい）。\n'
                         '辺長は小数第3位を四捨五入（CDは3.8989…なので3.90、WCは3.2156…なので3.22）。（ロ）には地番を付けない。\n'
-                        '座標値・地積・求積方法・測量年月日は書かない（注5）。T1〜T3は位置と名称だけ（注6）。観測点Pと合筆先の100番5の形は描かない。')
+                        '座標値・地積・求積方法・測量年月日は書かない（問題文の注5）。T1〜T3は位置と名称だけ（問題文の注6）。観測点Pと合筆先の100番5の形は描かない。')
 z = Zu(ax)
 fit(ax, HONKEN + [T1, T2, T3], margin=0.06, pad_aspect=True)
 z.poly(HONKEN, lw=2.0)
@@ -481,5 +485,44 @@ z.edge_label(A, E, '道路', CT, fs=16, dists=(40, 50), rotate=False, ts=(0.5, 0
 z.free_text(P(252.5, 205.0), '（単位：ｍ）\n◎ コンクリート杭：A・C・D・W\n● 金属標：B・E・V\n△ A市基準点：T1・T2・T3', fs=13,
             ha='right', va='top', offsets=((0, 0), (0, -30), (-30, 0)))
 ALL_PROBLEMS += save(fig, [z], 'H26_dai21mon_zu11_chiseki_sokuryouzu.png')
+
+# =====================================================================
+# 図12：本番で解く順番（整理図。固定配置）
+# =====================================================================
+setup_font()
+fig = plt.figure(figsize=(16, 12), dpi=100)
+fig.patch.set_facecolor('white')
+fig.suptitle('図12　本番で解く順番（座標の連鎖がいちばん時間を食う）', fontsize=24, weight='bold', y=0.965)
+ax = fig.add_axes([0.03, 0.08, 0.94, 0.83])
+ax.set_xlim(0, 100)
+ax.set_ylim(0, 100)
+ax.axis('off')
+STEPS = [
+    ('1', '共有者と最下欄の印（計算なし）', ['甲区の持分を1つずつ追い、乙野二郎・甲野明子・山川次郎の3人に決める',
+                                     '答案用紙の土地の表示の最下欄に「地役権」と印を付ける'], GRAY),
+    ('2', '座標なしで書ける欄を先に', ['問3：甲区（合併による所有権登記・共有者と持分）、乙区（地役権の移記・範囲・地役権図面番号）',
+                                 '問4：登記の目的・申請人・登録免許税・（イ）（ロ）の行の原因・100番5の4行目（雑種地 186）'], GREEN),
+    ('3', '座標の連鎖（問1・問2）', ['P（T3から放射）→ D・E（Pから放射。後視の向きを取り直す）→ V・W（直線上の点）',
+                             '丸めた座標を記憶してから次へ。1つ間違えると後が全部やり直し'], RED),
+    ('4', '公差の確認', ['本件土地 382.4314㎡と380㎡の差 2.4314㎡ ＜ 乙1の5.39㎡（地積更正は要らない）',
+                      'ED 15.02・DC 3.90と100番5の地積測量図の15.05・3.89（15m 35cm・3m 27cmの中）'], BLUE),
+    ('5', '面積と地積の欄', ['（イ）314.47645 → 314、（ロ）67.9542 → 67、100番5の三斜 186.6334',
+                        '合筆後 186.6334 ＋ 67.9542 ＝ 254.5876 → 254、最下欄の「南側67平方メートル」'], ORANGE),
+    ('6', '地積測量図（問5）', ['辺長8本・境界標・T1〜T3（第5欄の枠は横約30cm・縦約20cmで、縮尺どおりに入る）'], PURPLE),
+]
+y = 96
+for num, head, lines, col in STEPS:
+    h = 6.6 + 3.9 * len(lines)
+    y -= h
+    ax.add_patch(FancyBboxPatch((3, y), 94, h - 1.6, boxstyle='round,pad=0.5', fc='#f7f7f7', ec=col, lw=2.2))
+    ax.text(5, y + h - 4.4, f'{num}　{head}', fontsize=19, weight='bold', va='center', color=col)
+    for i, t in enumerate(lines):
+        ax.text(8, y + h - 8.6 - i * 3.9, t, fontsize=15.5, va='center')
+    y -= 1.4
+fig.text(0.5, 0.035, '1・2は計算なしで書ける。3〜5の座標と面積に時間を回し、計算が間に合わなくても登記記録と申請書の半分は点になる。',
+         ha='center', va='center', fontsize=16)
+path = os.path.join(OUT, 'H26_dai21mon_zu12_toku_junban.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図12: 整理図（固定配置）\n  →', path)
 
 print('重なりの合計:', len(ALL_PROBLEMS))

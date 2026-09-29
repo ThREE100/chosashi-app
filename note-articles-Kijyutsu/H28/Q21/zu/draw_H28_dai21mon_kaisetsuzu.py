@@ -138,7 +138,7 @@ fig, (ax1, ax2) = new_figure('図2　問1　D点の求め方（A102から放射�
                              '引き忘れても5.18m先で約1.5mmのずれで、丸めると同じ座標になるのは偶然。',
                              ncols=2, width_ratios=[0.85, 1.15])
 za = Zu(ax1, fontsize=14)
-fit(ax1, [A101, A102, D, E, H, G], margin=0.08, pad_aspect=True)
+fit(ax1, [A101, A102, D, E, H, G, F] + TEI, margin=0.08, pad_aspect=True)   # 描く線の端点を全部入れる
 za.poly(N40_1, color=GRAY, lw=1.1)
 za.poly(TEI, color=GRAY, lw=1.1)
 za.line(A102, A101, color=BLUE, lw=2.0)
@@ -161,7 +161,7 @@ fit(ax2, [lo, hi], margin=0.0, pad_aspect=True)
 zb.line(E, D, color=GRAY, lw=1.2)
 zb.line(E, E + (F - E) * 0.25, color=GRAY, lw=1.2)
 zb.line(E, E + (H - E) * 0.2, color=GRAY, lw=1.2)
-zb.line(D, D + (C_MOSHIKI - D) * 0.25, color=GRAY, lw=1.0, ls='--')
+zb.line(D, D + (C_MOSHIKI - D) * 0.08, color=GRAY, lw=1.0, ls='--')   # 拡大パネルの中で止める
 zb.line(A102, A102 + 3.4, color=GRAY, lw=1.2, ls='--')
 zb.free_text(A102 + 3.4, '北', color=GRAY, fs=14, offsets=((-14, 8), (14, 8), (0, 14)))
 BK = A102 + (A101 - A102) / abs(A101 - A102) * 4.0
@@ -244,7 +244,7 @@ fig, (ax,) = new_figure('図4　問3の準備　丁土地の筆界点の裏付�
                         '丁土地 A→B→G→H→I は 276.62015 → 276㎡（畑は1㎡未満切捨て）で登記記録の276㎡と一致。\n'
                         '（イ）230.2059 → 230㎡、（ロ）46.4342 → 46㎡。四角形は Conjg(対角線) × (もう一方の対角線) のiの係数が倍面積。')
 z = Zu(ax)
-fit(ax, TEI + [F, B + P(6, 0)], margin=0.08, pad_aspect=True)
+fit(ax, TEI + N32_1 + N40_1, margin=0.06, pad_aspect=True)   # 背景の32番1・40番1の頂点も入れる
 z.poly(N32_1, color=GRAY, lw=1.2, fill=BLUE, alpha=0.10)
 z.poly(N40_1, color=GRAY, lw=1.2, fill=ORANGE, alpha=0.10)
 z.poly(I_40_2, fill=GREEN, alpha=0.25)
@@ -256,13 +256,12 @@ for p, n in [(A, 'A'), (B, 'B'), (G, 'G'), (H, 'H'), (I, 'I'), (J, 'J')]:
     z.point(p, 'metal' if n in 'HI' else 'concrete')
     z.point_label(p, n, away=centroid(TEI))
 z.edge_label(A, B, 'AB ＝ 19.60（32番1の図のK4K5 19m60）', centroid(TEI), fs=14, dists=(16, 24), ts=(0.5, 0.45, 0.55))
-z.edge_label(G, H, 'GH ＝ 17.11（40番1の図の①④ 17m11）', centroid(TEI), fs=14, outward=False, dists=(16, 24),
-             ts=(0.45, 0.5, 0.4))
-z.free_text(centroid(I_40_2), '（イ）\n230.2059 → 230㎡', fs=17,
-            offsets=((0, -80), (0, -95), (0, 70), (-20, -80), (20, -80)))
+z.callout(G + (H - G) * 0.5, 'GH ＝ 17.11\n（40番1の図の①④ 17m11）', dirs=(0, -15, 15), color=BLACK, dists=(60, 80, 100))
+z.callout(centroid(I_40_2) + (I - centroid(I_40_2)) * 0.35, '（イ）230.2059 → 230㎡', dirs=(200, 190, 210, 180), color=BLACK,
+          dists=(120, 150, 180, 210))
 z.callout(centroid(RO) + (B - A) * 0.3, '（ロ）46.4342 → 46㎡', dirs=(60, 45, 75), color=RED, dists=(70, 95, 120))
 z.free_text(centroid(N32_1), '32番1（乙土地）', fs=15, color=GRAY, offsets=((0, 0), (0, 20)))
-z.free_text(centroid(N40_1), '40番1（丙土地）', fs=15, color=GRAY, offsets=((0, 0), (0, 20)))
+z.free_text(centroid(N40_1), '40番1（丙土地）', fs=15, color=GRAY, offsets=((40, -60), (60, -80), (0, -90), (0, 0)))
 ALL_PROBLEMS += save(fig, [z], 'H28_dai21mon_zu04_menseki.png')
 
 # =====================================================================
@@ -374,7 +373,7 @@ ALL_PROBLEMS += save(fig, zs, 'H28_dai21mon_zu07_bungouhitsu.png')
 fig, (ax,) = new_figure('図8　問4　地積測量図（40番2）の完成見本',
                         '縮尺1/250で答案用紙に描くと 1m ＝ 4mm（丁土地は横約77mm・縦約82mm、基準点まで入れると横約147mm）。\n'
                         '辺長は小数第3位を四捨五入（ABは19.6025なので19.60、JAは2.3945…なので2.39）。（ロ）には地番を付けない。\n'
-                        '座標値・地積・求積方法・測量年月日は書かない（注5）。A101・A102は位置と点名だけ（注6）。合筆先の32番1の形は描かない。')
+                        '座標値・地積・求積方法・測量年月日は書かない（問題文の注5）。A101・A102は位置と点名だけ（問題文の注6）。合筆先の32番1の形は描かない。')
 z = Zu(ax)
 fit(ax, TEI + [A101, A102], margin=0.07, pad_aspect=True)
 z.poly(TEI, lw=2.0)
@@ -407,5 +406,128 @@ z.edge_label(H, I, '道路', ct, fs=16, dists=(40, 50), rotate=False)
 z.free_text(P(349.5, 292.5), '（単位：ｍ）\n◎ コンクリート杭：A・B・G・J\n● 金属標：H・I\n△ 基準点：A101・A102', fs=13,
             ha='left', va='top', offsets=((0, 0), (0, -30), (-30, 0)))
 ALL_PROBLEMS += save(fig, [z], 'H28_dai21mon_zu08_chiseki_sokuryouzu.png')
+
+# =====================================================================
+# 図9：問1 J点の別解（平行線の間の幅hと三角関数真数表）
+# =====================================================================
+cab = (B - A).conjugate() * (G - A)
+h = abs(cab.imag) / abs(B - A)
+sin_bac = 0.1931 * 0.2250 + 0.9812 * 0.9744
+AJ = h / sin_bac
+assert f'{cab.imag:.4f}' == '46.9127' and f'{h:.4f}'[:5] == '2.393' and f'{sin_bac:.8f}' == '0.99952878'
+assert f'{AJ:.6f}'[:6] == '2.3943'
+J2 = r2(A + (I - A) / abs(I - A) * 2.3943)
+assert J2 == J, J2
+JBG = r2(A + (I - A) / abs(I - A) * 2.44)          # 幅をBGの2.44とした誤り
+assert JBG == P(346.11, 265.62), JBG
+FOOT = A + (B - A) * ((B - A).conjugate() * (G - A)).real / abs(B - A) ** 2   # Gから直線ABへの垂線の足
+BRG_AB = math.degrees(cmath.phase(B - A))
+BRG_AI = math.degrees(cmath.phase(I - A))
+fig, (ax1, ax2) = new_figure('図9　問1　J点の別解（平行線の間の幅と三角関数真数表）',
+                             '幅 h ＝ Conjg(B − A) × (G − A) のiの係数 ÷ AB ＝ 46.9127 ÷ 19.6025… ＝ 2.3931…（BGの2.44は斜めの長さで、幅ではない）。\n'
+                             'sin∠BAJ ＝ sin(11°07′59″ ＋ 76°59′56″) ＝ 0.1931 × 0.2250 ＋ 0.9812 × 0.9744 ＝ 0.99952878。\n'
+                             'AJ ＝ 2.3931… ÷ 0.99952878 ＝ 2.3943… → J（346.15, 265.61）でConjgの比と同じ。幅を2.44にするとAJが2.44で（346.11, 265.62）にずれる。',
+                             ncols=2, width_ratios=[1.3, 1])
+AI_END = A + (I - A) * 0.3
+za = Zu(ax1, fontsize=14)
+fit(ax1, [A, B, G, J, AI_END, FOOT, A + P(0, -10), G + P(0, 8)], margin=0.05, pad_aspect=True)
+za.poly(RO, fill=RED, alpha=0.18, color=BLACK, lw=2.0)
+za.line(J, AI_END, color=BLACK, lw=2.0)
+za.line(G, FOOT, color=BLUE, lw=2.2, ls='--')
+za.right_angle(FOOT, A, G, size=0.45, color=BLUE)
+za.north_arrow(length=0.07)
+for p_, n in [(A, 'A'), (B, 'B'), (G, 'G')]:
+    za.point(p_, 'concrete')
+    za.point_label(p_, n, away=centroid(RO))
+za.point(J, 'dot', color=RED, size=9)
+za.callout(J, 'J（346.15, 265.61）', dirs=(-150, -165, -135, 180), color=RED, dists=(60, 80, 100))
+za.callout(FOOT + (G - FOOT) * 0.5, 'h ＝ 2.3931…\n（ABとJGの間の幅）', dirs=(60, 45, 75, 90), color=BLUE, dists=(70, 95, 120))
+za.callout(B + (G - B) * 0.5, 'BG ＝ 2.44\n（斜め。幅ではない）', dirs=(-60, -75, -45, -90), color=GRAY, dists=(60, 80, 100))
+za.edge_label(A, B, 'ABの方向角 76°59′56″', centroid(RO), fs=14, ts=(0.5, 0.4, 0.6), dists=(16, 24))
+ax1.set_title('全体', fontsize=17, weight='bold', pad=6)
+
+zb = Zu(ax2, fontsize=14)
+lo, hi = A + P(-3.2, -1.2), A + P(1.4, 3.4)
+fit(ax2, [lo, hi], margin=0.0, pad_aspect=True)
+zb.poly(RO, fill=RED, alpha=0.18, color=BLACK, lw=2.0, check=False)
+zb.line(A, A + (B - A) / abs(B - A) * 3.3, color=BLACK, lw=2.0)
+zb.line(J, J + (G - J) / abs(G - J) * 3.3, color=BLACK, lw=2.0)
+zb.line(A, A + (I - A) / abs(I - A) * 3.2, color=BLACK, lw=2.0)
+zb.angle_arc(A, 0.8, BRG_AB, BRG_AI, color=PURPLE)
+zb.north_arrow(length=0.07)
+zb.point(A, 'concrete')
+zb.point_label(A, 'A', away=A + P(-1, 1))
+zb.point(J, 'dot', color=RED, size=10)
+zb.point_label(J, 'J', away=J + P(0, 1), color=RED)
+zb.free_text(A + (J - A) * 0.5, 'AJ ＝ 2.3943…', color=RED, fs=15, ha='right', offsets=((-18, 0), (-26, 0), (-18, 12)))
+zb.callout(A + cmath.rect(0.8, math.radians(90 - (BRG_AB + BRG_AI) / 2)).conjugate() * 1j,
+           '∠BAJ ＝ 180° −\n(11°07′59″ ＋ 76°59′56″)', dirs=(-10, 10, -30, 20), color=PURPLE, dists=(70, 90, 110))
+zb.free_text(A + (I - A) / abs(I - A) * 2.9, 'AIの向き\n（180° − 11°07′59″）', fs=14, offsets=((-70, 0), (-80, 10), (70, 0)))
+ax2.set_title('Aのまわりの拡大', fontsize=17, weight='bold', pad=6)
+ALL_PROBLEMS += save(fig, [za, zb], 'H28_dai21mon_zu09_J_betsukai.png')
+
+
+def fixed_figure(title, caption):
+    setup_font()
+    f = plt.figure(figsize=(16, 12), dpi=100)
+    f.patch.set_facecolor('white')
+    f.suptitle(title, fontsize=24, weight='bold', y=0.965)
+    a = f.add_axes([0.03, 0.10, 0.94, 0.80])
+    a.set_xlim(0, 100)
+    a.set_ylim(0, 100)
+    a.axis('off')
+    f.text(0.5, 0.035, caption, ha='center', va='center', fontsize=16)
+    return f, a
+
+
+# =====================================================================
+# 図10：注の仕分け（固定配置）
+# =====================================================================
+fig, ax = fixed_figure('図10　注の仕分け（問題文の注・調査素図の（注）・観測値の表の注）',
+                       '番号がかぶるので、記事では「問題文の注3」「調査素図の（注）」「観測値の表の注1」と、どこの注かを書き分ける。')
+BOX10 = [
+    (4, 54, 44, 40, '問題文の注（毎年ほぼ同じ）', BLACK,
+     ['注1　適法・書類は適法', '注2　書面申請', '注3　座標は小数第3位を四捨五入', '注4　辺長は小数第3位を四捨五入',
+      '注7　距離の補正はしない', '注8　三角関数真数表の値を使う', '注9　訂正・加入・削除の方法'], []),
+    (52, 54, 44, 40, '問題文の注（今年だけ）', RED,
+     ['注5　地積測量図に書かない：', '　座標値・系の番号・地積と求積方法・測量年月日', '注6　A市基準点は位置と点名だけ',
+      '　（座標値は書かない）'], [0, 1, 2, 3]),
+    (4, 6, 44, 42, '調査素図の（注）', BLUE,
+     ['A点〜I点は筆界点', 'J点：ABと平行なG点を通る直線と', '　直線AIの交点', '実線は筆界、C−F・G−Jの点線は分割線',
+      'A101・A102はA市基準点'], [1, 2]),
+    (52, 6, 44, 42, '観測値の表の注', PURPLE, ['注1　観測角は右回り（時計回り）', '注2　北はX軸正方向',
+                                        '（A101の読み0°01′00″は', '　求点の読みから引く）'], [0, 2, 3]),
+]
+for x, y, w, hh, head, col, lines, red in BOX10:
+    ax.add_patch(FancyBboxPatch((x, y), w, hh, boxstyle='round,pad=0.6', fc='#f7f7f7', ec=col, lw=2.0))
+    ax.text(x + 2, y + hh - 4, head, fontsize=20, weight='bold', va='center', color=col)
+    for i, t in enumerate(lines):
+        ax.text(x + 3, y + hh - 11 - i * 4.6, t, fontsize=16, va='center', color=RED if i in red else BLACK)
+path = os.path.join(OUT, 'H28_dai21mon_zu10_chuu_shiwake.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図10: 整理図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図11：本番で解く順番（固定配置）
+# =====================================================================
+fig, ax = fixed_figure('図11　本番で解く順番（いちばん重いのはJ点と面積3つ・地積測量図）',
+                       'J点がなくても、問2の全部と、申請書の地積3つ（230・46・398）以外の欄は書ける。重い計算は後ろに回し、先に点を積む。')
+STEPS = [('①', '問2を書き切る', '計算なし。地目・取得原因・登記原因の3語で理由を組む', BLACK),
+         ('②', '問3の申請書のJ点が要らない欄', '登記の目的・添付書類・登録免許税・申請人・所在・1行目（276）・4行目（351）・各行の原因', BLACK),
+         ('③', 'D点', 'A102から放射1回（A101の読み0°01′00″を引く）', BLACK),
+         ('④', 'J点', 'ABの平行線と直線AIの交点（Conjgの比）', RED),
+         ('⑤', '面積3つと地積3つ', '（イ）230.2059→230、（ロ）46.4342→46、32番1は351.67100＋46.4342→398', RED),
+         ('⑥', '辺長7本と地積測量図', '19.60・2.44・17.11・11.92・14.13・2.39・19.20、1/250で1m＝4mm', RED)]
+for k, (no, head, body, col) in enumerate(STEPS):
+    y = 86 - k * 15.5
+    ax.add_patch(FancyBboxPatch((6, y - 5.5), 88, 11, boxstyle='round,pad=0.5', fc='#fff5f5' if col == RED else '#f7f7f7',
+                                ec=col, lw=2.0))
+    ax.text(9, y + 1.8, f'{no}　{head}', fontsize=20, weight='bold', va='center', color=col)
+    ax.text(13, y - 2.6, body, fontsize=16, va='center', color=BLACK)
+    if k < len(STEPS) - 1:
+        ax.annotate('', xy=(50, y - 9.3), xytext=(50, y - 6.2), arrowprops=dict(arrowstyle='-|>', lw=2.0, color=GRAY))
+path = os.path.join(OUT, 'H28_dai21mon_zu11_toku_junban.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図11: 整理図（固定配置）\n  →', path)
 
 print('重なりの合計:', len(ALL_PROBLEMS))

@@ -165,6 +165,41 @@ check('CDの四捨五入', f'CDは{fmt_num(abs(D - C))}で14.40')
 check('答案用紙の大きさ', f'横約{round((C.imag - E.imag) * 4):d}mm・縦約{round((A.real - D.real) * 4):d}mm')
 check('地積測量図の地番欄', '地番の欄は『100番1、100番2』、土地の所在は『A市B町字C』')
 
+# ---- 追加作業（2026-09-29）：別解・注の書き分け・時間配分など ----
+for n, p in [('A', A), ('B', B), ('E', E), ('D', D)]:
+    z = (G - F).conjugate() * (p - F)
+    check(f'{n}の離れの積 表示', '表示：' + disp(z))
+    check(f'{n}の離れ 表示', '表示：' + fmt_num(z.imag / abs(G - F)))
+check('別解のH 表示', '表示：' + disp(A + (B - A) * (11.5680 - 1) / (11.5680 + 3.0272)))
+check('別解のI 表示', '表示：' + disp(E + (D - E) * (11.3225 - 1) / (11.3225 + 9.0605)))
+judge('別解のH・Iの丸めが本文と一致', r2(A + (B - A) * (11.5680 - 1) / (11.5680 + 3.0272)) == H
+      and r2(E + (D - E) * (11.3225 - 1) / (11.3225 + 9.0605)) == I)
+check('別解の打ち込む値（離れのiの係数）', '70.4305 [÷] [Abs]')
+check('別解の打ち込む値（Bの離れ）', '0 [−] 18.4313 [÷] [Abs]')
+dz = (I - A).conjugate() * (E - H)
+check('（ロ）の対角線 表示', '表示：' + disp(dz))
+judge('対角線の倍面積と4点の倍面積のiの係数が一致', abs(abs(dz.imag) - abs(double_area_sum(RO).imag)) < 1e-9)
+check('図9のtの値（H・切り捨て）', fmt_num((11.5680 - 1) / (11.5680 + 3.0272)), draw.replace('{fmt_num(tH2)}', fmt_num((11.5680 - 1) / (11.5680 + 3.0272))), '作図')
+check('図9のtの値（プロンプト）', 'H：t ＝ ' + fmt_num((11.5680 - 1) / (11.5680 + 3.0272)), fig, '解説図')
+check('図9のtの値（I・プロンプト）', 'I：t ＝ ' + fmt_num((11.3225 - 1) / (11.3225 + 9.0605)), fig, '解説図')
+for s in ['問題文の注3', '問題文の注4', '問題文の注5', '問題文の注6', '観測値の表の注1', '調査図素図の注',
+          '毎年ほぼ同じ', '今年の答えに効く']:
+    check('注の書き分け', s)
+for bad in ['「注3で', '（注5）', '（注6）', '下の注1']:
+    absent('どの注かわからない書き方', bad)
+for s in ['3筆の間の筆界の境界標は、掘り起こしても見つからなかったのよ', '合筆の制限（不動産登記法第41条）のどれにも当たらない',
+          '地積の更正が要るかどうかは、H点とI点がなくても、C点さえ出せば全体の面積だけで決まる',
+          '①地域（市街地地域）→ ②精度区分（甲2）→ ③比べる2つの数字', '一郎さんの相続の登記はまだされていないので、申請日の8月18日の時点でも登記名義人は亡くなった一郎さん',
+          '縦約88mm', '単位：m', 'いちばん時間を食うのは、F′を作ってH点・I点を出し',
+          'H点・I点がないと書けないのは、（イ）（ロ）の地積と、AH・HB・DI・IE・HIの5本の辺長と、分筆線の位置だけです',
+          '全体の面積299.83を出し、合筆後の297.52の行の甲2（1.57）と比べて、問2を書き上げる']:
+    check('追加作業の内容', s)
+judge('A201・A202まで入れた南北の範囲が約22m（縦約88mm）', round((A.real - A202.real) * 4) == 88)
+for s in ['毎年同じ注は読み流して、今年だけの注に印を付けておけばいいんですね', 'どちらでも、最後に離れが1.00になるかの検算は忘れないこと',
+          '順番を取り違えて辺どうしを掛けると、面積にならないから気をつけなさい', '次の年度も、この調子でいくわよ！']:
+    check('新しい図の挿入位置の文言', s)
+    check('新しい図の挿入位置の文言（プロンプト側）', s, fig, '解説図')
+
 # ---- アガルートの解答例（2026-09-29、過去問集の解答例ページから転記。日付は試験の答案用紙どおり平成29年8月18日） ----
 AGAROOT = ['（379.06, 310.02）', '（380.99, 299.87）', '（366.75, 297.27）', '地積の更正の登記を申請する必要がある',
            '土地地積更正・分筆登記', '地積測量図　相続証明書　代理権限証書', '金2,000円', '（被相続人　甲野一郎）',
@@ -180,19 +215,22 @@ a = base.index('あなたは土地家屋調査士試験の教材デザイナー�
 bb = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:bb].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-n_fig = len(re.findall(r'^- \*\*図\d：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（7枚）', n_fig == 7)
-for i in range(1, 8):
-    judge(f'作図済みPNG 図{i}', any(f.startswith(f'H29_dai21mon_zu0{i}_') and f.endswith('.png')
-                                  for f in os.listdir(os.path.join(HERE, 'zu'))))
-nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\()'図(\d)　", draw)]
-nums += [int(m) for m in re.findall(r"kouten_zu\((\d),", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から7まで（{sorted(nums)}）', sorted(nums) == list(range(1, 8)))
+N_FIG = 11
+n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
+judge(f'解説図プロンプトの図の数 {n_fig}枚（{N_FIG}枚）', n_fig == N_FIG)
+zu_png = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.startswith('H29_dai21mon_zu') and f.endswith('.png'))
+for i in range(1, N_FIG + 1):
+    judge(f'作図済みPNG 図{i}', any(f.startswith(f'H29_dai21mon_zu{i:02d}_') for f in zu_png))
+judge(f'解説図のPNGの数 {len(zu_png)}枚（{N_FIG}枚）', len(zu_png) == N_FIG)
+nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\(|fixed_figure\()'図(\d+)　", draw)]
+nums += [int(m) for m in re.findall(r"kouten_zu\((\d+),", draw)]
+judge(f'作図スクリプトの図のタイトル番号が1から{N_FIG}まで（{sorted(nums)}）', sorted(nums) == list(range(1, N_FIG + 1)))
 for s in ['（379.06, 310.02）', '（380.99, 299.87）', '（366.75, 297.27）', '（343.95, 303.30）', '（380.99, 299.88）',
           '（366.75, 297.29）', '280°50′02.54″', '−79°09′57.46″', '6°43′42.54″', '280°18′47.75″', '85°53′40″',
           '379.0565… ＋ 310.0195…i', '380.9919… ＋ 299.8652…i', '366.7514… ＋ 297.2738…i', '64.3421 ÷ 88.8618',
           '62.8476 ÷ 124.0998', '0.98384', '297.52㎡', '299.83㎡', '146.62㎡', '153.22㎡', '299.84㎡', '±1.57', '±4.59',
-          '0.9949…', '1.0035…', '横約92mm・縦約73mm']:
+          '0.9949…', '1.0035…', '横約92mm・縦約73mm', '11.5680…', '−3.0272…', '11.3225…', '−9.0605…', '306.4549',
+          '153.22745㎡', '縦約88mm']:
     check('解説図プロンプトの数値', s, fig, '解説図')
     check('作図スクリプトの数値', s.replace('±', '').replace('㎡', ''), draw, '作図')
 # 画像挿入の位置の文言が記事にあるか
@@ -253,13 +291,15 @@ same = []
 for i, l in enumerate(lines):
     if l.rstrip() in ('**トリ先生**', '**藍子**'):
         j = i + 2
-        while j < len(lines) and not lines[j].strip():
+        while j < len(lines) and (not lines[j].strip() or lines[j].startswith('> 【画像挿入】')):
             j += 1
         if j < len(lines) and lines[j].rstrip() == l.rstrip():
             same.append(i + 1)
 judge(f'同じ話者のセリフの連続: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図7＋添削1＋完成形1＝計9か所の想定）', n_marker == 9)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＝計{N_FIG + 2}か所の想定）', n_marker == N_FIG + 2)
+all_png = [f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png')]
+judge(f'画像挿入マーカーの数とzu/のPNGの数が一致（{n_marker}・{len(all_png)}）', n_marker == len(all_png))
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成29年度問題21（土地）〜'
