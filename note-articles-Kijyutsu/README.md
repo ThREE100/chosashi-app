@@ -88,11 +88,12 @@ note-articles-Kijyutsu/
 │   │   └── zu/                                         解説図8枚のPNGと作図スクリプト draw_H28_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像のPNG・HTMLと生成スクリプト make_H28_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_H28_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み）
-│       ├── prompt_H28_dai22mon_kaisetsuzu.md                  解説図7枚（出入り経路図・階の数え方の誤り比較図・敷地辺長図・建物図面・1階/2階/3階求積図）作成プロンプト
-│       ├── prompt_H28_dai22mon_toukishinseisho_gazou.md       登記申請書画像プロンプト（完成形）
+│       ├── prompt_H28_dai22mon_kaisetsuzu.md                  解説図8枚（出入り経路図・階の数え方の誤り比較図・敷地辺長図・建物図面・1階/2階/3階求積図・本番で解く順番）作成プロンプト
+│       ├── prompt_H28_dai22mon_toukishinseisho_gazou.md       登記申請書画像プロンプト（完成形。第2欄〈問2の記述〉の画像も）
 │       ├── prompt_H28_dai22mon_toukishinseisho_machigai.md    登記申請書「構造」「床面積」欄（渡廊下付き・1階の書き漏れ）の誤答→添削→正解の画像プロンプト
 │       ├── prompt_H28_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
-│       └── verify_H28_dai22mon.py                             記事・付属プロンプトの数値・求積・体裁の照合スクリプト
+│       ├── verify_H28_dai22mon.py                             記事・付属プロンプト・画像の数値・求積・体裁の照合スクリプト
+│       └── zu/                                                画像（解説図8枚・登記申請書の完成形・添削・第2欄のPNGとHTML、作図・書き出しスクリプト）
 ├── H29/
 │   ├── Q21/
 │   │   ├── note_H29_dai21mon_tochi_kaiwa_kaisetsu.md    note記事本文（会話形式。アガルート解答例と照合済み）
