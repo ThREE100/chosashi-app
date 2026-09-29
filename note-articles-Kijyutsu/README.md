@@ -32,6 +32,22 @@ note-articles-Kijyutsu/
 │       ├── prompt_H27_dai22mon_toukishinseisho_machigai.md    登記申請書「敷地権の表示」欄の誤答→添削→正解の画像プロンプト
 │       ├── prompt_H27_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       └── verify_H27_dai22mon.py                             記事・付属プロンプトの数値・求積・体裁の照合スクリプト
+├── H28/
+│   └── Q22/
+│       ├── note_H28_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み）
+│       ├── prompt_H28_dai22mon_kaisetsuzu.md                  解説図7枚（出入り経路図・階の数え方の誤り比較図・敷地辺長図・建物図面・1階/2階/3階求積図）作成プロンプト
+│       ├── prompt_H28_dai22mon_toukishinseisho_gazou.md       登記申請書画像プロンプト（完成形）
+│       ├── prompt_H28_dai22mon_toukishinseisho_machigai.md    登記申請書「構造」「床面積」欄（渡廊下付き・1階の書き漏れ）の誤答→添削→正解の画像プロンプト
+│       ├── prompt_H28_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
+│       └── verify_H28_dai22mon.py                             記事・付属プロンプトの数値・求積・体裁の照合スクリプト
+├── H29/
+│   └── Q22/
+│       ├── note_H29_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み）
+│       ├── prompt_H29_dai22mon_kaisetsuzu.md                  解説図6枚（分割の前後比較図・敷地辺長図・建物図面・甲建物の求積図・丙建物の誤り比較図・丙建物の求積図）作成プロンプト
+│       ├── prompt_H29_dai22mon_toukishinseisho_gazou.md       答案用紙の第1欄（問1）と登記申請書（第2欄）の画像プロンプト（完成形2枚）
+│       ├── prompt_H29_dai22mon_toukishinseisho_machigai.md    登記申請書「所在」欄と附属建物の符号の誤答→添削→正解の画像プロンプト
+│       ├── prompt_H29_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
+│       └── verify_H29_dai22mon.py                             記事・付属プロンプトの数値・求積・体裁の照合スクリプト
 ├── H30/
 │   └── Q22/
 │       ├── note_H30_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み）
