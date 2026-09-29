@@ -117,6 +117,51 @@ check('会社法人等番号の括弧書き', '『（会社法人等番号　Z�
 check('符号1・3を使い回さない', '一度使った符号は、その建物がなくなっても使い回さない')
 check('各階平面図の所在欄', '建物の所在の欄には『Y市K区A町三丁目425番地6、425番地5』')
 
+# 画像（2026-09-29生成）：記事の画像挿入マーカー8か所に対応するPNGがそろっているか
+from PIL import Image
+ZU = os.path.join(os.path.dirname(__file__), 'zu')
+markers = [l for l in text.splitlines() if l.startswith('> 【画像挿入】')]
+ok = len(markers) == 8
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数 : {len(markers)}（解説図5・申請書の完成形2・添削1）')
+PNGS = ['R7_dai22mon_zu01_hensen', 'R7_dai22mon_zu02_fugou2_ichibu_torikowashi', 'R7_dai22mon_zu03_hashirashin_ayamari',
+        'R7_dai22mon_zu04_souko_1kai_kyuuseki', 'R7_dai22mon_zu05_souko_2kai_kyuuseki',
+        'R7_dai22mon_toukishinseisho_kansei_toi1', 'R7_dai22mon_toukishinseisho_kansei_toi2',
+        'R7_dai22mon_toukishinseisho_machigai']
+for name in PNGS:
+    path = os.path.join(ZU, name + '.png')
+    ok = os.path.exists(path)
+    if ok and 'toukishinseisho' in name:
+        w, h = Image.open(path).size
+        ok = w == 1200 and h > w    # 申請書・添削は横1200pxの縦長
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + 'PNG : ' + name)
+check('記事：柱の中心で測った誤りの面積', '1階は170.41平方メートル。正解より20.34平方メートルも小さくなる')
+assert round(15.50 * 5.90 + 9.40 * 8.40, 2) == 170.41 and round(190.75 - 170.41, 2) == 20.34
+
+
+def html_has(name, *needles):
+    global ng
+    h = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()
+    for n in needles:
+        ok = n in h
+        ng += (not ok)
+        print(('OK ' if ok else 'NG ') + f'{name}.html : {n}')
+
+
+html_has('R7_dai22mon_toukishinseisho_kansei_toi1', '建物表題部変更登記', '建物図面　各階平面図　会社法人等番号　代理権限証書',
+         '（会社法人等番号　Ｚ）', 'Ｙ市Ｋ区Ａ町三丁目425番地６、425番地５', '令和7年1月21日主である建物取壊しにより変更',
+         '鉄骨造スレート葺２階建', '令和7年1月21日符号2の附属建物を主である建物に変更', '令和7年1月31日種類変更、一部取壊し',
+         '令和7年1月21日主である建物に変更')
+html_has('R7_dai22mon_toukishinseisho_kansei_toi2', '所有権証明書', '鉄骨造合金メッキ鋼板ぶき２階建', '令和7年9月25日取壊し',
+         '令和7年10月7日新築', '令和7年10月17日新築', '1階190', '2階156', '>75<')
+html_has('R7_dai22mon_toukishinseisho_machigai', '令和7年10月17日新築', '令和7年9月25日取壊し', '符号6')
+for bad in ['所有権証明書']:   # 問1には所有権証明書を付けない
+    h = open(os.path.join(ZU, 'R7_dai22mon_toukishinseisho_kansei_toi1.html'), encoding='utf-8').read()
+    ok = bad not in h
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '問1に所有権証明書がない')
+
 # 同じ話者のセリフが続いていないか（章の頭は除く）
 prev = None
 for i, line in enumerate(text.splitlines()):

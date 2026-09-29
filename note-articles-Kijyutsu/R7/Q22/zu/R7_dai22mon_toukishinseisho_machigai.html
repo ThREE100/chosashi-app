@@ -1,0 +1,57 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 70px 60px 40px; min-height: 1650px; display: flex; flex-direction: column; }
+.page .caption { margin-top: auto; padding-top: 30px; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 48px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 26px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.dateline { display: flex; align-items: center; font-size: 22px; margin: 4px 0 26px; }
+.datebox { border: 2px solid #111; padding: 12px 18px; width: 470px; display: flex; justify-content: space-between; }
+.datebox .ink { font-size: 26px; }
+.dateline .kyoku { padding-left: 26px; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 22px; }
+.plainrow .ryaku { flex: 1; text-align: center; }
+table.bldg { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.bldg td { border: 1.5px solid #111; font-size: 19px; padding: 8px 10px; vertical-align: middle; line-height: 1.5; }
+table.bldg td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }
+table.bldg td.vert.tight { letter-spacing: 0.15em; font-size: 20px; }
+table.bldg td.lab2 { text-align: center; font-size: 19px; }
+table.bldg td.head { text-align: center; font-size: 18px; height: 70px; }
+table.bldg td.val { height: 64px; }
+table.bldg td.entry { height: 120px; }
+table.bldg td.center { text-align: center; }
+table.bldg td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.bldg td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.bldg td.genin { font-size: 17px; }
+table.bldg td .ink { font-size: 20px; }
+table.bldg td.genin .ink { font-size: 18px; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.panel:last-of-type { border-bottom: none; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { position: relative; }
+.strike::after { content: ""; position: absolute; left: -4px; right: -4px; top: 52%; border-top: 3px solid #d0021b;
+                  transform: rotate(-3deg); }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; right: 120px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0; text-align: right; }
+.bubrow .bubble { text-align: left; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body>
+<div class="panel"><div class="ptitle ng">①誤答</div><div class="okwrap"><table class="bldg"><colgroup><col style="width:5%"><col style="width:12%"><col style="width:14%"><col style="width:21%"><col style="width:10%"><col style="width:6%"><col style="width:32%"></colgroup><tr><td class="vert tight" rowspan="2">建物の表示</td><td class="head lab2">主である<br>建物又は<br>附属建物</td><td class="head">①種　類</td><td class="head">②構　造</td><td class="head" colspan="2">③床　面　積<br>（m²）</td><td class="head">登記原因及び<br>その日付</td></tr><tr><td class="entry lab2"><span class="ink">符号4</span></td><td class="entry center">（略）</td><td class="entry center"><span class="ink">軽量鉄骨造亜鉛メッキ鋼板ぶき平家建</span></td><td class="entry int"><span class="ink">10</span></td><td class="entry dec"><span class="ink">00</span></td><td class="entry genin"><span class="ink">令和7年10月17日新築</span></td></tr></table></div></div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><div class="okwrap"><table class="bldg"><colgroup><col style="width:5%"><col style="width:12%"><col style="width:14%"><col style="width:21%"><col style="width:10%"><col style="width:6%"><col style="width:32%"></colgroup><tr><td class="vert tight" rowspan="2">建物の表示</td><td class="head lab2">主である<br>建物又は<br>附属建物</td><td class="head">①種　類</td><td class="head">②構　造</td><td class="head" colspan="2">③床　面　積<br>（m²）</td><td class="head">登記原因及び<br>その日付</td></tr><tr><td class="entry lab2"><span class="ink">符号4</span></td><td class="entry center">（略）</td><td class="entry center"><span class="ink">軽量鉄骨造亜鉛メッキ鋼板ぶき平家建</span></td><td class="entry int"><span class="ink">10</span></td><td class="entry dec"><span class="ink">00</span></td><td class="entry genin"><span class="ink strike">令和7年10月17日新築</span><br><span class="red">令和7年9月25日取壊し</span></td></tr></table></div><div class="bubrow"><span class="bubble">取り壊した時点で符号4は終わり！<br>建て直した守衛所は、新しい符号6の新築として別の行に書く</span></div></div>
+<div class="panel"><div class="ptitle ok">③正解</div><div class="okwrap"><table class="bldg" class="good"><colgroup><col style="width:5%"><col style="width:12%"><col style="width:14%"><col style="width:21%"><col style="width:10%"><col style="width:6%"><col style="width:32%"></colgroup><tr><td class="vert tight" rowspan="3">建物の表示</td><td class="head lab2">主である<br>建物又は<br>附属建物</td><td class="head">①種　類</td><td class="head">②構　造</td><td class="head" colspan="2">③床　面　積<br>（m²）</td><td class="head">登記原因及び<br>その日付</td></tr><tr><td class="entry lab2"><span class="ink">符号4</span></td><td class="entry center">（略）</td><td class="entry center"><span class="ink">軽量鉄骨造亜鉛メッキ鋼板ぶき平家建</span></td><td class="entry int"><span class="ink">10</span></td><td class="entry dec"><span class="ink">00</span></td><td class="entry genin"><span class="ink">令和7年9月25日取壊し</span></td></tr><tr><td class="entry lab2"><span class="ink">符号6</span></td><td class="entry center">（略）</td><td class="entry center"><span class="ink">軽量鉄骨造亜鉛メッキ鋼板ぶき平家建</span></td><td class="entry int"><span class="ink">10</span></td><td class="entry dec"><span class="ink">00</span></td><td class="entry genin"><span class="ink">令和7年10月17日新築</span></td></tr></table><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+<div class="caption" style="margin:10px 0 30px">令和7年度 第22問｜取り壊した建物は、同じ符号で生き返らない</div></body></html>

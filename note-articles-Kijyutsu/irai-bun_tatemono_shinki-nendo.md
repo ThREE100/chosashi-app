@@ -79,6 +79,7 @@ PDFが撮影画像でテキストを読み取れない場合や pdftoppm がな�
 - prompt_{フォルダ名}_dai22mon_toukishinseisho_machigai.md（誤答→添削→正解の3コマ）
 - prompt_{フォルダ名}_dai22mon_miidashi_gazou.md（note見出し画像）
 - verify_{フォルダ名}_dai22mon.py（照合スクリプト）
+- zu/ に画像そのもの：解説図のPNG（作図スクリプト。tools/zu_helpers.py を使い重なりの自動検査0件）と、登記申請書の完成形・添削のPNGとHTML（HTML＋Playwright。試験の答案用紙の欄の形どおり、横1200pxの縦長、添削は3コマを縦に積む）。見本は note-articles-Kijyutsu/R7/Q22/zu/。note見出し画像は画像生成AIが必要なのでプロンプトまででよい
 
 ■ 特に守ること
 - タイトルは「【土地家屋調査士受験生向け】{年度}問題22（建物）〜見出し〜」の形にする

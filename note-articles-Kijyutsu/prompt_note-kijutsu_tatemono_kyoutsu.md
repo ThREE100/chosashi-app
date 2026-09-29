@@ -301,4 +301,5 @@ R5/Q22の記事を実際にnoteに貼り付けて検証した結果、確定し�
 - 登記申請書の画像生成プロンプト。共通フォームは `prompt_toukishinseisho-gazou_kihon-form_tatemono.md`
 - note見出し画像（サムネイル）の画像生成プロンプト。サイズ・スタイルは択一式で確立済みの house style（`note-articles/infographic-prompt-template.md`の「サイズ・アスペクト比」「スタイル」章。`1280×670px`、パステルカラーのアイソメトリック・フラットデザイン、CRITICAL TEXT REQUIREMENT・BACKGROUND REQUIREMENT・Final checkの三点セット）をそのまま踏襲する。記入済みの例は `R5/Q22/prompt_R5_dai22mon_miidashi_gazou.md`
 - 照合スクリプト（`verify_{年度}_dai22mon.py`）
+- **画像そのもの（2026-09-29追加、R7/Q22）**：プロンプトだけで終わらせず、解説図と登記申請書（完成形・添削）はPNGまで生成して `{年度}/Q22/zu/` に置く。解説図は `tools/zu_helpers.py` で頂点座標から作図し（建物の座標は(東, 南)で持ち、(北, 東)に変換して使う。重なりの自動検査0件と目視確認）、申請書はHTML＋Playwrightで試験の答案用紙の欄の形どおりに書き出す（横1200pxの縦長。添削は3コマを縦に積む）。見本は `R7/Q22/zu/`。note見出し画像は画像生成AIが必要なのでプロンプトまで。記事の画像挿入マーカーの数と生成したPNGの数が合うことを照合スクリプトで確かめる
 - 作業報告（解答例と一致した項目、照合できなかった項目、食い違った項目とどちらを採用したか、問1〜問N それぞれをどの章のどのセリフで答えたかの一覧）
