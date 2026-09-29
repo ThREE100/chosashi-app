@@ -5,6 +5,8 @@
   代理人の「（略）」は印刷済み、申請人は記入枠。建物の表示は、所在1段、家屋番号、見出し
   （主である建物又は附属建物・①種類・②構造・③床面積・原因及びその日付）、記入行5行。登録免許税の欄はない
 - 添削　：`../prompt_R4_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第2欄・第3欄：答案用紙はA3横で、左の列に第1欄（申請書）、右の列に第2欄（問2）・第3欄（問3）がある。申請書以外の欄は
+  別の画像にし、記事の該当の問の直後に置く（R3/Q22と同じ扱い）。欄の形は答案用紙どおり（2行×4列：記号・記入・記号・記入）
 
 CSSと部品の作りは `R5/Q22/zu/make_R5_dai22mon_shinseisho_gazou.py` と同じ形にしている。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP、なければIPA明朝・IPAゴシック）
@@ -48,6 +50,8 @@ table.t td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left
 table.t td.genin {{ font-size: 17px; }}
 table.t td .ink {{ font-size: 19px; }}
 table.t td.genin .ink {{ font-size: 18px; }}
+.sec {{ font-size: 24px; margin: 0 0 4px; }}
+table.r2 td {{ height: 72px; font-size: 21px; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 34px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 添削画像 */
@@ -139,6 +143,21 @@ kansei = page(f'''<div class="page">
 </div>''')
 
 
+# ---- 第2欄（問2）・第3欄（問3）：答案用紙どおり、記号と記入欄を交互に並べた2行×4列 ----
+def ran(sec, cells, caption):
+    cols = '<colgroup><col style="width:9%"><col style="width:41%"><col style="width:9%"><col style="width:41%"></colgroup>'
+    rows = ''.join(f'<tr><td class="center">{a}</td><td class="center">{ink(b)}</td>'
+                   f'<td class="center">{c}</td><td class="center">{ink(d)}</td></tr>' for a, b, c, d in cells)
+    return page(f'<div class="page"><div class="sec">{sec}</div><table class="t r2">{cols}{rows}</table>'
+                f'<div class="caption">{caption}</div></div>')
+
+
+dai2 = ran('第2欄', [('ア', '効用上一体', 'イ', '所有者の意思'), ('ウ', '1個の建物', 'エ', '所有者')],
+           '令和4年度 土地家屋調査士試験 第22問 問2（第2欄）解答例')
+dai3 = ran('第3欄', [('①', '所有者', '②', '従'), ('③', '付合', '④', '権原')],
+           '令和4年度 土地家屋調査士試験 第22問 問3（第3欄）解答例')
+
+
 # ---- 添削（①誤答 → ②添削 → ③正解 を縦に3コマ）：主である建物の2行（変更前・変更後） ----
 def snippet(row2, row1=ROW1, good=False):
     g = ' class="t good"' if good else ' class="t"'
@@ -172,9 +191,10 @@ if __name__ == '__main__':
     exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-        pg = browser.new_page(viewport={'width': 1200, 'height': 800})
+        pg = browser.new_page(viewport={'width': 1200, 'height': 100})   # 高さは内容に合わせる（full_page）
         for name, html in [('R4_dai22mon_toukishinseisho_kansei', kansei),
-                           ('R4_dai22mon_toukishinseisho_machigai', machigai)]:
+                           ('R4_dai22mon_toukishinseisho_machigai', machigai),
+                           ('R4_dai22mon_dai2ran_kansei', dai2), ('R4_dai22mon_dai3ran_kansei', dai3)]:
             hp = os.path.join(OUT, name + '.html')
             open(hp, 'w', encoding='utf-8').write(html)
             pg.set_content(html)
@@ -182,5 +202,6 @@ if __name__ == '__main__':
             png = os.path.join(OUT, name + '.png')
             pg.screenshot(path=png, full_page=True)
             w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-            print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+            kind = '縦長' if h > w else ('横長（第2欄・第3欄は小さい表なので横長でよい）' if 'ran' in name else '横長（要確認）')
+            print(f'{png}  {w}×{h}px  ' + kind)
         browser.close()

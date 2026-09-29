@@ -190,7 +190,7 @@ note-articles-Kijyutsu/
 │       ├── prompt_R4_dai22mon_toukishinseisho_machigai.md     登記申請書「原因及びその日付」欄の誤答→添削→正解の画像プロンプト
 │       ├── prompt_R4_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       ├── verify_R4_dai22mon.py                              記事・付属プロンプト・画像の数値・求積・体裁の照合スクリプト
-│       └── zu/                                                画像（解説図6枚・登記申請書の完成形・添削のPNGとHTML、作図・書き出しスクリプト）
+│       └── zu/                                                画像（解説図6枚・登記申請書の完成形・添削・第2欄・第3欄のPNGとHTML、作図・書き出しスクリプト）
 ├── R5/
 │   ├── Q21/
 │   │   ├── note_R5_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み）

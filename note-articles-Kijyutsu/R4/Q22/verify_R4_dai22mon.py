@@ -253,17 +253,19 @@ for bad in ['✕', '✓', '名変', '奥側', '手前側']:
 from PIL import Image
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
-PNGS = [('工事前（家屋番号5番3', 'R4_dai22mon_zu01_kouji_zengo'), ('本件土地をA・B・C・D点で結んだ台形', 'R4_dai22mon_zu02_shikichi_henchou'),
+PNGS = [('工事前（家屋番号5番3', 'R4_dai22mon_zu01_kouji_zengo'), ('第2欄（問2）の完成形', 'R4_dai22mon_dai2ran_kansei'), ('本件土地をA・B・C・D点で結んだ台形', 'R4_dai22mon_zu02_shikichi_henchou'),
         ('建物図面の完成形', 'R4_dai22mon_zu03_tatemono_zumen'), ('1階の床面積求積図', 'R4_dai22mon_zu04_1kai_kyuuseki'),
         ('2階の床面積求積図', 'R4_dai22mon_zu05_2kai_kyuuseki'), ('車庫の誤り比較図', 'R4_dai22mon_zu06_shako_ayamari_hikaku'),
         ('「原因及びその日付」欄の①誤答', 'R4_dai22mon_toukishinseisho_machigai'),
-        ('登記申請書（問1）の完成形', 'R4_dai22mon_toukishinseisho_kansei')]
+        ('登記申請書（問1）の完成形', 'R4_dai22mon_toukishinseisho_kansei'), ('第3欄（問3）の完成形', 'R4_dai22mon_dai3ran_kansei')]
 ok = len(markers) == len(PNGS) and all(k in m for m, (k, _) in zip(markers, PNGS))
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'画像挿入マーカーとPNGの対応（記事の順） : {len(markers)}か所')
 for _, name in PNGS:
     path = os.path.join(ZU, name + '.png')
     ok = os.path.exists(path)
+    if ok and 'ran_kansei' in name:
+        ok = Image.open(path).size[0] == 1200   # 第2欄・第3欄は横1200px
     if ok and 'toukishinseisho' in name:
         w, h = Image.open(path).size
         ok = w == 1200 and h > w    # 申請書・添削は横1200pxの縦長
@@ -291,6 +293,8 @@ for bad in ['登録免許税', '住所証明書', '登記識別情報', '20.91',
     absent('申請書のHTML', bad, h, '申請書HTML')
 html_has('R4_dai22mon_toukishinseisho_machigai', '③令和４年９月30日増築、符号１<br>の附属建物合体', '∨①②', '∨種類・構造変更、',
          '①②③令和４年９月30日種類・<br>構造変更、増築、符号１の附属<br>建物合体', '<svg class="check"')
+html_has('R4_dai22mon_dai2ran_kansei', '第2欄', '効用上一体', '所有者の意思', '1個の建物', '>所有者<')
+html_has('R4_dai22mon_dai3ran_kansei', '第3欄', '>所有者<', '>従<', '>付合<', '>権原<')
 for bad in ['✓', '✕', '横1600']:
     absent('添削・申請書プロンプトの記号', bad, form + fix, 'プロンプト')
 check('添削は縦に3段', '横1200px（縦長', fix, '添削')
