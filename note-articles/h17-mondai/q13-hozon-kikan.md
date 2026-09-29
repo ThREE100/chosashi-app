@@ -282,7 +282,13 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 区画整理図面は完了時でなく閉鎖日から30年
-Diagram: A 正誤対比型 diagram. An isometric 地積測量図 icon on a filing
+Diagram: A 正誤対比型 diagram. IMPORTANT: the two year badges「50年」
+and「30年」are NOT the same number — they differ only in the tens
+digit (5 vs 3). Render each badge's leading digit large and in a
+distinct accent color (orange for the left badge's「5」, purple for
+the right badge's「3」) so the two numbers stay visually
+distinguishable at a glance; do not let one badge's digit copy or
+drift toward the other. An isometric 地積測量図 icon on a filing
 shelf. LEFT side (誤りやすい思い込み): a torn-paper label reading
 「事業完了の時から」connected to a badge reading「50年」, both crossed
 out with a large red X and a strike-through line. RIGHT side (正しい
@@ -335,12 +341,18 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 持分登記の申請書類は10年でなく30年
-Diagram: A 正誤対比型 diagram. An isometric「建物所有権持分登記の申請
-書」icon. LEFT side (誤りやすい思い込み): a torn-paper label reading
-「受け取った日から」connected to a badge reading「10年」, both crossed
-out with a large red X and a strike-through line. RIGHT side (正しい
-ルール、太い縁取りで強調): a calendar icon labeled「受付の日」with an
-arrow pointing to a badge reading「30年」in full color.
+Diagram: A 正誤対比型 diagram. IMPORTANT: the two year badges「10年」
+and「30年」are NOT the same number — they differ only in the tens
+digit (1 vs 3). Render each badge's leading digit large and in a
+distinct accent color (orange for the left badge's「1」, purple for
+the right badge's「3」) so the two numbers stay visually
+distinguishable at a glance; do not let one badge's digit copy or
+drift toward the other. An isometric「建物所有権持分登記の申請書」icon.
+LEFT side (誤りやすい思い込み): a torn-paper label reading「受け取った
+日から」connected to a badge reading「10年」, both crossed out with a
+large red X and a strike-through line. RIGHT side (正しいルール、太い
+縁取りで強調): a calendar icon labeled「受付の日」with an arrow
+pointing to a badge reading「30年」in full color.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この書類が権利に関する登記の申請情報及びその添付情報であるこ
 とを確認します。次に、その保存期間が10年ではなく、受付の日から30年
@@ -388,9 +400,16 @@ paragraph block between the header and the panels, that each 正誤対比
 panel clearly crosses out the incorrect object/basis-date/year-count
 combination while highlighting the correct one, that each 着眼点 callout
 states a checking order（対象物→基準時→年数）rather than only a
-conclusion, confirm nothing is rendered below the last panel's footnote
-text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
-grid of all 肢, and no additional text block of any kind), and confirm
-the entire canvas, edge to edge, is filled with a fully opaque background
-with no transparency or alpha channel anywhere.
+conclusion. Pay special attention to Panels 1 and 4: read each panel's
+two year badges side by side and confirm Panel 1's left badge reads
+50年 and its right badge reads 30年, and Panel 4's left badge reads
+10年 and its right badge reads 30年 — within each of these panels the
+two badges must NOT be identical; if either panel's two badges
+currently show the same number, that is an error and the left badge
+must be corrected to its intended number (50年 for Panel 1, 10年 for
+Panel 4) before finalizing. Confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
 ```

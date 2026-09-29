@@ -279,15 +279,25 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 材料を流用しても元の建物は滅失する
-Diagram: A two-side contrast panel. Left side, labeled「誤った思い込み」
-(faded background): an old building being demolished into a pile of
-reusable lumber icons, then reassembled into a new building on the same
-spot, with a green checkmark wrongly suggesting "同じ材料だから同一の建
-物" — this checkmark is crossed out with a large red ✕. Right side,
+Diagram: A two-side contrast panel. IMPORTANT: the two sides must show
+OPPOSITE marks, not the same mark — this is a case where the mistaken
+belief predicts the building survives unchanged (✓ 同一の建物) but the
+actual rule says it was extinguished (✕ 滅失). Do not draw the same mark
+on both sides. Left side, labeled「誤った思い込み」(faded background): an
+old building being demolished into a pile of reusable lumber icons, then
+reassembled into a new building on the same spot, with a small caption
+above reading "同じ材料だから同一の建物のまま" and the reassembled
+building stamped with ONLY a single large green checkmark (no red ✕
+anywhere in this box — the checkmark itself represents the mistaken
+belief, and the faded「誤った思い込み」header is what tells the reader
+this belief is wrong, not a second contradicting mark). Right side,
 labeled「正しいルール」(highlighted, full color): the same demolished
-lumber pile, but this time with a red 全部取壊し banner over the rubble
-and a 滅失登記 stamp applied to the original building's record,
-independent of what happens to the reused material.
+lumber pile, but this time the reassembled building on the same spot is
+stamped with ONLY a single large red ✕ (no checkmark anywhere in this
+box) over the "同一の建物" claim, next to a separate red 全部取壊し
+banner over the original rubble and a 滅失登記 stamp applied to the
+original building's record, showing that the original building is
+extinguished independent of what happens to the reused material.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、既存の建物を全部取り壊したかどうかを確認します。次に、その材料を
 新しい建物に使ったかどうかは、元の建物が滅失したという結論を左右しない

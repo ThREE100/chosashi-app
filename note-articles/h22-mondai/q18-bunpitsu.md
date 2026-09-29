@@ -361,14 +361,23 @@ Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 差押えの登記は承諾があっても分筆で消えない
-Diagram: A panel split into an upper frame labeled「誤った思い込み」（dashed
-border）showing a land plot 甲 with a「差押えの登記（競売申立て）」stamp, a
+Diagram: A correct-rule-vs-misconception comparison, split into an upper
+frame and a lower frame. IMPORTANT: the two frames must show OPPOSITE
+marks, not the same mark — this is a case where the mistaken belief
+predicts success (✓) but the actual rule says it fails (✕); do not draw a
+✕ on both frames. The upper frame, labeled「誤った思い込み」（dashed
+border）, shows a land plot 甲 with a「差押えの登記（競売申立て）」stamp, a
 競売申立権者 character signing a 承諾書, and an 抹消 stamp being applied
-directly to the差押えの登記 with a checkmark — this whole frame crossed out
-with a large ✕ and a strike-through line. The lower frame labeled「正しい
-ルール」（solid highlighted border）shows the same 甲 plot with the差押えの
-登記 stamp still firmly in place despite the same 承諾書, and a separate
-small icon labeled「別の手続（裁判所等）が必要」pointing away from the plot.
+directly to the差押えの登記, stamped with ONLY a single large green
+checkmark (no red ✕ anywhere in this frame — the checkmark itself
+represents the mistaken belief that the cancellation succeeds, and the
+dashed「誤った思い込み」header is what tells the reader this belief is
+wrong, not a second contradicting mark). The lower frame, labeled「正しい
+ルール」（solid highlighted border）, shows the same 甲 plot with the差押え
+の登記 stamp still firmly in place despite the same 承諾書, stamped with
+ONLY a single large red ✕ over the attempted 抹消 (no checkmark anywhere
+in this frame), and a separate small icon labeled「別の手続（裁判所等）が
+必要」pointing away from the plot.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、承諾があるからといって分筆の手続の中で差押えの登記を直接抹消できると
 思い込んでいないかを確認します。競売申立権者の承諾があっても、分筆の手続の
