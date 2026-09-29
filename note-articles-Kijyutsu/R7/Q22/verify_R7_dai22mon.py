@@ -106,4 +106,27 @@ ok = title.startswith(prefix) and title.endswith('〜') and len(title[len(prefix
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + 'タイトル形式 : ' + title)
 
+# アガルートの解説（2026-09-29）と照らし合わせて追記した観点
+from datetime import date
+assert date(2025, 1, 21) < date(2025, 2, 6) <= date(2025, 2, 21)  # 取壊しから1月以内に申請
+check('2件に分ける理由', '取壊しの分は2月21日が期限')
+check('時系列メモ', '- 符号4（守衛所）：9月25日 取壊し')
+check('葺の転写', '登記記録に書いてあるとおり『スレート葺』のまま写す')
+check('欄番号を付けない', '欄番号を付ける必要がない')
+check('会社法人等番号の括弧書き', '『（会社法人等番号　Z）』と括弧書き')
+check('符号1・3を使い回さない', '一度使った符号は、その建物がなくなっても使い回さない')
+check('各階平面図の所在欄', '建物の所在の欄には『Y市K区A町三丁目425番地6、425番地5』')
+
+# 同じ話者のセリフが続いていないか（章の頭は除く）
+prev = None
+for i, line in enumerate(text.splitlines()):
+    if line.startswith('## '):
+        prev = None
+    elif line in ('**トリ先生**  ', '**藍子**  '):
+        ok = line != prev
+        ng += (not ok)
+        if not ok:
+            print('NG 同じ話者の連続 :', i + 1)
+        prev = line
+
 print('NG件数:', ng)
