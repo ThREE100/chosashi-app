@@ -132,7 +132,7 @@ def snippet(applicant_html, row1, bubble1='', bubble2='', good=False, fix=False,
     box_cls = ' good' if good else ''
     chk = CHECK_SVG if good else ''
     return f'''<div class="plain">{DATE}</div>
-<div class="row okrow"><div class="lab">申　　請　　人</div><div class="box fix{box_cls}" style="height:{h}px">{applicant_html}</div>{chk}</div>
+<div class="row okrow"><div class="lab">申　　請　　人</div><div class="box fix{box_cls}" style="min-height:{h}px">{applicant_html}</div>{chk}</div>
 {f'<div class="bubrow"><span class="bubble">{bubble1}</span></div>' if bubble1 else ''}
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
 <div class="{'good' if good else ''}" style="position:relative">{land_table([row1], n_rows=1, shozai=ink('Ｂ市Ｃ町一丁目'), compact=True, shozai_rows=1)}{chk if good else ''}</div>
