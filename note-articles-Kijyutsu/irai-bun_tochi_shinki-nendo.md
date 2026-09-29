@@ -48,7 +48,7 @@ PDFが画像でテキストを読み取れない場合や pdftoppm がない場�
 6. note-articles-Kijyutsu/prompt_kaisetsuzu-gazou_kihon-form_tochi.md
    解説図の共通・基本フォーム（座標から作図、解答ごとに1枚、文字の重なりの自動検査）
 7. 完成した参考例：note-articles-Kijyutsu/R7/Q21/ と R6/Q21/（会話形式の記事・図のプロンプト・zu/ の作図スクリプトとPNG・添削と見出し画像のプロンプト・照合スクリプト一式）
-   登記申請書の完成形と添削画像の生成まで済んでいる見本は R6/Q21/zu/（make_R6_dai21mon_shinseisho_gazou.py と PNG・HTML）
+   登記申請書の完成形と添削画像の生成まで済んでいる見本は R6/Q21/zu/ と R7/Q21/zu/（make_{フォルダ名}_dai21mon_shinseisho_gazou.py と PNG・HTML）
    同じ年度にプロース形式の記事（note_{フォルダ名}_dai21mon_tochi_kijutsu_kaisetsu.md）があれば、答えの照合にも使う
    問題の型の参考
    - 放射で筆界点を出す・面積2等分・地積更正と分筆（一の申請情報）・平行線による等積交換・支号付きの分筆：R7

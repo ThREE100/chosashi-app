@@ -5,6 +5,7 @@ import cmath
 import math
 import os
 import re
+import struct
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -155,6 +156,42 @@ for s in ['Ｓ市Ｔ町一丁目10番１号　甲野一郎', '地積測量図　
 for s in ['Ｓ市Ｔ町一丁目10番１号　甲野一郎', '地積測量図　代理権限証書', 'Ｓ市Ｍ町二丁目３番５号']:
     check('添削', s, fix, '添削')
 
+# ---- 分筆後の地積の合計でも公差と比べる（準則第72条第1項） ----
+check('分筆後の合計', '280.59 ＋ 280.59 ＝ 561.18㎡')
+judge('合計561.18と556.00の差5.18 ＞ 甲2の公差2.32', abs(2 * chiseki(area([C, H, K, D])) - 556.00 - 5.18) < 1e-9 and 5.18 > 2.32)
+check('合計との差', '差は5.18㎡')
+
+# ---- 生成済みの申請書・添削画像（縦長、記入データがプロンプトどおりか） ----
+for name in ['R7_dai21mon_toukishinseisho_kansei', 'R7_dai21mon_toukishinseisho_machigai']:
+    png = os.path.join(HERE, 'zu', name + '.png')
+    if os.path.exists(png):
+        w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
+        judge(f'{name}.png が縦長・横1200px（{w}×{h}px）', h > w and w == 1200)
+    else:
+        judge(f'{name}.png がある', False)
+html_k = open(os.path.join(HERE, 'zu', 'R7_dai21mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
+html_m = open(os.path.join(HERE, 'zu', 'R7_dai21mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
+for s in ['土地分筆登記', '地積測量図　代理権限証書', '令和７年10月30日　申請　Ｓ地方法務局', 'Ｓ市Ｔ町一丁目10番１号　甲野一郎',
+          '金2,000円', 'Ｓ市Ｔ町一丁目', '10番１', '280', '59', '（イ）', '③10番１、10番３に分筆', '（ロ）10番３', '10番１から分筆',
+          '（略）']:
+    check('完成形の画像（HTML）', s, html_k, '完成形画像')
+    check('完成形の画像の記入データがプロンプトにある', s, form, '登記申請書')
+for s in ['①誤答', '②添削（赤ペン）', '③正解', '住所証明情報', 'Ｓ市Ｍ町二丁目３番５号', 'Ｓ市Ｔ町一丁目10番１号',
+          '登記記録の住所と一致するので、住所の証明は要らない', '10月20日に住所変更登記が完了済み！登記記録の住所はもう新住所',
+          '令和７年10月30日　申請　Ｓ地方法務局']:
+    check('添削の画像（HTML）', s, html_m, '添削画像')
+    check('添削の画像の文言がプロンプトにある', s, fix, '添削')
+check('添削のプロンプトは縦に積む', '3コマを縦に積んだ縦長', fix, '添削')
+absent('添削のプロンプトに横並びの旧版の指示がない', '左から「①誤答」', fix, '添削')
+draw = open(os.path.join(HERE, 'zu', 'draw_R7_dai21mon_kaisetsuzu.py'), encoding='utf-8').read()
+n_fit = len(re.findall(r'^\s*fit\(', draw, re.M))
+judge(f'作図スクリプトの表示範囲はすべて fit(..., pad_aspect=True)（{n_fit}か所）',
+      n_fit > 0 and n_fit == len(re.findall(r'^\s*fit\(.*pad_aspect=True\)', draw, re.M)))
+
+# ---- 注の番号の書き分け（問題文の注） ----
+bare = [m.group(0) for m in re.finditer(r'(?<!問題文の)注[0-9]', text)]
+judge(f'注の番号はすべて「問題文の注N」と書き分けている（書き分けていないもの: {bare}）', not bare)
+
 # ---- 表記 ----
 for bad in ['PDF', '名変', '右上', '左下', '✓', '✕', 'コンクリートくい', 'D点のくい', 'とくいD', '点にくいが']:
     absent('誤記・混入・専門用語のひらがな書き', bad)
@@ -165,6 +202,10 @@ lines = text.splitlines()
 bad_speaker = [i + 1 for i, l in enumerate(lines)
                if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
 judge(f'話者名の行（ハードブレーク）: 不備 {bad_speaker}', not bad_speaker)
+seq = [(i, l.rstrip()) for i, l in enumerate(lines) if l.strip()]
+dup = [seq[k][0] + 1 for k in range(1, len(seq)) if seq[k][1] in ('**トリ先生**', '**藍子**')
+       and k >= 2 and seq[k - 2][1] == seq[k][1] and seq[k - 1][1].startswith('「')]
+judge(f'同じ話者のセリフが間に何も挟まずに続いていない: {dup}', not dup)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
 judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図9＋添削1＋完成形1＝計11か所の想定）', n_marker == 11)
 judge('記事の最後が区切り線', lines[-1] == '---')

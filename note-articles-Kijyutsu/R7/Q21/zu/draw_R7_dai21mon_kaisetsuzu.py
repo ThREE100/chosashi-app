@@ -81,7 +81,7 @@ fig, (ax,) = new_figure('図1　北を上にして描き直した全体像（令
                         '問題の調査図素図は少し傾いている。座標どおりに北を上にすると、AB・HG は南北、BC・EF は東西の直線だとわかる。\n'
                         '甲野花子の当初の説明（CとEを結ぶ直線）と、生垣の間で見つかった杭D（折れ点）の違いに注意。')
 z = Zu(ax)
-fit(ax, [A, B, C, H, G, F, E, T1, T2], margin=0.10)
+fit(ax, [A, B, C, H, G, F, E, T1, T2], margin=0.10, pad_aspect=True)
 z.poly(KOU, fill=GREEN)
 z.poly(OTSU, fill=BLUE)
 z.line(C, E, color=GRAY, lw=1.6, ls='--')
@@ -116,7 +116,7 @@ fig, (ax,) = new_figure('図2　問1　D点の求め方（T2から放射）',
                         'その方向へ 25.81m 進んだ点がD。反時計回りに測ると、甲土地の外（南）に出てしまう。')
 z = Zu(ax)
 Dw = r2(T2 + cmath.rect(25.81, cmath.phase(T1 - T2) - dms(325, 6, 51)))   # 反時計回りに測った誤答
-fit(ax, [T1, T2, D, Dw, B, C], margin=0.08)
+fit(ax, [T1, T2, D, Dw, B, C], margin=0.08, pad_aspect=True)
 z.poly(KOU, color=GRAY, lw=1.2)
 z.poly(OTSU, color=GRAY, lw=1.2)
 z.line(T2, T2 + 9, color=GRAY, lw=1.2, ls='--')            # T2から北へ
@@ -155,7 +155,7 @@ for ax, pts_k, pts_o, sk, so, head, col in [
     (ax2, KOU, OTSU, '559.85㎡', '561.19㎡', '杭D（生垣の間）を通す', RED),
 ]:
     z = Zu(ax, fontsize=14)
-    fit(ax, [A, B, C, H, G, F, E], margin=0.22)
+    fit(ax, [A, B, C, H, G, F, E], margin=0.08, pad_aspect=True)
     z.poly(pts_k, fill=GREEN)
     z.poly(pts_o, fill=BLUE)
     z.north_arrow(length=0.07)
@@ -181,7 +181,7 @@ fig, (ax,) = new_figure('図4　問1　K点の求め方（乙土地を面積2等
                         'HGは真北方向の直線（Y＝131.88）。△DHK の高さは D から HG までの距離＝Y座標の差 17.47。\n'
                         'HK ＝ (561.1905 ÷ 2 − 131.92535) × 2 ÷ 17.47 ＝ 17.02　→　K ＝ H − 17.02')
 z = Zu(ax)
-fit(ax, OTSU + [H + 3], margin=0.16)
+fit(ax, OTSU + [H + 3], margin=0.16, pad_aspect=True)
 z.poly([D, C, H], color=BLACK, lw=0, fill=BLUE, check=False)
 z.poly([D, H, K], color=BLACK, lw=0, fill=ORANGE, check=False)
 z.poly(OTSU)
@@ -251,7 +251,7 @@ fig, (ax,) = new_figure('図6　問3　地積測量図（10番1・10番2）の�
                         '縮尺1/250で答案用紙に描くと 1m ＝ 4mm。辺長は小数第3位を四捨五入（GF は 9.3646 なので 9.36）。\n'
                         '座標値・地積・求積方法は書かない（注5）。基準点T1・T2は位置と点名だけ（注6）。')
 z = Zu(ax)
-fit(ax, OTSU + [T1, T2], margin=0.12)
+fit(ax, OTSU + [T1, T2], margin=0.12, pad_aspect=True)
 z.poly(OTSU, lw=2.0)
 z.line(D, K, lw=2.0)
 z.line(C, C + 5, color=BLACK, lw=1.0, ls='-.', check=True)
@@ -292,7 +292,7 @@ fig, (ax,) = new_figure('図7　問4　J点の求め方（IJ ∥ BC）',
                         'BAは真南方向（Y＝99.33）なので I ＝ B − 3.5。BCは真東方向なので、IJ上の点はすべて X＝216.07。\n'
                         'J は直線CD上で X＝216.07 の点：J ＝ C ＋ (D − C) × 3.5 ÷ 17.86。台形BCJI ＝ (18.23 ＋ 17.61) ÷ 2 × 3.5 ＝ 62.72㎡')
 z = Zu(ax)
-fit(ax, [B, C, D, H, K, I + P(-6, 0)], margin=0.10)
+fit(ax, [B, C, D, H, K, I + P(-6, 0)], margin=0.10, pad_aspect=True)
 z.poly(KOU, color=BLACK, lw=1.8, check=False)
 z.poly(N1, color=BLACK, lw=1.8, check=False)
 for s in [(A, B), (B, C), (C, D), (D, E), (C, H), (H, K), (K, D)]:
@@ -326,7 +326,7 @@ fig, (ax1, ax2) = new_figure('図8　問4　L点・M点の求め方（DCとKHの
                              '右：△OML ＝ △ODK − 62.72。相似比 k ＝ √(817.6118… ÷ 880.3318…) ＝ 0.9637…、L ＝ O ＋ (K − O) × k、M ＝ O ＋ (D − O) × k',
                              ncols=2, width_ratios=[1, 2.1])
 za = Zu(ax1, fontsize=13)
-fit(ax1, [O, D, K, E, F], margin=0.10)
+fit(ax1, [O, D, K, E, F], margin=0.10, pad_aspect=True)
 za.poly(N1, color=BLACK, lw=1.4)
 za.poly(N2, color=GRAY, lw=1.0)
 za.poly([O, D, K], color=GRAY, lw=0, fill=ORANGE, alpha=0.18, check=False)
@@ -342,7 +342,7 @@ za.callout(O, 'O（300.76, 131.88）', dirs=(-150, 180, -120), color=RED)
 za.edge_label(K, O, 'KO ＝ 100.78', centroid([O, D, K]), fs=12, color=GRAY)
 
 zb = Zu(ax2)
-fit(ax2, [C, H, K, D, M, L], margin=0.50)
+fit(ax2, [C, H, K, D, M, L], margin=0.30, pad_aspect=True)
 zb.poly(N1)
 zb.poly([M, L, K, D], color=BLACK, lw=0, fill=PURPLE, alpha=0.28, check=False)
 zb.line(M, L, color=RED, lw=2.6)
@@ -355,7 +355,7 @@ for p, n in [(C, 'C'), (H, 'H'), (K, 'K'), (D, 'D'), (L, 'L'), (M, 'M')]:
     zb.point(p, 'dot', color=RED if n in 'LM' else BLACK)
     if n not in 'LM':
         zb.point_label(p, n, away=centroid(N1))
-zb.callout(L, 'L（203.64, 131.88）', dirs=(-10, 10, -30), color=RED, dists=(30, 45, 60))
+zb.callout(L, 'L（203.64, 131.88）', dirs=(35, 50, 20), color=RED, dists=(40, 55, 70))
 zb.callout(M, 'M（205.30, 115.04）', dirs=(-130, -150, -110), color=RED, dists=(50, 70, 90))
 zb.edge_label(D, K, 'DK ＝ 17.56', centroid([M, L, K, D]), fs=15)
 zb.edge_label(M, L, 'ML ＝ 16.92', centroid([M, L, K, D]), fs=15)
@@ -370,7 +370,7 @@ fig, (ax,) = new_figure('図9　問5　10月30日の分筆（10番1 → （イ�
                         '（イ）217.90㎡ ＋（ロ）62.72㎡ ＝ 280.62㎡。登記記録の280.59㎡との差 0.03㎡ は公差の範囲内なので、地積更正は不要。\n'
                         '地番の流れ　8月15日：10番 → 10番1（北）・10番2（南）　／　10月30日：10番1 → 10番1（北）・10番3（南）')
 z = Zu(ax)
-fit(ax, [B, C, H, G, F, E, A], margin=0.07)
+fit(ax, [B, C, H, G, F, E, A], margin=0.07, pad_aspect=True)
 z.poly(KOU, color=GRAY, lw=1.2)
 z.poly(N2, color=GRAY, lw=1.2)
 z.poly([C, H, L, M], fill=BLUE)
