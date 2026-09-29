@@ -70,6 +70,16 @@ Gx = F + (H - F) * (w + w.conjugate()) / 2
 check('G 表示', '表示：' + disp(Gx))
 G = r2(Gx)
 check('G 答え', '**▶ G点（290.18, 310.80）**')
+check('H−F 表示（軸に平行でない）', '表示：' + disp(H - F))
+judge('FHは真東向きではない（実部0.30）', abs((H - F).real - 0.30) < 1e-9)
+num = (E - F).conjugate() * (H - F) * 1j
+den = (H - F).conjugate() * (H - F) * 1j
+check('別解の分子 表示', '表示：' + disp(num))
+check('別解の分母 表示', f'表示：{den.imag:.2f}i')
+judge('別解の分母は純虚数', abs(den.real) < 1e-9)
+check('別解のt', f'194.514 ÷ 324.09 ＝ {fmt_num(194.514 / 324.09)}')
+judge('別解のtはwの実部と同じ', abs(194.514 / 324.09 - w.real) < 1e-12)
+check('別解のG 表示', '表示：' + disp(F + (H - F) * 194.514 / 324.09))
 check('直角の検算 表示', '表示：' + disp((H - F).conjugate() * (G - E)))
 Gw = P(290.18, 310.62)
 judge('真南に下ろした誤りの点もFH上（丸めるとX＝290.18）', f'{(F + (H - F) * (Gw.imag - F.imag) / (H.imag - F.imag)).real:.2f}' == '290.18')
@@ -100,6 +110,11 @@ for name, pts, want_im, want_area, want_ch in [
     check(f'{name} 表示', f'表示：（実部）− {want_im}i')
     judge(f'{name} 面積 {fmt_num(area(pts))}', fmt_num(area(pts)) == want_area)
     judge(f'{name} 地積 {chiseki(area(pts)):.2f}', f'{chiseki(area(pts)):.2f}' == want_ch)
+dk = (A - G).conjugate() * (E - F)
+dh = (E - H).conjugate() * (B - G)
+check('甲区画の対角線 表示', '表示：' + disp(dk))
+check('丙区画の対角線 表示', '表示：' + disp(dh))
+judge('対角線のiの係数が4点の式と一致', fmt_num(abs(dk.imag)) == '225.0324' and fmt_num(abs(dh.imag)) == '165.5676')
 tot = sum(chiseki(area(p)) for p in ([A, E, G, F], [C, D, F, G, H], [B, H, G, E]))
 check('3筆の合計', f'112.51 ＋ 18.72 ＋ 82.78 ＝ {tot:.2f}㎡')
 check('公差の差（分筆後の合計）', f'{tot:.2f} − 212.70 ＝ {tot - 212.70:.2f}㎡')
@@ -136,6 +151,8 @@ check('AEの四捨五入', f'AEは{fmt_num(abs(E - A))[:-1]}')
 check('CDの四捨五入', f'CDは{fmt_num(abs(D - C))[:-1]}')
 check('答案用紙の大きさ', f'横約{round((B.imag - A.imag) * 4):d}mm・縦約{round((B.real - D.real) * 4):d}mm')
 check('地番欄', '地番欄は『5番1、5番2、5番3』')
+check('T1・T2まで入れた作図範囲', f'縦約{round((B.real - T1.real) * 4):d}mm・横約{round((B.imag - T1.imag) * 4):d}mm')
+check('単位の表示', '（単位：ｍ）')
 
 # ---- アガルートの解答例（2026-09-29、過去問集の解答例ページ〈354・355・357ページ〉から転記）と一致するか ----
 AGAROOT = ['（289.00, 300.00）', '（290.18, 310.80）', '6番、5番', '2番32、3番3、100番', '北冬子、山川一郎、東春男、東春子、西秋男、A市',
@@ -151,22 +168,24 @@ a = base.index('あなたは土地家屋調査士試験の教材デザイナー�
 b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-n_fig = len(re.findall(r'^- \*\*図\d：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（9枚）', n_fig == 9)
-for i in range(1, 10):
-    judge(f'作図済みPNG 図{i}', any(f.startswith(f'R1_dai21mon_zu0{i}_') and f.endswith('.png')
+n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
+judge(f'解説図プロンプトの図の数 {n_fig}枚（13枚）', n_fig == 13)
+for i in range(1, 14):
+    judge(f'作図済みPNG 図{i}', any(f.startswith(f'R1_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
-nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\()'図(\d)　", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, 10)))
+nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\(|seiri_zu\()'図(\d+)　", draw)]
+judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, 14)))
 for s in ['（289.00, 300.00）', '（290.18, 310.80）', '（281.77, 300.07）', '（290.18, 310.62）', '89°27′54.92″', '310°01′45″',
           '399°29′39.92″', '39°29′39.92″', '0.6001… − 0.6111…i', '112.51', '18.72', '82.78', '214.01', '214.02', '111.51',
-          '83.76', '1.31', '1.28', '2.57', '7.4254', '10.6853', '18.0013', '横約72mm・縦約52mm']:
+          '83.76', '1.31', '1.28', '2.57', '7.4254', '10.6853', '18.0013', '横約72mm・縦約52mm', '横約84mm・縦約67mm',
+          '194.514 ÷ 324.09', '0.30 ＋ 18.00i', '225.0324', '165.5676', '−4.9084 ＋ 225.0324i', '75.4656 ＋ 165.5676i']:
     check('解説図プロンプトの数値', s, fig, '解説図')
     check('作図スクリプトの数値', s, draw, '作図')
 for s in ['ここが問1のG点で効いてくるから、覚えておきなさい', '求めた点が素図の位置に出るかどうかは、必ず見るのよ',
           'わずか0.18mのずれでも、地積はごまかせないのよ', '（2）は2番32、3番3、100番', '四捨五入して112.52や82.79にしないこと',
           '一の申請情報で申請できる（不動産登記規則第35条第7号）', 'だから登記の目的は『土地地積更正・分筆登記』よ',
-          'EGはFHに直角よ']:
+          'EGはFHに直角よ', '印の付いた注だけを答案を書くときに見直します', '自分の手になじむほうを1つ決めておきなさい',
+          '四角形は対角線、それ以外は順に回る、と使い分けなさい', '最後に落ち着いて関係人を数えます']:
     check('図の挿入位置の文言', s)
     check('図の挿入位置の文言（プロンプト側）', s, fig, '解説図')
 for s in ['令和元年10月18日　申請　Ａ地方法務局', '土地地積更正・分筆登記', '地積測量図　代理権限証書', '金3,000円',
@@ -204,6 +223,19 @@ for s in ['①誤答', '②添削（赤ペン）', '③正解', '土地分筆登
           '令和元年度 第21問｜地積更正と分筆は一の申請情報で、（イ）は5番１に①③']:
     check('添削の画像（HTML）', s, html_m, '添削画像')
 
+# ---- 注の呼び分け（問題文の注・調査図素図の注・観測値の表の注） ----
+for s_ in ['問題文の注3', '問題文の注4', '問題文の注5', '問題文の注6', '観測値の表の注1', '調査図素図の注']:
+    check('注の呼び分け', s_)
+for s_ in ['（注5）', '（注6）', '」注4', '。注3']:
+    absent('どの注か分からない書き方', s_)
+for s_ in ['（注5）', '（注6）']:
+    absent('どの注か分からない書き方（解説図プロンプトの差し替えデータ）', s_, fig[fig.index('## 差し替えデータ（令和元年度'):], '解説図')
+    absent('どの注か分からない書き方（作図）', s_, draw, '作図')
+# ---- 時間配分が具体的か ----
+for s_ in ['いちばん時間を食うのはG点と、そのあとの3筆の面積よ', 'G点がなくても書ける', '面積を出して公差と比べるまで書いてはだめ',
+           '① 問題文を読んで注を仕分ける']:
+    check('具体的な時間配分', s_)
+
 # ---- 表記 ----
 for bad in ['PDF', '名変', '右上', '左下', '✓', '✕', 'コンクリートくい', 'くいが', '石くい', 'へい（']:
     absent('誤記・混入・専門用語のひらがな書き', bad)
@@ -226,7 +258,9 @@ for i, l in enumerate(lines):
             same.append(i + 1)
 judge(f'同じ話者のセリフの連続: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図9＋添削1＋完成形1＝計11か所の想定）', n_marker == 11)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図13＋添削1＋完成形1＝計15か所の想定）', n_marker == 15)
+pngs = [f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png')]
+judge(f'画像挿入マーカーの数だけPNGが zu/ にある（{len(pngs)}枚）', len(pngs) == n_marker)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】令和元年度問題21（土地）〜'

@@ -45,6 +45,7 @@ table.land td.shozai-lab {{ text-align: center; height: 76px; }}
 table.land td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }}
 table.land td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }}
 table.land td.chimoku {{ text-align: center; }}
+table.land td.chiban {{ white-space: nowrap; padding: 0 8px; }}
 table.land td .ink, .box .ink {{ font-size: 26px; }}
 table.land td.gen .ink {{ font-size: 23px; line-height: 1.5; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 30px;
@@ -82,15 +83,15 @@ CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><ci
 
 def land_table(rows, n_rows=4, shozai='Ａ市Ｂ町一丁目', compact=False):
     """土地の表示の表（答案用紙どおり記入行4行）。rows: [(地番, 地目, 整数部, 小数部, 登記原因)]。各値は HTML"""
-    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:6%"><col style="width:16%"><col style="width:15%">'
-         '<col style="width:13%"><col style="width:7%"><col style="width:43%"></colgroup>',
+    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:6%"><col style="width:19%"><col style="width:13%">'
+         '<col style="width:13%"><col style="width:7%"><col style="width:42%"></colgroup>',
          f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4">{shozai}</td></tr>',
          f'<tr><td class="vert" rowspan="{n_rows + 1}">土地の表示</td><td class="head">①地　　番</td>'
          '<td class="head">②地　　目</td><td class="head" colspan="2">③地　積　（m²）</td>'
          '<td class="head">登記原因及びその日付</td></tr>']
     for i in range(n_rows):
         c, m, a, b, g = rows[i] if i < len(rows) else ('', '', '', '', '')
-        h.append(f'<tr><td>{c}</td><td class="chimoku">{m}</td><td class="int">{a}</td><td class="dec">{b}</td>'
+        h.append(f'<tr><td class="chiban">{c}</td><td class="chimoku">{m}</td><td class="int">{a}</td><td class="dec">{b}</td>'
                  f'<td class="gen">{g}</td></tr>')
     h.append('</table>')
     return ''.join(h)
