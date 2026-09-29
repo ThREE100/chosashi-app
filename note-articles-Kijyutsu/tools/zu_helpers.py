@@ -209,12 +209,19 @@ class Zu:
         return self._try_place(cands)
 
     # ---- 記号 -----------------------------------------------------------
-    def angle_arc(self, center, r, bearing_from, bearing_to, color=BLACK, lw=1.4, ls='-', arrow=True):
-        """方向角（北から時計回り）の弧。bearing_from から bearing_to へ時計回りに描く。"""
+    def angle_arc(self, center, r, bearing_from, bearing_to, color=BLACK, lw=1.4, ls='-', arrow=True, check=True):
+        """方向角（北から時計回り）の弧。bearing_from から bearing_to へ時計回りに描く。
+        check=True なら、弧を細かい線分に分けて重なり検査の対象に登録する（2026-09-29、R6/Q21で追加。
+        登録しないと、座標値の吹き出しが弧の上に置かれても検査で見つからなかった）。"""
         a, b = xy(center)
         th2 = 90 - bearing_from
         th1 = 90 - bearing_to
         self.ax.add_patch(Arc((a, b), 2 * r, 2 * r, theta1=th1, theta2=th2, color=color, lw=lw, ls=ls, zorder=3))
+        if check:
+            n = max(8, int(abs(th2 - th1) / 6))
+            pts = [(a + r * math.cos(math.radians(th1 + (th2 - th1) * k / n)),
+                    b + r * math.sin(math.radians(th1 + (th2 - th1) * k / n))) for k in range(n + 1)]
+            self.segments += list(zip(pts[:-1], pts[1:]))
         if arrow:
             end = math.radians(th1)
             ex, ey = a + r * math.cos(end), b + r * math.sin(end)
