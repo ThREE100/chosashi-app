@@ -164,7 +164,13 @@ Heading: 線の太さは0.2ミリ以下が必要
 Illustration: A thick pen line labeled "0.3ミリ以下" crossed out with an
 "✕", next to a clearly thinner pen line labeled "0.2ミリ以下" with a
 checkmark, both lines drawn at visibly different thicknesses so the
-size difference itself is legible at a glance.
+size difference itself is legible at a glance. IMPORTANT: these two
+labels are NOT the same text — they differ only in the single digit
+"3" vs "2". Render that differing digit larger and in a distinct accent
+color on each label so the two numbers are easy to tell apart at a
+glance; do NOT copy or default one label's digit to match the other (a
+common rendering error is to draw both labels with the same number,
+which is wrong and must be avoided).
 Conclusion tag: 0.2ミリ以下の細線
 
 --- COLUMN B, CARD 5 ---
@@ -188,7 +194,12 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Pay special attention to Card 4: read the two pen-line
+labels side by side and confirm the crossed-out line reads 0.3ミリ以下
+and the checkmarked line reads 0.2ミリ以下 — these must NOT be
+identical; if both currently show the same number, that is an error and
+the crossed-out label must be corrected to read 0.3ミリ以下 before
+finalizing.
 ```
 
 ## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
@@ -291,7 +302,13 @@ Diagram: A side-by-side comparison of two drawn pen lines at clearly
 different thicknesses. The upper, visibly thick line is labeled
 0.3ミリメートル以下 and crossed out with a large red ✕. The lower,
 clearly thinner line is labeled 0.2ミリメートル以下 with a green
-checkmark beside it.
+checkmark beside it. IMPORTANT: these two labels are NOT the same text
+— they differ only in the single digit "3" vs "2". Render that
+differing digit larger and in a distinct accent color on each label so
+the two numbers are easy to tell apart at a glance; do NOT copy or
+default one label's digit to match the other (a common rendering error
+is to draw both labels with the same number, which is wrong and must be
+avoided).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、書面で作成する場合の線の太さの基準値を思い出します。次に、
 「0.3ミリメートル以下」ではなく「0.2ミリメートル以下」が正しい基準で
@@ -382,8 +399,13 @@ shows matching compass/方位 marks on both the main drawing and the
 enlarged margin drawing rather than a fabricated pass/fail branch, that
 肢エ and 肢オ each clearly separate their two frames of reference (各階
 平面図 vs 建物図面) rather than blending them into one diagram, that each
-着眼点 callout states a checking order rather than only a conclusion,
-confirm nothing is rendered below the last panel's footnote text (no
+着眼点 callout states a checking order rather than only a conclusion.
+Pay special attention to Panel 2: read the two pen-line labels side by
+side and confirm the crossed-out line reads 0.3ミリメートル以下 and the
+checkmarked line reads 0.2ミリメートル以下 — these must NOT be
+identical; if both currently show the same number, that is an error and
+the crossed-out label must be corrected to read 0.3ミリメートル以下
+before finalizing. Confirm nothing is rendered below the last panel's footnote text (no
 summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
 all 肢, and no additional text block of any kind), and confirm the entire
 canvas, edge to edge, is filled with a fully opaque background with no
