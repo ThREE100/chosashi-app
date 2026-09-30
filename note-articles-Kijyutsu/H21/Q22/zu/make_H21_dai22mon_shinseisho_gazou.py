@@ -67,7 +67,7 @@ table.toi2 td.h {{ height: 56px; font-size: 20px; }}
 .ptitle {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
            margin-bottom: 20px; }}
 .ptitle.ng {{ color: #555; }} .ptitle.fix {{ color: {RED}; }} .ptitle.ok {{ color: {GREEN}; }}
-.strike {{ position: relative; }}
+.strike {{ position: relative; white-space: nowrap; }}
 .strike::after {{ content: ""; position: absolute; left: -4px; right: -4px; top: 52%; border-top: 3px solid {RED};
                   transform: rotate(-3deg); }}
 .red {{ color: {RED}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }}
@@ -93,8 +93,8 @@ COLS = ('<colgroup><col style="width:5%"><col style="width:13%"><col style="widt
 HEAD = ('<td class="head lab2">主たる建物<br>又は附属建物</td><td class="head">①種類</td>'
         '<td class="head">②構　造</td><td class="head" colspan="2">③床面積 m²</td>'
         '<td class="head">登記原因及びその日付</td>')
-COLS_SNIP = ('<colgroup><col style="width:14%"><col style="width:10%"><col style="width:24%">'
-             '<col style="width:12%"><col style="width:7%"><col style="width:33%"></colgroup>')
+COLS_SNIP = ('<colgroup><col style="width:13%"><col style="width:9%"><col style="width:30%">'
+             '<col style="width:12%"><col style="width:7%"><col style="width:29%"></colgroup>')
 
 
 def ink(s):
@@ -121,7 +121,7 @@ def entry_cells(label, kind, struct, floors, genin):
 
 
 SHOZAI = 'Ａ市Ｂ町二丁目３番地４'
-KOUZOU = '木造かわら・合金メッキ鋼板ぶき３階建'
+KOUZOU = '木造かわらぶき３階建'
 FLOORS = [('1階', '41', '40'), ('2階', '33', '12'), ('3階', '8', '28')]
 GENIN = '平成21年8月8日新築'
 
@@ -167,16 +167,18 @@ def snippet(cells, good=False):
     return f'<div class="okwrap"><table class="bldg"{g}>{COLS_SNIP}<tr>{head}</tr><tr>{cells}</tr></table>{chk}</div>'
 
 
-ng_panel = snippet(entry_cells('', ink('居宅'), ink('木造かわらぶき２階建'), [('1階', '41', '41'), ('2階', '33', '12')], ink(GENIN)))
+ng_panel = snippet(entry_cells('', ink('居宅'), ink('木造かわら・合金メッキ鋼板ぶき２階建'), [('1階', '41', '41'), ('2階', '33', '12')],
+                               ink(GENIN)))
 fix_cells = ('<td class="entry lab2"></td>'
              f'<td class="entry center">{ink("居宅")}</td>'
-             f'<td class="entry struct">{ink("木造かわら")}<span class="red">・合金メッキ鋼板</span>{ink("ぶき")}'
+             f'<td class="entry struct">{ink("木造かわら")}<span class="ink strike">・合金メッキ鋼板</span><br>{ink("ぶき")}'
              f'<span class="ink strike">２</span><span class="red">３</span>{ink("階建")}</td>'
              f'<td class="entry int">{ink("1階　41")}<br>{ink("2階　33")}<br><span class="red">3階　8</span></td>'
              f'<td class="entry dec"><span class="ink strike">41</span> <span class="red">40</span><br>{ink("12")}<br>'
              f'<span class="red">28</span></td>'
              f'<td class="entry genin">{ink(GENIN)}</td>')
-fix_panel = snippet(fix_cells) + ('<div class="bubrow"><span class="bubble">玄関の小屋根は合金メッキ鋼板ぶき（調査結果7）。屋根が2種類なら並べて書く！<br>'
+fix_panel = snippet(fix_cells) + ('<div class="bubrow"><span class="bubble">玄関の小屋根は0.91×1.82＝1.6562で、1階41.405の約4％。<br>'
+                                  '床面積に算入する部分の屋根面積の30％未満の種類の屋根は表示しない！<br>'
                                   'ロフトは天井の最高部2.00で1.5m以上 → 3階（4.55×1.82＝8.28）<br>'
                                   '41.405は切り捨てて41.40（四捨五入しない）</span></div>')
 ok_panel = snippet(entry_cells('', ink('居宅'), ink(KOUZOU), FLOORS, ink(GENIN)), good=True)
@@ -184,7 +186,7 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ng">①誤答</div>{ng_panel}</div>
 <div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{fix_panel}</div>
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
-<div class="caption" style="margin:10px 0 30px">平成21年度 第22問｜ロフトは3階、屋根は2種類とも書く</div>''')
+<div class="caption" style="margin:10px 0 30px">平成21年度 第22問｜ロフトは3階、30％未満の小屋根は書かない</div>''')
 
 if __name__ == '__main__':
     exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))

@@ -56,10 +56,10 @@ note-articles-Kijyutsu/
 │   │   ├── verify_H21_dai21mon_kaiwa.py                 記事・付属プロンプト・生成画像の数値・体裁の照合スクリプト
 │   │   └── zu/                                          解説図14枚のPNGと作図スクリプト draw_H21_dai21mon_kaisetsuzu.py、答案用紙の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H21_dai21mon_shinseisho_gazou.py
 │   └── Q22/
-│       ├── note_H21_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み〈構造は準則第81条第2項により「木造かわら・合金メッキ鋼板ぶき3階建」を採用し、解答例の「木造かわらぶき3階建」と食い違う〉。新築の建物表題登記、天井の最高部2.00のロフトを3階に数える、41.405の切り捨て、吹抜・ベランダの不算入、道路後退線ではなく筆界から3.10、所有権証明書の具体例3つ）
+│       ├── note_H21_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み〈構造は、30％未満の玄関の小屋根を表示しない「木造かわらぶき3階建」で解答例と一致〉。新築の建物表題登記、天井の最高部2.00のロフトを3階に数える、41.405の切り捨て、吹抜・ベランダの不算入、道路後退線ではなく筆界から3.10、所有権証明書の具体例3つ）
 │       ├── prompt_H21_dai22mon_kaisetsuzu.md                  解説図8枚（敷地の辺長確認図・建物図面・ロフトの断面の誤り比較図・1階/2階/3階の求積図・各階平面図の完成形・解く順番）作成プロンプト
 │       ├── prompt_H21_dai22mon_toukishinseisho_gazou.md       答案用紙の画像プロンプト（問1の登記申請書〈代理人欄・職印の枠あり、登録免許税の欄なし〉と問2の完成形）
-│       ├── prompt_H21_dai22mon_toukishinseisho_machigai.md    建物の表示の記入行1（構造の屋根2種類・3階・切り捨て）の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
+│       ├── prompt_H21_dai22mon_toukishinseisho_machigai.md    建物の表示の記入行1（30％未満の屋根は表示しない・3階・切り捨て）の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
 │       ├── prompt_H21_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       ├── verify_H21_dai22mon.py                             記事・付属プロンプト・生成画像の数値・求積・所在・解答例との一致・体裁の照合スクリプト
 │       └── zu/                                                解説図8枚のPNGと作図スクリプト draw_H21_dai22mon_kaisetsuzu.py、登記申請書の完成形・問2・添削のPNG・HTMLと生成スクリプト make_H21_dai22mon_shinseisho_gazou.py
