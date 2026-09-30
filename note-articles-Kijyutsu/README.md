@@ -29,6 +29,15 @@ note-articles-Kijyutsu/
 │   ├── calc_helpers.py                                 F-789SGの計算を再現し、記事の表示値を生成・照合するヘルパー
 │   ├── zu_helpers.py                                   土地の解説図の作図ヘルパー（座標どおりの作図、境界標の記号〈コンクリート杭・金属標・石杭・基準点〉、辺長・点名・座標の吹き出しの自動配置、重なりの自動検査）
 │   └── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
+├── H20/
+│   └── Q22/
+│       ├── note_H20_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み。2階から始まる居宅部分と共同住宅部分に区分する建物区分登記、同じ専有部分の中の壁、土地の共有持分の敷地権8分の3、同一の抵当権の抹消）
+│       ├── prompt_H20_dai22mon_kaisetsuzu.md                  解説図9枚（区分の全体像・敷地の辺長確認図・建物図面・3階部分の誤り比較図・3階部分と2階部分の求積図・各階平面図の完成形・（イ）部分の求積図・本番で解く順番）作成プロンプト
+│       ├── prompt_H20_dai22mon_toukishinseisho_gazou.md       登記申請書（その1・その2を縦に積む）と問3の欄の画像プロンプト
+│       ├── prompt_H20_dai22mon_toukishinseisho_machigai.md    「敷地権の表示」の敷地権の割合の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
+│       ├── prompt_H20_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
+│       ├── verify_H20_dai22mon.py                             記事・付属プロンプト・生成画像の数値・求積・地積の検算・解答例との一致・体裁の照合スクリプト
+│       └── zu/                                                解説図9枚のPNGと作図スクリプト draw_H20_dai22mon_kaisetsuzu.py、登記申請書の完成形（縦長1200px）・問3の欄・添削画像（縦3コマ）のPNG・HTMLと生成スクリプト make_H20_dai22mon_shinseisho_gazou.py
 ├── H23/
 │   ├── Q21/
 │   │   ├── note_H23_dai21mon_tochi_kaiwa_kaisetsu.md    note記事本文（会話形式。アガルート解答例〈日付と問題文の注5を書き換えた改題版〉と照合済み。放射3点・51番3の三斜から出すC点・真南の線との交点から測るH点・時効取得の要件事実・境内地の土地表題登記・1/500の土地所在図と1/250の地積測量図）

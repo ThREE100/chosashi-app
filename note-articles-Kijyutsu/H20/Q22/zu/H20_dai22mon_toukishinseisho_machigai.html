@@ -1,0 +1,61 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 60px 60px 40px; display: flex; flex-direction: column; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 40px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 24px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.dateline { font-size: 22px; margin: 2px 0 22px 0; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 6px; }
+.plainrow .addr { flex: 1; padding-left: 120px; }
+.renraku { font-size: 20px; margin: 0 0 24px 360px; }
+.taxrow { display: flex; align-items: center; font-size: 22px; margin-bottom: 10px; }
+.taxbox { width: 220px; border: 2px solid #111; padding: 8px 16px; font-size: 24px; margin: 0 12px; text-align: center; }
+.sign { text-align: right; font-size: 21px; margin-top: 10px; }
+.shokuin { border: 1.5px solid #111; padding: 0 6px; margin-left: 12px; }
+.sec { font-size: 22px; margin: 40px 0 0; color: #555; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+table.t { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; margin-top: 18px; }
+table.t td { border: 1.5px solid #111; font-size: 19px; padding: 8px 8px; vertical-align: middle; line-height: 1.5; }
+table.t td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.35em; padding: 0; font-size: 21px; }
+table.t td.lab2 { text-align: center; font-size: 18px; }
+table.t td.head { text-align: center; font-size: 17px; height: 76px; }
+table.t td.val { height: 56px; }
+table.t td.entry { height: 128px; }
+table.t td.low { height: 90px; }
+table.t td.center { text-align: center; }
+table.t td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.t td.genin { font-size: 17px; }
+table.t td .ink { font-size: 19px; }
+table.t td.genin .ink { font-size: 18px; }
+.toi3 { font-size: 22px; margin: 0 0 14px; }
+.toi3box { border: 2px solid #111; padding: 20px 24px; min-height: 240px; font-size: 22px; line-height: 1.8; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 34px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.after { font-size: 17px; color: #555; margin-top: 14px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.dstrike { position: relative; }
+.dstrike::before, .dstrike::after { content: ""; position: absolute; left: -3px; right: -3px; border-top: 2.5px solid #d0021b; }
+.dstrike::before { top: 42%; } .dstrike::after { top: 60%; }
+.redfix { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; margin-left: 8px; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; left: 330px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0; }
+.note { margin-top: 12px; font-size: 19px; color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body>
+<div class="panel"><div class="ptitle ng">①誤答</div><div class="okwrap"><table class="t" style="margin-top:28px"><colgroup><col style="width:5%"><col style="width:11%"><col style="width:22%"><col style="width:26%"><col style="width:36%"></colgroup><tr><td class="vert" rowspan="3">敷地権の表示</td><td class="head">①土　地<br>の符号</td><td class="head">②敷地権の種類</td><td class="head">③敷地権の割合</td><td class="head">原因及びその日付</td></tr><tr><td class="low center"><span class="ink">１</span></td><td class="low center"><span class="ink">所有権</span></td><td class="low center"><span class="ink">２分の１</span></td><td class="low center"><span class="ink">平成20年８月24日敷地権</span></td></tr><tr><td class="low"></td><td class="low"></td><td class="low"></td><td class="low"></td></tr><tr><td colspan="5" class="low"></td></tr></table></div></div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><div class="okwrap"><table class="t" style="margin-top:28px"><colgroup><col style="width:5%"><col style="width:11%"><col style="width:22%"><col style="width:26%"><col style="width:36%"></colgroup><tr><td class="vert" rowspan="3">敷地権の表示</td><td class="head">①土　地<br>の符号</td><td class="head">②敷地権の種類</td><td class="head">③敷地権の割合</td><td class="head">原因及びその日付</td></tr><tr><td class="low center"><span class="ink">１</span></td><td class="low center"><span class="ink">所有権</span></td><td class="low center"><span class="ink dstrike">２分の１</span><span class="redfix">８分の３</span></td><td class="low center"><span class="ink">平成20年８月24日敷地権</span></td></tr><tr><td class="low"></td><td class="low"></td><td class="low"></td><td class="low"></td></tr><tr><td colspan="5" class="low"></td></tr></table></div><div class="bubrow"><span class="bubble">土地は平野大輔４分の３・平野友子４分の１の共有。<br>敷地権になるのは大輔の持分４分の３だけ → ４分の３×２分の１＝８分の３</span></div><div class="note">（参考）（イ）部分と（ロ）部分の床面積はどちらも184.21㎡（同じ専有部分の中の壁は引かない）なので、床面積の割合は２分の１ずつ</div></div>
+<div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div><div class="okwrap"><table class="t good" style="margin-top:28px"><colgroup><col style="width:5%"><col style="width:11%"><col style="width:22%"><col style="width:26%"><col style="width:36%"></colgroup><tr><td class="vert" rowspan="3">敷地権の表示</td><td class="head">①土　地<br>の符号</td><td class="head">②敷地権の種類</td><td class="head">③敷地権の割合</td><td class="head">原因及びその日付</td></tr><tr><td class="low center"><span class="ink">１</span></td><td class="low center"><span class="ink">所有権</span></td><td class="low center"><span class="ink">８分の３</span></td><td class="low center"><span class="ink">平成20年８月24日敷地権</span></td></tr><tr><td class="low"></td><td class="low"></td><td class="low"></td><td class="low"></td></tr><tr><td colspan="5" class="low"></td></tr></table><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+<div class="caption" style="margin:10px 0 30px">平成20年度 第22問｜敷地権の割合は土地全体に対する割合</div></body></html>
