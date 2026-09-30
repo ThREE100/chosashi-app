@@ -29,6 +29,15 @@ note-articles-Kijyutsu/
 │   ├── calc_helpers.py                                 F-789SGの計算を再現し、記事の表示値を生成・照合するヘルパー
 │   ├── zu_helpers.py                                   土地の解説図の作図ヘルパー（座標どおりの作図、境界標の記号〈コンクリート杭・金属標・石杭・基準点〉、辺長・点名・座標の吹き出しの自動配置、重なりの自動検査）
 │   └── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
+├── H23/
+│   └── Q22/
+│       ├── note_H23_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた改題版〉と照合済み。主である建物の増築と区分建物である附属建物〈車庫〉の新築、敷地権）
+│       ├── prompt_H23_dai22mon_kaisetsuzu.md                  解説図7枚（一棟の車庫と所有者・敷地の辺長確認図・建物図面・主である建物の求積図・符号1の誤り比較図・各階平面図の完成形・解く順番）作成プロンプト
+│       ├── prompt_H23_dai22mon_toukishinseisho_gazou.md       答案用紙の画像プロンプト（第1欄の登記申請書と第2欄〈問3の記述〉の完成形）
+│       ├── prompt_H23_dai22mon_toukishinseisho_machigai.md    符号1の行（一棟の建物・内法・敷地権）の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
+│       ├── prompt_H23_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
+│       ├── verify_H23_dai22mon.py                             記事・付属プロンプト・生成画像の数値・求積・所在・体裁の照合スクリプト
+│       └── zu/                                                解説図7枚のPNGと作図スクリプト draw_H23_dai22mon_kaisetsuzu.py、登記申請書の完成形・第2欄・添削のPNG・HTMLと生成スクリプト make_H23_dai22mon_shinseisho_gazou.py
 ├── H25/
 │   ├── Q21/
 │   │   ├── note_H25_dai21mon_tochi_kaiwa_kaisetsu.md    note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた版〉と照合済み。B点の放射・F点の正弦定理・一部地目変更・分筆）
