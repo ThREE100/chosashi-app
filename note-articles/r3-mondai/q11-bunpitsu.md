@@ -114,7 +114,7 @@ even if a character looks similar. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・相・続・家・庭・裁・判 — these must be rendered in
+kanji 号・録・権・地・番・建・物・登・記・所・相・続・家・庭・裁・判・過・半 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
 --- HEADER ---
@@ -157,14 +157,17 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 3 ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-共有地は全員申請
+過半数なければ全員必要
 Illustration: An isometric registry desk with two people standing side
 by side, labeled "A" and "B", representing co-owners of one land plot.
-Person A holds a paper labeled "Bの承諾を証する情報". Above the desk, an
-application form panel shows two stamp slots both highlighted as
-required, while a single stamp (A alone) is shown crossed out.
+Each figure has a small fraction tag beside them reading "持分2分の1".
+A small pie-chart icon between them shows an exactly even 50/50 split
+with a torn-paper label "過半数に届かず". Person A holds a paper labeled
+"Bの承諾を証する情報". Above the desk, an application form panel shows
+two stamp slots both highlighted as required, while a single stamp
+(A alone) is shown crossed out.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-承諾だけでは不可
+A・Bとも必要(過半数なし)
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 承諾情報は必要か
