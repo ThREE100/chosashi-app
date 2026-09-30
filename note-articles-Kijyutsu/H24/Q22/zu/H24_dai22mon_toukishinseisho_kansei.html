@@ -1,0 +1,65 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 60px 60px 40px; display: flex; flex-direction: column; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 40px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 24px; }
+.lab { width: 190px; font-size: 22px; padding-top: 10px; white-space: nowrap; line-height: 1.4; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.dateline { font-size: 22px; margin: 2px 0 22px 0; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 20px; }
+.plainrow .ryaku { flex: 1; padding: 10px 0 0 20px; }
+.sec { font-size: 24px; margin: 34px 0 0; }
+table.t { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; margin-top: 18px; }
+table.t td { border: 1.5px solid #111; font-size: 19px; padding: 8px 8px; vertical-align: middle; line-height: 1.5; }
+table.t td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.35em; padding: 0; font-size: 21px; }
+table.t td.lab2 { text-align: center; font-size: 18px; }
+table.t td.head { text-align: center; font-size: 17px; height: 76px; }
+table.t td.val { height: 52px; }
+table.t td.entry { height: 110px; }
+table.t td.center { text-align: center; }
+table.t td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.t td.genin { font-size: 17px; }
+table.t td .ink { font-size: 19px; }
+table.t td.genin .ink { font-size: 18px; }
+.diag { height: 330px; background: linear-gradient(to top right, transparent calc(50% - 1px), #111 calc(50% - 1px),
+          #111 calc(50% + 1px), transparent calc(50% + 1px)); }
+.lined { border: 2px solid #111; margin-top: 18px; }
+.lined div { border-bottom: 1.2px dashed #777; min-height: 50px; padding: 8px 18px; font-size: 21px; line-height: 1.55; }
+.lined div:last-child { border-bottom: none; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 34px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.add { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold;
+        border-bottom: 3px solid #d0021b; }
+.caret { color: #d0021b; font-weight: bold; font-size: 26px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; left: 160px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0; }
+.note { margin-top: 12px; font-size: 19px; color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body><div class="page">
+<div class="title">登記申請書</div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px"><span class="ink">区分建物表題登記</span></div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:112px"><span class="ink">建物図面　各階平面図　所有権証明書　住所証明書<br>代位原因証書　代理権限証書</span></div></div>
+<div class="dateline">平成何年何月何日申請　Ａ地方法務局</div>
+<div class="row"><div class="lab">所　有　者<br>（被代位者）</div><div class="box" style="height:76px"><span class="ink">Ａ市Ｂ町三丁目３番５号　乙川夏子</span></div></div>
+<div class="row"><div class="lab">申　請　人<br>（代　位　者）</div><div class="box" style="height:76px"><span class="ink">Ａ市Ｂ町三丁目３番４号　甲野春男</span></div></div>
+<div class="row"><div class="lab">代　位　原　因</div><div class="box" style="height:76px"><span class="ink">不動産登記法第48条第２項</span></div></div>
+<div class="plainrow"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
+<table class="t"><colgroup><col style="width:5%"><col style="width:10%"><col style="width:10%"><col style="width:20%"><col style="width:7%"><col style="width:20%"><col style="width:7%"><col style="width:21%"></colgroup><tr><td class="vert" rowspan="5">一棟の建物の表示</td><td class="lab2" rowspan="2" colspan="2">所　在</td><td class="val" colspan="5"><span class="ink">Ａ市Ｂ町三丁目120番地１、120番地２</span></td></tr><tr><td class="val" colspan="5"></td></tr><tr><td class="lab2 val" colspan="2">建物の名称</td><td class="val" colspan="3"></td><td class="val" colspan="2"></td></tr><tr><td class="head" colspan="2">①構　造</td><td class="head" colspan="4">②床　面　積<br><span style="display:inline-block;width:48%">m²</span><span style="display:inline-block;width:48%">m²</span></td><td class="head">原因及びその日付</td></tr><tr><td class="entry center" colspan="2"><span class="ink">木造かわら<br>ぶき２階建</span></td><td class="entry int"><span class="ink">1階　142</span><br><span class="ink">2階　120</span></td><td class="entry dec"><span class="ink">50</span><br><span class="ink">00</span></td><td class="entry int"></td><td class="entry dec"></td><td class="entry genin"></td></tr></table>
+<table class="t"><colgroup><col style="width:5%"><col style="width:95%"></colgroup><tr><td class="vert" style="font-size:17px;letter-spacing:0.02em;height:330px">敷地権の目的である土地の表示</td><td class="diag"></td></tr></table>
+<table class="t" style="margin-top:34px"><colgroup><col style="width:5%"><col style="width:11%"><col style="width:8%"><col style="width:10%"><col style="width:9%"><col style="width:15%"><col style="width:13%"><col style="width:6%"><col style="width:23%"></colgroup><tr><td class="vert" rowspan="4">区分した建物の表示</td><td class="head">家屋<br>番号</td><td class="head">建物の<br>名　称</td><td class="head" style="font-size:15px">主である<br>建物又は<br>附属建物</td><td class="head">①<br>種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床　面　積<br>m²</td><td class="head">原因及び<br>その日付</td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">居宅</span></td><td class="entry center"><span class="ink">木造かわら<br>ぶき２階建</span></td><td class="entry int"><span class="ink">1階　68</span><br><span class="ink">2階　57</span></td><td class="entry dec"><span class="ink">57</span><br><span class="ink">69</span></td><td class="entry genin"><span class="ink">平成24年７月30日新築</span></td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry int"></td><td class="entry dec"></td><td class="entry"></td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry int"></td><td class="entry dec"></td><td class="entry"></td></tr></table>
+<div class="caption">平成24年度 土地家屋調査士試験 第22問 問1 登記申請書（第1欄）解答例</div>
+</div></body></html>
