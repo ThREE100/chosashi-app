@@ -153,7 +153,7 @@
 
 ## インフォグラフィック プロンプト（問いの型のフローチャート）
 
-⑤作図ガイド型（フローチャート）を基本に、早見表型を加えた全4枚の構成です。画像1は入口の仕分け、画像2は型A（表意者と相手方）、画像3は型B・C（第三者）、画像4は5制度の早見表です。
+⑤作図ガイド型（フローチャート）を基本に、早見表型を加えた全4枚の構成です。画像1〜3のフローチャートは、ノードと矢印を1つずつ数えて論理を点検したうえで、各パネルに配置（中心線・結果ノードの位置・余白）、ノード数、経路数を明記してあります（2026-09-30）。画像の文言と分岐は、この点検で確認した構造と一致させてください。画像1は入口の仕分け、画像2は型A（表意者と相手方）、画像3は型B・C（第三者）、画像4は5制度の早見表です。
 
 ### 画像1：入口の仕分け（問いの型と制度の見分け方）
 
@@ -218,24 +218,27 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 問いの最後の一文で型を決める
-Diagram: a top-to-bottom decision flowchart.
-Start node (rounded rectangle, gray): 問題文の最後の一文
-Below it, one diamond node: 聞かれているのは何か
-Three arrows leave the diamond, each labeled with the text below, and each
-arrow ends at a result node:
-(a) arrow label: 取り消せるか。無効か
-    result node (blue): 型A　表意者と相手方の問い
-    small tag under the node: 当事者間の図へ
-(b) arrow label: Cに所有権を主張できるか。対抗できるか
-    result node (orange): 型B　第三者が登場する問い
-    small tag under the node: 第三者の図へ
-(c) arrow label: さかのぼるか。追認できるか。いつまで取り消せるか
-    result node (green): 型C　効果と期間の問い
-    under this node, three small fact chips, verbatim:
-    取消しは初めから無効
-    無効は追認しても遡らない
-    取消権は5年と20年
-Also draw one small speech-bubble next to the diamond, verbatim:
+Diagram: a top-to-bottom flowchart with THREE branches (not two). The
+diamond has exactly three outgoing arrows and they carry NO はい or いいえ
+labels; the branches are told apart only by the question phrase written in
+the boxes on the arrows. Lay out as follows, top to bottom in four rows:
+Row 1: start node (rounded rectangle, gray), centered: 問題文の最後の一文
+Row 2: one diamond, centered: 聞かれているのは何か
+Row 3: three plain rounded boxes in a row (left, center, right), each
+connected from the diamond by its own elbow arrow (down, sideways, down):
+  left box: 取り消せるか。無効か
+  center box: Cに所有権を主張できるか。対抗できるか
+  right box: さかのぼるか。追認できるか。いつまで取り消せるか
+Row 4: three result nodes, one directly under each Row 3 box, joined to it
+by a short straight arrow:
+  under the left box, result node (blue), two lines: 型A　表意者と相手方の問い / 当事者間の図へ
+  under the center box, result node (orange), two lines: 型B　第三者が登場する問い / 第三者の図へ
+  under the right box, result node (green), four lines inside the same
+  node (not separate chips): 型C　効果と期間の問い / 取消しは初めから無効 / 無効は追認しても遡らない / 取消権は5年と20年
+There are exactly 3 paths from the start node to a result node. Every
+arrow points downward or sideways into the next box; no arrow loops back.
+Also draw one small speech-bubble beside the diamond, not connected to any
+arrow, verbatim:
 取り消せることと、第三者に対抗できることは別の問い
 着眼点 callout (verbatim, 2 sentences):
 まず問いの最後の一文を読み、当事者間の話か、第三者が出てくる話かを見分けます。次に、その型の図へ進みます。
@@ -281,9 +284,9 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image. Confirm
 the panel count equals 2 exactly, badge numbers run 1-2 continuously, there
 is no intro illustration or paragraph block between the header and the
-panels, that panel 1 is an actual flowchart with a diamond node and three
-labeled branches, that panel 2 has exactly five rows matching the list
-above, that no ✓ or ✕ mark appears anywhere, that each 着眼点 callout states
+panels, that panel 1 is a flowchart with one diamond and exactly three
+branches that carry no はい or いいえ labels (3 paths), that panel 2 has
+exactly five rows matching the list above, that no ✓ or ✕ mark appears anywhere, that each 着眼点 callout states
 a checking order rather than only a conclusion, confirm nothing is rendered
 below the footnote text (no summary recap panel, no trophy or medal icon,
 and no additional text block of any kind), and confirm the entire canvas,
@@ -383,23 +386,33 @@ Conclusion tag (a short blue banner, 5-15 Japanese characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 錯誤は重過失の先で相手方まで見る
-Diagram: a top-to-bottom flowchart with six nodes, in this exact order.
+Diagram: a top-to-bottom flowchart, laid out on one vertical center line.
+The start node and the five diamonds sit one under another on that center
+line. Every result node sits to the RIGHT of its diamond on the same row,
+except the last one. Each result node is a separate node (do not merge
+result nodes that share the same text).
 Start node: 勘違いで意思表示をした
 Diamond 1: その勘違いは重要か
-  いいえ arrow to result node (gray): 取消し不可
+  いいえ arrow to the right, to a result node (gray): 取消し不可
+  はい arrow down to Diamond 2
 Diamond 2: 動機の勘違いなら、その事情を基礎として表示していたか
-  Small faded note beside this diamond: 動機でなければこの確認は飛ばす
-  いいえ arrow to result node (gray): 取消し不可
+  Small faded note at the left of this diamond: 動機でなければこの確認は飛ばす
+  いいえ arrow to the right, to a result node (gray): 取消し不可
+  はい arrow down to Diamond 3
 Diamond 3: 表意者に重大な過失があったか
-  いいえ arrow to result node (green): 取消し可
+  いいえ arrow to the right, to a result node (green): 取消し可
+  はい arrow down to Diamond 4
 Diamond 4 (thick orange outline with the tag 見落としやすい): 相手方は錯誤を知っていたか、重大な過失で知らなかったか
-  はい arrow to result node (green): 取消し可
-Diamond 5 (thick orange outline): 相手方も同じ錯誤に陥っていたか
-  はい arrow to result node (green): 取消し可
-  いいえ arrow to result node (gray): 取消し不可
-The はい arrow from Diamond 3 leads to Diamond 4; the いいえ arrow from
-Diamond 4 leads to Diamond 5; the はい arrow from Diamond 1 and Diamond 2
-lead to the next diamond below.
+  はい arrow to the right, to a result node (green): 取消し可
+  いいえ arrow down to Diamond 5
+Diamond 5 (thick orange outline with the tag 見落としやすい): 相手方も同じ錯誤に陥っていたか
+  はい arrow to the right, to a result node (green): 取消し可
+  いいえ arrow down, to a last result node (gray) centered under Diamond 5: 取消し不可
+Totals: 5 diamonds and 6 result nodes (three green 取消し可 on the right,
+three gray 取消し不可: two on the right and one at the bottom), and 6 paths
+from the start node to a result node. Every diamond has exactly one はい
+arrow and one いいえ arrow. Diamond 4 and Diamond 5 are two separate
+diamonds, never merged into one.
 着眼点 callout (verbatim, 2 sentences):
 まず重要な勘違いかを確認し、次に表意者の重大な過失を確認します。重大な過失があっても、相手方が知っていた場合や重大な過失で知らなかった場合、相手方も同じ勘違いの場合は取り消せます。
 Conclusion tag (a short green banner, 5-15 Japanese characters):
@@ -409,15 +422,18 @@ Conclusion tag (a short green banner, 5-15 Japanese characters):
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 詐欺はだました人が誰かで分かれる
-Diagram: a top-to-bottom flowchart.
+Diagram: a top-to-bottom flowchart, laid out on one vertical center line,
+with every result node to the RIGHT of its diamond except the last one.
 Start node: だまされて意思表示をした
 Diamond 1: だました人は相手方の側か
-  Small sub-label under this diamond: 相手方本人、または相手方の代理人
-  はい arrow to result node (green): 取消し可。相手方の認識は問わない
-  いいえ arrow (label: 無関係の第三者がだました) to Diamond 2
+  Small gray note at the left of this diamond: 相手方の側とは、相手方本人、または相手方の代理人
+  はい arrow to the right, to a result node (green), two lines: 取消し可 / 相手方の認識は問わない
+  いいえ arrow down to Diamond 2, with the label いいえ：無関係の第三者がだました written beside the arrow
 Diamond 2: 相手方はだまされた事実を知っていたか、知ることができたか
-  はい arrow to result node (green): 取消し可
-  いいえ arrow to result node (gray): 取消し不可
+  はい arrow to the right, to a result node (green): 取消し可
+  いいえ arrow down, to a result node (gray) under Diamond 2: 取消し不可
+Totals: 2 diamonds, 3 result nodes, 3 paths. Every diamond has exactly one
+はい arrow and one いいえ arrow.
 Below the flowchart, draw two small example chips side by side, verbatim:
 相手方の代理人がだましても、相手方の側
 相手方本人がだましたなら、代理人が知らなくても取消し可
@@ -430,13 +446,19 @@ Conclusion tag (a short orange banner, 5-15 Japanese characters):
 Badge: a filled circle in red containing the number 4.
 Heading (bold, ONE line):
 強迫は誰が脅しても取り消せる
-Diagram: a short single-check diagram. Start node: 脅されて意思表示をした.
-Two parallel input nodes feed into one result node (green): 取消し可
-  input node 1: 相手方が脅した
-  input node 2: 無関係の第三者が脅した。相手方は知らなかった
-Beside them, draw the faded, greyed-out, dotted-outline diamond from the
-fraud panel, verbatim: 相手方は知っていたか、知ることができたか
-with a small label in gray: 詐欺にある条件。強迫では要らない
+Diagram: a short diagram with NO diamond in the connected flow. Layout in
+three rows. Row 1: start node (rounded rectangle), centered: 脅されて意思表示をした.
+Row 2: two boxes side by side, each connected from the start node by its
+own elbow arrow:
+  left box: 相手方が脅した
+  right box: 無関係の第三者が脅した。相手方は知らなかった
+Row 3: one result node (green), under the left box: 取消し可. Both Row 2
+boxes have an arrow into this same result node (so the two arrows merge).
+There are exactly 2 paths and no branching by はい or いいえ.
+At the lower right, separate from the flow and connected to NOTHING (no
+arrow enters or leaves it), draw one faded, greyed-out, dotted-outline
+diamond, verbatim: 相手方は知っていたか、知ることができたか
+with a small gray label under it: 詐欺にある条件。強迫では要らない
 着眼点 callout (verbatim, 2 sentences):
 まず強迫があったかだけを確認します。脅した人が第三者で相手方が知らなくても取り消せるので、詐欺にある相手方の認識の確認は要りません。
 Conclusion tag (a short red banner, 5-15 Japanese characters):
@@ -460,8 +482,11 @@ so that only standard Japanese text appears anywhere in the image. Confirm
 the panel count equals 4 exactly, badge numbers run 1-4 continuously, there
 is no intro illustration or paragraph block between the header and the
 panels, that panels 1 to 3 are drawn as actual flowcharts with diamond
-nodes and labeled branches, that panel 2 has five diamonds and that
-Diamond 4 and Diamond 5 are two separate diamonds (not merged into one),
+nodes and labeled branches (panel 1: one diamond, 2 paths; panel 2: five
+diamonds, six result nodes, 6 paths; panel 3: two diamonds, three result
+nodes, 3 paths), that in panel 2 Diamond 4 and Diamond 5 are two separate
+diamonds (not merged into one), that in panel 4 the faded dotted diamond is
+connected to nothing and both boxes lead into the one 取消し可 node,
 that no ✓ or ✕ mark appears anywhere, that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered
 below the footnote text (no summary recap panel, no trophy or medal icon,
@@ -565,24 +590,35 @@ Conclusion tag (a short blue banner, 5-15 Japanese characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 取消し前の第三者は制度で守られ方が違う
-Diagram: a top-to-bottom decision flowchart with a three-lane fork.
+Diagram: a LEFT-TO-RIGHT flowchart in three horizontal rows (lanes),
+stacked top (lane 1), middle (lane 2), bottom (lane 3). The start node sits
+at the far left, vertically centered, and three elbow arrows fan out from it
+to the three lane label boxes (one per lane, all in the same column).
+Keep at least 60 pixels of clear empty space between the rightmost diamond
+of a row and the result node at the right end of that row, so that the
+はい label above the arrow is fully visible and not covered by any shape.
 Start node: 原因は何か
-The start node forks into three colored lanes, left to right:
-LANE 1 (blue), lane label: 善意のみ. Sub-label: 虚偽表示、心裡留保
-  Diamond: Cは善意か
-    はい arrow to result node (orange): 第三者が勝つ。無過失も登記も要らない
-    いいえ arrow to result node (blue): 表意者が勝つ
-LANE 2 (orange), lane label: 善意と無過失. Sub-label: 詐欺、錯誤
-  Diamond A: Cは善意か
-    いいえ arrow to result node (blue): 表意者が勝つ
+LANE 1 (top row), lane label box with two lines: 善意のみ / 虚偽表示、心裡留保
+  Arrow to the right to Diamond: Cは善意か
+    はい arrow to the right, to a result node (orange), two lines: 第三者が勝つ / 無過失も登記も要らない
+    いいえ arrow down, to a result node (blue) under the diamond: 表意者が勝つ
+LANE 2 (middle row), lane label box with two lines: 善意と無過失 / 詐欺、錯誤
+  Arrow to the right to Diamond A: Cは善意か
+    いいえ arrow down, to a result node (blue) under Diamond A: 表意者が勝つ
+    はい arrow to the right, to Diamond B (same row)
   Diamond B: Cは無過失か
-    いいえ arrow to result node (blue): 表意者が勝つ
-    はい arrow to result node (orange): 第三者が勝つ。登記は要らない
-  The はい arrow from Diamond A leads to Diamond B.
-LANE 3 (red), lane label: 保護なし. Sub-label: 強迫
-  A single box with no diamond: 第三者を守る規定がない
-  Arrow to result node (blue): 表意者が勝つ。Cが善意無過失でも負ける
-  Small note under the result node: 登記の抹消を待たなくてよい
+    いいえ arrow down, to a result node (blue) under Diamond B: 表意者が勝つ
+    はい arrow to the right, to a result node (orange), two lines: 第三者が勝つ / 登記は要らない
+LANE 3 (bottom row), lane label box with two lines: 保護なし / 強迫
+  Arrow to the right to a plain box (no diamond): 第三者を守る規定がない
+  Arrow to the right to a result node (blue), three lines inside the one
+  node: 表意者が勝つ / Cが善意無過失でも負ける / 登記の抹消を待たなくてよい
+  (make this node wide enough that none of the three lines touches or
+  crosses its border)
+Totals: 3 diamonds, 6 result nodes (two orange, four blue), and 6 paths
+from the start node to a result node. In lane 2 the diamonds Cは善意か and
+Cは無過失か are two separate diamonds, never merged. Lane 3 has no
+diamond and no はい or いいえ arrow.
 着眼点 callout (verbatim, 2 sentences):
 まず原因が何かを確認し、次にCが善意かを確認します。詐欺と錯誤では、さらにCが無過失かを確認します。強迫では確認する必要がありません。
 Conclusion tag (a short green banner, 5-15 Japanese characters):
@@ -632,8 +668,10 @@ glyph — and remove or redraw it so that only standard Japanese text
 appears anywhere in the image. Confirm the panel count equals 3 exactly,
 badge numbers run 1-3 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that panel 2 is drawn
-as an actual flowchart with diamond nodes and that in lane 2 the diamonds
-Cは善意か and Cは無過失か are two separate diamonds, that panel 3 has
+as a left-to-right flowchart with three diamonds and six result nodes (6
+paths), that in lane 2 the diamonds Cは善意か and Cは無過失か are two
+separate diamonds and every はい label is fully visible, that lane 3 has
+no diamond and its three-line result node stays inside its border, that panel 3 has
 exactly four cards matching the list above, that the strings 取消しの前
 and 取消しの後 are two different strings and the lane labels 善意のみ and
 善意と無過失 are two different strings (if any pair was rendered as two
