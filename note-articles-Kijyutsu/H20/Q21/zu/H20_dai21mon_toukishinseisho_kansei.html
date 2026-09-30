@@ -1,0 +1,68 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "IPAMincho", "Noto Serif CJK JP", serif; color: #111; }
+.page { padding: 70px 70px 40px; min-height: 1700px; display: flex; flex-direction: column; }
+.page .caption { margin-top: auto; padding-top: 30px; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 50px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 28px; position: relative; }
+.lab { width: 200px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.7; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.plain { font-size: 22px; margin: 4px 0 18px; }
+.dairi { display: flex; font-size: 22px; margin: 4px 0 4px; }
+.dairi .lab { padding-top: 0; }
+.dairi .addr { flex: 1; }
+.dairi .name { width: 300px; letter-spacing: 0.5em; }
+.renraku { font-size: 20px; margin: 0 0 22px 330px; }
+.appbox { border: 2px solid #111; padding: 16px 22px; margin-bottom: 22px; position: relative; }
+table.app { border-collapse: collapse; font-size: 23px; line-height: 1.75; }
+table.app td { padding: 0; vertical-align: top; white-space: nowrap; }
+table.app td.k { width: 232px; }
+table.app td.r { width: 96px; }
+table.land { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.land td { border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; }
+table.land td.head { height: 50px; text-align: center; font-size: 20px; }
+table.land td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; white-space: nowrap; }
+table.land td.shozai-lab { text-align: center; }
+table.land td.shozai { height: 48px; }
+table.land td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }
+table.land td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }
+table.land td.chimoku { text-align: center; }
+table.land td.cause { white-space: normal; }
+table.land tr.last td { height: 26px; }
+table.land td .ink { font-size: 24px; }
+table.land td.cause .ink { font-size: 22px; line-height: 1.45; }
+.shokuin { text-align: right; font-size: 22px; margin: 10px 0 0; letter-spacing: 0.3em; }
+.shokuin span { border: 1.5px solid #111; padding: 0 4px; letter-spacing: 0; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 70px 28px; border-bottom: 2px solid #bbb; }
+.panel:last-of-type { border-bottom: none; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold; margin-bottom: 18px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { position: relative; }
+.strike::after { content: ""; position: absolute; left: -3px; right: -3px; top: 52%; border-top: 3px solid #d0021b;
+                  transform: rotate(-3deg); }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.note { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 18px; font-weight: bold; margin-left: 14px; }
+.caret { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 21px; font-weight: bold; background: #fff5f5; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif;
+           line-height: 1.5; }
+.bubble::before { content: ""; position: absolute; top: -16px; left: 60px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: -8px 0 16px 0; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; border-radius: 2px; background: #f1faf2; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body><div class="page">
+<div class="title">登記申請書</div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px"><span class="ink">土地分筆登記</span></div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:112px"><span class="ink">地積測量図　相続証明書　代位原因証書　代理権限証書</span></div></div>
+<div class="plain">平成20年８月24日　　申請　　Ｋ地方法務局</div>
+<div class="appbox" style="min-height:300px"><table class="app"><tr><td colspan="3"><span class="ink">被代位者（被相続人　西川四郎）</span></td></tr><tr><td class="k"></td><td class="r"><span class="ink">相続人</span></td><td><span class="ink">Ｃ市Ａ町二丁目５番２号　西川和子</span></td></tr><tr><td class="k"></td><td class="r"></td><td><span class="ink">Ｂ市Ｄ町三丁目１番７号　西川二郎</span></td></tr><tr><td class="k"></td><td class="r"></td><td><span class="ink">Ｂ市Ｄ町四丁目６番１号　西川八郎</span></td></tr><tr><td class="k"><span class="ink">申請人（代位者）</span></td><td class="r"></td><td><span class="ink">Ｂ市Ｃ町二丁目３番４号　南野二郎</span></td></tr><tr><td colspan="3"><span class="ink">代位原因　平成19年５月１日売買の所有権移転登記請求権</span></td></tr><tr><td colspan="3"><span class="ink">登録免許税　金2,000円</span></td></tr></table></div>
+<div class="dairi"><div class="lab">代　　理　　人</div><div class="addr">Ａ市Ｂ町一丁目２番３号</div><div class="name">東田太郎　㊞</div></div>
+<div class="renraku">（連絡先　＊＊－＊＊＊＊－＊＊＊＊）</div>
+<table class="land"><colgroup><col style="width:6%"><col style="width:12%"><col style="width:12%"><col style="width:13%"><col style="width:14%"><col style="width:9%"><col style="width:34%"></colgroup><tr><td class="vert" rowspan="7">土地の表示</td><td class="shozai-lab" rowspan="2">所　在</td><td class="shozai" colspan="5"><span class="ink">Ｋ市Ｂ町一丁目</span></td></tr><tr><td class="shozai" colspan="5"></td></tr><tr><td class="head" colspan="2">①地　　番</td><td class="head">②地　　目</td><td class="head" colspan="2">③地　　積　m²</td><td class="head">登記原因及びその日付</td></tr><tr><td colspan="2"><span class="ink">５番</span></td><td class="chimoku"><span class="ink">宅地</span></td><td class="int"><span class="ink">512</span></td><td class="dec"><span class="ink">66</span></td><td class="cause"></td></tr><tr><td colspan="2"><span class="ink">（イ）５番１</span></td><td class="chimoku"></td><td class="int"><span class="ink">300</span></td><td class="dec"><span class="ink">79</span></td><td class="cause"><span class="ink">①③５番１、５番２に分筆</span></td></tr><tr><td colspan="2"><span class="ink">（ロ）５番２</span></td><td class="chimoku"><span class="ink">宅地</span></td><td class="int"><span class="ink">212</span></td><td class="dec"><span class="ink">58</span></td><td class="cause"><span class="ink">５番から分筆</span></td></tr><tr class="last"><td colspan="2"></td><td></td><td class="int"></td><td class="dec"></td><td></td></tr></table>
+<div class="shokuin">土地家屋調査士　東田太郎　<span>職印</span></div>
+<div class="caption">平成20年度 土地家屋調査士試験 第21問 登記申請書 解答例</div>
+</div></body></html>
