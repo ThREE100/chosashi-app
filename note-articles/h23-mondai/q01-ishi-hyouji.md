@@ -222,11 +222,17 @@ problem are five independent, unrelated types of意思表示の瑕疵（強迫�
 fact pattern, draw them as five separate diagrams rather than
 highlighting branches of one shared tree shape. Where a 肢 requires
 checking multiple conditions in sequence before reaching a conclusion
-(肢イ・肢ウ), draw the panel's diagram as an actual decision flowchart:
+(肢ウ), draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
-resolved by a single check (肢ア・肢エ・肢オ), a labeled illustrative
-diagram is sufficient — do not force a flowchart. Unlike a glanceable
+resolved by a single check (肢ア・肢イ・肢エ・肢オ), a labeled illustrative
+diagram is sufficient — do not force a flowchart. In particular, 肢イ
+turns on one check only (whether a good-faith third party C stands in
+the chain); the later transferee D's own good or bad faith is NOT a
+condition to be checked, so in that panel do not draw any diamond-shaped
+decision node, Yes/No branch arrows, or a "needs re-check" box for D —
+show D's bad faith only as a greyed-out label marked as irrelevant.
+Unlike a glanceable
 summary poster, each panel MAY include a short「着眼点」callout box with
 1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
 し、次に〜を確認します"), not just the conclusion. Do not include case or
@@ -281,21 +287,25 @@ characters):
 --- PANEL 2（肢イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
-善意者を一人経由すれば権利は確定
-Diagram: A decision-tree flowchart drawn along a land-plot relay chain of
-four isometric characters A→B→C→D connected by 譲渡 arrows, with a
-curtain icon hanging behind A・B (仮装譲渡). First diamond node: 転得者
-Cは、仮装譲渡の事実について善意か？with a はい arrow proceeding
-downward (Cに halo icon). Second diamond node (drawn with a thicker
-highlighted border, since this is the branch the肢 turns on): その後の
-転得者Dの善意・悪意を、あらためて確認する必要があるか？with the いいえ
-branch leading to a green shield icon extending from C all the way to D
-(even though D has a dark speech bubble 知ってた) and a conclusion node
-reading Dも保護され、Aは所有権を主張できない.
+善意のCを経由すれば悪意のDも保護される
+Diagram: A single-check labeled diagram (NOT a flowchart — draw no
+diamond-shaped node, no Yes/No branch arrows, and no box reading
+あらためて確認が必要). A land-plot relay chain of four isometric
+characters A→B→C→D connected by 譲渡 arrows, with a curtain icon hanging
+behind A・B (仮装譲渡). Character C has a halo icon and a small label tag
+善意 (this is a fact stipulated by the 肢, so it is a given, not a
+question). Character D has a dark speech bubble 知ってた and a small
+label tag 悪意. A green shield icon extends from C across to D, and a
+single numbered step marker ① with a green checkmark sits at C, reading
+Cは善意の第三者. Beside D, a greyed-out, dotted-outline tag reading
+Dの善意・悪意は問わない (drawn faded, with no ○/✕ mark, to show that D's
+state is not a condition being checked). The diagram ends in one
+conclusion node reading Dも保護され、Aは所有権を主張できない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、間に入った転得者Cが仮装譲渡の事実について善意かどうかを確認しま
-す。善意であれば権利はCのもとでいったん確定するため、次に、その後の
-転得者Dの善意・悪意をあらためて確認する必要はないと判断します。
+まず、Bから譲り受けた第三者Cが仮装譲渡の事実について善意かどうかを確
+認します。Cが善意であれば権利はCのもとで確定するため、その後の転得者D
+が悪意であっても結論は変わらず、AはDに所有権を主張できないと判断しま
+す。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 善意者経由で保護
@@ -368,10 +378,12 @@ visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢イ・肢ウ are each drawn as an
-actual flowchart with branch nodes (not a bare illustration with no
-visible decision structure) while the other three panels use a single
-labeled illustrative diagram, that each 着眼点 callout states a checking
+between the header and the panels, that 肢ウ is drawn as an actual
+flowchart with branch nodes (not a bare illustration with no visible
+decision structure) while the other four panels use a single labeled
+illustrative diagram (and the 肢イ panel contains no diamond-shaped node,
+no Yes/No branch arrows and no "needs re-check" box), that each 着眼点
+callout states a checking
 order rather than only a conclusion, confirm nothing is rendered below
 the last panel's footnote text (no summary recap panel, no trophy or
 medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
