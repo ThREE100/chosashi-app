@@ -3,7 +3,9 @@
 `../prompt_H27_dai22mon_kaisetsuzu.md` の図1〜図9どおり。作図の共通部品は `tools/zu_helpers.py`。
 建物の座標は (東, 南) で持ち（原点は一棟の建物の1階の北西の角の、壁〈柱〉の中心線の交点。各階はA点で重ねる）、
 zu_helpers の (北, 東) には B() で変換する（北 ＝ −南）。
-敷地は座標値一覧表がないので、見取図の距離と1階の寸法から組み立てた座標（西側の線を東0、南側の線を北0）を使う。
+敷地は座標値一覧表がないので、〔見取図〕の距離と1階の寸法から組み立てた座標（西側の線を東0、南側の線を北0）を使う。
+図3（建物図面）と図8（各階平面図）は、試験の答案用紙の第3欄の欄（家屋番号・建物の所在・申請人〈略〉・作成者〈略〉・縮尺）
+の枠の中に描く。
 実行: python3 note-articles-Kijyutsu/H27/Q22/zu/draw_H27_dai22mon_kaisetsuzu.py [出力フォルダ]
 """
 import os
@@ -12,14 +14,13 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, '..', '..', '..', 'tools'))
 import matplotlib.pyplot as plt  # noqa: E402
-from matplotlib.patches import Polygon as MPoly  # noqa: E402
+from matplotlib.patches import Polygon as MPoly, Rectangle  # noqa: E402
 
-from zu_helpers import (Zu, new_figure, fit, xy, centroid, BLACK, GRAY, RED, BLUE, ORANGE, GREEN,  # noqa: E402
-                        PURPLE)
+from zu_helpers import (Zu, new_figure, fit, xy, centroid, setup_font, BLACK, GRAY, RED, BLUE, ORANGE,  # noqa: E402
+                        GREEN, PURPLE)
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else HERE
 PROBLEMS = []
-W = 0.075   # 柱の中心から内壁まで（別紙2の3の（2））
 
 
 def B(e, s):
@@ -53,7 +54,7 @@ def save(fig, zs, name):
     print('書き出し:', path)
 
 
-# ---- 建物（別紙2の4の各階平面図。壁心＝軽量鉄骨の柱の中心、内法＝中心から0.075内側） ----
+# ---- 建物（別紙2の4の各階平面図。壁心＝軽量鉄骨の柱の中心、内法＝中心から0.075内側〈別紙2の3の（2）〉） ----
 F1 = [(0, 0), (10.92, 0), (10.92, 1.82), (11.83, 1.82), (11.83, 6.37), (6.37, 6.37), (6.37, 7.28), (4.55, 7.28),
       (4.55, 8.19), (0, 8.19)]
 GEN = rect(9.1, 0, 10.92, 1.82)                                     # 居宅部分専用玄関（壁心）
@@ -106,16 +107,26 @@ def pt_mark(z, p, name, away):
 
 
 def dim_line(z, p, q, text, dirs):
-    ax = z.ax
-    ax.annotate('', xy=xy(q), xytext=xy(p),
-                arrowprops=dict(arrowstyle='<->', lw=1.4, color=BLACK, shrinkA=0, shrinkB=0), zorder=4)
+    z.ax.annotate('', xy=xy(q), xytext=xy(p),
+                  arrowprops=dict(arrowstyle='<->', lw=1.4, color=BLACK, shrinkA=0, shrinkB=0), zorder=4)
     z.segments.append((xy(p), xy(q)))
     return z.callout((p + q) / 2, text, dirs=dirs, fs=15, dists=(40, 55, 70))
 
 
-# ---- 図1：区分の全体像 ----
+def cell(fig, x0, y0, x1, y1, text='', fs=14, ha='center', lw=1.6, color=BLACK):
+    """答案用紙の欄（図の座標 0〜1）。"""
+    fig.add_artist(Rectangle((x0, y0), x1 - x0, y1 - y0, transform=fig.transFigure, fill=False, lw=lw, ec=BLACK))
+    if text:
+        x = (x0 + x1) / 2 if ha == 'center' else x0 + 0.01
+        fig.text(x, (y0 + y1) / 2, text, ha=ha, va='center', fontsize=fs, color=color)
+
+
+INK = '#1a3a8f'   # 記入（濃い青）
+
+
+# ---- 図1：区分の全体図 ----
 def zu01():
-    fig, axes = new_figure('区分の全体像：階層的な区分と、分離処分可能規約（問1）',
+    fig, axes = new_figure('区分の全体図：階層的な区分と、分離処分可能規約（問1）',
                            '（イ）部分＝1階の居宅部分専用玄関＋2階＋3階（5番27の1 居宅）、（ロ）部分＝1階の残り（5番27の2 共同住宅）。\n'
                            '公正証書で分離処分可能規約を設定するので、本件土地の所有権は敷地権にならず、乙山一郎の名義のまま残る',
                            w=18, h=8.5, ncols=3)
@@ -124,37 +135,35 @@ def zu01():
     for k, ax in enumerate(axes):
         z = Zu(ax, fontsize=12)
         ax.set_title(['1階', '2階', '3階'][k], fontsize=17, weight='bold')
+        fit(ax, P(F2), margin=0.06, extra=[xy(B(-1.0, -3.2)), xy(B(12.8, 11.4))], pad_aspect=True)
         if k == 0:
             z.poly(P(RO_WALL), color=BLACK, lw=2, fill=GREEN, alpha=0.25)
             z.poly(P(GEN), color=BLACK, lw=2, fill=BLUE, alpha=0.40)
             z.line(B(4.55, 0), B(4.55, 7.28), color=GRAY, lw=1.0, ls='--', check=False)
             z.free_text(B(2.3, 4.0), '102号室', fs=12, color=GREEN)
             z.free_text(B(7.6, 4.0), '101号室', fs=12, color=GREEN)
+            z.callout(B(10.0, 0.9), '（イ）の玄関', dirs=(90, 110, 70), fs=12, color=BLUE, dists=(30, 45, 60))
+            z.free_text(B(5.9, 9.7), '（ロ）共同住宅 → 会社へ譲渡', fs=13, weight='bold', color=GREEN)
         else:
             z.poly(P(F2 if k == 1 else F3), color=BLACK, lw=2, fill=BLUE, alpha=0.30)
             z.free_text(B(5.9, 4.3), '（イ）居宅', fs=15, weight='bold', color=BLUE)
-        fit(ax, P(F2), margin=0.06, extra=[xy(B(-1.0, -3.2)), xy(B(12.8, 11.4))], pad_aspect=True)
-        if k == 0:
-            z.callout(B(10.0, 0.9), '（イ）の玄関', dirs=(90, 110, 70), fs=12, color=BLUE, dists=(30, 45, 60))
-            z.free_text(B(5.9, 9.7), '（ロ）共同住宅 → 会社へ譲渡', fs=13, weight='bold', color=GREEN)
         zs.append(z)
     zs[2].north_arrow()
-    save(fig, zs, 'H27_dai22mon_zu01_kubun_zentaizou')
+    save(fig, zs, 'H27_dai22mon_zu01_kubun_zentaizu')
 
 
 # ---- 図2：敷地の辺長確認図 ----
 def zu02():
     fig, axes = new_figure('本件土地（5番27）の辺長確認図（作図チェック用）',
-                           '東西 2.00＋10.92＋5.00＝17.92、南北 2.50＋6.37＋4.50＝13.37。17.92×13.37＝239.5904→239.59㎡（登記記録の地積と一致）。辺長は建物図面には書かない',
-                           w=16, h=12)
+                           '東西 2.00＋10.92＋5.00＝17.92、南北 2.50＋6.37＋4.50＝13.37。17.92×13.37＝239.5904→239.59㎡（登記記録の地積と一致）。'
+                           '辺長は建物図面には書かない', w=16, h=12)
     ax = axes[0]
     z = Zu(ax, fontsize=15)
-    z.poly(SITE, color=BLACK, lw=2.4, fill=BLUE, alpha=0.08)
-    z.poly([to_site(p) for p in P(F1)], color=GRAY, lw=1.2, check=False)
     fit(ax, SITE, margin=0.10, extra=[(-3.8, -3.2), (22.0, 16.8)], pad_aspect=True)
     z.north_arrow()
-    c = complex(6.7, 9.0)
-    dims(z, SITE, ['17.92', '13.37', '17.92', '13.37'], fs=16, ref=c)
+    z.poly(SITE, color=BLACK, lw=2.4, fill=BLUE, alpha=0.08)
+    z.poly([to_site(p) for p in P(F1)], color=GRAY, lw=1.2, check=False)
+    dims(z, SITE, ['17.92', '13.37', '17.92', '13.37'], fs=16, ref=complex(6.7, 9.0))
     z.free_text(complex(-2.3, 8.96), '（2.00＋10.92＋5.00）', fs=13, color=GRAY)
     z.free_text(complex(6.685, 20.6), '（2.50＋6.37＋4.50）', fs=13, color=GRAY, rotation=90)
     z.free_text(complex(6.2, 8.2), '本件土地（5－27）\n239.59㎡', fs=16)
@@ -167,15 +176,27 @@ def zu02():
     save(fig, [z], 'H27_dai22mon_zu02_shikichi_henchou')
 
 
-# ---- 図3：建物図面（イ）の完成形 ----
+# ---- 図3：建物図面（イ）の完成形（答案用紙の第3欄の形） ----
 def zu03():
-    fig, axes = new_figure('建物図面（イ）の完成形（縮尺1/500で描く内容）',
-                           '家屋番号 B町二丁目5番27の1　建物の所在 A市B町二丁目5番地27。（イ）部分の地上の最低階（1階の居宅部分専用玄関）を実線、\n'
-                           '一棟の建物の1階を点線。距離は見取図の数値どおり（北西の角2.50、玄関の北東の角2.50・5.00）。敷地の辺長は書かない',
-                           w=16, h=12)
-    fig.subplots_adjust(bottom=0.15)
-    ax = axes[0]
+    setup_font()
+    fig = plt.figure(figsize=(16, 14), dpi=100)
+    fig.patch.set_facecolor('white')
+    fig.suptitle('建物図面（イ）の完成形（答案用紙の第3欄・縮尺1/500で描く内容）', fontsize=22, weight='bold', y=0.985)
+    # 答案用紙の欄
+    cell(fig, 0.06, 0.885, 0.20, 0.935, '家屋番号', fs=15)
+    cell(fig, 0.20, 0.885, 0.46, 0.935, 'B町二丁目5番27の1', fs=16, color=INK)
+    fig.text(0.70, 0.910, '建　物　図　面　（イ）', ha='center', va='center', fontsize=20)
+    cell(fig, 0.06, 0.835, 0.20, 0.885, '建物の所在', fs=15)
+    cell(fig, 0.20, 0.835, 0.94, 0.885, 'A市B町二丁目5番地27', fs=16, ha='left', color=INK)
+    cell(fig, 0.06, 0.085, 0.94, 0.835, lw=1.8)
+    cell(fig, 0.06, 0.035, 0.20, 0.085, '申　請　人', fs=15)
+    cell(fig, 0.20, 0.035, 0.74, 0.085, '（略）', fs=15)
+    cell(fig, 0.74, 0.035, 0.83, 0.085, '縮尺', fs=15)
+    cell(fig, 0.83, 0.035, 0.94, 0.085, '1/500', fs=15)
+    ax = fig.add_axes([0.08, 0.10, 0.84, 0.72])
     z = Zu(ax, fontsize=14)
+    fit(ax, SITE, margin=0.10, extra=[(-4.0, -3.8), (22.8, 17.0)], pad_aspect=True)
+    z.north_arrow()
     z.poly(SITE, color=BLACK, lw=2.2)
     z.line(complex(NS, 0), complex(NS + 2.2, 0), color=BLACK, lw=1.6)        # 西側の線を北へ
     z.line(complex(0, 0), complex(-2.2, 0), color=BLACK, lw=1.6)             # 西側の線を南へ
@@ -189,8 +210,6 @@ def zu03():
     assert round(area(f1), 4) == 83.6381 and round(area(gen), 4) == 3.3124
     assert round(NS - max(p.real for p in f1), 2) == 2.50 and round(min(p.imag for p in f1), 2) == 2.00
     assert round(EW - max(p.imag for p in gen), 2) == 5.00 and round(min(p.real for p in f1), 2) == 2.68
-    fit(ax, SITE, margin=0.10, extra=[(-4.0, -3.8), (22.8, 17.0)], pad_aspect=True)
-    z.north_arrow()
     dim_line(z, complex(NS, 2.0), complex(NS - 2.5, 2.0), '2.50', dirs=(200, 215, 185, 160))
     dim_line(z, complex(NS, 12.92), complex(NS - 2.5, 12.92), '2.50', dirs=(160, 145, 175, 130))
     dim_line(z, complex(NS - 2.5, 12.92), complex(NS - 2.5, EW), '5.00', dirs=(-60, -75, -45, -90))
@@ -203,28 +222,25 @@ def zu03():
     z.free_text(complex(15.0, -1.4), '5－10', fs=15)
     z.free_text(complex(-1.4, -1.4), '5－12', fs=15)
     z.free_text(complex(3.5, 19.4), '道路\n42', fs=15)
+    z.free_text(complex(-3.2, 16.3), '（単位：m）', fs=13)
     save(fig, [z], 'H27_dai22mon_zu03_tatemono_zumen')
-
-
-def tate_label(z, e, s, text, fs=13, color=BLACK):
-    z.free_text(B(e, s), text, fs=fs, color=color)
 
 
 # ---- 図4：（イ）部分2階の求積図 ----
 def zu04():
     fig, axes = new_figure('（イ）部分2階部分の床面積求積図（内法）',
-                           '11.68×6.22＋7.13×0.91＋5.31×0.91＝83.97㎡。段差0.91・1.82・0.91とB点からA点の4.55は壁心と同じ。点線は1階の位置（居宅部分専用玄関）',
-                           w=16, h=12)
+                           '11.68×6.22＋7.13×0.91＋5.31×0.91＝83.97㎡。段差0.91・1.82・0.91とB点からA点の4.55は壁心と同じ。'
+                           '点線は1階の位置（居宅部分専用玄関）', w=16, h=12)
     ax = axes[0]
     z = Zu(ax, fontsize=15)
+    fit(ax, P(I2), margin=0.20, extra=[xy(B(5.9, 11.0))], pad_aspect=True)
+    z.north_arrow()
     for r, c in zip(I2_R, [BLUE, ORANGE, PURPLE]):
         z.poly(P(r), color=c, lw=0, fill=c, alpha=0.25, check=False)
     z.line(B(0.075, 6.295), B(7.205, 6.295), color=GRAY, lw=1.0, ls='--')
     z.line(B(0.075, 7.205), B(5.385, 7.205), color=GRAY, lw=1.0, ls='--')
     z.poly(P(I2), color=BLACK, lw=2.4)
     z.poly(P(I1), color=BLACK, lw=1.4, ls='--')
-    fit(ax, P(I2), margin=0.20, extra=[xy(B(5.9, 11.0))], pad_aspect=True)
-    z.north_arrow()
     pt_mark(z, B(11.755, 6.295), 'A点', centroid(P(I2)))
     pt_mark(z, B(7.205, 6.295), 'B点', B(6.0, 3.0))
     dims(z, P(I2), ['11.68', '6.22', '4.55', '0.91', '1.82', '0.91', '5.31', '8.04'], fs=15)
@@ -244,13 +260,13 @@ def zu05():
     fig.subplots_adjust(top=0.84)
     # 誤り
     z = Zu(axes[0], fontsize=13)
+    axes[0].set_title('誤り：欠けの幅を5.46のまま（藍子）', fontsize=16, weight='bold', color=RED)
+    fit(axes[0], P(F3), margin=0.18, extra=[xy(B(6, -0.6)), xy(B(6, 9.6))], pad_aspect=True)
     z.poly(P(F3), color=GRAY, lw=1.0, ls=':', check=False)
     wrong = [(0.075, 1.895), (2.655, 1.895), (2.655, 2.805), (8.115, 2.805), (8.115, 1.895), (11.605, 1.895)]
     right_side = [(11.755, 1.895), (11.755, 6.295), (7.205, 6.295), (7.205, 7.205), (0.075, 7.205), (0.075, 1.895)]
     z.poly(P(wrong), color=RED, lw=2.4, closed=False)
     z.poly(P(right_side), color=BLACK, lw=2.0, closed=False)
-    axes[0].set_title('誤り：欠けの幅を5.46のまま（藍子）', fontsize=16, weight='bold', color=RED)
-    fit(axes[0], P(F3), margin=0.18, extra=[xy(B(6, -0.6)), xy(B(6, 9.6))], pad_aspect=True)
     z.edge_label(B(0.075, 1.895), B(2.655, 1.895), '2.58', B(6, 5), fs=13)
     z.edge_label(B(2.655, 2.805), B(8.115, 2.805), '5.46', B(6, 1.0), fs=14, color=RED, outward=False)
     z.edge_label(B(8.115, 1.895), B(11.605, 1.895), '3.49', B(6, 5), fs=13)
@@ -260,8 +276,10 @@ def zu05():
     z.free_text(B(5.9, 4.6), '北：2.58＋5.46＋3.49＝11.53\n南：7.13＋4.55＝11.68', fs=13, color=RED)
     # 拡大（欠けの両側の壁）。壁の厚さを誇張した模式図（d＝壁の中心線から内壁の面まで。実際は0.075）
     z2 = Zu(axes[1], fontsize=12)
+    axes[1].set_title('北側の欠け（模式図・壁の厚さは誇張）', fontsize=15, weight='bold')
+    fit(axes[1], P(rect(-0.3, -0.6, 8.3, 5.4)), margin=0.02, pad_aspect=True)
     d = 0.45
-    cl = [(0, 1), (1.6, 1), (1.6, 3), (6.4, 3), (6.4, 1), (8, 1)]            # 壁の中心線（欠けの幅は模式で4.80）
+    cl = [(0, 1), (1.6, 1), (1.6, 3), (6.4, 3), (6.4, 1), (8, 1)]
     inner = [(0, 1 + d), (1.6 - d, 1 + d), (1.6 - d, 3 + d), (6.4 + d, 3 + d), (6.4 + d, 1 + d), (8, 1 + d)]
     outer = [(0, 1 - d), (1.6 + d, 1 - d), (1.6 + d, 3 - d), (6.4 - d, 3 - d), (6.4 - d, 1 - d), (8, 1 - d)]
     band = inner + outer[::-1]
@@ -269,8 +287,6 @@ def zu05():
     axes[1].add_patch(MPoly([xy(p) for p in P(band)], closed=True, fill=False, hatch='///', edgecolor=GRAY, lw=0, zorder=1))
     z2.poly(P(cl), color=BLACK, lw=1.4, ls='-.', closed=False)
     z2.poly(P(inner), color=GREEN, lw=3.2, closed=False)
-    axes[1].set_title('北側の欠け（模式図・壁の厚さは誇張）', fontsize=15, weight='bold')
-    fit(axes[1], P(rect(-0.3, -0.6, 8.3, 5.4)), margin=0.02, pad_aspect=True)
     for e0, e1 in [(1.6, 1.6 - d), (6.4, 6.4 + d)]:
         axes[1].annotate('', xy=xy(B(e1, 2.0)), xytext=xy(B(e0, 2.0)),
                          arrowprops=dict(arrowstyle='-|>', lw=1.8, color=RED, shrinkA=0, shrinkB=0, mutation_scale=14))
@@ -290,10 +306,10 @@ def zu05():
     z2.callout(B(4.0, 3 + d), '内壁の面（内法）', dirs=(-45, -30, -60, -135), fs=12, color=GREEN, dists=(55, 70, 85))
     # 正解
     z3 = Zu(axes[2], fontsize=13)
-    z3.poly(P(F3), color=GRAY, lw=1.0, ls=':', check=False)
-    z3.poly(P(I3), color=GREEN, lw=2.4, fill=GREEN, alpha=0.20)
     axes[2].set_title('正解：欠けの幅は5.61に広がる', fontsize=16, weight='bold', color=GREEN)
     fit(axes[2], P(F3), margin=0.18, extra=[xy(B(6, -0.6)), xy(B(6, 9.6))], pad_aspect=True)
+    z3.poly(P(F3), color=GRAY, lw=1.0, ls=':', check=False)
+    z3.poly(P(I3), color=GREEN, lw=2.4, fill=GREEN, alpha=0.20)
     z3.edge_label(B(0.075, 1.895), B(2.655, 1.895), '2.58', B(6, 5), fs=13)
     z3.edge_label(B(2.655, 2.805), B(8.265, 2.805), '5.61', B(6, 1.0), fs=14, color=GREEN, outward=False)
     z3.edge_label(B(8.265, 1.895), B(11.755, 1.895), '3.49', B(6, 5), fs=13)
@@ -310,6 +326,8 @@ def zu06():
                            w=16, h=12)
     ax = axes[0]
     z = Zu(ax, fontsize=15)
+    fit(ax, P(I3) + P(I1), margin=0.18, extra=[xy(B(5.9, 10.2))], pad_aspect=True)
+    z.north_arrow()
     for r, c in zip(I3_R, [ORANGE, PURPLE, BLUE, GREEN]):
         z.poly(P(r), color=c, lw=0, fill=c, alpha=0.25, check=False)
     z.line(B(0.075, 2.805), B(2.655, 2.805), color=GRAY, lw=1.0, ls='--')
@@ -317,8 +335,6 @@ def zu06():
     z.line(B(0.075, 6.295), B(7.205, 6.295), color=GRAY, lw=1.0, ls='--')
     z.poly(P(I3), color=BLACK, lw=2.4)
     z.poly(P(I1), color=BLACK, lw=1.4, ls='--')
-    fit(ax, P(I3) + P(I1), margin=0.18, extra=[xy(B(5.9, 10.2))], pad_aspect=True)
-    z.north_arrow()
     pt_mark(z, B(11.755, 6.295), 'A点', centroid(P(I3)))
     pt_mark(z, B(7.205, 6.295), 'B点', B(6.0, 4.0))
     dims(z, P(I3), ['2.58', '0.91', '', '0.91', '', '4.40', '4.55', '0.91', '7.13', '5.31'], fs=15)
@@ -336,20 +352,21 @@ def zu06():
 # ---- 図7：1階の求積図（（イ）部分の玄関と（ロ）部分） ----
 def zu07():
     fig, axes = new_figure('1階の床面積求積図（内法）：（イ）部分の玄関と（ロ）部分',
-                           '（イ）部分1階部分 1.67×1.67＝2.78㎡。（ロ）部分1階部分 8.95×1.82＋11.68×4.40＋6.22×0.91＋4.40×0.91＝77.34㎡',
-                           w=16, h=12)
+                           '（イ）部分1階部分 1.67×1.67＝2.78㎡。（ロ）部分1階部分 8.95×1.82＋11.68×4.40＋6.22×0.91＋4.40×0.91＝77.34㎡'
+                           '（101号室と102号室の間の仕切りは引かない）', w=16, h=12)
     ax = axes[0]
     z = Zu(ax, fontsize=15)
+    fit(ax, P(F1), margin=0.20, extra=[xy(B(5.9, 10.9))], pad_aspect=True)
+    z.north_arrow()
     z.poly(P(F1), color=GRAY, lw=1.0, ls=':', check=False)
     for r, c in zip(RO_R, [GREEN, ORANGE, PURPLE, RED]):
         z.poly(P(r), color=c, lw=0, fill=c, alpha=0.22, check=False)
     z.line(B(0.075, 1.895), B(9.025, 1.895), color=GRAY, lw=1.0, ls='--')
     z.line(B(0.075, 6.295), B(6.295, 6.295), color=GRAY, lw=1.0, ls='--')
     z.line(B(0.075, 7.205), B(4.475, 7.205), color=GRAY, lw=1.0, ls='--')
+    z.line(B(4.55, 0.075), B(4.55, 8.115), color=GREEN, lw=1.0, ls=(0, (1, 3)), check=False)   # 101・102の仕切り（引かない）
     z.poly(P(RO), color=BLACK, lw=2.4)
     z.poly(P(I1), color=BLUE, lw=2.4, fill=BLUE, alpha=0.35)
-    fit(ax, P(F1), margin=0.20, extra=[xy(B(5.9, 10.9))], pad_aspect=True)
-    z.north_arrow()
     z.edge_label(B(9.025, 0.075), B(9.025, 1.895), '1.82', centroid(P(RO)), fs=15, outward=False)
     dims(z, P(RO), ['8.95', '', '', '4.40', '5.46', '0.91', '1.82', '0.91', '4.40', '8.04'], fs=15)
     z.callout(B(10.39, 1.895), '2.73', dirs=(-30, -50, -15), fs=15, dists=(35, 50, 65))
@@ -362,18 +379,27 @@ def zu07():
     save(fig, [z], 'H27_dai22mon_zu07_1kai_kyuuseki')
 
 
-# ---- 図8：各階平面図の完成形（問3） ----
+# ---- 図8：各階平面図（イ）の完成形（答案用紙の第3欄の形） ----
 def zu08():
-    fig, axes = new_figure('各階平面図（イ）の完成形（縮尺1/250で描く内容）',
-                           '内法の寸法で「1階部分」「2階部分」「3階部分」を書き分け、1階以外の階には1階の位置を点線で示す。\n'
-                           '問3のなお書きどおり、求積方法と床面積は書かない',
-                           w=18, h=9, ncols=3, width_ratios=[0.55, 1, 1])
-    fig.subplots_adjust(top=0.84, bottom=0.16)
+    setup_font()
+    fig = plt.figure(figsize=(18, 10), dpi=100)
+    fig.patch.set_facecolor('white')
+    fig.suptitle('各階平面図（イ）の完成形（答案用紙の第3欄・縮尺1/250で描く内容）', fontsize=22, weight='bold', y=0.975)
+    fig.text(0.5, 0.905, '各　階　平　面　図', ha='center', va='center', fontsize=20)
+    cell(fig, 0.04, 0.13, 0.96, 0.88, lw=1.8)
+    cell(fig, 0.04, 0.06, 0.14, 0.13, '作　成　者', fs=15)
+    cell(fig, 0.14, 0.06, 0.78, 0.13, '（略）　　　　　　　　　　　　（平成何年何月何日作成）', fs=15)
+    cell(fig, 0.78, 0.06, 0.86, 0.13, '縮尺', fs=15)
+    cell(fig, 0.86, 0.06, 0.96, 0.13, '1/250', fs=15)
+    fig.text(0.5, 0.025, '内法の寸法で「1階部分」「2階部分」「3階部分」を書き分け、1階以外の階には1階の位置を点線で示す。'
+             '問3のなお書きどおり、求積方法と床面積は書かない', ha='center', va='center', fontsize=14)
+    axes = [fig.add_axes([0.05, 0.16, 0.16, 0.64]), fig.add_axes([0.23, 0.16, 0.35, 0.64]),
+            fig.add_axes([0.60, 0.16, 0.35, 0.64])]
     zs = []
     z = Zu(axes[0], fontsize=13)
-    z.poly(P(I1), color=BLACK, lw=2.4)
     axes[0].set_title('1階部分', fontsize=17, weight='bold')
     fit(axes[0], P(I1), margin=0.9, pad_aspect=True)
+    z.poly(P(I1), color=BLACK, lw=2.4)
     dims(z, P(I1), ['1.67', '1.67', '1.67', '1.67'], fs=13)
     zs.append(z)
     for k, (pts, labels, name) in enumerate([
@@ -381,18 +407,17 @@ def zu08():
             (I3, ['2.58', '0.91', '5.61', '0.91', '3.49', '4.40', '4.55', '0.91', '7.13', '5.31'], '3階部分')]):
         ax = axes[k + 1]
         z = Zu(ax, fontsize=13)
-        z.poly(P(pts), color=BLACK, lw=2.4)
-        z.poly(P(I1), color=BLACK, lw=1.3, ls='--')
         ax.set_title(name, fontsize=17, weight='bold')
         fit(ax, P(I2), margin=0.18, pad_aspect=True)
+        z.poly(P(pts), color=BLACK, lw=2.4)
+        z.poly(P(I1), color=BLACK, lw=1.3, ls='--')
         ref = B(5.9, 4.5)
         for i, t in enumerate(labels):
             if name == '3階部分' and i == 4:
                 z.callout(B(11.3, 1.895), t, dirs=(30, 15, 45), fs=13, dists=(35, 50, 65))
                 continue
-            if t:
-                z.edge_label(P(pts)[i], P(pts)[(i + 1) % len(pts)], t, ref, fs=13,
-                             outward=not (name == '3階部分' and i == 2))
+            z.edge_label(P(pts)[i], P(pts)[(i + 1) % len(pts)], t, ref, fs=13,
+                         outward=not (name == '3階部分' and i == 2))
         zs.append(z)
     zs[2].north_arrow()
     save(fig, zs, 'H27_dai22mon_zu08_kakukai_heimenzu')
@@ -401,6 +426,7 @@ def zu08():
 # ---- 図9：本番で解く順番 ----
 def zu09():
     """本番で解く順番。固定配置の図なので重なり検査の対象外。"""
+    setup_font()
     fig = plt.figure(figsize=(16, 8), dpi=100)
     fig.patch.set_facecolor('white')
     fig.suptitle('本番で解く順番　依頼人の希望から問1・問2の筋を先に決める', fontsize=24, weight='bold', y=0.965)
