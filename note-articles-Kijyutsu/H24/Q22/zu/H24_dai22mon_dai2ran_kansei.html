@@ -1,0 +1,56 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 60px 60px 40px; display: flex; flex-direction: column; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 40px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 24px; }
+.lab { width: 190px; font-size: 22px; padding-top: 10px; white-space: nowrap; line-height: 1.4; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.dateline { font-size: 22px; margin: 2px 0 22px 0; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 20px; }
+.plainrow .ryaku { flex: 1; padding: 10px 0 0 20px; }
+.sec { font-size: 24px; margin: 34px 0 0; }
+table.t { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; margin-top: 18px; }
+table.t td { border: 1.5px solid #111; font-size: 19px; padding: 8px 8px; vertical-align: middle; line-height: 1.5; }
+table.t td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.35em; padding: 0; font-size: 21px; }
+table.t td.lab2 { text-align: center; font-size: 18px; }
+table.t td.head { text-align: center; font-size: 17px; height: 76px; }
+table.t td.val { height: 52px; }
+table.t td.entry { height: 110px; }
+table.t td.center { text-align: center; }
+table.t td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.t td.genin { font-size: 17px; }
+table.t td .ink { font-size: 19px; }
+table.t td.genin .ink { font-size: 18px; }
+.diag { height: 330px; background: linear-gradient(to top right, transparent calc(50% - 1px), #111 calc(50% - 1px),
+          #111 calc(50% + 1px), transparent calc(50% + 1px)); }
+.lined { border: 2px solid #111; margin-top: 18px; }
+.lined div { border-bottom: 1.2px dashed #777; min-height: 50px; padding: 8px 18px; font-size: 21px; line-height: 1.55; }
+.lined div:last-child { border-bottom: none; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 34px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.add { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold;
+        border-bottom: 3px solid #d0021b; }
+.caret { color: #d0021b; font-weight: bold; font-size: 26px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; left: 160px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0; }
+.note { margin-top: 12px; font-size: 19px; color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body><div class="page">
+<div class="sec" style="margin-top:0">第2欄</div>
+<div class="lined"><div><span class="ink">敷地権とは、区分建物の敷地利用権（専有部分を所有するための建物の敷地</span></div><div><span class="ink">に関する権利）のうち、登記されたものであって、区分所有法第22条第1項本</span></div><div><span class="ink">文（同条第3項において準用する場合を含む。）の規定により、区分所有者の</span></div><div><span class="ink">有する専有部分と分離して処分することができないものをいう。本件の一棟</span></div><div><span class="ink">の建物の敷地は120番1と120番2の2筆で、120番1は乙川夏子が、120番2は甲</span></div><div><span class="ink">野春男がそれぞれ単独で所有し、相手方の土地は無償で使用する合意がある</span></div><div><span class="ink">にすぎない。敷地利用権は数人で有する権利ではなく、専有部分の全部を所</span></div><div><span class="ink">有する者の権利でもないから、分離処分は禁止されない。また、無償で使用す</span></div><div><span class="ink">る権利（使用借権）は登記することができない。したがって、本件の敷地利用</span></div><div><span class="ink">権は敷地権に当たらず、敷地権は登記されない。</span></div><div></div><div></div></div>
+<div class="caption">平成24年度 土地家屋調査士試験 第22問 問3（第2欄）解答例</div>
+</div></body></html>
