@@ -1,0 +1,67 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 80px 70px 40px; min-height: 1650px; display: flex; flex-direction: column; }
+.page .caption { margin-top: auto; padding-top: 30px; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 56px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 32px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 26px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.plain { font-size: 22px; margin: 4px 0 26px; }
+.dairi { display: flex; font-size: 22px; margin-bottom: 30px; }
+.dairi .lab { padding-top: 0; }
+.dairi .txt { flex: 1; line-height: 1.6; }
+table.land { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.land td { border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; }
+table.land.compact td.vert { letter-spacing: 0.02em; font-size: 15px; }
+.box.fix { line-height: 1.75; }
+table.land td.head { height: 50px; text-align: center; font-size: 20px; }
+table.land td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }
+table.land td.shozai-lab { text-align: center; height: 76px; }
+table.land td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }
+table.land td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }
+table.land td.chimoku { text-align: center; }
+table.land td .ink, .box .ink { font-size: 26px; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 70px 30px; border-bottom: 2px solid #bbb; }
+.panel:last-of-type { border-bottom: none; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { position: relative; }
+.strike::after { content: ""; position: absolute; left: -4px; right: -4px; top: 52%; border-top: 3px solid #d0021b;
+                  transform: rotate(-2deg); }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.over { position: relative; display: inline-block; }
+.item { display: inline-block; white-space: nowrap; margin-right: 0.9em; }
+.over .up { position: absolute; left: 0; top: -30px; font-size: 24px; white-space: nowrap; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; left: 60px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: -12px 0 20px 170px; }
+.bubrow.table { margin: 14px 0 0 200px; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; border-radius: 2px; background: #f1faf2; }
+.okrow { position: relative; }
+.check { position: absolute; right: -8px; top: -30px; }
+</style></head><body>
+<div class="panel"><div class="ptitle ng">①誤答</div><div class="row okrow"><div class="lab">添　付　書　類</div><div class="box" style="min-height:110px"><span class="item"><span class="ink">土地所在図</span></span><span class="item"><span class="ink">地積測量図</span></span><span class="item"><span class="ink">所有権証明書</span></span><span class="item"><span class="ink">住所証明書</span></span><span class="item"><span class="ink">資格証明書</span></span><span class="item"><span class="ink">代理権限証書</span></span></div></div>
+
+<div class="plain" style="color:#888;font-size:18px">（申請の日付と提出先・申請人・代理人の欄は省略）</div>
+<div class="" style="position:relative"><table class="land compact"><colgroup><col style="width:6%"><col style="width:18%"><col style="width:15%"><col style="width:13%"><col style="width:7%"><col style="width:41%"></colgroup><tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4"><span class="ink">Ａ市Ｂ町五丁目</span></td></tr><tr><td class="vert" rowspan="2">土地の表示</td><td class="head">①地番</td><td class="head">②地目</td><td class="head" colspan="2">③地積　　m²</td><td class="head">登記原因及びその日付</td></tr><tr><td></td><td class="chimoku"><span class="ink">宅地</span></td><td class="int"><span class="ink">113</span></td><td class="dec"><span class="ink">87</span></td><td><span class="ink">昭和26年8月19日時効取得</span></td></tr></table></div>
+</div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><div class="row okrow"><div class="lab">添　付　書　類</div><div class="box fix" style="min-height:110px"><span class="item"><span class="ink">土地所在図</span></span><span class="item"><span class="ink">地積測量図</span></span><span class="item"><span class="ink">所有権証明書</span></span><span class="item"><span class="ink">住所証明書</span></span><span class="item"><span class="ink strike">資格証明書</span></span><span class="item"><span class="ink">代理権限証書</span></span></div></div>
+<div class="bubrow"><span class="bubble">問題文の注5：登記所が同一なので資格証明書は不要</span></div>
+<div class="plain" style="color:#888;font-size:18px">（申請の日付と提出先・申請人・代理人の欄は省略）</div>
+<div class="" style="position:relative"><table class="land compact"><colgroup><col style="width:6%"><col style="width:18%"><col style="width:15%"><col style="width:13%"><col style="width:7%"><col style="width:41%"></colgroup><tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4"><span class="ink">Ａ市Ｂ町五丁目</span></td></tr><tr><td class="vert" rowspan="2">土地の表示</td><td class="head">①地番</td><td class="head">②地目</td><td class="head" colspan="2">③地積　　m²</td><td class="head">登記原因及びその日付</td></tr><tr><td></td><td class="chimoku"><span class="over"><span class="red up">境内地</span><span class="ink strike">宅地</span></span></td><td class="int"><span class="ink">113</span></td><td class="dec"><span class="ink strike">87</span></td><td><span class="over"><span class="red up">不詳</span><span class="ink strike">昭和26年8月19日時効取得</span></span></td></tr></table></div>
+<div class="bubrow table"><span class="bubble">境内地は1㎡未満切捨て、原因は土地が生じた原因の不詳</span></div></div>
+<div class="panel"><div class="ptitle ok">③正解</div><div class="row okrow"><div class="lab">添　付　書　類</div><div class="box good" style="min-height:110px"><span class="ink">土地所在図　地積測量図　所有権証明書　住所証明書　代理権限証書</span></div><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+
+<div class="plain" style="color:#888;font-size:18px">（申請の日付と提出先・申請人・代理人の欄は省略）</div>
+<div class="good" style="position:relative"><table class="land compact"><colgroup><col style="width:6%"><col style="width:18%"><col style="width:15%"><col style="width:13%"><col style="width:7%"><col style="width:41%"></colgroup><tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4"><span class="ink">Ａ市Ｂ町五丁目</span></td></tr><tr><td class="vert" rowspan="2">土地の表示</td><td class="head">①地番</td><td class="head">②地目</td><td class="head" colspan="2">③地積　　m²</td><td class="head">登記原因及びその日付</td></tr><tr><td></td><td class="chimoku"><span class="ink">境内地</span></td><td class="int"><span class="ink">113</span></td><td class="dec"></td><td><span class="ink">不詳</span></td></tr></table><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+</div>
+<div class="caption" style="margin:10px 0 30px">平成23年度 第21問｜資格証明書は注5で不要、境内地113㎡、原因は不詳</div></body></html>
