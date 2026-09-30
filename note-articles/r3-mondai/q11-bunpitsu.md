@@ -46,7 +46,9 @@
 
 分筆の登記は、表題部所有者または所有権の登記名義人が申請するものです（不動産登記法39条1項）。ＡとＢが持分各2分の1で共有する土地について、Ａが申請情報と併せてＢの承諾を証する情報を提供したとしても、Ａが単独で分筆の登記を申請することはできません。分筆の登記を申請するには、Ｂも申請人となる必要があり、単に共有者Ｂの承諾書を添えるだけでは足りないからです。
 
-**たとえば**、友人と半分ずつお金を出して共同で買った土地を2つに分けたいとき、片方が「相方も了承しているから」と了承の書面だけを持って一人で分筆の登記に行っても手続きはできず、二人そろって申請人にならなければならない、という感覚です。
+なお、2023年4月1日に施行された民法改正により、共有物の管理に関する事項（分筆の登記のように、共有物の形状又は効用の著しい変更を伴わない軽微な変更を含みます）は、共有者の持分の価格に従い、その過半数で決することができるようになりました（民法251条1項・252条1項）。これを受けて、持分の価格の合計が過半数となる共有者だけで分筆の登記を申請できる取扱いになっています。もっとも、本問のＡ・Ｂの持分はそれぞれ2分の1ずつであり、どちらの持分も「過半数」（2分の1を超える割合）には達しません。したがって、この現行法上の取扱いを踏まえても、Ａの持分だけでは過半数に届かず、Ｂも申請人とならなければ分筆の登記を申請することはできないという結論に変わりはありません。
+
+**たとえば**、友人と半分ずつお金を出して共同で買った土地を2つに分けたいとき、片方が「相方も了承しているから」と了承の書面だけを持って一人で分筆の登記に行っても手続きはできず、二人そろって申請人にならなければならない、という感覚です。今は持分の過半数を有する共有者だけで申請できる制度もありますが、ちょうど半分ずつの持分では「過半数」には届かないため、この事例でもやはり二人そろっての申請が必要になります。
 
 ### まとめ
 
@@ -54,7 +56,7 @@
 - **イ（正）** 分筆の登記に賃借権の登記名義人の承諾を証する情報は添付情報とされていない
 - **ウ（誤）** 消滅承諾情報を提供しても「消滅した旨」は甲土地側への付記登記で記録され、乙土地には抵当権自体が転写されないだけ
 - **エ（誤）** 相続財産管理人（現行法では相続財産清算人）の分筆の登記申請に家庭裁判所の許可を証する情報は不要
-- **オ（正）** 共有地の分筆はＡ単独では申請できず、承諾書提供では足りずＢも申請人となる必要がある
+- **オ（正）** 共有地の分筆はＡ単独では申請できない（持分が各2分の1で過半数に届かないため）
 
 分筆の登記は「名義」と「申請できる資格」を切り分け、承諾情報が要る場面と要らない場面を丁寧に区別できるかが得点の分かれ目です。
 
@@ -67,7 +69,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和3年度 午後の部 第11問）・正解番号（3番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
 - 各肢の根拠のうち、条文・先例レベルで確認できたものと、一般原則からの推論にとどまるものを区別すると次のとおりです。ア（申請人適格）とオ（共有地の分筆で単独申請不可）は不動産登記法39条1項です。`note-articles/laws/fudousan-touki-hou.md`で確認したところ、39条1項「分筆又は合筆の登記は、表題部所有者又は所有権の登記名義人以外の者は、申請することができない」がまさに該当する規定であり、条番号は正確でした。ウ（消滅承諾時の記録のされ方）は、当初「不動産登記規則104条1項」としていましたが、`note-articles/laws/fudousan-touki-hou.md`（法40条）と`note-articles/laws/fudousan-touki-kisoku-1.md`（規則104条）の条文原文を確認した結果、法40条により「乙土地について当該権利が消滅した旨」の登記自体はされるものの、規則104条2項によりそれは乙土地の登記記録にではなく分筆後の甲土地の登記記録上の付記登記として記録され、乙土地には当該権利の登記を転写すること自体が不要とされる、という規律であることが判明しました。104条1項は添付情報（消滅を承諾したことを証する情報等）の要件を定めた規定であり、本肢の「乙土地の登記記録に消滅した旨が記録されるか」という論点に直接対応するのは2項であるため、「規則104条2項」に訂正し、本文の説明も付記登記の所在（甲土地側）まで正確に記載するよう修正しました（なお104条4項・5項が地役権への準用規定で、2項・3項が一般の権利＝抵当権等を含む本則です）。エ（家庭裁判所の許可が不要であること）について、`note-articles/laws/minpou-3-shinzoku-souzoku.md`で確認したところ、相続人のあることが明らかでない場合の相続財産の管理人（現行民法952条・953条）には民法27条から29条までが準用され、`note-articles/laws/minpou-1-soukyoku-bukken.md`の民法28条により、民法103条（保存行為並びに利用・改良行為）の権限を超えるときに限り家庭裁判所の許可が必要とされることを確認しました。分筆の登記がこの103条の範囲内（保存・管理行為的なもの）にとどまるという当てはめ自体は、条文から論理的に導けるものの、その当てはめを明示した先例として挙げた「登記研究516号195頁」は、WebSearchでは当該先例番号・掲載ページを裏付ける一次資料を発見できず、確認できていません。また、令和3年度の出題当時は民法（旧）952条により「相続財産管理人」と呼ばれていたこの管理人は、2023年4月1日施行の民法改正後は「相続財産清算人」と呼称が改められていますが、家庭裁判所の許可の要否という結論自体には影響しません。イ（賃借権の登記名義人の承諾が添付情報とされていないこと）は、データベース上「添付情報とされていない」という実務上の取扱いとして記載されているもので、特定の条文番号までは確定できていません。抵当権を例にした一般原則（分筆は既存の権利を消滅・変更させないため、第三者の承諾証明情報は分筆登記の添付情報として求められないこと＝不動産登記令7条1項5号ハの反対解釈）は、`note-articles/laws/fudousan-touki-rei.md`で確認したところ、令7条1項5号は「権利に関する登記を申請するとき」に限定される規定であり、表示に関する登記である分筆の登記には適用されないため、反対解釈として妥当と考えられますが、賃借権に特化した一次資料は見つからず、条文レベルの断定は避けています。
-- なお、共有地の分筆登記に共有者全員の申請が必要とする点（ア・オの根拠である39条1項の解釈）は、令和3年度の出題当時の実務・解釈に基づくものです。2023年4月1日施行の改正民法（`note-articles/laws/minpou-1-soukyoku-bukken.md`の251条・252条、軽微な変更を管理行為として持分の過半数で決することができる旨の規定）を受けた令和5年3月28日民二第533号通達により、分筆・合筆登記は「軽微な変更」に該当し、申請しようとする土地の持分の価格の合計が過半数となる共有者らのみで申請できるようになりました。もっとも、本肢オの事案はＡ・Ｂの持分が各2分の1であり、どちらか一方の持分だけでは「過半数」（2分の1を超える割合）に達しないため、この2023年の改正・通達を前提にしても、Ａ・Ｂの双方が申請人とならない限り分筆の登記を申請することはできません。したがって、現行法・現行実務のもとでも、Ａが単独では申請できないという本肢オの結論（誤り）自体は変わらないと判断しました。
+- オの論点について：2023年4月1日施行の改正民法（`note-articles/laws/minpou-1-soukyoku-bukken.md`の251条・252条、軽微な変更を管理行為として持分の過半数で決することができる旨の規定）により、分筆登記は持分の価格の合計が過半数となる共有者らのみで申請できる取扱いになっていることは、本文中で解説を追記済みです。もっとも、本肢オの事案はＡ・Ｂの持分が各2分の1であり、どちらか一方の持分だけでは「過半数」（2分の1を超える割合）に達しないため、この現行法上の取扱いを前提にしても、Ａ・Ｂの双方が申請人とならない限り分筆の登記を申請することはできません。正解（オは正しい）への影響はありません。この取扱いの根拠として先行して参照した通達番号（令和5年3月28日民二第533号）自体は、WebSearchによる複数の実務解説サイトでの言及にとどまり、e-Gov法令検索等の一次資料での番号そのものの確認はできていません。
 - なお、アガルート等のローカル教材PDFは本実行環境には存在せず、参照していません。本記事は上記の検証済みデータベースの記載のみに基づいて作成しています。
 
 ---
@@ -295,8 +297,12 @@ labeled "A"(前の所有者), a person(買主B)stands in front holding a
 document labeled "所有権を取得したことを証する情報", and a torn-paper
 label reads "移転登記が先" blocking the request with a red cross mark.
 (c) "共有者の一部だけが、他の共有者の承諾を証する情報のみ添えて申請しよ
-うとする" → "申請できない(共有者全員が申請人になる必要)" — render this
-branch small, faded/greyed-out, dotted-outline (this is PANEL 5's topic).
+うとする" leads to a second, smaller diamond node labeled "その持分は過半
+数(2分の1を超える割合)に達するか？" with two further outcomes: "達する"
+→ "その者だけで申請できる" and "達しない" → "他の共有者も申請人になる必
+要がある" — render this entire branch (including the nested diamond and
+both of its outcomes) small, faded/greyed-out, dotted-outline (this is
+PANEL 5's topic, not this panel's).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず登記記録上の名義人が誰になっているかを確認します。次に、申請しよう
 としている人がその名義人と一致するか(まだ移転登記を受けていない買主で
@@ -385,7 +391,7 @@ characters):
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
-承諾書だけでは共有者全員にならない
+Ａの持分が過半数に届くかを確認する
 Diagram: The same shared decision tree as PANEL 1, redrawn with the
 highlighting reversed. Top diamond node labeled "分筆の登記の申請人にな
 れるのは誰か？(表題部所有者/所有権の登記名義人)". Three branch arrows
@@ -395,30 +401,40 @@ this panel's topic). (b) "まだ登記記録上の名義人になっていない
 等)が申請しようとする" → "申請できない(先に移転登記が必要)" — render
 this branch small, faded/greyed-out, dotted-outline (this is PANEL 1's
 topic). (c) "共有者の一部だけが、他の共有者の承諾を証する情報のみ添えて
-申請しようとする" → "申請できない(共有者全員が申請人になる必要)" —
-render THIS branch with a thick highlighted border and full color; inside
-it, draw an isometric registry desk scene: two people labeled "A" and
-"B" stand beside one land plot as co-owners(持分各2分の1); person A holds
-a paper labeled "Bの承諾を証する情報"; above the desk, an application
-form panel shows two signature/stamp slots both highlighted as required
-(A and B), while a single stamp(Aだけ)is shown crossed out in red.
+申請しようとする" — render THIS branch with a thick highlighted border
+and full color, and inside it draw a second, full-size diamond node
+labeled "その者の持分は過半数(2分の1を超える割合)に達するか？" with two
+outcome nodes of its own, BOTH drawn with real content (do not fade
+either side, since both are genuine conclusions a reader needs to know):
+"達する" → a conclusion node reading "その者だけで申請できる(民法251条1
+項・252条1項、軽微な変更として持分の過半数で決定)"; "達しない" → a
+conclusion node reading "他の共有者も申請人になる必要がある". Below the
+"達しない" conclusion node, draw an isometric registry desk scene: two
+people labeled "A" and "B" stand beside one land plot as co-owners, each
+with a fraction label "2分の1" beside them (making clear neither exceeds
+過半数); person A holds a paper labeled "Bの承諾を証する情報"; above the
+desk, an application form panel shows two signature/stamp slots both
+highlighted as required (A and B), while a single stamp(Aだけ)is shown
+crossed out in red. Do not draw any looping arrow back into either
+diamond node from any conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、申請人になろうとする人が、その土地の所有権の登記名義人(共有の場
-合は全員)にあたるかを確認します。次に、他の共有者の承諾を証する情報を
-添付しても、その共有者自身が申請人にならない限り申請できないことを確認
-します。
+まず、申請人になろうとする人の持分が、共有物の管理に関する事項を決めら
+れる「過半数」(2分の1を超える割合)に達するかを確認します。次に、達しな
+い場合は、他の共有者の承諾を証する情報を添付しても、その共有者自身が申
+請人にならない限り申請できないことを確認します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-Bも申請人が必要
+持分2分の1は過半数未満
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法39条1項・40条／不動産登記規則104条2項／不動産登記令7条1項
-5号ハ／民法953条・28条・103条(相続財産管理人/現行:相続財産清算人)
+5号ハ／民法953条・28条・103条(相続財産管理人/現行:相続財産清算人)／民
+法251条1項・252条1項(令和5年4月1日施行、持分過半数による管理行為の決定)
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・相・続・家・庭・裁・判・賃・借・抵・当・筆・単・独・員. If
+attention to 号・録・権・地・番・建・物・登・記・所・相・続・家・庭・裁・判・賃・借・抵・当・筆・単・独・員・過. If
 any character renders as a Simplified Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
