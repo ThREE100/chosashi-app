@@ -29,6 +29,15 @@ note-articles-Kijyutsu/
 │   ├── calc_helpers.py                                 F-789SGの計算を再現し、記事の表示値を生成・照合するヘルパー
 │   ├── zu_helpers.py                                   土地の解説図の作図ヘルパー（座標どおりの作図、境界標の記号〈コンクリート杭・金属標・石杭・基準点〉、辺長・点名・座標の吹き出しの自動配置、重なりの自動検査）
 │   └── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
+├── H24/
+│   └── Q21/
+│       ├── note_H24_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた改題版〉と照合済み。延長線上のK点・面積比1.087倍を三角形の比例で満たすL点・交換のための分筆→移転→合筆・合筆の申請書・地積更正では筆界は動かない）
+│       ├── prompt_H24_dai21mon_kaiwa_kaisetsuzu.md       解説図11枚（全体図・登記の順序・注の仕分け・K点・イの面積・L点・L点の別解・地積測量図・合筆の地積・問4の整理図・本番で解く順番）作成プロンプト（土地の基本フォームの記入済み）
+│       ├── prompt_H24_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（完成形。土地合筆登記。項目の順序は平成24年度の答案用紙どおり）
+│       ├── prompt_H24_dai21mon_toukishinseisho_machigai.md  土地の表示の1行目・2行目の原因・3行目の地積の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
+│       ├── prompt_H24_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（1280×670px）
+│       ├── verify_H24_dai21mon_kaiwa.py                  記事・付属プロンプト・生成画像の数値・体裁の照合スクリプト（解答例46項目）
+│       └── zu/                                          解説図11枚のPNGと作図スクリプト draw_H24_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H24_dai21mon_shinseisho_gazou.py
 ├── H25/
 │   ├── Q21/
 │   │   ├── note_H25_dai21mon_tochi_kaiwa_kaisetsu.md    note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた版〉と照合済み。B点の放射・F点の正弦定理・一部地目変更・分筆）
