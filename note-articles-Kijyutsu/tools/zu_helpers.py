@@ -236,6 +236,14 @@ class Zu:
             self.ax.annotate('', (ex, ey), xytext=(ex - tx * r * 0.08, ey - ty * r * 0.08),
                              arrowprops=dict(arrowstyle='-|>', color=color, lw=lw, mutation_scale=14), zorder=3)
 
+    def dim_line(self, p, q, color=BLACK, lw=1.6):
+        """寸法線（両端に矢印の付いた線。幅員・高さなど）。線分として重なり検査の対象に登録する
+        （2026-09-30、H21/Q21で追加。ax.annotate の矢印で直接描くと登録されず、文字が寸法線に重なっても検査で見つからない）。"""
+        a, b = xy(p), xy(q)
+        self.ax.annotate('', xy=b, xytext=a, annotation_clip=False,
+                         arrowprops=dict(arrowstyle='<->', color=color, lw=lw, shrinkA=0, shrinkB=0), zorder=4)
+        self.segments.append((a, b))
+
     def right_angle(self, foot, along, toward, size=0.8, color=GRAY):
         """直角の記号。foot：垂線の足、along：足を通る直線上の別の点、toward：垂線のもう一方の端。"""
         f = complex(*xy(foot))
