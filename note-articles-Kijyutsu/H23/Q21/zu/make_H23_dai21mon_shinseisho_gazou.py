@@ -47,6 +47,8 @@ table.land td.int {{ text-align: right; border-right: 1.5px dashed #555; padding
 table.land td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }}
 table.land td.chimoku {{ text-align: center; }}
 table.land td .ink, .box .ink {{ font-size: 26px; }}
+.note {{ font-size: 17px; color: #444; margin-top: 18px; line-height: 1.6;
+         font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 30px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 添削画像 */
@@ -103,9 +105,15 @@ def page(body):
     return f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}</style></head><body>{body}</body></html>'
 
 
+def items(s, strike=()):
+    """添付書類を書類ごとの塊にして、書類名の途中で折り返さないようにする。strike に入れた書類には取消線。"""
+    return ''.join(f'<span class="item"><span class="ink{" strike" if t in strike else ""}">{t}</span></span>' for t in s.split('　'))
+
+
 # ---- 完成形（記入データは prompt_H23_dai21mon_toukishinseisho_gazou.md のとおり） ----
 DATE = '平成23年8月21日申請　Ａ地方法務局'
-TENPU = '土地所在図　地積測量図　所有権証明書　住所証明書　代理権限証書'
+TENPU = '土地所在図　地積測量図　所有権証明書　会社法人等番号　代理権限証書'
+NOTE = '※添付書類は今の法令による。出題当時は会社法人等番号の制度がなく、住所証明書を付け、資格証明書は問題文の注5（登記所が同一）で不要だった'
 APPLICANT = 'Ａ市Ｂ町五丁目50番地１　宗教法人雨堤天満宮<br>代表役員　荒牧英雄'
 DAIRI = 'Ａ市Ｂ町三丁目１番２号　土地家屋調査士　中村　容子　㊞<br>連絡先の電話番号　×××−×××−××××'
 SHOZAI = 'Ａ市Ｂ町五丁目'
@@ -113,12 +121,13 @@ ROWS = [('', '境内地', '113', '', '不詳')]
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
 <div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('土地表題登記')}</div></div>
-<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:150px">{ink(TENPU)}</div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:150px">{items(TENPU)}</div></div>
 <div class="plain">{DATE}</div>
 <div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:130px">{ink(APPLICANT)}</div></div>
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="txt">{DAIRI}</div></div>
 <div style="height:6px"></div>
 {land_table([tuple(ink(v) for v in r) for r in ROWS], shozai=ink(SHOZAI))}
+<div class="note">{NOTE}</div>
 <div class="caption">平成23年度 土地家屋調査士試験 第21問 登記申請書 解答例</div>
 </div>''')
 
@@ -140,25 +149,21 @@ def snippet(tenpu_html, chimoku, dec, genin, bubble1='', bubble2='', good=False,
 NG_TENPU = '土地所在図　地積測量図　所有権証明書　住所証明書　資格証明書　代理権限証書'
 
 
-def items(s, strike=()):
-    """添付書類を書類ごとの塊にして、書類名の途中で折り返さないようにする。strike に入れた書類には取消線。"""
-    return ''.join(f'<span class="item"><span class="ink{" strike" if t in strike else ""}">{t}</span></span>' for t in s.split('　'))
-
 
 ng_panel = snippet(items(NG_TENPU), ink('宅地'), ink('87'), ink('昭和26年8月19日時効取得'))
 fix_panel = snippet(
-    items(NG_TENPU, strike=('資格証明書',)),
+    items(NG_TENPU, strike=('住所証明書', '資格証明書')) + '<span class="red" style="font-size:26px">会社法人等番号</span>',
     '<span class="over"><span class="red up">境内地</span><span class="ink strike">宅地</span></span>',
     '<span class="ink strike">87</span>',
     '<span class="over"><span class="red up">不詳</span><span class="ink strike">昭和26年8月19日時効取得</span></span>',
-    bubble1='問題文の注5：登記所が同一なので資格証明書は不要',
+    bubble1='今の法令では会社法人等番号<br>（出題当時は住所証明書を付け、資格証明書は注5で不要）',
     bubble2='境内地は1㎡未満切捨て、原因は土地が生じた原因の不詳', fix=True)
-ok_panel = snippet(ink(TENPU), ink('境内地'), '', ink('不詳'), good=True)
+ok_panel = snippet(items(TENPU), ink('境内地'), '', ink('不詳'), good=True)
 machigai = page(f'''
 <div class="panel"><div class="ptitle ng">①誤答</div>{ng_panel}</div>
 <div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{fix_panel}</div>
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
-<div class="caption" style="margin:10px 0 30px">平成23年度 第21問｜資格証明書は注5で不要、境内地113㎡、原因は不詳</div>''')
+<div class="caption" style="margin:10px 0 30px">平成23年度 第21問｜添付書類は会社法人等番号、境内地113㎡、原因は不詳</div>''')
 
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
