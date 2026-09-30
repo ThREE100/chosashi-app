@@ -48,6 +48,8 @@ table.land td.int {{ text-align: right; border-right: 1.5px dashed #555; padding
 table.land td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }}
 table.land td.chimoku {{ text-align: center; }}
 table.land td .ink, .box .ink {{ font-size: 26px; }}
+.tnote {{ font-size: 17px; color: #444; margin-top: 12px; line-height: 1.6;
+          font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 30px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 添削画像 */
@@ -106,6 +108,7 @@ def page(body):
 # ---- 完成形（記入データは prompt_H27_dai21mon_toukishinseisho_gazou.md のとおり） ----
 DATE = '平成27年○月○日　申請　○○法務局'
 APPLICANT = ['Ｅ県Ｆ市Ｇ町二丁目３番４号', '株式会社山川製菓', '代表取締役　山川一郎']
+NOTE = '※添付情報は今の法令による。出題当時は会社法人等番号の制度（平成27年11月施行）がなく、会社法人等番号の代わりに代表者の資格を証する情報（資格証明情報）を付けた'
 ROWS = [('100番１', '宅地', '5144', '50', ''),
         ('（イ）', '', '4783', '92', '平成27年７月20日一部地目変更<br>③100番１、100番３に分筆'),
         ('（ロ）100番３', '用悪水路', '361', '', '100番１から分筆')]
@@ -119,6 +122,7 @@ kansei = page(f'''<div class="page">
 <div class="row"><div class="lab">登録免許税</div><div class="box" style="height:62px">{ink('金2,000円')}</div></div>
 <div style="height:14px"></div>
 {land_table([tuple(ink(v) for v in r) for r in ROWS], shozai=ink('Ｂ市Ｃ町一丁目'))}
+<div class="tnote">{NOTE}</div>
 <div class="caption">平成27年度 土地家屋調査士試験 第21問 登記申請書 解答例</div>
 </div>''')
 

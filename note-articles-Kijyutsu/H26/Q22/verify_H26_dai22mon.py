@@ -254,4 +254,45 @@ check('見出し画像のタイトル', '平成26年度問題22（建物）', th
 for src, name in [(fig, '解説図'), (form, '申請書'), (fix, '添削')]:
     check('記事タイトルの引用', title[2:], src, name)
 
+# ---- 生成した申請書の画像（zu/）：PNGの向きとHTMLの記入内容 ----
+import os as _os
+import struct as _struct
+_ZU = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'zu')
+for _name, _tate in [('H26_dai22mon_dai1ran_dai2ran_kansei', False), ('H26_dai22mon_dai4ran_kansei', False),
+                     ('H26_dai22mon_toukishinseisho_kansei', True), ('H26_dai22mon_toukishinseisho_machigai', True)]:
+    _png = _os.path.join(_ZU, _name + '.png')
+    if _os.path.exists(_png):
+        _w, _h = _struct.unpack('>II', open(_png, 'rb').read()[16:24])
+        _ok = _w == 1200 and (_h > _w or not _tate)
+        print(('OK ' if _ok else 'NG ') + f'{_name}.png（{_w}×{_h}px）' + ('縦長' if _tate else ''))
+    else:
+        _ok = False
+        print(f'NG {_name}.png がない')
+    ng += (not _ok)
+_html = {n: open(_os.path.join(_ZU, n + '.html'), encoding='utf-8').read() for n in
+         ['H26_dai22mon_dai1ran_dai2ran_kansei', 'H26_dai22mon_dai4ran_kansei',
+          'H26_dai22mon_toukishinseisho_kansei', 'H26_dai22mon_toukishinseisho_machigai']}
+_plain = {n: re.sub(r'<[^>]+>', '', h) for n, h in _html.items()}
+_NOTE = ('※添付情報は今の法令による。出題当時は会社法人等番号の制度（平成27年11月施行）がなく、会社法人等番号の代わりに'
+         '代表者の資格を証する情報（資格証明書）を付け、印鑑証明書も省略せずに付けていた')
+for _n, _words in [
+        ('H26_dai22mon_dai1ran_dai2ran_kansei', ['区分建物表題部変更登記（敷地権抹消）', '平成26年６月30日非敷地権', '規約廃止証明書',
+                                                 '建物表題登記（共用部分廃止）', '平成26年６月30日共用部分の規約廃止', '所有権証明書', '住所証明書', '代理権限証書']),
+        ('H26_dai22mon_dai4ran_kansei', ['丙川太郎に対して説明すべき内容', '主である建物は家屋番号1番10の建物となり',
+                                         '本件建物を家屋番号1番10の建物の附属建物として登記すべきである。']),
+        ('H26_dai22mon_toukishinseisho_kansei', ['建物表題部変更・合併登記', '会社法人等番号', '印鑑証明書（会社法人等番号の提供により省略）',
+                                                 '平成26年8月22日　申請　Ｇ地方法務局', 'Ａ市Ｂ町一丁目', '①平成26年８月10日種類変更', '1番10に合併',
+                                                 '1番8を合併', '符号１', '1階　159', '2階　85', _NOTE]),
+        ('H26_dai22mon_toukishinseisho_machigai', ['①誤答', '②添削（赤ペン）', '③正解', '建物表題部変更登記（共用部分である旨の抹消）',
+                                                   '平成26年４月30日共用部分の規約廃止', '建物表題登記（共用部分廃止）',
+                                                   '平成26年６月30日共用部分の規約廃止'])]:
+    for _w in _words:
+        _ok = _w in _plain[_n]
+        ng += (not _ok)
+        print(('OK ' if _ok else 'NG ') + f'[{_n}.html] {_w[:40]}')
+for _src, _nm in [(form, '申請書プロンプト')]:
+    _ok = _NOTE in _src
+    ng += (not _ok)
+    print(('OK ' if _ok else 'NG ') + f'[{_nm}] 出題当時の注が画像と同じ文言')
+
 print('NG件数:', ng)
