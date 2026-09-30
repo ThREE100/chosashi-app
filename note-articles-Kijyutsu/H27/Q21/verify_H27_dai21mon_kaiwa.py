@@ -12,7 +12,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, '..', '..', 'tools'))
-from calc_helpers import P, r2, radial, dms, to_dms, area, double_area_sum, chiseki, disp, fmt_num  # noqa: E402
+from calc_helpers import P, r2, radial, dms, to_dms, area, double_area_sum, chiseki, disp, fmt_num, kousa_kou2  # noqa: E402
 
 rd = lambda n: open(os.path.join(HERE, n), encoding='utf-8').read()  # noqa: E731
 text = rd('note_H27_dai21mon_tochi_kaiwa_kaisetsu.md')
@@ -121,8 +121,32 @@ check('（ロ）台形', f'(54.25 ＋ 49.00) × 7 ÷ 2 ＝ {(54.25 + 49.00) * 7 
 judge('（ロ）台形 ＝ 座標法', abs((54.25 + 49) * 7 / 2 - a_ro) < 1e-9)
 check('（ロ）宅地の癖の誤答', f'{math.floor(a_ro * 100) / 100:.2f}㎡！')
 check('（ロ）地積', f'{chiseki(a_ro, takuchi=False)}㎡です')
-check('切り捨て前の合計', f'{a_i:.3f} ＋ {a_ro:.3f} ＝ {a_i + a_ro:.2f}')
-check('登記記録との差', f'差は{a_i + a_ro - 5144.50:.2f}')
+sum_after = chiseki(a_i) + chiseki(a_ro, takuchi=False)
+check('分筆後の地積の合計（準則第72条第1項）', f'{chiseki(a_i):.2f} ＋ {chiseki(a_ro, takuchi=False)} ＝ {sum_after:.2f}')
+check('登記記録との差', f'差は{sum_after - 5144.50:.2f}です')
+check('準則第72条第1項', '不動産登記事務取扱手続準則第72条第1項')
+check('別紙2の公差の記述', '今回測量した甲土地の地積及び筆界点間距離は、公差の範囲内')
+check('参考の甲2の公差', f'約{kousa_kou2(5144.50):.2f}㎡')
+judge('差は参考の甲2の公差より小さい', sum_after - 5144.50 < kousa_kou2(5144.50))
+absent('切り捨て前の合計で比べる旧版', '差は0.80')
+# （ロ）の対角線の別解
+dg = (E - G).conjugate() * (F - H)
+check('（ロ）対角線 表示', '表示：' + disp(dg))
+check('（ロ）対角線 面積', f'{dg.imag:.2f} ÷ 2 ＝ {dg.imag / 2:.3f}。台形と同じです')
+judge('（ロ）対角線 ＝ 座標法', abs(dg.imag / 2 - a_ro) < 1e-9)
+# K点・H点の別解（交点の式）
+nk, dk = (N - M).conjugate() * (L - E), (N - M).conjugate() * (N - I)
+check('Kの別解 分子 表示', '表示：' + disp(nk))
+check('Kの別解 分母 表示', '表示：' + disp(dk))
+judge('Kの別解 t ＝ 1', abs(nk.imag / dk.imag - 1) < 1e-12 and r2(E + (N - I) * nk.imag / dk.imag) == K)
+nh, dh = (G - I).conjugate() * (I - E), (G - I).conjugate() * (K - E)
+check('Hの別解 分子 表示', '表示：' + disp(nh))
+check('Hの別解 分母 表示', '表示：' + disp(dh))
+check('Hの別解 t', f't ＝ {fmt_num(nh.imag)} ÷ {fmt_num(dh.imag)} ＝ {fmt_num(nh.imag / dh.imag)}')
+check('Hの別解 表示', '表示：' + disp(E + (K - E) * nh.imag / dh.imag))
+judge('Hの別解 t ＝ 7 ÷ 37', abs(nh.imag / dh.imag - 7 / 37) < 1e-12)
+check('Hの別解 電卓の割り算', f'[×] {fmt_num(nh.imag)} [÷] {fmt_num(dh.imag)} [=]')
+# 「表示：」の行がすべて照合済みか（上で照合した値の一覧と突き合わせる）
 judge('甲土地全体の座標の面積 ＝（イ）＋（ロ）', abs(area([A, B, C, D, E, H, G, F]) - (a_i + a_ro)) < 1e-6)
 for s in ['- **登記の目的**：土地一部地目変更・分筆登記', '- **添付情報**：地積測量図　会社法人等番号　代理権限証明情報',
           '- **申請人**：E県F市G町二丁目3番4号　株式会社山川製菓　代表取締役　山川一郎',
@@ -175,22 +199,26 @@ a = base.index('あなたは土地家屋調査士試験の教材デザイナー�
 b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-n_fig = len(re.findall(r'^- \*\*図\d：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（7枚）', n_fig == 7)
-for i in range(1, 8):
-    judge(f'作図済みPNG 図{i}', any(f.startswith(f'H27_dai21mon_zu0{i}_') and f.endswith('.png')
+n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
+judge(f'解説図プロンプトの図の数 {n_fig}枚（11枚）', n_fig == 11)
+for i in range(1, 12):
+    judge(f'作図済みPNG 図{i}', any(f.startswith(f'H27_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
-nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\()'図(\d)　", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, 8)))
+nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\(|seiri_zu\()'図(\d+)　", draw)]
+judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, 12)))
+fits = re.findall(r'^\s*fit\(.*$', draw, re.M)
+judge(f'作図のfit {len(fits)}か所がすべて pad_aspect=True', fits and all('pad_aspect=True' in f or 'pad_aspect' in draw[draw.index(f):draw.index(f) + 200] for f in fits))
 for s in ['（520.40, 465.80）', '（473.50, 530.00）', '（451.00, 500.00）', '（519.74, 539.35）', '（470.00, 530.00）',
           '（449.25, 500.00）', '111°09′40.54″', '247°36′17.54″', '136°26′37″', '67°36′17″', '323.75 ÷ NI 46.25',
-          '4.20', '5.60', '8.75', '4783.925', '4783.92', '4783.93', '361.375', '361', '5145.30', '5144.50', '0.80',
+          '4.20', '5.60', '8.75', '4783.925', '4783.92', '4783.93', '361.375', '361', '5144.92', '5144.50', '0.42',
+          '−2609.25 ＋ 722.75i', '404.25 ÷ 2136.75', '−1110.00 ÷ −1110.00',
           '54.25', '49.00', '約171mm', '約108mm', '100－1', '100－3', 'B市C町一丁目']:
     check('解説図プロンプトの数値', s, fig, '解説図')
     check('作図スクリプトの数値', s, draw, '作図')
 # 画像挿入の位置の文言が記事にあるか
 for s in ['そこから北東へ斜めに走っていた古い水路が乙土地、というわけ', '表は、放射を三角関数で解く人のための道具よ',
-          '岸は平行です！', '同じ水路の形になっています', '地積更正は要りません', 'H・Iは真南向きの短い辺よ']:
+          '岸は平行です！', '同じ水路の形になっています', '0.42は、はるかに小さいわ', 'H・Iは真南向きの短い辺よ',
+          '迷ったら交点の式に戻りなさい', '台形と同じです', '次の年度も、この調子でいくわよ！']:
     check('図の挿入位置の文言', s)
     check('図の挿入位置の文言（プロンプト側）', s, fig, '解説図')
 for s in ['平成27年○月○日　申請　○○法務局', '土地一部地目変更・分筆登記', '地積測量図　会社法人等番号　代理権限証明情報',
@@ -247,7 +275,27 @@ for i, l in enumerate(lines):
             same.append(i + 1)
 judge(f'同じ話者のセリフの連続: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図7＋添削1＋完成形1＝計9か所の想定）', n_marker == 9)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図11＋添削1＋完成形1＝計13か所の想定）', n_marker == 13)
+# ---- 注の書き分け（問題文の注・A点の観測データの表の注・調査素図の注） ----
+QUAL = ('問題文の注', '調査素図の注', '観測データの表の注')
+bad_chu = []
+for k, l in enumerate(lines):
+    for m in re.finditer(r'注(\d)', l):
+        if not any(q in l[:m.start() + 1] for q in QUAL):
+            bad_chu.append((k + 1, l[max(0, m.start() - 12):m.end()]))
+judge(f'注の番号の前に、どこの注かが書いてある: 不備 {bad_chu}', not bad_chu)
+for s in ['- **問題文の注3**：乙土地における近傍類似の地図の縮尺は500分の1', '- **調査素図の注3**：H点は',
+          '- **調査素図の注4**：埋め立てた水路の幅は7.00m', 'A点の観測データの表の注1', '問題文の注8は',
+          '不動産登記規則第77条第4項', '同規則第76条第2項', '不動産登記事務取扱手続準則第51条第4項',
+          'X 440〜530・Y 480〜540（90m × 60m、答案用紙の上で180mm × 120mm）']:
+    check('注の仕分けと縮尺の根拠', s)
+judge('作図範囲の計画がT1・I・M・Nを含む', 440 <= I.real and T1.real <= 530 and 480 <= T1.imag and M.imag <= 540)
+# ---- 解く順番と時間配分（一般論でなく具体的に） ----
+for s in ['いちばん時間を食うのは、問4の作図', '計算でいちばん重いのは、（イ）の6点の面積',
+          '座標が要るのは（イ）（ロ）の地積と、問4の図面だけです', '1. 問を先に読み、注を仕分ける',
+          '5. 問4：使う範囲を決めてから作図', '『E県』も落とさないこと']:
+    check('解く順番', s)
+absent('一般論の時間配分', '15分で片付けて')
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成27年度問題21（土地）〜'
