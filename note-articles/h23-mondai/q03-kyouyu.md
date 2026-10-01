@@ -262,9 +262,12 @@ Heading (bold, ONE line):
 Diagram: A decision-tree-style three-branch signpost standing on the
 shared land plot, splitting into 保存行為・管理行為・処分行為. The
 管理行為 branch (drawn with a thicker highlighted border, since this is
-the branch this肢 turns on) leads to a majority-vote icon (2/3の同意)
-and a conclusion node reading 持分3分の1のAは単独でできない, while a
-tenant character (D) stands beside a lease-contract icon that one
+the branch this肢 turns on) leads to a majority-vote icon reading
+持分価格の過半数の同意 with a small caption 各3分の1なら2人以上 (do NOT
+write 2/3 or two-thirds as the requirement anywhere in this panel — the
+requirement is a majority of the share values, meaning more than one
+half) and a conclusion node reading 持分3分の1のAは単独でできない, while
+a tenant character (D) stands beside a lease-contract icon that one
 co-owner alone reaches for with a 解除 stamp, blocked by a red ✕.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、共有物の賃貸借契約を解除するという行為が、保存・管理・処分のどれ
@@ -279,10 +282,14 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 占有者本人にも使用権がある
-Diagram: One character occupies an entire land plot alone, while two
-other co-owner characters (labeled 2/3の持分) point at them demanding
-明渡し, but a shield icon around the occupying character labeled 使用権
-blocks the demand with a red ✕.
+Diagram: One character (A) occupies an entire land plot alone, standing
+inside a protective dome and holding a shield icon labeled 使用権. Two
+other co-owner characters stand outside the dome, labeled B（3分の1の
+持分）and C（3分の1の持分）— each one third, NOT two thirds — joined by a
+bracket reading 合わせて過半数（3分の2）, and they point at A with a
+speech bubble 明渡し. The demand is blocked by the shield with a red ✕.
+Below the plot, a small faded note reads 明渡しには別に理由の主張・立証が
+必要.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、単独で占有しているAにも、共有持分に基づく使用権があるかどうかを
 確認します。使用権がある以上、次に、持分が過半数を超えていても当然には
@@ -300,13 +307,16 @@ shared land plot. This time the 保存行為 branch (drawn with a thicker
 highlighted border, distinct from Panel 1's highlighted branch) leads to
 a green checkmark and a conclusion node reading 各共有者が単独で請求で
 きる. Beside the signpost, a registration-document icon shows Bの持分の
-みが第三者Dに不実に移転されている様子, and another co-owner (A又はC)
-alone stamps a 抹消請求 seal onto the document without waiting for the
-others.
+みが第三者Dに不実に移転されている様子 (the register rows read Aの持分 A,
+Bの持分 D, Cの持分 C), with a character labeled 第三者D standing next to
+the Bの持分 row. Another co-owner (A又はC) alone holds out a 抹消登記手続
+請求 seal toward 第三者D, without waiting for the others — the claim is
+made against D, so draw no 法務局 or registry-office building.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、不実の持分移転登記の抹消を求めるという行為が、保存・管理・処分の
 どれに当たるかを確認します。保存行為に当たるため、次に、A又はCは他の共
-有者の同意を得ることなく単独で抹消登記手続を請求できると判断します。
+有者の同意を得ることなく、単独でDに対して抹消登記手続を請求できると判
+断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為・単独可
@@ -359,7 +369,11 @@ correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panels 1 and 3
 use the same three-branch signpost shape with a different branch
-highlighted in each, that each 着眼点 callout states a checking order
+highlighted in each, that no panel states or implies a two-thirds requirement (Panel 1's
+requirement is a majority of the share values), that B and C in Panel 2
+are each labeled one third, that Panel 3's claim is directed at 第三者D
+with no registry-office building drawn, that each 着眼点 callout states a
+checking order
 rather than only a conclusion, confirm nothing is rendered below the
 last panel's footnote text (no summary recap panel, no trophy or medal
 icon, no re-listed ○/✕ grid of all 肢, and no additional text block of

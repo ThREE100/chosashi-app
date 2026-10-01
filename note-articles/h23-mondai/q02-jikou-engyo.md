@@ -216,17 +216,18 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a guarantor-and-debtor pair for 連帯保証人, a
 stacked two-mortgage icon for 後順位抵当権者, a house-on-land icon for
-建物賃借人, a three-way pie-sliced land plot for 共同相続人の持分, and a
-承認する document with a clock for 時効完成後の承認. Where a 肢 requires
-checking multiple conditions in sequence before reaching a conclusion,
-draw the panel's diagram as an actual decision flowchart: diamond-shaped
-branch nodes with the condition written on them, Yes/No（はい／いいえ）
-branch arrows, and a final conclusion node. Panels 1（肢ア）and 5（肢オ）
-each hide a timing-based trap behind an initial fact, so they are drawn
-as two-diamond flowcharts; Panels 2・3・4（肢イ・ウ・エ）are each resolved
-by a single check（直接利益か反射的・間接的利益か、または援用の範囲），so
-a labeled illustrative diagram is sufficient for them — do not force a
-flowchart. Unlike a glanceable summary poster, each panel MAY include a
+建物賃借人, a pie-sliced land plot for 共同相続人の持分, and a timeline
+with a 承認 flag for 時効完成後の承認. In this problem every 肢 is
+resolved by a single check（援用権者に当たるか、直接利益か反射的・間接的
+利益か、援用の範囲、承認の時期），so all five panels are labeled
+illustrative diagrams, not flowcharts — do not force a flowchart, and do
+not draw any diamond-shaped decision node, Yes/No branch arrows, or
+dangling arrow anywhere in this image. Panels 1（肢ア）and 5（肢オ）each
+contain a distractor fact that does NOT change the conclusion（肢ア：保証
+人が時効完成前にした自分の保証債務の承認、肢オ：承認の際に時効完成を
+知っていたかどうか）; draw each distractor as a faded, dotted-outline tag
+marked as irrelevant, with no ○/✕ mark, so the reader sees it is not a
+condition being checked. Unlike a glanceable summary poster, each panel MAY include a
 short「着眼点」callout box with 1-2 sentences that state the checking
 ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
 conclusion. Do not include case or precedent numbers (article/regulation
@@ -263,20 +264,24 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 保証債務の承認は主債務と別問題
-Diagram: A decision-tree flowchart. First diamond node: Cが時効完成前に
-承認していたのは、Aの主債務そのものか、それとも自分自身の連帯保証債務
-か？with the 保証債務自体 branch (drawn with a thicker highlighted
-border, since this is本肢の事実) proceeding downward to a second diamond
-node: 保証人は、145条かっこ書の「正当な利益を有する者」に当たるか？with
-a はい arrow leading to a green checkmark and a conclusion node reading
-Cは主債務の消滅時効を援用してBの請求を拒める. Beside the flowchart, show
-a guarantor character (C) standing behind a debtor character (A), both
-connected to a torn-up loan-contract icon with a 時効 stamp on it.
+Diagram: A single-check labeled diagram (NOT a flowchart — draw no
+diamond-shaped node, no Yes/No branch arrows, and no dangling arrow). A
+creditor character (B) and a debtor character (A) face each other across
+a torn contract document labeled 売買代金債務（主債務） and stamped 時効,
+and a guarantor character (C) stands behind A wearing a badge reading
+連帯保証人. A single numbered step marker ① with a green checkmark sits
+on C's badge, reading 保証人は「正当な利益を有する者」. Beside C, a
+separate small document icon labeled Cの保証債務 carries a faded,
+dotted-outline stamp reading 時効完成前に承認, joined to the main
+document by a faded dotted line labeled 別の債務で援用を妨げない (drawn
+faded, with no ○/✕ mark, to show that this earlier acknowledgment is not
+a condition being checked). The diagram ends in one conclusion node
+reading Cは主債務の消滅時効を援用してBの請求を拒める.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、Cが時効完成前に承認していたのは主債務そのものではなく、自分自身
-の保証債務にすぎないことを確認します。次に、保証人は145条かっこ書の
-「正当な利益を有する者」に当たるため、主債務の消滅時効を援用できると
-判断します。
+まず、連帯保証人Cが145条かっこ書の「正当な利益を有する者」に当たるか
+を確認します。当たる以上、時効完成前にCがした承認は自分自身の保証債務
+についてのものにすぎず、主債務の消滅時効の援用は妨げられないと判断し
+ます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保証債務の承認は無関係
@@ -304,10 +309,12 @@ Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 時効の利益を受けるのは占有者本人
 Diagram: An isometric house icon on a land plot, with a renter character
-(B) inside holding a 賃借 tag, disconnected by a dashed line and a red ✕
-from a 時効取得 stamp on the land, while the building-owner character
-(A) below — who is the one actually occupying the land — holds the stamp
-directly with a green checkmark.
+labeled 建物賃借人B inside holding a 賃借 tag. The building-owner
+character labeled 建物所有者A — the one actually occupying the land —
+stands on the land and holds a 時効取得 stamp directly, with a green
+checkmark. A dashed arrow runs from B toward the 時効取得 stamp itself
+(not toward A) and is blocked by a red ✕, showing that B cannot invoke
+the stamp.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、甲土地を実際に占有して時効取得の要件を満たしているのは誰か（建物
 所有者A）を確認します。建物賃借人Bの利益はAが土地を取得すれば住み続け
@@ -321,10 +328,15 @@ characters):
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 援用できるのは自分の相続分だけ
-Diagram: A land plot divided into three equal wedge slices, each with a
-small heir character standing only on their own slice and planting a
-small flag, with a red ✕ drawn over one heir (B) reaching across into
-another slice labeled 甲土地の全部.
+Diagram: A single-check labeled diagram. A land plot divided into
+slices (not necessarily equal in size): one slice for the heir B and the
+remaining slices for the other co-heirs, each slice carrying a small flag.
+B's flag reads Bの相続分 and the other flags read 他の相続人の相続分 (do
+NOT label any heir A or C — A is the deceased original possessor, not an
+heir). Above the plot, a faded ghost-outline figure with a halo and a tag
+reading 被相続人A（取得時効が完成） is joined to the plot by a thin
+dotted arrow. A red ✕ is drawn over B's arm reaching across into the
+other heirs' slices, next to a label 甲土地の全部.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Bが援用しようとしているのが「甲土地の全部」なのか、「自分の相続
 分の範囲」なのかを確認します。時効の利益は各相続人に相続分に応じて帰属
@@ -336,17 +348,21 @@ characters):
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
-承認後は知らなくても援用不可
-Diagram: A decision-tree flowchart. First diamond node: Bが「返します」
-と承認したのは、時効完成の前か、後か？with the 完成後 branch (drawn with
-a thicker highlighted border) proceeding downward to a second diamond
-node: 承認の際、Bはその時効が完成していることを知らなかったか？with the
-はい（知らなかった）branch leading to a padlock icon over a 援用 stamp
-and a conclusion node reading 知らなくても、信義則上もう援用できない.
+完成後に承認したら知らなくても援用不可
+Diagram: A single-check labeled diagram drawn as a left-to-right
+timeline (NOT a flowchart — draw no diamond-shaped node, no Yes/No
+branch arrows, and no dangling arrow). Three flag icons in order: flag①
+時効完成, flag② Bが「返します」と承認, flag③ 援用. The 承認 flag（②）
+comes after the 時効完成 flag（①）and carries a green checkmark reading
+完成後の承認. At flag③, a padlock icon sits over a 援用 stamp. Beside
+flag②, a small faded, dotted-outline tag with a question-mark icon reads
+完成を知っていたかは問わない (drawn faded, with no ○/✕ mark, to show
+that this is not a condition being checked). The timeline ends in one
+conclusion node reading 知らなくても、信義則上もう援用できない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、Bが承認したのが時効完成の前か後かを確認します。完成後の承認であ
-れば、次に、その際に時効完成を知らなかったとしても、信義則上もはや援用
-できないと判断します。
+まず、Bが承認したのが時効完成の前か後かを確認します。完成後の承認で
+あれば、その際にBが時効完成を知らなかったとしても結論は変わらず、信義
+則上もはや援用できないと判断します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 信義則で不可
@@ -363,10 +379,11 @@ similar Simplified Chinese variant. If any character renders as a
 Simplified Chinese variant, redraw that character in the correct Japanese
 form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that 肢ア・肢オ are each drawn as an actual
-flowchart with two branch nodes (not a bare illustration with no visible
-decision structure) while the other three panels use a single labeled
-illustrative diagram, that each 着眼点 callout states a checking order
+the header and the panels, that all five panels use a single labeled
+illustrative diagram with no diamond-shaped node, no Yes/No branch arrows
+and no dangling arrow anywhere in the image, that the distractor tags in
+Panels 1 and 5 are drawn faded and marked as irrelevant, that the heirs
+in Panel 4 are not labeled A or C, that each 着眼点 callout states a checking order
 rather than only a conclusion, confirm nothing is rendered below the
 last panel's footnote text (no summary recap panel, no trophy or medal
 icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
