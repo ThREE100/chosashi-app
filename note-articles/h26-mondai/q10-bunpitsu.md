@@ -375,10 +375,10 @@ Dは申請人になれない
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 共有物分割の判決確定の有無を確認する
-Diagram: A decision flowchart with two diamond branch nodes in sequence.
-Node 1: "共有物分割を命ずる判決は確定したか" — Yes branch continues to
-Node 2. Node 2: "Bは分筆の登記の申請に協力しないか" — Yes branch (green,
-highlighted) leads to a final conclusion node reading "Aは、Bに代位し
+Diagram: A check flow of two rectangular check boxes in sequence (no
+diamonds), connected by single straight arrows. Box 1: "共有物分割を命ずる
+判決が確定している". Box 2: "Bは分筆の登記の申請に協力しない". A single
+arrow (green, highlighted) leads to a final conclusion node reading "Aは、Bに代位し
 て、判決内容に基づく分筆の登記を申請できる". An isometric courthouse icon
 issues the "共有物分割の判決" to person A, while person B stands turned
 away with a small label "協力しない".

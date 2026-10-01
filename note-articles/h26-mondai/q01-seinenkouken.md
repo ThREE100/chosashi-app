@@ -352,12 +352,12 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 後見終了は裁判所の取消審判だけ
-Diagram: A decision-tree flowchart. Start node: 成年被後見人の判断能力が
-実際に回復した（事理を弁識する能力を欠く常況ではなくなった）。Diamond
-node: 判断能力が回復しただけで後見開始の審判は当然に失効するか？with a
-いいえ arrow leading to a second diamond node (highlighted): 家庭裁判所が
-後見開始の審判を取り消す審判をしたか？with a いいえ arrow leading to a
-conclusion node showing an elderly man character whose head icon shows
+Diagram: A check flow of rectangular boxes (no diamonds), top to bottom.
+Start node: 成年被後見人の判断能力が実際に回復した（事理を弁識する能力を欠く
+常況ではなくなった）。A single arrow leads to check box 1: 判断能力が回復した
+だけでは後見開始の審判は失効しない. A single arrow leads to check box 2
+(highlighted): 家庭裁判所が後見開始の審判を取り消す審判をしたかを確かめる
+（本肢ではまだしていない）. A single arrow leads to a conclusion node showing an elderly man character whose head icon shows
 判断能力が回復 crossed out with a red X over 行為能力の自動回復、while a
 family-court building icon holds a document labeled 後見開始の審判の取消
 with a checkmark showing this formal step is the only way to end the

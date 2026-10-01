@@ -326,9 +326,9 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 滅失登記の義務を負うのは建物の所有者
-Diagram: A diamond-shaped decision node labeled「建物が取り壊されて滅失し
-た場合、滅失の登記の申請義務はあるか？」with an「ある」branch (highlighted)
-continuing down to a second diamond-shaped decision node labeled「その義
+Diagram: A rectangular check box (NOT a diamond) labeled「建物が取り壊され
+て滅失した場合、滅失の登記の申請義務がある（法57条）」, with a single
+highlighted arrow continuing down to a diamond-shaped decision node labeled「その義
 務を負うのは、土地の所有者か、建物の表題部所有者又は所有権登記名義人か？」
 with two branch arrows: a「建物の表題部所有者又は所有権登記名義人」branch
 (highlighted, bold) leading to an isometric land plot labeled「A（土地所
@@ -383,11 +383,11 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 利用状況の変化と所有権取得を順に確認する
-Diagram: A decision flowchart with 3 sequential diamond-shaped nodes: (1)
-「土地の利用状況は、登記された地目（雑種地）と実質的に異なるようになった
-か？」→はい（駐車場から、建物を建てて宅地として利用）, (2)「その後、利用
-を始めた者が所有権を取得したか？」→はい, (3)「申請義務の起算点は、地目が
-変わった日か、所有権の登記があった日か？」→所有権の登記があった日. The
+Diagram: A check flow of 3 sequential rectangular check boxes (no
+diamonds), connected by single straight arrows: (1)「土地の利用状況が、登記
+された地目（雑種地）と実質的に異なるようになった（駐車場から、建物を建て
+て宅地として利用）」, (2)「その後、利用を始めた者が所有権を取得した」, (3)
+「申請義務の起算点は、地目が変わった日ではなく所有権の登記があった日」. The
 final conclusion node, highlighted in blue, reads「Bは、自己の所有権の登
 記があった日から1か月以内に地目の変更の登記を申請しなければならない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

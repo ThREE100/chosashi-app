@@ -297,14 +297,15 @@ Subtitle (smaller, centered):
 Start node (rectangle, isometric building icon):
 Aさんの建物を、無権原のBさんがCさんに賃貸して住まわせている
 
-Down arrow to Decision node 1 (diamond icon):
-Cさんに返還請求できるか？
+Down arrow to Check box 1 (rectangle, NOT a diamond):
+まず、Cさんに返還請求できるか
 
 Branch (green checkmark, short side note):
 Cは実際に建物を使っている「直接占有者」→ 請求できる（○）
 
-Down arrow to Decision node 2 (diamond icon, larger, the main point of
-this panel):
+Down arrow to Question box 2 (rectangle, NOT a diamond, larger, the main
+point of this panel), which splits into a side-by-side comparison of a
+wrong answer and the correct reasoning:
 では、貸し出しただけで実際には住んでいないBさんにも返還請求できるか？
 
 Branch left (labeled「ありがちな誤答」, red X icon, muted gray-red panel):
@@ -373,7 +374,7 @@ courthouse icon for 反訴, and a building with two occupant figures
 （直接占有者・代理占有者）for the 賃貸人への請求 panel. Panel 5 (肢オ) turns
 on a two-step check（占有には直接占有と代理占有の2種類があること、代理
 占有者も「占有者」として返還請求の相手方になること）, so draw it as an
-actual decision flowchart with two diamond nodes; this same distinction is
+check flow of two rectangular boxes (no diamonds); this same distinction is
 explored in much greater depth elsewhere in this article's「間違いノート」
 image, so keep this panel's flowchart compact and consistent with — but
 simpler than — that fuller version. This article's 5 肢 do not share a
@@ -494,12 +495,12 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 貸しただけの人にも返還請求できる
-Diagram: A decision-tree flowchart. Start node: 無権原のＢが、Ａの建物を
-Ｃに賃貸してＣが実際に住んでいる。Diamond node: 実際に建物を使っている
-Ｃに返還請求できるか？with a はい arrow（直接占有者）leading to a small
-green checkmark. Second diamond node (highlighted, the main point of this
-panel): 貸し出しただけで実際には住んでいないＢにも返還請求できるか？with
-a はい arrow (Ｂは代理占有者にあたるため) leading to a conclusion node
+Diagram: A check flow of rectangular boxes (no diamonds). Start node:
+無権原のＢが、Ａの建物をＣに賃貸してＣが実際に住んでいる。Check box 1:
+実際に建物を使っているＣ＝直接占有者 → 返還請求の相手方（small green
+checkmark）. A single arrow leads to check box 2 (highlighted, the main
+point of this panel): 貸し出しただけのＢ＝代理占有者（民法181条）→ これも
+「占有者」. A single arrow leads to a conclusion node
 showing two arrows labeled 返還請求 pointing from Ａ to both Ｂ and Ｃ, each
 with a green checkmark.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

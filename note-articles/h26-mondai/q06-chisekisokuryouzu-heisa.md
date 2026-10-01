@@ -26,7 +26,7 @@
 
 ### ア：地積の更正の登記があっても、それより前の分筆の登記の地積測量図は閉鎖されない
 
-平成18年3月15日の分筆の登記の際に備え付けられた地積測量図は、平成21年6月3日に錯誤による地積の更正の登記がされたとしても、それによって当然に閉鎖されるわけではありません。
+平成18年3月15日の分筆の登記の際に備え付けられた地積測量図は、平成21年6月3日に錯誤による地積の更正の登記がされたとしても、それによって当然に閉鎖されるわけではありません。地積の更正の登記には更正後の地積測量図が提供されますが（不動産登記令別表6項）、平成18年の分筆の際の地積測量図は、157番1だけでなく分筆後の157番2から157番7までの土地もまとめて表示した図面です。157番1の地積を更正しても他の土地の部分まで効力を失うわけではないため、この分筆の図面は閉鎖されないと解されています。
 
 **たとえば**、ある土地を分筆した際に地積測量図が登記所に保存されたあと、しばらくしてその土地の地積に誤りがあったことが判明し、地積の更正の登記がされたとします。この更正登記がされたからといって、最初の分筆のときの地積測量図が自動的に閉鎖されるわけではありません。
 
@@ -541,20 +541,21 @@ Heading (bold, ONE line):
 更正登記は先行する分筆の図面を閉鎖しない
 Diagram: A timeline strip showing two events in order:「H18.3.15 分筆の
 登記（地積測量図あり）」→「H21.6.3 錯誤による地積の更正の登記」. Below the
-timeline, a diamond-shaped decision node labeled「あとにされた登記は、規則
-85条2項の3類型（①変更後・更正後の図面を伴う変更・更正登記／②滅失登記・
-表題部抹消／③換地処分の登記）のいずれかに当たるか？」with two branch
-arrows: a「あたる」branch (faded, greyed-out — not this case) leading to a
-small grey conclusion node「先行する図面は閉鎖される」, and an「あたらな
-い」branch (highlighted, thick border, full color — because today's 更正
-is a simple correction of a clerical error that does not involve
-submitting a new 地積測量図, so it does not meet the requirement) leading
-to the main conclusion node「先行する分筆の登記の地積測量図は閉鎖されな
-い」.
+timeline, a rectangular check box (NOT a diamond):「地積の更正の登記には
+更正後の地積測量図が提供される（規則85条2項1号の場面）」. A single arrow
+leads to a diamond-shaped decision node labeled「閉鎖が問題になっている図面
+は、157番1だけを描いた図面か、分筆後の157番1〜157番7をまとめて描いた
+分筆の図面か？」with two branch arrows: a「157番1だけの図面（更正前の図
+面）」branch (faded, greyed-out — not this case) leading to a small grey
+conclusion node「更正前の図面として閉鎖される」, and a「分筆後の各土地を
+まとめて描いた分筆の図面」branch (highlighted, thick border, full color —
+because the H18 drawing also shows 157番2〜157番7, which the 更正 of 157番1
+does not touch) leading to the main conclusion node「先行する分筆の登記の
+地積測量図は閉鎖されない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、あとにされた登記が地積の更正の登記であることを確認します。次に、そ
-の更正が新しい地積測量図の提出を伴うものかを確認し、伴わない単純な訂正で
-あれば先行する図面は閉鎖されないと判断します。
+まず、あとにされた登記が地積の更正の登記で、更正後の地積測量図が提供され
+ることを確認します。次に、先行する図面が分筆後の他の土地もまとめて描いた
+分筆の図面であれば、157番1の更正によって閉鎖されないと判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 先行図面は閉鎖されない
@@ -563,7 +564,7 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 分筆の登記は先行する更正の図面を閉鎖しない
-Diagram: The same shared decision tree as Panel 1, with a timeline
+Diagram: A decision tree shared by Panels 2 and 3, with a timeline
 showing「H21.6.3 錯誤による地積の更正の登記（地積測量図あり）」→「H24.
 11.9 分筆の登記」. The decision node「あとにされた登記は、規則85条2項の3
 類型のいずれかに当たるか？」has its「あたる」branch rendered faded and
@@ -582,7 +583,7 @@ characters):
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 合筆の登記は別の土地の図面を閉鎖しない
-Diagram: The same shared decision tree as Panels 1-2, with a timeline for
+Diagram: The same shared decision tree as Panel 2, with a timeline for
 乙土地 showing「H18.3.15 分筆の登記（地積測量図あり）」→「H26.8.19 合筆の
 登記（157番7を合筆）」. The decision node「あとにされた登記は、規則85条2
 項の3類型のいずれかに当たるか？」has its「あたる」branch faded and
@@ -694,7 +695,7 @@ condition has been flattened into a single check, that each 着眼点
 callout states a checking
 order rather than only a conclusion and keeps every required element
 from the source article distinct (no merged or dropped requirements),
-that panels 1-3 share the same decision tree and each clearly
+that panels 2-3 share the same decision tree and each clearly
 distinguishes its own highlighted branch from the other, faded branches,
 confirm nothing is rendered below panel 5's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and

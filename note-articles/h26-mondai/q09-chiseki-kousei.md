@@ -309,7 +309,7 @@ calendar icon crossed out by a red cross mark next to the label "申請義
 務の規定なし". Right box, rendered in a muted/greyed tone for contrast
 only (not the subject of this 肢): labeled "地積の変更の登記", showing a
 land plot with a "現況の変化を反映" icon and a calendar icon with the
-label "錯誤判明日から1か月以内に申請義務あり" in green.
+label "変更があった日から1か月以内に申請義務あり（法37条1項）" in green.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、問題になっているのが「地積の更正の登記」なのか、それとも「地積の変
 更の登記」なのかを見分けます。更正登記には錯誤を訂正するという性質から、

@@ -375,9 +375,11 @@ stack. Ａ（被相続人）and Ｂ（妻）are drawn side by side as a married
 couple. Directly below them, Ｃ（子）is drawn with a small icon showing an
 attempted-harm gesture directed upward toward Ｂ, labeled 殺人未遂で刑に
 処せられた。Diamond node (highlighted): Ｃの行為は、死亡・欠格・廃除と
-いう代襲原因の3類型のうち「欠格」に当たるか？with a はい arrow leading to
-a conclusion node showing a large red 相続欠格 stamp placed over Ｃ,
-blocking Ｃ's path toward the inheritance documents on the registry desk.
+いう代襲原因の3類型のうち「欠格」に当たるか？with a はい arrow (thick,
+highlighted) leading to a conclusion node showing a large red 相続欠格
+stamp placed over Ｃ, blocking Ｃ's path toward the inheritance documents
+on the registry desk. The いいえ arrow (thin, lighter tone) leads to its
+own separate conclusion node labeled Ｃは相続人のまま.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、CがAと同順位の相続人であるBを殺害しようとして刑に処せられたという
 事情を確認します。次に、それが民法891条の相続欠格事由に当たることを
@@ -419,9 +421,11 @@ Diagram: The same single-diamond decision-tree flowchart shape as Panel
 the top. Directly below Ａ, Ｃ（子）holds a document labeled 相続放棄.
 Diamond node (highlighted, distinct branch from Panel 2): Ｃの行為（相続
 放棄）は、死亡・欠格・廃除という代襲原因の3類型のいずれかに当たるか？
-with a いいえ arrow leading to a conclusion node showing a downward arrow
-toward Ｇ（孫）blocked by a large red X, with Ｇ standing apart, one level
-below Ｃ, receiving nothing from Ａ's estate.
+with a いいえ arrow (thick, highlighted) leading to a conclusion node
+showing a downward arrow toward Ｇ（孫）blocked by a large red X, with Ｇ
+standing apart, one level below Ｃ, receiving nothing from Ａ's estate. The
+はい arrow (thin, lighter tone) leads to its own separate conclusion node
+labeled Ｇが代襲相続する（死亡・欠格・廃除のとき）.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Cが相続放棄をしたという事情を確認します。次に、代襲相続が生じる
 原因は死亡・欠格・廃除の3つに限られ、相続放棄はこれに含まれないことを

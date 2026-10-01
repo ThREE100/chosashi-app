@@ -324,8 +324,8 @@ LEFT PANEL (beige, heading「通常の登記（原則）」):
 
 RIGHT PANEL (green, heading「敷地権の登記（本肢の場面）」):
 登記原因日付＝所有権の取得の登記がされた日
-理由：専有部分と敷地の所有者が同一人になったことが対外的に確定するのは、
-取得の登記がされた時点だから
+理由：敷地権になるのは「登記された」敷地利用権に限られるため（不動産登記法
+44条1項9号）、取得の登記がされた日に初めて敷地権が生じるから
 結論：本肢は正しい
 
 --- CALLOUT: 誤りやすいポイント ---
@@ -335,10 +335,8 @@ RIGHT PANEL (green, heading「敷地権の登記（本肢の場面）」):
 方向に判断してしまう点に注意してください。
 
 --- FOOTER ---
-本肢の結論の根拠は、区分建物の敷地権の成立要件（専有部分と敷地利用権が
-同一人に帰属し、分離処分できない状態が生じたこと）から整理した理解で
-あり、条文上の逐条的な根拠までは確認できていません。判例・先例の具体的
-な番号はここには書かない。
+根拠条文：不動産登記法44条1項9号（敷地権＝登記された敷地利用権）。判例・
+先例の具体的な番号はここには書かない。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every

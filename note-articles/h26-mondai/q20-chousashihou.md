@@ -376,8 +376,9 @@ faded/dotted-outline style, since they never actually held that status).
 Diamond branch node 1, labeled「その者は、自己を社員であると誤認させる
 行為をしたか？」("did this person act in a way that caused others to
 mistakenly believe they were a 社員？"). The ✕ (did not) arrow leads to a
-conclusion node reading「本肢の対象外（通常の第三者としての扱い）」("outside
-the scope of this panel — treated as an ordinary third party"). From the
+conclusion node reading「社員と同一の責任は生じない（通常の第三者としての扱い）」
+("no liability equivalent to a 社員's arises — treated as an ordinary
+third party"). From the
 ○ (did — this panel's case) arrow, Diamond branch node 2, labeled「取引の
 相手方は、その誤認に基づいて土地家屋調査士法人と取引をしたか？」("did the
 counterparty transact with the 土地家屋調査士法人 in reliance on that

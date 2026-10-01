@@ -329,11 +329,11 @@ Heading (bold, ONE line):
 Diagram: Two stacked diamond-shaped decision nodes. Node 1「地租・家屋税
 廃止後の固定資産税は、国税か地方税か？」with a「地方税」branch
 (highlighted) continuing down and a「国税」branch (faded) leading to a
-small grey conclusion「該当なし」. Node 2「地方税のうち、都道府県税か市町
+small grey conclusion「国が徴収」. Node 2「地方税のうち、都道府県税か市町
 村税か？」with a「市町村税」branch (highlighted, bold) leading to an
 isometric city-hall building icon labeled「市町村」collecting a coin/tax
 icon labeled「固定資産税」, and a「都道府県税」branch (faded) leading to a
-small grey conclusion「該当なし」.
+small grey conclusion「都道府県が徴収」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、固定資産税が国税か地方税かを確認します。次に、地方税のうち都道府県
 税か市町村税かを確認し、市町村が徴収主体であるという結論にたどり着きます。

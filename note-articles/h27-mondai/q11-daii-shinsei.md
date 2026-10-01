@@ -458,8 +458,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：代位申請の基本的な仕組み(民法423条)。ア〜オの各判断は代位申
-請に関する先例・一般原則によるものであり、個別の先例番号は本記事では
-断定していません。
+請に関する先例・一般原則による。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

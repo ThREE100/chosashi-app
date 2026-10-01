@@ -529,9 +529,9 @@ RIGHT PANEL (green, heading「正しい理解」):
 後者の手続を省略できる場面があります。
 
 --- FOOTER ---
-本肢の結論は、表示に関する登記における前提登記省略の一般的な取扱いに
-基づく整理であり、条文上の逐条的な根拠までは確認できていません。判例・
-先例の具体的な番号はここには書かない。
+本肢の結論は、表示に関する登記で住所の変更を証する情報を提供すれば前提の
+住所変更登記を要しないとする登記実務の取扱いによる。判例・先例の具体的な
+番号はここには書かない。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
@@ -683,8 +683,8 @@ Heading (bold, ONE line):
 Diagram: Draw an actual decision flowchart with three sequential diamond
 nodes (do not compress the three conditions into one check). Diamond 1:
 「合体前の各建物の所有者が異なり、持分の割合を定める必要があるか？」→
-「はい」continues to Diamond 2 (the「いいえ」branch is a short faded stub
-node「この場面ではない」). Diamond 2:「合体前の各建物の所有者全員が申請
+「はい」continues to Diamond 2 (the「いいえ」branch leads to a short faded
+conclusion node「持分の割合を証する情報は問題にならない」). Diamond 2:「合体前の各建物の所有者全員が申請
 人となっているか？」→「はい」continues to Diamond 3 (the「いいえ」branch
 is a short faded stub node「兼用は使えない」). Diamond 3 (thick
 highlighted border and full color, this is 肢ウ's case):「その全員分の印
