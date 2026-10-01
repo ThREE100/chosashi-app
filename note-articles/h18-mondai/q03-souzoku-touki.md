@@ -247,7 +247,7 @@ the「相続放棄」document now glows inside a large dome-shaped force-field
 character「D」holding a coin-bag icon and a red「差押え」stamp — the dome
 blocks D's stamp with a green shield checkmark; the「遺産分割協議」
 document sits separately OUTSIDE the dome with a small note「登記が必要
-（本問の対象外）」.
+」.
 Conclusion tag (a short colored banner/pill directly below the illustration,
 orange, 5-15 Japanese characters):
 絶対効・登記不要
@@ -297,11 +297,7 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 blue, 5-15 Japanese characters):
 超過分は登記なければ対抗不可
 
-（HEADERより前ではなく、この位置に短い1文で補足：全5枚のカードは同じ
-「1つの視覚比喩をLEFT〔グレーアウト〕とRIGHT〔強調〕に割って描く」構成
-で統一し、番号は1から5まで連番、重複・欠落・言い換えは禁止。3色の型タグ
-（青／緑／橙）とLEGENDの対応が全カードで一致していること。簡体字混入と
-誤変換に特に注意すること。）
+(Instruction only — do not render this sentence in the image: number the cards 1 to 5 consecutively, with no duplicated, missing or reworded cards. Every card uses the same split-scene layout (faded LEFT half, highlighted RIGHT half), and the three type-tag colors (blue / green / orange) match the LEGEND on every card.)
 
 --- FOOTER ---
 Final check before rendering: scan every kanji glyph and confirm it is

@@ -411,8 +411,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法119条（ア・エ）、同法120条（イ）、同法121条（ウ）。
-肢オは、これらの規定がいずれも登記記録の存在を前提とすることによる。判例・
-先例番号は省略。
+肢オは、これらの規定がいずれも登記記録の存在を前提とすることによる。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

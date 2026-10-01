@@ -408,7 +408,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：土地家屋調査士法9条（ア）、同法15条2項（イ）、同法13条（ウ）、
-同法16条1項2号・17条・12条1項（オ）。判例・先例番号は省略。
+同法16条1項2号・17条・12条1項（オ）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

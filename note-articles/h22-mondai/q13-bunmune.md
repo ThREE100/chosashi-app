@@ -427,7 +427,7 @@ characters):
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法51条1項（ア）、不動産登記規則35条7号（オ）。イ・ウ・
 エは条文の個別の号数ではなく、表示に関する登記の性質に基づく一般原則に
-よる。判例・先例番号は省略。
+よる。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

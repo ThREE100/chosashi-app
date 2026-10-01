@@ -201,11 +201,7 @@ blue, 5-15 Japanese characters):
 一棟全体の位置を記録
 
 --- FOOTER ---
-上記5枚のカードの通し番号・見出し・結論タグは、重複禁止・欠落禁止・
-言い換え禁止で、記載されたとおり正確に描画すること。日本語の漢字は
-すべて常用漢字(Jōyō kanji)の字体で描画し、簡体字は一切使用しないこと。
-
-Final check before rendering: scan every kanji glyph and confirm it is
+Final check before rendering: confirm the five cards are numbered 1 to 5 consecutively and that every card number, heading and conclusion tag is rendered exactly as written above (no duplicated, missing or reworded cards). Then scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not
 Traditional Chinese. If any character
 renders as a Simplified or Traditional Chinese

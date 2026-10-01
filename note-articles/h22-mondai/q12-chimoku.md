@@ -413,8 +413,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記事務取扱手続準則68条・69条（地目の認定基準）。判例・
-先例番号は省略。
+条文根拠：不動産登記事務取扱手続準則68条・69条（地目の認定基準）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

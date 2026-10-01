@@ -429,8 +429,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記令8条2項（ア）、不動産登記令9条・不動産登記規則（ウ）。
-イ・エ・オは建物の表示に関する登記の添付情報に関する一般原則による。判例・
-先例番号は省略。
+イ・エ・オは建物の表示に関する登記の添付情報に関する一般原則による。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

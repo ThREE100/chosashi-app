@@ -425,7 +425,7 @@ characters):
 Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法29条（実地調査権）・公有水面埋立法24条（竣功認可）・不動産
 登記法47条1項（1か月以内の申請義務）・48条1項（区分建物の一括申請）に
-基づく整理です。肢エの登記原因日付の根拠条文は特定できていません。
+基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

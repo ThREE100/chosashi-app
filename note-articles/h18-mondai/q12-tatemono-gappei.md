@@ -358,9 +358,9 @@ border）: 「その権利の登記が甲建物にも同一内容（登記の目
 color）showing the「承諾書」document icon crossed out with a large red ✕:
 「合併の登記を申請できない（承諾証明情報を添付しても不可）」. A faded,
 dotted-outline branch from the first diamond's いいえ side is captioned
-「この号による制限はない（本問の事案ではない）」, and a faded, dotted-
+「この号による制限はない」, and a faded, dotted-
 outline branch from the second diamond's はい side is captioned「例外的に
-合併の登記ができる（本問の事案ではない）」, to show the unrelated outcomes
+合併の登記ができる」, to show the unrelated outcomes
 without omitting them.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、乙建物に所有権等（所有権・地上権・永小作権・地役権及び採石権）以外

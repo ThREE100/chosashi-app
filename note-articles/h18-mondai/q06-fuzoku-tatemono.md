@@ -430,8 +430,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：ア・エ（不動産登記事務取扱手続準則78条1項）、ウ（不動産登記令
-別表14項添付情報）、オ（不動産登記事務取扱手続準則4条1項）。イは先例に
-よる取扱いであり、本記事では個別の先例番号までは確定していません。
+別表14項添付情報）、オ（不動産登記事務取扱手続準則4条1項）、イ（不動産登記規則82条・83条）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

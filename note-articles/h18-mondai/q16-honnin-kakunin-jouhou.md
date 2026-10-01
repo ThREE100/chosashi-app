@@ -328,7 +328,7 @@ with the qualifying-agent figure receiving a driver's-license icon from
 the applicant, a clipboard beside them showing two checked labels「書類
 の内容」「本人と認めた理由」. A "はい"（faded and greyed-out — this
 branch is the focus of PANEL 2）arrow leads to a small, faded diamond
-node reading "面識ありと認められる要件を満たすか（詳しくはパネル2）",
+node reading "面識ありと認められる要件を満たすか",
 itself leading to a faded conclusion node reading "氏名を知り面識がある
 旨＋その経緯を明記する（免許証提示は不要）".
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

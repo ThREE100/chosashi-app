@@ -449,8 +449,7 @@ Heading (bold, ONE line):
 Diagram: A decision flowchart, drawn top to bottom. Diamond 1 (thick
 highlighted border) labeled 直したいズレは地積の数値のズレか、それとも
 区画(分筆線の位置)のズレか. One branch, labeled 地積の数値のズレ, leads
-to a conclusion node drawn in a faded, grey, dotted style (this 肢は
-このケースではない) labeled 地積更正で直せる. The other branch, labeled
+to a conclusion node drawn in a faded, grey, dotted style labeled 地積更正で直せる. The other branch, labeled
 区画(分筆線の位置)のズレ(この肢のケース), thick highlighted border, leads
 to a highlighted conclusion node: two land plots labeled 甲地 and 乙地
 split by a misplaced boundary line, with a paper tag 地積更正 crossed out

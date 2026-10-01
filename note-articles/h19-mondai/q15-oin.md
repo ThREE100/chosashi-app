@@ -448,7 +448,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠:不動産登記令16条1項・18条1項(ア・イ・エ)、不動産登記規則47条
-1号(イ)・49条1項1号(エ)・74条2項(ウ・オ)。判例・先例番号は省略。
+1号(イ)・49条1項1号(エ)・74条2項(ウ・オ)。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

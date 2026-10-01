@@ -417,8 +417,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記令13条（ア〜オ共通）、不動産登記規則93条（エ）。判例・
-先例番号は省略。
+条文根拠：不動産登記令13条（ア〜オ共通）、不動産登記規則93条（エ）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

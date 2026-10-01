@@ -388,7 +388,7 @@ green はい arrow leading to a conclusion node showing coin icons labeled
 「賃料」flowing from tenant figures on each floor away from the owner
 figure toward a creditor figure holding a document labeled「抵当権者」,
 stamped「優先弁済を受けられる」. A small faded, dotted-outline note
-captions「不履行前に差押えはできない（本問の事案ではない）」to show the
+captions「不履行前に差押えはできない」to show the
 unrelated timing without omitting it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、賃料債権が物上代位の対象になることを確認します。次に、抵当権者が

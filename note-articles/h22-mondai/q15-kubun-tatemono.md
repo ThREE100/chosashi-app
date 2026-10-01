@@ -421,7 +421,7 @@ characters):
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：区分建物の表示に関する登記の基本原則、不動産登記法48条の趣旨
 （ア）。イ・ウ・エは敷地権・抵当権の処理に関する登記実務の取扱いによる。
-判例・先例番号は省略。
+
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

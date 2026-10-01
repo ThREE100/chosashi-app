@@ -424,7 +424,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法17条1号（ア）、不動産登記令17条（ウ）、民法111条1項2号
-（オ）。判例・先例番号は省略。
+（オ）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

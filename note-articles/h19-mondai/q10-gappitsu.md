@@ -472,7 +472,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠:不動産登記法41条3号・6号・80条4項(エ・ア)、不動産登記規則105条
-1号・2号・4号・159条1項(ア・イ・ウ・オ)。判例・先例番号は省略。
+1号・2号・4号・159条1項(ア・イ・ウ・オ)。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

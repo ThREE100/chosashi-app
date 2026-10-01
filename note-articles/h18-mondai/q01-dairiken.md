@@ -213,9 +213,7 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 代理人の善意無過失は無関係
 
-（HEADERより前ではなく、この位置に短い1文で補足：全5枚のカードはA・B・C
-共通の同一登場人物を使い、番号は1から5まで連番、重複・欠落・言い換えは
-禁止。簡体字混入と誤変換に特に注意すること。）
+(Instruction only — do not render this sentence in the image: number the cards 1 to 5 consecutively, with no duplicated, missing or reworded cards. All cards reuse the same characters A, B and C.)
 
 --- FOOTER ---
 Final check before rendering: scan every kanji glyph and confirm it is
@@ -350,7 +348,7 @@ speech bubble from A reads「私がBです」. Above the handshake, a single
 diamond decision node reads「客観的に本人のためにする意思があったか」, with
 a green はい arrow leading down to a checkmark stamp labeled「有効な顕名」.
 A small faded, dotted-outline branch labeled いいえ leads to a
-greyed-out box captioned「顕名なし（本問の事案ではない）」to show the
+greyed-out box captioned「顕名なし」to show the
 alternative outcome without omitting it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、代理人が誰の名前を名乗ったかという表面的な事実ではなく、客観的に
@@ -373,7 +371,7 @@ proceeding to a second diamond node (also thick highlighted border):
 「知らなかったことに過失はなかったか（無過失）」with a green はい arrow
 leading to a conclusion node reading「表見代理が成立／本人は履行拒絶でき
 ない」. A small faded, dotted-outline note captions「悪意または有過失なら
-本人は対抗できる（本問の事案ではない）」to show the unrelated outcome
+本人は対抗できる」to show the unrelated outcome
 without omitting it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、相手方が代理権の消滅の事実を知らなかったか（善意）を確認します。
@@ -397,7 +395,7 @@ proceeding to a second diamond node (also thick highlighted border):
 「知らなかったことに過失はなかったか（無過失）」with a green はい arrow
 leading to a conclusion node reading「代理権の濫用にあたらず契約は本人に
 帰属／本人は無効主張できない」. A small faded, dotted-outline note captions
-「知っていた・過失があれば無権代理とみなされる（本問の事案ではない）」to
+「知っていた・過失があれば無権代理とみなされる」to
 show the unrelated outcome without omitting it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、代理人が自己の利益を図る目的で行為をしたことを前提に、相手方がその

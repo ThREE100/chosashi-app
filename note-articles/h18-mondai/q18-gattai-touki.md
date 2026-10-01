@@ -215,8 +215,7 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 持分の登記にできない
 
-（HEADERより前ではなく、この位置に短い1文で補足：全5枚のカードは番号1から5
-まで連番、重複・欠落・言い換えは禁止。簡体字混入と誤変換に特に注意すること。）
+(Instruction only — do not render this sentence in the image: number the cards 1 to 5 consecutively, with no duplicated, missing or reworded cards.)
 
 --- FOOTER ---
 Final check before rendering: scan every kanji glyph and confirm it is

@@ -413,7 +413,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記法123条以下（筆界特定の申請）。判例・先例番号は省略。
+条文根拠：不動産登記法123条以下（筆界特定の申請）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
