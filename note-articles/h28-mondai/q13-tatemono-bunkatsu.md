@@ -42,7 +42,7 @@
 
 **たとえば**、甲建物の敷地の一部にあった附属建物を分割して乙建物とした結果、甲建物の所在地番の記載も変わる場合を考えてみましょう。登記記録には「変更後の所在はここです」という新しい所在と、「分割によって変更されました」という旨が記録され、あわせて元の所在の記載には抹消する記号が付されて、変更の経緯が誰にでもわかるように残されます。
 
-**実務でのケース**：土地家屋調査士のBさんが、依頼者Cさんから「敷地の一部を分筆した後、その上に建っている倉庫（甲建物の附属建物）を独立した建物として分割登記したい」という依頼を受けたとします。Bさんはまず現地に赴き、分筆後の測量図・地積測量図と照らし合わせて、倉庫の位置が新しい地番の土地上にあることを確認します。次に、分割登記の申請書を作成する段階で、この分割によって甲建物の所在地番も変更後の地番に変わることをCさんに説明し、その旨の変更登記もあわせて必要になることを伝えます。登記が完了すると、甲建物の登記記録には「変更後の不動産所在事項」「分割により変更した旨」「変更前の不動産所在事項を抹消する記号」の3点がセットで記録されるため、Bさんは完了後に取得した登記事項証明書でこの3点がきちんと反映されているかを確認し、Cさんに報告して案件を終えます。
+**実務でのケース**：土地家屋調査士のBさんが、依頼者Cさんから「1番の土地に建つ甲建物と、隣の2番の土地に建つ倉庫（甲建物の附属建物）のうち、倉庫を独立した建物として分割登記したい」という依頼を受けたとします。甲建物の登記記録の所在は、附属建物の敷地も含めて「1番地、2番地」と記録されています。Bさんはまず現地に赴き、公図・地積測量図と照らし合わせて、主である建物が1番の上だけに、倉庫が2番の上だけに建っていることを確認します。次に、分割登記の申請書を作成する段階で、倉庫を切り離すと甲建物の所在が「1番地」だけに変わることをCさんに説明します。この所在の変更は分割の登記の中で登記官が記録するもので、別に変更登記を申請する必要はありません。登記が完了すると、甲建物の登記記録には「変更後の不動産所在事項」「分割により変更した旨」「変更前の不動産所在事項を抹消する記号」の3点がセットで記録されるため、Bさんは完了後に取得した登記事項証明書でこの3点がきちんと反映されているかを確認し、Cさんに報告して案件を終えます。
 
 ### オ：所有権登記が先にある場合は、転写ではなく新たな所有権登記の旨が記録される
 
@@ -230,7 +230,7 @@ channel anywhere.
 
 エ・オについて、本文の「実務でのケース」で描いた依頼受任から登記完了までの流れを、縦方向の4ステップで俯瞰する個別インフォグラフィック。いずれも portrait 1080×1600px、単一列のステップフロー型。
 
-### 画像1：エ－分筆で地番が変わったら、登記記録はこう変わる
+### 画像1：エ－分割で所在が変わったら、登記記録はこう変わる
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
@@ -278,7 +278,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-分筆で地番が変わったら、
+分割で所在が変わったら、
 登記記録はこう変わる
 
 Subtitle (smaller, centered, 1行):
@@ -290,23 +290,25 @@ Subtitle (smaller, centered, 1行):
 --- STEP 1 ---
 Badge: a filled beige circle containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-現地調査で分筆後の地番を確認
-Illustration: An isometric land surveyor figure (土地家屋調査士) holding a
-measuring instrument, standing on a land plot next to a warehouse
-building (倉庫・甲建物の附属建物), comparing it against a 分筆後の測量図
-document.
+建物ごとの敷地の地番を現地で確認
+Illustration: Two adjacent isometric land plots with lot-number tags
+1番 and 2番 separated by a boundary line. The main building (甲建物) stands
+only on lot 1番, and a warehouse (倉庫・甲建物の附属建物) stands only on lot
+2番. A land surveyor figure (土地家屋調査士) holding a measuring instrument
+compares the site against a small 公図 document.
 Caption (small text below, 5-15 Japanese characters):
-分筆後の地番を現地で確認
+敷地の地番を現地で確認
 
 --- STEP 2 ---
 Badge: a filled beige circle containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-甲建物の所在地番も変更が必要と判明
-Illustration: An isometric main building (甲建物) with its address tag
-(所在地番) glowing and about to change from an old label to a new label,
-with a small 分筆 dividing line drawn on the land plot beneath it.
+倉庫を切り離すと甲建物の所在が変わる
+Illustration: The warehouse on lot 2番 is separated from 甲建物 by a dotted
+cut line and becomes a new building labeled 乙建物. Above 甲建物, its
+address tag changes from 「1番地、2番地」 to 「1番地」, shown with a small
+arrow between the two tags.
 Caption (small text below, 5-15 Japanese characters):
-所在地番の変更が必要
+所在が1番地だけに変わる
 
 --- STEP 3 ---
 Badge: a filled beige circle containing the number 3.
@@ -314,9 +316,10 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 申請書を作成し依頼者に説明
 Illustration: An isometric surveyor figure explaining a 建物分割登記申請書
 document to a client figure (依頼者), with a small speech-bubble icon
-containing a simplified registry-card illustration between them.
+containing a simplified registry-card illustration between them. A
+small tag near the application reads 別の変更登記は不要.
 Caption (small text below, 5-15 Japanese characters):
-記録内容を事前に説明
+登記官が分割の中で記録
 
 --- STEP 4 ---
 Badge: a filled beige circle containing the number 4.

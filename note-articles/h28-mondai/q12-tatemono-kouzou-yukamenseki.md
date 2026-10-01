@@ -152,9 +152,9 @@ Subtitle (smaller, centered, 1行):
 --- COLUMN A, CARD 1 ---
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
-区分した専有部分に屋根の種類は不要
-Illustration: An isometric apartment building divided into individual
-"専有部分" units, each unit's structure label box showing a crossed-out
+階層的に区分した専有部分は屋根不要
+Illustration: An isometric apartment building divided floor by floor
+(horizontally, one 専有部分 per floor) into individual "専有部分" units, each unit's structure label box showing a crossed-out
 roof icon, while the overall whole-building icon above keeps its own
 roof-type label intact.
 Conclusion tag (green banner below the illustration, 5-15 characters):
@@ -394,17 +394,18 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 乗降場の床面積に地下道設備の面積は足さない
-Diagram: A two-step decision flowchart beside an isometric station
-illustration. At the top, SHARED ELEMENT B with the 停車場の地下道設備 chip
+Diagram: A two-step check flow (rectangular boxes, no diamonds) beside an
+isometric station illustration. At the top, SHARED ELEMENT B with the 停車場の地下道設備 chip
 highlighted in blue. The illustration shows a roofed station platform
 labeled 乗降場・荷物積卸場, its roof labeled 上屋, and below the platform
 a separate underground passage labeled 地下道設備（地下停車場のものを含む）.
 The flowchart runs top to bottom:
-Step 1 — a diamond node labeled 上屋を有する乗降場・荷物積卸場か？ → はい →
-a box labeled 上屋の占める部分の面積で計算, with the area under the 上屋
+Step 1 — a rectangular check box labeled ①上屋を有する乗降場・荷物積卸場 →
+a single straight arrow down to a box labeled 上屋の占める部分の面積で計算, with the area under the 上屋
 shaded blue in the illustration.
-Step 2 — a diamond node labeled 地下道設備の面積を加えるか？ → an arrow
-marked ✕ → the final conclusion node labeled 地下道設備は床面積に算入しない.
+Step 2 — a rectangular check box labeled ②地下道設備がある → a single
+straight arrow down to the final conclusion node labeled 地下道設備は床面積に
+算入しない.
 In the illustration, draw a plus-sign arrow from the underground passage
 toward the platform's area total, crossed out with a red ✕, and keep the
 passage area uncolored with a small label 別枠.
@@ -420,21 +421,19 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 屋根や手すりがあっても屋外階段は床面積に入れない
-Diagram: A two-step decision flowchart beside an isometric exterior
-staircase attached to a house, with a small rain roof above it and a
+Diagram: A two-step check flow (rectangular boxes, no diamonds) beside an
+isometric exterior staircase attached to a house, with a small rain roof above it and a
 handrail along it, and no surrounding walls (open air visible on all
 sides). At the top, SHARED ELEMENT B with the 外気分断性 chip highlighted
 in blue.
 Step 1 — a rounded rectangle (NOT a diamond) labeled 屋根・手すりがある,
 drawn in a muted tone with a small tag 判定の決め手ではない, and a single
 straight arrow continuing down to Step 2 (this step does not branch).
-Step 2 — a diamond node labeled 壁などで外気と遮断されているか？（外気分断
-性）. Its いいえ exit is the thick highlighted main branch in blue, leading
-forward to the final conclusion node labeled 屋外階段は床面積に算入しない,
+Step 2 — a rectangular check box (NOT a diamond) with a thick blue border
+labeled 壁などで外気と遮断されていない（外気分断性なし）, and a single straight
+arrow down to the final conclusion node labeled 屋外階段は床面積に算入しない,
 with the staircase's floor area shaded gray in the illustration and
-stamped 算入しない. Draw its はい exit only as a short faded, dotted-outline
-stub labeled 本問の場面ではない, with no conclusion node attached and no
-arrow returning to any earlier node.
+stamped 算入しない. Do not draw any branch, stub or loop arrow.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、屋根や手すりの有無は判定の決め手ではないことを押さえます。次に、壁
 などで外気と遮断されているか（外気分断性）を確認し、外気分断性のない屋外

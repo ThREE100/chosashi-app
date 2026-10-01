@@ -293,11 +293,12 @@ Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 再度の催告では猶予は延びない
 Diagram: An isometric timeline. Start node: Aが催告状（封筒アイコン）を
-Bに送る（1回目の催告）、6か月のタイマーが動き出す。Diamond node: その6か月
-以内に再びＡが催告状を送ったか？with a はい arrow. Second diamond node
-(drawn with a thicker highlighted border, the main point of this panel):
-その2回目の催告を起点として新たな6か月の完成猶予が始まるか？with a red
-prohibition mark over the いいえ branch leading to a conclusion node
+Bに送る（1回目の催告）、6か月のタイマーが動き出す。Rectangular check box
+(not a diamond): その6か月以内にＡが再び催告状を送った. An arrow leads to a
+second rectangular box (drawn with a thicker highlighted border, the main
+point of this panel): 2回目の催告を起点とする新たな6か月の完成猶予は始まらない
+(with a red prohibition mark over a small「6か月延長」tag), then to a
+conclusion node
 reading 最初の催告から6か月で時効が完成する。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、最初の催告によって6か月の完成猶予が始まっていることを確認します。
@@ -312,8 +313,8 @@ Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 確定判決で時効はゼロから再進行
 Diagram: An isometric courthouse and gavel icon. Start node: Aが貸金返還
-請求の訴えを提起し（裁判上の請求）、時効の完成が猶予される。Diamond node
-(highlighted): その訴訟で勝訴判決が確定したか？with a はい arrow leading
+請求の訴えを提起し（裁判上の請求）、時効の完成が猶予される。Rectangular check
+box (highlighted, not a diamond): その訴訟で勝訴判決が確定した. An arrow leads
 to a conclusion node showing a calendar/timeline resetting to zero and a
 fresh countdown arrow, labeled 判決確定時から時効が新たに進行を始める。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -329,10 +330,10 @@ Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 取下げ後も6か月は時効の完成が猶予される
 Diagram: An isometric lawsuit document being crumpled/withdrawn by figure
-A. Diamond node: 訴えは、確定判決等によって権利が確定することなく終了し
-たか（取下げなど）？with a はい arrow. Second diamond node (highlighted):
-その終了の時から6か月を経過するまでの間は、時効の完成が猶予されるか？
-with a はい arrow leading to a glowing 6か月 timer stamp labeled 完成猶予
+A. Rectangular check box (not a diamond): 訴えは、確定判決等によって権利が
+確定することなく終了した（取下げ）. An arrow leads to a second rectangular box
+(highlighted): その終了の時から6か月を経過するまでの間は、時効の完成が猶予
+される. An arrow leads to a glowing 6か月 timer stamp labeled 完成猶予
 が続く remaining attached to the withdrawn document, connected by a
 dotted line to a 6か月 timer, and a conclusion node reading 取下げの時か
 ら6か月以内に改めて裁判上の請求等をすれば時効の完成を防げる。
@@ -350,10 +351,10 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 一部弁済で残額も承認扱い
 Diagram: An isometric hand handing over a small stack of coins labeled
-50万円 to creditor A, next to a ledger icon showing 100万円. Diamond node:
-Bが債務の一部（50万円）を弁済したか？with a はい arrow. Second diamond node
-(highlighted): その弁済は、残りの債務がなお存在することを前提とする行為
-（承認）にあたるか？with a はい arrow leading to a conclusion node where
+50万円 to creditor A, next to a ledger icon showing 100万円. Rectangular check box
+(not a diamond): Bが債務の一部（50万円）を弁済した. An arrow leads to a second
+rectangular box (highlighted): その弁済は、残りの債務がなお存在することを前提
+とする行為（承認）にあたる. An arrow leads to a conclusion node where
 the remaining 50万円 portion of the ledger glows and is stamped 承認。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず一部弁済がされた事実を確認します。次に、その弁済が残りの債務の存在を
@@ -369,8 +370,8 @@ Heading (bold, ONE line):
 時効完成後の承認は覆せない
 Diagram: An isometric figure B bowing apologetically toward creditor A,
 with a broken hourglass in the background showing time has already run
-out. Diamond node (highlighted): 時効が完成した後に、Ｂが承認をしたか？
-with a はい arrow leading to a locked-door icon labeled 時効の援用不可、
+out. Rectangular check box (highlighted, not a diamond): 時効が完成した後に、
+Ｂが承認をした. An arrow leads to a locked-door icon labeled 時効の援用不可、
 and a conclusion node reading 信義則上、その後の時効の援用は許されない。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず時効が完成した後であることを確認します。次に、その時点で債務者が承認

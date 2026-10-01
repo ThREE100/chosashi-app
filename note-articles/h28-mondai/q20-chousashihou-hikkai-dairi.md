@@ -319,8 +319,8 @@ inside the building; draw the link between the 社員 figure and that case
 folder as a faded dotted line (he never touched it). An arrow leads right
 to the same figure now standing outside the building, labeled 脱退後.
 Below the timeline:
- - Diamond node D1: 在職期間内に法人が依頼を承諾した事件か？ — draw only
-   a はい exit, with a tiny grey label 問題文の前提, leading down to D2.
+  - Rectangular check box C1 (NOT a diamond): 在職期間内に法人が依頼を承諾
+   した事件, with a single straight arrow leading down to D2.
  - Diamond node D2: その事件に自ら関与したか？
    - いいえ exit (thick highlighted border, bold arrow, full color) →
      conclusion node reading 業務制限の対象外（脱退後に相手方から受任
@@ -391,9 +391,8 @@ Heading (bold, ONE line):
 Diagram: A two-step decision flowchart. At the top, a 社員 figure wearing
 a badge labeled 筆界調査委員（非常勤の国家公務員）, handling a 筆界特定
 case folder in the past.
- - Diamond node D1: 筆界調査委員として職務上取り扱った事件か？ — draw only
-   a はい exit, with a tiny grey label 問題文の前提, leading to a
-   rectangular step box reading その社員個人は業務を行えない（法22条の2
+  - Rectangular check box C1 (NOT a diamond): 筆界調査委員として職務上取り
+   扱った事件, with a single straight arrow leading to a rectangular step box reading その社員個人は業務を行えない（法22条の2
    第1項）.
  - From that step box, a small grey note box reading この規定だけでは
    法人は縛られない, leading down to:

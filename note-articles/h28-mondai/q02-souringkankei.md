@@ -40,11 +40,11 @@
 
 ### エ：修繕のためでも、隣人の住家には勝手に立ち入れない
 
-平成28年当時の民法209条1項ただし書では、境界またはその付近で障壁・建物を築造・修繕するために隣地の「使用を請求することができる」場合であっても、隣人の**承諾がなければ、その住家（建物の内部）に立ち入ることはできない**とされていました。設問はこの内容と一致しており、正しい記述です。
+民法209条1項ただし書により、境界またはその付近で障壁・建物を修繕するなどのために隣地を使用することができる場合であっても、住家については、その**居住者の承諾がなければ、住家（建物の内部）に立ち入ることはできません**。設問はこの内容と一致しており、正しい記述です。
 
 **たとえば**、自宅の外壁を修繕するために隣家の敷地の一部を使わせてほしいと請求できる場面であっても、その隣家の建物の中にまで無断で入ることは別問題です。あくまで隣家の人が「どうぞ」と承諾して初めて、その住家に立ち入ることができます。
 
-なお、2023年4月1日施行の民法改正により、現行209条は隣地を「使用することができる」という直接的な権利に変わり（改正前の「使用を請求することができる」という間接的な構成から変更）、目的も①境界又はその付近における障壁・建物等の築造・収去・修繕、②境界標の調査・境界に関する測量、③233条3項による枝の切取り、の3つに拡大されています。あわせて、あらかじめ隣地の所有者・隣地使用者に使用の目的・日時・場所・方法を通知することが必要になりました。もっとも、**住家への立入りに居住者の承諾が必要である点は現行法でも維持**されており、本肢の結論（住家には無断で立ち入れない）は変わりません。
+※出題当時（平成28年度）の209条1項は、隣地の「使用を請求することができる」という構成で、住家への立入りには隣人の承諾が必要とされていました。2023年4月1日施行の民法改正により、現行209条は隣地を「使用することができる」という直接的な権利に変わり（改正前の「使用を請求することができる」という間接的な構成から変更）、目的も①境界又はその付近における障壁・建物等の築造・収去・修繕、②境界標の調査・境界に関する測量、③233条3項による枝の切取り、の3つに拡大されています。あわせて、あらかじめ隣地の所有者・隣地使用者に使用の目的・日時・場所・方法を通知することが必要になりました。もっとも、**住家への立入りに居住者の承諾が必要である点は現行法でも維持**されており、本肢の結論（住家には無断で立ち入れない）は変わりません。
 
 ### オ：袋地の通行権は、分割・譲渡した当事者の土地に限られる
 
@@ -173,14 +173,14 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- CARD 3 ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-越境枝は持ち主に切らせる
+越境枝は原則、持ち主に切らせる
 Illustration: An isometric tree on one land plot with a branch crossing
 the boundary line into the neighboring plot. The neighboring landowner
 figure points at the branch, while the tree's own owner figure, holding
 scissors, is the one shown cutting it; a prohibition mark sits over the
 neighboring landowner's hand reaching for the branch.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-自分では切れない
+原則は自分で切れない
 
 --- CARD 4 ---
 Badge: a filled blue circle containing the number 4.
@@ -337,7 +337,7 @@ Start node: 隣地の竹木の枝が境界線を越えている。Diamond node (
 itself asks about the unconditional case) leading to a conclusion node
 showing the neighboring landowner's hand blocked by a prohibition mark
 while the tree's own owner, holding scissors, is the one who cuts it,
-labeled 竹木の所有者に切除させる（自分では切れない）。A smaller はい arrow
+labeled 竹木の所有者に切除させる（原則として自分では切れない）。A smaller はい arrow
 leads to a secondary, visually de-emphasized note labeled 例外的に自ら
 切除できる場合もある（現行法）。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -347,7 +347,7 @@ leads to a secondary, visually de-emphasized note labeled 例外的に自ら
 します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-自分では切れない
+原則は自分で切れない
 
 --- PANEL 4（肢エ） ---
 Badge: a filled circle in blue containing the number 4.
@@ -360,7 +360,7 @@ labeled 承諾が必要。Near the boundary line, wall repair work（境界付�
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、境界付近の修繕のために隣地の使用が認められる場面であることを確認
 します。次に、そこからさらに隣人の「住家」の内部にまで立ち入るには、
-隣人本人の承諾が別途必要であることを確認します。
+居住者の承諾が別途必要であることを確認します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾がなければ不可
@@ -375,9 +375,9 @@ a separate third-party 丙 plot (owned by C). Start node: Aが自分の土地を
 甲・乙に分筆し、甲をBに譲渡した結果、甲が袋地になった。Diamond node:
 Bが公道に出るために通行できるのは、分筆・譲渡の当事者関係にある乙か、
 それとも無関係の第三者Cの丙か？with a footpath arrow drawn only from 甲
-through 乙, and a red prohibition cross over any path toward 丙。Second
-diamond node (highlighted): その後Aが乙をDに譲渡した場合、Bの通行権は消える
-か？with a いいえ arrow leading to a conclusion node reading 通行権は消滅
+through 乙, and a red prohibition cross over any path toward 丙。Then
+a rectangular check box (highlighted, not a diamond): その後Aが乙をDに譲渡した.
+An arrow leads to a conclusion node reading 通行権は消滅
 せず、Bは新所有者Dに対しても主張できる。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、袋地の通行権が及ぶのは分割・譲渡の当事者関係にある土地（乙）だけで

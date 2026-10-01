@@ -159,7 +159,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- CARD 2 ---
 Badge: a filled blue circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-地番変更登記には新図面が必要
+所在の変更登記には新しい建物図面
 Illustration: An isometric land plot being divided(分筆)causing its
 地番 tag to change, with the building on top of it requiring an updated
 建物図面 document to be submitted alongside.
@@ -338,8 +338,8 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
 地番が変わるだけでも変更後の建物図面が必要
 Diagram: Draw as an actual decision flowchart, top to bottom. Start node
-(rounded rectangle): an isometric land plot split in two, its lot-number
-tag changing from 「1番地」 to 「1番3」, with a building standing on it;
+(rounded rectangle): an isometric land plot split in two, the building's
+所在 tag changing from 「1番地」 to 「1番地3」, with a building standing on it;
 label 「敷地の分筆で建物の所在する土地の地番が変わる」. Arrow down to
 step box 1: 「所在の表示が変わる表題部の変更登記」. Arrow down to step
 box 2 (green highlight, thick border): 「変更後の建物図面を提供する」 with a

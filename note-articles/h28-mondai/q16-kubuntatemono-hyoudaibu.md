@@ -321,7 +321,7 @@ merger arrow labeled「吸収合併（Aは消滅）」to a corporate building ic
 labeled「株式会社B（一般承継人）」holding a 表題登記 application form.
 Below the start node, diamond node A labeled「申請人は区分建物を新築した
 原始取得者本人か？」. Its "はい" arrow leads to a small conclusion node
-「原始取得者が自ら申請する（本問の場面ではない）」. Its "いいえ" arrow leads
+「原始取得者が自ら申請し、表題部所有者となる」. Its "いいえ" arrow leads
 down to a node labeled「申請人は原始取得者の一般承継人（吸収合併した会社・
 相続人）」, which then splits into two separate result boxes placed side by
 side: left box ア, headed by the question「表題部所有者は誰にするか？」and
@@ -351,7 +351,7 @@ figure labeled「Aさん（区分建物を新築した原始取得者・死亡�
 downward family line labeled「相続」to an heir figure labeled「Cさん
 （相続人）」holding a 表題登記 application form. Diamond node A「申請人は
 区分建物を新築した原始取得者本人か？」: its "はい" arrow leads to the small
-conclusion node「原始取得者が自ら申請する（本問の場面ではない）」, and its
+conclusion node「原始取得者が自ら申請し、表題部所有者となる」, and its
 "いいえ" arrow leads down to the node「申請人は原始取得者の一般承継人（吸収
 合併した会社・相続人）」, which splits into the same two result boxes: left
 box ア「表題部所有者は誰にするか？」and right box イ「相続を証する情報は
@@ -444,8 +444,8 @@ name-tag icons for the same person, left tag labeled「敷地の所有権登記
 名義人：山田太郎（旧住所）」and right tag labeled「専有部分の所有権登記
 名義人：山田太郎（新住所）」, with a warning mark between the mismatched
 addresses. Diamond node labeled「敷地と専有部分の所有権登記名義人の表示は
-一致しているか？」: its "はい" arrow leads to a small faded, dotted-outline
-node「本問の場面ではない」; its "いいえ" arrow (THIS panel's path, thick
+一致しているか？」: its "はい" arrow leads to its own small conclusion node
+drawn in a lighter style「そのまま表題部の変更の登記を申請できる」; its "いいえ" arrow (THIS panel's path, thick
 blue highlighted border) leads down to a fork into two routes. Left route,
 a shortcut arrow labeled「同一性を証する情報を添付して、直ちに表題部の
 変更の登記を申請」, blocked by a large red ✕ and a label「不可」. Right

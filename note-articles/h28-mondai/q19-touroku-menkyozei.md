@@ -419,20 +419,18 @@ characters):
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 地方公共団体が私人に代位してする分筆の嘱託は非課税
-Diagram: A two-diamond decision-tree flowchart, separate from the shared
+Diagram: A two-step check flow (rectangular boxes, no diamonds), separate from the shared
 tree used in Panels 1, 2, and 4. At the top, an isometric scene: a land
 plot owned by a private-person figure labeled 私人（所有権の登記名義人）,
 with a part of the plot marked by a dashed line and a road-widening
 sign, and a local-government building labeled 地方公共団体 that has
-acquired that part. The first diamond node reads 嘱託するのは国・地方公共
-団体その他の公共法人か. Its はい branch (thick highlighted border, full
-color) leads down to the second diamond node reading これらの者以外の者
-（私人）に代位してする登記か. Its はい branch (thick highlighted border,
-full color) leads to a green conclusion node reading 登録免許税法5条1号に
-より登録免許税は課されない, with a glowing 非課税 stamp. The いいえ
-branch of each diamond is drawn only as a short faded, greyed-out,
-dotted-outline stub ending in a small faded node reading 5条1号の場面では
-ない; do not connect either stub back to any other node.
+acquired that part. The first rectangular check box (NOT a diamond) reads ①嘱託するのは国・
+地方公共団体その他の公共法人. A single straight arrow (thick highlighted,
+full color) leads down to the second rectangular check box reading
+②これらの者以外の者（私人）に代位してする登記. A single straight arrow leads
+to a green conclusion node reading 登録免許税法5条1号により登録免許税は
+課されない, with a glowing 非課税 stamp. Draw no diamonds, no side
+branches and no stubs.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、嘱託するのが国・地方公共団体その他の公共法人（本肢では地方公共団体）
 であることを確認します。次に、その登記がこれらの者以外の者（私人である

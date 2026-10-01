@@ -639,9 +639,9 @@ splitting into two sub-branches. This time the LEFT sub-branch, labeled
 the RIGHT sub-branch, labeled 「敷地権付き土地」, is highlighted with a
 thick green border and full color. Below the highlighted right
 sub-branch: an isometric apartment building (区分建物) standing on a land
-plot, with a tag on the land reading 地上権（敷地権）. A diamond node
-reading 「この土地の敷地権は地上権か？」, with a はい arrow down to a step
-node reading 「土地の所有権の登記名義人は地上権設定者（土地所有者）」,
+plot, with a tag on the land reading 地上権（敷地権）. A rectangular check box
+(not a diamond) reading 「この土地の敷地権は地上権」, with an arrow down to a
+step node reading 「土地の所有権の登記名義人は地上権設定者（土地所有者）」,
 showing a landowner figure below the building holding the land registry
 name plate. That step node leads down to the conclusion node reading
 「地上権設定者が地目変更登記を申請」, with the landowner figure wearing a

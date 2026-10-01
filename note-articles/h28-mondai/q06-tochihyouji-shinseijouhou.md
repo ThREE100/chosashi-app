@@ -566,13 +566,11 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 地目変更でも法人は会社法人等番号を提供する
-Diagram: A decision flowchart with 2 sequential diamond-shaped nodes,
+Diagram: A decision flowchart with one check box and one diamond-shaped node,
 stacked top to bottom. Start node: an isometric corporate building icon
 labeled「申請人：法人」next to an application form labeled「地目の変更の
-登記」. Diamond node 1 labeled「申請人は会社法人等番号を有する法人か？」:
-its "はい" arrow (THIS panel's path, highlighted) leads down to diamond
-node 2; its "いいえ" arrow leads to a small faded, dotted-outline node
-「本問の対象外」. Diamond node 2 labeled「代表者の資格を証する登記事項
+登記」. A rectangular check box (not a diamond, highlighted) labeled「申請人は会社
+法人等番号を有する法人」leads down to diamond node 2 labeled「代表者の資格を証する登記事項
 証明書（作成後3か月以内のもの）を提供して申請するか？」: its "はい" arrow
 leads to its own conclusion node「例外：会社法人等番号の提供を要しない
 （規則36条1項・2項）」, drawn in a lighter style and labeled「本問にはこの

@@ -400,10 +400,9 @@ Diagram: A decision flowchart, drawn top to bottom, with a small layout
 sketch at the top: an isometric land plot showing a dashed boundary line
 labeled 筆界特定の線, overlapped by a solid boundary line labeled
 確定判決の線 from a courthouse icon labeled 筆界確定訴訟. Step 1: a
-diamond-shaped branch node labeled 筆界確定訴訟の判決が確定したか; its
-○ branch leads to Step 2 (this 肢 assumes the judgment has become
-final, so draw its ✕ branch only as a short, faded gray, dotted stub
-with no label and no arrow back to any node). Step 2: a diamond-shaped branch node labeled 筆界特定の
+rectangular check box (NOT a diamond) labeled 筆界確定訴訟の判決が確定した,
+with a single straight arrow down to Step 2 (this step does not branch).
+Step 2: a diamond-shaped branch node labeled 筆界特定の
 内容のうち判決と抵触する部分か. The ○ (はい) branch leads to its own
 conclusion node, the overlapping part of the 筆界特定の線 fading out,
 labeled その範囲で効力を失う. The ✕ (いいえ) branch leads to a separate

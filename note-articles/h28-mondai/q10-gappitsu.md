@@ -356,15 +356,13 @@ characters):
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 雑種地で10平方メートル超なら1平方メートル未満を切り捨てる
-Diagram: A two-step decision flowchart, running top to bottom. At the
-top, two isometric area number tags「甲土地 9.0173平方メートル」and
+Diagram: A two-step check flow (rectangular boxes, no diamonds), running top to
+bottom. At the top, two isometric area number tags「甲土地 9.0173平方メートル」and
 「乙土地 3.3057平方メートル」with a plus sign between them, and an arrow
 down to a sum box「合計 12.3230平方メートル」. From the sum box, an arrow
-to diamond 1:「地目は宅地又は鉱泉地か」. The「はい」branch goes sideways
-to a faded, grey box「このルールの対象外」. The「いいえ（雑種地）」branch
-goes down, highlighted with a thick blue border, to diamond 2:「10平方
-メートルを超えるか」. The「いいえ」branch of diamond 2 goes sideways to a
-faded, grey box「このルールの対象外」. The「はい」branch goes down,
+to rectangular check box 1 (not a diamond):「地目は雑種地（宅地・鉱泉地では
+ない）」, then down, highlighted with a thick blue border, to rectangular check
+box 2 (not a diamond):「合計は10平方メートルを超える」, then down,
 highlighted, to a box「1平方メートル未満の端数を切り捨てる」, and then
 to a final highlighted conclusion stamp「12平方メートル」with a glowing
 checkmark. Next to the final stamp, draw a separate tag「12.32平方メー

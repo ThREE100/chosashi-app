@@ -370,9 +370,8 @@ Heading (bold, ONE line):
 Diagram: A decision flowchart combined with a timeline. At the top, the
 shared procedure-map strip with only the station 前住所への通知
 highlighted. Below it, a start node labeled 事前通知がされる. An arrow
-leads to diamond node 1 labeled 登記名義人の住所について変更の登記が
-されているか. Diamond 1 ✕ leads to a small grey conclusion node labeled
-前住所への通知の場面ではない. Diamond 1 ○ leads to a horizontal timeline
+leads to a rectangular check box (not a diamond) labeled 登記名義人の住所に
+ついて変更の登記がされている. The box leads to a horizontal timeline
 running left to right: a start marker labeled 最後の住所変更登記の申請
 の受付日, a bold vertical threshold line labeled 3か月, and further to
 the right a marker labeled 合筆の登記の申請（6か月後）. The timeline
