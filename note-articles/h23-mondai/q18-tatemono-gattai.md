@@ -159,8 +159,10 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 未登記側の持分取得者に申請義務
 Illustration: An unregistered shed merging with a registered house into
-one building, with a buyer character purchasing a share of the shed's
-portion, holding a calendar counting down "1か月".
+one building; AFTER the merge, a buyer character purchases from the
+shed's owner the share corresponding to the unregistered shed's portion
+(not the registered house's portion), holding a calendar counting down
+"1か月" that starts on the purchase date.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 1か月以内に申請
 
@@ -170,7 +172,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 証明は自分の持分だけでよい
 Illustration: A registered house owner merging with an unregistered
 shed, stamping a 所有権証明情報 document that covers only their own
-original house portion, with a red X over an oversized certificate.
+original house portion, with a second, larger certificate labeled
+建物全体 crossed out by a red X (the owner is NOT required to prove
+ownership of the whole merged building).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 自分の持分のみ
 
@@ -178,9 +182,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 更正登記後の所有者にも義務
-Illustration: A name-correction stamp fixing an incorrect owner name on
-a title-only building, with the newly-corrected owner character holding
-a calendar counting down "1か月".
+Illustration: A title-only (表題登記のみ) building that has since merged
+with another, whose 表題部所有者 box is changed by a 更正 stamp from a
+wrong person to the right person; the newly-corrected owner character
+holds a calendar counting down "1か月" that starts on the 更正登記 date.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 1か月以内に申請
 

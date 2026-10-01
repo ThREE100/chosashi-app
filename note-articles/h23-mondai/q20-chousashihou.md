@@ -160,9 +160,10 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 代理受任者は別事件を同意で受任可
 Illustration: A土地家屋調査士 character holding a 代理 contract with one
-client, and a second, unrelated dispute involving a different person,
-with the first client giving a 同意 checkmark stamp allowing the
-representation of both.
+client (client A), and a second, unrelated dispute brought by the
+opposing party of that first case (party B, whose second dispute has
+nothing to do with A), with client A giving a 同意 checkmark stamp
+allowing the調査士 to take B's second case as well.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 同意で受任可
 
@@ -175,8 +176,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 社員は法人の仕事を個人で不可
 Illustration: A staff character who is a member (社員) of a土地家屋調査士法人
 office building, reaching out to personally accept a new client's case
-for themselves, but a red X blocks the hand-off because that work falls
-within the firm's own business scope (競業禁止).
+in their own name, but a red X blocks it because that work falls within
+the firm's own business scope (競業禁止); the block is about 競業, not
+about any earlier case, so do NOT draw a 同意 stamp as a way around it.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 競業禁止で不可
 
@@ -187,7 +189,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: A staff character who personally worked on a case inside
 a firm building, then walking out a door labeled 脱退, but a red X
 still blocks them from accepting the opposing party's request on the
-same case even after leaving.
+same case even after leaving, even though the original client's 同意
+checkmark stamp is present (drawn as having no effect).
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 脱退後も不可
 
@@ -196,9 +199,11 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 協議だけでも制限の対象になる
 Illustration: A土地家屋調査士法人 office building repeatedly receiving
-consultation speech bubbles from a client without a signed contract
-icon, yet a red X still blocks the firm from accepting the opposing
-party's request on the same matter.
+consultation speech bubbles from a client (no contract document and no
+signed-contract icon anywhere in the illustration), yet a red X still
+blocks the firm from accepting the opposing party's request on the same
+matter, even though the client's 同意 checkmark stamp is present (drawn
+as having no effect).
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 相談だけでも制限
 
@@ -208,8 +213,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 使用人が受任済みなら法人も不可
 Illustration: A使用人(employee) staff character already holding a
 document from one client, next to the土地家屋調査士法人 office building
-itself reaching for the opposing party's request, blocked by a red X
-even though that client's 同意 checkmark stamp is present.
+itself reaching for the opposing party's request on the same matter,
+blocked by a red X even though that client's 同意 checkmark stamp is
+present (drawn as having no effect).
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 同意でも不可
 

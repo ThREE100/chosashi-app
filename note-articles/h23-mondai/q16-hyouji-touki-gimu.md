@@ -160,8 +160,9 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地権割合変更は1か月以内に申請
-Illustration: A condominium building's pie-chart 敷地権割合 shifting to
-new fractions, with a calendar starting a "1か月" countdown from that
+Illustration: A condominium building's pie-chart 敷地権割合 shifting from
+one split to a different split (do NOT write any numeric fractions on
+the pie-chart), with a calendar starting a "1か月" countdown from that
 exact change date toward a 表題部変更登記 stamp.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 変更日から1か月
@@ -191,10 +192,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 一部取壊しは分割の登記ではない
-Illustration: One connected building being partially demolished in the
-middle, physically splitting into two separate buildings, with a red X
-over 建物の分割の登記 and a checkmark over 一部滅失による変更登記
-instead.
+Illustration: One connected building (no 附属建物 drawn) being partially
+demolished in the middle, physically splitting into two separate
+buildings, with a red X over 建物の分割の登記 and a checkmark over
+一部滅失による変更登記 instead.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 変更登記で対応
 

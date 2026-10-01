@@ -150,7 +150,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 独立させる登記は共有者全員で
 Illustration: A small shed (附属建物) being detached from a main house
 and becoming its own independent building icon, with two co-owner
-characters both stamping the 分割登記 seal together.
+characters (the house and shed are jointly owned by both) both stamping
+the 分割登記 seal together; do NOT draw only one of them stamping.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 全員で申請
 
@@ -159,8 +160,9 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 追加分の各階平面図だけでよい
 Illustration: A main house with an existing filed floor-plan document,
-gaining a new small shed, with only the shed's own small各階平面図
-document being submitted, not the whole house's plan again.
+gaining a new small shed, with only the shed's own small 各階平面図
+document being submitted (a checkmark on it), and the house's existing
+plan shown faded and NOT re-submitted.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 追加分のみ
 
@@ -170,7 +172,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 滅失の日だけ書けば足りる
 Illustration: A main house demolished first, then its attached shed
 demolished later, both converging into a single 滅失登記 stamp with
-one overall date.
+one overall date (do NOT draw a separate second date for the shed).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 取壊し日は別記不要
 
@@ -188,9 +190,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 変化なければ図面は省略できる
-Illustration: Several small shed icons with one being demolished while
-the others remain unchanged, next to an already-filed blueprint
-document with a checkmark.
+Illustration: Several small shed icons in a row, all but ONE of them
+demolished (rubble) while the single remaining shed stays unchanged in
+the same position, next to an already-filed blueprint document with a
+checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 省略できる
 

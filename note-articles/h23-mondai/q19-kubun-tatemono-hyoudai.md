@@ -151,7 +151,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 既存建物の登記は変更で対応
 Illustration: An independent warehouse icon becoming attached to a new
 condominium unit, with a red X over 抹消 and a green checkmark over
-変更登記 applied instead to the warehouse's existing record.
+表題部の変更の登記 applied instead to the warehouse's existing record
+(do NOT write 更正 anywhere on this card).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 変更で対応
 
@@ -162,7 +163,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: A newly-built condominium unit connecting to an
 unregistered apartment building, with the new unit's owner character
 stamping 表題登記 seals for both their own unit and the other units on
-behalf of their owners.
+behalf of their owners (the owner of the new unit is the one stamping;
+the other units' owners are shown standing aside).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 まとめて申請可
 
@@ -172,8 +174,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 一部売却後も本人がなお申請できる
 Illustration: A builder character holding an entire unregistered
 condominium building, selling one unit to a buyer, but still personally
-stamping the 表題登記申請 seal for that sold unit, with a red X over a
-代位 stamp.
+stamping the 表題登記申請 seal for that sold unit, with a faded 代位
+stamp pushed aside and labeled 必須ではない (do NOT draw a large red X
+across 代位 as if 代位 were forbidden).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 代位は必須でない
 
@@ -181,8 +184,9 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 同一所有者なら区分しない選択も
-Illustration: A single owner character standing in front of an entire
-apartment building, with two path options both showing checkmarks:
+Illustration: A single owner character who owns every room, standing in
+front of an entire apartment building, with two path options both
+showing checkmarks:
 区分建物として登記 or 1個の非区分建物として登記.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 選べる
@@ -190,7 +194,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 5 ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-相続人は自己を所有者にできない
+相続人は自己を表題部所有者にできない
 Illustration: An unregistered condominium unit's original builder
 character passing away, with their heir character submitting a
 表題登記申請, but a red X blocks the heir's own name from the表題部所有者
