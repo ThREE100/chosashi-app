@@ -70,7 +70,8 @@
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和6年度第11問「代位による登記」（本シリーズで既に note-articles/r6-mondai/q11-daii-ni-yoru-touki.md として執筆済み）が、本問と強く重複するテーマであることを確認しました。両問とも「地役権の設定を受けた地役権者は、承役地の所有者に代位して分筆の登記を申請することができない」という同一の結論を問う肢を含んでいます（本問の肢オ、令和6年度第11問の肢エに相当）。note投稿の際は、この論点が既に令和6年度分の記事で解説済みであることを踏まえ、重複した説明にならないよう書き分けるか、公開の間隔・言及の仕方に配慮してください。
 - **最新法令準拠チェック（2026-08-04実施）**：令和6年（2024年）4月1日施行の相続登記の申請義務化・相続人申告登記制度の新設を確認しましたが、これらは相続による所有権移転登記の義務に関する新制度であり、本問が扱う代位による分筆・合筆登記の可否（民法423条、不動産登記法59条7号等）のルール自体は変更されていません。内容の修正は不要と判断しました。
-- **再検証（2026-08-13実施）**：`note-articles/laws/fudousan-touki-hou.md`で不動産登記法39条1項（分筆又は合筆の登記は表題部所有者又は所有権の登記名義人以外の者は申請できない旨）・80条2項（地役権設定の目的及び範囲が登記事項であり、承役地の一部にそのまま設定できること）を改めて確認し、各肢の結論・正誤判定に誤りがないことを確認しました。修正箇所はありません。
+- **再検証（2026-08-13実施）**：`note-articles/laws/fudousan-touki-hou.md`で不動産登記法39条1項（分筆又は合筆の登記は表題部所有者又は所有権の登記名義人以外の者は申請できない旨）・80条（地役権設定の目的及び範囲が登記事項であり〔1項2号。当初「2項」と記載していたのを2026-10-01に訂正〕、承役地の一部にそのまま設定できること）を改めて確認し、各肢の結論・正誤判定に誤りがないことを確認しました。修正箇所はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：各肢を、`note-articles/laws/`（2026-08-04取得の現行版）の条文と改めて照らしました。①肢ウの根拠は、土地区画整理法82条1項（「施行者は、土地区画整理事業の施行のために必要がある場合においては、所有者に代わつて土地の分割又は合併の手続をすることができる」）と特定できました（従前は法律名のみの記載）。不動産登記令3条4号・7条1項3号は「民法423条その他の法令の規定により他人に代わって登記を申請するとき」に代位者・代位原因の申請情報と代位原因証明情報を求めており、この「その他の法令」に同法82条が当たります（なお、不動産登記法59条7号は権利に関する登記の登記事項であり、表示に関する登記である分筆・合筆の代位申請の直接の根拠は、令の上記各条です）。②肢ア・イ・エの土台である民法423条は令和2年4月1日施行の債権法改正後の条文で、登記請求権を保全するための代位は同法423条の7に明文化されましたが、各肢の結論（代位の可否）に影響はありません。③分筆・合筆の申請人の制限（不動産登記法39条1項）と、地役権設定の範囲が承役地の一部でもよいこと（同法80条1項2号）に改正はありません。④相続登記の義務化（令和6年4月）・住所変更登記の義務化（令和8年4月）は権利に関する登記の新制度で、本問に影響しません。正解・正誤判定の変更はありません。肢エの説明（共有地の分筆を保存行為的に申請できる）に直接対応する個別条文は、引き続き特定できていません。
 
 ---
 
@@ -122,9 +123,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・続・筆・強 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 権 not 权, 続 not 续,
-筆 not 笔, 強 not 强).
+kanji 権・筆・強・請 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -215,7 +215,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 権・続・筆・強. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 権・筆・強・請. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm badge numbers run 1-5 continuously across both
 columns without resetting, confirm there is no intro illustration or
@@ -312,8 +312,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抵当権者は担保目的物特定のため代位できる
-Diagram: A shared two-step decision flowchart used across this set of 5
-panels. First diamond node（thick highlighted border）: Cについて、法令
+Diagram: Three labeled characters stand beside a land plot: 名義人A (the
+registered owner), 買主B (who bought a part of the plot and mortgaged that
+part), and 抵当権者C; only C stamps anything. Beside them, a shared
+two-step decision flowchart used across this set of 5 panels. First
+diamond node（thick highlighted border）: Cについて、法令
 が特別に代位を認める規定があるか？with the いいえ branch highlighted
 proceeding downward. Second diamond node（thick highlighted border）:
 代位しなければ、Cの権利（抵当権）が保全されないという関係があるか？with
@@ -385,7 +388,8 @@ highlighted border）: 共有者Aについて、法令が特別に代位を認�
 diamond node（thick highlighted border）: 代位しなければ、遺産分割調停
 で決まったAの取得部分が実現・保全されないという関係があるか？with the
 はい branch highlighted (three heir characters around a court-mediation
-document dividing a land plot into three pieces) leading to a
+document dividing a land plot into three pieces, two for A and one shared
+by B and C, with no share fractions written) leading to a
 highlighted conclusion node reading 代位できる, while the いいえ branch
 of this node is rendered faded, leading to a faded conclusion node
 reading 代位できない.
@@ -424,12 +428,12 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法423条（債権者代位権）の考え方と、土地区画整理法上の特別の代位規定
-に基づく整理です。
+民法423条（債権者代位権）の考え方と、土地区画整理法82条1項の特別の代位
+規定に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 権・続・筆・強・拠・轄. If any
+Chinese, paying special attention to 権・筆・請・記・区. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or

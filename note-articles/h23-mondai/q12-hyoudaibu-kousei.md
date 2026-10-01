@@ -71,6 +71,7 @@
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成24年度以降令和7年度までの試験で「表題部の更正の登記」を単独テーマとする問題が再出題されていないかを確認しました。該当する出題は見つからず、重複はありません。
 - **最新法令準拠チェック（2026-08-06実施・条文番号を訂正）**：前回のチェックで「不動産登記法37条（表題部の更正）、76条（確定判決等による登記）」と記載していましたが、ローカル法令データベースで条文原文を確認したところ、37条は「地目又は地積の変更の登記の申請」、76条は「所有権の保存の登記の登記事項等」であり、いずれも本問の根拠条文ではありませんでした。本問の根拠は不動産登記法33条（表題部所有者の更正の登記等）であり、関連して38条（土地の表題部の更正の登記の申請）・53条（建物の表題部の更正の登記）が対応します。該当箇所を訂正済みです。33条の内容自体に直近の改正による変更はありません。
 - **再検証（2026-08-13実施・条文根拠を追加）**：33条の訂正内容と各肢の正誤判定に誤りがないことを改めて確認しました。あわせて、これまで「一般的な扱いからの整理にとどまる」としていた肢ア・ウ・エ・オについて、`note-articles/laws/fudousan-touki-rei-betsuhyou.md`（不動産登記令別表）を検索したところ、それぞれの添付情報の具体的な根拠条文（一の項・二の項）を特定できたため、本文と本項に反映しました。正誤判定に変更はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：各肢を`note-articles/laws/`（2026-08-04取得の現行版）と照らしました。不動産登記法27条1号・33条・38条・53条、不動産登記令別表一〜三の項（現行リビジョン20260521）の文言・項番号に出題当時からの変更はなく、本文の根拠条文はそのまま現行法です。肢イ・ウの添付情報は、令別表三の項が「持分を更正することとなる他の共有者の承諾を証する情報又は当該他の共有者に対抗することができる裁判があったことを証する情報」、同二の項ハが「表題部所有者の承諾を証する情報又は表題部所有者に対抗することができる裁判があったことを証する情報」と、いずれも「又は」の関係で定めています。図解ではこれにそろえ、肢イは「承諾書で足りる」、肢ウは「承諾情報でも判決の情報でもよい」と描きました（本文の「承諾だけ」は、持分権の証明情報までは要らないという趣旨です）。なお二の項には、本文・図解で触れていない添付情報として「表題部所有者となる者が所有権を有することを証する情報」（イ）も定められています。相続登記の義務化（令和6年4月）・住所変更登記の義務化（令和8年4月、不動産登記法76条の5）は所有権の登記名義人に関する制度で、表題部所有者の更正の登記には及びません。正解・正誤判定の変更はありません。肢オについて、更正後も表題部所有者として残る既存のAの住所証明情報が要るかどうかは、令別表二の項ロの文言（「当該登記をすることによって表題部所有者となる者」）からは断定できなかったため、図解ではBについてだけ描き、Aの要否は描いていません。
 
 ---
 
@@ -122,9 +123,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 証・権・録・約 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 証 not 证, 権 not 权,
-録 not 录, 約 not 约).
+kanji 証・請・記・諾・誤 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -177,7 +177,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: A courthouse/gavel icon stamping a 判決 document, handed to
 an actual-owner character B who is not the one listed on the 表題部 (the
 listed owner character A is shown on the document), allowing B to stamp
-a 更正申請 directly with a checkmark.
+a 更正申請 directly with a checkmark. Beside the 判決 document, draw a
+smaller faded dotted-outline 承諾書 icon (the consent of the listed owner
+A) joined to it by the small label 又は, to show that either one is
+enough; draw the checkmark only on the stamping of the 更正申請.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 判決で更正可
 
@@ -190,8 +193,9 @@ slot where an official certificate would be (the certificate is
 unobtainable, drawn as an empty slot, not as a document marked wrong),
 and an alternative document icon with a checkmark accepted at the
 registry window. The 表題部所有者の氏名 field on the title document is
-shown as the item being corrected. Draw the red X only on the empty
-slot, nowhere else.
+shown as the item being corrected. Do NOT draw any red X in this card:
+the empty slot is only a dotted outline, and the checkmark appears only
+on the alternative document.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 代替情報でOK
 
@@ -202,14 +206,15 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: A title document that originally lists only owner
 character A, with a new co-owner character B being added to it; B (the
 newly added person) holds up an 住所証明情報 card at the registry window,
-with a checkmark confirming the requirement. A does not hold the card.
+with a checkmark confirming the requirement. Do not draw any 住所証明情報
+card or label on A.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 住所証明が必要
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 証・権・録・約. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 証・請・記・諾・誤. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
@@ -320,12 +325,12 @@ characters):
 --- PANEL 2（肢イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
-持分更正の添付は他の共有者の承諾書のみ
+持分更正は他の共有者の承諾書で足りる
 Diagram: A left-right comparison frame. Left side（labeled 正しいルー
 ル, green outline）: a pie-chart icon showing shared ownership shifting
 from 1/2・1/2 to 2/3・1/3, with co-owner B（whose share decreases）
-handing over a 承諾書 icon, and a green checkmark confirming this is the
-only attachment required. Right side（labeled 誤った思い込み, red
+handing over a 承諾書 icon, and a green checkmark confirming this
+attachment is sufficient. Right side（labeled 誤った思い込み, red
 outline）: the same scene, but申請人A is additionally holding up a
 separate document labeled Aの共有持分権を証する情報, with a red ✕ mark
 and a strike-through line drawn across that document to show it is not
@@ -343,19 +348,17 @@ A自身の証明は不要
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 実体上の所有者だけが更正を申請できる
-Diagram: An actual decision flowchart. First diamond node: 更正の登記
-を申請しようとしているのは、実体上の所有者Bか、表題部所有者Aか？with
-the B branch highlighted（thick border）proceeding downward, while the
-A branch is rendered faded and greyed-out, leading to a faded
-conclusion node labeled 申請適格なし（このケースでは該当しない）.
-Second diamond node（thick highlighted border）: 添付情報として、Aの
-承諾を証する情報、またはAに対抗することができる裁判があったことを証す
-る情報のいずれかを提供できるか？with two separate labeled branches
-drawn side by side — a 承諾情報 branch leading to a conclusion node
-reading 更正の登記を申請できる, and a 対抗判決情報 branch（highlighted,
-since this is what the 肢 uses）leading to a separate conclusion node
-also reading 更正の登記を申請できる, drawn as two distinct routes to
-the same result rather than merged into one box.
+Diagram: A two-step flowchart. First diamond node: 更正の登記を申請でき
+るのは、実体上の所有者Bか、表題部所有者Aか？with the B branch
+highlighted（thick border）proceeding downward, while the A branch is
+rendered faded and greyed-out, leading to a faded conclusion node labeled
+申請不可. Second step (a box, NOT a diamond, with no いいえ branch): the
+heading 添付情報（いずれか一方でよい）over two parallel routes drawn side
+by side — a 承諾情報 route (Aの承諾を証する情報) and a 対抗判決情報 route
+(Aに対抗することができる裁判があったことを証する情報, highlighted, since
+this is what the 肢 uses) — each leading to its own conclusion node reading
+更正の登記を申請できる, drawn as two distinct routes to the same result
+rather than merged into one box.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、更正の登記を申請できるのは実体上の所有者Bであって、表題部所有者
 Aではないことを確認します。次に、添付情報として、Aの承諾を証する情報
@@ -390,13 +393,13 @@ characters):
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
-新たに名義人になる人だけ住所証明が必要
-Diagram: A left-right comparison frame. Left side: the existing 表題部
-所有者A character（already registered）, with a 住所証明情報 icon
-rendered in a faded, dotted-outline style and a small label 今回は不要
-next to it. Right side（highlighted, thick border）: a newly-added共有
-者B character holding up a 住所証明情報 card at the registry window,
-with a green checkmark confirming the requirement.
+新たに名義人になる人は住所証明が必要
+Diagram: A left-right comparison frame. Left side（labeled 更正前）: the
+表題部 shows only the existing 表題部所有者A character, with no card or
+label about A's address. Right side（labeled 更正後, highlighted, thick
+border）: the 表題部 now shows A and a newly-added共有者B character, and B
+holds up a 住所証明情報 card at the registry window, with a green
+checkmark confirming the requirement.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、更正の登記によって新たに表題部所有者（共有者）として登場するの
 がBであることを確認します。次に、新たに名義人になる人については住所
@@ -413,7 +416,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 証・権・録・約・拠. If any character
+Chinese, paying special attention to 証・請・諾・誤・対. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

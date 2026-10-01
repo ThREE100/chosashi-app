@@ -71,6 +71,7 @@
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成24年度以降令和7年度までの試験で「登記所の管轄」を単独テーマとする問題が再出題されていないかを確認しました。該当する出題は見つからず、重複はありません。
 - **最新法令準拠チェック（2026-08-06実施・条文番号を訂正）**：前回のチェックで「不動産登記法6条・7条」としていましたが、ローカル法令データベースで条文原文を確認したところ、7条は「事務の委任」であり本問の根拠ではありませんでした。管轄の根拠は6条に集約されており、1項（不動産の所在地を管轄する登記所がつかさどる）・2項（二以上の登記所の管轄区域にまたがる場合の法務大臣等による指定）・3項（**指定がされるまでの間も、二以上の登記所のうち一の登記所に申請することができる**）です。特に3項は肢ウの直接の根拠にあたるため、本文にも明記しました。6条の内容自体に直近の改正による変更はありません。なお、肢ア（行政区画未定）・肢イ・エ（主である建物を基準とする管轄）・肢オ（曳行移転時の申請先）は、条文に直接の定めがなく、登記実務上の取扱いからの整理にとどまります。
 - **再検証（2026-08-13実施）**：`note-articles/laws/fudousan-touki-hou.md`の6条3項、および`note-articles/laws/fudousan-touki-jimu-junsoku.md`の準則4条（他の登記所の管轄区域への建物のえい行移転の場合、移転先の乙登記所が管轄登記所となる）・準則5条（増築・附属建物の新築等で他登記所の管轄区域にまたがっても、管轄登記所は甲登記所のままであること）を改めて確認しました。肢オは準則4条1項、肢イは準則5条の規定そのものと一致することを確認できたため、本文と本項に反映しました。肢エ（主である建物のみのえい行移転による管轄の移動）・肢ア（行政区画未定の土地の表題登記の可否）については、準則にも直接の定めが見当たらず、引き続き実務上の取扱いからの整理にとどまる旨をお伝えします。各肢の正誤判定に誤りはありませんでした。
+- **適用法令の現行性チェック（2026-10-01実施）**：各肢を`note-articles/laws/`（不動産登記法は2026-08-04取得の現行版、準則は令和6年12月2日最終改正版）と照らしました。不動産登記法6条1項〜3項、不動産登記事務取扱手続準則4条・5条の文言は、本文の結論を変えるものではなく、本文の根拠条文はそのまま現行法です。相続登記の義務化（令和6年4月）・住所変更登記の義務化（令和8年4月）も本問に影響しません。ただし、確認できなかった点が2つあります。第一に、準則5条の後段は「甲登記所において登記されている建物が、えい行移転又は管轄区域の変更により乙登記所の管轄区域にまたがることとなった場合についても、同様とする」（管轄登記所は甲登記所のまま）と定めています。肢エは、主である建物だけが乙の管轄区域へ移り、附属建物が甲に残る場面で、一個の建物としては甲乙にまたがる形になるため、この後段の文言どおりに読むと管轄が甲のままとなる余地があります。本文の「主である建物の所在地を基準とする」扱いの根拠（たとえば「不動産の管轄登記所等の指定に関する省令」）は`laws/`に収録がなく、この点を確認できなかったため、本文の結論と正誤判定（肢エは正しい）は公式正解に従って維持しています。第二に、肢オについて、準則4条2項・3項は、えい行移転による所在の変更の登記の申請が甲登記所にされた場合に、甲登記所が乙登記所へ通知し、両登記所で実地調査をしたうえで関係簿書を引き継ぐ手順を定めています。本文のとおり管轄登記所は乙登記所ですが、甲登記所に申請しても直ちに不適法とされるわけではないため、図解では甲登記所の窓口に✕を付けず、淡い表示にとどめました。
 
 ---
 
@@ -86,7 +87,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-登記所の管轄に関する5つの独立した個別ルール（行政区画未定の扱い・主従建物の管轄基準・管轄指定前の申請可否・曳行移転時の管轄・所在変更登記の申請先）であり2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
+登記所の管轄に関する5つの独立した個別ルール（行政区画未定の扱い・主従建物の管轄基準・管轄指定前の申請可否・えい行移転時の管轄・所在変更登記の申請先）であり2つの軸には分かれないため、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する単一列・5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -122,8 +123,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 轄・録・属・属 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 轄 not 辖).
+kanji 轄・属・請・移 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -199,15 +200,15 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: A whole building icon being pulled by a rope from the
 甲登記所 territory to a new land plot in the 乙登記所 territory, with a
 所在変更登記 stamp being applied at the 乙登記所 (destination) window,
-highlighted in full color; the 甲登記所 (origin) window is drawn faded
-and receives nothing.
+highlighted in full color; the 甲登記所 (origin) window is drawn faded,
+with nothing happening there and no ✕ mark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 移転先の登記所へ
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 轄・録・属. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 轄・属・請・移. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
@@ -241,10 +242,11 @@ panels, render the diamond node and the branch relevant to THAT panel
 (甲 for 肢イ, 乙 for 肢エ) with a thick highlighted border and full color,
 and render the other branch in a faded, greyed-out, dotted-outline style
 rather than omitting it, so the reader can see at a glance which part of
-the shared rule this panel is about; also render a small scale icon
-labeled 附属建物の大小は無関係 crossed out or greyed near the highlighted
-conclusion node in both panels, to make explicit that the annex
-building's size never changes the outcome. Where a 肢 turns on a common
+the shared rule this panel is about; also render a small faded
+dotted-outline tag labeled 附属建物の大小は無関係 (a "not a deciding
+factor" note with no ○ or ✕ mark) near the highlighted conclusion node in
+both panels, to make explicit that the annex building's size never
+changes the outcome. Where a 肢 turns on a common
 misconception about whether one must wait for something before acting
 (肢ウ: a reader may wrongly think an applicant must wait for the 指定
 before applying at all), draw it as a two-side contrast panel: a
@@ -326,13 +328,13 @@ decision node, drawn with a thick highlighted border and full color:
 主である建物はどちらの登記所の管轄区域にあるか？with the 甲 branch
 highlighted leading to a conclusion node reading 甲登記所に所在変更登記
 を申請, and the 乙 branch rendered faded/greyed-out/dotted (今回は関係
-ない、肢エで使う). A small scale icon labeled 附属建物の大小は無関係 is
-crossed out near the highlighted conclusion node.
+ない、肢エで使う). A small faded dotted-outline tag labeled 附属建物の大小は無関係 (no ○ or
+✕ mark) sits near the highlighted conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、主である建物がどちらの登記所の管轄区域にあるかを確認します。附属
-建物だけが乙登記所の管轄区域にまたがっていても、次に、主である建物が甲
-にある以上、附属建物と主である建物の床面積の大小にかかわらず管轄は甲登
-記所のままと判断します。
+まず、主である建物がどちらの登記所の管轄区域にあるかを確認します。次
+に、附属建物が乙登記所の管轄区域にまたがっていても、主である建物が甲に
+ある以上、附属建物と主である建物の床面積の大小にかかわらず管轄は甲登記
+所のままと判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 主建物基準で甲のまま
@@ -348,7 +350,7 @@ an hourglass labeled 指定待ち, and a 表題登記申請 document crossed out
 with a red ✕. Right side, labeled「正しいルール」(highlighted, full
 color): the same factory, with the character submitting the 表題登記申請
 document directly at one of the two offices' windows, a green checkmark,
-and a small note いずれ指定があれば従う beside it.
+and a small tag reading 指定前でも beside it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、建物が二以上の登記所の管轄区域にまたがっているかを確認します。次
 に、法務大臣等による登記事務を行う登記所の指定を待たなくても、そのうち
@@ -369,7 +371,8 @@ territory into 乙登記所's territory, while a larger attached shed icon
 （附属建物）stays behind inside 甲登記所's territory. The 甲 branch is
 rendered faded/greyed-out/dotted this time (今回は関係ない、肢イで使う).
 The highlighted conclusion node reads 管轄登記所は乙登記所となる, with a
-scale icon labeled 附属建物の大小は無関係 crossed out beside it.
+small faded dotted-outline tag labeled 附属建物の大小は無関係 (no ○ or ✕
+mark) beside it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、主である建物のみが乙登記所の管轄区域へえい行移転したことを確認し
 ます。次に、附属建物が甲登記所の管轄区域に残り、床面積が主である建物よ
@@ -382,12 +385,12 @@ characters):
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
-曳行移転後の申請先は移転先の乙登記所
+えい行移転後の申請先は移転先の乙登記所
 Diagram: A layout map with the same two registry offices. A whole
 building icon（附属建物のない単純な一棟）being pulled by a rope from 甲
 登記所's territory all the way into 乙登記所's territory. A 所在変更登記
 stamp is applied at 乙登記所's window (the destination), while 甲登記所's
-window shows a red ✕ crossing out a document labeled 所在変更登記.
+window is drawn faded, with nothing happening there (no ✕ mark).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、建物全体がえい行移転によって甲登記所の管轄区域から乙登記所の管轄
 区域へ移動したことを確認します。次に、建物そのものが乙登記所の管轄区域
@@ -403,7 +406,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 轄・録・属・築・移. If any character
+Chinese, paying special attention to 轄・属・請・区・移. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō
