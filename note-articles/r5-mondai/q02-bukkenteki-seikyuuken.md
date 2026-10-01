@@ -152,8 +152,7 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 無権利者には登記なくても明渡し可
 Illustration: An isometric land plot with a buyer figure A standing on
-it without any registration certificate (a crossed-out 登記 badge above
-him), next to an unauthorized occupier figure C labeled "無権利者" being
+it without any registration certificate (a crossed-out 登記 badge above A), next to an unauthorized occupier figure C labeled "無権利者" being
 pointed at by an arrow labeled "明渡し請求" — no barrier is shown between
 A and C despite A lacking registration.
 Conclusion tag (green banner below the illustration, 5-15 characters):
@@ -164,8 +163,7 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 占有補助者でなく本人に請求
 Illustration: An isometric house icon on a land plot, with a main
-occupier figure B (labeled "無権利者・建物所有者") and a smaller family
-figure C beside him labeled "占有補助者"; an arrow labeled "明渡し請求"
+occupier figure B (labeled "無権利者・建物所有者") and a smaller family figure C beside B labeled "占有補助者"; an arrow labeled "明渡し請求"
 points only to figure B, while a dotted arrow shows C also being escorted
 out automatically once B is removed.
 Conclusion tag (green banner below the illustration, 5-15 characters):
@@ -330,8 +328,7 @@ Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 占有補助者でなく本人に請求
 Diagram: An isometric house icon on a land plot, with a main occupier
-figure Ｂ（labeled「無権利者・建物所有者」）and a smaller family figure
-Ｃ beside him labeled「占有補助者」; an arrow labeled「明渡し請求」points
+figure Ｂ（labeled「無権利者・建物所有者」）and a smaller family figure Ｃ beside Ｂ labeled「占有補助者」; an arrow labeled「明渡し請求」points
 only to figure Ｂ, while a dotted arrow shows Ｃ also being escorted out
 automatically once Ｂ is removed。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

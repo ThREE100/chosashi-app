@@ -151,8 +151,9 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 意思無能力の契約は無効
-Illustration: An isometric elderly figure with a confused, blank
-expression signing a document at a desk; the document is instantly
+Illustration: An isometric figure labeled 買主 with a confused, blank
+expression (意思能力なし) signing a sales document at a desk across from a
+figure labeled 売主; the document is instantly
 stamped with a large red "無効" seal and shown cracking into pieces;
 beside it, a small house/land icon is linked by a crossed-out
 (prohibition) arrow to a delivery-box icon, showing no obligation to
@@ -307,8 +308,8 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 意思能力の有無を最初に確認する
-Diagram: An isometric elderly figure with a confused expression signing a
-document; the document instantly cracks into pieces with a red「無効」
+Diagram: An isometric figure labeled 買主（意思能力なし）with a confused
+expression signing a sales document across from a figure labeled 売主; the document instantly cracks into pieces with a red「無効」
 seal. A crossed-out arrow connects the land icon to a delivery-box icon,
 showing no obligation to hand it over.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

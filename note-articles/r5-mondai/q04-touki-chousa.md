@@ -183,7 +183,7 @@ arc icon in the sky above, with a crossed-out moon/night icon at both
 edges of the arc showing the official cannot be there before sunrise or
 after sunset.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-日出~日没のみ
+日出〜日没のみ
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
@@ -348,7 +348,7 @@ official cannot be there before sunrise or after sunset.
 外であれば、登記官は実地調査を行うことができません。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-日出~日没のみ可
+日出〜日没のみ可
 
 --- PANEL 4(肢エ) ---
 Badge: a filled circle in blue containing the number 4.

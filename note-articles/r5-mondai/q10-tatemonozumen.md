@@ -310,14 +310,17 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 住所欄の記載義務は作成者だけにある
-Diagram: A side-by-side contrast frame（正誤対比型）. Left/upper panel
-labeled「誤りやすい思い込み」: an isometric building-図面 sheet where a
-hand is writing an address into BOTH the「申請人」name box and the
-「作成者」name box, with a large red ✕ mark over the「申請人」side's
-address line. Right/lower panel labeled「正しいルール」: the same 図面
-sheet where the「作成者」name box contains an address and a small
-official seal（職印）, while the「申請人」name box has only a name, with a
-green checkmark beside it.
+Diagram: A side-by-side contrast frame（正誤対比型）. IMPORTANT: the two
+sides must show OPPOSITE marks — the mistaken belief treats the 申請人's
+address as required (✓), but the actual rule says it is not required (✕).
+Left/upper panel labeled「誤りやすい思い込み」(drawn slightly faded): an
+isometric building-図面 sheet where a hand is writing an address into
+BOTH the「申請人」name box and the「作成者」name box, with a small green
+checkmark labeled「申請人の住所も必要？」beside the 申請人 box. Right/
+lower panel labeled「正しいルール」(full color): the same 図面 sheet where
+the「作成者」name box contains an address and a small official seal
+（職印）, while the「申請人」name box has only a name, and a crossed-out
+empty address line beside it carries a red ✕ labeled「住所は不要」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、住所を書く欄が「申請人」なのか「作成者」なのかを区別します。図面
 に住所と職印を記録するのは作成者だけで、申請人については記名で足り、住

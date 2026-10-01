@@ -303,18 +303,19 @@ Heading (bold, ONE line):
 アーケードは用途性がなく建物でない
 Diagram: The shared 3-diamond decision tree. An isometric shopping street
 covered by an overhead arcade roof, flanked by rows of small shop icons
-on both sides, passes through Diamond 1 and Diamond 2 in normal weight
-（外気分断性・定着性は問題にならないため通常の太さで描く）, then reaches
+on both sides, is drawn beside the tree. Diamond 1 and Diamond 2 are rendered faded and
+greyed-out with a small dotted tag「この肢では問わない」(do NOT draw a
+はい arrow or ✓ through them — an arcade has no surrounding walls, so do
+not suggest it passes 外気分断性). The highlighted path goes directly to
 Diamond 3「目的とする用途に独立して使える状態か？（用途性）」, where the
 「いいえ」exit is highlighted with a thick border and full color, leading
 to a bold conclusion node「建物ではない」with a small torn-paper label
 「通行のための空間」beneath the arcade roof. The「はい」exit of Diamond 3
 and the tree's other conclusion nodes are rendered faded and greyed-out.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず屋根及び周壁があるか（外気分断性）を確認し、次に土地に定着している
-か（定着性）を確認します。最後に、独立した用途に使える状態か（用途性）
-を確認すると、アーケード部分は通行のための空間にすぎず、用途性を欠くた
-め建物にはあたりません。
+まず、アーケード部分が何のための空間かを確認します。公衆用道路の上に屋
+根覆いを施しただけのアーケードは通行のための空間にすぎず、独立して用途
+に供される建物とはいえないため、建物にはあたりません。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 建物には当たらない

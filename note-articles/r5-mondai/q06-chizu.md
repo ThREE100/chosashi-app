@@ -160,9 +160,11 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 測量は電子基準点を基礎にできる
 Illustration: An isometric surveyor character holding a GNSS receiver,
-connected by dotted measurement lines upward to a satellite icon labeled
-"電子基準点" and downward to a ground-based survey pillar icon, with
-measurement lines extending outward to define a land plot boundary.
+receiving signals from small satellite icons labeled "GNSS衛星" in the
+sky, and connected by a dotted measurement line to a tall ground-based
+pillar-shaped station icon labeled "電子基準点" (the 電子基準点 is the
+pillar on the ground, NOT a satellite), with measurement lines extending
+outward to define a land plot boundary.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 電子基準点が基礎
 
@@ -309,9 +311,11 @@ Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 電子基準点を基礎に測量できる
 Diagram: An isometric surveyor character holding a GNSS receiver,
-connected by dotted measurement lines upward to a satellite icon labeled
-電子基準点 and downward to a ground survey point, with the measurement
-lines extending outward to define a land plot boundary on the ground.
+receiving signals from small satellite icons labeled GNSS衛星 in the
+sky, and connected by a dotted measurement line to a tall ground-based
+pillar-shaped station icon labeled 電子基準点 (the 電子基準点 is the
+pillar on the ground, NOT a satellite), with the measurement lines
+extending outward to define a land plot boundary on the ground.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず地図を作成するための測量が、どの基準点を基礎にしているかを確認しま
 す。基本測量の成果である電子基準点は、地図作成の測量の基礎として使うこ
