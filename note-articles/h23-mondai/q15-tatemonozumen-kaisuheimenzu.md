@@ -310,7 +310,7 @@ after (write no numbers). Beside the はい branch, a small crossed-out misconce
 reads「床面積が同じだから図面は不要」with a red ✕, next to a highlighted
 conclusion node reading 新しく生まれる乙建物の各階平面図が必要 with a
 checkmark. The いいえ branch (used by 肢イ) is rendered faded/greyed-out/
-dotted here (今回は関係ない).
+dotted here, leading to a faded conclusion node reading 図面の添付は不要.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記で図面に示すべき建物の位置・形状・床面積が新たに生じる、
 または変わるかを確認します。次に、分割後の床面積が変わらなくても、新し
@@ -332,7 +332,7 @@ and full color: a condominium building icon gaining an additional
 itself stays in exactly the same position and shape. The highlighted
 conclusion node reads 建物図面は不要, with a crossed-out blueprint icon.
 The はい branch (used by 肢ア・肢ウ) is rendered faded/greyed-out/dotted
-this time (今回は関係ない).
+this time, leading to a faded conclusion node reading 図面の添付が必要.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記で図面に示すべき建物の位置・形状・床面積が新たに生じる、
 または変わるかを確認します。次に、規約で乙土地を敷地として追加するだけ
@@ -381,8 +381,7 @@ permanent plot number, floating beside the plot's 所在欄 label (write no
 actual lot numbers).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、仮換地上に建築された建物であることを確認します。次に、建物図面に
-は仮換地の形状を実線で図示し、所在欄には将来の換地後の予定地番を括弧書
-きで記載すると判断します。
+は仮換地の形状を実線で図示し、所在欄には従前の地番とあわせて換地後の予定地番を括弧書きで記載すると判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 実線＋括弧書きで記載

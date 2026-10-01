@@ -421,8 +421,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法123条1号（筆界の意義）に基づく整理です。国有財産法上の官民
-境界確定協議（肢エ）は、条文番号までは特定していません。
+不動産登記法123条1号（筆界の意義）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

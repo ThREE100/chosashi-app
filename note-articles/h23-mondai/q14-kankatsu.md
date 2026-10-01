@@ -339,8 +339,7 @@ inside 甲登記所's territory, connected to a much larger warehouse icon
 decision node, drawn with a thick highlighted border and full color:
 主である建物はどちらの登記所の管轄区域にあるか？with the 甲 branch
 highlighted leading to a conclusion node reading 甲登記所に所在変更登記
-を申請, and the 乙 branch rendered faded/greyed-out/dotted (今回は関係
-ない、肢エで使う). A small faded dotted-outline tag labeled 附属建物の大小は無関係 (no ○ or
+を申請, and the 乙 branch rendered faded/greyed-out/dotted, leading to a faded conclusion node reading 乙登記所に申請. A small faded dotted-outline tag labeled 附属建物の大小は無関係 (no ○ or
 ✕ mark) sits near the highlighted conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、主である建物がどちらの登記所の管轄区域にあるかを確認します。次
@@ -381,7 +380,7 @@ Diagram: The same layout map and the same diamond decision node as PANEL
 main-house icon（主である建物）being pulled by a rope from 甲登記所's
 territory into 乙登記所's territory, while a larger attached shed icon
 （附属建物）stays behind inside 甲登記所's territory. The 甲 branch is
-rendered faded/greyed-out/dotted this time (今回は関係ない、肢イで使う).
+rendered faded/greyed-out/dotted this time, leading to a faded conclusion node reading 管轄登記所は甲登記所のまま.
 The highlighted conclusion node reads 管轄登記所は乙登記所となる, with a
 small faded dotted-outline tag labeled 附属建物の大小は無関係 (no ○ or ✕
 mark) beside it.
