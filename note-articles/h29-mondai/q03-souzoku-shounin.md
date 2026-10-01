@@ -472,11 +472,10 @@ characters):
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 放棄者の持分は最初から存在しない
-Diagram: A decision-tree flowchart. First diamond node: Ａは相続の放棄を
-したか？ with a はい arrow proceeding to a label box reading Ａは初めか
-ら相続人でなかったものとみなされる(939条), then to a second diamond node
-(drawn with a thicker highlighted border): その(存在しない)持分に対する
-代位保存登記・仮差押えの登記は有効か？ with a いいえ branch leading to a
+Diagram: A top-to-bottom check flow with rectangular boxes (no diamonds). First
+box: Ａは相続の放棄をした. An arrow proceeds to a box reading Ａは初めか
+ら相続人でなかったものとみなされる(939条), then to a third box (drawn with
+a thicker highlighted border): Ａの持分は存在しない. An arrow leads to a
 red conclusion node reading 実体のない持分への登記であり無効。
 Illustration: 土地アイコンの上にA(点線・半透明の輪郭で「最初から相続人
 でなかった」ことを表現)とB(実線、相続人)が並ぶ。Aの債権者が「代位保存登

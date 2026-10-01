@@ -317,15 +317,11 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 通知していれば欠席でも調査続行
-Diagram: A decision-tree flowchart. Start node:「あらかじめ日時・場所を
-通知し、立会いの機会を与えたか？」leading down to a diamond node. An
-いいえ branch is not shown further (this article's fact pattern assumes
-notice was given). A はい branch proceeds to a second diamond node:
-「当日、申請人・関係人は実際に立ち会ったか？」with two branches: はい
-leading to a conclusion node reading「測量・実地調査を実施できる」;
-いいえ leading to a separate conclusion node, also reading「測量・実地
-調査を実施できる」, showing that actual attendance does not change the
-outcome once notice was given.
+Diagram: A simple check flow (no diamonds). A rectangular box「あらかじめ日時・
+場所を通知し、立会いの機会を与えた」→ arrow to a conclusion node reading
+「測量・実地調査を実施できる」. Beside the arrow, add a faint dotted-outline
+tag (not a diamond) reading「当日、申請人・関係人が実際に立ち会ったか：
+問わない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、筆界調査委員が申請人・関係人に対し、あらかじめ日時・場所を通知して
 立ち会う機会を与えたかどうかを確認します。機会を与えていれば、次に、実際

@@ -478,11 +478,11 @@ characters):
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 無権原の不法占拠者には登記不要
-Diagram: A decision-tree flowchart. First diamond node: Ｃは売買契約の当
-事者・包括承継人以外の者か？ with a はい arrow proceeding to a second
-diamond node (drawn with a thicker highlighted border): Ｃは登記の欠缺
-を主張する正当な利益を有する者か？ with a highlighted いいえ branch
-labeled 権原のない不法占拠者だから leading to a green conclusion node
+Diagram: A top-to-bottom check flow with rectangular boxes (no
+diamonds). First box: Ｃは売買契約の当事者・包括承継人以外の者である. An arrow
+proceeds to a second box (drawn with a thicker highlighted border): Ｃは登記の
+欠缺を主張する正当な利益を有しない（権原のない不法占拠者だから）. An arrow
+leads to a green conclusion node
 reading Ｂは登記なくしてＣに所有権を主張できる。Illustration: 土地アイ
 コンにA→Bの売買矢印(まだ登記前)。まったく無関係の人物C(腕組みで正当な理
 由なしを示す看板「正当な利益なし」を横に掲示)が勝手に土地に座り込んでい
@@ -500,13 +500,11 @@ characters):
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 登記申請の受任者にも登記不要
-Diagram: The same two-diamond decision-tree shape as Panel 4. First
-diamond node: Ｃは売買契約の当事者・包括承継人以外の者か？ with a はい
-arrow proceeding to a second diamond node (drawn with a thicker
-highlighted border, distinct from Panel 4's highlighted reason): Ｃは登
-記の欠缺を主張する正当な利益を有する者か？ with a highlighted いいえ
-branch labeled 登記申請を受任していた義務者だから(不動産登記法5条2項)
-leading to a green conclusion node reading Ｂは登記なくしてＣに所有権を
+Diagram: The same two-box check flow as Panel 4 (no diamonds). First
+box: Ｃは売買契約の当事者・包括承継人以外の者である. An arrow proceeds to a
+second box (drawn with a thicker highlighted border, distinct from Panel 4's
+reason): Ｃは登記の欠缺を主張する正当な利益を有しない（登記申請を受任して
+いた義務者だから・不動産登記法5条2項）. An arrow leads to a green conclusion node reading Ｂは登記なくしてＣに所有権を
 主張できる。Illustration: BがCに「登記手続お願いします」と書類を渡す場
 面。その隣で、Cがこっそり自分でAから土地を買い取り、A→C登記の緑スタンプ
 を押している。Cの頭上に「信義に反する」という警告アイコン。

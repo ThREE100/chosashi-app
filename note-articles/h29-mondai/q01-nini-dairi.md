@@ -518,9 +518,9 @@ Heading (bold, ONE line):
 Diagram: A decision-tree flowchart. First diamond node: 代理人Ｂはその事
 情(契約不適合)を知っていたか？ with a はい(悪意)arrow proceeding to a
 label box reading 本人Ａも知っていたものとして扱われる(101条1項), then
-to a second diamond node (drawn with a thicker highlighted border): 買主
-が不適合を知っていたことは、契約不適合責任の成否に影響するか？ with a
-影響しない branch leading to a green conclusion node reading 知った時か
+to a rectangular check box (not a diamond, drawn with a thicker highlighted
+border): 買主が不適合を知っていても、契約不適合責任の成否には影響しない, with
+an arrow leading to a green conclusion node reading 知った時か
 ら1年以内の通知で追及できる(566条)。Illustration: the 代理人Ｂ figure
 with a small "知" (knowing) icon glowing above their head, connected by a
 dotted arrow to the "本人Ａ" figure who also gains the same "知" icon, and

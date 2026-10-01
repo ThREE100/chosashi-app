@@ -89,9 +89,7 @@
 
 ---
 
-## インフォグラフィック プロンプト
-
-### 画像1：問題全体（俯瞰カードポスター型）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -238,7 +236,9 @@ every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-### 画像2：肢ウの基本ルール（結論カード型）
+---
+
+## インフォグラフィック プロンプト（ウ肢・間違いノート）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1350 pixels,
@@ -337,7 +337,9 @@ heading, illustration label, and caption text matches the Japanese text
 given above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-### 画像3：肢ウの実務の流れ（業際フロー型）
+---
+
+## インフォグラフィック プロンプト（ウ肢・実務補足）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1350 pixels,

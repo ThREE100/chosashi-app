@@ -323,12 +323,10 @@ Heading (bold, ONE line):
 Diagram: The shared decision-tree flowchart. Root diamond node（same
 wording as panel 1）:「この登記によって、まだ所有権が公示されていない
 新しい部分（新築建物・増築部分など）が生じるか？」はい branch
-（highlighted with a thick border and full color）leads to a second
-diamond node:「工事完成後、建物全体の床面積は増加したか減少したか？」
-はい（増加）と いいえ（減少）の両方の矢印が、同じ1つの結論ノード「増築
-部分については所有権証明情報が必要（全体の床面積の増減は結論に影響
-しない）」に合流する（ループ矢印ではなく、両方とも同じ新しい結論ノード
-へ向かう）。一部取壊しの3週間後に増築が完成した建物のイラストが添え
+（highlighted with a thick border and full color）leads directly to
+the conclusion node「増築部分については所有権証明情報が必要」. Beside this
+arrow, add a faint dotted-outline tag (not a diamond) reading「工事後の建物
+全体の床面積の増減：問わない」.一部取壊しの3週間後に増築が完成した建物のイラストが添え
 られる。いいえ branch（root diamondの、faded, greyed-out, dotted
 outline）leads to the other conclusion node「所有権証明情報は不要」が
 薄く縮小表示される。

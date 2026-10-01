@@ -468,10 +468,10 @@ characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 表題登記済みかつ接続工事なら一括申請義務
-Diagram: A decision-tree flowchart. Start node:「甲建物・乙建物は、いず
-れも表題登記がある区分建物ではない建物か？」はい branch leads down to a
-second diamond node:「増築等の工事により相互に接続して、区分建物になった
-か？」はい branch leads to a conclusion node showing two application-
+Diagram: A top-to-bottom check flow with rectangular boxes (no diamonds). Box 1:
+「甲建物・乙建物は、いずれも表題登記がある区分建物ではない建物」→ arrow down
+to Box 2:「増築等の工事により相互に接続して、区分建物になった」→ arrow to a
+conclusion node showing two application-
 document icons bound together with a clip, labeled「一括して申請しなけれ
 ばならない（不動産登記法52条3項）」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

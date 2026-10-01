@@ -346,11 +346,10 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 持分は同じでも必ず記載する
-Diagram: A decision-tree flowchart showing that the outcome does not
-change either way. Diamond node:「共有者Ａ・Ｂの持分は相等しいか？」はい
-branch と いいえ branch の両方の矢印が、同じ1つの結論ノード「持分（例：
-各2分の1）は申請情報に記載する必要がある」に合流する（ループ矢印ではな
-く、両方とも新しい同じ結論ノードへ向かう）。「相等しいから省略できる」
+Diagram: A simple check flow (no diamond). A start box「共有者Ａ・Ｂが表題部所有者
+になる」から矢印で結論ノード「持分（例：各2分の1）は申請情報に記載する必要が
+ある」へ進む。開始ボックスの横に、薄い点線の札「持分が相等しいかどうか：問わ
+ない」を添える（ひし形にはしない）。「相等しいから省略できる」
 という吹き出しには大きな赤い「✕」が重ねられる。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、共有者Ａ・Ｂの持分が申請情報の記載事項であることを確認します。

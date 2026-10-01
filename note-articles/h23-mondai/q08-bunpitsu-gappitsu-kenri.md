@@ -88,9 +88,7 @@
 
 ---
 
-## インフォグラフィック プロンプト
-
-### 画像1：問題全体（俯瞰カードポスター型）
+## インフォグラフィック プロンプト（問題全体）
 
 所有権以外の権利のある土地の分筆・合筆について、「分筆のときのルール」と「合筆のときのルール」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
 
@@ -225,7 +223,9 @@ card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-### 画像2：肢エ・実際にやり直す場合の手続（結論カード型）
+---
+
+## インフォグラフィック プロンプト（エ肢・補足）
 
 肢エは「分筆錯誤を原因として分筆の登記の抹消を申請できる」という誤りの記述だが、本文ではその先まで踏み込み、「では実際にどうやり直すのか」を不動産登記法72条（抹消された登記の回復）に基づいて補足している。①なぜ単純な抹消では戻せないのか、②消えた抵当権をどう回復するのか、③回復には誰の承諾が要るのか、④回復した先に何が残るのか、という4段階の流れをカードで追える構成にする。
 
@@ -335,6 +335,8 @@ missing cards, and confirm every heading, illustration label, and caption
 text matches the Japanese text given above verbatim, with no paraphrasing
 and no substituted characters. Also confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
+
+---
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
