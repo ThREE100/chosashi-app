@@ -189,12 +189,12 @@ legal citation):
 Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
 takeaway phrase, not the original full sentence from the article):
-独立2棟をつなぐ渡り廊下は算入とは限らない
-Illustration: 2棟の高層ビルを2階でつなぐ渡り廊下のisometricイラスト。どちらの建物の床面積に入るかを示す矢印に「？」マーク。
+独立2棟をつなぐ渡り廊下は算入しない
+Illustration: 2棟の高層ビルを2階でつなぐ渡り廊下のisometricイラスト。渡り廊下から両方の建物へ伸びる「床面積に算入」の矢印にそれぞれ✕マーク、渡り廊下に「通行のみ」のラベル。
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
 legal citation):
-一律の算入ではない
+通行のみで不算入
 
 --- FOOTER ---
 

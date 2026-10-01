@@ -28,7 +28,7 @@
 
 相続人が表示に関する登記を申請するとき、申請情報の内容となるのは申請人（＝申請する相続人）の氏名及び住所と、「申請人が相続人その他の一般承継人である旨」です（不動産登記令3条1号・10号、不動産登記法30条）。相続人**全員**の住所及び氏名を記載せよという定めはなく、本肢は誤りです。
 
-**たとえば**、亡くなった父名義の土地の一部が地目変更していたので、地目変更登記と分筆登記をまとめて申請したいとき、相続人が複数いても、そのうちの一人が自分の名前だけで申請すればよく、兄弟姉妹全員の住所氏名までいちいち書き並べる必要はありません。
+**たとえば**、亡くなった父名義の土地の一部が地目変更していたので、地目変更登記と分筆登記をまとめて申請したいとき、申請情報には申請人となる相続人の氏名・住所と相続人である旨を書けばよく、申請人にならない兄弟姉妹まで含めた全員の住所氏名をいちいち書き並べる必要はありません。
 
 ### ウ：敷地権付き区分建物の法定敷地では、分筆そのものに規約証明を要するとは限らない
 
@@ -154,12 +154,12 @@ legal citation):
 Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
 takeaway phrase, not the original full sentence from the article):
-相続人からの申請は一人の名前で足りる
-Illustration: 亡くなった父名義の土地のisometricイラスト。複数の相続人キャラクターのうち1人だけが地目変更＋分筆の申請書を提出。
+相続人全員の住所氏名は書かなくてよい
+Illustration: 亡くなった父名義の土地のisometricイラスト。相続人キャラクターが地目変更＋分筆の申請書を提出し、申請書の申請人欄には「申請人の氏名・住所」と「相続人である旨」のラベル。相続人全員の住所氏名を書き並べた別の申請書アイコンに✕マーク。
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
 legal citation):
-単独申請でよい
+全員の記載は不要
 
 --- CARD 3 ---
 Badge: a filled circle in soft green containing the number 3.

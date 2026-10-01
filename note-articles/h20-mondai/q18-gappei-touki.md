@@ -390,8 +390,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法56条、不動産登記規則131条に基づく整理です。オの根拠となる条
-文・先例は記事本文でも特定できていません。
+不動産登記法56条、不動産登記規則131条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

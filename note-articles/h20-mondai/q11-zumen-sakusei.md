@@ -148,7 +148,7 @@ Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
 takeaway phrase, not the original full sentence from the article):
 精度区分は地域で決まる
-Illustration: 市街地・村落農耕地・山林原野の3つのisometric地域アイコンが並ぶ。それぞれに甲1・甲2・甲3のバッジ。既存の地図アイコンから伸びる矢印には✕マーク。
+Illustration: 市街地・村落農耕地・山林原野の3つのisometric地域アイコンが並ぶ。それぞれに甲二・乙一・乙三のバッジ。既存の地図アイコンから伸びる矢印には✕マーク。
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
 legal citation):
