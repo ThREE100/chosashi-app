@@ -378,12 +378,10 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 名義人の同一性と分離処分規約を順に確認する
-Diagram: A two-step decision flowchart. 区分建物（専有部分）のアイソ
-メトリック建物とその真下の敷地（土地）を描く。最初のひし形ノード
-（highlighted, thick border）「敷地の所有権登記名義人は区分建物の
-所有者と同一か」。はい側（highlighted）の矢印は2つ目のひし形ノードへ
-進む。いいえ側（faded）の矢印は結論ノード「本肢の場面ではない」へ進む。
-2つ目のひし形ノード（highlighted）「規約で専有部分と敷地利用権との
+Diagram: A decision flowchart. 区分建物（専有部分）のアイソ
+メトリック建物とその真下の敷地（土地）を描く。最初は四角い開始ボックス
+（ひし形にしない）「敷地の所有権登記名義人と区分建物の所有者が同一」。
+そこから矢印でひし形ノード（highlighted）「規約で専有部分と敷地利用権との
 分離処分を可能とする旨を定めているか」。両者をつなぐ鎖アイコンを、この
 場面では「切れた」状態で描く。はい側（highlighted）は結論ノード「規約
 の定めを証する情報が必要」へ、緑のチェックマーク付きの書類アイコンが

@@ -24,11 +24,13 @@
 
 **たとえば**、母屋と物置が一つの登記記録になっている建物で、母屋だけを取り壊した場合、登記記録ごと消す（抹消する）のではなく、物置を新たな主である建物とする「変更」の登記をします。
 
-### イ：附属建物が共有名義の建物分割は、共有者全員から申請する
+### イ：共有名義の附属建物の分割は、他の共有者の承諾書を添えるだけでは一人で申請できない
 
-建物の分割の登記は、所有者の意思に基づいて登記記録を分ける登記であり、所有者（表題部所有者または所有権の登記名義人）全員（またはその相続人を含む全員）の意思に基づいてされる性質のものです。附属建物が共有名義のときに、他の共有者の承諾を証する情報を提供して共有者の一人から申請できるわけではありません。本肢は誤りです。
+建物の分割の登記は、表題部所有者または所有権の登記名義人が申請する登記です（不動産登記法54条1項）。附属建物が共有名義のときに、共有者の一人が「他の共有者の承諾を証する情報」を添えれば単独で申請できる、という仕組みはありません。現行法では、建物の分割は共有物の形状又は効用の著しい変更を伴わない軽微な変更として、共有者の持分の価格の過半数で決することができ（民法251条1項・252条1項）、持分の価格の過半数を有する共有者が申請人となって申請します。承諾書を添えるかどうかではなく、申請人となる共有者の持分が過半数に達しているかで決まるので、本肢は誤りです。
 
-**たとえば**、共有名義の附属建物を分割して独立の建物にしたいときは、共有者の一人が他の共有者の承諾書を用意して単独で申請するのではなく、共有者全員が申請人となる必要があります。
+※出題当時（令和2年度）は、建物の分割の登記は共有者全員から申請するものと解されていました。令和5年4月1日施行の民法改正で「軽微な変更」が管理行為として持分の価格の過半数で決められるようになり、申請人の範囲が変わっています。「承諾書を添えれば一人で申請できる」とする本肢が誤りである点は、出題当時も現行法でも変わりません。
+
+**たとえば**、Ａ・Ｂ・Ｃの3人が3分の1ずつ共有する附属建物を分割したいとき、Ａが一人でＢ・Ｃの承諾書を添えて申請することはできませんが、ＡとＢが申請人になれば持分の合計が3分の2（過半数）になるので、Ｃが申請人にならなくても申請できます。
 
 ### ウ：敷地権付き区分建物では、主と附属の敷地権を区別して表示する
 
@@ -51,7 +53,7 @@
 ### まとめ
 
 - **ア（誤）**　主のみ滅失は抹消でなく「表題部の変更」で処理
-- **イ（誤）**　共有名義の附属建物の分割は共有者全員から申請する
+- **イ（誤）**　共有名義の附属建物の分割は承諾書を添えても一人では申請できない（現行法では持分の過半数を有する共有者が申請）
 - **ウ（正）**　敷地権付き区分建物では主と附属の敷地権を区別して表示する
 - **エ（誤）**　基礎を残した再築も「新築」扱いで建物図面が必要
 - **オ（正）**　附属建物新築の変更登記には附属建物の所有権証明情報が必要
@@ -69,6 +71,7 @@
 - 各肢の根拠のうち、ア・エ（準則83条）・オ（不動産登記令別表14項添付情報ハ）は、データベースのexplanationフィールドに条文番号まで明記されています。イ（共有名義の附属建物分割の申請人）・ウ（主と附属の敷地権の区別）は、建物分割の登記および敷地権付き区分建物の表題登記の一般的な取扱いからの説明です。
 - **法令再検証（2026-08-04実施）**：アの根拠条文をlaws/fudousan-touki-kisoku-1.md（不動産登記規則）およびlaws/fudousan-touki-jimu-junsoku.md（不動産登記事務取扱手続準則）で確認したところ、「不動産登記規則102条」は分筆の登記における権利部の記録方法を定めた条文であり、附属建物がある主たる建物の滅失による表題部の変更の登記の記録方法を定めているのは「不動産登記事務取扱手続準則102条」でした。誤った法令名（規則→準則）を修正しています。アの結論（主のみ滅失は抹消でなく表題部の変更で処理する）自体に誤りはなく、正解番号（ウオ＝5番）に変更はありません。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回は参照できませんでした。
+- **最新法令チェック（2026-10-01実施）**：肢イの本文は「共有者全員から申請する」としていましたが、令和5年4月1日施行の民法改正（民法251条1項の「形状又は効用の著しい変更を伴わないもの」の除外、252条1項）と、これに伴う不動産登記事務の取扱いの通達（令和5年3月28日付け法務省民二第538号）により、分筆・合筆と同様に建物の分割の登記も持分の価格の過半数を有する共有者から申請できる扱いと解されるため、本文・まとめ・図解を現行法に合わせて書き直しました。通達の原文はこの環境からは閲覧できなかったため、建物の分割が通達の対象に含まれる点は、同じ扱いを前提とする本リポジトリの関連記事（topics/kyouyuubutsu-3dankai-bunpitsu.md、令和3年度第11問）と民法の条文からの整理であり、通達本文での確認は未了です。肢イが誤りであるという結論と正解（5番）は変わりません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。**本問ウ（主である建物と附属建物がいずれも敷地権のある区分建物である場合、両者の敷地権を区別して記録する＝正しい）は、令和4年度第14問イとほぼ同一の文言・同一の結論（正しい）で再出題されています**。他の肢（主のみ滅失した場合の処理・共有名義の附属建物の分割・再築時の建物図面・附属建物新築時の所有権証明情報）は令和4年度の問題には見当たらず、出題全体としては別の問題ですが、上記ウの1肢についてはnoteでの執筆・公開に際して「たとえば」の具体例が似た内容にならないよう注意してください。他に重複する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -76,7 +79,7 @@
 ## 見出し画像用フレーズ
 
 - 母屋だけ壊しても、抹消じゃなく「変更」なんです
-- 共有の附属建物の分割は、全員で申請するんです
+- 共有の附属建物の分割、承諾書だけじゃ一人で申請できないんです
 - 主と附属の敷地権、区別して表示するんです
 - 基礎を残した建て直しも「新築」扱いって知ってた？
 - 附属建物の増築、所有権証明がいるんです
@@ -192,15 +195,16 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
-共有の附属建物の分割は全員で
+承諾書だけでは一人で分割不可
 Illustration: Isometric shed (附属建物) with three person icons
-standing around it representing co-owners (共有者), all three holding
-pens and signing a form together labeled "建物の分割の登記" with a
-checkmark above them. Beside this, a single person icon signing alone
-is shown crossed out, representing one co-owner applying without the
-others.
+around it representing co-owners (共有者), each with a small tag
+"持分3分の1". LEFT: one person icon alone holding a paper labeled
+"他の共有者の承諾書" and a form labeled "建物の分割の登記", crossed out with
+a red ✕. RIGHT: two of the three person icons signing the same form
+together, with a small tag "持分の合計3分の2（過半数）" and a green
+checkmark; the third person stands aside, not signing.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-共有者全員で申請
+持分の過半数で申請
 
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
@@ -336,17 +340,18 @@ Diagram: A 正誤対比型 side-by-side comparison. LEFT box（誤りやすい�
 ジ、red background）: one co-owner figure alone holding a document
 labeled 他の共有者の承諾を証する情報 and a form labeled 建物の分割の登
 記, walking to a registry counter alone, with a large red ✕. RIGHT box
-（正しい仕組み、green background）: all co-owner figures standing
-together, each holding a pen and signing the same form labeled 建物の分
-割の登記 together, with a large green checkmark.
+（正しい仕組み、green background）: co-owner figures whose 持分 add up to
+more than half (two figures tagged 持分3分の1 each, with a small tag
+持分の合計3分の2＝過半数) signing the same form labeled 建物の分割の登記
+together as 申請人, with a large green checkmark; the third co-owner
+stands aside.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、分割の対象となる附属建物が共有名義であるかどうかを確認します。共
-有名義である場合は、他の共有者の承諾を証する情報を提供すれば共有者の一
-人から申請できるわけではなく、共有者全員の意思に基づいて申請する必要が
-あることを確認します。
+まず、分割の対象となる附属建物が共有名義であるかどうかを確認します。共有名義である場合は、他の共有者の承諾を証する情報を提供しても共有者の一
+人からは申請できず、申請人となる共有者の持分の合計が過半数に達している
+かを確認します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-共有者全員で申請
+持分の過半数で申請
 
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in green containing the number 3.

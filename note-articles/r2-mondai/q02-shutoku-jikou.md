@@ -321,9 +321,9 @@ timeline with three icons in chronological order: 印鑑（抵当権設定登記
 diamond node:「賃借権の対抗要件（登記等）を備えたのは、抵当権の設定登記
 より前か、後か？」A 前 branch leads to a conclusion node with a green
 checkmark reading「賃借権を買受人に対抗できる」. A 後（未具備のまま抵当権が
-先に登記された）branch proceeds to a second diamond node:「その後、賃借権
-を時効取得したとしても、この先後関係は変わるか？」leading to a conclusion
-node with a red「✕」reading「変わらない → 買受人に対抗できない」.
+先に登記された）branch proceeds to a rectangular check box (not a diamond):「その後に賃借権
+を時効取得しても、この先後関係は変わらない」leading to a conclusion
+node with a red「✕」reading「買受人に対抗できない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、賃借権の対抗要件を備えた時点と、抵当権の設定登記の時点の先後関係を
 確認します。抵当権の登記が先であれば、その後に賃借権を時効取得したと
