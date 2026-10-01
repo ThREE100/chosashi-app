@@ -1,0 +1,516 @@
+<title>錯誤・詐欺フロー検証</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<style>
+/* Layout: one column. Each figure is a top-to-bottom decision flow, followed by the
+   same flow restated as a path list and an automatic structure check, all generated
+   from one data spec so the drawing and the list cannot drift apart. */
+:root {
+  --bg: #f6f7f5;
+  --fg: #1d2421;
+  --muted: #5d6963;
+  --line: #8a948e;
+  --node: #ffffff;
+  --node-line: #3f4a45;
+  --yes: #d9eee1;
+  --yes-line: #2f7a52;
+  --no: #e6e8e6;
+  --no-line: #7b837f;
+  --warn: #c2620f;
+  --warn-bg: #fdf0e0;
+  --own: #dbe8f7;
+  --own-line: #2a5d9f;
+  --third: #fbe6cf;
+  --third-line: #b5651d;
+  --ok: #2f7a52;
+  --ng: #b3261e;
+  --panel: #ffffff;
+  --panel-line: #d6dbd8;
+  --font: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141917; --fg: #e6ebe8; --muted: #9aa6a0; --line: #6f7a74;
+    --node: #1e2522; --node-line: #aab5af; --yes: #1f3a2b; --yes-line: #6fc39a;
+    --no: #2a302d; --no-line: #8a948e; --warn: #f0a25c; --warn-bg: #3a2a18;
+    --own: #1c3150; --own-line: #7fb0ea; --third: #40301c; --third-line: #e0a566;
+    --ok: #6fc39a; --ng: #ff8a80; --panel: #1b211e; --panel-line: #333b37;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141917; --fg: #e6ebe8; --muted: #9aa6a0; --line: #6f7a74;
+  --node: #1e2522; --node-line: #aab5af; --yes: #1f3a2b; --yes-line: #6fc39a;
+  --no: #2a302d; --no-line: #8a948e; --warn: #f0a25c; --warn-bg: #3a2a18;
+  --own: #1c3150; --own-line: #7fb0ea; --third: #40301c; --third-line: #e0a566;
+  --ok: #6fc39a; --ng: #ff8a80; --panel: #1b211e; --panel-line: #333b37;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--font); line-height: 1.7;
+  padding-inline: max(16px, 4vw); padding-block: 24px 56px; }
+main { max-width: 780px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px; }
+h1 { font-size: 1.35rem; margin: 0 0 6px; text-wrap: balance; }
+h2 { font-size: 1.1rem; margin: 0 0 4px; text-wrap: balance; }
+h3 { font-size: .9rem; margin: 0 0 6px; letter-spacing: .04em; }
+p { margin: 0; }
+.lede { color: var(--muted); font-size: .92rem; max-width: 65ch; }
+section { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+figure { margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.scroll { overflow-x: auto; background: var(--panel); border: 1px solid var(--panel-line);
+  border-radius: 6px; padding: 10px; }
+.scroll svg { display: block; width: 100%; min-width: 640px; height: auto; }
+figcaption { color: var(--muted); font-size: .85rem; }
+.check { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: .9rem; }
+.badge { font-weight: 700; padding: 1px 10px; border-radius: 999px; font-size: .82rem; }
+.badge.ok { color: var(--ok); border: 1px solid var(--ok); }
+.badge.ng { color: var(--ng); border: 1px solid var(--ng); }
+ol.paths { margin: 0; padding-left: 1.4em; display: flex; flex-direction: column; gap: 6px; font-size: .9rem; }
+ol.paths li { padding-left: 4px; }
+.res-yes { color: var(--yes-line); font-weight: 700; }
+.res-no { color: var(--muted); font-weight: 700; }
+.hint { color: var(--warn); font-weight: 500; }
+ul.cases { margin: 0; padding-left: 1.3em; font-size: .9rem; display: flex; flex-direction: column; gap: 4px; }
+
+/* svg */
+.n-start { fill: var(--node); stroke: var(--node-line); stroke-width: 1.4; }
+.n-dec { fill: var(--node); stroke: var(--node-line); stroke-width: 1.6; }
+.n-warn { fill: var(--warn-bg); stroke: var(--warn); stroke-width: 2.4; }
+.n-yes { fill: var(--yes); stroke: var(--yes-line); stroke-width: 1.6; }
+.n-no { fill: var(--no); stroke: var(--no-line); stroke-width: 1.6; }
+.n-own { fill: var(--own); stroke: var(--own-line); stroke-width: 1.6; }
+.n-third { fill: var(--third); stroke: var(--third-line); stroke-width: 1.6; }
+.n-lane { fill: var(--node); stroke: var(--node-line); stroke-width: 1.4; }
+.n-faded { fill: none; stroke: var(--line); stroke-width: 1.4; stroke-dasharray: 5 4; }
+.t-faded { fill: var(--muted); }
+.res-own { color: var(--own-line); font-weight: 700; }
+.res-third { color: var(--third-line); font-weight: 700; }
+.edge { stroke: var(--line); stroke-width: 1.6; fill: none; }
+.arrowhead { fill: var(--line); }
+.t { fill: var(--fg); font-family: var(--font); font-size: 13px; text-anchor: middle; dominant-baseline: central; }
+.t-b { font-weight: 700; }
+.t-start { text-anchor: start; }
+.t-lbl { fill: var(--muted); font-size: 12px; font-weight: 700; }
+.t-side { fill: var(--muted); font-size: 11.5px; text-anchor: start; }
+.t-tag { fill: var(--warn); font-size: 11.5px; font-weight: 700; }
+.tag-bg { fill: var(--warn-bg); stroke: var(--warn); stroke-width: 1.2; }
+</style>
+
+<main>
+  <header>
+    <h1>錯誤・詐欺フロー検証</h1>
+    <p class="lede">意思表示の瑕疵シリーズ⑦の図解プロンプトのうち、分岐のあるパネルを、ChatGPTに渡す前に論理だけ確かめるための図です。図は下のデータから描き、同じデータから経路の一覧と構造チェックを出しています。画像2のパネル1〜4と、画像3のパネル2を載せています。</p>
+  </header>
+
+  <section>
+    <h2>画像1 パネル1　問いの最後の一文で型を決める</h2>
+    <figure>
+      <div class="scroll"><svg id="svg0" role="img" aria-label="問いの最後の一文を読み、取り消せるかなら型A、第三者に主張できるかなら型B、さかのぼるかなら型Cに分かれる。"></svg></div>
+      <figcaption>吹き出しの文言「取り消せることと、第三者に対抗できることは別の問い」は、図の外のメモです。分岐は3本で、はい・いいえではなく、問いの言い回しで分かれます。</figcaption>
+    </figure>
+    <div class="check" id="chk0"></div>
+    <div><h3>全経路</h3><ol class="paths" id="paths0"></ol></div>
+  </section>
+
+  <section>
+    <h2>画像1 パネル2　事例の言葉から制度を見分ける</h2>
+    <div class="check" id="chkR"></div>
+    <ol class="paths" id="rows"></ol>
+    <p class="lede">行の下の強調ボックス：だまされて勘違いした場合は、詐欺の取消しも錯誤の取消しも、選んで主張できる。</p>
+  </section>
+
+  <section>
+    <h2>画像2 パネル1　心裡留保と虚偽表示は無効になる条件が違う</h2>
+    <figure>
+      <div class="scroll"><svg id="svgA" role="img" aria-label="心裡留保の判定フロー。相手方が真意でないと知っていたか知ることができたなら無効、そうでなければ有効のまま。"></svg></div>
+      <figcaption>左半分の心裡留保。相手方の認識だけを見ます。</figcaption>
+    </figure>
+    <div class="check" id="chkA"></div>
+    <div><h3>全経路</h3><ol class="paths" id="pathsA"></ol></div>
+    <figure>
+      <div class="scroll"><svg id="svgB" role="img" aria-label="虚偽表示。相手方と通じていれば、相手方の認識を問わず当然に無効。"></svg></div>
+      <figcaption>右半分の虚偽表示。ダイヤはなく、分岐しません。</figcaption>
+    </figure>
+    <div class="check" id="chkB"></div>
+  </section>
+
+  <section>
+    <h2>画像2 パネル2　錯誤は重過失の先で相手方まで見る</h2>
+    <figure>
+      <div class="scroll"><svg id="svg1" role="img" aria-label="錯誤の判定フロー。重要性、動機の表示、表意者の重過失、相手方の認識、相手方の同一錯誤の順に確認し、取消し可か取消し不可かに至る。"></svg></div>
+      <figcaption>表意者に重大な過失があっても、相手方の認識（ダイヤ4）か相手方の同じ錯誤（ダイヤ5）のどちらかがあれば取り消せます。この2つは別々のダイヤです。</figcaption>
+    </figure>
+    <div class="check" id="chk1"></div>
+    <div><h3>全経路（条件の順に読む）</h3><ol class="paths" id="paths1"></ol></div>
+  </section>
+
+  <section>
+    <h2>画像2 パネル3　詐欺はだました人が誰かで分かれる</h2>
+    <figure>
+      <div class="scroll"><svg id="svg2" role="img" aria-label="詐欺の判定フロー。だました人が相手方の側なら取消し可。無関係の第三者なら、相手方が知っていたか知ることができたときだけ取消し可。"></svg></div>
+      <figcaption>第三者がだました場合にだけ、相手方の認識を確認します。</figcaption>
+    </figure>
+    <div class="check" id="chk2"></div>
+    <div><h3>全経路（条件の順に読む）</h3><ol class="paths" id="paths2"></ol></div>
+    <div>
+      <h3>図の下に置く事例チップ（プロンプトの文言）</h3>
+      <ul class="cases">
+        <li>相手方の代理人がだましても、相手方の側</li>
+        <li>相手方本人がだましたなら、代理人が知らなくても取消し可</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>画像2 パネル4　強迫は誰が脅しても取り消せる</h2>
+    <figure>
+      <div class="scroll"><svg id="svg4" role="img" aria-label="強迫の判定。相手方が脅した場合も、相手方が知らない無関係の第三者が脅した場合も取消し可。点線の図形は詐欺にある条件で、強迫では要らない。"></svg></div>
+      <figcaption>点線のダイヤは詐欺にある条件で、強迫では使いません。どこにも矢印はつながりません。</figcaption>
+    </figure>
+    <div class="check" id="chk4"></div>
+    <div><h3>全経路</h3><ol class="paths" id="paths4"></ol></div>
+  </section>
+
+  <section>
+    <h2>画像3 パネル2　取消し前の第三者は制度で守られ方が違う</h2>
+    <figure>
+      <div class="scroll"><svg id="svg3" role="img" aria-label="取消し前に現れた第三者Cの保護。虚偽表示と心裡留保は善意のみ、詐欺と錯誤は善意と無過失、強迫は保護なし。"></svg></div>
+      <figcaption>青が表意者が勝つ、橙が第三者が勝つです。詐欺・錯誤のレーンでは、善意と無過失が別々のダイヤです。</figcaption>
+    </figure>
+    <div class="check" id="chk3"></div>
+    <div><h3>全経路（条件の順に読む）</h3><ol class="paths" id="paths3"></ol></div>
+  </section>
+</main>
+
+<script>
+(function () {
+  var NS = "http://www.w3.org/2000/svg";
+  var KIND_CLASS = { start: "n-start", lane: "n-lane", box: "n-start", yes: "n-yes", no: "n-no", own: "n-own", third: "n-third" };
+  var RESULT = { yes: 1, no: 1, own: 1, third: 1 };
+
+  function el(name, attrs, parent) {
+    var e = document.createElementNS(NS, name);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function text(parent, x, y, lines, cls) {
+    var n = lines.length, lh = 17;
+    lines.forEach(function (s, i) {
+      var t = el("text", { x: x, y: y + (i - (n - 1) / 2) * lh, "class": cls || "t" }, parent);
+      t.textContent = s;
+    });
+  }
+  function dims(n) {
+    if (n.kind === "dec") return { w: n.w || 380, h: n.h || 80 };
+    return { w: n.w, h: n.h };
+  }
+
+  function build(cfg) {
+    var svg = document.getElementById(cfg.svg);
+    svg.setAttribute("viewBox", "0 0 " + (cfg.w || 700) + " " + cfg.h);
+    var defs = el("defs", {}, svg);
+    var mk = el("marker", { id: cfg.svg + "-a", viewBox: "0 0 10 10", refX: 9, refY: 5,
+      markerWidth: 8, markerHeight: 8, orient: "auto-start-reverse" }, defs);
+    el("path", { d: "M0,0 L10,5 L0,10 z", "class": "arrowhead" }, mk);
+
+    var byId = {};
+    cfg.nodes.forEach(function (n) { byId[n.id] = n; });
+
+    cfg.edges.forEach(function (e) {
+      var a = byId[e.from], b = byId[e.to], da = dims(a), db = dims(b);
+      var pts, lx, ly, anchor = "middle";
+      var dir = e.dir || "down";
+      if (dir === "right") {
+        pts = [[a.x + da.w / 2, a.y], [b.x - db.w / 2, a.y]];
+        lx = (pts[0][0] + pts[1][0]) / 2; ly = a.y - 10;
+      } else if (dir === "elbowR") {
+        var x1 = a.x + da.w / 2, x2 = b.x - db.w / 2, xm = (x1 + x2) / 2;
+        pts = (a.y === b.y) ? [[x1, a.y], [x2, b.y]] : [[x1, a.y], [xm, a.y], [xm, b.y], [x2, b.y]];
+      } else {
+        var y1 = a.y + da.h / 2, y2 = b.y - db.h / 2, ym = (y1 + y2) / 2;
+        pts = (a.x === b.x) ? [[a.x, y1], [b.x, y2]] : [[a.x, y1], [a.x, ym], [b.x, ym], [b.x, y2]];
+        lx = a.x + 10; ly = (y1 + (a.x === b.x ? y2 : ym)) / 2; anchor = "start";
+      }
+      el("polyline", { points: pts.map(function (p) { return p.join(","); }).join(" "), "class": "edge",
+        "marker-end": "url(#" + cfg.svg + "-a)" }, svg);
+      if (e.label) {
+        var t = el("text", { x: lx, y: ly, "class": "t t-lbl" + (anchor === "start" ? " t-start" : "") }, svg);
+        t.textContent = e.label;
+      }
+    });
+
+    cfg.nodes.forEach(function (n) {
+      var d = dims(n);
+      if (n.kind === "dec" || n.kind === "faded-dec") {
+        var hw = d.w / 2, hh = d.h / 2, faded = n.kind === "faded-dec";
+        el("polygon", { points: [n.x, n.y - hh, n.x + hw, n.y, n.x, n.y + hh, n.x - hw, n.y].join(","),
+          "class": faded ? "n-faded" : (n.warn ? "n-warn" : "n-dec") }, svg);
+        text(svg, n.x, n.y, n.lines, faded ? "t t-faded" : "t");
+        if (n.warn) {
+          var tx = n.x - hw + 6, ty = n.y - hh - 6;
+          el("rect", { x: tx, y: ty - 10, width: 104, height: 20, rx: 10, "class": "tag-bg" }, svg);
+          var tg = el("text", { x: tx + 52, y: ty, "class": "t t-tag" }, svg);
+          tg.textContent = "見落としやすい";
+        }
+      } else {
+        var cls = KIND_CLASS[n.kind];
+        el("rect", { x: n.x - d.w / 2, y: n.y - d.h / 2, width: d.w, height: d.h,
+          rx: n.kind === "start" ? d.h / 2 : 8, "class": cls }, svg);
+        text(svg, n.x, n.y, n.lines, (n.kind === "start" || n.kind === "box" || n.kind === "lane") ? "t" : "t t-b");
+      }
+      if (n.side) {
+        n.side.forEach(function (s, i) {
+          var t = el("text", { x: 8, y: n.y + (i - (n.side.length - 1) / 2) * 16, "class": "t t-side" }, svg);
+          t.textContent = s;
+        });
+      }
+      if (n.below) {
+        var t2 = el("text", { x: n.x, y: n.y + d.h / 2 + 18, "class": "t t-side", "text-anchor": "middle" }, svg);
+        t2.setAttribute("style", "text-anchor:middle");
+        t2.textContent = n.below;
+      }
+    });
+
+    // ---- structure check + path list, from the same data ----
+    var out = {}, problems = [];
+    cfg.edges.forEach(function (e) { (out[e.from] = out[e.from] || []).push(e); });
+    var main = cfg.nodes.filter(function (n) { return n.kind !== "faded-dec"; });
+    main.forEach(function (n, i) {
+      var o = out[n.id] || [], nm = n.lines.join("");
+      if (n.kind === "dec" && n.multi) {
+        if (o.length < 2) problems.push("ダイヤ「" + nm + "」の出口が2本未満です");
+      } else if (n.kind === "dec") {
+        var labs = o.map(function (e) { return (e.label || "").split("：")[0]; }).sort().join("/");
+        if (o.length !== 2 || labs !== "いいえ/はい") problems.push("ダイヤ「" + nm + "」の出口が はい・いいえ の2本になっていません");
+      } else if (RESULT[n.kind]) {
+        if (o.length !== 0) problems.push("結果ノード「" + nm + "」から矢印が出ています");
+      } else if (i === 0) {
+        if (o.length < 1) problems.push("開始ノードに出口がありません");
+      } else if (o.length !== 1) problems.push("「" + nm + "」の出口が1本ではありません");
+    });
+    var seen = {};
+    (function walk(id) { if (seen[id]) return; seen[id] = 1; (out[id] || []).forEach(function (e) { walk(e.to); }); })(main[0].id);
+    main.forEach(function (n) { if (!seen[n.id]) problems.push("開始から到達できないノード：" + n.lines.join("")); });
+
+    var paths = [];
+    (function go(id, conds) {
+      var n = byId[id], o = out[id] || [];
+      if (!o.length) { paths.push({ conds: conds, res: n }); return; }
+      o.forEach(function (e) {
+        var c = conds;
+        if (n.kind === "dec" && !n.multi) c = conds.concat([{ q: n.lines.join(""), a: (e.label || "").split("：")[0], warn: n.warn }]);
+        else if (n.kind === "lane") c = conds.concat([{ q: "原因", a: n.lines.join("：") }]);
+        else if (n.kind === "box" && n.cond) c = conds.concat([{ q: n.lines.map(function (x) { return x.replace(/。$/, ""); }).join("。"), a: "" }]);
+        go(e.to, c);
+      });
+    })(main[0].id, []);
+
+    var dc = main.filter(function (n) { return n.kind === "dec"; }).length;
+    var rc = main.filter(function (n) { return RESULT[n.kind]; }).length;
+    var chk = document.getElementById(cfg.chk);
+    var b = document.createElement("span");
+    b.className = "badge " + (problems.length ? "ng" : "ok");
+    b.textContent = problems.length ? "要修正 " + problems.length + "件" : "構造チェック OK";
+    chk.appendChild(b);
+    var d2 = document.createElement("span");
+    d2.textContent = "ダイヤ" + dc + "個、結果ノード" + rc + "個、経路" + paths.length + "本。" +
+      (problems.length ? problems.join(" / ") : "全ダイヤの出口が揃い（2分岐は はい・いいえ、問いの型は3分岐）、全ノードが開始から到達できます。");
+    chk.appendChild(d2);
+
+    if (!cfg.list) return;
+    var ol = document.getElementById(cfg.list);
+    paths.forEach(function (p) {
+      var li = document.createElement("li");
+      p.conds.forEach(function (c, i) {
+        var s = document.createElement("span");
+        s.textContent = c.a ? c.q + "　" + c.a : c.q;
+        if (c.warn) s.className = "hint";
+        li.appendChild(s);
+        li.appendChild(document.createTextNode(i < p.conds.length - 1 ? " → " : " ⇒ "));
+      });
+      var r = document.createElement("span");
+      r.className = "res-" + p.res.kind;
+      r.textContent = p.res.lines.map(function (x) { return x.replace(/。$/, ""); }).join("。");
+      li.appendChild(r);
+      ol.appendChild(li);
+    });
+  }
+
+  /* 画像2 パネル1 左：心裡留保 */
+  build({
+    svg: "svgA", chk: "chkA", list: "pathsA", h: 250,
+    nodes: [
+      { id: "s",  kind: "start", x: 300, y: 28,  w: 240, h: 36, lines: ["冗談で売ると言った"] },
+      { id: "d1", kind: "dec",   x: 300, y: 120, lines: ["相手方は真意でないと知っていたか、", "知ることができたか"] },
+      { id: "y",  kind: "yes",   x: 620, y: 120, w: 140, h: 40, lines: ["無効"] },
+      { id: "n",  kind: "no",    x: 300, y: 222, w: 140, h: 40, lines: ["有効のまま"] }
+    ],
+    edges: [
+      { from: "s", to: "d1" },
+      { from: "d1", to: "y", dir: "right", label: "はい" },
+      { from: "d1", to: "n", dir: "down",  label: "いいえ" }
+    ]
+  });
+
+  /* 画像2 パネル1 右：虚偽表示 */
+  build({
+    svg: "svgB", chk: "chkB", list: null, h: 190,
+    nodes: [
+      { id: "s", kind: "start", x: 300, y: 28, w: 280, h: 36, lines: ["相手方と通じて売ったふりをした"] },
+      { id: "y", kind: "yes",   x: 300, y: 130, w: 140, h: 44, lines: ["当然に無効"], below: "相手方の認識は問題にならない" }
+    ],
+    edges: [ { from: "s", to: "y" } ]
+  });
+
+  /* 画像2 パネル2：錯誤 */
+  build({
+    svg: "svg1", chk: "chk1", list: "paths1", h: 780,
+    nodes: [
+      { id: "s",  kind: "start", x: 300, y: 28,  w: 240, h: 36, lines: ["勘違いで意思表示をした"] },
+      { id: "d1", kind: "dec",   x: 300, y: 120, lines: ["その勘違いは重要か"] },
+      { id: "d2", kind: "dec",   x: 300, y: 250, lines: ["動機の勘違いなら、", "その事情を基礎として表示していたか"],
+        side: ["動機でなければ", "この確認は飛ばす"] },
+      { id: "d3", kind: "dec",   x: 300, y: 380, lines: ["表意者に重大な過失があったか"] },
+      { id: "d4", kind: "dec",   x: 300, y: 510, warn: true, lines: ["相手方は錯誤を知っていたか、", "重大な過失で知らなかったか"] },
+      { id: "d5", kind: "dec",   x: 300, y: 640, warn: true, lines: ["相手方も同じ錯誤に陥っていたか"] },
+      { id: "n1", kind: "no",  x: 620, y: 120, w: 140, h: 40, lines: ["取消し不可"] },
+      { id: "n2", kind: "no",  x: 620, y: 250, w: 140, h: 40, lines: ["取消し不可"] },
+      { id: "y3", kind: "yes", x: 620, y: 380, w: 140, h: 40, lines: ["取消し可"] },
+      { id: "y4", kind: "yes", x: 620, y: 510, w: 140, h: 40, lines: ["取消し可"] },
+      { id: "y5", kind: "yes", x: 620, y: 640, w: 140, h: 40, lines: ["取消し可"] },
+      { id: "n5", kind: "no",  x: 300, y: 742, w: 140, h: 40, lines: ["取消し不可"] }
+    ],
+    edges: [
+      { from: "s",  to: "d1" },
+      { from: "d1", to: "n1", dir: "right", label: "いいえ" },
+      { from: "d1", to: "d2", dir: "down",  label: "はい" },
+      { from: "d2", to: "n2", dir: "right", label: "いいえ" },
+      { from: "d2", to: "d3", dir: "down",  label: "はい" },
+      { from: "d3", to: "y3", dir: "right", label: "いいえ" },
+      { from: "d3", to: "d4", dir: "down",  label: "はい" },
+      { from: "d4", to: "y4", dir: "right", label: "はい" },
+      { from: "d4", to: "d5", dir: "down",  label: "いいえ" },
+      { from: "d5", to: "y5", dir: "right", label: "はい" },
+      { from: "d5", to: "n5", dir: "down",  label: "いいえ" }
+    ]
+  });
+
+  /* 画像2 パネル3：詐欺 */
+  build({
+    svg: "svg2", chk: "chk2", list: "paths2", h: 420,
+    nodes: [
+      { id: "s",  kind: "start", x: 300, y: 28,  w: 240, h: 36, lines: ["だまされて意思表示をした"] },
+      { id: "d1", kind: "dec",   x: 300, y: 130, lines: ["だました人は相手方の側か"],
+        side: ["相手方の側とは、", "相手方本人、", "または相手方の", "代理人"] },
+      { id: "y1", kind: "yes",   x: 620, y: 130, w: 150, h: 52, lines: ["取消し可", "相手方の認識は問わない"] },
+      { id: "d2", kind: "dec",   x: 300, y: 280, lines: ["相手方はだまされた事実を", "知っていたか、知ることができたか"] },
+      { id: "y2", kind: "yes",   x: 620, y: 280, w: 150, h: 40, lines: ["取消し可"] },
+      { id: "n2", kind: "no",    x: 300, y: 382, w: 140, h: 40, lines: ["取消し不可"] }
+    ],
+    edges: [
+      { from: "s",  to: "d1" },
+      { from: "d1", to: "y1", dir: "right", label: "はい" },
+      { from: "d1", to: "d2", dir: "down",  label: "いいえ：無関係の第三者がだました" },
+      { from: "d2", to: "y2", dir: "right", label: "はい" },
+      { from: "d2", to: "n2", dir: "down",  label: "いいえ" }
+    ]
+  });
+
+  /* 画像2 パネル4：強迫 */
+  build({
+    svg: "svg4", chk: "chk4", list: "paths4", h: 340,
+    nodes: [
+      { id: "s", kind: "start", x: 390, y: 28, w: 240, h: 36, lines: ["脅されて意思表示をした"] },
+      { id: "a", kind: "box", cond: true, x: 250, y: 130, w: 250, h: 44, lines: ["相手方が脅した"] },
+      { id: "b", kind: "box", cond: true, x: 540, y: 130, w: 290, h: 56, lines: ["無関係の第三者が脅した。", "相手方は知らなかった"] },
+      { id: "r", kind: "yes", x: 250, y: 250, w: 150, h: 44, lines: ["取消し可"] },
+      { id: "f", kind: "faded-dec", x: 570, y: 270, w: 240, h: 76, lines: ["相手方は知っていたか、", "知ることができたか"], below: "詐欺にある条件。強迫では要らない" }
+    ],
+    edges: [
+      { from: "s", to: "a" }, { from: "s", to: "b" },
+      { from: "a", to: "r" }, { from: "b", to: "r" }
+    ]
+  });
+
+  /* 画像3 パネル2：取消し前の第三者の守られ方 */
+  build({
+    svg: "svg3", chk: "chk3", list: "paths3", w: 960, h: 570,
+    nodes: [
+      { id: "s",  kind: "start", x: 70, y: 300, w: 120, h: 40, lines: ["原因は何か"] },
+      { id: "h1", kind: "lane", x: 250, y: 110, w: 160, h: 54, lines: ["善意のみ", "虚偽表示、心裡留保"] },
+      { id: "h2", kind: "lane", x: 250, y: 300, w: 160, h: 54, lines: ["善意と無過失", "詐欺、錯誤"] },
+      { id: "h3", kind: "lane", x: 250, y: 500, w: 160, h: 54, lines: ["保護なし", "強迫"] },
+      { id: "a1", kind: "dec", x: 440, y: 110, w: 170, h: 70, lines: ["Cは善意か"] },
+      { id: "a2", kind: "dec", x: 440, y: 300, w: 170, h: 70, lines: ["Cは善意か"] },
+      { id: "b2", kind: "dec", x: 640, y: 300, w: 170, h: 70, lines: ["Cは無過失か"] },
+      { id: "p3", kind: "box", x: 440, y: 500, w: 170, h: 50, lines: ["第三者を守る規定がない"] },
+      { id: "t1", kind: "third", x: 870, y: 110, w: 180, h: 52, lines: ["第三者が勝つ", "無過失も登記も要らない"] },
+      { id: "o1", kind: "own",   x: 440, y: 190, w: 140, h: 40, lines: ["表意者が勝つ"] },
+      { id: "o2", kind: "own",   x: 440, y: 385, w: 140, h: 40, lines: ["表意者が勝つ"] },
+      { id: "o2b", kind: "own",  x: 640, y: 385, w: 140, h: 40, lines: ["表意者が勝つ"] },
+      { id: "t2", kind: "third", x: 870, y: 300, w: 180, h: 52, lines: ["第三者が勝つ", "登記は要らない"] },
+      { id: "o3", kind: "own",   x: 865, y: 500, w: 190, h: 76, lines: ["表意者が勝つ", "Cが善意無過失でも負ける", "登記の抹消を待たなくてよい"] }
+    ],
+    edges: [
+      { from: "s", to: "h1", dir: "elbowR" }, { from: "s", to: "h2", dir: "elbowR" }, { from: "s", to: "h3", dir: "elbowR" },
+      { from: "h1", to: "a1", dir: "right" },
+      { from: "a1", to: "t1", dir: "right", label: "はい" },
+      { from: "a1", to: "o1", dir: "down",  label: "いいえ" },
+      { from: "h2", to: "a2", dir: "right" },
+      { from: "a2", to: "b2", dir: "right", label: "はい" },
+      { from: "a2", to: "o2", dir: "down",  label: "いいえ" },
+      { from: "b2", to: "t2", dir: "right", label: "はい" },
+      { from: "b2", to: "o2b", dir: "down", label: "いいえ" },
+      { from: "h3", to: "p3", dir: "right" },
+      { from: "p3", to: "o3", dir: "right" }
+    ]
+  });
+
+  /* 画像1 パネル1：問いの型 */
+  build({
+    svg: "svg0", chk: "chk0", list: "paths0", w: 900, h: 470,
+    nodes: [
+      { id: "s",  kind: "start", x: 450, y: 28, w: 260, h: 36, lines: ["問題文の最後の一文"] },
+      { id: "d",  kind: "dec", multi: true, x: 450, y: 130, w: 300, h: 80, lines: ["聞かれているのは何か"] },
+      { id: "la", kind: "box", cond: true, x: 150, y: 250, w: 270, h: 56, lines: ["取り消せるか。無効か"] },
+      { id: "lb", kind: "box", cond: true, x: 450, y: 250, w: 270, h: 56, lines: ["Cに所有権を主張できるか。", "対抗できるか"] },
+      { id: "lc", kind: "box", cond: true, x: 750, y: 250, w: 270, h: 56, lines: ["さかのぼるか。追認できるか。", "いつまで取り消せるか"] },
+      { id: "ra", kind: "own",   x: 150, y: 390, w: 270, h: 60, lines: ["型A　表意者と相手方の問い", "当事者間の図へ"] },
+      { id: "rb", kind: "third", x: 450, y: 390, w: 270, h: 60, lines: ["型B　第三者が登場する問い", "第三者の図へ"] },
+      { id: "rc", kind: "yes",   x: 750, y: 390, w: 270, h: 100, lines: ["型C　効果と期間の問い", "取消しは初めから無効", "無効は追認しても遡らない", "取消権は5年と20年"] }
+    ],
+    edges: [
+      { from: "s", to: "d" },
+      { from: "d", to: "la" }, { from: "d", to: "lb" }, { from: "d", to: "lc" },
+      { from: "la", to: "ra" }, { from: "lb", to: "rb" }, { from: "lc", to: "rc" }
+    ]
+  });
+
+  /* 画像1 パネル2：対応表 */
+  (function () {
+    var rows = [
+      ["相手方と通じて売ったことにした", "虚偽表示", "無効"],
+      ["冗談で言った。本心ではなかった", "心裡留保", "原則有効"],
+      ["勘違いして契約した", "錯誤", "取消し"],
+      ["だまされて契約した", "詐欺", "取消し"],
+      ["脅されて契約した", "強迫", "取消し"]
+    ];
+    var ol = document.getElementById("rows"), names = {}, dup = false;
+    rows.forEach(function (r) {
+      if (names[r[1]]) dup = true; names[r[1]] = 1;
+      var li = document.createElement("li");
+      li.textContent = r[0] + " → " + r[1] + " → " + r[2];
+      ol.appendChild(li);
+    });
+    var chk = document.getElementById("chkR");
+    var b = document.createElement("span");
+    var ok = rows.length === 5 && !dup;
+    b.className = "badge " + (ok ? "ok" : "ng");
+    b.textContent = ok ? "行数チェック OK" : "要修正";
+    chk.appendChild(b);
+    var d = document.createElement("span");
+    d.textContent = "5行、制度名に重複・欠落なし（虚偽表示、心裡留保、錯誤、詐欺、強迫）。";
+    chk.appendChild(d);
+  })();
+})();
+</script>
