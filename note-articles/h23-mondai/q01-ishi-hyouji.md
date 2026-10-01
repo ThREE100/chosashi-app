@@ -24,6 +24,8 @@
 
 **たとえば**、AさんがBさんに脅されて泣く泣く土地を売らされ、その土地がさらに事情を知らないCさんに転売されていたとします。それでもAさんは、あとから強迫を理由に契約を取り消せば、Cさんに対して「あれは私の土地です」と堂々と主張できるのです。
 
+※出題当時（平成23年）の民法96条3項は、詐欺による取消しを対抗できない第三者を「善意の第三者」と定めていましたが、令和2年4月1日施行の民法改正で「善意でかつ過失がない第三者」に改められました。強迫による取消しに第三者保護規定がない点は、改正の前後で変わっていません（結論自体は変わりません）。
+
 ### イ：善意のCが間に入れば、悪意のDも保護される
 
 通謀虚偽表示による無効は、善意の第三者に対抗できません（民法94条2項）。ここで、いったん善意の第三者Cが確定的に権利を取得すると、そのCから買い受けた転得者Dは、たとえ仮装譲渡の事実を知っていた（悪意）としても保護されるというのが判例の立場です。Cのもとで権利関係が確定する以上、その後の転得者の善意・悪意は問わないという考え方です。よってAはDに所有権を主張できません。
@@ -32,9 +34,11 @@
 
 ### ウ：錯誤取消しを主張できるのは、表意者の側だけ
 
-錯誤による取消し（民法95条）は、勘違いをした表意者Aを保護するための制度なので、取消しを主張できるのは表意者A側に限られます。相手方Bは取消権者ではありません。加えて、表意者Aに重大な過失があるときは、原則としてA自身ですら取り消せません。いずれにしても「Bが取消しを主張できる」とする点が誤りです。
+錯誤による取消し（民法95条）は、勘違いをした表意者Aを保護するための制度なので、取消しを主張できるのは表意者A側（表意者又はその代理人若しくは承継人）に限られます（民法120条2項）。相手方Bは取消権者ではありません。加えて、表意者Aに重大な過失があるときは、原則としてA自身ですら取り消せません（民法95条3項）。いずれにしても「Bが取消しを主張できる」とする点が誤りです。
 
 **たとえば**、Aさんが甲土地を売るつもりでうっかり乙土地を売る契約を結んでしまった場合、その勘違いを盾に「やっぱりやめた」と言えるのはAさんの側だけです。買主のBさんの方から「Aさんは勘違いしていたから取り消す」と言い出すことはできません。
+
+※出題当時（平成23年）の民法では、錯誤は取消しではなく「無効」とされ（旧95条）、無効を主張できるのは原則として表意者に限られるというのが判例の立場でした。令和2年4月1日施行の民法改正で錯誤は取消しに改められ、取消権者は民法120条2項で表意者側に限られています（結論自体は変わりません）。
 
 ### エ：第三者の詐欺は、相手方が善意無過失なら取り消せない
 
@@ -42,11 +46,15 @@
 
 **たとえば**、Aさんが第三者のBさんにだまされて、事情をまったく知らない善意無過失のCさんに土地を売ってしまった場合、Aさんは気の毒ですが、何も悪くないCさんとの契約を取り消すことはできないのです。
 
+※出題当時（平成23年）の民法96条2項は、相手方が詐欺の事実を「知っていたとき」に限り取り消せると定めていましたが、令和2年4月1日施行の民法改正で「知り、又は知ることができたとき」に改められました。本肢のように相手方Cが善意かつ無過失であれば、改正の前後を通じて取り消せません（結論自体は変わりません）。
+
 ### オ：代理権の濫用は、相手方が見抜けたはずなら本人が否定できる
 
-代理人が自分の利益を図る目的で代理行為をした場合、相手方がその目的を知り、または知ることができたときは、その行為は無権代理行為とみなされます（民法107条）。したがって本人Aは、追認を拒絶してその効果を否定できます。設問文は出題当時の判例の表現に合わせて「無効を主張することができる」としていますが、本人が効果を否定できるという結論は現行法でも同じです。
+代理人が自己又は第三者の利益を図る目的で代理権の範囲内の行為をした場合、相手方がその目的を知り、または知ることができたときは、その行為は無権代理行為（代理権を有しない者がした行為）とみなされます（民法107条）。したがって本人Aは、追認を拒絶してその効果を否定できます。
 
 **たとえば**、土地を売る代理を任されたBさんが、代金をこっそり自分のものにするつもりでCさんに売ったとします。Cさんがその下心にうすうす気づけたはずだったのなら、本人のAさんは「あの契約は自分には効果が及ばない」と主張できるのです。
+
+※出題当時（平成23年）は、判例が旧93条ただし書の類推適用により、相手方がその目的を知り、または知ることができたときは代理行為は無効になるとしており、設問文の「無効を主張することができる」はこの言い回しです。令和2年4月1日施行の民法改正でこの判例法理は107条として明文化され、行為は無権代理行為とみなされることになりましたが、本人が効果を否定できるという結論は変わりません。
 
 ### まとめ
 
@@ -66,9 +74,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第1問＝イオ／3番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 各肢の法的根拠のうち、イ（民法94条2項、最判昭45.7.24）、ウ（民法95条）、エ（民法96条2項）は条文・判例レベルで確認済みです。ア（強迫による取消しに第三者保護規定がないこと）は民法96条の反対解釈という一般原則からの整理にとどまります。
+- 各肢の法的根拠のうち、イ（民法94条2項、最判昭45.7.24）、ウ（民法95条・120条2項）、エ（民法96条2項）は条文・判例レベルで確認済みです。ア（強迫による取消しに第三者保護規定がないこと）は民法96条の反対解釈という一般原則からの整理にとどまります。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
-- **最新法令準拠チェック（2026-08-04実施）**：肢オ（代理権の濫用）について、出題当時（平成23年）は最判昭42.4.20による判例法理（旧93条ただし書の類推適用）が根拠でしたが、令和2年4月1日施行の民法改正でこの判例法理は民法107条として明文化されました。107条の下では当該行為は「代理権を有しない者がした行為」（無権代理行為）とみなされる点が、旧来の「無効」という整理と異なります。結論（本人が契約の効果を否定できること）自体は変わりませんが、条文上の根拠・法的構成が更新されているため、本記事では現行107条を主たる根拠として明記し、旧来の判例構成も併記する形に修正しました。その他の肢（強迫・虚偽表示・錯誤・詐欺の各規定）については、令和2年民法改正・令和5年共有法改正・相続登記義務化等の近年の主要な民法・不動産登記法改正の影響を確認しましたが、内容に影響する変更は見つかりませんでした。
+- **適用法令の現行性チェック（2026-10-01実施）**：2026-08-04の前回チェックに続き、ローカル法令データベース（`note-articles/laws/minpou-1-soukyoku-bukken.md`）で現行の民法94条・95条・96条・107条・120条を条文原文で確認しました。令和2年4月1日施行の民法改正（債権法改正、平成29年法律第44号）による変更として、①肢ア（96条3項）は、取消しを対抗できない第三者が「善意の第三者」から「善意でかつ過失がない第三者」に改められました。②肢ウ（95条）は、錯誤が無効から取消しに改められ、取消権者は120条2項（瑕疵ある意思表示をした者又はその代理人若しくは承継人）に定められました（95条3項は表意者に重大な過失がある場合の取消しの制限）。③肢エ（96条2項）は、第三者詐欺で取り消せる場合が「相手方が知っていたとき」から「知り、又は知ることができたとき」に広がりました。④肢オ（107条）は、判例法理（旧93条ただし書の類推適用）が明文化され、行為は「代理権を有しない者がした行為」とみなされることになりました（相手方がその目的を知り、又は知ることができたとき）。いずれも各肢の正誤の結論は変わらないため、本文は現行条文で書き、出題当時との違いを※メモにしました。肢イ（94条2項）は改正の前後で内容が同じです。令和5年共有制度改正・相続登記義務化・住所変更登記義務化は本問に関係しません。なお、問題文引用の肢ウ（「取消し」）・肢エ（「善意かつ無過失」）の文言が、出題当時の試験問題原本のままか、現行法に合わせた書き換えかは、公式の原本で確認できていません（アプリのデータベースの文言をそのまま引用しています）。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、本問より後の年度で「意思表示」をテーマとする問題が繰り返し出題されていることを確認しました。令和4年度第2問（虚偽表示・詐欺・強迫の転得者保護）、平成27年度第1問（詐欺又は強迫による意思表示）、令和7年度第1問（錯誤・強迫・詐欺・到達主義・心裡留保）はいずれも「意思表示」がテーマで、特に「強迫による意思表示には第三者保護規定がない」「詐欺による意思表示は善意無過失の第三者に対抗できない」という本問の核心論点は、これらの年度でも形を変えて繰り返し問われています。令和7年度第1問は本noteシリーズでは未執筆（第2問から着手したため）ですが、今後執筆する際は本記事と論点が重複しないよう、具体的な肢の違い（本問は錯誤・代理権濫用を含む点が特色）を意識して書き分けてください。
 
 ---
@@ -121,9 +129,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・続・対・証・張・錯・誤・過・失 — these must be rendered in their standard
-Japanese forms, never as Simplified Chinese variants (e.g. 権 not 权, 続
-not 续, 対 not 对, 証 not 证, 張 not 张, 錯 not 错, 誤 not 误, 過 not 过).
+kanji 対・強・偽・錯・誤・権・過 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 対 not 对, 強 not 强, 偽 not 伪, 錯 not 错, 誤 not 误, 権 not 权, 過 not 过).
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -148,14 +155,14 @@ Subtitle (smaller, centered, 1行):
 --- CARD 1 ---
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
-強迫の取消しは誰にでも対抗できる
-Illustration: A first character (A) cowers while a second character (B)
-raises a fist icon at them (B is the one threatening), and A hands a
-land-plot icon to B. B then resells the land-plot icon to a third,
-smiling character (C) who carries a small halo icon (善意). An arrow
-loops back from A through a red "取消" stamp reaching all the way to C,
-with no shield icon blocking it anywhere along the chain. Do NOT draw any
-fourth character.
+強迫の取消しは善意の第三者にも対抗できる
+Illustration: A first character (A, wearing a small name tag A) cowers
+while a second character (B, name tag B) raises a fist icon at them (B is
+the one threatening), and A hands a land-plot icon to B. B then resells
+the land-plot icon to a third, smiling character (C, name tag C) who
+carries a small halo icon (善意). A single arrow runs from A through a
+red "取消" stamp and reaches all the way to C, with no shield icon
+blocking it anywhere along the chain. Do NOT draw any fourth character.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 第三者保護規定なし
 
@@ -164,7 +171,8 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 善意者を経由すれば悪意者も守られる
 Illustration: A land-plot icon passing through a chain of FOUR
-isometric characters A, B, C, D connected by arrows in that order. A
+isometric characters wearing name tags A, B, C, D, connected by arrows in
+that order. A
 curtain icon hangs behind the first two characters (A and B). The third
 character (C) has a bright halo icon (善意), and a green shield icon
 extends from C across to the fourth character (D), who has a dark speech
@@ -176,23 +184,24 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 3 ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-錯誤取消しは本人しか使えない
+錯誤の取消しは表意者側しか使えない
 Illustration: Two characters facing each other over a contract; the left
 character (表意者, the one who made the mistake) has a large confused
 question-mark icon above their head and holds a "取消" stamp, while the
 right character (相手方, the contract counterparty) reaches for the same
 stamp but is blocked by a padlock icon.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-表意者本人限定
+表意者側に限定
 
 --- CARD 4 ---
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 善意無過失の相手には取消し不可
-Illustration: A masked figure (a bystander, NOT a party to the contract)
-whispers into a character's ear while that character signs a contract
-with a different character (the contract counterparty), who holds up a
-shield icon labeled 善意無過失. A red "取消" stamp bounces off the shield
+Illustration: A masked figure (labeled 第三者B, a bystander, NOT a party
+to the contract) whispers into the ear of a character labeled 表意者A
+while that character signs a contract with a different character
+(labeled 相手方C, the contract counterparty), who holds up a shield icon
+labeled 善意無過失. A red "取消" stamp held by A bounces off the shield
 with a red X mark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 善意無過失なら不可
@@ -200,20 +209,21 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 5 ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-代理人の下心は本人が拒否できる
-Illustration: An agent character holding a briefcase secretly slips a
-coin into their own pocket while signing a contract with a second
-character (the buyer C), who has a raised-eyebrow icon above their head
-(C could have noticed the agent's motive). Behind them, a third
-character (the principal A) holds up a stamp pointed at the contract
-with a red X on it.
+相手方が見抜けたなら本人が否定できる
+Illustration: An agent character (labeled 代理人B) holding a briefcase
+secretly slips a coin into their own pocket while signing a contract
+with a second character (labeled 相手方C, the buyer), who has a
+raised-eyebrow icon above their head (C could have noticed the agent's
+motive). Behind them, a third character (labeled 本人A, the principal)
+holds up a stamp pointed at the contract; the red X is drawn over the
+contract paper itself (the contract's effect is denied), not over A.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-本人が効果を否定
+見抜けたなら否定可
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 権・続・対・証・張・錯・誤・過・失. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 対・強・偽・錯・誤・権・過. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no
 duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
@@ -306,11 +316,11 @@ a land-plot icon to a second character, who resells it to a third,
 smiling character (善意のC). An arrow loops back from the first
 character through a red 取消 stamp reaching all the way to the third
 character, with no shield icon blocking it anywhere along the chain
-(no保護規定であることを示す).
+(showing that no protective provision exists).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、強迫による取消しには、詐欺のような善意の第三者を保護する規定があ
-るかどうかを確認します。強迫にはこの規定がないため、次に、Aは善意のC
-に対しても取消しの効果を主張できると判断します。
+まず、強迫による取消しには、詐欺のような善意でかつ過失のない第三者を保
+護する規定があるかどうかを確認します。強迫にはこの規定がないため、次
+に、Aは善意のCに対しても取消しの効果を主張できると判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 第三者保護規定なし
@@ -344,7 +354,7 @@ characters):
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
-主張できるのは表意者本人だけ
+主張できるのは表意者側だけ
 Diagram: A decision-tree flowchart. First diamond node: 取消しを主張し
 ようとしているのは、表意者Aか、相手方Bか？with the 相手方B branch
 (drawn with a thicker highlighted border, since this is本肢の事実)
@@ -360,7 +370,7 @@ checkmark 主張できる.
 もあわせて確認します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-表意者本人限定
+表意者側に限定
 
 --- PANEL 4（肢エ） ---
 Badge: a filled circle in green containing the number 4.
@@ -399,12 +409,12 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法96条2項・3項（詐欺）・94条2項（虚偽表示）・95条（錯誤）・107条（代理
-権の濫用）に基づく整理です。
+民法96条2項・3項（詐欺）・94条2項（虚偽表示）・95条（錯誤）・120条2項（取
+消権者）・107条（代理権の濫用）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 強, 迫, 虚, 偽, 錯, 誤, 過 and any character that has
+Chinese, paying special attention to 図, 強, 過, 認, 対, 張, 譲, 権, 誤, 約, 偽, 錯 and any character that has
 a visually similar Simplified or Traditional Chinese variant. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas

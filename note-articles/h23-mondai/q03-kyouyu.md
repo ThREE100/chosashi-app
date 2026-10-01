@@ -20,21 +20,27 @@
 
 ### ア：共同で貸した土地の解除は、過半数の同意が要る
 
-共有物を目的とする賃貸借契約の解除は、共有物の「管理」に関する事項に当たり、各共有者の持分価格の過半数で決めなければなりません（民法252条本文）。持分3分の1のAが単独で解除権を行使することはできません。加えて、解除は相手方に対して不可分に行うべきものという考え方（544条）とも整合します。「単独で解除権を行使することができる」とする記述は誤りです。
+共有物を目的とする賃貸借契約の解除は、共有物の「管理」に関する事項に当たり、各共有者の持分価格の過半数で決めなければなりません（民法252条1項前段）。持分3分の1のAが単独で解除権を行使することはできません。「単独で解除権を行使することができる」とする記述は誤りです。
 
 **たとえば**、3人で共有する土地を一緒に貸している場合、その貸し借りをやめたいと思っても、そのうちの一人が勝手に「契約は解除します」と言うことはできません。少なくとも過半数、つまり2人以上がまとまって決める必要があるのです。
 
+※出題当時（平成23年）の民法252条は、本文とただし書だけの1か条でしたが、令和5年4月1日施行の共有制度の改正で項に分かれ、管理に関する事項を持分価格の過半数で決める規定は252条1項前段になっています（結論自体は変わりません）。
+
 ### イ：単独占有する共有者にも、当然には明渡しを求められない
 
-共有者の一人Aが単独で共有物全部を占有していても、A自身も持分に基づいて共有物を使用収益する権利を持っています。そのため、他の共有者B・Cは、たとえ持分が過半数を超えていても、当然にはAに明渡しを請求することはできないというのが判例の立場です。明渡しを求めるには、その理由を主張・立証する必要があります。この記述は正しいものです。
+共有者の一人Aが単独で共有物全部を占有していても、A自身も持分に基づいて共有物の全部を使用する権利を持っています（民法249条1項）。そのため、他の共有者B・Cは、たとえ持分が過半数を超えていても、当然にはAに明渡しを請求することはできないというのが判例の立場です。明渡しを求めるには、その理由を主張・立証する必要があります。この記述は正しいものです。
 
 **たとえば**、3人で共有する土地をAさんが一人で使っている場合、残りのBさんとCさんが「合わせれば3分の2で多数派だから出て行け」と言っても、Aさんにもその土地を使う権利がある以上、すぐに追い出すことはできないのです。
 
+※出題当時（平成23年）は、共有物を使用している共有者がいる場合に持分の過半数でその使い方まで決められるのかが条文上はっきりしていませんでしたが、令和5年4月1日施行の改正で、管理に関する事項は共有物を使用する共有者がいるときも持分価格の過半数で決めるものと明文化されました（民法252条1項後段）。ただし、その決定が使用中の共有者に特別の影響を及ぼすときはその共有者の承諾が必要で（同条3項）、持分が過半数であるだけでは当然には明渡しを請求できないという本肢の結論は変わりません。
+
 ### ウ：不実の登記の抹消は、共有者が一人で請求できる
 
-Bの持分についてのみ第三者Dへの不実の持分移転登記がされている場合、その抹消を求めることは共有物の「保存行為」に当たり、各共有者が単独で請求できるというのが判例の立場です。実体に合わない登記を正す行為は、共有者全員の利益になるからです。したがってA又はCは単独で抹消登記手続を請求でき、「請求することはできない」とする記述は誤りです。
+Bの持分についてのみ第三者Dへの不実の持分移転登記がされている場合、その抹消を求めることは共有物の「保存行為」に当たり（民法252条5項）、各共有者が単独で請求できるというのが判例の立場です。実体に合わない登記を正す行為は、共有者全員の利益になるからです。したがってA又はCは単独で抹消登記手続を請求でき、「請求することはできない」とする記述は誤りです。
 
 **たとえば**、共有する土地について、身に覚えのない他人Dさんの名義が勝手に入り込んでいたら、共有者の一人であるAさんだけでも「その登記を消してください」と請求できます。みんなの土地を守るための行動なので、全員そろう必要はないのです。
+
+※出題当時（平成23年）の保存行為の根拠は民法252条ただし書でしたが、令和5年4月1日施行の共有制度の改正で同条5項に移っています（結論自体は変わりません）。
 
 ### エ：損害賠償は、自分の持分の分しか請求できない
 
@@ -44,9 +50,11 @@ Bの持分についてのみ第三者Dへの不実の持分移転登記がされ
 
 ### オ：現物で分けられないなら、競売してお金で分ける
 
-裁判上の共有物分割において、現物で分割することが不可能であるか、または分割によって著しく価格を減少させるおそれがあるときは、裁判所は共有物を競売に付し、その代金を各持分割合に応じて分割するよう命じることができます（民法258条）。これは条文どおりの正しい記述です。
+裁判上の共有物分割では、裁判所は、共有物の現物を分割する方法か、共有者に債務を負担させて他の共有者の持分を取得させる方法（賠償分割）で分割を命じます（民法258条2項）。そのどちらの方法でも分割できないとき、または分割によってその価格を著しく減少させるおそれがあるときは、裁判所は競売を命じることができ（同条3項）、その代金を各持分割合に応じて分けることになります。本肢の「現物で分割することが不可能であるか」という書きぶりは出題当時の条文の言い回しに沿ったもので、競売による代金分割を命じられるという結論としては、正しい記述といえます。
 
 **たとえば**、3人で共有する一つの土地を、細かく切り分けると使い物にならなくなってしまうような場合、裁判所は「まるごと売ってしまい、その代金を3人で分けなさい」と命じることができるのです。
+
+※出題当時（平成23年）は、現物で分割できないとき、または分割によって価格を著しく減少させるおそれがあるときに競売を命じられると民法258条2項に定められていましたが、令和5年4月1日施行の共有制度の改正で賠償分割（現258条2項2号）が明文化され、競売の規定は258条3項に移りました。競売による代金分割を命じられるという結論自体は変わりませんが、現行法では、現物分割に加えて賠償分割もできないことが前提になる点に注意してください。
 
 ### まとめ
 
@@ -66,10 +74,10 @@ Bの持分についてのみ第三者Dへの不実の持分移転登記がされ
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第3問＝アウ／1番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 各肢の法的根拠のうち、ア（民法252条本文）、イ（最判昭41.5.19）、ウ（最判昭31.5.10ほか）、エ（最判昭51.9.7）、オ（民法258条）は条文・判例レベルで確認済みです。
+- 各肢の法的根拠のうち、ア（民法252条1項前段）、イ（民法249条1項・252条1項後段・3項、最判昭41.5.19）、ウ（民法252条5項、最判昭31.5.10ほか）、エ（最判昭51.9.7）、オ（民法258条2項・3項）は条文・判例レベルで確認済みです。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成27年度第2問で「共有」が同じくテーマとして出題されていることを確認しました。ただし具体的な論点（本問は共同賃貸の解除・不実登記の抹消請求・単独占有への明渡請求・損害賠償・競売による代金分割、平成27年度第2問は変更行為への同意・賃貸借解除の要件等）は異なり、平成27年度分の記事は本シリーズでは未執筆です。将来平成27年度分を執筆する際は、論点の重複がないか改めてご確認ください。
-- **最新法令準拠チェック（2026-08-04実施）**：令和5年（2023年）4月1日施行の共有制度改正（民法251条・252条等）を確認しました。肢ア（共同賃貸借の解除は管理行為として持分の過半数で決定する）は、改正後も252条1項に明文で維持されている結論です。肢イ（単独占有する共有者への当然の明渡請求はできないとする最判昭41.5.19）は、改正で新設された249条2項（使用共有者の対価償還義務）と併存する別論点であり、判例の結論は改正後も維持されています。その他の肢（保存行為としての抹消登記請求、損害賠償の按分、競売による代金分割）も条文上の変更はなく、内容の修正は不要と判断しました。
+- **適用法令の現行性チェック（2026-10-01実施）**：2026-08-04の前回チェックに続き、ローカル法令データベース（`note-articles/laws/minpou-1-soukyoku-bukken.md`）で、令和5年4月1日施行の共有制度改正後の民法249条〜258条を条文原文で確認しました。①肢ア：管理に関する事項を持分価格の過半数で決める規定は現252条1項前段です（旧252条本文）。共有物の賃貸借の解除が管理行為に当たる点は判例の解釈で、条文には明記されていません。なお、従来の本文にあった「解除権の不可分（544条）とも整合する」という記述は、544条1項が全員からの解除を求める規定で、過半数で足りるとする本肢の整理と食い違うため削除しました（544条1項が共有物の賃貸借の解除には適用されないという判例理解は、ローカル法令データベースでは確認できていません）。②肢イ：現252条1項後段で、共有物を使用する共有者がいるときも持分価格の過半数で管理事項を決められることが明文化され、その決定が使用中の共有者に特別の影響を及ぼすときは承諾が必要とされました（同条3項）。249条2項（使用の対価の償還義務）も新設されています。持分が過半数であるだけでは当然には明渡しを請求できないという本肢の結論は維持されると判断しましたが、改正後の裁判例・解説までは確認できていません。③肢ウ：保存行為の規定は旧252条ただし書から現252条5項に移りました。④肢エ：条文上の変更はありません（判例の結論は維持）。⑤肢オ：競売の規定は旧258条2項から現258条3項に移り、現物分割（258条2項1号）に加えて賠償分割（同項2号）が明文化されました。現258条3項は、現物分割・賠償分割のどちらもできないとき、または分割によって価格を著しく減少させるおそれがあるときに競売を命じられるとしており、肢オの「現物で分割することが不可能であるか」（賠償分割への言及なし）は現行法の文言と厳密には一致しません。公式正解（オ＝正）と出題当時の条文に従い、判定は変更していません（現行法で出題された場合は、判定が揺れる余地があります）。なお、導入文の「変更・処分行為（全員の同意が必要）」は概略で、現251条1項は形状又は効用の著しい変更を伴わない変更を除いており、軽微な変更は管理行為（252条1項）として持分価格の過半数で決められます。
 
 ---
 
@@ -121,9 +129,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・証・売・過 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 権 not 权, 証 not 证,
-売 not 卖, 過 not 过).
+kanji 処・賃・貸・過・請・権・記・賠・償・売 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 処 not 处, 賃 not 赁, 貸 not 贷, 過 not 过, 請 not 请, 権 not 权, 記 not 记, 賠 not 赔, 償 not 偿, 売 not 卖).
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -161,12 +168,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-単独占有者にも当然の明渡不可
+単独占有者に当然には明渡請求不可
 Illustration: One co-owner character (A, labeled 1/3) occupies an
 entire land plot alone, while two other co-owner characters (B and C,
-each labeled 1/3, joined by a bracket) point at A demanding "明渡し", but
-a shield icon around A labeled "使用権" blocks the demand with a red X.
-Do NOT label either of the two pointing characters 2/3 individually.
+each labeled 1/3, joined by a bracket labeled 合わせて過半数) point at A
+demanding "明渡し", but a shield icon around A labeled "使用権" blocks the
+demand with a red X. Do NOT label either of the two pointing characters
+2/3 individually, and write no fraction on the bracket.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 使用権あり
 
@@ -177,7 +185,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: A registration-document icon showing co-owner B's one-third
 portion fraudulently transferred to an outsider (D) via an entry marked
 "不実". Another single co-owner (A) alone (not needing the others)
-stamps a "抹消請求" seal onto that entry of the document.
+holds out a "抹消請求" seal toward the outsider D, who is the one the
+claim is made against (draw no registry-office building).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 保存行為・単独可
 
@@ -197,16 +206,19 @@ Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 分けられなければ競売で分配
 Illustration: A land plot with a red X over an attempted cut into
-pieces, transitioning to a court gavel/auction-hammer icon selling the
-whole plot, with the resulting coin pile split into three stacks, one
-for each of the three co-owners (each owning an equal 1/3 share).
+pieces, and next to it a small icon of one co-owner handing coins to the
+others to buy out their shares, labeled 賠償分割, also with a red X
+(neither way of dividing works), transitioning to a court
+gavel/auction-hammer icon selling the whole plot, with the resulting coin
+pile split into three stacks, one for each of the three co-owners (each
+owning an equal 1/3 share).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 競売で代金分割
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 権・証・売・過. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 処・賃・貸・過・請・権・記・賠・償・売. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
@@ -240,8 +252,11 @@ the same three-branch signpost（この行為は保存行為・管理行為・�
 highlights the 保存行為 branch (leading to 単独で請求できる) — draw both
 signposts identically in shape and layout so the reader recognizes it as
 the same classification tree used twice. Where a 肢 is resolved by a
-single check rather than this three-way classification (肢イ・エ・オ), a
+single check rather than this three-way classification (肢イ・エ), a
 labeled illustrative diagram is sufficient — do not force a flowchart.
+Panel 5（肢オ）, by contrast, needs two checks in sequence (現物分割 first,
+then 賠償分割) before a 競売 can be ordered, so draw it as an actual
+decision flowchart with two diamond nodes and no loop-back arrow.
 Unlike a glanceable summary poster, each panel MAY include a short
 「着眼点」callout box with 1-2 sentences that state the checking ORDER in
 words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
@@ -372,27 +387,36 @@ characters):
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 分けられなければ競売で分配
-Diagram: A land plot with a red ✕ over an attempted cut into pieces
-(現物分割は不可能か、価格を著しく減少させる), transitioning to a
-gavel/auction-hammer icon selling the whole plot, with the resulting coin
-pile split into three equal stacks labeled 各持分割合に応じて.
+Diagram: A decision-tree flowchart. First diamond node: 甲土地を現物で
+分割できるか？ with はい leading to a small faded conclusion node 現物分割
+を命じる, and いいえ (drawn with a thick highlighted border) leading to a
+second diamond node: 賠償分割（債務を負担して他の共有者の持分を取得する
+方法）はできるか？ with はい leading to a small faded conclusion node 賠償
+分割を命じる, and いいえ leading to the main conclusion node 競売を命じ、
+代金を各持分割合に応じて分ける, drawn with a gavel/auction-hammer icon and
+a coin pile split into three equal stacks. A separate small tag reading
+分割によって価格を著しく減少させるおそれ is joined by its own arrow
+directly to the same 競売 conclusion node. Do not draw any arrow that
+loops back to an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、甲土地を現物で分割することが可能かどうかを確認します。不可能であ
-る、または分割によって価格を著しく減少させるおそれがある場合は、次に、
-裁判所が競売による代金分割を命じることができると判断します。
+まず、甲土地を現物で分割できるかを確認します。できない場合は、次に、共
+有者に債務を負担させて他の共有者の持分を取得させる賠償分割もできない
+かを確認し、どちらの方法でも分割できないとき、または分割によって価格を
+著しく減少させるおそれがあるときは、裁判所が競売による代金分割を命じら
+れると判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 競売で代金分割
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法252条本文（共有物の管理行為）・258条（裁判上の共有物分割・競売によ
-る代金分割）に基づく整理です。イ・ウ・エの各判断は、判例上確立した理解
-によります。
+民法252条1項前段（共有物の管理）・252条5項（保存行為）・258条2項・3項
+（裁判上の共有物分割・競売による代金分割）に基づく整理です。イ・ウ・エ
+の各判断は、判例上確立した理解によります。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 保, 存, 処, 分, 賠, 償, 抹, 売, 過 and any character that has
+Chinese, paying special attention to 図, 賃, 貸, 処, 過, 認, 権, 請, 記, 賠, 償, 売 and any character that has
 a visually similar Simplified or Traditional Chinese variant. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
@@ -406,7 +430,9 @@ use the same three-branch signpost shape with a different branch
 highlighted in each, that no panel states or implies a two-thirds requirement (Panel 1's
 requirement is a majority of the share values), that B and C in Panel 2
 are each labeled one third, that Panel 3's claim is directed at 第三者D
-with no registry-office building drawn, that each 着眼点 callout states a
+with no registry-office building drawn, that Panel 5 is drawn as a
+flowchart with two diamond nodes and no loop-back arrow, that each 着眼点
+callout states a
 checking order
 rather than only a conclusion, confirm nothing is rendered below the
 last panel's footnote text (no summary recap panel, no trophy or medal

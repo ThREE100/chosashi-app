@@ -70,6 +70,7 @@
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和7年度第4問「地図の訂正」（本シリーズで既に note-articles/r7-mondai/q04-chizu-teisei.md として執筆済み）が、本問と特に強く重複するテーマであることを確認しました。両問とも「地図に表示された土地の位置・区画に誤りがある場合に、所有権の登記名義人が二人であるときはそのうちの一人から地図訂正の申出をすることができる」という論点、および「登記官が申出なしに職権で地図訂正をすることができるか」という論点を共通して扱っています。令和7年度第4問の記事が既に公開されている場合、本記事とほぼ同じ論点を重ねて発信することになるため、note投稿の際は、両記事を見比べて論点の重複に触れる形にするか、公開の間隔を空けるなどの配慮を検討してください。
 - **最新法令準拠チェック（2026-08-06実施・条文番号を訂正）**：前回のチェックで「不動産登記法14条（地図）、同条5項（登記官の職権訂正）」としていましたが、ローカル法令データベースで条文原文を確認したところ、14条は地図・建物所在図の備付けと記載事項を定めるのみで、訂正に関する規定は置かれていませんでした（同条5項は「地図に準ずる図面」の表示事項の規定です）。地図等の訂正の根拠は**不動産登記規則16条（地図等の訂正）**であり、1項が申出権者（表題部所有者・所有権の登記名義人・その一般承継人）、2項が地積に錯誤がある場合に地積更正の登記の申請と併せてする旨、15項が登記官の職権訂正を定めています。該当箇所を訂正済みです。
+- **適用法令の現行性チェック（2026-10-01実施）**：ローカル法令データベース（`note-articles/laws/fudousan-touki-kisoku-1.md`・`fudousan-touki-hou.md`）で、不動産登記規則16条（1項・2項・5項・15項）と不動産登記法35条の現行の条文原文を再確認しました。本文が引用する条番号・項番号は現行のものと一致しており、出題当時の古い番号は残っていません。令和6年4月施行の相続登記の義務化、令和8年4月施行の住所・氏名変更登記の義務化は、地図訂正の申出の規律とは別の制度で、本問の内容への影響は見当たりませんでした。ただし肢オについては、規則16条5項が、位置の誤りの申出には「誤りがあることを証する情報」（1号）と「土地所在図又は地積測量図」（2号）を併せて提供するよう文言上は求めており、登記所備付けの地積測量図で確認できるときに1号の情報を省略できるという取扱いは、条文からは確認できません（前項の通達に依拠しています）。条文の字面だけでは肢オの判定が揺れる余地があるため、判定は公式正解（オ＝誤）に従って維持しています。
 - **予備校教材との照合（2026-08-06実施）**：資格予備校（アガルート）の解答解説を、正答判定と条文の当たりを確認するための参照資料としてのみ使用しました。同教材の文言をそのまま転記することはせず、本記事の説明文はすべて条文の構造・要件に基づいてオリジナルに再構成しています。肢オ（規則16条5項1号は文言上「誤りがあることを証する情報」の提供を求めており、条文の字面だけでは登記所備付けの地積測量図による代替・省略の根拠を確認できません）については、同教材が挙げていた平成27年2月25日民二第457号（民事局長通達）を手がかりとして記載しました。もっとも、当該通達そのものの全文はローカル法令データベース（先例・通達は収録対象外）でもWeb検索でも確認できなかったため、通達番号は予備校教材の記載を手がかりとした引用にとどまる旨を付記します。ご自身で登記実務書・先例集等により内容を再確認したうえでご活用ください。
 
 ---
@@ -122,9 +123,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 図・訂・権・証 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 図 not 图, 訂 not 订,
-権 not 权, 証 not 证).
+kanji 図・訂・権・積・変・記・認・証 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 図 not 图, 訂 not 订, 権 not 权, 積 not 积, 変 not 变, 記 not 记, 認 not 认, 証 not 证).
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -195,18 +195,20 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 5 ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-地積測量図で確認できれば十分
-Illustration: A registry officer holding up an existing filed document
-labeled 地積測量図 that shows a position error on the map (a land plot
-drawn in a shifted place), with a green checkmark, while a second blank
-証明情報 document sits crossed out with a red X.
+備付けの地積測量図で確認できれば十分
+Illustration: A registry officer holding up an existing document, already
+filed at the registry office, labeled 地積測量図 that shows a position
+error on the map (a land plot drawn in a shifted place), with a green
+checkmark, while a second blank 証明情報 document sits faded with a
+dotted outline and a small tag 不要 (draw no red X on it: a red X would
+wrongly suggest that submitting it is forbidden).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 別途証明不要
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 図・訂・権・証. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 図・訂・権・積・変・記・認・証. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
@@ -323,9 +325,10 @@ highlighted border, since this is the actual rule) labeled 実際の義務の
 to an 地積更正の登記 stamp attached alongside it, for the case where
 地積の登記記録に錯誤がある場合. Right panel (drawn faded and
 greyed-out, since this is the trap in the肢) labeled 肢の記述する向き:
-a 地積変更登記 stamp on a land-plot icon with a chunk broken off, with an
-arrow attempting to point toward a 地図訂正申出 paper, blocked by a red
-✕.
+a 地積変更登記 stamp on a land-plot icon with a chunk broken off, with a
+faded dotted arrow toward a 地図訂正申出 paper carrying a small tag
+義務なし (draw no red ✕ here: the point is that no such obligation
+exists, not that the paper is forbidden).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この肢が求めている義務の向きが「地積変更の登記から地図訂正の申
 出」なのか、それとも「地図訂正の申出から地積更正の登記」なのかを確認し
@@ -372,7 +375,7 @@ characters):
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
-地積測量図で確認できれば証明不要
+備付けの地積測量図で確認できれば証明不要
 Diagram: A decision-tree flowchart. Diamond node: 土地の位置の誤りを、
 登記所に備え付けられている地積測量図によって確認することができるか？
 with はい branch (drawn with a thick highlighted border, since this is
@@ -394,7 +397,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 図・訂・権・証・積. If any character
+Chinese, paying special attention to 図・訂・権・記・認・積・録・錯・誤・変・証・産. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

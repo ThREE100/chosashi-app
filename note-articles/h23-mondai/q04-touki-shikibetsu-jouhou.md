@@ -66,11 +66,11 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第4問＝イオ／4番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 各肢の法的根拠のうち、イ（不動産登記法21条ただし書、不動産登記規則64条1項4号）、エ（不動産登記規則64条1項3号）は条文レベルで確認済みです。ア（名義人ごとに異なる識別情報が通知されること）、ウ（再発行制度がないこと）、オ（不在者財産管理人に対して通知されること）は、登記識別情報制度の一般原則からの整理にとどまります。
+- 各肢の法的根拠のうち、イ（不動産登記法21条ただし書、不動産登記規則64条1項4号）、エ（不動産登記規則64条1項3号）は条文レベルで確認済みです。ア（名義人ごとに異なる識別情報が通知されること）は不動産登記規則61条（不動産及び登記名義人となった申請人ごとに定める）、オ（不在者財産管理人に対して通知されること）は同規則62条1項1号（法定代理人によって申請している場合は当該法定代理人に通知）を、ローカル法令データベースで条文原文により確認しました（不在者財産管理人が同号の「法定代理人」に当たるという当てはめは、一般原則からの整理です）。ウ（再発行制度がないこと）は、規則65条が失効の申出のみを定めていることは確認できましたが、再発行制度が存在しないことを直接定めた条文は確認できておらず、登記識別情報制度の一般原則からの整理にとどまります。
 - **条文番号の再検証（今回実施）**：ローカル法令データベース（`note-articles/laws/fudousan-touki-kisoku-1.md`）で不動産登記規則64条1項の号立てを条文原文で確認したところ、従来の記事では肢イの根拠を「64条1項2号」、肢エの根拠を「64条1項1号」としていましたが、実際には1号は「通知を希望しない旨の申出があった場合」、2号は「電子的方法で30日以内に記録しない場合」、3号は「書面交付方式で3か月以内に受領しない場合」（肢エの正しい根拠）、4号は「通知を受けるべき者が官庁又は公署である場合」（肢イの正しい根拠）でした。号番号を条文原文どおりに訂正しました。結論（イ＝正、エ＝誤で正しい基準は3か月）自体に変更はありません。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成29年度第5問で「登記識別情報の通知」が同じくテーマとして出題されていることを確認しました。平成29年度第5問は合筆の登記に特化した場面設定（通知希望の申出、資格者代理人への特別委任等）であり、本問（共有名義への通知、官庁公署への通知、書面滅失後の再発行、不受領時の取扱い、不在者財産管理人への通知）とは具体的な論点が異なります。平成29年度分は本シリーズでは未執筆です。
-- **最新法令準拠チェック（2026-08-04実施）**：不動産登記法21条（登記識別情報の通知）の現行条文を確認しましたが、官庁・公署への通知に関する規律（21条ただし書、規則64条）に変更はありません。令和8年（2026年）4月1日に施行された所有権登記名義人の氏名・住所変更登記の義務化は、権利部の氏名・住所変更に関する別制度であり、本問が扱う登記識別情報の通知（表題部・権利部共通の本人確認情報）とは別範疇のため、本問の内容への影響はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：2026-08-04の前回チェックに続き、ローカル法令データベース（`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-kisoku-1.md`）で不動産登記法21条と不動産登記規則61条〜65条を条文原文で再確認しました。肢イ（規則64条1項4号：官庁又は公署が登記識別情報の通知を受けるべき者である場合は、あらかじめ通知を希望する旨の申出がない限り通知を要しない）、肢エ（同項3号：書面で通知を受けるべき者が登記完了の時から3月以内に書面を受領しない場合。同項2号の30日は電子情報処理組織による通知で、起算点は通知が送信可能になった時）は、現行の条文どおりで、本文に出題当時の古い条文番号は残っていません。肢ア・ウ・オに関する規定（規則61条・62条1項1号・65条）にも改正による変更は見当たりませんでした。令和8年4月1日施行の所有権登記名義人の氏名・住所変更登記の義務化、令和6年4月の相続登記の義務化は、登記識別情報の通知とは別の制度で、本問の内容への影響はありません。
 
 ---
 
@@ -122,9 +122,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 識・権・発・産 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 識 not 识, 権 not 权,
-発 not 发, 産 not 产).
+kanji 発・記・識・財・産・請 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 発 not 发, 記 not 记, 識 not 识, 財 not 财, 産 not 产, 請 not 请).
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -183,7 +182,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 4 ---
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
-未受領なら3か月で通知不要に
+書面の未受領は3か月で通知不要
 Illustration: A calendar icon counting up from a registration-complete
 stamp, with a red X on "30日" and a green checkmark on "3か月", next to
 an uncollected paper (書面) envelope left waiting at a registry-office
@@ -194,7 +193,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 5 ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-不在者には財産管理人へ通知
+財産管理人が申請すれば管理人へ通知
 Illustration: A silhouette character with a 行方不明 tag standing far
 away, while a family-court building icon appoints a manager character
 who receives the sealed envelope directly, with an arrow from the
@@ -205,7 +204,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 識・権・発・産. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 発・記・識・財・産・請. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
@@ -324,7 +323,7 @@ is本肢の場面): あらかじめ通知を希望する旨の申出があった
 leading to a conclusion node reading 通知される, and いいえ leading to a
 separate conclusion node reading 通知を要しない. The いいえ branch of the
 first diamond node (官公署でない場合) leads to a faded, greyed-out
-conclusion node reading 通常どおり通知される, drawn smaller since it is
+conclusion node reading 原則どおり通知される, drawn smaller since it is
 outside this肢の対象.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、登記識別情報の通知を受けるべき者が官庁又は公署であるかどうかを確
@@ -394,12 +393,12 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法21条ただし書、不動産登記規則64条1項3号・4号に基づく整理で
-す。
+不動産登記法21条ただし書、不動産登記規則61条・62条1項1号・64条1項3号・
+4号に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 識・権・発・産・財. If any character
+Chinese, paying special attention to 図・記・識・認・対・発・続・処・過・財・産・請. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō
