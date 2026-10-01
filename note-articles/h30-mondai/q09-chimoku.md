@@ -369,16 +369,12 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 建物でなくても敷地は宅地と判断する
-Diagram: Draw a decision flowchart. Diamond node 1 labeled「石油タンクは
-建物か」with a single arrow leading to a fact box「いいえ（準則77条2号
-ア）」. From that fact box, draw a second diamond node 2 labeled「では
-敷地の地目をどう判断するか」with two branch arrows. Branch A (left,
-labeled「建物でない→機械的に判断」): leads to a result box「建物でない
-から雑種地」with a red X mark, indicating this is a mistaken shortcut.
-Branch B (right, labeled「個別の列挙を確認」): leads to a result box
-「準則69条10号の列挙により宅地」with a green checkmark. Do not loop
-either branch back to node 1; both branches end at their own dedicated
-result box.
+Diagram: Draw a top-to-bottom check flow with rectangular boxes (no diamonds).
+Box 1:「石油タンクは建物ではない（準則77条2号ア）」. Arrow down to Box 2:
+「準則69条の個別の列挙を確認する」. Arrow down to a result box「準則69条
+10号の列挙により宅地」with a green checkmark. Beside Box 1, draw a small
+separate dashed shortcut arrow labeled「建物でないから雑種地」crossed out
+with a red X mark, to show this is the mistaken shortcut.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、石油タンクが準則77条2号アにいう建物に当たらないという事実を確認
 します。次に、建物でないことから機械的に雑種地と判断してよいかを確認

@@ -308,11 +308,10 @@ continuously through all panels).
 Heading (bold, ONE line):
 承継後も既存の期日はやり直し不要
 Diagram: A decision flowchart. The start node reads "意見聴取等の期日の途
-中で申請人の地位の承継があった". A diamond-shaped branch node reads "承継
-人について、既に意見聴取等の期日を開いたか". The Yes-side arrow leads to a
+中で申請人の地位の承継があった". A rectangular check box (not a
+diamond) reads "承継前に、既に意見聴取等の期日を開いていた". An arrow leads to a
 conclusion node reading "改めて期日を開く必要はない（そのまま手続を続
-行）". No No-side arrow or conclusion node is drawn, since the source
-article does not address that scenario.
+行）".
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、申請人の地位の承継があったかどうかを確認し、次に、承継人について意
 見聴取等の期日を既に開いているかどうかを確認します。既に開いていれば、や
@@ -382,8 +381,8 @@ continuously through all panels).
 Heading (bold, ONE line):
 元名義人や開発業者も参考人になれる
 Diagram: A decision flowchart. The start node reads "事情を知っている人物
-がいる". A diamond-shaped branch node reads "筆界特定登記官が適当と認める
-者か". The Yes-side arrow branches to two figures at once — an elderly
+がいる". A rectangular check box (not a diamond) reads "筆界特定登記官が適当と
+認める者である". An arrow from it branches to two figures at once — an elderly
 figure labeled 対象土地の元登記名義人 and a hard-hat developer figure
 labeled 宅地開発を行った者 — both leading into a shared conclusion node
 reading "参考人として陳述させられる".

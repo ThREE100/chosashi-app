@@ -192,10 +192,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 直系尊属は被代襲者にならない
-Illustration: An isometric family tree showing Ａ at top, Ａの父Ｂ
-(marked deceased with a tombstone icon) below Ａ, and Ｂの母Ｃ（Ａの
-祖母、"直系尊属"のラベル）further below. A red prohibition (no-entry)
-circle blocks the dotted arrow from Ｃ up to Ａ.
+Illustration: An isometric family tree drawn in strict generational
+order with the oldest generation at the top: Ｂの母Ｃ（Ａの祖母、"直系尊属"
+のラベル）at the top, Ａの父Ｂ (marked deceased with a tombstone icon) in
+the middle, and Ａ (被相続人) at the bottom. A red prohibition (no-entry)
+circle blocks the dotted arrow from Ｃ down to Ａ.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 祖母は代襲しない
 

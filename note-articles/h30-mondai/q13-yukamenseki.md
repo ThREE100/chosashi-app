@@ -340,10 +340,9 @@ characters):
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 判断基準は外気分断性で利用上の必要性でない
-Diagram: Draw a decision flowchart. Diamond 1 labeled「その屋外階段は外
-気分断性があるか（屋根・周壁で囲まれているか）」→「いいえ（屋根・壁が
-ない屋外階段）」branch to a dedicated result box「床面積に算入しない」
-with a green checkmark. Beside the tree, draw a separate small box labeled
+Diagram: Draw a check flow with rectangular boxes (no diamond). Box 1:「その屋外
+階段は屋根・周壁で囲まれておらず、外気分断性がない」→ arrow to a result box
+「床面積に算入しない」with a green checkmark. Beside the tree, draw a separate small box labeled
 「利用上の必要性（その階段を使わないと上階に上がれないか）」, rendered in
 a faded, greyed-out, dotted-outline style with a red X mark and a label
 「判断基準にはならない」, to show this factor does not change the

@@ -321,13 +321,12 @@ Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
 更正登記はできるが1月以内の義務はない
-Diagram: Draw a decision flowchart. Diamond 1 labeled「表題部所有者又は
-所有権の登記名義人は更正登記を申請できるか」→「はい（法53条1項）」
-branch to Diamond 2 labeled「知った時から1月以内に申請しなければならな
-い義務があるか」→「いいえ」branch to a dedicated result box「申請できる
-が1月以内の義務ではない」with a green checkmark;「はい」branch to a
-separate dedicated result box「1月以内の申請義務あり（誤り）」with a red
-X mark. Do not loop either branch back to node 1. Beside the tree, draw an
+Diagram: Draw a top-to-bottom check flow with rectangular boxes (no diamonds).
+Box 1:「表題部所有者又は所有権の登記名義人は更正登記を申請できる（法53条
+1項）」. Arrow down to Box 2:「更正登記には申請期限・申請義務の規定がない」.
+Arrow down to a result box「申請できるが1月以内の義務ではない」with a green
+checkmark. Beside Box 2, draw a small separate tag「1月以内の申請義務あり」
+crossed out with a red X mark, to show the mistaken belief. Beside the tree, draw an
 isometric registry ledger showing a 床面積 entry with a correction pencil
 crossing out a wrong number and writing a corrected number, and a clock
 icon with a red X mark over the text「1月以内」.

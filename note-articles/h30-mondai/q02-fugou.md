@@ -341,10 +341,10 @@ Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 立木は登記と明認方法の先後で決まる
 Diagram: A decision-tree flowchart on an isometric land scene. Start
-node: 立木と土地の二重譲渡。First diamond node: Ｂは立木について明認方法
-などの対抗要件を先に備えていたか？ with a いいえ arrow proceeding
-downward to a second diamond node (drawn with a thicker highlighted
-border): Ｃは先に所有権移転登記を備えたか？ with a はい branch leading to
+node: 立木と土地の二重譲渡。First rectangular check box (not a
+diamond): Ｂは立木について明認方法などの対抗要件を備えていない. An arrow
+proceeds downward to a second rectangular check box (drawn with a thicker
+highlighted border): Ｃが先に所有権移転登記を備えた. An arrow leads to
 a red conclusion node reading Ｂは対抗要件がなくＣに立木の所有権を主張で
 きない。Illustration: a tree standing on land with no marking at all
 (representing missing 明認方法), beside it a ledger book stamped with a
@@ -365,10 +365,10 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 主従の区別ができれば主の所有者へ
 Diagram: A decision-tree flowchart combined with an isometric welding
-illustration. First diamond node: 付合した動産どうしは分離が可能か？
-with a いいえ arrow proceeding downward to a second diamond node (drawn
-with a thicker highlighted border): 主従の区別ができるか？ with a はい
-（甲動産が主）branch leading to a conclusion node reading 甲動産の所有者
+illustration. First rectangular check box (not a diamond): 付合した動産どうしは損傷
+しなければ分離できない. An arrow proceeds downward to a second rectangular
+check box (drawn with a thicker highlighted border): 主従の区別ができる
+（甲動産が主）. An arrow leads to a conclusion node reading 甲動産の所有者
 Ａが全体の所有権を取得し、乙動産の所有者Ｂは乙動産の所有権を失う。
 Illustration: a large machine labeled "甲動産(主)" with a small part
 labeled "乙動産(従)" welded onto it, sparks and a solid weld line showing
