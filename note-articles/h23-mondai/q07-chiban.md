@@ -148,9 +148,12 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 隣地の支号限定ではない
-Illustration: A new land plot appearing next to an existing numbered
-plot "5番". An arrow tentatively suggests "5番の1" but a red X marks it
-as not the only option, with a 位置が分かりやすいように label instead.
+Illustration: A new land plot appearing at the edge of a district map.
+A signpost labeled 最終の地番 "99番" stands nearby, and a green arrow
+runs from it to the new plot labeled "100番" (the numbers are examples).
+Separately, a small crossed-out tag "5番の1" with a red X on that tag
+alone shows that attaching a suffix to a neighbor's number is not the
+only method. Do NOT draw any other arrow or label.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 限定されない
 
@@ -158,10 +161,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 地役権を消す側は支号なし可
-Illustration: A land plot with an 地役権 ribbon being cut and removed
-from one half after division, leaving that half with a plain number
-(no suffix) and a checkmark, while the other half keeps a suffixed
-number.
+Illustration: One land plot labeled "8番" (no suffix) divided into two
+halves. A 地役権 ribbon is cut and removed from the left half only; that
+left half keeps the plain label "8番" (no suffix) with a green
+checkmark, while the right half, which still carries the 地役権 ribbon,
+is labeled "8番2" (the numbers are examples).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 支号なしOK
 
@@ -169,10 +173,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 特別事情なら首位以外もOK
-Illustration: Two land plots "3番" and "7番" merging into one, with an
-arrow normally pointing to "3番" as the surviving number, but a
-special-circumstance icon allows "7番" to be kept instead, with a
-checkmark.
+Illustration: Two land plots "3番" and "7番" merging into one plot.
+A gray arrow labeled 原則 points to "3番" as the usual surviving number,
+while a green arrow with a special-circumstance icon labeled 特別の事情
+points to "7番" as an allowed alternative, with a single checkmark on
+the green arrow only.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 首位でなくてよい
 
@@ -180,9 +185,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 地番は位置が分かりやすく
-Illustration: A neighborhood map divided into named districts, each
-filled with sequentially numbered land plots arranged in a clear,
-readable path.
+Illustration: A neighborhood map divided into two named districts
+(labeled 甲町 and 乙町), each filled with sequentially numbered land
+plots arranged in a clear, readable path, and the numbering in each
+district starting again from "1番" independently.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 位置重視
 

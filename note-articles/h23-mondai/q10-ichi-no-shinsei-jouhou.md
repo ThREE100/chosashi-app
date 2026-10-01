@@ -149,9 +149,10 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 区分と合併もまとめて申請可
-Illustration: A building icon being split into a separate unit, then
-immediately merged as an 附属建物 into another building icon, both
-stamps combined into a single envelope with a checkmark.
+Illustration: A building icon labeled 甲建物 being split, its split-off
+part then merged as an 附属建物 into another building icon labeled
+乙建物. Two stamps labeled 区分登記 and 合併登記 are combined into a
+single envelope with a checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一括申請可
 
@@ -169,8 +170,9 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 住所変更と合筆もまとめて申請可
-Illustration: A character's address tag being updated on a land-title
-document, immediately followed by two land plots merging, both stamps
+Illustration: On a land-title document, the 表題部所有者 character's
+address tag being updated, immediately followed by two neighboring
+land plots merging into one. Two stamps labeled 住所変更 and 合筆 are
 combined into a single envelope with a checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一括申請可
@@ -189,10 +191,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 別々の建物はまとめられない
-Illustration: Two separate, unconnected building icons (甲建物・乙建物)
-each with the same owner character standing beside them, but a red X
-blocks an envelope trying to merge their two separate registration
-stamps into one.
+Illustration: Two separate, unconnected building icons labeled 甲建物
+and 乙建物, with one and the same owner character standing between
+them. A stamp labeled 滅失登記 sits at 甲建物 and a stamp labeled
+表題登記 sits at 乙建物; a red X blocks an envelope trying to combine
+these two stamps into one.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 名義人同じでも不可
 

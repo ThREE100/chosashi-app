@@ -152,9 +152,9 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 合意で動くのは所有権界だけ
 Illustration: Two neighbor characters shaking hands over a 合意 icon,
-moving a dashed private boundary line (所有権界) to a new position,
-while a solid public boundary line (筆界) stays locked in place with a
-padlock icon.
+moving a dashed private boundary line labeled 所有権界 from a-b to c-d,
+while a solid public boundary line labeled 筆界 stays at a-b, locked in
+place with a padlock icon (the solid line does NOT move to c-d).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 筆界は不動
 
@@ -163,8 +163,9 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 時効取得でも筆界は動かない
 Illustration: A character occupying a strip of land for many years
-(calendar icon), causing the dashed private line to shift outward,
-while the solid public line remains locked and unchanged.
+(calendar icon), causing the dashed private line labeled 所有権界 to
+shift outward from a-b to c-d, while the solid public line labeled 筆界
+remains locked and unchanged at a-b.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 筆界は不動
 
@@ -173,9 +174,10 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 信じただけでは何も動かない
 Illustration: A seller character pointing confidently at a wrong
-boundary line while a buyer character nods and signs, but both the
-dashed and solid lines remain unchanged with a red X over the mistaken
-belief bubble.
+boundary line c-d (shown only inside a speech bubble marked with a red
+X) while a buyer character nods and signs. On the land itself, the dashed
+所有権界 line and the solid 筆界 line both stay together at the original
+a-b position, unchanged.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 動く根拠なし
 
@@ -184,9 +186,10 @@ Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 官民協議で動くのも所有権界
 Illustration: A landowner character and a government building icon
-shaking hands over an 官民境界確定協議 contract, shifting the dashed
-private line, while the solid public line stays put, creating a
-visible gap between the two lines.
+shaking hands over an 官民境界確定協議 contract (the building labeled
+国), shifting the dashed private line labeled 所有権界 to c-d, while the
+solid public line labeled 筆界 stays at a-b, creating a visible gap
+between the two lines.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 筆界とズレうる
 
@@ -195,8 +198,9 @@ Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 判決後も所有権界は合意可能
 Illustration: A courthouse/gavel icon stamping the solid public
-boundary line firmly in place, while two neighbor characters separately
-shake hands to move the dashed private line to a different position,
+boundary line labeled 筆界 firmly in place at a-b, while two neighbor
+characters separately shake hands to move the dashed private line
+labeled 所有権界 to c-d,
 both coexisting on the same land plots.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 別に合意できる

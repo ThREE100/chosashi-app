@@ -149,10 +149,12 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 賃貸解除は過半数の同意が必要
-Illustration: Three co-owner characters standing around a land-plot icon
-rented to a tenant character via a lease-contract icon. One co-owner
-alone reaches for a "解除" stamp with a red X, while a majority-vote
-icon (2/3) is needed to approve it.
+Illustration: Three co-owner characters (A, B, C, each with an equal
+share) standing around a land-plot icon rented to a tenant character
+(D) via a lease-contract icon. One co-owner (A) alone reaches for a
+"解除" stamp with a red X, while a majority-vote icon showing two of the
+three co-owners raising their hands (過半数) is needed to approve it. Do
+NOT write 2/3 or 3分の2 anywhere in this card.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 管理行為・過半数
 
@@ -160,10 +162,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 単独占有者にも当然の明渡不可
-Illustration: One character occupies an entire land plot alone, while
-two other co-owner characters (labeled 2/3) point at them demanding
-"明渡し", but a shield icon around the occupying character labeled
-"使用権" blocks the demand with a red X.
+Illustration: One co-owner character (A, labeled 1/3) occupies an
+entire land plot alone, while two other co-owner characters (B and C,
+each labeled 1/3, joined by a bracket) point at A demanding "明渡し", but
+a shield icon around A labeled "使用権" blocks the demand with a red X.
+Do NOT label either of the two pointing characters 2/3 individually.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 使用権あり
 
@@ -171,10 +174,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 不実登記の抹消は一人で請求可
-Illustration: A registration-document icon showing one co-owner's
-portion fraudulently transferred to a third party. Another co-owner
-alone (not needing the others) stamps a "抹消請求" seal onto the
-document.
+Illustration: A registration-document icon showing co-owner B's one-third
+portion fraudulently transferred to an outsider (D) via an entry marked
+"不実". Another single co-owner (A) alone (not needing the others)
+stamps a "抹消請求" seal onto that entry of the document.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 保存行為・単独可
 
@@ -182,10 +185,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 損害賠償は自分の持分の分だけ
-Illustration: An outsider character unlawfully occupying a shared land
-plot. One co-owner points a "損害賠償請求" arrow at the outsider, but
-the arrow is scaled down to exactly 1/3 size, with a red X on a
-full-size arrow.
+Illustration: An outsider character (E) unlawfully occupying a shared
+land plot. One co-owner (A, holding a 1/3 share) points a "損害賠償請求"
+arrow at the outsider, but the arrow is scaled down to exactly 1/3 size
+and labeled 1/3, with a red X on a full-size arrow.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 持分割合の範囲
 
@@ -194,8 +197,9 @@ Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 分けられなければ競売で分配
 Illustration: A land plot with a red X over an attempted cut into
-pieces, transitioning to a gavel/auction-hammer icon selling the whole
-plot, with the resulting coin pile split into three equal stacks.
+pieces, transitioning to a court gavel/auction-hammer icon selling the
+whole plot, with the resulting coin pile split into three stacks, one
+for each of the three co-owners (each owning an equal 1/3 share).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 競売で代金分割
 

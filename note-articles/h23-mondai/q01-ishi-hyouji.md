@@ -149,11 +149,13 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 強迫の取消しは誰にでも対抗できる
-Illustration: A character being threatened by a raised-fist icon sells a
-land-plot icon to a second character, who resells it to a third,
-smiling character. An arrow loops back from the first character through
-a red "取消" stamp reaching all the way to the third character, with no
-shield icon blocking it anywhere along the chain.
+Illustration: A first character (A) cowers while a second character (B)
+raises a fist icon at them (B is the one threatening), and A hands a
+land-plot icon to B. B then resells the land-plot icon to a third,
+smiling character (C) who carries a small halo icon (善意). An arrow
+loops back from A through a red "取消" stamp reaching all the way to C,
+with no shield icon blocking it anywhere along the chain. Do NOT draw any
+fourth character.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 第三者保護規定なし
 
@@ -161,11 +163,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 善意者を経由すれば悪意者も守られる
-Illustration: A land-plot icon passing through a chain of three
-isometric characters connected by arrows. A curtain icon hangs behind
-the first two characters. The middle character has a bright halo icon
-(善意), and a green shield icon extends from that character all the way
-to the last character, who has a dark speech bubble (知ってた).
+Illustration: A land-plot icon passing through a chain of FOUR
+isometric characters A, B, C, D connected by arrows in that order. A
+curtain icon hangs behind the first two characters (A and B). The third
+character (C) has a bright halo icon (善意), and a green shield icon
+extends from C across to the fourth character (D), who has a dark speech
+bubble (知ってた). D's good or bad faith is not a branching condition:
+do NOT draw any diamond decision node, Yes/No arrows, or ○/✕ mark for D.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 善意者経由で保護
 
@@ -174,8 +178,9 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 錯誤取消しは本人しか使えない
 Illustration: Two characters facing each other over a contract; the left
-character has a large confused question-mark icon above their head and
-holds a "取消" stamp, while the right character reaches for the same
+character (表意者, the one who made the mistake) has a large confused
+question-mark icon above their head and holds a "取消" stamp, while the
+right character (相手方, the contract counterparty) reaches for the same
 stamp but is blocked by a padlock icon.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 表意者本人限定
@@ -184,8 +189,9 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 善意無過失の相手には取消し不可
-Illustration: A masked figure whispers into a character's ear while that
-character signs a contract with a third character, who holds up a
+Illustration: A masked figure (a bystander, NOT a party to the contract)
+whispers into a character's ear while that character signs a contract
+with a different character (the contract counterparty), who holds up a
 shield icon labeled 善意無過失. A red "取消" stamp bounces off the shield
 with a red X mark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
@@ -197,9 +203,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 代理人の下心は本人が拒否できる
 Illustration: An agent character holding a briefcase secretly slips a
 coin into their own pocket while signing a contract with a second
-character, who has a raised-eyebrow icon above their head. Behind them,
-a third character (the principal) holds up a stamp pointed at the
-contract with a red X on it.
+character (the buyer C), who has a raised-eyebrow icon above their head
+(C could have noticed the agent's motive). Behind them, a third
+character (the principal A) holds up a stamp pointed at the contract
+with a red X on it.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 本人が効果を否定
 

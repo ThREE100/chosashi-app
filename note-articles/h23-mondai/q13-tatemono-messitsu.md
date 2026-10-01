@@ -149,9 +149,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 材料流用の建替えも滅失登記必要
-Illustration: An old building being demolished into a pile of reusable
-lumber icons, then reassembled into a new building on the same spot,
-with a 滅失登記 stamp still applied to the original building's record.
+Illustration: An old building being completely demolished (nothing of
+it left standing) into a pile of reusable lumber icons, then
+reassembled into a new building on the same spot, with a 滅失登記 stamp
+applied to the ORIGINAL (demolished) building's record, not to the new
+building.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 滅失登記が必要
 
@@ -160,8 +162,9 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 滅失登記に他の権利者の承諾不要
 Illustration: A building icon with an 抵当権 ribbon collapsing into
-rubble, with a red X crossing out a document icon that the
-mortgage-holder character was expected to sign.
+rubble, with a mortgage-holder character standing nearby and a document
+icon labeled 承諾書 crossed out with a red X (not needed). The red X
+appears only on the 承諾書 document.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 承諾書不要
 
@@ -188,10 +191,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 5 ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-主要構造部が残れば滅失ではない
+主要構造部が残り使えれば滅失でない
 Illustration: A concrete building with fire and smoke damage only on
-the interior walls, but its main structural frame (柱・梁) intact and
-glowing green with a checkmark.
+part of the interior, but its main structural frame (柱・梁) intact
+and glowing green with a checkmark, and a small 使用可 tag showing the
+building can still be used for its purpose.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 まだ滅失ではない
 

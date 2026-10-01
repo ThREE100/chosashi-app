@@ -161,10 +161,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 官公署は希望なければ通知不要
-Illustration: A government-building icon standing next to a
-registry-office building, with a sealed envelope hovering between them
-crossed out by a red X, unless a checkbox icon labeled 希望の申出 is
-ticked.
+Illustration: A government-building icon (the registered owner) beside a
+registry-office building, shown in two small states side by side. Left
+state: an empty (unticked) checkbox icon labeled 希望の申出, and the
+sealed envelope between the buildings crossed out by a red X. Right
+state: the same checkbox ticked, and the envelope delivered to the
+government building with a green checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 希望制
 
@@ -184,7 +186,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 未受領なら3か月で通知不要に
 Illustration: A calendar icon counting up from a registration-complete
 stamp, with a red X on "30日" and a green checkmark on "3か月", next to
-an uncollected envelope sitting in a registry-office mailbox.
+an uncollected paper (書面) envelope left waiting at a registry-office
+counter.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 3か月がボーダー
 

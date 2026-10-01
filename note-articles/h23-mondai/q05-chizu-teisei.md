@@ -162,8 +162,10 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 地積変更に訂正申出の義務なし
 Illustration: A land plot with a chunk broken off, connected by an
-arrow to a 地積変更登記 stamp, but a separate 地図訂正申出 paper sits to
-the side with a red X, drawn as a disconnected, independent track.
+arrow to a 地積変更登記 stamp. A separate 地図訂正申出 paper sits to the
+side on its own independent track, drawn greyed out with a dashed
+outline and a small tag 義務なし, connected to nothing. Do NOT draw a red
+X on the paper (a red X would wrongly suggest it is forbidden).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 義務ではない
 
@@ -172,9 +174,10 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 合意だけで地番は動かせない
 Illustration: Two neighbor characters shaking hands over a 合意 icon,
-pointing at two land plots labeled 1番 and 2番 trying to swap number
-tags, but a large red X blocks the swap because a registry-officer
-stamp is required.
+pointing at two land plots labeled 1番 and 2番 as if trying to swap the
+number tags, but a large red X blocks the swap. A small registry-officer
+icon stands beside the plots as the one who assigns the numbers (it is
+not a stamp to be obtained by the neighbors).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 登記官の権限
 
@@ -184,7 +187,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 登記官は職権でも訂正できる
 Illustration: A registry officer character noticing a crooked line on
 the map with a magnifying glass, then stamping a 職権訂正 seal directly
-onto the map without any incoming 申出 paper.
+onto the map. No 申出 paper and no applicant character appear anywhere
+in this card.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 職権訂正可
 
@@ -193,8 +197,9 @@ Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 地積測量図で確認できれば十分
 Illustration: A registry officer holding up an existing filed document
-that already shows the correct boundary, with a green checkmark, while
-a second blank 証明情報 document sits crossed out with a red X.
+labeled 地積測量図 that shows a position error on the map (a land plot
+drawn in a shifted place), with a green checkmark, while a second blank
+証明情報 document sits crossed out with a red X.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 別途証明不要
 

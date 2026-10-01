@@ -152,9 +152,10 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 連帯保証人は援用できる
-Illustration: A guarantor character standing behind a debtor character,
-both connected to a torn-up loan-contract icon with a "時効" stamp on
-it. A green checkmark appears above the guarantor's raised hand.
+Illustration: A guarantor character (連帯保証人) standing behind a debtor
+character (主債務者), both connected to a torn-up sales-contract icon
+(売買代金, NOT a loan) with a "時効" stamp on it. A green checkmark appears
+above the guarantor's raised hand, which holds a "援用" stamp.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 直接利益あり
 
@@ -162,10 +163,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 相続人は自分の持分だけ援用可
-Illustration: A land plot divided into three equal wedge slices, each
-with a small heir character standing only on their own slice, planting
-a small flag, with a red X over one heir reaching across into another
-slice.
+Illustration: A land plot divided into wedge slices labeled 相続分, with
+each small heir character standing only on their own slice, planting a
+small flag, and a red X over one heir reaching across into another
+slice. Do NOT write any fraction or number on the slices.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 持分の範囲内
 
@@ -177,8 +178,10 @@ Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 後順位抵当権者は援用できない
 Illustration: Two stacked mortgage-stamp icons on one land plot, labeled
-1番抵当権 and 2番抵当権. The 1番抵当権 stamp fades away, and the
-2番抵当権 holder reaches up hopefully but is blocked by a padlock icon.
+1番抵当権 and 2番抵当権. A small clock icon labeled 時効完成 sits next to
+the 1番抵当権 stamp (its secured debt has expired). The 2番抵当権 holder
+reaches up hopefully toward a "援用" stamp but is blocked by a padlock
+icon over that stamp.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 反射的利益のみ
 
@@ -198,8 +201,10 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 承認後は時効を主張できない
 Illustration: A character signing a "承認します" paper next to a clock
-icon that has already struck "時効完成", with a padlock icon over a
-"援用" stamp the character tries to reach afterward.
+icon that has already struck "時効完成" (the clock is shown first, the
+signing second), with a small question-mark icon above the character's
+head (unaware that the time limit had already passed), and a padlock
+icon over a "援用" stamp the character tries to reach afterward.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 信義則で不可
 

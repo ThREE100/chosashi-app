@@ -150,10 +150,10 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 建物分割は床面積不変でも図面必要
-Illustration: A building icon splitting into two separate registered
-buildings with identical total floor area before and after, but each
-new building still requires its own fresh各階平面図 document with a
-checkmark.
+Illustration: A building icon (甲建物) with a part splitting off as a
+newly registered separate building (乙建物), the floor area of the split
+part unchanged before and after, with a 各階平面図 document attached to
+the newly split-off building and a checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 各階平面図は必要
 
@@ -161,9 +161,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 規約敷地追加だけなら図面不要
-Illustration: A condominium building icon gaining an additional
-regulation-designated plot of land nearby, with a red X crossing out a
-blueprint document.
+Illustration: A condominium building icon whose position and shape stay
+exactly the same, with one extra neighboring plot of land newly added as
+its 規約敷地, and a blueprint document labeled 建物図面 crossed out with
+a red X (not needed).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 建物図面は不要
 
@@ -172,9 +173,10 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 増築時は変更箇所の図面で足りる
 Illustration: A condominium unit being extended with a small
-highlighted room addition, while the surrounding full-building
-blueprint sits crossed out with a red X, and only the changed portion
-has a checkmark.
+highlighted room addition; a drawing of only the changed portion of that
+unit has a checkmark, while a drawing of the whole building (一棟全体)
+sits beside it crossed out with a red X. The red X appears only on the
+whole-building drawing.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一棟全体は不要
 
@@ -182,9 +184,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 仮換地は実線、将来地番は括弧書き
-Illustration: A building on a temporary land-readjustment plot drawn
-with a solid outline, with a small parenthetical tag showing its
-future permanent number floating beside the plot.
+Illustration: A building on a temporary land-readjustment plot (仮換地)
+whose outline is drawn as a solid line, with a small tag reading
+（予定地番） floating beside the plot to show the planned lot number
+written in parentheses. Do NOT write any specific lot numbers.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 実線＋括弧書き
 
@@ -192,9 +195,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 使われなくなった図面は30年保存
-Illustration: A building icon being pulled by a rope to a new land
-plot, leaving behind its old blueprint document in a filing-cabinet
-drawer labeled 30年保存 instead of a permanent stamp.
+Illustration: A building icon being pulled by a rope from one land plot
+to another, leaving behind its old (now unused) blueprint document in a
+filing-cabinet drawer labeled 30年保存. Do NOT draw any 永久 stamp or
+label.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 保存期間30年
 

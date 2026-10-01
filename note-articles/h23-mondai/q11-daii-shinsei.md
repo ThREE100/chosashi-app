@@ -153,10 +153,12 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 抵当権者は代位して分筆できる
-Illustration: A mortgage-holder character holding a magnifying glass
+Illustration: A mortgage-holder character (the 抵当権者, a third party
+distinct from the land's two owner characters) holding a magnifying glass
 over a land plot with an 抵当権 ribbon on part of it, stamping a
 代位分筆申請 seal to clearly separate the mortgaged portion, with a
-checkmark.
+checkmark. Show the two owner characters (seller and buyer of that part)
+standing beside the plot as passive bystanders, not stamping anything.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 分筆を代位可
 
@@ -175,8 +177,11 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 共有者の一人が代位して分筆可
 Illustration: Three heir characters around a court-mediation document
-dividing a land plot into three pieces, with one character alone
-stamping a 代位分筆申請 seal on behalf of the other two.
+dividing one land plot into three pieces: two of the pieces belong to the
+first heir, and the remaining one piece belongs jointly to the second and
+third heirs. The first heir alone stamps a 代位分筆申請 seal on behalf of
+the second and third heirs (the other two do not stamp). Do NOT label the
+characters with any share fractions.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 分筆を代位可
 
@@ -188,8 +193,10 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 買主は売主に合筆を強制できない
 Illustration: A buyer character holding a sales contract pointing at
-two land plots wanting them merged, but a red X blocks the buyer from
-acting in the seller's place.
+two adjoining land plots wanting them merged, with a separate seller
+character standing at the plots; a red X blocks the buyer from stamping
+a 合筆申請 seal in the seller's place. Draw the red X only on the buyer's
+stamping action, with no checkmark anywhere in this card.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 合筆は強制不可
 
@@ -198,8 +205,10 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 地役権者は承役地の分筆を代位不可
 Illustration: A character with an 地役権 ribbon standing on part of a
-neighboring land plot, reaching toward a 代位分筆申請 stamp, but a red
-X blocks them.
+neighboring land plot that belongs to a separate owner character (the
+plot's owner stands beside it), the ribbon character reaching toward a
+代位分筆申請 stamp, but a red X blocks them. No checkmark anywhere in
+this card.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 分筆は代位不可
 

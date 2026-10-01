@@ -151,7 +151,7 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 登記原因・日付の誤りも更正可
 Illustration: A registration document with the 登記原因及び日付 field
-circled in red, and the表題部所有者 character stamping a 更正申請 seal
+circled in red, and the 表題部所有者 character stamping a 更正申請 seal
 directly onto it with a checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 更正できる
@@ -160,9 +160,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 持分更正にAの持分証明は不要
-Illustration: A pie-chart icon showing shared ownership shifting from
-1/2・1/2 to 2/3・1/3, with a co-owner's 承諾書 attached but a red X
-crossing out a separate persons's own-share certificate.
+Illustration: Two co-owner characters, A and B, each with a pie-chart
+icon: A's share shifting from 2分の1 to 3分の2 (increase), B's share
+shifting from 2分の1 to 3分の1 (decrease). A is the applicant; a 承諾書
+signed by B (the co-owner whose share decreases) is attached to the
+application with a checkmark, while a separate 持分証明 document belonging
+to A is crossed out with a red X. The red X appears only on A's 持分証明
+document.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 証明不要
 
@@ -170,9 +174,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 判決があれば実体上の所有者が更正
-Illustration: A courthouse/gavel icon stamping a document, handed to an
-actual-owner character who was not previously listed, allowing them to
-stamp a 更正申請 directly with a checkmark.
+Illustration: A courthouse/gavel icon stamping a 判決 document, handed to
+an actual-owner character B who is not the one listed on the 表題部 (the
+listed owner character A is shown on the document), allowing B to stamp
+a 更正申請 directly with a checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 判決で更正可
 
@@ -180,9 +185,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 公的証明がなければ代わりの情報で
-Illustration: A city-hall building icon with a red X crossing out an
-official certificate, replaced by an alternative document icon with a
-checkmark accepted at the registry window.
+Illustration: A city-hall building icon with an empty dotted-outline
+slot where an official certificate would be (the certificate is
+unobtainable, drawn as an empty slot, not as a document marked wrong),
+and an alternative document icon with a checkmark accepted at the
+registry window. The 表題部所有者の氏名 field on the title document is
+shown as the item being corrected. Draw the red X only on the empty
+slot, nowhere else.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 代替情報でOK
 
@@ -190,9 +199,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 新たな名義人は住所証明が必要
-Illustration: A character newly added to a title document holding up
-an 住所証明情報 card at the registry window, with a checkmark
-confirming the requirement.
+Illustration: A title document that originally lists only owner
+character A, with a new co-owner character B being added to it; B (the
+newly added person) holds up an 住所証明情報 card at the registry window,
+with a checkmark confirming the requirement. A does not hold the card.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 住所証明が必要
 

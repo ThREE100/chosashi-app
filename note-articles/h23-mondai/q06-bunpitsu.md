@@ -153,7 +153,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 3分の2以上で分筆できる規定なし
 Illustration: A condominium building icon with several resident
 characters, a fraction icon 2/3 floating above with a red X stamp over
-it, next to a padlock icon on the land plot below.
+it, next to a padlock icon on the land plot below (the padlock is a plain
+symbol with no text; do NOT add any other fraction, vote count, or
+majority label).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 そんな規定はない
 
@@ -184,9 +186,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 誤差の範囲内なら地積更正不要
-Illustration: A measuring-tape icon comparing two numbers, 100㎡ and
-99.8㎡, on a land plot, with a small green tolerance-zone bracket and a
-checkmark, next to a crossed-out 地積更正登記 stamp.
+Illustration: A measuring-tape icon comparing two numbers on a land plot:
+a label 分筆前 100㎡ and a label 分筆後の合計 99.8㎡, joined by a small
+green tolerance-zone bracket (no checkmark on the bracket), next to a
+crossed-out 地積更正登記 stamp (the red X belongs only to the stamp).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 更正不要
 
@@ -194,9 +197,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 表題部所有者でなければ申請不可
-Illustration: A registered-title character holding a 承諾書 paper
-handing it to an unregistered actual-owner character, who tries to
-submit a 分筆申請 but is blocked by a red X at the registry window.
+Illustration: A character labeled 表題部所有者 holding a 承諾書 paper
+handing it to a different character labeled 実体上の所有者 (this second
+character is NOT the 表題部所有者), who tries to submit a 分筆申請 at
+the registry window but is blocked by a red X on the 分筆申請 paper
+(the 承諾書 carries no mark).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 承諾書だけでは不可
 

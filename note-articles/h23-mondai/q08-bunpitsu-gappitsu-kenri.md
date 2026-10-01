@@ -158,10 +158,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 抵当権解消は第三者の承諾も必要
-Illustration: A land plot splitting into two, with an 抵当権 ribbon on
-one side being crossed out. A second, smaller 転抵当権 ribbon attached
-to the first requires its own separate character to stamp a 承諾書
-before the first can be removed.
+Illustration: A land plot splitting into 甲土地 and 乙土地, with an
+抵当権 ribbon on the 乙土地 side being crossed out. Two separate
+characters each hold a 承諾書: one labeled 抵当権者, and one labeled
+転抵当権者 who owns a second, smaller 転抵当権 ribbon attached to the
+first ribbon. Both 承諾書 are needed before the ribbon can be removed.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 第三者の承諾も必要
 
@@ -170,8 +171,9 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 範囲一部の地役権は図面で明示
 Illustration: A land plot being divided, with an 地役権 ribbon covering
-only part of the resulting parcel. A small map icon and a certificate
-icon are attached showing the exact shaded range.
+only part of the resulting parcel. A small map icon labeled 地役権図面
+(showing the exact shaded range) and a certificate icon labeled
+地役権証明書 are attached to the application paper.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 図面で範囲明示
 
@@ -192,9 +194,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 永小作権・採石権は合筆不可
-Illustration: Two land plots with identical registration conditions,
-each with an 永小作権 or 採石権 ribbon, trying to merge but blocked by
-a red X regardless of the matching conditions.
+Illustration: Two neighboring land plots, each carrying the same
+永小作権 ribbon, with an equals sign and a small label 条件同一 between
+them (a smaller 採石権 ribbon icon appears beside the 永小作権 ribbon as
+an equally blocked example). An arrow tries to merge them into one plot
+but is blocked by a single red X on the merge arrow.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 条件同一でも不可
 
@@ -202,9 +206,10 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 仮登記がある土地も合筆不可
-Illustration: Two land plots with identical registration conditions,
-one with a dashed-outline 仮登記 stamp, trying to merge but blocked by
-a red X.
+Illustration: Two neighboring land plots, each carrying the same
+dashed-outline 所有権移転仮登記 stamp, with an equals sign and a small
+label 条件同一 between them. An arrow tries to merge them into one plot
+but is blocked by a single red X on the merge arrow.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 仮登記も不可
 
@@ -305,8 +310,11 @@ Heading (bold):
 新たな利害関係人がいれば、その承諾が要る
 Illustration: An isometric scene where a new third-person figure labeled
 "新たな担保権者" has appeared on 乙土地 after the mortgage was erased,
-standing in front of the 回復 stamp from Card 2 with a red stop-sign
-icon, which only turns green once the figure adds a 承諾 stamp.
+standing in front of the 回復 stamp from Card 2. Draw two small icons
+side by side: a red stop-sign icon labeled 承諾なし, an arrow, and a
+green go-sign icon with the figure's 承諾 stamp labeled 承諾あり (the
+red stop sign means the 回復 cannot proceed; do not put a green mark on
+the red sign).
 Caption (small text below):
 抵当権が消えた後に乙土地へ新たに利害関係を持った
 第三者がいれば、その承諾がない限り回復の登記は

@@ -159,10 +159,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 管轄は主建物基準、附属は無関係
-Illustration: A small main house icon sitting in one registry office's
-territory, connected to a much larger warehouse icon (附属建物) that
-crosses into another registry office's territory, with an arrow
-confirming the main house's office is correct regardless of size.
+Illustration: Two adjoining territories labeled 甲登記所 and 乙登記所.
+A small main house icon sits entirely inside the 甲登記所 territory,
+connected to a much larger warehouse icon (附属建物) that extends across
+the border into the 乙登記所 territory; an arrow points from the main
+house to the 甲登記所 office icon (and only there) to show that 甲 stays
+the competent office regardless of the warehouse's size.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 主建物が基準
 
@@ -170,9 +172,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 管轄指定を待たず表題登記できる
-Illustration: A large factory building straddling the dotted line
-between two registry offices, with a character submitting a 表題登記申請
-paper immediately, not waiting for a pending-指定 stamp.
+Illustration: A large factory building straddling the dotted border
+line between two registry office territories, with a character
+submitting a 表題登記申請 paper at one of the two office windows
+immediately, while an unstamped 指定 slip sits waiting off to the side
+(the character does not wait for it).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 指定を待たず申請可
 
@@ -180,9 +184,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 主建物が移れば管轄も移る
-Illustration: A main house icon being pulled by a rope from one
-registry office's territory into another's, while a larger attached
-shed stays behind, with an arrow confirming管轄 follows the main house.
+Illustration: A main house icon being pulled by a rope from the 甲登記所
+territory entirely into the 乙登記所 territory, while a larger attached
+shed (附属建物) stays behind in the 甲登記所 territory; an arrow points
+from the main house to the 乙登記所 office icon to show that the
+competent office follows the main house to 乙.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 主建物に追従
 
@@ -190,9 +196,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 所在変更登記は移った先の登記所へ
-Illustration: A whole building icon being pulled by a rope to a new
-land plot, with a 所在変更登記 stamp being applied at the destination
-registry-office window, not the origin.
+Illustration: A whole building icon being pulled by a rope from the
+甲登記所 territory to a new land plot in the 乙登記所 territory, with a
+所在変更登記 stamp being applied at the 乙登記所 (destination) window,
+highlighted in full color; the 甲登記所 (origin) window is drawn faded
+and receives nothing.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 移転先の登記所へ
 
