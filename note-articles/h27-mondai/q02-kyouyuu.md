@@ -251,14 +251,14 @@ every 肢 turns on classifying the disputed act as 保存行為（各自が単�
 できる）・管理行為（持分の過半数で決める）・変更行為（全員の同意が必要）
 のいずれかに当たるかを見分けること — draw every panel's checking order
 around that classification. Panels 1 and 3 (肢ア・肢ウ) share the same
-underlying decision-tree shape (共有物への侵害に対して単独で請求できる
+underlying check-flow shape (共有物への侵害に対して単独で請求できる
 としても、その範囲は自己の持分に限られるという判定); draw both with the
-same single-diamond tree layout, but highlight（太い縁取り・色を変える等
-で強調）the branch relevant to that panel's 肢. Where a 肢 requires
+same layout of rectangular check boxes (no diamonds). Where a 肢 requires
 checking multiple conditions in sequence (肢ア・肢イ・肢ウ), draw the
-panel's diagram as an actual decision flowchart with diamond-shaped
-branch nodes, Yes/No（はい／いいえ）branch arrows, and a final conclusion
-node. Where a 肢 is resolved by a single classification check (肢エ・肢
+panel's diagram as a top-to-bottom flow of rectangular check boxes
+connected by single straight arrows, ending in a final conclusion node —
+do not use diamond-shaped nodes, because every answer is fixed by the
+facts of the 肢. Where a 肢 is resolved by a single classification check (肢エ・肢
 オ), a labeled illustrative diagram naming the act's category（変更行為／
 管理行為）is sufficient — do not force a full flowchart. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」
@@ -306,12 +306,12 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抹消請求は自分の持分の範囲だけ
-Diagram: A decision-tree flowchart. Start node: 共有者の1人Ａが、Ｂ・Ｃに
-無断で自己の単独名義への所有権移転登記をした（共有者3人、持分各3分の1）。
-Diamond node (drawn with a thicker highlighted border, since this is the
-branch this panel is about): 他の共有者が抹消登記を請求できる範囲は、
-不実登記全体か、それとも自己の持分に対応する部分だけか？with the 自己の
-持分のみ branch highlighted, leading to a conclusion node showing Bが自分
+Diagram: A check flow of rectangular boxes (no diamonds), top to bottom.
+Start node: 共有者の1人Ａが、Ｂ・Ｃに無断で自己の単独名義への所有権移転登記
+をした（共有者3人、持分各3分の1）。A single arrow leads to a check box
+(thick highlighted border): 他の共有者が請求できる抹消の範囲＝自己の持分に
+対応する部分だけ（不実登記全体ではない）. A single arrow leads to a
+conclusion node showing Bが自分
 の一等分の境界線だけを指し示し green checkmark で抹消登記手続請求 の
 文書を持つ一方、Ｃの持分についてはＣ自身が請求すべき部分として dashed
 boundary line で示される。
@@ -327,12 +327,13 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 過半数持分でも当然の全部明渡しは不可
-Diagram: A decision-tree flowchart. Start node: 共有者の1人Ｂ（持分3分の
+Diagram: A check flow of rectangular boxes (no diamonds). Start node: 共有者の1人Ｂ（持分3分の
 1）の承諾を得て、第三者Ｃが土地を占有している（Ａの持分は3分の2）。
-Diamond node (highlighted): Ｃの占有には共有者の一部からの承諾という
-占有権原があるか？with a はい arrow leading to a second diamond node
-(highlighted): 過半数の持分をもつＡは、その一事だけで当然に全部の明渡し
-を請求できるか？with a いいえ arrow leading to a conclusion node showing
+Check box 1 (rectangle, NOT a diamond, highlighted): Ｃの占有には共有者の
+一部（Ｂ）からの承諾という占有権原がある. A single arrow leads to check
+box 2 (rectangle, highlighted): 過半数の持分をもつＡでも、その一事だけで
+当然に全部の明渡しは請求できない. A single arrow leads to a conclusion
+node showing
 majority owner Ａ pointing with a demand bubble 全部明渡し that has a red
 Ｘ mark over it, while Ｃ stays calmly in place.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -347,12 +348,11 @@ characters):
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 損害賠償も自分の持分の分だけ
-Diagram: The same decision-tree flowchart shape as Panel 1. Start node:
-共有者Ａ・Ｂ（持分各2分の1）の土地がＣに不法に占有された。Diamond node
-(drawn with a thicker highlighted border, distinct from Panel 1's
-highlighted branch): Ａが請求できる損害賠償の範囲は損害全部か、それとも
-自己の持分に応じた部分だけか？with the 自己の持分のみ branch highlighted,
-leading to a conclusion node showing unlawful occupier Ｃ handing over a
+Diagram: The same check-flow shape as Panel 1 (rectangular boxes, no
+diamonds). Start node: 共有者Ａ・Ｂ（持分各2分の1）の土地がＣに不法に占有
+された。A single arrow leads to a check box (thick highlighted border):
+Ａが請求できる損害賠償の範囲＝自己の持分に応じた部分だけ（損害全部では
+ない）. A single arrow leads to a conclusion node showing unlawful occupier Ｃ handing over a
 stack of coins labeled 損害賠償 that is split into two equal piles
 labeled Ａ分 and Ｂ分。Ａ takes only the Ａ分 pile with a green checkmark;
 the Ｂ分 pile has a red X mark and a small arrow pointing toward Ｂ.

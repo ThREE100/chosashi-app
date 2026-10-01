@@ -30,7 +30,7 @@
 
 実際に、登記記録の表題部「原因及びその日付」欄には、分筆をした場合であっても実際の年月日は記録されず、「何番何、何番何に分筆」「何番から分筆」のように、分割の相手方の地番を示す記載がされるだけです（不動産登記事務取扱手続準則74条）。これに対し、地目・地積の変更や更正の登記では、「令和何年何月何日地目変更」のように実際の年月日を伴う記載がされます（同準則73条）。この記録方法の違いからも、分筆には記録すべき年月日そのものが存在しないことが裏付けられます。
 
-**たとえば**、一筆の土地を測り直して地積を正しい面積に変更しつつ、その土地を2つに分ける登記を同時にする場合、「地積を変更した原因（例：錯誤）とその日付」は書きますが、「土地を分けた原因の日付」は存在しないので書きようがなく、記載しません。
+**たとえば**、海に面した土地の一部が崖崩れで海に沈み、実際に面積が減った（地積の変更）うえで、その土地を2つに分ける登記を同時にする場合、「地積が変わった原因とその日付（例：令和○年○月○日一部海没）」は書きますが、「土地を分けた原因の日付」は存在しないので書きようがなく、記載しません。
 
 ### ウ：登記申請の代理権は本人の死亡では消滅しないので、相続人からの再委任は不要
 
@@ -169,7 +169,7 @@ Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 分筆に登記原因・日付は書かない
 Illustration: 一筆の土地アイコンが点線で2つに区切られ分筆される様子。隣に置かれた
-「地積変更登記」の申請書には「登記原因：錯誤／日付：令和◯年」の記入欄が緑の
+「地積変更登記」の申請書には「登記原因：一部海没／日付：令和◯年◯月◯日」の記入欄が緑の
 チェック付きで埋まっている。分筆側の申請書にある同じ記入欄には赤い✕マークが
 付き「原因なし」のラベルが添えられる。
 Conclusion tag (a short colored banner/pill directly below the illustration,
@@ -454,7 +454,7 @@ Heading (bold, ONE line):
 地積変更にのみ登記原因と日付を記載
 Diagram: A decision flowchart with a root diamond node reading「その登記
 は事実に基づくか、形成的登記か」. One branch,「地積変更（事実に基づく）」,
-leads to a box「登記原因：錯誤／日付：令和◯年」filled in with a green
+leads to a box「登記原因：一部海没／日付：令和◯年◯月◯日」filled in with a green
 checkmark. The other branch,「分筆（人為的に区切るだけの形成的登記）」,
 leads to a box showing the registry's actual recording format「何番何に
 分筆」with no calendar date anywhere in it, crossed out by a small red ✕
@@ -481,8 +481,8 @@ Diagram: A decision flowchart with a root diamond node reading「代理権の
 and dotted-outline, leading to a small greyed-out box「本人の死亡で消滅す
 る」shown only for comparison. The other branch,「登記申請の代理権（不動
 産登記法17条の特則）」, is rendered with a thick highlighted border, and
-leads to a second diamond node「本人が死亡したら？」whose「消滅しない（特
-則）」outcome is marked with a green checkmark and connects to a final
+leads to a rectangular check box (NOT a diamond)「本人が死亡しても代理権は
+消滅しない（特則）」marked with a green checkmark, which connects to a final
 conclusion box「代理人は最初の委任状のまま申請できる」. Beside it, a
 crossed-out box lists「相続を証する情報」「相続人からの委任状」both with
 red X marks. Show a surveyor figure（土地家屋調査士）holding the original

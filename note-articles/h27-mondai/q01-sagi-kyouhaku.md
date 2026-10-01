@@ -166,7 +166,7 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 詐欺と錯誤はどちらも選べる
 Illustration: A person stands at a fork holding two signposts, one
-labeled "詐欺取消し" and the other labeled "錯誤の主張", both marked with
+labeled "詐欺取消し" and the other labeled "錯誤取消し", both marked with
 green checkmarks. An arrow shows the person freely choosing either path.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 選択的に主張可
@@ -178,10 +178,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric land plot. Person A stamps a document labeled
 "取消し" with a green checkmark toward B. Meanwhile, a separate arrow
 points from A toward C, who holds a mortgage-stamp icon on the same land
-plot and a shield labeled "善意" blocking the arrow, with a small red
+plot and a shield labeled "善意無過失" blocking the arrow, with a small red
 label "対抗不可" beside the shield.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-善意の第三者に対抗不可
+善意無過失の第三者に対抗不可
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 強迫のルール
@@ -248,7 +248,7 @@ conditions to get there — a disguised figure whispering into an ear for
 だました側 icons, a signpost with two paths for the 詐欺/錯誤 choice, and a
 land plot with a registry board for the 取消しの対抗力 panels. Panels 4 and
 5 (肢エ・肢オ) share the same underlying decision-tree shape (取消しの理由
-が詐欺か強迫かを見分け、詐欺の場合はさらに第三者の善意・悪意を確認する
+が詐欺か強迫かを見分け、詐欺の場合はさらに第三者の善意無過失を確認する
 判定); draw both with the same two-diamond tree layout, but highlight
 （太い縁取り・色を変える等で強調）the branch relevant to that panel's 肢.
 Where a 肢 requires checking multiple conditions in sequence (肢エ・肢オ),
@@ -319,7 +319,7 @@ Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 詐欺と錯誤はどちらも選べる
 Diagram: A person stands at a fork holding two signposts, one labeled
-詐欺取消し and the other labeled 錯誤の主張, both marked with green
+詐欺取消し and the other labeled 錯誤取消し, both marked with green
 checkmarks. An arrow shows the person freely choosing either path.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、だまされた結果、詐欺の要件と錯誤の要件のどちらも満たしているかを
@@ -352,7 +352,7 @@ Heading (bold, ONE line):
 Diagram: A decision-tree flowchart. Start node: Ａが意思表示を取り消し、
 第三者Ｃが登場した場面。Diamond node: その取消しの理由は詐欺か強迫か？
 with the 強迫 branch highlighted（太い縁取り）for this panel, leading
-directly to a conclusion node (skipping the 善意・悪意 diamond, since
+directly to a conclusion node (skipping the 善意無過失 diamond, since
 強迫には第三者保護規定がない) showing an isometric land plot with a
 registry board still showing 所有者：Ｂ、and Ａ pointing at buyer Ｃ with a
 green checkmark and a speech bubble 私のものだ、with a crossed-out eraser
@@ -361,7 +361,7 @@ required. The 詐欺 branch is drawn smaller and grayed out with a note
 次のパネルへ.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、取消しの理由が詐欺ではなく強迫であることを確認します。強迫には
-善意の第三者を保護する規定がないため、登記を戻す手続を経なくても第三者
+第三者を保護する規定がないため、登記を戻す手続を経なくても第三者
 に所有権を主張できると判断します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
@@ -370,29 +370,31 @@ characters):
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
-詐欺取消しは可、善意の第三者に対抗不可なだけ
+詐欺取消しは可、善意無過失の第三者に対抗不可なだけ
 Diagram: The same decision-tree flowchart shape as Panel 4. Start node:
 Ａが意思表示を取り消し、第三者Ｃが登場した場面。Diamond node: その取消し
 の理由は詐欺か強迫か？with the 詐欺 branch highlighted this time, leading
 to a second diamond node (also highlighted): 第三者Ｃはその抵当権の設定
-時に詐欺の事実について善意だったか？with a はい arrow leading to a
-conclusion node showing Ａが取消しの意思表示を stamp する（green
-checkmark, 取消し自体は有効）が、その効力を示す矢印がＣの抵当権を守る盾
-（labeled 善意）に阻まれ「対抗不可」と赤字で記されている。The 強迫 branch
+時に詐欺の事実について善意無過失だったか？with a はい arrow (thick
+highlighted, this panel's path) leading to a conclusion node showing Ａが
+取消しの意思表示を stamp する（green checkmark, 取消し自体は有効）が、その
+効力を示す矢印がＣの抵当権を守る盾（labeled 善意無過失）に阻まれ「対抗
+不可」と赤字で記されている。The いいえ arrow (thinner, lighter tone) leads
+to its own separate conclusion node labeled 悪意・有過失のＣには対抗できる.The 強迫 branch
 is drawn smaller and grayed out.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、取消しの理由が強迫ではなく詐欺であることを確認します。次に、その後
-に現れた第三者が善意であるかを確認し、善意であれば取消し自体はできても
-その第三者には対抗できないと判断します。
+に現れた第三者が善意無過失であるかを確認し、善意無過失であれば取消し自体は
+できてもその第三者には対抗できないと判断します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-善意の第三者に対抗不可
+善意無過失の第三者に対抗不可
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法96条2項（第三者詐欺の制限）・96条3項（詐欺取消しと善意の第三者）・
+民法96条2項（第三者詐欺の制限）・96条3項（詐欺取消しと善意無過失の第三者）・
 101条（代理行為の瑕疵）に基づく整理です。強迫に第三者保護規定がないこと、
-詐欺取消しと錯誤の選択的主張が可能であることは、判例の趣旨によるもの
+詐欺取消しと錯誤取消し（95条）の選択的主張が可能であることは、判例の趣旨によるもの
 です。
 
 Final check before rendering: scan every kanji glyph and confirm it is

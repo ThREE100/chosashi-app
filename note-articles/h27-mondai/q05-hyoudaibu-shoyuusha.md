@@ -369,8 +369,8 @@ Heading (bold, ONE line):
 Diagram: The same shared root diamond node with three branches. In THIS
 panel, branch (1)「最初から誤って記録」is highlighted (full color, thick
 border), branches (2) and (3) faded. From the highlighted branch, a
-second diamond node reads「持分の更正に何を添付するか」with two checks
-stacked, drawn as separate, distinct items rather than merged into one: a
+rectangular check box (NOT a diamond) headed「持分の更正に添付するもの」with
+two checks stacked, drawn as separate, distinct items rather than merged into one: a
 first box「Bの承諾情報（持分が減る共有者）」with a green checkmark, thick
 highlighted border, and a second, separate box「Bが所有権を有することを証
 する情報」with a red X. Show an isometric land plot split between A and B

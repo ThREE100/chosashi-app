@@ -324,19 +324,16 @@ Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 書面申請の合体・合筆は押印必須
-Diagram: A vertical decision flowchart with two diamond-shaped branch
-nodes stacked top to bottom. Node 1 (top, diamond) reads「書面で申請するか」.
-The「はい（書面）」branch continues downward with a thick highlighted
-arrow; a faded「いいえ（電子申請）」branch on the side leads to a small
-greyed-out, dotted-outline box labeled「電子署名等の別ルール（本肢の対象
-外）」, shown small and de-emphasized. From Node 1's「はい」branch, Node 2
+Diagram: A vertical flowchart, top to bottom. Node 1 (top) is a
+rectangular check box (NOT a diamond) reading「書面で申請する」, with a
+single thick highlighted arrow continuing downward. Below it, Node 2
 (diamond) reads「対象の登記は合体・合筆（所有権登記あり）・合併か」. Its
 「はい」branch (thick, highlighted) leads to a final conclusion node: an
 isometric application document with a hanko-stamp icon stamped firmly onto
 it, labeled「記名押印が必要」in a bold box, with a nearby crossed-out label
 「署名だけでは不可」(red X). A faded「いいえ」branch from Node 2 leads to a
-small greyed-out conclusion box labeled「署名または記名押印で足りる（原則、
-本肢とは別の場面）」to show the general rule by contrast.
+small greyed-out conclusion box labeled「申請人の署名でも足りる（規則47条
+3号）」to show the general rule by contrast.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず書面で申請するかどうかを確認します。次に、対象の登記が所有権の登記が
 ある土地の合筆、建物の合体、建物の合併という重い登記かどうかを確認します。
@@ -429,7 +426,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 根拠：不動産登記令16条1項（押印）・3条1号（本人の氏名住所）・3条2号（法人
-代表者の氏名）、会社法349条4項（代表取締役の権限）。場面：建物の表題登記・
+代表者の氏名）、不動産登記規則47条3号イ（6）（署名で足りない合筆・合体・合併）、会社法349条4項（代表取締役の権限）。場面：建物の表題登記・
 分筆の登記の申請
 
 Final check before rendering: scan every kanji glyph and confirm it is
