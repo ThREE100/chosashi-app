@@ -436,3 +436,12 @@ I点はBCとY＝485.26の交点で I ＝ B ＋ (C − B) × 0.57 ÷ 10.57 ＝（
 - 2026-08-16のセッションで、アーカイブ済みのはずの`claude/surveyor-exam-heisei26-afternoon-lmt0j0`および`claude/surveyor-exam-afternoon-q1-20-5lehv0`(同名の`archived/`配下ブランチが既に存在するにもかかわらず、非アーカイブ名で生き残っていた)に誤って作業・pushしてしまう事例が発生した。これを受けて、上記ルールを改めて明文化する。
 - 土地家屋調査士試験のnote解説記事に関する更新・保存先は`main`のみとする。`claude/surveyor-exam-*`系のブランチ(archived配下・非archived配下を問わず)は今後一切使用しない。
 - 未反映の作業: `claude/surveyor-exam-afternoon-q1-20-5lehv0`ブランチ上に、平成26年度Q1〜20の肢別解説の法令再検証・修正(コミット`58f1c5f`)およびQ6の保管期間補足(コミット`34488e5`)が、`main`未反映のまま残っている。同ブランチのH27午後等の記事は`main`より古く後退するため、単純な上書き・マージは行わず、該当ファイル(主に`note-articles/h26-mondai/`配下)を個別に差分確認したうえで`main`に反映すること。
+
+## 条文穴埋めアプリ（単独アプリ）について(2026-10-01追加)
+
+条文穴埋めレジュメ（不動産登記法・令・規則・準則・区分所有法、全19ページ・239問）の空欄に語句を入力して正誤判定する
+アプリは、既存の学習アプリとは別の単独アプリとして`anaume-app/`にある（公開先は`/chosashi-app/anaume/`、
+`npm run build:anaume`でビルドし、`deploy.yml`で既存アプリと一緒にGitHub Pagesへ出す）。問題データは
+`anaume-app/src/data/anaume.json`、解答履歴は端末のlocalStorage（JSONの書き出し・読み込みあり）。
+間違えた問題は1日2回（朝・夜）の復習の回に忘却曲線の間隔で出し、間違えた回数だけ正解すると復習リストから消える。
+仕様と使い方は`anaume-app/README.md`。
