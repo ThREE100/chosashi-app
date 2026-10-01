@@ -157,8 +157,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・家・庭・
-裁・判・所, which have simplified-Chinese lookalikes with different stroke
+kanji 相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・家, which have simplified-Chinese lookalikes with different stroke
 forms — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -305,13 +304,10 @@ blue, 5-15 Japanese characters):
 誤変換に特に注意すること。）
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
-
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially for
-相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・家・庭・裁・
-判・所 (and not Traditional Chinese). If any character renders as a
-Simplified Chinese variant or a Traditional Chinese variant, redraw that
+相・続・登・記・譲・渡・権・利・放・棄・遺・贈・産・分・割・家 (and not Traditional Chinese). If any character renders as a
+Simplified or Traditional Chinese variant or a Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō
 kanji — including any Chinese-only character, Korean Hangul, other

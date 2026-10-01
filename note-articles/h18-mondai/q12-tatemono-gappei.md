@@ -86,7 +86,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -122,7 +122,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・併・続・属・共・用, which
+kanji 号・権・建・物・登・記・所・併・続・属・共・用, which
 have Simplified Chinese look-alike forms with visibly different stroke
 shapes — always draw the standard Japanese (Jōyō) form of these characters.
 
@@ -205,8 +205,8 @@ Small credit text in the corner (optional, keep minimal):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・併・続・属・共・用 (and not Traditional Chinese).
-If any character renders as a Simplified Chinese variant or a Traditional
+attention to 号・権・建・物・登・記・所・併・続・属・共・用 (and not Traditional Chinese).
+If any character renders as a Simplified or Traditional Chinese variant or a Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
 scan the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,

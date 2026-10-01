@@ -114,11 +114,19 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 轄・録・属・確・埋・証・権・所・登・記・請・変 — these must be
+kanji 轄・録・属・確・証・権・所・登・記・請・変 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
 
@@ -201,19 +209,19 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 轄・録・属・確・埋・証・権・請・変. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, with particular
+attention to 轄・録・属・確・証・権・請・変. If any character renders
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no
 duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway
 must read as a short heading + a short conclusion tag, at a glance — and
 confirm the entire canvas, edge to edge, is filled with a fully opaque
-background with no transparency or alpha channel anywhere.
+background with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card).
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア〜オの5肢はいずれも独立した個別ルールであり、肢ごとに最適な図の型が異なる。ア＝配置図型（埋立地と行政区画未確定の関係）、イ＝正誤対比型（思い込みと正しいルールの対比）、ウ＝タイムライン型（転属の効力発生日と登記記録の移送完了の先後関係）、エ＝配置図型（土地と区分建物、それぞれ別の登記所が管轄する物理的な位置関係）、オ＝決定木型（既存建物かどうか・増築等でまたがることになったかどうかという2段階の条件判定）として構成する。
 

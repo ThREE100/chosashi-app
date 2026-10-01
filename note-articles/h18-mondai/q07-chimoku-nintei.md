@@ -138,7 +138,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -317,13 +317,7 @@ labeled「接続していない」.
 Conclusion tag (soft blue, 5-15 Japanese characters):
 接続なしで雑種地
 
-（カードの通し番号は1から10まで連続しており、重複・欠落はない。この一文を
-FOOTER直前に置く。上記のとおり簡体字混入を防ぐため主要な漢字は個別に
-再確認すること。）
-
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
-
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not
 Traditional Chinese. If any character

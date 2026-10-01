@@ -219,12 +219,10 @@ soft blue, 5-15 Japanese characters):
 まで連番、重複・欠落・言い換えは禁止。簡体字混入と誤変換に特に注意すること。）
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
-
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially for
 合・体・登・記・権・証・券・財・団・賃・借・相・続 (and not Traditional Chinese). If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form and any Traditional Chinese variant. Also scan
 the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,

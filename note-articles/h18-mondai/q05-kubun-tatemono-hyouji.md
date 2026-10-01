@@ -98,7 +98,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -214,8 +214,6 @@ blue, 5-15 Japanese characters):
 登記事項証明書を添付
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
-
 上記5枚のカードの通し番号・見出し・結論タグは、重複禁止・欠落禁止・
 言い換え禁止で、記載されたとおり正確に描画すること。日本語の漢字は
 すべて常用漢字(Jōyō kanji)の字体で描画し、簡体字は一切使用しないこと。
@@ -489,8 +487,7 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 区・分・建・物・登・
-記・権・会・社・継・合・併・存・証, which have visually similar but
+any characters. Pay special attention to the kanji 区・登・記・権・会・社・継・合・併・存・証, which have visually similar but
 different Simplified or Traditional Chinese forms — always draw the
 standard Japanese (Jōyō) form. Within this English prompt text, use
 half-width parentheses ( ) consistently — never open a parenthetical with
@@ -556,8 +553,7 @@ by side: 表題部所有者欄：Ａ会社のまま（変わらない） / 権�
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 区・分・建・物・登・記・権・会・社・
-継・合・併・存・証. If any character renders as a Simplified or
+Chinese, paying special attention to 区・登・記・権・会・社・継・合・併・存・証. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not
 standard Japanese hiragana, katakana, or Jōyō kanji — including any

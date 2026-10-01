@@ -110,7 +110,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -118,6 +126,16 @@ following kanji, which are easily confused with Simplified Chinese
 variants: 号, 権, 建, 物, 登, 記, 所, 番, 録, 証, 援, 替. Render every
 occurrence of these characters in standard Japanese (Jōyō) form, never
 simplified.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -192,8 +210,8 @@ sentence):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, confirm that no card
@@ -202,7 +220,7 @@ card headings are exactly: (1) 共通添付情報は援用で省略可／(2) 合
 証明が必要になる／(3) 法人番号で資格証明を省略可／(4) 表題登記のみなら証明
 不要／(5) 登記事項証明書の代わりは照会番号 — do not merge, omit, duplicate, or
 reword any of these five headings, and confirm every card reads as a
-short heading + illustration + short conclusion tag at a glance.
+short heading + illustration + short conclusion tag at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -230,11 +248,28 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 号・録・権・地・番・建・
-物・登・記・所・誤, which have visibly different Simplified Chinese forms —
+any characters. Pay special attention to the kanji 録・権・建・物・登・記・所・誤, which have visibly different Simplified Chinese forms —
 always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -285,13 +320,13 @@ Small footnote text (bottom of panel, small font):
 平成5年質疑応答（合体の登記等における所有権を証する情報の要否）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — pay special
-attention to 号・録・権・地・番・建・物・登・記・所・誤. Confirm every heading,
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese — pay special
+attention to 録・権・建・物・登・記・所・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every heading,
 panel label, and callout text matches the Japanese text given above
 verbatim, with no paraphrasing and no substituted characters. Confirm the
 layout shows exactly two side-by-side panels (甲建物=green/left, 乙建物=
 blue/right), and confirm the ✕-marked document icon on the right panel has
-no arrow connecting it to the building, to visually show it is unused.
+no arrow connecting it to the building, to visually show it is unused. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -319,11 +354,28 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 号・録・権・地・番・建・
-物・登・記・所・誤, which have visibly different Simplified Chinese forms —
+any characters. Pay special attention to the kanji 号・地・番・登・記・所・誤, which have visibly different Simplified Chinese forms —
 always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -375,18 +427,18 @@ Small footnote text (bottom of panel, small font):
 不動産登記令11条／不動産登記令6条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — pay special
-attention to 号・録・権・地・番・建・物・登・記・所・誤. Confirm every heading,
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese — pay special
+attention to 号・地・番・登・記・所・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every heading,
 panel label, and callout text matches the Japanese text given above
 verbatim, with no paraphrasing and no substituted characters. Confirm the
 layout shows exactly two side-by-side panels (不動産登記令11条=green/left,
 不動産登記令6条=blue/right), and confirm no arrow connects the two panels,
-to visually show the two provisions govern unrelated information.
+to visually show the two provisions govern unrelated information. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア〜オ5肢それぞれについて、「問題文を読んだ瞬間にどんな図を描けばよいか」「その図にたどり着くまでにどの順番で何を確認するか」を示す解き方ガイド。アは同時申請・共通添付情報・援用旨の記載という3段階の手続要件を、ウは代理人が法人であることと会社法人等番号の提供という2段階の要件を、それぞれ決定木として可視化した。イは合体前の所有者の異同という1段階の確認に絞りつつ、「単独申請でも結論は変わらない」という見落としやすい点を系統図の中に明記した。エは「検査済証が使えるか」という問いの立て方に隠れている「そもそも所有権を証する情報の提供が不要」という前提を決定木の分岐として可視化し、オは不動産登記令11条（登記事項証明書の代替）と令6条（不動産番号による記載省略）という別々の制度の対比枠として整理した。
 
@@ -424,10 +476,17 @@ to the article's own body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 号・録・権・地・番・建・
-物・登・記・所・援・証, which have visibly different Simplified Chinese
+any characters. Pay special attention to the kanji 号・権・地・番・建・物・登・記・所・援・証, which have visibly different Simplified Chinese
 forms — always draw the standard Japanese (Jōyō) form. Within this
 English prompt text, use half-width parentheses ( ) consistently — never
 open a parenthetical with a full-width （ and close it with a half-width
@@ -563,9 +622,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 37条の2／平成5年の質疑応答／不動産登記令11条・6条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・援・証. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・権・地・番・建・物・登・記・所・援・証. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢

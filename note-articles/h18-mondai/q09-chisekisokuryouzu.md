@@ -98,8 +98,9 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -212,7 +213,6 @@ Conclusion tag (beige, 5-15 Japanese characters):
 更正登記が優先
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 簡体字混入・誤変換・重複表記のチェックリストはこのフッター直前にのみ短く記載し、
 本文カード内には記載しないこと。
 
@@ -231,6 +231,7 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
 
 ---
 

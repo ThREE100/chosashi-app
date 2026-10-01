@@ -111,7 +111,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -194,8 +202,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, confirm that no
@@ -211,7 +219,7 @@ channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 土地家屋調査士法人の業務制限に関する問題文を読んだときに、「だれの立場の話か（社員・脱退した元社員・使用人）」→「どの規定の話か」→「例外（自ら関与したか・社員の半数以上か・依頼者の同意）が働くか」の順に確認する5パネル構成。ア（脱退した元社員の業務制限）は「在職期間内に法人が承諾した事件か」→「自ら関与したか」の2段階の決定木、エ（筆界調査委員）は「社員個人が業務を行えないか」→「業務を行えない者が社員の半数以上か」という隠れた2つ目の条件を示す決定木とし、半数に満たない場合の結論も併記する。イ（競業禁止）は「総社員の同意があれば可」という思い込みと対比する正誤対比型、ウ（連帯責任）は法人・依頼者・社員2名の関係図型、オ（使用人が受任している事件）は依頼者の同意による例外がある3号と例外がない4号を並べる対比枠型とする。5肢は根拠規定がそれぞれ異なるため共有の決定木は使わず、イ・オの2パネルに共通の「同意を示す親指アイコン＋禁止・受任不可のスタンプ」を置いて、アの「関与していないから制限されない」と対照させる。
 

@@ -92,7 +92,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -128,7 +128,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・代・理・消・滅・復・任・監・督・登・記・号・誤, which have
+kanji 権・代・理・消・滅・復・任・監・督・登・記・誤, which have
 simplified-Chinese lookalikes with different stroke forms — always draw
 the standard Japanese (Jōyō) form.
 
@@ -213,11 +213,9 @@ Conclusion tag (soft beige, 5-15 Japanese characters):
 単独代理が原則
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
-
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially for
-権・代・理・消・滅・復・任・監・督・登・記・号・誤 (and not Traditional Chinese). If any character renders
+権・代・理・消・滅・復・任・監・督・登・記・誤 (and not Traditional Chinese). If any character renders
 as a Simplified Chinese variant or a Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or

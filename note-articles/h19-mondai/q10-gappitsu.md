@@ -121,7 +121,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -221,10 +229,10 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to the kanji 承・役・地・筆・鉱・害・賠・償・録・仮・抵・当・権・続・名・
-義・諾・抹・消・登・記・号・番. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
+義・諾・抹・消・登・記・号・番. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
 number of cards equals 5 exactly, with no duplicated or missing cards,
 that badge numbers run 1-5 continuously across both columns without
 resetting, confirm there is no intro illustration or paragraph block
@@ -240,7 +248,7 @@ with no transparency or alpha channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 肢ア・イ・ウ・オは、「規則105条が定める4つの例外(承役地の地役権・担保権・信託・鉱害賠償登録)のどれかに当てはまるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢ウ・オはさらに、担保権の枝の中の「登記の目的・受付の年月日及び受付番号・登記原因及びその日付が甲乙ですべて同一か」という同じ第三段階の分岐も共有し、結果(はい/いいえ)だけが分かれる。肢エは規則105条の例外とは別の原則(41条3号、登記名義人の一致)を確認する決定木とし、実体上の所有者と登記簿上の名義を左右に対比する構成とする。
 

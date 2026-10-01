@@ -88,7 +88,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -124,7 +124,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 附・属・建・物・登・記・号・権・図・轄, which have visually
+kanji 附・属・建・物・登・記・権・図・轄, which have visually
 similar but different Simplified Chinese forms — always draw the standard
 Japanese (Jōyō) form of each.
 
@@ -215,17 +215,13 @@ Conclusion tag (colored banner directly below the illustration, blue,
 5-15 Japanese characters):
 主である建物の所在地で決まる
 
-（プロンプト内の文字列は上記のとおり確定済みであり、これ以上の言い換えを
-しないこと。簡体字混入対策として、特に「附・属・建・物・登・記・号・権・
-図・轄」の字形に注意すること。）
-
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal): 平成18年度 午後の部 第6問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, especially for
-附・属・建・物・登・記・号・権・図・轄 (and not Traditional Chinese). If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
+附・属・建・物・登・記・権・図・轄 (and not Traditional Chinese). If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form and any Traditional Chinese variant. Also scan
 the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,

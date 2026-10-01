@@ -129,8 +129,7 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・証・筆・錯・誤・転 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 権 not 权, 証 not 证,
-筆 not 笔, 錯 not 错, 誤 not 误, 転 not 转).
+forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -275,15 +274,6 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 分筆錯誤による抹消の可否と実際の手続(平成23年度 午後の部 第8問 肢エ)
 
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric land plot already split into "甲土地" and
-"乙土地", with a mortgage ribbon icon on 乙土地 crossed out by a 消滅承諾
-stamp, and a 分筆錯誤 stamp attempting to reach back and undo everything
-but stopped by a red prohibition circle.
-分筆の登記と抵当権を消す登記は一体でされているため、
-分筆錯誤を理由に分筆の登記だけを抹消しても、
-抵当権は当然には戻りません。
-
 --- CARD 1 ---
 Heading (bold):
 権利変動を伴うから、単純な抹消では戻らない
@@ -331,6 +321,11 @@ Caption (small text below):
 抵当権の登記を回復したうえで、あらためて分筆
 当時の状態を是正する手続に進む。
 
+--- CALLOUT: 誤りやすいポイント ---
+分筆の登記と抵当権を消す登記は一体でされているため、
+分筆錯誤を理由に分筆の登記だけを抹消しても、
+抵当権は当然には戻りません。
+
 --- FOOTER ---
 (No credit text or footer text of any kind. The subtitle already shows the exam year and question number.)
 
@@ -341,7 +336,7 @@ text matches the Japanese text given above verbatim, with no paraphrasing
 and no substituted characters. Also confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,

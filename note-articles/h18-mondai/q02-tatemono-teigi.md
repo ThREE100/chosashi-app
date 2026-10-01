@@ -97,7 +97,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -135,6 +135,16 @@ summarize, or substitute any characters. Characters such as 「登」「記」
 「号」「権」「建」「物」「地」「番」「所」are especially prone to being
 rendered as Simplified Chinese variants — double-check each of these and
 redraw in standard Japanese Jōyō form if needed.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -217,13 +227,7 @@ stamp labeled「借地権も移転」.
 Conclusion tag (soft blue, 5-15 Japanese characters):
 借地権も買受人に移転
 
-（カードの通し番号は1から5まで連続しており、重複・欠落はない。この一文を
-FOOTER直前に置く。上記のとおり簡体字混入を防ぐため主要な漢字は個別に
-再確認すること。）
-
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
-
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not
 Traditional Chinese. If any character
@@ -237,7 +241,7 @@ in the image. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -446,8 +450,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 登・記・号・権・建・物・地・番・所・誤・
-産・独.
+Chinese, paying special attention to 権・建・物・地・所・誤・産・独.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,

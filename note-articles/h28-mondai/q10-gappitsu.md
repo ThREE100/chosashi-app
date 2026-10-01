@@ -110,7 +110,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -205,9 +213,9 @@ sentence, NOT a legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・地・質・託・積. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 権・地・質・託・積. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly (Column A: cards 1-3 in
 green, Column B: cards 4-5 in blue, numbers continuous, not restarted in
 column B), with no duplicated or missing cards, confirm there is no
@@ -226,7 +234,7 @@ filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの判定順序を肢ごとに示す作図ガイド。ア・エ・オは「所有権の登記以外の権利に関する登記がある土地は原則として合筆できない→合筆後の土地の登記記録に登記することができる権利か（規則105条1号〜3号）」という共通の決定木を土台にし、各パネルで自分の肢に関係する枝だけを強調する構成とした（アはさらに申請情報に設定範囲を書くステップを追加）。イは「面積の合計→地目が宅地・鉱泉地か→10平方メートルを超えるか」の2段階の決定木、ウは「保安林の指定が41条の制限事由の一覧にあるか」を確認したうえで地目・地番区域等の要件を確認する決定木に、「指定解除が先」という思い込みを打ち消す要素を添えた。5パネル、portrait 1080×2600px。
 

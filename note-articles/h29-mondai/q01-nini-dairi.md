@@ -145,7 +145,15 @@ marks, arrows — adapt icon set to the topic).
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -154,22 +162,23 @@ kanji 代・理・権・任・意・責・追・認・者・契・約・不・�
 different stroke shapes — always draw the standard Japanese (Jōyō) form
 of these characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 2行):
 任意代理
 瑕疵は誰を基準に判断する？
 
 Subtitle (smaller, centered, 1行):
-代理権の限界と無権代理の後始末(第1問・現行法アレンジ版)
-
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design scene showing three simple people
-figures arranged in a triangle — labeled "本人", "代理人", "相手方" — with
-a small contract document icon and a speech bubble floating above the
-"代理人" figure to show the agent is the one acting and speaking on the
-principal's behalf.
-代理行為の瑕疵は誰の基準か、代理権のない者の行為はどうなるか。
-任意代理の基本を確認します。
+代理権の限界と無権代理の後始末(平成29年度 午後の部 第1問)
 
 --- COLUMN A HEADER (pill-shaped badge) ---
 代理権の限界を見極める
@@ -242,16 +251,16 @@ Small credit text in the corner (optional, keep minimal):
 平成29年度 午後の部 第1問(現行法アレンジ版)
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 代・理・権・任・意・責・追・認・者・契・約・不・適・合・
-委・善・管・義・務. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm all
+委・善・管・義・務. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm all
 captions are 1〜2 short lines only, with no long paragraphs. Confirm the
 number of cards equals 5 exactly (3 cards under 代理権の限界を見極める,
 2 cards under 復代理と無権代理の後始末), with no duplicated or missing
 cards, and confirm every heading, illustration label, and caption text
 matches the Japanese text given above verbatim, with no paraphrasing and
-no substituted characters.
+no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -276,10 +285,17 @@ clarity and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 契・約・不・適・合・
-責・任・瑕・疵・担・保・代・理・悪・知・誤 — always draw the standard
+any characters. Pay special attention to the kanji 契・約・不・適・合・責・任・瑕・疵・担・保・代・理・知・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -296,7 +312,7 @@ Title (large, bold):
 「知っていた」は言い訳にならない？
 
 Subtitle (smaller, centered):
-第1問 肢ア－旧・瑕疵担保責任と新・契約不適合責任の違い
+平成29年度 午後の部 第1問 肢ア－旧・瑕疵担保責任と新・契約不適合責任の違い
 
 --- COMPARISON ---
 Layout: two panels side by side, connected by a small arrow icon labeled
@@ -333,12 +349,12 @@ claim is still possible.
 566条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 契・約・不・適・合・責・任・瑕・疵・担・保・代・理・悪・知・誤.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 契・約・不・適・合・責・任・瑕・疵・担・保・代・理・知・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm every heading, panel label, and callout text matches the Japanese
 text given above verbatim, with no paraphrasing and no substituted
 characters, and confirm the entire canvas, edge to edge, is filled with a
-fully opaque background with no transparency or alpha channel anywhere.
+fully opaque background with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card).
 ```
 
 ---
@@ -363,7 +379,15 @@ and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 代・理・権・限・外・
 表・見・成・立・基・本・正・当・誤 — always draw the standard Japanese
@@ -383,7 +407,7 @@ Title (large, bold):
 「正当な理由」より先に見るもの
 
 Subtitle (smaller, centered):
-第1問 肢イ－表見代理に隠れた前提条件
+平成29年度 午後の部 第1問 肢イ－表見代理に隠れた前提条件
 
 --- FLOWCHART ---
 A vertical flowchart with two diamond-shaped decision nodes connected top
@@ -415,15 +439,15 @@ without ever reaching Step 2.
 平成29年度 午後の部 第1問 肢イ(現行法アレンジ版) / 民法110条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 代・理・権・限・外・表・見・成・立・基・本・正・当・誤. Confirm
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 代・理・権・限・外・表・見・成・立・基・本・正・当・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm
 every heading, node label, and callout text matches the Japanese text
 given above verbatim, with no paraphrasing and no substituted characters,
 and confirm the entire canvas, edge to edge, is filled with a fully
-opaque background with no transparency or alpha channel anywhere.
+opaque background with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node).
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -455,7 +479,15 @@ callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -582,10 +614,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 (肢エ)、115条本文(肢オ)に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 代, 理, 権, 任, 追, 認, 契, 約, 善, 管 and any character that
-has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition
