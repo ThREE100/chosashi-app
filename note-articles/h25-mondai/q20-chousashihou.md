@@ -291,8 +291,9 @@ Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 代理も相談も正当な事由なく拒める
 Diagram: An isometric 土地家屋調査士 character standing between two
-separate labeled doors, each with its own diamond-shaped check mark above
-it, drawn as two distinct check points rather than one combined check.
+separate labeled doors, each with its own small rectangular check box
+above it (NOT a diamond), drawn as two distinct check points rather than
+one combined check.
 Left door, with its own check node reading 依頼は筆界特定手続の代理か？,
 labeled 筆界特定手続の代理の依頼, closing freely with a green checkmark
 and no 正当な事由 sign required. Right door, with its own separate check

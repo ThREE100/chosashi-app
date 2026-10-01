@@ -303,9 +303,9 @@ Heading (bold, ONE line):
 Diagram: An isometric registry counter. A 土地家屋調査士 character（資格者
 代理人）hands two documents together to a registry officer: one labeled
 本人確認情報 and one labeled 資格者代理人であることを証する情報, clipped
-together with a paperclip icon. A single diamond node: 資格者証明の情報も
-あわせて提出したか？with a はい arrow leading to a conclusion node reading
-本人確認情報として受理される.
+together with a paperclip icon. A single arrow leads from the
+paperclipped pair to a conclusion node reading 本人確認情報として受理
+される (no diamond in this panel).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、本人確認情報だけでなく、自分が登記の申請の代理を業とすることができ
 る資格者代理人であることを証する情報も、あわせて提出しているかを確認しま
@@ -343,11 +343,11 @@ Diagram: A decision-tree flowchart. Start node: どんな事情があれば「�
 実績のルート rendered in a faded, greyed-out style (not this panel's
 branch, see Panel 5), and 依頼前からの継続的関係のルート rendered with a
 thick highlighted border (this panel's branch), leading to two sequential
-diamond nodes. First diamond node (thick highlighted border): 依頼を受け
-る以前から申請人の氏名及び住所を知っているか？with a はい arrow proceeding
-downward. Second diamond node (thick highlighted border): 親族関係・1年
-以上の取引関係その他の安定した継続的な関係があるか？with a はい arrow
-leading to a conclusion node reading 面識があるときに当たる, illustrated by
+rectangular check boxes (NOT diamonds). Check box 1 (thick highlighted
+border): 依頼を受ける以前から申請人の氏名及び住所を知っている, with a single
+arrow downward. Check box 2 (thick highlighted border): 親族関係・1年以上の
+取引関係その他の安定した継続的な関係がある, with a single arrow leading to
+a conclusion node reading 面識があるときに当たる, illustrated by
 a 資格者代理人 character and a client character standing together with a
 timeline behind them stretching back over a year labeled 1年以上の取引
 関係.
@@ -385,9 +385,9 @@ Diagram: A decision-tree flowchart. Start node: どんな事情があれば「�
 あるとき」に当たるか（分岐点、共有 with Panel 3）with two branches: 依頼前
 からの継続的関係のルート rendered in a faded, greyed-out style (not this
 panel's branch, see Panel 3), and 過去の実績のルート rendered with a thick
-highlighted border (this panel's branch). A single diamond node (thick
-highlighted border): 過去に同一人から依頼を受けて本人確認情報を提供した
-実績があるか？with a はい arrow leading to a conclusion node reading 面識
+highlighted border (this panel's branch). A rectangular check box (NOT
+a diamond, thick highlighted border): 過去に同一人から依頼を受けて本人確認
+情報を提供した実績がある, with a single arrow leading to a conclusion node reading 面識
 があるときに当たる, illustrated by an isometric calendar icon showing a
 marked date labeled 半年前 with a small document icon labeled 本人確認
 情報, connected by a dashed line to today's date.

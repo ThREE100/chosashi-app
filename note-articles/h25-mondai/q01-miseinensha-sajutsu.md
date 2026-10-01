@@ -525,10 +525,9 @@ Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 詐術があっても相手が悪意なら別
 Diagram: A decision-tree flowchart. Start node: 未成年者Aが成年だと
-信じさせるため詐術を用いた（本肢の事実）. First diamond node: Aは詐術を
-用いたか？with a はい arrow proceeding downward (this condition is
-already satisfied in this fact pattern, so draw it small and pass
-through quickly). Second diamond node (drawn with a thicker highlighted
+信じさせるため詐術を用いた（本肢の事実）. First, a small rectangular check box
+(NOT a diamond): Aは詐術を用いた（本肢の事実）, with a single arrow
+proceeding downward. Then a diamond node (drawn with a thicker highlighted
 border, since this is the branch the whole 肢 turns on): その詐術に
 よって、相手方Cは実際に「Aは成年だ」と誤信したか？with two branch
 arrows: いいえ（Cは最初からAが未成年だと知っていた）leading to a green
@@ -608,13 +607,16 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 成年後に黙って受け取れば追認扱い
 Diagram: A decision-tree flowchart combined with the same clock-to-stamp
-visual motif as Panel 3. First diamond node: Aは成年に達した後か（追認
-をすることができる時期か）？with a はい arrow proceeding downward.
-Second diamond node (drawn with a thicker highlighted border): Aは異議
-をとどめずに代金（履行）を受領したか？with the はい branch leading to a
-money-bag icon being received without any protest speech bubble, followed
-automatically by a padlock icon closing over a tag reading 取消し, and a
-conclusion node reading 法定追認が成立し、取消しできなくなる.
+visual motif as Panel 3. First, a rectangular check box (NOT a
+diamond): Aは成年に達した後（追認をすることができる時期）, with a single
+arrow proceeding downward to a diamond node (drawn with a thicker
+highlighted border): Aは異議をとどめずに代金（履行）を受領したか？ The
+はい branch (thick, highlighted) leads to a money-bag icon being received
+without any protest speech bubble, followed automatically by a padlock
+icon closing over a tag reading 取消し, and a conclusion node reading
+法定追認が成立し、取消しできなくなる. The いいえ branch (thin, lighter
+tone) leads to its own separate conclusion node reading 異議をとどめれば
+法定追認にならない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずAが成年に達した後かどうかを確認します。次に、その後に異議をとどめ
 ずに代金を受け取ったかどうかを確認します。両方に当てはまれば、法定追認

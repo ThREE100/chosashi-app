@@ -300,7 +300,7 @@ highlighted border): 持分の更正は、名義自体の入れ替えを伴う�
 いいえ arrow leading to a conclusion node reading 表題部所有者が単独で
 申請できる, illustrated by A alone stamping a document labeled 持分の更正
 の登記 with a green checkmark while B stands by without objecting. Render
-the はい（例外に当たる）branch in a faded, greyed-out style.
+the はい（例外に当たる）branch in a faded, greyed-out style. The はい branch of the second diamond (thin, lighter tone) leads to its own conclusion node reading 名義人単独では申請できない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記が単独申請主義の例外に当たらないかを確認します。持分の更正
 は名義自体の入れ替えを伴わないため、表題部所有者Aが単独で申請できます。
@@ -321,7 +321,7 @@ second diamond node (thick highlighted border): 共同相続人の一人によ�
 reading 相続人の一人が単独で申請できる, illustrated by only one of two
 inheriting figures, labeled 相続人A, stamping the registration document
 alone with a green checkmark. Render the はい（例外に当たる）branch in a
-faded, greyed-out style.
+faded, greyed-out style. The いいえ branch of the second diamond (thin, lighter tone) leads to its own conclusion node reading 相続人全員で申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記が単独申請主義の例外に当たらないかを確認します。建物の合体
 による登記は、共同相続人の一人が保存行為として行うことが認められている
@@ -342,7 +342,7 @@ second diamond node (thick highlighted border): 更正の前後で名義人の�
 の同一性が失われるか（全くの別人に入れ替わるか）？with a はい arrow
 leading to a conclusion node reading 名義人単独では申請できない, shown as
 figure A alone trying to stamp the document, blocked by a red X. Render
-the いいえ（例外に当たらない）branch in a faded, greyed-out style.
+the いいえ（例外に当たらない）branch in a faded, greyed-out style. The いいえ branch of the second diamond (thin, lighter tone) leads to its own conclusion node reading 表題部所有者が単独で申請できる.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この更正登記が単独申請主義の例外に当たらないかを確認します。表題部
 所有者Aから真の所有者Bへと名義が入れ替わり、人格の同一性が失われる更正
@@ -363,7 +363,7 @@ highlighted leading to a second diamond node (thick highlighted border):
 共有者の一人による保存行為として認められるか？with a はい arrow leading
 to a conclusion node reading 共有者の一人が単独で申請できる, illustrated
 by A alone stamping the update document with a green checkmark. Render
-the はい（例外に当たる）branch in a faded, greyed-out style.
+the はい（例外に当たる）branch in a faded, greyed-out style. The いいえ branch of the second diamond (thin, lighter tone) leads to its own conclusion node reading 共有者全員で申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記が単独申請主義の例外に当たらないかを確認します。地積の更正
 登記は、更正後に地積が減少する内容であっても、共有者の一人が保存行為とし
@@ -385,7 +385,7 @@ border, shared with all other panels): 単独申請主義（16条）の例外に
 node reading 申請適格がなく単独で申請できない, illustrated by figure B,
 labeled 所有権登記名義人, being able to stamp the document, while figure A
 standing nearby has a red X blocking their attempt to stamp it alone.
-Render the いいえ（例外に当たらない）branch in a faded, greyed-out style.
+Render the いいえ（例外に当たらない）branch in a faded, greyed-out style. The はい branch of the second diamond (thin, lighter tone) leads to its own conclusion node reading 所有権の登記名義人Bが申請できる.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記が単独申請主義の例外に当たらないかを確認します。共用部分で
 ある旨の登記は所有権の登記名義人でなければ申請できず、この事例の所有権

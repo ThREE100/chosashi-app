@@ -309,6 +309,10 @@ branch highlighted leading into a third diamond node (thick highlighted
 border): 登記の目的・原因・日付はすべて同一か（分筆の登記で共通）？with
 a はい arrow leading to a conclusion node reading 一の申請情報でまとめて
 申請できる。
+The いいえ branch of the first diamond (thin, lighter tone) leads to a small
+conclusion node reading 申請人が違えば原則として別々に申請する.
+The いいえ branch of the third diamond (thin, lighter tone) leads to its own
+conclusion node reading 別々の申請情報で申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、甲土地と乙土地の申請人が同じ人物Aかどうかを確認します。所有権登記
 名義人か表題部所有者かという資格の違いがあっても、次に登記の目的・原因・
@@ -334,6 +338,8 @@ a はい arrow leading to a conclusion node reading 規則35条の個別列挙�
 により一の申請情報でまとめて申請できる。Render the alternative branch
 （登記令4条ただし書のルート）in a faded, greyed-out style since it is not
 needed here.
+The いいえ branch of the first diamond (thin, lighter tone) leads to a small
+conclusion node reading 申請人が違えば原則として別々に申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、2つの登記がいずれも甲土地という同一の不動産についてのものかを確認
 します。同一不動産についての更正の登記と分筆の登記の組み合わせは規則35条
@@ -360,6 +366,10 @@ branch highlighted leading into a third diamond node (thick highlighted
 border): 登記の目的・原因・日付はすべて同一か（地目の変更・同時の宅地
 造成・同一の日付）？with a はい arrow leading to a conclusion node reading
 一の申請情報でまとめて申請できる。
+The いいえ branch of the first diamond (thin, lighter tone) leads to a small
+conclusion node reading 申請人が違えば原則として別々に申請する.
+The いいえ branch of the third diamond (thin, lighter tone) leads to its own
+conclusion node reading 別々の申請情報で申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、持分の割合が違っていても、甲土地と乙土地の共有者がA及びBで同じか
 どうかを確認します。持分の大小は申請人の同一性に影響しません。次に、登記
@@ -385,6 +395,8 @@ branch): 規則35条の個別列挙事由（附属建物の分割の登記及び
 a conclusion node reading 規則35条の個別列挙事由により一の申請情報で
 まとめて申請できる。Render the alternative branch（登記令4条ただし書の
 ルート）in a faded, greyed-out style since it is not needed here.
+The いいえ branch of the first diamond (thin, lighter tone) leads to a small
+conclusion node reading 申請人が違えば原則として別々に申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、分割の登記と合併の登記のいずれも申請人がAで同一かを確認します。次
 に、附属建物を分割してから他の建物の附属建物とする組み合わせが規則35条
@@ -409,6 +421,10 @@ branch highlighted leading into a third diamond node (thick highlighted
 border): 登記の目的・原因・日付はすべて同一か（氏名の変更の登記・婚姻・
 同一の日付）？with a はい arrow leading to a conclusion node reading 一の
 申請情報でまとめて申請できる。
+The いいえ branch of the first diamond (thin, lighter tone) leads to a small
+conclusion node reading 申請人が違えば原則として別々に申請する.
+The いいえ branch of the third diamond (thin, lighter tone) leads to its own
+conclusion node reading 別々の申請情報で申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、氏名変更の登記の対象が甲建物と乙土地という種類の違う不動産であって
 も、申請人がAで同一であることを確認します。次に、登記の目的（氏名の変更

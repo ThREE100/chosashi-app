@@ -178,7 +178,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 一律禁止ではない
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
-登記所が主導する場合
+名義人以外が主導する場合
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
@@ -353,9 +353,9 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地図作成目的かつ異議なしで職権可
 Diagram: A decision-tree flowchart on an isometric 登記官 character
-standing beside a map icon labeled 地図作成. First diamond node (thick
-highlighted border): 地図を作成するため必要があると登記官が認めるか？with
-a はい arrow proceeding downward. Second diamond node (thick highlighted
+standing beside a map icon labeled 地図作成. First, a rectangular check box
+(NOT a diamond, thick highlighted border): 地図を作成するため必要があると
+登記官が認める, with a single arrow proceeding downward. Then a diamond node (thick highlighted
 border): 所有権の登記名義人の異議はないか？with a はい arrow leading to a
 conclusion node reading 職権で分筆の登記ができる, illustrated by the 登記官
 stamping a 分筆の登記 document with a 職権 seal next to a landowner figure

@@ -314,14 +314,13 @@ Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 平穏・公然は期間中ずっと必要
 Diagram: A decision-tree flowchart on an isometric timeline of 甲土地の
-占有. Start node: 占有開始. First diamond node: 開始時、善意無過失か？
-with a はい arrow proceeding downward (いいえ側は薄いグレーで小さく描き、
-今回は関係しないことを示す程度でよい). Second diamond node (drawn with a
-thicker highlighted border since this is the branch this panel is about):
-占有期間中、平穏・公然のままか（隠匿に転じていないか）？with two branch
-arrows: いいえ（隠匿に転じた）leading to a red cross mark and a conclusion
-node reading 10年の時効は不成立; はい leading to a small grayed-out box
-captioned 次のパネルへ (indicating the shared tree continues in Panel 3).
+占有. Start node: 占有開始. A rectangular check box (NOT a diamond): 開始時に
+善意無過失, with a single arrow proceeding downward to a diamond node
+(drawn with a thicker highlighted border since this is the branch this
+panel is about): 占有期間中、平穏・公然のままか（隠匿に転じていないか）？
+with two branch arrows: いいえ（隠匿に転じた）leading to a red cross mark
+and a conclusion node reading 10年の時効は不成立; はい leading to a small,
+lighter-toned conclusion node reading 平穏・公然の要件は満たす.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず占有開始時に善意無過失だったかを確認し、次に、占有している期間中
 ずっと「平穏・公然」の状態が保たれていたかを確認します。途中で隠匿に転じ
@@ -334,16 +333,14 @@ characters):
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 善意無過失は「開始時」だけで足りる
-Diagram: The same decision-tree flowchart shape as Panel 2, on the same
-isometric timeline of 占有. Start node: 占有開始. First diamond node:
-開始時、善意無過失か？with a はい arrow proceeding downward. Second
-diamond node (drawn with a thicker highlighted border since this is the
-branch this panel is about, distinct from Panel 2's highlighted diamond):
-占有期間中に悪意に転じたか（真実に気づいてしまったか）？with the はい
-（悪意に転じた）branch leading NOT to a cross mark but to a green
-checkmark and a conclusion node reading 10年の時効は成立する, visually
-contrasting with Panel 2's red-cross outcome to show the two requirements
-behave differently.
+Diagram: A check flow on the same isometric timeline of 占有 (rectangular
+boxes, no diamonds). Start node: 占有開始. Check box 1: 開始時に善意無過失.
+A single arrow leads to check box 2 (thicker highlighted border): 占有
+期間中に悪意に転じた（真実に気づいた）, with a dotted-outline tag beside it
+reading 途中で悪意に転じても問わない. A single arrow leads NOT to a cross
+mark but to a green checkmark and a conclusion node reading 10年の時効は
+成立する, visually contrasting with Panel 2's red-cross outcome to show
+the two requirements behave differently.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず占有開始時に善意無過失だったかを確認します。次に、占有期間中に悪意に
 転じたとしても、善意無過失は「占有開始時点」だけで判断するため、時効の
@@ -357,11 +354,13 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 承継したら最初の占有者で判断
 Diagram: A decision-tree flowchart combined with a relay-race isometric
-illustration. Start node: 占有を承継したか（前の占有者からのバトンタッチ）？
-with a はい arrow proceeding downward to a second diamond node (drawn
-with a thicker highlighted border): 最初の占有者（バトンを渡した人）は、
-占有開始時に善意無過失だったか？with the はい branch highlighted, leading
-to a conclusion node reading 10年の短期時効のルールを適用。Show the relay
+illustration. Start node (rectangular check box, NOT a diamond): 前の占有者から占有を
+承継し、合算して主張する, with a single arrow proceeding downward to a
+diamond node (drawn with a thicker highlighted border): 最初の占有者（バト
+ンを渡した人）は、占有開始時に善意無過失だったか？with the はい branch
+highlighted, leading to a conclusion node reading 10年の短期時効のルールを
+適用, and the いいえ branch (thin, lighter tone) leading to its own
+conclusion node reading 20年の長期時効が必要。Show the relay
 baton being passed from a first runner figure labeled 善意無過失 to a
 second runner figure labeled 悪意, with a green checkmark at a finish
 line marked 合計10年.
@@ -378,13 +377,14 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 最初の占有者が悪意なら20年必要
 Diagram: The same decision-tree flowchart shape as Panel 4, combined with
-a mirrored relay-race isometric illustration. Start node: 占有を承継した
-か（前の占有者からのバトンタッチ）？with a はい arrow proceeding downward
-to a second diamond node (drawn with a thicker highlighted border,
-distinct from Panel 4's highlighted branch): 最初の占有者（バトンを渡した
-人）は、占有開始時に善意無過失だったか？with the いいえ（悪意）branch
-highlighted, leading to a conclusion node reading 20年の長期時効のルール
-が必要。Show the relay baton being passed from a first runner figure
+a mirrored relay-race isometric illustration. Start node (rectangular check box,
+NOT a diamond): 前の占有者から占有を承継し、合算して主張する, with a single
+arrow proceeding downward to a diamond node (drawn with a thicker
+highlighted border, distinct from Panel 4's highlighted branch): 最初の
+占有者（バトンを渡した人）は、占有開始時に善意無過失だったか？with the
+いいえ（悪意）branch highlighted, leading to a conclusion node reading
+20年の長期時効のルールが必要, and the はい branch (thin, lighter tone)
+leading to its own conclusion node reading 10年の短期時効のルールを適用。Show the relay baton being passed from a first runner figure
 labeled 悪意 to a second runner figure labeled 善意無過失, with a red
 cross mark at a finish line marked 合計10年では不足.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

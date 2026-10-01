@@ -330,16 +330,16 @@ Diagram: A decision-tree flowchart with two isometric buildings 甲建物 and
 乙建物 side by side. First diamond node: 甲建物・乙建物の両方に抵当権の
 設定の登記があるか？ with a はい arrow proceeding downward (the いいえ
 branch, where only 乙建物 has the registration, is drawn in a faded,
-greyed-out, dotted-outline style leading to a small box captioned 次の
-パネルへ, since that is Panel 2's topic). Second diamond node (drawn with
+greyed-out, dotted-outline style leading to a small conclusion box
+captioned 承諾があっても合併できない（パネル2）). Second diamond node (drawn with
 a thick highlighted border since this is the branch this panel is about):
 その抵当権の内容（登記の目的・受付年月日及び受付番号並びに登記原因及び
 その日付）は同一か？ with a いいえ branch (highlighted, showing 乙建物側
 にだけ 債権額の変更の登記 stamped on its tag) leading to a conclusion node
 reading 建物の合併の登記をすることができない with a red ✕ over the merge
 arrow between the two buildings; the はい branch is drawn in a faded,
-greyed-out, dotted-outline style leading to a small box captioned 合併可
-能（本問の対象外）.
+greyed-out, dotted-outline style leading to a small conclusion box
+captioned 内容が同一なら合併できる.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、甲建物・乙建物の両方に抵当権の登記があるかを確認します。両方にある
 場合は、次に、その抵当権の内容（登記の目的・受付年月日及び受付番号並びに
@@ -362,8 +362,9 @@ document beside it), leading directly to a conclusion node reading 承諾が
 あっても建物の合併の登記をすることができない with a red ✕ over the merge
 arrow; the はい branch of this diamond, and the second diamond node about
 matching content, are drawn in a faded, greyed-out, dotted-outline style
-leading to a small box captioned 次のパネルの話（前のパネル参照）, since
-that shared content-matching check is Panel 1's topic.
+leading to a small conclusion box captioned 内容が同一なら合併できる／
+食い違えば合併できない（パネル1）, since that shared content-matching
+check is Panel 1's topic.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、抵当権の登記が甲建物・乙建物の両方にあるか、それとも乙建物のみに
 あるかを確認します。乙建物のみにある場合は、抵当権者の承諾があっても、

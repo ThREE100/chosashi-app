@@ -340,10 +340,10 @@ it. First diamond node (thick highlighted border): この印鑑証明書は、�
 の添付書面に付けたものか、それとも同意・承諾を証する書面（令19条2項等）
 に付けたものか？Render the いいえ（通常の添付書面）branch in a faded,
 greyed-out style leading to a faded conclusion node reading 原則どおり
-還付可能（この肢では関係ない）, and highlight the はい（同意・承諾を証する
-書面）branch with a thick border, leading to a second diamond node (thick
-highlighted border): 規則55条1項ただし書が定める除外事由（令19条2項等の
-印鑑証明書）に当たるか？with a はい arrow leading to a conclusion node
+還付可能, and highlight the はい（同意・承諾を証する
+書面）branch with a thick border, leading to a rectangular check box (NOT a diamond, thick highlighted
+border): 規則55条1項ただし書が定める除外事由（令19条2項等の印鑑証明書）
+に当たる, with a single arrow leading to a conclusion node
 reading 原本の還付を請求できない, shown as the bundle being placed into a
 locked filing-cabinet icon labeled 登記所保管.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -365,6 +365,8 @@ mismatched seal icon labeled 偽造の疑い. A single diamond node: 偽造さ�
 leading to the document being placed into the same locked filing-cabinet
 icon labeled 登記所保管 with a conclusion node reading 原本の還付を請求
 できない.
+The いいえ branch (thin, lighter tone) leads to its own conclusion node
+reading 原則どおり原本の還付を請求できる.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、その添付書面が偽造されたものである疑いや、不正な登記の申請に利用
 された疑いがあるかどうかを確認します。疑いがあると認められる書面は、後日

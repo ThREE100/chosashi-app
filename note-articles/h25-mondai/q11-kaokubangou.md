@@ -333,12 +333,11 @@ characters):
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 番号は変わるが申請人からは更正できない
-Diagram: Draw this panel as an actual two-diamond decision flowchart on
-an isometric scene of a house and its land plot. Start node: 敷地の地番
-が変更・更正された。First diamond node: それに応じて家屋番号も変わるか？
-with the はい branch (highlighted with a thick border, since this is the
-first hidden check most readers skip) leading down to a second diamond
-node: その変更は誰が行うか（申請人の申請か、登記官の職権か）？with two
+Diagram: Draw this panel as a decision flowchart on an isometric scene of a
+house and its land plot. Start node: 敷地の地番が変更・更正された。A
+rectangular check box (NOT a diamond, highlighted with a thick border,
+since this is the first hidden check most readers skip): それに応じて家屋
+番号も変わる, with a single arrow leading down to a diamond node: その変更は誰が行うか（申請人の申請か、登記官の職権か）？with two
 labeled branch arrows: 申請人の申請 leading to a red cross mark and a
 conclusion node reading 家屋番号の更正登記という申請はできない; 登記官の
 職権 leading to a green checkmark and a conclusion node reading 登記官が

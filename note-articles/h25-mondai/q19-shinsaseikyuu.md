@@ -309,16 +309,13 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 参加人制度はそもそも存在しない
-Diagram: A decision-tree flowchart. Start node: 登記官の処分についての
-審査請求（不動産登記法156条1項）. Diamond node (drawn with a thick
-highlighted border): 行政不服審査法13条（参加人制度）は、不動産登記法158
-条により適用除外されているか？ with the はい branch highlighted, showing
-a mortgagee figure（抵当権者B）trying to join through a side door labeled
-参加人 that is sealed shut with a stamp reading 適用除外, leading to a
-conclusion node reading 参加人として参加する制度はそもそも存在しない. The
-いいえ branch is drawn in a faded, greyed-out, dotted-outline style,
-showing the same door left open, leading to a small box captioned 一般
-ルールどおり参加人制度が使える（今回は関係ない）.
+Diagram: A check flow of rectangular boxes (no diamonds). Start node:
+登記官の処分についての審査請求（不動産登記法156条1項）. A rectangular check box (NOT
+a diamond, thick highlighted border): 行政不服審査法13条（参加人制度）は
+不動産登記法158条により適用除外, with a single arrow showing a mortgagee
+figure（抵当権者B）trying to join through a side door labeled 参加人 that is
+sealed shut with a stamp reading 適用除外, leading to a conclusion node
+reading 参加人として参加する制度はそもそも存在しない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、参加人制度を定める行政不服審査法13条が、不動産登記法158条によって
 適用除外されているかを確認します。除外されているため、登記官の処分に
@@ -331,17 +328,13 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 審査請求に期間制限はない
-Diagram: The same decision-tree flowchart shape as Panel 1. Start node:
-登記官の処分についての審査請求（不動産登記法156条1項）. Diamond node
-(drawn with a thick highlighted border, distinct from Panel 1's
-highlighted diamond): 行政不服審査法18条（審査請求期間）は、不動産登記法
-158条により適用除外されているか？ with the はい branch highlighted,
+Diagram: The same check-flow shape as Panel 1 (rectangular boxes, no
+diamonds). Start node: 登記官の処分についての審査請求（不動産登記法156条
+1項）. A rectangular check box (thick highlighted border): 行政不服審査法
+18条（審査請求期間）は不動産登記法158条により適用除外, with a single arrow
 showing a calendar with a 60日 deadline stamp crossed out by a red ✕ and
 replaced with an infinity symbol icon labeled 期間制限なし, leading to a
-conclusion node reading 審査請求の期間制限はそもそも存在しない. The いいえ
-branch is drawn in a faded, greyed-out, dotted-outline style, showing the
-same calendar with the 60日 stamp intact, leading to a small box captioned
-一般ルールどおり期間制限がある（今回は関係ない）.
+conclusion node reading 審査請求の期間制限はそもそも存在しない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、審査請求の期間制限を定める行政不服審査法18条が、不動産登記法158条
 によって適用除外されているかを確認します。除外されているため、60日は

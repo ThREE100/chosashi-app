@@ -304,7 +304,7 @@ leading to a conclusion node reading 乙区分所有者は重ねて申請不要�
 faded, dotted-outline box captioned まだなら誰かが申請する必要あり. The
 いいえ branch of the first diamond (各区分建物専有部分の個別事項の場合)
 is drawn in a faded, greyed-out, dotted-outline style leading to a small
-box captioned 各区分建物ごとに個別の申請が必要（本問の対象外）, clearly
+box captioned 各区分建物ごとに個別の申請が必要, clearly
 less prominent than the highlighted はい path.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、変更する事項が一棟の建物に共通する事項（床面積など）かどうかを確認
@@ -381,9 +381,9 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 移転登記が済むまで申請義務なし
 Diagram: A decision-tree flowchart on an isometric condominium unit whose
-floor area increased (床面積が増加). First diamond node: 区分建物の所有権
-を取得したか？ with a はい arrow proceeding downward to a second diamond
-node (drawn with a thick highlighted border): 所有権の移転の登記が完了し、
+floor area increased (床面積が増加). A rectangular check box (NOT a
+diamond): 区分建物の所有権を取得した, with a single arrow proceeding
+downward to a diamond node (drawn with a thick highlighted border): 所有権の移転の登記が完了し、
 登記記録上の名義人になっているか？ with two equally-weighted branch
 arrows. いいえ branch (highlighted, since this is the branch this panel is
 about) leads to a conclusion node reading 表題部の変更の登記を申請する義

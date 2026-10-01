@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】令和2年度 第11問〜仮換地の建物、所在は仮換地の地番で書くんです〜
+## 【土地家屋調査士受験生向け】令和2年度 第11問〜仮換地の建物、所在は底地の地番で書くんです〜
 
 **出題年度：令和2年度　午後の部　第11問**
 
@@ -28,11 +28,11 @@
 
 **たとえば**、支号のない1番・2番・3番の3筆の土地にまたがって建っている建物なら、所在を「1番地ないし3番地」とまとめて書くことが認められています。これに対し、地番に支号が付いている場合（たとえば1番1、1番2のように枝番がある場合）は、地番が連続していてもこの略記は使えず、「1番地1、1番地2」のようにすべて列記しなければなりません。
 
-### ウ：仮換地上の建物の所在は、従前地の地番ではなく仮換地の位置・地番で表示する
+### ウ：仮換地上の建物の所在は、従前地の地番ではなく底地の地番（予定地番を括弧書き）で表示する
 
 仮換地が指定されると、従前の土地（従前地）は使えなくなり、代わりに仮換地を使用・収益できるようになります。仮換地の上に建てた建物の所在は、建物が現に存する土地の地番を表示したうえで、かっこ書きで換地の予定地番を所在として表示する取扱いになっています（先例による）。「従前の土地の地番を提供しなければならない」という本肢は誤りです。
 
-**たとえば**、区画整理で仮換地に指定された土地に家を建てたとき、その建物の所在は、実際に建物が建っている仮換地の位置・地番で表します。もともと持っていた従前地の地番で表すのではありません。
+**たとえば**、区画整理で仮換地に指定された土地に家を建てたとき、その建物の所在は、家が実際に建っている場所にもとから登記されている土地（底地）の地番で表し、かっこ書きで仮換地の予定地番を添えます。もともと持っていた従前地の地番で表すのではありません。
 
 ### エ：地番区域が異なっても、建物の合併の登記はできる
 
@@ -50,7 +50,7 @@
 
 - **ア（正）**　分割で所在が変わると、変更後の所在・変更した旨・抹消記号が記録される
 - **イ（正）**　支号のない連続地番なら「◯番地ないし◯番地」と略記可
-- **ウ（誤）**　仮換地上の建物の所在は、従前地でなく仮換地の位置・地番で表示する
+- **ウ（誤）**　仮換地上の建物の所在は、従前地でなく底地の地番（予定地番を括弧書き）で表示する
 - **エ（誤）**　建物の合併は、地番区域が異なっても申請できる（土地の合筆とは異なる）
 - **オ（正）**　桟橋上の建物の所在は最寄りの地番で「何番地先」と記録する
 
@@ -77,7 +77,7 @@
 
 - 分割で所在が変わると、抹消記号と「変更した旨」が残るんです
 - 数筆にまたがる建物、「◯番地ないし◯番地」で略記できるんです
-- 仮換地の建物、所在は「仮換地の地番」なんです
+- 仮換地の建物、所在は「底地の地番」なんです
 - 建物の合併は、地番区域が違ってもできるって知ってた？
 - 桟橋の上の建物は「◯番地先」と書くんです
 
@@ -181,14 +181,14 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 3 ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-仮換地上の所在は仮換地の地番
+仮換地上の所在は底地の地番
 Illustration: Isometric land-readjustment scene: a building stands on a
 plot labeled "仮換地". A faded, semi-transparent ghost outline of the
 original plot labeled "従前地" sits to the side with a small "使用不可"
-tag. A bold arrow points from the building down to the "仮換地" plot,
-labeled "所在は仮換地の地番で表示".
+tag. A bold arrow points from the building down to the registered land
+under that spot, labeled "所在は底地の地番（予定地番を括弧書き）".
 Conclusion tag (green banner below the illustration, 5-15 characters):
-仮換地の地番で表示
+底地の地番で表示
 
 --- CARD 4 ---
 Badge: a filled green circle containing the number 4.
@@ -351,15 +351,15 @@ Heading (bold, ONE line):
 Diagram: An isometric land-readjustment scene. A building stands on a
 plot labeled 仮換地. A faded, semi-transparent ghost outline of the
 original plot labeled 従前地 sits to the side with a small 使用不可 tag.
-A bold arrow points from the building down to the 仮換地 plot, labeled
-所在は仮換地の地番で表示.
+A bold arrow points from the building down to the registered land
+under that spot, labeled 所在は底地の地番（予定地番を括弧書き）.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、建物が仮換地の指定された土地の上に新築されたかどうかを確認しま
 す。仮換地上の建物であれば、建物の所在は従前の土地の地番ではなく、現に
-建物が存する仮換地の位置・地番で表示することを確認します。
+建物が存する場所の底地の地番に予定地番を括弧書きして表示することを確認します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-仮換地の地番で表示
+底地の地番で表示
 
 --- PANEL 4（肢エ） ---
 Badge: a filled circle in blue containing the number 4.
