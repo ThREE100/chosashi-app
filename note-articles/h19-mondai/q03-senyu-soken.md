@@ -265,9 +265,8 @@ and STEP C asks 出訴期間(1年)の起算点はどの時点か. Render all thr
 with the same three-step layout, but in each panel highlight only the ONE
 step that panel is actually about with a thick highlighted border and
 full color, and render the other two steps (including any step the option
-never even reaches) in a faded, greyed-out, dotted-outline style with a
-small「到達しない」or「この肢では問題にならない」or「この肢では言及なし」
-label, rather than omitting them - the reader should be able to see at a
+never even reaches) in a faded, greyed-out, dotted-outline style with no
+extra label, rather than omitting them - the reader should be able to see at a
 glance which single step of the shared checklist each panel is testing.
 Panel 1 (肢ア) is not a flowchart but a「正しいルール」vs「誤りやすい思い込
 み」contrast: draw the correct one-or-the-other reading of the statute in
@@ -389,7 +388,7 @@ conclusion node reading「占有回収の訴えは使えない、明渡請求で
 onward to STEP B as part of the shared checklist, but is not the
 highlighted path here). STEP B and STEP C are drawn small, desaturated,
 grey, dotted-outline boxes pushed to the side, disconnected from the
-highlighted path, each labeled「到達しない」, showing that this 肢 never
+highlighted path, with no extra label, showing that this 肢 never
 reaches those checks.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 占有回収の訴えを使えるかどうかは、まず、占有者の意思に反して占有を強制的
@@ -418,8 +417,8 @@ showing that B merely lent (貸与) the house to C while retaining
 possession through 占有代理. A green arrow from A points directly at B
 labeled「占有回収の訴えの相手方」, while a separate arrow from A pointing
 at C carries a large red X mark with a small note「単に借りているだけ」.
-STEP C is drawn small, desaturated, grey, dotted-outline, labeled「この肢
-では問題にならない」.
+STEP C is drawn small, desaturated, grey, dotted-outline, with no extra
+label.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、占有が意思に反して奪われた(侵奪された)ことを確認します。次に、相手
 方は誰かを確認します。侵奪者Bが目的物をCに貸与しただけでは、占有代理の仕
@@ -438,9 +437,8 @@ REQUIREMENT), on an isometric calendar scene; a bicycle is shown being
 taken from a house entrance, marked on one calendar date. STEP A is drawn
 in full color with a normal, not thickened, border (already satisfied but
 not this panel's focus), showing「はい」with a small note「Bが盗んだ」.
-STEP B is drawn small, desaturated, grey, dotted-outline, labeled「この肢
-では言及なし」, since the source article does not discuss this point for
-this 肢. STEP C (drawn with a thick highlighted border and full color,
+STEP B is drawn small, desaturated, grey, dotted-outline, with no extra
+label. STEP C (drawn with a thick highlighted border and full color,
 since this is the step this panel is about): 出訴期間(1年)の起算点はどの
 時点か. A「1年」countdown arrow starts exactly from the theft date and is
 highlighted with a label「占有者(A)が奪われた時」, while a later calendar

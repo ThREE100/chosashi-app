@@ -367,8 +367,7 @@ from the first diamond leads sideways to a small faded box reading 通常の
 branch is highlighted in full color and leads to a green checkmark
 conclusion node reading 131条1項により無条件として最初から有効. The 解除
 条件 branch is drawn faded, greyed-out, and dotted-outline and leads to a
-small faded conclusion node reading 131条1項により無効(このケースではな
-い).
+small faded conclusion node reading 131条1項により無効.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、契約を結んだ時点で、条件とした事実がすでに発生していた既成条件の
 ケースかどうかを確認します。次に、その条件が停止条件か解除条件かを確認
@@ -417,8 +416,7 @@ highlighted in full color and leads to a green checkmark conclusion node
 reading 134条の対象外、契約は無効にならない. The 停止条件 branch is drawn
 faded, greyed-out, and dotted-outline (this is Panel 2's own branch, and
 also the case where 134条 actually WOULD invalidate the contract) and
-leads to a small faded conclusion node reading 134条により無効(このケース
-ではない).
+leads to a small faded conclusion node reading 134条により無効.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この条件が「Fの気が変わったら」という、債務者の意思のみに係る随意
 条件であることを確認します。次に、その随意条件が停止条件か解除条件かを

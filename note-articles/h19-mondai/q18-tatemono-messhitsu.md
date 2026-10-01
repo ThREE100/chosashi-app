@@ -330,20 +330,18 @@ Heading (bold, ONE line):
 Diagram: A decision-flowchart drawn beside an isometric scene: a small
 memorial-tablet icon (亡くなった所有権登記名義人) with two adult child
 figures labeled 「B」(建物を取り壊した相続人)と「C」(申請しようとする他の
-相続人). First diamond node: 相続登記(所有権移転登記)を経る前か？with はい
-leading down and a small side note 経ていなくても結論には影響しない, and
-いいえ also merging into the same downward path to show the answer to this
-question does not change the outcome. Second diamond node (drawn with a
-thicker highlighted border, since this is the肢の核心): Cが単独で申請する
-には相続人B・C全員の同意が必要か？with いいえ leading to a green checkmark
-conclusion node reading Cは一般承継人として単独で滅失登記を申請できる, and
-はい crossed out with a large red ✕ and labeled 誤った思い込み to show
-that full agreement is not actually required. No arrow loops back into
+相続人). One diamond node (drawn with a thicker highlighted border, since this is
+the肢の核心): 申請するCは、死亡した所有権の登記名義人の相続人(一般承継人)
+か？with はい leading to a green checkmark conclusion node reading Cは一般
+承継人として単独で滅失登記を申請できる, and a faded いいえ branch leading to
+a faded conclusion node reading 申請人になれない. Beside the green conclusion
+node, two small faded, dotted-outline tags (no ○/✕ mark on either) read
+相続登記の有無は問わない and 他の相続人の同意は不要. No arrow loops back into
 the flowchart from either conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、相続登記(所有権移転登記)を経ているかどうかを確認しますが、この点は
-結論を左右しません。次に、相続人全員の同意が必要かを確認し、一般承継人で
-あれば単独で申請できると判断します。
+まず、申請するCが死亡した所有権の登記名義人の相続人(一般承継人)かを確認
+します。相続人であれば、相続登記を経ていなくても、他の相続人の同意がなく
+ても、単独で滅失登記を申請できると判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一般承継人が単独申請
@@ -354,19 +352,18 @@ Heading (bold, ONE line):
 抵当権者の承諾書は添付不要
 Diagram: A decision-flowchart drawn over an isometric house icon with a
 bank/mortgage plaque (抵当権) attached, being demolished by a wrecking
-ball. First diamond node: 建物に抵当権が設定されているか？with はい
-leading down (この問題の前提、この点自体は結論を左右しないと横に小さく
-注記). Second diamond node (drawn with a thicker highlighted border, since
-this is the肢の核心): 共用部分である旨の登記または団地共用部分である旨の
+ball. A small faded, dotted-outline tag beside the house reads 抵当権の有無は問わ
+ない (no ○/✕ mark). One diamond node (drawn with a thicker highlighted
+border, since this is the肢の核心): 共用部分である旨の登記または団地共用部分である旨の
 登記がある建物か？with いいえ leading to a green checkmark conclusion node
 reading 通常の建物は抵当権者の承諾を証する情報の添付は不要, and はい
 leading to a separate faded conclusion node reading 共用部分登記がある
-建物は所有者を証する情報の添付が必要(この問題の建物には該当しない). No
+建物は所有者を証する情報の添付が必要. No
 arrow loops back into the flowchart from either conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、建物に抵当権が設定されているかを確認しますが、この点自体は結論を
-左右しません。次に、共用部分である旨の登記がある特殊な建物かどうかを確認
-し、通常の建物であれば抵当権者の承諾を証する情報の添付は不要と判断します。
+まず、共用部分である旨の登記がある特殊な建物かどうかを確認します。通常の
+建物であれば、抵当権が設定されていても抵当権者の承諾を証する情報の添付は
+不要と判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾情報は添付不要
@@ -376,10 +373,10 @@ Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 表示登記の申請人は印鑑証明書不要
 Diagram: A decision-flowchart drawn over a hand pressing a plain round
-personal seal (認印) onto a 委任状 (power of attorney) document. First
-diamond node: 代理人に書面で登記を委任するか？with はい leading down (この
-問題の前提). Second diamond node (drawn with a thicker highlighted
-border, since this is the肢の核心): 申請人が不動産登記規則47条3号に列挙
+personal seal (認印) onto a 委任状 (power of attorney) document. A
+rectangular premise box (not a diamond) at the top reads 代理人に書面で登記を
+委任する場面, with an arrow leading down to one diamond node (drawn with a
+thicker highlighted border, since this is the肢の核心): 申請人が不動産登記規則47条3号に列挙
 された類型(登記義務者等)に該当するか？with はい leading to a separate
 conclusion node reading 委任状に押した印鑑につき作成後3か月以内の印鑑証明
 書の添付が必要, and いいえ leading to a green checkmark highlighted
@@ -387,7 +384,7 @@ conclusion node reading 建物の滅失登記(表示に関する登記)の申請
 よく証明書は不要. No arrow loops back into the flowchart from either
 conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、代理人に書面で登記を委任するかを確認します。次に、申請人が不動産
+代理人に書面で登記を委任する場面で、申請人が不動産
 登記規則47条3号に列挙された登記義務者等の類型に該当するかを確認し、
 該当しない表示に関する登記の申請人であれば、委任状は認印でよく印鑑証明書
 は不要と判断します。

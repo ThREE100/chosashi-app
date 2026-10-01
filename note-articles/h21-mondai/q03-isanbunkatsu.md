@@ -339,10 +339,11 @@ Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 放棄者は同意があっても当事者に戻れない
 Diagram: An actual decision flowchart: first diamond node 相続放棄をした
-か、with はい highlighted; second diamond node 他の共同相続人全員の同意は
-あるか、drawn with both the はい and いいえ branches converging into the
-same single conclusion node（この条件は結果を左右しないことを示す）遺産分
-割協議の当事者にはなれない. Illustration: an isometric meeting table with
+か、with はい highlighted, leading to a conclusion node 遺産分割協議の当事者
+にはなれない, and a faded いいえ branch leading to a faded conclusion node
+相続人として協議の当事者になる. Beside the highlighted conclusion node, a
+small faded, dotted-outline tag reads 他の共同相続人全員の同意は問わない
+(no ○/✕ mark on the tag) — draw no diamond for the consent. Illustration: an isometric meeting table with
 three seated figures at the same generation level and one faded
 translucent figure standing outside a dashed boundary, labeled「相続放棄
 者」and marked with a red ✕; three small speech bubbles from the seated

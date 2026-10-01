@@ -339,16 +339,17 @@ Heading (bold, ONE line):
 四要素がすべて一致すれば正しい
 Diagram: A single isometric figure labeled 学生ア holds up a speech-bubble
 document containing the description text, feeding into a vertical
-decision flowchart of four diamond-shaped check nodes stacked top to
-bottom, each connected by a downward ○ arrow: (1) a diamond labeled
+checklist of four rectangular check boxes (NOT diamonds — each box is a
+definition element to match, not a branch) stacked top to bottom, each
+connected by a downward arrow and each carrying a small green ✓: (1) a box labeled
 「申請人は所有権登記名義人等か」 next to a small icon of a person handing an
-application document through a 法務局 counter window; (2) a diamond
+application document through a 法務局 counter window; (2) a box
 labeled 「判断するのは筆界特定登記官か」 next to an isometric official
-wearing a name badge reading 筆界特定登記官; (3) a diamond labeled
+wearing a name badge reading 筆界特定登記官; (3) a box labeled
 「対象は当該土地及び隣接する他の土地か」 next to two adjacent isometric land
-plots connected by a red dashed boundary line; (4) a diamond labeled
+plots connected by a red dashed boundary line; (4) a box labeled
 「内容は現地における筆界の位置の特定か」 next to a magnifying glass hovering
-over the dashed boundary line. After all four diamonds, a final green
+over the dashed boundary line. After all four boxes, a final green
 conclusion node with a checkmark reading 「定義と一致」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず申請人が誰かを確認し、次に判断する機関、対象となる土地、特定する内容の

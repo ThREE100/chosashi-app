@@ -327,12 +327,10 @@ continuously through all panels).
 Heading (bold, ONE line):
 屋外階段は屋根の有無を問わず不算入
 Diagram: A decision-flowchart diagram. Diamond node 1 labeled 「階段は
-建物の外側にあるか」. If ○ (Yes): arrow down to diamond node 2 labeled
-「屋根があるか」, with both its ○ branch arrow and its ✕ branch arrow
-converging into a single conclusion node reading 「床面積に算入しない」,
-and a small red X stamped over a separate icon labeled 「屋根の有無」next
-to that conclusion node to visually show this condition does not change
-the outcome. If ✕ (No) from node 1 (the staircase is indoor, e.g. a
+建物の外側にあるか」. If ○ (Yes): arrow down to a conclusion node reading
+「床面積に算入しない」, with a small faded, dotted-outline tag beside it
+reading 「屋根の有無は問わない」(no ○/✕ mark on the tag), to show this
+condition does not change the outcome — draw no diamond for the roof. If ✕ (No) from node 1 (the staircase is indoor, e.g. a
 stairwell or elevator shaft): arrow down to a separate conclusion node
 reading 「床面積に算入する」, with a small footnote tag 「準則82条6号」next
 to it. Render node 1 near the top of the panel and both conclusion nodes

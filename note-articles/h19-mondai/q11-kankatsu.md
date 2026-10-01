@@ -424,7 +424,7 @@ separate conclusion node reading 「管轄区域をまたぐ問題自体が生�
 From the first diamond node, a 「いいえ」 arrow leads sideways to a
 faded, dotted-outline conclusion node (rendered in grey, clearly set
 apart from the main coloured flow) reading 「最初からまたがる新築等は法
-6条2項の指定申請の場面（本肢とは別のケース）」.
+6条2項の指定申請の場面」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、対象の建物がもともと甲登記所ですでに登記されている既存の建物かを
 確認します。次に、その建物が増築等によって乙登記所の管轄区域にまたがる
