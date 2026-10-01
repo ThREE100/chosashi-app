@@ -331,12 +331,11 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 口授できなくても代替手段があれば足りる
-Diagram: A decision-tree flowchart at a notary office. Start node: 遺言者
-は公証人に対して口授(言葉で伝えること)ができるか？ First diamond node
-with a いいえ arrow proceeding downward to a second diamond node: 通訳人
-の通訳による申述や自書といった代替手続が用意されているか？ with a はい
-arrow leading to a green conclusion node reading 公正証書遺言を利用でき
-る。Illustration around the flowchart: a human figure communicating by
+Diagram: A top-to-bottom check flow at a notary office (rectangular boxes, no
+diamonds). Start box: 遺言者は口がきけず、公証人に口授(言葉で伝えること)
+ができない. Arrow down to a second box: 通訳人の通訳による申述や自書で口授に
+代えることができる(民法969条の2). Arrow down to a green conclusion node
+reading 公正証書遺言を利用できる。Illustration around the flowchart: a human figure communicating by
 sign language or writing on paper toward a notary figure seated at a
 desk, with two witness figures standing beside them.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
