@@ -386,8 +386,8 @@ application document with a label reading 申請意思の有無も調査の対�
 ある. Bottom frame, drawn with a green ○ and a thick highlighted border,
 labeled 正しいルール: the same identification card and application
 document, with a magnifying glass over a label reading 申請の権限の有無
-（法24条1項）, and a separate face-mask icon labeled なりすまし carrying
-a green ✓ mark showing this is what the check targets.
+（法24条1項）, and a separate face-mask icon labeled なりすまし under the
+same magnifying glass, showing this is what the check is meant to catch.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、法24条1項が調査の対象として掲げているのが「申請の権限の有無」で
 あることを確認します。申請意思の有無は、この条文が調査の対象として挙げ

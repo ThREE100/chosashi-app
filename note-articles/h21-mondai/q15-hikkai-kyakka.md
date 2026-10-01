@@ -44,7 +44,7 @@
 
 ### オ：一筆の一部を取得した者の申請も、却下されない
 
-一筆の土地の一部の所有権を取得した者も、その土地の所有者として筆界特定の申請の申請人となり得ると解されており、取得した部分以外の土地部分の筆界についてする申請であっても、そのことを理由に却下されるものではないとされています。したがって、この申請は却下されません。
+一筆の土地の一部の所有権を取得した者も、その土地の所有者として筆界特定の申請の申請人となり得ると解されており（不動産登記規則207条2項4号は「申請人が一筆の土地の一部の所有権を取得した者であるときは、その旨」を申請情報とし、209条1項5号はその取得を証する情報の提供を求めています）、取得した部分以外の土地部分の筆界についてする申請であっても、そのことを理由に却下されるものではないとされています。したがって、この申請は却下されません。
 
 **たとえば**、一筆の土地の一部を買い受けた人が、その土地全体の筆界のうち自分が取得した部分以外の側の筆界について特定を求めたとしても、その申請が直ちに門前払いされるわけではありません。
 
@@ -411,7 +411,7 @@ boundary line on the far side tagged 他の部分の筆界. Step 1 (diamond
 node): 申請人は所有権登記名義人等に当たるか. Its はい (○) branch, drawn
 in full color, leads to its own conclusion node: 申請人になれる（却下さ
 れない）, shown with a green ✓ mark, and carries a small attached label
-reading ※条文の明文ではなく制度趣旨・実務上の取扱いによる結論. Its
+reading 一部取得者も申請人（規則207条2項4号・209条1項5号）. Its
 いいえ (✕) branch, together with the conclusion node it would lead
 to（申請の権限を有しない者として却下される）, is rendered as a faded,
 greyed-out, dotted-outline stub, since this 肢 does not take that branch.
