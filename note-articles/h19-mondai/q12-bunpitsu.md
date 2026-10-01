@@ -16,11 +16,11 @@
 >
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-分筆の登記は「誰が申請人になれるのか」がよく問われる分野です。分筆は単に現況を正しく公示するだけの登記ではなく、一つの土地から新たに区画（筆）を創設する登記であるため、共有地の場合には共有者全員の関与が原則として必要になる、という点が他の表示登記（地目変更や地積更正など）との大きな違いです。この「全員関与の原則」を軸に、ア〜オを一つずつ検討していきます。
+分筆の登記は「誰が申請人になれるのか」がよく問われる分野です。分筆は単に現況を正しく公示するだけの登記ではなく、一つの土地から新たに区画（筆）を創設する登記であるため、共有地の場合には共有者の持分の価格の過半数が必要になる（出題当時は共有者全員の関与が必要とされていました）、という点が他の表示登記（地目変更や地積更正など）との大きな違いです。この「持分の価格の過半数」の原則を軸に、ア〜オを一つずつ検討していきます。
 
 ### ア：管理者を定めているだけでは、理事長が単独で分筆登記を申請できるとは言えない
 
-不動産登記法39条1項は、分筆の登記の申請人を「表題部所有者又は所有権の登記名義人」に限定しています。敷地権付き区分建物の目的となっている土地（敷地）は、その区分建物の各区分所有者の共有に属しており、共有地の分筆登記は、共有者全員が申請人となることが原則です（分筆は土地の区画そのものを変える登記であり、共有物に変更を加えるには共有者全員の同意を要するとする民法251条1項の考え方から、一部の共有者からの申請だけで完了する保存行為的な登記とは扱われていません）。
+不動産登記法39条1項は、分筆の登記の申請人を「表題部所有者又は所有権の登記名義人」に限定しています。敷地権付き区分建物の目的となっている土地（敷地）は、その区分建物の各区分所有者の共有に属しており、共有地の分筆登記は、共有物の軽微変更として、令和5年4月1日施行の民法改正後の民法251条1項かっこ書き・252条1項により、各共有者の持分の価格の過半数で決することができ、登記実務でも、持分の価格の過半数を有する共有者から申請できる扱いになっています（出題当時は共有者全員が申請人となることが原則でした）。
 
 一方、区分所有法26条2項は「管理者は、その職務に関し、区分所有者を代理する」と定めていますが、この代理権は同条1項が定める職務（共用部分等の保存、集会決議の実行、規約で定めた行為）に関する範囲にとどまります。管理組合の理事長を管理者として定めたという事実だけから、当然に、敷地の分筆という共有者全員の利害に関わる行為について理事長が単独で（=自らが申請人であるかのように）申請できる、という結論は導けません。理事長が区分所有者全員のために代理人として申請書に署名すること自体は規約や決議の内容次第でありうるとしても、それは「全員が申請人であることを前提に、その代理人として動く」のと、「理事長が単独で申請できる」のとでは意味が異なります。設問はこの点を混同させており、誤りです。
 
@@ -44,23 +44,25 @@
 
 **たとえば**、甲地（承役地）全部に、乙地（要役地）を要役地とする通行地役権の登記があるとします。その後、乙地についてＤさんへの所有権移転の仮登記がされました。甲地の一部（丙地）を分筆して、丙地についてだけ地役権を消滅させたい場合には、現在の地役権者（乙地の所有権登記名義人）の承諾書に加えて、将来乙地の所有者になる可能性があるＤさんの承諾書も用意しておく必要があります。
 
-### オ：未成年者も共有者である以上、申請人から外すことはできない
+### オ：Ｂ及びＣの持分の合計が過半数であれば、未成年者Ａを申請人としなくても申請できる（出題当時は誤り）
 
-分筆登記の申請人は表題部所有者・所有権登記名義人に限られ、共有地の場合は共有者全員が申請人となることが原則です。甲地がＡ（未成年者）・Ｂ（父）・Ｃ（母）の3名の共有である場合、Ａも共有者（所有権登記名義人）である以上、Ａも申請人の一人とならなければなりません。Ａが未成年者であるため、実際の手続では法定代理人であるＢ・Ｃが親権者としてＡを代理して署名等を行いますが（民法824条）、これは「Ａを申請人から外して、Ｂ・Ｃのみが申請人になる」ということではなく、「Ａ・Ｂ・Ｃの3名が申請人であり、Ａの分はＢ・Ｃが法定代理人として代理する」という構造です。設問の「Ｂ及びＣのみが申請人として…申請することができる」という記述は、共有者であるＡを申請人から除外してしまっており、誤りです。
+分筆登記の申請人は表題部所有者・所有権登記名義人に限られ、共有地の場合は、現行法では各共有者の持分の価格の過半数を有する共有者から申請できます（令和5年4月1日施行の民法251条1項かっこ書き・252条1項。出題当時は共有者全員が申請人となることが原則でした）。甲地がＡ（未成年者）・Ｂ（父）・Ｃ（母）の3名の共有である場合、Ｂ・Ｃの持分の合計が過半数であれば、Ａを申請人に加えなくても、Ｂ及びＣのみが申請人として分筆の登記を申請することができます。出題当時は、共有者であるＡも申請人の一人とならなければならず（Ａの分はＢ・Ｃが法定代理人として代理します。民法824条）、「Ｂ及びＣのみが申請人として…申請することができる」とする本肢は誤りでしたが、現行法では、持分が各3分の1などでＢ・Ｃの合計が過半数であれば正しい記述になります。
 
-**たとえば**、甲地をＡ（未成年の子）・Ｂ（父）・Ｃ（母）の3人で共有しているとします。分筆登記を申請するときは、Ｂ・Ｃが自分たち自身の共有者としての立場に加えて、Ａの法定代理人としてＡの分もあわせて手続をしますが、書類上「申請人」として名前が並ぶのはＡ・Ｂ・Ｃの3人です。「子どもは関係ないから父母だけで申請できる」というわけではありません。
+**たとえば**、甲地をＡ（未成年の子）・Ｂ（父）・Ｃ（母）の3人が3分の1ずつ共有しているとします。Ｂ・Ｃの持分の合計は3分の2で過半数ですから、Ａを申請人に加えなくても、Ｂ・Ｃの二人が分筆登記の申請人になれます（出題当時は、Ａ・Ｂ・Ｃの3名が申請人となり、Ａの分はＢ・Ｃが法定代理人として代理する必要がありました）。
 
 ### まとめ
 
-- **ア（誤）**　管理者（理事長）を定めているという事実だけでは、共有地の分筆登記を理事長単独で申請できることにはならない
+- **ア（誤）**　管理者（理事長）を定めているという事実だけでは、理事長が単独で分筆登記を申請できることにはならない（現行法でも誤り）
 - **イ（正）**　分筆登記は保存行為にとどまるため、不在者財産管理人は家庭裁判所の許可を要しない
 - **ウ（正）**　協力しない相続人がいても、代位によりその者に代わって分筆登記を申請できる
 - **エ（正）**　要役地に所有権移転の仮登記名義人がいる場合、地役権消滅の分筆登記には仮登記名義人の承諾を証する情報も必要
-- **オ（誤）**　未成年者も共有者である以上、申請人から除外することはできず、父母のみを申請人とすることはできない
+- **オ（出題当時は誤／現行法では正）**　Ｂ・Ｃの持分の合計が過半数であれば、未成年者Ａを申請人に加えなくても、Ｂ及びＣのみで申請できる（出題当時はＡも申請人となる必要があった）
 
-分筆の登記は「共有地は原則として共有者全員が申請人になる」という前提を押さえておくと、管理者・財産管理人・代位・未成年者といった応用パターンも整理しやすくなります。
+分筆の登記は「共有地は持分の価格の過半数を有する共有者が申請できる（出題当時は共有者全員）」という前提を押さえておくと、管理者・財産管理人・代位・未成年者といった応用パターンも整理しやすくなります。
 
-**正解：ア・オの組合せ（選択肢2番）**
+**正解（出題当時）：ア・オの組合せ（選択肢2番）**
+
+**2026年時点の法令で解く場合の注意**：肢オが（持分が各3分の1などＢ・Ｃの合計が過半数であれば）正しい記述になるため、誤っているものは肢アだけとなり、選択肢1〜5（アウ・アオ・イウ・イエ・エオ）のどれにも一致しません。現行法で出題し直すには問題文の修正が必要です。修正案：肢オを「甲地について、未成年者Ａ、Ａの父Ｂ及び母Ｃが各3分の1の持分で共有する旨の登記がある場合には、Ｂのみが申請人として甲地の分筆の登記を申請することができる。」とすると、肢オは誤りの記述となり、正解はア・オ（選択肢2番）のまま変わりません。
 
 ---
 
@@ -69,8 +71,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典（平成19年度午前の部第12問）・正解番号（2番＝ア・オ）は、ユーザー提供の原本書き起こしに基づいています。
 - 条文レベルで確認できた根拠（いずれも`note-articles/laws/`のローカル法令データベース原文で直接突合済みです）：不動産登記法39条1項（分筆・合筆の登記の申請人は表題部所有者又は所有権の登記名義人に限られる旨。`fudousan-touki-hou.md`）、不動産登記法40条（分筆に伴う権利消滅の登記は権利の登記名義人の承諾を証する情報の提供を要する旨。`fudousan-touki-hou.md`）、不動産登記令3条4号・7条1項3号（代位申請の場合、代位者・代位原因を申請情報の内容とし、代位原因を証する情報を添付情報とする旨。`fudousan-touki-rei.md`）、民法103条・28条（不在者財産管理人の権限は保存行為等に限られ、これを超える行為には家庭裁判所の許可を要する旨。`minpou-1-soukyoku-bukken.md`）、民法251条1項（共有物に変更を加えるには他の共有者の同意を要する旨。`minpou-1-soukyoku-bukken.md`）、民法824条（親権者は子の財産に関する法律行為について子を代表する旨。`minpou-3-shinzoku-souzoku.md`）、区分所有法26条1項・2項（管理者の権限は共用部分等の保存・集会決議の実行・規約で定めた行為に関する職務の範囲にとどまる旨。`kubunshoyuu-hou.md`）。
+- **肢ア・オの最新法令への統一（2026-10-01、ユーザー指示）**：下の「修正（2026年8月再検証）」の時点では、令和5年改正で過半数ルールが新設されたとする記述を、裏付けが取れないとして削除していました。2026-10-01にユーザーから、令和5年4月1日施行の民法251条1項かっこ書き・252条1項（形状又は効用の著しい変更を伴わない変更は持分の価格の過半数）に基づく説明に統一するよう指示があったため、本文・まとめ・図解の「共有者全員が申請人」とする説明を「持分の価格の過半数」に改めました（分筆を共有物の軽微変更として扱う点を定めた通達の原文は未確認）。この結果、肢アは現行法でも誤ですが、肢オは出題当時は誤・現行法では（Ｂ・Ｃの持分の合計が過半数なら）正になり、現行法で解くと誤りの肢がアのみとなって選択肢に該当がなくなります（正解の欄に問題文の修正案を記載）。
 - **修正（2026年8月再検証）**：本文及び本ブロックが従来「不動産登記法59条7号」を代位申請の根拠条文として引用していましたが、同条は権利に関する登記の登記事項を定める規定であり、分筆の登記のような表示に関する登記の代位申請には適用されません。代位申請の根拠は、申請情報について定める不動産登記令3条4号、添付情報について定める同令7条1項3号であり、本文・本ブロックともに訂正しました。また、従来「この原則（共有者全員が申請人となる原則）は令和5年4月の民法・不動産登記法改正により、共有者の持分の過半数で分筆登記を申請できる特則が新設された」という記述がありましたが、そのような特則の存在は`note-articles/laws/`の不動産登記法・不動産登記令・民法いずれの原文からも確認できず、裏付けの取れない誤った情報であったため削除しました。共有物に変更を加えるには共有者全員の同意を要するという原則（民法251条1項）は、令和3年法律24号による改正（令和5年4月1日施行）後も変わっていません。同改正では、共有者の一部が不特定・所在不明である場合に限り、裁判所の関与のもとで残りの共有者が変更行為をできる旨の規定（民法251条2項）が新設されましたが、これは所在等が判明している共有者の同意を要しないとする一般的な過半数ルールではなく、本問（平成19年当時、かつ共有者全員の所在が判明している事案）の結論には影響しません。
-- アの結論（理事長が単独で申請することはできない）は、上記の「共有地の分筆登記は共有者全員が申請人となる」という原則（民法251条1項）と、区分所有法26条2項（管理者の代理権はその職務に関する事項に限られる）を組み合わせた推論です。区分所有法26条の管理者の代理権が、規約や集会の決議によって敷地の分筆申請にまで及ぶ場合が実務上まったく存在しないのかまでは断定できておらず、この部分は一般原則からの推論にとどまります。なお、令和6年度午前の部第8問オ・平成28年度午前の部第2問オでも、管理組合の理事長が管理者として定められているだけでは分筆登記を単独で申請できない旨が問われており、本問と同一の論点が繰り返し出題されています。
+- アの結論（理事長が単独で申請することはできない）は、共有地の分筆登記は持分の価格の過半数を有する共有者が申請できるという原則（民法251条1項かっこ書き・252条1項。2026-10-01に改めた）と、区分所有法26条2項（管理者の代理権はその職務に関する事項に限られる）を組み合わせた推論です。区分所有法26条の管理者の代理権が、規約や集会の決議によって敷地の分筆申請にまで及ぶ場合が実務上まったく存在しないのかまでは断定できておらず、この部分は一般原則からの推論にとどまります。なお、令和6年度午前の部第8問オ・平成28年度午前の部第2問オでも、管理組合の理事長が管理者として定められているだけでは分筆登記を単独で申請できない旨が問われており、本問と同一の論点が繰り返し出題されています。
 - エの承諾情報（仮登記名義人の承諾）については、地役権消滅に伴う分筆登記に地役権者の承諾を証する情報が必要である旨は不動産登記法40条で確認できましたが、要役地について所有権移転の仮登記がある場合に仮登記名義人の承諾も別途必要になる旨までは、条文（不動産登記令別表等）の該当箇所を一次資料で文字単位まで確認できていません。この部分は正解の組合せ（2番＝ア・オ、エは正しい記述）を前提とした理解にとどまります。
 - ウの代位申請の可否については、不動産登記令3条4号・7条1項3号（代位者及び代位原因を申請情報の内容とし、代位原因を証する情報の提供を要する旨）という代位申請一般の制度から導いたものであり、遺産分割調停調書を代位原因証明情報として用いる具体的な先例番号までは確認していません。
 - **重複出題チェック（2026年8月実施）**：`src/data/takuitsu.json`を検索し、他年度で「分筆の登記」を主題とする問題（令和6年度第8問、令和2年度第9問、平成28年度第2問、平成26年度第10問、平成25年度第9問、平成22年度第18問、平成18年度第14問、平成17年度第6問など）を洗い出しました。本問と全肢の組合せが一致する完全な重複問題は見つかりませんでしたが、個別の論点は繰り返し出題されています。特に平成28年度第2問オ（敷地権の種類が賃借権のケースで、管理組合の理事長が管理者と定められていても単独で分筆登記を申請できない旨。正解は誤）は、本問アと同じ「管理者＝理事長というだけでは共有地の分筆登記を単独で申請できない」という論点を別の事案設定で問うており、近い出題です。また、代位による分筆登記の可否（令和2年度第9問オ、平成22年度第18問ア、平成18年度第14問オ、平成17年度第6問肢2）も本問ウと同じ論点が繰り返し出題されています。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
@@ -86,13 +89,13 @@
 - 財産管理人は、許可なしで分筆できるんです
 - 協力してくれない相続人、代位で乗り越えられるんです
 - 仮登記の人にも、承諾をもらう必要があるんです
-- 未成年でも共有者、申請人から外せないんです
+- 持分が過半数なら、未成年の共有者がいても父母だけで申請できるんです
 
 ---
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「共有地の分筆登記は共有者全員が申請人になる」という原則が、管理者・未成年者・代位・不在者財産管理人・地役権の仮登記名義人という5つの応用場面でどう働くかを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する計5枚のポスター型カードで俯瞰する構成。
+「共有地の分筆登記は持分の価格の過半数を有する共有者が申請できる」という原則が、管理者・未成年者・代位・不在者財産管理人・地役権の仮登記名義人という5つの応用場面でどう働くかを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する計5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -147,7 +150,7 @@ Title (large, bold, 1行):
 分筆登記、申請人になれるのは？
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第12問－共有者全員が申請人になる原則と5つの応用場面
+平成19年度 午前の部 第12問－持分の過半数で申請できる原則と5つの応用場面
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -163,10 +166,10 @@ Illustration: An isometric apartment building standing on a shared land
 plot, surrounded by ten small human figure icons representing the unit
 owners. One figure wearing a necktie labeled 「理事長」 tries to press a
 single stamp onto an application document, with a large red X mark over
-his lone stamp. Beside it, all ten figures together hold one large stamp
-reading 「共有者全員」 with a green checkmark.
+the lone stamp. Beside it, six of the ten figures (a majority) together
+hold one large stamp reading 「持分の過半数」 with a green checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-共有者全員が申請人
+持分の過半数が申請人
 
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
@@ -183,15 +186,15 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 3 ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-未成年者も共有者、外せない
+未成年者がいても過半数で可
 Illustration: An isometric land plot shared by three human figures of
-different sizes — a small child figure labeled Ａ standing in the middle,
-flanked by two adult figures labeled Ｂ（父）and Ｃ（母）with a protective
-hand on the child's shoulders. All three names appear together on the
-application document, next to a separate crossed-out document showing
-only 「Ｂ・Ｃ」 with a large red X mark.
+different sizes, each with a small "1/3" tag — a small child figure
+labeled Ａ standing in the middle, flanked by two adult figures labeled
+Ｂ（父）and Ｃ（母）with a protective hand on the child's shoulders. The
+application document carries only the names 「Ｂ・Ｃ」 with a green
+checkmark, while Ａ stands beside it, not required.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-親権者が代理するだけ
+父母の過半数で申請可
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 許可・承諾の要否
@@ -243,7 +246,7 @@ channel anywhere.
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-分筆登記の申請人適格をめぐる5つの場面（ア：理事長の代理権の範囲、イ：財産管理人の許可要否、ウ：協力しない相続人への代位、エ：仮登記名義人の承諾の要否、オ：未成年者の除外可否）について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。ア・ウ・オは「共有地の分筆登記は共有者全員が申請人になる」という同じ出発点から始まる決定木として、イは保存行為（民法103条）の該当性判定、エは承諾情報（不動産登記法40条）の要否を2段階で確認する決定木として、それぞれ組み立てた。オだけは、正誤対比型（誤りやすい思い込み「未成年者は除外できる」と、正しいルール「未成年者も申請人」を左右で対比する構図）を採用し、決定木一辺倒にならないよう型を変えている。
+分筆登記の申請人適格をめぐる5つの場面（ア：理事長の代理権の範囲、イ：財産管理人の許可要否、ウ：協力しない相続人への代位、エ：仮登記名義人の承諾の要否、オ：未成年者を除いた父母のみの申請の可否）について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。ア・ウ・オは「共有地の分筆登記は持分の価格の過半数を有する共有者が申請できる」という同じ出発点から始まる決定木として、イは保存行為（民法103条）の該当性判定、エは承諾情報（不動産登記法40条）の要否を2段階で確認する決定木として、それぞれ組み立てた。オだけは、正誤対比型（誤りやすい思い込み「未成年者がいないと申請できない」と、正しいルール「父母の持分が過半数なら申請できる」を左右で対比する構図）を採用し、決定木一辺倒にならないよう型を変えている。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -331,7 +334,7 @@ Heading (bold, ONE line):
 Diagram: Vertical decision flowchart with three diamond-shaped nodes
 stacked top to bottom, connected by downward arrows, drawn above an
 isometric illustration. Diamond 1: 「敷地は共有地か」→ arrow labeled
-「はい」→ box 「原則:共有者全員が申請人(不動産登記法39条1項)」. Diamond 2:
+「はい」→ box 「原則:持分の価格の過半数を有する共有者が申請人(不動産登記法39条1項・民法252条1項)」. Diamond 2:
 「管理者の代理権の範囲は(区分所有法26条2項)」→ arrow labeled「職務の範囲内
 のみ」→ box「共用部分の保存・集会決議の実行・規約で定めた行為に限る」.
 Diamond 3: 「敷地の分筆はその職務に含まれるか」→ arrow labeled「いいえ」→
@@ -340,13 +343,13 @@ the flowchart, an isometric apartment building standing on a shared
 rectangular land plot, surrounded by ten small isometric human figure
 icons representing the unit owners. One figure wearing a necktie labeled
 「理事長」presses a single stamp onto an application document with a large
-red ✕ mark over it, while all ten figures together hold one large stamp
-reading 「共有者全員」with a green checkmark, visually echoing the
+red ✕ mark over it, while six of the ten figures (a majority) together hold one large stamp
+reading 「持分の過半数」with a green checkmark, visually echoing the
 flowchart's conclusion.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず敷地の共有者全員に申請人適格があるかを確認し、次に管理者(理事長)の代理
-権がその職務の範囲に限られていないかを確認します。敷地の分筆のように共有者
-全員の利害に関わる行為は、通常その職務には含まれません。
+まず敷地の共有者のうち持分の過半数を有する者が申請人となっているかを確認し、
+次に管理者(理事長)の代理権がその職務の範囲に限られていないかを確認します。
+管理者を定めただけでは、理事長が単独で分筆の申請人になることはできません。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 理事長単独は不可
@@ -380,8 +383,8 @@ continuously through all panels).
 Heading (bold, ONE line):
 非協力の相続人がいても代位で進める
 Diagram: Vertical decision flowchart with two diamond-shaped nodes.
-Diamond 1: 「名義人(相続人)全員が分筆登記の申請に協力しているか」→ arrow
-labeled「協力しない者がいる」. Diamond 2: 「その者に対して登記を求める権利
+Diamond 1: 「申請人となる名義人(相続人)の持分は過半数に達しているか」→ arrow
+labeled「協力しない者がいて達しない」. Diamond 2: 「その者に対して登記を求める権利
 (代位原因)を証する情報があるか」→ arrow labeled「ある(調停調書)」→ final
 conclusion node (green-outlined box) 「代位により単独で申請できる」. Below
 the flowchart, an isometric land plot split into two lots by a dotted
@@ -390,8 +393,8 @@ small red label 「非協力」, while Ａ holds up a document labeled 「調停
 書」and presses the application stamp for both lots, with a curved arrow
 labeled 「代位」pointing from Ａ toward Ｂ's portion.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず共有者(相続人)全員が分筆登記の申請に協力しているかを確認し、協力しない
-者がいる場合は、その者に対して登記を求める権利(代位原因)を証する情報がある
+まず申請に協力する共有者(相続人)の持分の合計が過半数に達しているかを確認し、
+達しない場合は、その者に対して登記を求める権利(代位原因)を証する情報がある
 かを確認します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
@@ -428,31 +431,34 @@ characters):
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
-未成年者も外せない申請人の一人
+父母の持分が過半数なら申請できる
 Diagram: A 正誤対比 (right/wrong comparison) layout: two side-by-side
 panels below the heading, left panel labeled 「誤りやすい思い込み」and
-right panel labeled 「正しいルール」. Left panel: an isometric land plot
-with two adult figures labeled Ｂ（父）and Ｃ（母）pressing an application
-stamp together, while a small child figure labeled Ａ is pushed outside
-the frame with a large red ✕ mark, next to a caption label 「未成年者だか
-ら対象外」struck through with a diagonal red line. Right panel: the same
-isometric land plot with three figures — a small child figure labeled Ａ
-standing in the middle, flanked by Ｂ（父）and Ｃ（母）with a protective
-hand on the child's shoulders — with all three names 「Ａ・Ｂ・Ｃ」appearing
-together on the application document, next to a small label 「Ｂ・Ｃが法定
-代理人としてＡの分も代理」beside a green checkmark.
+right panel labeled 「正しいルール」. IMPORTANT: the two sides must show
+OPPOSITE marks, not the same mark — this is a case where the mistaken
+belief predicts failure (✕) but the actual rule says otherwise (✓); do not
+draw the same mark on both sides. Left panel: an isometric land plot with
+two adult figures labeled Ｂ（父）and Ｃ（母）(each with a small "1/3"
+tag) pressing an application stamp together, while a small child figure
+labeled Ａ（"1/3"）stands outside the frame; a large red ✕ is drawn on
+the application stamp only, next to a caption label 「Ａがいないと申請
+できない」struck through with a diagonal red line. Right panel: the same
+isometric land plot with Ｂ and Ｃ (together "2/3") pressing the
+application stamp with a green ✓, the application document carrying only
+the names 「Ｂ・Ｃ」, while the child figure Ａ stands beside it, not
+required, with a small label 「持分の合計が過半数」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず甲地の共有者に未成年者が含まれていないかを確認し、含まれている場合は
-その未成年者を申請人から除外できるかを確認します。未成年者も共有者(登記名
-義人)である以上、除外することはできません。
+まず甲地の共有者の持分を確認し、次に申請するＢ・Ｃの持分の合計が過半数かを
+確認します。過半数であれば、未成年者Ａを申請人に加えなくても、Ｂ及びＣのみ
+で分筆の登記を申請することができます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-未成年者も申請人
+父母の過半数で申請可
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 根拠:不動産登記法39条1項・40条、不動産登記令3条4号・7条1項3号、民法103条・
-28条・251条1項・824条、区分所有法26条1項・2項
+28条・251条1項・252条1項・824条、区分所有法26条1項・2項
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

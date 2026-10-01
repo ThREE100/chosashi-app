@@ -24,11 +24,13 @@
 
 **たとえば**、母屋（居宅）と車庫がセットで登記されている建物で、母屋を取り壊して建て替えた場合、いったん車庫を主役として登記したうえで、新しく建てた母屋を表題登記し、そこに元の建物をくっつける、という順番で手続を進めます。
 
-### イ：建物の合併の登記は、共有者全員で申請しなければならない
+### イ：共有者の一名が単独では、合併の登記を申請できるとは限らない（出題当時は共有者全員）
 
-甲建物と乙建物のいずれにも同じ共有者が同じ持分で登記されている場合であっても、建物の合併の登記は、その所有権の登記名義人（共有者）全員で申請しなければなりません。共有者の一名が単独で申請することはできないため、「一名が単独で申請することができる」とする点は誤りです。
+建物の合併の登記を申請できるのは、表題部所有者又は所有権の登記名義人です。甲建物と乙建物にいずれも同じ共有者が同じ持分で登記されている場合、合併は共有物の軽微変更として、令和5年4月1日施行の民法改正後の民法251条1項かっこ書き・252条1項により、各共有者の持分の価格の過半数で決することができます。これを受けて登記実務でも、持分の価格の過半数を有する共有者から申請できる扱いになっています（出題当時は共有者全員で申請しなければならないものとされていました）。
 
-**たとえば**、ＡさんとＢさんが半分ずつの持分で持っている二つの建物をくっつけて一つにする場合、片方のＡさんだけで手続を進めることはできず、ＡさんとＢさんがそろって申請する必要があります。
+したがって、共有者の一名の持分が過半数に満たない場合には、その一名が単独で申請することはできません。本肢は「共有者の一名が単独で申請することができる」と、持分に関係なく単独申請ができるかのように述べているため、誤りです。
+
+**たとえば**、A・B・Cが各3分の1ずつの持分で共有している二つの建物をくっつけて一つにする場合、A一人の持分は3分の1で過半数に届かないので、Aだけで手続を進めることはできません。A・Bの二人（持分の合計は3分の2）がそろって申請すれば足り、Cの協力は要りません（出題当時は、A・B・Cの3人がそろって申請する必要がありました）。
 
 ### ウ：買戻しの特約の登記があると、条件がそろっていても合併できない
 
@@ -51,12 +53,12 @@
 ### まとめ
 
 - **ア（正）**　所有権登記のない建物は、新築居宅の表題登記→甲建物の合併の方法による
-- **イ（誤）**　建物の合併の登記は共有者全員で申請し、一名の単独申請はできない
+- **イ（誤）**　建物の合併の登記は持分の価格の過半数で申請できる。持分が過半数に満たない一名だけでは単独で申請できない（出題当時は共有者全員）
 - **ウ（正）**　買戻しの特約の登記があると、条件がそろっていても合併できない
 - **エ（誤）**　住所の表示が食い違う状態では、前提として住所変更の登記が必要で、証明情報の提供だけでは合併できない
 - **オ（正）**　区分建物の分割と合併は一の申請情報でまとめて申請できる
 
-「合併の申請は名義人全員で」「登記記録の表示は先にそろえる」という基本を押さえると、イとエの誤りが見抜けます。
+「合併の申請は持分の価格の過半数で（一名だけでは足りないことがある）」「登記記録の表示は先にそろえる」という基本を押さえると、イとエの誤りが見抜けます。
 
 **正解：イエの組合せ（選択肢3番）**
 
@@ -67,15 +69,16 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成22年度午後の部 第5問）・正解番号（3番＝イエ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の判定（誤りはイ・エ）は、公式の正解の組合せ「イエ」から確定できるものです。
-- 各肢の根拠のうち、イ（合併の登記は所有権登記名義人が申請、単独申請不可）は不動産登記法54条・56条の趣旨から確認できるものです。ウ（買戻特約があると合併できない）・エ（表示が食い違うと前提の変更登記が必要）・オ（分割と合併の一括申請）・ア（所有権登記のない建物の合併の方法）は、建物の合併に関する手続の一般的な理解・二次資料に基づくもので、条文の直接の文言までは個別に照合しきれていない部分があります。とくにア・エの細かな手続については、各自でも登記実務書等で確認することをおすすめします。
+- 各肢の根拠のうち、イ（合併の登記は持分の価格の過半数を有する所有権登記名義人が申請。持分が過半数に満たない一名の単独申請は不可。2026-10-01に現行法に改めた）は不動産登記法54条・56条の趣旨から確認できるものです。ウ（買戻特約があると合併できない）・エ（表示が食い違うと前提の変更登記が必要）・オ（分割と合併の一括申請）・ア（所有権登記のない建物の合併の方法）は、建物の合併に関する手続の一般的な理解・二次資料に基づくもので、条文の直接の文言までは個別に照合しきれていない部分があります。とくにア・エの細かな手続については、各自でも登記実務書等で確認することをおすすめします。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
+- **肢イの最新法令への統一（2026-10-01、ユーザー指示）**：肢イの本文・まとめ・図解は、令和5年4月1日施行の民法251条1項かっこ書き・252条1項（持分の価格の過半数）に基づく説明に統一しました。建物の合併の登記を共有物の軽微変更として扱う点は、分筆の登記と同様の整理であり、これを定めた通達の原文は未確認です。肢イの正誤（誤）と正解番号（3番＝イエ）は変わりませんが、問題文は「共有者の一名が」とだけあり持分が示されていないため、その一名が過半数の持分を持つ場合は申請できることになり、現行法では正誤が定まらないおそれがあります。現行法で出題し直す場合は、肢イを「共有者の一名（その持分は過半数に満たない。）が単独で申請することができる」などと修正することをお勧めします。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（建物の合併）と同一の問題が再出題されていないかを確認しました。「建物の合併」は平成25年度第17問・平成28年度第14問・令和4年度第16問でも繰り返しテーマとなっていますが、問題文＋肢全体の類似度はいずれも0.2程度、肢単位で最も近いもの（住所変更登記の要否を問う本問の肢エと平成28年度第14問の肢イ）でも類似度0.55程度で、事実関係・他の肢の組合せは異なります。**問題全体としての重複は見つかりませんでした**。建物の合併は頻出テーマである点に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
 ## 見出し画像用フレーズ
 
-- 建物の合併は、共有者全員でやるんです
+- 建物の合併は、持分の過半数でできるんです
 - 同じ持分でも、一人じゃ申請できないんです
 - 買戻特約が付いてると、合併できないんです
 - 住所が食い違ったままでは、合併できないんです
@@ -165,13 +168,13 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 Badge: a filled circle containing the number 2 (numbers run continuously).
 
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-共有者は全員そろって申請する
+合併は持分の過半数で申請する
 
-Illustration: Two building icons (甲・乙) both owned by the same three co-owner characters. A merge-arrow between the buildings requires all three characters to stamp together; one character alone reaching for the stamp is crossed out with a ✕.
+Illustration: Two building icons (甲・乙) both owned by the same three co-owner characters (A・B・C, each with a small "1/3" tag). A merge-arrow between the buildings: on the left, character A alone reaching for the stamp, crossed out with a ✕; on the right, A and B stamping the 合併 application together with a green ✓, while a faint greyed-out silhouette of C stands off to the side, not required.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
-共有者全員で申請
+持分の過半数で申請
 
 
 --- CARD 3 ---
@@ -335,22 +338,22 @@ characters):
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
-合併の登記は共有者全員で申請する
+合併の登記は持分の過半数で申請する
 Diagram: A contrast panel split into two side-by-side frames. Left frame
-labeled「誤った思い込み」shows one co-owner character (A) alone stamping a
-合併 application while two other co-owner characters (B・C) stand aside
-with their arms crossed, a large ✕ over the single stamp. Right frame
-labeled「正しいルール」shows all three co-owner characters (A・B・C)
-together placing their stamps on the same 合併 application, with a
-checkmark. A thick highlighted border surrounds the right「正しいルール」
-frame.
+labeled「持分が足りない場合」shows one co-owner character (A, with a
+small "1/3" tag) alone stamping a 合併 application while two other
+co-owner characters (B・C, each "1/3") stand aside, a large red ✕ over the
+single stamp. Right frame labeled「過半数の場合」(drawn with a thick
+highlighted border) shows A and B ("1/3" each, together "2/3") placing
+their stamps on the same 合併 application with a green ✓, while a faint
+greyed-out silhouette of C stands off to the side, not required.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、甲建物と乙建物の登記名義人である共有者が誰であるかを確認します。次に、
-その共有者全員がそろって合併の登記を申請しているかを確認し、1人でも欠けて
-いれば申請できないと判定します。
+まず、甲建物と乙建物の登記名義人である共有者の持分を確認します。次に、
+申請する共有者の持分の合計が過半数かどうかを確認し、過半数に届かない1人
+だけでは申請できないと判定します。
 Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
-共有者全員での申請が必要
+持分の過半数が必要
 
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
@@ -422,7 +425,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記法56条・54条（ア〜オ共通）。
+条文根拠：不動産登記法56条・54条（ア〜オ共通）、民法251条1項・252条1項（肢イ）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
