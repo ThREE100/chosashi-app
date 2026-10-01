@@ -71,6 +71,7 @@
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文は、本問については結論・根拠とも大筋で妥当な内容でしたが、他の問題で誤りが確認されたファイルであるため、本記事では条文・一般原則から独立に再構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和元年度第16問（未執筆）に「分筆により建物が所在する土地の地番が変更した場合、当該建物の所有権の登記名義人は建物所在の変更登記を申請する義務を負う」という、本問の肢ウと同一の論点を含む肢があることを確認しました。また、本シリーズで既に執筆済みの note-articles/r6-mondai/q15-tatemono-hyoji-touki.md（建物の表示に関する登記）とはテーマの大分類が近い（本問は不動産全般の表示登記の申請義務の起算点が中心）ため、念のため両記事の内容を見比べることを推奨します。令和5年度第4問（実地調査に関する問題）とは論点が異なり、重複はありません。
 - **最新法令準拠チェック（2026-08-04実施、2026-08-13再確認）**：不動産登記法36条・37条・51条・54条（表示に関する登記の申請義務）を確認しました。令和8年（2026年）4月1日施行の所有権登記名義人の氏名・住所変更登記の義務化は、権利部の氏名・住所変更に関する別制度の新設であり、本問が扱う表示に関する登記（増築・敷地権割合・地番変更・地目変更・建物分割）の申請義務とは別範疇のため、本問の内容への影響はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：`note-articles/laws/fudousan-touki-hou.md`（2026-08-04取得、令和8年6月24日施行分まで反映）で、不動産登記法37条2項・44条1項・51条1項〜3項・54条1項・58条4項を条文原文で確認しました。本文の条文番号・要件は現行法と整合しており、本文の変更はありません（正誤判定も変わりません）。令和8年4月1日施行の住所・氏名変更登記の義務化（同法76条の5）は権利に関する登記の制度であり、本問の表示に関する登記の申請義務とは別です。なお、肢アの本文が説明しているのは問題文の主語である「増築した当時の登記名義人」の起算点で、51条1項により変更の日（工事完了の日）になります。一方、増築の後に共用部分である旨の登記がされた場合（その時点で、58条4項により表題部所有者の登記・権利に関する登記は職権で抹消されます）に、51条1項・2項で申請義務を負わない所有者は、51条3項により共用部分である旨の登記がされた日から1か月以内に申請します。このように共用部分である旨の登記の日が起算点になる場面は別にあるため、図解（②・⑤）では、その日に✕を付ける相手を「増築当時の名義人」に限定して描くようにしました。肢オについては、分割の登記を定める54条に申請期間の定めはなく、申請義務を課す規定（37条・47条・49条・51条・57条・58条6項など）にも分割の登記は含まれていません。これは「誤り」という結論と矛盾しない条文上の補強ですが、分割の登記に当たらない場合に申請すべき登記の具体的な種類については、引き続き一般原則からの整理にとどまります。
 
 ---
 
@@ -150,9 +151,11 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 増築登記の起算点は工事完了日
 Illustration: A building being extended with construction scaffolding,
-marked with a green flag as the true starting point, while a later
-共用部分登記 stamp date is crossed out with a red X as the wrong
-starting point.
+marked with a green flag as the true starting point for the person who
+was the registered owner at the time of the extension (label this owner
+character 増築当時の名義人), while a later 共用部分登記 stamp date is
+crossed out with a red X as the wrong starting point for that same
+owner.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 工事完了日が起点
 
@@ -299,14 +302,16 @@ Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 増築登記の起算点は工事完了日
 Diagram: A left-to-right timeline. A building under construction with
-scaffolding marks 増築工事完了日 with a green flag as the true starting
-point. A 1か月 duration bracket stretches from that flag to a 申請期限
-marker. Further along the same timeline, a later 共用部分である旨の登記
-の日 marker is drawn and crossed out with a red ✕, labeled 誤った起点.
+scaffolding, owned by an owner character labeled 増築当時の名義人, marks
+増築工事完了日 with a green flag as the true starting point. A 1か月
+duration bracket stretches from that flag to a 申請期限 marker. Further
+along the same timeline, a later 共用部分である旨の登記の日 marker is
+drawn and crossed out with a red ✕, labeled 誤った起点 (the crossed-out
+marker applies to this same 増築当時の名義人, not to anyone else).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、増築登記の申請義務がいつから発生するかを確認します。次に、その起
-算点は工事が完了した日であって、その後にされる共用部分である旨の登記の
-日ではないと判断します。
+まず、増築当時の登記名義人にとって増築登記の申請義務がいつから発生する
+かを確認します。次に、その起算点は工事が完了した日であって、その後にさ
+れる共用部分である旨の登記の日ではないと判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 工事完了日が起点
@@ -390,7 +395,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 義・産・録・築・棟・属. If any
+Chinese, paying special attention to 義・産・築・棟・属・権・請・変. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or

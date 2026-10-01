@@ -71,6 +71,7 @@
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で、記述の途中で判断が二転三転している箇所があったため採用せず、正解番号と一般原則から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和7年度第14問「建物の表題登記」（本シリーズで既に note-articles/r7-mondai/q14-tatemono-hyoudai.md として執筆済み）が、本問と重複する論点を含むことを確認しました。特に「新築された表題登記のない建物の原始取得者が死亡した場合に、相続人が自己を表題部所有者とする表題登記を申請できるか」という論点は、本問の肢オと令和7年度第14問の肢ウで共通してテストされています（いずれも「できない」が結論）。note投稿の際は、この論点の重複に注意し、書き分けを検討してください。
 - **最新法令準拠チェック（2026-08-04実施、2026-08-13再確認）**：不動産登記法47条・48条（区分建物の表題登記）を条文原文で確認しました。令和6年（2024年）4月1日施行の相続登記の申請義務化は、既に登記されている不動産の所有権移転登記に関する義務であり、本問が扱う未登記建物の原始取得者死亡時の表題登記の申請（表題部所有者を誰と記録するか）とは別範疇のため、本問の内容への影響はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：`note-articles/laws/fudousan-touki-hou.md`（2026-08-04取得、令和8年6月24日施行分まで反映）で不動産登記法44条・47条・48条・52条を、`laws/kubunshoyuu-hou.md`（令和7年法律第47号による改正を反映した施行日2026-04-01時点の条文）で区分所有法1条を、それぞれ条文原文で確認しました。本文の条文番号・用語・要件は現行法と整合しており、本文の変更はありません（正誤判定も変わりません）。補足は次のとおりです。（1）肢アの前提（表題登記がある非区分建物が、区分建物の新築・接続によって区分建物となった場合）に直接当たるのは52条1項（その建物についての表題部の変更の登記の申請は、新築に係る区分建物の表題登記の申請と併せてする）で、48条3項（区分建物の表題登記の申請は、既存建物の表題部の変更の登記の申請と併せてする）と同じく、抹消ではなく表題部の変更の登記で対応するという結論になります。（2）肢エの区分建物として登記するかどうかの任意性は、区分所有法1条が各部分を「それぞれ所有権の目的とすることができる」と定めていることと整合します。令和7年改正（令和8年4月1日施行）でもこの条文の文言は変わっていません。（3）肢ウの裏付けが条文でできていない点は、上記のとおり変わりません。（4）⑤のパネル2（肢イ）の決定木は、はい側の行き先がなく、答えが常に「はい」になるひし形を含んでいたため、ひし形1つ（はい側は肢アの場面）の流れに改めました。パネル3（肢ウ）の対比パネルは、思い込み側にだけ✕を付け、原始取得者本人の申請の矢印には✕を付けないようにしました。
 
 ---
 
@@ -247,10 +248,13 @@ conclusion. Do not include case or precedent numbers (article/regulation
 numbers are fine); keep the callout text as written below verbatim, and
 keep every condition each callout describes faithful to the article's
 own body text — do not drop or merge a required element. Panel 2 (肢イ)
-requires two conditions in sequence (表題登記のない建物に区分建物が新築
-接続したか、次にその表題登記は他の区分建物の分と併せて申請しなければな
-らないか) and must be drawn as its own two-step decision flowchart, not
-shared with other panels. Panels 1, 3 and 5 (肢ア・肢ウ・肢オ) each
+is drawn as its own flowchart, not shared with other panels, with ONE
+diamond node asking 区分建物が新築接続した相手の建物には、表題登記がある
+か: the いいえ branch (本肢の前提) is highlighted and runs through a plain
+rectangular step node (not a diamond) to the conclusion node, and the はい
+branch is rendered faded but still leads to its own destination node, so no
+branch is left without a destination. Do NOT draw a second diamond whose
+answer is always はい. Panels 1, 3 and 5 (肢ア・肢ウ・肢オ) each
 resolve with a single check contrasted against a common misconception, so
 draw each as a two-panel correct-rule-vs-misconception split rather than
 a flowchart. Panel 4 (肢エ) presents one premise (一棟の建物全部が同一の
@@ -318,15 +322,18 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 未登記建物接続なら代わりに申請できる
-Diagram: A decision-tree flowchart. First diamond node: 区分建物が新築
-接続した相手の建物には、表題登記があるか, with the いいえ branch (未登
-記、本肢の前提) proceeding downward. Second diamond node: この区分建物
-についての表題登記は、他の区分建物の分と併せて申請しなければならない
-か, with the はい branch leading to a conclusion node その区分建物の所
-有者は、他の区分建物の所有者に代わって表題登記を申請できる. Beside the
-flowchart, an illustration of an unregistered apartment building gaining
-a newly built区分建物 unit, whose owner character stamps 表題登記 seals
-for both their own unit and the other units on behalf of their owners.
+Diagram: A decision-tree flowchart with ONE diamond node: 区分建物が新築
+接続した相手の建物には、表題登記があるか. The いいえ branch (未登記、本
+肢の前提) is drawn with a thick highlighted border and proceeds downward
+to a rectangular step node その区分建物の表題登記は、同じ一棟の他の区分
+建物の表題登記と併せて申請しなければならない, then on to a conclusion
+node その区分建物の所有者は、他の区分建物の所有者に代わって表題登記を
+申請できる. The はい branch (表題登記がある建物に接続した場合) is rendered
+in a faded, greyed-out style and leads to a dimmed node 区分建物の表題登記
+は、既存建物の表題部の変更の登記と併せて申請. Beside the flowchart, an
+illustration of an unregistered apartment building gaining a newly built
+区分建物 unit, whose owner character stamps 表題登記 seals for both their
+own unit and the other units on behalf of their owners.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、区分建物が新築接続した相手の建物に、表題登記があるかないかを確認
 します。表題登記がない場合、次に、この区分建物についての表題登記は他の
@@ -344,8 +351,10 @@ Diagram: Two side-by-side panels. Left panel (正しいルール): a builder
 character who built a whole condominium building sells one unit to a
 buyer, yet still personally stamps a 表題登記申請 seal for that sold
 unit, with a green checkmark. Right panel (誤りやすい思い込み): the same
-scene, but this time only a 代位 stamp is shown as if it were mandatory,
-with a red ✕ over the builder's own申請 arrow.
+scene, but this time only a 代位 stamp is shown as the sole route (as if
+代位 were mandatory), and the whole right panel carries a single red ✕
+marker. Do NOT cross out the builder's own application arrow; in this
+panel the builder's own application is simply absent.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、区分建物全部の原始取得者が、表題登記をしないままその一部を売却し
 た場面であることを確認します。次に、売却後も原始取得者自身がその区分建
@@ -399,7 +408,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 続・証・録・築・相・属. If any
+Chinese, paying special attention to 続・録・築・相・属・請・棟・変. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
@@ -409,8 +418,8 @@ so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that 肢イ is drawn as an actual flowchart with
-two branch nodes (not a bare illustration with no visible decision
-structure) while 肢ア・肢ウ・肢オ are each drawn as a correct-rule-vs-
+one branch node whose two branches both lead to a destination (not a bare
+illustration with no visible decision structure) while 肢ア・肢ウ・肢オ are each drawn as a correct-rule-vs-
 misconception split panel and 肢エ is drawn as a two-option comparison
 panel with both options checked, that each 着眼点 callout states a
 checking order rather than only a conclusion and keeps every required

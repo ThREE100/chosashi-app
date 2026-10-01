@@ -70,6 +70,7 @@
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文は、本問については結論・根拠とも大筋で妥当な内容でしたが、他の問題（第2問）で明確な誤りが確認されたファイルであるため、本記事では条文・一般原則から独立に再構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、平成26年度第17問「合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（合体による登記等）」が、本問と非常に強く重複するテーマであることを確認しました。特に「主である建物とその附属建物が合体した場合は、そもそも合体による登記等の制度の対象外である」という論点は、本問の肢アと平成26年度第17問の肢エで共通してテストされています。平成26年度分は本シリーズでは未執筆ですが、将来執筆する際はこの論点の重複に十分注意してください。
 - **最新法令準拠チェック（2026-08-04実施、2026-08-13再確認）**：不動産登記法49条を条文原文で再確認しました。肢イは同条3項（合体前の表題登記がない建物の所有者からその所有権に相当する持分を取得した者は、持分取得の日から1か月以内に合体による登記等を申請）、肢エは同条4項（合体前の表題登記がある建物の表題部所有者について更正の登記があった者は、その更正の登記があった日から1か月以内に合体による登記等を申請）とほぼ同一の文言であることを確認し、いずれも正確でした。肢ア・ウ・オについては、49条1項が「二以上の建物」の合体を前提としている点（主従建物は同一の登記記録内にあるため対象外となる理由）を条文上の根拠として確認できましたが、その他の細部は引き続き一般原則からの整理にとどまります。直近の改正による変更はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：`note-articles/laws/`（2026-08-04取得、不動産登記法は令和8年6月24日施行分まで反映）で、不動産登記法49条1項〜4項・50条・55条3項と、不動産登記令別表の十三の項（合体による登記等の申請情報・添付情報）を条文原文で確認しました。本文の条文番号・用語・要件は現行法と整合しており、本文の変更はありません（正誤判定も変わりません）。補足は次の3点です。（1）肢オの条文上の根拠として、より直接的なのは49条2項です。合体前の建物がいずれも表題登記がない場合は、49条1項各号（いずれも表題登記又は所有権の登記がある建物を含む場合）に当たらず、同条2項が47条（建物の表題登記の申請）などを準用しているため、抹消すべき合体前の表題部の登記がなく、「合体による登記等」ではなく表題登記だけを申請することになります。（2）肢ウについて、令別表十三の項添付情報欄ハは「表題部所有者となる者が所有権を有することを証する情報」と定めており、肢ウの場面（49条1項2号、所有権の登記がある建物と表題登記がない建物）で証明の対象になるのは、合体前の表題登記がない建物の所有者の所有権と読むのが自然です。そのため、本文の「申請人が証明すべきなのは自分がもともと持っていた持分についての所有権」という言い回しは、条文から直接は確認できていません。「合体後の建物全体の申請人の所有権を証する情報までは求められない」という結論（本肢が誤り）には影響しませんが、図解（②のカード3・⑤のパネル3）を含め、説明の言い回しは再検討の余地があります。（3）⑤の肢ア・肢オ共有の決定木は、合体前の建物の登記記録の状態を「同一の登記記録内」「双方とも表題登記がない」「別々の登記記録の建物で少なくとも一方に表題登記がある」の3つに分けて描くよう改めました。旧版は、はい・いいえで答える問いに3つの枝を付けており、一方だけが未登記の場合（肢イの場面）がどの枝にも当たらない状態でした。
 
 ---
 
@@ -248,15 +249,16 @@ numbers are fine); keep the callout text as written below verbatim, and
 keep every condition each callout describes faithful to the article's
 own body text — do not drop or merge a required element. Panels 1 and 5
 (肢ア・肢オ) share a three-branch decision tree keyed on a single diamond
-node asking 合体前の2つの建物は、それぞれ独立した表題登記の記録を持って
-いるか: one branch (一方が主である建物・他方がその附属建物で同一の登記
-記録内にある) leads to 合体制度の対象外、建物の変更の登記で対応 and is
-highlighted in panel 1; another branch (双方とも表題登記がない) leads to
-合体による表題登記ではなく通常の新築による表題登記を申請 and is
-highlighted in panel 5; the third branch (双方ともそれぞれ別々の表題登記
-記録を持っている) leads to 通常どおり合体による表題登記及び合体前の登記
-の抹消を申請するケース and must be rendered faded/greyed-out in both
-panels rather than omitted. Panels 2 and 4 (肢イ・肢エ) share a separate
+node asking 合体前の2つの建物の登記記録はどうなっているか (a three-way
+question, so label the three outgoing branches instead of Yes/No): one
+branch (一方が主である建物・他方がその附属建物で同一の登記記録内にある)
+leads to 合体制度の対象外、建物の変更の登記で対応 and is highlighted in
+panel 1; another branch (双方とも表題登記がない) leads to 合体による表題
+登記ではなく通常の新築による表題登記を申請 and is highlighted in panel
+5; the third branch (別々の登記記録の建物で、少なくとも一方に表題登記が
+ある) leads to 合体後の建物の表題登記及び合体前の建物の表題部の登記の抹
+消を申請するケース and must be rendered faded/greyed-out in both panels
+rather than omitted. Panels 2 and 4 (肢イ・肢エ) share a separate
 two-branch decision tree keyed on a single diamond node asking 誰が合体
 による登記等の申請義務を1か月以内に負うのか: one branch (合体前の表題登
 記がない建物側の所有者から持分を取得した者) is highlighted in panel 2,
@@ -311,18 +313,18 @@ Heading (bold, ONE line):
 主従建物はそもそも合体の対象外
 Diagram: A main house (主である建物) and its small attached shed
 (附属建物) already sharing one single登記記録 document icon on the left.
-On the right, a decision-tree diamond labeled 合体前の2つの建物は、それ
-ぞれ独立した表題登記の記録を持っているか, with three branches: the
-branch labeled 一方が主・他方が附属建物で同一の登記記録内 is drawn with a
-thick highlighted border leading to a conclusion node 合体制度の対象外、
-建物の変更の登記で対応; the other two branches (双方とも表題登記がな
-い、および双方ともそれぞれ別々の表題登記記録を持っている) are rendered
-in a faded, greyed-out, dotted-outline style.
+On the right, a decision-tree diamond labeled 合体前の2つの建物の登記記録
+はどうなっているか, with three labeled branches (no Yes/No): the branch
+labeled 一方が主・他方が附属建物で同一の登記記録内 is drawn with a thick
+highlighted border leading to a conclusion node 合体制度の対象外、建物の
+変更の登記で対応; the other two branches (双方とも表題登記がない、およ
+び別々の登記記録の建物で少なくとも一方に表題登記がある) are rendered in
+a faded, greyed-out, dotted-outline style.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、合体前の2つの建物が、それぞれ独立した表題登記の記録を持っているか
-を確認します。主である建物とその附属建物は、もともと同じ登記記録の中に
-あるため、次に、この場合は合体という制度自体の対象にならず、通常の建物
-の変更の登記で対応すると判断します。
+まず、合体前の2つの建物が、それぞれ別々の登記記録を持っているかを確認し
+ます。次に、主である建物とその附属建物はもともと同じ登記記録の中にある
+ため、合体という制度自体の対象にならず、通常の建物の変更の登記で対応す
+ると判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 変更登記で対応
@@ -394,12 +396,13 @@ Heading (bold, ONE line):
 双方未登記なら新築の表題登記
 Diagram: Two unregistered shed icons (未登記のまま増築を繰り返していた離
 れ) merging into one building. Below this, the same shared decision-tree
-diamond labeled 合体前の2つの建物は、それぞれ独立した表題登記の記録を持
-っているか, but this time the branch 双方とも表題登記がない is drawn
-with a thick highlighted border leading to a conclusion node 合体による
-表題登記ではなく通常の新築による表題登記を申請, while the other two
-branches (一方が主従の関係にある、および双方ともそれぞれ別々の表題登記
-記録を持っている) are rendered faded/greyed-out.
+diamond labeled 合体前の2つの建物の登記記録はどうなっているか (three
+labeled branches, no Yes/No), but this time the branch 双方とも表題登記が
+ない is drawn with a thick highlighted border leading to a conclusion node
+合体による表題登記ではなく通常の新築による表題登記を申請, while the
+other two branches (一方が主・他方が附属建物で同一の登記記録内、および
+別々の登記記録の建物で少なくとも一方に表題登記がある) are rendered
+faded/greyed-out.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、合体前の2つの建物が、いずれも表題登記のない未登記建物かどうかを確
 認します。次に、抹消すべき既存の表題登記が存在しない以上、合体による表
@@ -414,7 +417,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 証・続・録・築・属. If any character
+Chinese, paying special attention to 証・続・録・築・属・請・変. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

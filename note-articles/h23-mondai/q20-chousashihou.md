@@ -77,6 +77,7 @@
 - アプリDBの解説用ファイル（kaisetsu_H23.json）には第20問の解説データが収録されていなかったため、参照していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和6年度第20問・令和7年度第20問（本シリーズで既に note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md、note-articles/r7-mondai/q20-chousashihou.md として執筆済み）はいずれも「土地家屋調査士又は土地家屋調査士法人」という同じ法律をテーマとしていますが、具体的な出題内容（令和6年度：業務の依頼拒否・秘密保持・補助者への測量業務・法人設立要件、令和7年度：定款変更届出・補助者廃止届出・複数事務所設置・社員の当然脱退・登録取消事由）は、本問（筆界特定手続における代理・書類作成受任の利益相反、22条の2の業務制限）とは異なります。重複はありません。
 - **最新法令準拠チェック（2026-08-04実施、2026-08-13再確認）**：土地家屋調査士法22条の2（業務を行い得ない事件）・36条の3（特定の事件についての業務の制限）・37条（社員の競業の禁止）の現行条文構造を確認しました。令和2年（2020年）8月1日施行の同法改正は懲戒権者の変更（法務局長等→法務大臣）や清算結了後の法人への懲戒手続に関するものであり、本問が扱う業務制限（代理・書類作成の受任制限、競業禁止）そのものへの実体的な変更ではないため、本問の内容への影響はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：`note-articles/laws/chousashi-hou.md`（2026-08-04取得。e-Govの現行版で、デジタル社会形成基本法等の一部改正による2026-05-21施行分まで反映）で、土地家屋調査士法3条1項・22条の2第2項・36条の3第1項・37条1項を条文原文で確認しました。本文の条文番号・用語・要件は現行法と整合しており、本文の変更はありません（正誤判定も変わりません）。取得日（2026-08-04）以降に施行された改正の有無は、e-Govで再確認していません。補足は次の3点です。（1）同意で受任できる例外は、個人の調査士は22条の2第2項3号と7号、調査士法人は36条の3第1項3号だけです。肢イ（37条1項の競業禁止）・肢ウ（22条の2第2項4号）・肢エ（36条の3第1項2号）・肢オ（同項4号）は、いずれもただし書の対象外で、同意があっても受任できません。（2）導入文とまとめにある「代理か書類作成かで、同意による例外が使えるかどうかが変わる」という整理は、3号かっこ書（3条1項5号の書類作成として受任している事件は3号の対象から除かれる）に由来する簡略化した言い回しです。肢ウ・エ・オの結論（同意があっても受任できない）は、代理か書類作成かでは変わらず、肢オも使用人の受任が代理でも書類作成でも同じ結論です。そのため、まとめの末尾の一文と、②（総論）のタイトル「「代理」と「書類作成」で、ルールが変わる」は、言い回しを見直す余地があります（図解は本文と揃えているため、本文と一緒に直すのが望ましいです）。（3）図解の整合の面では、②のカード4（肢エ）が本文の要件「協議の程度及び方法が信頼関係に基づくと認められるもの」を落とさないよう、見出し・結論タグ・図解に「信頼関係」を入れました。⑤のパネル1では、問題文に登場しない人物（丁土地の名義人）を描かせないようにし、パネル4では「正式な受任がない」ことを、取消しの✕ではなく薄い点線の矢印で表しました。⑤の共有決定木は、法人自身の枝のひし形を「どの号に該当するか」という条文を問うメタな問いから、法人側が相手方から先に何を受けているかを問う事実の問いに改めました。
 
 ---
 
@@ -197,15 +198,17 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
-協議だけでも制限の対象になる
+信頼関係ある協議だけでも制限対象
 Illustration: A土地家屋調査士法人 office building repeatedly receiving
-consultation speech bubbles from a client (no contract document and no
-signed-contract icon anywhere in the illustration), yet a red X still
+consultation speech bubbles from a client, with a small handshake/heart
+icon labeled 信頼関係 between the client and the office building (no
+contract document and no signed-contract icon anywhere in the
+illustration), yet a red X still
 blocks the firm from accepting the opposing party's request on the same
 matter, even though the client's 同意 checkmark stamp is present (drawn
 as having no effect).
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-相談だけでも制限
+信頼関係ある協議は制限
 
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
@@ -278,11 +281,14 @@ to a second diamond asking その個人は法人の業務範囲に属する仕�
 (highlighted in panel 1, 肢ア) and whose 自ら関与した事件そのもの leaf
 concludes 22条の2第2項4号、同意があっても不可（脱退後も同じ）
 (highlighted in panel 3, 肢ウ). The root's 法人自身 branch leads to a
-second diamond asking どの号に該当するか, whose 相手方から協議を受け信
-頼関係が認められる事件 leaf concludes 36条の3第1項2号、同意があっても
-不可 (highlighted in panel 4, 肢エ) and whose 使用人が相手方から受任し
-ている事件 leaf concludes 36条の3第1項4号、同意があっても不可
-(highlighted in panel 5, 肢オ). Every panel must render this full
+second diamond asking 法人側は、相手方のAから先に何を受けているか (a
+two-way question, so label the two outgoing branches instead of Yes/No),
+whose 相手方から協議を受け信頼関係が認められる事件 leaf concludes 36条
+の3第1項2号、同意があっても不可 (highlighted in panel 4, 肢エ) and whose
+使用人が相手方から受任している事件 leaf concludes 36条の3第1項4号、同意
+があっても不可 (highlighted in panel 5, 肢オ). Draw only these five
+leaves; do NOT add any other leaf and do NOT write any article or item
+number other than those given. Every panel must render this full
 five-leaf tree in miniature at the bottom of the panel with its own leaf
 highlighted in a thick colored border and the other four leaves rendered
 faded/greyed-out rather than omitted, alongside a larger relationship
@@ -331,11 +337,14 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 別の無関係事件なら同意で受任できる
-Diagram: A relationship diagram (系統図): A(甲土地の名義人) — C(個人の
-調査士) — B(乙土地の名義人) connected by a solid 代理 arrow labelled
-筆界特定1. To the right, B(丙土地の名義人) — C — 丁(丙隣接地の名義人)
-connected by a dotted arrow labelled 筆界特定2, with a 同意 speech-bubble
-stamp from A reaching toward C and turning the dotted arrow solid. Below
+Diagram: A relationship diagram (系統図): A(甲土地の名義人) and C(個人の
+調査士) connected by a solid 代理 arrow from A to C labelled 筆界特定1,
+with B(乙土地の名義人) drawn on the opposite side as the 相手方. To the
+right, B(丙土地の名義人) and C connected by a dotted 代理 arrow from B to C
+labelled 筆界特定2, with a 丁土地 land-plot icon on the other side (draw a
+land plot only; do NOT draw any additional person for 丁土地), and a 同意
+speech-bubble stamp from A reaching toward C and turning the dotted arrow
+solid. Below
 this, the shared five-leaf miniature decision tree with the leaf 個人の
 調査士 → 競業にあたらない → 無関係な別の事件 → 22条の2第2項3号、同意が
 あれば受任できる drawn with a thick highlighted border, and the other
@@ -353,9 +362,9 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 社員は法人の仕事を個人で受任できない
-Diagram: A relationship diagram (系統図): A — D(調査士法人、建物アイコン
-の中にEを小さく配置) — B connected by a solid 代理 arrow labelled
-筆界特定1, with E drawn inside D's office-building icon surrounded by a
+Diagram: A relationship diagram (系統図): A and D(調査士法人、建物アイコン
+の中にEを小さく配置) connected by a solid 代理 arrow from A to D labelled
+筆界特定1, with B drawn on the opposite side as the 相手方, and with E drawn inside D's office-building icon surrounded by a
 faded dotted circle labelled 筆界特定1には関与していない. A second arrow
 from B to E labelled 筆界特定2の代理を個人として受任 has a 同意 speech-
 bubble stamp from A reaching toward it, yet a red ✕ blocks the arrow.
@@ -376,8 +385,9 @@ characters):
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 自ら関与した事件は脱退後も不可
-Diagram: A relationship diagram (系統図): A — D — B connected by a solid
-代理 arrow labelled 筆界特定1, with E drawn inside D's office-building
+Diagram: A relationship diagram (系統図): A and D connected by a solid
+代理 arrow from A to D labelled 筆界特定1, with B drawn on the opposite
+side as the 相手方, and with E drawn inside D's office-building
 icon surrounded by a solid highlighted circle labelled 自ら関与した. A
 second drawing shows E walking out of D's office building through a door
 labelled 脱退. A third arrow from B to the now-independent E labelled
@@ -400,9 +410,9 @@ Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 協議だけの信頼関係でも制限の対象になる
 Diagram: A relationship diagram (系統図): A — D connected not by a solid
-代理契約 arrow (crossed out with a red ✕) but by several repeated 協議
-speech-bubble icons and a handshake/heart icon labelled 信頼関係が認め
-られる, labelled 筆界特定1. A second arrow from B to D labelled 筆界特定
+代理 arrow (draw only a faded dotted empty arrow labelled 正式な受任なし,
+with NO red ✕ on it) but by several repeated 協議 speech-bubble icons and
+a handshake/heart icon labelled 信頼関係が認められる, labelled 筆界特定1. A second arrow from B to D labelled 筆界特定
 1についての書類作成事務 has a 同意 speech-bubble stamp from A reaching
 toward it, yet a red ✕ blocks the arrow. Below this, the shared
 five-leaf miniature decision tree with the leaf 調査士法人自身 → 相手方
@@ -447,7 +457,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 調・査・証・続・属・競. If any
+Chinese, paying special attention to 調・査・続・属・競・図・関. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
