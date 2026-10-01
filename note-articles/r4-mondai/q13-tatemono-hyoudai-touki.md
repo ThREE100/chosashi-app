@@ -316,9 +316,10 @@ icon with a wooden nameplate reading "◯◯ビル" attached above the
 entrance. Above the building, draw a small neutral label box reading
 「区分建物でない」with no crossed-out mark, to show that this fact by
 itself does not block anything. Draw an arrow from the nameplate to a
-registration document icon labeled「申請情報」where the same characters
-「◯◯ビル」are being written into a field labeled「建物の名称欄」, with a
-green checkmark next to that field.
+registration document icon labeled「申請情報」where the same characters「◯◯ビル」are being written, with a green
+checkmark next to it. Beside it, a small registry-page icon shows the name
+recorded together with the location in the field labeled「所在欄」(a
+non-区分建物 record has NO separate「建物の名称欄」— do not draw one).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず建物が区分建物かどうかではなく、名称が付いているかどうかを確認しま
 す。名称があれば、区分建物でなくても申請情報の内容として記載します。

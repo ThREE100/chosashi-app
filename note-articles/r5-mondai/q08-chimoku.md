@@ -229,7 +229,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-(その土地、地目はどれ?), but built as a set of 5 diagram-drawing panels
+(その土地、地目はどれ？), but built as a set of 5 diagram-drawing panels
 (a "how to sketch this fact pattern, in the right order" study reference)
 rather than a quick-reference conclusion poster.
 
@@ -316,7 +316,7 @@ Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 建物の敷地として使われていれば宅地
 Diagram: A decision flowchart. Start node: 高圧線の下にある土地が、建物
-の敷地として利用されているか?. A はい arrow leads to its own conclusion
+の敷地として利用されているか？. A はい arrow leads to its own conclusion
 node showing an isometric house with high-voltage power lines and pylons
 passing overhead, the land plot beneath the house bearing a wooden label
 reading 宅地. A separate いいえ arrow (他の目的に使用することができない

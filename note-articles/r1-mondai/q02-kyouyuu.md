@@ -137,7 +137,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-共有者は一人でどこまでできる?
+共有者は一人でどこまでできる？
 保存・管理・変更の線引き
 
 Subtitle (smaller, centered, 1行):

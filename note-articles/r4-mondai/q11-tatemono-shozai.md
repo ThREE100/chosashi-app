@@ -419,7 +419,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記規則4条3項別表3（ア）／昭59質疑応答（イ）／不動産登記
+条文根拠：不動産登記規則4条3項別表3（ア）／質疑応答（イ）／不動産登記
 事務取扱手続準則88条2項（ウ）／不動産登記法45条（エ）／同準則4条1項・2項
 （オ）
 

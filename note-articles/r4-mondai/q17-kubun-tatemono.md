@@ -521,17 +521,11 @@ Heading (bold, ONE line):
 敷地権なしでも一棟全部を一括申請
 Diagram: Draw a decision flowchart. Top rectangle: an isometric newly
 built apartment building (一棟の建物) divided into stacked room units,
-labeled「区分建物が属する一棟の建物が新築された」. Below it, a
-diamond-shaped branch node labeled「敷地権が付いているか？」with two
-arrows,「はい（○）」and「いいえ（✕）」. The「はい」arrow leads to a
-rectangular conclusion node labeled「敷地権付き区分建物」with a small
-land-ownership pie-chart icon attached to the building. The「いいえ」
-arrow leads to a separate rectangular conclusion node labeled「敷地権なし
-の区分建物」with no pie-chart icon. From BOTH of these two conclusion
-nodes, draw a converging arrow down into a single shared final conclusion
-node reading「いずれの場合も、一棟に属する全部の区分建物の表題登記を一括
-して申請」, visually showing that both paths lead to the identical
-requirement. Do not loop either branch back up into the diagram.
+labeled「区分建物が属する一棟の建物が新築された」. Beside it, place a pale dotted-outline tag (NOT a diamond, no ✓ or ✕,
+because the answer does not change the outcome) reading「敷地権の有無は
+問わない」. A single arrow leads down to the final conclusion node reading
+「一棟に属する全部の区分建物の表題登記を一括して申請」. Do not draw any
+loop arrows.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、区分建物が属する一棟の建物が新築されたことを確認します。次に、その
 区分建物に敷地権が付いているかどうかを確認しますが、敷地権の有無に

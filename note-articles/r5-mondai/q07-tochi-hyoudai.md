@@ -229,7 +229,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-(土地が生まれたとき、誰が登記する?), but built as a set of 5
+(土地が生まれたとき、誰が登記する？), but built as a set of 5
 diagram-drawing panels (a "how to sketch this fact pattern, in the right
 order" study reference) rather than a quick-reference conclusion poster.
 
@@ -332,7 +332,7 @@ Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 登記前に売却したら申請人は新所有者
 Diagram: A decision flowchart. Start node: 表題登記を申請する前に、原始
-取得者Aがその土地をBに売却したか?. A いいえ arrow leads to its own
+取得者Aがその土地をBに売却したか？. A いいえ arrow leads to its own
 conclusion node showing 原始取得者A holding a document labeled 表題登記
 の申請, reading Aが申請人のまま. A はい arrow leads to its own separate
 conclusion node showing an isometric scene of person A handing a land-plot

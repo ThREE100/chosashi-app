@@ -137,7 +137,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-その申請、どこの登記所に出す?
+その申請、どこの登記所に出す？
 管轄またぎのルールを整理
 
 Subtitle (smaller, centered, 1行):

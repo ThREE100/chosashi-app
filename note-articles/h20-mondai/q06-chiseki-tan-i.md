@@ -373,7 +373,7 @@ highlighted, leading to a conclusion node「1平方メートル単位(整数)で
 録」; the はい arrow of the extra diamond(地目が鉱泉地に変わる場合)and
 all other unrelated branches of the shared tree are rendered in a faded,
 greyed-out style without being omitted. An isometric保安林のイラストに
-温泉の湧出口アイコンを添え、「鉱泉地?」の吹き出しに✕マーク、「保安林の
+温泉の湧出口アイコンを添え、「鉱泉地？」の吹き出しに✕マーク、「保安林の
 まま」のラベルにチェックマーク、「56.8703→56㎡」のラベル。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、地目変更の登記を伴うかどうかを確認します。伴わなければ地目は保安

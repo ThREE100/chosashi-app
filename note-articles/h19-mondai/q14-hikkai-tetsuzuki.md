@@ -331,7 +331,7 @@ of this set, top to bottom: a start node reading 「筆界特定の申請」, th
 the blank node for 肢ア (drawn as an empty rounded rectangle with a bold
 question mark, thick highlighted blue border, since this panel is about
 肢ア), then immediately below it a diamond-shaped decision node reading
-「却下事由あり?」, with a Yes-branch arrow (labeled ○) leading right to a
+「却下事由あり？」, with a Yes-branch arrow (labeled ○) leading right to a
 small node reading 「（イ）」 in faded grey dotted-outline style with a
 terminal mark (no further arrow), and a No-branch arrow (labeled ✕)
 continuing straight down to a chain of faded grey dotted-outline nodes
@@ -357,7 +357,7 @@ Heading (bold, ONE line):
 Diagram: Draw the same shared flowchart. Fade the start node 「筆界特定の
 申請」 and the 肢ア node (now shown as a small solved node labeled 「審査」
 in faded grey text, since 肢ア was already solved in Panel 1) in grey
-dotted-outline style. Keep the diamond decision node 「却下事由あり?」
+dotted-outline style. Keep the diamond decision node 「却下事由あり？」
 visible but faded, except for its Yes-branch arrow (labeled ○), which is
 drawn in full color with a thick highlighted red border leading to the
 blank node for 肢イ (empty rounded rectangle, thick highlighted red

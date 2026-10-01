@@ -694,7 +694,7 @@ Diamond branch node, labeled「その書類は、不動産登記令21条1項が�
 のいずれかに当たるか？」("does this document fall under one of the five
 types of drawings listed in Article 21(1) of the Real Property
 Registration Order — 土地所在図, 地積測量図, 地役権図面, 建物図面,
-各階平面図?"). The ○ (yes) arrow leads to a conclusion node reading
+各階平面図？"). The ○ (yes) arrow leads to a conclusion node reading
 「利害関係の有無にかかわらず、誰でも写しの交付を請求できる」("anyone can
 request a copy, regardless of whether they have an interest"). The ✕
 (no — this panel's case, highlighted) arrow leads to a blue-highlighted

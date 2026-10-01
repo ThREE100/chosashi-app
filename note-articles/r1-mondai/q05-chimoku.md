@@ -140,7 +140,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-その土地、なに地目?
+その土地、なに地目？
 プールと竹木で差がつく準則の当てはめ
 
 Subtitle (smaller, centered, 1行):

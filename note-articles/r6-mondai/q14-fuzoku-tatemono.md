@@ -135,7 +135,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 1行):
-離れは、いつでも附属建物になれる?
+離れは、いつでも附属建物になれる？
 
 Subtitle (smaller, centered, 1行):
 令和6年度 午後の部 第14問－要件と手続を整理

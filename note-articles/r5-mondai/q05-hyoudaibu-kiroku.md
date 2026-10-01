@@ -232,7 +232,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-(その登記記録、新しく作られる?), but built as a set of 5 diagram-drawing
+(その登記記録、新しく作られる？), but built as a set of 5 diagram-drawing
 panels (a "how to sketch this fact pattern, in the right order" study
 reference) rather than a quick-reference conclusion poster.
 
@@ -299,7 +299,7 @@ Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 換地が1個対1個なら記録は流用
 Diagram: A decision flowchart. Start node: 1個の従前地に対応する換地は
-いくつか?. A branch arrow labeled 1個 leads to a conclusion node showing
+いくつか？. A branch arrow labeled 1個 leads to a conclusion node showing
 a land plot labeled 従前地 morphing via a curved arrow into a plot
 labeled 換地, with a single unbroken ledger book icon underneath looping
 back onto itself (no second ledger appears), reading 従前地の登記記録を

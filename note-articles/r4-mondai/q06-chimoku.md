@@ -305,7 +305,7 @@ Heading (bold, ONE line):
 Diagram: Draw an isometric bare land plot with a large cylindrical oil
 tank standing alone on it and no building anywhere on the plot. Above the
 tank, draw a small thought-bubble icon reading "建物がない→宅地ではな
-い?" with a red ✕ mark crossing it out. Below the crossed-out bubble,
+い？" with a red ✕ mark crossing it out. Below the crossed-out bubble,
 draw an arrow pointing to the land plot, which is tagged with a wooden
 label reading "宅地", with a small caption "石油タンク・ガスタンクの敷
 地" pinned beside the tag.
@@ -324,7 +324,7 @@ Heading (bold, ONE line):
 わき出し口か建物の敷地かを見分ける
 Diagram: Draw an actual decision flowchart. A diamond-shaped branch node
 reads「その土地は温泉のわき出し口そのものと、その維持に必要な土地
-か?」. The Yes branch (green arrow, labeled ○) leads to a conclusion node
+か？」. The Yes branch (green arrow, labeled ○) leads to a conclusion node
 showing an isometric bubbling-spring plot tagged with a wooden label
 reading "鉱泉地". The No branch (labeled ✕, meaning it is a separate
 building's site) leads to a different conclusion node showing an
@@ -348,7 +348,7 @@ Diagram: Draw an isometric cross-section of a levee (dike) built for
 flood prevention, with a small paved road and pedestrians walking along
 its flat top (天端). The whole levee land plot is tagged with a wooden
 label reading "堤". Beside the tag, draw a small thought-bubble icon
-reading "天端が道路→地目は道路?" with a red ✕ mark crossing it out, and
+reading "天端が道路→地目は道路？" with a red ✕ mark crossing it out, and
 an arrow pointing back to the "堤" tag.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この土地が防水のために築造された堤防かどうかを確認します。次

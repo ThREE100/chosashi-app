@@ -153,11 +153,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 強迫で遺言させたら欠格者
-Illustration: An isometric scene showing a woman character labeled "Ｂ"
-menacingly holding a scroll toward a man character labeled "Ａ" who is
+Illustration: An isometric scene showing a character labeled "Ｂ"
+menacingly holding a scroll toward a character labeled "Ａ" (被相続人) who is
 being forced to write on a document stamped "遺言", with a large red
 prohibition ("✕") icon and a torn "相続人" name-tag falling away from Ｂ
-to show she loses her heir status.
+to show Ｂ loses the heir status.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 相続欠格者になる
 
@@ -298,12 +298,12 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 強迫で遺言させた者は欠格
-Diagram: An isometric scene of a woman figure labeled「Ｂ」menacingly
-holding a scroll toward a man figure labeled「Ａ」who is being forced to
+Diagram: An isometric scene of a figure labeled「Ｂ」menacingly
+holding a scroll toward a figure labeled「Ａ」(被相続人)who is being forced to
 write on a document stamped「遺言」. A checklist icon beside the scene
 reads「詐欺又は強迫による遺言の強制の有無」with a checkmark placed on it,
 and a torn「相続人」name-tag falls away from Ｂ with a large red「✕」mark
-to show she loses her heir status.
+to show Ｂ loses the heir status.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、相続人になろうとする者が、被相続人に対して詐欺または強迫によって
 遺言をさせる・変更させるなどの不正な行為をしていないかを確認します。

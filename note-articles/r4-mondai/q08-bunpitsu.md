@@ -313,10 +313,9 @@ diamond-shaped root node labeled「分筆する土地に登記された他人の
 承諾書は必要か」. Render the branch labeled「抵当権を分筆後の一方の土地から
 消滅させる場合」with a thick highlighted border and full color: a document
 icon labeled「承諾書」next to a seal-certificate card labeled「印鑑証明書」,
-leading down to a second diamond-shaped node labeled「印鑑証明書に作成後
-3か月以内の期限があるか」, with a calendar icon crossed out by a red ✕ next
-to the text「3か月」, leading to a highlighted conclusion node labeled
-「期限の定めなし」. Render the other branch labeled「敷地権(区分建物所有者)
+leading down to a plain label (NOT a diamond) reading「印鑑証明書の作成
+時期」, with a calendar icon crossed out by a red ✕ next to the text「3か
+月」, leading to a highlighted conclusion node labeled「期限の定めなし」. Render the other branch labeled「敷地権(区分建物所有者)
 の場合」in a faded, greyed-out, dotted-outline style (this branch is the
 subject of PANEL 3), leading to a faded conclusion node labeled「承諾書は
 不要」.
@@ -333,14 +332,9 @@ Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 買戻特約は期間経過後も転写される
 Diagram: Draw an isometric land plot labeled「甲土地」tagged with a
-torn-paper label「買戻特約」and a faded calendar icon. Below it, draw a
-diamond-shaped branch node labeled「買戻期間は経過しているか」with two
-branch arrows leading to two separate, explicit conclusion nodes: an
-「はい」branch arrow leading to a conclusion node labeled「経過していても
-そのまま転写する」, and an「いいえ」branch arrow leading to a separate
-conclusion node labeled「経過していなくても通常どおり転写する」. Do not
-loop either branch arrow back into the diagram. From both conclusion
-nodes, draw converging arrows into a single illustration below showing
+torn-paper label「買戻特約」and a faded calendar icon. Beside the calendar, place a pale dotted-outline tag (no ✓ or ✕, NOT a
+diamond, because the outcome is the same either way) reading「買戻期間の
+経過は問わない」. Draw a single arrow down into an illustration showing
 「甲土地」splitting into「甲土地」and「乙土地」, with the「買戻特約」label
 copied onto 乙土地's registry-ledger icon labeled「登記記録」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -399,7 +393,7 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 相続人の一人Dが単独で申請できる
 Diagram: Draw a two-generation relationship diagram. Top row (same
-generation, side by side): two co-owner character icons labeled「A」and
+generation, side by side): two co-owner character icons labeled「A」(with a small 死亡 marker) and
 「B」, connected by a horizontal bracket labeled「共有」, standing on a
 land plot labeled「土地」. Draw a downward arrow from「A」only (B remains
 unaffected) to a lower row showing two heir character icons labeled「C」

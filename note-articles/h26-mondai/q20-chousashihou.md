@@ -326,7 +326,7 @@ of a 土地家屋調査士法人 whose purpose includes 民間紛争解決手続
 務, with icons for 2 of its 社員 inside. Diamond branch node, labeled
 「その社員は、土地家屋調査士法3条2項に規定する土地家屋調査士（認定調査
 士）か？」("is this 社員 a 土地家屋調査士 as defined in Article 3(2) of
-the Land and House Investigator Act — i.e. a 認定調査士?"). The ○ (yes,
+the Land and House Investigator Act — i.e. a 認定調査士？"). The ○ (yes,
 a 認定調査士) arrow leads to a green-highlighted conclusion node (with a
 certification-badge icon) reading「その社員は民間紛争解決手続代理関係業務
 を執行する権利を有する」("this 社員 has the right to perform 民間紛争解決
@@ -375,7 +375,7 @@ person who is not actually a 社員 of a 土地家屋調査士法人 (rendered i
 faded/dotted-outline style, since they never actually held that status).
 Diamond branch node 1, labeled「その者は、自己を社員であると誤認させる
 行為をしたか？」("did this person act in a way that caused others to
-mistakenly believe they were a 社員?"). The ✕ (did not) arrow leads to a
+mistakenly believe they were a 社員？"). The ✕ (did not) arrow leads to a
 conclusion node reading「本肢の対象外（通常の第三者としての扱い）」("outside
 the scope of this panel — treated as an ordinary third party"). From the
 ○ (did — this panel's case) arrow, Diamond branch node 2, labeled「取引の

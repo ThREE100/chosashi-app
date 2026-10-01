@@ -241,7 +241,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-(地図、どうやって作られ証明される?), but built as a set of 5
+(地図、どうやって作られ証明される？), but built as a set of 5
 diagram-drawing panels (a "how to sketch this fact pattern, in the right
 order" study reference) rather than a quick-reference conclusion poster.
 
@@ -347,9 +347,9 @@ Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 指定を受け特別事情なければ地図になる
 Diagram: A decision flowchart. Start node: 国土調査法19条5項の指定を受
-けた実測図か?. A いいえ arrow leads to its own conclusion node reading
+けた実測図か？. A いいえ arrow leads to its own conclusion node reading
 地図として備え付けられない. A はい arrow leads to a second diamond node:
-これを地図として備え付けるのを不適当とする特別の事情があるか?. From
+これを地図として備え付けるのを不適当とする特別の事情があるか？. From
 this second diamond, a いいえ arrow leads to a conclusion node showing
 the 実測図 scroll being mounted onto a wall display labeled 地図, reading
 地図として備え付けられる, and a separate はい arrow leads to its own
@@ -385,10 +385,10 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 差が公差内なら地積更正は不要
 Diagram: A decision flowchart. Start node: 地図訂正の申出に係る土地の登
-記記録上の地積に錯誤があるか?. A いいえ arrow leads to its own
+記記録上の地積に錯誤があるか？. A いいえ arrow leads to its own
 conclusion node reading 地積更正登記は問題にならない. A はい arrow leads
 to a second diamond node showing a balance-scale icon comparing 測量した
-地積 and 登記記録上の地積: その差は公差の範囲内か?. From this second
+地積 and 登記記録上の地積: その差は公差の範囲内か？. From this second
 diamond, a はい arrow leads to a conclusion node with a crossed-out 地積
 更正登記 form, reading 地積更正登記は併せて不要, and a separate いいえ
 arrow leads to its own conclusion node reading 地積更正登記を併せて申請

@@ -320,9 +320,9 @@ Diagram: A decision-tree flowchart drawn along an isometric hourglass
 timeline labeled「時効の期間」. First diamond node:「満了前6か月以内に
 成年後見人が不在か？」with an いいえ arrow leading to a small grayed-out
 box captioned「通常どおり時効が進行」(this branch is not the focus of this
-肢), and a はい arrow proceeding downward to a second diamond node:
-「本人が行為能力者になった時、または後見人が就職した時はいつか？」leading
-to a timeline segment labeled「そこから6か月」and a final conclusion node
+肢), and a はい arrow proceeding downward to a plain rounded box (NOT a
+diamond, since it is not a yes/no question):「本人が行為能力者になった時、
+または後見人が就職した時」leading to a timeline segment labeled「そこから6か月」and a final conclusion node
 reading「その6か月を経過するまで時効は完成しない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、時効の期間満了前6か月以内に成年後見人がいない状態かどうかを確認

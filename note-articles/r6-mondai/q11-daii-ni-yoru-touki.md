@@ -135,7 +135,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 1行):
-代位による登記、できる?できない?
+代位による登記、できる？できない？
 
 Subtitle (smaller, centered, 1行):
 令和6年度 午後の部 第11問－「保全されないか」がカギ

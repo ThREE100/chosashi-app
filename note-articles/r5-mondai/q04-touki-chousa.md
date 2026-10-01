@@ -232,7 +232,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-(登記官はどこまで調べられる?), but built as a set of 5 diagram-drawing
+(登記官はどこまで調べられる？), but built as a set of 5 diagram-drawing
 panels (a "how to sketch this fact pattern, in the right order" study
 reference) rather than a quick-reference conclusion poster.
 
@@ -318,9 +318,9 @@ Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 却下すべきときは本人確認調査を省略
 Diagram: A decision flowchart. Start node: 申請人以外の者が申請している
-と疑う相当な理由があるか?. A いいえ arrow leads to its own conclusion
+と疑う相当な理由があるか？. A いいえ arrow leads to its own conclusion
 node reading そもそも本人確認調査は不要. A はい arrow leads to a second
-diamond node: その申請には、いずれにせよ却下すべき事由があるか?. From
+diamond node: その申請には、いずれにせよ却下すべき事由があるか？. From
 this second diamond, a はい arrow leads to a conclusion node reading
 却下するため本人確認調査は不要, and a separate いいえ arrow leads to its
 own conclusion node reading 本人確認調査を行う. No arrow loops back to an
@@ -355,9 +355,9 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 具体的指示があれば職員に代行可
 Diagram: A decision flowchart. Start node: 登記官が実地調査を行わせる
-必要があると認めているか?. A いいえ arrow leads to its own conclusion
+必要があると認めているか？. A いいえ arrow leads to its own conclusion
 node reading 登記官自身が実地調査を行う. A はい arrow leads to a second
-diamond node: 職員に細部の具体的な指示を与えているか?. From this second
+diamond node: 職員に細部の具体的な指示を与えているか？. From this second
 diamond, a はい arrow leads to a conclusion node showing a registry
 official handing a clipboard labeled 指示 to a junior staff figure
 labeled 登記所の職員 who walks toward a land plot, reading 職員が代行

@@ -137,7 +137,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-その遺言、本当に有効?
+その遺言、本当に有効？
 「吉日」と指印と共同遺言の落とし穴
 
 Subtitle (smaller, centered, 1行):

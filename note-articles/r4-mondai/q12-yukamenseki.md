@@ -342,12 +342,11 @@ Heading (bold, ONE line):
 Diagram: Draw an isometric rooftop of a building with a small tower-like
 structure labeled「階段室」used only as a stairwell exit, next to similar
 small tower icons labeled「エレベーターの機械」「高置水槽」「冷却装置」.
-Draw the towers fully enclosed by walls with a dotted outline labeled
-「外気分断性あり」and a ✓ mark on that label, then draw a large ✕ overlay
-across that ✓ mark with a callout arrow pointing to a small stamp reading
-「外気分断性の有無は無関係」. Beside the towers, draw a single
-prohibition (no-entry) stamp reading「算入しない」applied to all four
-towers regardless of the ✓/✕ on the 外気分断性 label.
+Draw the towers fully enclosed by walls, with a pale dotted-outline tag
+beside them reading「外気分断性の有無は問わない」(no ✓ and no ✕ on this
+tag — it is simply not a deciding factor). Beside the towers, draw a
+single prohibition (no-entry) stamp reading「算入しない」applied to all
+four towers.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず階段室や塔屋の用途が、出入口専用またはエレベーターの機械・高置水槽・
 冷却装置の収容に該当するかを確認します。該当すれば、外気分断性の有無を

@@ -367,9 +367,9 @@ Heading (bold, ONE line):
 Diagram: Draw two side-by-side rounded panels. LEFT panel, labeled「よく
 ある思い込み」: one isometric 土地家屋調査士法人 社員 figure giving a
 thumbs-up gesture labeled「総社員の同意」toward a colleague who is freely
-carrying a briefcase icon labeled「自己の業務」with a green ✓ checkmark,
-with a large red ✕ overlay across the whole panel marking this as the
-wrong assumption. RIGHT panel, labeled「正しいルール」: the same
+carrying a briefcase icon labeled「自己の業務」with a green ✓ checkmark
+(this is the mistaken belief; do NOT also draw a red ✕ in this left
+panel — the left panel's label「よくある思い込み」is enough). RIGHT panel, labeled「正しいルール」: the same
 thumbs-up「総社員の同意」gesture, but the briefcase icon labeled「自己の
 業務」is still overlaid with a large red prohibition (✕, no-entry) mark.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

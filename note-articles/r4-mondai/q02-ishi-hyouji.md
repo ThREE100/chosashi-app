@@ -455,10 +455,9 @@ Heading (bold, ONE line):
 善意なら登記なしで保護される
 Diagram: A decision-tree flowchart on an isometric scene with land plot
 「甲土地」and figures A・B・C. Start node:「あとから登場した人は、包括
-承継人（相続人）か、それとも新たに取引に入った人か？」with a はい（包括
-承継人）branch drawn small and grayed out (not this panel's focus) leading
-to「第三者にあたらない」, and a はい（新たに取引に入った人）branch drawn
-with a thicker highlighted border proceeding to a second diamond node:
+承継人（相続人）か、それとも新たに取引に入った人か？」with a branch labeled「包括承継人（相続人）」drawn small and grayed out
+(not this panel's focus) leading to「第三者にあたらない」, and a branch
+labeled「新たに取引に入った人」drawn with a thicker highlighted border proceeding to a second diamond node:
 「その人は善意か（虚偽表示だと知らなかったか）？」with the 善意 branch
 highlighted, leading to a conclusion node with a green checkmark reading
 「登記がなくても保護される」; the 悪意 branch is drawn small and grayed out

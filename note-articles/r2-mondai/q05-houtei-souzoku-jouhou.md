@@ -241,7 +241,7 @@ and a final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
 Panel 1 (肢ア) must be drawn as a decision flowchart, because whether the
 number alone suffices depends on a real precondition (has the register
-office already filed a copy of this person's 一覧図?); give the diamond
+office already filed a copy of this person's 一覧図？); give the diamond
 node's two branches distinct, clearly labeled conclusion nodes and no
 looping arrow back into the flow. Panel 4 (肢エ) should render an excluded
 heir (a person who was disinherited and never appears in the 一覧図) in a

@@ -343,7 +343,7 @@ Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 人工的な原因なら地目変更で足りる
 Diagram: A shared decision flowchart, drawn identically in panels 2-5.
-Root diamond node:「一筆の土地が水面下に没した原因は?」splits into two
+Root diamond node:「一筆の土地が水面下に没した原因は？」splits into two
 branches: 「人工的原因(掘削・水路敷設等)」and「自然的原因(海面上昇・
 浸食・崖崩れ等)」. The人工的原因 branch leads to a small intermediate
 node「土地区画・所有権は消滅しない」, then to a conclusion node labeled
