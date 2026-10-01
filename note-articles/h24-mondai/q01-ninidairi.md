@@ -341,14 +341,14 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 知りながら放置すれば債務不履行
-Diagram: A decision-tree flowchart. First diamond node: 代理人は、本人の
-指名に従って選任した復代理人が不適任又は不誠実であることを知っていた
-か？with a いいえ branch leading to a small conclusion node 責任を負わ
-ない (drawn faded, since it is not this肢の事実). はい branch proceeds
-down to a second diamond node (drawn with a thicker highlighted border):
-代理人は、本人への通知又は復代理人の解任をしたか？with the いいえ branch
-leading to a warning-triangle icon and a conclusion node 復代理人の選任
-及び監督について、本人に対し債務不履行の責任を負う.
+Diagram: A decision flowchart. First, a rectangular check box (NOT a
+diamond): 代理人は、本人の指名に従って選任した復代理人が不適任又は不誠実
+であることを知っていた（本肢の事実）, with a single arrow proceeding down
+to a diamond node (drawn with a thicker highlighted border): 代理人は、
+本人への通知又は復代理人の解任をしたか？ The いいえ branch (thick,
+highlighted) leads to a warning-triangle icon and a conclusion node 善管
+注意義務違反として、本人に対し債務不履行の責任を負う. The はい branch
+(thin, lighter tone) leads to its own conclusion node 必要な対応をとった.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、代理人が復代理人の不適任・不誠実を知っていたかどうかを確認しま
 す。次に、知っていた場合に、本人への通知または復代理人の解任をしたかど

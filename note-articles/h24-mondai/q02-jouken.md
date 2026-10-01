@@ -284,9 +284,9 @@ Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 妨害があっても行政処分は作れない
 Diagram: A decision-tree flowchart on a farmland-plot isometric scene.
-First diamond node: 条件成就によって不利益を受ける当事者（売主）が、故意
-にその成就を妨げたか？with a はい arrow proceeding downward (this
-condition is satisfied in this fact pattern). Second diamond node (drawn
+First, a rectangular check box (NOT a diamond): 条件成就によって不利益を
+受ける当事者（売主）が、故意にその成就を妨げた（本肢の事実）, with a
+single arrow proceeding downward. Then a diamond node (drawn
 with a thicker highlighted border, since this is the branch the whole
 肢 turns on): その条件は、行政庁の許可（行政処分）を要する内容か？with
 the はい branch leading to a crossed-out government-stamp icon and a

@@ -328,7 +328,7 @@ Heading (bold, ONE line):
 提供できない理由も申請情報に書く
 Diagram: A decision-tree flowchart with a single diamond node:
 "登記識別情報を提供できるか？" The はい branch leads to a small, faded
-conclusion node "通常どおり提供すれば足りる（本問の対象外）". The いいえ
+conclusion node "通常どおり提供すれば足りる". The いいえ
 branch leads to a highlighted application-document icon with a filled-in
 field reading "登記識別情報を提供できません／理由：紛失", stamped with a
 green checkmark confirming this is required.

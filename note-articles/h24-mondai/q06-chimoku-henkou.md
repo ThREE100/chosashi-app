@@ -341,11 +341,10 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 保安林は指定解除まで地目変更不可
-Diagram: A decision-tree flowchart with two diamond nodes. The first
-diamond node reads "現況は変わったか（崩壊してかん木類が生える荒地になっ
-たか）？" with the はい branch proceeding downward (this 肢 presupposes
-this has happened). The second diamond node, drawn with a thicker
-highlighted border, reads "保安林としての指定は解除されたか？" Its いいえ
+Diagram: A decision flowchart. First, a rectangular check box (NOT a
+diamond) reads "現況が変わった（崩壊してかん木類が生える荒地になった）",
+with a single arrow proceeding downward (this 肢 presupposes this has
+happened). Then a diamond node, drawn with a thicker highlighted border, reads "保安林としての指定は解除されたか？" Its いいえ
 branch leads to a conclusion node reading "原野への地目変更登記はできない"
 with a red ✕ over a変更申請の書類アイコン; its はい branch (drawn faded,
 since it is not this肢の事実) leads to a faded conclusion node reading

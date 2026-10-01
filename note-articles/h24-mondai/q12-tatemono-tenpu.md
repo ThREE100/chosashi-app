@@ -327,11 +327,10 @@ Heading (bold, ONE line):
 証券未発行の抵当権には承諾証明が必要
 Diagram: A decision-tree flowchart with two diamond nodes. First diamond:
 共用部分である旨の登記を申請する建物に、抵当権の登記があるか？いいえ
-branch leads to a faded conclusion node 本肢が問題とする承諾証明・対抗
-裁判上の情報は問題とならない. はい branch proceeds to a second diamond
+branch leads to a faded conclusion node 承諾を証する情報は不要. はい branch proceeds to a second diamond
 node (drawn with a thicker highlighted border): その抵当権について、
 抵当証券が発行されているか？はい branch leads to a faded conclusion node
-本肢が想定する場面ではない（証券発行済みの扱いは別途確認）. いいえ branch
+抵当証券の所持人の承諾を証する情報と抵当証券の提供が必要. いいえ branch
 leads to a highlighted conclusion node 抵当権の登記名義人の承諾を証する
 当該登記名義人が作成した情報、又は当該登記名義人に対抗することができる
 裁判があったことを証する情報の提供が必要.

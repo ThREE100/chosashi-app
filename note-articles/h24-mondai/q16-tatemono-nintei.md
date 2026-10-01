@@ -289,7 +289,7 @@ Heading (bold, ONE line):
 海底に足を持つ桟橋なら定着性あり
 Diagram: A decision-tree flowchart with two diamond nodes. First diamond
 node: 家屋自体は土地に直接付着しているか？with a はい branch leading to a
-small faded conclusion node 定着性あり（本問の場面ではない）, drawn in a
+small faded conclusion node 定着性あり, drawn in a
 dotted, greyed-out style since this branch is not this肢の事実. いいえ
 branch proceeds down to a second diamond node (drawn with a thick
 highlighted border): 家屋を支える構築物（桟橋）は、海底から海面上まで
