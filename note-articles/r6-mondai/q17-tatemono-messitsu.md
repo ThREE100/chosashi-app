@@ -329,12 +329,10 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続人は相続登記を経ずに滅失登記できる
-Diagram: Draw an actual decision flowchart. Diamond node 1 reads「滅失登
-記は権利に関する登記か、表示に関する登記か」with an arrow to「表示に関
-する登記」(highlighted). Diamond node 2 reads「表示に関する登記の申請人
-となれる者について、相続その他の一般承継があったか」with a Yes arrow
-(thick highlighted border, full color, Ａの死亡・相続人Ｂのケース) leading
-to a conclusion node showing 相続人Ｂ walking directly to the registry
+Diagram: A labeled two-step sequence (NOT a decision flowchart — this 肢
+has no real branch). Step box 1:「滅失登記は表示に関する登記」. Arrow down
+to step box 2:「表示に関する登記の申請人Ａが死亡し、Ｂが相続した」. A
+thick highlighted arrow leads to a conclusion node showing 相続人Ｂ walking directly to the registry
 counter with a document labeled「甲建物の滅失登記」, past a separate
 faded, dotted-outline document icon labeled「相続を原因とする所有権の移
 転の登記」crossed by a small note「経なくてよい」を示す。
@@ -392,11 +390,10 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 同じ材料で建て直しても元の建物は別物
-Diagram: Draw an actual decision flowchart. Diamond node 1 reads「建物の
-全部を取り壊したか」with a Yes arrow leading down. Diamond node 2 reads
-「取り壊した建物の材料を用いて、別の土地に同じ種類・構造・床面積の建物
-を建築したか(再築・解体移転に当たるか)」with a Yes arrow (thick
-highlighted border, full color, 本肢のケース) leading to a conclusion
+Diagram: A labeled two-step sequence (NOT a decision flowchart — this 肢
+has no real branch). Step box 1:「建物の全部を取り壊した」. Arrow down to
+step box 2:「その材料を用いて、別の土地に同じ種類・構造・床面積の建物を
+建築した(解体移転)」. A thick highlighted arrow leads to a conclusion
 node showing two isometric scenes connected by a dashed arrow across a
 gap — on the left, 甲建物 being demolished with a label「滅失登記が必
 要」, on the right, a new building with identical shape on a different

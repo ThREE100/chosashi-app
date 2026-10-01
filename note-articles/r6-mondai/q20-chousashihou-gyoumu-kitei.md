@@ -396,8 +396,7 @@ Heading (bold, ONE line):
 調査士法人は社員1人でも設立できる
 Diagram: An isometric lone 土地家屋調査士 figure stands in front of a
 building with a sign reading「土地家屋調査士法人」, holding a 定款 document
-overhead, with a small label「社員1人」next to a green checkmark. No
-other figures are needed beside him.
+overhead, with a small label「社員1人」next to a green checkmark. No other figures are needed beside this figure.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、土地家屋調査士法人の社員となろうとする土地家屋調査士が何人いる
 かを確認します。次に、その人数が1人であっても定款を定めて設立するこ

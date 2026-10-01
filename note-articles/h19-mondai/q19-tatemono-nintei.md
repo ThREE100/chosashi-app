@@ -645,7 +645,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-建物認定の3要件(定着性・外気分断性・用途性、昭24.2.22民事甲240号)、
+建物認定の3要件(定着性・外気分断性・用途性、不動産登記規則111条)、
 不動産登記事務取扱手続準則77条(各肢の具体例)
 
 Final check before rendering: scan every kanji glyph and confirm it is

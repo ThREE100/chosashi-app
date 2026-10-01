@@ -323,10 +323,12 @@ labeled「A:5分の3」and a smaller orange segment labeled「B:5分の2」。Ri
 plot labeled「乙土地」: donut chart with the SAME two colors but the areas
 flipped — a smaller blue segment labeled「A:5分の2」and a larger orange
 segment labeled「B:5分の3」。An arrow leads from the two plots to a
-diamond-shaped branch node labeled「名義人(A・Bの組合せ)は同一か」。Its
-"Yes" arrow leads to a second diamond-shaped branch node labeled「各土地
-の持分割合まで一致しているか」。Its "No" arrow(this case) leads to a
-highlighted conclusion node reading「合筆できない」。A small shared
+diamond-shaped branch node labeled「名義人(A・Bの組合せ)は同一か」。Its "Yes" arrow leads to a second diamond-shaped branch node labeled
+「各土地の持分割合まで一致しているか」, and its faded "No" arrow leads to a
+faded conclusion node reading「合筆できない」。From the second diamond, the
+"No" arrow(this case) leads to a highlighted conclusion node reading「合筆
+できない」, and the faded "Yes" arrow leads to a faded conclusion node
+reading「(他の制限がなければ)合筆できる」。No loop arrows.A small shared
 checklist box beside the diagram, labeled「法41条の合筆の制限」, lists
 three items:「地目・地番区域の一致」「持分割合の一致」「所有権登記の有無の
 一致」。The「持分割合の一致」item is drawn with a thick highlighted border
@@ -344,9 +346,10 @@ Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 登記記録の地目でなく現況地目で判断
 Diagram: Two adjacent isometric land plots, each with a registry tag
-reading「地目:畑」。An arrow leads to a diamond-shaped branch node labeled
-「登記記録上の地目は同一か」。Its "Yes" arrow leads to a second diamond-
-shaped branch node labeled「現況の地目も同一か」。Overlaid real-world
+reading「地目:畑」。An arrow leads to a diamond-shaped branch node labeled「登記記録上の地目
+は同一か」。Its faded "No" arrow leads to a faded conclusion node reading
+「合筆できない」; its "Yes" arrow leads to a second diamond-shaped branch
+node labeled「現況の地目も同一か」。Overlaid real-world
 icons show the actual use differs: the left plot has an isometric
 crop-field icon(現況も畑), the right plot has an isometric small house
 icon on land labeled「宅地」。The "No" arrow(this case) from the second
@@ -388,10 +391,11 @@ Diagram: Left isometric land plot labeled「甲土地」with a torn-paper label
 reading「表題部所有者 A・B(所有権登記なし)」。Right isometric land plot
 labeled「乙土地」with a stamped document icon reading「所有権登記名義人
 A・B」。An arrow leads to a diamond-shaped branch node labeled「両土地の
-所有権登記の有無は一致しているか」。The "No"(this case) arrow leads to a
-highlighted conclusion node reading「合筆できない」。A small shared
-checklist box beside the diagram, labeled「法41条の合筆の制限」, lists the
-same three items as Panels 1 and 2, with「所有権登記の有無の一致」drawn
+所有権登記の有無は一致しているか」。The "No"(this case) arrow leads to a highlighted conclusion node reading
+「合筆できない」, and the faded "Yes" arrow leads to a faded conclusion
+node reading「(他の制限がなければ)合筆できる」。A small shared checklist
+box beside the diagram, labeled「法41条の合筆の制限」, lists the same three
+items as Panels 1 and 2, with「所有権登記の有無の一致」drawn
 with a thick highlighted border and full color, and the other two items
 faded and greyed-out.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

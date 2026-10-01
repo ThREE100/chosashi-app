@@ -438,9 +438,8 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：ア　不動産登記規則16条1項／イ　平成27年2月25日民二457号通達
-／ウ　不動産登記規則16条5項2号／エ　登記研究696号／オ　不動産登記規則
-16条10項(令16条2項・18条2項を準用しない)
+根拠：ア　不動産登記規則16条1項／イ　先例／ウ　不動産登記規則16条5項2号／
+エ　実務上の取扱い／オ　不動産登記規則16条10項(令16条2項・18条2項を準用しない)
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

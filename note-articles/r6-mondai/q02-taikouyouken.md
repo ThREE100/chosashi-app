@@ -608,9 +608,11 @@ Panel heading (bold):
 
 Illustration (isometric scene inside the panel):
 An isometric figure Ｃ with a small speech-bubble icon reading「知ってて
-買った」, standing next to figure Ｂ who holds a shield icon with a red ✕
-mark on it (representing the incorrect assumption that Ｂ can win without
-registration because Ｃ acted unfairly).
+買った」, standing next to figure Ｂ who holds a shield icon with a green checkmark
+on it (representing the incorrect assumption that Ｂ can win without
+registration because Ｃ acted unfairly). IMPORTANT: this left panel shows
+the mistaken belief with a ✓, while the right panel shows the actual rule
+for Ｃ（単純悪意）with a ✕ — do not draw the same mark on both sides.
 
 Panel conclusion (bold, red banner):
 ずるいから保護されないはず
@@ -709,6 +711,13 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+問題になるのは抵当権者ではなく買受人
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第2問 イ－競売の買受人Ｄは第三者に含まれる
 
 --- LEFT PANEL (red background, 直感的な誤解) ---
 Panel heading (bold):
@@ -816,6 +825,13 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+--- HEADER ---
+Title (large, bold, 1行):
+前主・後主は取り合う関係ではないんです
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第2問 ウ－一直線につながる承継
+
 --- LEFT PANEL (red background, 直感的な誤解) ---
 Panel heading (bold):
 別人かどうかで判断すると（誤った思考）
@@ -920,6 +936,13 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+相続人は売主と同じ立場なんです
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第2問 エ－包括承継人は第三者に当たらない
 
 --- LEFT PANEL (red background, 直感的な誤解) ---
 Panel heading (bold):
@@ -1026,6 +1049,13 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+不法占拠者には登記がなくても対抗できる
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第2問 オ－正当な利益のない者は第三者に当たらない
 
 --- LEFT PANEL (red background, 直感的な誤解) ---
 Panel heading (bold):

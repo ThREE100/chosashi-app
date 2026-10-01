@@ -334,18 +334,13 @@ characters):
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 別棟の附属建物はその棟の表題登記と併せて申請
-Diagram: Draw an actual decision flowchart. Diamond node 1 reads「附属
-建物とする区分建物は、主である建物と別の一棟の建物に属するか」with a Yes
-arrow (thick highlighted border, full color) leading down; the No arrow
-leads to a faded, dotted-outline box labeled「本肢の想定外(同じ一棟内の
-附属建物)」。From the Yes arrow, diamond node 2 reads「その別の一棟の建
-物は、まだ表題登記がされていないか」with a Yes arrow (thick highlighted
-border, full color, 本肢のケース) leading to a conclusion node showing
+Diagram: A labeled two-step sequence (NOT a decision flowchart). Step box
+1:「附属建物とする区分建物は、主である建物と別の一棟の建物に属する」.
+Arrow down to step box 2:「その別の一棟の建物は、まだ表題登記がされて
+いない」. A thick highlighted arrow leads to a conclusion node showing
 an isometric Ａ棟の1室のアイコンと、まだ登記のないＢ棟の倉庫部分のアイ
 コンを1枚の書類「表題登記申請書」がＢ棟にある他の専有部分のアイコンと
-まとめて束ねている図、labeled「Ｂ棟の他の区分建物の表題登記と併せて申
-請」; the No arrow from diamond node 2 leads to a faded, dotted-outline
-box labeled「本肢の想定外(既に表題登記済み)」。
+まとめて束ねている図、labeled「Ｂ棟の他の区分建物の表題登記と併せて申請」。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、附属建物とする区分建物が、主である建物とは別の一棟の建物に属す
 るかを確認します。次に、その別の一棟の建物にまだ表題登記がされていな
@@ -402,12 +397,11 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 一棟の変更登記は一人が申請すれば足りる
-Diagram: Draw an actual decision flowchart. Diamond node 1 reads「一棟
-の建物の変更について、申請義務は一棟に属する専有部分の所有者全員に課
-されているか」with a Yes arrow leading down. Diamond node 2 reads「専有
-部分の所有者の一人(甲区分建物の所有者)が一棟の建物の変更の登記を申請
-したか」with a Yes arrow (thick highlighted border, full color) leading
-to a conclusion node showing 甲区分建物の所有者 submitting a document
+Diagram: A labeled two-step sequence (NOT a decision flowchart). Step box
+1:「一棟の建物の変更の申請義務は、専有部分の所有者全員にある」. Arrow
+down to step box 2:「そのうちの一人(甲区分建物の所有者)が一棟の建物の
+変更の登記を申請した」. A thick highlighted arrow leads to a conclusion
+node showing 甲区分建物の所有者 submitting a document
 labeled「一棟の建物の床面積の変更登記」at a counter, with a hanko/seal
 stamp icon automatically appearing (職権による変更を示す) on 乙区分建
 物の登記記録のアイコン, and 乙区分建物の所有者のアイコンに緑のチェック

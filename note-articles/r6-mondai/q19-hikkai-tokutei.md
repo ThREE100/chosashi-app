@@ -375,9 +375,9 @@ Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 双方未登記の土地は筆界という概念が成立しない
 Diagram: An isometric water channel(水路) and road(道路) side by side, each
-with a torn-paper label「表題登記なし」。Above them, a diamond node reads
-「水路・道路はいずれも表題登記のない土地か」with a Yes arrow leading down
-to a small card reading「筆界は表題登記がある土地を前提とする概念」。The
+with a torn-paper label「表題登記なし」。Above them, a plain label box (NOT a diamond) reads「水路・道路はいずれも
+表題登記のない土地」with an arrow leading down to a small card reading
+「筆界は表題登記がある土地を前提とする概念」。The
 shared boundary line between the two is drawn as a faded dashed line,
 crossed by a red X, labeled「筆界という概念が成立しない」。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

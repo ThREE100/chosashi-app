@@ -548,7 +548,6 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 更正登記で直す
 
-(…肢の数だけ繰り返し。バッジ番号は1から通しで振る。)
 
 --- FOOTER ---
 Small footnote text(bottom of panel, small font, verbatim):

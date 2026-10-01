@@ -178,18 +178,16 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 3 ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-仮換地上の建物は従前地番
-Illustration: Two isometric land plots side by side, connected by a
-dashed arrow labeled「仮換地の指定」。Left plot labeled「従前地(甲土地)」
-with a small registry-book icon on it showing a solid unbroken line
-(地番はここに残る) — this plot itself has no house on it. Right plot
-labeled「仮換地(乙区画)」with a newly built house standing on it, but
-with NO 地番 label of its own; instead, a curved arrow runs from the
-house back to the 従前地 plot's registry-book icon, and a small
-parenthetical torn-paper tag next to the house reads「(仮換地の予定地番
-も併記)」。
+仮換地上の建物は現に存する土地の地番
+Illustration: An isometric land plot labeled「仮換地」with a newly built
+house standing on it. Under the house, the registered land on which it
+actually stands is shown as a ground layer labeled「建物が現に存する土地
+(底地)」with its own 地番 tag, and a solid arrow runs from that 地番 tag
+to a document labeled「所在」. Do NOT draw the applicant's own former plot
+(従前地) as the source of the 地番. A small parenthetical torn-paper tag
+next to the house reads「(予定地番をかっこ書きで併記)」。
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-建つ場所と地番はズレる
+現に存する土地の地番
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.

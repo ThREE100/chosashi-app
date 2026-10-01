@@ -318,7 +318,7 @@ in the center showing持分の割合を示す円グラフ(pie chart)。
 
 Quoted article text (rendered exactly, in a bordered box):
 「共有物の管理に関する事項は、各共有者の持分の価格に従い、その過半数で
-決する。」（民法252条1項）
+決する。」（民法252条1項の要旨）
 
 Panel conclusion (bold, blue banner):
 これから何をするか決める話 → 持分の過半数が必要
@@ -353,7 +353,7 @@ background, full width) ---
 変わらないため、共有者のうち1人の証明で足ります。
 
 --- FOOTER ---
-根拠：昭37.10.8民甲2885号（先例番号は本文には記載していません）
+根拠：先例（敷地の所有者の証明は、共有者のうち1人のもので足りる）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
@@ -447,13 +447,12 @@ NODE 3 (amber/orange rounded box, warning icon):
 An arrow continues downward from NODE 3 to NODE 4, with a bold label
 beside the arrow reading「登記官からすると」。
 
-NODE 4 (decision diamond):
+NODE 4 (amber rounded box with a small question-mark icon, NOT a diamond,
+since there is only one path):
 名義は一致しているのに、なぜ敷地権になっていないのか？
 （一見、不自然な状態）
-
 Below NODE 4, a single arrow down to NODE 5 (green rounded box with a
-checkmark icon), drawn as the main conclusion (there is only one path,
-since this is what the correct rule requires):
+checkmark icon):
 
 NODE 5:
 その理由（規約の定め）を証する情報の提出が必要
@@ -668,7 +667,6 @@ Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
 characters):
 規約証明は省略不可
 
-(…肢の数だけ繰り返し。バッジ番号は1から通しで振る。)
 
 --- FOOTER ---
 Small footnote text(bottom of panel, small font, verbatim):

@@ -633,15 +633,11 @@ Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 地方公共団体の代位嘱託は登録免許税なし
 Diagram: An isometric government-building icon labeled「地方公共団体」
-connects via an arrow to a diamond-shaped branch node labeled「代位によ
-る嘱託か、登記官の職権によるものか」。The branch relevant to this panel
-(「代位」, pointing toward an office-building icon labeled「株式会社(所有
-権の登記名義人)」and its land plot being split into 甲土地・乙土地) is
-drawn with a thick highlighted border and full color, leading to a
-conclusion node with a coin icon labeled「登録免許税」that has a large red
-✕ mark over it. The other branch(「職権」) is drawn in a faded,
-greyed-out, dotted-outline style leading to the same style of conclusion
-node, since it is not the case addressed by this 肢.
+sends an arrow labeled「代位による嘱託」toward an office-building icon
+labeled「株式会社(所有権の登記名義人)」and its land plot being split into
+甲土地・乙土地 (a labeled single-check illustration, NOT a decision
+flowchart). The arrow ends at a conclusion node with a coin icon labeled
+「登録免許税」that has a large red ✕ mark over it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず嘱託をする主体が国・地方公共団体等かを確認し、次にその嘱託が代位に
 よるものかを確認します。代位による嘱託であれば、登録免許税は課されませ
@@ -662,8 +658,8 @@ dotted-outline style leading to a conclusion node reading「共有者全員の
 同意が必要(変更行為)」, since this is not the case here. The "No" branch
 is drawn with a thick highlighted border and full color, leading to a
 conclusion node reading「持分の価格の過半数を有する者から申請できる(管理
-行為)」, with two of the three person figures(A・B, whose combined
-persons exceed half) highlighted and connected to an application-form
+行為)」, with two of the three person figures(A・B) highlighted together with a
+small label「合わせて3分の2(過半数)」 and connected to an application-form
 icon, while the third(C) stands slightly apart, outside the connection.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず分筆が共有物の形状・効用の著しい変更にあたるかを確認し、あたらなけ

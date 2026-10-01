@@ -448,7 +448,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-昭63.3.24民三1826号（造り・屋根の表示、地階・高床式の基準）・不動産登記
+先例（造り・屋根の表示、地階・高床式の基準）・不動産登記
 事務取扱手続準則81条4項（屋根裏部屋等の階算入基準）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is

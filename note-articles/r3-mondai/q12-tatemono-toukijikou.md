@@ -412,9 +412,8 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-根拠：不動産登記事務取扱手続準則第88条第2項（ア）／先例 昭和41年1月11日
-民甲229号（イ）／不動産登記令別表十二の項（ウ）／先例 昭和37年6月11日
-民甲1559号（エ）／先例 平成21年2月20日民二500号（オ）
+根拠：不動産登記事務取扱手続準則第88条第2項（ア）／先例（イ）／不動産登記令
+別表十二の項（ウ）／先例（エ）／先例（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special

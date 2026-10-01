@@ -501,9 +501,10 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 目的が違う登記でも規則35条1項7号なら一括申請可
-Diagram: Draw an actual decision flowchart. Diamond node 1 reads「表題部
-変更登記と分割登記は、登記の目的が異なる登記か」with a Yes arrow leading
-down. Diamond node 2 reads「この組み合わせは規則35条1項7号が定める例外
+Diagram: Draw an actual decision flowchart. A start box (a plain rounded
+rectangle, NOT a diamond) reads「表題部変更登記と分割登記は、登記の目的が
+異なる登記」with an arrow leading down to the only diamond node, which
+reads「この組み合わせは規則35条1項7号が定める例外
 (表題部の変更登記・更正登記と、分筆・合筆・分割・区分・合併の登記との組
 み合わせ)に当たるか」。From node 2, a Yes arrow (thick highlighted border,
 full color, this is 本肢のケース) leads to a conclusion node showing an
@@ -527,17 +528,16 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 全部消滅の承諾でも抵当権は一つ残る
-Diagram: Draw an actual decision flowchart. An isometric building labeled
-「抵当権」sits above a diamond node reading「承諾書の内容は、分割後の全て
-の建物について抵当権を消滅させるというものか」。A Yes arrow (thick
-highlighted border, full color, this is 本肢のケース) leads down to the
-building splitting into two resulting buildings connected by a dashed
+Diagram: A labeled sequence (NOT a decision flowchart). An isometric building labeled「抵当権」sits above a start box (a plain
+rounded rectangle, NOT a diamond, because the content of the consent
+does not change the outcome) reading「承諾書の内容：分割後の全ての建物に
+ついて抵当権を消滅させる」。An arrow (thick highlighted border, full
+color) leads down to the building splitting into two resulting buildings connected by a dashed
 line. One resulting building keeps a solid red chain-link icon (抵当権が
 存続) with the label「少なくとも一つに存続」。The other resulting building
 shows a green checkmark over a faded, dotted-outline chain-link icon
-(抵当権が消滅) with the label「消滅は一部のみ」。A small document icon
-labeled「承諾書」sits near the diamond node with a dashed arrow indicating
-its content does not change the outcome.
+(抵当権が消滅) with the label「消滅は一部のみ」。A small document icon labeled「承諾書」sits near the start box with a
+dashed arrow indicating its content does not change the outcome.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、承諾書の内容が分割後の全ての建物について抵当権を消滅させるという
 ものであることを確認します。次に、抵当権などの登記がある建物の分割では
