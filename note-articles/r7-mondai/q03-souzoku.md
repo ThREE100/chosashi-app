@@ -374,10 +374,10 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 期間徒過者がいても他の相続人を確認
 Diagram: A decision-tree flowchart on an isometric timeline with two
-tracks labeled 兄 and 弟. Start node: 共同相続人の一人（兄）の熟慮期間が
-経過したか？with a はい arrow down to a second diamond node（強調表示）:
-他の相続人（弟）はまだ期間内か？with a はい branch leading to a third
-diamond node: 期間徒過者（兄）に処分行為等の法定単純承認の事由がある
+tracks labeled 兄 and 弟. Start box (a plain rounded rectangle, NOT a diamond, because this 肢
+always starts from this fact): 共同相続人の一人（兄）の熟慮期間は経過した
+が、他の相続人（弟）はまだ期間内, with an arrow down to the only diamond
+node（強調表示）: 期間徒過者（兄）に処分行為等の法定単純承認の事由がある
 か？with the いいえ branch leading to a green checkmark conclusion node
 reading 全員で限定承認ができる, and the はい branch leading to a red cross
 conclusion node reading 全員での限定承認はできない。

@@ -165,8 +165,8 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 地積が合っていても区画ズレなら申出可
-Illustration: 一筆の土地の図。登記記録の地積欄に「100㎡」と正しい数値が
-表示されている一方で、地図上の境界線が波打つように現地とズレて描かれて
+Illustration: 一筆の土地の図。登記記録の地積欄に正しい地積が表示されている(具体的な数値は
+書かず「地積 正しい」の札だけを付ける)一方で、地図上の境界線が波打つように現地とズレて描かれて
 いる。虫眼鏡のアイコンでそのズレの部分を強調する。
 Conclusion tag (green banner below the illustration, 5-15 characters):
 地積とは別問題
@@ -336,7 +336,7 @@ Diagram: A side-by-side comparison frame, NOT a flowchart. LEFT half
 labeled「地図の区画（形・位置）」: a land-plot outline whose boundary line
 visibly zigzags away from a faint dotted outline of the actual site shape,
 with a magnifying-glass icon highlighting the mismatch. RIGHT half
-labeled「登記記録の地積（面積の数値）」: a document showing「100㎡」with a
+labeled「登記記録の地積（面積の数値）」: a document with a label reading「地積 正しい」(no specific number) with a
 green checkmark, matching correctly. A large arrow between the two halves
 is labeled「別々に確認する」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

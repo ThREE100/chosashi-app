@@ -324,9 +324,10 @@ Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 表意者の重過失で思考を止めない
 Diagram: A decision-tree flowchart on an isometric scene of two figures
-（表意者Ａ・相手方Ｂ）signing a contract. Start node: 表意者に重大な過失
-があるか？with a はい arrow proceeding downward to a second diamond node
-(drawn with a thicker highlighted border): 相手方は、錯誤があることを
+（表意者Ａ・相手方Ｂ）signing a contract. Start box (a plain rounded rectangle, NOT a diamond, because in this 肢 the
+answer is always yes): 表意者に重大な過失がある（原則は取消しできない）,
+with an arrow proceeding downward to a diamond node (drawn with a thicker
+highlighted border): 相手方は、錯誤があることを
 知っていた（悪意）、または重大な過失によって気づかなかったか？with the
 はい branch leading to a green checkmark conclusion node reading 取消し
 ができる, and the いいえ branch (drawn smaller, grayed out) leading to a
@@ -362,10 +363,9 @@ Heading (bold, ONE line):
 詐欺は転得者の無過失まで確認する
 Diagram: A decision-tree flowchart (drawn with a thicker highlighted
 border on its final diamond node, since this is the branch this panel is
-about) on an isometric 3-scene timeline. Start node: 意思表示に詐欺と
-いう瑕疵があるか？with a はい arrow down to a second diamond node: 取消
-し前に、目的物が第三者に渡ったか？with a はい arrow down to a third
-diamond node（強調表示）: その第三者は、詐欺の事実について善意かつ
+about) on an isometric 3-scene timeline. Start box (a plain rounded rectangle, NOT a diamond, since this 肢 always
+starts from this fact): 詐欺による意思表示を取り消す前に、目的物が第三者
+Ｃに渡った, with an arrow down to the only diamond node（強調表示）: その第三者は、詐欺の事実について善意かつ
 無過失か？with a green checkmark branch (はい) leading to a conclusion
 node reading 取消しを対抗できない（登記の有無は問わない）, and a red
 cross branch (いいえ) leading to a conclusion node reading 取消しを対抗
@@ -383,8 +383,8 @@ Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 到達妨害は「発信時」で判断しない
 Diagram: An isometric mail carrier holding an envelope toward a figure
-whose door is closing (受取拒否). A single diamond node: 相手方が正当な
-理由なく到達を妨げたか？with a はい arrow leading to a clock icon showing
+whose door is closing (受取拒否). A plain label box (NOT a diamond — this 肢 is a single check): 相手方が正当
+な理由なく到達を妨げた, with an arrow leading to a clock icon showing
 「発信の時」crossed out and「通常到達すべき時」highlighted with a
 checkmark, ending at a conclusion node reading その時に到達したとみなす。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -400,10 +400,10 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 心裡留保は転得者の善意だけで足りる
 Diagram: The same decision-tree flowchart shape as Panel 3, on the same
-isometric 3-scene timeline layout. Start node: 意思表示に心裡留保という
-瑕疵があるか（相手方が真意でないと知っていたか）？with a はい arrow down
-to a second diamond node: その後、目的物が第三者に渡ったか？with a はい
-arrow down to a third diamond node（強調表示、Panel 3とは異なるラベル）:
+isometric 3-scene timeline layout. Start box (a plain rounded rectangle, NOT a diamond): 心裡留保による意思
+表示（相手方は真意でないと知っていた＝無効）の後、目的物が第三者Ｃに
+渡った, with an arrow down to the only diamond node（強調表示、Panel 3
+とは異なるラベル）:
 その第三者は、真意でないことについて善意か（無過失は不要）？with a green
 checkmark branch (はい、過失があってもよい) leading to a conclusion node
 reading 無効を対抗できない, and a red cross branch (いいえ、悪意) leading

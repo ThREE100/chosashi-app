@@ -150,11 +150,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 申請人でない共有者も意見可
-Illustration: A shared piece of land with two boundary stakes; two
-siblings (brother and sister icons) stand side by side. The brother has
-already submitted an application document to a registrar-officer icon.
-The sister hands over a folder labeled 資料 to the same registrar-officer,
-with a speech bubble icon above her (no text needed inside the bubble,
+Illustration: A shared piece of land with two boundary stakes; two co-owner figures stand side by side, one labeled 共有者（申請人）
+and the other labeled 共有者（申請人でない）. The 申請人 has already
+submitted an application document to a registrar-officer icon labeled
+筆界特定登記官. The other co-owner hands over a folder labeled 資料 to the
+same registrar-officer, with a speech bubble icon above them (no text needed inside the bubble,
 just a speech-bubble shape).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 意見・資料を提出可
@@ -298,9 +298,10 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申請人でない共有者も意見を提出できる
-Diagram: A shared piece of land with two boundary stakes; two sibling
-figures stand side by side. One has already submitted an application
-document to a registrar-officer figure. The other hands over a folder
+Diagram: A shared piece of land with two boundary stakes; two co-owner figures stand side by side, labeled 共有者（申請人）and
+共有者（申請人でない）. The 申請人 has already submitted an application
+document to a registrar-officer figure labeled 筆界特定登記官. The other
+co-owner hands over a folder
 labeled「資料」to the same registrar-officer, with a speech-bubble icon
 above them.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -364,9 +365,10 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 除斥事由があれば改めて申請できる
-Diagram: A two-step decision flowchart. Start node: 原筆界特定を行った
-登記官は、対象土地の所有権登記名義人等の四親等内の親族（除斥事由）に
-当たるか？with a はい arrow down to a diamond node（highlighted with a
+Diagram: A two-step decision flowchart. Start box (a plain rounded rectangle, NOT a diamond, since this 肢
+always starts from this fact): 原筆界特定を行った筆界特定登記官は、申請人
+の叔父（四親等内の親族＝除斥事由）だった, with an arrow down to the only
+diamond node（highlighted with a
 thick border): 既に筆界特定がされていることは通常却下事由だが、この
 事情は「特段の必要」の例外に当たるか？with a green はい branch leading
 to a conclusion node reading 改めて筆界特定の申請をすることができる, and

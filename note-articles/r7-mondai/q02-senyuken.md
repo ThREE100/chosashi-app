@@ -167,10 +167,9 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 自己の占有のみでも主張できる
-Illustration: 世代交代を表すアイソメトリック図。左に故人Ａの家(「15年」の
-占有期間ラベル付き)、右に相続人Ｂの家(「5年」の占有期間ラベル付き)。中央
-から2本の矢印が分岐し、一方に「自己の占有のみ」のラベル、もう一方に
-「Ａの占有と併せて20年」のラベルを付け、両方の矢印の先に○(可)マークを
+Illustration: 世代交代を表すアイソメトリック図。左に故人Ａの家(「Ａの占有期間」のラベル付き)、右に相続人Ｂの家(「Ｂ自身の占有期間」
+のラベル付き)。中央から2本の矢印が分岐し、一方に「自己の占有のみ」のラベル、
+もう一方に「Ａの占有と併せて」のラベルを付け(年数の数字は書かない)、両方の矢印の先に○(可)マークを
 表示する。
 Conclusion tag (green banner below the illustration, 5-15 characters):
 自己の占有のみでOK
@@ -179,9 +178,9 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 善意なら使用利益は返還不要
-Illustration: 建物のアイソメトリックイラスト。建物の中に住む人物Ｃを描き、
+Illustration: 建物のアイソメトリックイラスト。建物の中に住む人物Ｃ(無権原のＢから借りた賃借人)を描き、
 上に「権原があると信じた（善意）」の吹き出しを付ける。下部に家賃相当額を
-表すコインアイコンを描き、そこに×マークを重ね、Ａへ向かう矢印が×印で
+表すコインアイコンを描き、そこに×マークを重ね、所有者Ａへ向かう矢印が×印で
 止まっている様子を表現する。
 Conclusion tag (green banner below the illustration, 5-15 characters):
 提訴前は返還不要
@@ -190,7 +189,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 特別の必要費は償還請求できる
-Illustration: 建物の屋根に落雷のアイコンを描く。その下に「修繕費50万円」の
+Illustration: 建物の屋根に落雷のアイコンを描く。その下に「修繕費」の
 ラベルを付けた請求書アイコンを配置し、所有者Ａへ向かう矢印を描く。対比
 として、小さく雨どいの掃除代のアイコンを描き、「通常の必要費・自己負担」
 のラベルを添える。
@@ -307,10 +306,10 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 相続人は主張方法を自由に選べる
-Diagram: An isometric generational scene: a deceased figure Ａ's house
-（15年の占有期間ラベル）and heir Ｂ's house（5年の占有期間ラベル）,
-connected by a fork icon splitting into two arrows, one labeled「自己の
-占有のみ」, one labeled「Ａの占有と併せて20年」, both ending in a green
+Diagram: An isometric generational scene: a deceased figure Ａ's house（labeled Ａの占有期間）and heir Ｂ's house
+（labeled Ｂ自身の占有期間）, connected by a fork icon splitting into two
+arrows, one labeled「自己の占有のみ」, one labeled「Ａの占有と併せて」
+(do NOT write any number of years anywhere), both ending in a green
 checkmark to show both options are valid.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず占有者が死亡し相続が生じたことを確認し、次に相続人が「自己の占有の
@@ -325,8 +324,9 @@ Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 提訴の前後で使用利益の扱いが変わる
 Diagram: A decision-tree flowchart on an isometric building scene with a
-figure Ｃ living inside. Start node: 権原があると信じたか（善意）？with
-a はい arrow down to a second diamond node（強調表示）: 所有者Ａから本権
+figure Ｃ living inside. Start box (a plain rounded rectangle, NOT a diamond): Ｃは所有者がＢだと
+過失なく信じていた（善意の占有者）, with an arrow down to the only diamond
+node（強調表示）: 所有者Ａから本権
 の訴えを提起されて敗訴したか？with the いいえ branch leading to a green
 checkmark conclusion node reading 使用利益の返還は不要, and the はい
 branch leading to a conclusion node reading 訴え提起の時から返還義務
@@ -346,7 +346,7 @@ Heading (bold, ONE line):
 Diagram: An isometric house split by a dividing line. Left side shows a
 gutter-cleaning icon labeled「通常の必要費」with a small self-pay icon.
 Right side shows a lightning-bolt striking the roof, labeled「特別の必要
-費（落雷）」, with an invoice icon「修繕費50万円」and an arrow pointing to
+費（落雷）」, with an invoice icon labeled「修繕費」(no amount)and an arrow pointing to
 所有者Ａ labeled「償還請求」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず支出した費用が、日常的な維持費である「通常の必要費」なのか、落雷の
@@ -361,11 +361,12 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 指図と承諾の2条件をそろえて確認する
 Diagram: A decision-tree flowchart on an isometric building scene where
-占有代理人Ｂ stays inside the building unmoved. Start node: 本人Ａが第三
-者Ｃのために占有するようＢに指図したか？with a はい arrow down to a
-second diamond node: Ｃがこれを承諾したか？with a はい arrow leading to a
-green checkmark conclusion node reading Ｃが占有権を取得する（Ｂはその
-まま住み続ける）。
+占有代理人Ｂ stays inside the building unmoved. First diamond: 本人Ａが第三者Ｃのために占有するようＢに指図したか？with
+a はい arrow down to a second diamond node: Ｃがこれを承諾したか？with a
+はい arrow leading to a green checkmark conclusion node reading Ｃが占有権
+を取得する（Ｂはそのまま住み続ける）. The いいえ arrow of each diamond
+leads to one shared small gray end node reading 指図による占有移転は
+成立しない. Do NOT draw any loop arrow back to an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずＡからＢへの指図があったかを確認し、次にＣがその指図を承諾したかを
 確認します。この2つがそろえば、Ｂの引っ越しなしに占有権がＣへ移ります。

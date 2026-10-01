@@ -140,9 +140,8 @@ transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
 --- HEADER ---
-Title (large, bold, 2行):
+Title (large, bold, 1行):
 同じ「閉鎖された図面」でも保存期間が違う？
-令和7年度 午後の部 第5問
 
 Subtitle (smaller, centered, 1行):
 令和7年度 午後の部 第5問

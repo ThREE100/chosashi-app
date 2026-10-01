@@ -28,7 +28,7 @@
 
 ### イ：スキャンした確認済証にも、電子署名は必要
 
-オンライン申請で、紙の確認済証をスキャナで電子データにして添付情報とする場合、その電子データにも作成者による電子署名が必要とされています。不動産登記令13条1項は、申請人又はその代理人が作成したものでない書面（図面類を除く）をスキャナ等により電磁的記録に記録したものを添付情報とする場合には、当該書面を作成した者による電子署名が必要であると定めており、確認済証はまさにこれにあたります。さらに同条2項により、申請人は登記官が定める期間内にその書面の原本を登記官に提示しなければなりません。
+オンライン申請で、紙の確認済証をスキャナで電子データにして添付情報とする場合、その電子データには、電子データを作成した者（スキャンした申請人や、代理人の土地家屋調査士）による電子署名が必要です。不動産登記令13条1項は、表示に関する登記を電子申請する場合に、申請人又はその代理人が作成したもの以外の書面（図面類を除く）をスキャナ等により電磁的記録にしたものを添付情報とすることを認めたうえで、「当該電磁的記録は、当該電磁的記録を作成した者による電子署名が行われているものでなければならない」と定めており、確認済証はまさにこれにあたります。本肢は「電子署名を要しない」としている点で誤りです。さらに同条2項により、申請人は登記官が定める期間内にその書面の原本を登記官に提示しなければなりません。
 
 **たとえば**、建築確認を受けたときの紙の確認済証を、スキャナで読み取ってPDFにし、オンライン申請の添付書類として提出する場合、そのPDFデータには、作成した人（通常は土地家屋調査士）の電子署名を付ける必要があります。「スキャンしただけだから署名は不要」というわけではありません。
 
@@ -38,14 +38,13 @@
 
 ここで一度、電子署名が何のためにあるのかを考えてみましょう。電子署名は、「この電子データは、たしかにこの人が作った本物です」ということを保証するための、いわば印鑑やサインのデジタル版です。
 
-もし確認済証を作った本人（建築確認をした役所や指定確認検査機関）自身がスキャンして提出するなら、「自分が作った書類を、自分でデータ化しました」という話なので、あらためて署名で保証し直す必要はなさそうにも思えます。ところが実際に建物の表題登記を申請するのは、確認済証を作った本人（役所側）ではなく、建物の持ち主（申請人）です。つまり、「自分では作っていない、他人（役所）が作った書類」を、申請人がスキャンして提出することになります。
+スキャンしたデータは、元の紙を作った役所の電子データそのものではありません。紙を電子データに写し取ったのは、申請人や代理人の土地家屋調査士です。そこで、「このデータは、たしかに自分が元の紙から写し取ったものです」ということを、データを作った人（スキャンした人）自身の電子署名で保証させる仕組みになっています。署名するのは確認済証を作った役所ではなく、スキャンして電子データを作った人です。そのうえで、同条2項により、後日、紙の原本そのものを登記官に提示して確認を受けます。
 
-この「自分で作った書類ではない」という点が、電子署名を省略できない理由です。他人が作った書類をスキャンしただけでは、「たしかに本物の確認済証をそのまま写し取ったデータです」ということを、そのデータ自体からは証明できません。だからこそ、その書類を作った人（役所側）による電子署名を付けてもらうことで、はじめて「本物の写しである」という保証が得られる仕組みになっています。
+- 署名するのは誰か：スキャンして電子データを作った人（申請人や代理人の土地家屋調査士）
+- 確認済証を作った役所に署名してもらう必要はない
+- 署名だけで終わりではなく、紙の原本を登記官に提示する（令13条2項）
 
-- 自分（申請人）が作った書類をスキャンする場合：あらためて電子署名は不要
-- 他人（役所など）が作った書類をスキャンする場合：その作成者による電子署名が必要
-
-確認済証は、まさに「他人（役所・指定確認検査機関）が作った書類」にあたるため、スキャンしても電子署名は省略できません。
+「スキャンしただけ」でも、データを作った人の電子署名は省略できません。
 
 ### ウ：未登記のまま亡くなった場合、相続人は自分の名義で表題登記を申請できる
 
@@ -96,7 +95,7 @@
 ### まとめ
 
 - **ア（正）**　表題登記のみの2棟の合体は、合体後の登記＋合体前の抹消を1か月以内にまとめて申請する義務がある
-- **イ（誤）**　スキャンした確認済証にも作成者の電子署名が必要
+- **イ（誤）**　スキャンした確認済証にも、電子データを作成した者（スキャンした者）の電子署名が必要
 - **ウ（誤）**　未登記のまま死亡した場合、相続人は自分を表題部所有者として直接申請できる
 - **エ（誤）**　借地上の建物の表題登記に借地権の証明情報は不要
 - **オ（正）**　表題部所有者の住所証明として印鑑証明書を使うことができる
@@ -112,6 +111,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（2番＝ア・オ）は法務省公表の試験問題原本・正答資料で確認済みです。ア（不動産登記法49条4項）・ウ（不動産登記法47条1項・2項）・オ（不動産登記令別表12項添付情報欄ニ）は条文の文言レベルで確認済みです。イ（スキャン文書にも電子署名が必要）は法務局のオンライン申請案内で確認済みです。エは一般原則から導いており、個別の先例文言までは確認できていませんので、実務で使う際は念のため再確認をおすすめします。
 - 読者からイ・ウ・エの結論に自力でたどり着けなかったというフィードバックを受け、「ここが分かりにくいポイント」の解説を追加しました。今回は法律学習経験者向けの条文ベースの説明ではなく、初学者向けにかみ砕いた比喩・具体例を中心とした説明を心掛けています（イ＝電子署名は「本物の写しである」ことの保証、ウ＝表題登記は名義変更ではなく最初の記録であること、エ＝表題登記が証明するのは建物の物理的な存在であって土地の権利関係ではないこと）。ウ・エの本文では、関連する個別テーマ記事（`topics/shinseishikaku-tochi-tatemono.md`「売ってしまったら、誰が登記する？」、`topics/tenpu-jouhou-hayamihyou.md`「表示に関する登記の添付情報 早見表」）をタイトルで紹介しています。ただしnote.comへのエクスポート（`tools/md_to_mt.py`）はMarkdownリンク構文自体に対応していないため、実際にクリックできるリンクにはならず、記事タイトルを紹介する形にとどめています。実際のnote.com投稿時に、該当テーマ記事が既に公開済みであれば、手動でハイパーリンクを付け足すことをおすすめします。イ・ウ・エの正誤判定・条文根拠（結論）自体は変更していません。あわせて、実際に読者がつまずいたイ・ウ・エの論点（いずれも「表題登記が何のための手続きか」を見誤ると結論を誤る点）を反映し、タイトルのキャッチフレーズを「合体後の登記、実は1か月以内の義務」から「「何のための登記か」を見失うと、間違えるんです」に変更しました。
+- 2026-10-01の図解プロンプト点検で、イの解説が不動産登記令13条1項の「当該電磁的記録を作成した者による電子署名」を「当該書面を作成した者（役所側）による電子署名」と読み違えていたことが分かったため、ローカル法令データベース（`laws/fudousan-touki-rei.md`）の条文で確認し、署名者を「電子データを作成した者（スキャンした申請人・代理人）」に改めました（イの正誤判定〈誤〉・正解番号は変わりません）。あわせて、イ肢の間違いノート図解と作図ガイドのパネル2も同じ内容に直しました。
 
 ## 補足：表題登記と所有権保存登記の違い
 
@@ -317,38 +317,43 @@ image.
 --- HEADER ---
 Title (large, bold):
 電子署名は「本物の写し」の保証書
-
 Subtitle (smaller, centered):
-令和7年度 午後の部 第14問 イ－誰が作った書類かで決まる
+令和7年度 午後の部 第14問 イ－署名するのはスキャンした人
 
 --- COMPARISON ---
+IMPORTANT: the two sides must show OPPOSITE marks, not the same mark —
+the mistaken belief predicts that no signature is needed (✓ on the
+unsigned file), but the actual rule says a signature is required.
 LEFT PANEL, heading (bold):
-自分で作った書類をスキャンする場合
-Illustration: An isometric person character (the applicant) writing and
-signing their own document at a desk, then feeding it into a scanner. The
-resulting digital file icon has a green checkmark and a small label
-署名は不要 next to it.
+誤りやすい思い込み
+Illustration: A person character (an applicant or a 土地家屋調査士 acting
+as agent) scans a paper document labeled 確認済証 that was issued by a
+government-office building. The resulting digital file icon has NO
+signature, and a green checkmark with a small label 署名は不要 is drawn
+next to it (this is the mistaken belief).
 Panel takeaway (short line below the illustration):
-自分の申請自体が保証になる
-
+スキャンしただけだから署名は不要？
 RIGHT PANEL, heading (bold):
-他人（役所）が作った書類をスキャンする場合
-Illustration: An isometric government-office building icon handing a
-document labeled 確認済証 to a person character (the applicant), who then
-scans it. The resulting digital file icon starts with a red question mark,
-and only turns into a green checkmark once a small official seal icon
-labeled 電子署名 arrives on an arrow from the government-office building.
+正しいルール
+Illustration: The same person character scans the same 確認済証. A small
+seal icon labeled 電子署名 travels from THAT SAME PERSON (the one who
+scanned) onto the digital file — NOT from the government-office building,
+which is drawn in the background with no arrow coming from it. A red ✕ is
+drawn next to a small crossed-out label reading 署名なしのデータ. Below,
+a small numbered step「2」shows the person later presenting the paper
+original to a registry officer labeled 登記官 (原本の提示).
 Panel takeaway (short line below the illustration):
-作成者（役所側）の電子署名が必要
+スキャンして電子データを作った人の電子署名が必要
 
 --- CALLOUT: 誤りやすいポイント ---
 スキャンしただけなら中身は変わらないのだから、署名は不要だと考えてしまい
-がちです。しかし電子署名は「たしかに本物の写しである」ことを保証するため
-のものであり、申請人自身が作った書類ではない、他人が作った書類（確認済証
-など）をスキャンする場合は、その書類を作った人による電子署名が必要です。
+がちです。しかし電子署名は、スキャンして電子データを作った人が「たしかに
+元の紙から写し取ったデータです」と保証するためのものであり、確認済証を作
+った役所ではなく、スキャンした申請人や代理人の土地家屋調査士が電子署名を
+します。さらに、後日、紙の原本を登記官に提示します。
 
 --- FOOTER ---
-不動産登記令13条1項
+不動産登記令13条1項・2項
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
@@ -629,21 +634,22 @@ characters):
 --- PANEL 2（肢イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
-他人作成の書類には電子署名が必要
-Diagram: A decision flowchart. Start node: スキャンする書類は、申請人
-自身が作成したものか、それとも他人（役所等）が作成したものか？with a
-自分が作成 branch leading to a scanner and a digital file with a green
-checkmark, ending at a conclusion node reading 電子署名は不要, and a
-highlighted 他人が作成 branch leading to a scanner and a digital file
-with a small official seal icon labeled 電子署名 attached, ending at a
-separate conclusion node reading その作成者による電子署名が必要.
+スキャンしたデータには作った人の電子署名
+Diagram: A labeled two-step illustrative diagram (NOT a decision
+flowchart). Step 1: a person character (申請人 or 代理人の土地家屋調査士)
+scans a paper document labeled 確認済証 (issued by a government office
+drawn small in the background, with NO arrow or seal coming from that
+office). Step 2: a seal icon labeled 電子署名 goes from the SAME person who
+scanned onto the resulting digital file, which gets a green checkmark.
+A small side note shows the paper original being presented to a 登記官
+later (原本の提示).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、スキャンする書類が申請人自身が作成したものか、それとも他人（役所
-等）が作成したものかを確認します。確認済証は役所側が作成した書類なので、
-その作成者による電子署名が必要です。
+まず、紙の確認済証をスキャンした電子データを添付情報にするのかを確認し
+ます。次に、誰が電子署名をするかを確認します。署名するのは確認済証を作
+った役所ではなく、スキャンして電子データを作った申請人や代理人です。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-他人作成なら署名必要
+スキャンした人が署名
 
 --- PANEL 3（肢ウ） ---
 Badge: a filled circle in green containing the number 3.

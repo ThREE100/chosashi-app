@@ -415,8 +415,9 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 別表第二の者が代位すれば非課税
-Diagram: A two-step decision flowchart. Start node: この分筆登記は本来
-課税対象（個数×1,000円）か？with a はい arrow down to a diamond node
+Diagram: A two-step decision flowchart. Start box (a plain rounded rectangle, NOT a diamond): 分筆登記は本来は
+課税対象（分筆後の個数×1,000円）, with an arrow down to the only diamond
+node
 (highlighted with a thick border): 代位する主体は登録免許税法別表第二
 に掲げる者（地方公共団体等）か？with a green はい branch leading to a
 conclusion node reading 登記の種類にかかわらず非課税, and a faded いいえ

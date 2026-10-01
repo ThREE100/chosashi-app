@@ -164,9 +164,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 氏名が違っても証明書があればOK
-Illustration: An isometric scene of a person handing a certificate to a
-city hall clerk at a counter, with a small land plot icon and a document
-labeled 訂正 nearby, suggesting a name-change certificate being submitted.
+Illustration: An isometric scene in two steps: on the left, a person
+receives a certificate labeled 氏名変更の証明 from a city hall building
+(市町村長); on the right, the same person submits that certificate
+together with a document labeled 訂正申出 at a registry-office counter
+(登記所), with a small land plot icon nearby.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 訂正申出が可能
 
@@ -422,9 +424,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 証明書があれば氏名不一致でも訂正可
-Diagram: An isometric scene of a person handing a certificate labeled
-氏名変更証明 to a city-hall clerk at a counter, with a small land-plot
-icon and a document labeled 訂正申出 beside them.
+Diagram: An isometric two-step scene: the person first receives a
+certificate labeled 氏名変更の証明 from a city-hall building (市町村長が作成),
+then submits that certificate together with a document labeled 訂正申出 at
+a registry-office counter labeled 登記所, with a small land-plot icon
+beside them. The 訂正申出 must go to the 登記所, NOT to the city hall.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、登記記録上の氏名と現在の氏名が食い違っているかを確認します。市町
 村長が職務上作成した氏名変更の証明情報を提供できれば、地積測量図の
@@ -492,8 +496,10 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 縮尺と所在表示の両方が条件
-Diagram: A decision flowchart. Start node: 地積測量図の縮尺は、その土地
-の土地所在図の縮尺と同一か？with a はい arrow down to a diamond node
+Diagram: A decision flowchart. First diamond: 地積測量図の縮尺は、その土地の土地所在図の縮尺と同一か？
+with a はい arrow down to a second diamond node, and an いいえ arrow to the
+same end node 通常どおり別々に作成する必要がある used by the second
+diamond's いいえ branch (no loop arrows). Second diamond node
 (highlighted with a thick border): その地積測量図によって、土地の所在
 を明確に表示できるか？with a green はい branch leading to a conclusion
 node reading「土地所在図兼地積測量図」として兼用できる, and an equally

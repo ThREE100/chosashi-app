@@ -528,13 +528,11 @@ Node 1 (start, two isometric区分建物 room icons side by side, one labeled
 甲建物・敷地権登記あり, one labeled 乙建物・敷地権登記なし):
 甲建物と乙建物を合併したい
 
-Arrow down to Decision Diamond:
-合併前の敷地権登記の有無は一致しているか？
-
-Decision Diamond, branch「いいえ（食い違いあり）」:
+Arrow down to a plain box (NOT a diamond) reading:
+合併前の敷地権登記の有無が食い違っている
+Beside that box, a small thought bubble crossed out with a red ✕ reading:
 食い違いがあるから合併できない、と考えたくなる
-
-Arrow from that branch to Node 2:
+Arrow down to Node 2:
 規則134条3項を確認する－「区分合併後の建物が敷地権のない建物となるとき」
 を想定した規定があるか？
 
@@ -644,13 +642,14 @@ characters):
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 同一性証明だけでは住所は書き換わらない
-Diagram: A two-step decision flowchart. Start node: 区分建物とその敷地の
-登記記録の間で、登記名義人の住所は一致しているか？with a いいえ arrow
-down to a diamond node(highlighted with a thick border): 同一性証明の
-情報だけで、住所の表示を書き換えられるか？with a faded はい branch
-leading to a small conclusion node reading 直ちに敷地権発生の登記へ, and
-a highlighted いいえ branch leading to a conclusion node reading まず
-住所の変更又は更正の登記をしてから、敷地権発生の登記に進む必要がある.
+Diagram: A two-step sequence (NOT a decision flowchart — this 肢 has no
+real branch). Top box: 区分建物と敷地の登記記録で、登記名義人の住所が食い
+違っている. From it, a short shortcut arrow labeled 同一性証明の情報だけで
+直接 points to a box 敷地権発生の登記, and that shortcut arrow is crossed
+out with a red ✕. The correct path is a highlighted numbered route: step
+「1」a document labeled 住所の変更又は更正の登記, then step「2」a document
+labeled 敷地権発生の登記, ending at a conclusion node reading まず住所の
+変更又は更正の登記をしてから、敷地権発生の登記に進む.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、区分建物とその敷地の登記記録の間で住所が一致しているかを確認し
 ます。次に、同一性証明の情報だけで住所の表示を書き換えられるかを確認
@@ -664,9 +663,9 @@ characters):
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 例外に当たらず敷地権の土地は合筆不可
-Diagram: A decision flowchart. Start node: この土地には敷地権である旨の
-登記があるか？with a はい arrow down to a diamond node（highlighted with
-a thick border): この登記は合筆後も引き継げる例外（承役地地役権の登記
+Diagram: A decision flowchart. Start box (a plain rounded rectangle, NOT a diamond): 合筆しようとする
+土地に敷地権である旨の登記がある, with an arrow down to the only diamond
+node（highlighted with a thick border): この登記は合筆後も引き継げる例外（承役地地役権の登記
 等）に当たるか？with a faded はい branch leading to a small conclusion
 node reading 例外なら合筆できる, and a highlighted いいえ branch leading
 to a conclusion node reading 例外に当たらないため合筆できない.

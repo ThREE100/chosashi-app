@@ -227,7 +227,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、「一棟の表題部か専有部分の表題部か」「職権抹消の対象は何か」「列挙された種類に該当するか」を見抜けるようにする5パネル構成。エ・オは「規則113条・準則80条の列挙（37種類）に該当するか」という同じチェックリストを共有し、該当する場合としない場合の分岐先を対比する。②の色分け（どこに記録されるか＝緑、何と表記できるか＝青）を引き継いでいる。
+問題文を読んだ瞬間に、「一棟の表題部か専有部分の表題部か」「職権抹消の対象は何か」「列挙された種類に該当するか」を見抜けるようにする5パネル構成。エ・オは「規則113条・準則80条の列挙に該当するか」という同じチェックリストを共有し、該当する場合としない場合の分岐先を対比する。②の色分け（どこに記録されるか＝緑、何と表記できるか＝青）を引き継いでいる。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -254,7 +254,7 @@ illustrative diagram is sufficient — do not force a flowchart. Panel 3
 （肢ウ）uses a 正誤対比型（left/right contrast frame）instead of a
 flowchart, contrasting the correct listed-uses label against the
 rejected「多目的ビル」label. Panels 4 and 5（肢エ・肢オ）share the same
-checklist card titled「規則113条・準則80条の列挙（37種類）」; Panel 4
+checklist card titled「規則113条・準則80条の列挙」; Panel 4
 highlights that 学習塾 is NOT on the list（faded ✕）and routes to a
 residual-clause box, while Panel 5 highlights that 給油所 IS on the list
 （thick highlighted border, green checkmark）and routes directly to a
@@ -358,7 +358,7 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 列挙にない用途は残余規定で定める
 Diagram: A checklist card shared with Panel 5, titled「規則113条・準則
-80条の列挙（37種類）」, listing example items with green checkmarks
+80条の列挙」, listing example items with green checkmarks
 （居宅・店舗・給油所等）. Below the list, a separate box shows「学習塾」
 with a red ✕（faded、列挙にない）, connected by an arrow to a
 residual-clause box labeled「準則80条1項後段の残余規定→教習所」.
@@ -376,9 +376,9 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 列挙にある用途はそのまま使える
 Diagram: The same checklist card as Panel 4, titled「規則113条・準則80条
-の列挙（37種類）」, but this time「給油所」itself is highlighted within
+の列挙」, but this time「給油所」itself is highlighted within
 the list with a thick colored border and a large green checkmark, showing
-it IS one of the enumerated 37 types, with an arrow leading directly to a
+it IS one of the enumerated types, with an arrow leading directly to a
 conclusion node（residual-clause box is faded／not needed）.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この建物の用途が、あらかじめ列挙された種類のいずれかに該当するか

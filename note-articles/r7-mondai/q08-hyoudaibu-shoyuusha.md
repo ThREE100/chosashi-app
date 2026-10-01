@@ -637,8 +637,8 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 承諾があれば持分の誤りは単独で直せる
-Diagram: A two-step decision flowchart. Start node: 申請人は共有者の
-うちの1人（Ａ）でよいか？with a はい arrow down to a diamond node
+Diagram: A two-step decision flowchart. Start box (a plain rounded rectangle, NOT a diamond): 共有者のうちの1人
+（Ａ）が更正の登記を申請する, with an arrow down to the only diamond node
 (highlighted with a thick border): 持分が変わる他の共有者（Ｂ）の承諾を
 証する情報があるか？with a green はい branch leading to a conclusion
 node reading Ａが単独で更正の登記を申請できる, and a faded いいえ branch

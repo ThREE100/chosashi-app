@@ -531,9 +531,9 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 第三者の権利があれば追加の承諾が必要
-Diagram: A two-step decision flowchart. Start node: 地上権者本人の承諾は
-あるか？with a はい arrow down to a diamond node（highlighted with a
-thick border): その地上権を目的とする第三者の権利の登記（抵当権など）は
+Diagram: A two-step decision flowchart. First diamond: 地上権者本人の承諾はあるか？with a small faded いいえ
+branch leading to an end node reading 消滅の登記はできない, and a はい
+arrow down to a second diamond node（highlighted with a thick border): その地上権を目的とする第三者の権利の登記（抵当権など）は
 あるか？with a green はい branch leading to a conclusion node reading
 地上権者の承諾に加え、その第三者（抵当権者）の承諾も必要, and a faded
 いいえ branch leading to a separate conclusion node reading 地上権者の

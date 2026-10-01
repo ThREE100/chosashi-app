@@ -313,8 +313,9 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 嘱託人自身の嘱託なら委任状に期限なし
-Diagram: A two-step decision flowchart. Start node: 委任状は市町村長（官公
-署）が作成したものか？with a はい arrow down to a diamond node（highlighted
+Diagram: A two-step decision flowchart. Start box (a plain rounded rectangle, NOT a diamond, since this 肢 always
+starts from this fact): 委任状は市町村長（官公署）が作成したもの, with an
+arrow down to the only diamond node（highlighted
 with a thick border): その嘱託は、委任状を作成した官公署自身が嘱託人と
 して行うものか？with a green はい branch leading to a conclusion node
 reading 作成後3か月以内という期限は適用されない, and a faded いいえ
@@ -365,8 +366,8 @@ characters):
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 希望する旨があれば通知される
-Diagram: A two-step decision flowchart. Start node: 登記名義人になるのは
-官公署か？with a はい arrow down to a diamond node（highlighted with a
+Diagram: A two-step decision flowchart. Start box (a plain rounded rectangle, NOT a diamond): 登記名義人になるの
+は官公署（市町村）, with an arrow down to the only diamond node（highlighted with a
 thick border): 嘱託情報に、登記識別情報の通知を希望する旨の情報が含まれ
 ているか？with a green はい branch leading to a conclusion node reading
 登記識別情報が通知される（郵便アイコン）, and an equally clear いいえ
