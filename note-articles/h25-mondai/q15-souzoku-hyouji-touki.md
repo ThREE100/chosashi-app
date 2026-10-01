@@ -30,19 +30,23 @@
 
 **たとえば**、被相続人Cの子であるA・Bのうち、Aだけが表題部の変更登記を申請する場合、Aは自分がCの相続人であることを示す戸籍関係の書類を提供すれば足り、Bに関する戸籍関係の書類まで網羅的にそろえる必要はありません。
 
-### ウ：分筆登記は共有者全員が原則。書類があれば相続人の一人からでも可
+### ウ：分筆登記は持分の価格の過半数で申請できる。遺産分割協議書があれば取得する相続人からも申請できる
 
-分筆の登記の申請適格者は、原則として表題部所有者又は所有権の登記名義人であり、その者が死亡している場合にはその相続人がこれに当たります。土地が共有である場合には、共有者（相続が発生している場合は共同相続人）全員から申請しなければならないのが原則です。もっとも、遺産分割協議書に分筆後の地積測量図又は分筆図等を添付すれば、この原則は緩和され、遺産分割によって当該土地を取得することになった相続人は、その一人からでも分筆の登記を申請することができます。
+分筆の登記の申請適格者は、表題部所有者又は所有権の登記名義人であり、その者が死亡している場合にはその相続人がこれに当たります。相続財産は共同相続人の共有に属し（民法898条1項）、その共有には共有に関する規定が適用されます（同条2項。各共有者の持分は法定相続分）。
 
-甲土地の相続人がA・B・Cである場合において、「甲土地から乙土地を分筆したうえで、分筆後の甲土地をAが相続し、乙土地をBが相続する」旨の遺産分割協議書を相続を証する情報の一部として提供すれば、この協議内容に基づいて、A及びBが共同して分筆の登記を申請することができます。
+共有地の分筆は、共有物の形状又は効用の著しい変更を伴わない変更（軽微変更）として、令和5年4月1日施行の民法改正後の民法251条1項・252条1項により、各共有者の持分の価格の過半数で決することができます。これを受けて登記実務でも、持分の価格の過半数を有する共有者から分筆の登記を申請できる扱いとなっています（出題当時は共有者全員から申請するものとされていました）。
 
-**たとえば**、亡くなった親の土地を、3人の子どもA・B・Cで話し合って「土地を分けたうえでAとBがそれぞれ相続する」と決めた場合、本来であればA・B・Cの全員で分筆登記を申請するのが原則ですが、遺産分割協議書に分筆後の地積測量図を添えることで、AとBだけで分筆登記を申請することができます。
+さらに、遺産分割協議書に分筆後の地積測量図又は分筆図等を添えて提供する場合には、遺産分割によってその土地を取得することになった相続人からも分筆の登記を申請できます。
 
-**補足**：この取扱いにより、本肢のようにA・Bが共同で申請する方法だけでなく、A又はBの一方だけで単独に分筆の登記を申請することも可能とされています。いずれにしても、遺産分割協議の結果、甲土地・乙土地のいずれも取得しないCが、この分筆の登記を申請することはできません。
+甲土地の相続人がA・B・Cである場合において、「甲土地から乙土地を分筆したうえで、分筆後の甲土地をAが相続し、乙土地をBが相続する」旨の遺産分割協議書を相続を証する情報の一部として提供すれば、A及びBが共同して分筆の登記を申請することができます。したがって本肢は正しい記述です。
 
-**根拠となる条文**：分筆の登記の申請適格者が表題部所有者又は所有権の登記名義人に限られる点は不動産登記法39条1項、死亡している場合にその相続人が申請人となれる点は同法30条によります。相続財産が共同相続人の共有に属する点は民法898条1項によります。この共有関係に共有に関する一般規定（民法249条以下）が適用されることは、共有持分の算定について共有規定の適用を前提とする同条2項からも裏付けられます。共有者全員からの申請が原則となるのは、分筆が共有物に変更を加える行為（民法251条1項）にあたり、他の共有者の同意（実務上は共有者全員による申請）を要するためです。
+**たとえば**、亡くなった親の土地を子ども3人（A・B・C）が相続し、法定相続分が各3分の1だとします。A・Bの持分の合計は3分の2で過半数ですから、Cの同意がなくても、A・Bが分筆の登記を申請できます。しかも本肢のように、遺産分割協議書と分筆後の地積測量図を添えれば、土地を取得するA・Bが申請人になることがはっきりします。
 
-遺産分割協議書と分筆後の地積測量図又は分筆図等の添付により相続人の一人からでも申請できるとする取扱い自体は、これらの条文に直接の明文があるわけではなく、登記実務上確立した運用に基づくものです。
+**補足**：遺産分割協議書と分筆図等があれば、A又はBの一方だけで単独に分筆の登記を申請することも可能とされています（登記実務上確立した取扱い）。いずれにしても、遺産分割協議の結果、甲土地・乙土地のいずれも取得しないCが、この分筆の登記を申請することはできません。
+
+**根拠となる条文**：分筆の登記の申請適格者が表題部所有者又は所有権の登記名義人に限られる点は不動産登記法39条1項、死亡している場合にその相続人が申請人となれる点は同法30条によります。相続財産が共同相続人の共有に属し、共有の規定が適用される点は民法898条1項・2項によります。分筆を共有物の軽微変更として持分の価格の過半数で決することができる点は、民法251条1項かっこ書き・252条1項によります。
+
+遺産分割協議書と分筆後の地積測量図又は分筆図等の添付により、取得する相続人の一人からでも申請できるとする取扱い自体は、条文に直接の明文があるわけではなく、登記実務上確立した運用に基づくものです。
 
 ### エ：相続関係説明図による原本還付の簡略化は、戸籍関係書類が対象。遺産分割協議書は対象外
 
@@ -60,7 +64,7 @@
 
 - **ア（正）**　区分建物を新築した所有者の死亡後、相続人は被相続人名義で表題登記を申請できる
 - **イ（誤）**　共同相続人の一人が申請する場合、全員分の相続証明情報までは不要
-- **ウ（正）**　分筆登記は共有者全員が原則。遺産分割協議書と分筆図があれば相続人の一人からでも申請できる
+- **ウ（正）**　分筆登記は持分の価格の過半数で申請できる。遺産分割協議書と分筆図があれば取得する相続人からも申請できる
 - **エ（誤）**　相続関係説明図による原本還付の簡略化は戸籍関係書類が対象。遺産分割協議書は対象外
 - **オ（正）**　死亡前に滅失した建物の滅失登記は、共同相続人の一人から申請できる
 
@@ -74,12 +78,13 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝イ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
-- 各肢の法的根拠は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-rei.md`・`fudousan-touki-kisoku-1.md`・`minpou-3-shinzoku-souzoku.md`の条文原文で確認しました。ア（不動産登記法47条2項「区分建物である建物を新築した場合において、その所有者について相続その他の一般承継があったときは、相続人その他の一般承継人も、被承継人を表題部所有者とする当該建物についての表題登記を申請することができる」）は条文の文言とほぼ完全に一致しました。相続人が複数いる場合にそのうちの1人からでも申請できる点は、条文の文言自体からは断定できませんが、イ・オで確認した「表示に関する登記は相続人の1人からでも申請できる」という扱いと平仄が合っており、ユーザーから提供されたアガルートの解答例でも同様の理解が示されています。イ（誤り）は、不動産登記令7条1項4号「法第三十条の規定により表示に関する登記を申請するときは、相続その他の一般承継があったことを証する市町村長…の作成した情報…を提供しなければならない」で確認でき、条文が要求しているのは申請人自身が相続人であることを証する情報であって、共同相続人全員に関する情報の提供までは条文上求められていません。オ（正しい）は、不動産登記法57条（建物の滅失の登記の申請義務）・30条（一般承継人による申請）に加え、民法898条「相続人が数人あるときは、相続財産は、その共有に属する」及び民法252条5項「各共有者は、前各項の規定にかかわらず、保存行為をすることができる」から、共同相続人の一人が保存行為として単独で滅失登記を申請できるという理解が条文上裏付けられます。エ（誤り）については、不動産登記規則55条2項「原本の還付を請求する申請人は、原本と相違ない旨を記載した謄本を提出しなければならない」が原則を定めていますが、同条を含む規則本文には相続関係説明図の提供による謄本省略の特則は見当たらず、これは条文には明記されていない実務上確立した取扱い（対象を戸籍関係書類に限定し、遺産分割協議書は対象外とする運用）に基づく理解にとどまります。ユーザーから提供されたアガルートの解答例では、この取扱いの根拠として平成17年2月25日民二第457号という先例が示されています。ウ（正しい）については、不動産登記法39条1項（分筆の登記は表題部所有者又は所有権の登記名義人以外の者は申請することができない）・30条（一般承継人による申請）、民法898条1項・2項（相続財産の共有と共有規定の適用）は条文原文で確認できました。共有者全員による申請が原則となる点については、分筆を共有物の「変更」（民法251条1項。他の共有者の同意を要し、形状又は効用の著しい変更を伴わないもの＝軽微変更はこの限りでない）に当たるものとして説明していますが、分筆が251条1項の「変更」と252条1項の「軽微変更」のいずれに分類されるかを直接明示する条文は`note-articles/laws/`のローカル法令データベースには見当たらず、この分類自体はユーザーから提供された実務上の見解を踏まえた整理です。また、遺産分割協議書と分筆後の地積測量図・分筆図等の添付により相続人の一人からでも申請できるとする具体的な取扱いそのものを定めた条文も見当たらず、この部分も実務上確立した運用に基づく理解にとどまります。
-- **ウについて経緯（2026-08-17、複数回の訂正の末に確定）**：本肢の一般原則・単独申請の可否については、この解説作成の過程で理解が何度か変遷しました。（1） 当初は遺産分割協議書による例外だけを説明し、一般原則への言及を欠いていました。（2） 次に、Web検索で見つけた実務解説を根拠に「相続人の一人からでも単独申請できる」との補足を追加しました。（3） その後、ユーザーから提供されたアガルートの解答例（登記研究229号71頁を引用し、一般原則を「持分の価格の過半数を有する者からの申請」とする）と、民法251条・252条（令和5年4月1日施行の共有制度見直しで明文化された「軽微変更は持分の過半数で決する」という規律）を根拠に、一般原則を「持分の過半数」と説明し、単独申請の可否は断定を避けました。（4） 最終的に、ユーザーから「分筆登記の申請適格者は原則として共有者全員（相続の場合は共同相続人全員）であり、遺産分割協議書に分筆後の地積測量図又は分筆図等を添付すれば、便宜、相続人の一人からでも分筆登記を申請できる」という実務上の見解が示され、これを本文の説明として採用しました。一般原則を「持分の過半数」とする（3）の理解と、「共有者全員」とする（4）の理解は、根拠とする条文・実務の切り口が異なり、本セッションで参照できた資料の範囲では、どちらが土地家屋調査士試験対策として標準的な理解かを一次資料で確定することはできませんでした。もっとも、いずれの理解でも「遺産分割協議書があれば、少なくとも取得予定の相続人からの申請ができる」という結論は共通しており、本肢（ウ＝正）の判定・正解番号（4番＝イ・エ）に影響はありません。本文は（4）のユーザー見解を採用していますが、別の資料で「持分の過半数」という説明に接した場合も、誤りではない可能性がある点にご留意ください。
+- 各肢の法的根拠は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-rei.md`・`fudousan-touki-kisoku-1.md`・`minpou-3-shinzoku-souzoku.md`の条文原文で確認しました。ア（不動産登記法47条2項「区分建物である建物を新築した場合において、その所有者について相続その他の一般承継があったときは、相続人その他の一般承継人も、被承継人を表題部所有者とする当該建物についての表題登記を申請することができる」）は条文の文言とほぼ完全に一致しました。相続人が複数いる場合にそのうちの1人からでも申請できる点は、条文の文言自体からは断定できませんが、イ・オで確認した「表示に関する登記は相続人の1人からでも申請できる」という扱いと平仄が合っており、ユーザーから提供されたアガルートの解答例でも同様の理解が示されています。イ（誤り）は、不動産登記令7条1項4号「法第三十条の規定により表示に関する登記を申請するときは、相続その他の一般承継があったことを証する市町村長…の作成した情報…を提供しなければならない」で確認でき、条文が要求しているのは申請人自身が相続人であることを証する情報であって、共同相続人全員に関する情報の提供までは条文上求められていません。オ（正しい）は、不動産登記法57条（建物の滅失の登記の申請義務）・30条（一般承継人による申請）に加え、民法898条「相続人が数人あるときは、相続財産は、その共有に属する」及び民法252条5項「各共有者は、前各項の規定にかかわらず、保存行為をすることができる」から、共同相続人の一人が保存行為として単独で滅失登記を申請できるという理解が条文上裏付けられます。エ（誤り）については、不動産登記規則55条2項「原本の還付を請求する申請人は、原本と相違ない旨を記載した謄本を提出しなければならない」が原則を定めていますが、同条を含む規則本文には相続関係説明図の提供による謄本省略の特則は見当たらず、これは条文には明記されていない実務上確立した取扱い（対象を戸籍関係書類に限定し、遺産分割協議書は対象外とする運用）に基づく理解にとどまります。ユーザーから提供されたアガルートの解答例では、この取扱いの根拠として平成17年2月25日民二第457号という先例が示されています。ウ（正しい）については、不動産登記法39条1項（分筆の登記は表題部所有者又は所有権の登記名義人以外の者は申請することができない）・30条（一般承継人による申請）、民法898条1項・2項（相続財産の共有と共有規定の適用）は条文原文で確認できました。（2026-10-01注：以下は改正前の整理で、本文は現行の「持分の価格の過半数」に改めました。）共有者全員による申請が原則となる点については、分筆を共有物の「変更」（民法251条1項。他の共有者の同意を要し、形状又は効用の著しい変更を伴わないもの＝軽微変更はこの限りでない）に当たるものとして説明していますが、分筆が251条1項の「変更」と252条1項の「軽微変更」のいずれに分類されるかを直接明示する条文は`note-articles/laws/`のローカル法令データベースには見当たらず、この分類自体はユーザーから提供された実務上の見解を踏まえた整理です。また、遺産分割協議書と分筆後の地積測量図・分筆図等の添付により相続人の一人からでも申請できるとする具体的な取扱いそのものを定めた条文も見当たらず、この部分も実務上確立した運用に基づく理解にとどまります。
+- **ウについて経緯（2026-08-17、複数回の訂正の末に確定）**：本肢の一般原則・単独申請の可否については、この解説作成の過程で理解が何度か変遷しました。（1） 当初は遺産分割協議書による例外だけを説明し、一般原則への言及を欠いていました。（2） 次に、Web検索で見つけた実務解説を根拠に「相続人の一人からでも単独申請できる」との補足を追加しました。（3） その後、ユーザーから提供されたアガルートの解答例（登記研究229号71頁を引用し、一般原則を「持分の価格の過半数を有する者からの申請」とする）と、民法251条・252条（令和5年4月1日施行の共有制度見直しで明文化された「軽微変更は持分の過半数で決する」という規律）を根拠に、一般原則を「持分の過半数」と説明し、単独申請の可否は断定を避けました。（4） 最終的に、ユーザーから「分筆登記の申請適格者は原則として共有者全員（相続の場合は共同相続人全員）であり、遺産分割協議書に分筆後の地積測量図又は分筆図等を添付すれば、便宜、相続人の一人からでも分筆登記を申請できる」という実務上の見解が示され、これを本文の説明として採用しました。一般原則を「持分の過半数」とする（3）の理解と、「共有者全員」とする（4）の理解は、根拠とする条文・実務の切り口が異なり、本セッションで参照できた資料の範囲では、どちらが土地家屋調査士試験対策として標準的な理解かを一次資料で確定することはできませんでした。もっとも、いずれの理解でも「遺産分割協議書があれば、少なくとも取得予定の相続人からの申請ができる」という結論は共通しており、本肢（ウ＝正）の判定・正解番号（4番＝イ・エ）に影響はありません。（この経過の結論は、2026-10-01に下記のとおり改めました。）
+- **ウについて最新法令への統一（2026-10-01、ユーザー指示）**：上記の経緯のうち（4）の「共有者全員が原則」という説明は、令和5年4月1日施行の民法改正後の民法251条1項（共有物の変更は共有者全員の同意。ただし形状又は効用の著しい変更を伴わないものを除く）・252条1項（軽微変更を含む管理は持分の価格の過半数で決する）、及び遺産共有に共有規定が適用される民法898条2項の規律（各共有者の持分は法定相続分）と合わなくなるため、2026年時点の法令に基づく説明にそろえるようユーザーから指示を受け、本文・図解とも「持分の価格の過半数」を原則に改めました。出題当時（平成25年）は共有者全員から申請するものとされていた旨を本文に括弧書きで残しています。遺産分割協議書と分筆図等による取得相続人からの申請は、先例（昭和19年11月10日民事甲第730号回答）に基づく実務上の取扱いとして従来どおり説明しています。本肢（ウ＝正）の判定と正解番号（4番＝イ・エ）は変わりません。分筆を軽微変更と位置づけて過半数で足りるとする登記実務の通達の原文は、この確認では未確認です。
 - **ウについて追加調査（2026-08-17、条文の有無を再確認）**：「遺産分割協議書＋分筆後の地積測量図・分筆図等の添付があれば相続人の一人からでも分筆登記を申請できる」という取扱いについて、これを直接定める条文がないかをあらためて調査しました。`note-articles/laws/`のローカル法令データベース（不動産登記法・令・規則・準則）には、この取扱いを直接定める条文は見当たりませんでした。Web検索で確認できた複数の独立した実務解説サイトは、この取扱いの根拠として一致して、東京地方裁判所監督判事からの照会に対する昭和19年11月10日付民事甲第730号民事局長回答という先例を挙げており、条文ではなく先例（登記実務の取扱い）に基づくものであることが確認できました。土地家屋調査士試験対策としては「条文の明文はなく、先例に基づく実務上の取扱いである」という結論までで足りると考え、以下の推論は本文には記載していません。
 - **（作業メモ・note非掲載）ウの取扱いを条文の趣旨から説明する試み**：この確認事項ブロックはnote.com向けエクスポート（`tools/md_to_mt.py`）で自動的に除外される内部メモであるため、ここにのみ記録します。上記の先例が示す取扱いを条文の枠組みで説明できないか検討したところ、民法909条本文「遺産の分割は、相続開始の時にさかのぼってその効力を生ずる」（遺産分割の遡及効）が手がかりになり得ると考えました。遺産分割協議が成立すると、甲土地はAが、乙土地はBが、相続開始の時（＝被相続人の死亡時）から単独で所有していたものとして扱われるため、分筆の登記は、A・Bそれぞれが「自己の単独所有物について行う申請」という性質を帯び、共有物の変更として他の共有者の同意を要する場面とは異なる、と説明することもできるのではないか、という仮説です。もっとも、この説明は本セッションで参照できたどの資料にも明記されておらず、条文の趣旨からの推論（私自身の整理）にとどまるため、断定的な根拠として本文・確認事項ブロックの本体には採用していません。将来、この点を扱った先例・文献・判例等が確認できた場合は、この仮説の当否を再検証してください。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。本問エと関連するテーマ（相続関係説明図による原本還付の簡略化）が、H29年度第9問ウでも出題されていますが、H29年度第9問ウは「戸籍謄本・抄本及び除籍謄本」のみを対象とする正しい記述であるのに対し、本問エは対象外である「遺産分割協議書」まで含めて簡略化できるとする誤った記述であり、問われている具体的なポイント（対象書類の範囲）は異なります。直接の重複ではありませんが、**同じ制度（相続関係説明図による原本還付の簡略化）を扱っているため、H29年度分の記事を執筆する際は、本問の解説と論旨が重ならないよう注意してください**。それ以外の肢（相続人による表題登記申請、共同相続人の一人による滅失登記申請等）については、具体的な出題内容としての重複は見つかりませんでした。
-- **最新法令チェック**：相続登記義務化（不動産登記法76条の2、令和6年4月1日施行）・住所変更登記義務化（同法76条の5、令和8年4月1日施行・施行済み）による影響を確認しましたが、本問の各肢が扱う表題登記・表題部の変更の登記・分筆の登記・滅失の登記の申請手続そのもの（誰が申請できるか、どの添付情報が必要か）にルール変更はありません。なお、共有物の変更・管理に関する民法の規定（251条・252条）は、令和3年民法等改正により令和5年4月1日に施行された共有制度の見直しで、「形状又は効用の著しい変更を伴わない変更」（軽微変更）を持分の過半数による決定の対象とする規律が明文化されています。この規律を分筆の登記にどこまで直接あてはめるかは、上記「ウについて経緯」で述べたとおり一次資料では確定できませんでしたが、いずれにしても本肢（ウ＝正）の判定に影響はありません。
+- **最新法令チェック**：相続登記義務化（不動産登記法76条の2、令和6年4月1日施行）・住所変更登記義務化（同法76条の5、令和8年4月1日施行・施行済み）による影響を確認しましたが、本問の各肢が扱う表題登記・表題部の変更の登記・分筆の登記・滅失の登記の申請手続そのもの（誰が申請できるか、どの添付情報が必要か）にルール変更はありません。なお、共有物の変更・管理に関する民法の規定（251条・252条）は、令和3年民法等改正により令和5年4月1日に施行された共有制度の見直しで、「形状又は効用の著しい変更を伴わない変更」（軽微変更）を持分の過半数による決定の対象とする規律が明文化されています。この規律を分筆の登記にあてはめ、本文は令和5年改正後の「持分の価格の過半数」の扱いに統一しています（上記「ウについて最新法令への統一」参照）。本肢（ウ＝正）の判定には影響しません。
 
 ---
 
@@ -196,20 +201,19 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
-全員が原則、書類があれば一人も可
+持分の過半数で申請できる
 Illustration: A single card split into two side-by-side halves by a thin
-vertical divider, showing a before/after contrast. LEFT half (small,
-greyed/faded, labeled 原則 at the top): three heir figures (A・B・C)
-standing together at a registry counter, all needed to stamp the same
-application, with a small ✕ icon. RIGHT half (larger, full-color,
-labeled 書類があれば at the top): a single heir figure (A) stamping the
-application alone at the registry counter, holding two documents
-together — 遺産分割協議書 stacked with 分筆後の地積測量図 — while faint
-greyed-out silhouettes of B・C stand off to the side, not required to be
-present, with a green ✓ icon. A small arrow points from the LEFT half to
-the RIGHT half to show the exception overriding the default.
+vertical divider. LEFT half (labeled 持分の過半数 at the top): a balance
+scale with the heir figures A・B on one pan, each marked with a small
+"1/3" tag, outweighing the figure C (also "1/3") on the other pan, with
+a green ✓ icon, and A・B stamping the same application at a registry
+counter. RIGHT half (labeled 遺産分割協議書があれば at the top): a heir
+figure holding two documents together — 遺産分割協議書 stacked with 分筆
+後の地積測量図 — stamping the application at the registry counter, with
+a green ✓ icon, while a faint greyed-out silhouette of C (who acquires
+neither plot) stands off to the side.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-書類があれば一人も可
+過半数または協議書で可
 
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
@@ -241,7 +245,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（ウ：分筆登記の申請適格 判定フロー）
 
-ウは「原則は共有者全員→遺産分割協議書＋分筆図があれば例外的に相続人の一人からでも可」という条件分岐の構造を持つため、`infographic-prompt-template.md`の「③型別の雛形差分」に定めるフローチャート／判定フロー型を、②と同じ縦長ポートレート・カラー・アイソメトリックの画風で作成する。
+ウは「持分の価格の過半数を有する者から申請できる／そうでなくても遺産分割協議書＋分筆図があれば取得する相続人から申請できる」という2段の条件分岐の構造を持つため、`infographic-prompt-template.md`の「③型別の雛形差分」に定めるフローチャート／判定フロー型を、②と同じ縦長ポートレート・カラー・アイソメトリックの画風で作成する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
@@ -303,43 +307,48 @@ NODE 1（開始ノード、丸型、グレー）:
 土地の共有者に相続が発生し、
 分筆の登記を申請したい
 Illustration: An isometric land plot with a small family-tree icon
-above it, showing multiple heir figures (A・B・C) standing around the
+above it, showing three heir figures (A・B・C) standing around the
 land plot.
 
 NODE 2（分岐条件、ひし形アイコン、黄色）:
-遺産分割協議書と、分筆後の
-地積測量図又は分筆図を
-用意できるか？
+申請人の持分（法定相続分）の
+合計は過半数か？
+Illustration: A diamond-shaped decision icon containing a balance scale
+with the heir figures A・B on one pan and C on the other.
+
+BRANCH「はい」（矢印、ラベル「はい」）→ NODE 3:
+NODE 3（結果ノード、緑系、✓アイコン）:
+持分の過半数を有する
+相続人から申請できる
+Illustration: An isometric registry counter where heir figures A・B
+stand together and stamp the same application document, each marked
+with a small "1/3" tag; a faint greyed-out silhouette of C stands off to
+the side, not required.
+
+BRANCH「いいえ」（矢印、ラベル「いいえ」）→ NODE 4:
+NODE 4（分岐条件、ひし形アイコン、黄色）:
+遺産分割協議書と分筆後の
+地積測量図等を提供するか？
 Illustration: A diamond-shaped decision icon with two documents inside
 it — 「遺産分割協議書」と「分筆後の地積測量図」.
 
-BRANCH「いいえ」（矢印、ラベル「いいえ」）→ NODE 3:
-NODE 3（結果ノード、赤系、✕アイコンなし・原則を示す通常のボックス）:
-原則どおり、共有者
-（共同相続人）全員から
-申請する
-Illustration: An isometric registry counter where three heir figures
-（A・B・C）stand together, all stamping the same application document.
+BRANCH「はい」（NODE 4から、矢印、ラベル「はい」）→ NODE 5:
+NODE 5（結果ノード、緑系、✓アイコン）:
+土地を取得する相続人が
+申請できる（本問はA・B）
+Illustration: The land plot split by a dotted line into 甲土地 (A side)
+and 乙土地 (B side), with A and B stamping the application together at
+a registry counter, holding the 遺産分割協議書 and 分筆後の地積測量図.
 
-BRANCH「はい」（矢印、ラベル「はい」）→ NODE 4:
-NODE 4（結果ノード、緑系、✓アイコン）:
-土地を取得することになった
-相続人の一人からでも
-申請できる
-Illustration: An isometric registry counter where a single heir figure
-(A) stamps the application alone, holding the 遺産分割協議書 and 分筆後
-の地積測量図 together in one hand. Faint greyed-out silhouettes of B・C
-stand off to the side, uninvolved, showing they are not required.
+BRANCH「いいえ」（NODE 4から、矢印、ラベル「いいえ」）→ NODE 6:
+NODE 6（結果ノード、赤系、✕アイコン）:
+過半数を集められないと
+申請できない
+Illustration: A single heir figure stamping an application alone at the
+registry counter with a red ✕ mark over the application document, while
+the other two heir figures stand apart.
 
-NODE 5（具体例ノード、NODE4から派生、青系の補足ボックス）:
-本問の例：Aが甲土地、Bが
-乙土地を取得する内容なら、
-A・Bが共同で申請しても良い
-Illustration: The same land plot split by a dotted line into 甲土地
-（A側）と乙土地（B側）, with both A and B stamping the application
-together as one of the valid methods branching from NODE 4.
-
-NODE 6（除外の注記、NODE4から派生、グレー系の補足ボックス）:
+NODE 7（除外の注記、NODE 5から派生、グレー系の補足ボックス）:
 甲土地・乙土地のいずれも
 取得しないCは、この分筆の
 登記を申請できない
@@ -352,9 +361,9 @@ application document.
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
-correct Japanese form. Confirm the flowchart has exactly 6 nodes (1
-start, 1 decision diamond, 2 result nodes branching from the decision,
-and 2 supplementary notes branching from the "はい" result node), with
+correct Japanese form. Confirm the flowchart has exactly 7 nodes (1
+start, 2 decision diamonds, 3 result nodes — one branching from the first diamond's "はい" and two branching from the second diamond — and
+1 supplementary note branching from the NODE 5 result node), where every diamond has both its "はい" and "いいえ" branch drawn with its own result node, with
 arrows clearly connecting each node in the order described above,
 confirm there is no intro illustration or paragraph block between the
 header and the flowchart, and confirm that no node contains a full
@@ -477,24 +486,27 @@ characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 書類があれば相続人一人も申請可
-Diagram: Draw this panel as a genuine 原則→例外 two-step decision
-flowchart on an isometric land plot with three heir figures（A、B、C）.
-Start node: 甲土地の共有者に相続が発生し、分筆の登記を申請したい。Diamond
-node: 遺産分割協議書と、分筆後の地積測量図又は分筆図を用意できるか？with
-two branch arrows, both ending at their own conclusion node: いいえ →
-原則どおり、共有者（共同相続人）全員から申請する（three heir figures
-standing together, all required）; はい → 土地を取得することになった相続
-人（本問ではA及びB）が申請できる（figure A and figure B stamping the
-application together, while figure C stands apart, not required and not
-entitled, since Cはいずれの土地も取得しない）.
+Diagram: Draw this panel as a genuine two-step decision flowchart on an
+isometric land plot with three heir figures（A、B、C）. Start node: 甲土地
+の共有者に相続が発生し、分筆の登記を申請したい。First diamond node:
+申請人の持分（法定相続分）の合計は過半数か？with two branch arrows, both
+ending at their own conclusion node: はい → 持分の過半数を有する相続人
+から申請できる（figures A and B, each with a small "1/3" tag, stamping
+the application together while C stands apart）; いいえ → proceeds to a
+second diamond node: 遺産分割協議書と、分筆後の地積測量図又は分筆図を提供
+するか？with two branch arrows, each ending at its own conclusion node:
+はい → 土地を取得する相続人（本問ではA及びB）が申請できる（figure A and
+figure B stamping the application together, while figure C stands apart,
+not entitled, since Cはいずれの土地も取得しない）; いいえ → 過半数を集めら
+れないと申請できない（a single heir figure with a red ✕）.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、分筆の登記は原則として共有者（共同相続人）全員から申請しなければな
-らないことを確認します。次に、遺産分割協議書と分筆後の地積測量図等を用意
-できるかを確認し、用意できる場合は、土地を取得することになった相続人から
-申請することができます。
+まず、申請人となる相続人の持分（法定相続分）の合計が過半数かどうかを確認
+します。過半数であれば、分筆の登記を申請できます。過半数に届かない場合は
+、遺産分割協議書と分筆後の地積測量図等を提供できるかを確認し、提供できる
+ときは、土地を取得する相続人から申請することができます。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-書類があれば一人も可
+過半数または協議書で可
 
 --- PANEL 4（肢エ） ---
 Badge: a filled circle in blue containing the number 4.
@@ -535,7 +547,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法39条1項・30条・47条2項、不動産登記令7条1項4号、不動産登記規則
-55条2項、民法898条・899条・909条の相続と表示登記の申請に関する定めに基づ
+55条2項、民法251条1項・252条1項・898条の共有と表示登記の申請に関する定めに基づ
 く整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
@@ -550,11 +562,12 @@ Hangul, other non-Japanese script, or stray decorative glyph — and remove
 or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that 肢ウ is drawn as an actual 原則→例外
-flowchart with a branch node (not a bare illustration with no visible
-decision structure) and that its genuinely hidden second condition（原則
-は共有者全員であり、例外はその上に乗る特則にすぎないこと）has not been
-flattened into a single check, that 肢エ's side-by-side comparison frame
+the header and the panels, that 肢ウ is drawn as an actual two-step
+flowchart with two branch nodes (not a bare illustration with no visible
+decision structure), each with both its はい and いいえ branch ending at its own
+conclusion, and that its genuinely hidden second condition（持分の過半数に
+届かない場合に限り、遺産分割協議書＋分筆図等による取得相続人からの申請を確認すること）
+has not been flattened into a single check, that 肢エ's side-by-side comparison frame
 clearly keeps the two different document categories visually distinct
 rather than merging them into one flowchart, that each 着眼点 callout
 states a checking order rather than only a conclusion and keeps every
