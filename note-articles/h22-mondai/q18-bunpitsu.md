@@ -433,8 +433,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法40条・不動産登記規則104条（イ・オ）、不動産登記規則
-103条2項（ウ）、不動産登記法59条4号（ア、代位による申請の一般規定）。肢エは
-根拠条文の個別確認ができていないため記載を省略する。判例・先例番号は省略。
+103条2項（ウ）、民法423条（ア、債権者代位）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

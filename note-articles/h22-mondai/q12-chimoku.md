@@ -169,11 +169,11 @@ Badge: a filled circle containing the number 2 (numbers run continuously).
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 耕作放棄地はすぐには雑種地にならない
 
-Illustration: An abandoned farm-field icon with overgrown weeds/bushes, a tag「畑」still attached, with a ✕ over a 「雑種地」label crossed out beside it.
+Illustration: An abandoned farm-field icon with overgrown weeds/bushes, a tag「原野」attached with a checkmark, with a ✕ over a 「雑種地」label crossed out beside it.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
-現況次第で畑のまま
+現況に応じて原野等
 
 
 --- CARD 3 ---

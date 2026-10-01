@@ -322,7 +322,7 @@ Heading (bold, ONE line):
 分棟から1か月以内に申請する義務がある
 Diagram: A root diamond node labeled「この登記は権利に関する登記か、表示に
 関する登記（表題部の変更）か」. Render a faded, dotted「権利に関する登記」
-branch stub off to the side, labelled「（今回は関係ない）」. A thick
+branch stub off to the side. A thick
 highlighted「表示に関する登記（表題部の変更）」branch leads down to a
 building icon splitting into two connected buildings with a wall/gap icon
 between them, then to a final highlighted conclusion node reading「分棟が

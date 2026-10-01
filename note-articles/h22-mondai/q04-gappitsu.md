@@ -168,13 +168,13 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 Badge: a filled circle containing the number 2 (numbers run continuously).
 
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-先取特権は日付が同じでも合筆できない
+担保権は受付番号まで同一でないと不可
 
-Illustration: Two land plots each with a 先取特権 tag showing identical dates, with a merge-arrow crossed out by a ✕ and a label「日付が同じでもダメ」.
+Illustration: Two land plots each with a 先取特権 tag showing the same 登記の目的 and the same 登記原因及びその日付 but visibly different 受付番号, with a merge-arrow crossed out by a ✕ and a label「受付番号が違うとダメ」.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
-先取特権は合筆不可
+受付番号まで一致が必要
 
 
 --- CARD 3 ---

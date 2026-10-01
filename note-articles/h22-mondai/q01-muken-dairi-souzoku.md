@@ -310,7 +310,7 @@ Heading (bold, ONE line):
 Diagram: A root diamond node labeled 誰が誰の地位を相続したか, with two
 branch arrows: one leading to a highlighted box (thicker border) labeled
 本人Bが無権代理人Aを相続, the other leading to a small greyed-out box
-labeled 無権代理人が本人を相続（他のパネル）. From the highlighted box, an
+labeled 無権代理人Aが本人Bを相続. From the highlighted box, an
 isometric scene shows a faded/ghost figure labeled 無権代理人A（死亡）with
 a crossed-out contract icon, and a succession arrow running from A to a
 solid figure labeled 本人B. A second diamond node below asks 本人として追

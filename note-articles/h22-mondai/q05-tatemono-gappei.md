@@ -193,13 +193,13 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 Badge: a filled circle containing the number 4 (numbers run continuously).
 
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-住所変更が未了でも証明情報を出せば合併できる
+住所の表示を先にそろえないと合併できない
 
-Illustration: Two building icons owned by the same character, one stamped 「住所変更済み」and one not yet stamped, with the character holding a 「住所変更を証する情報」document bridging the gap, merge-arrow with a checkmark.
+Illustration: Two building icons owned by the same character, one stamped 「住所変更済み」and one not yet stamped (old address still shown). The character holds a 「住所変更を証する情報」document toward the merge-arrow, but the merge-arrow is crossed out with a ✕; a separate first-step arrow labeled「先に住所変更の登記」leads to the unstamped building.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
-証明情報の提供で足りる
+先に住所変更の登記
 
 
 --- CARD 5 ---

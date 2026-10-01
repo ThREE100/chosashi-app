@@ -44,7 +44,9 @@
 
 ### オ：衰弱を理由に登録を取り消されたら、法務大臣に審査請求できる
 
-日本土地家屋調査士会連合会により、身体又は精神の衰弱により業務を行うことができないことを理由に登録を取り消された者は、その処分に不服があるときは、法務大臣に対して、行政不服審査法による審査請求をすることができます。連合会の処分に対する不服申立ての道が用意されているのです。この記述は正しいものです。
+日本土地家屋調査士会連合会により、身体又は精神の衰弱により業務を行うことができないことを理由に登録を取り消された者は、その処分に不服があるときは、法務大臣に対して、行政不服審査法による審査請求をすることができます。連合会の処分に対する不服申立ての道が用意されているのです（土地家屋調査士法17条で準用する12条1項）。この記述は正しいものです。
+
+※出題当時（平成22年）の土地家屋調査士法16条1項2号は「身体又は精神の衰弱により業務を行うことができないとき」と定めていましたが、令和元年の改正で現在は「心身の故障により業務を行うことができないとき」という表現に改められています（結論自体は変わりません）。
 
 **たとえば**、体調を理由に登録を取り消された調査士が「その判断には納得できない」というときは、法務大臣に対して審査請求をして争うことができます。
 
@@ -209,9 +211,9 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 Badge: a filled circle containing the number 5 (numbers run continuously).
 
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-衰弱による取消しには法務大臣に審査請求
+心身の故障による取消しは審査請求可
 
-Illustration: A 土地家屋調査士 character receiving a 「登録取消し」stamp (身体又は精神の衰弱を理由), then submitting a 「審査請求」document to a 法務大臣 character/building icon, checkmark.
+Illustration: A 土地家屋調査士 character receiving a 「登録取消し」stamp (心身の故障を理由), then submitting a 「審査請求」document to a 法務大臣 character/building icon, checkmark.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
@@ -389,14 +391,14 @@ characters):
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
-衰弱による取消しには法務大臣に審査請求できる
+心身の故障による取消しは審査請求できる
 Diagram: A 土地家屋調査士 character receiving a「登録取消し」stamp labeled
-「身体又は精神の衰弱」from a 日本土地家屋調査士会連合会 building icon. An
+「心身の故障」from a 日本土地家屋調査士会連合会 building icon. An
 arrow labeled「不服があるとき」leads from that character to a document
 titled「行政不服審査法による審査請求」, which is then submitted to a 法務
 大臣 character・building icon, with a checkmark.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、登録を取り消された理由が身体又は精神の衰弱により業務を行うことができ
+まず、登録を取り消された理由が心身の故障により業務を行うことができ
 ないことであるかを確認します。その処分に不服があるときは、法務大臣に対して
 行政不服審査法による審査請求をすることができると判定します。
 Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
@@ -406,8 +408,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：土地家屋調査士法9条（ア）、同法15条2項（イ）、同法13条（ウ）、
-同法16条1項2号・17条（オ）。肢エは、みなし承認の制度が存在しないことに
-ついての根拠条文の記載を省略する。判例・先例番号は省略。
+同法16条1項2号・17条・12条1項（オ）。判例・先例番号は省略。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

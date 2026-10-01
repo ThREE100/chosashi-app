@@ -325,8 +325,7 @@ with a thick highlighted「申請人本人・代理人自身が作成」branch l
 委任状 document being scanned into a computer/PDF icon, with an 電子署名
 seal-stamp attempt blocked by a large ✕, ending in a final conclusion node
 reading「対象外（本人作成のため使えない）」. Render the other two branches
-「第三者が作成」「図面」as faded, dotted stubs off to the side, labelled
-「（今回は関係ない）」.
+「第三者が作成」「図面」as faded, dotted stubs off to the side.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この添付情報を誰が作成したものかを確認します。代理権限を証する情報
 （委任状）は申請人本人が作成するものであるため、書面を電磁的記録にして

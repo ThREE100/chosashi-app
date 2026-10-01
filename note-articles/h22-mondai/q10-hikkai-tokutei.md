@@ -338,7 +338,7 @@ Heading (bold, ONE line):
 乙地の一部の時効取得者も申請できる
 Diagram: A diamond node labeled「申請しようとする人は、対象土地の所有権の
 登記名義人その他の所有者に当たるか」with a thick highlighted「はい」branch
-and a faded, greyed-out「いいえ」branch (labeled in small text「肢ウへ」).
+and a faded, greyed-out「いいえ」branch.
 From the highlighted branch, a land plot 乙 partially shaded (甲と隣接して
 いない部分を時効取得した範囲) with a character standing on the shaded part
 holding a 筆界特定申請書 for the 甲・乙筆界, leading to a highlighted final
@@ -358,8 +358,7 @@ Heading (bold, ONE line):
 仮登記の名義人は申請権者に当たらない
 Diagram: The same diamond node as Panel 2（「申請しようとする人は、対象土地
 の所有権の登記名義人その他の所有者に当たるか」）, this time with a thick
-highlighted「いいえ」branch and a faded「はい」branch (labeled in small text
-「肢イへ」). From the highlighted branch, a character holding a 仮登記
+highlighted「いいえ」branch and a faded「はい」branch. From the highlighted branch, a character holding a 仮登記
 document drawn in a faded, semi-transparent dashed style with a label「まだ確定的な
 所有権なし」, reaching for a 筆界特定申請書 but blocked by a large ✕,
 leading to a highlighted final conclusion node「申請することはできない」.

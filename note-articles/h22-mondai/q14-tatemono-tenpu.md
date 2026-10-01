@@ -329,7 +329,7 @@ with only ONE 登記識別情報カード being handed over instead of two, and 
 final conclusion node reading「いずれか1個の登記識別情報で足りる」. Render
 a faded「はい（全部必要）」stub off to the side of the second diamond, and
 render the root's「いいえ（特則なし・原則どおり）」branch as a faded, dotted
-stub off to the side, labelled「（今回は関係ない）」.
+stub off to the side.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この添付情報に省略を認める特則があるかを確認します。合併の登記では、
 合併に係る建物のうちいずれか1個の建物の登記識別情報を提供すれば足りるため、
@@ -350,8 +350,7 @@ positioned outside the registry office's jurisdiction boundary line, with
 an 不動産番号 tag alone shown crossed with a large ✕, and a 登記事項証明書
 document icon needed instead with a checkmark, ending in a final
 conclusion node reading「登記事項証明書の提供が必要」. Render the root's
-「はい（特則あり）」branch as a faded, dotted stub off to the side,
-labelled「（今回は関係ない）」.
+「はい（特則あり）」branch as a faded, dotted stub off to the side.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この添付情報に省略を認める特則があるかを確認します。管轄区域外に
 ある敷地権の目的である土地については、不動産番号を提供しても登記事項

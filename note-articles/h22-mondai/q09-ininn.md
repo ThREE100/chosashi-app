@@ -32,7 +32,7 @@
 
 ### ウ：市町村長が職務上作成した委任状には、「3か月以内」の制限がない
 
-代理権限を証する情報（委任状）は、原則として作成後3か月以内のものでなければなりません。しかし、市町村長など官公署が職務上作成した委任状については、この3か月以内という制限を受けません。したがって、この記述は正しいものです。
+市町村長などの公務員が職務上作成した代理権限を証する書面は、原則として作成後3か月以内のものでなければなりません（不動産登記令17条1項）。しかし、官庁又は公署が登記の嘱託をする場合には、この制限は適用されません（同条2項）。市町村から嘱託の委任を受けた代理人が提出する市町村長作成の委任状は、この嘱託の場面のものなので、3か月以内という制限を受けません。したがって、この記述は正しいものです。
 
 **たとえば**、市が登記の嘱託を代理人に委任するときの、市長名で作られた委任状は、作られてから3か月を過ぎていても使うことができます。役所が職務として作った書面は、期限で切り捨てられないのです。
 
@@ -318,13 +318,11 @@ Heading (bold, ONE line):
 委任者が死亡しても代理権は消滅しない
 Diagram: A first diamond node labeled「代理権に影響する出来事は、委任者
 （本人）側で起きたか、代理人側で起きたか」with a thick highlighted「委任者側」
-branch and a faded, greyed-out「代理人側」branch (labeled in small text
-「肢オへ」). From the highlighted「委任者側」branch, a second diamond node
+branch and a faded, greyed-out「代理人側」branch leading to a faded conclusion node「代理人の死亡なら代理権は消滅する」. From the highlighted「委任者側」branch, a second diamond node
 labeled「不動産登記法17条1号の除外事由（本人の死亡）に当てはまるか、または
 本人自体に変更のない事情か」with two branch stubs: 「本人の死亡」rendered
 thick and highlighted (an elderly 委任者 character fading into a tombstone
-icon) and「法人代表者の交代」rendered faded, greyed-out (labeled in small
-text「肢イへ」). From the highlighted「本人の死亡」branch, an arrow leads to
+icon) and「法人代表者の交代」rendered faded, greyed-out. From the highlighted「本人の死亡」branch, an arrow leads to
 a highlighted final conclusion node「代理権は消滅しない」, next to which a
 代理人 character keeps holding the 委任状 document unaffected and stamps a
 分筆登記 application with a checkmark.
@@ -367,17 +365,17 @@ continuously through all panels).
 Heading (bold, ONE line):
 官公署作成の委任状に3か月の期限はない
 Diagram: A contrast panel split into two side-by-side frames. Left frame
-labeled「私人が作成した委任状（原則）」contains a 委任状 document icon
-signed by an ordinary character, with a calendar icon showing an intact
-3か月 countdown ring, rendered in a faded, greyed-out style. Right frame
-labeled「市町村長が嘱託に際し職務上作成した委任状（例外）」contains a
-市町村長 character stamping an official 委任状 document with a government
-seal, and a calendar icon with the 3か月 countdown ring crossed out,
+labeled「公務員が職務上作成した代理権限の証明書（原則）」contains an official
+document icon with a government seal, with a calendar icon showing an
+intact 3か月 countdown ring, rendered in a faded, greyed-out style. Right
+frame labeled「官庁・公署が登記を嘱託する場合（例外）」contains a 市町村長
+character stamping an official 委任状 document with a government seal for
+a 嘱託, and a calendar icon with the 3か月 countdown ring crossed out,
 label「期限なし」. A thick highlighted border surrounds the right frame.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この委任状を作成したのが私人か、市町村長など官公署かを確認します。
-次に、市町村長が嘱託に際し職務上作成したものであれば、作成後3か月以内で
-あることを要しないと判定します。
+まず、この委任状が市町村長など公務員が職務上作成したもの（原則として作成
+後3か月以内）かを確認します。次に、官庁又は公署が登記を嘱託する場合であれ
+ば、この3か月の制限は適用されないと判定します。
 Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 官公署作成は期限なし
@@ -408,8 +406,7 @@ Heading (bold, ONE line):
 代理人が死亡すると相続人は代理権を行使できない
 Diagram: The same first diamond node as Panel 1（「代理権に影響する出来事は、
 委任者（本人）側で起きたか、代理人側で起きたか」）, this time with a thick
-highlighted「代理人側」branch and a faded「委任者側」branch (labeled in
-small text「肢ア・イへ」). From the highlighted「代理人側」branch, a second
+highlighted「代理人側」branch and a faded「委任者側」branch leading to a faded conclusion node「本人の死亡なら代理権は消滅しない」. From the highlighted「代理人側」branch, a second
 diamond node labeled「民法111条1項2号の消滅事由（代理人の死亡）に当てはまる
 か」with a thick highlighted「はい」arrow leading to a highlighted final
 conclusion node「代理権は消滅する」. Beside it, a代理人 character fades into

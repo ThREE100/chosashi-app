@@ -411,8 +411,7 @@ Heading (bold, ONE line):
 Diagram: The same first diamond node as Panel 1（「地積の更正登記は、新しい
 権利関係を生じさせる登記か、それとも登記された事実を真実に合わせて正すだ
 けの登記か」）, this time with a thick highlighted「事実を正すだけ（更正）」
-branch and a faded「新しい権利関係を生じさせる登記」branch (labeled in
-small text「肢アと共通」). From the highlighted branch, a second diamond
+branch and a faded「新しい権利関係を生じさせる登記」branch. From the highlighted branch, a second diamond
 node labeled「新築・滅失のような物理的変化に伴う登記と同様、申請義務の期限
 の定めがあるか」with a thick highlighted「いいえ」arrow leading to a
 highlighted final conclusion node「1か月以内に申請しなければならないという
