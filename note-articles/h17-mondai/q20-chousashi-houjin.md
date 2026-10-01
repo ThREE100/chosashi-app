@@ -392,7 +392,7 @@ isometric office buildings side by side, one labeled「主たる事務所
 （東京）」and one labeled「従たる事務所（大阪）」. A green「はい」arrow
 leads to a badge-wearing figure standing inside the従たる事務所 matching
 the local region, ending at a green conclusion node reading「常駐の要件を
-満たす」. A red, thick-bordered「いいえ（今回はこちら）」arrow leads to a
+満たす」. A red, thick-bordered「いいえ」 (the case this 肢 tests)arrow leads to a
 crossed-out figure wearing a「東京」badge standing inside the従たる事務所,
 ending at a red conclusion node reading「常駐の要件を満たさない」。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

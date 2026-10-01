@@ -348,13 +348,11 @@ Heading (bold, ONE line):
 事前通知の回答前でも取下げできるかを確認する
 Diagram: A horizontal timeline. At the left end, an isometric envelope
 labeled「事前通知」sent from a registry office to a house icon labeled
-「登記名義人」. A dotted clock icon labeled「回答前（今回はこちら）」sits
+「登記名義人」. A dotted clock icon labeled「回答前」 (the case this 肢 tests)sits
 partway along the timeline. At that same point on the timeline, a person
 figure pulls back a document labeled「取下げ」via a green, thick-bordered
 unblocked arrow, ending at a green conclusion node reading「取下げできる」.
-A faded dotted-outline branch further along the timeline, past a
-「回答あり」marker, leads to a faded conclusion node reading「取下げできる
-（回答の有無を問わない）」.
+Beside the conclusion node, a small faded, dotted-outline tag reads 事前通知への回答の有無は問わない (no ○/✕ mark on the tag); do not draw a separate「回答あり」branch.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、事前通知に対する登記名義人の回答があったかどうかを条件とする取下げ
 の制限が規則39条にあるかを確認します。定めがないため、回答前でも取下げ
@@ -387,7 +385,7 @@ Heading (bold, ONE line):
 登記完了の前か後かを確認する
 Diagram: A diamond-shaped decision node labeled「取下げをしようとする時点
 で登記は完了しているか」sits above an isometric registry record book. A
-red, thick-bordered「はい（今回はこちら）」arrow leads to a hand reaching
+red, thick-bordered「はい」 (the case this 肢 tests)arrow leads to a hand reaching
 to pull back a document labeled「取下げ」but blocked by a red「✕」barrier
 icon, ending at a red conclusion node reading「取下げできない」. A green
 「いいえ」arrow leads to the same hand freely pulling back the document,

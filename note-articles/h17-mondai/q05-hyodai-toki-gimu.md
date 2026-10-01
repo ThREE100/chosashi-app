@@ -401,18 +401,7 @@ Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 敷地権なしでも他区分建物と併せ申請
-Diagram: A single-diamond decision flowchart in which BOTH outcomes are
-drawn, since this 肢's point is that the conclusion does not depend on
-the diamond's answer. Diamond node: この区分建物には敷地権があるか？The
-「はい」branch is fully visible (not faded) and leads to the shared
-conclusion node reading 一棟の他の区分建物と併せて申請, illustrated with
-複数の部屋（区分建物）に分かれたisometric集合住宅、各部屋を点線でつなぎ
-「併せて申請」の書類フォルダアイコンにまとめる。The「いいえ」branch is
-highlighted with a thick border and full color, since this is the case
-this 肢 tests, and leads to the SAME conclusion node 一棟の他の区分建物
-と併せて申請, illustrated with 同じ集合住宅の1室に「敷地権なし」という
-小さな取り消し線付きラベルを付けつつ、同じ書類フォルダアイコンに点線で
-つなげる。
+Diagram: A labeled illustrative diagram (no diamond, since the answer does not depend on whether there is a 敷地権). A highlighted conclusion box (thick border, full color) reads 一棟の他の区分建物と併せて申請, illustrated with 複数の部屋（区分建物）に分かれたisometric集合住宅、各部屋を点線でつなぎ「併せて申請」の書類フォルダアイコンにまとめる。One of the rooms carries a small label「敷地権なし」. Beside the conclusion box, a small faded, dotted-outline tag reads 敷地権の有無は問わない (no ○/✕ mark on the tag).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この区分建物に敷地権があるかどうかを確認します。次に、敷地権の有
 無にかかわらず、一棟の建物に属する他の区分建物の表題登記の申請と併せて

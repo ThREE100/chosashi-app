@@ -313,12 +313,11 @@ Diagram: A decision-tree flowchart. Root diamond node (drawn with a
 thicker highlighted border since this panel is about the root question
 itself): 増改築部分に構造上の独立性（他の部分と壁等で明確に遮断されて
 いること）は認められるか？Beside the diamond, draw a同意書のアイコンに
-大きな×印labeled 同意の有無はここでは関係ない, showing that consent is
+大きな×印labeled 同意の有無では決まらない, showing that consent is
 not what this diamond checks. The「いいえ」branch leads to a conclusion
-node reading 強い付合として同意の有無にかかわらずBに帰属（Panel 3で具体
-的に使用、ここでは軽い重みで表示）, and the「はい」branch leads to a
+node reading 強い付合として同意の有無にかかわらずBに帰属 (draw this node in a lighter weight; Panel 3 develops it), and the「はい」branch leads to a
 second diamond node (rendered faded and greyed-out, since Panel 4 owns
-that branch): 利用上の独立性も認められるか？
+that branch): 利用上の独立性も認められるか？, whose「はい」branch leads to a faded conclusion node reading 区分所有権の対象としてAが取得 and whose「いいえ」branch leads to a faded conclusion node reading 付合によりBに帰属.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この判断が「賃貸人Bの同意があったかどうか」ではなく「増改築部分
 に独立性が認められるかどうか」から始まることを確認します。同意の有無
@@ -335,8 +334,7 @@ Heading (bold, ONE line):
 Diagram: The same decision-tree shape as Panel 1, with the same root
 diamond highlighted (drawn with a thicker highlighted border): 増改築
 部分に構造上の独立性は認められるか？Beside the diamond, draw a上向きの
-価値上昇グラフのアイコンに大きな×印labeled 価値の増減はここでは関係な
-い, showing that a rise in value is not what this diamond checks either.
+価値上昇グラフのアイコンに大きな×印labeled 価値の増減では決まらない, showing that a rise in value is not what this diamond checks either.
 The「いいえ」and「はい」branches are rendered in the same lighter, faded
 weight as in Panel 1, since this panel's focus is the root diamond
 itself, not a specific leaf.
@@ -384,7 +382,7 @@ diamond node (also highlighted with a thick border): 利用上の独立性
 node reading 区分所有権の対象となりAが取得する, illustrated with 甲建
 物の2階部分に外部階段から直接出入りできる独立した部屋のisometric
 scene, 1階部分とは壁で完全に仕切られている。The「いいえ」branch of the
-first diamond (used by Panel 3) is rendered faded and greyed-out.
+first diamond (used by Panel 3) is rendered faded and greyed-out, and the「いいえ」branch of the second diamond leads to a faded conclusion node reading 付合によりBに帰属.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、増築部分に構造上の独立性があるかを確認します。次に、利用上の独
 立性もあわせて備えているかを確認します。両方を満たす場合にはじめて区

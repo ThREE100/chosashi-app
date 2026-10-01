@@ -340,7 +340,7 @@ Heading (bold, ONE line):
 未登記建物どうしの合体は表題登記
 Diagram: 決定木として描く。開始ノード「合体する2棟の建物は、いずれも
 既に表題登記があるか」（ひし形）→「Yes（既登記どうし）」の矢印は薄い
-グレーで縮小表示し「建物の合併の登記が使える（本問では該当なし）」の
+グレーで縮小表示し「合体による登記等（合体後の建物の表題登記＋合体前の建物の表題部の登記の抹消）をする」の
 結論ノードへ、「No（いずれも未登記）」の矢印は太い縁取りと緑の○で強調し
 「合体後の建物について新たに建物の表題登記をする」という結論ノードへ
 進む。2棟の未登記の倉庫が1棟にまとまるイラストの上に「合併の登記」の
@@ -385,8 +385,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記令別表十二（ア）、不動産登記法54条1項3号・49条2項
-（ウ）、不動産登記規則37条（オ）。イ・エは条文の号数まで確定できて
-いない一般原則からの推論を含む。
+（ウ）、不動産登記規則37条（オ）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

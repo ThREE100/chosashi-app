@@ -379,7 +379,7 @@ Heading (bold, ONE line):
 農具小屋が永久的な設備かを確認する
 Diagram: A diamond-shaped decision node labeled「農具小屋は永久的な設備
 か」sits above an isometric rice paddy. A red, thick-bordered「いいえ
-（今回はこちら）」arrow leads down to a small wood-and-tin-roof shed
+」 (the case this 肢 tests)arrow leads down to a small wood-and-tin-roof shed
 labeled「仮設」, ending at a red conclusion node reading「宅地にならない
 （周囲の畑と同じ地目）」. A faded, dotted-outline green「はい」arrow leads
 to a separate faded shed icon, ending at a faded conclusion node reading
@@ -444,7 +444,7 @@ Heading (bold, ONE line):
 構内に建物の設備があるかを確認する
 Diagram: A diamond-shaped decision node labeled「構内に建物の設備がある
 か」sits above an isometric crematorium compound. A green, thick-bordered
-「はい（今回はこちら）」arrow leads to a real building where families wait
+「はい」 (the case this 肢 tests)arrow leads to a real building where families wait
 and staff work, ending at a green conclusion node reading「構内全部が
 宅地」. A faded, dotted-outline red「いいえ」arrow leads to a faded outdoor
 furnace icon with no building, ending at a faded conclusion node reading
@@ -477,7 +477,7 @@ Heading (bold, ONE line):
 テニスコートが宅地に接続しているかを確認する
 Diagram: A diamond-shaped decision node labeled「テニスコートは宅地に
 接続しているか」sits above an isometric apartment building. A green,
-thick-bordered「はい（今回はこちら）」arrow leads to a tennis court drawn
+thick-bordered「はい」 (the case this 肢 tests)arrow leads to a tennis court drawn
 directly adjoining the apartment building's grounds, ending at a green
 conclusion node reading「宅地」. A faded, dotted-outline blue「いいえ」
 arrow leads to a faded, separated tennis court icon, ending at a faded

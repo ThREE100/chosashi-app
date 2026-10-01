@@ -322,7 +322,7 @@ Heading (bold, ONE line):
 抵当権登記の有無をまず確認する
 Diagram: A diamond-shaped decision node labeled「対象建物に抵当権の設定
 登記があるか」sits above an isometric apartment building. A green,
-thick-bordered「はい（今回はこちら）」arrow leads to a bank building icon
+thick-bordered「はい」 (the case this 肢 tests)arrow leads to a bank building icon
 labeled「抵当権の登記名義人」, from which a document icon labeled「承諾を
 証する情報又は対抗できる裁判があったことを証する情報」moves toward the
 building's application icon, ending at a green conclusion node reading
@@ -380,7 +380,7 @@ Diagram: A diamond-shaped decision node labeled「申請人は表題部所有者
 所有権の登記名義人か」sits above an isometric registry counter. A green
 「はい」arrow leads to a person icon (holding documents) submitting papers
 at the counter, ending at a green conclusion node reading「申請できる」.
-A red, thick-bordered「いいえ（今回はこちら）」arrow leads to a separate
+A red, thick-bordered「いいえ」 (the case this 肢 tests)arrow leads to a separate
 person icon representing an unrelated third party with a red prohibition
 mark (a circle with a diagonal slash) overlaid on them, ending at a red
 conclusion node reading「申請できない」.

@@ -353,8 +353,7 @@ Diagram: A diamond-shaped decision node labeled「申出人は表題部所有者
 所有権の登記名義人・その相続人その他の一般承継人か」sits above an
 isometric registry-office counter. A green「はい」arrow leads to a figure
 handing in a correction-request document, ending at a green conclusion
-node reading「訂正の申出ができる」. A red, thick-bordered「いいえ（今回は
-こちら）」arrow leads to a third figure labeled「無関係の第三者」stopped by
+node reading「訂正の申出ができる」. A red, thick-bordered「いいえ」arrow (the case this 肢 tests) leads to a third figure labeled「無関係の第三者」stopped by
 a barrier/gate icon in front of the counter, ending at a red conclusion
 node reading「訂正の申出はできない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):

@@ -369,8 +369,7 @@ with a thick border and full color, leading to a conclusion node reading
 当該室の面積として算入する, illustrated with 屋根の傾斜に沿って天井が低
 くなった部屋のisometric scene, 部屋全体を1つの点線の枠で囲んでチェック
 マークを添える。The「独立した特殊階の全体」branch is rendered faded and
-greyed-out, leading to a faded conclusion box reading 原則として不算入
-（この肢の対象外）.
+greyed-out, leading to a faded conclusion box reading 原則として不算入.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、天井高1.5メートル未満の部分が、独立した地階・屋階全体なのか、1つ
 の居室の一部にすぎないのかを確認します。1室の一部であれば、天井が低く
@@ -391,8 +390,7 @@ to a conclusion node reading 上階の床面積に算入しない, illustrated w
 1階の玄関ホールから2階まで続く吹抜けのある住宅のisometric scene, 2階部
 分の吹抜けの範囲をグレーの斜線パターンで塗りバツ印を添える。The「はい
 （通常どおり床がある場合）」branch is rendered faded and greyed-out,
-leading to a faded conclusion box reading 通常どおり算入する（この肢の
-対象外）.
+leading to a faded conclusion box reading 通常どおり算入する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、吹抜け部分の上階に実際に床が存在するかを確認します。吹抜けの部分
 には床そのものが存在しないため、上階の床面積には算入しません。
