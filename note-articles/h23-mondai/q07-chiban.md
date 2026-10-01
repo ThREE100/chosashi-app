@@ -24,11 +24,11 @@
 
 **たとえば**、新しく表題登記をする土地の地番は、必ず隣の土地に枝番（支号）を付ける形で決めなければならないわけではなく、その地域で位置が分かりやすくなるように定められます。
 
-### イ：地役権を消す側には、支号なしの地番を残せる
+### イ：地役権を消す分筆なら、支号なしの地番を残せる
 
-要役地についてする地役権の登記がある、支号のない土地について分筆の登記をする場合において、分筆後のいずれかの土地についてその地役権を消滅させる旨の地役権者作成の情報が提供され、地役権を抹消するときは、分筆した土地について支号を用いない地番を存することができます（不動産登記事務取扱手続準則67条1項5号、不動産登記規則104条6項）。地役権の処理と地番の付け方を結び付けた取り扱いです。
+要役地についてする地役権の登記がある、支号のない土地について分筆の登記をする場合において、分筆後のいずれかの土地についてその地役権を消滅させる旨の地役権者作成の情報が提供され、地役権を抹消するときは、分筆した土地について支号を用いない地番を存することができます（不動産登記事務取扱手続準則67条1項5号、不動産登記規則104条6項）。分筆では通常、分筆前の地番に支号を付して各筆の地番を定めます（同準則67条1項4号）が、地役権の処理と地番の付け方を結び付けたこの場合はその例外です。どちらの土地に支号のない地番を残すかまでは、準則67条1項5号は定めていません。
 
-**たとえば**、支号のない土地を分筆して、一方の土地では地役権をなくす手続をとる場合、その土地には枝番を付けない形の地番を残しておくことができます。
+**たとえば**、支号のない土地を分筆して、地役権をなくす手続をとる場合は、分筆した土地について枝番を付けない形の地番を残しておくことができます。
 
 ### ウ：特別の事情があれば、合筆後の地番は首位でなくてよい
 
@@ -38,7 +38,7 @@
 
 ### エ：地番は、地域ごとに位置が分かるように付ける
 
-地番は、市、区、町、村、字又はこれに準ずる地域ごとに起番し、土地の位置が分かりやすいものとなるように定められます（不動産登記規則98条）。地番の付け方の基本原則をそのまま述べたもので、正しい内容です。
+地番は、地番区域（市、区、町、村、字又はこれに準ずる地域）ごとに起番し、土地の位置が分かりやすいものとなるように定められます（不動産登記規則97条・98条）。地番の付け方の基本原則をそのまま述べたもので、正しい内容です。
 
 **たとえば**、地番は町や字といった区域ごとに1番から番号を起こしていき、どのあたりの土地かがイメージしやすいように順序立てて割り振られます。
 
@@ -51,7 +51,7 @@
 ### まとめ
 
 - **ア（誤）**　新規の地番は隣地の支号を付す方法に限定されていない
-- **イ（正）**　地役権を消す側の土地には支号なしの地番を残せる
+- **イ（正）**　地役権を消す分筆なら、支号なしの地番を残せる
 - **ウ（正）**　特別の事情があれば合筆後の地番は首位でなくてよい
 - **エ（正）**　地番は地域ごとに位置が分かりやすいように定める
 - **オ（誤）**　いったん抹消された地番は事情がなくても再使用はできない
@@ -66,17 +66,18 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第7問＝アオの組合せ／2番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- **2026-08-13再検証で全肢の根拠条文を確認・補強**：不動産登記事務取扱手続準則67条（`note-articles/laws/fudousan-touki-jimu-junsoku.md`）に地番の定め方の各ルールがまとまって規定されていることを確認し、ア（同条1項3号＝表題登記の地番は地番区域内の最終地番を追って順次定める）・イ（同条1項5号、不動産登記規則104条6項＝要役地の地役権を消滅させる場合は支号なしの地番を存置可）・ウ（同条1項6号・7号＝合筆後は原則首位地番だが特別の事情があれば例外）・エ（不動産登記規則98条＝地番は地番区域ごとに起番し位置が分かりやすいように定める）・オ（同準則67条1項2号＝抹消等で閉鎖された地番は特別の事情がない限り再使用しない）のすべてについて、条文番号を本文に追記しました。従来は「一般原則からの整理」としていましたが、実際には準則67条に明文の根拠があることを確認できたため、確認済みの区分に格上げしています。
+- **2026-08-13再検証で全肢の根拠条文を確認・補強**：不動産登記事務取扱手続準則67条（`note-articles/laws/fudousan-touki-jimu-junsoku.md`）に地番の定め方の各ルールがまとまって規定されていることを確認し、ア（同条1項3号＝表題登記の地番は地番区域内の最終地番を追って順次定める）・イ（同条1項5号、不動産登記規則104条6項＝要役地の地役権を消滅させる場合は支号なしの地番を存置可）・ウ（同条1項6号・7号＝合筆後は原則首位地番だが特別の事情があれば例外）・エ（不動産登記規則97条・98条＝地番区域は市、区、町、村、字又はこれに準ずる地域で定め、地番はその地番区域ごとに起番し位置が分かりやすいように定める）・オ（同準則67条1項2号＝抹消等で閉鎖された地番は特別の事情がない限り再使用しない）のすべてについて、条文番号を本文に追記しました。従来は「一般原則からの整理」としていましたが、実際には準則67条に明文の根拠があることを確認できたため、確認済みの区分に格上げしています。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成24年度以降令和7年度までの試験で「登記官が定める地番」を単独テーマとする問題が再出題されていないかを確認しました。該当する出題は見つからず、重複はありません。
 - **最新法令準拠チェック（2026-08-04実施）**：不動産登記規則98条〜101条（地番の設定・分筆合筆時の地番）を確認しましたが、直近の改正による変更はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：不動産登記事務取扱手続準則67条1項（最終改正令和6年12月2日）の2号（閉鎖された地番は特別の事情がない限り再使用しない）・3号（表題登記の地番は最終の地番を追って順次定める）・4号（分筆は分筆前の地番に支号を付す）・5号（規則104条6項の場合は支号を用いない地番を存することができる）・6号（合筆は首位の地番）・7号（特別の事情があるときは適宜の地番）と、不動産登記規則97条・98条・104条6項（令和8年5月21日施行の直近改正を反映した現行版）を、ローカル法令データベースの原文で確認しました。**各肢の正誤の結論に変更はありません**。(1) 肢イ：以前の本文は「地役権を消す側の土地に支号なしの地番を残せる」と書いていましたが、準則67条1項5号・規則104条6項の原文は「分筆した土地について支号を用いない地番を存することができる」とするだけで、どちらの土地に残すかを定めていませんでした。条文で確認できる範囲に書き改め、②総論のカード2・⑤作図ガイドのパネル2も同時に直しました。実務では、地役権が存続する土地に従前の地番を残す取扱いと説明されることがあるようですが、ローカル法令データベースでは確認できていないため、本文・図解では断定していません。(2) 肢エ：以前の本文は規則98条だけを挙げていましたが、「市、区、町、村、字又はこれに準ずる地域」は規則97条（地番区域）の文言なので、97条・98条を併記しました。
 
 ---
 
 ## 見出し画像用フレーズ
 
 - 新規の地番、隣の枝番って決まってるわけじゃないんです
-- 地役権を消す側には、支号なしの地番を残せるんです
+- 地役権を消す分筆なら、支号なしの地番を残せるんです
 - 特別の事情があれば、合筆後の地番は首位じゃなくていいんです
 - 地番は、地域ごとに位置が分かるように付けるんです
 - いったん消えた地番、勝手には使い回せないんです
@@ -121,7 +122,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 番・権・録・区 — these must be rendered in their standard Japanese
+kanji 番・権・地・号 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -151,21 +152,24 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: A new land plot appearing at the edge of a district map.
 A signpost labeled 最終の地番 "99番" stands nearby, and a green arrow
 runs from it to the new plot labeled "100番" (the numbers are examples).
-Separately, a small crossed-out tag "5番の1" with a red X on that tag
-alone shows that attaching a suffix to a neighbor's number is not the
-only method. Do NOT draw any other arrow or label.
+Separately, a small faded, dotted-outline tag "5番の1" labeled 唯一では
+ない (with no X mark and no checkmark) shows that attaching a suffix to a
+neighbor's number is not the only method. Do NOT draw any other arrow or
+label.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 限定されない
 
 --- CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-地役権を消す側は支号なし可
-Illustration: One land plot labeled "8番" (no suffix) divided into two
-halves. A 地役権 ribbon is cut and removed from the left half only; that
-left half keeps the plain label "8番" (no suffix) with a green
-checkmark, while the right half, which still carries the 地役権 ribbon,
-is labeled "8番2" (the numbers are examples).
+地役権を消す分筆は支号なし可
+Illustration: One land plot labeled "8番" (no suffix) carrying a 地役権
+ribbon is divided into two halves, and the 地役権 ribbon is cut away from
+one of the halves. A small tag 支号なしの地番を残せる with a single green
+checkmark sits above the pair of halves as a whole (a bracket over both
+halves). Do NOT write any lot number on either half and do NOT show
+which half keeps the plain number (the number 8番 on the original plot is
+an example).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 支号なしOK
 
@@ -206,7 +210,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 番・権・録・区. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 番・権・地・号. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
@@ -319,7 +323,7 @@ characters):
 --- PANEL 2（肢イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
-地役権を消す側は支号なし地番にできる
+地役権を消す分筆なら支号なし地番にできる
 Diagram: A decision-tree flowchart. Diamond node: 要役地の地役権の登記
 がある支号のない土地を分筆する場合において、分筆後のいずれかの土地に
 ついてその地役権を消滅させる旨の証明情報が提供され、地役権を抹消する
@@ -330,8 +334,8 @@ conclusion node reading 通常どおり支号を付した地番になる.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、地役権の登記がある支号のない土地を分筆する場面で、地役権を消滅さ
 せる旨の証明情報が提供されて地役権を抹消するかどうかを確認します。抹消
-する場合は、次に、分筆後のその土地に支号を用いない地番を残せると判断し
-ます。
+する場合は、次に、分筆した土地に支号を用いない地番を残せると判断しま
+す。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 支号なしでも可
@@ -390,12 +394,12 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記事務取扱手続準則67条1項2号・3号・5号・6号・7号、不動産登記規
-則98条・104条6項に基づく整理です。
+不動産登記事務取扱手続準則67条1項2号・3号・4号・5号・6号・7号、不動産
+登記規則97条・98条・104条6項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 番・権・録・区・筆. If any character
+Chinese, paying special attention to 番・権・区・筆・号. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

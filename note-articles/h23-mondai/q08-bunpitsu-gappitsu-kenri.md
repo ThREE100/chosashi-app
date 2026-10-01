@@ -20,13 +20,13 @@
 
 ### ア：抵当権を消すには、その上の第三者の承諾も要る
 
-抵当権の登記がある甲土地を分筆し、乙土地について抵当権を消滅させる登記を申請する場合、その抵当権を目的とする第三者の権利に関する登記（転抵当など）があるときは、抵当権者の承諾を証する情報に加えて、その第三者の承諾を証する情報も提供しなければなりません（不動産登記法40条）。第三者の権利も抵当権の消滅によって影響を受けるからです。
+抵当権の登記がある甲土地を分筆し、乙土地について抵当権を消滅させる登記を申請する場合、その抵当権を目的とする第三者の権利に関する登記（転抵当など）があるときは、抵当権者の承諾を証する情報に加えて、その第三者の承諾を証する情報も提供しなければなりません（不動産登記法40条かっこ書、不動産登記規則104条1項2号）。第三者の権利も抵当権の消滅によって影響を受けるからです。
 
 **たとえば**、乙土地部分の抵当権に、さらに別の人の転抵当が付いている場合、抵当権者本人の承諾だけでなく、その転抵当権者の承諾も揃えて初めて、乙土地の抵当権を消す分筆の登記ができます。
 
 ### イ：範囲が一部になる地役権は、図面で範囲を示す
 
-承役地についてする地役権の登記がある土地の分筆又は合筆を申請する場合において、地役権の設定の範囲が分筆後又は合筆後の土地の一部となるときは、申請情報に地役権の設定の範囲を記載し、地役権図面及び地役権証明書を添付しなければなりません（不動産登記令別表の分筆の登記・合筆の登記の項）。範囲がどこまでかを明確にして公示する必要があるためです。
+承役地についてする地役権の登記がある土地の分筆又は合筆を申請する場合において、地役権の設定の範囲が分筆後又は合筆後の土地の一部となるときは、申請情報に地役権の設定の範囲を記載し、地役権図面及び地役権証明書を添付しなければなりません（不動産登記令別表の分筆の登記・合筆の登記の項）。なお、問題文の「地役権証明書」は、令別表では「地役権設定の範囲を証する地役権者が作成した情報」（又は地役権者に対抗することができる裁判があったことを証する情報）と定められています。範囲がどこまでかを明確にして公示する必要があるためです。
 
 **たとえば**、通行地役権が土地の一部にだけ及んでいる状態で分筆する場合、「どの部分に地役権が残るのか」を図面で示し、その証明書も添えて申請することになります。
 
@@ -74,6 +74,7 @@
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、「合筆の登記」は令和6年度第9問（本シリーズで既に note-articles/r6-mondai/q09-gappitsu-touki.md として執筆済み）をはじめ、平成27・28年度等でも頻出のテーマであることを確認しました。令和6年度第9問の肢オ（承役地についてする地役権の登記がある土地の合筆時に地役権設定の範囲を申請情報の内容とする点）は、本問の肢イ（同様の場面での地役権図面・証明書の添付）と関連する論点ですが、具体的に問われている添付情報の内容は異なります。本問はむしろ担保権（抵当権）・永小作権・採石権・仮登記のある場合の可否が中心であり、全体としては直接の重複ではありませんが、地役権のある土地の合筆という共通の切り口がある点にはご留意ください。
 - **最新法令準拠チェック（2026-08-04実施）**：不動産登記法40条・41条（分筆合筆時の権利の処理、合筆の制限）を確認しましたが、直近の改正による変更はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：不動産登記法40条・41条6号・72条、不動産登記令4条・別表の分筆の登記・合筆の登記の項、不動産登記規則104条・105条（いずれも令和8年5月21日施行の直近改正を反映した、2026-08-04取得の現行版）を、ローカル法令データベースの原文で確認しました。**各肢の正誤の結論に変更はありません**。(1) 肢ア：法40条かっこ書が「当該権利を目的とする第三者の権利に関する登記がある場合にあっては、当該第三者が承諾したことを証する情報が併せて提供されたときに限る」と定めており、規則104条1項2号も同旨です。根拠として規則104条1項を追記しました。(2) 肢イ：令別表（分筆の登記の項の添付情報ロ、合筆の登記の項）の文言は「地役権設定の範囲を証する地役権者が作成した情報又は当該地役権者に対抗することができる裁判があったことを証する情報及び地役権図面」で、「地役権証明書」という語は条文にありません。問題文の用語として本文・図解ではそのまま使い、本文に令別表の文言を補いました。(3) 肢ウ・オ：規則105条が法41条6号の例外として挙げる登記は、承役地の地役権の登記、条件が同一の担保権の登記、条件が同一の信託の登記、条件が同一の鉱害賠償登録に関する登記の4つで、永小作権・採石権・所有権の移転の仮登記は含まれません。(4) 肢エ：法72条は、抹消された権利に関する登記の回復につき、登記上の利害関係を有する第三者がある場合はその承諾があるときに限り申請できるとしており、本文の説明と一致します。なお、分筆錯誤で分筆の登記の抹消を申請できないこと自体の直接の根拠条文は、前記のとおりローカル法令データベースでは見つけられていません。(5) 画像2（肢エ）の末尾の小さな出典表記（FOOTER）は、「最後のカードの後に文字ブロックを描かせない」旨のFinal checkと食い違うため削除しました。
 
 ---
 
@@ -127,9 +128,9 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・証・録・筆・錯・誤 — these must be rendered in their standard Japanese
+kanji 権・証・筆・錯・誤・転 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants (e.g. 権 not 权, 証 not 证,
-録 not 录, 筆 not 笔, 錯 not 错, 誤 not 误).
+筆 not 笔, 錯 not 错, 誤 not 误, 転 not 转).
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -216,7 +217,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 権・証・録・筆・錯・誤. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 権・証・筆・錯・誤・転. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm badge numbers run 1-5 continuously across both
 columns without resetting, confirm there is no intro illustration or
@@ -252,7 +253,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・登・記・録・復・錯・誤・筆, which have Simplified Chinese look-alike
+kanji 権・登・記・復・錯・誤・筆・続, which have Simplified Chinese look-alike
 forms with visibly different stroke shapes — always draw the standard
 Japanese (Jōyō) form of these characters.
 
@@ -331,11 +332,10 @@ Caption (small text below):
 当時の状態を是正する手続に進む。
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal):
-平成23年度 午後の部 第8問 肢エ
+(No credit text or footer text of any kind. The subtitle already shows the exam year and question number.)
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 権・登・記・録・復・錯・誤・筆. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 4 exactly, with no duplicated or
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 権・登・記・復・錯・誤・筆・続. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 4 exactly, with no duplicated or
 missing cards, and confirm every heading, illustration label, and caption
 text matches the Japanese text given above verbatim, with no paraphrasing
 and no substituted characters. Also confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
@@ -490,12 +490,14 @@ characters):
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 権利消滅を伴う分筆は錯誤で戻せない
-Diagram: A decision-tree flowchart. Diamond node: その分筆の登記に、権
-利(抵当権)を消滅させる登記が伴っているか？with はい branch (drawn with
-a thick highlighted border, since this is本肢の場面) leading to a
-conclusion node reading 分筆錯誤を原因とする分筆の登記の抹消は申請でき
-ない, and いいえ branch leading to a separate conclusion node reading 通
-常の分筆錯誤として抹消を申請できる.
+Diagram: A single-check labeled diagram (NOT a flowchart — draw no
+diamond-shaped node, no Yes/No branch arrows, and no dangling arrow). A
+land plot split into 甲土地 and 乙土地, with the 抵当権 ribbon on 乙土地
+already erased by a 消滅承諾 stamp, next to a numbered step marker ① with
+a green checkmark reading 権利(抵当権)を消滅させる登記が伴っている. A
+分筆錯誤 stamp trying to reach back and undo the 分筆 is blocked by a red
+✕ placed on the stamp itself. The diagram ends in one conclusion node
+reading 分筆錯誤を原因とする分筆の登記の抹消は申請できない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、その分筆の登記に、抵当権を消滅させる登記のような権利変動が伴って
 いるかどうかを確認します。権利変動を伴っている場合は、次に、分筆錯誤だ
@@ -531,12 +533,12 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法40条・41条6号、不動産登記規則105条、不動産登記令別表に基づ
-く整理です。
+不動産登記法40条・41条6号、不動産登記規則104条・105条、不動産登記令別
+表に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 権・証・録・筆・錯・誤. If any character
+Chinese, paying special attention to 権・証・筆・錯・誤・転・請. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

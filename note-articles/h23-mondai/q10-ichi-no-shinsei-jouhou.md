@@ -16,7 +16,7 @@
 >
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
-申請情報は、登記の目的及び登記原因に応じて、一の不動産ごとに作成して提供するのが原則です（不動産登記令4条本文）。ただし、この原則には例外があり、法務省令（不動産登記規則）で定める場合には、一の申請情報でまとめて申請することができます（同条ただし書）。一の申請情報によって申請できる場合は不動産登記規則35条に列挙されており、同じ不動産について前提と結果の関係にある登記の組み合わせや、いずれも表題部の変更・更正登記である組み合わせなどが挙げられています。この列挙にあたるかどうかで判断するのが基本です。
+申請情報は、登記の目的及び登記原因に応じて、一の不動産ごとに作成して提供するのが原則です（不動産登記令4条本文）。ただし、この原則には例外があり、同一の登記所の管轄区域内にある二以上の不動産について申請する登記の目的並びに登記原因及びその日付が同一であるときのほか、法務省令（不動産登記規則）で定めるときは、一の申請情報でまとめて申請することができます（同条ただし書）。法務省令で定めるときは不動産登記規則35条に列挙されており、同じ不動産について前提と結果の関係にある登記の組み合わせや、いずれも表題部の変更・更正登記である組み合わせなどが挙げられています。この列挙にあたるかどうかで判断するのが基本です。
 
 ### ア：区分して附属建物にする登記は、まとめて申請できる
 
@@ -44,7 +44,7 @@
 
 ### オ：別々の建物の登記は、名義人が同じでもまとめられない
 
-甲建物の滅失の登記と乙建物の表題登記は、そもそも甲建物・乙建物という別々の不動産についての登記であり、しかも滅失登記と表題登記という別種の登記です。不動産登記規則35条が一の申請情報によって申請できる場合を限定的に列挙していますが、この組み合わせはそのいずれにも当たりません。登記名義人が同一であっても、一の申請情報で申請することはできません。「申請することができる」とする点が誤りです。
+甲建物の滅失の登記と乙建物の表題登記は、そもそも甲建物・乙建物という別々の不動産についての登記であり、しかも滅失登記と表題登記という別種の登記です。不動産登記規則35条が一の申請情報によって申請できる場合を限定的に列挙していますが、この組み合わせはそのいずれにも当たりません。また、不動産登記令4条ただし書前段の「登記の目的並びに登記原因及びその日付が同一」という場合にも、滅失の登記と表題登記では登記の目的が異なるため当たりません。登記名義人が同一であっても、一の申請情報で申請することはできません。「申請することができる」とする点が誤りです。
 
 **たとえば**、高橋さんが古い家を取り壊して別の場所に新しい家を建てたとき、同じ高橋さんの登記だからといって、古い家の滅失と新しい家の表題登記をひとつの申請でまとめて出すことはできません。
 
@@ -70,6 +70,7 @@
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、「一の申請情報で申請する登記」を単独テーマとする問題が後年に再出題されていないかを確認しました。平成29年度第6問・平成24年度第4問に「申請情報」という類似の語を含む問題がありますが、これらは申請情報一般の記載事項（不動産番号、代表者氏名、持分の記載省略等）を問うものであり、本問（複数の登記を一の申請情報で併せて申請できるかという組み合わせの可否）とは論点が異なります。重複はありません。
 - **最新法令準拠チェック（2026-08-04実施）**：不動産登記規則35条（一の申請情報による申請）を確認しましたが、直近の改正による変更はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：不動産登記令4条と不動産登記規則35条（10類型。令和8年5月21日施行の直近改正を反映した、2026-08-04取得の現行版）を、ローカル法令データベースの原文で確認しました。**各肢の正誤の結論に変更はありません**。(1) 令4条ただし書は、法務省令で定めるときのほか、「同一の登記所の管轄区域内にある二以上の不動産について申請する登記の目的並びに登記原因及びその日付が同一であるとき」も例外としています。以前の本文はこの前段を書いていなかったため補いました（肢オは滅失の登記と表題登記で登記の目的が異なるため当たりません）。(2) 規則35条の4号（肢ア）・6号（肢エ）・7号（肢イ・ウ）の文言に変更はありません。8号（同一の登記名義人の氏名・住所の変更の登記又は更正の登記どうし）も変更ありません。(3) 相続登記の義務化（令和6年4月1日施行、不動産登記法76条の2）と所有権の登記名義人の氏名・住所の変更登記の義務化（令和8年4月1日施行、同法76条の5、職権による変更登記は同法76条の6）は、いずれも所有権の登記名義人についての制度で、肢ウの「表題部所有者の住所の変更の登記」と合筆の登記の組み合わせ（規則35条7号）には影響しません。(4) ②総論のカード・⑤作図ガイドのパネルは、登記の名称を本文どおり（建物の区分の登記・建物の合併の登記・地積の更正の登記・地目の変更の登記など）に揃え、パネル5の意味のないひし形（行き先のない「はい」だけの枝）を、単一の図解に作り直しました。
 
 ---
 
@@ -121,9 +122,9 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 請・録・筆・録 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 請 not 请, 録 not 录,
-筆 not 笔).
+kanji 請・筆・併・積 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants (e.g. 請 not 请, 筆 not 笔,
+併 not 并, 積 not 积).
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -151,8 +152,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 区分と合併もまとめて申請可
 Illustration: A building icon labeled 甲建物 being split, its split-off
 part then merged as an 附属建物 into another building icon labeled
-乙建物. Two stamps labeled 区分登記 and 合併登記 are combined into a
-single envelope with a checkmark.
+乙建物. Two stamps labeled 建物の区分の登記 and 建物の合併の登記 are
+combined into a single envelope with a checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一括申請可
 
@@ -161,8 +162,9 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 地積更正と分筆はまとめて申請可
 Illustration: A land plot's area number being corrected, immediately
-followed by a cutting line dividing it, both stamps combined into a
-single envelope with a checkmark.
+followed by a cutting line dividing it. Two stamps labeled 地積の更正の
+登記 and 分筆の登記 are combined into a single envelope with a
+checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一括申請可
 
@@ -172,7 +174,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 住所変更と合筆もまとめて申請可
 Illustration: On a land-title document, the 表題部所有者 character's
 address tag being updated, immediately followed by two neighboring
-land plots merging into one. Two stamps labeled 住所変更 and 合筆 are
+land plots merging into one. Two stamps labeled 住所の変更の登記 and 合筆の登記 are
 combined into a single envelope with a checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一括申請可
@@ -182,8 +184,9 @@ Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 地目変更と地積更正もまとめて可
 Illustration: A land plot changing its category tag from 畑 to 宅地,
-alongside its area number being corrected, both stamps combined into a
-single envelope with a checkmark.
+alongside its area number being corrected. Two stamps labeled 地目の変更
+の登記 and 地積の更正の登記 are combined into a single envelope with a
+checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一括申請可
 
@@ -193,7 +196,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 別々の建物はまとめられない
 Illustration: Two separate, unconnected building icons labeled 甲建物
 and 乙建物, with one and the same owner character standing between
-them. A stamp labeled 滅失登記 sits at 甲建物 and a stamp labeled
+them. A stamp labeled 滅失の登記 sits at 甲建物 and a stamp labeled
 表題登記 sits at 乙建物; a red X blocks an envelope trying to combine
 these two stamps into one.
 Conclusion tag (green banner below the illustration, 5-15 characters):
@@ -202,7 +205,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 請・録・筆. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 請・筆・併・積. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
 number of cards equals 5 exactly, with no duplicated or missing cards,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence
@@ -231,22 +234,16 @@ for 表題部所有者の住所の変更の登記, a land-merging icon for 合�
 a land-category tag change icon for 地目の変更の登記, and a small
 checklist/stamp icon labeled 不動産登記規則35条 representing the
 enumerated list of combinations that may be filed together.
-Where a 肢 requires checking multiple conditions in sequence before
-reaching a conclusion, draw the panel's diagram as an actual decision
-flowchart: diamond-shaped branch nodes with the condition written on
-them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
-肢 is resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Where a panel reuses a decision
-tree shared with other panels in this set, render the branch relevant to
-THIS panel with a thick highlighted border and full color, and render the
-other, unrelated branches in a faded, greyed-out, or dotted-outline style
-rather than omitting them — the reader should be able to see at a glance
-which part of the shared tree this panel is about. Likewise, where a
-diagram must show an entity that conceptually never held the right or
-status in question (e.g. someone who was never an heir, or a claim that
-never existed), render that entity or claim in a faded or dotted-outline
-style rather than a plain ○/✕ mark, so the visual itself communicates
-"this was never really there," not just "this is wrong." Unlike a
+In this problem every 肢 is resolved by a single check — whether the
+combination of registrations is on the list in 不動産登記規則35条 — so
+all five panels are labeled illustrative diagrams, not flowcharts: do
+not force a flowchart, and do not draw any diamond-shaped decision node,
+Yes/No branch arrows, or dangling arrow anywhere in this image. Panel 5
+(肢オ) contains two distractor facts that do NOT change the conclusion
+(the two buildings are in the same registry office's district, and the
+registered owner is the same person); draw each distractor as a faded,
+dotted-outline tag marked as irrelevant, with no ○/✕ mark, so the reader
+sees it is not a condition being checked. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」callout
 box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
 〜を確認し、次に〜を確認します"), not just the conclusion. Do not include
@@ -352,7 +349,7 @@ characters):
 --- PANEL 4（肢エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
-地目変更と地積更正はどちらも更正等
+地目変更と地積更正はどちらも変更・更正の登記
 Diagram: A land plot changing its category tag from 畑 to 宅地（地目の変
 更）, drawn side by side with the same land plot's area number being
 corrected（地積の更正）, with no 前提 arrow between them since neither
@@ -366,39 +363,42 @@ combined into a single envelope with a green checkmark.
 め一の申請情報で申請できると判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-どちらも更正等で一括可
+どちらも変更・更正で一括可
 
 --- PANEL 5（肢オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 管轄も名義人も同じでも一括はできない
-Diagram: An actual decision flowchart. First diamond node (drawn small,
-faded, greyed-out style): 甲建物と乙建物は同一の登記所の管轄区域内にあ
-るか？with a はい branch also faded, labeled 結論には関係しない. Second
-diamond node (also faded, greyed-out): 甲建物の滅失の登記の名義人と乙建
-物の表題登記の名義人は同一か？with a はい branch also faded, labeled
-結論には関係しない. Third diamond node (drawn with a thick highlighted
-border, full color, since this is the real determining check): 甲建物
-の滅失の登記と乙建物の表題登記という組み合わせは、不動産登記規則35条の
-列挙する類型に当たるか？with the いいえ branch highlighted leading to a
-highlighted conclusion node reading 一の申請情報では申請できない.
+Diagram: A single-check labeled diagram (NOT a flowchart — draw no
+diamond-shaped node, no Yes/No branch arrows, and no dangling arrow). Two
+separate, unconnected building icons labeled 甲建物 and 乙建物, with a
+stamp labeled 滅失の登記 at 甲建物 and a stamp labeled 表題登記 at 乙建物.
+Above them, two faded, dotted-outline tags with no ○/✕ mark, each with a
+small label 結論に影響しない: one reading 同一の登記所の管轄区域内 and one
+reading 登記名義人が同一. Below them, a checklist stamp labeled 不動産登記
+規則35条の列挙 beside a numbered step marker ①: an envelope trying to
+combine the 滅失の登記 stamp and the 表題登記 stamp into one is stopped by
+a red ✕ placed on the envelope, because this combination is not on the
+list. The diagram ends in one conclusion node reading 一の申請情報では
+申請できない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、管轄区域が同じであることも、登記名義人が同一であることも、実は結
 論を左右しない点に注意します。次に、この2つの登記の組み合わせが不動産
 登記規則35条の列挙する類型のいずれかに当たるかを確認し、別々の建物につ
-いての滅失登記と表題登記の組み合わせはその列挙のいずれにも当たらないた
-め、一の申請情報では申請できないと判断します。
+いての滅失の登記と表題登記の組み合わせはその列挙のいずれにも当たらな
+いため、一の申請情報では申請できないと判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-管轄・名義人は無関係
+名義人同じでも不可
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記規則35条（一の申請情報による申請）に基づく整理です。
+不動産登記令4条、不動産登記規則35条（一の申請情報による申請）に基づく整
+理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 請・録・筆・拠・轄. If any character
+Chinese, paying special attention to 請・筆・併・積・轄. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō
@@ -407,15 +407,12 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢 is drawn as an
-actual flowchart with branch nodes (not a bare illustration with no
-visible decision structure), that no 肢 with a genuinely hidden second
-condition has been flattened into a single check, that each 着眼点 callout
-states a checking order rather than only a conclusion and keeps every
-required element from the source article distinct (no merged or dropped
-requirements), that any panel sharing a decision tree with another panel
-clearly distinguishes its own highlighted branch from the other, faded
-branches, confirm nothing is rendered below the last panel's footnote
+the header and the panels, that no panel contains a diamond-shaped
+decision node, Yes/No branch arrows, or a dangling arrow, that each
+着眼点 callout states a checking order rather than only a conclusion and
+keeps every required element from the source article distinct (no merged
+or dropped requirements), that the two faded distractor tags in Panel 5
+carry no ○ or ✕ mark, confirm nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
 grid of all 肢, and no additional text block of any kind), and confirm the
 entire canvas, edge to edge, is filled with a fully opaque background
