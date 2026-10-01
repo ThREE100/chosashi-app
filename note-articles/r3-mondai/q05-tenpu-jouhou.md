@@ -40,7 +40,7 @@
 
 合体の登記等を申請する場面で、合体前の建物のうち「所有権の登記はないが表題登記はある」建物については、その建物の所有権を証する情報を提供することを要しないとされています（平成5年の質疑応答）。本肢は、この乙建物について「新築時の検査済証を所有権を証する情報とすることができる」としていますが、そもそも所有権を証する情報の提供自体が不要な場面ですので、この記述は誤りです。
 
-**たとえば**、増築工事で甲建物（所有権の登記あり）と乙建物（表題登記はあるが所有権の登記なし）がくっついて1個の建物になったとき、乙建物はすでに表題部に所有者が記録されています。すでに登記所が所有者を把握している以上、乙建物について改めて「これが所有者だ」と証明する検査済証などを付ける必要はない、というわけです。
+**たとえば**、増築工事で甲建物（所有権の登記あり）と乙建物（表題登記はあるが所有権の登記なし）がくっついて1個の建物になったとき、乙建物はすでに表題部に所有者が記録されています。すでに登記所が所有者を把握している以上、乙建物について改めて「これが所有者だ」と証明する検査済証などを付ける必要はない、というわけです。なお、所有権の登記がある甲建物のほうは、所有権を証する情報ではなく、その登記名義人の登記識別情報を提供します（不動産登記令8条2号）。
 
 ### オ：登記事項証明書に代わり送信するのは「照会番号等」であって、不動産番号ではない
 
@@ -187,9 +187,9 @@ sentence):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 表題登記のみなら証明不要
-Illustration: 2つの建物アイコンを対比。「甲建物(所有権登記あり)」には所有権を
-証する情報の書類アイコンと緑のチェックマーク。「乙建物(表題登記のみ)」には
-同じ書類アイコンに大きな赤い×印が付く。
+Illustration: 2つの建物アイコンを対比。「甲建物(所有権登記あり)」の横には「登記識別情報」とラベル付けした
+書類アイコン(所有権を証する情報ではない)。「乙建物(表題登記のみ)」の横には
+「所有権を証する情報」とラベル付けした書類アイコンに大きな赤い×印が付く。
 Conclusion tag (5-15 Japanese characters, a keyword phrase — NOT a
 sentence):
 所有権証明 不要
@@ -286,11 +286,11 @@ Left panel (green background):
 Panel label (small, top of panel):
 甲建物
 Illustration: An isometric building icon labeled「甲建物」with a green
-badge reading「所有権の登記あり」above it. A document icon labeled「所有権
-を証する情報」sits beside the building with a green checkmark ✓ and an
-arrow pointing into the building icon.
+badge reading「所有権の登記あり」above it. A document icon labeled「登記識別情報」
+sits beside the building with a green checkmark ✓ and an arrow pointing
+into the building icon. Do NOT label this document「所有権を証する情報」.
 Panel short text (below illustration, one line):
-所有権の登記がある建物には必要になる場合がある
+所有権の登記がある建物は登記識別情報を提供
 
 Right panel (blue background):
 Panel label (small, top of panel):
@@ -560,9 +560,8 @@ characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 会社法人等番号があれば資格証明は不要
-Diagram: 上から下へ2段のひし形分岐ノードを配置した決定木。ノード1「代理人は
-法人か」→いいえ側:結論ノード「会社法人等番号による代替の話ではない」(グレー
-・縮小表示)／はい側:ノード2へ。ノード2「その法人の会社法人等番号を申請情報に
+Diagram: 上から下への決定木。最上段は四角い開始ボックス「代理人は土地家屋調査士
+法人」(ひし形にしない)。その下に1段のひし形分岐ノード「その法人の会社法人等番号を申請情報に
 提供したか」→いいえ側:結論ノード「代表者の資格を証する情報を別途提供する必要
 がある」(グレー・縮小表示)／はい側:結論ノード「代表者の資格を証する情報の提供
 に代えることができる」(緑・太い縁取りで強調)。決定木の脇に、土地家屋調査士
@@ -581,8 +580,8 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 表題登記のみの建物に検査済証は関係ない
 Diagram: 1段のひし形分岐ノードを配置した決定木。ノード「合体前の建物に所有権
-の登記があるか」→はい側(甲建物、青):結論ノード「所有権を証する情報の提供が
-必要な場面であり、要件を満たせば検査済証等を使える場合がある」／いいえ側(乙
+の登記があるか」→はい側(甲建物、青):結論ノード「所有権を証する情報ではなく、
+登記名義人の登記識別情報を提供する」／いいえ側(乙
 建物、緑・太い縁取りで強調、本肢の対象)：結論ノード「そもそも所有権を証する
 情報の提供自体が不要」。いいえ側の結論ノードの下に検査済証の書類アイコンを
 描き、乙建物アイコンへ向かう矢印は描かずに大きな赤い×印を重ね、「使う場面

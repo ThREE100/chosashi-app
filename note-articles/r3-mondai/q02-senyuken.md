@@ -344,10 +344,10 @@ Heading (bold, ONE line):
 Diagram: A decision-tree flowchart along an isometric timeline ribbon.
 Start node:「占有者が占有物の所持を失った」leading down to a diamond node:
 「占有回収の訴えを提起して勝訴したか？」An いいえ branch leads to a small
-grayed-out conclusion box reading「占有は原則消滅（この肢の射程外）」. A
+grayed-out conclusion box reading「占有権は消滅する」. A
 はい branch proceeds to a second diamond node:「現実にその占有物の占有を
-回復したか？」An いいえ branch leads to a grayed-out box reading「結論は
-保留」; a はい branch leads to a conclusion node with a trophy/gavel icon
+回復したか？」An いいえ branch leads to a grayed-out box reading「継続
+扱いにはならない」; a はい branch leads to a conclusion node with a trophy/gavel icon
 and a green checkmark reading「所持を失っていた間も占有の継続とみなす」,
 shown reconnecting a dashed, faded gap segment of the timeline back into a
 solid unbroken line.

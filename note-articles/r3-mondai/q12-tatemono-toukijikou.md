@@ -384,8 +384,7 @@ receiving a fresh tag "符号2"; draw an arrow that runs from the retired
 "①符号1を再使用できるか→できない　②次の番号を付す".
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず取り壊された附属建物に付されていた符号を確認し、次にその符号を新しい
-附属建物にそのまま使えるかを確認します。使うことはできないため、次に空い
-ていない番号を新たに付します。
+附属建物にそのまま使えるかを確認します。使うことはできないため、まだ使っていない次の番号を新たに付します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 再使用不可、新番号へ

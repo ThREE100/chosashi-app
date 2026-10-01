@@ -329,11 +329,10 @@ and a green checkmark ✓ beside it. A small torn-paper label reads
 Blue panel short text (below icon, one line):
 例外：地方裁判所でも可
 
-Small icon between the decision diamond and the right branch: a
-crossed-out red ✕ mark over a document icon labeled "共有物分割請求
-（民法256条1項）", positioned near the left/beige side, to visually
-show that using ordinary co-ownership division BEFORE the 10-year mark
-(or without satisfying the no-objection condition) is NOT allowed.
+Inside the green (left, いいえ／原則) panel only, below the 家庭裁判所
+icon: a small crossed-out document icon labeled "共有物分割請求" with a
+red ✕, to show that ordinary co-ownership division is NOT available on
+the 原則 side. Do not place any ✕ on or near the blue (例外) panel.
 
 --- CALLOUT: 誤りやすいポイント ---
 Callout box (rounded rectangle, soft yellow background, positioned
@@ -501,8 +500,7 @@ Heading (bold, ONE line):
 超える持分は登記の有無で決まる
 Diagram: A decision-tree flowchart on an isometric split house scene.
 Start node:「遺産分割等によって取得した持分は、自分の法定相続分を超えて
-いるか？」An いいえ branch leads to a grayed-out box reading「登記なくても
-対抗可（この肢の射程外）」. A はい branch proceeds to a second diamond
+いるか？」An いいえ branch leads to a grayed-out box reading「登記なくても対抗可」. A はい branch proceeds to a second diamond
 node:「その超える部分について、登記を備えているか？」A はい branch leads
 to a conclusion node with a green checkmark reading「対抗できる」; an
 いいえ branch leads to a conclusion node with a red「✕」reading「対抗

@@ -163,9 +163,9 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-相続財産管理人は許可不要
+相続財産清算人は許可不要
 Illustration: An isometric land plot being divided into two by a dotted
-line. A person labeled "相続財産管理人" holds an application document and
+line. A person labeled "相続財産清算人" holds an application document and
 submits it at a registry desk. Beside them, a small court-building icon
 has a document labeled "家庭裁判所の許可" with a red cross mark over it,
 showing it is not required.
@@ -392,9 +392,9 @@ characters):
 --- PANEL 4（肢エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
-相続財産管理人の分筆に家裁許可は不要
+相続財産清算人の分筆に家裁許可は不要
 Diagram: A self-contained decision flowchart (not shared with other
-panels). Diamond node labeled "相続財産管理人(現行:相続財産清算人)がし
+panels). Diamond node labeled "相続財産清算人がし
 ようとする行為は、民法103条の保存行為・財産の性質を変えない利用改良行
 為の範囲内か？". Yes branch, rendered with a thick highlighted border and
 full color (this is this panel's answer): → illustrative note "分筆の登
@@ -405,10 +405,10 @@ branch): → illustrative note "例:土地の売却など処分行為" → its o
 conclusion node reading "家庭裁判所の許可が必要". Draw a family-court
 building icon near the "許可が必要" conclusion node and a registry desk
 icon near the "許可は不要" conclusion node, with a person labeled "相続
-財産管理人" submitting an application document there. Do not draw any
+財産清算人" submitting an application document there. Do not draw any
 looping arrow back into the diamond node from either conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、相続財産管理人がしようとしている行為が保存行為や財産の性質を変え
+まず、相続財産清算人がしようとしている行為が保存行為や財産の性質を変え
 ない利用・改良行為(民法103条)の範囲内か、それを超える処分行為かを確認
 します。次に、分筆の登記は財産の現状を大きく変える処分行為ではなく管理
 行為的なものに当たるため、家庭裁判所の許可は不要という結論になることを
@@ -458,7 +458,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法39条1項・40条／不動産登記規則104条2項／不動産登記令7条1項
-5号ハ／民法953条・28条・103条(相続財産管理人/現行:相続財産清算人)／民
+5号ハ／民法953条・28条・103条／民
 法251条1項・252条1項(令和5年4月1日施行、持分過半数による管理行為の決定)
 
 Final check before rendering: scan every kanji glyph and confirm it is
