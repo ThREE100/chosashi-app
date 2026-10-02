@@ -221,9 +221,9 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
 ng += bool(bad_speaker)
 print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-ok = n_marker == 10
+ok = n_marker == 12
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図7＋添削1＋第1欄の完成形1＋第2欄の完成形1＝計10か所の想定）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図9＋添削1＋第1欄の完成形1＋第2欄の完成形1＝計12か所の想定）')
 ok = lines[-1] == '---'
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
@@ -280,20 +280,22 @@ check('所在', '所在は『A市B町三丁目5番地2』の1筆です')
 check('解く順番', '床面積がいらない欄 → 求積と作図 → 問2の②')
 check('寸法の累計メモ', '東へ6.50、8.00、南へ1.00、11.00と足した累計でメモ')
 
-# ---- 画像（2026-09-29生成）：記事の画像挿入マーカー10か所と zu/ のPNGの対応 ----
+# ---- 画像（2026-09-29生成、2026-10-02更新）：記事の画像挿入マーカー12か所と zu/ のPNGの対応 ----
 from PIL import Image
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
 PNGS = [('R3_dai22mon_zu01_kubun_zentaizou', '縦割りで区分される様子'),
         ('R3_dai22mon_zu02_shikichi_henchou', '辺長確認図'),
-        ('R3_dai22mon_zu03_tatemono_zumen', '建物図面（イ）の完成形'),
+        ('R3_dai22mon_zu03_tatemono_zumen', '建物図面（イ）の完成形。答案用紙の第3欄の建物図面の枠（家屋番号「B町三丁目5番2の1」'),
         ('R3_dai22mon_zu04_ayamari_hikaku', '誤り比較図'),
         ('R3_dai22mon_zu05_1kai_kyuuseki', '（イ）部分1階の床面積求積図'),
         ('R3_dai22mon_zu06_2kai_kyuuseki', '（イ）部分2階の床面積求積図'),
+        ('R3_dai22mon_zu07_kakukai_heimenzu', '第3欄の各階平面図の枠（作成者、縮尺1/250）の中に描いた（イ）部分の各階平面図の完成形'),
         ('R3_dai22mon_toukishinseisho_machigai', '①誤答'),
         ('R3_dai22mon_toukishinseisho_kansei', '登記申請書（問1）の完成形'),
-        ('R3_dai22mon_zu07_toi2_kyuuseki', '問2の求積図'),
-        ('R3_dai22mon_dai2ran_kansei', '第2欄（問2）の完成形')]
+        ('R3_dai22mon_zu08_toi2_kyuuseki', '問2の求積図'),
+        ('R3_dai22mon_dai2ran_kansei', '第2欄（問2）の完成形'),
+        ('R3_dai22mon_zu09_toku_junban', '本番で解く順番の図')]
 ok = len(markers) == len(PNGS)
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}')
@@ -310,6 +312,15 @@ for (name, key), m in zip(PNGS, markers):
             ok = w >= 1600 and h >= 800
     ng += (not ok)
     print(('OK ' if ok else 'NG ') + f'PNG（マーカー順） : {name}')
+    src = fig if '_zu' in name else form if ('kansei' in name) else None
+    if src is not None:
+        ok = f'zu/{name}.png' in src
+        ng += (not ok)
+        print(('OK ' if ok else 'NG ') + f'プロンプトにファイル名 : zu/{name}.png')
+extra = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - {n for n, _ in PNGS})
+ok = not extra
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'zu/ に記事で使わないPNGがない : {extra}')
 
 
 def html_has(name, *needles, bad=()):
@@ -347,8 +358,25 @@ ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'作図の fit はすべて pad_aspect=True（{len(fits)}か所）')
 for s in ['== 173.00', '== 86.50', '== 82.74', '== 84.24', '== 71.50', '== 9.70', '== 93.94', '== 366.1428']:
     check('作図スクリプトの面積の assert', s, drw, '作図')
-for s in ['zu/R3_dai22mon_zu01_kubun_zentaizou.png', 'zu/R3_dai22mon_zu07_toi2_kyuuseki.png']:
+for s in ['zu/R3_dai22mon_zu01_kubun_zentaizou.png', 'zu/R3_dai22mon_zu08_toi2_kyuuseki.png']:
     check('生成済みのファイル名', s, fig, '解説図')
 check('生成済みのファイル名', 'zu/R3_dai22mon_dai2ran_kansei.png', form, '申請書')
+
+
+# ---- 2026-10-02 最新の執筆プロンプトに合わせた追加分：図面の完成形は答案用紙の第3欄の枠の中、各階平面図の完成形、解く順番の図 ----
+check('各階平面図の求積方法', '床面積とその求積方法も記録する決まり（不動産登記規則第83条第1項）')
+check('各階平面図の符号', '図に付けた符号の『（イ）』も入れるの（同規則第84条）')
+check('時間配分', 'いちばん時間を食うのは、（イ）部分の内法の求積と第3欄の作図')
+check('先に書ける欄（第1欄）', '- 第1欄：登記の目的、添付書類、登録免許税、申請人、一棟の建物の表示、敷地権の目的である土地の表示、区分前の行、区分後の行の家屋番号・種類・構造・原因、敷地権の表示')
+check('先に書ける欄（第2欄）', '- 第2欄：①の登記の目的と、③の添付書類')
+check('残る欄', '残るのは、第1欄の床面積と第3欄、それに問2の②だけなんですね')
+for s_ in ["'B町三丁目5番2の1'", "'A市B町三丁目5番地2'", "'（略）'", "'1/500'", "'1/250'", "'R3_dai22mon_zu07_kakukai_heimenzu'",
+           "'R3_dai22mon_zu09_toku_junban.png'", '床面積　82.74㎡', '床面積　84.24㎡',
+           'round(area_es(I1), 4) == 82.74 and round(area_es(I2), 4) == 84.24']:
+    check('作図スクリプト（図3・図7の枠と記入、図9）', s_, drw, '作図')
+check('枠の形は仮', '欄の形の出典：**仮のもの**', fig, '解説図')
+check('図7の点線', '(6.4, 0.1)→(6.4, 1.1)→(7.9, 1.1)', fig, '解説図')
+check('図7の求積表', '1階／6.30×1.00＝6.3000／7.80×9.80＝76.4400／計　82.7400／床面積　82.74㎡', fig, '解説図')
+check('図9の順番', '⑦問2の②と見直し（71.50・9.70→33088分の7150・9394）', fig, '解説図')
 
 print('NG件数:', ng)

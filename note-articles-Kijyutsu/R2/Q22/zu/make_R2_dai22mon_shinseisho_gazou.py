@@ -2,6 +2,7 @@
 HTML＋ヘッドレスブラウザでPNGに書き出す。
 
 - 完成形（第1欄・第3欄）：`../prompt_R2_dai22mon_toukishinseisho_gazou.md` の記入データどおり。縦長（横1200px）。
+  第1欄は建物の表示の表の下に、住所変更の登記の義務化（不動産登記法第76条の5。出題当時はなかった）の注を入れる。
   欄の形は試験の答案用紙に合わせる：登記の目的・添付書類・申請人は記入枠、その下に代理人の「（略）」と
   「令和2年10月16日　申請　Ａ地方法務局」が印刷。建物の表示は所在の行、家屋番号の行（第1欄は記入、第3欄は「（記載不要）」が印刷）、
   見出し行「主である建物又は附属建物・①種類・②構造・③床面積（m²）・原因及びその日付」、記入行（第1欄は2行、第3欄は大きな1行）。
@@ -62,6 +63,8 @@ table.ran2 td .ink {{ font-size: 23px; }}
 .circ {{ display: inline-block; border: 2.5px solid {INK}; border-radius: 50%; width: 38px; height: 38px; line-height: 33px;
          text-align: center; }}
 .plain {{ display: inline-block; width: 38px; text-align: center; }}
+.tnote {{ font-size: 17px; color: #444; margin-top: 12px; line-height: 1.6;
+          font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 30px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 添削画像 */
@@ -141,6 +144,9 @@ def front(mokuteki, tenpu_lines, shinseinin_lines):
 
 
 SHINSEININ = ['Ａ市Ｂ区Ｔ町三丁目42番地２', '五輪松子']
+NOTE1 = ('※今の法令では、所有権の登記名義人の住所が変わったら、2年以内に住所変更の登記を申請する義務がある（不動産登記法'
+         '第76条の5。令和3年の改正で新設され、出題当時はなかった）。滅失登記で閉鎖される本件旧建物の登記記録の住所を先に直す'
+         '必要はなく、この申請書の記入は今の法令でも同じ（変更証明書を付けて今の住所で申請する）')
 
 # ---- 第1欄（問1）：本件旧建物の建物滅失登記 ----
 rows1 = (entry_row('主', ink(br('居宅', '・', '店舗')), ink(br('木造スレート葺', '２階建')), [('1階', '84', '05'), ('2階', '26', '49')],
@@ -148,6 +154,7 @@ rows1 = (entry_row('主', ink(br('居宅', '・', '店舗')), ink(br('木造ス�
          + entry_row('符号１', ink('車庫'), ink(br('鉄骨造合金メッキ', '鋼板葺平家建')), [('', '50', '45')], ''))
 toi1 = page(front('建物滅失登記', ['変更証明書　代理権限証書'], SHINSEININ)
             + table('Ａ市Ｂ区Ｔ町三丁目39番地３', ink('39番３の４'), rows1, 2)
+            + f'<div class="tnote">{NOTE1}</div>'
             + '<div class="caption">令和2年度 土地家屋調査士試験 第22問 問1（第1欄） 登記申請書 解答例</div>')
 
 # ---- 第3欄（問3）：本件新建物の建物表題登記 ----
