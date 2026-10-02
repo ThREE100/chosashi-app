@@ -3,13 +3,15 @@
 - 完成形：`../prompt_R5_dai21mon_toukishinseisho_gazou.md` どおり（問4・令和5年10月16日の土地地目変更・分合筆登記）。縦長（横1200px）
 - 添削　：`../prompt_R5_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 第1欄（問1のア〜エ）・第5欄（問5の①〜④）：申請書でない解答欄も、記号ごとの記入欄の形で別の画像にする（横1200pxの横長。
-  2026-10-02追加）。試験の答案用紙そのものはリポジトリにないので、同じ時期の令和6年度・令和7年度の第21問の答案用紙
-  （`public/kijutsu/R06-tochi/a1.webp`・`R07-tochi/a1.png`）の穴埋めの欄（記号と記入欄を1行に2組ずつ並べた表）にならった仮の形にしている
+  2026-10-02追加）。欄の形は令和5年度の試験の答案用紙（`../touan_youshi/R5_dai21mon_touan_youshi.pdf`）で確かめた
+  （記号と記入欄を1行に2組ずつ並べた2行の表。記号の列は約1割、記入欄は約4割ずつ）
 
 R6/Q21の `make_R6_dai21mon_shinseisho_gazou.py` の様式（CSS・土地の表示の表）を使い、地番の列を広げた（「（イ）１番４」が折り返さないように）。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP。なければIPA明朝・IPAゴシック）
 実行: python3 note-articles-Kijyutsu/R5/Q21/zu/make_R5_dai21mon_shinseisho_gazou.py [出力フォルダ]
 - 座標の欄（R5・R6は第2欄、R7は第1欄・第4欄）も、答案用紙の座標値の表の形で別の画像にする（横1200pxの横長。2026-10-02追加）
+- 欄の名前・順序・印刷文字（申請の日付と提出先の行、代理人の「（略）」、登録免許税の欄、土地の表示の見出し「②地　　目」「③地　　積　m²」、
+  地積の列の点線、記入行5行）は、令和5年度の試験の答案用紙（`../touan_youshi/`、2026-10-02受領）で確かめた
 """
 import glob
 import os
@@ -81,11 +83,11 @@ CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><ci
 
 def land_table(rows, n_rows=5, shozai='Ａ市Ｂ町二丁目', compact=False):
     """土地の表示の表。rows: [(地番, 地目, 整数部, 小数部, 登記原因)]。各値は HTML（記入部分は呼び出し側で .ink を付ける）"""
-    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:6%"><col style="width:20%"><col style="width:12%">'
-         '<col style="width:13%"><col style="width:7%"><col style="width:42%"></colgroup>',
+    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:6%"><col style="width:20%"><col style="width:13%">'
+         '<col style="width:13%"><col style="width:7%"><col style="width:41%"></colgroup>',
          f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4">{shozai}</td></tr>',
          f'<tr><td class="vert" rowspan="{n_rows + 1}">土地の表示</td><td class="head">①地　　番</td>'
-         '<td class="head">②地　目</td><td class="head" colspan="2">③地　積　（m²）</td>'
+         '<td class="head">②地　　目</td><td class="head" colspan="2">③地　　積　m²</td>'
          '<td class="head">登記原因及びその日付</td></tr>']
     for i in range(n_rows):
         c, m, a, b, g = rows[i] if i < len(rows) else ('', '', '', '', '')
@@ -172,15 +174,15 @@ table.ran td.v .ink { font-size: 28px; }
 
 
 def ran_image(head, pairs, caption):
-    """記号と記入欄を1行に2組ずつ並べた穴埋めの欄（令和6年度・令和7年度の答案用紙の形）"""
+    """記号と記入欄を1行に2組ずつ並べた穴埋めの欄（令和5年度の試験の答案用紙の第1欄・第5欄の形）"""
     trs = ''
     for i in range(0, len(pairs), 2):
         cells = ''.join(f'<td class="k">{k}</td><td class="v">{ink(v)}</td>' for k, v in pairs[i:i + 2])
         trs += f'<tr>{cells}</tr>'
     return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{RAN_CSS}</style></head><body>'
             f'<div class="ranpage"><div class="ranhead">{head}</div>'
-            f'<table class="ran"><colgroup><col style="width:9%"><col style="width:41%"><col style="width:9%">'
-            f'<col style="width:41%"></colgroup>{trs}</table>'
+            f'<table class="ran"><colgroup><col style="width:10%"><col style="width:40%"><col style="width:10%">'
+            f'<col style="width:40%"></colgroup>{trs}</table>'
             f'<div class="caption">{caption}</div></div></body></html>')
 
 
@@ -190,7 +192,7 @@ dai1 = ran_image('第1欄', DAI1, '令和5年度 土地家屋調査士試験 第
 dai5 = ran_image('第5欄', DAI5, '令和5年度 土地家屋調査士試験 第21問 第5欄（問5）解答例')
 
 
-# ---- 座標の欄（申請書でない解答欄。2026-10-02追加。答案用紙の座標値の表の形：左上の斜線の欄・X座標（m）・Y座標（m）） ----
+# ---- 座標の欄（申請書でない解答欄。2026-10-02追加。令和5年度の試験の答案用紙の第2欄の形：左上の斜線の欄・X座標（m）・Y座標（m）、3列等幅） ----
 Z_CSS = '''
 .ranpage { padding: 50px 60px 34px; }
 .ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 14px; }
@@ -205,8 +207,8 @@ def zahyou(head, rows, caption):
     """rows: [(点名, X, Y)]"""
     trs = ''.join(f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in rows)
     return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{Z_CSS}</style></head><body>'
-            f'<div class="ranpage"><div class="ranhead">{head}</div><table class="zh"><colgroup><col style="width:32%">'
-            f'<col style="width:34%"><col style="width:34%"></colgroup>'
+            f'<div class="ranpage"><div class="ranhead">{head}</div><table class="zh"><colgroup><col style="width:33.3%">'
+            f'<col style="width:33.35%"><col style="width:33.35%"></colgroup>'
             f'<tr><td class="diag"></td><td>Ｘ座標（m）</td><td>Ｙ座標（m）</td></tr>{trs}</table>'
             f'<div class="caption">{caption}</div></div></body></html>')
 

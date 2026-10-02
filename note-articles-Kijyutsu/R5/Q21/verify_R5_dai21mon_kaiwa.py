@@ -1,5 +1,6 @@
 """令和5年度 第21問（土地）会話形式note記事：記事・付属プロンプトの数値・体裁の照合スクリプト。
 アガルートの解答例（第1欄・第2欄・第3欄の地積測量図・第4欄の登記申請書・第5欄）の値と一致することも確認する。
+試験の答案用紙（touan_youshi/、2026-10-02受領）の印刷文字・欄の形とも照らす。
 実行: python3 note-articles-Kijyutsu/R5/Q21/verify_R5_dai21mon_kaiwa.py"""
 import math
 import os
@@ -189,7 +190,7 @@ M = C - 1j
 check('別解の点', f'C − 1i ＝（{M.real:.2f}, {M.imag:.2f}）')
 judge('別解の交点がBと同じ', r2(A + (C - A) * (M.imag - A.imag) / (C.imag - A.imag)) == B)
 # 作図の範囲（1/250で何mmか）
-check('作図の範囲', '93mm × 51mm')
+check('作図の範囲', '縦93mm × 横51mm')
 judge('作図の範囲 93mm × 51mm', round((703.30 - 680.04) * 4) == 93 and round((703.62 - 690.97) * 4) == 51)
 check('単位の表示', '辺長の単位の表示（単位：m）')
 # 時間配分（具体的に）
@@ -301,8 +302,48 @@ for name, needles in [('R5_dai21mon_dai2ran_kansei', ['第2欄', 'Ｘ座標（m�
     h = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()
     for n in needles:
         check(f'{name}.html', n, h, '欄の完成形HTML')
-for s_ in ['ア「一筆」、イ「測量」／ウ「Ｆ点」、エ「Ｊ点」', '①「表題部所有者」、②「所有権」／③「異議」、④「職権」', '仮の形']:
+for s_ in ['ア「一筆」、イ「測量」／ウ「Ｆ点」、エ「Ｊ点」', '①「表題部所有者」、②「所有権」／③「異議」、④「職権」']:
     check('欄の完成形プロンプト', s_, form, '登記申請書')
+
+# ---- 試験の答案用紙（touan_youshi/、2026-10-02受領）の欄の形と照らす ----
+import pymupdf  # noqa: E402
+TY = os.path.join(HERE, 'touan_youshi', 'R5_dai21mon_touan_youshi.pdf')
+_doc = pymupdf.open(TY)
+sheet1, sheet2 = (re.sub(r'\s', '', pg.get_text()) for pg in _doc)
+# 1ページ目：第1欄・第2欄・第4欄（登記申請書と土地の表示）・第5欄。2ページ目：第3欄（地積測量図）
+for s_ in ['第1欄', '第2欄', '第4欄', '第5欄', 'ア', 'イ', 'ウ', 'エ', 'Ｂ点', 'Ｈ点', 'Ｘ座標（m）', 'Ｙ座標（m）',
+           '登記申請書', '登記の目的', '添付書類', '令和5年10月16日申請Ａ地方法務局', '申請人', '代理人（略）', '登録免許税',
+           '所在', '土地の表示', '①地番', '②地目', '③地積m', '登記原因及びその日付', '①', '②', '③', '④']:
+    judge(f'[答案用紙1ページ目] 印刷文字「{s_}」', s_ in sheet1)
+judge('[答案用紙1ページ目] 「添付情報」ではなく「添付書類」', '添付情報' not in sheet1)
+judge('[答案用紙1ページ目] 「（略）」は代理人の1か所だけ（地積の欄に「（略）」はない）', sheet1.count('（略）') == 1)
+for s_ in ['第3欄', '地積測量図', '地番', '土地の所在', '作成者', '申請人', '縮尺', '250', '（令和5年○月○日作成）']:
+    judge(f'[答案用紙2ページ目] 印刷文字「{s_}」', s_ in sheet2)
+judge('[答案用紙2ページ目] 「（略）」は作成者・申請人の2か所', sheet2.count('（略）') == 2)
+judge('[答案用紙2ページ目] 方位記号の印刷はない（「北」「N」の文字なし）', '北' not in sheet2 and 'N' not in sheet2)
+# 答案用紙どおりの欄の形が画像（HTML）と記事・プロンプトにあるか
+for s_ in ['>②地　　目<', '>③地　　積　m²<', '>所　在<', '>土地の表示<', '>登記原因及びその日付<', '>添　付　書　類<',
+           '>代　　理　　人<', '>（略）<', '>登録免許税<']:
+    check('答案用紙どおりの印刷文字', s_, kh, '完成形HTML')
+for s_ in ['>②地　　目<', '>③地　　積　m²<', '>添　付　書　類<']:
+    check('答案用紙どおりの印刷文字', s_, mh, '添削HTML')
+absent('旧の見出し（かっこ付きの単位）', '（m²）', kh, '完成形HTML')
+d1h = open(os.path.join(ZU, 'R5_dai21mon_dai1ran_kansei.html'), encoding='utf-8').read()
+d2h = open(os.path.join(ZU, 'R5_dai21mon_dai2ran_kansei.html'), encoding='utf-8').read()
+judge('第1欄：2行×（記号・記入欄）2組の表', d1h.count('<tr>') == 2 and d1h.count('class="k"') == 4)
+judge('第2欄：見出し行（斜線の欄）＋Ｂ点・Ｈ点の2行、3列', d2h.count('<tr>') == 3 and 'class="diag"' in d2h)
+for s_ in ['作成者・申請人（どちらも「（略）」と印刷）、縮尺（1／250）。方位記号は印刷されていないので、自分で描く',
+           '答案用紙の第3欄の枠は横約30cm・縦約23cm']:
+    check('記事の第3欄の印刷の説明', s_)
+check('図6の説明文（第3欄の印刷）', '作成者・申請人が「（略）」、縮尺1/250が印刷済み', fig, '解説図')
+check('図6の説明文（第3欄の印刷）', '作成者・申請人が「（略）」、縮尺1/250が印刷済み', draw, '作図')
+for s_ in ['touan_youshi/R5_dai21mon_touan_youshi.pdf', '「②地　　目」「③地　　積　m²」']:
+    check('申請書プロンプトの出典', s_, form, '登記申請書')
+# 「仮」の形・答案用紙がリポジトリにない旨の記述が残っていない
+mk = open(os.path.join(ZU, 'make_R5_dai21mon_shinseisho_gazou.py'), encoding='utf-8').read()
+for nm, src in [('登記申請書', form), ('添削', fix), ('解説図', fig), ('記事', text), ('作図', draw), ('画像の生成スクリプト', mk)]:
+    for bad in ['仮の形', '仮の', 'リポジトリにない', 'リポジトリになく', 'ならった仮']:
+        absent('仮の欄の形の記述', bad, src, nm)
 
 # ---- 図9（B点の別解）・図10（解く順番）の文言（2026-10-02追加）----
 for s_ in ['C − 1i ＝（702.79, 702.62）', '本番で解く順番（問3の作図は最後に回す）', '地積測量図がなくても書ける']:
