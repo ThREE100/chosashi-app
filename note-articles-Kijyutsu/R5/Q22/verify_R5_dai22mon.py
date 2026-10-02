@@ -161,25 +161,53 @@ for i, line in enumerate(lines):
             print('NG 同じ話者の連続 :', i + 1)
         prev = line
 
-# ---- 画像（2026-09-29生成）：記事の画像挿入マーカー8か所に対応するPNGがそろっているか ----
+# ---- 画像（2026-10-02更新）：記事の画像挿入マーカー12か所と zu/ のPNGが、記事の順に対応しているか ----
 from PIL import Image
 ZU = os.path.join(os.path.dirname(__file__), 'zu')
+fig_src = open(os.path.join(os.path.dirname(__file__), 'prompt_R5_dai22mon_kaisetsuzu.md'), encoding='utf-8').read()
+form_src = open(os.path.join(os.path.dirname(__file__), 'prompt_R5_dai22mon_toukishinseisho_gazou.md'), encoding='utf-8').read()
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
-ok = len(markers) == 8
+PNGS = [('R5_dai22mon_dai1ran_kansei', '第1欄（問1）の完成形', 'wide'),
+        ('R5_dai22mon_zu01_toku_junban', '本番で解く順番', (1600, 800)),
+        ('R5_dai22mon_zu02_shikichi_henchou', '作図チェック用に計算した4辺の長さ', (1600, 1100)),
+        ('R5_dai22mon_zu03_tatemono_zumen', '建物図面の完成形（答案用紙の第3欄の建物図面の枠の中）', (1600, 1400)),
+        ('R5_dai22mon_zu04_ayamari_hikaku', '左に「誤り＝全体7.30×11.80から2.70×4.50を引く', (1600, 950)),
+        ('R5_dai22mon_zu05_1kai_kyuuseki', '1階の床面積求積図', (1600, 1100)),
+        ('R5_dai22mon_zu06_2kai_kyuuseki', '2階の床面積求積図', (1600, 1100)),
+        ('R5_dai22mon_zu07_kakukai_heimenzu', '各階平面図の完成形（答案用紙の第3欄の各階平面図の枠の中）', (1800, 1100)),
+        ('R5_dai22mon_zu08_2kai_kouji_zengo', '工事前と工事完了後で左右に並べた比較図', (1600, 950)),
+        ('R5_dai22mon_toukishinseisho_machigai', '①誤答', 'tall'),
+        ('R5_dai22mon_toukishinseisho_kansei', '第2欄（問2）の登記申請書の完成形', 'tall'),
+        ('R5_dai22mon_dai4ran_kansei', '第4欄（問4）の完成形', 'wide')]
+ok = len(markers) == len(PNGS)
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数 : {len(markers)}（解説図6・添削1・申請書の完成形1）')
-PNGS = ['R5_dai22mon_zu01_shikichi_henchou', 'R5_dai22mon_zu02_tatemono_zumen', 'R5_dai22mon_zu03_ayamari_hikaku',
-        'R5_dai22mon_zu04_1kai_kyuuseki', 'R5_dai22mon_zu05_2kai_kyuuseki', 'R5_dai22mon_zu06_2kai_kouji_zengo',
-        'R5_dai22mon_toukishinseisho_machigai', 'R5_dai22mon_toukishinseisho_kansei']
-for name in PNGS:
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}')
+for (name, key, size), m in zip(PNGS, markers):
     path = os.path.join(ZU, name + '.png')
-    ok = os.path.exists(path)
-    if ok and 'toukishinseisho' in name:
+    ok = os.path.exists(path) and key in m
+    if ok:
         w, h = Image.open(path).size
-        ok = w == 1200 and h > w    # 申請書・添削は横1200pxの縦長
+        ok = (w == 1200 and h > w) if size == 'tall' else (w == 1200 and h < w) if size == 'wide' else (w, h) == size
     ng += (not ok)
-    print(('OK ' if ok else 'NG ') + 'PNG : ' + name)
+    print(('OK ' if ok else 'NG ') + f'PNG（マーカー順・大きさ） : {name}')
+    src = fig_src if '_zu' in name else (form_src if 'kansei' in name else None)
+    if src is not None:
+        ok = f'zu/{name}.png' in src
+        ng += (not ok)
+        print(('OK ' if ok else 'NG ') + f'プロンプトにファイル名 : zu/{name}.png')
+extra = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - {n for n, _, _ in PNGS})
+ok = not extra
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'zu/ に記事で使わないPNGがない : {extra}')
 
+# ---- 問1（第1欄）・問4（第4欄）の答えを会話で明示しているか（2026-10-02追加）----
+check('問1 ア〜オ', 'アは『合併』、イは『構造上の独立性』、ウは『合体』、エは『権利』、オは『接続』です！')
+check('問1 エの条文', '不動産登記法第56条第5号')
+check('問1 オの条文', '不動産登記事務取扱手続準則第86条第2号')
+check('問4 ①〜⑤', '穴埋めは①規約証明書、②敷地権、③敷地利用権、④分離、⑤処分')
+check('第3欄の上の欄', '家屋番号は空欄、建物の所在は『A市B町一丁目3番地9』ですね')
+check('各階平面図の完成形', '屋根裏部屋は床面積に入らないから、3階として描いたりしません')
+check('解く順番', '床面積を出さないと申請書の床面積の欄が埋まらないから、図面が先なんですね')
 
 def html_has(name, *needles):
     global ng
@@ -195,6 +223,8 @@ html_has('R5_dai22mon_toukishinseisho_kansei', '区分建物表題部変更・�
          '軽量鉄骨造陸屋<br>根２階建', '73</span>', '>99<', '②③令和5年10月6日構造変更、増築、3番9の2を合併',
          '3番9の1に合併', '所在　　（省略）', '記載不要', '1階部分', '>74<', '>72<', '>4<', '>61<', '>70<', '>21<',
          '2階　88', '>57<', '居宅')
+html_has('R5_dai22mon_dai1ran_kansei', '第1欄', '>合併<', '>構造上の独立性<', '>合体<', '>権利<', '>接続<')
+html_has('R5_dai22mon_dai4ran_kansei', '第4欄', '>規約証明書<', '>敷地権<', '>敷地利用権<', '>分離<', '>処分<')
 html_has('R5_dai22mon_toukishinseisho_machigai', '令和5年10月6日増築、3番9の2を合併', '∨②③', '∨構造変更、',
          '②③令和5年10月6日構造変更、増築、3番9の2を合併')
 h = open(os.path.join(ZU, 'R5_dai22mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
@@ -211,7 +241,7 @@ for n in ['令和5年度問題22（建物）', '〜' + sub + '〜', '土地家�
     print(('OK ' if ok else 'NG ') + '見出し画像の文字 : ' + n)
 
 # ---- 解説図プロンプトの頂点座標とファイル名 ----
-for n in ['R5_dai22mon_zu01_shikichi_henchou', 'R5_dai22mon_zu06_2kai_kouji_zengo', '1階の位置を点線で重ねる',
+for n in ['R5_dai22mon_zu02_shikichi_henchou', 'R5_dai22mon_zu08_2kai_kouji_zengo', '1階の位置を点線で重ねる',
           'X＝54.05の高さで辺CDはY＝88＋（54.05−52）×1.5÷16＝88.1921…']:
     ok = n in fig
     ng += (not ok)

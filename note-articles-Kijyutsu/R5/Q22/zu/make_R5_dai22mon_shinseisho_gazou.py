@@ -6,6 +6,8 @@
   敷地権の目的である土地の表示、区分した建物の表示（3行。2行目の家屋番号の位置に印刷の点線枠「所在（省略）」と「（省略）」）、
   敷地権の表示の順。答案用紙は試験の答案用紙を収録したアガルートの過去問集の「第22問 答案用紙（その1）（その2）」で確認した
 - 添削　：`../prompt_R5_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第1欄（問1のア〜オ）・第4欄（問4の①〜⑤）：申請書でない解答欄も、記号ごとの記入欄の形で別の画像にする（横1200px）。
+  試験の答案用紙そのものはリポジトリにないので、欄の見出しと記号・記入欄だけの簡素な形にしている
 
 CSSと部品の作りは `R7/Q22/zu/make_R7_dai22mon_shinseisho_gazou.py` と同じ形にしている。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP、なければIPA明朝・IPAゴシック）
@@ -219,12 +221,30 @@ machigai = page(f'''
 <div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">令和5年度 第22問｜登記原因のよくある書き忘れ（構造変更と欄番号）</div>''')
 
+# ---- 第1欄（問1）・第4欄（問4）の完成形：記号ごとの記入欄 ----
+DAI1 = [('ア', '合併'), ('イ', '構造上の独立性'), ('ウ', '合体'), ('エ', '権利'), ('オ', '接続')]
+DAI4 = [('①', '規約証明書'), ('②', '敷地権'), ('③', '敷地利用権'), ('④', '分離'), ('⑤', '処分')]
+
+
+def anaume(title, rows, caption):
+    trs = ''.join(f'<tr><td class="lab2" style="height:70px;font-size:24px">{k}</td>'
+                  f'<td style="padding-left:24px">{ink(v)}</td></tr>' for k, v in rows)
+    return page(f'''<div class="page">
+<div style="font-size:26px;font-weight:bold;font-family:'Noto Sans CJK JP',sans-serif;margin-bottom:6px">{title}</div>
+<table class="t"><colgroup><col style="width:16%"><col style="width:84%"></colgroup>{trs}</table>
+<div class="caption">{caption}</div></div>''')
+
+
+dai1 = anaume('第1欄', DAI1, '令和5年度 土地家屋調査士試験 第22問 第1欄（問1）解答例')
+dai4 = anaume('第4欄', DAI4, '令和5年度 土地家屋調査士試験 第22問 第4欄（問4）解答例')
+
 if __name__ == '__main__':
     exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-        pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-        for name, html in [('R5_dai22mon_toukishinseisho_kansei', kansei),
+        pg = browser.new_page(viewport={'width': 1200, 'height': 200})
+        for name, html in [('R5_dai22mon_dai1ran_kansei', dai1), ('R5_dai22mon_dai4ran_kansei', dai4),
+                           ('R5_dai22mon_toukishinseisho_kansei', kansei),
                            ('R5_dai22mon_toukishinseisho_machigai', machigai)]:
             hp = os.path.join(OUT, name + '.html')
             open(hp, 'w', encoding='utf-8').write(html)
