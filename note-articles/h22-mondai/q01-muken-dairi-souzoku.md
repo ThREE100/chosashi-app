@@ -331,11 +331,20 @@ branch arrows: one leading to a highlighted box (thicker border) labeled
 labeled 無権代理人Aが本人Bを相続. From the highlighted box, an
 isometric scene shows a faded/ghost figure labeled 無権代理人A（死亡）with
 a crossed-out contract icon, and a succession arrow running from A to a
-solid figure labeled 本人B. A second diamond node below asks 本人として追
-認拒絶はできるか、with a はい arrow leading to a checkmark, but a separate
-box beside it (not crossed out) shows a coin icon labeled 117条の損害賠償
-責任 still attached to B by a red arrow, leading into the final
-conclusion node.
+solid figure labeled 本人B, with a small note tag beside B reading「本人
+として追認拒絶はできる（これは当然の前提）」— this is a short label only,
+NOT a decision diamond and NOT a checkmark or any terminal symbol, since
+being able to reject ratification is not by itself the answer to this 肢.
+A single arrow leads from this note tag down into the real decision
+point of this 肢: a second diamond node asking 追認を拒絶すれば、Aが個人
+として負っていた117条の損害賠償責任も一緒に消えるか. From this diamond,
+draw two branch arrows: a small greyed-out「はい（消える）」branch crossed
+out with a ✕ (representing the 肢's claim, which is wrong), and a thick
+highlighted「いいえ（消えない）」branch in full color leading to the single
+final conclusion node 117条の損害賠償責任は消えない, illustrated with a
+coin icon still firmly attached to B by one solid arrow directly from
+the diamond (not a separate, disconnected red arrow from elsewhere in
+the panel).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、誰が誰の地位を相続したか（本人が無権代理人を相続したパターンである
 こと）を確認します。次に、本人の立場としては追認を拒絶できても、無権代理
