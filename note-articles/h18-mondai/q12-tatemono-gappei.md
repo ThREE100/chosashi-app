@@ -1,6 +1,6 @@
 ## 【土地家屋調査士受験生向け】平成18年度 第12問〜抵当権者の承諾書があっても合併できないんです〜
 
-**出題年度：平成18年度　午後の部　第12問**
+**出題年度：平成18年度　第12問**
 
 > 所有者が同一である甲建物と乙建物についての建物の合併の登記に関する次のアからオまでの記述のうち、正しいものは幾つあるか。  
 >　  
@@ -173,7 +173,7 @@ Title (large, bold, 2行):
 合併できないんです
 
 Subtitle (smaller, centered, 1行):
-建物合併の登記、5つの制限事由を整理する (平成18年度 午後の部 第12問)
+建物合併の登記、5つの制限事由を整理する (平成18年度 第12問)
 
 --- CARD 1 ---
 Badge: a filled circle in blue containing the number 1.
@@ -235,7 +235,7 @@ Conclusion tag (colored banner below, blue, short phrase):
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
-平成18年度 午後の部 第12問
+平成18年度 第12問
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese, paying special
@@ -330,7 +330,7 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成18年度午後第12問 作図ガイド（建物の合併の登記）
+平成18年度第12問 作図ガイド（建物の合併の登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
