@@ -295,6 +295,29 @@ for m in re.finditer(r'\bfit\(', drw):
             break
     fits.append(drw[m.start():j + 1])
 truth(f'作図の fit はすべて pad_aspect=True（{len(fits)}か所）', fits and all('pad_aspect=True' in f for f in fits))
+# 図面の完成形は答案用紙（その2）の欄の枠の中に描く（2026-09-30のH27/Q22の作り直しで入ったルール）
+for s_ in ["'家屋番号'", "'建物の所在'", "KAOKU = '5番2'", "SHOZAI = 'A市B町二丁目5番地2、A市B町五丁目10番地1'",
+           "SHINSEININ = '畑山邦彦'", "'申　請　人'", "'作　成　者'", "'（略）'", "'（平成23年8月21日作成）'", "'1/500'", "'1/250'",
+           "'建　物　図　面'", "'各　階　平　面　図'", "答案用紙（その2）の欄・縮尺1/500で描く内容",
+           "答案用紙（その2）の欄・縮尺1/250で描く内容", "fit(ax, F1 + Q(F1, O2) + Q(g, O3)"]:
+    check('図面の欄の枠', s_, drw, '作図')
+check('記事の家屋番号', '家屋番号は『5番2』')
+check('記事の建物の所在', '『A市B町二丁目5番地2、A市B町五丁目10番地1』')
+check('記事の図面の申請人', '『畑山邦彦』と書きます')
+for key in ['答案用紙（その2）の建物図面の欄の枠', '答案用紙（その2）の各階平面図の欄の枠']:
+    check('マーカーに欄の枠', key)
+for s_ in ['答案用紙（その2）の建物図面の欄の枠', '答案用紙（その2）の各階平面図の欄の枠', '同じ縮尺（1/250）',
+           'public/kijutsu/H23-tatemono/a2.webp']:
+    check('図のプロンプトに欄の枠', s_, fig, '解説図')
+# fit は文字より先（2026-09-30、H21/Q22）：各関数の中で fit が最初の文字の配置より前にあるか
+for fn in re.findall(r'def (zu0[1-6]|garage_panel)\(.*?\):(.*?)(?=\ndef )', drw, re.S):
+    body = fn[1]
+    i_fit = body.find('fit(')
+    i_txt = min([body.find(k) for k in ['free_text(', 'edge_label(', 'callout(', 'dims(', 'point_label('] if body.find(k) >= 0]
+                or [10 ** 9])
+    if 'garage_panel(' in body and i_fit < 0:      # 図5は garage_panel の中で fit する
+        continue
+    truth(f'作図 {fn[0]}：fit が文字の配置より先', 0 <= i_fit < i_txt)
 for s_ in ['== 98.735', '== 66.24', '== 49.50', '== 23.8272', '== 23.5644', '== 24.75', '== 4.50', '== 352.9084', '== 792.72795']:
     check('作図スクリプトの assert', s_, drw, '作図')
 

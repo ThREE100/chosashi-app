@@ -274,7 +274,11 @@ bare = [m.start() for m in re.finditer(r'(?<!問題文の)(?<!（)注\d', text)]
 ng += bool(bare)
 print(('OK ' if not bare else 'NG ') + f'書き分けのない「注N」: {len(bare)}か所')
 check('注の書き分け（見取図）', '〔見取図〕の（注）1・2で')
-check('注の書き分け（縮尺）', '縮尺は500分の1（問題文の注2）')
+check('注の書き分け（縮尺）', '縮尺500分の1（問題文の注2）は答案用紙に印刷済み')
+check('方位記号は印刷済み', '敷地をその方位記号の向きに合わせて描くの')
+check('作成者の欄は印刷済み', '作成者の欄は、波臼さんの住所・氏名と『平成22年8月10日作成』まで印刷済みです')
+check('時間配分（いちばん時間を食うもの）', 'いちばん時間を食うのは（その3）の作図よ')
+check('時間配分（計算は軽い）', '今年の計算は長方形の掛け算と足し算だけで、課税価格も暗算で出る')
 check('解く順番（問を先に）', 'まず問を先に読んで、問1と問2の前提の違い')
 check('時系列メモ', '昭和51年2月17日に21番の所有権保存とA銀行・B信用金庫の抵当権、平成7年6月14日に永野さんの賃借権、平成22年7月30日に工事完了（合体の日）、8月10日に図面の作成、8月22日に申請')
 
@@ -302,6 +306,25 @@ n_pad = draw.count('pad_aspect=True')
 ok = n_fit == n_pad and n_fit > 0
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'作図の fit {n_fit}か所がすべて pad_aspect=True（{n_pad}）')
+# 図面の完成形は答案用紙（その3）の欄の枠の中に描く（2026-09-30のH27/Q22の作り直しで入ったルール）
+for s_ in ["'家屋番号'", "'建物の所在'", "SHOZAI = 'A市D町一丁目21番地、22番地'", "SHINSEININ = '大面太郎　大面健一郎'",
+           "'申　請　人'", "'作　成　者'", "'1/500'", "'1/250'", "'（平成22年8月10日作成）'", "'職印'",
+           "SAKUSEISHA = 'A市F町二丁目6番8号　土地家屋調査士　波臼良子'", "'建　物　図　面'", "'各　階　平　面　図'",
+           "答案用紙（その3）の欄・縮尺1/500で描く内容", "答案用紙（その3）の欄・縮尺1/250で描く内容",
+           "fit(axes[0], f1, margin=0.08, extra=ext7, pad_aspect=True)", "fit(axes[1], f1, margin=0.08, extra=ext7, pad_aspect=True)"]:
+    check('図面の欄の枠', s_, draw, '作図')
+for key in ['答案用紙（その3）の建物図面の欄の枠', '答案用紙（その3）の各階平面図の欄の枠']:
+    check('マーカーに欄の枠', key)
+for s_ in ['答案用紙（その3）の建物図面の欄の枠', '答案用紙（その3）の各階平面図の欄の枠', '1階と2階は同じ縮尺', 'public/kijutsu/H22-tatemono/a3.webp']:
+    check('図のプロンプトに欄の枠', s_, fig, '解説図')
+# fit は文字より先（2026-09-30、H21/Q22）：各関数の中で fit が最初の文字の配置より前にあるか
+for fn in re.findall(r'def (zu0[1-7])\(\):(.*?)(?=\ndef )', draw, re.S):
+    body = fn[1]
+    i_fit = body.find('fit(')
+    i_txt = min([body.find(k) for k in ['free_text(', 'edge_label(', 'callout(', 'dims(', 'dist_arrow('] if body.find(k) >= 0] or [10**9])
+    ok = 0 <= i_fit < i_txt
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'[作図] {fn[0]}：fit が文字の配置より先')
 for s_ in ['(B21, 81.00)', '(F1, 194.04)', '(F1_WRONG, 191.61)', '(F2, 51.84)', '113.40, 80.64', '== 450.02']:
     check('作図スクリプトの検算', s_, draw, '作図')
 for f in ['prompt_H22_dai22mon_kaisetsuzu.md', 'prompt_H22_dai22mon_toukishinseisho_gazou.md',
@@ -315,6 +338,9 @@ check('生成済みのファイル名', 'zu/H22_dai22mon_toukishinseisho_machiga
 ok = lines[-1] == '---'
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
+
+check('登場人物（トリ先生）', '**トリ先生**：見た目はぽっちゃりした鳥のキャラクター。調査士試験の要点と受験生の弱点を熟知している。口調は辛辣だが、初学者への愛は深い。')
+check('登場人物（藍子）', '**藍子（アイコ）**：ブルーの細い縦じまが入ったブラウスにネイビーのスーツをパリッと着こなす受験生。まじめで素直だが、問題作成者の仕掛けたワナに見事に引っかかる猪突猛進な面も。')
 
 # ---- タイトルの基本形 ----
 title = lines[0]
