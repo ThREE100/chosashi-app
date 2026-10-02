@@ -50,6 +50,18 @@ table.land td .ink, .box .ink { font-size: 26px; }
 .good { outline: 3px solid #2e9e44; outline-offset: 4px; border-radius: 2px; background: #f1faf2; }
 .okrow { position: relative; }
 .check { position: absolute; right: -8px; top: -30px; }
+/* 申請書でない解答欄（第1欄・第2欄）。2026-10-02追加 */
+.ranpage { padding: 50px 70px 30px; }
+.ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 12px; }
+table.ran { width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; margin-bottom: 44px; }
+table.ran td { border: 1.5px solid #111; font-size: 22px; height: 64px; text-align: center; vertical-align: middle; }
+table.ran td .ink { font-size: 28px; }
+.kijutsu { border: 2.5px solid #111; margin-bottom: 30px; }
+.kijutsu .sec { padding: 14px 22px 22px; }
+.kijutsu .sec + .sec { border-top: 1.5px dashed #555; }
+.kijutsu .sec.solid + .sec.solid { border-top: 1.5px solid #111; }
+.kijutsu .slab { font-size: 20px; margin-bottom: 8px; }
+.kijutsu .ink { font-size: 24px; line-height: 1.8; }
 </style></head><body>
 <div class="panel"><div class="ptitle ng">①誤答</div><div class="plain">平成27年○月○日　申請　○○法務局</div>
 <div class="row okrow"><div class="lab">申　　請　　人</div><div class="box fix" style="min-height:110px"><span class="ink">Ｂ市Ｃ町一丁目１番２号<br>株式会社山川製菓</span></div></div>

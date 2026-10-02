@@ -50,6 +50,18 @@ table.land td .ink, .box .ink { font-size: 26px; }
 .good { outline: 3px solid #2e9e44; outline-offset: 4px; border-radius: 2px; background: #f1faf2; }
 .okrow { position: relative; }
 .check { position: absolute; right: -8px; top: -30px; }
+/* 申請書でない解答欄（第1欄・第2欄）。2026-10-02追加 */
+.ranpage { padding: 50px 70px 30px; }
+.ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 12px; }
+table.ran { width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; margin-bottom: 44px; }
+table.ran td { border: 1.5px solid #111; font-size: 22px; height: 64px; text-align: center; vertical-align: middle; }
+table.ran td .ink { font-size: 28px; }
+.kijutsu { border: 2.5px solid #111; margin-bottom: 30px; }
+.kijutsu .sec { padding: 14px 22px 22px; }
+.kijutsu .sec + .sec { border-top: 1.5px dashed #555; }
+.kijutsu .sec.solid + .sec.solid { border-top: 1.5px solid #111; }
+.kijutsu .slab { font-size: 20px; margin-bottom: 8px; }
+.kijutsu .ink { font-size: 24px; line-height: 1.8; }
 </style></head><body><div class="page">
 <div class="title">登記申請書</div>
 <div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px"><span class="ink">土地一部地目変更・分筆登記</span></div></div>

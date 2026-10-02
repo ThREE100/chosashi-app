@@ -6,6 +6,8 @@
 
 このプロンプトをそのままPythonにした実装が `zu/draw_H27_dai21mon_kaisetsuzu.py`、書き出したPNGが `zu/H27_dai21mon_zu01〜11_*.png` です（2026-09-29作成。同日、最新の指示書との照らし合わせで図8〜11を追加し、全図の `fit` に描く線の端点を全部入れて描き直した。重なりの自動検査0件、目視確認済み）。
 
+ファイル名（図1〜図11の順）：`zu/H27_dai21mon_zu01_zentaizu.png`、`zu/H27_dai21mon_zu02_A_housha.png`、`zu/H27_dai21mon_zu03_K_kousa.png`、`zu/H27_dai21mon_zu04_H_kousa.png`、`zu/H27_dai21mon_zu05_touki_taishou.png`、`zu/H27_dai21mon_zu06_bunpitsu_chiban.png`、`zu/H27_dai21mon_zu07_chiseki_sokuryouzu.png`、`zu/H27_dai21mon_zu08_chuu_shiwake.png`、`zu/H27_dai21mon_zu09_KH_betsukai.png`、`zu/H27_dai21mon_zu10_ro_taikakusen.png`、`zu/H27_dai21mon_zu11_toku_junban.png`。記事に出てくる順は、図8（注の仕分け）・図1・図2・図3・図4・図9・図5・図10・図6・図7・図11。記事には、このほかに答案用紙の欄の画像（第1欄・第2欄。`prompt_H27_dai21mon_toukishinseisho_gazou.md` の末尾の節）と、登記申請書の完成形・添削の画像が入る。
+
 ---
 
 あなたは土地家屋調査士試験の教材デザイナーです。下の「差し替えデータ」の座標値に基づいて、note記事「【土地家屋調査士受験生向け】平成27年度問題21（土地）〜水路になっても土地は登記の対象〜」に挿入する解説用の図を、差し替えデータの「図の一覧」の枚数だけ作成してください。

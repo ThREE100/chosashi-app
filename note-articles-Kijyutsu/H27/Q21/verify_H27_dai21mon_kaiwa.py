@@ -249,6 +249,20 @@ for s in ['平成27年○月○日　申請　○○法務局', '土地一部地
     check('完成形の画像（HTML）', s, html_k, '完成形画像')
     if s.startswith('※添付情報は今の法令による'):
         check('完成形の画像とプロンプトの注', s, open(os.path.join(HERE, 'prompt_H27_dai21mon_toukishinseisho_gazou.md'), encoding='utf-8').read(), '申請書')
+# 申請書でない解答欄（第1欄の座標値、第2欄の結論と理由）の画像（2026-10-02追加）
+html_1 = open(os.path.join(HERE, 'zu', 'H27_dai21mon_dai1ran_kansei.html'), encoding='utf-8').read()
+html_2 = open(os.path.join(HERE, 'zu', 'H27_dai21mon_dai2ran_kansei.html'), encoding='utf-8').read()
+for s in ['第１欄　Ａ，Ｈ及びＫの各点の座標値', 'Ｘ座標（ｍ）', 'Ｙ座標（ｍ）', '>520.40<', '>465.80<', '>451.00<', '>500.00<',
+          '>473.50<', '>530.00<']:
+    check('第1欄の画像（HTML）', s, html_1, '欄の画像')
+judge('第1欄の画像：点の順が答案用紙どおりA→H→K', html_1.index('>Ａ<') < html_1.index('>Ｈ<') < html_1.index('>Ｋ<'))
+for s in ['第２欄', '>結論<', '>理由<', '依然として登記の対象となる土地である。', '公有水面となったわけではなく、',
+          '引き続き私権の客体となる土地だから。水路となったことは地目（用悪水路）の変更にすぎない', '（不動産登記規則第99条）。']:
+    check('第2欄の画像（HTML）', s, html_2, '欄の画像')
+for s in ['答案用紙の第1欄の行は、A・H・Kの順です', '答案用紙の第2欄は、点線で結論と理由の2段に分かれています',
+          '- **結論**：依然として登記の対象となる土地である']:
+    check('欄の画像の挿入位置の文言・答えの語の明示', s)
+
 for s in ['①誤答', '②添削（赤ペン）', '③正解', 'Ｂ市Ｃ町一丁目１番２号', 'Ｅ県Ｆ市Ｇ町二丁目３番４号', '代表取締役　山川一郎',
           '>37<', '下線は抹消の印。本店移転は付記1号で登記済み！', '用悪水路は1㎡未満を切り捨て。361だけ',
           '平成27年度 第21問｜申請人は今の本店と代表者、用悪水路の地積は1㎡未満を切り捨て']:
@@ -271,13 +285,41 @@ same = []
 for i, l in enumerate(lines):
     if l.rstrip() in ('**トリ先生**', '**藍子**'):
         j = i + 2
-        while j < len(lines) and not lines[j].strip():
+        # 空行と画像挿入マーカーは読み飛ばす（マーカーをはさんで同じ話者が続くのも1つの連続とみなす。2026-10-02に追加）
+        while j < len(lines) and (not lines[j].strip() or lines[j].startswith('> 【画像挿入】')):
             j += 1
         if j < len(lines) and lines[j].rstrip() == l.rstrip():
             same.append(i + 1)
-judge(f'同じ話者のセリフの連続: {same}', not same)
+judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも含む）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図11＋添削1＋完成形1＝計13か所の想定）', n_marker == 13)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図11＋添削1＋完成形1＋第1欄1＋第2欄1＝計15か所の想定）', n_marker == 15)
+
+# ---- 画像挿入マーカーと zu/ のPNGが記事の順に対応しているか（2026-10-02追加。R5/Q22の照合スクリプトにならう） ----
+markers = [l for l in lines if l.startswith('> 【画像挿入】')]
+PNGS = [('H27_dai21mon_zu08_chuu_shiwake', '注の仕分けの図', 'fig'), ('H27_dai21mon_zu01_zentaizu', '全体図', 'fig'),
+        ('H27_dai21mon_zu02_A_housha', 'A点を求める図', 'fig'), ('H27_dai21mon_zu03_K_kousa', 'K点の求め方の図', 'fig'),
+        ('H27_dai21mon_zu04_H_kousa', 'H点の求め方の図', 'fig'), ('H27_dai21mon_zu09_KH_betsukai', 'K点・H点の別解の図', 'fig'),
+        ('H27_dai21mon_dai1ran_kansei', '第1欄（A、H及びKの各点の座標値）の完成形', 'wide'),
+        ('H27_dai21mon_dai2ran_kansei', '第2欄の完成形', 'wide'),
+        ('H27_dai21mon_zu05_touki_taishou', '登記の対象となる土地かどうかの整理図', 'fig'),
+        ('H27_dai21mon_zu10_ro_taikakusen', '対角線で出す別解', 'fig'),
+        ('H27_dai21mon_zu06_bunpitsu_chiban', '分筆後の区画と地番の図', 'fig'),
+        ('H27_dai21mon_toukishinseisho_machigai', '誤答→添削→正解', 'tall'),
+        ('H27_dai21mon_toukishinseisho_kansei', '登記申請書（問3）の完成形', 'tall'),
+        ('H27_dai21mon_zu07_chiseki_sokuryouzu', '土地所在図兼地積測量図（乙土地）の完成見本', 'fig'),
+        ('H27_dai21mon_zu11_toku_junban', '本番で解く順番の図', 'fig')]
+judge(f'画像挿入マーカーの数とPNGの対応表の数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
+for (name, key, kind), m in zip(PNGS, markers):
+    path = os.path.join(HERE, 'zu', name + '.png')
+    ok = os.path.exists(path) and key in m
+    if ok and kind != 'fig':
+        w, h = struct.unpack('>II', open(path, 'rb').read()[16:24])
+        ok = w == 1200 and ((h > w) if kind == 'tall' else (h < w))
+    judge(f'PNG（マーカー順・大きさ） : {name}', ok)
+    src = fig if '_zu' in name else (form if 'kansei' in name else fix)
+    judge(f'プロンプトにファイル名 : {name}.png', f'{name}.png' in src)
+extra = sorted(set(f[:-4] for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png')) - {n for n, _, _ in PNGS})
+judge(f'zu/ に記事で使わないPNGがない : {extra}', not extra)
 # ---- 注の書き分け（問題文の注・A点の観測データの表の注・調査素図の注） ----
 QUAL = ('問題文の注', '調査素図の注', '観測データの表の注')
 bad_chu = []

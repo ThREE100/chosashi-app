@@ -6,6 +6,8 @@
 
 このプロンプトをそのままPythonにした実装が `zu/draw_H28_dai21mon_kaisetsuzu.py`、書き出したPNGが `zu/H28_dai21mon_zu01〜11_*.png` です（2026-09-29作成。重なりの自動検査0件、目視確認済み。同日の追加作業で図9〈J点の別解〉・図10〈注の仕分け〉・図11〈本番で解く順番〉を加えた）。
 
+ファイル名（図1〜図11の順）：`zu/H28_dai21mon_zu01_zentaizu.png`、`zu/H28_dai21mon_zu02_D_housha.png`、`zu/H28_dai21mon_zu03_J_kousa.png`、`zu/H28_dai21mon_zu04_menseki.png`、`zu/H28_dai21mon_zu05_bo_tochi_2hitsu.png`、`zu/H28_dai21mon_zu06_touki_genin.png`、`zu/H28_dai21mon_zu07_bungouhitsu.png`、`zu/H28_dai21mon_zu08_chiseki_sokuryouzu.png`、`zu/H28_dai21mon_zu09_J_betsukai.png`、`zu/H28_dai21mon_zu10_chuu_shiwake.png`、`zu/H28_dai21mon_zu11_toku_junban.png`。記事に出てくる順は、図10（注の仕分け）・図1・図2・図3・図9・図4・図5・図6・図7・図8・図11。記事には、このほかに答案用紙の欄の画像（第1欄・第2欄。`prompt_H28_dai21mon_toukishinseisho_gazou.md` の末尾の節）と、登記申請書の完成形・添削の画像が入る。
+
 ※C点（戊土地の北東の角）は問題文に座標がない。戊土地を描く図1・図2・図5だけ、調査素図の形に合わせた模式の位置（357.00, 300.00）に置き、図の中で「位置は模式」と明記する。調査素図は縮尺どおりではない（既知の点で当てはめると最大約3.8mずれる）ので、素図から座標を読み取って確定値のように描かないこと。C点は計算には一切使わない。
 
 ---

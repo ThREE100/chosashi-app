@@ -227,6 +227,23 @@ for s in ['平成28年○月○日　申請　Ａ地方法務局', '土地分合
     check('完成形の画像（HTML）', s, html_k, '完成形画像')
 judge('完成形の画像：記入行は6行（答案用紙どおり）', html_k.count('<td class="chimoku">') == 6)
 judge('完成形の画像：登録免許税が申請日より上（答案用紙の順）', html_k.index('登録免許税') < html_k.index('平成28年○月○日'))
+# 申請書でない解答欄（第1欄の座標値、第2欄の必要となる登記・一の申請情報の可否・理由）の画像（2026-10-02追加）
+html_1 = open(os.path.join(HERE, 'zu', 'H28_dai21mon_dai1ran_kansei.html'), encoding='utf-8').read()
+html_2 = open(os.path.join(HERE, 'zu', 'H28_dai21mon_dai2ran_kansei.html'), encoding='utf-8').read()
+for s in ['第１欄　Ｄ点及びＪ点の座標値', 'Ｘ座標（ｍ）', 'Ｙ座標（ｍ）', '>Ｄ点<', '>Ｊ点<', '>335.61<', '>306.61<', '>346.15<', '>265.61<']:
+    check('第1欄の画像（HTML）', s, html_1, '欄の画像')
+judge('第1欄の画像：行の順が答案用紙どおりD点→J点', html_1.index('>Ｄ点<') < html_1.index('>Ｊ点<'))
+for s in ['第２欄', '>必要となる登記<', '>一の申請情報によって申請することができるか否か<', '>理由<',
+          '土地表題登記（（ニ）部分と（ハ）部分を2筆の土地として）', '一の申請情報によって申請することができる。',
+          '（ニ）部分が畑、（ハ）部分が宅地で地目が異なるため', '取得原因は売払いと異なるが', '登記原因及びその日付は不詳で同一である',
+          '（不動産登記令第4条ただし書）。']:
+    check('第2欄の画像（HTML）', s, html_2, '欄の画像')
+judge('第2欄の画像：欄の順が答案用紙どおり（必要となる登記→一の申請情報の可否→理由）',
+      html_2.index('>必要となる登記<') < html_2.index('>一の申請情報によって申請することができるか否か<') < html_2.index('>理由<'))
+for s in ['答案用紙の第1欄は、D点とJ点の行にX座標とY座標を分けて書く表です', '- **必要となる登記**：土地表題登記',
+          '- **一の申請情報によって申請することができるか否か**：一の申請情報によって申請することができる']:
+    check('欄の画像の挿入位置の文言・答えの語の明示', s)
+
 for s in ['①誤答', '②添削（赤ペン）', '③正解', '金3,000円', '金2,000円', '>397<', '>398<',
           '分合筆1件なら、分合筆後の2個で2,000円！', '351.67100＋46.4342＝398.1052 → 398',
           '平成28年度 第21問｜分合筆は1件で2,000円、合筆後の32番1は398㎡']:
@@ -284,13 +301,41 @@ same = []
 for i, l in enumerate(lines):
     if l.rstrip() in ('**トリ先生**', '**藍子**'):
         j = i + 2
-        while j < len(lines) and not lines[j].strip():
+        # 空行と画像挿入マーカーは読み飛ばす（マーカーをはさんで同じ話者が続くのも1つの連続とみなす。2026-10-02に追加）
+        while j < len(lines) and (not lines[j].strip() or lines[j].startswith('> 【画像挿入】')):
             j += 1
         if j < len(lines) and lines[j].rstrip() == l.rstrip():
             same.append(i + 1)
-judge(f'同じ話者のセリフの連続: {same}', not same)
+judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも含む）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＝計{N_FIG + 2}か所の想定）', n_marker == N_FIG + 2)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＋第1欄1＋第2欄1＝計{N_FIG + 4}か所の想定）',
+      n_marker == N_FIG + 4)
+
+# ---- 画像挿入マーカーと zu/ のPNGが記事の順に対応しているか（2026-10-02追加。R5/Q22の照合スクリプトにならう） ----
+markers = [l for l in lines if l.startswith('> 【画像挿入】')]
+PNGS = [('H28_dai21mon_zu10_chuu_shiwake', '注の仕分けの図', 'fig'), ('H28_dai21mon_zu01_zentaizu', '全体図', 'fig'),
+        ('H28_dai21mon_zu02_D_housha', 'D点を求める図', 'fig'), ('H28_dai21mon_zu03_J_kousa', 'J点の求め方の図', 'fig'),
+        ('H28_dai21mon_zu09_J_betsukai', 'J点の別解の図', 'fig'),
+        ('H28_dai21mon_dai1ran_kansei', '第1欄（D点及びJ点の座標値）の完成形', 'wide'),
+        ('H28_dai21mon_zu04_menseki', '（イ）（ロ）の面積の図', 'fig'), ('H28_dai21mon_zu05_bo_tochi_2hitsu', '戊土地を2筆に分ける図', 'fig'),
+        ('H28_dai21mon_dai2ran_kansei', '第2欄の完成形', 'wide'), ('H28_dai21mon_zu06_touki_genin', '問2の整理図', 'fig'),
+        ('H28_dai21mon_toukishinseisho_machigai', '誤答→添削→正解', 'tall'),
+        ('H28_dai21mon_zu07_bungouhitsu', '分合筆の前と後の図', 'fig'),
+        ('H28_dai21mon_toukishinseisho_kansei', '登記申請書（問3）の完成形', 'tall'),
+        ('H28_dai21mon_zu08_chiseki_sokuryouzu', '地積測量図（40番2）の完成見本', 'fig'),
+        ('H28_dai21mon_zu11_toku_junban', '本番で解く順番の図', 'fig')]
+judge(f'画像挿入マーカーの数とPNGの対応表の数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
+for (name, key, kind), m in zip(PNGS, markers):
+    path = os.path.join(HERE, 'zu', name + '.png')
+    ok = os.path.exists(path) and key in m
+    if ok and kind != 'fig':
+        w, h = struct.unpack('>II', open(path, 'rb').read()[16:24])
+        ok = w == 1200 and ((h > w) if kind == 'tall' else (h < w))
+    judge(f'PNG（マーカー順・大きさ） : {name}', ok)
+    src = fig if '_zu' in name else (form if 'kansei' in name else fix)
+    judge(f'プロンプトにファイル名 : {name}.png', f'{name}.png' in src)
+extra = sorted(set(f[:-4] for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png')) - {n for n, _, _ in PNGS})
+judge(f'zu/ に記事で使わないPNGがない : {extra}', not extra)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成28年度問題21（土地）〜'
@@ -302,5 +347,9 @@ check('見出し画像のラベル', '土地家屋調査士受験生向け', thu
 check('解説図プロンプトのタイトル', title[2:], fig, '解説図')
 check('添削プロンプトのタイトル', title[2:], fix, '添削')
 check('完成形プロンプトのタイトル', title[2:], form, '登記申請書')
+
+# 公差は分筆後の地積の合計でも確かめる（準則第72条第1項。3-1。2026-10-02追加）
+for s in ['分筆後の地積の合計は 230 ＋ 46 ＝ 276。登記記録の276と差がないわ']:
+    check('分筆後の地積の合計と公差', s)
 
 print('NG件数:', ng)

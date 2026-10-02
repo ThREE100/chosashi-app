@@ -2,6 +2,8 @@
 
 - 完成形：`../prompt_H27_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ）どおり。縦長（横1200px）
 - 添削　：`../prompt_H27_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第1欄（問1のA・H・Kの座標値）・第2欄（問2の結論と理由）：申請書でない解答欄も、答案用紙の欄の形で別の画像にする（横1200px。
+  2026-10-02追加。答案用紙はA3横で、左の列に第1欄・第2欄、右の列に第3欄の登記申請書がある）。記入データは完成形のプロンプトの末尾の節のとおり
 - 見本は `../../../R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`。答案用紙に合わせ、③の項目名を「添付情報」、所在の行を2段にした
 
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
@@ -72,6 +74,18 @@ table.land td .ink, .box .ink {{ font-size: 26px; }}
 .good {{ outline: 3px solid {GREEN}; outline-offset: 4px; border-radius: 2px; background: #f1faf2; }}
 .okrow {{ position: relative; }}
 .check {{ position: absolute; right: -8px; top: -30px; }}
+/* 申請書でない解答欄（第1欄・第2欄）。2026-10-02追加 */
+.ranpage {{ padding: 50px 70px 30px; }}
+.ranhead {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 12px; }}
+table.ran {{ width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; margin-bottom: 44px; }}
+table.ran td {{ border: 1.5px solid #111; font-size: 22px; height: 64px; text-align: center; vertical-align: middle; }}
+table.ran td .ink {{ font-size: 28px; }}
+.kijutsu {{ border: 2.5px solid #111; margin-bottom: 30px; }}
+.kijutsu .sec {{ padding: 14px 22px 22px; }}
+.kijutsu .sec + .sec {{ border-top: 1.5px dashed #555; }}
+.kijutsu .sec.solid + .sec.solid {{ border-top: 1.5px solid #111; }}
+.kijutsu .slab {{ font-size: 20px; margin-bottom: 8px; }}
+.kijutsu .ink {{ font-size: 24px; line-height: 1.8; }}
 '''
 
 CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" '
@@ -157,11 +171,41 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成27年度 第21問｜申請人は今の本店と代表者、用悪水路の地積は1㎡未満を切り捨て</div>''')
 
+# ---- 申請書でない解答欄：第1欄（座標値）・第2欄（結論と理由）。記入データは完成形のプロンプトの末尾の節のとおり ----
+DAI1 = [('Ａ', '520.40', '465.80'), ('Ｈ', '451.00', '500.00'), ('Ｋ', '473.50', '530.00')]   # 答案用紙の行の順（A・H・K）
+KETSURON = '依然として登記の対象となる土地である。'
+RIYUU = ['株式会社山川製菓が所有する甲土地の一部を水路としたもので、公有水面となったわけではなく、',
+         '引き続き私権の客体となる土地だから。水路となったことは地目（用悪水路）の変更にすぎない',
+         '（不動産登記規則第99条）。']   # 改行は入れず、枠の幅で折り返す
+
+
+def zahyo_table(rows):
+    h = ['<table class="ran"><colgroup><col style="width:33%"><col style="width:33.5%"><col style="width:33.5%"></colgroup>',
+         '<tr><td>点名</td><td>Ｘ座標（ｍ）</td><td>Ｙ座標（ｍ）</td></tr>']
+    h += [f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in rows]
+    return ''.join(h) + '</table>'
+
+
+dai1 = page(f'''<div class="ranpage">
+<div class="ranhead">第１欄　Ａ，Ｈ及びＫの各点の座標値</div>
+{zahyo_table(DAI1)}
+<div class="caption">平成27年度 土地家屋調査士試験 第21問 第1欄（問1）解答例</div>
+</div>''')
+dai2 = page(f'''<div class="ranpage">
+<div class="ranhead">第２欄</div>
+<div class="kijutsu">
+<div class="sec"><div class="slab">結論</div>{ink(KETSURON)}</div>
+<div class="sec"><div class="slab">理由</div>{ink(''.join(RIYUU))}</div>
+</div>
+<div class="caption">平成27年度 土地家屋調査士試験 第21問 第2欄（問2）解答例</div>
+</div>''')
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('H27_dai21mon_toukishinseisho_kansei', kansei), ('H27_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 200})
+    for name, html in [('H27_dai21mon_dai1ran_kansei', dai1), ('H27_dai21mon_dai2ran_kansei', dai2),
+                       ('H27_dai21mon_toukishinseisho_kansei', kansei), ('H27_dai21mon_toukishinseisho_machigai', machigai)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -169,5 +213,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（欄の画像は横長でよい）'))
     browser.close()

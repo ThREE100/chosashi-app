@@ -68,6 +68,18 @@ table.land td .ink, .box .ink {{ font-size: 26px; }}
 .good {{ outline: 3px solid {GREEN}; outline-offset: 4px; border-radius: 2px; background: #f1faf2; }}
 .okrow {{ position: relative; }}
 .check {{ position: absolute; right: -8px; top: -30px; }}
+/* 申請書でない解答欄（第1欄・第2欄）。2026-10-02追加 */
+.ranpage {{ padding: 50px 70px 30px; }}
+.ranhead {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 12px; }}
+table.ran {{ width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; margin-bottom: 44px; }}
+table.ran td {{ border: 1.5px solid #111; font-size: 22px; height: 64px; text-align: center; vertical-align: middle; }}
+table.ran td .ink {{ font-size: 28px; }}
+.kijutsu {{ border: 2.5px solid #111; margin-bottom: 30px; }}
+.kijutsu .sec {{ padding: 14px 22px 22px; }}
+.kijutsu .sec + .sec {{ border-top: 1.5px dashed #555; }}
+.kijutsu .sec.solid + .sec.solid {{ border-top: 1.5px solid #111; }}
+.kijutsu .slab {{ font-size: 20px; margin-bottom: 8px; }}
+.kijutsu .ink {{ font-size: 24px; line-height: 1.8; }}
 '''
 
 CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" '
@@ -149,11 +161,45 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成28年度 第21問｜分合筆は1件で2,000円、合筆後の32番1は398㎡</div>''')
 
+# ---- 申請書でない解答欄：第1欄（座標値）・第2欄（必要となる登記・一の申請情報の可否・理由）。2026-10-02追加 ----
+# 記入データは完成形のプロンプトの末尾の節のとおり。答案用紙はA3横で、左の列に第1欄・第2欄、右の列に第3欄の登記申請書がある
+DAI1 = [('Ｄ点', '335.61', '306.61'), ('Ｊ点', '346.15', '265.61')]
+HITSUYOU = '土地表題登記（（ニ）部分と（ハ）部分を2筆の土地として）'
+KAHI = '一の申請情報によって申請することができる。'
+RIYUU = ('戊土地は、（ニ）部分が畑、（ハ）部分が宅地で地目が異なるため、2筆の土地として土地表題登記を申請する必要がある。'
+         '（ニ）部分の取得原因は時効取得、（ハ）部分の取得原因は売払いと異なるが、土地表題登記の登記原因は土地が生じた原因であり、'
+         '2筆ともその登記原因及びその日付は不詳で同一である。同一の登記所の管轄区域内にある2筆の土地について、'
+         '登記の目的並びに登記原因及びその日付が同一であるから、一の申請情報によって申請することができる（不動産登記令第4条ただし書）。')
+
+
+def zahyo_table(rows):
+    h = ['<table class="ran"><colgroup><col style="width:33%"><col style="width:33.5%"><col style="width:33.5%"></colgroup>',
+         '<tr><td></td><td>Ｘ座標（ｍ）</td><td>Ｙ座標（ｍ）</td></tr>']
+    h += [f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in rows]
+    return ''.join(h) + '</table>'
+
+
+dai1 = page(f'''<div class="ranpage">
+<div class="ranhead">第１欄　Ｄ点及びＪ点の座標値</div>
+{zahyo_table(DAI1)}
+<div class="caption">平成28年度 土地家屋調査士試験 第21問 第1欄（問1）解答例</div>
+</div>''')
+dai2 = page(f'''<div class="ranpage">
+<div class="ranhead">第２欄</div>
+<div class="kijutsu">
+<div class="sec solid"><div class="slab">必要となる登記</div>{ink(HITSUYOU)}</div>
+<div class="sec solid"><div class="slab">一の申請情報によって申請することができるか否か</div>{ink(KAHI)}</div>
+<div class="sec solid"><div class="slab">理由</div>{ink(RIYUU)}</div>
+</div>
+<div class="caption">平成28年度 土地家屋調査士試験 第21問 第2欄（問2）解答例</div>
+</div>''')
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('H28_dai21mon_toukishinseisho_kansei', kansei), ('H28_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 200})
+    for name, html in [('H28_dai21mon_dai1ran_kansei', dai1), ('H28_dai21mon_dai2ran_kansei', dai2),
+                       ('H28_dai21mon_toukishinseisho_kansei', kansei), ('H28_dai21mon_toukishinseisho_machigai', machigai)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -161,5 +207,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（欄の画像は横長でよい）'))
     browser.close()

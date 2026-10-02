@@ -2,6 +2,8 @@
 
 - 完成形：`../prompt_H26_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ。項目の順序は平成26年度の答案用紙どおり）。縦長（横1200px）
 - 添削　：`../prompt_H26_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第1欄・第2欄（問1・問2の座標値）と第3欄（問3の甲区・乙区）：申請書でない解答欄も、答案用紙の欄の形で別の画像にする（横1200px。
+  2026-10-02追加。答案用紙はA3横で、左の列に第1欄〜第3欄、右の列に第4欄の登記申請書がある）。記入データは完成形のプロンプトの末尾の節のとおり
 
 様式の部品（CSS・土地の表示の表）は `../../../H28/Q21/zu/make_H28_dai21mon_shinseisho_gazou.py` と同じ。ただし、平成26年度の答案用紙に合わせて
 項目の順序（登記の目的 → 添付情報〈（略）〉 → 申請の日付 → 申請人 → 代理人〈（略）〉 → 登録免許税 → 土地の表示）を変え、所在「Ａ市Ｂ町字Ｃ」と
@@ -48,6 +50,17 @@ table.land td.shozai-lab {{ text-align: center; height: 76px; }}
 table.land td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }}
 table.land td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }}
 table.land td.chimoku {{ text-align: center; }}
+.tnote {{ font-size: 17px; color: #444; margin-top: 14px; line-height: 1.6;
+          font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
+/* 申請書でない解答欄（第1欄〜第3欄） */
+.ranpage {{ padding: 50px 70px 30px; }}
+.ranhead {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 12px; }}
+table.ran {{ width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; margin-bottom: 44px; }}
+table.ran td {{ border: 1.5px solid #111; font-size: 22px; height: 64px; text-align: center; vertical-align: middle; }}
+table.ran td .ink {{ font-size: 28px; }}
+table.ku td.kulab {{ letter-spacing: 1.2em; padding-left: 1.2em; }}
+table.ku td.kubody {{ text-align: left; padding: 22px 26px; line-height: 1.75; height: auto; }}
+table.ku td.kubody .ink {{ font-size: 24px; }}
 table.land td .ink, .box .ink {{ font-size: 26px; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 30px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
@@ -72,11 +85,6 @@ table.land td .ink, .box .ink {{ font-size: 26px; }}
 .okrow {{ position: relative; }}
 .check {{ position: absolute; right: -8px; top: -30px; }}
 '''
-
-CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" '
-             f'stroke="{GREEN}" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="{GREEN}" '
-             f'stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>')
-
 
 CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" '
              f'stroke="{GREEN}" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="{GREEN}" '
@@ -113,6 +121,8 @@ def page(body):
 # ---- 完成形（記入データは prompt_H26_dai21mon_toukishinseisho_gazou.md のとおり） ----
 DATE = '平成26年8月22日　申請　Ａ地方法務局'
 APPLICANTS = ['Ｂ市Ｋ町213番地　乙野二郎', 'Ｂ市Ｌ三丁目４番５号　甲野明子', 'Ｋ市Ｂ町135番地　山川次郎']
+NOTE = ('※申請人：今の法令では、分筆・合筆は共有物の管理として持分の価格の過半数で決められ（民法第251条第1項・第252条第1項）、'
+        '過半数の持分を持つ共有者から申請できる。本問は共有者3人とも申請するので3人を書く。出題当時は共有者全員で申請する扱いだった')
 SAIKA = '地役権設定の範囲　100番５の土地　南側67平方メートル'
 ROWS = [('100番１', '雑種地', '380', '', ''),                        # 1行目は答案用紙に印刷済み（黒）
         (ink('（イ）100番１'), '', ink('314'), '', ink('③100番５に一部合併')),
@@ -129,6 +139,7 @@ kansei = page(f'''<div class="page">
 <div class="row"><div class="lab">登録免許税</div><div class="box" style="height:62px">{ink('金2,000円')}</div></div>
 <div style="height:6px"></div>
 {land_table(ROWS, saika=ink(SAIKA))}
+<div class="tnote">{NOTE}</div>
 <div class="caption">平成26年度 土地家屋調査士試験 第21問 登記申請書 解答例</div>
 </div>''')
 
@@ -158,11 +169,45 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成26年度 第21問｜合筆後の100番5は254㎡、地役権設定の範囲も書く</div>''')
 
+# ---- 申請書でない解答欄：第1欄・第2欄（座標値）と第3欄（甲区・乙区）。記入データは完成形のプロンプトの末尾の節のとおり ----
+DAI1 = [('Ｐ', '246.09', '183.49')]
+DAI2 = [('Ｄ', '240.38', '194.83'), ('Ｅ', '239.31', '179.85'), ('Ｖ', '236.35', '178.39'), ('Ｗ', '236.44', '198.85')]
+KOUKU = ['登記の目的　合併による所有権登記', '受付年月日・受付番号　平成26年８月22日第○号',
+         '権利者その他の事項　共有者', 'Ｂ市Ｋ町213番地　持分３分の１　乙野二郎', 'Ｂ市Ｌ三丁目４番５号　３分の１　甲野明子',
+         'Ｋ市Ｂ町135番地　３分の１　山川次郎']
+OTSUKU = ['100番１の乙区１番の地役権の登記（平成20年10月10日', '受付第10000号、要役地　Ａ市Ｂ町字Ｃ102番）を移記し、',
+          '地役権設定の範囲（南側67平方メートル）と', '地役権図面番号を記録する']
+
+
+def zahyo_table(rows):
+    h = ['<table class="ran"><colgroup><col style="width:33%"><col style="width:33.5%"><col style="width:33.5%"></colgroup>',
+         '<tr><td>点名</td><td>Ｘ座標（ｍ）</td><td>Ｙ座標（ｍ）</td></tr>']
+    h += [f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in rows]
+    return ''.join(h) + '</table>'
+
+
+dai12 = page(f'''<div class="ranpage">
+<div class="ranhead">第１欄　点Ｐの座標値</div>
+{zahyo_table(DAI1)}
+<div class="ranhead">第２欄　Ｄ，Ｅ，Ｖ及びＷの各点の座標値</div>
+{zahyo_table(DAI2)}
+<div class="caption">平成26年度 土地家屋調査士試験 第21問 第1欄・第2欄（問1・問2）解答例</div>
+</div>''')
+dai3 = page(f'''<div class="ranpage">
+<div class="ranhead">第３欄　甲区及び乙区に記録される事項</div>
+<table class="ran ku"><colgroup><col style="width:24%"><col style="width:76%"></colgroup>
+<tr><td class="kulab">甲区</td><td class="kubody">{'<br>'.join(ink(v) for v in KOUKU)}</td></tr>
+<tr><td class="kulab">乙区</td><td class="kubody">{'<br>'.join(ink(v) for v in OTSUKU)}</td></tr>
+</table>
+<div class="caption">平成26年度 土地家屋調査士試験 第21問 第3欄（問3）解答例</div>
+</div>''')
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('H26_dai21mon_toukishinseisho_kansei', kansei), ('H26_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 200})
+    for name, html in [('H26_dai21mon_dai1ran_dai2ran_kansei', dai12), ('H26_dai21mon_dai3ran_kansei', dai3),
+                       ('H26_dai21mon_toukishinseisho_kansei', kansei), ('H26_dai21mon_toukishinseisho_machigai', machigai)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -170,5 +215,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（欄の画像は横長でよい）'))
     browser.close()

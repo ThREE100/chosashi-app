@@ -6,6 +6,8 @@
 
 このプロンプトをそのままPythonにした実装が `zu/draw_H26_dai21mon_kaisetsuzu.py`、書き出したPNGが `zu/H26_dai21mon_zu01〜12_*.png` です（2026-09-29作成。同日、最新の基本フォームに合わせて図3〜図6の背景の区画を描き直し、図12を追加。重なりの自動検査0件、目視確認済み）。
 
+ファイル名（図1〜図12の順）：`zu/H26_dai21mon_zu01_zentaizu.png`、`zu/H26_dai21mon_zu02_P_housha.png`、`zu/H26_dai21mon_zu03_D_housha.png`、`zu/H26_dai21mon_zu04_E_housha.png`、`zu/H26_dai21mon_zu05_V.png`、`zu/H26_dai21mon_zu06_W.png`、`zu/H26_dai21mon_zu07_kousa.png`、`zu/H26_dai21mon_zu08_menseki.png`、`zu/H26_dai21mon_zu09_bungouhitsu.png`、`zu/H26_dai21mon_zu10_kouku_otsuku.png`、`zu/H26_dai21mon_zu11_chiseki_sokuryouzu.png`、`zu/H26_dai21mon_zu12_toku_junban.png`。記事には、このほかに答案用紙の欄の画像（第1欄・第2欄、第3欄。`prompt_H26_dai21mon_toukishinseisho_gazou.md` の末尾の節）と、登記申請書の完成形・添削の画像が入る。
+
 ※100番5の北の角G・Fは問題文に座標がない。100番5を描く図1・図3・図4・図9だけ、100番5の地積測量図の辺長（GE 10.39・GD 18.64・GF 19.40・FC 10.00）から作った模式の位置に置き、灰色の破線で描いて「模式」と明記する。G・Fは計算・検算には一切使わない（100番5の面積は地積測量図の三斜の186.6334を使う）。
 
 ---
