@@ -464,5 +464,5 @@ I点はBCとY＝485.26の交点で I ＝ B ＋ (C − B) × 0.57 ÷ 10.57 ＝（
 R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）を、Claude Codeのスマホアプリ上で解き、正誤を記録して苦手論点をあぶり出す仕組み。
 問題バンクは`tools/drill/data/items.json`、エンジンは`tools/drill/drill.py`、操作手順はスキル`/drill`（`.claude/skills/drill/SKILL.md`）、
 仕様・データの確かさは`tools/drill/README.md`。回答は〇・×・？（？＝わからない）。学習記録はコードと分けて専用ブランチ`drill-log`の`log.jsonl`に残す
-（`main`統一ルールの例外。記録専用でnote記事は置かない）。正誤はバンクの値だけを正とし、会話中に自分の判断で変えない。
-公式正答と解説記事が食い違う改題は`tools/drill/REVIEW_HOLD.md`に保留してある。
+（`main`統一ルールの例外。記録専用でnote記事は置かない）。正誤は**現行法令を正**とし、`note-articles/`の解説記事の結論に従う（出題当時の公式正答とは食い違うことがある）。
+バンクの値だけを正とし、会話中に自分の判断で変えない。記事が不確実と注記している肢などは`tools/drill/REVIEW_HOLD.md`に保留してある。

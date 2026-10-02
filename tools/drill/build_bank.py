@@ -2,7 +2,8 @@
 """work/ 配下の中間データから 一問一答バンク data/items.json を作る。
 
 入力:  work/derived_ok.json      機械的に導いた標準形式の問題（313問）
-       work/batch_out_*.json     LLM が肢ごとの正誤を確定した問題（対話・個数・空欄補充など）
+       work/batch_out_*.json     LLM が肢ごとの正誤を確定した問題（対話・個数・空欄補充など）。
+                                 batch_out_fix.json は公式正答と解説記事が食い違う問題を、解説記事（現行法令）基準で再確定した分で、他を上書きする
        work/topics.json          問題ごとの論点ラベル
 出力:  data/items.json           バンク（重複を統合済み）
        work/dedup_report.json    統合した肢と、似ているが結論が逆の肢（対比ペア）の一覧
@@ -62,8 +63,12 @@ def main():
             cands.append({'qid': q['id'], 'label': lab, 'statement': pre + text, 'context': ctx, 'truth': q['truth'][lab],
                           'basis': '', 'status': 'verified', 'note_path': r['note_path']})
     # 2) LLM 確定分
+    llm = {}   # 後のファイル（batch_out_fix.json＝現行法で再確定した分）が同じ問題を上書きする
     for f in sorted(glob.glob(os.path.join(WORK, 'batch_out_*.json'))):
         for q in json.load(open(f, encoding='utf-8')):
+            llm[q['id']] = q
+    if True:
+        for q in llm.values():
             r = raw[q['id']]
             conf = q.get('confidence', 'low')
             for it in q['items']:
