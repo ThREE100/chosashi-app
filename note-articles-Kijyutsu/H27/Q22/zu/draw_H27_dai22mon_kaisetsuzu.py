@@ -455,7 +455,7 @@ def zu09():
                         arrowprops=dict(arrowstyle='-|>', lw=1.6, color=GRAY))
     ax.text(1 + 1.5 * (w + gap) - gap / 2, 76, '求積をしなくても書ける', ha='center', fontsize=15, color=BLUE, weight='bold')
     ax.annotate('', xy=(1 + 3 * (w + gap) - gap, 72), xytext=(1, 72), arrowprops=dict(arrowstyle='<->', lw=1.5, color=BLUE))
-    ax.text(1 + 4 * (w + gap) - gap / 2, 76, '欠けの幅に注意', ha='center', fontsize=15, color=RED, weight='bold')
+    ax.text(1 + 4 * (w + gap) - gap / 2, 76, 'いちばん時間を食う（欠けの幅に注意）', ha='center', fontsize=15, color=RED, weight='bold')
     ax.annotate('', xy=(1 + 5 * (w + gap) - gap, 72), xytext=(1 + 3 * (w + gap), 72),
                 arrowprops=dict(arrowstyle='<->', lw=1.5, color=RED))
     fig.text(0.5, 0.09, '「土地は自分の名義のまま」の一言で、問1（公正証書の分離処分可能規約）、添付情報の規約証明情報、敷地権の表示の「記載不要」が決まる。\n'
