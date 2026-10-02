@@ -117,9 +117,10 @@ def parse_article(md_text):
         # 「出題年度：」に「（改）」が付く記事は空欄、それ以外は「出典：法務省　{年度}土地家屋調査士試験問題」
         cite = ""
         if m:
-            ym = re.match(r"出題年度：((?:令和|平成)(?:元|\d+)年度)", m.group(1))
+            ym = re.match(r"出題年度：((?:令和|平成)(?:元|\d+)年度)\s*(午前|午後)?", m.group(1))
             if ym and "（改）" not in m.group(1):
-                cite = f"出典：法務省　{ym.group(1)}土地家屋調査士試験問題"
+                part = f"（{ym.group(2)}）" if ym.group(2) else ""
+                cite = f"出典：法務省　{ym.group(1)}土地家屋調査士試験問題{part}"
         cite_html = f"<figcaption>{escape(cite)}</figcaption>" if cite else ""
         body_parts.append(f"<figure><blockquote><p>{quote_html}</p></blockquote>{cite_html}</figure>")
         # 問題文（引用）と解説文の間の区切り線
