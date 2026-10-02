@@ -97,8 +97,8 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和3年度 午後の部 第14問）および正解番号（3番＝イ・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach/pitfalls/keyPoints）で確認済みです。
 - 条文レベルで確認できた根拠：「建物の種類は主な用途により定める」という原則（不動産登記規則113条1項）、および「主な用途が二以上の場合はその二以上の用途により種類を定める」という原則（同条2項）は、`note-articles/laws/fudousan-touki-kisoku-1.md`で条文原文を確認済みです。建物の種類そのものの登記事項としての位置づけは不動産登記法44条1項3号（「建物の種類、構造及び床面積」）にあります（旧稿では誤って「2号」としていましたが、2号は家屋番号であり、本稿で3号に訂正しました）。
-- 一般原則からの推論にとどまる部分：肢ア（区分建物は一棟全体でなく専有部分ごとの用途で定める）は、規則113条1項の「主な用途により定める」原則を区分建物に当てはめた解釈であり、区分建物固有の明文条番号として確認できたものではありません。肢オの「規則にない用途も準じて定められる」点も、規則113条1項の趣旨からの推論に基づく記述です。
-- 訂正（ローカル法令データベースで確認）：肢イの連記の根拠について、旧稿ではデータベース内の食い違い（explanationフィールドが準則80条2項、keyPointsフィールドが準則81条）をWebSearchの二次資料のみで解消していましたが、本稿では`note-articles/laws/fudousan-touki-jimu-junsoku.md`の条文原文を直接確認しました。準則81条は建物の構造の定め方に関する条文であり種類とは無関係、準則80条2項が「建物の主たる用途が２以上の場合には、その種類を例えば『居宅・店舗』と表示するものとする」と規定していることを確認したため、80条2項の採用が正しいことが確定しました。あわせて、この連記のルール自体は不動産登記規則113条2項にも明文があるため、本文に同項の引用を追加しました。
+- 一般原則からの推論にとどまる部分：ア（区分建物は一棟全体でなく専有部分ごとの用途で定める）は、規則113条1項の「主な用途により定める」原則を区分建物に当てはめた解釈であり、区分建物固有の明文条番号として確認できたものではありません。オの「規則にない用途も準じて定められる」点も、規則113条1項の趣旨からの推論に基づく記述です。
+- 訂正（ローカル法令データベースで確認）：イの連記の根拠について、旧稿ではデータベース内の食い違い（explanationフィールドが準則80条2項、keyPointsフィールドが準則81条）をWebSearchの二次資料のみで解消していましたが、本稿では`note-articles/laws/fudousan-touki-jimu-junsoku.md`の条文原文を直接確認しました。準則81条は建物の構造の定め方に関する条文であり種類とは無関係、準則80条2項が「建物の主たる用途が２以上の場合には、その種類を例えば『居宅・店舗』と表示するものとする」と規定していることを確認したため、80条2項の採用が正しいことが確定しました。あわせて、この連記のルール自体は不動産登記規則113条2項にも明文があるため、本文に同項の引用を追加しました。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。本記事は上記の検証済みデータベースおよび`note-articles/laws/`配下の法令原文に基づいて作成しています。
 
 ---
@@ -277,8 +277,8 @@ crossed-out 野球場・店舗・駐車場 (incorrect) label. Confirm nothing is
 ## インフォグラフィック プロンプト（作図ガイド）
 
 対話形式の問題文を読んだときに、各肢でどんな図を描き、どの順番で条件を確認すれば正誤に
-たどり着けるかを示す作図ガイド。肢ア・エは「よくある思い込み」と「正しい判断基準」を
-左右で対比させる型、肢イ・ウ・オは条件を順に確認する決定木型で構成する。
+たどり着けるかを示す作図ガイド。ア・エは「よくある思い込み」と「正しい判断基準」を
+左右で対比させる型、イ・ウ・オは条件を順に確認する決定木型で構成する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -355,7 +355,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 甲は事務所と定める
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 主な用途がいくつあるか数えてから種類を決める
@@ -400,7 +400,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 遊技場・映画館・居宅
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 店舗の連記可否は面積でなく実質で決まる
@@ -424,7 +424,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 実態次第で連記可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 建物全体の主な用途だけを種類とする
@@ -447,7 +447,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 野球場のみでよい
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 規則にない用途も準じて種類を定められる

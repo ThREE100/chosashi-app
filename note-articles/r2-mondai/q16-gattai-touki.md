@@ -277,12 +277,12 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panels 1, 3, and 4（肢ア・ウ・エ）share the same three-way
+flowchart. Panels 1, 3, and 4（ア・ウ・エ）share the same three-way
 decision tree rooted at a diamond node asking what right was registered
 on the pre-merger buildings（抵当権／所有権／賃借権）; each panel
 highlights（太い縁取り・フルカラー）only the branch relevant to its own
 肢 and renders the other two branches in a faded, greyed-out, dotted-
-outline style. Panel 2（肢イ）must be drawn as a three-step flowchart
+outline style. Panel 2（イ）must be drawn as a three-step flowchart
 with three separate diamond nodes — 持分割合を定める必要があるか, 所有者
 全員が書面申請の方法により申請するか, and 申請情報とあわせて全員の印鑑
 に関する証明書を提供するか — because all three conditions must be
@@ -332,7 +332,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -356,7 +356,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾情報等が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 持分割合の定め・書面申請・印鑑証明を順に確認する
@@ -380,7 +380,7 @@ Diagram: A three-step decision flowchart. 合体前の建物の所有者を複�
 Conclusion tag (green, 5-15 Japanese characters):
 印鑑証明で証明を兼ねる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 所有権の登記は職権でされるかを確認する
@@ -400,7 +400,7 @@ branch）を辿ると、結論ノード「登記官が表題登記の際に職�
 Conclusion tag (blue, 5-15 Japanese characters):
 職権でされる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 賃借権が持分に登記できる権利かを確認する
@@ -421,7 +421,7 @@ since this panel is about this branch）を辿ると、ひし形ノード「賃�
 Conclusion tag (blue, 5-15 Japanese characters):
 存続させられない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 登記名義人が同一かをまず確認する

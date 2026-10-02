@@ -112,8 +112,8 @@
 - 出題番号・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の条文根拠について、ア（民法919条1項）、イ（民法923条）、ウ（民法938条）、エ（民法926条1項）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。オ（放棄者は初めから相続人でなかったとみなされ、その持分への代位登記・仮差押えが無効となること）は、民法939条の効果からの説明で、DBのexplanationにも同条が根拠として挙げられています。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和7年度第3問が本問と全く同じ「相続の承認及び放棄」というタイトルで出題されており、中程度の重複が見つかりました**。具体的には、本問の肢エ（限定承認をした場合、自己の財産と同一の注意で相続財産を管理すればよい＝民法926条1項）と、令和7年度第3問イ（相続の承認又は放棄をするまでの期間中、固有財産と同一の注意で管理しなければならない＝民法918条）は、適用される条文・場面（限定承認"後"か、承認・放棄をする"前"の熟慮期間中か）は異なるものの、同じ「自己の財産におけるのと同一の注意」という基準を扱っている点で関連しています。また本問の肢イ（1人が単純承認すると他の相続人は限定承認できない）と、令和7年度第3問オ（1人の熟慮期間が経過しても他の相続人がまだ期間内なら共同で限定承認できる）は、共同相続人による限定承認の要件という同じテーマの裏表の関係にあります。一言一句同じ論点の再出題ではありませんが、noteで令和7年度第3問の解説記事を作成する際は、これらの点で説明が重なりやすいことに留意してください。
-- **肢オに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、肢オの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。民法899条の2（遺産分割等で法定相続分を超える権利を取得した場合の対抗要件）を学んだことがある読者ほど、「相続がらみの権利変動は結局登記の有無で決まるのでは」と考え、Ａの債権者の代位保存登記・仮差押えの登記を有効と誤解しやすい点を、相続放棄の絶対効（民法939条、対抗要件を問題にする場面ですらない）との対比で整理しています。あわせて、この対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。関連する令和3年度第3問肢エ（899条の2の解説）へのリンクも本文に追加しています。タイトルのキャッチフレーズは肢ア（承認の撤回不可）を捉えた内容のままとし、変更していません。肢オのつまずきどころ（相続放棄の絶対効と899条の2の対抗要件主義の混同）は肢アのテーマ（撤回の可否）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。個別テーマ記事については、`link-map/h29-related-articles.md`で「単純承認・限定承認・放棄の3類型比較表」の新規作成が推奨されていますが、この論点（相続放棄の絶対効と対抗要件）とは主題が異なるため、今回は新規作成せず、既存の令和3年度第3問記事へのリンクにとどめています。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和7年度第3問が本問と全く同じ「相続の承認及び放棄」というタイトルで出題されており、中程度の重複が見つかりました**。具体的には、本問のエ（限定承認をした場合、自己の財産と同一の注意で相続財産を管理すればよい＝民法926条1項）と、令和7年度第3問イ（相続の承認又は放棄をするまでの期間中、固有財産と同一の注意で管理しなければならない＝民法918条）は、適用される条文・場面（限定承認"後"か、承認・放棄をする"前"の熟慮期間中か）は異なるものの、同じ「自己の財産におけるのと同一の注意」という基準を扱っている点で関連しています。また本問のイ（1人が単純承認すると他の相続人は限定承認できない）と、令和7年度第3問オ（1人の熟慮期間が経過しても他の相続人がまだ期間内なら共同で限定承認できる）は、共同相続人による限定承認の要件という同じテーマの裏表の関係にあります。一言一句同じ論点の再出題ではありませんが、noteで令和7年度第3問の解説記事を作成する際は、これらの点で説明が重なりやすいことに留意してください。
+- **オに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、オの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。民法899条の2（遺産分割等で法定相続分を超える権利を取得した場合の対抗要件）を学んだことがある読者ほど、「相続がらみの権利変動は結局登記の有無で決まるのでは」と考え、Ａの債権者の代位保存登記・仮差押えの登記を有効と誤解しやすい点を、相続放棄の絶対効（民法939条、対抗要件を問題にする場面ですらない）との対比で整理しています。あわせて、この対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。関連する令和3年度第3問エ（899条の2の解説）へのリンクも本文に追加しています。タイトルのキャッチフレーズはア（承認の撤回不可）を捉えた内容のままとし、変更していません。オのつまずきどころ（相続放棄の絶対効と899条の2の対抗要件主義の混同）はアのテーマ（撤回の可否）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。個別テーマ記事については、`link-map/h29-related-articles.md`で「単純承認・限定承認・放棄の3類型比較表」の新規作成が推奨されていますが、この論点（相続放棄の絶対効と対抗要件）とは主題が異なるため、今回は新規作成せず、既存の令和3年度第3問記事へのリンクにとどめています。
 
 ---
 
@@ -435,7 +435,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 一度した承認は撤回できない
@@ -450,7 +450,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 熟慮期間中でも撤回不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 一人が単純承認したら他は限定承認不可
@@ -466,7 +466,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 全員共同が原則
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 相続放棄に他の相続人の承諾は不要
@@ -481,7 +481,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 単独の申述で足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 限定承認者の管理は自己の財産と同一の注意
@@ -498,7 +498,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 善管注意までは不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 放棄者の持分は最初から存在しない
@@ -533,7 +533,7 @@ visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that the multi-condition 肢(肢オ) is
+between the header and the panels, that the multi-condition 肢(オ) is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered

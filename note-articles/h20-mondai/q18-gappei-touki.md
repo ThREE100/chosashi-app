@@ -92,7 +92,7 @@
 - 出題年度・問題番号・正解番号（2番＝ア・オが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
 - **【2026年8月4日 現行法との整合性を再検証し、条文の枠組みを本文に明記しました】** 正誤の判定は初版から変更ありません。**不動産登記法56条**（建物の合併の登記の制限）が現行条文どおりであること、同条5号が「所有権等の登記以外の権利に関する登記がある建物（権利に関する登記であって、合併後の建物の登記記録に登記することができるものとして法務省令で定めるものがある建物を除く。）」を制限事由としていることを確認し、導入部に反映しました。
 - **【2026年8月6日 laws/収録の不動産登記規則で56条5号の「法務省令で定めるもの」の中身を特定しました】** 法56条5号がいう「法務省令で定めるもの」は**不動産登記規則131条**が具体的に定めており、①担保権の登記であって登記の目的・受付年月日・受付番号・登記原因及びその日付が同一のもの、②信託の登記であって登記事項が同一のもの、の2種類に限られることを確認しました。イ・ウはいずれも①の担保権の登記（仮登記・変更登記を含む）に該当するため合併の障害にならないと判断でき、初版の「所有権に関する登記かどうか」という説明軸を、規則131条に基づく「担保権・信託の登記かどうか」という軸に整理し直しました。
-- **【2026年8月23日 肢エの説明を拡充しました】** 工場財団登記がある建物の合併制限は工場抵当法に基づく特別な制限です。工場抵当法14条1項が工場財団を法律上「一個の不動産」とみなし、財団は所有権・抵当権の目的にしかならないものとしていること、同法13条2項が財団に属する物件について譲渡その他の処分を原則として禁止していること（抵当権者の同意を得た賃貸を除く）を確認し、これを根拠に、建物の合併（登記記録の消滅を伴う処分）が財団の一体性を崩すためできない、という説明を本文に追加しました。**ただし、工場抵当法はlaws/の収録対象外であり、この確認はWeb検索で得られた条文の要約に基づくもので、e-Gov等での原文の直接確認はこの実行環境からはアクセスできませんでした。**条番号・文言を実務・答案で用いる前に、一次資料（e-Gov法令検索等）でのご確認をおすすめします。正誤の結論（本肢は正しい）は変わりません。
+- **【2026年8月23日 エの説明を拡充しました】** 工場財団登記がある建物の合併制限は工場抵当法に基づく特別な制限です。工場抵当法14条1項が工場財団を法律上「一個の不動産」とみなし、財団は所有権・抵当権の目的にしかならないものとしていること、同法13条2項が財団に属する物件について譲渡その他の処分を原則として禁止していること（抵当権者の同意を得た賃貸を除く）を確認し、これを根拠に、建物の合併（登記記録の消滅を伴う処分）が財団の一体性を崩すためできない、という説明を本文に追加しました。**ただし、工場抵当法はlaws/の収録対象外であり、この確認はWeb検索で得られた条文の要約に基づくもので、e-Gov等での原文の直接確認はこの実行環境からはアクセスできませんでした。**条番号・文言を実務・答案で用いる前に、一次資料（e-Gov法令検索等）でのご確認をおすすめします。正誤の結論（本肢は正しい）は変わりません。
 - オ（敷地権の登記がある建物を主である建物とし、敷地権の登記がない建物を附属建物とする合併が一律に不可ではないこと）については、公式正答（アオが誤り）と整合するように説明したものですが、**根拠となる条文・先例は今回の再検証でも特定できていません**。この肢は引き続き確度が低い箇所ですので、実務・答案で用いる前に一次資料の確認をおすすめします。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を「工場財団」「移転仮登記」「敷地権登記のある建物を主とし」等のキーワードで確認しました。類似の抵当権・仮登記の組み合わせを問う設問はありますが、具体的な組み合わせ条件が異なり、本問特有の事例（工場財団の扱い、敷地権登記の有無による附属建物化の可否）の再出題は確認できませんでした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
 
@@ -250,7 +250,7 @@ conditions to get there — two isometric buildings with a merge arrow
 between them, registry stamp icons for the various registrations (所有権
 移転仮登記, 抵当権の登記, 移転の仮登記, 変更の登記), a dashed frame
 representing a 工場財団, and buildings with or without a 敷地権 label.
-Panels 1・2・3（肢ア・イ・ウ）all turn on the same three-diamond decision
+Panels 1・2・3（ア・イ・ウ）all turn on the same three-diamond decision
 tree used to judge whether a registered right blocks the merger under
 不動産登記規則131条: diamond 1「所有権に関する登記か」, diamond 2「担保権
 (抵当権等)または信託の登記か」, diamond 3「目的・受付年月日・受付番号・登
@@ -261,10 +261,10 @@ diamond(s) and branch(es) relevant to THIS panel's 肢 drawn with a thick
 highlighted border and full color, and the other diamonds and branches
 rendered in a faded, greyed-out, dotted-outline style rather than omitted
 — the reader should see at a glance which part of the shared tree this
-panel is about. Panel 4（肢エ）concerns an entirely separate rule (工場
+panel is about. Panel 4（エ）concerns an entirely separate rule (工場
 財団の登記) that does not go through this 131条 decision tree, so draw it
 as a standalone labeled illustrative diagram instead of the shared tree.
-Panel 5（肢オ）is a case where a reader might mistakenly assume the
+Panel 5（オ）is a case where a reader might mistakenly assume the
 question is about the same 131条 decision tree, when it is actually a
 different issue (whether a 敷地権 building and a non-敷地権 building can
 combine as main and attached buildings), so draw it as a LEFT/RIGHT
@@ -311,7 +311,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft beige containing the number 1.
 Heading (bold, ONE line):
 所有権の登記は131条の例外に当たらない
@@ -331,7 +331,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 所有権登記は障害
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft beige containing the number 2.
 Heading (bold, ONE line):
 抵当権の移転仮登記は内容が同一なら合併できる
@@ -352,7 +352,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 担保権なら合併可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3.
 Heading (bold, ONE line):
 抵当権の変更登記も内容が同一なら合併できる
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 変更登記も合併可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft beige containing the number 4.
 Heading (bold, ONE line):
 工場財団に属する建物は合併できない
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 財団は合併不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft beige containing the number 5.
 Heading (bold, ONE line):
 敷地権登記の有無は131条とは別の論点

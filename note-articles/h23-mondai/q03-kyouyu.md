@@ -95,7 +95,7 @@ Bの持分についてのみ第三者Dへの不実の持分移転登記がされ
 - 各肢の法的根拠のうち、ア（民法252条1項前段）、イ（民法249条1項・252条1項後段・3項、最判昭41.5.19）、ウ（民法252条5項、最判昭31.5.10ほか）、エ（最判昭51.9.7）、オ（民法258条2項・3項）は条文・判例レベルで確認済みです。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成27年度第2問で「共有」が同じくテーマとして出題されていることを確認しました。ただし具体的な論点（本問は共同賃貸の解除・不実登記の抹消請求・単独占有への明渡請求・損害賠償・競売による代金分割、平成27年度第2問は変更行為への同意・賃貸借解除の要件等）は異なり、平成27年度分の記事は本シリーズでは未執筆です。将来平成27年度分を執筆する際は、論点の重複がないか改めてご確認ください。
-- **適用法令の現行性チェック（2026-10-01実施）**：2026-08-04の前回チェックに続き、ローカル法令データベース（`note-articles/laws/minpou-1-soukyoku-bukken.md`）で、令和5年4月1日施行の共有制度改正後の民法249条〜258条を条文原文で確認しました。①肢ア：管理に関する事項を持分価格の過半数で決める規定は現252条1項前段です（旧252条本文）。共有物の賃貸借の解除が管理行為に当たる点は判例の解釈で、条文には明記されていません。なお、従来の本文にあった「解除権の不可分（544条）とも整合する」という記述は、544条1項が全員からの解除を求める規定で、過半数で足りるとする本肢の整理と食い違うため削除しました（544条1項が共有物の賃貸借の解除には適用されないという判例理解は、ローカル法令データベースでは確認できていません）。②肢イ：現252条1項後段で、共有物を使用する共有者がいるときも持分価格の過半数で管理事項を決められることが明文化され、その決定が使用中の共有者に特別の影響を及ぼすときは承諾が必要とされました（同条3項）。249条2項（使用の対価の償還義務）も新設されています。持分が過半数であるだけでは当然には明渡しを請求できないという本肢の結論は維持されると判断しましたが、改正後の裁判例・解説までは確認できていません。③肢ウ：保存行為の規定は旧252条ただし書から現252条5項に移りました。④肢エ：条文上の変更はありません（判例の結論は維持）。⑤肢オ：競売の規定は旧258条2項から現258条3項に移り、現物分割（258条2項1号）に加えて賠償分割（同項2号）が明文化されました。現258条3項は、現物分割・賠償分割のどちらもできないとき、または分割によって価格を著しく減少させるおそれがあるときに競売を命じられるとしており、肢オの「現物で分割することが不可能であるか」（賠償分割への言及なし）は現行法の文言と厳密には一致しません。公式正解（オ＝正）と出題当時の条文に従い、判定は変更していません（現行法で出題された場合は、判定が揺れる余地があります）。なお、導入文の「変更・処分行為（全員の同意が必要）」は概略で、現251条1項は形状又は効用の著しい変更を伴わない変更を除いており、軽微な変更は管理行為（252条1項）として持分価格の過半数で決められます。
+- **適用法令の現行性チェック（2026-10-01実施）**：2026-08-04の前回チェックに続き、ローカル法令データベース（`note-articles/laws/minpou-1-soukyoku-bukken.md`）で、令和5年4月1日施行の共有制度改正後の民法249条〜258条を条文原文で確認しました。①ア：管理に関する事項を持分価格の過半数で決める規定は現252条1項前段です（旧252条本文）。共有物の賃貸借の解除が管理行為に当たる点は判例の解釈で、条文には明記されていません。なお、従来の本文にあった「解除権の不可分（544条）とも整合する」という記述は、544条1項が全員からの解除を求める規定で、過半数で足りるとする本肢の整理と食い違うため削除しました（544条1項が共有物の賃貸借の解除には適用されないという判例理解は、ローカル法令データベースでは確認できていません）。②イ：現252条1項後段で、共有物を使用する共有者がいるときも持分価格の過半数で管理事項を決められることが明文化され、その決定が使用中の共有者に特別の影響を及ぼすときは承諾が必要とされました（同条3項）。249条2項（使用の対価の償還義務）も新設されています。持分が過半数であるだけでは当然には明渡しを請求できないという本肢の結論は維持されると判断しましたが、改正後の裁判例・解説までは確認できていません。③ウ：保存行為の規定は旧252条ただし書から現252条5項に移りました。④エ：条文上の変更はありません（判例の結論は維持）。⑤オ：競売の規定は旧258条2項から現258条3項に移り、現物分割（258条2項1号）に加えて賠償分割（同項2号）が明文化されました。現258条3項は、現物分割・賠償分割のどちらもできないとき、または分割によって価格を著しく減少させるおそれがあるときに競売を命じられるとしており、オの「現物で分割することが不可能であるか」（賠償分割への言及なし）は現行法の文言と厳密には一致しません。公式正解（オ＝正）と出題当時の条文に従い、判定は変更していません（現行法で出題された場合は、判定が揺れる余地があります）。なお、導入文の「変更・処分行為（全員の同意が必要）」は概略で、現251条1項は形状又は効用の著しい変更を伴わない変更を除いており、軽微な変更は管理行為（252条1項）として持分価格の過半数で決められます。
 
 ---
 
@@ -262,17 +262,17 @@ conditions to get there — three co-owner figures around a shared land
 plot, a three-branch signpost splitting into 保存行為・管理行為・処分行
 為 for the classification肢, a shield icon labeled 使用権 for the
 occupying共有者, a scaled-down damages arrow for 持分割合による按分, and
-a gavel/auction-hammer icon for 競売による代金分割. Panels 1（肢ア）and
-3（肢ウ）share the same underlying decision-tree shape: both start from
+a gavel/auction-hammer icon for 競売による代金分割. Panels 1（ア）and
+3（ウ）share the same underlying decision-tree shape: both start from
 the same three-branch signpost（この行為は保存行為・管理行為・処分行為
 のどれに当たるか）, but Panel 1 highlights（太い縁取り・色を変える等で
 強調）the 管理行為 branch (leading to 過半数の同意が必要) while Panel 3
 highlights the 保存行為 branch (leading to 単独で請求できる) — draw both
 signposts identically in shape and layout so the reader recognizes it as
 the same classification tree used twice. Where a 肢 is resolved by a
-single check rather than this three-way classification (肢イ・エ), a
+single check rather than this three-way classification (イ・エ), a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panel 5（肢オ）, by contrast, needs two checks in sequence (現物分割 first,
+Panel 5（オ）, by contrast, needs two checks in sequence (現物分割 first,
 then 賠償分割) before a 競売 can be ordered, so draw it as an actual
 decision flowchart with two diamond nodes and no loop-back arrow.
 Unlike a glanceable summary poster, each panel MAY include a short
@@ -318,7 +318,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 賃貸解除の分類は「管理行為」
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 管理行為・過半数
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 占有者本人にも使用権がある
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 使用権あり
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 不実登記の抹消は「保存行為」
@@ -384,7 +384,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為・単独可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 損害賠償請求権も持分で分割
@@ -401,7 +401,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 持分割合の範囲
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 分けられなければ競売で分配

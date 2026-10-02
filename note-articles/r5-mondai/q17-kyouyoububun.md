@@ -88,7 +88,7 @@
 - 出題番号・正解番号（2番＝ア・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の条文根拠のうち、ア（区分所有法4条2項）、イ（法58条4項）、ウ（法51条1項）、エ（不動産登記令別表16項添付情報ロ）、オ（令6条1項・不動産登記規則34条2項）は、データベースのexplanationフィールドで条文番号まで明記されているものです。一般原則からの推論にとどまる肢は特にありません。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonでR06・R07年度の全問題と本問の各肢を文字列類似度で突き合わせました。肢ア（共用部分とする旨の規約を定めた場合の登記申請義務の有無）は、**令和7年度午後の部第15問肢イとほぼ同一の文言・同一の論点**（文字列類似度0.92）であることを確認しました。noteへの投稿順序によっては同じ論点の解説が重複するため、投稿時はどちらか一方に寄せる、または相互リンクで誘導するなどの対応を検討してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonでR06・R07年度の全問題と本問の各肢を文字列類似度で突き合わせました。ア（共用部分とする旨の規約を定めた場合の登記申請義務の有無）は、**令和7年度午後の部第15問イとほぼ同一の文言・同一の論点**（文字列類似度0.92）であることを確認しました。noteへの投稿順序によっては同じ論点の解説が重複するため、投稿時はどちらか一方に寄せる、または相互リンクで誘導するなどの対応を検討してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026-08-03実施）**：不動産登記法51条1項・58条2項・58条4項、不動産登記令6条1項、不動産登記規則34条2項は、令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。
 - **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の不動産登記法・不動産登記令・不動産登記規則・区分所有法の条文原文と照合しました。アの根拠として引用していた「不動産登記法58条2項」は、原文を確認したところ「共用部分である旨の登記等をする建物の表題部所有者又は所有権の登記名義人以外の者は、申請することができない」という申請適格者の限定規定であり、「対抗要件であって申請義務がない」という本文の説明内容とは対応していませんでした。この説明内容の実際の根拠は区分所有法4条2項（「その旨の登記をしなければ、これをもつて第三者に対抗することができない」）であるため、本文・確認事項の引用を「区分所有法4条2項」に修正しました。イ（法58条4項）、ウ（法51条1項）、エ（不動産登記令別表十六の項添付情報ロ）、オ（令6条1項・不動産登記規則34条2項・3条8号ロ）は原文と照合し、相違なしでした。
 ---
@@ -315,7 +315,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申請義務ではなく対抗要件
@@ -332,14 +332,14 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 義務ではなく対抗要件
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 所有権登記の有無で抹消先が変わる
 Diagram: A decision flowchart. Start node: 共用部分である旨の登記がされ
 る. Diamond node: 所有権の登記があるか？ A plain blue はい branch leads
 to a conclusion node reading「所有権その他の権利に関する登記を職権で抹
-消」. A green branch with a thick highlighted border (本肢イの対象) for
+消」. A green branch with a thick highlighted border (本イの対象) for
 いいえ leads to a conclusion node showing an isometric 登記記録 ledger
 page with「表題部所有者Ａ」crossed out by a red 抹消 stamp/line.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -350,7 +350,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表題部所有者を抹消
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 種類変更も1か月以内に申請する
@@ -367,7 +367,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規約所有者が1か月以内に申請
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 区分登記には所有者証明が必要
@@ -383,13 +383,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有者証明が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 不動産番号の記載で家屋番号を省略
 Diagram: A decision flowchart. Start node: 団地共用部分である旨の登記の
 申請. Diamond node: 申請情報の内容として不動産番号を記載したか？ A green
-branch with a thick highlighted border (本肢オの対象) for はい leads to a
+branch with a thick highlighted border (本オの対象) for はい leads to a
 conclusion node showing an application form with a「不動産番号」
 barcode/tag icon highlighted and a dotted, crossed-out「家屋番号」label
 beside it. A plain blue いいえ branch leads to its own conclusion node

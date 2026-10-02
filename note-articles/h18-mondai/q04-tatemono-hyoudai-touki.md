@@ -298,20 +298,20 @@ diamond-shaped branch nodes with the condition written on them, Yes/No (or
 a single check, or where a 肢 states two independent facts that both hold
 at once rather than a branching condition, a labeled illustrative diagram,
 a parallel-timeline diagram, or a correct-rule-versus-common-mistake
-contrast panel is sufficient — do not force a flowchart. Panel 1 (肢ア)
+contrast panel is sufficient — do not force a flowchart. Panel 1 (ア)
 uses a correct-rule-versus-common-mistake contrast layout, since this 肢
 tests precise reading of how many sets of drawings must be prepared rather
-than a multi-step condition. Panel 2 (肢イ) uses a parallel-timeline
+than a multi-step condition. Panel 2 (イ) uses a parallel-timeline
 diagram showing two independent obligations (each starting from its own
 trigger date) side by side, rather than a flowchart, since the point of
 this 肢 is that two separate people each carry their own independent
-1-month deadline, not a branching yes/no decision. Panel 3 (肢ウ) uses a
+1-month deadline, not a branching yes/no decision. Panel 3 (ウ) uses a
 labeled illustrative diagram listing several 地目 plus a separate pier
 scene, since this 肢 tests the absence of a restriction rather than a
-condition to branch on. Panel 4 (肢エ) uses a three-step sequence diagram
+condition to branch on. Panel 4 (エ) uses a three-step sequence diagram
 on a shared horizontal timeline (解体 → 別の敷地へ運搬 → 滅失登記/表題登記),
 since the reasoning is a chronological sequence of events rather than a
-yes/no branch. Panel 5 (肢オ) illustrates two facts that both hold
+yes/no branch. Panel 5 (オ) illustrates two facts that both hold
 simultaneously for a co-owned building (each co-owner's 持分 must be
 recorded, AND the application may be filed by just one co-owner) as one
 combined labeled diagram rather than a flowchart, since neither fact is
@@ -363,7 +363,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in orange containing the number 1.
 Heading (bold, ONE line):
 附属建物込みで図面は1組でよい
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 まとめて1個、図面は1組
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 新築主も買主も自分の期限で申請義務
@@ -408,7 +408,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 2人とも独立して申請義務
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 地目もさん橋の建物も登記を妨げない
@@ -427,7 +427,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地目も所在も問わない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 解体して別の敷地に建てれば別の建物
@@ -448,7 +448,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 滅失登記＋新規の表題登記
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 持分は記録するが申請は1人でよい

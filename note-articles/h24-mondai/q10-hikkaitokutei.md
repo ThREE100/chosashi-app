@@ -97,8 +97,8 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・図の構成・正解番号（4番＝イ・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - `note-articles/laws/`のローカル法令データベース（不動産登記法、e-Gov現行法2026-08-04取得）で全肢の条文原文・号数を確認済みです。ア＝132条1項7号ただし書、イ＝123条3号（対象土地の定義）、ウ＝131条1項・123条5号（所有権登記名義人等の定義）、エ＝123条1号（筆界の定義）、オ＝132条1項6号（却下事由は筆界確定訴訟の確定判決のみで、所有権確認訴訟は含まれない）は、いずれも条文の文言に基づく内容です。アの「文書の偽造」という具体的事情そのものは条文に明記された文言ではなく、132条1項7号ただし書の「特段の必要」の当てはめ例として整理しています。
-- **補足説明の追記（2026-08-18実施）**：肢エについて、ユーザーからの質問（「片方だけ無地番の場合は筆界特定できるのか」）を受け、不動産登記法123条1号のかっこ書き（「他の土地」には表題登記がない土地を含む）を根拠に、無地番同士の場合のみ対象外となる旨を明確化する一文を追記しました。片方が地番のある一筆の土地であれば、もう一方が無地番でも対象土地にできる点は、実務上も地番のある民有地と無地番の里道・水路との筆界を明らかにする典型的な利用場面です。結論・正解番号に変更はありません。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「筆界特定」がテーマの問題を確認しました。**本問肢オ（甲土地を所有するAが、隣接する乙土地を所有する者に対しAの所有範囲について所有権確認の訴えを提起しその判決が確定した場合であっても、Aは甲土地及び乙土地を対象土地として筆界特定の申請をすることができる、という記述）とほぼ同一の事実関係（登場人物名の一部を除きほぼ同一の文章）が、令和7年度第16問肢イとして出題されており、`note-articles/r7-mondai/q16-hikkaitokutei.md` として既に本シリーズでnote記事化済みです。** 令和7年度第16問は「誤っているものの組合せ」を問う形式で、肢イは「（同じ事実関係のもとで）申請をすることができない」という誤りの記述として登場しており、両問とも「所有権の範囲の確認と筆界の確定は別制度である」という結論は共通しています。**本問（H24第10問）をnoteに投稿する際は、既に公開済みの令和7年度第16問の記事と内容が酷似する可能性があるため、投稿順序をずらす、当該肢の解説を簡略化する、または投稿を見送るなどの対応を検討してください。**それ以外の肢（ア・イ・ウ・エ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **補足説明の追記（2026-08-18実施）**：エについて、ユーザーからの質問（「片方だけ無地番の場合は筆界特定できるのか」）を受け、不動産登記法123条1号のかっこ書き（「他の土地」には表題登記がない土地を含む）を根拠に、無地番同士の場合のみ対象外となる旨を明確化する一文を追記しました。片方が地番のある一筆の土地であれば、もう一方が無地番でも対象土地にできる点は、実務上も地番のある民有地と無地番の里道・水路との筆界を明らかにする典型的な利用場面です。結論・正解番号に変更はありません。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「筆界特定」がテーマの問題を確認しました。**本問オ（甲土地を所有するAが、隣接する乙土地を所有する者に対しAの所有範囲について所有権確認の訴えを提起しその判決が確定した場合であっても、Aは甲土地及び乙土地を対象土地として筆界特定の申請をすることができる、という記述）とほぼ同一の事実関係（登場人物名の一部を除きほぼ同一の文章）が、令和7年度第16問イとして出題されており、`note-articles/r7-mondai/q16-hikkaitokutei.md` として既に本シリーズでnote記事化済みです。** 令和7年度第16問は「誤っているものの組合せ」を問う形式で、イは「（同じ事実関係のもとで）申請をすることができない」という誤りの記述として登場しており、両問とも「所有権の範囲の確認と筆界の確定は別制度である」という結論は共通しています。**本問（H24第10問）をnoteに投稿する際は、既に公開済みの令和7年度第16問の記事と内容が酷似する可能性があるため、投稿順序をずらす、当該肢の解説を簡略化する、または投稿を見送るなどの対応を検討してください。**それ以外の肢（ア・イ・ウ・エ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -260,12 +260,12 @@ actual decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 1
-（肢ア）and Panel 4（肢エ）each have a genuinely hidden second condition
+（ア）and Panel 4（エ）each have a genuinely hidden second condition
 (原則→「特段の必要」の例外、および無地番同士か片方に地番があるかの区別)
 and are drawn as true decision trees with BOTH branch outcomes given their
 own conclusion node — no branch may loop back to an earlier node. Panel 2
-（肢イ）uses a spatial-arrangement illustration, Panel 3（肢ウ）uses a
-correct-rule-vs-common-misconception layout, and Panel 5（肢オ）uses a
+（イ）uses a spatial-arrangement illustration, Panel 3（ウ）uses a
+correct-rule-vs-common-misconception layout, and Panel 5（オ）uses a
 side-by-side comparison of two different kinds of lawsuits rather than a
 flowchart, since each is resolved by identifying the correct category
 rather than by a sequential multi-step check. Unlike a glanceable summary
@@ -314,7 +314,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 重大な瑕疵があれば同一筆界を再申請できる
@@ -337,7 +337,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 重大な瑕疵なら再申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 筆界を接しない土地同士は対象外
@@ -356,7 +356,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 隣接土地のみ対象
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 抵当権者には申請人の資格がない
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抵当権者は対象外
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 片方に地番があれば無地番でも対象になる
@@ -397,7 +397,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 無地番同士は不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 却下事由は筆界確定訴訟の確定のみ
@@ -433,7 +433,7 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-肢ア and 肢エ are each drawn as an actual flowchart with a clearly labeled
+ア and エ are each drawn as an actual flowchart with a clearly labeled
 はい side and いいえ side conclusion node (not a bare illustration with no
 visible decision structure) while the other panels use a spatial-
 arrangement illustration, a correct-rule-vs-misconception layout, or a

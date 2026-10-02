@@ -95,8 +95,8 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
 - 各肢の条文根拠のうち、条文レベルで確認できたもの：イ（民法102条本文・制限行為能力者を代理人にできること）、ウ（民法110条・権限外行為の表見代理／本人の帰責性が要件でないことは判例の趣旨として整理）、オ（民法115条本文・無権代理の相手方の取消権は追認前まで）は、データベースの記述と現行条文が一致しています。
-- データベース内で条文番号に食い違いがあった2点は、WebSearchで裏取りし解消しました。肢ア（復代理人の選任）は、explanationフィールドでは「104条」、pitfalls／keyPointsでは「106条」と食い違っていましたが、Wikibooks・司法書士/行政書士等の解説サイトで確認したところ、「委任による代理人は、本人の許諾を得たとき、又はやむを得ない事由があるときでなければ、復代理人を選任することができない」と定めるのは現行民法104条（任意代理人による復代理人の選任）であり、106条は「復代理人の権限等」を定める別の規定であることが確認できました（民法104条・e-Gov法令検索ベースで確認済み）。肢エ（顕名なき意思表示）も、explanationでは「100条」、keyPointsでは「99条」と食い違っていましたが、99条は「代理人がその権限内において本人のためにすることを示してした意思表示」（顕名あり）の効果を定める規定であり、「本人のためにすることを示さない意思表示」を代理人自身のためにしたものとみなす規定は民法100条であることを複数の解説サイトで確認しました（民法100条・確認済み）。
-- 肢ウで本人の過失（帰責性）が110条の要件でないという結論について、WebSearchで複数の解説サイト・判例紹介を確認したところ、起草当初は本人の過失も要件と考えられていたが、その後の判例・通説は取引安全を重視し本人の過失を要件としない立場を採っている、という法的帰結自体は複数の情報源で一致して確認できました。ただし、この帰結を示す最高裁判決の日付については情報源によって挙げる判決日が異なり（昭和34年2月5日判決を挙げるものと、昭和45年6月2日判決を挙げるもの等）、WebSearchでは日付を一つに確定できませんでした。「本人の過失は要件でない」という解釈自体は確認済みですが、引用判例の日付はなお不確実な点として正直に残します。
+- データベース内で条文番号に食い違いがあった2点は、WebSearchで裏取りし解消しました。ア（復代理人の選任）は、explanationフィールドでは「104条」、pitfalls／keyPointsでは「106条」と食い違っていましたが、Wikibooks・司法書士/行政書士等の解説サイトで確認したところ、「委任による代理人は、本人の許諾を得たとき、又はやむを得ない事由があるときでなければ、復代理人を選任することができない」と定めるのは現行民法104条（任意代理人による復代理人の選任）であり、106条は「復代理人の権限等」を定める別の規定であることが確認できました（民法104条・e-Gov法令検索ベースで確認済み）。エ（顕名なき意思表示）も、explanationでは「100条」、keyPointsでは「99条」と食い違っていましたが、99条は「代理人がその権限内において本人のためにすることを示してした意思表示」（顕名あり）の効果を定める規定であり、「本人のためにすることを示さない意思表示」を代理人自身のためにしたものとみなす規定は民法100条であることを複数の解説サイトで確認しました（民法100条・確認済み）。
+- ウで本人の過失（帰責性）が110条の要件でないという結論について、WebSearchで複数の解説サイト・判例紹介を確認したところ、起草当初は本人の過失も要件と考えられていたが、その後の判例・通説は取引安全を重視し本人の過失を要件としない立場を採っている、という法的帰結自体は複数の情報源で一致して確認できました。ただし、この帰結を示す最高裁判決の日付については情報源によって挙げる判決日が異なり（昭和34年2月5日判決を挙げるものと、昭和45年6月2日判決を挙げるもの等）、WebSearchでは日付を一つに確定できませんでした。「本人の過失は要件でない」という解釈自体は確認済みですが、引用判例の日付はなお不確実な点として正直に残します。
 - アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。本記事は上記アプリの検証済みデータベースと条文の確認のみに基づいて作成しています。
 
 ---
@@ -323,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 やむを得ない事由なら許諾不要
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 許諾なしで選任可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 代理人の未成年は取消理由にならない
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 行為能力は無関係
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 表見代理は正当理由だけで成立
@@ -377,7 +377,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 過失は要件でない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 顕名がなければ代理人自身の行為
@@ -398,7 +398,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原則は代理人自身の行為
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 追認の前後で取消しの可否が変わる
@@ -429,7 +429,7 @@ attention to 権・認・復・顕. If any character renders as a Simplified or 
 Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢（肢エ・肢オ）is
+the header and the panels, that every multi-condition 肢（エ・オ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered

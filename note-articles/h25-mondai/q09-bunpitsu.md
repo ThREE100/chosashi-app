@@ -242,12 +242,12 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — isometric land plots, rivers, registry desks,
 application documents, official stamps, and condominium buildings. Panel
-1（肢ア）uses a side-by-side comparison frame（対比枠型）rather than a
+1（ア）uses a side-by-side comparison frame（対比枠型）rather than a
 flowchart, because the point of this 肢 is distinguishing a procedure that
 changes land use or rights (requires 農業委員会の許可) from a procedure
-that merely divides the parcel (does not). Panels 2（肢イ）and 3（肢ウ）are
+that merely divides the parcel (does not). Panels 2（イ）and 3（ウ）are
 resolved by a single check each and should use a labeled illustrative
-diagram rather than a forced flowchart. Panel 4（肢エ）must be drawn as a
+diagram rather than a forced flowchart. Panel 4（エ）must be drawn as a
 genuine two-diamond decision flowchart, because the source rule requires
 TWO distinct conditions joined by「において」「ときは」— do not compress
 them into one check: (1) 地図を作成するため必要があると認められること, and
@@ -255,7 +255,7 @@ them into one check: (1) 地図を作成するため必要があると認めら�
 ときに限り」職権による分筆ができるとされているので、render both outcomes
 of the second diamond with their own conclusion nodes (はい: 職権で分筆
 できる; いいえ: 職権ではできない), and do not draw a looping arrow back
-into an earlier node. Panel 5（肢オ）uses a「正誤対比型」layout contrasting
+into an earlier node. Panel 5（オ）uses a「正誤対比型」layout contrasting
 a common misconception with the correct rule, since this 肢 tests precise
 reading of the rule rather than multi-step reasoning. Unlike a glanceable
 summary poster, each panel MAY include a short「着眼点」callout box with
@@ -303,7 +303,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 区画を分けるだけなら許可書不要
@@ -323,7 +323,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 許可書は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 仮登記名義人に申請適格はない
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請資格なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 河川管理者が代わりに嘱託できる
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 名義人不要で嘱託
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地図作成目的かつ異議なしで職権可
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 二条件そろえば職権可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 敷地権の土地でも分筆は一律禁止でない

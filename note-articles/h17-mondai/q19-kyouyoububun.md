@@ -330,7 +330,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 氏名・住所は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 抵当権登記の有無をまず確認する
@@ -367,7 +367,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 抵当権ありなら承諾情報
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 規約廃止後の取得日から1か月の期限を確認する
@@ -385,7 +385,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取得日から1か月以内
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 登記後に既存の登記がどうなるかを確認する
@@ -403,7 +403,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 職権で自動抹消
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 申請人の資格をまず確認する

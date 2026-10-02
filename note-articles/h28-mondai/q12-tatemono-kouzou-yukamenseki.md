@@ -339,7 +339,7 @@ chip relevant to that panel with a thick blue border and full color, and
 draw the other two chips faded gray with a dotted outline. The panel's own
 decision flowchart continues downward from the highlighted chip only.
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -364,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 屋根の種類は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 ガード下の建物は階数を「ガード下◯階建」と記録
@@ -385,7 +385,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 ガード下◯階建
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 一室の一部だけ天井が低くても一室全体を算入
@@ -412,7 +412,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一室全体を算入
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 乗降場の床面積に地下道設備の面積は足さない
@@ -439,7 +439,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地下道は算入しない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 屋根や手すりがあっても屋外階段は床面積に入れない

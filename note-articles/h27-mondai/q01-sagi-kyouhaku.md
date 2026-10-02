@@ -267,15 +267,15 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — a disguised figure whispering into an ear for
 だました側 icons, a signpost with two paths for the 詐欺/錯誤 choice, and a
 land plot with a registry board for the 取消しの対抗力 panels. Panels 4 and
-5 (肢エ・肢オ) share the same underlying decision-tree shape (取消しの理由
+5 (エ・オ) share the same underlying decision-tree shape (取消しの理由
 が詐欺か強迫かを見分け、詐欺の場合はさらに第三者の善意無過失を確認する
 判定); draw both with the same two-diamond tree layout, but highlight
 （太い縁取り・色を変える等で強調）the branch relevant to that panel's 肢.
-Where a 肢 requires checking multiple conditions in sequence (肢エ・肢オ),
+Where a 肢 requires checking multiple conditions in sequence (エ・オ),
 draw the panel's diagram as an actual decision flowchart with
 diamond-shaped branch nodes, Yes/No（はい／いいえ）branch arrows, and a
-final conclusion node. Where a 肢 is resolved by a single check (肢ア・肢
-イ・肢ウ), a labeled illustrative diagram is sufficient — do not force a
+final conclusion node. Where a 肢 is resolved by a single check (ア・肢
+イ・ウ), a labeled illustrative diagram is sufficient — do not force a
 flowchart. Unlike a glanceable summary poster, each panel MAY include a
 short「着眼点」callout box with 1-2 sentences that state the checking
 ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
@@ -317,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 だましたのが代理人なら本人基準にしない
@@ -334,7 +334,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代理人基準で判断
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 詐欺と錯誤はどちらも選べる
@@ -349,7 +349,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 選択的に主張可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 第三者の強迫は相手が善意でも取消し可
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相手方の善意 不問
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 強迫の取消しは登記抹消なしで対抗可
@@ -387,7 +387,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 抹消なしで対抗可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 詐欺取消しは可、善意無過失の第三者に対抗不可なだけ
@@ -424,7 +424,7 @@ character renders as a Simplified or Traditional Chinese variant, redraw that ch
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every
-multi-condition 肢 (肢エ・肢オ) is drawn as an actual flowchart with branch
+multi-condition 肢 (エ・オ) is drawn as an actual flowchart with branch
 nodes (not a bare illustration with no visible decision structure), that
 each 着眼点 callout states a checking order rather than only a conclusion,
 confirm nothing is rendered below the last panel's footnote text (no

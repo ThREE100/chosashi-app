@@ -85,7 +85,7 @@
 - 各肢の根拠のうち、ア・エ（準則83条）・オ（不動産登記令別表14項添付情報ハ）は、データベースのexplanationフィールドに条文番号まで明記されています。イ（共有名義の附属建物分割の申請人）・ウ（主と附属の敷地権の区別）は、建物分割の登記および敷地権付き区分建物の表題登記の一般的な取扱いからの説明です。
 - **法令再検証（2026-08-04実施）**：アの根拠条文をlaws/fudousan-touki-kisoku-1.md（不動産登記規則）およびlaws/fudousan-touki-jimu-junsoku.md（不動産登記事務取扱手続準則）で確認したところ、「不動産登記規則102条」は分筆の登記における権利部の記録方法を定めた条文であり、附属建物がある主たる建物の滅失による表題部の変更の登記の記録方法を定めているのは「不動産登記事務取扱手続準則102条」でした。誤った法令名（規則→準則）を修正しています。アの結論（主のみ滅失は抹消でなく表題部の変更で処理する）自体に誤りはなく、正解番号（ウオ＝5番）に変更はありません。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回は参照できませんでした。
-- **最新法令チェック（2026-10-01実施）**：肢イの本文は「共有者全員から申請する」としていましたが、令和5年4月1日施行の民法改正（民法251条1項の「形状又は効用の著しい変更を伴わないもの」の除外、252条1項）と、これに伴う不動産登記事務の取扱いの通達（令和5年3月28日付け法務省民二第538号）により、分筆・合筆と同様に建物の分割の登記も持分の価格の過半数を有する共有者から申請できる扱いと解されるため、本文・まとめ・図解を現行法に合わせて書き直しました。通達の原文はこの環境からは閲覧できなかったため、建物の分割が通達の対象に含まれる点は、同じ扱いを前提とする本リポジトリの関連記事（topics/kyouyuubutsu-3dankai-bunpitsu.md、令和3年度第11問）と民法の条文からの整理であり、通達本文での確認は未了です。肢イが誤りであるという結論と正解（5番）は変わりません。
+- **最新法令チェック（2026-10-01実施）**：イの本文は「共有者全員から申請する」としていましたが、令和5年4月1日施行の民法改正（民法251条1項の「形状又は効用の著しい変更を伴わないもの」の除外、252条1項）と、これに伴う不動産登記事務の取扱いの通達（令和5年3月28日付け法務省民二第538号）により、分筆・合筆と同様に建物の分割の登記も持分の価格の過半数を有する共有者から申請できる扱いと解されるため、本文・まとめ・図解を現行法に合わせて書き直しました。通達の原文はこの環境からは閲覧できなかったため、建物の分割が通達の対象に含まれる点は、同じ扱いを前提とする本リポジトリの関連記事（topics/kyouyuubutsu-3dankai-bunpitsu.md、令和3年度第11問）と民法の条文からの整理であり、通達本文での確認は未了です。イが誤りであるという結論と正解（5番）は変わりません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。**本問ウ（主である建物と附属建物がいずれも敷地権のある区分建物である場合、両者の敷地権を区別して記録する＝正しい）は、令和4年度第14問イとほぼ同一の文言・同一の結論（正しい）で再出題されています**。他の肢（主のみ滅失した場合の処理・共有名義の附属建物の分割・再築時の建物図面・附属建物新築時の所有権証明情報）は令和4年度の問題には見当たらず、出題全体としては別の問題ですが、上記ウの1肢についてはnoteでの執筆・公開に際して「たとえば」の具体例が似た内容にならないよう注意してください。他に重複する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -277,7 +277,7 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panels 1, 2, and 4（肢ア・肢イ・肢エ）must each be drawn as a
+flowchart. Panels 1, 2, and 4（ア・イ・エ）must each be drawn as a
 正誤対比型 side-by-side comparison, because each of these 肢 corrects a
 specific intuitive-but-wrong assumption: draw a red-background 誤りやすい
 イメージ side with a large ✕ next to a green-background 正しい仕組み side
@@ -325,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 母屋滅失後は抹消か変更かを見分ける
@@ -346,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抹消でなく変更
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 附属建物の分割は申請人が誰かを確認する
@@ -367,7 +367,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 持分の過半数で申請
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 主と附属、それぞれの敷地権の記載を確認する
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 敷地権は区別表示
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 基礎を残した再築が新築扱いかを確認する
@@ -407,7 +407,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 新築として扱う
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 附属建物新築時の添付情報を確認する

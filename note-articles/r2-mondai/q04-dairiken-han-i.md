@@ -298,7 +298,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 取下げの特別委任の有無を確認する
@@ -320,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取下げ不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 還付金受領の特別委任の有無を確認する
@@ -340,7 +340,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 受領には特別委任
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 識別情報提供の特別委任の有無を確認する
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 暗号化に特別委任
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 識別情報受領の特別委任の有無を確認する
@@ -383,7 +383,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 復号に特別委任
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 審査請求の特別委任の有無を確認する

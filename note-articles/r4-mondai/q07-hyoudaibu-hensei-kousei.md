@@ -90,7 +90,7 @@
 - 出題年度・問題番号・正解番号（5番＝エ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア＝法38条、イ＝令別表6項添付情報、ウ＝規則88条1項、エ＝法37条1項、オ＝規則100条・昭54.1.8民三343号）は、データベースのexplanationフィールドおよびkaisetsu_plus.jsonに記載のものを転記しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
-- 公開後のダブルチェックで、肢オの解説が「地積の記録単位（100分の1まで）は面積によってルールが変わるはずでは」というご指摘を受け、不動産登記規則100条を確認しました。同条は「1平方メートルの100分の1（宅地及び鉱泉地以外の土地で10平方メートルを超えるものについては、1平方メートル）未満の端数は、切り捨てる」と定めており、100分の1まで記録できるのは①宅地・鉱泉地（面積を問わず）、②宅地・鉱泉地以外で10平方メートル以下の土地、の場合に限られ、③宅地・鉱泉地以外で10平方メートルを超える土地は整数（1平方メートル単位）までしか記録できません。本肢は「地目を宅地に変更する場合」の設問なので①にあたり、結論（100分の1まで記録できる＝正しい）は変わりませんが、この条件を明記していなかったため、解説に条文（規則100条）と地目・面積による場合分けを追記しました。
+- 公開後のダブルチェックで、オの解説が「地積の記録単位（100分の1まで）は面積によってルールが変わるはずでは」というご指摘を受け、不動産登記規則100条を確認しました。同条は「1平方メートルの100分の1（宅地及び鉱泉地以外の土地で10平方メートルを超えるものについては、1平方メートル）未満の端数は、切り捨てる」と定めており、100分の1まで記録できるのは①宅地・鉱泉地（面積を問わず）、②宅地・鉱泉地以外で10平方メートル以下の土地、の場合に限られ、③宅地・鉱泉地以外で10平方メートルを超える土地は整数（1平方メートル単位）までしか記録できません。本肢は「地目を宅地に変更する場合」の設問なので①にあたり、結論（100分の1まで記録できる＝正しい）は変わりませんが、この条件を明記していなかったため、解説に条文（規則100条）と地目・面積による場合分けを追記しました。
 
 ---
 
@@ -247,7 +247,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（更正登記の性質、地積測量図の要否、求積誤りの直し方、地目変更の申請義務、換算地積の記録単位の判定順序など）を肢ごとに示す作図ガイドを追加した。特に肢オは「地目→面積」の2段階の条件判定になっているため、実際の決定木（フローチャート）として描いている。
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（更正登記の性質、地積測量図の要否、求積誤りの直し方、地目変更の申請義務、換算地積の記録単位の判定順序など）を肢ごとに示す作図ガイドを追加した。特にオは「地目→面積」の2段階の条件判定になっているため、実際の決定木（フローチャート）として描いている。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -264,7 +264,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there - isometric land parcels, rolled survey-map
 (地積測量図) icons, calendar icons marking filing deadlines, application
 and registration documents, a registered-owner (登記名義人) character, and
-- for the branching 肢オ - diamond-shaped decision nodes for the 地目 and
+- for the branching オ - diamond-shaped decision nodes for the 地目 and
 面積 checks. Where a 肢 requires checking multiple conditions in sequence
 before reaching a conclusion, draw the panel's diagram as an actual
 decision flowchart: diamond-shaped branch nodes with the condition
@@ -321,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -343,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請義務なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 公差内でも地積測量図は省略できない
@@ -362,7 +362,7 @@ attached to the application regardless of how small the gap is.
 Conclusion tag (green, 5-15 Japanese characters):
 省略できない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 求積計算の誤りは地積更正の登記で正す
@@ -381,7 +381,7 @@ red ✕ over it; the other arrow leading to a stamped document icon reading
 Conclusion tag (green, 5-15 Japanese characters):
 更正の登記で正す
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地目変更は1か月以内に申請義務がある
@@ -398,7 +398,7 @@ land plot.
 Conclusion tag (blue, 5-15 Japanese characters):
 1か月以内に申請
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 宅地なら面積を問わず100分の1まで記録
@@ -406,12 +406,12 @@ Diagram: Draw an actual decision flowchart starting from a start node
 labeled「換算した地積をどこまで記録できるか」. From it, draw a
 diamond-shaped branch node①labeled「①変更後の地目は宅地・鉱泉地か？」.
 Render the Yes-branch arrow and its destination conclusion node with a
-thick highlighted border and full color, since this is the path 肢オ
+thick highlighted border and full color, since this is the path オ
 actually follows: the Yes arrow leads to a conclusion node reading
 「面積の大小を問わず1平方メートルの100分の1まで記録」, with a small
 worked-example tag beside it reading「30歩→99.17355平方メートル→99.17
 平方メートル」. Render the No-branch arrow and everything past it in a
-faded, greyed-out, dotted-outline style, since this branch is not 肢オ's
+faded, greyed-out, dotted-outline style, since this branch is not オ's
 own case: the No arrow leads to a second diamond-shaped branch node②
 labeled「②面積は10平方メートル以下か？」, which itself splits into a Yes
 arrow leading to a faded conclusion node reading「100分の1まで記録」and a
@@ -438,9 +438,9 @@ attention to 記, 積, 誤, 変, 認, 図, 測, 請, 義, 務, 録, 訂, 鉱, �
 産, 規, 項, 報, 囲, 種, 雑, 実, 読, 題, 設, 課, 場, 問, 範, and 計. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
 character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly
-(肢ア／肢イ／肢ウ／肢エ／肢オ), badge numbers run 1-5 continuously, there
+(ア／イ／ウ／エ／オ), badge numbers run 1-5 continuously, there
 is no intro illustration or paragraph block between the header and the
-panels, that panel 5 (肢オ) is drawn as an actual flowchart with diamond
+panels, that panel 5 (オ) is drawn as an actual flowchart with diamond
 branch nodes and explicit conclusion nodes on every branch with no
 looping arrows back into the diagram, that panels 1-4 each remain a
 single-check illustrative diagram without being forced into an

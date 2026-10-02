@@ -248,12 +248,12 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No（はい／いいえ）
 branch arrows, and a final conclusion node. Where a 肢 is resolved by a
 single check, a labeled illustrative diagram is sufficient — do not force
-a flowchart. Panel 2（肢イ）is the only 肢 in this problem where BOTH
+a flowchart. Panel 2（イ）is the only 肢 in this problem where BOTH
 branch outcomes are legally meaningful (地積そのものが変わるかどうかで、
 訂正の申出で足りるか地積の更正登記が必要になるかが入れ替わる) and is
 drawn as a true decision tree with both an「はい」side conclusion node and
 an「いいえ」side conclusion node — no branch may loop back to an earlier
-node. The other four panels（肢ア・ウ・エ・オ）are resolved with a single
+node. The other four panels（ア・ウ・エ・オ）are resolved with a single
 check and use a family-tree illustration or a correct-rule-vs-common-
 misconception layout instead of a flowchart. Unlike a glanceable summary
 poster, each panel MAY include a short「着眼点」callout box with 1-2
@@ -301,7 +301,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 相続人は各自単独で訂正を申し出られる
@@ -320,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 単独で申出できる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地積が変わるなら訂正でなく更正登記
@@ -342,7 +342,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地積が変わるなら更正登記
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 住所変更証明情報の提供で申出可能
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 住所変更証明でOK
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 委任状の押印に印鑑証明書は不要
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 印鑑証明書は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 訂正事由が明らかでも図面提出は必要
@@ -425,7 +425,7 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-肢イ is drawn as an actual flowchart with a clearly labeled はい side and
+イ is drawn as an actual flowchart with a clearly labeled はい side and
 いいえ side conclusion node (not a bare illustration with no visible
 decision structure) while the other panels use a family-tree illustration
 or a correct-rule-vs-misconception layout, that each 着眼点 callout states

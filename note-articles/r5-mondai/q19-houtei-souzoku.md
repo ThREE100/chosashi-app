@@ -323,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 資格者代理人は委任状だけでは足りない
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 身分証明書も必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 申出人の住所地の登記所でも申出できる
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 4つのいずれかでOK
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 他の相続人の住所は任意記載事項
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 他の相続人は任意記載
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 被相続人が名義人でなくても申出できる
@@ -398,13 +398,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 名義人要件はない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 再交付を頼めるのは申出人本人のみ
 Diagram: A decision flowchart. Start node: 写しの再交付を求める人が現れ
 る. Diamond node: 保管の申出をした申出人本人か？ A green branch with a
-thick highlighted border (本肢オの対象) for はい leads to a conclusion
+thick highlighted border (本オの対象) for はい leads to a conclusion
 node showing 申出人Ａ receiving a duplicate copy of the 一覧図 from a
 登記所 counter window. A plain blue いいえ branch leads to its own
 conclusion node showing another character labeled「Ｂ」standing behind

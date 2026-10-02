@@ -87,7 +87,7 @@
   - **ア**：甲土地・乙土地の分筆の登記どうしの組合せも、規則35条の10個の列挙事由には直接該当する号がなく（1号は「分筆＋合筆」の組合せを定めるものであり、単純な分筆どうしの組合せは対象外）、ウと同様に不動産登記令4条ただし書本文（目的・登記原因及びその日付の同一性）に基づくものと整理しました。ただし、分筆の登記における「登記原因及びその日付」（不動産登記法27条1号により表示に関する登記の登記事項とされています）が、無関係な別々の土地どうしの分筆でどのように記載・扱われるかは条文だけからは断定できず、この点は確認事項として残ります。
   - **オ**：甲建物・乙土地の表題部所有者Aについての氏名変更登記（婚姻による氏の変更）の組合せは、規則35条8号「同一の登記所の管轄区域内にある一又は二以上の不動産について申請する二以上の登記が、いずれも同一の登記名義人の氏名若しくは名称又は住所についての変更の登記又は更正の登記であるとき」と場面がよく似ています。もっとも、同号の「登記名義人」は不動産登記法2条11号で「登記記録の権利部に…権利者として記録されている者」と定義されており、同条10号で別に定義される「表題部所有者」（オの肢のAはこちら）を文言上含むかは条文だけでは確定できませんでした。そのため記事本文では8号ではなく、目的（氏名の変更の登記）・原因（婚姻）・日付（婚姻の日）が同一であることを理由に、不動産登記令4条ただし書本文を根拠として記載しています。規則35条8号がオの場面にも及ぶかどうかは、確認しきれなかった点として残ります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。「一の申請情報による申請」というテーマ自体はH26・H28〜R07までほぼ毎年のように出題されている頻出分野ですが、本問の5つの具体的な組合せ（甲乙土地の分筆、住所更正との一括、共有持分違いの地目変更、附属建物の分割＋合併、婚姻による氏名変更の一括）そのものが再出題された例は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**。
-- **最新法令チェック（2026-08-16実施）**：肢イ・オが扱う表題部所有者の住所についての更正の登記・氏名についての変更の登記は、住所変更登記義務化（不動産登記法76条の5、令和8年4月1日施行、既に施行済み）が新設した申請義務の対象ではありません。同条の義務は「所有権の登記名義人」（所有権の登記がある不動産の権利部に記録された名義人）を対象とするものであり、本問の表題部所有者（所有権の登記がない不動産の表題部に記録された所有者、不動産登記法2条10号）には適用されません。また、同改正によって一括申請の可否を定める不動産登記規則35条・不動産登記令4条ただし書の規律自体に変更はなく、本問各肢（一括申請の可否）の結論に影響はありません。相続登記義務化（同法76条の2、令和6年4月1日施行）も、本問には相続に関する記述がないため関係しません。
+- **最新法令チェック（2026-08-16実施）**：イ・オが扱う表題部所有者の住所についての更正の登記・氏名についての変更の登記は、住所変更登記義務化（不動産登記法76条の5、令和8年4月1日施行、既に施行済み）が新設した申請義務の対象ではありません。同条の義務は「所有権の登記名義人」（所有権の登記がある不動産の権利部に記録された名義人）を対象とするものであり、本問の表題部所有者（所有権の登記がない不動産の表題部に記録された所有者、不動産登記法2条10号）には適用されません。また、同改正によって一括申請の可否を定める不動産登記規則35条・不動産登記令4条ただし書の規律自体に変更はなく、本問各肢（一括申請の可否）の結論に影響はありません。相続登記義務化（同法76条の2、令和6年4月1日施行）も、本問には相続に関する記述がないため関係しません。
 
 ---
 
@@ -250,12 +250,12 @@ icons for applicants. All 5 panels share the same first decision node in
 their diagram (申請人は同一か。所有権登記名義人か表題部所有者かという
 資格の違いや、持分の割合の違いは問わない); render this node with a thick
 highlighted border in every panel to show it is common ground. From that
-shared node, Panels 2（肢イ）and 4（肢エ）branch into a second node asking
+shared node, Panels 2（イ）and 4（エ）branch into a second node asking
 whether the combination matches one of 不動産登記規則35条の個別列挙事由
 (a specific enumerated pairing such as 更正+分筆 or 分割+合併) — highlight
 this branch in those two panels and render the other branch (登記令4条
-ただし書のルート) in a faded, greyed-out style. Panels 1（肢ア）、3（肢ウ）
-and 5（肢オ）instead branch into a second node asking whether 登記の目的・
+ただし書のルート) in a faded, greyed-out style. Panels 1（ア）、3（ウ）
+and 5（オ）instead branch into a second node asking whether 登記の目的・
 登記原因・その日付がすべて同一か（不動産登記令4条ただし書）— highlight
 this branch in those three panels and render the 規則35条列挙のルート in a
 faded, greyed-out style in those panels. Where a 肢 requires checking
@@ -307,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 資格違っても同じAなら申請人同一
@@ -336,7 +336,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 資格違っても同一人物
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 同じ土地の更正と分筆はまとめ可
@@ -363,7 +363,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規則35条7号でOK
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 持分違っても共有者同じなら一括可
@@ -393,7 +393,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 持分違っても同一人扱い
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 分割と合併も一連の手続でまとめ可
@@ -420,7 +420,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規則35条2号でOK
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 建物と土地またいでも同一原因なら可

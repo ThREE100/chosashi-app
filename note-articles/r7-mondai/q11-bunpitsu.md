@@ -487,11 +487,11 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes
 with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 1（肢ア）uses a side-by-side comparison frame（LEFT:
+flowchart. Panel 1（ア）uses a side-by-side comparison frame（LEFT:
 分筆の登記＝表示に関する登記、RIGHT: 持分移転登記＝権利に関する登記）
-instead of a flowchart. Panel 4（肢エ）also uses a side-by-side
+instead of a flowchart. Panel 4（エ）also uses a side-by-side
 comparison frame（LEFT: 申請人本人の印鑑証明書＝3か月以内の期限あり、
-RIGHT: 第三者の承諾書に添付する印鑑証明書＝期限なし). Panel 2（肢イ）
+RIGHT: 第三者の承諾書に添付する印鑑証明書＝期限なし). Panel 2（イ）
 must be drawn as a two-step flowchart, because 不動産登記法40条の本文の
 要件に加えて括弧書きの追加要件があることを示す必要がある. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」
@@ -537,7 +537,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 分筆登記だけでは持分は動かない
@@ -557,7 +557,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 別途持分移転登記が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 第三者の権利があれば追加の承諾が必要
@@ -577,7 +577,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 第三者の権利があれば追加承諾
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 承諾があれば仮登記は転写されない
@@ -593,7 +593,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾があれば転写されない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 第三者の印鑑証明書には期限がない
@@ -611,7 +611,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 第三者の分は期限なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 抹消登記がなければ地上権は転写される

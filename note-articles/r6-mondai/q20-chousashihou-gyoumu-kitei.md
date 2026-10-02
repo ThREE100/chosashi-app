@@ -75,7 +75,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典・正解番号（2番＝アオ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の条文根拠は、ア（土地家屋調査士法22条かっこ書・同法施行規則25条2項）、イ（土地家屋調査士法9条1項）、ウ（土地家屋調査士法24条の2）、エ（土地家屋調査士法施行規則22条）、オ（土地家屋調査士法26条）と、いずれもデータベースのexplanationフィールドで条文番号まで明記されています。
-- **エの根拠条文について（2026-08-16再確認）**：施行規則22条の条文原文は「調査士は、他人をしてその業務を取り扱わせてはならない。」という一文のみで、`laws/chousashi-hou-sekourule.md`で確認済みです。本文にある「補助者に登記の申請情報の提供・登記識別情報の受領・登記の申請情報の補正をさせることはできない」という具体的な列挙は、条文原文には存在せず、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）のexplanationフィールドによる実務上の解釈・補足です。条文そのものは「正当な事由」等の例外を定めておらず、他人による業務取扱いを一律に禁止する規定であるため、「やむを得ない事由があるときは補助者に取り扱わせることができる」という肢エの主張が誤りであるという結論・正解番号（アオ、選択肢2番）自体には影響ありません。
+- **エの根拠条文について（2026-08-16再確認）**：施行規則22条の条文原文は「調査士は、他人をしてその業務を取り扱わせてはならない。」という一文のみで、`laws/chousashi-hou-sekourule.md`で確認済みです。本文にある「補助者に登記の申請情報の提供・登記識別情報の受領・登記の申請情報の補正をさせることはできない」という具体的な列挙は、条文原文には存在せず、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）のexplanationフィールドによる実務上の解釈・補足です。条文そのものは「正当な事由」等の例外を定めておらず、他人による業務取扱いを一律に禁止する規定であるため、「やむを得ない事由があるときは補助者に取り扱わせることができる」というエの主張が誤りであるという結論・正解番号（アオ、選択肢2番）自体には影響ありません。
 - ローカルのアガルート教材フォルダも確認しましたが、択一式の過去問解説講座については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキストによる解説は含まれていなかったため、今回はそちらを参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題を確認しました。令和7年度第20問も「土地家屋調査士・調査士法人」がテーマですが、各肢の具体的な出題内容（定款変更の届出先・補助者廃止の届出・複数事務所設置の可否・登録取消による法人脱退・心身故障による登録取消）は本問（依頼拒否の正当事由・登録申請書の提出経由・秘密保持義務・補助者への業務委託・一人法人設立）と異なり、**内容の重複は見つかりませんでした**（同じ大分野からの出題ですが、問われている個別の論点は別物です）。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -310,7 +310,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -333,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 正当事由不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 登録申請書は調査士会経由で連合会へ提出
@@ -353,7 +353,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 調査士会経由
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 秘密保持義務にも正当な事由による例外がある
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 正当事由で例外
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 やむを得ない事由があっても補助者には任せられない
@@ -396,7 +396,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 補助者は不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 調査士法人は社員1人でも設立できる

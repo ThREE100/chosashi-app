@@ -549,12 +549,12 @@ actual decision flowchart: diamond-shaped branch nodes with the
 condition written on them, Yes/No（はい／いいえ）branch arrows, and a
 final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panels 1 and 2（肢ア・肢イ）share the same side-by-side comparison frame
+Panels 1 and 2（ア・イ）share the same side-by-side comparison frame
 （LEFT: 法人格が別のものに変わる（吸収合併）、RIGHT: 同一の法人格のまま
 （特例有限会社→株式会社）), because this pair is the article's core
 contrast; draw both panels with the same two-box layout, but highlight
 （太い縁取り・フルカラーで強調）the box relevant to that panel's 肢 and
-render the other box in a faded, greyed-out style. Panel 4（肢エ）must be
+render the other box in a faded, greyed-out style. Panel 4（エ）must be
 drawn as a two-step flowchart, because「誰が申請人か」と「誰の承諾が
 必要か」は別々に確認すべき2つの条件である; give both diamond nodes their
 own clearly labeled branch. Unlike a glanceable summary poster, each
@@ -601,7 +601,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 吸収合併は法人格が別物に変わる
@@ -622,7 +622,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 法人格の同一性なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 株式会社への移行は同一法人の名称変更
@@ -644,7 +644,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 同一法人のまま
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 住所更正と氏の変更はまとめて1回で申請可
@@ -659,7 +659,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 まとめて1回で申請可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 承諾があれば持分の誤りは単独で直せる
@@ -677,7 +677,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾があれば単独可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 中間の住所変更を省略して一気に直せる

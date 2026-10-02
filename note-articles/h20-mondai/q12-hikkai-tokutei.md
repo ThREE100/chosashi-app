@@ -78,10 +78,10 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝イ・エが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月4日 現行法との整合性を再検証し、条文根拠と適用除外の注記を追加しました】** 正誤の判定自体は初版から変更ありませんが、各肢に条文根拠を補い、肢エに「審査請求の対象は却下処分であって筆界特定の内容ではないこと」「不動産登記法158条により行政不服審査法の多くの規定（参加人＝13条、審査請求期間＝18条など）が適用除外とされ、審査請求期間の制限がないこと」を書き加えました。これは一般法（行政不服審査法）の原則をそのまま当てはめると本試験では誤りになる典型論点なので、記事にも明記しています。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で全肢の条文根拠を特定し、条文番号を訂正しました】** 初版では「筆界特定を必要とする理由」の根拠を法131条**2項**3号、肢イ・オの根拠を「法131条2項4号を受けた不動産登記規則の定め」（条・号は特定できず）としていましたが、いずれも誤り・不十分でした。正しくは次のとおりです。
+- **【2026年8月4日 現行法との整合性を再検証し、条文根拠と適用除外の注記を追加しました】** 正誤の判定自体は初版から変更ありませんが、各肢に条文根拠を補い、エに「審査請求の対象は却下処分であって筆界特定の内容ではないこと」「不動産登記法158条により行政不服審査法の多くの規定（参加人＝13条、審査請求期間＝18条など）が適用除外とされ、審査請求期間の制限がないこと」を書き加えました。これは一般法（行政不服審査法）の原則をそのまま当てはめると本試験では誤りになる典型論点なので、記事にも明記しています。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で全肢の条文根拠を特定し、条文番号を訂正しました】** 初版では「筆界特定を必要とする理由」の根拠を法131条**2項**3号、イ・オの根拠を「法131条2項4号を受けた不動産登記規則の定め」（条・号は特定できず）としていましたが、いずれも誤り・不十分でした。正しくは次のとおりです。
   - ア＝法132条1項ただし書（相当の期間内に補正すれば却下しない）
-  - イ＝規則207条2項7号（工作物、囲障又は境界標の有無その他の対象土地の状況が申請情報の内容）＋同条4項（「**図面を利用する等の方法により**…具体的に明示するものとする」＝図面に限定されない）。肢イが誤りとされる決め手はこの4項の「等の方法」です。
+  - イ＝規則207条2項7号（工作物、囲障又は境界標の有無その他の対象土地の状況が申請情報の内容）＋同条4項（「**図面を利用する等の方法により**…具体的に明示するものとする」＝図面に限定されない）。イが誤りとされる決め手はこの4項の「等の方法」です。
   - ウ＝法131条**3項**4号＋規則207条1項（明らかにすべきものは「筆界特定の申請に至る経緯その他の具体的な事情」）
   - エ＝法132条**2項**（申請の却下は登記官の処分とみなす）＋法156条1項（登記官の処分に対する審査請求）＋法158条（行政不服審査法13条・18条等の適用除外＝審査請求期間の制限なし）
   - オ＝規則207条3項7号（筆界確定訴訟が係属しているときはその旨及び事件を特定するに足りる事項）＋法132条1項6号（判決確定は却下事由）
@@ -243,14 +243,14 @@ countdown-clock badge for the 補正期間, isometric fence/boundary-stake
 icons for 工作物・囲障・境界標, a speech-bubble icon for the 隣接地所有
 者との意見の対立, a rejection-stamp icon on an application form, a
 courthouse/government-building icon for the 審査請求先, and a
-courthouse/gavel icon for the 筆界確定訴訟. Panel 5（肢オ）turns on a
+courthouse/gavel icon for the 筆界確定訴訟. Panel 5（オ）turns on a
 single yes/no condition whose both outcomes matter, so draw it as a
 small decision flowchart（筆界確定訴訟が係属しているか）with both the
 Yes and the No branch ending in their own labeled conclusion node — do
-not draw a looping arrow back into the diagram. Panel 2（肢イ）and
-Panel 4（肢エ）each contrast a mistaken belief with the correct rule, so
+not draw a looping arrow back into the diagram. Panel 2（イ）and
+Panel 4（エ）each contrast a mistaken belief with the correct rule, so
 draw them as LEFT/RIGHT true/false comparisons with the mistaken side
-crossed out with a large ✕. Panels 1 and 3（肢ア・肢ウ）are each
+crossed out with a large ✕. Panels 1 and 3（ア・ウ）are each
 resolved by a single check, so draw a labeled illustrative diagram for
 them instead of forcing a flowchart. Do not include case or precedent
 numbers (article/regulation numbers are fine); keep the callout text as
@@ -295,7 +295,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft beige containing the number 1.
 Heading (bold, ONE line):
 補正期間内なら不備を直せる
@@ -310,7 +310,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 期間内に補正可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft beige containing the number 2.
 Heading (bold, ONE line):
 工作物の状況は図面以外でも示せる
@@ -329,7 +329,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 図面に限られない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3.
 Heading (bold, ONE line):
 申請理由は具体的な事情が必要
@@ -346,7 +346,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 具体的事情が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft beige containing the number 4.
 Heading (bold, ONE line):
 却下処分には審査請求ができる
@@ -363,7 +363,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 却下処分に審査請求可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft beige containing the number 5.
 Heading (bold, ONE line):
 訴訟係属中は事件を特定する記載が必要

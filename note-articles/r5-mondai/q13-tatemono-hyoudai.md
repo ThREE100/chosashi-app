@@ -280,7 +280,7 @@ labeled illustrative diagram is sufficient — do not force a flowchart.
 Where a panel must contrast two categories rather than a sequence of
 conditions, split the panel into two side-by-side (or top/bottom) frames
 labeled with each category, so the reader sees which category the fact
-pattern belongs to. In Panel 1 (肢ア), render 株式会社Ｃ (the general
+pattern belongs to. In Panel 1 (ア), render 株式会社Ｃ (the general
 successor) in a faded or dotted-outline style rather than a plain ✕ mark
 next to the 表題部所有者 nameplate, so the visual itself communicates
 "this company never held original-acquirer status," not just "this is
@@ -329,7 +329,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 合併で承継しても原始取得者にならない
@@ -350,7 +350,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 原始取得者のまま
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 大字だけでは所在を特定できない
@@ -367,7 +367,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 小字も記載必須
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 非区分建物の名称は所在欄に記録される
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所在欄に記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 一括申請でも申請書は分けられる
@@ -405,7 +405,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 各別の申請書も可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 保存行為だから一人でも申請できる

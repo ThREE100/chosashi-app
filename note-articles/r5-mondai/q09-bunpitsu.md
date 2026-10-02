@@ -247,7 +247,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-抵当権が絡む肢ア・イは、「分筆にあわせて消滅承諾書が使われているか」を起点に「1筆を除くか全部か」まで枝分かれする同じ決定木を共有し、アはその手前の分岐（消滅承諾とは無関係な単純な分筆）を、イは先の分岐（全部消せるかどうか）を強調する構成にした。ウ・エも「協議書の有無」「申請人が誰か」を分岐点とする決定木として描き、オは分筆前後で筆界特定の記録がどう転写されるかを配置図で示す。
+抵当権が絡むア・イは、「分筆にあわせて消滅承諾書が使われているか」を起点に「1筆を除くか全部か」まで枝分かれする同じ決定木を共有し、アはその手前の分岐（消滅承諾とは無関係な単純な分筆）を、イは先の分岐（全部消せるかどうか）を強調する構成にした。ウ・エも「協議書の有無」「申請人が誰か」を分岐点とする決定木として描き、オは分筆前後で筆界特定の記録がどう転写されるかを配置図で示す。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -271,7 +271,7 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
 肢 is resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Panels 1 and 2 (肢ア・肢イ) share
+sufficient — do not force a flowchart. Panels 1 and 2 (ア・イ) share
 the same underlying decision tree, starting from a diamond node asking
 whether a 消滅承諾書 was used for this particular 分筆; Panel 1 highlights
 （太い縁取り・フルカラー）the「いいえ」branch (a simple split with no
@@ -327,7 +327,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 消滅承諾の有無を最初に確認する
@@ -348,7 +348,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 錯誤抹消は可能
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 全部消すか1筆残すかを見分ける
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1筆には残す必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 遺産分割協議書の有無で申請人が変わる
@@ -396,7 +396,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 Ｂのみで申請可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 私人の申請なら登録免許税がかかる
@@ -418,7 +418,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 私人分は課税される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 筆界特定の記録は乙地にも転写される

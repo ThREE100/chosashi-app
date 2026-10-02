@@ -81,7 +81,7 @@
 - 出典（年度・問題番号・肢の全文・正解番号＝3番＝イ・ウ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - `note-articles/laws/`のローカル法令データベース（不動産登記令別表、e-Gov現行法2026-08-04取得）で全肢の項番号を確認済みです。ア＝別表20の項（共用部分である旨の登記の更正登記）、イ＝別表12の項（相続人による表題登記）、ウ＝別表18の項（共用部分である旨の登記）、エ＝別表21の項（規約廃止に伴う建物の表題登記）、オ＝別表15の項（敷地権の発生による建物の表題部変更登記）は、いずれも条文の文言に基づく内容です。
 - **最新法令チェック追記（2026-08-08実施）**：**エについて、本記事の初版では「独立した観点からの再検証でも、条文原文までは確証が取れませんでした」と留保していましたが、ローカル法令データベースで解消しました。**エに対応するのは（本記事作成時点で探していた「14項付近」ではなく）不動産登記令別表21の項（法58条6項・7項の規定により申請する建物の表題登記）であり、添付情報ロが「表題部所有者となる者が所有権を有することを証する情報」を明文で要求しています。本文・まとめはこの正確な根拠を反映するように修正しています。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「共用部分」「添付情報」がテーマの問題を確認しました。**本問肢ウ（共用部分である旨の登記を申請する場合において、抵当証券が発行されていない抵当権の登記があるときの承諾証明情報の提供義務）とほぼ同一の肢が、令和7年度第15問肢ア、令和5年度第17問、平成25年度第11問、令和3年度第18問、平成27年度第17問など複数の年度で繰り返し出題されています。**「共用部分の登記と抵当権者の承諾証明情報」は定番の頻出論点であり、複数年度で酷似した肢が使われているため、noteでの発信時は表現を工夫することを検討してください。また、**本問肢イ（区分建物新築後、その所有者について相続があった場合に相続人が被相続人を表題部所有者として表題登記を申請する際の相続証明情報の提供義務）と同じ事実関係が、平成30年度第12問肢オ・平成25年度第15問でも出題されています。**それ以外の肢（ア・オ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「共用部分」「添付情報」がテーマの問題を確認しました。**本問ウ（共用部分である旨の登記を申請する場合において、抵当証券が発行されていない抵当権の登記があるときの承諾証明情報の提供義務）とほぼ同一の肢が、令和7年度第15問ア、令和5年度第17問、平成25年度第11問、令和3年度第18問、平成27年度第17問など複数の年度で繰り返し出題されています。**「共用部分の登記と抵当権者の承諾証明情報」は定番の頻出論点であり、複数年度で酷似した肢が使われているため、noteでの発信時は表現を工夫することを検討してください。また、**本問イ（区分建物新築後、その所有者について相続があった場合に相続人が被相続人を表題部所有者として表題登記を申請する際の相続証明情報の提供義務）と同じ事実関係が、平成30年度第12問オ・平成25年度第15問でも出題されています。**それ以外の肢（ア・オ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -238,20 +238,20 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a crossed-out mistaken-assumption icon paired
-with a checkmarked correct-rule icon for 肢ア and 肢エ (both test whether
+with a checkmarked correct-rule icon for ア and エ (both test whether
 a proof document can be skipped), a family-registry relationship icon
-(deceased former owner → heir) for 肢イ, a two-diamond decision flowchart
-for 肢ウ (mortgage registration present? then is the mortgage bond
-unissued?), and a jurisdiction-boundary map for 肢オ. Where a 肢 requires
+(deceased former owner → heir) for イ, a two-diamond decision flowchart
+for ウ (mortgage registration present? then is the mortgage bond
+unissued?), and a jurisdiction-boundary map for オ. Where a 肢 requires
 checking multiple conditions in sequence before reaching a conclusion,
 draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No（はい／いいえ）
-branch arrows, and a final conclusion node for EACH branch — 肢ウ is the
+branch arrows, and a final conclusion node for EACH branch — ウ is the
 only 肢 in this problem drawn this way, with two diamonds. Where a 肢 is
-resolved by a single check (肢ア, 肢イ, 肢エ, 肢オ), a labeled illustrative
+resolved by a single check (ア, イ, エ, オ), a labeled illustrative
 diagram or a mistaken-assumption-vs-correct-rule comparison is sufficient
 — do not force a flowchart. Do not drop or merge a required element (e.g.
-肢アと肢エはどちらも、1つの証明情報だけで足りると誤解しやすいが、実際には
+アとエはどちらも、1つの証明情報だけで足りると誤解しやすいが、実際には
 別の証明情報も併せて必要な場面であることを、両方の証明情報を並べて示す
 ことで表現する). Unlike a glanceable summary poster, each panel MAY
 include a short「着眼点」callout box with 1-2 sentences that state the
@@ -297,7 +297,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 更正登記でも所有者証明を省略できない
@@ -315,7 +315,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有者証明も必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続人による表題登記には相続証明が必要
@@ -335,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相続証明の提供が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 証券未発行の抵当権には承諾証明が必要
@@ -357,7 +357,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾証明の提供が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 規約廃止後も所有権証明を省略できない
@@ -377,7 +377,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有権証明も必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 同一管轄内の土地なら証明書は不要
@@ -418,12 +418,12 @@ script, or stray decorative glyph — and remove or redraw it so that only
 standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly, badge numbers run 1-5 continuously, there is no
 intro illustration or paragraph block between the header and the panels,
-that 肢ウ is drawn as an actual flowchart with two branch nodes each
+that ウ is drawn as an actual flowchart with two branch nodes each
 ending in its own conclusion node (not a bare illustration with no
 visible decision structure) while the other panels use a single labeled
 diagram or a mistaken-assumption-vs-correct-rule comparison, that each
 着眼点 callout states a checking order rather than only a conclusion and
-keeps every required document distinct (肢アと肢エでは、証明情報を1つに
+keeps every required document distinct (アとエでは、証明情報を1つに
 まとめず必ず2つとも描く), confirm nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any

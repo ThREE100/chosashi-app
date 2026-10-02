@@ -268,15 +268,15 @@ rental-house icon for 管理行為. This article's own organizing idea is that
 every 肢 turns on classifying the disputed act as 保存行為（各自が単独で
 できる）・管理行為（持分の過半数で決める）・変更行為（全員の同意が必要）
 のいずれかに当たるかを見分けること — draw every panel's checking order
-around that classification. Panels 1 and 3 (肢ア・肢ウ) share the same
+around that classification. Panels 1 and 3 (ア・ウ) share the same
 underlying check-flow shape (共有物への侵害に対して単独で請求できる
 としても、その範囲は自己の持分に限られるという判定); draw both with the
 same layout of rectangular check boxes (no diamonds). Where a 肢 requires
-checking multiple conditions in sequence (肢ア・肢イ・肢ウ), draw the
+checking multiple conditions in sequence (ア・イ・ウ), draw the
 panel's diagram as a top-to-bottom flow of rectangular check boxes
 connected by single straight arrows, ending in a final conclusion node —
 do not use diamond-shaped nodes, because every answer is fixed by the
-facts of the 肢. Where a 肢 is resolved by a single classification check (肢エ・肢
+facts of the 肢. Where a 肢 is resolved by a single classification check (エ・肢
 オ), a labeled illustrative diagram naming the act's category（変更行為／
 管理行為）is sufficient — do not force a full flowchart. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」
@@ -320,7 +320,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抹消請求は自分の持分の範囲だけ
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 自己の持分のみ請求可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 過半数持分でも当然の全部明渡しは不可
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 当然の明渡し請求は不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 損害賠償も自分の持分の分だけ
@@ -382,7 +382,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 持分に応じた部分のみ
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 無断の変更行為は一人でも原状回復請求可
@@ -399,7 +399,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 単独で原状回復請求可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 賃貸借の解除は管理行為で過半数でOK
@@ -419,7 +419,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 民法252条1項（共有物の管理に関する事項は持分の過半数で決する）に基づく
-整理です。肢ア・イ・ウ・エの結論は判例の趣旨によるものです。
+整理です。ア・イ・ウ・エの結論は判例の趣旨によるものです。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
@@ -428,7 +428,7 @@ If any character renders as a Simplified or Traditional Chinese variant, redraw 
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-every multi-condition 肢 (肢ア・肢イ・肢ウ) is drawn as an actual flowchart
+every multi-condition 肢 (ア・イ・ウ) is drawn as an actual flowchart
 with branch nodes (not a bare illustration with no visible decision
 structure), that each 着眼点 callout states a checking order rather than
 only a conclusion, confirm nothing is rendered below the last panel's

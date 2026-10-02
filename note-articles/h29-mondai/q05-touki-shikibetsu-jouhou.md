@@ -88,8 +88,8 @@
 - 出題番号・正解番号（3番＝イ・オが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア（法21条ただし書）、イ（法21条：申請人自らが登記名義人となる場合に通知）、ウ（規則64条1項2号）、エ（規則64条1項3号）、オ（規則64条1項4号かっこ書）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和4年度第5問（登記識別情報に関する教授と学生の対話、合筆の登記が題材）で、肢オとほぼ同一の論点が再出題されている、強い重複が見つかりました**。本問の肢オ「官庁の嘱託により合筆の登記をする場合、当該官庁からあらかじめ登記識別情報の通知を希望する旨の申出があっても、登記識別情報は通知されない」（誤り＝実際は通知される）に対し、令和4年度第5問オも「官庁又は公署が登記識別情報の通知を受けるべき者である場合、あらかじめ通知を希望する旨の申出をした場合を除き、通知することを要しない」（正しい＝申出があれば通知される）と、ほぼ同じ規律を同じ結論で問うています。両問とも「合筆の登記」を題材にしている点も共通しています。noteで令和4年度第5問の解説記事を作成する際は、本記事の肢オと内容が重なるため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
-- **問題文の記述順序の誤りを修正（2026-09-15実施）**：ユーザーから提示された本問の原本画像と照合したところ、引用ブロック内で肢ウ（電子申請・30日以内）と肢エ（書面申請・3月以内）の掲載順序が入れ替わっており（ア・イ・エ・ウ・オの順になっていた）、原本のア・イ・ウ・エ・オの順と異なっていました。各肢の記号と内容の対応自体（ウ＝電子申請、エ＝書面申請）や、本文の解説・まとめ・正解には誤りがなかったため、正誤判定・結論への影響はありません。引用ブロックの順序のみを原本どおりに修正し、`md_to_mt.py`で再書き出しし、`exports/h29-mondai.mt.txt`の差分が引用ブロックの順序変更のみであることを確認しました。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和4年度第5問（登記識別情報に関する教授と学生の対話、合筆の登記が題材）で、オとほぼ同一の論点が再出題されている、強い重複が見つかりました**。本問のオ「官庁の嘱託により合筆の登記をする場合、当該官庁からあらかじめ登記識別情報の通知を希望する旨の申出があっても、登記識別情報は通知されない」（誤り＝実際は通知される）に対し、令和4年度第5問オも「官庁又は公署が登記識別情報の通知を受けるべき者である場合、あらかじめ通知を希望する旨の申出をした場合を除き、通知することを要しない」（正しい＝申出があれば通知される）と、ほぼ同じ規律を同じ結論で問うています。両問とも「合筆の登記」を題材にしている点も共通しています。noteで令和4年度第5問の解説記事を作成する際は、本記事のオと内容が重なるため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
+- **問題文の記述順序の誤りを修正（2026-09-15実施）**：ユーザーから提示された本問の原本画像と照合したところ、引用ブロック内でウ（電子申請・30日以内）とエ（書面申請・3月以内）の掲載順序が入れ替わっており（ア・イ・エ・ウ・オの順になっていた）、原本のア・イ・ウ・エ・オの順と異なっていました。各肢の記号と内容の対応自体（ウ＝電子申請、エ＝書面申請）や、本文の解説・まとめ・正解には誤りがなかったため、正誤判定・結論への影響はありません。引用ブロックの順序のみを原本どおりに修正し、`md_to_mt.py`で再書き出しし、`exports/h29-mondai.mt.txt`の差分が引用ブロックの順序変更のみであることを確認しました。
 
 ---
 
@@ -240,7 +240,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢ウ・エは「資格者代理人Ｂが特別の委任を受けている場面で、電子申請か書面申請かで通知が失効するまでの期限が変わる」という同じ決定木を共有しているため、1つの分岐図を2パネルで使い回し、パネルごとに自分の申請方法の枝だけを強調する構成にした。肢ア・イ・オはそれぞれ独立した図解（申出の有無、合筆登記の当事者関係、官庁の例外）とした。
+ウ・エは「資格者代理人Ｂが特別の委任を受けている場面で、電子申請か書面申請かで通知が失効するまでの期限が変わる」という同じ決定木を共有しているため、1つの分岐図を2パネルで使い回し、パネルごとに自分の申請方法の枝だけを強調する構成にした。ア・イ・オはそれぞれ独立した図解（申出の有無、合筆登記の当事者関係、官庁の例外）とした。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -266,12 +266,12 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 3
-and 4（肢ウ・エ）share a common decision tree rooted at the same starting
+and 4（ウ・エ）share a common decision tree rooted at the same starting
 fact (資格者代理人Ｂが登記識別情報の通知を受けるための特別の委任を受け
 ている場面で、申請方法が電子申請か書面申請かを分ける分岐点): render the
 branch relevant to THIS panel（電子申請 for panel 3, 書面申請 for panel
 4）with a thick highlighted border and full color, and render the other,
-unrelated branch in a faded, greyed-out style. Panels 1, 2, and 5（肢ア・
+unrelated branch in a faded, greyed-out style. Panels 1, 2, and 5（ア・
 イ・オ）are designed independently around their own fact pattern. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」callout
 box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
@@ -319,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 希望しない旨の申出で通知は不要
@@ -335,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申出で通知されない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 抵当権者Bには登記識別情報は通知されない
@@ -353,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 名義人以外には届かない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 電子申請は30日以内の記録が必要
@@ -376,7 +376,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 30日超過で通知されず
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 書面申請は3月以内の受領が必要
@@ -399,7 +399,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 3月超過で通知されず
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 官庁も希望を申し出れば通知される

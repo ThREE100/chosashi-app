@@ -76,7 +76,7 @@
 - **検証で判明したウの根拠の要旨（2026-09-16実施）**：ウの根拠とされる昭43.2.14民甲170号（民事局長回答）について、複数の先例集サイトの引用要旨により内容を確認しました。①仮換地上に建物が新築された場合の所在は、原則として底地（仮換地の場所に現に登記記録が存在する土地。権利者自身の従前地とは限らない）の現在の地番を記載する、②仮換地に予定地番が定められている場合は、この現地番に続けて括弧書きにより併記することができる（義務ではなく任意）、という2点が核心です。この論点をさらに深掘りした個別記事`note-articles/column/karikanchi-tatemono-shozai-nejire.md`もあわせてご参照ください。なお、括弧併記という記載方法そのものの出発点としては、より古い昭和34年7月10日建設計発374号建設省計画局長通達（法務省と協議済み）もあります。いずれも先例集サイト・実務解説サイト経由の要旨確認であり、公式先例集原本への到達ではない点は留保します。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみで、テキスト解説は含まれていなかったため、今回はアガルート教材を参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題について、本問のテーマ（建物の所在）に関する記述がないか確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **2026-09-08追記（総論インフォグラフィックの修正）**：問題全体インフォグラフィックの肢ウ（カード3）で、建物が現に立っている仮換地の区画にそのまま「地番」を表示する構成になっており、実際には所在に用いる地番は別の場所にある従前地のものであって、仮換地の予定地番はあくまで括弧書きの併記にすぎないという、本肢の核心である「所在の記載のねじれ」を正しく表現できていませんでした。従前地・仮換地の2区画を分けて描き、house（建物）は仮換地に立つが地番は従前地から借りてくる、という構造が伝わるよう描き直しました。あわせて、このテーマを深掘りした個別記事（`note-articles/column/karikanchi-tatemono-shozai-nejire.md`）もご参照ください。
+- **2026-09-08追記（総論インフォグラフィックの修正）**：問題全体インフォグラフィックのウ（カード3）で、建物が現に立っている仮換地の区画にそのまま「地番」を表示する構成になっており、実際には所在に用いる地番は別の場所にある従前地のものであって、仮換地の予定地番はあくまで括弧書きの併記にすぎないという、本肢の核心である「所在の記載のねじれ」を正しく表現できていませんでした。従前地・仮換地の2区画を分けて描き、house（建物）は仮換地に立つが地番は従前地から借りてくる、という構造が伝わるよう描き直しました。あわせて、このテーマを深掘りした個別記事（`note-articles/column/karikanchi-tatemono-shozai-nejire.md`）もご参照ください。
 
 ---
 
@@ -235,7 +235,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、ア〜オの各肢について「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに1枚のパネルで示す作図ガイド。上記の②俯瞰カードポスターおよび肢ウの総論インフォグラフィック修正（2026-09-08追記）とは別物で、既存内容は変更せず、結論に至るまでの思考の手順を新たに可視化することを目的とする。
+問題文を読んだ瞬間に、ア〜オの各肢について「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに1枚のパネルで示す作図ガイド。上記の②俯瞰カードポスターおよびウの総論インフォグラフィック修正（2026-09-08追記）とは別物で、既存内容は変更せず、結論に至るまでの思考の手順を新たに可視化することを目的とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -317,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in blue containing the number 1(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -335,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請不要・職権処理
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in blue containing the number 2(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -353,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 規約敷地は記録外
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -376,7 +376,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 底地地番+任意併記
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -393,7 +393,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 最寄地番で何番地先
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5(numbers run
 continuously through all panels).
 Heading (bold, ONE line):

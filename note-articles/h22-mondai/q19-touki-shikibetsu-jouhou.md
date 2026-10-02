@@ -246,7 +246,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢アは書面交付の申出の有無で結果が分かれる決定木型、肢エは特別委任の代理人の有無で結果が分かれる決定木型（それぞれ独立した決定木で、共有はしない）、肢イ・オは誤った思い込みと正しいルールを対比する正誤対比型、肢ウは甲→乙→丙と分筆・合筆が連鎖する土地の登記識別情報の承継を示すタイムライン型とする。
+アは書面交付の申出の有無で結果が分かれる決定木型、エは特別委任の代理人の有無で結果が分かれる決定木型（それぞれ独立した決定木で、共有はしない）、イ・オは誤った思い込みと正しいルールを対比する正誤対比型、ウは甲→乙→丙と分筆・合筆が連鎖する土地の登記識別情報の承継を示すタイムライン型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -319,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -339,7 +339,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 申出で書面交付も可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 失念でも正当な理由
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -379,7 +379,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 甲の識別情報でよい
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -399,7 +399,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 代理人に通知される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

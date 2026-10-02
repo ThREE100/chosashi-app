@@ -313,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 アーケードは用途性がなく建物でない
@@ -336,7 +336,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 建物には当たらない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 倉庫化で用途性を得た山門は建物になる
@@ -357,7 +357,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 用途性ありで登記可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 永続性のある膜構造なら外気分断性あり
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 永続性があれば登記可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 展望台部分だけを高床式平家建と見る
@@ -402,7 +402,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 高床式平家建で登記
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 回転式駐車場も3要件を満たし建物になる

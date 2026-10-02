@@ -306,7 +306,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in teal containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -339,7 +339,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 3要件がすべて○
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in teal containing the number 2.
 Heading (bold, ONE line):
 給水タンクは人が使う空間がなく建物でない
@@ -363,7 +363,7 @@ directly to a fully highlighted red terminal box labeled「建物として登記
 Conclusion tag (teal, 5-15 Japanese characters):
 用途性がなく建物でない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in teal containing the number 3.
 Heading (bold, ONE line):
 簡単に動かせる組立式事務所は建物でない
@@ -386,7 +386,7 @@ diamond③, showing that the chain stops here).
 Conclusion tag (teal, 5-15 Japanese characters):
 定着性がなく建物でない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 周壁で高架下を囲った店舗は建物になる
@@ -410,7 +410,7 @@ terminal box labeled「建物として登記できる」.
 Conclusion tag (teal, 5-15 Japanese characters):
 一体化で3要件○
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 海上でも脚柱で支えられた水族館は建物になる

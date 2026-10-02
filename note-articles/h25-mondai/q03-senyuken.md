@@ -298,7 +298,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 機関占有と個人占有は別腹で数える
@@ -316,7 +316,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 個人としても訴え可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 善意・悪意は提訴の条件ではない
@@ -334,7 +334,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 悪意でも提訴可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 起算点は「占有開始」ではなく「提訴時」
@@ -353,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 起算点は提訴時
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 判断基準は本人ではなく占有代理人
@@ -371,7 +371,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 判断基準は代理人
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 承諾するのは代理人ではなく第三者

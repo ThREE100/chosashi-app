@@ -255,11 +255,11 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — isometric land-plot scenes with a small
 warehouse icon (工作物), a magnifying glass and checkbox icons (時効取得
 の要件), a contract scroll icon (譲渡・地代の定め), and a calendar/coin
-icon (地代の滞納). Panel 2（肢イ）is the only 肢 in this set that requires
+icon (地代の滞納). Panel 2（イ）is the only 肢 in this set that requires
 checking two conditions together (both must be satisfied at once, not a
 sequence of either/or branches), so draw it as an actual flowchart with
 two diamond nodes in series joined by an AND relationship and a single
-final conclusion node. The other 4 panels（肢ア・肢ウ・肢エ・肢オ）are each
+final conclusion node. The other 4 panels（ア・ウ・エ・オ）are each
 resolved by a single check, so draw a labeled illustrative diagram for
 them instead of forcing a flowchart. Do not include case or precedent
 numbers (article/regulation numbers are fine); keep the callout text as
@@ -300,7 +300,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 工作物が滅失しても地上権は消えない
@@ -317,7 +317,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 土地利用権は残る
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 時効取得には2つの要件がそろって必要
@@ -340,7 +340,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 両方そろって時効取得
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 地主の承諾なく譲渡・抵当権設定できる
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾なしで処分自由
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 定めがなければ地代は発生しない
@@ -375,7 +375,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 定めなければ地代不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 2年以上の滞納で消滅請求できる

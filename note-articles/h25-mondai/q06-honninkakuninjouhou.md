@@ -239,19 +239,19 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — isometric registry desks, application
 documents, official stamps, calendar icons, office buildings, and speech
-bubbles. Panel 3（肢ウ）must be drawn as a genuine two-diamond decision
+bubbles. Panel 3（ウ）must be drawn as a genuine two-diamond decision
 flowchart, because the requirement it tests is really two separate
 elements joined by「かつ」in the source rule — do not compress them into
 one check: (1) 依頼を受ける以前から申請人の氏名及び住所を知っていること,
 and (2) 親族関係・1年以上の取引関係その他の安定した継続的な関係があること.
-Panel 5（肢オ）shares the same root branching point as Panel 3 — both
+Panel 5（オ）shares the same root branching point as Panel 3 — both
 answer the question「どんな事情があれば『面識があるとき』に当たるか」— but
 takes the OTHER route through that shared tree (過去に本人確認情報を提供
 した実績があること, a single check rather than two). In Panel 3, render
 the「過去の実績」route in a faded, greyed-out style since it is not this
 panel's branch; in Panel 5, render the「依頼前からの継続的関係」two-diamond
 route in a faded, greyed-out style instead, since it is not this panel's
-branch. Panel 4（肢エ）uses a side-by-side comparison frame（対比枠型）
+branch. Panel 4（エ）uses a side-by-side comparison frame（対比枠型）
 rather than a flowchart, since the point of this 肢 is that two different
 people can equally serve as the 面談 partner, not a sequential condition.
 Panels 1 and 2 are resolved by a single check each and should use a
@@ -302,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 資格者証明も同時に提出する
@@ -320,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 添付も必須
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 却下でなくまず事前通知に進む
@@ -340,7 +340,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 却下より通知
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 氏名住所を知り継続関係あれば面識あり
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 二つそろって面識あり
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 代表者以外との面談でも要件を満たす
@@ -383,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代表者以外も可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 半年前の提供実績も面識あり扱い
@@ -422,7 +422,7 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢ウ is drawn as a genuine
+between the header and the panels, that ウ is drawn as a genuine
 two-diamond flowchart with its two distinct required elements kept
 separate rather than merged into one check, that Panels 3 and 5 clearly
 render their shared branching point with the relevant branch highlighted

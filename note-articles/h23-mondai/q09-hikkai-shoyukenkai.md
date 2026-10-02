@@ -88,7 +88,7 @@ Aがc-dまでの部分（abdcaで囲まれた土地）を時効取得すれば�
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、「筆界特定」を単独テーマとする問題が令和6年度第19問（note-articles/r6-mondai/q19-hikkai-tokutei.md執筆済み）・令和7年度第16問（note-articles/r7-mondai/q16-hikkaitokutei.md執筆済み）で出題されていますが、これらはいずれも筆界特定という行政手続そのもの（申請適格・除斥事由・訴訟係属中の取扱い等）を問う問題であり、本問（筆界と所有権界という2つの概念の理論的な関係、合意・時効取得・処分によってどちらが動くか）とはテーマが異なります。重複はありません。
 - **最新法令準拠チェック（2026-08-04実施）**：筆界・所有権界の理論的な区別（合意・時効取得・処分による変動の可否）は判例法理であり、直近の民法・不動産登記法改正による変更はありません。
-- **適用法令の現行性チェック（2026-10-01実施）**：不動産登記法123条1号（`note-articles/laws/fudousan-touki-hou.md`、令和8年6月24日施行の令和8年法律第46号による改正後の現行版）は、筆界を「表題登記がある一筆の土地とこれに隣接する他の土地との間において、当該一筆の土地が登記された時にその境を構成するものとされた二以上の点及びこれらを結ぶ直線」と定めており、**各肢の正誤の結論に変更はありません**。以前の本文は「点及びこれを結ぶ直線」と略していたため、条文どおり「二以上の点及びこれらを結ぶ直線」に直しました。なお、同条は筆界特定の章の定義規定（「この章において」）であり、本問のように合意・時効取得・処分で筆界が動くかを直接定めた条文ではない点は、前記のとおりです。筆界と所有権界の理論的な区別は判例法理で、令和3年の民法・不動産登記法の改正（相続登記の義務化、住所氏名変更登記の義務化、令和5年4月施行の民法の共有・相隣関係の見直しなど）によって変わった点は確認されませんでした。肢エの国有財産法上の官民境界確定協議は、国有財産法がローカル法令データベースに未収録のため、今回も条文レベルでは確認できていません。②総論・⑤作図ガイドの該当カード・パネルは、本文と同じ内容に揃えました（⑤は、毎回「はい」「いいえ」が決まっているひし形を使わない、単一の図解に作り直しました）。
+- **適用法令の現行性チェック（2026-10-01実施）**：不動産登記法123条1号（`note-articles/laws/fudousan-touki-hou.md`、令和8年6月24日施行の令和8年法律第46号による改正後の現行版）は、筆界を「表題登記がある一筆の土地とこれに隣接する他の土地との間において、当該一筆の土地が登記された時にその境を構成するものとされた二以上の点及びこれらを結ぶ直線」と定めており、**各肢の正誤の結論に変更はありません**。以前の本文は「点及びこれを結ぶ直線」と略していたため、条文どおり「二以上の点及びこれらを結ぶ直線」に直しました。なお、同条は筆界特定の章の定義規定（「この章において」）であり、本問のように合意・時効取得・処分で筆界が動くかを直接定めた条文ではない点は、前記のとおりです。筆界と所有権界の理論的な区別は判例法理で、令和3年の民法・不動産登記法の改正（相続登記の義務化、住所氏名変更登記の義務化、令和5年4月施行の民法の共有・相隣関係の見直しなど）によって変わった点は確認されませんでした。エの国有財産法上の官民境界確定協議は、国有財産法がローカル法令データベースに未収録のため、今回も条文レベルでは確認できていません。②総論・⑤作図ガイドの該当カード・パネルは、本文と同じ内容に揃えました（⑤は、毎回「はい」「いいえ」が決まっているひし形を使わない、単一の図解に作り直しました）。
 
 ---
 
@@ -309,7 +309,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 合意で動くのは所有権界だけ
@@ -325,7 +325,7 @@ the dashed line from a-b to c-d, with a green checkmark. Step marker ②
 a-b line is stopped at the padlock by a red ✕ placed on that arrow, and
 the solid line stays at a-b. The diagram ends in one conclusion node
 reading 所有権界だけ動き、筆界（a-b）は不動のまま. A faded,
-dotted-outline tag reading 肢アの主張：所有権界も筆界もc-dとなる
+dotted-outline tag reading アの主張：所有権界も筆界もc-dとなる
 carries a red ✕.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、AとBの合意が、私法上の所有権の範囲（所有権界）を動かす法的な原因
@@ -335,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有権界のみ動く
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 時効取得でも筆界は不動のまま
@@ -350,7 +350,7 @@ c-d, with a green checkmark. Step marker ② 筆界への影響を確認: a seco
 arrow from the calendar icon toward the solid a-b line is stopped at the
 padlock by a red ✕ placed on that arrow, and the solid line stays at
 a-b. The diagram ends in one conclusion node reading 所有権界だけ動き、
-筆界（a-b）は不動のまま. A faded, dotted-outline tag reading 肢イの主張：
+筆界（a-b）は不動のまま. A faded, dotted-outline tag reading イの主張：
 所有権界も筆界もc-dとなる carries a red ✕.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Aの時効取得が、所有権の範囲を動かす法的な原因にあたるかを確認し
@@ -360,7 +360,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有権界のみ動く
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 信じただけでは境界は動かない
@@ -375,7 +375,7 @@ not an agreement or a prescription (a small label 動かす原因なし
 between them), and the dashed line stays at a-b with the solid line.
 Step marker ② 筆界への影響を確認: no arrow reaches the solid line
 either. The diagram ends in one conclusion node reading 所有権界も筆界も
-動かない. A faded, dotted-outline tag reading 肢ウの主張：所有権界も筆界も
+動かない. A faded, dotted-outline tag reading ウの主張：所有権界も筆界も
 c-dとなる carries a red ✕.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、境界はc-dだという説明を信じて第三者が土地を購入したという出来事
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 動く根拠なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 官民境界確定協議も所有権界だけ動く
@@ -411,7 +411,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 筆界とズレうる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 判決後でも所有権界は別に合意できる

@@ -78,8 +78,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（5番＝ウ・オが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月4日 現行法との整合性を再検証し、肢オの説明を精密にしました】** 不動産登記法123条1号の筆界の定義が、現行でも「**表題登記がある一筆の土地**とこれに隣接する他の土地との間において、当該一筆の土地が登記された時にその境を構成するものとされた二以上の点及びこれらを結ぶ直線をいう」であることを確認しました。初版は「筆界特定は登記された土地が前提」とだけ書いていましたが、条文上は**一方に表題登記があれば足り、隣接地は未登記でもよい**（本肢が誤りとされるのは双方が未登記だから）という点まで踏み込んで書き直しています。関連して、対象土地に表題登記がない土地が含まれる場合を想定した不動産登記法131条3項3号の書きぶりにも触れました。判定（オは誤り）は変わりません。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、肢オの引用条文の誤りを訂正しました】** `fudousan-touki-hou.md`（2026-08-04取得の現行法）で確認したところ、**123条1号**の定義には「これに隣接する他の土地（**表題登記がない土地を含む。**）」という括弧書きが条文自体に置かれており、隣接地が未登記でもよいことは条文上明らかでした。この括弧書きを本文の引用に補いました。また、初版が「不動産登記法**131条2項2号**」としていた箇所は誤りで、131条2項は地方公共団体による申請の規定であり号がありません。正しくは、対象土地について「**表題登記がない土地にあっては、同項第一号に掲げる事項**」を明らかにすると定める**131条3項3号**であり、本文・上記記載とも訂正しました。判定（オは誤り）は変わりません。あわせて肢オの本文を3文に圧縮しました。
+- **【2026年8月4日 現行法との整合性を再検証し、オの説明を精密にしました】** 不動産登記法123条1号の筆界の定義が、現行でも「**表題登記がある一筆の土地**とこれに隣接する他の土地との間において、当該一筆の土地が登記された時にその境を構成するものとされた二以上の点及びこれらを結ぶ直線をいう」であることを確認しました。初版は「筆界特定は登記された土地が前提」とだけ書いていましたが、条文上は**一方に表題登記があれば足り、隣接地は未登記でもよい**（本肢が誤りとされるのは双方が未登記だから）という点まで踏み込んで書き直しています。関連して、対象土地に表題登記がない土地が含まれる場合を想定した不動産登記法131条3項3号の書きぶりにも触れました。判定（オは誤り）は変わりません。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、オの引用条文の誤りを訂正しました】** `fudousan-touki-hou.md`（2026-08-04取得の現行法）で確認したところ、**123条1号**の定義には「これに隣接する他の土地（**表題登記がない土地を含む。**）」という括弧書きが条文自体に置かれており、隣接地が未登記でもよいことは条文上明らかでした。この括弧書きを本文の引用に補いました。また、初版が「不動産登記法**131条2項2号**」としていた箇所は誤りで、131条2項は地方公共団体による申請の規定であり号がありません。正しくは、対象土地について「**表題登記がない土地にあっては、同項第一号に掲げる事項**」を明らかにすると定める**131条3項3号**であり、本文・上記記載とも訂正しました。判定（オは誤り）は変わりません。あわせてオの本文を3文に圧縮しました。
 - ウ（地積更正では筆界は変動しない）は筆界の性質からの説明です。ア・イ・エ（公法上の境界と私法上の境界の対比、筆界の歴史的起源、筆界確定訴訟の判決の効力）は、筆界に関する一般的な理解に基づく説明で、判例・文献の逐一の照合まではしていません。とくにエ（境界確定判決の効力が登記官等の第三者に及ぶこと）は、対世効の有無について学説上の議論がある領域なので、答案で断定的に書く場合は基本書での確認をおすすめします。
 - 引用した対話文（ア〜オ）は、データベースに保存されていた学生の解答部分をそのまま用いています（教授の質問文は要旨を括弧書きで補いました）。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を「地租改正」「筆界特定登記官の当該却下処分」等のキーワードで確認しました。H21年度第16問が地租改正・改租図の沿革を問う穴埋め問題ですが、公図の成立史を問うもので、本問（筆界の定義、裁判所による筆界確定判決の効力、未登記地の筆界特定可否）とは出題形式・論点とも別物でした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
@@ -240,11 +240,11 @@ conditions to get there — isometric icons of two adjacent land plots, a
 chain-link icon for a fixed boundary, a dashed line icon for a movable
 boundary, an old scroll/map icon for 改租図, a ledger (台帳)icon, a
 courthouse building icon, a registry-office building icon, and an
-old-map icon for 改租図・更正図. Panel 1 (肢ア) is drawn as a LEFT/RIGHT
+old-map icon for 改租図・更正図. Panel 1 (ア) is drawn as a LEFT/RIGHT
 comparison of 公法上の境界(筆界)and 私法上の境界(所有権界); Panel 2
-(肢イ) is drawn as a left-to-right timeline; Panel 3 (肢ウ) is drawn as a
+(イ) is drawn as a left-to-right timeline; Panel 3 (ウ) is drawn as a
 LEFT/RIGHT comparison of cases where 筆界 does and does not change;
-Panels 4・5 (肢エ・肢オ) are each resolved by a single check — Panel 5 has
+Panels 4・5 (エ・オ) are each resolved by a single check — Panel 5 has
 two equally meaningful outcomes, so draw both the Yes-side and the
 No-side conclusion nodes explicitly, with no arrow looping back into the
 diagram — so draw a labeled diagram for each instead of forcing a
@@ -311,7 +311,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft green containing the number 1.
 Heading (bold, ONE line):
 筆界は私人が動かせない公法上の境界
@@ -329,7 +329,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 私人には動かせない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line):
 筆界のルーツは明治の地租改正
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 地租改正が起源
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line):
 地積更正は数字だけ直し筆界は動かない
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 数字だけ変わる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft green containing the number 4.
 Heading (bold, ONE line):
 筆界確定訴訟の判決は登記官にも及ぶ
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 第三者にも効力
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5.
 Heading (bold, ONE line):
 一方でも表題登記があれば筆界特定の対象

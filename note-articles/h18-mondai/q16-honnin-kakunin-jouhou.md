@@ -336,13 +336,13 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 面識の有無をまず見分ける
 Diagram: Draw an actual decision flowchart (this tree's root is shared
-with PANEL 2（肢イ）). A qualifying-agent figure（資格者代理人）facing an
+with PANEL 2（イ）). A qualifying-agent figure（資格者代理人）facing an
 applicant figure（申請人）leads into a diamond-shaped branch node reading
 "申請人と面識があるか". A "いいえ"（本肢のケース、with a thick highlighted
 border and full color）arrow leads to a conclusion node reading "運転免
@@ -363,12 +363,12 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 面識なしは書類内容明記
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 1か月前の代理は面識の要件外
 Diagram: Draw an actual decision flowchart (continuing the tree shared
-with PANEL 1（肢ア）). A small, faded, dotted-outline version of PANEL 1's
+with PANEL 1（ア）). A small, faded, dotted-outline version of PANEL 1's
 diamond node「申請人と面識があるか」is redrawn at the top, with its
 「いいえ」branch faded and greyed-out and its「はい」branch now rendered
 with a thick highlighted border and full color, leading into a second
@@ -394,7 +394,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 1か月では面識該当せず
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 面談の日時・場所・状況を記録する
@@ -409,7 +409,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 日時場所状況を明記
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 資格者であることを証する情報も添付
@@ -427,7 +427,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 職印証明書等を添付
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 作成者が受任した代理人自身かを確認する
@@ -452,10 +452,10 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記規則72条1項3号（肢ア）、不動産登記事務取扱手続準則49
-条1項1号・2号（肢イ）、不動産登記規則72条1項1号（肢ウ）、不動産登記規則
-72条3項・不動産登記事務取扱手続準則49条2項3号（肢エ）、不動産登記規則72
-条1項柱書（肢オ）
+条文根拠：不動産登記規則72条1項3号（ア）、不動産登記事務取扱手続準則49
+条1項1号・2号（イ）、不動産登記規則72条1項1号（ウ）、不動産登記規則
+72条3項・不動産登記事務取扱手続準則49条2項3号（エ）、不動産登記規則72
+条1項柱書（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

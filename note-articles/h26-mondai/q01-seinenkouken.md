@@ -262,15 +262,15 @@ conditions to get there — a convenience-store scene for 日常生活行為, th
 small family-court buildings side by side labeled 後見開始・保佐開始・
 補助開始 for the type-classification panel, a fake certificate for 詐術,
 and a split scene contrasting 成年後見人 and 保佐人・補助人 for the
-代理権の範囲 panel. Panel 2 (肢イ) requires checking which of the three
+代理権の範囲 panel. Panel 2 (イ) requires checking which of the three
 proceedings (後見・保佐・補助) is at issue, so draw it as an actual
-decision flowchart with a three-way branch diamond. Panel 4 (肢エ)
+decision flowchart with a three-way branch diamond. Panel 4 (エ)
 requires checking two conditions in sequence (判断能力の回復の有無、家庭
 裁判所の取消審判の有無), so draw it as an actual two-diamond decision
 flowchart. This article's 5 肢 do not share a common fact pattern with
 each other, so there is no shared tree shape to reuse across panels;
 design each panel independently. Where a 肢 is resolved by a single check
-(肢ア・肢ウ・肢オ), a labeled illustrative diagram is sufficient — do not
+(ア・ウ・オ), a labeled illustrative diagram is sufficient — do not
 force a flowchart. Unlike a glanceable summary poster, each panel MAY
 include a short「着眼点」callout box with 1-2 sentences that state the
 checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
@@ -313,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 日用品の購入は意思能力に関係なく取消し不可
@@ -330,7 +330,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取消しの対象外
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 本人の同意が必須なのは補助開始だけ
@@ -349,7 +349,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 補助だけ同意必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 だましたら取消権を失う
@@ -366,7 +366,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 詐術で取消不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 後見終了は裁判所の取消審判だけ
@@ -388,7 +388,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 自動回復はしない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 後見人は包括代理、保佐等は個別代理
@@ -421,7 +421,7 @@ renders as a Simplified or Traditional Chinese variant, redraw that character in
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢
-(肢イ・肢エ) is drawn as an actual flowchart with branch nodes (not a bare
+(イ・エ) is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点 callout
 states a checking order rather than only a conclusion, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no

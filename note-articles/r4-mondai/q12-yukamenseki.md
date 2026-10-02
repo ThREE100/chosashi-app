@@ -76,7 +76,7 @@
 - 出題年度・問題番号・正解番号（5番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア＝準則82条11号、イ＝昭38.10.22民甲2933号、ウ＝準則82条7号、エ＝準則82条10号、オ＝準則82条2号）は、データベースのexplanationフィールドおよびkaisetsu_plus.jsonに条番号まで明記されているものを転記しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
-- 【2026-08-16調査】肢イの先例番号「昭38.10.22民甲2933号」は、同じ先例を指すと思われる引用が令和5年度午後の部第12問の記事では「昭38.10.22民甲1933号」となっており、番号の表記がデータベース間で一致していない点を発見していましたが、追加調査により解消しました。国立国会図書館リサーチ・ナビの『詳細登記六法（平成24年版） 別冊（登記関係先例編）』索引に「昭和38・10・22民事甲2933号回答」の記載が確認でき（試験対策アプリのOCR由来データとは独立した書誌情報源）、「1933号」を裏付ける情報源はWeb検索上どこにも見当たりませんでした。「1933」は「2933」のOCR誤読（1と2の読み違い）である可能性が高いと判断し、令和5年度午後の部第12問側の記事も「2933号」に修正しました。なお索引の記載から先例番号の実在は確認できましたが、原文（登記研究・詳細登記六法本体）まで直接確認できたわけではないため、内容面の断定は引き続き避け、条文で直接裏取りできない先例に基づく実務上の取扱いである旨は本文の書きぶりを維持しています。
+- 【2026-08-16調査】イの先例番号「昭38.10.22民甲2933号」は、同じ先例を指すと思われる引用が令和5年度午後の部第12問の記事では「昭38.10.22民甲1933号」となっており、番号の表記がデータベース間で一致していない点を発見していましたが、追加調査により解消しました。国立国会図書館リサーチ・ナビの『詳細登記六法（平成24年版） 別冊（登記関係先例編）』索引に「昭和38・10・22民事甲2933号回答」の記載が確認でき（試験対策アプリのOCR由来データとは独立した書誌情報源）、「1933号」を裏付ける情報源はWeb検索上どこにも見当たりませんでした。「1933」は「2933」のOCR誤読（1と2の読み違い）である可能性が高いと判断し、令和5年度午後の部第12問側の記事も「2933号」に修正しました。なお索引の記載から先例番号の実在は確認できましたが、原文（登記研究・詳細登記六法本体）まで直接確認できたわけではないため、内容面の断定は引き続き避け、条文で直接裏取りできない先例に基づく実務上の取扱いである旨は本文の書きぶりを維持しています。
 
 ---
 
@@ -318,7 +318,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -343,7 +343,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 両条件がそろって算入
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 階段室・塔屋は外気分断性の有無に関係なく不算入
@@ -363,7 +363,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 外気分断性は無関係
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 屋根・手すりがあっても外気分断性なければ不算入
@@ -382,7 +382,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 外気分断性なければ算入外
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 ダストシュートの起点が内部か外部かを確認する
@@ -404,7 +404,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 内部起点なら全体算入
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 乗降場の床面積は上屋がかかる範囲だけで測る
@@ -424,8 +424,8 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記事務取扱手続準則82条11号（肢ア）／同条7号（肢ウ）／
-同条10号（肢エ）／同条2号（肢オ）。肢イは先例による（本文参照）。
+条文根拠：不動産登記事務取扱手続準則82条11号（ア）／同条7号（ウ）／
+同条10号（エ）／同条2号（オ）。イは先例による（本文参照）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
@@ -434,14 +434,14 @@ attention to 窓・段・塔・乗・降・積・号・建・物・確・認・�
 that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-every multi-condition 肢 (肢ア and 肢エ) is drawn as an actual flowchart
+every multi-condition 肢 (ア and エ) is drawn as an actual flowchart
 with branch nodes (not a bare illustration with no visible decision
 structure), that no 肢 with a genuinely hidden second condition has been
 flattened into a single check, that each 着眼点 callout states a checking
 order rather than only a conclusion and keeps every required element
 from the source article distinct (no merged or dropped requirements),
-that a factor the article treats as irrelevant (外気分断性 in 肢イ,
-屋根・手すり in 肢ウ) is shown crossed out rather than silently omitted,
+that a factor the article treats as irrelevant (外気分断性 in イ,
+屋根・手すり in ウ) is shown crossed out rather than silently omitted,
 confirm nothing is rendered below the last panel's footnote text (no
 summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
 all 肢, and no additional text block of any kind), and confirm the entire

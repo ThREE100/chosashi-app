@@ -380,7 +380,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there - isometric characters A・B・C・D on a land plot,
 a tombstone icon for A's death, a family-tree arrow for succession,
 registration stamps, and a courthouse icon for a family court filing. All
-5 panels (肢ア・肢イ・肢ウ・肢エ・肢オ) share ONE underlying decision tree
+5 panels (ア・イ・ウ・エ・オ) share ONE underlying decision tree
 with a single start node - 「相続に伴う物権変動の原因は？」- splitting into
 three branches: an orange branch labeled「相続放棄」leading straight to
 「登記なくして誰にでも対抗できる」; a green branch labeled「無権利者の処分」
@@ -394,11 +394,11 @@ second diamond node,「対象になっているのは自己の法定相続分の
 panel's 肢, and renders the other branches in a faded, greyed-out, or
 dotted-outline style rather than omitting them - the reader should be
 able to see at a glance which part of the shared tree each panel is
-about. Panels 1, 4, and 5 (肢ア・肢エ・肢オ) all highlight the blue branch,
-each with its own concrete scene and labels; Panel 5 (肢オ) additionally
+about. Panels 1, 4, and 5 (ア・エ・オ) all highlight the blue branch,
+each with its own concrete scene and labels; Panel 5 (オ) additionally
 highlights the second diamond node (自己の法定相続分の範囲内か、超過部分
-か), since this condition is easy to overlook. Panel 2 (肢イ) highlights
-the green branch. Panel 3 (肢ウ) highlights the orange branch. Where a 肢
+か), since this condition is easy to overlook. Panel 2 (イ) highlights
+the green branch. Panel 3 (ウ) highlights the orange branch. Where a 肢
 is resolved without needing the second diamond node, that node may be
 drawn smaller and faded to keep the panel focused. Unlike a glanceable
 summary poster, each panel MAY include a short「着眼点」callout box with
@@ -445,7 +445,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 生前の譲受人と転得者は対抗関係
@@ -472,7 +472,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記なければ対抗不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 無断登記された持分は無権利
@@ -499,7 +499,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 無権利ゆえ登記不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 相続放棄は絶対効で対抗要件の外
@@ -524,7 +524,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 絶対効・登記不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 特定遺贈は登記なければ対抗不可
@@ -552,7 +552,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記なければ対抗不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 超過分だけは登記なければ対抗不可
@@ -601,7 +601,7 @@ exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
 all 5 panels share the same three-branch tree shape and each clearly
 distinguishes its own highlighted branch and scene from the other, faded
-branches, that Panel 5 (肢オ) visibly highlights the second diamond node
+branches, that Panel 5 (オ) visibly highlights the second diamond node
 (自己の法定相続分の範囲内か、超過部分か) rather than stopping at the first
 branch, that Panel 2's faded ownership icon for B's crossed-out half is
 not replaced with a plain ✕ mark, that each 着眼点 callout states a

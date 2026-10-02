@@ -305,7 +305,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -326,7 +326,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 建物なしでも宅地
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 わき出し口か建物の敷地かを見分ける
@@ -348,7 +348,7 @@ separate plots.
 Conclusion tag (blue, 5-15 Japanese characters):
 引き込み先は宅地
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 道路利用されても堤防の地目は堤のまま
@@ -366,7 +366,7 @@ an arrow pointing back to the "堤" tag.
 Conclusion tag (blue, 5-15 Japanese characters):
 地目は堤のまま
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 村落間の通水路の地目は井溝
@@ -381,7 +381,7 @@ wooden label reading "井溝".
 Conclusion tag (blue, 5-15 Japanese characters):
 地目は井溝
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 テニスコートも一体で地目は公園のまま

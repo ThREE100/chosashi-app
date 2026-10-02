@@ -229,20 +229,20 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — isometric land plots, pastures, farmland,
-tennis courts, and hot springs. Panels 1（肢ア）and 3（肢ウ）form a matched
+tennis courts, and hot springs. Panels 1（ア）and 3（ウ）form a matched
 pair using a side-by-side comparison frame（対比枠型）rather than a
 flowchart, because the real point of both 肢 is distinguishing two
 different zone-based rules, not a sequential condition: in Panel 1,
 highlight the 牧場地域 side and show the 耕作地域 side in a faded,
 greyed-out style purely for contrast; in Panel 3, highlight the 耕作地域
-side and show the 牧場地域 side faded instead. Panel 2（肢イ）is a simple
+side and show the 牧場地域 side faded instead. Panel 2（イ）is a simple
 before/after timeline and does not need a diamond-shaped flowchart. Panel
-4（肢エ）must be drawn as an actual decision flowchart with a real
+4（エ）must be drawn as an actual decision flowchart with a real
 two-outcome branch, because the source rule itself states both outcomes
 explicitly (準則69条9号「宅地に接続するものは宅地とし、その他は雑種地と
 する」): render both the はい side (宅地の一部として扱う) and the いいえ
 side (雑種地となる) with their own conclusion nodes, and do not draw a
-looping arrow back into an earlier node. Panel 5（肢オ）is a simple
+looping arrow back into an earlier node. Panel 5（オ）is a simple
 definitional check and should use a labeled illustrative diagram rather
 than a forced flowchart. Unlike a glanceable summary poster, each panel
 MAY include a short「着眼点」callout box with 1-2 sentences that state the
@@ -289,7 +289,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 牧場地域内の建物敷地は宅地外
@@ -308,7 +308,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 宅地にならない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 現況優先ですぐ地目変更
@@ -326,7 +326,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 現況で即変更
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 耕作地域の永久施設は宅地扱い
@@ -344,7 +344,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 永久施設なら宅地
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 宅地接続のテニスコートは宅地扱い
@@ -364,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 雑種地にならない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 温泉の湧出口は鉱泉地と定める

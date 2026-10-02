@@ -332,7 +332,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 相続人は主張方法を自由に選べる
@@ -349,7 +349,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 どちらでも選べる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 提訴の前後で使用利益の扱いが変わる
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 提訴前なら返還不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 必要費は「通常」か「特別」かで分ける
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 特別必要費は請求可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 指図と承諾の2条件をそろえて確認する
@@ -404,7 +404,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 指図と承諾で移転
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 代理占有の地位を先に確認する
@@ -433,7 +433,7 @@ similar Simplified Chinese variant. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢（肢イ・肢エ）is
+the header and the panels, that every multi-condition 肢（イ・エ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered

@@ -298,7 +298,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 書面提出なら地役権者本人の署名等が必要
@@ -317,7 +317,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 署名・記名押印必須
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 縮尺は地積測量図と揃える必要なし
@@ -335,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 縮尺は自由
 
---- PANEL 3(肢オ) ---
+--- PANEL 3(オ) ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 要役地の所在地番は記載事項でない
@@ -353,7 +353,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 要役地は記載不要
 
---- PANEL 4(肢ウ) ---
+--- PANEL 4(ウ) ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 範囲が一部残るときだけ図面提供必要
@@ -375,7 +375,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 図面提供は必要
 
---- PANEL 5(肢エ) ---
+--- PANEL 5(エ) ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 新図面提供で分筆登記なら従前図面閉鎖

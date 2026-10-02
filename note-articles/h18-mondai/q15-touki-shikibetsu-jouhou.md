@@ -346,7 +346,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -368,7 +368,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 再通知制度はなし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 名義人が1人か2人以上かを見る
@@ -392,7 +392,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 共有なら全員分必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 合筆対象のうち一筆を選べばよい
@@ -412,7 +412,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代表一筆の提供でよい
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in beige containing the number 4.
 Heading (bold, ONE line):
 提供できない理由の有無を確認する
@@ -434,7 +434,7 @@ Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
 characters):
 登記官が事前通知
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 合筆と分筆で通知の有無を見分ける
@@ -459,9 +459,9 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記法21条本文・23条1項（肢ア）、不動産登記法22条本文・不
-動産登記令8条1項1号・2項1号（肢イ・肢ウ）、不動産登記法23条1項前段（肢
-エ）、不動産登記令8条1項1号〜3号（肢オ）
+条文根拠：不動産登記法21条本文・23条1項（ア）、不動産登記法22条本文・不
+動産登記令8条1項1号・2項1号（イ・ウ）、不動産登記法23条1項前段（肢
+エ）、不動産登記令8条1項1号〜3号（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

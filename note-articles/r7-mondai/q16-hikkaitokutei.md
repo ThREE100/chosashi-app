@@ -260,9 +260,9 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 2（肢イ）uses a side-by-side comparison frame（LEFT: 所有
+flowchart. Panel 2（イ）uses a side-by-side comparison frame（LEFT: 所有
 権確認訴訟の判決（本肢）＝却下事由に当たらない、RIGHT: 筆界確定訴訟の
-判決＝却下事由に当たる）instead of a flowchart. Panel 5（肢オ）must be
+判決＝却下事由に当たる）instead of a flowchart. Panel 5（オ）must be
 drawn as a two-step flowchart, checking the 除斥事由 first and then the
 「特段の必要」exception. Unlike a glanceable summary poster, each panel
 MAY include a short「着眼点」callout box with 1-2 sentences that state
@@ -308,7 +308,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申請人でない共有者も意見を提出できる
@@ -326,7 +326,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 意見・資料を提出可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 所有権確認訴訟は筆界と別次元
@@ -345,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 筆界は別次元
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 手続の途中でも調書を閲覧できる
@@ -360,7 +360,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 閲覧できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 売買契約書の原本は還付を請求できる
@@ -375,7 +375,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 還付請求できる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 除斥事由があれば改めて申請できる

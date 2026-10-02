@@ -244,7 +244,7 @@ conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. This
 article's five 肢 do not share a single common decision-tree shape, so
 design each panel's diagram independently around its own fact pattern;
-only Panel 3（肢ウ）needs an actual multi-step flowchart, since it is the
+only Panel 3（ウ）needs an actual multi-step flowchart, since it is the
 only 肢 whose conclusion rests on weighing more than one factor in
 sequence (総合考慮). Unlike a glanceable summary poster, each panel MAY
 include a short「着眼点」callout box with 1-2 sentences that state the
@@ -288,7 +288,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 登記なくても通行権を主張できる
@@ -306,7 +306,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記なしでも主張可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 水路に囲まれても通行できることがある
@@ -323,7 +323,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 水路でも通行権あり
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 自動車通行は3要素の総合考慮で判断
@@ -343,7 +343,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾なしで成立し得る
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 通路開設に承諾は不要
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾なしで開設可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分割後の通行権は譲渡後も消えない
@@ -388,7 +388,7 @@ attention to 権・地・登・記・所・繞・囲. If any character renders a
 Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that the multi-condition 肢（肢ウ）is drawn as
+the header and the panels, that the multi-condition 肢（ウ）is drawn as
 an actual flowchart with branch nodes (not a bare illustration with no
 visible decision structure), that each 着眼点 callout states a checking
 order rather than only a conclusion, confirm nothing is rendered below

@@ -273,7 +273,7 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No（はい／いいえ）
 branch arrows, and a final conclusion node. Where a 肢 is resolved by a
 single check, a labeled illustrative diagram is sufficient — do not
-force a flowchart. Panels 2 and 3 (肢イ・肢ウ) share the same underlying
+force a flowchart. Panels 2 and 3 (イ・ウ) share the same underlying
 horizontal-timeline shape (契約成立時点を起点とし、途中に追認または取消
 しの時点をマークする); draw both on the same timeline layout, but in
 Panel 2 draw NO arrow reaching back to the starting point (追認は将来に
@@ -322,7 +322,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 意思能力の有無を最初に確認する
@@ -337,7 +337,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 無効なら引渡義務なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 追認しても遡って有効化しない
@@ -354,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 追認時から新たな行為
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 取消しは遡って無効になる
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 遡及して無効
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 法定代理人の追認の有無を確認
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 確定的に有効
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 2本のタイマーのどちらが先か確認

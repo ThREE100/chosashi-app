@@ -321,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -339,7 +339,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一部でも請求できる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 表題部のみの証明書は存在しない
@@ -357,7 +357,7 @@ Diagram: 正誤対比の構図で描く。上段（誤った思い込み）に�
 Conclusion tag (blue, 5-15 Japanese characters):
 存在しない類型
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 共同担保目録は請求情報に明記する
@@ -375,7 +375,7 @@ ledger pages が証明書に添付される結論ノード「請求情報にそ�
 Conclusion tag (blue, 5-15 Japanese characters):
 請求情報に記載
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地図に準ずる図面はどこでも請求できる
@@ -392,7 +392,7 @@ office（登記所）building icon を散らして配置する。そのうち1�
 Conclusion tag (blue, 5-15 Japanese characters):
 どの登記所でも可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 送付なら送付費用も自己負担になる

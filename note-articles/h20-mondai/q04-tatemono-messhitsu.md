@@ -84,8 +84,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・エが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月4日 現行法との整合性を再検証し、条文根拠を補いました】** 正誤の判定は初版から変更ありません。**不動産登記法57条**（建物が滅失したときは、表題部所有者又は所有権の登記名義人〔共用部分である旨の登記又は団地共用部分である旨の登記がある建物にあっては所有者〕が、滅失の日から1月以内に滅失の登記を申請しなければならない）が現行条文どおりであることを確認し、導入部と肢エに反映しました。同条は令和3年の所有者不明土地関連の不動産登記法改正（相続登記の申請義務化等）でも変更されていません。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、肢イの条文根拠を補いました】** `fudousan-touki-hou.md`（2026-08-04取得の現行法）で条文原文を確認した結果は次のとおりです。**57条**（滅失の登記の申請義務者・1月以内）、**58条4項**（共用部分である旨の登記をするときは登記官が職権で表題部所有者の登記・権利に関する登記を抹消する）、**164条1項**（57条の申請義務違反は10万円以下の過料）は、いずれも記事の記載どおりでした。加えて、肢イについて初版は「変更の登記まで申請する必要はない」という結論だけを述べていましたが、条文上の根拠は**44条1項7号**（区分建物が属する一棟の建物の構造及び床面積が登記事項）と**51条5項・6項**（この登記事項に関する変更の登記は同じ一棟に属する他の区分建物についてされた変更の登記としての効力を有し、登記官が職権で他の区分建物についても変更の登記をする）です。本文とまとめ表にこの根拠を追記しました。正誤の結論は変わりません。
+- **【2026年8月4日 現行法との整合性を再検証し、条文根拠を補いました】** 正誤の判定は初版から変更ありません。**不動産登記法57条**（建物が滅失したときは、表題部所有者又は所有権の登記名義人〔共用部分である旨の登記又は団地共用部分である旨の登記がある建物にあっては所有者〕が、滅失の日から1月以内に滅失の登記を申請しなければならない）が現行条文どおりであることを確認し、導入部とエに反映しました。同条は令和3年の所有者不明土地関連の不動産登記法改正（相続登記の申請義務化等）でも変更されていません。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、イの条文根拠を補いました】** `fudousan-touki-hou.md`（2026-08-04取得の現行法）で条文原文を確認した結果は次のとおりです。**57条**（滅失の登記の申請義務者・1月以内）、**58条4項**（共用部分である旨の登記をするときは登記官が職権で表題部所有者の登記・権利に関する登記を抹消する）、**164条1項**（57条の申請義務違反は10万円以下の過料）は、いずれも記事の記載どおりでした。加えて、イについて初版は「変更の登記まで申請する必要はない」という結論だけを述べていましたが、条文上の根拠は**44条1項7号**（区分建物が属する一棟の建物の構造及び床面積が登記事項）と**51条5項・6項**（この登記事項に関する変更の登記は同じ一棟に属する他の区分建物についてされた変更の登記としての効力を有し、登記官が職権で他の区分建物についても変更の登記をする）です。本文とまとめ表にこの根拠を追記しました。正誤の結論は変わりません。
 - ア（滅失登記が保存行為で共同相続人の一人から単独申請できること）とオ（表示に関する登記なので仮処分債権者の承諾情報は不要であること）、ウ（土地所有者には建物の滅失登記の申請適格がないこと）、イ（一部の区分建物が滅失しても残存する区分建物について構造変更の登記を要しないこと）は、いずれも57条の申請適格と表示に関する登記の性質からの説明で、**根拠となる先例・通達の番号までは今回の再検証でも特定できていません**。とくにウについては、建物の敷地の所有者による代位申請の可否という論点が実務上あるため、断定的な結論を採る前に一次資料の確認をおすすめします。
 - アプリのデータベースの補足解説（kaisetsu_plus.json）はこの問題について「reviewed: false（未検証）」でしたので、本記事は公式正答に合わせて各肢を判定して作成しています。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を「滅失の登記」「共同相続人」「共用部分」「処分禁止の仮処分」等のキーワードで確認しました。建物滅失登記は毎年のように出題される定番論点で類似の一般原則が繰り返し問われますが、本問の具体的な肢の組み合わせ（借地人の建物取壊し・3階建から2階建への変更等）と一致する事例は見つかりませんでした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
@@ -248,11 +248,11 @@ involved, a crumbled-rubble icon for a demolished building, character
 icons for 相続人（複数）・地主（土地所有者）・借地人・区分所有者・仮処分の
 債権者, document icons for「同意書」「承諾書」「所有権を証する情報」, a
 registry-stamp icon labeled「登記官が職権」, and a red「処分禁止」ribbon
-icon wrapped around a building. Panel 2 (肢イ) compares the demolished 区分
+icon wrapped around a building. Panel 2 (イ) compares the demolished 区分
 建物 with the remaining 区分建物 as a side-by-side LEFT/RIGHT comparison
-rather than a single scene, and Panel 4 (肢エ) is drawn as an actual
+rather than a single scene, and Panel 4 (エ) is drawn as an actual
 decision flowchart (whether the building already has a registered
-name-holder), while Panels 1・3・5 (肢ア・肢ウ・肢オ) are each resolved by
+name-holder), while Panels 1・3・5 (ア・ウ・オ) are each resolved by
 a single check, so draw a labeled illustrative diagram for them instead
 of forcing a flowchart. Where a 肢 requires checking multiple conditions
 in sequence before reaching a conclusion, draw the panel's diagram as an
@@ -317,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft green containing the number 1.
 Heading (bold, ONE line):
 相続人は同意なしで単独申請できる
@@ -332,7 +332,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 同意書は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line):
 残った区分建物の構造変更登記は不要
@@ -350,7 +350,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 職権登記だから不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line):
 土地所有者は借地人の建物を消せない
@@ -367,7 +367,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 申請適格なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft green containing the number 4.
 Heading (bold, ONE line):
 名義人のない共用部分は所有者から申請
@@ -389,7 +389,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 所有者の一人で申請可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5.
 Heading (bold, ONE line):
 仮処分があっても承諾情報は不要

@@ -337,7 +337,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -354,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 隣地の地番も必須
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 市街地地域かどうかを先に確認する
@@ -372,7 +372,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 200分の1は誤り
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 訂正申出ができる人の資格を確認する
@@ -391,7 +391,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 限られた者だけ可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 書面図面の記載事項3点を確認する
@@ -408,7 +408,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 記名・署名が必須
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 縮尺と表示内容の2条件を順に確認する

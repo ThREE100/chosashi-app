@@ -77,7 +77,7 @@
 - 各肢の根拠は、地目の認定に関する不動産登記事務取扱手続準則68条・69条（地目は現況主義、地目は23種類）に基づいて記載しています。ア（かんがい用水でない貯留池＝池沼）は、準則の池沼の定義（かんがい用水でない水の貯留池）から確認できるものです。エ（「工場用地」という地目は存在しない）も準則の地目の種類から確認できます。イ・オについては、耕作放棄地・造成中の土地の地目認定に関する準則・実務の一般的な理解に基づくもので、細目までは各自でも確認することをおすすめします。
 - 正しいものが1個という結論は公式の正解番号と一致しており、その1個がウ（宅地）であることは上記の認定基準から導いています。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であり、一部に肢の正誤の記述に混乱が見られたため、準則の認定基準による確認を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（地目）と同一の問題が再出題されていないかを確認しました。「地目」は令和5年度第8問でも再出題されるテーマです（問題文＋肢全体の類似度0.30程度）。肢単位では、本問の肢ウ「高圧線の下にある建物の敷地である土地の地目は宅地である」と令和5年度第8問の肢イは、ほぼ同一の文言（類似度0.88）ですが、令和5年度は同じ事例を「雑種地とする」という誤りの肢として逆方向から出題しており、他の4肢の組合せも異なります。**問題全体としての重複ではありません**。地目の認定基準は繰り返し問われる頻出論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（地目）と同一の問題が再出題されていないかを確認しました。「地目」は令和5年度第8問でも再出題されるテーマです（問題文＋肢全体の類似度0.30程度）。肢単位では、本問のウ「高圧線の下にある建物の敷地である土地の地目は宅地である」と令和5年度第8問のイは、ほぼ同一の文言（類似度0.88）ですが、令和5年度は同じ事例を「雑種地とする」という誤りの肢として逆方向から出題しており、他の4肢の組合せも異なります。**問題全体としての重複ではありません**。地目の認定基準は繰り返し問われる頻出論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -244,7 +244,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・エは、名称のイメージだけで地目を思い込みやすい記述であるため、「誤りやすい思い込み」と「正しいルール」を左右で対比させる正誤対比型とする。肢ウ・オは、現況を段階的に確認して結論に至る決定木型とする。
+ア・イ・エは、名称のイメージだけで地目を思い込みやすい記述であるため、「誤りやすい思い込み」と「正しいルール」を左右で対比させる正誤対比型とする。ウ・オは、現況を段階的に確認して結論に至る決定木型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -317,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -337,7 +337,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 正しくは「池沼」
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 まず現況の地目を検討
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -377,7 +377,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 高圧線は無関係
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -397,7 +397,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 「工場用地」は存在しない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

@@ -85,7 +85,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（3番＝イ・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
 - 各肢の法的根拠は、`note-articles/laws/fudousan-touki-hou.md`（不動産登記法56条・58条）及び`fudousan-touki-kisoku-1.md`（同規則131条）の条文原文で確認しました。56条5号は「所有権等の登記以外の権利に関する登記がある建物」の合併を禁止し、その例外（合併後の建物の登記記録に登記することができる権利）は規則131条が「担保権の登記であって、登記の目的・受付年月日及び受付番号並びに登記原因及びその日付が同一のもの」及び「信託の登記であって登記事項が同一のもの」の2種類に限定して列挙しています。この例外リストには「抵当権者の消滅承諾」は含まれておらず、また賃借権も含まれていないため、イ（片方のみの抵当権について承諾があっても合併できないとする点＝正しい）・ウ（賃借権は内容が同一でも合併の妨げになる＝正しい）はいずれも条文原文で確認できました。エ（敷地権の有無の不一致）は56条の禁止事由5号のいずれにも該当しないため、制限を受けないという理解も条文の列挙内容と整合しています。
-- **カード3・カード4の整合性の再確認（2026-09-28実施）**：ユーザーからの指摘を受け、肢ウ（賃借権）と肢エ（敷地権）で結論が逆になる理由を再検証しました。不動産登記法56条5号が制限の対象とするのは「所有権等（同法50条が定義する所有権・地上権・永小作権・地役権・採石権。この定義は「第三款　建物の表示に関する登記」＝44条〜58条の全体に及ぶため56条にも適用されます）の登記以外の権利に関する登記」、すなわち登記記録の権利部（乙区）に登記される第三者の権利です。賃借権はこの権利部の登記そのものであるため56条5号の対象に含まれますが、敷地権は権利部の登記ではなく、区分建物の表題部の登記事項の一つ（不動産登記法44条1項9号）であり、そもそも56条5号が想定する「権利に関する登記」の範疇に含まれません。したがって、両肢の結論（ウ＝合併不可、エ＝合併可）は矛盾するものではなく、「権利部の登記か、表題部の登記事項か」という異なる分類に基づく一貫した帰結です。本文エの解説にこの区別を明記し、`## インフォグラフィック プロンプト（ア〜オ 作図ガイド）`のPANEL3・PANEL4もこの対比が伝わるよう修正しました。
+- **カード3・カード4の整合性の再確認（2026-09-28実施）**：ユーザーからの指摘を受け、ウ（賃借権）とエ（敷地権）で結論が逆になる理由を再検証しました。不動産登記法56条5号が制限の対象とするのは「所有権等（同法50条が定義する所有権・地上権・永小作権・地役権・採石権。この定義は「第三款　建物の表示に関する登記」＝44条〜58条の全体に及ぶため56条にも適用されます）の登記以外の権利に関する登記」、すなわち登記記録の権利部（乙区）に登記される第三者の権利です。賃借権はこの権利部の登記そのものであるため56条5号の対象に含まれますが、敷地権は権利部の登記ではなく、区分建物の表題部の登記事項の一つ（不動産登記法44条1項9号）であり、そもそも56条5号が想定する「権利に関する登記」の範疇に含まれません。したがって、両肢の結論（ウ＝合併不可、エ＝合併可）は矛盾するものではなく、「権利部の登記か、表題部の登記事項か」という異なる分類に基づく一貫した帰結です。本文エの解説にこの区別を明記し、`## インフォグラフィック プロンプト（ア〜オ 作図ガイド）`のPANEL3・PANEL4もこの対比が伝わるよう修正しました。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。「建物の合併の登記」はH26・H27・H28・R01・R02・R04・R06・R07年度など、ほぼ毎年何らかの形で扱われる頻出テーマです。特にR04年度第16問は本問と同じ「乙建物を甲建物に合併する」という事例設定ですが、問われている具体的な肢（相続未了時の申請可否、管轄が異なる場合の可否、種類変更登記との一括申請、共用部分である旨の登記がある区分建物同士の合併、住居表示実施に伴う住所変更登記の省略）は本問の5論点（抵当権の内容食い違い、乙建物のみの抵当権と承諾、賃借権、敷地権の有無の不一致、所有権の仮登記）とは異なり、直接の重複は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**が、「建物の合併」は頻出テーマのため、他年度の記事と論旨が似すぎないよう注意してください。
 - **最新法令チェック（2026-08-16実施）**：本問の5肢はいずれも建物の合併の登記の制限事由（抵当権・賃借権・敷地権・仮登記の登記の有無）を扱うもので、表題部所有者の住所変更登記の義務化（令和8年4月1日施行）や相続による表示登記の論点とは関係がありません。`note-articles/laws/fudousan-touki-hou.md`（56条）・`fudousan-touki-kisoku-1.md`（131条）の現行条文を確認しましたが、これらの改正による影響は確認されませんでした。
 
@@ -276,14 +276,14 @@ frameworks (a right that is a担保権 versus a right that is not) rather
 than a sequence of conditions, use a 対比枠型 side-by-side comparison
 frame instead of a flowchart. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panels 1 and 2 (肢ア・肢イ) share the same underlying decision tree about
+Panels 1 and 2 (ア・イ) share the same underlying decision tree about
 抵当権 and building merger: render both panels' diagrams as the same
 tree shape (a first diamond asking whether both buildings carry the
 registered right, then a second diamond asking whether its content is
 identical), and in each panel highlight (thick border, full color) only
 the branch relevant to that panel's 肢, rendering the other, unrelated
 branches in a faded, greyed-out, dotted-outline style rather than
-omitting them. Panels 3 and 4 (肢ウ・肢エ) form a deliberate conceptual
+omitting them. Panels 3 and 4 (ウ・エ) form a deliberate conceptual
 pair even though they use different diagram types: both panels must draw
 each isometric building split into two clearly labeled horizontal zones,
 an upper 表題部 zone (the building's own description) and a lower 権利部
@@ -340,7 +340,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抵当権の内容が食い違うと合併不可
@@ -367,7 +367,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 内容不一致で不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 乙のみの抵当権は承諾でも合併不可
@@ -391,7 +391,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾だけでは不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 賃借権は権利部の登記なので合併不可
@@ -412,7 +412,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 賃借権で合併不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 敷地権は表題部の情報なので合併の妨げにならない
@@ -436,7 +436,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 敷地権違いは合併可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 所有権の仮登記があると合併不可
@@ -468,7 +468,7 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-every multi-condition 肢 (肢ア・肢イ) is drawn as an actual flowchart with
+every multi-condition 肢 (ア・イ) is drawn as an actual flowchart with
 branch nodes (not a bare illustration with no visible decision
 structure), that Panels 1 and 2 clearly distinguish their own highlighted
 branch from the other, faded branches of their shared tree, that Panels 3
@@ -476,7 +476,7 @@ and 4 both clearly show the 表題部／権利部（乙区）zone split on each
 building and that Panel 3's tag sits in 権利部（乙区）while Panel 4's tag
 sits in 表題部 (this contrast is the actual point of the pair — do not
 omit the zone labels or collapse them into one undivided building icon),
-that 肢ウ's inset is drawn as a 対比枠型 comparison rather than forced into
+that ウ's inset is drawn as a 対比枠型 comparison rather than forced into
 a flowchart, that each 着眼点 callout states a checking order rather than
 only a conclusion and keeps every required element from the source
 article distinct (no merged or dropped requirements), confirm nothing is

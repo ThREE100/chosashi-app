@@ -240,7 +240,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢アは登記完了の前後で取り下げの可否が切り替わることを示すタイムライン型、肢イ・ウは「取下げの方法は申請の方法(書面申請か電子申請か)によって決まる」という同じ決定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成、肢エは「代理権限証書は還付されない」という誤った思い込みと正しいルールを対比する対比枠型、肢オは一の申請情報にまとめられた複数の登記のうち一部だけを抜き出せることを示す系統図型とする。
+アは登記完了の前後で取り下げの可否が切り替わることを示すタイムライン型、イ・ウは「取下げの方法は申請の方法(書面申請か電子申請か)によって決まる」という同じ決定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成、エは「代理権限証書は還付されない」という誤った思い込みと正しいルールを対比する対比枠型、オは一の申請情報にまとめられた複数の登記のうち一部だけを抜き出せることを示す系統図型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -317,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -337,7 +337,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 完了後は取下げ不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 消印済み印紙は再使用可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 オンラインでのみ取下げ可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -401,7 +401,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 代理権限証書も還付される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

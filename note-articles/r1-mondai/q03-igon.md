@@ -79,9 +79,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和元年度午後第3問）と正解番号（2番＝ア・ウが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、ア（民法961条）、イ（民法968条1項、最判昭54.5.31）、ウ（最判平元.2.16）、エ（民法969条の2）、オ（民法975条）は、条文番号または判例番号まで確認できたものです。判例の事案（イは「昭和41年7月吉日」と記載された証書に関する最判昭54.5.31）を本問の「平成31年1月吉日」に当てはめて説明しており、結論の射程に問題はありませんが、日付の記載の具体的文言は事案により異なる点にご留意ください。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ誤 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ誤 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（遺言の方式・要件）と同一・類似の問題が再出題されていないかを確認しました。候補のうち令和5年度第3問のウの肢「夫婦は、同一の証書により共同で遺言をすることができる」は、本問オの共同遺言禁止（民法975条）と同一の論点を、異なる具体的事案（夫婦による共同遺言の可否そのもの）で問うており、**部分的に類似する記述があります**。同問の他の肢（自書要件とカーボン紙複写、証人の欠格事由、遺言執行者の指定委託、遺言の撤回）や令和3年度第3問オ（「相続させる」旨の遺言の効力）は、本問の他の肢とは異なる論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令への準拠チェック（2026年8月実施）**：民法961条（遺言能力）、968条1項（自筆証書遺言の方式）、969条の2（口がきけない者の公正証書遺言）、975条（共同遺言禁止）、最判昭54.5.31（「吉日」の無効）、最判平元.2.16（指印による押印）について、WebSearchで現行性を確認しました。いずれも条文番号・内容とも変更なく、判例も現在まで維持されています。**もっとも重要な留意点として**、令和8年法律第45号「民法等の一部を改正する法律」（遺言関係）が2026年6月17日に成立、同月24日に公布されており、①自筆証書遺言・秘密証書遺言・特別方式遺言の押印要件の廃止（公布から1年以内に政令で定める日に施行）、②電子データで作成し法務局に保管する「保管証書遺言」（デジタル遺言）制度の創設（公布から3年以内に政令で定める日に施行）が決まっています。**2026年8月現在、両施行日はいずれも未定・未施行であり、現行の968条1項（押印必要、指印可）を前提とする本文の解説・肢ウの結論はそのまま通用します**。ただし、この改正が施行されれば「指印による押印」という論点自体の意義が変わる可能性があるため、記事の結論は変更していませんが、念のためここに記録します。日付の自書要件（肢イに関連）は今回の改正でも維持される予定です。
+- **最新法令への準拠チェック（2026年8月実施）**：民法961条（遺言能力）、968条1項（自筆証書遺言の方式）、969条の2（口がきけない者の公正証書遺言）、975条（共同遺言禁止）、最判昭54.5.31（「吉日」の無効）、最判平元.2.16（指印による押印）について、WebSearchで現行性を確認しました。いずれも条文番号・内容とも変更なく、判例も現在まで維持されています。**もっとも重要な留意点として**、令和8年法律第45号「民法等の一部を改正する法律」（遺言関係）が2026年6月17日に成立、同月24日に公布されており、①自筆証書遺言・秘密証書遺言・特別方式遺言の押印要件の廃止（公布から1年以内に政令で定める日に施行）、②電子データで作成し法務局に保管する「保管証書遺言」（デジタル遺言）制度の創設（公布から3年以内に政令で定める日に施行）が決まっています。**2026年8月現在、両施行日はいずれも未定・未施行であり、現行の968条1項（押印必要、指印可）を前提とする本文の解説・ウの結論はそのまま通用します**。ただし、この改正が施行されれば「指印による押印」という論点自体の意義が変わる可能性があるため、記事の結論は変更していませんが、念のためここに記録します。日付の自書要件（イに関連）は今回の改正でも維持される予定です。
 - **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。民法961条・968条1項・969条の2・975条の条文引用をローカル法令データベース（laws/minpou-3-shinzoku-souzoku.md）と突き合わせ、いずれも一致することを確認しました。本文への判例番号・先例番号の記載、Markdown表の残存、見出しの先出し、常体・半角括弧の混入は見当たらず、修正は行っていません。正誤判定・正解の組合せに変更はありません。
 
 ---
@@ -293,7 +293,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 15歳なら単独で有効な遺言ができる
@@ -309,7 +309,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 同意不要で有効
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 「吉日」の日付は特定できず無効
@@ -324,7 +324,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 日付不特定で無効
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 指印(朱肉)でも押印要件を満たす
@@ -339,7 +339,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 指印でも有効
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 口授できなくても代替手段があれば足りる
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 通訳・自書で利用可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 一枚の紙の共同遺言は単独遺言にならない
@@ -386,7 +386,7 @@ similar Simplified Chinese variant. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that the multi-condition 肢(肢エ) is drawn as
+the header and the panels, that the multi-condition 肢(エ) is drawn as
 an actual flowchart with branch nodes (not a bare illustration with no
 visible decision structure), that each 着眼点 callout states a checking
 order rather than only a conclusion, confirm nothing is rendered below

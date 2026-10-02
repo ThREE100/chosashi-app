@@ -85,7 +85,7 @@
 - 各肢の根拠は、いずれも土地家屋調査士法の各条文で確認しています（ア＝依頼に応ずる義務・筆界特定代理等の除外／イ＝事務所の設置と二以上禁止・施行規則18条／ウ＝会則遵守義務が法的義務であること／エ＝秘密保持義務と正当な事由による例外／オ＝研修受講・資質向上の努力義務）。
 - **最新法令への準拠チェック（2026年8月実施）**：土地家屋調査士法は令和元年6月12日公布・令和2年8月1日施行の改正（法律第29号）を受けていますが、この改正の主眼は第1条を目的規定から使命規定に改める点、懲戒権者を法務局長等から法務大臣に改める点（第42条）、社員一人の調査士法人の設立を可能とする点であり、本問が扱うア〜オの各義務規定（第22条〔依頼応諾義務〕、第20条〔事務所〕、第24条〔会則遵守義務〕、第24条の2〔秘密保持義務〕、第25条1項〔研修の努力義務〕）の条番号・内容は、改正前後を通じて変わっていないことを確認しました。以前の版で「条番号の繰り下げ・再編があり現行法では異なる可能性がある」としていた記載は、確認不足による誤った懸念でしたので訂正します。
 - **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。ローカル法令データベース（土地家屋調査士法・同施行規則）で、ア（22条・3条1項4号6号）、イ（20条・施行規則18条）、ウ（24条）、エ（24条の2）、オ（25条）の全条文を条文レベルで突き合わせ、いずれも本文の記載どおり一言一句一致することを確認しました。正解番号（takuitsu.jsonのcorrectAnswer＝4）とまとめの判定も一致しています。表形式の残存・判例先例番号の本文記載・文体の不統一・タイトル文字数超過は見つかりませんでした。修正の必要はありませんでした。正誤判定・正解の組合せに変更はありません。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ正 ウ誤 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ正 ウ誤 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（依頼応諾義務・事務所・会則遵守・秘密保持・研修）と同一・類似の問題が再出題されていないかを確認しました。候補は12件と多かったため、各候補の具体的論点を本問の各肢と照合しました。令和3年度第20問のオ（土地家屋調査士法人は、正当な事由がなければ不動産の表示に関する登記の申請手続の代理の依頼を拒むことはできない、法22条・41条1項）は本問のア（調査士自身の依頼応諾義務、法22条）と、令和7年度第20問のウ（調査士は連合会への届出により複数の都道府県に事務所を設置できるとする記述、誤り）は本問のイ（二以上の事務所を設けることはできない）と、令和6年度第20問のウ（調査士は正当な事由がある場合であっても業務上知った秘密を漏らしてはならないとする記述、誤り、法24条の2）は本問のエとほぼ同一の記述・論点です。一方、会則遵守（ウ）と研修（オ）に対応する候補は見当たりませんでした。**本問5肢のうち3肢について、同一の論点が別の年度・別の組合せで再出題されています**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -262,7 +262,7 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panels 3 and 5（肢ウ・肢オ）share the same side-by-side
+flowchart. Panels 3 and 5（ウ・オ）share the same side-by-side
 comparison frame（LEFT: 法的義務＝「守らなければならない」、RIGHT: 努力
 義務＝「努めなければならない」); draw both panels with the same two-box
 layout, but highlight（太い縁取り・フルカラーで強調）the box relevant to
@@ -312,7 +312,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 特定業務でなければ正当事由なしに拒否不可
@@ -334,7 +334,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 原則拒否不可(除外業務は別)
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 事務所はただ一つに限られる
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 事務所は一つのみ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 会則遵守は「努力」でなく絶対の義務
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 会則は法的義務
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 秘密保持は正当な事由があれば例外あり
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 正当事由で開示可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 研修受講は努力義務にとどまる

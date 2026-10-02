@@ -81,9 +81,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成22年度午後の部 第18問）・正解番号（3番＝イオ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の判定（誤りはイ・オ）は、公式の正解の組合せ「イオ」から確定できるものです。
-- 各肢の根拠は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-kisoku-2.md`で条文原文を確認済みです。肢イ・オ（分筆に伴う権利の消滅・転写の処理）＝不動産登記法40条（権利に関する登記の抹消・転写）および不動産登記規則104条（同条の手続）、肢ウ（承役地分筆時の要役地の職権変更）＝不動産登記規則103条2項、肢ア（代位による分筆の登記）＝不動産登記法59条4号・65条の代位申請の一般規定、肢エ（競売申立てによる差押えの登記の抹消）は、私人の承諾のみでは分筆手続内で抹消できないという実務上の取扱いに基づく一般的な理解にとどまり、条文の個別確認はできていません。
+- 各肢の根拠は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-kisoku-2.md`で条文原文を確認済みです。イ・オ（分筆に伴う権利の消滅・転写の処理）＝不動産登記法40条（権利に関する登記の抹消・転写）および不動産登記規則104条（同条の手続）、ウ（承役地分筆時の要役地の職権変更）＝不動産登記規則103条2項、ア（代位による分筆の登記）＝不動産登記法59条4号・65条の代位申請の一般規定、エ（競売申立てによる差押えの登記の抹消）は、私人の承諾のみでは分筆手続内で抹消できないという実務上の取扱いに基づく一般的な理解にとどまり、条文の個別確認はできていません。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（分筆の登記）と同一の問題が再出題されていないかを確認しました。分筆の登記自体は令和7年度第11問でも再出題されるテーマです（問題文＋肢全体の類似度0.29程度）。肢単位では、本問の肢イ（仮登記がある土地の分筆と転写の可否）と令和7年度第11問の肢ウは類似度0.86程度ですが、本問は「転写される」という誤りの肢、令和7年度は「転写されない」という正しい肢として、同じ規定を逆方向から問うており、他の肢の組合せも異なります。**問題全体としての重複ではありません**。分筆の登記に伴う権利の転写ルールは頻出論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（分筆の登記）と同一の問題が再出題されていないかを確認しました。分筆の登記自体は令和7年度第11問でも再出題されるテーマです（問題文＋肢全体の類似度0.29程度）。肢単位では、本問のイ（仮登記がある土地の分筆と転写の可否）と令和7年度第11問のウは類似度0.86程度ですが、本問は「転写される」という誤りの肢、令和7年度は「転写されない」という正しい肢として、同じ規定を逆方向から問うており、他の肢の組合せも異なります。**問題全体としての重複ではありません**。分筆の登記に伴う権利の転写ルールは頻出論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -248,7 +248,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢イ・オは「分筆後の新しい土地（乙）へ権利が転写されるか」という決定木を共有し、肢エ・オは「もとの土地（甲）自体の登記記録から権利を消せるか」という別の決定木を共有する。肢オはこの両方の決定木にまたがり、それぞれの分岐のうち自分に関係する部分だけを強調する。肢アは代位申請の当事者関係を示す系統図・関係図型、肢ウは承役地・要役地の対応関係を示す配置図型、肢エは「承諾があれば抹消できる」という誤った思い込みを正すため正誤対比型とする。
+イ・オは「分筆後の新しい土地（乙）へ権利が転写されるか」という決定木を共有し、エ・オは「もとの土地（甲）自体の登記記録から権利を消せるか」という別の決定木を共有する。オはこの両方の決定木にまたがり、それぞれの分岐のうち自分に関係する部分だけを強調する。アは代位申請の当事者関係を示す系統図・関係図型、ウは承役地・要役地の対応関係を示す配置図型、エは「承諾があれば抹消できる」という誤った思い込みを正すため正誤対比型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -326,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -346,7 +346,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 代位して分筆申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -366,7 +366,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 承諾あれば転写せず
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 要役地の記録も職権変更
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -416,7 +416,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 承諾があっても抹消不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

@@ -288,7 +288,7 @@ with no transparency or alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・ウ・オは、「規則105条が定める4つの例外(承役地の地役権・担保権・信託・鉱害賠償登録)のどれかに当てはまるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢ウ・オはさらに、担保権の枝の中の「登記の目的・受付の年月日及び受付番号・登記原因及びその日付が甲乙ですべて同一か」という同じ第三段階の分岐も共有し、結果(はい/いいえ)だけが分かれる。肢エは規則105条の例外とは別の原則(41条3号、登記名義人の一致)を確認する決定木とし、実体上の所有者と登記簿上の名義を左右に対比する構成とする。
+ア・イ・ウ・オは、「規則105条が定める4つの例外(承役地の地役権・担保権・信託・鉱害賠償登録)のどれかに当てはまるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。ウ・オはさらに、担保権の枝の中の「登記の目的・受付の年月日及び受付番号・登記原因及びその日付が甲乙ですべて同一か」という同じ第三段階の分岐も共有し、結果(はい/いいえ)だけが分かれる。エは規則105条の例外とは別の原則(41条3号、登記名義人の一致)を確認する決定木とし、実体上の所有者と登記簿上の名義を左右に対比する構成とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -374,7 +374,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -402,14 +402,14 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 要役地は例外に非該当
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 鉱害賠償登録は番号同一なら合筆できる
 Diagram: Two land-plot icons 甲・乙, each holding a document icon labeled
 「鉱害賠償登録」with a tag reading「登録番号 同一」attached to both documents.
-The same first diamond node as Panel 1(肢ア)「所有権以外の権利に関する登記が
+The same first diamond node as Panel 1(ア)「所有権以外の権利に関する登記が
 あるか」with a thick highlighted「はい」arrow. The same second diamond node
 as Panel 1, this time with the「鉱害賠償登録」branch rendered thick and
 highlighted while 地役権・担保権・信託 are faded, dotted-outline. From the
@@ -425,7 +425,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 登録番号が同一なら可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -449,7 +449,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 4項目全部一致で合筆可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -477,7 +477,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 登記名義の一致が先
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -488,7 +488,7 @@ Diagram: Two land-plot icons, 甲 holding a document labeled「Ｘ銀行 抵当�
 with a thick highlighted「はい」arrow. The same second diamond node as
 Panel 1, this time with the「担保権」branch rendered thick and highlighted
 while 地役権・信託・鉱害賠償登録 are faded, dotted-outline. From the highlighted
-branch, the same third diamond node as Panel 3(肢ウ)「登記の目的・受付の
+branch, the same third diamond node as Panel 3(ウ)「登記の目的・受付の
 年月日及び受付番号・登記原因及びその日付が甲乙ですべて同一か」, this time with
 a thick highlighted「いいえ(抵当権者が別々で登記事項が異なる)」branch leading
 to a highlighted conclusion node「合筆できない」, and a faded「はい」branch

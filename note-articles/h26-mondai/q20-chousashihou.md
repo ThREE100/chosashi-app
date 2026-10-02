@@ -75,7 +75,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝4個）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - ア（土地家屋調査士法15条2項：業務廃止の届出は調査士会経由）、イ（同法35条2項：認定調査士のみが民間紛争解決手続代理関係業務を執行できること、問題原本の参考条文にも明記）、ウ（同法24条の2：秘密保持義務）、エ（同法35条の4：社員でない者の外観責任）、オ（同法25条1項：研修の努力義務）まで、条文レベルで確認できています。
-- **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。土地家屋調査士・調査士法人の業務に関する複合問題。R01第20問も土地家屋調査士の義務がテーマで、肢オ（研修を受け資質の向上に努める義務）はほぼ同一の論点（土地家屋調査士法25条1項）を問うものですが、他の4肢は完全に異なり、問題全体としては同一問題ではありません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。土地家屋調査士・調査士法人の業務に関する複合問題。R01第20問も土地家屋調査士の義務がテーマで、オ（研修を受け資質の向上に努める義務）はほぼ同一の論点（土地家屋調査士法25条1項）を問うものですが、他の4肢は完全に異なり、問題全体としては同一問題ではありません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-16再実施）**：土地家屋調査士法の直近の改正（令和元年改正・令和2年8月1日施行、一人法人制度の導入等）が本問の5肢（業務廃止の届出、民間紛争解決手続代理関係業務の執行権、秘密保持義務、社員でない者の外観責任、研修の努力義務）の結論に影響しないかを再確認しましたが、これらの制度自体を変更する改正は見当たりませんでした。ア・イ・ウ・エ・オすべての根拠条項（15条2項、35条2項、24条の2、35条の4、25条1項）を`note-articles/laws/chousashi-hou.md`のローカル法令データベースの条文原文と逐語で突き合わせ、いずれも一致することを再確認しました。令和7年度以降に土地家屋調査士法のさらなる改正が成立した場合は、この確認を再実施してください。
 
 ---
@@ -261,7 +261,7 @@ not include case or precedent numbers (article/regulation numbers are
 fine); keep the callout text as written below verbatim, and keep every
 condition each callout describes faithful to the article's own body text
 — do not drop or merge a required element (e.g. keep the two distinct
-conditions of 肢エ — the deceiving act and the counterparty's reliance on
+conditions of エ — the deceiving act and the counterparty's reliance on
 it — as two separate checks).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
@@ -301,7 +301,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled blue circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -325,7 +325,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 調査士会経由が必須
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
 認定調査士かどうかを社員ごとに確認する
@@ -350,7 +350,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 認定調査士のみ執行
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line):
 正当な事由の有無をまず確認する
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 正当事由なければ厳守
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
 誤認行為と誤認に基づく取引の両方を確認する
@@ -406,7 +406,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 誤認+取引で同一責任
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line):
 研修は調査士会と連合会の両方から受ける
@@ -454,7 +454,7 @@ structure), that no 肢 with a genuinely hidden second condition has been
 flattened into a single check, that each 着眼点 callout states a checking
 order rather than only a conclusion and keeps every required element from
 the source article distinct (no merged or dropped requirements, and in
-particular that 肢エ's two conditions — the deceiving act and the
+particular that エ's two conditions — the deceiving act and the
 counterparty's reliance on it — remain two separate nodes), confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and

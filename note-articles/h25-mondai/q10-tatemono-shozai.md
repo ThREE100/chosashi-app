@@ -296,7 +296,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 都道府県境をまたぐ建物は他県名を冠記
@@ -311,7 +311,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 他県名を追加記録
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 別一棟の附属建物も所在地番が必要
@@ -331,7 +331,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地番の提供が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 さん橋上の建物は最寄りの地番で表記
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 「何番地先」で記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 仮換地上の建物は底地の地番で登記
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 従前地番は使わない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 多い方・主建物の土地を先に記録

@@ -85,7 +85,7 @@
 - 各肢の根拠のうち、ア（民法242条）、ウ（最判昭35.3.1）、エ（民法243条）、オ（民法248条）は、いずれも元データの解説に条文番号・判例番号まで明記されているものです。オの償金請求の実質的根拠となる不当利得（民法703条・704条）は、248条が準用する一般規定として補足したもので、元データにも「不当利得の規定に従い」と記載があります。イの判例番号については下記の訂正を参照してください。
 - 本記事は、ローカルのアガルート過去問テキスト（OCRに基づく元データ解説）を条文根拠の一次情報源として参照して作成しています。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験（令和元年度〜令和7年度）の全問題について、本問のテーマ（付合・民法242条〜248条）に関する記述（「付合」「242条」等のキーワード）を含む問題がないか確認しました。**重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **法令根拠・判例確認チェック（2026-08-18実施・訂正あり）**：`note-articles/laws/minpou-1-soukyoku-bukken.md`（民法242条・243条・248条）と本文を突き合わせ、いずれも条文の文言と一致していることを確認しました。あわせてWeb検索で判例番号の実在確認を行ったところ、ウの根拠である最判昭35.3.1（民集14巻3号307頁、立木の二重譲渡と明認方法・登記の先後）は複数の情報源で確認できました。**一方、当初イの根拠として記載していた最判昭38.5.31は誤りであることが判明しました。** 裁判所公式の判例データベース（courts.go.jp）で確認したところ、最高裁判所第二小法廷昭和38年5月31日判決（民集17巻4号600頁）は、民法上の組合における業務執行組合員の代理権の制限が第三者に対抗できるかという、本問とは全く無関係の論点についての判例でした。「賃借人が独立性のない増築をした場合は建物に付合し所有権を取得しない」という本問イの論点で広く引用されているのは、最三小判昭和44年7月25日（最判昭44.7.25）であることを、この論点を専門に扱う法律専門サイトの解説で確認しました。判例番号を最判昭44.7.25に訂正します。なお、この訂正は判例番号のみに関するもので、肢イの結論（正）・条文の考え方自体・正解番号（3番＝イ・オ）・各肢の正誤判定にはいずれも変更ありません（本文には元々判例番号を書いていないため、本文の記述自体への影響もありません）。また、インフォグラフィックプロンプトの説明文1箇所に残っていた半角括弧`()`を全角`（）`に修正しました。判例番号・先例番号・専門誌番号の本文残存、Markdown表の残存は確認されませんでした。
+- **法令根拠・判例確認チェック（2026-08-18実施・訂正あり）**：`note-articles/laws/minpou-1-soukyoku-bukken.md`（民法242条・243条・248条）と本文を突き合わせ、いずれも条文の文言と一致していることを確認しました。あわせてWeb検索で判例番号の実在確認を行ったところ、ウの根拠である最判昭35.3.1（民集14巻3号307頁、立木の二重譲渡と明認方法・登記の先後）は複数の情報源で確認できました。**一方、当初イの根拠として記載していた最判昭38.5.31は誤りであることが判明しました。** 裁判所公式の判例データベース（courts.go.jp）で確認したところ、最高裁判所第二小法廷昭和38年5月31日判決（民集17巻4号600頁）は、民法上の組合における業務執行組合員の代理権の制限が第三者に対抗できるかという、本問とは全く無関係の論点についての判例でした。「賃借人が独立性のない増築をした場合は建物に付合し所有権を取得しない」という本問イの論点で広く引用されているのは、最三小判昭和44年7月25日（最判昭44.7.25）であることを、この論点を専門に扱う法律専門サイトの解説で確認しました。判例番号を最判昭44.7.25に訂正します。なお、この訂正は判例番号のみに関するもので、イの結論（正）・条文の考え方自体・正解番号（3番＝イ・オ）・各肢の正誤判定にはいずれも変更ありません（本文には元々判例番号を書いていないため、本文の記述自体への影響もありません）。また、インフォグラフィックプロンプトの説明文1箇所に残っていた半角括弧`()`を全角`（）`に修正しました。判例番号・先例番号・専門誌番号の本文残存、Markdown表の残存は確認されませんでした。
 
 ---
 
@@ -315,7 +315,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 土地に生えた小麦は土地所有者のもの
@@ -333,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 土地所有者に帰属
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 独立性のない増築は建物のもの
@@ -352,7 +352,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 建物に付合する
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 立木は登記と明認方法の先後で決まる
@@ -376,7 +376,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記した方が優先
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 主従の区別ができれば主の所有者へ
@@ -401,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 主の所有者に帰属
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 損した人は償金を請求できる
@@ -430,8 +430,8 @@ visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢(肢ウ・
-肢エ) is drawn as an actual flowchart with branch nodes (not a bare
+between the header and the panels, that every multi-condition 肢(ウ・
+エ) is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary

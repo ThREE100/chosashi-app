@@ -78,7 +78,7 @@
 - 出題年度・問題番号（令和元年度午後第2問）と正解番号（4番＝イ・エが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の判例根拠のうち、ア（最判平15.7.11）、ウ（最判平10.3.24）、エ（最判昭41.3.3・最判昭51.9.7）、イ（大判大7.4.19）、オ（最判昭39.2.25）は判例番号まで確認できたものです。
 - **最新法令への準拠チェック（2026年8月実施）**：令和元年度の出題当時から、共有制度は令和5年4月1日施行の民法改正（民法等の一部を改正する法律・令和3年法律24号）で保存行為・管理行為・変更行為の項番号が整理されています。本記事は、この現行の条番号に準拠して更新済みです（保存行為＝民法252条5項〔ア・イ〕、管理行為＝民法252条1項〔オ〕、変更行為＝民法251条1項）。各肢の結論（正誤判定）自体は、改正前後を通じて変わっていません。引用した判例（最判平15.7.11、大判大7.4.19、最判平10.3.24、最判昭41.3.3・昭51.9.7、最判昭39.2.25）も現行法の下でなお妥当する先例として扱われています。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（共有者の権利行使の範囲・保存/管理/変更行為の区分）と同一・類似の問題が再出題されていないかを確認しました。候補には令和2年度第1問（権利能力なき社団の共有名義登記）、同第9問・第13問・第18問（分筆登記・附属建物登記・筆界特定の各手続における共有者の申請権限）、令和3年度第3問（遺産共有と共有物分割請求訴訟の可否）、令和6年度第15問・令和7年度第15問・第16問（区分建物の共有者申請、筆界特定における共有者の意見提出権）が挙がりましたが、いずれも登記手続や筆界特定手続、遺産分割といった別の具体的場面での「共有者」への言及にとどまり、本問が扱う不実登記の抹消請求・明渡請求・変更行為の禁止請求・持分に応じた損害賠償・賃貸借解除の各論点そのものを扱うものではなく、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。民法251条・252条各項の条文引用をローカル法令データベース（laws/minpou-1-soukyoku-bukken.md）と突き合わせ、いずれも一致することを確認しました。本文への判例番号・先例番号の記載、Markdown表の残存、見出しの先出し、常体・半角括弧の混入は見当たらず、修正は行っていません。正誤判定・正解の組合せに変更はありません。
 
@@ -258,8 +258,8 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Panels 1, 2, 3, and 5 (肢ア・肢
-イ・肢ウ・肢オ) all reuse the same three-path signpost illustration
+sufficient — do not force a flowchart. Panels 1, 2, 3, and 5 (ア・肢
+イ・ウ・オ) all reuse the same three-path signpost illustration
 （保存行為・管理行為・変更行為）; each panel highlights（太い縁取り・色を
 変える等で強調）only the one path that applies to that panel's 肢, so
 readers see the same classification tool applied four times. Unlike a
@@ -304,7 +304,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 不実登記の抹消は保存行為で単独可
@@ -326,7 +326,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為だから単独可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 不法占有者への明渡請求も保存行為
@@ -345,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為だから単独可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 無断変更への差止め・原状回復も保存行為
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為だから単独可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 損害賠償は持分の割合分のみ
@@ -382,7 +382,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 持分の範囲内のみ
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 賃貸借契約の解除は管理行為で過半数
@@ -413,7 +413,7 @@ visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that Panels 1・2・3・5(肢ア・イ・ウ・
+between the header and the panels, that Panels 1・2・3・5(ア・イ・ウ・
 オ) all reuse the same three-path signpost diagram with only the relevant
 path highlighted (not a bare illustration with no visible decision
 structure), that each 着眼点 callout states a checking order rather than

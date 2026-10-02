@@ -94,7 +94,7 @@ Cのもとで権利関係が確定する以上、その後の転得者の善意�
 - 出題年度・問題番号・正解番号（第1問＝イオ／3番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
 - 各肢の法的根拠のうち、イ（民法94条2項、最判昭45.7.24）、ウ（民法95条・120条2項）、エ（民法96条2項）は条文・判例レベルで確認済みです。ア（強迫による取消しに第三者保護規定がないこと）は民法96条の反対解釈という一般原則からの整理にとどまります。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
-- **適用法令の現行性チェック（2026-10-01実施）**：2026-08-04の前回チェックに続き、ローカル法令データベース（`note-articles/laws/minpou-1-soukyoku-bukken.md`）で現行の民法94条・95条・96条・107条・120条を条文原文で確認しました。令和2年4月1日施行の民法改正（債権法改正、平成29年法律第44号）による変更として、①肢ア（96条3項）は、取消しを対抗できない第三者が「善意の第三者」から「善意でかつ過失がない第三者」に改められました。②肢ウ（95条）は、錯誤が無効から取消しに改められ、取消権者は120条2項（瑕疵ある意思表示をした者又はその代理人若しくは承継人）に定められました（95条3項は表意者に重大な過失がある場合の取消しの制限）。③肢エ（96条2項）は、第三者詐欺で取り消せる場合が「相手方が知っていたとき」から「知り、又は知ることができたとき」に広がりました。④肢オ（107条）は、判例法理（旧93条ただし書の類推適用）が明文化され、行為は「代理権を有しない者がした行為」とみなされることになりました（相手方がその目的を知り、又は知ることができたとき）。いずれも各肢の正誤の結論は変わらないため、本文は現行条文で書き、出題当時との違いを※メモにしました。肢イ（94条2項）は改正の前後で内容が同じです。令和5年共有制度改正・相続登記義務化・住所変更登記義務化は本問に関係しません。なお、問題文引用の肢ウ（錯誤を「取消し」と表現）・肢エ（相手方が「善意かつ無過失」）は、出題当時（平成23年）の民法（錯誤は「無効」、第三者詐欺は相手方が「善意」であれば取り消せない）ではこの文言にならないため、出題当時の試験問題を現行法に合わせて書き換えたものと判断し、タイトル・出典行に「（改）」を付けました（正誤の結論と正解番号は変わりません）。公式の原本で書き換え前の文言までは確認できていません。
+- **適用法令の現行性チェック（2026-10-01実施）**：2026-08-04の前回チェックに続き、ローカル法令データベース（`note-articles/laws/minpou-1-soukyoku-bukken.md`）で現行の民法94条・95条・96条・107条・120条を条文原文で確認しました。令和2年4月1日施行の民法改正（債権法改正、平成29年法律第44号）による変更として、①ア（96条3項）は、取消しを対抗できない第三者が「善意の第三者」から「善意でかつ過失がない第三者」に改められました。②ウ（95条）は、錯誤が無効から取消しに改められ、取消権者は120条2項（瑕疵ある意思表示をした者又はその代理人若しくは承継人）に定められました（95条3項は表意者に重大な過失がある場合の取消しの制限）。③エ（96条2項）は、第三者詐欺で取り消せる場合が「相手方が知っていたとき」から「知り、又は知ることができたとき」に広がりました。④オ（107条）は、判例法理（旧93条ただし書の類推適用）が明文化され、行為は「代理権を有しない者がした行為」とみなされることになりました（相手方がその目的を知り、又は知ることができたとき）。いずれも各肢の正誤の結論は変わらないため、本文は現行条文で書き、出題当時との違いを※メモにしました。イ（94条2項）は改正の前後で内容が同じです。令和5年共有制度改正・相続登記義務化・住所変更登記義務化は本問に関係しません。なお、問題文引用のウ（錯誤を「取消し」と表現）・エ（相手方が「善意かつ無過失」）は、出題当時（平成23年）の民法（錯誤は「無効」、第三者詐欺は相手方が「善意」であれば取り消せない）ではこの文言にならないため、出題当時の試験問題を現行法に合わせて書き換えたものと判断し、タイトル・出典行に「（改）」を付けました（正誤の結論と正解番号は変わりません）。公式の原本で書き換え前の文言までは確認できていません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、本問より後の年度で「意思表示」をテーマとする問題が繰り返し出題されていることを確認しました。令和4年度第2問（虚偽表示・詐欺・強迫の転得者保護）、平成27年度第1問（詐欺又は強迫による意思表示）、令和7年度第1問（錯誤・強迫・詐欺・到達主義・心裡留保）はいずれも「意思表示」がテーマで、特に「強迫による意思表示には第三者保護規定がない」「詐欺による意思表示は善意無過失の第三者に対抗できない」という本問の核心論点は、これらの年度でも形を変えて繰り返し問われています。令和7年度第1問は本noteシリーズでは未執筆（第2問から着手したため）ですが、今後執筆する際は本記事と論点が重複しないよう、具体的な肢の違い（本問は錯誤・代理権濫用を含む点が特色）を意識して書き分けてください。
 
 ---
@@ -271,11 +271,11 @@ problem are five independent, unrelated types of意思表示の瑕疵（強迫�
 fact pattern, draw them as five separate diagrams rather than
 highlighting branches of one shared tree shape. Where a 肢 requires
 checking multiple conditions in sequence before reaching a conclusion
-(肢ウ), draw the panel's diagram as an actual decision flowchart:
+(ウ), draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
-resolved by a single check (肢ア・肢イ・肢エ・肢オ), a labeled illustrative
-diagram is sufficient — do not force a flowchart. In particular, 肢イ
+resolved by a single check (ア・イ・エ・オ), a labeled illustrative
+diagram is sufficient — do not force a flowchart. In particular, イ
 turns on one check only (whether a good-faith third party C stands in
 the chain); the later transferee D's own good or bad faith is NOT a
 condition to be checked, so in that panel do not draw any diamond-shaped
@@ -325,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 強迫の取消しには保護規定がない
@@ -343,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 第三者保護規定なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 善意のCを経由すれば悪意のDも保護される
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 善意者経由で保護
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 主張できるのは表意者側だけ
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表意者側に限定
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 善意無過失の相手には取消し不可
@@ -407,7 +407,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 善意無過失なら不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 知り得た相手には効果を否定できる
@@ -441,10 +441,10 @@ Jōyō kanji — including any Chinese-only character, Korean Hangul, other
 non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢ウ is drawn as an actual
+between the header and the panels, that ウ is drawn as an actual
 flowchart with branch nodes (not a bare illustration with no visible
 decision structure) while the other four panels use a single labeled
-illustrative diagram (and the 肢イ panel contains no diamond-shaped node,
+illustrative diagram (and the イ panel contains no diamond-shaped node,
 no Yes/No branch arrows and no "needs re-check" box), that each 着眼点
 callout states a checking
 order rather than only a conclusion, confirm nothing is rendered below

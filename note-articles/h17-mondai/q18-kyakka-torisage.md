@@ -334,7 +334,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -354,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 疑いなければ還付
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 取下げを制限する規定の有無を確認する
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 制限規定なし取下げ可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 事前通知の回答前でも取下げできるかを確認する
@@ -392,7 +392,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 回答前でも取下げ可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 複数登記でも申請ごとに個別に扱えるかを確認する
@@ -410,7 +410,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 申請ごとに個別対応
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 登記完了の前か後かを確認する

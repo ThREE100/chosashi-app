@@ -85,7 +85,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・正解番号（5番＝ウ・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - `note-articles/laws/`のローカル法令データベース（不動産登記法・規則、e-Gov現行法2026-08-04取得）で全肢の条文原文を確認済みです。ア＝法53条（更正の登記。法51条1項のような申請義務の期限文言を含まない）、イ＝法51条2項（変更後の所有権取得者は取得日から起算）、ウ＝法58条6項（規約廃止後の表題登記は廃止日から1か月以内）、エ＝不登規則92条1項（行政区画・名称変更はみなし変更）、オ＝法49条1項（建物の合体は合体日から1か月以内）は、いずれも条文の文言そのままの内容です。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「建物の表示に関する登記」「共用部分」がテーマの問題を確認しました。**本問肢ウ（共用部分である旨の登記がある建物について規約を廃止した場合の表題登記の申請義務・期限）と同じ書き出しの肢が、令和7年度第10問、令和5年度第17問、令和4年度第13問、令和3年度第13問・第18問、平成30年度第16問、平成28年度第17問、平成27年度第17問など、極めて多くの年度で繰り返し出題されています。**「共用部分の規約廃止後の扱い」は調査士試験で最も頻出のパターンの一つであり、noteでの発信時は他の記事との重複感が出やすい点に注意してください（本問肢エ・第12問肢エとも関連する論点です）。それ以外の肢（ア・イ・エ・オ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「建物の表示に関する登記」「共用部分」がテーマの問題を確認しました。**本問ウ（共用部分である旨の登記がある建物について規約を廃止した場合の表題登記の申請義務・期限）と同じ書き出しの肢が、令和7年度第10問、令和5年度第17問、令和4年度第13問、令和3年度第13問・第18問、平成30年度第16問、平成28年度第17問、平成27年度第17問など、極めて多くの年度で繰り返し出題されています。**「共用部分の規約廃止後の扱い」は調査士試験で最も頻出のパターンの一つであり、noteでの発信時は他の記事との重複感が出やすい点に注意してください（本問エ・第12問エとも関連する論点です）。それ以外の肢（ア・イ・エ・オ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -239,14 +239,14 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a crossed-out mistaken-assumption icon paired
-with a checkmarked correct-rule icon for 肢ア and 肢エ (both test whether
+with a checkmarked correct-rule icon for ア and エ (both test whether
 a 1-month application duty actually exists), and a left-to-right timeline
-of dated events with a circled deadline marker for 肢イ・肢ウ・肢オ (each
+of dated events with a circled deadline marker for イ・ウ・オ (each
 tests when the 1-month clock starts, or what must be filed within it).
 None of the five 肢 requires checking more than one legal condition in
 sequence, so none is forced into a multi-diamond flowchart; each panel
 uses either a labeled mistaken-assumption-vs-correct-rule comparison or a
-labeled timeline instead. For 肢オ, do not compress the two required
+labeled timeline instead. For オ, do not compress the two required
 filings into one icon — draw both the 合体後の建物についての表題登記 AND
 the 合体前の甲建物についての表題部の登記の抹消 as two separate document
 icons, both checkmarked, since the source article requires both within
@@ -294,7 +294,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 床面積の更正登記に申請期限はない
@@ -313,7 +313,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請期限の定めなし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 起算点は所有権取得日で改築完了日でない
@@ -331,7 +331,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取得日から1か月以内
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 規約廃止日から1か月以内に表題登記が必要
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 廃止日から1か月以内
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 名称変更はみなし変更で申請不要
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 申請不要、みなし変更
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 合体日から1か月以内に2つの登記が必要
@@ -412,13 +412,13 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that 肢ア and 肢エ are each drawn as a
+the header and the panels, that ア and エ are each drawn as a
 mistaken-assumption-vs-correct-rule comparison (not a bare flowchart),
-that 肢イ・肢ウ・肢オ are each drawn as a timeline with clearly labeled
-dated events rather than an undated illustration, that 肢オ shows BOTH
+that イ・ウ・オ are each drawn as a timeline with clearly labeled
+dated events rather than an undated illustration, that オ shows BOTH
 required filings as separate checkmarked icons rather than merging them
 into one, that each 着眼点 callout states a checking order rather than
-only a conclusion. Pay special attention to Panel 4 (肢エ): confirm the
+only a conclusion. Pay special attention to Panel 4 (エ): confirm the
 LEFT box (誤った思い込み) shows ONLY a green checkmark with no red ✕
 anywhere inside it, and the RIGHT box (正しいルール) shows ONLY a red ✕
 (on the crossed-out application-form icon) with no green checkmark

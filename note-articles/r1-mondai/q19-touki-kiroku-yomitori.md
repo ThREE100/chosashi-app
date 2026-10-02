@@ -117,10 +117,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和元年度午後第19問）・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、ウ（合筆の要件としての相互接続＝不登法41条1号）とエ（筆界の定義＝不登法123条1号）は、データベースのexplanationフィールドで条文番号まで確認できたものです。オの地積計算（5番＝180.05㎡、3番2＝45.01㎡、6番＝189.94㎡）は、掲載した登記記録の地積の増減から逐一算出したもので、データベースのpitfalls（検証済み）の計算過程と一致しています。ア・イ（合筆後の分筆の有無による「全部が含まれるか否か」の違い）は、合筆・分筆の性質からの論理的推論に基づく判定です。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（登記記録の読み取り、合筆・分筆の履歴からの範囲・地積の判断）と同一・類似の問題が再出題されていないかを確認しました。候補は令和2年度第15問（敷地権付き区分建物の登記記録の穴埋め）・令和4年度第4問（登記記録等の保存期間）・令和5年度第5問（表題部の登記記録の作成要否）・令和5年度第14問（建物の表示登記の添付情報）・令和7年度第5問（保存期間が永久の登記記録等）の5問でしたが、いずれも「登記記録」「分筆」「合筆」等のキーワードで拾われた機械的な一致にとどまり、本問が扱う「合筆で取り込まれた部分がその後の分筆で抜け落ちていないかの判断」「地積の増減からの逆算」「筆界の存続」「隣接性の判断」という具体的な応用論点とは異なります。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：ウの根拠である不登法41条1号（合筆の制限＝相互接続要件）、エの根拠である不登法123条1号（筆界の定義）についてWebSearchで再確認しましたが、令和元年の出題当時から条文番号・内容ともに変更は見つかりませんでした。オの地積計算は条文解釈ではなく登記記録の数値からの機械的な逆算であり、法改正の影響を受けません。修正は行っていません。
-- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。ローカル法令データベースで肢ウ（不登法41条1号＝合筆の要件としての相互接続）と肢エ（不登法123条1号＝筆界の定義）の条文を改めて突き合わせ、本文の記載どおりであることを確認しました。肢オの地積計算（5番＝180.05㎡、3番2＝45.01㎡、6番＝189.94㎡）も検算し、6番＞5番となる結論に誤りはありませんでした。正解番号（takuitsu.jsonのcorrectAnswer＝4）とまとめの判定も一致しています。表形式の残存・判例先例番号の本文記載・文体の不統一・タイトル文字数超過は見つかりませんでした。修正の必要はありませんでした。正誤判定・正解の組合せに変更はありません。
+- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。ローカル法令データベースでウ（不登法41条1号＝合筆の要件としての相互接続）とエ（不登法123条1号＝筆界の定義）の条文を改めて突き合わせ、本文の記載どおりであることを確認しました。オの地積計算（5番＝180.05㎡、3番2＝45.01㎡、6番＝189.94㎡）も検算し、6番＞5番となる結論に誤りはありませんでした。正解番号（takuitsu.jsonのcorrectAnswer＝4）とまとめの判定も一致しています。表形式の残存・判例先例番号の本文記載・文体の不統一・タイトル文字数超過は見つかりませんでした。修正の必要はありませんでした。正誤判定・正解の組合せに変更はありません。
 
 ---
 
@@ -303,17 +303,17 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No（はい／いいえ）branch arrows, and a
 final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panels 1 and 2（肢ア・肢イ）share the same decision tree（diamond:
+Panels 1 and 2（ア・イ）share the same decision tree（diamond:
 「合筆後に、取り込んだ土地から分筆はされたか？」／いいえ→「取り込んだ
 土地の全部が今の土地に含まれる」／はい→「取り込んだ土地の全部が含まれ
 るとは限らない」); draw both panels with the same diamond-and-two-branch
 layout, but render the branch relevant to THIS panel with a thick
 highlighted border and full color, and render the other, unrelated branch
 in a faded, greyed-out, or dotted-outline style rather than omitting it.
-Panel 3（肢ウ）is a sequence of 4 numbered layout steps (not a Yes/No
+Panel 3（ウ）is a sequence of 4 numbered layout steps (not a Yes/No
 decision, since the underlying facts of this 肢 are fixed) rather than a
-diamond flowchart. Panel 4（肢エ）is a single-check timeline illustration,
-not a flowchart. Panel 5（肢オ）is a sequence of 4 numbered calculation
+diamond flowchart. Panel 4（エ）is a single-check timeline illustration,
+not a flowchart. Panel 5（オ）is a sequence of 4 numbered calculation
 steps ending in a balance-scale comparison, not a Yes/No decision.
 Unlike a glanceable summary poster, each panel MAY include a short「着眼
 点」callout box with 1-2 sentences that state the checking ORDER in
@@ -360,7 +360,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 合筆後に分筆がなければ6番は全部残る
@@ -382,7 +382,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 6番は全部含まれる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in orange containing the number 2.
 Heading (bold, ONE line):
 合筆後に分筆すれば全部残るとは限らない
@@ -405,7 +405,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 含むとは限らない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 合筆できた事実が接続の証拠になる
@@ -428,7 +428,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 甲乙は隣接している
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 分筆で生まれた筆界は変動なければ存続
@@ -447,7 +447,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 筆界は存在している
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 地積の増減を逆算すれば6番と5番を比較できる

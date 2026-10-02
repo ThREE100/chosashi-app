@@ -310,7 +310,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 幼稚園も学校教育法上の学校に含まれる
@@ -327,7 +327,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 学校用地になる
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 建物の敷地として使われていれば宅地
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 宅地のまま変わらず
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 発電専用の水路は用悪水路でなく雑種地
@@ -366,7 +366,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 雑種地になる
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 牧場内の牧草栽培地は畑でなく牧場
@@ -385,7 +385,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 畑ではなく牧場
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 規模を問わず埋葬する土地は墓地

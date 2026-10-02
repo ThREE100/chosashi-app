@@ -353,7 +353,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 実地調査で認定可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -397,7 +397,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 免許者本人が申請
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -418,7 +418,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1か月ルール対象外
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -439,7 +439,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 払下げ日と限らず
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

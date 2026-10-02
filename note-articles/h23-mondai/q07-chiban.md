@@ -84,7 +84,7 @@
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成24年度以降令和7年度までの試験で「登記官が定める地番」を単独テーマとする問題が再出題されていないかを確認しました。該当する出題は見つからず、重複はありません。
 - **最新法令準拠チェック（2026-08-04実施）**：不動産登記規則98条〜101条（地番の設定・分筆合筆時の地番）を確認しましたが、直近の改正による変更はありません。
-- **適用法令の現行性チェック（2026-10-01実施）**：不動産登記事務取扱手続準則67条1項（最終改正令和6年12月2日）の2号（閉鎖された地番は特別の事情がない限り再使用しない）・3号（表題登記の地番は最終の地番を追って順次定める）・4号（分筆は分筆前の地番に支号を付す）・5号（規則104条6項の場合は支号を用いない地番を存することができる）・6号（合筆は首位の地番）・7号（特別の事情があるときは適宜の地番）と、不動産登記規則97条・98条・104条6項（令和8年5月21日施行の直近改正を反映した現行版）を、ローカル法令データベースの原文で確認しました。**各肢の正誤の結論に変更はありません**。(1) 肢イ：以前の本文は「地役権を消す側の土地に支号なしの地番を残せる」と書いていましたが、準則67条1項5号・規則104条6項の原文は「分筆した土地について支号を用いない地番を存することができる」とするだけで、どちらの土地に残すかを定めていませんでした。条文で確認できる範囲に書き改め、②総論のカード2・⑤作図ガイドのパネル2も同時に直しました。実務では、地役権が存続する土地に従前の地番を残す取扱いと説明されることがあるようですが、ローカル法令データベースでは確認できていないため、本文・図解では断定していません。(2) 肢エ：以前の本文は規則98条だけを挙げていましたが、「市、区、町、村、字又はこれに準ずる地域」は規則97条（地番区域）の文言なので、97条・98条を併記しました。
+- **適用法令の現行性チェック（2026-10-01実施）**：不動産登記事務取扱手続準則67条1項（最終改正令和6年12月2日）の2号（閉鎖された地番は特別の事情がない限り再使用しない）・3号（表題登記の地番は最終の地番を追って順次定める）・4号（分筆は分筆前の地番に支号を付す）・5号（規則104条6項の場合は支号を用いない地番を存することができる）・6号（合筆は首位の地番）・7号（特別の事情があるときは適宜の地番）と、不動産登記規則97条・98条・104条6項（令和8年5月21日施行の直近改正を反映した現行版）を、ローカル法令データベースの原文で確認しました。**各肢の正誤の結論に変更はありません**。(1) イ：以前の本文は「地役権を消す側の土地に支号なしの地番を残せる」と書いていましたが、準則67条1項5号・規則104条6項の原文は「分筆した土地について支号を用いない地番を存することができる」とするだけで、どちらの土地に残すかを定めていませんでした。条文で確認できる範囲に書き改め、②総論のカード2・⑤作図ガイドのパネル2も同時に直しました。実務では、地役権が存続する土地に従前の地番を残す取扱いと説明されることがあるようですが、ローカル法令データベースでは確認できていないため、本文・図解では断定していません。(2) エ：以前の本文は規則98条だけを挙げていましたが、「市、区、町、村、字又はこれに準ずる地域」は規則97条（地番区域）の文言なので、97条・98条を併記しました。
 
 ---
 
@@ -247,11 +247,11 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a new land-plot icon next to an existing
-numbered plot for the隣地支号の思い込み in 肢ア, an地役権 ribbon being
-cut from one half of a divided plot for 肢イ, two land plots merging with
-a 特別の事情 icon overriding the default 首位地番 for 肢ウ, a
-neighborhood map divided into sequentially numbered districts for 肢エ,
-and a retired-numbers box guarded by a red ✕ for 肢オ. Where a 肢
+numbered plot for the隣地支号の思い込み in ア, an地役権 ribbon being
+cut from one half of a divided plot for イ, two land plots merging with
+a 特別の事情 icon overriding the default 首位地番 for ウ, a
+neighborhood map divided into sequentially numbered districts for エ,
+and a retired-numbers box guarded by a red ✕ for オ. Where a 肢
 requires checking multiple conditions in sequence before reaching a
 conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
@@ -314,7 +314,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 隣地の支号に限定する規定ではない
@@ -334,7 +334,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 限定されない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地役権を消す分筆なら支号なし地番にできる
@@ -354,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 支号なしでも可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 特別の事情があれば首位以外もよい
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 首位でなくてよい
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 地番は地域ごとに位置が分かるよう定める
@@ -388,7 +388,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 位置重視で起番
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 抹消された地番は特別の事情がなければ再使用不可

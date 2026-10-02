@@ -321,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -345,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有権証明情報 必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 規約廃止の表題登記で所有者が初めて記録
@@ -367,7 +367,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有権証明情報 必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 建物分割は名義人がそのまま引き継がれる
@@ -389,7 +389,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 証明情報は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 共用部分の登記は既に登記記録上の名義人
@@ -410,7 +410,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 証明情報は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 未登記部分だけ新たな所有権証明が必要
@@ -434,9 +434,9 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記令別表14項添付情報ハ（肢ア）・21項添付情報ロ及び不動産登記法
-58条6項（肢イ）・不動産登記法54条1項1号（肢ウ）・不動産登記法58条1項2項
-（肢エ）・不動産登記令別表13項添付情報ハ（肢オ）に基づく整理です。
+不動産登記令別表14項添付情報ハ（ア）・21項添付情報ロ及び不動産登記法
+58条6項（イ）・不動産登記法54条1項1号（ウ）・不動産登記法58条1項2項
+（エ）・不動産登記令別表13項添付情報ハ（オ）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

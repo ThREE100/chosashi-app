@@ -84,7 +84,7 @@
 - 出題年度・問題番号・肢の全文・正解番号（1番＝ア・エ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - 各肢の法的根拠は、ア・オが不動産登記法37条1項、ウが同法43条、イ・エが不動産登記事務取扱手続準則68条（柱書・5号・11号・20号）で条文レベルの裏付けを取っています。イについては「地表の現況で地目を認定する」という結論自体は準則68条柱書・5号から導けますが、地下鉄道の敷設に関する個別の先例番号までは特定できていません。
 - **適用法令の現行性チェック（2026-08-06実施）**：`note-articles/laws/`のローカル法令データベース（2026-08-04時点のe-Gov現行版）で、不動産登記法37条1項・43条・46条、不動産登記規則99条・119条、不動産登記事務取扱手続準則68条・69条の原文を確認しました。その結果、従前「条文番号までは特定できていない」としていたイ（準則68条柱書・5号）・エ（準則68条20号＝森林法に基づき農林水産大臣が指定した土地）・オ（法37条1項に例外規定がないこと）を、いずれも条文レベルの根拠に差し替えています。地目の種類を定める規則99条・準則68条の列挙、地目の認定基準を定める準則69条、河川区域内の土地の登記を定める法43条のいずれにも本問に影響する改正はなく、令和3年法律24号（相続登記の義務化等）や令和5年施行の民法改正も地目の変更の登記の規律には及んでいません。**5肢すべての正誤判定と正解（アエ＝選択肢1番）に変更はありません。**
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「地目の変更」「敷地権」等がテーマの問題を確認しました。**本問肢オ（敷地権である旨の登記がされている土地について、地目を宅地以外の地目に変更する登記を申請することはできない、という記述）と非常によく似た肢が、令和7年度第13問肢ア、令和2年度第7問肢ア、平成27年度第16問でも繰り返し出題されています。**「敷地権付き土地の地目変更の可否」は複数年度にわたり形を変えて出題される定番の引っかけ論点であるため、noteでの発信時は既出感が出ないよう表現を工夫するか、他の肢（ア〜エ）を中心に据えることを検討してください。それ以外の肢（ア・イ・ウ・エ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「地目の変更」「敷地権」等がテーマの問題を確認しました。**本問オ（敷地権である旨の登記がされている土地について、地目を宅地以外の地目に変更する登記を申請することはできない、という記述）と非常によく似た肢が、令和7年度第13問ア、令和2年度第7問ア、平成27年度第16問でも繰り返し出題されています。**「敷地権付き土地の地目変更の可否」は複数年度にわたり形を変えて出題される定番の引っかけ論点であるため、noteでの発信時は既出感が出ないよう表現を工夫するか、他の肢（ア〜エ）を中心に据えることを検討してください。それ以外の肢（ア・イ・ウ・エ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -242,10 +242,10 @@ conditions to get there — a calendar icon showing two dates, a farmland
 icon transforming into a house-lot icon, an underground subway-tunnel
 icon beneath a surface lot, a river/河川 icon, a collapsed and overgrown
 forest-hillside icon, and a condominium building on stilts. Panel 4
-（肢エ）is the only 肢 in this problem that requires two sequential checks
+（エ）is the only 肢 in this problem that requires two sequential checks
 （現況が変わったか → 保安林の指定が解除されたか）, so it alone is drawn as
-a two-diamond flowchart; Panel 1（肢ア）is drawn as a timeline comparing
-two dates rather than a flowchart; Panels 2, 3 and 5（肢イ・ウ・オ）are
+a two-diamond flowchart; Panel 1（ア）is drawn as a timeline comparing
+two dates rather than a flowchart; Panels 2, 3 and 5（イ・ウ・オ）are
 drawn as a side-by-side comparison rather than a flowchart, since each
 turns on distinguishing which of two things is legally relevant (surface
 use vs. underground use, two independent registrations, or the presence
@@ -295,7 +295,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 登記原因日は現況が変わった日
@@ -313,7 +313,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 現況変化日が基準
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地目は地表の現況だけで決まる
@@ -333,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地下利用だけでは不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 河川区域の登記は抹消不要で変更可
@@ -353,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抹消は前提要件でない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 保安林は指定解除まで地目変更不可
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 指定解除が先決
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 敷地権登記があっても地目変更は可能
@@ -410,7 +410,7 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢エ is drawn as an actual
+between the header and the panels, that エ is drawn as an actual
 two-diamond decision flowchart with both the はい and いいえ outcomes of
 its second diamond given a real conclusion node rather than a bare
 illustration or a looping arrow, that panels 1, 2, 3 and 5 are drawn as a

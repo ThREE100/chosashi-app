@@ -344,7 +344,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 関与していない事件は脱退後に相手方から受任できる
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 関与なしなら受任可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 総社員の同意があっても社員の競業は禁止される
@@ -399,7 +399,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 同意でも解禁されない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 法人の財産で完済できなければ社員が連帯して弁済する
@@ -420,7 +420,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 社員が連帯責任
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 社員2名中1名が筆界調査委員なら法人も取り扱えない
@@ -450,7 +450,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 法人でも受任不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 使用人の受任事件の相手方からは依頼者が同意しても受任できない

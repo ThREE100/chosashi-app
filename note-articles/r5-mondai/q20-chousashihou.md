@@ -262,7 +262,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — isometric registry association buildings, a
 土地家屋調査士 character, an official stamp/seal, a newspaper icon for
 官報, and an office building icon divided into department blocks for the
-土地家屋調査士法人. Panels 1 and 2 (肢ア・肢イ) share the same underlying
+土地家屋調査士法人. Panels 1 and 2 (ア・イ) share the same underlying
 decision tree (登録取消事由の種類が必要的取消事由か裁量的取消事由かを
 分ける diamond node): in Panel 1, render the 死亡等の事由 (必要的取消
 事由) branch with a thick highlighted border and full color, and render
@@ -319,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 死亡時は相続人が遅滞なく届出する
@@ -340,7 +340,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相続人が遅滞なく届出
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 2年不執行の取消しは裁量にとどまる
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 義務ではなく裁量
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 定款以外でも代表社員を定められる
@@ -379,7 +379,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 総社員の同意でも可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 戒告でも遅滞なく官報で公告する
@@ -397,7 +397,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 処分の軽重問わず公告
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 法人は業務の一部だけ停止も可能

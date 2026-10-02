@@ -74,9 +74,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・ウが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月4日 現行民法との整合性を再検証し、肢エの根拠条文を修正しました】** 初版では肢エ（不動産質権の順位は登記の前後による）の根拠を「民法355条」としていましたが、**民法355条は第9章第2節「動産質」に置かれた条文で、「同一の動産について数個の質権が設定されたときは、その質権の順位は、設定の前後による」と定めるもの**であり、不動産質権の順位の根拠にはなりません。正しくは、不動産質権について抵当権の規定を準用する**民法361条**と、抵当権の順位を登記の前後によるとする**民法373条**です。記事本文とまとめを修正し、動産質（設定の前後）との対比も加えました。肢エの正誤の結論（正しい）は変わりません。
+- **【2026年8月4日 現行民法との整合性を再検証し、エの根拠条文を修正しました】** 初版ではエ（不動産質権の順位は登記の前後による）の根拠を「民法355条」としていましたが、**民法355条は第9章第2節「動産質」に置かれた条文で、「同一の動産について数個の質権が設定されたときは、その質権の順位は、設定の前後による」と定めるもの**であり、不動産質権の順位の根拠にはなりません。正しくは、不動産質権について抵当権の規定を準用する**民法361条**と、抵当権の順位を登記の前後によるとする**民法373条**です。記事本文とまとめを修正し、動産質（設定の前後）との対比も加えました。エの正誤の結論（正しい）は変わりません。
 - 質権に関する民法の規定は、平成29年の債権法改正（令和2年4月1日施行）でも条文番号・内容ともに実質的な変更がないことを確認しました。**348条**（転質。設定者の承諾がなくても自己の責任で転質できる＝責任転質）、**350条**（296条以下の準用＝不可分性）、**356条**（不動産質権者は用法に従い使用及び収益ができる）、**361条**・**373条**（順位）は、いずれも現行条文どおりです。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証しました】** `minpou-1-soukyoku-bukken.md`（2026-08-04取得の現行民法）で、**296条**（留置権の不可分性）・**348条**（転質）・**350条**（296条〜300条・304条の準用）・**355条**（動産質権の順位＝設定の前後）・**356条**（不動産質権者による使用及び収益）・**361条**（抵当権の規定の準用）・**373条**（抵当権の順位＝登記の前後）の条文番号・見出し・本文をすべて原文で確認し、記事の記載と一致していることを確かめました。条文根拠の修正は不要でした。あわせて、簡潔性ルール（各肢の本文2〜3文）に沿って肢エの説明を圧縮しました。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証しました】** `minpou-1-soukyoku-bukken.md`（2026-08-04取得の現行民法）で、**296条**（留置権の不可分性）・**348条**（転質）・**350条**（296条〜300条・304条の準用）・**355条**（動産質権の順位＝設定の前後）・**356条**（不動産質権者による使用及び収益）・**361条**（抵当権の規定の準用）・**373条**（抵当権の順位＝登記の前後）の条文番号・見出し・本文をすべて原文で確認し、記事の記載と一致していることを確かめました。条文根拠の修正は不要でした。あわせて、簡潔性ルール（各肢の本文2〜3文）に沿ってエの説明を圧縮しました。
 - オ（被担保債権が金銭債権に限られないこと）は明文の規定ではなく、質権の被担保債権について金銭債権に限る旨の制限規定が置かれていないことからの説明です。
 - なお、アプリ製作時のデータベース内の補足解説（kaisetsu_plus.json）では、イの根拠条文が「民法358条」と記載されていましたが、転質の根拠は民法348条であり、この記事では条文を正しました。ローカルのアガルート過去問テキスト等は本問について参照できるテキスト解説が手元になく、参照していません。
 - 【重要】データベース（takuitsu.json）に保存されていた各肢の原文は、「質権者は被担保債権の全部弁済まで、目的不動産全部について権利行使可能」のような短い要約形式でした。上記の引用部分（問題文全文）は、この要約と正解番号・関連条文をもとに、一般的な司法試験・調査士試験の条文体の言い回しで再構成したものであり、平成20年度の試験問題原本の一字一句そのままではない可能性があります。noteに掲載する前に、法務省公表の試験問題原本と照合することを強くおすすめします。
@@ -235,10 +235,10 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — an isometric villa/mansion icon (質物である別
 荘）surrounded by a dashed outline representing the scope of the 質権, a
 scroll icon for the 質権証書, a registry-stamp icon, and coin/rice-bale
-icons for the 被担保債権. Panel 4（肢エ）compares two related but distinct
+icons for the 被担保債権. Panel 4（エ）compares two related but distinct
 rules (不動産質権と動産質権の順位のルール), so draw it as a side-by-side
 LEFT/RIGHT comparison rather than a single scene. The other 4 panels（肢
-ア・肢イ・肢ウ・肢オ）are each resolved by a single check, so draw a labeled
+ア・イ・ウ・オ）are each resolved by a single check, so draw a labeled
 illustrative diagram for them instead of forcing a flowchart. Do not
 include case or precedent numbers (article/regulation numbers are fine);
 keep the callout text as written below verbatim.
@@ -278,7 +278,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft green containing the number 1.
 Heading (bold, ONE line):
 全部弁済されたかをまず確認する
@@ -295,7 +295,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 全部弁済まで効力継続
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line):
 転質に設定者の承諾はいらない
@@ -309,7 +309,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 転質に承諾不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line):
 使用収益にも設定者の承諾はいらない
@@ -323,7 +323,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 使用収益も承諾不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft green containing the number 4.
 Heading (bold, ONE line):
 不動産質と動産質で順位の基準が違う
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 不動産質は登記の先後
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5.
 Heading (bold, ONE line):
 金銭以外の債権も担保にできる

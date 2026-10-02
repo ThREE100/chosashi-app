@@ -290,7 +290,7 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or はい/いいえ) branch arrows, and a final conclusion node. Where a 肢
 is resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Panels 2 and 4 (肢イ・肢エ) share
+sufficient — do not force a flowchart. Panels 2 and 4 (イ・エ) share
 the same underlying left/right contrast frame (左：権利に関する登記、
 3か月以内が必要／右：表示に関する登記、期間制限なし); draw both panels
 with the same two-frame layout, changing only the document icon on the
@@ -344,7 +344,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 敷地の権原証明は必須ではない
@@ -364,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有権証明で足りる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 表示登記の印鑑証明に期間制限なし
@@ -384,7 +384,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 期間制限なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 会社法人等番号で支配人証明は不要
@@ -400,7 +400,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 番号確認で足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 住所証明書にも期間制限は及ばない
@@ -420,7 +420,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 期間制限なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 合体時は住所証明を省略できない

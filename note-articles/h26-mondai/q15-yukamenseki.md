@@ -88,10 +88,10 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・ウ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
-- ア・イ（不動産登記規則115条：「建物の床面積は、各階ごとに壁その他の区画の中心線（区分建物にあっては、壁その他の区画の内側線）で囲まれた部分の水平投影面積により…定め」る、という条文）は、`note-articles/laws/fudousan-touki-kisoku-1.md`に保存した条文原文で確認済みです。115条括弧書きの「区分建物にあっては、内側線」という例外は、区分建物（専有部分）自体の床面積を算定する場合の規定であり、区分建物が属する「一棟の建物」全体の床面積までは対象としていないため、肢イは誤りと判断しています。エ（屋根の開閉方式にかかわらず床面積に算入すること）は不動産登記事務取扱手続準則82条1項3号（観覧席の面積を床面積として算出する規定）と整合しており、開閉式屋根の部分も含めて全体を床面積に算入する扱いは、平成5年12月3日民三第7499号（先例）でも確認できます。オ（周壁のないベランダの床面積不算入）は準則82条1項7号で確認済みです。
+- ア・イ（不動産登記規則115条：「建物の床面積は、各階ごとに壁その他の区画の中心線（区分建物にあっては、壁その他の区画の内側線）で囲まれた部分の水平投影面積により…定め」る、という条文）は、`note-articles/laws/fudousan-touki-kisoku-1.md`に保存した条文原文で確認済みです。115条括弧書きの「区分建物にあっては、内側線」という例外は、区分建物（専有部分）自体の床面積を算定する場合の規定であり、区分建物が属する「一棟の建物」全体の床面積までは対象としていないため、イは誤りと判断しています。エ（屋根の開閉方式にかかわらず床面積に算入すること）は不動産登記事務取扱手続準則82条1項3号（観覧席の面積を床面積として算出する規定）と整合しており、開閉式屋根の部分も含めて全体を床面積に算入する扱いは、平成5年12月3日民三第7499号（先例）でも確認できます。オ（周壁のないベランダの床面積不算入）は準則82条1項7号で確認済みです。
 - ウ（塔屋の床面積算入基準）は、当初、`note-articles/laws/`に保存した不動産登記法・不動産登記規則・準則の条文だけからは明確な根拠を特定できず、未解決の論点として記録していました。準則82条（1）の1.5メートル基準を文字どおりに読むと、1.5メートルを超える塔屋は算入されるようにも読めてしまうためです。今回、ユーザーから提供された実務教材により、出入口専用の階段室やエレベーター機械等の設備のみを収容する塔屋については、天井の高さが1.5メートルを超えていても階数・床面積のいずれにも算入しないとする先例（昭和38年10月22日民事甲第1933号）が存在することが確認できたため、本文を「未解決」から確定的な説明に改めました。この先例は不動産登記法・不動産登記規則そのものではなく、`note-articles/laws/`のローカル法令データベースには収録されていない行政先例（回答）であるため、原文の確認は今回参照した実務教材に基づいています。今後、公式の先例集等での一次確認ができるとより確実です。なお、この修正は先例の存在を新たに確認して記事の説明を補ったものであり、直近の法改正等によって結論が変わったものではないため、問題文・正解・各肢の正誤判定は原本のまま変更していません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。建物の床面積の定め方（壁芯・内法、塔屋の算入）がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記規則・不動産登記事務取扱手続準則の現行条文（2026-08-04取得）で全肢を再確認しました。肢ア・イ・エ・オの結論に影響する法改正は見当たりません。肢ウについては、ユーザーから提供された実務教材により、設備収容専用の塔屋を階数・床面積のいずれにも算入しないとする先例（昭和38年10月22日民事甲第1933号）を確認し、本文の説明を確定的な内容に更新しました。この先例は昭和38年のものであり、平成26年度の原問題出題時点でも現在（2026年）でも変わらず適用される取扱いであるため、法改正等による結論の変更ではなく、根拠の補完にとどまります。したがって本記事は（改）表記とせず、正解・各肢の正誤判定は原本のまま維持しています。
+- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記規則・不動産登記事務取扱手続準則の現行条文（2026-08-04取得）で全肢を再確認しました。ア・イ・エ・オの結論に影響する法改正は見当たりません。ウについては、ユーザーから提供された実務教材により、設備収容専用の塔屋を階数・床面積のいずれにも算入しないとする先例（昭和38年10月22日民事甲第1933号）を確認し、本文の説明を確定的な内容に更新しました。この先例は昭和38年のものであり、平成26年度の原問題出題時点でも現在（2026年）でも変わらず適用される取扱いであるため、法改正等による結論の変更ではなく、根拠の補完にとどまります。したがって本記事は（改）表記とせず、正解・各肢の正誤判定は原本のまま維持しています。
 
 ---
 
@@ -249,7 +249,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、どの部分を測ろうとしているのか（専有部分か一棟全体か）、どの空間が対象外になるのか（塔屋・ベランダ）を、どの順番で確認すればよいかを示す作図ガイド。肢イ・ウは判定の分岐がある肢として決定木で、肢ア・エ・オは単一の着眼点で完結する肢として通常の図解で示す。
+問題文を読んだ瞬間に、どの部分を測ろうとしているのか（専有部分か一棟全体か）、どの空間が対象外になるのか（塔屋・ベランダ）を、どの順番で確認すればよいかを示す作図ガイド。イ・ウは判定の分岐がある肢として決定木で、ア・エ・オは単一の着眼点で完結する肢として通常の図解で示す。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -330,7 +330,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -349,7 +349,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 壁芯（柱中心線）で算定
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -361,7 +361,7 @@ and greyed-out since it is not this panel's focus): a small inner room
 frame measured with an「内法」dotted line along the inner wall surface,
 leading to a faded conclusion node「専有部分は内法で算定」. Right branch
 (labeled「一棟の建物全体」, thick highlighted border and full color, since
-this is 肢イ's case): the large outer frame of the whole building measured
+this is イ's case): the large outer frame of the whole building measured
 with a「壁芯」dotted line along the outer wall center, leading to a bold
 conclusion node「一棟全体も壁芯で算定」. Draw a small arrow attempting to
 apply the「内法」measurement to the whole building, with a red cross mark
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一棟全体は壁芯で算定
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -385,7 +385,7 @@ machine-room icon, an elevator hoist icon, and a stairwell icon, labeled
 「天井高さ1.8メートル」. Diamond branch node labeled「もっぱら設備を収容
 するためだけの空間か（人が居住・執務する実質があるか）？」. The「はい
 （設備専用）」branch is drawn with a thick highlighted border and full
-color (since this is 肢ウ's case), leading to a bold conclusion node「その
+color (since this is ウ's case), leading to a bold conclusion node「その
 空間はそもそも『階』として扱われない → 天井高さ（1.8メートル）にかかわ
 らず床面積・階数に不算入」. The「いいえ（居室としての実質がある通常の
 階）」branch is drawn faded and greyed-out, leading to a faded conclusion
@@ -401,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 設備専用なら不算入
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -421,7 +421,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 両方とも床面積に算入
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

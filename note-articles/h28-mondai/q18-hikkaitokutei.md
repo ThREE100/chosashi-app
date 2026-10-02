@@ -318,7 +318,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -340,7 +340,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 まとめて1申請でよい
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 関係土地の所有者が主張する線は記載しなくても申請できる
@@ -364,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 記載義務なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 書面の資料は原本でなく写し3部の提出で足りる
@@ -389,7 +389,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 写し3部で足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 筆界特定の通知を発送した後は申請を取り下げられない
@@ -410,7 +410,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 発送後は取下げ不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 判決確定で筆界特定が効力を失うのは抵触する範囲だけ

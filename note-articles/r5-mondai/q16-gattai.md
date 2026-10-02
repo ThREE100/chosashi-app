@@ -278,7 +278,7 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or はい/いいえ) branch arrows, and
 a final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart. In
-Panel 2 (肢イ), draw an actual decision flowchart with a diamond node
+Panel 2 (イ), draw an actual decision flowchart with a diamond node
 asking whether either merging building is an附属建物; the はい branch
 (relevant to this panel) must be rendered with a thick highlighted border
 and full color leading through a「分割の登記」step before「合体による
@@ -333,7 +333,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 表題登記は合体後の建物だけでよい
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 合体前は登記不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 附属建物は先に分割登記が必要
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 分割登記が前提
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 相続人の一人でも単独申請できる
@@ -392,7 +392,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 保存行為だからOK
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 区分の意思を示せば変更登記になる
@@ -413,7 +413,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 合体ではなく変更登記
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 住所変更登記を経ずに合体登記できる

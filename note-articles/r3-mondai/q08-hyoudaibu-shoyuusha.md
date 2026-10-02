@@ -89,7 +89,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典（令和3年度　午後の部　第8問）と正解番号（3番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
 - 各肢の根拠条文は、note-articles/laws/配下のローカル法令データベース（不動産登記法・同令別表）の条文原文とすべて突き合わせて確認しました。一致を確認できたもの：ア（不動産登記規則35条6号＝一の申請情報での申請）、ウ（不動産登記令別表2項添付情報ロ＝住所を証する情報）。
-- 【第2回チェックで修正】ウの本文には当初「なお、持分の更正登記は表題部所有者である共有者の1人からすることができます（法33条3項）」という一文がありましたが、法33条3項は「不動産の表題部所有者である共有者」（＝Ａ・Ｂ双方が既に共有者として登記されている状態）の持分更正を定める規定であり、これはＡ・Ｂ双方が登記済みで持分比率のみ誤っている肢エの場面にあたる根拠です。肢ウはＡのみが単独登記されておりＢはまだ表題部所有者として登記されていない場面なので、適用されるのは真の所有者からの更正登記の申請人適格を定める法33条1項であり、法33条3項ではありません（データベースの解説文でエの見出しが独立せずウの解説に地続きで結合していたことに起因すると見られます）。本文を法33条1項に修正しました。まとめ表（ウの行）はもともと令別表2項添付情報ロのみを根拠として記載しており、33条3項への言及がなかったため修正不要でした。
+- 【第2回チェックで修正】ウの本文には当初「なお、持分の更正登記は表題部所有者である共有者の1人からすることができます（法33条3項）」という一文がありましたが、法33条3項は「不動産の表題部所有者である共有者」（＝Ａ・Ｂ双方が既に共有者として登記されている状態）の持分更正を定める規定であり、これはＡ・Ｂ双方が登記済みで持分比率のみ誤っているエの場面にあたる根拠です。ウはＡのみが単独登記されておりＢはまだ表題部所有者として登記されていない場面なので、適用されるのは真の所有者からの更正登記の申請人適格を定める法33条1項であり、法33条3項ではありません（データベースの解説文でエの見出しが独立せずウの解説に地続きで結合していたことに起因すると見られます）。本文を法33条1項に修正しました。まとめ表（ウの行）はもともと令別表2項添付情報ロのみを根拠として記載しており、33条3項への言及がなかったため修正不要でした。
 - エ（他の共有者の承諾を添えて共有者の1人が単独で持分の更正登記を申請できること）については、当初データベース内で根拠条文の表記に揺れがありました（「37条2項」とする記載も存在）。WebSearchで確認したところ、不動産登記法37条は地目・地積の変更登記の申請義務を定める条文であり持分更正とは無関係で、正しい根拠は「不動産登記法33条4項」（表題部所有者である共有者の1人が更正登記を申請する場合、持分を更正することとなる他の共有者の承諾があるときでなければ申請できない旨の規定）であることを確認しました。この点は本文・まとめ表に反映済みです。
 - イ（中間省略の禁止）とオ（1か月以内の申請義務の不存在）についても、当初データベースではそれぞれ「不動産登記法32条」「不動産登記法31条」を根拠条文としていましたが、laws/配下の条文原文で内容を確認したところ、いずれも本文の説明とは対応していませんでした。同法32条は「表題部所有者についての変更は、当該不動産について所有権の保存の登記をした後は、所有権の移転の登記の手続によらなければ登記できない」という、保存登記後の手続の在り方を定めた規定であり、保存登記前の順次売却の場面で中間を省略できない直接の根拠にはなりません。また同法31条は「表題部所有者の氏名・住所の変更登記又は更正の登記は、表題部所有者以外の者は申請することができない」という申請人資格の規定であり、申請義務の有無・期限とは無関係です。そのため、イの根拠は、表示に関する登記の登記事項として登記原因及びその日付を要求する不動産登記法27条1号（実際の売買の経緯どおりの登記原因でなければならないため、中間を省略した登記原因は認められない）に、オの根拠は、建物の表示に関する登記のうち1か月以内の申請義務が課される登記事項を限定列挙する不動産登記法51条1項（同法44条1項各号のうち家屋番号・共用部分である旨を除いたもの＝物理的現況に関する事項に限られ、表題部所有者の住所は対象外）に、それぞれ本文・まとめ表を修正のうえ改めました。
 - なお、アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。記載はすべて上記の検証済みデータベースと条文の範囲に基づくものです。
@@ -279,7 +279,7 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 3
-(肢ウ) and 4 (肢エ) share the same root decision tree (whether the other
+(ウ) and 4 (エ) share the same root decision tree (whether the other
 co-owner Ｂ is already registered as 表題部所有者 or not); in each of
 these two panels, render the branch relevant to THIS panel with a thick
 highlighted border and full color, and render the other, unrelated branch
@@ -332,7 +332,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一括申請が可能
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 中間のＢを飛ばした変更登記はできない
@@ -368,7 +368,7 @@ Diagram: 左から右へ伸びるタイムラインに、番号タグ①とし�
 Conclusion tag (blue, 5-15 Japanese characters):
 中間省略は不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in beige containing the number 3.
 Heading (bold, ONE line):
 Ｂは未登記なので住所証明も必要
@@ -389,7 +389,7 @@ Diagram: 中央上部にひし形の分岐ノード「Ｂは既に表題部所�
 Conclusion tag (beige, 5-15 Japanese characters):
 住所証明が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in beige containing the number 4.
 Heading (bold, ONE line):
 両者登記済みなら承諾で単独更正可
@@ -411,7 +411,7 @@ Diagram: パネル3と同じ中央上部のひし形分岐ノード「Ｂは既�
 Conclusion tag (beige, 5-15 Japanese characters):
 承諾があれば単独可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in gray containing the number 5.
 Heading (bold, ONE line):
 表題部所有者の住所変更に1か月の期限はない

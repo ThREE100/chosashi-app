@@ -248,7 +248,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・ウは、「この登記は権利に関する登記か、表示に関する登記（表題部の変更）か」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢エは正しい理解と誤解しやすい考え方を対比する正誤対比型、肢オは分棟後に別個の建物とするかどうかを分岐点とする決定木とする。
+ア・イ・ウは、「この登記は権利に関する登記か、表示に関する登記（表題部の変更）か」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。エは正しい理解と誤解しやすい考え方を対比する正誤対比型、オは分棟後に別個の建物とするかどうかを分岐点とする決定木とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -327,7 +327,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -348,7 +348,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 1か月以内に申請義務
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 共有者1人からでも可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -393,7 +393,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 登録免許税は非課税
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -415,7 +415,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 一の申請情報の義務なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

@@ -275,19 +275,19 @@ registry document stamps, a red prohibition mark（✕）over a merge arrow, a
 green checkmark, condominium unit icons for 区分建物, a signed「承諾書」
 document icon, a red「抵当権」tag, person icons for 共有者, and room icons
 for 共用部分. Where a 肢 requires checking multiple conditions in sequence
-before reaching a conclusion (肢ウ), draw the panel's diagram as an actual
+before reaching a conclusion (ウ), draw the panel's diagram as an actual
 decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No branch arrows, and a final conclusion node for
 every branch reached - do not leave any branch's destination blank, and
 do not draw any arrow looping back to an earlier node; outcomes that do
 not match this 肢's own facts should be drawn in a faded, greyed-out, or
-dotted-outline style rather than omitted. Panel 2 (肢イ) uses a left/right
+dotted-outline style rather than omitted. Panel 2 (イ) uses a left/right
 contrast-frame layout instead of a flowchart, since the real difficulty
 is telling apart two different merger categories（附属合併 versus 区分
 合併）, not checking sequential conditions within one category. Panel 5
-(肢オ) uses a correct-rule-versus-common-mistake contrast layout, since
+(オ) uses a correct-rule-versus-common-mistake contrast layout, since
 the trap is assuming that being in the same one-棟 building changes the
-outcome when it does not. Panels 1 and 4 (肢ア・肢エ) use a single labeled
+outcome when it does not. Panels 1 and 4 (ア・エ) use a single labeled
 illustrative diagram, since each is resolved by one check. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」
 callout box with 1-2 sentences that state the checking ORDER in words,
@@ -296,7 +296,7 @@ not just the conclusion. Do not include case or precedent numbers
 below verbatim, and keep every condition each callout describes faithful
 to the article's own body text - do not drop or merge a required element
 (e.g. keep the 所有権等の各権利 and 不動産登記規則131条 exception's own
-two conditions distinct in 肢ウ).
+two conditions distinct in ウ).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -335,7 +335,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -352,7 +352,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有権登記なし × 合併不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 接続の要否は合併の類型で分かれる
@@ -376,7 +376,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 主従関係があれば接続不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 抵当権者の承諾だけでは例外にあたらない
@@ -407,7 +407,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 承諾書だけでは不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 持分の過半数がなければ申請できない
@@ -428,7 +428,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 持分の過半数で申請
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 同じ一棟でも共用部分の登記は合併不可
@@ -453,9 +453,9 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法56条1号・4号・5号（肢ア・オ・ウ）、不動産登記規則131条
-（肢ウ）、不動産登記事務取扱手続準則86条(1)(2)（肢イ）、不動産登記法54条
-1項3号・民法251条1項・252条1項（肢エ）、不動産登記法58条4項（肢オ）に基づく整理です。
+不動産登記法56条1号・4号・5号（ア・オ・ウ）、不動産登記規則131条
+（ウ）、不動産登記事務取扱手続準則86条(1)(2)（イ）、不動産登記法54条
+1項3号・民法251条1項・252条1項（エ）、不動産登記法58条4項（オ）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
@@ -469,7 +469,7 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-Panel 3 (肢ウ) is drawn as an actual flowchart with two distinct diamond
+Panel 3 (ウ) is drawn as an actual flowchart with two distinct diamond
 nodes and a conclusion node for every branch reached (no blank branch and
 no arrow looping back to an earlier node), that Panel 2's left/right
 contrast-frame layout and Panel 5's correct-rule-versus-common-mistake

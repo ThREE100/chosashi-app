@@ -82,7 +82,7 @@
 - 出題年度・問題番号・正解番号（4番＝ウ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠について、ア（不動産登記規則37条2項）、イ（不動産登記令7条1項1号ロ）、ウ（不動産登記令3条10号）、エ（不動産登記規則66条1項1号、不動産登記令附則5条1項かっこ書）、オ（不動産登記規則60条2項1号）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。一般原則からの推論にとどまる肢はありません。
 - 各肢の根拠は、ローカルのアガルート過去問テキスト（OCR化した解説）を条文根拠の一次情報源として参照しました。上記の条文番号は同解説の記載に基づいています。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（表示登記の申請情報及び添付情報）と同一・類似の論点がないか確認しました。**部分的な重複が見つかりました（現時点で公開済みの記事との競合はありません）。** 本問の肢ア（同一登記所への複数申請での添付情報の援用）は、令和3年度第5問肢ア（未公開）で「前件添付・後件添付」として同じ論点が扱われています。また、法定相続情報一覧図の添付に関する本問肢ウは、令和2年度第5問・令和5年度第19問・令和7年度第18問（いずれも未公開）など、法定相続情報一覧図を主題とする問題群と関連しますが、これらは法定相続情報一覧図を独立の主題として深掘りする問題であり、本問のような複数論点の中の一つとしての扱いとは焦点が異なります。令和3・7年度分の記事を今後作成する際は、この重複に留意してください。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（表示登記の申請情報及び添付情報）と同一・類似の論点がないか確認しました。**部分的な重複が見つかりました（現時点で公開済みの記事との競合はありません）。** 本問のア（同一登記所への複数申請での添付情報の援用）は、令和3年度第5問ア（未公開）で「前件添付・後件添付」として同じ論点が扱われています。また、法定相続情報一覧図の添付に関する本問ウは、令和2年度第5問・令和5年度第19問・令和7年度第18問（いずれも未公開）など、法定相続情報一覧図を主題とする問題群と関連しますが、これらは法定相続情報一覧図を独立の主題として深掘りする問題であり、本問のような複数論点の中の一つとしての扱いとは焦点が異なります。令和3・7年度分の記事を今後作成する際は、この重複に留意してください。
 
 ---
 
@@ -325,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -350,7 +350,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 他の申請情報に前件添付と記載
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 番号なし法人は3月以内の証明書が必要
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 3月以内の証明書のみ有効
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 一覧図を添付しても相続人の旨は記載必須
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一覧図があっても記載必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 登記識別情報だけは書面で出せない
@@ -411,7 +411,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 識別情報は電子入力のみ
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 電子申請の補正は電子情報処理組織で行う

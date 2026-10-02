@@ -255,7 +255,7 @@ figure for 解除条件の知・不知. Where a 肢 requires checking multiple
 conditions in sequence before reaching a conclusion, draw the panel's
 diagram as an actual decision flowchart: diamond-shaped branch nodes
 with the condition written on them, Yes/No（はい／いいえ）branch arrows,
-and a final conclusion node. Only Panel 1（肢ア）needs this treatment,
+and a final conclusion node. Only Panel 1（ア）needs this treatment,
 because it hides a second condition (行政処分の要否) behind a first
 condition (妨害の有無) that at first glance looks like it alone decides
 the肢; the other four panels are each resolved by a single check, so a
@@ -301,7 +301,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 妨害があっても行政処分は作れない
@@ -324,7 +324,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 許可の擬制はできない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 催告と一体なら条件付き解除も有効
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 催告一体なら有効
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 停止条件付きでも仮登記はできる
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 仮登記で保全できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 条件成就前は期待権にとどまる
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 確定請求権はまだない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 知らなくても解除条件は効力発生
@@ -404,7 +404,7 @@ a visually similar Simplified Chinese variant. If any character renders
 as a Simplified or Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢ア is drawn as an actual
+between the header and the panels, that ア is drawn as an actual
 flowchart with two branch nodes (not a bare illustration with no visible
 decision structure) while the other four panels use a single labeled
 illustrative diagram, that each 着眼点 callout states a checking order

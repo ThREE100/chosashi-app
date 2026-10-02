@@ -81,9 +81,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア・イ（不動産登記規則16条5項2号）、ウ（登記研究696号）、エ（不動産登記規則16条1項）、オ（不動産登記規則16条2項）は、いずれもデータベースのexplanationフィールドで条文番号・先例番号まで明記されているものです。
-- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、肢ア・イの条文引用に誤りを発見し修正しました。「土地所在図・地積測量図の提供要否」の根拠として「不動産登記規則16条6項〜9項」を挙げていましたが、この範囲は電子申出方式に関する準用規定であり、当該論点とは無関係でした。正しくは、地図訂正申出の際に土地所在図・地積測量図の提供が必要な場合を定める**規則16条5項2号**です（条文原文「地図又は地図に準ずる図面に表示された土地の区画又は位置若しくは形状に誤りがあるときは、土地所在図又は地積測量図」で確認済み）。結論（ア誤・イ正の判定）自体に誤りはありませんでした。
+- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、ア・イの条文引用に誤りを発見し修正しました。「土地所在図・地積測量図の提供要否」の根拠として「不動産登記規則16条6項〜9項」を挙げていましたが、この範囲は電子申出方式に関する準用規定であり、当該論点とは無関係でした。正しくは、地図訂正申出の際に土地所在図・地積測量図の提供が必要な場合を定める**規則16条5項2号**です（条文原文「地図又は地図に準ずる図面に表示された土地の区画又は位置若しくは形状に誤りがあるときは、土地所在図又は地積測量図」で確認済み）。結論（ア誤・イ正の判定）自体に誤りはありませんでした。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和1年度第17問アで、本問の肢エとほぼ同じ規律が異なる事案で再出題されている、中程度の重複が見つかりました**。本問の肢エ「地図に表示された土地の区画に誤りがある場合、売買により所有権を取得した者は、移転登記を受ける前でも訂正の申出をすることができる」（誤り＝実際は申出できない）に対し、令和1年度第17問ア「相続によって所有権を取得した者は、相続による移転登記を経なければ訂正の申出をすることができない」（正しい）は、事案が売買から相続に変わっているだけで、「登記名義人になっていない取得者には訂正の申出資格がない」という同じ規律を問うています。noteで令和1年度第17問の解説記事を作成する際は、この点の説明が本記事の肢エと重なりやすいことに留意してください。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和1年度第17問アで、本問のエとほぼ同じ規律が異なる事案で再出題されている、中程度の重複が見つかりました**。本問のエ「地図に表示された土地の区画に誤りがある場合、売買により所有権を取得した者は、移転登記を受ける前でも訂正の申出をすることができる」（誤り＝実際は申出できない）に対し、令和1年度第17問ア「相続によって所有権を取得した者は、相続による移転登記を経なければ訂正の申出をすることができない」（正しい）は、事案が売買から相続に変わっているだけで、「登記名義人になっていない取得者には訂正の申出資格がない」という同じ規律を問うています。noteで令和1年度第17問の解説記事を作成する際は、この点の説明が本記事のエと重なりやすいことに留意してください。
 
 ---
 
@@ -271,11 +271,11 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
 and a final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-This article's 肢ア and 肢イ reuse one shared 対比枠（左右2枠）diagram
+This article's ア and イ reuse one shared 対比枠（左右2枠）diagram
 contrasting「地番の誤り」と「形状の誤り」: the panel's own error type is
 drawn in full color with a thick border, while the other error type is
 faded to a lighter tint with a thin border, so the two panels read as one
-comparison seen from two angles; 肢ウ・肢エ・肢オ are each designed
+comparison seen from two angles; ウ・エ・オ are each designed
 independently around their own fact pattern. Unlike a glanceable summary
 poster, each panel MAY include a short「着眼点」callout box with 1-2
 sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
@@ -323,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 地番の誤りは図面提供不要
@@ -343,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 図面提供は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 形状の誤りには測量図面が必要
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 測量図面が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 同一管轄でも土地ごとに申出
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 土地ごとに申出
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 移転登記前の買主は申出できない
@@ -401,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 移転登記後に申出可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 地積の錯誤は更正登記とセットで
@@ -435,9 +435,9 @@ katakana, Jōyō kanji, and the Arabic numerals explicitly used above
 appears anywhere in the image — no Latin letters, no other non-Japanese
 scripts. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that 肢ア・肢イ share one 対比枠 with the
+the header and the panels, that ア・イ share one 対比枠 with the
 highlight swapped between panels rather than being drawn as unrelated
-scenes, that 肢ウ・肢エ・肢オ have not been forced into an unnecessary
+scenes, that ウ・エ・オ have not been forced into an unnecessary
 decision-tree flowchart since each is resolved by a single check, that
 each 着眼点 callout states a checking order rather than only a
 conclusion and keeps every required element from the source article

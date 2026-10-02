@@ -89,9 +89,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝イ・オが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア（不動産登記令12条1項）、エ（令13条1項）、オ（令13条2項）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。
-- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、肢イ・ウの条文引用に誤りを発見し修正しました。肢イ「添付情報にも作成者の電子署名が必要」の根拠は「令12条1項」ではなく、添付情報の電子署名を定める**令12条2項**です（1項は申請情報についての規定で、肢アの根拠）。肢ウ「電子証明書も併せて送信する」の根拠も「令12条1項」ではなく、電子証明書の送信を定める**令14条**です。修正前は結論（イ誤・ウ正の判定）自体は正しかったものの、根拠条文がすべて肢アと同じ「12条1項」にまとめられており誤りでした。不動産登記令の条文原文（12条1項・2項、14条）で確認済みです。
+- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、イ・ウの条文引用に誤りを発見し修正しました。イ「添付情報にも作成者の電子署名が必要」の根拠は「令12条1項」ではなく、添付情報の電子署名を定める**令12条2項**です（1項は申請情報についての規定で、アの根拠）。ウ「電子証明書も併せて送信する」の根拠も「令12条1項」ではなく、電子証明書の送信を定める**令14条**です。修正前は結論（イ誤・ウ正の判定）自体は正しかったものの、根拠条文がすべてアと同じ「12条1項」にまとめられており誤りでした。不動産登記令の条文原文（12条1項・2項、14条）で確認済みです。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和3年度第4問（土地の合筆の登記の電子申請に関する調査士と補助者の対話）で、肢エ・オと近い論点が再出題されている、中程度の重複が見つかりました**。本問の肢エ「書面に記載された情報を電磁的記録に記録したもの（スキャンデータ）には、作成者による電子署名が行われている必要がある」という規律は、令和3年度第4問ウ「委任状のスキャンデータに申請人による電子署名が付されていなければ添付情報とすることができない」と同じ規律（スキャンデータには作成者の電子署名が必要）を問うています。また本問の肢オ「スキャンした書面の原本は登記官に提示する必要がある」という規律は、令和3年度第4問エ「調査士報告方式で申請した場合でも委任状原本の提示を省略できない」と関連する論点です。両問とも「土地の合筆の登記の電子申請」を題材にしている点も共通しています。noteで令和3年度第4問の解説記事を作成する際は、本記事の肢エ・オと内容が一部重なるため、重複した解説にならないよう、既出の論点である旨に触れることを検討してください。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和3年度第4問（土地の合筆の登記の電子申請に関する調査士と補助者の対話）で、エ・オと近い論点が再出題されている、中程度の重複が見つかりました**。本問のエ「書面に記載された情報を電磁的記録に記録したもの（スキャンデータ）には、作成者による電子署名が行われている必要がある」という規律は、令和3年度第4問ウ「委任状のスキャンデータに申請人による電子署名が付されていなければ添付情報とすることができない」と同じ規律（スキャンデータには作成者の電子署名が必要）を問うています。また本問のオ「スキャンした書面の原本は登記官に提示する必要がある」という規律は、令和3年度第4問エ「調査士報告方式で申請した場合でも委任状原本の提示を省略できない」と関連する論点です。両問とも「土地の合筆の登記の電子申請」を題材にしている点も共通しています。noteで令和3年度第4問の解説記事を作成する際は、本記事のエ・オと内容が一部重なるため、重複した解説にならないよう、既出の論点である旨に触れることを検討してください。
 - **問題文の改行整理と内容再チェック（2026-09-15実施）**：問題文の引用ブロックで、調査士の質問と補助者の解答が改行なく隣接しており読みにくいという指摘を受け、調査士・補助者それぞれの発言の間に空行を挿入して読みやすく整えました（`md_to_mt.py`の引用ブロック変換は空行を無視して各発言を`<br><br>`で連結する仕様のため、note側の見た目に変化はなく、`exports/h29-mondai.mt.txt`に差分がないことを確認済みです）。あわせて、`format-template.md`の執筆ルール（判例・先例番号を本文に書かない・全角括弧・敬体・まとめは箇条書きのみ等）への準拠と、各肢の根拠条文（ア：令12条1項、イ：令12条2項、ウ：令14条、エ：令13条1項、オ：令13条2項）を`laws/fudousan-touki-rei.md`の条文原文と照合し、正解（イオの組合せ・選択肢4番）を含め誤りは見つかりませんでした。各肢の説明の論理展開（原則→根拠条文→結論、たとえばによる具体化）にも矛盾は見当たりません。
 
 ---
@@ -241,7 +241,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イは「提供する情報は申請情報か添付情報か」という共通の決定木を共有し、それぞれ自分に関係する分岐だけを強調する構成にした。肢エ・オも「紙の書面をスキャンして添付情報とする場面」という共通のタイムラインを共有し、電子署名の要否（エ）と原本提示の要否（オ）という別々のチェックポイントをそれぞれ強調する。肢ウは電子証明書の送信という単独の確認事項として独立に図解した。
+ア・イは「提供する情報は申請情報か添付情報か」という共通の決定木を共有し、それぞれ自分に関係する分岐だけを強調する構成にした。エ・オも「紙の書面をスキャンして添付情報とする場面」という共通のタイムラインを共有し、電子署名の要否（エ）と原本提示の要否（オ）という別々のチェックポイントをそれぞれ強調する。ウは電子証明書の送信という単独の確認事項として独立に図解した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -265,12 +265,12 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 1
-(肢ア) and Panel 2 (肢イ) share one decision diagram — a start node asking
+(ア) and Panel 2 (イ) share one decision diagram — a start node asking
 「提供する情報は申請情報か、添付情報か」branching into a 申請情報 outcome and
 a 添付情報 outcome — render the branch relevant to THIS panel with a thick
 highlighted border and full color, and render the other, unrelated branch
 and its conclusion node in a faded, greyed-out, dotted-outline style.
-Panel 4 (肢エ) and Panel 5 (肢オ) share one four-step timeline of the same
+Panel 4 (エ) and Panel 5 (オ) share one four-step timeline of the same
 fact pattern (紙の書面をスキャンして添付情報とする場面): 紙の書面（原本）→
 スキャンして電磁的記録を作成（作成者が電子署名）→ 添付情報として提出 →
 登記官が定める期間内に原本を提示 — each panel renders the one step it is
@@ -321,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申請情報の署名は申請人等が行う
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請人等が署名
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 添付情報は作成者本人の電子署名が必要
@@ -360,7 +360,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 作成者の署名が必須
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 署名には電子証明書を添えて送信
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 証明書とセットで送信
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 スキャンデータには作成者本人の署名が必要
@@ -396,7 +396,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 作成者の署名が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 スキャンしても原本提示の義務は残る

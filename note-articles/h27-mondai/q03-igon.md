@@ -289,7 +289,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 負担付遺贈はもらった価額まで
@@ -305,7 +305,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 遺贈の価額が上限
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続分は一部だけでも指定できる
@@ -321,7 +321,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一部指定も有効
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 遺言解釈は文言＋真意を探る
@@ -337,7 +337,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 真意も探求する
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 遺言執行者は指名しておける
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 遺言で指定可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 未成年後見人も遺言で指定できる
@@ -370,7 +370,7 @@ characters):
 Small footnote text (bottom of panel, small font, verbatim):
 民法1002条1項（負担付遺贈の責任の限度）・902条（相続分の指定）・1006条1項
 （遺言執行者の指定）・839条1項（未成年後見人の指定）に基づく整理です。
-肢ウ（遺言の解釈の方法）は判例の趣旨によるものです。
+ウ（遺言の解釈の方法）は判例の趣旨によるものです。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special

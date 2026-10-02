@@ -285,7 +285,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 縮尺係数は地図の記録事項に含まれない
@@ -306,7 +306,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 記録事項ではない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 電磁的記録の地図には座標値も記録
@@ -322,7 +322,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 座標値も記録される
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 地域区分ごとに地図の縮尺が決まる
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地域で縮尺が違う
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 訂正申出は名義人とその相続人もできる
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 相続人も申出できる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 市街地地域の上限は甲二まで

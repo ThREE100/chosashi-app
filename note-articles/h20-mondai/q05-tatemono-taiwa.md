@@ -78,9 +78,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝ウ・エが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月4日 現行法との整合性を再検証しました。判定の修正は不要でした】** 建物の表題部の変更の登記の根拠である**不動産登記法51条1項**（44条1項各号の登記事項に変更があったときは、表題部所有者又は所有権の登記名義人が1月以内に変更の登記を申請しなければならない）と、登記事項を列挙する**44条1項**（所在、家屋番号、種類、構造、床面積、附属建物があるときはその所在・種類・構造・床面積など）は、現行条文でも同じ位置にあることを確認し、肢アに条文番号を補いました。表題登記は同法47条、滅失の登記は同法57条です。
+- **【2026年8月4日 現行法との整合性を再検証しました。判定の修正は不要でした】** 建物の表題部の変更の登記の根拠である**不動産登記法51条1項**（44条1項各号の登記事項に変更があったときは、表題部所有者又は所有権の登記名義人が1月以内に変更の登記を申請しなければならない）と、登記事項を列挙する**44条1項**（所在、家屋番号、種類、構造、床面積、附属建物があるときはその所在・種類・構造・床面積など）は、現行条文でも同じ位置にあることを確認し、アに条文番号を補いました。表題登記は同法47条、滅失の登記は同法57条です。
 - 本問はもともと教授と学生の対話形式で出題されたものです。手元のデータベースには各解答の要旨（ア〜オ）は保存されていましたが、対話の細かな設定（登場人物A・Bの関係など）までは残っていなかったため、引用部分の対話の前提はデータベースの要旨に沿って再構成しています。イ（増築部分の帰属）とオ（全項目同一の場合）の説明は、公式正答（正解4番＝ウエ）に整合するように、附合の原則・建て替えの取扱いという一般原則から補って説明したもので、当時の先例の逐一確認まではしていません。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、肢イ・エの条文根拠を補いました】** `fudousan-touki-hou.md`で**44条1項**（1号所在・2号家屋番号・3号種類構造床面積・**5号附属建物の所在等**・7号一棟の建物の構造及び床面積）、**51条1項**（変更の登記の申請義務）、**47条1項**（新築した建物は所有権取得の日から1月以内に表題登記）、**57条**（滅失の登記）を原文で確認しました。あわせて`minpou-1-soukyoku-bukken.md`で**民法242条**（不動産の付合。条文の表記は「附合」ではなく「**付合**」）を確認し、肢イの根拠として明記しました。肢エについては、附属建物が44条1項5号の登記事項であることから51条1項の変更の登記になる、という条文の道筋を本文に補いました。正誤の結論は変わりません。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、イ・エの条文根拠を補いました】** `fudousan-touki-hou.md`で**44条1項**（1号所在・2号家屋番号・3号種類構造床面積・**5号附属建物の所在等**・7号一棟の建物の構造及び床面積）、**51条1項**（変更の登記の申請義務）、**47条1項**（新築した建物は所有権取得の日から1月以内に表題登記）、**57条**（滅失の登記）を原文で確認しました。あわせて`minpou-1-soukyoku-bukken.md`で**民法242条**（不動産の付合。条文の表記は「附合」ではなく「**付合**」）を確認し、イの根拠として明記しました。エについては、附属建物が44条1項5号の登記事項であることから51条1項の変更の登記になる、という条文の道筋を本文に補いました。正誤の結論は変わりません。
 - ウ・エ（未登記建物の表題登記、附属建物取壊しの表題部変更登記）は、表示に関する登記の基本的な取扱いに基づく説明です。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を対話形式・「大規模改修工事」「附属建物の取壊し」等のキーワードで確認しました。完全一致するフレーズや事例は見当たりませんでした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
 
@@ -241,11 +241,11 @@ before and after construction work, a crumbled-rubble icon for a
 demolished building, a small extra-room icon for an増築部分（増築された
 部屋）, document icons showing a number or label being rewritten, and
 character icons for A and B (増築費用を出した人). Panels 1・3・4・5 (肢
-ア・肢ウ・肢エ・肢オ) all share the same three-step decision tree (建物は
+ア・ウ・エ・オ) all share the same three-step decision tree (建物は
 すでに登記されているか → 建物本体が消滅し新たに生じたか〔建て替えか〕 →
 登記事項に変更があるか), so render that shared tree in every one of these
 panels and highlight only the branch relevant to that panel, fading the
-rest; Panel 2 (肢イ) does not use this tree and instead shows a
+rest; Panel 2 (イ) does not use this tree and instead shows a
 relationship diagram of 付合（増築部分が既存の建物に一体化する様子）rather
 than a flowchart. Where a 肢 requires checking multiple conditions in
 sequence before reaching a conclusion, draw the panel's diagram as an
@@ -310,7 +310,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line):
 登記事項が変わらなければ登記不要
@@ -333,7 +333,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 登記事項に変動なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line):
 独立性のない増築部分はA単独所有
@@ -352,7 +352,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 付合によりA単独所有
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line):
 未登記の建物はまず表題登記から
@@ -372,7 +372,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 表題登記が先
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line):
 附属建物だけの取壊しは変更登記
@@ -391,7 +391,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 滅失登記ではない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line):
 建て替えなら滅失と表題登記の両方

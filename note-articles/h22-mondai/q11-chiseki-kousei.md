@@ -83,7 +83,7 @@
 - 各肢の判定のうち、ア（承諾不要）・エ（分筆の失敗は更正で直せない）・オ（1か月の申請義務なし）が誤りであることは、地積更正の登記の性質（事実の是正、義務登記ではない）から確認できるものです。この3つが誤りであることと、正しいものが2個という公式の正解から、正しいのはイとウと確定できます。
 - ウ（地積更正と合筆の一の申請情報による申請）は、`note-articles/laws/fudousan-touki-kisoku-1.md`で条文原文を確認済みです。不動産登記規則35条7号が、同一不動産についての表題部の変更・更正の登記と土地の分筆・合筆の登記を一の申請情報で申請できる旨を明文で定めており、この規定から確認できます。イ（地図訂正と地積更正の併合申請）は、実務上の取扱いに基づく理解にとどまり、条文の個別確認はできていません。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解と公式正解との整合を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（地積に関する更正の登記）と同一の問題が再出題されていないかを確認しました。「地積に関する更正の登記」は平成26年度第9問・令和2年度第8問・令和6年度第7問でも繰り返しテーマとなっていますが、問題文＋肢全体の類似度は0.20〜0.25程度、肢単位で最も近いもの（一の申請情報による合筆登記との併合申請を問う本問の肢ウと令和2年度第8問の肢イ）でも類似度0.73程度にとどまり、他の肢の組合せは異なります。**問題全体としての重複は見つかりませんでした**。地積更正の登記は頻出テーマである点に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（地積に関する更正の登記）と同一の問題が再出題されていないかを確認しました。「地積に関する更正の登記」は平成26年度第9問・令和2年度第8問・令和6年度第7問でも繰り返しテーマとなっていますが、問題文＋肢全体の類似度は0.20〜0.25程度、肢単位で最も近いもの（一の申請情報による合筆登記との併合申請を問う本問のウと令和2年度第8問のイ）でも類似度0.73程度にとどまり、他の肢の組合せは異なります。**問題全体としての重複は見つかりませんでした**。地積更正の登記は頻出テーマである点に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -248,7 +248,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・オは、「地積の更正登記は、新しい権利関係を生じさせる登記か、それとも登記された事実を真実に合わせて正すだけの登記か」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢イ・エはそれぞれ独立した2段階の決定木、肢ウは単一チェックの決定木とする。
+ア・オは、「地積の更正登記は、新しい権利関係を生じさせる登記か、それとも登記された事実を真実に合わせて正すだけの登記か」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。イ・エはそれぞれ独立した2段階の決定木、ウは単一チェックの決定木とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -326,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 承諾は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -372,7 +372,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 地積の錯誤も併せて申請
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -391,7 +391,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 一の申請情報でまとめ可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -417,7 +417,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 更正では直せない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

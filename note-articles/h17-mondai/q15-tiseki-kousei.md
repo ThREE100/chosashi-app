@@ -307,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 地積の更正登記に申請義務はない
@@ -327,7 +327,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請義務なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 抵当権者の承諾なしで更正登記を申請可
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 共有者は1人だけで単独申請できる
@@ -366,7 +366,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 単独申請できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地積増加分の証明情報は不要
@@ -385,7 +385,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 証明情報は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 買主は売主に代位して更正登記を申請
@@ -407,7 +407,7 @@ characters):
 Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法37条（変更登記の申請義務、対比）・38条（更正登記の申請
 人資格）、不動産登記令別表六の項（添付情報）、民法423条（代位、肢
-オ）に基づく整理です。肢ウの共有者単独申請は、登記実務上の取扱いに
+オ）に基づく整理です。ウの共有者単独申請は、登記実務上の取扱いに
 よるものです。
 
 Final check before rendering: scan every kanji glyph and confirm it is

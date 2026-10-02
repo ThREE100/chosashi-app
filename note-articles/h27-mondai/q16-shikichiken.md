@@ -323,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled green circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 規約あれば証明情報必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
 取り壊し後の土地はみなし規約敷地になる
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 みなし規約敷地・登記不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line):
 変更登記の申請人は建物所有者側
@@ -377,7 +377,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 申請人は区分建物の所有者
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line):
 法定敷地を別建物の規約敷地に追加できる
@@ -395,7 +395,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 規約敷地の追加は可能
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line):
 特定登記と承諾情報の有無を順に確認する

@@ -314,7 +314,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in teal containing the number 1.
 Heading (bold, ONE line):
 土地家屋調査士は公務員時代の事件を扱えない
@@ -331,7 +331,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 業務を行えない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in teal containing the number 2.
 Heading (bold, ONE line):
 調査士法人の清算人は調査士でなければならない
@@ -352,7 +352,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 調査士でなければならない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in teal containing the number 3.
 Heading (bold, ONE line):
 登録取消しへの不服は法務大臣に審査請求
@@ -371,7 +371,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 法務大臣へ審査請求
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 定款で定めれば調査士法人も鑑定業務が可能
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 鑑定業務ができる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 正当な事由があっても補助者に業務は任せられない

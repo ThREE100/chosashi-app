@@ -326,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表題部所有者は原始取得者
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続証明は所有権証明でなく一般承継証明として出す
@@ -392,7 +392,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一般承継証明情報で提出
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 敷地権遺漏の更正では登記原因と日付まで申請情報に書く
@@ -420,7 +420,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原因日付も必須
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 処分制限の嘱託なら他の部屋の表題登記と別々にできる
@@ -452,7 +452,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 他の部屋とは別々でよい
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 名義人の表示が食い違えば先に表示の変更・更正登記

@@ -88,7 +88,7 @@
 - 各肢の判例根拠は、無権代理と相続に関する一連の最高裁判例（本人による無権代理人の相続と117条責任・最判昭48.7.3、追認拒絶後の相続・最判平10.7.17、共同相続・最判平5.1.21、無権代理人による本人の単独相続・最判昭40.6.18等）に基づく一般的な理解に沿って記載しています。判決の年月日は代表的なものを示したものであり、細かな引用番号までは公式資料で個別に照合していません。この点は各自の基本書等で確認することをおすすめします。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json）も参照しましたが、これは未検証（reviewed:false）の補足であるため、条文・判例の理解を優先しています。
 - ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（無権代理と相続の判例）と同一の問題が再出題されていないかを、問題文＋肢アからオまでの全文テキスト類似度で確認しました。最も近い問題（R07年度第1問・平成23年度第1問、いずれも「意思表示」がテーマ）でも類似度は0.2程度にとどまり、テーマ自体が異なります。無権代理と相続を主題とする問題の再出題は見当たらず、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（無権代理と相続の判例）と同一の問題が再出題されていないかを、問題文＋アからオまでの全文テキスト類似度で確認しました。最も近い問題（R07年度第1問・平成23年度第1問、いずれも「意思表示」がテーマ）でも類似度は0.2程度にとどまり、テーマ自体が異なります。無権代理と相続を主題とする問題の再出題は見当たらず、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -321,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 本人が無権代理人を相続した場合を描く
@@ -345,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 賠償責任は消えない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 拒絶確定後に立場が入れ替わる流れを描く
@@ -367,7 +367,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一度拒めば覆らない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 共同相続なら全員で拒絶できる流れを描く
@@ -389,7 +389,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全員でなら拒絶できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 単独相続で拒絶未了なら拒めない流れを描く
@@ -411,7 +411,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 拒絶できず有効になる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 二段階の相続でも結局は同じ扱いになる
@@ -424,12 +424,12 @@ alone, ending in a single figure D holding both a 「無権代理人」badge and
 「本人」badge. Beside this final figure, a diamond node asks 最終的に一人
 が両方の地位を単独で承継したか、with a はい arrow pointing to a small
 inset box that visually echoes Panel 4's conclusion node（信義則上、拒絶
-できない）, showing this reduces to the same tree branch as 肢エ.
+できない）, showing this reduces to the same tree branch as エ.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、相続が二段階にわたっていること（父Aの地位をB・Dが共同相続し、次に
 母Bの地位をDが単独相続したこと）を整理し、次に、最終的にDが無権代理人の
 地位と本人の地位の両方を一人で承継した状態になっていることを確認します。
-これは無権代理人が本人を単独相続した場合（肢エ）と同じ扱いになります。
+これは無権代理人が本人を単独相続した場合（エ）と同じ扱いになります。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 結局エと同じ扱い
@@ -446,8 +446,8 @@ similar Simplified Chinese variant. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢（肢イ・肢ウ・肢
-エ・肢オ）is drawn as an actual flowchart with branch nodes sharing the
+the header and the panels, that every multi-condition 肢（イ・ウ・肢
+エ・オ）is drawn as an actual flowchart with branch nodes sharing the
 same root decision tree as described above (not a bare illustration with
 no visible decision structure), that each 着眼点 callout states a checking
 order rather than only a conclusion, confirm nothing is rendered below

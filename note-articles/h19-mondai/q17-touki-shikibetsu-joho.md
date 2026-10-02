@@ -342,7 +342,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled green circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 理由の記載で足りる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
 確認情報の提供と相当性、双方で通知不要
@@ -384,7 +384,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 両方そろえば通知不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line):
 面識なしでも書類提示で作成可能
@@ -405,7 +405,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 書類提示で作成可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
 正当な理由は5パターンある
@@ -426,7 +426,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 5パターンいずれも該当
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line):
 海外でも期間延長のみ、宛先は不変

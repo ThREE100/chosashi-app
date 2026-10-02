@@ -76,8 +76,8 @@
 - 出題年度・問題番号・正解番号（4番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の条文根拠（ア＝891条4号、イ＝921条2号、ウ＝923条、エ＝939条、オ＝919条1項・2項）は、データベースのexplanationフィールドおよびkaisetsu_plus.jsonに条文番号まで明記されているものを転記しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
-- 【2026-08-04修正】`note-articles/laws/minpou-3-shinzoku-souzoku.md`（e-Gov原文）で条文を突き合わせた結果、肢アの引用条文番号に誤りがあることが判明しました。民法891条3号は「詐欺又は強迫によって、被相続人が相続に関する遺言をし、撤回し、取り消し、又は変更することを妨げた者」（＝遺言をすることを妨げた者）であり、肢アの事例（BがAを強迫して遺言を「させた」）に該当するのは891条4号「詐欺又は強迫によって、被相続人に相続に関する遺言をさせ、撤回させ、取り消させ、又は変更させた者」です。本文・まとめとも891条3号→891条4号に修正しました。他の引用（921条2号、923条、939条、919条1項・2項）は`minpou-3-shinzoku-souzoku.md`の条文原文と完全に一致しており、令和5年4月1日施行の相続法改正（904条の3新設等、及び918条の897条の2への移設）による条番号・内容への影響もないことを確認済みです。
-- **重複出題チェック（2026-08-16実施）**：`note-articles/`配下の他年度記事を検索したところ、本問と同じ「相続の承認及び放棄」分野で条文レベルの重複が2件見つかりました。①肢ウの根拠（民法923条・限定承認は共同相続人全員が共同してのみできる）は、平成29年度第3問イ（一人が単純承認すると他の相続人は限定承認できない）・令和7年度第3問オ（一部の相続人の熟慮期間が経過していても、他の相続人がまだ期間内なら全員で限定承認できる）でも扱われており、同じ923条を3つの異なる角度（本問＝単独ではできない、H29＝単純承認済みの者がいるとできなくなる、R7＝期間徒過者がいてもできる）から問う頻出論点です。②肢エの根拠（民法939条・相続放棄の遡及効）は、平成29年度第3問オ（放棄者の持分への代位登記・仮差押えが無効になる場面）でもほぼ同一の条文・結論が扱われています。いずれも本問の肢の組合せ・結論とは一致しないため正解への影響はありませんが、他年度記事を執筆・修正する際はこれらの重複に留意してください。なお肢オ（民法919条1項・2項、撤回不可だが取消しは可）は、平成29年度第3問アが919条1項の撤回不可のみを扱う点で部分的に関連しますが、取消しの可否（919条2項）まで問うのは本問のみです。
+- 【2026-08-04修正】`note-articles/laws/minpou-3-shinzoku-souzoku.md`（e-Gov原文）で条文を突き合わせた結果、アの引用条文番号に誤りがあることが判明しました。民法891条3号は「詐欺又は強迫によって、被相続人が相続に関する遺言をし、撤回し、取り消し、又は変更することを妨げた者」（＝遺言をすることを妨げた者）であり、アの事例（BがAを強迫して遺言を「させた」）に該当するのは891条4号「詐欺又は強迫によって、被相続人に相続に関する遺言をさせ、撤回させ、取り消させ、又は変更させた者」です。本文・まとめとも891条3号→891条4号に修正しました。他の引用（921条2号、923条、939条、919条1項・2項）は`minpou-3-shinzoku-souzoku.md`の条文原文と完全に一致しており、令和5年4月1日施行の相続法改正（904条の3新設等、及び918条の897条の2への移設）による条番号・内容への影響もないことを確認済みです。
+- **重複出題チェック（2026-08-16実施）**：`note-articles/`配下の他年度記事を検索したところ、本問と同じ「相続の承認及び放棄」分野で条文レベルの重複が2件見つかりました。①ウの根拠（民法923条・限定承認は共同相続人全員が共同してのみできる）は、平成29年度第3問イ（一人が単純承認すると他の相続人は限定承認できない）・令和7年度第3問オ（一部の相続人の熟慮期間が経過していても、他の相続人がまだ期間内なら全員で限定承認できる）でも扱われており、同じ923条を3つの異なる角度（本問＝単独ではできない、H29＝単純承認済みの者がいるとできなくなる、R7＝期間徒過者がいてもできる）から問う頻出論点です。②エの根拠（民法939条・相続放棄の遡及効）は、平成29年度第3問オ（放棄者の持分への代位登記・仮差押えが無効になる場面）でもほぼ同一の条文・結論が扱われています。いずれも本問の肢の組合せ・結論とは一致しないため正解への影響はありませんが、他年度記事を執筆・修正する際はこれらの重複に留意してください。なおオ（民法919条1項・2項、撤回不可だが取消しは可）は、平成29年度第3問アが919条1項の撤回不可のみを扱う点で部分的に関連しますが、取消しの可否（919条2項）まで問うのは本問のみです。
 
 ---
 
@@ -302,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 強迫で遺言させた者は欠格
@@ -320,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相続欠格者になる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 3か月放置で単純承認とみなす
@@ -338,7 +338,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 単純承認とみなす
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 限定承認は全員共同でのみ
@@ -355,7 +355,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全員共同が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 放棄者は遡って相続人でない
@@ -372,7 +372,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 初めから相続人でない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 撤回は不可でも取消しはできる
@@ -404,7 +404,7 @@ attention to 続・認・棄・欠・強・迫・単・裁・撤・相・家・�
 as a Simplified or Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that the multi-condition 肢（肢オ）is
+between the header and the panels, that the multi-condition 肢（オ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered

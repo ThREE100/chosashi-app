@@ -93,12 +93,12 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第8問＝エオの組合せ／5番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
 - 各肢の法的根拠のうち、ア（分筆で抵当権を消す場合の第三者の承諾＝不動産登記法40条）・ウ（用益権のある土地の合筆制限＝不動産登記法41条6号）は条文レベルで確認済みです。
-- **2026-08-13再検証で肢イ・ウ・オの根拠条文を補強**：イは不動産登記令別表（`note-articles/laws/fudousan-touki-rei-betsuhyou.md`）の分筆の登記・合筆の登記の項に、地役権設定の範囲が一部となるときの地役権図面等の添付が明記されていることを確認しました。ウ・オは、不動産登記規則105条（`note-articles/laws/fudousan-touki-kisoku-1.md`）が不動産登記法41条6号の合筆制限の例外として認める権利を、承役地の地役権・条件が同一の担保権・信託・鉱害賠償登録の4種類に限定列挙しており、永小作権・採石権（ウ）も所有権移転の仮登記（オ）もこの列挙に含まれないことを確認しました。いずれも本文に条文番号を追記し、確認済みの区分に格上げしています。
+- **2026-08-13再検証でイ・ウ・オの根拠条文を補強**：イは不動産登記令別表（`note-articles/laws/fudousan-touki-rei-betsuhyou.md`）の分筆の登記・合筆の登記の項に、地役権設定の範囲が一部となるときの地役権図面等の添付が明記されていることを確認しました。ウ・オは、不動産登記規則105条（`note-articles/laws/fudousan-touki-kisoku-1.md`）が不動産登記法41条6号の合筆制限の例外として認める権利を、承役地の地役権・条件が同一の担保権・信託・鉱害賠償登録の4種類に限定列挙しており、永小作権・採石権（ウ）も所有権移転の仮登記（オ）もこの列挙に含まれないことを確認しました。いずれも本文に条文番号を追記し、確認済みの区分に格上げしています。
 - エ（権利変動を伴った分筆を分筆錯誤だけで抹消できないこと自体）については、ローカル法令データベース内に直接の根拠条文を見つけられませんでした。実務上の取り扱いにより形成された考え方にとどまる旨、正直にお伝えします。もっとも、本文で補足した「実際にやり直す場合の手続」については、不動産登記法72条（抹消された登記の回復）が、抹消された権利に関する登記の回復には登記上利害関係を有する第三者の承諾を要する旨を定めていることを条文原文で確認済みです。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、「合筆の登記」は令和6年度第9問（本シリーズで既に note-articles/r6-mondai/q09-gappitsu-touki.md として執筆済み）をはじめ、平成27・28年度等でも頻出のテーマであることを確認しました。令和6年度第9問の肢オ（承役地についてする地役権の登記がある土地の合筆時に地役権設定の範囲を申請情報の内容とする点）は、本問の肢イ（同様の場面での地役権図面・証明書の添付）と関連する論点ですが、具体的に問われている添付情報の内容は異なります。本問はむしろ担保権（抵当権）・永小作権・採石権・仮登記のある場合の可否が中心であり、全体としては直接の重複ではありませんが、地役権のある土地の合筆という共通の切り口がある点にはご留意ください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、「合筆の登記」は令和6年度第9問（本シリーズで既に note-articles/r6-mondai/q09-gappitsu-touki.md として執筆済み）をはじめ、平成27・28年度等でも頻出のテーマであることを確認しました。令和6年度第9問のオ（承役地についてする地役権の登記がある土地の合筆時に地役権設定の範囲を申請情報の内容とする点）は、本問のイ（同様の場面での地役権図面・証明書の添付）と関連する論点ですが、具体的に問われている添付情報の内容は異なります。本問はむしろ担保権（抵当権）・永小作権・採石権・仮登記のある場合の可否が中心であり、全体としては直接の重複ではありませんが、地役権のある土地の合筆という共通の切り口がある点にはご留意ください。
 - **最新法令準拠チェック（2026-08-04実施）**：不動産登記法40条・41条（分筆合筆時の権利の処理、合筆の制限）を確認しましたが、直近の改正による変更はありません。
-- **適用法令の現行性チェック（2026-10-01実施）**：不動産登記法40条・41条6号・72条、不動産登記令4条・別表の分筆の登記・合筆の登記の項、不動産登記規則104条・105条（いずれも令和8年5月21日施行の直近改正を反映した、2026-08-04取得の現行版）を、ローカル法令データベースの原文で確認しました。**各肢の正誤の結論に変更はありません**。(1) 肢ア：法40条かっこ書が「当該権利を目的とする第三者の権利に関する登記がある場合にあっては、当該第三者が承諾したことを証する情報が併せて提供されたときに限る」と定めており、規則104条1項2号も同旨です。根拠として規則104条1項を追記しました。(2) 肢イ：令別表（分筆の登記の項の添付情報ロ、合筆の登記の項）の文言は「地役権設定の範囲を証する地役権者が作成した情報又は当該地役権者に対抗することができる裁判があったことを証する情報及び地役権図面」で、「地役権証明書」という語は条文にありません。問題文の用語として本文・図解ではそのまま使い、本文に令別表の文言を補いました。(3) 肢ウ・オ：規則105条が法41条6号の例外として挙げる登記は、承役地の地役権の登記、条件が同一の担保権の登記、条件が同一の信託の登記、条件が同一の鉱害賠償登録に関する登記の4つで、永小作権・採石権・所有権の移転の仮登記は含まれません。(4) 肢エ：法72条は、抹消された権利に関する登記の回復につき、登記上の利害関係を有する第三者がある場合はその承諾があるときに限り申請できるとしており、本文の説明と一致します。なお、分筆錯誤で分筆の登記の抹消を申請できないこと自体の直接の根拠条文は、前記のとおりローカル法令データベースでは見つけられていません。(5) 画像2（肢エ）の末尾の小さな出典表記（FOOTER）は、「最後のカードの後に文字ブロックを描かせない」旨のFinal checkと食い違うため削除しました。
+- **適用法令の現行性チェック（2026-10-01実施）**：不動産登記法40条・41条6号・72条、不動産登記令4条・別表の分筆の登記・合筆の登記の項、不動産登記規則104条・105条（いずれも令和8年5月21日施行の直近改正を反映した、2026-08-04取得の現行版）を、ローカル法令データベースの原文で確認しました。**各肢の正誤の結論に変更はありません**。(1) ア：法40条かっこ書が「当該権利を目的とする第三者の権利に関する登記がある場合にあっては、当該第三者が承諾したことを証する情報が併せて提供されたときに限る」と定めており、規則104条1項2号も同旨です。根拠として規則104条1項を追記しました。(2) イ：令別表（分筆の登記の項の添付情報ロ、合筆の登記の項）の文言は「地役権設定の範囲を証する地役権者が作成した情報又は当該地役権者に対抗することができる裁判があったことを証する情報及び地役権図面」で、「地役権証明書」という語は条文にありません。問題文の用語として本文・図解ではそのまま使い、本文に令別表の文言を補いました。(3) ウ・オ：規則105条が法41条6号の例外として挙げる登記は、承役地の地役権の登記、条件が同一の担保権の登記、条件が同一の信託の登記、条件が同一の鉱害賠償登録に関する登記の4つで、永小作権・採石権・所有権の移転の仮登記は含まれません。(4) エ：法72条は、抹消された権利に関する登記の回復につき、登記上の利害関係を有する第三者がある場合はその承諾があるときに限り申請できるとしており、本文の説明と一致します。なお、分筆錯誤で分筆の登記の抹消を申請できないこと自体の直接の根拠条文は、前記のとおりローカル法令データベースでは見つけられていません。(5) 画像2（エ）の末尾の小さな出典表記（FOOTER）は、「最後のカードの後に文字ブロックを描かせない」旨のFinal checkと食い違うため削除しました。
 
 ---
 
@@ -251,7 +251,7 @@ takeaway must read as a short heading + a short conclusion tag, at a glance — 
 
 ## インフォグラフィック プロンプト（エ肢・補足）
 
-肢エは「分筆錯誤を原因として分筆の登記の抹消を申請できる」という誤りの記述だが、本文ではその先まで踏み込み、「では実際にどうやり直すのか」を不動産登記法72条（抹消された登記の回復）に基づいて補足している。①なぜ単純な抹消では戻せないのか、②消えた抵当権をどう回復するのか、③回復には誰の承諾が要るのか、④回復した先に何が残るのか、という4段階の流れをカードで追える構成にする。
+エは「分筆錯誤を原因として分筆の登記の抹消を申請できる」という誤りの記述だが、本文ではその先まで踏み込み、「では実際にどうやり直すのか」を不動産登記法72条（抹消された登記の回復）に基づいて補足している。①なぜ単純な抹消では戻せないのか、②消えた抵当権をどう回復するのか、③回復には誰の承諾が要るのか、④回復した先に何が残るのか、という4段階の流れをカードで追える構成にする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1350 pixels,
@@ -296,7 +296,7 @@ Title (large, bold, 2行):
 戻すには「登記の回復」が必要なんです
 
 Subtitle (smaller, centered, 1行):
-分筆錯誤による抹消の可否と実際の手続(平成23年度 午後の部 第8問 肢エ)
+分筆錯誤による抹消の可否と実際の手続(平成23年度 午後の部 第8問 エ)
 
 --- CARD 1 ---
 Heading (bold):
@@ -377,12 +377,12 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a mortgage ribbon with a linked 転抵当権 ribbon
-requiring its own separate承諾 for 肢ア, an地役権 ribbon covering only
-part of a divided plot next to a map-and-certificate icon for 肢イ, a
+requiring its own separate承諾 for ア, an地役権 ribbon covering only
+part of a divided plot next to a map-and-certificate icon for イ, a
 shared decision tree checking whether a right is on the規則105条限定列
-挙, with 永小作権・採石権 highlighted for 肢ウ and 所有権の移転の仮登記
-highlighted for 肢オ, and a mortgage-ribbon-erased registry page next to
-a blocked 分筆錯誤 stamp for 肢エ. Where a 肢 requires checking multiple
+挙, with 永小作権・採石権 highlighted for ウ and 所有権の移転の仮登記
+highlighted for オ, and a mortgage-ribbon-erased registry page next to
+a blocked 分筆錯誤 stamp for エ. Where a 肢 requires checking multiple
 conditions in sequence before reaching a conclusion, draw the panel's
 diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or ○/✕) branch arrows, and a
@@ -445,7 +445,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抵当権を消すには第三者の承諾も必要
@@ -464,7 +464,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 第三者の承諾も必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 範囲が一部なら図面と証明書が必要
@@ -483,7 +483,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 図面と証明書が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 永小作権・採石権は列挙にない権利
@@ -507,7 +507,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 条件同一でも不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 権利消滅を伴う分筆は錯誤で戻せない
@@ -528,7 +528,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 錯誤では戻せない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 仮登記も列挙にない権利

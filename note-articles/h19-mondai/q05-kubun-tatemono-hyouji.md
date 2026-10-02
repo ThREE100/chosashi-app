@@ -111,7 +111,7 @@ Aの相続人であるBは、Aを表題部所有者とする表題登記を申�
   - **条文の存在・大枠は確認できたが、細部（具体的な添付情報の要件を定める条項番号そのもの）までは一次資料で確認できず、一般的な理解・推論にとどまる部分**：アにおける「所有者を証する情報の提供が必要」という結論、オにおける「登記の目的・受付の年月日及び受付番号・登記原因及びその日付が同一であること」を合併登記の例外要件とする点は、いずれもこの時点では一般的な理解・推論にとどまっていました（下記「QAチェックリスト再検証」で条文レベルの根拠を確認しました）。
   - **一般原則からの推論にとどまる部分**：イの「一棟の建物の名称には規約設定を証する情報が不要である」という結論も、この時点では消去法的な理解に基づく推論にとどまっていました（下記「QAチェックリスト再検証」で条文レベルの根拠を確認しました）。
 - **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき、`note-articles/laws/`のローカル法令データベース（不動産登記法・不動産登記令・同別表・不動産登記規則・区分所有法）と本文の条文引用を直接突き合わせて再検証しました。
-  - **修正**：エの根拠条文を「不動産登記法48条3項」から「不動産登記法52条1項」に修正しました。48条3項は表題登記がある非区分建物に区分建物が接続した場合の表題登記申請の一般規定であるのに対し、肢エの文言（「一棟の建物となったことにより当該表題登記がある建物が区分建物になった場合」）は52条1項（見出し「区分建物となったことによる建物の表題部の変更の登記」）と一字一句一致しており、こちらが正しい根拠条文です。この修正は根拠条文の訂正であり、エの正誤判定（正）や正解の組合せ（3番＝イ・ウ）には影響しません。
+  - **修正**：エの根拠条文を「不動産登記法48条3項」から「不動産登記法52条1項」に修正しました。48条3項は表題登記がある非区分建物に区分建物が接続した場合の表題登記申請の一般規定であるのに対し、エの文言（「一棟の建物となったことにより当該表題登記がある建物が区分建物になった場合」）は52条1項（見出し「区分建物となったことによる建物の表題部の変更の登記」）と一字一句一致しており、こちらが正しい根拠条文です。この修正は根拠条文の訂正であり、エの正誤判定（正）や正解の組合せ（3番＝イ・ウ）には影響しません。
   - **新たに条文レベルで確認できた点**：ア（不動産登記令別表十七の項の添付情報欄に「当該建物の所有者を証する情報」と明記）、イ（不動産登記令別表十二の項の添付情報欄には規約敷地・規約による敷地権割合の規約設定情報はあるが、一棟の建物の名称に関する規約設定情報は挙げられていないことを確認）、オ（不動産登記規則131条〈建物の合併の登記の制限の特例〉が、法56条5号の例外にあたる担保権登記の要件を具体的に定めていることを確認）を本文に反映しました。
   - B（正解番号3＝イ・ウを`src/data/takuitsu.json`の`chosashi_H19_q05`の`correctAnswer`と再照合し一致を確認）、C（見出しが正しい結論を表していること、正解の先出しがないこと、敬体で統一されていること、条文解釈プロセスの解説がないこと、括弧が全角に統一されていることを確認・修正）、D（Markdown表の不使用を確認）、E（インフォグラフィックが未作成だったため本文の内容に基づき新規作成し、記事末尾に追記）、F（テンプレート構造・タイトルのキャッチフレーズ21字＝25字以内・確認事項ブロックの記載を確認）を実施しました。
   - G-18（重複出題チェック）：`src/data/takuitsu.json`を検索し、本問と同じ「区分建物の表示に関する登記」を扱う平成18年度第5問（`chosashi_H18_q05`）等と比較しましたが、団地共用部分の滅失登記の添付情報・一棟建物名称の規約要否・新築者死亡後の相続人の申請義務・非区分建物への区分建物接続・2個の区分建物の合併登記といった本問の具体的な各肢の論点と一致する肢は他年度に見当たらず、**重複は見つかりませんでした**。
@@ -352,7 +352,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled indigo circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -381,7 +381,7 @@ Conclusion tag (a short colored banner/pill, indigo, 5-15 Japanese
 characters):
 共用部分は所有者証明が必須
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled indigo circle containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -403,7 +403,7 @@ Conclusion tag (a short colored banner/pill, indigo, 5-15 Japanese
 characters):
 名称だけなら規約証明は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled indigo circle containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -426,7 +426,7 @@ Conclusion tag (a short colored banner/pill, indigo, 5-15 Japanese
 characters):
 申請できる、義務ではない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled indigo circle containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -451,7 +451,7 @@ Conclusion tag (a short colored banner/pill, indigo, 5-15 Japanese
 characters):
 変更登記と表題登記を併せて申請
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled indigo circle containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

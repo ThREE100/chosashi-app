@@ -128,8 +128,8 @@
 - 各肢の根拠について、ア（大判大8.7.5）、イ（最判昭41.11.22）、エ（大連判明41.12.15、不法占拠者は第三者にあたらない）、オ（不動産登記法5条2項）は、いずれもデータベースのexplanationフィールドで判例・条文番号まで明記されているものです。ウ（解除後の第三者と対抗関係になり登記が必要であること）は、177条の「第三者」に関する判例の一般的な考え方からの説明です。
 - **問題文の改行整理と内容再チェック（2026-09-15実施）**：問題文の引用ブロックで、教授の質問と学生の解答が改行なく隣接しており読みにくいという指摘を受け、教授・学生それぞれの発言の間に空行を挿入して読みやすく整えました（`tools/md_to_mt.py`の引用ブロック変換は空行を無視して各発言を`<br><br>`で連結する仕様のため、note側の見た目に変化はなく、GitHub上でのMarkdown表示のみが改善されます。実際に`md_to_mt.py`で再書き出しし、`exports/h29-mondai.mt.txt`に差分がないことを確認済みです）。あわせて、`format-template.md`の執筆ルール（判例番号を本文に書かない・全角括弧・敬体・まとめは箇条書きのみ等）への準拠と、各肢の内容（ア：他人物売買の所有権移転時期、イ：時効完成後の登記具備者との関係、ウ：解除後の第三者との対抗関係、エ：不法占拠者は177条の第三者にあたらない、オ：登記申請受任者は不動産登記法5条2項により第三者にあたらない）を`laws/minpou-1-soukyoku-bukken.md`（177条）・`laws/fudousan-touki-hou.md`（5条2項）の条文と照合し、正解（アウの組合せ・選択肢2番）を含め誤りは見つかりませんでした。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、本問の肢エ「不法占拠者は登記なくして対抗できる」という論点が、令和6年度第2問オ（「Bは登記なくして、無権原で占有するCに対し明渡しを請求できない」→誤り、すなわち登記なくして請求できる）と同じ規律を問うており、**軽度の重複が見つかりました**。ただし対話形式・他の4肢の事案（他人物売買、取得時効、解除、背信的悪意者類似の登記申請受任者）は令和6年度第2問と異なり、記事全体としての重複は限定的です。noteで令和6年度第2問の解説記事を作成する際は、不法占拠者と177条の第三者に関する部分の説明が本記事と重なりやすい点に留意してください。
-- **肢オに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、肢オの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。直前の肢ウで確認した「対抗関係では先に登記を備えた方が勝つ」という一般原則をそのまま持ち込み、「Ｃもきちんと登記を備えているのだから勝つはず」と誤って結論づけてしまいやすい点を掘り下げ、肢オのＣは通常の対抗関係（民法177条の一般原則）ではなく、登記申請の受任者に対する法定の除外規定（不動産登記法5条2項）によって、そもそも「第三者」として保護されないという別ルートで判断すべきことを整理しています。あわせて、肢ウとの対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズは肢ア（所有権移転時期の論点）を捉えた内容のままとし、変更していません。肢オのつまずきどころ（対抗関係の一般原則と法定除外類型の混同）は肢アのテーマ（所有権移転時期）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。個別テーマ記事については、`link-map/h29-related-articles.md`で「対抗要件（177条）が必要な場面・不要な場面 総整理」の新規作成が推奨されていますが、現時点ではまだ作成されていないため、今回はリンクを追加していません。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、本問のエ「不法占拠者は登記なくして対抗できる」という論点が、令和6年度第2問オ（「Bは登記なくして、無権原で占有するCに対し明渡しを請求できない」→誤り、すなわち登記なくして請求できる）と同じ規律を問うており、**軽度の重複が見つかりました**。ただし対話形式・他の4肢の事案（他人物売買、取得時効、解除、背信的悪意者類似の登記申請受任者）は令和6年度第2問と異なり、記事全体としての重複は限定的です。noteで令和6年度第2問の解説記事を作成する際は、不法占拠者と177条の第三者に関する部分の説明が本記事と重なりやすい点に留意してください。
+- **オに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、オの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。直前のウで確認した「対抗関係では先に登記を備えた方が勝つ」という一般原則をそのまま持ち込み、「Ｃもきちんと登記を備えているのだから勝つはず」と誤って結論づけてしまいやすい点を掘り下げ、オのＣは通常の対抗関係（民法177条の一般原則）ではなく、登記申請の受任者に対する法定の除外規定（不動産登記法5条2項）によって、そもそも「第三者」として保護されないという別ルートで判断すべきことを整理しています。あわせて、ウとの対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズはア（所有権移転時期の論点）を捉えた内容のままとし、変更していません。オのつまずきどころ（対抗関係の一般原則と法定除外類型の混同）はアのテーマ（所有権移転時期）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。個別テーマ記事については、`link-map/h29-related-articles.md`で「対抗要件（177条）が必要な場面・不要な場面 総整理」の新規作成が推奨されていますが、現時点ではまだ作成されていないため、今回はリンクを追加していません。
 
 ---
 
@@ -281,7 +281,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（オ肢・間違いノート）
 
-肢ウ（通常の対抗関係・先に登記した方が勝つ）と肢オ（登記申請の受任者に対する法定除外類型）を左右に対比させ、「なぜ同じ『登記を備えた第三者』なのに結論が逆になるのか」を可視化する対比型の間違いノート。
+ウ（通常の対抗関係・先に登記した方が勝つ）とオ（登記申請の受任者に対する法定除外類型）を左右に対比させ、「なぜ同じ『登記を備えた第三者』なのに結論が逆になるのか」を可視化する対比型の間違いノート。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -338,7 +338,7 @@ from A and completed registration in their own name (identical-looking
 registration itself is equally valid in both cases).
 
 LEFT PANEL header (pill badge, blue):
-肢ウ：通常の対抗関係
+ウ：通常の対抗関係
 
 LEFT PANEL content: An isometric scene of A selling land to C after
 rescinding the contract with B, C receiving a registration stamp. A large
@@ -350,7 +350,7 @@ Conclusion tag (blue pill, short phrase):
 先に登記した方が勝つ
 
 RIGHT PANEL header (pill badge, orange):
-肢オ：登記申請の受任者
+オ：登記申請の受任者
 
 RIGHT PANEL content: An isometric scene showing C first receiving a
 document from B labeled "登記申請を受任" (a speech bubble or handoff
@@ -366,9 +366,9 @@ Between the two panels, a small connecting label:
 どちらも「Ｃは登記を備えている」のに結論が逆になる
 
 --- CALLOUT: 誤りやすいポイント ---
-直前の肢ウで「先に登記した方が勝つ」という対抗関係の原則を確認したばかりだと、
-肢オも同じ枠組みで「Ｃは登記を備えているから勝つ」と考えてしまいがちです。
-しかし肢オのＣは、Ｂから登記の申請を頼まれていた（受任していた）という特別な
+直前のウで「先に登記した方が勝つ」という対抗関係の原則を確認したばかりだと、
+オも同じ枠組みで「Ｃは登記を備えているから勝つ」と考えてしまいがちです。
+しかしオのＣは、Ｂから登記の申請を頼まれていた（受任していた）という特別な
 立場にあり、不動産登記法5条2項により、登記を備えていても「登記がないこと」
 を主張する資格そのものを法律で奪われています。
 
@@ -406,13 +406,13 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Panels 4 and 5 (肢エ・肢オ) share
+sufficient — do not force a flowchart. Panels 4 and 5 (エ・オ) share
 the same underlying decision-tree shape (Ｃは当事者・包括承継人以外の者
 か？ → Ｃは登記の欠缺を主張する正当な利益を有する者か？); draw both with
 the same two-diamond tree layout, but highlight（太い縁取り・色を変える
-等で強調）the different reason each panel's Ｃ lacks that正当な利益(肢エ
-は無権原の不法占拠者であること、肢オは登記申請の受任者であること)。
-Panels 2 and 3 (肢イ・肢ウ) both use a horizontal timeline illustrating
+等で強調）the different reason each panel's Ｃ lacks that正当な利益(エ
+は無権原の不法占拠者であること、オは登記申請の受任者であること)。
+Panels 2 and 3 (イ・ウ) both use a horizontal timeline illustrating
 which of two events happened first, in the same visual style, even though
 the underlying rule differs. Unlike a glanceable summary poster, each
 panel MAY include a short「着眼点」callout box with 1-2 sentences that
@@ -456,7 +456,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 所有権が移るのは登記でなく取得の瞬間
@@ -472,7 +472,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 取得の瞬間に移転
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 登記後に時効完成なら登記なくして対抗可
@@ -491,7 +491,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 時効完成者は対抗可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 解除後に現れた第三者とは対抗関係
@@ -508,7 +508,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 解除者も登記が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 無権原の不法占拠者には登記不要
@@ -530,7 +530,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 無権原者には登記不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 登記申請の受任者にも登記不要
@@ -565,8 +565,8 @@ visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢(肢エ・
-肢オ) is drawn as an actual flowchart with branch nodes sharing the same
+between the header and the panels, that every multi-condition 肢(エ・
+オ) is drawn as an actual flowchart with branch nodes sharing the same
 two-diamond tree shape (not a bare illustration with no visible decision
 structure), that each 着眼点 callout states a checking order rather than
 only a conclusion, confirm nothing is rendered below the last panel's

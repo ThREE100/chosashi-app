@@ -279,12 +279,12 @@ point icon (基本三角点等) on a hill, a utility-pole icon (近傍の恒久�
 tag, an isometric land plot being split by a dashed line (分筆), and
 registry document stamps for 更正の登記 and 訂正の申出. Where a 肢 requires
 checking multiple conditions in sequence before reaching a conclusion
-(肢イ・肢エ・肢オ), draw the panel's diagram as an actual decision
+(イ・エ・オ), draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No branch arrows, and a final conclusion node for BOTH
 outcomes - do not leave either branch's destination blank, and do not
 draw any arrow looping back to an earlier node. Where a 肢 is resolved by
-a single check (肢ア・肢ウ), a labeled illustrative diagram is sufficient
+a single check (ア・ウ), a labeled illustrative diagram is sufficient
 - do not force a flowchart. Unlike a glanceable summary poster, each
 panel MAY include a short「着眼点」callout box with 1-2 sentences that
 state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認しま
@@ -293,7 +293,7 @@ state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確
 below verbatim, and keep every condition each callout describes faithful
 to the article's own body text - do not drop or merge a required element
 (e.g. keep 地積・求積方法・筆界点間の距離・筆界点の座標値 as four distinct
-items in 肢エ, not compressed into one).
+items in エ, not compressed into one).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -332,7 +332,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -350,7 +350,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 3つの登記に添付
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 座標値は原則、基本三角点等の成果による
@@ -372,7 +372,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 例外は特別事情のみ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 境界標は符号と種類をセットで記録
@@ -388,7 +388,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 符号+種類を記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 広大な土地の分筆は求積方法等を省略できる
@@ -414,7 +414,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地積のみ省略不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 更正登記ができるなら訂正の申出はできない
@@ -438,9 +438,9 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記令別表4項添付情報ロ・6項添付情報・8項添付情報イ（肢ア）、不動
-産登記規則77条1項8号・2項（肢イ）、同条3項・1項9号（肢ウ）、不動産登記
-事務取扱手続準則72条2項（肢エ）、不動産登記規則88条1項（肢オ）に基づく
+不動産登記令別表4項添付情報ロ・6項添付情報・8項添付情報イ（ア）、不動
+産登記規則77条1項8号・2項（イ）、同条3項・1項9号（ウ）、不動産登記
+事務取扱手続準則72条2項（エ）、不動産登記規則88条1項（オ）に基づく
 整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
@@ -454,14 +454,14 @@ Hangul, other non-Japanese script, or stray decorative glyph — and remove
 or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢 (肢イ・肢エ・
-肢オ) is drawn as an actual flowchart with branch nodes for both outcomes
+the header and the panels, that every multi-condition 肢 (イ・エ・
+オ) is drawn as an actual flowchart with branch nodes for both outcomes
 (not a bare illustration with no visible decision structure and not a
 looping arrow back to an earlier node), that no 肢 with a genuinely
 hidden second condition has been flattened into a single check, that
 each 着眼点 callout states a checking order rather than only a conclusion
 and keeps every required element from the source article distinct (no
-merged or dropped requirements, e.g. 肢エ keeps 地積・求積方法・筆界点間
+merged or dropped requirements, e.g. エ keeps 地積・求積方法・筆界点間
 の距離・筆界点の座標値 as four distinct items), confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel,
 no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no

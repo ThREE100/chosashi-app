@@ -306,7 +306,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -329,7 +329,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 通知の主体は登記官
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 明白かつ重大な誤りがあれば再申請できる
@@ -352,7 +352,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 特段の事情があれば再申請可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 予納義務を負うのは申請人だけ
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 予納義務は申請人のみ
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 申請は申請の趣旨を明示して行う
@@ -392,7 +392,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 趣旨の明示が必須
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 対象土地の一が共通なら一の申請情報で可
@@ -427,7 +427,7 @@ run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that the multi-condition 肢（イ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that the hidden second condition in
-肢イ（明白かつ重大な誤りなど特段の事情の有無）has not been flattened into
+イ（明白かつ重大な誤りなど特段の事情の有無）has not been flattened into
 a single check, that each 着眼点 callout states a checking order rather
 than only a conclusion and keeps every required element from the source
 article distinct (no merged or dropped requirements), confirm nothing is

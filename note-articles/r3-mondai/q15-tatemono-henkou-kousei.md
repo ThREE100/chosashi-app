@@ -97,7 +97,7 @@
 - 各肢の根拠のうち、条文・準則レベルで確認できたものと、一般原則からの推論にとどまるものを区別すると、次のとおりです。
   - 条文・準則で確認できたもの：ア（不動産登記法53条1項、27条）、ウ（不動産登記事務取扱準則94条1項）、エ（不動産登記法53条2項、51条5項・6項〔5項＝他の区分建物への効力、6項＝登記官の職権更正義務〕）。
   - 条文番号までは明示されておらず、一般原則・実務上の取扱いからの推論にとどまるもの：イ（増築＝変更と既存部分の誤り＝更正が混在する場合に登記の目的を「変更及び更正の登記」とすべきという整理）、オ（誤って滅失登記された現存建物は、更正ではなく錯誤による記録の回復で是正するという整理）。
-  - なお肢オについては、データベース内でも説明の力点が「更正では対応しない（回復で戻す）」というexplanationの記述に整理されており、本記事はこのexplanationの正誤判定（肢オ＝正しい）に従っています。
+  - なおオについては、データベース内でも説明の力点が「更正では対応しない（回復で戻す）」というexplanationの記述に整理されており、本記事はこのexplanationの正誤判定（オ＝正しい）に従っています。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。上記の条文・準則番号はデータベースの記載に基づくものです。
 
 ---
@@ -341,7 +341,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表題部所有者でも申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -384,7 +384,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 目的は変更及び更正
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -405,7 +405,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 従前事項は全部抹消
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -427,7 +427,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代位申請は不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

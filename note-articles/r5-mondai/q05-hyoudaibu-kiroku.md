@@ -312,7 +312,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 換地が1個対1個なら記録は流用
@@ -333,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1対1なら記録流用
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 先取特権保存時の記録がそのまま使われる
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 新規作成なし
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 分筆合筆する部分に登記記録は生まれない
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記記録は生まれない
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 解体移転は新築扱いで経過は残らない
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 経過は記載されない
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 区分から非区分になると記録は新規作成

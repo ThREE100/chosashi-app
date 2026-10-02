@@ -96,7 +96,7 @@
 - 出題番号・正解番号（5番＝エ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の条文根拠について、イ（民法9条ただし書）、ウ（民法14条1項）、エ（民法13条1項本文）、オ（民法15条2項）は元データの解説で条文番号まで明記されているものです。一方、ア（未成年者にも成年後見人を付せること）については、条文番号は明示されておらず、成年に達すると法定代理人がいなくなることに備えるという後見制度の趣旨からの説明にとどまっています。
 - 各肢の解説は、ローカルのアガルート教材（過去問テキスト）の解説をOCRで取り込んだ元データを条文根拠の一次情報源として参照しています。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験（令和元年度〜令和7年度）で、本問（行為能力・制限行為能力者）と同一・類似の問題が再出題されていないかを確認しました。**重複が見つかりました。** 令和6年度第1問（既存記事：`r6-mondai/q01-koui-nouryoku.md`）は、本問の肢イと同じ「成年被後見人が日用品を買い受けた場合、相手方の善意・悪意にかかわらず取り消せない」というルール（民法9条ただし書）を、ほぼ同じ「スーパーで食料品を買う」という事例設定で扱っています。また、令和4年度第1問（未公開）は、本問の肢オ（本人以外の請求による補助開始の審判には本人の同意が必要）と類似の構造（保佐開始の審判の同意要件）を扱っています。令和6年度分は既に公開済みのため、noteへの投稿順序を工夫するか、本問側の該当箇所の具体例を差別化することを推奨します。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験（令和元年度〜令和7年度）で、本問（行為能力・制限行為能力者）と同一・類似の問題が再出題されていないかを確認しました。**重複が見つかりました。** 令和6年度第1問（既存記事：`r6-mondai/q01-koui-nouryoku.md`）は、本問のイと同じ「成年被後見人が日用品を買い受けた場合、相手方の善意・悪意にかかわらず取り消せない」というルール（民法9条ただし書）を、ほぼ同じ「スーパーで食料品を買う」という事例設定で扱っています。また、令和4年度第1問（未公開）は、本問のオ（本人以外の請求による補助開始の審判には本人の同意が必要）と類似の構造（保佐開始の審判の同意要件）を扱っています。令和6年度分は既に公開済みのため、noteへの投稿順序を工夫するか、本問側の該当箇所の具体例を差別化することを推奨します。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **法令根拠・全角括弧チェック（2026-08-18実施）**：`note-articles/laws/minpou-1-soukyoku-bukken.md`（民法9条・13条・14条・15条）と本文を突き合わせました。イ（民法9条ただし書）、ウ（民法14条1項の請求権者）、エ（民法13条1項本文・列挙事項）、オ（民法15条2項）はいずれも条文の文言と一致しており、修正の必要はありませんでした。アについては、未成年後見人がいる未成年者にも後見開始の審判ができることを直接定めた条文は見当たらず、引き続き後見制度の趣旨からの説明にとどまります（既存の記載どおり）。あわせて、本文4箇所とインフォグラフィックプロンプトの説明文1箇所に残っていた半角括弧`()`を全角`（）`に修正しました。正解番号（5番＝エ・オ）・各肢の正誤判定に変更はありません。判例番号・先例番号・専門誌番号の本文残存、Markdown表の残存は確認されませんでした。
 
 ---
@@ -315,7 +315,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 未成年後見人がいても後見開始できる
@@ -333,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 後見開始は可能
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 日用品購入は善意でも取消不可
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 日常行為は取消不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 契約相手は審判取消しを請求できない
@@ -370,7 +370,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 請求資格なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 同意はゴーサイン、やめるのは本人次第
@@ -389,7 +389,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 撤回は本人の自由
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 本人以外の請求には本人の同意が必要
@@ -427,7 +427,7 @@ similar Simplified Chinese variant. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that the multi-condition 肢(肢オ) is drawn as
+the header and the panels, that the multi-condition 肢(オ) is drawn as
 an actual flowchart with branch nodes (not a bare illustration with no
 visible decision structure), that each 着眼点 callout states a checking
 order rather than only a conclusion, confirm nothing is rendered below

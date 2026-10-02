@@ -262,12 +262,12 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — an isometric horizontal timeline with a small
 flag marking 時効完成, figure icons for the occupier and any third party
 placed to the left or right of the flag, and a registry-book icon marking
-登記済み／未登記. Panels 1（肢ア）・2（肢イ）・3（肢ウ）share the same
+登記済み／未登記. Panels 1（ア）・2（イ）・3（ウ）share the same
 underlying two-diamond decision tree, rooted in a first diamond ("相手は
 元の所有者か、第三者か") and, when the answer is 第三者, a second diamond
 ("その第三者が権利を取得したのは時効完成の前か後か"), with the branch
 relevant to that panel's 肢 highlighted (thicker border, distinct color)
-and the other branches drawn smaller/greyed out. Panels 4（肢エ）・5（肢オ）
+and the other branches drawn smaller/greyed out. Panels 4（エ）・5（オ）
 are each resolved by a single check unrelated to that tree (起算点の固定と
 二重の時効主張の可否), so draw a labeled illustrative diagram for them
 instead of forcing a flowchart. Do not include case or precedent numbers
@@ -309,7 +309,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 完成前の第三者になら登記なしで勝てる
@@ -329,7 +329,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 完成前なら登記不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 完成後の第三者には登記が必要
@@ -349,7 +349,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 完成後は登記の先後
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 元所有者には登記なしで主張できる
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 元所有者には登記不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 起算点は占有開始時に固定される
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 起算点はずらせない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 善意無過失でも20年時効を選べる

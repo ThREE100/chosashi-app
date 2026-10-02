@@ -97,10 +97,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、ア（昭36.9.2民甲2163号）、イ（昭59.2.25民三1085号）、ウ・エ（平21.2.20民二500号）は、データベースの解説で先例番号まで確認できたものです。一方、オの「合体の前提として乙建物からの分割の登記が必要」という点は、合体登記の一般的な取扱い（附属建物のまま合体の対象にできないという原則）からの推論を含み、個別の先例番号までは特定していません。なお、エの申請義務について本文で「不登法51条1項」を根拠として引用していましたが、同条1項は登記事項の変更登記を「変更があった日から一月以内」に申請すべき旨を定める一般規定であり、本肢の「遅滞なく」という文言（先例平21.2.20民二500号による取扱い）とは文言が一致しないため、`laws/fudousan-touki-hou.md`での条文確認を踏まえて本文からこの条番号を削除し、先例のみを根拠とする記載に修正しました。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（建物の表題部の登記）と同一・類似の問題が再出題されていないかを確認しました。候補11件の多くは合体の手続一般や添付情報など異なる論点を扱うものでしたが、令和5年度第16問イは「区分建物でない甲建物の附属建物と乙建物とが合体した場合、甲建物の分割の登記をすることなく合体による登記等を申請できるか」を問うており、本問オ（附属建物が絡む合体は前提として分割の登記が必要）とほぼ同一の論点・結論です。また令和5年度第5問イは、不動産工事の先取特権の保存登記がある建物完成後の表題登記の取扱い（平21.2.20民二500号）という点で本問ウと同じ先例・事案を題材にしています（問われている具体的な角度は異なります）。**部分的に類似する記述があります**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：本文が引用していた不動産登記法51条1項、および先例（昭36.9.2民甲2163号、昭59.2.25民三1085号、平21.2.20民二500号）について、WebSearchでいずれも現行の登記実務・条文として通用していること（判例変更・後の立法による変更の形跡がないこと）を確認しました。
-- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。肢エの本文・確認事項ブロックで引用していた「不登法51条1項」を`laws/fudousan-touki-hou.md`の条文原文と突き合わせたところ、同条1項は「変更があった日から一月以内」に申請すべき旨を定める規定であり、本肢の「遅滞なく」という文言（先例による取扱い）と一致しないミスマッチが見つかったため、本文からこの条番号の引用を削除し、先例のみを根拠とする記載に修正しました。他の項目（正解の再確認、文章チェック、note表示形式、インフォグラフィックとの整合、執筆ルール、重複出題・最新法令チェックの記載）には問題は見つかりませんでした。正誤判定・正解の組合せに変更はありません。
+- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。エの本文・確認事項ブロックで引用していた「不登法51条1項」を`laws/fudousan-touki-hou.md`の条文原文と突き合わせたところ、同条1項は「変更があった日から一月以内」に申請すべき旨を定める規定であり、本肢の「遅滞なく」という文言（先例による取扱い）と一致しないミスマッチが見つかったため、本文からこの条番号の引用を削除し、先例のみを根拠とする記載に修正しました。他の項目（正解の再確認、文章チェック、note表示形式、インフォグラフィックとの整合、執筆ルール、重複出題・最新法令チェックの記載）には問題は見つかりませんでした。正誤判定・正解の組合せに変更はありません。
 
 ---
 
@@ -289,7 +289,7 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 1
-and 2 (肢ア and 肢イ) share one decision tree asking "抹消された所有権
+and 2 (ア and イ) share one decision tree asking "抹消された所有権
 保存の登記の名義人は誰か": render the branch relevant to THIS panel with
 a thick highlighted border and full color, and render the other,
 unrelated branch in a faded, greyed-out, or dotted-outline style rather
@@ -340,7 +340,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 改めて表題登記からやり直し
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続人名義の保存登記なら記録は復活
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記記録は閉鎖されない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 新築建物は完成後に表題登記が必要
@@ -398,7 +398,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 完成後は表題登記が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 附属建物完成後は遅滞なく変更登記
@@ -417,7 +417,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 遅滞なく変更登記を申請
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in orange containing the number 5.
 Heading (bold, ONE line):
 附属建物の合体はまず分割登記が前提

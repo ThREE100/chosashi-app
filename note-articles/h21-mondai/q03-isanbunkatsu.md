@@ -97,7 +97,7 @@
 - 各肢の根拠のうち、相続放棄者が初めから相続人でなかったものとみなされる点（民法939条）は条文レベルで確認できるものです。一方、全員合意による分割協議の解除・再協議が可能な点、分割後の第三者に対し超過部分は登記なくして対抗できない点、遺産分割協議は債務不履行を理由に法定解除できない点、「相続させる」旨の遺言の対象財産が原則遺産分割の対象とならない点は、いずれも最高裁判例の結論に基づく整理であり、条文に一義的な明文があるわけではありません（一般に最判平2.9.27、最判昭46.1.26、最判平1.2.9、最判平3.4.19が挙げられます）。判例の細部は各自の教材でご確認ください。
 - ローカルのアガルート過去問テキストは本セッションの実行環境には存在せず、参照できませんでした。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（遺産分割協議の合意解除・再分割、法定相続分超過部分の対抗要件、債務不履行による分割協議解除の可否、相続放棄者の地位、「相続させる」遺言と遺産分割を組み合わせた遺産分割の問題）と同一・類似の問題が再出題されていないかを確認しました。令和3年度第3問が法定相続分超過部分の対抗要件という論点は共通して扱っていますが、法定相続分計算・代襲相続等を含む別構成の問題であり、本問の肢の組合せとは一致しないため、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文・判例法理を現行法（2026年8月時点）と照合したところ、**各肢の正誤の結論に変更はありません**が、平成21年当時とは根拠の位置づけが変わった肢があるため、本文とまとめに条文の補足を加えました。肢イ（法定相続分を超える部分は登記がなければ対抗できない）は、当時は判例（最判昭46.1.26）によるものでしたが、平成30年相続法改正で新設された**民法899条の2第1項**（2019年7月1日施行）により、遺産分割によるかどうかを問わず対抗要件が必要であることが条文上明文化されました。肢オの「相続させる」旨の遺言についても、**民法1014条2項**（平成30年改正）で「特定財産承継遺言」という概念・用語自体が明文化されています。肢ウの民法541条は2020年施行の債権法改正でただし書（不履行が軽微であるときは解除できない）が追加されましたが、条番号も本肢の結論も変わりません。また肢アに関連して、令和5年4月1日施行の**民法904条の3**により相続開始から10年を経過した後の遺産分割は原則として法定相続分（または指定相続分）によることとされましたが、共同相続人全員の合意による分割協議の解除・再協議自体は引き続き可能です。
+- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文・判例法理を現行法（2026年8月時点）と照合したところ、**各肢の正誤の結論に変更はありません**が、平成21年当時とは根拠の位置づけが変わった肢があるため、本文とまとめに条文の補足を加えました。イ（法定相続分を超える部分は登記がなければ対抗できない）は、当時は判例（最判昭46.1.26）によるものでしたが、平成30年相続法改正で新設された**民法899条の2第1項**（2019年7月1日施行）により、遺産分割によるかどうかを問わず対抗要件が必要であることが条文上明文化されました。オの「相続させる」旨の遺言についても、**民法1014条2項**（平成30年改正）で「特定財産承継遺言」という概念・用語自体が明文化されています。ウの民法541条は2020年施行の債権法改正でただし書（不履行が軽微であるときは解除できない）が追加されましたが、条番号も本肢の結論も変わりません。またアに関連して、令和5年4月1日施行の**民法904条の3**により相続開始から10年を経過した後の遺産分割は原則として法定相続分（または指定相続分）によることとされましたが、共同相続人全員の合意による分割協議の解除・再協議自体は引き続き可能です。
 
 ---
 
@@ -264,9 +264,9 @@ conditions to get there — isometric family/meeting-table scenes with
 seated relative figures (placed side by side at the same generation level
 when they are co-heirs, per the family-tree rules used elsewhere in this
 series), a will scroll icon, a registry-stamp icon, and a coin/document
-icon for debts. Panels 2（肢イ）・4（肢エ）each require checking two
+icon for debts. Panels 2（イ）・4（エ）each require checking two
 conditions in sequence, so draw them as actual decision flowcharts with
-diamond nodes and Yes/No branch arrows. Panels 1（肢ア）・3（肢ウ）・5（肢オ）
+diamond nodes and Yes/No branch arrows. Panels 1（ア）・3（ウ）・5（オ）
 are each resolved by a single check, so draw a labeled illustrative
 diagram for them instead of forcing a flowchart. Do not include case or
 precedent numbers (article/regulation numbers are fine); keep the callout
@@ -307,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 全員の合意があるかをまず確認する
@@ -325,7 +325,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全員合意なら再協議可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 分割後の第三者には登記の先後で決まる
@@ -345,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 超過部分は登記が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 不履行があっても法定解除はできない
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 不履行でも解除不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 放棄者は同意があっても当事者に戻れない
@@ -385,7 +385,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 同意があっても戻れない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 相続させる遺言の対象財産は分割対象外

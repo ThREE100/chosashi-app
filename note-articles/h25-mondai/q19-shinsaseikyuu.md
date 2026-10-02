@@ -268,7 +268,7 @@ whether a general rule is excluded by 不動産登記法158条 before reaching a
 conclusion, draw the panel's diagram as an actual decision flowchart: a
 diamond-shaped branch node asking whether that specific 行政不服審査法の
 条文 is excluded, with Yes/No branch arrows and a final conclusion node
-for each branch. Panels 1 and 2 (肢ア・肢ウ) share the same underlying
+for each branch. Panels 1 and 2 (ア・ウ) share the same underlying
 decision-tree shape (一般の行政不服審査法の規定が、不動産登記法158条に
 よって適用除外されているかどうかを確認する型); render both panels'
 diagrams with the same single-diamond tree layout, highlighting (thick
@@ -325,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 参加人制度はそもそも存在しない
@@ -344,7 +344,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 参加人制度なし
 
---- PANEL 2（肢ウ） ---
+--- PANEL 2（ウ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 審査請求に期間制限はない
@@ -364,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 期間制限なし
 
---- PANEL 3（肢イ） ---
+--- PANEL 3（イ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 審査請求は登記官を経由して行う
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記官を経由
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 裁決書謄本は登記官にも交付される
@@ -396,7 +396,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記官にも交付
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 認容なら利害関係人にも通知される
@@ -428,7 +428,7 @@ Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
 Panels 1 and 2 clearly distinguish their own highlighted branch from the
-other, faded branch of their shared tree, that 肢エ and 肢オ each show
+other, faded branch of their shared tree, that エ and オ each show
 both required recipients as distinct labeled arrows rather than a single
 merged notification icon, that each 着眼点 callout states a checking
 order rather than only a conclusion and keeps every required element from

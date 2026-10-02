@@ -322,7 +322,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -345,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 監督は裁判所
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 登録申請書の経由先は法務局でなく調査士会
@@ -366,7 +366,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 経由は調査士会
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 補助者の届出は調査士会のみで足りる
@@ -388,11 +388,11 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 法務局届出は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 筆界特定関係業務は断るなら速やかに通知
-Diagram: A decision flowchart shared with Panel 5（肢オ）in this set. A
+Diagram: A decision flowchart shared with Panel 5（オ）in this set. A
 single diamond-shaped branch node reads「依頼された業務は、筆界特定の
 手続についての代理・相談に関する業務か？」. In THIS panel, render the
 Yes branch（labeled ○／はい）with a thick highlighted border and full
@@ -402,7 +402,7 @@ and a further arrow leads to a second distinct conclusion node showing a
 next to a fast-ticking clock icon, labeled「承諾しないなら速やかに
 依頼者へ通知」. Render the No branch（labeled ✕／いいえ）in a faded,
 greyed-out, dotted-outline style leading to its own distinct conclusion
-node labeled「正当事由なければ拒めない（肢オを参照）」— do not omit this
+node labeled「正当事由なければ拒めない（オを参照）」— do not omit this
 node, but keep it visually de-emphasized. Do not route any arrow back to
 an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -414,11 +414,11 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 断るなら速やかに通知
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 登記代理業務は正当事由なしに拒めない
-Diagram: The same decision flowchart shared with Panel 4（肢エ）, with
+Diagram: The same decision flowchart shared with Panel 4（エ）, with
 the same diamond-shaped branch node reading「依頼された業務は、筆界特定
 の手続についての代理・相談に関する業務か？」. In THIS panel, render the
 No branch（labeled ✕／いいえ）with a thick highlighted border and full
@@ -429,7 +429,7 @@ second distinct conclusion node showing an isometric「土地家屋調査士
 refusing it, labeled「土地家屋調査士法人にも準用される（法41条1項）」.
 Render the Yes branch（labeled ○／はい）in a faded, greyed-out,
 dotted-outline style leading to its own distinct conclusion node labeled
-「応諾義務はない（肢エを参照）」— do not omit this node, but keep it
+「応諾義務はない（エを参照）」— do not omit this node, but keep it
 visually de-emphasized. Do not route any arrow back to an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず「依頼された業務が筆界特定の手続についての代理・相談に関する業務か

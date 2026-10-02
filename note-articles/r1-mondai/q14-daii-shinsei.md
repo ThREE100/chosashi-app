@@ -89,11 +89,11 @@ Bさんの権利を代わりに行使する「代位」を持ち出すまでも�
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝ウ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、ア（土地区画整理法82条1項・土地区画整理登記令2条）、イの代位の枠組み（民法423条）、オの保存行為（民法252条5項）、エ（平2.4.24民三1528号）は、データベースの解説で条文・先例番号まで確認できたものです。一方、ウの仮処分債権者による代位分筆については、データベースの解説では「代位により分筆の登記を申請できる」とされているものの、根拠となる個別の先例番号までは明示されておらず、代位の一般原則（保全の必要性）からの説明にとどまっています。なお、オについて本文で「不登法30条」も根拠として引用していましたが、同条は「一般承継人による申請」（相続人等が表示に関する登記を申請できる旨）を定める規定であり、共有者の保存行為による単独申請の根拠にはならないため、`laws/fudousan-touki-hou.md`での条文確認を踏まえて本文からこの条番号を削除し、民法252条5項のみを根拠とする記載に修正しました。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（登記の代位申請）と同一・類似の問題が再出題されていないかを確認しました。候補は令和6年度第11問の1問のみですが、同問エ（甲土地の一部に地役権を設定したBが、Aに代位して分筆の登記を申請できない）は本問イ（地役権者は代位して分筆の登記を申請できない、地役権は土地の一部にも設定できるため保全の必要性がない）とほぼ同一の事案・結論であり、また同問オ（共有建物の床面積変更登記についてBが協力しなくても保存行為としてAが単独で申請できるため代位の必要がない）は本問オ（共有地の地目変更は保存行為として単独申請でき代位は不要）と同一の法的枠組み（民法252条5項）を異なる登記に適用したものです。**部分的に類似する記述があります**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令への準拠チェック（2026年8月実施）**：民法423条（代位）、土地区画整理法82条1項、先例（平2.4.24民三1528号）は、いずれも条文番号・内容ともに現行法で通用することをWebSearchで確認しました。一方、肢オ・確認事項ブロックで引用していた「民法252条ただし書」は、令和3年民法改正（令和5年4月1日施行、共有制度改正）により保存行為の根拠規定が「民法252条5項」に条番号変更されているため、本文・まとめ・確認事項ブロックの該当箇所をすべて「民法252条5項」に修正しました。各肢の正誤判定・正解の組合せ（ウエ）自体に変更はありません。
-- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。肢オの本文・確認事項ブロックで根拠として引用していた「不登法30条」を`laws/fudousan-touki-hou.md`の条文原文と突き合わせたところ、同条は「一般承継人による申請」を定める規定であり、共有者の保存行為による単独申請の根拠としては条文の内容が一致しないミスマッチが見つかったため、本文からこの条番号の引用を削除し、民法252条5項のみを根拠とする記載に修正しました。他の項目（正解の再確認、文章チェック、note表示形式、インフォグラフィックとの整合、執筆ルール、重複出題・最新法令チェックの記載）には問題は見つかりませんでした。正誤判定・正解の組合せに変更はありません。
-- **土地区画整理法条文の一次資料確認（2026-09-16実施）**：肢アの根拠として引用している「土地区画整理法82条1項」について、以前はローカルの`laws/`フォルダに同法が収録されておらず、WebSearchとアガルート教材の照合のみで確認していましたが、`laws/tochi-kukaku-seiri-hou.md`として同法の全文を収録したことに伴い、条文原文（「施行者は、土地区画整理事業の施行のために必要がある場合においては、所有者に代わつて土地の分割又は合併の手続をすることができる。」）で改めて一致を確認しました。引用内容・結論に変更はありません。
+- **最新法令への準拠チェック（2026年8月実施）**：民法423条（代位）、土地区画整理法82条1項、先例（平2.4.24民三1528号）は、いずれも条文番号・内容ともに現行法で通用することをWebSearchで確認しました。一方、オ・確認事項ブロックで引用していた「民法252条ただし書」は、令和3年民法改正（令和5年4月1日施行、共有制度改正）により保存行為の根拠規定が「民法252条5項」に条番号変更されているため、本文・まとめ・確認事項ブロックの該当箇所をすべて「民法252条5項」に修正しました。各肢の正誤判定・正解の組合せ（ウエ）自体に変更はありません。
+- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。オの本文・確認事項ブロックで根拠として引用していた「不登法30条」を`laws/fudousan-touki-hou.md`の条文原文と突き合わせたところ、同条は「一般承継人による申請」を定める規定であり、共有者の保存行為による単独申請の根拠としては条文の内容が一致しないミスマッチが見つかったため、本文からこの条番号の引用を削除し、民法252条5項のみを根拠とする記載に修正しました。他の項目（正解の再確認、文章チェック、note表示形式、インフォグラフィックとの整合、執筆ルール、重複出題・最新法令チェックの記載）には問題は見つかりませんでした。正誤判定・正解の組合せに変更はありません。
+- **土地区画整理法条文の一次資料確認（2026-09-16実施）**：アの根拠として引用している「土地区画整理法82条1項」について、以前はローカルの`laws/`フォルダに同法が収録されておらず、WebSearchとアガルート教材の照合のみで確認していましたが、`laws/tochi-kukaku-seiri-hou.md`として同法の全文を収録したことに伴い、条文原文（「施行者は、土地区画整理事業の施行のために必要がある場合においては、所有者に代わつて土地の分割又は合併の手続をすることができる。」）で改めて一致を確認しました。引用内容・結論に変更はありません。
 
 ---
 
@@ -278,14 +278,14 @@ marks. Where a 肢 requires checking multiple conditions in sequence before
 reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Panels
-2, 3, 4 and 5 (肢イ・ウ・エ・オ) share one decision tree asking first
+2, 3, 4 and 5 (イ・ウ・エ・オ) share one decision tree asking first
 "自分ひとりで(単独で)登記を申請できるか" and then, on the "できない"
 branch, "その登記をしないと自分の権利を実現できないか(保全の必要性が
 あるか)": render the branch and leaf relevant to THIS panel with a thick
 highlighted border and full color, and render the other, unrelated
 branches and leaves in a faded, greyed-out, or dotted-outline style
 rather than omitting them — the reader should be able to see at a glance
-which part of the shared tree this panel is about. Panel 1 (肢ア) instead
+which part of the shared tree this panel is about. Panel 1 (ア) instead
 uses a side-by-side comparison frame contrasting the general rule with a
 special-law exception; do not force it into the shared tree of the other
 four panels. Unlike a glanceable summary poster, each panel MAY include a
@@ -333,7 +333,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in purple containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -355,7 +355,7 @@ Conclusion tag (a short colored banner/pill, purple, 5-15 Japanese
 characters):
 事業の特則で代位可能
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地役権は分筆なしで設定でき代位できない
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保全の必要性がなく不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 仮処分の実現に分筆が要れば代位できる
@@ -402,7 +402,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 仮処分命令正本で代位可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 調停調書があれば単独で代位し分筆できる
@@ -425,7 +425,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 調停調書正本で単独代位
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in orange containing the number 5.
 Heading (bold, ONE line):
 共有地の地目変更は単独ででき代位不要

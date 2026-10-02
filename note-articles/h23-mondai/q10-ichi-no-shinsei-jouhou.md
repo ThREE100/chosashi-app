@@ -90,7 +90,7 @@
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・判例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、「一の申請情報で申請する登記」を単独テーマとする問題が後年に再出題されていないかを確認しました。平成29年度第6問・平成24年度第4問に「申請情報」という類似の語を含む問題がありますが、これらは申請情報一般の記載事項（不動産番号、代表者氏名、持分の記載省略等）を問うものであり、本問（複数の登記を一の申請情報で併せて申請できるかという組み合わせの可否）とは論点が異なります。重複はありません。
 - **最新法令準拠チェック（2026-08-04実施）**：不動産登記規則35条（一の申請情報による申請）を確認しましたが、直近の改正による変更はありません。
-- **適用法令の現行性チェック（2026-10-01実施）**：不動産登記令4条と不動産登記規則35条（10類型。令和8年5月21日施行の直近改正を反映した、2026-08-04取得の現行版）を、ローカル法令データベースの原文で確認しました。**各肢の正誤の結論に変更はありません**。(1) 令4条ただし書は、法務省令で定めるときのほか、「同一の登記所の管轄区域内にある二以上の不動産について申請する登記の目的並びに登記原因及びその日付が同一であるとき」も例外としています。以前の本文はこの前段を書いていなかったため補いました（肢オは滅失の登記と表題登記で登記の目的が異なるため当たりません）。(2) 規則35条の4号（肢ア）・6号（肢エ）・7号（肢イ・ウ）の文言に変更はありません。8号（同一の登記名義人の氏名・住所の変更の登記又は更正の登記どうし）も変更ありません。(3) 相続登記の義務化（令和6年4月1日施行、不動産登記法76条の2）と所有権の登記名義人の氏名・住所の変更登記の義務化（令和8年4月1日施行、同法76条の5、職権による変更登記は同法76条の6）は、いずれも所有権の登記名義人についての制度で、肢ウの「表題部所有者の住所の変更の登記」と合筆の登記の組み合わせ（規則35条7号）には影響しません。(4) ②総論のカード・⑤作図ガイドのパネルは、登記の名称を本文どおり（建物の区分の登記・建物の合併の登記・地積の更正の登記・地目の変更の登記など）に揃え、パネル5の意味のないひし形（行き先のない「はい」だけの枝）を、単一の図解に作り直しました。
+- **適用法令の現行性チェック（2026-10-01実施）**：不動産登記令4条と不動産登記規則35条（10類型。令和8年5月21日施行の直近改正を反映した、2026-08-04取得の現行版）を、ローカル法令データベースの原文で確認しました。**各肢の正誤の結論に変更はありません**。(1) 令4条ただし書は、法務省令で定めるときのほか、「同一の登記所の管轄区域内にある二以上の不動産について申請する登記の目的並びに登記原因及びその日付が同一であるとき」も例外としています。以前の本文はこの前段を書いていなかったため補いました（オは滅失の登記と表題登記で登記の目的が異なるため当たりません）。(2) 規則35条の4号（ア）・6号（エ）・7号（イ・ウ）の文言に変更はありません。8号（同一の登記名義人の氏名・住所の変更の登記又は更正の登記どうし）も変更ありません。(3) 相続登記の義務化（令和6年4月1日施行、不動産登記法76条の2）と所有権の登記名義人の氏名・住所の変更登記の義務化（令和8年4月1日施行、同法76条の5、職権による変更登記は同法76条の6）は、いずれも所有権の登記名義人についての制度で、ウの「表題部所有者の住所の変更の登記」と合筆の登記の組み合わせ（規則35条7号）には影響しません。(4) ②総論のカード・⑤作図ガイドのパネルは、登記の名称を本文どおり（建物の区分の登記・建物の合併の登記・地積の更正の登記・地目の変更の登記など）に揃え、パネル5の意味のないひし形（行き先のない「はい」だけの枝）を、単一の図解に作り直しました。
 
 ---
 
@@ -258,7 +258,7 @@ combination of registrations is on the list in 不動産登記規則35条 — so
 all five panels are labeled illustrative diagrams, not flowcharts: do
 not force a flowchart, and do not draw any diamond-shaped decision node,
 Yes/No branch arrows, or dangling arrow anywhere in this image. Panel 5
-(肢オ) contains two distractor facts that do NOT change the conclusion
+(オ) contains two distractor facts that do NOT change the conclusion
 (the two buildings are in the same registry office's district, and the
 registered owner is the same person); draw each distractor as a faded,
 dotted-outline tag marked as irrelevant, with no ○/✕ mark, so the reader
@@ -309,7 +309,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 甲乙をまたぐ区分・合併も列挙内で一括可
@@ -329,7 +329,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 列挙内なので一括可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地積更正はその後の分筆の前提になる
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 前提関係で一括可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 住所変更と合筆も列挙内で一括可
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 列挙内なので一括可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 地目変更と地積更正はどちらも変更・更正の登記
@@ -384,7 +384,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 どちらも変更・更正で一括可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 管轄も名義人も同じでも一括はできない

@@ -322,7 +322,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 名義人が同じでも持分一致まで確認
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 比率も一致が必須
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 登記記録の地目でなく現況地目で判断
@@ -377,7 +377,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 現況地目で判断
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 地方公共団体の嘱託に識別情報は不要
@@ -393,7 +393,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記識別情報不要
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 所有権登記の有無が食い違えば合筆不可
@@ -416,7 +416,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記状態は要一致
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 地役権設定の範囲を申請情報に記載

@@ -82,7 +82,7 @@
 - 出題年度・問題番号・正解番号（1番＝ア・イ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア＝法49条4項、イ＝民252条5項・平5.7.30民三5320号、ウ＝法49条1項5号、エ＝法49条1項2号、オ＝法49条2項）は、データベースのexplanationフィールドに記載のものを転記しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
-- 【2026-08-03修正】肢イの根拠条文「民法252条ただし書」は、令和5年4月1日施行の共有制度見直し（民法等の一部を改正する法律）により、保存行為の規定がただし書から独立した第5項（「各共有者は、前各項の規定にかかわらず、保存行為をすることができる。」）に移動しています。内容（共有者の一人が単独で保存行為＝合体による登記等の申請ができること）自体に変更はありませんが、条文引用を現行法に合わせて「民法252条5項」に修正しました（本文中の肢イ解説、および本項目を修正）。
+- 【2026-08-03修正】イの根拠条文「民法252条ただし書」は、令和5年4月1日施行の共有制度見直し（民法等の一部を改正する法律）により、保存行為の規定がただし書から独立した第5項（「各共有者は、前各項の規定にかかわらず、保存行為をすることができる。」）に移動しています。内容（共有者の一人が単独で保存行為＝合体による登記等の申請ができること）自体に変更はありませんが、条文引用を現行法に合わせて「民法252条5項」に修正しました（本文中のイ解説、および本項目を修正）。
 
 ---
 
@@ -493,7 +493,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -519,7 +519,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 更正登記の日から1か月
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 表題登記なし建物の共有者は単独申請可
@@ -542,7 +542,7 @@ the background without moving.
 Conclusion tag (green, 5-15 Japanese characters):
 保存行為で単独申請可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 隔壁を除去して1室にするのも合体にあたる
@@ -564,7 +564,7 @@ document labeled「合体による登記等」with a tag reading「申請でき�
 Conclusion tag (blue, 5-15 Japanese characters):
 隔壁除去も合体に該当
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 表題登記なし側は所有権登記も併せて申請
@@ -585,7 +585,7 @@ labeled「合体による登記等」and one labeled「表題登記なし建物�
 Conclusion tag (blue, 5-15 Japanese characters):
 所有権登記も併せて申請
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 登記原因は新築・新築・合体の三段で書く

@@ -98,9 +98,9 @@
 
 - この第2問は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）には収録されていません。法務省公表の試験問題原本（ユーザーが提供したPDF）から問題文を直接確認し、民法の相隣関係規定・判例の趣旨に基づいてAI（Claude）が解説を作成したものです。
 - 正解番号（3番）は、法務省公式の正答PDF（ユーザー提供）と照合済みです。
-- **条文レベルで確認できた根拠（2026-08-18再検証）**：肢ア（224条：境界標の設置及び保存の費用は相隣者が等しい割合で負担し、測量の費用のみ広狭に応じて分担）、肢イ（234条2項ただし書：建築に着手した時から1年を経過し、又は建物が完成した後は損害賠償の請求のみ）、肢ウ（233条1項：竹木の所有者に枝を切除させることができる／現行233条2項・3項の例外）、肢エ（209条1項ただし書：住家については居住者の承諾がなければ立ち入ることができない）、肢オ（213条1項：他の分割者の所有地のみを通行することができる／同条2項が一部譲渡に準用）は、いずれもローカル法令データベース（`laws/minpou-1-soukyoku-bukken.md`）の条文原文と照合し、条文番号・項・号・文言の一致を確認済みです。
-- **条文レベルでは確認できていない根拠**：肢オの「分割・譲渡後に当事者の土地が第三者（D）に譲渡されても袋地通行権は消滅しない」という点は、213条の条文自体には書かれておらず、判例の趣旨（最判平2.11.20）に基づく理解です。また、問題文が「判例の趣旨に照らし」としている点についても、個別の判決原文までは今回照合していません。
-- **最新法令チェック（2026-08-01実施）**：本問は平成28年度出題のため、当時の民法（2023年4月1日施行の物権法改正前）を前提に書かれています。改正により、次の2点で規律が変わっています。（1）肢ウ（竹木の枝）：改正前233条1項の原則（竹木の所有者に切除させることができるにとどまる）は維持されつつ、現行233条3項で①催告後相当期間内に切除しないとき、②竹木の所有者を知ることができない・所在不明のとき、③急迫の事情があるとき、の3要件のいずれかを満たせば自ら切除できる例外が新設されました（233条2項では竹木が共有の場合の単独切除も新設）。本肢は無条件に「切り取ることができる」とする記述のため、この例外を踏まえても誤りという結論は変わりません。（2）肢エ（隣地使用）：改正前209条1項の「隣地の使用を請求することができる」という構成から、現行209条では「隣地を使用することができる」という直接的な権利に変わり、目的も境界標調査・測量、233条3項による枝の切取りを含む3類型に拡大されました。ただし、住家への立入りに居住者の承諾を要する点は現行法でも維持されており、本肢の結論は変わりません。本文にはこれらの現行法の内容を追記済みです。それ以外の肢（ア：224条、イ：234条、オ：213条）については、2016年以降の改正は確認されていません。
+- **条文レベルで確認できた根拠（2026-08-18再検証）**：ア（224条：境界標の設置及び保存の費用は相隣者が等しい割合で負担し、測量の費用のみ広狭に応じて分担）、イ（234条2項ただし書：建築に着手した時から1年を経過し、又は建物が完成した後は損害賠償の請求のみ）、ウ（233条1項：竹木の所有者に枝を切除させることができる／現行233条2項・3項の例外）、エ（209条1項ただし書：住家については居住者の承諾がなければ立ち入ることができない）、オ（213条1項：他の分割者の所有地のみを通行することができる／同条2項が一部譲渡に準用）は、いずれもローカル法令データベース（`laws/minpou-1-soukyoku-bukken.md`）の条文原文と照合し、条文番号・項・号・文言の一致を確認済みです。
+- **条文レベルでは確認できていない根拠**：オの「分割・譲渡後に当事者の土地が第三者（D）に譲渡されても袋地通行権は消滅しない」という点は、213条の条文自体には書かれておらず、判例の趣旨（最判平2.11.20）に基づく理解です。また、問題文が「判例の趣旨に照らし」としている点についても、個別の判決原文までは今回照合していません。
+- **最新法令チェック（2026-08-01実施）**：本問は平成28年度出題のため、当時の民法（2023年4月1日施行の物権法改正前）を前提に書かれています。改正により、次の2点で規律が変わっています。（1）ウ（竹木の枝）：改正前233条1項の原則（竹木の所有者に切除させることができるにとどまる）は維持されつつ、現行233条3項で①催告後相当期間内に切除しないとき、②竹木の所有者を知ることができない・所在不明のとき、③急迫の事情があるとき、の3要件のいずれかを満たせば自ら切除できる例外が新設されました（233条2項では竹木が共有の場合の単独切除も新設）。本肢は無条件に「切り取ることができる」とする記述のため、この例外を踏まえても誤りという結論は変わりません。（2）エ（隣地使用）：改正前209条1項の「隣地の使用を請求することができる」という構成から、現行209条では「隣地を使用することができる」という直接的な権利に変わり、目的も境界標調査・測量、233条3項による枝の切取りを含む3類型に拡大されました。ただし、住家への立入りに居住者の承諾を要する点は現行法でも維持されており、本肢の結論は変わりません。本文にはこれらの現行法の内容を追記済みです。それ以外の肢（ア：224条、イ：234条、オ：213条）については、2016年以降の改正は確認されていません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（相隣関係）と同一・類似の問題が再出題されていないかを確認しました。R02年度第3問が「相隣関係」の同一タイトルで出題されていますが、内容は主に囲繞地通行権（民法213条以下）に関するもので、本問の境界標・境界線付近の建築・竹木の枝・立入りとは異なる肢が中心です。ただし、R02年度第3問オ（共有物の分割による袋地の通行権が特定承継後も消滅しないか）は、本問オ（共有物の分割による袋地の通行権は第三者の土地には及ばないこと）と同じ民法213条の分割による袋地通行権という論点を、異なる角度から問うものであり、**部分的に関連する出題**である点に注意してください。それ以外の肢（ア〜エ）については重複は見つかりませんでした。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -268,11 +268,11 @@ conditions to get there — two isometric adjacent land plots with a
 boundary line running down the middle, a boundary-marker post, a small
 house under construction, a tree with a branch crossing the boundary, and
 a footpath arrow for the 袋地 panel. Where a 肢 requires checking multiple
-conditions in sequence before reaching a conclusion (肢ウ・肢オ), draw the
+conditions in sequence before reaching a conclusion (ウ・オ), draw the
 panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
-check (肢ア・肢イ・肢エ), a labeled illustrative diagram is sufficient — do
+check (ア・イ・エ), a labeled illustrative diagram is sufficient — do
 not force a flowchart. There is no shared tree shape across panels in
 this article, since each 肢 concerns a different rule of 相隣関係; design
 each panel independently. Unlike a glanceable summary
@@ -317,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 設置費用は折半、測量費用だけ広狭に応じる
@@ -334,7 +334,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 設置費用は折半
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 着手から1年で中止請求は不可
@@ -352,7 +352,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 1年経過で中止不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 越境した枝は原則、持ち主に切らせる
@@ -377,7 +377,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原則は自分で切れない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 修繕でも住家には無断で入れない
@@ -393,7 +393,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾がなければ不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 袋地通行権は分割・譲渡の当事者限定
@@ -430,7 +430,7 @@ renders as a Simplified or Traditional Chinese variant, redraw that character in
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢
-(肢ウ・肢オ) is drawn as an actual flowchart with branch nodes (not a bare
+(ウ・オ) is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点 callout
 states a checking order rather than only a conclusion, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no

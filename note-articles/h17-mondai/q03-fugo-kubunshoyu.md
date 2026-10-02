@@ -278,8 +278,8 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panels 1（肢ア）, 2（肢イ）, 3（肢ウ）and 4
-（肢エ）all share the same underlying two-diamond decision tree (first
+— do not force a flowchart. Panels 1（ア）, 2（イ）, 3（ウ）and 4
+（エ）all share the same underlying two-diamond decision tree (first
 diamond: 構造上の独立性はあるか → second diamond, reached only on はい:
 利用上の独立性もあるか); draw all four panels with the same tree shape,
 but render the diamond, branch, and leaf relevant to THIS panel with a
@@ -291,10 +291,10 @@ mark crossing out a different irrelevant factor beside the root diamond
 （Panel 1: a crossed-out 同意書 icon labeled 同意の有無は関係ない; Panel 2:
 a crossed-out rising-value graph icon labeled 価値の増減は関係ない）to
 show that neither 同意 nor 価値 is what the tree actually checks. Panel 4
-（肢エ）looks at first glance like a single independence check, but the
+（エ）looks at first glance like a single independence check, but the
 source article requires BOTH 構造上の独立性 AND 利用上の独立性 as two
 distinct elements — draw both diamonds highlighted in sequence for this
-panel rather than compressing them into one check. Panel 5（肢オ）is not
+panel rather than compressing them into one check. Panel 5（オ）is not
 part of this shared tree; it is a 対比枠型（別の話への切り分け）panel
 contrasting「使用を継続できるかという話」with「金銭の精算を求められると
 いう話」side by side, with the side relevant to this 肢（金銭の精算）drawn
@@ -347,7 +347,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 独立性の有無で判断
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -389,7 +389,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 価値増加は無関係
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -411,7 +411,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 独立性なしはB帰属
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -434,7 +434,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 独立性ありはA取得
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -460,7 +460,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 民法242条（付合、ただし書の「権原によって附属させた者」の扱い）・区分
-所有法1条（構造上・利用上の独立性）・民法703条（不当利得、肢オ）に基
+所有法1条（構造上・利用上の独立性）・民法703条（不当利得、オ）に基
 づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is

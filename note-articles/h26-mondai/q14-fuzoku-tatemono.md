@@ -82,8 +82,8 @@
 - 出題年度・問題番号・正解番号（3番＝3個）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - ア（附属建物新築時の住所証明情報の省略）、イ（附属建物の新築日が主である建物と同一の場合の記録省略）は実務上確立した取扱いです。ウ（合併登記の添付情報）は不動産登記令別表十六の項添付情報欄イ「当該分割後、区分後又は合併後の建物図面及び各階平面図」で、エ（区分建物の附属建物の記載省略の可否）は不動産登記法44条1項5号（附属建物の所在・種類・構造・床面積を登記事項とし、同一棟内の区分建物である場合を省略する例外を定めていないこと）で、それぞれ条文上確認できました。オ（合筆に伴う所在変更登記と合併登記の一括申請可否）については、細かい実務論点であり、5肢のうち3個が誤りという個数の整合性から結論を導いていますが、根拠条文の逐条確認までは至っていない部分があります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。附属建物に関する登記手続がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令チェック（2026-08-16再実施）**：附属建物に関する登記手続の各規定について、`note-articles/laws/`に保存した不動産登記法・不動産登記令・不動産登記規則の現行条文（2026-08-04取得）で再確認し、肢ウ・エの根拠条文を新たに条文上確認しました。直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。オの根拠条文の逐条確認については、本文中の確認事項に記載のとおり、なお実務書での追加確認をおすすめします。
-- **条文原文の追記（2026-09-18）**：肢ウについて、不動産登記令別表十六の項の添付情報欄イの条文原文を本文に追記しました。`laws/fudousan-touki-rei-betsuhyou.md`（「#### 十六」の項）から実際にGrep・Readして一字一句転記したものです。肢ウの正誤判定・結論に変更はありません。
+- **最新法令チェック（2026-08-16再実施）**：附属建物に関する登記手続の各規定について、`note-articles/laws/`に保存した不動産登記法・不動産登記令・不動産登記規則の現行条文（2026-08-04取得）で再確認し、ウ・エの根拠条文を新たに条文上確認しました。直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。オの根拠条文の逐条確認については、本文中の確認事項に記載のとおり、なお実務書での追加確認をおすすめします。
+- **条文原文の追記（2026-09-18）**：ウについて、不動産登記令別表十六の項の添付情報欄イの条文原文を本文に追記しました。`laws/fudousan-touki-rei-betsuhyou.md`（「#### 十六」の項）から実際にGrep・Readして一字一句転記したものです。ウの正誤判定・結論に変更はありません。
 
 ---
 
@@ -239,7 +239,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に「どの図を描き、どの順番で条件を確認すればよいか」を、ア〜オ5肢それぞれについて示す作図ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。肢イは新築日の先後関係を示すタイムライン型、肢エは肢イと似た「まとめられそうだから省略できるはず」という思い込みを、条文上の例外の有無で正す正誤対比型で構成する。
+問題文を読んだ瞬間に「どの図を描き、どの順番で条件を確認すればよいか」を、ア〜オ5肢それぞれについて示す作図ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。イは新築日の先後関係を示すタイムライン型、エはイと似た「まとめられそうだから省略できるはず」という思い込みを、条文上の例外の有無で正す正誤対比型で構成する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -313,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -334,7 +334,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 住所証明情報は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -357,7 +357,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 重複記録は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -375,7 +375,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 合併後の図面が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -400,7 +400,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 記載省略はできない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -422,8 +422,8 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-根拠条文：不動産登記令別表十六の項添付情報欄イ（肢ウ）、不動産登記法44条
-1項5号（肢エ）。ア・イ・オは各肢の解説で確認した実務上の取扱い。判例・先
+根拠条文：不動産登記令別表十六の項添付情報欄イ（ウ）、不動産登記法44条
+1項5号（エ）。ア・イ・オは各肢の解説で確認した実務上の取扱い。判例・先
 例の具体的な番号はここには書かない。
 
 Final check before rendering: scan every kanji glyph and confirm it is

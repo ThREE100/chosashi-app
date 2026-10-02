@@ -80,12 +80,12 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝正しいものは2個）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月4日 現行法との整合性を再検証し、肢イと肢ウの正誤判定を入れ替えました】** 初版では「イ＝正しい／ウ＝誤り」としていましたが、現行の不動産登記規則79条を確認したところ、**地役権図面の記録事項は「地役権設定の範囲・方位・縮尺・地番及び隣地の地番・申請人の氏名又は名称」（1項）と「作成の年月日」（3項）であって、地積は含まれない**こと、**書面である地役権図面には「地役権者」が署名し、又は記名押印しなければならない（4項）**ことが確認できました。これに合わせて、肢イを誤り、肢ウを正しいに改め、まとめと正解表示（正しいものは2個＝ウ・オ）も修正しています。正しいものの個数（2個＝選択肢2番）は公式正答と一致したままです。
+- **【2026年8月4日 現行法との整合性を再検証し、イとウの正誤判定を入れ替えました】** 初版では「イ＝正しい／ウ＝誤り」としていましたが、現行の不動産登記規則79条を確認したところ、**地役権図面の記録事項は「地役権設定の範囲・方位・縮尺・地番及び隣地の地番・申請人の氏名又は名称」（1項）と「作成の年月日」（3項）であって、地積は含まれない**こと、**書面である地役権図面には「地役権者」が署名し、又は記名押印しなければならない（4項）**ことが確認できました。これに合わせて、イを誤り、ウを正しいに改め、まとめと正解表示（正しいものは2個＝ウ・オ）も修正しています。正しいものの個数（2個＝選択肢2番）は公式正答と一致したままです。
 - オ（筆界点の座標値は基本三角点等による測量成果が原則、近傍に基本三角点等がないときは近傍の恒久的な地物による測量成果でよい）は、不動産登記規則77条1項8号・2項で確認しました。
 - **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で全肢を再検証しました】** 確認できたのは次のとおりです。イ＝規則79条1項（記録事項に地積なし）、ウ＝規則79条3項・4項（作成の年月日／地役権者の署名又は記名押印）、オ＝規則77条1項8号・2項、ア＝規則77条5項・10条4項（誤差の限度は地域区分で決まる）、エ＝不動産登記令別表8項（分筆の登記の添付情報は分筆後の土地の地積測量図のみ）・同別表4項（土地所在図は土地の表題登記の添付情報）。
-- **肢アについては、なお注意が必要です。** 規則10条4項1号は市街地地域について「精度区分甲二まで」と定めており、この条文だけを読むと「市街地では甲二の精度で作成すべき」という本肢の記述は正しいようにも読めます。備付け地図の精度区分と作成すべき地積測量図の精度区分を結びつける規定は現行法上見当たらず、**本肢が誤りとされる決め手となる条文・通達までは特定できていません**。
-- **肢エについても補足します。** 現行の不動産登記規則では、土地所在図（規則76条3項）と地積測量図（規則77条5項）のいずれについても規則10条4項が準用されており、誤差の限度の基準表そのものは共通です。本記事は、分筆の登記では土地所在図の提供を要しない（令別表8項）という点を誤りの理由としています。平成20年当時の規則76条・79条の条文が現行と同一であったかまでは、ローカルの法令データベース（現行版のみ収録）では確認できませんでした。
-- 【重要】上記の引用部分（問題文全文）は、データベースに保存されていた各肢の**要約**をもとに再構成したものであり、平成20年度の試験問題原本の一字一句そのままではない可能性があります。とくに肢ア・エは、原文の言い回し次第で判定の理由づけが変わりうる箇所です。noteに掲載する前に、法務省公表の試験問題原本と照合することを強くおすすめします。
+- **アについては、なお注意が必要です。** 規則10条4項1号は市街地地域について「精度区分甲二まで」と定めており、この条文だけを読むと「市街地では甲二の精度で作成すべき」という本肢の記述は正しいようにも読めます。備付け地図の精度区分と作成すべき地積測量図の精度区分を結びつける規定は現行法上見当たらず、**本肢が誤りとされる決め手となる条文・通達までは特定できていません**。
+- **エについても補足します。** 現行の不動産登記規則では、土地所在図（規則76条3項）と地積測量図（規則77条5項）のいずれについても規則10条4項が準用されており、誤差の限度の基準表そのものは共通です。本記事は、分筆の登記では土地所在図の提供を要しない（令別表8項）という点を誤りの理由としています。平成20年当時の規則76条・79条の条文が現行と同一であったかまでは、ローカルの法令データベース（現行版のみ収録）では確認できませんでした。
+- 【重要】上記の引用部分（問題文全文）は、データベースに保存されていた各肢の**要約**をもとに再構成したものであり、平成20年度の試験問題原本の一字一句そのままではない可能性があります。とくにア・エは、原文の言い回し次第で判定の理由づけが変わりうる箇所です。noteに掲載する前に、法務省公表の試験問題原本と照合することを強くおすすめします。
 - 【重要】データベース（takuitsu.json）に保存されていた各肢の原文は、「市街地の分筆登記申請では、乙1精度の地図が備え付けられていても甲2精度で作成すべき」のような短い要約形式でした。上記の引用部分（問題文全文）は、この要約をもとに一般的な試験問題の文体で再構成したものであり、平成20年度の試験問題原本の一字一句そのままではない可能性があります。noteに掲載する前に、法務省公表の試験問題原本と照合することを強くおすすめします。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を「地役権図面」「基本三角点」「恒久的地物」等のキーワードで確認しました。基本三角点等に基づく座標値記録の原則・例外という条文の文言自体は複数年度で類似表現が使われますが、本問特有の具体的事例（甲2精度・乙1精度の使い分け等）の再出題は確認できませんでした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
 
@@ -243,16 +243,16 @@ conditions to get there — icons such as isometric region maps for 市街
 地・村落農耕地・山林原野, a precision-grade badge (甲二・乙一等), a
 fenced land-plot icon with a dashed 地役権 boundary, a document icon
 with a signature/seal line, isometric icons for 土地所在図 and 地積測量
-図, and a survey-marker/tripod icon for 基本三角点等. Panel 5（肢オ）
+図, and a survey-marker/tripod icon for 基本三角点等. Panel 5（オ）
 turns on a single yes/no condition whose both outcomes matter, so draw
 it as a small decision flowchart（近傍に基本三角点等があるか）with both
 the Yes and the No branch ending in their own labeled conclusion node —
-do not draw a looping arrow back into the diagram. Panel 1（肢ア）
+do not draw a looping arrow back into the diagram. Panel 1（ア）
 contrasts a mistaken belief with the correct rule, so draw it as a
 LEFT/RIGHT true/false comparison with the mistaken side crossed out
-with a large ✕. Panel 3（肢ウ）contrasts two related but distinct rules
+with a large ✕. Panel 3（ウ）contrasts two related but distinct rules
 (who must sign: 作成者 vs 地役権者), so draw it as a LEFT/RIGHT
-comparison. Panels 2 and 4（肢イ・肢エ）are each resolved by a single
+comparison. Panels 2 and 4（イ・エ）are each resolved by a single
 check, so draw a labeled illustrative diagram for them instead of
 forcing a flowchart. Do not include case or precedent numbers
 (article/regulation numbers are fine); keep the callout text as written
@@ -297,7 +297,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line):
 精度区分は地域の区分で決まる
@@ -315,7 +315,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 地域区分で決まる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line):
 地役権図面の記録事項に地積はない
@@ -331,7 +331,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 地積は記録しない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line):
 署名するのは作成者でなく地役権者
@@ -348,7 +348,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 地役権者本人が署名
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line):
 分筆で提供するのは地積測量図のみ
@@ -363,7 +363,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 地積測量図のみ提供
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line):
 三角点の有無で測量成果の基準が変わる

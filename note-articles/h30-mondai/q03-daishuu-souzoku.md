@@ -345,10 +345,10 @@ never stacked as if one were the other's parent or child. The succession
 arrow must run along the actual parent-child link in the direction
 inheritance passes (from the person who lost the right, down to that
 person's own child), not uniformly "upward" or "toward Ａ" regardless of
-the real relationship. Panel 1 (肢ア) is an ascendant-line case, so its
+the real relationship. Panel 1 (ア) is an ascendant-line case, so its
 column is deliberately the reverse of panels 2-3-5 (the ancestor Ｃ sits
 at the TOP, and Ａ — the youngest person in that panel — sits at the
-BOTTOM); panel 4 (肢エ) is a sibling case and must branch instead of
+BOTTOM); panel 4 (エ) is a sibling case and must branch instead of
 stacking. Follow each panel's Diagram instructions below exactly for
 layout and arrow direction — do not default back to a single straight
 line.
@@ -390,7 +390,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -413,7 +413,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 祖先へは代襲なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 「放棄」タグは矢印をその場で断ち切る
@@ -429,7 +429,7 @@ Diagram: 縦にＡ（被相続人、tombstone icon, "死亡"、一番上）— �
 Conclusion tag (blue, 5-15 Japanese characters):
 放棄タグには✕
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 「廃除」タグの横に出生日も描く
@@ -446,7 +446,7 @@ beside Ｃ labeled "廃除後に出生"、一番下）の順に親子関係の�
 Conclusion tag (blue, 5-15 Japanese characters):
 出生時期は無関係
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 兄弟は縦に重ねず、横に並べる
@@ -468,7 +468,7 @@ tombstone icon, 右）を同じ高さに左右に並べ、∩字型のブラケ�
 Conclusion tag (blue, 5-15 Japanese characters):
 甥の子には届かない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 「欠格」の赤丸は本人だけに描く

@@ -253,7 +253,7 @@ decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 2
-and 5（肢イ・肢オ）share the same side-by-side comparison frame（LEFT:
+and 5（イ・オ）share the same side-by-side comparison frame（LEFT:
 建物所在図（閉鎖後）、RIGHT: 地積測量図（閉鎖後）), because this pair is
 the article's biggest pitfall（同じ「閉鎖された図面」でも保存期間が違う）；
 draw both panels with the same two-box layout, but highlight（太い縁取り・
@@ -302,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 土地の閉鎖登記記録は50年で満了
@@ -317,7 +317,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 50年で保存終了
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 閉鎖した建物所在図は永久保存
@@ -334,7 +334,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 閉鎖後も永久保存
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 建物合併登記の申請情報は30年で満了
@@ -349,7 +349,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 30年で保存終了
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 筆界特定書は別条文で永久保存
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 別条文で永久保存
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 閉鎖した地積測量図は30年で満了

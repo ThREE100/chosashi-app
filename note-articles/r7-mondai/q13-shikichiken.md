@@ -608,7 +608,7 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No（はい／いいえ）
 branch arrows, and a final conclusion node. Where a 肢 is resolved by a
 single check, a labeled illustrative diagram is sufficient — do not
-force a flowchart. Panel 2（肢イ）must be drawn as a two-step flowchart,
+force a flowchart. Panel 2（イ）must be drawn as a two-step flowchart,
 because「住所が一致しているか」と「同一性証明だけで書き換えられるか」
 は別々に確認すべき2つの条件である. Unlike a glanceable summary poster,
 each panel MAY include a short「着眼点」callout box with 1-2 sentences
@@ -654,7 +654,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 地目変更と敷地権登記は別次元の話
@@ -670,7 +670,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抹消は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 同一性証明だけでは住所は書き換わらない
@@ -691,7 +691,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 変更登記が先
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 例外に当たらず敷地権の土地は合筆不可
@@ -709,7 +709,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 例外に当たらず合筆不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 食い違っても合併後を想定した規定がある
@@ -726,7 +726,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 合併は可能
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分離処分可能な部屋を除いて一括登記

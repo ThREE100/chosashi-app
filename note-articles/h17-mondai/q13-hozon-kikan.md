@@ -313,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 地図に準ずる図面は閉鎖後も永久保存
@@ -330,7 +330,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 閉鎖後も永久保存
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 合筆で閉鎖の登記記録は永久でなく50年
@@ -349,7 +349,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 閉鎖の日から50年
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 職権分筆の事件簿は立件日から5年
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 立件の日から5年
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 持分の更正登記は10年でなく30年
@@ -384,7 +384,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 受付日から30年
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 換地処分区域内の地積測量図は閉鎖後30年
@@ -404,10 +404,10 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 不動産登記規則28条1項1号（現に効力を有する登記記録は永久保存）・2号
-（地図に準ずる図面は閉鎖後も永久保存、肢ア）・4号（土地の閉鎖登記記録
-は50年、肢イ）・9号（表示に関する登記の申請情報等は30年、肢エ）・11号
-（職権表示登記等事件簿は5年、肢ウ）・13号（土地所在図等は閉鎖後30年、
-肢オ）に基づく整理です。
+（地図に準ずる図面は閉鎖後も永久保存、ア）・4号（土地の閉鎖登記記録
+は50年、イ）・9号（表示に関する登記の申請情報等は30年、エ）・11号
+（職権表示登記等事件簿は5年、ウ）・13号（土地所在図等は閉鎖後30年、
+オ）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

@@ -307,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 詐術の有無をまず確認する
@@ -326,7 +326,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 詐術あれば取消し不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 後見人不在の間は時効が止まる
@@ -346,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 6か月は時効完成猶予
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 保証は同意が必要な行為
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 保証は同意が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 保佐と補助で同意の要否が違う
@@ -384,7 +384,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 保佐は同意不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 後見開始で旧保佐審判は取消し
@@ -415,7 +415,7 @@ renders as a Simplified or Traditional Chinese variant, redraw that character in
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢
-（肢イ・肢エ）is drawn as an actual flowchart with branch nodes (not a
+（イ・エ）is drawn as an actual flowchart with branch nodes (not a
 bare illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary

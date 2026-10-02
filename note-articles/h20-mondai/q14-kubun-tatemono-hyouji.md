@@ -84,13 +84,13 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・エが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で条文原文を確認し、肢エの根拠条文を訂正しました】** `fudousan-touki-hou.md`で**47条**（新築した建物の表題登記義務。2項は区分建物の**原始取得者の相続人その他の一般承継人**による申請を定めるもので、転得者＝買主の話ではありません）と**48条**（1項＝他の区分建物との「併せて申請」義務。2項＝同一棟内の他の区分建物所有者に代わる申請。4項＝表題登記がある建物への接続新築の場合に、表題部所有者等の**相続人その他の一般承継人**に代わる申請）を条文原文で確認しました。いずれも「相続その他の一般承継」の場面を定めるもので、肢エが想定する「原始取得者から区分建物を買った転得者」による代位申請を直接定める条文ではありません。肢エの根拠は、表示に関する登記についても民法423条その他の法令の規定により代位申請ができるとする**不動産登記令3条4号**に改めました。判定（エは正しい）自体は公式正答のとおり変わりません。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で条文原文を確認し、エの根拠条文を訂正しました】** `fudousan-touki-hou.md`で**47条**（新築した建物の表題登記義務。2項は区分建物の**原始取得者の相続人その他の一般承継人**による申請を定めるもので、転得者＝買主の話ではありません）と**48条**（1項＝他の区分建物との「併せて申請」義務。2項＝同一棟内の他の区分建物所有者に代わる申請。4項＝表題登記がある建物への接続新築の場合に、表題部所有者等の**相続人その他の一般承継人**に代わる申請）を条文原文で確認しました。いずれも「相続その他の一般承継」の場面を定めるもので、エが想定する「原始取得者から区分建物を買った転得者」による代位申請を直接定める条文ではありません。エの根拠は、表示に関する登記についても民法423条その他の法令の規定により代位申請ができるとする**不動産登記令3条4号**に改めました。判定（エは正しい）自体は公式正答のとおり変わりません。
 - ウ（48条1項が求めるのは「併せて申請」であって「一の申請情報」ではないこと）は、48条1項の条文原文で確認済みです。
 - イ（区分建物の床面積を求積する際、柱部分の凹凸を無視して壁面のみの内側線で計算すること）について、規則115条は区分建物の床面積を「壁その他の区画の**内側線**で囲まれた部分の水平投影面積」と定めていることを確認しましたが、**柱の凹凸を無視して壁面でならすという具体的な計算方法を明示した条文・先例は、laws/収録の規則・準則からも特定できませんでした**。公式正答（イエ）と整合させるための推論にとどまる、確度が低い箇所です。
 - ア（地下・地上にまたがる区分建物の階層表示の呼び方）は、区分建物の表示登記実務上の呼称に関する一般的な理解に基づく説明で、根拠となる準則・先例までは特定できていません。
 - オ（敷地権の登記原因日付が敷地利用権の取得時期で変わること）について、規則118条は「敷地権の登記原因及びその日付」を登記記録に記録する旨を定めていますが、**「新築前から権利を有していたか、後から取得したか」で日付が変わるという具体的なルールを明示した条文までは、laws/からは特定できませんでした**。実務上定着した理解に基づく説明です。
 - なお、アプリのデータベースの補足解説（kaisetsu_plus.json）ではウを「正しい」としていましたが、公式正答（イエ）と整合しないため、本記事ではウを誤りとして扱っています。
-- **【重複出題あり】重複出題チェック（2026-07-22実施）**：H30年度第12問の肢エが、「Bが所有する土地に区分建物を新築したAが、建物完成後にBからその土地を買い受けて敷地権付き区分建物として表題登記を申請する」という本問の肢オと完全に同一の登場人物・場面設定を用いています（結論として問われる日付が、本問では「新築の日」、H30年度第12問では「表題登記の申請日」である点のみ異なります）。**noteへの投稿にあたっては、H30年度第12問の解説記事とテーマ・具体例が重複する点に注意し、両方を続けて発信しないようにしてください。**
+- **【重複出題あり】重複出題チェック（2026-07-22実施）**：H30年度第12問のエが、「Bが所有する土地に区分建物を新築したAが、建物完成後にBからその土地を買い受けて敷地権付き区分建物として表題登記を申請する」という本問のオと完全に同一の登場人物・場面設定を用いています（結論として問われる日付が、本問では「新築の日」、H30年度第12問では「表題登記の申請日」である点のみ異なります）。**noteへの投稿にあたっては、H30年度第12問の解説記事とテーマ・具体例が重複する点に注意し、両方を続けて発信しないようにしてください。**
 
 ---
 
@@ -252,10 +252,10 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
 肢 is resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Panel 1（肢ア）and Panel 3（肢ウ）
+sufficient — do not force a flowchart. Panel 1（ア）and Panel 3（ウ）
 each turn on telling apart two things that are easy to confuse（正しい階層
 表示／誤った階層表示、「併せて申請」／「一の申請情報」）, so draw them as
-LEFT/RIGHT (誤り／正しい) comparison panels. Panel 5（肢オ）requires
+LEFT/RIGHT (誤り／正しい) comparison panels. Panel 5（オ）requires
 checking WHEN the 敷地利用権 was acquired before a conclusion can be
 reached, so draw it as an actual decision flowchart with a single diamond
 branch node, two Yes/No branch arrows, and two distinct conclusion nodes
@@ -307,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line):
 地下地上をまたぐ部屋は地下一階地上一階建
@@ -323,7 +323,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 地下一階地上一階建
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line):
 柱の凹凸は無視し壁面で求積する
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 壁面基準の内側線
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line):
 併せて申請と一の申請情報は別の話
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 併せて申請すれば足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line):
 原始取得者が未申請なら転得者が代位できる
@@ -376,7 +376,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 転得者が代位申請可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line):
 敷地利用権の取得時期で登記原因日付が変わる

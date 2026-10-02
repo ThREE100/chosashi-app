@@ -267,10 +267,10 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 1 (肢ア) must be drawn as a two-step AND flowchart, since
+flowchart. Panel 1 (ア) must be drawn as a two-step AND flowchart, since
 宅地造成工事の完了 and 建築確認済証の交付 are two distinct conditions that
 must both be satisfied — give each its own diamond node. Panels 3 and 4
-(肢ウ・肢エ) share the same decision tree (a diamond node asking whether
+(ウ・エ) share the same decision tree (a diamond node asking whether
 a building within a larger tract is merely incidental to the tract's main
 use, or is instead a substantial, independent use such as a 永久的設備);
 render the branch relevant to THIS panel with a thick highlighted border
@@ -320,7 +320,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 造成完了と確認済証の有無を確認する
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 着工前でも宅地認定可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 公道で区分された駐車場は雑種地
@@ -357,7 +357,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 駐車場は雑種地
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 建物が付随的なら全体を雑種地とする
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 全体が雑種地のまま
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 永久的設備の建物は敷地部分だけ宅地
@@ -403,7 +403,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 建物部分だけ宅地
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 地表の用途は病院だから宅地と判断

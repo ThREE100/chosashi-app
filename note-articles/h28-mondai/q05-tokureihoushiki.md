@@ -93,10 +93,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - この第5問は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）には収録されていません。法務省公表の試験問題原本（ユーザーが提供したPDF）から問題文を直接確認したうえで、AI（Claude）が解説を作成したものです。
 - 正解番号（2番＝ア・オ）は、法務省公式の正答PDF（ユーザー提供）と照合済みです。
-- **条文レベルで確認できた根拠（2026-08-18実施）**：ローカル法令データベース（`laws/fudousan-touki-rei.md`、`laws/fudousan-touki-kisoku-1.md`、`laws/fudousan-touki-kisoku-3.md`）で、各肢の根拠条文を逐条確認しました。肢アは不動産登記規則附則21条1項（各添付情報につき書面を提出する方法によるか否かの別をも申請情報の内容とする）および不動産登記令附則5条2項、肢イは不動産登記令附則5条1項と不動産登記規則附則21条4項（送付の方法による提出を前提とした規定）、肢ウは不動産登記規則附則21条4項（書留郵便又は引受け及び配達の記録を行う信書便）および同条5項（封筒表面への在中明記）、肢エは不動産登記規則附則24条1項による同規則38条3項・39条3項（却下時・取下げ時の添付書面の還付、偽造書面等は除く）の準用、肢オは同規則附則24条2項による同規則55条（添付書面の原本の還付請求）の準用と、それぞれ条文の文言まで一致することを確認済みです。
-- **条文レベルで確認しきれていない点**：肢イについて「持参によることができる」ことを正面から定めた条文はなく、不動産登記令附則5条1項の「登記所に提出する方法」という文言と、送付の方法を前提とする不動産登記規則附則21条4項の存在からの解釈です（結論自体は令和3年度第4問肢イでも正しい記述として出題されており、公式正解とも整合します）。
+- **条文レベルで確認できた根拠（2026-08-18実施）**：ローカル法令データベース（`laws/fudousan-touki-rei.md`、`laws/fudousan-touki-kisoku-1.md`、`laws/fudousan-touki-kisoku-3.md`）で、各肢の根拠条文を逐条確認しました。アは不動産登記規則附則21条1項（各添付情報につき書面を提出する方法によるか否かの別をも申請情報の内容とする）および不動産登記令附則5条2項、イは不動産登記令附則5条1項と不動産登記規則附則21条4項（送付の方法による提出を前提とした規定）、ウは不動産登記規則附則21条4項（書留郵便又は引受け及び配達の記録を行う信書便）および同条5項（封筒表面への在中明記）、エは不動産登記規則附則24条1項による同規則38条3項・39条3項（却下時・取下げ時の添付書面の還付、偽造書面等は除く）の準用、オは同規則附則24条2項による同規則55条（添付書面の原本の還付請求）の準用と、それぞれ条文の文言まで一致することを確認済みです。
+- **条文レベルで確認しきれていない点**：イについて「持参によることができる」ことを正面から定めた条文はなく、不動産登記令附則5条1項の「登記所に提出する方法」という文言と、送付の方法を前提とする不動産登記規則附則21条4項の存在からの解釈です（結論自体は令和3年度第4問イでも正しい記述として出題されており、公式正解とも整合します）。
 - **最新法令チェック（2026-08-18実施）**：不動産登記令附則5条・不動産登記規則附則21条・24条は、いずれも本記事執筆時点のローカル法令データベース収録版で本文の説明と一致しており、相続登記義務化・住所変更登記義務化などの近年の改正による影響は本問の論点には及びません。ただし特例方式は令附則5条が「当分の間」として置く経過的な制度であり、電子申請の全面化に向けた将来の改正で見直される可能性がある点には留意してください。
-- **重複出題チェック（2026-07-21実施・2026-08-18更新）**：takuitsu.jsonを検索したところ、令和3年度第4問の肢イが、本問の肢イと同一の論点（特例方式による書面を登記所へ持参する方法と送付する方法のいずれによることもできる）を扱っており、**同じ結論で再出題されています**。また平成30年度第4問の肢エは特例方式に触れていますが、登記識別情報が特例方式の対象外である点（不動産登記令附則5条1項の括弧書き）を問うもので、本問とは論点が異なります。本問のその他の論点（添付情報ごとの書面提出有無の記載、書留郵便等による送付、却下・取下げ後の書面還付、原本還付請求）に一致する出題は見つかりませんでした。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-21実施・2026-08-18更新）**：takuitsu.jsonを検索したところ、令和3年度第4問のイが、本問のイと同一の論点（特例方式による書面を登記所へ持参する方法と送付する方法のいずれによることもできる）を扱っており、**同じ結論で再出題されています**。また平成30年度第4問のエは特例方式に触れていますが、登記識別情報が特例方式の対象外である点（不動産登記令附則5条1項の括弧書き）を問うもので、本問とは論点が異なります。本問のその他の論点（添付情報ごとの書面提出有無の記載、書留郵便等による送付、却下・取下げ後の書面還付、原本還付請求）に一致する出題は見つかりませんでした。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -270,18 +270,18 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node.
 Where a 肢 is resolved by a single check, a labeled illustrative diagram
-is sufficient — do not force a flowchart. Panel 1 (肢ア) must be a
+is sufficient — do not force a flowchart. Panel 1 (ア) must be a
 two-step flowchart that keeps the two separate recording requirements
-distinct. Panel 2 (肢イ) and Panel 3 (肢ウ) share ONE identical decision
+distinct. Panel 2 (イ) and Panel 3 (ウ) share ONE identical decision
 tree about how the paper attachment reaches the registry office; draw
 the same tree shape in both panels. Where a panel reuses a decision
 tree shared with other panels in this set, render the branch relevant
 to THIS panel with a thick highlighted border and full color, and render
 the other, unrelated branches in a faded, greyed-out, or dotted-outline
 style rather than omitting them — the reader should be able to see at a
-glance which part of the shared tree this panel is about. Panel 4 (肢エ)
+glance which part of the shared tree this panel is about. Panel 4 (エ)
 must be a flowchart whose final diamond node shows BOTH outcomes, each
-leading to its own separate conclusion node. Panel 5 (肢オ) uses a
+leading to its own separate conclusion node. Panel 5 (オ) uses a
 correct-vs-mistaken contrast frame (left/right) plus one small follow-up
 check below it. In every flowchart, every branch arrow must lead forward
 to a new node — never draw a loop arrow that returns from a diamond node
@@ -336,7 +336,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 別の記載は省略不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 書面の添付情報は持参でも送付でも提出できる
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 持参・送付どちらも可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 送付は書留郵便か記録の残る信書便に限る
@@ -415,7 +415,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 書留郵便等に限る
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in orange containing the number 4.
 Heading (bold, ONE line):
 却下・取下げ時の添付書面は原則として還付
@@ -437,7 +437,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 疑わしい書面以外は還付
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in orange containing the number 5.
 Heading (bold, ONE line):
 特例方式の添付書面も原本還付を請求できる

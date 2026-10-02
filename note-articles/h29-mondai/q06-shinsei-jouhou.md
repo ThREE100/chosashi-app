@@ -229,7 +229,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢イは「会社法人等番号を提供すると省略できるのは添付情報か、申請情報の記載事項か」という、そもそも異なる2つの場面を見分ける対比枠型にした。肢ア・エは条件の有無やその条件が結論に影響するかを問う簡潔な決定木、肢ウ・オは申請書の記載欄をそのまま図解する単純な確認図とし、この記事の5肢は共通の決定木を持たないため、各パネルを独立に設計した。
+イは「会社法人等番号を提供すると省略できるのは添付情報か、申請情報の記載事項か」という、そもそも異なる2つの場面を見分ける対比枠型にした。ア・エは条件の有無やその条件が結論に影響するかを問う簡潔な決定木、ウ・オは申請書の記載欄をそのまま図解する単純な確認図とし、この記事の5肢は共通の決定木を持たないため、各パネルを独立に設計した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -302,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 不動産番号があれば所在等は省略可
@@ -320,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 番号があれば省略可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 会社法人等番号でも代表者名は必須
@@ -340,7 +340,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代表者名は省略不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 更正前の氏名は記載しなくてよい
@@ -356,7 +356,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 更正後のみで足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 持分は同じでも必ず記載する
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 持分は必ず記載
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 免税でも根拠条項の記載は必要

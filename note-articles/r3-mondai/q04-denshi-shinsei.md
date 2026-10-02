@@ -338,7 +338,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 登記識別情報はシステム入力に限られる
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 スキャン提供は不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 特例書面は持参・送付どちらも可能
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 持参・送付 どちらも可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 委任状の電子署名は申請人本人のみ有効
@@ -403,7 +403,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 本人の電子署名 必須
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 報告書を添えれば原本提示は省略できる
@@ -427,7 +427,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原本提示 省略可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 取下げの方法は申請の方法に合わせる
@@ -465,10 +465,10 @@ attention to 号・録・登・記・所・署. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢（肢ウ・肢エ・肢
+the header and the panels, that every multi-condition 肢（ウ・エ・肢
 オ）is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that no 肢 with a
-genuinely hidden second condition (肢ウ) has been flattened into a single
+genuinely hidden second condition (ウ) has been flattened into a single
 check, that each 着眼点 callout states a checking order rather than only
 a conclusion and keeps every required element from the source article
 distinct (no merged or dropped requirements), that panel 3's inapplicable

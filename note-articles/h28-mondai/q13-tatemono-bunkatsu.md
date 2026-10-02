@@ -322,7 +322,7 @@ Title (large, bold, 2行):
 登記記録はこう変わる
 
 Subtitle (smaller, centered, 1行):
-平成28年度 午後の部 第13問 肢エ－建物の分割にともなう所在変更の記録
+平成28年度 午後の部 第13問 エ－建物の分割にともなう所在変更の記録
 
 （タイトル・サブタイトルのすぐ下にステップ群を続ける。導入イラスト・導入文の
 ブロックは置かない。矢印でSTEP 1からSTEP 4へ縦につなげる。）
@@ -374,7 +374,7 @@ Caption (small text below, 5-15 Japanese characters):
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第13問 肢エ
+平成28年度 午後の部 第13問 エ
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
@@ -444,7 +444,7 @@ Title (large, bold, 2行):
 「分割による所有権の登記」
 
 Subtitle (smaller, centered, 1行):
-平成28年度 午後の部 第13問 肢オ－所有権登記が先にある場合の記録方法
+平成28年度 午後の部 第13問 オ－所有権登記が先にある場合の記録方法
 
 （タイトル・サブタイトルのすぐ下にステップ群を続ける。導入イラスト・導入文の
 ブロックは置かない。矢印でSTEP 1からSTEP 4へ縦につなげる。）
@@ -496,7 +496,7 @@ Caption (small text below, 5-15 Japanese characters):
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第13問 肢オ
+平成28年度 午後の部 第13問 オ
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
@@ -538,17 +538,17 @@ conditions to get there — isometric icons of a main building (甲建物)
 with an attached warehouse annex (附属建物) being split off into a new
 building (乙建物), a mortgage tag (抵当権), consent and application
 document icons, registry record cards, a registry office counter, and
-simple buyer/seller figures. Panel 1 (肢ア) and Panel 2 (肢イ) each
+simple buyer/seller figures. Panel 1 (ア) and Panel 2 (イ) each
 require checking conditions in sequence, so draw them as actual decision
 flowcharts: diamond-shaped branch nodes with the condition written on
 them, はい/いいえ branch arrows, and a final conclusion node for EACH
 branch. In both of these flowcharts, both the はい side and the いいえ side
 lead to their own separate conclusion node, and no arrow may loop back to
 an earlier node anywhere in the diagram — every branch arrow must end at a
-new conclusion node. Panel 3 (肢ウ) is a relationship diagram between the
-seller and the buyer with numbered checkpoints, Panel 4 (肢エ) is a
+new conclusion node. Panel 3 (ウ) is a relationship diagram between the
+seller and the buyer with numbered checkpoints, Panel 4 (エ) is a
 side-by-side correct-vs-mistaken comparison of registry record cards, and
-Panel 5 (肢オ) is a left-to-right timeline — do not force a flowchart on
+Panel 5 (オ) is a left-to-right timeline — do not force a flowchart on
 Panels 3-5. No two panels in this set share the same decision tree, so
 each panel stands on its own. Where a diagram must show something that
 does not remain (e.g. a mortgage tag that is extinguished on one
@@ -600,7 +600,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line):
 消滅承諾情報があれば抵当権は甲建物だけに残る
@@ -625,7 +625,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 甲建物のみに存続
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line):
 共用部分の登記があると所有者証明が必要になる
@@ -654,7 +654,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 所有者証明が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line):
 附属建物の買主は代位して分割登記を申請できる
@@ -675,7 +675,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 代位申請できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line):
 所在が変わったら変更前の事項も抹消記号付きで残る
@@ -697,7 +697,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 変更前後を記録
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line):
 所有権の登記が先なら乙建物には転写されない

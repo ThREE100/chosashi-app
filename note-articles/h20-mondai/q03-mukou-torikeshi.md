@@ -75,9 +75,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・オが「取消しうる行為のみ」を指す）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
 - **【2026年8月4日 現行民法との整合性を再確認しました】** 平成29年の債権法改正（令和2年4月1日施行）および成年年齢引下げ等の改正を経ても、本問に関係する条文番号は次のとおり変わっていません。**9条**（成年被後見人の法律行為は取り消すことができる。ただし日用品の購入その他日常生活に関する行為を除く）、**121条**（取り消された行為は初めから無効であったものとみなす）、**122条**（追認）、**126条**（取消権の期間の制限＝追認可能時から5年・行為の時から20年）。
-- ただし1点、**肢エの根拠が現行法では変わっています**。改正により民法121条の2（原状回復の義務）が新設され、無効な行為に基づく給付の返還は、改正前のように民法703条以下の不当利得の一般規定ではなく、121条の2で処理されることになりました。取消しの場合も121条により初めから無効とみなされるため同条が適用されます。これに合わせて肢エの解説を書き換えています。制限行為能力者は「現に利益を受けている限度」で返還すれば足りる（121条の2第3項）という点も、あわせて押さえておくと理解が深まります。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証しました】** `minpou-1-soukyoku-bukken.md`（2026-08-04取得の現行民法）で、**9条**・**120条**（取消権者）・**121条**・**121条の2**（1項＝原状回復義務、3項＝制限行為能力者は現に利益を受けている限度で返還）・**122条**・**126条**（5年／20年）の条文番号・見出し・本文を原文で確認し、記事の記載と一致していることを確かめました。条文根拠の修正は不要でした。あわせて、簡潔性ルール（各肢の本文2〜3文）に沿って、肢アの改正経緯に関する段落を削除し、肢エの121条の2の説明を1文に圧縮しました（詳しい経緯はこの確認事項ブロックに残しています）。
-- 肢イが指す「無効はだれでも主張できる」というルールは、`laws/`の民法にも明文の根拠条文が置かれていないことを確認しました（無効・取消しの性質の対比に関する一般的な理解に基づく説明です）。
+- ただし1点、**エの根拠が現行法では変わっています**。改正により民法121条の2（原状回復の義務）が新設され、無効な行為に基づく給付の返還は、改正前のように民法703条以下の不当利得の一般規定ではなく、121条の2で処理されることになりました。取消しの場合も121条により初めから無効とみなされるため同条が適用されます。これに合わせてエの解説を書き換えています。制限行為能力者は「現に利益を受けている限度」で返還すれば足りる（121条の2第3項）という点も、あわせて押さえておくと理解が深まります。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証しました】** `minpou-1-soukyoku-bukken.md`（2026-08-04取得の現行民法）で、**9条**・**120条**（取消権者）・**121条**・**121条の2**（1項＝原状回復義務、3項＝制限行為能力者は現に利益を受けている限度で返還）・**122条**・**126条**（5年／20年）の条文番号・見出し・本文を原文で確認し、記事の記載と一致していることを確かめました。条文根拠の修正は不要でした。あわせて、簡潔性ルール（各肢の本文2〜3文）に沿って、アの改正経緯に関する段落を削除し、エの121条の2の説明を1文に圧縮しました（詳しい経緯はこの確認事項ブロックに残しています）。
+- イが指す「無効はだれでも主張できる」というルールは、`laws/`の民法にも明文の根拠条文が置かれていないことを確認しました（無効・取消しの性質の対比に関する一般的な理解に基づく説明です）。
 - オ（9条）、ウ（121条）、ア（126条・122条）は条文に基づく説明です。イ（無効はだれでも主張できること）は明文の規定ではなく、無効・取消しの性質の対比に関する一般的な理解に基づく説明です。
 - アプリのデータベースの補足解説（kaisetsu_plus.json）はこの問題について「reviewed: false（未検証）」の状態でしたので、本記事は公式正答に合わせて各肢を独自に判定して作成しています。ローカルのアガルート過去問テキスト等は本問について参照できるテキスト解説が手元になく、参照していません。
 - 【重要】データベース（takuitsu.json）に保存されていた各肢の原文は、「行為後一定期間経過で確定的に有効となる場合がある」のような短い要約形式でした。上記の引用部分（問題文全文）は、この要約をもとに一般的な条文体の言い回しで再構成したものであり、平成20年度の試験問題原本の一字一句そのままではない可能性があります。noteに掲載する前に、法務省公表の試験問題原本と照合することを強くおすすめします。
@@ -246,7 +246,7 @@ highlighted (thicker border, distinct color). Only when 無効の列が✕で取
 in sequence before reaching a conclusion, draw the panel's diagram as an
 actual decision flowchart with diamond-shaped branch nodes and Yes/No
 （はい／いいえ）branch arrows leading to a final conclusion node; where a
-肢 is resolved by a single check (e.g. 肢ウ), a labeled illustrative
+肢 is resolved by a single check (e.g. ウ), a labeled illustrative
 diagram is sufficient. Do not include case or precedent numbers
 (article/regulation numbers are fine); keep the callout text as written
 below verbatim.
@@ -286,7 +286,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft beige containing the number 1.
 Heading (bold, ONE line):
 期間経過で確定的に有効になるのは取消しだけ
@@ -308,7 +308,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 取消しうる行為のみの特徴
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft beige containing the number 2.
 Heading (bold, ONE line):
 誰でも主張できるのは無効の特徴
@@ -327,7 +327,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 無効にも当てはまる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3.
 Heading (bold, ONE line):
 取消しは遡及効であり将来効ではない
@@ -344,7 +344,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 遡及効であり将来効でない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft beige containing the number 4.
 Heading (bold, ONE line):
 返金請求は無効・取消しの両方に共通
@@ -364,7 +364,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 無効・取消し共通の効果
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft beige containing the number 5.
 Heading (bold, ONE line):
 成年被後見人の行為は原則取消しうる行為

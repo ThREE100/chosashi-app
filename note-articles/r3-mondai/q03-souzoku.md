@@ -282,7 +282,7 @@ must read as a short heading + a short conclusion tag, at a glance. Confirm noth
 
 ## インフォグラフィック プロンプト（ウ肢・間違いノート）
 
-肢ウ「遺産共有の解消は、共有物分割請求ではなく遺産分割で行う」について、「法定相続分に相当する共有持分がある」という事実と「どの手続で解消するか」を混同しやすい点を、原則（家庭裁判所の遺産分割）→例外（民法258条の2、令和5年4月1日施行、10年経過＋異議なし）の2段階フローチャートで整理した。
+ウ「遺産共有の解消は、共有物分割請求ではなく遺産分割で行う」について、「法定相続分に相当する共有持分がある」という事実と「どの手続で解消するか」を混同しやすい点を、原則（家庭裁判所の遺産分割）→例外（民法258条の2、令和5年4月1日施行、10年経過＋異議なし）の2段階フローチャートで整理した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -332,7 +332,7 @@ Title (large, bold, 2行):
 「遺産分割」でするんです
 
 Subtitle (smaller, centered, 2行):
-令和3年度 午後の部 第3問 肢ウ
+令和3年度 午後の部 第3問 ウ
 共有物分割請求ではなく家庭裁判所へ
 
 --- FLOWCHART (2段階フローチャート、縦方向に上から下へ) ---
@@ -420,7 +420,7 @@ diamond-shaped branch nodes with the condition written on them, Yes/No
 resolved by a single check, a labeled illustrative diagram is
 sufficient — do not force a flowchart. This article's five 肢 do not
 share a single common decision-tree shape, so design each panel's diagram
-independently around its own fact pattern; Panels 2 and 4（肢イ・肢エ）
+independently around its own fact pattern; Panels 2 and 4（イ・エ）
 each require an actual multi-step flowchart because they depend on more
 than one condition. When drawing the family tree in Panel 2, follow these
 rules strictly: vertical position represents generation (被相続人Ｙを
@@ -470,7 +470,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 兄弟姉妹の相続分は4分の1
@@ -486,7 +486,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 兄弟姉妹は4分の1
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 Ｆの二重資格は合算して判定
@@ -510,7 +510,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 二重資格は合算する
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 遺産共有の解消は遺産分割で
@@ -527,7 +527,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 遺産分割による解消
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 超える持分は登記の有無で決まる
@@ -547,7 +547,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 超過分は登記が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 相続させる遺言は死亡時に直ちに承継
@@ -577,7 +577,7 @@ character renders as a Simplified or Traditional Chinese variant, redraw that ch
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every
-multi-condition 肢（肢イ・肢エ）is drawn as an actual flowchart with
+multi-condition 肢（イ・エ）is drawn as an actual flowchart with
 branch nodes (not a bare illustration with no visible decision
 structure), that the family tree in Panel 2 places Ｙ at the top
 generation, Ｄ and Ｅ side-by-side at the same generation, and the arrow

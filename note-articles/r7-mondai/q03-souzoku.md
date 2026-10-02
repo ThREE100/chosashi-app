@@ -323,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申述先を家庭裁判所か法務局かで確認
@@ -338,7 +338,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 家庭裁判所へ申述
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 決定前の管理基準を確認する
@@ -353,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 固有財産と同一の注意
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 弁済の順序を1・2の番号で確認する
@@ -367,7 +367,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 債権者が先、遺贈は後
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 処分行為か保存行為かを見分ける
@@ -383,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為は対象外
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 期間徒過者がいても他の相続人を確認
@@ -416,7 +416,7 @@ renders as a Simplified or Traditional Chinese variant, redraw that character in
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that the multi-condition 肢
-（肢オ）is drawn as an actual flowchart with branch nodes (not a bare
+（オ）is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary

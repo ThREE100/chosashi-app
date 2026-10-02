@@ -271,7 +271,7 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panel 3（肢ウ）must be drawn as a 正誤対比型
+— do not force a flowchart. Panel 3（ウ）must be drawn as a 正誤対比型
 side-by-side comparison: one side showing the correct label 地下4階付き
 2階建 with a checkmark, the other side showing the easily-mistaken label
 地上2階付き地下4階建 with a red ✕ and a strikethrough, because the whole
@@ -320,7 +320,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 開閉式屋根の下も床面積に算入する
@@ -337,7 +337,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 開閉部の下も算入
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 構成材料が混ざっているかを確認する
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 混構造は両方併記
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 地下と地上どちらを先に書くかを見分ける
@@ -376,7 +376,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地下が常に先
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 地下街の通路が常時開放されているかを確認する
@@ -398,7 +398,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 共用通路は不算入
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 床面積不算入部分の屋根の扱いを確認する

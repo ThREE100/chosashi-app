@@ -76,7 +76,7 @@
 - 出題年度・問題番号・正解番号（5番＝ウ・エ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - ア（建物分割時の図面への符号表示）、ウ（複数建物の図面訂正申出は建物ごとに行うこと）、エ（種類変更登記では図面の新規提供が不要であること）、オ（複数所有権登記名義人がいる場合の単独での訂正申出）は実務上確立した取扱いです。イ（区分建物の表題登記における一棟の建物の各階平面図の省略）については、区分建物の各階平面図が一棟の建物全体の情報も兼ねるという実務上の理解に基づいて整理していますが、根拠となる不動産登記規則の逐条確認までは至っていない部分があります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。建物図面又は各階平面図の提供要否がテーマ。H28第17問・R07第10問も同じ「建物図面及び各階平面図」がテーマですが、問われている肢の内容（作成方法・敷地の記載等）は完全に異なり、同一問題ではありません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令チェック（2026-08-16再実施）**：建物図面・各階平面図の提供要否に関する規定について、`note-articles/laws/`に保存した不動産登記法・不動産登記令・不動産登記規則の現行条文（2026-08-04取得）で再確認しましたが、直近の法改正で変更された事実は見当たりません。ウ（2棟分の建物図面訂正申出の一括可否）・オ（共有者の一人による訂正申出の可否）について、不動産登記規則88条（土地所在図の訂正等）を確認しましたが、いずれの点も条文上明記されておらず、実務上の取扱いにとどまります。肢イの技術的な扱いとあわせ、根拠条文の逐条確認までは至っていません。
+- **最新法令チェック（2026-08-16再実施）**：建物図面・各階平面図の提供要否に関する規定について、`note-articles/laws/`に保存した不動産登記法・不動産登記令・不動産登記規則の現行条文（2026-08-04取得）で再確認しましたが、直近の法改正で変更された事実は見当たりません。ウ（2棟分の建物図面訂正申出の一括可否）・オ（共有者の一人による訂正申出の可否）について、不動産登記規則88条（土地所在図の訂正等）を確認しましたが、いずれの点も条文上明記されておらず、実務上の取扱いにとどまります。イの技術的な扱いとあわせ、根拠条文の逐条確認までは至っていません。
 
 ---
 
@@ -302,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -322,7 +322,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 各建物に符号を表示
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一棟分は提供不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -360,7 +360,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 建物ごとに申出
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 新規図面の提出は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

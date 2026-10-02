@@ -80,12 +80,12 @@
 
 **このまま使える点／使う前に確認したい点**
 
-- 文章としてはこのままnoteに貼り付けて投稿できる内容です。本問は令和2年度午後の部第5問をもとに、令和6年4月1日施行の不動産登記規則改正（法定相続情報番号のみの提供による代替）を反映して問題文・選択肢を改めた「第5問（改）」です。原題は「正しいものの組合せ」を問う形式でしたが、肢アの結論が現行法では逆転したことに伴い、「誤っているものの組合せ」を問う形式・選択肢の組合せに改めています。
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。本問は令和2年度午後の部第5問をもとに、令和6年4月1日施行の不動産登記規則改正（法定相続情報番号のみの提供による代替）を反映して問題文・選択肢を改めた「第5問（改）」です。原題は「正しいものの組合せ」を問う形式でしたが、アの結論が現行法では逆転したことに伴い、「誤っているものの組合せ」を問う形式・選択肢の組合せに改めています。
 - 出典として法務省ウェブサイト（https://www.moj.go.jp/shikaku_saiyo_index5.html）を掲げていますが、これは土地家屋調査士試験の実施案内ページであり、本記事作成にあたって個別にアクセスして内容を検証したものではありません。原題（令和2年度午後の部第5問）の出題内容自体は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
-- 肢アに関する法改正の内容（施行日・根拠通達・改正前後の取扱いの違い）は、法務局公式サイト（houmukyoku.moj.go.jp）の案内、および複数の司法書士事務所の解説記事を突き合わせて確認しました。施行日（令和6年4月1日）と根拠通達（令和6年3月21日法務省民二第569号）は、いずれも法務局公式情報と符合していることを確認済みです。
-- 肢イ〜オ（原本還付・有効期間・廃除・地図訂正での利用）は、法定相続情報証明制度（平29.4.17民二292号通達に基づく制度）の一般的な取扱いから説明しています。個別の通達番号までの条文レベルの確定は本記事では行っていないため、詳細は各自の教材でも確認されることをおすすめします。
+- アに関する法改正の内容（施行日・根拠通達・改正前後の取扱いの違い）は、法務局公式サイト（houmukyoku.moj.go.jp）の案内、および複数の司法書士事務所の解説記事を突き合わせて確認しました。施行日（令和6年4月1日）と根拠通達（令和6年3月21日法務省民二第569号）は、いずれも法務局公式情報と符合していることを確認済みです。
+- イ〜オ（原本還付・有効期間・廃除・地図訂正での利用）は、法定相続情報証明制度（平29.4.17民二292号通達に基づく制度）の一般的な取扱いから説明しています。個別の通達番号までの条文レベルの確定は本記事では行っていないため、詳細は各自の教材でも確認されることをおすすめします。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。令和5年度第19問・令和7年度第18問も「法定相続情報一覧図」がテーマですが、令和5年度は一覧図の保管の申出手続そのもの（申出先・添付書類・再交付の申出人等）、令和7年度は保管の申出内容や、法定相続情報番号のみでの写し省略の可否（本問アで扱った論点の後継版）を問うものであり、本問（登記申請での一覧図写しの利用場面・還付・有効期間・廃除の記載省略）とは各肢の具体的な出題内容が異なるため、**本問と完全に重複する出題は見つかりませんでした**。なお、令和7年度第18問オは、本問アで検討した「法定相続情報番号のみでの提供省略」が実際に制度化された後の状態を示す問題であり、本問の解説と対比すると理解が深まる関係にあります。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **2026-08-18 再検証（qa-checklist.md C・D・E・F項目）**：本文（肢アの※注記）に先例番号「令和6年3月21日付法務省民二第569号」が記載されていたため、判例・先例番号は確認事項ブロックのみに記載するルールに従い本文から削除し、文末も敬体に整えました（先例番号自体は本ブロック上部に記載済みのため情報は失われていません）。また、まとめ表の直後に結論文が欠落していたためテンプレート（format-template.md）に沿って1文を追加しました。タイトルのキャッチフレーズ部分が49字と長大化していたため（他の記事は21〜23字）、法改正点を軸にした23字のフレーズに短縮しました（インフォグラフィックの見出しは変更していません）。まとめ・各肢見出し・確認事項ブロックの正解や判定は変更していません。
+- **2026-08-18 再検証（qa-checklist.md C・D・E・F項目）**：本文（アの※注記）に先例番号「令和6年3月21日付法務省民二第569号」が記載されていたため、判例・先例番号は確認事項ブロックのみに記載するルールに従い本文から削除し、文末も敬体に整えました（先例番号自体は本ブロック上部に記載済みのため情報は失われていません）。また、まとめ表の直後に結論文が欠落していたためテンプレート（format-template.md）に沿って1文を追加しました。タイトルのキャッチフレーズ部分が49字と長大化していたため（他の記事は21〜23字）、法改正点を軸にした23字のフレーズに短縮しました（インフォグラフィックの見出しは変更していません）。まとめ・各肢見出し・確認事項ブロックの正解や判定は変更していません。
 
 ---
 
@@ -225,7 +225,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、法定相続情報一覧図の写しを「どの場面で・どこまで使えるか」を思考順序に沿って確認できるようにする5パネル構成。肢アだけは「管轄登記所につづり込み済みか」という条件分岐で結論が変わるため決定木として描き、他の4肢は単一チェックの図解にする。②の色分け（写しの提出・返却に関するルール＝緑、記載内容・利用場面の広がり＝青）を引き継いでいる。
+問題文を読んだ瞬間に、法定相続情報一覧図の写しを「どの場面で・どこまで使えるか」を思考順序に沿って確認できるようにする5パネル構成。アだけは「管轄登記所につづり込み済みか」という条件分岐で結論が変わるため決定木として描き、他の4肢は単一チェックの図解にする。②の色分け（写しの提出・返却に関するルール＝緑、記載内容・利用場面の広がり＝青）を引き継いでいる。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -249,11 +249,11 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
 and a final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panel 1 (肢ア) must be drawn as a decision flowchart, because whether the
+Panel 1 (ア) must be drawn as a decision flowchart, because whether the
 number alone suffices depends on a real precondition (has the register
 office already filed a copy of this person's 一覧図？); give the diamond
 node's two branches distinct, clearly labeled conclusion nodes and no
-looping arrow back into the flow. Panel 4 (肢エ) should render an excluded
+looping arrow back into the flow. Panel 4 (エ) should render an excluded
 heir (a person who was disinherited and never appears in the 一覧図) in a
 faded, dotted-outline style within the family-tree diagram, rather than
 just an X mark, so the visual communicates that this person's share was
@@ -302,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 つづり込み済みなら番号提供のみで足りる
@@ -325,7 +325,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 番号だけで代替できる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 一覧図の写しは還付を請求できる
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 還付請求できる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 一覧図の写しに有効期間の制限はない
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 有効期間なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 廃除者不記載のため戸籍提出を省略できる
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 戸籍提出を省略可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 地図訂正の申出でも一覧図で代用できる

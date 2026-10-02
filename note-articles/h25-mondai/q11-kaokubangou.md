@@ -257,7 +257,7 @@ tag change, and a condominium tower with a master record list. Where a 肢
 requires checking multiple conditions in sequence before reaching a
 conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
-(or ○/✕) branch arrows, and a final conclusion node. Panel 3（肢ウ）must be
+(or ○/✕) branch arrows, and a final conclusion node. Panel 3（ウ）must be
 drawn as a genuine two-step decision flowchart rather than a single
 illustration, because this 肢 looks like a one-check rule ("地番の更正登記
 はできない") but actually hides a second condition: the family number DOES
@@ -311,7 +311,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 分割登記は分割前の家屋番号が必要
@@ -327,7 +327,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 分割前の番号が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 不動産番号があれば家屋番号は省略可
@@ -343,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 家屋番号は省略可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 番号は変わるが申請人からは更正できない
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請人からは更正できない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 区分建物は一棟にも二重記録
@@ -389,7 +389,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一棟にも記録される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 別管轄の附属建物は独立した番号なし
@@ -426,10 +426,10 @@ Hangul, other non-Japanese script, or stray decorative glyph — and remove
 or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢（肢ウ）is drawn
+the header and the panels, that every multi-condition 肢（ウ）is drawn
 as an actual flowchart with branch nodes (not a bare illustration with no
 visible decision structure), that the genuinely hidden second condition
-in 肢ウ (家屋番号は変わるが、変えるのは登記官であって申請人ではない) has
+in ウ (家屋番号は変わるが、変えるのは登記官であって申請人ではない) has
 not been flattened into a single check, that each 着眼点 callout states a
 checking order rather than only a conclusion and keeps every required
 element from the source article distinct (no merged or dropped

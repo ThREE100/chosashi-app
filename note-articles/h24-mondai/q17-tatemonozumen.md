@@ -82,7 +82,7 @@
 - 出題年度・問題番号・肢の全文・正解番号（4番＝イ・エ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - `note-articles/laws/`のローカル法令データベース（不動産登記規則、e-Gov現行法2026-08-04取得）で、ア・オ＝規則81条、エ＝規則83条2項の条文原文を確認しました。
 - **最新法令チェック追記（2026-08-08実施）**：**イについて、本記事の初版では「不動産登記規則76条1項」としていましたが、これは誤りでした。**ローカル法令データベースの条文原文を直接確認したところ、線の太さ（〇・二ミリメートル以下）を定めているのは**規則74条1項**であり、76条ではありません（76条は登記識別情報の様式に関する条文です）。あわせて、ユーザーから提供された資格試験予備校の教材（先例引用付き）により、ウ（極めて僅少な建物の拡大表示）は先例・昭和39年10月2日民事甲第3191号、オ（附属建物新築時の建物図面の記録範囲）は先例・昭和37年10月1日民事甲第2802号が根拠であることを確認しました。オについては、この先例が「各階平面図は新築に係る附属建物のみを提供すれば足りるが、建物図面には変更のない建物の表示も要する」と、建物図面と各階平面図とで扱いを書き分けている点も本文に反映しています。本文・まとめはこれらの内容を反映するように修正しています。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「建物図面」「各階平面図」がテーマの問題を確認しました。建物図面・各階平面図は令和7年度第10問、令和5年度第10問、令和3年度第13問、令和元年度第10問、平成28年度第17問、平成26年度第13問など毎年のように出題される定番テーマで、**特に本問肢オ（附属建物の新築による建物の表題部の変更の登記を申請する際に提供すべき建物図面には、主である建物も含めて記録しなければならない、という記述）と同じ論点が、令和6年度第14問、令和元年度第13問、平成26年度第14問でも出題されています。**それ以外の肢（ア・イ・ウ・エ）については完全に一致する出題は見つかりませんでした。noteでの発信時は、肢オの解説が既出感を持ちやすい点に注意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「建物図面」「各階平面図」がテーマの問題を確認しました。建物図面・各階平面図は令和7年度第10問、令和5年度第10問、令和3年度第13問、令和元年度第10問、平成28年度第17問、平成26年度第13問など毎年のように出題される定番テーマで、**特に本問オ（附属建物の新築による建物の表題部の変更の登記を申請する際に提供すべき建物図面には、主である建物も含めて記録しなければならない、という記述）と同じ論点が、令和6年度第14問、令和元年度第13問、平成26年度第14問でも出題されています。**それ以外の肢（ア・イ・ウ・エ）については完全に一致する出題は見つかりませんでした。noteでの発信時は、オの解説が既出感を持ちやすい点に注意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -260,7 +260,7 @@ frames of reference — so every panel uses a labeled illustrative diagram
 or a two-frame comparison rather than a forced flowchart; do NOT invent
 diamond branch nodes where the source article states a single rule. Where
 a 肢's body text adds a supplementary detail beyond the bare rule in the
-exam statement (肢ウの「本図と拡大図の方位をそろえる」という注意点), show
+exam statement (ウの「本図と拡大図の方位をそろえる」という注意点), show
 that detail as an integral, clearly labeled part of the illustrative
 diagram itself (e.g. matching compass/方位 marks on both drawings) rather
 than inventing a new pass/fail branch or a legal consequence that is not
@@ -309,7 +309,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 附属建物も合わせて1個で作成
@@ -326,7 +326,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 附属建物も含め1個で作成
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 線の太さは0.2ミリ以下が必要
@@ -349,7 +349,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 0.2ミリ以下が正しい基準
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 極小建物は方位そろえ余白に拡大
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 方位をそろえ余白に拡大
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 各階平面図の縮尺は建物図面と別枠
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 500分の1に限定されない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 建物図面は主建物も含め記録する
@@ -426,10 +426,10 @@ remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that no 肢 has been forced into an
-unnecessary flowchart with invented branch nodes, that 肢ウ's diagram
+unnecessary flowchart with invented branch nodes, that ウ's diagram
 shows matching compass/方位 marks on both the main drawing and the
 enlarged margin drawing rather than a fabricated pass/fail branch, that
-肢エ and 肢オ each clearly separate their two frames of reference (各階
+エ and オ each clearly separate their two frames of reference (各階
 平面図 vs 建物図面) rather than blending them into one diagram, that each
 着眼点 callout states a checking order rather than only a conclusion.
 Pay special attention to Panel 2: read the two pen-line labels side by

@@ -295,7 +295,7 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panels 3 and 5 (肢ウ・肢オ) share the same
+— do not force a flowchart. Panels 3 and 5 (ウ・オ) share the same
 underlying decision-tree shape (意思表示に瑕疵があるか確認 → 目的物・
 権利が第三者に渡ったか確認 → 第三者に要求される主観の程度を確認）;
 draw both with the same tree layout, but highlight（太い縁取り・色を変
@@ -343,7 +343,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 表意者の重過失で思考を止めない
@@ -364,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相手方の落ち度も確認
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 強迫は相手方の主観を確認しなくてよい
@@ -381,7 +381,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相手方の主観は不問
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 詐欺は転得者の無過失まで確認する
@@ -402,7 +402,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 善意無過失なら対抗不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 到達妨害は「発信時」で判断しない
@@ -419,7 +419,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 通常到達すべき時に到達
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 心裡留保は転得者の善意だけで足りる
@@ -451,8 +451,8 @@ a visually similar Simplified Chinese variant. If any character renders
 as a Simplified or Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢（肢ア・
-肢ウ・肢オ）is drawn as an actual flowchart with branch nodes (not a bare
+between the header and the panels, that every multi-condition 肢（ア・
+ウ・オ）is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that Panels 3 and 5
 visibly share the same tree layout with only the final diamond's label
 and highlighted branch differing, that each 着眼点 callout states a

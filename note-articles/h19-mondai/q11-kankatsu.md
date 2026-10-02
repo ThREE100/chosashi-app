@@ -109,7 +109,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典（平成19年度午前の部第11問）・正解番号（2番＝ア・エ）は、ユーザー提供の原本書き起こし、および土地家屋調査士試験対策アプリの検証済みデータベース（`src/data/takuitsu.json`の`chosashi_H19_q11`、`correctAnswer: 2`）の双方で一致を確認しています。
 - 条文根拠は`note-articles/laws/`のローカル法令データベース原文で直接確認しました。不動産登記法6条1項（登記の事務は不動産の所在地を管轄する登記所がつかさどる）、同条2項（不動産が二以上の登記所の管轄区域にまたがる場合、法務大臣又は法務局・地方法務局の長が管轄登記所を指定する）、同法119条1項・5項（登記事項証明書の交付請求は、法務省令で定める場合を除き、不動産の所在地を管轄する登記所以外の登記所にもすることができる）、いずれも条文原文と本文の記載が一致しています。
-- **オの根拠を訂正しました**：以前は不動産登記法6条2項（法務大臣等による管轄登記所の指定）のみを根拠としていましたが、本肢オの事案（既に甲登記所で登記されている建物が増築により乙登記所の管轄区域にまたがる場合）に直接該当するのは、不動産登記事務取扱手続準則5条（このような場合でも管轄登記所は甲登記所のままとする規定）であることを`note-articles/laws/fudousan-touki-jimu-junsoku.md`の原文で確認しました。あわせて、同一論点を扱う`src/data/takuitsu.json`の令和元年度第4問・平成27年度第12問の解説（いずれも準則5条を根拠として引用）とも整合することを確認済みです。本文・まとめの該当箇所を準則5条を根拠とする記述に修正しました。
+- **オの根拠を訂正しました**：以前は不動産登記法6条2項（法務大臣等による管轄登記所の指定）のみを根拠としていましたが、本オの事案（既に甲登記所で登記されている建物が増築により乙登記所の管轄区域にまたがる場合）に直接該当するのは、不動産登記事務取扱手続準則5条（このような場合でも管轄登記所は甲登記所のままとする規定）であることを`note-articles/laws/fudousan-touki-jimu-junsoku.md`の原文で確認しました。あわせて、同一論点を扱う`src/data/takuitsu.json`の令和元年度第4問・平成27年度第12問の解説（いずれも準則5条を根拠として引用）とも整合することを確認済みです。本文・まとめの該当箇所を準則5条を根拠とする記述に修正しました。
 - ウ（市町村合併等による管轄転属時に、登記記録の移送前でも旧管轄の登記所に申請できるか）については、不動産登記法6条1項の原則（転属の効力発生後は所在地を基準に乙登記所が管轄する）に加え、`note-articles/laws/fudousan-touki-kisoku-1.md`の不動産登記規則32条1項（管轄転属があったときは甲登記所の登記官が登記記録を乙登記所に移送する）も、転属後の事務を乙登記所が担うことを前提とした規定であることを確認しました。もっとも、「記録の移送前は甲登記所に申請できない」という結論そのものを直接定めた条文・先例までは確認できておらず、6条1項の原則からの推論にとどまる点は正直に申し添えます。
 - エ（敷地権化しても土地自体の管轄が変わらない）についても、6条1項の一般原則を敷地権のケースに当てはめた推論であり、敷地権に特有の管轄規定を条文に明文で確認できたわけではありません。
 - ア（行政区画未確定の埋立地の表題登記の可否）については、laws/内にも直接の定めが見当たらず、引き続き先例・実務上の取扱いからの整理にとどまります（先例：昭和30年5月17日民事甲第930号通達、昭和26年1月13日民事甲第43号）。これが不動産登記法6条の条文本文に直接明記された規定なのか、先例・通達レベルの取扱いなのかについては、条文原文からは断定を避けています。
@@ -348,7 +348,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled green circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -372,7 +372,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請先が定まらない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled green circle containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -395,7 +395,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全国どこでも可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled green circle containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -420,7 +420,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 移送前でも新管轄へ
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled green circle containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -446,7 +446,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 土地の管轄は不変
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled green circle containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

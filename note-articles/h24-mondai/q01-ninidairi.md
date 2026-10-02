@@ -255,7 +255,7 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
 Where a 肢 is resolved by a single check, a labeled illustrative diagram
-is sufficient — do not force a flowchart. Panel 4（肢エ）is the only
+is sufficient — do not force a flowchart. Panel 4（エ）is the only
 肢 in this problem that requires two sequential checks (知っていたか →
 通知・解任を怠ったか), so it alone is drawn as a true two-diamond
 flowchart; the other four panels use a single labeled comparison diagram
@@ -301,7 +301,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 相手方が知っていれば顕名不要
@@ -320,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相手方が悪意なら有効
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 知・不知の基準は本人でなく代理人
@@ -338,7 +338,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代理人が基準
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 未成年者でも代理人になれる
@@ -355,7 +355,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 未成年者でも可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 知りながら放置すれば債務不履行
@@ -375,7 +375,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 債務不履行の責任を負う
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 許諾があれば双方代理も有効
@@ -404,7 +404,7 @@ visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢エ is drawn as an actual
+between the header and the panels, that エ is drawn as an actual
 flowchart with two branch nodes (not a bare illustration with no visible
 decision structure) while the other panels use a single labeled
 comparison diagram, that each 着眼点 callout states a checking order

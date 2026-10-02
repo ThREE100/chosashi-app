@@ -82,11 +82,11 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
-- 各肢の根拠のうち、肢イ（用紙複数枚のときの総枚数・枚数の記載）と肢エ（建物図面の縮尺は原則500分の1）は、内容として確認できたものです。当初は不動産登記規則・準則の該当条文番号（規則51条／73条／74条／82条／88条・準則51条5項などの候補）を一つに断定できていませんでしたが、2026年8月の追加調査（下記参照）でそれぞれの条番号を確定し、本文・まとめに反映しました。
-- 肢ア（訂正申出は任意）、肢ウ（電子申請時の記録事項）、肢オ（隔壁除去は変更の手続による）についても、同じ2026年8月の追加調査で根拠条文（不登規88条1項・73条・88条1項ただし書）を確認し、本文に反映しました。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ正 エ誤 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（建物図面及び各階平面図）と同一・類似の問題が再出題されていないかを確認しました。候補のうち、令和5年度第10問の肢ア（建物図面・各階平面図に記録すべき事項、規則74条2項）は、本問の肢ウ（電子署名提供時の作成年月日・申請人・作成者氏名の記録）と記録事項の範囲という同一の条文論点を扱っており、また同問の肢ウ（床面積計算の誤りについて更正登記ができる場合は訂正の申出ができない、規則88条1項ただし書）は、本問の肢オ（隔壁除去による物理的変化は訂正の申出ではなく変更の登記による）と「訂正の申出の限界」という同一の論点を扱っています。**部分的に類似する記述があります**。なお、その他の候補（令和3年度第13問、令和7年度第10問）は、えい行移転・仮換地・団地共用部分や共用部分の規約廃止など別の場面を扱っており、本問の肢ア・イ・エとは重複しません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令への準拠チェック（2026年8月実施）**：WebSearchで不動産登記規則・準則の該当条文を調査し、従来「候補」として複数挙げていた条番号を確定しました。肢ア・オ（訂正の申出の任意性とその限界）＝不登規88条（1項本文が任意の申出であることの根拠、1項ただし書が「表題部の登記事項に関する更正の登記をすることができる場合は、この限りでない」と定めており、これが肢オで隔壁除去による物理的変化の場合に訂正の申出ではなく変更の登記によるべき根拠となる）。肢イ（用紙が数枚にわたるときの総枚数・枚数の記載）＝準則51条5項（本来は土地所在図・地積測量図の規定だが、建物図面・各階平面図にも準用される）。肢ウ（電子署名提供時の記録事項）＝不登規73条。肢エ（建物図面の縮尺原則500分の1）＝不登規82条。いずれも令和元年の出題当時から現在（2026年8月）までの間に条文番号の変更・実質改正は確認されず、内容も現行法どおりでした。確定した条番号を本文・まとめに反映しています。
+- 各肢の根拠のうち、イ（用紙複数枚のときの総枚数・枚数の記載）とエ（建物図面の縮尺は原則500分の1）は、内容として確認できたものです。当初は不動産登記規則・準則の該当条文番号（規則51条／73条／74条／82条／88条・準則51条5項などの候補）を一つに断定できていませんでしたが、2026年8月の追加調査（下記参照）でそれぞれの条番号を確定し、本文・まとめに反映しました。
+- ア（訂正申出は任意）、ウ（電子申請時の記録事項）、オ（隔壁除去は変更の手続による）についても、同じ2026年8月の追加調査で根拠条文（不登規88条1項・73条・88条1項ただし書）を確認し、本文に反映しました。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ正 エ誤 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（建物図面及び各階平面図）と同一・類似の問題が再出題されていないかを確認しました。候補のうち、令和5年度第10問のア（建物図面・各階平面図に記録すべき事項、規則74条2項）は、本問のウ（電子署名提供時の作成年月日・申請人・作成者氏名の記録）と記録事項の範囲という同一の条文論点を扱っており、また同問のウ（床面積計算の誤りについて更正登記ができる場合は訂正の申出ができない、規則88条1項ただし書）は、本問のオ（隔壁除去による物理的変化は訂正の申出ではなく変更の登記による）と「訂正の申出の限界」という同一の論点を扱っています。**部分的に類似する記述があります**。なお、その他の候補（令和3年度第13問、令和7年度第10問）は、えい行移転・仮換地・団地共用部分や共用部分の規約廃止など別の場面を扱っており、本問のア・イ・エとは重複しません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令への準拠チェック（2026年8月実施）**：WebSearchで不動産登記規則・準則の該当条文を調査し、従来「候補」として複数挙げていた条番号を確定しました。ア・オ（訂正の申出の任意性とその限界）＝不登規88条（1項本文が任意の申出であることの根拠、1項ただし書が「表題部の登記事項に関する更正の登記をすることができる場合は、この限りでない」と定めており、これがオで隔壁除去による物理的変化の場合に訂正の申出ではなく変更の登記によるべき根拠となる）。イ（用紙が数枚にわたるときの総枚数・枚数の記載）＝準則51条5項（本来は土地所在図・地積測量図の規定だが、建物図面・各階平面図にも準用される）。ウ（電子署名提供時の記録事項）＝不登規73条。エ（建物図面の縮尺原則500分の1）＝不登規82条。いずれも令和元年の出題当時から現在（2026年8月）までの間に条文番号の変更・実質改正は確認されず、内容も現行法どおりでした。確定した条番号を本文・まとめに反映しています。
 - **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（`note-articles/laws/fudousan-touki-kisoku-1.md`原文で規則73条2項・82条3項・88条1項（ただし書）を、`note-articles/laws/fudousan-touki-jimu-junsoku.md`原文で準則51条5項（54条3項による建物図面・各階平面図への準用）を1条ずつ直接突合し、ア・イ・ウ・エ・オすべての根拠条文が条文原文と完全に一致することを確認。判例・先例番号は本文になし）、B（正解番号3＝イウを`src/data/takuitsu.json`の`chosashi_R01_q10`の`correctAnswer`と再照合し一致を確認）、C（見出し・敬体・正解の先出しなし・条文解釈プロセスの解説なしを再確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックプロンプトと本文の整合を確認）、F（タイトルのキャッチフレーズ17字＝25字以内、テンプレート構造・確認事項ブロックを確認）、G（重複出題チェック・最新法令チェックは上記の既存記載を再確認）を実施し、修正すべき誤りは見つかりませんでした。
 
 ---
@@ -258,7 +258,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — isometric drafting tables, building floor
 plans, digital tablets with electronic seals, stacked paper sheets with
 margin notes, a small scale ruler icon — adapt icon set to the topic of
-建物図面・各階平面図の作成・訂正ルール. Panels 1（肢ア）and 5（肢オ）
+建物図面・各階平面図の作成・訂正ルール. Panels 1（ア）and 5（オ）
 share the same decision flowchart: a diamond branch node labeled「図面の
 誤りの原因は、建物自体の物理的現況が変わったことか」with two Yes/No
 branches, each leading to its own conclusion node（いいえ→「訂正の申出
@@ -268,8 +268,8 @@ shared tree appears, and never draw a looping arrow back into an earlier
 node. Panel 1 highlights（太い縁取り・フルカラーで強調）the いいえ branch
 and its conclusion node while rendering the はい branch and its conclusion
 node in a faded, greyed-out style; Panel 5 does the reverse. Panels 2 and
-3（肢イ・肢ウ）are resolved by a single check, so a labeled illustrative
-diagram is sufficient — do not force a flowchart. Panel 4（肢エ）uses a
+3（イ・ウ）are resolved by a single check, so a labeled illustrative
+diagram is sufficient — do not force a flowchart. Panel 4（エ）uses a
 side-by-side comparison frame（LEFT: 法14条地図の縮尺、RIGHT: 建物図面
 500分の1）with a large ✕ over an equals-sign icon between them, because
 the point of that 肢 is that the two scales need not match. Unlike a
@@ -316,7 +316,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 図面訂正の申出は任意で義務ではない
@@ -337,7 +337,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 訂正は任意で義務でない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 用紙複数枚は総枚数と何枚目を記載
@@ -352,7 +352,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 総枚数・何枚目を記載
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 電子署名でも作成日等を記録する
@@ -368,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 作成日等を記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 建物図面は500分の1で地図と別
@@ -385,7 +385,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 縮尺は独立して決まる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 隔壁除去は訂正でなく変更登記

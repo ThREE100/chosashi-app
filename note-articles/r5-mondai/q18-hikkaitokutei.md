@@ -317,14 +317,14 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 占有者の有無を最初に確認する
 Diagram: A decision flowchart. Start node: 筆界調査委員が他人の土地に立
 ち入る. Diamond node: その土地に占有者がいるか？ A plain blue はい
 branch leads to a conclusion node「あらかじめ占有者に通知」. A green
-branch with a thick highlighted border (本肢アの対象) for いいえ leads to
+branch with a thick highlighted border (本アの対象) for いいえ leads to
 a conclusion node「通知は不要」with a faded, dotted, crossed-out
 character icon labeled「表題部所有者・所有権登記名義人」beside it to show
 notice does not go there instead.
@@ -336,7 +336,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 占有者不在なら通知不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 意見の提出先は登記官
@@ -354,7 +354,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 提出先は登記官
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 筆界特定図面に地積は載らない
@@ -372,7 +372,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地積は記載事項でない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 聴取できる相手は当事者に限らない
@@ -389,7 +389,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 第三者からも聴取可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 費用は申請人負担、しかも先払い

@@ -339,7 +339,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 職権ではしない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 共用部分でも分割はできる
@@ -379,7 +379,7 @@ icon で切り分ける矢印を重ね、緑のチェックマークを添える
 Conclusion tag (blue, 5-15 Japanese characters):
 分割はできる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 変更登記と分割登記は一括申請できる
@@ -398,7 +398,7 @@ application-form icon が並んでいる結論ノード「原則どおり別々�
 Conclusion tag (blue, 5-15 Japanese characters):
 一括申請できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 必要なのは承諾情報で識別情報は不要
@@ -415,7 +415,7 @@ icon に赤い禁止（進入禁止）マークを重ねる。
 Conclusion tag (blue, 5-15 Japanese characters):
 識別情報は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分割では登記識別情報は通知されない

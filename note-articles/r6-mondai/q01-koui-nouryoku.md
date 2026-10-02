@@ -89,9 +89,9 @@
 - 出題番号・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の条文根拠について、ウ（民法5条2項、120条1項）、エ（民法9条ただし書）、オ（民法20条2項）はデータベースのexplanationフィールドで条文番号まで明記されているものです。イ（未成年者本人が単独で取消権を行使できること）についても、120条1項が「行為能力の制限によって取り消すことができる行為は、制限行為能力者…に限り、取り消すことができる」と規定しており、条文の文言から直接確認できます。一方、ア（後見開始の審判の遡及効がないこと）については、条文番号は明示されておらず、後見制度の基本的な考え方からの推論にとどまっています。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- 肢オ（被保佐人への催告、民法20条2項）が扱う「催告」は、20条1項〜4項の4パターンで「誰に催告したか」により無回答の効果が正反対になる、この分野で最も狙われやすい論点です。4パターンをまとめて整理した記事を `note-articles/column/saikokuken-4pattern.md` に追加しましたので、あわせてご参照ください。
+- オ（被保佐人への催告、民法20条2項）が扱う「催告」は、20条1項〜4項の4パターンで「誰に催告したか」により無回答の効果が正反対になる、この分野で最も狙われやすい論点です。4パターンをまとめて整理した記事を `note-articles/column/saikokuken-4pattern.md` に追加しましたので、あわせてご参照ください。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）で、本問（行為能力・制限行為能力者の取消し）と同一・類似の問題が再出題されていないかを確認しました。令和7年度第1問は「意思表示」（心裡留保・虚偽表示等）がテーマで、本問とは異なる論点であり、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **2026-09-17追記（肢オ・間違いノート型補足の追加）**：読者から肢オの結論に自力でたどり着けなかったというフィードバックを受け、「ここが分かりにくいポイント」を追加しました。「催告して返事がなければ契約は無効（取消し）になるはずだ」という直感と、実際には催告の相手（行為能力者となった本人・法定代理人・保佐人・補助人か、まだ制限行為能力者のままの本人か）によって無回答の効果が正反対になるという民法20条の構造とのズレを、条文原文（1項・2項・4項）を引用しつつ整理し、既存の`column/saikokuken-4pattern.md`（4パターン整理記事）への参照を本文中にも追加しました。あわせて対比型の個別インフォグラフィック（間違いノート型）を1枚新規作成しました。タイトルのキャッチフレーズは、既存の「日用品の買い物は悪意でも取消し不可」が肢エを指すものですが、今回分かりにくいと判明したのは1肢（オ）のみであり、他の4肢を的確に表す既存タイトルを差し替える必要性は乏しいと判断し、変更していません。本文中の各肢の正誤判定・まとめの表・正解番号はいずれも変更していません。
+- **2026-09-17追記（オ・間違いノート型補足の追加）**：読者からオの結論に自力でたどり着けなかったというフィードバックを受け、「ここが分かりにくいポイント」を追加しました。「催告して返事がなければ契約は無効（取消し）になるはずだ」という直感と、実際には催告の相手（行為能力者となった本人・法定代理人・保佐人・補助人か、まだ制限行為能力者のままの本人か）によって無回答の効果が正反対になるという民法20条の構造とのズレを、条文原文（1項・2項・4項）を引用しつつ整理し、既存の`column/saikokuken-4pattern.md`（4パターン整理記事）への参照を本文中にも追加しました。あわせて対比型の個別インフォグラフィック（間違いノート型）を1枚新規作成しました。タイトルのキャッチフレーズは、既存の「日用品の買い物は悪意でも取消し不可」がエを指すものですが、今回分かりにくいと判明したのは1肢（オ）のみであり、他の4肢を的確に表す既存タイトルを差し替える必要性は乏しいと判断し、変更していません。本文中の各肢の正誤判定・まとめの表・正解番号はいずれも変更していません。
 
 ---
 
@@ -255,7 +255,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-行為能力の問題文を読んだときに、「誰が」「いつ」取消しできるかを見分け、催告（肢オ）については相手が誰かによって無回答の効果が逆転するという条件を順に確認する決定木としてたどれるようにする5パネル構成。
+行為能力の問題文を読んだときに、「誰が」「いつ」取消しできるかを見分け、催告（オ）については相手が誰かによって無回答の効果が逆転するという条件を順に確認する決定木としてたどれるようにする5パネル構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -320,7 +320,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 審判の前後で線を引いて確認する
@@ -337,7 +337,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 審判前は取消し不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 取消権の行使に同意はいらない
@@ -353,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 単独で取消し可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 取消せると知っていても取消し可能
@@ -368,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 知っても取消し可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 日用品かどうかを先に見分ける
@@ -385,7 +385,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 善意悪意問わず不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 催告の相手が誰かを最初に確認する
@@ -415,7 +415,7 @@ a visually similar Simplified Chinese variant. If any character renders
 as a Simplified or Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that the multi-condition 肢（肢オ）is
+between the header and the panels, that the multi-condition 肢（オ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered

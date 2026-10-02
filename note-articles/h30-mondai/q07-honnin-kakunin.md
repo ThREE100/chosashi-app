@@ -325,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -350,7 +350,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 却下でなく事前通知に戻る
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 本人確認書類は提示を受ける日に有効なもの
@@ -368,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 提示日に有効なものに限る
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 面識ありでも生じた経緯まで明記する
@@ -387,7 +387,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 経緯まで明記が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 法人の場合は代表者以外との面談でも足りる
@@ -407,7 +407,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代表者本人でなくてもよい
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 職印証明書は発行後3月以内のものに限る

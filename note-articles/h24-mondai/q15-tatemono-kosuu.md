@@ -243,20 +243,20 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a jurisdiction-style map of nearby detached
-buildings for 肢ア, a crossed-out mistaken-assumption icon paired with a
-checkmarked correct-rule icon for 肢イ, a three-part 区分建物 vs 非区分建物
-comparison for 肢エ (see Panel 4 below — this 肢 is specifically about the
+buildings for ア, a crossed-out mistaken-assumption icon paired with a
+checkmarked correct-rule icon for イ, a three-part 区分建物 vs 非区分建物
+comparison for エ (see Panel 4 below — this 肢 is specifically about the
 rule being DIFFERENT for the two building types, so the diagram must show
 both types' correct rules side by side, not just one), a before/after
-timeline of registry-record counts for 肢ウ, and a two-diamond decision
-flowchart for 肢オ (are the owners the same? then does combining them go
-against the owner's intent?). 肢オ is the only 肢 in this problem that
+timeline of registry-record counts for ウ, and a two-diamond decision
+flowchart for オ (are the owners the same? then does combining them go
+against the owner's intent?). オ is the only 肢 in this problem that
 requires checking two conditions in sequence (所有者の同一性 and 所有者の
 意思), so it alone is drawn as a true two-diamond flowchart with a
 distinct conclusion node at the end of every branch; the other four
 panels use a single labeled diagram, a mistaken-assumption-vs-correct-rule
 comparison, a three-part building-type comparison, or a timeline instead
-— do not force them into a flowchart. Do not merge 肢オ's two conditions
+— do not force them into a flowchart. Do not merge オ's two conditions
 into one diamond; keep 所有者の同一性 and 所有者の
 意思に反しないかどうか as two visually separate checks. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」callout
@@ -302,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 効用上一体でなければ1個にできない
@@ -322,7 +322,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一体利用でなければ不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 法定共用部分は独立して登記できない
@@ -342,7 +342,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 独立登記の対象外
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 現況不変でも申請で登記記録数は変わる
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請で個数が変わる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 区分建物と非区分建物でルールが違う
@@ -393,7 +393,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 非区分は1個、区分は専有ごと
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 所有者同一かつ意思に反しなければ1個も可
@@ -432,7 +432,7 @@ script, or stray decorative glyph — and remove or redraw it so that only
 standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly, badge numbers run 1-5 continuously, there is no
 intro illustration or paragraph block between the header and the panels,
-that 肢オ is drawn as an actual flowchart with two branch nodes each
+that オ is drawn as an actual flowchart with two branch nodes each
 ending in its own conclusion node (not a bare illustration with no
 visible decision structure) while the other panels use a single labeled
 diagram, a mistaken-assumption-vs-correct-rule comparison, a three-part
@@ -442,7 +442,7 @@ checkmark, and 本肢の誤り with a red ✕) rather than collapsing them into
 a single two-box comparison, and that the LEFT and RIGHT correct-rule
 boxes in Panel 4 each carry only a checkmark with no ✕ anywhere inside
 them, that each 着眼点 callout states a checking order rather than only a
-conclusion and keeps 肢オ's two conditions (所有者の同一性・所有者の意思)
+conclusion and keeps オ's two conditions (所有者の同一性・所有者の意思)
 visually distinct rather than merged, confirm nothing is rendered below
 the last panel's footnote text (no summary recap panel, no trophy or
 medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block

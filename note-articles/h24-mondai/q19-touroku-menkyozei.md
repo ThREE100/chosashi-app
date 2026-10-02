@@ -87,7 +87,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・正解番号（5番＝エ・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - 各肢の法的根拠は、`note-articles/laws/`のローカル法令データベース（登録免許税法、e-Gov現行法2026-08-04取得）で条文原文を確認済みです。ア＝別表第一「一 不動産の登記」（十五）（土地の表題部の登記の抹消は同号から除外され、他のいずれの号にも掲げられていないため課税対象外）、イ＝同別表（十三）イ（所有権の登記のある不動産の分筆であれば敷地権の有無を問わず課税）、エ＝同別表（十三）イ・ロ（分筆1,000円＋合筆1,000円）、オ＝登録免許税法5条1号（国・地方公共団体等の代位登記の非課税）は、いずれも条文の文言そのままの内容です。ウ（合体登記の課税額）は、不動産登記規則120条2項1号（合体後の建物の登記記録の甲区に「合体による所有権の登記をする旨」を記録する旨の規定）から、表示の登記に加えて権利に関する登記が必要になることまでは条文原文で確認できましたが、その権利登記に対応する登録免許税法別表第一の正確な号（別表第二に掲げる者を除く通常の場合は所有権の保存の登記＝（一）に相当すると考えられます）までは、本記事作成時点でローカル法令データベース内の記述だけでは特定できていません。また、オで地方公共団体が5条1号の「別表第二に掲げる者」に含まれること自体は広く知られた内容ですが、別表第二の条文原文は今回参照したローカル法令データベースには収録されていないため（`laws/README.md`に別表第二・三は対象外である旨の記載あり）、この点は今回未検証です。より厳密な出典を求める場合は、登録免許税法別表第二の条文原文（e-Gov法令検索等）での確認を推奨します。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「登録免許税」がテーマの問題を確認しました。令和7年度第19問、平成28年度第19問など「登録免許税」をテーマとする出題は複数見つかりましたが、本問の具体的な肢の組み合わせ（分筆抹消の非課税、敷地権付き土地の分筆課税、合体登記の課税額、分筆＋合筆一括申請の税額、地方公共団体の代位嘱託による非課税）と完全に一致するものは見つかりませんでした。なお、肢オ（地方公共団体が代位で分筆登記を嘱託する場合の非課税）と関連する論点として、令和5年度第9問肢エ（地方公共団体及び私人の共有地について私人が分筆登記を申請する場合の非課税）がありますが、登場人物の役割（代位嘱託か共有か）が異なり、完全な重複ではありません。**内容の完全な重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「登録免許税」がテーマの問題を確認しました。令和7年度第19問、平成28年度第19問など「登録免許税」をテーマとする出題は複数見つかりましたが、本問の具体的な肢の組み合わせ（分筆抹消の非課税、敷地権付き土地の分筆課税、合体登記の課税額、分筆＋合筆一括申請の税額、地方公共団体の代位嘱託による非課税）と完全に一致するものは見つかりませんでした。なお、オ（地方公共団体が代位で分筆登記を嘱託する場合の非課税）と関連する論点として、令和5年度第9問エ（地方公共団体及び私人の共有地について私人が分筆登記を申請する場合の非課税）がありますが、登場人物の役割（代位嘱託か共有か）が異なり、完全な重複ではありません。**内容の完全な重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -239,17 +239,17 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a tax-exempt (非課税) seal versus a coin/yen tax
-stamp for 抹消登記・敷地権付き土地の分筆・代位嘱託 (肢ア・イ・オ), a
+stamp for 抹消登記・敷地権付き土地の分筆・代位嘱託 (ア・イ・オ), a
 two-building merger scene with an extra 甲区（権利部）registration sheet
-appearing for the合体登記 (肢ウ), and a land-plot arrangement diagram
+appearing for the合体登記 (ウ), and a land-plot arrangement diagram
 connecting 甲土地 and 乙土地 with an arrow for the combined 分筆＋合筆
-application (肢エ). Most 肢 in this problem turn on a single check —
+application (エ). Most 肢 in this problem turn on a single check —
 whether the fact pattern falls inside or outside a taxable category, or
 whether a factor readers assume matters actually does not — so panels 1,
-2, 3, and 5 (肢ア・イ・ウ・オ) are drawn as a side-by-side comparison
+2, 3, and 5 (ア・イ・ウ・オ) are drawn as a side-by-side comparison
 between a labeled「誤った思い込み」box and a labeled「正しい理解」box, each
 with its own icon and outcome, rather than a flowchart with diamond
-nodes. Panel 4 (肢エ) is instead drawn as a left-to-right land-plot
+nodes. Panel 4 (エ) is instead drawn as a left-to-right land-plot
 process diagram with three stages connected by arrows: 甲土地の一部が
 分筆される場面、その部分が乙土地に合筆される場面、そして一の申請情報として
 まとめられ2つの税額が合算される場面. Where a 肢 is resolved by a single
@@ -300,7 +300,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 分筆抹消は表題部登記で非課税
@@ -319,7 +319,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表題部抹消は非課税
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 敷地権の有無は課税に関係ない
@@ -339,7 +339,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 敷地権は課税に無関係
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 名義人が違う合体は権利登記も必要
@@ -360,7 +360,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 1,000円では済まない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 分筆と合筆の一括申請は合算2,000円
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 合計2,000円
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 代位者が公共団体なら分筆は非課税
@@ -418,11 +418,11 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-panels 1, 2, 3, and 5（肢ア・イ・ウ・オ）each show a clear「誤った思い込み」
+panels 1, 2, 3, and 5（ア・イ・ウ・オ）each show a clear「誤った思い込み」
 versus「正しい理解」comparison rather than a bare unlabeled illustration,
-that panel 4（肢エ）clearly shows the three-stage 分筆→合筆→合算 process
+that panel 4（エ）clearly shows the three-stage 分筆→合筆→合算 process
 connected by arrows, that no 肢 with a genuinely hidden second condition
-（肢ウの名義人の異同、肢イの敷地権の有無が無関係であること）has been
+（ウの名義人の異同、イの敷地権の有無が無関係であること）has been
 flattened away, that each 着眼点 callout states a checking order rather
 than only a conclusion and keeps every required element from the source
 article distinct (no merged or dropped requirements), confirm nothing is

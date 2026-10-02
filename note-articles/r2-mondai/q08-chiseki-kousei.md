@@ -267,11 +267,11 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panel 1 (肢ア) must be drawn as a decision
+— do not force a flowchart. Panel 1 (ア) must be drawn as a decision
 flowchart, since whether someone may apply for 地積更正 genuinely depends
 on what kind of registered right-holder they are; give both branches
 their own clearly labeled conclusion node and no looping arrow back into
-the flow. Panel 3 (肢ウ) tests a common misconception, so draw it as a
+the flow. Panel 3 (ウ) tests a common misconception, so draw it as a
 side-by-side comparison between the mistaken assumption and the correct
 rule, marking the mistaken side with a red X or strikethrough rather than
 a bare ✕ icon. Unlike a glanceable summary poster, each panel MAY include
@@ -319,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抵当権者は地積更正を申請できない
@@ -342,7 +342,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抵当権者は申請不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地積更正と合筆は一括申請できる
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一の申請情報で可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 職権による更正は義務ではない
@@ -381,7 +381,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 職権はできるに留まる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地積増加でも所有権証明は不要
@@ -397,7 +397,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有権証明は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 相続人の一人だけで申請でき承諾は不要

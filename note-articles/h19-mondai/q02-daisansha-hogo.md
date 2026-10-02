@@ -299,7 +299,7 @@ written on them, はい/いいえ (or ○/✕) branch arrows, and a final
 conclusion node for every branch that leads to a real outcome discussed in
 the article. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 1
-and 2 (肢ア・肢イ) share one root decision — 取消しの原因は詐欺か強迫か —
+and 2 (ア・イ) share one root decision — 取消しの原因は詐欺か強迫か —
 and both panels must draw the same two-branch layout from that root;
 render the branch relevant to that panel's own 肢 in full color with a
 thick highlighted border, and render the other, unrelated branch in a
@@ -357,7 +357,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in red containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -387,7 +387,7 @@ Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
 善意無過失なら対抗不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 強迫取消しの効力は善意者にも及ぶ
@@ -395,7 +395,7 @@ Diagram: The same two-box comparison layout as Panel 1, with the same
 root diamond node 取消しの原因は詐欺か強迫か drawn with a thick
 highlighted border and full color. This time the right box, labeled 強迫
 による取消し, is drawn with a thick highlighted border and full color
-(since this panel is about 肢イ): a menacing figure B threatens person A
+(since this panel is about イ): a menacing figure B threatens person A
 (a speech bubble with an exclamation mark and a small fist icon, labeled
 「強迫」) into handing over a land document, B then sells the same
 document to person C, and a large rewind arrow labeled 遡及効 sweeps back
@@ -415,7 +415,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 遡及効でCにも対抗可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in red containing the number 3.
 Heading (bold, ONE line):
 不実登記を知り放置すると対抗不可
@@ -443,7 +443,7 @@ Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
 知って放置は対抗不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in red containing the number 4.
 Heading (bold, ONE line):
 背信的悪意者の評価はDへ及ばない
@@ -474,7 +474,7 @@ Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
 評価はDに連鎖しない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 占有改定の先後で対抗力が決まる

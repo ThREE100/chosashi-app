@@ -267,9 +267,9 @@ decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 3
-（肢ウ）uses a 正誤対比型（left/right contrast frame）instead of a
+（ウ）uses a 正誤対比型（left/right contrast frame）instead of a
 flowchart, contrasting the correct listed-uses label against the
-rejected「多目的ビル」label. Panels 4 and 5（肢エ・肢オ）share the same
+rejected「多目的ビル」label. Panels 4 and 5（エ・オ）share the same
 checklist card titled「規則113条・準則80条の列挙」; Panel 4
 highlights that 学習塾 is NOT on the list（faded ✕）and routes to a
 residual-clause box, while Panel 5 highlights that 給油所 IS on the list
@@ -317,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 種類は専有部分ごとに記録される
@@ -335,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一棟には記録なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 職権抹消の対象は所有者・権利の登記
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 種類は消えない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 複数用途なら実際の用途を列記する
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 用途を列記する
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 列挙にない用途は残余規定で定める
@@ -387,7 +387,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 残余規定で認められる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 列挙にある用途はそのまま使える

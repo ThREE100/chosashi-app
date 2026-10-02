@@ -330,7 +330,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 移転登記が未了なら登記名義人が申請できる
@@ -352,7 +352,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記記録上の名義人が申請
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 取壊し日が同じなら附属建物欄は記録不要
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 附属建物欄は記録不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 抵当権が残っていても滅失登記は申請できる
@@ -396,7 +396,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抹消も承諾も不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 共用部分の登記がある建物は所有者証明が必要
@@ -418,7 +418,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有者を証する情報が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 滅失登記と表題部変更登記は別々に申請できる

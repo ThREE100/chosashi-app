@@ -97,7 +97,7 @@
 - 各肢の根拠について、ア（不動産登記規則37条1項）、ウ（不動産登記法17条／民法111条1項1号）、オ（不動産登記令別表9項添付情報）はデータベースのexplanation欄で条文番号まで明記されているものです。エ（規約敷地の分筆で規約を証する情報が不要であること）については、条文番号は明示されておらず、一般原則からの説明にとどまっています。
 - **イの再検証（2026-09-27実施）**：イ（分筆の登記が形成的登記であり登記原因が存在しないこと）は、当初はデータベースに条文番号の明記がなく一般原則からの説明にとどまっていましたが、他の記事（苦手分析シリーズ②）の執筆過程でユーザーから条文原文でのダブルチェックを依頼されたことを機に、`note-articles/laws/fudousan-touki-jimu-junsoku.md`（不動産登記事務取扱手続準則）の条文原文を確認しました。準則74条（分筆の登記の記録方法）は、登記記録の原因及びその日付欄への記録例を「何番何、何番何に分筆」「何番から分筆」と定めており、実際の年月日を含みません。これに対し準則73条（地目・地積の変更又は更正の登記の記録方法）は「令和何年何月何日地目変更」のように実際の年月日を含む記録例を定めています。この対比により、イの結論は一般原則からの推論にとどまらず、準則の条文原文で直接裏付けられることが確定しました。本文にこの条文根拠を追記しています。
 - **エの補足説明について**：エの結論（規約設定証明情報は不要）は変わりませんが、なぜ不要なのかが実感しにくいという声を踏まえ、実務の流れに沿った補足段落を追加しました。規約を設定して敷地権とする際、登記官が職権でその土地自体の登記記録に「敷地権である旨の登記」を記録する規定（不動産登記法46条）を根拠に、規約敷地であることが既にその土地の登記記録に反映されている、という流れを説明しています。
-- **現行法チェック（条文原文で確認）**：オの根拠として当初「不動産登記令別表8項添付情報ロ」としていましたが、法令原文（`note-articles/laws/fudousan-touki-rei-betsuhyou.md`）で確認したところ、別表8項は「地役権の登記がある承役地の**分筆**の登記」に関する項目でした。本肢オは承役地の**合筆**の登記の場面であり、正しい根拠は別表**9項**添付情報（イ・ロの区分のない単一項目で、内容は本肢と一致）です。本文・本項目とも修正しました。結論（地役権者作成情報・地役権図面が必要）自体は変わりません。
+- **現行法チェック（条文原文で確認）**：オの根拠として当初「不動産登記令別表8項添付情報ロ」としていましたが、法令原文（`note-articles/laws/fudousan-touki-rei-betsuhyou.md`）で確認したところ、別表8項は「地役権の登記がある承役地の**分筆**の登記」に関する項目でした。本オは承役地の**合筆**の登記の場面であり、正しい根拠は別表**9項**添付情報（イ・ロの区分のない単一項目で、内容は本肢と一致）です。本文・本項目とも修正しました。結論（地役権者作成情報・地役権図面が必要）自体は変わりません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（土地の表示登記の申請情報・添付情報）と同一・類似の問題が再出題されていないかを確認しました。**部分的な重複が見つかりました**：本問エ（規約敷地が区分建物と異なる登記所の管轄区域内にあるときの規約設定証明情報の要否＝不要）と同一の論点・同一の結論が、令和2年度第14問アにほぼそのままの文言で再出題されています。「土地の表示に関する登記の申請情報又は添付情報」という同一タイトルの問題は令和元年度第8問にもありますが、その具体的な論点（合筆時の登記識別情報提供不能理由の記載、官公署嘱託時の所有権証明情報の省略可否）は、本問ではなく別のH27の問題（第9問・第14問）と重なる内容でした。将来この年度についてnote記事を作成する際は、内容の重複に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -449,7 +449,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -471,7 +471,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 援用でコピー不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -495,7 +495,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 分筆に原因なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -521,7 +521,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 再委任は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -543,7 +543,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 証明書の提出は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

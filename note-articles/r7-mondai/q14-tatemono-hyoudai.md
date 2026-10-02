@@ -609,7 +609,7 @@ actual decision flowchart: diamond-shaped branch nodes with the
 condition written on them, Yes/No（はい／いいえ）branch arrows, and a
 final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panels 2 and 3（肢イ・肢ウ）must show BOTH branches of their decision
+Panels 2 and 3（イ・ウ）must show BOTH branches of their decision
 node with their own distinct conclusion node（no looping arrow back into
 the diagram), because both outcomes are meaningful real conclusions
 discussed in the source article. Unlike a glanceable summary poster,
@@ -656,7 +656,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 合体後の登記は1か月以内の義務
@@ -675,7 +675,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1か月以内に申請義務
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 スキャンしたデータには作った人の電子署名
@@ -695,7 +695,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 スキャンした人が署名
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 通常建物は相続人が直接申請できる
@@ -716,7 +716,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 通常建物は相続人が直接
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 建物の存在だけで借地権証明は不要
@@ -733,7 +733,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 建物の存在だけで足りる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 印鑑証明書も住所証明に使える

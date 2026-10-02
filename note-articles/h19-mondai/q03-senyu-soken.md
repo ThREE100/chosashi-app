@@ -290,7 +290,7 @@ flowchart: diamond-shaped or stacked step-box branch nodes with the
 condition written on them, はい/いいえ (or ○/✕) branch arrows, and a final
 conclusion node - never draw an arrow that loops back to an earlier node.
 Where a 肢 is resolved by a single check, a labeled illustrative diagram is
-sufficient - do not force a flowchart. Panels 3, 4, and 5 (肢ウ・肢エ・肢オ)
+sufficient - do not force a flowchart. Panels 3, 4, and 5 (ウ・エ・オ)
 all concern 占有回収の訴え and share the same underlying three-step
 checklist, drawn as three stacked step-boxes labeled STEP A, STEP B, and
 STEP C: STEP A asks 占有を意思に反して奪われた(侵奪された)か, STEP B asks
@@ -302,10 +302,10 @@ full color, and render the other two steps (including any step the option
 never even reaches) in a faded, greyed-out, dotted-outline style with no
 extra label, rather than omitting them - the reader should be able to see at a
 glance which single step of the shared checklist each panel is testing.
-Panel 1 (肢ア) is not a flowchart but a「正しいルール」vs「誤りやすい思い込
+Panel 1 (ア) is not a flowchart but a「正しいルール」vs「誤りやすい思い込
 み」contrast: draw the correct one-or-the-other reading of the statute in
 full color in the top box, and the mistaken merged reading crossed out
-with a red strikethrough in the bottom, faded box. Panel 2 (肢イ) requires
+with a red strikethrough in the bottom, faded box. Panel 2 (イ) requires
 two distinct checks (占有の主体は本権の有無を問わないこと, and 相手方の行
 為が自力救済に当たること) - draw both as separate, equally emphasized
 diamond nodes, do not merge them into one. Unlike a glanceable summary
@@ -354,7 +354,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 予防と担保はどちらか一方だけ選べる
@@ -377,7 +377,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 予防か担保のみ
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 無権原でも占有は妨害から守られる
@@ -404,7 +404,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 占有保全を提起できる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 任意に明け渡した後の居座りは奪取でない
@@ -434,7 +434,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 占有回収は使えない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 貸しただけなら侵奪者本人が相手方
@@ -462,7 +462,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 相手方は侵奪者本人
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 起算点は奪われた時であり譲受時ではない
@@ -507,7 +507,7 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-every multi-condition 肢 (肢イ・肢ウ・肢エ・肢オ) is drawn as an actual
+every multi-condition 肢 (イ・ウ・エ・オ) is drawn as an actual
 flowchart with branch nodes (not a bare illustration with no visible
 decision structure), that no 肢 with a genuinely hidden second condition
 has been flattened into a single check (Panel 2 keeps 本権の有無を問わな

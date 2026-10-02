@@ -481,10 +481,10 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No（はい／いいえ）
 branch arrows, and a final conclusion node. Where a 肢 is resolved by a
 single check, a labeled illustrative diagram is sufficient — do not
-force a flowchart. Panel 1（肢ア）uses a side-by-side comparison frame
+force a flowchart. Panel 1（ア）uses a side-by-side comparison frame
 （LEFT: 建物図面＝敷地と位置、RIGHT: 各階平面図＝各階の形状）instead of a
 flowchart, because the point of that 肢 is distinguishing which of two
-different drawings is at issue. Panels 4 and 5（肢エ・肢オ）share the
+different drawings is at issue. Panels 4 and 5（エ・オ）share the
 same side-by-side comparison frame（LEFT: 単位はそのまま・規約上の扱い
 だけ変わる、RIGHT: 単位そのものが新しく生まれ変わる); draw both panels
 with the same two-box layout, but highlight（太い縁取り・フルカラーで
@@ -533,7 +533,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 所在の変更は建物図面のみ必要
@@ -552,7 +552,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 位置の変更→建物図面のみ
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 敷地関係の追加のみなら建物図面不要
@@ -569,7 +569,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 敷地関係の追加のみなら不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 仮換地の形を実線で図示する
@@ -584,7 +584,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 仮換地の形を実線で
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 単位が変わる合併は各階平面図が必要
@@ -605,7 +605,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 単位が変わるので必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 単位がそのままなら図面は不要

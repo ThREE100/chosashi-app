@@ -259,9 +259,9 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panel 2（肢イ）uses a side-by-side
+— do not force a flowchart. Panel 2（イ）uses a side-by-side
 comparison frame（LEFT: 規約の設定＝期限なし、RIGHT: 規約の廃止＝1か月
-以内の義務）instead of a flowchart. Panel 5（肢オ）shows two separate
+以内の義務）instead of a flowchart. Panel 5（オ）shows two separate
 labeled items side by side（氏名・名称＝不要、家屋番号＝必要）rather than
 a single conclusion, since both are distinct requirements discussed in
 the source article. Unlike a glanceable summary poster, each panel MAY
@@ -308,7 +308,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抵当権があれば承諾が必要
@@ -325,7 +325,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 規約の設定には期限がない
@@ -343,7 +343,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 設定なら期限なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 附属建物の分割にも所有者証明が必要
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 証明書は必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 共有でも全員での申請は不要
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 全員でなくて可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 氏名は不要でも家屋番号は必要

@@ -283,7 +283,7 @@ diamond-shaped branch nodes with the condition written on them, Yes/No
 resolved by a single check, a labeled illustrative diagram is
 sufficient — do not force a flowchart. This article's five 肢 do not
 share a single common decision-tree shape, so design each panel's diagram
-independently around its own fact pattern; only Panel 3（肢ウ）needs an
+independently around its own fact pattern; only Panel 3（ウ）needs an
 actual multi-step flowchart, since it is the only 肢 that depends on more
 than one sequential condition. Unlike a glanceable summary poster, each
 panel MAY include a short「着眼点」callout box with 1-2 sentences that
@@ -327,7 +327,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 占有代理人も訴えを起こせる
@@ -345,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 占有代理人も提起可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 占有の訴えに所有権は使えない
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 本権の主張は不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 勝訴回復で空白期間も継続扱い
@@ -383,7 +383,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 空白期間も継続扱い
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 承継人は自己の占有だけでも主張可
@@ -401,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 選択は承継人の自由
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 占有改定は意思表示だけで足りる
@@ -431,7 +431,7 @@ attention to 権・物・所・訴・承・継・改・提・起. If any charact
 Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that the multi-condition 肢（肢ウ）is drawn as
+the header and the panels, that the multi-condition 肢（ウ）is drawn as
 an actual flowchart with branch nodes (not a bare illustration with no
 visible decision structure), that each 着眼点 callout states a checking
 order rather than only a conclusion, confirm nothing is rendered below

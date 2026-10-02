@@ -79,7 +79,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（1番＝ア・イ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア・イ＝法41条6号、ウ＝合筆での消滅承諾不可、エ＝法41条2号、オ＝規則105条2号・昭58.11.10民三6400号）は、データベースのexplanationフィールドに記載のものを転記しています。
-- なお、kaisetsu_plus.jsonのapproach欄には肢イを「同一区分建物の敷地権なら例外として合筆可（×）」とする記述が一部残っていましたが、これは同じデータベースのexplanation欄の「敷地権である旨の登記がある土地は合筆できない（イは正しい）」という記載および正答（1番＝アイ）と矛盾します。正答と整合するexplanation欄に従い、イを正しい（合筆できない）として解説しています。
+- なお、kaisetsu_plus.jsonのapproach欄にはイを「同一区分建物の敷地権なら例外として合筆可（×）」とする記述が一部残っていましたが、これは同じデータベースのexplanation欄の「敷地権である旨の登記がある土地は合筆できない（イは正しい）」という記載および正答（1番＝アイ）と矛盾します。正答と整合するexplanation欄に従い、イを正しい（合筆できない）として解説しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
 - **最新法令チェック（2026-08-16実施）**：相続登記の申請義務化（令和6年4月1日施行）・住所等変更登記の申請義務化（令和8年4月1日施行）は、いずれも権利部（所有権の登記名義人・その氏名住所）に関する申請義務の改正であり、本問が扱う合筆の登記（表示に関する登記）の申請人適格・申請の可否には影響しません。各肢の結論に変更はありません。
 
@@ -310,7 +310,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in orange containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -337,7 +337,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 合筆できる
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in orange containing the number 2.
 Heading (bold, ONE line):
 同一の敷地権登記でも合筆の例外にならない
@@ -359,7 +359,7 @@ Node B's other outcome, and Node C's other two leaves(「消滅承諾書の提�
 Conclusion tag (orange, 5-15 Japanese characters):
 合筆できない
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 消滅承諾書は合筆の例外事由でない
@@ -381,7 +381,7 @@ the correct method instead, above a highlighted box reading「消滅承諾書は
 Conclusion tag (orange, 5-15 Japanese characters):
 合筆できない
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in orange containing the number 4.
 Heading (bold, ONE line):
 字が同じなら地図が別でも合筆できる
@@ -403,7 +403,7 @@ show this reasoning is wrong.
 Conclusion tag (orange, 5-15 Japanese characters):
 合筆できる
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in orange containing the number 5.
 Heading (bold, ONE line):
 抵当権の内容が完全一致しないと合筆不可

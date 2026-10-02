@@ -326,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 分割の段階で主と附属を作れる
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 合併登記は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 仮処分の債権者は代位で申請できる
@@ -368,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代位申請が可能
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 図面に分割後の建物と符号を明記する
@@ -383,7 +383,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 符号を付して表示
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 使用済みの符号は繰り上げて使わない
@@ -401,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 符号3のまま残る
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分割後の予定家屋番号だけを記録する

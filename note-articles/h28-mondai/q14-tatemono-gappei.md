@@ -143,10 +143,10 @@
 - 各肢の根拠（ア：不登法30条、イ：甲乙の登記記録上の住所一致の要否、ウ：不登規則133条1項かっこ書き・不登法56条、エ：令別表16項添付情報イ、オ：印鑑証明書の添付要件）は、データベースのexplanationフィールドおよびpitfallsフィールドの解説内容に基づいています。
 - **再確認・訂正（2026-08-12実施）**：リサーチエージェントによる独立調査で、ウの根拠条文に誤りが見つかりました。訂正前は「不動産登記規則133条」を要件そのものの根拠としていましたが、同条は区分合併をする場合の登記記録の記録方法を定める規定であり、区分合併の「要件」（効用上一体を要しないこと）を定めた条文ではありません。要件の直接の根拠は、区分合併を「接続する」他の区分建物との合併と定義し、効用上一体の関係を要件としていない不動産登記法2条23号です。正誤判定（正）自体は変わりません。同内容の修正はブランチmain（コミット550eb6f）にも別途適用済みです。
 - **再訂正（2026-10-01）**：上記の訂正で根拠とした「不動産登記法2条23号」は附属建物の定義で、区分合併の定義ではありませんでした。区分合併の定義は不動産登記規則133条1項のかっこ書き（区分建物である甲建物を、これと接続する区分建物である乙建物又はその附属建物に合併する建物の合併）にあり、合併の制限は不動産登記法56条です。本文・図解プロンプトの根拠をこの2つに直しました。正誤判定（正）は変わりません。
-- 肢ウの根拠については、データベースのkeyPointsフィールドに「区分合併の要件（接続かつ効用上一体の関係にあること）」という誤った記載が過去にありましたが、tools/_corrections.jsonに記録された修正内容（「区分合併の要件は所有権登記名義人が同一で互いに接続していることであり、効用上一体の関係にあることは不要」）を反映し、explanation・pitfallsフィールドの記載（効用上一体の関係になくても区分合併できる）と整合する内容で本文を作成しています。
-- なお、肢イの根拠（甲乙の登記記録上の住所が完全一致している必要があるという点）については、データベースの解説には具体的な条文番号の記載がなく、登記実務上の取扱いとして説明しています。この点は投稿前に条文・先例での確認をおすすめします。
+- ウの根拠については、データベースのkeyPointsフィールドに「区分合併の要件（接続かつ効用上一体の関係にあること）」という誤った記載が過去にありましたが、tools/_corrections.jsonに記録された修正内容（「区分合併の要件は所有権登記名義人が同一で互いに接続していることであり、効用上一体の関係にあることは不要」）を反映し、explanation・pitfallsフィールドの記載（効用上一体の関係になくても区分合併できる）と整合する内容で本文を作成しています。
+- なお、イの根拠（甲乙の登記記録上の住所が完全一致している必要があるという点）については、データベースの解説には具体的な条文番号の記載がなく、登記実務上の取扱いとして説明しています。この点は投稿前に条文・先例での確認をおすすめします。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（建物の合併の登記）と同一・類似の問題が再出題されていないかを確認しました。**R04年度第16問（本件合併の登記）のア「所有権登記名義人が死亡した場合、相続による所有権の移転の登記をした後でなければ合併の登記を申請することができない」は、本問アとほぼ同一の論点（表示に関する登記は相続登記なしに相続人から申請できること）を扱っており、内容が近い出題**です。R04年度第16問オ（住居表示の実施による住所変更の場合の合併登記）は、本問イ（通常の転居による住所不一致の場合の合併登記）と構造は似ていますが、住居表示実施の場合は特則があり結論が異なる別論点です。ノートに執筆・公開する際は、R04年度分の記事との重複に留意してください。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **「間違いノート」補足解説（2026-09-16追加）**：読者から、肢ウ（区分合併は所有権登記名義人が同一で接続していれば足り、効用上一体の関係は不要であること）と肢エ（床面積に変更がなくても合併後の各階平面図の添付は省略できないこと）の結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「ここが分かりにくいポイント」を追加しました。肢ウは、まだ登記されていない建物を最初にいくつの建物として登記するかを判断する「効用上一体」の基準（不動産登記事務取扱手続準則78条1項）と、すでに登記されている区分建物どうしをまとめる区分合併の要件（不動産登記法2条23号）を混同しやすい点を整理しています。肢エは、「床面積という数値の変更の有無」と「合併という登記記録の再編成に必要な図面の話」を同一視しやすい点を整理しています。タイトルのキャッチフレーズについては、以前のセッションで肢ア（死亡・相続）を軸にした「死んだ」という表現を維持する方針が確認されており（クリック率上の判断で保留）、今回新たに判明した肢ウ・エの論点はこのキャッチフレーズには反映されていませんが、その方針を踏まえて今回はタイトルを変更していません。**関連記事へのリンクについて**：`note-articles/topics/`・`column/`配下を検索したところ、`column/tatemono-nintei-3youken.md`（建物認定3要件）が見つかりましたが、これは「定着性・外気分断性・用途性」という**建物として登記できるかどうか**の判定基準であり、肢ウで問題になっている「効用上一体」（準則78条、建物の個数の判定基準）とは異なるテーマのため、誤解を避けるためリンクは埋め込んでいません。肢ウ（準則78条・建物の個数の基準）・肢エ（合併時の図面添付の要否）を直接扱う個別テーマ記事は現時点では見当たらず、今後これらの論点を扱う記事を作成した際は、本記事から参照リンクを追加することをおすすめします。
+- **「間違いノート」補足解説（2026-09-16追加）**：読者から、ウ（区分合併は所有権登記名義人が同一で接続していれば足り、効用上一体の関係は不要であること）とエ（床面積に変更がなくても合併後の各階平面図の添付は省略できないこと）の結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「ここが分かりにくいポイント」を追加しました。ウは、まだ登記されていない建物を最初にいくつの建物として登記するかを判断する「効用上一体」の基準（不動産登記事務取扱手続準則78条1項）と、すでに登記されている区分建物どうしをまとめる区分合併の要件（不動産登記法2条23号）を混同しやすい点を整理しています。エは、「床面積という数値の変更の有無」と「合併という登記記録の再編成に必要な図面の話」を同一視しやすい点を整理しています。タイトルのキャッチフレーズについては、以前のセッションでア（死亡・相続）を軸にした「死んだ」という表現を維持する方針が確認されており（クリック率上の判断で保留）、今回新たに判明したウ・エの論点はこのキャッチフレーズには反映されていませんが、その方針を踏まえて今回はタイトルを変更していません。**関連記事へのリンクについて**：`note-articles/topics/`・`column/`配下を検索したところ、`column/tatemono-nintei-3youken.md`（建物認定3要件）が見つかりましたが、これは「定着性・外気分断性・用途性」という**建物として登記できるかどうか**の判定基準であり、ウで問題になっている「効用上一体」（準則78条、建物の個数の判定基準）とは異なるテーマのため、誤解を避けるためリンクは埋め込んでいません。ウ（準則78条・建物の個数の基準）・エ（合併時の図面添付の要否）を直接扱う個別テーマ記事は現時点では見当たらず、今後これらの論点を扱う記事を作成した際は、本記事から参照リンクを追加することをおすすめします。
 
 ---
 
@@ -300,7 +300,7 @@ alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（ウ肢・間違いノート）
 
-肢ウで読者がつまずいたポイント（「合併にも効用上一体が必要なはず」という思い込み）を、建物の個数を判断する「効用上一体」の基準（すでに登記される前の場面）と、区分合併の要件（すでに登記された建物どうしをまとめる場面）を左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
+ウで読者がつまずいたポイント（「合併にも効用上一体が必要なはず」という思い込み）を、建物の個数を判断する「効用上一体」の基準（すでに登記される前の場面）と、区分合併の要件（すでに登記された建物どうしをまとめる場面）を左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -349,7 +349,7 @@ Title (large, bold):
 「効用上一体」が必要な場面、不要な場面
 
 Subtitle (smaller, centered):
-平成28年度 午後の部 第14問 肢ウ－建物の個数の基準と区分合併の要件を混同
+平成28年度 午後の部 第14問 ウ－建物の個数の基準と区分合併の要件を混同
 しやすいポイント
 
 --- COMPARISON ---
@@ -385,7 +385,7 @@ Small caption below: 不動産登記規則133条1項。すでに登記された�
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-平成28年度 午後の部 第14問 肢ウ（不動産登記規則133条1項・準則78条1項）
+平成28年度 午後の部 第14問 ウ（不動産登記規則133条1項・準則78条1項）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
@@ -407,7 +407,7 @@ fully opaque background with no transparency or alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（エ肢・間違いノート）
 
-肢エで読者がつまずいたポイント（「床面積が変わらないなら図面の添付も不要なはず」という思い込み）を、床面積という数値の話と、合併という登記記録の再編成に必要な図面の話は別次元であることを左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
+エで読者がつまずいたポイント（「床面積が変わらないなら図面の添付も不要なはず」という思い込み）を、床面積という数値の話と、合併という登記記録の再編成に必要な図面の話は別次元であることを左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -456,7 +456,7 @@ Title (large, bold):
 数字が同じでも、図面は作り直す
 
 Subtitle (smaller, centered):
-平成28年度 午後の部 第14問 肢エ－床面積の数値と図面添付の要否を同一視
+平成28年度 午後の部 第14問 エ－床面積の数値と図面添付の要否を同一視
 しやすいポイント
 
 --- COMPARISON ---
@@ -487,7 +487,7 @@ Small caption below: 不動産登記令別表16項添付情報イ。合併後の
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-平成28年度 午後の部 第14問 肢エ（不動産登記令別表16項添付情報イ）
+平成28年度 午後の部 第14問 エ（不動産登記令別表16項添付情報イ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
@@ -535,13 +535,13 @@ actual decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No (はい/いいえ) branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 1
-(肢ア) is a left-to-right timeline with two lanes (a faded mistaken route
-and a highlighted correct route with numbered checkpoints). Panel 2 (肢イ)
+(ア) is a left-to-right timeline with two lanes (a faded mistaken route
+and a highlighted correct route with numbered checkpoints). Panel 2 (イ)
 is a two-step flowchart in which every diamond node shows BOTH outcomes,
-each leading forward to its own separate conclusion node. Panel 3 (肢ウ)
+each leading forward to its own separate conclusion node. Panel 3 (ウ)
 is a flowchart that first sorts the scene into one of two situations and
-then checks two distinct requirements one at a time. Panel 4 (肢エ) is a
-correct-vs-mistaken contrast frame. Panel 5 (肢オ) is a single diamond
+then checks two distinct requirements one at a time. Panel 4 (エ) is a
+correct-vs-mistaken contrast frame. Panel 5 (オ) is a single diamond
 node whose two outcomes each lead to their own conclusion node. In every
 flowchart, every branch arrow must lead forward to a new node — never
 draw a loop arrow that returns from a diamond node back to an earlier
@@ -602,7 +602,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -628,7 +628,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相続登記は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 住所が食い違えば先に住所の変更の登記が必要
@@ -656,7 +656,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 証明情報だけでは不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 区分合併は同一名義と接続で足り効用上一体は不要
@@ -686,7 +686,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 効用上一体は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 床面積が同じでも合併後の各階平面図は添付が必要
@@ -710,7 +710,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 図面の省略は不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 表題部所有者が合併を申請するなら印鑑証明書は不要

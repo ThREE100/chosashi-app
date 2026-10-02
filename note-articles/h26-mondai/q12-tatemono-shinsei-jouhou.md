@@ -126,8 +126,8 @@
 - 出題年度・問題番号・正解番号（3番＝イ・エ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - オ（不動産登記法44条1項7号・8号：区分建物又は附属建物が区分建物であるときは、当該一棟の建物の構造及び床面積が登記事項とされ〔7号〕、名称があるときはその名称が別途登記事項とされる〔8号〕こと。名称の存在は7号の構造・床面積の記載を代替・省略する規定にはなっていません）は、`note-articles/laws/fudousan-touki-hou.md`に保存した条文原文で確認できました。イ（不動産登記規則37条1項・2項「同一の登記所に対して同時に二以上の申請をする場合において…当該添付情報を当該一の申請の申請情報と併せて提供した旨を他の申請の申請情報の内容としなければならない」）も条文原文で確認できました。エ（不動産登記法44条・不動産登記令別表：管轄外土地の不動産番号による省略）は条文・規則の内容と整合しています。ア（区分建物一括申請と各別の申請情報の関係）、ウ（接続する区分建物の分割・合併の一括申請可否）についても実務上確立した取扱いとして整理していますが、根拠条文の逐条確認までは至っていない部分があります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。建物の登記の申請情報の記載事項がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記法・不動産登記規則の現行条文（2026-08-04取得）で44条・規則37条を再確認し、肢イの根拠条文を新たに条文上確認しました。直近の法改正で各肢の結論に変更された事実は見当たりません。
-- **訂正（2026-08-16）**：肢イの見出し・まとめ・タイトル・見出し画像用フレーズで「3件以上の同時申請」としていましたが、原問題の肢イ・規則37条とも「二以上の申請」（2件から適用）と定めており、「3件以上」は不正確でした。本文（肢イの段落）は当初から「2件以上」と正しく書かれていましたが、見出し等の他の箇所と食い違っていたため、記事全体で「2件以上」に統一しました（3件以上の場合も同様に適用されることは、本文中に維持しています）。あわせてインフォグラフィックCard3の図解も2件の例に修正しました。
+- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記法・不動産登記規則の現行条文（2026-08-04取得）で44条・規則37条を再確認し、イの根拠条文を新たに条文上確認しました。直近の法改正で各肢の結論に変更された事実は見当たりません。
+- **訂正（2026-08-16）**：イの見出し・まとめ・タイトル・見出し画像用フレーズで「3件以上の同時申請」としていましたが、原問題のイ・規則37条とも「二以上の申請」（2件から適用）と定めており、「3件以上」は不正確でした。本文（イの段落）は当初から「2件以上」と正しく書かれていましたが、見出し等の他の箇所と食い違っていたため、記事全体で「2件以上」に統一しました（3件以上の場合も同様に適用されることは、本文中に維持しています）。あわせてインフォグラフィックCard3の図解も2件の例に修正しました。
 - **分かりにくいポイントの追加（2026-09-18）**：エ・オ両肢について、正誤の結論には納得できても、なぜそうなるのか自力でたどり着けなかった、というフィードバックを受け、「ここが分かりにくいポイント」を本文に追加しました。エは、不動産番号による省略（不動産登記令6条）の原則に加え、敷地権の目的である土地が申請先と別の登記所の管轄区域内にある場合は「その土地を管轄する登記所の表示」もあわせて申請情報の内容としない限り省略が適用されない、という不動産登記規則34条3項の追加要件に焦点を当てました。オは、エの「番号を書けば省略できる」というパターンに引きずられて「名称を書けば構造・床面積も省略できる」と誤読しやすい点を、不動産登記法44条1項7号・8号がそれぞれ独立した登記事項であり、名称による省略を認める明文規定が存在しないことから整理しました。あわせて、この2肢を図解する「インフォグラフィック プロンプト（エ肢・間違いノート）」「インフォグラフィック プロンプト（エ・オ対比・間違いノート）」を追加しました。正誤判定・正解の組合せ自体（イエの組合せ、選択肢3番）は変更していません。
 
 ---
@@ -286,7 +286,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（エ肢・間違いノート）
 
-肢エでつまずきやすいのは、「不動産番号があれば省略できる」という原則だけで判断を止めてしまい、管轄が違う場合に追加で必要になる要件（登記所の表示）を見落としてしまう点です。2段階の条件判定を決定木で示します。
+エでつまずきやすいのは、「不動産番号があれば省略できる」という原則だけで判断を止めてしまい、管轄が違う場合に追加で必要になる要件（登記所の表示）を見落としてしまう点です。2段階の条件判定を決定木で示します。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -360,7 +360,7 @@ Result node: 省略ルールは適用されない → 所在・地目・地積�
 る
 
 From Decision node 2, Branch right（している、green checkmark、highlighted
-as the case in 肢エ）:
+as the case in エ）:
 Result node: 不動産登記規則34条3項の要件を満たす → 所在・地目・地積の記載
 を省略できる
 
@@ -441,13 +441,13 @@ Subtitle (smaller, centered):
 平成26年度 午後の部 第12問　エ vs オ－似ているようで結論が逆の2肢
 
 --- COMPARISON ---
-LEFT PANEL (green, heading「肢エ：省略できる」):
+LEFT PANEL (green, heading「エ：省略できる」):
 書くもの：不動産番号
 省略できるもの：敷地権の目的である土地の所在・地目・地積
 根拠：不動産登記令6条1項3号という明文の省略規定がある
 結論：正しい記述（省略できる）
 
-RIGHT PANEL (blue, heading「肢オ：省略できない」):
+RIGHT PANEL (blue, heading「オ：省略できない」):
 書くもの：一棟の建物の名称
 省略を狙うもの：一棟の建物の構造及び床面積
 根拠：不動産登記法44条1項7号（構造・床面積）と8号（名称）は独立した別の
@@ -482,7 +482,7 @@ alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に「どの図を描き、どの順番で条件を確認すればよいか」を、ア〜オ5肢それぞれについて示す作図ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。肢エは管轄区域の内外→登記所表示の有無という2段階の決定木、肢アは「同時申請の要否」と「各別申請書の可否」という別々の論点を切り分ける対比枠、肢オは肢エのパターンに引きずられやすい思い込みとの正誤対比で構成する。
+問題文を読んだ瞬間に「どの図を描き、どの順番で条件を確認すればよいか」を、ア〜オ5肢それぞれについて示す作図ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。エは管轄区域の内外→登記所表示の有無という2段階の決定木、アは「同時申請の要否」と「各別申請書の可否」という別々の論点を切り分ける対比枠、オはエのパターンに引きずられやすい思い込みとの正誤対比で構成する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -560,7 +560,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -587,7 +587,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 各別の申請書でもOK
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -607,7 +607,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 他の申請にも記載
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -630,7 +630,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一の申請情報でOK
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -661,14 +661,14 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記所表示があれば省略可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 名称を書いても構造・床面積は省略できない
 Diagram: A 正誤対比 (right-rule-vs-common-mistake) style comparison, not
 a flowchart. LEFT SIDE, labeled「誤りやすい思い込み」, faded/greyed
-illustration: reusing the same arrow icon from 肢エ's "不動産番号を書け
+illustration: reusing the same arrow icon from エ's "不動産番号を書け
 ば省略できる" idea, with a red cross mark placed over an arrow labeled
 「名称の記載 → 構造・床面積の省略」. RIGHT SIDE, labeled「正しいルー
 ル」, highlighted in full color: beneath a speech bubble quoting 不動産

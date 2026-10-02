@@ -242,18 +242,18 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — isometric registry counters, document stacks,
 filing cabinets, mail trucks, magnifying glasses, and stamps. Panel 1
-（肢ア）is a simple before/after timeline check and does not need a
-diamond-shaped flowchart. Panel 2（肢イ）uses a side-by-side comparison
+（ア）is a simple before/after timeline check and does not need a
+diamond-shaped flowchart. Panel 2（イ）uses a side-by-side comparison
 frame（対比枠型）rather than a flowchart, since the point of this 肢 is
 distinguishing between two equally valid return methods, not a sequential
-condition. Panel 3（肢ウ）must be drawn as a genuine two-diamond decision
+condition. Panel 3（ウ）must be drawn as a genuine two-diamond decision
 flowchart: this 肢 looks at first glance like a single check ("この印鑑
 証明書は原本還付の対象か"), but the article's own body text makes clear a
 second, hidden condition is doing the real work — WHICH document the 印鑑
 証明書 is attached to. Do not flatten this into one check; draw two
 diamond nodes in sequence as specified in the panel below, and render the
 branch that does not apply to 承諾書 in a faded, greyed-out style rather
-than omitting it. Panel 4（肢エ）is resolved by a single check and should
+than omitting it. Panel 4（エ）is resolved by a single check and should
 use a labeled illustrative diagram rather than a forced flowchart. Unlike
 a glanceable summary poster, each panel MAY include a short「着眼点」
 callout box with 1-2 sentences that state the checking ORDER in words
@@ -299,7 +299,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 還付は調査完了を待ってから請求
@@ -317,7 +317,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 調査完了後に請求
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 窓口でも郵送でも受け取れる
@@ -336,7 +336,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 郵送での還付も可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 承諾書添付の印鑑証明書は対象外
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾書添付分は対象外
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 偽造・不正利用の疑いは対象外
@@ -397,7 +397,7 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 4 exactly, badge numbers run
 1-4 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢ウ is drawn as a genuine
+between the header and the panels, that ウ is drawn as a genuine
 two-diamond flowchart rather than flattened into a single check, that
 each 着眼点 callout states a checking order rather than only a conclusion,
 confirm nothing is rendered below the last panel's footnote text (no

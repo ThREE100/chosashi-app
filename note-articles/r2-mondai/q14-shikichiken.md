@@ -82,7 +82,7 @@
 - 出典（令和2年度午後の部 第14問）・正解番号（アイ＝1番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠のうち、エ（不動産登記令別表12項の規約証明情報）・オ（合体時の敷地権割合と規約証明情報）は、データベースのexplanationフィールドに取扱いが記載されています。ア（管轄が異なる規約敷地の分筆と規約証明情報の要否）・イ（敷地権の表示の更正での登記原因・日付）は、敷地権に関する登記手続の一般的な取扱いからの説明であり、個別の先例番号までの条文レベルの確定は本記事では行っていません。ウ（表示不一致と同一性証明情報）は、当初「土地所有者と専有部分所有者が別人なら敷地権は発生しない」という理由づけで作成しましたが、重複出題チェックの過程で令和7年度第13問イ（レビュー済みのnote-articles/r7-mondai/q13-shikichiken.mdで採用されている理由づけ）と同一の論点であることが判明したため、「表示不一致は同一性証明情報だけでは足りず、先に住所・氏名の変更/更正登記が必要」という、より正確な理由づけに修正しています。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回は参照できませんでした。
-- **QAチェックリスト再検証（2026-08-18実施）**：肢ウの理由づけは上記のとおり修正済みでしたが、見出し画像用フレーズの3つ目「土地と部屋の名義が別人なら、敷地権は生まれないんです」が、修正前の古い理由づけのまま取り残されていました。本文・まとめの現在の理由づけ（表示不一致は同一性証明情報だけでは足りず、先に住所・氏名の変更/更正登記が必要）に合わせて修正しました。肢ウの正誤・正解番号への影響はありません。
+- **QAチェックリスト再検証（2026-08-18実施）**：ウの理由づけは上記のとおり修正済みでしたが、見出し画像用フレーズの3つ目「土地と部屋の名義が別人なら、敷地権は生まれないんです」が、修正前の古い理由づけのまま取り残されていました。本文・まとめの現在の理由づけ（表示不一致は同一性証明情報だけでは足りず、先に住所・氏名の変更/更正登記が必要）に合わせて修正しました。ウの正誤・正解番号への影響はありません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。**令和7年度第13問は本問と同じ「敷地権」がテーマで、特に本問ウと令和7年度第13問イは、敷地の所有権登記名義人と専有部分の所有権登記名義人の表示が一致していない場合の変更登記の可否という同一の論点を、ほぼ同じ結論（誤り＝同一性証明情報だけでは足りない）で問うものです**（上記のとおり、本問ウの理由づけは令和7年度第13問の解説と整合するよう修正済みです）。他の肢（規約敷地の分筆・敷地権表示の更正・分離処分規約・合体時の敷地権割合）は令和7年度第13問のア・ウ・エ・オとは異なる出題内容であり、出題全体としては別の問題ですが、上記ウの1肢についてはnoteでの執筆・公開に際して「たとえば」の具体例が似た内容にならないよう注意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -272,12 +272,12 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No（はい／いいえ）branch arrows, and a
 final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panel 3（肢ウ）must be drawn as a decision flowchart starting from a
+Panel 3（ウ）must be drawn as a decision flowchart starting from a
 diamond node asking whether the land-side and unit-side name/address
 displays match; highlight the いいえ branch（太い縁取り・フルカラー）
 because that is the fact pattern this 肢 tests, and give the はい branch
 its own faded conclusion node rather than leaving it blank. Panel 4
-（肢エ）must be drawn as a two-step flowchart with two separate diamond
+（エ）must be drawn as a two-step flowchart with two separate diamond
 nodes — 敷地の所有権登記名義人は区分建物の所有者と同一か, and 規約で
 分離処分を可能とする旨を定めているか — because these are two distinct
 conditions that must both be satisfied, and neither may be compressed
@@ -326,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -346,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 別管轄なら証明不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 更正登記でも敷地権の原因・日付を記録する
@@ -363,7 +363,7 @@ Diagram: マンション（区分建物）のアイソメトリック建物の�
 Conclusion tag (blue, 5-15 Japanese characters):
 原因・日付も記録
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 名義表示が一致しているかをまず確認する
@@ -388,7 +388,7 @@ the article's fact pattern）は、「同一性を証する情報」だけを添
 Conclusion tag (blue, 5-15 Japanese characters):
 証明書だけでは不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 名義人の同一性と分離処分規約を順に確認する
@@ -409,7 +409,7 @@ Diagram: A decision flowchart. 区分建物（専有部分）のアイソ
 Conclusion tag (green, 5-15 Japanese characters):
 規約の証明書が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 合算で割合が出るかを計算式で確認する

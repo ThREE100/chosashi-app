@@ -84,12 +84,12 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（1番＝ア・イ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
-- 各肢の根拠のうち、肢イ（不登規則35条2号：分割の登記と合併の登記の一括申請）、肢ア（不登法56条1号：合併の制限、不登法58条4項：共用部分である旨の登記による権利に関する登記の職権抹消）は条文レベルで確認できたものです。肢ウ（種類の同一性不要）、肢エ（分棟の分割登記の手続順序）、肢オ（敷地権の登記がある区分建物の合併可）は、いずれも登記実務の一般原則からの説明にとどまります。
-- なお、肢オの「敷地権の登記がある区分建物どうしの合併は申請できる（＝設問の『できない』は誤り）」という結論は、検証済みデータおよび正解の組合せ（アイ）と整合します。土地の合筆（敷地権のある土地は不可）との違いに注意してください。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ正 ウ誤 エ誤 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- 各肢の根拠のうち、イ（不登規則35条2号：分割の登記と合併の登記の一括申請）、ア（不登法56条1号：合併の制限、不登法58条4項：共用部分である旨の登記による権利に関する登記の職権抹消）は条文レベルで確認できたものです。ウ（種類の同一性不要）、エ（分棟の分割登記の手続順序）、オ（敷地権の登記がある区分建物の合併可）は、いずれも登記実務の一般原則からの説明にとどまります。
+- なお、オの「敷地権の登記がある区分建物どうしの合併は申請できる（＝設問の『できない』は誤り）」という結論は、検証済みデータおよび正解の組合せ（アイ）と整合します。土地の合筆（敷地権のある土地は不可）との違いに注意してください。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ正 ウ誤 エ誤 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（建物の分割又は合併の登記）と同一・類似の問題が再出題されていないかを確認しました。令和4年度第16問エ及び令和6年度第16問ウは、いずれも「共用部分である旨の登記がある建物どうしの合併の登記は申請できない」という、本問ア（合併の制限、法56条1号・58条4項）と同一の論点です。また令和3年度第16問オは敷地権の割合が相互に異なっていても合併の制限には当たらないとする点で、本問オ（敷地権登記のある区分建物どうしの合併可否）と関連する論点を扱っています。**部分的に類似する記述があります**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：不登規則35条2号（附属建物の分割・合併の一括申請）は条文番号・内容ともに現行法で変更がないことを確認しました。また、これまで「不登法58条系」「不登法56条系」と曖昧に表記していた合併の制限の根拠条文について、現行条文を確認し、共用部分である旨の登記がある建物の合併の登記の制限は不登法56条1号であることを特定できました。一方、共用部分である旨の登記による表題部所有者の登記・権利に関する登記の職権抹消の根拠は、以前の検証で「不登法58条2項」としていましたが、これは誤りでした。`note-articles/laws/fudousan-touki-hou.md`収録の不動産登記法58条の条文原文を確認したところ、職権抹消を定めるのは同条4項（2項は共用部分である旨の登記の申請人を定める規定）であることが判明したため、本文・確認事項ブロックの該当箇所を「不登法58条4項」に訂正しました（法務省データベースの原初のexplanationも「法58条4項」としており、今回の訂正はこれと整合します）。各肢の正誤判定・正解の組合せ（アイ）自体に変更はありません。
-- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。肢アの本文・確認事項ブロックで「共用部分である旨の登記による表題部所有者の登記・権利に関する登記の職権抹消」の根拠として引用していた「不登法58条2項」が、`laws/fudousan-touki-hou.md`の条文原文（2項は申請人を定める規定、職権抹消は4項）と一致しない誤りであったため、「不登法58条4項」に修正しました。これは直前の「最新法令への準拠チェック」セッションで誤って更新された条番号であり、今回の再検証で訂正しています。他の項目（正解の再確認、文章チェック、note表示形式、インフォグラフィックとの整合、執筆ルール、重複出題・最新法令チェックの記載）には問題は見つかりませんでした。正誤判定・正解の組合せに変更はありません。
+- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。アの本文・確認事項ブロックで「共用部分である旨の登記による表題部所有者の登記・権利に関する登記の職権抹消」の根拠として引用していた「不登法58条2項」が、`laws/fudousan-touki-hou.md`の条文原文（2項は申請人を定める規定、職権抹消は4項）と一致しない誤りであったため、「不登法58条4項」に修正しました。これは直前の「最新法令への準拠チェック」セッションで誤って更新された条番号であり、今回の再検証で訂正しています。他の項目（正解の再確認、文章チェック、note表示形式、インフォグラフィックとの整合、執筆ルール、重複出題・最新法令チェックの記載）には問題は見つかりませんでした。正誤判定・正解の組合せに変更はありません。
 
 ---
 
@@ -268,7 +268,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — isometric apartment/house buildings, small
 附属建物 icons, registry desks, application document folders, split/merge
 arrows, small plot-with-key badges for 敷地権 — adapt icon set to the
-topic of 建物の分割・合併. Panels 1, 3, and 5（肢ア・肢ウ・肢オ）share
+topic of 建物の分割・合併. Panels 1, 3, and 5（ア・ウ・オ）share
 the same "合併できるかどうかのチェックリスト" decision chain, drawn top to
 bottom: Diamond D1 labeled「共用部分である旨の登記があるか」, whose はい
 branch leads to a conclusion node「合併の登記を申請できない」; the いいえ
@@ -292,9 +292,9 @@ conclusion node in full color as the chain's outcome. Panel 5 highlights
 M2 and its small comparison box（with D1 and M1 shown small and already
 passed, in a lightly dimmed style）, rendering D1's はい branch/conclusion
 in a faded, greyed-out style, while still showing the final conclusion
-node in full color. Panel 2（肢イ）is resolved by a single check, so a
+node in full color. Panel 2（イ）is resolved by a single check, so a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panel 4（肢エ）uses a side-by-side "myth vs. correct rule" comparison
+Panel 4（エ）uses a side-by-side "myth vs. correct rule" comparison
 frame（LEFT: 誤りやすい思い込み, with a strikethrough mark over it, RIGHT:
 正しいルール, with a green checkmark）rather than a flowchart, because
 the point of that 肢 is correcting a procedural misconception, not a
@@ -342,7 +342,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 共用部分の登記がある建物は合併不可
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 共用部分の登記で合併不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 附属建物の分割と合併は一括申請OK
@@ -377,7 +377,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 分割と合併は一括可能
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 区分建物、種類が違っても合併できる
@@ -400,7 +400,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 種類の同一性は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 主従関係なければ直接、分割登記でOK
@@ -422,7 +422,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 回り道の変更登記は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 敷地権付き区分建物どうしも合併できる

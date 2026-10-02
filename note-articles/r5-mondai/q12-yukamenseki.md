@@ -114,7 +114,7 @@
 - 各肢の根拠のうち、ア（準則82条8号）、イ（昭46.4.16民甲238号）、ウ（不動産登記規則115条かっこ書、昭46.4.16民甲238号）、エ（準則82条4号・5号）、オ（昭38.10.22民甲2933号、昭37.12.15民甲3600号）は、データベースのexplanationフィールドで条文番号・先例番号まで明記されているものです。一方、これらを日常例に置き換えた説明部分は、条文・先例の趣旨からの敷衍（一般原則からの推論）にとどまります。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
 - 「補足：床面積の算定方法を整理する」は、本問アからオまでの5肢の根拠（準則82条8号、規則115条かっこ書、昭46.4.16民甲238号、準則82条4号・5号、昭38.10.22民甲2933号、昭37.12.15民甲3600号）を横断的に整理したもので、新たな条文・先例を追加で参照したものではありません。
-- 【2026-08-16修正】肢オの先例番号は、データベースのOCR由来データでは「昭38.10.22民甲1933号」となっていましたが、令和4年度午後の部第12問の記事で同一先例と思われる引用が「2933号」となっている食い違いを発見し、追加調査を行いました。国立国会図書館リサーチ・ナビの『詳細登記六法（平成24年版） 別冊（登記関係先例編）』索引に「昭和38・10・22民事甲2933号回答」の記載が確認でき、「1933号」を裏付ける情報源はWeb検索上どこにも見当たらなかったため、「1933」は「2933」のOCR誤読（1と2の読み違い）と判断し、「2933号」に修正しました。
+- 【2026-08-16修正】オの先例番号は、データベースのOCR由来データでは「昭38.10.22民甲1933号」となっていましたが、令和4年度午後の部第12問の記事で同一先例と思われる引用が「2933号」となっている食い違いを発見し、追加調査を行いました。国立国会図書館リサーチ・ナビの『詳細登記六法（平成24年版） 別冊（登記関係先例編）』索引に「昭和38・10・22民事甲2933号回答」の記載が確認でき、「1933号」を裏付ける情報源はWeb検索上どこにも見当たらなかったため、「1933」は「2933」のOCR誤読（1と2の読み違い）と判断し、「2933号」に修正しました。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和5年度より後に実施された試験（2026年7月時点では令和6年度・令和7年度がデータベースに存在）で、本問（建物の床面積）と同一・類似の問題が再出題されていないかを確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026-08-03実施）**：不動産登記事務取扱準則82条・不動産登記規則115条は、令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。
 - **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の条文原文と照合しました。準則82条は「（1）〜（11）」の号のみで項区分がないため、ア（吹抜け）の根拠として本文・まとめ・確認事項に記載していた「準則82条1項8号」は誤りで、正しくは「準則82条8号」です（同条エの引用「82条4号・5号」は号のみで元々正しい表記でした）。該当箇所をすべて「準則82条8号」に修正しました。ウの根拠である規則115条かっこ書「壁その他の区画の内側線」は原文と一致することを確認しました。正解（選択肢4番＝イオ）はQ12=④の公式正解と一致しており、相違ありません。
@@ -296,11 +296,11 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panel 3（肢ウ）is instead built as a
+— do not force a flowchart. Panel 3（ウ）is instead built as a
 side-by-side contrast frame（正誤対比型）: a left/upper panel labeled
 「誤りやすい思い込み」showing the mistaken idea crossed out, and a
 right/lower panel labeled「正しいルール」showing the correct rule. Panels
-4 and 5（肢エ・肢オ）must each be drawn as an actual decision flowchart
+4 and 5（エ・オ）must each be drawn as an actual decision flowchart
 whose diamond node has two equally meaningful outcomes — render BOTH the
 「はい」and「いいえ」exit arrows with their own distinct, clearly labeled
 conclusion node, highlighting the branch this problem's 肢 actually
@@ -350,7 +350,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 吹抜けは階ごとに床の有無で判定する
@@ -368,7 +368,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 床のある階は算入
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 壁の厚みは階ごとに測り直す
@@ -387,7 +387,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 階ごとに中心線で計算
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 柱の出っ張りは除外せず無視して測る
@@ -409,7 +409,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 除外せず柱は無視
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 常時開放の通路か閉じる区画かを見分ける
@@ -432,7 +432,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 閉鎖区画は算入
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 塔屋の一部使用が全体に波及する

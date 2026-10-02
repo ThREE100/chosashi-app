@@ -93,8 +93,8 @@
 - 各肢の根拠について、ア・イ・エ・オ（いずれも昭63.3.24民三1826号）、ウ（不動産登記事務取扱手続準則81条4項、昭37.12.15民甲3600号）は、いずれもデータベースのexplanationフィールドで先例番号・準則番号まで明記されているものです。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認しました。「建物の構造及び床面積」を扱う令和2年度第12問は、開閉式屋根の野球場・地下街の通路といった床面積算入の特殊ケースを問うもので、本問（造りの表示・屋根種類の表示ルール・屋根裏部屋の階数算入・地下階の基準・高床式の表示）とは具体的な論点が異なるため、**重複は見つかりませんでした**。
-- **導入文の誤りを修正（2026-08-08実施）**：ユーザーの依頼により、導入文の記述を再確認したところ、2箇所の誤りを発見し修正しました。（a）「屋根の種類が複数あるときの表示ルール（過半数ルール）」は誤りで、正しくは肢イの解説どおり「30％以上ルール」です（過半数＝50%超の意味だと、肢イで65%のスレートのみが表示対象になってしまい、実際には35%のかわらも表示対象になるという結論と矛盾します）。（b）「数字（1.5メートル・1メートル）」の「1メートル」も誤りで、地階の基準は固定の「1メートル」ではなく「天井高の3分の1」という比率であり、この点は記事末尾の結論文（「天井高の3分の1」（地階の基準）と明記）とも整合しない記述でした。両方とも、記事本文（肢イ・肢エの解説、結論文）に合わせて修正しています。
-- **肢イの見出しの誤りを修正（QAチェックリスト再検証）**：肢イの見出しが「屋根の種類は、床面積の過半を占めるものだけを表示する」となっていましたが、本文・まとめは「30％以上を占めるものを表示する」という結論であり、見出しだけが誤って「過半数」のままでした（上記の導入文の誤りと同種の混同が見出しにも残っていました）。見出しを本文・まとめと一致する内容に修正しました。
+- **導入文の誤りを修正（2026-08-08実施）**：ユーザーの依頼により、導入文の記述を再確認したところ、2箇所の誤りを発見し修正しました。（a）「屋根の種類が複数あるときの表示ルール（過半数ルール）」は誤りで、正しくはイの解説どおり「30％以上ルール」です（過半数＝50%超の意味だと、イで65%のスレートのみが表示対象になってしまい、実際には35%のかわらも表示対象になるという結論と矛盾します）。（b）「数字（1.5メートル・1メートル）」の「1メートル」も誤りで、地階の基準は固定の「1メートル」ではなく「天井高の3分の1」という比率であり、この点は記事末尾の結論文（「天井高の3分の1」（地階の基準）と明記）とも整合しない記述でした。両方とも、記事本文（イ・エの解説、結論文）に合わせて修正しています。
+- **イの見出しの誤りを修正（QAチェックリスト再検証）**：イの見出しが「屋根の種類は、床面積の過半を占めるものだけを表示する」となっていましたが、本文・まとめは「30％以上を占めるものを表示する」という結論であり、見出しだけが誤って「過半数」のままでした（上記の導入文の誤りと同種の混同が見出しにも残っていました）。見出しを本文・まとめと一致する内容に修正しました。
 
 ---
 
@@ -363,7 +363,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 外壁材ではなく主要構造部で判断する
@@ -383,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 骨組みで判断
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 屋根材ごとに30%基準を順に確認する
@@ -404,7 +404,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 両方とも表示対象
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 屋根裏部屋は天井高1.5m以上で階に算入
@@ -420,7 +420,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 3階建と表示
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 沈み込みが天井高の3分の1以上なら地下階
@@ -449,7 +449,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地下1階付き2階建
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 床上げ2.0mは1.5m基準を上回り高床式
@@ -484,7 +484,7 @@ Jōyō kanji, and the Arabic numerals explicitly used above appears anywhere
 in the image — no Latin letters, no other non-Japanese scripts. Confirm
 the panel count equals 5 exactly, badge numbers run 1-5 continuously,
 there is no intro illustration or paragraph block between the header and
-the panels, that every multi-condition 肢（肢エ）is drawn as an actual
+the panels, that every multi-condition 肢（エ）is drawn as an actual
 flowchart with branch nodes (not a bare illustration with no visible
 decision structure), that no 肢 with a genuinely hidden second condition
 has been flattened into a single check, that each 着眼点 callout states a

@@ -372,7 +372,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -399,7 +399,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 定義どおりで正しい
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 相続人は該当、仮登記名義人は非該当
@@ -422,7 +422,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 仮登記名義人は対象外
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 移転登記が未了なら代位でも不可
@@ -444,7 +444,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 移転登記が先
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in purple containing the number 4.
 Heading (bold, ONE line):
 名義人が変わっても再申請は却下
@@ -469,7 +469,7 @@ Conclusion tag (a short colored banner/pill, purple, 5-15 Japanese
 characters):
 再度の申請は原則却下
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 審査請求は不可、争うなら訴訟へ

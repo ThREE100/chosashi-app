@@ -326,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -345,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 指定前は甲乙どちらも可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -363,7 +363,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 管轄は甲のまま不変
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -381,7 +381,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 主である建物の登記所
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -401,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 移転先の乙に申請
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

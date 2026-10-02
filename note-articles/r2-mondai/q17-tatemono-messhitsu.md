@@ -269,12 +269,12 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes
 with the condition written on them, Yes/No（はい／いいえ）branch arrows,
 and a final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panels 3, 4, and 5（肢ウ・エ・オ）share the same three-way decision tree
+Panels 3, 4, and 5（ウ・エ・オ）share the same three-way decision tree
 rooted at a diamond node asking who is trying to apply for the 滅失
 registration（所有権移転の仮登記名義人／相続人／区分所有者の一人）; each
 panel highlights（太い縁取り・フルカラー）only the branch relevant to its
 own肢 and renders the other two branches in a faded, greyed-out, dotted-
-outline style. Panel 4（肢エ）must additionally draw a second diamond
+outline style. Panel 4（エ）must additionally draw a second diamond
 node on its own highlighted branch — 相続による所有権移転の登記を経て
 いるか — with both the はい and いいえ outcomes given their own
 conclusion node (no looping arrow back to an earlier node), since this
@@ -324,7 +324,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -343,7 +343,7 @@ Diagram: 敷地権付き区分建物のアイソメトリック建物と、点�
 Conclusion tag (blue, 5-15 Japanese characters):
 消滅した旨を記録
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 申請情報等の保存期間を確認する
@@ -358,7 +358,7 @@ Diagram: 滅失の登記の申請書類（申請情報・添付情報）のア�
 Conclusion tag (blue, 5-15 Japanese characters):
 30年間保存
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 申請人になろうとしているのは誰かを確認する
@@ -381,7 +381,7 @@ branch）を辿ると、焼失した建物のアイソメトリック建物と�
 Conclusion tag (green, 5-15 Japanese characters):
 申請人になれない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 相続登記を経ていなくても申請できるかを確認する
@@ -405,7 +405,7 @@ fact pattern）は、亡くなった所有権の登記名義人（グレーの�
 Conclusion tag (green, 5-15 Japanese characters):
 相続登記は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 区分所有者の一人から申請できるかを確認する

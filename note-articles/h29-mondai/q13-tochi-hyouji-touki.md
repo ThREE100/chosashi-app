@@ -269,12 +269,12 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. This article's 肢イ and 肢ウ genuinely share
+— do not force a flowchart. This article's イ and ウ genuinely share
 one common two-step decision tree (範囲は一部か全部か、全部の場合はさらに
 一時的か常時かを分岐させる): the branch and conclusion node relevant to
 that panel are drawn in full color with a thick border, while the other
 branches and their conclusion nodes are faded to a lighter tint with thin
-borders and grayed labels; 肢ア・肢エ・肢オ are each designed
+borders and grayed labels; ア・エ・オ are each designed
 independently around their own fact pattern. Unlike a glanceable summary
 poster, each panel MAY include a short「着眼点」callout box with 1-2
 sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
@@ -322,7 +322,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 分筆線の誤りは抹消して再分筆
@@ -340,7 +340,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抹消して再分筆
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 一部の常時海没は地積変更登記
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地積の変更登記
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 全部でも一時的なら所有権は存続
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 滅失登記はしない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 全部が河川区域内になれば旨の登記
@@ -402,7 +402,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 河川区域である旨
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 河川区域内の一部滅失は地積変更を嘱託
@@ -437,11 +437,11 @@ katakana, Jōyō kanji, and the Arabic numerals explicitly used above
 appears anywhere in the image — no Latin letters, no other non-Japanese
 scripts. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that 肢イ・肢ウ are drawn from the same shared
+the header and the panels, that イ・ウ are drawn from the same shared
 decision tree with only the relevant branch and its own conclusion node
 highlighted in each panel while the other branches remain visibly present
 but faded (never omitted or looped), that both「一時的」and「常時（継続
-的）」conclusion nodes in 肢ウ are shown as real, separately labeled
+的）」conclusion nodes in ウ are shown as real, separately labeled
 outcomes rather than one being left blank, that each 着眼点 callout
 states a checking order rather than only a conclusion and keeps every
 required element from the source article distinct, confirm nothing is

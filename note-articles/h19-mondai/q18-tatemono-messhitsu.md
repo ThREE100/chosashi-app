@@ -309,19 +309,19 @@ this problem are five independent, unrelated rules about the building 滅失
 shared fact pattern, draw them as five separate diagrams rather than
 highlighting branches of one shared tree shape. Where a 肢 requires
 checking multiple conditions in sequence before reaching a conclusion
-(肢ア・肢イ・肢ウ), draw the panel's diagram as an actual decision
+(ア・イ・ウ), draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node for
 both the はい and いいえ sides wherever both results carry real meaning
-(肢イ: whether the building has a 共用部分である旨の登記, and 肢ウ: whether
+(イ: whether the building has a 共用部分である旨の登記, and ウ: whether
 the applicant falls under the 規則47条3号 category, both matter and must
 each show their own conclusion, with no looping arrow back into the
 flowchart). Where a 肢 turns on distinguishing two different scenes that
-are easy to confuse (肢エ: 曳行移転 vs 解体移転), draw it as a two-side
+are easy to confuse (エ: 曳行移転 vs 解体移転), draw it as a two-side
 contrast panel with one side highlighted in full color (the scene this
 問題 actually asks about) and the other side shown only as a labeled
 reference. Where a 肢 turns on a common misconception about whether a
-provision imposes an obligation (肢オ), draw it as a two-side contrast
+provision imposes an obligation (オ), draw it as a two-side contrast
 panel: a faded/crossed-out「誤った思い込み」side and a highlighted
 「正しい理解」side, rather than a plain single illustration. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」callout
@@ -331,8 +331,8 @@ case or precedent numbers (article/regulation numbers are fine); keep the
 callout text as written below verbatim, and keep every condition each
 callout describes faithful to the article's own body text — do not drop
 or merge a required element (e.g. keep 相続登記の先後と相続人全員の同意の
-要否 as two distinct checks in 肢ア, and keep 抵当権の有無と共用部分登記の
-有無 as two distinct checks in 肢イ).
+要否 as two distinct checks in ア, and keep 抵当権の有無と共用部分登記の
+有無 as two distinct checks in イ).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -371,7 +371,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 相続登記前でも一般承継人が単独申請
@@ -394,7 +394,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一般承継人が単独申請
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 抵当権者の承諾書は添付不要
@@ -416,7 +416,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾情報は添付不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 表示登記の申請人は印鑑証明書不要
@@ -440,7 +440,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 印鑑証明書は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 同一敷地内でも解体すれば滅失登記が必要
@@ -465,7 +465,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 滅失登記+表題登記
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 変更登記2件の義務化に条文上の根拠なし
@@ -506,13 +506,13 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢（肢ア・
-肢イ・肢ウ）is drawn as an actual flowchart with branch nodes (not a bare
-illustration with no visible decision structure), that 肢イ・肢ウ's two
+between the header and the panels, that every multi-condition 肢（ア・
+イ・ウ）is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that イ・ウ's two
 conditions each show a meaningful conclusion on both the はい and いいえ
-sides with no looping arrow back into the flowchart, that 肢エ is drawn as
+sides with no looping arrow back into the flowchart, that エ is drawn as
 a two-side contrast between 曳行移転 and 解体移転 with only the 解体移転
-side highlighted, that 肢オ is drawn as a two-side contrast between the
+side highlighted, that オ is drawn as a two-side contrast between the
 mistaken assumption and the correct understanding rather than a single
 plain illustration, that each 着眼点 callout states a checking order
 rather than only a conclusion and keeps every required element from the

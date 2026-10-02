@@ -82,7 +82,7 @@
 - 出題年度・問題番号・正解番号（2番＝ア・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア＝法52条3項、イ＝法51条6項、ウ＝法47条1項・48条1項、エ＝法48条3項、オ＝法47条2項）は、データベースのexplanationフィールドに記載のものを転記しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
-- **重複出題チェック（2026-08-16実施）**：`note-articles/`配下の他年度記事を検索したところ、本問5肢のうち3肢について、他年度の記事と同一・類似の論点が見つかりました。肢ア（法52条3項、非区分建物同士が接続して区分建物になった場合の一括変更登記）は、平成29年度第17問ウ「いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事により相互に接続して区分建物になった場合には、甲建物及び乙建物についての表題部の変更の登記の申請は、一括してしなければならない」とほぼ一言一句同じ記述・結論です（`h29-mondai/q17-kubun-tatemono.md`の確認事項ブロックにも同旨の指摘あり）。肢イ（法51条6項、一棟の表題部変更登記は専有部分所有者の一人が申請すれば足り、他の登記記録は職権で変更される）は、令和元年度第18問イ（同法53条2項が準用する51条5項・6項、更正の登記の場面）および令和6年度第18問オ（乙区分建物の所有権登記名義人は一棟の床面積変更登記の申請を要しない）と同一の論点です（`r1-mondai/q18-kubun-tatemono.md`の確認事項ブロックにも同旨の指摘あり）。肢オ（法47条2項、相続人は被相続人を表題部所有者として区分建物の表題登記を申請できる）は、平成25年度第15問ア「区分建物である建物を新築した場合において、その所有者について相続があったときは、相続人は、被相続人を表題部所有者とする当該建物についての表題登記を申請することができる」と同一の論点です。肢ウ・エについては、他年度記事との具体的な重複は確認できませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-08-16実施）**：`note-articles/`配下の他年度記事を検索したところ、本問5肢のうち3肢について、他年度の記事と同一・類似の論点が見つかりました。ア（法52条3項、非区分建物同士が接続して区分建物になった場合の一括変更登記）は、平成29年度第17問ウ「いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事により相互に接続して区分建物になった場合には、甲建物及び乙建物についての表題部の変更の登記の申請は、一括してしなければならない」とほぼ一言一句同じ記述・結論です（`h29-mondai/q17-kubun-tatemono.md`の確認事項ブロックにも同旨の指摘あり）。イ（法51条6項、一棟の表題部変更登記は専有部分所有者の一人が申請すれば足り、他の登記記録は職権で変更される）は、令和元年度第18問イ（同法53条2項が準用する51条5項・6項、更正の登記の場面）および令和6年度第18問オ（乙区分建物の所有権登記名義人は一棟の床面積変更登記の申請を要しない）と同一の論点です（`r1-mondai/q18-kubun-tatemono.md`の確認事項ブロックにも同旨の指摘あり）。オ（法47条2項、相続人は被相続人を表題部所有者として区分建物の表題登記を申請できる）は、平成25年度第15問ア「区分建物である建物を新築した場合において、その所有者について相続があったときは、相続人は、被相続人を表題部所有者とする当該建物についての表題登記を申請することができる」と同一の論点です。ウ・エについては、他年度記事との具体的な重複は確認できませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -477,7 +477,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -506,7 +506,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 変更登記は一括申請
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 一人が申請すれば他は職権で変更
@@ -529,7 +529,7 @@ other owners must also apply.
 Conclusion tag (blue, 5-15 Japanese characters):
 他は職権で変更
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 敷地権なしでも一棟全部を一括申請
@@ -548,7 +548,7 @@ loop arrows.
 Conclusion tag (orange, 5-15 Japanese characters):
 敷地権不問で一括
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 非区分建物への新築接続も一括申請
@@ -573,7 +573,7 @@ with a small label「→ 別パネルで解説」, without omitting it.
 Conclusion tag (green, 5-15 Japanese characters):
 変更登記と表題登記を一括
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in purple containing the number 5.
 Heading (bold, ONE line):
 相続人はＡを表題部所有者として申請可
@@ -613,7 +613,7 @@ paragraph block between the header and the panels, that every
 multi-condition 肢 (ウ, and the shared tree in ア/エ) is drawn as an actual
 flowchart with branch nodes (not a bare illustration with no visible
 decision structure), that each 着眼点 callout states a checking order
-rather than only a conclusion, that the panels for 肢ア and 肢エ clearly
+rather than only a conclusion, that the panels for ア and エ clearly
 distinguish their own highlighted branch of the shared decision tree from
 the other, faded branch, confirm nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,

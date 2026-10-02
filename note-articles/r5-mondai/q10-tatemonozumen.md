@@ -95,12 +95,12 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（1番＝ア・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠のうち、ア（不動産登記規則74条2項・3項）、イ（準則52条1項、登記研究416号）、ウ（不動産登記規則88条1項ただし書）、オ（準則53条1項）は、データベースのexplanationフィールドで条文番号・先例番号まで明記されているものです。一方、エ（附属建物の滅失による変更登記で図面提供を要しないこと）は、explanation上で条文番号までは明示されておらず、図面提供に関する一般的な取扱いからの推論を含みます。
-- ウの補足（更正登記ができない場合＝訂正の申出で直す場合の説明、地番の表記ミスの具体例）は、令和5年度第10問のexplanationだけでなく、平成27年度第8問肢ウ・令和4年度第7問肢ウ（いずれもtakuitsu.jsonで規則88条1項の条文根拠つきで確認済み）を横断的に突き合わせて追記したものです。
+- ウの補足（更正登記ができない場合＝訂正の申出で直す場合の説明、地番の表記ミスの具体例）は、令和5年度第10問のexplanationだけでなく、平成27年度第8問ウ・令和4年度第7問ウ（いずれもtakuitsu.jsonで規則88条1項の条文根拠つきで確認済み）を横断的に突き合わせて追記したものです。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和5年度より後に実施された試験（2026年7月時点では令和6年度・令和7年度がデータベースに存在）で、本問（建物図面及び各階平面図）と同一・類似の問題が再出題されていないかを確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026-08-03実施）**：不動産登記事務取扱準則52条1項・53条1項、不動産登記規則74条2項・88条1項は、令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。
 - **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の条文原文と照合しました。イ（準則52条1項）、ウ（不動産登記規則88条1項ただし書「土地所在図、地積測量図、建物図面又は各階平面図」を明文で束ねて規定）、オ（準則53条1項「1階以外の階層を表示するときは、1階の位置を点線をもって表示する」）は条文原文と完全に一致し、相違なし。アの根拠条文に誤りがあり、「土地家屋調査士法施行規則21条1項」は同項が実際には報酬基準の明示義務の規定であり、図面の作成者欄の記載事項とは無関係のため誤りと判明したため、削除し「不動産登記規則74条3項」（図面を別記様式により作成すべき旨の規定）に修正しました（本文・確認用の根拠一覧の2箇所）。なお、作成者欄に「住所」を記載する具体的な書式指定自体は別記様式（画像）内の要素でありローカル法令データベースでは全文テキスト化されていないため、様式の存在根拠となる74条3項までの確認にとどめています。正解番号（①＝ア・ウ）は独立確認済みの公式正解と一致しています。
-- **QAチェックリスト再検証（2026-08-16実施）**：確認事項ブロック内のウの補足説明で、注釈括弧が半角`()`のまま（「令和4年度第7問肢ウ（いずれも…確認済み）」）になっていたため、全角（）に修正しました。その他の項目（判例・先例番号の記載、一般法の適用除外、見出しの結論整合性、文体、表形式の不使用、インフォグラフィックとの整合性、タイトル文字数、確認事項ブロックの正直さ、重複出題・最新法令チェック）は確認済みで問題ありませんでした。
+- **QAチェックリスト再検証（2026-08-16実施）**：確認事項ブロック内のウの補足説明で、注釈括弧が半角`()`のまま（「令和4年度第7問ウ（いずれも…確認済み）」）になっていたため、全角（）に修正しました。その他の項目（判例・先例番号の記載、一般法の適用除外、見出しの結論整合性、文体、表形式の不使用、インフォグラフィックとの整合性、タイトル文字数、確認事項ブロックの正直さ、重複出題・最新法令チェック）は確認済みで問題ありませんでした。
 ---
 
 ## 見出し画像用フレーズ
@@ -254,7 +254,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢アは「住所を書く欄は申請人か作成者か」という誤りやすい思い込みを、正しいルールと並べる対比枠型で描く。ウは「その誤りは登記事項自体に及ぶか」を分岐点とする決定木として、更正登記で直す場合と訂正の申出で直せる場合の両方を明記する。イ・エ・オは、それぞれ図面に何を・どう描くかを1枚の配置図で示す構成にした。
+アは「住所を書く欄は申請人か作成者か」という誤りやすい思い込みを、正しいルールと並べる対比枠型で描く。ウは「その誤りは登記事項自体に及ぶか」を分岐点とする決定木として、更正登記で直す場合と訂正の申出で直せる場合の両方を明記する。イ・エ・オは、それぞれ図面に何を・どう描くかを1枚の配置図で示す構成にした。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -277,11 +277,11 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 1（肢ア）is instead built as a side-by-side contrast
+flowchart. Panel 1（ア）is instead built as a side-by-side contrast
 frame（正誤対比型）: a left/upper panel labeled「誤りやすい思い込み」
 showing the mistaken idea crossed out, and a right/lower panel labeled
 「正しいルール」showing the correct rule, since this 肢 is about a common
-misconception rather than a multi-step judgment. Panel 3（肢ウ）must be
+misconception rather than a multi-step judgment. Panel 3（ウ）must be
 drawn as an actual decision flowchart with a diamond node asking whether
 the mistake reaches a registered item itself, and BOTH exit arrows
 （登記事項自体の誤り／表示だけの誤り）must lead to their own distinct,
@@ -330,7 +330,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 住所欄の記載義務は作成者だけにある
@@ -353,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請人の住所は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 附属建物が地下のみかを見分ける
@@ -368,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地下1階を朱書き
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 誤りが登記事項に及ぶかを確認する
@@ -392,7 +392,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 訂正の申出は不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 滅失は附属建物だけかを確認する
@@ -409,7 +409,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 図面の提出不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 表示する階以外の位置を点線で示す

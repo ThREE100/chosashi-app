@@ -110,7 +110,7 @@ Bさんがその後の分筆登記の手続に協力してくれない場合で�
 - ア（不動産登記法40条：分筆に伴う権利の消滅の登記。抵当権の登記名義人が分筆後の一方の土地について当該権利を消滅させることを承諾したことを証する情報が提供されたときは、当該承諾に係る土地について当該権利が消滅した旨を登記しなければならない）、ウ（不動産登記法39条1項：分筆の登記は表題部所有者又は所有権の登記名義人以外の者は申請することができない）は、`note-articles/laws/fudousan-touki-hou.md`に保存した条文原文で確認済みです。イ（分筆の登記が原則任意であること）、エ（共有物分割判決確定後の代位申請の可否）、オ（地上権の一部譲渡と土地所有者の分筆義務の無関係性）は不動産登記法・実務解説の内容と整合していますが、条文の逐条確認までは至っていない部分があります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。分筆の登記の申請人・抵当権の帰趨がテーマ。R03第11問も分筆の登記がテーマですが、肢の内容（相続財産管理人・賃借権者の承諾等）は完全に異なり、同一問題ではありません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-06実施）**：`note-articles/laws/`に保存した不動産登記法の現行条文（2026-08-04取得）で39条・40条を再確認しました。令和5年4月1日施行の共有制度改正（民法252条等）が本問（分筆の登記の申請人・抵当権の帰趨）に影響しないかも確認しましたが、分筆の登記の申請人・添付情報に関する不動産登記法上のルールには変更がなく、各肢の結論に影響しません。
-- **補足の追加（2026-09-27）**：肢ウについて、Dが実際に分筆の登記を申請できるようになるにはどのような手続が必要かという補足を本文に追加しました。不動産登記法74条1項（所有権保存の登記を申請できる者の限定列挙。表題部所有者の相続人その他の一般承継人は含まれるが、売買による特定承継人は含まれないこと）および同条2項（区分建物に限り、表題部所有者から所有権を取得した者も保存登記を申請できる特則があること。本問は土地なので適用されないこと）は`laws/fudousan-touki-hou.md`（「##### 第74条」の項）から実際にGrep・Readして確認済みです。肢ウ自体の正誤判定・結論に変更はありません。
+- **補足の追加（2026-09-27）**：ウについて、Dが実際に分筆の登記を申請できるようになるにはどのような手続が必要かという補足を本文に追加しました。不動産登記法74条1項（所有権保存の登記を申請できる者の限定列挙。表題部所有者の相続人その他の一般承継人は含まれるが、売買による特定承継人は含まれないこと）および同条2項（区分建物に限り、表題部所有者から所有権を取得した者も保存登記を申請できる特則があること。本問は土地なので適用されないこと）は`laws/fudousan-touki-hou.md`（「##### 第74条」の項）から実際にGrep・Readして確認済みです。ウ自体の正誤判定・結論に変更はありません。
 
 ---
 
@@ -341,7 +341,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in teal containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 甲は消滅、乙は転写
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in teal containing the number 2.
 Heading (bold, ONE line):
 建物を建てても分筆登記は義務でない
@@ -377,7 +377,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 分筆登記は任意
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in teal containing the number 3.
 Heading (bold, ONE line):
 Dが申請人になれるかを確認する
@@ -395,7 +395,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 Dは申請人になれない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 共有物分割の判決確定の有無を確認する
@@ -415,7 +415,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 代位で申請可能
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 地上権譲渡は所有者の分筆義務を生まない

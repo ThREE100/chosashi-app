@@ -90,7 +90,7 @@
 - 出題年度・問題番号・肢の全文・正解番号（4番＝イ・エ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - `note-articles/laws/`のローカル法令データベース（不動産登記事務取扱手続準則、e-Gov現行法2026-08-04取得）で、エ（ガード下利用の建造物、準則77条1号ウ）とオ（アーケード付街路、準則77条2号エ）は、本問の肢とほぼ同一の文言で掲載されていることを確認済みです。もっとも、準則77条の例示リストには「停車場乗降場」「観覧席」「ガード下」「地下街」「温床施設」（建物として扱う）と「タンク」「機械上建造物」「浮船」「アーケード」「切符売場」（建物として扱わない）が列挙されているのみで、ア・ウに相当する例示はローカル法令データベースの範囲では見つかりませんでした。
 - **最新法令チェック追記（2026-08-08実施）**：ユーザーから提供された資格試験予備校の教材（先例引用付き）に基づき、ア・ウの根拠条文・先例番号を追加で確認しました。ア（桟橋上の家屋の定着性）は準則77条2号イ（機械上に建設された建造物で地上に足・支柱を有しないものは定着性を欠き建物として取り扱われない旨）の反対解釈と、先例（昭和31年4月7日民事甲755号、海上の構築物であるさん橋等の上に建設された建造物も建物として取り扱う旨）が根拠です。ウ（屋根材の材質と建物性）は準則81条1項2号ク（波形硬質塩化ビニール板等を用いた屋根が「ビニール板ぶき」として登記事項の記録対象になる旨）と、先例（昭和45年1月7日民事三第646号）が根拠です。イ（鉄塔と展望台の一体認定）については、地上建物と展望台をエレベーターホールで連絡させ一体の建物として登記されている実例があることは確認できましたが、この具体的な取扱いを直接定めた条文・先例の番号までは特定できていません。より厳密な出典を求める場合は、建物認定に関する先例集での追加確認を推奨します。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「建物の認定」がテーマの問題を確認しました。建物の認定は令和6年度第12問、令和5年度第11問、令和4年度第10問、平成27年度第13問など毎年のように出題される定番分野で、**特に本問肢オのアーケード付街路（公衆用道路上に屋根覆いを施した部分）は、令和5年度第11問肢ア・平成27年度第13問肢エでも同じ具体例として繰り返し使われており、本問肢エのガード下を利用した建造物も、令和4年度第10問肢エ（高架鉄道の高架下を屋根として利用した店舗）で酷似した具体例が使われています。**「桟橋」「アーケード」「ガード下」「タンク・サイロ」「鉄塔・展望台」は建物認定の先例として繰り返し使われる定番の具体例（いわば"殿堂入り"の題材）であるため、noteでの発信時は他年度の記事と似た印象を与えやすい点に注意し、本問固有の組み合わせ（桟橋上の家屋、鉄塔と展望台の一体認定、屋根材の材質）を前面に出す構成を検討してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「建物の認定」がテーマの問題を確認しました。建物の認定は令和6年度第12問、令和5年度第11問、令和4年度第10問、平成27年度第13問など毎年のように出題される定番分野で、**特に本問オのアーケード付街路（公衆用道路上に屋根覆いを施した部分）は、令和5年度第11問ア・平成27年度第13問エでも同じ具体例として繰り返し使われており、本問エのガード下を利用した建造物も、令和4年度第10問エ（高架鉄道の高架下を屋根として利用した店舗）で酷似した具体例が使われています。**「桟橋」「アーケード」「ガード下」「タンク・サイロ」「鉄塔・展望台」は建物認定の先例として繰り返し使われる定番の具体例（いわば"殿堂入り"の題材）であるため、noteでの発信時は他年度の記事と似た印象を与えやすい点に注意し、本問固有の組み合わせ（桟橋上の家屋、鉄塔と展望台の一体認定、屋根材の材質）を前面に出す構成を検討してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -251,12 +251,12 @@ an observation deck for 鉄塔と展望台の一体認定, a two-frame compariso
 (roof-material registration category vs the 3-requirement building test)
 for 屋根材の種類, the enclosed space under an elevated railway for ガード
 下の倉庫, and an open-sided arcade over a public road for アーケード付
-街路. Panel 1（肢ア）is the only 肢 in this problem where a naive,
+街路. Panel 1（ア）is the only 肢 in this problem where a naive,
 single-glance reading ("家屋自体が地面に直接付着していない") leads to the
 wrong conclusion, so it alone is drawn as a true two-diamond decision
 flowchart that first checks the house itself, then checks the supporting
 pier structure; the other four panels are resolved by a single check and
-use a labeled illustrative diagram (or, for 肢ウ, a two-frame comparison)
+use a labeled illustrative diagram (or, for ウ, a two-frame comparison)
 rather than a forced flowchart. Where a 肢 is resolved by a single check,
 a labeled illustrative diagram is sufficient — do not force a flowchart.
 Unlike a glanceable summary poster, each panel MAY include a short
@@ -305,7 +305,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 海底に足を持つ桟橋なら定着性あり
@@ -329,7 +329,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 桟橋の定着性で認定可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 連絡設備があれば鉄塔と一体認定
@@ -346,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 連絡設備で一体認定
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 屋根材の種類と建物認定は別の話
@@ -366,7 +366,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 3要件充足なら認定可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 ガード下でも3要件満たせば建物
@@ -383,7 +383,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 3要件満たせば認定可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 アーケードは側面開放で分断性なし
@@ -416,7 +416,7 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-肢ア is drawn as an actual two-diamond flowchart (not a bare illustration
+ア is drawn as an actual two-diamond flowchart (not a bare illustration
 with no visible decision structure) while the other panels use a single
 labeled diagram or two-frame comparison, that no 肢 with a genuinely
 hidden second condition has been flattened into a single check, that each

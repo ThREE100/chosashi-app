@@ -325,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -348,7 +348,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 構造欄に記録
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 増築ではみ出た土地の地番を所在欄に加える
@@ -368,7 +368,7 @@ addition is allowed.
 Conclusion tag (blue, 5-15 Japanese characters):
 地番の追加は可能
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 床面積を比べてから記録の順番を決める
@@ -390,7 +390,7 @@ looping back from either conclusion node into the diagram.
 Conclusion tag (blue, 5-15 Japanese characters):
 多い方を先に記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 家屋番号の変更は登記所が職権で行う
@@ -409,7 +409,7 @@ office itself.
 Conclusion tag (blue, 5-15 Japanese characters):
 変更登記は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 えい行移転後は甲乙いずれにも申請できる

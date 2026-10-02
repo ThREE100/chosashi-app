@@ -337,7 +337,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 第1欄の合筆も第2欄の分筆も1,000円
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 第3欄と一致（正）
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 第1欄の再区分も第2欄の分筆も2,000円
@@ -388,7 +388,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 第3欄と一致（正）
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 第1欄の区分建物の合併は1,000円で課税
@@ -413,7 +413,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 第3欄と不一致（誤）
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 第1欄の合筆抹消も第2欄の代位分筆も非課税
@@ -440,7 +440,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 第3欄と一致（正）
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 第2欄の宗教法人の土地分筆は2,000円で課税

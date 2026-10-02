@@ -84,7 +84,7 @@
 - 出題番号・正解番号（3番＝イ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア（法135条2項）、イ（法136条1項）、ウ（法140条3項）、エ（法137条4項）、オ（法141条1項）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです（本記事における「法」は不動産登記法を指します）。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**筆界特定は毎年のように出題されているテーマで、令和7年度第16問ウで肢オとほぼ同一の論点がほぼ同一の文言で再出題されている、強い重複が見つかりました**。具体的には、本問の肢オ「筆界特定の関係人は、筆界が特定されるまでの間は、当該筆界特定の手続において作成された調書及び提出された資料を閲覧することはできない」（誤り＝実際は閲覧できる）に対し、令和7年度第16問ウは「筆界特定の関係人は、筆界が特定されるまでの間は、当該筆界特定の手続において作成された調書及び提出された資料の閲覧を請求することができない」（同じく誤り）と、ほぼ一言一句同じ論点・同じ結論です。このほか、令和3年度第19問エ（対象土地の抵当権登記名義人による資料閲覧の可否）、令和5年度第18問ア（占有者不在時の実地調査の通知先）も、本問の肢オ・エと近い論点を扱っています。noteで令和7年度第16問の解説記事を作成する際は、本記事の肢オと内容がほぼ重複するため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**筆界特定は毎年のように出題されているテーマで、令和7年度第16問ウでオとほぼ同一の論点がほぼ同一の文言で再出題されている、強い重複が見つかりました**。具体的には、本問のオ「筆界特定の関係人は、筆界が特定されるまでの間は、当該筆界特定の手続において作成された調書及び提出された資料を閲覧することはできない」（誤り＝実際は閲覧できる）に対し、令和7年度第16問ウは「筆界特定の関係人は、筆界が特定されるまでの間は、当該筆界特定の手続において作成された調書及び提出された資料の閲覧を請求することができない」（同じく誤り）と、ほぼ一言一句同じ論点・同じ結論です。このほか、令和3年度第19問エ（対象土地の抵当権登記名義人による資料閲覧の可否）、令和5年度第18問ア（占有者不在時の実地調査の通知先）も、本問のオ・エと近い論点を扱っています。noteで令和7年度第16問の解説記事を作成する際は、本記事のオと内容がほぼ重複するため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
 
 ---
 
@@ -263,7 +263,7 @@ branch nodes with the condition written on them, Yes/No（はい／いいえ）
 branch arrows, and a final conclusion node. Where a 肢 is resolved by a
 single check, a labeled illustrative diagram is sufficient — do not force
 a flowchart. This article's five 肢 do not share a single common
-decision-tree shape (肢イ and 肢エ each have their own distinct two-step
+decision-tree shape (イ and エ each have their own distinct two-step
 structure), so design each panel's diagram independently around its own
 fact pattern. Unlike a glanceable summary poster, each panel MAY include a
 short「着眼点」callout box with 1-2 sentences that state the checking
@@ -311,7 +311,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 目的は所有権ではなく筆界
@@ -329,7 +329,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有権は対象外
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 通知していれば欠席でも調査続行
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 機会を与えれば実施可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 質問には登記官の許可が必要
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記官の許可が必須
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 承諾があれば日出前でも立入り可
@@ -384,7 +384,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾があれば立入り可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 関係人は特定前でも閲覧できる
@@ -420,7 +420,7 @@ explicitly used above appears anywhere in the image — no Latin letters, no
 other non-Japanese scripts. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every
-multi-condition 肢（肢イ・肢エ）is drawn as an actual flowchart with branch
+multi-condition 肢（イ・エ）is drawn as an actual flowchart with branch
 nodes (not a bare illustration with no visible decision structure), that
 no 肢 with a genuinely hidden second condition has been flattened into a
 single check, that each 着眼点 callout states a checking order rather than

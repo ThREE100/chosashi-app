@@ -88,7 +88,7 @@
 - 出典（令和3年度・午後の部・第19問）および正解番号（4番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
 - 条文レベルで確認できた根拠：本記事の条文引用は、ローカル法令データベース（`note-articles/laws/fudousan-touki-hou.md`、2026-08-04取得の現行条文）で全て条文原文を確認済みです。エ（提出資料の閲覧請求権者を申請人・関係人に限る）は不動産登記法141条1項に明記されています。ア・オの申請人適格は、同法131条1項（「土地の所有権登記名義人等は…筆界特定の申請をすることができる」）と、その「所有権登記名義人等」を定義する123条5号（所有権の登記がある土地は所有権の登記名義人、登記がない土地は表題部所有者、表題登記もない土地は所有者。相続人その他の一般承継人を含むが、売買による特定承継人は含まない）を根拠としています。データベースのexplanationフィールドにあった「法123条5号」の引用は、この定義規定を指すものとして正確であったため、本記事では131条1項と併記する形に修正しました。
 - 一般原則・通達からの推論にとどまるもの：イ（地位承継の申出があれば却下されず続行）とウ（相続人が相続を証する情報で手続参加できる）は、条文そのものではなく平成17年12月6日民二第2760号通達を根拠としてデータベースに記録されているものです。通達の趣旨に沿った取扱いとして押さえてください。
-- 参考として、データベースのpitfalls欄には肢アを「正しい」と読める記述も一部含まれていましたが、検証済みの正解（ウオ＝4番）およびexplanationの正誤判定（ア＝誤り）と矛盾するため、本記事では肢アを「誤り」として扱っています。
+- 参考として、データベースのpitfalls欄にはアを「正しい」と読める記述も一部含まれていましたが、検証済みの正解（ウオ＝4番）およびexplanationの正誤判定（ア＝誤り）と矛盾するため、本記事ではアを「誤り」として扱っています。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。本記事は上記の検証済みデータベースと、一般的な条文・通達の知識のみに基づいて作成しています。
 
 ---
@@ -341,7 +341,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 移転登記が先
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地位承継の申出で手続きはそのまま続く
@@ -396,7 +396,7 @@ and no stop sign, ending in a conclusion node reading 却下されない、手
 Conclusion tag (blue, 5-15 Japanese characters):
 却下されない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 相続人は登記なしで期日に出席できる
@@ -422,7 +422,7 @@ isometric figure labeled 相続人 holding a document labeled 相続を証する
 Conclusion tag (blue, 5-15 Japanese characters):
 相続登記は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in orange containing the number 4.
 Heading (bold, ONE line):
 抵当権者は「関係人」に含まれない
@@ -449,7 +449,7 @@ with a ✕ mark, unable to approach.
 Conclusion tag (orange, 5-15 Japanese characters):
 抵当権者は閲覧不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 表題部所有者も申請人になれる

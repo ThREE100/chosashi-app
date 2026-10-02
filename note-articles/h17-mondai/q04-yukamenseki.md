@@ -256,7 +256,7 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
 and a final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panel 1（肢ア）is a single diamond whose BOTH outcomes matter equally,
+Panel 1（ア）is a single diamond whose BOTH outcomes matter equally,
 since the 肢 itself asserts both an 算入 case and an 不算入 case: draw one
 diamond asking 壁や柱等で区画されているか（常時一般に開放されている通路
 ・階段は除く）, with a はい branch reaching a dedicated conclusion node
@@ -316,7 +316,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -338,7 +338,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 区画の有無で算入判定
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 開閉に関わらず算入
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 各階ごとに算入
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -399,7 +399,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 室の一部として算入
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

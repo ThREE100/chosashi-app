@@ -267,7 +267,7 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
 and a final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panels 1 and 5 (肢ア・肢オ) test a common misconception, so draw them as a
+Panels 1 and 5 (ア・オ) test a common misconception, so draw them as a
 side-by-side comparison between the mistaken assumption and the correct
 rule, marking the mistaken side with a red X or strikethrough rather than
 a bare ✕ icon. Unlike a glanceable summary poster, each panel MAY include
@@ -315,7 +315,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抹消しなくても地目変更登記はできる
@@ -335,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抹消不要で申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地上権者が変えても申請義務者は所有者
@@ -354,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 義務者は所有者
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 過去の変更は省き最終だけ登記する
@@ -371,7 +371,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 現況だけ登記
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地積変更登記との併合申請は不要
@@ -388,7 +388,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 併せて申請不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 登記原因の日付は許可日でなく現況変更日

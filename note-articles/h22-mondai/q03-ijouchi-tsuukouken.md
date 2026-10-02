@@ -269,13 +269,13 @@ conditions to get there — an isometric aerial layout of the three land
 plots 甲（袋地）・乙・丙 with a dashed footpath arrow showing the direction
 of travel to the public road, a checkmark/cross mark at the plot the
 reader must judge, small figure icons for the owners, and a registry-
-stamp icon where relevant. Panels 1（肢ア）・3（肢ウ）・5（肢オ）share the same
+stamp icon where relevant. Panels 1（ア）・3（ウ）・5（オ）share the same
 underlying two-diamond decision tree, rooted in a first diamond ("袋地は
 どうやって生じたか：分割・一部譲渡か、競売か、それとも無関係の売買か") and a
 second diamond ("通行できるのはどの土地か：分けた相手の残余地か、第三者の
 土地か"), with the branch relevant to that panel's 肢 highlighted (thicker
 border, distinct color) and the other branches drawn smaller/greyed out.
-Panels 2（肢イ）・4（肢エ）are each resolved by a single check, so draw a
+Panels 2（イ）・4（エ）are each resolved by a single check, so draw a
 labeled illustrative diagram for them instead of forcing a flowchart. Do
 not include case or precedent numbers (article/regulation numbers are
 fine); keep the callout text as written below verbatim.
@@ -315,7 +315,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 分割で生じた袋地は残余地の転売後も通行可
@@ -336,7 +336,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 転売後も乙を通行可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 通行権の主体は所有者に限られない
@@ -353,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地上権者も通路OK
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 袋地を残した側も分けた相手の土地を通行できる
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 残した側も通行できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 通行権の主張に登記はいらない
@@ -388,7 +388,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記なしで主張可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 競売で生じた袋地も分割に準じて扱う

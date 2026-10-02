@@ -92,7 +92,7 @@
 - 本問の方式は、不動産登記令13条（表示に関する登記の添付情報の特則）に規定されています。「申請人又はその代表者若しくは代理人が作成したもの並びに土地所在図、地積測量図、地役権図面、建物図面及び各階平面図を除く」と明記されており、ア・エ（申請人・代理人自身が作成した情報）とオ（図面）が対象外、イ・ウ（施工者・地役権者という第三者が作成した情報）が対象という本問の切り分けと完全に一致します（`note-articles/laws/fudousan-touki-rei.md`で条文原文を確認済み）。不動産登記規則93条（調査報告情報）の引用もあわせて確認済みです。
 - オの補足説明（図面の電子申請の具体的なルール）は、`note-articles/laws/fudousan-touki-kisoku-1.md`で確認した不動産登記規則73条1項（法務大臣が定める方式に従う旨）と、法務省ウェブサイト「不動産登記規則第73条第1項の規定により法務大臣が定める土地所在図等の作成方式」の検索結果スニペット（2026-08-20確認、添付可能ファイル形式が図面XML形式・図面TIFF形式の2種類である旨、作成者本人による電子署名が必要な旨）に基づいています。告示・詳細資料のPDF原文までは直接参照できていないため、ファイル形式の名称・要件の細部は公式資料で最終確認してください。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、公式正解との整合を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（電子申請における添付情報の電子署名による代替）と同一テーマの問題が再出題されていないかを確認しました。本問と同一テーマ（書面の電磁的記録化＋電子署名による代替の可否）を主題とする問題自体は見当たりませんでしたが、肢単位では、本問の肢ウ（地役権設定の範囲を証する地役権者作成情報）が、令和6年度第5問（分筆の登記の添付情報がテーマ）の肢アとほぼ同一の文言（類似度0.89）で使われています。ただし出題テーマ自体が異なる別問題であり、**重複ではありません**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（電子申請における添付情報の電子署名による代替）と同一テーマの問題が再出題されていないかを確認しました。本問と同一テーマ（書面の電磁的記録化＋電子署名による代替の可否）を主題とする問題自体は見当たりませんでしたが、肢単位では、本問のウ（地役権設定の範囲を証する地役権者作成情報）が、令和6年度第5問（分筆の登記の添付情報がテーマ）のアとほぼ同一の文言（類似度0.89）で使われています。ただし出題テーマ自体が異なる別問題であり、**重複ではありません**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -257,7 +257,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-5肢すべてが「この添付情報は誰が作成したものか」という同じ判定木を共有する構成。肢ア・エは申請人本人・代理人自身が作成した情報の枝を、肢イ・ウは第三者が作成した情報の枝を、肢オは図面の枝を、それぞれ強調する。
+5肢すべてが「この添付情報は誰が作成したものか」という同じ判定木を共有する構成。ア・エは申請人本人・代理人自身が作成した情報の枝を、イ・ウは第三者が作成した情報の枝を、オは図面の枝を、それぞれ強調する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -335,7 +335,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -354,7 +354,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 対象外(本人作成)
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 施工業者の署名で提供可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -394,7 +394,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 地役権者の署名で提供可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -414,7 +414,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 対象外(代理人作成)
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

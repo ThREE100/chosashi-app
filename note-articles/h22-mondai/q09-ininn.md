@@ -81,7 +81,7 @@
 - 各肢の判定（正しいのはイ・ウ）は、公式の正解の組合せ「イウ」から確定できるものです。
 - 各肢の根拠は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-rei.md`・`minpou-1-soukyoku-bukken.md`で条文原文を確認済みです。ア（登記申請の委任は本人の死亡によって消滅しない）は不動産登記法17条1号、オ（代理人の死亡による代理権の消滅）は民法111条1項2号から確認できます。イ（法人の代表者が交代しても代理権は消滅しない）は、本人＝法人自体であって代表者の交代は本人の変更に当たらないという理解に基づくもので、不動産登記法17条各号（本人の死亡・法人の合併による消滅・受託者の任務終了・法定代理人の死亡等）に直接列挙された事由ではありません。ウ（官公署が職務上作成した委任状の3か月制限の除外）は不動産登記令17条（1項が公務員作成書面の3か月制限、2項が官庁又は公署による嘱託の場合の適用除外）から確認できます。エ（補正のための取下げに特別の委任が不要であること）は、実務上の一般的な理解にとどまり、条文の個別確認はできていません。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（登記申請手続の委任）と同一の問題が再出題されていないかを確認しました。令和7年度第6問（嘱託登記）は問題文＋肢全体の類似度0.35程度ですが、その肢イ「市町村長が職務上作成した委任状は作成後3か月以内であることを要しない」は、本問の肢ウとほぼ同一の文言（類似度0.86）で出題されています。ただし令和7年度第6問は「嘱託登記」全体をテーマとする別問題で、他の4肢の組合せ・正解も異なるため、**問題全体としての重複ではありません**。官公署作成の委任状に関する期限の特例（不動産登記令7条1項5号ロかっこ書き）が、形を変えて繰り返し出題されている一例です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（登記申請手続の委任）と同一の問題が再出題されていないかを確認しました。令和7年度第6問（嘱託登記）は問題文＋肢全体の類似度0.35程度ですが、そのイ「市町村長が職務上作成した委任状は作成後3か月以内であることを要しない」は、本問のウとほぼ同一の文言（類似度0.86）で出題されています。ただし令和7年度第6問は「嘱託登記」全体をテーマとする別問題で、他の4肢の組合せ・正解も異なるため、**問題全体としての重複ではありません**。官公署作成の委任状に関する期限の特例（不動産登記令7条1項5号ロかっこ書き）が、形を変えて繰り返し出題されている一例です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -246,7 +246,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・オは、「代理権に影響する出来事は委任者（本人）側で起きたか、代理人側で起きたか」を出発点とし、委任者側の事情はさらに不動産登記法17条の消滅事由（または本人自体の変更）に当てはまるかを確認する同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢ウは委任状の作成者に着目した対比枠型、肢エは取下げの目的を確認する単一チェック型とする。
+ア・イ・オは、「代理権に影響する出来事は委任者（本人）側で起きたか、代理人側で起きたか」を出発点とし、委任者側の事情はさらに不動産登記法17条の消滅事由（または本人自体の変更）に当てはまるかを確認する同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。ウは委任状の作成者に着目した対比枠型、エは取下げの目的を確認する単一チェック型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -323,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 死亡でも消滅しない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -371,7 +371,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 代表者交代でも有効
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -392,7 +392,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 官公署作成は期限なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -411,7 +411,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 特別の委任は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

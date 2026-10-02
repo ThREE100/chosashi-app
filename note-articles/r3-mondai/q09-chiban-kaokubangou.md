@@ -90,7 +90,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
-- 各肢の根拠のうち、条文（準則）レベルで確認できたもの：ア（準則67条1項2号）、イ（準則67条4項）、ウ（準則67条1項6号・7号）、エ（準則79条2号）、オ（準則79条3号）は、いずれも`note-articles/laws/fudousan-touki-jimu-junsoku.md`の条文原文と突き合わせて確認済みです。データベースのexplanationフィールドはイの根拠として準則67条1項7号を挙げていましたが、同号は地番の当初設定（3号・4号・6号）の例外規定であり、肢イの「著しく錯雑している場合に必要があれば変更できる」という内容に対応するのは同条4項でしたので、条文原文の確認に基づき訂正しました。
+- 各肢の根拠のうち、条文（準則）レベルで確認できたもの：ア（準則67条1項2号）、イ（準則67条4項）、ウ（準則67条1項6号・7号）、エ（準則79条2号）、オ（準則79条3号）は、いずれも`note-articles/laws/fudousan-touki-jimu-junsoku.md`の条文原文と突き合わせて確認済みです。データベースのexplanationフィールドはイの根拠として準則67条1項7号を挙げていましたが、同号は地番の当初設定（3号・4号・6号）の例外規定であり、イの「著しく錯雑している場合に必要があれば変更できる」という内容に対応するのは同条4項でしたので、条文原文の確認に基づき訂正しました。
 - 補足として、データベースのkeyPoints／approach／pitfallsでは、イの登記官の職権変更権限について不動産登記法35条、合筆後の地番の原則について不動産登記規則98条という条文も挙げられていましたが、条文原文を確認したところ、不動産登記法35条は地番区域の設定・地番付番義務を定めるのみで職権変更権限の根拠ではなく、不動産登記規則98条も地番区域ごとの起番方法を定めるのみで合筆後の地番の原則（首位地番）を定めた規定ではありませんでした。そのため本文では条文原文と一致する準則の条番号のみを根拠として記載しています。
 - なお、エ・オの家屋番号の付け方についてデータベースの一部フィールドが挙げていた「不動産登記規則101条」は、`note-articles/laws/fudousan-touki-kisoku-1.md`で確認したところ分筆登記の際の登記記録の記録方法を定める条文であり、家屋番号とは無関係であることが判明しました。家屋番号の定め方（原則として敷地の地番と同一の番号、特別の事情があるときは支号を付す方法等による）を規定するのは「不動産登記規則112条」であり、準則79条柱書もこれを前提とした規定です。この点は確認済みとして訂正します。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。
@@ -337,7 +337,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 特別事情なければ再使用不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地番の著しい錯雑と必要性の両方を確認
@@ -383,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 両方満たせば職権変更可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 合筆後は特別事情なければ若番に統一
@@ -404,7 +404,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 特別事情なければ若番に統一
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 先に登記した建物から順に支号を付す
@@ -426,7 +426,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記の先後順に支号を付与
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 家屋番号は床面積でなく指定登記所の地番で決まる

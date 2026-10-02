@@ -230,9 +230,9 @@ every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（肢イ・初学者向け）
+## インフォグラフィック プロンプト（イ・初学者向け）
 
-肢イ（附属建物の主従入替えに二段階の手続は不要）について、「誤った二段階の手続」と「規則135条による簡便な手続」を対比で図解した、単独で使える解説図。本文の肢イの解説のすぐ下に挿入して使うことを想定しており、上記「問題全体」のポスターより人物・建物の位置関係やラベルをやや詳しく見せてよい（ただしフルセンテンスの説明文は入れない）。
+イ（附属建物の主従入替えに二段階の手続は不要）について、「誤った二段階の手続」と「規則135条による簡便な手続」を対比で図解した、単独で使える解説図。本文のイの解説のすぐ下に挿入して使うことを想定しており、上記「問題全体」のポスターより人物・建物の位置関係やラベルをやや詳しく見せてよい（ただしフルセンテンスの説明文は入れない）。
 
 ### イ：附属建物の主従を入れ替えるのに、2棟とも分割してからやり直す必要はない
 
@@ -242,7 +242,7 @@ Create a Japanese-language explanatory illustration, landscape layout,
 pastel colors (blue, green, beige, gray), rounded card frame, consistent
 with a modern explainer-graphic aesthetic. This is a single standalone
 diagram (not a multi-card poster), meant to be inserted directly below
-the 肢イ paragraph of article text, so it may show a little more label
+the イ paragraph of article text, so it may show a little more label
 detail than a compressed poster card — but it must still avoid full
 sentences.
 
@@ -327,12 +327,12 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a buyer-acting-for-seller relationship icon for
-肢ア, a two-step-crossed-out vs one-step-checkmarked comparison for 肢イ,
+ア, a two-step-crossed-out vs one-step-checkmarked comparison for イ,
 a two-scenario side-by-side frame (partial vs full mortgage discharge)
-for 肢ウ, a jurisdiction-boundary map for 肢エ, and a left-to-right
-timeline of registration events for 肢オ. None of the five 肢 requires
+for ウ, a jurisdiction-boundary map for エ, and a left-to-right
+timeline of registration events for オ. None of the five 肢 requires
 checking more than one legal condition in sequence, so none is forced
-into a multi-diamond flowchart. For 肢ウ specifically: draw a two-frame
+into a multi-diamond flowchart. For ウ specifically: draw a two-frame
 side-by-side comparison labeled 条文が明確に定める場面（一部の建物につ
 いてのみ消滅） on one side (checkmarked, this is the settled rule) and
 本肢が問う場面（全ての建物について消滅） on the other side, marked with a
@@ -382,7 +382,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 買主は売主に代位して分割登記できる
@@ -402,7 +402,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代位申請ができる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 主従の入替えに二段階の手続は不要
@@ -423,7 +423,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 二段階の手続は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 全部消滅は「いずれかの」に含まれない
@@ -449,7 +449,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 全部消滅はできない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 分割登記は主である建物の管轄で申請
@@ -468,7 +468,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 主である建物の管轄のみ
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分割前の所有権登記は乙建物に引き継がれる
@@ -491,7 +491,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法423条の7（代位行使）・不動産登記規則135条（分割・合併の登記における
 表題部の記録方法）・不動産登記法54条3項（40条の準用）・不動産登記事務
 取扱手続準則第5条（管轄登記所）・不動産登記規則128条2項（分割による所有
-権の登記）に基づく整理です。肢ウは、40条の「いずれかの」という文言が
+権の登記）に基づく整理です。ウは、40条の「いずれかの」という文言が
 一部消滅の場面を指すものであることに基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
@@ -507,7 +507,7 @@ script, or stray decorative glyph — and remove or redraw it so that only
 standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly, badge numbers run 1-5 continuously, there is no
 intro illustration or paragraph block between the header and the panels,
-that 肢ウ's panel uses the two-frame comparison with the left frame
+that ウ's panel uses the two-frame comparison with the left frame
 showing ONLY a green checkmark and the right frame showing ONLY a red ✕
 (no dotted-outline question mark, and no box containing both a checkmark
 and a ✕), that each 着眼点 callout states a checking order rather than

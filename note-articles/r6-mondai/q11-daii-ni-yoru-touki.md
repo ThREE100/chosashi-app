@@ -309,7 +309,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 附属建物のみの買主は代位で分割登記可
@@ -332,7 +332,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代位で分割登記OK
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 合筆しなくても移転登記請求権は保全済み
@@ -354,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代位申請は不可
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 転得者も代位で原始取得者の表題登記可
@@ -375,7 +375,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 表題登記できる
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 地役権者は分筆なしでも権利は保全済み
@@ -397,7 +397,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代位申請は不可
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 共有建物の変更登記は共有者1人で申請可

@@ -279,7 +279,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-各肢について、問題文を読んだ瞬間に何を確認し、どんな図を描けば正誤にたどり着けるかを、通し番号バッジ・見出し・Diagram・着眼点コールアウト・結論タグの4要素で示す5枚組みの作図ガイドです。肢ア（遡及効の特約の有無という1段階の判定）はタイムライン型、肢イ・肢エ（既成条件／随意条件のいずれも最終的に「停止条件か解除条件か」を確認する2段階判定で、後段の分岐を共有する）は決定木型、肢ウ（既成条件の処理との混同を見分ける）は対比枠型、肢オ（妨害者の属性と故意という2つの要件を両方満たす必要がある）は2段階の決定木型で構成しています。
+各肢について、問題文を読んだ瞬間に何を確認し、どんな図を描けば正誤にたどり着けるかを、通し番号バッジ・見出し・Diagram・着眼点コールアウト・結論タグの4要素で示す5枚組みの作図ガイドです。ア（遡及効の特約の有無という1段階の判定）はタイムライン型、イ・エ（既成条件／随意条件のいずれも最終的に「停止条件か解除条件か」を確認する2段階判定で、後段の分岐を共有する）は決定木型、ウ（既成条件の処理との混同を見分ける）は対比枠型、オ（妨害者の属性と故意という2つの要件を両方満たす必要がある）は2段階の決定木型で構成しています。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -297,12 +297,12 @@ conditions to get there - isometric calendar pages and a trophy podium
 for the timing question in Panel 1, contract documents with a small rain
 cloud for Panel 2, a boundary marker/fence stake at night for Panel 3, an
 antique clock offered as a gift for Panel 4, and a repair workshop with
-tools for Panel 5, adapted per panel. Panel 1 (肢ア) is resolved by a
+tools for Panel 5, adapted per panel. Panel 1 (ア) is resolved by a
 single check (whether the contract text contains a special rescission
 agreement), so render it as a two-tier timeline comparison rather than a
 diamond flowchart, with small numbered step markers (①②) placed beside
 each timeline bar so the checking order is still visible without forcing
-an artificial flowchart. Panels 2 and 4 (肢イ・肢エ) each require two
+an artificial flowchart. Panels 2 and 4 (イ・エ) each require two
 sequential checks and share the same second-level diamond shape and
 position - a diamond asking whether the condition at issue is a 停止条件
 or a 解除条件 - even though each panel reaches that diamond through a
@@ -310,13 +310,13 @@ different first-level check (既成条件か否か for Panel 2, 随意条件か�
 Panel 4). Render each panel's own relevant branch (停止条件 for Panel 2,
 解除条件 for Panel 4) with a thick highlighted border and full color, and
 render the other, unrelated branch in a faded, greyed-out, or
-dotted-outline style rather than omitting it. Panel 3 (肢ウ) is not a
+dotted-outline style rather than omitting it. Panel 3 (ウ) is not a
 sequential flowchart but a side-by-side comparison of two different legal
 frameworks (不法条件の処理と既成条件の処理); draw it as two boxes, left
 and right, with the framework that actually applies to this fact pattern
 rendered in full color with a thick border, and the framework that does
 NOT apply (the one 学生ウ mistakenly assumed) rendered faded, greyed-out,
-or dotted-outline. Panel 5 (肢オ) requires two distinct conditions to both
+or dotted-outline. Panel 5 (オ) requires two distinct conditions to both
 be true before the conclusion follows, so render it as two sequential
 diamonds, both drawn with a thick highlighted border and full color since
 both checks matter equally, and add a small faded side-branch off each
@@ -371,7 +371,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 特約があれば4月分まで遡って請求できる
@@ -398,7 +398,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 特約優先で4月から可能
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 既に起きていた停止条件は無条件で有効
@@ -422,7 +422,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 既成の停止条件は有効
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 境界を偽装する条件は契約ごと無効になる
@@ -448,7 +448,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 契約全体が無効
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 気まぐれの解除条件でも贈与契約は有効
@@ -472,7 +472,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 解除条件は無効にならない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 不利益を受ける本人が故意に妨げれば成就
@@ -516,7 +516,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢 (肢イ・肢エ・肢オ)
+the header and the panels, that every multi-condition 肢 (イ・エ・オ)
 is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that no 肢 with a
 genuinely hidden second condition has been flattened into a single check

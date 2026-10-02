@@ -229,7 +229,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-上記②の「結論カード」ポスターとは別に、登記識別情報の提供の要否と本人確認情報という論点を読んだときに実際に手を動かして確認すべき順序を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに「着眼点」の短い説明文を添え、判定の手順を追体験できるようにしている。肢ア・イは、不動産登記令8条1項が列挙する登記に当たるかという同じ決定木を共有しており、パネル2では自分の枝（分筆の登記）だけを強調し、それ以外の枝は薄く縮小表示する構成にしている。
+上記②の「結論カード」ポスターとは別に、登記識別情報の提供の要否と本人確認情報という論点を読んだときに実際に手を動かして確認すべき順序を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに「着眼点」の短い説明文を添え、判定の手順を追体験できるようにしている。ア・イは、不動産登記令8条1項が列挙する登記に当たるかという同じ決定木を共有しており、パネル2では自分の枝（分筆の登記）だけを強調し、それ以外の枝は薄く縮小表示する構成にしている。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -296,7 +296,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -314,7 +314,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 提供が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 分筆登記には識別情報の提供は不要
@@ -330,7 +330,7 @@ Diagram: 決定木として描く。パネル1と同じ開始ノード「この�
 Conclusion tag (blue, 5-15 Japanese characters):
 提供は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 提供できないときは登記名義人へ通知
@@ -346,7 +346,7 @@ Diagram: 決定木として描く。開始ノード「正当な理由により�
 Conclusion tag (blue, 5-15 Japanese characters):
 本人へ通知される
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 資格者代理人は資格証明も併せて提供
@@ -362,7 +362,7 @@ Diagram: スーツ姿の資格者代理人が登記所の窓口に2枚の書類�
 Conclusion tag (blue, 5-15 Japanese characters):
 資格証明も併せて提供
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 健康保険証は1点だけでは足りない

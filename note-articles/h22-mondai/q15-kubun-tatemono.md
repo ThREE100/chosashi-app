@@ -83,7 +83,7 @@
 - 各肢の判定（誤りはウ・オ）は、公式の正解の組合せ「ウオ」から確定できるものです。
 - 各肢の根拠のうち、ア（一棟全体の表題登記・不動産登記法48条の趣旨）・オ（所在地番は実際に建物が所在する土地の地番）は、区分建物の表示に関する登記の基本原則から確認できるものです。イ（分離処分可能規約と敷地権）・ウ（敷地のみの抵当権の消滅承諾の処理）・エ（区分と抵当権の転写）は、担保権の処理を含む細かな取扱いであり、条文・先例の番号レベルまでは個別に照合しきれていない部分があります。とくにウ・エの抵当権の処理については、各自でも登記実務書等で確認することをおすすめします。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（区分建物の表示に関する登記）と同一の問題が再出題されていないかを確認しました。令和元年度第18問・令和6年度第18問でも同種のテーマが扱われています（問題文＋肢全体の類似度0.25〜0.29程度）。肢単位では、本問の肢ア（別棟の区分建物を附属建物とする場合の表題登記の併合申請）と令和6年度第18問の肢イ、本問の肢イ（分離処分可能規約と敷地権の申請情報）と令和元年度第18問の肢オが、それぞれほぼ同一の文言（類似度0.89〜0.91）で出題されています。ただし、これらは他の肢の組合せ・正解がいずれも異なる別問題であり、**問題全体としての重複ではありません**。区分建物の表題登記の基本論点が、形を変えて繰り返し問われています。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（区分建物の表示に関する登記）と同一の問題が再出題されていないかを確認しました。令和元年度第18問・令和6年度第18問でも同種のテーマが扱われています（問題文＋肢全体の類似度0.25〜0.29程度）。肢単位では、本問のア（別棟の区分建物を附属建物とする場合の表題登記の併合申請）と令和6年度第18問のイ、本問のイ（分離処分可能規約と敷地権の申請情報）と令和元年度第18問のオが、それぞれほぼ同一の文言（類似度0.89〜0.91）で出題されています。ただし、これらは他の肢の組合せ・正解がいずれも異なる別問題であり、**問題全体としての重複ではありません**。区分建物の表題登記の基本論点が、形を変えて繰り返し問われています。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -248,7 +248,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・エは、区分建物ごとに分岐点を置く決定木型。肢ウ・オは、正しい処理・正しい理解と誤解しやすい考え方を左右で対比する正誤対比型とする。
+ア・イ・エは、区分建物ごとに分岐点を置く決定木型。ウ・オは、正しい処理・正しい理解と誤解しやすい考え方を左右で対比する正誤対比型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -326,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -348,7 +348,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 他の区分建物も併せて登記
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 残り2戸は敷地権にできる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 消滅した旨の登記はしない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -411,7 +411,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 片方だけに転写される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

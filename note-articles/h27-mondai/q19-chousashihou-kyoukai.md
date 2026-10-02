@@ -326,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled green circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -345,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有権界とは別物
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled blue circle containing the number 2.
 Heading (bold, ONE line):
 筆界調査委員の任命者を確認する
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 調査士も任命されうる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line):
 筆界特定に審査請求はできない
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 不服なら訴訟で
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
 職権の措置は筆界特定登記官に限られない
@@ -399,7 +399,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 他の登記官でも可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line):
 確定判決後の重ねての申請は却下される

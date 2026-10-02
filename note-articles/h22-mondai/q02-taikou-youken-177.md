@@ -81,10 +81,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成22年度午後の部 第2問）・正解番号（3番＝イエ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の判定（Ａが主張できないのはイ・エ）は、公式の正解の組合せ「イエ」から確定できるものです。
-- 各肢の根拠は、民法177条の「第三者」の意義（不法占拠者を含まない）・解除と第三者（民法545条）・制限行為能力の取消しに関する一般原則に沿って記載しています。条文番号は民法のものを条文レベルで確認していますが、肢エ（解除後の第三者と対抗要件）の根拠として言及した判例（最判昭35.11.29）を含め、細かな判例番号までは公式資料で個別に照合していません。
+- 各肢の根拠は、民法177条の「第三者」の意義（不法占拠者を含まない）・解除と第三者（民法545条）・制限行為能力の取消しに関する一般原則に沿って記載しています。条文番号は民法のものを条文レベルで確認していますが、エ（解除後の第三者と対抗要件）の根拠として言及した判例（最判昭35.11.29）を含め、細かな判例番号までは公式資料で個別に照合していません。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。
 - ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（民法177条・第三者の意義）と同一の問題が再出題されていないかを、問題文＋肢アからオまでの全文テキスト類似度で確認しました。令和6年度第2問も同じく177条の対抗要件をテーマとしていますが、事実関係（二重譲渡における悪意の第三者・抵当権実行の買受人・相続人・無権原占有者）は本問（不法占拠者・仮差押債権者・転売・解除後の第三者・制限行為能力の取消し）とは異なる組合せで、類似度も0.22程度にとどまります。177条は本試験で繰り返し出題される基本論点ですが、本問と同一の事例構成の再出題は見当たらず、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（民法177条・第三者の意義）と同一の問題が再出題されていないかを、問題文＋アからオまでの全文テキスト類似度で確認しました。令和6年度第2問も同じく177条の対抗要件をテーマとしていますが、事実関係（二重譲渡における悪意の第三者・抵当権実行の買受人・相続人・無権原占有者）は本問（不法占拠者・仮差押債権者・転売・解除後の第三者・制限行為能力の取消し）とは異なる組合せで、類似度も0.22程度にとどまります。177条は本試験で繰り返し出題される基本論点ですが、本問と同一の事例構成の再出題は見当たらず、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -264,13 +264,13 @@ figures (owner, occupier, creditor, buyer) placed on or beside it, a
 registry-stamp icon to mark 登記済み／未登記, and a small diamond-shaped
 decision node placed directly on the scene at the point where the reader
 must judge whether the other party counts as a 177条の「第三者」. Panels 1
-（肢ア）・2（肢イ）・4（肢エ）share the same underlying decision tree, rooted
+（ア）・2（イ）・4（エ）share the same underlying decision tree, rooted
 in a single starting diamond ("相手は登記の欠缺を主張する正当な利益を持つ
 第三者か"), with the branch relevant to that panel's 肢 highlighted
 (thicker border, distinct color) and the other branch drawn smaller/greyed
-out; Panel 3（肢ウ）uses the same root diamond but takes the opposite
+out; Panel 3（ウ）uses the same root diamond but takes the opposite
 branch (前主は第三者に当たらない), so draw it as a mirror image of Panels
-1/2/4 with the いいえ side highlighted instead. Panel 5（肢オ）uses a
+1/2/4 with the いいえ side highlighted instead. Panel 5（オ）uses a
 different framework entirely (the 178条の物権変動の対抗要件ではなく、制限
 行為能力の取消しに関する善意の第三者保護規定の有無), so its diagram should
 NOT reuse the 177条の第三者 diamond — draw it as its own two-step
@@ -320,7 +320,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 相手が不法占拠者かをまず確認する
@@ -339,7 +339,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 不法占拠者には勝てる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 仮差押えの債権者は第三者に当たる
@@ -357,7 +357,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記なければ負ける
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 前の持ち主(前主)は第三者に当たらない
@@ -376,7 +376,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 前主には登記不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 解除後に買った人は登記を急がないと負ける
@@ -396,7 +396,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 解除後は登記が先
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 未成年者の取消しは、善意の相手にも通る
@@ -430,7 +430,7 @@ similar Simplified Chinese variant. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢（肢エ・肢オ）is
+the header and the panels, that every multi-condition 肢（エ・オ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that Panels 1・2・4 visibly share the
 same root diamond shape while Panel 3 mirrors it and Panel 5 uses its own

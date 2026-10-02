@@ -413,12 +413,12 @@ decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 1,
-2 and 3 (肢ア・肢イ・肢ウ) share the same underlying decision-tree shape
+2 and 3 (ア・イ・ウ) share the same underlying decision-tree shape
 for 虚偽表示の第三者保護（あとから登場した人は包括承継人か、新たに取引に
 入った人か→善意か悪意か→悪意なら善意者の介在の有無）; draw all three with
 the same tree layout, but highlight（太い縁取り・色を変える等で強調）only
 the branch relevant to that panel's 肢 and keep the other branches small
-and grayed out. Panels 4 and 5 (肢エ・肢オ) likewise share the same
+and grayed out. Panels 4 and 5 (エ・オ) likewise share the same
 decision-tree shape for 詐欺・強迫と第三者保護（意思表示の瑕疵が詐欺か強迫
 か→（詐欺の場合のみ）第三者は善意無過失か）; draw both with the same tree
 layout, highlighting the branch relevant to that panel's 肢. Unlike a
@@ -463,7 +463,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 善意なら登記なしで保護される
@@ -485,7 +485,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 善意なら登記不要で保護
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続人は「第三者」に当たらない
@@ -506,7 +506,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承継人は保護されない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 善意者を経れば悪意者も取得
@@ -527,7 +527,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 絶対的構成で取得
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 詐欺は過失ある善意者を保護しない
@@ -547,7 +547,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 過失ありなら対抗される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 強迫には第三者保護規定がない
@@ -578,7 +578,7 @@ character renders as a Simplified or Traditional Chinese variant, redraw that ch
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every
-multi-condition 肢（肢ア・肢イ・肢ウ・肢エ・肢オ）is drawn as an actual
+multi-condition 肢（ア・イ・ウ・エ・オ）is drawn as an actual
 flowchart with branch nodes (not a bare illustration with no visible
 decision structure), that each 着眼点 callout states a checking order
 rather than only a conclusion, confirm nothing is rendered below the last

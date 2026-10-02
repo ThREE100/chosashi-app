@@ -262,10 +262,10 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No（はい／いいえ）
 branch arrows, and a final conclusion node. Where a 肢 is resolved by a
 single check, a labeled illustrative diagram is sufficient — do not force
-a flowchart. Panel 2（肢イ）and Panel 3（肢ウ）each require checking two
+a flowchart. Panel 2（イ）and Panel 3（ウ）each require checking two
 conditions in sequence (地目の一致→地番区域の一致、他の権利の登記の有無→
 双方に同一内容の地役権の登記があるか) and are drawn as true two-step
-decision trees; the other three panels（肢ア・エ・オ）are resolved with a
+decision trees; the other three panels（ア・エ・オ）are resolved with a
 single comparison and use a correct-rule-vs-common-misconception layout or
 a matching illustration instead of a flowchart. Unlike a glanceable
 summary poster, each panel MAY include a short「着眼点」callout box with
@@ -313,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 持分移転登記を経ずに合筆はできない
@@ -333,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 移転登記が先
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地目一致だけでは合筆を判定できない
@@ -353,7 +353,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地番区域が違えば不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 双方同一の地役権なら合筆できる
@@ -374,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 双方同一なら合筆可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 所有権登記の有無が異なれば合筆不可
@@ -402,7 +402,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記の有無が壁になる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 抵当権が1件でも不一致なら合筆不可
@@ -439,7 +439,7 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-肢イ and 肢ウ are each drawn as an actual flowchart with two branch nodes
+イ and ウ are each drawn as an actual flowchart with two branch nodes
 (not a bare illustration with no visible decision structure) while the
 other panels use a correct-rule-vs-misconception or matching-illustration
 diagram, that each 着眼点 callout states a checking order rather than

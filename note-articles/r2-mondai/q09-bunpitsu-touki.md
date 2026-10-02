@@ -307,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 職権分筆は異議の有無を確認する
@@ -327,7 +327,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 異議なしが条件
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地目変更との一括申請は登記原因・日付を記載する
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記原因・日付を記載
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 土地の一部が河川区域内になったかを確認する
@@ -366,7 +366,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代位して嘱託できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 買収されたのは土地の一部か持分かを見分ける
@@ -389,7 +389,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代位分筆の根拠なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 判決確定後に共有者が協力するかを確認する

@@ -351,7 +351,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -376,7 +376,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 分割協議書で申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地役権の範囲が一部かを確認する
@@ -400,7 +400,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地役権図面+証明情報
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 地積差は誤差の限度内かを確認する
@@ -423,7 +423,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 限度内なら更正不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 分筆は表示登記、移転は権利登記
@@ -446,7 +446,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 分筆は禁止期間中も可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 全部購入なら代位申請できない
@@ -475,10 +475,10 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記法39条1項（肢ア）、不動産登記令別表8項添付情報ロ・不
-動産登記規則79条（肢イ）、不動産登記事務取扱手続準則72条1項（肢ウ）、不動
-産登記法・不動産登記令8条1項の表示登記と権利の登記の区別（肢エ）、民法
-423条（肢オ）
+条文根拠：不動産登記法39条1項（ア）、不動産登記令別表8項添付情報ロ・不
+動産登記規則79条（イ）、不動産登記事務取扱手続準則72条1項（ウ）、不動
+産登記法・不動産登記令8条1項の表示登記と権利の登記の区別（エ）、民法
+423条（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

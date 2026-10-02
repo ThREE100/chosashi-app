@@ -89,7 +89,7 @@
 - **【2026年8月4日 現行法との整合性を再検証し、条文根拠を補いました】** 正誤の判定は初版から変更ありません。**不動産登記法49条**（合体による登記等の申請。合体があった日から1月以内に、合体後の建物についての表題登記および合体前の建物の表題部の登記の抹消等を申請しなければならない）が現行条文どおりであることを確認し、導入部に反映しました。
 - **【2026年8月6日 ローカル法令データベース（laws/）で全肢の条文根拠を再確認・追記しました】** 正誤の判定は変更ありません。ア（非課税）は、**登録免許税法別表第一「一　不動産の登記」（十三）**に、表示に関する登記のうち課税対象として掲げられているのは土地の分筆・建物の分割若しくは区分、土地の合筆・建物の合併の4種類のみであり、建物の合体による登記等はこの一覧に含まれないことを条文で確認しました（同法2条・別表第一）。ウ（登記識別情報の一方提供）は**不動産登記令8条2項2号**に明文の根拠があることを確認しました。エ（抵当権消滅の承諾情報）は**不動産登記法50条**、オ（抵当権存続の承諾情報）は**不動産登記令別表十三の項添付情報欄ト**にそれぞれ根拠があることを確認しました。
 - イ（全員申請＋印鑑証明書による持分割合証明の代替）については、laws/収録の不動産登記法・不動産登記令（本則・別表）・不動産登記規則のいずれにも該当する明文の規定を発見できませんでした。実務上の先例・通達に基づく取扱いの可能性があり、条文上の根拠特定には至っていません。
-- **【重複出題あり】重複出題チェック（2026-07-22実施）**：R02年度第16問の肢ア（所有権の登記名義人を異にする建物の合体における、一部建物の抵当権についての合体後持分の存続登記の承諾証明情報等の提供）が本問の肢オと、また同問の肢イ（持分割合の証明を印鑑証明書の提供で代替できる旨）が本問の肢イと、それぞれほぼ同一内容・同一言い回しです。5肢中2肢が高い一致度で再利用されています。**noteへの投稿にあたっては、R02年度第16問の解説記事とテーマ・具体例が重複する点に注意し、両方を続けて発信しないようにしてください。**
+- **【重複出題あり】重複出題チェック（2026-07-22実施）**：R02年度第16問のア（所有権の登記名義人を異にする建物の合体における、一部建物の抵当権についての合体後持分の存続登記の承諾証明情報等の提供）が本問のオと、また同問のイ（持分割合の証明を印鑑証明書の提供で代替できる旨）が本問のイと、それぞれほぼ同一内容・同一言い回しです。5肢中2肢が高い一致度で再利用されています。**noteへの投稿にあたっては、R02年度第16問の解説記事とテーマ・具体例が重複する点に注意し、両方を続けて発信しないようにしてください。**
 
 ---
 
@@ -250,9 +250,9 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panel 1（肢ア）, Panel 3（肢ウ）, and Panel 5
-（肢オ）each turn on correcting a common misconception, so draw them as
-LEFT/RIGHT (誤り／正しい) comparison panels. Panel 2（肢イ）requires BOTH
+— do not force a flowchart. Panel 1（ア）, Panel 3（ウ）, and Panel 5
+（オ）each turn on correcting a common misconception, so draw them as
+LEFT/RIGHT (誤り／正しい) comparison panels. Panel 2（イ）requires BOTH
 of two conditions to be satisfied together before the shortcut applies
 (全員が申請人であること、かつ印鑑証明書を提供すること), so draw it as an
 actual decision flowchart with two diamond branch nodes in sequence, each
@@ -260,7 +260,7 @@ with its own Yes/No arrows, and a distinct conclusion node reached when
 either condition fails as well as the conclusion node reached only when
 both conditions are satisfied — do not merge the two conditions into a
 single check, and do not draw any arrow that loops back to an earlier
-node. Panel 4（肢エ）is resolved by a single check, so draw a labeled
+node. Panel 4（エ）is resolved by a single check, so draw a labeled
 illustrative diagram for it instead of forcing a flowchart. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」callout
 box with 1-2 sentences that state the checking ORDER in words (e.g. "ま
@@ -307,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft beige containing the number 1.
 Heading (bold, ONE line):
 合体の登記に登録免許税はかからない
@@ -323,7 +323,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 表示登記は非課税
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft beige containing the number 2.
 Heading (bold, ONE line):
 全員申請かつ印鑑証明書があれば持分証明は省ける
@@ -344,7 +344,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 別途の証明は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3.
 Heading (bold, ONE line):
 同一名義人なら登記識別情報は一個で足りる
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 一個の提供で足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft beige containing the number 4.
 Heading (bold, ONE line):
 抵当権を消すには承諾情報等が必要
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 承諾情報等が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft beige containing the number 5.
 Heading (bold, ONE line):
 名義人が違っても抵当権存続に承諾情報が必要

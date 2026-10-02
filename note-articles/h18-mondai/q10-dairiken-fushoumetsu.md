@@ -298,12 +298,12 @@ conditions to get there - isometric characters for 本人・代理人・復代�
 本人死亡, a torn-certificate icon for 代理権消滅, a shield icon for 選任
 ・監督の責任, and two agent characters stamping the same registration
 document for 複数代理人. Where a 肢 requires checking multiple conditions
-in sequence before reaching a conclusion (肢ア・肢エ・肢オ), draw the
+in sequence before reaching a conclusion (ア・エ・オ), draw the
 panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No branch arrows, and a
 final conclusion node for BOTH outcomes - do not leave either branch's
 destination blank, and do not draw any arrow looping back to an earlier
-node. Panel 2 (肢イ) and Panel 3 (肢ウ) use a correct-rule-versus-common-
+node. Panel 2 (イ) and Panel 3 (ウ) use a correct-rule-versus-common-
 mistake contrast layout instead of a flowchart: Panel 2 because the
 difficulty is recognizing that current law dropped the special rule
 limiting liability to selection/supervision fault (so there is no
@@ -314,7 +314,7 @@ glanceable summary poster, each panel MAY include a short「着眼点」
 callout box with 1-2 sentences that state the checking ORDER in words
 (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
 not include case or precedent numbers (article numbers are fine; for
-肢オ do not name the specific 先例 number). Keep the callout text as
+オ do not name the specific 先例 number). Keep the callout text as
 written below verbatim, and keep every condition each callout describes
 faithful to the article's own body text - do not drop or merge a
 required element.
@@ -356,7 +356,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -381,7 +381,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 後見人の承諾は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 選任・監督にミスなしでも代理人は責任を負う
@@ -404,7 +404,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 過失なしでも責任あり
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 本人死亡でも登記の代理権は消滅しない
@@ -426,7 +426,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記申請は継続できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in beige containing the number 4.
 Heading (bold, ONE line):
 法定代理人の責任は原則と例外が逆転しやすい
@@ -449,7 +449,7 @@ Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
 characters):
 原則は全責任、例外だけ限定
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 共同代理の定めがなければ単独で申請できる
@@ -473,9 +473,9 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法111条1項各号・653条各号（肢ア）、履行補助者の法理・民法104条・644条
-（肢イ、出題当時の民法105条は2020年改正で削除）、不動産登記法17条（肢ウ）、
-民法105条（肢エ）、先例（肢オ、本文では番号を伏せています）に基づく整理
+民法111条1項各号・653条各号（ア）、履行補助者の法理・民法104条・644条
+（イ、出題当時の民法105条は2020年改正で削除）、不動産登記法17条（ウ）、
+民法105条（エ）、先例（オ、本文では番号を伏せています）に基づく整理
 です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
@@ -489,8 +489,8 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢（肢ア・
-肢エ・肢オ）is drawn as an actual flowchart with branch nodes for
+between the header and the panels, that every multi-condition 肢（ア・
+エ・オ）is drawn as an actual flowchart with branch nodes for
 both outcomes (not a bare illustration with no visible decision structure
 and not a looping arrow back to an earlier node), that Panel 2's and
 Panel 3's correct-rule-versus-common-mistake contrasts are not flattened

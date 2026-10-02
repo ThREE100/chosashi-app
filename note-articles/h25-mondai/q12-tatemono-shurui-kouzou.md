@@ -253,15 +253,15 @@ sheets. Where a 肢 requires checking multiple conditions in sequence
 before reaching a conclusion, draw the panel's diagram as an actual
 decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
-node. Panels 1 and 2（肢ア・肢イ）share the same underlying decision-tree
+node. Panels 1 and 2（ア・イ）share the same underlying decision-tree
 shape for determining a roof's structure: 屋根の各部分について、まず床面積
 に算入される部分かどうかを確認し（いいえなら構造認定の対象外）、算入され
 る部分についてはさらに、全体面積のおおむね30％以上を占めるかどうかを確認
 する（30％未満ならその屋根の種類は表示の対象外）。Draw both panels with the
 same two-diamond tree layout, but highlight（太い縁取り・色を変える等で
-強調）the branch relevant to that panel's 肢: Panel 2（肢イ）highlights the
+強調）the branch relevant to that panel's 肢: Panel 2（イ）highlights the
 first diamond (床面積算入の有無), rendering the second diamond faded and
-greyed out; Panel 1（肢ア）highlights the second diamond (30％基準),
+greyed out; Panel 1（ア）highlights the second diamond (30％基準),
 rendering the first diamond faded and greyed out. Where a 肢 is resolved
 by a single check, a labeled illustrative diagram is sufficient — do not
 force a flowchart. Unlike a glanceable summary poster, each panel MAY
@@ -309,7 +309,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 屋根の基準は10%でなく30%
@@ -334,7 +334,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 30%未満は対象外
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 算入外の屋根は構造判断で除外
@@ -357,7 +357,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 考慮しなくてよい
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 屋根の種類は一棟の表題部のみに記録
@@ -376,7 +376,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一棟の表題部のみ
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 用途2つなら両方あわせて種類に
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 両方あわせて種類に
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 多目的ビルという種類区分はない
@@ -423,10 +423,10 @@ Hangul, other non-Japanese script, or stray decorative glyph — and remove
 or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢（肢ア・肢イ）is
+the header and the panels, that every multi-condition 肢（ア・イ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that the genuinely hidden second
-condition shared by 肢ア・肢イ（床面積算入の有無を先に確認しないと30%基準
+condition shared by ア・イ（床面積算入の有無を先に確認しないと30%基準
 だけでは足りないこと）has not been flattened into a single check, that
 each 着眼点 callout states a checking order rather than only a conclusion
 and keeps every required element from the source article distinct (no

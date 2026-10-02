@@ -264,7 +264,7 @@ actual decision flowchart: diamond-shaped branch nodes with the
 condition written on them, Yes/No（はい／いいえ）branch arrows, and a
 final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panels 2 and 3（肢イ・肢ウ）share the same decision-tree shape, because
+Panels 2 and 3（イ・ウ）share the same decision-tree shape, because
 both ask whether the person in question is a「関係人」（対象土地に類型的
 に大きな利害関係を有する者）: draw both panels with the same diamond node
 labeled「意見・資料を提出しようとする者は、類型的に大きな利害関係を有す
@@ -321,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 意見・資料の提出に書面は不要
@@ -338,7 +338,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 口頭でも可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 非申請人の共有者は関係人として提出可
@@ -360,7 +360,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 関係人として提出可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 抵当権者は関係人にあたらず提出不可
@@ -383,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 関係人にあたらない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 申請人が不提出でも筆界特定は実施可
@@ -400,7 +400,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 不提出でも実施可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 筆界特定は新たな筆界を形成しない

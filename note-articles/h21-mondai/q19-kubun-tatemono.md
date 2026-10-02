@@ -94,7 +94,7 @@
 - ローカルのアガルート教材フォルダは、この実行環境からは参照できないため、今回は参照していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（法定敷地を他棟の規約敷地とすることの可否・譲受人を表題部所有者とする表題登記の可否・共用部分変更時の添付情報・一棟全部滅失時の単独申請・共用部分登記の共用相手の範囲を組み合わせた区分建物の表示登記の問題）と同一・類似の問題が再出題されていないかを確認しました。令和6年度第18問アが法定敷地→別棟規約敷地化（本問ア）、H23第13問・令和6年度第17問ウが区分建物全部滅失時の単独申請（本問エ）とそれぞれ同一論点を扱いますが、いずれも他肢の構成が異なる別問題であり、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文を現行法（2026年8月時点）と照合しました。**不動産登記法47条1項・2項（区分建物の表題登記の申請人）、48条1項（一棟の建物と併せた申請）、57条（建物の滅失の登記）、58条1項（共用部分である旨の登記の登記事項）**は、いずれも平成21年当時から改正されておらず現行のままです。区分所有法についても、**5条1項（規約敷地）・4条2項（規約共用部分）・67条（団地共用部分）**の各規定に改正はありません。なお、2026年4月1日に施行された**改正区分所有法（令和7年法律第47号。「老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律」、令和7年5月30日公布）**は、集会の決議要件の緩和（決議の分母を出席者基準とする仕組み）、所在等不明区分所有者を決議の母数から除外する制度、建替え決議要件の緩和、一棟リノベーション・建物敷地売却・建物取壊しといった再生手段の新設などを内容とする大きな改正ですが、これらは**5条の2などの枝番条文の新設**や決議に関する規定の改正として行われており、本問が前提とする5条1項・4条2項・67条の各条文自体は変更されていません。したがって**各肢の正誤の結論に変更はありません**。あわせて、従前「特定の条番号を確定的には明記していない」としていた部分に、上記の条文番号を明示しました。
-- **条文引用・添付情報の追加確認（2026-08-16実施）**：2点を修正・補記しました。第一に、肢オの解説本文と確認事項に引用していた不動産登記法58条1項1号の「」内の条文引用文言に誤りがあり（「区分建物の区分所有者」としていましたが、条文の正確な文言は「建物の区分所有者」です）、`note-articles/laws/fudousan-touki-hou.md`のローカル法令データベースと突き合わせて訂正しました（肢オの判定「誤」自体に変更はありません）。第二に、肢ウの添付情報の扱いについて、`note-articles/laws/fudousan-touki-rei-betsuhyou.md`で**不動産登記令別表十四の項**（法51条1項〜4項の建物の表題部の変更の登記の添付情報）を確認したところ、添付情報欄ニに「共用部分である旨の登記又は団地共用部分である旨の登記がある建物について申請をするときは、当該建物の所有者を証する情報」が明文で挙げられており、また増築により床面積が増加する場合は同欄ロ（２）の所有権を証する情報も必要とされているため、「変更後の建物図面及び各階平面図を提供すれば足りるわけではない」という結論自体は条文上裏付けが取れました。ただし、本文が具体例として挙げている「規約の設定・変更等を証する情報」という情報の名称そのものは、別表十四の項に明文で列挙されているものではなく、引き続き実務上の運用に基づく説明にとどまる点は従前どおりです（肢ウの判定「誤」に変更はありません）。
+- **条文引用・添付情報の追加確認（2026-08-16実施）**：2点を修正・補記しました。第一に、オの解説本文と確認事項に引用していた不動産登記法58条1項1号の「」内の条文引用文言に誤りがあり（「区分建物の区分所有者」としていましたが、条文の正確な文言は「建物の区分所有者」です）、`note-articles/laws/fudousan-touki-hou.md`のローカル法令データベースと突き合わせて訂正しました（オの判定「誤」自体に変更はありません）。第二に、ウの添付情報の扱いについて、`note-articles/laws/fudousan-touki-rei-betsuhyou.md`で**不動産登記令別表十四の項**（法51条1項〜4項の建物の表題部の変更の登記の添付情報）を確認したところ、添付情報欄ニに「共用部分である旨の登記又は団地共用部分である旨の登記がある建物について申請をするときは、当該建物の所有者を証する情報」が明文で挙げられており、また増築により床面積が増加する場合は同欄ロ（２）の所有権を証する情報も必要とされているため、「変更後の建物図面及び各階平面図を提供すれば足りるわけではない」という結論自体は条文上裏付けが取れました。ただし、本文が具体例として挙げている「規約の設定・変更等を証する情報」という情報の名称そのものは、別表十四の項に明文で列挙されているものではなく、引き続き実務上の運用に基づく説明にとどまる点は従前どおりです（ウの判定「誤」に変更はありません）。
 
 ---
 
@@ -236,7 +236,7 @@ read as a short heading + a short conclusion tag, at a glance. Confirm nothing i
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に「この肢は何を見て、どの順番で判定すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。肢アは「他棟の法定敷地であることは妨げにならない」という見落としやすい点を決定木で示す。5パネル、portrait 1080×2600px。
+問題文を読んだ瞬間に「この肢は何を見て、どの順番で判定すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。アは「他棟の法定敷地であることは妨げにならない」という見落としやすい点を決定木で示す。5パネル、portrait 1080×2600px。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -311,7 +311,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -336,7 +336,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 敷地権にできる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 表題登記は最初の所有者Ａの名義でする
@@ -355,7 +355,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原始取得者が申請
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 用途変更登記は図面だけでなく規約情報も必要
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規約の情報も必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 一棟全部滅失なら区分所有者の一人で申請できる
@@ -392,7 +392,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一人で単独申請可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 共用部分の登記は他棟や団地全体の共用でもできる
@@ -430,7 +430,7 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that panel 1 (肢ア) is drawn as an
+between the header and the panels, that panel 1 (ア) is drawn as an
 actual flowchart with both required checks kept distinct and the "他棟の
 法定敷地であることは妨げにならない" point clearly noted, that no 肢 with
 a genuinely hidden second condition has been flattened into a single

@@ -83,7 +83,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（2番＝ア・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア（不動産登記法47条1項）、イ（不動産登記法51条1項）、ウ（不動産登記法49条2項）、オ（不動産登記法51条6項）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。エ（共用部分登記後は種類変更の登記義務が生じないこと）は、共用部分である旨の登記の性質からの説明で、条文の明示までは確認できておらず、一般原則からの推論を含みます。
-- **条文引用の誤りを修正（QAチェックリスト再検証）**：肢ウ・オの条文引用に誤りを発見し修正しました。肢ウの根拠「49条2項」は、合体前の建物がいずれも表題登記がない建物である場合の準用規定であり、本肢の事案（いずれも表題登記がある建物の合体）には当たりません。正しくは**49条1項3号**です（条文原文「合体前の二以上の建物がいずれも表題登記がある建物であるとき。当該建物の表題部所有者」で確認済み）。肢オの根拠も「51条6項」のみでは不完全で、「他の区分所有者が重ねて申請義務を負わない」という効果自体は**51条5項**（変更登記としての効力を有する旨）が直接の根拠であり、6項は登記官の職権登記の根拠です。5項・6項を併記する形に修正しました。いずれも結論（ウ正・オ誤の判定）自体に誤りはありませんでした。
+- **条文引用の誤りを修正（QAチェックリスト再検証）**：ウ・オの条文引用に誤りを発見し修正しました。ウの根拠「49条2項」は、合体前の建物がいずれも表題登記がない建物である場合の準用規定であり、本肢の事案（いずれも表題登記がある建物の合体）には当たりません。正しくは**49条1項3号**です（条文原文「合体前の二以上の建物がいずれも表題登記がある建物であるとき。当該建物の表題部所有者」で確認済み）。オの根拠も「51条6項」のみでは不完全で、「他の区分所有者が重ねて申請義務を負わない」という効果自体は**51条5項**（変更登記としての効力を有する旨）が直接の根拠であり、6項は登記官の職権登記の根拠です。5項・6項を併記する形に修正しました。いずれも結論（ウ正・オ誤の判定）自体に誤りはありませんでした。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認しました。同じ「建物の表示に関する登記」を扱う令和6年度第15問は、滅失登記の記載省略・氏名変更の登記原因・階層区分時の屋根種類記録・共有者全員の申請要否といった別の論点を扱っており、本問（表題登記・規約敷地・合体・共用部分・一棟変更登記の"申請義務"）とは異なるため、**重複は見つかりませんでした**。
 
@@ -274,10 +274,10 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. This article's 肢ア and 肢ウ reuse one shared タイムライン
+flowchart. This article's ア and ウ reuse one shared タイムライン
 diagram shape（起算日のカレンダー → 1か月のカウントダウン矢印 → 申請書類
 の提出）with only the starting event, the building icon, and the
-submitted document(s) changed between the two panels; 肢イ・肢エ・肢オ are
+submitted document(s) changed between the two panels; イ・エ・オ are
 each designed independently around their own fact pattern. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」
 callout box with 1-2 sentences that state the checking ORDER in words
@@ -325,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 取得日から1か月以内に表題登記
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取得日から1か月
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 規約敷地が生じたら1か月以内に申請
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 1か月以内に申請必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 合体建物も合体日から1か月以内
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 表題登記と抹消を申請
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 共用部分化後は種類変更の義務なし
@@ -397,7 +397,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 種類変更の義務なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 1人が申請すれば他の区分所有者は不要
@@ -437,9 +437,9 @@ character outside hiragana, katakana, Jōyō kanji, and the Arabic numerals
 explicitly used above appears anywhere in the image — no Latin letters,
 no other non-Japanese scripts. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
-paragraph block between the header and the panels, that 肢ア・肢ウ share
+paragraph block between the header and the panels, that ア・ウ share
 one タイムライン diagram shape with only the starting event and submitted
-documents changed rather than being drawn as unrelated scenes, that 肢オ's
+documents changed rather than being drawn as unrelated scenes, that オ's
 single decision diamond shows both branches with an explicit, separately
 labeled conclusion node (never a blank or looping branch), that each
 着眼点 callout states a checking order rather than only a conclusion and

@@ -248,10 +248,10 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 「⑤ 作図ガイド型」ルールに基づき、問題文を読んだときに実際に手を動かして
 描くべき図と、その図にたどり着くまでにどの順番で何を確認するかを肢ごとに
 示す作図ガイド。②が5肢の結論を俯瞰するのに対し、⑤は思考順序そのものを
-可視化する。肢ア（申出人の資格と移転登記の要否）・肢イ（住所相違時に必要
-な公務員作成情報）は分岐点をひし形で示す決定木型、肢ウ（区画の誤りに必要
-な添付図面）は地図上のズレを示す配置図型、肢エ（区画の訂正と地番の訂正の
-まとめ可否）・肢オ（印鑑証明書の要否）は「正しいルール」と「誤りやすい思
+可視化する。ア（申出人の資格と移転登記の要否）・イ（住所相違時に必要
+な公務員作成情報）は分岐点をひし形で示す決定木型、ウ（区画の誤りに必要
+な添付図面）は地図上のズレを示す配置図型、エ（区画の訂正と地番の訂正の
+まとめ可否）・オ（印鑑証明書の要否）は「正しいルール」と「誤りやすい思
 い込み」を対比させる正誤対比型とした。各パネルの着眼点コールアウトは
 「まず〜を確認し、次に〜を確認する」という確認の順序を明示する文にしてい
 る。
@@ -335,7 +335,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 移転登記前でも申出可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 住所のずれは公務員作成情報でつなぐ
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 公務員作成情報で申出可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 区画のズレには所在図か測量図を添える
@@ -400,7 +400,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所在図か測量図が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 区画の訂正と地番の訂正は別々に申し出る
@@ -420,7 +420,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 別々に申し出る
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 地図訂正の申出に印鑑証明書はいらない

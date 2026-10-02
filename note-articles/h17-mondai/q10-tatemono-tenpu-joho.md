@@ -327,7 +327,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -346,7 +346,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 土地情報も申請情報に
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 別棟共用部分の変更登記は証明情報2つ
@@ -361,7 +361,7 @@ Diagram: 左にマンション本体、右に別棟の集会室（規約共用�
 Conclusion tag (blue, 5-15 Japanese characters):
 証明情報が2つ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 未登記建物の合体は添付情報4つ
@@ -378,7 +378,7 @@ Diagram: 確認の手順として描く（分岐のない確認なので、ひ�
 Conclusion tag (blue, 5-15 Japanese characters):
 添付情報は4つ
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 引渡証明書の印鑑証明書に期限なし
@@ -394,7 +394,7 @@ applies). RIGHT side labeled 「正しいルール」 (thick border): ハウス�
 Conclusion tag (blue, 5-15 Japanese characters):
 期間の制限なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 同時申請の共通添付情報は1件でよい

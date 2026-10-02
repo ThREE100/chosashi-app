@@ -357,16 +357,16 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled blue circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 受理後、最初に却下事由の有無を審査
 Diagram: Draw the full shared vertical flowchart used across all 5 panels
 of this set, top to bottom: a start node reading 「筆界特定の申請」, then
-the blank node for 肢ア (drawn as an empty rounded rectangle with a bold
+the blank node for ア (drawn as an empty rounded rectangle with a bold
 question mark, thick highlighted blue border, since this panel is about
-肢ア), then immediately below it a diamond-shaped decision node reading
+ア), then immediately below it a diamond-shaped decision node reading
 「却下事由あり？」, with a Yes-branch arrow (labeled ○) leading right to a
 small node reading 「（イ）」 in faded grey dotted-outline style with a
 terminal mark (no further arrow), and a No-branch arrow (labeled ✕)
@@ -376,7 +376,7 @@ reading in order 「公告及び関係人に対する通知」→「（ウ）」
 drawn smaller than the highlighted node to show they exist further down
 without revealing their content yet. Embed an isometric registrar figure
 with a magnifying glass and a small checklist showing icons/labels for
-管轄・申請権限・記載事項 next to the 肢ア node to represent the act being
+管轄・申請権限・記載事項 next to the ア node to represent the act being
 performed there.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず空欄アの直前に「筆界特定の申請」があることを確認します。次に空欄アの
@@ -386,25 +386,25 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 審査
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled red circle containing the number 2.
 Heading (bold, ONE line):
 却下されたらそこで手続が終わる
 Diagram: Draw the same shared flowchart. Fade the start node 「筆界特定の
-申請」 and the 肢ア node (now shown as a small solved node labeled 「審査」
-in faded grey text, since 肢ア was already solved in Panel 1) in grey
+申請」 and the ア node (now shown as a small solved node labeled 「審査」
+in faded grey text, since ア was already solved in Panel 1) in grey
 dotted-outline style. Keep the diamond decision node 「却下事由あり？」
 visible but faded, except for its Yes-branch arrow (labeled ○), which is
 drawn in full color with a thick highlighted red border leading to the
-blank node for 肢イ (empty rounded rectangle, thick highlighted red
-border, question mark). Draw no arrow continuing out of the 肢イ node —
+blank node for イ (empty rounded rectangle, thick highlighted red
+border, question mark). Draw no arrow continuing out of the イ node —
 instead draw a small 「手続終了」 stamp or end-cap icon directly below it
 to make clear this branch terminates here. Draw the No-branch arrow and
 the remaining chain (公告及び関係人に対する通知→（ウ）→事実の調査の開始→
 （エ）→（オ）→筆界特定→公告及び関係人に対する通知) in faded grey
 dotted-outline style continuing straight down, to show that route keeps
 going elsewhere. Embed a red hanko-style stamp icon reading 「却下」
-pressed onto a document inside the 肢イ node.
+pressed onto a document inside the イ node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず空欄イが、審査の分岐のうち却下事由がある側の枝の先にあることを確認
 します。次に、その枝の先に矢印が続かず手続がそこで終わっていることを
@@ -413,19 +413,19 @@ Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
 却下で手続終了
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line):
 公告・通知の後、筆界調査委員を指定
-Diagram: Draw the same shared flowchart. Fade the top portion (申請→肢ア→
-diamond→肢イ branch) entirely in grey dotted-outline style, drawn smaller,
+Diagram: Draw the same shared flowchart. Fade the top portion (申請→ア→
+diamond→イ branch) entirely in grey dotted-outline style, drawn smaller,
 to show it already happened. Highlight with a thick blue border the node
-「公告及び関係人に対する通知」 immediately above the blank node for 肢ウ,
-the blank 肢ウ node itself (empty rounded rectangle, question mark, thick
+「公告及び関係人に対する通知」 immediately above the blank node for ウ,
+the blank ウ node itself (empty rounded rectangle, question mark, thick
 blue border), and the node 「事実の調査の開始」 immediately below it.
 Embed an isometric public notice board with a document pinned to it
 labeled 「公告」 and an envelope icon labeled 「通知」 next to the upper
-highlighted node, and inside the 肢ウ node embed a hand reaching into a
+highlighted node, and inside the ウ node embed a hand reaching into a
 lineup of three professional figures labeled 弁護士・司法書士・
 土地家屋調査士 and placing a name badge on one of them. Fade the
 remaining lower chain (（エ）→（オ）→筆界特定→公告及び関係人に対する通知)
@@ -439,19 +439,19 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 筆界調査委員の指定
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
 調査の後、意見を聴く期日を設ける
 Diagram: Draw the same shared flowchart. Fade the upper portion (申請から
-肢ウまで) entirely in grey dotted-outline style, drawn smaller. Highlight
+ウまで) entirely in grey dotted-outline style, drawn smaller. Highlight
 with a thick blue border the node 「事実の調査の開始」 immediately above
-the blank node for 肢エ, the blank 肢エ node itself, and the still-empty
-node for 肢オ immediately below it (drawn slightly smaller, in a lighter
-highlight, since this panel focuses on 肢エ but must show that 肢オ comes
+the blank node for エ, the blank エ node itself, and the still-empty
+node for オ immediately below it (drawn slightly smaller, in a lighter
+highlight, since this panel focuses on エ but must show that オ comes
 right after with no other step in between). Embed inside 事実の調査の
 開始 a small isometric surveyor figure measuring a land plot with a
-surveying tool, and inside the 肢エ node embed a calendar icon with one
+surveying tool, and inside the エ node embed a calendar icon with one
 date circled, below which small figures representing 申請人 and 関係人
 sit at a table with speech bubble icons above them. Fade the remaining
 chain (筆界特定→公告及び関係人に対する通知) below in grey dotted-outline
@@ -465,18 +465,18 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 意見聴取等の期日
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line):
 意見聴取の後、委員が意見を提出する
 Diagram: Draw the same shared flowchart. Fade the upper portion (申請から
 事実の調査の開始まで) entirely in grey dotted-outline style, drawn
-smaller. Highlight with a thick blue border the node for 肢エ (now shown
+smaller. Highlight with a thick blue border the node for エ (now shown
 as a small solved node labeled 「意見聴取等の期日」 in faded grey text,
-since 肢エ was already solved in Panel 4), the blank 肢オ node itself
+since エ was already solved in Panel 4), the blank オ node itself
 immediately below it (empty rounded rectangle, question mark, thick blue
-border), and the node 「筆界特定」 immediately below 肢オ. Embed inside
-the 肢オ node the professional figure from earlier panels handing a
+border), and the node 「筆界特定」 immediately below オ. Embed inside
+the オ node the professional figure from earlier panels handing a
 document stamped 「意見書」 to the registrar's desk, with an arrow
 pointing onward to a stamp reading 「筆界特定」 in the next node. Fade
 the final node 「公告及び関係人に対する通知」 below in grey dotted-outline

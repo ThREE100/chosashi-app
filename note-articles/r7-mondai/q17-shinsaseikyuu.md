@@ -302,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 そもそも期間制限が存在しない
@@ -318,7 +318,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 期間制限そのものなし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 裁決書謄本は請求人と登記官の双方へ
@@ -333,7 +333,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 請求人と登記官へ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 筆界特定は「処分」に当たらない
@@ -350,7 +350,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 境界確定訴訟で争う
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 筆界異議では他人の更正登記を争えない
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 筆界異議では不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 参加人という制度自体が存在しない

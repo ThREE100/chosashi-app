@@ -319,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled green circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -336,7 +336,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 処分日から3年間資格喪失
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
 調査士法人の鑑定業務の根拠を確認する
@@ -354,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 定款規定で鑑定業務可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line):
 報酬基準は受任前に示す義務がある
@@ -370,7 +370,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 受任前に基準を提示
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
 正当な事由でも補助者に業務は任せられない
@@ -389,7 +389,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 正当事由でも不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line):
 補助者設置の届出先は調査士会

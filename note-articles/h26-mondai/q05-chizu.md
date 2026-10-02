@@ -234,7 +234,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、地図の「作成・記録」に関する肢か「訂正・閲覧の手続」に関する肢かを見分け、どの順番で条件を確認すればよいかを示す解き方ガイド。肢ウは村落・農耕地域と山林・原野地域の縮尺を対比する型、肢オは誤りやすい思い込みと正しいルールを対比する型で構成してある。
+問題文を読んだ瞬間に、地図の「作成・記録」に関する肢か「訂正・閲覧の手続」に関する肢かを見分け、どの順番で条件を確認すればよいかを示す解き方ガイド。ウは村落・農耕地域と山林・原野地域の縮尺を対比する型、オは誤りやすい思い込みと正しいルールを対比する型で構成してある。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2800 pixels,
@@ -303,7 +303,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 区画線と地番を土地ごとに描き込む
@@ -318,7 +318,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 区画と地番を明確化
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地積の錯誤があれば更正登記と同時に申出る
@@ -333,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 更正登記とセットで
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 田畑地域と山林原野地域で標準縮尺は異なる
@@ -341,7 +341,7 @@ Diagram: A two-box contrast layout. Left box: an isometric rice-paddy and
 field landscape labeled「村落・農耕地域（主に田・畑）」with a tag「500分の
 1・1,000分の1」and a green checkmark. Right box: an isometric forest and
 wasteland landscape labeled「山林・原野地域」with a tag「1,000分の1・
-2,500分の1」. An arrow from a small text bubble reading「肢ウの主張：田・
+2,500分の1」. An arrow from a small text bubble reading「ウの主張：田・
 畑＝2,500分の1」points toward the right box's tag with a red X mark,
 showing the claimed scale actually belongs to the other region.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -352,7 +352,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 山林原野の縮尺
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 基本三角点の位置も地図に記録される
@@ -366,7 +366,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 三角点も記録事項
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 地図の閲覧に利害関係の有無は問われない

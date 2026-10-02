@@ -83,8 +83,8 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（平成19年度午前の部第15問）と正解番号（1番＝1個）は、土地家屋調査士試験対策アプリの検証済みデータベース（`src/data/takuitsu.json`の`chosashi_H19_q15`、法務省公式正答由来）の`correctAnswer`フィールドと再照合し、一致を確認しています。
 - 条文レベルで確認できた事項：不動産登記令16条1項（原文「申請人又はその代表者若しくは代理人は、法務省令で定める場合を除き、申請情報を記載した書面に記名押印しなければならない」）、不動産登記令18条1項（原文「委任による代理人によって登記を申請する場合には、申請人又はその代表者は、法務省令で定める場合を除き、当該代理人の権限を証する情報を記載した書面に記名押印しなければならない」）、不動産登記規則47条1号（原文「委任による代理人が申請書に署名した場合」）、不動産登記規則49条1項1号（原文「申請人又はその代表者若しくは代理人が署名した…委任状について公証人又はこれに準ずる者の認証を受けた場合」）、不動産登記規則74条2項（原文「申請人が記名するとともに、その作成者が署名し、又は記名押印しなければならない」）。
-- **追加検証（ローカル法令データベースとの原文突合、2026-08-18実施）**：前回セッションではe-Gov法令検索へのアクセスが環境上の制約で直接できず、上記の条文はいずれも実務家サイト・資格予備校ブログ等の二次情報源経由での確認にとどまっていました。本セッションでは`note-articles/laws/fudousan-touki-rei.md`（不動産登記令、取得日2026-08-04・e-Gov現行版）および`fudousan-touki-kisoku-1.md`（不動産登記規則、同）の原文をGrep・Readで直接突合し、上記の条文番号・文言がいずれも一致することを確認しました。特に不動産登記規則47条3号イ〜ホが指す適用除外（所有権登記名義人が合筆・合体・合併等の登記を申請する場合など）も原文で確認しましたが、これは「委任による代理人」ではなく「申請人本人」が署名する場合に関する別の号の話であり、肢イ（委任による代理人が申請書に署名した場合＝47条1号）の判断には影響しないことも確認できました。ア・エの判断（例外規定に該当しないこと）についても、原文突合により確認済みの結論であり、推論にとどまる部分はなくなりました。
-- **重複出題チェック（2026-08-18実施）**：`src/data/takuitsu.json`を「記名押印」「押印」「署名」で検索し、関連論点を確認しました。令和7年度第9問イ（`note-articles/r7-mondai/q09-chisekisokuryouzu.md`）は「作成者が署名した地積測量図には押印を要しない」という、本問オと同じ不動産登記規則74条2項の論点を扱っていますが、出題形式が「誤っている記述の組合せ」選択式であり、本問（押印の要否を幾つあるか問う特殊形式）とは別の問題として作られているため重複出題にはあたらないと判断しました。平成27年度第4問ア・イ（申請情報の内容に関する問題）は、合筆・合体・合併の登記における「申請人本人」の押印要否（不動産登記規則47条3号の除外規定）を扱っており、本問肢イが扱う「委任による代理人」の押印要否（不動産登記規則47条1号）とは適用される号・主体が異なる別論点です。完全に同一の出題形式・書面の組合せでの重複は見つかりませんでした。
+- **追加検証（ローカル法令データベースとの原文突合、2026-08-18実施）**：前回セッションではe-Gov法令検索へのアクセスが環境上の制約で直接できず、上記の条文はいずれも実務家サイト・資格予備校ブログ等の二次情報源経由での確認にとどまっていました。本セッションでは`note-articles/laws/fudousan-touki-rei.md`（不動産登記令、取得日2026-08-04・e-Gov現行版）および`fudousan-touki-kisoku-1.md`（不動産登記規則、同）の原文をGrep・Readで直接突合し、上記の条文番号・文言がいずれも一致することを確認しました。特に不動産登記規則47条3号イ〜ホが指す適用除外（所有権登記名義人が合筆・合体・合併等の登記を申請する場合など）も原文で確認しましたが、これは「委任による代理人」ではなく「申請人本人」が署名する場合に関する別の号の話であり、イ（委任による代理人が申請書に署名した場合＝47条1号）の判断には影響しないことも確認できました。ア・エの判断（例外規定に該当しないこと）についても、原文突合により確認済みの結論であり、推論にとどまる部分はなくなりました。
+- **重複出題チェック（2026-08-18実施）**：`src/data/takuitsu.json`を「記名押印」「押印」「署名」で検索し、関連論点を確認しました。令和7年度第9問イ（`note-articles/r7-mondai/q09-chisekisokuryouzu.md`）は「作成者が署名した地積測量図には押印を要しない」という、本問オと同じ不動産登記規則74条2項の論点を扱っていますが、出題形式が「誤っている記述の組合せ」選択式であり、本問（押印の要否を幾つあるか問う特殊形式）とは別の問題として作られているため重複出題にはあたらないと判断しました。平成27年度第4問ア・イ（申請情報の内容に関する問題）は、合筆・合体・合併の登記における「申請人本人」の押印要否（不動産登記規則47条3号の除外規定）を扱っており、本問イが扱う「委任による代理人」の押印要否（不動産登記規則47条1号）とは適用される号・主体が異なる別論点です。完全に同一の出題形式・書面の組合せでの重複は見つかりませんでした。
 - **最新法令への準拠チェック（2026-08-18実施）**：WebSearchで不動産登記令16条・18条、不動産登記規則47条・49条・74条に関する最新の実務解説を確認しましたが、いずれも条文番号・内容とも本文の記述と一致しており、変更は見当たりませんでした。直近の法改正（相続登記の申請義務化、住所等変更登記の申請義務化）は不動産登記法76条の2以下が対象であり、本問が扱う記名押印・署名に関する条文には影響がないことを確認しました。**修正すべき点はなく、条文根拠に変更はありません。**
 - 結論として、条文調査に基づく判定（押印が必要なのはアのみ＝1個）は、公式正解（1番＝1個）と一致しています。
 - **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（不動産登記令16条1項・18条1項、不動産登記規則47条1号・49条1項1号・74条2項を`note-articles/laws/fudousan-touki-rei.md`・`fudousan-touki-kisoku-1.md`の原文と直接突合し一致を確認）、B（正解番号1＝1個を`src/data/takuitsu.json`の`chosashi_H19_q15`の`correctAnswer`と再照合し一致を確認）、C（各肢の見出しが正しい結論（押印必要／不要）を表していること、正解の先出しがないこと、敬体で統一されていること、条文解釈プロセスの説明がないこと、全角括弧で統一されていることを再確認し、修正すべき箇所はありませんでした）、D（Markdown表の不使用を確認）、E（インフォグラフィックプロンプトが未作成だったため本文の内容に沿って新規作成しました）、F（テンプレート構造・タイトルのキャッチフレーズ15字＝25字以内・確認事項ブロックの記載を確認）、G（重複出題チェック・最新法令チェックを実施、上記のとおり）を行いました。**正解・各肢の判定（押印必要／不要）はいずれも変更していません。**
@@ -247,7 +247,7 @@ channel anywhere.
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・エは、「記名か署名か」から始まり、署名であれば「申請書への代理人署名か、委任状への本人署名か」で分岐し、委任状側はさらに「公証人等の認証の有無」を確認する、という共通の決定木を共有する構成とする。肢ウ・オは、「申請人欄か作成者欄か」から始まり、作成者欄側はさらに「署名か記名押印か」を確認する、という別の共通の決定木を共有する構成とする。
+ア・イ・エは、「記名か署名か」から始まり、署名であれば「申請書への代理人署名か、委任状への本人署名か」で分岐し、委任状側はさらに「公証人等の認証の有無」を確認する、という共通の決定木を共有する構成とする。ウ・オは、「申請人欄か作成者欄か」から始まり、作成者欄側はさらに「署名か記名押印か」を確認する、という別の共通の決定木を共有する構成とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -271,8 +271,8 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No(はい/いいえ、or ○/✕)branch arrows, and a final conclusion
 node. Where a 肢 is resolved by a single check, a labeled illustrative
-diagram is sufficient — do not force a flowchart. Panels 1(肢ア), 2(肢イ)
-and 4(肢エ)share the same underlying decision tree for 委任状・申請書(root
+diagram is sufficient — do not force a flowchart. Panels 1(ア), 2(イ)
+and 4(エ)share the same underlying decision tree for 委任状・申請書(root
 diamond:「記名か署名か」→ if 署名, a second diamond「申請書の代理人署名か、
 委任状の本人署名か」→ if 委任状の本人署名, a third diamond「公証人等の認証の
 有無」); render the branch and leaf relevant to THIS panel with a thick
@@ -283,7 +283,7 @@ tree each panel is about. In Panel 4, both outcomes(はい/いいえ)of the
 third diamond node(「公証人等の認証の有無」)must be drawn in full color,
 each ending in its own dedicated conclusion node, with no arrow looping
 back to an earlier node, since both outcomes matter for understanding why
-a bare signature alone is not enough for a 委任状. Panels 3(肢ウ)and 5(肢オ)
+a bare signature alone is not enough for a 委任状. Panels 3(ウ)and 5(オ)
 share a separate decision tree for 添付図面(root diamond:「申請人欄か作成者
 欄か」→ if 作成者欄, a second diamond「署名か記名押印か」); again highlight
 only the branch relevant to each panel and render the rest faded,
@@ -332,7 +332,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 記名なら押印必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -383,7 +383,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 代理人の署名で足りる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -408,7 +408,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 申請人は記名のみ
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -440,7 +440,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 認証があれば足りる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

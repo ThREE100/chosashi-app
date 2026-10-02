@@ -242,7 +242,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-この5肢はすべて「この登記によって、まだ所有権が公示されていない新しい部分（新築建物・増築部分など）が生じるか」という同じ問いに帰着するため、1つの決定木を5パネルで共有し、各パネルは自分の肢に関係する枝だけを強調する構成にした。肢イだけは「全体の床面積が減少していても結論は変わらない」という誤解しやすい第二段階の分岐を追加している。
+この5肢はすべて「この登記によって、まだ所有権が公示されていない新しい部分（新築建物・増築部分など）が生じるか」という同じ問いに帰着するため、1つの決定木を5パネルで共有し、各パネルは自分の肢に関係する枝だけを強調する構成にした。イだけは「全体の床面積が減少していても結論は変わらない」という誤解しやすい第二段階の分岐を追加している。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -267,7 +267,7 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. All five panels（肢ア〜オ）share one common
+— do not force a flowchart. All five panels（ア〜オ）share one common
 decision tree rooted at the same question — whether the registration
 creates a newly-unregistered part of the building whose ownership has not
 yet been publicly shown (a new building or an added floor area) — with
@@ -321,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 物理的変更なしの合併に証明不要
@@ -342,7 +342,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 現況不変で証明不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 床面積減少でも増築部分は証明必要
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全体減少でも証明必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 材料を移しても登記上は新築扱い
@@ -387,7 +387,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 新築として証明必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 屋根のふき替えは証明が不要
@@ -408,7 +408,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 構造変更で証明不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 車庫を倉庫にしても証明は不要

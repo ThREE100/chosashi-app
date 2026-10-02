@@ -80,10 +80,10 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（1番＝ア・エが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月4日 現行法との整合性を再検証しました。判定・説明の修正は不要でした】** 分筆の登記の根拠が**不動産登記法39条**であること、複数の登記を一の申請情報によって申請できる場合が**不動産登記令4条ただし書・不動産登記規則35条**に定められていることを確認し、導入部に条文番号を補いました。区分所有法上、専有部分と敷地利用権の分離処分が原則として禁止され、規約で別段の定めができる（建物の区分所有等に関する法律22条1項）という肢ウの前提も現行どおりです。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で肢イの根拠を条文で確認しました】** `fudousan-touki-rei.md`の**令3条1号**（申請情報の内容は「申請人の氏名又は名称及び住所」）・**同条10号**（法30条により表示に関する登記を申請するときは「申請人が…一般承継人である旨」）、および`fudousan-touki-hou.md`の**法30条**（一般承継人による申請＝相続人その他の一般承継人は表示に関する登記を申請できる）を確認し、申請情報に記載するのは申請する相続人自身の氏名・住所とその旨であって、相続人**全員**の氏名・住所を記載する定めがないことを確認しました。本文に反映しています。
+- **【2026年8月4日 現行法との整合性を再検証しました。判定・説明の修正は不要でした】** 分筆の登記の根拠が**不動産登記法39条**であること、複数の登記を一の申請情報によって申請できる場合が**不動産登記令4条ただし書・不動産登記規則35条**に定められていることを確認し、導入部に条文番号を補いました。区分所有法上、専有部分と敷地利用権の分離処分が原則として禁止され、規約で別段の定めができる（建物の区分所有等に関する法律22条1項）というウの前提も現行どおりです。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）でイの根拠を条文で確認しました】** `fudousan-touki-rei.md`の**令3条1号**（申請情報の内容は「申請人の氏名又は名称及び住所」）・**同条10号**（法30条により表示に関する登記を申請するときは「申請人が…一般承継人である旨」）、および`fudousan-touki-hou.md`の**法30条**（一般承継人による申請＝相続人その他の一般承継人は表示に関する登記を申請できる）を確認し、申請情報に記載するのは申請する相続人自身の氏名・住所とその旨であって、相続人**全員**の氏名・住所を記載する定めがないことを確認しました。本文に反映しています。
 - ア（地積更正との一括申請での地積測量図の範囲）とエ（地目変更との一括申請での登記原因・日付記載）は、分筆の登記に関する一般的な取扱いに基づく説明です。ウ（敷地権付き区分建物の法定敷地の分筆と分離処分可能規約の要否のタイミング）は、正解の組合せ（アエ）と整合するように説明したものですが、**根拠となる条文・先例は今回の再検証でも特定できていません**。分離処分可能規約が「分筆の段階」と「所有権移転の段階」のどちらで必要になるかという点は、実務上さらに詳しい確認が望ましい箇所です。
-- **【重複出題あり】重複出題チェック（2026-07-22実施）**：R02年度第9問の肢イ「一筆の土地の一部が別の地目になったことにより、地目に関する変更の登記と分筆の登記とを一の申請情報により申請するときは、登記原因及びその日付を申請情報の内容としなければならない。」が、本問の肢エとほぼ一字一句同一（読点の違い程度）です。地目変更と分筆の一括申請という特定の場面設定・要件がそのまま再利用されています。**noteへの投稿にあたっては、R02年度第9問の解説記事とテーマ・具体例が重複する点に注意し、両方を続けて発信しないようにしてください。**
+- **【重複出題あり】重複出題チェック（2026-07-22実施）**：R02年度第9問のイ「一筆の土地の一部が別の地目になったことにより、地目に関する変更の登記と分筆の登記とを一の申請情報により申請するときは、登記原因及びその日付を申請情報の内容としなければならない。」が、本問のエとほぼ一字一句同一（読点の違い程度）です。地目変更と分筆の一括申請という特定の場面設定・要件がそのまま再利用されています。**noteへの投稿にあたっては、R02年度第9問の解説記事とテーマ・具体例が重複する点に注意し、両方を続けて発信しないようにしてください。**
 
 ---
 
@@ -250,11 +250,11 @@ in this set, render the branch relevant to THIS panel with a thick
 highlighted border and full color, and render the other, unrelated
 branches in a faded, greyed-out, or dotted-outline style rather than
 omitting them — the reader should be able to see at a glance which part
-of the shared tree this panel is about. Panel 2（肢イ）and Panel 3（肢ウ）
+of the shared tree this panel is about. Panel 2（イ）and Panel 3（ウ）
 each turn on telling apart two things that are easy to confuse (誰の記載
 が必要か／どの段階で規約証明が必要か), so draw them as LEFT/RIGHT
 (誤り／正しい、または分筆の登記／所有権移転登記) comparison panels. The
-other 3 panels（肢ア・肢エ・肢オ）are each resolved by a single check, so
+other 3 panels（ア・エ・オ）are each resolved by a single check, so
 draw a labeled illustrative diagram for them instead of forcing a
 flowchart. Unlike a glanceable summary poster, each panel MAY include a
 short「着眼点」callout box with 1-2 sentences that state the checking
@@ -301,7 +301,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft green containing the number 1.
 Heading (bold, ONE line):
 地積更正との一括申請は分筆後の求積で足りる
@@ -320,7 +320,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 分筆後の求積で足りる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line):
 相続人全員の記載までは求められない
@@ -338,7 +338,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 申請人本人の記載で足りる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line):
 規約証明が要るのは分離処分の段階
@@ -357,7 +357,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 分筆自体には不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft green containing the number 4.
 Heading (bold, ONE line):
 地目変更との一括申請は原因日付の記載が必要
@@ -375,7 +375,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 登記原因・日付が必須
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5.
 Heading (bold, ONE line):
 地役権部分の分筆に新たな図面は不要

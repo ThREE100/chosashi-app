@@ -82,7 +82,7 @@
 - 出題年度・問題番号・正解番号（1番＝アイ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠のうち、ア（不動産登記法157条3項）、ウ（不動産登記事務取扱準則145条1項）、エ（法157条5項）、オ（行政不服審査法53条）は、元データ解説に条文番号まで明記されているものです。イについては、元データ解説が「行政不服審査法18条の適用除外」と記載しており、期間制限がないという結論は明記されています。なお、その適用除外を定めている根拠条文は不動産登記法158条（行政不服審査法の適用除外）ですが、この条文番号自体は元データには示されていないため、条文番号の特定は補足によるものです。
 - 各肢の解説は、ローカルのアガルート教材（過去問テキスト）の解説を条文根拠の一次情報源として参照しています（元データの解説はアガルート過去問テキストのOCRに基づきます）。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（登記官の処分又は不作為についての審査請求）と同一・類似の問題が再出題されていないかを確認しました。**強い重複が見つかりました。** 令和7年度第17問（既存記事：`r7-mondai/q17-shinsaseikyuu.md`）は、本問と全く同じ「登記官の処分又は不作為についての審査請求に関する次のアからオまでの記述」というSTEMで出題されており、肢アの論点（審査請求の期間制限＝法158条による行政不服審査法18条の適用除外で無期限）は本問の肢イと完全に同一のルールです。なお、令和7年度第17問の記事は、本問（平成30年度第18問）の作成過程で条文誤りが発覚し、2026年7月に訂正済みです（詳細は同記事の確認事項ブロック参照）。令和7年度分は既に公開済みのため、noteへの投稿順序を工夫するか、本問側の具体例を差別化することを推奨します。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（登記官の処分又は不作為についての審査請求）と同一・類似の問題が再出題されていないかを確認しました。**強い重複が見つかりました。** 令和7年度第17問（既存記事：`r7-mondai/q17-shinsaseikyuu.md`）は、本問と全く同じ「登記官の処分又は不作為についての審査請求に関する次のアからオまでの記述」というSTEMで出題されており、アの論点（審査請求の期間制限＝法158条による行政不服審査法18条の適用除外で無期限）は本問のイと完全に同一のルールです。なお、令和7年度第17問の記事は、本問（平成30年度第18問）の作成過程で条文誤りが発覚し、2026年7月に訂正済みです（詳細は同記事の確認事項ブロック参照）。令和7年度分は既に公開済みのため、noteへの投稿順序を工夫するか、本問側の具体例を差別化することを推奨します。
 
 ---
 
@@ -333,7 +333,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -355,7 +355,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 自らはせず登記官に命令
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -375,7 +375,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 期限なくいつでも可能
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -393,7 +393,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 双方に交付
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -412,7 +412,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 却下も登記官に命令
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

@@ -315,7 +315,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -334,7 +334,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 閉鎖後7年保存
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 注意勧告の公表は不要、報告は別に必要
@@ -353,7 +353,7 @@ icon labeled「報告」with a green ✓ checkmark and a small label「報告義
 Conclusion tag (blue, 5-15 Japanese characters):
 公表義務はなし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 代表社員は定款で定めなくてもよい
@@ -372,7 +372,7 @@ labeled「任意」hovering above both icons and a green ✓ checkmark.
 Conclusion tag (blue, 5-15 Japanese characters):
 定めは任意
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 総社員が同意しても競業はできない
@@ -391,7 +391,7 @@ thumbs-up「総社員の同意」gesture, but the briefcase icon labeled「自�
 Conclusion tag (blue, 5-15 Japanese characters):
 同意あっても不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 従たる事務所には管轄内の社員を常駐させる
@@ -423,7 +423,7 @@ attention to 調・査・閉・鎖・従・勧・報・業・員・駐・総・�
 character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that the multi-part
-肢 (肢イ) is drawn as two clearly labeled side-by-side panels rather than
+肢 (イ) is drawn as two clearly labeled side-by-side panels rather than
 a bare illustration with no visible structure, that no 肢 with a
 genuinely hidden second condition has been flattened into a single
 check, that each 着眼点 callout states a checking order rather than only

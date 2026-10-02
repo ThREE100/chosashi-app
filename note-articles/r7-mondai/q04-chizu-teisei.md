@@ -92,7 +92,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（1番＝ア・ウ）は法務省公表の試験問題原本・正答資料で確認済みです。
-- 各肢の法的根拠として、不動産登記規則16条1項・2項・13項6号・15項、民法252条5項を確認のうえ記載しており、ア〜オいずれも一般論ではなく条文に基づく解説です。特に肢アは、規則16条1項が「することができる」という任意形の規定であることを踏まえ、地図訂正の申出に期限の定めが一切ない旨を条文に即して修正しています。
+- 各肢の法的根拠として、不動産登記規則16条1項・2項・13項6号・15項、民法252条5項を確認のうえ記載しており、ア〜オいずれも一般論ではなく条文に基づく解説です。特にアは、規則16条1項が「することができる」という任意形の規定であることを踏まえ、地図訂正の申出に期限の定めが一切ない旨を条文に即して修正しています。
 - **エの補足説明について**：エ（他の土地まで巻き込む訂正は却下されること）について、実際に地図を訂正するための実務対応（土地家屋調査士による隣接地所有者との筆界確認・双方を申出人とする共同での地図訂正申出、合意に至らない場合の筆界特定制度の利用）を補足しました。この却下事由自体は不動産登記規則16条13項6号で条文上確認済みですが、その後の実務対応の部分は、同条1項・15項の条文構造と一般的な土地家屋調査士実務から導かれる内容であり、個別の先例・通達文言までは確認できていません。結論（エは正しい）自体は変わりません。
 
 ---
@@ -268,7 +268,7 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
 Where a 肢 is resolved by a single check, a labeled illustrative diagram
-is sufficient — do not force a flowchart. Panel 3（肢ウ）does not use a
+is sufficient — do not force a flowchart. Panel 3（ウ）does not use a
 flowchart at all; instead it uses a side-by-side comparison frame（LEFT:
 地図の区画、RIGHT: 登記記録の地積）because the point of that 肢 is
 distinguishing which of two different things is being discussed, not
@@ -316,7 +316,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申出は義務でなく期限も存在しない
@@ -334,7 +334,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 義務でも期限もない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 登記官は申出なしでも職権で直せる
@@ -350,7 +350,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 職権でも訂正できる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 地図の区画と登記記録の地積は別問題
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地積とは別問題
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 他地に影響する訂正は却下される
@@ -387,7 +387,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 他地に影響なら却下
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 共有でも保存行為なら1人で申出可

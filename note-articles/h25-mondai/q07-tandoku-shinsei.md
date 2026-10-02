@@ -239,12 +239,12 @@ conditions to get there — isometric buildings, land plots, registry
 desks, application documents, and official stamps. All 5 panels share the
 same root decision node in their diagram: 表示に関する登記の単独申請主義
 （不動産登記法16条）の例外に当たるか？Render this shared diamond with a
-thick highlighted border in every panel. In Panels 1（肢ア）、2（肢イ）and
-4（肢エ）, highlight the いいえ（例外に当たらない）branch and fade the はい
+thick highlighted border in every panel. In Panels 1（ア）、2（イ）and
+4（エ）, highlight the いいえ（例外に当たらない）branch and fade the はい
 branch, since these three 肢 all resolve to 単独で申請できる, but each
 panel's second-level diamond gives its OWN specific reason (a different
 sub-check per panel — do not reuse identical wording across these three
-panels). In Panels 3（肢ウ）and 5（肢オ）, highlight the はい（例外に当たる）
+panels). In Panels 3（ウ）and 5（オ）, highlight the はい（例外に当たる）
 branch and fade the いいえ branch instead, since these two 肢 resolve to
 単独で申請できない, again each with its own specific reason. Where a 肢's
 reasoning requires a second check after the shared root node, draw that
@@ -294,7 +294,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 持分の更正は原則どおり単独可
@@ -314,7 +314,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一人で申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 合体登記も保存行為で単独可
@@ -336,7 +336,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為で可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 別人への入れ替えは単独不可
@@ -357,7 +357,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 同一性なし不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 地積減少の更正も保存行為で可
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 共有者一人で可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 共用部分登記は名義人以外不可

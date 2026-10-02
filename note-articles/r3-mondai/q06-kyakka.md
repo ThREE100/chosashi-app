@@ -87,7 +87,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和3年度　午後の部　第6問）と正解番号（2番＝ア・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
 - 各肢の根拠のうち、条文・通知レベルまで検証済みデータベースに記載があったものは、ア（不動産登記事務取扱準則28条4項による一部却下）、ウ（不動産登記規則77条1項7号・8号、平成18年8月15日民二第1794号通知）、エ（不動産登記法25条ただし書）、オ（不動産登記規則38条1項・2項および行政処分の到達に関する原則）です。イ（筆界を確認できない場合の却下）は、当初データベース上では条文番号が明示されていませんでしたが、WebSearchで確認したところ、不動産登記法25条11号「表示に関する登記の申請に係る不動産の表示が第二十九条の規定による登記官の調査の結果と合致しないとき」が却下事由として該当することを確認し、本文に反映しました。
-- 肢オの条文番号（不動産登記規則38条1項・2項＝却下決定書の作成・交付・送付）についても、WebSearchで複数の情報源から内容が一致することを確認できました。データベースの別フィールド（pitfalls）に規則39条1項への言及もありましたが、結論（電磁的記録ではなく書面で作成される）はいずれも一致しています。
+- オの条文番号（不動産登記規則38条1項・2項＝却下決定書の作成・交付・送付）についても、WebSearchで複数の情報源から内容が一致することを確認できました。データベースの別フィールド（pitfalls）に規則39条1項への言及もありましたが、結論（電磁的記録ではなく書面で作成される）はいずれも一致しています。
 - ウの条文根拠は、note-articles/laws/配下の不動産登記規則（現行）を確認した結果、当初の引用番号（77条1項7号のみ）が実際の条文内容（7号＝平面直角座標系の番号又は記号、8号＝基本三角点等に基づく測量の成果による筆界点の座標値）とずれていたため、8号を追加し、77条2項（基本三角点等が利用できない場合の例外規定）にも触れる形に修正しました。イの確認事項欄の条文引用も、現行条文の文言（「符合しない」ではなく「合致しない」）に合わせて訂正しました。
 - アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。本記事は上記の検証済みデータベースの記載に基づいています。
 
@@ -319,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -340,7 +340,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一部だけ却下
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 筆界が確認できるかをまず見る
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 筆界不明は却下
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 基準点を使えたのに使ったかを見る
@@ -381,7 +381,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 使えるのに不使用は却下
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 補正可能かと期限内かを順に見る
@@ -403,7 +403,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 期間内補正で却下回避
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 電子申請でも却下決定書は書面で来る

@@ -78,12 +78,12 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第15問＝アウ／2番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 肢ア・イ・オについては、`note-articles/laws/fudousan-touki-rei-betsuhyou.md`（不動産登記令別表）・`note-articles/laws/fudousan-touki-kisoku-1.md`（不動産登記規則）を検索し、条文番号を特定できました。肢ア（建物の分割の登記に各階平面図を要すること）は不動産登記令別表十六の項添付情報欄イ、肢イ（規約敷地を追加するだけなら建物図面が不要なこと）は同別表十五の項の添付情報欄に建物図面が掲げられていないこと、肢オの「保存期間30年」は不動産登記規則28条13号（土地所在図・地積測量図・建物図面及び各階平面図は原則永久保存だが、閉鎖したものは閉鎖した日から30年間）で、それぞれ条文原文を確認済みです。肢ウ（増築時に一棟全体の図面までは不要）・肢エ（仮換地上の建物図面の記載方法）については、条文番号を一義的に特定できるものは確認できておらず、登記実務上の取扱い・先例からの整理にとどまります。
+- ア・イ・オについては、`note-articles/laws/fudousan-touki-rei-betsuhyou.md`（不動産登記令別表）・`note-articles/laws/fudousan-touki-kisoku-1.md`（不動産登記規則）を検索し、条文番号を特定できました。ア（建物の分割の登記に各階平面図を要すること）は不動産登記令別表十六の項添付情報欄イ、イ（規約敷地を追加するだけなら建物図面が不要なこと）は同別表十五の項の添付情報欄に建物図面が掲げられていないこと、オの「保存期間30年」は不動産登記規則28条13号（土地所在図・地積測量図・建物図面及び各階平面図は原則永久保存だが、閉鎖したものは閉鎖した日から30年間）で、それぞれ条文原文を確認済みです。ウ（増築時に一棟全体の図面までは不要）・エ（仮換地上の建物図面の記載方法）については、条文番号を一義的に特定できるものは確認できておらず、登記実務上の取扱い・先例からの整理にとどまります。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）の記述があり、内容の精度にばらつきがあったため採用せず、正解番号と一般原則から独立に構成しています。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和7年度第10問「建物図面及び各階平面図」（本シリーズで既に note-articles/r7-mondai/q10-tatemonozumen.md として執筆済み）が、本問と強く重複するテーマであることを確認しました。両問とも「規約敷地を追加する登記に建物図面の添付を要するか」（本問の肢イ、令和7年度第10問の肢イに相当）、「仮換地上に建築された建物の表題登記に添付する建物図面の記載方法」（本問の肢エ、令和7年度第10問の肢ウに相当）という同一の論点を扱っています。note投稿の際は、両記事の内容が重ならないよう書き分けるか、公開の間隔に配慮してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和7年度第10問「建物図面及び各階平面図」（本シリーズで既に note-articles/r7-mondai/q10-tatemonozumen.md として執筆済み）が、本問と強く重複するテーマであることを確認しました。両問とも「規約敷地を追加する登記に建物図面の添付を要するか」（本問のイ、令和7年度第10問のイに相当）、「仮換地上に建築された建物の表題登記に添付する建物図面の記載方法」（本問のエ、令和7年度第10問のウに相当）という同一の論点を扱っています。note投稿の際は、両記事の内容が重ならないよう書き分けるか、公開の間隔に配慮してください。
 - **最新法令準拠チェック（2026-08-04実施）**：不動産登記規則82条・83条（建物図面・各階平面図）、28条（保存期間）を確認しましたが、直近の改正による変更はありません。
-- **再検証（2026-08-13実施・条文番号を特定）**：各肢の正誤判定に誤りがないことを改めて確認しました。前回「条文番号を一義的に特定できていない」としていた肢ア・イ・オについて、不動産登記令別表十六の項・十五の項、および不動産登記規則28条13号を新たに特定できたため、本文と本項に反映しました。肢ウ・エは、なお条文番号を特定できる根拠が見当たらず、実務上の整理にとどまる旨を維持しています。正誤判定に変更はありません。
-- **適用法令の現行性チェック（2026-10-01実施）**：各肢を`note-articles/laws/`（2026-08-04取得の現行版。不動産登記令別表は現行リビジョン20260521）と照らしました。肢ア（令別表十六の項添付情報欄イ「分割後…の建物図面及び各階平面図」）、肢イ（同十五の項の添付情報欄に建物図面の定めがないこと）、肢オ（不動産登記規則28条13号「永久（閉鎖したものにあっては、閉鎖した日から三十年間）」。表題部の登記事項に関する変更の登記で変更前の図面が閉鎖されるのは同規則85条2項1号）の条文・項番号に変更はなく、本文の根拠条文はそのまま現行法です。肢イの前提である区分所有法5条1項（規約による建物の敷地）も、令和7年法律第47号による改正（令和8年4月1日施行）後の現行版で内容は同じです。肢エの仮換地上の建物図面の記載方法は、準則・規則・令・土地区画整理法のいずれにも定めが見当たらず、先例の整理にとどまる点は変わりません。相続登記の義務化・住所変更登記の義務化は本問に影響しません。なお図解（⑤）は、本文が「物理的な状態が変わらない場面では添付を省略できる」とする一方で肢アの分割（床面積は変わらないのに各階平面図が必要）を説明しているため、各肢に共通する分岐を「図面に示すべき建物の位置・形状・床面積が新たに生じる、または変わるか」とそろえました（分割は乙建物が新たに独立した建物として生まれるので「はい」、規約敷地の追加は「いいえ」）。正解・正誤判定の変更はありません。
+- **再検証（2026-08-13実施・条文番号を特定）**：各肢の正誤判定に誤りがないことを改めて確認しました。前回「条文番号を一義的に特定できていない」としていたア・イ・オについて、不動産登記令別表十六の項・十五の項、および不動産登記規則28条13号を新たに特定できたため、本文と本項に反映しました。ウ・エは、なお条文番号を特定できる根拠が見当たらず、実務上の整理にとどまる旨を維持しています。正誤判定に変更はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：各肢を`note-articles/laws/`（2026-08-04取得の現行版。不動産登記令別表は現行リビジョン20260521）と照らしました。ア（令別表十六の項添付情報欄イ「分割後…の建物図面及び各階平面図」）、イ（同十五の項の添付情報欄に建物図面の定めがないこと）、オ（不動産登記規則28条13号「永久（閉鎖したものにあっては、閉鎖した日から三十年間）」。表題部の登記事項に関する変更の登記で変更前の図面が閉鎖されるのは同規則85条2項1号）の条文・項番号に変更はなく、本文の根拠条文はそのまま現行法です。イの前提である区分所有法5条1項（規約による建物の敷地）も、令和7年法律第47号による改正（令和8年4月1日施行）後の現行版で内容は同じです。エの仮換地上の建物図面の記載方法は、準則・規則・令・土地区画整理法のいずれにも定めが見当たらず、先例の整理にとどまる点は変わりません。相続登記の義務化・住所変更登記の義務化は本問に影響しません。なお図解（⑤）は、本文が「物理的な状態が変わらない場面では添付を省略できる」とする一方でアの分割（床面積は変わらないのに各階平面図が必要）を説明しているため、各肢に共通する分岐を「図面に示すべき建物の位置・形状・床面積が新たに生じる、または変わるか」とそろえました（分割は乙建物が新たに独立した建物として生まれるので「はい」、規約敷地の追加は「いいえ」）。正解・正誤判定の変更はありません。
 
 ---
 
@@ -239,7 +239,7 @@ quick-reference conclusion poster.
 DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
-conditions to get there. Panels 1（肢ア）, 2（肢イ）and 3（肢ウ）share the
+conditions to get there. Panels 1（ア）, 2（イ）and 3（ウ）share the
 same underlying decision structure — a single diamond node asking「この
 登記で、図面に示すべき建物の位置・形状・床面積が新たに生じる、または
 変わるか」— because all three 肢 turn on the same 現況主義（図面は今の建
@@ -250,17 +250,17 @@ THAT panel with a thick highlighted border and full color, and render the
 other branch in a faded, greyed-out, dotted-outline style rather than
 omitting it, so the reader can see at a glance which part of the shared
 rule this panel is about. Where a 肢 turns on a common misconception
-(肢ア: a reader may wrongly think that an unchanged total floor area
-means no floor-plan drawing is needed; 肢ウ: a reader may wrongly think
+(ア: a reader may wrongly think that an unchanged total floor area
+means no floor-plan drawing is needed; ウ: a reader may wrongly think
 that a change to the one-building-as-a-whole registration record requires
 a floor plan of the ENTIRE building), add a second, smaller decision or a
 crossed-out misconception bubble inside that panel to make the trap
 explicit, rather than a single flat illustration. Where a 肢 is not about
-whether a drawing is required but about HOW to draw it (肢エ: the drawing
+whether a drawing is required but about HOW to draw it (エ: the drawing
 convention for a building on temporarily-replotted land), a labeled
 illustrative diagram of the convention itself is sufficient — do not
 force a flowchart. Where a 肢 concerns a time duration rather than a
-yes/no condition (肢オ: how long a closed drawing is retained), draw the
+yes/no condition (オ: how long a closed drawing is retained), draw the
 panel's diagram as a left-to-right or top-to-bottom timeline with labeled
 time points and a duration bracket, not a decision flowchart. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」
@@ -308,7 +308,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 建物分割は床面積不変でも各階平面図が必要
@@ -321,7 +321,7 @@ becomes an independent building, with the same 床面積 label before and
 after (write no numbers). Beside the はい branch, a small crossed-out misconception bubble
 reads「床面積が同じだから図面は不要」with a red ✕, next to a highlighted
 conclusion node reading 新しく生まれる乙建物の各階平面図が必要 with a
-checkmark. The いいえ branch (used by 肢イ) is rendered faded/greyed-out/
+checkmark. The いいえ branch (used by イ) is rendered faded/greyed-out/
 dotted here, leading to a faded conclusion node reading 図面の添付は不要.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記で図面に示すべき建物の位置・形状・床面積が新たに生じる、
@@ -332,7 +332,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 各階平面図は必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 規約敷地の追加だけなら建物図面は不要
@@ -343,7 +343,7 @@ and full color: a condominium building icon gaining an additional
 規約 document that designates 乙土地 as its規約敷地, while the building
 itself stays in exactly the same position and shape. The highlighted
 conclusion node reads 建物図面は不要, with a crossed-out blueprint icon.
-The はい branch (used by 肢ア・肢ウ) is rendered faded/greyed-out/dotted
+The はい branch (used by ア・ウ) is rendered faded/greyed-out/dotted
 this time, leading to a faded conclusion node reading 図面の添付が必要.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記で図面に示すべき建物の位置・形状・床面積が新たに生じる、
@@ -354,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 建物図面は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 増築の変更図面は増築部分のみで足りる
@@ -381,7 +381,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 変更箇所のみで足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 仮換地は実線、将来地番は括弧書きで記載
@@ -398,7 +398,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 実線＋括弧書きで記載
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 使われなくなった図面の保存期間は30年
@@ -433,8 +433,8 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that PANEL 1（肢ア）, PANEL 2（肢イ）and PANEL
-3（肢ウ）each clearly distinguish their own highlighted branch of the
+the header and the panels, that PANEL 1（ア）, PANEL 2（イ）and PANEL
+3（ウ）each clearly distinguish their own highlighted branch of the
 shared 図面に示す内容の変化 decision node from the other, faded branch,
 that PANEL 1 shows its misconception bubble crossed out with a red ✕ and
 PANEL 3 shows its two-side contrast with opposite marks (a ✓ on the

@@ -81,7 +81,7 @@
 - 各肢の判定（正しいのはア・エ）は、公式の正解の組合せ「アエ」から確定できるものです。
 - 各肢の根拠は、筆界特定の申請権者（所有権の登記名義人その他の所有者。仮登記名義人は含まれない）・対象土地の要件・既に筆界特定がされた場合の再申請に関する不動産登記法123条以下の一般的な理解に基づいて記載しています。条文の細かな条項番号までは個別に照合しきれていない部分があるため、各自でも条文を確認することをおすすめします。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（筆界特定の申請）と同一の問題が再出題されていないかを確認しました。筆界特定は頻出テーマで、令和6年度第19問・令和7年度第16問でも扱われています（問題文＋肢全体の類似度0.38程度）。肢単位では、本問の肢ア（一点のみで接する土地を対象とする申請の可否）と令和6年度第19問の肢ア、本問の肢エ（偽造資料が判明した場合の再申請の可否）と令和7年度第16問の肢オが、それぞれほぼ同一の文言（類似度0.84〜0.85）で出題されています。ただし、これらは他の4肢の組合せ・正解がいずれも異なる別問題であり、**問題全体としての重複ではありません**。筆界特定の申請権者・再申請の可否といった基本論点が、形を変えて繰り返し問われています。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（筆界特定の申請）と同一の問題が再出題されていないかを確認しました。筆界特定は頻出テーマで、令和6年度第19問・令和7年度第16問でも扱われています（問題文＋肢全体の類似度0.38程度）。肢単位では、本問のア（一点のみで接する土地を対象とする申請の可否）と令和6年度第19問のア、本問のエ（偽造資料が判明した場合の再申請の可否）と令和7年度第16問のオが、それぞれほぼ同一の文言（類似度0.84〜0.85）で出題されています。ただし、これらは他の4肢の組合せ・正解がいずれも異なる別問題であり、**問題全体としての重複ではありません**。筆界特定の申請権者・再申請の可否といった基本論点が、形を変えて繰り返し問われています。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -246,7 +246,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢イ・ウは、「申請しようとする人は、対象土地の所有権の登記名義人その他の所有者に当たるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢アは筆界の共有の有無を確認する配置図型、肢エは既存の筆界特定の有無から偽造発覚まで確認する独立の決定木、肢オは訴訟と筆界特定の並行利用を示す系統図型とする。
+イ・ウは、「申請しようとする人は、対象土地の所有権の登記名義人その他の所有者に当たるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。アは筆界の共有の有無を確認する配置図型、エは既存の筆界特定の有無から偽造発覚まで確認する独立の決定木、オは訴訟と筆界特定の並行利用を示す系統図型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -323,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -343,7 +343,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 一点接触は対象外
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -363,7 +363,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 一部の時効取得者も可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -383,7 +383,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 仮登記名義人は不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -405,7 +405,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 偽造発覚で再申請可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

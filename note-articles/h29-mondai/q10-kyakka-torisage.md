@@ -232,7 +232,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢イ・肢エは、いずれも「取下げ・却下の場面で何が誰にどう扱われるか」を複数の分岐で判定する必要があるため、決定木（フローチャート）として図解した。肢ア・ウ・オは単一の確認事項で結論に至るため、無理にフローチャート化せず、それぞれタブレット操作・タイムライン・受け渡しの場面をそのまま描く配置図型で独立に図解した。
+イ・エは、いずれも「取下げ・却下の場面で何が誰にどう扱われるか」を複数の分岐で判定する必要があるため、決定木（フローチャート）として図解した。ア・ウ・オは単一の確認事項で結論に至るため、無理にフローチャート化せず、それぞれタブレット操作・タイムライン・受け渡しの場面をそのまま描く配置図型で独立に図解した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -304,7 +304,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 電子申請の取下げは電子的方法で行う
@@ -321,7 +321,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 オンラインで取下げ
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 完了後は完了証交付前でも取下げ不可
@@ -341,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 完了後は交付前でも不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 印紙は取下げから1年以内に再使用申出
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1年以内に再使用申出
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 申請書は還付不可、添付書面は原則還付
@@ -379,7 +379,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 添付書面のみ原則還付
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 代理人への却下決定書の交付で足りる

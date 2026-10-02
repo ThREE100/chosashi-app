@@ -324,7 +324,7 @@ Title (large, bold):
 詐術＝即・取消し不可、ではない
 
 Subtitle (smaller, centered):
-平成25年度 午後の部 第1問 肢ア－「相手が誤信したか」がカギ
+平成25年度 午後の部 第1問 ア－「相手が誤信したか」がカギ
 
 --- FLOWCHART ---
 
@@ -429,7 +429,7 @@ Title (large, bold):
 取消しの相手は、いつでもC
 
 Subtitle (smaller, centered):
-平成25年度 午後の部 第1問 肢エ－「意思表示の相手方」と「対抗要件」は別問題
+平成25年度 午後の部 第1問 エ－「意思表示の相手方」と「対抗要件」は別問題
 
 --- COMPARISON ---
 
@@ -504,7 +504,7 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
 肢 is resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Panels 3（肢ウ）and 5（肢オ）share
+sufficient — do not force a flowchart. Panels 3（ウ）and 5（オ）share
 a common underlying pattern: 一定の行為（催告への無回答・異議なき履行の
 受領）があれば追認が自動的に擬制されるという構造なので、両パネルとも
 「時間が経過する時計アイコン」から「自動的に追認スタンプが押される」と
@@ -550,7 +550,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 詐術があっても相手が悪意なら別
@@ -576,7 +576,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 知ってた相手には詐術無効
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 同意の有無だけを見ればいい
@@ -594,7 +594,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 同意があれば追認可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 無回答は自動的に追認とみなす
@@ -612,7 +612,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 無回答→追認みなし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 取消しの相手は常にC、Dは別問題
@@ -632,7 +632,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 転得者への通知不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 成年後に黙って受け取れば追認扱い
@@ -668,8 +668,8 @@ visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢（肢ア・
-肢オ）is drawn as an actual flowchart with branch nodes (not a bare
+between the header and the panels, that every multi-condition 肢（ア・
+オ）is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary

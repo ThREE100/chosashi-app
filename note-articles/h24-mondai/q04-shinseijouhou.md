@@ -85,7 +85,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・正解番号（3番＝イ・ウ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。土地家屋調査士試験対策アプリのデータベースは本問について肢の文言がおおむね公式原本と一致していましたが、本記事では公式原本の記載を一次情報源としています。
 - `note-articles/laws/`のローカル法令データベース（不動産登記法・令・別表、e-Gov現行法2026-08-04取得）で全肢の条文原文を確認済みです。ア＝不動産登記法35条（登記所が地番を付す）・不動産登記令3条7号ロ（表題登記申請時は地番を申請情報から除外）、ウ＝不動産登記令3条12号、エ＝不動産登記令3条2号（代表者氏名は申請情報の記載事項）・不動産登記法27条（表題部の記録事項に代表者氏名は含まれない）、オ＝不動産登記令別表8の項イ（分筆後の土地の所在も申請情報の内容）は、いずれも条文の文言そのままの内容です。イ（地役権図面の番号の記載省略）についても、不動産登記令別表8の項の添付情報・申請情報の規定内容と整合しますが、「旧図面番号の記載を要しない」という消極的な事実そのものを明文で述べた条文までは確認できていないため、条文構造からの推論にとどめています。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「申請情報」がテーマの問題を確認しました。申請情報の記載事項は不動産登記法分野の頻出テーマですが、本問の具体的な肢の組み合わせ（土地の表題登記における地番の記載要否、承役地分筆時の地役権図面番号の記載省略、合筆時の登記識別情報提供不能の理由記載、法人代表者氏名の登記記録への不記録、分筆後の土地の所在記載義務）と完全に一致する出題は見つかりませんでした。なお、肢イに関連する地役権図面の提供義務については、令和6年度第10問（地役権図面）で類似の論点が扱われており、あわせて参照すると理解が深まります。**内容の完全な重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「申請情報」がテーマの問題を確認しました。申請情報の記載事項は不動産登記法分野の頻出テーマですが、本問の具体的な肢の組み合わせ（土地の表題登記における地番の記載要否、承役地分筆時の地役権図面番号の記載省略、合筆時の登記識別情報提供不能の理由記載、法人代表者氏名の登記記録への不記録、分筆後の土地の所在記載義務）と完全に一致する出題は見つかりませんでした。なお、イに関連する地役権図面の提供義務については、令和6年度第10問（地役権図面）で類似の論点が扱われており、あわせて参照すると理解が深まります。**内容の完全な重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -248,9 +248,9 @@ actual decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 3
-（肢ウ）is the only 肢 in this problem that turns on an explicit yes/no
+（ウ）is the only 肢 in this problem that turns on an explicit yes/no
 check（登記識別情報を提供できるか）, so it alone is drawn with a single
-diamond branch node; Panel 4（肢エ）is drawn as a side-by-side comparison
+diamond branch node; Panel 4（エ）is drawn as a side-by-side comparison
 of two different things being confused（申請情報の記載事項 と 登記記録の記
 録事項）rather than a flowchart, since the point is telling apart two
 different categories, not checking conditions in sequence; the remaining
@@ -301,7 +301,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 地番は申請人でなく登記官が決める
@@ -320,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地番は記載不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 旧地役権図面の番号までは記載不要
@@ -340,7 +340,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 新図面のみ提供
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 提供できない理由も申請情報に書く
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 理由の記載が必須
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 代表者氏名は登記記録の表題部に載らない
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表題部には載らない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分筆後の所在も省略せず記載する
@@ -412,9 +412,9 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢ウ is drawn as an actual
+between the header and the panels, that ウ is drawn as an actual
 decision flowchart with a visible diamond branch node (not a bare
-illustration with no visible decision structure), that 肢エ is drawn as a
+illustration with no visible decision structure), that エ is drawn as a
 clear side-by-side comparison of the two categories being confused rather
 than a flowchart, that each 着眼点 callout states a checking order rather
 than only a conclusion and keeps every required element from the source

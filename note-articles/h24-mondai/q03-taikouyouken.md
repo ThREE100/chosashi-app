@@ -102,9 +102,9 @@ AB間の売買契約をAが詐欺を理由に取り消した後、Bへの移転�
 - 出題年度・問題番号・肢の全文・正解番号（2番＝ア・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。土地家屋調査士試験対策アプリのデータベースは本問について肢の文言が正確に収録されていなかったため、本記事では参照していません。
 - ア・イ（当事者・相続人は177条の第三者に当たらないという判例法理）とオ（詐欺取消し後の第三者と対抗問題として処理する判例法理）は、いずれも確立した判例・通説として広く知られている内容ですが、本記事作成時点で個別の最高裁判例の年月日・判例番号までは特定できていません。ウ（中間省略登記合意と債権者代位の関係）についても、一般原則からの整理であり、直接の判例で確認したものではないため、断定を避けた表現にしています。より厳密な出典を求める場合は、判例検索や予備校教材での照合を推奨します。
 - **最新法令チェック（2026-08-06実施）**：エの根拠とした「登記請求権保全のための債権者代位権の転用」は、出題当時（平成24年）は判例上確立した法理として説明されるのが一般的でしたが、令和2年4月1日施行の民法（債権関係）改正により民法423条の7として明文化されていることをWeb検索で確認しました。出題当時の正誤判定・正解番号（2番＝ア・オ）自体は変わりませんが、本文の解説はこの明文化を反映するように修正しています。ア（177条の第三者非該当）・イ（相続人による地位承継）・オ（詐欺取消し後の第三者と対抗問題）については、177条および取消後の第三者に関する判例法理に影響する改正は見当たりませんでした。
-- **最新法令チェック追記（2026-08-08実施）**：`note-articles/laws/`のローカル法令データベース（e-Gov現行法、2026-08-04取得）で民法423条の7の条文原文を確認しました。「登記又は登録をしなければ権利の得喪及び変更を第三者に対抗することができない財産を譲り受けた者は、その譲渡人が第三者に対して有する登記手続又は登録手続をすべきことを請求する権利を行使しないときは、その権利を行使することができる。」とあり、本文で説明した肢エの内容と完全に一致します。あわせて民法177条・96条3項の条文原文も確認しました。96条3項（詐欺による取消しは善意無過失の第三者に対抗できない旨）は、その文言上、取消し前に登場した第三者を保護する規定であり、肢オのように取消し後に登場した第三者Cには及ばないため、肢オを177条の対抗問題として処理する本文の説明は条文上も整合しています。
+- **最新法令チェック追記（2026-08-08実施）**：`note-articles/laws/`のローカル法令データベース（e-Gov現行法、2026-08-04取得）で民法423条の7の条文原文を確認しました。「登記又は登録をしなければ権利の得喪及び変更を第三者に対抗することができない財産を譲り受けた者は、その譲渡人が第三者に対して有する登記手続又は登録手続をすべきことを請求する権利を行使しないときは、その権利を行使することができる。」とあり、本文で説明したエの内容と完全に一致します。あわせて民法177条・96条3項の条文原文も確認しました。96条3項（詐欺による取消しは善意無過失の第三者に対抗できない旨）は、その文言上、取消し前に登場した第三者を保護する規定であり、オのように取消し後に登場した第三者Cには及ばないため、オを177条の対抗問題として処理する本文の説明は条文上も整合しています。
 - **初学者向け説明の追記（2026-08-18実施）**：本問は民法（問1〜問3）に該当するため、更新済みの執筆ルールに沿って、初学者に馴染みのない法律用語（「対抗要件」「第三者」「代位」「復帰的物権変動」）が初出する箇所に、平易な言葉での言い換え・補足説明を追記しました。結論・正解番号に変更はありません。
-- **肢オの対比説明の追記（2026-09-29実施）**：⑤作図ガイド型インフォグラフィックのダブルチェックを受け、肢オの本文に、第三者Cが「取消し前」に登場した場合（民法96条3項により、Cの善意無過失の有無で判断され、登記の有無は無関係）との対比を追記しました。96条3項の条文原文（「前二項の規定による詐欺による意思表示の取消しは、善意でかつ過失がない第三者に対抗することができない。」、`note-articles/laws/minpou-1-soukyoku-bukken.md`収録）を確認済みです。肢オ自体が問うているのは「取消し後」の場面であり、正誤判定・正解（アオ＝選択肢2番）に変更はありません。
+- **オの対比説明の追記（2026-09-29実施）**：⑤作図ガイド型インフォグラフィックのダブルチェックを受け、オの本文に、第三者Cが「取消し前」に登場した場合（民法96条3項により、Cの善意無過失の有無で判断され、登記の有無は無関係）との対比を追記しました。96条3項の条文原文（「前二項の規定による詐欺による意思表示の取消しは、善意でかつ過失がない第三者に対抗することができない。」、`note-articles/laws/minpou-1-soukyoku-bukken.md`収録）を確認済みです。オ自体が問うているのは「取消し後」の場面であり、正誤判定・正解（アオ＝選択肢2番）に変更はありません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「対抗要件」「177条」等がテーマの問題を確認しました。対抗要件（民法177条）は不動産登記法分野の基本論点として毎年のように出題されていますが、本問の具体的事実関係（甲土地がA→B→Cと順次譲渡され、かつAB間の詐欺取消し後にB→Cの譲渡があった場合の対抗問題）と一致する出題は見つかりませんでした。**重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -249,7 +249,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（肢ごと・初学者向け）
 
-肢ア〜オのそれぞれについて、登場人物（A・B・C等）の関係と結論を1シーンで図解した、単独で使える解説図のプロンプト。上記「問題全体」のポスター（1枚に5肢を圧縮したもの）とは別に、本文中のその肢の解説の直後に挿入して使うことを想定しており、圧縮ポスターのカードより人物の位置関係やラベルをやや詳しく見せてよい（ただしフルセンテンスの説明文は入れない）。
+ア〜オのそれぞれについて、登場人物（A・B・C等）の関係と結論を1シーンで図解した、単独で使える解説図のプロンプト。上記「問題全体」のポスター（1枚に5肢を圧縮したもの）とは別に、本文中のその肢の解説の直後に挿入して使うことを想定しており、圧縮ポスターのカードより人物の位置関係やラベルをやや詳しく見せてよい（ただしフルセンテンスの説明文は入れない）。
 
 ### ア：元の譲渡人には登記なしで対抗できる
 
@@ -576,7 +576,7 @@ after it (a rescinded-contract-with-回帰矢印 icon, governed by 177条の
 before reaching a conclusion, draw the panel's diagram as an actual
 decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
-conclusion node. Only Panel 5（肢オ）needs this treatment: it first
+conclusion node. Only Panel 5（オ）needs this treatment: it first
 branches on WHEN the third者 appeared (before or after the取消し), and
 each of those two branches then has its own separate follow-up check (善
 意無過失の有無 for the "before" branch, 登記の有無 for the "after"
@@ -628,7 +628,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 元の譲渡人は「第三者」に当たらない
@@ -645,7 +645,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 元の譲渡人には対抗可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続人も「第三者」に当たらない
@@ -663,7 +663,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相続人にも対抗可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 合意は登記請求権を消さない
@@ -686,7 +686,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代位行使は妨げられない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 特定の権利を守るための代位も可能
@@ -704,7 +704,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代位は認められる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 登場が取消しの前か後かを確認
@@ -714,14 +714,14 @@ First diamond node (drawn with a thick highlighted border, since both
 outcomes matter equally): 第三者Cが登場したのは、取消しの前か後か？with
 two branches. The 前 branch (drawn in a slightly muted but still fully
 legible color, since this is contrast context rather than the fact
-pattern 肢オ itself tests) leads to a small heading label 取消し前の第三
+pattern オ itself tests) leads to a small heading label 取消し前の第三
 者（96条3項の場面）and a second diamond node: Cは善意無過失か？with the
 はい branch leading to a green checkmark and a conclusion node reading A
 は取消しをCに対抗できない（Cが確定的に所有権を取得、登記の有無は無関
 係）; the いいえ branch leading to a red cross mark and a conclusion node
 reading Aは取消しをCに対抗できる. The 後 branch (drawn with a thick
 highlighted border and full, saturated color, since this is the fact
-pattern 肢オ actually tests) leads to a small heading label 取消し後の第
+pattern オ actually tests) leads to a small heading label 取消し後の第
 三者（177条の場面）and a third diamond node: Cは自己への所有権移転登記
 を備えているか？with the いいえ branch leading to a red cross mark and a
 conclusion node reading Aに対し所有権を主張できない; the はい branch
@@ -752,7 +752,7 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that Panel 5（肢オ）is drawn as an
+between the header and the panels, that Panel 5（オ）is drawn as an
 actual flowchart with three branch nodes total (the first diamond
 branching on 取消し前後, each of its two branches leading to its own
 second diamond and complete conclusion node — the 前 branch must NOT be

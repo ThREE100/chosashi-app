@@ -307,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 自書の要件を満たすかを確認する
@@ -323,7 +323,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 自書として有効
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 証人になれない者の一覧に照らす
@@ -339,7 +339,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 証人になれない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 証書が同一かどうかを確認する
@@ -356,7 +356,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 共同遺言は禁止
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 委託できるかを条文で確認する
@@ -372,7 +372,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 委託できる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 前後の遺言の抵触部分を見分ける

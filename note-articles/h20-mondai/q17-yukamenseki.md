@@ -246,15 +246,15 @@ jutting out from its wall, a building with visibly slanted exterior
 walls, a two-story house with a void (吹抜け) reaching from the 1st floor
 up to the 2nd floor ceiling, a dome-roofed stadium with an openable roof,
 and two separate high-rise buildings connected by an elevated corridor.
-Panel 1（肢ア）requires checking two conditions in sequence (the bay
+Panel 1（ア）requires checking two conditions in sequence (the bay
 window's height, AND whether its base is level with the floor) before
 reaching a conclusion, so draw it as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, はい/いいえ
 branch arrows, and a separate conclusion node for each "いいえ" branch as
-well as the final "はい" branch. Panel 4（肢エ）is not a multi-step check but
+well as the final "はい" branch. Panel 4（エ）is not a multi-step check but
 a common thinking trap, so draw it as a LEFT/RIGHT comparison between the
 mistaken intuition and the correct rule rather than a flowchart. Panels 2・
-3・5（肢イ・肢ウ・肢オ）are each resolved by a single check, so draw a
+3・5（イ・ウ・オ）are each resolved by a single check, so draw a
 labeled illustrative diagram for them instead of forcing a flowchart. Do
 not include case or precedent numbers (article/regulation numbers are
 fine); keep the callout text as written below verbatim, and keep every
@@ -297,7 +297,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line):
 出窓は高さと床の高さを両方確認する
@@ -319,7 +319,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 両方満たせば算入
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line):
 傾いた壁は床に接する高さで中心線を引く
@@ -336,7 +336,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 床に接する中心線
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line):
 上階まで続く吹抜には床が存在しない
@@ -354,7 +354,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 床がなく不算入
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line):
 屋根の開閉は床面積の算入と無関係
@@ -375,7 +375,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 屋根の開閉は無関係
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line):
 2棟をつなぐ通路は独立した用途を持たない

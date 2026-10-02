@@ -242,7 +242,7 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panels 1 and 4 (肢ア・肢エ) share the same
+— do not force a flowchart. Panels 1 and 4 (ア・エ) share the same
 underlying decision-tree shape (被代襲者の子と被相続人との間に法律上の
 親族関係（血族関係）があるか確認）; draw both with the same one-diamond
 tree layout, but highlight（太い縁取り・色を変える等で強調）the branch
@@ -290,7 +290,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 養子は血族関係の有無で確認する
@@ -310,7 +310,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 血族関係があれば代襲
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 胎児は「生きて生まれたか」を確認
@@ -328,7 +328,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 出生で代襲成立
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 廃除が代襲原因かをまず確認する
@@ -343,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 廃除は代襲原因
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 配偶者の連れ子は血縁関係を確認
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 血縁なしは対象外
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 直系尊属は代襲でなく固有の権利

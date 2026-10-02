@@ -443,7 +443,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -464,7 +464,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 土地50年・建物30年
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 つづり込み帳は作成の翌年から5年で満了する
@@ -485,7 +485,7 @@ in this topic.
 Conclusion tag (green, 5-15 Japanese characters):
 翌年起算で5年のみ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 各階平面図は現用なら永久、閉鎖後は30年
@@ -507,7 +507,7 @@ or any other part of the diagram.
 Conclusion tag (green, 5-15 Japanese characters):
 現用は永久、閉鎖後30年
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 筆界特定書は永久、それ以外は翌年から30年
@@ -526,7 +526,7 @@ the start of the count.
 Conclusion tag (green, 5-15 Japanese characters):
 以外の記録は翌年30年
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 更正登記の申請書は受付の日から30年保存される
@@ -555,7 +555,7 @@ attention to 号・録・登・記・建・物・所・続・地・閉・鎖・�
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that panel 3 (肢ウ) is drawn as an
+between the header and the panels, that panel 3 (ウ) is drawn as an
 actual flowchart with a diamond branch node and two distinct conclusion
 nodes (not a bare illustration with no visible decision structure), that
 no panel with a genuinely single-check 肢 (ア・イ・エ・オ) has been forced

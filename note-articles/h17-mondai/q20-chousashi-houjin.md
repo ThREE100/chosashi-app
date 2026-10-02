@@ -179,7 +179,7 @@ Subtitle (smaller, centered, 1行):
 --- COLUMN A HEADER (pill-shaped badge, color: blue) ---
 正しい手続・義務
 
---- COLUMN A, CARD 1（肢ア） ---
+--- COLUMN A, CARD 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 移転時は経由して連合会へ申請
@@ -191,7 +191,7 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 経由して連合会へ
 
---- COLUMN A, CARD 2（肢イ） ---
+--- COLUMN A, CARD 2（イ） ---
 Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 受任前に報酬基準をあらかじめ示す
@@ -201,7 +201,7 @@ positioned before a contract-signing icon, showing the order of events.
 Conclusion tag (soft blue, 5-15 Japanese characters):
 あらかじめ示す義務
 
---- COLUMN A, CARD 3（肢エ） ---
+--- COLUMN A, CARD 3（エ） ---
 Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 調査士法人は定款で業務を追加できる
@@ -214,7 +214,7 @@ Conclusion tag (soft blue, 5-15 Japanese characters):
 --- COLUMN B HEADER (pill-shaped badge, color: red) ---
 間違えやすい年数・所属先
 
---- COLUMN B, CARD 4（肢ウ） ---
+--- COLUMN B, CARD 4（ウ） ---
 Badge: a filled circle in soft red containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 事件簿の保存は5年でなく7年
@@ -225,7 +225,7 @@ and an arrow points instead to a badge reading「7年」.
 Conclusion tag (soft red, 5-15 Japanese characters):
 7年間保存が必要
 
---- COLUMN B, CARD 5（肢オ） ---
+--- COLUMN B, CARD 5（オ） ---
 Badge: a filled circle in soft red containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 常駐は、その事務所の管轄会員
@@ -254,7 +254,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 ## インフォグラフィック プロンプト（作図ガイド）
 
 各記述を読んだ瞬間に「まず何を確認し、次に何を確認して、どんな図にたどり
-着くか」を追体験できるよう、肢ア〜5の5つの記述分の作図ガイドパネルを1枚に
+着くか」を追体験できるよう、ア〜5の5つの記述分の作図ガイドパネルを1枚に
 まとめた。②の結論カードポスターとは別物として作成し、②の内容は変更して
 いない。
 
@@ -328,7 +328,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -347,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 経由して連合会へ
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 受任前か受任後かを先に確認する
@@ -363,7 +363,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 受任前に提示必須
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in red containing the number 3.
 Heading (bold, ONE line):
 事件簿の保存期間は現行法では7年
@@ -381,7 +381,7 @@ Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
 現行法では7年間保存
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 定款に業務追加の定めがあるかを確認する
@@ -397,7 +397,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 定款の定めで追加可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in red containing the number 5.
 Heading (bold, ONE line):
 常駐する社員はどの事務所基準かを確認する

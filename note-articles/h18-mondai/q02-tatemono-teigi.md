@@ -291,21 +291,21 @@ actual decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
 node. Where a 肢 is resolved by a single check, a labeled illustrative
 diagram or a correct-rule-versus-common-mistake contrast panel is
-sufficient - do not force a flowchart. Panels 1 and 5 (肢ア・肢オ) share
+sufficient - do not force a flowchart. Panels 1 and 5 (ア・オ) share
 one horizontal life-cycle timeline of a building, marked with two
 threshold points - marker① labeled 屋根・周壁の完成 (the start of its life
 as an independent immovable) and marker② labeled 解体 (the end of its life
 as an immovable); each panel highlights (thick border, full color) only
 the marker relevant to that panel and renders the other marker in a
 faded, greyed-out, dotted-outline style rather than omitting it. In Panel
-2 (肢イ), because the "ownership" of a building part lacking structural
+2 (イ), because the "ownership" of a building part lacking structural
 and functional independence never really exists as a separate object,
 render that would-be ownership as a faded, dotted-outline ghost icon
 rather than a plain ✕ mark, so the visual communicates "this was never
-really there," not just "this is wrong." Panel 3 (肢ウ) must be drawn as a
+really there," not just "this is wrong." Panel 3 (ウ) must be drawn as a
 two-diamond flowchart, keeping "賃料債権も物上代位の対象になるか" and "被
 担保債権について債務不履行が生じた後か" as two separate diamond nodes,
-since the second condition is easy to overlook. Panel 4 (肢エ) uses a
+since the second condition is easy to overlook. Panel 4 (エ) uses a
 correct-rule-versus-common-mistake contrast layout instead of a
 flowchart, since this 肢 tests precise reading of the relationship between
 a building and its borrowed-land right rather than a multi-step
@@ -353,7 +353,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 屋根・周壁の完成が独立不動産の始期
@@ -375,7 +375,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 屋根・周壁で不動産に
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 独立性のない部分の所有権は観念できない
@@ -398,7 +398,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 独立性なければ観念不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in beige containing the number 3.
 Heading (bold, ONE line):
 賃料への物上代位は債務不履行後に限る
@@ -422,7 +422,7 @@ Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
 characters):
 不履行後に賃料へ代位
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 借地権は「別個の権利」ではなく従たる権利
@@ -445,7 +445,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 従たる権利として移転
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 解体が独立不動産の終期
@@ -482,9 +482,9 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image. Confirm
 the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that Panels 1 and 5 (肢ア・肢オ) clearly
+between the header and the panels, that Panels 1 and 5 (ア・オ) clearly
 distinguish their own highlighted timeline marker from the other, faded
-marker, that Panel 3 (肢ウ) is drawn as an actual flowchart with two
+marker, that Panel 3 (ウ) is drawn as an actual flowchart with two
 distinct diamond nodes rather than collapsing the debt-default timing
 condition into the first check, that Panel 2's faded ownership icon and
 Panel 4's correct-rule-versus-common-mistake contrast are not replaced

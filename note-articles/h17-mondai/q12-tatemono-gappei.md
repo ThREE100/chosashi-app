@@ -267,7 +267,7 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 5（肢オ）is a decision tree where BOTH branches carry
+flowchart. Panel 5（オ）is a decision tree where BOTH branches carry
 real, distinct legal conclusions: draw a diamond node 合併しようとする
 建物に共用部分である旨の登記（または団地共用部分である旨の登記）がある
 か？with a「はい」branch（このパネルの主眼のため太い縁取り・フルカラー
@@ -323,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 敷地の名義人違いでなく建物の名義を見る
@@ -343,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 敷地名義は無関係
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 死亡後は相続人が自己の名で合併登記を申請
@@ -361,7 +361,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 相続登記は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 賃借権は合併の例外に当たらない
@@ -385,7 +385,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 賃借権は例外の対象外
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 区分合併は接続のみで主従関係は不要
@@ -408,7 +408,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 区分合併は接続のみで足りる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 共用部分の登記があれば主従関係でも不可
@@ -432,9 +432,9 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法56条1号（肢オ）・2号（肢ア）・5号（肢ウ）、不動産登記規則
-131条（肢ウの例外は担保権・信託のみ）、不動産登記法30条（肢イ）、不動
-産登記法54条1項3号・不動産登記事務取扱手続準則86条2号（肢エ、附属合
+不動産登記法56条1号（オ）・2号（ア）・5号（ウ）、不動産登記規則
+131条（ウの例外は担保権・信託のみ）、不動産登記法30条（イ）、不動
+産登記法54条1項3号・不動産登記事務取扱手続準則86条2号（エ、附属合
 併と区分合併で異なる要件）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is

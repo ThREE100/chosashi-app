@@ -344,7 +344,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1 (肢ア) ---
+--- PANEL 1 (ア) ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -373,7 +373,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記を受けた日から1か月
 
---- PANEL 2 (肢イ) ---
+--- PANEL 2 (イ) ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 抵当権の4項目がすべて同一なら持分の記載を省略できる
@@ -415,7 +415,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 4項目一致なら持分省略可
 
---- PANEL 3 (肢ウ) ---
+--- PANEL 3 (ウ) ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 合体による登記等は共有者の1人だけで申請できる
@@ -443,7 +443,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 どちらか1人で申請可
 
---- PANEL 4 (肢エ) ---
+--- PANEL 4 (エ) ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 賃借権は持分の上に登記できないので移記されない
@@ -470,7 +470,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 賃借権は移記されない
 
---- PANEL 5 (肢オ) ---
+--- PANEL 5 (オ) ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 主たる建物と附属建物の合体は表題部の変更登記で処理する

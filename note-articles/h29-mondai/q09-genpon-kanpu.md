@@ -236,7 +236,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イは、不動産登記規則55条1項ただし書が定める「原本還付の対象外となる書面」の判定枠組みを共有する2段階の決定木として描き、それぞれ自分に関係する分岐だけを強調する構成にした。肢ウは相続関係説明図という図解教材そのものを主役にした系統図型、肢エはタイムライン型、肢オは配置図型で、それぞれ独立に図解した。
+ア・イは、不動産登記規則55条1項ただし書が定める「原本還付の対象外となる書面」の判定枠組みを共有する2段階の決定木として描き、それぞれ自分に関係する分岐だけを強調する構成にした。ウは相続関係説明図という図解教材そのものを主役にした系統図型、エはタイムライン型、オは配置図型で、それぞれ独立に図解した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -259,7 +259,7 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panel 1 (肢ア) and Panel 2 (肢イ) share one
+— do not force a flowchart. Panel 1 (ア) and Panel 2 (イ) share one
 two-step decision tree built from 不動産登記規則55条1項ただし書: diamond 1
 「その申請のためだけに作成された書面か」, diamond 2「印鑑証明書のうち、
 申請人等自身の証明書、または第三者の同意・承諾を証する書面に添付された
@@ -312,7 +312,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 第三者作成書面の印鑑証明書は還付できる
@@ -333,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 第三者の証明書は還付可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 本人確認情報は申請専用で還付できない
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 申請専用書類は還付不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 相続関係説明図を添えれば戸籍謄本は還付できる
@@ -369,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 説明図添付で還付可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 登記識別情報の書面は廃棄され還付不可
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 完了後に廃棄され還付不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 申出があれば郵送でも原本を還付できる

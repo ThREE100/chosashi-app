@@ -260,7 +260,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（オ肢・間違いノート）
 
-肢オで読者がつまずきやすいのは、「返還請求は、今実際にその物を持っている人にするもの」という思い込みで思考が止まり、貸し出しただけで直接は物を持っていないBさんへの請求を見落としてしまう点です。占有には直接占有と代理占有（民法181条）の2種類があり、代理占有者も「占有者」として返還請求の相手方になるという2段階の判定過程を、決定木の形で示します。
+オで読者がつまずきやすいのは、「返還請求は、今実際にその物を持っている人にするもの」という思い込みで思考が止まり、貸し出しただけで直接は物を持っていないBさんへの請求を見落としてしまう点です。占有には直接占有と代理占有（民法181条）の2種類があり、代理占有者も「占有者」として返還請求の相手方になるという2段階の判定過程を、決定木の形で示します。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -345,12 +345,12 @@ highlighted in green):
 「代理占有」（民法181条）があり、代理占有をしている人も「占有者」として
 返還請求の相手方になります。
 
---- COMPARISON: 同じ問題の肢イとの違い ---
-Left panel (heading「肢イ：直接占有者だけが登場する場面」):
+--- COMPARISON: 同じ問題のイとの違い ---
+Left panel (heading「イ：直接占有者だけが登場する場面」):
 不法占有者C本人が土地に住み着いているだけの単純な場面。Cへの直接請求のみ
 が問題になる。
 
-Right panel (heading「肢オ：代理占有者Bも登場する応用パターン」):
+Right panel (heading「オ：代理占有者Bも登場する応用パターン」):
 Cに加えて、Cに使わせているだけのBも登場する。Cへの直接請求だけでなく、
 Bへの請求（代理占有者への請求）まで問われる。
 
@@ -387,7 +387,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — a land plot with a storage shed for 時効・故意
 過失 panels, an unregistered land-purchase document for 対抗要件, a
 courthouse icon for 反訴, and a building with two occupant figures
-（直接占有者・代理占有者）for the 賃貸人への請求 panel. Panel 5 (肢オ) turns
+（直接占有者・代理占有者）for the 賃貸人への請求 panel. Panel 5 (オ) turns
 on a two-step check（占有には直接占有と代理占有の2種類があること、代理
 占有者も「占有者」として返還請求の相手方になること）, so draw it as an
 check flow of two rectangular boxes (no diamonds); this same distinction is
@@ -396,7 +396,7 @@ image, so keep this panel's flowchart compact and consistent with — but
 simpler than — that fuller version. This article's 5 肢 do not share a
 common fact pattern with each other, so there is no shared tree shape to
 reuse across panels; design each panel independently. Where a 肢 is
-resolved by a single check (肢ア・肢イ・肢ウ・肢エ), a labeled illustrative
+resolved by a single check (ア・イ・ウ・エ), a labeled illustrative
 diagram is sufficient — do not force a flowchart. Unlike a glanceable
 summary poster, each panel MAY include a short「着眼点」callout box with
 1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
@@ -439,7 +439,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 所有権がある限り時効で消えない
@@ -458,7 +458,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 何年でも消えない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 登記がなくても不法占有者に勝てる
@@ -474,7 +474,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 対抗要件不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 故意・過失がなくても妨害排除できる
@@ -490,7 +490,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 主観要件は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 占有の訴えにも所有権で反訴できる
@@ -507,7 +507,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 別訴訟で反撃
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 貸しただけの人にも返還請求できる
@@ -530,7 +530,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法181条（代理占有）に基づく整理です。肢ア・ウ・エ・オの結論のうち条文
+民法181条（代理占有）に基づく整理です。ア・ウ・エ・オの結論のうち条文
 に直接の定めがない部分は、判例・学説上確立した原則によるものです。
 
 Final check before rendering: scan every kanji glyph and confirm it is
@@ -540,7 +540,7 @@ character renders as a Simplified or Traditional Chinese variant, redraw that ch
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that the
-multi-condition 肢 (肢オ) is drawn as an actual flowchart with branch
+multi-condition 肢 (オ) is drawn as an actual flowchart with branch
 nodes (not a bare illustration with no visible decision structure), that
 each 着眼点 callout states a checking order rather than only a conclusion,
 confirm nothing is rendered below the last panel's footnote text (no

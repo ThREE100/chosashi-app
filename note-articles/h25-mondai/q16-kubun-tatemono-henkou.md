@@ -303,7 +303,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 共通事項は一人の申請で足りる
@@ -328,7 +328,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一人の申請で足りる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 建物名称の提供で記載を省略できる
@@ -350,7 +350,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 名称提供で省略可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 敷地権消滅の変更登記に期限規定なし
@@ -372,7 +372,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 1か月の期限なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 所在変更の登記には新しい建物図面が必要
@@ -390,7 +390,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 変更後建物図面が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 移転登記が済むまで申請義務なし
@@ -429,10 +429,10 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢 (肢ア・
-肢イ・肢オ) is drawn as an actual flowchart with branch nodes (not a bare
+between the header and the panels, that every multi-condition 肢 (ア・
+イ・オ) is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that no 肢 with a
-genuinely hidden second condition (肢オ's registration-name requirement)
+genuinely hidden second condition (オ's registration-name requirement)
 has been flattened into a single check, that each 着眼点 callout states a
 checking order rather than only a conclusion and keeps every required
 element from the source article distinct (no merged or dropped

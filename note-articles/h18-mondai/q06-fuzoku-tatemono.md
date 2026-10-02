@@ -359,7 +359,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 3条件そろえば合併可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 各階平面図は新設分、建物図面は全体
@@ -406,7 +406,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 図面ごとに範囲が違う
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 附属建物の取壊しに抵当権者の承諾は不要
@@ -427,7 +427,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾書は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 建築の前後は附属建物の要件ではない
@@ -448,7 +448,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 建築時期は無関係
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 主である建物が移った先が管轄になる

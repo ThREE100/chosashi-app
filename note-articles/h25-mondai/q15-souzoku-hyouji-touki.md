@@ -318,7 +318,7 @@ Title (large, bold, 2行):
 申請できる？
 
 Subtitle (smaller, centered, 1行):
-平成25年度 午後の部 第15問 肢ウ－申請適格の判定フロー
+平成25年度 午後の部 第15問 ウ－申請適格の判定フロー
 
 （タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
 導入文のブロックは置かない。）
@@ -414,12 +414,12 @@ different categories of document rather than a sequence of checks. Where
 a 肢 requires checking multiple conditions in sequence before reaching a
 conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
-(or ○/✕) branch arrows, and a final conclusion node. Panel 3（肢ウ）must be
+(or ○/✕) branch arrows, and a final conclusion node. Panel 3（ウ）must be
 drawn as a genuine 原則→例外 two-step flowchart (a diamond node asking
 whether the exception's documents are available, branching to a 原則
 result and an 例外 result), because a naive reading of this 肢 stops at
 the exception alone and misses that the exception only applies on top of
-a default rule requiring all co-heirs. Panel 4（肢エ）must be drawn as a
+a default rule requiring all co-heirs. Panel 4（エ）must be drawn as a
 side-by-side comparison frame (左右2枠) rather than a decision tree, since
 its difficulty is not a sequence of checks but distinguishing two
 different categories of document that follow different rules. Where a 肢
@@ -470,7 +470,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 被相続人名義のまま表題登記を申請可
@@ -486,7 +486,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 被相続人名義で申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続人一人なら自分の分の証明で足りる
@@ -504,7 +504,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全員分は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 書類があれば相続人一人も申請可
@@ -530,7 +530,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 過半数または協議書で可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 遺産分割協議書は謄本省略の対象外
@@ -551,7 +551,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 謄本の提出が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 死亡前の滅失登記も相続人一人で可
@@ -584,12 +584,12 @@ Hangul, other non-Japanese script, or stray decorative glyph — and remove
 or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that 肢ウ is drawn as an actual two-step
+the header and the panels, that ウ is drawn as an actual two-step
 flowchart with two branch nodes (not a bare illustration with no visible
 decision structure), each with both its はい and いいえ branch ending at its own
 conclusion, and that its genuinely hidden second condition（持分の過半数に
 届かない場合に限り、遺産分割協議書＋分筆図等による取得相続人からの申請を確認すること）
-has not been flattened into a single check, that 肢エ's side-by-side comparison frame
+has not been flattened into a single check, that エ's side-by-side comparison frame
 clearly keeps the two different document categories visually distinct
 rather than merging them into one flowchart, that each 着眼点 callout
 states a checking order rather than only a conclusion and keeps every

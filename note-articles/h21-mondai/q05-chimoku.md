@@ -85,10 +85,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題の年度・問題番号・正解番号（2番＝ア・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json＝法務省公式正答を格納）で確認済みです。
 - なお、アプリDBの補足解説（approach）には各肢の正誤の取り違えがあった（正しいのは「アエ」であるところを「エオ」としていた）ため、公式正答に基づいて各肢を判定し直したうえで解説しています。
-- 各肢の条文根拠のうち、地目が所在・地番・地積とともに土地の表題部の登記事項であること（**不動産登記法34条1項**、地目は同項3号）と、地目認定が客観的な現況・利用目的によること（不動産登記規則99条）は条文レベルで裏付けられます。一方、一筆一地目の原則（肢ウ）、中間地目を経ない直接の地目変更（肢エ）、仮換地における従前地の地目変更の可否（肢オ）は、現況主義および土地区画整理の仕組みという一般原則からの説明にとどまり、個別の条文番号までは断定していません。
+- 各肢の条文根拠のうち、地目が所在・地番・地積とともに土地の表題部の登記事項であること（**不動産登記法34条1項**、地目は同項3号）と、地目認定が客観的な現況・利用目的によること（不動産登記規則99条）は条文レベルで裏付けられます。一方、一筆一地目の原則（ウ）、中間地目を経ない直接の地目変更（エ）、仮換地における従前地の地目変更の可否（オ）は、現況主義および土地区画整理の仕組みという一般原則からの説明にとどまり、個別の条文番号までは断定していません。
 - ローカルのアガルート教材については、実行環境に当該フォルダが存在せず参照できなかったため、今回は反映していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（地目の意義・23種類の地目区分と認定基準・一筆一地目の原則・中間地目省略・仮換地上建物と従前地の地目という制度理解型の教授・学生対話形式問題）と同一・類似の問題が再出題されていないかを確認しました。平成30年度第9問も地目に関する教授・学生の対話形式ですが、個別地目（雑種地・学校用地・宅地等）のペア比較を問う内容で論点構成が異なるため、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文を現行法（2026年8月時点）と照合しました。地目を23種類に区分する不動産登記規則99条は現行のままで（太陽光発電施設の敷地なども新設地目ではなく「雑種地」として扱われます）、**各肢の正誤の結論に変更はありません**。あわせて、肢アの根拠条文を訂正しました。従前は「不動産登記法27条」と記載していましたが、27条は表示に関する登記に共通する登記原因等の登記事項を定める規定であって地目の直接の根拠ではないため誤りで、地目が所在・地番・地積とともに土地の表題部の登記事項であることの根拠は**不動産登記法34条1項（地目は同項3号）**です。本文とまとめの該当箇所を34条1項3号に改めました。なお、地目の具体的な認定基準は不動産登記事務取扱手続準則68条・69条にも定められています。
+- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文を現行法（2026年8月時点）と照合しました。地目を23種類に区分する不動産登記規則99条は現行のままで（太陽光発電施設の敷地なども新設地目ではなく「雑種地」として扱われます）、**各肢の正誤の結論に変更はありません**。あわせて、アの根拠条文を訂正しました。従前は「不動産登記法27条」と記載していましたが、27条は表示に関する登記に共通する登記原因等の登記事項を定める規定であって地目の直接の根拠ではないため誤りで、地目が所在・地番・地積とともに土地の表題部の登記事項であることの根拠は**不動産登記法34条1項（地目は同項3号）**です。本文とまとめの該当箇所を34条1項3号に改めました。なお、地目の具体的な認定基準は不動産登記事務取扱手続準則68条・69条にも定められています。
 
 ---
 
@@ -240,7 +240,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-地目に関する各肢を、読者が問題文を読んだ瞬間にどう図解し、どの順番で条件を確認すれば正誤に辿り着けるかを示す作図ガイド。特に肢イ・肢ウは「前半は正しい説明、後半に誤った例外が続く」という複文構造を持つため、決定木で2段階に分けて可視化する。②の俯瞰カードポスターとは別物で、判定の手順そのものを可視化する構成。5パネル、portrait 1080×2600px。
+地目に関する各肢を、読者が問題文を読んだ瞬間にどう図解し、どの順番で条件を確認すれば正誤に辿り着けるかを示す作図ガイド。特にイ・ウは「前半は正しい説明、後半に誤った例外が続く」という複文構造を持つため、決定木で2段階に分けて可視化する。②の俯瞰カードポスターとは別物で、判定の手順そのものを可視化する構成。5パネル、portrait 1080×2600px。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -278,7 +278,7 @@ that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜�
 numbers (article/regulation numbers are fine); keep the callout text as
 written below verbatim, and keep every condition each callout describes
 faithful to the article's own body text — do not drop or merge a
-required element (e.g. keep the compound claim in 肢イ and 肢ウ split into
+required element (e.g. keep the compound claim in イ and ウ split into
 its accurate first half and its incorrect second half, rather than
 merging them into a single verdict).
 
@@ -319,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -338,7 +338,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表題部の登記事項
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 利用目的は所有者の主観でなく客観的な現況で決まる
@@ -365,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 主観では決まらない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 複合的用途でも「畑・雑種地」の複合地目は認められない
@@ -391,7 +391,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 複合地目は不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 現況主義により中間の地目を経ず直接変更登記できる
@@ -408,7 +408,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 直接変更できる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 仮換地に建物を建てても従前地の地目は変わらない
@@ -442,7 +442,7 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that panels 2 and 3 (肢イ・肢ウ) are
+between the header and the panels, that panels 2 and 3 (イ・ウ) are
 each drawn as an actual flowchart with branch nodes separating the
 accurate first half of the claim from its incorrect second half (not a
 bare illustration with no visible decision structure), that both outcomes

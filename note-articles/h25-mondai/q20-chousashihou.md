@@ -296,7 +296,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 代理も相談も正当な事由なく拒める
@@ -319,7 +319,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代理も相談も拒める
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 虚偽の調査測量は拘禁刑や罰金の対象
@@ -333,7 +333,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 拘禁刑・罰金の対象
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 地域慣習を学ぶ努力義務がある
@@ -350,7 +350,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 研鑽の努力義務
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 事務所は2以上設けられない
@@ -364,7 +364,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 事務所は1つまで
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 職印の定めは省令から会則への委任
@@ -400,8 +400,8 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-肢ア clearly shows two separate, distinct check points (代理業務と相談
-業務) rather than one merged check, that 肢オ is drawn as a sequential
+ア clearly shows two separate, distinct check points (代理業務と相談
+業務) rather than one merged check, that オ is drawn as a sequential
 delegation relay rather than forced into a diamond-branch flowchart, that
 each 着眼点 callout states a checking order rather than only a conclusion
 and keeps every required element from the source article distinct (no

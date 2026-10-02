@@ -318,7 +318,7 @@ Subtitle (smaller, centered, 1行):
 平成21年度 午後の部 第11問 作図ガイド（建物の合併の登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
-ブロックは置かない。本問は記述1から5までの単一選択式であり、肢ア〜オでは
+ブロックは置かない。本問は記述1から5までの単一選択式であり、ア〜オでは
 ないため、バッジ番号と記述番号を一致させる。バッジ・結論タグの色はすべて
 青で統一する。）
 
@@ -448,7 +448,7 @@ Chinese-only character, Korean Hangul, other non-Japanese script, or
 stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously and match the
-記述1〜5 numbering of this problem (not 肢ア〜オ), there is no intro
+記述1〜5 numbering of this problem (not ア〜オ), there is no intro
 illustration or paragraph block between the header and the panels, that
 panel 4 is drawn as an actual chain of four separate AND-condition
 diamond nodes (not one merged node) with every ✕ branch ending at its own

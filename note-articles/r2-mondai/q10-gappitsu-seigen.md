@@ -275,7 +275,7 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 4（肢エ）must be drawn as a side-by-side comparison
+flowchart. Panel 4（エ）must be drawn as a side-by-side comparison
 frame distinguishing 承役地についてする地役権の登記 from 要役地について
 する地役権の登記, because the whole point of this 肢 is telling the two
 apart; highlight（太い縁取り・フルカラーで強調）the box relevant to this
@@ -323,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 担保権登記の内容が完全に同一かを確認する
@@ -345,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 内容同一なら合筆可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地番区域が同じかを確認する
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 区域相違は合筆不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 信託目録の記録事項が同一かを確認する
@@ -381,7 +381,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 信託目録が同一なら可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 承役地の地役権か要役地の地役権かを見分ける
@@ -404,7 +404,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 要役地は例外外
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 所有権移転の仮登記の有無を確認する

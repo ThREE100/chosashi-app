@@ -332,7 +332,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有者証明情報が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 合併で消滅した会社の名義のまま申請する
@@ -371,7 +371,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 消滅会社の名義のまま
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 抵当権付き建物には承諾等の情報が必要
@@ -393,7 +393,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 抵当権者の承諾等が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 敷地権の有無に関係なく一棟まとめて申請
@@ -414,7 +414,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 敷地権の有無は無関係
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 他管轄の土地には登記事項証明書を添付
@@ -470,7 +470,7 @@ with no transparency or alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（イ肢・間違いノート）
 
-上記②・⑤とは別に、「補足説明（イ）」で説明した実務手順（B会社が自己名義で登記を得るための2段階の申請）の理解を助けるための、肢イ1枚に絞った間違いノート型の解説図解を追加した。読者が「表題登記をA会社名義でしか申請できない＝B会社は永久に自社名義の登記を持てない」と誤解しやすい点を、2段階フローチャートと「誤りやすいポイント」コールアウトで解消する構成にした。
+上記②・⑤とは別に、「補足説明（イ）」で説明した実務手順（B会社が自己名義で登記を得るための2段階の申請）の理解を助けるための、イ1枚に絞った間違いノート型の解説図解を追加した。読者が「表題登記をA会社名義でしか申請できない＝B会社は永久に自社名義の登記を持てない」と誤解しやすい点を、2段階フローチャートと「誤りやすいポイント」コールアウトで解消する構成にした。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -481,7 +481,7 @@ built as a single detailed explainer panel rather than a multi-card
 poster.
 
 MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
-specific point of confusion — readers who conclude from 肢イ that 「B会社
+specific point of confusion — readers who conclude from イ that 「B会社
 は合併で承継した権利を永久に自社名義で登記できない」, when in fact a
 two-step procedure lets B会社 obtain its own registration — not to be a
 glanceable summary. Unlike a quick-reference poster, this image MAY

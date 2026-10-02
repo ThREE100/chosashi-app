@@ -92,7 +92,7 @@
 - 各肢の根拠のうち、イ（担保権の合筆の例外は受付年月日・受付番号まで同一が必要）・エ（信託目録の事項が同一なら合筆可）は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-kisoku-1.md`で確認した不動産登記法41条6号・不動産登記規則105条の条文レベルで確認できたものです。ア（敷地権である旨の登記がある土地は合筆不可）についても、規則105条が引き継げる権利を「承役地の地役権・条件が同一の担保権・条件が同一の信託・条件が同一の鉱害賠償登録」の4類型に限定列挙しており、敷地権である旨の登記はこの列挙に含まれないことを条文で確認しました（2026-08-20追記）。敷地権という語そのものが41条・105条に直接登場するわけではなく、限定列挙からの反対解釈という一段階の推論を伴う点には留意してください。なお、この解釈に基づき「敷地権があっても合筆できる例外」は規則上存在しない、という補足説明を本文アの直後に追記しました。
 - ウ（破産手続終結後は開始の登記を抹消しなくても合筆できる）については、破産の登記のある土地は合筆できないという原則の例外的な取扱いであり、条文の直接の文言ではなく実務上の取扱い・二次資料からの理解にとどまります。念のため各自でも確認してください。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文の確認を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（合筆の登記の制限）と同一の問題が再出題されていないかを確認しました。「合筆の登記」自体は平成28年度第10問・令和2年度第10問でも再出題されるテーマですが、類似度は最大でも0.33程度です。肢単位でも、信託の登記がある土地の合筆可否を問う本問の肢エと令和2年度第10問の肢ウは論点は共通するものの、本問は「合筆できる」という正しい肢、令和2年度は「合筆できない」という誤りの肢として、逆方向から出題されており、また敷地権・先取特権・破産手続・財産管理人という他4肢の組合せも異なります。**問題全体としての重複は見つかりませんでした**が、合筆の登記の制限規定（不動産登記法41条）は繰り返し問われる頻出論点である点に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（合筆の登記の制限）と同一の問題が再出題されていないかを確認しました。「合筆の登記」自体は平成28年度第10問・令和2年度第10問でも再出題されるテーマですが、類似度は最大でも0.33程度です。肢単位でも、信託の登記がある土地の合筆可否を問う本問のエと令和2年度第10問のウは論点は共通するものの、本問は「合筆できる」という正しい肢、令和2年度は「合筆できない」という誤りの肢として、逆方向から出題されており、また敷地権・先取特権・破産手続・財産管理人という他4肢の組合せも異なります。**問題全体としての重複は見つかりませんでした**が、合筆の登記の制限規定（不動産登記法41条）は繰り返し問われる頻出論点である点に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -257,7 +257,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・エは、「規則105条が定める4つの例外（地役権・担保権・信託・鉱害賠償登録）のどれかに当てはまるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢ウは開始・終結の登記の有無を確認する別の決定木、肢オは合筆が管理行為か処分行為かを見分ける対比枠型とする。
+ア・イ・エは、「規則105条が定める4つの例外（地役権・担保権・信託・鉱害賠償登録）のどれかに当てはまるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。ウは開始・終結の登記の有無を確認する別の決定木、オは合筆が管理行為か処分行為かを見分ける対比枠型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -333,7 +333,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -357,7 +357,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 敷地権は例外に非該当
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -380,7 +380,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 4項目全部一致が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -399,7 +399,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 終結登記があれば合筆可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -420,7 +420,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 信託目録が同一なら合筆可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

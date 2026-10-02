@@ -302,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 団地共用部分には規約証明が必要
@@ -317,7 +317,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規約の証明が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 法定代理人の戸籍謄本も3か月以内が必要
@@ -335,7 +335,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 作成後3か月以内
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 合体登記は識別情報1個で足りる
@@ -351,7 +351,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 1個で足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 代位原因が何かを確かめて援用する
@@ -371,7 +371,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 援用できる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 印鑑証明書は住所証明にも使える
@@ -404,7 +404,7 @@ or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that no 肢 with a genuinely hidden second
-condition has been flattened into a single check, that 肢エ's
+condition has been flattened into a single check, that エ's
 side-by-side comparison frame clearly keeps the two different scopes of
 proof visually distinct rather than merging them into one flowchart, that
 each 着眼点 callout states a checking order rather than only a conclusion

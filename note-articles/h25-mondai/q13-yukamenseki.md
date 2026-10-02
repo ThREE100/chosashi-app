@@ -73,9 +73,9 @@
 **このまま使える点／使う前に確認したい点**
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- **2026-08-06追記（最終確定）**：本記事は肢ウの判定を巡って複数回訂正を重ねました。最終的にユーザーから提示されたアガルート教材の正答資料により、**肢ウ＝誤り、正解は2個（選択肢2番）**であることを確認・確定しています。準則82条10号のカッコ書き「（その一部が外側に及んでいるものを含む。）」は、「建物の内部にある」という扱いの範囲を外側にはみ出した部分まで広げるための文言であり、内部から連続してはみ出した部分も含めて床面積に算入されます。条文が算入しないとする「外側にあるとき」は、建物内部とつながっていない、独立して屋外に設置された煙突・ダストシュートを指します。この読み方に基づき、本文（肢ウの解説）・まとめ・見出し画像用フレーズ・インフォグラフィックをすべて整合させました。
-- 肢ア「吹抜の部分も、上階の床面積に算入する」→準則82条8号「その吹抜の部分は、上階の床面積に算入しない」と正反対のため**誤りです**。
-- 肢イ・エ・オは、いずれも準則82条4号・9号・11号の文言と一致（エ・オは一言一句完全一致）するため**正しいです**。
+- **2026-08-06追記（最終確定）**：本記事はウの判定を巡って複数回訂正を重ねました。最終的にユーザーから提示されたアガルート教材の正答資料により、**ウ＝誤り、正解は2個（選択肢2番）**であることを確認・確定しています。準則82条10号のカッコ書き「（その一部が外側に及んでいるものを含む。）」は、「建物の内部にある」という扱いの範囲を外側にはみ出した部分まで広げるための文言であり、内部から連続してはみ出した部分も含めて床面積に算入されます。条文が算入しないとする「外側にあるとき」は、建物内部とつながっていない、独立して屋外に設置された煙突・ダストシュートを指します。この読み方に基づき、本文（ウの解説）・まとめ・見出し画像用フレーズ・インフォグラフィックをすべて整合させました。
+- ア「吹抜の部分も、上階の床面積に算入する」→準則82条8号「その吹抜の部分は、上階の床面積に算入しない」と正反対のため**誤りです**。
+- イ・エ・オは、いずれも準則82条4号・9号・11号の文言と一致（エ・オは一言一句完全一致）するため**正しいです**。
 - 誤っている肢はアとウの2個で、正解は選択肢2番（takuitsu.jsonデータベースの正解フィールドと一致）です。
 - 各肢の法的根拠は、不動産登記規則115条（床面積の算定方法：壁その他の区画の中心線で囲まれた部分の水平投影面積）及び不動産登記事務取扱手続準則82条（4号：地下街、8号：吹抜け、9号：傾斜壁、10号：煙突・ダストシュート、11号：出窓）の条文原文（`note-articles/laws/fudousan-touki-jimu-junsoku.md`）で確認済みです。
 - **重複出題チェック（2026-07-21実施、重要）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。**本問ア「建物の一部が上階まで吹抜になっている場合、その吹抜部分は上階の床面積に算入する」（誤り）と同じ論点が、H30年度第13問エ「建物の一部が上階まで吹抜になっている場合には、その吹抜の部分は、上階の床面積に算入されない」（正しい記述）、及びR05年度第12問ア（同旨、正しい記述）で繰り返し出題されています**。「吹抜け部分はどの階の床面積にも算入しない」という結論が3つの年度で使い回されている定番論点です。また、本問ウ（ダストシュートが内部・外部にまたがる場合の扱い）と同様の題材が、R04年度第12問エでも図付きの問題として出題されています。H30年度・R04年度・R05年度分の記事の内容は、本問ウの結論（内部から連続して外側にはみ出した部分も算入する。算入しないのは独立して屋外にある煙突・ダストシュートのみ）と整合しているか、念のため確認することをお勧めします。
@@ -246,11 +246,11 @@ tape. Where a 肢 requires checking multiple conditions in sequence before
 reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Panel 3
-（肢ウ）must show both outcomes of its single decisive check (連続してい
+（ウ）must show both outcomes of its single decisive check (連続してい
 るか、独立しているか), since both are real conclusions described in the
 article, not a hypothetical: never draw a looping arrow back into an
 earlier node — each branch must end at its own distinct conclusion node.
-Panel 5（肢オ）must be drawn as an actual two-diamond AND-flowchart rather
+Panel 5（オ）must be drawn as an actual two-diamond AND-flowchart rather
 than a single illustration, because this 肢 looks like a one-check rule
 ("高さ1.5メートル以上") but the article's own text requires two separate
 conditions to both be true before the 出窓 is counted — do not compress
@@ -303,7 +303,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 吹抜けはどの階にも算入しない
@@ -319,7 +319,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 どの階にも算入しない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地下街は通路・階段を除いた区画で算定
@@ -335,7 +335,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 通路・階段は除く
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 連続するシュートは外の分も算入
@@ -360,7 +360,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 はみ出た部分も算入
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 傾斜壁は床が接する中心線で算定
@@ -375,7 +375,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 床に接する中心線
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 出窓は高さと床位置の両方を確認
@@ -414,11 +414,11 @@ Hangul, other non-Japanese script, or stray decorative glyph — and remove
 or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢（肢ウ・肢オ）is
+the header and the panels, that every multi-condition 肢（ウ・オ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that the genuinely hidden second
-condition in 肢オ（高さ1.5メートル以上「かつ」下部が床面と同一の高さ、の
-2条件）has not been flattened into a single check, and that 肢ウ's two
+condition in オ（高さ1.5メートル以上「かつ」下部が床面と同一の高さ、の
+2条件）has not been flattened into a single check, and that ウ's two
 outcomes (内部から連続／独立して屋外) both end at their own conclusion
 node with no looping arrow back into an earlier node, that each 着眼点
 callout states a checking order rather than only a conclusion and keeps

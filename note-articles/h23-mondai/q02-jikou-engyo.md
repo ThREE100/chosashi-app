@@ -92,7 +92,7 @@
 - 出題年度・問題番号・正解番号（第2問＝ウエ／4番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
 - 各肢の法的根拠のうち、イ（最判平11.10.21）、オ（最判昭41.4.20）は判例レベルで確認済みです。ウ（建物賃借人の援用権否定）、エ（共同相続人の相続分の範囲での援用）は、時効の援用権者は「時効により直接利益を受ける者」に限られるという一般原則からの整理にとどまります。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
-- **適用法令の現行性チェック（2026-10-01実施）**：2026-08-04の前回チェックに続き、ローカル法令データベース（`note-articles/laws/minpou-1-soukyoku-bukken.md`）で現行の民法145条を条文原文で確認しました。令和2年4月1日施行の民法改正（債権法改正、平成29年法律第44号）で、145条に「当事者（消滅時効にあっては、保証人、物上保証人、第三取得者その他権利の消滅について正当な利益を有する者を含む。）」という括弧書が加わり、判例法理が一部明文化されました。肢アの連帯保証人（保証人）が援用権者に含まれる点は、この条文で確認できました。後順位抵当権者（肢イ）・建物賃借人（肢ウ）・共同相続人（肢エ）の扱いと、時効完成後の承認の効果（肢オ）は条文に明記がなく、判例の解釈によるものです。令和2年の改正後も判例の結論は維持されていると考えられますが、改正後の裁判例・解説までは確認できていません。各肢の正誤の結論は変わらないため、出題当時との違いは肢ア・イの※メモにしました。令和5年共有制度改正・相続登記義務化・住所変更登記義務化は本問に関係しません。
+- **適用法令の現行性チェック（2026-10-01実施）**：2026-08-04の前回チェックに続き、ローカル法令データベース（`note-articles/laws/minpou-1-soukyoku-bukken.md`）で現行の民法145条を条文原文で確認しました。令和2年4月1日施行の民法改正（債権法改正、平成29年法律第44号）で、145条に「当事者（消滅時効にあっては、保証人、物上保証人、第三取得者その他権利の消滅について正当な利益を有する者を含む。）」という括弧書が加わり、判例法理が一部明文化されました。アの連帯保証人（保証人）が援用権者に含まれる点は、この条文で確認できました。後順位抵当権者（イ）・建物賃借人（ウ）・共同相続人（エ）の扱いと、時効完成後の承認の効果（オ）は条文に明記がなく、判例の解釈によるものです。令和2年の改正後も判例の結論は維持されていると考えられますが、改正後の裁判例・解説までは確認できていません。各肢の正誤の結論は変わらないため、出題当時との違いはア・イの※メモにしました。令和5年共有制度改正・相続登記義務化・住所変更登記義務化は本問に関係しません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成24年度以降令和7年度までの試験で「時効の援用」を単独テーマとする問題が再出題されていないかを確認しました。該当する出題は見つからず、重複はありません。
 
 ---
@@ -265,9 +265,9 @@ resolved by a single check（援用権者に当たるか、直接利益か反射
 利益か、援用の範囲、承認の時期），so all five panels are labeled
 illustrative diagrams, not flowcharts — do not force a flowchart, and do
 not draw any diamond-shaped decision node, Yes/No branch arrows, or
-dangling arrow anywhere in this image. Panels 1（肢ア）and 5（肢オ）each
-contain a distractor fact that does NOT change the conclusion（肢ア：保証
-人が時効完成前にした自分の保証債務の承認、肢オ：承認の際に時効完成を
+dangling arrow anywhere in this image. Panels 1（ア）and 5（オ）each
+contain a distractor fact that does NOT change the conclusion（ア：保証
+人が時効完成前にした自分の保証債務の承認、オ：承認の際に時効完成を
 知っていたかどうか）; draw each distractor as a faded, dotted-outline tag
 marked as irrelevant, with no ○/✕ mark, so the reader sees it is not a
 condition being checked. Unlike a glanceable summary poster, each panel MAY include a
@@ -313,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 保証債務の承認は主債務と別問題
@@ -339,7 +339,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保証債務の承認は無関係
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 順位上昇の期待は反射的利益
@@ -359,7 +359,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 反射的利益のみ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 時効の利益を受けるのは占有者本人
@@ -381,7 +381,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 間接的利益
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 援用できるのは自分の相続分だけ
@@ -402,7 +402,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相続分の範囲内
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 完成後に承認したら知らなくても援用不可

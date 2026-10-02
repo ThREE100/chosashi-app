@@ -277,8 +277,8 @@ sequence before reaching a conclusion, draw the panel's diagram as an
 actual decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
 node. Where a 肢 is resolved by a single check, a labeled illustrative
-diagram is sufficient — do not force a flowchart. Panels 1 (肢ア) and 3
-(肢ウ) share the same second decision-tree stage — a diamond node labeled
+diagram is sufficient — do not force a flowchart. Panels 1 (ア) and 3
+(ウ) share the same second decision-tree stage — a diamond node labeled
 「他のいずれかの地目の定義に当てはまるか？」that leads to a 「雑種地」
 conclusion on its No branch — draw this second diamond with the same
 wording, shape, and position in both panels so the shared residual-category
@@ -334,7 +334,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in beige containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -358,7 +358,7 @@ Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
 characters):
 堤ではなく雑種地
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 えん堤は独立した堤でなくため池の一部
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一体でため池
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in beige containing the number 3.
 Heading (bold, ONE line):
 墓地の定義は人の遺骸・遺骨に限られる
@@ -402,7 +402,7 @@ Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
 characters):
 動物埋葬は雑種地
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 宗教儀式に使う聖堂の敷地は境内地
@@ -419,7 +419,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 境内地に認定
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 着工前は例外要件がなければ宅地にできない

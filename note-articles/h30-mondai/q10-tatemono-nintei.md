@@ -72,7 +72,7 @@
 - 出題年度・問題番号・正解番号（2番＝アエ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠のうち、ア（準則77条1号イ）、イ（準則77条2号ウ）、ウ（準則77条1号ウ）、エ（準則77条2号オ）は、元データの解説で準則の号まで明記されています。オ（廃車鉄道車両）については、元データ上「建物認定95頁」という参考書籍の記載があるのみで、具体的な先例番号までは明記されておらず、建物認定の一般原則（定着性・外気分断性・用途性）からの当てはめにとどまる点は留意してください。
 - 各肢の根拠は、ローカルのアガルート教材（過去問テキスト）の解説を条文根拠の一次情報源として参照しています（元データの解説はアガルート過去問テキストのOCRに基づきます）。なお、このQ10の解説は元データ上Q9のexplanationフィールド末尾にOCRで紛れ込んでいたものを整理して用いています。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（建物の認定）と同一・類似の問題が再出題されていないかを確認しました。**重複が見つかりました。** 建物の認定は令和4年度・令和5年度・令和6年度とほぼ毎年出題される定番テーマです。特に令和6年度第12問（既存記事：`r6-mondai/q12-tatemono-nintei.md`）の肢ウ「廃車となった鉄道車両は、基礎工事が施されて土地に定着しており、店舗の用途に供されている場合には、建物として登記することができる」は、本問の肢オ（廃車鉄道車両+基礎工事の居宅）と同一の事例パターン（定着性のある廃車鉄道車両の建物）を扱っています。令和6年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（建物の認定）と同一・類似の問題が再出題されていないかを確認しました。**重複が見つかりました。** 建物の認定は令和4年度・令和5年度・令和6年度とほぼ毎年出題される定番テーマです。特に令和6年度第12問（既存記事：`r6-mondai/q12-tatemono-nintei.md`）のウ「廃車となった鉄道車両は、基礎工事が施されて土地に定着しており、店舗の用途に供されている場合には、建物として登記することができる」は、本問のオ（廃車鉄道車両+基礎工事の居宅）と同一の事例パターン（定着性のある廃車鉄道車両の建物）を扱っています。令和6年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
 - **最新法令チェック（2026-08-18実施）**：本記事が引用する不動産登記事務取扱手続準則77条（建物の認定基準）を`note-articles/laws/fudousan-touki-jimu-junsoku.md`の現行条文と突き合わせました。ア（屋根を有しない観覧席、準則77条1号イ）、イ（固定された浮船、準則77条2号ウ）、ウ（ガード下の倉庫、準則77条1号ウ）、エ（容易に運搬できる切符売場、準則77条2号オ）はいずれも現行の準則77条の例示と一致しており、条番号・内容とも修正不要でした。オ（廃車鉄道車両）は準則77条に明文の例示がなく、上記のとおり一般原則からの当てはめにとどまる点も変わりません。本問は相続登記義務化・住所変更登記義務化など直近の法改正の影響を受けるテーマではありません。あわせて、本文中に残っていた半角括弧を全角括弧に修正し、オの本文にあった参考書籍名・ページ数の記載（建物認定95頁）は、教材の書名を本文に書かない運用に合わせて本文から削除しました（出典情報は上記の各肢の根拠欄に従来どおり残しています）。
 
 ---
@@ -324,7 +324,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -348,7 +348,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 外気分断性なしで不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 土地に固定された浮船は定着性ありで登記可
@@ -367,7 +367,7 @@ building tied to the riverbank with an anchor, chain, and wooden stakes.
 Conclusion tag (blue, 5-15 Japanese characters):
 固定されていれば登記可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 ガード下の倉庫も3要件を順に満たせば登記可
@@ -386,7 +386,7 @@ requirements in turn.
 Conclusion tag (blue, 5-15 Japanese characters):
 特殊立地でも3要件で判定
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 容易に運搬できる切符売場は定着性なしで不可
@@ -405,7 +405,7 @@ wheels with a forklift beside it and short dashed motion lines.
 Conclusion tag (blue, 5-15 Japanese characters):
 運搬容易で不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 基礎工事を施した廃車車両は定着性ありで登記可

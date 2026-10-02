@@ -253,17 +253,17 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — an association (調査士会) building icon next to
 a ministry (法務大臣) building icon for the approval and reporting 肢
-(肢ア・オ), a member icon receiving a caution notice for the 注意・勧告 肢
-(肢ウ), several surveyor icons each setting their own fee tag for the 報酬
-肢 (肢イ), and a registration-ledger icon connected to an 入会 building
-icon for the 登録・入会 肢 (肢エ). Panel 1（肢ア）requires checking whether
+(ア・オ), a member icon receiving a caution notice for the 注意・勧告 肢
+(ウ), several surveyor icons each setting their own fee tag for the 報酬
+肢 (イ), and a registration-ledger icon connected to an 入会 building
+icon for the 登録・入会 肢 (エ). Panel 1（ア）requires checking whether
 a 会則 provision falls inside a short list of exceptions before deciding
 whether approval is required, so it alone is drawn as an actual decision
 flowchart: a diamond-shaped branch node asking whether the provision is
 one of the specific items listed as exceptions in 49条ただし書, a faded
 「はい」branch leading to a small 認可不要 conclusion node, and a
 highlighted「いいえ」branch (this 肢's case, 入会金の規定) leading to a
-法務大臣の認可が必要 conclusion node. Panels 3 and 5（肢ウ・肢オ）share one
+法務大臣の認可が必要 conclusion node. Panels 3 and 5（ウ・オ）share one
 underlying decision tree — how confident the 調査士会 is about a member's
 rule violation, ranging from「違反のおそれ」(not yet confirmed) to「違反
 すると思料する」(confirmed) — so each of those two panels is drawn as a
@@ -271,7 +271,7 @@ two-tier「対比枠」diagram showing both tiers, with the tier relevant to
 THIS panel rendered with a thick highlighted border and full color, and
 the other, unrelated tier rendered in a faded, greyed-out, dotted-outline
 style rather than omitted, so the reader can see at a glance which part
-of the shared distinction this panel is about. Panels 2 and 4（肢イ・肢エ）
+of the shared distinction this panel is about. Panels 2 and 4（イ・エ）
 are each resolved by a single check — whether a widely assumed rule
 actually exists in current law — so they are drawn as a side-by-side
 comparison between a labeled「誤った思い込み」box and a labeled「正しい
@@ -321,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 入会金の会則変更は認可が必要
@@ -343,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 法務大臣の認可が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 報酬額の統一基準は今はない
@@ -362,17 +362,17 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 統一基準に従う義務なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 違反のおそれ段階では注意・勧告
 Diagram: A two-tier「対比枠」diagram. Upper tier (drawn with a thick
-highlighted border and full color, since this is 肢ウ's case): labeled
+highlighted border and full color, since this is ウ's case): labeled
 違反するおそれがあると認めるとき, showing the association（調査士会）
 building icon handing a small 注意 note and a 勧告書 to a member icon,
 with a caption 会則の定めるところにより. Lower tier (drawn in a faded,
 greyed-out, dotted-outline style, since this belongs to a different
-panel, 肢オ): labeled 違反すると思料するとき（肢オのケース）, showing the
+panel, オ): labeled 違反すると思料するとき（オのケース）, showing the
 association building icon sending a report envelope toward a ministry
 building icon, rendered faint and dotted to show it is not this panel's
 case.
@@ -386,7 +386,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 注意・勧告ができる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 入会手続の不備は登録拒否の理由になる
@@ -409,17 +409,17 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 入会手続なしは登録拒否理由
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 違反の報告先は法務局長でなく法務大臣
 Diagram: A two-tier「対比枠」diagram, the same shared distinction as
 panel 3 but with the emphasis reversed. Upper tier (drawn in a faded,
 greyed-out, dotted-outline style, since this belongs to a different
-panel, 肢ウ): labeled 違反のおそれ段階（肢ウのケース）, showing the
+panel, ウ): labeled 違反のおそれ段階（ウのケース）, showing the
 association building icon handing a caution note to a member icon,
 rendered faint and dotted. Lower tier (drawn with a thick highlighted
-border and full color, since this is 肢オ's case): labeled 違反すると
+border and full color, since this is オ's case): labeled 違反すると
 思料する段階, showing the association（調査士会）building icon sending a
 report envelope, with two destination building icons side by side: on
 the left,「法務局又は地方法務局の長」with a red ✕ over it; on the right,
@@ -452,11 +452,11 @@ script, or stray decorative glyph — and remove or redraw it so that only
 standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly, badge numbers run 1-5 continuously, there is no
 intro illustration or paragraph block between the header and the panels,
-that panel 1（肢ア）is drawn as an actual flowchart with a diamond branch
+that panel 1（ア）is drawn as an actual flowchart with a diamond branch
 node（not a bare illustration with no visible decision structure）, that
-panels 3 and 5（肢ウ・肢オ）each clearly show their own highlighted tier
+panels 3 and 5（ウ・オ）each clearly show their own highlighted tier
 distinguished from the other panel's faded tier of the shared distinction,
-that panels 2 and 4（肢イ・肢エ）each show a clear「誤った思い込み」versus
+that panels 2 and 4（イ・エ）each show a clear「誤った思い込み」versus
 「正しい理解」comparison, that each 着眼点 callout states a checking order
 rather than only a conclusion and keeps every required element from the
 source article distinct (no merged or dropped requirements), confirm

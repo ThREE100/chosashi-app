@@ -261,7 +261,7 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panels 2 and 5（肢イ・肢オ）must be drawn as two-step
+flowchart. Panels 2 and 5（イ・オ）must be drawn as two-step
 flowcharts, because each has a second condition that is easy to overlook
 at first glance; both the「はい」and「いいえ」branches of the second
 diamond node must lead to their own distinct conclusion node (no looping
@@ -309,7 +309,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 代位登記でも所有権証明は必要
@@ -325,7 +325,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 証明は省略不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 嘱託人自身の嘱託なら委任状に期限なし
@@ -346,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 嘱託人自身なら期限なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 自己所有の建物なら証明不要
@@ -362,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 自己所有なら証明不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 河川区域化した土地は河川管理者が嘱託
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 河川管理者が嘱託可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 希望する旨があれば通知される

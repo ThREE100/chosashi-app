@@ -388,10 +388,10 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 4（肢エ）uses a 正誤対比型（left/right contrast frame）
+flowchart. Panel 4（エ）uses a 正誤対比型（left/right contrast frame）
 instead of a flowchart, splitting 規則77条1項5号 into its two components
 （地積・求積方法）so the reader sees which one is actually excluded.
-Panels 2 and 5（肢イ・肢オ）must show BOTH branches of their decision
+Panels 2 and 5（イ・オ）must show BOTH branches of their decision
 node with their own distinct conclusion node（no looping arrow back into
 the diagram), because both outcomes are meaningful real conclusions
 discussed in the source article. Unlike a glanceable summary poster, each
@@ -438,7 +438,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 証明書があれば氏名不一致でも訂正可
@@ -455,7 +455,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 証明書があれば申出可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 署名なら押印不要、記名なら押印必要
@@ -474,7 +474,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 署名なら押印不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 永続性ある境界標は記録が義務
@@ -489,7 +489,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 存在すれば記録義務
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地積は除外されず求積方法だけ省略可
@@ -510,7 +510,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地積は省略できない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 縮尺と所在表示の両方が条件

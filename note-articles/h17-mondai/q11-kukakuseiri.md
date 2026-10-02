@@ -284,7 +284,7 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 2（肢イ）is a decision tree where BOTH outcomes carry
+flowchart. Panel 2（イ）is a decision tree where BOTH outcomes carry
 real, distinct legal conclusions: draw a diamond node 換地計画で対応する
 換地が定められたか？with a「はい」branch leading to its own conclusion
 node (公告翌日から従前の宅地とみなされ権利が引き継がれる、通常の重みで
@@ -336,7 +336,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 仮換地上の建物は現地番と予定地番を併記
@@ -356,7 +356,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 現地番＋括弧書きでOK
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 換地なしの従前地は公告終了時に消滅
@@ -378,7 +378,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 権利消滅・登記記録閉鎖
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 未登記の従前地は施行者が代位して申請
@@ -397,7 +397,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 施行者が代位申請可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 分筆の申請義務は所有者でなく施行者が代位
@@ -416,7 +416,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 申請義務は所有者になし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 保留地の登記は公告翌日以降にのみ可能
@@ -437,8 +437,8 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-土地区画整理法104条1項・11項（肢イ・オ）、107条4項の委任に基づく土地
-区画整理登記令2条1項1号（肢ウ）、82条1項（肢エ）に基づく整理です。肢
+土地区画整理法104条1項・11項（イ・オ）、107条4項の委任に基づく土地
+区画整理登記令2条1項1号（ウ）、82条1項（エ）に基づく整理です。肢
 アの予定地番の括弧書き併記は、実務上の取扱いによるものです。
 
 Final check before rendering: scan every kanji glyph and confirm it is
