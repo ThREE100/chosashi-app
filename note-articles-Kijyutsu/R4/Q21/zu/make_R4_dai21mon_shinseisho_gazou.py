@@ -4,8 +4,11 @@
   答案用紙のとおり、土地の表示の記入行は5行で、5行とも③地積を点線で整数部・小数部に分ける（「（略）」の印刷はない）
 - 添削　：`../prompt_R4_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 第1欄（問1のI点・J点）・第2欄（問2のア〜エ）・第5欄（問5の①〜⑤）：申請書でない解答欄も、記号ごとの記入欄の形で
-  別の画像にする（横1200pxの横長。2026-10-02追加）。試験の答案用紙そのものはリポジトリにないので、欄の見出しと記号・記入欄だけの
-  簡素な形（令和6年度の答案用紙の第1欄・第2欄の形にならった仮のもの）にしている
+  別の画像にする（横1200pxの横長。2026-10-02追加）。欄の形は試験の答案用紙（`../touan_youshi/`）で確かめた：
+  第1欄は左上が斜線のセル・「Ｘ座標（ｍ）」「Ｙ座標（ｍ）」の見出しとＩ点・Ｊ点の2行、第2欄はア・イ／ウ・エの2組2行、
+  第5欄は①・②／③・④／⑤の3行で、⑤の行は左の1組だけ（右の2セルはなく、枠が段になる）。見出しは印刷どおり「第○欄」だけ
+- 申請書の欄の名前・順序・印刷文字も試験の答案用紙（第3欄）で確かめた。答案用紙では左の列に登記の目的〜登録免許税、
+  右の列に所在と土地の表示（記入行5行、③地積は点線で整数部・小数部）が並ぶので、画像では左の列の下に右の列を積む
 
 見本は `R7/Q21/zu/make_R7_dai21mon_shinseisho_gazou.py`（CSSと部品を同じ形にしている）。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
@@ -99,7 +102,7 @@ def land_table(rows, shozai=None, n_rows=5, cls=''):
     if shozai is not None:
         h.append(f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4">{shozai}</td></tr>')
     h.append(f'<tr><td class="vert" rowspan="{n_rows + 1}">土地の表示</td><td class="head">①地　　番</td>'
-             '<td class="head">②地　　目</td><td class="head" colspan="2">③地　積　（m²）</td>'
+             '<td class="head">②地　　目</td><td class="head" colspan="2">③地　　積　m²</td>'
              '<td class="head">登記原因及びその日付</td></tr>')
     rows = list(rows) + [('', '', '', '', '')] * (n_rows - len(rows))
     for c, m, a, b, g in rows:
@@ -173,6 +176,10 @@ RAN_CSS = (
     'table.rz { width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }'
     'table.rz td { border: 1.5px solid #111; height: 84px; font-size: 22px; text-align: center; vertical-align: middle; }'
     'table.rz td.head { height: 60px; font-size: 21px; }'
+    'table.rz td.none { border: none; }'
+    'table.rz.step { border: none; }'
+    'table.rz.step td { border: 1.5px solid #111; }'
+    'table.rz.step td.none { border: none; }'
     'table.rz td.diag { background: linear-gradient(to top right, transparent calc(50% - 1px), #111 50%, transparent calc(50% + 1px)); }'
     f'.ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; }}'
     '.cap { text-align: center; font-size: 17px; color: #555; margin-top: 22px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }')
@@ -192,24 +199,37 @@ def zahyou_table(rows):
 
 
 def anaume_table(items):
-    """穴埋めの欄。記号と記入欄を2組ずつ横に並べる。items: [(記号, 答え)]"""
+    """穴埋めの欄。記号と記入欄を2組ずつ横に並べる（試験の答案用紙どおり）。items: [(記号, 答え)]
+    組の数が奇数のときは、最後の行は左の1組だけで右の2セルは描かない（第5欄の⑤の行。外枠が段になる）"""
+    rows = [items[k:k + 2] for k in range(0, len(items), 2)]
+    odd = len(items) % 2 == 1
+    n = len(rows)
     trs = ''
-    for k in range(0, len(items), 2):
-        pair = items[k:k + 2]
-        tds = ''.join(f'<td>{m}</td><td>{ink(a)}</td>' for m, a in pair)
-        if len(pair) == 1:
-            tds += '<td></td><td></td>'
+    for r, pair in enumerate(rows):
+        tds = ''
+        for c in range(4):
+            if c // 2 >= len(pair):
+                tds += '<td class="none"></td>'
+                continue
+            m, a = pair[c // 2]
+            top = r == 0
+            bottom = r == n - 1 or (odd and r == n - 2 and c >= 2)
+            left = c == 0
+            right = c == 3 or (odd and r == n - 1 and c == 1)
+            st = ';'.join(f'border-{side}-width:2.5px' for side, f in
+                          [('top', top), ('bottom', bottom), ('left', left), ('right', right)] if f)
+            tds += f'<td style="{st}">{m if c % 2 == 0 else ink(a)}</td>'
         trs += f'<tr>{tds}</tr>'
-    return ('<table class="rz"><colgroup><col style="width:8%"><col style="width:42%"><col style="width:8%">'
-            f'<col style="width:42%"></colgroup>{trs}</table>')
+    return ('<table class="rz step"><colgroup><col style="width:10%"><col style="width:40%"><col style="width:10%">'
+            f'<col style="width:40%"></colgroup>{trs}</table>')
 
 
 DAI1 = [('Ｉ点', '300.13', '293.12'), ('Ｊ点', '279.30', '293.12')]
 DAI2 = [('ア', '表題登記'), ('イ', '隣接'), ('ウ', '位置'), ('エ', '範囲')]
 DAI5 = [('①', '日時'), ('②', '場所'), ('③', 'その状況'), ('④', '申請の権限'), ('⑤', '登記名義人')]
-dai1 = ran_page('第1欄　Ｉ点及びＪ点の座標値', zahyou_table(DAI1), '令和4年度 土地家屋調査士試験 第21問 第1欄（問1）解答例')
-dai2 = ran_page('第2欄　筆界特定の定義（ア〜エ）', anaume_table(DAI2), '令和4年度 土地家屋調査士試験 第21問 第2欄（問2）解答例')
-dai5 = ran_page('第5欄　本人確認情報（①〜⑤）', anaume_table(DAI5), '令和4年度 土地家屋調査士試験 第21問 第5欄（問5）解答例（①〜③は順不同）')
+dai1 = ran_page('第1欄', zahyou_table(DAI1), '令和4年度 土地家屋調査士試験 第21問 第1欄（問1 Ｉ点及びＪ点の座標値）解答例')
+dai2 = ran_page('第2欄', anaume_table(DAI2), '令和4年度 土地家屋調査士試験 第21問 第2欄（問2 筆界特定の定義）解答例')
+dai5 = ran_page('第5欄', anaume_table(DAI5), '令和4年度 土地家屋調査士試験 第21問 第5欄（問5 本人確認情報）解答例（①〜③は順不同）')
 
 if __name__ == '__main__':
     exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
