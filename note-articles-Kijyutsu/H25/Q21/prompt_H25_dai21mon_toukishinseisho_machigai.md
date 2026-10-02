@@ -4,7 +4,7 @@ note記事「【土地家屋調査士受験生向け】平成25年度問題21（
 
 ※画像生成AI（Midjourney、DALL·E など）は文字中心の画像や添削記号の正確な配置に向きません。完成形と同じくHTML＋ヘッドレスブラウザでPNGに書き出す方式です。Claude（ファイル作成とコード実行ができる環境）で使ってください。
 
-※2026-09-29、このプロンプトどおりに生成済み：`zu/H25_dai21mon_toukishinseisho_machigai.png`（1200×2558px、縦長）と元のHTML。生成スクリプトは `zu/make_H25_dai21mon_shinseisho_gazou.py`（完成形 `zu/H25_dai21mon_toukishinseisho_kansei.png` も同じスクリプトで生成）。3コマは横に並べず縦に積んだ縦長の画像にしている。
+※2026-09-29、このプロンプトどおりに生成済み：`zu/H25_dai21mon_toukishinseisho_machigai.png`（縦長。2026-10-02の描き出し直しで、フォントの環境により1200×2686px）と元のHTML。生成スクリプトは `zu/make_H25_dai21mon_shinseisho_gazou.py`（完成形 `zu/H25_dai21mon_toukishinseisho_kansei.png` も同じスクリプトで生成）。3コマは横に並べず縦に積んだ縦長の画像にしている。
 
 ---
 

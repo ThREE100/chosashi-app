@@ -295,13 +295,48 @@ same = []
 for i, l in enumerate(lines):
     if l.rstrip() in ('**トリ先生**', '**藍子**'):
         j = i + 2
-        while j < len(lines) and not lines[j].strip():
+        while j < len(lines) and (not lines[j].strip() or lines[j].startswith('> 【画像挿入】')):
             j += 1
         if j < len(lines) and lines[j].rstrip() == l.rstrip():
             same.append(i + 1)
-judge(f'同じ話者のセリフの連続: {same}', not same)
+judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも含む）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＝計{N_FIG + 2}か所の想定）', n_marker == N_FIG + 2)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋問1・問2の完成形2＋添削1＋完成形1＝計{N_FIG + 4}か所の想定）',
+      n_marker == N_FIG + 4)
+# マーカーの順とPNGの対応（2026-10-02追加）。マーカーの文言の頭で、記事の順にPNGと1対1に対応させる
+ORDER = [('北を上にして座標どおりに描き直した全体図', 'zu01_zentaizu'), ('T1からの放射でA点', 'zu02_A_housha'),
+         ('T1からの放射でM点', 'zu03_M_housha'), ('T2からの放射でK点', 'zu04_K_housha'), ('C点の求め方の図', 'zu05_C_menseki_hi'),
+         ('C点の比較図', 'zu06_C_hikaku'), ('C点の別解の図', 'zu07_C_betsukai'), ('H点の求め方の図', 'zu08_H_kousa'),
+         ('問2の完成形', 'toi2_kansei'), ('問1の完成形', 'toi1_kansei'), ('問1の整理図', 'zu09_jikou_youken'),
+         ('本件土地の面積と地目の図', 'zu10_menseki_chimoku'), ('登記申請書の「添付書類」欄', 'toukishinseisho_machigai'),
+         ('問3の整理図', 'zu11_shinseisho_seiri'), ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'),
+         ('土地所在図（1／500）と地積測量図（1／250）の完成見本', 'zu12_shozaizu_sokuryouzu'), ('本番で解く順番の図', 'zu13_toku_junban')]
+markers = [l[len('> 【画像挿入】'):] for l in lines if l.startswith('> 【画像挿入】')]
+judge('マーカーの順がPNGの対応表どおり', len(markers) == len(ORDER) and all(m.startswith(k) for m, (k, _) in zip(markers, ORDER)))
+pngs = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
+judge(f'zu/ のPNGがマーカーと1対1（{len(pngs)}枚）', sorted(f'H23_dai21mon_{v}.png' for _, v in ORDER) == pngs)
+for _, v in ORDER:
+    png = os.path.join(HERE, 'zu', f'H23_dai21mon_{v}.png')
+    if os.path.exists(png):
+        w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
+        want = (w == 1600 and h == 1200) if v.startswith('zu') else (w == 1200 and (h > w or v.startswith('toi')))
+        judge(f'{v}.png の大きさ（{w}×{h}px）', want)
+# 問1・問2の完成形（申請書でない解答欄。2026-10-02追加）
+html_t1 = open(os.path.join(HERE, 'zu', 'H23_dai21mon_toi1_kansei.html'), encoding='utf-8').read()
+html_t2 = open(os.path.join(HERE, 'zu', 'H23_dai21mon_toi2_kansei.html'), encoding='utf-8').read()
+toi1_text = re.search(r'^- \*\*問1の答え\*\*：(.+)$', text, re.M).group(1)
+check('問1の画像（HTML）が記事の文章と一字一句同じ', toi1_text, html_t1, '問1画像')
+check('問1の画像（HTML）見出し', '問１', html_t1, '問1画像')
+for s_ in ['問２', 'C点の座標値', 'H点の座標値', 'Ｘ座標（m）', 'Ｙ座標（m）',
+           '<td><span class="ink">316.94</span></td><td><span class="ink">305.93</span></td>',
+           '<td><span class="ink">313.37</span></td><td><span class="ink">321.26</span></td>']:
+    check('問2の画像（HTML）', s_, html_t2, '問2画像')
+judge('問2の画像：C点の表がH点の表より先（答案用紙どおり）', html_t2.index('C点の座標値') < html_t2.index('H点の座標値'))
+for s_ in ['H23_dai21mon_toi1_kansei.png', 'H23_dai21mon_toi2_kansei.png', '「316.94」「305.93」', '「313.37」「321.26」']:
+    check('完成形プロンプトの問1・問2', s_, form, '登記申請書')
+for s_ in ['答案用紙の問1の枠に書くと、こうなるわ', '時系列と、要件と事実の対応も、図で整理しておきます',
+           '答案用紙の問2の欄に書くと、こうなります']:
+    check('2026-10-02の画像の挿入位置の文言', s_)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成23年度問題21（土地）〜'

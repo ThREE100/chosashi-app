@@ -2,6 +2,9 @@
 
 - 完成形：`../prompt_H24_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ。項目の順序は平成24年度の答案用紙どおり）。縦長（横1200px）
 - 添削　：`../prompt_H24_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第1欄（問1のK点・L点の座標値）・第3欄（問4の結論と理由）：申請書でない解答欄も、答案用紙の欄の形で別の画像にする（横1200px）。
+  欄の形は試験の答案用紙（`public/kijutsu/H24-tochi/a1.webp`）どおり。第1欄は「K点・L点」×「X座標（m）・Y座標（m）」の表、
+  第3欄は「結論」の1行と「理由」の罫線（点線）の枠
 
 様式の部品（CSS・土地の表示の表）は `../../../H26/Q21/zu/make_H26_dai21mon_shinseisho_gazou.py` と同じ。平成24年度の答案用紙に合わせて
 項目の順序（登記の目的 → 添付書類 → 登録免許税〈「金　円」の間に枠〉 → 申請の日付と提出先〈「平成何年何月何日申請　Ａ地方法務局」と印刷〉
@@ -161,11 +164,45 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成24年度 第21問｜5番2は143.47、合筆後は154.80</div>''')
 
+# ---- 第1欄・第3欄（申請書でない解答欄。2026-10-02追加） ----
+RAN_CSS = '''
+.ran {{ padding: 60px 60px 40px; }}
+.ranhead {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin-bottom: 14px; }}
+table.zahyo {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
+table.zahyo td {{ border: 1.5px solid #111; font-size: 24px; height: 96px; text-align: center; vertical-align: middle; }}
+table.zahyo tr.h td {{ height: 60px; font-size: 22px; }}
+table.zahyo td .ink {{ font-size: 30px; }}
+.kekka {{ border: 2px solid #111; }}
+.kekka .lab {{ width: auto; font-size: 20px; padding: 6px 0 0 10px; }}
+.kekka .ketsu {{ border-bottom: 1.5px dashed #555; padding: 0 20px 10px 70px; font-size: 24px; line-height: 50px; min-height: 64px; }}
+.kekka .riyu {{ padding: 0 20px 10px 70px; font-size: 24px; line-height: 50px; min-height: 300px;
+                 background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 49px, #999 49px, #999 50px); }}
+'''.format()
+DAI1 = [('K点', '−8024.35', '−2520.22'), ('L点', '−8033.30', '−2510.33')]
+KETSURON = 'お互いの土地の地積を更正する方法による登記の手続をすることはできない。'
+RIYU = '地積の更正の登記は、登記記録の地積が筆界に囲まれた土地の実際の面積と相違する場合に、これを正すための登記であり、筆界を変更する登記ではない。5番1の土地と5番2の土地の筆界は、G点、H点及びC点を順次直線で結んだ線であり、公法上の境界である筆界は所有者間の合意によって変更することができないから、地積の更正の登記によってI点、K点及びL点を順次直線で結んだ線を筆界とすることはできない。'
+
+
+def ran_page(body):
+    return f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{RAN_CSS}</style></head><body>{body}</body></html>'
+
+
+rows1 = ''.join(f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in DAI1)
+dai1 = ran_page(f'''<div class="ran"><div class="ranhead">第１欄</div>
+<table class="zahyo"><colgroup><col style="width:30%"><col style="width:35%"><col style="width:35%"></colgroup>
+<tr class="h"><td></td><td>Ｘ座標（m）</td><td>Ｙ座標（m）</td></tr>{rows1}</table>
+<div class="caption">平成24年度 土地家屋調査士試験 第21問 第1欄（問1）解答例</div></div>''')
+dai3 = ran_page(f'''<div class="ran"><div class="ranhead">第３欄</div>
+<div class="kekka"><div class="lab">結論</div><div class="ketsu">{ink(KETSURON)}</div>
+<div class="lab">理由</div><div class="riyu">{ink(RIYU)}</div></div>
+<div class="caption">平成24年度 土地家屋調査士試験 第21問 第3欄（問4）解答例</div></div>''')
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('H24_dai21mon_toukishinseisho_kansei', kansei), ('H24_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 200})
+    for name, html in [('H24_dai21mon_dai1ran_kansei', dai1), ('H24_dai21mon_dai3ran_kansei', dai3),
+                       ('H24_dai21mon_toukishinseisho_kansei', kansei), ('H24_dai21mon_toukishinseisho_machigai', machigai)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -173,5 +210,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（第1欄・第3欄はそれでよい）'))
     browser.close()

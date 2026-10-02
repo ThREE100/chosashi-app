@@ -2,6 +2,9 @@
 
 - 完成形：`../prompt_H23_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ。項目の順序は平成23年度の答案用紙どおり）。縦長（横1200px）
 - 添削　：`../prompt_H23_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 問1（時効取得の要件となる具体的事実）・問2（C点・H点の座標値）：申請書でない解答欄も、答案用紙の欄の形で別の画像にする（横1200px）。
+  欄の形は試験の答案用紙（`public/kijutsu/H23-tochi/a1.webp`）どおり。問1は大きな記述枠、問2は「C点の座標値」「H点の座標値」の
+  2つの表（それぞれ「X座標（m）」「Y座標（m）」）。採点欄の「※」の枠は描かない
 
 様式の部品（CSS・土地の表示の表）は `../../../H28/Q21/zu/make_H28_dai21mon_shinseisho_gazou.py` と同じ。ただし、平成23年度の答案用紙には
 登録免許税の欄がなく、申請の日付と提出先（平成23年8月21日申請　Ａ地方法務局）と代理人（氏名・住所・電話番号）が印刷済みで、
@@ -165,11 +168,39 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成23年度 第21問｜添付書類は会社法人等番号、境内地113㎡、原因は不詳</div>''')
 
+# ---- 問1・問2（申請書でない解答欄。2026-10-02追加） ----
+RAN_CSS = '''
+.ran {{ padding: 60px 60px 40px; }}
+.ranhead {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin-bottom: 14px; }}
+.sub {{ font-size: 23px; margin: 26px 0 10px 20px; }}
+table.zahyo {{ width: 80%; margin-left: 20px; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
+table.zahyo td {{ border: 1.5px solid #111; font-size: 24px; height: 96px; text-align: center; vertical-align: middle; }}
+table.zahyo tr.h td {{ height: 60px; font-size: 22px; }}
+table.zahyo td .ink {{ font-size: 30px; }}
+.kijutsu {{ border: 3px solid #111; padding: 26px 30px; min-height: 560px; font-size: 25px; line-height: 2.0; }}
+'''.format()
+TOI1 = '本件土地は国有財産であり、宗教法人雨堤天満宮にとって他人の物である。宗教法人雨堤天満宮は、昭和26年8月19日に50番1及び51番2を吉川仁志から買い受けて以降、本件土地を神社の敷地（神楽殿の敷地及び参道）として、所有の意思をもって維持、管理し、一般に開放してきた。その間、土地の所有に関する問合せやそれに伴う測量などはなく、平穏かつ公然と占有していた。この占有を昭和26年8月19日から20年間継続し、昭和46年8月19日に取得時効が完成した（民法第162条第1項）'
+TOI2 = [('C点の座標値', '316.94', '305.93'), ('H点の座標値', '313.37', '321.26')]
+
+
+def ran_page(body):
+    return f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{RAN_CSS}</style></head><body>{body}</body></html>'
+
+
+toi1 = ran_page(f'''<div class="ran"><div class="ranhead">問１</div>
+<div class="kijutsu">{ink(TOI1)}</div>
+<div class="caption">平成23年度 土地家屋調査士試験 第21問 問1 解答例</div></div>''')
+tbl = ''.join(f'''<div class="sub">{h}</div><table class="zahyo"><colgroup><col style="width:50%"><col style="width:50%"></colgroup>
+<tr class="h"><td>Ｘ座標（m）</td><td>Ｙ座標（m）</td></tr><tr><td>{ink(x)}</td><td>{ink(y)}</td></tr></table>''' for h, x, y in TOI2)
+toi2 = ran_page(f'''<div class="ran"><div class="ranhead">問２</div>{tbl}
+<div class="caption">平成23年度 土地家屋調査士試験 第21問 問2 解答例</div></div>''')
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('H23_dai21mon_toukishinseisho_kansei', kansei), ('H23_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 200})
+    for name, html in [('H23_dai21mon_toi1_kansei', toi1), ('H23_dai21mon_toi2_kansei', toi2),
+                       ('H23_dai21mon_toukishinseisho_kansei', kansei), ('H23_dai21mon_toukishinseisho_machigai', machigai)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -177,5 +208,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（問1・問2はそれでよい）'))
     browser.close()

@@ -2,6 +2,9 @@
 
 - 完成形：`../prompt_H25_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ）どおり。縦長（横1200px）
 - 添削　：`../prompt_H25_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第1欄（問1のB点・F点の座標値）・第2欄（問2の説明）：申請書でない解答欄も、答案用紙の欄の形で別の画像にする（横1200px）。
+  欄の形は試験の答案用紙（`public/kijutsu/H25-tochi/a1.webp`）どおり。第1欄は「B点・F点」×「X座標（m）・Y座標（m）」の表、
+  第2欄は「山川一郎及び海川二郎に対して説明すべき内容」の大きな記述枠
 
 見本は `../../../R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
@@ -163,11 +166,44 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成25年度 第21問｜申請人は土地の所有者、（イ）の原因は①③、（ロ）は座標法で求積</div>''')
 
+# ---- 第1欄・第2欄（申請書でない解答欄。2026-10-02追加） ----
+RAN_CSS = '''
+.ran {{ padding: 60px 60px 40px; }}
+.ranhead {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin-bottom: 14px; }}
+table.zahyo {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
+table.zahyo td {{ border: 1.5px solid #111; font-size: 24px; height: 96px; text-align: center; vertical-align: middle; }}
+table.zahyo tr.h td {{ height: 60px; font-size: 22px; }}
+table.zahyo td .ink {{ font-size: 30px; }}
+.kijutsu {{ border: 3px solid #111; padding: 26px 30px; min-height: 520px; font-size: 25px; line-height: 2.0; }}
+'''.format()
+DAI1 = [('B点', '151.63', '171.42'), ('F点', '138.08', '170.37')]
+DAI2 = ('地目は、土地の主な用途による分類であり、土地が現にどのように利用されているかを登記記録によって公示するための登記事項である。'
+        '一筆の土地には一つの地目しか登記することができない。'
+        '本件土地は、平成25年6月21日に建物が完成し、ブロック塀の西側は建物の敷地（宅地）、東側は資材置場（雑種地）として区画して利用されており、'
+        '一筆の土地の一部が別の地目になっている。'
+        'このままでは登記記録が実際の利用形態を公示しないので、所有者である海川二郎が、西側部分を分筆してその部分の地目を宅地に変更する'
+        '土地一部地目変更・分筆登記を申請する必要がある。')
+
+
+def ran_page(body):
+    return f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{RAN_CSS}</style></head><body>{body}</body></html>'
+
+
+rows1 = ''.join(f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in DAI1)
+dai1 = ran_page(f'''<div class="ran"><div class="ranhead">第１欄　Ｂ点及びＦ点の座標値</div>
+<table class="zahyo"><colgroup><col style="width:30%"><col style="width:35%"><col style="width:35%"></colgroup>
+<tr class="h"><td></td><td>Ｘ座標（m）</td><td>Ｙ座標（m）</td></tr>{rows1}</table>
+<div class="caption">平成25年度 土地家屋調査士試験 第21問 第1欄（問1）解答例</div></div>''')
+dai2 = ran_page(f'''<div class="ran"><div class="ranhead">第２欄　山川一郎及び海川二郎に対して説明すべき内容</div>
+<div class="kijutsu">{ink(DAI2)}</div>
+<div class="caption">平成25年度 土地家屋調査士試験 第21問 第2欄（問2）解答例</div></div>''')
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('H25_dai21mon_toukishinseisho_kansei', kansei), ('H25_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 200})
+    for name, html in [('H25_dai21mon_dai1ran_kansei', dai1), ('H25_dai21mon_dai2ran_kansei', dai2),
+                       ('H25_dai21mon_toukishinseisho_kansei', kansei), ('H25_dai21mon_toukishinseisho_machigai', machigai)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -175,5 +211,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（第1欄・第2欄はそれでよい）'))
     browser.close()

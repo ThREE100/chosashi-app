@@ -298,7 +298,7 @@ for s in ['（−8024.35, −2520.22）', '（−8025.29, −2521.12）', '43°4
     check('作図スクリプトの数値', s, draw, '作図')
 INSERT = {1: '形は普通よ', 2: '問2の地積測量図は①、問3の申請書は⑤です', 4: 'IJはHCに直角です', 5: 'CD上にLを置くのよ',
           6: '0.1m以上、Cの側にずれてしまいます', 7: 'この高さの解き方は検算に使えばいいわ', 8: '縮尺どおりに余裕で入ります',
-          9: '合筆後の地積は2筆の合計で決まるの', 10: '定義→今の筆界→結論の順に書けば収まるのよ',
+          9: '合筆後の地積は2筆の合計で決まるの', 10: '報告的な登記と形成的な登記の違いも、図で整理しておきます',
           11: 'L点で詰まっても、第3欄と申請書の大部分は先に点になるんですね'}
 for k, s in INSERT.items():
     check(f'図{k}の挿入位置の文言', s)
@@ -358,9 +358,44 @@ for i, l in enumerate(lines):
             same.append(i + 1)
 judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも含む）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図11＋添削1＋完成形1＝計13か所の想定）', n_marker == 13)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図11＋第1欄・第3欄2＋添削1＋完成形1＝計15か所の想定）', n_marker == 15)
 n_png = len([f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png')])
 judge(f'zu/ のPNGがマーカーの数だけある（{n_png}枚）', n_png == n_marker)
+# マーカーの順とPNGの対応（2026-10-02追加）。マーカーの文言の頭で、記事の順にPNGと1対1に対応させる
+ORDER = [('北を上にして座標どおりに描き直した全体図', 'zu01_zentaizu'), ('覚書3の登記の順序の整理図', 'zu02_touki_junjo'),
+         ('注の仕分けの整理図', 'zu03_chu_shiwake'), ('K点の図', 'zu04_K_encho'), ('分割地イの面積の図', 'zu05_I_menseki'),
+         ('L点の図', 'zu06_L_hirei'), ('第1欄の完成形', 'dai1ran_kansei'), ('L点の別解の図', 'zu07_L_betsukai'),
+         ('地積測量図（5番1の分筆）の完成見本', 'zu08_chiseki_sokuryouzu'), ('合筆の地積の図', 'zu09_gappitsu_chiseki'),
+         ('登記申請書の土地の表示の誤答', 'toukishinseisho_machigai'), ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'),
+         ('第3欄の完成形', 'dai3ran_kansei'), ('問4の整理図', 'zu10_chiseki_kousei'), ('本番で解く順番の図', 'zu11_toku_junban')]
+markers = [l[len('> 【画像挿入】'):] for l in lines if l.startswith('> 【画像挿入】')]
+judge('マーカーの順がPNGの対応表どおり', len(markers) == len(ORDER) and all(m.startswith(k) for m, (k, _) in zip(markers, ORDER)))
+pngs = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
+judge(f'zu/ のPNGがマーカーと1対1（{len(pngs)}枚）', sorted(f'H24_dai21mon_{v}.png' for _, v in ORDER) == pngs)
+for _, v in ORDER:
+    png = os.path.join(HERE, 'zu', f'H24_dai21mon_{v}.png')
+    if os.path.exists(png):
+        w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
+        want = (w == 1600 and h == 1200) if v.startswith('zu') else (w == 1200 and (h > w or 'ran' in v))
+        judge(f'{v}.png の大きさ（{w}×{h}px）', want)
+# 第1欄・第3欄の完成形（申請書でない解答欄。2026-10-02追加）
+html_1 = open(os.path.join(HERE, 'zu', 'H24_dai21mon_dai1ran_kansei.html'), encoding='utf-8').read()
+html_3 = open(os.path.join(HERE, 'zu', 'H24_dai21mon_dai3ran_kansei.html'), encoding='utf-8').read()
+for s_ in ['第１欄', 'Ｘ座標（m）', 'Ｙ座標（m）', '<td>K点</td><td><span class="ink">−8024.35</span></td><td><span class="ink">−2520.22</span></td>',
+           '<td>L点</td><td><span class="ink">−8033.30</span></td><td><span class="ink">−2510.33</span></td>']:
+    check('第1欄の画像（HTML）', s_, html_1, '第1欄画像')
+for lab in ['結論', '理由']:
+    t_ = re.search(r'^- \*\*' + lab + r'\*\*：(.+)$', text, re.M).group(1)
+    check(f'第3欄の画像（HTML）の{lab}が記事と一字一句同じ', t_, html_3, '第3欄画像')
+judge('第3欄の画像：結論が理由より先（答案用紙どおり）', html_3.index('>結論<') < html_3.index('>理由<'))
+for s_ in ['H24_dai21mon_dai1ran_kansei.png', 'H24_dai21mon_dai3ran_kansei.png', '「−8024.35」「−2520.22」', '「−8033.30」「−2510.33」']:
+    check('完成形プロンプトの第1欄・第3欄', s_, form, '登記申請書')
+for s_ in ['これで問1のK点とL点がそろったわ。第1欄に書くと、こうなるの', '第3欄に書くと、こうなるわ']:
+    check('2026-10-02の画像の挿入位置の文言', s_)
+# 注の書き分け（問題文の注・別紙図面の注。2026-10-02追加）
+bare = [m.start() for m in re.finditer(r'注\d', text)
+        if not (text[:m.start()].endswith(('問題文の', '別紙図面の', '別紙図面の下の', '『')))]  # 『注3』は番号そのものの話
+judge(f'注の番号の前に「問題文の」「別紙図面の」がある（なし: {[text[p - 8:p + 2] for p in bare]}）', not bare)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成24年度問題21（土地）〜'

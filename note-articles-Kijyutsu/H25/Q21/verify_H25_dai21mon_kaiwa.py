@@ -163,28 +163,65 @@ for s in AGAROOT:
     check('アガルートの解答例と一致', s)
 judge('過去問集の置き換えた日付（平成30年）・改題の説明が記事にない（2026-09-30、ユーザー指示）', '平成30年' not in text and '過去問集' not in text)
 
+# ---- 真数表の別解・本番で解く順番・作図範囲（2026-10-02追加） ----
+T_SIN8, T_COS8, T_SIN7, T_COS7, T_SIN5, T_SIN13 = 0.14201, 0.98986, 0.13271, 0.99115, 0.10057, 0.23172
+judge('tan 0°38′06″＝0.18÷16.24＝0.01108', f'{0.18 / 16.24:.5f}' == '0.01108')
+dXB, dYB = 11.76 * T_SIN8, 11.76 * T_COS8
+GF_T = 19.27 * T_SIN5 / T_SIN13
+dXF, dYF = GF_T * T_SIN7, GF_T * T_COS7
+for lab, v in [('南へ（B）', dXB), ('東へ（B）', dYB), ('GF（真数表）', GF_T), ('南へ（F）', dXF), ('東へ（F）', dYF),
+               ('B X', 153.30 - dXB), ('B Y', 159.78 + dYB), ('F X', 139.19 - dXF), ('F Y', 162.08 + dYF)]:
+    check(f'真数表の別解 {lab}', fmt_num(v))
+judge('真数表の別解のB・Fが答えと同じ', r2(P(153.30 - dXB, 159.78 + dYB)) == B and r2(P(139.19 - dXF, 162.08 + dYF)) == F)
+for s_ in ['180° − 0°38′06″ ＝ 179°21′54″', '98°09′52″で、東から南へ8°09′52″', 'sin 166°36′04″ ＝ sin 13°23′56″ ＝ 0.23172',
+           '- **①**：問を先に読み、注を仕分ける', '- **②**：問2の文章（第2欄）を書き切る', '- **③**：問3の申請書の（ロ）の地積以外の欄を埋める',
+           '- **⑤**：F点の正弦定理', '（イ）の141も、調査素図の注4の141.69730を1㎡未満で切り捨てれば出ます',
+           '座標が要るのは（ロ）の113.90と地積測量図だけです', '横約92mm', '縦約67mm', '第4欄の枠は横約29cm・縦約21cm']:
+    check('2026-10-02の追加', s_)
+judge('基準点まで入れた大きさ 23.06m・16.75m', f'{(A102.imag - A101.imag) * 4:.0f}' == '92' and f'{(A102.real - A100.real) * 4:.0f}' == '67')
+
+# ---- 第1欄・第2欄の完成形（申請書でない解答欄。2026-10-02追加） ----
+html_1 = open(os.path.join(HERE, 'zu', 'H25_dai21mon_dai1ran_kansei.html'), encoding='utf-8').read()
+html_2 = open(os.path.join(HERE, 'zu', 'H25_dai21mon_dai2ran_kansei.html'), encoding='utf-8').read()
+for s_ in ['第１欄　Ｂ点及びＦ点の座標値', 'Ｘ座標（m）', 'Ｙ座標（m）', '<td>B点</td><td><span class="ink">151.63</span></td><td><span class="ink">171.42</span></td>',
+           '<td>F点</td><td><span class="ink">138.08</span></td><td><span class="ink">170.37</span></td>']:
+    check('第1欄の画像（HTML）', s_, html_1, '第1欄画像')
+dai2_text = re.search(r'^- \*\*第2欄\*\*：(.+)$', text, re.M).group(1)
+check('第2欄の画像（HTML）見出し', '第２欄　山川一郎及び海川二郎に対して説明すべき内容', html_2, '第2欄画像')
+check('第2欄の画像（HTML）が記事の文章と一字一句同じ', dai2_text, html_2, '第2欄画像')
+for s_ in ['H25_dai21mon_dai1ran_kansei.png', 'H25_dai21mon_dai2ran_kansei.png', '151.63」「171.42', '138.08」「170.37',
+           '山川一郎及び海川二郎に対して説明すべき内容']:
+    check('完成形プロンプトの第1欄・第2欄', s_, form, '登記申請書')
+
 # ---- 付属プロンプトとの整合 ----
 a = base.index('あなたは土地家屋調査士試験の教材デザイナーです。')
 b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-n_fig = len(re.findall(r'^- \*\*図\d：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（7枚）', n_fig == 7)
-for i in range(1, 8):
-    judge(f'作図済みPNG 図{i}', any(f.startswith(f'H25_dai21mon_zu0{i}_') and f.endswith('.png')
+n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
+judge(f'解説図プロンプトの図の数 {n_fig}枚（10枚）', n_fig == 10)
+for i in range(1, 11):
+    judge(f'作図済みPNG 図{i}', any(f.startswith(f'H25_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
-nums = [int(m) for m in re.findall(r"new_figure\('図(\d)　", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, 8)))
+nums = [int(m) for m in re.findall(r"(?:new_figure\(|fixed_figure\(|fig\.suptitle\()'図(\d+)　", draw)]
+judge(f'作図スクリプトの図のタイトル番号が1から10まで（{sorted(nums)}）', sorted(nums) == list(range(1, 11)))
+judge('作図スクリプトの fit がすべて pad_aspect=True', all('pad_aspect=True' in l for l in draw.splitlines()
+                                                         if re.match(r'\s*fit\(', l)))
 for s in ['（151.63, 171.42）', '（138.08, 170.37）', '（151.84, 181.30）', '（137.52, 174.55）', '（151.37, 148.18）',
           '（137.73, 173.02）', '179°21′53.91″', '278°47′58″', '98°09′51.91″', '7°37′35″', '5°46′21″', '166°36′04″',
-          '8.3638…', '113.90㎡', '141㎡', '113.30', '255.6056', '254.90', '横約77mm・縦約57mm', '平成25年8月19日']:
+          '8.3638…', '113.90㎡', '141㎡', '113.30', '255.6056', '254.90', '横約77mm・縦約57mm', '平成25年8月19日',
+          '横約92mm・縦約67mm', '横約29cm・縦約21cm', '0.01108', '1.6700…', '11.6407…', '8.3634…', '1.1099…', '8.2894…',
+          '151.6299…', '171.4207…', '138.0800…', '170.3694…']:
     check('解説図プロンプトの数値', s, fig, '解説図')
     check('作図スクリプトの数値', s, draw, '作図')
     check('記事の数値', s.replace('㎡', ''), text)
 # 画像挿入の位置の文言が記事にあるか
-for s in ['GDが真東向きなのが、F点の計算を楽にしてくれるわ', '2.50m！ 観測データの平面距離とぴったりです。',
-          '塀がほぼ南北に通っているのも調査素図どおりです', '距離が合えば十分よ', '採点者に伝わるわ',
-          '（ロ）の行は最初から宅地で書けるわ', '一直線に描かないこと']:
+for s in ['GDが真東向きなのが、F点の計算を楽にしてくれるわ', '座標を出す前から（イ）の地積が分かるのよ',
+          '2.50m！ 観測データの平面距離とぴったりです。',
+          '塀がほぼ南北に通っているのも調査素図どおりです', 'どちらの解き方でも同じ点に着く、と知っておくことが大事よ',
+          '距離が合えば十分よ', '登記記録と現況の違いも、図で並べておきます',
+          '（ロ）の行は最初から宅地で書けるわ', '基準点まで縮尺どおりに十分入るわ',
+          'F点で詰まっても、①〜④で第2欄と申請書の大部分とB点が先に点になるんですね']:
     check('図の挿入位置の文言', s)
     check('図の挿入位置の文言（プロンプト側）', s, fig, '解説図')
 for s in ['平成25年８月23日　申請　Ａ地方法務局', '土地一部地目変更・分筆登記', '地積測量図　代理権限証書',
@@ -237,13 +274,35 @@ same = []
 for i, l in enumerate(lines):
     if l.rstrip() in ('**トリ先生**', '**藍子**'):
         j = i + 2
-        while j < len(lines) and not lines[j].strip():
+        while j < len(lines) and (not lines[j].strip() or lines[j].startswith('> 【画像挿入】')):
             j += 1
         if j < len(lines) and lines[j].rstrip() == l.rstrip():
             same.append(i + 1)
-judge(f'同じ話者のセリフの連続: {same}', not same)
+judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも含む）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図7＋添削1＋完成形1＝計9か所の想定）', n_marker == 9)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図10＋第1欄・第2欄2＋添削1＋完成形1＝計14か所の想定）', n_marker == 14)
+# マーカーの順とPNGの対応（2026-10-02追加）。マーカーの文言の頭で、記事の順にPNGと1対1に対応させる
+ORDER = [('北を上にして座標どおりに描き直した全体図', 'zu01_zentaizu'), ('注の仕分けの整理図', 'zu02_chu_shiwake'),
+         ('A101からの放射でB点を求める図', 'zu03_B_housha'), ('三角形G・D・Fの正弦定理でF点を求める図', 'zu04_F_seigen'),
+         ('三角関数真数表の値で解く別解の図', 'zu05_shinsuuhyou_betsukai'), ('第1欄の完成形', 'dai1ran_kansei'),
+         ('C点とE点を延長で求め', 'zu06_C_E_uradzuke'), ('第2欄の完成形', 'dai2ran_kansei'),
+         ('一筆に地目は一つの図', 'zu07_ippitsu_ichimoku'), ('分筆後の区画と地番・地目・地積の図', 'zu08_bunpitsu_chiban'),
+         ('登記申請書「申請人」欄と土地の表示', 'toukishinseisho_machigai'), ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'),
+         ('地積測量図（5番1・5番2）の完成見本', 'zu09_chiseki_sokuryouzu'), ('本番で解く順番の図', 'zu10_toku_junban')]
+markers = [l[len('> 【画像挿入】'):] for l in lines if l.startswith('> 【画像挿入】')]
+judge('マーカーの順がPNGの対応表どおり', len(markers) == len(ORDER) and all(m.startswith(k) for m, (k, _) in zip(markers, ORDER)))
+pngs = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
+judge(f'zu/ のPNGがマーカーと1対1（{len(pngs)}枚）', sorted(f'H25_dai21mon_{v}.png' for _, v in ORDER) == pngs)
+for _, v in ORDER:
+    png = os.path.join(HERE, 'zu', f'H25_dai21mon_{v}.png')
+    if os.path.exists(png):
+        w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
+        want = (w == 1600 and h == 1200) if v.startswith('zu') else (w == 1200 and (h > w or 'ran' in v))
+        judge(f'{v}.png の大きさ（{w}×{h}px）', want)
+# 注の書き分け（問題文の注・調査素図の注。2026-10-02追加）
+bare = [m.start() for m in re.finditer(r'注\d', text) if not (text[max(0, m.start() - 4):m.start()] == '問題文の'
+        or text[max(0, m.start() - 5):m.start()] == '調査素図の')]
+judge(f'注の番号の前に「問題文の」「調査素図の」がある（なし: {[text[p - 8:p + 2] for p in bare]}）', not bare)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成25年度問題21（土地）〜'
