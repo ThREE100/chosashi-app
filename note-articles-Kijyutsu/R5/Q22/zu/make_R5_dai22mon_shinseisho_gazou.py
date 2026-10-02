@@ -1,13 +1,15 @@
 """令和5年度 第22問（建物）登記申請書の画像（完成形、添削）を、HTML＋ヘッドレスブラウザでPNGに書き出す。
 
 - 完成形：`../prompt_R5_dai22mon_toukishinseisho_gazou.md` の記入データどおり。縦長（横1200px）。
-  欄の形は答案用紙（第2欄）に合わせる：申請の日付・提出先は印刷済み（令和5年10月12日　申請　Ａ地方法務局）、
-  代理人は印刷の「（略）」。一棟の建物の表示は所在2段（2段目の右端に原因）・建物の名称・①構造・②床面積（2列）・原因。
-  敷地権の目的である土地の表示、区分した建物の表示（3行。2行目の家屋番号の位置に印刷の点線枠「所在（省略）」と「（省略）」）、
-  敷地権の表示の順。答案用紙は試験の答案用紙を収録したアガルートの過去問集の「第22問 答案用紙（その1）（その2）」で確認した
+  欄の形は試験の答案用紙（`../touan_youshi/R5_dai22mon_touan_youshi.pdf` の1ページ目。A3横）の第2欄に合わせる：
+  申請の日付・提出先は申請人の欄の上に印刷済み（令和5年10月12日　申請　Ａ地方法務局）、代理人は印刷の「（略）」、登録免許税の欄あり。
+  一棟の建物の表示は所在2段（2段目は左の広い枠と右の狭い枠）・建物の名称（2枠）・①構造・②床面積（2列）・原因及びその日付。
+  答案用紙の右の列の、敷地権の目的である土地の表示、区分した建物の表示（3行。見出しは「主たる建物又は附属建物」。
+  2行目は家屋番号・建物の名称の欄にまたがる点線の枠「所在　（省略）」と、家屋番号の欄の「（省略）」が印刷済み）、
+  敷地権の表示を、左の列の下に積む。列の幅の比は答案用紙の罫線の位置から取った
 - 添削　：`../prompt_R5_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
-- 第1欄（問1のア〜オ）・第4欄（問4の①〜⑤）：申請書でない解答欄も、記号ごとの記入欄の形で別の画像にする（横1200px）。
-  試験の答案用紙そのものはリポジトリにないので、欄の見出しと記号・記入欄だけの簡素な形にしている
+- 第1欄（問1のア〜オ）・第4欄（問4の①〜⑤）：申請書でない解答欄も別の画像にする（横1200px）。
+  試験の答案用紙どおり、記号と記入欄が2組ずつ横に並ぶ3段（ア｜イ／ウ｜エ／オ、①｜②／③｜④／⑤。3段目の右は欄なし）
 
 CSSと部品の作りは `R7/Q22/zu/make_R7_dai22mon_shinseisho_gazou.py` と同じ形にしている。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP、なければIPA明朝・IPAゴシック）
@@ -52,6 +54,15 @@ table.t td.genin {{ font-size: 17px; }}
 table.t td .ink {{ font-size: 19px; }}
 table.t td.genin .ink {{ font-size: 18px; }}
 .omit {{ display: inline-block; border: 1.5px dashed #333; padding: 4px 14px; font-size: 17px; }}
+table.t td.omitcell {{ position: relative; vertical-align: bottom; padding-bottom: 16px; font-size: 17px; }}
+.omitbox {{ position: absolute; left: 30%; top: 16px; width: 235%; height: 40px; border: 1.5px dashed #333;
+            background: #fff; font-size: 17px; line-height: 37px; padding-left: 10px; white-space: nowrap; z-index: 2; }}
+table.stack {{ margin-top: 0; border-top: none; }}
+table.g {{ border-collapse: collapse; table-layout: fixed; width: 100%; }}
+table.g td {{ border: 2px solid #111; height: 76px; font-size: 24px; }}
+table.g td.k {{ text-align: center; }}
+table.g td.v {{ padding-left: 22px; }}
+table.g td.none {{ border-left: 2px solid #111; border-right: none; border-bottom: none; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 34px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 添削画像 */
@@ -108,42 +119,49 @@ def area_bubun(floors):
     return f'<td class="entry int">{ints}</td><td class="entry dec">{decs}</td>'
 
 
-# ---- 一棟の建物の表示（答案用紙の形） ----
-ITTOU_COLS = ('<colgroup><col style="width:5%"><col style="width:9%"><col style="width:11%"><col style="width:14%">'
-              '<col style="width:11%"><col style="width:4%"><col style="width:13%"><col style="width:4%">'
-              '<col style="width:29%"></colgroup>')
+# ---- 一棟の建物の表示（答案用紙の形。列の境は答案用紙の罫線の位置：所在の2段目の区切りと2列目の床面積の小数点の点線が同じ位置） ----
+ITTOU_COLS = ('<colgroup><col style="width:5.8%"><col style="width:13.7%"><col style="width:11.1%"><col style="width:14.5%">'
+              '<col style="width:8.6%"><col style="width:3.9%"><col style="width:10.6%"><col style="width:8.6%">'
+              '<col style="width:23.2%"></colgroup>')
 
 
 def ittou_table(shozai, kouzou, floors1, floors2=(), genin=''):
+    i1 = br(*[ink(f'{k}　{a}' if k else a) for k, a, _ in floors1])
+    d1 = br(*[ink(b) for _, _, b in floors1])
+    i2 = br(*[ink(f'{k}　{a}' if k else a) for k, a, _ in floors2])
+    d2 = br(*[ink(b) for _, _, b in floors2])
     return (f'<table class="t">{ITTOU_COLS}'
             f'<tr><td class="vert" rowspan="6">一棟の建物の表示</td>'
             f'<td class="lab2" rowspan="2">所　在</td><td class="val" colspan="7">{shozai}</td></tr>'
             f'<tr><td class="val" colspan="5"></td><td class="val genin" colspan="2"></td></tr>'
             f'<tr><td class="lab2 val" colspan="2">建物の名称</td><td class="val" colspan="3"></td>'
             f'<td class="val" colspan="3"></td></tr>'
-            f'<tr><td class="head" colspan="2">①構　造</td><td class="head" colspan="4">②床　面　積<br>'
+            f'<tr><td class="head" colspan="2">①構　造</td><td class="head" colspan="5">②床　面　積<br>'
             f'<span style="display:inline-block;width:45%">m²</span><span style="display:inline-block;width:45%">m²</span></td>'
-            f'<td class="head" colspan="2">原因及びその日付</td></tr>'
-            f'<tr><td class="entry center" colspan="2">{kouzou}</td>{area(floors1)}{area(floors2)}'
-            f'<td class="entry genin" colspan="2">{genin}</td></tr>'
+            f'<td class="head">原因及びその日付</td></tr>'
+            f'<tr><td class="entry center" colspan="2">{kouzou}</td>'
+            f'<td class="entry int">{i1}</td><td class="entry dec">{d1}</td>'
+            f'<td class="entry int" colspan="2">{i2}</td><td class="entry dec">{d2}</td>'
+            f'<td class="entry genin">{genin}</td></tr>'
             f'</table>')
 
 
 SHIKICHI_MOKUTEKI = (
-    '<table class="t"><colgroup><col style="width:8%"><col style="width:11%"><col style="width:19%"><col style="width:12%">'
-    '<col style="width:14%"><col style="width:7%"><col style="width:29%"></colgroup>'
-    '<tr><td class="vert" rowspan="2" style="font-size:18px;letter-spacing:0.1em">敷地権の目的である<br>土地の表示</td>'
-    '<td class="head">①土地の<br>符号</td><td class="head">②所在及び地番</td><td class="head">③地目</td>'
-    '<td class="head" colspan="2">④地積　m²</td><td class="head">原因及びその日付</td></tr>'
+    '<table class="t"><colgroup><col style="width:5.7%"><col style="width:10.7%"><col style="width:23.1%"><col style="width:13.9%">'
+    '<col style="width:14.4%"><col style="width:8.7%"><col style="width:23.5%"></colgroup>'
+    '<tr><td class="vert" rowspan="2" style="font-size:16px;letter-spacing:0.05em">敷地権の目的である<br>土地の表示</td>'
+    '<td class="head">①土　地<br>の符号</td><td class="head">②所在及び地番</td><td class="head">③地目</td>'
+    '<td class="head" colspan="2">④地　積<br>m²</td><td class="head">原因及びその日付</td></tr>'
     '<tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry int"></td>'
     '<td class="entry dec"></td><td class="entry genin center">{genin}</td></tr></table>')
 
-KUBUN_COLS = ('<colgroup><col style="width:6%"><col style="width:12%"><col style="width:9%"><col style="width:10%">'
-              '<col style="width:10%"><col style="width:14%"><col style="width:13%"><col style="width:5%">'
-              '<col style="width:21%"></colgroup>')
-KUBUN_HEAD = ('<td class="head">家屋番号</td><td class="head">建物の<br>名称</td><td class="head">主である<br>建物又は<br>附属建物</td>'
-              '<td class="head">①種　類</td><td class="head">②構　造</td><td class="head" colspan="2">③床面積<br>m²</td>'
-              '<td class="head">原因及び<br>その日付</td>')
+KUBUN_COLS = ('<colgroup><col style="width:5.7%"><col style="width:10.7%"><col style="width:10.9%"><col style="width:10.9%">'
+              '<col style="width:9.6%"><col style="width:14.4%"><col style="width:12.9%"><col style="width:6.1%">'
+              '<col style="width:18.8%"></colgroup>')
+KUBUN_HEAD = ('<td class="head">家屋<br>番号</td><td class="head">建物の<br>名　称</td>'
+              '<td class="head" style="font-size:16px;line-height:1.2">主たる<br>建物又<br>は附属<br>建　物</td>'
+              '<td class="head">①種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床面積<br>m²</td>'
+              '<td class="head">原因及びその日付</td>')
 
 
 def kubun_row(kaoku, kind, struct, floors, genin, bubun=True):
@@ -154,9 +172,10 @@ def kubun_row(kaoku, kind, struct, floors, genin, bubun=True):
 
 
 def gappei_row(kind, struct, floors, genin):
-    """2行目（合併後の建物）：家屋番号・建物の名称・主附の位置に印刷の点線枠「所在（省略）」と「（省略）」"""
-    return (f'<tr><td class="entry" colspan="3" style="vertical-align:top;padding-top:14px">'
-            f'<span class="omit">所在　　（省略）</span><br><span style="font-size:17px">（省略）</span></td>'
+    """2行目（合併後の建物）：答案用紙どおり、家屋番号・建物の名称の欄にまたがる点線の枠「所在　（省略）」（印刷）と、
+    家屋番号の欄の「（省略）」（印刷）。欄の罫線は点線の枠の中だけ途切れる"""
+    return (f'<tr><td class="entry omitcell"><div class="omitbox">所在　　（省略）</div>（省略）</td>'
+            f'<td class="entry"></td><td class="entry"></td>'
             f'<td class="entry center">{kind}</td><td class="entry center">{struct}</td>{area(floors)}'
             f'<td class="entry genin">{genin}</td></tr>')
 
@@ -173,21 +192,23 @@ ROW3 = kubun_row(ink('Ｂ町一丁目<br>３番９の２'), ink('居宅'), ink(S
 KUBUN_SHIKICHI = (
     f'<table class="t">{KUBUN_COLS}'
     f'<tr><td class="vert" rowspan="4">区分した建物の表示</td>{KUBUN_HEAD}</tr>'
-    f'{ROW1}{ROW2}{ROW3}'
-    f'<tr><td class="vert" rowspan="2">敷地権の表示</td><td class="head">①土地の<br>符号</td>'
-    f'<td class="head" colspan="3">②敷地権の種類</td><td class="head" colspan="2">③敷地権の割合</td>'
-    f'<td class="head" colspan="3">原因及びその日付</td></tr>'
-    f'<tr><td class="entry"></td><td class="entry" colspan="3"></td><td class="entry" colspan="2"></td>'
-    f'<td class="entry genin center" colspan="3">{ink("記載不要")}</td></tr>'
+    f'{ROW1}{ROW2}{ROW3}</table>'
+    f'<table class="t stack"><colgroup><col style="width:5.7%"><col style="width:15.7%"><col style="width:17.9%">'
+    f'<col style="width:28.9%"><col style="width:31.8%"></colgroup>'
+    f'<tr><td class="vert" rowspan="2">敷地権の表示</td><td class="head">①土地の符号</td>'
+    f'<td class="head">②敷地権の種類</td><td class="head">③敷地権の割合</td>'
+    f'<td class="head">原因及びその日付</td></tr>'
+    f'<tr><td class="entry"></td><td class="entry"></td><td class="entry"></td>'
+    f'<td class="entry genin center">{ink("記載不要")}</td></tr>'
     f'</table>')
 
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
 <div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('区分建物表題部変更・合併登記')}</div></div>
-<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:118px">{ink(br('建物図面　各階平面図　登記識別情報　印鑑証明書', '所有権証明書　代理権限証書'))}</div></div>
-<div class="dateline">令和５年10月12日　申請　　Ａ地方法務局</div>
-<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:110px">{ink('Ａ市Ｂ町一丁目３番地９　甲田栄一')}</div></div>
-<div class="plainrow"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
+<div class="row"><div class="lab">添 付 書 類</div><div class="box" style="height:118px">{ink(br('建物図面　各階平面図　登記識別情報　印鑑証明書', '所有権証明書　代理権限証書'))}</div></div>
+<div class="dateline">令和5年10月12日　申請　Ａ地方法務局</div>
+<div class="row"><div class="lab">申　請　人</div><div class="box" style="height:110px">{ink('Ａ市Ｂ町一丁目３番地９　甲田栄一')}</div></div>
+<div class="plainrow"><div class="lab">代　理　人</div><div class="ryaku">（略）</div></div>
 <div class="row"><div class="lab">登録免許税</div><div class="box" style="height:62px">{ink('金1,000円')}</div></div>
 {ittou_table(ink('Ａ市Ｂ町一丁目３番地９'), ink('軽量鉄骨造陸屋<br>根２階建'), [('1階', '83', '62'), ('2階', '73', '99')])}
 {SHIKICHI_MOKUTEKI.format(genin=ink('記載不要'))}
@@ -227,11 +248,14 @@ DAI4 = [('①', '規約証明書'), ('②', '敷地権'), ('③', '敷地利用�
 
 
 def anaume(title, rows, caption):
-    trs = ''.join(f'<tr><td class="lab2" style="height:70px;font-size:24px">{k}</td>'
-                  f'<td style="padding-left:24px">{ink(v)}</td></tr>' for k, v in rows)
+    """答案用紙どおり、記号と記入欄を2組ずつ横に並べた3段の欄（3段目は左の1組だけで、右は欄なし）。"""
+    cells = [f'<td class="k">{k}</td><td class="v">{ink(v)}</td>' for k, v in rows]
+    trs = ''.join(f'<tr>{cells[i]}{cells[i + 1] if i + 1 < len(cells) else "<td class=none colspan=2></td>"}</tr>'
+                  for i in range(0, len(cells), 2))
     return page(f'''<div class="page">
-<div style="font-size:26px;font-weight:bold;font-family:'Noto Sans CJK JP',sans-serif;margin-bottom:6px">{title}</div>
-<table class="t"><colgroup><col style="width:16%"><col style="width:84%"></colgroup>{trs}</table>
+<div style="font-size:26px;font-weight:bold;font-family:'Noto Sans CJK JP',sans-serif;margin-bottom:10px">{title}</div>
+<table class="g"><colgroup><col style="width:12%"><col style="width:38%"><col style="width:12%"><col style="width:38%">
+</colgroup>{trs}</table>
 <div class="caption">{caption}</div></div>''')
 
 

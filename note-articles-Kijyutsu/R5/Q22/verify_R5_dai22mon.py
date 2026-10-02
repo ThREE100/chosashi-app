@@ -170,11 +170,11 @@ markers = [l for l in lines if l.startswith('> 【画像挿入】')]
 PNGS = [('R5_dai22mon_dai1ran_kansei', '第1欄（問1）の完成形', 'wide'),
         ('R5_dai22mon_zu01_toku_junban', '本番で解く順番', (1600, 800)),
         ('R5_dai22mon_zu02_shikichi_henchou', '作図チェック用に計算した4辺の長さ', (1600, 1100)),
-        ('R5_dai22mon_zu03_tatemono_zumen', '建物図面の完成形（答案用紙の第3欄の建物図面の枠の中）', (1600, 1400)),
+        ('R5_dai22mon_zu03_tatemono_zumen', '建物図面の完成形（答案用紙の第3欄の建物図面の枠の中）', (1200, 2100)),
         ('R5_dai22mon_zu04_ayamari_hikaku', '左に「誤り＝全体7.30×11.80から2.70×4.50を引く', (1600, 950)),
         ('R5_dai22mon_zu05_1kai_kyuuseki', '1階の床面積求積図', (1600, 1100)),
         ('R5_dai22mon_zu06_2kai_kyuuseki', '2階の床面積求積図', (1600, 1100)),
-        ('R5_dai22mon_zu07_kakukai_heimenzu', '各階平面図の完成形（答案用紙の第3欄の各階平面図の枠の中）', (1800, 1100)),
+        ('R5_dai22mon_zu07_kakukai_heimenzu', '各階平面図の完成形（答案用紙の第3欄の各階平面図の枠の中）', (1200, 2100)),
         ('R5_dai22mon_zu08_2kai_kouji_zengo', '工事前と工事完了後で左右に並べた比較図', (1600, 950)),
         ('R5_dai22mon_toukishinseisho_machigai', '①誤答', 'tall'),
         ('R5_dai22mon_toukishinseisho_kansei', '第2欄（問2）の登記申請書の完成形', 'tall'),
@@ -219,7 +219,7 @@ def html_has(name, *needles):
 
 
 html_has('R5_dai22mon_toukishinseisho_kansei', '区分建物表題部変更・合併登記', '建物図面　各階平面図　登記識別情報　印鑑証明書',
-         '所有権証明書　代理権限証書', '令和５年10月12日　申請　　Ａ地方法務局', 'Ａ市Ｂ町一丁目３番地９　甲田栄一', '金1,000円',
+         '所有権証明書　代理権限証書', '令和5年10月12日　申請　Ａ地方法務局', 'Ａ市Ｂ町一丁目３番地９　甲田栄一', '金1,000円',
          '軽量鉄骨造陸屋<br>根２階建', '73</span>', '>99<', '②③令和5年10月6日構造変更、増築、3番9の2を合併',
          '3番9の1に合併', '所在　　（省略）', '記載不要', '1階部分', '>74<', '>72<', '>4<', '>61<', '>70<', '>21<',
          '2階　88', '>57<', '居宅')
@@ -246,5 +246,77 @@ for n in ['R5_dai22mon_zu02_shikichi_henchou', 'R5_dai22mon_zu08_2kai_kouji_zeng
     ok = n in fig
     ng += (not ok)
     print(('OK ' if ok else 'NG ') + '解説図プロンプト : ' + n)
+
+# ---- 試験の答案用紙（touan_youshi/。2026-10-02受領）の欄の形・印刷文字と、画像・作図スクリプトの一致 ----
+import pymupdf
+HERE = os.path.dirname(__file__)
+pdf = pymupdf.open(os.path.join(HERE, 'touan_youshi', 'R5_dai22mon_touan_youshi.pdf'))
+p1, p2 = (pg.get_text() for pg in pdf)
+flat1 = p1.replace('\n', '')
+for n in ['第1 欄', '第2 欄', '第4 欄', '登記の目的', '添付書類', '令和5 年10 月12 日', '申請　Ａ地方法務局', '登録免許税',
+          '①構　造', '②床　　面　　積', '建物の名称', '所在　（省略）', '（省略）', '②所在及び地番', '③地目', '①種類',
+          '②敷地権の種類', '③敷地権の割合', '主たる', '建物又', 'は附属']:
+    ok = n in p1 or n in flat1
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '答案用紙1ページ目の印刷 : ' + n)
+ok = '主である' not in p1
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '答案用紙の見出しは「主たる建物又は附属建物」（「主である」ではない）')
+for n in ['第3 欄', '各　 階　 平　 面　 図', '建　 物　 図　 面', '家屋番号', '建物の所在', '作成者', '申請人', '縮尺',
+          '（略）', '（令和5 年〇月〇日作成）', '250', '500']:
+    ok = n in p2
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '答案用紙2ページ目の印刷 : ' + n)
+ok = p2.count('（略）') == 2 and p2.count('家屋番号') == 1 and p2.count('建物の所在') == 1
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '第3欄：（略）は作成者・申請人の2か所、家屋番号・建物の所在の欄は1つずつ（建物図面の側、各階平面図と兼用）')
+# 作図スクリプト（第3欄の枠）が答案用紙どおりか
+draw = open(os.path.join(ZU, 'draw_R5_dai22mon_kaisetsuzu.py'), encoding='utf-8').read()
+for n in ["PRINT_SAKUSEI = ('（略）', '（令和5年〇月〇日作成）', '250')", "PRINT_SHINSEI = ('（略）', '500')",
+          "'家屋番号'", "'建物の所在'", "'作　成　者'", "'申　請　人'", "'各　階　平　面　図'", "'建　物　図　面'",
+          "sheet_frame(m, 'right')", "sheet_frame(m, 'left')", "../touan_youshi/"]:
+    ok = n in draw
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '作図スクリプトの第3欄の枠 : ' + n)
+for n, cnt in [("'家屋番号'", 1), ("'建物の所在'", 1)]:
+    ok = draw.count(n) == cnt
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'作図スクリプト：{n} の欄は1か所（建物図面の側だけ）')
+# 申請書・第1欄・第4欄のHTMLの欄の形
+html_has('R5_dai22mon_toukishinseisho_kansei', '主たる<br>建物又<br>は附属<br>建　物', 'class="omitbox">所在　　（省略）</div>（省略）',
+         '家屋<br>番号', '建物の<br>名　称', '①土　地<br>の符号', '④地　積<br>m²', '②床　面　積', '>（略）<', '登録免許税',
+         '>①土地の符号<', '>②敷地権の種類<', '>③敷地権の割合<')
+html_has('R5_dai22mon_toukishinseisho_machigai', '主たる<br>建物又<br>は附属<br>建　物', 'class="omitbox">所在　　（省略）</div>（省略）')
+for name in ['R5_dai22mon_toukishinseisho_kansei', 'R5_dai22mon_toukishinseisho_machigai']:
+    h = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()
+    ok = '主である' not in h
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'{name}.html : 「主である」が残っていない')
+h = open(os.path.join(ZU, 'R5_dai22mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
+order = ['登記の目的', '添 付 書 類', '令和5年10月12日　申請　Ａ地方法務局', '申　請　人', '代　理　人', '登録免許税',
+         '一棟の建物の表示', '敷地権の目的である', '区分した建物の表示', '敷地権の表示</td>']
+pos = [h.find(n) for n in order]
+ok = all(p >= 0 for p in pos) and pos == sorted(pos)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '申請書の欄の順序（答案用紙の左の列→右の列）: ' + str(pos))
+for name, marks in [('R5_dai22mon_dai1ran_kansei', ['ア', 'イ', 'ウ', 'エ', 'オ']), ('R5_dai22mon_dai4ran_kansei', ['①', '②', '③', '④', '⑤'])]:
+    h = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()
+    rows = h.count('<tr>')
+    ok = rows == 3 and 'class=none colspan=2' in h and all(f'<td class="k">{k}</td>' in h for k in marks)
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'{name}.html : 2組ずつ横に並ぶ3段（3段目の右は欄なし）、記号{"".join(marks)}')
+# 記事：答案用紙の印刷に触れた会話
+check('第3欄は1枚の左右', '第3欄は1枚の用紙で、左半分が各階平面図、右半分が建物図面')
+check('申請人の（略）と縮尺', '下の申請人の欄には『（略）』が、縮尺の欄には『1／500』がもう印刷されている')
+check('作成者の（略）と縮尺', '作成者の欄には『（略）』と作成の日付、縮尺の欄には『1／250』がもう印刷されている')
+check('区分した建物の表示の2行目の印刷', '家屋番号と建物の名称の欄にまたがる点線の枠の『所在　（省略）』と、家屋番号の欄の『（省略）』')
+# 「仮」の欄の形・答案用紙がないという記述が残っていないこと
+for fn in ['note_R5_dai22mon_tatemono_kaisetsu.md', 'prompt_R5_dai22mon_kaisetsuzu.md', 'prompt_R5_dai22mon_toukishinseisho_gazou.md',
+           'prompt_R5_dai22mon_toukishinseisho_machigai.md', 'zu/draw_R5_dai22mon_kaisetsuzu.py', 'zu/make_R5_dai22mon_shinseisho_gazou.py']:
+    t = open(os.path.join(HERE, fn), encoding='utf-8').read()
+    bad = [w for w in ['仮の', '（仮）', '仮の形', 'リポジトリにない', 'にならった', '令和何年', '確かめたら合わせて直す', '確かめたら、ここと'] if w in t]
+    ok = not bad
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'「仮」の記述なし : {fn} {bad}')
 
 print('NG件数:', ng)
