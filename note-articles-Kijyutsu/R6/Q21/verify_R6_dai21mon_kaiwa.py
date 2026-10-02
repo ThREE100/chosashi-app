@@ -285,8 +285,8 @@ for i, l in enumerate(lines):
             same.append(i + 1)
 judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＋第1欄・第5欄2＝計{N_FIG + 4}か所の想定）',
-      n_marker == N_FIG + 4)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＋第1欄・第2欄・第5欄3＝計{N_FIG + 5}か所の想定）',
+      n_marker == N_FIG + 5)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】令和6年度問題21（土地）〜'
@@ -309,6 +309,7 @@ PNGS = [('R6_dai21mon_zu10_chuu_shiwake', '問題文の注の仕分けの図', '
         ('R6_dai21mon_zu03_D_housha', 'D点を求める図', 'fig'),
         ('R6_dai21mon_zu04_hikkai_handan', '筆界の判断の比較図', 'fig'),
         ('R6_dai21mon_zu05_P_kousa', 'P点の求め方の図', 'fig'),
+        ('R6_dai21mon_dai2ran_kansei', '第2欄（問2）の完成形', 'wide'),
         ('R6_dai21mon_dai1ran_kansei', '第1欄（問1）の完成形', 'wide'),
         ('R6_dai21mon_zu06_hitsuyou_touki', '必要な登記の流れの図', 'fig'),
         ('R6_dai21mon_zu11_taikakusen', '対角線で出す別解の図', 'fig'),
@@ -338,7 +339,9 @@ for s in ['やっぱり（ア）は2です！', 'だから（イ）は9の野原
           '①が『土地の表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人』',
           '②はアが『地番』、イが『職権』、ウが『土地所在図又は地積測量図』ですね']:
     check('穴埋めの答えの語（会話）', s)
-for name, needles in [('R6_dai21mon_dai1ran_kansei', ['第1欄', '>ア<', '>イ<', '>ウ<', '>エ<', '２', '９', '５', '６']),
+check('穴埋めの答えの語（会話）', 'B点が（27.39, 54.17）、D点が（30.00, 60.78）、P点が（27.49, 60.82）です')
+for name, needles in [('R6_dai21mon_dai2ran_kansei', ['第2欄', 'Ｘ座標（m）', '>27.39<', '>54.17<', '>30.00<', '>60.78<', '>27.49<', '>60.82<']),
+                      ('R6_dai21mon_dai1ran_kansei', ['第1欄', '>ア<', '>イ<', '>ウ<', '>エ<', '２', '９', '５', '６']),
                       ('R6_dai21mon_dai5ran_kansei', ['第5欄', '>①<', '土地の表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人',
                                                       '地番', '職権', '土地所在図又は地積測量図'])]:
     h_ = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()

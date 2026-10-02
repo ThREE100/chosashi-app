@@ -9,6 +9,7 @@
 見本は `R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`（CSSと部品を同じ形にしている）。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
 実行: python3 note-articles-Kijyutsu/R7/Q21/zu/make_R7_dai21mon_shinseisho_gazou.py [出力フォルダ]
+- 座標の欄（R5・R6は第2欄、R7は第1欄・第4欄）も、答案用紙の座標値の表の形で別の画像にする（横1200pxの横長。2026-10-02追加）
 """
 import glob
 import os
@@ -172,11 +173,38 @@ dai2 = (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS
         f'<col style="width:41%"><col style="width:9%"><col style="width:41%"></colgroup>{trs}</table>'
         f'<div class="caption">令和7年度 土地家屋調査士試験 第21問 第2欄（問2）解答例</div></div></body></html>')
 
+
+# ---- 座標の欄（申請書でない解答欄。2026-10-02追加。答案用紙の座標値の表の形：左上の斜線の欄・X座標（m）・Y座標（m）） ----
+Z_CSS = '''
+.ranpage { padding: 50px 60px 34px; }
+.ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 14px; }
+table.zh { width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }
+table.zh td { border: 1.5px solid #111; height: 72px; font-size: 22px; text-align: center; vertical-align: middle; }
+table.zh td.diag { background: linear-gradient(to top right, transparent calc(50% - 1px), #111 50%, transparent calc(50% + 1px)); }
+table.zh td .ink { font-size: 28px; }
+'''
+
+
+def zahyou(head, rows, caption):
+    """rows: [(点名, X, Y)]"""
+    trs = ''.join(f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in rows)
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{Z_CSS}</style></head><body>'
+            f'<div class="ranpage"><div class="ranhead">{head}</div><table class="zh"><colgroup><col style="width:32%">'
+            f'<col style="width:34%"><col style="width:34%"></colgroup>'
+            f'<tr><td class="diag"></td><td>Ｘ座標（m）</td><td>Ｙ座標（m）</td></tr>{trs}</table>'
+            f'<div class="caption">{caption}</div></div></body></html>')
+
+
+dai1 = zahyou('第1欄', [('Ｄ点', '201.71', '114.41'), ('Ｋ点', '199.98', '131.88')],
+               '令和7年度 土地家屋調査士試験 第21問 第1欄（問1）解答例')
+dai4 = zahyou('第4欄', [('Ｊ点', '216.07', '116.94'), ('Ｌ点', '203.64', '131.88')],
+               '令和7年度 土地家屋調査士試験 第21問 第4欄（問4）解答例')
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
     pg = browser.new_page(viewport={'width': 1200, 'height': 200})
-    for name, html in [('R7_dai21mon_dai2ran_kansei', dai2), ('R7_dai21mon_toukishinseisho_kansei', kansei),
+    for name, html in [('R7_dai21mon_dai1ran_kansei', dai1), ('R7_dai21mon_dai2ran_kansei', dai2), ('R7_dai21mon_dai4ran_kansei', dai4), ('R7_dai21mon_toukishinseisho_kansei', kansei),
                        ('R7_dai21mon_toukishinseisho_machigai', machigai)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)

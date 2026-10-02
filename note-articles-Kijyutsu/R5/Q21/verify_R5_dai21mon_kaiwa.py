@@ -242,8 +242,8 @@ for (i1, s1), (i2, s2) in zip(speakers, speakers[1:]):
         same.append(i2)
 judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＋第1欄・第5欄2＝計{N_FIG + 4}か所の想定）',
-      n_marker == N_FIG + 4)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＋第1欄・第2欄・第5欄3＝計{N_FIG + 5}か所の想定）',
+      n_marker == N_FIG + 5)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】令和5年度問題21（土地）〜'
@@ -267,6 +267,7 @@ PNGS = [('R5_dai21mon_zu01_zentaizu', '全体図', 'fig'),
         ('R5_dai21mon_zu03_B_heikou', 'B点の求め方の図', 'fig'),
         ('R5_dai21mon_zu09_B_betsukai', 'B点の別解の図', 'fig'),
         ('R5_dai21mon_zu04_H_kousa', 'H点の求め方の図', 'fig'),
+        ('R5_dai21mon_dai2ran_kansei', '第2欄（問2）の完成形', 'wide'),
         ('R5_dai21mon_zu05_bunpitsu_kukaku', '8月の分筆の区画の比較図', 'fig'),
         ('R5_dai21mon_zu06_chiseki_sokuryouzu', '地積測量図（1番2・1番4）の完成見本', 'fig'),
         ('R5_dai21mon_zu07_bungouhitsu', '10月16日の分合筆の図', 'fig'),
@@ -293,7 +294,9 @@ check('問1 ア・イ（会話）', '（ア）は『一筆』、（イ）は『�
 check('問1 ア〜エ（会話）', '答案の第1欄は、アが『一筆』、イが『測量』、ウが『F点』、エが『J点』。')
 check('問5 ①〜④（会話）', '答案の第5欄は、①表題部所有者、②所有権、③異議、④職権。')
 check('問5 ③の対（会話）', '『承諾があるとき』じゃなくて、『異議がないとき』よ')
-for name, needles in [('R5_dai21mon_dai1ran_kansei', ['第1欄', '>ア<', '一筆', '測量', 'Ｆ点', 'Ｊ点']),
+check('問2 座標の欄（会話）', '答案の第2欄は、B点が（702.67, 702.62）、H点が（680.64, 702.62）。')
+for name, needles in [('R5_dai21mon_dai2ran_kansei', ['第2欄', 'Ｘ座標（m）', 'Ｂ点', '>702.67<', '>702.62<', 'Ｈ点', '>680.64<']),
+                      ('R5_dai21mon_dai1ran_kansei', ['第1欄', '>ア<', '一筆', '測量', 'Ｆ点', 'Ｊ点']),
                       ('R5_dai21mon_dai5ran_kansei', ['第5欄', '>①<', '表題部所有者', '所有権', '異議', '職権'])]:
     h = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()
     for n in needles:
