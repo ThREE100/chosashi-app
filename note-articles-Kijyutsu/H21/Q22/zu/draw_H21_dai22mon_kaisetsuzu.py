@@ -6,6 +6,9 @@
   - 敷地・建物図面（図1・図2）：原点＝3番4の北西の角（道路境界線と西の筆界の交点）
   - 各階（図4〜図7）：原点＝建物の北西の角（壁の中心線）
 - 断面（図3）：原点＝ロフトの床の西の端（押入の外壁の中心）、(東, 高さ)。Q() で (北＝高さ, 東) にする
+- 図2（建物図面）と図7（各階平面図）は、試験の答案用紙（その2）（public/kijutsu/H21-tatemono/a2.webp）の欄の枠の中に描く。
+  答案用紙（その2）は1枚の左半分が各階平面図、右半分が建物図面で、上の家屋番号・建物の所在の欄を両方で使い、
+  下に「作成者［職印］（平成21年8月23日作成）縮尺1/250」「申請人　縮尺1/500」が印刷されている（どちらも（略）の印刷はない）
 実行: python3 note-articles-Kijyutsu/H21/Q22/zu/draw_H21_dai22mon_kaisetsuzu.py [出力フォルダ]
 """
 import math
@@ -15,9 +18,9 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, '..', '..', '..', 'tools'))
 import matplotlib.pyplot as plt  # noqa: E402
-from matplotlib.patches import Polygon as MPoly  # noqa: E402
+from matplotlib.patches import Polygon as MPoly, Rectangle  # noqa: E402
 
-from zu_helpers import (Zu, new_figure, fit, xy, centroid, BLACK, GRAY, RED, BLUE, ORANGE, GREEN,  # noqa: E402
+from zu_helpers import (Zu, new_figure, fit, xy, centroid, setup_font, BLACK, GRAY, RED, BLUE, ORANGE, GREEN,  # noqa: E402
                         PURPLE)
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else HERE
@@ -171,21 +174,59 @@ def zu01():
     save(fig, [z], 'H21_dai22mon_zu01_shikichi_kakunin')
 
 
+INK = '#1a3a8f'   # 記入（濃い青）
+
+
+def cell(fig, x0, y0, x1, y1, text='', fs=14, ha='center', lw=1.6, color=BLACK):
+    """答案用紙の欄（図の座標 0〜1）。"""
+    fig.add_artist(Rectangle((x0, y0), x1 - x0, y1 - y0, transform=fig.transFigure, fill=False, lw=lw, ec=BLACK))
+    if text:
+        x = (x0 + x1) / 2 if ha == 'center' else x0 + 0.01
+        fig.text(x, (y0 + y1) / 2, text, ha=ha, va='center', fontsize=fs, color=color)
+
+
+def sheet_head(fig, left_title, right_title, top=0.905):
+    """答案用紙（その2）の上の欄：家屋番号（登記所が付けるので空欄）・建物の所在（両方の図で共用）と表題。"""
+    h = 0.045
+    if left_title:          # 各階平面図（左半分）：表題が左、家屋番号・所在の欄が右
+        fig.text(0.27, top - h / 2, left_title, ha='center', va='center', fontsize=20)
+        x0 = 0.50
+    else:                   # 建物図面（右半分）：家屋番号・所在の欄が左、表題が右
+        fig.text(0.74, top - h / 2, right_title, ha='center', va='center', fontsize=20)
+        x0 = 0.05
+    cell(fig, x0, top - h, x0 + 0.12, top, '家屋番号', fs=15)
+    cell(fig, x0 + 0.12, top - h, x0 + 0.30, top)
+    cell(fig, x0, top - 2 * h, x0 + 0.12, top - h, '建物の所在', fs=15)
+    cell(fig, x0 + 0.12, top - 2 * h, 0.95 if left_title else x0 + 0.45, top - h, 'A市B町二丁目3番地4', fs=15,
+         ha='left', color=INK)
+    return top - 2 * h
+
+
 def zu02():
-    fig, axes = new_figure('建物図面の完成形（縮尺500分の1）',
-                           '1階の形を壁の中心線で描く（不動産登記規則第82条第1項）。距離は外壁まで（問題文の注3）。\n'
-                           '北は道路後退線ではなく道路境界線（筆界）から3.10、西は1.00を2か所。建物の所在は「A市B町二丁目3番地4」',
-                           w=16, h=13)
-    ax = axes[0]
+    setup_font()
+    fig = plt.figure(figsize=(16, 14), dpi=100)
+    fig.patch.set_facecolor('white')
+    fig.suptitle('建物図面の完成形（答案用紙（その2）の右半分・縮尺500分の1で描く内容）', fontsize=21, weight='bold', y=0.985)
+    y_top = sheet_head(fig, None, '建　物　図　面')
+    cell(fig, 0.05, 0.135, 0.95, y_top, lw=1.8)
+    cell(fig, 0.05, 0.085, 0.17, 0.135, '申　請　人', fs=15)
+    cell(fig, 0.17, 0.085, 0.75, 0.135, '土野一郎', fs=15, color=INK)
+    cell(fig, 0.75, 0.085, 0.84, 0.135, '縮尺', fs=15)
+    cell(fig, 0.84, 0.085, 0.95, 0.135, '1/500', fs=15)
+    fig.text(0.5, 0.035, '1階の形を壁の中心線で描く（不動産登記規則第82条第1項）。距離は外壁まで（問題文の注3）。北は道路後退線ではなく\n'
+             '道路境界線（筆界）から3.10、西は1.00を2か所。家屋番号は登記所が付けるので空欄、申請人の欄は（略）の印刷がないので氏名を書く',
+             ha='center', va='center', fontsize=14)
+    ax = fig.add_axes([0.07, 0.15, 0.86, 0.65])
     z = Zu(ax, fontsize=13)
-    fit(ax, LOT, margin=0.10, extra=[xy(P(-4.0, -3.0)), xy(P(15.0, 16.2))], pad_aspect=True)
+    fit(ax, LOT, margin=0.06, extra=[xy(P(-4.0, -3.0)), xy(P(15.0, 16.2))], pad_aspect=True)
+    z.north_arrow()
     lot_lines(z)
     z.line(P(-3.6, 0), P(0, 0), color=BLACK, lw=1.6)
     z.line(P(10, 0), P(13.6, 0), color=BLACK, lw=1.6)
     z.line(P(-3.6, -1.80), P(13.6, -1.80), color=BLACK, lw=1.6)
     z.poly(B1, color=BLACK, lw=2.4)
-    z.north_arrow()
     wall_n, wall_w = DS - T / 2, DE - T / 2      # 北の外壁 3.10、西の外壁 1.00
+    assert round(wall_n, 2) == 3.10 and round(wall_w, 2) == 1.00
     arrow(z, P(1.9, 0), P(1.9, wall_n))
     arrow(z, P(0, DS + 0.7), P(wall_w, DS + 0.7))
     arrow(z, P(0, DS + 6.6), P(wall_w, DS + 6.6))
@@ -318,11 +359,23 @@ def zu06():
 
 
 def zu07():
-    fig, axes = new_figure('各階平面図の完成形（縮尺250分の1）',
-                           '各階の別・形・1階の位置・周囲の長さ・床面積と求積方法を書く（不動産登記規則第83条第1項）。\n'
-                           '2階・3階には1階の位置を点線で重ねる（準則第53条）',
-                           w=18, h=9.4, ncols=3)
-    fig.subplots_adjust(top=0.85, wspace=0.10)
+    setup_font()
+    fig = plt.figure(figsize=(18, 11.5), dpi=100)
+    fig.patch.set_facecolor('white')
+    fig.suptitle('各階平面図の完成形（答案用紙（その2）の左半分・縮尺250分の1で描く内容）', fontsize=21, weight='bold', y=0.985)
+    y_top = sheet_head(fig, '各　階　平　面　図', None)
+    cell(fig, 0.05, 0.145, 0.95, y_top, lw=1.8)
+    cell(fig, 0.05, 0.085, 0.15, 0.145, '作　成　者', fs=15)
+    cell(fig, 0.15, 0.085, 0.77, 0.145)
+    fig.text(0.17, 0.115, '土地家屋調査士　家野二郎', ha='left', va='center', fontsize=15, color=INK)
+    fig.text(0.75, 0.100, '（平成21年8月23日作成）', ha='right', va='center', fontsize=14)
+    cell(fig, 0.71, 0.118, 0.76, 0.140, '職印', fs=13, lw=1.2)
+    cell(fig, 0.77, 0.085, 0.85, 0.145, '縮尺', fs=15)
+    cell(fig, 0.85, 0.085, 0.95, 0.145, '1/250', fs=15)
+    fig.text(0.5, 0.035, '各階の別・形・1階の位置・周囲の長さ・床面積と求積方法を書く（不動産登記規則第83条第1項）。'
+             '2階・3階には1階の位置を点線で重ねる（準則第53条）。作成者の欄は（略）の印刷がないので書く',
+             ha='center', va='center', fontsize=14)
+    axes = [fig.add_axes([0.06 + k * 0.30, 0.16, 0.28, 0.60]) for k in range(3)]
     zs = []
     for ax, title, shape, kyu in [
             (axes[0], '1階', F1, '6.37×1.82＝11.5934\n5.46×5.46＝29.8116\n計 41.4050\n床面積 41.40㎡'),
@@ -330,6 +383,8 @@ def zu07():
             (axes[2], '3階', F3, '4.55×1.82＝8.2810\n床面積 8.28㎡')]:
         z = Zu(ax, fontsize=13)
         fit(ax, F1, margin=0.12, extra=[xy(P(2.73, 12.4)), xy(P(-1.0, -1.0)), xy(P(7.4, -1.0))], pad_aspect=True)
+        if shape is F3:
+            z.north_arrow()
         if shape is not F1:
             z.poly(F1, color=GRAY, lw=1.2, ls='--')
         z.poly(shape, color=BLACK, lw=2.2)
@@ -342,7 +397,7 @@ def zu07():
             z.free_text(P(5.2, 1.82), '0.91', fs=12, offsets=((0, 18), (0, 22)))
         else:
             dims(z, shape, ['4.55', '1.82', None, None])
-        z.free_text(P(2.73, 10.1), kyu, fs=13)
+        z.free_text(P(2.73, 10.1), kyu, fs=13, color=INK)
         ax.set_title(title, fontsize=18, weight='bold')
         zs.append(z)
     save(fig, zs, 'H21_dai22mon_zu07_kakai_heimenzu')

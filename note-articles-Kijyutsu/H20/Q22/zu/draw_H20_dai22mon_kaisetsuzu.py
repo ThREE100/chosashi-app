@@ -4,6 +4,9 @@
 建物の座標は (東, 南) で持ち（原点は一棟の建物の北西の角の、壁の中心線の交点）、zu_helpers の (北, 東) には
 B() で変換する（北 ＝ −南）。内法の図（図4〜図8）は、その区分建物の北西の角の内側の線を原点にした座標で描く。
 敷地は座標値一覧表がないので、配置図の距離（外壁まで。図の（注）3）と壁厚15cm（図の（注）2）から組み立てた座標を使う。
+図3（建物図面）と図7（各階平面図）は、試験の答案用紙（その3）（public/kijutsu/H20-tatemono/a3.webp）の欄の枠の中に描く。
+答案用紙（その3）は1枚の左半分が各階平面図、右半分が建物図面で、上の家屋番号・建物の所在の欄を両方で使い、
+下に「作成者（略）（平成20年8月24日作成）縮尺1/250」「申請人（略）縮尺1/500」が印刷されている。
 実行: python3 note-articles-Kijyutsu/H20/Q22/zu/draw_H20_dai22mon_kaisetsuzu.py [出力フォルダ]
 """
 import os
@@ -12,9 +15,9 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, '..', '..', '..', 'tools'))
 import matplotlib.pyplot as plt  # noqa: E402
-from matplotlib.patches import Polygon as MPoly  # noqa: E402
+from matplotlib.patches import Polygon as MPoly, Rectangle  # noqa: E402
 
-from zu_helpers import (Zu, new_figure, fit, xy, centroid, BLACK, GRAY, RED, BLUE, ORANGE, GREEN,  # noqa: E402
+from zu_helpers import (Zu, new_figure, fit, xy, centroid, setup_font, BLACK, GRAY, RED, BLUE, ORANGE, GREEN,  # noqa: E402
                         PURPLE)
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else HERE
@@ -224,19 +227,55 @@ def zu02():
     save(fig, [z], 'H20_dai22mon_zu02_shikichi_henchou')
 
 
-# ---- 図3：建物図面（ロ）の完成形 ----
+INK = '#1a3a8f'   # 記入（濃い青）
+
+
+def cell(fig, x0, y0, x1, y1, text='', fs=14, ha='center', lw=1.6, color=BLACK):
+    """答案用紙の欄（図の座標 0〜1）。"""
+    fig.add_artist(Rectangle((x0, y0), x1 - x0, y1 - y0, transform=fig.transFigure, fill=False, lw=lw, ec=BLACK))
+    if text:
+        x = (x0 + x1) / 2 if ha == 'center' else x0 + 0.01
+        fig.text(x, (y0 + y1) / 2, text, ha=ha, va='center', fontsize=fs, color=color)
+
+
+def sheet_head(fig, left_title, right_title, top=0.905):
+    """答案用紙（その3）の上の欄：家屋番号・建物の所在（各階平面図と建物図面で共用）と表題。"""
+    h = 0.045
+    if left_title:          # 各階平面図（左半分）：表題が左、家屋番号・所在の欄が右
+        fig.text(0.27, top - h / 2, left_title, ha='center', va='center', fontsize=20)
+        x0 = 0.50
+    else:                   # 建物図面（右半分）：家屋番号・所在の欄が左、表題が右
+        fig.text(0.74, top - h / 2, right_title, ha='center', va='center', fontsize=20)
+        x0 = 0.05
+    cell(fig, x0, top - h, x0 + 0.12, top, '家屋番号', fs=15)
+    cell(fig, x0 + 0.12, top - h, x0 + 0.30, top, 'C町六丁目5番6の2', fs=15, color=INK)
+    cell(fig, x0, top - 2 * h, x0 + 0.12, top - h, '建物の所在', fs=15)
+    cell(fig, x0 + 0.12, top - 2 * h, 0.95 if left_title else x0 + 0.45, top - h, 'A市C町六丁目5番地6', fs=15,
+         ha='left', color=INK)
+    return top - 2 * h
+
+
+# ---- 図3：建物図面（ロ）の完成形（答案用紙（その3）の右半分の形） ----
 def zu03():
-    fig, axes = new_figure('（ロ）建物図面の完成形（縮尺1/500で描く内容）',
-                           '（ロ）部分の地上の最低階（2階部分）を実線、一棟の建物の1階を点線（規則第82条第1項・準則第52条第2項）。\n'
-                           '家屋番号 C町六丁目5番6の2、建物の所在 A市C町六丁目5番地6。敷地の辺長は書かない',
-                           w=16, h=12)
-    ax = axes[0]
+    setup_font()
+    fig = plt.figure(figsize=(16, 14), dpi=100)
+    fig.patch.set_facecolor('white')
+    fig.suptitle('（ロ）建物図面の完成形（答案用紙（その3）の右半分・縮尺1/500で描く内容）', fontsize=21, weight='bold', y=0.985)
+    y_top = sheet_head(fig, None, '（ロ）建　物　図　面')
+    cell(fig, 0.05, 0.135, 0.95, y_top, lw=1.8)
+    cell(fig, 0.05, 0.085, 0.17, 0.135, '申　請　人', fs=15)
+    cell(fig, 0.17, 0.085, 0.75, 0.135, '（略）', fs=15)
+    cell(fig, 0.75, 0.085, 0.84, 0.135, '縮尺', fs=15)
+    cell(fig, 0.84, 0.085, 0.95, 0.135, '1/500', fs=15)
+    fig.text(0.5, 0.035, '（ロ）部分の地上の最低階（2階部分）を実線、一棟の建物の1階を点線（規則第82条第1項・準則第52条第2項）。\n'
+             '一棟の2階は1階と同じ形なので一点鎖線は描かない。敷地の辺長は書かない', ha='center', va='center', fontsize=14)
+    ax = fig.add_axes([0.07, 0.15, 0.86, 0.65])
     z = Zu(ax, fontsize=15)
+    fit(ax, SITE, margin=0.06, extra=[xy(B(-7.5, -6.0)), xy(B(24.5, 21.5))], pad_aspect=True)
+    z.north_arrow()
     site_frame(z)
     z.poly(P(F1), color=BLACK, lw=1.6, ls='--')
     z.poly(P(RO2_WALL), color=BLACK, lw=3.0)
-    fit(ax, SITE, margin=0.10, extra=[xy(B(-7.5, -6.5)), xy(B(24.5, 21.5))], pad_aspect=True)
-    z.north_arrow()
     dim_line(z, B(0, north_s(0)), B(0, 0), '2.00', dirs=(160, 180, 140))
     dim_line(z, B(E_W, 3.0), B(0, 3.0), '2.00', dirs=(90, 110, 70))
     dim_line(z, B(E_W, 11.0), B(0, 11.0), '2.00', dirs=(90, 110, 70))
@@ -244,7 +283,7 @@ def zu03():
     z.free_text(B(2.9, 5.5), '（ロ）', fs=17, weight='bold')
     z.free_text(B(9.5, 13.2), '5－6', fs=16)
     neighbours(z)
-    z.free_text(B(6.5, S_S + 4.6), '建物の存する部分　2階、3階', fs=17, weight='bold')
+    z.free_text(B(6.5, S_S + 4.6), '建物の存する部分　2階、3階', fs=17, weight='bold', color=INK)
     save(fig, [z], 'H20_dai22mon_zu03_tatemono_zumen')
 
 
@@ -345,31 +384,42 @@ def zu06():
     save(fig, [z], 'H20_dai22mon_zu06_2kai_kyuuseki')
 
 
-# ---- 図7：各階平面図（ロ）の完成形 ----
+# ---- 図7：各階平面図（ロ）の完成形（答案用紙（その3）の左半分の形） ----
 def zu07():
-    fig, axes = new_figure('（ロ）各階平面図の完成形（縮尺1/250で描く内容）',
-                           '内法の辺長・求積・床面積を書く。\n3階部分には、（ロ）部分のいちばん下の階（2階部分）の位置を点線で重ねる（解答例どおり）',
-                           w=18, h=11, ncols=2)
-    fig.subplots_adjust(top=0.86, bottom=0.12)
+    setup_font()
+    fig = plt.figure(figsize=(18, 11.5), dpi=100)
+    fig.patch.set_facecolor('white')
+    fig.suptitle('（ロ）各階平面図の完成形（答案用紙（その3）の左半分・縮尺1/250で描く内容）', fontsize=21, weight='bold', y=0.985)
+    y_top = sheet_head(fig, '（ロ）各　階　平　面　図', None)
+    cell(fig, 0.05, 0.145, 0.95, y_top, lw=1.8)
+    cell(fig, 0.05, 0.085, 0.15, 0.145, '作　成　者', fs=15)
+    cell(fig, 0.15, 0.085, 0.77, 0.145, '（略）　　　　　（平成20年8月24日作成）', fs=15)
+    cell(fig, 0.77, 0.085, 0.85, 0.145, '縮尺', fs=15)
+    cell(fig, 0.85, 0.085, 0.95, 0.145, '1/250', fs=15)
+    fig.text(0.5, 0.035, '内法の辺長・求積・床面積を書く。3階部分には、（ロ）部分のいちばん下の階（2階部分）の位置を点線で重ねる'
+             '（解答例どおり）', ha='center', va='center', fontsize=14)
+    ax1 = fig.add_axes([0.06, 0.16, 0.42, 0.62])
+    ax2 = fig.add_axes([0.52, 0.16, 0.42, 0.62])
     ext = [xy(B(-3.0, -1.5)), xy(B(21.0, 13.5))]
-    z = Zu(axes[0], fontsize=13)
+    z = Zu(ax1, fontsize=13)
+    ax1.set_title('2階部分', fontsize=17, weight='bold', loc='left')
+    fit(ax1, P(RO2), margin=0.06, extra=ext, pad_aspect=True)
     z.poly(P(RO2), color=BLACK, lw=2.2)
-    axes[0].set_title('2階部分', fontsize=17, weight='bold', loc='left')
-    fit(axes[0], P(RO2), margin=0.06, extra=ext, pad_aspect=True)
     dims(z, P(RO2), ['5.85', '9.35', '', '2.50', '5.35', '11.85'], fs=13, ref=B(2.7, 6))
     z.callout(B(5.6, 9.35), '0.50', dirs=(-20, -35, -5), fs=13, dists=(40, 55, 70))
     z.free_text(B(15.0, 5.0), '求積\n5.35×11.85＝63.3975\n0.50× 9.35＝ 4.6750\n　　　計　68.0725\n床面積　68.07㎡', fs=13, ha='center',
-                multialignment='left')
-    z2 = Zu(axes[1], fontsize=13)
+                multialignment='left', color=INK)
+    z2 = Zu(ax2, fontsize=13)
+    ax2.set_title('3階部分', fontsize=17, weight='bold', loc='left')
+    fit(ax2, P(RO3), margin=0.06, extra=ext, pad_aspect=True)
+    z2.north_arrow()
     z2.poly(P(RO3), color=BLACK, lw=2.2)
     z2.line(B(5.85, 0), B(5.85, 9.35), color=BLACK, lw=1.2, ls='--')
     z2.poly(P([(5.35, 9.85), (5.35, 11.85), (0, 11.85), (0, 9.85)]), color=BLACK, lw=1.2, ls='--', closed=False)
-    axes[1].set_title('3階部分', fontsize=17, weight='bold', loc='left')
-    fit(axes[1], P(RO3), margin=0.06, extra=ext, pad_aspect=True)
     dims(z2, P(RO3), ['11.85', '9.85', '5.35', '', '', '', '5.35', '9.85'], fs=13, ref=B(6, 4.5))
     notch(z2, 5.35, 6.50, 9.35, 9.85, '1.15', fs=13, down=(80, 95, 110), wdirs=(150, 135, 165))
-    z2.free_text(B(17.0, 5.0), '求積\n5.35×9.85＝52.6975\n1.15×9.35＝10.7525\n5.35×9.85＝52.6975\n　　計　116.1475\n床面積　116.14㎡', fs=13,
-                 ha='center', multialignment='left')
+    z2.free_text(B(17.0, 5.0), '求積\n5.35×9.85＝52.6975\n1.15×9.35＝10.7525\n5.35×9.85＝52.6975\n　　計　116.1475\n床面積　116.14㎡',
+                 fs=13, ha='center', multialignment='left', color=INK)
     save(fig, [z, z2], 'H20_dai22mon_zu07_kakukai_heimenzu')
 
 
