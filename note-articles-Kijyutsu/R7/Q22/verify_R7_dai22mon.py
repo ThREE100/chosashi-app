@@ -122,7 +122,7 @@ check('葺の転写', '登記記録に書いてあるとおり『スレート葺
 check('欄番号を付けない', '欄番号を付ける必要がない')
 check('会社法人等番号の括弧書き', '『（会社法人等番号　Z）』と括弧書き')
 check('符号1・3を使い回さない', '一度使った符号は、その建物がなくなっても使い回さない')
-check('各階平面図の所在欄', '建物の所在の欄には『Y市K区A町三丁目425番地6、425番地5』')
+check('各階平面図の所在欄', '建物の所在の欄は左右で1つだけだから、『Y市K区A町三丁目425番地6、425番地5』と1回書けばいい')
 
 # 画像（2026-09-29生成、2026-10-02に第4欄・各階平面図の完成形を追加）：
 # 記事の画像挿入マーカー11か所に、zu/ のPNGが記事の順に1枚ずつ対応しているか（マーカーの文言の鍵で確かめる）
@@ -138,7 +138,7 @@ PNGS = [('R7_dai22mon_dai4ran_kansei', '第4欄（問4）の完成形', 'wide'),
         ('R7_dai22mon_zu04_souko_1kai_kyuuseki', '新築倉庫1階の床面積求積図', None),
         ('R7_dai22mon_zu05_souko_2kai_kyuuseki', '新築倉庫2階の床面積求積図', None),
         ('R7_dai22mon_toukishinseisho_kansei_toi2', '問2（本件工事2）の完成した登記申請書', 'tall'),
-        ('R7_dai22mon_zu06_kakukai_heimenzu', '各階平面図の完成形（答案用紙の第3欄の枠の中）', None),
+        ('R7_dai22mon_zu06_kakukai_heimenzu', '各階平面図の完成形（答案用紙の第3欄の枠の中。左右とも各階平面図）', None),
         ('R7_dai22mon_zu07_toku_junban', '本番で解く順番の図', None)]
 ok = len(markers) == len(PNGS) == 11
 ng += (not ok)
@@ -246,12 +246,77 @@ for name, _, _ in PNGS:   # 生成したPNGのファイル名がプロンプト�
     src, nm = (fig, '解説図プロンプト') if '_zu0' in name else (form if 'kansei' in name else fix, '申請書・添削プロンプト')
     check_in('PNGのファイル名', f'zu/{name}.png', src, nm)
 # 図6（各階平面図の完成形）：答案用紙の第3欄の枠の中、符号5・符号6、求積と床面積、1階の位置の点線
-for s_ in ["'建物の所在'", "'Y市K区A町三丁目425番地６、425番地５'", "'家屋番号'", "'425番５'", "'作　成　者'", "'1/250'",
-           "'建　物　図　面'", "'符号5　1階'", "'符号5　2階'", "'符号6'", '床面積　190.75㎡', '床面積　156.75㎡',
-           '床面積　10.00㎡', "ls='--')   # 1階の位置", 'same_scale(A6']:
+for s_ in ["'建物の所在'", "'Y市K区A町三丁目425番地６、425番地５'", "'家屋番号'", "'作　成　者'", "'申　請　人'",
+           "'（令和7年○月○日作成）'", "'250'", "'建　物　図　面'", "'各　階　平　面　図'", "'符号5　1階'", "'符号5　2階'",
+           "'符号6'", '床面積　190.75㎡', '床面積　156.75㎡', '床面積　10.00㎡', "ls='--')   # 1階の位置", 'same_scale(A6']:
     check_in('図6 各階平面図の完成形', s_, draw, '作図スクリプト')
-check_in('図6 仮の欄の形', '欄の形は仮のもの', fig, '解説図プロンプト')
-check_in('第4欄 仮の欄の形', '簡素な仮の形', form, '申請書プロンプト')
+
+# ---- 試験の答案用紙（touan_youshi/。2026-10-02にユーザーから受け取った実物）と欄の形の照合 ----
+import pymupdf
+TY = os.path.join(HERE, 'touan_youshi', 'R7_dai22mon_touan_youshi.pdf')
+doc = pymupdf.open(TY)
+t1 = doc[0].get_text().replace(' ', '')
+t2 = doc[1].get_text().replace(' ', '')
+# 1ページ目（第1欄・第2欄・第4欄）：印刷された欄名・文字
+for s_ in ['第1欄', '第2欄', '第4欄', '登記の目的', '添付書類', '申請　Ｙ地方法務局', '令　和', '申　請　人', '代　理　人',
+           '主である\n建物又は\n附属建物', '①種　類', '②構　造', '③床　面　積', '登記原因及び\nその日付', '所　　在',
+           '家屋番号', 'ア\nイ\nウ\nエ']:
+    ok = s_.replace(' ', '') in t1
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '[答案用紙1ページ] 印刷 : ' + s_.replace('\n', '／'))
+for bad in ['登録免許税', '添付情報', '主たる']:
+    ok = bad not in t1
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '[答案用紙1ページ] 印刷にない : ' + bad)
+n_ryaku = t1.count('（略）')   # 第1欄：代理人・家屋番号の右／第2欄：申請人・代理人・家屋番号・①種類の列 ＝ 6
+ok = n_ryaku == 6
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'[答案用紙1ページ] （略）の数 : {n_ryaku}（6）')
+# 2ページ目（第3欄）：左右とも各階平面図、家屋番号・作成者・申請人は（略）、作成年月日・縮尺の印刷
+for s_ in ['第3欄', '各　階　平　面　図', '建　物　図　面', '家屋番号', '建物の所在', '作成者', '申請人', '縮尺',
+           '（令和7年○月○日作成）', '250']:
+    ok = s_.replace(' ', '') in t2
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '[答案用紙2ページ] 印刷 : ' + s_)
+ok = t2.count('（略）') == 3 and t2.count('縮尺') == 2
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'[答案用紙2ページ] （略）3つ・縮尺2つ : {t2.count("（略）")}・{t2.count("縮尺")}')
+strike = [d for d in doc[1].get_drawings() if d['rect'].y0 < 60 and d['rect'].x0 > 850 and d['rect'].height < 1]
+ok = len(strike) == 2   # 「建物図面」を消す二重線
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'[答案用紙2ページ] 「建物図面」を消す二重線 : {len(strike)}本')
+
+# 画像（HTML・作図スクリプト）が答案用紙の形どおりか
+h1 = open(os.path.join(ZU, 'R7_dai22mon_toukishinseisho_kansei_toi1.html'), encoding='utf-8').read()
+h2 = open(os.path.join(ZU, 'R7_dai22mon_toukishinseisho_kansei_toi2.html'), encoding='utf-8').read()
+h4 = open(os.path.join(ZU, 'R7_dai22mon_dai4ran_kansei.html'), encoding='utf-8').read()
+hm = open(os.path.join(ZU, 'R7_dai22mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
+for label, ok in [
+        ('第1欄の見出し', '<div class="ranlab">第1欄</div>' in h1),
+        ('第2欄の見出し', '<div class="ranlab">第2欄</div>' in h2),
+        ('第1欄 家屋番号の記入欄＋（略）', '425番５</span></td><td class="val center" colspan="3">（略）' in h1),
+        ('第2欄 家屋番号は仕切りのない（略）1つ', '家屋番号</td><td class="val" colspan="5">（略）</td>' in h2),
+        ('第2欄 ①種類の列は4行で（略）1つ', h2.count('rowspan="4">（略）') == 1),
+        ('第2欄 （略）の数（申請人・代理人・家屋番号・①種類）', h2.count('（略）') == 4),
+        ('第1欄 （略）の数（代理人・家屋番号の右）', h1.count('（略）') == 2),
+        ('見出し「③床　面　積」「主である」', all('③床　面　積' in h and '主である' in h for h in (h1, h2, hm))),
+        ('登録免許税の欄がない', all('登録免許税' not in h for h in (h1, h2))),
+        ('第4欄は2行2列', h4.count('<tr>') == 2 and h4.count('class="lab2"') == 4),
+        ('添削③の①種類は2行で（略）1つ', 'rowspan="2">（略）' in hm),
+        ('図6 家屋番号は（略）', "'家屋番号', fs=15)\n    cell(fig, 0.601, FT, 0.720, FT + 0.045, '（略）'" in draw),
+        ('図6 申請人（略）', "'申　請　人', fs=14)\n    cell(fig, 0.584, BB, 0.859, FB, '（略）'" in draw),
+        ('図6 左右の境は目印の線だけ', '左右の境の目印' in draw)]:
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '[画像の欄の形] ' + label)
+absent('図6の家屋番号の記入', "'425番５'", draw, '作図スクリプト')
+check_in('図6 答案用紙で確かめた形', '試験の答案用紙で確かめた形', fig, '解説図プロンプト')
+check_in('第4欄 答案用紙で確かめた形', '2行2列の表', form, '申請書プロンプト')
+check_in('申請書 答案用紙と照らした記録', '試験の答案用紙（`touan_youshi/R7_dai22mon_touan_youshi.pdf` の1ページ目。', form, '申請書プロンプト')
+check('記事 第3欄の（略）', '家屋番号・作成者・申請人の欄は『（略）』と印刷済み')
+for src, name in [(text, '記事'), (fig, '解説図プロンプト'), (form, '申請書プロンプト'), (fix, '添削プロンプト'), (draw, '作図スクリプト'),
+                  (open(os.path.join(ZU, 'make_R7_dai22mon_shinseisho_gazou.py'), encoding='utf-8').read(), '申請書スクリプト')]:
+    for bad in ['仮の形', '仮のもの', 'リポジトリにない', '写しが手元にない']:
+        absent('仮の文言', bad, src, name)
 check_in('図3 柱の四角を重なり検査に登録', 'z2.markers.append(xy(P(e, s)))', draw, '作図スクリプト')
 check_in('図3の注の書き分け', '〔調査・測量〕の（注）3', draw, '作図スクリプト')
 fits = re.findall(r'\bfit\((.*)\)', draw)

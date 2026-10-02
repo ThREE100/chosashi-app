@@ -1,11 +1,13 @@
 """令和7年度 第22問（建物）登記申請書の画像（問1・問2の完成形、添削）を、HTML＋ヘッドレスブラウザでPNGに書き出す。
 
 - 完成形：`../prompt_R7_dai22mon_toukishinseisho_gazou.md` の記入データ1（問1）・記入データ2（問2）どおり。縦長（横1200px）。
-  欄の形は試験の答案用紙（第1欄・第2欄）に合わせる（所在は2段で2段目の右端に原因、家屋番号の右に印刷の「（略）」、
-  問2は申請人・代理人・家屋番号・①種類の列が印刷の「（略）」、申請の日付は「令和　年　月　日」の枠に数字を記入）
+  欄の形は試験の答案用紙（`../touan_youshi/R7_dai22mon_touan_youshi.pdf` の1ページ目、第1欄・第2欄）で確かめた形
+  （見出し「第1欄」「第2欄」、所在は2段で2段目の右端に原因、第1欄は家屋番号の記入欄の右に印刷の「（略）」、
+  第2欄は申請人・代理人・家屋番号〈仕切りのない1つの欄〉・①種類の列〈4行をまとめた1つの欄〉が印刷の「（略）」、
+  申請の日付は「令和　年　月　日」の枠に数字を記入。登録免許税の欄はない）
 - 添削　：`../prompt_R7_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 第4欄（問4のア〜エ。2026-10-02追加）：申請書でない解答欄も、記号ごとの記入欄の形で別の画像にする（横1200px）。
-  試験の答案用紙そのものはリポジトリにないので、欄の見出しと記号・記入欄だけの簡素な仮の形にしている（R5/Q22の第1欄・第4欄と同じ形）。
+  試験の答案用紙（1ページ目の右下）の形どおり、2行2列（上の行がアとイ、下の行がウとエ）に記号と記入欄を並べる。
   答えは〔語句群〕から選んだ文言をそのまま書く
 
 CSSと部品の作りは `R7/Q21/zu/make_R7_dai21mon_shinseisho_gazou.py` と同じ形にしている。
@@ -30,6 +32,7 @@ CSS = f'''
 body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }}
 .page {{ padding: 70px 60px 40px; min-height: 1650px; display: flex; flex-direction: column; }}
 .page .caption {{ margin-top: auto; padding-top: 30px; }}
+.ranlab {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; font-size: 22px; margin: -30px 0 0; }}
 .title {{ text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 48px 0.9em; }}
 .row {{ display: flex; align-items: flex-start; margin-bottom: 26px; }}
 .lab {{ width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }}
@@ -117,14 +120,19 @@ def entry_row(label, kind, struct, floors, genin, label_rows=1, kind_cell=True):
 
 
 def bldg_table(shozai1, shozai2, shozai2_genin, kaoku, rows, n_rows):
-    """建物の表示の表（R7第22問の答案用紙の形）。rows は entry_row() の結果を連結した文字列"""
+    """建物の表示の表（R7第22問の試験の答案用紙の形）。rows は entry_row() の結果を連結した文字列。
+    kaoku が None なら第2欄の形（家屋番号の欄は仕切りがなく、印刷の「（略）」だけ）。
+    それ以外は第1欄の形（家屋番号の記入欄の右に、床面積と原因の列の幅で印刷の「（略）」）"""
+    if kaoku is None:
+        kaoku_row = '<tr><td class="lab2 val">家屋番号</td><td class="val" colspan="5">（略）</td></tr>'
+    else:
+        kaoku_row = (f'<tr><td class="lab2 val">家屋番号</td><td class="val" colspan="2">{kaoku}</td>'
+                     f'<td class="val center" colspan="3">（略）</td></tr>')
     return (f'<table class="bldg">{COLS}'
             f'<tr><td class="vert" rowspan="{4 + n_rows}">建物の表示</td>'
             f'<td class="lab2" rowspan="2">所　在</td><td class="val" colspan="5">{shozai1}</td></tr>'
             f'<tr><td class="val" colspan="4">{shozai2}</td><td class="val genin">{shozai2_genin}</td></tr>'
-            f'<tr><td class="lab2 val">家屋番号</td><td class="val" colspan="2">{kaoku}</td>'
-            f'<td class="val center" colspan="3">（略）</td></tr>'
-            f'{HEAD}{rows}</table>')
+            f'{kaoku_row}{HEAD}{rows}</table>')
 
 
 def dateline(y, m, d):
@@ -148,6 +156,7 @@ rows1 = (
                 ink('令和7年1月21日主である建物に変更'))
     + entry_row('符号4', ink('守衛所'), ink(S_KEIRYO), [('', '10', '00')], ''))
 toi1 = page(f'''<div class="page">
+<div class="ranlab">第1欄</div>
 <div class="title">登記申請書</div>
 <div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('建物表題部変更登記')}</div></div>
 <div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:130px">{ink('建物図面　各階平面図　会社法人等番号　代理権限証書')}</div></div>
@@ -168,13 +177,14 @@ rows2 = (r_main
                      kind_cell=False)
          + entry_row('符号6', '', ink(S_KEIRYO), [('', '10', '00')], ink('令和7年10月17日新築'), kind_cell=False))
 toi2 = page(f'''<div class="page">
+<div class="ranlab">第2欄</div>
 <div class="title">登記申請書</div>
 <div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('建物表題部変更登記')}</div></div>
 <div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:130px">{ink(br('建物図面　各階平面図　所有権証明書', '会社法人等番号　代理権限証書'))}</div></div>
 {dateline('７', '10', '23')}
 <div class="plainrow"><div class="lab">申　　請　　人</div><div class="ryaku">（略）</div></div>
 <div class="plainrow"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
-{bldg_table(ink(SHOZAI_NEW), '', '', '（略）', rows2, 4)}
+{bldg_table(ink(SHOZAI_NEW), '', '', None, rows2, 4)}
 <div class="caption">令和7年度 土地家屋調査士試験 第22問 問2 登記申請書 解答例</div>
 </div>''')
 
@@ -188,8 +198,10 @@ def snippet(rows, n_rows, good=False):
             f'{HEAD[4:]}{rows}</table>{chk}</div>')
 
 
-def ryaku_row(label, struct, floors, genin):
-    return (f'<tr><td class="entry lab2">{label}</td><td class="entry center">（略）</td>'
+def ryaku_row(label, struct, floors, genin, kind_rows=1):
+    """第2欄の記入行。①種類の列は答案用紙のとおり、行をまとめた1つの欄に印刷の「（略）」（kind_rows=0 ならその欄を置かない）"""
+    kind = f'<td class="entry center" rowspan="{kind_rows}">（略）</td>' if kind_rows else ''
+    return (f'<tr><td class="entry lab2">{label}</td>{kind}'
             f'<td class="entry center">{struct}</td>{area(*floors)}<td class="entry genin">{genin}</td></tr>')
 
 
@@ -198,24 +210,27 @@ fix_panel = snippet(ryaku_row(ink('符号4'), ink(S_KEIRYO), [('', '10', '00')],
                               f'<span class="ink strike">令和7年10月17日新築</span><br><span class="red">令和7年9月25日取壊し</span>'), 1) + \
     ('<div class="bubrow"><span class="bubble">取り壊した時点で符号4は終わり！<br>'
      '建て直した守衛所は、新しい符号6の新築として別の行に書く</span></div>')
-ok_panel = snippet(ryaku_row(ink('符号4'), ink(S_KEIRYO), [('', '10', '00')], ink('令和7年9月25日取壊し'))
-                   + ryaku_row(ink('符号6'), ink(S_KEIRYO), [('', '10', '00')], ink('令和7年10月17日新築')), 2, good=True)
+ok_panel = snippet(ryaku_row(ink('符号4'), ink(S_KEIRYO), [('', '10', '00')], ink('令和7年9月25日取壊し'), kind_rows=2)
+                   + ryaku_row(ink('符号6'), ink(S_KEIRYO), [('', '10', '00')], ink('令和7年10月17日新築'), kind_rows=0),
+                   2, good=True)
 machigai = page(f'''
 <div class="panel"><div class="ptitle ng">①誤答</div>{ng_panel}</div>
 <div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{fix_panel}</div>
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">令和7年度 第22問｜取り壊した建物は、同じ符号で生き返らない</div>''')
 
-# ---- 第4欄（問4）の完成形：記号ごとの記入欄（2026-10-02追加。答案用紙の形は仮） ----
+# ---- 第4欄（問4）の完成形：試験の答案用紙の形（2行2列。上の行がアとイ、下の行がウとエ） ----
 DAI4 = [('ア', '物理'), ('イ', '報告'), ('ウ', '1月'), ('エ', '10万円以下の過料')]
 
 
 def anaume(title, rows, caption):
-    trs = ''.join(f'<tr><td class="lab2" style="height:72px;font-size:26px;text-align:center">{k}</td>'
-                  f'<td style="padding-left:28px;font-size:26px">{ink(v)}</td></tr>' for k, v in rows)
+    def pair(k, v):
+        return (f'<td class="lab2" style="height:84px;font-size:26px;text-align:center">{k}</td>'
+                f'<td style="padding-left:22px;font-size:26px">{ink(v)}</td>')
+    trs = ''.join(f'<tr>{pair(*rows[i])}{pair(*rows[i + 1])}</tr>' for i in range(0, len(rows), 2))
     return page(f'''<div style="padding:50px 60px 36px">
 <div style="font-size:28px;font-weight:bold;font-family:'Noto Sans CJK JP',sans-serif;margin-bottom:10px">{title}</div>
-<table class="bldg"><colgroup><col style="width:16%"><col style="width:84%"></colgroup>{trs}</table>
+<table class="bldg"><colgroup><col style="width:12%"><col style="width:38%"><col style="width:12%"><col style="width:38%"></colgroup>{trs}</table>
 <div class="caption">{caption}</div></div>''')
 
 
