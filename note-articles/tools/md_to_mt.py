@@ -110,9 +110,10 @@ def parse_article(md_text):
             break
     if quote_lines:
         non_empty = [inline_md_to_html(q) for q in quote_lines if q]
-        # note取り込みで「<br><br>」を境に引用が分割され、設問だけが引用になる不具合があったため、単一の<br>（改行）で1つの引用にまとめる
-        quote_html = "<br>\n".join(non_empty)
-        body_parts.append(f"<blockquote><p>{quote_html}</p></blockquote>")
+        # 1つの<blockquote>の中に、設問・各記述・選択肢をそれぞれ別の<p>（段落）として並べる
+        # （<br><br>で1つの<p>にまとめると、noteの取り込みで設問だけが引用になり、各記述が引用の外に出て詰まった）
+        quote_html = "".join(f"<p>{q}</p>" for q in non_empty)
+        body_parts.append(f"<blockquote>{quote_html}</blockquote>")
         # 問題文（引用）と解説文の間の区切り線
         body_parts.append("<hr>")
 
