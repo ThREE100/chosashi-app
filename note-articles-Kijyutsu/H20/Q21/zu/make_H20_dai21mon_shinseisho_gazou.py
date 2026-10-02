@@ -4,6 +4,8 @@
   項目の順序は試験の答案用紙どおり「登記の目的 → 添付書類 → 申請の日付と提出先 → 項目名のない大きな枠 → 代理人 → 土地の表示 → 土地家屋調査士（職印）」
   答案用紙に登録免許税の欄はないので、大きな枠の最後の行に書く
 - 添削　：`../prompt_H20_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 問1・問2の欄（2026-10-02追加）：申請書でない解答欄も答えの直後に置くルールに合わせ、答案用紙（その1）の問1（T101）・問2（B点・E点・F点）の
+  座標の欄を、それぞれ別の画像（横1200px、高さは欄に合わせる）にする。欄の形は答案用紙どおり「点名｜X座標｜記入｜Y座標｜記入」の行
 
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・Noto Sans CJK JP。なければIPAゴシック）
 実行: python3 note-articles-Kijyutsu/H20/Q21/zu/make_H20_dai21mon_shinseisho_gazou.py [出力フォルダ]
@@ -26,6 +28,14 @@ CSS = f'''
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 body {{ background: #fff; width: 1200px; font-family: "IPAMincho", "Noto Serif CJK JP", serif; color: #111; }}
 .page {{ padding: 70px 70px 40px; min-height: 1700px; display: flex; flex-direction: column; }}
+.page.ran {{ min-height: 0; padding: 40px 70px 30px; }}
+.sheet {{ font-size: 22px; color: #333; margin-bottom: 6px; }}
+.q {{ font-size: 26px; font-weight: bold; margin: 26px 0 12px; font-family: {SANS}; }}
+table.xyrow {{ width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }}
+table.xyrow td {{ border: 1.5px solid #111; font-size: 22px; height: 64px; text-align: center; vertical-align: middle; }}
+table.xyrow td.pt {{ width: 9%; }}
+table.xyrow td.ax {{ width: 13%; }}
+table.xyrow td .ink {{ font-size: 28px; }}
 .page .caption {{ margin-top: auto; padding-top: 30px; }}
 .title {{ text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 50px 0.9em; }}
 .row {{ display: flex; align-items: flex-start; margin-bottom: 28px; position: relative; }}
@@ -184,6 +194,28 @@ fix_panel = snippet(
     bubble='七郎は相続の放棄で初めから相続人でない。父母も死亡 → 兄弟姉妹へ。<br>'
            '二郎は父だけ同じでも兄弟、八郎は五郎を代襲（九郎は再代襲しない）')
 ok_panel = snippet(OK_APPLICANT, good=True)
+# ---- 問1・問2の欄（答案用紙（その1）の座標の欄。記入データはプロンプトどおり） ----
+TOI1 = [('T101', '4.04m', '6.43m')]
+TOI2 = [('B点', '10.26m', '6.37m'), ('E点', '31.91m', '19.25m'), ('F点', '8.89m', '15.96m')]
+
+
+def xyrow(rows):
+    body = ''.join(f'<tr><td class="pt">{pt}</td><td class="ax">X座標</td><td>{ink(x)}</td><td class="ax">Y座標</td><td>{ink(y)}</td></tr>'
+                   for pt, x, y in rows)
+    return f'<table class="xyrow">{body}</table>'
+
+
+def ran(q, body):
+    return page(f'''<div class="page ran">
+<div class="sheet">第21問答案用紙（その1）</div>
+<div class="q">{q}</div>{body}
+<div class="caption">平成20年度 土地家屋調査士試験 第21問 答案用紙（その1） {q} 解答例</div>
+</div>''')
+
+
+kansei_toi1 = ran('問1', xyrow(TOI1))
+kansei_toi2 = ran('問2', xyrow(TOI2))
+
 machigai = page(f'''
 <div class="panel"><div class="ptitle ng">①誤答</div>{ng_panel}</div>
 <div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{fix_panel}</div>
@@ -193,8 +225,9 @@ machigai = page(f'''
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('H20_dai21mon_toukishinseisho_kansei', kansei), ('H20_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 100})  # 欄だけの画像が引き伸ばされないよう低くする
+    for name, html in [('H20_dai21mon_toukishinseisho_kansei_toi1', kansei_toi1), ('H20_dai21mon_toukishinseisho_kansei_toi2', kansei_toi2),
+                       ('H20_dai21mon_toukishinseisho_kansei', kansei), ('H20_dai21mon_toukishinseisho_machigai', machigai)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -202,5 +235,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（欄だけの画像なら可）'))
     browser.close()

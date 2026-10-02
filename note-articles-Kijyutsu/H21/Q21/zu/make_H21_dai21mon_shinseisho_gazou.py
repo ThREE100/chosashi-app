@@ -2,7 +2,9 @@
 
 - 完成形：`../prompt_H21_dai21mon_toukishinseisho_gazou.md` どおり。平成21年度の答案用紙（その1）は申請書の様式ではなく、
   問1（I点・J点・L点のX座標・Y座標の表）→ 問2（見取図(ロ)部分の面積）→ 問3（見取図(ハ)部分の面積）
-  → 問4（登記の順番・登記の目的・登記の原因及び日付・添付情報の4列×2行の表）の順。縦長（横1200px）
+  → 問4（登記の順番・登記の目的・登記の原因及び日付・添付情報の4列×2行の表）の順。
+  2026-10-02、申請書でない解答欄も問ごとに答えの直後へ置くルールに合わせ、問1・問2・問3・問4の欄を別々の画像にした
+  （`_kansei_toi1`〜`_kansei_toi3` と、問4の欄の `_kansei`。どれも横1200px）
 - 添削　：`../prompt_H21_dai21mon_toukishinseisho_machigai.md` どおり。問4の表だけを取り出し、①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 
 様式の部品（CSS）は `../../../H24/Q21/zu/make_H24_dai21mon_shinseisho_gazou.py` にそろえた。
@@ -26,6 +28,8 @@ CSS = f'''
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }}
 .page {{ padding: 60px 70px 40px; min-height: 1650px; display: flex; flex-direction: column; }}
+.page.ran {{ min-height: 0; padding: 40px 70px 30px; }}
+.sheet {{ font-size: 22px; color: #333; margin-bottom: 6px; }}
 .page .caption {{ margin-top: auto; padding-top: 30px; }}
 .title {{ text-align: center; font-size: 36px; letter-spacing: 0.5em; margin: 0 0 40px 0.5em; }}
 .q {{ font-size: 26px; font-weight: bold; margin: 26px 0 12px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
@@ -102,14 +106,21 @@ def rows_ink(rows):
 
 q1 = ''.join(f'<table class="xy"><tr><td class="h">{p}点のX座標</td><td class="h">{p}点のY座標</td></tr>'
              f'<tr><td class="v">{ink(x)}</td><td class="v">{ink(y)}</td></tr></table>' for p, x, y in Q1)
-kansei = page(f'''<div class="page">
-<div class="title">第21問答案用紙（その1）</div>
-<div class="q">問1</div>{q1}
-<div class="q">問2</div><table class="area"><tr><td class="h">見取図(ロ)部分の面積</td></tr><tr><td class="v">{ink(Q2)}</td></tr></table>
-<div class="q">問3</div><table class="area"><tr><td class="h">見取図(ハ)部分の面積</td></tr><tr><td class="v">{ink(Q3)}</td></tr></table>
-<div class="q">問4</div>{t4(rows_ink(ROWS))}
-<div class="caption">平成21年度 土地家屋調査士試験 第21問 答案用紙（その1） 解答例</div>
+
+
+def ran(q, body, cap):
+    """答案用紙（その1）の1つの問の欄だけの画像（横1200px）。"""
+    return page(f'''<div class="page ran">
+<div class="sheet">第21問答案用紙（その1）</div>
+<div class="q">{q}</div>{body}
+<div class="caption">平成21年度 土地家屋調査士試験 第21問 答案用紙（その1） {cap} 解答例</div>
 </div>''')
+
+
+kansei_toi1 = ran('問1', q1, '問1')
+kansei_toi2 = ran('問2', f'<table class="area"><tr><td class="h">見取図(ロ)部分の面積</td></tr><tr><td class="v">{ink(Q2)}</td></tr></table>', '問2')
+kansei_toi3 = ran('問3', f'<table class="area"><tr><td class="h">見取図(ハ)部分の面積</td></tr><tr><td class="v">{ink(Q3)}</td></tr></table>', '問3')
+kansei = ran('問4', t4(rows_ink(ROWS)), '問4')
 
 
 def fixed(new, old):
@@ -139,8 +150,11 @@ machigai = page(f'''
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('H21_dai21mon_toukishinseisho_kansei', kansei), ('H21_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 100})  # 欄だけの画像が800pxに引き伸ばされないよう低くする
+    for name, html in [('H21_dai21mon_toukishinseisho_kansei_toi1', kansei_toi1),
+                       ('H21_dai21mon_toukishinseisho_kansei_toi2', kansei_toi2),
+                       ('H21_dai21mon_toukishinseisho_kansei_toi3', kansei_toi3),
+                       ('H21_dai21mon_toukishinseisho_kansei', kansei), ('H21_dai21mon_toukishinseisho_machigai', machigai)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -148,5 +162,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（欄だけの画像なら可）'))
     browser.close()

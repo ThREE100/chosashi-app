@@ -2,6 +2,8 @@
 
 - 完成形：`../prompt_H22_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ。項目の順序は平成22年度の答案用紙どおり）。縦長（横1200px）
 - 添削　：`../prompt_H22_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 問1・問2の欄（2026-10-02追加）：答案用紙（その一）はA3横で、左の列に問1（【結論】【理由】の記述の枠）と問2（C点・D点・K点の座標の表）、
+  右の列に問3の申請書がある。申請書でない解答欄も答えの直後に置くルールに合わせ、問1・問2の欄をそれぞれ別の画像（横1200px）にする
 
 様式の部品（CSS・土地の表示の表）は `../../../H23/Q21/zu/make_H23_dai21mon_shinseisho_gazou.py` と同じ。ただし、平成22年度の答案用紙は、
 登録免許税・添付書類・代理人が「略」と印刷済みで、申請人の枠に項目名がなく、所在「A市B町二丁目」が印刷済み、土地の表示の記入行は4行、
@@ -27,6 +29,17 @@ CSS = f'''
 body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }}
 .page {{ padding: 80px 70px 40px; min-height: 1650px; display: flex; flex-direction: column; }}
 .page .caption {{ margin-top: auto; padding-top: 30px; }}
+.page.ran {{ min-height: 0; padding: 40px 70px 30px; }}
+.sheet {{ font-size: 22px; color: #333; margin-bottom: 6px; }}
+.q {{ font-size: 26px; font-weight: bold; margin: 26px 0 12px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
+.kijutsu {{ border: 2.5px solid #111; padding: 18px 22px 22px; font-size: 22px; }}
+.kijutsu .kl {{ margin: 6px 0 6px; }}
+.kijutsu .ink {{ font-size: 23px; line-height: 1.75; display: block; margin-bottom: 14px; }}
+table.xy {{ border-collapse: collapse; border: 2.5px solid #111; margin-bottom: 18px; table-layout: fixed; width: 640px; }}
+table.xy td {{ border: 1.5px solid #111; text-align: center; font-size: 22px; }}
+table.xy td.h {{ height: 50px; }}
+table.xy td.v {{ height: 82px; }}
+table.xy td.v .ink {{ font-size: 28px; }}
 .title {{ text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 56px 0.9em; }}
 .row {{ display: flex; align-items: flex-start; margin-bottom: 32px; }}
 .lab {{ width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }}
@@ -143,6 +156,28 @@ kansei = page(f'''<div class="page">
 <div class="caption">平成22年度 土地家屋調査士試験 第21問 登記申請書 解答例</div>
 </div>''')
 
+# ---- 問1・問2の欄（答案用紙（その一）の左の列。記入データはプロンプトどおり） ----
+TOI1_KETSURON = ('登記所に提出されている地積測量図（平成8年の分筆のときのもの）に記録された道路境界線'
+                 '（D点・E点・F点を結ぶ線）を採用すべきである。')
+TOI1_RIYUU = ('筆界は、土地が登記された時にその境を構成するものとされた線であり、所有者とA市の協議や道路境界承諾書によって動くものではない。'
+              '道路管理図の線（H点・I点・J点を結ぶ線）は、道路拡幅のための用地の予定線であり、その部分の分筆も所有権の移転もされていないので、'
+              '登記によって公示された筆界ではない。現地の境界標と平成8年の地積測量図の座標は整合している。')
+TOI2 = [('C', '532.49m', '481.86m'), ('D', '534.67m', '500.24m'), ('K', '533.69m', '491.97m')]
+
+
+def ran(q, body):
+    return page(f'''<div class="page ran">
+<div class="sheet">第二十一問答案用紙（その一）</div>
+<div class="q">{q}</div>{body}
+<div class="caption">平成22年度 土地家屋調査士試験 第21問 答案用紙（その一） {q} 解答例</div>
+</div>''')
+
+
+kansei_toi1 = ran('問1', f'''<div class="kijutsu"><div class="kl">【結論】</div>{ink(TOI1_KETSURON)}
+<div class="kl">【理由】</div>{ink(TOI1_RIYUU)}</div>''')
+kansei_toi2 = ran('問2', ''.join(f'<table class="xy"><tr><td class="h">{p_}点のX座標</td><td class="h">{p_}点のY座標</td></tr>'
+                                 f'<tr><td class="v">{ink(x)}</td><td class="v">{ink(y)}</td></tr></table>' for p_, x, y in TOI2))
+
 # ---- 添削（①誤答 → ②添削 → ③正解 を縦に3コマ） ----
 APP_NG = [(False, '申請人（被相続人　杉山太郎）'), (True, '相続人　Ｃ市Ｄ町二丁目５番６号　杉山良子'),
           (True, '相続人　Ｃ市Ｄ町二丁目５番７号　杉山敏夫'), (True, '相続人　Ｃ市Ｄ町三丁目４番６号　杉山健二'),
@@ -186,8 +221,9 @@ machigai = page(f'''
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('H22_dai21mon_toukishinseisho_kansei', kansei), ('H22_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 100})  # 欄だけの画像が引き伸ばされないよう低くする
+    for name, html in [('H22_dai21mon_toukishinseisho_kansei_toi1', kansei_toi1), ('H22_dai21mon_toukishinseisho_kansei_toi2', kansei_toi2),
+                       ('H22_dai21mon_toukishinseisho_kansei', kansei), ('H22_dai21mon_toukishinseisho_machigai', machigai)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -195,5 +231,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（欄だけの画像なら可）'))
     browser.close()

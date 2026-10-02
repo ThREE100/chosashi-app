@@ -272,6 +272,27 @@ judge('完成形の画像：相続人でない人がいない', all(n not in htm
 judge('完成形の画像：添付書類 → 申請の日付 → 大きな枠 → 代理人 → 土地の表示（答案用紙の順）',
       html_k.index('添　付　書　類') < html_k.index('平成20年８月24日') < html_k.index('被代位者') < html_k.index('代　　理　　人')
       < html_k.index('土地の表示'))
+# ---- 問1・問2の欄の画像（2026-10-02 追加。申請書でない解答欄も答えの直後に置く） ----
+for name in ['H20_dai21mon_toukishinseisho_kansei_toi1', 'H20_dai21mon_toukishinseisho_kansei_toi2']:
+    png = os.path.join(HERE, 'zu', name + '.png')
+    if os.path.exists(png):
+        w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
+        judge(f'{name}.png が横1200px（{w}×{h}px）', w == 1200 and 200 < h < 700)
+    else:
+        judge(f'{name}.png がある', False)
+html_t1 = open(os.path.join(HERE, 'zu', 'H20_dai21mon_toukishinseisho_kansei_toi1.html'), encoding='utf-8').read()
+html_t2 = open(os.path.join(HERE, 'zu', 'H20_dai21mon_toukishinseisho_kansei_toi2.html'), encoding='utf-8').read()
+for s in ['第21問答案用紙（その1）', '>問1<', '>T101<', '>X座標<', '>Y座標<', '>4.04m<', '>6.43m<', '答案用紙（その1） 問1 解答例']:
+    check('問1の欄の画像（HTML）', s, html_t1, '問1の欄')
+for s in ['>問2<', '>B点<', '>10.26m<', '>6.37m<', '>E点<', '>31.91m<', '>19.25m<', '>F点<', '>8.89m<', '>15.96m<', '答案用紙（その1） 問2 解答例']:
+    check('問2の欄の画像（HTML）', s, html_t2, '問2の欄')
+judge('問2の欄はB→E→Fの順（答案用紙どおり）', html_t2.index('>B点<') < html_t2.index('>E点<') < html_t2.index('>F点<'))
+for s in ['T101　X座標「4.04m」、Y座標「6.43m」', 'B点　X座標「10.26m」、Y座標「6.37m」', 'E点　X座標「31.91m」、Y座標「19.25m」',
+          'F点　X座標「8.89m」、Y座標「15.96m」', '答案用紙の問1の欄は、T101のX座標とY座標の枠が横に1行並んでいるだけです',
+          'これで問2のB点・E点・F点がそろいました']:
+    check('問1・問2の欄のプロンプト', s, form, '登記申請書')
+for s in ['答案用紙の問1の欄は、T101のX座標とY座標の枠が横に1行並んでいるだけです', 'これで問2のB点・E点・F点がそろいました']:
+    check('問1・問2の欄の挿入位置の文言', s)
 for s in ['①誤答', '②添削（赤ペン）', '③正解', 'Ｃ市Ａ町二丁目５番２号　西川七郎', '相続の放棄', 'Ｂ市Ｄ町三丁目１番７号　西川二郎',
           'Ｂ市Ｄ町四丁目６番１号　西川八郎', '七郎は相続の放棄で初めから相続人でない。父母も死亡 → 兄弟姉妹へ。',
           '二郎は父だけ同じでも兄弟、八郎は五郎を代襲（九郎は再代襲しない）', '平成20年度 第21問｜七郎は放棄、相続人は和子・二郎・八郎の3人']:
@@ -304,13 +325,38 @@ same = []
 for i, l in enumerate(lines):
     if l.rstrip() in ('**トリ先生**', '**藍子**'):
         j = i + 2
-        while j < len(lines) and not lines[j].strip():
+        while j < len(lines) and (not lines[j].strip() or lines[j].startswith('> 【画像挿入】')):
             j += 1
         if j < len(lines) and lines[j].rstrip() == l.rstrip():
             same.append(i + 1)
-judge(f'同じ話者のセリフの連続: {same}', not same)
+judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも含む）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＝計{N_FIG + 2}か所の想定）', n_marker == N_FIG + 2)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋申請書の完成形1＋問1・問2の欄2＝計{N_FIG + 4}か所の想定）',
+      n_marker == N_FIG + 4)
+# 記事の画像挿入マーカーの順と zu/ のPNGの対応（マーカーの文言 → PNG）。2026-10-02 追加
+ORDER = [('北を上にして座標どおりに描き直した全体図', 'H20_dai21mon_zu01_zentaizu.png'),
+         ('結合トラバースの図', 'H20_dai21mon_zu02_T101_ketsugou.png'),
+         ('コンパスの法則の配分の図', 'H20_dai21mon_zu03_compass.png'),
+         ('答案用紙（その1）の問1の欄の完成形', 'H20_dai21mon_toukishinseisho_kansei_toi1.png'),
+         ('B点の求め方の図', 'H20_dai21mon_zu04_B_housha.png'),
+         ('E点の求め方の図', 'H20_dai21mon_zu05_E_naibun.png'),
+         ('F点の求め方の図', 'H20_dai21mon_zu06_F_suisen.png'),
+         ('答案用紙（その1）の問2の欄の完成形', 'H20_dai21mon_toukishinseisho_kansei_toi2.png'),
+         ('（イ）E→F→C→Dと（ロ）A→B→F→Eの面積の図', 'H20_dai21mon_zu07_menseki.png'),
+         ('公差の数直線の図', 'H20_dai21mon_zu08_kousa.png'),
+         ('西川四郎の相続関係図', 'H20_dai21mon_zu09_souzoku.png'),
+         ('代位の関係図', 'H20_dai21mon_zu10_daii.png'),
+         ('誤答→添削→正解の3コマ', 'H20_dai21mon_toukishinseisho_machigai.png'),
+         ('分筆後の区画と地番の図', 'H20_dai21mon_zu11_bunpitsu_chiban.png'),
+         ('登記申請書（問3）の完成形', 'H20_dai21mon_toukishinseisho_kansei.png'),
+         ('地積測量図（1／250）の完成見本', 'H20_dai21mon_zu12_chiseki_sokuryouzu.png'),
+         ('本番で解く順番の図', 'H20_dai21mon_zu13_toku_junban.png')]
+mk = [l for l in lines if l.startswith('> 【画像挿入】')]
+judge(f'マーカーの数とPNGの対応表の数が同じ（{len(mk)}・{len(ORDER)}）', len(mk) == len(ORDER))
+for n_, ((key, png_), m_) in enumerate(zip(ORDER, mk), 1):
+    judge(f'マーカー{n_}「{key}」→ {png_}（記事の順）', key in m_ and os.path.exists(os.path.join(HERE, 'zu', png_)))
+zu_png = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
+judge(f'zu/ のPNGが対応表と過不足なし（{len(zu_png)}枚）', zu_png == sorted(p_ for _, p_ in ORDER))
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成20年度問題21（土地）〜'

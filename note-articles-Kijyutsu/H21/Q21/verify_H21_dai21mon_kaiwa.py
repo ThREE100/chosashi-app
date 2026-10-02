@@ -304,7 +304,9 @@ for src, name in [(text, '記事'), (fig, '解説図'), (form, '完成形'), (fi
 
 # ---- 最新の執筆ルールで足した内容（注の書き分け・時間配分） ----
 for s in ['問題文の注1〜7と、測量成果の表の下の注の2系統', '座標は問題文の注1で', '問題文の注4の三角関数真数表', '問題文の注5の公差の表',
-          '問題文の注3で小数第3位を四捨五入', '（問題文の注3）', '問5のただし書き']:
+          '問題文の注3で小数第3位を四捨五入', '（問題文の注3）', '問5のただし書き',
+          '- **問題文の注1**：座標の丸め', '- **問題文の注5**：乙土地の公差の表（市街地地域）',
+          '- **測量成果の表の下の注**：「このX軸は北方向と一致している」']:
     check('注の書き分け', s)
 for bad in ['（注3）', '（注5）', '座標は注1で']:
     absent('書き分けていない注', bad)
@@ -349,7 +351,9 @@ for k_, s in INSERT.items():
     # その文言のすぐ後（空行の次）に画像挿入マーカーがあるか
     hit = [i for i, l in enumerate(lines) if s in l]
     judge(f'図{k_}のマーカーが文言の直後', bool(hit) and any(j in marker_idx for j in (hit[0] + 2, hit[0] + 3)))
-for s, where in [('合筆の制限（不動産登記法第41条第6号）に引っかからないんですね', fix), ('問1〜問4を全部書くとこうなるわ', form)]:
+for s, where in [('合筆の制限（不動産登記法第41条第6号）に引っかからないんですね', fix),
+                 ('これで問1のI点・J点・L点がそろいました', form), ("答案用紙の問2の欄は『見取図(ロ)部分の面積』の1つの枠なので", form),
+                 ('問3の欄も同じ形です', form), ('整理しなさい。答案用紙の問4の欄は、登記の順番の1と2の2行よ', form)]:
     check('画像の挿入位置の文言', s)
     check('画像の挿入位置の文言（プロンプト側）', s, where, 'プロンプト')
 
@@ -368,22 +372,32 @@ for s in ['「②平成21年8月3日地目変更」', '「③100番1、100番3�
     check('添削のプロンプト', s, fix, '添削')
     if s.startswith('「') is False:
         check('添削の生成スクリプト', s, make, '申請書画像')
-for name in ['H21_dai21mon_toukishinseisho_kansei', 'H21_dai21mon_toukishinseisho_machigai']:
+for name in ['H21_dai21mon_toukishinseisho_kansei_toi1', 'H21_dai21mon_toukishinseisho_kansei_toi2',
+             'H21_dai21mon_toukishinseisho_kansei_toi3', 'H21_dai21mon_toukishinseisho_kansei', 'H21_dai21mon_toukishinseisho_machigai']:
     png = os.path.join(HERE, 'zu', name + '.png')
     if os.path.exists(png):
         w, h_ = struct.unpack('>II', open(png, 'rb').read()[16:24])
-        judge(f'{name}.png が縦長（{w}×{h_}px）', h_ > w and w == 1200)
+        if name.endswith('machigai'):
+            judge(f'{name}.png が縦長（{w}×{h_}px）', h_ > w and w == 1200)
+        else:   # 1つの問の欄だけの画像（2026-10-02、問ごとに分けた）。横1200px
+            judge(f'{name}.png が横1200px（{w}×{h_}px）', w == 1200 and 300 < h_ < 900)
     else:
         judge(f'{name}.png がある', False)
-html_k = open(os.path.join(HERE, 'zu', 'H21_dai21mon_toukishinseisho_kansei.html'), encoding='utf-8').read()
-html_m = open(os.path.join(HERE, 'zu', 'H21_dai21mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
-for s in ['第21問答案用紙（その1）', 'I点のX座標', 'L点のY座標', '507.07m', '509.07m', '485.26m', '495.56m', '見取図(ロ)部分の面積', '2.43㎡',
-          '見取図(ハ)部分の面積', '3.82㎡', '登記の順番', '登記の原因及び日付', '添付情報', '土地地目変更登記', '②③平成21年8月3日地目変更',
-          '代理権限証明情報', '土地分筆登記', '③100番1、100番3、100番4に分筆', '100番1から分筆<br>100番1から分筆',
-          '地積測量図<br>抵当権消滅承諾証明情報<br>代理権限証明情報', '平成21年度 土地家屋調査士試験 第21問 答案用紙（その1） 解答例']:
-    check('完成形の画像（HTML）', s, html_k, '完成形画像')
-judge('完成形の画像：問1→問2→問3→問4の順（答案用紙どおり）',
-      html_k.index('I点のX座標') < html_k.index('見取図(ロ)') < html_k.index('見取図(ハ)') < html_k.index('登記の順番'))
+html = {n: open(os.path.join(HERE, 'zu', f'H21_dai21mon_toukishinseisho_{n}.html'), encoding='utf-8').read()
+        for n in ['kansei_toi1', 'kansei_toi2', 'kansei_toi3', 'kansei', 'machigai']}
+html_k, html_m = html['kansei'], html['machigai']
+for n, ss in [('kansei_toi1', ['第21問答案用紙（その1）', '>問1<', 'I点のX座標', 'I点のY座標', 'J点のX座標', 'L点のY座標',
+                               '507.07m', '509.07m', '485.26m', '495.56m', '第21問 答案用紙（その1） 問1 解答例']),
+              ('kansei_toi2', ['>問2<', '見取図(ロ)部分の面積', '2.43㎡', '答案用紙（その1） 問2 解答例']),
+              ('kansei_toi3', ['>問3<', '見取図(ハ)部分の面積', '3.82㎡', '答案用紙（その1） 問3 解答例']),
+              ('kansei', ['>問4<', '登記の順番', '登記の原因及び日付', '添付情報', '土地地目変更登記', '②③平成21年8月3日地目変更',
+                          '代理権限証明情報', '土地分筆登記', '③100番1、100番3、100番4に分筆', '100番1から分筆<br>100番1から分筆',
+                          '地積測量図<br>抵当権消滅承諾証明情報<br>代理権限証明情報', '答案用紙（その1） 問4 解答例'])]:
+    for s in ss:
+        check(f'完成形の画像（{n}.html）', s, html[n], '完成形画像')
+judge('問ごとの画像に、ほかの問の欄が入っていない',
+      '見取図' not in html['kansei_toi1'] + html['kansei'] and '点のX座標' not in html['kansei_toi2'] + html['kansei_toi3'] + html['kansei']
+      and '登記の順番' not in html['kansei_toi1'] + html['kansei_toi2'] + html['kansei_toi3'])
 judge('完成形の画像：問4の記入行は2行', html_k.count('<td class="n">') == 2)
 for s in ['①誤答', '②添削（赤ペン）', '③正解', '②平成21年8月3日地目変更', '③100番1、100番3に分筆', '抵当権消滅承諾証明情報',
           '平成21年度 第21問｜地目変更は②③、分筆は3筆、抵当権消滅承諾証明情報']:
@@ -410,9 +424,33 @@ for i, l in enumerate(lines):
             same.append(i + 1)
 judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも含む）: {same}', not same)
 n_marker = len(marker_idx)
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図14＋添削1＋完成形1＝計16か所の想定）', n_marker == 16)
-n_png = len([f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png')])
-judge(f'zu/ のPNGがマーカーの数だけある（{n_png}枚）', n_png == n_marker)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図14＋添削1＋答案用紙の問ごとの欄4＝計19か所の想定）', n_marker == 19)
+# 記事の画像挿入マーカーの順と zu/ のPNGの対応（マーカーの文言 → PNG）。2026-10-02 追加
+ORDER = [('北を上にして座標どおりに描き直した全体図', 'H21_dai21mon_zu01_zentaizu.png'),
+         ('筆界点の裏付けの図', 'H21_dai21mon_zu02_hikkai_uradzuke.png'),
+         ('H点の図', 'H21_dai21mon_zu03_H_haba.png'),
+         ('I点の図', 'H21_dai21mon_zu04_I_kouten.png'),
+         ('J点の図', 'H21_dai21mon_zu05_J_souji.png'),
+         ('L点の図', 'H21_dai21mon_zu06_L_souji.png'),
+         ('答案用紙（その1）の問1の欄の完成形', 'H21_dai21mon_toukishinseisho_kansei_toi1.png'),
+         ('問2の図', 'H21_dai21mon_zu07_ro_menseki.png'),
+         ('答案用紙（その1）の問2の欄の完成形', 'H21_dai21mon_toukishinseisho_kansei_toi2.png'),
+         ('問3と等積の図', 'H21_dai21mon_zu08_ha_toseki.png'),
+         ('答案用紙（その1）の問3の欄の完成形', 'H21_dai21mon_toukishinseisho_kansei_toi3.png'),
+         ('J点の別解の図', 'H21_dai21mon_zu09_J_betsukai.png'),
+         ('公差の判定図', 'H21_dai21mon_zu10_kousa.png'),
+         ('問4の答案の誤答→添削→正解の3コマ', 'H21_dai21mon_toukishinseisho_machigai.png'),
+         ('答案用紙（その1）の問4の欄の完成形', 'H21_dai21mon_toukishinseisho_kansei.png'),
+         ('問4の登記の順番の整理図', 'H21_dai21mon_zu11_touki_junban.png'),
+         ('分筆後の区画と地番の図', 'H21_dai21mon_zu12_bunpitsu_chiban.png'),
+         ('地積測量図（100番1の分筆）の完成見本', 'H21_dai21mon_zu13_chiseki_sokuryouzu.png'),
+         ('本番で解く順番の図', 'H21_dai21mon_zu14_toku_junban.png')]
+mk = [lines[i] for i in marker_idx]
+judge(f'マーカーの数とPNGの対応表の数が同じ（{len(mk)}・{len(ORDER)}）', len(mk) == len(ORDER))
+for n_, ((key, png_), m_) in enumerate(zip(ORDER, mk), 1):
+    judge(f'マーカー{n_}「{key}」→ {png_}（記事の順）', key in m_ and os.path.exists(os.path.join(HERE, 'zu', png_)))
+zu_png = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
+judge(f'zu/ のPNGが対応表と過不足なし（{len(zu_png)}枚）', zu_png == sorted(p_ for _, p_ in ORDER))
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成21年度問題21（土地）〜'

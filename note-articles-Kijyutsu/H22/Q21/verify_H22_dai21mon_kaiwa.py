@@ -270,6 +270,36 @@ for s in ['①誤答', '②添削（赤ペン）', '③正解', '杉山敏夫', 
           '平成22年度 第21問｜申請人は6番2を取得した良子（成年後見人）と健二、新しい地番は6番4']:
     check('添削の画像（HTML）', s, html_m, '添削画像')
 
+# ---- 問1・問2の欄の画像（2026-10-02 追加。申請書でない解答欄も答えの直後に置く） ----
+for name in ['H22_dai21mon_toukishinseisho_kansei_toi1', 'H22_dai21mon_toukishinseisho_kansei_toi2']:
+    png = os.path.join(HERE, 'zu', name + '.png')
+    if os.path.exists(png):
+        w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
+        judge(f'{name}.png が横1200px（{w}×{h}px）', w == 1200 and 300 < h < 900)
+    else:
+        judge(f'{name}.png がある', False)
+html_t1 = open(os.path.join(HERE, 'zu', 'H22_dai21mon_toukishinseisho_kansei_toi1.html'), encoding='utf-8').read()
+html_t2 = open(os.path.join(HERE, 'zu', 'H22_dai21mon_toukishinseisho_kansei_toi2.html'), encoding='utf-8').read()
+KETSURON = ('登記所に提出されている地積測量図（平成8年の分筆のときのもの）に記録された道路境界線（D点・E点・F点を結ぶ線）を採用すべきである')
+RIYUU = ('筆界は、土地が登記された時にその境を構成するものとされた線であり、所有者とA市の協議や道路境界承諾書によって動くものではない。'
+         '道路管理図の線（H点・I点・J点を結ぶ線）は、道路拡幅のための用地の予定線であり、その部分の分筆も所有権の移転もされていないので、'
+         '登記によって公示された筆界ではない。現地の境界標と平成8年の地積測量図の座標は整合している')
+check('問1の結論（記事）', '- **問1の結論**：' + KETSURON)
+check('問1の理由（記事）', '- **問1の理由**：' + RIYUU)
+for s in ['第二十一問答案用紙（その一）', '>問1<', '【結論】', '【理由】', KETSURON + '。', RIYUU + '。', '答案用紙（その一） 問1 解答例']:
+    check('問1の欄の画像（HTML）', s, html_t1, '問1の欄')
+    check('問1の欄のプロンプト', s if not s.startswith('>') else '【結論】', form, '登記申請書')
+judge('問1の欄：【結論】が【理由】より上（答案用紙どおり）', html_t1.index('【結論】') < html_t1.index('【理由】'))
+for s in ['>問2<', 'C点のX座標', 'C点のY座標', 'D点のX座標', 'K点のY座標', '>532.49m<', '>481.86m<', '>534.67m<', '>500.24m<', '>533.69m<',
+          '>491.97m<', '答案用紙（その一） 問2 解答例']:
+    check('問2の欄の画像（HTML）', s, html_t2, '問2の欄')
+judge('問2の欄はC→D→Kの順（答案用紙どおり）', html_t2.index('C点のX座標') < html_t2.index('D点のX座標') < html_t2.index('K点のX座標'))
+for s in ['C点　X座標「532.49m」、Y座標「481.86m」', 'D点　X座標「534.67m」、Y座標「500.24m」', 'K点　X座標「533.69m」、Y座標「491.97m」',
+          '答案用紙の問1の欄は、【結論】と【理由】が印刷された大きな枠です', 'これで問2のC点・D点・K点がそろったわ']:
+    check('問1・問2の欄のプロンプト', s, form, '登記申請書')
+for s in ['答案用紙の問1の欄は、【結論】と【理由】が印刷された大きな枠です', 'これで問2のC点・D点・K点がそろったわ']:
+    check('問1・問2の欄の挿入位置の文言', s)
+
 # ---- 注の書き分け（今年は見取図の（注）と問題文の注1〜6の2系統。裸の「注N」を残さない） ----
 fig_data = fig[fig.index('## 差し替えデータ'):]
 for src, name in [(text, '記事'), (fig_data, '解説図（差し替えデータ）')]:
@@ -303,7 +333,36 @@ for i, l in enumerate(lines):
             same.append(i + 1)
 judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＝計{N_FIG + 2}か所の想定）', n_marker == N_FIG + 2)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋申請書の完成形1＋問1・問2の欄2＝計{N_FIG + 4}か所の想定）',
+      n_marker == N_FIG + 4)
+# 記事の画像挿入マーカーの順と zu/ のPNGの対応（マーカーの文言 → PNG）。2026-10-02 追加
+ORDER = [('北を上にして座標どおりに描き直した全体図', 'H22_dai21mon_zu01_zentaizu.png'),
+         ('問1の整理図', 'H22_dai21mon_zu02_mon1_seiri.png'),
+         ('答案用紙（その一）の問1の欄の完成形', 'H22_dai21mon_toukishinseisho_kansei_toi1.png'),
+         ('T3からの放射でG点を求める図', 'H22_dai21mon_zu03_G_housha.png'),
+         ('T3からの放射でL点を求める図', 'H22_dai21mon_zu04_L_housha.png'),
+         ('T1からの放射でF点を求める図', 'H22_dai21mon_zu05_F_housha.png'),
+         ('T1からの放射でJ点を求める図', 'H22_dai21mon_zu06_J_housha.png'),
+         ('座標変換の確かめの図', 'H22_dai21mon_zu07_zahyou_henkan.png'),
+         ('C点の求め方の図', 'H22_dai21mon_zu08_C_heikou.png'),
+         ('D点の求め方の図', 'H22_dai21mon_zu09_D_heikou.png'),
+         ('K点の求め方の図', 'H22_dai21mon_zu10_K_ten.png'),
+         ('答案用紙（その一）の問2の欄の完成形', 'H22_dai21mon_toukishinseisho_kansei_toi2.png'),
+         ('(B)(C)の面積の求め方の図', 'H22_dai21mon_zu11_menseki.png'),
+         ('東の道路境界の比較図', 'H22_dai21mon_zu12_kyoukai_hikaku.png'),
+         ('誤差の限度の判定図', 'H22_dai21mon_zu13_kousa.png'),
+         ('分筆後の区画と地番の図', 'H22_dai21mon_zu14_bunpitsu_chiban.png'),
+         ('申請人の整理図', 'H22_dai21mon_zu15_shinseinin.png'),
+         ('誤答→添削→正解の3コマ', 'H22_dai21mon_toukishinseisho_machigai.png'),
+         ('登記申請書（問3）の完成形', 'H22_dai21mon_toukishinseisho_kansei.png'),
+         ('地積測量図の完成見本', 'H22_dai21mon_zu16_sokuryouzu.png'),
+         ('本番で解く順番の図', 'H22_dai21mon_zu17_toku_junban.png')]
+mk = [l for l in lines if l.startswith('> 【画像挿入】')]
+judge(f'マーカーの数とPNGの対応表の数が同じ（{len(mk)}・{len(ORDER)}）', len(mk) == len(ORDER))
+for n_, ((key, png_), m_) in enumerate(zip(ORDER, mk), 1):
+    judge(f'マーカー{n_}「{key}」→ {png_}（記事の順）', key in m_ and os.path.exists(os.path.join(HERE, 'zu', png_)))
+zu_png = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
+judge(f'zu/ のPNGが対応表と過不足なし（{len(zu_png)}枚）', zu_png == sorted(p_ for _, p_ in ORDER))
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成22年度問題21（土地）〜'
