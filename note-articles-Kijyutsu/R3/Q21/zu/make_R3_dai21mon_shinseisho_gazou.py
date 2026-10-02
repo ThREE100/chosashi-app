@@ -1,11 +1,14 @@
 """令和3年度 第21問（土地）登記申請書の画像（完成形・添削）を、HTML＋ヘッドレスブラウザでPNGに書き出す。
 
 - 完成形：`../prompt_R3_dai21mon_toukishinseisho_gazou.md` どおり。縦長（横1200px）。
-  項目の順序は試験の答案用紙どおり「登記の目的 → 添付書類 → 登録免許税 → 申請人の枠（項目名なし）→ 代理人 → 申請の日付と提出先 → 土地の表示」
+  項目の順序は試験の答案用紙（`../touan_youshi/`。A3横の左の列が「第3欄」の表題と登記の目的・添付書類・登録免許税、右の列が
+  項目名のない申請人の枠・代理人（略）・申請の日付と提出先・所在と土地の表示）どおり、左の列の下に右の列を積んで
+  「第3欄 → 登記の目的 → 添付書類 → 登録免許税 → 申請人の枠（項目名なし）→ 代理人 → 申請の日付と提出先 → 土地の表示」
 - 添削　：`../prompt_R3_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 第1欄（問1のA点・C点・H点・L点）・第2欄（問2のア〜カ）：申請書でない解答欄も、別の画像にする（横1200pxの横長。2026-10-02追加）。
-  試験の答案用紙そのものはリポジトリにないので、欄の見出しと記号・記入欄だけの簡素な形（令和6年度の答案用紙の第1欄・第2欄の
-  形にならった仮のもの）にしている
+  欄の形は試験の答案用紙（`../touan_youshi/R3_dai21mon_touan_youshi.pdf`）で確かめた（2026-10-02）。見出しは印刷どおり「第1欄」「第2欄」だけ。
+  第1欄は左上が斜線のセル・「Ｘ座標（m）」「Ｙ座標（m）」の見出し行と「Ａ点」「Ｃ点」「Ｈ点」「Ｌ点」の4行、
+  第2欄は「ア｜イ」「ウ｜エ」「オ｜カ」の3行（記号と記入欄を2組ずつ横に並べる）
 - 完成形の表の下に、相続証明書の今の扱い（法定相続情報番号）の注を入れる（2026-10-02追加。記事の本文の注と同じ文言）
 
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・Noto Sans CJK JP。なければIPAゴシック）
@@ -30,6 +33,7 @@ CSS = f'''
 body {{ background: #fff; width: 1200px; font-family: "IPAMincho", "Noto Serif CJK JP", serif; color: #111; }}
 .page {{ padding: 70px 70px 40px; min-height: 1700px; display: flex; flex-direction: column; }}
 .page .caption {{ margin-top: auto; padding-top: 30px; }}
+.ranno {{ font-family: {SANS}; font-size: 22px; font-weight: bold; margin: 0 0 -38px; }}
 .title {{ text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 50px 0.9em; }}
 .row {{ display: flex; align-items: flex-start; margin-bottom: 28px; position: relative; }}
 .lab {{ width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }}
@@ -151,6 +155,7 @@ NOTE = ('※相続証明書は、今は法定相続情報一覧図の写しか�
 CSS += ('.tnote { font-size: 17px; color: #444; margin-top: 12px; line-height: 1.6; '
         'font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }')
 kansei = page(f'''<div class="page">
+<div class="ranno">第3欄</div>
 <div class="title">登記申請書</div>
 <div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink(PURPOSE)}</div></div>
 <div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:176px">{ink(ATTACH[0])}<br>{ink(ATTACH[1])}</div></div>
@@ -217,7 +222,7 @@ def zahyou_table(rows_):
     """座標の欄。rows_: [(点名, X, Y)]"""
     trs = ''.join(f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in rows_)
     return ('<table class="rz"><colgroup><col style="width:30%"><col style="width:35%"><col style="width:35%"></colgroup>'
-            '<tr><td class="head diag"></td><td class="head">Ｘ座標（ｍ）</td><td class="head">Ｙ座標（ｍ）</td></tr>'
+            '<tr><td class="head diag"></td><td class="head">Ｘ座標（m）</td><td class="head">Ｙ座標（m）</td></tr>'
             f'{trs}</table>')
 
 
@@ -236,8 +241,8 @@ def anaume_table(items):
 
 DAI1 = [('Ａ点', '505.93', '495.62'), ('Ｃ点', '499.79', '526.75'), ('Ｈ点', '504.61', '500.55'), ('Ｌ点', '514.27', '521.83')]
 DAI2 = [('ア', '登記所'), ('イ', '位置'), ('ウ', '形状'), ('エ', '地番'), ('オ', '閉鎖'), ('カ', '永久')]
-dai1 = ran_page('第1欄　Ａ点、Ｃ点、Ｈ点及びＬ点の座標値', zahyou_table(DAI1), '令和3年度 土地家屋調査士試験 第21問 第1欄（問1）解答例')
-dai2 = ran_page('第2欄　地図に準ずる図面の説明（ア〜カ）', anaume_table(DAI2), '令和3年度 土地家屋調査士試験 第21問 第2欄（問2）解答例（イ〜エは順不同）')
+dai1 = ran_page('第1欄', zahyou_table(DAI1), '令和3年度 土地家屋調査士試験 第21問 第1欄（問1　Ａ点、Ｃ点、Ｈ点及びＬ点の座標値）解答例')
+dai2 = ran_page('第2欄', anaume_table(DAI2), '令和3年度 土地家屋調査士試験 第21問 第2欄（問2　地図に準ずる図面の説明）解答例（イ〜エは順不同）')
 
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
