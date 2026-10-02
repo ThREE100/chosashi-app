@@ -2,12 +2,18 @@
 
 - 完成形：`../prompt_R1_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ）どおり。縦長（横1200px）
 - 添削　：`../prompt_R1_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
-- 欄の順序は令和元年度の試験の答案用紙どおり（登記の目的 → 添付書類 → 登録免許税 → 申請人 → 代理人 → 申請の日付と提出先 → 土地の表示）
+- 欄の順序は令和元年度の試験の答案用紙どおり（登記の目的 → 添付書類 → 登録免許税 → 申請人 → 代理人 → 申請の日付と提出先 → 土地の表示）。
+  2026-10-02、試験の答案用紙（`../touan_youshi/R1_dai21mon_touan_youshi.pdf` の第3欄）と照らして確かめた：代理人の行の「（略）」と
+  その下の「令和元年10月18日　申請　Ａ地方法務局」は印刷、土地の表示は記入行4行で、③地積はすべての行で点線により整数部・小数部に分け、
+  地積の「（略）」の印刷はない
 
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
 見本：`../../../R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`
 実行: python3 note-articles-Kijyutsu/R1/Q21/zu/make_R1_dai21mon_shinseisho_gazou.py [出力フォルダ]
-第1欄・第2欄の画像：問1・問2（欄の形は平成30年度にならった仮のもの）の、申請書でない解答欄の完成形（横1200px。2026-10-02追加）
+第1欄・第2欄の画像：問1・問2の、申請書でない解答欄の完成形（横1200px。2026-10-02追加）。欄の形は試験の答案用紙
+（`../touan_youshi/`）で確かめた形：第1欄は左上が斜線のセルと「Ｘ座標（m）」「Ｙ座標（m）」の見出し、Ｄ点・Ｇ点の2行（3列とも同じ幅）。
+第2欄は「（1）　対象土地の地番」「（2）　関係土地の地番」「（3）　関係人の氏名」の見出しの下に、それぞれ大きな記入枠が1つずつ
+（問2の問題文は「関係人の氏名又は名称」だが、答案用紙の見出しは「関係人の氏名」）
 """
 import glob
 import os
@@ -173,6 +179,11 @@ table.ans td {{ border: 1.5px solid #111; font-size: 22px; height: 68px; padding
 table.ans td.c {{ text-align: center; }}
 table.ans td.lab {{ height: 46px; font-size: 20px; }}
 table.ans td.long {{ height: auto; padding: 16px 18px; line-height: 1.75; }}
+table.ans td.diag {{ background: linear-gradient(to top right, transparent calc(50% - 1px), #111 50%, transparent calc(50% + 1px)); }}
+.sub {{ font-size: 22px; margin: 6px 0 10px 4px; }}
+.sub + .wbox {{ margin-left: 30px; }}
+.wbox {{ border: 2.5px solid #111; min-height: 120px; padding: 18px 24px; margin-bottom: 26px; display: flex; align-items: center; }}
+.wbox .ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; line-height: 1.6; }}
 table.ans .ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 24px; }}
 .ran .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 26px;
                 font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
@@ -185,31 +196,27 @@ def ran_page(title, table_html, caption):
 
 
 def zahyou_table(rows):
-    """座標値の表（答案用紙どおり：見出し行は空欄・X座標（m）・Y座標（m））。rows: [(点名, X, Y)]"""
-    h = ['<table class="ans"><colgroup><col style="width:30%"><col style="width:35%"><col style="width:35%"></colgroup>',
-         '<tr><td class="c"></td><td class="c">Ｘ座標（m）</td><td class="c">Ｙ座標（m）</td></tr>']
+    """座標値の表（答案用紙の第1欄どおり：左上は斜線のセル・Ｘ座標（m）・Ｙ座標（m）、3列とも同じ幅）。rows: [(点名, X, Y)]"""
+    h = ['<table class="ans"><colgroup><col style="width:33.3%"><col style="width:33.3%"><col style="width:33.4%"></colgroup>',
+         '<tr><td class="c diag"></td><td class="c">Ｘ座標（m）</td><td class="c">Ｙ座標（m）</td></tr>']
     for n, x, yy in rows:
         h.append(f'<tr><td class="c">{n}</td><td class="c"><span class="ink">{x}</span></td>'
                  f'<td class="c"><span class="ink">{yy}</span></td></tr>')
     return ''.join(h) + '</table>'
 
 
-def kigou_table(rows, w=30, center=True):
-    """記号（ア〜エ、（1）〜（3）など）と記入欄の2列の表。rows: [(記号, 答え)]"""
-    cls = 'c' if center else ''
-    h = [f'<table class="ans"><colgroup><col style="width:{w}%"><col style="width:{100 - w}%"></colgroup>']
-    for k, v in rows:
-        h.append(f'<tr><td class="{cls}">{k}</td><td class="long"><span class="ink">{v}</span></td></tr>')
-    return ''.join(h) + '</table>'
+def koumoku_waku(items):
+    """答案用紙の第2欄どおり：見出し（（1）〜（3））の下に、大きな記入枠を1つずつ。items: [(見出し, 答え)]"""
+    return ''.join(f'<div class="sub">{k}</div><div class="wbox"><span class="ink">{v}</span></div>' for k, v in items)
 
-# 令和元年度の試験の答案用紙はリポジトリにないため、欄の形は同じ時期（平成30年度）の答案用紙の座標値の表・記号の表にならった仮のもの。
-# 欄の番号が確かめられないので、見出しは「問１」「問２」にした（試験の答案用紙で確かめたら合わせて直す）。
-dai1 = ran_page('問１　Ｄ点及びＧ点の座標値', zahyou_table([('Ｄ点', '289.00', '300.00'), ('Ｇ点', '290.18', '310.80')]),
-                '令和元年度 土地家屋調査士試験 第21問 問1 解答例')
-dai2 = ran_page('問２　筆界特定（平成18年9月の申請）',
-                kigou_table([('（1）対象土地の地番', '6番、5番'), ('（2）関係土地の地番', '2番32、3番3、100番'),
-                             ('（3）関係人の氏名又は名称', '北冬子、山川一郎、東春男、東春子、西秋男、Ａ市')], w=34, center=False),
-                '令和元年度 土地家屋調査士試験 第21問 問2 解答例')
+
+# 見出しは答案用紙の印刷どおり欄の番号だけにし、問の内容はキャプションに書く。欄の形・欄の番号は、試験の答案用紙（../touan_youshi/R1_dai21mon_touan_youshi.pdf）で確かめた（2026-10-02）。
+dai1 = ran_page('第1欄', zahyou_table([('Ｄ点', '289.00', '300.00'), ('Ｇ点', '290.18', '310.80')]),
+                '令和元年度 土地家屋調査士試験 第21問 第1欄（問1）Ｄ点・Ｇ点の座標値 解答例')
+dai2 = ran_page('第2欄',
+                koumoku_waku([('（1）　対象土地の地番', '6番、5番'), ('（2）　関係土地の地番', '2番32、3番3、100番'),
+                              ('（3）　関係人の氏名', '北冬子、山川一郎、東春男、東春子、西秋男、Ａ市')]),
+                '令和元年度 土地家屋調査士試験 第21問 第2欄（問2）筆界特定（平成18年9月の申請）解答例')
 RAN = [('R1_dai21mon_dai1ran_kansei', dai1), ('R1_dai21mon_dai2ran_kansei', dai2)]
 
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
