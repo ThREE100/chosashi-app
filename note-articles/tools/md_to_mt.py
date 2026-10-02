@@ -113,7 +113,15 @@ def parse_article(md_text):
         # 設問・各記述・選択肢の間を<br><br>で分けて1つの<blockquote><p>にまとめる
         # （この形でnoteに取り込むと、1つの引用ブロックのまま各記述の間に余白が入ることを確認済み。2026-10-02）
         quote_html = "<br><br>\n".join(non_empty)
-        body_parts.append(f"<blockquote><p>{quote_html}</p></blockquote>")
+        # 引用の出典欄（noteの引用ブロック末尾の「出典を入力」）。
+        # 「出題年度：」に「（改）」が付く記事は空欄、それ以外は「出典：法務省　{年度}土地家屋調査士試験問題」
+        cite = ""
+        if m:
+            ym = re.match(r"出題年度：((?:令和|平成)(?:元|\d+)年度)", m.group(1))
+            if ym and "（改）" not in m.group(1):
+                cite = f"出典：法務省　{ym.group(1)}土地家屋調査士試験問題"
+        cite_html = f"<figcaption>{escape(cite)}</figcaption>" if cite else ""
+        body_parts.append(f"<figure><blockquote><p>{quote_html}</p></blockquote>{cite_html}</figure>")
         # 問題文（引用）と解説文の間の区切り線
         body_parts.append("<hr>")
 
