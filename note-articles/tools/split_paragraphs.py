@@ -49,9 +49,8 @@ def split_para(p, limit, target):
 def process(text, limit=125, target=90):
     L=text.split('\n')
     # 解説文の範囲
-    q_end=0
-    for i,l in enumerate(L):
-        if l.startswith('>'): q_end=i
+    q_end=next(i for i,l in enumerate(L) if l.startswith('>'))
+    while q_end+1<len(L) and L[q_end+1].startswith('>'): q_end+=1
     s=next(i for i in range(q_end,len(L)) if L[i].strip()=='---')+1
     e=next(i for i,l in enumerate(L) if re.match(r'^### まとめ',l))
     out=L[:s]; changed=0
