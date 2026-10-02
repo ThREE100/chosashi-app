@@ -1,7 +1,8 @@
-"""平成26年度 第22問（建物）：記事の数値・計算・付属プロンプト・体裁の照合スクリプト。
-アガルートの解答例（過去問集の版。日付を平成30年に置き換え、会社法人等番号を加えたもの）の
-第1欄・第2欄・第3欄・第4欄・第5欄（各階平面図・建物図面）と一致することを確認済み。
-解答例の日付は、本試験の問題文どおり平成26年に戻して照合した（平成30年8月30日→平成26年6月30日、平成30年10月10日→平成26年8月10日）。
+"""平成26年度 第22問（建物）：記事の数値・計算・付属プロンプト・生成画像・体裁の照合スクリプト。
+アガルートの解答例の第1欄・第2欄・第3欄・第4欄・第5欄（各階平面図・建物図面）と一致することを確認済み
+（照合の作業の中では、予備校の版の日付を試験問題本文の日付に戻して突き合わせた。下の shift はその対応表で、記事・画像には使わない）。
+2026-10-02、最新の執筆プロンプト・チェックリストとの照らし直しで、画像挿入マーカー14か所と zu/ のPNG14枚の対応、
+第1欄・第2欄の画像の分割、解く順番・注の書き分け・所在の確認・区分所有法第31条第1項の今の条文と出題当時の注の確認を加えた。
 実行: python3 note-articles-Kijyutsu/H26/Q22/verify_H26_dai22mon.py"""
 import math
 import os
@@ -59,7 +60,8 @@ check('規約共用部分', '『規約共用部分』です（区分所有法第
 check('規約敷地', '『規約敷地』（同法第5条第1項）')
 check('分離処分の禁止', '区分所有法第15条第2項')
 check('分離処分の禁止（敷地）', '同法第22条第1項')
-check('規約の廃止は集会の決議', '集会で区分所有者と議決権の各4分の3以上の決議でするの（区分所有法第31条第1項）')
+check('規約の廃止は集会の決議', '規約の設定・変更・廃止は、集会（総会）の決議でするの（区分所有法第31条第1項）')
+check('区分所有法第31条第1項（今の条文と出題当時の注）', '今の条文では、区分所有者と議決権の各過半数が出席して、出席した区分所有者と議決権の各4分の3以上（出題当時は、出席者ではなく区分所有者全員と議決権全体の各4分の3以上）')
 check('理事会の日は議題だけ', '事実関係1で、平成26年4月30日の理事会で売却の議題があがっています')
 check('規約廃止の日', '規約の廃止の日は6月30日')
 
@@ -83,7 +85,8 @@ check('問2 原因', '『平成26年6月30日共用部分の規約廃止』。7�
 check('問2 添付情報の根拠', '不動産登記令別表21の項')
 check('問2 図面は不要', '21の項には載っていません')
 check('問2 申請人', '規約を廃止した6月30日の時点の所有者、つまり本件建物を共有している区分所有者全員')
-check('問1・問2のまとめ', '問1は『区分建物表題部変更登記（敷地権抹消）』『平成26年6月30日非敷地権』、添付情報は規約廃止証明書と代理権限証書。問2は『建物表題登記（共用部分廃止）』『平成26年6月30日共用部分の規約廃止』、添付情報は規約廃止証明書、所有権証明書、住所証明書、代理権限証書です')
+check('問1のまとめ（第1欄の画像の直前）', '問1は『区分建物表題部変更登記（敷地権抹消）』『平成26年6月30日非敷地権』、添付情報は規約廃止証明書と代理権限証書。計算がいらないから、第1欄はここで書き切ります')
+check('問2のまとめ（第2欄の画像の直前）', '問2の答えをまとめます。『建物表題登記（共用部分廃止）』『平成26年6月30日共用部分の規約廃止』、添付情報は規約廃止証明書、所有権証明書、住所証明書、代理権限証書です')
 
 # ---- 問3・問4（第3欄・第4欄）----
 check('合併（合体ではない）', '壁を取り払って構造上1個になったわけじゃないから、合体じゃないわ')
@@ -124,6 +127,11 @@ lot3 = [P(0, -40), P(50, -40), P(50, 0), P(0, 0)]
 assert round(area(lot8), 2) == round(area(lot10), 2) == 469.40      # 登記記録の地積と一致
 assert round(26.53 + 23.47, 2) == 50.00 and round(area(lot3), 2) == 2000.00
 check('1番8の地積', '20.00かける23.47で469.40平方メートル。登記記録の地積469.40と一致します')
+check('注の書き分け（見取図の注4）', '見取図の辺長と、見取図の注4の『土地の形状及び建物の形状は、全て直交している』で形を決めます')
+check('注の仕分け', '問題文の注1〜4と、見取図の注1〜5。番号がかぶるから『見取図の注4』のように書き分けなさい。縮尺は問題文の注3、距離が外壁までなのは見取図の注3よ')
+check('縮尺の注（建物図面）', '縮尺は500分の1（問題文の注3）')
+check('縮尺の注（各階平面図）', '縮尺は250分の1（問題文の注3）')
+absent('番号だけの注', '、注4の')
 check('1番10の地積', '1番10も同じ形で469.40平方メートル、こちらも一致です')
 check('1番3の地積', '西の辺が26.53＋23.47で50.00メートル、東西が40.00メートル。40.00かける50.00で2000.00平方メートル')
 check('複素数モード不要', '関数電卓の複素数モードを持ち出すまでもないわ')
@@ -144,6 +152,13 @@ check('建物図面の距離（倉庫）', '北東の角から東の1番10との
 check('事務所の形', '北側が東西いっぱいに広く、南側は東の部分だけが南へ出たL字形です。南西の角が欠けています')
 check('建物図面の記載事項', '（不動産登記規則第82条第2項）。事務所に『主』、倉庫に『附1』。縮尺は500分の1')
 check('所在（建物図面）', '建物の所在は『A市B町一丁目1番地10、1番地8』よ')
+check('第5欄の上の欄と（略）', '家屋番号と建物の所在の欄は建物図面の側の上に1つだけで、申請人と作成者の欄は『（略）』と印刷されているから書かなくていいですね')
+# 座標のない年度の所在の確認（距離＋建物の寸法と敷地の辺長を比べる）
+assert round(2.51 + 14.56, 2) == 17.07 and round(20 - 17.07, 2) == 2.93 == round(22.93 - 20, 2)
+assert round(1.72 + 14.56, 2) == 16.28 and round(23.47 - 16.28, 2) == 7.19
+assert round(1.85 + 15.00, 2) == 16.85 and round(20 - 16.85, 2) == 3.15
+assert round(1.41 + 6.00, 2) == 7.41 and round(23.47 - 7.41, 2) == 16.06
+check('所在の確認', '事務所は東西が2.51＋14.56＝17.07で、1番10の20.00より短いから、西の1番8との境まで2.93。南北は1.72＋14.56＝16.28で、南の道路まで7.19。倉庫は東西が1.85＋15.00＝16.85で、西の1番3との境まで3.15。南北は1.41＋6.00＝7.41で、北の1番7との境まで16.06')
 check('図面の作成単位', '（不動産登記規則第81条）')
 
 # ---- 各階平面図：床面積（登記記録どおり。変更なし）----
@@ -173,6 +188,13 @@ check('1階の位置', '（不動産登記規則第83条第1項）')
 check('2階 求積表', '- 11.83 × 6.37 ＝ 75.3571\n- 5.46 × 1.82 ＝ 9.9372\n- 合計：85.2943 （床面積：85.29平方メートル）')
 check('切り捨て', '159.8233は切り捨てて159.82、85.2943は85.29')
 check('切り捨ての根拠', '（不動産登記規則第115条）')
+check('各階平面図の記載事項', '『附属建物符号1』を分けて書く（不動産登記規則第83条第1項）')
+check('各階平面図の完成形', '第5欄の左半分に『主である建物　1階』『主である建物　2階』『附属建物　符号1』を並べて、各辺の長さを書く')
+check('解く順番（いちばん時間を食う）', '第5欄の作図です。床面積は登記記録の159.82・85.29・90.00がそのまま使えるので、求積は作図のチェックだけ。第1欄から第4欄までは、計算なしで全部書けます')
+for s_ in ['- ① 問1〜問5と問題文の注を読む', '- ② 事実関係の日付を時系列メモに並べ', '- ③ 第1欄・第2欄', '- ④ 第4欄と第3欄の申請書',
+           '- ⑤ 第5欄の作図', '- ⑥ 見直し']:
+    check('解く順番の箇条', s_)
+check('解く順番（第4欄の書き方）', '練りすぎて作図の時間を削らないようにします')
 
 # ---- まとめ ----
 check('まとめ（問3の原因）', '変更後の倉庫に『①平成26年8月10日種類変更　1番10に合併』')
@@ -213,7 +235,7 @@ for label, pts, want in figs:
     check(label + ' 頂点座標', s, fig, '解説図')
 for s in ['「1.72」「2.51」「2.51」「1.85」「1.41」「1.41」', '1番8　469.40㎡', '1番10　469.40㎡', '1番3　2000.00㎡',
           '1階 床面積：159.82㎡（14.56×8.19＋6.37×6.37＝159.8233）', '符号1 床面積：90.00㎡（15.00×6.00＝90.0000）',
-          '2階 床面積：85.29㎡（11.83×6.37＋5.46×1.82＝85.2943）', '建物の所在　A市B町一丁目1番地10、1番地8',
+          '2階 床面積：85.29㎡（11.83×6.37＋5.46×1.82＝85.2943）', '建物の所在：「A市B町一丁目1番地10、1番地8」', '家屋番号：「1番10」',
           '平成26年6月30日「総会で規約廃止（全員一致）」', '平成26年4月30日「理事会で売却の議題」', '「0.91」', '「2.73」']:
     check('図の数値', s, fig, '解説図')
 
@@ -221,8 +243,12 @@ for s in ['「1.72」「2.51」「2.51」「1.85」「1.41」「1.41」', '1番8
 assert wY < stepY < eY and sX < stepX < nX         # 南東の部分は東寄りで南へ出る（南西の角が欠ける）
 check('向き', '南西の角（Y：0〜8.19、X：8.19〜14.56）が欠けている', fig, '解説図')
 check('向き', '1階の北の辺と東の辺にそろい、西の端は1階の西の端から東へ2.73', fig, '解説図')
-for bad in ['PDF', '創設的登記', '名変', '✕', '✓', '右上', '左下', '右側', '左側', '敷地権消滅』よ', '四捨五入して']:
-    absent('誤記・混入', bad)
+for bad in ['PDF', '創設的登記', '名変', '✕', '✓', '右上', '左下', '右側', '左側', '敷地権消滅』よ', '四捨五入して',
+            '改題', '過去問集', '平成30年', '各4分の3以上の決議でするの']:
+    absent('誤記・混入・改題の要素', bad)
+for _src, _nm in [(fig, '解説図'), (form, '申請書'), (fix, '添削'), (thumb, '見出し画像')]:
+    for bad in ['改題', '過去問集', '平成30年', '✕', '✓']:
+        absent('改題の要素・記号', bad, _src, _nm)
 
 # ---- note向けの体裁：話者名の行末に半角スペース2つ、名前とセリフの間に空行なし ----
 lines = text.splitlines()
@@ -230,14 +256,16 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
                if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
 ng += bool(bad_speaker)
 print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
-same_speaker = [i + 1 for i, l in enumerate(lines) if l.startswith('**') and l.endswith('  ')
-                and any(lines[j] == l for j in range(i + 3, min(i + 4, len(lines))))]
+same_speaker, prev = [], None
+for i, l in enumerate(lines):
+    if l.startswith('## '):
+        prev = None
+    elif l in ('**トリ先生**  ', '**藍子**  '):
+        if l == prev:
+            same_speaker.append(i + 1)
+        prev = l
 ng += bool(same_speaker)
-print(('OK ' if not same_speaker else 'NG ') + f'同じ話者の連続: {same_speaker}')
-n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-ok = n_marker == 11
-ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図7＋添削1＋完成形3＝計11か所の想定）')
+print(('OK ' if not same_speaker else 'NG ') + f'同じ話者の連続（画像挿入マーカー・箇条書きをはさむ場合も）: {same_speaker}')
 ok = lines[-1] == '---'
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
@@ -258,7 +286,8 @@ for src, name in [(fig, '解説図'), (form, '申請書'), (fix, '添削')]:
 import os as _os
 import struct as _struct
 _ZU = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'zu')
-for _name, _tate in [('H26_dai22mon_dai1ran_dai2ran_kansei', False), ('H26_dai22mon_dai4ran_kansei', False),
+for _name, _tate in [('H26_dai22mon_dai1ran_kansei', False), ('H26_dai22mon_dai2ran_kansei', False),
+                     ('H26_dai22mon_dai4ran_kansei', False),
                      ('H26_dai22mon_toukishinseisho_kansei', True), ('H26_dai22mon_toukishinseisho_machigai', True)]:
     _png = _os.path.join(_ZU, _name + '.png')
     if _os.path.exists(_png):
@@ -270,14 +299,16 @@ for _name, _tate in [('H26_dai22mon_dai1ran_dai2ran_kansei', False), ('H26_dai22
         print(f'NG {_name}.png がない')
     ng += (not _ok)
 _html = {n: open(_os.path.join(_ZU, n + '.html'), encoding='utf-8').read() for n in
-         ['H26_dai22mon_dai1ran_dai2ran_kansei', 'H26_dai22mon_dai4ran_kansei',
+         ['H26_dai22mon_dai1ran_kansei', 'H26_dai22mon_dai2ran_kansei', 'H26_dai22mon_dai4ran_kansei',
           'H26_dai22mon_toukishinseisho_kansei', 'H26_dai22mon_toukishinseisho_machigai']}
 _plain = {n: re.sub(r'<[^>]+>', '', h) for n, h in _html.items()}
 _NOTE = ('※添付情報は今の法令による。出題当時は会社法人等番号の制度（平成27年11月施行）がなく、会社法人等番号の代わりに'
          '代表者の資格を証する情報（資格証明書）を付け、印鑑証明書も省略せずに付けていた')
 for _n, _words in [
-        ('H26_dai22mon_dai1ran_dai2ran_kansei', ['区分建物表題部変更登記（敷地権抹消）', '平成26年６月30日非敷地権', '規約廃止証明書',
-                                                 '建物表題登記（共用部分廃止）', '平成26年６月30日共用部分の規約廃止', '所有権証明書', '住所証明書', '代理権限証書']),
+        ('H26_dai22mon_dai1ran_kansei', ['第1欄　平成26年7月22日に申請した登記の登記の目的等', '区分建物表題部変更登記（敷地権抹消）',
+                                         '平成26年６月30日非敷地権', '規約廃止証明書', '代理権限証書']),
+        ('H26_dai22mon_dai2ran_kansei', ['第2欄　平成26年7月24日に申請した登記の登記の目的等', '建物表題登記（共用部分廃止）',
+                                         '平成26年６月30日共用部分の規約廃止', '規約廃止証明書', '所有権証明書', '住所証明書', '代理権限証書']),
         ('H26_dai22mon_dai4ran_kansei', ['丙川太郎に対して説明すべき内容', '主である建物は家屋番号1番10の建物となり',
                                          '本件建物を家屋番号1番10の建物の附属建物として登記すべきである。']),
         ('H26_dai22mon_toukishinseisho_kansei', ['建物表題部変更・合併登記', '会社法人等番号', '印鑑証明書（会社法人等番号の提供により省略）',
@@ -294,5 +325,59 @@ for _src, _nm in [(form, '申請書プロンプト')]:
     _ok = _NOTE in _src
     ng += (not _ok)
     print(('OK ' if _ok else 'NG ') + f'[{_nm}] 出題当時の注が画像と同じ文言')
+
+# 第1欄と第2欄を別の画像にした（1枚に両方を書いていない）
+_ok = '建物表題登記' not in _plain['H26_dai22mon_dai1ran_kansei'] and '非敷地権' not in _plain['H26_dai22mon_dai2ran_kansei']
+ng += (not _ok)
+print(('OK ' if _ok else 'NG ') + '第1欄・第2欄は別の画像')
+
+# ---- 画像（2026-10-02追加）：記事の画像挿入マーカー14か所と zu/ のPNGが、記事の順に対応しているか ----
+from PIL import Image
+markers = [l for l in lines if l.startswith('> 【画像挿入】')]
+PNGS = [('H26_dai22mon_zu01_jikeiretsu', '1本の時系列', (1600, 900)),
+        ('H26_dai22mon_dai1ran_kansei', '答案用紙の第1欄', 'wide'),
+        ('H26_dai22mon_toukishinseisho_machigai', '①誤答', 'tall'),
+        ('H26_dai22mon_dai2ran_kansei', '答案用紙の第2欄（建物表題登記', 'wide'),
+        ('H26_dai22mon_zu02_shujuu_hikaku', '主従の比較図', (1600, 900)),
+        ('H26_dai22mon_dai4ran_kansei', '答案用紙の第4欄', 'wide'),
+        ('H26_dai22mon_toukishinseisho_kansei', '答案用紙の第3欄（登記申請書）', 'tall'),
+        ('H26_dai22mon_zu03_shikichi_henchou', '作図チェック用の確認図', (1600, 1100)),
+        ('H26_dai22mon_zu04_tatemono_zumen', '建物図面の完成形（答案用紙の第5欄の右半分の枠の中', (1600, 1300)),
+        ('H26_dai22mon_zu05_1kai_fuzoku_kyuuseki', '附属建物符号1（15.00m×6.00m）の求積図', (1600, 1000)),
+        ('H26_dai22mon_zu06_2kai_ayamari_hikaku', '2階の誤り比較図', (1600, 950)),
+        ('H26_dai22mon_zu07_2kai_kyuuseki', '主である建物の2階の求積図', (1600, 1100)),
+        ('H26_dai22mon_zu08_kakukai_heimenzu', '各階平面図の完成形（答案用紙の第5欄の左半分の枠の中', (1800, 1050)),
+        ('H26_dai22mon_zu09_toku_junban', '本番で解く順番の図', (1600, 800))]
+ok = len(markers) == len(PNGS)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}')
+for (name, key, size), m in zip(PNGS, markers):
+    path = os.path.join(_ZU, name + '.png')
+    ok = os.path.exists(path) and key in m
+    if ok:
+        w, h = Image.open(path).size
+        ok = (w == 1200 and h > w) if size == 'tall' else (w == 1200 and h < w) if size == 'wide' else (w, h) == size
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'PNG（マーカー順・大きさ） : {name}')
+    src = fig if '_zu' in name else (form if 'kansei' in name else fix)
+    ok = f'zu/{name}.png' in src
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'プロンプトにファイル名 : zu/{name}.png')
+extra = sorted(set(f[:-4] for f in os.listdir(_ZU) if f.endswith('.png')) - {n for n, _, _ in PNGS})
+ok = not extra
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'zu/ に記事で使わないPNGがない : {extra}')
+ok = os.path.exists(os.path.join(_ZU, 'draw_H26_dai22mon_kaisetsuzu.py'))
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '作図スクリプト zu/draw_H26_dai22mon_kaisetsuzu.py がある')
+_draw = open(os.path.join(_ZU, 'draw_H26_dai22mon_kaisetsuzu.py'), encoding='utf-8').read()
+ok = 'fit(' in _draw and all('pad_aspect=True' in l for l in _draw.splitlines() if l.strip().startswith('fit('))
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '作図の fit はすべて pad_aspect=True')
+for s_ in ['家屋番号', '1番10', '建物の所在', 'A市B町一丁目1番地10、1番地8', '申　請　人', '（略）', '1/500',
+           '作　成　者', '（平成何年何月何日作成）', '1/250', '各　階　平　面　図', '建　物　図　面']:
+    ok = s_ in _draw
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'[作図] 第5欄の枠の文字 : {s_}')
 
 print('NG件数:', ng)

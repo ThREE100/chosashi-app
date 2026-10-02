@@ -1,9 +1,10 @@
-"""平成26年度 第22問（建物）答案用紙の画像（第1欄・第2欄、第4欄、第3欄〈登記申請書〉の完成形と、第2欄の添削）を、
+"""平成26年度 第22問（建物）答案用紙の画像（第1欄、第2欄、第4欄、第3欄〈登記申請書〉の完成形と、第2欄の添削）を、
 HTML＋ヘッドレスブラウザでPNGに書き出す。
 
-- 画像1（第1欄・第2欄）・画像2（第4欄）・画像3（第3欄 登記申請書）：`../prompt_H26_dai22mon_toukishinseisho_gazou.md` の記入データどおり。
-  noteのスマートフォン表示に合わせ、どれも横1200pxの縦長にしている（答案用紙は横長だが、欄ごとに1枚に分ける）
-- 画像3の項目の順序は答案用紙の印刷どおり「登記の目的 → 添付情報 → 平成26年8月22日　申請　Ｇ地方法務局 → 申請人（略） → 代理人（略） → 建物の表示」。
+- 画像1（第1欄）・画像2（第2欄）・画像3（第4欄）・画像4（第3欄 登記申請書）：`../prompt_H26_dai22mon_toukishinseisho_gazou.md` の記入データどおり。
+  noteのスマートフォン表示に合わせ、どれも横1200pxにしている（答案用紙はA3横だが、欄ごとに1枚に分け、記事のその問の答えの直後に置く。
+  2026-10-02、第1欄・第2欄を1枚にしていたのを、問1・問2それぞれの答えの直後に置けるように2枚に分けた）
+- 画像4の項目の順序は答案用紙の印刷どおり「登記の目的 → 添付情報 → 平成26年8月22日　申請　Ｇ地方法務局 → 申請人（略） → 代理人（略） → 建物の表示」。
   登録免許税の欄はない。添付情報は今の法令（会社法人等番号）で書き、建物の表示の表の下に出題当時の扱いの注を入れる
 - 添削：`../prompt_H26_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 
@@ -102,7 +103,7 @@ def page(body):
     return f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}</style></head><body>{body}</body></html>'
 
 
-# ---- 画像1：第1欄・第2欄 ----
+# ---- 画像1：第1欄、画像2：第2欄 ----
 def mokuteki_table(title, mokuteki, genin, tenpu):
     return (f'<div class="sec">{title}</div>'
             f'<table class="k"><tr><td class="klab">登記の目的</td><td>{mokuteki}</td></tr>'
@@ -115,26 +116,28 @@ DAI1 = ('平成26年7月22日に申請した登記の登記の目的等', '区�
 DAI2 = ('平成26年7月24日に申請した登記の登記の目的等', '建物表題登記（共用部分廃止）', '平成26年６月30日共用部分の規約廃止',
         ('規約廃止証明書', '所有権証明書', '住所証明書', '代理権限証書'))
 
-gazou1 = page(f'''<div class="page">
-{mokuteki_table(DAI1[0], ink(DAI1[1]), ink(DAI1[2]), ink(items(*DAI1[3])))}
-<div style="height:26px"></div>
-{mokuteki_table(DAI2[0], ink(DAI2[1]), ink(DAI2[2]), ink(items(*DAI2[3])))}
-<div class="caption">平成26年度 土地家屋調査士試験 第22問 第1欄・第2欄 解答例</div>
+dai1ran = page(f'''<div class="page">
+{mokuteki_table('第1欄　' + DAI1[0], ink(DAI1[1]), ink(DAI1[2]), ink(items(*DAI1[3])))}
+<div class="caption">平成26年度 土地家屋調査士試験 第22問 第1欄 解答例</div>
+</div>''')
+dai2ran = page(f'''<div class="page">
+{mokuteki_table('第2欄　' + DAI2[0], ink(DAI2[1]), ink(DAI2[2]), ink(items(*DAI2[3])))}
+<div class="caption">平成26年度 土地家屋調査士試験 第22問 第2欄 解答例</div>
 </div>''')
 
-# ---- 画像2：第4欄 ----
+# ---- 画像3：第4欄 ----
 DAI4 = ('家屋番号1番10の建物を附属建物として登記するには、主である建物と所有者が同一であり、主である建物の効用を補う建物として、'
         '主である建物と効用上一体として利用される状態にあることが必要である。家屋番号1番10の建物は事務所であり、'
         '本件建物は作業道具を一時的に保管する倉庫として事務所の効用を補うものであるから、主である建物は家屋番号1番10の建物となり、'
         '同建物を附属建物として登記することはできない。本件建物を家屋番号1番10の建物の附属建物として登記すべきである。')
 
 gazou2 = page(f'''<div class="page">
-<div class="sec" style="margin-top:0">丙川太郎に対して説明すべき内容</div>
+<div class="sec" style="margin-top:0">第4欄　丙川太郎に対して説明すべき内容</div>
 <div class="essay">{ink(DAI4)}</div>
 <div class="caption">平成26年度 土地家屋調査士試験 第22問 第4欄 解答例</div>
 </div>''')
 
-# ---- 画像3：第3欄 登記申請書 ----
+# ---- 画像4：第3欄 登記申請書 ----
 TENPU = ('建物図面', '各階平面図', '登記識別情報', '会社法人等番号', '印鑑証明書（会社法人等番号の提供により省略）', '代理権限証書')
 NOTE = ('※添付情報は今の法令による。出題当時は会社法人等番号の制度（平成27年11月施行）がなく、会社法人等番号の代わりに'
         '代表者の資格を証する情報（資格証明書）を付け、印鑑証明書も省略せずに付けていた')
@@ -179,7 +182,7 @@ TABLE3 = (f'<table class="t">{COLS}'
           f'<tr><td class="blank" colspan="8"></td></tr></table>')
 
 gazou3 = page(f'''<div class="page">
-<div class="sec" style="margin:0 0 26px">平成26年8月22日に申請した登記の登記申請書</div>
+<div class="sec" style="margin:0 0 26px">第3欄　平成26年8月22日に申請した登記の登記申請書</div>
 <div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('建物表題部変更・合併登記')}</div></div>
 <div class="row"><div class="lab">添　付　情　報</div><div class="box" style="min-height:120px">{ink(items(*TENPU))}</div></div>
 <div class="dateline">平成26年8月22日　申請　Ｇ地方法務局</div>
@@ -202,7 +205,7 @@ def dai2_panel(mokuteki, genin, bub1='', bub2='', good=False):
     t2 = f'<table class="{cls}" style="{gap}"><tr><td class="klab">登記原因及びその日付</td><td>{genin}</td></tr></table>'
     b1 = f'<div class="bubrow"><span class="bubble">{bub1}</span></div>' if bub1 else ''
     b2 = f'<div class="bubrow"><span class="bubble">{bub2}</span></div>' if bub2 else ''
-    return (f'<div class="sec" style="margin-top:0">平成26年7月24日に申請した登記の登記の目的等</div>'
+    return (f'<div class="sec" style="margin-top:0">第2欄　平成26年7月24日に申請した登記の登記の目的等</div>'
             f'<div class="{wrap}">{t1}{b1}{t2}{chk}</div>{b2}')
 
 
@@ -226,7 +229,8 @@ if __name__ == '__main__':
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
         pg = browser.new_page(viewport={'width': 1200, 'height': 300})
-        for name, html in [('H26_dai22mon_dai1ran_dai2ran_kansei', gazou1),
+        for name, html in [('H26_dai22mon_dai1ran_kansei', dai1ran),
+                           ('H26_dai22mon_dai2ran_kansei', dai2ran),
                            ('H26_dai22mon_dai4ran_kansei', gazou2),
                            ('H26_dai22mon_toukishinseisho_kansei', gazou3),
                            ('H26_dai22mon_toukishinseisho_machigai', machigai)]:
