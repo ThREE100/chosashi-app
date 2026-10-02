@@ -200,7 +200,7 @@ for label, pts, want in [('図2 301番', SITE301, 435.00), ('図2 302番', SITE3
     check(label + ' 頂点座標', s, fig, '解説図')
 for s in ['「7.00」「9.00」「8.00」', '「29.00m」', '「15.00m」', '301番　435.00㎡', '1階 床面積：190.53㎡',
           '2階 床面積：78.49㎡', '19.86×8.86＋4.86×2.86＝189.85ではなく', '19.86×8.86＋4.86×3.00＝190.53㎡',
-          '12.00×9.00＝108.00㎡', '8.00×9.00＋5.00×3.00＝87.00㎡', '建物の所在　A市B町一丁目302番地、301番地']:
+          '12.00×9.00＝108.00㎡', '8.00×9.00＋5.00×3.00＝87.00㎡', '「建物の所在」の欄に、濃い青で「A市B町一丁目302番地、301番地」と記入する']:
     check('図の数値', s, fig, '解説図')
 
 # ---- 形状・向き（図面の上＝北。見取図の注4と方位記号で確認）----
@@ -218,7 +218,7 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
 ng += bool(bad_speaker)
 print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
 markers = re.findall(r'^> 【画像挿入】(.*)$', text, re.M)
-# 記事の順に、マーカーの文言の手がかりと zu/ のPNGを対応させる（解説図7＋第1欄（その2）＋添削＋完成形＋第2欄＝11）
+# 記事の順に、マーカーの文言の手がかりと zu/ のPNGを対応させる（解説図8＋第1欄（その2）＋添削＋完成形＋第2欄＝12）
 ZU = os.path.join(HERE, 'zu')
 PAIRS = [('第1欄（その2）の完成形', 'H30_dai22mon_dai1ran_sono2_kansei.png'),
          ('工事前', 'H30_dai22mon_zu01_kouji_zengo.png'),
@@ -227,13 +227,14 @@ PAIRS = [('第1欄（その2）の完成形', 'H30_dai22mon_dai1ran_sono2_kansei
          ('1階の誤り比較図', 'H30_dai22mon_zu04_1kai_ayamari_hikaku.png'),
          ('1階の床面積求積図', 'H30_dai22mon_zu05_1kai_kyuuseki.png'),
          ('2階の床面積求積図', 'H30_dai22mon_zu06_2kai_kyuuseki.png'),
+         ('各階平面図の完成形', 'H30_dai22mon_zu07_kakukai_heimenzu.png'),
          ('3コマ添削画像', 'H30_dai22mon_toukishinseisho_machigai.png'),
          ('登記申請書（問1）の完成形', 'H30_dai22mon_toukishinseisho_kansei.png'),
          ('第2欄の完成形', 'H30_dai22mon_dai2ran_kansei.png'),
-         ('本番で解く順番', 'H30_dai22mon_zu07_toku_junban.png')]
-ok = len(markers) == len(PAIRS) == 11
+         ('本番で解く順番', 'H30_dai22mon_zu08_toku_junban.png')]
+ok = len(markers) == len(PAIRS) == 12
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {len(markers)}個（想定11）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {len(markers)}個（想定12）')
 from PIL import Image
 pngs = sorted(f for f in os.listdir(ZU) if f.endswith('.png'))
 ok = sorted(f for _, f in PAIRS) == pngs
@@ -305,7 +306,21 @@ for f in ['prompt_H30_dai22mon_kaisetsuzu.md', 'prompt_H30_dai22mon_toukishinsei
     src = open(os.path.join(HERE, f), encoding='utf-8').read()
     absent('記号', '✕', src, f)
     absent('記号', '✓', src, f)
-check('生成済みのファイル名', 'zu/H30_dai22mon_zu07_toku_junban.png', fig, '解説図')
+check('生成済みのファイル名', 'zu/H30_dai22mon_zu08_toku_junban.png', fig, '解説図')
+check('生成済みのファイル名', 'zu/H30_dai22mon_zu07_kakukai_heimenzu.png', fig, '解説図')
+# 図面の完成形は答案用紙の第3欄の欄の枠の中（2026-09-30のルール。答案用紙は public/kijutsu/H30-tatemono/a2.webp）
+for s_ in ["cell(fig, 0.20, 0.885, 0.46, 0.935, '（略）'", "'A市B町一丁目302番地、301番地', fs=16, ha='left', color=INK",
+           "'申　請　人'", "'1/500'", "'作　成　者'", '（平成30年○月○日作成）', "'1/250'",
+           "'H30_dai22mon_zu07_kakukai_heimenzu'", '== 190.5396 and round(area([P(*v) for v in F2]), 4) == 78.4996']:
+    check('第3欄の枠・各階平面図の完成形', s_, draw, '作図')
+check('第3欄の枠（プロンプト）', '答案用紙の第3欄の右半分', fig, '解説図')
+check('第3欄の枠（プロンプト）', '答案用紙の第3欄の左半分', fig, '解説図')
+# 2026-10-02の照らし直しで足した会話
+check('各階平面図の完成形の会話', '答案用紙の第3欄の左半分には、どう並べればいいですか？')
+check('各階平面図の完成形の会話', '下の作成者の欄は（略）と印刷済みだから何も書かないし、縮尺の1/250も印刷済みよ')
+check('時間配分', 'いちばん時間を食うのは、⑤の求積と⑥の作図よ')
+for w_ in ['ア＝主従', 'イ＝増築工事', 'ウ＝隔壁を除去', 'エ＝構造上1個']:
+    check('穴埋めの答えの語の明示（問1）', w_)
 check('生成済みのファイル名', 'zu/H30_dai22mon_dai2ran_kansei.png', form, '申請書')
 check('生成済みのファイル名', 'zu/H30_dai22mon_toukishinseisho_machigai.png', fix, '添削')
 ok = lines[-1] == '---'

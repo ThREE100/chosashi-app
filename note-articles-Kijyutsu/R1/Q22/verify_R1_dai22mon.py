@@ -208,9 +208,9 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
 ng += bool(bad_speaker)
 print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-ok = n_marker == 10
+ok = n_marker == 11
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図7＋添削1＋完成形2＝計10か所の想定）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図8＋添削1＋完成形2＝計11か所の想定）')
 ok = lines[-1] == '---'
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
@@ -260,7 +260,7 @@ for bad in ['✕', '✓', '名変']:
 check('解く順番', '問2は、別紙を1枚も読まなくても知識だけで埋められる')
 check('時系列メモ', '- 令和元年10月10日：公正証書で本件原始規約を設定（敷地利用権の割合）')
 
-# ---- 画像（2026-09-29生成）：記事の画像挿入マーカー10か所と zu/ のPNGの対応 ----
+# ---- 画像（2026-09-29生成、2026-10-02に図7〈各階平面図の完成形〉を追加）：記事の画像挿入マーカー11か所と zu/ のPNGの対応 ----
 from PIL import Image
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
@@ -270,13 +270,24 @@ PNGS = [('R1_dai22mon_zu01_kousei', '南側立面図をもとに'),
         ('R1_dai22mon_zu04_kou_ayamari_hikaku', '甲区分建物（（あ）専有部分）の誤り比較図'),
         ('R1_dai22mon_zu05_kou_kyuuseki', '床面積求積図'),
         ('R1_dai22mon_zu06_chuushajou_ayamari_hikaku', '本件駐車場（符号1）の誤り比較図'),
+        ('R1_dai22mon_zu07_kakukai_heimenzu', '各階平面図の完成形'),
         ('R1_dai22mon_toukishinseisho_machigai', '「敷地権の表示」欄の①誤答'),
         ('R1_dai22mon_toukishinseisho_kansei', '問1の完成した登記申請書'),
         ('R1_dai22mon_toukishinseisho_kansei_dai2ran', '答案用紙第2欄の完成形'),
-        ('R1_dai22mon_zu07_toku_junban', '本番で解く順番の図')]
+        ('R1_dai22mon_zu08_toku_junban', '本番で解く順番の図')]
 ok = len(markers) == len(PNGS)
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数 : {len(markers)}（解説図7・添削1・完成形2）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数 : {len(markers)}（解説図8・添削1・完成形2）')
+pngs = sorted(f[:-4] for f in os.listdir(ZU) if f.endswith('.png'))
+ok = pngs == sorted(n for n, _ in PNGS)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'zu/ のPNG {len(pngs)}枚がマーカーの対応先と一致（余分なPNGなし）')
+# 図面の完成形は答案用紙の第3欄の欄の形の枠の中（2026-09-30のルール）。令和元年度の答案用紙はリポジトリにないため、平成30年度にならった仮の形
+check('第3欄の枠（仮の形）', '平成30年度の答案用紙', fig, '解説図')
+check('第3欄の枠（建物の所在）', '濃い青で「A市B町一丁目23番地1、23番地2」と記入する', fig, '解説図')
+check('穴埋めの答えの語の明示（問2の①②③）', '①『区分建物表題部変更登記』')
+check('穴埋めの答えの語の明示（問2の①②③）', '②『一棟の建物の名称を変更した日から1月以内』')
+check('穴埋めの答えの語の明示（問2の①②③）', '③『10万円以下の過料の罰則がある』')
 for (name, key), m in zip(PNGS, markers):
     path = os.path.join(ZU, name + '.png')
     ok = os.path.exists(path) and key in m
@@ -335,5 +346,10 @@ print(('OK ' if ok else 'NG ') + f'作図の fit はすべて pad_aspect=True（
 for s_ in ['== 900.48', '== 498.48', '== 401.80', '== 393.82', '== 47.25', '== 45.88', '== 1242.5', '== 700.0',
            '== 7.60', '== 3.70']:
     check('作図スクリプトの面積・距離の assert', s_, drw, '作図')
+
+for s_ in ["'A市B町一丁目23番地1、23番地2', fs=16, ha='left', color=INK", "'家屋番号'", "'申　請　人'", "'1/500'",
+           "'作　成　者'", "'1/250'", "'R1_dai22mon_zu07_kakukai_heimenzu'", '1階部分、2階部分（各階同型）',
+           "area(kou), 2) == 393.82 and round(area(pk), 2) == 47.25"]:
+    check('第3欄の枠・各階平面図の完成形', s_, drw, '作図')
 
 print('NG件数:', ng)
