@@ -249,29 +249,50 @@ print(('OK ' if not cont else 'NG ') + f'同じ話者の連続 : {cont}')
 for bad in ['✕', '✓', '名変', '奥側', '手前側']:
     absent('記号・略語・向き', bad)
 
-# ---- 画像（2026-09-29生成）：記事の画像挿入マーカー8か所に対応するPNGがそろっているか ----
+# ---- 画像（2026-09-29生成、2026-10-02更新）：記事の画像挿入マーカー12か所に対応するPNGが記事の順にそろっているか ----
 from PIL import Image
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
-PNGS = [('工事前（家屋番号5番3', 'R4_dai22mon_zu01_kouji_zengo'), ('第2欄（問2）の完成形', 'R4_dai22mon_dai2ran_kansei'), ('本件土地をA・B・C・D点で結んだ台形', 'R4_dai22mon_zu02_shikichi_henchou'),
-        ('建物図面の完成形', 'R4_dai22mon_zu03_tatemono_zumen'), ('1階の床面積求積図', 'R4_dai22mon_zu04_1kai_kyuuseki'),
-        ('2階の床面積求積図', 'R4_dai22mon_zu05_2kai_kyuuseki'), ('車庫の誤り比較図', 'R4_dai22mon_zu06_shako_ayamari_hikaku'),
-        ('「原因及びその日付」欄の①誤答', 'R4_dai22mon_toukishinseisho_machigai'),
-        ('登記申請書（問1）の完成形', 'R4_dai22mon_toukishinseisho_kansei'), ('第3欄（問3）の完成形', 'R4_dai22mon_dai3ran_kansei')]
-ok = len(markers) == len(PNGS) and all(k in m for m, (k, _) in zip(markers, PNGS))
+PNGS = [('工事前（家屋番号5番3', 'R4_dai22mon_zu01_kouji_zengo', (1600, 1000)),
+        ('第2欄（問2）の完成形', 'R4_dai22mon_dai2ran_kansei', 'wide'),
+        ('本件土地をA・B・C・D点で結んだ台形', 'R4_dai22mon_zu02_shikichi_henchou', (1600, 1100)),
+        ('建物図面の完成形（答案用紙の第4欄の建物図面の枠の中', 'R4_dai22mon_zu03_tatemono_zumen', (1600, 1400)),
+        ('1階の床面積求積図', 'R4_dai22mon_zu04_1kai_kyuuseki', (1600, 1100)),
+        ('2階の床面積求積図', 'R4_dai22mon_zu05_2kai_kyuuseki', (1600, 1100)),
+        ('車庫の誤り比較図', 'R4_dai22mon_zu06_shako_ayamari_hikaku', (1600, 950)),
+        ('各階平面図の完成形（答案用紙の第4欄の各階平面図の枠の中', 'R4_dai22mon_zu07_kakukai_heimenzu', (1800, 1100)),
+        ('「原因及びその日付」欄の①誤答', 'R4_dai22mon_toukishinseisho_machigai', 'tall'),
+        ('登記申請書（問1）の完成形', 'R4_dai22mon_toukishinseisho_kansei', 'tall'),
+        ('第3欄（問3）の完成形', 'R4_dai22mon_dai3ran_kansei', 'wide'),
+        ('本番で解く順番の整理図', 'R4_dai22mon_zu08_toku_junban', (1600, 800))]
+ok = len(markers) == len(PNGS) and all(k in m for m, (k, _, _) in zip(markers, PNGS))
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカーとPNGの対応（記事の順） : {len(markers)}か所')
-for _, name in PNGS:
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカーとPNGの対応（記事の順） : {len(markers)}か所／{len(PNGS)}枚')
+for _, name, size in PNGS:
     path = os.path.join(ZU, name + '.png')
     ok = os.path.exists(path)
-    if ok and 'ran_kansei' in name:
-        ok = Image.open(path).size[0] == 1200   # 第2欄・第3欄は横1200px
-    if ok and 'toukishinseisho' in name:
+    if ok:
         w, h = Image.open(path).size
-        ok = w == 1200 and h > w    # 申請書・添削は横1200pxの縦長
+        ok = (w == 1200 and h > w) if size == 'tall' else (w == 1200 and h < w) if size == 'wide' else (w, h) == size
     ng += (not ok)
-    print(('OK ' if ok else 'NG ') + 'PNG : ' + name)
+    print(('OK ' if ok else 'NG ') + 'PNG（大きさ） : ' + name)
     check('解説図・申請書プロンプトのファイル名', name, fig + form + fix, 'プロンプト')
+extra = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - {n for _, n, _ in PNGS})
+ok = not extra
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'zu/ に記事で使わないPNGがない : {extra}')
+
+# ---- 穴埋め（問2のア〜エ・問3の①〜④）の答えの語を会話で明示しているか（2026-10-02追加。R5/Q22の教訓）----
+check('問2 ア〜エの語', 'ア＝効用上一体、イ＝所有者の意思、ウ＝1個の建物、エ＝所有者。これで問2は満点よ')
+check('問3 ①〜④の語', '①所有者、②従、③付合、④権原ですね')
+# ---- 図面の完成形は答案用紙の第4欄の枠の中・各階平面図の完成形・解く順番（2026-10-02追加）----
+for n in ['### 答案用紙の欄の枠', '「建　物　図　面」', '「申　請　人」（「（略）」と印刷）', '「作　成　者」（「（略）」「（令和4年○月○日作成）」）',
+          'public/kijutsu/R06-tatemono/a2.png', '仮の形', '## 図7：各階平面図の完成形', '## 図8：本番で解く順番の整理図',
+          '主である建物の1階の形と求積表は書かない（問題文の注4）']:
+    check('解説図プロンプト（第4欄の枠・図7・図8）', n, fig, '解説図')
+check('解く順番（計算のいらない欄）', '計算がいるのは、変更後の主である建物の1階113.00・2階25.00と、車庫の20.00の3か所だけ')
+check('解く順番（いちばん時間を食う）', 'じゃあ、いちばん時間を食うのは？')
+check('解く順番（時間配分）', '残りの時間の半分以上を第4欄に回す')
 
 
 def html_has(name, *needles):
@@ -303,6 +324,10 @@ n_fit = len(re.findall(r"\bfit\(", drw))
 ok = n_fit > 0 and drw.count('pad_aspect=True') == n_fit
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'作図の fit はすべて pad_aspect=True : {n_fit}か所')
+for n in ["cell(fig, 0.20, 0.885, 0.46, 0.935, '5番3'", "'A市B町一丁目5番地3', fs=16, ha='left', color=INK)",
+          "cell(fig, 0.20, 0.035, 0.74, 0.085, '（略）'", '（令和4年○月○日作成）', "'主である建物　2階'", "'附属建物　符号2'",
+          'R4_dai22mon_zu08_toku_junban']:
+    check('作図スクリプト（第4欄の枠・図7・図8）', n, drw, '作図')
 for n in ['assert round(area([P(*v) for v in F1]), 2) == 113.00', 'assert round(area([P(*v) for v in GAR_WRONG]), 2) == 20.91',
           '(61.075, 58.225, 68.85, 64.7, 77.47, 72.32)']:
     check('作図スクリプトの検算', n, drw, '作図')

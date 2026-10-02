@@ -5,6 +5,7 @@
   建物の表示は、所在が2段（2段目は右端に小さな欄）、家屋番号の右に印刷の「（略）」、記入行3行（答案用紙では2行＋続きの1行）、
   最下段に「共有者」の欄。登録免許税の欄はない
 - 添削　：`../prompt_R6_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第1欄（問1）・第4欄（問4）：申請書でない解答欄。答案用紙（A3横の左上が第1欄、右の列の下が第4欄）の欄の形どおりに、それぞれ別の画像（横1200px）にする
 
 CSSと部品の作りは `R7/Q22/zu/make_R7_dai22mon_shinseisho_gazou.py` と同じ形にしている。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP、なければIPA明朝・IPAゴシック）
@@ -81,6 +82,12 @@ table.bldg td.kyouyuu .ink {{ font-size: 21px; }}
 .okwrap {{ position: relative; }}
 .check {{ position: absolute; right: -14px; top: -22px; }}
 .shinsei {{ font-size: 20px; margin-bottom: 14px; }}
+/* 第1欄・第4欄（申請書以外の解答欄） */
+.sec {{ font-size: 24px; margin: 0 0 6px; font-weight: bold; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
+table.ran {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
+table.ran td {{ border: 1.5px solid #111; height: 80px; font-size: 22px; text-align: center; vertical-align: middle; }}
+table.ran td .ink {{ font-size: 26px; }}
+.ranpage {{ padding: 50px 60px 30px; }}
 '''
 
 CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" '
@@ -151,6 +158,20 @@ kansei = page(f'''<div class="page">
 </div>''')
 
 
+# ---- 第1欄（問1）・第4欄（問4）：申請書とは別の画像（答案用紙どおり、記号と記入欄を交互に並べた表） ----
+def ran(sec, cells, caption):
+    cols = '<colgroup><col style="width:10%"><col style="width:40%"><col style="width:10%"><col style="width:40%"></colgroup>'
+    rows = ''.join(f'<tr><td>{a}</td><td>{ink(b)}</td><td>{c}</td><td>{ink(d)}</td></tr>' for a, b, c, d in cells)
+    return page(f'<div class="ranpage"><div class="sec">{sec}</div><table class="ran">{cols}{rows}</table>'
+                f'<div class="caption">{caption}</div></div>')
+
+
+dai1 = ran('第1欄', [('ア', '確認', 'イ', '検査'), ('ウ', '建築請負人', 'エ', '固定資産税')],
+           '令和6年度 土地家屋調査士試験 第22問 問1（第1欄）解答例　※アとイは順不同')
+dai4 = ran('第4欄', [('①', '構造上', '②', '利用上')],
+           '令和6年度 土地家屋調査士試験 第22問 問4（第4欄）解答例')
+
+
 # ---- 添削（①誤答 → ②添削 → ③正解 を縦に3コマ）：「共有者」欄 ----
 def snippet(cell, good=False):
     g = ' class="good"' if good else ''
@@ -178,9 +199,10 @@ if __name__ == '__main__':
     exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-        pg = browser.new_page(viewport={'width': 1200, 'height': 800})
+        pg = browser.new_page(viewport={'width': 1200, 'height': 100})   # 高さは内容に合わせる（full_page）
         for name, html in [('R6_dai22mon_toukishinseisho_kansei', kansei),
-                           ('R6_dai22mon_toukishinseisho_machigai', machigai)]:
+                           ('R6_dai22mon_toukishinseisho_machigai', machigai),
+                           ('R6_dai22mon_dai1ran_kansei', dai1), ('R6_dai22mon_dai4ran_kansei', dai4)]:
             hp = os.path.join(OUT, name + '.html')
             open(hp, 'w', encoding='utf-8').write(html)
             pg.set_content(html)
@@ -188,5 +210,5 @@ if __name__ == '__main__':
             png = os.path.join(OUT, name + '.png')
             pg.screenshot(path=png, full_page=True)
             w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-            print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+            print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else ('横長（第1欄・第4欄は小さい表なので横長でよい）' if 'ran' in name else '横長（要確認）')))
         browser.close()
