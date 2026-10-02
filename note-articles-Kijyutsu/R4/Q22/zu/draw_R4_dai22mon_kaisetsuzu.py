@@ -1,7 +1,7 @@
 """令和4年度 第22問（建物）の解説図8枚を、座標値・頂点座標から作図してPNGに書き出す。
 
 `../prompt_R4_dai22mon_kaisetsuzu.md` の図1〜図8どおり（番号は記事の挿入順）。図3（建物図面）と図7（各階平面図）の完成形は、
-答案用紙の第4欄の欄（家屋番号・建物の所在・申請人・作成者・縮尺）の形の枠の中に描く（欄の形は仮。プロンプトの図3を参照）。作図の共通部品は `tools/zu_helpers.py`。
+答案用紙の第4欄の欄（家屋番号・建物の所在・申請人・作成者・縮尺）の形の枠の中に描く（欄の形は試験の答案用紙 `../touan_youshi/` で確かめた。プロンプトの図3を参照）。作図の共通部品は `tools/zu_helpers.py`。
 敷地は〔座標値一覧表〕の (X＝北, Y＝東)。建物の平面は (東, 南)（原点＝建物全体の北西の角の壁の中心）で持ち、
 zu_helpers の (北, 東) には P()・B_() で変換する。
 建物図面の建物の位置は、筆界から外壁までの距離（〔調査図〕の（注）4）から、壁の中心線（壁厚0.15の半分＝0.075内側）、
@@ -208,13 +208,24 @@ def cell(fig, x0, y0, x1, y1, text='', fs=14, ha='center', lw=1.6, color=BLACK):
 INK = '#1a3a8f'   # 記入（濃い青）
 
 
+def scale_cell(fig, x0, y0, x1, y1, denom, fs=15):
+    """答案用紙の縮尺の欄の印刷（分子の1と分母を斜線で区切った分数の形）。"""
+    cell(fig, x0, y0, x1, y1)
+    w, h = x1 - x0, y1 - y0
+    fig.add_artist(plt.Line2D([x0 + 0.22 * w, x0 + 0.78 * w], [y0 + 0.15 * h, y0 + 0.85 * h],
+                              transform=fig.transFigure, color=BLACK, lw=1.2))
+    fig.text(x0 + 0.40 * w, y0 + 0.74 * h, '1', ha='center', va='center', fontsize=fs)
+    fig.text(x0 + 0.66 * w, y0 + 0.26 * h, str(denom), ha='center', va='center', fontsize=fs)
+
+
 def zu03():
     """建物図面の完成形（答案用紙の第4欄の右側〈建物図面〉の枠の中。塗り分けはしない）。"""
     setup_font()
     fig = plt.figure(figsize=(16, 14), dpi=100)
     fig.patch.set_facecolor('white')
     fig.suptitle('建物図面の完成形（答案用紙の第4欄・縮尺1/500で描く内容）', fontsize=22, weight='bold', y=0.985)
-    # 答案用紙の欄（家屋番号・建物の所在・申請人・縮尺）。欄の形は仮（プロンプトの図3を参照）
+    # 答案用紙の欄（家屋番号・建物の所在・申請人・縮尺）。試験の答案用紙（../touan_youshi/）の第4欄の右半分の形：
+    # 右上に家屋番号の欄（その右に「建物図面」の題）、枠の上端に建物の所在の欄、枠の下に申請人「（略）」と縮尺「1/500」（印刷）
     cell(fig, 0.06, 0.885, 0.20, 0.935, '家屋番号', fs=15)
     cell(fig, 0.20, 0.885, 0.46, 0.935, '5番3', fs=16, ha='left', color=INK)
     fig.text(0.70, 0.910, '建　物　図　面', ha='center', va='center', fontsize=20)
@@ -224,7 +235,7 @@ def zu03():
     cell(fig, 0.06, 0.035, 0.20, 0.085, '申　請　人', fs=15)
     cell(fig, 0.20, 0.035, 0.74, 0.085, '（略）', fs=15)
     cell(fig, 0.74, 0.035, 0.83, 0.085, '縮尺', fs=15)
-    cell(fig, 0.83, 0.035, 0.94, 0.085, '1/500', fs=15)
+    scale_cell(fig, 0.83, 0.035, 0.94, 0.085, 500)
     ax = fig.add_axes([0.08, 0.10, 0.84, 0.72])
     z = Zu(ax, fontsize=15)
     fit(ax, SITE, margin=0.1, extra=[xy(complex(46, 44)), xy(complex(74, 90))], pad_aspect=True)
@@ -367,14 +378,18 @@ def zu07():
     fig.suptitle('各階平面図の完成形（答案用紙の第4欄・縮尺1/250で描く内容）', fontsize=22, weight='bold', y=0.975)
     fig.text(0.5, 0.905, '各　階　平　面　図', ha='center', va='center', fontsize=20)
     cell(fig, 0.04, 0.13, 0.96, 0.88, lw=1.8)
+    # 答案用紙の各階平面図の欄の左上の印刷（試験の答案用紙 ../touan_youshi/ のとおり。主である建物の1階は（略））
+    fig.text(0.075, 0.845, '主である建物', ha='left', va='center', fontsize=15)
+    fig.text(0.078, 0.805, '1階', ha='left', va='center', fontsize=15)
+    fig.text(0.24, 0.775, '（略）', ha='center', va='center', fontsize=15)
     cell(fig, 0.04, 0.06, 0.14, 0.13, '作　成　者', fs=15)
     cell(fig, 0.14, 0.06, 0.78, 0.13, '（略）　　　　　　　　　　　　（令和4年○月○日作成）', fs=15)
     cell(fig, 0.78, 0.06, 0.86, 0.13, '縮尺', fs=15)
-    cell(fig, 0.86, 0.06, 0.96, 0.13, '1/250', fs=15)
-    fig.text(0.5, 0.025, '主である建物の1階の形と求積表は書かない（問題文の注4）。2階の図には1階の位置を点線で示す（同ただし書）。'
-             '車庫は柱の外面で測った5.00×4.00', ha='center', va='center', fontsize=14)
-    ax1 = fig.add_axes([0.05, 0.17, 0.42, 0.62])
-    ax2 = fig.add_axes([0.66, 0.40, 0.14, 0.36])
+    scale_cell(fig, 0.86, 0.06, 0.96, 0.13, 250)
+    fig.text(0.5, 0.025, '左上の「主である建物　1階　（略）」は答案用紙の印刷（1階の形と求積表は書かない。問題文の注4）。'
+             '2階の図には1階の位置を点線で示す（同ただし書）。車庫は柱の外面で測った5.00×4.00', ha='center', va='center', fontsize=14)
+    ax1 = fig.add_axes([0.05, 0.16, 0.42, 0.55])
+    ax2 = fig.add_axes([0.66, 0.36, 0.14, 0.34])
     # 主である建物 2階
     z = Zu(ax1, fontsize=13)
     ax1.set_title('主である建物　2階', fontsize=17, weight='bold')
@@ -386,7 +401,7 @@ def zu07():
     dims(z, f2, ['5.00', '5.00', '5.00', '5.00'], fs=13)
     z.free_text(P(13.5, 4.0), '点線＝1階の位置', fs=13, color=GRAY)
     z.north_arrow()
-    fig.text(0.48, 0.47, '主である建物　2階\n5.00×5.00＝25.0000\n計　25.0000\n床面積　25.00㎡',
+    fig.text(0.48, 0.43, '主である建物　2階\n5.00×5.00＝25.0000\n計　25.0000\n床面積　25.00㎡',
              ha='left', va='center', fontsize=15, linespacing=1.6)
     # 附属建物 符号2（車庫）
     z2 = Zu(ax2, fontsize=13)
@@ -395,7 +410,7 @@ def zu07():
     fit(ax2, gar, margin=0.3, pad_aspect=True)
     z2.poly(gar, color=BLACK, lw=2.4)
     dims(z2, gar, ['5.00', '4.00', '5.00', '4.00'], fs=13)
-    fig.text(0.81, 0.58, '附属建物　符号2\n5.00×4.00＝20.0000\n計　20.0000\n床面積　20.00㎡',
+    fig.text(0.81, 0.53, '附属建物　符号2\n5.00×4.00＝20.0000\n計　20.0000\n床面積　20.00㎡',
              ha='left', va='center', fontsize=15, linespacing=1.6)
     assert round(area(f2), 4) == 25.00 and round(area(gar), 4) == 20.00
     save(fig, [z, z2], 'R4_dai22mon_zu07_kakukai_heimenzu')

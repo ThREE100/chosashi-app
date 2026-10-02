@@ -287,8 +287,8 @@ check('問2 ア〜エの語', 'ア＝効用上一体、イ＝所有者の意思�
 check('問3 ①〜④の語', '①所有者、②従、③付合、④権原ですね')
 # ---- 図面の完成形は答案用紙の第4欄の枠の中・各階平面図の完成形・解く順番（2026-10-02追加）----
 for n in ['### 答案用紙の欄の枠', '「建　物　図　面」', '「申　請　人」（「（略）」と印刷）', '「作　成　者」（「（略）」「（令和4年○月○日作成）」）',
-          'public/kijutsu/R06-tatemono/a2.png', '仮の形', '## 図7：各階平面図の完成形', '## 図8：本番で解く順番の整理図',
-          '主である建物の1階の形と求積表は書かない（問題文の注4）']:
+          '試験の答案用紙（`touan_youshi/R4_dai22mon_touan_youshi.pdf`', '「主である建物」「１階」「（略）」が印刷', '## 図7：各階平面図の完成形', '## 図8：本番で解く順番の整理図',
+          '主である建物の1階の形と求積表は書かない（問題文の注4'] :
     check('解説図プロンプト（第4欄の枠・図7・図8）', n, fig, '解説図')
 check('解く順番（計算のいらない欄）', '計算がいるのは、変更後の主である建物の1階113.00・2階25.00と、車庫の20.00の3か所だけ')
 check('解く順番（いちばん時間を食う）', 'じゃあ、いちばん時間を食うのは？')
@@ -328,6 +328,45 @@ for n in ["cell(fig, 0.20, 0.885, 0.46, 0.935, '5番3'", "'A市B町一丁目5番
           "cell(fig, 0.20, 0.035, 0.74, 0.085, '（略）'", '（令和4年○月○日作成）', "'主である建物　2階'", "'附属建物　符号2'",
           'R4_dai22mon_zu08_toku_junban']:
     check('作図スクリプト（第4欄の枠・図7・図8）', n, drw, '作図')
+for n in ["scale_cell(fig, 0.83, 0.035, 0.94, 0.085, 500)", "scale_cell(fig, 0.86, 0.06, 0.96, 0.13, 250)",
+          "'主である建物', ha='left'", "'1階', ha='left'", "fig.text(0.24, 0.775, '（略）'"]:
+    check('作図スクリプト（答案用紙の印刷：縮尺の分数・各階平面図の左上の（略））', n, drw, '作図')
+check('記事（各階平面図の欄の印刷）', '各階平面図の欄の左上にも『主である建物　1階　（略）』と印刷されている')
+
+# ---- 試験の答案用紙（touan_youshi/）の欄の形・印刷文字（2026-10-02追加）----
+try:
+    import pymupdf
+except ImportError:
+    import fitz as pymupdf
+pdf = pymupdf.open(os.path.join(HERE, 'touan_youshi', 'R4_dai22mon_touan_youshi.pdf'))
+ok = len(pdf) == 2
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'答案用紙は2ページ : {len(pdf)}')
+t1 = re.sub(r'\s', '', pdf[0].get_text())
+t2 = re.sub(r'\s', '', pdf[1].get_text())
+for n in ['第1欄', '第2欄', '第3欄', '登記申請書', '登記の目的', '添付書類', '令和4年10月17日', '申請Ｅ地方法務局', '家屋番号',
+          '主である建物又は附属建物', '①種類', '②構造', '③床面積', 'm²', '原因及びその日付', 'ア', 'イ', 'ウ', 'エ', '①', '②', '③', '④']:
+    check('答案用紙1ページ目の印刷', n, t1, '答案用紙')
+for n in ['第4欄', '各階平面図', '建物図面', '家屋番号', '建物の所在', '作成者', '申請人', '（令和4年〇月〇日作成）',
+          '主である建物', '1階', '（略）']:
+    check('答案用紙2ページ目の印刷', n, t2, '答案用紙')
+check('答案用紙2ページ目の（略）は3か所（作成者・申請人・主である建物1階）', '3', str(t2.count('（略）')), '答案用紙')
+check('答案用紙1ページ目の（略）は代理人の1か所', '1', str(t1.count('略')), '答案用紙')
+for bad in ['登録免許税', '添付情報', '一棟の建物', '登記原因及びその日付']:
+    absent('答案用紙1ページ目', bad, t1, '答案用紙')
+for n in ['250', '500']:
+    check('答案用紙の縮尺の印刷', n, t2, '答案用紙')
+# 申請書の画像の欄名・順序が答案用紙と同じか（登記の目的→添付書類→申請日→申請人→代理人→所在→家屋番号）
+order = [h.find(k) for k in ['登記の目的', '添　付　書　類', '令和４年10月17日', '申　　請　　人', '代　　理　　人', '所　在', '家屋番号']]
+ok = all(i >= 0 for i in order) and order == sorted(order)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'申請書HTMLの欄の順序が答案用紙どおり : {order}')
+# 「仮」の欄の形の記述が残っていないか（担当フォルダの記事・プロンプト・スクリプト）
+for fn in ['note_R4_dai22mon_tatemono_kaisetsu.md', 'prompt_R4_dai22mon_kaisetsuzu.md', 'prompt_R4_dai22mon_toukishinseisho_gazou.md',
+           'prompt_R4_dai22mon_toukishinseisho_machigai.md', 'zu/draw_R4_dai22mon_kaisetsuzu.py', 'zu/make_R4_dai22mon_shinseisho_gazou.py']:
+    src = open(os.path.join(HERE, fn), encoding='utf-8').read()
+    for bad in ['仮の形', '欄の形は仮', '（仮', 'リポジトリになく', 'R06-tatemono/a2.png']:
+        absent(fn, bad, src, '仮の記述')
 for n in ['assert round(area([P(*v) for v in F1]), 2) == 113.00', 'assert round(area([P(*v) for v in GAR_WRONG]), 2) == 20.91',
           '(61.075, 58.225, 68.85, 64.7, 77.47, 72.32)']:
     check('作図スクリプトの検算', n, drw, '作図')

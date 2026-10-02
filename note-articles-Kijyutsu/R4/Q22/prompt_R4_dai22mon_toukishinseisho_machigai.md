@@ -55,4 +55,4 @@ note記事「【土地家屋調査士受験生向け】令和4年度問題22（�
 - PNG画像（1枚、3段構成）
 - 画像の元になったHTMLファイル
 
-**生成済み（2026-09-29）**：`zu/make_R4_dai22mon_shinseisho_gazou.py`（HTML＋Playwright）で `zu/R4_dai22mon_toukishinseisho_machigai.png`（1200×1580px、3コマを縦に積む）と `zu/R4_dai22mon_toukishinseisho_machigai.html` を書き出してある。欄の形は完成形と同じく試験の答案用紙（第1欄）に合わせた
+**生成済み（2026-09-29）**：`zu/make_R4_dai22mon_shinseisho_gazou.py`（HTML＋Playwright）で `zu/R4_dai22mon_toukishinseisho_machigai.png`（1200×1580px、3コマを縦に積む）と `zu/R4_dai22mon_toukishinseisho_machigai.html` を書き出してある。欄の形は完成形と同じく試験の答案用紙（第1欄）に合わせた（2026-10-02、`touan_youshi/` の実物で見出し行の文言と床面積の点線を確かめた）
