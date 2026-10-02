@@ -156,7 +156,7 @@ def pick(bank, st, n, subject, topic, mode):
         except Exception:
             pass
     pool = {i: x for i, x in bank.items()
-            if x.get('status', 'verified') == 'verified'
+            if x.get('status', 'verified') in ('verified', 'provisional')
             and (not subject or x['subject'] == subject)
             and (not topic or x['topic'] == topic)}
     ts = topic_stats(bank, st)

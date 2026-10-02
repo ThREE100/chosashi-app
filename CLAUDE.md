@@ -458,3 +458,11 @@ I点はBCとY＝485.26の交点で I ＝ B ＋ (C − B) × 0.57 ÷ 10.57 ＝（
 `anaume-app/src/data/anaume.json`、解答履歴は端末のlocalStorage（JSONの書き出し・読み込みあり）。
 間違えた問題は1日2回（朝・夜）の復習の回に忘却曲線の間隔で出し、間違えた回数だけ正解すると復習リストから消える。
 仕様と使い方は`anaume-app/README.md`。
+
+## 択一式 一問一答ドリル（〇×？の3択・苦手分析）について(2026-10-02追加)
+
+R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）を、Claude Codeのスマホアプリ上で解き、正誤を記録して苦手論点をあぶり出す仕組み。
+問題バンクは`tools/drill/data/items.json`、エンジンは`tools/drill/drill.py`、操作手順はスキル`/drill`（`.claude/skills/drill/SKILL.md`）、
+仕様・データの確かさは`tools/drill/README.md`。回答は〇・×・？（？＝わからない）。学習記録はコードと分けて専用ブランチ`drill-log`の`log.jsonl`に残す
+（`main`統一ルールの例外。記録専用でnote記事は置かない）。正誤はバンクの値だけを正とし、会話中に自分の判断で変えない。
+公式正答と解説記事が食い違う改題は`tools/drill/REVIEW_HOLD.md`に保留してある。
