@@ -4,6 +4,9 @@
   欄の形は試験の答案用紙（第1欄・第2欄）に合わせる（所在は2段で2段目の右端に原因、家屋番号の右に印刷の「（略）」、
   問2は申請人・代理人・家屋番号・①種類の列が印刷の「（略）」、申請の日付は「令和　年　月　日」の枠に数字を記入）
 - 添削　：`../prompt_R7_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第4欄（問4のア〜エ。2026-10-02追加）：申請書でない解答欄も、記号ごとの記入欄の形で別の画像にする（横1200px）。
+  試験の答案用紙そのものはリポジトリにないので、欄の見出しと記号・記入欄だけの簡素な仮の形にしている（R5/Q22の第1欄・第4欄と同じ形）。
+  答えは〔語句群〕から選んだ文言をそのまま書く
 
 CSSと部品の作りは `R7/Q21/zu/make_R7_dai21mon_shinseisho_gazou.py` と同じ形にしている。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP、なければIPA明朝・IPAゴシック）
@@ -203,12 +206,28 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">令和7年度 第22問｜取り壊した建物は、同じ符号で生き返らない</div>''')
 
+# ---- 第4欄（問4）の完成形：記号ごとの記入欄（2026-10-02追加。答案用紙の形は仮） ----
+DAI4 = [('ア', '物理'), ('イ', '報告'), ('ウ', '1月'), ('エ', '10万円以下の過料')]
+
+
+def anaume(title, rows, caption):
+    trs = ''.join(f'<tr><td class="lab2" style="height:72px;font-size:26px;text-align:center">{k}</td>'
+                  f'<td style="padding-left:28px;font-size:26px">{ink(v)}</td></tr>' for k, v in rows)
+    return page(f'''<div style="padding:50px 60px 36px">
+<div style="font-size:28px;font-weight:bold;font-family:'Noto Sans CJK JP',sans-serif;margin-bottom:10px">{title}</div>
+<table class="bldg"><colgroup><col style="width:16%"><col style="width:84%"></colgroup>{trs}</table>
+<div class="caption">{caption}</div></div>''')
+
+
+dai4 = anaume('第4欄', DAI4, '令和7年度 土地家屋調査士試験 第22問 第4欄（問4）解答例')
+
 if __name__ == '__main__':
     exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-        pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-        for name, html in [('R7_dai22mon_toukishinseisho_kansei_toi1', toi1),
+        pg = browser.new_page(viewport={'width': 1200, 'height': 200})
+        for name, html in [('R7_dai22mon_dai4ran_kansei', dai4),
+                           ('R7_dai22mon_toukishinseisho_kansei_toi1', toi1),
                            ('R7_dai22mon_toukishinseisho_kansei_toi2', toi2),
                            ('R7_dai22mon_toukishinseisho_machigai', machigai)]:
             hp = os.path.join(OUT, name + '.html')
@@ -218,5 +237,5 @@ if __name__ == '__main__':
             png = os.path.join(OUT, name + '.png')
             pg.screenshot(path=png, full_page=True)
             w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-            print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+            print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else ('横長（第4欄は小さい表なので横長でよい）' if 'ran' in name else '横長（要確認）')))
         browser.close()
