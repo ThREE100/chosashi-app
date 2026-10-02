@@ -112,6 +112,8 @@ def parse_article(md_text):
         non_empty = [inline_md_to_html(q) for q in quote_lines if q]
         quote_html = "<br><br>\n".join(non_empty)
         body_parts.append(f"<blockquote><p>{quote_html}</p></blockquote>")
+        # 問題文（引用）と解説文の間の区切り線
+        body_parts.append("<hr>")
 
     # 「### まとめ表」または「### まとめ」より前、引用より後の本文
     # (導入文 + 各肢解説)
