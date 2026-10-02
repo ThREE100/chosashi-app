@@ -1,4 +1,4 @@
-"""令和3年度 第21問（土地）会話形式note記事の解説図10枚を、座標値から作図する。
+"""令和3年度 第21問（土地）会話形式note記事の解説図12枚を、座標値から作図する。
 
 `../prompt_R3_dai21mon_kaiwa_kaisetsuzu.md`（基本フォーム `../../../prompt_kaisetsuzu-gazou_kihon-form_tochi.md` から作成）
 の指示を、そのままPythonにしたもの。図に書く数値はすべて座標から計算し直し、記事の数値と一致しなければ止まる。
@@ -362,31 +362,11 @@ fig.savefig(path, dpi=100, facecolor='white')
 print('[重なり検査] 図7: 数直線（固定配置）\n  →', path)
 
 # =====================================================================
-# 図8：問3 分筆後の区画と地番
-# =====================================================================
-fig, (ax,) = new_figure('図8　問3　分筆後の区画と地番（10番1 → 10番1・10番8・10番9）',
-                        '予定地番：乙区画が10番1のまま（イ）、甲区画が10番8（ロ）、丙区画が10番9（ハ）。\n'
-                        '分筆元の登記原因は「③10番1、10番8、10番9に分筆」、10番8・10番9は「10番1から分筆」。登録免許税は分筆後の3個で金3,000円。')
-z = Zu(ax)
-fit(ax, ZEN, margin=0.12, pad_aspect=True)
-z.poly(HEI, fill=GREEN)
-z.poly(OTSU, fill=BLUE)
-z.poly(KOU, fill=ORANGE)
-z.north_arrow()
-z.free_text(centroid(HEI), '（ハ）10番9\n135.84㎡\n三郎', fs=17)
-z.free_text(centroid(OTSU), '（イ）10番1\n126.84㎡\n二郎', fs=17)
-z.free_text(centroid(KOU), '（ロ）10番8\n123.21㎡\n一郎', fs=17)
-for p, n in [(H, 'H'), (I, 'I'), (J, 'J'), (K, 'K'), (L, 'L'), (F, 'F'), (D, 'D'), (B, 'B'), (C, 'C')]:
-    z.point(p, 'dot', size=6)
-    z.point_label(p, n, away=cz)
-ALL_PROBLEMS += save(fig, [z], 'R3_dai21mon_zu08_bunpitsu_chiban.png')
-
-# =====================================================================
-# 図9：問3 申請人（代位）の関係図（固定配置の説明図）
+# 図8：問3 申請人（代位）の関係図（固定配置の説明図）
 # =====================================================================
 fig = plt.figure(figsize=(16, 12), dpi=100)
 fig.patch.set_facecolor('white')
-fig.suptitle('図9　問3　申請人は「二郎が一郎と三郎に代位」', fontsize=24, weight='bold', y=0.965)
+fig.suptitle('図8　問3　申請人は「二郎が一郎と三郎に代位」', fontsize=24, weight='bold', y=0.965)
 ax = fig.add_axes([0.03, 0.10, 0.94, 0.80])
 ax.set_xlim(0, 100)
 ax.set_ylim(0, 100)
@@ -423,14 +403,72 @@ ax.text(10, 7.5, '代位原因　令和3年8月1日遺産分割の所有権移�
 fig.text(0.5, 0.045, '分筆の申請人は登記名義人（法第39条第1項）→ 死亡したので相続人（法第30条）。二郎1人で申請するので一郎・三郎の分は代位。\n'
          '申請情報に代位者である旨・被代位者の氏名住所・代位原因（令第3条第4号）。添付：相続証明書（令第7条第1項第4号）・代位原因証書（同項第3号）',
          ha='center', va='center', fontsize=15)
-path = os.path.join(OUT, 'R3_dai21mon_zu09_dai_kankei.png')
+path = os.path.join(OUT, 'R3_dai21mon_zu08_dai_kankei.png')
 fig.savefig(path, dpi=100, facecolor='white')
-print('[重なり検査] 図9: 説明図（固定配置）\n  →', path)
+print('[重なり検査] 図8: 説明図（固定配置）\n  →', path)
 
 # =====================================================================
-# 図10：問4 地積測量図の完成見本
+# 図9：問3 分筆後の区画と地番
 # =====================================================================
-fig, (ax,) = new_figure('図10　問4　地積測量図（10番1・10番8・10番9）の完成見本',
+fig, (ax,) = new_figure('図9　問3　分筆後の区画と地番（10番1 → 10番1・10番8・10番9）',
+                        '予定地番：乙区画が10番1のまま（イ）、甲区画が10番8（ロ）、丙区画が10番9（ハ）。\n'
+                        '分筆元の登記原因は「③10番1、10番8、10番9に分筆」、10番8・10番9は「10番1から分筆」。登録免許税は分筆後の3個で金3,000円。')
+z = Zu(ax)
+fit(ax, ZEN, margin=0.12, pad_aspect=True)
+z.poly(HEI, fill=GREEN)
+z.poly(OTSU, fill=BLUE)
+z.poly(KOU, fill=ORANGE)
+z.north_arrow()
+z.free_text(centroid(HEI), '（ハ）10番9\n135.84㎡\n三郎', fs=17)
+z.free_text(centroid(OTSU), '（イ）10番1\n126.84㎡\n二郎', fs=17)
+z.free_text(centroid(KOU), '（ロ）10番8\n123.21㎡\n一郎', fs=17)
+for p, n in [(H, 'H'), (I, 'I'), (J, 'J'), (K, 'K'), (L, 'L'), (F, 'F'), (D, 'D'), (B, 'B'), (C, 'C')]:
+    z.point(p, 'dot', size=6)
+    z.point_label(p, n, away=cz)
+ALL_PROBLEMS += save(fig, [z], 'R3_dai21mon_zu09_bunpitsu_chiban.png')
+
+# =====================================================================
+# 図10：問4 問題文の注の仕分けと作図の範囲（固定配置の整理図。2026-10-02追加。予備校の解説と見比べて記事に足した観点用）
+# =====================================================================
+PTS_ALL = [T1, T2, B, C, D, F, H, I, J, K, L]   # 地積測量図に描く点（A・G・Eは描かない）
+ew = max(p.imag for p in PTS_ALL) - min(p.imag for p in PTS_ALL)
+ns = max(p.real for p in PTS_ALL) - min(p.real for p in PTS_ALL)
+assert round(ew * 4) == 126 and round(ns * 4) == 89, (ew, ns)
+fig = plt.figure(figsize=(16, 12), dpi=100)
+fig.patch.set_facecolor('white')
+fig.suptitle('図10　問4　問題文の注の仕分けと地積測量図の作図の範囲', fontsize=24, weight='bold', y=0.965)
+ax = fig.add_axes([0.03, 0.10, 0.94, 0.80])
+ax.set_xlim(0, 100)
+ax.set_ylim(0, 100)
+ax.axis('off')
+box(3, 50, 44, 44, GRAY, '#f4f4f4')
+ax.text(25, 90, '毎年ほとんど同じ注', ha='center', va='center', fontsize=20, weight='bold', color=GRAY)
+for k, t in enumerate(['問題文の注1　行為・書類はすべて適法', '問題文の注2　書面申請', '問題文の注3　座標は小数第3位を四捨五入',
+                       '問題文の注4　縮尺は250分の1、辺長は\n　　　　　　　小数第3位を四捨五入', '問題文の注7　字画を明確に（訂正・加入・削除）']):
+    ax.text(6, 81 - k * 7.2, t, ha='left', va='center', fontsize=16, linespacing=1.3)
+box(53, 50, 44, 44, RED, '#fff1f1')
+ax.text(75, 90, '今年だけの注（ここに印を付ける）', ha='center', va='center', fontsize=20, weight='bold', color=RED)
+ax.text(56, 78, '問題文の注5　地積測量図に書かないもの', ha='left', va='center', fontsize=16, weight='bold')
+ax.text(56, 71.5, '・各筆界点の座標値　・平面直角座標系の番号\n・地積とその求積方法　・測量年月日', ha='left', va='center',
+        fontsize=16, linespacing=1.5)
+ax.text(56, 61, '問題文の注6　K市基準点（T1・T2）', ha='left', va='center', fontsize=16, weight='bold')
+ax.text(56, 55.5, '・位置と点名だけ書く（座標値は書かない）', ha='left', va='center', fontsize=16)
+box(3, 6, 94, 34, BLUE, '#eef4fb')
+ax.text(50, 36, '作図の範囲（T1・T2まで入れて描く）', ha='center', va='center', fontsize=20, weight='bold', color=BLUE)
+ax.text(8, 27, f'東西：T1（Y 500.00）〜 T2（Y 531.50）　約{ew:.0f}m　→　1/250（1m ＝ 4mm）で約126mm', ha='left', va='center', fontsize=17)
+ax.text(8, 19, f'南北：T2（X 496.77）〜 F（X 518.95）　約{ns:.0f}m　→　1/250で約89mm', ha='left', va='center', fontsize=17)
+ax.text(8, 11, '答案用紙の枠に収まるので、基準点を省略せずに描ける。描き始める前に範囲を確かめる', ha='left', va='center', fontsize=17)
+fig.text(0.5, 0.045, '問題文の注のうち、今年だけの注（問題文の注5・問題文の注6）が「書く・書かない」を決める。調査図素図の注（点の条件）や\n'
+         '観測値の表の下の注（観測角は時計回り）とは別の番号なので、「問題文の注5」のように出どころを付けて読む。',
+         ha='center', va='center', fontsize=15)
+path = os.path.join(OUT, 'R3_dai21mon_zu10_chuu_shiwake.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図10: 整理図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図11：問4 地積測量図の完成見本
+# =====================================================================
+fig, (ax,) = new_figure('図11　問4　地積測量図（10番1・10番8・10番9）の完成見本',
                         '縮尺1/250で答案用紙に描くと 1m ＝ 4mm。辺長は小数第3位を四捨五入（DL・JF は 8.4984… なので 8.50）。\n'
                         '座標値・地積・求積方法・測量年月日は書かない（問題文の注5）。基準点T1・T2は位置と点名だけ（問題文の注6）。A・G・Eは描かない。')
 z = Zu(ax)
@@ -470,14 +508,14 @@ z.edge_label(C, D, '道路', cz, fs=16, dists=(45, 58), rotate=False)
 z.free_text(F, '10－3', fs=16, offsets=((-45, 30), (-60, 20), (-60, 40)))
 z.free_text(P(498.3, 496.0), '（単位：ｍ）\n◎ コンクリート杭：F・H・I・J・K・L\n● 金属標：B・C・D\n△ 基準点：T1・T2', fs=13,
             ha='left', va='top', offsets=((0, 0), (20, 0), (0, -20), (40, -20)))
-ALL_PROBLEMS += save(fig, [z], 'R3_dai21mon_zu10_chiseki_sokuryouzu.png')
+ALL_PROBLEMS += save(fig, [z], 'R3_dai21mon_zu11_chiseki_sokuryouzu.png')
 
 # =====================================================================
-# 図11：本番の解く順番（固定配置の流れ図）
+# 図12：本番の解く順番（固定配置の流れ図）
 # =====================================================================
 fig = plt.figure(figsize=(16, 12), dpi=100)
 fig.patch.set_facecolor('white')
-fig.suptitle('図11　本番の解く順番（時間を食う計算を後ろへ）', fontsize=24, weight='bold', y=0.965)
+fig.suptitle('図12　本番の解く順番（時間を食う計算を後ろへ）', fontsize=24, weight='bold', y=0.965)
 ax = fig.add_axes([0.03, 0.10, 0.94, 0.80])
 ax.set_xlim(0, 100)
 ax.set_ylim(0, 100)
@@ -503,8 +541,8 @@ for num, head, body, ec, fc in STEPS:
 fig.text(0.5, 0.045, 'A点は本件土地の筆界点ではなく、H点を出すためだけに使う点。L点が出なくても、申請書は3つの地積以外を全部書ける\n'
          '（丙区画の地積はH点があれば出せる）。代位の申請人の欄を先に書いておけば、計算で詰まっても点が残る。',
          ha='center', va='center', fontsize=15)
-path = os.path.join(OUT, 'R3_dai21mon_zu11_kaku_junban.png')
+path = os.path.join(OUT, 'R3_dai21mon_zu12_kaku_junban.png')
 fig.savefig(path, dpi=100, facecolor='white')
-print('[重なり検査] 図11: 流れ図（固定配置）\n  →', path)
+print('[重なり検査] 図12: 流れ図（固定配置）\n  →', path)
 
 print('重なりの合計:', len(ALL_PROBLEMS))

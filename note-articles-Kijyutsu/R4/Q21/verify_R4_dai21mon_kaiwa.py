@@ -164,9 +164,9 @@ b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋め
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（10枚）', n_fig == 10)
+judge(f'解説図プロンプトの図の数 {n_fig}枚（12枚）', n_fig == 12)
 pngs = os.listdir(os.path.join(HERE, 'zu'))
-for i in range(1, 11):
+for i in range(1, 13):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'R4_dai21mon_zu{i:02d}_') and f.endswith('.png') for f in pngs))
 for s in ['584.84㎡', '584.82㎡', '15.06㎡', '15.10㎡', '33.19', '33.41', '36.57', '（300.63, 293.12）',
           '（300.13, 293.12）', '（279.30, 293.12）', '（310.66, 292.14）', '264°24′08.42″', '338°29′30″',
@@ -198,8 +198,20 @@ for (i1, s1_), (i2, s2_) in zip(speakers, speakers[1:]):
     if s1_ == s2_ and not any(x.startswith(('## ', '```', '表示：', '- ', '> ')) for x in between):
         same.append(i2)
 judge(f'同じ話者のセリフが地の文なしで続いていない: {same}', not same)
+# 画像挿入マーカーをはさんで同じ話者が続くのも1つの連続とみなす（2026-10-02追加）
+same_m = []
+for (i1, s1_), (i2, s2_) in zip(speakers, speakers[1:]):
+    j = i1
+    while j < len(lines) and not lines[j].rstrip().endswith('」'):
+        j += 1
+    rest = [x for x in lines[j + 1:i2 - 1] if x.strip()]
+    if s1_ == s2_ and rest and all(x.startswith('> 【画像挿入】') for x in rest):
+        same_m.append(i2)
+judge(f'同じ話者のセリフが画像挿入マーカーだけをはさんで続いていない: {same_m}', not same_m)
+check('登場人物（トリ先生）', '**トリ先生**：見た目はぽっちゃりした鳥のキャラクター。調査士試験の要点と受験生の弱点を熟知している。口調は辛辣だが、初学者への愛は深い。')
+check('登場人物（藍子）', '**藍子（アイコ）**：ブルーの細い縦じまが入ったブラウスにネイビーのスーツをパリッと着こなす受験生。まじめで素直だが、問題作成者の仕掛けたワナに見事に引っかかる猪突猛進な面も。')
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図10＋添削1＋完成形1＝計12か所の想定）', n_marker == 12)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図12＋添削1＋完成形1＋第1欄・第2欄・第5欄3＝計17か所の想定）', n_marker == 17)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】令和4年度問題21（土地）〜'
@@ -258,5 +270,66 @@ judge(f'注の番号はすべて書き分けている（書き分けていない
 bare_fig = [m.group(0) for m in re.finditer(r'(?<!問題文の)注[57]', draw)]
 judge(f'作図の説明文の注も「問題文の注N」（{bare_fig}）', not bare_fig)
 
+
+# ---- 2026-10-02 追加：穴埋めの答えの語を会話で言っているか ----
+for s_ in ['だから（ア）は『表題登記』', '（イ）は『隣接』です', '（ウ）は『筆界の現地における（ウ）を特定すること』だから『位置』', '「『範囲』です！」',
+           'だから①②③は、日時・場所・その状況です', '「④は『申請の権限』、⑤は『登記名義人』です！」',
+           '「第1欄は、I点（300.13, 293.12）、J点（279.30, 293.12）です！」']:
+    check('答えの語を会話で言っている', s_)
+
+# ---- 2026-10-02 追加：記事の画像挿入マーカーと zu/ のPNGが記事の順に対応しているか ----
+ZU = os.path.join(HERE, 'zu')
+markers = [l for l in lines if l.startswith('> 【画像挿入】')]
+PNGS = [('R4_dai21mon_zu01_zentaizu', '北を上にして座標どおりに描き直した全体図', 'fig'),
+        ('R4_dai21mon_zu02_hikkai_hikaku', 'AB線とE→F→Gの比較図', 'fig'),
+        ('R4_dai21mon_zu03_gouseizu', '合成図の辺長で筆界を裏付ける図', 'fig'),
+        ('R4_dai21mon_zu04_P_housha', 'T1からの放射でP点を求める図', 'fig'),
+        ('R4_dai21mon_dai1ran_kansei', '第1欄（問1）の完成形', 'wide'),
+        ('R4_dai21mon_zu05_I_J', 'I点とJ点の求め方の図', 'fig'),
+        ('R4_dai21mon_dai2ran_kansei', '第2欄（問2）の完成形', 'wide'),
+        ('R4_dai21mon_zu06_hikkai_tokutei', '筆界特定の穴埋めの図', 'fig'),
+        ('R4_dai21mon_zu07_bunpitsu_chiban', '分筆後の区画と地番・地目の図', 'fig'),
+        ('R4_dai21mon_zu08_taikakusen', '（イ）の面積を対角線で出す別解の図', 'fig'),
+        ('R4_dai21mon_zu09_kousa', '地積更正が要るかの判定図', 'fig'),
+        ('R4_dai21mon_toukishinseisho_machigai', '誤答→添削→正解の3コマ', 'tall'),
+        ('R4_dai21mon_toukishinseisho_kansei', '登記申請書（問3）の完成形', 'tall'),
+        ('R4_dai21mon_zu10_chiseki_sokuryouzu', '地積測量図（184番1・184番3・184番4）の完成見本', 'fig'),
+        ('R4_dai21mon_dai5ran_kansei', '第5欄（問5）の完成形', 'wide'),
+        ('R4_dai21mon_zu11_honnin_kakunin', '本人確認情報の穴埋めの図', 'fig'),
+        ('R4_dai21mon_zu12_kaku_junban', '本番で解く順番の図', 'fig')]
+judge(f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
+for (name, key, kind), m in zip(PNGS, markers):
+    path = os.path.join(ZU, name + '.png')
+    ok = os.path.exists(path) and key in m
+    if ok:
+        w, h = struct.unpack('>II', open(path, 'rb').read()[16:24])
+        ok = (w == 1200 and h > w) if kind == 'tall' else (w == 1200 and h < w) if kind == 'wide' else w >= 1200
+    judge(f'PNG（マーカー順・大きさ） : {name}', ok)
+    src = fig if '_zu' in name else (fix if 'machigai' in name else form)
+    judge(f'プロンプトにファイル名 : zu/{name}.png', f'zu/{name}.png' in src)
+extra = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - {n for n, _, _ in PNGS})
+judge(f'zu/ に記事で使わないPNGがない : {extra}', not extra)
+for name, needles in [('R4_dai21mon_dai1ran_kansei', ['第1欄', 'Ｉ点', 'Ｊ点', '300.13', '279.30', '293.12', 'Ｘ座標（ｍ）']),
+                      ('R4_dai21mon_dai2ran_kansei', ['第2欄', '表題登記', '隣接', '位置', '範囲']),
+                      ('R4_dai21mon_dai5ran_kansei', ['第5欄', '日時', '場所', 'その状況', '申請の権限', '登記名義人', '①〜③は順不同'])]:
+    h_ = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()
+    for n_ in needles:
+        check(f'{name}.html', n_, h_, '解答欄の画像')
+for s_ in ['「Ｉ点」「300.13」「293.12」', '「Ｊ点」「279.30」「293.12」', '「ア」「表題登記」「イ」「隣接」／「ウ」「位置」「エ」「範囲」',
+           '「⑤」「登記名義人」', '仮のもの']:
+    check('解答欄の画像のプロンプト', s_, form, '登記申請書')
+check('図8の説明文', 'Conjg(I − C) × (D − J) ＝ 355.7164 ＋ 424.467i', draw, '作図')
+check('図8の説明文（プロンプト）', 'Conjg(I − C) × (D − J) ＝ 355.7164 ＋ 424.467i', fig, '解説図')
+judge('図8の（ハ）の対角線の式も15.0604', abs(abs(((H - E).conjugate() * (F - A)).imag) / 2 - 15.0604) < 1e-9)
+check('図12（プロンプト）', '①問2・問5（計算なし）', fig, '解説図')
+check('図10の作図範囲', 'T1・T2まで入れると南北27.59m・東西33.16m（1/250で縦約11cm・横約13cm）', draw, '作図')
+check('作図の図の番号（図12）', "'図12　本番で解く順番", draw, '作図')
+bare_p = [m.group(0) for m in re.finditer(r'(?<!問題文の)(?<!調査図素図の)注[0-9]', fig.split('## 差し替えデータ')[-1])]
+judge(f'解説図プロンプトの差し替えデータの注も書き分けている（{bare_p}）', not bare_p)
+bare_f = [m.group(0) for m in re.finditer(r'(?<!問題文の)注[0-9]', form)]
+judge(f'申請書のプロンプトの注も書き分けている（{bare_f}）', not bare_f)
+
+for q in re.findall(r'\*\*記事の挿入位置\*\*：[^「\n]*「([^」]+)」', fig):
+    check('解説図の挿入位置の引用', q, None, '記事（図の挿入位置）')
 
 print('NG件数:', ng)

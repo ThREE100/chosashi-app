@@ -4,6 +4,10 @@
   R2の答案用紙のとおり、項目の順序は 登記の目的 → 添付書類 → 登録免許税 → 申請人 → 代理人 → 申請の日付と提出先。
   土地の表示は記入行6行で、③地積はすべての行で点線により整数部・小数部に分け、「（略）」の印刷はない
 - 添削　：`../prompt_R2_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第1欄（問1のB点・G点・H点）・第3欄（問3のア〜オ）：申請書でない解答欄も、別の画像にする（横1200pxの横長。2026-10-02追加）。
+  試験の答案用紙そのものはリポジトリにないので、欄の見出しと記号・記入欄だけの簡素な形（令和6年度の答案用紙の第1欄・第2欄の
+  形にならった仮のもの）にしている
+- 完成形の表の下に、相続証明書の今の扱い（法定相続情報番号）の注を入れる（2026-10-02追加。記事の本文の注と同じ文言）
 
 見本は `R6/Q21/zu/`・`R7/Q21/zu/` の生成スクリプト（CSSと部品を同じ形にしている）。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
@@ -103,7 +107,10 @@ EXTRA_CSS = """
 table.land td.cause { white-space: normal; line-height: 1.35; }
 table.land td.cause .ink { font-size: 23px; }
 """
-CSS = CSS + EXTRA_CSS
+CSS = CSS + EXTRA_CSS + """
+.tnote { font-size: 17px; color: #444; margin-top: 12px; line-height: 1.6;
+         font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+"""
 
 # ---- 完成形（記入データは prompt_R2_dai21mon_toukishinseisho_gazou.md のとおり） ----
 DATE = '令和２年10月18日　申請　Ａ地方法務局'
@@ -113,6 +120,8 @@ APPLICANT = [('', '（被相続人　山川一郎）'),
              ('相続人　', 'Ａ市Ｂ町一丁目32番地４　山川小太郎'),
              ('　　　　', 'Ａ市Ｂ町一丁目32番地５　香川浪子')]
 RO_CAUSE = '32番５から分割して32番４に合併する部分'
+NOTE = ('※相続証明書は、今は法定相続情報一覧図の写しか法定相続情報番号の提供で代えることもできる（不動産登記規則第37条の3第1項）。'
+        '出題当時は法定相続情報番号の制度がなかった')
 
 
 def rows(i_int, i_dec, g_int, g_dec, red=None):
@@ -135,6 +144,7 @@ kansei = page(f'''<div class="page">
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
 <div class="plain">{DATE}</div>
 {land_table(rows('107', '73', '156', '12'), shozai=ink('Ａ市Ｂ町一丁目'))}
+<div class="tnote">{NOTE}</div>
 <div class="caption">令和2年度 土地家屋調査士試験 第21問 登記申請書 解答例</div>
 </div>''')
 
@@ -155,11 +165,57 @@ machigai = page(FIXCSS + f'''
 <div class="panel"><div class="ptitle ok">③正解</div><div class="good" style="position:relative">{ok}{CHECK_SVG}</div></div>
 <div class="caption" style="margin:10px 0 30px">令和2年度 第21問｜（イ）は座標で求めた107.73、合筆後の32番4は123.00＋33.12＝156.12</div>''')
 
+# ---- 申請書でない解答欄（第1欄・第3欄。2026-10-02追加）----
+RAN_CSS = (
+    '* { box-sizing: border-box; margin: 0; padding: 0; }'
+    'body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }'
+    '.ran { padding: 46px 60px 26px; }'
+    '.rt { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin-bottom: 12px; }'
+    'table.rz { width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }'
+    'table.rz td { border: 1.5px solid #111; height: 84px; font-size: 22px; text-align: center; vertical-align: middle; }'
+    'table.rz td.head { height: 60px; font-size: 21px; }'
+    'table.rz td.diag { background: linear-gradient(to top right, transparent calc(50% - 1px), #111 50%, transparent calc(50% + 1px)); }'
+    f'.ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; }}'
+    '.cap { text-align: center; font-size: 17px; color: #555; margin-top: 22px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }')
+
+
+def ran_page(title, table, caption):
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{RAN_CSS}</style></head><body>'
+            f'<div class="ran"><div class="rt">{title}</div>{table}<div class="cap">{caption}</div></div></body></html>')
+
+
+def zahyou_table(rows_):
+    """座標の欄。rows_: [(点名, X, Y)]"""
+    trs = ''.join(f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in rows_)
+    return ('<table class="rz"><colgroup><col style="width:30%"><col style="width:35%"><col style="width:35%"></colgroup>'
+            '<tr><td class="head diag"></td><td class="head">Ｘ座標（ｍ）</td><td class="head">Ｙ座標（ｍ）</td></tr>'
+            f'{trs}</table>')
+
+
+def anaume_table(items):
+    """穴埋めの欄。記号と記入欄を2組ずつ横に並べる。items: [(記号, 答え)]"""
+    trs = ''
+    for k in range(0, len(items), 2):
+        pair = items[k:k + 2]
+        tds = ''.join(f'<td>{m}</td><td>{ink(a)}</td>' for m, a in pair)
+        if len(pair) == 1:
+            tds += '<td></td><td></td>'
+        trs += f'<tr>{tds}</tr>'
+    return ('<table class="rz"><colgroup><col style="width:8%"><col style="width:42%"><col style="width:8%">'
+            f'<col style="width:42%"></colgroup>{trs}</table>')
+
+
+DAI1 = [('Ｂ点', '25.18', '5.48'), ('Ｇ点', '14.34', '12.64'), ('Ｈ点', '23.34', '3.64')]
+DAI3 = [('ア', '不動産'), ('イ', '登記名義人'), ('ウ', '書面'), ('エ', '合筆'), ('オ', '合併')]
+dai1 = ran_page('第1欄　Ｂ点、Ｇ点及びＨ点の座標値', zahyou_table(DAI1), '令和2年度 土地家屋調査士試験 第21問 第1欄（問1）解答例')
+dai3 = ran_page('第3欄　登記識別情報の説明（ア〜オ）', anaume_table(DAI3), '令和2年度 土地家屋調査士試験 第21問 第3欄（問3）解答例')
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('R2_dai21mon_toukishinseisho_kansei', kansei), ('R2_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 100})
+    for name, html in [('R2_dai21mon_toukishinseisho_kansei', kansei), ('R2_dai21mon_toukishinseisho_machigai', machigai),
+                       ('R2_dai21mon_dai1ran_kansei', dai1), ('R2_dai21mon_dai3ran_kansei', dai3)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -167,5 +223,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長'))
     browser.close()

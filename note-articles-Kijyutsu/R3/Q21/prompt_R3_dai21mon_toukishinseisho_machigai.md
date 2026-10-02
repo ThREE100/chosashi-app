@@ -1,10 +1,10 @@
 # 画像作成プロンプト：令和3年度 第21問（土地）登記申請書「よくある間違い」添削画像
 
-note記事「【土地家屋調査士受験生向け】令和3年度問題21（土地）〜二郎が一郎と三郎に代位して分筆〜」第8章、申請人の関係図（図9）の直後に挿入する画像。**完成形（`prompt_R3_dai21mon_toukishinseisho_gazou.md`）のうち「添付書類」欄と申請人の枠だけを取り出し、誤答→添削→正解の過程を1枚で見せる。**
+note記事「【土地家屋調査士受験生向け】令和3年度問題21（土地）〜二郎が一郎と三郎に代位して分筆〜」第8章、申請人の関係図（図8）の直後に挿入する画像。**完成形（`prompt_R3_dai21mon_toukishinseisho_gazou.md`）のうち「添付書類」欄と申請人の枠だけを取り出し、誤答→添削→正解の過程を1枚で見せる。**
 
 ※画像生成AI（Midjourney、DALL·E など）は文字中心の画像や添削記号の正確な配置に向きません。完成形と同じくHTML＋ヘッドレスブラウザでPNGに書き出す方式です。Claude（ファイル作成とコード実行ができる環境）で使ってください。
 
-このプロンプトどおりに組んだHTMLと書き出したPNGは `zu/R3_dai21mon_toukishinseisho_machigai.html`・`.png`、生成スクリプトは `zu/make_R3_dai21mon_shinseisho_gazou.py`（2026-09-29作成）。
+このプロンプトどおりに組んだHTMLと書き出したPNGは `zu/R3_dai21mon_toukishinseisho_machigai.html`・`zu/R3_dai21mon_toukishinseisho_machigai.png`、生成スクリプトは `zu/make_R3_dai21mon_shinseisho_gazou.py`（2026-09-29作成）。
 
 ---
 
